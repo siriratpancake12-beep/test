@@ -8,8 +8,10 @@ import type { SpeechScoreRes } from "@lingo/core";
 import { track } from "../analytics";
 import { say, stopSpeaking } from "../speech";
 import { canScoreSpeech, scoreSpeech } from "../speechScore";
+import { useStore } from "../store";
 import { color, s } from "../theme";
 import { Button } from "./Button";
+import { NeedConsent } from "./NeedConsent";
 import { ScoreView, SelfCheck, verdictOfScore, type RecorderProps, type SpeakResult } from "./SpeakFeedback";
 
 /**
@@ -44,6 +46,7 @@ const OPTIONS: RecordingOptions = {
 type Phase = "idle" | "ask" | "denied" | "failed" | "recording" | "scoring" | "recorded";
 
 export function Recorder({ text, locale, lang, gender, voiceKey, done, nextLabel = "完成", onResult }: RecorderProps) {
+  const { consented } = useStore();
   // 录音结束的回调要用最新的状态;expo-audio 只在创建录音机时登记一次监听,所以经过 ref 转一下
   const onStatus = useRef<(st: RecordingStatus) => void>(() => {});
   const recorder = useAudioRecorder(OPTIONS, (st) => onStatus.current(st));
@@ -168,6 +171,18 @@ export function Recorder({ text, locale, lang, gender, voiceKey, done, nextLabel
   }, []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const selfCheck = <SelfCheck onPick={(like) => report({ verdict: like ? "correct" : "wrong", scored: false, score: null })} />;
+
+  // 基本功能模式(没同意隐私政策):不申请麦克风权限、不录音,大声跟读后自己判断
+  if (!consented) {
+    if (done) return null;
+    return (
+      <View style={[s.card, { gap: 10 }]}>
+        <Text style={s.sub}>大声跟读几遍,再和标准发音比一比。</Text>
+        <NeedConsent feature="录音和发音评分" compact />
+        {selfCheck}
+      </View>
+    );
+  }
   const playback = uri && (
     <View style={row}>
       <Chip title={playing ? "⏸ 暂停" : "▶ 我的录音"} onPress={() => (playing ? player.pause() : playMine())} />

@@ -1,10 +1,12 @@
 import Constants from "expo-constants";
 import { Platform } from "react-native";
 import type { ZodType } from "zod";
+import { personalInfoAllowed } from "./privacy";
 
 /**
  * 服务器接口的客户端。接口约定见 packages/core/src/api.ts(ROUTES 和请求/响应格式)。
  * 没配置服务器地址(app.json 的 extra.apiBase 为空)时,App 完全离线运行:不登录、不同步。
+ * 没同意隐私政策(第一次打开、基本功能模式)时一个请求都不发,见 privacy.ts。
  *
  * 网页预览可以在页面加载前设置 window.__LINGO_API_BASE__ 指向测试服务器(端到端测试用这个测登录和同步);
  * 手机上只认 app.json 里的地址。
@@ -35,6 +37,7 @@ export class ApiFailure extends Error {
 /** 调用服务器接口。出错时抛出 ApiFailure,message 是可以直接给用户看的中文。 */
 export async function api<T>(method: "GET" | "POST" | "PUT" | "DELETE", path: string, body?: unknown, schema?: ZodType<T>, timeoutMs = 15000): Promise<T> {
   if (!serverEnabled()) throw new ApiFailure(0, "offline", "没有连接服务器");
+  if (!personalInfoAllowed()) throw new ApiFailure(0, "no_consent", "同意《隐私政策》后才能使用这个功能");
   const ctrl = new AbortController();
   const timer = setTimeout(() => ctrl.abort(), timeoutMs);
   const sent = token;

@@ -5,11 +5,14 @@ import { speakerLabel, speakerOf } from "../content";
 import { say, stopSpeaking } from "../speech";
 import { color, s } from "../theme";
 import { Button } from "./Button";
+import { readingStyle } from "./ChatBubble";
+import { readingOf, ReadingToggle, useReading } from "./Reading";
 import { Recorder } from "./Recorder";
 
 /**
  * 逐句跟读:每一句都 听 → 录 → 回放对比(或服务器打分)。"开不了口"是中国学习者的头号痛点,
- * 课文的每一句都自己说一遍,才算真的学过这课。不能录音(没权限、网页预览)时可以自己判断,也可以整段跳过。
+ * 课文的每一句都自己说一遍,才算真的学过这课。不能录音(没权限、网页预览、基本功能模式)时可以自己判断,也可以整段跳过。
+ * 日语、韩语有读音的,读音显示在原文下面(可以关)。
  * 每句的结果交给 onAnswer(记进进度的"说"),全部读完调用 onFinish。
  */
 export function Shadowing({ lines, pack, onAnswer, onFinish }: {
@@ -20,6 +23,7 @@ export function Shadowing({ lines, pack, onAnswer, onFinish }: {
 }) {
   const [i, setI] = useState(0);
   const [showZh, setShowZh] = useState(false);
+  const reading = useReading(lines);
   const line = lines[i];
   const sp = line ? speakerOf(pack, line.speaker) : undefined;
   const voice = line && sp ? { gender: sp.gender, voiceKey: line.speaker } : {};
@@ -38,9 +42,11 @@ export function Shadowing({ lines, pack, onAnswer, onFinish }: {
       <Pressable onPress={() => say(line.text, pack.locale, false, voice)} onLongPress={() => setShowZh(!showZh)} style={s.card}>
         <Text style={s.sub}>{speakerLabel(sp)}</Text>
         <Text style={s.target}>{line.text} 🔊</Text>
+        {reading.show && !!readingOf(line) && <Text style={readingStyle}>{readingOf(line)}</Text>}
         {showZh ? <Text style={s.sub}>{line.zh}</Text> : <Text style={[s.sub, { color: color.primary }]} onPress={() => setShowZh(true)}>看中文</Text>}
       </Pressable>
       <Button ghost title="🐢 慢速再听" onPress={() => say(line.text, pack.locale, true, voice)} />
+      <ReadingToggle reading={reading} />
       <Recorder
         key={i}
         text={line.text}

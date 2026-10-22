@@ -10,7 +10,10 @@
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.example.lingocn",
-      "usesAppleSignIn": true
+      "usesAppleSignIn": true,
+      "config": {
+        "usesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
@@ -20,7 +23,12 @@
         "monochromeImage": "./assets/android-icon-monochrome.png"
       },
       "predictiveBackGestureEnabled": false,
-      "package": "com.example.lingocn"
+      "package": "com.example.lingocn",
+      "blockedPermissions": [
+        "android.permission.SYSTEM_ALERT_WINDOW",
+        "android.permission.READ_EXTERNAL_STORAGE",
+        "android.permission.WRITE_EXTERNAL_STORAGE"
+      ]
     },
     "web": {
       "favicon": "./assets/favicon.png"
@@ -29,19 +37,42 @@
     "plugins": [
       "expo-router",
       "expo-sqlite",
-      "expo-notifications",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#3355FF",
+          "enableRemoteNotifications": false
+        }
+      ],
       [
         "expo-audio",
         {
-          "microphonePermission": "跟读练习时录下你的发音,和标准发音对比。录音只在本机或用于打分,不会公开。"
+          "microphonePermission": "跟读时录下你的发音,用来和标准发音对比、打分;评分后立即删除,不会保存或公开。",
+          "enableBackgroundPlayback": false
+        }
+      ],
+      [
+        "expo-splash-screen",
+        {
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#FFFFFF"
         }
       ],
       "expo-apple-authentication",
-      "expo-secure-store",
+      [
+        "expo-secure-store",
+        {
+          "faceIDPermission": false
+        }
+      ],
       "expo-iap"
     ],
     "extra": {
-      "apiBase": ""
+      "apiBase": "",
+      "icpRecord": ""
     }
   }
 }

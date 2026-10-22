@@ -6,11 +6,13 @@ import { color, s } from "../theme";
  * 对话气泡:课文对话、角色扮演、AI 对话共用。左边是对方,右边是学习者(或第二个说话人)。
  * 宽度按百分比,320 宽的手机上也不会超出屏幕。
  */
-export function ChatBubble({ side, name, text, zh, tag, highlight, onPress, onLongPress, children }: {
+export function ChatBubble({ side, name, text, reading, zh, tag, highlight, onPress, onLongPress, children }: {
   side: "left" | "right";
   /** 说话人的名字 */
   name?: string;
   text?: string;
+  /** 读音(日语假名、罗马音),显示在原文下面(要显示时才传) */
+  reading?: string;
   /** 中文翻译(要显示时才传) */
   zh?: string;
   /** 右上角的小标签,比如"AI 生成" */
@@ -32,6 +34,7 @@ export function ChatBubble({ side, name, text, zh, tag, highlight, onPress, onLo
         </View>
       )}
       {!!text && <Text style={[s.target, { fontSize: 20 }]}>{text}</Text>}
+      {!!reading && <Text style={readingStyle}>{reading}</Text>}
       {!!zh && <Text style={s.sub}>{zh}</Text>}
       {children}
     </>
@@ -48,3 +51,5 @@ const bubble = { maxWidth: "88%", borderRadius: 16, padding: 12, gap: 4, borderW
 const other = { backgroundColor: color.card, borderColor: color.line, borderTopLeftRadius: 4 } as const;
 const me = { backgroundColor: "#EEF1FF", borderColor: "#D5DCFF", borderTopRightRadius: 4 } as const;
 const tagStyle = { fontSize: 11, color: color.sub, borderWidth: 1, borderColor: color.line, borderRadius: 6, paddingHorizontal: 4 } as const;
+/** 读音:比原文小、比中文显眼一点 */
+export const readingStyle = { fontSize: 15, color: color.primary, lineHeight: 21 } as const;

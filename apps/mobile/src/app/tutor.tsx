@@ -1,13 +1,14 @@
 import { router, Stack, useFocusEffect, useLocalSearchParams } from "expo-router";
 import { useCallback, useMemo, useRef, useState, type ReactNode } from "react";
-import { Pressable, ScrollView, Text, TextInput, View, type ScrollViewInstance } from "react-native";
+import { Platform, Pressable, ScrollView, Share, Text, TextInput, View, type ScrollViewInstance } from "react-native";
 import {
   ROUTES, TutorChatRes, isDone, nextLesson, type Cefr, type LanguagePack, type Progress, type Scenario, type TutorChatRes as ChatRes,
 } from "@lingo/core";
 import { track } from "../analytics";
-import { ApiFailure, api, getToken, serverEnabled } from "../api";
+import { ApiFailure, api, serverEnabled } from "../api";
 import { Button } from "../components/Button";
 import { ChatBubble } from "../components/ChatBubble";
+import { NeedConsent } from "../components/NeedConsent";
 import { getLesson, getLessons, getPack, getScenarios, itemPool } from "../content";
 import { say, stopSpeaking } from "../speech";
 import { useStore } from "../store";
@@ -17,8 +18,11 @@ import { color, s } from "../theme";
  * AI 口语对话:在具体场景里(点餐、问路……)用学习语言完成一件事,AI 扮演对方,尽量只用学习者学过的词,
  * 说错了用中文解释怎么改。场景来自 content/scenarios/<lang>.json;对话走服务器(ROUTES.tutorChat)。
  *
- * - AI 说的话和纠错都标"AI 生成"(《生成式人工智能服务管理暂行办法》《人工智能生成合成内容标识办法》要求显式标识);
- * - 没配置服务器:说明"需要联网使用";没登录:引导登录;免费次数用完:引导了解会员(会员也有每天的上限)。
+ * - AI 说的每一句和纠错都标"AI 生成"(《生成式人工智能服务管理暂行办法》《人工智能生成合成内容标识办法》要求显式标识),
+ *   每条回答都有"反馈"入口(有问题的内容要能投诉);
+ * - 服务器拦下的话(个人信息、危机表达)显示原因,不放进之后发给 AI 的对话历史;
+ * - 没配置服务器:说明"需要联网使用";没同意隐私政策:先同意;没登录:引导登录;
+ *   免费次数用完:引导了解会员(会员也有每天的上限)。
  * 参数 id 是场景 id;不带 id 显示场景列表。
  */
 const MAX_INPUT = 300;
@@ -26,17 +30,28 @@ const MAX_INPUT = 300;
 const MAX_MESSAGES = 30;
 /** 学过的词最多带 400 个(接口上限) */
 const MAX_KNOWN = 400;
+/** 大模型回答慢,等久一点(服务器那边还可能重试一次) */
+const CHAT_TIMEOUT_MS = 45_000;
+/** 反馈发到客服邮箱。占位符和协议里的一样,定下正式邮箱后两处一起换 */
+const SUPPORT_EMAIL = "【联系邮箱】";
+/** 服务器拦下这句的错误码(core 的 screenUserText:个人信息、危机表达) */
+const BLOCKED = new Set(["personal_info", "crisis"]);
 
 type Correction = ChatRes["reply"]["corrections"][number];
-interface Turn { role: "user" | "tutor"; text: string; zh?: string; corrections?: Correction[] }
+interface Turn {
+  role: "user" | "tutor";
+  text: string;
+  zh?: string;
+  corrections?: Correction[];
+  /** 被服务器拦下的话:显示原因,不放进之后的对话历史 */
+  blocked?: { code: string; message: string };
+}
 
 export default function Tutor() {
   const { id } = useLocalSearchParams<{ id?: string }>();
-  const { lang, progress, premium } = useStore();
+  const { lang, progress, premium, consented, user } = useStore();
   const pack = lang ? getPack(lang) : undefined;
-  // 登录凭证不是响应式的:从登录页回来时重新看一下
-  const [loggedIn, setLoggedIn] = useState(() => !!getToken());
-  useFocusEffect(useCallback(() => setLoggedIn(!!getToken()), []));
+  const loggedIn = !!user;
 
   if (!pack || !progress) return null;
   const scenarios = getScenarios(pack.code);
@@ -45,6 +60,13 @@ export default function Tutor() {
   }
   if (!serverEnabled()) {
     return <Notice title="需要联网使用" body="AI 对话练习要连接语途的服务器,由服务器上的 AI 老师和你对话。现在这个版本没有连接服务器,其他学习功能都可以离线使用。" />;
+  }
+  if (!consented) {
+    return (
+      <ScrollView style={s.screen} contentContainerStyle={s.pad}>
+        <NeedConsent feature="AI 对话练习" />
+      </ScrollView>
+    );
   }
   const scenario = id ? scenarios.find((x) => x.id === id) : undefined;
   if (!scenario) return <ScenarioList scenarios={scenarios} progress={progress} pack={pack} />;
@@ -118,6 +140,8 @@ function Chat({ scenario, pack, progress, premium }: { scenario: Scenario; pack:
   const [blocked, setBlocked] = useState<"login" | "quota" | null>(null);
   const [error, setError] = useState("");
   const [zh, setZh] = useState<Record<number, boolean>>({});
+  /** 点了"反馈"的那条回答 → 提示怎么反馈 */
+  const [feedbackNote, setFeedbackNote] = useState<Record<number, { note: string; content?: string }>>({});
   const [hints, setHints] = useState(false);
   const scroll = useRef<ScrollViewInstance>(null);
   useFocusEffect(useCallback(() => () => stopSpeaking(), []));
@@ -126,8 +150,8 @@ function Chat({ scenario, pack, progress, premium }: { scenario: Scenario; pack:
     const text = input.trim().slice(0, MAX_INPUT);
     if (!text || busy || blocked) return;
     const before = turns;
-    const history: Turn[] = [...before, { role: "user", text }];
-    setTurns(history);
+    const mine: Turn = { role: "user", text };
+    setTurns([...before, mine]);
     setInput("");
     setBusy(true);
     setError("");
@@ -137,19 +161,25 @@ function Chat({ scenario, pack, progress, premium }: { scenario: Scenario; pack:
         scenarioId: scenario.id,
         level,
         knownWords: words,
-        messages: history.filter((t) => t.text.trim()).slice(-MAX_MESSAGES).map((t) => ({ role: t.role, text: t.text.slice(0, 500) })),
-      }, TutorChatRes, 30000);
+        // 被拦下的话不再发给 AI:服务器每次都检查整段历史,带着它整段对话都会被拒
+        messages: [...before, mine].filter((t) => !t.blocked && t.text.trim()).slice(-MAX_MESSAGES).map((t) => ({ role: t.role, text: t.text.slice(0, 500) })),
+      }, TutorChatRes, CHAT_TIMEOUT_MS);
       track("tutor_message", { scenarioId: scenario.id });
       // 纠错说的是学习者刚才那句,挂在那句下面
-      setTurns([...before, { role: "user", text, corrections: res.reply.corrections }, { role: "tutor", text: res.reply.text, zh: res.reply.zh }]);
+      setTurns([...before, { ...mine, corrections: res.reply.corrections }, { role: "tutor", text: res.reply.text, zh: res.reply.zh }]);
       setRemaining(res.remainingToday);
       if (res.reply.done) setDone(true);
       if (res.remainingToday <= 0) setBlocked("quota");
     } catch (e) {
+      const f = e instanceof ApiFailure ? e : null;
+      if (f && BLOCKED.has(f.code)) {
+        // 留在屏幕上、写明为什么没发出去;不放回输入框(免得原样再发一次)
+        setTurns([...before, { ...mine, blocked: { code: f.code, message: f.message } }]);
+        return;
+      }
       // 没发出去:撤回这句,放回输入框,可以再发
       setTurns(before);
       setInput(text);
-      const f = e instanceof ApiFailure ? e : null;
       if (f?.status === 401) setBlocked("login");
       else if (f && isQuota(f)) setBlocked("quota");
       else setError(f?.message ?? "出错了,请稍后再试");
@@ -158,12 +188,31 @@ function Chat({ scenario, pack, progress, premium }: { scenario: Scenario; pack:
     }
   };
 
+  /** 反馈 AI 的回答:先做成把这条内容复制出来、发到客服邮箱(以后接 App 内的反馈接口) */
+  const feedback = async (i: number, t: Turn) => {
+    const content = [
+      "【语途 AI 对话反馈】",
+      `场景:${scenario.titleZh}(${scenario.id})`,
+      `AI 的回答:${t.text}`,
+      ...(t.zh ? [`中文:${t.zh}`] : []),
+      "哪里不对:",
+    ].join("\n");
+    const how = await copyOrShare(content);
+    const note = how === "copied"
+      ? `已复制这条内容。请发邮件到 ${SUPPORT_EMAIL},写上哪里不对,我们会尽快处理。`
+      : how === "shared"
+        ? `可以在分享菜单里选"拷贝",或者直接发邮件到 ${SUPPORT_EMAIL},写上哪里不对。`
+        : `请复制下面的内容,发邮件到 ${SUPPORT_EMAIL},写上哪里不对。`;
+    setFeedbackNote({ ...feedbackNote, [i]: { note, ...(how === "none" ? { content } : {}) } });
+  };
+
   const restart = () => {
     stopSpeaking();
     setTurns([opening]);
     setDone(false);
     setError("");
     setZh({});
+    setFeedbackNote({});
   };
 
   return (
@@ -190,11 +239,24 @@ function Chat({ scenario, pack, progress, premium }: { scenario: Scenario; pack:
           <View style={{ flexDirection: "row", gap: 16, flexWrap: "wrap" }}>
             <Text style={link} onPress={() => say(t.text, pack.locale)}>🔊 听</Text>
             {!!t.zh && <Text style={link} onPress={() => setZh({ ...zh, [i]: !zh[i] })}>{zh[i] ? "收起中文" : "看中文"}</Text>}
+            <Text style={link} onPress={() => void feedback(i, t)}>反馈</Text>
           </View>
+          {!!feedbackNote[i] && (
+            <>
+              <Text style={s.sub}>{feedbackNote[i]!.note}</Text>
+              {!!feedbackNote[i]!.content && <Text selectable style={[s.sub, { color: color.text }]}>{feedbackNote[i]!.content}</Text>}
+            </>
+          )}
         </ChatBubble>
       ) : (
         <View key={i} style={{ gap: 6 }}>
-          <ChatBubble side="right" name="我" text={t.text} />
+          <ChatBubble side="right" name="我" tag={t.blocked ? "没有发送" : undefined} text={t.text} />
+          {!!t.blocked && (
+            <View style={[s.card, { borderColor: t.blocked.code === "crisis" ? color.bad : color.warn, alignSelf: "flex-end", maxWidth: "88%" }]}>
+              <Text style={s.body}>{t.blocked.message}</Text>
+              {t.blocked.code !== "crisis" && <Text style={s.sub}>这句没有发给 AI 老师,也不会带进后面的对话。换个说法再试试吧。</Text>}
+            </View>
+          )}
           {t.corrections?.map((c, k) => <CorrectionCard key={k} c={c} />)}
         </View>
       )))}
@@ -241,7 +303,8 @@ function Chat({ scenario, pack, progress, premium }: { scenario: Scenario; pack:
           ))}
           <View style={{ flexDirection: "row", gap: 8, alignItems: "center" }}>
             <TextInput
-              style={[s.input, { flex: 1, fontSize: 16 }]}
+              // minWidth 0:网页的输入框默认有最小宽度,不设的话 320 宽的屏幕上会把"发送"挤出去
+              style={[s.input, { flex: 1, minWidth: 0, fontSize: 16 }]}
               value={input}
               onChangeText={setInput}
               placeholder={`用${pack.nameZh}回答…`}
@@ -266,6 +329,27 @@ function Chat({ scenario, pack, progress, premium }: { scenario: Scenario; pack:
       )}
     </ScrollView>
   );
+}
+
+/**
+ * 把一段文字交给用户:网页上直接复制到剪贴板;手机上打开系统分享(里面有"拷贝",也能直接发邮件)。
+ * 没装剪贴板模块,所以手机上用分享代替复制。
+ */
+async function copyOrShare(text: string): Promise<"copied" | "shared" | "none"> {
+  if (Platform.OS === "web") {
+    try {
+      await navigator.clipboard.writeText(text);
+      return "copied";
+    } catch {
+      return "none";
+    }
+  }
+  try {
+    await Share.share({ message: text });
+    return "shared";
+  } catch {
+    return "none";
+  }
 }
 
 function CorrectionCard({ c }: { c: Correction }) {

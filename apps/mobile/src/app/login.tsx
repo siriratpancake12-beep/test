@@ -9,6 +9,7 @@ import {
   type LoginMethod,
 } from "../auth";
 import { Button } from "../components/Button";
+import { NeedConsent } from "../components/NeedConsent";
 import { useStore } from "../store";
 import { color, s } from "../theme";
 
@@ -25,7 +26,7 @@ function normalizePhone(t: string): string {
  */
 export default function Login() {
   const { next } = useLocalSearchParams<{ next?: string }>();
-  const { ownerConflict, signIn } = useStore();
+  const { ownerConflict, signIn, consented } = useStore();
   const [phone, setPhone] = useState("");
   const [code, setCode] = useState("");
   const [busy, setBusy] = useState(false);
@@ -49,6 +50,14 @@ export default function Login() {
   }, [left > 0]); // eslint-disable-line react-hooks/exhaustive-deps
 
   if (!serverEnabled()) return <Redirect href="/" />;
+  // 基本功能模式:登录要处理手机号等个人信息,先同意隐私政策
+  if (!consented) {
+    return (
+      <ScrollView style={s.screen} contentContainerStyle={s.pad}>
+        <NeedConsent feature="登录和同步学习进度" />
+      </ScrollView>
+    );
+  }
 
   const leave = () => {
     // 只回到 App 内的页面

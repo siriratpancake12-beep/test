@@ -6,6 +6,7 @@ import { say, stopSpeaking } from "../speech";
 import { color, s } from "../theme";
 import { Button } from "./Button";
 import { ChatBubble } from "./ChatBubble";
+import { readingOf, ReadingToggle, useReading } from "./Reading";
 
 /** 上面留几句已经说过的,当作上下文(不用嵌套滚动,当前这句总在屏幕上) */
 const CONTEXT = 2;
@@ -14,6 +15,7 @@ const CONTEXT = 2;
  * 角色扮演:学习者选一个角色,App 用合成语音说对方的句子,学习者说自己的句子。
  * 第一遍看着原文说;第二遍只给中文提示,自己想出来再看原文对一对——从"跟着读"走到"自己说"。
  * 只有第二遍的自评交给 onAnswer(记进进度的"说"):第一遍看着读,算"对"会把口语成绩虚高。
+ * 日语、韩语有读音的,看得见原文时读音也显示(第二遍只看中文提示时不显示)。
  * 两遍都完成(或跳过)调用 onFinish。
  */
 export function RolePlay({ lines, pack, onAnswer, onFinish }: {
@@ -27,6 +29,9 @@ export function RolePlay({ lines, pack, onAnswer, onFinish }: {
   const [round, setRound] = useState<1 | 2>(1);
   const [i, setI] = useState(0);
   const [revealed, setRevealed] = useState(false);
+  const reading = useReading(lines);
+  /** 看得见原文的时候才给读音(第二遍只看中文提示时不给,不然等于把答案露出来) */
+  const readingFor = (l: Line) => (reading.show ? readingOf(l) : undefined);
   const line = lines[i];
   const voiceOf = (l: Line) => ({ gender: speakerOf(pack, l.speaker).gender, voiceKey: l.speaker });
   const hear = (l: Line) => say(l.text, pack.locale, false, voiceOf(l));
@@ -60,6 +65,7 @@ export function RolePlay({ lines, pack, onAnswer, onFinish }: {
             <Text style={s.sub}>{lines.filter((l) => l.speaker === id).length} 句台词</Text>
           </Pressable>
         ))}
+        <ReadingToggle reading={reading} />
         {skip}
       </View>
     );
@@ -70,7 +76,7 @@ export function RolePlay({ lines, pack, onAnswer, onFinish }: {
     <View style={{ gap: 10 }}>
       <Text style={s.sub}>角色扮演 · 第 {round} 遍{round === 1 ? "(看着原文说)" : "(只看中文提示)"} · {Math.min(i + 1, lines.length)}/{lines.length}</Text>
       {context.map((l, k) => (
-        <ChatBubble key={`${round}-${i - context.length + k}`} side={l.speaker === role ? "right" : "left"} name={nameOf(l)} text={l.text} onPress={() => hear(l)} />
+        <ChatBubble key={`${round}-${i - context.length + k}`} side={l.speaker === role ? "right" : "left"} name={nameOf(l)} text={l.text} reading={readingFor(l)} onPress={() => hear(l)} />
       ))}
 
       {!line ? (
@@ -79,11 +85,11 @@ export function RolePlay({ lines, pack, onAnswer, onFinish }: {
           <Button title="继续" onPress={endOfRound} />
         </View>
       ) : line.speaker !== role ? (
-        <ChatBubble side="left" name={nameOf(line)} text={line.text} zh={line.zh} highlight onPress={() => hear(line)}>
+        <ChatBubble side="left" name={nameOf(line)} text={line.text} reading={readingFor(line)} zh={line.zh} highlight onPress={() => hear(line)}>
           <Button title="继续" onPress={next} />
         </ChatBubble>
       ) : round === 1 ? (
-        <ChatBubble side="right" name="轮到你说" text={line.text} zh={line.zh} highlight onPress={() => hear(line)}>
+        <ChatBubble side="right" name="轮到你说" text={line.text} reading={readingFor(line)} zh={line.zh} highlight onPress={() => hear(line)}>
           <Text style={s.sub}>大声说出来(点句子可以先听一遍)</Text>
           <Button title="我读完了" onPress={next} />
         </ChatBubble>
@@ -96,7 +102,7 @@ export function RolePlay({ lines, pack, onAnswer, onFinish }: {
           </Pressable>
         </ChatBubble>
       ) : (
-        <ChatBubble side="right" name="原文" text={line.text} zh={line.zh} highlight onPress={() => hear(line)}>
+        <ChatBubble side="right" name="原文" text={line.text} reading={readingFor(line)} zh={line.zh} highlight onPress={() => hear(line)}>
           <Text style={s.sub}>点句子听标准发音。你说对了吗?</Text>
           <View style={{ flexDirection: "row", flexWrap: "wrap", gap: 8 }}>
             {([["✅ 说对了", "correct"], ["🤔 没说对", "wrong"]] as const).map(([title, v]) => (

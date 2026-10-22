@@ -1,17 +1,18 @@
 import { Platform } from "react-native";
 import { ROUTES, SpeechScoreRes } from "@lingo/core";
 import { API_BASE, getToken, serverEnabled } from "./api";
+import { personalInfoAllowed } from "./privacy";
 
 /**
  * 发音评测:把跟读的录音传给服务器打分。接口见 core 的 ROUTES.speechScore:
  * 原始音频放在请求体里,参数放在 query(?lang=de&text=...)。api() 只发 JSON,所以这里单独用 fetch 发二进制。
  *
- * 只有连了服务器、已登录、服务器开通了评测时才打分;否则跟读题让学习者自己判断"像 / 不太像"。
+ * 只有同意了隐私政策、连了服务器、已登录、服务器开通了评测时才打分;否则跟读题让学习者自己判断"像 / 不太像"。
  * 服务器回答"没有这个功能"(还没接评测服务商)以后,这次打开 App 期间不再尝试,免得每句都白等一次。
  */
 let unavailable = false;
 
-export const canScoreSpeech = () => serverEnabled() && !!getToken() && !unavailable;
+export const canScoreSpeech = () => personalInfoAllowed() && serverEnabled() && !!getToken() && !unavailable;
 
 /** 录音格式:iOS 录成 16kHz 单声道 WAV(评测服务直接能用);安卓录 AAC(m4a),服务器转换 */
 export const RECORDING_MIME = Platform.OS === "ios" ? "audio/wav" : "audio/mp4";

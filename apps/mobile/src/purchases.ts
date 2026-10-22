@@ -7,6 +7,8 @@ import {
   type Platform as SubPlatform, type Product, type SubEvent, type Subscription,
 } from "@lingo/core";
 import { api, ApiFailure, getToken } from "./api";
+import { currentUserId } from "./auth";
+import { personalInfoAllowed } from "./privacy";
 import { useStore } from "./store";
 
 /**
@@ -28,8 +30,11 @@ const IAP_ENABLED = ((Constants.expoConfig?.extra ?? {}) as { iapEnabled?: boole
 /** 这个版本没有接真实内购(付费页据此显示"开发模式:不会真实扣费") */
 export const DEV_PURCHASES = !(IAP_ENABLED && Platform.OS === "ios");
 
-/** 现在是否走真实内购:接了内购的 iOS 版本,并且已登录(交易要对应到账号,服务器校验也要登录) */
-export const storePurchasesEnabled = () => !DEV_PURCHASES && !!getToken();
+/**
+ * 现在是否走真实内购:接了内购的 iOS 版本,同意了隐私政策,并且已登录(交易要对应到账号,服务器校验也要登录)。
+ * 没同意隐私政策(基本功能模式)时连 App Store 都不连。
+ */
+export const storePurchasesEnabled = () => !DEV_PURCHASES && personalInfoAllowed() && !!getToken();
 
 /** 购买没完成:用户取消(cancelled)、等待确认(pending,比如家长同意)、买不了(unavailable)、其他(failed)。除了取消,都已经弹窗告诉用户了 */
 export class PurchaseFailure extends Error {
@@ -98,9 +103,9 @@ export interface StoreOffer {
   trialEligible: boolean | null;
 }
 
-/** App Store 上各会员的实际价格和试用资格,付费页可以用来显示(以 App Store 为准)。没接真实内购时返回空对象 */
+/** App Store 上各会员的实际价格和试用资格,付费页可以用来显示(以 App Store 为准)。没接真实内购、没同意隐私政策时返回空对象 */
 export async function storeOffers(): Promise<Record<string, StoreOffer>> {
-  if (DEV_PURCHASES) return {};
+  if (DEV_PURCHASES || !personalInfoAllowed()) return {};
   await connect();
   const out: Record<string, StoreOffer> = {};
   for (const item of (await Iap.fetchProducts({ skus: PRODUCTS.map((p) => p.id), type: "subs" })) ?? []) {
@@ -227,7 +232,7 @@ async function storeBuy(productId: string, trial: boolean): Promise<SubEvent[]> 
   const product = productById(productId);
   if (!product) return [];
   return withAlert("购买没有完成", async () => {
-    const userId = currentUserId();
+    const userId = appAccountToken();
     if (!userId) throw new PurchaseFailure("failed", "登录信息不完整,请退出后重新登录再购买");
     await connect();
     // 服务器上已经是会员(在别的设备上买过、试用已经转正但本机还没更新):直接同步,不重复购买
@@ -342,17 +347,10 @@ function toSubRes(data: unknown): SubRes {
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 
-/** 当前用户 id:登录凭证是服务器签的 JWT,用户 id 在 sub 里(只读,不校验签名;真正的校验在服务器) */
-function currentUserId(): string | null {
-  const part = getToken()?.split(".")[1];
-  if (!part) return null;
-  try {
-    const b64 = part.replace(/-/g, "+").replace(/_/g, "/").padEnd(Math.ceil(part.length / 4) * 4, "=");
-    const sub = (JSON.parse(atob(b64)) as { sub?: unknown }).sub;
-    return typeof sub === "string" && UUID.test(sub) ? sub.toLowerCase() : null;
-  } catch {
-    return null;
-  }
+/** 当前登录的账号 id(账号模块提供)。苹果要求 appAccountToken 是 UUID,服务器的账号 id 正是 UUID */
+function appAccountToken(): string | null {
+  const id = getToken() ? currentUserId() : null;
+  return id && UUID.test(id) ? id.toLowerCase() : null;
 }
 
 function toFailure(e: unknown): PurchaseFailure {

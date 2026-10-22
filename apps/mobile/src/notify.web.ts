@@ -4,4 +4,5 @@ import type { Progress, Subscription } from "@lingo/core";
 export const notificationsGranted = async () => false;
 export const canAskNotifications = async () => false;
 export const askNotifications = async () => false;
+export async function cancelAllReminders(): Promise<void> {}
 export async function reschedule(_p: Progress, _sub: Subscription | null, _title: string, _now = new Date()) {}
