@@ -14,7 +14,8 @@
     "content:index": "tsx tools/gen-content-index.ts",
     "e2e": "npm run build:web -w @lingo/mobile && tsx tests/e2e/run.ts",
     "content:hours": "tsx tools/course-hours.ts",
-    "content:sync-order": "tsx tools/sync-order.ts"
+    "content:sync-order": "tsx tools/sync-order.ts",
+    "content:dedupe": "tsx tools/dedupe-outline.ts"
   },
   "devDependencies": {
     "tsx": "^4.23.15",
