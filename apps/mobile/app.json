@@ -13,6 +13,9 @@
       "usesAppleSignIn": true,
       "config": {
         "usesNonExemptEncryption": false
+      },
+      "infoPlist": {
+        "NSLocalNetworkUsageDescription": "只在开发调试时用于连接同一局域网里的调试工具;语途的正常功能不会访问本地网络。"
       }
     },
     "android": {
