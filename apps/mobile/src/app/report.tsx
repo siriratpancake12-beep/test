@@ -1,6 +1,8 @@
 import { router } from "expo-router";
+import { useEffect } from "react";
 import { ScrollView, Text, View } from "react-native";
 import { SKILLS, weeklyReport } from "@lingo/core";
+import { track } from "../analytics";
 import { Button } from "../components/Button";
 import { getLessons, getPack } from "../content";
 import { SKILL_ZH } from "../labels";
@@ -12,6 +14,7 @@ const pct = (x: number | null) => (x === null ? "—" : `${Math.round(x * 100)}%
 /** 周报:这周学会了什么、学了多少、哪里进步了、接下来练什么。 */
 export default function Report() {
   const { lang, progress, premium } = useStore();
+  useEffect(() => track("report_view", { premium }), []); // eslint-disable-line react-hooks/exhaustive-deps
   const pack = lang ? getPack(lang) : undefined;
   if (!pack || !progress) return null;
   const r = weeklyReport(progress, getLessons(pack.code), new Date());

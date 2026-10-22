@@ -2,6 +2,7 @@ import { router, useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import { Alert, Linking, Pressable, ScrollView, Text, View } from "react-native";
 import { PRODUCTS, addDays, dayKey, monthlyPrice, projection, topWeakness, type Product } from "@lingo/core";
+import { track } from "../analytics";
 import { Button } from "../components/Button";
 import { getLessons, getPack } from "../content";
 import { issueLabel, zhDate, zhMonth } from "../labels";
@@ -27,6 +28,7 @@ export default function Paywall() {
   const [picked, setPicked] = useState<Product>(PRODUCTS[0]!);
   const [busy, setBusy] = useState(false);
   useEffect(() => markPaywall(), [markPaywall]);
+  useEffect(() => track("paywall_view", { reason }), []); // eslint-disable-line react-hooks/exhaustive-deps
 
   const pack = lang ? getPack(lang) : undefined;
   const now = new Date();
@@ -89,7 +91,11 @@ export default function Paywall() {
       <Button
         disabled={busy}
         title={canTrial ? `免费试用 ${picked.trialDays} 天` : `开通${picked.titleZh}`}
-        onPress={() => run(() => (canTrial ? startTrial(picked.id) : buy(picked.id)))}
+        onPress={() => run(async () => {
+          const events = await (canTrial ? startTrial(picked.id) : buy(picked.id));
+          if (events.length) track(canTrial ? "trial_start" : "purchase", { productId: picked.id });
+          return events;
+        })}
       />
       <Text style={s.sub}>
         {canTrial
@@ -98,7 +104,11 @@ export default function Paywall() {
         随时可以在系统设置里取消。
       </Text>
       <View style={{ flexDirection: "row", gap: 16, flexWrap: "wrap" }}>
-        <Text style={[s.sub, { color: color.primary }]} onPress={() => run(restore)}>恢复购买</Text>
+        <Text style={[s.sub, { color: color.primary }]} onPress={() => run(async () => {
+          const events = await restore();
+          track("restore", { found: events.length > 0 });
+          return events;
+        })}>恢复购买</Text>
         <Text style={[s.sub, { color: color.primary }]} onPress={() => router.push("/legal?doc=terms")}>用户协议</Text>
         <Text style={[s.sub, { color: color.primary }]} onPress={() => router.push("/legal?doc=privacy")}>隐私政策</Text>
         <Text style={[s.sub, { color: color.primary }]} onPress={() => router.push("/legal?doc=renewal")}>自动续费规则</Text>

@@ -4,6 +4,7 @@ import { Pressable, ScrollView, Text, View } from "react-native";
 import { addStudyTime, canAccessLesson, completeLesson, isFreeLesson, lessonPractice, recordAnswer, type Exercise } from "@lingo/core";
 import { Button } from "../../components/Button";
 import { ExerciseView, type ExerciseResult } from "../../components/ExerciseView";
+import { track } from "../../analytics";
 import { toAnswer } from "../../answers";
 import { getLesson, getLessons, getPack, itemPool } from "../../content";
 import { askNotifications, canAskNotifications } from "../../notify";
@@ -35,6 +36,9 @@ export default function LessonScreen() {
   useEffect(() => {
     stepStart.current = Date.now();
   }, [step]);
+  useEffect(() => {
+    if (lesson && canAccessLesson(lesson, getLessons(lesson.lang), premium, progress?.freeUnit)) track("lesson_start", { lessonId: lesson.id });
+  }, [id]); // eslint-disable-line react-hooks/exhaustive-deps
   const go = (next: Step) => {
     const secs = (Date.now() - stepStart.current) / 1000;
     update((p) => addStudyTime(p, new Date(), secs));
@@ -54,6 +58,7 @@ export default function LessonScreen() {
     setScore((sc) => ({ right: sc.right + (r.verdict === "wrong" ? 0 : 1), total: sc.total + 1 }));
     if (qi + 1 < practice.length) return setQi(qi + 1);
     update((p) => completeLesson(p, lesson, now));
+    track("lesson_complete", { lessonId: lesson.id, correct: score.right + (r.verdict === "wrong" ? 0 : 1), total: score.total + 1 });
     setStep("done");
     // 学完第一课、尝到甜头之后,再问要不要每天提醒
     if (firstLessonEver && (await canAskNotifications())) setAskRemind(true);
@@ -130,7 +135,7 @@ export default function LessonScreen() {
           {askRemind && (
             <View style={[s.card, { borderColor: color.primary }]}>
               <Text style={s.body}>每天在你习惯的时间提醒你学几分钟?坚持比学多久更重要。</Text>
-              <Button title="好,提醒我" onPress={async () => { await askNotifications(); setAskRemind(false); }} />
+              <Button title="好,提醒我" onPress={async () => { track("notification_prompt", { granted: await askNotifications() }); setAskRemind(false); }} />
               <Button ghost title="不用了" onPress={() => setAskRemind(false)} />
             </View>
           )}
