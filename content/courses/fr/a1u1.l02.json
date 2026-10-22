@@ -1,7 +1,7 @@
 {
   "id": "fr.a1u1.l02", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
   "unit": "A1-1 Bonjour !", "order": 2,
-  "titleZh": "在咖啡馆", "goalZh": "会点一杯喝的,记住名词的阴阳性",
+  "titleZh": "在咖啡馆", "goalZh": "会点一杯喝的,记住名词的阴阳性", "canDoZh": "能在法国的咖啡馆点一杯喝的",
   "skills": ["listen", "speak", "write"], "estimatedMinutes": 7,
   "newItems": [
     { "id": "fr.cafe", "kind": "word", "pos": "noun", "text": "le café", "zh": "咖啡", "features": { "gender": "m" } },

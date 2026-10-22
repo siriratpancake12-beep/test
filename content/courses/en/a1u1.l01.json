@@ -1,7 +1,7 @@
 {
   "id": "en.a1u1.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
   "unit": "A1-1 Nice to meet you", "order": 1,
-  "titleZh": "初次见面", "goalZh": "会做简单的自我介绍,读准 th 和词重音",
+  "titleZh": "初次见面", "goalZh": "会做简单的自我介绍,读准 th 和词重音", "canDoZh": "能用英语和新朋友互相介绍、说自己来自哪里",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
   "newItems": [
     { "id": "en.hi", "kind": "word", "pos": "interj", "text": "Hi", "zh": "嗨", "features": { "ipa": "haɪ" } },

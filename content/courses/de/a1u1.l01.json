@@ -1,7 +1,7 @@
 {
   "id": "de.a1u1.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
   "unit": "A1-1 你好,我是……", "order": 1,
-  "titleZh": "打招呼和自我介绍", "goalZh": "会用德语问好、说自己叫什么、来自哪里",
+  "titleZh": "打招呼和自我介绍", "goalZh": "会用德语问好、说自己叫什么、来自哪里", "canDoZh": "能用德语跟人打招呼,说出自己叫什么、从哪里来",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
   "newItems": [
     { "id": "de.hallo", "kind": "word", "pos": "interj", "text": "Hallo", "zh": "你好(随意)", "features": { "ipa": "haˈloː" } },

@@ -1,7 +1,7 @@
 {
   "id": "fr.a1u1.l01", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
   "unit": "A1-1 Bonjour !", "order": 1,
-  "titleZh": "打招呼和自我介绍", "goalZh": "会用法语问好、说名字和国籍",
+  "titleZh": "打招呼和自我介绍", "goalZh": "会用法语问好、说名字和国籍", "canDoZh": "能用法语打招呼、介绍自己的名字和国籍",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
   "newItems": [
     { "id": "fr.bonjour", "kind": "word", "pos": "interj", "text": "Bonjour", "zh": "你好/早上好", "features": { "ipa": "bɔ̃.ʒuʁ" }, "noteZh": "白天见面都可以说;晚上用 Bonsoir。" },

@@ -1,7 +1,8 @@
-import type { Direction } from "./srs";
+import { cardKey, retrievability, type Direction } from "./srs";
 import { rng, shuffle } from "./random";
 import { splitArticle } from "./grading";
 import type { Item, LanguagePack, Lesson, Line } from "./schema";
+import type { IssueKind, Progress } from "./session";
 
 /**
  * 从课程内容自动生成练习。题型多样是参考项目的短板(几乎全是"听音选图"),
@@ -32,17 +33,21 @@ function choice(target: Item, pool: Item[], rand: () => number): { options: stri
   return { options: opts.map((o) => o.zh), answer: opts.findIndex((o) => o.id === target.id) };
 }
 
-export function exerciseFor(item: Item, direction: Direction, pool: Item[], pack: LanguagePack, seed: number): Exercise {
+/** 产出方向的题型:不指定时,有冠词的名词一半概率考冠词 */
+type ProduceForm = "article" | "type";
+
+export function exerciseFor(item: Item, direction: Direction, pool: Item[], pack: LanguagePack, seed: number, form?: ProduceForm): Exercise {
   const rand = rng(seed);
   if (direction === "recognize") return { type: "choose-meaning", itemId: item.id, direction, prompt: item.text, ...choice(item, pool, rand) };
   if (direction === "listen") return { type: "listen-choose", itemId: item.id, direction, say: item.text, ...choice(item, pool, rand) };
 
   // 产出方向:有冠词的名词,一半概率考冠词(中国学习者最容易错的点)
   const split = item.pos === "noun" && pack.articles ? splitArticle(item.text, pack) : null;
-  if (split && rand() < 0.5) {
-    const arts = Object.keys(pack.articles!).filter((a) => !a.endsWith("'") && pack.articles![a] !== "pl");
-    const options = Array.from(new Set([split[0], ...arts]));
-    return { type: "choose-article", itemId: item.id, direction, noun: split[1], zh: item.zh, options, answer: options.indexOf(split[0]) };
+  // 选项总是按语言包里的固定顺序(der / die / das),学习者习惯这个顺序;正确答案的位置因此也不固定
+  const arts = pack.articles ? Object.keys(pack.articles).filter((a) => !a.endsWith("'") && pack.articles![a] !== "pl") : [];
+  const answer = split ? arts.indexOf(split[0].toLowerCase()) : -1;
+  if (split && answer >= 0 && form !== "type" && (form === "article" || rand() < 0.5)) {
+    return { type: "choose-article", itemId: item.id, direction, noun: split[1], zh: item.zh, options: arts, answer };
   }
   const hint = item.features.roman ?? undefined;
   return { type: "type-target", itemId: item.id, direction, promptZh: item.zh, ...(hint ? { hint } : {}) };
@@ -75,4 +80,32 @@ export function lessonPractice(lesson: Lesson, pool: Item[], pack: LanguagePack,
 export function checkReorder(answer: string[], picked: string[]): boolean {
   const n = (s: string) => s.toLowerCase().replace(/[.,!?¿¡]/g, "");
   return answer.length === picked.length && answer.every((w, i) => n(w) === n(picked[i]!));
+}
+
+const hasDiacritics = (s: string) => /ß/.test(s) || s.normalize("NFD") !== s;
+
+/** 每种弱点练哪些词、用什么题型 */
+const DRILL: Record<IssueKind, { pick: (it: Item, pack: LanguagePack) => boolean; form: ProduceForm }> = {
+  article: { pick: (it, pack) => it.pos === "noun" && !!splitArticle(it.text, pack), form: "article" },
+  accent: { pick: (it) => hasDiacritics(it.text), form: "type" },
+  "umlaut-fallback": { pick: (it) => hasDiacritics(it.text), form: "type" },
+  case: { pick: (it) => it.pos === "noun", form: "type" },
+  typo: { pick: (it) => it.text.length >= 6, form: "type" },
+  reading: { pick: (it) => !!it.features.reading, form: "type" },
+};
+
+/**
+ * 弱点专练:针对学习者最近反复犯的错,挑学过的、相关的词,记得最差的排前面。
+ * 例:德语冠词老错 → 专做"选 der/die/das";法语老漏重音符号 → 专写带重音的词。
+ * 相关的词不到 3 个就不出(练不起来)。
+ */
+export function weaknessDrill(kind: IssueKind, p: Progress, pool: Item[], pack: LanguagePack, now: Date, seed = 1, n = 8): Exercise[] {
+  const rule = DRILL[kind];
+  const learned = pool.filter((it) => p.cards[cardKey(it.id, "produce")] && rule.pick(it, pack));
+  if (learned.length < 3) return [];
+  const memory = (it: Item) => retrievability(p.cards[cardKey(it.id, "produce")]!, now);
+  return [...learned]
+    .sort((a, b) => memory(a) - memory(b))
+    .slice(0, n)
+    .map((it, i) => exerciseFor(it, "produce", pool, pack, seed + i, rule.form));
 }

@@ -26,6 +26,15 @@ describe("练习生成", () => {
     }
   });
 
+  it("冠词选项顺序固定,正确答案不总在第一个", () => {
+    const mutter = dePool.find((i) => i.id === "de.mutter")!;
+    const kind = dePool.find((i) => i.id === "de.kind")!;
+    const a = exerciseFor(mutter, "produce", dePool, pack("de"), 1, "article");
+    const b = exerciseFor(kind, "produce", dePool, pack("de"), 1, "article");
+    expect(a).toMatchObject({ options: ["der", "die", "das"], answer: 1 });
+    expect(b).toMatchObject({ options: ["der", "die", "das"], answer: 2 });
+  });
+
   it("法语选冠词题不出 l' 和 les", () => {
     const pool = fr.flatMap((l) => l.newItems);
     const cafe = pool.find((i) => i.id === "fr.cafe")!;

@@ -44,6 +44,12 @@ export function reviewCard(s: CardState, verdict: Verdict, now: Date, ms?: numbe
 }
 
 export const isDue = (s: CardState, now: Date) => s.card.due.getTime() <= now.getTime();
+
+/** 现在还记得的概率(0–1)。没复习过的新卡算 0。 */
+export function retrievability(s: CardState, now: Date): number {
+  return s.card.state === State.New ? 0 : scheduler.get_retrievability(s.card, now, false);
+}
+
 export const isNew = (s: CardState) => s.card.state === State.New;
 
 /** 到期的卡,最早到期的排前面;产出方向优先(更难、更值钱)。 */

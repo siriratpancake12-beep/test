@@ -1,10 +1,12 @@
-import { router, Stack, useLocalSearchParams } from "expo-router";
-import { useMemo, useState } from "react";
+import { Redirect, router, Stack, useLocalSearchParams } from "expo-router";
+import { useEffect, useMemo, useRef, useState } from "react";
 import { Pressable, ScrollView, Text, View } from "react-native";
-import { completeLesson, lessonPractice, recordAnswer, type Exercise } from "@lingo/core";
+import { addStudyTime, canAccessLesson, completeLesson, isFreeLesson, lessonPractice, recordAnswer, type Exercise } from "@lingo/core";
 import { Button } from "../../components/Button";
-import { ExerciseView } from "../../components/ExerciseView";
-import { getLesson, getPack, itemPool } from "../../content";
+import { ExerciseView, type ExerciseResult } from "../../components/ExerciseView";
+import { toAnswer } from "../../answers";
+import { getLesson, getLessons, getPack, itemPool } from "../../content";
+import { askNotifications, canAskNotifications } from "../../notify";
 import { say } from "../../speech";
 import { useStore } from "../../store";
 import { color, s } from "../../theme";
@@ -16,29 +18,45 @@ export default function LessonScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const lesson = getLesson(id);
   const pack = lesson && getPack(lesson.lang);
-  const { update } = useStore();
+  const { progress, premium, update } = useStore();
   const [step, setStep] = useState<Step>(lesson?.lines.length ? "dialogue" : "words");
   const [showZh, setShowZh] = useState<Record<number, boolean>>({});
   const [qi, setQi] = useState(0);
   const [score, setScore] = useState({ right: 0, total: 0 });
+  const [askRemind, setAskRemind] = useState(false);
+  const stepStart = useRef(Date.now());
   const practice = useMemo<Exercise[]>(
     () => (lesson && pack ? lessonPractice(lesson, itemPool(lesson.lang), pack, Date.now() % 100000) : []),
     [lesson, pack],
   );
+  const items = useMemo(() => new Map((lesson ? itemPool(lesson.lang) : []).map((i) => [i.id, i])), [lesson]);
+
+  // 看对话、生词、语法的时间也算学习时间(练习的时间按每道题算)
+  useEffect(() => {
+    stepStart.current = Date.now();
+  }, [step]);
+  const go = (next: Step) => {
+    const secs = (Date.now() - stepStart.current) / 1000;
+    update((p) => addStudyTime(p, new Date(), secs));
+    setStep(next);
+  };
 
   if (!lesson || !pack) return <Text style={s.body}>找不到这节课</Text>;
-  const items = new Map(itemPool(lesson.lang).map((i) => [i.id, i]));
+  const lessons = getLessons(lesson.lang);
+  if (!canAccessLesson(lesson, lessons, premium)) return <Redirect href="/paywall?reason=lesson" />;
+  const firstLessonEver = progress && Object.keys(progress.completed).length === 0;
+  const nextOne = lessons.find((l) => l.order > lesson.order);
+  const unitFinished = !premium && isFreeLesson(lesson, lessons) && !!nextOne && !isFreeLesson(nextOne, lessons);
 
-  const afterWords = () => setStep(lesson.grammar.length ? "grammar" : "practice");
-  const answer = (ex: Exercise, verdict: "correct" | "almost" | "wrong", ms: number) => {
+  const answer = async (ex: Exercise, r: ExerciseResult) => {
     const now = new Date();
-    if ("itemId" in ex) update((p) => recordAnswer(p, ex.itemId, ex.direction, verdict, now, ms));
-    setScore((sc) => ({ right: sc.right + (verdict === "wrong" ? 0 : 1), total: sc.total + 1 }));
-    if (qi + 1 < practice.length) setQi(qi + 1);
-    else {
-      update((p) => completeLesson(p, lesson, now));
-      setStep("done");
-    }
+    update((p) => recordAnswer(p, toAnswer(ex, r), now));
+    setScore((sc) => ({ right: sc.right + (r.verdict === "wrong" ? 0 : 1), total: sc.total + 1 }));
+    if (qi + 1 < practice.length) return setQi(qi + 1);
+    update((p) => completeLesson(p, lesson, now));
+    setStep("done");
+    // 学完第一课、尝到甜头之后,再问要不要每天提醒
+    if (firstLessonEver && (await canAskNotifications())) setAskRemind(true);
   };
 
   return (
@@ -46,6 +64,7 @@ export default function LessonScreen() {
       <Stack.Screen options={{ title: lesson.titleZh }} />
       {step === "dialogue" && (
         <>
+          <Text style={s.sub}>🎯 {lesson.canDoZh}</Text>
           <Text style={s.sub}>点句子听发音,长按看中文</Text>
           {lesson.lines.map((l, i) => (
             <Pressable key={i} onPress={() => say(l.text, pack.locale)} onLongPress={() => setShowZh({ ...showZh, [i]: !showZh[i] })} style={s.card}>
@@ -54,7 +73,7 @@ export default function LessonScreen() {
               {showZh[i] && <Text style={s.sub}>{l.zh}</Text>}
             </Pressable>
           ))}
-          <Button title="学生词" onPress={() => setStep("words")} />
+          <Button title="学生词" onPress={() => go("words")} />
         </>
       )}
 
@@ -69,7 +88,7 @@ export default function LessonScreen() {
               {!!it.noteZh && <Text style={[s.sub, { color: color.primary }]}>💡 {it.noteZh}</Text>}
             </Pressable>
           ))}
-          <Button title="下一步" onPress={afterWords} />
+          <Button title="下一步" onPress={() => go(lesson.grammar.length ? "grammar" : "practice")} />
         </>
       )}
 
@@ -87,7 +106,7 @@ export default function LessonScreen() {
               ))}
             </View>
           ))}
-          <Button title="开始练习" onPress={() => setStep("practice")} />
+          <Button title="开始练习" onPress={() => go("practice")} />
         </>
       )}
 
@@ -98,7 +117,7 @@ export default function LessonScreen() {
             ex={practice[qi]!}
             pack={pack}
             item={"itemId" in practice[qi]! ? items.get((practice[qi] as { itemId: string }).itemId) : undefined}
-            onDone={(v, ms) => answer(practice[qi]!, v, ms)}
+            onDone={(r) => answer(practice[qi]!, r)}
           />
         </>
       )}
@@ -106,8 +125,23 @@ export default function LessonScreen() {
       {step === "done" && (
         <View style={s.card}>
           <Text style={s.h1}>🎉 学完了!</Text>
-          <Text style={s.body}>答对 {score.right}/{score.total}。新学的 {lesson.newItems.length} 个词已加入复习计划。</Text>
-          <Button title="回到课程" onPress={() => router.back()} />
+          <Text style={s.body}>✅ {lesson.canDoZh}</Text>
+          <Text style={s.sub}>答对 {score.right}/{score.total}。新学的 {lesson.newItems.length} 个词已加入复习计划,快忘的时候会提醒你复习。</Text>
+          {askRemind && (
+            <View style={[s.card, { borderColor: color.primary }]}>
+              <Text style={s.body}>每天在你习惯的时间提醒你学几分钟?坚持比学多久更重要。</Text>
+              <Button title="好,提醒我" onPress={async () => { await askNotifications(); setAskRemind(false); }} />
+              <Button ghost title="不用了" onPress={() => setAskRemind(false)} />
+            </View>
+          )}
+          {unitFinished ? (
+            <>
+              <Button title="继续学下一单元" onPress={() => router.replace("/paywall?reason=unit")} />
+              <Button ghost title="回首页" onPress={() => router.back()} />
+            </>
+          ) : (
+            <Button title="回首页" onPress={() => router.back()} />
+          )}
         </View>
       )}
     </ScrollView>

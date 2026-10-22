@@ -82,6 +82,8 @@ export const Lesson = z.object({
   order: z.number().int().positive(),
   titleZh: z.string(),
   goalZh: z.string(),
+  /** 学完能做到什么(面向学习者的"能力清单",周报里展示,让进步看得见) */
+  canDoZh: z.string().min(1),
   skills: z.array(Skill).min(1),
   estimatedMinutes: z.number().positive(),
   /** 本课新教的词条 */
@@ -114,6 +116,11 @@ export const LanguagePack = z.object({
   articles: z.record(z.string(), z.string()).optional(),
   /** 语音:识别/合成/发音评测的区域代码 */
   locale: z.string(),
+  /**
+   * 达到各等级大约需要的累计学时(用于给学习者预估"什么时候能到 B1")。
+   * 不填用默认值(goal.ts);上线后用真实学习数据校准。
+   */
+  hoursToLevel: z.object({ "pre-A1": z.number(), A1: z.number(), A2: z.number(), B1: z.number(), B2: z.number(), C1: z.number() }).partial().optional(),
   /** 主流考试,用于考试方向的课程线 */
   examsZh: z.array(z.string()).default([]),
   /** 给中国学习者的总体难点提示 */

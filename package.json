@@ -1,6 +1,7 @@
 {
   "name": "lingo-cn",
   "private": true,
+  "type": "module",
   "workspaces": [
     "packages/*",
     "apps/*"
@@ -9,10 +10,12 @@
     "test": "npm test -w @lingo/core",
     "typecheck": "npm run typecheck -w @lingo/core && npm run typecheck -w @lingo/mobile",
     "validate": "tsx tools/validate-content.ts",
-    "content:index": "tsx tools/gen-content-index.ts"
+    "content:index": "tsx tools/gen-content-index.ts",
+    "e2e": "npm run build:web -w @lingo/mobile && tsx tests/e2e/run.ts"
   },
   "devDependencies": {
     "tsx": "^4.23.15",
-    "typescript": "~6.0.3"
+    "typescript": "~6.0.3",
+    "playwright": "1.64.1"
   }
 }
