@@ -45,14 +45,28 @@ export interface Subscription {
   trialUsed: boolean;
   /** 已发过的扣费提醒,形如 "<periodEnd>@5" */
   reminders: string[];
+  /**
+   * 下一期自动续费的商品(和 productId 不同时才有)。苹果的降级、不同时长的换档要到下一期才生效,
+   * 扣费提醒必须按下一期真正要扣的商品和价格写,不能按现在的。
+   */
+  renewProductId?: string;
 }
 
+/**
+ * 订阅事件。服务器把商店(App Store 等)的交易、通知映射成这些事件(packages/billing),
+ * App 收到服务器的会员状态后也用它们对齐本地(eventsFromServer)。
+ * 下面标注的可选字段只在商店确认过的数据里出现;App 本机模拟的事件不带,行为和以前一样。
+ */
 export type SubEvent =
-  | { type: "start-trial"; productId: string; platform: Platform; at: Date }
-  | { type: "purchase"; productId: string; platform: Platform; at: Date; periodEnd: Date }
-  | { type: "renewed"; at: Date; periodEnd: Date }
+  /** periodEnd:商店给的试用结束时间。有它说明试用是商店确认过的(资格由商店按 Apple ID 等判断),直接以它为准 */
+  | { type: "start-trial"; productId: string; platform: Platform; at: Date; periodEnd?: Date }
+  /** trialUsed:服务器记录的"是否用过试用",不给就保留本地原来的 */
+  | { type: "purchase"; productId: string; platform: Platform; at: Date; periodEnd: Date; trialUsed?: boolean }
+  /** productId:续费后的商品(降级、换档在续费时生效) */
+  | { type: "renewed"; at: Date; periodEnd: Date; productId?: string }
   | { type: "billing-failed"; at: Date; graceEnd?: Date }
-  | { type: "auto-renew"; on: boolean; at: Date }
+  /** productId:下一期续费的商品(商店的 autoRenewProductId) */
+  | { type: "auto-renew"; on: boolean; at: Date; productId?: string }
   | { type: "expired"; at: Date }
   | { type: "refunded"; at: Date }
   | { type: "reminded"; key: string; at: Date };
@@ -62,6 +76,13 @@ const DAY_MS = 86_400_000;
 export function applySubEvent(sub: Subscription | null, ev: SubEvent): Subscription | null {
   switch (ev.type) {
     case "start-trial": {
+      if (ev.periodEnd) {
+        // 商店确认的试用:商店已经决定给试用(不扣钱),这里只记录;扣费提醒的记录保留,免得同一条提醒再弹一次
+        return {
+          productId: ev.productId, platform: ev.platform, status: "trial", autoRenew: true, trialUsed: true,
+          reminders: sub?.reminders ?? [], periodEnd: ev.periodEnd.toISOString(),
+        };
+      }
       const product = productById(ev.productId);
       // 每个账号只能试用一次
       if (!product?.trialDays || sub?.trialUsed) return sub;
@@ -73,7 +94,7 @@ export function applySubEvent(sub: Subscription | null, ev: SubEvent): Subscript
     case "purchase":
       return {
         productId: ev.productId, platform: ev.platform, status: "active", autoRenew: true,
-        trialUsed: sub?.trialUsed ?? false, reminders: sub?.reminders ?? [], periodEnd: ev.periodEnd.toISOString(),
+        trialUsed: ev.trialUsed ?? sub?.trialUsed ?? false, reminders: sub?.reminders ?? [], periodEnd: ev.periodEnd.toISOString(),
       };
     default:
       if (!sub) return null;
@@ -81,12 +102,19 @@ export function applySubEvent(sub: Subscription | null, ev: SubEvent): Subscript
   switch (ev.type) {
     case "renewed": {
       const { graceEnd: _, ...rest } = sub;
-      return { ...rest, status: "active", periodEnd: ev.periodEnd.toISOString() };
+      const next: Subscription = { ...rest, status: "active", periodEnd: ev.periodEnd.toISOString() };
+      if (!ev.productId) return next;
+      // 续费时商店告诉我们这一期是什么商品:之前"下一期换成 X"的安排已经生效
+      const { renewProductId: _r, ...renewed } = next;
+      return { ...renewed, productId: ev.productId };
     }
     case "billing-failed":
       return ev.graceEnd ? { ...sub, status: "grace", graceEnd: ev.graceEnd.toISOString() } : { ...sub, status: "billing-retry" };
-    case "auto-renew":
-      return { ...sub, autoRenew: ev.on };
+    case "auto-renew": {
+      if (ev.productId === undefined) return { ...sub, autoRenew: ev.on };
+      const { renewProductId: _, ...rest } = sub;
+      return ev.productId === sub.productId ? { ...rest, autoRenew: ev.on } : { ...rest, autoRenew: ev.on, renewProductId: ev.productId };
+    }
     case "expired":
       return { ...sub, status: "expired", autoRenew: false };
     case "refunded":
@@ -116,8 +144,10 @@ export interface RenewalReminder {
 /** 扣费前提醒:前 5 天一次、前 1 天一次。已关闭自动续费的不提醒。 */
 export function renewalReminder(sub: Subscription | null, now: Date): RenewalReminder | null {
   if (!sub || !sub.autoRenew || (sub.status !== "trial" && sub.status !== "active")) return null;
-  const product = productById(sub.productId);
-  if (!product) return null;
+  const current = productById(sub.productId);
+  // 按下一期真正要扣费的商品写价格(降级、换档要到下一期才生效)
+  const product = (sub.renewProductId && productById(sub.renewProductId)) || current;
+  if (!product || !current) return null;
   const left = Date.parse(sub.periodEnd) - now.getTime();
   if (left <= 0) return null;
   const window = left <= DAY_MS ? 1 : left <= 5 * DAY_MS ? 5 : null;
@@ -127,10 +157,45 @@ export function renewalReminder(sub: Subscription | null, now: Date): RenewalRem
   const daysLeft = Math.ceil(left / DAY_MS);
   const date = sub.periodEnd.slice(0, 10);
   const kind = sub.status === "trial" ? "trial-ending" : "renewal";
+  const unit = product.period === "year" ? "年" : "月";
   const zh = kind === "trial-ending"
-    ? `免费试用还剩 ${daysLeft} 天,${date} 起将按 ¥${product.priceCny}/${product.period === "year" ? "年" : "月"} 自动续费。不想继续可以随时在系统设置里取消。`
-    : `你的${product.titleZh}将在 ${daysLeft} 天后(${date})自动续费 ¥${product.priceCny}。不想继续可以随时在系统设置里取消。`;
+    ? `免费试用还剩 ${daysLeft} 天,${date} 起将按 ¥${product.priceCny}/${unit} 自动续费。不想继续可以随时在系统设置里取消。`
+    : product.id === current.id
+      ? `你的${product.titleZh}将在 ${daysLeft} 天后(${date})自动续费 ¥${product.priceCny}。不想继续可以随时在系统设置里取消。`
+      : `你的${current.titleZh}将在 ${daysLeft} 天后(${date})到期,之后自动续费${product.titleZh} ¥${product.priceCny}/${unit}。不想继续可以随时在系统设置里取消。`;
   return { key, kind, daysLeft, chargeDate: date, priceCny: product.priceCny, zh };
+}
+
+const LIVE: SubStatus[] = ["trial", "active", "grace", "billing-retry"];
+
+/**
+ * 服务器记录的会员状态 → 让本地状态和它一致的事件(以服务器为准;App 用 applySubEvent 依次应用)。
+ * - 只改会员本身的字段,本地的扣费提醒记录(reminders)保留,免得同一条提醒再弹一次。
+ * - 传了 local(本地现在的状态)时:已经一致就返回空数组;服务器没有记录而本地还"有效"
+ *   (比如开发模式模拟开通、换了账号),就让本地过期。不传 local 时总是给出完整的事件。
+ */
+export function eventsFromServer(server: Subscription | null, local?: Subscription | null, at = new Date()): SubEvent[] {
+  if (!server) return local && LIVE.includes(local.status) ? [{ type: "expired", at }] : [];
+  const periodEnd = new Date(server.periodEnd);
+  const { productId, platform } = server;
+  const events: SubEvent[] = [
+    server.status === "trial"
+      ? { type: "start-trial", productId, platform, at, periodEnd }
+      : { type: "purchase", productId, platform, at, periodEnd, trialUsed: server.trialUsed },
+  ];
+  if (server.status !== "revoked") events.push({ type: "auto-renew", on: server.autoRenew, at, productId: server.renewProductId ?? productId });
+  if (server.status === "grace") events.push({ type: "billing-failed", at, graceEnd: server.graceEnd ? new Date(server.graceEnd) : undefined });
+  if (server.status === "billing-retry") events.push({ type: "billing-failed", at });
+  if (server.status === "expired") events.push({ type: "expired", at });
+  if (server.status === "revoked") events.push({ type: "refunded", at });
+  if (local === undefined) return events;
+  const next = events.reduce<Subscription | null>((s, e) => applySubEvent(s, e), local);
+  return local && next && sameSubscription(local, next) ? [] : events;
+}
+
+function sameSubscription(a: Subscription, b: Subscription): boolean {
+  const pick = (s: Subscription) => [s.productId, s.platform, s.status, s.periodEnd, s.status === "grace" ? s.graceEnd : null, s.autoRenew, s.trialUsed, s.renewProductId ?? null];
+  return JSON.stringify(pick(a)) === JSON.stringify(pick(b));
 }
 
 /**
