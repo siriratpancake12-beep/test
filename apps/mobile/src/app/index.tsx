@@ -6,7 +6,9 @@ import {
   type Block,
 } from "@lingo/core";
 import { serverEnabled } from "../api";
+import { estimateLessonMinutes } from "@lingo/core/src/hours";
 import { Button } from "../components/Button";
+import { GoalReachedCard, UnitCheckpointCard } from "../components/UnitCards";
 import { getLesson, getLessons, getPack } from "../content";
 import { issueLabel, zhDate, zhMonth } from "../labels";
 import { reschedule } from "../notify";
@@ -75,6 +77,7 @@ export default function Home() {
           <Text style={s.sub}>{blockSub(b)} · {b.minutes} 分钟</Text>
         </Pressable>
       ))}
+      <UnitCheckpointCard progress={progress} lessons={lessons} />
       {plan.blocks.every((b) => b.done) && plan.blocks.length > 0 && (
         <Text style={s.body}>🎉 今天的计划完成了!</Text>
       )}
@@ -86,6 +89,7 @@ export default function Home() {
         />
       )}
 
+      <GoalReachedCard progress={progress} lessons={lessons} />
       {pr && (
         <Pressable onPress={() => router.push("/plan")} style={s.card}>
           <Text style={s.sub}>我的目标</Text>
@@ -104,6 +108,7 @@ export default function Home() {
       )}
 
       <Button ghost title="📊 本周学习报告" onPress={() => router.push("/report")} />
+      <Button ghost title="🗣 AI 对话练习" onPress={() => router.push("/tutor")} />
       <Button ghost title="多复习一会儿" onPress={() => router.push("/review?extra=1")} />
 
       <Pressable onPress={() => setShowAll(!showAll)}>
@@ -118,7 +123,7 @@ export default function Home() {
             style={[s.card, { opacity: open ? 1 : 0.45 }]}>
             <Text style={s.sub}>{l.cefr} · {l.unit}</Text>
             <Text style={s.h2}>{done ? "✅ " : locked ? "🔒 " : !open ? "⏳ " : ""}{l.titleZh}</Text>
-            <Text style={s.sub}>{l.canDoZh} · 约 {l.estimatedMinutes} 分钟</Text>
+            <Text style={s.sub}>{l.canDoZh} · 约 {Math.round(estimateLessonMinutes(l))} 分钟</Text>
           </Pressable>
         );
       })}
