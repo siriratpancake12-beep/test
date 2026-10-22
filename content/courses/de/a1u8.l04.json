@@ -20,15 +20,15 @@
     { "speaker": "arzthelferin", "text": "Praxis Dr. Neumann, guten Morgen!", "zh": "诺伊曼医生诊所,早上好!", "items": ["de.praxis", "de.guten_morgen"] },
     { "speaker": "wei", "text": "Guten Morgen, hier ist Wei Wang. Ich bin krank und habe Fieber.", "zh": "早上好,我是王伟。我病了,在发烧。", "items": ["de.guten_morgen", "de.hier", "de.sein", "de.ich", "de.krank", "de.und", "de.haben", "de.fieber"] },
     { "speaker": "arzthelferin", "text": "Kommen Sie bitte um 10 Uhr. Dann hat die Ärztin Zeit.", "zh": "请您 10 点过来,那时医生有空。", "items": ["de.ich_komme_aus", "de.sie_hoeflich", "de.bitte", "de.um", "de.zehn", "de.uhr", "de.dann", "de.haben", "de.aerztin", "de.zeit"] },
-    { "speaker": "aerztin", "text": "Guten Tag, Herr Wang. Wie geht es Ihnen?", "zh": "您好,王先生。您感觉怎么样?", "items": ["de.guten_tag", "de.herr", "de.wie_gehts", "de.sie_hoeflich"] },
-    { "speaker": "wei", "text": "Mir geht es schlecht. Mein Hals tut weh, und ich bin müde.", "zh": "我很不舒服。嗓子疼,而且很累。", "items": ["de.ich", "de.gehen", "de.es", "de.schlecht", "de.mein", "de.hals", "de.wehtun", "de.und", "de.sein", "de.muede"] },
+    { "speaker": "aerztin", "text": "Guten Tag, Herr Wang. Wie lange haben Sie Fieber?", "zh": "您好,王先生。您发烧多长时间了?", "items": ["de.guten_tag", "de.herr", "de.wie_lange", "de.haben", "de.sie_hoeflich", "de.fieber"] },
+    { "speaker": "wei", "text": "Zwei Tage. Mir geht es schlecht, und mein Hals tut weh.", "zh": "两天了。我很不舒服,嗓子也疼。", "items": ["de.zwei", "de.tag", "de.ich", "de.gehen", "de.es", "de.schlecht", "de.und", "de.mein", "de.hals", "de.wehtun"] },
     { "speaker": "aerztin", "text": "Das ist nur eine Erkältung. Trinken Sie viel Tee und schlafen Sie viel!", "zh": "只是感冒。多喝茶,多睡觉!", "items": ["de.das_ist", "de.nur", "de.ein", "de.erkaeltung", "de.trinken", "de.sie_hoeflich", "de.viel", "de.tee", "de.und", "de.schlafen"] },
-    { "speaker": "wei", "text": "Muss ich auch Tabletten nehmen?", "zh": "我还得吃药吗?", "items": ["de.muessen", "de.ich", "de.auch", "de.tablette", "de.nehmen"] },
+    { "speaker": "wei", "text": "Ich bin auch sehr müde. Muss ich Tabletten nehmen?", "zh": "我还很累。我得吃药吗?", "items": ["de.ich", "de.sein", "de.auch", "de.sehr", "de.muede", "de.muessen", "de.tablette", "de.nehmen"] },
     { "speaker": "aerztin", "text": "Ja, die Tabletten gibt es in der Apotheke. Gute Besserung!", "zh": "要,药在药店拿。祝您早日康复!", "items": ["de.ja", "de.tablette", "de.es_gibt", "de.in", "de.apotheke", "de.gute_besserung"] }
   ],
   "questions": [
-    { "prompt": "医生说王伟怎么了?", "options": ["只是感冒", "吃坏了肚子", "踢球伤了腿"], "answer": 0, "explainZh": "医生说:Das ist nur eine Erkältung.(只是感冒。)" },
-    { "prompt": "王伟几点去看医生?", "options": ["9 点", "10 点", "12 点"], "answer": 1, "explainZh": "前台说:Kommen Sie bitte um 10 Uhr.(请您 10 点过来。)" }
+    { "prompt": "王伟发烧几天了?", "options": ["一天", "两天", "一个星期"], "answer": 1, "explainZh": "医生问 Wie lange haben Sie Fieber?(您发烧多长时间了?)王伟回答 Zwei Tage.(两天了。)" },
+    { "prompt": "医生让王伟怎么做?", "options": ["多喝茶,多睡觉", "明天再来诊所", "多去运动"], "answer": 0, "explainZh": "医生说:Das ist nur eine Erkältung. Trinken Sie viel Tee und schlafen Sie viel!(只是感冒。多喝茶,多睡觉!)" }
   ],
   "grammar": [
     { "id": "de.g.arzt_imperativ", "titleZh": "看病:Sie 的命令式、müssen 和“我不舒服”",

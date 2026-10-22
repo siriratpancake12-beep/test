@@ -19,15 +19,15 @@
   "lines": [
     { "speaker": "mitarbeiterin", "text": "Guten Tag! Wie kann ich Ihnen helfen?", "zh": "您好!有什么可以帮您的?", "items": ["de.guten_tag", "de.wie", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
     { "speaker": "wei", "text": "Guten Tag, hier ist Wei Wang. Ich möchte im März die A1-Prüfung machen.", "zh": "您好,我是王伟。我想三月参加 A1 考试。", "items": ["de.guten_tag", "de.hier", "de.sein", "de.ich", "de.moechten", "de.in", "de.maerz", "de.pruefung", "de.machen"] },
-    { "speaker": "mitarbeiterin", "text": "Im März ist leider kein Termin frei, aber am 12. April.", "zh": "很遗憾,三月已经没有空位了,不过 4 月 12 日还有。", "items": ["de.in", "de.maerz", "de.sein", "de.leider", "de.kein", "de.termin", "de.frei", "de.aber", "de.am", "de.zwoelf", "de.april"] },
-    { "speaker": "wei", "text": "Am 12. April kann ich leider nicht. Geht es auch im Mai?", "zh": "4 月 12 日我去不了。五月可以吗?", "items": ["de.am", "de.zwoelf", "de.april", "de.koennen", "de.ich", "de.leider", "de.nicht", "de.gehen", "de.es", "de.auch", "de.in", "de.mai"] },
+    { "speaker": "mitarbeiterin", "text": "Im März ist kein Termin frei, aber am 12. April.", "zh": "三月已经没有空位了,不过 4 月 12 日还有。", "items": ["de.in", "de.maerz", "de.sein", "de.kein", "de.termin", "de.frei", "de.aber", "de.am", "de.zwoelf", "de.april"] },
+    { "speaker": "wei", "text": "Am 12. April kann ich leider nicht. Und im Mai?", "zh": "4 月 12 日我去不了。五月呢?", "items": ["de.am", "de.zwoelf", "de.april", "de.koennen", "de.ich", "de.leider", "de.nicht", "de.und", "de.in", "de.mai"] },
     { "speaker": "mitarbeiterin", "text": "Ja, am 17. Mai. Im Juni, Juli und August gibt es keine Prüfung.", "zh": "可以,5 月 17 日。六月、七月和八月没有考试。", "items": ["de.ja", "de.am", "de.siebzehn", "de.mai", "de.in", "de.juni", "de.juli", "de.und", "de.august", "de.es_gibt", "de.kein", "de.pruefung"] },
-    { "speaker": "wei", "text": "Gut, dann nehme ich den 17. Mai.", "zh": "好,那我就选 5 月 17 日。", "items": ["de.gut", "de.dann", "de.nehmen", "de.ich", "de.siebzehn", "de.mai"] },
-    { "speaker": "mitarbeiterin", "text": "Gut, Herr Wang. Ich rufe Sie im April noch einmal an.", "zh": "好的,王先生。四月我再给您打个电话。", "items": ["de.gut", "de.herr", "de.ich", "de.anrufen", "de.sie_hoeflich", "de.in", "de.april", "de.noch_einmal"] },
+    { "speaker": "wei", "text": "Dann nehme ich den 17. Mai.", "zh": "那我就选 5 月 17 日。", "items": ["de.dann", "de.nehmen", "de.ich", "de.siebzehn", "de.mai"] },
+    { "speaker": "mitarbeiterin", "text": "Gut. Ich rufe Sie im April noch einmal an.", "zh": "好的。四月我再给您打个电话。", "items": ["de.gut", "de.ich", "de.anrufen", "de.sie_hoeflich", "de.in", "de.april", "de.noch_einmal"] },
     { "speaker": "wei", "text": "Vielen Dank! Auf Wiedersehen!", "zh": "非常感谢!再见!", "items": ["de.vielen_dank", "de.auf_wiedersehen"] }
   ],
   "questions": [
-    { "prompt": "王伟最后报了哪天的考试?", "options": ["3 月 12 日", "4 月 12 日", "5 月 17 日"], "answer": 2, "explainZh": "王伟说:Gut, dann nehme ich den 17. Mai.(好,那我就选 5 月 17 日。)" },
+    { "prompt": "王伟最后报了哪天的考试?", "options": ["3 月 12 日", "4 月 12 日", "5 月 17 日"], "answer": 2, "explainZh": "王伟说:Dann nehme ich den 17. Mai.(那我就选 5 月 17 日。)" },
     { "prompt": "4 月 12 日为什么不行?", "options": ["王伟那天去不了", "那天没有空位了", "那天没有考试"], "answer": 0, "explainZh": "王伟说:Am 12. April kann ich leider nicht.(4 月 12 日我去不了。)三月才是没有空位。" }
   ],
   "grammar": [

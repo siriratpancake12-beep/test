@@ -19,9 +19,9 @@
   "lines": [
     { "speaker": "verkaeufer", "text": "Und? Passt die Jacke in Schwarz?", "zh": "怎么样?黑色这件合身吗?", "items": ["de.und", "de.passen", "de.jacke", "de.in", "de.schwarz"] },
     { "speaker": "wei", "text": "Nein, sie ist zu klein. Haben Sie sie auch in Größe L?", "zh": "不合身,太小了。这件您有 L 号的吗?", "items": ["de.nein", "de.sie_sg", "de.sein", "de.zu_adv", "de.klein", "de.haben", "de.sie_hoeflich", "de.auch", "de.in", "de.groesse"] },
-    { "speaker": "verkaeufer", "text": "In L gibt es die Jacke nur in Blau oder Weiß.", "zh": "L 号的只有蓝色和白色。", "items": ["de.in", "de.es_gibt", "de.jacke", "de.nur", "de.blau", "de.oder", "de.weiss"] },
+    { "speaker": "verkaeufer", "text": "In L gibt es die Jacke nur in zwei Farben: Blau und Weiß.", "zh": "L 号的只有两种颜色:蓝色和白色。", "items": ["de.in", "de.es_gibt", "de.jacke", "de.nur", "de.zwei", "de.farbe", "de.blau", "de.und", "de.weiss"] },
     { "speaker": "lena", "text": "Die Jacke in Blau passt sehr gut! Wie findest du sie?", "zh": "蓝色这件很合身!你觉得怎么样?", "items": ["de.jacke", "de.in", "de.blau", "de.passen", "de.sehr", "de.gut", "de.wie", "de.finden", "de.du", "de.sie_sg"] },
-    { "speaker": "wei", "text": "Ich finde sie schön. Blau ist meine Farbe!", "zh": "我觉得它很好看。蓝色就是我的颜色!", "items": ["de.ich", "de.finden", "de.sie_sg", "de.schoen", "de.blau", "de.sein", "de.mein", "de.farbe"] },
+    { "speaker": "wei", "text": "Ich finde sie schön. Ich nehme sie!", "zh": "我觉得它很好看。就买这件了!", "items": ["de.ich", "de.finden", "de.sie_sg", "de.schoen", "de.nehmen"] },
     { "speaker": "lena", "text": "Und der Pullover in Rot? Wie findest du ihn?", "zh": "那件红色的毛衣呢?你觉得怎么样?", "items": ["de.und", "de.pullover", "de.in", "de.rot", "de.wie", "de.finden", "de.du", "de.ihn"] },
     { "speaker": "wei", "text": "Ich finde ihn auch schön, aber er ist zu teuer.", "zh": "我也觉得它好看,可是太贵了。", "items": ["de.ich", "de.finden", "de.ihn", "de.auch", "de.schoen", "de.aber", "de.er", "de.sein", "de.zu_adv", "de.teuer"] }
   ],

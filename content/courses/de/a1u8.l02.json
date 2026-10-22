@@ -19,7 +19,7 @@
   "lines": [
     { "speaker": "hoffmann", "text": "Guten Tag, Herr Wang! Heute scheint die Sonne.", "zh": "您好,王先生!今天出太阳了。", "items": ["de.guten_tag", "de.herr", "de.heute", "de.scheinen", "de.sonne"] },
     { "speaker": "wei", "text": "Ja, und es ist warm. Der Frühling ist da!", "zh": "是啊,而且很暖和。春天来了!", "items": ["de.ja", "de.und", "de.es", "de.sein", "de.warm", "de.fruehling", "de.da"] },
-    { "speaker": "hoffmann", "text": "Ja. Im März ist es in Berlin oft noch kalt, und es gibt Schnee.", "zh": "是啊。柏林三月常常还很冷,还会下雪。", "items": ["de.ja", "de.in", "de.maerz", "de.sein", "de.es", "de.oft", "de.noch", "de.kalt", "de.und", "de.es_gibt", "de.schnee"] },
+    { "speaker": "hoffmann", "text": "Im März ist es in Berlin oft noch kalt, und es gibt Schnee.", "zh": "柏林三月常常还很冷,还会下雪。", "items": ["de.in", "de.maerz", "de.sein", "de.es", "de.oft", "de.noch", "de.kalt", "de.und", "de.es_gibt", "de.schnee"] },
     { "speaker": "wei", "text": "Und im April regnet es oft. Jetzt im Mai ist das Wetter schön.", "zh": "四月又常常下雨。现在是五月,天气真好。", "items": ["de.und", "de.in", "de.april", "de.regnen", "de.es", "de.oft", "de.jetzt", "de.mai", "de.sein", "de.wetter", "de.schoen"] },
     { "speaker": "hoffmann", "text": "Wie ist der Sommer in Chengdu?", "zh": "成都的夏天怎么样?", "items": ["de.wie", "de.sein", "de.sommer", "de.in"] },
     { "speaker": "wei", "text": "Sehr heiß! Im Sommer haben wir oft 35 Grad.", "zh": "很热!夏天常常有 35 度。", "items": ["de.sehr", "de.heiss", "de.in", "de.sommer", "de.haben", "de.wir", "de.oft", "de.fuenf", "de.dreissig", "de.grad"] },

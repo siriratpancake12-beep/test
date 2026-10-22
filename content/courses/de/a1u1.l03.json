@@ -8,7 +8,7 @@
     { "id": "de.und_dir", "kind": "phrase", "pos": "phrase", "text": "Und dir?", "zh": "你呢?(回答 Wie geht's? 后反问)", "features": { "ipa": "ʊnt ˈdiːɐ̯" }, "noteZh": "回答完 Wie geht's? 反问对方用 Und dir?,不说 Und du?(因为完整的问句是 Wie geht es dir?);对用 Sie 的人说 Und Ihnen?。" },
     { "id": "de.gut", "kind": "word", "pos": "adj", "text": "gut", "zh": "好", "features": { "ipa": "ɡuːt" }, "noteZh": "u 是长音;Guten Tag、Guten Morgen 里的 Guten 就是 gut 变来的。" },
     { "id": "de.danke", "kind": "word", "pos": "interj", "text": "danke", "zh": "谢谢", "features": { "ipa": "ˈdaŋkə" }, "noteZh": "对方一般回答 Bitte!(不客气);更客气说 Danke schön!。nk 里的 n 读 [ŋ],像“昂”的尾音。" },
-    { "id": "de.und", "kind": "word", "pos": "conj", "text": "und", "zh": "和;而;那……(呢)", "features": { "ipa": "ʊnt" }, "noteZh": "词尾的 d 读成 [t]:德语词尾的 b / d / g 都读成 p / t / k。放在问句前面表示“那……呢”:Und wo wohnst du?" },
+    { "id": "de.und", "kind": "word", "pos": "conj", "text": "und", "zh": "和;而", "features": { "ipa": "ʊnt" }, "noteZh": "词尾的 d 读成 [t]:德语词尾的 b / d / g 都读成 p / t / k。放在问句前面表示“那……呢”:Und wo wohnst du?" },
     { "id": "de.wie", "kind": "word", "pos": "adv", "text": "wie", "zh": "怎么;怎样", "features": { "ipa": "viː" }, "noteZh": "问名字用 wie:Wie heißt du?(不能用 was);问情况:Wie wohnst du?(住得怎么样?)。ie 读长音 [iː]。" },
     { "id": "de.wo", "kind": "word", "pos": "adv", "text": "wo", "zh": "在哪里", "features": { "ipa": "voː" }, "noteZh": "不是英语的 who!“谁”是 wer。w 读 [v]。" },
     { "id": "de.woher", "kind": "word", "pos": "adv", "text": "woher", "zh": "从哪里", "features": { "ipa": "voˈheːɐ̯" }, "noteZh": "Woher kommst du? 回答用 aus:Ich komme aus China.;wo 问位置,woher 问来处。" },
