@@ -1,3 +1,4 @@
+import { randomUUID } from "node:crypto";
 import { sql, type Generated, type Kysely } from "kysely";
 import type { SubEvent, Subscription } from "@lingo/core";
 import type { Db } from "./index";
@@ -11,6 +12,8 @@ import type { Db } from "./index";
  *   苹果重发来多少次都只有一行,指标不会重复计数。
  * - 还没对应到用户的事件 user_id 为空,用户上报同一订阅的交易时补上并应用。
  * - environment 为 Sandbox 的是苹果审核、TestFlight、我们自己测试的数据,算指标时要排除。
+ * - 原来的账号注销后,同一个 Apple ID 在新账号里恢复购买时,订阅换绑到新账号(规则见 routes/billing.ts),
+ *   每次换绑在 subscription_rebinds 记一行。
  */
 export interface BillingTables {
   subscriptions: {
@@ -29,7 +32,10 @@ export interface BillingTables {
     at: Date;
     /** apple-transaction / apple-notification / … */
     source: string;
-    /** 商店给的原始数据(解码后),对账用;通知类型在 raw.notification.notificationType */
+    /**
+     * 商店给的原始数据(解码后),对账用:@lingo/billing 给的 { notification?, transaction?, renewal? }。
+     * 通知类型在 raw.notification.notificationType;换绑时从 transaction / renewal 的 appAccountToken 看订阅原来是谁的
+     */
     raw: unknown;
     /** 商店的原始交易 id(同一个订阅的所有续费都一样) */
     original_transaction_id: Generated<string | null>;
@@ -53,6 +59,16 @@ export interface BillingTables {
     signed_at: Date;
     received_at: Generated<Date>;
     raw: unknown;
+  };
+  /** 订阅换绑记录(审计用),只有 id,没有个人信息。原来的账号已注销时 old_user_id 记 "deleted",不再和注销的账号关联 */
+  subscription_rebinds: {
+    id: string;
+    original_transaction_id: string;
+    old_user_id: string;
+    new_user_id: string;
+    /** apple-transaction / apple-notification */
+    source: string;
+    at: Date;
   };
 }
 
@@ -102,6 +118,17 @@ export async function migrateBilling(db: Kysely<any>): Promise<void> {
     .addColumn("received_at", "timestamptz", (c) => c.notNull().defaultTo(sql`now()`))
     .addColumn("raw", "jsonb")
     .execute();
+  await db.schema
+    .createTable("subscription_rebinds")
+    .ifNotExists()
+    .addColumn("id", "text", (c) => c.primaryKey())
+    .addColumn("original_transaction_id", "text", (c) => c.notNull())
+    .addColumn("old_user_id", "text", (c) => c.notNull())
+    .addColumn("new_user_id", "text", (c) => c.notNull())
+    .addColumn("source", "text", (c) => c.notNull())
+    .addColumn("at", "timestamptz", (c) => c.notNull())
+    .execute();
+  await db.schema.createIndex("subscription_rebinds_original_tx").ifNotExists().on("subscription_rebinds").column("original_transaction_id").execute();
 }
 
 // ---- 读写 ----
@@ -159,15 +186,23 @@ export async function recordEvents(db: Db, rows: EventRow[]): Promise<Set<string
   return new Set(inserted.map((r) => r.id));
 }
 
-/** 把还没对应到用户的、同一订阅的事件认领给这个用户,按发生顺序返回(要补应用) */
-export async function claimOrphanEvents(db: Db, userId: string, originalTransactionId: string): Promise<{ event: SubEvent; periodEnd: Date | undefined }[]> {
+/**
+ * 把还没对应到用户的、同一订阅的事件认领给这个用户,按发生顺序返回(要补应用)。
+ * fromDeletedUser:换绑时原来那个已注销的账号——它名下还没去掉关联的流水(比如账号行被直接删掉)也一起认领。
+ */
+export async function claimOrphanEvents(
+  db: Db, userId: string, originalTransactionId: string, fromDeletedUser?: string,
+): Promise<{ event: SubEvent; periodEnd: Date | undefined }[]> {
   const rows = await db.updateTable("subscription_events").set({ user_id: userId })
-    .where("original_transaction_id", "=", originalTransactionId).where("user_id", "is", null)
+    .where("original_transaction_id", "=", originalTransactionId)
+    .where((eb) => (fromDeletedUser ? eb.or([eb("user_id", "is", null), eb("user_id", "=", fromDeletedUser)]) : eb("user_id", "is", null)))
     .returning(["event", "period_end", "at", "seq"])
     .execute();
   if (!rows.length) return [];
   await db.updateTable("apple_notifications").set({ user_id: userId })
-    .where("original_transaction_id", "=", originalTransactionId).where("user_id", "is", null).execute();
+    .where("original_transaction_id", "=", originalTransactionId)
+    .where((eb) => (fromDeletedUser ? eb.or([eb("user_id", "is", null), eb("user_id", "=", fromDeletedUser)]) : eb("user_id", "is", null)))
+    .execute();
   return rows
     .filter((r) => r.event)
     .sort((a, b) => a.at.getTime() - b.at.getTime() || Number(a.seq) - Number(b.seq))
@@ -195,25 +230,56 @@ export async function recordAppleNotification(db: Db, n: {
   return rows.length > 0;
 }
 
-const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
-
-/** 苹果数据对应的用户:先看购买时 App 传入的账号标识(用户 id),再看这个订阅之前对应过谁 */
-export async function findAppleUser(db: Db, ref: { appAccountToken?: string; originalTransactionId?: string }): Promise<string | null> {
-  const token = ref.appAccountToken;
-  if (token && UUID.test(token)) {
-    const user = await db.selectFrom("users").select("id")
-      .where("id", "in", [...new Set([token, token.toLowerCase(), token.toUpperCase()])]).where("deleted_at", "is", null)
-      .executeTakeFirst();
-    if (user) return user.id;
-  }
-  if (ref.originalTransactionId) {
-    const row = await db.selectFrom("subscriptions").select("user_id").where("original_transaction_id", "=", ref.originalTransactionId).executeTakeFirst();
-    if (row) return row.user_id;
-  }
-  return null;
+/** 这个订阅(原始交易 id)现在绑定在谁名下;没有绑定返回 null(账号注销时绑定会被删掉) */
+export async function bindingOwner(db: Db, originalTransactionId: string): Promise<string | null> {
+  const row = await db.selectFrom("subscriptions").select("user_id").where("original_transaction_id", "=", originalTransactionId).executeTakeFirst();
+  return row?.user_id ?? null;
 }
 
-/** 同一用户的订阅更新排队进行(App 上报和苹果通知常常同时到),在事务里调用,事务结束自动释放 */
+/**
+ * 还在用的账号(这一行还在、没有注销)按我们存的写法返回 id,否则 null。
+ * 苹果给回来的 UUID 大小写可能和我们存的不一样,都试一下
+ */
+export async function activeUserId(db: Db, userId: string): Promise<string | null> {
+  const row = await db.selectFrom("users").select("id")
+    .where("id", "in", [...new Set([userId, userId.toLowerCase(), userId.toUpperCase()])]).where("deleted_at", "is", null)
+    .executeTakeFirst();
+  return row?.id ?? null;
+}
+
+/** 流水里这个订阅最近出现过的账号标识(苹果交易、续订信息里的 appAccountToken),新的在前 */
+export async function recentAccountTokens(db: Db, originalTransactionId: string): Promise<string[]> {
+  const rows = await db.selectFrom("subscription_events").select("raw")
+    .where("original_transaction_id", "=", originalTransactionId).orderBy("seq", "desc").limit(50).execute();
+  const out: string[] = [];
+  for (const { raw } of rows) {
+    const r = raw as { transaction?: { appAccountToken?: unknown }; renewal?: { appAccountToken?: unknown } } | null;
+    for (const t of [r?.transaction?.appAccountToken, r?.renewal?.appAccountToken]) {
+      if (typeof t === "string" && t && !out.includes(t)) out.push(t);
+    }
+  }
+  return out;
+}
+
+/** 换绑时删掉原来主人名下的这个订阅(只删绑定在这个订阅上的那一行),免得一个订阅两个账号都是会员 */
+export async function deleteBoundSubscription(db: Db, userId: string, originalTransactionId: string): Promise<void> {
+  await db.deleteFrom("subscriptions").where("user_id", "=", userId).where("original_transaction_id", "=", originalTransactionId).execute();
+}
+
+export async function recordRebind(db: Db, r: { originalTransactionId: string; oldUserId: string; newUserId: string; source: string; at: Date }): Promise<void> {
+  await db.insertInto("subscription_rebinds")
+    .values({ id: randomUUID(), original_transaction_id: r.originalTransactionId, old_user_id: r.oldUserId, new_user_id: r.newUserId, source: r.source, at: r.at })
+    .execute();
+}
+
+/**
+ * 加锁(在事务里调用,事务结束自动释放):同一个订阅、同一个用户的更新排队进行——App 上报和苹果通知常常同时到,
+ * 两个新账号也可能同时来认领同一个订阅。顺序固定为先订阅、后用户,不会互相等死。
+ */
+export async function lockOriginalTransaction(db: Db, originalTransactionId: string): Promise<void> {
+  await sql`select pg_advisory_xact_lock(hashtext(${`billing-otid:${originalTransactionId}`}))`.execute(db);
+}
+
 export async function lockUserSubscription(db: Db, userId: string): Promise<void> {
   await sql`select pg_advisory_xact_lock(hashtext(${`billing:${userId}`}))`.execute(db);
 }

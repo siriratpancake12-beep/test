@@ -41,7 +41,8 @@ const fakeAppStore: AppStoreVerifier = {
       originalTransactionId: tx?.originalTransactionId, transactionId: tx?.transactionId, productId: tx?.productId,
       appAccountToken: tx?.appAccountToken || renewal?.appAccountToken || undefined, environment: "Sandbox",
       periodEnd: tx?.expiresDate ? new Date(tx.expiresDate) : undefined, signedAt: new Date(n.signedDate!),
-      events: appleNotificationEvents(n, tx, renewal), raw: { notification: n },
+      // raw 和真实的校验器一样:通知、交易、续订信息都在
+      events: appleNotificationEvents(n, tx, renewal), raw: { notification: n, transaction: tx, renewal },
     };
   },
 };
@@ -256,6 +257,113 @@ describe("App Store 服务器通知", () => {
     expect(await getSub(u.auth)).toEqual({ subscription: null, premium: false });
     expect(await t.deps.db.selectFrom("apple_notifications").select("type").where("id", "=", test.notificationUUID!).execute()).toEqual([{ type: "TEST" }]);
     expect(await notesOf(s.orig)).toEqual([{ type: "SUBSCRIBED", user_id: u.id }]);
+  });
+});
+
+describe("原来的账号注销后换绑", () => {
+  const rebindsOf = (orig: string) =>
+    t.deps.db.selectFrom("subscription_rebinds").select(["old_user_id", "new_user_id", "source", "at"])
+      .where("original_transaction_id", "=", orig).orderBy("at").execute();
+  const deleteAccount = async (auth: Auth) =>
+    expect((await t.app.inject({ method: "DELETE", url: ROUTES.account, headers: auth })).statusCode).toBe(204);
+
+  it("原账号注销 → 同一个 Apple ID 在新账号恢复购买:换绑、成为会员、记审计;注销期间的通知补上;之后的续费通知归新账号", async () => {
+    const old = await newUser();
+    const s = story(old.id);
+    const trial = s.trial();
+    expect((await report(old.auth, trial)).json().premium).toBe(true);
+    await deleteAccount(old.auth);
+    expect(await getPremium(t.deps, old.id)).toBe(false);
+
+    // 注销以后苹果来的通知:主人已注销,不记到任何人名下,先存着
+    t.setNow(new Date(at(2)));
+    await notify(appleNotification(N.DID_CHANGE_RENEWAL_STATUS, Subtype.AUTO_RENEW_DISABLED, 2), trial, s.info({ autoRenewStatus: 0 }));
+    expect((await notesOf(s.orig)).at(-1)).toEqual({ type: "DID_CHANGE_RENEWAL_STATUS", user_id: null });
+
+    // 恢复购买:交易里的账号标识还是原来那个已注销的账号
+    t.setNow(new Date(at(3)));
+    const fresh = await newUser();
+    const r = await report(fresh.auth, trial);
+    expect(r.statusCode).toBe(200);
+    expect(r.json()).toMatchObject({ premium: true, subscription: { status: "trial", trialUsed: true, autoRenew: false } });
+    expect(await getPremium(t.deps, fresh.id)).toBe(true);
+    expect(await rebindsOf(s.orig)).toEqual([{ old_user_id: "deleted", new_user_id: fresh.id, source: "apple-transaction", at: new Date(at(3)) }]);
+    expect(await t.deps.db.selectFrom("subscriptions").select("user_id").where("original_transaction_id", "=", s.orig).execute()).toEqual([{ user_id: fresh.id }]);
+
+    // 之后的续费通知(账号标识仍是已注销的那个)归新账号
+    t.setNow(new Date(at(7.1)));
+    expect((await notify(appleNotification(N.DID_RENEW, undefined, 7), s.renewal(1, 7, 372))).statusCode).toBe(200);
+    expect(await getSub(fresh.auth)).toMatchObject({ premium: true, subscription: { status: "active", periodEnd: new Date(at(372)).toISOString() } });
+    expect((await notesOf(s.orig)).at(-1)).toEqual({ type: "DID_RENEW", user_id: fresh.id });
+    expect((await eventsOf(s.orig)).at(-1)).toMatchObject({ type: "renewed", user_id: fresh.id });
+    // 再恢复一次:已经是他的,不再记换绑
+    expect((await report(fresh.auth, s.renewal(1, 7, 372))).json().premium).toBe(true);
+    expect(await rebindsOf(s.orig)).toHaveLength(1);
+
+    // 已经换绑给还在用的新账号:第三个账号拿同一笔交易,仍然是"属于另一个语途账号"
+    const third = await newUser();
+    expect((await report(third.auth, trial)).json().error.code).toBe("wrong_account");
+    expect(await getPremium(t.deps, fresh.id)).toBe(true);
+    expect(await getPremium(t.deps, third.id)).toBe(false);
+  });
+
+  it("原账号还在用:不换绑,仍然回「这笔购买属于另一个语途账号」", async () => {
+    const owner = await newUser();
+    const s = story(owner.id);
+    await report(owner.auth, s.trial());
+    const other = await newUser();
+    const r = await report(other.auth, s.trial());
+    expect(r.statusCode).toBe(403);
+    expect(r.json().error).toEqual({ code: "wrong_account", message: "这笔购买属于另一个语途账号,请登录购买时用的账号" });
+    expect(await getPremium(t.deps, owner.id)).toBe(true);
+    expect(await getPremium(t.deps, other.id)).toBe(false);
+    expect(await rebindsOf(s.orig)).toEqual([]);
+  });
+
+  it("原账号这一行已经没了(直接删掉)也算注销:换绑,用它名下的流水重建会员状态", async () => {
+    const gone = await newUser();
+    const s = story(gone.id);
+    await report(gone.auth, s.tx());
+    await t.deps.db.deleteFrom("subscriptions").where("user_id", "=", gone.id).execute();
+    await t.deps.db.deleteFrom("users").where("id", "=", gone.id).execute();
+    const n = await newUser();
+    expect((await report(n.auth, s.tx())).json()).toMatchObject({ premium: true, subscription: { status: "active" } });
+    expect((await rebindsOf(s.orig)).map((x) => [x.old_user_id, x.new_user_id])).toEqual([["deleted", n.id]]);
+  });
+
+  it("原账号注销后,同一个 Apple ID 在新账号里重新订阅:苹果通知先到也换绑到新账号,只记一次", async () => {
+    const old = await newUser();
+    const s = story(old.id);
+    const month = s.tx({ productId: "premium_monthly", expiresDate: at(30) });
+    await report(old.auth, month);
+    await deleteAccount(old.auth);
+    t.setNow(new Date(at(40)));
+    const fresh = await newUser();
+    // 同一个原始交易 id 的新购买,带的是新账号的标识
+    const again = s.tx({ transactionId: `${s.orig}9`, appAccountToken: fresh.id, purchaseDate: at(40), expiresDate: at(405) });
+    expect((await notify(appleNotification(N.SUBSCRIBED, Subtype.RESUBSCRIBE, 40), again, s.info({ appAccountToken: fresh.id }))).statusCode).toBe(200);
+    expect(await getSub(fresh.auth)).toMatchObject({ premium: true, subscription: { productId: "premium_yearly", periodEnd: new Date(at(405)).toISOString() } });
+    expect(await rebindsOf(s.orig)).toEqual([{ old_user_id: "deleted", new_user_id: fresh.id, source: "apple-notification", at: new Date(at(40)) }]);
+    expect((await report(fresh.auth, again)).json().premium).toBe(true);
+    expect(await rebindsOf(s.orig)).toHaveLength(1);
+  });
+
+  it("同一个 Apple ID 在另一个还在用的账号里重新买了:谁付的钱归谁,记审计;原账号拿旧交易抢不回来", async () => {
+    const first = await newUser();
+    const s = story(first.id);
+    const month = s.tx({ productId: "premium_monthly", expiresDate: at(30) });
+    await report(first.auth, month);
+    t.setNow(new Date(at(31)));
+    await notify(appleNotification(N.EXPIRED, Subtype.VOLUNTARY, 30), month, s.info({ autoRenewStatus: 0 }));
+    const second = await newUser();
+    const again = s.tx({ transactionId: `${s.orig}7`, appAccountToken: second.id, purchaseDate: at(31), expiresDate: at(396) });
+    expect((await report(second.auth, again)).json()).toMatchObject({ premium: true, subscription: { status: "active" } });
+    expect(await getSub(first.auth)).toEqual({ subscription: null, premium: false });
+    expect(await rebindsOf(s.orig)).toEqual([{ old_user_id: first.id, new_user_id: second.id, source: "apple-transaction", at: new Date(at(31)) }]);
+    const back = await report(first.auth, month);
+    expect(back.statusCode).toBe(403);
+    expect(back.json().error.code).toBe("wrong_account");
+    expect(await getPremium(t.deps, second.id)).toBe(true);
   });
 });
 
