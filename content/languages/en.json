@@ -1,6 +1,35 @@
 {
   "code": "en", "nameZh": "英语", "nativeName": "English", "script": "latin", "locale": "en-US",
   "features": { "nounGender": "none", "requirePlural": false, "reading": false, "roman": false, "pitch": false },
-  "examsZh": ["四六级", "考研英语", "雅思 IELTS", "托福 TOEFL", "剑桥少儿/KET/PET"],
-  "tipsZh": ["th、v/w、r/l 的发音中文里没有", "单词重音和句子语调决定能不能被听懂", "时态和第三人称单数 -s 容易漏"]
+  "examsZh": ["四六级", "考研英语", "雅思 IELTS", "托福 TOEFL", "剑桥 KET / PET"],
+  "tipsZh": [
+    "th、v/w、r/l 的发音中文里没有",
+    "单词重音和句子语调决定能不能被听懂",
+    "时态和第三人称单数 -s 容易漏",
+    "冠词 a / an / the 中文里没有,最容易漏:说 I'm a student,不说 I'm student",
+    "词尾辅音要收住,不要加元音:late 不读成 \"lei-te\"",
+    "美国人说话连读、弱读很多(got it、gonna、wanna),听力要专门练"
+  ],
+  "cast": {
+    "lei": { "name": "Lei", "nameZh": "磊", "gender": "m", "bioZh": "19 岁的成都男生,美国大学一年级新生,学计算机;语法底子好却不敢开口,认真、有点害羞,爱打篮球、爱吃辣,在校园咖啡馆打工。" },
+    "amy": { "name": "Amy", "nameZh": "艾米", "gender": "f", "bioZh": "20 岁,大二,西雅图本地人,国际学生迎新志愿者;热情开朗、语速快,口头禅 Cool! / Awesome!,是磊在美国认识的第一个朋友。" },
+    "ethan": { "name": "Ethan", "nameZh": "伊森", "gender": "m", "bioZh": "19 岁,磊的室友,来自加州;随和爱开玩笑,爱打篮球和电子游戏,周末睡到中午,说话很随意(Hey, man! / No way!)。" },
+    "sofia": { "name": "Sofia", "nameZh": "索菲亚", "gender": "f", "bioZh": "19 岁,来自墨西哥的留学生,学生物,和磊同上写作课;英语也是第二语言,说话慢而清楚,有两个哥哥和一对双胞胎妹妹,爱跳舞、爱做饭。" },
+    "marcus": { "name": "Marcus", "nameZh": "马库斯", "gender": "m", "bioZh": "22 岁,大四,学音乐,在校园咖啡馆打工,是磊的同事和\"师傅\";幽默、爱聊音乐,会弹吉他,有自己的乐队。" },
+    "laura": { "name": "Laura", "nameZh": "劳拉", "gender": "f", "bioZh": "40 多岁,校园咖啡馆经理,磊的老板;耐心、有条理,说话清楚,特别看重准时。" },
+    "advisor": { "name": "Advisor", "nameZh": "国际学生顾问", "gender": "f", "bioZh": "学校国际学生办公室的工作人员,帮新生登记信息、办手续,语速偏快。" },
+    "professor": { "name": "Professor", "nameZh": "教授", "gender": "m", "bioZh": "磊的写作课老师,说话清楚,喜欢让学生两人一组练习。" },
+    "barista": { "name": "Barista", "nameZh": "咖啡师", "gender": "m", "bioZh": "校门口咖啡店的咖啡师,说话快,爱用简短的口语问句。" },
+    "server": { "name": "Server", "nameZh": "餐厅服务员", "gender": "f", "bioZh": "美式餐厅的服务员(美国叫 server),热情周到,会主动问菜合不合口味。" },
+    "cashier": { "name": "Cashier", "nameZh": "收银员", "gender": "m", "bioZh": "超市、商店的收银员,结账时会问几句固定的话。" },
+    "clerk": { "name": "Clerk", "nameZh": "店员", "gender": "f", "bioZh": "超市、服装店、商场的店员,主动招呼客人、帮忙找东西,也负责退换货。" },
+    "customer": { "name": "Customer", "nameZh": "顾客", "gender": "f", "bioZh": "来校园咖啡馆买咖啡的顾客,点单又快又复杂。" },
+    "regular": { "name": "Regular", "nameZh": "老顾客", "gender": "m", "bioZh": "每天早上来咖啡馆的老顾客,总点同一杯咖啡,喜欢和店员聊几句。" },
+    "passerby": { "name": "Passerby", "nameZh": "路人", "gender": "f", "bioZh": "街上被问路的本地人,很热心,指路时说得很快。" },
+    "driver": { "name": "Driver", "nameZh": "司机", "gender": "m", "bioZh": "公交车或网约车司机,话不多但很耐心。" },
+    "staff": { "name": "Staff", "nameZh": "工作人员", "gender": "m", "bioZh": "轻轨车站、博物馆等公共场所的工作人员,负责回答问题、帮忙买票。" },
+    "tourist": { "name": "Tourist", "nameZh": "游客", "gender": "f", "bioZh": "来西雅图玩的外地游客,拿着地图找路。" },
+    "receptionist": { "name": "Receptionist", "nameZh": "前台", "gender": "m", "bioZh": "学校健康中心的前台,负责登记和预约。" },
+    "doctor": { "name": "Doctor", "nameZh": "医生", "gender": "f", "bioZh": "学校健康中心的医生,说话温和,会用简单的话解释病情和医嘱。" }
+  }
 }
