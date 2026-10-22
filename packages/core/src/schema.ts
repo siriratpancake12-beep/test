@@ -38,8 +38,9 @@ export type ItemFeatures = z.infer<typeof ItemFeatures>;
 /** 学习单位:一个词或一个固定说法。SRS 卡片以它为单位,id 一旦发布永不改。 */
 export const Item = z.object({
   id: z.string().regex(/^[a-z]{2}\.[a-z0-9_]+$/, "id 形如 de.hund"),
-  kind: z.enum(["word", "phrase"]),
-  pos: z.enum(["noun", "propn", "verb", "adj", "adv", "pron", "prep", "conj", "num", "interj", "phrase", "det"]),
+  /** char = 字母/假名/谚文(日语、韩语入门先学文字) */
+  kind: z.enum(["word", "phrase", "char"]),
+  pos: z.enum(["noun", "propn", "verb", "adj", "adv", "pron", "prep", "conj", "num", "interj", "phrase", "det", "particle", "char"]),
   text: z.string().min(1),
   zh: z.string().min(1),
   /** 可接受的其他写法(拼写变体、口语缩写等) */
@@ -56,6 +57,15 @@ export const Line = z.object({
   speaker: z.string(),
   text: z.string().min(1),
   zh: z.string().min(1),
+  /** 整句的假名读音(日语:句子里有汉字时必须填) */
+  reading: z.string().optional(),
+  /** 罗马音(日语、韩语入门阶段给学习者看) */
+  roman: z.string().optional(),
+  /**
+   * 分词(日语这类不用空格分词的语言):用于"把词排成句子"练习,连起来必须等于原句(不含空格)。
+   * 有空格的语言不用填。
+   */
+  tokens: z.array(z.string().min(1)).optional(),
   /** 这句用到的词条 id,用于"只用学过的词"检查和点词查义 */
   items: z.array(z.string()).default([]),
   audio: z.string().optional(),

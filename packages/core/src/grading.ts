@@ -28,7 +28,8 @@ const PUNCT = /[.,!?¿¡;:"«»“”„‟()…。、!?]/g;
 
 export function normalizeSpace(s: string): string {
   return s
-    .normalize("NFC")
+    // NFKC:全角/半角统一(日文、韩文输入法常打出全角字母、数字和标点)
+    .normalize("NFKC")
     .replace(/[’‘`´]/g, "'")
     .replace(PUNCT, " ")
     .replace(/\s+/g, " ")

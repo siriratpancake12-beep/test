@@ -53,11 +53,10 @@ export function exerciseFor(item: Item, direction: Direction, pool: Item[], pack
   return { type: "type-target", itemId: item.id, direction, promptZh: item.zh, ...(hint ? { hint } : {}) };
 }
 
-/** 按空格切句子(日语没有空格,按词条切;这里先支持有空格的语言)。 */
+/** 句子切成词块:有空格的语言按空格切;日语用课文里写好的分词(line.tokens)。 */
 export function tokens(line: Line, pack: LanguagePack): string[] | null {
-  if (pack.code === "ja") return null;
-  const t = line.text.split(/\s+/).filter(Boolean);
-  return t.length >= 3 && t.length <= 10 ? t : null;
+  const t = line.tokens ?? (pack.code === "ja" ? null : line.text.split(/\s+/).filter(Boolean));
+  return t && t.length >= 3 && t.length <= 10 ? t : null;
 }
 
 /** 课后练习最多穿插几个旧词 */

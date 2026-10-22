@@ -44,6 +44,8 @@ export function validateCourse(packRaw: unknown, lessonsRaw: unknown[]): Problem
     if (l.type === "reading" && l.lines.length > 0 && l.lines.length < 6) P("短文(reading)至少 6 句");
     for (const line of l.lines) {
       for (const id of line.items) if (!taught.has(id)) P(`句子"${line.text}"用到没教过的词 ${id}`);
+      if (pack.features.reading && /\p{Script=Han}/u.test(line.text) && !line.reading) P(`句子"${line.text}"有汉字,缺少整句读音 reading`);
+      if (line.tokens && line.tokens.join("") !== line.text.replace(/\s+/g, "")) P(`句子"${line.text}"的分词 tokens 连起来和原句不一致`);
       if (pack.cast && line.speaker !== "narrator" && !pack.cast[line.speaker]) P(`说话人 ${line.speaker} 不在语言包的角色表里`);
     }
   }
@@ -54,6 +56,7 @@ export function validateCourse(packRaw: unknown, lessonsRaw: unknown[]): Problem
 export function checkFeatures(it: Item, pack: LanguagePack): string[] {
   const out: string[] = [];
   const f = it.features;
+  if (it.kind === "char") return pack.features.roman && !f.roman ? ["缺少罗马音 roman"] : [];
   if (it.pos === "noun" && pack.features.nounGender !== "none") {
     if (!f.gender) out.push("名词缺少性别 gender");
     else if (pack.features.nounGender === "mf" && f.gender === "n") out.push("这个语种没有中性");

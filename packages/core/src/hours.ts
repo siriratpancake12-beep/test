@@ -32,14 +32,14 @@ export const UNIT_EXTRA_MIN = 22;
 /** 读物里精选跟读的句数 */
 const READER_SHADOW_LINES = 5;
 
-const reorderable = (text: string) => {
-  const n = text.split(/\s+/).filter(Boolean).length;
+const reorderable = (line: Lesson["lines"][number]) => {
+  const n = line.tokens?.length ?? line.text.split(/\s+/).filter(Boolean).length;
   return n >= 3 && n <= 10;
 };
 
 /** 课后练习的题数(和 exercises.ts 的 lessonPractice 出题规则一致) */
 export function practiceCount(l: Lesson): number {
-  const reorder = Math.min(2, l.lines.filter((x) => reorderable(x.text)).length);
+  const reorder = Math.min(2, l.lines.filter(reorderable).length);
   const speak = l.lines.some((x) => x.text.length <= 60) ? 1 : 0;
   return l.newItems.length * 2 + Math.min(3, l.reviewItems.length) + reorder + speak;
 }
