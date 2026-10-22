@@ -1,0 +1,48 @@
+{
+  "id": "es.a1u5.l01", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105010,
+  "titleZh": "现在几点?", "goalZh": "会问时间、说时间,会约几点做某事", "canDoZh": "能问现在几点,听懂并说出时间,和朋友约好几点见",
+  "skills": ["listen","speak","read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "es.que_hora_es", "kind": "phrase", "pos": "phrase", "text": "¿Qué hora es?", "zh": "现在几点?", "features": { "ipa": "ke ˈoɾa es" }, "noteZh": "回答:Es la una.(一点)/ Son las tres.(三点);h 不发音。" },
+    { "id": "es.y_cuarto", "kind": "phrase", "pos": "phrase", "text": "y cuarto", "zh": "(几点)一刻;十五分", "features": { "ipa": "i ˈkwaɾto" }, "noteZh": "Son las dos y cuarto = 两点一刻(2:15);cuarto 本来的意思是'四分之一'。" },
+    { "id": "es.y_media", "kind": "phrase", "pos": "phrase", "text": "y media", "zh": "(几点)半", "features": { "ipa": "i ˈmedja" }, "noteZh": "Son las tres y media = 三点半;media 跟着阴性的 hora 用阴性,不说 y medio。" },
+    { "id": "es.menos_cuarto", "kind": "phrase", "pos": "phrase", "text": "menos cuarto", "zh": "差一刻", "features": { "ipa": "ˈmenos ˈkwaɾto" }, "noteZh": "Son las cinco menos cuarto = 差一刻五点(4:45);过了半点常用 menos:las seis menos diez = 5:50。" },
+    { "id": "es.a_que_hora", "kind": "phrase", "pos": "phrase", "text": "¿A qué hora?", "zh": "几点(做某事)?", "features": { "ipa": "a ke ˈoɾa" }, "noteZh": "回答用 a:A las nueve.(九点);和 ¿Qué hora es? 不一样。" },
+    { "id": "es.a", "kind": "word", "pos": "prep", "text": "a", "zh": "在(几点);到;去", "features": { "ipa": "a" }, "noteZh": "a las ocho = 在八点;a la una = 在一点;a + el 要合成 al。中文'八点见'不用介词,英语用 at,西语用 a。" },
+    { "id": "es.ahora", "kind": "word", "pos": "adv", "text": "ahora", "zh": "现在", "features": { "ipa": "aˈoɾa" }, "noteZh": "h 不发音,读 a-o-ra;Ahora son las diez = 现在十点。" },
+    { "id": "es.la_manana", "kind": "word", "pos": "noun", "text": "la mañana", "zh": "上午;早上", "features": { "gender": "f", "ipa": "la maˈɲana" }, "noteZh": "de la mañana = 上午(的几点);不带冠词的 mañana 是'明天'(下一课)。" },
+    { "id": "es.la_tarde", "kind": "word", "pos": "noun", "text": "la tarde", "zh": "下午;傍晚", "features": { "gender": "f", "ipa": "la ˈtaɾde" }, "noteZh": "从午饭后到天黑都是 la tarde;不带冠词的 tarde 是'晚、迟'。" },
+    { "id": "es.noche", "kind": "word", "pos": "noun", "text": "la noche", "zh": "晚上;夜里", "features": { "gender": "f", "ipa": "la ˈnotʃe" }, "noteZh": "de la noche = 晚上(的几点);esta noche = 今晚;trabajar de noche = 上夜班。" }
+  ],
+  "reviewItems": ["es.ser","es.uno","es.doce"],
+  "lines": [
+    { "speaker": "lina", "text": "Hola, Javier. ¿Qué hora es? Mi móvil está en casa.", "zh": "你好,哈维尔。现在几点?我的手机落在家里了。", "items": ["es.hola","es.que_hora_es","es.mi","es.movil","es.estar","es.en","es.casa"] },
+    { "speaker": "javier", "text": "Ahora son las nueve menos cuarto.", "zh": "现在九点差一刻。", "items": ["es.ahora","es.ser","es.nueve","es.menos_cuarto"] },
+    { "speaker": "lina", "text": "¿Menos cuarto? No entiendo.", "zh": "差一刻?我没听懂。", "items": ["es.menos_cuarto","es.no_entiendo"] },
+    { "speaker": "javier", "text": "Son las ocho y cuarenta y cinco de la mañana.", "zh": "就是上午八点四十五分。", "items": ["es.ser","es.ocho","es.y","es.cuarenta","es.cinco","es.de","es.la_manana"] },
+    { "speaker": "lina", "text": "Vale, gracias. Tengo español a las nueve.", "zh": "好的,谢谢。我九点有西语课。", "items": ["es.vale","es.gracias","es.tener","es.espanol","es.a","es.nueve"] },
+    { "speaker": "javier", "text": "Yo tengo chino a las nueve y media. ¿Un café esta tarde?", "zh": "我九点半有中文课。今天下午一起喝杯咖啡?", "items": ["es.yo","es.tener","es.chino","es.a","es.nueve","es.y_media","es.un","es.cafe","es.este","es.la_tarde"] },
+    { "speaker": "lina", "text": "Sí. ¿A qué hora? ¿A la una?", "zh": "好啊。几点?一点?", "items": ["es.si","es.a_que_hora","es.a","es.uno"] },
+    { "speaker": "javier", "text": "¿A la una? No, en España comemos a las dos.", "zh": "一点?不行,在西班牙我们两点才吃午饭。", "items": ["es.a","es.uno","es.no","es.en","es.espana","es.comer","es.dos"] },
+    { "speaker": "lina", "text": "¿A las dos? En China comemos a las doce.", "zh": "两点?在中国我们十二点就吃午饭了。", "items": ["es.a","es.dos","es.en","es.china","es.comer","es.doce"] },
+    { "speaker": "javier", "text": "¿A las cinco y cuarto, en el café de la universidad?", "zh": "那五点一刻,在学校的咖啡馆,怎么样?", "items": ["es.a","es.cinco","es.y_cuarto","es.en","es.cafe","es.de","es.universidad"] },
+    { "speaker": "lina", "text": "Vale. ¡Y en Chengdú, las once y cuarto de la noche!", "zh": "好。那时候成都已经是晚上十一点一刻了!", "items": ["es.vale","es.y","es.en","es.once","es.y_cuarto","es.de","es.noche"] }
+  ],
+  "questions": [
+    { "prompt": "李娜问时间的时候,是几点?", "options": ["8:15","8:45","9:15","9:45"], "answer": 1, "explainZh": "哈维尔说 Ahora son las nueve menos cuarto(九点差一刻),又解释成 las ocho y cuarenta y cinco(八点四十五分)。" },
+    { "prompt": "哈维尔说,在西班牙一般几点吃午饭?", "options": ["十二点","一点","两点","五点一刻"], "answer": 2, "explainZh": "哈维尔说 En España comemos a las dos.(十二点吃午饭的是中国:En China comemos a las doce.)" },
+    { "prompt": "他们约了几点、在哪儿见面?", "options": ["五点一刻,在学校的咖啡馆","一点,在学校的咖啡馆","九点半,在教室","十一点一刻,在李娜家"], "answer": 0, "explainZh": "哈维尔问 ¿A las cinco y cuarto, en el café de la universidad?,李娜说 Vale。十一点一刻是那时候成都的时间。" }
+  ],
+  "grammar": [
+    { "id": "es.g.la_hora", "titleZh": "说钟点:Es la una / Son las dos,¿A qué hora…?",
+      "bodyZh": "问现在几点:¿Qué hora es?(h 不发音)。回答要用 ser:一点用单数 Es la una,其他钟点用复数 Son las dos、Son las nueve……。钟点前总有阴性冠词 la / las(指的是 la hora),所以一点是 la una,不说 el uno。中文可以只说“现在九点”,英语说 It's nine,西语一定要有动词:Son las nueve。\n几分:过几分用 y:las dos y diez(两点十分);一刻是 y cuarto,半是 y media。过了半点常用 menos(差):las nueve menos cuarto = 8:45,和中文“差一刻九点”一样,先说下一个整点,再说差多少。\n问几点做某事用 ¿A qué hora…?,回答也要带 a:A las cinco. / A la una.(中文“五点见”不用介词,英语用 at。)别和 ¿Qué hora es? 混:那句只问现在几点。\n上午、下午、晚上放在钟点后面:las ocho de la mañana、las cinco de la tarde、las once de la noche。西班牙的 tarde 从午饭后(两点左右)一直到八九点天黑,所以 las siete de la tarde 就是晚上七点。火车、电视、通知用 24 小时制,直接读数字:las diecisiete quince(17:15),这时不用 y cuarto、menos cuarto。\n常见错误:✗ Es las dos → Son las dos;✗ Son la una → Es la una;✗ A las una → A la una。",
+      "examples": [
+        { "text": "Es la una y cuarto.", "zh": "一点一刻。" },
+        { "text": "Son las doce menos cuarto.", "zh": "十一点四十五分(差一刻十二点)。" },
+        { "text": "Comemos a las dos de la tarde.", "zh": "我们下午两点吃午饭。" },
+        { "text": "Ahora son las diez y media de la noche.", "zh": "现在是晚上十点半。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "es.a1u6.l02", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106020,
+  "titleZh": "请问,普拉多博物馆在哪儿?", "goalZh": "会礼貌地问路,听懂直走、左转、右转和大概多远", "canDoZh": "能在街上礼貌地问路,听懂简单的路线说明",
+  "skills": ["listen","speak","read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "es.perdone", "kind": "word", "pos": "interj", "text": "Perdone", "zh": "打扰一下;对不起(对陌生人)", "features": { "ipa": "peɾˈdone" }, "noteZh": "对陌生人用 perdone(usted),对朋友用 perdona(tú);问路时先说它,再问 ¿Dónde está…?;单纯道歉也可以说 perdón。" },
+    { "id": "es.todo_recto", "kind": "phrase", "pos": "phrase", "text": "todo recto", "zh": "一直往前走", "features": { "ipa": "ˈtodo ˈrekto" }, "noteZh": "拉美多说 derecho / todo derecho。" },
+    { "id": "es.a_la_derecha", "kind": "phrase", "pos": "phrase", "text": "a la derecha", "zh": "往右;在右边", "features": { "ipa": "a la deˈɾetʃa" }, "noteZh": "gire a la derecha = 您往右拐。" },
+    { "id": "es.a_la_izquierda", "kind": "phrase", "pos": "phrase", "text": "a la izquierda", "zh": "往左;在左边", "features": { "ipa": "a la iθˈkjeɾda" }, "noteZh": "z 读 [θ],qu 读 [k]。" },
+    { "id": "es.girar", "kind": "word", "pos": "verb", "text": "girar", "zh": "转弯;拐", "features": { "ipa": "xiˈɾaɾ" }, "noteZh": "g 在 i 前读 [x];问路时常听到 gire(您拐)/ gira(你拐):Gire a la derecha。" },
+    { "id": "es.esquina", "kind": "word", "pos": "noun", "text": "la esquina", "zh": "街角;路口", "features": { "gender": "f", "ipa": "la esˈkina" }, "noteZh": "en la esquina = 在街角;qu 读 [k]。" },
+    { "id": "es.delante_de", "kind": "phrase", "pos": "phrase", "text": "delante de", "zh": "在……前面", "features": { "ipa": "deˈlante de" }, "noteZh": "反义词是 detrás de(在……后面)。" },
+    { "id": "es.enfrente_de", "kind": "phrase", "pos": "phrase", "text": "enfrente de", "zh": "在……对面", "features": { "ipa": "enˈfɾente de" }, "noteZh": "enfrente del museo = 在博物馆对面(de + el = del)。" },
+    { "id": "es.minuto", "kind": "word", "pos": "noun", "text": "el minuto", "zh": "分钟", "features": { "gender": "m", "ipa": "el miˈnuto" }, "noteZh": "Está a cinco minutos = 离这儿五分钟(这里的 a 表示距离)。" },
+    { "id": "es.despues", "kind": "word", "pos": "adv", "text": "después", "zh": "之后;以后", "features": { "ipa": "desˈpwes" }, "noteZh": "重音在 ués;指路时说 Todo recto y después a la derecha;después de + 动词原形或名词:después de comer = 吃完饭以后。" }
+  ],
+  "reviewItems": ["es.donde","es.estar","es.museo","es.segundo"],
+  "lines": [
+    { "speaker": "lina", "text": "Perdone, ¿dónde está el Museo del Prado?", "zh": "打扰一下,请问普拉多博物馆在哪儿?", "items": ["es.perdone","es.donde","es.estar","es.museo"] },
+    { "speaker": "transeunte", "text": "¿El Prado? Todo recto y en la segunda calle, gire a la derecha.", "zh": "普拉多?一直往前走,到第二条街往右拐。", "items": ["es.todo_recto","es.y","es.en","es.segundo","es.calle","es.girar","es.a_la_derecha"] },
+    { "speaker": "lina", "text": "Perdone, ¿puede repetir, por favor? Más despacio.", "zh": "不好意思,您能再说一遍吗?慢一点。", "items": ["es.perdone","es.puedes_repetir","es.por_favor","es.mas_despacio"] },
+    { "speaker": "transeunte", "text": "Sí, claro. Todo recto. Después, la segunda calle a la derecha.", "zh": "好的。一直走。然后第二条街往右。", "items": ["es.si","es.claro","es.todo_recto","es.despues","es.segundo","es.calle","es.a_la_derecha"] },
+    { "speaker": "lina", "text": "Todo recto y la segunda a la derecha. Vale.", "zh": "一直走,第二条街往右。好的。", "items": ["es.todo_recto","es.y","es.segundo","es.a_la_derecha","es.vale"] },
+    { "speaker": "transeunte", "text": "En la esquina hay una farmacia.", "zh": "街角有一家药店。", "items": ["es.en","es.esquina","es.hay","es.una","es.farmacia"] },
+    { "speaker": "transeunte", "text": "Delante de la farmacia, gire a la izquierda.", "zh": "到了药店门前,往左拐。", "items": ["es.delante_de","es.farmacia","es.girar","es.a_la_izquierda"] },
+    { "speaker": "transeunte", "text": "El museo está enfrente de un parque muy grande.", "zh": "博物馆就在一个很大的公园对面。", "items": ["es.museo","es.estar","es.enfrente_de","es.un","es.parque","es.muy","es.grande"] },
+    { "speaker": "lina", "text": "¿Está lejos?", "zh": "远吗?", "items": ["es.estar","es.lejos"] },
+    { "speaker": "transeunte", "text": "No, está a cinco minutos.", "zh": "不远,走五分钟就到。", "items": ["es.no","es.estar","es.a","es.cinco","es.minuto"] },
+    { "speaker": "lina", "text": "¡Muchas gracias! ¡Adiós!", "zh": "太感谢了!再见!", "items": ["es.mucho","es.gracias","es.adios"] }
+  ],
+  "questions": [
+    { "prompt": "路人先让李娜怎么走?", "options": ["第一条街往左拐","一直往前走,到第二条街往左拐","一直往前走,到第二条街往右拐","在药店往右拐"], "answer": 2, "explainZh": "路人说 Todo recto y en la segunda calle, gire a la derecha.(a la derecha = 往右)" },
+    { "prompt": "博物馆在哪儿?", "options": ["在一个大公园对面","在药店旁边","在车站后面"], "answer": 0, "explainZh": "El museo está enfrente de un parque muy grande.(enfrente de = 在……对面)" },
+    { "prompt": "从这儿走到博物馆要多久?", "options": ["十五分钟","五分钟","二十分钟"], "answer": 1, "explainZh": "李娜问 ¿Está lejos?,路人说 No, está a cinco minutos." }
+  ],
+  "grammar": [
+    { "id": "es.g.preguntar_camino", "titleZh": "问路和指路的固定说法",
+      "bodyZh": "开口先说 Perdone(对陌生人,用 usted),对朋友说 Perdona(tú)。然后问 ¿Dónde está + 定冠词 + 地方?:¿Dónde está el Museo del Prado? 听不清就说 ¿Puede repetir, por favor? / Más despacio, por favor(对陌生人用 puede,不用 puedes)。\n指路常听到:todo recto(一直走);gire a la derecha / a la izquierda(您往右 / 往左拐,对朋友说 gira);la primera / la segunda calle(第一 / 第二条街,序数词跟着 calle 用阴性 segunda);después(然后)。中文说“第二个路口右转”,西语按“第几条街”数:la segunda calle a la derecha。\n位置:delante de(在……前面)、enfrente de(在……对面,中间常隔着一条街)、al lado de(在……旁边);碰上 el 要缩合:enfrente del museo。\n多远:Está a cinco minutos.(离这儿五分钟,a 表示距离);Está lejos / cerca.(远 / 近)",
+      "examples": [
+        { "text": "Perdone, ¿dónde está la estación?", "zh": "打扰一下,车站在哪儿?" },
+        { "text": "Todo recto y, después, a la izquierda.", "zh": "一直走,然后往左。" },
+        { "text": "Gire a la derecha en la segunda calle.", "zh": "在第二条街往右拐。" },
+        { "text": "El banco está enfrente del museo.", "zh": "银行在博物馆对面。" }
+      ] }
+  ],
+  "review": "draft"
+}

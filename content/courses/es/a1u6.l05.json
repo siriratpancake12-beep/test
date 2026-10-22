@@ -1,0 +1,52 @@
+{
+  "id": "es.a1u6.l05", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106050,
+  "titleZh": "大教堂几点开门?", "goalZh": "会问景点的开放时间和门票,简单描述一座城市", "canDoZh": "能问景点几点开门、几点关门、门票多少钱,并简单说说一座城市的样子",
+  "skills": ["listen","speak","read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "es.abrir", "kind": "word", "pos": "verb", "text": "abrir", "zh": "打开;开门", "features": { "ipa": "aˈbɾiɾ" }, "noteZh": "-ir 规则动词:abro, abres, abre…;¿A qué hora abre el museo? = 博物馆几点开门?" },
+    { "id": "es.cerrar", "kind": "word", "pos": "verb", "text": "cerrar", "zh": "关;关门", "features": { "ipa": "θeˈraɾ" }, "noteZh": "e→ie:cierro, cierras, cierra…;rr 要颤舌。" },
+    { "id": "es.entrada", "kind": "word", "pos": "noun", "text": "la entrada", "zh": "门票;入口", "features": { "gender": "f", "ipa": "la enˈtɾada" }, "noteZh": "一张门票 una entrada;入口也叫 la entrada,出口是 la salida。" },
+    { "id": "es.gratis", "kind": "word", "pos": "adv", "text": "gratis", "zh": "免费", "features": { "ipa": "ˈɡɾatis" }, "noteZh": "不变形:La entrada es gratis。" },
+    { "id": "es.catedral", "kind": "word", "pos": "noun", "text": "la catedral", "zh": "大教堂", "features": { "gender": "f", "ipa": "la kateˈdɾal" }, "noteZh": "-al 结尾的名词性别要单独记:la catedral 是阴性。" },
+    { "id": "es.antiguo", "kind": "word", "pos": "adj", "text": "antiguo", "zh": "古老的;历史悠久的", "features": { "ipa": "anˈtiɡwo" }, "noteZh": "guo 里的 u 要读出来;说城市、建筑古老用 antiguo,说东西旧多用 viejo。" },
+    { "id": "es.moderno", "kind": "word", "pos": "adj", "text": "moderno", "zh": "现代的;时髦的", "features": { "ipa": "moˈdeɾno" }, "noteZh": "阴性 moderna:una ciudad moderna;重音在 der。" },
+    { "id": "es.famoso", "kind": "word", "pos": "adj", "text": "famoso", "zh": "有名的", "features": { "ipa": "faˈmoso" }, "noteZh": "阴性 famosa:una catedral famosa;ser famoso por… = 以……出名。" },
+    { "id": "es.plano", "kind": "word", "pos": "noun", "text": "el plano", "zh": "城市地图", "features": { "gender": "m", "ipa": "el ˈplano" }, "noteZh": "城市、地铁的地图叫 el plano;el mapa(-a 结尾的阳性)指一般的地图。" }
+  ],
+  "reviewItems": ["es.a_que_hora","es.museo","es.domingo","es.cuanto_cuesta"],
+  "lines": [
+    { "speaker": "lina", "text": "Buenos días. ¿A qué hora abre la catedral de Toledo?", "zh": "您好。托莱多大教堂几点开门?", "items": ["es.buenos_dias","es.a_que_hora","es.abrir","es.catedral","es.de"] },
+    { "speaker": "guia", "text": "Abre a las diez y cierra a las seis y media.", "zh": "十点开门,六点半关门。", "items": ["es.abrir","es.a","es.diez","es.y","es.cerrar","es.seis","es.y_media"] },
+    { "speaker": "diego", "text": "¿Y cuánto cuesta la entrada?", "zh": "门票多少钱?", "items": ["es.y","es.cuanto_cuesta","es.entrada"] },
+    { "speaker": "guia", "text": "Diez euros.", "zh": "十欧。", "items": ["es.diez","es.euro"] },
+    { "speaker": "lina", "text": "¿Y el museo? ¿Es gratis?", "zh": "那博物馆呢?免费吗?", "items": ["es.y","es.museo","es.ser","es.gratis"] },
+    { "speaker": "guia", "text": "Los domingos por la tarde, la entrada es gratis.", "zh": "每周日下午免费。", "items": ["es.domingo","es.por","es.la_tarde","es.entrada","es.ser","es.gratis"] },
+    { "speaker": "diego", "text": "¡Y nosotros vamos el sábado!", "zh": "可我们是星期六去!", "items": ["es.y","es.nosotros","es.ir","es.sabado"] },
+    { "speaker": "guia", "text": "Aquí tenéis un plano. Toledo no es grande: podéis ir a pie.", "zh": "给你们一张地图。托莱多不大,走路就能逛。", "items": ["es.aqui","es.tener","es.un","es.plano","es.no","es.ser","es.grande","es.poder","es.ir","es.a_pie"] },
+    { "speaker": "guia", "text": "Es una ciudad muy antigua y muy famosa.", "zh": "这是一座非常古老、非常有名的城市。", "items": ["es.ser","es.una","es.ciudad","es.muy","es.antiguo","es.y","es.famoso"] },
+    { "speaker": "diego", "text": "Guadalajara, mi ciudad, es grande y moderna.", "zh": "我的家乡瓜达拉哈拉又大又现代。", "items": ["es.mi","es.ciudad","es.ser","es.grande","es.y","es.moderno"] }
+  ],
+  "questions": [
+    { "prompt": "大教堂几点开门、几点关门?", "options": ["九点开门,六点关门","十点开门,两点关门","十点开门,六点半关门","十点半开门,六点关门"], "answer": 2, "explainZh": "工作人员说 Abre a las diez y cierra a las seis y media.(abre 开门,cierra 关门)" },
+    { "prompt": "博物馆什么时候免费?", "options": ["每周六上午","每周日下午","每天下午"], "answer": 1, "explainZh": "Los domingos por la tarde, la entrada es gratis.;所以迭戈说:我们是星期六去!" },
+    { "prompt": "工作人员说托莱多是一座什么样的城市?", "options": ["很古老、很有名,不大,走路就能逛","又大又现代","很新,很安静"], "answer": 0, "explainZh": "Toledo no es grande: podéis ir a pie. Es una ciudad muy antigua y muy famosa.;“又大又现代”是迭戈说他的家乡瓜达拉哈拉。" }
+  ],
+  "grammar": [
+    { "id": "es.g.abrir_cerrar", "titleZh": "几点开门、关门:abre / cierra",
+      "bodyZh": "问开放时间:¿A qué hora abre / cierra el museo? abrir(开门)是规则 -ir 动词:abro, abres, abre…;cerrar(关门)是 e→ie 变位:cierro, cierras, cierra, cerramos, cerráis, cierran(和 empezar 一样)。cerrar 的 rr 要颤舌。\n回答:Abre a las diez y cierra a las seis y media.——中文“十点开门”不用介词,西语要用 a las。\n门票是 la entrada(一张门票 una entrada;入口也叫 la entrada)。问价钱:¿Cuánto cuesta la entrada? 免费是 gratis,不变形:La entrada es gratis. 说“每周日下午免费”用复数 los domingos。",
+      "examples": [
+        { "text": "El museo abre a las diez.", "zh": "博物馆十点开门。" },
+        { "text": "¿A qué hora cierra la catedral?", "zh": "大教堂几点关门?" },
+        { "text": "Los domingos la entrada es gratis.", "zh": "每周日门票免费。" }
+      ] },
+    { "id": "es.g.describir_ciudad", "titleZh": "描述城市:una ciudad muy antigua",
+      "bodyZh": "说一座城市是什么样,用 ser + 形容词(ser 说特点):Toledo es antigua. Madrid es grande y moderna.\n形容词一般放在名词后面,并且和名词的性数一致:ciudad 是阴性,所以是 una ciudad antigua、famosa、moderna、pequeña;grande 男女同形。中文“古老的城市”形容词在前,西语在后。(antiguo 放在名词前常常是“以前的”:mi antiguo piso = 我以前住的公寓。)\n程度:muy + 形容词(muy antigua,非常古老);mucho 跟名词走,也要变性数(muchas tiendas,很多商店),不能说 ✗ mucho antigua。\nantiguo 说城市、建筑“古老、有历史”;说东西旧用 viejo。guo 里的 u 要读出来。",
+      "examples": [
+        { "text": "Toledo es una ciudad muy antigua.", "zh": "托莱多是一座非常古老的城市。" },
+        { "text": "Madrid es grande y moderna.", "zh": "马德里又大又现代。" },
+        { "text": "La catedral es muy famosa.", "zh": "那座大教堂很有名。" }
+      ] }
+  ],
+  "review": "draft"
+}

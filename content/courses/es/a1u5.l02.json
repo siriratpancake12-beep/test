@@ -1,0 +1,53 @@
+{
+  "id": "es.a1u5.l02", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105020,
+  "titleZh": "今天星期几?", "goalZh": "记住一周七天,会说今天、明天和某天做什么", "canDoZh": "能说今天星期几,并说出一周里哪天有课、哪天休息",
+  "skills": ["listen","read","write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "es.dia", "kind": "word", "pos": "noun", "text": "el día", "zh": "天;日子", "features": { "gender": "m", "ipa": "el ˈdia" }, "noteZh": "-a 结尾却是阳性:el día;buenos días 里就是它的复数。" },
+    { "id": "es.lunes", "kind": "word", "pos": "noun", "text": "el lunes", "zh": "星期一", "features": { "gender": "m", "ipa": "el ˈlunes" }, "noteZh": "星期名都是阳性、小写;lunes 到 viernes 单复数同形:el lunes / los lunes。" },
+    { "id": "es.martes", "kind": "word", "pos": "noun", "text": "el martes", "zh": "星期二", "features": { "gender": "m", "ipa": "el ˈmaɾtes" }, "noteZh": "单复数同形:los martes = 每个星期二。" },
+    { "id": "es.miercoles", "kind": "word", "pos": "noun", "text": "el miércoles", "zh": "星期三", "features": { "gender": "m", "ipa": "el ˈmjeɾkoles" }, "noteZh": "重音符号在 é 上。" },
+    { "id": "es.jueves", "kind": "word", "pos": "noun", "text": "el jueves", "zh": "星期四", "features": { "gender": "m", "ipa": "el ˈxwebes" }, "noteZh": "j 读 [x]。" },
+    { "id": "es.viernes", "kind": "word", "pos": "noun", "text": "el viernes", "zh": "星期五", "features": { "gender": "m", "ipa": "el ˈbjeɾnes" }, "noteZh": "v 读 [b]。" },
+    { "id": "es.sabado", "kind": "word", "pos": "noun", "text": "el sábado", "zh": "星期六", "features": { "gender": "m", "ipa": "el ˈsabado" }, "noteZh": "重音在 sá;复数 los sábados。" },
+    { "id": "es.domingo", "kind": "word", "pos": "noun", "text": "el domingo", "zh": "星期日", "features": { "gender": "m", "ipa": "el doˈmiŋɡo" }, "noteZh": "复数 los domingos;星期天西班牙不少小商店不开门。" },
+    { "id": "es.hoy", "kind": "word", "pos": "adv", "text": "hoy", "zh": "今天", "features": { "ipa": "oi" }, "noteZh": "h 不发音,读 [oi];¿Qué día es hoy? = 今天星期几?" },
+    { "id": "es.manana", "kind": "word", "pos": "adv", "text": "mañana", "zh": "明天", "features": { "ipa": "maˈɲana" }, "noteZh": "不带冠词是'明天',la mañana 是'上午';mañana por la mañana = 明天上午。" }
+  ],
+  "reviewItems": ["es.la_tarde","es.tener","es.trabajar"],
+  "lines": [
+    { "speaker": "marta", "text": "Li Na, ¿qué día es hoy?", "zh": "李娜,今天星期几?", "items": ["es.que","es.dia","es.ser","es.hoy"] },
+    { "speaker": "lina", "text": "Hoy es lunes.", "zh": "今天星期一。", "items": ["es.hoy","es.ser","es.lunes"] },
+    { "speaker": "marta", "text": "Mañana es martes: trabajo de noche.", "zh": "明天星期二,我上夜班。", "items": ["es.manana","es.ser","es.martes","es.trabajar","es.de","es.noche"] },
+    { "speaker": "marta", "text": "Y el sábado y el domingo también trabajo en el hospital.", "zh": "这个星期六和星期天我也在医院上班。", "items": ["es.y","es.sabado","es.domingo","es.tambien","es.trabajar","es.en","es.hospital"] },
+    { "speaker": "lina", "text": "¿Los dos días?", "zh": "两天都上?", "items": ["es.dos","es.dia"] },
+    { "speaker": "marta", "text": "Sí, los dos. ¿Y tú? ¿Qué días estudias?", "zh": "对,两天都上。你呢?你哪几天上课?", "items": ["es.si","es.dos","es.y","es.tu","es.que","es.dia","es.estudiar"] },
+    { "speaker": "lina", "text": "Estudio de lunes a jueves. Los miércoles tengo español a las nueve.", "zh": "我星期一到星期四上课。每周三九点有西语课。", "items": ["es.estudiar","es.de","es.lunes","es.a","es.jueves","es.miercoles","es.tener","es.espanol","es.nueve"] },
+    { "speaker": "marta", "text": "¿Y los viernes?", "zh": "那每周五呢?", "items": ["es.y","es.viernes"] },
+    { "speaker": "lina", "text": "Los viernes, a las cinco de la tarde, hablo con Javier.", "zh": "每周五下午五点,我和哈维尔练口语。", "items": ["es.viernes","es.a","es.cinco","es.de","es.la_tarde","es.hablar","es.con"] },
+    { "speaker": "lina", "text": "Él habla chino y yo hablo español.", "zh": "他说中文,我说西语。", "items": ["es.el","es.hablar","es.chino","es.y","es.yo","es.espanol"] }
+  ],
+  "questions": [
+    { "prompt": "对话这天是星期几?", "options": ["星期二","星期日","星期一","星期五"], "answer": 2, "explainZh": "李娜说 Hoy es lunes.;玛尔塔说 Mañana es martes(明天才是星期二)。" },
+    { "prompt": "这个星期六和星期天,玛尔塔做什么?", "options": ["两天都在医院上班","在家休息","和李娜去菜市场"], "answer": 0, "explainZh": "玛尔塔说 Y el sábado y el domingo también trabajo en el hospital.,李娜问 ¿Los dos días?,她说 Sí, los dos。" },
+    { "prompt": "李娜每周五下午做什么?", "options": ["在大学上课","和哈维尔互相练语言","去医院上班","上西语课"], "answer": 1, "explainZh": "李娜说 Los viernes, a las cinco de la tarde, hablo con Javier. Él habla chino y yo hablo español.——哈维尔练中文,李娜练西语,这就是语言交换。" }
+  ],
+  "grammar": [
+    { "id": "es.g.dias_semana", "titleZh": "星期几:el lunes 和 los lunes",
+      "bodyZh": "星期都是阳性名词,一律小写:el lunes、el martes、el miércoles、el jueves、el viernes、el sábado、el domingo。lunes 到 viernes 单复数同形(los lunes),sábado、domingo 复数加 s(los sábados、los domingos)。\n说“在星期几”直接用冠词,不加介词:El sábado trabajo.(这个星期六我上班。)英语说 on Saturday,西语不要 en:✗ en el sábado。\n单数 el lunes 指某一个具体的星期一(这周的或下周的),复数 los lunes 指“每个星期一”,说习惯:Los miércoles tengo español.(每周三我有西语课。)中文常常不分,西语靠冠词分清楚。\n问今天星期几:¿Qué día es hoy? 回答 Hoy es lunes.——这里不加冠词。",
+      "examples": [
+        { "text": "El sábado trabajo en el hospital.", "zh": "这个星期六我在医院上班。" },
+        { "text": "Los miércoles tengo español.", "zh": "每周三我有西语课。" },
+        { "text": "Hoy es jueves.", "zh": "今天星期四。" }
+      ] },
+    { "id": "es.g.hoy_manana", "titleZh": "hoy、mañana 和 de … a …",
+      "bodyZh": "hoy 是“今天”(h 不发音),mañana 是“明天”:Mañana es viernes.(明天星期五。)注意 mañana 一词两义:不带冠词是“明天”,带冠词的 la mañana 是“上午”(上一课的 las ocho de la mañana)。\n从……到……:de + 开始 + a + 结束,星期、钟点都能用:de lunes a viernes(星期一到星期五)、de nueve a dos(九点到两点)。说星期时这里不加冠词。\n上夜班:trabajar de noche。",
+      "examples": [
+        { "text": "Mañana es sábado.", "zh": "明天星期六。" },
+        { "text": "Estudio de lunes a jueves.", "zh": "我星期一到星期四上课。" },
+        { "text": "Hoy trabajo de nueve a dos.", "zh": "今天我九点到两点上班。" }
+      ] }
+  ],
+  "review": "draft"
+}

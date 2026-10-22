@@ -1,0 +1,49 @@
+{
+  "id": "es.a1u6.l08", "schemaVersion": 1, "lang": "es", "type": "reading", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106080,
+  "titleZh": "单元复习:托莱多一日游行程", "goalZh": "读懂一份一日游的行程安排,并写出自己的出行计划", "canDoZh": "能读懂、写出一份简单的一日游行程:怎么去、几点出发和到达、去哪儿",
+  "skills": ["read","listen","write"], "estimatedMinutes": 19,
+  "newItems": [
+    { "id": "es.volver", "kind": "word", "pos": "verb", "text": "volver", "zh": "回来;返回", "features": { "ipa": "bolˈbeɾ" }, "noteZh": "o→ue:vuelvo, vuelves, vuelve, volvemos, volvéis, vuelven;volver a + 地点 = 回到……:volver a casa = 回家。" },
+    { "id": "es.luego", "kind": "word", "pos": "adv", "text": "luego", "zh": "然后;接着", "features": { "ipa": "ˈlweɡo" }, "noteZh": "常和 primero 连用:Primero vamos al museo; luego, comemos;hasta luego 的 luego 就是它。" },
+    { "id": "es.nuestro", "kind": "word", "pos": "det", "text": "nuestro", "zh": "我们的", "features": { "ipa": "ˈnwestɾo" }, "noteZh": "跟名词变性数:nuestro tren, nuestra casa, nuestros billetes, nuestras vacaciones;“你们的”是 vuestro。" }
+  ],
+  "reviewItems": ["es.ir","es.tren","es.salir","es.llegar"],
+  "lines": [
+    { "speaker": "lina", "text": "¡Hola, Marta! Mañana Diego y yo vamos a Toledo.", "zh": "玛尔塔,你好!明天我和迭戈去托莱多。", "items": ["es.hola","es.manana","es.y","es.yo","es.ir","es.a"] },
+    { "speaker": "lina", "text": "Este es nuestro viaje:", "zh": "这是我们的行程:", "items": ["es.este","es.ser","es.nuestro","es.viaje"] },
+    { "speaker": "lina", "text": "Por la mañana vamos en metro a la estación de Atocha.", "zh": "早上我们坐地铁去阿托查火车站。", "items": ["es.por","es.la_manana","es.ir","es.en","es.metro","es.a","es.estacion","es.de"] },
+    { "speaker": "lina", "text": "Nuestro tren sale a las nueve y veinte.", "zh": "我们的火车九点二十出发。", "items": ["es.nuestro","es.tren","es.salir","es.a","es.nueve","es.y","es.veinte"] },
+    { "speaker": "lina", "text": "Llegamos a Toledo a las diez.", "zh": "十点到托莱多。", "items": ["es.llegar","es.a","es.diez"] },
+    { "speaker": "lina", "text": "Primero vamos a pie a la catedral: ¡es muy famosa!", "zh": "我们先走路去大教堂:它可有名了!", "items": ["es.primero","es.ir","es.a_pie","es.a","es.catedral","es.ser","es.muy","es.famoso"] },
+    { "speaker": "lina", "text": "Luego, a las dos, comemos en un restaurante pequeño.", "zh": "然后两点在一家小餐馆吃午饭。", "items": ["es.luego","es.a","es.dos","es.comer","es.en","es.un","es.restaurante","es.pequeno"] },
+    { "speaker": "lina", "text": "Por la tarde vamos al museo y a la plaza.", "zh": "下午去博物馆和广场。", "items": ["es.por","es.la_tarde","es.ir","es.museo","es.y","es.a","es.plaza"] },
+    { "speaker": "lina", "text": "Tenemos que estar en la estación a las siete.", "zh": "七点我们得到火车站。", "items": ["es.tener_que","es.estar","es.en","es.estacion","es.a","es.siete"] },
+    { "speaker": "lina", "text": "Volvemos a Madrid en el tren de las siete y media.", "zh": "坐七点半的火车回马德里。", "items": ["es.volver","es.a","es.en","es.tren","es.de","es.siete","es.y_media"] },
+    { "speaker": "lina", "text": "A las nueve estoy en casa. ¿Cenamos?", "zh": "九点我就到家了。一起吃晚饭吧?", "items": ["es.a","es.nueve","es.estar","es.en","es.casa","es.cenar"] },
+    { "speaker": "lina", "text": "Un abrazo, Li Na.", "zh": "抱抱,李娜。", "items": ["es.un_abrazo"] }
+  ],
+  "questions": [
+    { "prompt": "他们几点到托莱多?", "options": ["九点二十","十点","七点半","九点"], "answer": 1, "explainZh": "Nuestro tren sale a las nueve y veinte. Llegamos a Toledo a las diez.(九点二十是出发时间)" },
+    { "prompt": "到了托莱多,他们先去哪儿?", "options": ["博物馆","餐馆","广场","大教堂"], "answer": 3, "explainZh": "Primero vamos a pie a la catedral.(primero = 首先);吃饭是 luego(然后),博物馆和广场是下午。" },
+    { "prompt": "他们坐几点的火车回马德里?", "options": ["七点半","七点","九点"], "answer": 0, "explainZh": "Volvemos a Madrid en el tren de las siete y media.;七点是他们得到车站的时间,九点李娜到家。" },
+    { "prompt": "李娜在最后问玛尔塔什么?", "options": ["明天几点起床","要不要一起去托莱多","晚上要不要一起吃晚饭"], "answer": 2, "explainZh": "A las nueve estoy en casa. ¿Cenamos?(cenar = 吃晚饭)" }
+  ],
+  "grammar": [
+    { "id": "es.g.planes_presente", "titleZh": "说定好的安排:用现在时,primero … luego …",
+      "bodyZh": "已经定好的安排(时刻表、行程),西语直接用现在时,不用将来时:Mañana vamos a Toledo. Nuestro tren sale a las nueve y veinte.——和中文“明天我们去托莱多”一样,靠 mañana、a las nueve 这些时间词表示将来;英语也说 The train leaves at 9:20。\n说先后顺序:primero(首先)… luego(然后)…,也可以用 después:Primero vamos a la catedral; luego, al museo. luego 就是 hasta luego 里的那个词。\n回来是 volver(o→ue):vuelvo, vuelves, vuelve, volvemos, volvéis, vuelven;回到某地 volver a:Volvemos a Madrid a las siete y media;回家 volver a casa。",
+      "examples": [
+        { "text": "Mañana salimos a las nueve.", "zh": "我们明天九点出发。" },
+        { "text": "Primero vamos a la catedral y luego comemos.", "zh": "我们先去大教堂,然后吃饭。" },
+        { "text": "Volvemos a casa en metro.", "zh": "我们坐地铁回家。" }
+      ] },
+    { "id": "es.g.nuestro", "titleZh": "nuestro 跟名词变:nuestro tren、nuestra calle",
+      "bodyZh": "nuestro(我们的)和 mi、tu、su 不一样:它有阴阳性和单复数四个形式,跟后面的名词走,不看“我们”是男是女:nuestro tren、nuestra calle、nuestros billetes、nuestras vacaciones。李娜和迭戈一女一男,说“我们的火车”是 nuestro tren,因为 tren 是阳性。\n“你们的”是 vuestro(变法一样),“他们的”还是 su。中文“我们的”、英语 our 都不变,所以中国学生最容易忘:✗ nuestro calle → ✓ nuestra calle。",
+      "examples": [
+        { "text": "Nuestro tren sale de Atocha.", "zh": "我们的火车从阿托查站出发。" },
+        { "text": "Nuestra calle es muy tranquila.", "zh": "我们那条街很安静。" },
+        { "text": "¿Dónde están nuestros billetes?", "zh": "我们的车票在哪儿?" }
+      ] }
+  ],
+  "review": "draft"
+}

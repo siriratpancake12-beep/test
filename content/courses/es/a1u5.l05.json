@@ -1,0 +1,53 @@
+{
+  "id": "es.a1u5.l05", "schemaVersion": 1, "lang": "es", "type": "grammar", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105050,
+  "titleZh": "李娜的一天", "goalZh": "会用反身动词说一天的作息,会说几点起床、吃饭、睡觉", "canDoZh": "能按时间顺序说自己一天的作息",
+  "skills": ["listen","speak","read","write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "es.levantarse", "kind": "word", "pos": "verb", "text": "levantarse", "zh": "起床", "features": { "ipa": "lebanˈtaɾse" }, "noteZh": "反身动词:me levanto, te levantas, se levanta…;代词不能省:✗ Levanto a las siete。" },
+    { "id": "es.ducharse", "kind": "word", "pos": "verb", "text": "ducharse", "zh": "洗澡;淋浴", "features": { "ipa": "duˈtʃaɾse" }, "noteZh": "me ducho, te duchas…;la ducha = 淋浴。" },
+    { "id": "es.acostarse", "kind": "word", "pos": "verb", "text": "acostarse", "zh": "上床睡觉", "features": { "ipa": "akosˈtaɾse" }, "noteZh": "o→ue:me acuesto, te acuestas, se acuesta…" },
+    { "id": "es.desayunar", "kind": "word", "pos": "verb", "text": "desayunar", "zh": "吃早饭", "features": { "ipa": "desaʝuˈnaɾ" }, "noteZh": "-ar 规则动词,西班牙一般不带 se:Desayuno a las ocho;el desayuno = 早餐。" },
+    { "id": "es.cenar", "kind": "word", "pos": "verb", "text": "cenar", "zh": "吃晚饭", "features": { "ipa": "θeˈnaɾ" }, "noteZh": "西班牙人一般晚上九点以后才吃晚饭;c 在 e 前读 [θ];la cena = 晚餐。" },
+    { "id": "es.temprano", "kind": "word", "pos": "adv", "text": "temprano", "zh": "早(时间早)", "features": { "ipa": "temˈpɾano" }, "noteZh": "Me levanto temprano = 我起得早;和 la mañana(上午)不同。" },
+    { "id": "es.tarde", "kind": "word", "pos": "adv", "text": "tarde", "zh": "晚;迟", "features": { "ipa": "ˈtaɾde" }, "noteZh": "Me acuesto tarde = 我睡得晚;llegar tarde = 迟到。带冠词的 la tarde 是'下午'。" },
+    { "id": "es.por", "kind": "word", "pos": "prep", "text": "por", "zh": "在(某个时段);通过", "features": { "ipa": "poɾ" }, "noteZh": "por la mañana / por la tarde / por la noche = 在上午 / 下午 / 晚上(不说具体钟点时);por favor 里的 por 就是它。" },
+    { "id": "es.ir", "kind": "word", "pos": "verb", "text": "ir", "zh": "去", "features": { "ipa": "iɾ" }, "noteZh": "完全不规则:voy, vas, va, vamos, vais, van;ir a + 地点:Voy a la universidad;a + el = al:Voy al gimnasio。交通方式(en metro…)第 6 单元学。" },
+    { "id": "es.cansado", "kind": "word", "pos": "adj", "text": "cansado", "zh": "累的", "alt": ["cansada"], "features": { "ipa": "kanˈsado" }, "noteZh": "用 estar:Estoy cansada(女生说 cansada);ser cansado 意思变成“(事情)让人累”。" }
+  ],
+  "reviewItems": ["es.a","es.la_manana","es.comer","es.estar"],
+  "lines": [
+    { "speaker": "marta", "text": "Li Na, ¿a qué hora te levantas?", "zh": "李娜,你几点起床?", "items": ["es.a_que_hora","es.levantarse"] },
+    { "speaker": "lina", "text": "Me levanto temprano, a las siete. Me ducho y desayuno.", "zh": "我起得早,七点就起。洗个澡,吃早饭。", "items": ["es.levantarse","es.temprano","es.a","es.siete","es.ducharse","es.y","es.desayunar"] },
+    { "speaker": "lina", "text": "A las nueve voy a clase y a las dos como.", "zh": "九点去上课,两点吃午饭。", "items": ["es.a","es.nueve","es.ir","es.clase","es.y","es.dos","es.comer"] },
+    { "speaker": "lina", "text": "Por la noche ceno a las nueve. ¡Estoy muy cansada!", "zh": "晚上九点吃晚饭。我累极了!", "items": ["es.por","es.noche","es.cenar","es.a","es.nueve","es.estar","es.muy","es.cansado"] },
+    { "speaker": "lina", "text": "Me acuesto a las doce. ¿Y tú, Marta?", "zh": "我十二点睡觉。你呢,玛尔塔?", "items": ["es.acostarse","es.a","es.doce","es.y","es.tu"] },
+    { "speaker": "marta", "text": "Yo trabajo por la noche. Voy a casa a las nueve de la mañana.", "zh": "我晚上上班,早上九点才回家。", "items": ["es.yo","es.trabajar","es.por","es.noche","es.ir","es.a","es.casa","es.nueve","es.de","es.la_manana"] },
+    { "speaker": "marta", "text": "Me acuesto a las diez y me levanto tarde.", "zh": "十点睡觉,起得很晚。", "items": ["es.acostarse","es.a","es.diez","es.y","es.levantarse","es.tarde"] },
+    { "speaker": "lina", "text": "¿Y desayunas por la tarde?", "zh": "那你下午吃早饭?", "items": ["es.y","es.desayunar","es.por","es.la_tarde"] },
+    { "speaker": "marta", "text": "Sí, a las cuatro. Y ceno a las tres de la mañana.", "zh": "对,四点吃。晚饭是凌晨三点吃。", "items": ["es.si","es.a","es.cuatro","es.y","es.cenar","es.tres","es.de","es.la_manana"] },
+    { "speaker": "marta", "text": "Ahora son las once de la noche: ¡voy al hospital!", "zh": "现在晚上十一点了,我去医院了!", "items": ["es.ahora","es.ser","es.once","es.de","es.noche","es.ir","es.hospital"] }
+  ],
+  "questions": [
+    { "prompt": "李娜几点起床?", "options": ["六点","九点","七点","十二点"], "answer": 2, "explainZh": "李娜说 Me levanto temprano, a las siete.(十二点是她睡觉的时间:Me acuesto a las doce.)" },
+    { "prompt": "玛尔塔几点睡觉?", "options": ["上午十点","晚上十二点","下午四点","凌晨三点"], "answer": 0, "explainZh": "玛尔塔上夜班,早上九点才回家(Voy a casa a las nueve de la mañana),然后 Me acuesto a las diez(十点睡)。" },
+    { "prompt": "玛尔塔几点吃早饭?", "options": ["早上七点","下午四点","上午九点"], "answer": 1, "explainZh": "李娜问 ¿Y desayunas por la tarde?,玛尔塔说 Sí, a las cuatro.(下午四点)" }
+  ],
+  "grammar": [
+    { "id": "es.g.reflexivos", "titleZh": "反身动词:me levanto(我起床)",
+      "bodyZh": "levantarse(起床)、ducharse(洗澡)、acostarse(上床睡觉)词尾带 -se,叫反身动词:动作落在自己身上(把自己叫起来、给自己洗澡)。变位时,-se 换成和主语一致的代词,放在变位动词前面:me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan。\n中文“我起床”、英语 I get up 都不说“自己”,西语这个代词不能省:✗ Levanto a las siete → ✓ Me levanto a las siete;代词也要和主语对上:✗ Me levantas。问别人:¿A qué hora te levantas?\nacostarse 还是 o→ue 变位(和 poder 一样):me acuesto, te acuestas, se acuesta,但 nos acostamos、os acostáis。\ndesayunar(吃早饭)、cenar(吃晚饭)不带 -se,是普通的 -ar 动词:desayuno、ceno。西班牙人一般两点左右吃午饭(comer),九点以后才吃晚饭(cenar)。",
+      "examples": [
+        { "text": "Me levanto a las siete y me ducho.", "zh": "我七点起床,然后洗澡。" },
+        { "text": "¿A qué hora te acuestas?", "zh": "你几点睡觉?" },
+        { "text": "Marta se acuesta a las diez de la mañana.", "zh": "玛尔塔上午十点才睡觉。" }
+      ] },
+    { "id": "es.g.ir_por", "titleZh": "ir a + 地点;por la noche 和 a las nueve",
+      "bodyZh": "ir(去)完全不规则,要单独背:voy, vas, va, vamos, vais, van。去哪儿说 ir a + 地点:Voy a la universidad. a 碰上 el 要合成 al:Voy al hospital(✗ a el hospital)。回家是 ir a casa,上课是 ir a clase,都不加冠词。\n说一天里的时段,没有具体钟点时用 por:por la mañana、por la tarde、por la noche。有具体钟点时用 a las … de la …:a las nueve de la mañana。具体钟点前不用 por:✗ Me levanto por las siete → ✓ Me levanto a las siete。(拉美有些地方说 a la mañana,西班牙说 por la mañana。)\n早和晚:temprano(早)、tarde(晚):Me levanto temprano. 注意 tarde 一词两义:la tarde 是“下午”,不带冠词的 tarde 是“晚、迟”。",
+      "examples": [
+        { "text": "Voy a la universidad a las nueve.", "zh": "我九点去学校。" },
+        { "text": "Marta va al hospital por la noche.", "zh": "玛尔塔晚上去医院。" },
+        { "text": "Me acuesto tarde y me levanto tarde.", "zh": "我睡得晚,起得也晚。" }
+      ] }
+  ],
+  "review": "draft"
+}

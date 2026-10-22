@@ -1,0 +1,53 @@
+{
+  "id": "es.a1u6.l01", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106010,
+  "titleZh": "附近有药店吗?", "goalZh": "记住城市里常去的地方,会问附近有没有", "canDoZh": "能问附近有没有银行、药店、超市等,并听懂简单的回答",
+  "skills": ["listen","speak","read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "es.ciudad", "kind": "word", "pos": "noun", "text": "la ciudad", "zh": "城市", "features": { "gender": "f", "ipa": "la θjuˈdad" }, "noteZh": "-dad 结尾都是阴性;词尾 d 很轻。" },
+    { "id": "es.banco", "kind": "word", "pos": "noun", "text": "el banco", "zh": "银行;长椅", "features": { "gender": "m", "ipa": "el ˈbaŋko" }, "noteZh": "也指公园里的长椅:un banco del parque;nc 里的 n 读 [ŋ],像“班-阔”连读。" },
+    { "id": "es.farmacia", "kind": "word", "pos": "noun", "text": "la farmacia", "zh": "药店", "features": { "gender": "f", "ipa": "la faɾˈmaθja" }, "noteZh": "门口有绿色十字;重音在 ma:far-MA-cia。" },
+    { "id": "es.supermercado", "kind": "word", "pos": "noun", "text": "el supermercado", "zh": "超市", "features": { "gender": "m", "ipa": "el supeɾmeɾˈkado" }, "noteZh": "super + mercado(市场),和 4-3 学的 el mercado 是一家人;重音在 ca。" },
+    { "id": "es.plaza", "kind": "word", "pos": "noun", "text": "la plaza", "zh": "广场", "features": { "gender": "f", "ipa": "la ˈplaθa" }, "noteZh": "z 读 [θ];Plaza Mayor 是马德里有名的广场。" },
+    { "id": "es.parque", "kind": "word", "pos": "noun", "text": "el parque", "zh": "公园", "features": { "gender": "m", "ipa": "el ˈpaɾke" }, "noteZh": "El Retiro 是马德里市中心最有名的公园。" },
+    { "id": "es.museo", "kind": "word", "pos": "noun", "text": "el museo", "zh": "博物馆;美术馆", "features": { "gender": "m", "ipa": "el muˈseo" }, "noteZh": "重音在 se:mu-SE-o;el Museo del Prado = 普拉多博物馆。" },
+    { "id": "es.estacion", "kind": "word", "pos": "noun", "text": "la estación", "zh": "车站", "features": { "gender": "f", "ipa": "la estaˈθjon" }, "noteZh": "estación de metro = 地铁站,estación de tren = 火车站;-ción 结尾都是阴性。" },
+    { "id": "es.tienda", "kind": "word", "pos": "noun", "text": "la tienda", "zh": "商店", "features": { "gender": "f", "ipa": "la ˈtjenda" }, "noteZh": "ie 是一个双元音,tien 只占一个音节;tienda de ropa = 服装店(第 7 单元)。" },
+    { "id": "es.restaurante", "kind": "word", "pos": "noun", "text": "el restaurante", "zh": "餐馆", "features": { "gender": "m", "ipa": "el restauˈɾante" }, "noteZh": "词首 r 要颤舌。" }
+  ],
+  "reviewItems": ["es.hay","es.cerca","es.al_lado_de","es.calle"],
+  "lines": [
+    { "speaker": "lina", "text": "Buenos días, Doña Pilar. ¿Hay una farmacia cerca?", "zh": "早上好,皮拉尔太太。附近有药店吗?", "items": ["es.buenos_dias","es.hay","es.una","es.farmacia","es.cerca"] },
+    { "speaker": "pilar", "text": "Sí, hija, hay una en la plaza.", "zh": "有啊,孩子,广场上就有一家。", "items": ["es.si","es.hijo","es.hay","es.una","es.en","es.plaza"] },
+    { "speaker": "lina", "text": "¿Y un banco? Quiero ir a la farmacia y al banco.", "zh": "那银行呢?我想去药店,还要去趟银行。", "items": ["es.y","es.un","es.banco","es.querer","es.ir","es.a","es.farmacia"] },
+    { "speaker": "pilar", "text": "Hay uno al lado de la estación.", "zh": "车站旁边有一家。", "items": ["es.hay","es.uno","es.al_lado_de","es.estacion"] },
+    { "speaker": "pilar", "text": "Y el supermercado, aquí al lado, en esta calle.", "zh": "超市就在旁边,这条街上。", "items": ["es.y","es.supermercado","es.aqui","es.al_lado_de","es.en","es.este","es.calle"] },
+    { "speaker": "lina", "text": "¿Hay un restaurante chino en el barrio?", "zh": "街区里有中餐馆吗?", "items": ["es.hay","es.un","es.restaurante","es.chino","es.en","es.barrio"] },
+    { "speaker": "pilar", "text": "Sí, en la plaza. ¡Y el pollo es muy picante!", "zh": "有,也在广场上。那儿的鸡可辣了!", "items": ["es.si","es.en","es.plaza","es.y","es.pollo","es.ser","es.muy","es.picante"] },
+    { "speaker": "pilar", "text": "En el barrio hay muchas tiendas pequeñas.", "zh": "咱们街区有很多小店。", "items": ["es.en","es.barrio","es.hay","es.mucho","es.tienda","es.pequeno"] },
+    { "speaker": "pilar", "text": "Y el domingo puedes ir al parque o al museo.", "zh": "星期天你可以去公园,或者去博物馆。", "items": ["es.y","es.domingo","es.poder","es.ir","es.parque","es.o","es.museo"] },
+    { "speaker": "lina", "text": "¡Madrid es una ciudad muy bonita!", "zh": "马德里真是一座漂亮的城市!", "items": ["es.ser","es.una","es.ciudad","es.muy","es.bonito"] }
+  ],
+  "questions": [
+    { "prompt": "药店在哪儿?", "options": ["在广场上","在车站旁边","就在这条街上","在博物馆里"], "answer": 0, "explainZh": "皮拉尔太太说 Sí, hija, hay una en la plaza.(una 指 una farmacia)" },
+    { "prompt": "银行在哪儿?", "options": ["在广场上","在超市旁边","在车站旁边"], "answer": 2, "explainZh": "李娜问 ¿Y un banco?,皮拉尔太太说 Hay uno al lado de la estación.(uno 指 un banco);就在这条街上的是超市。" },
+    { "prompt": "皮拉尔太太说星期天可以去哪儿?", "options": ["超市和银行","公园或者博物馆","中餐馆"], "answer": 1, "explainZh": "Y el domingo puedes ir al parque o al museo.(o = 或者)" }
+  ],
+  "grammar": [
+    { "id": "es.g.hay_esta", "titleZh": "问附近有没有:¿Hay un…? 和 ¿Dónde está el…?",
+      "bodyZh": "问“附近有没有(某一类地方)”:¿Hay un / una … cerca?——hay 后面跟不定冠词 un / una,或者不带冠词的复数:¿Hay una farmacia cerca? ¿Hay tiendas en el barrio?\n问“(那个大家都知道的)地方在哪儿”:¿Dónde está el / la …?——estar 跟定冠词:¿Dónde está la estación?\n中文都说“有……吗 / ……在哪儿”,英语是 Is there a…? / Where is the…?,西语就是 hay + un / una 和 estar + el / la 的分工。常见错误:✗ ¿Dónde hay la farmacia? ✗ Hay la estación cerca。\n回答时可以用 uno / una 代替前面说过的名词,不用再重复:Sí, hay una en la plaza.(有,广场上有一家。)",
+      "examples": [
+        { "text": "¿Hay un supermercado cerca?", "zh": "附近有超市吗?" },
+        { "text": "Sí, hay uno en esta calle.", "zh": "有,这条街上就有一家。" },
+        { "text": "¿Dónde está la estación?", "zh": "车站在哪儿?" }
+      ] },
+    { "id": "es.g.lugares", "titleZh": "城市里的地方:名词的性和 al / del",
+      "bodyZh": "地方名词要连冠词记:el banco、el supermercado、el parque、el museo、el restaurante;la ciudad、la farmacia、la plaza、la estación、la tienda。小规律:-dad、-ción 结尾的都是阴性(la ciudad、la estación);-e 结尾的要单独记(el parque、el restaurante 是阳性,la calle 是阴性)。\n冠词碰上介词要缩合:a + el = al(Voy al banco),de + el = del(al lado del parque);la 不缩合:a la farmacia、al lado de la estación。\ncerca(近)、lejos(远)后面接地点要加 de:cerca de la plaza。",
+      "examples": [
+        { "text": "Quiero ir al banco y a la farmacia.", "zh": "我想去银行和药店。" },
+        { "text": "El museo está al lado del parque.", "zh": "博物馆在公园旁边。" },
+        { "text": "La farmacia está cerca de la estación.", "zh": "药店离车站很近。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "es.a1u5.l04", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105040,
+  "titleZh": "一学年的安排", "goalZh": "记住七月到十二月,会说什么时候开始、什么时候结束", "canDoZh": "能说出开学、放假在几月,一件事什么时候开始、什么时候结束",
+  "skills": ["listen","speak","read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "es.julio", "kind": "word", "pos": "propn", "text": "julio", "zh": "七月", "features": { "ipa": "ˈxuljo" }, "noteZh": "j 读 [x]。" },
+    { "id": "es.agosto", "kind": "word", "pos": "propn", "text": "agosto", "zh": "八月", "features": { "ipa": "aˈɡosto" }, "noteZh": "西班牙的'度假月',不少商店和餐馆八月会关门。" },
+    { "id": "es.septiembre", "kind": "word", "pos": "propn", "text": "septiembre", "zh": "九月", "alt": ["setiembre"], "features": { "ipa": "sepˈtjembɾe" }, "noteZh": "也可以写成 setiembre(拉美更常见)。" },
+    { "id": "es.octubre", "kind": "word", "pos": "propn", "text": "octubre", "zh": "十月", "features": { "ipa": "okˈtubɾe" }, "noteZh": "ct 两个辅音都要读出来:oc-tu-bre。" },
+    { "id": "es.noviembre", "kind": "word", "pos": "propn", "text": "noviembre", "zh": "十一月", "features": { "ipa": "noˈbjembɾe" }, "noteZh": "v 读 [b];月份小写:en noviembre。" },
+    { "id": "es.diciembre", "kind": "word", "pos": "propn", "text": "diciembre", "zh": "十二月", "features": { "ipa": "diˈθjembɾe" }, "noteZh": "c 在 i 前读 [θ]。" },
+    { "id": "es.clase", "kind": "word", "pos": "noun", "text": "la clase", "zh": "课;课堂;班级", "features": { "gender": "f", "ipa": "la ˈklase" }, "noteZh": "tengo clase = 我有课;compañero de clase = 同学;问课怎么样:¿Qué tal las clases?" },
+    { "id": "es.vacaciones", "kind": "word", "pos": "noun", "text": "las vacaciones", "zh": "假期", "features": { "gender": "f", "ipa": "las bakaˈθjones" }, "noteZh": "总是用复数:las vacaciones;tener vacaciones = 放假;去度假 ir de vacaciones。" },
+    { "id": "es.empezar", "kind": "word", "pos": "verb", "text": "empezar", "zh": "开始", "features": { "ipa": "empeˈθaɾ" }, "noteZh": "e→ie:empiezo, empiezas, empieza, empezamos, empezáis, empiezan;课开始了:Las clases empiezan。" },
+    { "id": "es.terminar", "kind": "word", "pos": "verb", "text": "terminar", "zh": "结束;完成", "features": { "ipa": "teɾmiˈnaɾ" }, "noteZh": "-ar 规则动词:termino, terminas, termina…;反义词是 empezar。" }
+  ],
+  "reviewItems": ["es.mes","es.cuando","es.estudiar"],
+  "lines": [
+    { "speaker": "marta", "text": "Li Na, ¿qué tal las clases?", "zh": "李娜,课上得怎么样?", "items": ["es.que_tal","es.clase"] },
+    { "speaker": "lina", "text": "Bien. Aquí las clases empiezan en septiembre y terminan en junio.", "zh": "挺好。这里的课九月开始,六月结束。", "items": ["es.bien","es.aqui","es.clase","es.empezar","es.en","es.septiembre","es.y","es.terminar","es.junio"] },
+    { "speaker": "marta", "text": "¿Y cuándo tienes vacaciones?", "zh": "那你什么时候放假?", "items": ["es.y","es.cuando","es.tener","es.vacaciones"] },
+    { "speaker": "lina", "text": "Octubre, noviembre… ¡y en diciembre, vacaciones!", "zh": "十月、十一月……然后十二月就放假啦!", "items": ["es.octubre","es.noviembre","es.y","es.en","es.diciembre","es.vacaciones"] },
+    { "speaker": "lina", "text": "Pero en enero estudio mucho.", "zh": "不过一月我得好好学习。", "items": ["es.pero","es.en","es.enero","es.estudiar","es.mucho"] },
+    { "speaker": "marta", "text": "¿Y en julio y agosto?", "zh": "那七月和八月呢?", "items": ["es.y","es.en","es.julio","es.agosto"] },
+    { "speaker": "lina", "text": "En julio estoy en China. En agosto estudio español aquí.", "zh": "七月我在中国。八月我在这儿学西语。", "items": ["es.en","es.julio","es.estar","es.china","es.agosto","es.estudiar","es.espanol","es.aqui"] },
+    { "speaker": "marta", "text": "¿En agosto, en Madrid? ¡Madrid está muy tranquilo en agosto!", "zh": "八月待在马德里?八月的马德里可安静了!", "items": ["es.en","es.agosto","es.estar","es.muy","es.tranquilo"] },
+    { "speaker": "lina", "text": "¿Y tú? ¿Cuándo empiezan tus vacaciones?", "zh": "你呢?你的假期什么时候开始?", "items": ["es.y","es.tu","es.cuando","es.empezar","es.tu_pos","es.vacaciones"] },
+    { "speaker": "marta", "text": "El uno de agosto. Estoy en Sevilla con mi familia.", "zh": "八月一日。我回塞维利亚,和家人在一起。", "items": ["es.uno","es.de","es.agosto","es.estar","es.en","es.con","es.mi","es.familia"] },
+    { "speaker": "lina", "text": "¿Un mes de vacaciones? ¡Muy bien!", "zh": "放一个月的假?真好!", "items": ["es.un","es.mes","es.de","es.vacaciones","es.muy","es.bien"] }
+  ],
+  "questions": [
+    { "prompt": "李娜的课什么时候开始、什么时候结束?", "options": ["九月开始,十二月结束","九月开始,六月结束","十月开始,七月结束","一月开始,六月结束"], "answer": 1, "explainZh": "李娜说 Aquí las clases empiezan en septiembre y terminan en junio.(empiezan 开始,terminan 结束)" },
+    { "prompt": "七月李娜在哪儿?", "options": ["在中国","在马德里学西语","在塞维利亚"], "answer": 0, "explainZh": "李娜说 En julio estoy en China.;八月她才在马德里学西语。" },
+    { "prompt": "玛尔塔的假期从哪天开始?", "options": ["7 月 1 日","6 月 2 日","8 月 1 日","12 月 1 日"], "answer": 2, "explainZh": "李娜问 ¿Cuándo empiezan tus vacaciones?,玛尔塔说 El uno de agosto.(8 月 1 日),然后在塞维利亚过一个月。" }
+  ],
+  "grammar": [
+    { "id": "es.g.empezar_terminar", "titleZh": "empezar(e→ie)和 terminar:什么时候开始、结束",
+      "bodyZh": "empezar(开始)是 e→ie 变位动词:重音落在词根的 e 上时,e 变成 ie——empiezo, empiezas, empieza, empezamos, empezáis, empiezan。nosotros、vosotros 两个形式重音不在这个 e 上,所以不变。规律和 querer(quiero / queremos)一样。terminar(结束)是规则 -ar 动词:termino, terminas, termina……\n说课、假期什么时候开始和结束,主语常常是复数:Las clases empiezan en septiembre.——中文“课”不分单复数,西语要用复数的 empiezan;las vacaciones 永远是复数:Mis vacaciones empiezan el uno de agosto.\n在几月:en + 月份,不加冠词:en julio;说到哪一天用 el:el uno de agosto。从几月到几月:de septiembre a junio。\n常见错误:✗ Las clases empieza(主语是复数);✗ empiezamos(nosotros 不变 ie,是 empezamos);✗ en el julio。",
+      "examples": [
+        { "text": "Las clases empiezan en septiembre y terminan en junio.", "zh": "课九月开始,六月结束。" },
+        { "text": "Mis vacaciones empiezan el uno de agosto.", "zh": "我的假期 8 月 1 日开始。" },
+        { "text": "En diciembre tengo vacaciones.", "zh": "我十二月放假。" },
+        { "text": "Estudio en Madrid de septiembre a junio.", "zh": "我九月到六月在马德里上学。" }
+      ] }
+  ],
+  "review": "draft"
+}

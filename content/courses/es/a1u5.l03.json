@@ -1,0 +1,52 @@
+{
+  "id": "es.a1u5.l03", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105030,
+  "titleZh": "你的生日是哪天?", "goalZh": "会说日期,记住一月到六月", "canDoZh": "能说出自己的生日,问别人生日是哪天",
+  "skills": ["listen","speak","write"], "estimatedMinutes": 27,
+  "newItems": [
+    { "id": "es.cumpleanos", "kind": "word", "pos": "noun", "text": "el cumpleaños", "zh": "生日", "features": { "gender": "m", "ipa": "el kumpleˈaɲos" }, "noteZh": "cumple(满)+ años(岁),阳性,单复数同形:el cumpleaños / los cumpleaños;ñ 不能写成 n。" },
+    { "id": "es.feliz_cumpleanos", "kind": "phrase", "pos": "phrase", "text": "¡Feliz cumpleaños!", "zh": "生日快乐!", "features": { "ipa": "feˈliθ kumpleˈaɲos" }, "noteZh": "feliz 的 z 读 [θ];唱生日歌时唱 Cumpleaños feliz。西班牙人过生日常请朋友吃点东西。" },
+    { "id": "es.cuando", "kind": "word", "pos": "adv", "text": "cuándo", "zh": "什么时候", "features": { "ipa": "ˈkwando" }, "noteZh": "疑问词带重音符号:¿Cuándo es…?" },
+    { "id": "es.mes", "kind": "word", "pos": "noun", "text": "el mes", "zh": "月;月份", "features": { "gender": "m", "ipa": "el mes" }, "noteZh": "复数 los meses;问在几月:¿En qué mes…?" },
+    { "id": "es.enero", "kind": "word", "pos": "propn", "text": "enero", "zh": "一月", "features": { "ipa": "eˈneɾo" }, "noteZh": "月份小写,前面一般不加冠词:en enero。" },
+    { "id": "es.febrero", "kind": "word", "pos": "propn", "text": "febrero", "zh": "二月", "features": { "ipa": "feˈbɾeɾo" }, "noteZh": "br 连在一起读,r 只轻弹一下:fe-bre-ro。" },
+    { "id": "es.marzo", "kind": "word", "pos": "propn", "text": "marzo", "zh": "三月", "features": { "ipa": "ˈmaɾθo" }, "noteZh": "z 读 [θ]。" },
+    { "id": "es.abril", "kind": "word", "pos": "propn", "text": "abril", "zh": "四月", "features": { "ipa": "aˈbɾil" }, "noteZh": "重音在最后:a-BRIL。" },
+    { "id": "es.mayo", "kind": "word", "pos": "propn", "text": "mayo", "zh": "五月", "features": { "ipa": "ˈmaʝo" }, "noteZh": "y 读 [ʝ];月份小写:en mayo。" },
+    { "id": "es.junio", "kind": "word", "pos": "propn", "text": "junio", "zh": "六月", "features": { "ipa": "ˈxunjo" }, "noteZh": "j 读 [x]。" }
+  ],
+  "reviewItems": ["es.de","es.tu_pos","es.doce"],
+  "lines": [
+    { "speaker": "marta", "text": "Li Na, ¿cuándo es tu cumpleaños?", "zh": "李娜,你的生日是哪天?", "items": ["es.cuando","es.ser","es.tu_pos","es.cumpleanos"] },
+    { "speaker": "lina", "text": "Es el doce de marzo. ¿Y tú?", "zh": "三月十二日。你呢?", "items": ["es.ser","es.doce","es.de","es.marzo","es.y","es.tu"] },
+    { "speaker": "marta", "text": "Mi cumpleaños es el dos de junio.", "zh": "我的生日是六月二日。", "items": ["es.mi","es.cumpleanos","es.ser","es.dos","es.de","es.junio"] },
+    { "speaker": "lina", "text": "¿Y Javier? ¿En qué mes es su cumpleaños?", "zh": "那哈维尔呢?他的生日在几月?", "items": ["es.y","es.en","es.que","es.mes","es.ser","es.su","es.cumpleanos"] },
+    { "speaker": "marta", "text": "En mayo. Y el cumpleaños de Diego es en enero.", "zh": "五月。迭戈的生日在一月。", "items": ["es.en","es.mayo","es.y","es.cumpleanos","es.de","es.ser","es.enero"] },
+    { "speaker": "lina", "text": "Enero, Diego; marzo, yo; mayo, Javier; junio, tú.", "zh": "一月是迭戈,三月是我,五月是哈维尔,六月是你。", "items": ["es.enero","es.marzo","es.yo","es.mayo","es.junio","es.tu"] },
+    { "speaker": "marta", "text": "¿Y febrero y abril? ¡Sin cumpleaños!", "zh": "那二月和四月呢?一个生日都没有!", "items": ["es.y","es.febrero","es.abril","es.sin","es.cumpleanos"] },
+    { "speaker": "marta", "text": "Aquí, el doce de marzo: ¡Feliz cumpleaños, Li Na!", "zh": "(在日历上写)这儿,三月十二日:“李娜,生日快乐!”", "items": ["es.aqui","es.doce","es.de","es.marzo","es.feliz_cumpleanos"] },
+    { "speaker": "lina", "text": "Y aquí, el dos de junio: ¡Feliz cumpleaños, Marta!", "zh": "(也写上)这儿,六月二日:“玛尔塔,生日快乐!”", "items": ["es.y","es.aqui","es.dos","es.de","es.junio","es.feliz_cumpleanos"] }
+  ],
+  "questions": [
+    { "prompt": "李娜的生日是哪天?", "options": ["3 月 12 日","6 月 2 日","5 月 12 日","1 月 2 日"], "answer": 0, "explainZh": "李娜说 Es el doce de marzo.(el dos de junio 是玛尔塔的生日)" },
+    { "prompt": "谁的生日在一月?", "options": ["哈维尔","玛尔塔","迭戈"], "answer": 2, "explainZh": "玛尔塔说 Y el cumpleaños de Diego es en enero.;哈维尔的生日在五月(en mayo)。" },
+    { "prompt": "哪两个月日历上没有人过生日?", "options": ["一月和三月","二月和四月","五月和六月"], "answer": 1, "explainZh": "玛尔塔说 ¿Y febrero y abril? ¡Sin cumpleaños!(sin = 没有)" }
+  ],
+  "grammar": [
+    { "id": "es.g.fecha", "titleZh": "日期:el doce de marzo",
+      "bodyZh": "西语说日期,顺序和中文相反:先说日,再说月,中间加 de:el doce de marzo(3 月 12 日)。前面加 el,日子用普通的数字:el dos、el doce、el veinte;每月一号说 el uno(拉美也说 el primero)。\n月份一律小写,前面不加冠词:en mayo(在五月)。只说月份用 en,说到哪一天用 el:Es en mayo. / Es el dos de junio.\n问生日:¿Cuándo es tu cumpleaños?(cuándo 有重音符号);只问月份:¿En qué mes es tu cumpleaños?\n英语有 March 12th、the 12th of March 两种说法,西语只有一种:el doce de marzo。常见错误:✗ el marzo doce;✗ en el mayo;✗ Marzo(句首以外不大写)。",
+      "examples": [
+        { "text": "Mi cumpleaños es el doce de marzo.", "zh": "我的生日是 3 月 12 日。" },
+        { "text": "Hoy es el uno de abril.", "zh": "今天是 4 月 1 日。" },
+        { "text": "El cumpleaños de Javier es en mayo.", "zh": "哈维尔的生日在五月。" }
+      ] },
+    { "id": "es.g.cumpleanos", "titleZh": "el cumpleaños 和 ¡Feliz cumpleaños!",
+      "bodyZh": "cumpleaños 是 cumple(满)+ años(岁)合成的,阳性,单复数同形:el cumpleaños、los cumpleaños。ñ 一定要写,写成 n 就不是这个词了。\n“我的生日”是 mi cumpleaños;“迭戈的生日”是 el cumpleaños de Diego——“谁的”放在后面用 de 连,和中文顺序相反。\n祝福说 ¡Feliz cumpleaños!(西班牙人唱生日歌时唱 Cumpleaños feliz)。“没有”用 sin:Sin cumpleaños.(一个生日都没有。)",
+      "examples": [
+        { "text": "¿Cuándo es el cumpleaños de Diego?", "zh": "迭戈的生日是哪天?" },
+        { "text": "¡Feliz cumpleaños, Marta!", "zh": "玛尔塔,生日快乐!" },
+        { "text": "En febrero no hay cumpleaños.", "zh": "二月没有人过生日。" }
+      ] }
+  ],
+  "review": "draft"
+}

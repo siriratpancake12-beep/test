@@ -1,0 +1,49 @@
+{
+  "id": "es.a1u6.l04", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106040,
+  "titleZh": "买两张去托莱多的火车票", "goalZh": "会在车站买票,问发车时间、到达时间和票价", "canDoZh": "能在车站买往返火车票,问清几点出发、几点到、多少钱",
+  "skills": ["listen","speak","read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "es.billete", "kind": "word", "pos": "noun", "text": "el billete", "zh": "票(车票);纸币", "features": { "gender": "m", "ipa": "el biˈʝete" }, "noteZh": "西班牙说 billete,拉美多说 el boleto;ll 读 [ʝ];也指纸币:un billete de diez euros。" },
+    { "id": "es.ida_y_vuelta", "kind": "phrase", "pos": "phrase", "text": "de ida y vuelta", "zh": "往返的", "features": { "ipa": "de ˈida i ˈbwelta" }, "noteZh": "单程是 de ida;un billete de ida y vuelta = 一张往返票;vuelta 的 v 读 [b]。" },
+    { "id": "es.salir", "kind": "word", "pos": "verb", "text": "salir", "zh": "出发;出去", "features": { "ipa": "saˈliɾ" }, "noteZh": "第一人称不规则:salgo, sales, sale…;El tren sale a las nueve;从某地出发 salir de。" },
+    { "id": "es.llegar", "kind": "word", "pos": "verb", "text": "llegar", "zh": "到达", "features": { "ipa": "ʝeˈɡaɾ" }, "noteZh": "llegar a + 地点:Llegamos a Toledo a las diez;ll 读 [ʝ];llegar tarde = 迟到。" },
+    { "id": "es.tener_que", "kind": "phrase", "pos": "phrase", "text": "tener que", "zh": "必须;得", "features": { "ipa": "teˈneɾ ke" }, "noteZh": "tener que + 动词原形:Tengo que estudiar = 我得学习。" },
+    { "id": "es.comprar", "kind": "word", "pos": "verb", "text": "comprar", "zh": "买", "features": { "ipa": "komˈpɾaɾ" }, "noteZh": "-ar 规则动词。" },
+    { "id": "es.para", "kind": "word", "pos": "prep", "text": "para", "zh": "给;为了;去往", "features": { "ipa": "ˈpaɾa" }, "noteZh": "un billete para Toledo = 去托莱多的票;descuento para estudiantes = 学生优惠;Es para mi hermano = 是给我弟弟的;para mí 你已经学过。" },
+    { "id": "es.descuento", "kind": "word", "pos": "noun", "text": "el descuento", "zh": "折扣;优惠", "features": { "gender": "m", "ipa": "el desˈkwento" }, "noteZh": "¿Hay descuento para estudiantes? = 学生有优惠吗?ue 是双元音。" },
+    { "id": "es.viaje", "kind": "word", "pos": "noun", "text": "el viaje", "zh": "旅行;行程", "features": { "gender": "m", "ipa": "el ˈbjaxe" }, "noteZh": "¡Buen viaje! = 一路顺风;j 读 [x];v 读 [b]。" },
+    { "id": "es.cuanto_cuesta", "kind": "phrase", "pos": "phrase", "text": "¿Cuánto cuesta?", "zh": "(这个)多少钱?", "features": { "ipa": "ˈkwanto ˈkwesta" }, "noteZh": "一样东西用 cuesta,几样用 cuestan:¿Cuánto cuestan los billetes?;costar 是 o→ue 变位。" }
+  ],
+  "reviewItems": ["es.a_que_hora","es.tren","es.sabado","es.estudiante"],
+  "lines": [
+    { "speaker": "diego", "text": "Tenemos que comprar los billetes para el sábado.", "zh": "我们得买星期六的车票。", "items": ["es.tener_que","es.comprar","es.billete","es.para","es.sabado"] },
+    { "speaker": "lina", "text": "Buenos días. Dos billetes para Toledo, por favor.", "zh": "您好。两张去托莱多的票,谢谢。", "items": ["es.buenos_dias","es.dos","es.billete","es.para","es.por_favor"] },
+    { "speaker": "taquillera", "text": "¿De ida y vuelta?", "zh": "往返的?", "items": ["es.ida_y_vuelta"] },
+    { "speaker": "lina", "text": "Sí, para el sábado. ¿A qué hora sale el tren?", "zh": "对,星期六的。火车几点出发?", "items": ["es.si","es.para","es.sabado","es.a_que_hora","es.salir","es.tren"] },
+    { "speaker": "taquillera", "text": "Sale a las nueve veinte y llega a las diez.", "zh": "九点二十出发,十点到。", "items": ["es.salir","es.a","es.nueve","es.veinte","es.y","es.llegar","es.diez"] },
+    { "speaker": "diego", "text": "¿Y de Toledo a Madrid?", "zh": "那从托莱多回马德里呢?", "items": ["es.y","es.de","es.a"] },
+    { "speaker": "taquillera", "text": "Hay un tren a las diecinueve treinta.", "zh": "十九点三十有一趟。", "items": ["es.hay","es.un","es.tren","es.a","es.diecinueve","es.treinta"] },
+    { "speaker": "lina", "text": "Vale. ¿Cuánto cuesta? ¿Hay descuento para estudiantes?", "zh": "好的。多少钱?学生有优惠吗?", "items": ["es.vale","es.cuanto_cuesta","es.hay","es.descuento","es.para","es.estudiante"] },
+    { "speaker": "taquillera", "text": "Sí. Con el descuento, son treinta y seis euros los dos.", "zh": "有。打完折,两张一共三十六欧。", "items": ["es.si","es.con","es.descuento","es.ser","es.treinta","es.y","es.seis","es.euro","es.dos"] },
+    { "speaker": "megafonia", "text": "El tren para Sevilla sale a las quince treinta.", "zh": "开往塞维利亚的列车十五点三十分发车。", "items": ["es.tren","es.para","es.salir","es.a","es.quince","es.treinta"] },
+    { "speaker": "diego", "text": "¡Mi primer viaje en tren en España!", "zh": "我在西班牙第一次坐火车旅行!", "items": ["es.mi","es.primero","es.viaje","es.en","es.tren","es.espana"] }
+  ],
+  "questions": [
+    { "prompt": "李娜买的是什么票?", "options": ["两张今天去托莱多的单程票","两张星期六去托莱多的往返票","一张去塞维利亚的票","两张星期六去马德里的票"], "answer": 1, "explainZh": "李娜说 Dos billetes para Toledo,售票员问 ¿De ida y vuelta?,李娜说 Sí, para el sábado." },
+    { "prompt": "去托莱多的火车几点出发、几点到?", "options": ["九点出发,十点到","十点出发,十五点三十到","九点二十出发,十点到","十九点三十出发"], "answer": 2, "explainZh": "售票员说 Sale a las nueve veinte y llega a las diez.;十九点三十是从托莱多回马德里的车。" },
+    { "prompt": "学生打折以后,两张票一共多少钱?", "options": ["三十六欧","十八欧","四十六欧"], "answer": 0, "explainZh": "Con el descuento, son treinta y seis euros los dos.(los dos = 两张一共)" },
+    { "prompt": "车站广播报的是哪趟车?", "options": ["去托莱多的车,九点二十出发","去马德里的车,十九点三十出发","去托莱多的车,十五点三十出发","去塞维利亚的车,十五点三十出发"], "answer": 3, "explainZh": "广播说 El tren para Sevilla sale a las quince treinta.(para Sevilla = 开往塞维利亚)" }
+  ],
+  "grammar": [
+    { "id": "es.g.billetes", "titleZh": "买票、问车次:para、sale / llega、tener que",
+      "bodyZh": "买票:un billete (de ida y vuelta) para + 地点:Dos billetes para Toledo, por favor. 这里的 para 是“去往”;单程票是 de ida。问价钱:一样东西 ¿Cuánto cuesta?,几样 ¿Cuánto cuestan?(costar 的 o 变 ue)。\n问车次:¿A qué hora sale el tren?(几点出发)/ ¿A qué hora llega?(几点到)。salir 的第一人称不规则:salgo, sales, sale, salimos, salís, salen;从某地出发 salir de,到达某地 llegar a:Llegamos a Toledo a las diez.\ntener que + 动词原形 = 必须、得:Tenemos que comprar los billetes. tener 照常变位(tengo que, tienes que…),que 不变,后面的动词用原形。中文“得买票”、英语 have to buy 的结构几乎一样;常见错误是漏掉 que:✗ Tenemos comprar。\n车站、广播用 24 小时制,直接读数字,不加 y:las quince treinta(15:30)、las diecinueve treinta(19:30);上午的车次也这么读:las nueve veinte(9:20)。",
+      "examples": [
+        { "text": "Un billete de ida y vuelta para Toledo, por favor.", "zh": "一张去托莱多的往返票,谢谢。" },
+        { "text": "El tren sale de Madrid y llega a Toledo.", "zh": "火车从马德里出发,到达托莱多。" },
+        { "text": "Tengo que estar en la estación a las nueve.", "zh": "我九点得到车站。" },
+        { "text": "¿Cuánto cuestan los billetes?", "zh": "车票多少钱?" }
+      ] }
+  ],
+  "review": "draft"
+}

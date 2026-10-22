@@ -1,0 +1,50 @@
+{
+  "id": "es.a1u5.l08", "schemaVersion": 1, "lang": "es", "type": "reading", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105080,
+  "titleZh": "单元复习:李娜的一周", "goalZh": "读懂一篇关于一周安排的短文,并写出自己的一周", "canDoZh": "能读懂并写出自己一周的安排:星期几、几点、做什么",
+  "skills": ["read","listen","write"], "estimatedMinutes": 20,
+  "newItems": [
+    { "id": "es.semana", "kind": "word", "pos": "noun", "text": "la semana", "zh": "星期;周", "features": { "gender": "f", "ipa": "la seˈmana" }, "noteZh": "esta semana = 这个星期;el fin de semana = 周末(第 8 单元学)。" },
+    { "id": "es.ano", "kind": "word", "pos": "noun", "text": "el año", "zh": "年", "features": { "gender": "m", "ipa": "el ˈaɲo" }, "noteZh": "ñ 一定要写,写成 n 意思完全不同;este año = 今年;说年龄的 tengo veinte años 也是它。" },
+    { "id": "es.biblioteca", "kind": "word", "pos": "noun", "text": "la biblioteca", "zh": "图书馆", "features": { "gender": "f", "ipa": "la bibljoˈteka" }, "noteZh": "不是“书店”(书店是 la librería);在图书馆学习:estudiar en la biblioteca。" },
+    { "id": "es.gimnasio", "kind": "word", "pos": "noun", "text": "el gimnasio", "zh": "健身房", "features": { "gender": "m", "ipa": "el ximˈnasjo" }, "noteZh": "g 在 i 前读 [x];去健身房:ir al gimnasio(a + el = al)。" }
+  ],
+  "reviewItems": ["es.lunes","es.levantarse","es.clase","es.por"],
+  "lines": [
+    { "speaker": "lina", "text": "Me llamo Li Na y este año estudio en Madrid.", "zh": "我叫李娜,今年在马德里上学。", "items": ["es.me_llamo","es.y","es.este","es.ano","es.estudiar","es.en"] },
+    { "speaker": "lina", "text": "Esta es mi semana.", "zh": "这是我的一周。", "items": ["es.este","es.ser","es.mi","es.semana"] },
+    { "speaker": "lina", "text": "De lunes a jueves tengo clase en la universidad.", "zh": "星期一到星期四我在大学上课。", "items": ["es.de","es.lunes","es.a","es.jueves","es.tener","es.clase","es.en","es.universidad"] },
+    { "speaker": "lina", "text": "Me levanto a las siete, me ducho y desayuno.", "zh": "我七点起床,洗澡,吃早饭。", "items": ["es.levantarse","es.a","es.siete","es.ducharse","es.y","es.desayunar"] },
+    { "speaker": "lina", "text": "Las clases empiezan a las nueve y terminan a las dos.", "zh": "课九点开始,两点结束。", "items": ["es.clase","es.empezar","es.a","es.nueve","es.y","es.terminar","es.dos"] },
+    { "speaker": "lina", "text": "Por la tarde estudio en la biblioteca.", "zh": "下午我在图书馆学习。", "items": ["es.por","es.la_tarde","es.estudiar","es.en","es.biblioteca"] },
+    { "speaker": "lina", "text": "Los lunes y los miércoles voy al gimnasio de la universidad.", "zh": "每周一和周三我去学校的健身房。", "items": ["es.lunes","es.y","es.miercoles","es.ir","es.gimnasio","es.de","es.universidad"] },
+    { "speaker": "lina", "text": "Los viernes por la tarde hablo español y chino con Javier.", "zh": "每周五下午我和哈维尔说西语、说中文,互相练习。", "items": ["es.viernes","es.por","es.la_tarde","es.hablar","es.espanol","es.y","es.chino","es.con"] },
+    { "speaker": "lina", "text": "Los sábados y los domingos me levanto tarde, a las diez.", "zh": "星期六和星期天我起得晚,十点才起。", "items": ["es.sabado","es.y","es.domingo","es.levantarse","es.tarde","es.a","es.diez"] },
+    { "speaker": "lina", "text": "Los sábados por la mañana voy al mercado con Marta.", "zh": "每周六上午我和玛尔塔去菜市场。", "items": ["es.sabado","es.por","es.la_manana","es.ir","es.mercado","es.con"] },
+    { "speaker": "lina", "text": "Los domingos por la noche cocino pollo picante con arroz.", "zh": "每周日晚上我做辣子鸡配米饭。", "items": ["es.domingo","es.por","es.noche","es.cocinar","es.pollo","es.picante","es.con","es.arroz"] },
+    { "speaker": "lina", "text": "Estoy un poco cansada, pero estoy muy bien en Madrid.", "zh": "我有点累,但在马德里过得很好。", "items": ["es.estar","es.un_poco","es.cansado","es.pero","es.muy","es.bien","es.en"] }
+  ],
+  "questions": [
+    { "prompt": "星期一到星期四的下午,李娜在哪儿学习?", "options": ["在家","在图书馆","在健身房","在咖啡馆"], "answer": 1, "explainZh": "李娜写道 Por la tarde estudio en la biblioteca.(la biblioteca = 图书馆)" },
+    { "prompt": "李娜哪几天去健身房?", "options": ["周二和周四","周六和周日","周一和周三","周五"], "answer": 2, "explainZh": "Los lunes y los miércoles voy al gimnasio de la universidad.(los lunes = 每个星期一)" },
+    { "prompt": "周末李娜几点起床?", "options": ["十点","七点","九点","十二点"], "answer": 0, "explainZh": "Los sábados y los domingos me levanto tarde, a las diez.;七点是她上课的日子起床的时间。" },
+    { "prompt": "每周六上午李娜做什么?", "options": ["和哈维尔练口语","在图书馆学习","做辣子鸡","和玛尔塔去菜市场"], "answer": 3, "explainZh": "Los sábados por la mañana voy al mercado con Marta.;做辣子鸡是星期天晚上。" }
+  ],
+  "grammar": [
+    { "id": "es.g.repaso_cuando", "titleZh": "复习:“什么时候”的几种说法",
+      "bodyZh": "这个单元学了好几种“什么时候”,区别在介词和冠词:\n具体钟点:a las nueve、a la una(a + 冠词 + 钟点)。\n一天里的时段:por la mañana / por la tarde / por la noche;和钟点一起说时换成 de:a las nueve de la mañana。\n星期几:el sábado(这个星期六,只是一次)/ los sábados(每个星期六,习惯),前面都不加 en。\n日期和月份:el doce de marzo;en enero(月份不加冠词)。今天、明天、今年:hoy、mañana、este año。\n写“我的一周”这样的短文,多用复数 los lunes、los viernes 说习惯,用 por la tarde 说时段,读起来就很地道。",
+      "examples": [
+        { "text": "Los lunes voy al gimnasio.", "zh": "每周一我去健身房。" },
+        { "text": "Por la tarde estudio en la biblioteca.", "zh": "下午我在图书馆学习。" },
+        { "text": "Este año estudio en Madrid.", "zh": "今年我在马德里上学。" }
+      ] },
+    { "id": "es.g.repaso_rutina", "titleZh": "复习:把一天的作息连起来说",
+      "bodyZh": "说作息时按时间顺序把动词串起来,主语说一次就够(西语常常干脆省略主语):Me levanto a las siete, me ducho y desayuno. 反身动词的代词每个都要说:me levanto, me ducho,不能只在第一个前面说。\n去某个地方用 ir a:voy a la biblioteca、voy al gimnasio(a + el = al);回家是 voy a casa。\n开始和结束:Las clases empiezan a las nueve y terminan a las dos(empezar 是 e→ie)。\n说自己累:Estoy un poco cansada(用 estar,女生说 cansada)。",
+      "examples": [
+        { "text": "Los sábados me levanto tarde.", "zh": "每周六我起得晚。" },
+        { "text": "Voy a la biblioteca a las cuatro.", "zh": "我四点去图书馆。" },
+        { "text": "Por la noche estoy un poco cansada.", "zh": "晚上我有点累。" }
+      ] }
+  ],
+  "review": "draft"
+}

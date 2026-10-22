@@ -1,0 +1,52 @@
+{
+  "id": "es.a1u6.l03", "schemaVersion": 1, "lang": "es", "type": "grammar", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106030,
+  "titleZh": "坐地铁去学校", "goalZh": "会用 ir en / a pie 说怎么去,会说常见的交通工具和车站", "canDoZh": "能说自己怎么去学校或市中心、坐几号线、在哪站下车",
+  "skills": ["listen","speak","read","write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "es.metro", "kind": "word", "pos": "noun", "text": "el metro", "zh": "地铁", "features": { "gender": "m", "ipa": "el ˈmetɾo" }, "noteZh": "ir en metro = 坐地铁;地铁站 la estación de metro。马德里地铁按号码分线:la línea uno。" },
+    { "id": "es.autobus", "kind": "word", "pos": "noun", "text": "el autobús", "zh": "公共汽车", "features": { "gender": "m", "ipa": "el autoˈbus" }, "noteZh": "重音在 ús;复数 los autobuses(重音符号去掉);墨西哥说 el camión。" },
+    { "id": "es.tren", "kind": "word", "pos": "noun", "text": "el tren", "zh": "火车", "features": { "gender": "m", "ipa": "el tɾen" }, "noteZh": "tr 连在一起读,r 只轻弹一下;ir en tren = 坐火车;火车站 la estación de tren。" },
+    { "id": "es.coche", "kind": "word", "pos": "noun", "text": "el coche", "zh": "汽车;小轿车", "features": { "gender": "m", "ipa": "el ˈkotʃe" }, "noteZh": "西班牙说 coche,拉美说 el carro / el auto。" },
+    { "id": "es.a_pie", "kind": "phrase", "pos": "phrase", "text": "a pie", "zh": "步行;走路", "features": { "ipa": "a ˈpje" }, "noteZh": "交通方式都用 en(en metro),唯独步行是 a pie;西班牙口语也说 andando。" },
+    { "id": "es.linea", "kind": "word", "pos": "noun", "text": "la línea", "zh": "(地铁、公交)线路", "features": { "gender": "f", "ipa": "la ˈlinea" }, "noteZh": "la línea 1(uno)= 1 号线;重音在 lí。" },
+    { "id": "es.coger", "kind": "word", "pos": "verb", "text": "coger", "zh": "乘坐;拿", "features": { "ipa": "koˈxeɾ" }, "noteZh": "西班牙说 coger el metro;在墨西哥、阿根廷等地 coger 有不雅的意思,去拉美要说 tomar。g 在 e 前读 [x],第一人称 cojo。" },
+    { "id": "es.bajarse", "kind": "word", "pos": "verb", "text": "bajarse", "zh": "下车", "features": { "ipa": "baˈxaɾse" }, "noteZh": "反身动词:me bajo, te bajas, se baja…;在某站下车 bajarse en:Me bajo en Sol。" },
+    { "id": "es.parada", "kind": "word", "pos": "noun", "text": "la parada", "zh": "(公交)站;停靠站", "features": { "gender": "f", "ipa": "la paˈɾada" }, "noteZh": "la parada de autobús = 公交车站;地铁站叫 la estación de metro。" }
+  ],
+  "reviewItems": ["es.ir","es.universidad","es.en","es.estacion"],
+  "lines": [
+    { "speaker": "lina", "text": "Javier, quiero ir al centro, a Sol. ¿Voy en metro o en autobús?", "zh": "哈维尔,我想去市中心的太阳门。坐地铁还是坐公交?", "items": ["es.querer","es.ir","es.centro","es.a","es.en","es.metro","es.o","es.autobus"] },
+    { "speaker": "javier", "text": "En metro. Coges la línea uno en la estación de la plaza.", "zh": "坐地铁。在广场那个站坐 1 号线。", "items": ["es.en","es.metro","es.coger","es.linea","es.uno","es.estacion","es.de","es.plaza"] },
+    { "speaker": "javier", "text": "Y te bajas en Sol. Está a diez minutos.", "zh": "到太阳门站下车。十分钟就到。", "items": ["es.y","es.bajarse","es.en","es.estar","es.a","es.diez","es.minuto"] },
+    { "speaker": "lina", "text": "¿Y tú? ¿Vas a la universidad en metro?", "zh": "你呢?你坐地铁去学校吗?", "items": ["es.y","es.tu","es.ir","es.a","es.universidad","es.en","es.metro"] },
+    { "speaker": "javier", "text": "Sí, cojo el metro. Pero hoy voy en el coche de mi padre.", "zh": "对,我坐地铁。不过今天我开我爸的车。", "items": ["es.si","es.coger","es.metro","es.pero","es.hoy","es.ir","es.en","es.coche","es.de","es.mi","es.padre"] },
+    { "speaker": "diego", "text": "Yo voy a pie. Vivo muy cerca de la universidad.", "zh": "我走路去。我住得离学校很近。", "items": ["es.yo","es.ir","es.a_pie","es.vivir","es.muy","es.cerca","es.de","es.universidad"] },
+    { "speaker": "lina", "text": "Y Marta va al hospital en autobús.", "zh": "玛尔塔坐公交去医院。", "items": ["es.y","es.ir","es.hospital","es.en","es.autobus"] },
+    { "speaker": "lina", "text": "La parada está al lado de casa.", "zh": "公交车站就在我们家旁边。", "items": ["es.parada","es.estar","es.al_lado_de","es.casa"] },
+    { "speaker": "diego", "text": "¡Y el sábado vamos a Toledo en tren!", "zh": "星期六我们坐火车去托莱多!", "items": ["es.y","es.sabado","es.ir","es.a","es.en","es.tren"] },
+    { "speaker": "lina", "text": "¡Sí! Primero en metro a Atocha y después, en tren.", "zh": "对!先坐地铁到阿托查站,然后坐火车。", "items": ["es.si","es.primero","es.en","es.metro","es.a","es.y","es.despues","es.tren"] }
+  ],
+  "questions": [
+    { "prompt": "哈维尔建议李娜怎么去太阳门?", "options": ["坐公交","坐地铁 1 号线,在太阳门站下车","走路","坐火车"], "answer": 1, "explainZh": "哈维尔说 En metro. Coges la línea uno… Y te bajas en Sol.(coger = 坐,bajarse = 下车)" },
+    { "prompt": "迭戈怎么去学校?", "options": ["走路,因为他住得很近","坐地铁","坐公交"], "answer": 0, "explainZh": "迭戈说 Yo voy a pie. Vivo muy cerca de la universidad.(a pie = 走路)" },
+    { "prompt": "今天哈维尔怎么去学校?", "options": ["坐地铁","走路","开他爸爸的车","坐公交"], "answer": 2, "explainZh": "哈维尔平时坐地铁(cojo el metro),但 hoy voy en el coche de mi padre(今天开爸爸的车)。" }
+  ],
+  "grammar": [
+    { "id": "es.g.ir_en", "titleZh": "怎么去:ir en metro / a pie",
+      "bodyZh": "说坐什么去,中文要换动词(坐地铁、开车、骑车),英语用 by bus、by car,西语一律是 ir en + 交通工具,交通工具前面不加冠词:Voy en metro / en autobús / en tren / en coche。最常见的例外是走路:a pie(✗ en pie,en pie 是“站着”)。\n“去哪儿”和“怎么去”可以放在一起,顺序比较自由:Voy a la universidad en metro. / Voy en metro a la universidad.\n复习 ir 的变位:voy, vas, va, vamos, vais, van;去 + el 要缩合:Voy al centro。\n说“某个人的车”时要加冠词:en el coche de mi padre。",
+      "examples": [
+        { "text": "Voy a la universidad en metro.", "zh": "我坐地铁去学校。" },
+        { "text": "Diego va a pie.", "zh": "迭戈走路去。" },
+        { "text": "¿Vas al centro en autobús?", "zh": "你坐公交去市中心吗?" }
+      ] },
+    { "id": "es.g.coger_bajarse", "titleZh": "coger el metro、bajarse en Sol",
+      "bodyZh": "坐、乘(某趟车)在西班牙说 coger:coger el metro、coger la línea uno、coger el autobús。coger 的第一人称写成 cojo(g 在 o 前要改成 j,才能保持 [x] 的音):cojo, coges, coge, cogemos, cogéis, cogen。注意:在墨西哥、阿根廷等地 coger 有不雅的意思,去拉美要说 tomar el metro。\n在哪站下车:bajarse en + 站名,是反身动词:me bajo en Sol, te bajas, se baja……\n告诉别人怎么坐车,西语常用现在时,像中文的“你坐……然后……”:Coges la línea uno y te bajas en Sol.\n地铁站叫 la estación (de metro),公交车站叫 la parada (de autobús)。",
+      "examples": [
+        { "text": "Cojo el metro en la plaza.", "zh": "我在广场那站坐地铁。" },
+        { "text": "Coges la línea uno y te bajas en Sol.", "zh": "你坐 1 号线,在太阳门下车。" },
+        { "text": "La parada del autobús está en esta calle.", "zh": "公交车站就在这条街上。" }
+      ] }
+  ],
+  "review": "draft"
+}
