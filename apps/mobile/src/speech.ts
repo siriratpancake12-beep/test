@@ -18,11 +18,20 @@ export interface SayOptions {
   onDone?: () => void;
 }
 
+/**
+ * 日语助词 は / へ / を 单独朗读时要读 wa / e / o,系统朗读会按字面读成 ha / he / wo;
+ * 在句子里系统能读对,所以只处理整段就是一个助词的情况(词条卡、听力题)。
+ */
+const JA_PARTICLE: Record<string, string> = { "は": "わ", "へ": "え", "を": "お" };
+export function spokenText(text: string, locale: string): string {
+  return locale.startsWith("ja") ? JA_PARTICLE[text.trim()] ?? text : text;
+}
+
 export function say(text: string, locale: string, slow = false, opts: SayOptions = {}) {
   Speech.stop();
   loadVoices();
   const voice = opts.gender ? pickVoice(locale, opts.gender, opts.voiceKey ?? "") : undefined;
-  Speech.speak(text, {
+  Speech.speak(spokenText(text, locale), {
     language: locale,
     rate: slow ? 0.6 : 0.95,
     ...(voice ? { voice } : {}),
