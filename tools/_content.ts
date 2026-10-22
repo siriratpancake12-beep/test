@@ -21,7 +21,8 @@ export function lessonFiles(code: string): string[] {
 export function outlineFiles(code: string): string[] {
   const single = join(contentRoot, "outlines", `${code}.json`);
   const dir = join(contentRoot, "outlines", code);
-  const many = existsSync(dir) ? readdirSync(dir).filter((x) => x.endsWith(".json")).sort().map((x) => join(dir, x)) : [];
+  // plan.json 是单元规划(只有标题和目标,没有词条),不是大纲
+  const many = existsSync(dir) ? readdirSync(dir).filter((x) => x.endsWith(".json") && x !== "plan.json").sort().map((x) => join(dir, x)) : [];
   return [...(existsSync(single) ? [single] : []), ...many];
 }
 
