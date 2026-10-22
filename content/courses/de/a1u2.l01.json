@@ -2,10 +2,10 @@
   "id": "de.a1u2.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
   "unit": "A1-2 我的家人和朋友", "order": 102010,
   "titleZh": "数字 0–9:报手机号码", "goalZh": "会读、会听 0 到 9,能一位一位地报电话号码", "canDoZh": "能用德语报出自己的手机号码,也能听懂别人报的号码并记下来",
-  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "de.null", "kind": "word", "pos": "num", "text": "null", "zh": "零", "features": { "ipa": "nʊl" }, "noteZh": "电话号码一般一位一位地读:null – eins – sieben – eins …;德国手机号以 015、016、017 开头。" },
-    { "id": "de.eins", "kind": "word", "pos": "num", "text": "eins", "zh": "一", "features": { "ipa": "aɪ̯ns" }, "noteZh": "数数、报号码说 eins;放在名词前面变成 ein / eine(ein Kind, eine Schwester)。" },
+    { "id": "de.eins", "kind": "word", "pos": "num", "text": "eins", "zh": "一", "features": { "ipa": "aɪ̯ns" }, "noteZh": "数数、报号码说 eins;放在名词前面变成 ein / eine(ein Kind, eine Schwester);haben 后面的阳性名词前是 einen(Ich habe einen Bruder.),先当固定说法记,第 3 单元细讲。" },
     { "id": "de.zwei", "kind": "word", "pos": "num", "text": "zwei", "zh": "二", "alt": ["zwo"], "features": { "ipa": "tsvaɪ̯" }, "noteZh": "z 读 [ts](像“次”的声母)。打电话、报号码时为了不和 drei 听混,常说 zwo。" },
     { "id": "de.drei", "kind": "word", "pos": "num", "text": "drei", "zh": "三", "features": { "ipa": "dʁaɪ̯" }, "noteZh": "r 一般读小舌音 [ʁ](喉咙后部轻轻摩擦);一开始发不好可以先用舌尖颤音。" },
     { "id": "de.vier", "kind": "word", "pos": "num", "text": "vier", "zh": "四", "features": { "ipa": "fiːɐ̯" }, "noteZh": "v 读 [f]!(Vater、vier 都是);词尾的 r 读得像轻轻的“啊”。" },

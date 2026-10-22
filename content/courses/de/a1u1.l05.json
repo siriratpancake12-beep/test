@@ -17,7 +17,7 @@
   ],
   "reviewItems": ["de.du", "de.sie_hoeflich", "de.ich_komme_aus"],
   "lines": [
-    { "speaker": "sofia", "text": "Ich komme aus Italien und spreche Englisch. Sprichst du Englisch, Wei?", "zh": "我来自意大利,会说英语。王伟,你会说英语吗?", "items": ["de.ich_komme_aus", "de.italien", "de.und", "de.sprechen", "de.englisch", "de.du"] },
+    { "speaker": "sofia", "text": "Ich komme aus Italien und spreche Englisch. Sprichst du Englisch, Wei?", "zh": "我来自意大利,会说英语。王伟,你会说英语吗?", "items": ["de.ich_komme_aus", "de.ich", "de.italien", "de.und", "de.sprechen", "de.englisch", "de.du"] },
     { "speaker": "wei", "text": "Ich spreche Chinesisch, Englisch und ein bisschen Deutsch.", "zh": "我会说中文、英语和一点德语。", "items": ["de.ich", "de.sprechen", "de.chinesisch", "de.englisch", "de.und", "de.ein_bisschen", "de.deutsch"] },
     { "speaker": "wagner", "text": "Herr Wang, woher kommen Sie und wo wohnen Sie?", "zh": "王先生,您从哪里来,住在哪里?", "items": ["de.herr", "de.woher", "de.ich_komme_aus", "de.sie_hoeflich", "de.und", "de.wo", "de.wohnen"] },
     { "speaker": "wei", "text": "Wie bitte?", "zh": "您说什么?", "items": ["de.wie_bitte"] },

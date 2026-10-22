@@ -17,14 +17,14 @@
   ],
   "reviewItems": ["de.vater", "de.mutter", "de.schwester", "de.kind"],
   "lines": [
-    { "speaker": "sofia", "text": "Wei, wer ist das? Deine Oma?", "zh": "王伟,这是谁?你奶奶吗?", "items": ["de.wer", "de.sein", "de.das_ist", "de.oma"] },
-    { "speaker": "wei", "text": "Ja, das ist meine Oma. Sie hat auch ein Handy!", "zh": "对,这是我奶奶。她也有手机!", "items": ["de.ja", "de.das_ist", "de.oma", "de.sie_sg", "de.haben", "de.auch", "de.eins", "de.handy"] },
-    { "speaker": "sofia", "text": "Und wer ist er? Dein Vater?", "zh": "那他是谁?你爸爸吗?", "items": ["de.und", "de.wer", "de.sein", "de.er", "de.vater"] },
-    { "speaker": "wei", "text": "Ja. Das sind meine Eltern, mein Vater und meine Mutter.", "zh": "对。这是我父母,我爸爸和我妈妈。", "items": ["de.ja", "de.das_ist", "de.sein", "de.eltern", "de.vater", "de.und", "de.mutter"] },
+    { "speaker": "sofia", "text": "Wei, wer ist das? Deine Oma?", "zh": "王伟,这是谁?你奶奶吗?", "items": ["de.wer", "de.sein", "de.das_ist", "de.dein", "de.oma"] },
+    { "speaker": "wei", "text": "Ja, das ist meine Oma. Sie hat auch ein Handy!", "zh": "对,这是我奶奶。她也有手机!", "items": ["de.ja", "de.das_ist", "de.mein", "de.oma", "de.sie_sg", "de.haben", "de.auch", "de.eins", "de.handy"] },
+    { "speaker": "sofia", "text": "Und wer ist er? Dein Vater?", "zh": "那他是谁?你爸爸吗?", "items": ["de.und", "de.wer", "de.sein", "de.er", "de.dein", "de.vater"] },
+    { "speaker": "wei", "text": "Ja. Das sind meine Eltern, mein Vater und meine Mutter.", "zh": "对。这是我父母,我爸爸和我妈妈。", "items": ["de.ja", "de.das_ist", "de.sein", "de.mein", "de.eltern", "de.vater", "de.und", "de.mutter"] },
     { "speaker": "sofia", "text": "Hast du Geschwister?", "zh": "你有兄弟姐妹吗?", "items": ["de.haben", "de.du", "de.geschwister"] },
     { "speaker": "wei", "text": "Ja, eine Schwester in Shanghai. Sie hat einen Mann und ein Kind.", "zh": "有,一个姐姐,在上海。她有丈夫和一个孩子。", "items": ["de.ja", "de.eins", "de.schwester", "de.in", "de.sie_sg", "de.haben", "de.mann", "de.und", "de.kind"] },
-    { "speaker": "sofia", "text": "Meine Familie wohnt in Italien. Ich habe einen Bruder.", "zh": "我家在意大利。我有一个兄弟。", "items": ["de.familie", "de.wohnen", "de.in", "de.italien", "de.ich", "de.haben", "de.eins", "de.bruder"] },
-    { "speaker": "wei", "text": "Und deine Oma? Hat sie auch ein Handy?", "zh": "那你奶奶呢?她也有手机吗?", "items": ["de.und", "de.oma", "de.haben", "de.sie_sg", "de.auch", "de.eins", "de.handy"] }
+    { "speaker": "sofia", "text": "Meine Familie wohnt in Italien. Ich habe einen Bruder.", "zh": "我家在意大利。我有一个兄弟。", "items": ["de.mein", "de.familie", "de.wohnen", "de.in", "de.italien", "de.ich", "de.haben", "de.eins", "de.bruder"] },
+    { "speaker": "wei", "text": "Und deine Oma? Hat sie auch ein Handy?", "zh": "那你奶奶呢?她也有手机吗?", "items": ["de.und", "de.dein", "de.oma", "de.haben", "de.sie_sg", "de.auch", "de.eins", "de.handy"] }
   ],
   "questions": [
     { "prompt": "王伟的姐姐住在哪里?", "options": ["成都", "柏林", "上海", "意大利"], "answer": 2, "explainZh": "王伟说:Ja, eine Schwester in Shanghai.(有,一个姐姐,在上海。)他的父母和奶奶在成都。" },

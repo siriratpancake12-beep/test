@@ -2,7 +2,7 @@
   "id": "de.a1u1.l03", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
   "unit": "A1-1 你好,我是……", "order": 101030,
   "titleZh": "你好吗?你住在哪儿?", "goalZh": "会用 Wie geht's? 问候熟人,用 wie / wo / woher 提问和回答", "canDoZh": "能问朋友最近好不好、从哪里来、住在哪里,也能回答这些问题",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
   "newItems": [
     { "id": "de.wie_gehts", "kind": "phrase", "pos": "phrase", "text": "Wie geht's?", "zh": "你好吗?/最近怎么样?(熟人之间)", "alt": ["Wie gehts?", "Wie geht es dir?"], "features": { "ipa": "viː ˈɡeːts" }, "noteZh": "朋友、同学之间用;对老师、陌生人说 Wie geht es Ihnen?。回答:Gut, danke!。geht's = geht es,撇号表示省掉了 e。" },
     { "id": "de.und_dir", "kind": "phrase", "pos": "phrase", "text": "Und dir?", "zh": "你呢?(回答 Wie geht's? 后反问)", "features": { "ipa": "ʊnt ˈdiːɐ̯" }, "noteZh": "回答完 Wie geht's? 反问对方用 Und dir?,不说 Und du?(因为完整的问句是 Wie geht es dir?);对用 Sie 的人说 Und Ihnen?。" },
@@ -13,17 +13,19 @@
     { "id": "de.wo", "kind": "word", "pos": "adv", "text": "wo", "zh": "在哪里", "features": { "ipa": "voː" }, "noteZh": "不是英语的 who!“谁”是 wer。w 读 [v]。" },
     { "id": "de.woher", "kind": "word", "pos": "adv", "text": "woher", "zh": "从哪里", "features": { "ipa": "voˈheːɐ̯" }, "noteZh": "Woher kommst du? 回答用 aus:Ich komme aus China.;wo 问位置,woher 问来处。" },
     { "id": "de.wohnen", "kind": "word", "pos": "verb", "text": "wohnen", "zh": "住;居住", "features": { "ipa": "ˈvoːnən" }, "noteZh": "ich wohne, du wohnst, er/sie wohnt, Sie wohnen;h 不发音,表示前面的 o 读长音。" },
-    { "id": "de.in", "kind": "word", "pos": "prep", "text": "in", "zh": "在……里;在(城市、国家、城区)", "features": { "ipa": "ɪn" }, "noteZh": "在城市、国家、城区用 in:Ich wohne in Berlin. / Ich wohne in Kreuzberg.;Chengdu in China = 中国的成都。" }
+    { "id": "de.in", "kind": "word", "pos": "prep", "text": "in", "zh": "在……里;在(城市、国家、城区)", "features": { "ipa": "ɪn" }, "noteZh": "在城市、国家、城区用 in:Ich wohne in Berlin. / Ich wohne in Kreuzberg.;Chengdu in China = 中国的成都。" },
+    { "id": "de.ich", "kind": "word", "pos": "pron", "text": "ich", "zh": "我", "features": { "ipa": "ɪç" }, "noteZh": "ch 在 i、e、ä、ö、ü 后读 [ç]:舌面贴近硬腭送气,像轻声说“希”的开头,不要读成 k 或 sh。只在句首大写(不像英语的 I 永远大写)。" },
+    { "id": "de.du", "kind": "word", "pos": "pron", "text": "du", "zh": "你(熟人之间)", "features": { "ipa": "duː" }, "noteZh": "对朋友、家人、同学、小孩用 du;对老师、店员、陌生的成年人用 Sie(下一课学)。学生之间一般直接用 du。" }
   ],
   "reviewItems": ["de.hallo", "de.ich_komme_aus", "de.china"],
   "lines": [
     { "speaker": "lena", "text": "Hallo, Wei! Wie geht's?", "zh": "你好,王伟!最近怎么样?", "items": ["de.hallo", "de.wie_gehts"] },
     { "speaker": "wei", "text": "Gut, danke! Und dir?", "zh": "挺好的,谢谢!你呢?", "items": ["de.gut", "de.danke", "de.und_dir"] },
-    { "speaker": "lena", "text": "Gut, danke! Woher kommst du? Aus Shanghai?", "zh": "挺好,谢谢!你是从哪儿来的?上海吗?", "items": ["de.gut", "de.danke", "de.woher", "de.ich_komme_aus"] },
-    { "speaker": "wei", "text": "Ich komme aus Chengdu in China. Und wo wohnst du?", "zh": "我来自中国成都。那你住在哪儿?", "items": ["de.ich_komme_aus", "de.in", "de.china", "de.und", "de.wo", "de.wohnen"] },
-    { "speaker": "lena", "text": "Ich wohne in Kreuzberg. Und du?", "zh": "我住在克罗伊茨贝格区。你呢?", "items": ["de.wohnen", "de.in", "de.und"] },
-    { "speaker": "wei", "text": "Ich wohne in Neukölln.", "zh": "我住在新克尔恩区。", "items": ["de.wohnen", "de.in"] },
-    { "speaker": "lena", "text": "Wie wohnst du? Gut?", "zh": "住得怎么样?好吗?", "items": ["de.wie", "de.wohnen", "de.gut"] },
+    { "speaker": "lena", "text": "Gut, danke! Woher kommst du? Aus Shanghai?", "zh": "挺好,谢谢!你是从哪儿来的?上海吗?", "items": ["de.gut", "de.danke", "de.woher", "de.ich_komme_aus", "de.du"] },
+    { "speaker": "wei", "text": "Ich komme aus Chengdu in China. Und wo wohnst du?", "zh": "我来自中国成都。那你住在哪儿?", "items": ["de.ich_komme_aus", "de.ich", "de.in", "de.china", "de.und", "de.wo", "de.wohnen", "de.du"] },
+    { "speaker": "lena", "text": "Ich wohne in Kreuzberg. Und du?", "zh": "我住在克罗伊茨贝格区。你呢?", "items": ["de.ich", "de.wohnen", "de.in", "de.und", "de.du"] },
+    { "speaker": "wei", "text": "Ich wohne in Neukölln.", "zh": "我住在新克尔恩区。", "items": ["de.ich", "de.wohnen", "de.in"] },
+    { "speaker": "lena", "text": "Wie wohnst du? Gut?", "zh": "住得怎么样?好吗?", "items": ["de.wie", "de.wohnen", "de.du", "de.gut"] },
     { "speaker": "wei", "text": "Gut, danke!", "zh": "挺好的,谢谢!", "items": ["de.gut", "de.danke"] }
   ],
   "questions": [
@@ -32,7 +34,7 @@
   ],
   "grammar": [
     { "id": "de.g.w_frage_du", "titleZh": "W-问句和 du 的动词词尾 -st",
-      "bodyZh": "问“怎样、在哪里、从哪里”时,疑问词放在句首,动词紧跟在第二位,然后才是 du:Wie heißt du? / Wo wohnst du? / Woher kommst du?。中文的疑问词留在原位(你住在哪儿?),德语一定要提到最前面;也不像英语要加 do(Where do you live?)。和 du 搭配,动词词尾是 -st:wohnen → du wohnst,kommen → du kommst;heißen 的词干已经以 ß 结尾,只加 -t:du heißt。反问对方:回答 Wie geht's? 以后说 Und dir?;别的问题反问说 Und du?(Ich wohne in Kreuzberg. Und du?)。",
+      "bodyZh": "ich = 我,du = 你(朋友、同学之间;对老师、陌生人用 Sie,下一课学)。问“怎样、在哪里、从哪里”时,疑问词放在句首,动词紧跟在第二位,然后才是 du:Wie heißt du? / Wo wohnst du? / Woher kommst du?。中文的疑问词留在原位(你住在哪儿?),德语一定要提到最前面;也不像英语要加 do(Where do you live?)。和 du 搭配,动词词尾是 -st:wohnen → du wohnst,kommen → du kommst;heißen 的词干已经以 ß 结尾,只加 -t:du heißt。反问对方:回答 Wie geht's? 以后说 Und dir?;别的问题反问说 Und du?(Ich wohne in Kreuzberg. Und du?)。",
       "examples": [ { "text": "Wo wohnst du? – Ich wohne in Kreuzberg.", "zh": "你住在哪儿?——我住在克罗伊茨贝格区。" }, { "text": "Woher kommst du? – Ich komme aus China.", "zh": "你从哪里来?——我来自中国。" } ] }
   ],
   "review": "draft"

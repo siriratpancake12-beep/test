@@ -18,7 +18,7 @@
       "canDoZh": "能用德语跟人打招呼,说出自己叫什么、从哪里来",
       "scenarioZh": "(已写好)王伟刚到柏林,在大学的国际新生欢迎会上认识了学伴莉娜:互相问好、说名字和从哪里来,最后道别。说话人:lena、wei。",
       "grammarFocusZh": "动词跟着 ich 变:ich + 动词 -e(ich heiße / ich komme)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 22.5,
       "newItems": [
         { "id": "de.hallo", "kind": "word", "pos": "interj", "text": "Hallo", "zh": "你好(随意)", "features": { "ipa": "haˈloː" } },
         { "id": "de.guten_tag", "kind": "phrase", "pos": "phrase", "text": "Guten Tag", "zh": "您好(白天,正式)", "features": { "ipa": "ˌɡuːtn̩ ˈtaːk" }, "noteZh": "对陌生人、长辈、店员用 Guten Tag;朋友之间用 Hallo。" },
@@ -34,15 +34,17 @@
       "titleZh": "我的家人", "goalZh": "记住家人的叫法,连同冠词 der / die 一起记",
       "canDoZh": "能用德语介绍自己的家人",
       "scenarioZh": "(已写好)欢迎会后王伟和家里视频,莉娜在旁边跟大家打招呼;王伟指着屏幕介绍爸爸、妈妈和姐姐。说话人:wei、lena。",
-      "grammarFocusZh": "名词的性:der / die / das 要和名词一起记;mein / meine(我的)",
-      "skills": ["listen", "read", "write"], "estimatedMinutes": 7,
+      "grammarFocusZh": "名词的性:der / die / das 要和名词一起记;mein / meine(我的)、dein / deine(你的)",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 22.5,
       "newItems": [
         { "id": "de.vater", "kind": "word", "pos": "noun", "text": "der Vater", "zh": "父亲", "features": { "gender": "m", "plural": "die Väter" } },
         { "id": "de.mutter", "kind": "word", "pos": "noun", "text": "die Mutter", "zh": "母亲", "features": { "gender": "f", "plural": "die Mütter" } },
         { "id": "de.bruder", "kind": "word", "pos": "noun", "text": "der Bruder", "zh": "兄弟", "features": { "gender": "m", "plural": "die Brüder" } },
         { "id": "de.schwester", "kind": "word", "pos": "noun", "text": "die Schwester", "zh": "姐妹", "features": { "gender": "f", "plural": "die Schwestern" } },
         { "id": "de.kind", "kind": "word", "pos": "noun", "text": "das Kind", "zh": "孩子", "features": { "gender": "n", "plural": "die Kinder" } },
-        { "id": "de.das_ist", "kind": "phrase", "pos": "phrase", "text": "Das ist", "zh": "这是……", "features": {} }
+        { "id": "de.das_ist", "kind": "phrase", "pos": "phrase", "text": "Das ist", "zh": "这是……", "features": {} },
+        { "id": "de.mein", "kind": "word", "pos": "det", "text": "mein", "zh": "我的", "alt": ["meine"], "features": { "ipa": "maɪ̯n" }, "noteZh": "阳性、中性用 mein(mein Vater, mein Kind),阴性和复数用 meine(meine Mutter, meine Eltern)。" },
+        { "id": "de.dein", "kind": "word", "pos": "det", "text": "dein", "zh": "你的", "alt": ["deine"], "features": { "ipa": "daɪ̯n" }, "noteZh": "变化和 mein 一样:dein Bruder, deine Schwester。" }
       ],
       "reviewItems": ["de.hallo"]
     },
@@ -52,7 +54,7 @@
       "canDoZh": "能问朋友最近好不好、从哪里来、住在哪里,也能回答这些问题",
       "scenarioZh": "迎新周第二天中午,王伟在学校食堂又碰到莉娜。莉娜问他最近怎么样,王伟回答后反问 Und dir?;两人聊起从哪儿来、住在哪儿:莉娜住在柏林的 Kreuzberg 区,王伟来自成都,现在也住在柏林。说话人:lena、wei。",
       "grammarFocusZh": "W-问句:疑问词放句首、动词放第二位(Wo wohnst du?);和 du 搭配的动词词尾是 -st(du wohnst, du kommst, du heißt);回答 Wie geht's? 之后用 Und dir? 反问",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
       "newItems": [
         { "id": "de.wie_gehts", "kind": "phrase", "pos": "phrase", "text": "Wie geht's?", "zh": "你好吗?/最近怎么样?(熟人之间)", "alt": ["Wie gehts?", "Wie geht es dir?"], "features": { "ipa": "viː ˈɡeːts" }, "noteZh": "朋友、同学之间用;对老师、陌生人说 Wie geht es Ihnen?。回答:Gut, danke! / Mir geht's gut.。geht's = geht es。" },
         { "id": "de.und_dir", "kind": "phrase", "pos": "phrase", "text": "Und dir?", "zh": "你呢?(回答 Wie geht's? 后反问)", "features": { "ipa": "ʊnt ˈdiːɐ̯" }, "noteZh": "回答完 Wie geht's? 反问对方用 Und dir?,不说 Und du?;对用 Sie 的人说 Und Ihnen?。" },
@@ -63,7 +65,9 @@
         { "id": "de.wo", "kind": "word", "pos": "adv", "text": "wo", "zh": "在哪里", "features": { "ipa": "voː" }, "noteZh": "不是英语的 who!“谁”是 wer。w 读 [v]。" },
         { "id": "de.woher", "kind": "word", "pos": "adv", "text": "woher", "zh": "从哪里", "features": { "ipa": "voˈheːɐ̯" }, "noteZh": "Woher kommst du? 回答用 aus:Ich komme aus China.。" },
         { "id": "de.wohnen", "kind": "word", "pos": "verb", "text": "wohnen", "zh": "住;居住", "features": { "ipa": "ˈvoːnən" }, "noteZh": "ich wohne, du wohnst, er/sie wohnt, Sie wohnen;h 不发音,表示前面的 o 读长音。" },
-        { "id": "de.in", "kind": "word", "pos": "prep", "text": "in", "zh": "在……里;在(城市、国家)", "features": { "ipa": "ɪn" }, "noteZh": "在城市、国家用 in:Ich wohne in Berlin.。" }
+        { "id": "de.in", "kind": "word", "pos": "prep", "text": "in", "zh": "在……里;在(城市、国家)", "features": { "ipa": "ɪn" }, "noteZh": "在城市、国家用 in:Ich wohne in Berlin.。" },
+        { "id": "de.ich", "kind": "word", "pos": "pron", "text": "ich", "zh": "我", "features": { "ipa": "ɪç" }, "noteZh": "ch 在 i、e、ä、ö、ü 后读 [ç]:舌面贴近硬腭送气,像轻声说“希”的开头,不要读成 k 或 sh。只在句首大写。" },
+        { "id": "de.du", "kind": "word", "pos": "pron", "text": "du", "zh": "你(熟人之间)", "features": { "ipa": "duː" }, "noteZh": "对朋友、家人、同学、小孩用 du;对老师、店员、陌生的成年人用 Sie。学生之间一般直接用 du。" }
       ],
       "reviewItems": ["de.hallo", "de.ich_komme_aus", "de.china"]
     },
@@ -73,11 +77,9 @@
       "canDoZh": "能说“我是学生”,能用合适的称呼问老师和同学“您是……吗?/你是……吗?”",
       "scenarioZh": "德语课第一天。瓦格纳老师用 Sie 跟大家问好并点名:“Sind Sie Herr Wang?”王伟回答 Ja;老师问谁是学生。课间,意大利同学索菲娅来打招呼,两人马上改用 du,互相问是不是学生。说话人:wagner、wei、sofia。",
       "grammarFocusZh": "人称代词 ich / du / Sie;sein 的变位 ich bin, du bist, Sie sind(er / sie ist 先认识);是非问句把动词放句首(Bist du Student? / Sind Sie Frau Wagner?);du 和 Sie 的区别;Herr / Frau + 姓;说身份不加冠词(Ich bin Student)",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 23,
       "newItems": [
         { "id": "de.sein", "kind": "word", "pos": "verb", "text": "sein", "zh": "是;在", "features": { "ipa": "zaɪ̯n" }, "noteZh": "最常用的不规则动词:ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind。s 在元音前读 [z]。" },
-        { "id": "de.ich", "kind": "word", "pos": "pron", "text": "ich", "zh": "我", "features": { "ipa": "ɪç" }, "noteZh": "ch 在 i、e、ä、ö、ü 后读 [ç]:舌面贴近硬腭送气,像轻声说“希”的开头,不要读成 k 或 sh。只在句首大写。" },
-        { "id": "de.du", "kind": "word", "pos": "pron", "text": "du", "zh": "你(熟人之间)", "features": { "ipa": "duː" }, "noteZh": "对朋友、家人、同学、小孩用 du;对老师、店员、陌生的成年人用 Sie。学生之间一般直接用 du。" },
         { "id": "de.sie_hoeflich", "kind": "word", "pos": "pron", "text": "Sie", "zh": "您(礼貌称呼,一个或多个人)", "features": { "ipa": "ziː" }, "noteZh": "表示“您”时永远大写,动词和复数一样:Sie sind / Sie wohnen。和 sie(她、他们)只差一个大写。" },
         { "id": "de.ja", "kind": "word", "pos": "interj", "text": "ja", "zh": "是的;对(回答)", "features": { "ipa": "jaː" }, "noteZh": "j 读 [j],像拼音的 y。" },
         { "id": "de.nein", "kind": "word", "pos": "interj", "text": "nein", "zh": "不;不是(回答)", "features": { "ipa": "naɪ̯n" }, "noteZh": "ei 读 [aɪ̯](像“爱”)。回答“不是”用 nein;否定句子里的内容用 nicht / kein(第 3 单元)。" },
@@ -86,7 +88,7 @@
         { "id": "de.student", "kind": "word", "pos": "noun", "text": "der Student", "zh": "(男)大学生", "features": { "gender": "m", "plural": "die Studenten", "ipa": "ʃtuˈdɛnt" }, "noteZh": "说身份、职业不加冠词:Ich bin Student.。st 在词首读 [ʃt]。" },
         { "id": "de.studentin", "kind": "word", "pos": "noun", "text": "die Studentin", "zh": "女大学生", "features": { "gender": "f", "plural": "die Studentinnen", "ipa": "ʃtuˈdɛntɪn" }, "noteZh": "女性的职业、身份大多是阳性 + in,复数 -innen。" }
       ],
-      "reviewItems": ["de.guten_tag", "de.ich_heisse", "de.wie"]
+      "reviewItems": ["de.guten_tag", "de.ich_heisse", "de.wie", "de.ich", "de.du"]
     },
     {
       "id": "de.a1u1.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-1 你好,我是……", "order": 101050,
@@ -94,7 +96,7 @@
       "canDoZh": "能说出自己会说什么语言;听不懂时能礼貌地请对方重复、说慢一点",
       "scenarioZh": "课间休息,索菲娅问王伟会说什么语言:王伟说中文、英语和一点德语;索菲娅来自意大利,也说英语。回到课堂,瓦格纳老师说得有点快,王伟先说 Wie bitte?,再请她说慢一点、再说一遍。说话人:sofia、wei、wagner。",
       "grammarFocusZh": "sprechen 是不规则动词(du sprichst, er spricht);语言名首字母大写、不加冠词(Ich spreche Deutsch);请求的说法:…, bitte!(Langsam, bitte! / Noch einmal, bitte!)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "de.sprechen", "kind": "word", "pos": "verb", "text": "sprechen", "zh": "说;讲(语言)", "features": { "ipa": "ˈʃpʁɛçn̩" }, "noteZh": "不规则:du sprichst, er/sie spricht(e 变 i)。sp 在词首读 [ʃp]。" },
         { "id": "de.deutsch", "kind": "word", "pos": "propn", "text": "Deutsch", "zh": "德语", "features": { "gender": "n", "ipa": "dɔʏ̯tʃ" }, "noteZh": "语言名首字母大写,一般不加冠词:Ich spreche Deutsch.。eu 读 [ɔʏ̯](像“奥伊”)。" },
@@ -115,7 +117,7 @@
       "canDoZh": "能用 5–6 句话完整地介绍自己:名字、来自哪里、住在哪里、会说什么语言",
       "scenarioZh": "第一周最后一节德语课。瓦格纳老师早上进教室问好(Guten Morgen),请每个人做自我介绍:王伟、索菲娅轮流说名字、国家、城市和会说的语言;老师也介绍自己来自德国科隆。下课时大家互相说 Auf Wiedersehen。对话比前几课长,把本单元的词都串起来。说话人:wagner、wei、sofia。",
       "grammarFocusZh": "复习:sein 和规则动词的 ich / du / Sie 形式、W-问句和是非问句;auch 的位置(Ich wohne auch in Berlin)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "de.guten_morgen", "kind": "phrase", "pos": "phrase", "text": "Guten Morgen", "zh": "早上好", "features": { "ipa": "ˌɡuːtn̩ ˈmɔʁɡn̩" }, "noteZh": "大约上午 10 点以前用,之后用 Guten Tag;熟人之间也可以只说 Morgen!。" },
         { "id": "de.auf_wiedersehen", "kind": "phrase", "pos": "phrase", "text": "Auf Wiedersehen", "zh": "再见(正式)", "features": { "ipa": "aʊ̯f ˈviːdɐˌzeːən" }, "noteZh": "对老师、店员、陌生人用;朋友之间说 Tschüss。" },
@@ -130,10 +132,10 @@
       "canDoZh": "能用德语报出自己的手机号码,也能听懂别人报的号码并记下来",
       "scenarioZh": "王伟刚办好德国手机卡。德语课上,瓦格纳老师先带大家念 0–9,然后同学们两人一组互相念手机号码,听不清就说 Wie bitte? / Noch einmal, bitte!。“手机”这个词下一课才教,本课用 Das ist … 加数字即可。说话人:wagner、wei、sofia。",
       "grammarFocusZh": "数字的发音:v 读 [f](vier)、z 读 [ts](zwei)、s 在元音前读 [z](sechs, sieben)、ch 在 a 后读 [x](acht);电话号码一位一位地读,zwei 打电话时常说 zwo",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 8,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "de.null", "kind": "word", "pos": "num", "text": "null", "zh": "零", "features": { "ipa": "nʊl" }, "noteZh": "电话号码一般一位一位地读:null – eins – sieben – sechs …;德国手机号以 01 开头。" },
-        { "id": "de.eins", "kind": "word", "pos": "num", "text": "eins", "zh": "一", "features": { "ipa": "aɪ̯ns" }, "noteZh": "数数、报号码说 eins;放在名词前面变成 ein / eine(ein Kind)。" },
+        { "id": "de.eins", "kind": "word", "pos": "num", "text": "eins", "zh": "一", "features": { "ipa": "aɪ̯ns" }, "noteZh": "数数、报号码说 eins;放在名词前面变成 ein / eine(ein Kind, eine Schwester);haben 后面的阳性名词前是 einen(Ich habe einen Bruder.),先当固定说法记,第 3 单元细讲。" },
         { "id": "de.zwei", "kind": "word", "pos": "num", "text": "zwei", "zh": "二", "alt": ["zwo"], "features": { "ipa": "tsvaɪ̯" }, "noteZh": "z 读 [ts](像“次”的声母)。打电话时为了不和 drei 听混,常说 zwo。" },
         { "id": "de.drei", "kind": "word", "pos": "num", "text": "drei", "zh": "三", "features": { "ipa": "dʁaɪ̯" }, "noteZh": "r 一般读小舌音 [ʁ](喉咙后部轻轻摩擦);一开始发不好可以先用舌尖颤音。" },
         { "id": "de.vier", "kind": "word", "pos": "num", "text": "vier", "zh": "四", "features": { "ipa": "fiːɐ̯" }, "noteZh": "v 读 [f]!(Vater、vier 都是);词尾的 r 读得像轻轻的“啊”。" },
@@ -151,11 +153,11 @@
       "canDoZh": "能用手机里的照片或视频介绍自己的家人:他们是谁、叫什么、住在哪里",
       "scenarioZh": "周末王伟用手机和成都的家里视频,索菲娅也在旁边。她问屏幕上的人是谁:奶奶、爸爸、妈妈;王伟说他有一个姐姐王静,住在上海,有丈夫和一个孩子(Kind 已学过)。索菲娅也说说她在意大利的家。说话人:sofia、wei。",
       "grammarFocusZh": "haben 的变位(ich habe, du hast, er / sie hat);人称代词 er / sie(也指物:der → er,die → sie);问人用 Wer ist das?;haben 后面阳性名词的 ein 变 einen(Ich habe einen Bruder,第 3 单元细讲)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "de.familie", "kind": "word", "pos": "noun", "text": "die Familie", "zh": "家;家庭", "features": { "gender": "f", "plural": "die Familien", "ipa": "faˈmiːli̯ə" }, "noteZh": "重音在 mi 上;词尾 -ie 读 [i̯ə]。" },
-        { "id": "de.eltern", "kind": "word", "pos": "noun", "text": "die Eltern", "zh": "父母", "features": { "gender": "f", "plural": "die Eltern", "ipa": "ˈɛltɐn" }, "noteZh": "只有复数形式,这里的 die 是复数冠词(不是阴性):meine Eltern。" },
-        { "id": "de.geschwister", "kind": "word", "pos": "noun", "text": "die Geschwister", "zh": "兄弟姐妹", "features": { "gender": "f", "plural": "die Geschwister", "ipa": "ɡəˈʃvɪstɐ" }, "noteZh": "平时只用复数:Hast du Geschwister?;德语不分哥哥/弟弟、姐姐/妹妹,要说清楚再加 älter / jünger。" },
+        { "id": "de.eltern", "kind": "word", "pos": "noun", "text": "die Eltern", "zh": "父母", "features": { "gender": "pl", "ipa": "ˈɛltɐn" }, "noteZh": "只有复数形式,这里的 die 是复数冠词(不是阴性):meine Eltern。" },
+        { "id": "de.geschwister", "kind": "word", "pos": "noun", "text": "die Geschwister", "zh": "兄弟姐妹", "features": { "gender": "pl", "ipa": "ɡəˈʃvɪstɐ" }, "noteZh": "平时只用复数:Hast du Geschwister?;德语不分哥哥/弟弟、姐姐/妹妹,要说清楚再加 älter / jünger。" },
         { "id": "de.oma", "kind": "word", "pos": "noun", "text": "die Oma", "zh": "奶奶;外婆", "alt": ["die Großmutter"], "features": { "gender": "f", "plural": "die Omas", "ipa": "ˈoːma" }, "noteZh": "德语不分奶奶和外婆;正式说法是 die Großmutter;爷爷、外公是 der Opa。" },
         { "id": "de.mann", "kind": "word", "pos": "noun", "text": "der Mann", "zh": "男人;丈夫", "features": { "gender": "m", "plural": "die Männer", "ipa": "man" }, "noteZh": "mein Mann = 我丈夫;复数要变音:die Männer。" },
         { "id": "de.wer", "kind": "word", "pos": "pron", "text": "wer", "zh": "谁", "features": { "ipa": "veːɐ̯" }, "noteZh": "Wer ist das?;wer 是“谁”,wo 是“在哪里”,和英语正好容易搞反。" },
@@ -172,7 +174,7 @@
       "canDoZh": "能问别人多大,说出自己和家人的年龄(20 岁以内)",
       "scenarioZh": "莉娜带 16 岁的弟弟保罗来学校玩。保罗问王伟多大,大家互相问年龄:保罗 16 岁,王伟和莉娜都是 20 岁;保罗还问王伟的奶奶多大(超过 20 的数字下一单元才学,王伟可以说 Sie ist alt.)。说话人:paul、wei、lena。",
       "grammarFocusZh": "13–19 = 个位 + zehn(dreizehn, vierzehn …),sechzehn、siebzehn 去掉了 s / en;Ich bin … Jahre alt;问成年人的年龄在德国不太礼貌",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 9,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "de.zehn", "kind": "word", "pos": "num", "text": "zehn", "zh": "十", "features": { "ipa": "tseːn" }, "noteZh": "13–19 都是“个位 + zehn”:dreizehn, vierzehn, fünfzehn, achtzehn, neunzehn。" },
         { "id": "de.elf", "kind": "word", "pos": "num", "text": "elf", "zh": "十一", "features": { "ipa": "ɛlf" } },
@@ -192,20 +194,18 @@
       "canDoZh": "能说“我们 / 你们 / 他们在做什么”,能说清楚“我的 / 你的 / 他的 / 她的”家人",
       "scenarioZh": "王伟、索菲娅和莉娜在学校一起写德语作业(“图书馆”这个词不教)。莉娜问他们在做什么——Wir lernen Deutsch;大家看着手机里的照片互相问:Ist das dein Bruder? – Nein, das ist sein Bruder.,练习 mein / dein / sein / ihr。说话人:lena、wei、sofia。",
       "grammarFocusZh": "规则动词现在时全表:ich -e, du -st, er/sie -t, wir -en, ihr -t, sie/Sie -en(lernen, machen, wohnen);人称代词 wir / ihr / sie(复数);物主冠词 mein / dein / sein / ihr,阴性和复数加 -e(meine Mutter, seine Eltern);Was machst du?",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 23,
       "newItems": [
         { "id": "de.wir", "kind": "word", "pos": "pron", "text": "wir", "zh": "我们", "features": { "ipa": "viːɐ̯" }, "noteZh": "动词和不定式一样:wir lernen, wir wohnen。" },
         { "id": "de.ihr", "kind": "word", "pos": "pron", "text": "ihr", "zh": "你们", "features": { "ipa": "iːɐ̯" }, "noteZh": "对几个朋友说“你们”:ihr lernt(动词加 -t);对几位不熟的人还是用 Sie。" },
         { "id": "de.sie_pl", "kind": "word", "pos": "pron", "text": "sie", "zh": "他们;她们;它们(复数)", "features": { "ipa": "ziː" }, "noteZh": "复数的“他们”也是 sie,动词和不定式一样:sie lernen;是“她”还是“他们”看动词词尾和上下文。" },
-        { "id": "de.mein", "kind": "word", "pos": "det", "text": "mein", "zh": "我的", "alt": ["meine"], "features": { "ipa": "maɪ̯n" }, "noteZh": "阳性、中性用 mein(mein Vater, mein Kind),阴性和复数用 meine(meine Mutter, meine Eltern)。" },
-        { "id": "de.dein", "kind": "word", "pos": "det", "text": "dein", "zh": "你的", "alt": ["deine"], "features": { "ipa": "daɪ̯n" }, "noteZh": "变化和 mein 一样:dein Bruder, deine Schwester。" },
         { "id": "de.sein_poss", "kind": "word", "pos": "det", "text": "sein", "zh": "他的;它的", "alt": ["seine"], "features": { "ipa": "zaɪ̯n" }, "noteZh": "和动词 sein(是)长得一样:sein Vater(他的爸爸),seine Mutter(他的妈妈)。" },
         { "id": "de.ihr_poss", "kind": "word", "pos": "det", "text": "ihr", "zh": "她的;他们的", "alt": ["ihre"], "features": { "ipa": "iːɐ̯" }, "noteZh": "ihr Bruder(她的兄弟),ihre Eltern(她的/他们的父母);和 ihr(你们)同形。" },
         { "id": "de.lernen", "kind": "word", "pos": "verb", "text": "lernen", "zh": "学习;学", "features": { "ipa": "ˈlɛʁnən" }, "noteZh": "规则动词的标准变化:ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen。" },
         { "id": "de.machen", "kind": "word", "pos": "verb", "text": "machen", "zh": "做;干", "features": { "ipa": "ˈmaxn̩" }, "noteZh": "Was machst du?(你在干什么?/你是做什么的?)" },
         { "id": "de.was", "kind": "word", "pos": "pron", "text": "was", "zh": "什么", "features": { "ipa": "vas" }, "noteZh": "Was machst du? / Was ist das?;不是英语的 was(是)。" }
       ],
-      "reviewItems": ["de.wohnen", "de.sprechen", "de.haben"]
+      "reviewItems": ["de.wohnen", "de.sprechen", "de.haben", "de.mein", "de.dein"]
     },
     {
       "id": "de.a1u2.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-2 我的家人和朋友", "order": 102050,
@@ -213,7 +213,7 @@
       "canDoZh": "能说出自己和家人做什么工作,也能问别人的职业",
       "scenarioZh": "莉娜和保罗跟王伟聊家人做什么工作:王伟的爸爸是厨师(做川菜),妈妈是中学英语老师,姐姐是医生;莉娜的爸爸是老师、妈妈是医生,保罗还是中学生。保罗说话很快,莉娜笑着问王伟:Verstehst du Paul?说话人:lena、paul、wei。",
       "grammarFocusZh": "说职业不加冠词(Er ist Koch);女性职业加 -in(Lehrer → Lehrerin,Arzt → Ärztin 还要变音);studieren(读大学、读专业)和 lernen(学习)的区别;arbeiten 要加 e(du arbeitest, er arbeitet)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "de.beruf", "kind": "word", "pos": "noun", "text": "der Beruf", "zh": "职业", "features": { "gender": "m", "plural": "die Berufe", "ipa": "bəˈʁuːf" }, "noteZh": "问职业:Was bist du von Beruf? / Was machst du?" },
         { "id": "de.arbeiten", "kind": "word", "pos": "verb", "text": "arbeiten", "zh": "工作", "features": { "ipa": "ˈaʁbaɪ̯tn̩" }, "noteZh": "词干以 t 结尾,要加 -e- 才好读:du arbeitest, er arbeitet。" },
@@ -234,7 +234,7 @@
       "canDoZh": "能读懂、也能写出一份简单的德语个人简介(名字、年龄、国家、住在哪里、语言、职业、家人和朋友)",
       "scenarioZh": "德语课要做“我的简介”墙报。王伟写了一张简介卡和一段短文:名字、年龄、国家、住在哪里、会说的语言、职业,成都的家人(年龄和职业),以及在柏林新认识的朋友莉娜和索菲娅。简介卡的栏目对应歌德 A1 口语第一部分的提示卡,但只用学过的词(Land、Sprachen、Beruf 等)。说话人:wei(第一人称短文)。",
       "grammarFocusZh": "复习:sein / haben、动词变位、物主冠词;Freund / Freundin 的两种意思(朋友 / 男女朋友);复数 Sprachen、Länder",
-      "skills": ["read", "write"], "estimatedMinutes": 10,
+      "skills": ["read", "write"], "estimatedMinutes": 22.5,
       "newItems": [
         { "id": "de.land", "kind": "word", "pos": "noun", "text": "das Land", "zh": "国家;乡下", "features": { "gender": "n", "plural": "die Länder", "ipa": "lant" }, "noteZh": "Aus welchem Land kommst du?(你来自哪个国家?);auf dem Land = 在乡下。" },
         { "id": "de.sprache", "kind": "word", "pos": "noun", "text": "die Sprache", "zh": "语言", "features": { "gender": "f", "plural": "die Sprachen", "ipa": "ˈʃpʁaːxə" }, "noteZh": "Ich spreche drei Sprachen.;名词 Sprache 和动词 sprechen 是一家。" },
@@ -953,7 +953,7 @@
       "newItems": [
         { "id": "de.schon", "kind": "word", "pos": "adv", "text": "schon", "zh": "已经", "features": { "ipa": "ʃoːn" }, "noteZh": "Ich spreche schon gut Deutsch.(我已经能说不错的德语了。)否定:noch nicht(还没有)。" },
         { "id": "de.zurueck", "kind": "word", "pos": "adv", "text": "zurück", "zh": "回来;往回", "features": { "ipa": "tsuˈʁʏk" }, "noteZh": "Im Oktober komme ich zurück.(十月我回来。)hin und zurück = 往返。" },
-        { "id": "de.ferien", "kind": "word", "pos": "noun", "text": "die Ferien", "zh": "假期", "features": { "gender": "f", "plural": "die Ferien", "ipa": "ˈfeːʁi̯ən" }, "noteZh": "只有复数形式(die 是复数冠词):die Sommerferien(暑假);上班族的休假叫 der Urlaub。" },
+        { "id": "de.ferien", "kind": "word", "pos": "noun", "text": "die Ferien", "zh": "假期", "features": { "gender": "pl", "ipa": "ˈfeːʁi̯ən" }, "noteZh": "只有复数形式(die 是复数冠词):die Sommerferien(暑假);上班族的休假叫 der Urlaub。" },
         { "id": "de.wieder", "kind": "word", "pos": "adv", "text": "wieder", "zh": "又;再次", "features": { "ipa": "ˈviːdɐ" }, "noteZh": "Ich bin wieder gesund.(我又健康了。)Auf Wiedersehen 里的 Wieder 就是它。" }
       ],
       "reviewItems": ["de.pruefung", "de.september", "de.jetzt", "de.fliegen"]

@@ -36,12 +36,12 @@
 | 7 购物与办事 | 买冬衣、开户、寄包裹、电话报名考试 | 问颜色和尺码、试穿、填表并拼读名字、寄包裹、电话约日期 | ihn / sie / es、finden + 形容词、zu(太)、Ihr、für / von / bis、春夏的月份 | 54 |
 | 8 健康与周末 | 爱好、天气、淋雨感冒、看医生、湖边周末、一年回顾 | 说爱好和天气、说哪里疼、看病买药、讲上周末做了什么 | Sie 的命令式和 müssen 复习、现在完成时(haben / sein + 分词)、war / hatte | 53 |
 
-**语法第一次出现的课**:人称代词 u1.l04(ich / du / Sie)→ u2.l02(er / sie)→ u2.l04(wir / ihr / sie)→ u3.l03(es)→ u7.l02(ihn);sein u1.l04、haben u2.l02;规则动词 u1.l03 → 全表 u2.l04;W-问句 u1.l03(wie / wo / woher)、u2.l02(wer)、u2.l04(was)、u5.l01(wann)、u6.l03(wohin)、u6.l05(welche)、u8.l05(warum);是非问句 u1.l04;ein / kein / nicht u3.l03;复数 u3.l02;第四格 u3.l05(einen)→ u4.l02(den);物主冠词 u2.l04 → u3.l05(unser)→ u7.l03(Ihr);情态动词 u4.l02(möchten)、u5.l04;可分动词 u5.l03;钟点 u5.l01;介词 + 第三格 u6.l02;Sie 的命令式 u6.l03;现在完成时 u8.l05。
+**语法第一次出现的课**:人称代词 u1.l03(ich / du)→ u1.l04(Sie)→ u2.l02(er / sie)→ u2.l04(wir / ihr / sie)→ u3.l03(es)→ u7.l02(ihn);sein u1.l04、haben u2.l02;规则动词 u1.l03 → 全表 u2.l04;W-问句 u1.l03(wie / wo / woher)、u2.l02(wer)、u2.l04(was)、u5.l01(wann)、u6.l03(wohin)、u6.l05(welche)、u8.l05(warum);是非问句 u1.l04;ein / kein / nicht u3.l03;复数 u3.l02;第四格 u3.l05(einen)→ u4.l02(den);物主冠词 u1.l02(mein / dein)→ u2.l04(sein / ihr,物主冠词语法)→ u3.l05(unser)→ u7.l03(Ihr);情态动词 u4.l02(möchten)、u5.l04;可分动词 u5.l03;钟点 u5.l01;介词 + 第三格 u6.l02;Sie 的命令式 u6.l03;现在完成时 u8.l05。
 
 ## 词汇量
 
 - 418 个词条:名词 190(都带冠词、性别、复数)、动词 59、形容词 35、副词 33、固定说法 29、数词 23、代词 13、介词 11、冠词类 9(ein、kein、mein …、welche)、感叹词 7、专有名词 6(国家、语言)、连词 3。
-- 新课每课 9–10 个新词,复习课 4 个,每课 2–4 个复习词;第 1、2 课是已写好的课,各 6 个新词,原样保留。
+- 新课每课 9–10 个新词,复习课 4 个,每课 2–4 个复习词;第 1 课 6 个新词。例外:mein / dein 提前到 u1.l02、ich / du 提前到 u1.l03(在 u2.l04、u1.l04 改当复习词),所以 u1.l02 / u1.l03 / u1.l04 / u2.l04 分别是 8 / 12 / 8 / 8 个新词,u1.l04、u2.l04 各 5 个复习词。
 - 新写的 406 个词条都有音标(标准德语,r 记作 [ʁ] / [ɐ̯]),385 个有 `noteZh`:发音要领、性和复数、和英语 / 中文的差别、文化小提示。
 - 覆盖歌德 A1(Start Deutsch 1)的话题:个人信息、家庭、职业、住房、饮食、购物、时间、出行、银行 / 邮局 / 表格、健康、天气、休闲;也对上考试任务:口语第一部分的自我介绍(u1.l08、u2.l08)、拼读名字(u7.l03)、听力里的电话和广播(u6.l04、u6.l05、u7.l05)、写作的填表和短信、邮件(u3.l08、u5.l08、u7.l03)。
 
@@ -49,7 +49,7 @@
 
 1. **新词和大纲一致**(校验会查):想加词、换词,先改大纲再写课,并告诉负责人。同一个词只教一次,后面的课放进 `reviewItems`。
 2. **只用学过的词**,`line.items` 要列全(复习词尤其要列)。下面这些不单立词条,直接用,items 标对应的词条:
-   - 冠词、变格和变位形式:der / die / das / den / dem 跟着名词走;bin / bist / ist → `de.sein`,meine / einen / keinen → `de.mein` / `de.ein` / `de.kein`;war / hatte(第 8 单元)→ `de.sein` / `de.haben`,过去分词 → 原动词。
+   - 冠词、变格和变位形式:der / die / das / den / dem 跟着名词走;bin / bist / ist → `de.sein`,meine / einen / keinen → `de.mein` / `de.ein` / `de.kein`(u3.l03 教 ein 之前,第 2 单元的 ein / eine / einen 当数字“一”标 `de.eins`,Ich habe einen Bruder 先当固定说法);war / hatte(第 8 单元)→ `de.sein` / `de.haben`,过去分词 → 原动词。
    - kommen、heißen 只有短语词条:du kommst、er heißt 标 `de.ich_komme_aus` / `de.ich_heisse`;aus 只用在 aus + 地名里。
    - 按规则组成的数(vierzehn、achtzig、einundzwanzig、vierhundertfünfzig):对应的数字课之后可以直接用,标组成它的数字词条。
    - 人名、地名(Berlin、Kreuzberg、Neukölln、Hamburg、Potsdam、Köln、Chengdu、Shanghai)。国家只用学过的 China / Deutschland / Italien。
@@ -69,12 +69,12 @@
    - u5.l08:生日祝福只在当天说(德国习俗)。u6.l02:第三格只用 dem / der 的固定搭配(mit dem Bus、zur Uni、an der Haltestelle),不展开变格表。u6.l04、u6.l05:广播句子短、信息全(站台、时间、晚点几分钟)。
    - u7.l02:ihn / sie / es 指衣服。u7.l03:中文名字的顺序和拼读(Name: Wang, Vorname: Wei)。
    - u8.l04:只写感冒这类轻症,不写药名,不做医疗建议。u8.l05:完成时只用学过的动词,用到的过去分词在语法说明里列出来。
-9. 第 1、2 课在大纲里原样保留,只补了场景和语法重点;第 2 课 `estimatedMinutes` 是 7(其余课 8–12),以后改那节课时可以顺手调整。
+9. 第 1、2 课已经按内容充实过(id 和原有新词不变,第 2 课加了 mein / dein);写好的课 `estimatedMinutes` 填按内容算出的时长。
 
 ## 和最初建议不同的地方
 
 - **数字**:已写好的第 2 课(家人)占了第 1 单元的位置,所以数字 0–20 挪到第 2 单元(u2.l01 报电话号码、u2.l03 年龄),20–1000 在第 3 单元(房租);第 1 单元改为多练“听不懂怎么办”(Wie bitte? / langsam / noch einmal)。
 - **月份和季节**:一课最多 10 个新词,12 个月放不进一课,按故事的时间分两次教(见上)。
 - **课号和顺序**:复习课 id 用 l08,order 按 id 算,和已写好的两课、英语和法语大纲保持一致。
-- **只有复数的名词**(die Eltern、die Geschwister、die Ferien):schema 的 gender 没有“复数”这一项,暂标 f 才能通过冠词检查,`noteZh` 里说明 die 是复数冠词。月份和不可数名词(Milch、Geld、Wetter …)的复数写 "-"。
+- **只有复数的名词**(die Eltern、die Geschwister、die Ferien):gender 标 "pl",不写 plural,`noteZh` 里说明 die 是复数冠词。月份和不可数名词(Milch、Geld、Wetter …)的复数写 "-"。
 - **不单立词条**:kommen / heißen(第 1 课已有短语)、war / hatte 和过去分词(当变位形式用)。

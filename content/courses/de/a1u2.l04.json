@@ -2,20 +2,18 @@
   "id": "de.a1u2.l04", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
   "unit": "A1-2 我的家人和朋友", "order": 102040,
   "titleZh": "我们一起学德语:动词变位和物主冠词", "goalZh": "掌握规则动词现在时的全部人称,会用 mein / dein / sein / ihr", "canDoZh": "能说“我们 / 你们 / 他们在做什么”,能说清楚“我的 / 你的 / 他的 / 她的”家人",
-  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 23,
   "newItems": [
     { "id": "de.wir", "kind": "word", "pos": "pron", "text": "wir", "zh": "我们", "features": { "ipa": "viːɐ̯" }, "noteZh": "动词和不定式一样:wir lernen, wir wohnen;w 读 [v]。" },
     { "id": "de.ihr", "kind": "word", "pos": "pron", "text": "ihr", "zh": "你们", "features": { "ipa": "iːɐ̯" }, "noteZh": "对几个朋友说“你们”:ihr lernt(动词加 -t);对几位不熟的人还是用 Sie。" },
     { "id": "de.sie_pl", "kind": "word", "pos": "pron", "text": "sie", "zh": "他们;她们;它们(复数)", "features": { "ipa": "ziː" }, "noteZh": "复数的“他们”也是 sie,动词和不定式一样:sie lernen;是“她”还是“他们”看动词词尾和上下文。" },
-    { "id": "de.mein", "kind": "word", "pos": "det", "text": "mein", "zh": "我的", "alt": ["meine"], "features": { "ipa": "maɪ̯n" }, "noteZh": "阳性、中性用 mein(mein Vater, mein Kind),阴性和复数用 meine(meine Mutter, meine Eltern)。" },
-    { "id": "de.dein", "kind": "word", "pos": "det", "text": "dein", "zh": "你的", "alt": ["deine"], "features": { "ipa": "daɪ̯n" }, "noteZh": "变化和 mein 一样:dein Bruder, deine Schwester。" },
     { "id": "de.sein_poss", "kind": "word", "pos": "det", "text": "sein", "zh": "他的;它的", "alt": ["seine"], "features": { "ipa": "zaɪ̯n" }, "noteZh": "和动词 sein(是)长得一样:sein Vater(他的爸爸),seine Schwester(他的姐妹)。" },
     { "id": "de.ihr_poss", "kind": "word", "pos": "det", "text": "ihr", "zh": "她的;他们的", "alt": ["ihre"], "features": { "ipa": "iːɐ̯" }, "noteZh": "ihr Mann(她的丈夫),ihre Eltern(她的 / 他们的父母);和 ihr(你们)同形,放在名词前面才是“她的”。" },
     { "id": "de.lernen", "kind": "word", "pos": "verb", "text": "lernen", "zh": "学习;学", "features": { "ipa": "ˈlɛʁnən" }, "noteZh": "规则动词的标准变化:ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen。" },
     { "id": "de.machen", "kind": "word", "pos": "verb", "text": "machen", "zh": "做;干", "features": { "ipa": "ˈmaxn̩" }, "noteZh": "Was machst du?(你在干什么?/你是做什么的?)ch 在 a 后读 [x]。" },
     { "id": "de.was", "kind": "word", "pos": "pron", "text": "was", "zh": "什么", "features": { "ipa": "vas" }, "noteZh": "Was machst du? / Was ist das?;不是英语的 was(是)。w 读 [v],a 是短音。" }
   ],
-  "reviewItems": ["de.wohnen", "de.sprechen", "de.haben"],
+  "reviewItems": ["de.wohnen", "de.sprechen", "de.haben", "de.mein", "de.dein"],
   "lines": [
     { "speaker": "lena", "text": "Hallo, ihr zwei! Was macht ihr?", "zh": "嗨,你们俩!你们在干什么?", "items": ["de.hallo", "de.ihr", "de.zwei", "de.was", "de.machen"] },
     { "speaker": "sofia", "text": "Wir lernen Deutsch. Und du, Lena? Was machst du?", "zh": "我们在学德语。你呢,莉娜?你在干什么?", "items": ["de.wir", "de.lernen", "de.deutsch", "de.und", "de.du", "de.was", "de.machen"] },

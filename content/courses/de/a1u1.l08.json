@@ -21,7 +21,7 @@
     { "speaker": "sofia", "text": "Ich heiße Sofia und komme aus Italien. Ich wohne auch in Berlin.", "zh": "我叫索菲娅,来自意大利。我也住在柏林。", "items": ["de.ich_heisse", "de.und", "de.ich_komme_aus", "de.italien", "de.ich", "de.wohnen", "de.auch", "de.in"] },
     { "speaker": "wagner", "text": "Sprechen Sie auch Englisch?", "zh": "您也会说英语吗?", "items": ["de.sprechen", "de.sie_hoeflich", "de.auch", "de.englisch"] },
     { "speaker": "sofia", "text": "Ja, ich spreche Englisch und Deutsch. Frau Wagner, woher kommen Sie?", "zh": "会,我会说英语和德语。瓦格纳老师,您是从哪里来的?", "items": ["de.ja", "de.ich", "de.sprechen", "de.englisch", "de.und", "de.deutsch", "de.frau", "de.woher", "de.ich_komme_aus", "de.sie_hoeflich"] },
-    { "speaker": "wagner", "text": "Ich komme aus Köln in Deutschland. Gut, auf Wiedersehen!", "zh": "我来自德国科隆。好,再见!", "items": ["de.ich_komme_aus", "de.in", "de.deutschland", "de.gut", "de.auf_wiedersehen"] },
+    { "speaker": "wagner", "text": "Ich komme aus Köln in Deutschland. Gut, auf Wiedersehen!", "zh": "我来自德国科隆。好,再见!", "items": ["de.ich_komme_aus", "de.ich", "de.in", "de.deutschland", "de.gut", "de.auf_wiedersehen"] },
     { "speaker": "wei", "text": "Auf Wiedersehen, Frau Wagner! Tschüss, Sofia!", "zh": "瓦格纳老师再见!再见,索菲娅!", "items": ["de.auf_wiedersehen", "de.frau", "de.tschuess"] }
   ],
   "questions": [

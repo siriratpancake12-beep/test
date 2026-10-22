@@ -17,15 +17,15 @@
   "reviewItems": ["de.bruder", "de.er", "de.sein"],
   "lines": [
     { "speaker": "wei", "text": "Zehn, elf, zwölf, dreizehn, vierzehn, fünfzehn, sechzehn, siebzehn, achtzehn, neunzehn, zwanzig.", "zh": "十、十一、十二、十三、十四、十五、十六、十七、十八、十九、二十。", "items": ["de.zehn", "de.elf", "de.zwoelf", "de.drei", "de.vier", "de.fuenf", "de.sechzehn", "de.siebzehn", "de.acht", "de.neun", "de.zwanzig"] },
-    { "speaker": "lena", "text": "Gut, Wei! Das ist mein Bruder Paul.", "zh": "很好,王伟!这是我弟弟保罗。", "items": ["de.gut", "de.das_ist", "de.bruder"] },
-    { "speaker": "paul", "text": "Hallo, Wei! Wie alt bist du?", "zh": "你好,王伟!你多大了?", "items": ["de.hallo", "de.wie_alt"] },
+    { "speaker": "lena", "text": "Gut, Wei! Das ist mein Bruder Paul.", "zh": "很好,王伟!这是我弟弟保罗。", "items": ["de.gut", "de.das_ist", "de.mein", "de.bruder"] },
+    { "speaker": "paul", "text": "Hallo, Wei! Wie alt bist du?", "zh": "你好,王伟!你多大了?", "items": ["de.hallo", "de.wie_alt", "de.du"] },
     { "speaker": "wei", "text": "Ich bin zwanzig Jahre alt. Und du?", "zh": "我二十岁。你呢?", "items": ["de.ich", "de.sein", "de.zwanzig", "de.jahr", "de.alt", "de.und", "de.du"] },
     { "speaker": "lena", "text": "Paul? Er ist zwölf!", "zh": "保罗?他十二岁!", "items": ["de.er", "de.sein", "de.zwoelf"] },
     { "speaker": "paul", "text": "Nein! Ich bin sechzehn. Lena ist auch zwanzig.", "zh": "才不是!我十六岁。莉娜也二十岁。", "items": ["de.nein", "de.ich", "de.sein", "de.sechzehn", "de.auch", "de.zwanzig"] },
     { "speaker": "wei", "text": "Wie bitte? Siebzehn?", "zh": "什么?十七?", "items": ["de.wie_bitte", "de.siebzehn"] },
-    { "speaker": "paul", "text": "Nein, sechzehn! Und wie alt ist deine Oma?", "zh": "不是,十六!那你奶奶多大了?", "items": ["de.nein", "de.sechzehn", "de.und", "de.wie", "de.alt", "de.sein", "de.oma"] },
+    { "speaker": "paul", "text": "Nein, sechzehn! Und wie alt ist deine Oma?", "zh": "不是,十六!那你奶奶多大了?", "items": ["de.nein", "de.sechzehn", "de.und", "de.wie", "de.alt", "de.sein", "de.dein", "de.oma"] },
     { "speaker": "lena", "text": "Paul, bitte!", "zh": "保罗,拜托!", "items": ["de.bitte"] },
-    { "speaker": "wei", "text": "Meine Oma? Sie ist alt!", "zh": "我奶奶?她年纪很大了!", "items": ["de.oma", "de.sie_sg", "de.sein", "de.alt"] }
+    { "speaker": "wei", "text": "Meine Oma? Sie ist alt!", "zh": "我奶奶?她年纪很大了!", "items": ["de.mein", "de.oma", "de.sie_sg", "de.sein", "de.alt"] }
   ],
   "questions": [
     { "prompt": "保罗几岁?", "options": ["12 岁", "16 岁", "17 岁", "20 岁"], "answer": 1, "explainZh": "保罗说 Ich bin sechzehn.(我十六岁。)“十二岁”是莉娜跟弟弟开玩笑;王伟听成了 siebzehn(十七)。" },

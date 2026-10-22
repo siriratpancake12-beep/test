@@ -2,23 +2,25 @@
   "id": "de.a1u1.l02", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
   "unit": "A1-1 你好,我是……", "order": 101020,
   "titleZh": "我的家人", "goalZh": "记住家人的叫法,连同冠词 der / die 一起记", "canDoZh": "能用德语介绍自己的家人",
-  "skills": ["listen", "read", "write"], "estimatedMinutes": 20,
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 22.5,
   "newItems": [
     { "id": "de.vater", "kind": "word", "pos": "noun", "text": "der Vater", "zh": "父亲;爸爸", "features": { "gender": "m", "plural": "die Väter", "ipa": "ˈfaːtɐ" }, "noteZh": "V 读 [f],和英语 father 很像;复数要变音:die Väter。口语里叫爸爸是 Papa。" },
     { "id": "de.mutter", "kind": "word", "pos": "noun", "text": "die Mutter", "zh": "母亲;妈妈", "features": { "gender": "f", "plural": "die Mütter", "ipa": "ˈmʊtɐ" }, "noteZh": "u 是短音;复数要变音:die Mütter。口语里叫妈妈是 Mama。" },
     { "id": "de.bruder", "kind": "word", "pos": "noun", "text": "der Bruder", "zh": "兄弟(哥哥或弟弟)", "features": { "gender": "m", "plural": "die Brüder", "ipa": "ˈbʁuːdɐ" }, "noteZh": "德语不分哥哥和弟弟,都是 Bruder;复数变音:die Brüder。词尾 -er 读得像轻轻的“啊”[ɐ]。" },
     { "id": "de.schwester", "kind": "word", "pos": "noun", "text": "die Schwester", "zh": "姐妹(姐姐或妹妹)", "features": { "gender": "f", "plural": "die Schwestern", "ipa": "ˈʃvɛstɐ" }, "noteZh": "不分姐姐和妹妹;sch 读 [ʃ](像“师”的声母),w 读 [v]。" },
     { "id": "de.kind", "kind": "word", "pos": "noun", "text": "das Kind", "zh": "孩子", "features": { "gender": "n", "plural": "die Kinder", "ipa": "kɪnt" }, "noteZh": "中性名词:das Kind,不管是男孩还是女孩;词尾 d 读 [t];复数 die Kinder。" },
-    { "id": "de.das_ist", "kind": "phrase", "pos": "phrase", "text": "Das ist", "zh": "这是……", "features": { "ipa": "das ɪst" }, "noteZh": "介绍人或东西:Das ist mein Vater.;提问时把 ist 放到最前面:Ist das deine Schwester?" }
+    { "id": "de.das_ist", "kind": "phrase", "pos": "phrase", "text": "Das ist", "zh": "这是……", "features": { "ipa": "das ɪst" }, "noteZh": "介绍人或东西:Das ist mein Vater.;提问时把 ist 放到最前面:Ist das deine Schwester?" },
+    { "id": "de.mein", "kind": "word", "pos": "det", "text": "mein", "zh": "我的", "alt": ["meine"], "features": { "ipa": "maɪ̯n" }, "noteZh": "阳性、中性用 mein(mein Vater, mein Kind),阴性和复数用 meine(meine Mutter, meine Eltern)。" },
+    { "id": "de.dein", "kind": "word", "pos": "det", "text": "dein", "zh": "你的", "alt": ["deine"], "features": { "ipa": "daɪ̯n" }, "noteZh": "变化和 mein 一样:dein Bruder, deine Schwester。" }
   ],
   "reviewItems": ["de.hallo"],
   "lines": [
-    { "speaker": "lena", "text": "Hallo! Ist das dein Bruder?", "zh": "你好!这是你哥哥吗?", "items": ["de.hallo", "de.das_ist", "de.bruder"] },
-    { "speaker": "wei", "text": "Das ist mein Vater!", "zh": "这是我爸爸!", "items": ["de.das_ist", "de.vater"] },
+    { "speaker": "lena", "text": "Hallo! Ist das dein Bruder?", "zh": "你好!这是你哥哥吗?", "items": ["de.hallo", "de.das_ist", "de.dein", "de.bruder"] },
+    { "speaker": "wei", "text": "Das ist mein Vater!", "zh": "这是我爸爸!", "items": ["de.das_ist", "de.mein", "de.vater"] },
     { "speaker": "lena", "text": "Guten Tag! Ich heiße Lena.", "zh": "您好!我叫莉娜。", "items": ["de.guten_tag", "de.ich_heisse"] },
-    { "speaker": "wei", "text": "Das ist meine Mutter.", "zh": "这是我妈妈。", "items": ["de.das_ist", "de.mutter"] },
+    { "speaker": "wei", "text": "Das ist meine Mutter.", "zh": "这是我妈妈。", "items": ["de.das_ist", "de.mein", "de.mutter"] },
     { "speaker": "lena", "text": "Guten Tag! Ich komme aus Berlin.", "zh": "您好!我是柏林人。", "items": ["de.guten_tag", "de.ich_komme_aus"] },
-    { "speaker": "wei", "text": "Das ist meine Schwester. Das Kind heißt Doudou.", "zh": "这是我姐姐。孩子叫豆豆。", "items": ["de.das_ist", "de.schwester", "de.kind", "de.ich_heisse"] },
+    { "speaker": "wei", "text": "Das ist meine Schwester. Das Kind heißt Doudou.", "zh": "这是我姐姐。孩子叫豆豆。", "items": ["de.das_ist", "de.mein", "de.schwester", "de.kind", "de.ich_heisse"] },
     { "speaker": "lena", "text": "Hallo! Hallo, Doudou!", "zh": "你好!你好,豆豆!", "items": ["de.hallo"] }
   ],
   "questions": [
