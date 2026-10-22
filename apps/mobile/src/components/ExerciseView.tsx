@@ -5,6 +5,8 @@ import { checkReorder, gradeItem, issueZh, type Exercise, type GradeResult, type
 import { say } from "../speech";
 import { color, s } from "../theme";
 import { Button } from "./Button";
+import { Recorder } from "./Recorder";
+import type { SpeakResult } from "./SpeakFeedback";
 
 interface Props {
   ex: Exercise;
@@ -25,6 +27,8 @@ export function ExerciseView({ ex, pack, item, onDone }: Props) {
     started.current = Date.now();
     setResult(null);
     if (ex.type === "listen-choose") say(ex.say, pack.locale);
+    // 跟读题先听一遍再录
+    if (ex.type === "speak") say(ex.text, pack.locale);
   }, [ex, pack.locale]);
 
   const finish = (verdict: Verdict, text: string, issues: Issue[] = []) => {
@@ -32,10 +36,11 @@ export function ExerciseView({ ex, pack, item, onDone }: Props) {
     // 计时到作答为止,看反馈的时间不算(否则"答得快"的判断不准)
     setResult({ verdict, text, issues, ms: Date.now() - started.current });
   };
+  const titles = ex.type === "speak" ? SPEAK_TITLE : TITLE;
   const feedback = result && (
     <View style={[s.card, { borderColor: result.verdict === "wrong" ? color.bad : result.verdict === "almost" ? color.warn : color.good }]}>
       <Text style={[s.h2, { color: result.verdict === "wrong" ? color.bad : result.verdict === "almost" ? color.warn : color.good }]}>
-        {result.verdict === "correct" ? "答对了" : result.verdict === "almost" ? "基本正确" : "再记一下"}
+        {titles[result.verdict]}
       </Text>
       {!!result.text && <Text style={s.body}>{result.text}</Text>}
       <Button title="继续" onPress={() => onDone({ verdict: result.verdict, ms: result.ms, issues: result.issues })} />
@@ -95,18 +100,26 @@ export function ExerciseView({ ex, pack, item, onDone }: Props) {
     case "reorder":
       return <Reorder ex={ex} pack={pack} result={result} onCheck={(ok) => finish(ok ? "correct" : "wrong", ok ? ex.zh : `正确顺序:${ex.answer.join(" ")}`)} feedback={feedback} />;
     case "speak":
+      // 跟读:听 → 录 → 回放对比;有服务器打分就按分数算对错,没有就学习者自己判断像不像
       return (
         <View style={{ gap: 12 }}>
-          <Text style={s.sub}>听一遍,然后大声跟读</Text>
+          <Text style={s.sub}>听一遍,录下你的跟读,再和标准发音比一比</Text>
           <Pressable onPress={() => say(ex.text, pack.locale)}><Text style={s.target}>{ex.text} 🔊</Text></Pressable>
           <Text style={s.sub}>{ex.zh}</Text>
           <Button ghost title="🐢 慢速再听" onPress={() => say(ex.text, pack.locale, true)} />
-          {/* 发音评测(录音 → 服务器打分)接入后替换成录音按钮 */}
-          {!result && <Button title="我读完了" onPress={() => finish("correct", "")} />}
+          <Recorder text={ex.text} locale={pack.locale} lang={pack.code} done={!!result} onResult={(r) => finish(r.verdict, speakNote(r))} />
           {feedback}
         </View>
       );
   }
+}
+
+const TITLE: Record<Verdict, string> = { correct: "答对了", almost: "基本正确", wrong: "再记一下" };
+const SPEAK_TITLE: Record<Verdict, string> = { correct: "读得很像!", almost: "差不多了", wrong: "多跟读几遍" };
+
+function speakNote(r: SpeakResult): string {
+  if (r.scored && r.score !== null) return `发音 ${r.score} 分。${r.score < 80 ? "红色、橙色的词多听几遍再读。" : "保持每天开口。"}`;
+  return r.verdict === "correct" ? "坚持每天开口,越读越像。" : "多听几遍标准发音,注意重音和语调,下次会更像。";
 }
 
 function describe(g: GradeResult): string {

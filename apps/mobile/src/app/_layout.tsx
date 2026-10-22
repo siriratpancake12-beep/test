@@ -16,6 +16,9 @@ export default function RootLayout() {
         <Stack.Screen name="review" options={{ title: "今日复习" }} />
         <Stack.Screen name="drill" options={{ title: "弱点专练" }} />
         <Stack.Screen name="report" options={{ title: "本周学习报告" }} />
+        <Stack.Screen name="checkpoint" options={{ title: "单元测评" }} />
+        <Stack.Screen name="certificate" options={{ title: "单元证书" }} />
+        <Stack.Screen name="tutor" options={{ title: "AI 对话练习" }} />
         <Stack.Screen name="legal" options={{ title: "协议" }} />
       </Stack>
     </StoreProvider>
