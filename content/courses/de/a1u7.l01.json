@@ -1,0 +1,45 @@
+{
+  "id": "de.a1u7.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107010,
+  "titleZh": "冬天来了:买衣服", "goalZh": "记住常见衣服的名称,会说需要买什么", "canDoZh": "能说出要买什么衣服,听懂店员“需要帮忙吗?”并回答",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "de.kaufhaus", "kind": "word", "pos": "noun", "text": "das Kaufhaus", "zh": "百货商场", "features": { "gender": "n", "plural": "die Kaufhäuser", "ipa": "ˈkaʊ̯fˌhaʊ̯s" }, "noteZh": "kaufen(买)+ Haus(房子)= 百货商场;复数变音:die Kaufhäuser;去商场:ins Kaufhaus gehen。" },
+    { "id": "de.kleidung", "kind": "word", "pos": "noun", "text": "die Kleidung", "zh": "衣服(统称)", "features": { "gender": "f", "plural": "-", "ipa": "ˈklaɪ̯dʊŋ" }, "noteZh": "衣服的统称,不可数,不说 eine Kleidung:Im Januar ist Kleidung billig.;具体的一件衣服说 die Jacke、die Hose ……" },
+    { "id": "de.helfen", "kind": "word", "pos": "verb", "text": "helfen", "zh": "帮助", "features": { "ipa": "ˈhɛlfn̩" }, "noteZh": "不规则:du hilfst, er hilft;店员常问 Kann ich Ihnen helfen?(需要帮忙吗?)helfen 后面的人用第三格(Ihnen、mir),先整句记住。" },
+    { "id": "de.jacke", "kind": "word", "pos": "noun", "text": "die Jacke", "zh": "夹克;外套", "features": { "gender": "f", "plural": "die Jacken", "ipa": "ˈjakə" }, "noteZh": "j 读 [j](像拼音的 y);复数 die Jacken;冬天的厚外套叫 die Winterjacke。" },
+    { "id": "de.hose", "kind": "word", "pos": "noun", "text": "die Hose", "zh": "裤子", "features": { "gender": "f", "plural": "die Hosen", "ipa": "ˈhoːzə" }, "noteZh": "一条裤子是单数:eine Hose(英语 trousers 是复数);两个元音之间的 s 读 [z]。" },
+    { "id": "de.pullover", "kind": "word", "pos": "noun", "text": "der Pullover", "zh": "毛衣;套头衫", "alt": ["der Pulli"], "features": { "gender": "m", "plural": "die Pullover", "ipa": "pʊˈloːvɐ" }, "noteZh": "口语常说 der Pulli;重音在 lo 上;复数不变:die Pullover。" },
+    { "id": "de.hemd", "kind": "word", "pos": "noun", "text": "das Hemd", "zh": "衬衫", "features": { "gender": "n", "plural": "die Hemden", "ipa": "hɛmt" }, "noteZh": "指带领子、带扣子的衬衫;词尾 d 读 [t];复数 die Hemden;T 恤是 das T-Shirt。" },
+    { "id": "de.schuh", "kind": "word", "pos": "noun", "text": "der Schuh", "zh": "鞋", "features": { "gender": "m", "plural": "die Schuhe", "ipa": "ʃuː" }, "noteZh": "鞋一般成双,平时多用复数 die Schuhe;h 不发音,u 读长音。" },
+    { "id": "de.warm", "kind": "word", "pos": "adj", "text": "warm", "zh": "暖和;温暖", "features": { "ipa": "vaʁm" }, "noteZh": "w 读 [v]:Die Jacke ist warm.(这件外套很暖和。)说天气:Es ist warm.;写法和英语一样,读音不同。" },
+    { "id": "de.kalt", "kind": "word", "pos": "adj", "text": "kalt", "zh": "冷", "features": { "ipa": "kalt" }, "noteZh": "说天气用 es 做主语:Es ist kalt.(天很冷。)反义词是 warm。" }
+  ],
+  "reviewItems": ["de.brauchen", "de.kaufen", "de.billig"],
+  "lines": [
+    { "speaker": "lena", "text": "Es ist sehr kalt, Wei. Deine Jacke ist nicht warm!", "zh": "天很冷,伟。你的外套不暖和!", "items": ["de.es", "de.sein", "de.sehr", "de.kalt", "de.dein", "de.jacke", "de.nicht", "de.warm"] },
+    { "speaker": "wei", "text": "Ja, ich brauche eine Jacke, einen Pullover und Schuhe.", "zh": "是啊,我需要一件外套、一件毛衣和一双鞋。", "items": ["de.ja", "de.ich", "de.brauchen", "de.ein", "de.jacke", "de.pullover", "de.und", "de.schuh"] },
+    { "speaker": "lena", "text": "Dann gehen wir ins Kaufhaus. Im Januar ist Kleidung billig!", "zh": "那我们去商场吧。一月份衣服便宜!", "items": ["de.dann", "de.gehen", "de.wir", "de.in", "de.kaufhaus", "de.januar", "de.sein", "de.kleidung", "de.billig"] },
+    { "speaker": "verkaeufer", "text": "Guten Tag! Kann ich Ihnen helfen?", "zh": "您好!需要帮忙吗?", "items": ["de.guten_tag", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
+    { "speaker": "wei", "text": "Ja, bitte. Ich brauche eine Jacke. Sie muss sehr warm sein.", "zh": "是的,麻烦您。我需要一件外套,要很暖和的。", "items": ["de.ja", "de.bitte", "de.ich", "de.brauchen", "de.ein", "de.jacke", "de.sie_sg", "de.muessen", "de.sehr", "de.warm", "de.sein"] },
+    { "speaker": "verkaeufer", "text": "Die Jacken sind hier. Die Pullover sind da links.", "zh": "外套都在这儿,毛衣在那边左手边。", "items": ["de.jacke", "de.sein", "de.hier", "de.pullover", "de.da", "de.links"] },
+    { "speaker": "lena", "text": "Brauchst du auch eine Hose?", "zh": "你也需要一条裤子吗?", "items": ["de.brauchen", "de.du", "de.auch", "de.ein", "de.hose"] },
+    { "speaker": "wei", "text": "Ja, eine Hose und zwei Hemden. Und ich möchte Schuhe kaufen.", "zh": "要,一条裤子和两件衬衫。我还想买鞋。", "items": ["de.ja", "de.ein", "de.hose", "de.und", "de.zwei", "de.hemd", "de.ich", "de.moechten", "de.schuh", "de.kaufen"] },
+    { "speaker": "verkaeufer", "text": "Die Hosen und Hemden sind hier. Schuhe gibt es da rechts.", "zh": "裤子和衬衫在这儿,鞋在那边右手边。", "items": ["de.hose", "de.und", "de.hemd", "de.sein", "de.hier", "de.schuh", "de.es_gibt", "de.da", "de.rechts"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜觉得王伟的外套怎么样?", "options": ["太贵了", "不够暖和", "太大了"], "answer": 1, "explainZh": "莉娜说:Deine Jacke ist nicht warm!(你的外套不暖和!)" },
+    { "prompt": "莉娜为什么说一月去商场买衣服好?", "options": ["一月衣服便宜", "商场离家很近", "一月有新款"], "answer": 0, "explainZh": "莉娜说:Im Januar ist Kleidung billig!(一月份衣服便宜!)德国一月有冬季打折。" },
+    { "prompt": "王伟要买几件衬衫?", "options": ["一件", "三件", "两件"], "answer": 2, "explainZh": "王伟说:eine Hose und zwei Hemden(一条裤子和两件衬衫)。Hemden 是 Hemd 的复数。" }
+  ],
+  "grammar": [
+    { "id": "de.g.kleidung_plural", "titleZh": "衣服的复数;一条裤子是 eine Hose",
+      "bodyZh": "复习复数:复数的冠词都是 die,词尾要一个一个记。本课的衣服:die Jacke → die Jacken、die Hose → die Hosen(加 -n);das Hemd → die Hemden(加 -en);der Schuh → die Schuhe(加 -e);der Pullover → die Pullover(不变);das Kaufhaus → die Kaufhäuser(变音再加 -er)。注意:一条裤子是单数 eine Hose,不像英语的 trousers 用复数;鞋一般成双,平时说复数 Schuhe。die Kleidung 是“衣服”的统称,不可数。说要买什么用 brauchen + 第四格:阳性的 ein 变 einen(einen Pullover),阴性、中性不变(eine Jacke, ein Hemd),复数不加冠词(Schuhe)。店员问 Kann ich Ihnen helfen?(需要帮忙吗?),可以回答 Ja, bitte.",
+      "examples": [
+        { "text": "Ich brauche eine Hose.", "zh": "我需要一条裤子。" },
+        { "text": "Die Jacken sind hier.", "zh": "外套(复数)都在这儿。" },
+        { "text": "Ich brauche einen Pullover und Schuhe.", "zh": "我需要一件毛衣和一双鞋。" }
+      ] }
+  ],
+  "review": "draft"
+}

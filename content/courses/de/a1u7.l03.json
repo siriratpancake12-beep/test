@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u7.l03", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107030,
+  "titleZh": "在银行开账户:填表", "goalZh": "会在银行说明来意,回答个人信息的问题,拼读自己的名字", "canDoZh": "能在银行、办事处用 Sie 回答个人信息(名字、地址、护照),能拼读自己的名字,能填好一张表",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.konto", "kind": "word", "pos": "noun", "text": "das Konto", "zh": "账户", "features": { "gender": "n", "plural": "die Konten", "ipa": "ˈkɔnto" }, "noteZh": "复数特殊:die Konten;开户:ein Konto eröffnen;在德国交房租、领工资都要用银行账户转账。" },
+    { "id": "de.geld", "kind": "word", "pos": "noun", "text": "das Geld", "zh": "钱", "features": { "gender": "n", "plural": "-", "ipa": "ɡɛlt" }, "noteZh": "不可数,没有复数:Ich habe kein Geld.;词尾 d 读 [t];Das kostet kein Geld. = 这不要钱。" },
+    { "id": "de.formular", "kind": "word", "pos": "noun", "text": "das Formular", "zh": "表格", "features": { "gender": "n", "plural": "die Formulare", "ipa": "fɔʁmuˈlaːɐ̯" }, "noteZh": "重音在最后的 lar 上;填表:ein Formular ausfüllen;歌德 A1 写作第一部分就是填表。" },
+    { "id": "de.ausfuellen", "kind": "word", "pos": "verb", "text": "ausfüllen", "zh": "填写(表格)", "features": { "ipa": "ˈaʊ̯sˌfʏlən" }, "noteZh": "可分动词:Ich fülle das Formular aus.;请别人填表:Bitte füllen Sie das Formular aus.;ü 读短音 [ʏ]。" },
+    { "id": "de.name", "kind": "word", "pos": "noun", "text": "der Name", "zh": "名字;姓名;姓", "features": { "gender": "m", "plural": "die Namen", "ipa": "ˈnaːmə" }, "noteZh": "表格上的 Name 常常指姓(也写 Nachname / Familienname),名写在 Vorname 一栏;Ihr Name, bitte?(请问您的姓名?)做宾语时加 -n:Ihren Namen。" },
+    { "id": "de.vorname", "kind": "word", "pos": "noun", "text": "der Vorname", "zh": "名(不含姓)", "features": { "gender": "m", "plural": "die Vornamen", "ipa": "ˈfoːɐ̯ˌnaːmə" }, "noteZh": "vor(前面)+ Name:德国人名在前、姓在后,所以名叫 Vorname;王伟填 Vorname: Wei,Name: Wang。" },
+    { "id": "de.buchstabieren", "kind": "word", "pos": "verb", "text": "buchstabieren", "zh": "拼读(字母)", "features": { "ipa": "buːxʃtaˈbiːʁən" }, "noteZh": "Können Sie das bitte buchstabieren?(您能拼一下吗?)中文名字常要一个字母一个字母地拼:W-A-N-G 读作 we-a-en-ge;-ieren 动词重音在 ie 上。" },
+    { "id": "de.adresse", "kind": "word", "pos": "noun", "text": "die Adresse", "zh": "地址", "features": { "gender": "f", "plural": "die Adressen", "ipa": "aˈdʁɛsə" }, "noteZh": "德国地址的顺序:街道 + 门牌号,邮编 + 城市,如 Musterstraße 12, 12345 Berlin(Muster- 是表格示例里常用的“某某”);拼写和英语 address 不同:一个 d、两个 s。" },
+    { "id": "de.pass", "kind": "word", "pos": "noun", "text": "der Pass", "zh": "护照", "features": { "gender": "m", "plural": "die Pässe", "ipa": "pas" }, "noteZh": "复数变音:die Pässe;外国人在德国办事常要出示护照;身份证是 der Ausweis。" },
+    { "id": "de.ihr_hoeflich", "kind": "word", "pos": "det", "text": "Ihr", "zh": "您的(礼貌)", "alt": ["Ihre"], "features": { "ipa": "iːɐ̯" }, "noteZh": "和 Sie 配套,永远大写:Ihr Name, Ihr Pass;阴性和复数加 -e:Ihre Adresse;小写的 ihr 是“她的、他们的”。" }
+  ],
+  "reviewItems": ["de.bank_geld", "de.strasse", "de.sie_hoeflich"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Tag! Ich brauche ein Konto. Meine Bank ist in China.", "zh": "您好!我需要开一个账户。我的银行在中国。", "items": ["de.guten_tag", "de.ich", "de.brauchen", "de.ein", "de.konto", "de.mein", "de.bank_geld", "de.sein", "de.in", "de.china"] },
+    { "speaker": "bankberaterin", "text": "Gern, dann füllen wir das Formular aus. Ihr Name, bitte?", "zh": "好的,那我们来填表。请问您的姓名?", "items": ["de.gern", "de.dann", "de.ausfuellen", "de.wir", "de.formular", "de.ihr_hoeflich", "de.name", "de.bitte"] },
+    { "speaker": "wei", "text": "Mein Name ist Wang, mein Vorname ist Wei.", "zh": "我姓王,名字叫伟。", "items": ["de.mein", "de.name", "de.sein", "de.vorname"] },
+    { "speaker": "bankberaterin", "text": "Wie bitte? Können Sie Ihren Namen bitte buchstabieren?", "zh": "什么?您能拼一下您的姓吗?", "items": ["de.wie_bitte", "de.koennen", "de.sie_hoeflich", "de.ihr_hoeflich", "de.name", "de.bitte", "de.buchstabieren"] },
+    { "speaker": "wei", "text": "Ja, gern: W-A-N-G.", "zh": "好的:W-A-N-G(读作 we-a-en-ge)。", "items": ["de.ja", "de.gern"] },
+    { "speaker": "bankberaterin", "text": "Danke. Und Ihre Adresse? In welcher Straße wohnen Sie?", "zh": "谢谢。您的地址呢?您住在哪条街?", "items": ["de.danke", "de.und", "de.ihr_hoeflich", "de.adresse", "de.in", "de.welche", "de.strasse", "de.wohnen", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Musterstraße 12. Hier ist mein Pass. Kostet das Konto Geld?", "zh": "Musterstraße 12 号。这是我的护照。开这个账户要钱吗?", "items": ["de.strasse", "de.zwoelf", "de.hier", "de.sein", "de.mein", "de.pass", "de.kosten", "de.konto", "de.geld"] },
+    { "speaker": "bankberaterin", "text": "Nein, das Konto kostet kein Geld. Vielen Dank, Herr Wang!", "zh": "不要钱,这个账户是免费的。非常感谢,王先生!", "items": ["de.nein", "de.konto", "de.kosten", "de.kein", "de.geld", "de.vielen_dank", "de.herr"] }
+  ],
+  "questions": [
+    { "prompt": "表格上的 Name 一栏,王伟应该写什么?", "options": ["Wei", "Wang", "Wang Wei"], "answer": 1, "explainZh": "王伟说:Mein Name ist Wang, mein Vorname ist Wei. 表格上的 Name 是姓,Vorname 才是名。" },
+    { "prompt": "开这个银行账户要花钱吗?", "options": ["要,每个月都要付钱", "课文里没说", "不要钱"], "answer": 2, "explainZh": "银行职员说:Nein, das Konto kostet kein Geld.(不要钱,这个账户是免费的。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.ihr_hoeflich", "titleZh": "Ihr Name, bitte?——“您的”Ihr / Ihre,还有拼名字",
+      "bodyZh": "Ihr(您的)和 Sie 配套,不管在句子哪里都大写:阳性、中性用 Ihr(Ihr Name, Ihr Pass, Ihr Konto),阴性和复数用 Ihre(Ihre Adresse)。做第四格宾语时阳性变 Ihren:Können Sie Ihren Namen buchstabieren?(Name 做宾语也要加 -n。)小写的 ihr 是“她的、他们的”,听起来一样,写的时候看大小写。表格上 Name 常常是“姓”,Vorname 才是“名”:王伟填 Name: Wang,Vorname: Wei——别把整个“Wang Wei”写进 Name。德国人常听不懂中文名字,要会用德语字母拼:W 读 [veː]、A 读 [aː]、N 读 [ɛn]、G 读 [ɡeː],和英语的字母读法不一样。",
+      "examples": [
+        { "text": "Wie ist Ihr Name?", "zh": "您叫什么名字?" },
+        { "text": "Wie ist Ihre Adresse?", "zh": "您的地址是什么?" }
+      ] }
+  ],
+  "review": "draft"
+}

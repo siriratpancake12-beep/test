@@ -1,0 +1,49 @@
+{
+  "id": "de.a1u7.l02", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107020,
+  "titleZh": "我觉得它很好看:颜色、尺码和 ihn / sie / es", "goalZh": "会说颜色和尺码,用 finden 评价衣服,用 ihn / sie / es 代替名词", "canDoZh": "能问有没有别的颜色和尺码,说衣服合不合身、好不好看,决定买哪一件",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.farbe", "kind": "word", "pos": "noun", "text": "die Farbe", "zh": "颜色", "features": { "gender": "f", "plural": "die Farben", "ipa": "ˈfaʁbə" }, "noteZh": "Welche Farbe?(什么颜色?)问有没有别的颜色:Haben Sie die Jacke auch in Blau?——in + 大写的颜色名。" },
+    { "id": "de.schwarz", "kind": "word", "pos": "adj", "text": "schwarz", "zh": "黑色的", "features": { "ipa": "ʃvaʁts" }, "noteZh": "sch 读 [ʃ],w 读 [v],z 读 [ts];放在 sein 后面不变:Die Jacke ist schwarz.;说“黑色款”用大写:in Schwarz。" },
+    { "id": "de.weiss", "kind": "word", "pos": "adj", "text": "weiß", "zh": "白色的", "features": { "ipa": "vaɪ̯s" }, "noteZh": "ß 读 [s],ei 读 [aɪ̯];和 ich weiß(我知道)写法一样。" },
+    { "id": "de.rot", "kind": "word", "pos": "adj", "text": "rot", "zh": "红色的", "features": { "ipa": "ʁoːt" }, "noteZh": "r 读小舌音,o 是长音;“红色款”:in Rot。" },
+    { "id": "de.blau", "kind": "word", "pos": "adj", "text": "blau", "zh": "蓝色的", "features": { "ipa": "blaʊ̯" }, "noteZh": "放在名词前面要加词尾(eine blaue Jacke,A2 细讲);A1 先用 Die Jacke ist blau. 和 die Jacke in Blau。" },
+    { "id": "de.groesse", "kind": "word", "pos": "noun", "text": "die Größe", "zh": "尺码;大小", "features": { "gender": "f", "plural": "die Größen", "ipa": "ˈɡʁøːsə" }, "noteZh": "Welche Größe haben Sie?(您穿多大号?)衣服常用 S / M / L;德国的数字尺码和鞋码和中国不一样,最好试穿。" },
+    { "id": "de.finden", "kind": "word", "pos": "verb", "text": "finden", "zh": "觉得;找到", "features": { "ipa": "ˈfɪndn̩" }, "noteZh": "问看法:Wie findest du die Jacke? – Ich finde sie schön.;也表示“找到”:Ich finde den Schlüssel nicht.;du findest, er findet(要加 e)。" },
+    { "id": "de.ihn", "kind": "word", "pos": "pron", "text": "ihn", "zh": "他;它(阳性第四格)", "features": { "ipa": "iːn" }, "noteZh": "阳性名词做宾语时用 ihn:Der Pullover? Ich nehme ihn.;阴性用 sie,中性用 es,复数用 sie;英语东西都用 it,德语要看名词的性。" },
+    { "id": "de.passen", "kind": "word", "pos": "verb", "text": "passen", "zh": "合适;合身", "features": { "ipa": "ˈpasn̩" }, "noteZh": "主语是衣服:Die Jacke passt gut.(这件外套很合身。)约时间时 Das passt. = 这个时间可以。" },
+    { "id": "de.zu_adv", "kind": "word", "pos": "adv", "text": "zu", "zh": "太(过于)", "features": { "ipa": "tsuː" }, "noteZh": "zu + 形容词 = 太……(不好、不合适):zu klein、zu teuer;夸奖要用 sehr(Sehr schön!),不能用 zu;和介词 zu(到……去)同形。" }
+  ],
+  "reviewItems": ["de.jacke", "de.pullover", "de.schoen", "de.teuer"],
+  "lines": [
+    { "speaker": "verkaeufer", "text": "Und? Passt die Jacke in Schwarz?", "zh": "怎么样?黑色这件合身吗?", "items": ["de.und", "de.passen", "de.jacke", "de.in", "de.schwarz"] },
+    { "speaker": "wei", "text": "Nein, sie ist zu klein. Haben Sie sie auch in Größe L?", "zh": "不合身,太小了。这件您有 L 号的吗?", "items": ["de.nein", "de.sie_sg", "de.sein", "de.zu_adv", "de.klein", "de.haben", "de.sie_hoeflich", "de.auch", "de.in", "de.groesse"] },
+    { "speaker": "verkaeufer", "text": "In L gibt es die Jacke nur in Blau oder Weiß.", "zh": "L 号的只有蓝色和白色。", "items": ["de.in", "de.es_gibt", "de.jacke", "de.nur", "de.blau", "de.oder", "de.weiss"] },
+    { "speaker": "lena", "text": "Die Jacke in Blau passt sehr gut! Wie findest du sie?", "zh": "蓝色这件很合身!你觉得怎么样?", "items": ["de.jacke", "de.in", "de.blau", "de.passen", "de.sehr", "de.gut", "de.wie", "de.finden", "de.du", "de.sie_sg"] },
+    { "speaker": "wei", "text": "Ich finde sie schön. Blau ist meine Farbe!", "zh": "我觉得它很好看。蓝色就是我的颜色!", "items": ["de.ich", "de.finden", "de.sie_sg", "de.schoen", "de.blau", "de.sein", "de.mein", "de.farbe"] },
+    { "speaker": "lena", "text": "Und der Pullover in Rot? Wie findest du ihn?", "zh": "那件红色的毛衣呢?你觉得怎么样?", "items": ["de.und", "de.pullover", "de.in", "de.rot", "de.wie", "de.finden", "de.du", "de.ihn"] },
+    { "speaker": "wei", "text": "Ich finde ihn auch schön, aber er ist zu teuer.", "zh": "我也觉得它好看,可是太贵了。", "items": ["de.ich", "de.finden", "de.ihn", "de.auch", "de.schoen", "de.aber", "de.er", "de.sein", "de.zu_adv", "de.teuer"] }
+  ],
+  "questions": [
+    { "prompt": "黑色的外套为什么不行?", "options": ["太贵了", "颜色不好看", "太小了"], "answer": 2, "explainZh": "王伟说:Nein, sie ist zu klein.(不合身,太小了。)sie 指 die Jacke。" },
+    { "prompt": "王伟为什么不买那件红毛衣?", "options": ["太贵了", "不好看", "不合身"], "answer": 0, "explainZh": "王伟说:Ich finde ihn auch schön, aber er ist zu teuer.(我也觉得它好看,可是太贵了。)ihn 和 er 都指 der Pullover。" }
+  ],
+  "grammar": [
+    { "id": "de.g.ihn_sie_es", "titleZh": "第四格代词:ihn / sie / es",
+      "bodyZh": "前面说过的东西再提到时用代词。做宾语(第四格)时:阳性 der Pullover → ihn,阴性 die Jacke → sie,中性 das Hemd → es,复数 die Schuhe → sie。只有阳性要变(主语 er → 宾语 ihn),和冠词 der → den、ein → einen 的变化是一回事。中文东西都说“它”,英语都说 it,德语要看名词的性:说毛衣只能用 ihn,不能说 Ich finde es schön,也不能说 Ich finde er schön。还要分清大写的 Sie(您)和小写的 sie(它、她):Haben Sie sie auch in Größe L?(这件您有 L 号的吗?)",
+      "examples": [
+        { "text": "Der Pullover? Ich nehme ihn.", "zh": "这件毛衣?我要了。" },
+        { "text": "Die Jacke? Ich finde sie schön.", "zh": "这件外套?我觉得它很好看。" },
+        { "text": "Das Hemd ist billig. Ich kaufe es.", "zh": "这件衬衫很便宜,我买了。" }
+      ] },
+    { "id": "de.g.finden_zu_passen", "titleZh": "Wie findest du …?——finden、zu(太)和 passen",
+      "bodyZh": "问看法:Wie findest du die Jacke?(你觉得这件外套怎么样?)回答:Ich finde sie schön.——finden 后面先放东西(第四格),再放形容词,形容词不变。zu + 形容词表示“太……”,一定是不好、不合适的意思:zu klein(太小,穿不了)、zu teuer(太贵,不买)。中文说“太好看了”是夸奖,德语这时要说 sehr schön,说 zu schön 反而奇怪。合不合身用 passen,主语是衣服:Die Jacke passt gut.(这件外套很合身。)颜色当名词用时首字母大写:die Jacke in Blau(蓝色那件)。",
+      "examples": [
+        { "text": "Wie findest du den Pullover?", "zh": "你觉得这件毛衣怎么样?" },
+        { "text": "Die Jacke ist zu klein.", "zh": "这件外套太小了。" },
+        { "text": "Die Jacke in Blau passt sehr gut.", "zh": "蓝色那件很合身。" }
+      ] }
+  ],
+  "review": "draft"
+}

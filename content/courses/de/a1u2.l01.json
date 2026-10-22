@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u2.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 我的家人和朋友", "order": 102010,
+  "titleZh": "数字 0–9:报手机号码", "goalZh": "会读、会听 0 到 9,能一位一位地报电话号码", "canDoZh": "能用德语报出自己的手机号码,也能听懂别人报的号码并记下来",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "de.null", "kind": "word", "pos": "num", "text": "null", "zh": "零", "features": { "ipa": "nʊl" }, "noteZh": "电话号码一般一位一位地读:null – eins – sieben – eins …;德国手机号以 015、016、017 开头。" },
+    { "id": "de.eins", "kind": "word", "pos": "num", "text": "eins", "zh": "一", "features": { "ipa": "aɪ̯ns" }, "noteZh": "数数、报号码说 eins;放在名词前面变成 ein / eine(ein Kind, eine Schwester)。" },
+    { "id": "de.zwei", "kind": "word", "pos": "num", "text": "zwei", "zh": "二", "alt": ["zwo"], "features": { "ipa": "tsvaɪ̯" }, "noteZh": "z 读 [ts](像“次”的声母)。打电话、报号码时为了不和 drei 听混,常说 zwo。" },
+    { "id": "de.drei", "kind": "word", "pos": "num", "text": "drei", "zh": "三", "features": { "ipa": "dʁaɪ̯" }, "noteZh": "r 一般读小舌音 [ʁ](喉咙后部轻轻摩擦);一开始发不好可以先用舌尖颤音。" },
+    { "id": "de.vier", "kind": "word", "pos": "num", "text": "vier", "zh": "四", "features": { "ipa": "fiːɐ̯" }, "noteZh": "v 读 [f]!(Vater、vier 都是);词尾的 r 读得像轻轻的“啊”。" },
+    { "id": "de.fuenf", "kind": "word", "pos": "num", "text": "fünf", "zh": "五", "features": { "ipa": "fʏnf" }, "noteZh": "ü:嘴唇撮圆像发 u,舌头放在发 i 的位置,接近拼音的 ü。" },
+    { "id": "de.sechs", "kind": "word", "pos": "num", "text": "sechs", "zh": "六", "features": { "ipa": "zɛks" }, "noteZh": "chs 读 [ks];s 在元音前读 [z]。" },
+    { "id": "de.sieben", "kind": "word", "pos": "num", "text": "sieben", "zh": "七", "features": { "ipa": "ˈziːbn̩" }, "noteZh": "s 在元音前读 [z],ie 读长音 [iː];词尾 -en 的 e 常常吞掉。17 是 siebzehn(去掉 en)。" },
+    { "id": "de.acht", "kind": "word", "pos": "num", "text": "acht", "zh": "八", "features": { "ipa": "axt" }, "noteZh": "ch 在 a 后读 [x],像拼音的 h。" },
+    { "id": "de.neun", "kind": "word", "pos": "num", "text": "neun", "zh": "九", "features": { "ipa": "nɔʏ̯n" }, "noteZh": "eu 读 [ɔʏ̯],和 Deutsch 一样。" }
+  ],
+  "reviewItems": ["de.wie_bitte", "de.noch_einmal", "de.langsam"],
+  "lines": [
+    { "speaker": "wagner", "text": "Null, eins, zwei, drei, vier, fünf, sechs, sieben, acht, neun.", "zh": "零、一、二、三、四、五、六、七、八、九。", "items": ["de.null", "de.eins", "de.zwei", "de.drei", "de.vier", "de.fuenf", "de.sechs", "de.sieben", "de.acht", "de.neun"] },
+    { "speaker": "wagner", "text": "Noch einmal, bitte!", "zh": "请再来一遍!", "items": ["de.noch_einmal", "de.bitte"] },
+    { "speaker": "sofia", "text": "Das ist null, eins, sieben, eins, drei, neun, zwei, null, null, vier, sieben.", "zh": "这是 0171 3920047。", "items": ["de.das_ist", "de.null", "de.eins", "de.sieben", "de.drei", "de.neun", "de.zwei", "de.vier"] },
+    { "speaker": "wei", "text": "Wie bitte? Langsam, bitte!", "zh": "什么?请慢一点!", "items": ["de.wie_bitte", "de.langsam", "de.bitte"] },
+    { "speaker": "sofia", "text": "Null, eins, sieben, eins. Drei, neun, zwei. Null, null, vier, sieben.", "zh": "0171,392,0047。", "items": ["de.null", "de.eins", "de.sieben", "de.drei", "de.neun", "de.zwei", "de.vier"] },
+    { "speaker": "wei", "text": "Drei, neun, drei?", "zh": "3、9、3?", "items": ["de.drei", "de.neun"] },
+    { "speaker": "sofia", "text": "Zwo! Drei, neun, zwo.", "zh": "是 2!3、9、2。", "items": ["de.zwei", "de.drei", "de.neun"] },
+    { "speaker": "wei", "text": "Danke! Null, eins, fünf, zwo, fünf, vier, fünf, neun, neun, drei, sieben, eins.", "zh": "谢谢!我的是 0152 54599371。", "items": ["de.danke", "de.null", "de.eins", "de.fuenf", "de.zwei", "de.vier", "de.neun", "de.drei", "de.sieben"] },
+    { "speaker": "sofia", "text": "Fünf, vier, fünf? Noch einmal, bitte!", "zh": "5、4、5?请再说一遍!", "items": ["de.fuenf", "de.vier", "de.noch_einmal", "de.bitte"] },
+    { "speaker": "wei", "text": "Fünf, vier, fünf, neun, neun, drei, sieben, eins.", "zh": "5、4、5、9、9、3、7、1。", "items": ["de.fuenf", "de.vier", "de.neun", "de.drei", "de.sieben", "de.eins"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅手机号码的最后两位是什么?", "options": ["74", "27", "47", "71"], "answer": 2, "explainZh": "索菲娅的号码是 0171 3920047,最后两位是 vier, sieben(4、7)。" },
+    { "prompt": "王伟把索菲娅说的哪个数字听成了 drei?", "options": ["neun", "zwei", "vier"], "answer": 1, "explainZh": "王伟问 Drei, neun, drei?,索菲娅纠正:Zwo! Drei, neun, zwo.——zwo 就是 zwei,报号码时这样说,不容易和 drei 听混。" },
+    { "prompt": "王伟的手机号码以哪几位开头?", "options": ["0152", "0171", "0176"], "answer": 0, "explainZh": "王伟说 null, eins, fünf, zwo …,就是 0152;0171 是索菲娅号码的开头。" }
+  ],
+  "grammar": [
+    { "id": "de.g.zahlen_0_9", "titleZh": "0–9 的发音和报电话号码",
+      "bodyZh": "几个要特别注意的发音:v 读 [f](vier),z 读 [ts](zwei),s 在元音前读 [z](sechs, sieben),ch 在 a 后读 [x](acht),ü 撮圆嘴唇发 i(fünf),eu 读 [ɔʏ̯](neun),ei 读 [aɪ̯](eins, zwei, drei)。德国人报电话号码一般一位一位地读,常常三四位一组停一下;报号码、打电话时 zwei 常说成 zwo,免得和 drei 听混。听不清就说 Wie bitte? / Noch einmal, bitte! / Langsam, bitte!;记下来以后,把没把握的几位再念一遍让对方确认(Fünf, vier, fünf?)。",
+      "examples": [ { "text": "Null, eins, sieben, eins.", "zh": "0171。" }, { "text": "Drei, neun, zwo.", "zh": "392。" } ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "de.a1u8.l03", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-8 健康与周末", "order": 108030,
+  "titleZh": "我头疼:身体部位", "goalZh": "记住常见的身体部位,会说哪里疼", "canDoZh": "能说出身体哪里疼、哪里不舒服",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "de.kopf", "kind": "word", "pos": "noun", "text": "der Kopf", "zh": "头", "features": { "gender": "m", "plural": "die Köpfe", "ipa": "kɔpf" }, "noteZh": "复数变音:die Köpfe;pf 两个音都要发出来;头疼:Mein Kopf tut weh. / Ich habe Kopfschmerzen.。" },
+    { "id": "de.bauch", "kind": "word", "pos": "noun", "text": "der Bauch", "zh": "肚子", "features": { "gender": "m", "plural": "die Bäuche", "ipa": "baʊ̯x" }, "noteZh": "au 读 [aʊ̯],ch 读 [x];复数变音:die Bäuche;肚子疼:Bauchschmerzen。" },
+    { "id": "de.ruecken", "kind": "word", "pos": "noun", "text": "der Rücken", "zh": "背;后背", "features": { "gender": "m", "plural": "die Rücken", "ipa": "ˈʁʏkn̩" }, "noteZh": "复数不变:die Rücken;ü 是短音;背疼:Rückenschmerzen。" },
+    { "id": "de.hals", "kind": "word", "pos": "noun", "text": "der Hals", "zh": "脖子;嗓子", "features": { "gender": "m", "plural": "die Hälse", "ipa": "hals" }, "noteZh": "既是“脖子”也是“嗓子”;嗓子疼:Halsschmerzen(感冒时最常说);复数变音:die Hälse。" },
+    { "id": "de.auge", "kind": "word", "pos": "noun", "text": "das Auge", "zh": "眼睛", "features": { "gender": "n", "plural": "die Augen", "ipa": "ˈaʊ̯ɡə" }, "noteZh": "复数 die Augen;au 读 [aʊ̯];Meine Augen sind rot.(我的眼睛红了。)" },
+    { "id": "de.hand", "kind": "word", "pos": "noun", "text": "die Hand", "zh": "手", "features": { "gender": "f", "plural": "die Hände", "ipa": "hant" }, "noteZh": "复数变音:die Hände;词尾 d 读 [t]。" },
+    { "id": "de.bein", "kind": "word", "pos": "noun", "text": "das Bein", "zh": "腿", "features": { "gender": "n", "plural": "die Beine", "ipa": "baɪ̯n" }, "noteZh": "das Bein 指整条腿;复数 die Beine;ei 读 [aɪ̯]。" },
+    { "id": "de.fuss", "kind": "word", "pos": "noun", "text": "der Fuß", "zh": "脚", "features": { "gender": "m", "plural": "die Füße", "ipa": "fuːs" }, "noteZh": "复数变音:die Füße;ß 读 [s];zu Fuß = 步行。" },
+    { "id": "de.wehtun", "kind": "word", "pos": "verb", "text": "wehtun", "zh": "疼", "features": { "ipa": "ˈveːˌtuːn" }, "noteZh": "可分:Mein Kopf tut weh.(我头疼。)复数主语用 tun:Meine Füße tun weh.;问:Was tut weh?;主语是疼的部位,不是“我”。" },
+    { "id": "de.schmerz", "kind": "word", "pos": "noun", "text": "der Schmerz", "zh": "疼痛", "features": { "gender": "m", "plural": "die Schmerzen", "ipa": "ʃmɛʁts" }, "noteZh": "常用复数,和身体部位组成复合词:Kopfschmerzen、Bauchschmerzen、Halsschmerzen;Ich habe Kopfschmerzen.(我头疼。)" }
+  ],
+  "reviewItems": ["de.fussball", "de.regen", "de.morgen_tageszeit"],
+  "lines": [
+    { "speaker": "sofia", "text": "Guten Morgen, Wei! Wie geht's?", "zh": "早上好,伟!你怎么样?", "items": ["de.guten_morgen", "de.wie_gehts"] },
+    { "speaker": "wei", "text": "Nicht gut. Heute Morgen tut alles weh.", "zh": "不太好。今天早上哪儿都疼。", "items": ["de.nicht", "de.gut", "de.heute", "de.morgen_tageszeit", "de.alles", "de.wehtun"] },
+    { "speaker": "sofia", "text": "Was tut weh?", "zh": "哪儿疼?", "items": ["de.was", "de.wehtun"] },
+    { "speaker": "wei", "text": "Mein Kopf tut weh, und mein Hals auch.", "zh": "我头疼,嗓子也疼。", "items": ["de.mein", "de.kopf", "de.wehtun", "de.und", "de.hals", "de.auch"] },
+    { "speaker": "sofia", "text": "Hast du auch Bauchschmerzen?", "zh": "你肚子也疼吗?", "items": ["de.haben", "de.du", "de.auch", "de.bauch", "de.schmerz"] },
+    { "speaker": "wei", "text": "Nein, aber ich habe Rückenschmerzen. Und meine Füße tun weh.", "zh": "肚子不疼,可是我背疼,脚也疼。", "items": ["de.nein", "de.aber", "de.ich", "de.haben", "de.ruecken", "de.schmerz", "de.und", "de.mein", "de.fuss", "de.wehtun"] },
+    { "speaker": "sofia", "text": "Fußball im Regen ist nicht gut für dich!", "zh": "下雨天踢足球对你可不好!", "items": ["de.fussball", "de.in", "de.regen", "de.sein", "de.nicht", "de.gut", "de.fuer", "de.du"] },
+    { "speaker": "wei", "text": "Ja. Und meine Beine und Hände tun auch weh.", "zh": "是啊。我的腿和手也疼。", "items": ["de.ja", "de.und", "de.mein", "de.bein", "de.hand", "de.wehtun", "de.auch"] },
+    { "speaker": "sofia", "text": "Deine Augen sind rot. Heute gehst du nicht zur Uni!", "zh": "你眼睛都红了。今天别去学校了!", "items": ["de.dein", "de.auge", "de.sein", "de.rot", "de.heute", "de.gehen", "de.du", "de.nicht", "de.zu", "de.uni"] },
+    { "speaker": "wei", "text": "Gut, ich bin heute zu Hause.", "zh": "好吧,我今天待在家里。", "items": ["de.gut", "de.ich", "de.sein", "de.heute", "de.zu_hause"] }
+  ],
+  "questions": [
+    { "prompt": "王伟哪里不疼?", "options": ["头", "脚", "肚子"], "answer": 2, "explainZh": "索菲娅问 Hast du auch Bauchschmerzen?(你肚子也疼吗?)王伟回答 Nein(不疼)。" },
+    { "prompt": "索菲娅让王伟今天怎么做?", "options": ["去上课", "待在家里", "去踢足球"], "answer": 1, "explainZh": "索菲娅说:Heute gehst du nicht zur Uni!(今天别去学校了!)王伟说:Gut, ich bin heute zu Hause.(好吧,我今天待在家里。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.wehtun_schmerzen", "titleZh": "说哪里疼:… tut weh / … tun weh / …schmerzen",
+      "bodyZh": "德语说“哪里疼”,主语是身体部位:Mein Kopf tut weh.(我头疼,字面是“我的头疼”),不能说 Ich tue weh。wehtun 是可分动词,weh 放句末;主语是复数时动词用 tun:Meine Füße tun weh.。问:Was tut weh?(哪儿疼?)另一种说法是 haben + 复合词:Kopf + Schmerzen = Kopfschmerzen,Ich habe Kopfschmerzen / Halsschmerzen / Bauchschmerzen / Rückenschmerzen;复合词的性看最后一个词,这里用复数 Schmerzen,不加冠词。身体部位的复数要记牢:die Augen、die Hände、die Beine、die Füße。",
+      "examples": [
+        { "text": "Mein Kopf tut weh.", "zh": "我头疼。" },
+        { "text": "Meine Füße tun weh.", "zh": "我脚疼。" },
+        { "text": "Ich habe Kopfschmerzen.", "zh": "我头疼。" },
+        { "text": "Hast du Halsschmerzen?", "zh": "你嗓子疼吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

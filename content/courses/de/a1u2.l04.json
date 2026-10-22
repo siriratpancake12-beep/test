@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u2.l04", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-2 我的家人和朋友", "order": 102040,
+  "titleZh": "我们一起学德语:动词变位和物主冠词", "goalZh": "掌握规则动词现在时的全部人称,会用 mein / dein / sein / ihr", "canDoZh": "能说“我们 / 你们 / 他们在做什么”,能说清楚“我的 / 你的 / 他的 / 她的”家人",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.wir", "kind": "word", "pos": "pron", "text": "wir", "zh": "我们", "features": { "ipa": "viːɐ̯" }, "noteZh": "动词和不定式一样:wir lernen, wir wohnen;w 读 [v]。" },
+    { "id": "de.ihr", "kind": "word", "pos": "pron", "text": "ihr", "zh": "你们", "features": { "ipa": "iːɐ̯" }, "noteZh": "对几个朋友说“你们”:ihr lernt(动词加 -t);对几位不熟的人还是用 Sie。" },
+    { "id": "de.sie_pl", "kind": "word", "pos": "pron", "text": "sie", "zh": "他们;她们;它们(复数)", "features": { "ipa": "ziː" }, "noteZh": "复数的“他们”也是 sie,动词和不定式一样:sie lernen;是“她”还是“他们”看动词词尾和上下文。" },
+    { "id": "de.mein", "kind": "word", "pos": "det", "text": "mein", "zh": "我的", "alt": ["meine"], "features": { "ipa": "maɪ̯n" }, "noteZh": "阳性、中性用 mein(mein Vater, mein Kind),阴性和复数用 meine(meine Mutter, meine Eltern)。" },
+    { "id": "de.dein", "kind": "word", "pos": "det", "text": "dein", "zh": "你的", "alt": ["deine"], "features": { "ipa": "daɪ̯n" }, "noteZh": "变化和 mein 一样:dein Bruder, deine Schwester。" },
+    { "id": "de.sein_poss", "kind": "word", "pos": "det", "text": "sein", "zh": "他的;它的", "alt": ["seine"], "features": { "ipa": "zaɪ̯n" }, "noteZh": "和动词 sein(是)长得一样:sein Vater(他的爸爸),seine Schwester(他的姐妹)。" },
+    { "id": "de.ihr_poss", "kind": "word", "pos": "det", "text": "ihr", "zh": "她的;他们的", "alt": ["ihre"], "features": { "ipa": "iːɐ̯" }, "noteZh": "ihr Mann(她的丈夫),ihre Eltern(她的 / 他们的父母);和 ihr(你们)同形,放在名词前面才是“她的”。" },
+    { "id": "de.lernen", "kind": "word", "pos": "verb", "text": "lernen", "zh": "学习;学", "features": { "ipa": "ˈlɛʁnən" }, "noteZh": "规则动词的标准变化:ich lerne, du lernst, er lernt, wir lernen, ihr lernt, sie lernen。" },
+    { "id": "de.machen", "kind": "word", "pos": "verb", "text": "machen", "zh": "做;干", "features": { "ipa": "ˈmaxn̩" }, "noteZh": "Was machst du?(你在干什么?/你是做什么的?)ch 在 a 后读 [x]。" },
+    { "id": "de.was", "kind": "word", "pos": "pron", "text": "was", "zh": "什么", "features": { "ipa": "vas" }, "noteZh": "Was machst du? / Was ist das?;不是英语的 was(是)。w 读 [v],a 是短音。" }
+  ],
+  "reviewItems": ["de.wohnen", "de.sprechen", "de.haben"],
+  "lines": [
+    { "speaker": "lena", "text": "Hallo, ihr zwei! Was macht ihr?", "zh": "嗨,你们俩!你们在干什么?", "items": ["de.hallo", "de.ihr", "de.zwei", "de.was", "de.machen"] },
+    { "speaker": "sofia", "text": "Wir lernen Deutsch. Und du, Lena? Was machst du?", "zh": "我们在学德语。你呢,莉娜?你在干什么?", "items": ["de.wir", "de.lernen", "de.deutsch", "de.und", "de.du", "de.was", "de.machen"] },
+    { "speaker": "lena", "text": "Ich lerne Chinesisch. Wei, ist das deine Schwester?", "zh": "我在学中文。王伟,这是你姐姐吗?", "items": ["de.ich", "de.lernen", "de.chinesisch", "de.das_ist", "de.dein", "de.schwester"] },
+    { "speaker": "wei", "text": "Ja, das ist meine Schwester. Und das ist ihr Mann.", "zh": "对,这是我姐姐。这是她丈夫。", "items": ["de.ja", "de.das_ist", "de.mein", "de.schwester", "de.und", "de.ihr_poss", "de.mann"] },
+    { "speaker": "sofia", "text": "Seine Schwester und ihr Mann haben ein Kind.", "zh": "他姐姐和姐夫有一个孩子。", "items": ["de.sein_poss", "de.schwester", "de.und", "de.ihr_poss", "de.mann", "de.haben", "de.eins", "de.kind"] },
+    { "speaker": "lena", "text": "Wo wohnen sie? Sprechen sie Deutsch?", "zh": "他们住在哪儿?他们会说德语吗?", "items": ["de.wo", "de.wohnen", "de.sie_pl", "de.sprechen", "de.deutsch"] },
+    { "speaker": "wei", "text": "Sie wohnen in Shanghai. Sie sprechen Chinesisch und Englisch.", "zh": "他们住在上海。他们说中文和英语。", "items": ["de.sie_pl", "de.wohnen", "de.in", "de.sprechen", "de.chinesisch", "de.und", "de.englisch"] }
+  ],
+  "questions": [
+    { "prompt": "王伟和索菲娅在做什么?", "options": ["学中文", "学德语", "打电话"], "answer": 1, "explainZh": "索菲娅说:Wir lernen Deutsch.(我们在学德语。)" },
+    { "prompt": "莉娜在学什么?", "options": ["中文", "德语", "意大利语"], "answer": 0, "explainZh": "莉娜说:Ich lerne Chinesisch.(我在学中文。)" },
+    { "prompt": "王伟的姐姐和姐夫说什么语言?", "options": ["德语和英语", "中文和德语", "中文和英语"], "answer": 2, "explainZh": "王伟说:Sie sprechen Chinesisch und Englisch.——这里的 sie 是“他们”,所以动词是 sprechen。" }
+  ],
+  "grammar": [
+    { "id": "de.g.praesens", "titleZh": "规则动词现在时:全部人称",
+      "bodyZh": "规则动词去掉 -en 得到词干(lern-、mach-、wohn-),再按人称加词尾:\nich lerne · du lernst · er / sie lernt\nwir lernen · ihr lernt · sie / Sie lernen\nwir、sie(他们)、Sie(您)的动词都和原形一样;ihr(你们)和 er / sie 一样加 -t。sie 有三个意思:她(sie lernt)、他们(sie lernen)、您(Sie lernen,永远大写)——看动词词尾和大小写来分。中文“我学、我们学”动词不变,英语只有 he / she 加 -s,德语几乎每个人称都不一样,要多练。",
+      "examples": [ { "text": "Was macht ihr? – Wir lernen Deutsch.", "zh": "你们在干什么?——我们在学德语。" }, { "text": "Sie wohnen in Shanghai.", "zh": "他们住在上海。" } ] },
+    { "id": "de.g.possessiv", "titleZh": "物主冠词:mein / dein / sein / ihr",
+      "bodyZh": "我的 mein、你的 dein、他的 sein、她的 ihr。后面是阳性、中性名词时用原形(mein Vater, sein Kind),阴性和复数名词加 -e(meine Schwester, ihre Eltern)。要先想清楚“是谁的”:王伟的姐姐 = seine Schwester(他的),王伟姐姐的丈夫 = ihr Mann(她的)。中文“他的、她的”读音一样,德语 sein 和 ihr 完全不同,很容易用错。ihr 还有“你们”的意思(Was macht ihr?),放在名词前面才是“她的”。",
+      "examples": [ { "text": "Das ist meine Schwester, und das ist ihr Mann.", "zh": "这是我姐姐,这是她丈夫。" }, { "text": "Seine Schwester wohnt in Shanghai.", "zh": "他姐姐住在上海。" } ] }
+  ],
+  "review": "draft"
+}

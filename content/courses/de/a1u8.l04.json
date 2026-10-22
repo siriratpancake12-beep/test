@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u8.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 健康与周末", "order": 108040,
+  "titleZh": "在诊所:看医生", "goalZh": "会在诊所前台约时间、跟医生说症状,听懂医生的建议", "canDoZh": "能在诊所说出自己哪里不舒服、病了几天,听懂医生的建议(吃药、多睡觉、多喝水)",
+  "skills": ["listen", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.krank", "kind": "word", "pos": "adj", "text": "krank", "zh": "生病的;病了", "features": { "ipa": "kʁaŋk" }, "noteZh": "Ich bin krank.(我病了。)用 sein;医院是 das Krankenhaus。" },
+    { "id": "de.schlecht", "kind": "word", "pos": "adj", "text": "schlecht", "zh": "坏;差;不舒服", "features": { "ipa": "ʃlɛçt" }, "noteZh": "Mir geht es schlecht.(我不舒服。)注意:Mir ist schlecht. 是“我恶心想吐”;ch 读 [ç]。" },
+    { "id": "de.fieber", "kind": "word", "pos": "noun", "text": "das Fieber", "zh": "发烧", "features": { "gender": "n", "plural": "-", "ipa": "ˈfiːbɐ" }, "noteZh": "Ich habe Fieber.(我发烧了。)用 haben + 名词,不加冠词。" },
+    { "id": "de.erkaeltung", "kind": "word", "pos": "noun", "text": "die Erkältung", "zh": "感冒", "features": { "gender": "f", "plural": "die Erkältungen", "ipa": "ɛɐ̯ˈkɛltʊŋ" }, "noteZh": "Ich habe eine Erkältung. / Ich bin erkältet.;流感是 die Grippe;-ung 结尾是阴性。" },
+    { "id": "de.praxis", "kind": "word", "pos": "noun", "text": "die Praxis", "zh": "诊所", "features": { "gender": "f", "plural": "die Praxen", "ipa": "ˈpʁaksɪs" }, "noteZh": "复数 die Praxen;在德国生病一般先打电话约家庭医生的诊所(Praxis),不直接去医院;接电话常说 Praxis Dr. …。" },
+    { "id": "de.tablette", "kind": "word", "pos": "noun", "text": "die Tablette", "zh": "药片", "features": { "gender": "f", "plural": "die Tabletten", "ipa": "taˈblɛtə" }, "noteZh": "吃药用 nehmen:eine Tablette nehmen(不说 essen);重音在 blet 上。" },
+    { "id": "de.schlafen", "kind": "word", "pos": "verb", "text": "schlafen", "zh": "睡觉", "features": { "ipa": "ˈʃlaːfn̩" }, "noteZh": "不规则:du schläfst, er schläft;Schlafen Sie viel!(多睡觉!)" },
+    { "id": "de.muede", "kind": "word", "pos": "adj", "text": "müde", "zh": "累;困", "features": { "ipa": "ˈmyːdə" }, "noteZh": "Ich bin müde.(我累了 / 困了。)ü 是长音。" },
+    { "id": "de.viel", "kind": "word", "pos": "adv", "text": "viel", "zh": "多;很多", "features": { "ipa": "fiːl" }, "noteZh": "v 读 [f];viel + 名词不加冠词:viel Tee、viel Wasser;Vielen Dank 里的 Vielen 就是它。" },
+    { "id": "de.gute_besserung", "kind": "phrase", "pos": "phrase", "text": "Gute Besserung!", "zh": "早日康复!", "features": { "ipa": "ˈɡuːtə ˈbɛsəʁʊŋ" }, "noteZh": "对生病的人说;回答 Danke!;Besserung 来自 besser(更好)。" }
+  ],
+  "reviewItems": ["de.aerztin", "de.apotheke", "de.wehtun", "de.muessen"],
+  "lines": [
+    { "speaker": "arzthelferin", "text": "Praxis Dr. Neumann, guten Morgen!", "zh": "诺伊曼医生诊所,早上好!", "items": ["de.praxis", "de.guten_morgen"] },
+    { "speaker": "wei", "text": "Guten Morgen, hier ist Wei Wang. Ich bin krank und habe Fieber.", "zh": "早上好,我是王伟。我病了,在发烧。", "items": ["de.guten_morgen", "de.hier", "de.sein", "de.ich", "de.krank", "de.und", "de.haben", "de.fieber"] },
+    { "speaker": "arzthelferin", "text": "Kommen Sie bitte um 10 Uhr. Dann hat die Ärztin Zeit.", "zh": "请您 10 点过来,那时医生有空。", "items": ["de.ich_komme_aus", "de.sie_hoeflich", "de.bitte", "de.um", "de.zehn", "de.uhr", "de.dann", "de.haben", "de.aerztin", "de.zeit"] },
+    { "speaker": "aerztin", "text": "Guten Tag, Herr Wang. Wie geht es Ihnen?", "zh": "您好,王先生。您感觉怎么样?", "items": ["de.guten_tag", "de.herr", "de.wie_gehts", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Mir geht es schlecht. Mein Hals tut weh, und ich bin müde.", "zh": "我很不舒服。嗓子疼,而且很累。", "items": ["de.ich", "de.gehen", "de.es", "de.schlecht", "de.mein", "de.hals", "de.wehtun", "de.und", "de.sein", "de.muede"] },
+    { "speaker": "aerztin", "text": "Das ist nur eine Erkältung. Trinken Sie viel Tee und schlafen Sie viel!", "zh": "只是感冒。多喝茶,多睡觉!", "items": ["de.das_ist", "de.nur", "de.ein", "de.erkaeltung", "de.trinken", "de.sie_hoeflich", "de.viel", "de.tee", "de.und", "de.schlafen"] },
+    { "speaker": "wei", "text": "Muss ich auch Tabletten nehmen?", "zh": "我还得吃药吗?", "items": ["de.muessen", "de.ich", "de.auch", "de.tablette", "de.nehmen"] },
+    { "speaker": "aerztin", "text": "Ja, die Tabletten gibt es in der Apotheke. Gute Besserung!", "zh": "要,药在药店拿。祝您早日康复!", "items": ["de.ja", "de.tablette", "de.es_gibt", "de.in", "de.apotheke", "de.gute_besserung"] }
+  ],
+  "questions": [
+    { "prompt": "医生说王伟怎么了?", "options": ["只是感冒", "吃坏了肚子", "踢球伤了腿"], "answer": 0, "explainZh": "医生说:Das ist nur eine Erkältung.(只是感冒。)" },
+    { "prompt": "王伟几点去看医生?", "options": ["9 点", "10 点", "12 点"], "answer": 1, "explainZh": "前台说:Kommen Sie bitte um 10 Uhr.(请您 10 点过来。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.arzt_imperativ", "titleZh": "看病:Sie 的命令式、müssen 和“我不舒服”",
+      "bodyZh": "医生提建议常用 Sie 的命令式:动词放句首 + Sie,句末用感叹号:Trinken Sie viel Tee! Schlafen Sie viel!——词序和问句 Trinken Sie Tee?(您喝茶吗?)一样,靠语调和标点区分。问“我得……吗”用 müssen,另一个动词放句末:Muss ich Tabletten nehmen?(吃药用 nehmen,不用 essen。)说身体状况:Mir geht es schlecht.(我不舒服;mir 是 ich 的第三格,不能说 Ich gehe schlecht);Ich bin krank / müde.(sein + 形容词);Ich habe Fieber / eine Erkältung.(中文说“我发烧了”,德语用 haben + 名词)。viel + 名词表示“很多”,不加冠词:viel Tee、viel Wasser。",
+      "examples": [
+        { "text": "Trinken Sie viel Wasser!", "zh": "多喝水!" },
+        { "text": "Sie müssen viel schlafen.", "zh": "您得多睡觉。" }
+      ] }
+  ],
+  "review": "draft"
+}

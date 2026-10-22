@@ -1,0 +1,46 @@
+{
+  "id": "de.a1u8.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-8 健康与周末", "order": 108010,
+  "titleZh": "爱好:你周末喜欢做什么?", "goalZh": "会说自己的爱好和多久做一次", "canDoZh": "能说出自己的爱好、多久做一次,也能问别人的爱好",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.hobby", "kind": "word", "pos": "noun", "text": "das Hobby", "zh": "爱好", "features": { "gender": "n", "plural": "die Hobbys", "ipa": "ˈhɔbi" }, "noteZh": "复数 die Hobbys(不是 Hobbies);Was ist dein Hobby?(你的爱好是什么?)" },
+    { "id": "de.oft", "kind": "word", "pos": "adv", "text": "oft", "zh": "经常", "features": { "ipa": "ɔft" }, "noteZh": "放在变位动词后面:Ich spiele oft Fußball.;频率从高到低:immer(总是)> oft(经常)> manchmal(有时)> nie(从不)。" },
+    { "id": "de.spielen", "kind": "word", "pos": "verb", "text": "spielen", "zh": "玩;踢(球);弹(琴)", "features": { "ipa": "ˈʃpiːlən" }, "noteZh": "球类、游戏、乐器都用 spielen:Fußball spielen(踢足球)、Gitarre spielen(弹吉他);sp 在词首读 [ʃp]。" },
+    { "id": "de.fussball", "kind": "word", "pos": "noun", "text": "der Fußball", "zh": "足球", "features": { "gender": "m", "plural": "die Fußbälle", "ipa": "ˈfuːsˌbal" }, "noteZh": "踢足球:Fußball spielen(不加冠词);ß 读 [s];复数 die Fußbälle 指几个球。" },
+    { "id": "de.schwimmen", "kind": "word", "pos": "verb", "text": "schwimmen", "zh": "游泳", "features": { "ipa": "ˈʃvɪmən" }, "noteZh": "Ich schwimme gern.;去游泳:schwimmen gehen;w 读 [v]。" },
+    { "id": "de.lesen", "kind": "word", "pos": "verb", "text": "lesen", "zh": "读;看(书)", "features": { "ipa": "ˈleːzn̩" }, "noteZh": "不规则:du liest, er liest(e 变 ie);看书、看报都用 lesen。" },
+    { "id": "de.buch", "kind": "word", "pos": "noun", "text": "das Buch", "zh": "书", "features": { "gender": "n", "plural": "die Bücher", "ipa": "buːx" }, "noteZh": "复数变音:die Bücher;ch 在 u 后面读 [x]。" },
+    { "id": "de.hoeren", "kind": "word", "pos": "verb", "text": "hören", "zh": "听", "features": { "ipa": "ˈhøːʁən" }, "noteZh": "Musik hören(听音乐);ö 是长音 [øː]。" },
+    { "id": "de.musik", "kind": "word", "pos": "noun", "text": "die Musik", "zh": "音乐", "features": { "gender": "f", "plural": "-", "ipa": "muˈziːk" }, "noteZh": "重音在后面的 sik 上:mu-SIK,和英语不同;不可数。" },
+    { "id": "de.sehen", "kind": "word", "pos": "verb", "text": "sehen", "zh": "看;看见", "features": { "ipa": "ˈzeːən" }, "noteZh": "不规则:du siehst, er sieht;einen Film sehen(看电影);第二个音节前的 h 不发音。" }
+  ],
+  "reviewItems": ["de.gern", "de.wochenende", "de.film"],
+  "lines": [
+    { "speaker": "paul", "text": "Was macht ihr am Wochenende gern?", "zh": "你们周末喜欢做什么?", "items": ["de.was", "de.machen", "de.ihr", "de.am", "de.wochenende", "de.gern"] },
+    { "speaker": "jonas", "text": "Ich spiele oft Fußball. Fußball ist mein Hobby!", "zh": "我经常踢足球。足球就是我的爱好!", "items": ["de.ich", "de.spielen", "de.oft", "de.fussball", "de.sein", "de.mein", "de.hobby"] },
+    { "speaker": "paul", "text": "Ich spiele auch gern Fußball. Und du, Lena?", "zh": "我也喜欢踢足球。你呢,莉娜?", "items": ["de.ich", "de.spielen", "de.auch", "de.gern", "de.fussball", "de.und", "de.du"] },
+    { "speaker": "lena", "text": "Ich schwimme gern. Am Sonntag gehe ich oft schwimmen.", "zh": "我喜欢游泳。星期天我常去游泳。", "items": ["de.ich", "de.schwimmen", "de.gern", "de.am", "de.sonntag", "de.gehen", "de.oft"] },
+    { "speaker": "sofia", "text": "Ich höre gern Musik und lese gern Bücher.", "zh": "我喜欢听音乐,也喜欢看书。", "items": ["de.ich", "de.hoeren", "de.gern", "de.musik", "de.und", "de.lesen", "de.buch"] },
+    { "speaker": "paul", "text": "Sofia liest gern. Und du, Wei?", "zh": "索菲娅喜欢看书。你呢,伟?", "items": ["de.lesen", "de.gern", "de.und", "de.du"] },
+    { "speaker": "wei", "text": "Ich lese auch gern. Und ich sehe oft Filme.", "zh": "我也喜欢看书,还经常看电影。", "items": ["de.ich", "de.lesen", "de.auch", "de.gern", "de.und", "de.sehen", "de.oft", "de.film"] },
+    { "speaker": "paul", "text": "Spielst du auch Fußball?", "zh": "你也踢足球吗?", "items": ["de.spielen", "de.du", "de.auch", "de.fussball"] },
+    { "speaker": "wei", "text": "Nein, noch nicht. Aber ich möchte gern Fußball spielen!", "zh": "还没踢过。不过我很想踢足球!", "items": ["de.nein", "de.noch", "de.nicht", "de.aber", "de.ich", "de.moechten", "de.gern", "de.fussball", "de.spielen"] },
+    { "speaker": "jonas", "text": "Dann spielst du am Samstag mit uns!", "zh": "那你星期六跟我们一起踢!", "items": ["de.dann", "de.spielen", "de.du", "de.am", "de.samstag", "de.mit", "de.wir"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜周末喜欢做什么?", "options": ["踢足球", "听音乐", "游泳"], "answer": 2, "explainZh": "莉娜说:Ich schwimme gern.(我喜欢游泳。)" },
+    { "prompt": "王伟会踢足球吗?", "options": ["会,经常踢", "还没踢过,但是很想踢", "不喜欢踢足球"], "answer": 1, "explainZh": "王伟说:Nein, noch nicht. Aber ich möchte gern Fußball spielen!(还没踢过。不过我很想踢足球!)" },
+    { "prompt": "约纳斯叫王伟哪天一起踢球?", "options": ["星期六", "星期天", "星期五"], "answer": 0, "explainZh": "约纳斯说:Dann spielst du am Samstag mit uns!(那你星期六跟我们一起踢!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.hobby_gern_oft", "titleZh": "说爱好:gern、oft 和 spielen",
+      "bodyZh": "“喜欢做某事”= 动词 + gern:Ich schwimme gern.(我喜欢游泳。)不喜欢:nicht gern。多久做一次用 oft(经常),位置和 gern 一样,紧跟在变位动词后面:Ich spiele oft Fußball.——别照中文语序说 Ich oft spiele Fußball。球类运动用 spielen,不加冠词:Fußball spielen(踢足球;英语 play football 也不加 the),中文的“踢”“打”“玩”在德语里都用 spielen。lesen 和 sehen 是不规则动词,du 和 er / sie 的形式元音要变:du liest, er liest;du siehst, er sieht。问爱好:Was ist dein Hobby? / Was machst du gern?",
+      "examples": [
+        { "text": "Ich spiele oft Fußball.", "zh": "我经常踢足球。" },
+        { "text": "Sofia liest gern Bücher.", "zh": "索菲娅喜欢看书。" },
+        { "text": "Wei sieht gern Filme.", "zh": "伟喜欢看电影。" }
+      ] }
+  ],
+  "review": "draft"
+}

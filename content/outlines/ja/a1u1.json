@@ -1,0 +1,139 @@
+{
+  "lang": "ja",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-1 平假名与问候", "cefr": "A1", "themeZh": "3 月底林雨到东京:学伴佐藤咲到机场接她,她住进大家さん小林春子的合租房,认识了韩国室友金智友。学会 46 个平假名和浊音、半浊音、拗音、促音、长音;会用日语打招呼、道谢、道歉、问早晚安,初次见面能说自己的名字。" }
+  ],
+  "lessons": [
+    {
+      "id": "ja.a1u1.l01", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-1 平假名与问候", "order": 101010,
+      "titleZh": "平假名①:あ行、か行和“你好”", "goalZh": "认读、书写 あ行和か行的 10 个平假名,学会白天打招呼",
+      "canDoZh": "能认读、写出 あいうえお かきくけこ;见面时能用 こんにちは 打招呼,称呼别人时会在名字后面加 さん",
+      "scenarioZh": "3 月底,林雨飞到东京羽田机场,学伴咲举着写有她名字的牌子来接她。咲喊:リンさん!两人互相说 こんにちは。课文很短(3–4 句);另加两行假名认读:あいうえお / かきくけこ(说话人 narrator,items 列对应的字符词条)。说话人:saki、rin、narrator。",
+      "grammarFocusZh": "五十音图的“行”和“段”;平假名来自汉字草书(あ←安、か←加);一个假名一拍,u 嘴唇不撅圆;か 行在词中送气弱,中国人常听成 ga,但它仍是清音;こんにちは 末尾的 は 读 wa;さん 接在别人名字后,不用在自己身上",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kana_a", "kind": "char", "pos": "char", "text": "あ", "zh": "a(像“啊”)", "features": { "roman": "a" }, "noteZh": "来自汉字“安”的草书。嘴自然张开,不要张得太大。" },
+        { "id": "ja.kana_i", "kind": "char", "pos": "char", "text": "い", "zh": "i(像“衣”)", "features": { "roman": "i" }, "noteZh": "来自“以”。左长右短两笔。" },
+        { "id": "ja.kana_u", "kind": "char", "pos": "char", "text": "う", "zh": "u(像“乌”,嘴唇不撅)", "features": { "roman": "u" }, "noteZh": "来自“宇”。日语的 u 嘴唇放松、不撅圆,比汉语“乌”扁。" },
+        { "id": "ja.kana_e", "kind": "char", "pos": "char", "text": "え", "zh": "e(像“诶”)", "features": { "roman": "e" }, "noteZh": "来自“衣”。是单纯的 e,不要读成 ei。" },
+        { "id": "ja.kana_o", "kind": "char", "pos": "char", "text": "お", "zh": "o(像“哦”)", "features": { "roman": "o" }, "noteZh": "来自“於”。和 あ 很像:お 右上多一点。" },
+        { "id": "ja.kana_ka", "kind": "char", "pos": "char", "text": "か", "zh": "ka(像“卡”)", "features": { "roman": "ka" }, "noteZh": "来自“加”。在词中间送气很弱,中国人常听成“嘎”,但它是清音,不是浊音 が。" },
+        { "id": "ja.kana_ki", "kind": "char", "pos": "char", "text": "き", "zh": "ki(像英语 key)", "features": { "roman": "ki" }, "noteZh": "来自“幾”。和 さ 很像:き 有两横。" },
+        { "id": "ja.kana_ku", "kind": "char", "pos": "char", "text": "く", "zh": "ku(像“酷”,嘴唇不撅)", "features": { "roman": "ku" }, "noteZh": "来自“久”。一笔写成,像个“<”。" },
+        { "id": "ja.kana_ke", "kind": "char", "pos": "char", "text": "け", "zh": "ke(像 kei 去掉 i)", "features": { "roman": "ke" }, "noteZh": "来自“計”。" },
+        { "id": "ja.kana_ko", "kind": "char", "pos": "char", "text": "こ", "zh": "ko(像 kou 去掉 u)", "features": { "roman": "ko" }, "noteZh": "来自“己”。上下两笔,上短下长。" },
+        { "id": "ja.konnichiwa", "kind": "phrase", "pos": "phrase", "text": "こんにちは", "zh": "你好(白天见面)", "features": { "roman": "konnichiwa" }, "noteZh": "末尾的 は 读 wa,不读 ha(它原来是助词)。早上用 おはようございます,晚上用 こんばんは;家里人之间一般不说 こんにちは。" },
+        { "id": "ja.san", "kind": "word", "pos": "noun", "text": "さん", "zh": "……先生/女士(接在别人名字后的敬称)", "features": { "roman": "san" }, "noteZh": "接在别人的姓或名后面,男女老少都能用:リンさん、こばやしさん。不能用在自己的名字上(不说 リンさんです)。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "ja.a1u1.l02", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-1 平假名与问候", "order": 101020,
+      "titleZh": "平假名②:さ行、た行和“谢谢”", "goalZh": "认读、书写 さ行和た行的 10 个平假名,学会道谢和回应道谢",
+      "canDoZh": "能认读、写出 さしすせそ たちつてと;别人帮了忙能说 ありがとうございます,别人道谢时会回 いいえ",
+      "scenarioZh": "从机场去合租房的路上,咲帮林雨拖行李、教她在售票机买票。林雨:さきさん、ありがとうございます。咲:いいえ、いいえ。课文 4–5 句,另加两行假名认读:さしすせそ / たちつてと。说话人:rin、saki、narrator。",
+      "grammarFocusZh": "し 读 shi、ち 读 chi、つ 读 tsu(不是 si / ti / tu);す 在 です、ます 的词尾常轻得几乎听不见;さ / ち、き / さ 字形易混;ありがとうございます 的 とう 是长音(tō),对朋友可以只说 ありがとう;别人道谢时说 いいえ 表示“哪里、不客气”",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kana_sa", "kind": "char", "pos": "char", "text": "さ", "zh": "sa(像“撒”)", "features": { "roman": "sa" }, "noteZh": "来自“左”。和 ち 左右相反,别写反。" },
+        { "id": "ja.kana_shi", "kind": "char", "pos": "char", "text": "し", "zh": "shi(像“西”)", "features": { "roman": "shi" }, "noteZh": "来自“之”。读 shi(接近汉语“西”),不是 si。" },
+        { "id": "ja.kana_su", "kind": "char", "pos": "char", "text": "す", "zh": "su(像“斯”)", "features": { "roman": "su" }, "noteZh": "来自“寸”。在 です、ます 的末尾常常轻到几乎听不见。" },
+        { "id": "ja.kana_se", "kind": "char", "pos": "char", "text": "せ", "zh": "se(像 sei 去掉 i)", "features": { "roman": "se" }, "noteZh": "来自“世”。" },
+        { "id": "ja.kana_so", "kind": "char", "pos": "char", "text": "そ", "zh": "so(像 sou 去掉 u)", "features": { "roman": "so" }, "noteZh": "来自“曽”。可以一笔写,也可以两笔写。" },
+        { "id": "ja.kana_ta", "kind": "char", "pos": "char", "text": "た", "zh": "ta(像“他”)", "features": { "roman": "ta" }, "noteZh": "来自“太”。在词中间中国人常听成“哒”,但它是清音。" },
+        { "id": "ja.kana_chi", "kind": "char", "pos": "char", "text": "ち", "zh": "chi(像“七”)", "features": { "roman": "chi" }, "noteZh": "来自“知”。读 chi(接近汉语“七”)。和 さ 左右相反。" },
+        { "id": "ja.kana_tsu", "kind": "char", "pos": "char", "text": "つ", "zh": "tsu(像“此”)", "features": { "roman": "tsu" }, "noteZh": "来自“川”。tsu 是一个音(接近汉语“此”),不要读成“次乌”两个音。" },
+        { "id": "ja.kana_te", "kind": "char", "pos": "char", "text": "て", "zh": "te(像 tei 去掉 i)", "features": { "roman": "te" }, "noteZh": "来自“天”。" },
+        { "id": "ja.kana_to", "kind": "char", "pos": "char", "text": "と", "zh": "to(像 tou 去掉 u)", "features": { "roman": "to" }, "noteZh": "来自“止”。" },
+        { "id": "ja.arigatou_gozaimasu", "kind": "phrase", "pos": "phrase", "text": "ありがとうございます", "zh": "谢谢(礼貌)", "features": { "roman": "arigatou gozaimasu" }, "noteZh": "对朋友可以只说 ありがとう。とう 是长音,读 tō;店员常用过去形 ありがとうございました(谢谢惠顾)。" },
+        { "id": "ja.iie", "kind": "word", "pos": "interj", "text": "いいえ", "zh": "不,不是;哪里(回应道谢、道歉)", "features": { "roman": "iie" }, "noteZh": "别人道谢或道歉时说 いいえ,意思是“不客气、没关系”。用第 1 课的假名就能拼出来。" }
+      ],
+      "reviewItems": ["ja.kana_ka", "ja.kana_ki", "ja.konnichiwa", "ja.san"]
+    },
+    {
+      "id": "ja.a1u1.l03", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-1 平假名与问候", "order": 101030,
+      "titleZh": "平假名③:な行、は行和“初次见面”", "goalZh": "认读、书写 な行和は行的 10 个平假名,学会初次见面说名字",
+      "canDoZh": "能认读、写出 なにぬねの はひふへほ;第一次见面能说 はじめまして,用“名字 + です”说自己是谁",
+      "scenarioZh": "到了合租房,大家さん小林春子在门口迎接。小林:はじめまして。こばやしです。林雨:はじめまして。リン・ユーです。(“请多关照”下一课才学,这一课先不说。)课文 4 句左右,另加两行假名认读:なにぬねの / はひふへほ。说话人:kobayashi、rin、narrator。",
+      "grammarFocusZh": "“名字 + です”(我是……,礼貌);ぬ / め、ね / れ / わ、は / ほ 字形易混;ふ 用双唇送气,不咬下唇;は、へ 作助词时读 wa、e(下个单元学 は)",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kana_na", "kind": "char", "pos": "char", "text": "な", "zh": "na(像“那”)", "features": { "roman": "na" }, "noteZh": "来自“奈”。" },
+        { "id": "ja.kana_ni", "kind": "char", "pos": "char", "text": "に", "zh": "ni(像“你”)", "features": { "roman": "ni" }, "noteZh": "来自“仁”。" },
+        { "id": "ja.kana_nu", "kind": "char", "pos": "char", "text": "ぬ", "zh": "nu(像“奴”,嘴唇不撅)", "features": { "roman": "nu" }, "noteZh": "来自“奴”。和 め 很像:ぬ 末尾多一个小圈。" },
+        { "id": "ja.kana_ne", "kind": "char", "pos": "char", "text": "ね", "zh": "ne(像 nei 去掉 i)", "features": { "roman": "ne" }, "noteZh": "来自“祢”。和 れ、わ 很像:ね 末尾打圈。" },
+        { "id": "ja.kana_no", "kind": "char", "pos": "char", "text": "の", "zh": "no(像 nou 去掉 u)", "features": { "roman": "no" }, "noteZh": "来自“乃”。助词 の(的)就是它,出现频率极高。" },
+        { "id": "ja.kana_ha", "kind": "char", "pos": "char", "text": "は", "zh": "ha(像“哈”)", "features": { "roman": "ha" }, "noteZh": "来自“波”。作助词时读 wa(わたしは)。" },
+        { "id": "ja.kana_hi", "kind": "char", "pos": "char", "text": "ひ", "zh": "hi(像英语 he)", "features": { "roman": "hi" }, "noteZh": "来自“比”。气流从舌面和上颚之间擦出,和 し(shi)不同。" },
+        { "id": "ja.kana_fu", "kind": "char", "pos": "char", "text": "ふ", "zh": "fu(双唇轻吹)", "features": { "roman": "fu" }, "noteZh": "来自“不”。上下嘴唇轻轻吹气,不要像汉语 f 那样用上牙咬下唇。" },
+        { "id": "ja.kana_he", "kind": "char", "pos": "char", "text": "へ", "zh": "he(像 hei 去掉 i)", "features": { "roman": "he" }, "noteZh": "来自“部”。平假名 へ 和片假名 ヘ 几乎一样。作助词时读 e。" },
+        { "id": "ja.kana_ho", "kind": "char", "pos": "char", "text": "ほ", "zh": "ho(像 hou 去掉 u)", "features": { "roman": "ho" }, "noteZh": "来自“保”。和 は 很像:ほ 右边多一横。" },
+        { "id": "ja.hajimemashite", "kind": "phrase", "pos": "phrase", "text": "はじめまして", "zh": "初次见面", "features": { "roman": "hajimemashite" }, "noteZh": "第一次见面的第一句话,后面接名字,最后说 よろしくおねがいします。" },
+        { "id": "ja.desu", "kind": "word", "pos": "verb", "text": "です", "zh": "是(礼貌的判断词)", "features": { "roman": "desu" }, "noteZh": "放在句末:リンです(我是林)。す 的元音很轻,听起来像 des。" }
+      ],
+      "reviewItems": ["ja.konnichiwa", "ja.san", "ja.kana_sa", "ja.kana_chi"]
+    },
+    {
+      "id": "ja.a1u1.l04", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-1 平假名与问候", "order": 101040,
+      "titleZh": "平假名④:ま行、や行和浊音、半浊音;早上好", "goalZh": "认读、书写 ま行和や行的 8 个平假名,掌握浊音、半浊音的规律;学会早上问好和“请多关照”",
+      "canDoZh": "能认读、写出 まみむめも やゆよ,能读出加了 ゛ 和 ゜ 的假名(が ざ だ ば ぱ 行);早上能说 おはようございます,自我介绍最后能说 よろしくおねがいします",
+      "scenarioZh": "第二天早上,林雨在合租房的厨房遇到同住的韩国留学生金智友。ジウ:おはようございます。リン:おはようございます。ジウ:はじめまして、キム・ジウです。よろしくおねがいします。リン:リン・ユーです。よろしくおねがいします。课文 5–6 句,另加两行假名认读:まみむめも / やゆよ,以及 か→が、は→ば→ぱ 的对比行。说话人:jiu、rin、narrator。",
+      "grammarFocusZh": "浊音:か さ た は 行右上加 ゛ → が ざ だ ば 行(じ / ぢ 都读 ji,ず / づ 都读 zu,一般写 じ、ず);半浊音:は 行加 ゜ → ぱ 行(p);浊音要让声带振动,不要和清音 か / た 混;や 行只有 や ゆ よ 三个;おはよう 的 よう 是长音(yō)",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kana_ma", "kind": "char", "pos": "char", "text": "ま", "zh": "ma(像“妈”)", "features": { "roman": "ma" }, "noteZh": "来自“末”。和 ほ 区分:ま 左边没有竖。" },
+        { "id": "ja.kana_mi", "kind": "char", "pos": "char", "text": "み", "zh": "mi(像“米”)", "features": { "roman": "mi" }, "noteZh": "来自“美”。" },
+        { "id": "ja.kana_mu", "kind": "char", "pos": "char", "text": "む", "zh": "mu(像“木”,嘴唇不撅)", "features": { "roman": "mu" }, "noteZh": "来自“武”。" },
+        { "id": "ja.kana_me", "kind": "char", "pos": "char", "text": "め", "zh": "me(像 mei 去掉 i)", "features": { "roman": "me" }, "noteZh": "来自“女”。和 ぬ 区分:め 末尾没有圈。" },
+        { "id": "ja.kana_mo", "kind": "char", "pos": "char", "text": "も", "zh": "mo(像 mou 去掉 u)", "features": { "roman": "mo" }, "noteZh": "来自“毛”。" },
+        { "id": "ja.kana_ya", "kind": "char", "pos": "char", "text": "や", "zh": "ya(像“呀”)", "features": { "roman": "ya" }, "noteZh": "来自“也”。" },
+        { "id": "ja.kana_yu", "kind": "char", "pos": "char", "text": "ゆ", "zh": "yu(像“优”)", "features": { "roman": "yu" }, "noteZh": "来自“由”。" },
+        { "id": "ja.kana_yo", "kind": "char", "pos": "char", "text": "よ", "zh": "yo(像“哟”)", "features": { "roman": "yo" }, "noteZh": "来自“与”。" },
+        { "id": "ja.kana_ga", "kind": "char", "pos": "char", "text": "が", "zh": "ga(浊音:か 加 ゛)", "features": { "roman": "ga" }, "noteZh": "浊音的代表:か さ た は 四行加两点 ゛,变成 が ざ だ ば 四行(ga gi gu ge go、za ji zu ze zo、da ji zu de do、ba bi bu be bo)。が 要让声带振动,别和 か 混。" },
+        { "id": "ja.kana_pa", "kind": "char", "pos": "char", "text": "ぱ", "zh": "pa(半浊音:は 加 ゜)", "features": { "roman": "pa" }, "noteZh": "半浊音只有一行:は 行加小圈 ゜,变成 ぱ ぴ ぷ ぺ ぽ,读 pa pi pu pe po。" },
+        { "id": "ja.ohayou_gozaimasu", "kind": "phrase", "pos": "phrase", "text": "おはようございます", "zh": "早上好(礼貌)", "features": { "roman": "ohayou gozaimasu" }, "noteZh": "朋友、家人之间说 おはよう。よう 是长音(yō);ご、ざ 是本课学的浊音。" },
+        { "id": "ja.yoroshiku_onegaishimasu", "kind": "phrase", "pos": "phrase", "text": "よろしくおねがいします", "zh": "请多关照;拜托了", "alt": ["よろしくお願いします"], "features": { "roman": "yoroshiku onegaishimasu" }, "noteZh": "自我介绍的最后一句;请人帮忙时也说。中文里没有完全对应的说法,按场合理解为“请多关照”或“拜托了”。" }
+      ],
+      "reviewItems": ["ja.hajimemashite", "ja.desu", "ja.kana_ka", "ja.kana_ha"]
+    },
+    {
+      "id": "ja.a1u1.l05", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-1 平假名与问候", "order": 101050,
+      "titleZh": "平假名⑤:ら行、わ行、ん和小字(拗音、促音、长音)", "goalZh": "学完全部 46 个平假名,会读拗音、促音和长音;学会道歉和应答",
+      "canDoZh": "能认读、写出全部平假名,能读拗音(きゃ)、促音(っ)和长音;做错事或麻烦别人时能说 すみません,被叫到名字时会答 はい",
+      "scenarioZh": "晚上,大家さん在楼下叫两个人:リンさん!ジウさん!两人:はい!林雨下楼时不小心踩到智友的脚:あ、すみません!ジウ:いいえ。课文 5–6 句,另加假名认读:らりるれろ / わ を ん。拗音、促音、长音的对比词(きって / きて、びょういん / びよういん、おばあさん / おばさん)放在语法说明的例句里,不放进课文。说话人:kobayashi、rin、jiu、narrator。",
+      "grammarFocusZh": "ら 行舌尖轻弹一下(介于 l 和 d 之间,不卷舌);を 只作助词,读 o;ん 自成一拍;拗音 = い 段假名 + 小 ゃ ゅ ょ,合成一拍(びょういん 医院 / びよういん 美容院);促音 っ 停一拍(きって 邮票 / きて 来);长音把元音拉长一拍(おばあさん 奶奶 / おばさん 阿姨;え 段 + い、お 段 + う 也读长音:せんせい、ありがとう);一拍一拍地数,是日语节奏的关键",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kana_ra", "kind": "char", "pos": "char", "text": "ら", "zh": "ra(舌尖轻弹,像“拉”)", "features": { "roman": "ra" }, "noteZh": "来自“良”。日语的 r 是舌尖在上齿龈轻弹一下,介于 l 和 d 之间,不卷舌。" },
+        { "id": "ja.kana_ri", "kind": "char", "pos": "char", "text": "り", "zh": "ri(舌尖轻弹,像“里”)", "features": { "roman": "ri" }, "noteZh": "来自“利”。" },
+        { "id": "ja.kana_ru", "kind": "char", "pos": "char", "text": "る", "zh": "ru(舌尖轻弹,像“路”)", "features": { "roman": "ru" }, "noteZh": "来自“留”。和 ろ 区分:る 末尾有圈。" },
+        { "id": "ja.kana_re", "kind": "char", "pos": "char", "text": "れ", "zh": "re(舌尖轻弹,像 lei 去掉 i)", "features": { "roman": "re" }, "noteZh": "来自“礼”。和 ね、わ 区分:れ 末尾向外弯着收笔。" },
+        { "id": "ja.kana_ro", "kind": "char", "pos": "char", "text": "ろ", "zh": "ro(舌尖轻弹,像 lou 去掉 u)", "features": { "roman": "ro" }, "noteZh": "来自“呂”。和 る 区分:ろ 末尾没有圈。" },
+        { "id": "ja.kana_wa", "kind": "char", "pos": "char", "text": "わ", "zh": "wa(像“哇”)", "features": { "roman": "wa" }, "noteZh": "来自“和”。和 ね、れ 区分:わ 末尾向内弯。" },
+        { "id": "ja.kana_wo", "kind": "char", "pos": "char", "text": "を", "zh": "o(写作 を,只作助词)", "features": { "roman": "wo" }, "noteZh": "来自“遠”。读音和 お 一样,只用作宾语助词(パンを 食べます)。用输入法打 wo。" },
+        { "id": "ja.kana_n", "kind": "char", "pos": "char", "text": "ん", "zh": "n(鼻音,自成一拍)", "features": { "roman": "n" }, "noteZh": "来自“无”。不能放在词首;读音随后面的音变成 n / m / ng,但都算一拍:こ・ん・に・ち・は 是 5 拍。用输入法打 nn。" },
+        { "id": "ja.kana_kya", "kind": "char", "pos": "char", "text": "きゃ", "zh": "kya(拗音:き + 小 ゃ)", "features": { "roman": "kya" }, "noteZh": "拗音:い 段假名(き し ち に ひ み り ぎ じ び ぴ)后面加小写的 ゃ ゅ ょ,合成一个音、只占一拍:きゃ きゅ きょ、しゃ しゅ しょ……。大小写意思不同:びょういん(医院)/ びよういん(美容院)。" },
+        { "id": "ja.kana_sokuon", "kind": "char", "pos": "char", "text": "っ", "zh": "促音(小 つ,停一拍)", "features": { "roman": "xtsu" }, "noteZh": "小写的 っ 不发音,停顿一拍,把后面的辅音读得更紧:きって(邮票)/ きて(来)。罗马字把后面的辅音双写(kitte);单独打 っ 用 xtsu 或 ltu。" },
+        { "id": "ja.sumimasen", "kind": "phrase", "pos": "phrase", "text": "すみません", "zh": "对不起;劳驾;不好意思", "features": { "roman": "sumimasen" }, "noteZh": "一词多用:道歉、叫人(“劳驾”)、麻烦别人以后表示谢意。比 ごめんなさい 更客气,对陌生人、店员都能用。" },
+        { "id": "ja.hai", "kind": "word", "pos": "interj", "text": "はい", "zh": "是;好的;(被叫到时)在", "features": { "roman": "hai", "pitch": 1 }, "noteZh": "被叫到名字时回答 はい;听别人说话时也常说 はい 表示“我在听”。" }
+      ],
+      "reviewItems": ["ja.iie", "ja.ohayou_gozaimasu", "ja.kana_ne", "ja.kana_nu"]
+    },
+    {
+      "id": "ja.a1u1.l08", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-1 平假名与问候", "order": 101080,
+      "titleZh": "单元复习:合租房的欢迎茶会", "goalZh": "把第 1 单元的问候语串起来,在一天的不同场合正确地打招呼",
+      "canDoZh": "能按时间和场合选对问候语:早上、白天、晚上、初次见面、道谢、道歉、告别、睡前",
+      "scenarioZh": "林雨到东京的第一天晚上,大家さん在客厅为新住户办了一个小小的欢迎茶会。咲来看林雨:こんばんは!大家さん给大家倒茶:どうぞ。大家互相道谢;林雨不小心碰翻了杯子说 すみません,大家说 いいえ;咲回家时和大家告别 さようなら;睡前林雨对大家说 おやすみなさい。对话 10–12 句,把本单元的问候都用上。说话人:kobayashi、saki、rin、jiu。",
+      "grammarFocusZh": "复习:按时间选问候语(おはようございます / こんにちは / こんばんは);礼貌说法和朋友之间的说法(ありがとうございます / ありがとう、おやすみなさい / おやすみ);名字 + さん;名字 + です",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.konbanwa", "kind": "phrase", "pos": "phrase", "text": "こんばんは", "zh": "晚上好", "features": { "roman": "konbanwa" }, "noteZh": "天黑以后见面时说;末尾的 は 也读 wa。" },
+        { "id": "ja.oyasuminasai", "kind": "phrase", "pos": "phrase", "text": "おやすみなさい", "zh": "晚安", "features": { "roman": "oyasuminasai" }, "noteZh": "睡前或晚上分别时说;朋友、家人之间说 おやすみ。" },
+        { "id": "ja.douzo", "kind": "word", "pos": "adv", "text": "どうぞ", "zh": "请(用);给你", "features": { "roman": "douzo", "pitch": 1 }, "noteZh": "递东西、请人吃喝、请人先走时说。どう 是长音(dō)。" },
+        { "id": "ja.sayounara", "kind": "phrase", "pos": "phrase", "text": "さようなら", "zh": "再见(正式)", "features": { "roman": "sayounara" }, "noteZh": "下课时对老师说 先生、さようなら;朋友之间常说 じゃあね、またね——さようなら 听起来像要分开很久。" }
+      ],
+      "reviewItems": ["ja.sumimasen", "ja.arigatou_gozaimasu", "ja.hai", "ja.iie"]
+    }
+  ]
+}

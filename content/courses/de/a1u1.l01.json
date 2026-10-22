@@ -2,30 +2,38 @@
   "id": "de.a1u1.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
   "unit": "A1-1 你好,我是……", "order": 101010,
   "titleZh": "打招呼和自我介绍", "goalZh": "会用德语问好、说自己叫什么、来自哪里", "canDoZh": "能用德语跟人打招呼,说出自己叫什么、从哪里来",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 22,
   "newItems": [
-    { "id": "de.hallo", "kind": "word", "pos": "interj", "text": "Hallo", "zh": "你好(随意)", "features": { "ipa": "haˈloː" } },
-    { "id": "de.guten_tag", "kind": "phrase", "pos": "phrase", "text": "Guten Tag", "zh": "您好(白天,正式)", "features": { "ipa": "ˌɡuːtn̩ ˈtaːk" }, "noteZh": "对陌生人、长辈、店员用 Guten Tag;朋友之间用 Hallo。" },
-    { "id": "de.ich_heisse", "kind": "phrase", "pos": "phrase", "text": "Ich heiße", "zh": "我叫……", "alt": ["Ich heisse"], "features": { "ipa": "ɪç ˈhaɪ̯sə" } },
-    { "id": "de.ich_komme_aus", "kind": "phrase", "pos": "phrase", "text": "Ich komme aus", "zh": "我来自……", "features": {} },
-    { "id": "de.china", "kind": "word", "pos": "propn", "text": "China", "zh": "中国", "features": { "gender": "n" }, "noteZh": "国家名大多是中性,平时不带冠词:Ich komme aus China." },
-    { "id": "de.tschuess", "kind": "word", "pos": "interj", "text": "Tschüss", "zh": "再见(随意)", "alt": ["Tschüs"], "features": { "ipa": "tʃʏs" } }
+    { "id": "de.hallo", "kind": "word", "pos": "interj", "text": "Hallo", "zh": "你好(随意)", "features": { "ipa": "haˈloː" }, "noteZh": "朋友、同学、年轻人之间用,白天晚上都能说;重音一般在后面:ha-LO。" },
+    { "id": "de.guten_tag", "kind": "phrase", "pos": "phrase", "text": "Guten Tag", "zh": "您好(白天,正式)", "features": { "ipa": "ˌɡuːtn̩ ˈtaːk" }, "noteZh": "对陌生人、长辈、老师、店员用 Guten Tag;朋友之间用 Hallo。Tag 词尾的 g 读成 [k]。" },
+    { "id": "de.ich_heisse", "kind": "phrase", "pos": "phrase", "text": "Ich heiße", "zh": "我叫……", "alt": ["Ich heisse"], "features": { "ipa": "ɪç ˈhaɪ̯sə" }, "noteZh": "后面直接跟名字:Ich heiße Wei.。ß 读清音 [s],打不出来可以写成 ss;ei 读 [aɪ̯](像“爱”)。" },
+    { "id": "de.ich_komme_aus", "kind": "phrase", "pos": "phrase", "text": "Ich komme aus", "zh": "我来自……", "features": { "ipa": "ɪç ˈkɔmə aʊ̯s" }, "noteZh": "后面跟国家或城市:Ich komme aus China. / Ich komme aus Berlin.;komme 里的 o 是短音。" },
+    { "id": "de.china", "kind": "word", "pos": "propn", "text": "China", "zh": "中国", "features": { "gender": "n", "ipa": "ˈçiːna" }, "noteZh": "国家名大多是中性,平时不带冠词:Ich komme aus China.。标准德语 Ch 读 [ç](舌面擦音,像轻声的“希”),南德和奥地利读 [k]。" },
+    { "id": "de.tschuess", "kind": "word", "pos": "interj", "text": "Tschüss", "zh": "再见(随意)", "alt": ["Tschüs"], "features": { "ipa": "tʃʏs" }, "noteZh": "朋友、同学之间说;对老师、店员、陌生人说 Auf Wiedersehen(本单元复习课学)。ü:嘴唇撮圆,舌头放在发 i 的位置。" }
   ],
+  "reviewItems": [],
   "lines": [
     { "speaker": "lena", "text": "Hallo! Ich heiße Lena.", "zh": "你好!我叫莉娜。", "items": ["de.hallo", "de.ich_heisse"] },
-    { "speaker": "wei", "text": "Hallo, Lena! Ich heiße Wei.", "zh": "你好,莉娜!我叫伟。", "items": ["de.hallo", "de.ich_heisse"] },
+    { "speaker": "wei", "text": "Guten Tag! Ich heiße Wei.", "zh": "您好!我叫王伟。", "items": ["de.guten_tag", "de.ich_heisse"] },
+    { "speaker": "lena", "text": "Wei? Hallo, Wei!", "zh": "王伟?你好,王伟!", "items": ["de.hallo"] },
+    { "speaker": "wei", "text": "Hallo, Lena!", "zh": "你好,莉娜!", "items": ["de.hallo"] },
     { "speaker": "lena", "text": "Ich komme aus Berlin.", "zh": "我来自柏林。", "items": ["de.ich_komme_aus"] },
     { "speaker": "wei", "text": "Ich komme aus China.", "zh": "我来自中国。", "items": ["de.ich_komme_aus", "de.china"] },
-    { "speaker": "lena", "text": "Tschüss, Wei!", "zh": "再见,伟!", "items": ["de.tschuess"] }
+    { "speaker": "lena", "text": "Tschüss, Wei!", "zh": "再见,王伟!", "items": ["de.tschuess"] },
+    { "speaker": "wei", "text": "Tschüss, Lena!", "zh": "再见,莉娜!", "items": ["de.tschuess"] }
   ],
   "questions": [
-    {"prompt": "伟来自哪里?", "options": ["柏林", "中国", "法国"], "answer": 1, "explainZh": "伟说:Ich komme aus China."},
-    {"prompt": "莉娜最后怎么跟伟告别?", "options": ["Guten Tag", "Hallo", "Tschüss"], "answer": 2, "explainZh": "Tschüss 是比较随意的“再见”。"}
+    { "prompt": "王伟来自哪里?", "options": ["柏林", "中国", "法国"], "answer": 1, "explainZh": "王伟说:Ich komme aus China.(我来自中国。)来自柏林的是莉娜。" },
+    { "prompt": "王伟一开始用哪句话打招呼?", "options": ["Guten Tag!", "Hallo!", "Tschüss!"], "answer": 0, "explainZh": "王伟先说了比较正式的 Guten Tag!;莉娜说 Hallo,他也马上改说 Hallo, Lena!。" },
+    { "prompt": "最后两人怎么告别?", "options": ["Guten Tag!", "Hallo!", "Tschüss!"], "answer": 2, "explainZh": "两人都说 Tschüss,这是朋友、同学之间比较随意的“再见”。" }
   ],
   "grammar": [
     { "id": "de.g.ich_verb", "titleZh": "动词跟着“我”变:ich + 动词-e",
-      "bodyZh": "德语动词要随人称变化。和 ich(我)搭配时,动词一般以 -e 结尾:heißen → ich heiße,kommen → ich komme。",
-      "examples": [ { "text": "Ich heiße Wei.", "zh": "我叫伟。" }, { "text": "Ich komme aus China.", "zh": "我来自中国。" } ] }
+      "bodyZh": "德语动词要随人称变化,不像中文“我叫、你叫、他叫”都一样。和 ich(我)搭配时,动词一般以 -e 结尾:heißen → ich heiße,kommen → ich komme。动词紧跟在 ich 后面,名字、国家、城市直接放在最后:Ich heiße Wei. / Ich komme aus China.。别受英语 I am … 的影响说成 ✗ Ich bin heiße Wei——德语里“叫”就是 heiße 一个词。",
+      "examples": [ { "text": "Ich heiße Wei.", "zh": "我叫王伟。" }, { "text": "Ich komme aus China.", "zh": "我来自中国。" }, { "text": "Ich komme aus Berlin.", "zh": "我来自柏林。" } ] },
+    { "id": "de.g.hallo_guten_tag", "titleZh": "Hallo 还是 Guten Tag?",
+      "bodyZh": "德语打招呼要看对象:朋友、同学、年轻人之间说 Hallo(随意);对陌生人、长辈、老师、店员说 Guten Tag(正式,白天用)。中文的“你好”两种场合都能用,德语要分开。在大学里,学生之间一见面就说 Hallo。王伟开口说 Guten Tag 没有错,只是有点正式;莉娜说 Hallo,他马上也改说 Hallo。告别也分两种:朋友之间 Tschüss,正式场合 Auf Wiedersehen(本单元复习课学)。",
+      "examples": [ { "text": "Hallo, Lena!", "zh": "你好,莉娜!" }, { "text": "Guten Tag!", "zh": "您好!" } ] }
   ],
   "review": "draft"
 }

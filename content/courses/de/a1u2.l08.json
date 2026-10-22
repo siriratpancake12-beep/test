@@ -1,0 +1,45 @@
+{
+  "id": "de.a1u2.l08", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-2 我的家人和朋友", "order": 102080,
+  "titleZh": "单元复习:王伟的个人简介", "goalZh": "读懂一份个人简介和一段介绍家人朋友的短文,并照样写自己的", "canDoZh": "能读懂、也能写出一份简单的德语个人简介(名字、年龄、国家、住在哪里、语言、职业、家人和朋友)",
+  "skills": ["read", "write"], "estimatedMinutes": 22,
+  "newItems": [
+    { "id": "de.land", "kind": "word", "pos": "noun", "text": "das Land", "zh": "国家;乡下", "features": { "gender": "n", "plural": "die Länder", "ipa": "lant" }, "noteZh": "表格、简介卡上的 Land: China = 国家:中国;复数要变音:die Länder。auf dem Land = 在乡下。" },
+    { "id": "de.sprache", "kind": "word", "pos": "noun", "text": "die Sprache", "zh": "语言", "features": { "gender": "f", "plural": "die Sprachen", "ipa": "ˈʃpʁaːxə" }, "noteZh": "Ich spreche drei Sprachen.;名词 Sprache 和动词 sprechen 是一家;sp 在词首读 [ʃp]。" },
+    { "id": "de.freund", "kind": "word", "pos": "noun", "text": "der Freund", "zh": "(男)朋友;男朋友", "features": { "gender": "m", "plural": "die Freunde", "ipa": "fʁɔʏ̯nt" }, "noteZh": "mein Freund 常常指“我男朋友”;说普通朋友用 ein Freund(一个朋友)。eu 读 [ɔʏ̯],词尾 d 读 [t]。" },
+    { "id": "de.freundin", "kind": "word", "pos": "noun", "text": "die Freundin", "zh": "(女)朋友;女朋友", "features": { "gender": "f", "plural": "die Freundinnen", "ipa": "ˈfʁɔʏ̯ndɪn" }, "noteZh": "meine Freundin 常常指“我女朋友”;说普通朋友用 eine Freundin,或者用复数:zwei Freundinnen。" }
+  ],
+  "reviewItems": ["de.familie", "de.eltern", "de.arbeiten", "de.studieren"],
+  "lines": [
+    { "speaker": "narrator", "text": "Land: China. Sprachen: Chinesisch, Englisch, Deutsch. Beruf: Student.", "zh": "国家:中国。语言:中文、英语、德语。职业:大学生。", "items": ["de.land", "de.china", "de.sprache", "de.chinesisch", "de.englisch", "de.deutsch", "de.beruf", "de.student"] },
+    { "speaker": "narrator", "text": "Ich heiße Wei Wang und bin zwanzig Jahre alt.", "zh": "我叫王伟,今年二十岁。", "items": ["de.ich_heisse", "de.und", "de.sein", "de.zwanzig", "de.jahr", "de.alt"] },
+    { "speaker": "narrator", "text": "Ich komme aus Chengdu in China.", "zh": "我来自中国成都。", "items": ["de.ich_komme_aus", "de.in", "de.china"] },
+    { "speaker": "narrator", "text": "Ich wohne und studiere in Berlin.", "zh": "我在柏林生活、上大学。", "items": ["de.ich", "de.wohnen", "de.und", "de.studieren", "de.in"] },
+    { "speaker": "narrator", "text": "Ich spreche drei Sprachen: Chinesisch, Englisch und ein bisschen Deutsch.", "zh": "我会说三种语言:中文、英语和一点德语。", "items": ["de.ich", "de.sprechen", "de.drei", "de.sprache", "de.chinesisch", "de.englisch", "de.und", "de.ein_bisschen", "de.deutsch"] },
+    { "speaker": "narrator", "text": "Meine Familie wohnt in Chengdu: meine Eltern und meine Oma.", "zh": "我的家人住在成都:我父母和我奶奶。", "items": ["de.mein", "de.familie", "de.wohnen", "de.in", "de.eltern", "de.und", "de.oma"] },
+    { "speaker": "narrator", "text": "Mein Vater ist Koch, und meine Mutter ist Lehrerin.", "zh": "我爸爸是厨师,我妈妈是老师。", "items": ["de.mein", "de.vater", "de.sein", "de.koch", "de.und", "de.mutter", "de.lehrerin"] },
+    { "speaker": "narrator", "text": "Meine Schwester Jing ist Ärztin und arbeitet in Shanghai.", "zh": "我姐姐王静是医生,在上海工作。", "items": ["de.mein", "de.schwester", "de.sein", "de.aerztin", "de.und", "de.arbeiten", "de.in"] },
+    { "speaker": "narrator", "text": "Ich habe in Berlin zwei Freundinnen: Lena und Sofia.", "zh": "我在柏林有两个女性朋友:莉娜和索菲娅。", "items": ["de.ich", "de.haben", "de.in", "de.zwei", "de.freundin", "de.und"] },
+    { "speaker": "narrator", "text": "Lena ist Studentin. Sie studiert Englisch und lernt Chinesisch.", "zh": "莉娜是大学生。她学英语专业,还在学中文。", "items": ["de.sein", "de.studentin", "de.sie_sg", "de.studieren", "de.englisch", "de.und", "de.lernen", "de.chinesisch"] },
+    { "speaker": "narrator", "text": "Sofia kommt aus Italien und lernt auch Deutsch.", "zh": "索菲娅来自意大利,也在学德语。", "items": ["de.ich_komme_aus", "de.italien", "de.und", "de.lernen", "de.auch", "de.deutsch"] },
+    { "speaker": "narrator", "text": "Lenas Bruder Paul ist auch ein Freund. Er ist sechzehn.", "zh": "莉娜的弟弟保罗也是我的朋友。他十六岁。", "items": ["de.bruder", "de.sein", "de.auch", "de.eins", "de.freund", "de.er", "de.sechzehn"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的爸爸妈妈做什么工作?", "options": ["爸爸是医生,妈妈是厨师", "爸爸是厨师,妈妈是老师", "爸爸是老师,妈妈是医生"], "answer": 1, "explainZh": "Mein Vater ist Koch, und meine Mutter ist Lehrerin.(我爸爸是厨师,我妈妈是老师。)" },
+    { "prompt": "王伟的姐姐在哪里工作?", "options": ["成都", "柏林", "上海"], "answer": 2, "explainZh": "Meine Schwester Jing ist Ärztin und arbeitet in Shanghai.(我姐姐王静是医生,在上海工作。)" },
+    { "prompt": "莉娜在大学读什么专业?", "options": ["英语", "中文", "德语"], "answer": 0, "explainZh": "Sie studiert Englisch und lernt Chinesisch.——studieren 是在大学读的专业(英语),lernen 是学一门语言(中文)。" },
+    { "prompt": "文中 Paul ist auch ein Freund. 是什么意思?", "options": ["保罗是王伟的男朋友", "保罗是莉娜的同学", "保罗是索菲娅的弟弟", "保罗也是王伟的朋友"], "answer": 3, "explainZh": "ein Freund 是“一个(普通)朋友”;如果说 mein Freund,常常会被理解成“我男朋友”。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u2_verben", "titleZh": "复习:sein、haben 和规则动词",
+      "bodyZh": "第 2 单元以后,动词所有人称都会用了:\nsein:ich bin · du bist · er / sie ist · wir sind · ihr seid · sie / Sie sind\nhaben:ich habe · du hast · er / sie hat · wir haben · ihr habt · sie / Sie haben\n规则动词(wohnen、lernen、studieren):ich -e · du -st · er / sie -t · wir -en · ihr -t · sie / Sie -en;arbeiten 要加 e:du arbeitest, er arbeitet。\n写简介最常用的几句:Ich heiße … / Ich bin … Jahre alt. / Ich komme aus … / Ich wohne in … / Ich spreche … / Ich habe …。",
+      "examples": [ { "text": "Ich bin zwanzig Jahre alt.", "zh": "我二十岁。" }, { "text": "Meine Schwester arbeitet in Shanghai.", "zh": "我姐姐在上海工作。" }, { "text": "Wir lernen Deutsch.", "zh": "我们在学德语。" } ] },
+    { "id": "de.g.possessiv_review", "titleZh": "复习:mein / dein / sein / ihr",
+      "bodyZh": "物主冠词跟着后面名词的性和数走:阳性、中性名词前用 mein / dein / sein / ihr,阴性和复数名词前加 -e:meine Familie, meine Eltern, seine Schwester, ihre Eltern。sein = 他的,ihr = 她的 / 他们的。介绍家人时几乎每句都要用,写完检查一遍:阴性名词(Mutter、Schwester、Familie、Oma)和复数(Eltern)前面有没有加 -e。",
+      "examples": [ { "text": "Meine Familie wohnt in Chengdu.", "zh": "我的家人住在成都。" }, { "text": "Mein Vater ist Koch, und meine Mutter ist Lehrerin.", "zh": "我爸爸是厨师,我妈妈是老师。" } ] },
+    { "id": "de.g.freund", "titleZh": "Freund / Freundin:朋友还是男女朋友?",
+      "bodyZh": "mein Freund / meine Freundin 常常是“我男朋友 / 我女朋友”!说普通朋友,用 ein Freund / eine Freundin(一个朋友),或者用复数:zwei Freundinnen, drei Freunde。所以王伟写 Paul ist auch ein Freund.(保罗也是一个朋友),而不写 mein Freund。顺便记几个复数:die Sprache → die Sprachen,das Land → die Länder,der Freund → die Freunde,die Freundin → die Freundinnen。简介卡上的栏目(Land、Sprachen、Beruf)和歌德 A1 口语考试第一部分的提示卡一样,照着说成整句就是自我介绍。",
+      "examples": [ { "text": "Paul ist auch ein Freund.", "zh": "保罗也是(我的)一个朋友。" }, { "text": "Ich spreche drei Sprachen.", "zh": "我会说三种语言。" } ] }
+  ],
+  "review": "draft"
+}

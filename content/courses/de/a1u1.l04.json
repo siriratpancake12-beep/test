@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u1.l04", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-1 你好,我是……", "order": 101040,
+  "titleZh": "我是学生:sein 和 du / Sie", "goalZh": "掌握 sein 的变位(bin / bist / ist / sind),知道什么时候用 du、什么时候用 Sie", "canDoZh": "能说“我是学生”,能用合适的称呼问老师和同学“您是……吗?/你是……吗?”",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.sein", "kind": "word", "pos": "verb", "text": "sein", "zh": "是;在", "features": { "ipa": "zaɪ̯n" }, "noteZh": "最常用的不规则动词:ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie/Sie sind。s 在元音前读 [z]。" },
+    { "id": "de.ich", "kind": "word", "pos": "pron", "text": "ich", "zh": "我", "features": { "ipa": "ɪç" }, "noteZh": "ch 在 i、e、ä、ö、ü 后读 [ç]:舌面贴近硬腭送气,像轻声说“希”的开头,不要读成 k 或 sh。只在句首大写(不像英语的 I 永远大写)。" },
+    { "id": "de.du", "kind": "word", "pos": "pron", "text": "du", "zh": "你(熟人之间)", "features": { "ipa": "duː" }, "noteZh": "对朋友、家人、同学、小孩用 du;对老师、店员、陌生的成年人用 Sie。学生之间一般直接用 du。" },
+    { "id": "de.sie_hoeflich", "kind": "word", "pos": "pron", "text": "Sie", "zh": "您(礼貌称呼,一个或多个人)", "features": { "ipa": "ziː" }, "noteZh": "表示“您”时永远大写,动词和复数一样:Sie sind / Sie heißen。和 sie(她、他们)只差一个大写。" },
+    { "id": "de.ja", "kind": "word", "pos": "interj", "text": "ja", "zh": "是的;对(回答)", "features": { "ipa": "jaː" }, "noteZh": "j 读 [j],像拼音的 y;a 是长音。" },
+    { "id": "de.nein", "kind": "word", "pos": "interj", "text": "nein", "zh": "不;不是(回答)", "features": { "ipa": "naɪ̯n" }, "noteZh": "ei 读 [aɪ̯](像“爱”)。回答“不是”用 nein;否定句子里的内容用 nicht / kein(第 3 单元)。" },
+    { "id": "de.herr", "kind": "word", "pos": "noun", "text": "der Herr", "zh": "先生", "features": { "gender": "m", "plural": "die Herren", "ipa": "hɛʁ" }, "noteZh": "称呼男士:Herr + 姓,如 Herr Wang(不是 Herr Wei);不能光说 Herr 来叫人。" },
+    { "id": "de.frau", "kind": "word", "pos": "noun", "text": "die Frau", "zh": "女士;女人;妻子", "features": { "gender": "f", "plural": "die Frauen", "ipa": "fʁaʊ̯" }, "noteZh": "称呼女士:Frau + 姓(不管结没结婚),如 Frau Wagner;学生叫女老师也是 Frau + 姓。同一个词还是“女人”和“妻子”。" },
+    { "id": "de.student", "kind": "word", "pos": "noun", "text": "der Student", "zh": "(男)大学生", "features": { "gender": "m", "plural": "die Studenten", "ipa": "ʃtuˈdɛnt" }, "noteZh": "说身份、职业不加冠词:Ich bin Student.。st 在词首读 [ʃt];重音在 dent 上。" },
+    { "id": "de.studentin", "kind": "word", "pos": "noun", "text": "die Studentin", "zh": "女大学生", "features": { "gender": "f", "plural": "die Studentinnen", "ipa": "ʃtuˈdɛntɪn" }, "noteZh": "女性的职业、身份大多是阳性 + in,复数 -innen:die Studentinnen。" }
+  ],
+  "reviewItems": ["de.guten_tag", "de.ich_heisse", "de.wie"],
+  "lines": [
+    { "speaker": "wagner", "text": "Guten Tag! Ich bin Frau Wagner. Wie heißen Sie?", "zh": "您好!我是瓦格纳老师。您叫什么名字?", "items": ["de.guten_tag", "de.ich", "de.sein", "de.frau", "de.wie", "de.ich_heisse", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Ich heiße Wei Wang.", "zh": "我叫王伟。", "items": ["de.ich_heisse"] },
+    { "speaker": "wagner", "text": "Herr Wang, sind Sie Student?", "zh": "王先生,您是大学生吗?", "items": ["de.herr", "de.sein", "de.sie_hoeflich", "de.student"] },
+    { "speaker": "wei", "text": "Ja, ich bin Student.", "zh": "是的,我是大学生。", "items": ["de.ja", "de.ich", "de.sein", "de.student"] },
+    { "speaker": "sofia", "text": "Hallo, Wei! Ich heiße Sofia. Bist du aus Shanghai?", "zh": "你好,王伟!我叫索菲娅。你是上海来的吗?", "items": ["de.hallo", "de.ich_heisse", "de.sein", "de.du", "de.ich_komme_aus"] },
+    { "speaker": "wei", "text": "Nein, ich bin aus Chengdu. Bist du Studentin?", "zh": "不是,我是成都来的。你是大学生吗?", "items": ["de.nein", "de.ich", "de.sein", "de.ich_komme_aus", "de.du", "de.studentin"] },
+    { "speaker": "sofia", "text": "Ja, ich bin Studentin.", "zh": "是的,我是大学生。", "items": ["de.ja", "de.ich", "de.sein", "de.studentin"] }
+  ],
+  "questions": [
+    { "prompt": "瓦格纳老师怎么称呼王伟?", "options": ["Herr Wei", "Herr Wang", "Wei", "Frau Wang"], "answer": 1, "explainZh": "老师说 Herr Wang, sind Sie Student?——Herr / Frau 后面跟姓(Wang),不跟名字(Wei)。" },
+    { "prompt": "索菲娅是做什么的?", "options": ["老师", "中学生", "大学生"], "answer": 2, "explainZh": "索菲娅说 Ja, ich bin Studentin.——Studentin 是女大学生,男大学生是 Student。" },
+    { "prompt": "王伟和索菲娅互相怎么称呼?", "options": ["用 du", "用 Sie"], "answer": 0, "explainZh": "同学之间用 du:Bist du aus Shanghai? / Bist du Studentin?;老师和王伟之间用 Sie:Sind Sie Student?。" }
+  ],
+  "grammar": [
+    { "id": "de.g.sein", "titleZh": "sein(是):ich bin, du bist, Sie sind",
+      "bodyZh": "sein 是最常用的动词,变化不规则,只能整体记:ich bin(我是)、du bist(你是)、er / sie ist(他 / 她是)、Sie sind(您是);wir sind、ihr seid、sie sind 第 2 单元再学。说身份、职业不加冠词:Ich bin Student.——英语要说 I am a student,德语不要这个 a,和中文“我是学生”一样。sein 后面也能跟 aus + 地方:Ich bin aus Chengdu. 和 Ich komme aus Chengdu. 意思一样。",
+      "examples": [ { "text": "Ich bin Student.", "zh": "我是大学生。" }, { "text": "Ich bin aus Chengdu.", "zh": "我是成都来的。" } ] },
+    { "id": "de.g.du_sie", "titleZh": "du 还是 Sie?是非问句",
+      "bodyZh": "du 是“你”,对朋友、家人、同学、小孩用;Sie 是“您”,对老师、店员、邻居、陌生的成年人用。Sie 永远大写,动词和复数一样:Sie sind / Sie heißen。大学生之间一见面就用 du,对老师一直用 Sie。称呼用 Herr / Frau + 姓:Herr Wang、Frau Wagner(不说 Herr Wei)。问“是不是”的是非问句,把动词放到句首,用 Ja / Nein 回答:Sind Sie Student? – Ja.——中文在句末加“吗”,德语靠把动词提前。",
+      "examples": [ { "text": "Sind Sie Student? – Ja, ich bin Student.", "zh": "您是大学生吗?——是的,我是大学生。" }, { "text": "Bist du aus Shanghai? – Nein, ich bin aus Chengdu.", "zh": "你是上海来的吗?——不是,我是成都来的。" } ] }
+  ],
+  "review": "draft"
+}

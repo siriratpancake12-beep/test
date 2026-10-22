@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u2.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 我的家人和朋友", "order": 102050,
+  "titleZh": "你爸爸是做什么的?——职业", "goalZh": "会问和说职业,分清 studieren 和 lernen、男女不同的职业名称", "canDoZh": "能说出自己和家人做什么工作,也能问别人的职业",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.beruf", "kind": "word", "pos": "noun", "text": "der Beruf", "zh": "职业", "features": { "gender": "m", "plural": "die Berufe", "ipa": "bəˈʁuːf" }, "noteZh": "问职业:Was machst du? / Was ist dein Beruf?;更地道的 Was bist du von Beruf? 以后会学到。重音在 ruf 上。" },
+    { "id": "de.arbeiten", "kind": "word", "pos": "verb", "text": "arbeiten", "zh": "工作", "features": { "ipa": "ˈaʁbaɪ̯tn̩" }, "noteZh": "词干以 t 结尾,要加 -e- 才好读:du arbeitest, er arbeitet。在哪儿工作用 in:Er arbeitet in Chengdu.。" },
+    { "id": "de.studieren", "kind": "word", "pos": "verb", "text": "studieren", "zh": "上大学;读(某专业)", "features": { "ipa": "ʃtuˈdiːʁən" }, "noteZh": "在大学读书、读专业用 studieren;学一门语言、复习功课用 lernen:Ich studiere in Berlin. Ich lerne Deutsch.。" },
+    { "id": "de.lehrer", "kind": "word", "pos": "noun", "text": "der Lehrer", "zh": "(男)老师", "features": { "gender": "m", "plural": "die Lehrer", "ipa": "ˈleːʁɐ" }, "noteZh": "复数不变:die Lehrer;女老师 die Lehrerin。" },
+    { "id": "de.lehrerin", "kind": "word", "pos": "noun", "text": "die Lehrerin", "zh": "女老师", "features": { "gender": "f", "plural": "die Lehrerinnen", "ipa": "ˈleːʁəʁɪn" }, "noteZh": "复数 die Lehrerinnen(双写 n)。学生称呼女老师用 Frau + 姓,如 Frau Wagner。" },
+    { "id": "de.arzt", "kind": "word", "pos": "noun", "text": "der Arzt", "zh": "(男)医生", "features": { "gender": "m", "plural": "die Ärzte", "ipa": "aːɐ̯tst" }, "noteZh": "复数要变音:die Ärzte;zt 读 [tst]。" },
+    { "id": "de.aerztin", "kind": "word", "pos": "noun", "text": "die Ärztin", "zh": "女医生", "features": { "gender": "f", "plural": "die Ärztinnen", "ipa": "ˈɛːɐ̯tstɪn" }, "noteZh": "阴性形式也变音:Arzt → Ärztin;打不出 Ä 可以写 Ae。" },
+    { "id": "de.koch", "kind": "word", "pos": "noun", "text": "der Koch", "zh": "厨师", "features": { "gender": "m", "plural": "die Köche", "ipa": "kɔx" }, "noteZh": "女厨师 die Köchin;动词 kochen(做饭)。ch 在 o 后读 [x]。" },
+    { "id": "de.schueler", "kind": "word", "pos": "noun", "text": "der Schüler", "zh": "中小学生", "features": { "gender": "m", "plural": "die Schüler", "ipa": "ˈʃyːlɐ" }, "noteZh": "中小学的学生叫 Schüler / Schülerin,大学生才叫 Student / Studentin;中文都叫“学生”,德语要分开。" },
+    { "id": "de.verstehen", "kind": "word", "pos": "verb", "text": "verstehen", "zh": "懂;明白", "features": { "ipa": "fɛɐ̯ˈʃteːən" }, "noteZh": "Verstehst du?(你懂吗?)听不懂可以说 Ich verstehe das nicht.(nicht 第 3 单元学);v 读 [f]。" }
+  ],
+  "reviewItems": ["de.was", "de.student", "de.studentin"],
+  "lines": [
+    { "speaker": "paul", "text": "Wei, was macht dein Vater? Ist er Arzt?", "zh": "王伟,你爸爸是做什么的?他是医生吗?", "items": ["de.was", "de.machen", "de.dein", "de.vater", "de.sein", "de.er", "de.arzt"] },
+    { "speaker": "lena", "text": "Paul, langsam! Wei, verstehst du Paul?", "zh": "保罗,慢点儿!王伟,你听得懂保罗吗?", "items": ["de.langsam", "de.verstehen", "de.du"] },
+    { "speaker": "wei", "text": "Ja, ein bisschen. Mein Vater ist Koch. Er arbeitet in Chengdu.", "zh": "嗯,懂一点。我爸爸是厨师,他在成都工作。", "items": ["de.ja", "de.ein_bisschen", "de.mein", "de.vater", "de.sein", "de.koch", "de.er", "de.arbeiten", "de.in"] },
+    { "speaker": "paul", "text": "Und deine Mutter? Was ist ihr Beruf?", "zh": "那你妈妈呢?她做什么工作?", "items": ["de.und", "de.dein", "de.mutter", "de.was", "de.sein", "de.ihr_poss", "de.beruf"] },
+    { "speaker": "wei", "text": "Sie ist Lehrerin. Meine Schwester ist Ärztin.", "zh": "她是老师。我姐姐是医生。", "items": ["de.sie_sg", "de.sein", "de.lehrerin", "de.mein", "de.schwester", "de.aerztin"] },
+    { "speaker": "lena", "text": "Mein Vater ist Lehrer, und meine Mutter ist auch Ärztin.", "zh": "我爸爸是老师,我妈妈也是医生。", "items": ["de.mein", "de.vater", "de.sein", "de.lehrer", "de.und", "de.mutter", "de.auch", "de.aerztin"] },
+    { "speaker": "wei", "text": "Und du, Paul? Bist du Student?", "zh": "你呢,保罗?你是大学生吗?", "items": ["de.und", "de.du", "de.sein", "de.student"] },
+    { "speaker": "paul", "text": "Nein, ich bin Schüler! Lena ist Studentin, sie studiert Englisch.", "zh": "不是,我是中学生!莉娜是大学生,她学英语专业。", "items": ["de.nein", "de.ich", "de.sein", "de.schueler", "de.studentin", "de.sie_sg", "de.studieren", "de.englisch"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的爸爸是做什么的?", "options": ["医生", "老师", "厨师", "中学生"], "answer": 2, "explainZh": "王伟说:Mein Vater ist Koch.(我爸爸是厨师。)保罗一开始猜他是医生(Arzt)。" },
+    { "prompt": "王伟问保罗 Bist du Student?,保罗为什么说“不是”?", "options": ["他是中学生(Schüler),不是大学生", "他是老师", "他没听懂王伟的话"], "answer": 0, "explainZh": "保罗说 Nein, ich bin Schüler!——中小学生叫 Schüler,大学生才叫 Student;读大学的是莉娜:Lena ist Studentin。" }
+  ],
+  "grammar": [
+    { "id": "de.g.beruf", "titleZh": "说职业:不加冠词,分男女",
+      "bodyZh": "说职业、身份时不加冠词:Mein Vater ist Koch. / Sie ist Ärztin.(英语要说 a cook,德语不说 ✗ ein Koch)。女性形式一般是在阳性后面加 -in:Lehrer → Lehrerin,Student → Studentin,Koch → Köchin;有的还要变音:Arzt → Ärztin。中文的“学生”德语分两种:中小学生是 Schüler,大学生是 Student / Studentin——16 岁的保罗是 Schüler。“读大学、读某个专业”用 studieren(Lena studiert Englisch),“学一门语言、复习功课”用 lernen(Ich lerne Deutsch)。arbeiten 的词干以 t 结尾,du、er 的形式要加 e:du arbeitest, er arbeitet。问职业:Was macht dein Vater? / Was ist ihr Beruf?",
+      "examples": [ { "text": "Mein Vater ist Koch.", "zh": "我爸爸是厨师。" }, { "text": "Paul ist Schüler, Lena ist Studentin.", "zh": "保罗是中学生,莉娜是大学生。" } ] }
+  ],
+  "review": "draft"
+}

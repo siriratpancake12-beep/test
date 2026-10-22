@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u7.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107050,
+  "titleZh": "打电话报名考试:春夏的月份", "goalZh": "会打电话预约、商量日期,记住三月到八月", "canDoZh": "能打电话预约时间,听懂对方提出的日期,说哪天可以、哪天不行",
+  "skills": ["listen", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.termin", "kind": "word", "pos": "noun", "text": "der Termin", "zh": "预约;约定的时间", "features": { "gender": "m", "plural": "die Termine", "ipa": "tɛʁˈmiːn" }, "noteZh": "看医生、办事、考试都要先约 Termin:einen Termin machen;朋友之间约见面一般不说 Termin;重音在 min 上。" },
+    { "id": "de.pruefung", "kind": "word", "pos": "noun", "text": "die Prüfung", "zh": "考试", "features": { "gender": "f", "plural": "die Prüfungen", "ipa": "ˈpʁyːfʊŋ" }, "noteZh": "eine Prüfung machen = 参加考试;-ung 结尾的名词都是阴性;A1 考试:die A1-Prüfung。" },
+    { "id": "de.maerz", "kind": "word", "pos": "noun", "text": "der März", "zh": "三月", "features": { "gender": "m", "plural": "-", "ipa": "mɛʁts" }, "noteZh": "ä 读 [ɛ];月份都是阳性,“在几月”用 im:im März。" },
+    { "id": "de.april", "kind": "word", "pos": "noun", "text": "der April", "zh": "四月", "features": { "gender": "m", "plural": "-", "ipa": "aˈpʁɪl" }, "noteZh": "重音在后:a-PRIL;im April。" },
+    { "id": "de.mai", "kind": "word", "pos": "noun", "text": "der Mai", "zh": "五月", "features": { "gender": "m", "plural": "-", "ipa": "maɪ̯" }, "noteZh": "ai 和 ei 一样读 [aɪ̯];am 17. Mai 读作 am siebzehnten Mai。" },
+    { "id": "de.juni", "kind": "word", "pos": "noun", "text": "der Juni", "zh": "六月", "features": { "gender": "m", "plural": "-", "ipa": "ˈjuːni" }, "noteZh": "j 读 [j];打电话时为了和 Juli 区分,常说 Juno(只是口头说法,写还是 Juni)。" },
+    { "id": "de.juli", "kind": "word", "pos": "noun", "text": "der Juli", "zh": "七月", "features": { "gender": "m", "plural": "-", "ipa": "ˈjuːli" }, "noteZh": "打电话时为了和 Juni 区分,常说 Julei(只是口头说法,写还是 Juli)。" },
+    { "id": "de.august", "kind": "word", "pos": "noun", "text": "der August", "zh": "八月", "features": { "gender": "m", "plural": "-", "ipa": "aʊ̯ˈɡʊst" }, "noteZh": "月份的重音在 gust 上:au-GUST(人名 August 重音在前)。" },
+    { "id": "de.frei", "kind": "word", "pos": "adj", "text": "frei", "zh": "空的;有空;免费", "features": { "ipa": "fʁaɪ̯" }, "noteZh": "Am Montag ist ein Termin frei.(周一有空位。)Ist hier frei?(这里有人坐吗?)也表示“有空”和“免费”。" },
+    { "id": "de.anrufen", "kind": "word", "pos": "verb", "text": "anrufen", "zh": "打电话(给某人)", "features": { "ipa": "ˈanˌʁuːfn̩" }, "noteZh": "可分:Ich rufe dich morgen an.;被叫的人直接用第四格:Ich rufe Lena an.(不用“给”);打电话时先报名字:Hier ist …。" }
+  ],
+  "reviewItems": ["de.am", "de.koennen", "de.leider"],
+  "lines": [
+    { "speaker": "mitarbeiterin", "text": "Guten Tag! Wie kann ich Ihnen helfen?", "zh": "您好!有什么可以帮您的?", "items": ["de.guten_tag", "de.wie", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
+    { "speaker": "wei", "text": "Guten Tag, hier ist Wei Wang. Ich möchte im März die A1-Prüfung machen.", "zh": "您好,我是王伟。我想三月参加 A1 考试。", "items": ["de.guten_tag", "de.hier", "de.sein", "de.ich", "de.moechten", "de.in", "de.maerz", "de.pruefung", "de.machen"] },
+    { "speaker": "mitarbeiterin", "text": "Im März ist leider kein Termin frei, aber am 12. April.", "zh": "很遗憾,三月已经没有空位了,不过 4 月 12 日还有。", "items": ["de.in", "de.maerz", "de.sein", "de.leider", "de.kein", "de.termin", "de.frei", "de.aber", "de.am", "de.zwoelf", "de.april"] },
+    { "speaker": "wei", "text": "Am 12. April kann ich leider nicht. Geht es auch im Mai?", "zh": "4 月 12 日我去不了。五月可以吗?", "items": ["de.am", "de.zwoelf", "de.april", "de.koennen", "de.ich", "de.leider", "de.nicht", "de.gehen", "de.es", "de.auch", "de.in", "de.mai"] },
+    { "speaker": "mitarbeiterin", "text": "Ja, am 17. Mai. Im Juni, Juli und August gibt es keine Prüfung.", "zh": "可以,5 月 17 日。六月、七月和八月没有考试。", "items": ["de.ja", "de.am", "de.siebzehn", "de.mai", "de.in", "de.juni", "de.juli", "de.und", "de.august", "de.es_gibt", "de.kein", "de.pruefung"] },
+    { "speaker": "wei", "text": "Gut, dann nehme ich den 17. Mai.", "zh": "好,那我就选 5 月 17 日。", "items": ["de.gut", "de.dann", "de.nehmen", "de.ich", "de.siebzehn", "de.mai"] },
+    { "speaker": "mitarbeiterin", "text": "Gut, Herr Wang. Ich rufe Sie im April noch einmal an.", "zh": "好的,王先生。四月我再给您打个电话。", "items": ["de.gut", "de.herr", "de.ich", "de.anrufen", "de.sie_hoeflich", "de.in", "de.april", "de.noch_einmal"] },
+    { "speaker": "wei", "text": "Vielen Dank! Auf Wiedersehen!", "zh": "非常感谢!再见!", "items": ["de.vielen_dank", "de.auf_wiedersehen"] }
+  ],
+  "questions": [
+    { "prompt": "王伟最后报了哪天的考试?", "options": ["3 月 12 日", "4 月 12 日", "5 月 17 日"], "answer": 2, "explainZh": "王伟说:Gut, dann nehme ich den 17. Mai.(好,那我就选 5 月 17 日。)" },
+    { "prompt": "4 月 12 日为什么不行?", "options": ["王伟那天去不了", "那天没有空位了", "那天没有考试"], "answer": 0, "explainZh": "王伟说:Am 12. April kann ich leider nicht.(4 月 12 日我去不了。)三月才是没有空位。" }
+  ],
+  "grammar": [
+    { "id": "de.g.datum_telefon", "titleZh": "am 17. Mai:日期的说法和打电话",
+      "bodyZh": "“在几月”用 im:im März、im Mai;“在几号”用 am + 序数词:am 12. April 读作 am zwölften April,am 17. Mai 读作 am siebzehnten Mai(1–19 号加 -ten,20 号以后加 -sten,如 am zwanzigsten)。写的时候数字后面加点:12.。中文“5 月 17 日”月在前,德语日在前:17. Mai。打电话时先报自己的名字:Hier ist Wei Wang.(我是王伟。)anrufen(打电话)是可分动词,前缀 an 放句末:Ich rufe Sie an.;被叫的人直接用第四格(Sie、dich、Lena),不像中文要说“给您打”。",
+      "examples": [
+        { "text": "Am 17. Mai ist ein Termin frei.", "zh": "5 月 17 日有一个空位。" },
+        { "text": "Ich rufe Sie morgen an.", "zh": "我明天给您打电话。" }
+      ] }
+  ],
+  "review": "draft"
+}

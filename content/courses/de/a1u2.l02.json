@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u2.l02", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 我的家人和朋友", "order": 102020,
+  "titleZh": "这是我奶奶:介绍家人", "goalZh": "会问“这是谁?”,用 er / sie 介绍家人,用 haben 说“我有……”", "canDoZh": "能用手机里的照片或视频介绍自己的家人:他们是谁、叫什么、住在哪里",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.familie", "kind": "word", "pos": "noun", "text": "die Familie", "zh": "家;家庭", "features": { "gender": "f", "plural": "die Familien", "ipa": "faˈmiːli̯ə" }, "noteZh": "重音在 mi 上;词尾 -ie 读 [i̯ə]。Hat sie Familie? = 她成家了吗(有丈夫、孩子吗)?" },
+    { "id": "de.eltern", "kind": "word", "pos": "noun", "text": "die Eltern", "zh": "父母", "features": { "gender": "pl", "ipa": "ˈɛltɐn" }, "noteZh": "只有复数形式,这里的 die 是复数冠词(不是阴性):meine Eltern;动词也用复数:Meine Eltern wohnen in Chengdu.。" },
+    { "id": "de.geschwister", "kind": "word", "pos": "noun", "text": "die Geschwister", "zh": "兄弟姐妹", "features": { "gender": "pl", "ipa": "ɡəˈʃvɪstɐ" }, "noteZh": "平时只用复数:Hast du Geschwister?;德语不分哥哥 / 弟弟、姐姐 / 妹妹,要说清楚再加 älter / jünger。" },
+    { "id": "de.oma", "kind": "word", "pos": "noun", "text": "die Oma", "zh": "奶奶;外婆", "alt": ["die Großmutter"], "features": { "gender": "f", "plural": "die Omas", "ipa": "ˈoːma" }, "noteZh": "德语不分奶奶和外婆;正式说法是 die Großmutter;爷爷、外公是 der Opa。" },
+    { "id": "de.mann", "kind": "word", "pos": "noun", "text": "der Mann", "zh": "男人;丈夫", "features": { "gender": "m", "plural": "die Männer", "ipa": "man" }, "noteZh": "ihr Mann = 她丈夫;复数要变音:die Männer。和 die Frau(女人;妻子)一样,一个词两个意思。" },
+    { "id": "de.wer", "kind": "word", "pos": "pron", "text": "wer", "zh": "谁", "features": { "ipa": "veːɐ̯" }, "noteZh": "Wer ist das?;wer 是“谁”,wo 是“在哪里”,和英语的 who / where 正好容易搞反。" },
+    { "id": "de.er", "kind": "word", "pos": "pron", "text": "er", "zh": "他;它(指阳性名词)", "features": { "ipa": "eːɐ̯" }, "noteZh": "指男性,也指阳性名词:der Vater → er,der Tisch → er(第 3 单元)。" },
+    { "id": "de.sie_sg", "kind": "word", "pos": "pron", "text": "sie", "zh": "她;它(指阴性名词)", "features": { "ipa": "ziː" }, "noteZh": "指女性,也指阴性名词:die Mutter → sie。动词用第三人称单数:sie wohnt, sie hat。" },
+    { "id": "de.haben", "kind": "word", "pos": "verb", "text": "haben", "zh": "有", "features": { "ipa": "ˈhaːbn̩" }, "noteZh": "不规则:ich habe, du hast, er/sie hat。阳性名词跟在 haben 后面,ein 要变成 einen:Ich habe einen Bruder.。" },
+    { "id": "de.handy", "kind": "word", "pos": "noun", "text": "das Handy", "zh": "手机", "alt": ["das Smartphone"], "features": { "gender": "n", "plural": "die Handys", "ipa": "ˈhɛndi" }, "noteZh": "看着像英语,但英语不这么说(英语 handy = 方便的);手机号:die Handynummer。" }
+  ],
+  "reviewItems": ["de.vater", "de.mutter", "de.schwester", "de.kind"],
+  "lines": [
+    { "speaker": "sofia", "text": "Wei, wer ist das? Deine Oma?", "zh": "王伟,这是谁?你奶奶吗?", "items": ["de.wer", "de.sein", "de.das_ist", "de.oma"] },
+    { "speaker": "wei", "text": "Ja, das ist meine Oma. Sie hat auch ein Handy!", "zh": "对,这是我奶奶。她也有手机!", "items": ["de.ja", "de.das_ist", "de.oma", "de.sie_sg", "de.haben", "de.auch", "de.eins", "de.handy"] },
+    { "speaker": "sofia", "text": "Und wer ist er? Dein Vater?", "zh": "那他是谁?你爸爸吗?", "items": ["de.und", "de.wer", "de.sein", "de.er", "de.vater"] },
+    { "speaker": "wei", "text": "Ja. Das sind meine Eltern, mein Vater und meine Mutter.", "zh": "对。这是我父母,我爸爸和我妈妈。", "items": ["de.ja", "de.das_ist", "de.sein", "de.eltern", "de.vater", "de.und", "de.mutter"] },
+    { "speaker": "sofia", "text": "Hast du Geschwister?", "zh": "你有兄弟姐妹吗?", "items": ["de.haben", "de.du", "de.geschwister"] },
+    { "speaker": "wei", "text": "Ja, eine Schwester in Shanghai. Sie hat einen Mann und ein Kind.", "zh": "有,一个姐姐,在上海。她有丈夫和一个孩子。", "items": ["de.ja", "de.eins", "de.schwester", "de.in", "de.sie_sg", "de.haben", "de.mann", "de.und", "de.kind"] },
+    { "speaker": "sofia", "text": "Meine Familie wohnt in Italien. Ich habe einen Bruder.", "zh": "我家在意大利。我有一个兄弟。", "items": ["de.familie", "de.wohnen", "de.in", "de.italien", "de.ich", "de.haben", "de.eins", "de.bruder"] },
+    { "speaker": "wei", "text": "Und deine Oma? Hat sie auch ein Handy?", "zh": "那你奶奶呢?她也有手机吗?", "items": ["de.und", "de.oma", "de.haben", "de.sie_sg", "de.auch", "de.eins", "de.handy"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的姐姐住在哪里?", "options": ["成都", "柏林", "上海", "意大利"], "answer": 2, "explainZh": "王伟说:Ja, eine Schwester in Shanghai.(有,一个姐姐,在上海。)他的父母和奶奶在成都。" },
+    { "prompt": "最后王伟问索菲娅什么?", "options": ["她有没有兄弟姐妹", "她奶奶有没有手机", "她家住在哪里"], "answer": 1, "explainZh": "王伟问:Und deine Oma? Hat sie auch ein Handy?(那你奶奶呢?她也有手机吗?)" }
+  ],
+  "grammar": [
+    { "id": "de.g.haben_er_sie", "titleZh": "haben(有)和 er / sie",
+      "bodyZh": "haben 是不规则动词:ich habe, du hast, er / sie hat, Sie haben。问“有没有”把动词放句首:Hast du Geschwister?。haben 后面的阳性名词,ein 要变成 einen:Sie hat einen Mann.;阴性用 eine,中性用 ein:eine Schwester, ein Kind(第 3 单元细讲)。er 指男性,sie 指女性:Wer ist er? / Sie hat ein Handy.;它们也能指东西,跟着名词的性走:der → er,die → sie。问“谁”用 wer(不是 wo!):Wer ist das?;介绍几个人用 Das sind …:Das sind meine Eltern.。",
+      "examples": [ { "text": "Hast du Geschwister? – Ja, ich habe eine Schwester.", "zh": "你有兄弟姐妹吗?——有,我有一个姐姐。" }, { "text": "Sie hat einen Mann und ein Kind.", "zh": "她有丈夫和一个孩子。" } ] }
+  ],
+  "review": "draft"
+}

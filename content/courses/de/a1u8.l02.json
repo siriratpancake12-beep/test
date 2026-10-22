@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u8.l02", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 健康与周末", "order": 108020,
+  "titleZh": "春天来了:天气和季节", "goalZh": "会说天气怎么样、多少度,记住春天和夏天", "canDoZh": "能说今天天气怎么样(出太阳、下雨、热、多少度),听懂简单的天气预报",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.wetter", "kind": "word", "pos": "noun", "text": "das Wetter", "zh": "天气", "features": { "gender": "n", "plural": "-", "ipa": "ˈvɛtɐ" }, "noteZh": "Wie ist das Wetter?(天气怎么样?)天气是德国人最爱聊的“安全话题”;w 读 [v]。" },
+    { "id": "de.sonne", "kind": "word", "pos": "noun", "text": "die Sonne", "zh": "太阳;阳光", "features": { "gender": "f", "plural": "-", "ipa": "ˈzɔnə" }, "noteZh": "Die Sonne scheint.(出太阳了。)s 在词首元音前读 [z]。" },
+    { "id": "de.scheinen", "kind": "word", "pos": "verb", "text": "scheinen", "zh": "照耀", "features": { "ipa": "ˈʃaɪ̯nən" }, "noteZh": "A1 基本只用在 Die Sonne scheint. 里;ei 读 [aɪ̯]。" },
+    { "id": "de.regen", "kind": "word", "pos": "noun", "text": "der Regen", "zh": "雨", "features": { "gender": "m", "plural": "-", "ipa": "ˈʁeːɡn̩" }, "noteZh": "名词:Am Samstag gibt es Regen.(星期六有雨。)动词是 regnen:Es regnet.。" },
+    { "id": "de.regnen", "kind": "word", "pos": "verb", "text": "regnen", "zh": "下雨", "features": { "ipa": "ˈʁeːɡnən" }, "noteZh": "只用 es 做主语:Es regnet.(下雨了。)es 不能省。" },
+    { "id": "de.heiss", "kind": "word", "pos": "adj", "text": "heiß", "zh": "热;烫", "features": { "ipa": "haɪ̯s" }, "noteZh": "Es ist heiß.;比 warm(暖和)热得多;东西烫也说 heiß,“辣”是 scharf。" },
+    { "id": "de.schnee", "kind": "word", "pos": "noun", "text": "der Schnee", "zh": "雪", "features": { "gender": "m", "plural": "-", "ipa": "ʃneː" }, "noteZh": "Es gibt Schnee.(有雪。)下雪也说 Es schneit.;ee 读长音 [eː]。" },
+    { "id": "de.fruehling", "kind": "word", "pos": "noun", "text": "der Frühling", "zh": "春天", "features": { "gender": "m", "plural": "die Frühlinge", "ipa": "ˈfʁyːlɪŋ" }, "noteZh": "im Frühling;四季都是阳性:der Frühling, der Sommer, der Herbst, der Winter。" },
+    { "id": "de.sommer", "kind": "word", "pos": "noun", "text": "der Sommer", "zh": "夏天", "features": { "gender": "m", "plural": "die Sommer", "ipa": "ˈzɔmɐ" }, "noteZh": "im Sommer;s 在元音前读 [z];暑假:die Sommerferien。" },
+    { "id": "de.grad", "kind": "word", "pos": "noun", "text": "der Grad", "zh": "度(温度)", "features": { "gender": "m", "plural": "die Grade", "ipa": "ɡʁaːt" }, "noteZh": "说温度不用复数:25 Grad;Es sind 25 Grad.;零下:minus 5 Grad;词尾 d 读 [t]。" }
+  ],
+  "reviewItems": ["de.kalt", "de.warm", "de.maerz", "de.mai"],
+  "lines": [
+    { "speaker": "hoffmann", "text": "Guten Tag, Herr Wang! Heute scheint die Sonne.", "zh": "您好,王先生!今天出太阳了。", "items": ["de.guten_tag", "de.herr", "de.heute", "de.scheinen", "de.sonne"] },
+    { "speaker": "wei", "text": "Ja, und es ist warm. Der Frühling ist da!", "zh": "是啊,而且很暖和。春天来了!", "items": ["de.ja", "de.und", "de.es", "de.sein", "de.warm", "de.fruehling", "de.da"] },
+    { "speaker": "hoffmann", "text": "Ja. Im März ist es in Berlin oft noch kalt, und es gibt Schnee.", "zh": "是啊。柏林三月常常还很冷,还会下雪。", "items": ["de.ja", "de.in", "de.maerz", "de.sein", "de.es", "de.oft", "de.noch", "de.kalt", "de.und", "de.es_gibt", "de.schnee"] },
+    { "speaker": "wei", "text": "Und im April regnet es oft. Jetzt im Mai ist das Wetter schön.", "zh": "四月又常常下雨。现在是五月,天气真好。", "items": ["de.und", "de.in", "de.april", "de.regnen", "de.es", "de.oft", "de.jetzt", "de.mai", "de.sein", "de.wetter", "de.schoen"] },
+    { "speaker": "hoffmann", "text": "Wie ist der Sommer in Chengdu?", "zh": "成都的夏天怎么样?", "items": ["de.wie", "de.sein", "de.sommer", "de.in"] },
+    { "speaker": "wei", "text": "Sehr heiß! Im Sommer haben wir oft 35 Grad.", "zh": "很热!夏天常常有 35 度。", "items": ["de.sehr", "de.heiss", "de.in", "de.sommer", "de.haben", "de.wir", "de.oft", "de.fuenf", "de.dreissig", "de.grad"] },
+    { "speaker": "radio", "text": "Und jetzt das Wetter für das Wochenende: Am Samstag gibt es Regen.", "zh": "下面是周末的天气:星期六有雨。", "items": ["de.und", "de.jetzt", "de.wetter", "de.fuer", "de.wochenende", "de.am", "de.samstag", "de.es_gibt", "de.regen"] },
+    { "speaker": "radio", "text": "Am Sonntag scheint die Sonne, und es sind 25 Grad.", "zh": "星期天出太阳,气温 25 度。", "items": ["de.am", "de.sonntag", "de.scheinen", "de.sonne", "de.und", "de.es", "de.sein", "de.fuenf", "de.zwanzig", "de.grad"] }
+  ],
+  "questions": [
+    { "prompt": "收音机说星期天天气怎么样?", "options": ["下雨", "出太阳,25 度", "下雪,很冷"], "answer": 1, "explainZh": "Am Sonntag scheint die Sonne, und es sind 25 Grad.(星期天出太阳,25 度。)下雨的是星期六。" },
+    { "prompt": "王伟说成都的夏天怎么样?", "options": ["很热,常常 35 度", "不太热,25 度左右", "常常下雪"], "answer": 0, "explainZh": "王伟说:Sehr heiß! Im Sommer haben wir oft 35 Grad.(很热!夏天常常有 35 度。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.wetter_es", "titleZh": "说天气:es 做主语",
+      "bodyZh": "德语说天气,主语常常是没有实际意思的 es:Es regnet.(下雨了。)Es ist warm / kalt / heiß.(天暖和 / 冷 / 热。)Es gibt Schnee / Regen.(有雪 / 有雨。)中文“下雨了”没有主语,英语说 It's raining,德语和英语一样,es 不能省,不能只说 Regnet.。出太阳说 Die Sonne scheint.。气温:Es sind 25 Grad.(数字大于 1,动词用 sind;口语也常说 Wir haben 25 Grad.),Grad 不用复数。季节和月份前面用 im:im Frühling、im Sommer、im März。问天气:Wie ist das Wetter?",
+      "examples": [
+        { "text": "Im April regnet es oft.", "zh": "四月常常下雨。" },
+        { "text": "Im Sommer ist es heiß.", "zh": "夏天很热。" }
+      ] }
+  ],
+  "review": "draft"
+}

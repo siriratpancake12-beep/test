@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u7.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107040,
+  "titleZh": "在邮局:给家里寄春节礼物", "goalZh": "会在邮局寄信和包裹,问价格和要多长时间", "canDoZh": "能在邮局把包裹寄到中国,问清楚多少钱、多久能到,看懂营业时间",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.paket", "kind": "word", "pos": "noun", "text": "das Paket", "zh": "包裹", "features": { "gender": "n", "plural": "die Pakete", "ipa": "paˈkeːt" }, "noteZh": "重音在 ket 上;寄包裹:ein Paket schicken;小一点的包裹叫 das Päckchen。" },
+    { "id": "de.brief", "kind": "word", "pos": "noun", "text": "der Brief", "zh": "信", "features": { "gender": "m", "plural": "die Briefe", "ipa": "bʁiːf" }, "noteZh": "ie 读长音 [iː];复数 die Briefe;写信:einen Brief schreiben。" },
+    { "id": "de.briefmarke", "kind": "word", "pos": "noun", "text": "die Briefmarke", "zh": "邮票", "features": { "gender": "f", "plural": "die Briefmarken", "ipa": "ˈbʁiːfˌmaʁkə" }, "noteZh": "Brief + Marke;复合词的性看最后一个词:die Marke → die Briefmarke。" },
+    { "id": "de.schicken", "kind": "word", "pos": "verb", "text": "schicken", "zh": "寄;发送", "features": { "ipa": "ˈʃɪkn̩" }, "noteZh": "Ich schicke ein Paket nach China.;寄到某个国家、城市用 nach;发照片、发消息也可以用 schicken。" },
+    { "id": "de.fuer", "kind": "word", "pos": "prep", "text": "für", "zh": "给;为了", "features": { "ipa": "fyːɐ̯" }, "noteZh": "für + 第四格:für meine Familie、für dich(给你);阳性要变:für meinen Vater;ü 读长音 [yː]。" },
+    { "id": "de.wie_lange", "kind": "phrase", "pos": "phrase", "text": "wie lange", "zh": "多长时间;多久", "features": { "ipa": "viː ˈlaŋə" }, "noteZh": "问要多长时间:Wie lange dauert das?(要多久?)– Zwei Wochen.;问“什么时候”用 wann。" },
+    { "id": "de.dauern", "kind": "word", "pos": "verb", "text": "dauern", "zh": "持续;需要(多长时间)", "features": { "ipa": "ˈdaʊ̯ɐn" }, "noteZh": "主语一般是事情:Das dauert zwei Wochen.(要两个星期。)au 读 [aʊ̯]。" },
+    { "id": "de.schwer", "kind": "word", "pos": "adj", "text": "schwer", "zh": "重;难", "features": { "ipa": "ʃveːɐ̯" }, "noteZh": "Das Paket ist schwer.(包裹很重。)也表示“难”:Deutsch ist schwer.;反义词 leicht(轻;容易)。" },
+    { "id": "de.von", "kind": "word", "pos": "prep", "text": "von", "zh": "从;……的", "features": { "ipa": "fɔn" }, "noteZh": "von … bis …:von 9 bis 18 Uhr(9 点到 18 点);von Berlin nach Chengdu(从柏林到成都);v 读 [f];von 后面用第三格。" },
+    { "id": "de.bis", "kind": "word", "pos": "prep", "text": "bis", "zh": "到;直到", "features": { "ipa": "bɪs" }, "noteZh": "von … bis …(从……到……);zwei bis drei Wochen(两到三周);告别:Bis morgen!(明天见!)" }
+  ],
+  "reviewItems": ["de.post", "de.geschenk", "de.china", "de.woche"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Tag! Ich möchte das Paket nach China schicken.", "zh": "您好!我想把这个包裹寄到中国。", "items": ["de.guten_tag", "de.ich", "de.moechten", "de.paket", "de.nach", "de.china", "de.schicken"] },
+    { "speaker": "postangestellter", "text": "Gern. Das Paket ist sehr schwer. Was ist im Paket?", "zh": "好的。这个包裹很重啊。里面是什么?", "items": ["de.gern", "de.paket", "de.sein", "de.sehr", "de.schwer", "de.was", "de.in"] },
+    { "speaker": "wei", "text": "Geschenke für meine Familie. Wie viel kostet das?", "zh": "是给我家人的礼物。寄过去多少钱?", "items": ["de.geschenk", "de.fuer", "de.mein", "de.familie", "de.wie_viel", "de.kosten"] },
+    { "speaker": "postangestellter", "text": "Nach China? Das macht 49 Euro.", "zh": "寄到中国?一共 49 欧元。", "items": ["de.nach", "de.china", "de.das_macht", "de.neun", "de.vierzig", "de.euro"] },
+    { "speaker": "wei", "text": "Und wie lange dauert das von Berlin nach Chengdu?", "zh": "从柏林寄到成都要多长时间?", "items": ["de.und", "de.wie_lange", "de.dauern", "de.von", "de.nach"] },
+    { "speaker": "postangestellter", "text": "Mit der Post dauert es zwei bis drei Wochen.", "zh": "普通邮寄要两到三个星期。", "items": ["de.mit", "de.post", "de.dauern", "de.es", "de.zwei", "de.bis", "de.drei", "de.woche"] },
+    { "speaker": "wei", "text": "Gut. Ich habe auch einen Brief für meine Oma.", "zh": "好的。我还有一封给我奶奶的信。", "items": ["de.gut", "de.ich", "de.haben", "de.auch", "de.ein", "de.brief", "de.fuer", "de.mein", "de.oma"] },
+    { "speaker": "postangestellter", "text": "Dann brauchen Sie noch eine Briefmarke. Hier, bitte!", "zh": "那您还需要一张邮票。给您!", "items": ["de.dann", "de.brauchen", "de.sie_hoeflich", "de.noch", "de.ein", "de.briefmarke", "de.hier", "de.bitte"] }
+  ],
+  "questions": [
+    { "prompt": "把包裹寄到中国要多少钱?", "options": ["49 欧元", "94 欧元", "19 欧元"], "answer": 0, "explainZh": "职员说:Das macht 49 Euro. neunundvierzig 先说个位 neun,再说十位 vierzig,别听成 94。" },
+    { "prompt": "包裹寄到成都要多久?", "options": ["两三天", "一个月", "两三个星期"], "answer": 2, "explainZh": "职员说:Mit der Post dauert es zwei bis drei Wochen.(普通邮寄要两到三个星期。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.fuer_von_bis", "titleZh": "für + 第四格;von … bis …",
+      "bodyZh": "für(给……;为了……)后面用第四格:für meine Familie、für meine Oma、für dich(给你)、für Sie(给您);阳性要变:für meinen Vater——和 brauchen、haben 后面的变化一样。von … bis … 是“从……到……”,时间、日子都能用:von 9 bis 18 Uhr、von Montag bis Freitag;邮局、商店门口的营业时间就是这么写的(Mo–Fr 9–18 Uhr)。从一个城市到另一个城市说 von … nach …:von Berlin nach Chengdu。只说“到”用 bis:zwei bis drei Wochen(两到三周)、Bis morgen!(明天见!)问要多长时间:Wie lange dauert das?",
+      "examples": [
+        { "text": "Der Brief ist für meine Oma.", "zh": "这封信是给我奶奶的。" },
+        { "text": "Der Kurs ist von 9 bis 12 Uhr.", "zh": "课从 9 点上到 12 点。" }
+      ] }
+  ],
+  "review": "draft"
+}

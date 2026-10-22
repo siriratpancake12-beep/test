@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u1.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 你好,我是……", "order": 101080,
+  "titleZh": "单元复习:德语课上的自我介绍", "goalZh": "把第 1 单元的问候、介绍、国家和语言串起来,完整地介绍自己", "canDoZh": "能用 5–6 句话完整地介绍自己:名字、来自哪里、住在哪里、会说什么语言",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.guten_morgen", "kind": "phrase", "pos": "phrase", "text": "Guten Morgen", "zh": "早上好", "features": { "ipa": "ˌɡuːtn̩ ˈmɔʁɡn̩" }, "noteZh": "大约上午 10 点以前用,之后用 Guten Tag;熟人之间也可以只说 Morgen!。" },
+    { "id": "de.auf_wiedersehen", "kind": "phrase", "pos": "phrase", "text": "Auf Wiedersehen", "zh": "再见(正式)", "features": { "ipa": "aʊ̯f ˈviːdɐˌzeːən" }, "noteZh": "对老师、店员、陌生人用;朋友之间说 Tschüss。wieder 是“再”,sehen 是“看见”,和中文“再见”的构词一样。" },
+    { "id": "de.deutschland", "kind": "word", "pos": "propn", "text": "Deutschland", "zh": "德国", "features": { "gender": "n", "ipa": "ˈdɔʏ̯tʃlant" }, "noteZh": "词尾 d 读 [t]。德国:Deutschland;德语:Deutsch。和 China、Italien 一样不带冠词:Ich komme aus Deutschland.。" },
+    { "id": "de.auch", "kind": "word", "pos": "adv", "text": "auch", "zh": "也", "features": { "ipa": "aʊ̯x" }, "noteZh": "一般放在动词后面:Ich wohne auch in Berlin.。ch 在 a、o、u、au 后读 [x],像拼音的 h。" }
+  ],
+  "reviewItems": ["de.ich_heisse", "de.wohnen", "de.sprechen", "de.sein"],
+  "lines": [
+    { "speaker": "wagner", "text": "Guten Morgen! Herr Wang, bitte!", "zh": "早上好!王先生,请您先来!", "items": ["de.guten_morgen", "de.herr", "de.bitte"] },
+    { "speaker": "wei", "text": "Guten Morgen! Ich heiße Wei Wang. Ich bin Student aus China.", "zh": "早上好!我叫王伟,是来自中国的大学生。", "items": ["de.guten_morgen", "de.ich_heisse", "de.ich", "de.sein", "de.student", "de.ich_komme_aus", "de.china"] },
+    { "speaker": "wagner", "text": "Und wo wohnen Sie?", "zh": "那您住在哪里?", "items": ["de.und", "de.wo", "de.wohnen", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Ich wohne in Berlin, in Neukölln.", "zh": "我住在柏林的新克尔恩区。", "items": ["de.ich", "de.wohnen", "de.in"] },
+    { "speaker": "wagner", "text": "Sprechen Sie Englisch?", "zh": "您会说英语吗?", "items": ["de.sprechen", "de.sie_hoeflich", "de.englisch"] },
+    { "speaker": "wei", "text": "Ja. Ich spreche Chinesisch, Englisch und ein bisschen Deutsch.", "zh": "会。我会说中文、英语和一点德语。", "items": ["de.ja", "de.ich", "de.sprechen", "de.chinesisch", "de.englisch", "de.und", "de.ein_bisschen", "de.deutsch"] },
+    { "speaker": "wagner", "text": "Danke, Herr Wang! Und Sie?", "zh": "谢谢,王先生!那您呢?", "items": ["de.danke", "de.herr", "de.und", "de.sie_hoeflich"] },
+    { "speaker": "sofia", "text": "Ich heiße Sofia und komme aus Italien. Ich wohne auch in Berlin.", "zh": "我叫索菲娅,来自意大利。我也住在柏林。", "items": ["de.ich_heisse", "de.und", "de.ich_komme_aus", "de.italien", "de.ich", "de.wohnen", "de.auch", "de.in"] },
+    { "speaker": "wagner", "text": "Sprechen Sie auch Englisch?", "zh": "您也会说英语吗?", "items": ["de.sprechen", "de.sie_hoeflich", "de.auch", "de.englisch"] },
+    { "speaker": "sofia", "text": "Ja, ich spreche Englisch und Deutsch. Frau Wagner, woher kommen Sie?", "zh": "会,我会说英语和德语。瓦格纳老师,您是从哪里来的?", "items": ["de.ja", "de.ich", "de.sprechen", "de.englisch", "de.und", "de.deutsch", "de.frau", "de.woher", "de.ich_komme_aus", "de.sie_hoeflich"] },
+    { "speaker": "wagner", "text": "Ich komme aus Köln in Deutschland. Gut, auf Wiedersehen!", "zh": "我来自德国科隆。好,再见!", "items": ["de.ich_komme_aus", "de.in", "de.deutschland", "de.gut", "de.auf_wiedersehen"] },
+    { "speaker": "wei", "text": "Auf Wiedersehen, Frau Wagner! Tschüss, Sofia!", "zh": "瓦格纳老师再见!再见,索菲娅!", "items": ["de.auf_wiedersehen", "de.frau", "de.tschuess"] }
+  ],
+  "questions": [
+    { "prompt": "瓦格纳老师来自哪里?", "options": ["科隆", "柏林", "意大利", "成都"], "answer": 0, "explainZh": "老师说:Ich komme aus Köln in Deutschland.(我来自德国科隆。)" },
+    { "prompt": "索菲娅现在住在哪里?", "options": ["意大利", "科隆", "柏林"], "answer": 2, "explainZh": "索菲娅说 Ich wohne auch in Berlin.(我也住在柏林。)她来自意大利,现在和王伟一样住在柏林。" },
+    { "prompt": "下课时王伟怎么告别?", "options": ["对老师和索菲娅都说 Tschüss", "对老师说 Auf Wiedersehen,对索菲娅说 Tschüss", "对老师和索菲娅都说 Guten Morgen"], "answer": 1, "explainZh": "王伟说 Auf Wiedersehen, Frau Wagner! Tschüss, Sofia!——对老师用正式的 Auf Wiedersehen,对同学用随意的 Tschüss。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u1_verben", "titleZh": "复习:ich / du / Sie 的动词形式",
+      "bodyZh": "第 1 单元学的动词,和 ich、du、Sie 搭配时这样变:\n· 规则动词:ich wohne – du wohnst – Sie wohnen;ich komme – du kommst – Sie kommen;ich heiße – du heißt – Sie heißen。\n· sprechen:ich spreche – du sprichst – Sie sprechen(du 的形式 e 变 i)。\n· sein:ich bin – du bist – Sie sind(要整体记)。\n口诀:ich 后面 -e,du 后面 -st,Sie 后面和原形一样。两种问句:W-问句疑问词在句首、动词第二位(Wo wohnen Sie?);是非问句动词在句首(Sprechen Sie Englisch?)。",
+      "examples": [ { "text": "Ich wohne in Berlin, in Neukölln.", "zh": "我住在柏林的新克尔恩区。" }, { "text": "Sprechen Sie Englisch?", "zh": "您会说英语吗?" } ] },
+    { "id": "de.g.auch", "titleZh": "auch(也)放在哪儿?",
+      "bodyZh": "auch 一般紧跟在动词后面:Ich wohne auch in Berlin.(我也住在柏林。)/ Sprechen Sie auch Englisch?(您也会说英语吗?)中文的“也”放在动词前面(我也住……),德语的 auch 放在动词后面,别说成 ✗ Ich auch wohne in Berlin.。只想说“我也是”的时候,可以单独说 Ich auch!。",
+      "examples": [ { "text": "Ich wohne auch in Berlin.", "zh": "我也住在柏林。" }, { "text": "Sprechen Sie auch Englisch?", "zh": "您也会说英语吗?" } ] }
+  ],
+  "review": "draft"
+}

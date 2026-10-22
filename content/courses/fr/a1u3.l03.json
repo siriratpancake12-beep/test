@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u3.l03", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-3 家人与朋友", "order": 103030,
+  "titleZh": "我爸妈住在成都——-er 动词", "goalZh": "会用 -er 动词的全部人称说家人住在哪里、工作、说什么语言", "canDoZh": "能说家人住在哪个城市、在不在工作、会说什么语言",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.habiter", "kind": "word", "pos": "verb", "text": "habiter", "zh": "住;居住", "features": { "ipa": "a.bi.te" }, "noteZh": "h 不发音,所以 je 要省音:j'habite;nous、vous、ils 要联诵:nous habitons [nu.za.bi.tɔ̃]。住在某城市:habiter à + 城市(J'habite à Lyon)。" },
+    { "id": "fr.travailler", "kind": "word", "pos": "verb", "text": "travailler", "zh": "工作", "features": { "ipa": "tʁa.va.je" }, "noteZh": "-ill- 读 [j]:je travaille [tʁa.vaj];Ils travaillent beaucoup. = 他们工作很忙。" },
+    { "id": "fr.parler", "kind": "word", "pos": "verb", "text": "parler", "zh": "说(语言);讲话", "features": { "ipa": "paʁ.le" }, "noteZh": "说某种语言不加冠词:Je parle chinois. parle / parles / parlent 读音完全一样 [paʁl]。" },
+    { "id": "fr.nous", "kind": "word", "pos": "pron", "text": "nous", "zh": "我们", "features": { "ipa": "nu" }, "noteZh": "动词词尾 -ons:nous parlons;元音前联诵:nous habitons [nu.za.bi.tɔ̃]。" },
+    { "id": "fr.ils", "kind": "word", "pos": "pron", "text": "ils", "zh": "他们", "features": { "ipa": "il" }, "noteZh": "s 不发音,元音前联诵读 [z]:ils habitent [il.za.bit]、ils ont [il.zɔ̃];有男有女的一群人也用 ils;ils parlent 的 -ent 不发音。" },
+    { "id": "fr.elles", "kind": "word", "pos": "pron", "text": "elles", "zh": "她们", "features": { "ipa": "ɛl" }, "noteZh": "全是女性时才用;读音和 elle 一样,元音前联诵:elles habitent [ɛl.za.bit]。" },
+    { "id": "fr.a", "kind": "word", "pos": "prep", "text": "à", "zh": "在;到(城市前)", "features": { "ipa": "a" }, "noteZh": "城市前用 à:à Lyon, à Chengdu。带重音符号的 à 是介词;不带的 a 是 avoir 的变位(il a = 他有),读音一样,别写混。" },
+    { "id": "fr.parents", "kind": "word", "pos": "noun", "text": "les parents", "zh": "父母", "features": { "gender": "m", "ipa": "le pa.ʁɑ̃" }, "noteZh": "一般用复数,阳性;mes parents = 我父母,代词用 ils。" },
+    { "id": "fr.anglais", "kind": "word", "pos": "noun", "text": "l'anglais", "zh": "英语", "features": { "gender": "m", "ipa": "lɑ̃.glɛ" }, "noteZh": "语言名都是阳性,首字母小写;parler anglais 不加冠词,J'aime l'anglais 要加。也是形容词“英国的”。" },
+    { "id": "fr.un_peu", "kind": "phrase", "pos": "phrase", "text": "un peu", "zh": "一点儿;有点", "features": { "ipa": "œ̃ pø" }, "noteZh": "放在动词后面:Je parle un peu français.(我会说一点法语。)" }
+  ],
+  "reviewItems": ["fr.chinois", "fr.francais", "fr.mere"],
+  "lines": [
+    { "speaker": "mme_moreau", "text": "Hao, vous êtes de Chengdu ?", "zh": "浩,您是成都人吧?", "items": ["fr.vous", "fr.etre", "fr.de"] },
+    { "speaker": "hao", "text": "Oui, madame. Mes parents habitent à Chengdu.", "zh": "是的,老师。我父母住在成都。", "items": ["fr.oui", "fr.madame", "fr.mes", "fr.parents", "fr.habiter", "fr.a"] },
+    { "speaker": "mme_moreau", "text": "Ils travaillent ?", "zh": "他们工作吗?", "items": ["fr.ils", "fr.travailler"] },
+    { "speaker": "hao", "text": "Oui, ils travaillent beaucoup. Ma mère parle un peu anglais.", "zh": "是的,他们工作很忙。我妈妈会说一点英语。", "items": ["fr.oui", "fr.ils", "fr.travailler", "fr.beaucoup", "fr.ma", "fr.mere", "fr.parler", "fr.un_peu", "fr.anglais"] },
+    { "speaker": "hao", "text": "Moi, je parle chinois et un peu français.", "zh": "我呢,说中文,也会说一点法语。", "items": ["fr.moi", "fr.je", "fr.parler", "fr.chinois", "fr.et", "fr.un_peu", "fr.francais"] },
+    { "speaker": "mme_moreau", "text": "Très bien ! Et vous, Chloé ?", "zh": "很好!您呢,克洛艾?", "items": ["fr.tres", "fr.bien", "fr.et", "fr.vous"] },
+    { "speaker": "chloe", "text": "Nous habitons à Lyon, et nous parlons français.", "zh": "我们家住在里昂,我们说法语。", "items": ["fr.nous", "fr.habiter", "fr.a", "fr.et", "fr.parler", "fr.francais"] },
+    { "speaker": "chloe", "text": "Ma mère et ma sœur ? Elles parlent très bien anglais.", "zh": "我妈妈和我妹妹?她们英语说得很好。", "items": ["fr.ma", "fr.mere", "fr.et", "fr.soeur", "fr.elles", "fr.parler", "fr.tres", "fr.bien", "fr.anglais"] },
+    { "speaker": "chloe", "text": "Et moi, je parle un peu chinois !", "zh": "我呢,会说一点中文!", "items": ["fr.et", "fr.moi", "fr.je", "fr.parler", "fr.un_peu", "fr.chinois"] }
+  ],
+  "questions": [
+    { "prompt": "浩的父母住在哪里?", "options": ["里昂", "巴黎", "成都"], "answer": 2, "explainZh": "浩说:Mes parents habitent à Chengdu.(我父母住在成都。)" },
+    { "prompt": "浩的妈妈会说什么?", "options": ["一点法语", "一点英语", "很好的英语"], "answer": 1, "explainZh": "Ma mère parle un peu anglais. —— un peu 是“一点儿”;英语说得很好的是克洛艾的妈妈和妹妹。" },
+    { "prompt": "克洛艾说 Elles parlent très bien anglais,elles 指谁?", "options": ["克洛艾的妈妈和妹妹", "克洛艾的爸爸和哥哥", "浩的父母"], "answer": 0, "explainZh": "Ma mère et ma sœur ? Elles parlent très bien anglais. —— 全是女性用 elles;有男有女(比如浩的父母)要用 ils。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.er_verbs", "titleZh": "-er 动词:六个人称,只有三个读音",
+      "bodyZh": "habiter、travailler、parler 和第 2 单元的 aimer 一样,都是 -er 动词:去掉 -er,按人称加词尾。以 parler 为例:je parle, tu parles, il/elle parle, nous parlons, vous parlez, ils/elles parlent。\n词尾 -e、-es、-ent 都不发音,所以 parle、parles、parlent 读音完全一样 [paʁl];只有 nous 的 -ons [ɔ̃] 和 vous 的 -ez [e] 听得出来。最常见的错误是把 ils parlent 的 -ent 读出来。\n复数主语:nous(我们)、ils(他们)、elles(她们)。全是女性才用 elles;有男有女——哪怕只有一个男的——也用 ils:Mes parents ? Ils travaillent.\n以 h 开头的 habiter:je 要省音成 j'habite;nous、vous、ils、elles 后面要联诵:nous habitons [nu.za.bi.tɔ̃]、ils habitent [il.za.bit]。上一课的 avoir 也一样:ils ont [il.zɔ̃](他们有)要联诵,ils sont [il.sɔ̃](他们是)不联诵,别听混。\n“住在某城市”用 habiter à + 城市:J'habite à Lyon. “说某种语言”不加冠词:Je parle chinois;“喜欢某种语言”要加:J'aime le français.",
+      "examples": [
+        { "text": "J'habite à Lyon.", "zh": "我住在里昂。(h 不发音,je 省音成 j')" },
+        { "text": "Nous parlons un peu anglais.", "zh": "我们会说一点英语。(-ons 读 [ɔ̃])" },
+        { "text": "Mes parents habitent à Chengdu.", "zh": "我父母住在成都。(-ent 不发音)" },
+        { "text": "Ils sont chinois, et ils ont cinquante et quarante-huit ans.", "zh": "他们是中国人,一个五十岁,一个四十八岁。(ils sont [il.sɔ̃] 和 ils ont [il.zɔ̃] 别听混)" }
+      ] }
+  ],
+  "review": "draft"
+}

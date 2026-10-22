@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u1.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 你好,我是……", "order": 101050,
+  "titleZh": "你会说德语吗?", "goalZh": "会说自己会哪些语言;没听懂时会说 Wie bitte?,请对方慢一点、再说一遍", "canDoZh": "能说出自己会说什么语言;听不懂时能礼貌地请对方重复、说慢一点",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.sprechen", "kind": "word", "pos": "verb", "text": "sprechen", "zh": "说;讲(语言)", "features": { "ipa": "ˈʃpʁɛçn̩" }, "noteZh": "不规则:du sprichst, er/sie spricht(e 变 i);Sie sprechen 不变。sp 在词首读 [ʃp]。" },
+    { "id": "de.deutsch", "kind": "word", "pos": "propn", "text": "Deutsch", "zh": "德语", "features": { "gender": "n", "ipa": "dɔʏ̯tʃ" }, "noteZh": "语言名首字母大写,一般不加冠词:Ich spreche Deutsch.。eu 读 [ɔʏ̯](像“奥伊”)。" },
+    { "id": "de.chinesisch", "kind": "word", "pos": "propn", "text": "Chinesisch", "zh": "汉语;中文", "features": { "gender": "n", "ipa": "çiˈneːzɪʃ" }, "noteZh": "标准德语里 Ch 读 [ç](南德、奥地利也读 k);重音在 ne 上。" },
+    { "id": "de.englisch", "kind": "word", "pos": "propn", "text": "Englisch", "zh": "英语", "features": { "gender": "n", "ipa": "ˈɛŋlɪʃ" }, "noteZh": "很多语言名以 -isch 结尾:Englisch, Chinesisch, Italienisch。" },
+    { "id": "de.italien", "kind": "word", "pos": "propn", "text": "Italien", "zh": "意大利", "features": { "gender": "n", "ipa": "iˈtaːli̯ən" }, "noteZh": "和 China 一样不带冠词:Ich komme aus Italien.;意大利语是 Italienisch。重音在 ta 上。" },
+    { "id": "de.ein_bisschen", "kind": "phrase", "pos": "phrase", "text": "ein bisschen", "zh": "一点儿", "features": { "ipa": "aɪ̯n ˈbɪsçən" }, "noteZh": "放在名词前:Ich spreche ein bisschen Deutsch.(我会说一点德语。)新正字法写 bisschen(ss)。" },
+    { "id": "de.wie_bitte", "kind": "phrase", "pos": "phrase", "text": "Wie bitte?", "zh": "什么?请再说一遍", "features": { "ipa": "viː ˈbɪtə" }, "noteZh": "没听清时用,比 Was? 礼貌得多;语调上扬。" },
+    { "id": "de.noch_einmal", "kind": "phrase", "pos": "phrase", "text": "noch einmal", "zh": "再一次;再说一遍", "alt": ["noch mal", "nochmal"], "features": { "ipa": "nɔx ˈaɪ̯nmaːl" }, "noteZh": "Noch einmal, bitte!(请再说一遍!)口语常说 noch mal。ch 在 o 后读 [x]。" },
+    { "id": "de.langsam", "kind": "word", "pos": "adj", "text": "langsam", "zh": "慢", "features": { "ipa": "ˈlaŋzaːm" }, "noteZh": "Langsam, bitte!(请说慢一点!)ng 读 [ŋ],s 在元音前读 [z]。" },
+    { "id": "de.bitte", "kind": "word", "pos": "interj", "text": "bitte", "zh": "请;不客气", "features": { "ipa": "ˈbɪtə" }, "noteZh": "一词多用:请求时 = 请(Langsam, bitte!);别人说 danke 时 = 不客气;递东西时 = 给你。" }
+  ],
+  "reviewItems": ["de.du", "de.sie_hoeflich", "de.ich_komme_aus"],
+  "lines": [
+    { "speaker": "sofia", "text": "Ich komme aus Italien und spreche Englisch. Sprichst du Englisch, Wei?", "zh": "我来自意大利,会说英语。王伟,你会说英语吗?", "items": ["de.ich_komme_aus", "de.italien", "de.und", "de.sprechen", "de.englisch", "de.du"] },
+    { "speaker": "wei", "text": "Ich spreche Chinesisch, Englisch und ein bisschen Deutsch.", "zh": "我会说中文、英语和一点德语。", "items": ["de.ich", "de.sprechen", "de.chinesisch", "de.englisch", "de.und", "de.ein_bisschen", "de.deutsch"] },
+    { "speaker": "wagner", "text": "Herr Wang, woher kommen Sie und wo wohnen Sie?", "zh": "王先生,您从哪里来,住在哪里?", "items": ["de.herr", "de.woher", "de.ich_komme_aus", "de.sie_hoeflich", "de.und", "de.wo", "de.wohnen"] },
+    { "speaker": "wei", "text": "Wie bitte?", "zh": "您说什么?", "items": ["de.wie_bitte"] },
+    { "speaker": "wagner", "text": "Woher kommen Sie und wo wohnen Sie?", "zh": "您从哪里来,住在哪里?", "items": ["de.woher", "de.ich_komme_aus", "de.sie_hoeflich", "de.und", "de.wo", "de.wohnen"] },
+    { "speaker": "wei", "text": "Langsam, bitte! Noch einmal, bitte!", "zh": "请慢一点!请再说一遍!", "items": ["de.langsam", "de.bitte", "de.noch_einmal"] },
+    { "speaker": "wagner", "text": "Woher kommen Sie? Wo wohnen Sie?", "zh": "您从哪里来?您住在哪里?", "items": ["de.woher", "de.ich_komme_aus", "de.sie_hoeflich", "de.wo", "de.wohnen"] },
+    { "speaker": "wei", "text": "Ich komme aus China. Ich wohne in Neukölln.", "zh": "我来自中国。我住在新克尔恩区。", "items": ["de.ich_komme_aus", "de.china", "de.ich", "de.wohnen", "de.in"] }
+  ],
+  "questions": [
+    { "prompt": "王伟会说哪些语言?", "options": ["中文和意大利语", "中文、英语和一点德语", "只会说英语", "中文和德语,不会英语"], "answer": 1, "explainZh": "王伟说:Ich spreche Chinesisch, Englisch und ein bisschen Deutsch.(我会说中文、英语和一点德语。)" },
+    { "prompt": "老师第一次问的时候王伟没听懂,他先说了什么?", "options": ["Langsam, bitte!", "Noch einmal, bitte!", "Wie bitte?"], "answer": 2, "explainZh": "王伟先说 Wie bitte?(您说什么?);老师又说了一遍,他才请老师 Langsam, bitte!(慢一点)、Noch einmal, bitte!(再说一遍)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.sprechen_bitte", "titleZh": "sprechen + 语言;请别人重复的说法",
+      "bodyZh": "sprechen(说)是不规则动词:ich spreche, du sprichst, er / sie spricht——和 du、er / sie 搭配时 e 变成 i;Sie sprechen 不变。语言名首字母大写、不加冠词:Ich spreche Deutsch.(不说 ✗ die Deutsch);“一点德语”是 ein bisschen Deutsch。没听懂时别沉默,也别说 Was?(听起来很冲):先说 Wie bitte?,再请对方 Langsam, bitte!(请慢一点)或 Noch einmal, bitte!(请再说一遍)——一个词加上 bitte 就是礼貌的请求。德国老师很习惯这样被打断,会很乐意重复。",
+      "examples": [ { "text": "Sprichst du Englisch?", "zh": "你会说英语吗?" }, { "text": "Ich spreche ein bisschen Deutsch.", "zh": "我会说一点德语。" } ] }
+  ],
+  "review": "draft"
+}

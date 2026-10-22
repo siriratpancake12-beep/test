@@ -1,0 +1,45 @@
+{
+  "id": "fr.a1u3.l01", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 家人与朋友", "order": 103010,
+  "titleZh": "这是我爸爸——家庭成员", "goalZh": "会说家庭成员,用 mon / ma / mes 说“我的……”", "canDoZh": "能给朋友看全家福,说出“这是我爸爸、我妈妈、我奶奶”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.pere", "kind": "word", "pos": "noun", "text": "le père", "zh": "父亲;爸爸", "features": { "gender": "m", "ipa": "lə pɛʁ" }, "noteZh": "è 读开口的 [ɛ],词尾 r 是小舌音;口语里叫爸爸是 papa。" },
+    { "id": "fr.mere", "kind": "word", "pos": "noun", "text": "la mère", "zh": "母亲;妈妈", "features": { "gender": "f", "ipa": "la mɛʁ" }, "noteZh": "口语里叫妈妈是 maman。阴性,所以是 ma mère——男生说“我妈妈”也是 ma mère。" },
+    { "id": "fr.frere", "kind": "word", "pos": "noun", "text": "le frère", "zh": "兄弟(哥哥或弟弟)", "features": { "gender": "m", "ipa": "lə fʁɛʁ" }, "noteZh": "法语不分哥哥弟弟;要说清楚就加 grand / petit(第 5 课学):mon grand frère = 我哥哥,mon petit frère = 我弟弟。" },
+    { "id": "fr.soeur", "kind": "word", "pos": "noun", "text": "la sœur", "zh": "姐妹(姐姐或妹妹)", "alt": ["la soeur"], "features": { "gender": "f", "ipa": "la sœʁ" }, "noteZh": "œ 连写,可以输入 oe;读 [sœʁ]。不分姐姐妹妹:ma grande sœur = 我姐姐,ma petite sœur = 我妹妹。" },
+    { "id": "fr.grand_pere", "kind": "word", "pos": "noun", "text": "le grand-père", "zh": "祖父;外祖父(爷爷;外公)", "features": { "gender": "m", "ipa": "lə gʁɑ̃.pɛʁ" }, "noteZh": "不分爷爷和外公;grand 的 d 不发音;中间有连字符,复数 les grands-pères。" },
+    { "id": "fr.grand_mere", "kind": "word", "pos": "noun", "text": "la grand-mère", "zh": "祖母;外祖母(奶奶;外婆)", "features": { "gender": "f", "ipa": "la gʁɑ̃.mɛʁ" }, "noteZh": "不分奶奶和外婆;虽然是阴性,grand 也不加 e;复数 les grands-mères。" },
+    { "id": "fr.mon", "kind": "word", "pos": "det", "text": "mon", "zh": "我的(阳性单数)", "features": { "ipa": "mɔ̃" }, "noteZh": "用在阳性单数名词前:mon père, mon frère;鼻化元音 [ɔ̃],n 不单独读。元音开头的阴性名词前也用 mon:mon amie(第 5 课学)。" },
+    { "id": "fr.ma", "kind": "word", "pos": "det", "text": "ma", "zh": "我的(阴性单数)", "features": { "ipa": "ma" }, "noteZh": "用在阴性单数名词前:ma mère, ma sœur。只看名词的性,和说话人是男是女无关。" },
+    { "id": "fr.mes", "kind": "word", "pos": "det", "text": "mes", "zh": "我的(复数)", "features": { "ipa": "me" }, "noteZh": "用在复数名词前,不分阴阳性:mes frères, mes sœurs;s 不发音,元音前联诵读 [z]。" },
+    { "id": "fr.qui", "kind": "word", "pos": "pron", "text": "qui", "zh": "谁", "features": { "ipa": "ki" }, "noteZh": "qu 读 [k]。问人:C'est qui ?(口语)/ Qui est-ce ?(这是谁?)回答:C'est + 人。" }
+  ],
+  "reviewItems": ["fr.cest", "fr.il", "fr.elle", "fr.de"],
+  "lines": [
+    { "speaker": "chloe", "text": "Hao, c'est qui ?", "zh": "浩,这是谁?", "items": ["fr.cest", "fr.qui"] },
+    { "speaker": "hao", "text": "C'est mon père. Et elle, c'est ma mère.", "zh": "这是我爸爸。她呢,是我妈妈。", "items": ["fr.cest", "fr.mon", "fr.pere", "fr.et", "fr.elle", "fr.ma", "fr.mere"] },
+    { "speaker": "chloe", "text": "Et le monsieur, c'est qui ?", "zh": "那这位老先生是谁?", "items": ["fr.et", "fr.monsieur", "fr.cest", "fr.qui"] },
+    { "speaker": "hao", "text": "C'est mon grand-père. Et voilà ma grand-mère.", "zh": "是我爷爷。这是我奶奶。", "items": ["fr.cest", "fr.mon", "fr.grand_pere", "fr.et", "fr.voila", "fr.ma", "fr.grand_mere"] },
+    { "speaker": "chloe", "text": "Il est de Chengdu aussi ?", "zh": "他也是成都人吗?", "items": ["fr.il", "fr.etre", "fr.de", "fr.aussi"] },
+    { "speaker": "hao", "text": "Oui. Et toi, Chloé ?", "zh": "对。你呢,克洛艾?", "items": ["fr.oui", "fr.et_toi"] },
+    { "speaker": "chloe", "text": "Moi, voilà mon frère et ma sœur.", "zh": "我呢,这是我哥哥和我妹妹。", "items": ["fr.moi", "fr.voila", "fr.mon", "fr.frere", "fr.et", "fr.ma", "fr.soeur"] },
+    { "speaker": "chloe", "text": "Et voilà mes deux grands-mères !", "zh": "还有,这是我奶奶和我外婆!", "items": ["fr.et", "fr.voila", "fr.mes", "fr.deux", "fr.grand_mere"] }
+  ],
+  "questions": [
+    { "prompt": "浩先给克洛艾看了谁?", "options": ["他的爷爷和奶奶", "他的哥哥", "他的爸爸和妈妈"], "answer": 2, "explainZh": "浩先说:C'est mon père. Et elle, c'est ma mère.(这是我爸爸,她是我妈妈。)" },
+    { "prompt": "照片上那位老先生(le monsieur)是谁?", "options": ["浩的爷爷", "浩的爸爸", "克洛艾的哥哥"], "answer": 0, "explainZh": "克洛艾问 Et le monsieur, c'est qui ?,浩说:C'est mon grand-père.(是我爷爷。)" },
+    { "prompt": "克洛艾给浩看了谁?", "options": ["她的爸爸和妈妈", "她的兄弟、姐妹和两位祖母", "她的两位老师"], "answer": 1, "explainZh": "Moi, voilà mon frère et ma sœur. Et voilà mes deux grands-mères ! —— frère、sœur 不分大小;grands-mères 是复数,所以用 mes。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.mon_ma_mes", "titleZh": "mon / ma / mes:看后面的名词,不看“我”是男是女",
+      "bodyZh": "“我的”有三个形式,只看后面的名词:阳性单数用 mon(mon père),阴性单数用 ma(ma mère),复数不分阴阳性都用 mes(mes grands-mères)。\n和说话的人是男是女没有关系:浩是男生,说“我妈妈”也是 ma mère;克洛艾是女生,说“我的兄弟”也是 mon frère。中国学生常按自己的性别选,说成 mon mère——这是错的。\n英语的 my 只有一个形式,法语要先想名词的性,所以名词一定连冠词一起记:le père → mon père,la sœur → ma sœur。\n顺便记住:问“这是谁?”说 C'est qui ?,回答 C'est + 人(C'est mon père.);“某人的……”用 de:le frère de Chloé(克洛艾的兄弟)。",
+      "examples": [
+        { "text": "C'est mon père.", "zh": "这是我爸爸。(père 是阳性 → mon)" },
+        { "text": "C'est ma mère.", "zh": "这是我妈妈。(浩是男生,但 mère 是阴性 → ma)" },
+        { "text": "Voilà mon frère.", "zh": "这是我的兄弟。(克洛艾是女生,但 frère 是阳性 → mon)" },
+        { "text": "Voilà mes deux grands-mères.", "zh": "这是我的两位祖母。(复数 → mes)" }
+      ] }
+  ],
+  "review": "draft"
+}

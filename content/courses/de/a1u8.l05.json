@@ -1,0 +1,50 @@
+{
+  "id": "de.a1u8.l05", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 健康与周末", "order": 108050,
+  "titleZh": "上周末你做了什么?——现在完成时入门", "goalZh": "会用现在完成时说做过的事,会用 war / hatte", "canDoZh": "能说上周末或昨天做了什么、去了哪里、怎么样",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.gestern", "kind": "word", "pos": "adv", "text": "gestern", "zh": "昨天", "features": { "ipa": "ˈɡɛstɐn" }, "noteZh": "gestern Abend(昨天晚上);说昨天做了什么用现在完成时:Gestern habe ich Freunde besucht.。" },
+    { "id": "de.letzte", "kind": "word", "pos": "adj", "text": "letzte", "zh": "上一个;最后的", "alt": ["letzter", "letztes", "letzten"], "features": { "ipa": "ˈlɛtstə" }, "noteZh": "词尾跟后面的名词变:letzte Woche(上周)、letztes Wochenende(上个周末)、letzten Freitag(上周五)。" },
+    { "id": "de.see", "kind": "word", "pos": "noun", "text": "der See", "zh": "湖", "features": { "gender": "m", "plural": "die Seen", "ipa": "zeː" }, "noteZh": "der See = 湖,die See = 海(一般说 das Meer):性不同,意思也不同!柏林周围湖很多,夏天大家去湖边游泳:zum See fahren。" },
+    { "id": "de.besuchen", "kind": "word", "pos": "verb", "text": "besuchen", "zh": "拜访;参观", "features": { "ipa": "bəˈzuːxn̩" }, "noteZh": "besuchen + 第四格:Ich besuche meine Oma / das Museum.;be- 不可分,完成时没有 ge-:Ich habe sie besucht.。" },
+    { "id": "de.toll", "kind": "word", "pos": "adj", "text": "toll", "zh": "棒;好极了", "alt": ["super"], "features": { "ipa": "tɔl" }, "noteZh": "口语夸奖:Toll! / Das war toll!(太棒了!)也常说 super。" },
+    { "id": "de.wandern", "kind": "word", "pos": "verb", "text": "wandern", "zh": "徒步;远足", "features": { "ipa": "ˈvandɐn" }, "noteZh": "德国人周末很爱去郊外徒步;完成时用 sein:Wir sind gewandert.;w 读 [v]。" },
+    { "id": "de.warum", "kind": "word", "pos": "adv", "text": "warum", "zh": "为什么", "features": { "ipa": "vaˈʁʊm" }, "noteZh": "Warum? 回答可以直接说理由:Ich war krank.(用 weil 连接要到 A2);重音在 rum 上。" },
+    { "id": "de.spass", "kind": "word", "pos": "noun", "text": "der Spaß", "zh": "乐趣;玩笑", "features": { "gender": "m", "plural": "die Späße", "ipa": "ʃpaːs" }, "noteZh": "Das macht Spaß!(真好玩!)Das hat Spaß gemacht!(玩得很开心!)Viel Spaß!(玩得开心!)ß 读 [s],a 是长音。" },
+    { "id": "de.ausflug", "kind": "word", "pos": "noun", "text": "der Ausflug", "zh": "郊游;短途出游", "features": { "gender": "m", "plural": "die Ausflüge", "ipa": "ˈaʊ̯sˌfluːk" }, "noteZh": "einen Ausflug machen(去郊游);复数变音:die Ausflüge;词尾 g 读 [k]。" }
+  ],
+  "reviewItems": ["de.wochenende", "de.machen", "de.schwimmen", "de.fahren"],
+  "lines": [
+    { "speaker": "wagner", "text": "Guten Morgen! Was haben Sie am Wochenende gemacht?", "zh": "早上好!大家周末做了什么?", "items": ["de.guten_morgen", "de.was", "de.haben", "de.sie_hoeflich", "de.am", "de.wochenende", "de.machen"] },
+    { "speaker": "sofia", "text": "Ich habe gestern Freunde besucht. Das hat viel Spaß gemacht!", "zh": "我昨天去看朋友了,玩得很开心!", "items": ["de.ich", "de.haben", "de.gestern", "de.freund", "de.besuchen", "de.viel", "de.spass", "de.machen"] },
+    { "speaker": "wagner", "text": "Schön! Und Sie, Herr Wang?", "zh": "真好!您呢,王先生?", "items": ["de.schoen", "de.und", "de.sie_hoeflich", "de.herr"] },
+    { "speaker": "wei", "text": "Am Samstag bin ich mit Lena zum See gefahren. Wir sind geschwommen.", "zh": "星期六我和莉娜去了湖边,我们游了泳。", "items": ["de.am", "de.samstag", "de.sein", "de.ich", "de.mit", "de.zu", "de.see", "de.fahren", "de.wir", "de.schwimmen"] },
+    { "speaker": "wagner", "text": "Toll! Und am Sonntag?", "zh": "太棒了!那星期天呢?", "items": ["de.toll", "de.und", "de.am", "de.sonntag"] },
+    { "speaker": "wei", "text": "Am Sonntag habe ich mit Jonas einen Ausflug gemacht. Wir sind gewandert.", "zh": "星期天我和约纳斯去郊游了,我们去徒步了。", "items": ["de.am", "de.sonntag", "de.haben", "de.ich", "de.mit", "de.ein", "de.ausflug", "de.machen", "de.wir", "de.sein", "de.wandern"] },
+    { "speaker": "wagner", "text": "Gut. Aber warum waren Sie letzte Woche nicht da?", "zh": "很好。不过您上个星期为什么没来?", "items": ["de.gut", "de.aber", "de.warum", "de.sein", "de.sie_hoeflich", "de.letzte", "de.woche", "de.nicht", "de.da"] },
+    { "speaker": "wei", "text": "Ich war krank und hatte eine Erkältung.", "zh": "我病了,得了感冒。", "items": ["de.ich", "de.sein", "de.krank", "de.und", "de.haben", "de.ein", "de.erkaeltung"] }
+  ],
+  "questions": [
+    { "prompt": "星期六王伟和谁去了湖边?", "options": ["约纳斯", "索菲娅", "莉娜"], "answer": 2, "explainZh": "王伟说:Am Samstag bin ich mit Lena zum See gefahren.(星期六我和莉娜去了湖边。)星期天他才和约纳斯去徒步。" },
+    { "prompt": "索菲娅昨天做了什么?", "options": ["去看朋友了", "去游泳了", "去徒步了"], "answer": 0, "explainZh": "索菲娅说:Ich habe gestern Freunde besucht.(我昨天去看朋友了。)" },
+    { "prompt": "王伟上个星期为什么没来上课?", "options": ["他去汉堡了", "他生病了", "他回中国了"], "answer": 1, "explainZh": "王伟说:Ich war krank und hatte eine Erkältung.(我病了,得了感冒。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.perfekt_haben", "titleZh": "现在完成时(1):haben + 过去分词",
+      "bodyZh": "德语口语说过去的事,最常用现在完成时:haben 变位放第二位,过去分词放句末,把句子“框”起来:Ich habe einen Ausflug gemacht.。中文用“了、过”,英语常用一般过去时,德语口语用完成时。规则动词的过去分词是 ge- + 词干 + -t:machen → gemacht、spielen → gespielt、kaufen → gekauft、lernen → gelernt、kochen → gekocht。不少常用动词是 ge- + … + -en,要一个个记:sehen → gesehen、essen → gegessen、lesen → gelesen、trinken → getrunken。be-、ver- 开头和 -ieren 结尾的动词不加 ge-:besuchen → besucht、verstehen → verstanden、studieren → studiert。",
+      "examples": [
+        { "text": "Ich habe einen Ausflug gemacht.", "zh": "我去郊游了。" },
+        { "text": "Wir haben einen Film gesehen.", "zh": "我们看了一部电影。" },
+        { "text": "Sofia hat Freunde besucht.", "zh": "索菲娅去看朋友了。" }
+      ] },
+    { "id": "de.g.perfekt_sein_war", "titleZh": "现在完成时(2):sein + 过去分词;war / hatte",
+      "bodyZh": "表示从一个地方到另一个地方的动词,完成时用 sein:fahren → Ich bin gefahren、gehen → gegangen、fliegen → geflogen、kommen → gekommen、schwimmen → geschwommen、wandern → gewandert。比较:Wir sind zum See gefahren.(我们去了湖边)/ Wir haben einen Ausflug gemacht.(我们去郊游了)。sein 和 haben 自己说过去时一般不用完成时,而用 war / hatte:ich war, Sie waren;ich hatte, er hatte——Ich war krank. Ich hatte eine Erkältung.。问原因用 warum,回答直接说理由就行。表示过去的时间:gestern(昨天)、letzte Woche(上周)、letztes Wochenende(上个周末)。",
+      "examples": [
+        { "text": "Wir sind zum See gefahren.", "zh": "我们去了湖边。" },
+        { "text": "Ich bin gewandert.", "zh": "我去徒步了。" },
+        { "text": "Ich war krank.", "zh": "我病了。" }
+      ] }
+  ],
+  "review": "draft"
+}

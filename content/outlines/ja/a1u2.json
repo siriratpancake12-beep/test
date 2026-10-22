@@ -1,0 +1,139 @@
+{
+  "lang": "ja",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-2 片假名与自我介绍", "cefr": "A1", "themeZh": "4 月,留学生别科开学:田中老师的第一堂课、各国同学说国籍、咲带健太来认识林雨、别科的欢迎会。学会 46 个片假名、长音符号 ー 和外来语的特殊拼法;会用 わたしは〜です、〜ですか、〜ではありません、の 做自我介绍,说国籍和身份。" }
+  ],
+  "lessons": [
+    {
+      "id": "ja.a1u2.l01", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-2 片假名与自我介绍", "order": 102010,
+      "titleZh": "片假名①:ア行、カ行;わたしは〜です", "goalZh": "认读、书写 ア行和カ行的 10 个片假名,学会用“わたしは〜です”说自己是谁",
+      "canDoZh": "能认读、写出 アイウエオ カキクケコ;能用“わたしは〜です”介绍自己的名字",
+      "scenarioZh": "4 月初,留学生别科的第一堂课。田中老师在黑板上用片假名写外国同学的名字,先说:わたしは たなかです。学生轮流:わたしは リン・ユーです。わたしは キム・ジウです。(复习 はじめまして、よろしくおねがいします。)课文 6 句左右,另加两行假名认读:アイウエオ / カキクケコ。说话人:tanaka、rin、jiu、narrator。",
+      "grammarFocusZh": "“N1 は N2 です”(N1 是 N2),助词 は 读 wa;片假名用来写外国人名、外国地名和外来语;片假名多取汉字的一部分(カ←加、エ←江),可以借汉字记:エ 像“工”、カ 像“力”、オ 像“才”;中国人的名字一般写汉字(林雨),也可以按中文读音写成片假名(リン・ユー)",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kata_a", "kind": "char", "pos": "char", "text": "ア", "zh": "a(=あ)", "features": { "roman": "a" }, "noteZh": "取自汉字“阿”的左边“阝”。" },
+        { "id": "ja.kata_i", "kind": "char", "pos": "char", "text": "イ", "zh": "i(=い)", "features": { "roman": "i" }, "noteZh": "取自“伊”的左边“亻”。" },
+        { "id": "ja.kata_u", "kind": "char", "pos": "char", "text": "ウ", "zh": "u(=う)", "features": { "roman": "u" }, "noteZh": "取自“宇”的上部“宀”。" },
+        { "id": "ja.kata_e", "kind": "char", "pos": "char", "text": "エ", "zh": "e(=え)", "features": { "roman": "e" }, "noteZh": "取自“江”的右边,像汉字“工”。" },
+        { "id": "ja.kata_o", "kind": "char", "pos": "char", "text": "オ", "zh": "o(=お)", "features": { "roman": "o" }, "noteZh": "取自“於”的左边,像汉字“才”。" },
+        { "id": "ja.kata_ka", "kind": "char", "pos": "char", "text": "カ", "zh": "ka(=か)", "features": { "roman": "ka" }, "noteZh": "取自“加”的左边,像汉字“力”;和平假名 か 也很像。" },
+        { "id": "ja.kata_ki", "kind": "char", "pos": "char", "text": "キ", "zh": "ki(=き)", "features": { "roman": "ki" }, "noteZh": "取自“幾”。比平假名 き 少下面的弯。" },
+        { "id": "ja.kata_ku", "kind": "char", "pos": "char", "text": "ク", "zh": "ku(=く)", "features": { "roman": "ku" }, "noteZh": "取自“久”。和 ケ、タ 区分:ク 只有两笔。" },
+        { "id": "ja.kata_ke", "kind": "char", "pos": "char", "text": "ケ", "zh": "ke(=け)", "features": { "roman": "ke" }, "noteZh": "取自“介”。" },
+        { "id": "ja.kata_ko", "kind": "char", "pos": "char", "text": "コ", "zh": "ko(=こ)", "features": { "roman": "ko" }, "noteZh": "取自“己”。两笔写成方框的三条边。" },
+        { "id": "ja.watashi", "kind": "word", "pos": "pron", "text": "わたし", "zh": "我", "alt": ["私"], "features": { "roman": "watashi", "pitch": 0 }, "noteZh": "汉字写作 私(在日语里是“我”,不是中文“私人”的意思)。日语里一般不说“你”(あなた),而是叫对方的名字 + さん。" },
+        { "id": "ja.wa_p", "kind": "word", "pos": "particle", "text": "は", "zh": "主题助词(写作 は,读 wa)", "features": { "roman": "wa" }, "noteZh": "提示句子在说谁、说什么:わたしは リンです(我是林)。写成 は,读 wa。单独朗读这个词条时要按 wa 读。" }
+      ],
+      "reviewItems": ["ja.hajimemashite", "ja.desu", "ja.yoroshiku_onegaishimasu"]
+    },
+    {
+      "id": "ja.a1u2.l02", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-2 片假名与自我介绍", "order": 102020,
+      "titleZh": "片假名②:サ行、タ行;我是中国人", "goalZh": "认读、书写 サ行和タ行的 10 个片假名,学会说自己是哪国人",
+      "canDoZh": "能认读、写出 サシスセソ タチツテト,分清 シ / ツ;能说“わたしは 中国人です”,听懂别人的国籍",
+      "scenarioZh": "第一堂课继续,田中老师请大家说国籍。林雨:わたしは 中国人です。智友:わたしは 韓国人です。一位泰国男同学:わたしは タイ人です。(韩国、泰国等国名当专有名词直接用;タイ 正好用前两课的片假名拼得出来。)课文 6 句左右,另加两行假名认读:サシスセソ / タチツテト。说话人:tanaka、rin、jiu、kurasumeito、narrator。",
+      "grammarFocusZh": "“国名 + 人(じん)”表示国籍:中国人、日本人、アメリカ人;シ 和 ツ 最容易混(シ 的两点横着排、最后一笔从下往上挑,ツ 的两点竖着排、最后一笔从上往下撇);チ 像“千”、タ 像“夕”、ト 像“卜”;セ 和平假名 せ 很像",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kata_sa", "kind": "char", "pos": "char", "text": "サ", "zh": "sa(=さ)", "features": { "roman": "sa" }, "noteZh": "取自“散”的左上部。" },
+        { "id": "ja.kata_shi", "kind": "char", "pos": "char", "text": "シ", "zh": "shi(=し)", "features": { "roman": "shi" }, "noteZh": "取自“之”。和 ツ 最容易混:シ 的两点横着排在左边,最后一笔从左下往右上挑。" },
+        { "id": "ja.kata_su", "kind": "char", "pos": "char", "text": "ス", "zh": "su(=す)", "features": { "roman": "su" }, "noteZh": "取自“須”的右边。和 ヌ 区分:ス 中间没有那一点。" },
+        { "id": "ja.kata_se", "kind": "char", "pos": "char", "text": "セ", "zh": "se(=せ)", "features": { "roman": "se" }, "noteZh": "取自“世”。和平假名 せ 很像,少一竖。" },
+        { "id": "ja.kata_so", "kind": "char", "pos": "char", "text": "ソ", "zh": "so(=そ)", "features": { "roman": "so" }, "noteZh": "取自“曽”的上部。和 ン 容易混:ソ 的点在上面,最后一笔从上往左下撇。" },
+        { "id": "ja.kata_ta", "kind": "char", "pos": "char", "text": "タ", "zh": "ta(=た)", "features": { "roman": "ta" }, "noteZh": "取自“多”,像汉字“夕”。和 ク 区分:タ 中间多一点。" },
+        { "id": "ja.kata_chi", "kind": "char", "pos": "char", "text": "チ", "zh": "chi(=ち)", "features": { "roman": "chi" }, "noteZh": "取自“千”,形状也像“千”。" },
+        { "id": "ja.kata_tsu", "kind": "char", "pos": "char", "text": "ツ", "zh": "tsu(=つ)", "features": { "roman": "tsu" }, "noteZh": "取自“川”。和 シ 区分:ツ 的两点竖着排在上面,最后一笔从右上往左下撇。" },
+        { "id": "ja.kata_te", "kind": "char", "pos": "char", "text": "テ", "zh": "te(=て)", "features": { "roman": "te" }, "noteZh": "取自“天”。" },
+        { "id": "ja.kata_to", "kind": "char", "pos": "char", "text": "ト", "zh": "to(=と)", "features": { "roman": "to" }, "noteZh": "取自“止”,像汉字“卜”。" },
+        { "id": "ja.chuugoku", "kind": "word", "pos": "propn", "text": "中国", "zh": "中国", "features": { "reading": "ちゅうごく", "roman": "chuugoku", "pitch": 1 }, "noteZh": "ちゅう 是拗音 + 长音:ちゅ・う・ご・く 一共 4 拍。“中”在这里读 ちゅう(音读)。" },
+        { "id": "ja.jin", "kind": "word", "pos": "noun", "text": "人", "zh": "……国人(接在国名后)", "features": { "reading": "じん", "roman": "jin" }, "noteZh": "国名 + 人(じん)= 某国人:中国人、日本人、アメリカ人。“人”单独用时读 ひと,数人数时读 にん(第 3 单元学)——一个汉字几种读法是日语汉字的常态。" }
+      ],
+      "reviewItems": ["ja.watashi", "ja.wa_p", "ja.desu"]
+    },
+    {
+      "id": "ja.a1u2.l03", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-2 片假名与自我介绍", "order": 102030,
+      "titleZh": "片假名③:ナ行、ハ行;你是学生吗?", "goalZh": "认读、书写 ナ行和ハ行的 10 个片假名,学会用“〜ですか”提问",
+      "canDoZh": "能认读、写出 ナニヌネノ ハヒフヘホ;能用“〜ですか”问别人的身份和国籍,用 はい / いいえ 回答",
+      "scenarioZh": "课间休息,智友和林雨跟一位泰国男同学聊天:〜さんは 学生ですか。—はい、学生です。智友也问林雨:リンさんは 中国人ですか。—はい、中国人です。课文 6–8 句,另加两行假名认读:ナニヌネノ / ハヒフヘホ。“不是……”第 5 课才学,否定回答这一课只说 いいえ。说话人:jiu、kurasumeito、rin、narrator。",
+      "grammarFocusZh": "句末加 か 变成疑问句,语序不变、语调上扬:学生ですか。回答:はい、学生です / いいえ;ニ 像“二”、ハ 像“八”、ネ 像“礻”、ヌ 像“又”;ヘ 和平假名 へ 几乎一样;ノ 只有一撇",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kata_na", "kind": "char", "pos": "char", "text": "ナ", "zh": "na(=な)", "features": { "roman": "na" }, "noteZh": "取自“奈”的左上部。和 メ 区分:ナ 是一横一撇。" },
+        { "id": "ja.kata_ni", "kind": "char", "pos": "char", "text": "ニ", "zh": "ni(=に)", "features": { "roman": "ni" }, "noteZh": "取自“仁”的右边,像汉字“二”。" },
+        { "id": "ja.kata_nu", "kind": "char", "pos": "char", "text": "ヌ", "zh": "nu(=ぬ)", "features": { "roman": "nu" }, "noteZh": "取自“奴”的右边,像汉字“又”。和 ス 区分:ヌ 中间多一点。" },
+        { "id": "ja.kata_ne", "kind": "char", "pos": "char", "text": "ネ", "zh": "ne(=ね)", "features": { "roman": "ne" }, "noteZh": "取自“祢”的左边,像偏旁“礻”。" },
+        { "id": "ja.kata_no", "kind": "char", "pos": "char", "text": "ノ", "zh": "no(=の)", "features": { "roman": "no" }, "noteZh": "取自“乃”,只有一撇。" },
+        { "id": "ja.kata_ha", "kind": "char", "pos": "char", "text": "ハ", "zh": "ha(=は)", "features": { "roman": "ha" }, "noteZh": "取自“八”,形状也像“八”。" },
+        { "id": "ja.kata_hi", "kind": "char", "pos": "char", "text": "ヒ", "zh": "hi(=ひ)", "features": { "roman": "hi" }, "noteZh": "取自“比”的右边。" },
+        { "id": "ja.kata_fu", "kind": "char", "pos": "char", "text": "フ", "zh": "fu(=ふ)", "features": { "roman": "fu" }, "noteZh": "取自“不”。和 ワ、ウ 区分:フ 只有一笔。" },
+        { "id": "ja.kata_he", "kind": "char", "pos": "char", "text": "ヘ", "zh": "he(=へ)", "features": { "roman": "he" }, "noteZh": "取自“部”的右边。和平假名 へ 几乎一样,写片假名时稍微直一点。" },
+        { "id": "ja.kata_ho", "kind": "char", "pos": "char", "text": "ホ", "zh": "ho(=ほ)", "features": { "roman": "ho" }, "noteZh": "取自“保”的右下,像汉字“木”。" },
+        { "id": "ja.gakusei", "kind": "word", "pos": "noun", "text": "学生", "zh": "学生", "features": { "reading": "がくせい", "roman": "gakusei", "pitch": 0 }, "noteZh": "音读:学 がく、生 せい。せい 的 い 读得像把 e 拉长(sē)。" },
+        { "id": "ja.ka_p", "kind": "word", "pos": "particle", "text": "か", "zh": "疑问助词(句末,相当于“吗”)", "features": { "roman": "ka" }, "noteZh": "放在句末表示疑问,语调上扬:学生ですか。日语书面上句末一般用“。”,不一定加问号。" }
+      ],
+      "reviewItems": ["ja.chuugoku", "ja.jin", "ja.hai", "ja.iie"]
+    },
+    {
+      "id": "ja.a1u2.l04", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-2 片假名与自我介绍", "order": 102040,
+      "titleZh": "片假名④:マ行、ヤ行和长音符号 ー;我的名字", "goalZh": "认读、书写 マ行、ヤ行的 8 个片假名和长音符号 ー,学会说“我的名字是……”",
+      "canDoZh": "能认读、写出 マミムメモ ヤユヨ 和长音符号 ー;能用 の 说“我的名字”“日本人”,和新朋友互相介绍名字",
+      "scenarioZh": "下课后,咲带高中同学健太来别科教室找林雨。健太:はじめまして。わたしの 名前は たかはし けんたです。日本人です。林雨在名牌上用片假名写自己的名字:わたしの 名前は リン・ユーです。中国人です。课文 6–8 句,另加假名认读:マミムメモ / ヤユヨ,以及林雨名字里的长音 ユー。说话人:saki、kenta、rin、narrator。",
+      "grammarFocusZh": "“N1 の N2”(わたしの 名前、日本の 大学):名词连名词几乎都要加 の;长音符号 ー 只用在片假名里,把前一个音拉长一拍(ユー = yū);长音会区分词义(ビル 大楼 / ビール 啤酒);ミ 像“三”;ユ / ヨ、マ / ム 字形区分",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kata_ma", "kind": "char", "pos": "char", "text": "マ", "zh": "ma(=ま)", "features": { "roman": "ma" }, "noteZh": "取自“末”。和 ム 区分:マ 是一个“フ”加一点。" },
+        { "id": "ja.kata_mi", "kind": "char", "pos": "char", "text": "ミ", "zh": "mi(=み)", "features": { "roman": "mi" }, "noteZh": "取自“三”,三笔斜点。" },
+        { "id": "ja.kata_mu", "kind": "char", "pos": "char", "text": "ム", "zh": "mu(=む)", "features": { "roman": "mu" }, "noteZh": "取自“牟”的上部。" },
+        { "id": "ja.kata_me", "kind": "char", "pos": "char", "text": "メ", "zh": "me(=め)", "features": { "roman": "me" }, "noteZh": "取自“女”。和 ナ 区分:メ 是一撇一点交叉。" },
+        { "id": "ja.kata_mo", "kind": "char", "pos": "char", "text": "モ", "zh": "mo(=も)", "features": { "roman": "mo" }, "noteZh": "取自“毛”。" },
+        { "id": "ja.kata_ya", "kind": "char", "pos": "char", "text": "ヤ", "zh": "ya(=や)", "features": { "roman": "ya" }, "noteZh": "取自“也”。和平假名 や 很像。" },
+        { "id": "ja.kata_yu", "kind": "char", "pos": "char", "text": "ユ", "zh": "yu(=ゆ)", "features": { "roman": "yu" }, "noteZh": "取自“由”。和 ヨ 区分:ユ 只有两笔、开口朝左。" },
+        { "id": "ja.kata_yo", "kind": "char", "pos": "char", "text": "ヨ", "zh": "yo(=よ)", "features": { "roman": "yo" }, "noteZh": "取自“与”。三横、开口朝左。" },
+        { "id": "ja.kata_choon", "kind": "char", "pos": "char", "text": "ー", "zh": "长音符号(拉长前一个音)", "features": { "roman": "-" }, "noteZh": "只用在片假名里,把前一个音拉长一拍:コーヒー、ケーキ、ユー。横着写是一横,竖着写是一竖。用输入法打减号 -。" },
+        { "id": "ja.namae", "kind": "word", "pos": "noun", "text": "名前", "zh": "名字", "features": { "reading": "なまえ", "roman": "namae", "pitch": 0 }, "noteZh": "训读。问别人的名字说 お名前は?(您叫什么名字),说自己的名字不加 お。" },
+        { "id": "ja.no_p", "kind": "word", "pos": "particle", "text": "の", "zh": "的(连接两个名词)", "features": { "roman": "no" }, "noteZh": "わたしの 名前(我的名字)、日本の 大学(日本的大学)。中文常省略“的”的地方(日语老师 → 日本語の 先生),日语也要加 の。" },
+        { "id": "ja.nihon", "kind": "word", "pos": "propn", "text": "日本", "zh": "日本", "features": { "reading": "にほん", "roman": "nihon", "pitch": 2 }, "noteZh": "也读 にっぽん(更正式,如体育比赛、纸币上)。日本人 = にほんじん。" }
+      ],
+      "reviewItems": ["ja.watashi", "ja.wa_p", "ja.gakusei", "ja.jin"]
+    },
+    {
+      "id": "ja.a1u2.l05", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-2 片假名与自我介绍", "order": 102050,
+      "titleZh": "片假名⑤:ラ行、ワ行、ン和外来语;我不是日本人", "goalZh": "学完全部片假名,会读带长音和特殊拼法的外来语;学会用“〜ではありません”否定",
+      "canDoZh": "能认读、写出全部片假名,分清 ソ / ン、シ / ツ,能读 パーティー 这样的外来语;别人弄错时能用“〜ではありません”纠正",
+      "scenarioZh": "别科的欢迎会(パーティー)上,健太第一次见到智友,以为她是日本人:ジウさんは 日本人ですか。—いいえ、日本人では ありません。韓国人です。田中老师也来了,向健太介绍自己:わたしは 日本語の 先生です。课文 8 句左右,另加假名认读:ラリルレロ / ワ ヲ ン 和外来语 パーティー。说话人:kenta、jiu、tanaka、rin、narrator。",
+      "grammarFocusZh": "“N では ありません”(不是 N,口语常说 じゃありません);外来语的拼写:长音 ー、促音 ッ、拗音 ャ ュ ョ 和平假名规则相同,另有外来语专用的特殊拼法 ティ、ディ、ファ、ウィ 等(テ + 小 ィ = ti);ソ / ン、シ / ツ 再对比;ヲ 现代几乎不用",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.kata_ra", "kind": "char", "pos": "char", "text": "ラ", "zh": "ra(=ら)", "features": { "roman": "ra" }, "noteZh": "取自“良”。" },
+        { "id": "ja.kata_ri", "kind": "char", "pos": "char", "text": "リ", "zh": "ri(=り)", "features": { "roman": "ri" }, "noteZh": "取自“利”的右边“刂”,和平假名 り 很像。" },
+        { "id": "ja.kata_ru", "kind": "char", "pos": "char", "text": "ル", "zh": "ru(=る)", "features": { "roman": "ru" }, "noteZh": "取自“流”的右下部。" },
+        { "id": "ja.kata_re", "kind": "char", "pos": "char", "text": "レ", "zh": "re(=れ)", "features": { "roman": "re" }, "noteZh": "取自“礼”的右边,一笔写成。" },
+        { "id": "ja.kata_ro", "kind": "char", "pos": "char", "text": "ロ", "zh": "ro(=ろ)", "features": { "roman": "ro" }, "noteZh": "取自“呂”,像汉字“口”。" },
+        { "id": "ja.kata_wa", "kind": "char", "pos": "char", "text": "ワ", "zh": "wa(=わ)", "features": { "roman": "wa" }, "noteZh": "取自“和”的右边。和 ウ 区分:ワ 上面没有点。" },
+        { "id": "ja.kata_wo", "kind": "char", "pos": "char", "text": "ヲ", "zh": "o(=を)", "features": { "roman": "wo" }, "noteZh": "取自“乎”。现代日语几乎只用平假名 を,片假名 ヲ 很少见,认识即可。" },
+        { "id": "ja.kata_n", "kind": "char", "pos": "char", "text": "ン", "zh": "n(=ん)", "features": { "roman": "n" }, "noteZh": "和 ソ 区分:ン 的点在左上,最后一笔从左下往右上挑。" },
+        { "id": "ja.sensei", "kind": "word", "pos": "noun", "text": "先生", "zh": "老师;医生", "features": { "reading": "せんせい", "roman": "sensei", "pitch": 3 }, "noteZh": "日语的“先生”是老师、医生、律师等,不是中文的“先生(男士)”。称呼老师说 先生 或 田中先生,不加 さん;不能用来称呼自己。" },
+        { "id": "ja.dewa_arimasen", "kind": "phrase", "pos": "phrase", "text": "ではありません", "zh": "不是(です 的否定)", "alt": ["じゃありません", "じゃないです"], "features": { "roman": "dewa arimasen" }, "noteZh": "では 的 は 读 wa;口语常说 じゃありません / じゃないです。日本人では ありません(不是日本人)。" },
+        { "id": "ja.nihongo", "kind": "word", "pos": "noun", "text": "日本語", "zh": "日语", "features": { "reading": "にほんご", "roman": "nihongo", "pitch": 0 }, "noteZh": "国名 + 語(ご)= 某国的语言:中国語(汉语)、英語(英语)。日本語の 先生 = 日语老师。" },
+        { "id": "ja.paatii", "kind": "word", "pos": "noun", "text": "パーティー", "zh": "聚会;派对", "features": { "roman": "paatii", "pitch": 1 }, "noteZh": "ティ 是外来语的特殊拼法(テ + 小 ィ,读 ti);两个 ー 都要拉长:パ・ー・ティ・ー 一共 4 拍。" }
+      ],
+      "reviewItems": ["ja.nihon", "ja.chuugoku", "ja.ka_p", "ja.no_p"]
+    },
+    {
+      "id": "ja.a1u2.l08", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-2 片假名与自我介绍", "order": 102080,
+      "titleZh": "单元复习:欢迎会上的自我介绍", "goalZh": "把第 1–2 单元学过的说法串起来,完整地做一次自我介绍",
+      "canDoZh": "能用 5–6 句话完整地介绍自己:名字、国籍、从哪里来、在哪里上学;听不懂时能说 すみません、わかりません",
+      "scenarioZh": "欢迎会后半场,田中老师请新生轮流上台自我介绍。林雨:はじめまして。リン・ユーです。中国の 杭州から来ました。東京の 大学の 留学生です。よろしくおねがいします。老师接着用日语问了一个问题,林雨没听懂:すみません、わかりません。老师换成简单的说法再问一次,林雨答上来了。智友接着介绍自己;最后大家对老师说 さようなら。对话 10–12 句(杭州、東京 是专有名词,有汉字的句子照样写整句读音)。说话人:tanaka、rin、jiu、saki、kenta。",
+      "grammarFocusZh": "复习:は / か / の、です / ではありません;“地名 から来ました”(从……来);自我介绍的顺序:はじめまして → 名字 → 国籍 / 从哪里来 → 身份 → よろしくおねがいします;听不懂时说 すみません、わかりません",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.kara_kimashita", "kind": "phrase", "pos": "phrase", "text": "から来ました", "zh": "从……来(我来自……)", "features": { "reading": "からきました", "roman": "kara kimashita" }, "noteZh": "地名 + から来ました:中国から来ました。来(き)是动词 来る 的变化形式,第 6 单元学 来ます。" },
+        { "id": "ja.ryuugakusei", "kind": "word", "pos": "noun", "text": "留学生", "zh": "留学生", "features": { "reading": "りゅうがくせい", "roman": "ryuugakusei" }, "noteZh": "りゅう 是拗音 + 长音:りゅ・う・が・く・せ・い 6 拍。意思和中文一样,读音要单独记。" },
+        { "id": "ja.daigaku", "kind": "word", "pos": "noun", "text": "大学", "zh": "大学", "features": { "reading": "だいがく", "roman": "daigaku", "pitch": 0 }, "noteZh": "“大”在这里读 だい(音读),和 大きい(おおきい,大)的读法不同。" },
+        { "id": "ja.wakaru", "kind": "word", "pos": "verb", "text": "わかります", "zh": "懂;明白", "alt": ["分かります"], "features": { "roman": "wakarimasu", "pitch": 4 }, "noteZh": "听不懂时说 すみません、わかりません;懂了说 わかりました。辞书形 わかる(一类动词)。" }
+      ],
+      "reviewItems": ["ja.hajimemashite", "ja.yoroshiku_onegaishimasu", "ja.namae", "ja.dewa_arimasen"]
+    }
+  ]
+}
