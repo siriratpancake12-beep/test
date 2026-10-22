@@ -1,0 +1,26 @@
+{
+  "id": "en.a1u1.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101010,
+  "titleZh": "初次见面", "goalZh": "会做简单的自我介绍,读准 th 和词重音", "canDoZh": "能用英语和新朋友互相介绍、说自己来自哪里",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
+  "newItems": [
+    { "id": "en.hi", "kind": "word", "pos": "interj", "text": "Hi", "zh": "嗨", "features": { "ipa": "haɪ" } },
+    { "id": "en.my_name_is", "kind": "phrase", "pos": "phrase", "text": "My name is", "zh": "我的名字是……", "features": { "ipa": "maɪ ˈneɪm ɪz" } },
+    { "id": "en.nice_to_meet_you", "kind": "phrase", "pos": "phrase", "text": "Nice to meet you", "zh": "很高兴认识你", "features": { "ipa": "ˈnaɪs tə ˈmiːt juː" } },
+    { "id": "en.where_are_you_from", "kind": "phrase", "pos": "phrase", "text": "Where are you from", "zh": "你是哪里人?", "features": {} },
+    { "id": "en.im_from", "kind": "phrase", "pos": "phrase", "text": "I'm from", "zh": "我来自……", "alt": ["I am from"], "features": {} },
+    { "id": "en.thank_you", "kind": "phrase", "pos": "phrase", "text": "Thank you", "zh": "谢谢", "alt": ["Thanks"], "features": { "ipa": "ˈθæŋk juː" }, "noteZh": "th 要把舌尖轻轻放在上下牙之间送气,不是 s 也不是 f。" }
+  ],
+  "lines": [
+    { "speaker": "amy", "text": "Hi! My name is Amy.", "zh": "嗨!我叫艾米。", "items": ["en.hi", "en.my_name_is"] },
+    { "speaker": "lei", "text": "Hi, Amy! My name is Lei. Nice to meet you.", "zh": "嗨,艾米!我叫磊。很高兴认识你。", "items": ["en.hi", "en.my_name_is", "en.nice_to_meet_you"] },
+    { "speaker": "amy", "text": "Where are you from?", "zh": "你是哪里人?", "items": ["en.where_are_you_from"] },
+    { "speaker": "lei", "text": "I'm from Chengdu, China.", "zh": "我来自中国成都。", "items": ["en.im_from"] },
+    { "speaker": "amy", "text": "Cool! Thank you, Lei.", "zh": "酷!谢谢你,磊。", "items": ["en.thank_you"] }
+  ],
+  "questions": [
+    {"prompt": "磊来自哪里?", "options": ["北京", "成都", "上海"], "answer": 1, "explainZh": "I'm from Chengdu, China."},
+    {"prompt": "Amy 问了磊什么?", "options": ["他叫什么名字", "他是哪里人", "他几岁"], "answer": 1, "explainZh": "Where are you from? —— 你是哪里人?"}
+  ],
+  "review": "draft"
+}

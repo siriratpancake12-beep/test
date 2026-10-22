@@ -1,0 +1,29 @@
+{
+  "id": "de.a1u1.l02", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 你好,我是……", "order": 101020,
+  "titleZh": "我的家人", "goalZh": "记住家人的叫法,连同冠词 der / die 一起记", "canDoZh": "能用德语介绍自己的家人",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 7,
+  "newItems": [
+    { "id": "de.vater", "kind": "word", "pos": "noun", "text": "der Vater", "zh": "父亲", "features": { "gender": "m", "plural": "die Väter" } },
+    { "id": "de.mutter", "kind": "word", "pos": "noun", "text": "die Mutter", "zh": "母亲", "features": { "gender": "f", "plural": "die Mütter" } },
+    { "id": "de.bruder", "kind": "word", "pos": "noun", "text": "der Bruder", "zh": "兄弟", "features": { "gender": "m", "plural": "die Brüder" } },
+    { "id": "de.schwester", "kind": "word", "pos": "noun", "text": "die Schwester", "zh": "姐妹", "features": { "gender": "f", "plural": "die Schwestern" } },
+    { "id": "de.kind", "kind": "word", "pos": "noun", "text": "das Kind", "zh": "孩子", "features": { "gender": "n", "plural": "die Kinder" } },
+    { "id": "de.das_ist", "kind": "phrase", "pos": "phrase", "text": "Das ist", "zh": "这是……", "features": {} }
+  ],
+  "reviewItems": ["de.hallo"],
+  "lines": [
+    { "speaker": "wei", "text": "Das ist mein Vater.", "zh": "这是我爸爸。", "items": ["de.das_ist", "de.vater"] },
+    { "speaker": "wei", "text": "Das ist meine Mutter.", "zh": "这是我妈妈。", "items": ["de.das_ist", "de.mutter"] },
+    { "speaker": "lena", "text": "Hallo! Ist das deine Schwester?", "zh": "你们好!这是你姐姐吗?", "items": ["de.hallo", "de.das_ist", "de.schwester"] }
+  ],
+  "questions": [
+    {"prompt": "莉娜问的是谁?", "options": ["伟的姐妹", "伟的妈妈", "伟的爸爸"], "answer": 0, "explainZh": "Ist das deine Schwester? —— 这是你的姐妹吗?"}
+  ],
+  "grammar": [
+    { "id": "de.g.mein_meine", "titleZh": "mein 还是 meine?",
+      "bodyZh": "“我的”要跟名词的性走:阳性、中性用 mein(mein Vater, mein Kind),阴性用 meine(meine Mutter)。所以记名词一定连冠词一起记。",
+      "examples": [ { "text": "mein Bruder", "zh": "我的兄弟" }, { "text": "meine Schwester", "zh": "我的姐妹" } ] }
+  ],
+  "review": "draft"
+}
