@@ -60,13 +60,16 @@ export interface BillingTables {
     received_at: Generated<Date>;
     raw: unknown;
   };
-  /** 订阅换绑记录(审计用),只有 id,没有个人信息。原来的账号已注销时 old_user_id 记 "deleted",不再和注销的账号关联 */
+  /**
+   * 订阅换绑记录(审计用),只有 id,没有个人信息。账号注销了就记 "deleted"(注销时把已有记录里的 id 也改掉),
+   * 不再和注销的账号关联;没有账号标识的购买第一次被认领时 old_user_id 记 "none"。
+   */
   subscription_rebinds: {
     id: string;
     original_transaction_id: string;
     old_user_id: string;
     new_user_id: string;
-    /** apple-transaction / apple-notification */
+    /** apple-transaction / apple-notification / claim_no_token(没有账号标识的购买被认领) */
     source: string;
     at: Date;
   };
@@ -266,10 +269,34 @@ export async function deleteBoundSubscription(db: Db, userId: string, originalTr
   await db.deleteFrom("subscriptions").where("user_id", "=", userId).where("original_transaction_id", "=", originalTransactionId).execute();
 }
 
+/** 换绑记录里表示"已注销的账号"和"原来没有主人"(第一次认领)的写法 */
+export const DELETED_USER = "deleted";
+export const NO_OWNER = "none";
+
 export async function recordRebind(db: Db, r: { originalTransactionId: string; oldUserId: string; newUserId: string; source: string; at: Date }): Promise<void> {
   await db.insertInto("subscription_rebinds")
     .values({ id: randomUUID(), original_transaction_id: r.originalTransactionId, old_user_id: r.oldUserId, new_user_id: r.newUserId, source: r.source, at: r.at })
     .execute();
+}
+
+/** 换绑记录里这个订阅最后归了谁(new_user_id;注销了的是 "deleted"),没有记录返回 null */
+export async function lastRebindOwner(db: Db, originalTransactionId: string): Promise<string | null> {
+  const row = await db.selectFrom("subscription_rebinds").select("new_user_id")
+    .where("original_transaction_id", "=", originalTransactionId).orderBy("at", "desc").orderBy("id", "desc").executeTakeFirst();
+  return row?.new_user_id ?? null;
+}
+
+/**
+ * 注销账号时支付相关的清理(routes/account.ts 在注销的事务里调用):
+ * 订阅状态删掉;交易流水、苹果通知保留(对账、退款、指标要用),但不再关联这个人;
+ * 换绑记录里这个账号的 id 改成 "deleted"。同一个 Apple ID 以后在新账号恢复购买,按换绑规则接手。
+ */
+export async function forgetBillingUser(db: Db, userId: string): Promise<void> {
+  await db.deleteFrom("subscriptions").where("user_id", "=", userId).execute();
+  await db.updateTable("subscription_events").set({ user_id: null }).where("user_id", "=", userId).execute();
+  await db.updateTable("apple_notifications").set({ user_id: null }).where("user_id", "=", userId).execute();
+  await db.updateTable("subscription_rebinds").set({ old_user_id: DELETED_USER }).where("old_user_id", "=", userId).execute();
+  await db.updateTable("subscription_rebinds").set({ new_user_id: DELETED_USER }).where("new_user_id", "=", userId).execute();
 }
 
 /**

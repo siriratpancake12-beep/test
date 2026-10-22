@@ -150,14 +150,13 @@ describe("会员状态和 App 上报交易", () => {
     expect((await eventsOf(s.orig)).map((e) => e.type)).toEqual(["start-trial", "renewed", "refunded"]);
   });
 
-  it("交易的账号标识不是当前用户(或没有):拒绝,不开通", async () => {
+  it("交易的账号标识是另一个还在用的账号:拒绝,不开通", async () => {
     const owner = await newUser();
     const other = await newUser();
     const s = story(owner.id);
     const r = await report(other.auth, s.trial());
     expect(r.statusCode).toBe(403);
     expect(r.json().error).toEqual({ code: "wrong_account", message: "这笔购买属于另一个语途账号,请登录购买时用的账号" });
-    expect((await report(other.auth, s.trial({ appAccountToken: "" }))).json().error.code).toBe("no_account_token");
     expect(await getSub(other.auth)).toEqual({ subscription: null, premium: false });
     expect(await eventsOf(s.orig)).toEqual([]);
     // 账号标识大小写不同算同一个人
@@ -364,6 +363,70 @@ describe("原来的账号注销后换绑", () => {
     expect(back.statusCode).toBe(403);
     expect(back.json().error.code).toBe("wrong_account");
     expect(await getPremium(t.deps, second.id)).toBe(true);
+  });
+
+  it("注销账号时,换绑记录里这个账号的 id 改成 deleted", async () => {
+    const first = await newUser();
+    const s = story(first.id);
+    await report(first.auth, s.tx({ productId: "premium_monthly", expiresDate: at(30) }));
+    t.setNow(new Date(at(31)));
+    const second = await newUser();
+    await report(second.auth, s.tx({ transactionId: `${s.orig}8`, appAccountToken: second.id, purchaseDate: at(31), expiresDate: at(396) }));
+    expect((await rebindsOf(s.orig)).map((x) => [x.old_user_id, x.new_user_id])).toEqual([[first.id, second.id]]);
+    await deleteAccount(first.auth);
+    expect((await rebindsOf(s.orig)).map((x) => [x.old_user_id, x.new_user_id])).toEqual([["deleted", second.id]]);
+    await deleteAccount(second.auth);
+    expect((await rebindsOf(s.orig)).map((x) => [x.old_user_id, x.new_user_id])).toEqual([["deleted", "deleted"]]);
+    const left = await t.deps.db.selectFrom("subscription_rebinds").select("id")
+      .where((eb) => eb.or([eb("old_user_id", "in", [first.id, second.id]), eb("new_user_id", "in", [first.id, second.id])])).execute();
+    expect(left).toEqual([]);
+  });
+
+  it("没有账号标识的购买(比如在 App 外兑换的优惠码):第一个来恢复的账号认领并记审计;之后别的账号来是冲突;通知归认领的账号", async () => {
+    const s = story();
+    const offer = s.tx({ offerType: 3, offerIdentifier: "WELCOME2027" });
+    // 苹果的通知先到:没有账号标识、也没绑定过,先存着
+    await notify(appleNotification(N.OFFER_REDEEMED, Subtype.INITIAL_BUY, 0), offer, s.info());
+    expect(await notesOf(s.orig)).toEqual([{ type: "OFFER_REDEEMED", user_id: null }]);
+
+    t.setNow(new Date(at(1)));
+    const u = await newUser();
+    const r = await report(u.auth, offer);
+    expect(r.statusCode).toBe(200);
+    expect(r.json()).toMatchObject({ premium: true, subscription: { status: "active", productId: "premium_yearly" } });
+    expect(await rebindsOf(s.orig)).toEqual([{ old_user_id: "none", new_user_id: u.id, source: "claim_no_token", at: new Date(at(1)) }]);
+    expect(await notesOf(s.orig)).toEqual([{ type: "OFFER_REDEEMED", user_id: u.id }]);
+
+    // 已经被一个还在用的账号认领:别的账号拿同一笔交易是冲突
+    const v = await newUser();
+    const conflict = await report(v.auth, offer);
+    expect(conflict.statusCode).toBe(403);
+    expect(conflict.json().error.code).toBe("wrong_account");
+    expect(await getPremium(t.deps, v.id)).toBe(false);
+
+    // 之后的续费通知(也没有账号标识)归认领的账号;再恢复一次不重复记
+    t.setNow(new Date(at(366)));
+    await notify(appleNotification(N.DID_RENEW, undefined, 365), s.renewal(1, 365, 730));
+    expect(await getSub(u.auth)).toMatchObject({ premium: true, subscription: { periodEnd: new Date(at(730)).toISOString() } });
+    expect((await report(u.auth, s.renewal(1, 365, 730))).json().premium).toBe(true);
+    expect(await rebindsOf(s.orig)).toHaveLength(1);
+  });
+
+  it("没有账号标识的购买,认领它的账号注销后:下一个来恢复的账号接手,审计记 deleted", async () => {
+    const s = story();
+    const offer = s.tx();
+    const u = await newUser();
+    expect((await report(u.auth, offer)).json().premium).toBe(true);
+    await deleteAccount(u.auth);
+    expect((await rebindsOf(s.orig)).map((x) => [x.old_user_id, x.new_user_id, x.source])).toEqual([["none", "deleted", "claim_no_token"]]);
+
+    t.setNow(new Date(at(2)));
+    const w = await newUser();
+    expect((await report(w.auth, offer)).json()).toMatchObject({ premium: true, subscription: { status: "active" } });
+    expect((await rebindsOf(s.orig)).map((x) => [x.old_user_id, x.new_user_id, x.source])).toEqual([
+      ["none", "deleted", "claim_no_token"], ["deleted", w.id, "claim_no_token"],
+    ]);
+    expect(await getPremium(t.deps, w.id)).toBe(true);
   });
 });
 
