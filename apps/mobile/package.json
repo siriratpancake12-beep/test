@@ -36,7 +36,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "typecheck": "tsc --noEmit",
-    "build:web": "expo export --platform web --output-dir dist-web"
+    "build:web": "expo export --platform web --output-dir dist-web --clear"
   },
   "private": true
 }
