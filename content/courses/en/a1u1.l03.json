@@ -20,8 +20,8 @@
     { "speaker": "amy", "text": "Hi, Ethan! This is my friend Sofia. She's an international student.", "zh": "嗨,伊森!这是我的朋友索菲亚。她是国际学生。", "items": ["en.hi", "en.this_is", "en.friend", "en.international_student"] },
     { "speaker": "lei", "text": "Me too! I'm from China.", "zh": "我也是!我来自中国。", "items": ["en.me_too", "en.im_from"] },
     { "speaker": "ethan", "text": "Cool! Where are you from, Sofia?", "zh": "酷!你是哪里人,索菲亚?", "items": ["en.cool", "en.where_are_you_from"] },
-    { "speaker": "sofia", "text": "I'm from Mexico. Nice to meet you, you guys!", "zh": "我来自墨西哥。很高兴认识你们!", "items": ["en.im_from", "en.nice_to_meet_you", "en.you_guys"] },
-    { "speaker": "amy", "text": "Are you guys freshmen?", "zh": "你们俩是大一新生吗?", "items": ["en.you_guys", "en.freshman"] },
+    { "speaker": "sofia", "text": "I'm from Mexico. Nice to meet you guys!", "zh": "我来自墨西哥。很高兴认识你们!", "items": ["en.im_from", "en.nice_to_meet_you", "en.you_guys"] },
+    { "speaker": "amy", "text": "Are you guys freshmen?", "zh": "你们是大一新生吗?", "items": ["en.you_guys", "en.freshman"] },
     { "speaker": "lei", "text": "Yes, we are. I'm a computer science student.", "zh": "对,我们是。我是学计算机的。", "items": ["en.computer_science", "en.student"] },
     { "speaker": "sofia", "text": "Great! And Ethan? What's his major?", "zh": "太好了!那伊森呢?他学什么专业?", "items": ["en.great", "en.major"] },
     { "speaker": "ethan", "text": "My major? Hey, I'm a freshman!", "zh": "我的专业?嘿,我才大一啊!", "items": ["en.major", "en.hey", "en.freshman"] }
@@ -44,5 +44,5 @@
         { "text": "She's an international student.", "zh": "她是国际学生。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

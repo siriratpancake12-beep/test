@@ -4,7 +4,7 @@
   "titleZh": "买单和小费", "goalZh": "会在餐厅结账、选择付款方式,了解美国给小费的习惯", "canDoZh": "能在美国餐厅叫服务员买单、分开付,并按习惯付小费",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
   "newItems": [
-    { "id": "en.check", "kind": "word", "pos": "noun", "text": "check", "zh": "(餐厅的)账单", "alt": ["bill"], "features": { "ipa": "tʃek" }, "noteZh": "美国餐厅买单说 Can I get the check?(英式说 bill);服务员一般不会主动拿账单来,要自己叫。" },
+    { "id": "en.check", "kind": "word", "pos": "noun", "text": "check", "zh": "(餐厅的)账单", "alt": ["bill"], "features": { "ipa": "tʃek" }, "noteZh": "美国餐厅买单说 Can I get the check?(英式说 bill);服务员有时会主动把账单送来,没送就自己叫。" },
     { "id": "en.pay", "kind": "word", "pos": "verb", "text": "pay", "zh": "付钱", "features": { "ipa": "peɪ" }, "noteZh": "pay by card 刷卡,pay in cash 付现金;为某物付钱:pay for…" },
     { "id": "en.card", "kind": "word", "pos": "noun", "text": "card", "zh": "卡(银行卡、信用卡)", "features": { "ipa": "kɑːrd" }, "noteZh": "店员常问 Card or cash? 刷卡还是现金?" },
     { "id": "en.cash", "kind": "word", "pos": "noun", "text": "cash", "zh": "现金", "features": { "ipa": "kæʃ" }, "noteZh": "a 读 /æ/;美国大部分地方都能刷卡,少数小店只收现金。" },
@@ -16,7 +16,7 @@
   ],
   "reviewItems": ["en.ill_have", "en.water", "en.youre_welcome"],
   "lines": [
-    { "speaker": "server", "text": "How was everything?", "zh": "吃得还好吗?", "items": [] },
+    { "speaker": "server", "text": "How was everything? Anything else?", "zh": "吃得还好吗?还要点别的吗?", "items": ["en.anything_else"] },
     { "speaker": "lei", "text": "Delicious! I'll have a tea. And can we get the check, please?", "zh": "很好吃!我要一杯茶。还有,能给我们账单吗?", "items": ["en.delicious", "en.ill_have", "en.tea", "en.can_i_get", "en.check"] },
     { "speaker": "server", "text": "Sure. Together or separate?", "zh": "好的。一起付还是分开付?", "items": ["en.sure", "en.together_or_separate"] },
     { "speaker": "sofia", "text": "Separate, please. And can I get some water? Thanks!", "zh": "分开付,谢谢。能给我来点水吗?谢谢!", "items": ["en.together_or_separate", "en.can_i_get", "en.water", "en.thank_you"] },
@@ -32,12 +32,12 @@
   ],
   "grammar": [
     { "id": "en.g.u4_paying", "titleZh": "买单:叫账单、读价格、选付款方式",
-      "bodyZh": "叫买单:Can I get the check, please?(两个人一起可以说 Can we get the check?)。美国餐厅一般要自己叫,服务员不会主动拿账单来。\n服务员会问 Together or separate?(一起付还是分开付?),各付各的就说 Separate, please.;问 Card or cash?(刷卡还是现金?),回答可以很短:Card, please. / Cash for me.。\n问价钱:How much is it?,连读成 \"how-mu-chi-zit\"。口语里常把 dollars 和 cents 都省掉,按两段读:$16.50 读 sixteen fifty,$24.50 读 twenty-four fifty;整数说 three dollars。\nHow was everything? 是服务员必问的固定说法(was 第 8 单元学),回答 Delicious! 或 Great, thanks! 就行。\n文化:美国餐厅的小费不含在账单里,一般给税前金额的 15%–20%;刷卡时自己把小费金额写在账单上。",
+      "bodyZh": "叫买单:Can I get the check, please?(两个人一起可以说 Can we get the check?)。服务员有时会主动把账单送来,没送就自己叫。\n服务员会问 Together or separate?(一起付还是分开付?),各付各的就说 Separate, please.;问 Card or cash?(刷卡还是现金?),回答可以很短:Card, please. / Cash for me.。\n问价钱:How much is it?,连读成 \"how-mu-chi-zit\"。口语里常把 dollars 和 cents 都省掉,按两段读:$16.50 读 sixteen fifty,$24.50 读 twenty-four fifty;整数说 three dollars。\nHow was everything? 是服务员必问的固定说法(was 第 8 单元学),回答 Delicious! 或 Great, thanks! 就行。\n文化:美国餐厅的小费不含在账单里,一般给税前金额的 15%–20%;刷卡时自己把小费金额写在账单上。",
       "examples": [
         { "text": "Can we get the check, please?", "zh": "能给我们账单吗?" },
         { "text": "How much is it? — It's sixteen fifty.", "zh": "多少钱?——16.5 美元。" },
         { "text": "Card or cash? — Card, please.", "zh": "刷卡还是现金?——刷卡,谢谢。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

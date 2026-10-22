@@ -20,7 +20,7 @@
       "grammarFocusZh": "be 动词入门:I'm = I am;用 My name is… 说名字,用 Where are you from? — I'm from… 问答来自哪里。发音:th(thank you)、词重音(NICE to MEET you)。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
       "newItems": [
-        { "id": "en.hi", "kind": "word", "pos": "interj", "text": "Hi", "zh": "嗨", "features": { "ipa": "haɪ" } },
+        { "id": "en.hi", "kind": "word", "pos": "interj", "text": "Hi", "zh": "嗨;你好", "features": { "ipa": "haɪ" } },
         { "id": "en.my_name_is", "kind": "phrase", "pos": "phrase", "text": "My name is", "zh": "我的名字是……", "features": { "ipa": "maɪ ˈneɪm ɪz" } },
         { "id": "en.nice_to_meet_you", "kind": "phrase", "pos": "phrase", "text": "Nice to meet you", "zh": "很高兴认识你", "features": { "ipa": "ˈnaɪs tə ˈmiːt juː" } },
         { "id": "en.where_are_you_from", "kind": "phrase", "pos": "phrase", "text": "Where are you from", "zh": "你是哪里人?", "features": { "ipa": "ˌwer ɚ jə ˈfrʌm" } },

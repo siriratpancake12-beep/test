@@ -28,9 +28,9 @@
     { "speaker": "lei", "text": "I was so tired. I was home all day.", "zh": "我太累了,在宿舍待了一整天。", "items": ["en.so", "en.tired", "en.home", "en.all_day"] }
   ],
   "questions": [
-    { "prompt": "磊的周末过得怎么样?", "options": ["很无聊", "很棒,周六去了万圣节派对", "生病了"], "answer": 1, "explainZh": "It was awesome! I was at a Halloween party on Saturday." },
-    { "prompt": "马库斯为什么觉得周末很无聊?", "options": ["他整个周末都在家,天气也不好", "他周末一直在上班", "派对的服装太吓人了"], "answer": 0, "explainZh": "I was home all weekend. The weather was bad. It wasn't sunny at all." },
-    { "prompt": "磊昨天(周日)做了什么?", "options": ["又去了一个派对", "去咖啡馆上班", "太累了,在宿舍待了一整天"], "answer": 2, "explainZh": "And yesterday, Lei? —— I was so tired. I was home all day." }
+    { "prompt": "磊的周末过得怎么样?", "options": ["很无聊", "生病了", "很棒,周六去了万圣节派对"], "answer": 2, "explainZh": "It was awesome! I was at a Halloween party on Saturday." },
+    { "prompt": "马库斯为什么觉得周末很无聊?", "options": ["他周末一直在上班", "他整个周末都在家,天气也不好", "派对的服装太吓人了"], "answer": 1, "explainZh": "I was home all weekend. The weather was bad. It wasn't sunny at all." },
+    { "prompt": "磊昨天(周日)做了什么?", "options": ["太累了,在宿舍待了一整天", "又去了一个派对", "去咖啡馆上班"], "answer": 0, "explainZh": "And yesterday, Lei? —— I was so tired. I was home all day." }
   ],
   "grammar": [
     {
@@ -45,5 +45,5 @@
       ]
     }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -18,12 +18,12 @@
   "reviewItems": ["en.yesterday", "en.tired", "en.water", "en.sleep"],
   "lines": [
     { "speaker": "receptionist", "text": "Hi! How can I help you?", "zh": "你好!有什么可以帮你的?", "items": ["en.hi", "en.can_i_help_you"] },
-    { "speaker": "lei", "text": "I'm sick. I need to see a doctor.", "zh": "我病了,想看一下医生。", "items": ["en.sick", "en.need", "en.see", "en.doctor"] },
-    { "speaker": "doctor", "text": "Hi, Lei. So you don't feel well. What's wrong?", "zh": "你好,磊。你不太舒服是吧?哪儿不舒服?", "items": ["en.hi", "en.dont_feel_well", "en.whats_wrong_with_it"] },
+    { "speaker": "lei", "text": "I don't feel well. I need to see a doctor.", "zh": "我不太舒服,想看一下医生。", "items": ["en.dont_feel_well", "en.need", "en.see", "en.doctor"] },
+    { "speaker": "doctor", "text": "Hi, Lei. So you're sick? What's wrong?", "zh": "你好,磊。你病了?哪儿不舒服?", "items": ["en.hi", "en.sick", "en.whats_wrong_with_it"] },
     { "speaker": "lei", "text": "I have a headache, a sore throat, and a fever.", "zh": "我头疼、嗓子疼,还发烧。", "items": ["en.have", "en.headache", "en.sore_throat", "en.fever"] },
     { "speaker": "doctor", "text": "When did it start? Did you take any medicine?", "zh": "什么时候开始的?吃过药了吗?", "items": ["en.start", "en.take", "en.medicine"] },
     { "speaker": "lei", "text": "Yesterday. No, I didn't. I was tired, so I slept all day.", "zh": "昨天开始的。没吃药。我很累,就睡了一整天。", "items": ["en.yesterday", "en.tired", "en.sleep", "en.all_day"] },
-    { "speaker": "doctor", "text": "It's a cold. Drink a lot of water and get some rest.", "zh": "是感冒。多喝水,好好休息。", "items": ["en.cold", "en.drink", "en.a_lot_of", "en.water", "en.rest"] },
+    { "speaker": "doctor", "text": "It's a cold. Drink a lot of water and get some rest.", "zh": "是感冒。多喝水,好好休息。", "items": ["en.drink", "en.a_lot_of", "en.water", "en.rest"] },
     { "speaker": "doctor", "text": "Take this medicine twice a day. You're going to get better.", "zh": "这个药一天吃两次。你会好起来的。", "items": ["en.take", "en.medicine", "en.twice_a_day", "en.going_to", "en.get_better"] }
   ],
   "questions": [
@@ -41,5 +41,5 @@
       ]
     }
   ],
-  "review": "draft"
+  "review": "ai"
 }

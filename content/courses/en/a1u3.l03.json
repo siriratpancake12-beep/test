@@ -20,7 +20,7 @@
     { "speaker": "amy", "text": "Hey, Lei! How's it going with your roommate?", "zh": "嘿,磊!你和室友处得怎么样?", "items": ["en.hey", "en.hows_it_going", "en.roommate"] },
     { "speaker": "lei", "text": "Good! But Ethan wakes up at eleven and gets up at noon.", "zh": "挺好的!不过伊森十一点才醒,中午才起床。", "items": ["en.im_good", "en.wake_up", "en.get_up", "en.noon"] },
     { "speaker": "amy", "text": "At noon? Does he have class in the morning?", "zh": "中午?他上午有课吗?", "items": ["en.noon", "en.have", "en.class", "en.morning"] },
-    { "speaker": "lei", "text": "No, he doesn't. He sleeps!", "zh": "没有。他在睡觉!", "items": ["en.sleep"] },
+    { "speaker": "lei", "text": "No, he doesn't. He sleeps!", "zh": "没有。上午他就睡觉!", "items": ["en.sleep"] },
     { "speaker": "amy", "text": "And in the afternoon? Does he work?", "zh": "那下午呢?他打工吗?", "items": ["en.afternoon", "en.work"] },
     { "speaker": "lei", "text": "No. He works out at the gym five times a week.", "zh": "不打工。他一周去健身房锻炼五次。", "items": ["en.work_out", "en.gym", "en.week"] },
     { "speaker": "amy", "text": "Wow! Does he study at night?", "zh": "哇!那他晚上学习吗?", "items": ["en.study", "en.night"] },
@@ -43,5 +43,5 @@
         { "text": "Does he have class in the morning? — No, he doesn't.", "zh": "他上午有课吗?——没有。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

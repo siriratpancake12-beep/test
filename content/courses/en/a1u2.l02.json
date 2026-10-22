@@ -21,7 +21,7 @@
     { "speaker": "sofia", "text": "That's my older brother, Diego. He's twenty-five.", "zh": "那是我哥哥迭戈。他 25 岁。", "items": ["en.older", "en.brother"] },
     { "speaker": "lei", "text": "And who's that? How old is he?", "zh": "那这位是谁?他多大?", "items": ["en.whos_that", "en.how_old"] },
     { "speaker": "sofia", "text": "That's Luis. He's twenty-two. I have two older brothers.", "zh": "那是路易斯,他 22 岁。我有两个哥哥。", "items": ["en.have", "en.older", "en.brother"] },
-    { "speaker": "lei", "text": "And who's that? Your younger sisters?", "zh": "那这两个呢?是你妹妹吗?", "items": ["en.whos_that", "en.younger", "en.sister"] },
+    { "speaker": "lei", "text": "And these two? Your younger sisters?", "zh": "那这两个呢?是你妹妹吗?", "items": ["en.younger", "en.sister"] },
     { "speaker": "sofia", "text": "Yes! They're twins. They're thirteen years old.", "zh": "对!她们是双胞胎,13 岁。", "items": ["en.twins", "en.years_old"] },
     { "speaker": "lei", "text": "Two brothers and two sisters! I'm an only child.", "zh": "两个哥哥、两个妹妹!我是独生子。", "items": ["en.brother", "en.sister", "en.only_child"] },
     { "speaker": "sofia", "text": "An only child? Wow! Your parents have one, and my parents have five!", "zh": "独生子?哇!你爸妈只有你一个,我爸妈有五个孩子!", "items": ["en.only_child", "en.parents", "en.have"] }
@@ -44,5 +44,5 @@
         { "text": "How old are they? — They're thirteen years old.", "zh": "她们多大?——13 岁。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

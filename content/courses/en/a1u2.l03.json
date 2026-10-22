@@ -27,8 +27,8 @@
     { "speaker": "sofia", "text": "The guy with glasses! That's my brother. Thank you, Lei!", "zh": "戴眼镜的那个!那就是我哥哥。谢谢你,磊!", "items": ["en.guy", "en.glasses", "en.brother", "en.thank_you"] }
   ],
   "questions": [
-    { "prompt": "迭戈长什么样?", "options": ["个子不高,棕色长发", "个子高,黑色短发,戴眼镜", "个子高,棕色长发,戴眼镜"], "answer": 1, "explainZh": "索菲亚说 He's tall, and he has short black hair.;磊没听清,她重复时又补了一句 and glasses(还戴眼镜)。" },
-    { "prompt": "磊靠什么认出了迭戈?", "options": ["长头发", "个子高", "黑头发", "戴眼镜"], "answer": 3, "explainZh": "两个男生个子都很高:一个是棕色长发,一个戴眼镜。索菲亚说 The guy with glasses! That's my brother." }
+    { "prompt": "迭戈长什么样?", "options": ["个子不高,棕色长发", "个子高,棕色长发,戴眼镜", "个子高,黑色短发,戴眼镜"], "answer": 2, "explainZh": "索菲亚说 He's tall, and he has short black hair.;磊没听清,她重复时又补了一句 and glasses(还戴眼镜)。" },
+    { "prompt": "磊靠什么认出了迭戈?", "options": ["长头发", "个子高", "棕色头发", "戴眼镜"], "answer": 3, "explainZh": "两个男生个子都很高:一个是棕色长发,一个戴眼镜。索菲亚说 The guy with glasses! That's my brother." }
   ],
   "grammar": [
     { "id": "en.g.has_hair_adj_order", "titleZh": "描述长相:be + 形容词,have / has + 名词",
@@ -38,5 +38,5 @@
         { "text": "What does she look like? — She has long brown hair.", "zh": "她长什么样?——她是棕色长发。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

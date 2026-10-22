@@ -25,9 +25,9 @@
     { "speaker": "lei", "text": "But first, I'm going to go home to Chengdu. I miss my family!", "zh": "不过在那之前,我要先回成都。我想家了!", "items": ["en.first", "en.going_to", "en.go", "en.home", "en.miss", "en.family"] }
   ],
   "questions": [
-    { "prompt": "磊刚来西雅图时是什么样的?", "options": ["很自信,话很多", "很紧张,也很害羞", "每天都很忙"], "answer": 1, "explainZh": "When I came to Seattle, I was really nervous. I didn't understand people, and I was very shy." },
+    { "prompt": "磊刚来西雅图时是什么样的?", "options": ["很自信,话很多", "每天都很忙", "很紧张,也很害羞"], "answer": 2, "explainZh": "When I came to Seattle, I was really nervous. I didn't understand people, and I was very shy." },
     { "prompt": "磊在哪儿打工?在那儿有什么收获?", "options": ["在咖啡馆,现在能和顾客聊天了", "在超市,学会了做饭", "在图书馆,认识了艾米"], "answer": 0, "explainZh": "I started a part-time job at a cafe. I learned a lot there. Now I can talk to customers!" },
-    { "prompt": "那次徒步之后发生了什么?", "options": ["他拍了很多照片", "他买了新衣服", "他生病了,后来好了"], "answer": 2, "explainZh": "After our hiking trip, I was sick, but I got better." },
+    { "prompt": "那次徒步之后发生了什么?", "options": ["他拍了很多照片", "他生病了,后来好了", "他买了新衣服"], "answer": 1, "explainZh": "After our hiking trip, I was sick, but I got better." },
     { "prompt": "下学期磊打算做什么?", "options": ["回成都上学", "换一份工作", "再去山里徒步", "跟伊森学游泳"], "answer": 3, "explainZh": "Next semester, I'm going to learn to swim with Ethan.(回成都是放假时的事:But first, I'm going to go home to Chengdu.)" }
   ],
   "grammar": [
@@ -54,5 +54,5 @@
       ]
     }
   ],
-  "review": "draft"
+  "review": "ai"
 }

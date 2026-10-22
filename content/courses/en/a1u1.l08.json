@@ -11,7 +11,7 @@
   ],
   "reviewItems": ["en.this_is", "en.major", "en.phone_number", "en.text"],
   "lines": [
-    { "speaker": "amy", "text": "Welcome to the party, you guys! Lei, this is Marcus. He's a senior.", "zh": "欢迎来派对,大家!磊,这是马库斯。他是大四的。", "items": ["en.welcome", "en.party", "en.you_guys", "en.this_is", "en.senior"] },
+    { "speaker": "amy", "text": "Welcome to the party, you guys! Lei, this is Marcus. He's a senior.", "zh": "欢迎大家来派对!磊,这是马库斯。他是大四的。", "items": ["en.welcome", "en.party", "en.you_guys", "en.this_is", "en.senior"] },
     { "speaker": "marcus", "text": "Hey, Lei! Nice to meet you.", "zh": "嘿,磊!很高兴认识你。", "items": ["en.hey", "en.nice_to_meet_you"] },
     { "speaker": "lei", "text": "You too! I'm Lei Zhang. I'm a freshman from Chengdu, China.", "zh": "我也很高兴认识你!我叫张磊,是从中国成都来的大一新生。", "items": ["en.you_too", "en.freshman"] },
     { "speaker": "marcus", "text": "Cool! What's your major?", "zh": "酷!你学什么专业?", "items": ["en.cool", "en.major"] },
@@ -20,14 +20,14 @@
     { "speaker": "sofia", "text": "Hi, Marcus! Lei and I are international students.", "zh": "嗨,马库斯!我和磊都是国际学生。", "items": ["en.hi", "en.international_student"] },
     { "speaker": "marcus", "text": "Wow! Welcome to Seattle! Hey, Lei, what's your phone number?", "zh": "哇!欢迎来西雅图!对了,磊,你的电话号码是多少?", "items": ["en.welcome", "en.hey", "en.phone_number"] },
     { "speaker": "lei", "text": "Sure. It's two oh six, five five five, oh one nine three.", "zh": "好的。是 206-555-0193。", "items": ["en.sure", "en.oh_zero"] },
-    { "speaker": "marcus", "text": "OK. How do you spell Lei? L-I?", "zh": "好。Lei 怎么拼?L-I?", "items": ["en.how_do_you_spell"] },
+    { "speaker": "marcus", "text": "OK. How do you spell Lei? L-A-Y?", "zh": "好。Lei 怎么拼?L-A-Y?", "items": ["en.how_do_you_spell"] },
     { "speaker": "lei", "text": "No, L-E-I.", "zh": "不是,是 L-E-I。", "items": [] },
     { "speaker": "marcus", "text": "L-E-I. Got it! Here's my number. Text me, Lei!", "zh": "L-E-I。记下了!这是我的号码,给我发个消息吧,磊!", "items": ["en.got_it", "en.phone_number", "en.text"] }
   ],
   "questions": [
     { "prompt": "马库斯是几年级的学生?", "options": ["大一", "大二", "大四"], "answer": 2, "explainZh": "艾米介绍说 He's a senior.(他是大四的。)senior 是大四学生,freshman 才是大一。" },
     { "prompt": "磊的电话号码是多少?", "options": ["206-555-0193", "206-555-0139", "206-555-0913"], "answer": 0, "explainZh": "磊说 two oh six, five five five, oh one nine three,号码是 206-555-0193。" },
-    { "prompt": "磊的名字怎么拼?", "options": ["L-I", "L-E-I", "L-E-E"], "answer": 1, "explainZh": "马库斯以为是 L-I,磊纠正说 No, L-E-I.。字母 E 读 /iː/,I 读 /aɪ/,很容易听混。" }
+    { "prompt": "磊的名字怎么拼?", "options": ["L-A-Y", "L-E-I", "L-E-E"], "answer": 1, "explainZh": "Lei 和英语的 lay 读音一样,马库斯以为是 L-A-Y,磊纠正说 No, L-E-I.。拼读时字母 E 读 /iː/,I 读 /aɪ/,很容易听混。" }
   ],
   "grammar": [
     { "id": "en.g.be_all_persons", "titleZh": "单元小结:be 动词的全部人称",
@@ -44,5 +44,5 @@
         { "text": "What's your major?", "zh": "你学什么专业?(重读 MA)" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

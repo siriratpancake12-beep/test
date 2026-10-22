@@ -23,7 +23,7 @@
     { "speaker": "amy", "text": "A large hot coffee, please!", "zh": "一杯大杯热咖啡,谢谢!", "items": ["en.large", "en.hot", "en.coffee"] },
     { "speaker": "barista", "text": "Got it. Anything else? For here or to go?", "zh": "好的。还要别的吗?在这儿喝还是带走?", "items": ["en.got_it", "en.anything_else", "en.for_here_or_to_go"] },
     { "speaker": "lei", "text": "That's it. To go, please.", "zh": "就这些。带走,谢谢。", "items": ["en.thats_it", "en.for_here_or_to_go"] },
-    { "speaker": "barista", "text": "What's your first name, and how do you spell it?", "zh": "你叫什么名字?怎么拼?", "items": ["en.first_name", "en.how_do_you_spell"] },
+    { "speaker": "barista", "text": "Can I get your first name? And how do you spell it?", "zh": "能告诉我你的名字吗?怎么拼?", "items": ["en.can_i_get", "en.first_name", "en.how_do_you_spell"] },
     { "speaker": "lei", "text": "Lei. L-E-I.", "zh": "Lei,L-E-I。", "items": [] }
   ],
   "questions": [
@@ -38,5 +38,5 @@
         { "text": "For here or to go? — To go, please.", "zh": "在这儿喝还是带走?——带走,谢谢。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

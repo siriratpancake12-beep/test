@@ -27,8 +27,8 @@
     { "speaker": "amy", "text": "See you there! I can't wait!", "zh": "到时候见!太期待了!", "items": ["en.see_you_there", "en.cant_wait"] }
   ],
   "questions": [
-    { "prompt": "演出几点开始?他们约几点碰头?", "options": ["七点半开始,八点碰头", "八点开始,七点半碰头", "八点开始,八点碰头"], "answer": 1, "explainZh": "磊说:At eight, at a theater downtown. Let's meet at 7:30.(八点开始,七点半碰头)" },
-    { "prompt": "他们约在哪儿见?", "options": ["马库斯打工的咖啡馆", "公交车站", "剧院门口"], "answer": 2, "explainZh": "艾米提议 How about in front of the theater?,磊说 Perfect!" }
+    { "prompt": "演出几点开始?他们约几点碰头?", "options": ["七点半开始,八点碰头", "八点开始,八点碰头", "八点开始,七点半碰头"], "answer": 2, "explainZh": "磊说:At eight, at a theater downtown. Let's meet at 7:30.(八点开始,七点半碰头)" },
+    { "prompt": "他们约在哪儿见?", "options": ["剧院门口", "马库斯打工的咖啡馆", "公交车站"], "answer": 0, "explainZh": "艾米提议 How about in front of the theater?,磊说 Perfect!" }
   ],
   "grammar": [
     {
@@ -42,5 +42,5 @@
       ]
     }
   ],
-  "review": "draft"
+  "review": "ai"
 }

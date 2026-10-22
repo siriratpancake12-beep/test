@@ -19,7 +19,7 @@
   "lines": [
     { "speaker": "lei", "text": "Ethan, what time is it?", "zh": "伊森,现在几点了?", "items": ["en.what_time_is_it"] },
     { "speaker": "ethan", "text": "Eight forty. That's early, man.", "zh": "八点四十。还早着呢,哥们儿。", "items": ["en.early"] },
-    { "speaker": "lei", "text": "Sorry? Eight forty? My class is at nine o'clock!", "zh": "什么?八点四十?我的课九点开始!", "items": ["en.sorry", "en.class", "en.oclock"] },
+    { "speaker": "lei", "text": "Sorry? Eight forty? My class is at nine o'clock!", "zh": "你说什么?八点四十?我的课九点开始!", "items": ["en.sorry", "en.class", "en.oclock"] },
     { "speaker": "ethan", "text": "Oh. You're late, roommate! Hurry up!", "zh": "哦,那你要迟到了,室友!快点!", "items": ["en.late", "en.roommate", "en.hurry_up"] },
     { "speaker": "lei", "text": "Do you have class today?", "zh": "你今天有课吗?", "items": ["en.have", "en.class", "en.today"] },
     { "speaker": "ethan", "text": "Yes, in the afternoon. See you later. Good night!", "zh": "有,下午的。回头见。晚安!", "items": ["en.afternoon", "en.see_you_later", "en.night"] },
@@ -38,5 +38,5 @@
         { "text": "I have class in the morning. I call my mom at night.", "zh": "我上午有课。我晚上给妈妈打电话。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

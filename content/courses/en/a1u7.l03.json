@@ -19,16 +19,16 @@
     { "speaker": "ethan", "text": "Hey, man! Do you want to join us for basketball tonight?", "zh": "嘿,哥们儿!今晚要不要和我们一起打篮球?", "items": ["en.hey", "en.do_you_want_to", "en.join", "en.basketball", "en.tonight"] },
     { "speaker": "lei", "text": "Sounds good! I'm in.", "zh": "好啊!算我一个。", "items": ["en.sounds_good", "en.im_in"] },
     { "speaker": "ethan", "text": "Cool! Seven o'clock at the gym.", "zh": "好嘞!七点,健身房见。", "items": ["en.cool", "en.oclock", "en.gym"] },
-    { "speaker": "amy", "text": "Hi, Lei! Do you want to see a movie tomorrow?", "zh": "嗨,磊!明天想去看电影吗?", "items": ["en.hi", "en.do_you_want_to", "en.see", "en.movie", "en.tomorrow"] },
+    { "speaker": "amy", "text": "Hi, Lei! Do you want to see a movie tomorrow afternoon?", "zh": "嗨,磊!明天下午想去看电影吗?", "items": ["en.hi", "en.do_you_want_to", "en.see", "en.movie", "en.tomorrow", "en.afternoon"] },
     { "speaker": "lei", "text": "Sorry, I can't. I have to work tomorrow.", "zh": "抱歉,我去不了。我明天得上班。", "items": ["en.sorry", "en.cant", "en.have_to", "en.work", "en.tomorrow"] },
     { "speaker": "lei", "text": "But thanks for asking! Maybe next time?", "zh": "不过谢谢你约我!下次吧?", "items": ["en.thanks_for_asking", "en.maybe_next_time"] },
-    { "speaker": "amy", "text": "Sure! Are you free this weekend?", "zh": "当然!你这个周末有空吗?", "items": ["en.sure", "en.free", "en.weekend"] },
+    { "speaker": "amy", "text": "Sure! Are you free next weekend?", "zh": "当然!你下个周末有空吗?", "items": ["en.sure", "en.free", "en.next", "en.weekend"] },
     { "speaker": "lei", "text": "Yes, I'm free on Saturday.", "zh": "有,我周六有空。", "items": ["en.free", "en.saturday"] },
     { "speaker": "amy", "text": "Great! Saturday, then. See you!", "zh": "太好了!那就周六。回头见!", "items": ["en.great", "en.saturday", "en.then", "en.see_you_later"] }
   ],
   "questions": [
     { "prompt": "伊森约磊做什么?磊答应了吗?", "options": ["今晚打篮球,答应了", "明天看电影,答应了", "今晚打篮球,没答应"], "answer": 0, "explainZh": "Do you want to join us for basketball tonight? —— Sounds good! I'm in.(好啊,算我一个)" },
-    { "prompt": "磊为什么不能和艾米去看电影?", "options": ["他不喜欢看电影", "他明天要打篮球", "他明天得上班"], "answer": 2, "explainZh": "磊说:Sorry, I can't. I have to work tomorrow.;所以两人改到周六。" }
+    { "prompt": "磊为什么不能和艾米去看电影?", "options": ["他不喜欢看电影", "他明天要打篮球", "他明天得上班"], "answer": 2, "explainZh": "磊说:Sorry, I can't. I have to work tomorrow.;所以两人改到下个周末的周六。" }
   ],
   "grammar": [
     {
@@ -42,5 +42,5 @@
       ]
     }
   ],
-  "review": "draft"
+  "review": "ai"
 }

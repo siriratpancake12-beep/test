@@ -21,7 +21,7 @@
     { "speaker": "lei", "text": "I need some eggs, rice, chicken, vegetables, and fruit.", "zh": "我需要鸡蛋、米、鸡肉、蔬菜和水果。", "items": ["en.need", "en.egg", "en.rice", "en.chicken", "en.vegetable", "en.fruit"] },
     { "speaker": "lei", "text": "Excuse me, where are the eggs?", "zh": "打扰一下,鸡蛋在哪儿?", "items": ["en.excuse_me", "en.egg"] },
     { "speaker": "clerk", "text": "They're in Aisle 5.", "zh": "在 5 号过道。", "items": ["en.aisle"] },
-    { "speaker": "lei", "text": "Thanks! And where is the rice?", "zh": "谢谢!那米在哪儿?", "items": ["en.thank_you", "en.rice"] },
+    { "speaker": "lei", "text": "Thanks! And where's the rice?", "zh": "谢谢!那米在哪儿?", "items": ["en.thank_you", "en.rice"] },
     { "speaker": "clerk", "text": "Rice? It's in Aisle 3.", "zh": "米?在 3 号过道。", "items": ["en.rice", "en.aisle"] },
     { "speaker": "cashier", "text": "Hi! Do you need a bag? You pay for bags here.", "zh": "你好!要袋子吗?我们这儿的袋子要收费。", "items": ["en.hi", "en.need", "en.bag", "en.pay"] },
     { "speaker": "lei", "text": "No, thanks. I have a bag. How much is it?", "zh": "不用了,谢谢。我带了袋子。一共多少钱?", "items": ["en.no_thanks", "en.have", "en.bag", "en.how_much"] },
@@ -35,7 +35,7 @@
   ],
   "grammar": [
     { "id": "en.g.u4_some_any", "titleZh": "some / any;Where is…? / Where are…?",
-      "bodyZh": "说\"一些\"时,肯定句用 some:I need some eggs. / We need some rice.;疑问句和否定句一般用 any:Do you have any eggs? / I don't have any rice.。\n可数名词说\"一些\"要用复数:some eggs、some vegetables;不可数名词没有复数,也不加 a:some rice、some fruit、some chicken(chicken 作\"鸡肉\"讲不可数,a chicken 是\"一只鸡\")。\n问东西在哪儿,be 动词跟着名词变:Where are the eggs?(复数)/ Where is the rice?(不可数,当单数用)。回答:They're in Aisle 5. / It's in Aisle 3.。\n向陌生人开口先说 Excuse me(打扰一下),它不是道歉,道歉要说 Sorry。\n发音:aisle 的 s 不发音,读 /aɪl/,和 I'll 一样。",
+      "bodyZh": "说\"一些\"时,肯定句用 some:I need some eggs. / We need some rice.;疑问句和否定句一般用 any:Do you have any eggs? / I don't have any rice.。\n可数名词说\"一些\"要用复数:some eggs、some vegetables;不可数名词没有复数,也不加 a:some rice、some fruit、some chicken(chicken 作\"鸡肉\"讲不可数,a chicken 是\"一只鸡\")。\n问东西在哪儿,be 动词跟着名词变:Where are the eggs?(复数)/ Where is the rice?(不可数,当单数用;口语里常缩写成 Where's the rice?)。回答:They're in Aisle 5. / It's in Aisle 3.。\n向陌生人开口先说 Excuse me(打扰一下),它不是道歉,道歉要说 Sorry。\n发音:aisle 的 s 不发音,读 /aɪl/,和 I'll 一样。",
       "examples": [
         { "text": "I need some eggs and some rice.", "zh": "我需要一些鸡蛋和一些米。" },
         { "text": "Do you have any chicken?", "zh": "你们有鸡肉吗?" },
@@ -43,5 +43,5 @@
         { "text": "Where is the rice? — It's in Aisle 3.", "zh": "米在哪儿?——在 3 号过道。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

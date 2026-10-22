@@ -32,11 +32,11 @@
   ],
   "grammar": [
     { "id": "en.g.be_yes_no", "titleZh": "Are you…? —— Yes, I am. / No, I'm not.",
-      "bodyZh": "问“你是……吗?”把 are 放到句首:You are Ethan. → Are you Ethan?。回答不要只说 Yes,也不能说 Yes, I'm.,要用简短回答 Yes, I am.(肯定的简短回答里 I am 不能缩写)或 No, I'm not.。中文说“对,是我”就行,英语要把主语和 be 动词说出来。缩写:I am → I'm,you are → you're。语调:Are you Ethan? 这种用 yes / no 回答的问题,句末语调上扬 ↗;How are you? 这种带疑问词的问题,句末下降 ↘。",
+      "bodyZh": "问“你是……吗?”把 are 放到句首:You are Ethan. → Are you Ethan?。回答可以只说 Yes,但更完整、更常用的是简短回答 Yes, I am. 或 No, I'm not.;肯定的简短回答里 I am 不能缩写,不说 Yes, I'm.。中文说“对,是我”就行,英语的简短回答要把主语和 be 动词说出来。缩写:I am → I'm,you are → you're。语调:Are you Ethan? 这种用 yes / no 回答的问题,句末语调上扬 ↗;How are you? 这种带疑问词的问题,句末下降 ↘。",
       "examples": [
         { "text": "Are you Ethan? — Yes, I am.", "zh": "你是伊森吗?——对,我是。" },
         { "text": "Are you my roommate? — No, I'm not. I'm Amy.", "zh": "你是我的室友吗?——不是。我是艾米。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

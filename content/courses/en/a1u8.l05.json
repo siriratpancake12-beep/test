@@ -29,7 +29,7 @@
   "questions": [
     { "prompt": "磊的感恩节是按什么顺序过的?", "options": ["先吃饭,再做饭,最后看橄榄球", "先做饭,再聊感谢什么,然后吃饭,最后看橄榄球", "先看橄榄球,再做饭,最后吃饭"], "answer": 1, "explainZh": "First, I cooked… Then we all talked… After that, we ate… Finally, we watched a football game." },
     { "prompt": "磊说他感谢什么?", "options": ["好吃的火鸡", "成都的家人", "在这里认识的新朋友"], "answer": 2, "explainZh": "I'm thankful for my new friends here." },
-    { "prompt": "伊森听说磊吃了三块派,说 No way!,这是什么意思?", "options": ["没办法", "不会吧!真的假的?", "不可以"], "answer": 1, "explainZh": "No way! 表示惊讶,意思是\"不会吧、真的假的\",不是\"没办法\"。" }
+    { "prompt": "伊森听说磊吃了三块派,说 No way!,这是什么意思?", "options": ["不会吧!真的假的?", "没办法", "不可以"], "answer": 0, "explainZh": "No way! 表示惊讶,意思是\"不会吧、真的假的\",不是\"没办法\"。" }
   ],
   "grammar": [
     {
@@ -42,5 +42,5 @@
       ]
     }
   ],
-  "review": "draft"
+  "review": "ai"
 }

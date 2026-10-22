@@ -31,13 +31,13 @@
   "questions": [
     { "prompt": "索菲亚会什么?", "options": ["弹吉他", "跳舞,也会唱一点儿歌", "做川菜"], "answer": 1, "explainZh": "索菲亚说:I can dance, and I can sing a little." },
     { "prompt": "磊会唱歌或跳舞吗?", "options": ["会唱歌,不会跳舞", "会跳舞,不会唱歌", "都不会"], "answer": 2, "explainZh": "艾米问 Can you sing or dance?,磊答 No, I can't.;他会的是做川菜(I can cook really spicy Sichuan food)。" },
-    { "prompt": "伊森问磊会不会游泳,磊怎么回答?", "options": ["不会", "会一点儿", "会,游得很好"], "answer": 0, "explainZh": "Can you swim? —— No, I can't.。can't 读得重、元音饱满;如果是 can,会轻轻带过,读成 /kən/。" }
+    { "prompt": "伊森问磊会不会游泳,磊怎么回答?", "options": ["不会", "会一点儿", "会,游得很好"], "answer": 0, "explainZh": "Can you swim? —— No, I can't.。简短回答里 can 和 can't 都重读,先听是 Yes 还是 No;在句子中间,can 轻读成 /kən/,can't 读得重、元音饱满。" }
   ],
   "grammar": [
     {
       "id": "en.g.can_cant",
       "titleZh": "can / can't + 动词原形:会、不会",
-      "bodyZh": "说\"会做某事\"用 can + 动词原形,\"不会\"用 can't + 动词原形。can 不随人称变,后面的动词也不加 -s:She can dance.(不说 She cans dance,也不说 She can dances)。问\"你会……吗?\"把 can 放到句首:Can you swim? 回答 Yes, I can. / No, I can't.。说\"做得好\"用 well 修饰动词:Marcus plays the guitar really well.(不说 very good,good 是形容词,只能修饰名词或放在 be 后面)。发音:美国人说 can 时常常弱读成 /kən/,一带而过;can't 读 /kænt/,元音饱满、重读,词尾的 t 常常听不见。所以听的时候别等那个 t,要听元音和重音:轻轻带过的是 can,读得又重又响的是 can't。",
+      "bodyZh": "说\"会做某事\"用 can + 动词原形,\"不会\"用 can't + 动词原形。can 不随人称变,后面的动词也不加 -s:She can dance.(不说 She cans dance,也不说 She can dances)。问\"你会……吗?\"把 can 放到句首:Can you swim? 回答 Yes, I can. / No, I can't.。说\"做得好\"用 well 修饰动词:Marcus plays the guitar really well.(不说 very good,good 是形容词,只能修饰名词或放在 be 后面)。发音:美国人说 can 时常常弱读成 /kən/,一带而过;can't 读 /kænt/,元音饱满、重读,词尾的 t 常常听不见。所以在句子中间听的时候别等那个 t,要听元音和重音:轻轻带过的是 can,读得又重又响的是 can't。简短回答 Yes, I can. 里的 can 在句末,要重读 /kæn/。",
       "examples": [
         { "text": "I can cook, but I can't swim.", "zh": "我会做饭,但不会游泳。" },
         { "text": "Can you sing? — No, I can't.", "zh": "你会唱歌吗?——不会。" },
@@ -45,5 +45,5 @@
       ]
     }
   ],
-  "review": "draft"
+  "review": "ai"
 }

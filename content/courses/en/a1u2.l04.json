@@ -28,9 +28,9 @@
     { "speaker": "sofia", "text": "Really? Cool!", "zh": "真的吗?那挺好!", "items": ["en.really", "en.cool"] }
   ],
   "questions": [
-    { "prompt": "磊说伊森是什么样的人?", "options": ["很安静,有点害羞", "特别搞笑,很友好", "很聪明,个子很高"], "answer": 1, "explainZh": "磊说 He's really funny, and he's very friendly.(他特别搞笑,人也很友好。)" },
-    { "prompt": "磊问 What's your brother Diego like?,索菲亚第一次回答时有什么问题?", "options": ["她说了哥哥的年龄", "她说了哥哥的工作", "她说的是长相,不是性格"], "answer": 2, "explainZh": "What's he like? 问性格;What does he look like? 才问长相。索菲亚先说了 He's tall, and he has glasses.,磊提醒以后,她才说 He's quiet and a little shy." },
-    { "prompt": "索菲亚说磊怎么样?", "options": ["有点害羞", "特别搞笑", "很安静"], "answer": 0, "explainZh": "索菲亚说 You're a little shy, Lei!;磊笑着说自己在中国可不害羞。" }
+    { "prompt": "磊说伊森是什么样的人?", "options": ["很安静,有点害羞", "很聪明,个子很高", "特别搞笑,很友好"], "answer": 2, "explainZh": "磊说 He's really funny, and he's very friendly.(他特别搞笑,人也很友好。)" },
+    { "prompt": "磊问 What's your brother Diego like?,索菲亚第一次回答时有什么问题?", "options": ["她说的是长相,不是性格", "她说了哥哥的年龄", "她说了哥哥的工作"], "answer": 0, "explainZh": "What's he like? 问性格;What does he look like? 才问长相。索菲亚先说了 He's tall, and he has glasses.,磊提醒以后,她才说 He's quiet and a little shy." },
+    { "prompt": "索菲亚说磊怎么样?", "options": ["特别搞笑", "有点害羞", "很安静"], "answer": 1, "explainZh": "索菲亚说 You're a little shy, Lei!;磊笑着说自己在中国可不害羞。" }
   ],
   "grammar": [
     { "id": "en.g.whats_he_like_degree", "titleZh": "What's he like? 问性格;really / very / a little 说程度",
@@ -41,5 +41,5 @@
         { "text": "He's quiet and a little shy.", "zh": "他很安静,有点害羞。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }
