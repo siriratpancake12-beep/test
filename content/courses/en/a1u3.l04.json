@@ -7,7 +7,7 @@
     { "id": "en.how_often", "kind": "phrase", "pos": "phrase", "text": "How often", "zh": "多久一次", "features": { "ipa": "ˌhaʊ ˈɑːfən" }, "noteZh": "How often do you call your parents? 回答可以用 every day / twice a week / sometimes。" },
     { "id": "en.always", "kind": "word", "pos": "adv", "text": "always", "zh": "总是", "features": { "ipa": "ˈɑːlweɪz" }, "noteZh": "重音在前 AL-ways。" },
     { "id": "en.usually", "kind": "word", "pos": "adv", "text": "usually", "zh": "通常", "features": { "ipa": "ˈjuːʒuəli" }, "noteZh": "s 读 /ʒ/;口语里常读得很快,像 \"yoo-zhuh-lee\",甚至只有两个音节 \"yoozh-lee\"。" },
-    { "id": "en.often", "kind": "word", "pos": "adv", "text": "often", "zh": "经常", "features": { "ipa": "ˈɑːfən" }, "noteZh": "t 通常不发音。" },
+    { "id": "en.often", "kind": "word", "pos": "adv", "text": "often", "zh": "经常", "features": { "ipa": "ˈɑːfən" }, "noteZh": "t 通常不发音,读 /ˈɑːfən/;也有人把 t 读出来,两种都对。" },
     { "id": "en.sometimes", "kind": "word", "pos": "adv", "text": "sometimes", "zh": "有时候", "features": { "ipa": "ˈsʌmtaɪmz" }, "noteZh": "可以放句首:Sometimes I cook.;别和 some time(一段时间)混。" },
     { "id": "en.never", "kind": "word", "pos": "adv", "text": "never", "zh": "从不", "features": { "ipa": "ˈnevɚ" }, "noteZh": "never 本身就是否定,不再加 don't:I never eat breakfast.(不说 I don't never…)。" },
     { "id": "en.weekend", "kind": "word", "pos": "noun", "text": "weekend", "zh": "周末", "features": { "ipa": "ˈwiːkend" }, "noteZh": "美式说 on the weekend / on weekends(英式用 at)。" },

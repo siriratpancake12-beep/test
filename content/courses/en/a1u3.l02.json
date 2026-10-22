@@ -10,7 +10,7 @@
     { "id": "en.lunch", "kind": "word", "pos": "noun", "text": "lunch", "zh": "午饭", "features": { "ipa": "lʌntʃ" }, "noteZh": "have lunch 吃午饭;u 读 /ʌ/。" },
     { "id": "en.dinner", "kind": "word", "pos": "noun", "text": "dinner", "zh": "晚饭", "features": { "ipa": "ˈdɪnɚ" }, "noteZh": "美国人晚饭一般在 6 点左右。" },
     { "id": "en.go", "kind": "word", "pos": "verb", "text": "go", "zh": "去", "features": { "ipa": "ɡoʊ" }, "noteZh": "go to class 去上课;go home 回家(home 前不加 to)。" },
-    { "id": "en.study", "kind": "word", "pos": "verb", "text": "study", "zh": "学习;读书", "features": { "ipa": "ˈstʌdi" }, "noteZh": "study 是\"学习、用功\",learn 更强调\"学会\";s 后面的 t 不送气,听起来接近 d,读成 \"sdʌ-di\" 就对了。" },
+    { "id": "en.study", "kind": "word", "pos": "verb", "text": "study", "zh": "学习;读书", "features": { "ipa": "ˈstʌdi" }, "noteZh": "study 是\"学习、用功\",learn 更强调\"学会\";s 后面的 t 不送气,听起来接近 d(student 里的 t 也一样)。" },
     { "id": "en.library", "kind": "word", "pos": "noun", "text": "library", "zh": "图书馆", "features": { "ipa": "ˈlaɪbreri" }, "noteZh": "三个音节 LI-brar-y,两个 r 都要读出来。" },
     { "id": "en.go_to_bed", "kind": "phrase", "pos": "verb", "text": "go to bed", "zh": "上床睡觉", "features": { "ipa": "ˌɡoʊ tə ˈbed" }, "noteZh": "bed 前不加 the;\"睡着\"是 fall asleep。" },
     { "id": "en.every_day", "kind": "phrase", "pos": "adv", "text": "every day", "zh": "每天", "features": { "ipa": "ˌevri ˈdeɪ" }, "noteZh": "分开写的 every day 是\"每天\";连写的 everyday 是形容词\"日常的\"。" }
