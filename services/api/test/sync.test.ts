@@ -1,5 +1,5 @@
 import { afterAll, beforeAll, describe, expect, it } from "vitest";
-import { ROUTES, completeLesson, emptyProgress, recordAnswer, type Lesson, type Progress } from "@lingo/core";
+import { ROUTES, cardKey, completeLesson, emptyProgress, fromWire, recordAnswer, toWire, type Lesson, type Progress } from "@lingo/core";
 import { createUser, makeTestApp, type TestApp } from "./helpers";
 
 let t: TestApp;
@@ -38,12 +38,48 @@ describe("进度同步", () => {
     expect(r.json()).toEqual({ progress: null, rev: 0 });
   });
 
-  it("第一次上传 rev 变成 1,取回来和上传的一样", async () => {
+  it("第一次上传 rev 变成 1;存和返回都是紧凑格式,内容和上传的一样", async () => {
     const u = await createUser(t);
     const r = await put(u.headers, phone(), 0);
     expect(r.statusCode).toBe(200);
-    expect(r.json()).toEqual({ progress: json(phone()), rev: 1 });
-    expect((await get(u.headers)).json()).toEqual({ progress: json(phone()), rev: 1 });
+    expect(r.json()).toEqual({ progress: json(toWire(phone())), rev: 1 });
+    expect((await get(u.headers)).json()).toEqual({ progress: json(toWire(phone())), rev: 1 });
+    const row = await t.deps.db.selectFrom("progress").select("data").where("user_id", "=", u.userId).executeTakeFirstOrThrow();
+    expect((row.data as { wire?: number }).wire).toBe(1);
+  });
+
+  it("App 传紧凑格式、普通格式都收", async () => {
+    const u = await createUser(t);
+    const r = await put(u.headers, json(toWire(phone())), 0);
+    expect(r.statusCode).toBe(200);
+    expect(r.json().progress).toEqual(json(toWire(phone())));
+    expect(fromWire(r.json().progress)!.completed).toEqual(phone().completed);
+  });
+
+  it("以前按普通格式存的进度:照样能读(返回紧凑格式),也能和新上传的合并", async () => {
+    const u = await createUser(t);
+    await t.deps.db.insertInto("progress").values({ user_id: u.userId, lang: "de", data: JSON.stringify(phone()), rev: 3, updated_at: new Date() }).execute();
+    const r = await get(u.headers);
+    expect(r.json()).toEqual({ progress: json(toWire(phone())), rev: 3 });
+    const merged = (await put(u.headers, tablet(), 0)).json();
+    expect(merged.rev).toBe(4);
+    expect(Object.keys(merged.progress.completed).sort()).toEqual(["de.a1u1.l01", "de.a1u1.l02"]);
+  });
+
+  it("紧凑格式下,学了 3000 个词(9000 张复习卡)也在 1MB 以内", async () => {
+    const u = await createUser(t);
+    const now = at("2026-11-01");
+    const big = recordAnswer(emptyProgress("de"), { verdict: "correct", skill: "read" }, now);
+    const sample = recordAnswer(big, { itemId: "de.hallo", direction: "produce", verdict: "correct" }, now).cards[cardKey("de.hallo", "produce")]!;
+    for (let i = 0; i < 3000; i++) {
+      const id = `de.wort${String(i).padStart(4, "0")}`;
+      big.learned[id] = "2026-11-01";
+      for (const d of ["recognize", "listen", "produce"] as const) big.cards[cardKey(id, d)] = { ...sample, itemId: id, direction: d };
+    }
+    expect(Buffer.byteLength(JSON.stringify(toWire(big)))).toBeLessThan(1024 * 1024);
+    const r = await put(u.headers, toWire(big), 0);
+    expect(r.statusCode).toBe(200);
+    expect(Object.keys(fromWire(r.json().progress)!.cards)).toHaveLength(9000);
   });
 
   it("baseRev 等于服务器的 rev:直接保存(只改了目标、没有新的学习记录也能保存下来)", async () => {
@@ -71,7 +107,7 @@ describe("进度同步", () => {
     const third = (await put(u.headers, more, 1)).json();
     expect(third.rev).toBe(3);
     expect(Object.keys(third.progress.completed).sort()).toEqual(["de.a1u1.l01", "de.a1u1.l02"]);
-    expect(third.progress.cards["de.hallo#produce"].card.reps).toBe(1);
+    expect(fromWire(third.progress)!.cards["de.hallo#produce"]!.card.reps).toBe(1);
     expect((await get(u.headers)).json()).toEqual(third);
   });
 

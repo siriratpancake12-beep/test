@@ -16,6 +16,8 @@ export interface CoreTables {
     wechat_unionid: string | null;
     /** 本 App 的微信 openid(拿不到 unionid 时用它认人) */
     wechat_openid: string | null;
+    /** Sign in with Apple 的刷新令牌:注销账号时用它向苹果撤销授权(苹果要求);App 登录时带了授权码才有 */
+    apple_refresh_token: string | null;
     created_at: Date;
     /**
      * 注销时间。注销后这一行只留 id 和时间(手机号、苹果/微信标识清空),
@@ -75,6 +77,7 @@ export async function migrateCore(db: Kysely<any>): Promise<void> {
     .execute();
   // 第一版建表之后加的列:已有的库(开发机上的 PGlite)也要补上
   await sql`alter table users add column if not exists wechat_openid text`.execute(db);
+  await sql`alter table users add column if not exists apple_refresh_token text`.execute(db);
   await db.schema.createIndex("users_wechat_openid").ifNotExists().unique().on("users").column("wechat_openid").execute();
   // 后台按注册时间统计新用户和留存
   await db.schema.createIndex("users_created_at").ifNotExists().on("users").column("created_at").execute();

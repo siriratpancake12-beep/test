@@ -1,0 +1,40 @@
+# services/api/Dockerfile 专用的忽略文件(BuildKit 认"Dockerfile 文件名 + .dockerignore",优先于根目录的 .dockerignore)。
+# 构建上下文是仓库根目录:docker build -f services/api/Dockerfile .  所以这里的路径都相对仓库根目录。
+# Dockerfile 本身只按目录 COPY,这个文件的作用是少传东西给 Docker,并保证密钥、本机数据不会进上下文。
+# 镜像要用到的:package.json、package-lock.json、packages/core、packages/billing、services/api、content —— 不要在这里忽略它们。
+
+# 依赖和构建产物(镜像里重新装)
+**/node_modules
+**/dist
+**/dist-web
+**/coverage
+**/.metro-cache
+**/.expo
+
+# 服务器用不到的部分
+.git
+.github
+.claude
+apps
+docs
+tests
+tools
+**/test
+**/*.test.ts
+
+# 本机数据、日志
+services/api/data
+**/*.log
+**/.DS_Store
+
+# 密钥和证书:绝不能进镜像
+**/.env
+**/.env.*
+**/*.p8
+**/*.p12
+**/*.pem
+**/*.key
+**/*.cer
+**/*.jks
+**/*.keystore
+**/*.mobileprovision

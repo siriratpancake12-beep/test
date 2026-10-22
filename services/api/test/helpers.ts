@@ -36,6 +36,7 @@ export async function makeTestApp(over: Partial<Deps> = {}): Promise<TestApp> {
     now: () => now,
     sms: { async send(phone, code) { sentCodes.set(phone, code); } },
     apple: null,
+    appleTokens: null,
     wechat: null,
     appStore: null,
     llm: null,
