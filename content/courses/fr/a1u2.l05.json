@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u2.l05", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102050,
+  "titleZh": "早餐吃什么?——部分冠词", "goalZh": "会说早餐吃什么、喝什么,学会部分冠词和否定后的 de",
+  "canDoZh": "能说自己早餐吃什么、喝什么,也能说“我不吃……、我不喝……”",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.petit_dejeuner", "kind": "word", "pos": "noun", "text": "le petit-déjeuner", "zh": "早餐", "features": { "gender": "m", "ipa": "lə pə.ti.de.ʒœ.ne" }, "noteZh": "阳性,有连字符;petit 的 t 不发音,déjeuner 的 é 不能漏。" },
+    { "id": "fr.pain", "kind": "word", "pos": "noun", "text": "le pain", "zh": "面包", "features": { "gender": "m", "ipa": "lə pɛ̃" }, "noteZh": "阳性。鼻化元音 [ɛ̃],和数字 cinq 的元音一样。吃面包说 du pain(一些面包)。" },
+    { "id": "fr.beurre", "kind": "word", "pos": "noun", "text": "le beurre", "zh": "黄油", "features": { "gender": "m", "ipa": "lə bœʁ" }, "noteZh": "阳性。eu 读开口的 [œ],双 r 读一个小舌音 [ʁ],词尾 e 不发音。" },
+    { "id": "fr.confiture", "kind": "word", "pos": "noun", "text": "la confiture", "zh": "果酱", "features": { "gender": "f", "ipa": "la kɔ̃.fi.tyʁ" }, "noteZh": "阴性。on 是鼻化元音 [ɔ̃],u 读 [y]。法式早餐常把黄油和果酱抹在面包上。" },
+    { "id": "fr.oeuf", "kind": "word", "pos": "noun", "text": "l'œuf", "zh": "鸡蛋", "alt": ["l'oeuf"], "features": { "gender": "m", "ipa": "lœf" }, "noteZh": "阳性。œ 连写,可以输入 oe;单数 f 要读出来 [œf],复数 les œufs 读 [le.zø],f 不发音!deux œufs 读 [dø.zø]。" },
+    { "id": "fr.manger", "kind": "word", "pos": "verb", "text": "manger", "zh": "吃", "features": { "ipa": "mɑ̃.ʒe" }, "noteZh": "-er 动词:je mange, tu manges(读音一样 [mɑ̃ʒ]);nous mangeons 要多加一个 e,让 g 保持读 [ʒ]。" },
+    { "id": "fr.boire", "kind": "word", "pos": "verb", "text": "boire", "zh": "喝", "features": { "ipa": "bwaʁ" }, "noteZh": "不规则:je bois, tu bois, il boit, nous buvons, vous buvez, ils boivent;oi 读 [wa]。" },
+    { "id": "fr.du", "kind": "word", "pos": "det", "text": "du", "zh": "一些(阳性,数不清的东西)", "features": { "ipa": "dy" }, "noteZh": "部分冠词 = de + le:du pain, du café;u 读 [y]。第 6 单元还会学到 de + le 缩合成 du 的另一个用法。" },
+    { "id": "fr.de_la", "kind": "word", "pos": "det", "text": "de la", "zh": "一些(阴性,数不清的东西)", "features": { "ipa": "də la" }, "noteZh": "de la confiture;元音前用 de l':de l'eau。" },
+    { "id": "fr.pas_de", "kind": "phrase", "pos": "phrase", "text": "pas de…", "zh": "不……;没有……(否定后的冠词)", "features": { "ipa": "pa də" }, "noteZh": "否定句里 un/une/du/de la 都变成 de(元音前 d'):Je ne mange pas de pain. 但 aimer、être 后面不变:Je n'aime pas le pain." }
+  ],
+  "reviewItems": ["fr.eau", "fr.lait", "fr.the", "fr.aimer"],
+  "lines": [
+    { "speaker": "lucas", "text": "Salut, Hao ! Du pain, du beurre, de la confiture ?", "zh": "(周六早上,宿舍的公共厨房)嗨,浩!来点面包、黄油、果酱?", "items": ["fr.salut", "fr.du", "fr.pain", "fr.beurre", "fr.de_la", "fr.confiture"] },
+    { "speaker": "hao", "text": "Du pain, oui, merci. Mais pas de confiture !", "zh": "面包要,谢谢。不过果酱就不要了!", "items": ["fr.du", "fr.pain", "fr.oui", "fr.merci", "fr.mais", "fr.pas_de", "fr.confiture"] },
+    { "speaker": "lucas", "text": "Pas de confiture ? Moi, j'aime beaucoup la confiture !", "zh": "不要果酱?我可喜欢果酱了!", "items": ["fr.pas_de", "fr.confiture", "fr.moi", "fr.je", "fr.aimer", "fr.beaucoup"] },
+    { "speaker": "lucas", "text": "Tu bois du café ou du thé ?", "zh": "你喝咖啡还是茶?", "items": ["fr.tu", "fr.boire", "fr.du", "fr.cafe", "fr.ou", "fr.the"] },
+    { "speaker": "hao", "text": "Je ne bois pas de café. Je bois du lait ou de l'eau.", "zh": "我早上不喝咖啡。我喝牛奶或者水。", "items": ["fr.je", "fr.ne_pas", "fr.boire", "fr.pas_de", "fr.cafe", "fr.du", "fr.lait", "fr.ou", "fr.de_la", "fr.eau"] },
+    { "speaker": "hao", "text": "Je mange deux œufs. C'est le petit-déjeuner chinois !", "zh": "我吃两个鸡蛋。这就是中国式早餐!", "items": ["fr.je", "fr.manger", "fr.deux", "fr.oeuf", "fr.cest", "fr.petit_dejeuner", "fr.chinois"] },
+    { "speaker": "lucas", "text": "Deux œufs ? Moi aussi !", "zh": "两个鸡蛋?我也要!(卢卡总是饿)", "items": ["fr.deux", "fr.oeuf", "fr.moi", "fr.aussi"] }
+  ],
+  "questions": [
+    { "prompt": "浩不吃什么?", "options": ["面包", "鸡蛋", "果酱"], "answer": 2, "explainZh": "浩说 Du pain, oui, merci. Mais pas de confiture !(面包要,果酱不要。)他还吃了两个鸡蛋。" },
+    { "prompt": "浩早上喝什么?", "options": ["咖啡", "牛奶或者水", "茶"], "answer": 1, "explainZh": "Je ne bois pas de café. Je bois du lait ou de l'eau.(我不喝咖啡,我喝牛奶或者水。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.partitive", "titleZh": "部分冠词 du / de la / de l':吃一些、喝一些",
+      "bodyZh": "吃、喝“一些”数不清的东西(面包、黄油、果酱、水、咖啡),名词前要用部分冠词:阳性用 du(du pain),阴性用 de la(de la confiture),元音开头用 de l'(de l'eau)。能一个一个数的用 un / une 或数字(un œuf, deux œufs)。中文说“我吃面包”、英语说 I eat bread,名词前什么都不加;法语一定要有冠词,这是中国学生最常漏的地方。\n\n和 aimer 对比:aimer / adorer 说的是喜欢“这一类东西”,用 le / la(J'aime la confiture.);manger / boire 说的是吃喝“一些”,用 du / de la(Je mange de la confiture.)。",
+      "examples": [ { "text": "Je mange du pain.", "zh": "我吃面包。(一些面包)" }, { "text": "Tu bois de l'eau ?", "zh": "你喝水吗?" }, { "text": "J'aime la confiture.", "zh": "我喜欢果酱。(喜欢这类东西,用 la)" } ] },
+    { "id": "fr.g.pas_de", "titleZh": "否定以后变成 de",
+      "bodyZh": "否定句里,un / une / du / de la / de l' 都变成 de(元音前 d'):Je mange du pain. → Je ne mange pas de pain.;Je bois de l'eau. → Je ne bois pas d'eau. 很多中国学生会说 Je ne mange pas du pain,这是错的。但 aimer、adorer、être 后面的冠词不变:Je n'aime pas le café.(不是 pas de café)。",
+      "examples": [ { "text": "Je ne bois pas de café.", "zh": "我不喝咖啡。(du café → de café)" }, { "text": "Je n'aime pas le café.", "zh": "我不喜欢咖啡。(aimer 后面还是 le)" } ] }
+  ],
+  "review": "draft"
+}

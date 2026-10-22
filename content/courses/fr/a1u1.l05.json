@@ -1,0 +1,43 @@
+{
+  "id": "fr.a1u1.l05", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 Bonjour !", "order": 101050,
+  "titleZh": "数字 1 到 10", "goalZh": "会说 1–10,用数字说要几杯喝的",
+  "canDoZh": "能用 1–10 说数量,在咖啡馆点“两杯咖啡、三杯茶”",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.un", "kind": "word", "pos": "num", "text": "un", "zh": "一;一个(阳性)", "features": { "ipa": "œ̃" }, "noteZh": "数字 1 和阳性不定冠词是同一个词:un café;阴性是 une(第 2 单元学)。鼻化元音,很多法国人读得接近 [ɛ̃]。" },
+    { "id": "fr.deux", "kind": "word", "pos": "num", "text": "deux", "zh": "二", "features": { "ipa": "dø" }, "noteZh": "x 不发音;eu 读 [ø],嘴型像发“衣”时撮圆嘴唇。后面是元音时联诵读 [z]:deux eaux [dø.zo]。" },
+    { "id": "fr.trois", "kind": "word", "pos": "num", "text": "trois", "zh": "三", "features": { "ipa": "tʁwa" }, "noteZh": "oi 读 [wa];s 不发音,元音前联诵读 [z]:trois eaux [tʁwa.zo]。" },
+    { "id": "fr.quatre", "kind": "word", "pos": "num", "text": "quatre", "zh": "四", "features": { "ipa": "katʁ" }, "noteZh": "qu 读 [k];词尾的 e 不发音,tr 一起轻轻带出来。" },
+    { "id": "fr.cinq", "kind": "word", "pos": "num", "text": "cinq", "zh": "五", "features": { "ipa": "sɛ̃k" }, "noteZh": "鼻化元音 [ɛ̃] 加 [k];单独说时 q 要读出来。" },
+    { "id": "fr.six", "kind": "word", "pos": "num", "text": "six", "zh": "六", "features": { "ipa": "sis" }, "noteZh": "三种读法:单独读 [sis];辅音前读 [si](six cafés);元音前读 [siz](six eaux)。" },
+    { "id": "fr.sept", "kind": "word", "pos": "num", "text": "sept", "zh": "七", "features": { "ipa": "sɛt" }, "noteZh": "p 不发音,t 要读出来:[sɛt]。" },
+    { "id": "fr.huit", "kind": "word", "pos": "num", "text": "huit", "zh": "八", "features": { "ipa": "ɥit" }, "noteZh": "h 不发音;ui 读 [ɥi],嘴唇先撮圆再展开。单独读时 t 要读出来;辅音前常读 [ɥi](huit cafés)。" },
+    { "id": "fr.neuf", "kind": "word", "pos": "num", "text": "neuf", "zh": "九", "features": { "ipa": "nœf" }, "noteZh": "f 要读出来;eu 读开口的 [œ]。以后学到 neuf ans 读 [nœ.vɑ̃](f 变成 [v])。" },
+    { "id": "fr.dix", "kind": "word", "pos": "num", "text": "dix", "zh": "十", "features": { "ipa": "dis" }, "noteZh": "和 six 一样有三种读法:单独读 [dis],辅音前读 [di](dix cafés),元音前读 [diz](dix eaux)。" }
+  ],
+  "reviewItems": ["fr.cafe", "fr.the", "fr.eau", "fr.sil_vous_plait"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour ! Deux cafés, trois thés, s'il vous plaît.", "zh": "(下课后,替同学买饮料)你好!请来两杯咖啡、三杯茶。", "items": ["fr.bonjour", "fr.deux", "fr.cafe", "fr.trois", "fr.the", "fr.sil_vous_plait"] },
+    { "speaker": "serveur", "text": "Deux cafés ? Trois thés ?", "zh": "两杯咖啡?三杯茶?", "items": ["fr.deux", "fr.cafe", "fr.trois", "fr.the"] },
+    { "speaker": "hao", "text": "Non, quatre thés !", "zh": "不对,是四杯茶!", "items": ["fr.non", "fr.quatre", "fr.the"] },
+    { "speaker": "serveur", "text": "Deux cafés, quatre thés… six ! Très bien.", "zh": "两杯咖啡、四杯茶……一共六杯!好的。", "items": ["fr.deux", "fr.cafe", "fr.quatre", "fr.the", "fr.six", "fr.tres", "fr.bien"] },
+    { "speaker": "hao", "text": "Deux eaux, s'il vous plaît.", "zh": "请再来两瓶水。", "items": ["fr.deux", "fr.eau", "fr.sil_vous_plait"] },
+    { "speaker": "serveur", "text": "Deux eaux ? Huit !", "zh": "两瓶水?那就是八样!", "items": ["fr.deux", "fr.eau", "fr.huit"] },
+    { "speaker": "hao", "text": "Oui, huit. Merci !", "zh": "对,八样。谢谢!", "items": ["fr.oui", "fr.huit", "fr.merci"] },
+    { "speaker": "hao", "text": "Un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix…", "zh": "(浩数口袋里的硬币)一、二、三、四、五、六、七、八、九、十……", "items": ["fr.un", "fr.deux", "fr.trois", "fr.quatre", "fr.cinq", "fr.six", "fr.sept", "fr.huit", "fr.neuf", "fr.dix"] },
+    { "speaker": "serveur", "text": "Merci, monsieur ! Au revoir !", "zh": "谢谢您!再见!", "items": ["fr.merci", "fr.monsieur", "fr.au_revoir"] },
+    { "speaker": "hao", "text": "Au revoir !", "zh": "再见!", "items": ["fr.au_revoir"] }
+  ],
+  "questions": [
+    { "prompt": "浩最后要了几杯茶?", "options": ["三杯", "两杯", "四杯"], "answer": 2, "explainZh": "他先说 trois thés(三杯茶),服务员确认时他改成 Non, quatre thés !(不对,是四杯茶!)" },
+    { "prompt": "浩后来又加了什么?", "options": ["两瓶水", "两杯咖啡", "一杯茶"], "answer": 0, "explainZh": "Deux eaux, s'il vous plaît.(再要两瓶水。)deux 和 eaux 要联诵,读 [dø.zo]。" },
+    { "prompt": "服务员说“……six !”(一共六杯)时,six 怎么读?", "options": ["[si],x 不读", "[sis],x 读 [s]", "[siz],x 读 [z]"], "answer": 1, "explainZh": "six 单独说、后面没有别的词时读 [sis];six cafés 这样在辅音前读 [si];在元音前读 [siz]。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.numbers_liaison", "titleZh": "复数的 -s 不发音;数字的三种读法和联诵",
+      "bodyZh": "名词变复数一般加 -s(café → cafés),但这个 -s 不发音:un café 和 deux cafés 里的 café 读音完全一样,听的时候要靠前面的数字分辨单复数。eau 的复数加 x:eaux,读音也不变。\n\n数字的词尾辅音要注意:six、dix 单独说时读 [sis]、[dis],在辅音开头的词前不读(six cafés [si ka.fe]),在元音开头的词前联诵读 [z](six eaux [si.zo])。deux、trois 平时 x、s 不发音,碰到元音开头的词也要联诵读 [z]:deux eaux [dø.zo]。中文的数字读音从来不变,这是中国学生最容易读错的地方。",
+      "examples": [ { "text": "deux cafés", "zh": "两杯咖啡(s 不发音:[dø ka.fe])" }, { "text": "six thés", "zh": "六杯茶(辅音前:[si te])" }, { "text": "deux eaux", "zh": "两瓶水(联诵:[dø.zo])" }, { "text": "dix !", "zh": "十!(单独说:[dis])" } ] }
+  ],
+  "review": "draft"
+}

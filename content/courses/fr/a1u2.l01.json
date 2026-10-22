@@ -1,0 +1,40 @@
+{
+  "id": "fr.a1u2.l01", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102010,
+  "titleZh": "在面包店买可颂", "goalZh": "会在面包店说要什么、问多少钱",
+  "canDoZh": "能在面包店买可颂和巧克力面包,问价格并付钱",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.boulangerie", "kind": "word", "pos": "noun", "text": "la boulangerie", "zh": "面包店", "features": { "gender": "f", "ipa": "la bu.lɑ̃.ʒʁi" }, "noteZh": "阴性。法国人几乎每天都去;店员是 la boulangère。ou 读 [u],an 是鼻化元音 [ɑ̃],词尾 e 不发音。" },
+    { "id": "fr.croissant", "kind": "word", "pos": "noun", "text": "le croissant", "zh": "可颂;羊角面包", "features": { "gender": "m", "ipa": "lə kʁwa.sɑ̃" }, "noteZh": "阳性:un croissant。oi 读 [wa],ss 读 [s],an 是鼻化元音,词尾 t 不发音。" },
+    { "id": "fr.pain_au_chocolat", "kind": "word", "pos": "noun", "text": "le pain au chocolat", "zh": "巧克力面包", "features": { "gender": "m", "ipa": "lə pɛ̃ o ʃɔ.kɔ.la" }, "noteZh": "阳性:un pain au chocolat;复数只在 pain 后加 s:six pains au chocolat。chocolat 的 t 不发音。里昂、巴黎都这么说,法国西南部叫 chocolatine。" },
+    { "id": "fr.je_voudrais", "kind": "phrase", "pos": "phrase", "text": "Je voudrais…", "zh": "我想要……(礼貌)", "features": { "ipa": "ʒə vu.dʁɛ" }, "noteZh": "买东西、点餐最常用的礼貌说法,比 Je veux(我要)客气得多;ou 读 [u],ai 读 [ɛ],词尾 s 不发音。后面接 un / une + 名词。" },
+    { "id": "fr.une", "kind": "word", "pos": "det", "text": "une", "zh": "一个(阴性);一(阴性)", "features": { "ipa": "yn" }, "noteZh": "阴性名词前用 une:une baguette。u 读 [y],n 要读出来 [yn];注意 un 是鼻化元音 [œ̃],une 不是。" },
+    { "id": "fr.voila", "kind": "word", "pos": "interj", "text": "voilà", "zh": "给您;这就是", "features": { "ipa": "vwa.la" }, "noteZh": "à 带重音符号,写的时候不能漏;递东西、付钱时都说 Voilà !(给您/给你)。" },
+    { "id": "fr.cest_combien", "kind": "phrase", "pos": "phrase", "text": "C'est combien ?", "zh": "多少钱?", "features": { "ipa": "sɛ kɔ̃.bjɛ̃" }, "noteZh": "问价格最简单的说法;combien 有两个鼻化元音 [ɔ̃]、[jɛ̃]。也可以说 C'est combien, le croissant ?" },
+    { "id": "fr.ca_fait", "kind": "phrase", "pos": "phrase", "text": "Ça fait…", "zh": "一共是……(算账)", "features": { "ipa": "sa fɛ" }, "noteZh": "店员报总价:Ça fait deux euros.(一共两欧。)fait 的 t 不发音。" },
+    { "id": "fr.euro", "kind": "word", "pos": "noun", "text": "l'euro", "zh": "欧元", "features": { "gender": "m", "ipa": "lø.ʁo" }, "noteZh": "元音开头冠词省成 l',要记住是阳性:un euro。前面的数字要联诵:un euro [œ̃.nø.ʁo]、deux euros [dø.zø.ʁo]、trois euros [tʁwa.zø.ʁo]。复数的 s 不发音。" },
+    { "id": "fr.bonne_journee", "kind": "phrase", "pos": "phrase", "text": "Bonne journée !", "zh": "祝你/您今天愉快", "features": { "ipa": "bɔn ʒuʁ.ne" }, "noteZh": "白天告别时常说,店员和顾客互相说;晚上说 Bonne soirée !。bonne 的 o 不是鼻化音 [bɔn]。" }
+  ],
+  "reviewItems": ["fr.bonjour", "fr.madame", "fr.merci", "fr.deux"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour, madame ! Je voudrais un croissant, s'il vous plaît.", "zh": "(早上八点,宿舍楼下的面包店)您好!我想要一个可颂。", "items": ["fr.bonjour", "fr.madame", "fr.je_voudrais", "fr.un", "fr.croissant", "fr.sil_vous_plait"] },
+    { "speaker": "boulangere", "text": "Bonjour, monsieur ! Voilà. Une baguette ?", "zh": "您好!给您。要一根法棍吗?", "items": ["fr.bonjour", "fr.monsieur", "fr.voila", "fr.une", "fr.baguette"] },
+    { "speaker": "hao", "text": "Non, merci. Un pain au chocolat. C'est combien ?", "zh": "不用了,谢谢。再要一个巧克力面包。多少钱?", "items": ["fr.non", "fr.merci", "fr.un", "fr.pain_au_chocolat", "fr.cest_combien"] },
+    { "speaker": "boulangere", "text": "Ça fait deux euros.", "zh": "一共两欧。", "items": ["fr.ca_fait", "fr.deux", "fr.euro"] },
+    { "speaker": "hao", "text": "Voilà, madame.", "zh": "给您。", "items": ["fr.voila", "fr.madame"] },
+    { "speaker": "boulangere", "text": "Merci ! Bonne journée !", "zh": "谢谢!祝您今天愉快!", "items": ["fr.merci", "fr.bonne_journee"] },
+    { "speaker": "lucas", "text": "Salut, Hao ! La boulangerie ?", "zh": "(回到宿舍)嗨,浩!去面包店了?", "items": ["fr.salut", "fr.boulangerie"] },
+    { "speaker": "hao", "text": "Oui ! Un croissant, Lucas ?", "zh": "对!卢卡,来个可颂吗?", "items": ["fr.oui", "fr.un", "fr.croissant"] }
+  ],
+  "questions": [
+    { "prompt": "浩在面包店买了什么?", "options": ["一个可颂和一根法棍", "两个可颂", "一个可颂和一个巧克力面包"], "answer": 2, "explainZh": "浩先说 Je voudrais un croissant,店员问要不要法棍,他说 Non, merci,又要了 Un pain au chocolat。" },
+    { "prompt": "一共多少钱?", "options": ["八欧", "两欧", "十欧"], "answer": 1, "explainZh": "店员说 Ça fait deux euros.(一共两欧。)deux euros 要联诵,读 [dø.zø.ʁo]。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.un_une", "titleZh": "un 还是 une?在面包店怎么买",
+      "bodyZh": "“一个”要跟名词的性:阳性名词前用 un,阴性名词前用 une。所以记名词一定连冠词:le croissant → un croissant,la baguette → une baguette。英语不管什么名词都说 a,中文说“一个、一根”,法语看的是名词的性,不是东西的形状。\n\n买东西:Je voudrais + un / une + 名词,比 Je veux(我要)礼貌;问价说 C'est combien ?,店员报总价说 Ça fait … euros。数字和 euros 要联诵:un euro [œ̃.nø.ʁo]、deux euros [dø.zø.ʁo]。文化点:法国人进店一定先说 Bonjour, madame / monsieur,付钱时说 Voilà,走的时候互相说 Bonne journée !",
+      "examples": [ { "text": "un croissant, un pain au chocolat", "zh": "一个可颂、一个巧克力面包(阳性)" }, { "text": "une baguette, une boulangerie", "zh": "一根法棍、一家面包店(阴性)" } ] }
+  ],
+  "review": "draft"
+}

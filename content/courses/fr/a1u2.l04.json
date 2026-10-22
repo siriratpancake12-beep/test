@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u2.l04", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102040,
+  "titleZh": "我喜欢……,我不喜欢……", "goalZh": "会用 aimer / adorer 说喜好,学会否定 ne…pas",
+  "canDoZh": "能说自己喜欢、很喜欢和不喜欢吃什么、喝什么",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.aimer", "kind": "word", "pos": "verb", "text": "aimer", "zh": "喜欢;爱", "features": { "ipa": "e.me" }, "noteZh": "-er 动词:j'aime, tu aimes, il/elle aime, vous aimez;前三个读音一样 [ɛm],词尾 -e、-es 不发音。je 在元音前省音成 j'。" },
+    { "id": "fr.adorer", "kind": "word", "pos": "verb", "text": "adorer", "zh": "非常喜欢;热爱", "features": { "ipa": "a.dɔ.ʁe" }, "noteZh": "比 aimer beaucoup 更强烈,口语里很常用;变位和 aimer 一样:j'adore, tu adores。" },
+    { "id": "fr.fromage", "kind": "word", "pos": "noun", "text": "le fromage", "zh": "奶酪", "features": { "gender": "m", "ipa": "lə fʁɔ.maʒ" }, "noteZh": "阳性。ge 读 [ʒ],词尾 e 不发音。法国人正餐的最后常有一道奶酪。" },
+    { "id": "fr.ne_pas", "kind": "phrase", "pos": "phrase", "text": "ne… pas", "zh": "不(否定)", "features": { "ipa": "nə pa" }, "noteZh": "夹住动词:je ne suis pas, je n'aime pas(元音前 ne → n');口语常省掉 ne,但写的时候不能省。" },
+    { "id": "fr.bon", "kind": "word", "pos": "adj", "text": "bon", "zh": "好吃的;好的(阳性)", "features": { "ipa": "bɔ̃" }, "noteZh": "阴性 bonne [bɔn]:加 -ne 以后鼻化音消失。C'est bon ! = 真好吃!" },
+    { "id": "fr.mais", "kind": "word", "pos": "conj", "text": "mais", "zh": "但是", "features": { "ipa": "mɛ" }, "noteZh": "s 不发音,ai 读 [ɛ];前面一般有逗号。" },
+    { "id": "fr.aussi", "kind": "word", "pos": "adv", "text": "aussi", "zh": "也", "features": { "ipa": "o.si" }, "noteZh": "放在动词后面:J'aime aussi le thé.;Moi aussi ! = 我也是!(中文“也”放在动词前,法语放在后面。)" },
+    { "id": "fr.et", "kind": "word", "pos": "conj", "text": "et", "zh": "和;而且", "features": { "ipa": "e" }, "noteZh": "t 不发音,也永远不联诵:et un café 读 [e œ̃ ka.fe]。" },
+    { "id": "fr.beaucoup", "kind": "word", "pos": "adv", "text": "beaucoup", "zh": "很多;非常(喜欢)", "features": { "ipa": "bo.ku" }, "noteZh": "eau 读 [o],p 不发音;放在动词后面:J'aime beaucoup le thé.(不能说 très aimer。)" },
+    { "id": "fr.moi", "kind": "word", "pos": "pron", "text": "moi", "zh": "我(重读,单独用)", "features": { "ipa": "mwa" }, "noteZh": "强调或单独回答时用:Moi, j'aime le café. / Moi aussi !;不能单独说 je。" }
+  ],
+  "reviewItems": ["fr.croissant", "fr.the", "fr.cafe"],
+  "lines": [
+    { "speaker": "chloe", "text": "Hao, tu aimes le fromage ?", "zh": "(在咖啡馆里)浩,你喜欢奶酪吗?", "items": ["fr.tu", "fr.aimer", "fr.fromage"] },
+    { "speaker": "hao", "text": "Non, je n'aime pas le fromage.", "zh": "不,我不喜欢奶酪。", "items": ["fr.non", "fr.je", "fr.ne_pas", "fr.aimer", "fr.fromage"] },
+    { "speaker": "chloe", "text": "Moi, j'adore le fromage ! Et les croissants ?", "zh": "我可太爱奶酪了!那可颂呢?", "items": ["fr.moi", "fr.je", "fr.adorer", "fr.fromage", "fr.et", "fr.croissant"] },
+    { "speaker": "hao", "text": "J'aime beaucoup les croissants. C'est très bon !", "zh": "我很喜欢可颂。特别好吃!", "items": ["fr.je", "fr.aimer", "fr.beaucoup", "fr.croissant", "fr.cest", "fr.tres", "fr.bon"] },
+    { "speaker": "chloe", "text": "Et le café ? Tu aimes le café ?", "zh": "咖啡呢?你喜欢咖啡吗?", "items": ["fr.et", "fr.cafe", "fr.tu", "fr.aimer"] },
+    { "speaker": "hao", "text": "Oui, j'aime le café, mais j'adore le thé.", "zh": "喜欢,我喜欢咖啡,不过我最爱的是茶。", "items": ["fr.oui", "fr.je", "fr.aimer", "fr.cafe", "fr.mais", "fr.adorer", "fr.the"] },
+    { "speaker": "chloe", "text": "Moi aussi ! J'adore le thé.", "zh": "我也是!我超爱喝茶。", "items": ["fr.moi", "fr.aussi", "fr.je", "fr.adorer", "fr.the"] }
+  ],
+  "questions": [
+    { "prompt": "浩喜欢奶酪吗?", "options": ["很喜欢", "不喜欢", "还行"], "answer": 1, "explainZh": "浩说:Non, je n'aime pas le fromage.(不,我不喜欢奶酪。)" },
+    { "prompt": "克洛艾非常喜欢什么?", "options": ["奶酪和茶", "咖啡和可颂", "只喜欢咖啡"], "answer": 0, "explainZh": "克洛艾说 Moi, j'adore le fromage !,最后又说 Moi aussi ! J'adore le thé." }
+  ],
+  "grammar": [
+    { "id": "fr.g.aimer", "titleZh": "aimer / adorer + 定冠词:说喜好",
+      "bodyZh": "aimer(喜欢)是第一个 -er 动词:j'aime, tu aimes, il / elle aime, vous aimez。j'aime、tu aimes、il aime 读音完全一样 [ɛm],词尾 -e、-es 都不发音;je 在元音前省音成 j'(j'aime, j'adore)。\n\n说喜欢“某一类东西”,名词前一定用定冠词 le / la / l' / les:J'aime le thé.(英语 I like tea 不加 the,中文也不加,法语必须加。)喜欢的程度:j'aime < j'aime beaucoup < j'adore。beaucoup 放在动词后面,不能说 très aimer。",
+      "examples": [ { "text": "J'aime le thé.", "zh": "我喜欢茶。" }, { "text": "Tu aimes le fromage ?", "zh": "你喜欢奶酪吗?" }, { "text": "J'adore les croissants !", "zh": "我超爱可颂!" } ] },
+    { "id": "fr.g.ne_pas", "titleZh": "否定:ne … pas 夹住动词",
+      "bodyZh": "法语否定要用两个词把动词夹在中间:ne + 动词 + pas。动词以元音开头时 ne 省音成 n':Je n'aime pas le fromage. 中文只在动词前加一个“不”,英语用 don't,法语一定是前后两个。aimer 的否定句里冠词不变,还是 le / la:Je n'aime pas le café. 口语里法国人常把 ne 吞掉(J'aime pas…),但写的时候不能省。",
+      "examples": [ { "text": "Je n'aime pas le fromage.", "zh": "我不喜欢奶酪。" }, { "text": "Je ne suis pas français.", "zh": "我不是法国人。" } ] }
+  ],
+  "review": "draft"
+}

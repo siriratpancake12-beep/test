@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u1.l04", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-1 Bonjour !", "order": 101040,
+  "titleZh": "她是加拿大人——主语代词和 être", "goalZh": "会用 je / tu / il / elle / vous 和 être 说自己和别人的国籍、来自哪个城市",
+  "canDoZh": "能介绍朋友:“这是艾米莉,她是加拿大人,她来自蒙特利尔”",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.je", "kind": "word", "pos": "pron", "text": "je", "zh": "我", "features": { "ipa": "ʒə" }, "noteZh": "e 读得很轻 [ə];在句中不大写(英语 I 永远大写)。后面是元音开头的词时变成 j':j'aime、j'habite。" },
+    { "id": "fr.tu", "kind": "word", "pos": "pron", "text": "tu", "zh": "你(熟人)", "features": { "ipa": "ty" }, "noteZh": "u 读 [y]:嘴唇撮圆发“衣”,像汉语“鱼”的韵母。对朋友、同学、家人用;动词配 tu es。" },
+    { "id": "fr.il", "kind": "word", "pos": "pron", "text": "il", "zh": "他;它(阳性)", "features": { "ipa": "il" }, "noteZh": "l 要读出来。指男人,也指阳性名词:il 不只是“他”。" },
+    { "id": "fr.elle", "kind": "word", "pos": "pron", "text": "elle", "zh": "她;它(阴性)", "features": { "ipa": "ɛl" }, "noteZh": "读 [ɛl],和 il [il] 只差一个元音,听的时候要分清;也指阴性名词。" },
+    { "id": "fr.vous", "kind": "word", "pos": "pron", "text": "vous", "zh": "您;你们", "features": { "ipa": "vu" }, "noteZh": "对一个人时是尊称“您”,对几个人时是“你们”(对朋友也用);s 不发音,但 vous êtes 要联诵读 [vu.zɛt]。" },
+    { "id": "fr.etre", "kind": "word", "pos": "verb", "text": "être", "zh": "是", "features": { "ipa": "ɛtʁ" }, "noteZh": "最重要的不规则动词:je suis, tu es, il/elle est, nous sommes, vous êtes, ils sont。es 和 est 读音一样 [ɛ],s、t 都不发音。" },
+    { "id": "fr.francais", "kind": "word", "pos": "adj", "text": "français", "zh": "法国的(阳性);法语", "features": { "ipa": "fʁɑ̃.sɛ" }, "noteZh": "ç 读 [s];阴性 française [fʁɑ̃.sɛz],s 读 [z]。国籍形容词小写;le français 是“法语”。" },
+    { "id": "fr.canadien", "kind": "word", "pos": "adj", "text": "canadien", "zh": "加拿大的(阳性)", "features": { "ipa": "ka.na.djɛ̃" }, "noteZh": "阴性 canadienne [ka.na.djɛn]:双写 n 再加 e,鼻化音消失,n 要读出来。" },
+    { "id": "fr.cest", "kind": "phrase", "pos": "phrase", "text": "c'est", "zh": "这是;那是", "features": { "ipa": "sɛ" }, "noteZh": "c' 是 ce 的省音,t 不发音。介绍人:C'est Émilie.(这是艾米莉。)" },
+    { "id": "fr.de", "kind": "word", "pos": "prep", "text": "de", "zh": "来自;……的", "features": { "ipa": "də" }, "noteZh": "元音前变 d'。Je suis de Chengdu.(我来自成都。)le frère de Chloé = 克洛艾的兄弟。" }
+  ],
+  "reviewItems": ["fr.je_suis", "fr.chinois", "fr.oui"],
+  "lines": [
+    { "speaker": "chloe", "text": "Lucas, Hao, c'est Émilie. Elle est canadienne.", "zh": "(宿舍迎新晚会)卢卡、浩,这是艾米莉。她是加拿大人。", "items": ["fr.cest", "fr.elle", "fr.etre", "fr.canadien"] },
+    { "speaker": "lucas", "text": "Salut, Émilie ! Tu es de Montréal ?", "zh": "嗨,艾米莉!你是蒙特利尔人吗?", "items": ["fr.salut", "fr.tu", "fr.etre", "fr.de"] },
+    { "speaker": "emilie", "text": "Oui, je suis de Montréal. Vous êtes français ?", "zh": "对,我来自蒙特利尔。你们是法国人吗?", "items": ["fr.oui", "fr.je_suis", "fr.je", "fr.etre", "fr.de", "fr.vous", "fr.francais"] },
+    { "speaker": "lucas", "text": "Je suis français. Hao, il est chinois.", "zh": "我是法国人。浩呢,他是中国人。", "items": ["fr.je_suis", "fr.je", "fr.etre", "fr.francais", "fr.il", "fr.chinois"] },
+    { "speaker": "hao", "text": "Oui, je suis chinois. Je suis de Chengdu.", "zh": "对,我是中国人。我来自成都。", "items": ["fr.oui", "fr.je_suis", "fr.je", "fr.etre", "fr.chinois", "fr.de"] },
+    { "speaker": "lucas", "text": "Et toi, Chloé ? Tu es canadienne ?", "zh": "(开玩笑)那你呢,克洛艾?你也是加拿大人?", "items": ["fr.et_toi", "fr.tu", "fr.etre", "fr.canadien"] },
+    { "speaker": "chloe", "text": "Non ! Je suis française, de Lyon !", "zh": "才不是!我是法国人,里昂的!", "items": ["fr.non", "fr.je_suis", "fr.je", "fr.etre", "fr.francais", "fr.de"] }
+  ],
+  "questions": [
+    { "prompt": "艾米莉来自哪个城市?", "options": ["蒙特利尔", "里昂", "成都"], "answer": 0, "explainZh": "卢卡问 Tu es de Montréal ?,艾米莉说 Oui, je suis de Montréal.;克洛艾来自里昂,浩来自成都。" },
+    { "prompt": "艾米莉问 Vous êtes français ?,她在问谁?", "options": ["只问卢卡", "只问克洛艾", "同时问卢卡和浩"], "answer": 2, "explainZh": "对几个人说话时 vous 是“你们”:艾米莉同时问卢卡和浩,所以卢卡回答“我是法国人,浩是中国人”。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.etre", "titleZh": "主语代词和 être(是)",
+      "bodyZh": "être 要跟着主语变:je suis(我是)、tu es(你是)、il est(他是)、elle est(她是)、vous êtes(您是 / 你们是)。es 和 est 读音一样 [ɛ];vous êtes 要联诵,读 [vu.zɛt]。中文的“是”从不变化,英语也只有 am / are / is 三种,法语每个人称都要记。vous 有两个意思:对一个人表示尊敬(您),对几个人就是“你们”,哪怕是朋友。nous、ils、elles 第 3 单元学。",
+      "examples": [ { "text": "Je suis chinois.", "zh": "我是中国人。" }, { "text": "Tu es canadienne ?", "zh": "你是加拿大人吗?" }, { "text": "Vous êtes français ?", "zh": "你们是法国人吗?/ 您是法国人吗?" } ] },
+    { "id": "fr.g.cest_de", "titleZh": "介绍别人:C'est…;说来自哪里:être de + 城市",
+      "bodyZh": "介绍一个人用 C'est + 名字(这是……);接着用 il / elle 说他(她)的情况。说来自哪个城市用 être de + 城市名(de 在元音前变 d')。国籍形容词要跟人的性别:français → française,canadien → canadienne,chinois → chinoise。说国籍时不加冠词,直接说 Elle est canadienne.(英语也说 She is Canadian)。",
+      "examples": [ { "text": "C'est Émilie. Elle est canadienne.", "zh": "这是艾米莉。她是加拿大人。" }, { "text": "Je suis de Chengdu.", "zh": "我来自成都。" } ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "fr.a1u2.l03", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102030,
+  "titleZh": "在咖啡馆看菜单点单", "goalZh": "会看简单的菜单,点饮料和三明治,最后买单",
+  "canDoZh": "能看懂咖啡馆的简单菜单,点热巧克力、果汁、三明治,并叫服务员买单",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.carte", "kind": "word", "pos": "noun", "text": "la carte", "zh": "菜单;卡片", "features": { "gender": "f", "ipa": "la kaʁt" }, "noteZh": "阴性。在餐馆、咖啡馆里 la carte 是菜单:La carte, s'il vous plaît.;第 7 单元还会遇到银行卡 la carte bancaire。" },
+    { "id": "fr.chocolat_chaud", "kind": "word", "pos": "noun", "text": "le chocolat chaud", "zh": "热巧克力(饮料)", "features": { "gender": "m", "ipa": "lə ʃɔ.kɔ.la ʃo" }, "noteZh": "阳性。chocolat 的 t、chaud 的 d 都不发音;au 读 [o]。" },
+    { "id": "fr.jus_dorange", "kind": "word", "pos": "noun", "text": "le jus d'orange", "zh": "橙汁", "features": { "gender": "m", "ipa": "lə ʒy dɔ.ʁɑ̃ʒ" }, "noteZh": "阳性(跟着 jus 走)。jus 的 s 不发音;d'orange 是 de orange 的省音,连着读 [dɔ.ʁɑ̃ʒ]。" },
+    { "id": "fr.sandwich", "kind": "word", "pos": "noun", "text": "le sandwich", "zh": "三明治", "features": { "gender": "m", "ipa": "lə sɑ̃d.witʃ" }, "noteZh": "阳性。法国的三明治多是半根法棍夹火腿或奶酪;an 读鼻化元音 [ɑ̃]。" },
+    { "id": "fr.lait", "kind": "word", "pos": "noun", "text": "le lait", "zh": "牛奶", "features": { "gender": "m", "ipa": "lə lɛ" }, "noteZh": "阳性。t 不发音,ai 读 [ɛ];un café au lait = 牛奶咖啡。" },
+    { "id": "fr.avec", "kind": "word", "pos": "prep", "text": "avec", "zh": "和……一起;加(配料)", "features": { "ipa": "a.vɛk" }, "noteZh": "词尾 c 要读出来 [k]。un café avec un croissant:咖啡配一个可颂。" },
+    { "id": "fr.sans", "kind": "word", "pos": "prep", "text": "sans", "zh": "不加;没有", "features": { "ipa": "sɑ̃" }, "noteZh": "鼻化元音,两个 s 只有开头的读。un thé sans lait(不加奶的茶):sans 后面一般不加冠词。" },
+    { "id": "fr.ou", "kind": "word", "pos": "conj", "text": "ou", "zh": "或者;还是", "features": { "ipa": "u" }, "noteZh": "不带重音符号;带重音符号的 où 是“哪里”(第 4 单元)。Un thé ou un café ?(茶还是咖啡?)" },
+    { "id": "fr.addition", "kind": "word", "pos": "noun", "text": "l'addition", "zh": "账单(餐馆)", "features": { "gender": "f", "ipa": "la.di.sjɔ̃" }, "noteZh": "元音开头,要记住是阴性;-tion 读 [sjɔ̃]。买单:L'addition, s'il vous plaît.(服务员一般不催,要自己叫。)" },
+    { "id": "fr.je_prends", "kind": "phrase", "pos": "phrase", "text": "Je prends…", "zh": "我要……(点单)", "features": { "ipa": "ʒə pʁɑ̃" }, "noteZh": "d 和 s 都不发音;点单时和 Je voudrais 一样常用,语气更直接。动词 prendre 第 6 单元完整学。" }
+  ],
+  "reviewItems": ["fr.cafe", "fr.eau", "fr.sil_vous_plait", "fr.je_voudrais"],
+  "lines": [
+    { "speaker": "serveur", "text": "Bonjour, Hao ! Un café, une eau ?", "zh": "(卡里姆认出了浩)你好,浩!老样子,一杯咖啡、一瓶水?", "items": ["fr.bonjour", "fr.un", "fr.cafe", "fr.une", "fr.eau"] },
+    { "speaker": "hao", "text": "Bonjour ! La carte, s'il vous plaît.", "zh": "你好!请给我看看菜单。", "items": ["fr.bonjour", "fr.carte", "fr.sil_vous_plait"] },
+    { "speaker": "serveur", "text": "Voilà ! Madame, un thé ou un café ?", "zh": "给您!这位女士,茶还是咖啡?", "items": ["fr.voila", "fr.madame", "fr.un", "fr.the", "fr.ou", "fr.cafe"] },
+    { "speaker": "chloe", "text": "Je prends un café avec un jus d'orange.", "zh": "我要一杯咖啡和一杯橙汁。", "items": ["fr.je_prends", "fr.un", "fr.cafe", "fr.avec", "fr.jus_dorange"] },
+    { "speaker": "serveur", "text": "Avec ou sans lait ?", "zh": "咖啡加不加牛奶?", "items": ["fr.avec", "fr.ou", "fr.sans", "fr.lait"] },
+    { "speaker": "chloe", "text": "Avec, s'il vous plaît.", "zh": "加,谢谢。", "items": ["fr.avec", "fr.sil_vous_plait"] },
+    { "speaker": "hao", "text": "Je voudrais un chocolat chaud avec un sandwich.", "zh": "我想要一杯热巧克力和一个三明治。", "items": ["fr.je_voudrais", "fr.un", "fr.chocolat_chaud", "fr.avec", "fr.sandwich"] },
+    { "speaker": "hao", "text": "L'addition, s'il vous plaît !", "zh": "(吃完了)麻烦买单!", "items": ["fr.addition", "fr.sil_vous_plait"] }
+  ],
+  "questions": [
+    { "prompt": "浩点了什么?", "options": ["一杯咖啡和一瓶水", "一杯热巧克力和一个三明治", "一杯橙汁和一杯咖啡"], "answer": 1, "explainZh": "卡里姆以为浩还要咖啡和水,可浩看了菜单说:Je voudrais un chocolat chaud avec un sandwich." },
+    { "prompt": "克洛艾的咖啡加牛奶吗?", "options": ["加牛奶", "不加牛奶", "她没点咖啡"], "answer": 0, "explainZh": "卡里姆问 Avec ou sans lait ?(加不加牛奶?),克洛艾说 Avec, s'il vous plaît.(加。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.ou_avec_sans", "titleZh": "点单:Je prends / Je voudrais;ou、avec、sans",
+      "bodyZh": "点单两种说法都很常用:Je prends…(我要……)和 Je voudrais…(我想要……,更客气),后面接 un / une + 名词。问“A 还是 B?”用 ou:Un thé ou un café ?(ou 不带重音符号;où 是“哪里”。)avec 是“加、和……一起”,sans 是“不加”:Avec ou sans lait ?(加不加奶?)这种固定问法里,还有 sans 后面,名词前一般不加冠词:un café sans lait。\n\n叫服务员结账说 L'addition, s'il vous plaît.,这里用定冠词 l',因为指的是“我们这一桌的”账单。在法国的咖啡馆,吃完了要自己叫买单,服务员不会催,也不会主动把账单拿来。",
+      "examples": [ { "text": "Un thé ou un café ?", "zh": "茶还是咖啡?" }, { "text": "Un café sans lait, s'il vous plaît.", "zh": "请来一杯不加奶的咖啡。" } ] }
+  ],
+  "review": "draft"
+}

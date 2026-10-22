@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u2.l08", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102080,
+  "titleZh": "单元复习:和克洛艾吃早午餐", "goalZh": "把点餐、价格、喜好和部分冠词串成一段完整的对话",
+  "canDoZh": "能和朋友在咖啡馆完成一次完整的点餐:说饿了、点吃的喝的、聊口味、算钱买单",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.jai_faim", "kind": "phrase", "pos": "phrase", "text": "J'ai faim.", "zh": "我饿了", "features": { "ipa": "ʒe fɛ̃" }, "noteZh": "法语说“有饿”(avoir faim),不能说 Je suis faim。faim 和 cinq 的元音一样,是鼻化元音 [ɛ̃]。" },
+    { "id": "fr.jai_soif", "kind": "phrase", "pos": "phrase", "text": "J'ai soif.", "zh": "我渴了", "features": { "ipa": "ʒe swaf" }, "noteZh": "和 J'ai faim 一样用 avoir;oi 读 [wa],f 要读出来。" },
+    { "id": "fr.delicieux", "kind": "word", "pos": "adj", "text": "délicieux", "zh": "好吃的;美味的(阳性)", "features": { "ipa": "de.li.sjø" }, "noteZh": "阴性 délicieuse [de.li.sjøz];x 不发音。夸吃的最常用:C'est délicieux !" },
+    { "id": "fr.ensemble", "kind": "word", "pos": "adv", "text": "ensemble", "zh": "一起", "features": { "ipa": "ɑ̃.sɑ̃bl" }, "noteZh": "两个鼻化元音 [ɑ̃];词尾 e 不发音,bl 轻轻带出来。" }
+  ],
+  "reviewItems": ["fr.je_prends", "fr.addition", "fr.aimer", "fr.pas_de"],
+  "lines": [
+    { "speaker": "chloe", "text": "Hao, un petit-déjeuner ensemble ? J'ai faim !", "zh": "(周日上午)浩,一起去吃个早饭?我饿了!", "items": ["fr.un", "fr.petit_dejeuner", "fr.ensemble", "fr.jai_faim"] },
+    { "speaker": "hao", "text": "Oui ! J'ai faim et j'ai soif.", "zh": "好啊!我又饿又渴。", "items": ["fr.oui", "fr.jai_faim", "fr.et", "fr.jai_soif"] },
+    { "speaker": "serveur", "text": "Bonjour ! Voilà la carte.", "zh": "(在咖啡馆)你们好!这是菜单。", "items": ["fr.bonjour", "fr.voila", "fr.carte"] },
+    { "speaker": "hao", "text": "Je prends un croissant, deux œufs et un chocolat chaud.", "zh": "我要一个可颂、两个鸡蛋和一杯热巧克力。", "items": ["fr.je_prends", "fr.un", "fr.croissant", "fr.deux", "fr.oeuf", "fr.et", "fr.chocolat_chaud"] },
+    { "speaker": "chloe", "text": "Un sandwich et un jus d'orange, s'il vous plaît.", "zh": "请给我一个三明治和一杯橙汁。", "items": ["fr.un", "fr.sandwich", "fr.et", "fr.jus_dorange", "fr.sil_vous_plait"] },
+    { "speaker": "chloe", "text": "Tu ne manges pas de fromage ?", "zh": "(她的三明治里有奶酪)你不吃点奶酪吗?", "items": ["fr.tu", "fr.ne_pas", "fr.manger", "fr.pas_de", "fr.fromage"] },
+    { "speaker": "hao", "text": "Non, merci. Je n'aime pas le fromage.", "zh": "不了,谢谢。我不喜欢奶酪。", "items": ["fr.non", "fr.merci", "fr.je", "fr.ne_pas", "fr.aimer", "fr.fromage"] },
+    { "speaker": "chloe", "text": "Il est délicieux ! Et le chocolat chaud ?", "zh": "可好吃了!那你的热巧克力呢?", "items": ["fr.il", "fr.etre", "fr.delicieux", "fr.et", "fr.chocolat_chaud"] },
+    { "speaker": "hao", "text": "J'aime beaucoup le chocolat chaud. C'est très bon !", "zh": "我很喜欢热巧克力。特别好喝!", "items": ["fr.je", "fr.aimer", "fr.beaucoup", "fr.chocolat_chaud", "fr.cest", "fr.tres", "fr.bon"] },
+    { "speaker": "hao", "text": "L'addition, s'il vous plaît !", "zh": "(吃完了)麻烦买单!", "items": ["fr.addition", "fr.sil_vous_plait"] },
+    { "speaker": "serveur", "text": "Ça fait dix-huit euros.", "zh": "一共十八欧。", "items": ["fr.ca_fait", "fr.dix_huit", "fr.euro"] },
+    { "speaker": "chloe", "text": "Voilà neuf euros. Et toi, Hao ?", "zh": "我出九欧。浩,你呢?", "items": ["fr.voila", "fr.neuf", "fr.euro", "fr.et_toi"] }
+  ],
+  "questions": [
+    { "prompt": "浩点了什么?", "options": ["一个三明治和一杯橙汁", "一杯咖啡和一个可颂", "一个可颂、两个鸡蛋和一杯热巧克力"], "answer": 2, "explainZh": "Je prends un croissant, deux œufs et un chocolat chaud.;三明治和橙汁是克洛艾点的。" },
+    { "prompt": "浩为什么不吃克洛艾三明治里的奶酪?", "options": ["他不喜欢奶酪", "奶酪太贵了", "他已经吃饱了"], "answer": 0, "explainZh": "浩说 Non, merci. Je n'aime pas le fromage.(我不喜欢奶酪。)" },
+    { "prompt": "一共多少钱?两个人怎么付?", "options": ["十九欧,浩一个人付", "十八欧,两个人各付九欧", "八欧,克洛艾一个人付"], "answer": 1, "explainZh": "卡里姆说 Ça fait dix-huit euros.;克洛艾说 Voilà neuf euros. Et toi, Hao ?——她出九欧,问浩也出九欧。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.avoir_faim", "titleZh": "J'ai faim / J'ai soif:饿了、渴了用“有”",
+      "bodyZh": "中文说“我饿了”,英语说 I am hungry(用 be),法语却说“我有饿”:J'ai faim.、J'ai soif.(J'ai 是 avoir“有”的变位,第 3 单元系统学,现在先整句记)。中国学生最常犯的错是照着英语说 Je suis faim,这是不对的。夸吃的喝的:C'est délicieux !(真好吃!)/ C'est très bon !",
+      "examples": [ { "text": "J'ai faim !", "zh": "我饿了!(不说 Je suis faim)" }, { "text": "J'ai soif.", "zh": "我渴了。" } ] },
+    { "id": "fr.g.u2_review", "titleZh": "单元复习:冠词怎么选",
+      "bodyZh": "这个单元的冠词一次理清:① 点单、买东西,能数的用 un / une:Je prends un croissant.;② 吃喝“一些”数不清的,用 du / de la / de l':du pain, de l'eau;③ 说喜欢不喜欢,用 le / la / l' / les:J'aime le chocolat chaud.;④ 否定以后,un / une / du / de la 都变成 de:Tu ne manges pas de fromage ?;⑤ 但 aimer 的否定不变:Je n'aime pas le fromage. 点单用 Je voudrais / Je prends,买单说 L'addition, s'il vous plaît.",
+      "examples": [ { "text": "Tu ne manges pas de fromage ?", "zh": "你不吃奶酪吗?(否定后用 de)" }, { "text": "Je n'aime pas le fromage.", "zh": "我不喜欢奶酪。(aimer 后面还是 le)" } ] }
+  ],
+  "review": "draft"
+}

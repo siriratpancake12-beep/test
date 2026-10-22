@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u1.l08", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 Bonjour !", "order": 101080,
+  "titleZh": "单元复习:在宿舍前台登记", "goalZh": "把本单元的问候、介绍和数字串起来,完成一次入住登记",
+  "canDoZh": "能在宿舍前台用法语登记:问好、说名字和国籍、说明自己是学生,听懂房间号",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.etudiant", "kind": "word", "pos": "noun", "text": "l'étudiant", "zh": "大学生(男)", "features": { "gender": "m", "ipa": "le.ty.djɑ̃" }, "noteZh": "元音开头,冠词是 l',要记住是阳性;词尾 t 不发音。女生是 l'étudiante [le.ty.djɑ̃t],t 要读出来。说“我是学生”不加冠词:Je suis étudiant(e)。" },
+    { "id": "fr.chambre", "kind": "word", "pos": "noun", "text": "la chambre", "zh": "房间;卧室", "features": { "gender": "f", "ipa": "la ʃɑ̃bʁ" }, "noteZh": "阴性。ch 读 [ʃ],am 是鼻化元音 [ɑ̃]。指卧室、宿舍房间、酒店房间;泛指“房间”是 la pièce(第 4 单元)。说房间号:la chambre huit(八号房)。" },
+    { "id": "fr.enchante", "kind": "word", "pos": "adj", "text": "Enchanté", "zh": "很高兴认识你/您", "features": { "ipa": "ɑ̃.ʃɑ̃.te" }, "noteZh": "第一次见面时说,常常一边握手一边说;女生写 Enchantée,读音一样。两个鼻化元音 [ɑ̃]。" },
+    { "id": "fr.je_ne_comprends_pas", "kind": "phrase", "pos": "phrase", "text": "Je ne comprends pas.", "zh": "我不明白;我没听懂", "features": { "ipa": "ʒə nə kɔ̃.pʁɑ̃ pa" }, "noteZh": "学外语最有用的一句,没听懂就大方说出来,对方一般会放慢再说一遍。d、s 都不发音;否定 ne…pas 第 2 单元学。" }
+  ],
+  "reviewItems": ["fr.je_mappelle", "fr.etre", "fr.vous", "fr.huit"],
+  "lines": [
+    { "speaker": "gardien", "text": "Bonjour, monsieur !", "zh": "(浩拖着行李来到宿舍前台)您好,先生!", "items": ["fr.bonjour", "fr.monsieur"] },
+    { "speaker": "hao", "text": "Bonjour, monsieur. Je m'appelle Hao.", "zh": "您好。我叫浩。", "items": ["fr.bonjour", "fr.monsieur", "fr.je_mappelle"] },
+    { "speaker": "gardien", "text": "Hao… Vous êtes chinois ?", "zh": "浩……您是中国人吗?", "items": ["fr.vous", "fr.etre", "fr.chinois"] },
+    { "speaker": "hao", "text": "Oui, je suis chinois. Je suis de Chengdu.", "zh": "是的,我是中国人。我来自成都。", "items": ["fr.oui", "fr.je_suis", "fr.je", "fr.etre", "fr.chinois", "fr.de"] },
+    { "speaker": "gardien", "text": "Vous êtes étudiant ?", "zh": "您是大学生吗?", "items": ["fr.vous", "fr.etre", "fr.etudiant"] },
+    { "speaker": "hao", "text": "Oui, je suis étudiant.", "zh": "是的,我是大学生。", "items": ["fr.oui", "fr.je_suis", "fr.je", "fr.etre", "fr.etudiant"] },
+    { "speaker": "gardien", "text": "Très bien. C'est la chambre huit.", "zh": "很好。您住八号房。", "items": ["fr.tres", "fr.bien", "fr.cest", "fr.chambre", "fr.huit"] },
+    { "speaker": "hao", "text": "Je ne comprends pas.", "zh": "我没听懂。", "items": ["fr.je_ne_comprends_pas"] },
+    { "speaker": "gardien", "text": "La chambre… huit. Huit !", "zh": "(放慢说)房间……八号。八!", "items": ["fr.chambre", "fr.huit"] },
+    { "speaker": "hao", "text": "Huit ! Merci, monsieur.", "zh": "八号!谢谢您。", "items": ["fr.huit", "fr.merci", "fr.monsieur"] },
+    { "speaker": "gardien", "text": "Enchanté, Hao.", "zh": "很高兴认识您,浩。", "items": ["fr.enchante"] },
+    { "speaker": "hao", "text": "Enchanté ! Au revoir, monsieur.", "zh": "很高兴认识您!再见。", "items": ["fr.enchante", "fr.au_revoir", "fr.monsieur"] }
+  ],
+  "questions": [
+    { "prompt": "浩住几号房间?", "options": ["六号", "八号", "十号"], "answer": 1, "explainZh": "管理员说 C'est la chambre huit.,又放慢说了一遍 huit(八)。" },
+    { "prompt": "管理员第一次说房间号时,浩没听懂。他说了什么?", "options": ["Au revoir, monsieur.", "Enchanté !", "Je ne comprends pas."], "answer": 2, "explainZh": "Je ne comprends pas.(我没听懂。)管理员听了就放慢再说一遍。" },
+    { "prompt": "管理员问 Vous êtes étudiant ?,浩怎么回答?", "options": ["Oui, je suis étudiant.", "Non, je suis français.", "Je suis de Lyon."], "answer": 0, "explainZh": "浩是大学生,他说 Oui, je suis étudiant.;他是中国人,来自成都。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.no_article", "titleZh": "说身份、国籍:être 后面不加冠词",
+      "bodyZh": "说“我是学生”“我是中国人”时,être 后面直接接名词或形容词,不加 un / une:Je suis étudiant.(英语要说 I am a student,法语没有这个 a。)女生要用阴性:étudiante(t 读出来)、chinoise。一句话里性别要一致:女生说 Je suis étudiante. Je suis chinoise.",
+      "examples": [ { "text": "Je suis étudiant.", "zh": "我是大学生。(男生说)" }, { "text": "Je suis étudiante.", "zh": "我是大学生。(女生说,t 要读出来)" } ] },
+    { "id": "fr.g.u1_review", "titleZh": "单元复习:être 和 tu / vous",
+      "bodyZh": "本单元的 être:je suis, tu es, il / elle est, vous êtes。对宿舍管理员、老师、店员一律用 vous,问句只要句末升调:Vous êtes chinois ?;对同学、朋友用 tu:Tu es chinois ? 回答“是”用 Oui,“不是”用 Non。没听懂别不好意思,整句说 Je ne comprends pas.,对方会放慢、再说一遍。第一次认识的人,告别前可以说 Enchanté(e) !",
+      "examples": [ { "text": "Vous êtes étudiant ?", "zh": "您是大学生吗?(和管理员、老师、店员说话用 vous)" }, { "text": "Tu es étudiant ?", "zh": "你是大学生吗?(对同学用 tu)" } ] }
+  ],
+  "review": "draft"
+}

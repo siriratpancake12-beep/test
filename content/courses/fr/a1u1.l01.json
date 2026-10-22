@@ -2,29 +2,39 @@
   "id": "fr.a1u1.l01", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
   "unit": "A1-1 Bonjour !", "order": 101010,
   "titleZh": "打招呼和自我介绍", "goalZh": "会用法语问好、说名字和国籍", "canDoZh": "能用法语打招呼、介绍自己的名字和国籍",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
   "newItems": [
-    { "id": "fr.bonjour", "kind": "word", "pos": "interj", "text": "Bonjour", "zh": "你好/早上好", "features": { "ipa": "bɔ̃.ʒuʁ" }, "noteZh": "白天见面都可以说;晚上用 Bonsoir。" },
-    { "id": "fr.salut", "kind": "word", "pos": "interj", "text": "Salut", "zh": "嗨(朋友之间)", "features": { "ipa": "sa.ly" }, "noteZh": "词尾 t 不发音。" },
-    { "id": "fr.je_mappelle", "kind": "phrase", "pos": "phrase", "text": "Je m'appelle", "zh": "我叫……", "features": { "ipa": "ʒə ma.pɛl" } },
-    { "id": "fr.je_suis", "kind": "phrase", "pos": "phrase", "text": "Je suis", "zh": "我是……", "features": { "ipa": "ʒə sɥi" } },
-    { "id": "fr.chinois", "kind": "word", "pos": "adj", "text": "chinois", "zh": "中国的(阳性)", "features": { "ipa": "ʃi.nwa" }, "noteZh": "女生说 chinoise(多一个 e,s 要读出来)。" },
-    { "id": "fr.au_revoir", "kind": "phrase", "pos": "phrase", "text": "Au revoir", "zh": "再见", "features": { "ipa": "o ʁə.vwaʁ" } }
+    { "id": "fr.bonjour", "kind": "word", "pos": "interj", "text": "Bonjour", "zh": "你好/早上好", "features": { "ipa": "bɔ̃.ʒuʁ" }, "noteZh": "白天见面都可以说,对谁都行;傍晚以后说 Bonsoir。on 是鼻化元音 [ɔ̃],n 不单独读出来。进店、见老师先说 Bonjour 是法国人的基本礼貌。" },
+    { "id": "fr.salut", "kind": "word", "pos": "interj", "text": "Salut", "zh": "嗨(朋友之间)", "features": { "ipa": "sa.ly" }, "noteZh": "朋友、同学之间说,见面和告别都能用;对老师、店员要说 Bonjour。词尾 t 不发音,u 读 [y](嘴唇撮圆,像汉语“鱼”的韵母)。" },
+    { "id": "fr.je_mappelle", "kind": "phrase", "pos": "phrase", "text": "Je m'appelle", "zh": "我叫……", "features": { "ipa": "ʒə ma.pɛl" }, "noteZh": "m' 是 me 的省音,和 appelle 连着读 [ma.pɛl];双 l 只读一个 [l],词尾 e 不发音。后面直接接名字:Je m'appelle Hao." },
+    { "id": "fr.je_suis", "kind": "phrase", "pos": "phrase", "text": "Je suis", "zh": "我是……", "features": { "ipa": "ʒə sɥi" }, "noteZh": "后面直接接名字或国籍:Je suis Hao. / Je suis chinois.;suis 的 s 不发音,ui 读 [ɥi]。" },
+    { "id": "fr.chinois", "kind": "word", "pos": "adj", "text": "chinois", "zh": "中国的(阳性)", "features": { "ipa": "ʃi.nwa" }, "noteZh": "女生说 chinoise [ʃi.nwaz]:多一个 e,s 要读出来,读 [z]。国籍形容词首字母小写(英语 Chinese 要大写)。" },
+    { "id": "fr.au_revoir", "kind": "phrase", "pos": "phrase", "text": "Au revoir", "zh": "再见", "features": { "ipa": "o ʁə.vwaʁ" }, "noteZh": "最通用的“再见”,对谁都可以说;au 读 [o],revoir 的 e 读得很轻。" }
   ],
   "lines": [
-    { "speaker": "chloe", "text": "Bonjour ! Je m'appelle Chloé.", "zh": "你好!我叫克洛艾。", "items": ["fr.bonjour", "fr.je_mappelle"] },
-    { "speaker": "hao", "text": "Salut, Chloé ! Je m'appelle Hao.", "zh": "嗨,克洛艾!我叫浩。", "items": ["fr.salut", "fr.je_mappelle"] },
-    { "speaker": "hao", "text": "Je suis chinois.", "zh": "我是中国人。", "items": ["fr.je_suis", "fr.chinois"] },
-    { "speaker": "chloe", "text": "Au revoir, Hao !", "zh": "再见,浩!", "items": ["fr.au_revoir"] }
+    { "speaker": "chloe", "text": "Bonjour !", "zh": "你好!", "items": ["fr.bonjour"] },
+    { "speaker": "hao", "text": "Bonjour !", "zh": "你好!", "items": ["fr.bonjour"] },
+    { "speaker": "chloe", "text": "Je m'appelle Chloé.", "zh": "我叫克洛艾。", "items": ["fr.je_mappelle"] },
+    { "speaker": "hao", "text": "Je m'appelle Hao.", "zh": "我叫浩。", "items": ["fr.je_mappelle"] },
+    { "speaker": "chloe", "text": "Hao ? Salut, Hao !", "zh": "浩?嗨,浩!", "items": ["fr.salut"] },
+    { "speaker": "hao", "text": "Salut, Chloé ! Je suis chinois.", "zh": "嗨,克洛艾!我是中国人。", "items": ["fr.salut", "fr.je_suis", "fr.chinois"] },
+    { "speaker": "chloe", "text": "Chinois ? Pékin ? Shanghai ?", "zh": "中国人?北京?上海?", "items": ["fr.chinois"] },
+    { "speaker": "hao", "text": "Chengdu !", "zh": "成都!", "items": [] },
+    { "speaker": "chloe", "text": "Au revoir, Hao !", "zh": "再见,浩!", "items": ["fr.au_revoir"] },
+    { "speaker": "hao", "text": "Au revoir, Chloé !", "zh": "再见,克洛艾!", "items": ["fr.au_revoir"] }
   ],
   "questions": [
-    {"prompt": "浩是哪国人?", "options": ["法国人", "德国人", "中国人"], "answer": 2, "explainZh": "浩说:Je suis chinois."},
-    {"prompt": "克洛艾最后说了什么?", "options": ["Au revoir", "Bonjour", "Merci"], "answer": 0, "explainZh": "Au revoir 是“再见”。"}
+    { "prompt": "浩是哪国人?", "options": ["法国人", "中国人", "加拿大人"], "answer": 1, "explainZh": "浩说:Je suis chinois.(我是中国人。)" },
+    { "prompt": "浩来自哪个城市?", "options": ["北京", "上海", "成都"], "answer": 2, "explainZh": "克洛艾猜 Pékin ? Shanghai ?(北京?上海?),浩回答 Chengdu !(成都!)" },
+    { "prompt": "两个人最后说了什么?", "options": ["Au revoir(再见)", "Bonjour(你好)", "Je suis chinois(我是中国人)"], "answer": 0, "explainZh": "最后两句都是 Au revoir(再见)。" }
   ],
   "grammar": [
     { "id": "fr.g.nationality", "titleZh": "国籍形容词分阴阳性",
-      "bodyZh": "说自己的国籍,男生和女生用的词不同:阴性一般在阳性后加 e。加了 e 以后,原本不发音的词尾辅音要读出来。",
-      "examples": [ { "text": "Il est chinois.", "zh": "他是中国人。" }, { "text": "Elle est chinoise.", "zh": "她是中国人。" } ] }
+      "bodyZh": "说自己的国籍,男生和女生用的词不同:阴性一般在阳性后面加 e。加了 e 以后,原来不发音的词尾辅音要读出来:chinois [ʃi.nwa] → chinoise [ʃi.nwaz]。中文“中国人”、英语 Chinese 都不分男女,法语要分,这是中国学生最容易忘的地方。另外,法语的国籍形容词首字母小写(英语 Chinese 要大写)。",
+      "examples": [ { "text": "Je suis chinois.", "zh": "我是中国人。(男生说)" }, { "text": "Je suis chinoise.", "zh": "我是中国人。(女生说,s 读 [z])" } ] },
+    { "id": "fr.g.je_mappelle", "titleZh": "Je m'appelle… / Je suis…:先整句记",
+      "bodyZh": "介绍自己有两种说法:Je m'appelle + 名字(我叫……),Je suis + 名字或国籍(我是……)。现在先把它们当成整句记住,不用拆开分析(je 和 être 第 4 课再学)。注意 Je suis 后面直接接国籍,不加冠词,这一点和英语 I am Chinese 一样。打招呼:Bonjour 对谁都可以说;Salut 只对朋友、同学说,见面和告别都能用。",
+      "examples": [ { "text": "Je m'appelle Hao.", "zh": "我叫浩。" }, { "text": "Je suis Hao.", "zh": "我是浩。" }, { "text": "Salut, Chloé !", "zh": "嗨,克洛艾!(朋友之间)" } ] }
   ],
   "review": "draft"
 }

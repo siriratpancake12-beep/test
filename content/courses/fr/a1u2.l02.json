@@ -1,0 +1,43 @@
+{
+  "id": "fr.a1u2.l02", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102020,
+  "titleZh": "数字 11 到 20 和价格", "goalZh": "会说 11–20,听懂 20 欧以内的价格",
+  "canDoZh": "能听懂和说出 20 欧以内的价格,替同学一次买好早餐",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.onze", "kind": "word", "pos": "num", "text": "onze", "zh": "十一", "features": { "ipa": "ɔ̃z" }, "noteZh": "on 是鼻化元音 [ɔ̃],词尾 ze 读 [z];前面不省音也不联诵:le onze。" },
+    { "id": "fr.douze", "kind": "word", "pos": "num", "text": "douze", "zh": "十二", "features": { "ipa": "duz" }, "noteZh": "ou 读 [u],词尾 ze 读 [z]。小心和 treize(十三)听混。" },
+    { "id": "fr.treize", "kind": "word", "pos": "num", "text": "treize", "zh": "十三", "features": { "ipa": "tʁɛz" }, "noteZh": "ei 读 [ɛ];和 seize(十六)只差开头的辅音,要听清 [tʁ] 和 [s]。" },
+    { "id": "fr.quatorze", "kind": "word", "pos": "num", "text": "quatorze", "zh": "十四", "features": { "ipa": "ka.tɔʁz" }, "noteZh": "qu 读 [k];or 的 r 要轻轻读出来。" },
+    { "id": "fr.quinze", "kind": "word", "pos": "num", "text": "quinze", "zh": "十五", "features": { "ipa": "kɛ̃z" }, "noteZh": "qu 读 [k],in 是鼻化元音 [ɛ̃],和 cinq 的元音一样。" },
+    { "id": "fr.seize", "kind": "word", "pos": "num", "text": "seize", "zh": "十六", "features": { "ipa": "sɛz" }, "noteZh": "读 [sɛz],和 treize [tʁɛz] 押韵,开头不一样。" },
+    { "id": "fr.dix_sept", "kind": "word", "pos": "num", "text": "dix-sept", "zh": "十七", "features": { "ipa": "di.sɛt" }, "noteZh": "dix + sept,中间有连字符;这里 x 读 [s],p 不发音。" },
+    { "id": "fr.dix_huit", "kind": "word", "pos": "num", "text": "dix-huit", "zh": "十八", "features": { "ipa": "di.zɥit" }, "noteZh": "dix + huit;这里 x 读 [z],和 huit 连在一起。" },
+    { "id": "fr.dix_neuf", "kind": "word", "pos": "num", "text": "dix-neuf", "zh": "十九", "features": { "ipa": "diz.nœf" }, "noteZh": "dix + neuf;这里 x 读 [z],f 要读出来。" },
+    { "id": "fr.vingt", "kind": "word", "pos": "num", "text": "vingt", "zh": "二十", "features": { "ipa": "vɛ̃" }, "noteZh": "g 和 t 都不发音,和 vin(葡萄酒)读音一样;元音前联诵:vingt euros [vɛ̃.tø.ʁo]。" }
+  ],
+  "reviewItems": ["fr.croissant", "fr.pain_au_chocolat", "fr.euro", "fr.ca_fait"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour, madame ! Douze croissants, s'il vous plaît.", "zh": "(周五全班一起吃早餐,浩来买面包)您好!请给我十二个可颂。", "items": ["fr.bonjour", "fr.madame", "fr.douze", "fr.croissant", "fr.sil_vous_plait"] },
+    { "speaker": "boulangere", "text": "Treize ?", "zh": "十三个?", "items": ["fr.treize"] },
+    { "speaker": "hao", "text": "Non, douze !", "zh": "不,十二个!", "items": ["fr.non", "fr.douze"] },
+    { "speaker": "boulangere", "text": "Dix, onze, douze… Voilà !", "zh": "(一个个装进袋子)十、十一、十二……好了,给您!", "items": ["fr.dix", "fr.onze", "fr.douze", "fr.voila"] },
+    { "speaker": "hao", "text": "Six pains au chocolat, une baguette, s'il vous plaît.", "zh": "再要六个巧克力面包、一根法棍。", "items": ["fr.six", "fr.pain_au_chocolat", "fr.une", "fr.baguette", "fr.sil_vous_plait"] },
+    { "speaker": "boulangere", "text": "Les croissants : douze euros.", "zh": "可颂:十二欧。", "items": ["fr.croissant", "fr.douze", "fr.euro"] },
+    { "speaker": "boulangere", "text": "Treize, quatorze, quinze, seize, dix-sept, dix-huit…", "zh": "(巧克力面包一个一欧,她接着往上加)十三、十四、十五、十六、十七、十八……", "items": ["fr.treize", "fr.quatorze", "fr.quinze", "fr.seize", "fr.dix_sept", "fr.dix_huit"] },
+    { "speaker": "boulangere", "text": "La baguette : un euro vingt. Ça fait dix-neuf euros vingt.", "zh": "法棍:一欧二十。一共十九欧二十。", "items": ["fr.baguette", "fr.un", "fr.euro", "fr.vingt", "fr.ca_fait", "fr.dix_neuf"] },
+    { "speaker": "hao", "text": "Dix-neuf euros vingt ? Voilà vingt euros.", "zh": "十九欧二十?给您二十欧。", "items": ["fr.dix_neuf", "fr.euro", "fr.vingt", "fr.voila"] },
+    { "speaker": "boulangere", "text": "Merci ! Bonne journée !", "zh": "谢谢!祝您今天愉快!", "items": ["fr.merci", "fr.bonne_journee"] }
+  ],
+  "questions": [
+    { "prompt": "浩买了几个可颂?", "options": ["十个", "十二个", "十三个"], "answer": 1, "explainZh": "浩说 Douze croissants;店员听成 Treize ?(十三个?),浩纠正:Non, douze !" },
+    { "prompt": "一共多少钱?", "options": ["19.20 欧", "18 欧", "20 欧"], "answer": 0, "explainZh": "店员最后说 Ça fait dix-neuf euros vingt.(一共十九欧二十。)浩给了二十欧。" },
+    { "prompt": "一根法棍多少钱?", "options": ["1 欧", "12 欧", "1.20 欧"], "answer": 2, "explainZh": "La baguette : un euro vingt.——欧元后面直接说分,un euro vingt 就是 1.20 欧。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.numbers_11_20", "titleZh": "11–20 和价格的说法",
+      "bodyZh": "11–16 要单独记,词尾都是 -ze,读 [z]:onze, douze, treize, quatorze, quinze, seize。17–19 是“十 + 几”,中间加连字符:dix-sept, dix-huit, dix-neuf(注意 x 在这里读 [s] 或 [z])。vingt 单独读时 g、t 都不发音,读 [vɛ̃]。douze / treize / seize 发音接近,听价格时要特别留心。\n\n价格:欧元后面直接说分,不用说“分”字:1,20 € = un euro vingt,19,20 € = dix-neuf euros vingt。法国写价格用逗号,不用小数点。欧元前的数字要联诵:deux euros [dø.zø.ʁo]、vingt euros [vɛ̃.tø.ʁo]。",
+      "examples": [ { "text": "un euro vingt", "zh": "1,20 欧(一欧二十)" }, { "text": "dix-neuf euros vingt", "zh": "19,20 欧(十九欧二十)" }, { "text": "Ça fait douze euros.", "zh": "一共十二欧。" } ] }
+  ],
+  "review": "draft"
+}
