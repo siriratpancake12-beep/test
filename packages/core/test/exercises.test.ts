@@ -44,6 +44,16 @@ describe("练习生成", () => {
     }
   });
 
+  it("练习里穿插复习前面课的旧词", () => {
+    const ex = lessonPractice(de[1]!, dePool, pack("de"), 5);
+    expect(de[1]!.reviewItems).toContain("de.hallo");
+    expect(ex.some((e) => "itemId" in e && e.itemId === "de.hallo")).toBe(true);
+    // 旧词排在新词的产出练习之前(夹在中间)
+    const firstReview = ex.findIndex((e) => "itemId" in e && e.itemId === "de.hallo");
+    const lastProduce = ex.map((e) => "direction" in e && e.direction === "produce" && e.itemId !== "de.hallo").lastIndexOf(true);
+    expect(firstReview).toBeLessThan(lastProduce);
+  });
+
   it("排序题和开口说", () => {
     const ex = lessonPractice(de[0]!, dePool, pack("de"), 3);
     const r = ex.find((e) => e.type === "reorder");

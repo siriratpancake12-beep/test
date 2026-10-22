@@ -60,12 +60,24 @@ export function tokens(line: Line, pack: LanguagePack): string[] | null {
   return t.length >= 3 && t.length <= 10 ? t : null;
 }
 
-/** 一节课结尾的综合练习:先看懂(选意思/听力)→ 再产出(写/选冠词)→ 再组句 → 最后开口说。 */
+/** 课后练习最多穿插几个旧词 */
+const REVIEW_IN_PRACTICE = 3;
+
+/**
+ * 一节课结尾的综合练习:先看懂(选意思/听力)→ 穿插复习前面课的旧词 → 产出(写/选冠词)→ 组句 → 开口说。
+ * 旧词夹在新词中间练(交错练习),比把新词一口气练完、旧词另外复习记得更牢。
+ */
 export function lessonPractice(lesson: Lesson, pool: Item[], pack: LanguagePack, seed = 1): Exercise[] {
   const rand = rng(seed);
   const all = [...new Map([...pool, ...lesson.newItems].map((i) => [i.id, i])).values()];
+  const byId = new Map(all.map((i) => [i.id, i]));
   const out: Exercise[] = [];
   lesson.newItems.forEach((it, i) => out.push(exerciseFor(it, i % 2 ? "listen" : "recognize", all, pack, seed + i)));
+  lesson.reviewItems
+    .map((id) => byId.get(id))
+    .filter((it): it is Item => !!it)
+    .slice(0, REVIEW_IN_PRACTICE)
+    .forEach((it, i) => out.push(exerciseFor(it, i % 2 ? "listen" : "produce", all, pack, seed + 200 + i)));
   lesson.newItems.forEach((it, i) => out.push(exerciseFor(it, "produce", all, pack, seed + 100 + i)));
   for (const line of shuffle(lesson.lines, rand).slice(0, 2)) {
     const t = tokens(line, pack);
