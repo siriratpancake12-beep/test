@@ -1,0 +1,40 @@
+{
+  "id": "es.a1u2.l01", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 家人与朋友", "order": 102010,
+  "titleZh": "这是我的家人", "goalZh": "记住主要家庭成员的说法,会用'这是我的……'介绍人", "canDoZh": "能指着照片介绍自己的家人,问'这是谁'",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 23.5,
+  "newItems": [
+    { "id": "es.familia", "kind": "word", "pos": "noun", "text": "la familia", "zh": "家庭;家人", "features": { "gender": "f", "ipa": "la faˈmilja" }, "noteZh": "单数表示“一家人”:Mi familia es de Chengdú。" },
+    { "id": "es.padre", "kind": "word", "pos": "noun", "text": "el padre", "zh": "父亲;爸爸", "features": { "gender": "m", "ipa": "el ˈpadɾe" }, "noteZh": "口语叫 papá(重音在后)。" },
+    { "id": "es.madre", "kind": "word", "pos": "noun", "text": "la madre", "zh": "母亲;妈妈", "features": { "gender": "f", "ipa": "la ˈmadɾe" }, "noteZh": "口语叫 mamá。" },
+    { "id": "es.padres", "kind": "word", "pos": "noun", "text": "los padres", "zh": "父母", "features": { "gender": "m", "ipa": "los ˈpadɾes" }, "noteZh": "los padres 是“父母”,不是“父亲们”;parientes 是“亲戚”,不是“父母”。" },
+    { "id": "es.hermano", "kind": "word", "pos": "noun", "text": "el hermano", "zh": "兄弟(哥哥或弟弟)", "features": { "gender": "m", "ipa": "el eɾˈmano" }, "noteZh": "h 不发音;西语不分哥哥弟弟;los hermanos 也可以指“兄弟姐妹”。" },
+    { "id": "es.hermana", "kind": "word", "pos": "noun", "text": "la hermana", "zh": "姐妹(姐姐或妹妹)", "features": { "gender": "f", "ipa": "la eɾˈmana" }, "noteZh": "西语不分姐姐妹妹,都叫 hermana;h 不发音。" },
+    { "id": "es.mi", "kind": "word", "pos": "det", "text": "mi", "zh": "我的", "features": { "ipa": "mi" }, "noteZh": "复数 mis:mis padres;没有重音符号。" },
+    { "id": "es.tu_pos", "kind": "word", "pos": "det", "text": "tu", "zh": "你的", "features": { "ipa": "tu" }, "noteZh": "不带重音符号的 tu 是“你的”,带重音的 tú 是“你”;复数 tus。" },
+    { "id": "es.este", "kind": "word", "pos": "det", "text": "este", "zh": "这;这个(人或东西)", "alt": ["esta"], "features": { "ipa": "ˈeste" }, "noteZh": "介绍人:Este es mi padre / Esta es mi madre(女性用 esta);复数 estos / estas。第 7 单元还会学 ese(那个)。" },
+    { "id": "es.quien", "kind": "word", "pos": "pron", "text": "quién", "zh": "谁", "features": { "ipa": "kjen" }, "noteZh": "疑问词有重音符号:¿Quién es?;问好几个人用 ¿Quiénes son?" }
+  ],
+  "reviewItems": ["es.ser", "es.yo", "es.y"],
+  "lines": [
+    { "speaker": "javier", "text": "¿Esta es tu familia?", "zh": "这是你的家人吗?", "items": ["es.este", "es.ser", "es.tu_pos", "es.familia"] },
+    { "speaker": "lina", "text": "Sí, es mi familia. Son de Chengdú.", "zh": "对,是我的家人。他们是成都人。", "items": ["es.si", "es.ser", "es.mi", "es.familia", "es.de"] },
+    { "speaker": "javier", "text": "¿Quiénes son? ¿Tus padres?", "zh": "他们是谁?你爸妈?", "items": ["es.quien", "es.ser", "es.tu_pos", "es.padres"] },
+    { "speaker": "lina", "text": "Sí. Este es mi padre y esta es mi madre.", "zh": "对。这是我爸爸,这是我妈妈。", "items": ["es.si", "es.este", "es.ser", "es.mi", "es.padre", "es.y", "es.madre"] },
+    { "speaker": "javier", "text": "¿Y este? ¿Quién es?", "zh": "那这个呢?他是谁?", "items": ["es.y", "es.este", "es.quien", "es.ser"] },
+    { "speaker": "lina", "text": "Es mi hermano. Tiene diez años.", "zh": "是我弟弟。他十岁。", "items": ["es.ser", "es.mi", "es.hermano", "es.cuantos_anos_tienes", "es.diez"] },
+    { "speaker": "javier", "text": "¿Y esta? ¿Es tu hermana?", "zh": "那这个呢?是你的姐妹吗?", "items": ["es.y", "es.este", "es.ser", "es.tu_pos", "es.hermana"] },
+    { "speaker": "lina", "text": "¡No, no! Esta soy yo.", "zh": "不是不是!这是我呀。", "items": ["es.no", "es.este", "es.ser", "es.yo"] }
+  ],
+  "questions": [
+    { "prompt": "照片里十岁的男孩是谁?", "options": ["李娜的爸爸", "李娜的弟弟", "Javier 的弟弟"], "answer": 1, "explainZh": "李娜说:Es mi hermano. Tiene diez años.(是我弟弟,他十岁。)" },
+    { "prompt": "Javier 以为照片里的女孩是谁?", "options": ["李娜的姐妹", "李娜的妈妈", "李娜自己"], "answer": 0, "explainZh": "Javier 问 ¿Es tu hermana?,李娜说 ¡No, no! Esta soy yo.——照片里的女孩其实就是李娜自己。" },
+    { "prompt": "Javier 问 ¿Tus padres?,是在问什么?", "options": ["是不是李娜的兄弟", "是不是李娜的爷爷奶奶", "是不是李娜的爸爸妈妈"], "answer": 2, "explainZh": "los padres 是“父母”。李娜回答:Este es mi padre y esta es mi madre." }
+  ],
+  "grammar": [
+    { "id": "es.g.este_mi", "titleZh": "介绍家人:Este es mi… / Esta es mi…",
+      "bodyZh": "① 指着人介绍:男的用 este,女的用 esta:Este es mi padre. / Esta es mi madre.;几个人用 estos / estas。介绍自己说 Esta soy yo(男生说 Este soy yo),动词跟着 yo 变成 soy。问是谁:¿Quién es?;问几个人:¿Quiénes son?\n② mi(我的)、tu(你的)放在名词前,前面不再加冠词:mi padre,不说 el mi padre;名词是复数时加 -s:mis padres, tus hermanos。tu 没有重音符号,带重音的 tú 是“你”。\n③ 家人的名词分阴阳性:el padre / la madre,el hermano / la hermana。阳性复数可以包括男女:los padres = 父母,los hermanos = 兄弟姐妹。\n④ 西语不分哥哥弟弟、姐姐妹妹,都是 hermano / hermana。要说清楚可以加年龄(Tiene diez años),或者用 mayor(年长的,本单元第 5 课学)。",
+      "examples": [{ "text": "Esta es mi madre.", "zh": "这是我妈妈。" }, { "text": "Son mis padres.", "zh": "他们是我父母。" }, { "text": "¡Esta soy yo!", "zh": "这是我!" }] }
+  ],
+  "review": "draft"
+}

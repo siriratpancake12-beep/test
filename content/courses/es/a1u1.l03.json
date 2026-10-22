@@ -1,0 +1,39 @@
+{
+  "id": "es.a1u1.l03", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 ¡Hola!", "order": 101030,
+  "titleZh": "怎么拼写?", "goalZh": "认识西语字母和拼读规则,会请别人拼写、重复、说慢一点", "canDoZh": "能拼写自己的名字;听不懂时会请对方重复或说慢一点",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.como_se_escribe", "kind": "phrase", "pos": "phrase", "text": "¿Cómo se escribe?", "zh": "怎么拼写?", "features": { "ipa": "ˈkomo se esˈkɾibe" }, "noteZh": "拼名字时一个字母一个字母说:Li Na = ele, i; ene, a。" },
+    { "id": "es.no_entiendo", "kind": "phrase", "pos": "phrase", "text": "No entiendo", "zh": "我听不懂;我不明白", "features": { "ipa": "no enˈtjendo" }, "noteZh": "听不懂就说,很正常;语气要礼貌,后面接 ¿Puedes repetir?" },
+    { "id": "es.puedes_repetir", "kind": "phrase", "pos": "phrase", "text": "¿Puedes repetir?", "zh": "你能再说一遍吗?", "features": { "ipa": "ˈpwedes repeˈtiɾ" }, "noteZh": "对陌生人、长辈更客气地说 ¿Puede repetir?(usted 的变位,第 3 单元学);Andrés 老师让学生用 tú,所以李娜对他说 ¿Puedes repetir?。词首的 r 要多颤几下。" },
+    { "id": "es.mas_despacio", "kind": "phrase", "pos": "phrase", "text": "Más despacio", "zh": "慢一点", "features": { "ipa": "mas desˈpaθjo" }, "noteZh": "常说:Más despacio, por favor.(请说慢一点);más 有重音符号,c 在 i 前读 [θ]。" },
+    { "id": "es.por_favor", "kind": "phrase", "pos": "phrase", "text": "por favor", "zh": "请", "features": { "ipa": "poɾ faˈboɾ" }, "noteZh": "放在句末最自然:Más despacio, por favor。v 读 [b]。" },
+    { "id": "es.gracias", "kind": "word", "pos": "interj", "text": "Gracias", "zh": "谢谢", "features": { "ipa": "ˈɡɾaθjas" }, "noteZh": "西班牙 c 在 i 前读 [θ](咬舌),拉美读 [s];r 只轻弹一下。" },
+    { "id": "es.si", "kind": "word", "pos": "adv", "text": "sí", "zh": "是的;对", "features": { "ipa": "si" }, "noteZh": "有重音符号;没有重音的 si 是“如果”。" },
+    { "id": "es.no", "kind": "word", "pos": "adv", "text": "no", "zh": "不;不是", "features": { "ipa": "no" }, "noteZh": "否定放在动词前:No entiendo。回答“不是”时先说 No,再在动词前加 no:No, no soy español.(不,我不是西班牙人。)" },
+    { "id": "es.cual_es_tu_numero", "kind": "phrase", "pos": "phrase", "text": "¿Cuál es tu número de teléfono?", "zh": "你的电话号码是多少?", "features": { "ipa": "kwal es tu ˈnumeɾo de teˈlefono" }, "noteZh": "回答:Es el 6…。问号码用 cuál,不用 qué。西班牙手机号 9 位,以 6 或 7 开头;一位一位地读最清楚,本地人也常两三位一组地读。" },
+    { "id": "es.cuantos_anos_tienes", "kind": "phrase", "pos": "phrase", "text": "¿Cuántos años tienes?", "zh": "你多大了?", "features": { "ipa": "ˈkwantos ˈaɲos ˈtjenes" }, "noteZh": "回答:Tengo veinte años。说年龄用 tener(有),不用 ser;问别人说 ¿Cuántos años tiene…?。años 的 ñ 一定要写,写成 n 意思完全不同。" }
+  ],
+  "reviewItems": ["es.me_llamo", "es.ser", "es.y"],
+  "lines": [
+    { "speaker": "andres", "text": "Hola, buenos días. ¿Cómo te llamas?", "zh": "你好,早上好。你叫什么名字?", "items": ["es.hola", "es.buenos_dias", "es.como_te_llamas"] },
+    { "speaker": "lina", "text": "Me llamo Li Na. Soy china.", "zh": "我叫李娜。我是中国人。", "items": ["es.me_llamo", "es.ser", "es.chino"] },
+    { "speaker": "andres", "text": "¿Lina? ¿Cómo se escribe?", "zh": "是 Lina 吗?怎么拼写?", "items": ["es.como_se_escribe"] },
+    { "speaker": "lina", "text": "No, Li Na. Li: ele, i. Na: ene, a.", "zh": "不是,是 Li Na。Li:L、i。Na:N、a。", "items": ["es.no"] },
+    { "speaker": "andres", "text": "Gracias. ¿Cuántos años tienes? ¿Y cuál es tu número de teléfono?", "zh": "谢谢。你多大了?你的电话号码是多少?", "items": ["es.gracias", "es.cuantos_anos_tienes", "es.y", "es.cual_es_tu_numero"] },
+    { "speaker": "lina", "text": "No entiendo. ¿Puedes repetir? Más despacio, por favor.", "zh": "我没听懂。你能再说一遍吗?请说慢一点。", "items": ["es.no_entiendo", "es.puedes_repetir", "es.mas_despacio", "es.por_favor"] },
+    { "speaker": "andres", "text": "Sí. ¿Cuántos… años… tienes? Años: a, eñe, o, ese.", "zh": "好。你……多大……了?años(岁):a、ñ、o、s。", "items": ["es.si", "es.cuantos_anos_tienes"] },
+    { "speaker": "lina", "text": "¡Ah, sí! Gracias.", "zh": "啊,明白了!谢谢。", "items": ["es.si", "es.gracias"] }
+  ],
+  "questions": [
+    { "prompt": "老师把李娜的名字听成了什么?", "options": ["Li", "Lina", "Na"], "answer": 1, "explainZh": "老师问 ¿Lina?,李娜说 No, Li Na,并拼给他听:Li: ele, i. Na: ene, a." },
+    { "prompt": "老师第一次问年龄和电话时,李娜怎么做?", "options": ["马上说出了电话号码", "说自己是中国人", "请老师再说一遍、说慢一点"], "answer": 2, "explainZh": "李娜说:No entiendo. ¿Puedes repetir? Más despacio, por favor. 老师就放慢速度又问了一遍,还把 años 拼了出来。" }
+  ],
+  "grammar": [
+    { "id": "es.g.alfabeto", "titleZh": "字母和拼读规则:看到就能读",
+      "bodyZh": "西语基本上“怎么写就怎么读”,记住这几条,生词也能读出来:\n· 五个元音 a e i o u 读音固定,不变音,也不能“吞”掉。\n· h 不发音:Hola [ˈola]、hasta。\n· c 在 e、i 前和 z 读 [θ](舌尖轻咬,像英语 think 的 th):gracias、diez;拉美读 [s]。c 在 a、o、u 前读 [k]:cómo。\n· j,还有 g 在 e、i 前,读喉音 [x](像汉语“喝”的声母,更用力):Javier。\n· ll 和 y 读 [ʝ]:me llamo、yo。\n· ñ 读 [ɲ](像“尼亚”连读):España、años。\n· r 只轻弹一下:gracias;rr 和词首的 r 要多颤几下:repetir。\n· b 和 v 读音一样:por favor 的 v 读 [b]。\n重音:元音、n、s 结尾的词,重音在倒数第二个音节(llamo、entiendo);其他辅音结尾的,重音在最后一个音节(español、favor)。不合这个规则的就写重音符号:número、teléfono、adiós。tú / tu、sí / si 和疑问词(¿cómo?、¿dónde?)上的重音符号用来区分意思,也不能漏。\n字母名:a, be, ce, de, e, efe, ge, hache, i, jota, ka, ele, eme, ene, eñe, o, pe, cu, erre, ese, te, u, uve, uve doble, equis, ye, zeta。拼名字一个字母一个字母说:Li = ele, i。",
+      "examples": [{ "text": "Hola, me llamo Li Na.", "zh": "你好,我叫李娜。(h 不发音;ll 读 [ʝ])" }, { "text": "Gracias. Más despacio, por favor.", "zh": "谢谢。请说慢一点。(c 在 i 前读 [θ];v 读 [b])" }] }
+  ],
+  "review": "draft"
+}

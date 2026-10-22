@@ -1,0 +1,47 @@
+{
+  "id": "es.a1u3.l05", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 我的住处", "order": 103050,
+  "titleZh": "我的房间小,但是很漂亮", "goalZh": "会用形容词描述住处,初步分清 ser 和 estar 加形容词", "canDoZh": "能向朋友介绍自己的住处:大小、新旧、亮不亮、干不干净",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.grande", "kind": "word", "pos": "adj", "text": "grande", "zh": "大的", "features": { "ipa": "ˈɡɾande" }, "noteZh": "男女同形;放在单数名词前变 gran:una gran ciudad。" },
+    { "id": "es.pequeno", "kind": "word", "pos": "adj", "text": "pequeño", "zh": "小的;年纪小的", "features": { "ipa": "peˈkeɲo" }, "noteZh": "ñ 不能写成 n;mi hermano pequeño = 我弟弟。" },
+    { "id": "es.bonito", "kind": "word", "pos": "adj", "text": "bonito", "zh": "(东西、地方)漂亮的", "features": { "ipa": "boˈnito" }, "noteZh": "多形容东西和地方;说人好看多用 guapo。阴性 bonita。" },
+    { "id": "es.nuevo", "kind": "word", "pos": "adj", "text": "nuevo", "zh": "新的", "features": { "ipa": "ˈnwebo" }, "noteZh": "ue 读 [we],v 读 [b];阴性 nueva:una casa nueva。" },
+    { "id": "es.viejo", "kind": "word", "pos": "adj", "text": "viejo", "zh": "(东西)旧的;老的", "features": { "ipa": "ˈbjexo" }, "noteZh": "说东西旧可以用;说人“老”不太礼貌,用 mayor。j 读 [x]。" },
+    { "id": "es.limpio", "kind": "word", "pos": "adj", "text": "limpio", "zh": "干净的", "features": { "ipa": "ˈlimpjo" }, "noteZh": "和 estar 连用说此刻的状态:La cocina está limpia(厨房现在很干净);和 ser 连用说人爱干净:Marta es muy limpia。" },
+    { "id": "es.luz", "kind": "word", "pos": "noun", "text": "la luz", "zh": "光;灯", "features": { "gender": "f", "ipa": "la luθ" }, "noteZh": "复数 las luces(z 变 c);Tiene mucha luz = 采光很好。" },
+    { "id": "es.mucho", "kind": "word", "pos": "adj", "text": "mucho", "zh": "很多的", "features": { "ipa": "ˈmutʃo" }, "noteZh": "跟名词变:mucha luz, muchos libros;作副词不变:Trabaja mucho。" },
+    { "id": "es.pero", "kind": "word", "pos": "conj", "text": "pero", "zh": "但是", "features": { "ipa": "ˈpeɾo" }, "noteZh": "r 只弹一下;perro(狗)是 rr,意思完全不同。" },
+    { "id": "es.ascensor", "kind": "word", "pos": "noun", "text": "el ascensor", "zh": "电梯", "features": { "gender": "m", "ipa": "el asθenˈsoɾ" }, "noteZh": "马德里很多老楼没有电梯;拉美也说 el elevador。" }
+  ],
+  "reviewItems": ["es.habitacion", "es.cocina", "es.muy"],
+  "lines": [
+    { "speaker": "javier", "text": "¡Hola, Li Na! ¿Qué tal tu piso nuevo?", "zh": "你好,李娜!你的新公寓怎么样?", "items": ["es.hola", "es.que_tal", "es.tu_pos", "es.piso", "es.nuevo"] },
+    { "speaker": "lina", "text": "Bien. Es un piso viejo y no hay ascensor.", "zh": "挺好的。是套老公寓,没有电梯。", "items": ["es.bien", "es.ser", "es.un", "es.piso", "es.viejo", "es.y", "es.no", "es.hay", "es.ascensor"] },
+    { "speaker": "javier", "text": "Sí, es viejo, pero es muy bonito.", "zh": "是挺旧的,不过很漂亮。", "items": ["es.si", "es.ser", "es.viejo", "es.pero", "es.muy", "es.bonito"] },
+    { "speaker": "lina", "text": "Esta es la cocina.", "zh": "这是厨房。", "items": ["es.este", "es.ser", "es.cocina"] },
+    { "speaker": "javier", "text": "¡Está muy limpia!", "zh": "好干净啊!", "items": ["es.estar", "es.muy", "es.limpio"] },
+    { "speaker": "lina", "text": "Sí, Marta es muy limpia.", "zh": "是啊,玛尔塔很爱干净。", "items": ["es.si", "es.ser", "es.muy", "es.limpio"] },
+    { "speaker": "javier", "text": "¿Y tu habitación? ¿Es grande?", "zh": "那你的房间呢?大吗?", "items": ["es.y", "es.tu_pos", "es.habitacion", "es.ser", "es.grande"] },
+    { "speaker": "lina", "text": "No, es pequeña, pero muy bonita.", "zh": "不大,挺小的,但是很漂亮。", "items": ["es.no", "es.ser", "es.pequeno", "es.pero", "es.muy", "es.bonito"] },
+    { "speaker": "javier", "text": "¡Y tiene mucha luz!", "zh": "而且采光很好!", "items": ["es.y", "es.tener", "es.mucho", "es.luz"] },
+    { "speaker": "lina", "text": "Sí, la ventana es muy grande.", "zh": "对,窗户很大。", "items": ["es.si", "es.ventana", "es.ser", "es.muy", "es.grande"] }
+  ],
+  "questions": [
+    { "prompt": "哈维尔觉得公寓怎么样?", "options": ["又新又大", "旧,但是很漂亮", "很小,也不干净", "很新,还有电梯"], "answer": 1, "explainZh": "哈维尔说:Sí, es viejo, pero es muy bonito.(是挺旧的,不过很漂亮。)" },
+    { "prompt": "这栋楼有电梯吗?", "options": ["没有电梯", "有一部电梯", "有两部电梯"], "answer": 0, "explainZh": "李娜说:Es un piso viejo y no hay ascensor.——ascensor 是电梯。" },
+    { "prompt": "李娜的房间怎么样?", "options": ["很大,窗户很小", "很小,采光也不好", "很大,也很新", "很小,但采光很好"], "answer": 3, "explainZh": "李娜说 No, es pequeña, pero muy bonita.;哈维尔说 ¡Y tiene mucha luz!(采光很好),窗户也很大。" }
+  ],
+  "grammar": [
+    { "id": "es.g.ser_estar_adj", "titleZh": "ser 还是 estar + 形容词;pero 和 mucho",
+      "bodyZh": "形容词放在名词后面,跟着名词变阴阳性和单复数:un piso viejo、una habitación pequeña、dos habitaciones pequeñas;-e 结尾的 grande 男女同形(un piso grande / una ventana grande)。grande 放在单数名词前面变成 gran,意思偏“了不起的”:un gran piso。\n同一个形容词,用 ser 还是 estar 意思不一样:ser + 形容词说人或东西本身的、比较固定的特点——El piso es viejo.(公寓是旧的)/ Mi habitación es pequeña.;estar + 形容词说一时的状态,“现在怎么样”——La cocina está limpia.(厨房这会儿挺干净)。所以 Marta es muy limpia 是说玛尔塔这个人爱干净,La cocina está limpia 是说厨房此刻干净。中文、英语都只有一个“是 / be”,西语要分清。\npero(但是)连接两个相反的意思:Es pequeña, pero muy bonita.。pero 的 r 只弹一下,读成 perro 就成了“狗”。\nmucho 当形容词用时放在名词前,要跟名词变:mucha luz(光线多,采光好)、muchos libros、muchas ventanas。muy 只放在形容词前面,不变:muy bonita。不能说 muy luz。",
+      "examples": [
+        { "text": "El piso es viejo, pero muy bonito.", "zh": "公寓很旧,但是很漂亮。" },
+        { "text": "La cocina está muy limpia.", "zh": "厨房很干净。" },
+        { "text": "Mi habitación tiene mucha luz.", "zh": "我的房间采光很好。" },
+        { "text": "En el salón hay muchos libros.", "zh": "客厅里有很多书。" }
+      ] }
+  ],
+  "review": "draft"
+}

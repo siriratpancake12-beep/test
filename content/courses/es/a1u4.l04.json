@@ -1,0 +1,42 @@
+{
+  "id": "es.a1u4.l04", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104040,
+  "titleZh": "今日套餐", "goalZh": "会看懂和点今日套餐(menú del día),会结账", "canDoZh": "能在餐馆点一份三道菜的今日套餐,并要账单结账",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.comer", "kind": "word", "pos": "verb", "text": "comer", "zh": "吃;吃午饭", "features": { "ipa": "koˈmeɾ" }, "noteZh": "-er 规则动词:como, comes, come…;在西班牙 comer 也专指'吃午饭'(两点左右)。" },
+    { "id": "es.beber", "kind": "word", "pos": "verb", "text": "beber", "zh": "喝", "features": { "ipa": "beˈbeɾ" }, "noteZh": "b 和 v 读音相同;点饮料也常说 tomar。" },
+    { "id": "es.menu_del_dia", "kind": "phrase", "pos": "noun", "text": "el menú del día", "zh": "今日套餐", "features": { "gender": "m", "ipa": "el meˈnu del ˈdia" }, "noteZh": "工作日中午的套餐,一般有两道菜、甜点、面包和饮料,十几欧;menú 重音在 ú。" },
+    { "id": "es.primero", "kind": "word", "pos": "adj", "text": "primero", "zh": "第一", "features": { "ipa": "pɾiˈmeɾo" }, "noteZh": "在阳性单数名词前变 primer:el primer plato;de primero = 第一道菜(多是沙拉、汤)。" },
+    { "id": "es.segundo", "kind": "word", "pos": "adj", "text": "segundo", "zh": "第二", "features": { "ipa": "seˈɡundo" }, "noteZh": "de segundo = 第二道菜(主菜,肉或鱼)。" },
+    { "id": "es.postre", "kind": "word", "pos": "noun", "text": "el postre", "zh": "甜点", "features": { "gender": "m", "ipa": "el ˈpostɾe" }, "noteZh": "de postre = 甜点吃……;套餐的甜点常常可以换成咖啡。" },
+    { "id": "es.pescado", "kind": "word", "pos": "noun", "text": "el pescado", "zh": "鱼(做成菜的)", "features": { "gender": "m", "ipa": "el pesˈkado" }, "noteZh": "活鱼叫 el pez,做成菜叫 el pescado。" },
+    { "id": "es.carne", "kind": "word", "pos": "noun", "text": "la carne", "zh": "肉", "features": { "gender": "f", "ipa": "la ˈkaɾne" }, "noteZh": "-e 结尾的名词性别要单独记:la carne 是阴性。" },
+    { "id": "es.ensalada", "kind": "word", "pos": "noun", "text": "la ensalada", "zh": "沙拉", "features": { "gender": "f", "ipa": "la ensaˈlada" }, "noteZh": "套餐的第一道菜常有 ensalada mixta(什锦沙拉)。" },
+    { "id": "es.cuenta", "kind": "word", "pos": "noun", "text": "la cuenta", "zh": "账单", "features": { "gender": "f", "ipa": "la ˈkwenta" }, "noteZh": "结账说 La cuenta, por favor;西班牙的餐馆一般要自己叫服务员拿账单。" }
+  ],
+  "reviewItems": ["es.querer", "es.agua", "es.o", "es.euro"],
+  "lines": [
+    { "speaker": "diego", "text": "El menú del día son doce euros: primero, segundo y postre.", "zh": "今日套餐十二欧:有第一道菜、第二道菜和甜点。", "items": ["es.menu_del_dia", "es.ser", "es.doce", "es.euro", "es.primero", "es.segundo", "es.y", "es.postre"] },
+    { "speaker": "camarera", "text": "Hola. ¿Qué queréis de primero?", "zh": "你们好。第一道菜想要什么?", "items": ["es.hola", "es.que", "es.querer", "es.de", "es.primero"] },
+    { "speaker": "lina", "text": "Dos ensaladas, por favor. ¿Y de segundo, qué hay?", "zh": "两份沙拉,谢谢。第二道菜有什么?", "items": ["es.dos", "es.ensalada", "es.por_favor", "es.y", "es.de", "es.segundo", "es.que", "es.hay"] },
+    { "speaker": "camarera", "text": "Carne o pescado. ¿Y qué bebéis?", "zh": "肉或者鱼。你们喝什么?", "items": ["es.carne", "es.o", "es.pescado", "es.y", "es.que", "es.beber"] },
+    { "speaker": "lina", "text": "Para mí, pescado y agua.", "zh": "我要鱼和水。", "items": ["es.para_mi", "es.pescado", "es.y", "es.agua"] },
+    { "speaker": "diego", "text": "Yo quiero carne. Y agua también.", "zh": "我要肉。也要水。", "items": ["es.yo", "es.querer", "es.carne", "es.y", "es.agua", "es.tambien"] },
+    { "speaker": "lina", "text": "¡Aquí comemos muy bien, Diego!", "zh": "这家店吃得真好啊,迭戈!", "items": ["es.aqui", "es.comer", "es.muy", "es.bien"] },
+    { "speaker": "diego", "text": "¡Sí! La cuenta, por favor.", "zh": "是啊!麻烦买单。", "items": ["es.si", "es.cuenta", "es.por_favor"] }
+  ],
+  "questions": [
+    { "prompt": "今日套餐多少钱?", "options": ["十欧", "二十欧", "十二欧", "两欧"], "answer": 2, "explainZh": "迭戈说:El menú del día son doce euros.——doce 是十二。" },
+    { "prompt": "李娜第二道菜点了什么?", "options": ["鱼", "肉", "沙拉", "甜点"], "answer": 0, "explainZh": "李娜说 Para mí, pescado y agua.;沙拉是两个人的第一道菜,点肉的是迭戈。" }
+  ],
+  "grammar": [
+    { "id": "es.g.er_verbs_menu", "titleZh": "-er 动词 comer / beber;按道点今日套餐",
+      "bodyZh": "comer(吃)、beber(喝)是 -er 规则动词:去掉 -er,加 -o, -es, -e, -emos, -éis, -en——como, comes, come, comemos, coméis, comen;bebo, bebes, bebe, bebemos, bebéis, beben。和 -ar 动词比(hablo, hablas, habla…),只是词尾的 a 换成了 e:是 comes,不是 comas。\n在西班牙,comer 还专门指“吃午饭”,时间在下午两点左右,比中国晚得多。\n工作日中午很多餐馆有今日套餐 el menú del día:de primero(第一道菜,常是沙拉、汤)、de segundo(第二道菜,肉或鱼)、de postre(甜点,常能换成咖啡),一般还包括面包和饮料。点菜就说 De primero, ensalada.;问有什么:¿Qué hay de segundo?。primero 在阳性单数名词前变成 primer:el primer plato(第一道菜)。\n吃完结账说 La cuenta, por favor.。西班牙的服务员一般不会主动送账单,要自己叫。",
+      "examples": [
+        { "text": "De primero, ensalada; de segundo, pescado.", "zh": "第一道菜要沙拉,第二道菜要鱼。" },
+        { "text": "Comemos el menú del día y bebemos agua.", "zh": "我们吃今日套餐,喝水。" }
+      ] }
+  ],
+  "review": "draft"
+}

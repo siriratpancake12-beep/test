@@ -1,0 +1,39 @@
+{
+  "id": "es.a1u1.l05", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 ¡Hola!", "order": 101050,
+  "titleZh": "你多大了?", "goalZh": "会说 11–20,会问别人的年龄、说自己的年龄", "canDoZh": "能问别人多大,并说出自己的年龄",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.once", "kind": "word", "pos": "num", "text": "once", "zh": "十一", "features": { "ipa": "ˈonθe" }, "noteZh": "c 在 e 前读 [θ];和英语 once 没有关系。" },
+    { "id": "es.doce", "kind": "word", "pos": "num", "text": "doce", "zh": "十二", "features": { "ipa": "ˈdoθe" }, "noteZh": "c 在 e 前读 [θ]:do-ce。" },
+    { "id": "es.trece", "kind": "word", "pos": "num", "text": "trece", "zh": "十三", "features": { "ipa": "ˈtɾeθe" }, "noteZh": "tr 连着读,中间别加元音;c 在 e 前读 [θ]。" },
+    { "id": "es.catorce", "kind": "word", "pos": "num", "text": "catorce", "zh": "十四", "features": { "ipa": "kaˈtoɾθe" }, "noteZh": "重音在 tor:ca-TOR-ce;r 只轻弹一下。" },
+    { "id": "es.quince", "kind": "word", "pos": "num", "text": "quince", "zh": "十五", "features": { "ipa": "ˈkinθe" }, "noteZh": "qu 读 [k],u 不发音。" },
+    { "id": "es.dieciseis", "kind": "word", "pos": "num", "text": "dieciséis", "zh": "十六", "features": { "ipa": "djeθiˈseis" }, "noteZh": "dieci + seis,写成一个词,最后的 é 有重音符号。" },
+    { "id": "es.diecisiete", "kind": "word", "pos": "num", "text": "diecisiete", "zh": "十七", "features": { "ipa": "djeθiˈsjete" }, "noteZh": "dieci + siete,写成一个词。" },
+    { "id": "es.dieciocho", "kind": "word", "pos": "num", "text": "dieciocho", "zh": "十八", "features": { "ipa": "djeθiˈotʃo" }, "noteZh": "dieci + ocho,写成一个词;ch 读 [tʃ]。" },
+    { "id": "es.diecinueve", "kind": "word", "pos": "num", "text": "diecinueve", "zh": "十九", "features": { "ipa": "djeθiˈnwebe" }, "noteZh": "dieci + nueve,写成一个词;v 读 [b]。" },
+    { "id": "es.veinte", "kind": "word", "pos": "num", "text": "veinte", "zh": "二十", "features": { "ipa": "ˈbeinte" }, "noteZh": "v 读 [b];21–29 也写成一个词:veintiuno……(第 2 单元)。" }
+  ],
+  "reviewItems": ["es.cuantos_anos_tienes", "es.y", "es.tu"],
+  "lines": [
+    { "speaker": "diego", "text": "Li Na, ¿cuántos años tienes? ¿Dieciocho?", "zh": "李娜,你多大了?十八?", "items": ["es.cuantos_anos_tienes", "es.dieciocho"] },
+    { "speaker": "lina", "text": "No, no. Tengo veinte años. ¿Y tú?", "zh": "不对,不对。我二十岁。你呢?", "items": ["es.no", "es.cuantos_anos_tienes", "es.veinte", "es.y", "es.tu"] },
+    { "speaker": "diego", "text": "Veinte. ¿Y Javier? ¿Cuántos años tiene?", "zh": "二十。那哈维尔呢?他多大?", "items": ["es.veinte", "es.y", "es.cuantos_anos_tienes"] },
+    { "speaker": "javier", "text": "¿Yo? ¿Cuántos años tengo?", "zh": "我?猜猜我多大?", "items": ["es.yo", "es.cuantos_anos_tienes"] },
+    { "speaker": "diego", "text": "¿Once? ¿Doce? ¿Trece?", "zh": "十一?十二?十三?", "items": ["es.once", "es.doce", "es.trece"] },
+    { "speaker": "lina", "text": "¿Catorce? ¿Quince? ¿Dieciséis? ¿Diecisiete?", "zh": "十四?十五?十六?十七?", "items": ["es.catorce", "es.quince", "es.dieciseis", "es.diecisiete"] },
+    { "speaker": "javier", "text": "¡No, no! Tengo diecinueve años.", "zh": "不对不对!我十九岁。", "items": ["es.no", "es.cuantos_anos_tienes", "es.diecinueve"] },
+    { "speaker": "diego", "text": "¿Diecinueve? ¡Y Li Na y yo, veinte!", "zh": "十九?我和李娜都二十!", "items": ["es.diecinueve", "es.y", "es.yo", "es.veinte"] }
+  ],
+  "questions": [
+    { "prompt": "Diego 先猜李娜几岁?", "options": ["十八岁", "二十岁", "十五岁"], "answer": 0, "explainZh": "Diego 问:¿Dieciocho?(十八?)李娜说:No, no. Tengo veinte años.(我二十岁。)" },
+    { "prompt": "三个人里谁最小?", "options": ["李娜", "Diego", "Javier"], "answer": 2, "explainZh": "Javier 说 Tengo diecinueve años(我十九岁);李娜和 Diego 都是 veinte(二十)。Diego 和李娜从 once(十一)一路往上猜,是在逗他。" }
+  ],
+  "grammar": [
+    { "id": "es.g.edad", "titleZh": "11–20;用 tener 说年龄",
+      "bodyZh": "11–15 各有各的词,要单独记:once, doce, trece, catorce, quince(里面的 c 都读 [θ])。\n16–19 是 dieci(= diez y)+ 个位,写成一个词:dieciséis(é 有重音符号)、diecisiete、dieciocho、diecinueve。20 是 veinte。\n说年龄用 tener(有):tengo / tienes / tiene + 数字 + años,字面意思是“有……年”。中文说“我二十岁”不用动词,英语说 I am twenty 用 be,中国学生很容易说成 Soy veinte——这是错的。口语里 años 可以省掉:Tengo veinte.\n问对方:¿Cuántos años tienes?;问别人:¿Cuántos años tiene Javier?(tener 的全部变位第 2 单元学。)\naños 的 ñ 一定要写:写成 anos 就成了另一个很不雅的词。",
+      "examples": [{ "text": "¿Cuántos años tiene Javier?", "zh": "哈维尔多大了?" }, { "text": "Tengo veinte años.", "zh": "我二十岁。(不说 Soy veinte)" }] }
+  ],
+  "review": "draft"
+}

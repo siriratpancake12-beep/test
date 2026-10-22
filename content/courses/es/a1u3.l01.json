@@ -1,0 +1,42 @@
+{
+  "id": "es.a1u3.l01", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 我的住处", "order": 103010,
+  "titleZh": "这是你的房间", "goalZh": "会说公寓里的房间,会用 hay 说'有……'", "canDoZh": "能听懂别人带你看房,说出公寓里有哪些房间",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.que_tal", "kind": "phrase", "pos": "phrase", "text": "¿Qué tal?", "zh": "你好吗?;怎么样?", "features": { "ipa": "ke ˈtal" }, "noteZh": "熟人见面最常说的“你好吗”,很随意;回答 Bien, ¿y tú? 或 Muy bien, gracias。也能问一件事怎么样:¿Qué tal la clase?" },
+    { "id": "es.bien", "kind": "word", "pos": "adv", "text": "bien", "zh": "好;不错", "features": { "ipa": "bjen" }, "noteZh": "回答“怎么样”:Bien / Muy bien, gracias。bien 是副词(“好地”),修饰动词:Hablas muy bien;别和形容词 bueno(好的,第 8 单元学)混用。" },
+    { "id": "es.companero", "kind": "word", "pos": "noun", "text": "el compañero", "zh": "同伴;室友;同学", "alt": ["la compañera"], "features": { "gender": "m", "ipa": "el kompaˈɲeɾo" }, "noteZh": "compañero de piso = 合租室友,compañero de clase = 同学;女的是 la compañera。ñ 读 [ɲ],像汉语“娘”的声母。" },
+    { "id": "es.casa", "kind": "word", "pos": "noun", "text": "la casa", "zh": "家;房子", "features": { "gender": "f", "ipa": "la ˈkasa" }, "noteZh": "en casa = 在家,a casa = 回家(都不加冠词);mi casa = 我家,住的是公寓也说 casa。" },
+    { "id": "es.piso", "kind": "word", "pos": "noun", "text": "el piso", "zh": "公寓;楼层", "features": { "gender": "m", "ipa": "el ˈpiso" }, "noteZh": "西班牙说 piso,拉美多说 departamento / apartamento;piso compartido = 合租公寓。" },
+    { "id": "es.habitacion", "kind": "word", "pos": "noun", "text": "la habitación", "zh": "房间;卧室", "features": { "gender": "f", "ipa": "la abitaˈθjon" }, "noteZh": "-ción 结尾的词都是阴性,重音在 ó;h 不发音。复数 las habitaciones 不写重音符号。拉美也说 el cuarto,墨西哥说 la recámara。" },
+    { "id": "es.cocina", "kind": "word", "pos": "noun", "text": "la cocina", "zh": "厨房", "features": { "gender": "f", "ipa": "la koˈθina" }, "noteZh": "c 在 i 前读 [θ];la cocina 也指'菜系':la cocina china。" },
+    { "id": "es.bano", "kind": "word", "pos": "noun", "text": "el baño", "zh": "卫生间;浴室", "features": { "gender": "m", "ipa": "el ˈbaɲo" }, "noteZh": "ñ 不能写成 n;找厕所问 ¿Dónde está el baño?(第 3 课学 estar)。" },
+    { "id": "es.salon", "kind": "word", "pos": "noun", "text": "el salón", "zh": "客厅", "features": { "gender": "m", "ipa": "el saˈlon" }, "noteZh": "重音在 ó;复数 los salones 不写重音符号。拉美常说 la sala。" },
+    { "id": "es.hay", "kind": "word", "pos": "verb", "text": "hay", "zh": "有(存在)", "features": { "ipa": "ai" }, "noteZh": "不变形,单复数都用 hay:Hay un baño. / Hay dos habitaciones.;h 不发音,读 [ai],和英语的 I 差不多。" }
+  ],
+  "reviewItems": ["es.un", "es.una", "es.tu_pos"],
+  "lines": [
+    { "speaker": "marta", "text": "¡Hola, Li Na! ¿Qué tal?", "zh": "嗨,李娜!还好吗?", "items": ["es.hola", "es.que_tal"] },
+    { "speaker": "lina", "text": "Bien, gracias. ¿Y tú?", "zh": "挺好的,谢谢。你呢?", "items": ["es.bien", "es.gracias", "es.y", "es.tu"] },
+    { "speaker": "marta", "text": "Muy bien. Este es el piso. Hay un salón y una cocina.", "zh": "我很好。这就是咱们的公寓,有一个客厅和一个厨房。", "items": ["es.muy", "es.bien", "es.este", "es.ser", "es.piso", "es.hay", "es.un", "es.salon", "es.y", "es.una", "es.cocina"] },
+    { "speaker": "lina", "text": "¿Cuántas habitaciones hay?", "zh": "有几间卧室?", "items": ["es.cuantos", "es.habitacion", "es.hay"] },
+    { "speaker": "marta", "text": "Hay dos habitaciones y un baño.", "zh": "有两间卧室和一个卫生间。", "items": ["es.hay", "es.dos", "es.habitacion", "es.y", "es.un", "es.bano"] },
+    { "speaker": "lina", "text": "¿Y mi habitación?", "zh": "那我的房间呢?", "items": ["es.y", "es.mi", "es.habitacion"] },
+    { "speaker": "marta", "text": "Tu habitación es esta. ¡Somos compañeras de piso!", "zh": "你的房间是这间。咱们是室友啦!", "items": ["es.tu_pos", "es.habitacion", "es.ser", "es.este", "es.companero", "es.de", "es.piso"] },
+    { "speaker": "lina", "text": "¡Mi casa en Madrid! Gracias, Marta.", "zh": "我在马德里的家!谢谢你,玛尔塔。", "items": ["es.mi", "es.casa", "es.en", "es.gracias"] }
+  ],
+  "questions": [
+    { "prompt": "公寓里有几间卧室?", "options": ["一间", "两间", "三间", "四间"], "answer": 1, "explainZh": "玛尔塔说:Hay dos habitaciones y un baño.(有两间卧室和一个卫生间。)" },
+    { "prompt": "李娜和玛尔塔是什么关系?", "options": ["姐妹", "同班同学", "邻居", "室友"], "answer": 3, "explainZh": "玛尔塔说 ¡Somos compañeras de piso!——compañera de piso 是合租的室友;compañero de clase 才是同学。" }
+  ],
+  "grammar": [
+    { "id": "es.g.hay", "titleZh": "hay:某处“有”什么",
+      "bodyZh": "hay 的意思是“(某处)有……”,相当于英语的 there is / there are。它不变形:后面是一个东西还是几个东西,都只说 hay——Hay un baño.(有一个卫生间)/ Hay dos habitaciones.(有两间卧室)。英语要分 is 和 are,西语不用。\nhay 后面跟 un / una、数字,或者不带冠词的名词,不跟 el / la:说 Hay una cocina,不说 Hay la cocina。\n问有没有:¿Hay …?;问有几个:¿Cuántos / Cuántas … hay?——cuántos 要跟名词的性走,habitación 是阴性,所以说 ¿Cuántas habitaciones hay?。\n说“某处有”用 hay,说“某人有”用 tener:Tengo un hermano.(我有一个弟弟)/ En el piso hay dos habitaciones.(公寓里有两间卧室)。中文都说“有”,西语要分开。\n发音:h 不发音,hay 读 [ai]。\n打招呼的 ¿Qué tal? 是熟人见面最常用的说法(“你好吗 / 怎么样”),回答 Bien, ¿y tú? 或 Muy bien, gracias。",
+      "examples": [
+        { "text": "En el piso hay un salón y una cocina.", "zh": "公寓里有一个客厅和一个厨房。" },
+        { "text": "¿Cuántas habitaciones hay? — Hay dos.", "zh": "有几间卧室?——有两间。" }
+      ] }
+  ],
+  "review": "draft"
+}

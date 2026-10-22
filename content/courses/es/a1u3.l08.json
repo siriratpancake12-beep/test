@@ -1,0 +1,55 @@
+{
+  "id": "es.a1u3.l08", "schemaVersion": 1, "lang": "es", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 我的住处", "order": 103080,
+  "titleZh": "单元复习:给 Diego 的一封邮件", "goalZh": "读懂一封介绍新家的邮件,学会邮件的开头和结尾", "canDoZh": "能读懂、写出一封介绍自己住处的简短邮件",
+  "skills": ["read", "listen", "write"], "estimatedMinutes": 22.5,
+  "newItems": [
+    { "id": "es.querido", "kind": "word", "pos": "adj", "text": "querido", "zh": "亲爱的(信件开头)", "alt": ["querida"], "features": { "ipa": "keˈɾido" }, "noteZh": "写给女生用 querida:Querida Marta:;西语书信的称呼后面用冒号。" },
+    { "id": "es.un_abrazo", "kind": "phrase", "pos": "phrase", "text": "Un abrazo", "zh": "拥抱你(信件结尾)", "features": { "ipa": "un aˈbɾaθo" }, "noteZh": "朋友之间写信、发消息的结尾;更亲密的说 un beso。" },
+    { "id": "es.foto", "kind": "word", "pos": "noun", "text": "la foto", "zh": "照片", "features": { "gender": "f", "ipa": "la ˈfoto" }, "noteZh": "-o 结尾却是阴性(是 la fotografía 的缩写);una foto de mi habitación = 一张我房间的照片。" },
+    { "id": "es.tranquilo", "kind": "word", "pos": "adj", "text": "tranquilo", "zh": "安静的;平静的", "features": { "ipa": "tɾaŋˈkilo" }, "noteZh": "qu 读 [k];阴性 tranquila;一个安静的街区:un barrio tranquilo。" }
+  ],
+  "reviewItems": ["es.piso", "es.barrio", "es.companero", "es.vecino"],
+  "lines": [
+    { "speaker": "lina", "text": "Querido Diego:", "zh": "亲爱的迭戈:", "items": ["es.querido"] },
+    { "speaker": "lina", "text": "¿Qué tal? Yo estoy muy bien en mi piso nuevo.", "zh": "你好吗?我在新公寓里过得很好。", "items": ["es.que_tal", "es.yo", "es.estar", "es.muy", "es.bien", "es.en", "es.mi", "es.piso", "es.nuevo"] },
+    { "speaker": "lina", "text": "El piso está en Chamberí, un barrio tranquilo cerca del centro.", "zh": "公寓在 Chamberí,一个离市中心很近的安静街区。", "items": ["es.piso", "es.estar", "es.en", "es.un", "es.barrio", "es.tranquilo", "es.cerca", "es.de", "es.centro"] },
+    { "speaker": "lina", "text": "Es viejo y no hay ascensor, pero tiene mucha luz.", "zh": "公寓很旧,也没有电梯,但是采光很好。", "items": ["es.ser", "es.viejo", "es.y", "es.no", "es.hay", "es.ascensor", "es.pero", "es.tener", "es.mucho", "es.luz"] },
+    { "speaker": "lina", "text": "Hay un salón, una cocina, un baño y dos habitaciones.", "zh": "有一个客厅、一个厨房、一个卫生间和两间卧室。", "items": ["es.hay", "es.un", "es.salon", "es.una", "es.cocina", "es.bano", "es.y", "es.dos", "es.habitacion"] },
+    { "speaker": "lina", "text": "Mi habitación es pequeña, pero muy bonita.", "zh": "我的房间很小,但是很漂亮。", "items": ["es.mi", "es.habitacion", "es.ser", "es.pequeno", "es.pero", "es.muy", "es.bonito"] },
+    { "speaker": "lina", "text": "Hay una cama, un armario y una mesa al lado de la ventana.", "zh": "房间里有一张床、一个衣柜,还有一张靠窗的桌子。", "items": ["es.hay", "es.una", "es.cama", "es.un", "es.armario", "es.y", "es.mesa", "es.al_lado_de", "es.ventana"] },
+    { "speaker": "lina", "text": "Mi compañera de piso, Marta, es de Sevilla y trabaja en un hospital.", "zh": "我的室友玛尔塔是塞维利亚人,在医院工作。", "items": ["es.mi", "es.companero", "es.de", "es.piso", "es.ser", "es.y", "es.trabajar", "es.en", "es.un", "es.hospital"] },
+    { "speaker": "lina", "text": "Mi vecina, Doña Pilar, es muy simpática y habla mucho.", "zh": "我的邻居皮拉尔太太人很好,特别爱聊天。", "items": ["es.mi", "es.vecino", "es.ser", "es.muy", "es.simpatico", "es.y", "es.hablar", "es.mucho"] },
+    { "speaker": "lina", "text": "Aquí tienes una foto de mi habitación.", "zh": "给你看一张我房间的照片。", "items": ["es.aqui", "es.tener", "es.una", "es.foto", "es.de", "es.mi", "es.habitacion"] },
+    { "speaker": "lina", "text": "¿Y tu casa? ¿Cómo es?", "zh": "你住的地方呢?是什么样的?", "items": ["es.y", "es.tu_pos", "es.casa", "es.como_es"] },
+    { "speaker": "lina", "text": "Un abrazo, Li Na", "zh": "拥抱你,李娜", "items": ["es.un_abrazo"] }
+  ],
+  "questions": [
+    { "prompt": "李娜的公寓在哪儿?", "options": ["在市中心", "在一个离市中心很近的安静街区", "在大学里", "在塞维利亚"], "answer": 1, "explainZh": "El piso está en Chamberí, un barrio tranquilo cerca del centro.——tranquilo 是安静,cerca del centro 是离市中心近。" },
+    { "prompt": "公寓有什么不方便的地方?", "options": ["没有电梯", "采光不好", "没有厨房", "离市中心很远"], "answer": 0, "explainZh": "Es viejo y no hay ascensor, pero tiene mucha luz.——没有电梯,但采光很好。" },
+    { "prompt": "李娜房间里的桌子在哪儿?", "options": ["在门后面", "在床旁边", "在窗户旁边", "在客厅里"], "answer": 2, "explainZh": "Hay una cama, un armario y una mesa al lado de la ventana.——al lado de la ventana 是在窗户旁边。" },
+    { "prompt": "邮件里说皮拉尔太太是什么样的人?", "options": ["很安静,不爱说话", "在医院工作", "是塞维利亚人", "人很好,很爱聊天"], "answer": 3, "explainZh": "Mi vecina, Doña Pilar, es muy simpática y habla mucho.;来自塞维利亚、在医院工作的是室友玛尔塔。" }
+  ],
+  "grammar": [
+    { "id": "es.g.email", "titleZh": "怎么写一封西语邮件(DELE A1 写作)",
+      "bodyZh": "给朋友写信、写邮件,开头用 Querido + 男生的名字 / Querida + 女生的名字,后面用冒号,不用逗号:Querido Diego: / Querida Marta:。冒号后另起一行写正文,第一句常常问候对方:¿Qué tal?。\n正文按“在哪儿 → 什么样 → 有什么 → 和谁住”的顺序写,一句话说一件事,用 y 和 pero 把短句连起来;最后可以反过来问问对方:¿Y tu casa? ¿Cómo es?。\n结尾写 Un abrazo(拥抱你),再写自己的名字。DELE A1 的写作题常要求写一封二三十个词的短邮件,开头和结尾的格式都是得分点。",
+      "examples": [
+        { "text": "Querida Marta: ¿Qué tal?", "zh": "亲爱的玛尔塔:你好吗?" },
+        { "text": "Un abrazo, Li Na", "zh": "拥抱你,李娜" }
+      ] },
+    { "id": "es.g.u3_hay_estar_ser", "titleZh": "复习:hay、estar 和 ser",
+      "bodyZh": "这个单元的三个“有 / 在 / 是”:\n① hay:某处有什么(第一次提到、不知道有没有),后面跟 un / una / 数字:Hay dos habitaciones.\n② estar:具体的人或东西在哪儿(El piso está en Chamberí.),还有一时的状态(Estoy muy bien. La cocina está limpia.)。\n③ ser:身份、来自哪里和本身的特点:Marta es de Sevilla. El piso es viejo. Doña Pilar es muy simpática.\n中国学生最常见的三个错:Hay la cocina(hay 后面不用 el / la)、El piso es en Chamberí(说位置要用 estar)、Estoy china(说国籍要用 ser:Soy china)。",
+      "examples": [
+        { "text": "Hay un salón y dos habitaciones.", "zh": "有一个客厅和两间卧室。" },
+        { "text": "El piso está en Chamberí.", "zh": "公寓在 Chamberí。" },
+        { "text": "El piso es viejo, pero la cocina está limpia.", "zh": "公寓很旧,但厨房很干净。" }
+      ] },
+    { "id": "es.g.u3_adj", "titleZh": "复习:形容词的配合、muy 和 mucho",
+      "bodyZh": "形容词放在名词后面,和名词的性、数一致:un barrio tranquilo / una calle tranquila / dos pisos viejos;-e 结尾的 grande 男女同形。说人也一样:写玛尔塔、皮拉尔太太用 simpática,写迭戈用 simpático。\nmuy(很)放在形容词前面,不变:muy bonita、muy simpática;mucho 放在名词前面,要跟名词变:mucha luz、muchos libros;mucho 放在动词后面当副词时不变:Doña Pilar habla mucho.(很爱聊天)。",
+      "examples": [
+        { "text": "Es un barrio tranquilo y la calle es muy bonita.", "zh": "这是个安静的街区,街道很漂亮。" },
+        { "text": "Doña Pilar habla mucho.", "zh": "皮拉尔太太很爱聊天。" }
+      ] }
+  ],
+  "review": "draft"
+}

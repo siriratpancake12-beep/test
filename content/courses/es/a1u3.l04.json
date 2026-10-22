@@ -1,0 +1,42 @@
+{
+  "id": "es.a1u3.l04", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 我的住处", "order": 103040,
+  "titleZh": "楼下的房东太太", "goalZh": "会对长辈用 usted,会说自己住在哪里、街区怎么样", "canDoZh": "能礼貌地向长辈介绍自己,说出自己住在哪条街、附近有什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.usted", "kind": "word", "pos": "pron", "text": "usted", "zh": "您", "features": { "ipa": "usˈted" }, "noteZh": "对长辈、陌生人、正式场合用;动词用第三人称(和 él / ella 一样):¿Usted vive aquí? ¿Usted es de Madrid?(不说 ¿Usted vives…?);书面缩写 Ud.。" },
+    { "id": "es.vivir", "kind": "word", "pos": "verb", "text": "vivir", "zh": "住;生活", "features": { "ipa": "biˈbiɾ" }, "noteZh": "-ir 规则动词:vivo, vives, vive, vivimos, vivís, viven;b 和 v 读音相同。" },
+    { "id": "es.calle", "kind": "word", "pos": "noun", "text": "la calle", "zh": "街道", "features": { "gender": "f", "ipa": "la ˈkaʝe" }, "noteZh": "地址先写街名再写号码:calle de Toledo, 15;ll 读 [ʝ]。" },
+    { "id": "es.barrio", "kind": "word", "pos": "noun", "text": "el barrio", "zh": "街区;社区", "features": { "gender": "m", "ipa": "el ˈbarjo" }, "noteZh": "rr 要多颤几下;可以先练 tr、dr 带出颤音。" },
+    { "id": "es.cerca", "kind": "word", "pos": "adv", "text": "cerca", "zh": "近;在附近", "features": { "ipa": "ˈθeɾka" }, "noteZh": "cerca de + 地点:cerca de la universidad;cerca de casa = 离家近(casa 前不加冠词)。c 在 e 前读 [θ]。" },
+    { "id": "es.lejos", "kind": "word", "pos": "adv", "text": "lejos", "zh": "远", "features": { "ipa": "ˈlexos" }, "noteZh": "lejos de + 地点:lejos de aquí、lejos de casa;j 读 [x]。" },
+    { "id": "es.centro", "kind": "word", "pos": "noun", "text": "el centro", "zh": "市中心;中心", "features": { "gender": "m", "ipa": "el ˈθentɾo" }, "noteZh": "en el centro = 在市中心。" },
+    { "id": "es.universidad", "kind": "word", "pos": "noun", "text": "la universidad", "zh": "大学", "features": { "gender": "f", "ipa": "la unibeɾsiˈdad" }, "noteZh": "-dad 结尾的词都是阴性;词尾的 d 很轻,几乎听不到。" },
+    { "id": "es.tambien", "kind": "word", "pos": "adv", "text": "también", "zh": "也", "features": { "ipa": "tamˈbjen" }, "noteZh": "放在动词前:Yo también vivo aquí;回应别人说 Yo también(我也是)。重音在 én。" },
+    { "id": "es.vecino", "kind": "word", "pos": "noun", "text": "el vecino", "zh": "邻居", "alt": ["la vecina"], "features": { "gender": "m", "ipa": "el beˈθino" }, "noteZh": "女邻居是 la vecina;v 读 [b],c 在 i 前读 [θ]。" }
+  ],
+  "reviewItems": ["es.donde", "es.ser", "es.estar", "es.casa"],
+  "lines": [
+    { "speaker": "pilar", "text": "¡Hola! Tú eres Li Na, la compañera de Marta, ¿no?", "zh": "你好!你是李娜吧?玛尔塔的室友?", "items": ["es.hola", "es.tu", "es.ser", "es.companero", "es.de", "es.no"] },
+    { "speaker": "lina", "text": "Sí, buenos días. ¿Usted vive en esta calle?", "zh": "是的,您早上好。您住在这条街上吗?", "items": ["es.si", "es.buenos_dias", "es.usted", "es.vivir", "es.en", "es.este", "es.calle"] },
+    { "speaker": "pilar", "text": "Sí, yo también vivo aquí. Soy Pilar, tu vecina.", "zh": "对,我也住这儿。我是皮拉尔,你的邻居。", "items": ["es.si", "es.yo", "es.tambien", "es.vivir", "es.aqui", "es.ser", "es.tu_pos", "es.vecino"] },
+    { "speaker": "lina", "text": "Encantada, Doña Pilar. ¿Usted es de Madrid?", "zh": "很高兴认识您,皮拉尔太太。您是马德里人吗?", "items": ["es.encantado", "es.usted", "es.ser", "es.de"] },
+    { "speaker": "pilar", "text": "Sí, de este barrio. ¿Y tú? ¿De dónde eres?", "zh": "是啊,就是这个街区的人。你呢?你是哪里人?", "items": ["es.si", "es.de", "es.este", "es.barrio", "es.y", "es.tu", "es.donde", "es.ser"] },
+    { "speaker": "lina", "text": "Soy china, de Chengdú. Estudio en la universidad. ¿Está lejos?", "zh": "我是中国人,成都来的,在大学读书。大学远吗?", "items": ["es.ser", "es.chino", "es.de", "es.estudiar", "es.en", "es.universidad", "es.estar", "es.lejos"] },
+    { "speaker": "pilar", "text": "No, no está lejos de casa. Y el centro está muy cerca.", "zh": "不远,大学离家不远。市中心也很近。", "items": ["es.no", "es.estar", "es.lejos", "es.de", "es.casa", "es.y", "es.centro", "es.muy", "es.cerca"] },
+    { "speaker": "lina", "text": "¡Gracias, Doña Pilar! ¡Hasta luego!", "zh": "谢谢您,皮拉尔太太!回头见!", "items": ["es.gracias", "es.hasta_luego"] }
+  ],
+  "questions": [
+    { "prompt": "皮拉尔太太是谁?", "options": ["李娜的老师", "玛尔塔的妈妈", "李娜的邻居,也住在这儿", "大学的工作人员"], "answer": 2, "explainZh": "她说:Sí, yo también vivo aquí. Soy Pilar, tu vecina.(我也住这儿,我是你的邻居。)" },
+    { "prompt": "说到大学和市中心,皮拉尔太太怎么说?", "options": ["大学很远,市中心很近", "大学离家不远,市中心很近", "大学和市中心都很远", "大学很近,市中心很远"], "answer": 1, "explainZh": "李娜问 ¿Está lejos?,她说:No, no está lejos de casa. Y el centro está muy cerca.——lejos 是远,cerca 是近。" }
+  ],
+  "grammar": [
+    { "id": "es.g.usted_vivir", "titleZh": "usted(您)和 -ir 动词 vivir",
+      "bodyZh": "对长辈、陌生人和在正式场合说话用 usted(您),对同学、朋友、老师用 tú。usted 虽然指“您”,动词却用第三人称,和 él / ella 一样:¿Usted vive aquí? ¿Usted es de Madrid?;对朋友说 ¿Vives aquí? ¿Eres de Madrid?。中国学生常说成 ¿Usted vives…?,这是错的。\n在西班牙,称呼可以不对等:长辈对年轻人常用 tú,年轻人对长辈用 usted。皮拉尔太太对李娜说 ¿De dónde eres?,李娜对她说 ¿Usted es de Madrid?。\nvivir(住)是 -ir 规则动词:vivo, vives, vive, vivimos, vivís, viven。和 -er 动词(下个单元学 comer)只有 nosotros、vosotros 两个形式不一样(vivimos / comemos)。说住在哪儿:vivir en + 地方——Vivo en Madrid. / Vivo en esta calle.;西班牙的地址先写街名、再写门牌号:calle de Toledo, 15。\ncerca de / lejos de + 地点 = 离……近 / 远:cerca de la universidad、cerca de casa(casa 前不加冠词)。también(也)放在动词前面:Yo también vivo aquí.。",
+      "examples": [
+        { "text": "¿Usted vive aquí? — Sí, vivo en esta calle.", "zh": "您住在这儿吗?——对,我就住在这条街上。" },
+        { "text": "Yo también vivo cerca de la universidad.", "zh": "我也住在大学附近。" }
+      ] }
+  ],
+  "review": "draft"
+}

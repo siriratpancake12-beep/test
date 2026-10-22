@@ -1,0 +1,41 @@
+{
+  "id": "es.a1u1.l08", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 ¡Hola!", "order": 101080,
+  "titleZh": "单元复习:在体育中心办卡", "goalZh": "把本单元的打招呼、名字、国籍、拼写、数字和年龄串起来,完成一次登记个人信息的对话", "canDoZh": "能在前台说清自己的个人信息:姓名(并拼写)、国籍、年龄和电话",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.cero", "kind": "word", "pos": "num", "text": "cero", "zh": "零", "features": { "ipa": "ˈθeɾo" }, "noteZh": "c 读 [θ],r 只轻弹一下;电话号码里常有。" },
+    { "id": "es.apellido", "kind": "word", "pos": "noun", "text": "el apellido", "zh": "姓", "features": { "gender": "m", "ipa": "el apeˈʝido" }, "noteZh": "西班牙人通常有两个姓(如 García López),表格上写 apellidos;中国人姓在前,登记时说 Li es el apellido。ll 读 [ʝ]。" },
+    { "id": "es.de_nada", "kind": "phrase", "pos": "phrase", "text": "De nada", "zh": "不客气", "features": { "ipa": "de ˈnada" }, "noteZh": "别人说 Gracias 时的回答。" },
+    { "id": "es.hasta_luego", "kind": "phrase", "pos": "phrase", "text": "Hasta luego", "zh": "回头见;待会儿见", "features": { "ipa": "ˈasta ˈlweɡo" }, "noteZh": "h 不发音。西班牙人告别时最常说,不一定真的待会儿就见。" }
+  ],
+  "reviewItems": ["es.como_se_escribe", "es.cual_es_tu_numero", "es.cuantos_anos_tienes", "es.chino"],
+  "lines": [
+    { "speaker": "recepcionista", "text": "Hola, buenas tardes. ¿Cómo te llamas y cómo se escribe?", "zh": "你好,下午好。你叫什么名字?怎么拼?", "items": ["es.hola", "es.buenas_tardes", "es.como_te_llamas", "es.y", "es.como_se_escribe"] },
+    { "speaker": "lina", "text": "Me llamo Li Na. Li es el apellido: ele, i.", "zh": "我叫李娜。Li 是姓:L、i。", "items": ["es.me_llamo", "es.ser", "es.apellido"] },
+    { "speaker": "recepcionista", "text": "Gracias. ¿Eres china? ¿Y cuántos años tienes?", "zh": "谢谢。你是中国人吗?多大了?", "items": ["es.gracias", "es.ser", "es.chino", "es.y", "es.cuantos_anos_tienes"] },
+    { "speaker": "lina", "text": "Sí, soy china. ¿Puedes repetir, por favor?", "zh": "是的,我是中国人。你能再说一遍吗?", "items": ["es.si", "es.ser", "es.chino", "es.puedes_repetir", "es.por_favor"] },
+    { "speaker": "recepcionista", "text": "¿Cuántos años tienes?", "zh": "你多大了?", "items": ["es.cuantos_anos_tienes"] },
+    { "speaker": "lina", "text": "Gracias. Tengo veinte años.", "zh": "谢谢。我二十岁。", "items": ["es.gracias", "es.cuantos_anos_tienes", "es.veinte"] },
+    { "speaker": "recepcionista", "text": "De nada. ¿Y cuál es tu número de teléfono?", "zh": "不客气。你的电话号码是多少?", "items": ["es.de_nada", "es.y", "es.cual_es_tu_numero"] },
+    { "speaker": "lina", "text": "Es el seis, cuatro, siete, dos, ocho, uno, nueve, tres, tres.", "zh": "是 647 281 933。", "items": ["es.ser", "es.seis", "es.cuatro", "es.siete", "es.dos", "es.ocho", "es.uno", "es.nueve", "es.tres"] },
+    { "speaker": "recepcionista", "text": "Seis, cuatro, siete… dos, ocho, cero… nueve, tres, tres.", "zh": "647……280……933。", "items": ["es.seis", "es.cuatro", "es.siete", "es.dos", "es.ocho", "es.cero", "es.nueve", "es.tres"] },
+    { "speaker": "lina", "text": "No, no: uno, no cero. Dos, ocho, uno.", "zh": "不对不对:是 1,不是 0。281。", "items": ["es.no", "es.uno", "es.cero", "es.dos", "es.ocho"] },
+    { "speaker": "recepcionista", "text": "Uno, sí. Gracias, Li Na. ¡Hasta luego!", "zh": "对,是 1。谢谢你,李娜。回头见!", "items": ["es.uno", "es.si", "es.gracias", "es.hasta_luego"] },
+    { "speaker": "lina", "text": "¡Gracias! ¡Hasta luego!", "zh": "谢谢!回头见!", "items": ["es.gracias", "es.hasta_luego"] }
+  ],
+  "questions": [
+    { "prompt": "李娜的姓是哪个?", "options": ["Li", "Na", "Li Na"], "answer": 0, "explainZh": "李娜说:Li es el apellido.(Li 是姓。)中国人姓在前、名在后,登记时要说清楚。" },
+    { "prompt": "前台一下子问了两个问题,李娜哪个没听清?", "options": ["是不是中国人", "多大了", "叫什么名字"], "answer": 1, "explainZh": "李娜先回答 Sí, soy china,再说 ¿Puedes repetir, por favor?;前台就又问了一遍 ¿Cuántos años tienes?" },
+    { "prompt": "李娜的手机号是多少?", "options": ["647 280 933", "674 281 933", "647 281 933"], "answer": 2, "explainZh": "李娜说 Es el seis, cuatro, siete, dos, ocho, uno, nueve, tres, tres.;前台重复时念成了 …dos, ocho, cero…,李娜马上纠正:uno, no cero.(是 1,不是 0。)" }
+  ],
+  "grammar": [
+    { "id": "es.g.u1_resumen", "titleZh": "第 1 单元小结:说清自己的基本信息",
+      "bodyZh": "· 名字:Me llamo Li Na.(问:¿Cómo te llamas?)不说 Me llamo es…\n· 国籍、来自哪里:用 ser——Soy china. / Soy de Chengdú.(问:¿De dónde eres? / ¿Eres china?)女生说 china、española、mexicana。\n· 年龄:用 tener——Tengo veinte años.(问:¿Cuántos años tienes?)不说 Soy veinte。\n· 电话:Es el seis, cuatro, siete…(问:¿Cuál es tu número de teléfono?)对方重复时要听清,错了马上纠正:Uno, no cero.\n· 拼写:¿Cómo se escribe? — Ele, i.\n· 没听懂:No entiendo. / ¿Puedes repetir? / Más despacio, por favor.\n· 礼貌:Gracias — De nada;告别说 Adiós 或 Hasta luego。",
+      "examples": [{ "text": "Soy china y tengo veinte años.", "zh": "我是中国人,今年二十岁。(国籍用 ser,年龄用 tener)" }, { "text": "¿Puedes repetir, por favor?", "zh": "你能再说一遍吗?" }] },
+    { "id": "es.g.apellidos", "titleZh": "西班牙人的两个姓;中国名字怎么登记",
+      "bodyZh": "西班牙人一般有两个姓:先是父亲的第一个姓,再是母亲的第一个姓,比如一个人叫 Lucía García López。表格上常分 primer apellido / segundo apellido(第一个姓 / 第二个姓),平时一般只说第一个。\n中国人只有一个姓,而且姓在前、名在后。西班牙人常把最后一个词当成姓,所以登记时要说明:Li es el apellido.(Li 是姓。)再一个字母一个字母拼出来。\n别人说 Gracias,回答 De nada(不客气)。告别时西班牙人最常说 Hasta luego(回头见),不一定真的待会儿就见。",
+      "examples": [{ "text": "Li es el apellido.", "zh": "Li 是姓。" }, { "text": "¿Cómo se escribe el apellido?", "zh": "姓怎么拼?" }] }
+  ],
+  "review": "draft"
+}

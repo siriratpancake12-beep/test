@@ -1,0 +1,47 @@
+{
+  "id": "es.a1u4.l03", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104030,
+  "titleZh": "逛菜市场", "goalZh": "会买水果,会问价钱、说数量", "canDoZh": "能在菜市场买水果,问一共多少钱并付款",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.mercado", "kind": "word", "pos": "noun", "text": "el mercado", "zh": "市场;菜市场", "features": { "gender": "m", "ipa": "el meɾˈkado" }, "noteZh": "马德里每个街区都有室内菜市场,比超市新鲜。" },
+    { "id": "es.fruta", "kind": "word", "pos": "noun", "text": "la fruta", "zh": "水果", "features": { "gender": "f", "ipa": "la ˈfɾuta" }, "noteZh": "常用单数泛指水果:mucha fruta = 很多水果。" },
+    { "id": "es.manzana", "kind": "word", "pos": "noun", "text": "la manzana", "zh": "苹果", "features": { "gender": "f", "ipa": "la manˈθana" }, "noteZh": "z 读 [θ];复数 las manzanas。" },
+    { "id": "es.naranja", "kind": "word", "pos": "noun", "text": "la naranja", "zh": "橙子", "features": { "gender": "f", "ipa": "la naˈɾanxa" }, "noteZh": "j 读 [x];zumo de naranja = 橙汁。" },
+    { "id": "es.platano", "kind": "word", "pos": "noun", "text": "el plátano", "zh": "香蕉", "features": { "gender": "m", "ipa": "el ˈplatano" }, "noteZh": "重音在 plá;南美很多地方说 la banana。" },
+    { "id": "es.kilo", "kind": "word", "pos": "noun", "text": "el kilo", "zh": "公斤", "features": { "gender": "m", "ipa": "el ˈkilo" }, "noteZh": "un kilo de manzanas = 一公斤苹果。" },
+    { "id": "es.medio", "kind": "word", "pos": "adj", "text": "medio", "zh": "半;一半的", "features": { "ipa": "ˈmedjo" }, "noteZh": "medio kilo = 半公斤(前面不加 un);说钟点的'半'用 y media(第 5 单元)。" },
+    { "id": "es.euro", "kind": "word", "pos": "noun", "text": "el euro", "zh": "欧元", "features": { "gender": "m", "ipa": "el ˈeuɾo" }, "noteZh": "e 和 u 都要读出来;价格说 Son tres euros(一欧元用单数 Es un euro);一分钱叫 el céntimo。" },
+    { "id": "es.cuanto_es", "kind": "phrase", "pos": "phrase", "text": "¿Cuánto es?", "zh": "一共多少钱?", "features": { "ipa": "ˈkwanto es" }, "noteZh": "结账时问总价;回答:Son tres euros。问单件的价格是 ¿Cuánto cuesta?(第 6 单元)。" },
+    { "id": "es.algo_mas", "kind": "phrase", "pos": "phrase", "text": "¿Algo más?", "zh": "还要别的吗?", "features": { "ipa": "ˈalɡo mas" }, "noteZh": "店员常问;不要了就说 No, gracias。" }
+  ],
+  "reviewItems": ["es.que_te_pongo", "es.querer", "es.cincuenta"],
+  "lines": [
+    { "speaker": "marta", "text": "Este es el mercado del barrio. ¡Hay mucha fruta!", "zh": "这就是街区的菜市场。水果可多了!", "items": ["es.este", "es.ser", "es.mercado", "es.de", "es.barrio", "es.hay", "es.mucho", "es.fruta"] },
+    { "speaker": "frutero", "text": "¡Buenos días, guapa! ¿Qué te pongo?", "zh": "早上好,美女!要点什么?", "items": ["es.buenos_dias", "es.guapo", "es.que_te_pongo"] },
+    { "speaker": "lina", "text": "Quiero un kilo de naranjas, por favor.", "zh": "我要一公斤橙子,谢谢。", "items": ["es.querer", "es.un", "es.kilo", "es.de", "es.naranja", "es.por_favor"] },
+    { "speaker": "frutero", "text": "Muy bien. ¿Algo más?", "zh": "好嘞。还要别的吗?", "items": ["es.muy", "es.bien", "es.algo_mas"] },
+    { "speaker": "lina", "text": "Sí, medio kilo de manzanas y tres plátanos.", "zh": "要,再来半公斤苹果和三根香蕉。", "items": ["es.si", "es.medio", "es.kilo", "es.de", "es.manzana", "es.y", "es.tres", "es.platano"] },
+    { "speaker": "frutero", "text": "Aquí tienes. ¿Algo más?", "zh": "给你。还要别的吗?", "items": ["es.aqui", "es.tener", "es.algo_mas"] },
+    { "speaker": "lina", "text": "No, gracias. ¿Cuánto es?", "zh": "不要了,谢谢。一共多少钱?", "items": ["es.no", "es.gracias", "es.cuanto_es"] },
+    { "speaker": "frutero", "text": "Son cuatro euros con cincuenta.", "zh": "一共四块五(欧元)。", "items": ["es.ser", "es.cuatro", "es.euro", "es.con", "es.cincuenta"] },
+    { "speaker": "lina", "text": "Aquí tiene. ¡Gracias!", "zh": "给您。谢谢!", "items": ["es.aqui", "es.tener", "es.gracias"] },
+    { "speaker": "marta", "text": "¡Muy bien, Li Na! ¡Hablas muy bien!", "zh": "真棒,李娜!你说得真好!", "items": ["es.muy", "es.bien", "es.hablar"] }
+  ],
+  "questions": [
+    { "prompt": "李娜买了多少橙子?", "options": ["半公斤", "三个", "一公斤", "两公斤"], "answer": 2, "explainZh": "Quiero un kilo de naranjas, por favor.;买半公斤的是苹果(medio kilo de manzanas)。" },
+    { "prompt": "一共多少钱?", "options": ["4.50 欧元", "5 欧元", "14.50 欧元", "3.50 欧元"], "answer": 0, "explainZh": "老板说:Son cuatro euros con cincuenta.(四欧五十分。)" },
+    { "prompt": "老板说 ¿Algo más? 是什么意思?", "options": ["你要点什么?", "一共多少钱?", "要袋子吗?", "还要别的吗?"], "answer": 3, "explainZh": "¿Algo más? = 还要别的吗?不要了就像李娜一样说 No, gracias.;“要点什么”是 ¿Qué te pongo?。" }
+  ],
+  "grammar": [
+    { "id": "es.g.market", "titleZh": "买东西:说数量和价钱",
+      "bodyZh": "说重量:un kilo de / medio kilo de + 名词——un kilo de naranjas(一公斤橙子)、medio kilo de manzanas(半公斤苹果)。能数的水果用复数:说 naranjas,不说 un kilo de naranja。medio 前面不加 un:说 medio kilo,不说 un medio kilo。西班牙按公斤卖,一公斤等于两斤。\n说个数:数字直接加名词复数,中间没有“个、根”这样的量词——tres plátanos(三根香蕉)。说“几个”用 unos / unas:unos plátanos。\n问一共多少钱:¿Cuánto es?;回答用复数 Son + 钱数:Son cuatro euros con cincuenta.(4.50 欧),口语里 con 常省掉:cuatro cincuenta。正好一欧元用单数:Es un euro.\n店员的固定说法:¿Qué te pongo?(要点什么)、¿Algo más?(还要别的吗?);不要了就说 No, gracias.;付钱时可以说 Aquí tiene.(给您)。",
+      "examples": [
+        { "text": "Un kilo de naranjas, por favor.", "zh": "请给我一公斤橙子。" },
+        { "text": "Quiero medio kilo de manzanas.", "zh": "我要半公斤苹果。" },
+        { "text": "¿Cuánto es? — Son tres euros con cincuenta.", "zh": "一共多少钱?——三块五(欧元)。" },
+        { "text": "¿Algo más? — No, gracias.", "zh": "还要别的吗?——不要了,谢谢。" }
+      ] }
+  ],
+  "review": "draft"
+}

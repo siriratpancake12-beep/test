@@ -1,0 +1,42 @@
+{
+  "id": "es.a1u1.l04", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 ¡Hola!", "order": 101040,
+  "titleZh": "数字 1–10 和电话号码", "goalZh": "会说 1–10,能一位一位地说出和听懂电话号码", "canDoZh": "能用西语说出自己的手机号,也能听写别人的号码",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "es.uno", "kind": "word", "pos": "num", "text": "uno", "zh": "一", "features": { "ipa": "ˈuno" }, "noteZh": "在阳性名词前变 un,在阴性名词前变 una。" },
+    { "id": "es.dos", "kind": "word", "pos": "num", "text": "dos", "zh": "二", "features": { "ipa": "dos" }, "noteZh": "词尾的 s 轻轻带过,别加元音读成“多斯”。" },
+    { "id": "es.tres", "kind": "word", "pos": "num", "text": "tres", "zh": "三", "features": { "ipa": "tɾes" }, "noteZh": "tr 连在一起读,中间不要加元音;r 只轻弹一下。" },
+    { "id": "es.cuatro", "kind": "word", "pos": "num", "text": "cuatro", "zh": "四", "features": { "ipa": "ˈkwatɾo" }, "noteZh": "cua 读得像“夸”。" },
+    { "id": "es.cinco", "kind": "word", "pos": "num", "text": "cinco", "zh": "五", "features": { "ipa": "ˈθiŋko" }, "noteZh": "西班牙读 [θ](舌尖轻咬),拉美读 [s]。" },
+    { "id": "es.seis", "kind": "word", "pos": "num", "text": "seis", "zh": "六", "features": { "ipa": "seis" }, "noteZh": "ei 是一个双元音,像英语 say。" },
+    { "id": "es.siete", "kind": "word", "pos": "num", "text": "siete", "zh": "七", "features": { "ipa": "ˈsjete" }, "noteZh": "ie 是一个双元音,siete 只有两个音节:sie-te。" },
+    { "id": "es.ocho", "kind": "word", "pos": "num", "text": "ocho", "zh": "八", "features": { "ipa": "ˈotʃo" }, "noteZh": "ch 读 [tʃ]。" },
+    { "id": "es.nueve", "kind": "word", "pos": "num", "text": "nueve", "zh": "九", "features": { "ipa": "ˈnwebe" }, "noteZh": "v 和 b 读音一样;ue 是一个双元音 [we],nue 只占一个音节。" },
+    { "id": "es.diez", "kind": "word", "pos": "num", "text": "diez", "zh": "十", "features": { "ipa": "djeθ" }, "noteZh": "z 在西班牙读 [θ],拉美读 [s]。" }
+  ],
+  "reviewItems": ["es.cual_es_tu_numero", "es.no_entiendo", "es.mas_despacio", "es.gracias"],
+  "lines": [
+    { "speaker": "javier", "text": "Uno, dos, tres, cuatro, cinco…", "zh": "一、二、三、四、五……", "items": ["es.uno", "es.dos", "es.tres", "es.cuatro", "es.cinco"] },
+    { "speaker": "lina", "text": "Seis, siete, ocho, nueve, diez.", "zh": "六、七、八、九、十。", "items": ["es.seis", "es.siete", "es.ocho", "es.nueve", "es.diez"] },
+    { "speaker": "javier", "text": "Li Na, ¿cuál es tu número de teléfono?", "zh": "李娜,你的电话号码是多少?", "items": ["es.cual_es_tu_numero"] },
+    { "speaker": "lina", "text": "Es el seis, cuatro, siete, dos, ocho, uno, nueve, tres, tres.", "zh": "是 647 281 933。", "items": ["es.ser", "es.seis", "es.cuatro", "es.siete", "es.dos", "es.ocho", "es.uno", "es.nueve", "es.tres"] },
+    { "speaker": "javier", "text": "Seis, cuatro, siete… dos, ocho, uno… nueve, tres, tres. ¡Gracias!", "zh": "647……281……933。谢谢!", "items": ["es.seis", "es.cuatro", "es.siete", "es.dos", "es.ocho", "es.uno", "es.nueve", "es.tres", "es.gracias"] },
+    { "speaker": "lina", "text": "¿Y tú? ¿Cuál es tu número de teléfono?", "zh": "你呢?你的电话号码是多少?", "items": ["es.y", "es.tu", "es.cual_es_tu_numero"] },
+    { "speaker": "javier", "text": "Es el seis, nueve, uno, tres, cinco, cinco, ocho, dos, siete.", "zh": "是 691 355 827。", "items": ["es.ser", "es.seis", "es.nueve", "es.uno", "es.tres", "es.cinco", "es.ocho", "es.dos", "es.siete"] },
+    { "speaker": "lina", "text": "No entiendo. Más despacio, por favor.", "zh": "我没听懂。请说慢一点。", "items": ["es.no_entiendo", "es.mas_despacio", "es.por_favor"] },
+    { "speaker": "javier", "text": "Seis, nueve, uno… tres, cinco, cinco… ocho, dos, siete.", "zh": "691……355……827。", "items": ["es.seis", "es.nueve", "es.uno", "es.tres", "es.cinco", "es.ocho", "es.dos", "es.siete"] },
+    { "speaker": "lina", "text": "Seis, nueve, uno, tres, cinco, cinco, ocho, dos, siete. ¡Gracias!", "zh": "691 355 827。谢谢!", "items": ["es.seis", "es.nueve", "es.uno", "es.tres", "es.cinco", "es.ocho", "es.dos", "es.siete", "es.gracias"] }
+  ],
+  "questions": [
+    { "prompt": "李娜的电话号码是多少?", "options": ["674 281 933", "647 281 933", "647 218 933"], "answer": 1, "explainZh": "李娜说:Es el seis, cuatro, siete, dos, ocho, uno, nueve, tres, tres.;Javier 又三位一组重复了一遍。" },
+    { "prompt": "Javier 第一次说自己的号码时,李娜说了什么?", "options": ["¡Gracias!", "¿Y tú?", "No entiendo. Más despacio, por favor."], "answer": 2, "explainZh": "李娜没听懂,说 No entiendo. Más despacio, por favor.,Javier 就三位一组、慢慢地又说了一遍。" },
+    { "prompt": "Javier 的电话号码是多少?", "options": ["691 355 827", "691 553 827", "619 355 872"], "answer": 0, "explainZh": "Seis, nueve, uno… tres, cinco, cinco… ocho, dos, siete." }
+  ],
+  "grammar": [
+    { "id": "es.g.numeros_1_10", "titleZh": "数字 1–10;电话号码怎么说",
+      "bodyZh": "1–10:uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez。\n问电话号码:¿Cuál es tu número de teléfono?(用 cuál,不用 qué);回答:Es el + 数字。初学一位一位地读,两三位一组停一下,对方最容易听清:Es el seis, cuatro, siete… dos, ocho, uno…。没听清就说 No entiendo / Más despacio, por favor,听完再重复一遍核对。\nuno 用来数数;放在名词前要变:阳性名词前说 un,阴性名词前说 una(第 2 单元学)。\n发音:cinco、diez 里的 c、z 读 [θ](咬舌);nueve 的 v 读 [b];tres、cuatro 的 tr 连着读,中间别加元音;seis 的 ei 像英语 say。\n手势也不一样:中国人一只手就能比出 1–10,六到十都有专门的手势;西班牙人数数常从大拇指开始掰手指,六以上就要用两只手。",
+      "examples": [{ "text": "¿Cuál es tu número de teléfono?", "zh": "你的电话号码是多少?" }, { "text": "Es el seis, nueve, uno, tres, cinco, cinco, ocho, dos, siete.", "zh": "是 691 355 827。" }] }
+  ],
+  "review": "draft"
+}

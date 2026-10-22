@@ -1,0 +1,42 @@
+{
+  "id": "es.a1u2.l03", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 家人与朋友", "order": 102030,
+  "titleZh": "爷爷八十二岁了", "goalZh": "会说 21–100,能说家人的年龄", "canDoZh": "能说出家人的年龄,听懂 100 以内的数字",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.abuelo", "kind": "word", "pos": "noun", "text": "el abuelo", "zh": "爷爷;外公", "features": { "gender": "m", "ipa": "el aˈbwelo" }, "noteZh": "los abuelos = 爷爷奶奶 / 外公外婆。" },
+    { "id": "es.abuela", "kind": "word", "pos": "noun", "text": "la abuela", "zh": "奶奶;外婆", "features": { "gender": "f", "ipa": "la aˈbwela" }, "noteZh": "西语不分爷爷奶奶和外公外婆:abuelo / abuela。" },
+    { "id": "es.treinta", "kind": "word", "pos": "num", "text": "treinta", "zh": "三十", "features": { "ipa": "ˈtɾeinta" }, "noteZh": "ei 是一个双元音:trein-ta;31 以后加 y:treinta y uno。" },
+    { "id": "es.cuarenta", "kind": "word", "pos": "num", "text": "cuarenta", "zh": "四十", "features": { "ipa": "kwaˈɾenta" }, "noteZh": "cua 读得像“夸”;48 = cuarenta y ocho。" },
+    { "id": "es.cincuenta", "kind": "word", "pos": "num", "text": "cincuenta", "zh": "五十", "features": { "ipa": "θiŋˈkwenta" }, "noteZh": "两个 c 不一样:第一个读 [θ],第二个在 u 前读 [k]。" },
+    { "id": "es.sesenta", "kind": "word", "pos": "num", "text": "sesenta", "zh": "六十", "features": { "ipa": "seˈsenta" }, "noteZh": "六十是 s,七十是 t:sesenta / setenta,别混。" },
+    { "id": "es.setenta", "kind": "word", "pos": "num", "text": "setenta", "zh": "七十", "features": { "ipa": "seˈtenta" }, "noteZh": "七十是 t:se-TEN-ta,像 siete;六十是 se-SEN-ta,像 seis。" },
+    { "id": "es.ochenta", "kind": "word", "pos": "num", "text": "ochenta", "zh": "八十", "features": { "ipa": "oˈtʃenta" }, "noteZh": "ch 读 [tʃ];82 = ochenta y dos。" },
+    { "id": "es.noventa", "kind": "word", "pos": "num", "text": "noventa", "zh": "九十", "features": { "ipa": "noˈbenta" }, "noteZh": "v 读 [b]。" },
+    { "id": "es.cien", "kind": "word", "pos": "num", "text": "cien", "zh": "一百", "features": { "ipa": "θjen" }, "noteZh": "正好 100 说 cien;101 以后说 ciento uno……(第 7 单元)。" }
+  ],
+  "reviewItems": ["es.veinte", "es.tener", "es.madre"],
+  "lines": [
+    { "speaker": "diego", "text": "Diez, veinte, treinta, cuarenta, cincuenta, sesenta…", "zh": "十、二十、三十、四十、五十、六十……", "items": ["es.diez", "es.veinte", "es.treinta", "es.cuarenta", "es.cincuenta", "es.sesenta"] },
+    { "speaker": "lina", "text": "¿Sesenta? ¿Setenta? ¿Puedes repetir?", "zh": "六十?七十?你能再说一遍吗?", "items": ["es.sesenta", "es.setenta", "es.puedes_repetir"] },
+    { "speaker": "diego", "text": "Sesenta: seis. Setenta: siete.", "zh": "sesenta(六十)像 seis(六);setenta(七十)像 siete(七)。", "items": ["es.sesenta", "es.seis", "es.setenta", "es.siete"] },
+    { "speaker": "lina", "text": "Sesenta, setenta, ochenta, noventa… ¡y cien!", "zh": "六十、七十、八十、九十……还有一百!", "items": ["es.sesenta", "es.setenta", "es.ochenta", "es.noventa", "es.y", "es.cien"] },
+    { "speaker": "diego", "text": "Este es mi abuelo. Tiene ochenta y dos años.", "zh": "这是我爷爷。他八十二岁。", "items": ["es.este", "es.ser", "es.mi", "es.abuelo", "es.tener", "es.ochenta", "es.y", "es.dos", "es.cuantos_anos_tienes"] },
+    { "speaker": "lina", "text": "¿Y tu abuela? ¿Cuántos años tiene?", "zh": "那你奶奶呢?她多大?", "items": ["es.y", "es.tu_pos", "es.abuela", "es.cuantos", "es.cuantos_anos_tienes", "es.tener"] },
+    { "speaker": "diego", "text": "Setenta y nueve. ¿Y tus abuelos?", "zh": "七十九。你的爷爷奶奶呢?", "items": ["es.setenta", "es.y", "es.nueve", "es.tu_pos", "es.abuelo"] },
+    { "speaker": "lina", "text": "Mi abuelo tiene setenta y cinco años y mi abuela, setenta y tres.", "zh": "我爷爷七十五岁,奶奶七十三。", "items": ["es.mi", "es.abuelo", "es.tener", "es.setenta", "es.y", "es.cinco", "es.cuantos_anos_tienes", "es.abuela", "es.tres"] },
+    { "speaker": "diego", "text": "¿Y tus padres?", "zh": "那你爸妈呢?", "items": ["es.y", "es.tu_pos", "es.padres"] },
+    { "speaker": "lina", "text": "Mi padre tiene cincuenta años y mi madre, cuarenta y ocho.", "zh": "我爸爸五十岁,我妈妈四十八。", "items": ["es.mi", "es.padre", "es.tener", "es.cincuenta", "es.cuantos_anos_tienes", "es.y", "es.madre", "es.cuarenta", "es.ocho"] }
+  ],
+  "questions": [
+    { "prompt": "Diego 的爷爷多大?", "options": ["七十九岁", "八十二岁", "七十五岁"], "answer": 1, "explainZh": "Diego 说:Este es mi abuelo. Tiene ochenta y dos años.;七十九岁(setenta y nueve)的是他奶奶。" },
+    { "prompt": "李娜的妈妈多大?", "options": ["四十八岁", "五十岁", "七十三岁"], "answer": 0, "explainZh": "李娜说:Mi padre tiene cincuenta años y mi madre, cuarenta y ocho." },
+    { "prompt": "Diego 怎么帮李娜分清 sesenta 和 setenta?", "options": ["sesenta 是七十,setenta 是六十", "两个词意思一样,都能用", "sesenta 像 seis(六),setenta 像 siete(七)"], "answer": 2, "explainZh": "Diego 说:Sesenta: seis. Setenta: siete.——第二个音节不一样:se-SEN-ta 像 seis,se-TEN-ta 像 siete。" }
+  ],
+  "grammar": [
+    { "id": "es.g.numeros_21_100", "titleZh": "21–100:十位 + y + 个位",
+      "bodyZh": "① 整十:treinta 30 · cuarenta 40 · cincuenta 50 · sesenta 60 · setenta 70 · ochenta 80 · noventa 90;正好 100 说 cien。\n② 21–29 写成一个词:veintiuno, veintidós, veintitrés, veinticuatro, veinticinco, veintiséis, veintisiete, veintiocho, veintinueve(veintidós、veintitrés、veintiséis 有重音符号)。\n③ 31 以后十位和个位分开写,中间加 y:treinta y uno, cuarenta y ocho, ochenta y dos。中文“八十二”直接连着说,西语中间一定要有 y。\n④ uno 在阳性名词前变成 un:veintiún años、treinta y un años。\n⑤ 别混:sesenta(60)和 setenta(70)只差中间一个音:se-SEN-ta 像 seis,se-TEN-ta 像 siete。cincuenta 的两个 c 读音不同:第一个读 [θ],第二个在 u 前读 [k]。\n说别人的年龄还是用 tener:Mi abuelo tiene ochenta y dos años.",
+      "examples": [{ "text": "Mi abuelo tiene ochenta y dos años.", "zh": "我爷爷八十二岁。" }, { "text": "Mi madre tiene cuarenta y ocho años.", "zh": "我妈妈四十八岁。" }, { "text": "Veintidós, treinta y uno, cien.", "zh": "二十二、三十一、一百。" }] }
+  ],
+  "review": "draft"
+}

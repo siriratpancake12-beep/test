@@ -1,0 +1,42 @@
+{
+  "id": "es.a1u1.l02", "schemaVersion": 1, "lang": "es", "type": "grammar", "cefr": "A1",
+  "unit": "A1-1 ¡Hola!", "order": 101020,
+  "titleZh": "你是哪里人?", "goalZh": "会用 ser 说自己是哪国人、来自哪里,也会问别人", "canDoZh": "能说自己是中国人、来自哪个城市,也能问别人从哪里来",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.ser", "kind": "word", "pos": "verb", "text": "ser", "zh": "是(身份、国籍、来源)", "features": { "ipa": "seɾ" }, "noteZh": "不规则:soy, eres, es, somos, sois, son。说“是谁、是哪国人、来自哪里”用 ser。" },
+    { "id": "es.yo", "kind": "word", "pos": "pron", "text": "yo", "zh": "我", "features": { "ipa": "ʝo" }, "noteZh": "动词变位已经说明是“我”,所以常省略:Soy de China。强调或对比时才说 yo。" },
+    { "id": "es.de", "kind": "word", "pos": "prep", "text": "de", "zh": "从……来;……的", "features": { "ipa": "de" }, "noteZh": "Soy de China.(我来自中国);也表示“……的”:la familia de Li Na(李娜的家人)。问来自哪里,de 要放在疑问词前面:¿De dónde eres?" },
+    { "id": "es.donde", "kind": "word", "pos": "adv", "text": "dónde", "zh": "哪里", "features": { "ipa": "ˈdonde" }, "noteZh": "疑问词都有重音符号:¿Dónde? ¿De dónde eres? = 你是哪里人?" },
+    { "id": "es.china", "kind": "word", "pos": "propn", "text": "China", "zh": "中国", "features": { "ipa": "ˈtʃina" }, "noteZh": "国家名首字母大写;ch 读 [tʃ],像汉语“吃”但不卷舌。" },
+    { "id": "es.espana", "kind": "word", "pos": "propn", "text": "España", "zh": "西班牙", "features": { "ipa": "esˈpaɲa" }, "noteZh": "ñ 读 [ɲ],像“尼亚”连读;ñ 不能写成 n。" },
+    { "id": "es.mexico", "kind": "word", "pos": "propn", "text": "México", "zh": "墨西哥", "features": { "ipa": "ˈmexiko" }, "noteZh": "这里的 x 读 [x](像汉语 h,更用力),不读 ks;Guadalajara、Javier 里的 j 也是这个音。" },
+    { "id": "es.chino", "kind": "word", "pos": "adj", "text": "chino", "zh": "中国的;中国人", "alt": ["china"], "features": { "ipa": "ˈtʃino" }, "noteZh": "女生说 china:Soy china。国籍要小写;加冠词 el chino 也指“汉语”。" },
+    { "id": "es.espanol", "kind": "word", "pos": "adj", "text": "español", "zh": "西班牙的;西班牙人", "alt": ["española"], "features": { "ipa": "espaˈɲol" }, "noteZh": "辅音结尾的国籍,阴性加 -a:española;el español 也指“西班牙语”。" },
+    { "id": "es.mexicano", "kind": "word", "pos": "adj", "text": "mexicano", "zh": "墨西哥的;墨西哥人", "alt": ["mexicana"], "features": { "ipa": "mexiˈkano" }, "noteZh": "阴性 mexicana;x 读 [x]。" }
+  ],
+  "reviewItems": ["es.me_llamo", "es.tu", "es.encantado"],
+  "lines": [
+    { "speaker": "diego", "text": "¡Hola! Me llamo Diego. ¿Y tú?", "zh": "你好!我叫迭戈。你呢?", "items": ["es.hola", "es.me_llamo", "es.y", "es.tu"] },
+    { "speaker": "lina", "text": "Me llamo Li Na. Encantada. ¿De dónde eres?", "zh": "我叫李娜。很高兴认识你。你是哪里人?", "items": ["es.me_llamo", "es.encantado", "es.de", "es.donde", "es.ser"] },
+    { "speaker": "diego", "text": "Soy mexicano, de Guadalajara.", "zh": "我是墨西哥人,瓜达拉哈拉的。", "items": ["es.ser", "es.mexicano", "es.de"] },
+    { "speaker": "javier", "text": "¿De Guadalajara? ¿De España?", "zh": "瓜达拉哈拉?西班牙的那个?", "items": ["es.de", "es.espana"] },
+    { "speaker": "diego", "text": "¡De México! ¿Y tú, Li Na? ¿Eres de China?", "zh": "墨西哥的!你呢,李娜?你是从中国来的吗?", "items": ["es.de", "es.mexico", "es.y", "es.tu", "es.ser", "es.china"] },
+    { "speaker": "lina", "text": "Soy china, de Chengdú. ¿Y tú, Javier?", "zh": "我是中国人,成都的。你呢,哈维尔?", "items": ["es.ser", "es.chino", "es.de", "es.y", "es.tu"] },
+    { "speaker": "javier", "text": "Yo soy español, de Madrid.", "zh": "我是西班牙人,马德里的。", "items": ["es.yo", "es.ser", "es.espanol", "es.de"] }
+  ],
+  "questions": [
+    { "prompt": "Diego 是哪国人?", "options": ["西班牙人", "墨西哥人", "中国人"], "answer": 1, "explainZh": "Diego 说 Soy mexicano, de Guadalajara,又补了一句 ¡De México!。马德里附近也有个城市叫 Guadalajara,所以 Javier 故意问他 ¿De España?" },
+    { "prompt": "李娜为什么说 Soy china,不说 Soy chino?", "options": ["因为 chino 是国家名", "因为对方是男生", "因为国籍要跟说话人自己的性别一致"], "answer": 2, "explainZh": "国籍形容词分阴阳性:男生说 chino,女生说 china。Diego 是男生,所以说 mexicano。" },
+    { "prompt": "Javier 是哪里人?", "options": ["马德里人", "成都人", "瓜达拉哈拉人"], "answer": 0, "explainZh": "Javier 说:Yo soy español, de Madrid.(我是西班牙人,马德里的。)" }
+  ],
+  "grammar": [
+    { "id": "es.g.ser_singular", "titleZh": "ser(是):soy / eres / es",
+      "bodyZh": "ser 是不规则动词,单数三个形式要整个背下来:\nyo soy(我是)· tú eres(你是)· él / ella es(他 / 她是;él、ella 第 2 单元学)\n用 ser 说身份、国籍、来自哪里。ser de + 城市或国家 = 来自……:Soy de Chengdú.\n问“你是哪里人”:¿De dónde eres?——de 一定放在 dónde 前面。英语说 Where are you from?,介词放在句末;西语不能说 ¿Dónde eres de?\n动词词尾已经说明是谁,所以主语代词常常省略:Soy china 就是“我是中国人”。只有对比、强调时才说出来:¿Y tú? — Yo soy español.",
+      "examples": [{ "text": "¿De dónde eres?", "zh": "你是哪里人?(你从哪里来?)" }, { "text": "Soy de Guadalajara, México.", "zh": "我是墨西哥瓜达拉哈拉人。" }] },
+    { "id": "es.g.nacionalidad", "titleZh": "国籍分阴阳性;国家大写、国籍小写",
+      "bodyZh": "说国籍用形容词,要和说的那个人的性别一致:\n· -o 结尾的:把 -o 换成 -a。chino → china,mexicano → mexicana\n· 辅音结尾的:直接加 -a。español → española\n所以李娜说 Soy china,Diego 说 Soy mexicano。中文“中国人”不分男女,英语 Chinese 也不变,中国女生最容易说成 Soy chino。\n国家名首字母大写:China, España, México;国籍小写:chino, español——英语 Chinese、Spanish 要大写,西语不用。\n说国籍不加冠词,也不用另加“人”:Soy china = 我是中国人。加上冠词 el chino、el español 指“汉语”“西班牙语”。",
+      "examples": [{ "text": "Li Na es china y Diego es mexicano.", "zh": "李娜是中国人,迭戈是墨西哥人。" }, { "text": "Javier es español.", "zh": "哈维尔是西班牙人。" }] }
+  ],
+  "review": "draft"
+}

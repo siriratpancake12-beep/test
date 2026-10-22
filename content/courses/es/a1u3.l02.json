@@ -1,0 +1,46 @@
+{
+  "id": "es.a1u3.l02", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 我的住处", "order": 103020,
+  "titleZh": "房间里有什么?", "goalZh": "记住常用家具和物品,会问'有什么'", "canDoZh": "能说出自己房间里有什么家具和东西",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "es.que", "kind": "word", "pos": "pron", "text": "qué", "zh": "什么", "features": { "ipa": "ke" }, "noteZh": "疑问词都有重音符号:¿Qué hay?(有什么?)¿Qué es?(这是什么?);qu 读 [k],u 不发音。" },
+    { "id": "es.cama", "kind": "word", "pos": "noun", "text": "la cama", "zh": "床", "features": { "gender": "f", "ipa": "la ˈkama" }, "noteZh": "-a 结尾,阴性:la cama;en la cama = 在床上。" },
+    { "id": "es.mesa", "kind": "word", "pos": "noun", "text": "la mesa", "zh": "桌子", "features": { "gender": "f", "ipa": "la ˈmesa" }, "noteZh": "阴性:la mesa;吃饭、写字的桌子都可以叫 mesa。" },
+    { "id": "es.silla", "kind": "word", "pos": "noun", "text": "la silla", "zh": "椅子", "features": { "gender": "f", "ipa": "la ˈsiʝa" }, "noteZh": "ll 读 [ʝ],和 y 一样;复数 las sillas。" },
+    { "id": "es.armario", "kind": "word", "pos": "noun", "text": "el armario", "zh": "衣柜;柜子", "features": { "gender": "m", "ipa": "el aɾˈmaɾjo" }, "noteZh": "衣柜、柜子都叫 armario;两个 r 都只轻弹一下。墨西哥常说 el clóset。" },
+    { "id": "es.sofa", "kind": "word", "pos": "noun", "text": "el sofá", "zh": "沙发", "features": { "gender": "m", "ipa": "el soˈfa" }, "noteZh": "-a 结尾却是阳性:el sofá;重音在最后。复数 los sofás。" },
+    { "id": "es.ventana", "kind": "word", "pos": "noun", "text": "la ventana", "zh": "窗户", "features": { "gender": "f", "ipa": "la benˈtana" }, "noteZh": "v 读 [b](西语 b 和 v 读音相同);阴性:la ventana。" },
+    { "id": "es.libro", "kind": "word", "pos": "noun", "text": "el libro", "zh": "书", "features": { "gender": "m", "ipa": "el ˈlibɾo" }, "noteZh": "br 连在一起读,r 轻弹一下;复数 los libros。" },
+    { "id": "es.ordenador", "kind": "word", "pos": "noun", "text": "el ordenador", "zh": "电脑", "features": { "gender": "m", "ipa": "el oɾdenaˈdoɾ" }, "noteZh": "西班牙说 ordenador,拉美说 la computadora;笔记本电脑叫 el portátil。" }
+  ],
+  "reviewItems": ["es.hay", "es.habitacion", "es.salon"],
+  "lines": [
+    { "speaker": "lina", "text": "Marta, ¿qué hay en mi habitación?", "zh": "玛尔塔,我房间里有什么?", "items": ["es.que", "es.hay", "es.en", "es.mi", "es.habitacion"] },
+    { "speaker": "marta", "text": "Hay una cama, un armario, una mesa y una ventana.", "zh": "有一张床、一个衣柜、一张桌子,还有一扇窗户。", "items": ["es.hay", "es.una", "es.cama", "es.un", "es.armario", "es.mesa", "es.y", "es.ventana"] },
+    { "speaker": "lina", "text": "¿Y una silla?", "zh": "那椅子呢?", "items": ["es.y", "es.una", "es.silla"] },
+    { "speaker": "marta", "text": "No, no hay silla.", "zh": "没有,屋里没有椅子。", "items": ["es.no", "es.hay", "es.silla"] },
+    { "speaker": "lina", "text": "¿Y en el salón?", "zh": "那客厅里呢?", "items": ["es.y", "es.en", "es.salon"] },
+    { "speaker": "marta", "text": "En el salón hay un sofá, una mesa y dos sillas.", "zh": "客厅里有一个沙发、一张桌子和两把椅子。", "items": ["es.en", "es.salon", "es.hay", "es.un", "es.sofa", "es.una", "es.mesa", "es.y", "es.dos", "es.silla"] },
+    { "speaker": "lina", "text": "¿Y esta silla?", "zh": "那这把椅子呢?", "items": ["es.y", "es.este", "es.silla"] },
+    { "speaker": "marta", "text": "Sí, esta es tu silla.", "zh": "行,这把就给你用。", "items": ["es.si", "es.este", "es.ser", "es.tu_pos", "es.silla"] },
+    { "speaker": "lina", "text": "¡Gracias! ¿Y mi ordenador y mis libros?", "zh": "谢谢!那我的电脑和书放哪儿?", "items": ["es.gracias", "es.y", "es.mi", "es.ordenador", "es.libro"] },
+    { "speaker": "marta", "text": "En el sofá.", "zh": "先放沙发上吧。", "items": ["es.en", "es.sofa"] }
+  ],
+  "questions": [
+    { "prompt": "李娜的房间里缺什么?", "options": ["床", "衣柜", "椅子", "窗户"], "answer": 2, "explainZh": "李娜问 ¿Y una silla?,玛尔塔说 No, no hay silla.;床、衣柜、桌子和窗户都有(Hay una cama, un armario, una mesa y una ventana.)。" },
+    { "prompt": "客厅里有几把椅子?", "options": ["一把", "两把", "三把", "没有椅子"], "answer": 1, "explainZh": "En el salón hay un sofá, una mesa y dos sillas.——dos sillas 是两把椅子。" },
+    { "prompt": "李娜的电脑和书先放在哪儿?", "options": ["桌子上", "床上", "衣柜里", "沙发上"], "answer": 3, "explainZh": "李娜问 ¿Y mi ordenador y mis libros?,玛尔塔说:En el sofá.(先放沙发上。)" }
+  ],
+  "grammar": [
+    { "id": "es.g.noun_gender_plural", "titleZh": "名词的阴阳性和复数;¿Qué hay en…?",
+      "bodyZh": "西语每个名词都有性:阳性前面用 el / un,阴性用 la / una。中文和英语的名词没有性,所以记名词时一定连冠词一起记:la cama、el armario。\n大致规律:-o 结尾多是阳性(el libro、el armario),-a 结尾多是阴性(la mesa、la silla、la ventana);-or 结尾多是阳性(el ordenador),-ción 结尾都是阴性(la habitación)。但有例外:el sofá 以 -a 结尾却是阳性,光看词尾会猜错。\n复数:元音结尾加 -s(la silla → las sillas,el sofá → los sofás),辅音结尾加 -es(el ordenador → los ordenadores,el salón → los salones,重音符号去掉)。冠词也跟着变:el → los,la → las。中文说“两把椅子”,“椅子”不变;西语要说 dos sillas,不能漏掉 -s。\n问某处有什么:¿Qué hay en…?;回答 Hay + un / una / 数字 + 名词。说“没有”:No hay silla.(否定句里名词常常不带冠词)。",
+      "examples": [
+        { "text": "¿Qué hay en tu habitación?", "zh": "你房间里有什么?" },
+        { "text": "Hay una cama, un armario y una mesa.", "zh": "有一张床、一个衣柜和一张桌子。" },
+        { "text": "En el salón hay un sofá y dos sillas.", "zh": "客厅里有一个沙发和两把椅子。" },
+        { "text": "En mi habitación no hay silla.", "zh": "我房间里没有椅子。" }
+      ] }
+  ],
+  "review": "draft"
+}

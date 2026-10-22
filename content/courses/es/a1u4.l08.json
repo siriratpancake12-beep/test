@@ -1,0 +1,47 @@
+{
+  "id": "es.a1u4.l08", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104080,
+  "titleZh": "单元复习:四个人的 tapas 之夜", "goalZh": "在一段较长的点餐对话里,综合使用本单元点餐、商量和付款的说法", "canDoZh": "能和朋友一起在酒吧点餐、商量、要账单并付钱",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.pagar", "kind": "word", "pos": "verb", "text": "pagar", "zh": "付钱;支付", "features": { "ipa": "paˈɡaɾ" }, "noteZh": "-ar 规则动词:pago, pagas, paga…;两个人 AA 说 pagar a medias,几个人一起平摊常说 pagamos entre todos;“我请客”说 Invito yo。" },
+    { "id": "es.carta", "kind": "word", "pos": "noun", "text": "la carta", "zh": "菜单;信", "features": { "gender": "f", "ipa": "la ˈkaɾta" }, "noteZh": "点菜用的菜单叫 la carta;el menú 多指套餐。" },
+    { "id": "es.pan", "kind": "word", "pos": "noun", "text": "el pan", "zh": "面包", "features": { "gender": "m", "ipa": "el pan" }, "noteZh": "西班牙吃饭几乎都配面包;una barra de pan = 一根长棍面包。" },
+    { "id": "es.verdura", "kind": "word", "pos": "noun", "text": "la verdura", "zh": "蔬菜", "features": { "gender": "f", "ipa": "la beɾˈduɾa" }, "noteZh": "常用复数 las verduras;v 读 [b]。" }
+  ],
+  "reviewItems": ["es.tapa", "es.querer", "es.cuenta", "es.vosotros"],
+  "lines": [
+    { "speaker": "camarero", "text": "¡Hola! Aquí tenéis la carta. ¿Qué queréis beber?", "zh": "你们好!这是菜单。想喝点什么?", "items": ["es.hola", "es.aqui", "es.tener", "es.carta", "es.que", "es.querer", "es.beber"] },
+    { "speaker": "marta", "text": "Para mí, un zumo de naranja. ¿Y vosotros?", "zh": "我要一杯橙汁。你们呢?", "items": ["es.para_mi", "es.un", "es.zumo", "es.de", "es.naranja", "es.y", "es.vosotros"] },
+    { "speaker": "diego", "text": "Tres aguas, por favor.", "zh": "三杯水,谢谢。", "items": ["es.tres", "es.agua", "es.por_favor"] },
+    { "speaker": "camarero", "text": "Muy bien. ¿Y qué queréis comer?", "zh": "好的。想吃点什么?", "items": ["es.muy", "es.bien", "es.y", "es.que", "es.querer", "es.comer"] },
+    { "speaker": "javier", "text": "Vale, ¿qué tapas queremos? ¿Patatas bravas, tortilla, jamón…?", "zh": "好,咱们点哪些 tapas?辣味炸土豆、土豆鸡蛋饼、火腿……?", "items": ["es.vale", "es.que", "es.tapa", "es.querer", "es.patatas_bravas", "es.tortilla", "es.jamon"] },
+    { "speaker": "lina", "text": "Sí, y unas verduras y pan, por favor.", "zh": "好啊,再来一份蔬菜和面包,谢谢。", "items": ["es.si", "es.y", "es.verdura", "es.pan", "es.por_favor"] },
+    { "speaker": "marta", "text": "Li Na, las patatas bravas son un poco picantes.", "zh": "李娜,辣味炸土豆有点辣哦。", "items": ["es.patatas_bravas", "es.ser", "es.un_poco", "es.picante"] },
+    { "speaker": "lina", "text": "¿Picantes? ¡En Chengdú no son picantes!", "zh": "辣?在成都,这根本不算辣!", "items": ["es.picante", "es.en", "es.no", "es.ser"] },
+    { "speaker": "diego", "text": "¡Qué rico! La cuenta, por favor.", "zh": "真好吃!麻烦买单。", "items": ["es.que", "es.rico", "es.cuenta", "es.por_favor"] },
+    { "speaker": "camarero", "text": "Son cuarenta y ocho euros.", "zh": "一共四十八欧。", "items": ["es.ser", "es.cuarenta", "es.y", "es.ocho", "es.euro"] },
+    { "speaker": "lina", "text": "¿Puedo pagar yo?", "zh": "我来付,可以吗?", "items": ["es.poder", "es.pagar", "es.yo"] },
+    { "speaker": "marta", "text": "No, Li Na. Somos cuatro: doce euros. ¡Pagamos los cuatro!", "zh": "不用,李娜。我们四个人,每人十二欧,大家一起付!", "items": ["es.no", "es.ser", "es.cuatro", "es.doce", "es.euro", "es.pagar"] }
+  ],
+  "questions": [
+    { "prompt": "玛尔塔要喝什么?", "options": ["水", "茶", "橙汁", "咖啡"], "answer": 2, "explainZh": "玛尔塔说 Para mí, un zumo de naranja.;另外三个人要了水(Tres aguas, por favor.)。" },
+    { "prompt": "李娜觉得 patatas bravas 怎么样?", "options": ["一点也不辣", "太辣了", "有点辣", "不好吃"], "answer": 0, "explainZh": "李娜说:¿Picantes? ¡En Chengdú no son picantes!;说“有点辣”的是玛尔塔。" },
+    { "prompt": "最后怎么付钱?", "options": ["李娜一个人付", "哈维尔请客", "每人付四十八欧", "四个人平摊,每人十二欧"], "answer": 3, "explainZh": "一共 48 欧,玛尔塔说:Somos cuatro: doce euros. ¡Pagamos los cuatro!——西班牙朋友之间常常平摊。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u4_ordering", "titleZh": "复习:在酒吧和餐馆点餐、结账",
+      "bodyZh": "这个单元的点餐套路:\n① 服务员问:¿Qué te pongo?(问一个人)/ ¿Qué queréis?(问一桌人,用 vosotros)/ ¿Qué queréis beber? ¿Y qué queréis comer?\n② 自己点:Para mí, un zumo. / Quiero tortilla. / Un café con leche, por favor.;和朋友商量:¿Qué tapas queremos? ¿Agua o zumo?\n③ 店员问 ¿Algo más?(还要别的吗)—— No, gracias.\n④ 结账:La cuenta, por favor. / ¿Cuánto es? —— Son cuarenta y ocho euros.\n四个动词的现在时一起复习:querer(quiero, quieres, quiere, queremos, queréis, quieren)、poder(puedo, puedes, puede, podemos, podéis, pueden)、comer 和 beber(como, comes, come, comemos, coméis, comen)。vosotros 的形式都以 -áis / -éis 结尾,而且都有重音符号。",
+      "examples": [
+        { "text": "¿Qué queréis beber? — Para mí, un zumo de naranja.", "zh": "你们想喝什么?——我要一杯橙汁。" },
+        { "text": "La cuenta, por favor. — Son cuarenta y ocho euros.", "zh": "麻烦买单。——一共四十八欧。" }
+      ] },
+    { "id": "es.g.pagar", "titleZh": "pagar(付钱)和西班牙人怎么分账",
+      "bodyZh": "pagar 是 -ar 规则动词:pago, pagas, paga, pagamos, pagáis, pagan。¿Puedo pagar yo?(我来付可以吗?)/ Pagamos los cuatro.(我们四个人一起付)。\n在中国,朋友吃饭常常一个人请客,下次再轮流;在西班牙,朋友、同学之间更常见的是平摊:总数除以人数,各付各的。两个人平摊叫 pagar a medias,几个人一起付常说 pagamos entre todos。想请客可以说 Invito yo(我请客),但和新朋友出去,大家一般还是平摊。\n算账要听懂数字:一共 cuarenta y ocho euros(48 欧),四个人,每人 doce euros(12 欧)。",
+      "examples": [
+        { "text": "¿Puedo pagar yo? — No, pagamos los cuatro.", "zh": "我来付可以吗?——不用,我们四个人一起付。" },
+        { "text": "Somos cuatro: doce euros.", "zh": "我们四个人,每人十二欧。" }
+      ] }
+  ],
+  "review": "draft"
+}

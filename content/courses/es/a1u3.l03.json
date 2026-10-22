@@ -1,0 +1,46 @@
+{
+  "id": "es.a1u3.l03", "schemaVersion": 1, "lang": "es", "type": "grammar", "cefr": "A1",
+  "unit": "A1-3 我的住处", "order": 103030,
+  "titleZh": "钥匙在哪儿?", "goalZh": "会用 estar 和方位短语说东西在哪儿,分清 hay 和 estar", "canDoZh": "能问东西在哪儿,并说出它在桌子上、床下、门后等位置",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "es.estar", "kind": "word", "pos": "verb", "text": "estar", "zh": "在;处于(某种状态)", "features": { "ipa": "esˈtaɾ" }, "noteZh": "不规则:estoy, estás, está, estamos, estáis, están;说人或东西在哪儿用 estar,不用 ser。está(在)有重音符号,esta(这)没有。" },
+    { "id": "es.encima_de", "kind": "phrase", "pos": "phrase", "text": "encima de", "zh": "在……上面", "features": { "ipa": "enˈθima de" }, "noteZh": "de + el 要合成 del:encima del sofá;日常也常只说 en:en la mesa(在桌子上)。" },
+    { "id": "es.debajo_de", "kind": "phrase", "pos": "phrase", "text": "debajo de", "zh": "在……下面", "features": { "ipa": "deˈbaxo de" }, "noteZh": "j 读 [x];debajo de la cama = 在床底下;debajo del sofá = 在沙发下面。" },
+    { "id": "es.al_lado_de", "kind": "phrase", "pos": "phrase", "text": "al lado de", "zh": "在……旁边", "features": { "ipa": "al ˈlado de" }, "noteZh": "al lado de la ventana;al lado del armario。" },
+    { "id": "es.detras_de", "kind": "phrase", "pos": "phrase", "text": "detrás de", "zh": "在……后面", "features": { "ipa": "deˈtɾas de" }, "noteZh": "重音符号在 á;detrás de la puerta = 在门后面。" },
+    { "id": "es.puerta", "kind": "word", "pos": "noun", "text": "la puerta", "zh": "门", "features": { "gender": "f", "ipa": "la ˈpweɾta" }, "noteZh": "ue 读 [we],是一个音节;r 只轻弹一下。" },
+    { "id": "es.llave", "kind": "word", "pos": "noun", "text": "la llave", "zh": "钥匙", "features": { "gender": "f", "ipa": "la ˈʝabe" }, "noteZh": "ll 读 [ʝ];复数 las llaves。" },
+    { "id": "es.movil", "kind": "word", "pos": "noun", "text": "el móvil", "zh": "手机", "features": { "gender": "m", "ipa": "el ˈmobil" }, "noteZh": "西班牙说 el móvil,拉美说 el celular。" },
+    { "id": "es.aqui", "kind": "word", "pos": "adv", "text": "aquí", "zh": "这里", "features": { "ipa": "aˈki" }, "noteZh": "重音在 í;aquí 指说话人身边,allí 指离两个人都远的地方。" },
+    { "id": "es.alli", "kind": "word", "pos": "adv", "text": "allí", "zh": "那里", "features": { "ipa": "aˈʝi" }, "noteZh": "ll 读 [ʝ],重音在 í;拉美口语常说 allá。" }
+  ],
+  "reviewItems": ["es.donde", "es.mesa", "es.cama", "es.hay"],
+  "lines": [
+    { "speaker": "lina", "text": "Marta, ¿dónde estás?", "zh": "玛尔塔,你在哪儿?", "items": ["es.donde", "es.estar"] },
+    { "speaker": "marta", "text": "Estoy aquí, en la cocina.", "zh": "我在这儿呢,在厨房。", "items": ["es.estar", "es.aqui", "es.en", "es.cocina"] },
+    { "speaker": "lina", "text": "¿Dónde está mi móvil?", "zh": "我的手机在哪儿?", "items": ["es.donde", "es.estar", "es.mi", "es.movil"] },
+    { "speaker": "marta", "text": "Está allí, encima de la mesa.", "zh": "在那边,桌子上。", "items": ["es.estar", "es.alli", "es.encima_de", "es.mesa"] },
+    { "speaker": "lina", "text": "¡Gracias! ¿Y mis libros?", "zh": "谢谢!那我的书呢?", "items": ["es.gracias", "es.y", "es.mi", "es.libro"] },
+    { "speaker": "marta", "text": "Están en tu habitación, debajo de la cama.", "zh": "在你房间里,床底下。", "items": ["es.estar", "es.en", "es.tu_pos", "es.habitacion", "es.debajo_de", "es.cama"] },
+    { "speaker": "lina", "text": "¿Y las llaves? En la mesa no hay llaves.", "zh": "那钥匙呢?桌子上没有钥匙啊。", "items": ["es.y", "es.llave", "es.en", "es.mesa", "es.no", "es.hay"] },
+    { "speaker": "marta", "text": "¿No están al lado del ordenador?", "zh": "不在电脑旁边吗?", "items": ["es.no", "es.estar", "es.al_lado_de", "es.ordenador"] },
+    { "speaker": "lina", "text": "No… ¡Aquí están, detrás de la puerta!", "zh": "不在……啊,在这儿呢,在门后面!", "items": ["es.no", "es.aqui", "es.estar", "es.detras_de", "es.puerta"] }
+  ],
+  "questions": [
+    { "prompt": "玛尔塔在哪儿?", "options": ["在客厅", "在厨房", "在卫生间", "在李娜的房间"], "answer": 1, "explainZh": "玛尔塔说:Estoy aquí, en la cocina.(我在这儿呢,在厨房。)" },
+    { "prompt": "李娜的书在哪儿?", "options": ["在桌子上", "在电脑旁边", "在床底下", "在门后面"], "answer": 2, "explainZh": "Están en tu habitación, debajo de la cama.——debajo de 是“在……下面”;桌子上的是手机。" },
+    { "prompt": "钥匙最后在哪儿找到的?", "options": ["在门后面", "在桌子上", "在电脑旁边", "在床底下"], "answer": 0, "explainZh": "李娜最后说:¡Aquí están, detrás de la puerta!(在这儿呢,在门后面!)" }
+  ],
+  "grammar": [
+    { "id": "es.g.estar_location", "titleZh": "estar 说位置;hay 还是 estar?",
+      "bodyZh": "estar 是不规则动词:estoy, estás, está, estamos, estáis, están。está、estás、están 的重音在最后,一定要写重音符号:está(在)和 esta(这)是两个词。\n说人或东西在哪儿,用 estar,不用 ser:¿Dónde está mi móvil? — Está encima de la mesa. / Estoy en la cocina.。英语一个 is 两种意思都管,西语要分开:Soy china(身份、国籍用 ser),Estoy en la cocina(位置用 estar)。中国学生常说成 Mi móvil es en la mesa,这是错的。\n方位短语后面都跟 de:encima de(在……上面)、debajo de(在……下面)、al lado de(在……旁边)、detrás de(在……后面)。de 和 el 碰在一起要合成 del:al lado del ordenador(不说 de el);de la 不变:debajo de la cama。aquí 是“这里”,allí 是“那里”。\nhay 还是 estar?说某处有没有(什么)东西,用 hay + un / una / 数字 / 不带冠词的名词:En la mesa no hay llaves.;说一个已知的、具体的东西在哪儿,用 estar + el / la / mi / tu + 名词:Las llaves están detrás de la puerta.。所以 Hay las llaves 是错的。",
+      "examples": [
+        { "text": "¿Dónde está la llave? — Está encima de la mesa.", "zh": "钥匙在哪儿?——在桌子上。" },
+        { "text": "Estoy en la cocina.", "zh": "我在厨房。" },
+        { "text": "El móvil está al lado del ordenador.", "zh": "手机在电脑旁边。" },
+        { "text": "En la mesa no hay llaves: están detrás de la puerta.", "zh": "桌子上没有钥匙,钥匙在门后面。" }
+      ] }
+  ],
+  "review": "draft"
+}

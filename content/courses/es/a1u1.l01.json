@@ -1,0 +1,40 @@
+{
+  "id": "es.a1u1.l01", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 ¡Hola!", "order": 101010,
+  "titleZh": "你好,我叫李娜", "goalZh": "学会按时间段打招呼,会问别人的名字、介绍自己的名字", "canDoZh": "能用西语打招呼,问对方叫什么,并介绍自己的名字",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "es.hola", "kind": "word", "pos": "interj", "text": "Hola", "zh": "你好;嗨", "features": { "ipa": "ˈola" }, "noteZh": "h 不发音,读作 ola。见面最常用,对谁都可以说。" },
+    { "id": "es.buenos_dias", "kind": "phrase", "pos": "phrase", "text": "Buenos días", "zh": "早上好;上午好", "features": { "ipa": "ˈbwenos ˈdias" }, "noteZh": "西班牙一般两点左右才吃午饭,午饭以前都说 buenos días,中午十二点、一点见面也一样;días 的 í 有重音符号。" },
+    { "id": "es.buenas_tardes", "kind": "phrase", "pos": "phrase", "text": "Buenas tardes", "zh": "下午好", "features": { "ipa": "ˈbwenas ˈtaɾdes" }, "noteZh": "西班牙的 tarde 从午饭后一直到天黑,夏天晚上八九点天还亮,也还说 buenas tardes;告别时也能说:¡Adiós, buenas tardes!" },
+    { "id": "es.buenas_noches", "kind": "phrase", "pos": "phrase", "text": "Buenas noches", "zh": "晚上好;晚安", "features": { "ipa": "ˈbwenas ˈnotʃes" }, "noteZh": "天黑以后见面、告别、睡前都可以说。" },
+    { "id": "es.como_te_llamas", "kind": "phrase", "pos": "phrase", "text": "¿Cómo te llamas?", "zh": "你叫什么名字?", "features": { "ipa": "ˈkomo te ˈʝamas" }, "noteZh": "回答用 Me llamo…。对长辈或在正式场合说 ¿Cómo se llama usted?(usted 第 3 单元学);西班牙大多数地方 ll 读得像 y [ʝ]。" },
+    { "id": "es.me_llamo", "kind": "phrase", "pos": "phrase", "text": "Me llamo", "zh": "我叫……", "features": { "ipa": "me ˈʝamo" }, "noteZh": "后面直接跟名字:Me llamo Li Na。不要说 me llamo es。" },
+    { "id": "es.encantado", "kind": "word", "pos": "adj", "text": "encantado", "zh": "幸会;很高兴认识你", "alt": ["encantada"], "features": { "ipa": "eŋkanˈtado" }, "noteZh": "按说话人的性别变:男生说 encantado,女生说 encantada(李娜说 encantada)。" },
+    { "id": "es.y", "kind": "word", "pos": "conj", "text": "y", "zh": "和(连接词)", "features": { "ipa": "i" }, "noteZh": "只有一个字母,读 [i]。¿Y tú? = 你呢?在 i、hi 开头的词前要变成 e:chino e inglés(汉语和英语)。" },
+    { "id": "es.tu", "kind": "word", "pos": "pron", "text": "tú", "zh": "你", "features": { "ipa": "tu" }, "noteZh": "有重音符号;不带重音的 tu 是“你的”(第 2 单元学)。对朋友、同学、年轻人用 tú。" },
+    { "id": "es.adios", "kind": "word", "pos": "interj", "text": "Adiós", "zh": "再见", "features": { "ipa": "aˈdjos" }, "noteZh": "重音在 ós,别漏了重音符号。西班牙人在路上擦肩而过、不停下来聊天时,也常用一句 ¡Adiós! 打招呼。" }
+  ],
+  "reviewItems": [],
+  "lines": [
+    { "speaker": "javier", "text": "¡Hola, buenos días! ¿Cómo te llamas?", "zh": "你好,早上好!你叫什么名字?", "items": ["es.hola", "es.buenos_dias", "es.como_te_llamas"] },
+    { "speaker": "lina", "text": "Hola, buenos días. Me llamo Li Na. ¿Y tú?", "zh": "你好,早上好。我叫李娜。你呢?", "items": ["es.hola", "es.buenos_dias", "es.me_llamo", "es.y", "es.tu"] },
+    { "speaker": "javier", "text": "Me llamo Javier. ¡Encantado, Li Na!", "zh": "我叫哈维尔。很高兴认识你,李娜!", "items": ["es.me_llamo", "es.encantado"] },
+    { "speaker": "lina", "text": "Encantada, Javier.", "zh": "很高兴认识你,哈维尔。", "items": ["es.encantado"] },
+    { "speaker": "javier", "text": "¡Hola, Li Na! ¡Buenas tardes!", "zh": "你好,李娜!下午好!", "items": ["es.hola", "es.buenas_tardes"] },
+    { "speaker": "lina", "text": "Hola, Javier. Buenas tardes.", "zh": "你好,哈维尔。下午好。", "items": ["es.hola", "es.buenas_tardes"] },
+    { "speaker": "javier", "text": "¡Adiós, Li Na! ¡Buenas noches!", "zh": "再见,李娜!晚安!", "items": ["es.adios", "es.buenas_noches"] },
+    { "speaker": "lina", "text": "Adiós, Javier. Buenas noches.", "zh": "再见,哈维尔。晚安。", "items": ["es.adios", "es.buenas_noches"] }
+  ],
+  "questions": [
+    { "prompt": "Javier 第一次和李娜打招呼是在什么时候?", "options": ["下午", "上午", "晚上"], "answer": 1, "explainZh": "他说的是 ¡Hola, buenos días!:buenos días 是午饭以前(上午)的问候。" },
+    { "prompt": "Javier 说 Encantado,李娜为什么说 Encantada?", "options": ["因为现在是下午", "因为 Javier 是男生", "因为李娜自己是女生"], "answer": 2, "explainZh": "encantado / encantada 跟着说话人自己的性别变:Javier 是男生,说 Encantado;李娜是女生,说 Encantada。" },
+    { "prompt": "下午再碰见时,两个人用哪句问候?", "options": ["Buenas tardes", "Buenos días", "Buenas noches"], "answer": 0, "explainZh": "下午见面说 ¡Buenas tardes!;到了晚上告别,才说 ¡Buenas noches!" }
+  ],
+  "grammar": [
+    { "id": "es.g.saludos", "titleZh": "按时间打招呼;encantado / encantada;¿ 和 ¡",
+      "bodyZh": "① 问候按一天里的时间段选:\n· Buenos días:早上到吃午饭前。西班牙一般两点左右才吃午饭,所以中午十二点、一点见面也说 buenos días,和中文的“早上好”不一样。\n· Buenas tardes:午饭后到天黑。夏天晚上八九点天还亮,也还说 buenas tardes。\n· Buenas noches:天黑以后,见面、告别、睡前都能说(也就是“晚安”)。\nHola 什么时候都能说,常和它们连着说:¡Hola, buenos días!;告别时也可以说 ¡Adiós, buenas tardes!\n② Encantado / Encantada(很高兴认识你)跟着说话人自己的性别变,不看对方:男生说 Encantado,女生说 Encantada。\n③ 问句、感叹句前后都要加符号:开头是倒过来的 ¿ 和 ¡,结尾是 ? 和 !。英语只在句末加,中国学生最容易漏掉开头的倒号。\n④ “我叫……”说 Me llamo Li Na,不要说 Me llamo es Li Na。发音:h 不发音,Hola 读 [ˈola];ll 读 [ʝ],llamo 听起来像 “yamo”。",
+      "examples": [{ "text": "¡Hola, buenos días!", "zh": "你好,早上好!(午饭以前)" }, { "text": "Buenas tardes, Javier.", "zh": "哈维尔,下午好。(午饭后到天黑)" }, { "text": "Buenas noches, Li Na.", "zh": "李娜,晚上好 / 晚安。(天黑以后)" }, { "text": "Me llamo Li Na. Encantada.", "zh": "我叫李娜。很高兴认识你。(女生说 encantada)" }] }
+  ],
+  "review": "draft"
+}
