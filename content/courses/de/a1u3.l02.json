@@ -1,0 +1,40 @@
+{
+  "id": "de.a1u3.l02", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103020,
+  "titleZh": "我的房间:家具", "goalZh": "记住常见家具的名称,连冠词和复数一起记", "canDoZh": "能说出房间里有哪些家具,列一张“还缺什么”的清单",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 23.5,
+  "newItems": [
+    { "id": "de.bett", "kind": "word", "pos": "noun", "text": "das Bett", "zh": "床", "features": { "gender": "n", "plural": "die Betten", "ipa": "bɛt" }, "noteZh": "复数加 -en:die Betten;e 是短音,tt 只读一个 t。" },
+    { "id": "de.tisch", "kind": "word", "pos": "noun", "text": "der Tisch", "zh": "桌子", "features": { "gender": "m", "plural": "die Tische", "ipa": "tɪʃ" }, "noteZh": "sch 读 [ʃ];复数加 -e:die Tische。饭桌、书桌都是 Tisch,书桌也叫 der Schreibtisch。" },
+    { "id": "de.stuhl", "kind": "word", "pos": "noun", "text": "der Stuhl", "zh": "椅子", "features": { "gender": "m", "plural": "die Stühle", "ipa": "ʃtuːl" }, "noteZh": "St 在词首读 [ʃt](像“诗特”),u 是长音;复数变音:die Stühle。" },
+    { "id": "de.schrank", "kind": "word", "pos": "noun", "text": "der Schrank", "zh": "柜子;衣柜", "features": { "gender": "m", "plural": "die Schränke", "ipa": "ʃʁaŋk" }, "noteZh": "Sch 读 [ʃ];复数变音:die Schränke。冰箱 der Kühlschrank 就是“凉的柜子”。" },
+    { "id": "de.sofa", "kind": "word", "pos": "noun", "text": "das Sofa", "zh": "沙发", "features": { "gender": "n", "plural": "die Sofas", "ipa": "ˈzoːfa" }, "noteZh": "S 在元音前读浊音 [z];外来词复数常加 -s:die Sofas。" },
+    { "id": "de.lampe", "kind": "word", "pos": "noun", "text": "die Lampe", "zh": "灯;台灯", "features": { "gender": "f", "plural": "die Lampen", "ipa": "ˈlampə" }, "noteZh": "复数 die Lampen:-e 结尾的阴性名词,复数大多加 -n。" },
+    { "id": "de.fenster", "kind": "word", "pos": "noun", "text": "das Fenster", "zh": "窗户", "features": { "gender": "n", "plural": "die Fenster", "ipa": "ˈfɛnstɐ" }, "noteZh": "复数不变:die Fenster;-er 结尾的阳性、中性名词复数常常不变(das Zimmer → die Zimmer)。" },
+    { "id": "de.tuer", "kind": "word", "pos": "noun", "text": "die Tür", "zh": "门", "features": { "gender": "f", "plural": "die Türen", "ipa": "tyːɐ̯" }, "noteZh": "ü 是长音,词尾的 r 读得像轻轻的“啊”[ɐ̯];复数 die Türen。" },
+    { "id": "de.kuehlschrank", "kind": "word", "pos": "noun", "text": "der Kühlschrank", "zh": "冰箱", "features": { "gender": "m", "plural": "die Kühlschränke", "ipa": "ˈkyːlˌʃʁaŋk" }, "noteZh": "kühl(凉)+ Schrank(柜子);复合词的性看最后一个词:der Schrank → der Kühlschrank。" }
+  ],
+  "reviewItems": ["de.zimmer", "de.kueche", "de.klein"],
+  "lines": [
+    { "speaker": "sofia", "text": "Wei, das ist dein Zimmer!", "zh": "王伟,这就是你的房间!", "items": ["de.das_ist", "de.dein", "de.zimmer"] },
+    { "speaker": "wei", "text": "Das Bett ist alt. Der Schrank ist auch alt.", "zh": "床是旧的,柜子也是旧的。", "items": ["de.bett", "de.sein", "de.alt", "de.schrank", "de.auch"] },
+    { "speaker": "wei", "text": "Und die Lampe? Wo ist die Lampe?", "zh": "那灯呢?灯在哪儿?", "items": ["de.und", "de.lampe", "de.wo", "de.sein"] },
+    { "speaker": "jonas", "text": "Das Zimmer hat zwei Fenster. Das sind deine Lampen!", "zh": "房间有两扇窗户。这就是你的灯!", "items": ["de.zimmer", "de.haben", "de.zwei", "de.fenster", "de.das_ist", "de.dein", "de.lampe"] },
+    { "speaker": "sofia", "text": "Und Jonas hat zwei Sofas!", "zh": "还有,约纳斯有两张沙发!", "items": ["de.und", "de.haben", "de.zwei", "de.sofa"] },
+    { "speaker": "wei", "text": "Zwei Sofas? Danke, Jonas!", "zh": "两张沙发?谢谢你,约纳斯!", "items": ["de.zwei", "de.sofa", "de.danke"] },
+    { "speaker": "jonas", "text": "Die Sofas sind groß, und die Tür ist klein!", "zh": "可是沙发那么大,门那么小!", "items": ["de.sofa", "de.sein", "de.gross", "de.und", "de.tuer", "de.klein"] },
+    { "speaker": "wei", "text": "Und wo ist der Kühlschrank?", "zh": "那冰箱在哪儿?", "items": ["de.und", "de.wo", "de.sein", "de.kuehlschrank"] },
+    { "speaker": "sofia", "text": "In der Küche. Der Tisch und die Stühle auch.", "zh": "在厨房。桌子和椅子也在那儿。", "items": ["de.in", "de.kueche", "de.tisch", "de.und", "de.stuhl", "de.auch"] }
+  ],
+  "questions": [
+    { "prompt": "王伟房间里的床和柜子怎么样?", "options": ["都是新的", "都是旧的", "床是新的,柜子是旧的"], "answer": 1, "explainZh": "王伟说:Das Bett ist alt. Der Schrank ist auch alt.(床是旧的,柜子也是旧的。)" },
+    { "prompt": "王伟问灯在哪儿,约纳斯怎么回答?", "options": ["灯在厨房里", "灯在约纳斯的房间里", "两扇窗户就是你的灯"], "answer": 2, "explainZh": "约纳斯开玩笑:Das Zimmer hat zwei Fenster. Das sind deine Lampen!——其实房间里没有灯。" },
+    { "prompt": "约纳斯的沙发为什么搬不进王伟的房间?", "options": ["沙发很大,门很小", "沙发太旧了", "王伟不喜欢沙发"], "answer": 0, "explainZh": "约纳斯说:Die Sofas sind groß, und die Tür ist klein!(沙发那么大,门那么小!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.plural", "titleZh": "名词的复数:几种变法,冠词都是 die",
+      "bodyZh": "德语名词的复数没有统一规则,常见的有五种:① 加 -e:der Tisch → die Tische;② 变音再加 -e:der Stuhl → die Stühle,der Schrank → die Schränke;③ 加 -(e)n:das Bett → die Betten,die Tür → die Türen,die Lampe → die Lampen;④ 加 -s(多是外来词):das Sofa → die Sofas;⑤ 不变:das Fenster → die Fenster,das Zimmer → die Zimmer。好消息是:复数的冠词一律是 die。中文名词没有复数,英语多半加 -s,德语要一个一个记,所以记生词时把复数一起记:der Tisch, die Tische。两个小规律:-e 结尾的阴性名词复数加 -n(die Lampe → die Lampen);-er 结尾的阳性、中性名词复数常常不变。数字后面用复数,动词也要用复数形式:zwei Fenster;Die Sofas sind groß(不是 ist)。介绍几样东西用 Das sind …:Das sind deine Lampen!",
+      "examples": [ { "text": "der Tisch, die Tische; der Stuhl, die Stühle", "zh": "桌子;椅子(单数,复数)" }, { "text": "das Bett, die Betten; die Lampe, die Lampen", "zh": "床;灯(单数,复数)" }, { "text": "das Sofa, die Sofas; das Fenster, die Fenster", "zh": "沙发;窗户(单数,复数)" }, { "text": "Das Zimmer hat zwei Fenster.", "zh": "房间有两扇窗户。" } ] }
+  ],
+  "review": "draft"
+}

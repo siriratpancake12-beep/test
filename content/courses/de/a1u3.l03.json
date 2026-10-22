@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u3.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103030,
+  "titleZh": "这不是新沙发:ein / kein / nicht", "goalZh": "会用 ein / eine 和 kein / keine,分清 kein 和 nicht", "canDoZh": "能说“这是一个……/这不是……”,能说东西贵不贵、新不新",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.ein", "kind": "word", "pos": "det", "text": "ein", "zh": "一个(不定冠词)", "alt": ["eine"], "features": { "ipa": "aɪ̯n" }, "noteZh": "阳性、中性用 ein(ein Tisch, ein Bett),阴性用 eine(eine Lampe);复数没有不定冠词。数数时说 eins,名词前面说 ein / eine。" },
+    { "id": "de.kein", "kind": "word", "pos": "det", "text": "kein", "zh": "没有;不是(否定名词)", "alt": ["keine"], "features": { "ipa": "kaɪ̯n" }, "noteZh": "否定带 ein 或不带冠词的名词用 kein:Das ist kein Sofa. / Ich habe keine Zeit.;变化和 ein 一样,复数用 keine。" },
+    { "id": "de.nicht", "kind": "word", "pos": "adv", "text": "nicht", "zh": "不;没(否定)", "features": { "ipa": "nɪçt" }, "noteZh": "否定形容词、动词和整句用 nicht:Das ist nicht teuer. / Ich verstehe das nicht.;否定名词用 kein。" },
+    { "id": "de.es", "kind": "word", "pos": "pron", "text": "es", "zh": "它(指中性名词)", "features": { "ipa": "ɛs" }, "noteZh": "德语的“它”看名词的性:das Zimmer → es,der Tisch → er,die Lampe → sie;es 还用在 Es gibt … / Es regnet. 这类句子里。" },
+    { "id": "de.aber", "kind": "word", "pos": "conj", "text": "aber", "zh": "但是", "features": { "ipa": "ˈaːbɐ" }, "noteZh": "Das Sofa ist alt, aber schön.;aber 后面的语序不变。" },
+    { "id": "de.oder", "kind": "word", "pos": "conj", "text": "oder", "zh": "或者;还是", "features": { "ipa": "ˈoːdɐ" }, "noteZh": "问句里是“还是”:Neu oder alt?;陈述句里是“或者”;放在句末 …, oder? 是“……对吧?”。oder 后面的语序不变。" },
+    { "id": "de.sehr", "kind": "word", "pos": "adv", "text": "sehr", "zh": "很;非常", "features": { "ipa": "zeːɐ̯" }, "noteZh": "放在形容词前面:sehr billig, sehr schön;Sehr gut!(非常好!)也可以说 Danke sehr!(非常感谢)。" },
+    { "id": "de.neu", "kind": "word", "pos": "adj", "text": "neu", "zh": "新", "features": { "ipa": "nɔʏ̯" }, "noteZh": "eu 读 [ɔʏ̯](像“奥伊”);反义词 alt(旧)。" },
+    { "id": "de.teuer", "kind": "word", "pos": "adj", "text": "teuer", "zh": "贵", "features": { "ipa": "ˈtɔʏ̯ɐ" }, "noteZh": "eu 读 [ɔʏ̯];反义词 billig / günstig(便宜)。" },
+    { "id": "de.billig", "kind": "word", "pos": "adj", "text": "billig", "zh": "便宜", "features": { "ipa": "ˈbɪlɪç" }, "noteZh": "billig 有时带“便宜没好货”的意思;说“价格划算”更常用 günstig。" }
+  ],
+  "reviewItems": ["de.sofa", "de.bett", "de.tisch", "de.alt"],
+  "lines": [
+    { "speaker": "jonas", "text": "Wei, das ist ein Sofa!", "zh": "王伟,这是一张沙发!", "items": ["de.das_ist", "de.ein", "de.sofa"] },
+    { "speaker": "wei", "text": "Nein, das ist kein Sofa. Das ist ein Bett!", "zh": "不对,这不是沙发。这是一张床!", "items": ["de.nein", "de.das_ist", "de.kein", "de.sofa", "de.ein", "de.bett"] },
+    { "speaker": "jonas", "text": "Ja, ja. Und das ist eine Lampe, oder?", "zh": "好吧好吧。那这是一盏灯,对吧?", "items": ["de.ja", "de.und", "de.das_ist", "de.ein", "de.lampe", "de.oder"] },
+    { "speaker": "wei", "text": "Nein, das ist keine Lampe. Das ist ein Tisch!", "zh": "不对,这不是灯。这是一张桌子!", "items": ["de.nein", "de.das_ist", "de.kein", "de.lampe", "de.ein", "de.tisch"] },
+    { "speaker": "wei", "text": "Guten Tag! Ist der Tisch neu oder alt?", "zh": "您好!这张桌子是新的还是旧的?", "items": ["de.guten_tag", "de.sein", "de.tisch", "de.neu", "de.oder", "de.alt"] },
+    { "speaker": "verkaeufer", "text": "Er ist alt, aber nicht teuer.", "zh": "它是旧的,但是不贵。", "items": ["de.er", "de.sein", "de.alt", "de.aber", "de.nicht", "de.teuer"] },
+    { "speaker": "verkaeufer", "text": "Und das Bett? Es ist nicht neu, aber sehr billig.", "zh": "那张床呢?它不是新的,但是很便宜。", "items": ["de.und", "de.bett", "de.es", "de.sein", "de.nicht", "de.neu", "de.aber", "de.sehr", "de.billig"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯说 Das ist ein Sofa! 的时候,那其实是什么?", "options": ["一张桌子", "一盏灯", "一张床"], "answer": 2, "explainZh": "王伟说:Nein, das ist kein Sofa. Das ist ein Bett!——约纳斯在故意说错逗他。" },
+    { "prompt": "摊主说那张桌子怎么样?", "options": ["很新,也很贵", "旧,但是不贵", "不新,但是很便宜"], "answer": 1, "explainZh": "摊主说:Er ist alt, aber nicht teuer.(er 指 der Tisch。)“不新,但是很便宜”说的是那张床:Es ist nicht neu, aber sehr billig.。" }
+  ],
+  "grammar": [
+    { "id": "de.g.ein_kein_nicht", "titleZh": "ein / kein / nicht:否定名词用 kein,否定形容词用 nicht",
+      "bodyZh": "先认识不定冠词 ein(一个):阳性、中性用 ein(ein Tisch, ein Bett),阴性用 eine(eine Lampe);复数没有 ein。德语的“不”有两个词:① kein 否定名词——带 ein 的名词或不带冠词的名词:Das ist ein Sofa. → Das ist kein Sofa.;kein 的变化和 ein 一样:kein Tisch, keine Lampe。② nicht 否定形容词、动词或整句:Das Bett ist neu. → Das Bett ist nicht neu.,nicht 放在形容词前面。中文都说“不”,英语分 not a … 和 not;中国学生最常犯的错是 ✗ Das ist nicht ein Sofa,要说 Das ist kein Sofa。sehr(很)也放在形容词前面:sehr billig。",
+      "examples": [ { "text": "Das ist kein Sofa. Das ist ein Bett.", "zh": "这不是沙发,这是床。" }, { "text": "Das ist keine Lampe.", "zh": "这不是灯。" }, { "text": "Das Bett ist nicht neu.", "zh": "这张床不是新的。" } ] },
+    { "id": "de.g.er_sie_es_ding", "titleZh": "“它”跟着名词的性走:der → er,die → sie,das → es",
+      "bodyZh": "中文说东西都用“它”,英语都用 it;德语的“它”要看名词的性:der Tisch → er,die Lampe → sie,das Bett → es。所以摊主说 Der Tisch? Er ist alt.,说到床就换成 Es ist billig.。别把东西一律说成 es——这又是记名词要连冠词一起记的原因。两个连词:aber = 但是(Er ist alt, aber nicht teuer.);oder = 还是 / 或者(Ist der Tisch neu oder alt?),放在句末 …, oder? 是“……对吧?”。aber、oder 后面的语序不变。",
+      "examples": [ { "text": "Der Tisch? Er ist alt.", "zh": "桌子?它是旧的。" }, { "text": "Die Lampe? Sie ist sehr schön.", "zh": "那盏灯?它很漂亮。" }, { "text": "Das Bett? Es ist billig.", "zh": "那张床?它很便宜。" } ] }
+  ],
+  "review": "draft"
+}

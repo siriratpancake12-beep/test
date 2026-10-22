@@ -1,0 +1,126 @@
+{
+  "lang": "ko",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-2 谚文:收音与问候", "cefr": "A1", "themeZh": "语学堂开课的第一周:学完复合元音,掌握 7 个收音和代表音规则、连音、鼻音化、ㅎ 脱落,会用韩语打招呼、道谢、道歉、告别,听不懂时请老师再说一遍" }
+  ],
+  "lessons": [
+    {
+      "id": "ko.a1u2.l01", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-2 谚文:收音与问候", "order": 102010,
+      "titleZh": "最后一块拼图:复合元音",
+      "goalZh": "会读、会写 7 个复合元音,学完全部 40 个谚文字母",
+      "canDoZh": "能拼读任何不带收音的韩文字,听懂并会问 뭐?(什么?)",
+      "scenarioZh": "语学堂开课前的分班说明会。朴恩熙老师(park)在黑板上写复合元音,用图片卡教 사과;越南同学南(nam)指着另一张图问“뭐?”,老师回答。课文 6–8 句,只用已学的词和本课的词;narrator 带读 와 왜 외 워 웨 위 의。",
+      "grammarFocusZh": "复合元音 = 两个元音快速滑读:ㅗ+ㅏ=ㅘ、ㅗ+ㅐ=ㅙ、ㅗ+ㅣ=ㅚ、ㅜ+ㅓ=ㅝ、ㅜ+ㅔ=ㅞ、ㅜ+ㅣ=ㅟ、ㅡ+ㅣ=ㅢ。ㅙ ㅚ ㅞ 现在读音几乎一样(像“喂”)。ㅢ 词首读 [의]、辅音后读 [이]、作助词“的”读 [에]。到这里 40 个字母全部学完:14 个基本辅音 + 5 个紧音 + 21 个元音。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.jamo_wa", "kind": "char", "pos": "char", "text": "ㅘ", "zh": "元音 wa,像“哇”", "features": { "roman": "wa" }, "noteZh": "= ㅗ + ㅏ,快速连成一个音;ㅗ 写在下、ㅏ 写在右:와、과。" },
+        { "id": "ko.jamo_wae", "kind": "char", "pos": "char", "text": "ㅙ", "zh": "元音 wae,读音像“喂”", "features": { "roman": "wae" }, "noteZh": "= ㅗ + ㅐ;和 ㅚ、ㅞ 读音几乎一样,只能记拼写:왜(为什么)。" },
+        { "id": "ko.jamo_oe", "kind": "char", "pos": "char", "text": "ㅚ", "zh": "元音 oe,实际读音像“喂”", "features": { "roman": "oe" }, "noteZh": "= ㅗ + ㅣ,但不读“哦衣”,而读 we:회사(公司)、죄송합니다。" },
+        { "id": "ko.jamo_wo", "kind": "char", "pos": "char", "text": "ㅝ", "zh": "元音 wo,像张大嘴的“窝”", "features": { "roman": "wo" }, "noteZh": "= ㅜ + ㅓ:뭐(什么)、고마워요。" },
+        { "id": "ko.jamo_we", "kind": "char", "pos": "char", "text": "ㅞ", "zh": "元音 we,像“喂”", "features": { "roman": "we" }, "noteZh": "= ㅜ + ㅔ;很少见,如 웨이터(服务员)。" },
+        { "id": "ko.jamo_wi", "kind": "char", "pos": "char", "text": "ㅟ", "zh": "元音 wi,像快读的“威”", "features": { "roman": "wi" }, "noteZh": "= ㅜ + ㅣ,嘴唇从圆迅速变扁:위(上面,第 6 单元)、뒤(后面)。" },
+        { "id": "ko.jamo_ui", "kind": "char", "pos": "char", "text": "ㅢ", "zh": "元音 ui:从 ㅡ 滑向 ㅣ", "features": { "roman": "ui" }, "noteZh": "三种读法:词首读 [의](의자 椅子);辅音后或词中常读 [이](회의 [회이]);作助词“的”读 [에]。" },
+        { "id": "ko.mwo", "kind": "word", "pos": "pron", "text": "뭐", "zh": "什么(口语)", "features": { "roman": "mwo" }, "noteZh": "무엇 的口语缩略;单说 뭐? 是“什么?”,礼貌地问用 뭐예요?(第 3 单元)。" },
+        { "id": "ko.sagwa", "kind": "word", "pos": "noun", "text": "사과", "zh": "苹果;道歉", "features": { "roman": "sagwa" }, "noteZh": "两个汉字词同音:沙果(苹果)、谢过(道歉),看上下文分辨;과 = ㄱ + ㅘ。" }
+      ],
+      "reviewItems": ["ko.jamo_o", "ko.jamo_u", "ko.jamo_eu", "ko.ne"]
+    },
+    {
+      "id": "ko.a1u2.l02", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-2 谚文:收音与问候", "order": 102020,
+      "titleZh": "안녕하세요!七个收音",
+      "goalZh": "掌握 7 个代表音收音的读法,特别是不爆破的 ㄱ ㄷ ㅂ 和 -n / -m / -ng 的区别",
+      "canDoZh": "能用 안녕하세요 打招呼,读出 한국(韩国)、중국(中国)",
+      "scenarioZh": "语学堂开课第一天。朴老师(park)走进教室说“안녕하세요!”,学生们一起回答;老师指着地图上的韩国和中国,让陈静(jing)读“한국”“중국”。课文 6–8 句;narrator 带读 악 안 앋 알 암 압 앙。",
+      "grammarFocusZh": "收音(받침)只有 7 个代表音:ㄱ [k]、ㄴ [n]、ㄷ [t]、ㄹ [l]、ㅁ [m]、ㅂ [p]、ㅇ [ng]。ㄱ ㄷ ㅂ 收音只做出口型、不爆破(不要加“克、特、普”);-n / -m / -ng 要分清,普通话没有 -m,可以借粤语的“暗、鸭”找感觉。收音写在元音下面:한、국。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.syl_ak", "kind": "char", "pos": "char", "text": "악", "zh": "收音 ㄱ:读 [ak],舌根堵住不放开", "features": { "roman": "ak" }, "noteZh": "收音不爆破:口型停在 k 上,不发出“克”。" },
+        { "id": "ko.syl_an", "kind": "char", "pos": "char", "text": "안", "zh": "收音 ㄴ:读 [an],像“安”", "features": { "roman": "an" }, "noteZh": "舌尖顶住上齿龈;和 앙(舌根鼻音)对比:안 / 앙 ≈ 安 / 昂。안 也是否定词“不”(第 4 单元)。" },
+        { "id": "ko.syl_at", "kind": "char", "pos": "char", "text": "앋", "zh": "收音 ㄷ:读 [at],舌尖堵住不放开", "features": { "roman": "at" }, "noteZh": "这个字本身不是词,用来练 ㄷ 收音;很多收音字母都读成这个音(下一课)。" },
+        { "id": "ko.syl_al", "kind": "char", "pos": "char", "text": "알", "zh": "收音 ㄹ:读 [al],舌尖抵住上颚", "features": { "roman": "al" }, "noteZh": "收音 ㄹ 是 l,不卷舌,不要读成“阿儿”。" },
+        { "id": "ko.syl_am", "kind": "char", "pos": "char", "text": "암", "zh": "收音 ㅁ:读 [am],双唇闭住", "features": { "roman": "am" }, "noteZh": "普通话没有 -m 收尾,像粤语“暗”的收尾:最后嘴唇要闭上。" },
+        { "id": "ko.syl_ap", "kind": "char", "pos": "char", "text": "압", "zh": "收音 ㅂ:读 [ap],双唇闭住不放开", "features": { "roman": "ap" }, "noteZh": "像粤语“鸭”的收尾:嘴唇闭上就停,不发出“普”。" },
+        { "id": "ko.syl_ang", "kind": "char", "pos": "char", "text": "앙", "zh": "收音 ㅇ:读 [ang],像“昂”", "features": { "roman": "ang" }, "noteZh": "ㅇ 在下面读 ng;注意分清 ㄴ / ㅇ 收音:반 / 방。" },
+        { "id": "ko.annyeonghaseyo", "kind": "phrase", "pos": "phrase", "text": "안녕하세요", "zh": "你好", "features": { "roman": "annyeonghaseyo" }, "noteZh": "汉字词 安宁 + 하세요;早中晚、对谁都能说,回答也说 안녕하세요。안 收 ㄴ、녕 收 ㅇ,하 的 ㅎ 读得很轻。" },
+        { "id": "ko.hanguk", "kind": "word", "pos": "propn", "text": "한국", "zh": "韩国", "features": { "roman": "hanguk" }, "noteZh": "汉字词 韩国;국 的收音 ㄱ 不爆破。" },
+        { "id": "ko.jungguk", "kind": "word", "pos": "propn", "text": "중국", "zh": "中国", "features": { "roman": "jungguk" }, "noteZh": "汉字词 中国;중 收 ㅇ、국 收 ㄱ。" }
+      ],
+      "reviewItems": ["ko.jamo_ng", "ko.jamo_r", "ko.jamo_h", "ko.ne"]
+    },
+    {
+      "id": "ko.a1u2.l03", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-2 谚文:收音与问候", "order": 102030,
+      "titleZh": "写的和读的不一样:代表音和双收音",
+      "goalZh": "掌握代表音规则(ㅅ ㅈ ㅊ ㅌ ㅎ 等收音都读 [t])和双收音的读法",
+      "canDoZh": "能读对 옷(衣服)、꽃(花)、앞(前面)、밖(外面)这类写法和读音不同的词",
+      "scenarioZh": "朴老师(park)用图片卡上收音课:举起衣服、花的卡片,指教室门口贴的“앞”“밖”,陈静(jing)和南(nam)轮流读,读错了老师说“아니요”再示范。课文 6–8 句,只用已学的词和本课的词。",
+      "grammarFocusZh": "代表音规则:收音写法很多,读音只有 7 个——ㄱ ㄲ ㅋ → [k];ㄷ ㅅ ㅆ ㅈ ㅊ ㅌ ㅎ → [t];ㅂ ㅍ → [p]。所以 옷 [옫]、꽃 [꼳]、앞 [압]、밖 [박]。双收音(ㄳ ㄵ ㄶ ㄺ ㄻ ㄼ ㅄ 等)单读时只读其中一个;后面接元音时第二个收音移到下一个字:없어요 [업써요]、읽어요 [일거요]。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.ot", "kind": "word", "pos": "noun", "text": "옷", "zh": "衣服", "features": { "roman": "ot" }, "noteZh": "收音 ㅅ 读 [t]:옷 [옫];后面接元音时 ㅅ 移过去:옷이 [오시]。" },
+        { "id": "ko.kkot", "kind": "word", "pos": "noun", "text": "꽃", "zh": "花", "features": { "roman": "kkot" }, "noteZh": "收音 ㅊ 也读 [t]:꽃 [꼳];开头是紧音 ㄲ。" },
+        { "id": "ko.ap", "kind": "word", "pos": "noun", "text": "앞", "zh": "前面", "features": { "roman": "ap" }, "noteZh": "收音 ㅍ 读 [p]:앞 [압];학교 앞(学校前面,第 6 单元)。" },
+        { "id": "ko.bak", "kind": "word", "pos": "noun", "text": "밖", "zh": "外面", "features": { "roman": "bak" }, "noteZh": "收音 ㄲ 读 [k]:밖 [박]。" },
+        { "id": "ko.syl_eops", "kind": "char", "pos": "char", "text": "없", "zh": "双收音 ㅄ:单读 [업]", "features": { "roman": "eop" }, "noteZh": "两个收音只读 ㅂ;接元音时 ㅅ 移到下一个字并变紧:없어요 [업써요](没有,第 3 单元)。" },
+        { "id": "ko.syl_anj", "kind": "char", "pos": "char", "text": "앉", "zh": "双收音 ㄵ:单读 [안]", "features": { "roman": "an" }, "noteZh": "只读 ㄴ;接元音时 ㅈ 移过去:앉으세요 [안즈세요](请坐)。" },
+        { "id": "ko.syl_ilg", "kind": "char", "pos": "char", "text": "읽", "zh": "双收音 ㄺ:单读 [익]", "features": { "roman": "ik" }, "noteZh": "单读时读 ㄱ;接元音时 ㄹ 留下、ㄱ 移过去:읽어요 [일거요](读)。" },
+        { "id": "ko.syl_manh", "kind": "char", "pos": "char", "text": "많", "zh": "双收音 ㄶ:单读 [만]", "features": { "roman": "man" }, "noteZh": "ㅎ 不发音;接元音时 ㅎ 脱落:많이 [마니](很多,第 4 单元)。" }
+      ],
+      "reviewItems": ["ko.syl_at", "ko.syl_ap", "ko.syl_ak", "ko.mwo"]
+    },
+    {
+      "id": "ko.a1u2.l04", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-2 谚文:收音与问候", "order": 102040,
+      "titleZh": "谢谢和对不起",
+      "goalZh": "会用正式和亲切两种说法道谢、道歉,读准连音和鼻音化",
+      "canDoZh": "能根据对象说 감사합니다 / 고마워요、죄송합니다 / 미안해요,初次见面说 반갑습니다",
+      "scenarioZh": "语学堂第二天。陈静(jing)迟到一分钟,进门对朴老师(park)说“죄송합니다”;老师发讲义,陈静说“감사합니다”。课间新同学南(nam)第一次和陈静说话:“반갑습니다”;他看到陈静的中文书问“중국어?”;南碰掉了陈静的笔说“미안해요”,陈静捡起来、南帮她拿书时她说“고마워요”。课文至少 8 句。",
+      "grammarFocusZh": "两条音变规则:① 连音——收音后面接 ㅇ 开头的字,收音移过去读:한국어 [한구거]、중국어 [중구거]。② 鼻音化——收音 [k] [t] [p] 碰上 ㄴ ㅁ,变成 ㅇ ㄴ ㅁ:합니다 [함니다]、반갑습니다 [반갑씀니다]。两种礼貌程度:감사합니다 / 죄송합니다(합니다体,正式)和 고마워요 / 미안해요(해요体,亲切);对老师、长辈用前者。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.gamsahamnida", "kind": "phrase", "pos": "phrase", "text": "감사합니다", "zh": "谢谢(正式)", "features": { "roman": "gamsahamnida" }, "noteZh": "汉字词 感谢 + 합니다;鼻音化读 [감사함니다]。对老师、店员、陌生人都可以说。" },
+        { "id": "ko.gomawoyo", "kind": "phrase", "pos": "phrase", "text": "고마워요", "zh": "谢谢(亲切)", "alt": ["고맙습니다"], "features": { "roman": "gomawoyo" }, "noteZh": "对同学、朋友常用;更正式的说法是 고맙습니다 [고맙씀니다]。" },
+        { "id": "ko.joesonghamnida", "kind": "phrase", "pos": "phrase", "text": "죄송합니다", "zh": "对不起;很抱歉(正式)", "features": { "roman": "joesonghamnida" }, "noteZh": "汉字词 罪悚;죄 的 ㅚ 读 we,鼻音化读 [죄송함니다]。对老师、长辈、顾客道歉用它;问路前也常先说一句。" },
+        { "id": "ko.mianhaeyo", "kind": "phrase", "pos": "phrase", "text": "미안해요", "zh": "对不起(亲切)", "features": { "roman": "mianhaeyo" }, "noteZh": "汉字词 未安;对同学、朋友道歉用;对长辈、正式场合用 죄송합니다。" },
+        { "id": "ko.bangapseumnida", "kind": "phrase", "pos": "phrase", "text": "반갑습니다", "zh": "很高兴见到你", "alt": ["반가워요"], "features": { "roman": "bangapseumnida" }, "noteZh": "初次见面或重逢时说;读 [반갑씀니다]:ㅂ 后的 ㅅ 变紧、습 + 니 鼻音化。和同龄人说 반가워요 更轻松。" },
+        { "id": "ko.hangugeo", "kind": "word", "pos": "noun", "text": "한국어", "zh": "韩国语;韩语", "features": { "roman": "hangugeo" }, "noteZh": "汉字词 韩国语;连音:국 的 ㄱ 移到 어 上,读 [한구거]。" },
+        { "id": "ko.junggugeo", "kind": "word", "pos": "noun", "text": "중국어", "zh": "汉语;中文", "features": { "roman": "junggugeo" }, "noteZh": "汉字词 中国语;连音读 [중구거]。" }
+      ],
+      "reviewItems": ["ko.hanguk", "ko.jungguk", "ko.annyeonghaseyo", "ko.ssi"]
+    },
+    {
+      "id": "ko.a1u2.l05", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-2 谚文:收音与问候", "order": 102050,
+      "titleZh": "没关系,下次见!",
+      "goalZh": "会回应道歉、答应提议,分清两种“再见”,会叫住别人;读准 ㅎ 的弱化和脱落",
+      "canDoZh": "能在离开教室、商店时正确地说再见,别人道歉时说 괜찮아요",
+      "scenarioZh": "下课了。南(nam)又说“미안해요”(他把陈静的书弄皱了),陈静说“괜찮아요”;南提议明天一起学习,陈静说“좋아요!”。陈静离开教室对朴老师(park)说“안녕히 계세요”,老师回“안녕히 가세요”;南挥手说“안녕! 또 만나요!”。走廊里一个路人(passerby)掉了手机,陈静喊“저기요!”。课文至少 8 句。",
+      "grammarFocusZh": "ㅎ 的弱化和脱落:ㅎ 在元音或 ㄴ ㄹ ㅁ 之后变得很轻甚至不发音——좋아요 [조아요]、괜찮아요 [괜차나요]、안녕히 [안녕이]。两种再见:走的人对留下的人说 안녕히 계세요,留下的人对走的人说 안녕히 가세요;都要走时两人都说 안녕히 가세요。안녕 是半语,只对熟朋友说。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.gwaenchanayo", "kind": "phrase", "pos": "phrase", "text": "괜찮아요", "zh": "没关系;不用了;还好", "features": { "roman": "gwaenchanayo" }, "noteZh": "ㅎ 脱落读 [괜차나요]。回应道歉(没关系)、婉拒(不用了)、问对方要不要紧(괜찮아요?)都用它。" },
+        { "id": "ko.joayo", "kind": "phrase", "pos": "phrase", "text": "좋아요", "zh": "好;好啊;很好", "features": { "roman": "joayo" }, "noteZh": "ㅎ 在元音之间脱落,读 [조아요];答应提议说 좋아요!" },
+        { "id": "ko.annyeonghi_gaseyo", "kind": "phrase", "pos": "phrase", "text": "안녕히 가세요", "zh": "再见(对离开的人说)", "features": { "roman": "annyeonghi gaseyo" }, "noteZh": "字面是“请平安地走”:对方走、你留下时说。안녕히 的 ㅎ 很轻,像 [안녕이]。" },
+        { "id": "ko.annyeonghi_gyeseyo", "kind": "phrase", "pos": "phrase", "text": "안녕히 계세요", "zh": "再见(对留下的人说)", "features": { "roman": "annyeonghi gyeseyo" }, "noteZh": "字面是“请平安地待着”:你走、对方留下时说,比如离开商店时对店员说。계 读 [게]。" },
+        { "id": "ko.annyeong", "kind": "phrase", "pos": "phrase", "text": "안녕", "zh": "你好;再见(对熟朋友)", "features": { "roman": "annyeong" }, "noteZh": "半语,只对熟悉的同龄人或比自己小的人说;对老师、店员、刚认识的人说 안녕하세요。" },
+        { "id": "ko.jeogiyo", "kind": "phrase", "pos": "phrase", "text": "저기요", "zh": "打扰一下;请问(叫住别人)", "features": { "roman": "jeogiyo" }, "noteZh": "叫住陌生人、在餐厅叫服务员时说,相当于“您好,请问……”。" },
+        { "id": "ko.tto_mannayo", "kind": "phrase", "pos": "phrase", "text": "또 만나요", "zh": "下次见;再会", "features": { "roman": "tto mannayo" }, "noteZh": "字面“再见面吧”;同学、朋友道别时常说。또 是紧音,喉咙绷紧。" }
+      ],
+      "reviewItems": ["ko.mianhaeyo", "ko.annyeonghaseyo", "ko.jamo_h", "ko.jamo_tt"]
+    },
+    {
+      "id": "ko.a1u2.l08", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-2 谚文:收音与问候", "order": 102080,
+      "titleZh": "单元复习:语学堂的第一周",
+      "goalZh": "把本单元的问候、道谢、道歉、告别串起来,完成一整天的课堂交流",
+      "canDoZh": "能在韩语课上打招呼、回应点名、听不懂时请老师再说一遍,下课礼貌地道别",
+      "scenarioZh": "第一周的星期五。朴老师(park)用“안녕하세요!”开始上课,点名时陈静(jing)答“네!”;老师说得快,陈静说“죄송합니다. 다시 말해 주세요.”,老师慢慢重复,陈静说“감사합니다”。下课时室友秀雅(sua)来教室门口接她,陈静把秀雅介绍给南(nam):“수아 씨, 친구 남 씨.”,两人说“반갑습니다”。最后大家道别。课文至少 12 句。",
+      "grammarFocusZh": "复习本单元的音变:连音(수업이 [수어비])、鼻音化(감사합니다)、ㅎ 脱落(괜찮아요)。称呼的礼貌:老师叫 선생님(不加 씨),同学叫 名字 + 씨。听不懂时:죄송합니다, 다시 말해 주세요。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.seonsaengnim", "kind": "word", "pos": "noun", "text": "선생님", "zh": "老师", "features": { "roman": "seonsaengnim" }, "noteZh": "汉字词 先生 + 님(尊称);叫老师直接说 선생님,带姓说 박 선생님;不能用 씨 称呼老师。" },
+        { "id": "ko.chingu", "kind": "word", "pos": "noun", "text": "친구", "zh": "朋友", "features": { "roman": "chingu" }, "noteZh": "汉字词 亲旧;韩国人说 친구 多指同龄的朋友。" },
+        { "id": "ko.sueop", "kind": "word", "pos": "noun", "text": "수업", "zh": "课;上课", "features": { "roman": "sueop" }, "noteZh": "汉字词 授业;连音:수업이 [수어비]。" },
+        { "id": "ko.dasi_malhae_juseyo", "kind": "phrase", "pos": "phrase", "text": "다시 말해 주세요", "zh": "请再说一遍", "features": { "roman": "dasi malhae juseyo" }, "noteZh": "听不懂时最重要的一句,全课程反复用;更客气可以先说 죄송합니다。" }
+      ],
+      "reviewItems": ["ko.gamsahamnida", "ko.joesonghamnida", "ko.annyeonghi_gyeseyo", "ko.bangapseumnida"]
+    }
+  ]
+}

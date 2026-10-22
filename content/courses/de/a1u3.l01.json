@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u3.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103010,
+  "titleZh": "看房:这是厨房", "goalZh": "会介绍和询问房子里的房间,用形容词简单描述", "canDoZh": "能在看房时问“这是什么房间”,并简单描述房间(大、小、亮、漂亮)",
+  "skills": ["listen","speak","read"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "de.wohnung", "kind": "word", "pos": "noun", "text": "die Wohnung", "zh": "公寓;住房", "features": { "gender": "f", "plural": "die Wohnungen", "ipa": "ˈvoːnʊŋ" }, "noteZh": "-ung 结尾的名词都是阴性:die Wohnung;来自动词 wohnen(住)。W 读 [v],o 是长音。Wohnung 是整套房子,里面的一间一间是 Zimmer。" },
+    { "id": "de.wg", "kind": "word", "pos": "noun", "text": "die WG", "zh": "合租公寓", "alt": ["die Wohngemeinschaft"], "features": { "gender": "f", "plural": "die WGs", "ipa": "veːˈɡeː" }, "noteZh": "Wohngemeinschaft 的缩写,按字母读 W-G [veː ɡeː]。几个人合租一套房,各住各的房间,厨房和浴室共用,是德国大学生最常见的住法。" },
+    { "id": "de.zimmer", "kind": "word", "pos": "noun", "text": "das Zimmer", "zh": "房间", "features": { "gender": "n", "plural": "die Zimmer", "ipa": "ˈtsɪmɐ" }, "noteZh": "Z 读 [ts](像“次”);复数不变:die Zimmer。Zimmer 是一个个房间,整套房子是 die Wohnung。" },
+    { "id": "de.kueche", "kind": "word", "pos": "noun", "text": "die Küche", "zh": "厨房", "features": { "gender": "f", "plural": "die Küchen", "ipa": "ˈkʏçə" }, "noteZh": "ü:嘴唇撮圆发“衣”;ch 在 ü 后面读 [ç](像轻轻的“希”)。别和 der Kuchen(蛋糕,第 4 单元学)搞混。" },
+    { "id": "de.bad", "kind": "word", "pos": "noun", "text": "das Bad", "zh": "浴室;卫生间", "alt": ["das Badezimmer"], "features": { "gender": "n", "plural": "die Bäder", "ipa": "baːt" }, "noteZh": "德国的 Bad 一般有淋浴(或浴缸)、洗手池和马桶;词尾 d 读 [t]。全称 das Badezimmer。" },
+    { "id": "de.gross", "kind": "word", "pos": "adj", "text": "groß", "zh": "大;(个子)高", "features": { "ipa": "ɡʁoːs" }, "noteZh": "ß 读清音 [s],o 是长音;键盘打不出 ß 可以写 ss(gross)。说人时是“个子高”:Er ist groß.。" },
+    { "id": "de.klein", "kind": "word", "pos": "adj", "text": "klein", "zh": "小;(个子)矮", "features": { "ipa": "klaɪ̯n" }, "noteZh": "ei 读 [aɪ̯](像“爱”),不读英语的 [eɪ];反义词 groß。Die Küche ist ein bisschen klein.(厨房有点小。)" },
+    { "id": "de.hell", "kind": "word", "pos": "adj", "text": "hell", "zh": "明亮", "features": { "ipa": "hɛl" }, "noteZh": "说房间、灯光“亮”:Das Zimmer ist hell.;反义词 dunkel(暗)。e 是短音,两个 l 只读一个。" },
+    { "id": "de.schoen", "kind": "word", "pos": "adj", "text": "schön", "zh": "美;漂亮;好", "features": { "ipa": "ʃøːn" }, "noteZh": "ö:嘴型发 o,舌头发 e;用得很广:漂亮、美、好。夸房子、夸东西都可以说 Schön!。" }
+  ],
+  "reviewItems": ["de.das_ist", "de.wo", "de.sein"],
+  "lines": [
+    { "speaker": "jonas", "text": "Hallo, Wei! Ich bin Jonas. Das ist die WG.", "zh": "你好,王伟!我是约纳斯。这就是我们的合租公寓。", "items": ["de.hallo", "de.ich", "de.sein", "de.das_ist", "de.wg"] },
+    { "speaker": "wei", "text": "Hallo, Jonas! Die Wohnung ist schön.", "zh": "你好,约纳斯!房子真漂亮。", "items": ["de.hallo", "de.wohnung", "de.sein", "de.schoen"] },
+    { "speaker": "jonas", "text": "Und das ist das Bad.", "zh": "这是浴室。", "items": ["de.und", "de.das_ist", "de.bad"] },
+    { "speaker": "wei", "text": "Das Bad? Das ist die Küche!", "zh": "浴室?这是厨房啊!", "items": ["de.bad", "de.das_ist", "de.kueche"] },
+    { "speaker": "jonas", "text": "Ja, ja, die Küche. Sie ist ein bisschen klein.", "zh": "对对,是厨房。厨房有点小。", "items": ["de.ja", "de.kueche", "de.sie_sg", "de.sein", "de.ein_bisschen", "de.klein"] },
+    { "speaker": "wei", "text": "Und wo ist das Zimmer?", "zh": "那房间在哪儿?", "items": ["de.und", "de.wo", "de.sein", "de.zimmer"] },
+    { "speaker": "sofia", "text": "Das ist das Zimmer. Wie ist das Zimmer, Wei?", "zh": "就是这间。王伟,房间怎么样?", "items": ["de.das_ist", "de.zimmer", "de.wie", "de.sein"] },
+    { "speaker": "wei", "text": "Das Zimmer ist groß und hell. Schön!", "zh": "房间又大又亮。真好!", "items": ["de.zimmer", "de.sein", "de.gross", "de.und", "de.hell", "de.schoen"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯说 Das ist das Bad. 的时候,他指的其实是哪里?", "options": ["浴室", "厨房", "王伟要住的房间"], "answer": 1, "explainZh": "王伟马上说:Das Bad? Das ist die Küche!(浴室?这是厨房啊!)约纳斯爱开玩笑,故意说错。" },
+    { "prompt": "王伟觉得那个房间怎么样?", "options": ["又小又暗", "有点小", "又大又亮"], "answer": 2, "explainZh": "王伟说:Das Zimmer ist groß und hell.(房间又大又亮。)“有点小”说的是厨房。" },
+    { "prompt": "厨房怎么样?", "options": ["有点小", "又大又亮", "很漂亮,很大"], "answer": 0, "explainZh": "约纳斯说:Sie ist ein bisschen klein.(厨房有点小。)sie 指的是 die Küche。" }
+  ],
+  "grammar": [
+    { "id": "de.g.sein_adj", "titleZh": "Das Zimmer ist groß:形容词放在 ist 后面,不变",
+      "bodyZh": "描述东西“怎么样”,德语用 名词 + ist + 形容词:Das Zimmer ist groß.(房间很大。)形容词放在 ist 后面时词形不变,不管名词是阳性、阴性还是中性:Die Küche ist klein. / Das Bad ist klein.。和中文比:中文说“房间很大”,“很”常常只是语气,德语不用加“很”也很自然;但 ist 不能省——别按中文说成 ✗ Das Zimmer groß。问“……怎么样?”用 Wie ist …?:Wie ist das Zimmer?。回答时可以用代词代替前面说过的东西:die Küche → sie,der Tisch → er(Die Küche? Sie ist klein.)。房间的名词连冠词一起记:die Wohnung、die WG、die Küche;das Zimmer、das Bad。",
+      "examples": [ { "text": "Das Zimmer ist groß und hell.", "zh": "房间又大又亮。" }, { "text": "Wie ist die Küche? Sie ist ein bisschen klein.", "zh": "厨房怎么样?有点小。" } ] }
+  ],
+  "review": "draft"
+}

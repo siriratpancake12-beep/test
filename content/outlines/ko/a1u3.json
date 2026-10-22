@@ -1,0 +1,125 @@
+{
+  "lang": "ko",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-3 自我介绍与家人", "cefr": "A1", "themeZh": "认识新朋友:在语学堂做自我介绍,说名字、国家和家乡,在宿舍问“这是什么、是谁的”,看照片介绍家人,最后用 합니다体做一次正式的自我介绍" }
+  ],
+  "lessons": [
+    {
+      "id": "ko.a1u3.l01", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-3 自我介绍与家人", "order": 103010,
+      "titleZh": "我叫陈静",
+      "goalZh": "会用 N은/는 N이에요/예요 说名字和身份,会问别人的名字",
+      "canDoZh": "能用韩语说出自己的名字、国籍和身份,问别人叫什么",
+      "scenarioZh": "语学堂第二周,新同学插班,朴老师(park)让大家轮流自我介绍。老师问“이름이 뭐예요?”;陈静(jing)说“저는 천징이에요. 중국 사람이에요. 유학생이에요.”;南(nam)说“저는 남이에요.”;老师确认“남 씨예요?”——“네, 맞아요.”。最后大家说“처음 뵙겠습니다. 잘 부탁드립니다.”。课文至少 10 句。",
+      "grammarFocusZh": "N은/는 N이에요/예요 = ……是……。은/는 标出话题:前一个字有收音用 은(선생님은),没有用 는(저는)。이에요/예요:名词有收音用 이에요(학생이에요、천징이에요),没有用 예요(수아예요)。问名字:이름이 뭐예요?(이 是主语助词,本单元第 4 课细讲)。注意:韩语的“是”放在句末,和名词连写不空格。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.ireum", "kind": "word", "pos": "noun", "text": "이름", "zh": "名字", "features": { "roman": "ireum" }, "noteZh": "问名字:이름이 뭐예요?;连音读 [이르미 뭐예요]。对长辈问名字要用更尊敬的说法(以后学)。" },
+        { "id": "ko.saram", "kind": "word", "pos": "noun", "text": "사람", "zh": "人", "features": { "roman": "saram" }, "noteZh": "国家 + 사람 = ……人:중국 사람(中国人)、한국 사람(韩国人),中间空一格。" },
+        { "id": "ko.haksaeng", "kind": "word", "pos": "noun", "text": "학생", "zh": "学生", "features": { "roman": "haksaeng" }, "noteZh": "汉字词 学生;紧音化:收音 ㄱ 后面的 ㅅ 变紧,读 [학쌩]。" },
+        { "id": "ko.yuhaksaeng", "kind": "word", "pos": "noun", "text": "유학생", "zh": "留学生", "features": { "roman": "yuhaksaeng" }, "noteZh": "汉字词 留学生;读 [유학쌩]。" },
+        { "id": "ko.cheoeum_boepgetseumnida", "kind": "phrase", "pos": "phrase", "text": "처음 뵙겠습니다", "zh": "初次见面(正式)", "features": { "roman": "cheoeum boepgetseumnida" }, "noteZh": "第一次见面的客气话,对老师、长辈或正式场合用;读 [처음 뵙껟씀니다]。同学之间说 반갑습니다 就够了。" },
+        { "id": "ko.jal_butakdeurimnida", "kind": "phrase", "pos": "phrase", "text": "잘 부탁드립니다", "zh": "请多关照", "features": { "roman": "jal butakdeurimnida" }, "noteZh": "自我介绍的结束语;鼻音化读 [잘 부탁드림니다]。" },
+        { "id": "ko.majayo", "kind": "phrase", "pos": "phrase", "text": "맞아요", "zh": "对;没错", "features": { "roman": "majayo" }, "noteZh": "确认对方说得对:천징 씨예요?— 네, 맞아요.;连音读 [마자요]。" }
+      ],
+      "reviewItems": ["ko.jeo", "ko.jungguk", "ko.bangapseumnida", "ko.seonsaengnim"]
+    },
+    {
+      "id": "ko.a1u3.l02", "lang": "ko", "type": "grammar", "cefr": "A1", "unit": "A1-3 自我介绍与家人", "order": 103020,
+      "titleZh": "你是哪国人?",
+      "goalZh": "会问答国籍和家乡,会用 N이/가 아니에요 否定",
+      "canDoZh": "能问别人是哪国人、老家在哪儿,并纠正别人的误会:“我不是日本人,是中国人”",
+      "scenarioZh": "课间,南(nam)以为陈静是日本人:“천징 씨, 일본 사람이에요?”——“아니요, 일본 사람이 아니에요. 중국 사람이에요.”。两人互问老家:陈静的老家是杭州(항저우),南的老家是河内(하노이),南来自越南;陈静问老师(park)是不是美国留学过,老师笑着说不是。说话时用“아, 그래요?”回应。课文至少 10 句。",
+      "grammarFocusZh": "N이/가 아니에요 = 不是 N:名词有收音用 이(학생이 아니에요),没有用 가(가수가 아니에요)。疑问:어느 나라 사람이에요?(哪国人?)、고향이 어디예요?(老家在哪儿?)——韩语疑问句语序不变,句末升调就行。回应:아, 그래요?(啊,是吗?)。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.nara", "kind": "word", "pos": "noun", "text": "나라", "zh": "国家", "features": { "roman": "nara" }, "noteZh": "어느 나라 사람이에요?= 你是哪国人?;韩国人说“我国”用 우리 나라。" },
+        { "id": "ko.eoneu", "kind": "word", "pos": "det", "text": "어느", "zh": "哪(个)", "features": { "roman": "eoneu" }, "noteZh": "后面必须接名词:어느 나라(哪国)、어느 거(哪个);单独问“哪里”用 어디。" },
+        { "id": "ko.ilbon", "kind": "word", "pos": "propn", "text": "일본", "zh": "日本", "features": { "roman": "ilbon" }, "noteZh": "汉字词 日本。" },
+        { "id": "ko.miguk", "kind": "word", "pos": "propn", "text": "미국", "zh": "美国", "features": { "roman": "miguk" }, "noteZh": "汉字词 美国(韩语用“美”字)。" },
+        { "id": "ko.beteunam", "kind": "word", "pos": "propn", "text": "베트남", "zh": "越南", "features": { "roman": "beteunam" }, "noteZh": "外来词 Vietnam;트 用 ㅡ 补音,不读“特”。" },
+        { "id": "ko.gohyang", "kind": "word", "pos": "noun", "text": "고향", "zh": "家乡;老家", "features": { "roman": "gohyang" }, "noteZh": "汉字词 故乡;问老家:고향이 어디예요?" },
+        { "id": "ko.eodi", "kind": "word", "pos": "pron", "text": "어디", "zh": "哪里", "features": { "roman": "eodi" }, "noteZh": "어디예요?= 是哪儿?;第 6 单元学 어디에 있어요?(在哪儿?)、어디에 가요?(去哪儿?)。" },
+        { "id": "ko.anieyo", "kind": "phrase", "pos": "phrase", "text": "아니에요", "zh": "不是;哪里,不用谢", "features": { "roman": "anieyo" }, "noteZh": "N이/가 아니에요 = 不是 N。别人道谢或夸奖时说 아니에요 = 哪里哪里、不客气,比 천만에요 更常用。" },
+        { "id": "ko.geuraeyo", "kind": "phrase", "pos": "phrase", "text": "그래요", "zh": "是吗;是啊;好的", "features": { "roman": "geuraeyo" }, "noteZh": "升调 그래요?= 是吗?(表示惊讶、感兴趣);降调 그래요 = 是啊/好的。聊天时最常用的回应。" }
+      ],
+      "reviewItems": ["ko.hanguk", "ko.saram", "ko.aniyo", "ko.majayo"]
+    },
+    {
+      "id": "ko.a1u3.l03", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-3 自我介绍与家人", "order": 103030,
+      "titleZh": "这是谁的?",
+      "goalZh": "会用 이거 / 그거 / 저거 指东西,问“这是什么”“是谁的”",
+      "canDoZh": "能指着身边的东西问“这是什么?”“是谁的?”,并回答",
+      "scenarioZh": "宿舍里,陈静和室友秀雅(sua)整理行李。秀雅拿起一本书问“이거 뭐예요?”——“중국어 책이에요.”;陈静指着秀雅手边的包问“그거 수아 씨 가방이에요?”;秀雅指着远处床上的手机问“저거 누구 휴대폰이에요?”;最后秀雅拿起一张照片:“이 사람 누구예요?”,引出下一课的家人话题。课文至少 10 句。",
+      "grammarFocusZh": "이거 / 그거 / 저거:离我近 / 离你近 / 离我们都远(中文都说“这个、那个”,韩语分三种)。이거 뭐예요?(这是什么?)、누구예요?(是谁?)。“谁的”:누구 거예요?——N + 거(的东西):수아 씨 거예요(是秀雅的)。名词修饰名词直接连用:중국어 책(中文书)、수아 씨 가방。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.igeo", "kind": "word", "pos": "pron", "text": "이거", "zh": "这个", "features": { "roman": "igeo" }, "noteZh": "离说话人近的东西;이거 뭐예요?= 这是什么?;书面写 이것。" },
+        { "id": "ko.geugeo", "kind": "word", "pos": "pron", "text": "그거", "zh": "那个(离你近的)", "features": { "roman": "geugeo" }, "noteZh": "指对方手边的东西,或者刚才提到的东西;书面写 그것。" },
+        { "id": "ko.jeogeo", "kind": "word", "pos": "pron", "text": "저거", "zh": "那个(离我们都远的)", "features": { "roman": "jeogeo" }, "noteZh": "离你我都远、但看得见的东西;书面写 저것。" },
+        { "id": "ko.nugu", "kind": "word", "pos": "pron", "text": "누구", "zh": "谁", "features": { "roman": "nugu" }, "noteZh": "누구예요?= 是谁?;누구 거예요?= 是谁的?" },
+        { "id": "ko.chaek", "kind": "word", "pos": "noun", "text": "책", "zh": "书", "features": { "roman": "chaek" }, "noteZh": "汉字词 册;收音 ㄱ 不爆破;한국어 책 = 韩语书。" },
+        { "id": "ko.gabang", "kind": "word", "pos": "noun", "text": "가방", "zh": "包;书包", "features": { "roman": "gabang" }, "noteZh": "书包、手提包、背包都叫 가방。" },
+        { "id": "ko.hyudaepon", "kind": "word", "pos": "noun", "text": "휴대폰", "zh": "手机", "alt": ["핸드폰"], "features": { "roman": "hyudaepon" }, "noteZh": "携带 + phone;口语也常说 핸드폰。" },
+        { "id": "ko.sajin", "kind": "word", "pos": "noun", "text": "사진", "zh": "照片", "features": { "roman": "sajin" }, "noteZh": "汉字词 写真(“照片”的意思,不是中文的“写真”)。" }
+      ],
+      "reviewItems": ["ko.mwo", "ko.junggugeo", "ko.ssi"]
+    },
+    {
+      "id": "ko.a1u3.l04", "lang": "ko", "type": "grammar", "cefr": "A1", "unit": "A1-3 自我介绍与家人", "order": 103040,
+      "titleZh": "你有兄弟姐妹吗?",
+      "goalZh": "会用 N이/가 있어요 / 없어요 说“有 / 没有”,会说兄弟姐妹",
+      "canDoZh": "能问别人有没有兄弟姐妹,并介绍自己家有谁",
+      "scenarioZh": "秀雅(sua)给陈静看全家福:“우리 가족이에요.”。照片里有秀雅的爸爸、妈妈和哥哥(오빠,23 岁,在服兵役)。陈静问“언니 있어요?”——“아니요, 언니는 없어요. 오빠가 있어요.”;秀雅问陈静“동생 있어요?”——陈静是独生女:“동생 없어요. 언니도 없어요.”。课文至少 10 句。",
+      "grammarFocusZh": "N이/가 있어요 / 없어요 = 有 / 没有 N。이/가 是主语助词:有收音用 이(동생이),没有用 가(언니가、오빠가)。对比 은/는:은/는 说话题、带对比(언니는 없어요,오빠가 있어요——姐姐没有,哥哥有)。口语里常省略助词:동생 있어요?。称呼要看说话人的性别:女生说 언니、오빠,男生说 누나、형(下一课)。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.gajok", "kind": "word", "pos": "noun", "text": "가족", "zh": "家人;家庭", "features": { "roman": "gajok" }, "noteZh": "汉字词 家族;우리 가족 = 我的家人(韩国人说自己家常用 우리)。" },
+        { "id": "ko.eomma", "kind": "word", "pos": "noun", "text": "엄마", "zh": "妈妈(口语)", "features": { "roman": "eomma" }, "noteZh": "和 아빠 相对;正式说 어머니(下一课)。" },
+        { "id": "ko.eonni", "kind": "word", "pos": "noun", "text": "언니", "zh": "姐姐(女生叫)", "features": { "roman": "eonni" }, "noteZh": "女生称呼姐姐或亲近的年长女性;男生叫姐姐用 누나。" },
+        { "id": "ko.dongsaeng", "kind": "word", "pos": "noun", "text": "동생", "zh": "弟弟或妹妹", "features": { "roman": "dongsaeng" }, "noteZh": "汉字词 同生;不分男女,要说清楚用 남동생 / 여동생。" },
+        { "id": "ko.namdongsaeng", "kind": "word", "pos": "noun", "text": "남동생", "zh": "弟弟", "features": { "roman": "namdongsaeng" }, "noteZh": "남(男)+ 동생。" },
+        { "id": "ko.yeodongsaeng", "kind": "word", "pos": "noun", "text": "여동생", "zh": "妹妹", "features": { "roman": "yeodongsaeng" }, "noteZh": "여(女)+ 동생。" },
+        { "id": "ko.isseoyo", "kind": "word", "pos": "verb", "text": "있어요", "zh": "有;在", "features": { "roman": "isseoyo" }, "noteZh": "原形 있다;连音读 [이써요]。N이/가 있어요 = 有 N;第 6 单元学“在哪儿”:학교에 있어요。" },
+        { "id": "ko.eopseoyo", "kind": "word", "pos": "verb", "text": "없어요", "zh": "没有;不在", "features": { "roman": "eopseoyo" }, "noteZh": "原形 없다;读 [업써요]。和 있어요 相对。" }
+      ],
+      "reviewItems": ["ko.appa", "ko.oppa", "ko.sajin", "ko.uri"]
+    },
+    {
+      "id": "ko.a1u3.l05", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-3 自我介绍与家人", "order": 103050,
+      "titleZh": "我家有奶奶、爸爸妈妈和姐姐",
+      "goalZh": "会用 하고 / 와·과 列举家人,用 그리고 连接句子",
+      "canDoZh": "能看着照片向朋友介绍自己的家人:有谁、谁是谁",
+      "scenarioZh": "第一次语言交换。经营学专业的大二学生李敏俊(minjun)在学校咖啡店给陈静看家人照片:“할머니하고 부모님이에요. 그리고 누나예요.”(他和奶奶、父母、25 岁的姐姐住在首尔)。南(nam)也来了,说自己有哥哥和弟弟:“저는 형하고 남동생이 있어요.”。陈静介绍自己的家:“아버지와 어머니, 그리고 저예요.”。课文至少 10 句。",
+      "grammarFocusZh": "“和”的三种说法:N하고 N(口语最常用);N와/과 N(书面、正式:无收音用 와、有收音用 과——아버지와 어머니、동생과 저);连接两个句子用 그리고。敬语名词:说父母一般用 부모님;어머니 / 아버지 比 엄마 / 아빠 正式。韩语奶奶、外婆不分,都叫 할머니。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.eomeoni", "kind": "word", "pos": "noun", "text": "어머니", "zh": "母亲;妈妈(正式)", "features": { "roman": "eomeoni" }, "noteZh": "比 엄마 正式;向别人介绍自己的母亲、写文章时用。" },
+        { "id": "ko.abeoji", "kind": "word", "pos": "noun", "text": "아버지", "zh": "父亲;爸爸(正式)", "features": { "roman": "abeoji" }, "noteZh": "比 아빠 正式;两个元音之间的 ㅂ、ㅈ 变浊。" },
+        { "id": "ko.hyeong", "kind": "word", "pos": "noun", "text": "형", "zh": "哥哥(男生叫)", "features": { "roman": "hyeong" }, "noteZh": "汉字词 兄;男生称呼哥哥或亲近的年长男性,女生叫 오빠。" },
+        { "id": "ko.nuna", "kind": "word", "pos": "noun", "text": "누나", "zh": "姐姐(男生叫)", "features": { "roman": "nuna" }, "noteZh": "男生称呼姐姐或亲近的年长女性,女生叫 언니。" },
+        { "id": "ko.halmeoni", "kind": "word", "pos": "noun", "text": "할머니", "zh": "奶奶;外婆", "features": { "roman": "halmeoni" }, "noteZh": "韩语日常不分父系母系,奶奶、外婆都叫 할머니;街上的老奶奶也可以这样称呼。" },
+        { "id": "ko.harabeoji", "kind": "word", "pos": "noun", "text": "할아버지", "zh": "爷爷;外公", "features": { "roman": "harabeoji" }, "noteZh": "连音读 [하라버지]。" },
+        { "id": "ko.bumonim", "kind": "word", "pos": "noun", "text": "부모님", "zh": "父母(尊称)", "features": { "roman": "bumonim" }, "noteZh": "汉字词 父母 + 님;说起父母一般都加 님。" },
+        { "id": "ko.geurigo", "kind": "word", "pos": "conj", "text": "그리고", "zh": "还有;而且;然后", "features": { "roman": "geurigo" }, "noteZh": "连接两个句子,放在第二句开头;连接两个名词用 하고 或 와/과。" }
+      ],
+      "reviewItems": ["ko.gajok", "ko.isseoyo", "ko.namdongsaeng", "ko.chingu"]
+    },
+    {
+      "id": "ko.a1u3.l08", "lang": "ko", "type": "reading", "cefr": "A1", "unit": "A1-3 自我介绍与家人", "order": 103080,
+      "titleZh": "单元复习:我的自我介绍",
+      "goalZh": "读懂并会讲一段 합니다体的自我介绍,复习本单元的名字、国家、家人",
+      "canDoZh": "能在全班面前用 합니다体做一段 1 分钟的自我介绍:名字、国家和家乡、家人、专业",
+      "scenarioZh": "朴老师布置“자기소개”发言作业。陈静(jing,第一人称)写好稿子在课上朗读:“여러분, 안녕하세요? 저는 천징입니다. 중국 사람입니다. 고향은 항저우입니다.”;介绍家人(爸爸、妈妈和自己,没有兄弟姐妹),说明年要读大学的经营学专业,介绍室友秀雅和朋友南、敏俊,最后说“잘 부탁드립니다. 감사합니다.”。至少 10 句。",
+      "grammarFocusZh": "합니다体的“是”:N입니다 / N입니까?(正式场合:发言、面试、广播)。저는 천징입니다 = 저는 천징이에요,意思一样,只是更正式。复习 은/는、이에요/예요、이/가 있어요/없어요、하고 / 와·과 / 그리고。朗读时句号处停顿、입니다 读 [임니다]。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.jeongong", "kind": "word", "pos": "noun", "text": "전공", "zh": "专业", "features": { "roman": "jeongong" }, "noteZh": "汉字词 专攻;问专业:전공이 뭐예요?" },
+        { "id": "ko.gyeongyeonghak", "kind": "word", "pos": "noun", "text": "경영학", "zh": "工商管理;经营学", "features": { "roman": "gyeongyeonghak" }, "noteZh": "汉字词 经营学;경영학과 = 经营学系。" },
+        { "id": "ko.daehakgyo", "kind": "word", "pos": "noun", "text": "대학교", "zh": "大学", "features": { "roman": "daehakgyo" }, "noteZh": "汉字词 大学校;紧音化读 [대학꾜]。" },
+        { "id": "ko.yeoreobun", "kind": "word", "pos": "pron", "text": "여러분", "zh": "大家;各位", "features": { "roman": "yeoreobun" }, "noteZh": "对很多人说话时的开头:여러분, 안녕하세요?" }
+      ],
+      "reviewItems": ["ko.gohyang", "ko.yuhaksaeng", "ko.jal_butakdeurimnida", "ko.bumonim"]
+    }
+  ]
+}

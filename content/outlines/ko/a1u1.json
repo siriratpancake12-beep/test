@@ -1,0 +1,130 @@
+{
+  "lang": "ko",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-1 谚文:元音和辅音", "cefr": "A1", "themeZh": "飞往首尔、住进宿舍的头两天:学会全部基本元音、Y 系元音、ㅐ/ㅔ 和 19 个辅音,分清松音、送气音、紧音,能拼读简单的词,最后在咖啡店用 ○○ 주세요 点一杯饮料" }
+  ],
+  "lessons": [
+    {
+      "id": "ko.a1u1.l01", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-1 谚文:元音和辅音", "order": 101010,
+      "titleZh": "第一个韩文字:基本元音",
+      "goalZh": "认识谚文的方块结构,会读、会写 6 个基本元音和占位的 ㅇ",
+      "canDoZh": "能读出、写出 아 어 오 우 으 이,拼读 아이(孩子)、오이(黄瓜)",
+      "scenarioZh": "陈静坐在飞往首尔的飞机上,打开语途学第一课。座位屏幕上的韩文一个也不认识;邻座的韩国小朋友在画本上写 아이、오이,陈静跟着念。课文用 narrator 和陈静(jing)逐个读元音、读词,只用本课的字母。",
+      "grammarFocusZh": "谚文的结构:一个方块字 = 初声辅音 + 中声元音(+ 收音)。元音不能单独成字,前面用不发音的 ㅇ 占位(아、이)。竖元音 ㅏ ㅓ ㅣ 写在右边,横元音 ㅗ ㅜ ㅡ 写在下边。难点对比:ㅓ / ㅗ(张嘴不圆唇 / 圆唇)、ㅜ / ㅡ(圆唇 / 扁唇)。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.jamo_a", "kind": "char", "pos": "char", "text": "ㅏ", "zh": "元音 a,像汉语“啊”", "features": { "roman": "a" }, "noteZh": "竖元音:竖线在左、短横朝右,写在辅音右边(아)。" },
+        { "id": "ko.jamo_eo", "kind": "char", "pos": "char", "text": "ㅓ", "zh": "元音 eo,张大嘴、不圆唇的“喔”", "features": { "roman": "eo" }, "noteZh": "中国学习者最容易和 ㅗ 混:ㅓ 嘴巴张开、嘴唇不圆,ㅗ 嘴唇收圆往前突。短横朝左。" },
+        { "id": "ko.jamo_o", "kind": "char", "pos": "char", "text": "ㅗ", "zh": "元音 o,圆唇的“哦”", "features": { "roman": "o" }, "noteZh": "横元音,写在辅音下边(오);短竖朝上。" },
+        { "id": "ko.jamo_u", "kind": "char", "pos": "char", "text": "ㅜ", "zh": "元音 u,像“乌”", "features": { "roman": "u" }, "noteZh": "横元音,短竖朝下(우),和 ㅗ 方向相反。" },
+        { "id": "ko.jamo_eu", "kind": "char", "pos": "char", "text": "ㅡ", "zh": "元音 eu,嘴唇扁平的“呃”", "features": { "roman": "eu" }, "noteZh": "汉语里没有完全一样的音:嘴角向两边拉开、嘴唇不圆,像“资”的韵母。外来词常用它补音:주스(果汁)。" },
+        { "id": "ko.jamo_i", "kind": "char", "pos": "char", "text": "ㅣ", "zh": "元音 i,像“衣”", "features": { "roman": "i" }, "noteZh": "一条竖线,写在辅音右边(이)。" },
+        { "id": "ko.jamo_ng", "kind": "char", "pos": "char", "text": "ㅇ", "zh": "初声不发音(占位);作收音读 ng", "features": { "roman": "-/ng" }, "noteZh": "元音前面要加 ㅇ 才能成字:아、오、이;写在字的下面(收音)读 ng,如 앙(第 2 单元)。从顶部逆时针一笔画圈。" },
+        { "id": "ko.ai", "kind": "word", "pos": "noun", "text": "아이", "zh": "孩子;小孩", "features": { "roman": "ai" }, "noteZh": "两个字 아 + 이,每个字都用 ㅇ 占位。" },
+        { "id": "ko.oi", "kind": "word", "pos": "noun", "text": "오이", "zh": "黄瓜", "features": { "roman": "oi" }, "noteZh": "오 嘴唇要圆;不要读成一个音节“噢衣”连在一起,是两拍。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "ko.a1u1.l02", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-1 谚文:元音和辅音", "order": 101020,
+      "titleZh": "拼出 가나다:基本辅音",
+      "goalZh": "会读、会写 8 个基本辅音,和元音拼成方块字",
+      "canDoZh": "能拼读 가나다라마바사자 这类音节,说出 저(我)、우리(我们)",
+      "scenarioZh": "仁川机场到首尔的大巴上,陈静把新学的辅音和元音排成拼读表,一行一行地念(가 거 고 구 그 기……);窗外的牌子她已经能认出几个字。课文由 narrator 带读拼读表,陈静读出 저、우리。",
+      "grammarFocusZh": "辅音 + 元音 = 一个音节:ㄱ + ㅏ = 가。平音 ㄱ ㄷ ㅂ ㅈ 在词首读得清、不送气(介于汉语 g/k、d/t、b/p、j/q 之间),在两个元音之间变浊(아기、바다)。ㄹ 在元音前舌尖轻弹一下,不卷舌。ㅅ 在 ㅣ 前读得像“西”的声母。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.jamo_g", "kind": "char", "pos": "char", "text": "ㄱ", "zh": "辅音 g/k,不送气,像“哥”的声母", "features": { "roman": "g/k" }, "noteZh": "词首读得像清一点的“哥”,两个元音之间变浊像 g。写在元音左边时拐弯(가),写在上面时直一些(고)。" },
+        { "id": "ko.jamo_n", "kind": "char", "pos": "char", "text": "ㄴ", "zh": "辅音 n,像“呢”的声母", "features": { "roman": "n" }, "noteZh": "先竖后横,一笔写成。" },
+        { "id": "ko.jamo_d", "kind": "char", "pos": "char", "text": "ㄷ", "zh": "辅音 d/t,不送气,像“得”的声母", "features": { "roman": "d/t" }, "noteZh": "词首读得清,两个元音之间变浊:바다 听起来像 bada。" },
+        { "id": "ko.jamo_r", "kind": "char", "pos": "char", "text": "ㄹ", "zh": "辅音 r/l:元音前轻弹舌,收音读 l", "features": { "roman": "r/l" }, "noteZh": "元音前舌尖轻轻弹一下上齿龈(나라 [nara]),不卷舌,不是汉语的 r;作收音时读 l(第 2 单元)。" },
+        { "id": "ko.jamo_m", "kind": "char", "pos": "char", "text": "ㅁ", "zh": "辅音 m,像“妈”的声母", "features": { "roman": "m" }, "noteZh": "写成一个小方框,三笔。" },
+        { "id": "ko.jamo_b", "kind": "char", "pos": "char", "text": "ㅂ", "zh": "辅音 b/p,不送气,像“波”的声母", "features": { "roman": "b/p" }, "noteZh": "词首读得清,两个元音之间变浊;四笔写成,和送气的 ㅍ 形状不同。" },
+        { "id": "ko.jamo_s", "kind": "char", "pos": "char", "text": "ㅅ", "zh": "辅音 s,像“丝”的声母", "features": { "roman": "s" }, "noteZh": "在 ㅣ、ㅑ、ㅕ、ㅛ、ㅠ 前读得像“西”的声母:시 [ɕi]。" },
+        { "id": "ko.jamo_j", "kind": "char", "pos": "char", "text": "ㅈ", "zh": "辅音 j,不送气,像“鸡”的声母", "features": { "roman": "j" }, "noteZh": "不要读成英语 j 那样卷舌;印刷体常写成 ㅈ,手写可以写成“ス”的样子。" },
+        { "id": "ko.jeo", "kind": "word", "pos": "pron", "text": "저", "zh": "我(谦称,礼貌场合用)", "features": { "roman": "jeo" }, "noteZh": "对老师、长辈、店员、初次见面的人说“我”都用 저;和熟朋友之间用 나(以后学)。注意是 ㅓ:不读“揍”。" },
+        { "id": "ko.uri", "kind": "word", "pos": "pron", "text": "우리", "zh": "我们;我们的", "features": { "roman": "uri" }, "noteZh": "韩国人说“我家、我妈妈、我们国家”常用 우리:우리 엄마、우리 나라。ㄹ 在两个元音之间轻弹。" }
+      ],
+      "reviewItems": ["ko.jamo_a", "ko.jamo_eo", "ko.jamo_ng"]
+    },
+    {
+      "id": "ko.a1u1.l03", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-1 谚文:元音和辅音", "order": 101030,
+      "titleZh": "네 还是 아니요?Y 系元音和 ㅐ ㅔ",
+      "goalZh": "会读、会写 ㅑ ㅕ ㅛ ㅠ 和 ㅐ ㅔ ㅒ ㅖ,会用 네 / 아니요 回答",
+      "canDoZh": "能用 네(是)和 아니요(不是)回答别人的确认问题",
+      "scenarioZh": "陈静到宿舍办公室报到。工作人员(staff)对着名单确认:“천징?”——“네.”;又指着另一张表上的名字问,陈静说“아니요.”。课文 6–8 句,工作人员只说名字和 네 / 아니요,其余由 narrator 带读字母。",
+      "grammarFocusZh": "Y 系元音 = 基本元音加一短笔:ㅏ→ㅑ、ㅓ→ㅕ、ㅗ→ㅛ、ㅜ→ㅠ(前面多一个 y 音)。ㅐ 和 ㅔ、ㅒ 和 ㅖ 在现代首尔话里读音基本相同,只能靠记拼写。应答:네 / 아니요;아니요 口语常缩成 아뇨。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.jamo_ya", "kind": "char", "pos": "char", "text": "ㅑ", "zh": "元音 ya,像“呀”", "features": { "roman": "ya" }, "noteZh": "ㅏ 上再加一短横 = 前面多一个 y 音。" },
+        { "id": "ko.jamo_yeo", "kind": "char", "pos": "char", "text": "ㅕ", "zh": "元音 yeo,张嘴不圆唇的“哟”", "features": { "roman": "yeo" }, "noteZh": "= y + ㅓ,嘴唇不圆;和圆唇的 ㅛ 对比:여 / 요。" },
+        { "id": "ko.jamo_yo", "kind": "char", "pos": "char", "text": "ㅛ", "zh": "元音 yo,圆唇的“哟”", "features": { "roman": "yo" }, "noteZh": "= y + ㅗ。해요体的句子都以 요 结尾:네요、주세요。" },
+        { "id": "ko.jamo_yu", "kind": "char", "pos": "char", "text": "ㅠ", "zh": "元音 yu,像“优”", "features": { "roman": "yu" }, "noteZh": "= y + ㅜ,两个短竖朝下:우유(牛奶)。" },
+        { "id": "ko.jamo_ae", "kind": "char", "pos": "char", "text": "ㅐ", "zh": "元音 ae,像“诶”(嘴稍大)", "features": { "roman": "ae" }, "noteZh": "现代首尔话里 ㅐ 和 ㅔ 几乎读成一样,都像“诶”,只能靠记拼写:개(狗)/ 게(螃蟹)。" },
+        { "id": "ko.jamo_e", "kind": "char", "pos": "char", "text": "ㅔ", "zh": "元音 e,像“诶”", "features": { "roman": "e" }, "noteZh": "写法:ㅓ 右边加一竖;和 ㅐ(ㅏ 右边加一竖)区分写法。" },
+        { "id": "ko.jamo_yae", "kind": "char", "pos": "char", "text": "ㅒ", "zh": "元音 yae,像“耶”", "features": { "roman": "yae" }, "noteZh": "很少见,几乎只出现在 얘(这孩子)这类词里;读音和 ㅖ 基本一样。" },
+        { "id": "ko.jamo_ye", "kind": "char", "pos": "char", "text": "ㅖ", "zh": "元音 ye,像“耶”", "features": { "roman": "ye" }, "noteZh": "예(是,比 네 正式)里就是这个音;在 ㅇ 以外的辅音后常读成 ㅔ:시계 [시게](钟表)。" },
+        { "id": "ko.ne", "kind": "word", "pos": "interj", "text": "네", "zh": "是;好的;嗯(应答)", "features": { "roman": "ne" }, "noteZh": "最常用的应答:回答“是”、答应、被点名、接电话都说 네。读成 ne,别和汉语“呢”的轻声混。" },
+        { "id": "ko.aniyo", "kind": "word", "pos": "interj", "text": "아니요", "zh": "不;不是", "alt": ["아뇨"], "features": { "roman": "aniyo" }, "noteZh": "口语里常缩成 아뇨 [anyo]。拒绝别人的好意时直接说 아니요 有点生硬,后面最好加一句理由或 괜찮아요(第 2 单元)。" }
+      ],
+      "reviewItems": ["ko.jamo_o", "ko.jamo_n", "ko.jeo"]
+    },
+    {
+      "id": "ko.a1u1.l04", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-1 谚文:元音和辅音", "order": 101040,
+      "titleZh": "커피 还是 차?送气音",
+      "goalZh": "会读、会写送气音 ㅊ ㅋ ㅌ ㅍ 和 ㅎ,听得出松音和送气音的区别",
+      "canDoZh": "能看懂菜单上的 커피(咖啡)、차(茶),在便利店认出 휴지(纸巾)",
+      "scenarioZh": "宿舍楼下有一家小咖啡店和一家便利店。陈静站在咖啡店门口念菜单板上的 커피、차,又在便利店货架上找到 휴지。课文由 narrator 和陈静读招牌、读菜单,加入 가 / 카、다 / 타 的对比听辨。",
+      "grammarFocusZh": "松音和送气音的对立:ㄱ/ㅋ、ㄷ/ㅌ、ㅂ/ㅍ、ㅈ/ㅊ。送气音 = 松音加一笔,发音时强送气(手放嘴前能感到气流)。中国学习者容易把词首的松音也读成送气音(把 가 读成 카),松音要读得轻、气流弱。ㅎ 比汉语的 h 轻。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 13,
+      "newItems": [
+        { "id": "ko.jamo_ch", "kind": "char", "pos": "char", "text": "ㅊ", "zh": "送气音 ch,像“七”的声母", "features": { "roman": "ch" }, "noteZh": "= ㅈ 上加一短笔,用力送气:자 / 차。" },
+        { "id": "ko.jamo_k", "kind": "char", "pos": "char", "text": "ㅋ", "zh": "送气音 k,像“科”的声母", "features": { "roman": "k" }, "noteZh": "= ㄱ 中间加一横,强送气:기 / 키。" },
+        { "id": "ko.jamo_t", "kind": "char", "pos": "char", "text": "ㅌ", "zh": "送气音 t,像“特”的声母", "features": { "roman": "t" }, "noteZh": "= ㄷ 中间加一横,强送气:다 / 타。" },
+        { "id": "ko.jamo_p", "kind": "char", "pos": "char", "text": "ㅍ", "zh": "送气音 p,像“坡”的声母", "features": { "roman": "p" }, "noteZh": "写法是“工”字形,和 ㅂ 不像;强送气:바 / 파。" },
+        { "id": "ko.jamo_h", "kind": "char", "pos": "char", "text": "ㅎ", "zh": "辅音 h,像轻轻的“喝”", "features": { "roman": "h" }, "noteZh": "比汉语的 h 轻,喉咙里没有摩擦;在两个元音之间常弱化(第 2 单元讲)。" },
+        { "id": "ko.keopi", "kind": "word", "pos": "noun", "text": "커피", "zh": "咖啡", "features": { "roman": "keopi" }, "noteZh": "外来词 coffee;第一个字是 ㅓ 不是 ㅗ,不读“扣皮”。" },
+        { "id": "ko.cha", "kind": "word", "pos": "noun", "text": "차", "zh": "茶;汽车", "features": { "roman": "cha" }, "noteZh": "汉字词:茶、车 都读 차,看上下文分辨。送气要足,不要读成 자。" },
+        { "id": "ko.hyuji", "kind": "word", "pos": "noun", "text": "휴지", "zh": "纸巾;卫生纸", "features": { "roman": "hyuji" }, "noteZh": "汉字词 休纸。在便利店、餐厅要纸巾就说 휴지(本单元复习课学 주세요)。" }
+      ],
+      "reviewItems": ["ko.jamo_g", "ko.jamo_d", "ko.jamo_j", "ko.ne"]
+    },
+    {
+      "id": "ko.a1u1.l05", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-1 谚文:元音和辅音", "order": 101050,
+      "titleZh": "아빠 和 오빠:紧音",
+      "goalZh": "会读、会写紧音 ㄲ ㄸ ㅃ ㅆ ㅉ,分清松音、送气音、紧音三组对立",
+      "canDoZh": "能用“名字 + 씨”礼貌地称呼别人,听懂 아빠(爸爸)、오빠(哥哥)",
+      "scenarioZh": "室友金秀雅(sua)拖着行李箱进门,两人互相叫“천징 씨”“수아 씨”;秀雅给陈静看手机里的照片,指着说“아빠”“오빠”。课文 6–8 句,只用名字、씨、네、아니요 和本课的词;narrator 带读 가 / 카 / 까 三组对比。",
+      "grammarFocusZh": "三组对立的最后一组:紧音 ㄲ ㄸ ㅃ ㅆ ㅉ(两个松音并排写)。同一个发音位置三种音:가(松,轻、略带气)/ 카(送气,气流强)/ 까(紧,喉咙绷紧、不送气、音调偏高);사 / 싸 只有松紧两种。称呼:名字 + 씨,不能用在自己身上。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.jamo_kk", "kind": "char", "pos": "char", "text": "ㄲ", "zh": "紧音 kk:喉咙绷紧、不送气", "features": { "roman": "kk" }, "noteZh": "两个 ㄱ 并排写;像把“嘎”说得又短又硬:까。" },
+        { "id": "ko.jamo_tt", "kind": "char", "pos": "char", "text": "ㄸ", "zh": "紧音 tt", "features": { "roman": "tt" }, "noteZh": "两个 ㄷ 并排;像又短又硬的“大”:따。" },
+        { "id": "ko.jamo_pp", "kind": "char", "pos": "char", "text": "ㅃ", "zh": "紧音 pp", "features": { "roman": "pp" }, "noteZh": "两个 ㅂ 并排;像又短又硬的“爸”:빠。" },
+        { "id": "ko.jamo_ss", "kind": "char", "pos": "char", "text": "ㅆ", "zh": "紧音 ss", "features": { "roman": "ss" }, "noteZh": "两个 ㅅ 并排;舌尖用力、不送气:사 / 싸。씨 里就是这个音。" },
+        { "id": "ko.jamo_jj", "kind": "char", "pos": "char", "text": "ㅉ", "zh": "紧音 jj", "features": { "roman": "jj" }, "noteZh": "两个 ㅈ 并排;像短而硬的“砸”:짜(咸,第 4 单元)。" },
+        { "id": "ko.appa", "kind": "word", "pos": "noun", "text": "아빠", "zh": "爸爸(口语)", "features": { "roman": "appa" }, "noteZh": "年轻人对父亲的口语称呼;正式说 아버지(第 3 单元)。빠 要绷紧,别读成送气的 파。" },
+        { "id": "ko.oppa", "kind": "word", "pos": "noun", "text": "오빠", "zh": "哥哥(女生叫)", "features": { "roman": "oppa" }, "noteZh": "女生称呼哥哥或亲近的年长男性;男生叫哥哥用 형(第 3 单元)。韩剧里的“欧巴”就是它。" },
+        { "id": "ko.ssi", "kind": "word", "pos": "noun", "text": "씨", "zh": "……先生/女士(接在名字后)", "features": { "roman": "ssi" }, "noteZh": "接在全名或名字后表示礼貌:천징 씨、수아 씨;不能用在自己名字后,也不要只接在姓后(김 씨 有点不客气)。对老师说 선생님(第 2 单元)。" }
+      ],
+      "reviewItems": ["ko.jamo_s", "ko.jamo_ch", "ko.uri"]
+    },
+    {
+      "id": "ko.a1u1.l08", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-1 谚文:元音和辅音", "order": 101080,
+      "titleZh": "单元复习:点一杯饮料",
+      "goalZh": "复习全部已学字母,在真实场景里读菜单、用 ○○ 주세요 点饮料",
+      "canDoZh": "能看懂简单的饮料菜单,用 ○○ 주세요 点一杯咖啡、茶、牛奶或果汁",
+      "scenarioZh": "第二天早上,陈静和秀雅(sua)走进宿舍楼下的小咖啡店(就是以后陈静打工的那家),老板崔永洙(choi)站在柜台后。陈静读菜单:커피、차、우유、주스;她点“커피 주세요.”,秀雅点“주스 주세요.”;老板说“네.”,做好后递过来说“여기요.”。课文至少 8 句,每句都要写 roman。",
+      "grammarFocusZh": "名词 + 주세요 = 请给我……(买东西、点餐通用)。复习松音 / 送气音 / 紧音:주스 的 ㅈ 不送气、차 的 ㅊ 送气。여기요 两种用法:递东西时“给您”,在店里叫人时“这里!”。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ko.juseyo", "kind": "phrase", "pos": "phrase", "text": "주세요", "zh": "请给我……", "features": { "roman": "juseyo" }, "noteZh": "买东西、点餐最有用的一句:名词放前面,주세요 放最后,커피 주세요(请给我咖啡)。" },
+        { "id": "ko.yeogiyo", "kind": "phrase", "pos": "phrase", "text": "여기요", "zh": "给您(递东西);这里!(叫服务员)", "features": { "roman": "yeogiyo" }, "noteZh": "店员递东西时说 여기요(给您);在餐厅想叫服务员,也可以喊 여기요!" },
+        { "id": "ko.uyu", "kind": "word", "pos": "noun", "text": "우유", "zh": "牛奶", "features": { "roman": "uyu" }, "noteZh": "汉字词 牛乳;两个字都用 ㅇ 占位:우 + 유。" },
+        { "id": "ko.juseu", "kind": "word", "pos": "noun", "text": "주스", "zh": "果汁", "features": { "roman": "juseu" }, "noteZh": "外来词 juice;스 是扁唇的 seu,不读“斯”。" }
+      ],
+      "reviewItems": ["ko.keopi", "ko.cha", "ko.ne", "ko.ssi"]
+    }
+  ]
+}

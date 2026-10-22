@@ -1,0 +1,130 @@
+{
+  "lang": "ko",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-4 吃喝", "cefr": "A1", "themeZh": "吃吃喝喝:在便利店买东西、刷卡,在咖啡店点饮料,开始在崔老板的咖啡店打工,去饭馆点菜、问辣不辣、说味道,最后和室友去吃夜宵、自己结账" }
+  ],
+  "lessons": [
+    {
+      "id": "ko.a1u4.l01", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104010,
+      "titleZh": "便利店里有紫菜包饭吗?",
+      "goalZh": "会在便利店问有没有某样东西、买东西、回答店员的问题、问能不能刷卡",
+      "canDoZh": "能独自在便利店买晚饭:问“有……吗?”,回答要不要袋子,问能不能刷卡",
+      "scenarioZh": "晚上,陈静(jing)去宿舍楼下的便利店买晚饭。她问店员(clerk)“김밥 있어요?”——“네, 여기 있어요.”;又拿了方便面和水。结账时店员问“봉투 필요하세요?”——“아니요, 괜찮아요.”;陈静问“카드 돼요?”——“네, 돼요.”;离开时说“안녕히 계세요”。课文至少 10 句。",
+      "grammarFocusZh": "N 있어요?= 有 N 吗?(在店里问有没有);N 주세요 = 请给我 N;N 돼요?= 可以用 N 吗?(카드 돼요?)。店员对客人用敬语 -(으)세요:필요하세요?(您需要吗?)——自己回答时不用敬语:필요해요 / 괜찮아요。礼貌地拒绝:아니요, 괜찮아요。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.pyeonuijeom", "kind": "word", "pos": "noun", "text": "편의점", "zh": "便利店", "features": { "roman": "pyeonuijeom" }, "noteZh": "汉字词 便宜店(“方便”的意思,不是便宜);读 [펴니점]:ㅢ 在辅音后读 [이]。" },
+        { "id": "ko.mul", "kind": "word", "pos": "noun", "text": "물", "zh": "水", "features": { "roman": "mul" }, "noteZh": "收音 ㄹ 读 l;韩国餐厅的水一般免费,常常要自己去拿。" },
+        { "id": "ko.ramyeon", "kind": "word", "pos": "noun", "text": "라면", "zh": "方便面", "features": { "roman": "ramyeon" }, "noteZh": "韩国的 라면 一般指方便面;便利店里可以用热水当场泡着吃。" },
+        { "id": "ko.gimbap", "kind": "word", "pos": "noun", "text": "김밥", "zh": "紫菜包饭", "features": { "roman": "gimbap" }, "noteZh": "김(紫菜)+ 밥(米饭);口语常读 [김빱]。" },
+        { "id": "ko.kadeu", "kind": "word", "pos": "noun", "text": "카드", "zh": "卡;银行卡", "features": { "roman": "kadeu" }, "noteZh": "外来词 card;韩国几乎所有店都能刷卡,交通卡也叫 카드。" },
+        { "id": "ko.bongtu", "kind": "word", "pos": "noun", "text": "봉투", "zh": "袋子;信封", "features": { "roman": "bongtu" }, "noteZh": "汉字词 封套;便利店的塑料袋要另付钱,店员常问 봉투 필요하세요?" },
+        { "id": "ko.piryohaeyo", "kind": "word", "pos": "adj", "text": "필요해요", "zh": "需要", "features": { "roman": "piryohaeyo" }, "noteZh": "原形 필요하다(汉字词 必要);N이/가 필요해요 = 需要 N。" },
+        { "id": "ko.yeogi", "kind": "word", "pos": "pron", "text": "여기", "zh": "这里", "features": { "roman": "yeogi" }, "noteZh": "여기 있어요 = 在这儿;递东西时也说“给您”。第 6 单元学 거기、저기。" },
+        { "id": "ko.dwaeyo", "kind": "word", "pos": "verb", "text": "돼요", "zh": "可以;行", "features": { "roman": "dwaeyo" }, "noteZh": "原形 되다;카드 돼요?= 能刷卡吗?回答 네, 돼요 或 안 돼요(不行)。ㅙ 读 we。" }
+      ],
+      "reviewItems": ["ko.juseyo", "ko.isseoyo", "ko.gwaenchanayo", "ko.annyeonghi_gyeseyo"]
+    },
+    {
+      "id": "ko.a1u4.l02", "lang": "ko", "type": "grammar", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104020,
+      "titleZh": "你喝什么?",
+      "goalZh": "会用 N을/를 + 动词 说“吃什么、喝什么、喜欢什么”,认识 해요体现在时的变化规则",
+      "canDoZh": "能在咖啡店问朋友喝什么、说自己想喝什么、喜欢吃什么",
+      "scenarioZh": "第二次语言交换,敏俊(minjun)带陈静去学校旁边的咖啡店(崔老板的店)。敏俊问“뭐 마셔요?”——陈静:“저는 녹차를 마셔요.”;敏俊:“저는 아메리카노를 좋아해요.”;两人又聊吃不吃面包。陈静发现店门口贴着招打工的告示。课文至少 10 句。",
+      "grammarFocusZh": "N을/를 + 动词:을/를 是宾语助词,有收音用 을(빵을),没有用 를(커피를);语序是“主语—宾语—动词”,动词放句末:저는 커피를 마셔요。해요体现在时:词干最后一个元音是 ㅏ/ㅗ 加 -아요,其他加 -어요,하다 变 해요——먹다 → 먹어요、마시다 → 마셔요(ㅣ + ㅓ 缩成 ㅕ)、좋아하다 → 좋아해요。뭐 마셔요?(喝什么?)",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.masyeoyo", "kind": "word", "pos": "verb", "text": "마셔요", "zh": "喝", "features": { "roman": "masyeoyo" }, "noteZh": "原形 마시다;N을/를 마셔요:커피를 마셔요。" },
+        { "id": "ko.meogeoyo", "kind": "word", "pos": "verb", "text": "먹어요", "zh": "吃", "features": { "roman": "meogeoyo" }, "noteZh": "原形 먹다;连音读 [머거요]。" },
+        { "id": "ko.joahaeyo", "kind": "word", "pos": "verb", "text": "좋아해요", "zh": "喜欢", "features": { "roman": "joahaeyo" }, "noteZh": "原形 좋아하다;N을/를 좋아해요 = 喜欢 N。和 좋아요(好)不同:커피를 좋아해요 = 我喜欢咖啡。读 [조아해요]。" },
+        { "id": "ko.kape", "kind": "word", "pos": "noun", "text": "카페", "zh": "咖啡店", "features": { "roman": "kape" }, "noteZh": "外来词 café;韩国大学周边咖啡店特别多,学生常在 카페 里学习。" },
+        { "id": "ko.amerikano", "kind": "word", "pos": "noun", "text": "아메리카노", "zh": "美式咖啡", "features": { "roman": "amerikano" }, "noteZh": "韩国最受欢迎的咖啡,一年四季都有很多人喝冰的。" },
+        { "id": "ko.kaperate", "kind": "word", "pos": "noun", "text": "카페라테", "zh": "拿铁", "alt": ["라테", "카페라떼"], "features": { "roman": "kaperate" }, "noteZh": "菜单上常写 카페라떼,标准写法是 카페라테;口语常说 라테。" },
+        { "id": "ko.nokcha", "kind": "word", "pos": "noun", "text": "녹차", "zh": "绿茶", "features": { "roman": "nokcha" }, "noteZh": "汉字词 绿茶;녹 的收音 ㄱ 不爆破。" },
+        { "id": "ko.ppang", "kind": "word", "pos": "noun", "text": "빵", "zh": "面包", "features": { "roman": "ppang" }, "noteZh": "紧音 ㅃ,不要读成送气的 팡;빵집 = 面包店。" }
+      ],
+      "reviewItems": ["ko.keopi", "ko.uyu", "ko.mwo", "ko.cha"]
+    },
+    {
+      "id": "ko.a1u4.l03", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104030,
+      "titleZh": "打工第一天:欢迎光临!",
+      "goalZh": "会用咖啡店柜台的固定说法接待顾客:欢迎、确认冷热和是否外带、请对方稍等",
+      "canDoZh": "能在咖啡店柜台接待一位顾客:说欢迎光临,问要冰的还是热的、是否打包,请对方稍等",
+      "scenarioZh": "陈静(jing)在崔老板(choi)的咖啡店开始打工。老板教她几句话:“어서 오세요”“잠깐만요”“여기 있어요”。第一位顾客(customer)说“아이스 아메리카노 주세요.”,陈静问“포장이에요?”——“네, 포장이요.”;第二位顾客要热拿铁:“따뜻한 카페라테 주세요.”,陈静说“네, 알겠습니다. 잠깐만요.”。下班时老板说“천징 씨, 고마워요.”。课文至少 12 句。",
+      "grammarFocusZh": "-(으)세요 的固定说法:어서 오세요(欢迎光临)——店员对客人用敬语,这里先整句记,第 6 单元系统学 -(으)세요。短答加 -요 更礼貌:포장이요、아이스요。修饰名词:따뜻한 + 名词(热的……):따뜻한 카페라테、따뜻한 거(热的)。接受指示说 알겠습니다(正式)/ 네(一般)。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.eoseo_oseyo", "kind": "phrase", "pos": "phrase", "text": "어서 오세요", "zh": "欢迎光临", "features": { "roman": "eoseo oseyo" }, "noteZh": "店员对进门的客人说;客人不用回答,点头或说 안녕하세요 就行。" },
+        { "id": "ko.sajangnim", "kind": "word", "pos": "noun", "text": "사장님", "zh": "老板", "features": { "roman": "sajangnim" }, "noteZh": "汉字词 社长 + 님;店主、公司老板都这样称呼,小店里的客人也常这样叫店主。" },
+        { "id": "ko.areubaiteu", "kind": "word", "pos": "noun", "text": "아르바이트", "zh": "打工;兼职", "alt": ["알바"], "features": { "roman": "areubaiteu" }, "noteZh": "来自德语 Arbeit;口语缩成 알바:카페에서 알바해요(在咖啡店打工)。" },
+        { "id": "ko.sonnim", "kind": "word", "pos": "noun", "text": "손님", "zh": "客人;顾客", "features": { "roman": "sonnim" }, "noteZh": "店员称呼客人就说 손님:손님, 여기 있어요。" },
+        { "id": "ko.aiseu", "kind": "word", "pos": "noun", "text": "아이스", "zh": "冰的(饮料)", "features": { "roman": "aiseu" }, "noteZh": "点冰饮:아이스 아메리카노 주세요;冰美式口语叫 아아。" },
+        { "id": "ko.ttatteutan", "kind": "word", "pos": "adj", "text": "따뜻한", "zh": "热的(饮料);温暖的", "features": { "roman": "ttatteutan" }, "noteZh": "原形 따뜻하다,这是修饰名词的形式:따뜻한 거(热的)。收音 ㅅ 碰上 ㅎ 变成送气音,读 [따뜨탄]。" },
+        { "id": "ko.pojang", "kind": "word", "pos": "noun", "text": "포장", "zh": "打包;外带", "features": { "roman": "pojang" }, "noteZh": "汉字词 包装;店员问 포장이에요?(带走吗?),回答 포장이요 或 여기서 먹어요(在这儿吃)。" },
+        { "id": "ko.jamkkanmanyo", "kind": "phrase", "pos": "phrase", "text": "잠깐만요", "zh": "请稍等;借过一下", "features": { "roman": "jamkkanmanyo" }, "noteZh": "让对方等一下、在人群里请别人让路都用;连音读 [잠깐마뇨]。" },
+        { "id": "ko.algetseumnida", "kind": "phrase", "pos": "phrase", "text": "알겠습니다", "zh": "知道了;好的(正式)", "alt": ["알겠어요"], "features": { "roman": "algetseumnida" }, "noteZh": "接受指示、订单时说,比 네 郑重;读 [알겓씀니다]。口语说 알겠어요。" }
+      ],
+      "reviewItems": ["ko.kape", "ko.amerikano", "ko.kaperate", "ko.yeogi"]
+    },
+    {
+      "id": "ko.a1u4.l04", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104040,
+      "titleZh": "这个辣吗?在饭馆点菜",
+      "goalZh": "会在饭馆叫服务员、看菜单点菜、问辣不辣,用 안 说否定",
+      "canDoZh": "能在韩国饭馆点两三个菜,问清楚辣不辣,说“不要辣的”",
+      "scenarioZh": "周六中午,陈静和南(nam)去学校附近的饭馆。陈静喊“저기요!”,服务员(server)拿来菜单:“여기 메뉴요.”。南问“김치찌개 매워요?”——“네, 매워요.”;南不太能吃辣:“그럼 불고기 주세요.”;陈静问“비빔밥 안 매워요?”,点了拌饭和米饭,又要了水。课文至少 12 句。",
+      "grammarFocusZh": "안 否定:안 + 动词/形容词 = 不……:안 매워요(不辣)、안 먹어요(不吃);“名词 + 하다”的动词,안 放在 하다 前面:공부 안 해요。点几样东西用 하고:비빔밥하고 불고기 주세요。그럼 + 决定:그럼 불고기 주세요(那就要烤肉吧)。맵다 → 매워요:ㅂ 变 우(ㅂ 不规则,先整个记)。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.sikdang", "kind": "word", "pos": "noun", "text": "식당", "zh": "饭馆;餐厅", "features": { "roman": "sikdang" }, "noteZh": "汉字词 食堂,在韩语里指一般饭馆;紧音化读 [식땅]。" },
+        { "id": "ko.menyu", "kind": "word", "pos": "noun", "text": "메뉴", "zh": "菜单;菜品", "features": { "roman": "menyu" }, "noteZh": "外来词 menu;纸质的菜单也叫 메뉴판。" },
+        { "id": "ko.bibimbap", "kind": "word", "pos": "noun", "text": "비빔밥", "zh": "拌饭", "features": { "roman": "bibimbap" }, "noteZh": "비비다(拌)+ 밥;辣酱可以自己少放。" },
+        { "id": "ko.bulgogi", "kind": "word", "pos": "noun", "text": "불고기", "zh": "烤肉(酱烤牛肉)", "features": { "roman": "bulgogi" }, "noteZh": "불(火)+ 고기(肉);甜咸口、不辣,适合不吃辣的人。" },
+        { "id": "ko.gimchijjigae", "kind": "word", "pos": "noun", "text": "김치찌개", "zh": "泡菜汤(泡菜锅)", "features": { "roman": "gimchijjigae" }, "noteZh": "찌개 = 带汤的炖菜;찌 是紧音 ㅉ。" },
+        { "id": "ko.bap", "kind": "word", "pos": "noun", "text": "밥", "zh": "米饭;饭", "features": { "roman": "bap" }, "noteZh": "单点米饭说 공기밥;熟人问 밥 먹었어요?(吃饭了吗?)是打招呼(第 8 单元)。" },
+        { "id": "ko.maewoyo", "kind": "word", "pos": "adj", "text": "매워요", "zh": "辣", "features": { "roman": "maewoyo" }, "noteZh": "原形 맵다,ㅂ 变 우:맵다 → 매워요;问辣不辣:매워요?" },
+        { "id": "ko.an", "kind": "word", "pos": "adv", "text": "안", "zh": "不(否定)", "features": { "roman": "an" }, "noteZh": "放在动词、形容词前面:안 매워요(不辣)、안 먹어요(不吃);和 이/가 아니에요(不是)分工不同。" },
+        { "id": "ko.geureom", "kind": "word", "pos": "conj", "text": "그럼", "zh": "那么;那样的话", "features": { "roman": "geureom" }, "noteZh": "接着对方的话做决定:그럼 불고기 주세요(那就要烤肉吧)。" }
+      ],
+      "reviewItems": ["ko.jeogiyo", "ko.mul", "ko.juseyo", "ko.meogeoyo"]
+    },
+    {
+      "id": "ko.a1u4.l05", "lang": "ko", "type": "grammar", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104050,
+      "titleZh": "真好吃!说味道",
+      "goalZh": "会用形容词的 해요体说味道,用 너무、조금、많이、진짜 说程度,懂饭桌礼仪",
+      "canDoZh": "能在饭桌上说“开动了”“吃好了”,评价菜好不好吃、咸不咸、甜不甜",
+      "scenarioZh": "敏俊(minjun)请陈静和秀雅(sua)吃饭。上菜后大家说“잘 먹겠습니다”;秀雅尝了泡菜汤:“진짜 맛있어요!”;陈静:“조금 매워요. 그리고 조금 짜요.”;敏俊推荐的甜点心太甜了:“너무 달아요!”;敏俊说“많이 먹어요!”。饭后大家说“잘 먹었습니다”。课文至少 10 句。",
+      "grammarFocusZh": "形容词和动词一样变 해요体,可以直接作谓语(不需要“是”):짜다 → 짜요、달다 → 달아요、맛있다 → 맛있어요。程度副词放在形容词前:너무 달아요(太甜)、조금 매워요(有点辣)、진짜 맛있어요(真好吃);많이 修饰动词:많이 먹어요(多吃)。否定:안 짜요;맛있어요 的反义是 맛없어요,不说 안 맛있어요。饭前 잘 먹겠습니다、饭后 잘 먹었습니다(固定说法)。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.masisseoyo", "kind": "word", "pos": "adj", "text": "맛있어요", "zh": "好吃", "features": { "roman": "masisseoyo" }, "noteZh": "맛(味道)+ 있어요;连音读 [마시써요]。" },
+        { "id": "ko.madeopseoyo", "kind": "word", "pos": "adj", "text": "맛없어요", "zh": "不好吃", "features": { "roman": "madeopseoyo" }, "noteZh": "读 [마덥써요];当着做饭的人说太直接。" },
+        { "id": "ko.jjayo", "kind": "word", "pos": "adj", "text": "짜요", "zh": "咸", "features": { "roman": "jjayo" }, "noteZh": "原形 짜다;紧音 ㅉ,别读成送气的 차요。" },
+        { "id": "ko.darayo", "kind": "word", "pos": "adj", "text": "달아요", "zh": "甜", "features": { "roman": "darayo" }, "noteZh": "原形 달다;连音读 [다라요]。" },
+        { "id": "ko.neomu", "kind": "word", "pos": "adv", "text": "너무", "zh": "太;非常", "features": { "roman": "neomu" }, "noteZh": "本来是“太(过分)”:너무 짜요;口语里也表示“非常”:너무 맛있어요。" },
+        { "id": "ko.jogeum", "kind": "word", "pos": "adv", "text": "조금", "zh": "一点;有点", "features": { "roman": "jogeum" }, "noteZh": "조금 매워요(有点辣);口语常缩成 좀(第 7 单元学 좀 的其他用法)。" },
+        { "id": "ko.mani", "kind": "word", "pos": "adv", "text": "많이", "zh": "多;很多地", "features": { "roman": "mani" }, "noteZh": "ㅎ 脱落读 [마니];主人对客人说 많이 드세요(多吃点)。" },
+        { "id": "ko.jinjja", "kind": "word", "pos": "adv", "text": "진짜", "zh": "真的;真", "features": { "roman": "jinjja" }, "noteZh": "口语:진짜 맛있어요!;升调 진짜?= 真的吗?;书面语说 정말。" },
+        { "id": "ko.jal_meokgetseumnida", "kind": "phrase", "pos": "phrase", "text": "잘 먹겠습니다", "zh": "我开动了(饭前说)", "features": { "roman": "jal meokgetseumnida" }, "noteZh": "饭前对请客的人或一起吃饭的人说;读 [잘 먹껟씀니다]。" },
+        { "id": "ko.jal_meogeotseumnida", "kind": "phrase", "pos": "phrase", "text": "잘 먹었습니다", "zh": "我吃好了;谢谢款待(饭后说)", "features": { "roman": "jal meogeotseumnida" }, "noteZh": "饭后对请客的人说;离开饭馆时对老板说也很自然。读 [잘 머거씀니다]。" }
+      ],
+      "reviewItems": ["ko.maewoyo", "ko.an", "ko.gimchijjigae", "ko.joayo"]
+    },
+    {
+      "id": "ko.a1u4.l08", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104080,
+      "titleZh": "单元复习:夜宵吃辣炒年糕",
+      "goalZh": "把本单元的点餐、问辣不辣、说味道、刷卡结账串起来,完成一次完整的用餐",
+      "canDoZh": "能和朋友一起去小吃店:点菜、问辣不辣、评价味道,最后自己结账",
+      "scenarioZh": "晚上十点,秀雅(sua)说“배고파요!”,陈静说“같이 먹어요!”。两人去宿舍旁边的小吃店,陈静喊“저기요!”,向服务员阿姨(server)点辣炒年糕和紫菜包饭,问辣不辣,要了水;吃的时候秀雅说太辣,陈静说真好吃;吃完说“잘 먹었습니다”,陈静去收银台说“계산해 주세요. 카드 돼요?”。课文至少 12 句;这是陈静第一次请室友吃饭。",
+      "grammarFocusZh": "复习 을/를 + 동사、안 否定、形容词 해요体、程度副词。같이 + 动词 = 一起……:같이 먹어요(一起吃吧;해요体也可以表示提议)。계산해 주세요 = 请结账(N + 해 주세요 先整句记)。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.baegopayo", "kind": "word", "pos": "adj", "text": "배고파요", "zh": "饿", "features": { "roman": "baegopayo" }, "noteZh": "배(肚子)+ 고파요;原形 배고프다(ㅡ 脱落)。" },
+        { "id": "ko.gachi", "kind": "word", "pos": "adv", "text": "같이", "zh": "一起", "features": { "roman": "gachi" }, "noteZh": "腭化:读 [가치],不读 [가티];같이 먹어요 = 一起吃吧。" },
+        { "id": "ko.tteokbokki", "kind": "word", "pos": "noun", "text": "떡볶이", "zh": "辣炒年糕", "features": { "roman": "tteokbokki" }, "noteZh": "떡(年糕)+ 볶이(炒);两个紧音 ㄸ、ㄲ,读 [떡뽀끼]。" },
+        { "id": "ko.gyesan", "kind": "word", "pos": "noun", "text": "계산", "zh": "结账;计算", "features": { "roman": "gyesan" }, "noteZh": "汉字词 计算;结账说 계산해 주세요;韩国饭馆一般吃完到门口收银台结账。" }
+      ],
+      "reviewItems": ["ko.gimbap", "ko.dwaeyo", "ko.jal_meogeotseumnida", "ko.jinjja"]
+    }
+  ]
+}
