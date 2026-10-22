@@ -153,13 +153,17 @@ function blockSub(b: Block): string {
   return getLesson(b.lessonId)?.canDoZh ?? "";
 }
 
-/** 设置入口。配置了服务器又没登录时顺带说一句登录的好处(只提示,不强迫) */
+/**
+ * 设置入口。配置了服务器又没登录时顺带说一句登录的好处(只提示,不强迫);
+ * 基本功能模式下说明哪些功能要同意隐私政策后才能用(在设置里能改)。
+ */
 function SettingsEntry() {
-  const { user } = useStore();
+  const { user, basic } = useStore();
+  const hint = basic ? "基本功能模式:同意隐私政策后可以登录、同步和 AI 对话" : serverEnabled() && !user ? "登录后换手机不丢进度、多台设备同步" : "";
   return (
     <>
       <Button ghost title="⚙️ 设置" onPress={() => router.push("/settings")} />
-      {serverEnabled() && !user && <Text style={[s.sub, { textAlign: "center" }]}>登录后换手机不丢进度、多台设备同步</Text>}
+      {!!hint && <Text style={[s.sub, { textAlign: "center" }]}>{hint}</Text>}
     </>
   );
 }

@@ -6,16 +6,18 @@ import { say, stopSpeaking } from "../speech";
 import { s } from "../theme";
 import { Button } from "./Button";
 import { ChatBubble } from "./ChatBubble";
+import { readingOf, ReadingToggle, useReading } from "./Reading";
 
 /**
  * 课文对话 / 例句:每句一个气泡,显示说话人的名字(语言包 cast),按说话人的性别选朗读声音。
- * 逐句听:点一句读一句,长按看中文;也可以从头连着听一遍。
+ * 逐句听:点一句读一句,长按看中文;也可以从头连着听一遍。日语、韩语有读音的,读音显示在原文下面(可以关)。
  */
 export function Dialogue({ lines, pack }: { lines: Line[]; pack: LanguagePack }) {
   const [zh, setZh] = useState<Record<number, boolean>>({});
   const [allZh, setAllZh] = useState(false);
   const [active, setActive] = useState<number | null>(null);
   const [playingAll, setPlayingAll] = useState(false);
+  const reading = useReading(lines);
   useEffect(() => () => stopSpeaking(), []);
 
   // 第一个说话人在左边,第二个在右边,再往后左右交替
@@ -41,6 +43,7 @@ export function Dialogue({ lines, pack }: { lines: Line[]; pack: LanguagePack })
           side={side(l.speaker)}
           name={speakerLabel(speakerOf(pack, l.speaker))}
           text={l.text}
+          reading={reading.show ? readingOf(l) : undefined}
           zh={allZh || zh[i] ? l.zh : undefined}
           highlight={active === i}
           onPress={() => { setPlayingAll(false); read(i); }}
@@ -62,6 +65,11 @@ export function Dialogue({ lines, pack }: { lines: Line[]; pack: LanguagePack })
         <View style={{ flexGrow: 1, flexBasis: 130 }}>
           <Button ghost title={allZh ? "隐藏中文" : "显示中文"} onPress={() => setAllZh(!allZh)} />
         </View>
+        {reading.has && (
+          <View style={{ flexGrow: 1, flexBasis: 130 }}>
+            <ReadingToggle reading={reading} />
+          </View>
+        )}
       </View>
     </View>
   );

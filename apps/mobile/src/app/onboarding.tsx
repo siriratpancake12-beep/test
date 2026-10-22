@@ -1,13 +1,13 @@
-import { router } from "expo-router";
+import { router, useLocalSearchParams } from "expo-router";
 import { useEffect, useState } from "react";
 import { ScrollView, Text } from "react-native";
-import { GOAL_KINDS, addDays, dayKey, setGoal, type Cefr, type Goal, type GoalKind } from "@lingo/core";
+import { CEFR_ORDER, GOAL_KINDS, addDays, dayKey, setGoal, type Cefr, type Goal, type GoalKind } from "@lingo/core";
 import { track } from "../analytics";
 import { Button } from "../components/Button";
 import { Option } from "../components/Option";
 import { availableLangs, comingSoonLangs } from "../content";
 import { useStore } from "../store";
-import { s } from "../theme";
+import { color, s } from "../theme";
 
 /**
  * 新用户引导:选语种 → 为什么学 → 学到什么水平 → 每天多久 → 有没有期限 → 有没有基础。
@@ -36,9 +36,19 @@ const DEADLINES = [
 type Step = "lang" | "kind" | "level" | "minutes" | "deadline" | "base";
 
 export default function Onboarding() {
+  const params = useLocalSearchParams<{ from?: string; target?: string; kind?: string; exam?: string }>();
+  // 达到目标后选了下一个目标(学习计划页、单元测评后):带着选好的等级/方向进来,只调每天多久和期限,
+  // 不再问"之前学过吗",完成后回学习计划页
+  const nextGoal = params.from === "next-goal";
   const { lang, progress, setLang, update } = useStore();
-  const [step, setStep] = useState<Step>(lang ? "kind" : "lang");
-  const [draft, setDraft] = useState<Partial<Goal>>(progress?.goal ?? {});
+  const [step, setStep] = useState<Step>(nextGoal ? "minutes" : lang ? "kind" : "lang");
+  const [draft, setDraft] = useState<Partial<Goal>>(() => {
+    const cur: Partial<Goal> = progress?.goal ?? {};
+    if (!nextGoal) return cur;
+    const target = CEFR_ORDER.find((c) => c === params.target);
+    const kind = GOAL_KINDS.find((g) => g.kind === params.kind)?.kind;
+    return { ...cur, ...(target ? { target } : {}), ...(kind ? { kind } : {}), ...(params.exam ? { exam: params.exam } : {}) };
+  });
   const [picked, setPicked] = useState<string | null>(null);
 
   // 换到一门以前学过、已经有目标的语言:直接回首页,不用重新设定。
@@ -55,6 +65,13 @@ export default function Onboarding() {
     if (progress?.goal) track("goal_change", { target: goal.target, dailyMinutes: goal.dailyMinutes });
     else track("onboarding_complete", { goalKind: goal.kind, target: goal.target, dailyMinutes: goal.dailyMinutes, hasDeadline: !!goal.deadline, hasBase });
     router.replace(hasBase ? "/placement" : "/plan?first=1");
+  };
+
+  /** 下一个目标定好了:存下来回学习计划页。goal_change 在学习计划页选目标时已经记过,这里不再记 */
+  const finishNextGoal = (goal: Partial<Goal>) => {
+    update((p) => setGoal(p, goal as Goal));
+    // 学习计划页在下面就退回去,不在(比如以后从别的页面进来)就换成它
+    router.dismissTo("/plan");
   };
 
   return (
@@ -90,6 +107,12 @@ export default function Onboarding() {
         </>
       )}
 
+      {nextGoal && step !== "lang" && step !== "kind" && !!draft.target && (
+        <Text style={[s.sub, { color: color.primary }]}>
+          🎯 下一个目标:{draft.target}{draft.exam ? ` · ${draft.exam}` : ""}
+        </Text>
+      )}
+
       {step === "minutes" && (
         <>
           <Text style={s.h1}>每天能学多久?</Text>
@@ -108,8 +131,10 @@ export default function Onboarding() {
           {DEADLINES.map((d) => (
             <Option key={d.days} title={d.zh} onPress={() => {
               const { deadline: _, ...rest } = draft;
-              setDraft(d.days ? { ...rest, deadline: addDays(dayKey(new Date(), progress?.tz), d.days) } : rest);
-              setStep("base");
+              const next = d.days ? { ...rest, deadline: addDays(dayKey(new Date(), progress?.tz), d.days) } : rest;
+              setDraft(next);
+              if (nextGoal) finishNextGoal(next);
+              else setStep("base");
             }} />
           ))}
         </>

@@ -1,7 +1,7 @@
 import * as AppleAuthentication from "expo-apple-authentication";
 import * as SecureStore from "expo-secure-store";
 import { Platform } from "react-native";
-import { AuthResult, Phone, ROUTES, User } from "@lingo/core";
+import { AuthResult, Phone, ROUTES, SmsSendRes, User } from "@lingo/core";
 import { api, ApiFailure, serverEnabled } from "./api";
 
 /**
@@ -49,6 +49,13 @@ export async function loadSession(): Promise<Session | null> {
 
 export const saveSession = (s: Session) => secure.set(KEY, JSON.stringify(s));
 
+let userId: string | null = null;
+/** 当前登录的账号 id(store.tsx 登录、恢复登录、退出时设置)。苹果内购用它把交易关联到账号 */
+export const setCurrentUserId = (id: string | null) => {
+  userId = id;
+};
+export const currentUserId = () => userId;
+
 export async function clearSession(): Promise<void> {
   try {
     await secure.remove(KEY);
@@ -69,7 +76,7 @@ export function phoneError(phone: string): string | null {
 export const codeValid = (code: string) => /^\d{6}$/.test(code);
 
 export async function sendSmsCode(phone: string): Promise<void> {
-  await api("POST", ROUTES.smsSend, { phone });
+  await api("POST", ROUTES.smsSend, { phone }, SmsSendRes);
 }
 
 export function verifySmsCode(phone: string, code: string): Promise<AuthResult> {
@@ -84,18 +91,20 @@ export async function appleAvailable(): Promise<boolean> {
 
 /**
  * Apple 登录。不要姓名和邮箱(用不到就不收集),服务器只校验 identityToken 拿到苹果用户 id。
+ * 授权码一起交给服务器:服务器用它向苹果换刷新令牌,注销账号时撤销授权(苹果要求)。
  * 用户自己取消返回 null,不算出错。
  */
 export async function appleSignIn(): Promise<AuthResult | null> {
-  let identityToken: string | null;
+  let cred: AppleAuthentication.AppleAuthenticationCredential;
   try {
-    identityToken = (await AppleAuthentication.signInAsync({ requestedScopes: [] })).identityToken;
+    cred = await AppleAuthentication.signInAsync({ requestedScopes: [] });
   } catch (e) {
     if ((e as { code?: string }).code === "ERR_REQUEST_CANCELED") return null;
     throw new ApiFailure(0, "apple", "Apple 登录没有成功,请稍后再试");
   }
-  if (!identityToken) throw new ApiFailure(0, "apple", "Apple 登录没有成功,请稍后再试");
-  return api("POST", ROUTES.appleLogin, { identityToken }, AuthResult);
+  if (!cred.identityToken) throw new ApiFailure(0, "apple", "Apple 登录没有成功,请稍后再试");
+  const body = { identityToken: cred.identityToken, ...(cred.authorizationCode ? { authorizationCode: cred.authorizationCode } : {}) };
+  return api("POST", ROUTES.appleLogin, body, AuthResult);
 }
 
 /** 注销账号:服务器删除账号和云端数据。失败会抛出 ApiFailure(本机什么都不动)。 */

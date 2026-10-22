@@ -5,15 +5,19 @@ import { speakerOf } from "../content";
 import { say, stopSpeaking } from "../speech";
 import { color, s } from "../theme";
 import { Button } from "./Button";
+import { readingStyle } from "./ChatBubble";
+import { readingOf, ReadingToggle, useReading } from "./Reading";
 
 /**
  * 阅读课的短文:句子连成一段(不是对话气泡),像读一篇真的文章。
- * 点一句就朗读这一句,并在下面显示这句的中文;也可以从头连着听,或者打开全文翻译。
+ * 点一句就朗读这一句,并在下面显示这句的中文(日语、韩语有读音的连读音一起);也可以从头连着听,或者打开全文翻译。
  */
 export function Passage({ lines, pack }: { lines: Line[]; pack: LanguagePack }) {
   const [active, setActive] = useState<number | null>(null);
   const [allZh, setAllZh] = useState(false);
   const [playingAll, setPlayingAll] = useState(false);
+  const reading = useReading(lines);
+  const activeReading = active !== null && reading.show && lines[active] ? readingOf(lines[active]!) : undefined;
   useEffect(() => () => stopSpeaking(), []);
 
   const read = (i: number, chain = false) => {
@@ -35,6 +39,7 @@ export function Passage({ lines, pack }: { lines: Line[]; pack: LanguagePack }) 
           </Text>
         ))}
       </Text>
+      {!!activeReading && <Text style={readingStyle}>{activeReading}</Text>}
       {active !== null && !allZh && <Text style={[s.body, { color: color.sub }]}>💬 {lines[active]?.zh}</Text>}
       {allZh && <Text style={[s.body, { color: color.sub }]}>{lines.map((l) => l.zh).join("")}</Text>}
       <View style={{ flexDirection: "row", flexWrap: "wrap", gap: 8 }}>
@@ -51,6 +56,11 @@ export function Passage({ lines, pack }: { lines: Line[]; pack: LanguagePack }) 
         <View style={{ flexGrow: 1, flexBasis: 130 }}>
           <Button ghost title={allZh ? "收起翻译" : "全文翻译"} onPress={() => setAllZh(!allZh)} />
         </View>
+        {reading.has && (
+          <View style={{ flexGrow: 1, flexBasis: 130 }}>
+            <ReadingToggle reading={reading} />
+          </View>
+        )}
       </View>
     </View>
   );
