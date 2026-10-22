@@ -1,0 +1,46 @@
+{
+  "id": "en.a1u6.l02", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106020,
+  "titleZh": "有黑色的吗?", "goalZh": "会说常见颜色,用 this one / that one 指着挑东西", "canDoZh": "能在店里指着商品问\"这件有黑色的吗?\",挑出自己要的颜色",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.color", "kind": "word", "pos": "noun", "text": "color", "zh": "颜色", "features": { "ipa": "ˈkʌlɚ" }, "noteZh": "美式拼写 color,英式 colour;What color is it? 什么颜色?" },
+    { "id": "en.red", "kind": "word", "pos": "adj", "text": "red", "zh": "红色的", "features": { "ipa": "red" }, "noteZh": "r 开头:嘴唇收圆、舌尖不碰上颚,别读成 led。" },
+    { "id": "en.blue", "kind": "word", "pos": "adj", "text": "blue", "zh": "蓝色的", "features": { "ipa": "bluː" }, "noteZh": "bl 之间不加元音;feel blue 还表示\"心情低落\"。" },
+    { "id": "en.white", "kind": "word", "pos": "adj", "text": "white", "zh": "白色的", "features": { "ipa": "waɪt" }, "noteZh": "wh 读 /w/,h 不发音。" },
+    { "id": "en.gray", "kind": "word", "pos": "adj", "text": "gray", "zh": "灰色的", "alt": ["grey"], "features": { "ipa": "ɡreɪ" }, "noteZh": "美式拼写 gray,英式 grey。" },
+    { "id": "en.green", "kind": "word", "pos": "adj", "text": "green", "zh": "绿色的", "features": { "ipa": "ɡriːn" }, "noteZh": "gr 之间不加元音;ee 是长音。" },
+    { "id": "en.dark", "kind": "word", "pos": "adj", "text": "dark", "zh": "深色的;暗的", "features": { "ipa": "dɑːrk" }, "noteZh": "dark blue 深蓝;天黑了:It's dark。" },
+    { "id": "en.light", "kind": "word", "pos": "adj", "text": "light", "zh": "浅色的", "features": { "ipa": "laɪt" }, "noteZh": "light blue 浅蓝;light 是 l 开头,和 right(右)的 r 要分清。" },
+    { "id": "en.this_one", "kind": "phrase", "pos": "pron", "text": "this one", "zh": "这个(这件、这条……)", "features": { "ipa": "ˈðɪs ˌwʌn" }, "noteZh": "用 one 代替前面说过的东西:I like this one. / the blue one 蓝色那件。" },
+    { "id": "en.do_you_have_this_in", "kind": "phrase", "pos": "phrase", "text": "Do you have this in", "zh": "这个有……(颜色、尺码)的吗?", "features": { "ipa": "də jə ˈhæv ðɪs ɪn" }, "noteZh": "Do you have this in black? / Do you have this in a medium?" }
+  ],
+  "reviewItems": ["en.black", "en.brown", "en.jacket", "en.like"],
+  "lines": [
+    { "speaker": "lei", "text": "I like this jacket, but I don't like the color.", "zh": "我喜欢这件外套,可是不喜欢这个颜色。", "items": ["en.like", "en.jacket", "en.color"] },
+    { "speaker": "amy", "text": "Red is cool! All your clothes are black and brown.", "zh": "红色多酷啊!你的衣服全是黑色和棕色的。", "items": ["en.red", "en.cool", "en.clothes", "en.black", "en.brown"] },
+    { "speaker": "lei", "text": "I like black. Excuse me, do you have this in black?", "zh": "我就喜欢黑色。打扰一下,这件有黑色的吗?", "items": ["en.like", "en.black", "en.excuse_me", "en.do_you_have_this_in"] },
+    { "speaker": "clerk", "text": "Sorry, not in black. We have white, dark blue, and gray.", "zh": "抱歉,没有黑色的。有白色、深蓝色和灰色的。", "items": ["en.sorry", "en.black", "en.have", "en.white", "en.dark", "en.blue", "en.gray"] },
+    { "speaker": "amy", "text": "Oh, that one is nice! The green one.", "zh": "哦,那件不错!绿色那件。", "items": ["en.this_one", "en.nice", "en.green"] },
+    { "speaker": "lei", "text": "Green? No, thanks.", "zh": "绿色?还是算了吧。", "items": ["en.green", "en.no_thanks"] },
+    { "speaker": "clerk", "text": "OK. This one is light gray, and that one is dark gray.", "zh": "好的。这件是浅灰色的,那件是深灰色的。", "items": ["en.this_one", "en.light", "en.gray", "en.dark"] },
+    { "speaker": "amy", "text": "I like the dark one. It's really cool.", "zh": "我喜欢深色那件,特别酷。", "items": ["en.like", "en.dark", "en.this_one", "en.really", "en.cool"] },
+    { "speaker": "lei", "text": "Me too. The dark gray one, please.", "zh": "我也是。就要深灰色那件吧。", "items": ["en.me_too", "en.dark", "en.gray", "en.this_one"] },
+    { "speaker": "clerk", "text": "Great! Gray is a good color for Seattle.", "zh": "好!灰色跟西雅图很配。", "items": ["en.great", "en.gray", "en.color"] }
+  ],
+  "questions": [
+    { "prompt": "磊为什么不想买第一件外套?", "options": ["他不喜欢红色", "太贵了", "没有他的尺码"], "answer": 0, "explainZh": "I like this jacket, but I don't like the color.,艾米接着说 Red is cool!——外套是红色的,磊不喜欢这个颜色。" },
+    { "prompt": "这件外套有黑色的吗?", "options": ["有", "没有,只有绿色的", "没有,有白色、深蓝色和灰色的"], "answer": 2, "explainZh": "店员说 Sorry, not in black. We have white, dark blue, and gray." },
+    { "prompt": "最后磊选了哪件?", "options": ["浅灰色那件", "深灰色那件", "绿色那件"], "answer": 1, "explainZh": "Me too. The dark gray one, please.(我也是。就要深灰色那件吧。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.this_that_one", "titleZh": "this one / that one:用 one 代替说过的东西",
+      "bodyZh": "this(这个)指离自己近的,that(那个)指离自己远的;复数是 these(这些)和 those(那些)。前面已经说过是什么东西(比如外套),后面就不用再重复名词,用 one 代替:this one(这件)、that one(那件)、the green one(绿色那件)。颜色词放在名词或 one 前面:a gray jacket、the dark gray one,不说 a jacket gray。深色、浅色就在颜色前加 dark / light:dark blue 深蓝、light gray 浅灰。想要别的颜色就问 Do you have this in black?。发音:this /ðɪs/ 是短元音,these /ðiːz/ 是长元音、结尾是浊音 /z/,中国学生常读混。",
+      "examples": [
+        { "text": "This one is red, and that one is blue.", "zh": "这件是红色的,那件是蓝色的。" },
+        { "text": "I like the dark gray one.", "zh": "我喜欢深灰色那件。" },
+        { "text": "These are white, and those are light green.", "zh": "这些是白色的,那些是浅绿色的。" }
+      ] }
+  ],
+  "review": "draft"
+}

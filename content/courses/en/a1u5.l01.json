@@ -1,0 +1,43 @@
+{
+  "id": "en.a1u5.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105010,
+  "titleZh": "附近有银行吗?", "goalZh": "会用 Is there…? 打听附近有没有某个地方、远不远", "canDoZh": "能向路人打听附近有没有银行或药店、走过去要多久",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.near_here", "kind": "phrase", "pos": "adv", "text": "near here", "zh": "这附近", "alt": ["around here", "nearby"], "features": { "ipa": "ˌnɪr ˈhɪr" }, "noteZh": "Is there a … near here? 这附近有……吗?;两个词都有卷舌的 r。" },
+    { "id": "en.bank", "kind": "word", "pos": "noun", "text": "bank", "zh": "银行", "features": { "ipa": "bæŋk" }, "noteZh": "n 在 k 前读 /ŋ/;留学生到美国一般要先开个银行账户。" },
+    { "id": "en.pharmacy", "kind": "word", "pos": "noun", "text": "pharmacy", "zh": "药店", "alt": ["drugstore"], "features": { "ipa": "ˈfɑːrməsi" }, "noteZh": "ph 读 /f/,重音在前 PHAR-ma-cy;美国药店除了药,也卖零食和日用品,也叫 drugstore。" },
+    { "id": "en.far", "kind": "word", "pos": "adj", "text": "far", "zh": "远的", "features": { "ipa": "fɑːr" }, "noteZh": "Is it far? 远吗?— No, it's close.;ar 卷舌 /ɑːr/。" },
+    { "id": "en.close", "kind": "word", "pos": "adj", "text": "close", "zh": "近的", "features": { "ipa": "kloʊs" }, "noteZh": "作“近”讲读 /kloʊs/(s 是清音),close to the bank 离银行很近;作动词“关上”读 /kloʊz/。" },
+    { "id": "en.street", "kind": "word", "pos": "noun", "text": "street", "zh": "街道", "features": { "ipa": "striːt" }, "noteZh": "str 三个辅音连在一起,不要读成 \"si-te-ri-te\";地址里常缩写 St.。" },
+    { "id": "en.block", "kind": "word", "pos": "noun", "text": "block", "zh": "街区(两个路口之间的一段)", "features": { "ipa": "blɑːk" }, "noteZh": "bl 连着读,中间不加元音,别读成“be-lock”;美国人指路常说 It's two blocks away.(再过两个路口就到)。" },
+    { "id": "en.minute", "kind": "word", "pos": "noun", "text": "minute", "zh": "分钟", "features": { "ipa": "ˈmɪnɪt" }, "noteZh": "It's five minutes away. 五分钟的路程;Just a minute. 稍等一下。" },
+    { "id": "en.walk", "kind": "word", "pos": "verb", "text": "walk", "zh": "走路;步行", "features": { "ipa": "wɑːk" }, "noteZh": "l 不发音;walk /wɑːk/ 和 work /wɝːk/ 要分清。也能当名词:It's a five-minute walk.(走路五分钟)。" }
+  ],
+  "reviewItems": ["en.excuse_me", "en.thank_you", "en.say_that_again"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. Is there a bank near here?", "zh": "打扰一下,请问这附近有银行吗?", "items": ["en.excuse_me", "en.bank", "en.near_here"] },
+    { "speaker": "passerby", "text": "Yes, there is. There's a bank on Pine Street.", "zh": "有。派恩街上有一家银行。", "items": ["en.bank", "en.street"] },
+    { "speaker": "lei", "text": "Sorry? Could you say that again?", "zh": "不好意思,您能再说一遍吗?", "items": ["en.sorry", "en.say_that_again"] },
+    { "speaker": "passerby", "text": "Sure. Pine Street. It's two blocks from here.", "zh": "好的。派恩街,离这儿两个街区。", "items": ["en.sure", "en.street", "en.block"] },
+    { "speaker": "lei", "text": "Two blocks? Is it far?", "zh": "两个街区?远吗?", "items": ["en.block", "en.far"] },
+    { "speaker": "passerby", "text": "No, it's close. It's about a five-minute walk.", "zh": "不远,挺近的。走路大概五分钟。", "items": ["en.close", "en.minute", "en.walk"] },
+    { "speaker": "lei", "text": "Great. And is there a pharmacy near here?", "zh": "太好了。那这附近有药店吗?", "items": ["en.great", "en.pharmacy", "en.near_here"] },
+    { "speaker": "passerby", "text": "Yes, there's a pharmacy on Pine Street, close to the bank.", "zh": "有,派恩街上也有一家药店,离那家银行很近。", "items": ["en.pharmacy", "en.street", "en.close", "en.bank"] },
+    { "speaker": "lei", "text": "Got it. Thank you!", "zh": "明白了。谢谢您!", "items": ["en.got_it", "en.thank_you"] }
+  ],
+  "questions": [
+    { "prompt": "银行远不远?", "options": ["很远,要坐车去", "不远,走路大概五分钟", "不远,走路大概两分钟"], "answer": 1, "explainZh": "磊问 Is it far?,路人说 No, it's close. It's about a five-minute walk.(不远,走路大概五分钟。)two blocks 是“两个街区”,不是两分钟。" },
+    { "prompt": "药店在哪儿?", "options": ["就在磊现在走的这条街上", "离这儿很远", "也在派恩街上,离银行很近"], "answer": 2, "explainZh": "路人说 There's a pharmacy on Pine Street, close to the bank.(派恩街上也有一家药店,离银行很近。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.is_there", "titleZh": "Is there…?:这附近有……吗?",
+      "bodyZh": "问某个地方有没有某样东西,用 Is there + a + 单数名词?:Is there a bank near here?(这附近有银行吗?)。回答用 Yes, there is. / No, there isn't.——简答里 there is 不能缩写,不说 Yes, there's.。两个以上用 there are:There are two banks on Pine Street.。中文说“这附近有银行吗”,很多人会照着说成 Have a bank near here?;英语里“某处有某物”要用 there is / there are,不用 have。还要注意 a 和 the:第一次提到用 a(There's a bank on Pine Street.),对方已经知道是哪一个了,再说起它就用 the(The bank is close.)。发音:street 的 str、block 的 bl 是几个辅音连在一起,中间不要加元音,别读成“si-te-ri-te”“be-lock”。",
+      "examples": [
+        { "text": "Is there a bank near here? — Yes, there is.", "zh": "这附近有银行吗?——有。" },
+        { "text": "Is there a pharmacy on this street? — No, there isn't.", "zh": "这条街上有药店吗?——没有。" },
+        { "text": "There's a bank on Pine Street. The bank is close.", "zh": "派恩街上有一家银行。那家银行很近。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "en.a1u6.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106030,
+  "titleZh": "我能试穿吗?", "goalZh": "会问能不能试穿,说衣服太大或太小,请店员换个尺码", "canDoZh": "能在店里试穿衣服,说出\"太小了,有大一号的吗?\"",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.try_on", "kind": "phrase", "pos": "verb", "text": "try on", "zh": "试穿", "features": { "ipa": "ˌtraɪ ˈɑːn" }, "noteZh": "Can I try it on?;代词要放中间:try it on,不说 try on it。" },
+    { "id": "en.fitting_room", "kind": "phrase", "pos": "noun", "text": "fitting room", "zh": "试衣间", "alt": ["dressing room"], "features": { "ipa": "ˈfɪt̬ɪŋ ˌruːm" }, "noteZh": "美国店员常说 The fitting room is over there.;tt 读成轻快的 d。" },
+    { "id": "en.size", "kind": "word", "pos": "noun", "text": "size", "zh": "尺码;大小", "features": { "ipa": "saɪz" }, "noteZh": "What size do you wear? 你穿什么码?;美国尺码和中国不同,最好试穿。" },
+    { "id": "en.wear", "kind": "word", "pos": "verb", "text": "wear", "zh": "穿;戴", "features": { "ipa": "wer" }, "noteZh": "穿衣服、戴眼镜、戴帽子都用 wear:wear glasses;wear 和 where 读音一样,都是 /wer/。" },
+    { "id": "en.too", "kind": "word", "pos": "adv", "text": "too", "zh": "太(过分)", "features": { "ipa": "tuː" }, "noteZh": "too small 太小(不合适);very small 只是\"很小\"。too 的另一个意思\"也\"在 Me too 里学过。" },
+    { "id": "en.fit", "kind": "word", "pos": "verb", "text": "fit", "zh": "(大小)合身", "features": { "ipa": "fɪt" }, "noteZh": "It fits! 正合身;fit 只说大小,颜色款式好看用 look good on you。" },
+    { "id": "en.over_there", "kind": "phrase", "pos": "adv", "text": "over there", "zh": "在那边", "features": { "ipa": "ˌoʊvɚ ˈðer" }, "noteZh": "there 的 th 是浊音 /ð/。" },
+    { "id": "en.perfect", "kind": "word", "pos": "adj", "text": "perfect", "zh": "完美的;正合适", "features": { "ipa": "ˈpɝːfekt" }, "noteZh": "词尾 ct 两个辅音都要轻轻收住;单说 Perfect! 也常用来表示\"太好了\"。" },
+    { "id": "en.looks_good_on_you", "kind": "phrase", "pos": "phrase", "text": "It looks good on you", "zh": "你穿着很好看", "alt": ["It looks great on you", "Looks good on you"], "features": { "ipa": "ɪt ˌlʊks ˈɡʊd ɑːn juː" }, "noteZh": "夸别人衣服好看的地道说法;looks 的 -s 别漏。" }
+  ],
+  "reviewItems": ["en.small", "en.large", "en.medium", "en.big"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. Can I try it on?", "zh": "打扰一下,我能试穿一下吗?", "items": ["en.excuse_me", "en.try_on"] },
+    { "speaker": "clerk", "text": "Sure. What size do you wear?", "zh": "当然可以。你穿什么尺码?", "items": ["en.sure", "en.size", "en.wear"] },
+    { "speaker": "lei", "text": "In China, I wear a large. Here, a medium?", "zh": "在中国我穿 L 号。在这儿……穿 M 号?", "items": ["en.wear", "en.large", "en.medium"] },
+    { "speaker": "clerk", "text": "OK, here's a medium. The fitting room is over there.", "zh": "好,这件是 M 号的。试衣间在那边。", "items": ["en.medium", "en.fitting_room", "en.over_there"] },
+    { "speaker": "lei", "text": "It's too small. Do you have this in a large?", "zh": "太小了。这件有 L 号的吗?", "items": ["en.too", "en.small", "en.do_you_have_this_in", "en.large"] },
+    { "speaker": "clerk", "text": "Sure. Here's a large.", "zh": "有。这件是 L 号的。", "items": ["en.sure", "en.large"] },
+    { "speaker": "lei", "text": "It fits! It's not too big.", "zh": "正合身!也不会太大。", "items": ["en.fit", "en.too", "en.big"] },
+    { "speaker": "amy", "text": "Perfect! It looks good on you!", "zh": "太完美了!你穿着真好看!", "items": ["en.perfect", "en.looks_good_on_you"] },
+    { "speaker": "lei", "text": "Thanks, Amy. I really like it.", "zh": "谢谢你,艾米。我真的很喜欢。", "items": ["en.thank_you", "en.really", "en.like"] }
+  ],
+  "questions": [
+    { "prompt": "磊在中国穿什么尺码?", "options": ["S 号(small)", "M 号(medium)", "L 号(large)"], "answer": 2, "explainZh": "In China, I wear a large.(在中国我穿 L 号。)" },
+    { "prompt": "试穿以后,哪个尺码合身?", "options": ["M 号", "L 号", "都不合身"], "answer": 1, "explainZh": "M 号 It's too small.(太小了);L 号 It fits! It's not too big.(正合身,也不会太大。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.too_adjective", "titleZh": "too small:太……(不合适)",
+      "bodyZh": "too + 形容词 = “太……”,带着“不合适、不行”的意思:It's too small.(太小了,穿不了)。very 只是“很”,没有不合适的意思:It's very small. 也许正是你想要的。中国学生常把“太好了”说成 too good——夸东西要说 really good 或 Great!。代词要放在 try 和 on 中间:Can I try it on?,不说 try on it。look + 形容词表示“看起来……”:It looks good on you.(你穿着很好看),looks 的 -s 别漏。Can I…? 是“我可以……吗?”的现成问法,第 7 单元会系统学 can。发音:try it on 连读成“try-i-ton”。",
+      "examples": [
+        { "text": "This sweater is too big.", "zh": "这件毛衣太大了。" },
+        { "text": "Can I try this on?", "zh": "这件我能试一下吗?" },
+        { "text": "The blue one looks good on you.", "zh": "蓝色那件你穿着很好看。" }
+      ] }
+  ],
+  "review": "draft"
+}

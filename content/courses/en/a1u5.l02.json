@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u5.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105020,
+  "titleZh": "在红绿灯左转", "goalZh": "会用祈使句和方位介词听懂、说出简单的路线", "canDoZh": "能听懂别人指的路线(直走、左转、在拐角),并复述一遍确认",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.how_do_i_get_to", "kind": "phrase", "pos": "phrase", "text": "How do I get to", "zh": "……怎么走?;怎么去……?", "features": { "ipa": "ˌhaʊ də aɪ ˈɡet tə" }, "noteZh": "最常用的问路句:How do I get to the post office?" },
+    { "id": "en.go_straight", "kind": "phrase", "pos": "verb", "text": "go straight", "zh": "直走", "alt": ["go straight ahead"], "features": { "ipa": "ˌɡoʊ ˈstreɪt" }, "noteZh": "也说 Keep going.;straight 的 str 中间不加元音。" },
+    { "id": "en.turn", "kind": "word", "pos": "verb", "text": "turn", "zh": "转弯", "features": { "ipa": "tɝːn" }, "noteZh": "turn left 左转,turn right 右转;ur 卷舌 /ɝː/。" },
+    { "id": "en.left", "kind": "word", "pos": "adv", "text": "left", "zh": "左;向左", "features": { "ipa": "left" }, "noteZh": "on the left 在左手边;l 舌尖顶住上齿龈,和 right 的 r 不一样。" },
+    { "id": "en.right", "kind": "word", "pos": "adv", "text": "right", "zh": "右;向右", "features": { "ipa": "raɪt" }, "noteZh": "r 开头:嘴唇先收圆,舌尖不碰上颚;读成 light 就变成了“灯”。That's right 里的 right 是“对的”,和“右”是同一个词。" },
+    { "id": "en.corner", "kind": "word", "pos": "noun", "text": "corner", "zh": "拐角;街角", "features": { "ipa": "ˈkɔːrnɚ" }, "noteZh": "on the corner 在街角;两个卷舌音。" },
+    { "id": "en.next_to", "kind": "phrase", "pos": "prep", "text": "next to", "zh": "在……旁边", "features": { "ipa": "ˈnekst tə" }, "noteZh": "next 的 t 和 to 的 t 只读一个。" },
+    { "id": "en.across_from", "kind": "phrase", "pos": "prep", "text": "across from", "zh": "在……对面", "features": { "ipa": "əˈkrɑːs frəm" }, "noteZh": "美式常用 across from,英式多说 opposite。" },
+    { "id": "en.traffic_light", "kind": "phrase", "pos": "noun", "text": "traffic light", "zh": "红绿灯", "features": { "ipa": "ˈtræfɪk ˌlaɪt" }, "noteZh": "Turn left at the traffic light. 在红绿灯处左转;light 是 l 开头。" },
+    { "id": "en.post_office", "kind": "phrase", "pos": "noun", "text": "post office", "zh": "邮局", "features": { "ipa": "ˈpoʊst ˌɑːfɪs" }, "noteZh": "从美国往国内寄东西可以去邮局,也可以找快递公司。" }
+  ],
+  "reviewItems": ["en.block", "en.street", "en.bank", "en.thats_right"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. How do I get to the post office?", "zh": "打扰一下,请问邮局怎么走?", "items": ["en.excuse_me", "en.how_do_i_get_to", "en.post_office"] },
+    { "speaker": "passerby", "text": "Go straight on this street for two blocks.", "zh": "沿着这条街直走两个街区。", "items": ["en.go_straight", "en.street", "en.block"] },
+    { "speaker": "passerby", "text": "Then turn left at the traffic light.", "zh": "然后在红绿灯那儿左转。", "items": ["en.then", "en.turn", "en.left", "en.traffic_light"] },
+    { "speaker": "lei", "text": "Sorry? Turn right at the traffic light?", "zh": "不好意思,在红绿灯那儿右转?", "items": ["en.sorry", "en.turn", "en.right", "en.traffic_light"] },
+    { "speaker": "passerby", "text": "No, left. The post office is on the right, next to a bank.", "zh": "不,是左转。邮局在右手边,在一家银行旁边。", "items": ["en.left", "en.post_office", "en.right", "en.next_to", "en.bank"] },
+    { "speaker": "lei", "text": "So, go straight two blocks and turn left at the traffic light?", "zh": "那就是直走两个街区,然后在红绿灯左转?", "items": ["en.go_straight", "en.block", "en.turn", "en.left", "en.traffic_light"] },
+    { "speaker": "passerby", "text": "That's right! It's on the corner, across from a cafe.", "zh": "没错!邮局在街角,对面是一家咖啡馆。", "items": ["en.thats_right", "en.corner", "en.across_from", "en.cafe"] }
+  ],
+  "questions": [
+    { "prompt": "在红绿灯那儿应该往哪边转?", "options": ["直走,不用转", "右转", "左转"], "answer": 2, "explainZh": "路人说 Then turn left at the traffic light.,磊听成了 right(右),路人马上纠正:No, left.。" },
+    { "prompt": "邮局在哪儿?", "options": ["在右手边的街角,银行旁边、咖啡馆对面", "在左手边,银行对面", "在咖啡馆旁边,银行对面"], "answer": 0, "explainZh": "The post office is on the right, next to a bank.;It's on the corner, across from a cafe." },
+    { "prompt": "最后路人说 That's right!,意思是?", "options": ["往右走", "对,没错", "在右手边"], "answer": 1, "explainZh": "That's right 里的 right 是“对的”:磊把路线复述对了。on the right 才是“在右手边”。" }
+  ],
+  "grammar": [
+    { "id": "en.g.imperative_directions", "titleZh": "指路用祈使句:动词开头",
+      "bodyZh": "指路时直接用动词原形开头,不说 you:Go straight.(直走)Turn left.(左转)。这和中文“直走、左转”很像,但要注意:① turn left / turn right 中间不加 to,不说 turn to left;② “在红绿灯那儿”用 at:at the traffic light;③ 几步连起来用 then 或 and:Go straight two blocks, then turn left.;④ 听完别人指路,用祈使句把路线复述一遍(So, go straight…?),对方会说 That's right! 或者帮你纠正。发音:right(右)、light(灯)、left(左)——r 嘴唇先收圆,舌尖不碰任何地方;l 舌尖顶住上齿龈。",
+      "examples": [
+        { "text": "Go straight two blocks, then turn right.", "zh": "直走两个街区,然后右转。" },
+        { "text": "Turn left at the traffic light.", "zh": "在红绿灯处左转。" }
+      ] },
+    { "id": "en.g.place_prepositions", "titleZh": "说位置:next to、across from、on the corner",
+      "bodyZh": "说一个地方在哪儿:next to(在……旁边)、across from(在……对面)、on the corner(在街角)、on the left / on the right(在左手边 / 右手边)。中文把“旁边、对面”放在后面(银行旁边),英语要放在前面:next to the bank。常见错误:漏掉 to,说成 next the bank;街角要说 on the corner,in the corner 是房间里的角落。",
+      "examples": [
+        { "text": "The bank is next to the library.", "zh": "银行在图书馆旁边。" },
+        { "text": "The cafe is on the corner, across from the bank.", "zh": "咖啡馆在街角,在银行对面。" }
+      ] }
+  ],
+  "review": "draft"
+}

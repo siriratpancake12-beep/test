@@ -1,0 +1,47 @@
+{
+  "id": "en.a1u5.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105080,
+  "titleZh": "单元复习:我来给你指路", "goalZh": "反过来帮别人:听懂游客要去哪儿,用本单元的说法告诉她怎么走、坐什么车、要多久", "canDoZh": "能给问路的游客指路:怎么走、坐哪路车、在哪儿下、要多久",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.tourist", "kind": "word", "pos": "noun", "text": "tourist", "zh": "游客", "features": { "ipa": "ˈtʊrɪst" }, "noteZh": "重音在前 TOUR-ist;our 读卷舌的 /ʊr/。问路时先说一句 Sorry, I'm a tourist.(不好意思,我是外地来的),对方往往会说得慢一点。" },
+    { "id": "en.map", "kind": "word", "pos": "noun", "text": "map", "zh": "地图", "features": { "ipa": "mæp" }, "noteZh": "a 读 /æ/;Can you show me on the map? 能在地图上指给我看吗?" },
+    { "id": "en.let_me_see", "kind": "phrase", "pos": "phrase", "text": "Let me see", "zh": "我想想;让我看看", "features": { "ipa": "ˌlet mi ˈsiː" }, "noteZh": "需要时间想一想时说,比沉默或者一直\"嗯……\"自然得多。" },
+    { "id": "en.no_problem", "kind": "phrase", "pos": "phrase", "text": "No problem", "zh": "没问题", "features": { "ipa": "ˌnoʊ ˈprɑːbləm" }, "noteZh": "回应 Thanks 时也很常用,意思接近\"不客气\",比 You're welcome 更随意。" }
+  ],
+  "reviewItems": ["en.how_do_i_get_to", "en.get_off", "en.across_from", "en.next_to"],
+  "lines": [
+    { "speaker": "tourist", "text": "Excuse me. How do I get to the museum?", "zh": "打扰一下,请问博物馆怎么走?", "items": ["en.excuse_me", "en.how_do_i_get_to", "en.museum"] },
+    { "speaker": "lei", "text": "The museum? Let me see...", "zh": "博物馆?我想想……", "items": ["en.museum", "en.let_me_see"] },
+    { "speaker": "tourist", "text": "Sorry, I'm a tourist. Here's my map.", "zh": "不好意思,我是来旅游的。这是我的地图。", "items": ["en.sorry", "en.tourist", "en.map"] },
+    { "speaker": "lei", "text": "No problem. Take Bus 10. It goes downtown.", "zh": "没关系。坐 10 路公交,它去市中心。", "items": ["en.no_problem", "en.take", "en.bus", "en.go", "en.downtown"] },
+    { "speaker": "tourist", "text": "Bus 10. How long does it take?", "zh": "10 路。要坐多久?", "items": ["en.bus", "en.how_long", "en.take"] },
+    { "speaker": "lei", "text": "About twenty minutes. Get off at Pine Street.", "zh": "大概二十分钟。在派恩街下车。", "items": ["en.minute", "en.get_off", "en.street"] },
+    { "speaker": "tourist", "text": "OK. And then?", "zh": "好的。然后呢?", "items": ["en.then"] },
+    { "speaker": "lei", "text": "Turn right and walk one block. The museum is on the left.", "zh": "右转,走一个街区。博物馆在左手边。", "items": ["en.turn", "en.right", "en.walk", "en.block", "en.museum", "en.left"] },
+    { "speaker": "tourist", "text": "Oh, I see it on the map! It's next to a bank.", "zh": "哦,我在地图上看到了!在一家银行旁边。", "items": ["en.see", "en.map", "en.next_to", "en.bank"] },
+    { "speaker": "lei", "text": "That's right. It's across from a big library.", "zh": "对。它对面是一个很大的图书馆。", "items": ["en.thats_right", "en.across_from", "en.big", "en.library"] },
+    { "speaker": "tourist", "text": "Great! Thank you!", "zh": "太好了!谢谢你!", "items": ["en.great", "en.thank_you"] },
+    { "speaker": "lei", "text": "No problem! I'm waiting for Bus 10, too.", "zh": "不客气!我也在等 10 路车呢。", "items": ["en.no_problem", "en.wait", "en.bus"] }
+  ],
+  "questions": [
+    { "prompt": "游客要去哪儿?", "options": ["机场", "银行", "图书馆", "博物馆"], "answer": 3, "explainZh": "游客问 How do I get to the museum?(博物馆怎么走?)" },
+    { "prompt": "游客下车以后应该怎么走?", "options": ["右转,走一个街区", "左转,走两个街区", "直走,过红绿灯"], "answer": 0, "explainZh": "磊说 Get off at Pine Street.,然后 Turn right and walk one block.(右转,走一个街区。)" },
+    { "prompt": "博物馆在哪儿?", "options": ["在右手边,图书馆旁边", "在银行对面", "在左手边,银行旁边、图书馆对面"], "answer": 2, "explainZh": "The museum is on the left.;It's next to a bank.;It's across from a big library." }
+  ],
+  "grammar": [
+    { "id": "en.g.giving_directions", "titleZh": "给别人指路:一步一句",
+      "bodyZh": "给别人指路,就是把本单元学的说法按顺序串起来:① 坐什么车:Take Bus 10.;② 在哪儿下:Get off at Pine Street.;③ 下车后怎么走:Turn right and walk one block.(祈使句,动词开头);④ 在哪儿、旁边有什么:It's on the left, next to a bank.;⑤ 要多久:It takes about twenty minutes.。一时想不起来,先说 Let me see…,比沉默或者一直“嗯……”自然得多。发音:left / right、数字和街名是关键信息,要重读;每说完一步稍停一下,让对方跟上。",
+      "examples": [
+        { "text": "Take Bus 10 and get off at Pine Street.", "zh": "坐 10 路公交,在派恩街下车。" },
+        { "text": "Turn right. The museum is on the left.", "zh": "右转。博物馆在左手边。" }
+      ] },
+    { "id": "en.g.goes_or_going", "titleZh": "It goes… 和 I'm waiting…:两种现在时",
+      "bodyZh": "说线路、时刻表、习惯这类固定的事,用一般现在时:Bus 10 goes downtown.(10 路去市中心)There's a train every ten minutes.(每十分钟一班);说此刻正在发生的事,用现在进行时 be + -ing:I'm waiting for the bus.(我正在等车)。问附近有没有什么用 Is there…?,回答 Yes, there is. / No, there isn't.。",
+      "examples": [
+        { "text": "Bus 10 goes downtown.", "zh": "10 路公交去市中心。" },
+        { "text": "We're waiting for Bus 10.", "zh": "我们在等 10 路车。" }
+      ] }
+  ],
+  "review": "draft"
+}

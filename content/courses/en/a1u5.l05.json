@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u5.l05", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105050,
+  "titleZh": "我在路上了!", "goalZh": "会用现在进行时在电话里说自己正在做什么、在哪儿", "canDoZh": "能在电话里告诉朋友\"我在路上了\"\"我正在门口等你\",顺利碰头",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "en.on_my_way", "kind": "phrase", "pos": "phrase", "text": "I'm on my way", "zh": "我在路上了", "alt": ["I am on my way", "On my way"], "features": { "ipa": "aɪm ˌɑːn maɪ ˈweɪ" }, "noteZh": "已经出发、正在过去时说;发消息常缩成 OMW。" },
+    { "id": "en.right_now", "kind": "phrase", "pos": "adv", "text": "right now", "zh": "现在;此刻", "features": { "ipa": "ˌraɪt ˈnaʊ" }, "noteZh": "比 now 更强调\"就在这会儿\",常和现在进行时一起用。" },
+    { "id": "en.wait", "kind": "word", "pos": "verb", "text": "wait", "zh": "等", "features": { "ipa": "weɪt" }, "noteZh": "等某人要加 for:I'm waiting for you.(不说 wait you)。" },
+    { "id": "en.stand", "kind": "word", "pos": "verb", "text": "stand", "zh": "站;站着", "features": { "ipa": "stænd" }, "noteZh": "I'm standing in front of the museum. 我正站在博物馆门口。" },
+    { "id": "en.in_front_of", "kind": "phrase", "pos": "prep", "text": "in front of", "zh": "在……前面;在……门口", "features": { "ipa": "ɪn ˈfrʌnt əv" }, "noteZh": "连读成“in-fron-tov”;front 的 o 读 /ʌ/。英语没有“门口”这个词,“在博物馆门口”就说 in front of the museum。" },
+    { "id": "en.museum", "kind": "word", "pos": "noun", "text": "museum", "zh": "博物馆", "features": { "ipa": "mjuːˈziːəm" }, "noteZh": "重音在中间 mu-SE-um,中国人常读成 MU-seum。" },
+    { "id": "en.come", "kind": "word", "pos": "verb", "text": "come", "zh": "来", "features": { "ipa": "kʌm" }, "noteZh": "I'm coming! 我这就来;朝对方所在的地方去,英语用 come,不用 go。" },
+    { "id": "en.see", "kind": "word", "pos": "verb", "text": "see", "zh": "看见", "features": { "ipa": "siː" }, "noteZh": "I see you! 我看见你了;I see. 还表示\"我明白了\"。" },
+    { "id": "en.be_right_there", "kind": "phrase", "pos": "phrase", "text": "I'll be right there", "zh": "我马上到", "alt": ["I will be right there", "Be right there"], "features": { "ipa": "aɪl bi ˌraɪt ˈðer" }, "noteZh": "right 在这里是\"马上、立刻\";there 的 th 是浊音 /ð/。" }
+  ],
+  "reviewItems": ["en.bus", "en.downtown", "en.walk", "en.text"],
+  "lines": [
+    { "speaker": "sofia", "text": "Hi, Lei! Where are you? What are you doing?", "zh": "喂,磊!你在哪儿?在干什么呢?", "items": ["en.hi"] },
+    { "speaker": "lei", "text": "I'm on my way. I'm on the bus right now.", "zh": "我在路上了,现在正在公交车上。", "items": ["en.on_my_way", "en.bus", "en.right_now"] },
+    { "speaker": "sofia", "text": "OK. Text me when you're downtown.", "zh": "好。到了市中心给我发个消息。", "items": ["en.text", "en.downtown"] },
+    { "speaker": "lei", "text": "Sofia, I'm here! I'm standing in front of the museum.", "zh": "(二十分钟后)索菲亚,我到了!我正站在博物馆门口。", "items": ["en.stand", "en.in_front_of", "en.museum"] },
+    { "speaker": "sofia", "text": "Great! I'm walking from the bus stop.", "zh": "太好了!我正从公交站走过去。", "items": ["en.great", "en.walk", "en.bus_stop"] },
+    { "speaker": "lei", "text": "OK. I'm waiting for you.", "zh": "好,我等你。", "items": ["en.wait"] },
+    { "speaker": "sofia", "text": "I'm coming! I'll be right there.", "zh": "我来了!我马上到。", "items": ["en.come", "en.be_right_there"] },
+    { "speaker": "lei", "text": "Oh, I see you! Hi!", "zh": "哦,我看见你了!嗨!", "items": ["en.see", "en.hi"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚打电话时,磊在做什么?", "options": ["在博物馆门口等她", "在走路", "在坐公交"], "answer": 2, "explainZh": "磊说 I'm on my way. I'm on the bus right now.(我在路上了,现在正在公交车上。)" },
+    { "prompt": "磊到了以后站在哪儿?", "options": ["公交站", "博物馆门口", "银行门口"], "answer": 1, "explainZh": "I'm standing in front of the museum.(我正站在博物馆门口。)" },
+    { "prompt": "最后磊说 I see you!,意思是?", "options": ["我看见你了", "我明白了", "回头见"], "answer": 0, "explainZh": "see 是“看见”,I see you! = 我看见你了。单说 I see. 才是“我明白了”;“回头见”是 See you later.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.present_continuous", "titleZh": "现在进行时:am / is / are + 动词-ing",
+      "bodyZh": "说“正在做”的事,用 be 动词 + 动词-ing:I'm waiting.(我正在等)She's coming.(她正过来)What are you doing?(你在干什么?)。中文靠“正在、在、呢”表达,英语靠 be + -ing,两样都不能少:不说 I waiting,也不说 I'm wait。-ing 的拼法:一般直接加(wait → waiting、stand → standing);词尾不发音的 e 去掉再加(come → coming)。发音:-ing 的 /ŋ/ 是后鼻音,舌根抬起贴住上颚后部,不要读成 -in,也不要在后面多加一个 g 音。",
+      "examples": [
+        { "text": "What are you doing? — I'm waiting for the bus.", "zh": "你在干什么?——我在等公交。" },
+        { "text": "Sofia is walking from the bus stop.", "zh": "索菲亚正从公交站走过来。" }
+      ] },
+    { "id": "en.g.simple_vs_continuous", "titleZh": "every day 还是 right now?",
+      "bodyZh": "一般现在时说习惯、经常做的事,常和 every day、usually 一起用;现在进行时说此刻正在发生的事,常和 now、right now 一起用。比较:I take the bus every day.(我每天都坐公交——习惯)/ I'm taking the bus right now.(我现在正在坐公交——此刻)。中国学生常把两种混着用:看到 right now 就要用 be + -ing;说习惯不用进行时,不说 I'm taking the bus every day.。电话里约见面有两句现成的话,整句用就行:I'm on my way.(我在路上了)、I'll be right there.(我马上到)。",
+      "examples": [
+        { "text": "I take the bus every day.", "zh": "我每天都坐公交。" },
+        { "text": "I'm taking the bus right now.", "zh": "我现在正在坐公交。" }
+      ] }
+  ],
+  "review": "draft"
+}

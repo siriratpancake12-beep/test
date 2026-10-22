@@ -1,0 +1,43 @@
+{
+  "id": "en.a1u6.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106040,
+  "titleZh": "这些多少钱?", "goalZh": "会问价格,听懂价格和折扣,判断划不划算", "canDoZh": "能在店里问清楚价格和折扣,听懂\"打八折\"这类说法",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "en.jeans", "kind": "word", "pos": "noun", "text": "jeans", "zh": "牛仔裤", "features": { "ipa": "dʒiːnz" }, "noteZh": "永远是复数:These jeans are nice.;一条牛仔裤 a pair of jeans。" },
+    { "id": "en.pants", "kind": "word", "pos": "noun", "text": "pants", "zh": "裤子(长裤)", "features": { "ipa": "pænts" }, "noteZh": "美式 pants 是长裤,英式 pants 却是内裤!永远用复数。" },
+    { "id": "en.shoes", "kind": "word", "pos": "noun", "text": "shoes", "zh": "鞋", "features": { "ipa": "ʃuːz" }, "noteZh": "一般说复数;一双鞋 a pair of shoes;运动鞋常叫 sneakers。" },
+    { "id": "en.t_shirt", "kind": "word", "pos": "noun", "text": "T-shirt", "zh": "T 恤", "alt": ["T shirt", "tshirt", "tee shirt"], "features": { "ipa": "ˈtiː ˌʃɝːt" }, "noteZh": "T 读字母音 /tiː/;shirt 的 ir 卷舌。" },
+    { "id": "en.expensive", "kind": "word", "pos": "adj", "text": "expensive", "zh": "贵的", "features": { "ipa": "ɪkˈspensɪv" }, "noteZh": "重音在中间 ex-PEN-sive;词尾 v 要读出来。" },
+    { "id": "en.cheap", "kind": "word", "pos": "adj", "text": "cheap", "zh": "便宜的", "features": { "ipa": "tʃiːp" }, "noteZh": "cheap 有时带\"便宜没好货\"的意思,夸东西划算更常说 a good deal。" },
+    { "id": "en.on_sale", "kind": "phrase", "pos": "adj", "text": "on sale", "zh": "在打折", "features": { "ipa": "ɑːn ˈseɪl" }, "noteZh": "美式 on sale 是\"打折\",for sale 是\"出售\"。" },
+    { "id": "en.percent_off", "kind": "phrase", "pos": "phrase", "text": "percent off", "zh": "减价百分之……", "features": { "ipa": "pɚˈsent ˈɑːf" }, "noteZh": "20% off = 减 20% = 打八折,千万别理解成\"打二折\";50% off 就是半价。" },
+    { "id": "en.good_deal", "kind": "phrase", "pos": "noun", "text": "good deal", "zh": "划算的买卖", "features": { "ipa": "ˌɡʊd ˈdiːl" }, "noteZh": "That's a good deal! 真划算!" }
+  ],
+  "reviewItems": ["en.how_much", "en.dollar", "en.card", "en.cash"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. How much are these jeans?", "zh": "打扰一下,这条牛仔裤多少钱?", "items": ["en.excuse_me", "en.how_much", "en.jeans"] },
+    { "speaker": "clerk", "text": "Sixty dollars. All jeans and pants are on sale, twenty percent off.", "zh": "60 美元。所有牛仔裤和长裤都在打折,减 20%。", "items": ["en.dollar", "en.jeans", "en.pants", "en.on_sale", "en.percent_off"] },
+    { "speaker": "amy", "text": "Wow, that's a good deal!", "zh": "哇,真划算!", "items": ["en.good_deal"] },
+    { "speaker": "lei", "text": "How much is this T-shirt? And these shoes?", "zh": "这件 T 恤多少钱?还有这双鞋呢?", "items": ["en.how_much", "en.t_shirt", "en.shoes"] },
+    { "speaker": "clerk", "text": "The T-shirt is fifteen dollars, and the shoes are fifty.", "zh": "T 恤 15 美元,鞋 50 美元。", "items": ["en.t_shirt", "en.dollar", "en.shoes"] },
+    { "speaker": "lei", "text": "Fifteen is cheap! But fifty is too expensive for me.", "zh": "15 美元挺便宜!可是 50 美元对我来说太贵了。", "items": ["en.cheap", "en.too", "en.expensive"] },
+    { "speaker": "clerk", "text": "So, the jacket and the T-shirt? Cash or card?", "zh": "那就是外套和 T 恤?付现金还是刷卡?", "items": ["en.jacket", "en.t_shirt", "en.cash", "en.card"] },
+    { "speaker": "lei", "text": "Yes. Card, please.", "zh": "对。刷卡,谢谢。", "items": ["en.card"] }
+  ],
+  "questions": [
+    { "prompt": "牛仔裤 twenty percent off,是什么意思?", "options": ["打二折", "打八折", "便宜 20 美元"], "answer": 1, "explainZh": "20% off = 减价 20%,也就是打八折:60 美元的牛仔裤现在是 48 美元。别理解成打二折。" },
+    { "prompt": "T 恤和鞋各多少钱?", "options": ["T 恤 50 美元,鞋 15 美元", "都是 15 美元", "T 恤 15 美元,鞋 50 美元"], "answer": 2, "explainZh": "The T-shirt is fifteen dollars, and the shoes are fifty.。fifteen 重音在后 fif-TEEN,fifty 重音在前 FIF-ty。" },
+    { "prompt": "磊最后买了什么?", "options": ["外套和 T 恤", "外套和鞋", "牛仔裤和 T 恤"], "answer": 0, "explainZh": "店员问 So, the jacket and the T-shirt?,磊说 Yes.;鞋对他来说 too expensive(太贵了)。" }
+  ],
+  "grammar": [
+    { "id": "en.g.how_much_is_are", "titleZh": "How much is this? / How much are these?",
+      "bodyZh": "问价格:单数用 How much is this (T-shirt)?,复数用 How much are these (jeans)?,回答 It's… / They're…。jeans、pants、shoes 这些“成双”的东西在英语里永远是复数:These jeans are nice.——中文说“这条牛仔裤”,很容易说成 This jeans is…;代词也用 they / them。价格的读法:$15 读 fifteen dollars;$89.99 口语里常读成 eighty-nine ninety-nine,dollars 和 cents 都省掉。打折:20% off 是减掉 20%,也就是打八折(不是打二折!);50% off 是半价。发音:fifteen、thirteen 重音在后(fif-TEEN),fifty、thirty 重音在前(FIF-ty),听价格时抓住重音就不会听错。",
+      "examples": [
+        { "text": "How much is this T-shirt? — It's fifteen dollars.", "zh": "这件 T 恤多少钱?——15 美元。" },
+        { "text": "How much are these jeans? — They're sixty dollars.", "zh": "这条牛仔裤多少钱?——60 美元。" },
+        { "text": "The jacket is eighty-nine ninety-nine.", "zh": "这件外套 89.99 美元。" }
+      ] }
+  ],
+  "review": "draft"
+}

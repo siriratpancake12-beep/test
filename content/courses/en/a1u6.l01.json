@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u6.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106010,
+  "titleZh": "我想买件外套", "goalZh": "会在店里回应店员,说自己在找什么,或礼貌地说\"随便看看\"", "canDoZh": "能在服装店告诉店员自己在找什么,或者说\"我先随便看看\"",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.can_i_help_you", "kind": "phrase", "pos": "phrase", "text": "Can I help you", "zh": "需要帮忙吗?(店员)", "alt": ["How can I help you"], "features": { "ipa": "kən aɪ ˈhelp juː" }, "noteZh": "店员招呼客人的固定说法;要帮忙就说 Yes, I'm looking for…" },
+    { "id": "en.im_looking_for", "kind": "phrase", "pos": "phrase", "text": "I'm looking for", "zh": "我在找……", "alt": ["I am looking for"], "features": { "ipa": "aɪm ˈlʊkɪŋ fɚ" }, "noteZh": "look for 是\"找\"(过程),find 是\"找到\"(结果)。" },
+    { "id": "en.just_looking", "kind": "phrase", "pos": "phrase", "text": "I'm just looking", "zh": "我随便看看", "alt": ["Just looking", "I am just looking"], "features": { "ipa": "aɪm ˌdʒʌst ˈlʊkɪŋ" }, "noteZh": "不想被打扰时礼貌地说这句,后面加 thanks 更客气。" },
+    { "id": "en.store", "kind": "word", "pos": "noun", "text": "store", "zh": "商店", "features": { "ipa": "stɔːr" }, "noteZh": "美式说 store,英式说 shop;grocery store 超市。" },
+    { "id": "en.clothes", "kind": "word", "pos": "noun", "text": "clothes", "zh": "衣服", "features": { "ipa": "kloʊz" }, "noteZh": "只有一个音节,读音和 close(关上)一样;永远是复数,没有 a clothe。" },
+    { "id": "en.jacket", "kind": "word", "pos": "noun", "text": "jacket", "zh": "外套;夹克", "features": { "ipa": "ˈdʒækɪt" }, "noteZh": "美国人说 jacket 范围很广,薄外套、羽绒服都可以叫 jacket。" },
+    { "id": "en.sweater", "kind": "word", "pos": "noun", "text": "sweater", "zh": "毛衣", "features": { "ipa": "ˈswet̬ɚ" }, "noteZh": "ea 读 /e/,t 读成轻快的 d:\"SWE-der\"。" },
+    { "id": "en.warm", "kind": "word", "pos": "adj", "text": "warm", "zh": "暖和的", "features": { "ipa": "wɔːrm" }, "noteZh": "warm /wɔːrm/ 和 worm(虫子)/wɝːm/ 发音不同。" },
+    { "id": "en.cold", "kind": "word", "pos": "adj", "text": "cold", "zh": "冷的", "features": { "ipa": "koʊld" }, "noteZh": "It's cold today. 今天很冷;cold 作名词是\"感冒\":I have a cold。" },
+    { "id": "en.rain", "kind": "word", "pos": "verb", "text": "rain", "zh": "下雨;雨", "features": { "ipa": "reɪn" }, "noteZh": "It rains a lot in Seattle. 西雅图常下雨;也能当名词“雨”:a jacket for the rain(挡雨的外套)。r 开头嘴唇先收圆。" }
+  ],
+  "reviewItems": ["en.need", "en.really", "en.excuse_me"],
+  "lines": [
+    { "speaker": "amy", "text": "I love this store! The clothes are really nice.", "zh": "我超喜欢这家店!这里的衣服特别好看。", "items": ["en.love", "en.store", "en.clothes", "en.really", "en.nice"] },
+    { "speaker": "clerk", "text": "Hi there! Can I help you?", "zh": "你们好!需要帮忙吗?", "items": ["en.hi", "en.can_i_help_you"] },
+    { "speaker": "lei", "text": "Oh, I'm just looking, thanks.", "zh": "哦,我随便看看,谢谢。", "items": ["en.just_looking", "en.thank_you"] },
+    { "speaker": "amy", "text": "Lei, it's cold in Seattle. You need a warm jacket!", "zh": "磊,西雅图很冷,你得买件暖和的外套!", "items": ["en.cold", "en.need", "en.warm", "en.jacket"] },
+    { "speaker": "lei", "text": "OK, OK. Excuse me, I'm looking for a warm jacket.", "zh": "好吧好吧。打扰一下,我想找一件暖和的外套。", "items": ["en.excuse_me", "en.im_looking_for", "en.warm", "en.jacket"] },
+    { "speaker": "clerk", "text": "Sure. Jackets and sweaters are on the left.", "zh": "好的。外套和毛衣在左边。", "items": ["en.sure", "en.jacket", "en.sweater", "en.left"] },
+    { "speaker": "amy", "text": "Not a sweater, Lei. It rains really often here.", "zh": "别买毛衣,磊。这里经常下雨。", "items": ["en.sweater", "en.rain", "en.really", "en.often"] },
+    { "speaker": "lei", "text": "Got it. A warm jacket for the rain.", "zh": "明白了。买一件能挡雨的暖和外套。", "items": ["en.got_it", "en.warm", "en.jacket", "en.rain"] }
+  ],
+  "questions": [
+    { "prompt": "店员问 Can I help you? 时,磊一开始怎么回答?", "options": ["我随便看看,谢谢", "我在找一件外套", "我需要一件毛衣"], "answer": 0, "explainZh": "磊先说 I'm just looking, thanks.(我随便看看,谢谢。)后来才说 I'm looking for a warm jacket.。" },
+    { "prompt": "艾米为什么说别买毛衣?", "options": ["毛衣太贵了", "西雅图经常下雨,要买外套", "毛衣不好看"], "answer": 1, "explainZh": "Not a sweater, Lei. It rains really often here.(别买毛衣,磊。这里经常下雨。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.adjective_position", "titleZh": "形容词放哪儿:It's cold. / a warm jacket",
+      "bodyZh": "形容词有两个位置:① 放在 be 动词后面:It's cold.(天很冷)The clothes are nice.(衣服很好看);② 放在名词前面:a warm jacket(一件暖和的外套)。中文说“天很冷”不用“是”,英语里 be 动词不能省:不说 It cold.。放在名词前时,a 在最前面:a warm jacket,不说 warm a jacket,也不说 a jacket warm。在店里,I'm looking for…(我在找……)和 I'm just looking.(我随便看看)是两句现成的话,整句用就行。发音:clothes 只有一个音节 /kloʊz/,别读成“clo-thes”。",
+      "examples": [
+        { "text": "It's really cold today.", "zh": "今天真冷。" },
+        { "text": "I'm looking for a warm jacket.", "zh": "我在找一件暖和的外套。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "en.a1u6.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106080,
+  "titleZh": "单元复习:给妈妈挑礼物", "goalZh": "把本单元的颜色、尺码、价格、折扣和付款用语串起来,独立完成一次购物", "canDoZh": "能独立在商店里给家人挑礼物:问颜色和价格、比较、付款,并回答店员的问题",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.gift", "kind": "word", "pos": "noun", "text": "gift", "zh": "礼物", "alt": ["present"], "features": { "ipa": "ɡɪft" }, "noteZh": "也常说 present;店员问 Is it a gift? 常会帮你包装。" },
+    { "id": "en.birthday", "kind": "word", "pos": "noun", "text": "birthday", "zh": "生日", "features": { "ipa": "ˈbɝːθdeɪ" }, "noteZh": "th 是清音 /θ/,舌尖放在齿间送气;Happy birthday!" },
+    { "id": "en.scarf", "kind": "word", "pos": "noun", "text": "scarf", "zh": "围巾", "features": { "ipa": "skɑːrf" }, "noteZh": "复数 scarves 或 scarfs。" },
+    { "id": "en.beautiful", "kind": "word", "pos": "adj", "text": "beautiful", "zh": "漂亮的;美丽的", "features": { "ipa": "ˈbjuːt̬əfəl" }, "noteZh": "三个音节 BEAU-ti-ful,t 读成轻快的 d。" }
+  ],
+  "reviewItems": ["en.this_one", "en.light", "en.on_sale", "en.mom"],
+  "lines": [
+    { "speaker": "clerk", "text": "Hi, you guys! Can I help you?", "zh": "你们好!需要帮忙吗?", "items": ["en.hi", "en.you_guys", "en.can_i_help_you"] },
+    { "speaker": "lei", "text": "Yes, I'm looking for something for my mom.", "zh": "是的,我想给我妈妈买点东西。", "items": ["en.im_looking_for", "en.mom"] },
+    { "speaker": "clerk", "text": "Our scarves are really beautiful.", "zh": "我们的围巾特别漂亮。", "items": ["en.scarf", "en.really", "en.beautiful"] },
+    { "speaker": "lei", "text": "My mom loves red. Do you have this in red?", "zh": "我妈妈很喜欢红色。这条有红色的吗?", "items": ["en.mom", "en.love", "en.red", "en.do_you_have_this_in"] },
+    { "speaker": "clerk", "text": "Sorry, no. We have light gray and dark blue.", "zh": "抱歉,没有。我们有浅灰色和深蓝色的。", "items": ["en.sorry", "en.have", "en.light", "en.gray", "en.dark", "en.blue"] },
+    { "speaker": "lei", "text": "Sofia, this one or that one?", "zh": "索菲亚,这条还是那条?", "items": ["en.this_one"] },
+    { "speaker": "sofia", "text": "The light gray one is beautiful. The blue one is too dark.", "zh": "浅灰色那条很漂亮。蓝色那条颜色太深了。", "items": ["en.light", "en.gray", "en.this_one", "en.beautiful", "en.blue", "en.too", "en.dark"] },
+    { "speaker": "lei", "text": "OK. How much is it? Is it on sale?", "zh": "好。多少钱?在打折吗?", "items": ["en.how_much", "en.on_sale"] },
+    { "speaker": "clerk", "text": "Yes! It's forty dollars, but it's twenty percent off.", "zh": "在打折!原价 40 美元,现在减 20%。", "items": ["en.dollar", "en.percent_off"] },
+    { "speaker": "lei", "text": "Great. I'd like to buy this one. Here's my card.", "zh": "太好了。我想买这条。刷我的卡吧。", "items": ["en.great", "en.id_like_to", "en.buy", "en.this_one", "en.card"] },
+    { "speaker": "clerk", "text": "Thank you! Is it a gift?", "zh": "谢谢!是送人的礼物吗?", "items": ["en.thank_you", "en.gift"] },
+    { "speaker": "lei", "text": "Yes. It's for my mom's birthday next week. She's in China.", "zh": "是的,下周是我妈妈的生日。她在中国。", "items": ["en.mom", "en.birthday", "en.next", "en.week"] }
+  ],
+  "questions": [
+    { "prompt": "磊为什么问 Do you have this in red?", "options": ["他自己喜欢红色", "他妈妈喜欢红色", "索菲亚喜欢红色"], "answer": 1, "explainZh": "My mom loves red. Do you have this in red?(我妈妈很喜欢红色。这条有红色的吗?)" },
+    { "prompt": "他们最后选了哪条围巾?", "options": ["浅灰色的", "红色的", "深蓝色的"], "answer": 0, "explainZh": "店里没有红色的;索菲亚说 The light gray one is beautiful. The blue one is too dark.,磊就买了浅灰色那条。" },
+    { "prompt": "围巾原价 40 美元,20% off,现在多少钱?", "options": ["20 美元", "8 美元", "32 美元"], "answer": 2, "explainZh": "20% off = 减价 20% = 打八折:40 × 0.8 = 32 美元。" }
+  ],
+  "grammar": [
+    { "id": "en.g.shopping_review", "titleZh": "一次完整的购物(本单元复习)",
+      "bodyZh": "把本单元的说法按购物的顺序串起来:① 说要找什么:I'm looking for…;② 问有没有别的颜色、尺码:Do you have this in red? / in a large?;③ 比较:this one / that one、the light gray one;④ 说不合适:It's too dark. / It's too small.;⑤ 问价格和折扣:How much is it? Is it on sale?;⑥ 决定买:I'd like to buy this one.;买错了还能退换:I'd like to return this.。店员常说的几句也要听得懂:Can I help you?、Cash or card?、Is it a gift?(是送人的吗?——美国的店员常会帮你包好,或者给一张不显示价格的礼品小票)。",
+      "examples": [
+        { "text": "I'm looking for a gift for my mom.", "zh": "我在给我妈妈挑礼物。" },
+        { "text": "Do you have this in a medium?", "zh": "这件有中号的吗?" }
+      ] },
+    { "id": "en.g.choice_intonation", "titleZh": "This one ↗ or that one ↘?:选择疑问句的语调",
+      "bodyZh": "让对方在两个里面选一个,用 or 连起来:This one or that one?(这个还是那个?)Cash or card?(现金还是刷卡?)。语调是前一个选项升调 ↗、最后一个选项降调 ↘。回答时直接说选哪个:The light gray one. / Card, please.,不要用 Yes 或 No 回答。",
+      "examples": [
+        { "text": "Red or blue? — Red, please.", "zh": "红的还是蓝的?——红的,谢谢。" },
+        { "text": "Cash or card? — Card, please.", "zh": "付现金还是刷卡?——刷卡,谢谢。" }
+      ] }
+  ],
+  "review": "draft"
+}

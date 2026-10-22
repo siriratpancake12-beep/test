@@ -1,0 +1,43 @@
+{
+  "id": "en.a1u5.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105040,
+  "titleZh": "买一张去机场的票", "goalZh": "会在车站买票:说清去哪儿、单程还是往返、在哪个站台上车", "canDoZh": "能在轻轨站买一张去机场的票,问清楚坐哪趟车、在哪个站台等",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.ticket", "kind": "word", "pos": "noun", "text": "ticket", "zh": "票", "features": { "ipa": "ˈtɪkɪt" }, "noteZh": "buy a ticket 买票;词尾 t 轻轻收住。" },
+    { "id": "en.train", "kind": "word", "pos": "noun", "text": "train", "zh": "火车;列车", "features": { "ipa": "treɪn" }, "noteZh": "tr 读得像\"缺\"的声母,别读成 \"te-rain\";轻轨、地铁的车也叫 train。" },
+    { "id": "en.station", "kind": "word", "pos": "noun", "text": "station", "zh": "车站", "features": { "ipa": "ˈsteɪʃən" }, "noteZh": "train station 火车站;公交车站用 bus stop。" },
+    { "id": "en.airport", "kind": "word", "pos": "noun", "text": "airport", "zh": "机场", "features": { "ipa": "ˈerpɔːrt" }, "noteZh": "两个卷舌音,重音在前 AIR-port。" },
+    { "id": "en.one_way", "kind": "word", "pos": "adj", "text": "one-way", "zh": "单程的", "alt": ["one way"], "features": { "ipa": "ˌwʌn ˈweɪ" }, "noteZh": "a one-way ticket 单程票;one 读 /wʌn/,以 w 音开头,所以前面用 a。" },
+    { "id": "en.round_trip", "kind": "word", "pos": "adj", "text": "round-trip", "zh": "往返的", "alt": ["round trip"], "features": { "ipa": "ˌraʊnd ˈtrɪp" }, "noteZh": "美式说 round-trip ticket,英式说 return ticket。" },
+    { "id": "en.which", "kind": "word", "pos": "det", "text": "which", "zh": "哪个;哪一", "features": { "ipa": "wɪtʃ" }, "noteZh": "在几个里选一个用 which:Which train? 哪趟车?;which 做主语时直接接动词:Which train goes to the airport?(不加 does)。" },
+    { "id": "en.platform", "kind": "word", "pos": "noun", "text": "platform", "zh": "站台", "features": { "ipa": "ˈplætfɔːrm" }, "noteZh": "Platform 2 读作 platform two;重音在前。" },
+    { "id": "en.buy", "kind": "word", "pos": "verb", "text": "buy", "zh": "买", "features": { "ipa": "baɪ" }, "noteZh": "buy 和 by、bye 读音一样;过去式 bought(第 8 单元)。" }
+  ],
+  "reviewItems": ["en.how_long", "en.take", "en.next", "en.pay"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. How do I buy a ticket to the airport?", "zh": "(磊去机场接从墨西哥回来的索菲亚)打扰一下,请问去机场的票怎么买?", "items": ["en.excuse_me", "en.buy", "en.ticket", "en.airport"] },
+    { "speaker": "staff", "text": "Sure. One-way or round-trip?", "zh": "好的。要单程票还是往返票?", "items": ["en.sure", "en.one_way", "en.round_trip"] },
+    { "speaker": "lei", "text": "Round-trip, please. Do I pay here?", "zh": "往返的,谢谢。在这儿付钱吗?", "items": ["en.round_trip", "en.pay"] },
+    { "speaker": "staff", "text": "Yes. It's six dollars, cash or card.", "zh": "对,六美元,现金、刷卡都行。", "items": ["en.dollar", "en.cash", "en.card"] },
+    { "speaker": "lei", "text": "Thanks. Which train goes to the airport?", "zh": "谢谢。哪趟车去机场?", "items": ["en.thank_you", "en.which", "en.train", "en.go", "en.airport"] },
+    { "speaker": "staff", "text": "Platform 2. There's a train every ten minutes.", "zh": "在 2 号站台,每十分钟一班。", "items": ["en.platform", "en.train", "en.minute"] },
+    { "speaker": "lei", "text": "How long does it take?", "zh": "坐过去要多久?", "items": ["en.how_long", "en.take"] },
+    { "speaker": "staff", "text": "About forty minutes. Get off at the airport station.", "zh": "大概四十分钟。在机场站下车。", "items": ["en.minute", "en.get_off", "en.airport", "en.station"] },
+    { "speaker": "staff", "text": "Oh, the next train is in two minutes. Hurry up!", "zh": "哦,下一班车两分钟后就到,快点!", "items": ["en.next", "en.train", "en.minute", "en.hurry_up"] }
+  ],
+  "questions": [
+    { "prompt": "磊买的是什么票?", "options": ["去机场的往返票", "去机场的单程票", "去市中心的往返票"], "answer": 0, "explainZh": "工作人员问 One-way or round-trip?,磊说 Round-trip, please.(要往返的。)" },
+    { "prompt": "去机场的车在哪儿坐?多久一班?", "options": ["10 号站台,每两分钟一班", "2 号站台,每四十分钟一班", "2 号站台,每十分钟一班"], "answer": 2, "explainZh": "Platform 2. There's a train every ten minutes.(2 号站台,每十分钟一班。)四十分钟是路上要花的时间。" }
+  ],
+  "grammar": [
+    { "id": "en.g.which", "titleZh": "Which…?:问“哪一个”",
+      "bodyZh": "在几个里面选一个,用 which + 名词:Which train?(哪趟车?)Which platform?(哪个站台?)。问“哪趟车去机场”,which train 本身就是主语,后面直接接动词:Which train goes to the airport?,不加 does。用一般现在时 goes,是因为说的是线路、时刻表这类固定的安排;“每隔多久一班”用 every + 时间:every ten minutes。买票时常听到 One-way or round-trip?(单程还是往返?)。发音:AIR-port、PLAT-form、TICK-et 重音都在第一个音节。",
+      "examples": [
+        { "text": "Which bus goes downtown?", "zh": "哪路公交去市中心?" },
+        { "text": "Which platform? — Platform 2.", "zh": "哪个站台?——2 号站台。" },
+        { "text": "There's a train every ten minutes.", "zh": "每十分钟有一班车。" }
+      ] }
+  ],
+  "review": "draft"
+}

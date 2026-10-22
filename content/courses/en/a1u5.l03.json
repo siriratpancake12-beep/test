@@ -1,0 +1,43 @@
+{
+  "id": "en.a1u5.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105030,
+  "titleZh": "这车去市中心吗?", "goalZh": "会上车问司机车去不去某地、要坐多久、在哪儿下车", "canDoZh": "能一个人坐公交去市中心:上车确认路线、问要多久、知道在哪站下车",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.bus", "kind": "word", "pos": "noun", "text": "bus", "zh": "公交车", "features": { "ipa": "bʌs" }, "noteZh": "take the bus 坐公交;复数 buses 读 /ˈbʌsɪz/。" },
+    { "id": "en.bus_stop", "kind": "phrase", "pos": "noun", "text": "bus stop", "zh": "公交车站", "features": { "ipa": "ˈbʌs ˌstɑːp" }, "noteZh": "stop 单说也指“一站”:the next stop 下一站,five stops 五站;大一点的车站(火车站、轻轨站)叫 station。" },
+    { "id": "en.downtown", "kind": "word", "pos": "adv", "text": "downtown", "zh": "市中心;去市中心", "features": { "ipa": "ˌdaʊnˈtaʊn" }, "noteZh": "美国人说\"市中心\"最常用 downtown;作副词时前面不加 to:go downtown。" },
+    { "id": "en.get_on", "kind": "phrase", "pos": "verb", "text": "get on", "zh": "上(公交、火车)", "features": { "ipa": "ˌɡet̬ ˈɑːn" }, "noteZh": "连读成 \"ge-don\";上出租车、小汽车用 get in。" },
+    { "id": "en.get_off", "kind": "phrase", "pos": "verb", "text": "get off", "zh": "下(公交、火车)", "features": { "ipa": "ˌɡet̬ ˈɑːf" }, "noteZh": "连读成 \"ge-doff\";Where do I get off? 我在哪儿下车?" },
+    { "id": "en.take", "kind": "word", "pos": "verb", "text": "take", "zh": "乘坐;花(时间)", "features": { "ipa": "teɪk" }, "noteZh": "take the bus 坐公交;It takes 20 minutes. 要花 20 分钟。" },
+    { "id": "en.how_long", "kind": "phrase", "pos": "phrase", "text": "How long", "zh": "多久;多长时间", "features": { "ipa": "ˌhaʊ ˈlɑːŋ" }, "noteZh": "How long does it take? 要多长时间?" },
+    { "id": "en.next", "kind": "word", "pos": "adj", "text": "next", "zh": "下一个", "features": { "ipa": "nekst" }, "noteZh": "the next stop 下一站;next week 下周;词尾 xt /kst/ 三个辅音都要读。" },
+    { "id": "en.driver", "kind": "word", "pos": "noun", "text": "driver", "zh": "司机", "features": { "ipa": "ˈdraɪvɚ" }, "noteZh": "dr 读得像“拽”的声母再加卷舌;结尾是 v + 卷舌的 er。在美国,下公交时跟司机说一声 Thank you! 很常见。" }
+  ],
+  "reviewItems": ["en.how_much", "en.card", "en.minute", "en.far"],
+  "lines": [
+    { "speaker": "amy", "text": "Lei, take the bus downtown! Get on and pay the driver.", "zh": "(电话里)磊,坐公交来市中心吧!上车以后把车费付给司机。", "items": ["en.take", "en.bus", "en.downtown", "en.get_on", "en.pay", "en.driver"] },
+    { "speaker": "lei", "text": "Hi! Does this bus go downtown? How much is it?", "zh": "您好!这车去市中心吗?多少钱?", "items": ["en.hi", "en.bus", "en.go", "en.downtown", "en.how_much"] },
+    { "speaker": "driver", "text": "Yes, it does. Get on, please. It's three dollars.", "zh": "去。请上车吧,三美元。", "items": ["en.get_on", "en.dollar"] },
+    { "speaker": "lei", "text": "Is a card OK? And how long does it take?", "zh": "能刷卡吗?还有,要坐多久?", "items": ["en.card", "en.how_long", "en.take"] },
+    { "speaker": "driver", "text": "Sure. About twenty minutes. It's not far.", "zh": "可以。大概二十分钟,不远。", "items": ["en.sure", "en.minute", "en.far"] },
+    { "speaker": "lei", "text": "Great. Where do I get off?", "zh": "太好了。我在哪儿下车?", "items": ["en.great", "en.get_off"] },
+    { "speaker": "driver", "text": "Get off at Pine Street. It's five stops from here.", "zh": "在派恩街下车,离这儿还有五站。", "items": ["en.get_off", "en.street", "en.bus_stop"] },
+    { "speaker": "driver", "text": "OK, Pine Street is the next stop!", "zh": "(二十分钟后)好了,下一站就是派恩街!", "items": ["en.street", "en.next", "en.bus_stop"] },
+    { "speaker": "lei", "text": "Thank you! Have a nice day!", "zh": "(下车时)谢谢您!祝您今天愉快!", "items": ["en.thank_you", "en.have_a_nice_day"] }
+  ],
+  "questions": [
+    { "prompt": "坐公交到市中心大概要多久?", "options": ["五分钟", "十分钟", "二十分钟"], "answer": 2, "explainZh": "磊问 How long does it take?,司机说 About twenty minutes.(大概二十分钟。)" },
+    { "prompt": "磊应该在哪儿下车?", "options": ["派恩街(Pine Street)", "银行门口", "学校门口"], "answer": 0, "explainZh": "司机说 Get off at Pine Street. It's five stops from here.(在派恩街下车,离这儿还有五站。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.how_long_take", "titleZh": "How long does it take?:坐车要多久",
+      "bodyZh": "问路上要花多长时间:How long does it take?,回答 It takes about twenty minutes.,口语里常直接说 About twenty minutes.。这里的 take 是“花(时间)”,主语用 it,不说 How long do you take?。take 还表示“乘坐”:take the bus 坐公交——中文说“坐”,但英语不能说 sit the bus。上下公交、火车用 get on / get off;上下小汽车、出租车用 get in / get out。“下一站”是 the next stop。发音:get on 连读成“ge-don”,get off 连读成“ge-doff”——t 夹在两个元音中间,读成轻快的 d。",
+      "examples": [
+        { "text": "How long does it take? — It takes about twenty minutes.", "zh": "要多长时间?——大概二十分钟。" },
+        { "text": "Take the bus. It takes about twenty minutes.", "zh": "坐公交吧,大概要二十分钟。" },
+        { "text": "Get off at the next stop.", "zh": "在下一站下车。" }
+      ] }
+  ],
+  "review": "draft"
+}

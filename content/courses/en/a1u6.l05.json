@@ -1,0 +1,43 @@
+{
+  "id": "en.a1u6.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106050,
+  "titleZh": "我想退货", "goalZh": "会在店里退货或换货:说明问题、出示小票、选退款还是换货", "canDoZh": "能拿着小票去商店,把有问题的东西退掉或换一件新的",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.id_like_to", "kind": "phrase", "pos": "phrase", "text": "I'd like to", "zh": "我想……(礼貌)", "alt": ["I would like to"], "features": { "ipa": "aɪd ˈlaɪk tə" }, "noteZh": "比 I want to 客气,在店里、办事时常用;后面跟动词原形:I'd like to return this.。" },
+    { "id": "en.return", "kind": "word", "pos": "verb", "text": "return", "zh": "退货;归还", "features": { "ipa": "rɪˈtɝːn" }, "noteZh": "重音在后 re-TURN;美国很多商店一段时间内(常见 30 天)可以退货。" },
+    { "id": "en.exchange", "kind": "word", "pos": "noun", "text": "exchange", "zh": "换货;交换", "features": { "ipa": "ɪksˈtʃeɪndʒ" }, "noteZh": "Can I get an exchange? 能换一件吗?;exchange student 交换生。" },
+    { "id": "en.refund", "kind": "word", "pos": "noun", "text": "refund", "zh": "退款", "features": { "ipa": "ˈriːfʌnd" }, "noteZh": "作名词重音在前 RE-fund;get a refund 拿到退款。" },
+    { "id": "en.receipt", "kind": "word", "pos": "noun", "text": "receipt", "zh": "收据;小票", "features": { "ipa": "rɪˈsiːt" }, "noteZh": "p 不发音,读作 \"ri-SEET\";退货一般都要小票。" },
+    { "id": "en.whats_wrong_with_it", "kind": "phrase", "pos": "phrase", "text": "What's wrong with it", "zh": "它有什么问题?", "alt": ["What is wrong with it"], "features": { "ipa": "ˌwʌts ˈrɑːŋ wɪð ɪt" }, "noteZh": "wrong 的 w 不发音,读 /rɑːŋ/;问人\"你怎么了\"说 What's wrong?" },
+    { "id": "en.broken", "kind": "word", "pos": "adj", "text": "broken", "zh": "坏了的", "features": { "ipa": "ˈbroʊkən" }, "noteZh": "It's broken. 坏了;不说 It's bad。" },
+    { "id": "en.here_it_is", "kind": "phrase", "pos": "phrase", "text": "Here it is", "zh": "在这儿;给你", "alt": ["Here you are", "Here you go"], "features": { "ipa": "ˈhɪr ɪt ˌɪz" }, "noteZh": "递东西时说;连读成 \"hi-ri-tiz\"。" },
+    { "id": "en.new", "kind": "word", "pos": "adj", "text": "new", "zh": "新的", "features": { "ipa": "nuː" }, "noteZh": "美式读 /nuː/,英式读 /njuː/。" }
+  ],
+  "reviewItems": ["en.jacket", "en.size", "en.too", "en.store"],
+  "lines": [
+    { "speaker": "lei", "text": "Oh no! My new jacket is broken.", "zh": "糟糕!我的新外套坏了。", "items": ["en.new", "en.jacket", "en.broken"] },
+    { "speaker": "ethan", "text": "Hey, return it to the store, man.", "zh": "嘿,拿回店里退了呗,哥们儿。", "items": ["en.hey", "en.return", "en.store"] },
+    { "speaker": "lei", "text": "Hi. I'd like to return this jacket.", "zh": "(第二天,在店里)您好,我想退这件外套。", "items": ["en.hi", "en.id_like_to", "en.return", "en.jacket"] },
+    { "speaker": "clerk", "text": "Sure. What's wrong with it? Is it too small?", "zh": "好的。它有什么问题?是太小了吗?", "items": ["en.sure", "en.whats_wrong_with_it", "en.too", "en.small"] },
+    { "speaker": "lei", "text": "No, the size is OK, but it's broken.", "zh": "不是,尺码没问题,是坏了。", "items": ["en.size", "en.broken"] },
+    { "speaker": "clerk", "text": "Oh, sorry. Do you have the receipt?", "zh": "哦,不好意思。您有小票吗?", "items": ["en.sorry", "en.have", "en.receipt"] },
+    { "speaker": "lei", "text": "Yes. Here it is.", "zh": "有,给您。", "items": ["en.here_it_is"] },
+    { "speaker": "clerk", "text": "Thanks. Do you want a refund or an exchange?", "zh": "谢谢。您要退款还是换货?", "items": ["en.thank_you", "en.want", "en.refund", "en.exchange"] },
+    { "speaker": "lei", "text": "An exchange, please. I'd like a new one.", "zh": "换货吧。我想换一件新的。", "items": ["en.exchange", "en.id_like_to", "en.new", "en.this_one"] }
+  ],
+  "questions": [
+    { "prompt": "外套有什么问题?", "options": ["太小了", "颜色不对", "坏了"], "answer": 2, "explainZh": "店员猜 Is it too small?,磊说 No, the size is OK, but it's broken.(尺码没问题,是坏了。)" },
+    { "prompt": "磊最后选了什么?", "options": ["换一件新的", "退款", "不退也不换"], "answer": 0, "explainZh": "店员问 Do you want a refund or an exchange?,磊说 An exchange, please. I'd like a new one.(换货吧,我想换一件新的。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.id_like_to", "titleZh": "I'd like to…:礼貌地说想做什么",
+      "bodyZh": "I'd like to = I would like to,后面跟动词原形:I'd like to return this jacket.(我想退这件外套)。意思和 I want to 差不多,但更客气,在商店、银行、办事处说更得体;I want to return it. 语法没错,只是听起来有点硬。后面直接跟名词时不要 to:I'd like a new one.(我想要一件新的)。把东西递给对方时说 Here it is. 或 Here you go.,不说 Give you.。问“出了什么问题”用 What's wrong with it?。发音:receipt 的 p 不发音,读 /rɪˈsiːt/;return 重音在后 re-TURN。",
+      "examples": [
+        { "text": "I'd like to return these shoes.", "zh": "我想退这双鞋。" },
+        { "text": "Do you have the receipt? — Yes. Here it is.", "zh": "您有小票吗?——有,给您。" },
+        { "text": "What's wrong with it? — It's broken.", "zh": "它有什么问题?——坏了。" }
+      ] }
+  ],
+  "review": "draft"
+}
