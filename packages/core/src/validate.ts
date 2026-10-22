@@ -1,0 +1,65 @@
+import { splitArticle } from "./grading";
+import { LanguagePack, Lesson, type Item } from "./schema";
+
+/**
+ * 整门课的内容检查。发布前必须 0 个错误。
+ * 除了格式,还查教学上的规则:课文只能用学过的词、德语名词冠词和性别一致、id 不重复。
+ */
+export interface Problem { lesson: string; msg: string }
+
+export function validateCourse(packRaw: unknown, lessonsRaw: unknown[]): Problem[] {
+  const problems: Problem[] = [];
+  const packParsed = LanguagePack.safeParse(packRaw);
+  if (!packParsed.success) return [{ lesson: "-", msg: `语言包格式错误:${packParsed.error.message}` }];
+  const pack = packParsed.data;
+
+  const lessons: Lesson[] = [];
+  lessonsRaw.forEach((raw, i) => {
+    const r = Lesson.safeParse(raw);
+    if (r.success) lessons.push(r.data);
+    else problems.push({ lesson: (raw as { id?: string })?.id ?? `#${i}`, msg: r.error.issues.map((x) => `${x.path.join(".")}: ${x.message}`).join("; ") });
+  });
+
+  const seenLesson = new Set<string>();
+  const taught = new Map<string, Item>();
+  for (const l of [...lessons].sort((a, b) => a.order - b.order)) {
+    const P = (msg: string) => problems.push({ lesson: l.id, msg });
+    if (seenLesson.has(l.id)) P("课 id 重复");
+    seenLesson.add(l.id);
+    if (l.lang !== pack.code) P(`lang 是 ${l.lang},语言包是 ${pack.code}`);
+    if (!l.id.startsWith(pack.code + ".")) P("课 id 要以语言代码开头");
+
+    for (const it of l.newItems) {
+      if (!it.id.startsWith(pack.code + ".")) P(`${it.id}: 词条 id 要以语言代码开头`);
+      if (taught.has(it.id)) P(`${it.id}: 已经在前面的课教过,应放进 reviewItems`);
+      checkFeatures(it, pack).forEach((m) => P(`${it.id}: ${m}`));
+    }
+    for (const id of l.reviewItems) if (!taught.has(id)) P(`复习词 ${id} 之前没教过`);
+    for (const it of l.newItems) taught.set(it.id, it);
+    for (const line of l.lines) for (const id of line.items) if (!taught.has(id)) P(`句子"${line.text}"用到没教过的词 ${id}`);
+  }
+  return problems;
+}
+
+/** 语种特性检查:德语名词要有性和复数、冠词和性一致;日语要有读音…… */
+export function checkFeatures(it: Item, pack: LanguagePack): string[] {
+  const out: string[] = [];
+  const f = it.features;
+  if (it.pos === "noun" && pack.features.nounGender !== "none") {
+    if (!f.gender) out.push("名词缺少性别 gender");
+    else if (pack.features.nounGender === "mf" && f.gender === "n") out.push("这个语种没有中性");
+    // 俄语有性但没有冠词:只要求标 gender
+    const sp = splitArticle(it.text, pack);
+    if (!sp && pack.articles) out.push(`名词要带冠词写(如 ${Object.keys(pack.articles)[0] ?? ""} ...),方便记性别`);
+    else if (sp && f.gender) {
+      const g = pack.articles?.[sp[0].toLowerCase()];
+      // l' 这种不区分性别的冠词(标为 "mf")不检查
+      if (g && g !== "mf" && g !== "pl" && g !== f.gender) out.push(`冠词 ${sp[0]} 和性别 ${f.gender} 不一致`);
+    }
+    if (pack.features.requirePlural && f.plural === undefined) out.push("缺少复数 plural(没有复数写 \"-\")");
+    if (pack.code === "de" && sp && !/^\p{Lu}/u.test(sp[1])) out.push("德语名词首字母要大写");
+  }
+  if (pack.features.reading && /\p{Script=Han}/u.test(it.text) && !f.reading) out.push("含汉字,缺少读音 reading");
+  if (pack.features.roman && !f.roman) out.push("缺少罗马字 roman");
+  return out;
+}

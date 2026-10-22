@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "学外语",
+    "slug": "lingo-cn",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.lingocn"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false,
+      "package": "com.example.lingocn"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "scheme": "lingocn",
+    "plugins": [
+      "expo-router",
+      "expo-sqlite"
+    ]
+  }
+}

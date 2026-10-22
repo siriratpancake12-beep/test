@@ -1,0 +1,7 @@
+{
+  "code": "fr", "nameZh": "法语", "nativeName": "Français", "script": "latin", "locale": "fr-FR",
+  "features": { "nounGender": "mf", "requirePlural": false, "reading": false, "roman": false, "pitch": false },
+  "articles": { "le": "m", "la": "f", "l'": "mf", "les": "pl" },
+  "examsZh": ["TEF / TCF(留学、移民)", "DELF / DALF", "法语专四专八"],
+  "tipsZh": ["名词有阴阳性,一定连冠词一起记", "词尾辅音大多不发音,但有联诵 liaison", "鼻化元音和小舌音 r 要专门练", "é è ê ë 等重音符号会改变读音"]
+}

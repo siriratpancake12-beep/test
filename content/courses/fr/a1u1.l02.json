@@ -1,0 +1,21 @@
+{
+  "id": "fr.a1u1.l02", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 Bonjour !", "order": 2,
+  "titleZh": "在咖啡馆", "goalZh": "会点一杯喝的,记住名词的阴阳性",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 7,
+  "newItems": [
+    { "id": "fr.cafe", "kind": "word", "pos": "noun", "text": "le café", "zh": "咖啡", "features": { "gender": "m" } },
+    { "id": "fr.the", "kind": "word", "pos": "noun", "text": "le thé", "zh": "茶", "features": { "gender": "m" } },
+    { "id": "fr.eau", "kind": "word", "pos": "noun", "text": "l'eau", "zh": "水", "features": { "gender": "f" }, "noteZh": "元音开头的名词冠词缩成 l',看不出性别,要单独记:eau 是阴性。" },
+    { "id": "fr.baguette", "kind": "word", "pos": "noun", "text": "la baguette", "zh": "法棍面包", "features": { "gender": "f" } },
+    { "id": "fr.sil_vous_plait", "kind": "phrase", "pos": "phrase", "text": "s'il vous plaît", "zh": "请(礼貌)", "alt": ["s'il vous plait"], "features": {} },
+    { "id": "fr.merci", "kind": "word", "pos": "interj", "text": "merci", "zh": "谢谢", "features": {} }
+  ],
+  "reviewItems": ["fr.bonjour"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour ! Un café, s'il vous plaît.", "zh": "你好!请来一杯咖啡。", "items": ["fr.bonjour", "fr.cafe", "fr.sil_vous_plait"] },
+    { "speaker": "serveur", "text": "Et de l'eau ?", "zh": "要水吗?", "items": ["fr.eau"] },
+    { "speaker": "hao", "text": "Oui, merci !", "zh": "要,谢谢!", "items": ["fr.merci"] }
+  ],
+  "review": "draft"
+}

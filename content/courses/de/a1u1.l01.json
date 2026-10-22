@@ -1,0 +1,27 @@
+{
+  "id": "de.a1u1.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 你好,我是……", "order": 1,
+  "titleZh": "打招呼和自我介绍", "goalZh": "会用德语问好、说自己叫什么、来自哪里",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
+  "newItems": [
+    { "id": "de.hallo", "kind": "word", "pos": "interj", "text": "Hallo", "zh": "你好(随意)", "features": { "ipa": "haˈloː" } },
+    { "id": "de.guten_tag", "kind": "phrase", "pos": "phrase", "text": "Guten Tag", "zh": "您好(白天,正式)", "features": { "ipa": "ˌɡuːtn̩ ˈtaːk" }, "noteZh": "对陌生人、长辈、店员用 Guten Tag;朋友之间用 Hallo。" },
+    { "id": "de.ich_heisse", "kind": "phrase", "pos": "phrase", "text": "Ich heiße", "zh": "我叫……", "alt": ["Ich heisse"], "features": { "ipa": "ɪç ˈhaɪ̯sə" } },
+    { "id": "de.ich_komme_aus", "kind": "phrase", "pos": "phrase", "text": "Ich komme aus", "zh": "我来自……", "features": {} },
+    { "id": "de.china", "kind": "word", "pos": "propn", "text": "China", "zh": "中国", "features": { "gender": "n" }, "noteZh": "国家名大多是中性,平时不带冠词:Ich komme aus China." },
+    { "id": "de.tschuess", "kind": "word", "pos": "interj", "text": "Tschüss", "zh": "再见(随意)", "alt": ["Tschüs"], "features": { "ipa": "tʃʏs" } }
+  ],
+  "lines": [
+    { "speaker": "lena", "text": "Hallo! Ich heiße Lena.", "zh": "你好!我叫莉娜。", "items": ["de.hallo", "de.ich_heisse"] },
+    { "speaker": "wei", "text": "Hallo, Lena! Ich heiße Wei.", "zh": "你好,莉娜!我叫伟。", "items": ["de.hallo", "de.ich_heisse"] },
+    { "speaker": "lena", "text": "Ich komme aus Berlin.", "zh": "我来自柏林。", "items": ["de.ich_komme_aus"] },
+    { "speaker": "wei", "text": "Ich komme aus China.", "zh": "我来自中国。", "items": ["de.ich_komme_aus", "de.china"] },
+    { "speaker": "lena", "text": "Tschüss, Wei!", "zh": "再见,伟!", "items": ["de.tschuess"] }
+  ],
+  "grammar": [
+    { "id": "de.g.ich_verb", "titleZh": "动词跟着“我”变:ich + 动词-e",
+      "bodyZh": "德语动词要随人称变化。和 ich(我)搭配时,动词一般以 -e 结尾:heißen → ich heiße,kommen → ich komme。",
+      "examples": [ { "text": "Ich heiße Wei.", "zh": "我叫伟。" }, { "text": "Ich komme aus China.", "zh": "我来自中国。" } ] }
+  ],
+  "review": "draft"
+}

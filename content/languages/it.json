@@ -1,0 +1,7 @@
+{
+  "code": "it", "nameZh": "意大利语", "nativeName": "Italiano", "script": "latin", "locale": "it-IT",
+  "features": { "nounGender": "mf", "requirePlural": false, "reading": false, "roman": false, "pitch": false },
+  "articles": { "il": "m", "lo": "m", "la": "f", "l'": "mf", "i": "pl", "gli": "pl", "le": "pl" },
+  "examsZh": ["CILS", "CELI", "PLIDA"],
+  "tipsZh": ["双辅音要读出停顿", "名词阴阳性和冠词形式较多"]
+}
