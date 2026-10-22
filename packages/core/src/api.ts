@@ -48,6 +48,7 @@ export const AuthResult = z.object({ token: z.string(), user: User, isNew: z.boo
 export type AuthResult = z.infer<typeof AuthResult>;
 
 export const SmsSendReq = z.object({ phone: Phone });
+export const SmsSendRes = z.object({ ok: z.literal(true) });
 export const SmsVerifyReq = z.object({ phone: Phone, code: z.string().regex(/^\d{6}$/) });
 export const AppleLoginReq = z.object({
   identityToken: z.string().min(10),
@@ -70,6 +71,8 @@ export const SubscriptionSchema = z.object({
   autoRenew: z.boolean(),
   trialUsed: z.boolean(),
   reminders: z.array(z.string()),
+  /** 降级等情况下,下一期续费的商品(和当前不同时才有) */
+  renewProductId: z.string().optional(),
 });
 export const SubscriptionRes = z.object({ subscription: SubscriptionSchema.nullable(), premium: z.boolean() });
 export type SubscriptionRes = z.infer<typeof SubscriptionRes>;
@@ -97,6 +100,7 @@ export const TutorReply = z.object({
   /** 这个场景的任务是否完成(比如成功点完餐) */
   done: z.boolean(),
 });
+export type TutorReply = z.infer<typeof TutorReply>;
 export const TutorChatRes = z.object({ reply: TutorReply, remainingToday: z.number().int() });
 export type TutorChatRes = z.infer<typeof TutorChatRes>;
 
@@ -107,6 +111,8 @@ export const SpeechScoreRes = z.object({
   fluency: z.number(),
   completeness: z.number(),
   words: z.array(z.object({ word: z.string(), score: z.number(), error: z.string() })),
+  /** 今天还能评测几次 */
+  remainingToday: z.number().int().optional(),
 });
 export type SpeechScoreRes = z.infer<typeof SpeechScoreRes>;
 

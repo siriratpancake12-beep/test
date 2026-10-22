@@ -2,6 +2,33 @@
   "code": "fr", "nameZh": "法语", "nativeName": "Français", "script": "latin", "locale": "fr-FR",
   "features": { "nounGender": "mf", "requirePlural": false, "reading": false, "roman": false, "pitch": false },
   "articles": { "le": "m", "la": "f", "l'": "mf", "les": "pl" },
-  "examsZh": ["TEF / TCF(留学、移民)", "DELF / DALF", "法语专四专八"],
-  "tipsZh": ["名词有阴阳性,一定连冠词一起记", "词尾辅音大多不发音,但有联诵 liaison", "鼻化元音和小舌音 r 要专门练", "é è ê ë 等重音符号会改变读音"]
+  "cast": {
+    "hao": { "name": "Hao", "nameZh": "浩", "gender": "m", "bioZh": "20 岁,来自成都的中国留学生,在里昂的大学语言中心读一年法语预科,之后读工程;认真、有点害羞,爱做饭和打篮球,法语从零开始,越学越敢开口。" },
+    "chloe": { "name": "Chloé", "nameZh": "克洛艾", "gender": "f", "bioZh": "20 岁,土生土长的里昂大学生,在学中文,是浩的语伴;热情、爱笑、话多,说话快,但会为浩放慢、换简单的说法。" },
+    "lucas": { "name": "Lucas", "nameZh": "卢卡", "gender": "m", "bioZh": "22 岁,住在浩宿舍隔壁房间的法国学生,学体育;随和、爱开玩笑、总喊饿,爱踢足球,常和浩在公共厨房一起做饭,作息很晚。" },
+    "emilie": { "name": "Émilie", "nameZh": "艾米莉", "gender": "f", "bioZh": "21 岁,来自加拿大蒙特利尔的交换生,克洛艾的好朋友;开朗、爱运动(滑雪),说标准法语,爱拿里昂和蒙特利尔比较天气和交通。" },
+    "mme_moreau": { "name": "Madame Moreau", "nameZh": "莫罗老师", "gender": "f", "bioZh": "50 岁左右,语言中心的法语老师;耐心、讲究发音,说话慢而清楚,对学生用 vous。" },
+    "isabelle": { "name": "Isabelle", "nameZh": "伊莎贝尔", "gender": "f", "bioZh": "克洛艾的妈妈,小学老师;热情好客、爱做饭,带浩逛菜市场;对浩先用 vous,熟了以后改用 tu。" },
+    "serveur": { "name": "Karim", "nameZh": "卡里姆", "gender": "m", "bioZh": "大学旁边那家咖啡馆的服务员,30 岁左右;说话快、爱开玩笑,很快记住了浩爱点什么(第 2 课起常驻)。" },
+    "boulangere": { "name": "La boulangère", "nameZh": "面包店店员", "gender": "f", "bioZh": "宿舍楼下面包店的店员,每天早上都在,说话亲切,爱说 Bonne journée !" },
+    "gardien": { "name": "Le gardien", "nameZh": "宿舍管理员", "gender": "m", "bioZh": "学生宿舍的管理员,负责登记入住、带新生参观;说话正式,用 vous。" },
+    "passante": { "name": "La passante", "nameZh": "路人", "gender": "f", "bioZh": "在街上被问路的里昂人,热心,指路时用命令式。" },
+    "guichetier": { "name": "Le guichetier", "nameZh": "火车站售票员", "gender": "m", "bioZh": "火车站售票窗口的工作人员,说话简短、标准,报时间用 24 小时制。" },
+    "marchand": { "name": "Le marchand", "nameZh": "菜市场摊主", "gender": "m", "bioZh": "红十字区露天市场卖水果蔬菜的摊主,嗓门大,爱跟熟客开玩笑。" },
+    "vendeuse": { "name": "La vendeuse", "nameZh": "服装店店员", "gender": "f", "bioZh": "服装店店员,礼貌、用 vous,会主动推荐尺码和颜色。" },
+    "conseiller": { "name": "Le conseiller", "nameZh": "银行顾问", "gender": "m", "bioZh": "银行的客户顾问,帮浩开户、填表;说话正式、慢,常用 Vous pouvez… ?" },
+    "coiffeuse": { "name": "La coiffeuse", "nameZh": "理发师", "gender": "f", "bioZh": "宿舍附近理发店的理发师,接电话预约,会重复日期和时间来确认。" },
+    "medecin": { "name": "Le médecin", "nameZh": "医生", "gender": "m", "bioZh": "宿舍附近诊所的全科医生,温和、说话清楚,用命令式交代怎么吃药、怎么休息。" },
+    "pharmacienne": { "name": "La pharmacienne", "nameZh": "药剂师", "gender": "f", "bioZh": "药店的药剂师,看处方、交代用药;看病之后买药的场景可以用她。" }
+  },
+  "examsZh": ["TEF / TCF(留学、加拿大和魁北克移民)", "DELF / DALF", "法语专四专八"],
+  "tipsZh": [
+    "名词有阴阳性,一定连冠词一起记;元音开头的 l' 名词看不出性别,要单独记",
+    "词尾辅音大多不发音,但有联诵 liaison(les amis、deux euros)",
+    "鼻化元音和小舌音 r 要专门练",
+    "é è ê ë 等重音符号会改变读音,写的时候不能漏",
+    "动词要变位:-er 动词单数三个人称读音相同,先记 être、avoir、aller、faire 这几个不规则动词",
+    "否定句里 un/une/du/de la 要变成 de(Je n'ai pas de frère)",
+    "70–99 用加法和乘法:soixante-dix = 60 + 10,quatre-vingts = 4 × 20"
+  ]
 }

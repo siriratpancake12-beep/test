@@ -12,6 +12,9 @@ import p_it from "../../../content/languages/it.json";
 import p_ja from "../../../content/languages/ja.json";
 import p_ko from "../../../content/languages/ko.json";
 import p_ru from "../../../content/languages/ru.json";
+import s_de from "../../../content/scenarios/de.json";
+import s_en from "../../../content/scenarios/en.json";
+import s_fr from "../../../content/scenarios/fr.json";
 
 export const rawPacks: unknown[] = [
   p_de,
@@ -36,5 +39,7 @@ export const rawLessons: Record<string, unknown[]> = {
 };
 
 export const rawScenarios: Record<string, unknown[]> = {
-
+  de: s_de as unknown[],
+  en: s_en as unknown[],
+  fr: s_fr as unknown[],
 };

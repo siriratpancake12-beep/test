@@ -25,5 +25,7 @@ export const Scenario = z.object({
   usefulPhrases: z.array(z.object({ text: z.string(), zh: z.string() })).min(1),
   /** 学完哪节课以后开放;不填就一直开放 */
   unlockAfter: z.string().optional(),
+  /** 审校状态,和课程一样:上线前要母语者审过 */
+  review: z.enum(["draft", "ai", "native"]).default("draft"),
 });
 export type Scenario = z.infer<typeof Scenario>;
