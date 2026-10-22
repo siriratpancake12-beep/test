@@ -21,7 +21,7 @@
     { "speaker": "lucas", "text": "Il est neuf heures moins le quart.", "zh": "九点差一刻。", "items": ["fr.il", "fr.etre", "fr.neuf", "fr.heure", "fr.moins_le_quart"] },
     { "speaker": "hao", "text": "Neuf heures moins le quart ? Le cours commence à neuf heures !", "zh": "九点差一刻?课九点就开始了!", "items": ["fr.neuf", "fr.heure", "fr.moins_le_quart", "fr.cours", "fr.commencer", "fr.a"] },
     { "speaker": "lucas", "text": "Tu as quinze minutes ! Moi, mon cours commence à midi.", "zh": "你还有十五分钟!我嘛,我的课中午十二点才开始。", "items": ["fr.tu", "fr.avoir", "fr.quinze", "fr.minute", "fr.moi", "fr.mon", "fr.cours", "fr.commencer", "fr.a", "fr.midi"] },
-    { "speaker": "mme_moreau", "text": "Bonjour, Hao. Il est neuf heures cinq : vous êtes en retard !", "zh": "你好,浩。现在九点零五分,您迟到了!", "items": ["fr.bonjour", "fr.il", "fr.etre", "fr.neuf", "fr.heure", "fr.cinq", "fr.vous", "fr.en_retard"] },
+    { "speaker": "mme_moreau", "text": "Bonjour, Hao. Il est neuf heures cinq : vous êtes en retard !", "zh": "早上好,浩。现在九点零五分,你迟到了!", "items": ["fr.bonjour", "fr.il", "fr.etre", "fr.neuf", "fr.heure", "fr.cinq", "fr.vous", "fr.en_retard"] },
     { "speaker": "mme_moreau", "text": "Huit heures quinze, c'est… ?", "zh": "八点十五分,换个说法是……?", "items": ["fr.huit", "fr.heure", "fr.quinze", "fr.cest"] },
     { "speaker": "hao", "text": "Huit heures et quart.", "zh": "八点一刻。", "items": ["fr.huit", "fr.heure", "fr.et_quart"] },
     { "speaker": "mme_moreau", "text": "Très bien ! Et quatorze heures trente ?", "zh": "很好!那十四点三十分呢?", "items": ["fr.tres", "fr.bien", "fr.et", "fr.quatorze", "fr.heure", "fr.trente"] },
@@ -42,5 +42,5 @@
         { "text": "Le cours commence à quatorze heures trente.", "zh": "课 14:30 开始。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

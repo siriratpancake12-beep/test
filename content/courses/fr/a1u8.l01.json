@@ -23,13 +23,13 @@
     { "speaker": "lucas", "text": "Et au ventre ? Aux dents ? À la main ?", "zh": "那肚子呢?牙呢?手呢?", "items": ["fr.et", "fr.au", "fr.ventre", "fr.aux", "fr.dent", "fr.a", "fr.main"] },
     { "speaker": "hao", "text": "Non. Mais j'ai très mal au dos et aux jambes.", "zh": "不疼。可是我背疼得厉害,腿也疼。", "items": ["fr.non", "fr.mais", "fr.je", "fr.avoir", "fr.tres", "fr.avoir_mal_a", "fr.au", "fr.dos", "fr.et", "fr.aux", "fr.jambe"] },
     { "speaker": "lucas", "text": "Tu es très malade, Hao ! Il faut aller chez le médecin.", "zh": "你病得不轻啊,浩!得去看医生。", "items": ["fr.tu", "fr.etre", "fr.tres", "fr.malade", "fr.il_faut", "fr.aller", "fr.chez", "fr.medecin"] },
-    { "speaker": "hao", "text": "D'accord. Tu as le numéro du médecin ?", "zh": "好吧。你有医生的电话吗?", "items": ["fr.d_accord", "fr.tu", "fr.avoir", "fr.numero", "fr.de", "fr.medecin"] },
+    { "speaker": "hao", "text": "D'accord. Tu as le numéro du médecin ?", "zh": "好吧。你有医生的电话吗?", "items": ["fr.d_accord", "fr.tu", "fr.avoir", "fr.numero", "fr.de", "fr.du", "fr.medecin"] },
     { "speaker": "lucas", "text": "Oui. Et voilà du thé et du pain.", "zh": "有。来,给你茶和面包。", "items": ["fr.oui", "fr.et", "fr.voila", "fr.du", "fr.the", "fr.pain"] },
     { "speaker": "hao", "text": "Merci, Lucas. Tu es très gentil.", "zh": "谢谢你,卢卡。你人真好。", "items": ["fr.merci", "fr.tu", "fr.etre", "fr.tres", "fr.gentil"] }
   ],
   "questions": [
     { "prompt": "浩哪儿疼?", "options": ["只有头疼", "肚子和牙", "头、嗓子、背和腿"], "answer": 2, "explainZh": "J'ai mal à la tête et à la gorge… j'ai très mal au dos et aux jambes." },
-    { "prompt": "卢卡让浩做什么?", "options": ["去看医生", "去药店买药", "一起去吃早饭"], "answer": 0, "explainZh": "Il faut aller chez le médecin !——il faut = 得、必须;chez le médecin = 去医生那儿。" },
+    { "prompt": "知道浩病了以后,卢卡让他做什么?", "options": ["去看医生", "去药店买药", "一起去吃早饭"], "answer": 0, "explainZh": "Il faut aller chez le médecin !——il faut = 得、必须;chez le médecin = 去医生那儿。" },
     { "prompt": "卢卡问 Aux dents ? 是什么意思?", "options": ["背疼吗?", "牙疼吗?", "手疼吗?"], "answer": 1, "explainZh": "les dents 是牙齿,à + les 缩合成 aux:J'ai mal aux dents.(我牙疼。)" }
   ],
   "grammar": [
@@ -42,5 +42,5 @@
         { "text": "J'ai très mal au dos.", "zh": "我背疼得厉害。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

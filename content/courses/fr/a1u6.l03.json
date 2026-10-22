@@ -10,7 +10,7 @@
     { "id": "fr.a_gauche", "kind": "phrase", "pos": "phrase", "text": "à gauche", "zh": "往左;在左边", "features": { "ipa": "a goʃ" }, "noteZh": "au 读 [o],ch 读 [ʃ]。" },
     { "id": "fr.a_droite", "kind": "phrase", "pos": "phrase", "text": "à droite", "zh": "往右;在右边", "features": { "ipa": "a dʁwat" }, "noteZh": "droite 的 t 要读出来;tout droit 的 t 不读。" },
     { "id": "fr.tourner", "kind": "word", "pos": "verb", "text": "tourner", "zh": "转弯;转", "features": { "ipa": "tuʁ.ne" }, "noteZh": "-er 动词;指路用命令式:Tournez à gauche.;在某条街转:tourner dans la première rue。" },
-    { "id": "fr.continuer", "kind": "word", "pos": "verb", "text": "continuer", "zh": "继续(往前走)", "features": { "ipa": "kɔ̃.ti.nɥe" }, "noteZh": "-er 动词;Continuez tout droit.(一直往前走);ui 读 [ɥi]。" },
+    { "id": "fr.continuer", "kind": "word", "pos": "verb", "text": "continuer", "zh": "继续(往前走)", "features": { "ipa": "kɔ̃.ti.nɥe" }, "noteZh": "-er 动词;Continuez tout droit.(一直往前走);u 在元音前读半元音 [ɥ]:[kɔ̃.ti.nɥe];je continue 词尾 e 不发音,读 [kɔ̃.ti.ny]。" },
     { "id": "fr.traverser", "kind": "word", "pos": "verb", "text": "traverser", "zh": "穿过;过(马路、广场)", "features": { "ipa": "tʁa.vɛʁ.se" }, "noteZh": "-er 动词,后面直接接地方,不加介词:Traversez la place.(英语 cross the square 也一样)" },
     { "id": "fr.loin", "kind": "word", "pos": "adv", "text": "loin", "zh": "远", "features": { "ipa": "lwɛ̃" }, "noteZh": "oin 读 [wɛ̃];loin de + 地方:C'est loin de la gare ?" },
     { "id": "fr.pres", "kind": "word", "pos": "adv", "text": "près", "zh": "近", "features": { "ipa": "pʁɛ" }, "noteZh": "s 不发音;près de + 地方:près de la gare。" }
@@ -38,5 +38,5 @@
         { "text": "Tourne à gauche, Lucas !", "zh": "卢卡,往左拐!" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

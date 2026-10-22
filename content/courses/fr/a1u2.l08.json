@@ -23,7 +23,7 @@
     { "speaker": "hao", "text": "J'aime beaucoup le chocolat chaud. C'est très bon !", "zh": "我很喜欢热巧克力。特别好喝!", "items": ["fr.je", "fr.aimer", "fr.beaucoup", "fr.chocolat_chaud", "fr.cest", "fr.tres", "fr.bon"] },
     { "speaker": "hao", "text": "L'addition, s'il vous plaît !", "zh": "(吃完了)麻烦买单!", "items": ["fr.addition", "fr.sil_vous_plait"] },
     { "speaker": "serveur", "text": "Ça fait dix-huit euros.", "zh": "一共十八欧。", "items": ["fr.ca_fait", "fr.dix_huit", "fr.euro"] },
-    { "speaker": "chloe", "text": "Voilà neuf euros. Et toi, Hao ?", "zh": "我出九欧。浩,你呢?", "items": ["fr.voila", "fr.neuf", "fr.euro", "fr.et_toi"] }
+    { "speaker": "chloe", "text": "Voilà neuf euros. Et toi, Hao ?", "zh": "我出九欧。浩,你呢?", "items": ["fr.voila", "fr.neuf", "fr.euro", "fr.et_toi", "fr.et"] }
   ],
   "questions": [
     { "prompt": "浩点了什么?", "options": ["一个三明治和一杯橙汁", "一杯咖啡和一个可颂", "一个可颂、两个鸡蛋和一杯热巧克力"], "answer": 2, "explainZh": "Je prends un croissant, deux œufs et un chocolat chaud.;三明治和橙汁是克洛艾点的。" },

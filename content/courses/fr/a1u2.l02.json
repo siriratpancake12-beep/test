@@ -22,7 +22,7 @@
     { "speaker": "boulangere", "text": "Treize ?", "zh": "十三个?", "items": ["fr.treize"] },
     { "speaker": "hao", "text": "Non, douze !", "zh": "不,十二个!", "items": ["fr.non", "fr.douze"] },
     { "speaker": "boulangere", "text": "Dix, onze, douze… Voilà !", "zh": "(一个个装进袋子)十、十一、十二……好了,给您!", "items": ["fr.dix", "fr.onze", "fr.douze", "fr.voila"] },
-    { "speaker": "hao", "text": "Six pains au chocolat, une baguette, s'il vous plaît.", "zh": "再要六个巧克力面包、一根法棍。", "items": ["fr.six", "fr.pain_au_chocolat", "fr.une", "fr.baguette", "fr.sil_vous_plait"] },
+    { "speaker": "hao", "text": "Six pains au chocolat et une baguette, s'il vous plaît.", "zh": "再要六个巧克力面包和一根法棍。", "items": ["fr.six", "fr.pain_au_chocolat", "fr.et", "fr.une", "fr.baguette", "fr.sil_vous_plait"] },
     { "speaker": "boulangere", "text": "Les croissants : douze euros.", "zh": "可颂:十二欧。", "items": ["fr.croissant", "fr.douze", "fr.euro"] },
     { "speaker": "boulangere", "text": "Treize, quatorze, quinze, seize, dix-sept, dix-huit…", "zh": "(巧克力面包一个一欧,她接着往上加)十三、十四、十五、十六、十七、十八……", "items": ["fr.treize", "fr.quatorze", "fr.quinze", "fr.seize", "fr.dix_sept", "fr.dix_huit"] },
     { "speaker": "boulangere", "text": "La baguette : un euro vingt. Ça fait dix-neuf euros vingt.", "zh": "法棍:一欧二十。一共十九欧二十。", "items": ["fr.baguette", "fr.un", "fr.euro", "fr.vingt", "fr.ca_fait", "fr.dix_neuf"] },

@@ -6,8 +6,8 @@
   "newItems": [
     { "id": "fr.mars", "kind": "word", "pos": "propn", "text": "mars", "zh": "三月", "features": { "ipa": "maʁs" }, "noteZh": "s 要读出来;月份是阳性、小写:en mars,le 3 mars。" },
     { "id": "fr.avril", "kind": "word", "pos": "propn", "text": "avril", "zh": "四月", "features": { "ipa": "a.vʁil" }, "noteZh": "l 要读出来;月份是阳性、小写:en avril,le 18 avril。" },
-    { "id": "fr.mai", "kind": "word", "pos": "propn", "text": "mai", "zh": "五月", "features": { "ipa": "mɛ" }, "noteZh": "ai 读 [ɛ];月份是阳性、小写,前面不加冠词:en mai,le 3 mai。" },
-    { "id": "fr.juin", "kind": "word", "pos": "propn", "text": "juin", "zh": "六月", "features": { "ipa": "ʒɥɛ̃" }, "noteZh": "ui 读 [ɥi],后面是鼻化元音;不要和 juillet 混。" },
+    { "id": "fr.mai", "kind": "word", "pos": "propn", "text": "mai", "zh": "五月", "features": { "ipa": "mɛ" }, "noteZh": "ai 读 [ɛ];月份是阳性、小写,本身不加冠词:en mai;le 3 mai 里的 le 是跟着日子的。" },
+    { "id": "fr.juin", "kind": "word", "pos": "propn", "text": "juin", "zh": "六月", "features": { "ipa": "ʒɥɛ̃" }, "noteZh": "u 读半元音 [ɥ],in 读鼻化元音 [ɛ̃]:[ʒɥɛ̃];juillet 读 [ʒɥi.jɛ],两个月份别混。" },
     { "id": "fr.juillet", "kind": "word", "pos": "propn", "text": "juillet", "zh": "七月", "features": { "ipa": "ʒɥi.jɛ" }, "noteZh": "-ill- 读 [j],t 不发音;月份是阳性、小写:en juillet。" },
     { "id": "fr.aout", "kind": "word", "pos": "propn", "text": "août", "zh": "八月", "features": { "ipa": "ut" }, "noteZh": "常读 [ut],也有人读 [u];û 上的符号不能漏;月份是阳性、小写:en août。" },
     { "id": "fr.billet", "kind": "word", "pos": "noun", "text": "le billet", "zh": "(火车、飞机、电影)票", "features": { "gender": "m", "ipa": "lə bi.jɛ" }, "noteZh": "ll 读 [j],t 不发音;地铁、公交票是 ticket。" },
@@ -27,7 +27,7 @@
     { "speaker": "lucas", "text": "Moi aussi, je vais partir à Paris, en juillet ou en août !", "zh": "我也要去巴黎,七月或者八月!", "items": ["fr.moi", "fr.aussi", "fr.je", "fr.aller", "fr.partir", "fr.a", "fr.en", "fr.juillet", "fr.ou", "fr.aout"] }
   ],
   "questions": [
-    { "prompt": "浩哪天出发去巴黎?", "options": ["le 18 mai", "le 18 avril", "le 22 juin", "le 22 mars"], "answer": 1, "explainZh": "浩说:Le 18 avril, le matin.(4 月 18 日上午出发;le 22 是从巴黎回来的日子)" },
+    { "prompt": "浩哪天出发去巴黎?", "options": ["le 18 avril", "le 18 mai", "le 22 juin", "le 22 mars"], "answer": 0, "explainZh": "浩说:Le 18 avril, le matin.(4 月 18 日上午出发;le 22 是从巴黎回来的日子)" },
     { "prompt": "票一共多少钱?", "options": ["60 欧", "70 欧", "80 欧", "90 欧"], "answer": 3, "explainZh": "售票员说:Ça fait quatre-vingt-dix euros.(quatre-vingt-dix = 4 × 20 + 10 = 90)" }
   ],
   "grammar": [
@@ -38,5 +38,5 @@
         { "text": "Tu vas partir en mai ou en juin ?", "zh": "你打算五月走还是六月走?" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -6,7 +6,7 @@
   "newItems": [
     { "id": "fr.ce", "kind": "word", "pos": "det", "text": "ce", "zh": "这个;那个(阳性)", "features": { "ipa": "sə" }, "noteZh": "元音开头的阳性名词前变成 cet:cet appartement。" },
     { "id": "fr.cette", "kind": "word", "pos": "det", "text": "cette", "zh": "这个;那个(阴性)", "features": { "ipa": "sɛt" }, "noteZh": "cet 和 cette 读音一样 [sɛt]:cette taille。" },
-    { "id": "fr.ces", "kind": "word", "pos": "det", "text": "ces", "zh": "这些;那些", "features": { "ipa": "se" }, "noteZh": "不分阴阳;和 ses(他的)读音一样、写法不同。" },
+    { "id": "fr.ces", "kind": "word", "pos": "det", "text": "ces", "zh": "这些;那些", "features": { "ipa": "se" }, "noteZh": "不分阴阳;和 ses(他的、她的)读音一样、写法不同。" },
     { "id": "fr.taille", "kind": "word", "pos": "noun", "text": "la taille", "zh": "尺码;身材", "features": { "gender": "f", "ipa": "la taj" }, "noteZh": "-ille 读 [j];Vous faites quelle taille ?(您穿多大号?)" },
     { "id": "fr.essayer", "kind": "word", "pos": "verb", "text": "essayer", "zh": "试(穿);尝试", "features": { "ipa": "e.se.je" }, "noteZh": "Je peux essayer… ?(我可以试一下……吗?);j'essaie / j'essaye 都对。" },
     { "id": "fr.trop", "kind": "word", "pos": "adv", "text": "trop", "zh": "太;过于", "features": { "ipa": "tʁo" }, "noteZh": "p 不发音;C'est trop cher. Il est trop petit.;trop 是“过头了”,夸东西好用 très:très beau。" },
@@ -38,5 +38,5 @@
         { "text": "Ces chaussures sont trop chères.", "zh": "这双鞋太贵了。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

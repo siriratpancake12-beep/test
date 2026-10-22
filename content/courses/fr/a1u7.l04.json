@@ -4,7 +4,7 @@
   "titleZh": "在银行开户——vouloir 和填表", "goalZh": "会用 vouloir 说想做什么、用 pouvoir 请对方做事,会填开户表格", "canDoZh": "能在银行说明来意(开户、办银行卡),并说出表格上的姓、名、出生日期和地址",
   "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
   "newItems": [
-    { "id": "fr.vouloir", "kind": "word", "pos": "verb", "text": "vouloir", "zh": "想要", "features": { "ipa": "vu.lwaʁ" }, "noteZh": "je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent;请别人做事时 Je voudrais 更礼貌。" },
+    { "id": "fr.vouloir", "kind": "word", "pos": "verb", "text": "vouloir", "zh": "想要", "features": { "ipa": "vu.lwaʁ" }, "noteZh": "je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent;向别人要东西、提要求时,Je voudrais 比 Je veux 礼貌。" },
     { "id": "fr.ouvrir", "kind": "word", "pos": "verb", "text": "ouvrir", "zh": "打开;开(账户、店门)", "features": { "ipa": "u.vʁiʁ" }, "noteZh": "以 -ir 结尾,但变位像 -er 动词:j'ouvre, tu ouvres, il ouvre。" },
     { "id": "fr.compte", "kind": "word", "pos": "noun", "text": "le compte", "zh": "账户", "features": { "gender": "m", "ipa": "lə kɔ̃t" }, "noteZh": "p 不发音:[kɔ̃t];ouvrir un compte = 开户。" },
     { "id": "fr.carte_bancaire", "kind": "word", "pos": "noun", "text": "la carte bancaire", "zh": "银行卡", "features": { "gender": "f", "ipa": "la kaʁt bɑ̃.kɛʁ" }, "noteZh": "口语常说 la carte 或 la CB。" },
@@ -24,7 +24,7 @@
     { "speaker": "conseiller", "text": "Votre date de naissance et votre adresse ?", "zh": "您的出生日期和地址呢?", "items": ["fr.votre", "fr.date_de_naissance", "fr.et", "fr.adresse"] },
     { "speaker": "hao", "text": "Le vingt janvier deux mille six. Voilà mon adresse.", "zh": "2006 年 1 月 20 日。这是我的地址。", "items": ["fr.vingt", "fr.janvier", "fr.deux", "fr.mille", "fr.six", "fr.voila", "fr.mon", "fr.adresse"] },
     { "speaker": "conseiller", "text": "Et votre numéro de portable ?", "zh": "还有您的手机号?", "items": ["fr.et", "fr.votre", "fr.numero", "fr.de", "fr.portable"] },
-    { "speaker": "hao", "text": "C'est le zéro six, soixante et onze, quatre-vingt-quatre, quatre-vingt-douze, quinze.", "zh": "是 06 71 84 92 15。", "items": ["fr.cest", "fr.zero", "fr.six", "fr.soixante", "fr.et", "fr.onze", "fr.quatre_vingts", "fr.quatre", "fr.douze", "fr.quinze"] },
+    { "speaker": "hao", "text": "C'est le zéro six, soixante et onze, quatre-vingt-quatre, quatre-vingt-dix-huit, vingt.", "zh": "是 06 71 84 98 20。", "items": ["fr.cest", "fr.zero", "fr.six", "fr.soixante", "fr.et", "fr.onze", "fr.quatre_vingts", "fr.quatre", "fr.quatre_vingt_dix", "fr.huit", "fr.vingt"] },
     { "speaker": "conseiller", "text": "Merci. Vous pouvez signer ici, s'il vous plaît ?", "zh": "谢谢。请您在这里签个字,好吗?", "items": ["fr.merci", "fr.vous", "fr.pouvoir", "fr.signer", "fr.ici", "fr.sil_vous_plait"] }
   ],
   "questions": [
@@ -42,5 +42,5 @@
         { "text": "Vous pouvez signer ici ?", "zh": "您能在这里签个字吗?" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

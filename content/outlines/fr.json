@@ -37,14 +37,17 @@
       "canDoZh": "能在法国的咖啡馆点一杯喝的",
       "scenarioZh": "浩第一次走进大学旁边的咖啡馆,向服务员卡里姆点一杯咖啡;服务员问他要不要水,浩说要,谢谢。",
       "grammarFocusZh": "名词分阴阳性,连冠词一起记(le café / la baguette);元音开头的 l'eau 看不出性别,要单独记住是阴性;Un café 的 un 先当固定说法",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 7,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 26.5,
       "newItems": [
         { "id": "fr.cafe", "kind": "word", "pos": "noun", "text": "le café", "zh": "咖啡", "features": { "gender": "m" } },
         { "id": "fr.the", "kind": "word", "pos": "noun", "text": "le thé", "zh": "茶", "features": { "gender": "m" } },
         { "id": "fr.eau", "kind": "word", "pos": "noun", "text": "l'eau", "zh": "水", "features": { "gender": "f" }, "noteZh": "元音开头的名词冠词缩成 l',看不出性别,要单独记:eau 是阴性。" },
         { "id": "fr.baguette", "kind": "word", "pos": "noun", "text": "la baguette", "zh": "法棍面包", "features": { "gender": "f" } },
         { "id": "fr.sil_vous_plait", "kind": "phrase", "pos": "phrase", "text": "s'il vous plaît", "zh": "请(礼貌)", "alt": ["s'il vous plait"], "features": {} },
-        { "id": "fr.merci", "kind": "word", "pos": "interj", "text": "merci", "zh": "谢谢", "features": {} }
+        { "id": "fr.merci", "kind": "word", "pos": "interj", "text": "merci", "zh": "谢谢", "features": {} },
+        { "id": "fr.oui", "kind": "word", "pos": "interj", "text": "oui", "zh": "是;对", "features": { "ipa": "wi" } },
+        { "id": "fr.et", "kind": "word", "pos": "conj", "text": "et", "zh": "和;而且", "features": { "ipa": "e" }, "noteZh": "t 不发音,也永远不联诵。" },
+        { "id": "fr.de", "kind": "word", "pos": "prep", "text": "de", "zh": "来自;……的", "features": { "ipa": "də" }, "noteZh": "元音前变 d'。Je suis de Chengdu.(我来自成都。)le frère de Chloé = 克洛艾的兄弟。" }
       ],
       "reviewItems": ["fr.bonjour"]
     },
@@ -55,20 +58,19 @@
       "canDoZh": "能用 Ça va ? 问候同学、用 Comment allez-vous ? 问候老师,并回答“很好,谢谢”",
       "scenarioZh": "开学第一天早上,浩在语言中心门口遇到住在宿舍隔壁的卢卡,两人用 tu 互相问 Ça va ?;进教室后,浩用 vous 向法语老师莫罗老师问好;晚上回宿舍,浩用 Bonsoir 跟卢卡打招呼。",
       "grammarFocusZh": "tu 和 vous:对朋友、同学用 tu,对老师、长辈、陌生人用 vous;语调疑问句:陈述句句末升调就是问句(Ça va ?↗ — Ça va.↘)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 9,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.ca_va", "kind": "phrase", "pos": "phrase", "text": "Ça va ?", "zh": "你好吗?/还好吗?(熟人之间)", "features": { "ipa": "sa va" }, "noteZh": "ç 读 [s]。问的时候句末升调;回答也说 Ça va(还行),用降调。" },
         { "id": "fr.bien", "kind": "word", "pos": "adv", "text": "bien", "zh": "好;很好地", "features": { "ipa": "bjɛ̃" }, "noteZh": "鼻化元音 [ɛ̃]:气流同时从口和鼻子出来,n 不单独发音。" },
         { "id": "fr.tres", "kind": "word", "pos": "adv", "text": "très", "zh": "很;非常", "features": { "ipa": "tʁɛ" }, "noteZh": "s 不发音。Très bien ! = 很好!" },
         { "id": "fr.et_toi", "kind": "phrase", "pos": "phrase", "text": "Et toi ?", "zh": "你呢?(反问熟人)", "features": { "ipa": "e twa" }, "noteZh": "et 的 t 永远不发音,也不和后面的词联诵。" },
         { "id": "fr.comment_allez_vous", "kind": "phrase", "pos": "phrase", "text": "Comment allez-vous ?", "zh": "您好吗?(正式)", "features": { "ipa": "kɔ.mɑ̃.ta.le.vu" }, "noteZh": "对老师、长辈、陌生人用;comment 的 t 和 allez 联诵。回答:Très bien, merci. Et vous ?" },
-        { "id": "fr.oui", "kind": "word", "pos": "interj", "text": "oui", "zh": "是;对", "features": { "ipa": "wi" } },
         { "id": "fr.non", "kind": "word", "pos": "interj", "text": "non", "zh": "不;不是", "features": { "ipa": "nɔ̃" }, "noteZh": "鼻化元音 [ɔ̃],n 不要读出来。" },
         { "id": "fr.madame", "kind": "phrase", "pos": "phrase", "text": "madame", "zh": "女士;夫人(称呼)", "features": { "ipa": "ma.dam" }, "noteZh": "称呼时不加冠词:Bonjour, madame.;书面缩写 Mme。" },
         { "id": "fr.monsieur", "kind": "phrase", "pos": "phrase", "text": "monsieur", "zh": "先生(称呼)", "features": { "ipa": "mə.sjø" }, "noteZh": "拼写和读音差别很大:读 [mə.sjø],r 不发音;书面缩写 M.。" },
         { "id": "fr.bonsoir", "kind": "word", "pos": "interj", "text": "Bonsoir", "zh": "晚上好", "features": { "ipa": "bɔ̃.swaʁ" }, "noteZh": "傍晚以后见面时说;白天说 Bonjour。" }
       ],
-      "reviewItems": ["fr.bonjour", "fr.salut", "fr.au_revoir"]
+      "reviewItems": ["fr.bonjour", "fr.salut", "fr.au_revoir", "fr.oui"]
     },
     {
       "id": "fr.a1u1.l04", "lang": "fr", "type": "grammar", "cefr": "A1", "unit": "A1-1 Bonjour !", "order": 101040,
@@ -77,7 +79,7 @@
       "canDoZh": "能介绍朋友:“这是艾米莉,她是加拿大人,她来自蒙特利尔”",
       "scenarioZh": "宿舍的迎新晚会上,克洛艾把好朋友艾米莉(来自蒙特利尔的交换生)介绍给浩和卢卡。大家互相问“你是法国人吗?”“你来自哪里?”,浩说他来自成都。",
       "grammarFocusZh": "主语人称代词 je, tu, il, elle, vous(nous、ils、elles 第 3 单元学);être 现在时 je suis, tu es, il/elle est, vous êtes(es 和 est 读音相同);c'est + 人名(这是……);être de + 城市(来自……);国籍形容词的阴阳性 français/française、canadien/canadienne",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "fr.je", "kind": "word", "pos": "pron", "text": "je", "zh": "我", "features": { "ipa": "ʒə" }, "noteZh": "后面是元音开头的词时变成 j':j'aime、j'habite。" },
         { "id": "fr.tu", "kind": "word", "pos": "pron", "text": "tu", "zh": "你(熟人)", "features": { "ipa": "ty" }, "noteZh": "u 读 [y]:嘴唇撮圆发“衣”,像汉语“鱼”的韵母。" },
@@ -87,10 +89,9 @@
         { "id": "fr.etre", "kind": "word", "pos": "verb", "text": "être", "zh": "是", "features": { "ipa": "ɛtʁ" }, "noteZh": "最重要的不规则动词:je suis, tu es, il/elle est, nous sommes, vous êtes, ils sont。" },
         { "id": "fr.francais", "kind": "word", "pos": "adj", "text": "français", "zh": "法国的(阳性);法语", "features": { "ipa": "fʁɑ̃.sɛ" }, "noteZh": "ç 读 [s];阴性 française,s 读 [z]。国籍形容词小写;le français 是“法语”。" },
         { "id": "fr.canadien", "kind": "word", "pos": "adj", "text": "canadien", "zh": "加拿大的(阳性)", "features": { "ipa": "ka.na.djɛ̃" }, "noteZh": "阴性 canadienne [ka.na.djɛn]:加 -ne 以后鼻化音消失。" },
-        { "id": "fr.cest", "kind": "phrase", "pos": "phrase", "text": "c'est", "zh": "这是;那是", "features": { "ipa": "sɛ" }, "noteZh": "c' 是 ce 的省音。介绍人:C'est Émilie.(这是艾米莉。)" },
-        { "id": "fr.de", "kind": "word", "pos": "prep", "text": "de", "zh": "来自;……的", "features": { "ipa": "də" }, "noteZh": "元音前变 d'。Je suis de Chengdu.(我来自成都。)le frère de Chloé = 克洛艾的兄弟。" }
+        { "id": "fr.cest", "kind": "phrase", "pos": "phrase", "text": "c'est", "zh": "这是;那是", "features": { "ipa": "sɛ" }, "noteZh": "c' 是 ce 的省音。介绍人:C'est Émilie.(这是艾米莉。)" }
       ],
-      "reviewItems": ["fr.je_suis", "fr.chinois", "fr.oui"]
+      "reviewItems": ["fr.je_suis", "fr.chinois", "fr.oui", "fr.de"]
     },
     {
       "id": "fr.a1u1.l05", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-1 Bonjour !", "order": 101050,
@@ -99,7 +100,7 @@
       "canDoZh": "能用 1–10 说数量,在咖啡馆点“两杯咖啡、三杯茶”",
       "scenarioZh": "下课后,浩替同学们去大学旁边的咖啡馆买饮料:Deux cafés et trois thés, s'il vous plaît.;服务员卡里姆跟他确认数量,浩又加了一瓶水。浩还数了数口袋里的硬币。",
       "grammarFocusZh": "名词复数一般加 -s,但 -s 不发音(deux cafés);数字词尾辅音的读法:six、dix 单独读时读 [s],在辅音前不读;deux、trois、six、dix 和元音开头的词联诵读 [z]",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 9,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.un", "kind": "word", "pos": "num", "text": "un", "zh": "一;一个(阳性)", "features": { "ipa": "œ̃" }, "noteZh": "数字 1 和阳性不定冠词是同一个词:un café;阴性是 une(第 2 单元学)。鼻化元音。" },
         { "id": "fr.deux", "kind": "word", "pos": "num", "text": "deux", "zh": "二", "features": { "ipa": "dø" }, "noteZh": "x 不发音;后面是元音时联诵读 [z]:deux euros [dø.zø.ʁo]。" },
@@ -121,7 +122,7 @@
       "canDoZh": "能在宿舍前台用法语登记:问好、说名字和国籍、说明自己是学生,听懂房间号",
       "scenarioZh": "浩拖着行李到学生宿舍前台办入住。管理员用 vous 问好,问他叫什么、是哪国人、是不是学生;报房间号时浩没听懂,说 Je ne comprends pas,管理员放慢再说一遍“八号房”。最后两人说 Enchanté 和再见。对话复现第 1–5 课的问候、être、国籍和数字。",
       "grammarFocusZh": "复习:tu / vous、être、语调疑问句;说身份时不加冠词:Je suis étudiant.;没听懂时整句说 Je ne comprends pas.(否定第 2 单元系统学)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.etudiant", "kind": "word", "pos": "noun", "text": "l'étudiant", "zh": "大学生(男)", "features": { "gender": "m", "ipa": "le.ty.djɑ̃" }, "noteZh": "元音开头,冠词是 l',要记住是阳性;女生是 l'étudiante [le.ty.djɑ̃t]。说“我是学生”不加冠词:Je suis étudiant(e)。" },
         { "id": "fr.chambre", "kind": "word", "pos": "noun", "text": "la chambre", "zh": "房间;卧室", "features": { "gender": "f", "ipa": "la ʃɑ̃bʁ" }, "noteZh": "ch 读 [ʃ]。指卧室、宿舍房间、酒店房间;泛指“房间”是 la pièce(第 4 单元)。" },
@@ -159,7 +160,7 @@
       "canDoZh": "能听懂和说出 20 欧以内的价格,替同学一次买好早餐",
       "scenarioZh": "周五语言班要一起吃早餐,浩去面包店买了十二个可颂和六个巧克力面包。店员一项一项报价,最后说一共十九欧二十(dix-neuf euros vingt),浩数钱付款。",
       "grammarFocusZh": "11–16 要单独记;17–19 = dix + 7/8/9(dix-sept, dix-huit, dix-neuf);价格的说法:un euro vingt(1.20 欧),欧元后面直接说分;vingt 单独读时 g、t 都不发音",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.onze", "kind": "word", "pos": "num", "text": "onze", "zh": "十一", "features": { "ipa": "ɔ̃z" }, "noteZh": "前面不省音也不联诵:le onze。" },
         { "id": "fr.douze", "kind": "word", "pos": "num", "text": "douze", "zh": "十二", "features": { "ipa": "duz" } },
@@ -181,7 +182,7 @@
       "canDoZh": "能看懂咖啡馆的简单菜单,点热巧克力、果汁、三明治,并叫服务员买单",
       "scenarioZh": "浩和克洛艾又来到第 2 课那家咖啡馆,服务员卡里姆已经认得浩。两人要菜单;卡里姆问“茶还是咖啡?”,浩点一杯热巧克力和一个三明治,克洛艾要一杯橙汁、一杯加牛奶的咖啡;吃完浩说 L'addition, s'il vous plaît.",
       "grammarFocusZh": "点单用 Je prends… 或 Je voudrais…;avec / sans 后面常直接接名词(un thé sans lait);ou 表示选择(un thé ou un café ?);定冠词表示特指:L'addition, s'il vous plaît.",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.carte", "kind": "word", "pos": "noun", "text": "la carte", "zh": "菜单;卡片", "features": { "gender": "f", "ipa": "la kaʁt" }, "noteZh": "在餐馆、咖啡馆里 la carte 是菜单;第 7 单元还会遇到银行卡 la carte bancaire。" },
         { "id": "fr.chocolat_chaud", "kind": "word", "pos": "noun", "text": "le chocolat chaud", "zh": "热巧克力(饮料)", "features": { "gender": "m", "ipa": "lə ʃɔ.kɔ.la ʃo" }, "noteZh": "chocolat 的 t、chaud 的 d 都不发音。" },
@@ -203,7 +204,7 @@
       "canDoZh": "能说自己喜欢、很喜欢和不喜欢吃什么、喝什么",
       "scenarioZh": "在咖啡馆里,克洛艾问浩喜不喜欢法国的东西:奶酪、咖啡、可颂。浩说他很喜欢可颂,也喜欢茶,但不喜欢奶酪;克洛艾说:Moi, j'adore le fromage !",
       "grammarFocusZh": "第一个 -er 动词 aimer:j'aime, tu aimes, il/elle aime, vous aimez(词尾 -e、-es 不发音);aimer / adorer + 定冠词表示泛指的喜好(J'aime le thé.);否定 ne…pas 夹住动词,元音前 ne → n'(Je n'aime pas le fromage.);aimer 的否定句里冠词不变",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "fr.aimer", "kind": "word", "pos": "verb", "text": "aimer", "zh": "喜欢;爱", "features": { "ipa": "e.me" }, "noteZh": "-er 动词:j'aime, tu aimes, il aime, vous aimez;je 在元音前省音成 j'。" },
         { "id": "fr.adorer", "kind": "word", "pos": "verb", "text": "adorer", "zh": "非常喜欢;热爱", "features": { "ipa": "a.dɔ.ʁe" }, "noteZh": "比 aimer beaucoup 更强烈,口语里很常用。" },
@@ -212,11 +213,10 @@
         { "id": "fr.bon", "kind": "word", "pos": "adj", "text": "bon", "zh": "好吃的;好的(阳性)", "features": { "ipa": "bɔ̃" }, "noteZh": "阴性 bonne [bɔn]:加 -ne 以后鼻化音消失。" },
         { "id": "fr.mais", "kind": "word", "pos": "conj", "text": "mais", "zh": "但是", "features": { "ipa": "mɛ" }, "noteZh": "s 不发音。" },
         { "id": "fr.aussi", "kind": "word", "pos": "adv", "text": "aussi", "zh": "也", "features": { "ipa": "o.si" }, "noteZh": "放在动词后面:J'aime aussi le thé.;Moi aussi ! = 我也是!" },
-        { "id": "fr.et", "kind": "word", "pos": "conj", "text": "et", "zh": "和;而且", "features": { "ipa": "e" }, "noteZh": "t 不发音,也永远不联诵。" },
         { "id": "fr.beaucoup", "kind": "word", "pos": "adv", "text": "beaucoup", "zh": "很多;非常(喜欢)", "features": { "ipa": "bo.ku" }, "noteZh": "p 不发音;放在动词后面:J'aime beaucoup le thé." },
         { "id": "fr.moi", "kind": "word", "pos": "pron", "text": "moi", "zh": "我(重读,单独用)", "features": { "ipa": "mwa" }, "noteZh": "强调或单独回答时用:Moi, j'aime le café. / Moi aussi !" }
       ],
-      "reviewItems": ["fr.croissant", "fr.the", "fr.cafe"]
+      "reviewItems": ["fr.croissant", "fr.the", "fr.cafe", "fr.et"]
     },
     {
       "id": "fr.a1u2.l05", "lang": "fr", "type": "grammar", "cefr": "A1", "unit": "A1-2 在咖啡馆和面包店", "order": 102050,
@@ -247,7 +247,7 @@
       "canDoZh": "能和朋友在咖啡馆完成一次完整的点餐:说饿了、点吃的喝的、聊口味、算钱买单",
       "scenarioZh": "周日上午,浩和克洛艾在咖啡馆吃早午餐。两人说饿了、渴了,看菜单:浩点可颂、鸡蛋和热巧克力,克洛艾点三明治和橙汁;边吃边聊喜欢和不喜欢的东西;最后卡里姆报价(20 欧以内),两人一起付钱。",
       "grammarFocusZh": "复习:un/une、du/de la、ne…pas 和 pas de、aimer + 定冠词、Je voudrais / Je prends;J'ai faim / J'ai soif 先当固定说法记(法语用 avoir,不用 être)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.jai_faim", "kind": "phrase", "pos": "phrase", "text": "J'ai faim.", "zh": "我饿了", "features": { "ipa": "ʒe fɛ̃" }, "noteZh": "法语说“有饿”(avoir faim),不能说 Je suis faim。" },
         { "id": "fr.jai_soif", "kind": "phrase", "pos": "phrase", "text": "J'ai soif.", "zh": "我渴了", "features": { "ipa": "ʒe swaf" }, "noteZh": "和 J'ai faim 一样用 avoir。" },
@@ -666,7 +666,7 @@
         { "id": "fr.aller", "kind": "word", "pos": "verb", "text": "aller", "zh": "去", "features": { "ipa": "a.le" }, "noteZh": "不规则:je vais, tu vas, il va, nous allons, vous allez, ils vont;Ça va 的 va 就是 aller。" },
         { "id": "fr.au", "kind": "word", "pos": "prep", "text": "au", "zh": "到;在(à + le)", "features": { "ipa": "o" }, "noteZh": "à + le 必须缩合成 au:Je vais au supermarché.(不能说 à le)" },
         { "id": "fr.aux", "kind": "word", "pos": "prep", "text": "aux", "zh": "到;在(à + les)", "features": { "ipa": "o" }, "noteZh": "à + les 缩合成 aux;元音前联诵读 [oz]。" },
-        { "id": "fr.en", "kind": "word", "pos": "prep", "text": "en", "zh": "坐(交通工具);在(阴性国家)", "features": { "ipa": "ɑ̃" }, "noteZh": "en bus, en métro, en voiture;en France, en Chine。" },
+        { "id": "fr.en", "kind": "word", "pos": "prep", "text": "en", "zh": "坐(交通工具);在(阴性国家、月份)", "features": { "ipa": "ɑ̃" }, "noteZh": "en bus, en métro, en voiture;en France, en Chine。" },
         { "id": "fr.a_pied", "kind": "phrase", "pos": "phrase", "text": "à pied", "zh": "步行", "features": { "ipa": "a pje" }, "noteZh": "d 不发音;Je vais à l'université à pied.(我走路去大学。)" },
         { "id": "fr.bus", "kind": "word", "pos": "noun", "text": "le bus", "zh": "公交车", "features": { "gender": "m", "ipa": "lə bys" }, "noteZh": "s 要读出来:[bys]。" },
         { "id": "fr.metro", "kind": "word", "pos": "noun", "text": "le métro", "zh": "地铁", "features": { "gender": "m", "ipa": "lə me.tʁo" } },

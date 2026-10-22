@@ -26,12 +26,12 @@
     { "speaker": "hao", "text": "Et le soir ? Le lundi soir ?", "zh": "那晚上呢?星期一晚上?", "items": ["fr.et", "fr.soir", "fr.lundi"] },
     { "speaker": "chloe", "text": "Le soir, je mange avec ma famille. Le mercredi après-midi ?", "zh": "晚上我和家里人一起吃饭。星期三下午呢?", "items": ["fr.soir", "fr.je", "fr.manger", "fr.avec", "fr.ma", "fr.famille", "fr.mercredi", "fr.apres_midi"] },
     { "speaker": "hao", "text": "Oui ! Le mercredi après-midi, je n'ai pas cours.", "zh": "好啊!星期三下午我没课。", "items": ["fr.oui", "fr.mercredi", "fr.apres_midi", "fr.je", "fr.avoir", "fr.ne_pas", "fr.cours"] },
-    { "speaker": "chloe", "text": "Très bien ! Mercredi, à quatorze heures !", "zh": "太好了!那就这个星期三,下午两点!", "items": ["fr.tres", "fr.bien", "fr.mercredi", "fr.a", "fr.quatorze", "fr.heure"] }
+    { "speaker": "chloe", "text": "Très bien ! Le mercredi, à quatorze heures !", "zh": "太好了!那就每周三下午两点!", "items": ["fr.tres", "fr.bien", "fr.mercredi", "fr.a", "fr.quatorze", "fr.heure"] }
   ],
   "questions": [
-    { "prompt": "浩哪几天下午有课?", "options": ["星期一和星期五", "星期二和星期四", "星期三和星期六", "每天都有"], "answer": 1, "explainZh": "莫罗老师说 Le mardi et le jeudi, il y a aussi cours l'après-midi.,浩也说 le mardi et le jeudi, oui。" },
+    { "prompt": "浩哪几天下午有课?", "options": ["星期二和星期四", "星期一和星期五", "星期三和星期六", "每天都有"], "answer": 0, "explainZh": "莫罗老师说 Le mardi et le jeudi, il y a aussi cours l'après-midi.,浩也说 le mardi et le jeudi, oui。" },
     { "prompt": "克洛艾晚上一般做什么?", "options": ["上课", "工作", "和家里人一起吃饭"], "answer": 2, "explainZh": "克洛艾说:Le soir, je mange avec ma famille." },
-    { "prompt": "他们约在什么时候第一次练习?", "options": ["星期三下午两点", "星期一晚上", "星期五下午两点"], "answer": 0, "explainZh": "两个人星期三下午都没课,克洛艾最后说:Mercredi, à quatorze heures !" }
+    { "prompt": "他们约在什么时候做语伴练习?", "options": ["每周三下午两点", "每周一晚上", "每周五下午两点"], "answer": 0, "explainZh": "两个人星期三下午都没课,克洛艾最后说:Le mercredi, à quatorze heures !——le mercredi 是“每个星期三”,以后每周都在这个时间。" }
   ],
   "grammar": [
     { "id": "fr.g.days_parts", "titleZh": "星期和上午、下午、晚上",
@@ -42,5 +42,5 @@
         { "text": "Le dimanche, je mange avec ma famille.", "zh": "每个星期天我都和家里人一起吃饭。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

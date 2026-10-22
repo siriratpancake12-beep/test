@@ -20,12 +20,12 @@
     { "speaker": "narrator", "text": "Le sac rouge est à cinquante euros.", "zh": "红色的包五十欧。", "items": ["fr.sac", "fr.rouge", "fr.etre", "fr.a", "fr.cinquante", "fr.euro"] },
     { "speaker": "narrator", "text": "Lucas n'a pas beaucoup d'argent.", "zh": "卢卡的钱不多。", "items": ["fr.ne_pas", "fr.avoir", "fr.beaucoup", "fr.de", "fr.argent"] },
     { "speaker": "narrator", "text": "Hao paie trente euros par carte, et Lucas paie vingt euros.", "zh": "浩刷卡付三十欧,卢卡付二十欧。", "items": ["fr.payer", "fr.trente", "fr.euro", "fr.par", "fr.carte", "fr.et", "fr.vingt"] },
-    { "speaker": "narrator", "text": "L'après-midi, Hao va au marché.", "zh": "下午,浩去菜市场。", "items": ["fr.apres_midi", "fr.aller", "fr.au", "fr.marche"] },
+    { "speaker": "narrator", "text": "L'après-midi, Hao va au supermarché.", "zh": "下午,浩去超市。", "items": ["fr.apres_midi", "fr.aller", "fr.au", "fr.supermarche"] },
     { "speaker": "narrator", "text": "Il achète deux kilos de pommes pour la fête.", "zh": "他买了两公斤苹果,带去聚会。", "items": ["fr.il", "fr.acheter", "fr.deux", "fr.kilo", "fr.de", "fr.pomme", "fr.pour", "fr.fete"] },
     { "speaker": "narrator", "text": "Ce soir, Hao va à la fête avec le sac rouge !", "zh": "今晚,浩带着红色的包去参加聚会!", "items": ["fr.ce", "fr.soir", "fr.aller", "fr.a", "fr.fete", "fr.avec", "fr.sac", "fr.rouge"] }
   ],
   "questions": [
-    { "prompt": "浩和卢卡给克洛艾买了什么礼物?", "options": ["一件毛衣", "一个包", "一双鞋", "两公斤苹果"], "answer": 1, "explainZh": "Ils veulent choisir un cadeau pour Chloé… Ils choisissent un sac rouge.——礼物是一个包。" },
+    { "prompt": "浩和卢卡给克洛艾买了什么礼物?", "options": ["一件毛衣", "一双鞋", "两公斤苹果", "一个包"], "answer": 3, "explainZh": "Ils veulent choisir un cadeau pour Chloé… Ils choisissent un sac rouge.——礼物是一个包。" },
     { "prompt": "礼物是什么颜色的?", "options": ["黑色", "白色", "红色"], "answer": 2, "explainZh": "黑色的包太贵了(trop cher),他们挑了红色的:un sac rouge。" },
     { "prompt": "礼物多少钱?", "options": ["50 欧", "15 欧", "30 欧"], "answer": 0, "explainZh": "Le sac rouge est à cinquante euros.——50 欧。注意 cinquante(50)和 quinze(15)。" },
     { "prompt": "谁付的钱?", "options": ["浩一个人付", "浩和卢卡一起付", "卢卡一个人付"], "answer": 1, "explainZh": "Hao paie trente euros par carte, et Lucas paie vingt euros.——浩刷卡付 30 欧,卢卡付 20 欧。" }
@@ -48,5 +48,5 @@
         { "text": "Il faut choisir un cadeau.", "zh": "得挑一件礼物。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

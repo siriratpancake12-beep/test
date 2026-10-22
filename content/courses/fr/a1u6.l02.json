@@ -26,9 +26,9 @@
     { "speaker": "lucas", "text": "À vélo. Je n'ai pas de voiture !", "zh": "骑车。我没有汽车!", "items": ["fr.a", "fr.velo", "fr.je", "fr.avoir", "fr.ne_pas", "fr.pas_de", "fr.voiture"] }
   ],
   "questions": [
-    { "prompt": "浩要去哪儿?", "options": ["火车站", "超市", "博物馆", "大学"], "answer": 1, "explainZh": "浩说:Je vais au supermarché, à pied.(去火车站的是卢卡,去博物馆的是艾米莉)" },
+    { "prompt": "浩要去哪儿?", "options": ["火车站", "博物馆", "大学", "超市"], "answer": 3, "explainZh": "浩说:Je vais au supermarché, à pied.(去火车站的是卢卡,去博物馆的是艾米莉)" },
     { "prompt": "艾米莉怎么去博物馆?", "options": ["坐地铁", "走路", "骑自行车"], "answer": 2, "explainZh": "艾米莉说:Et moi, je vais au musée, à vélo !" },
-    { "prompt": "浩平时怎么去大学?", "options": ["走路", "骑自行车", "坐公交", "开车"], "answer": 2, "explainZh": "卢卡问 tu vas à l'université comment ?,浩回答 En bus." }
+    { "prompt": "浩平时怎么去大学?", "options": ["坐公交", "走路", "骑自行车", "开车"], "answer": 0, "explainZh": "卢卡问 tu vas à l'université comment ?,浩回答 En bus." }
   ],
   "grammar": [
     { "id": "fr.g.aller_au", "titleZh": "aller(去)和 à + 冠词的缩合",
@@ -44,5 +44,5 @@
         { "text": "Émilie va au musée à vélo.", "zh": "艾米莉骑车去博物馆。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

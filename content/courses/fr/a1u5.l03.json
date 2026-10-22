@@ -4,7 +4,7 @@
   "titleZh": "我七点起床——一天的作息", "goalZh": "会用代词式动词和顺序词,按时间说一天的作息", "canDoZh": "能按时间顺序说自己一天的安排:几点起床、吃饭、上课、睡觉",
   "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
   "newItems": [
-    { "id": "fr.se_lever", "kind": "word", "pos": "verb", "text": "se lever", "zh": "起床;站起来", "features": { "ipa": "sə lə.ve" }, "noteZh": "je me lève, tu te lèves, il se lève, nous nous levons, vous vous levez, ils se lèvent:后面的音节不发音时 e 变成 è [lɛv];别漏了 me / te / se。" },
+    { "id": "fr.se_lever", "kind": "word", "pos": "verb", "text": "se lever", "zh": "起床;站起来", "features": { "ipa": "sə lə.ve" }, "noteZh": "je me lève, tu te lèves, il se lève, nous nous levons, vous vous levez, ils se lèvent:词尾是不发音的 -e、-es、-ent 时,前面的 e 要写成 è,读 [ɛ];别漏了 me / te / se。" },
     { "id": "fr.se_coucher", "kind": "word", "pos": "verb", "text": "se coucher", "zh": "上床睡觉", "features": { "ipa": "sə ku.ʃe" }, "noteZh": "je me couche, tu te couches, il se couche…;指“上床去睡”,“睡着、睡觉的过程”是 dormir(以后学)。" },
     { "id": "fr.dejeuner", "kind": "word", "pos": "noun", "text": "le déjeuner", "zh": "午饭", "features": { "gender": "m", "ipa": "lə de.ʒœ.ne" }, "noteZh": "也可以当动词 déjeuner(吃午饭);早饭 le petit-déjeuner,晚饭 le dîner。" },
     { "id": "fr.diner", "kind": "word", "pos": "noun", "text": "le dîner", "zh": "晚饭", "features": { "gender": "m", "ipa": "lə di.ne" }, "noteZh": "î 读 [i];法国人一般晚上八点左右吃晚饭,比中国晚。" },
@@ -35,7 +35,7 @@
   ],
   "grammar": [
     { "id": "fr.g.pronominal_verbs", "titleZh": "代词式动词 se lever、se coucher;按顺序说一天",
-      "bodyZh": "se lever(起床)、se coucher(上床睡觉)前面带 se,叫代词式动词。变位时 se 要跟着主语变:je me lève, tu te lèves, il / elle / on se lève, nous nous levons, vous vous levez, ils / elles se lèvent。me、te、se 放在动词前面,元音前省音:你第一课就会说的 Je m'appelle 也是这一类。\n中文“起床”、英语 get up 都没有这个代词,中国学生最容易漏掉:✗ Je lève à sept heures → ✓ Je me lève à sept heures(Je lève 是“我举起(什么东西)”)。否定时 ne…pas 把“代词 + 动词”一起夹住:Je ne me lève pas tôt.\nlever 的重音符号:后面的音节不发音时 e 变成 è(je me lève、ils se lèvent),nous levons、vous levez 不变。\n按顺序说一天:d'abord(首先)… puis(然后)… après(之后)…;tôt(早)、tard(晚)放在动词后面:Je me couche tard.",
+      "bodyZh": "se lever(起床)、se coucher(上床睡觉)前面带 se,叫代词式动词。变位时 se 要跟着主语变:je me lève, tu te lèves, il / elle / on se lève, nous nous levons, vous vous levez, ils / elles se lèvent。me、te、se 放在动词前面,元音前省音:你第一课就会说的 Je m'appelle 也是这一类。\n中文“起床”、英语 get up 都没有这个代词,中国学生最容易漏掉:✗ Je lève à sept heures → ✓ Je me lève à sept heures(Je lève 是“我举起(什么东西)”)。否定时 ne…pas 把“代词 + 动词”一起夹住:Je ne me lève pas tôt.\nlever 的重音符号:词尾是不发音的 -e、-es、-ent 时,前面的 e 写成 è(je me lève、ils se lèvent),nous levons、vous levez 不变。\n按顺序说一天:d'abord(首先)… puis(然后)… après(之后)…;tôt(早)、tard(晚)放在动词后面:Je me couche tard.",
       "examples": [
         { "text": "Je me lève à sept heures.", "zh": "我七点起床。" },
         { "text": "Lucas se lève tard.", "zh": "卢卡起得晚。" },
@@ -43,5 +43,5 @@
         { "text": "D'abord, je me lève. Puis je mange.", "zh": "我先起床,然后吃饭。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

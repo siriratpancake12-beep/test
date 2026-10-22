@@ -16,7 +16,7 @@
   ],
   "reviewItems": ["fr.metro", "fr.aller", "fr.minute", "fr.gare"],
   "lines": [
-    { "speaker": "emilie", "text": "Hao, je vais à la gare Part-Dieu, puis je prends le bus.", "zh": "浩,我要去帕尔迪厄火车站,然后坐公交。", "items": ["fr.je", "fr.aller", "fr.a", "fr.gare", "fr.puis", "fr.prendre", "fr.bus"] },
+    { "speaker": "emilie", "text": "Hao, je vais à la gare Part-Dieu, puis je prends le bus.", "zh": "浩,我要去 Part-Dieu 火车站,然后坐公交。", "items": ["fr.je", "fr.aller", "fr.a", "fr.gare", "fr.puis", "fr.prendre", "fr.bus"] },
     { "speaker": "hao", "text": "On prend le métro ensemble ! D'abord, deux tickets.", "zh": "我们一起坐地铁吧!先买两张票。", "items": ["fr.on", "fr.prendre", "fr.metro", "fr.ensemble", "fr.dabord", "fr.deux", "fr.ticket"] },
     { "speaker": "hao", "text": "On prend la ligne D, direction Gare de Vénissieux.", "zh": "我们坐 D 线,往 Gare de Vénissieux 方向。", "items": ["fr.on", "fr.prendre", "fr.ligne", "fr.direction", "fr.gare", "fr.de"] },
     { "speaker": "hao", "text": "On change à Saxe-Gambetta : ligne B, direction Charpennes.", "zh": "在 Saxe-Gambetta 站换乘 B 线,往 Charpennes 方向。", "items": ["fr.on", "fr.changer", "fr.a", "fr.ligne", "fr.direction"] },
@@ -39,5 +39,5 @@
         { "text": "Je descends à Bellecour.", "zh": "我在 Bellecour 站下车。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

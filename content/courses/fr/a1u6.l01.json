@@ -23,14 +23,14 @@
     { "speaker": "hao", "text": "Et la poste ?", "zh": "那邮局呢?", "items": ["fr.et", "fr.poste"] },
     { "speaker": "chloe", "text": "La poste est sur la place, à côté d'un petit musée.", "zh": "邮局在广场上,旁边是一个小博物馆。", "items": ["fr.poste", "fr.etre", "fr.sur", "fr.place", "fr.a_cote_de", "fr.un", "fr.petit", "fr.musee"] },
     { "speaker": "hao", "text": "Un musée ? J'adore les musées !", "zh": "博物馆?我最喜欢博物馆了!", "items": ["fr.un", "fr.musee", "fr.je", "fr.adorer"] },
-    { "speaker": "hao", "text": "Et l'université, c'est où ?", "zh": "那大学在哪儿?", "items": ["fr.et", "fr.universite", "fr.cest", "fr.ou_lieu"] },
-    { "speaker": "chloe", "text": "L'université ? Elle est à côté de la gare.", "zh": "大学?在火车站旁边。", "items": ["fr.universite", "fr.elle", "fr.etre", "fr.a_cote_de", "fr.gare"] },
+    { "speaker": "hao", "text": "Et la gare, c'est où ?", "zh": "那火车站在哪儿?", "items": ["fr.et", "fr.gare", "fr.cest", "fr.ou_lieu"] },
+    { "speaker": "chloe", "text": "La gare ? Elle est à côté de l'université.", "zh": "火车站?在大学旁边。", "items": ["fr.gare", "fr.elle", "fr.etre", "fr.a_cote_de", "fr.universite"] },
     { "speaker": "hao", "text": "Lyon, c'est une belle ville !", "zh": "里昂真是一座漂亮的城市!", "items": ["fr.cest", "fr.une", "fr.beau", "fr.ville"] }
   ],
   "questions": [
     { "prompt": "银行在哪儿?", "options": ["超市旁边", "广场上", "火车站旁边", "药店对面"], "answer": 3, "explainZh": "克洛艾说:la banque est en face de la pharmacie.(en face de = 在……对面)" },
     { "prompt": "邮局旁边是什么?", "options": ["一家超市", "一家银行", "一个小博物馆"], "answer": 2, "explainZh": "克洛艾说:La poste est sur la place, à côté d'un petit musée." },
-    { "prompt": "大学在哪儿?", "options": ["火车站旁边", "邮局对面", "超市旁边"], "answer": 0, "explainZh": "克洛艾说:Elle est à côté de la gare.(à côté de = 在……旁边)" }
+    { "prompt": "火车站在哪儿?", "options": ["大学旁边", "邮局对面", "超市旁边"], "answer": 0, "explainZh": "克洛艾说:Elle est à côté de l'université.(à côté de = 在……旁边)" }
   ],
   "grammar": [
     { "id": "fr.g.il_y_a_places", "titleZh": "问附近有没有:Est-ce qu'il y a… ?",
@@ -42,5 +42,5 @@
         { "text": "Le musée est en face de la banque.", "zh": "博物馆在银行对面。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

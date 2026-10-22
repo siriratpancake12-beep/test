@@ -18,11 +18,11 @@
   ],
   "reviewItems": ["fr.cafe", "fr.the", "fr.eau", "fr.sil_vous_plait"],
   "lines": [
-    { "speaker": "hao", "text": "Bonjour ! Deux cafés, trois thés, s'il vous plaît.", "zh": "(下课后,替同学买饮料)你好!请来两杯咖啡、三杯茶。", "items": ["fr.bonjour", "fr.deux", "fr.cafe", "fr.trois", "fr.the", "fr.sil_vous_plait"] },
+    { "speaker": "hao", "text": "Bonjour ! Deux cafés et trois thés, s'il vous plaît.", "zh": "(下课后,替同学买饮料)你好!请来两杯咖啡和三杯茶。", "items": ["fr.bonjour", "fr.deux", "fr.cafe", "fr.et", "fr.trois", "fr.the", "fr.sil_vous_plait"] },
     { "speaker": "serveur", "text": "Deux cafés ? Trois thés ?", "zh": "两杯咖啡?三杯茶?", "items": ["fr.deux", "fr.cafe", "fr.trois", "fr.the"] },
     { "speaker": "hao", "text": "Non, quatre thés !", "zh": "不对,是四杯茶!", "items": ["fr.non", "fr.quatre", "fr.the"] },
-    { "speaker": "serveur", "text": "Deux cafés, quatre thés… six ! Très bien.", "zh": "两杯咖啡、四杯茶……一共六杯!好的。", "items": ["fr.deux", "fr.cafe", "fr.quatre", "fr.the", "fr.six", "fr.tres", "fr.bien"] },
-    { "speaker": "hao", "text": "Deux eaux, s'il vous plaît.", "zh": "请再来两瓶水。", "items": ["fr.deux", "fr.eau", "fr.sil_vous_plait"] },
+    { "speaker": "serveur", "text": "Deux cafés et quatre thés… six ! Très bien.", "zh": "两杯咖啡和四杯茶……一共六杯!好的。", "items": ["fr.deux", "fr.cafe", "fr.et", "fr.quatre", "fr.the", "fr.six", "fr.tres", "fr.bien"] },
+    { "speaker": "hao", "text": "Et deux eaux, s'il vous plaît.", "zh": "再来两瓶水。", "items": ["fr.et", "fr.deux", "fr.eau", "fr.sil_vous_plait"] },
     { "speaker": "serveur", "text": "Deux eaux ? Huit !", "zh": "两瓶水?那就是八样!", "items": ["fr.deux", "fr.eau", "fr.huit"] },
     { "speaker": "hao", "text": "Oui, huit. Merci !", "zh": "对,八样。谢谢!", "items": ["fr.oui", "fr.huit", "fr.merci"] },
     { "speaker": "hao", "text": "Un, deux, trois, quatre, cinq, six, sept, huit, neuf, dix…", "zh": "(浩数口袋里的硬币)一、二、三、四、五、六、七、八、九、十……", "items": ["fr.un", "fr.deux", "fr.trois", "fr.quatre", "fr.cinq", "fr.six", "fr.sept", "fr.huit", "fr.neuf", "fr.dix"] },
@@ -31,7 +31,7 @@
   ],
   "questions": [
     { "prompt": "浩最后要了几杯茶?", "options": ["三杯", "两杯", "四杯"], "answer": 2, "explainZh": "他先说 trois thés(三杯茶),服务员确认时他改成 Non, quatre thés !(不对,是四杯茶!)" },
-    { "prompt": "浩后来又加了什么?", "options": ["两瓶水", "两杯咖啡", "一杯茶"], "answer": 0, "explainZh": "Deux eaux, s'il vous plaît.(再要两瓶水。)deux 和 eaux 要联诵,读 [dø.zo]。" },
+    { "prompt": "浩后来又加了什么?", "options": ["两瓶水", "两杯咖啡", "一杯茶"], "answer": 0, "explainZh": "Et deux eaux, s'il vous plaît.(再来两瓶水。)deux 和 eaux 要联诵,读 [dø.zo]。" },
     { "prompt": "服务员说“……six !”(一共六杯)时,six 怎么读?", "options": ["[si],x 不读", "[sis],x 读 [s]", "[siz],x 读 [z]"], "answer": 1, "explainZh": "six 单独说、后面没有别的词时读 [sis];six cafés 这样在辅音前读 [si];在元音前读 [siz]。" }
   ],
   "grammar": [

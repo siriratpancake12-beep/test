@@ -3,23 +3,22 @@
   "unit": "A1-1 Bonjour !", "order": 101030,
   "titleZh": "Ça va ?——问候同学和老师", "goalZh": "会问候熟人和长辈,分清 tu 和 vous",
   "canDoZh": "能用 Ça va ? 问候同学、用 Comment allez-vous ? 问候老师,并回答“很好,谢谢”",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "fr.ca_va", "kind": "phrase", "pos": "phrase", "text": "Ça va ?", "zh": "你好吗?/还好吗?(熟人之间)", "features": { "ipa": "sa va" }, "noteZh": "ç 读 [s]。问的时候句末升调;回答也可以说 Ça va(还行)或 Ça va bien(挺好),用降调。" },
     { "id": "fr.bien", "kind": "word", "pos": "adv", "text": "bien", "zh": "好;很好地", "features": { "ipa": "bjɛ̃" }, "noteZh": "鼻化元音 [ɛ̃]:气流同时从口和鼻子出来,n 不单独发音。" },
     { "id": "fr.tres", "kind": "word", "pos": "adv", "text": "très", "zh": "很;非常", "features": { "ipa": "tʁɛ" }, "noteZh": "s 不发音;è 读开口的 [ɛ]。Très bien ! = 很好!" },
     { "id": "fr.et_toi", "kind": "phrase", "pos": "phrase", "text": "Et toi ?", "zh": "你呢?(反问熟人)", "features": { "ipa": "e twa" }, "noteZh": "et 的 t 永远不发音,也不和后面的词联诵;oi 读 [wa]。只对朋友、同学说。" },
     { "id": "fr.comment_allez_vous", "kind": "phrase", "pos": "phrase", "text": "Comment allez-vous ?", "zh": "您好吗?(正式)", "features": { "ipa": "kɔ.mɑ̃.ta.le.vu" }, "noteZh": "对老师、长辈、陌生人用;comment 的 t 和 allez 联诵,读 [kɔ.mɑ̃.ta.le.vu]。回答:Très bien, merci.;想反问对方时,常说 Et vous ?(您呢?)。" },
-    { "id": "fr.oui", "kind": "word", "pos": "interj", "text": "oui", "zh": "是;对", "features": { "ipa": "wi" }, "noteZh": "读 [wi],一个音节,不要读成“乌伊”。" },
     { "id": "fr.non", "kind": "word", "pos": "interj", "text": "non", "zh": "不;不是", "features": { "ipa": "nɔ̃" }, "noteZh": "鼻化元音 [ɔ̃],词尾 n 不要读出来。" },
     { "id": "fr.madame", "kind": "phrase", "pos": "phrase", "text": "madame", "zh": "女士;夫人(称呼)", "features": { "ipa": "ma.dam" }, "noteZh": "称呼时不加冠词:Bonjour, madame.;法国学生叫女老师 madame,不说“老师 + 姓”。书面缩写 Mme。" },
     { "id": "fr.monsieur", "kind": "phrase", "pos": "phrase", "text": "monsieur", "zh": "先生(称呼)", "features": { "ipa": "mə.sjø" }, "noteZh": "拼写和读音差别很大:读 [mə.sjø],第一个音节像轻声的“么”,r 不发音;书面缩写 M.。" },
     { "id": "fr.bonsoir", "kind": "word", "pos": "interj", "text": "Bonsoir", "zh": "晚上好", "features": { "ipa": "bɔ̃.swaʁ" }, "noteZh": "傍晚以后见面时说;白天说 Bonjour。oi 读 [wa]。" }
   ],
-  "reviewItems": ["fr.bonjour", "fr.salut", "fr.au_revoir"],
+  "reviewItems": ["fr.bonjour", "fr.salut", "fr.au_revoir", "fr.oui"],
   "lines": [
     { "speaker": "lucas", "text": "Salut, Hao ! Ça va ?", "zh": "(早上,语言中心门口)嗨,浩!还好吗?", "items": ["fr.salut", "fr.ca_va"] },
-    { "speaker": "hao", "text": "Oui, ça va bien. Et toi ?", "zh": "嗯,挺好的。你呢?", "items": ["fr.oui", "fr.ca_va", "fr.bien", "fr.et_toi"] },
+    { "speaker": "hao", "text": "Oui, ça va bien. Et toi ?", "zh": "嗯,挺好的。你呢?", "items": ["fr.oui", "fr.ca_va", "fr.bien", "fr.et_toi", "fr.et"] },
     { "speaker": "lucas", "text": "Non…", "zh": "不好……(卢卡又熬夜了,一直打哈欠)", "items": ["fr.non"] },
     { "speaker": "hao", "text": "Bonjour, madame. Comment allez-vous ?", "zh": "(进了教室)您好,老师。您好吗?", "items": ["fr.bonjour", "fr.madame", "fr.comment_allez_vous"] },
     { "speaker": "mme_moreau", "text": "Très bien, merci, monsieur.", "zh": "很好,谢谢。", "items": ["fr.tres", "fr.bien", "fr.merci", "fr.monsieur"] },
@@ -29,12 +28,13 @@
   ],
   "questions": [
     { "prompt": "早上浩问卢卡 Ça va ?,卢卡怎么样?", "options": ["很好", "不太好", "还行"], "answer": 1, "explainZh": "卢卡回答 Non…(不好……)——他睡得晚,早上没精神;到了晚上他才说 Très, très bien !" },
-    { "prompt": "浩用哪句话问候莫罗老师?", "options": ["Comment allez-vous ?", "Salut ! Ça va ?", "Et toi ?"], "answer": 0, "explainZh": "对老师要用 vous 的说法:Bonjour, madame. Comment allez-vous ?;Salut、Ça va ?、Et toi ? 是对朋友说的。" }
+    { "prompt": "浩用哪句话问候莫罗老师?", "options": ["Comment allez-vous ?", "Salut ! Ça va ?", "Et toi ?"], "answer": 0, "explainZh": "对老师要用 vous 的说法:Bonjour, madame. Comment allez-vous ?;Salut、Ça va ?、Et toi ? 是对朋友说的。" },
+    { "prompt": "晚上浩又问卢卡 Ça va ?,这次卢卡怎么样?", "options": ["还是没精神", "好得很", "不在宿舍"], "answer": 1, "explainZh": "卢卡说 Oui ! Très, très bien !(好!好得很!)——他睡得晚,一到晚上就精神了。" }
   ],
   "grammar": [
     { "id": "fr.g.tu_vous", "titleZh": "对朋友和对老师:两套问候;句末升调就是问句",
       "bodyZh": "法语的“你”分两种:对朋友、同学、家人用 tu,对老师、长辈、陌生人、店员用 vous(像中文的“您”)。问候也跟着分两套:朋友之间 Salut ! Ça va ? — Ça va bien. Et toi ?;对老师 Bonjour, madame. Comment allez-vous ? — Très bien, merci. 中国学生常犯的错是对老师说 Salut 或 Et toi ?,会显得没礼貌。同龄的年轻人第一次见面就用 tu。\n\n法语口语里,不用改语序、也不用加“吗”,一句话句末升调就是问句:Ça va ?↗(你好吗?)回答时用降调:Ça va.↘(挺好。)写的时候问号前空一格。中文要加“吗”,英语要倒装(Are you OK?),法语只要升调。傍晚以后见面把 Bonjour 换成 Bonsoir。",
-      "examples": [ { "text": "Salut, Lucas ! Ça va ?", "zh": "嗨,卢卡!还好吗?(对朋友,升调)" }, { "text": "Bonjour, madame. Comment allez-vous ?", "zh": "您好,老师。您好吗?(对老师)" } ] }
+      "examples": [ { "text": "Salut, Lucas ! Ça va ?", "zh": "嗨,卢卡!还好吗?(对朋友,升调)" }, { "text": "Bonjour, madame. Comment allez-vous ?", "zh": "您好,老师。您好吗?(对老师)" }, { "text": "Oui, ça va bien. Et toi ?", "zh": "嗯,挺好的。你呢?(降调回答,再反问朋友)" } ] }
   ],
   "review": "draft"
 }

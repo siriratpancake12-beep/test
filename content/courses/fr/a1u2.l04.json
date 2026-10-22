@@ -3,7 +3,7 @@
   "unit": "A1-2 在咖啡馆和面包店", "order": 102040,
   "titleZh": "我喜欢……,我不喜欢……", "goalZh": "会用 aimer / adorer 说喜好,学会否定 ne…pas",
   "canDoZh": "能说自己喜欢、很喜欢和不喜欢吃什么、喝什么",
-  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
   "newItems": [
     { "id": "fr.aimer", "kind": "word", "pos": "verb", "text": "aimer", "zh": "喜欢;爱", "features": { "ipa": "e.me" }, "noteZh": "-er 动词:j'aime, tu aimes, il/elle aime, vous aimez;前三个读音一样 [ɛm],词尾 -e、-es 不发音。je 在元音前省音成 j'。" },
     { "id": "fr.adorer", "kind": "word", "pos": "verb", "text": "adorer", "zh": "非常喜欢;热爱", "features": { "ipa": "a.dɔ.ʁe" }, "noteZh": "比 aimer beaucoup 更强烈,口语里很常用;变位和 aimer 一样:j'adore, tu adores。" },
@@ -12,11 +12,10 @@
     { "id": "fr.bon", "kind": "word", "pos": "adj", "text": "bon", "zh": "好吃的;好的(阳性)", "features": { "ipa": "bɔ̃" }, "noteZh": "阴性 bonne [bɔn]:加 -ne 以后鼻化音消失。C'est bon ! = 真好吃!" },
     { "id": "fr.mais", "kind": "word", "pos": "conj", "text": "mais", "zh": "但是", "features": { "ipa": "mɛ" }, "noteZh": "s 不发音,ai 读 [ɛ];前面一般有逗号。" },
     { "id": "fr.aussi", "kind": "word", "pos": "adv", "text": "aussi", "zh": "也", "features": { "ipa": "o.si" }, "noteZh": "放在动词后面:J'aime aussi le thé.;Moi aussi ! = 我也是!(中文“也”放在动词前,法语放在后面。)" },
-    { "id": "fr.et", "kind": "word", "pos": "conj", "text": "et", "zh": "和;而且", "features": { "ipa": "e" }, "noteZh": "t 不发音,也永远不联诵:et un café 读 [e œ̃ ka.fe]。" },
     { "id": "fr.beaucoup", "kind": "word", "pos": "adv", "text": "beaucoup", "zh": "很多;非常(喜欢)", "features": { "ipa": "bo.ku" }, "noteZh": "eau 读 [o],p 不发音;放在动词后面:J'aime beaucoup le thé.(不能说 très aimer。)" },
     { "id": "fr.moi", "kind": "word", "pos": "pron", "text": "moi", "zh": "我(重读,单独用)", "features": { "ipa": "mwa" }, "noteZh": "强调或单独回答时用:Moi, j'aime le café. / Moi aussi !;不能单独说 je。" }
   ],
-  "reviewItems": ["fr.croissant", "fr.the", "fr.cafe"],
+  "reviewItems": ["fr.croissant", "fr.the", "fr.cafe", "fr.et"],
   "lines": [
     { "speaker": "chloe", "text": "Hao, tu aimes le fromage ?", "zh": "(在咖啡馆里)浩,你喜欢奶酪吗?", "items": ["fr.tu", "fr.aimer", "fr.fromage"] },
     { "speaker": "hao", "text": "Non, je n'aime pas le fromage.", "zh": "不,我不喜欢奶酪。", "items": ["fr.non", "fr.je", "fr.ne_pas", "fr.aimer", "fr.fromage"] },
@@ -28,7 +27,8 @@
   ],
   "questions": [
     { "prompt": "浩喜欢奶酪吗?", "options": ["很喜欢", "不喜欢", "还行"], "answer": 1, "explainZh": "浩说:Non, je n'aime pas le fromage.(不,我不喜欢奶酪。)" },
-    { "prompt": "克洛艾非常喜欢什么?", "options": ["奶酪和茶", "咖啡和可颂", "只喜欢咖啡"], "answer": 0, "explainZh": "克洛艾说 Moi, j'adore le fromage !,最后又说 Moi aussi ! J'adore le thé." }
+    { "prompt": "克洛艾非常喜欢什么?", "options": ["奶酪和茶", "咖啡和可颂", "只喜欢咖啡"], "answer": 0, "explainZh": "克洛艾说 Moi, j'adore le fromage !,最后又说 Moi aussi ! J'adore le thé." },
+    { "prompt": "浩最爱喝什么?", "options": ["咖啡", "热巧克力", "茶"], "answer": 2, "explainZh": "浩说 Oui, j'aime le café, mais j'adore le thé.(咖啡也喜欢,但最爱的是茶。)" }
   ],
   "grammar": [
     { "id": "fr.g.aimer", "titleZh": "aimer / adorer + 定冠词:说喜好",

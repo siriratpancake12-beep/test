@@ -20,8 +20,8 @@
   "lines": [
     { "speaker": "serveur", "text": "Bonjour, Hao ! Un café, une eau ?", "zh": "(卡里姆认出了浩)你好,浩!老样子,一杯咖啡、一瓶水?", "items": ["fr.bonjour", "fr.un", "fr.cafe", "fr.une", "fr.eau"] },
     { "speaker": "hao", "text": "Bonjour ! La carte, s'il vous plaît.", "zh": "你好!请给我看看菜单。", "items": ["fr.bonjour", "fr.carte", "fr.sil_vous_plait"] },
-    { "speaker": "serveur", "text": "Voilà ! Madame, un thé ou un café ?", "zh": "给您!这位女士,茶还是咖啡?", "items": ["fr.voila", "fr.madame", "fr.un", "fr.the", "fr.ou", "fr.cafe"] },
-    { "speaker": "chloe", "text": "Je prends un café avec un jus d'orange.", "zh": "我要一杯咖啡和一杯橙汁。", "items": ["fr.je_prends", "fr.un", "fr.cafe", "fr.avec", "fr.jus_dorange"] },
+    { "speaker": "serveur", "text": "Voilà ! Et vous, madame ? Un thé ou un café ?", "zh": "给您!这位女士,您呢?茶还是咖啡?", "items": ["fr.voila", "fr.et", "fr.vous", "fr.madame", "fr.un", "fr.the", "fr.ou", "fr.cafe"] },
+    { "speaker": "chloe", "text": "Je prends un café et un jus d'orange.", "zh": "我要一杯咖啡和一杯橙汁。", "items": ["fr.je_prends", "fr.un", "fr.cafe", "fr.et", "fr.jus_dorange"] },
     { "speaker": "serveur", "text": "Avec ou sans lait ?", "zh": "咖啡加不加牛奶?", "items": ["fr.avec", "fr.ou", "fr.sans", "fr.lait"] },
     { "speaker": "chloe", "text": "Avec, s'il vous plaît.", "zh": "加,谢谢。", "items": ["fr.avec", "fr.sil_vous_plait"] },
     { "speaker": "hao", "text": "Je voudrais un chocolat chaud avec un sandwich.", "zh": "我想要一杯热巧克力和一个三明治。", "items": ["fr.je_voudrais", "fr.un", "fr.chocolat_chaud", "fr.avec", "fr.sandwich"] },

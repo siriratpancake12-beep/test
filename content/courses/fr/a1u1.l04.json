@@ -3,7 +3,7 @@
   "unit": "A1-1 Bonjour !", "order": 101040,
   "titleZh": "她是加拿大人——主语代词和 être", "goalZh": "会用 je / tu / il / elle / vous 和 être 说自己和别人的国籍、来自哪个城市",
   "canDoZh": "能介绍朋友:“这是艾米莉,她是加拿大人,她来自蒙特利尔”",
-  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
   "newItems": [
     { "id": "fr.je", "kind": "word", "pos": "pron", "text": "je", "zh": "我", "features": { "ipa": "ʒə" }, "noteZh": "e 读得很轻 [ə];在句中不大写(英语 I 永远大写)。后面是元音开头的词时变成 j':j'aime、j'habite。" },
     { "id": "fr.tu", "kind": "word", "pos": "pron", "text": "tu", "zh": "你(熟人)", "features": { "ipa": "ty" }, "noteZh": "u 读 [y]:嘴唇撮圆发“衣”,像汉语“鱼”的韵母。对朋友、同学、家人用;动词配 tu es。" },
@@ -13,22 +13,22 @@
     { "id": "fr.etre", "kind": "word", "pos": "verb", "text": "être", "zh": "是", "features": { "ipa": "ɛtʁ" }, "noteZh": "最重要的不规则动词:je suis, tu es, il/elle est, nous sommes, vous êtes, ils sont。es 和 est 读音一样 [ɛ],s、t 都不发音。" },
     { "id": "fr.francais", "kind": "word", "pos": "adj", "text": "français", "zh": "法国的(阳性);法语", "features": { "ipa": "fʁɑ̃.sɛ" }, "noteZh": "ç 读 [s];阴性 française [fʁɑ̃.sɛz],s 读 [z]。国籍形容词小写;le français 是“法语”。" },
     { "id": "fr.canadien", "kind": "word", "pos": "adj", "text": "canadien", "zh": "加拿大的(阳性)", "features": { "ipa": "ka.na.djɛ̃" }, "noteZh": "阴性 canadienne [ka.na.djɛn]:双写 n 再加 e,鼻化音消失,n 要读出来。" },
-    { "id": "fr.cest", "kind": "phrase", "pos": "phrase", "text": "c'est", "zh": "这是;那是", "features": { "ipa": "sɛ" }, "noteZh": "c' 是 ce 的省音,t 不发音。介绍人:C'est Émilie.(这是艾米莉。)" },
-    { "id": "fr.de", "kind": "word", "pos": "prep", "text": "de", "zh": "来自;……的", "features": { "ipa": "də" }, "noteZh": "元音前变 d'。Je suis de Chengdu.(我来自成都。)le frère de Chloé = 克洛艾的兄弟。" }
+    { "id": "fr.cest", "kind": "phrase", "pos": "phrase", "text": "c'est", "zh": "这是;那是", "features": { "ipa": "sɛ" }, "noteZh": "c' 是 ce 的省音,t 不发音。介绍人:C'est Émilie.(这是艾米莉。)" }
   ],
-  "reviewItems": ["fr.je_suis", "fr.chinois", "fr.oui"],
+  "reviewItems": ["fr.je_suis", "fr.chinois", "fr.oui", "fr.de"],
   "lines": [
     { "speaker": "chloe", "text": "Lucas, Hao, c'est Émilie. Elle est canadienne.", "zh": "(宿舍迎新晚会)卢卡、浩,这是艾米莉。她是加拿大人。", "items": ["fr.cest", "fr.elle", "fr.etre", "fr.canadien"] },
     { "speaker": "lucas", "text": "Salut, Émilie ! Tu es de Montréal ?", "zh": "嗨,艾米莉!你是蒙特利尔人吗?", "items": ["fr.salut", "fr.tu", "fr.etre", "fr.de"] },
-    { "speaker": "emilie", "text": "Oui, je suis de Montréal. Vous êtes français ?", "zh": "对,我来自蒙特利尔。你们是法国人吗?", "items": ["fr.oui", "fr.je_suis", "fr.je", "fr.etre", "fr.de", "fr.vous", "fr.francais"] },
+    { "speaker": "emilie", "text": "Oui, je suis de Montréal. Et vous, vous êtes français ?", "zh": "对,我来自蒙特利尔。那你们呢,你们是法国人吗?", "items": ["fr.oui", "fr.je_suis", "fr.je", "fr.etre", "fr.de", "fr.et", "fr.vous", "fr.francais"] },
     { "speaker": "lucas", "text": "Je suis français. Hao, il est chinois.", "zh": "我是法国人。浩呢,他是中国人。", "items": ["fr.je_suis", "fr.je", "fr.etre", "fr.francais", "fr.il", "fr.chinois"] },
     { "speaker": "hao", "text": "Oui, je suis chinois. Je suis de Chengdu.", "zh": "对,我是中国人。我来自成都。", "items": ["fr.oui", "fr.je_suis", "fr.je", "fr.etre", "fr.chinois", "fr.de"] },
-    { "speaker": "lucas", "text": "Et toi, Chloé ? Tu es canadienne ?", "zh": "(开玩笑)那你呢,克洛艾?你也是加拿大人?", "items": ["fr.et_toi", "fr.tu", "fr.etre", "fr.canadien"] },
+    { "speaker": "lucas", "text": "Et toi, Chloé ? Tu es canadienne ?", "zh": "(开玩笑)那你呢,克洛艾?你也是加拿大人?", "items": ["fr.et_toi", "fr.et", "fr.tu", "fr.etre", "fr.canadien"] },
     { "speaker": "chloe", "text": "Non ! Je suis française, de Lyon !", "zh": "才不是!我是法国人,里昂的!", "items": ["fr.non", "fr.je_suis", "fr.je", "fr.etre", "fr.francais", "fr.de"] }
   ],
   "questions": [
     { "prompt": "艾米莉来自哪个城市?", "options": ["蒙特利尔", "里昂", "成都"], "answer": 0, "explainZh": "卢卡问 Tu es de Montréal ?,艾米莉说 Oui, je suis de Montréal.;克洛艾来自里昂,浩来自成都。" },
-    { "prompt": "艾米莉问 Vous êtes français ?,她在问谁?", "options": ["只问卢卡", "只问克洛艾", "同时问卢卡和浩"], "answer": 2, "explainZh": "对几个人说话时 vous 是“你们”:艾米莉同时问卢卡和浩,所以卢卡回答“我是法国人,浩是中国人”。" }
+    { "prompt": "艾米莉问 Et vous, vous êtes français ?,她在问谁?", "options": ["只问卢卡", "只问克洛艾", "同时问卢卡和浩"], "answer": 2, "explainZh": "对几个人说话时 vous 是“你们”:艾米莉同时问卢卡和浩,所以卢卡回答“我是法国人,浩是中国人”。" },
+    { "prompt": "克洛艾来自哪个城市?", "options": ["巴黎", "里昂", "蒙特利尔"], "answer": 1, "explainZh": "卢卡开玩笑问她是不是加拿大人,克洛艾说:Non ! Je suis française, de Lyon !" }
   ],
   "grammar": [
     { "id": "fr.g.etre", "titleZh": "主语代词和 être(是)",

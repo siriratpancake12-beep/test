@@ -2,41 +2,44 @@
   "id": "fr.a1u1.l02", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
   "unit": "A1-1 Bonjour !", "order": 101020,
   "titleZh": "在咖啡馆", "goalZh": "会点一杯喝的,记住名词的阴阳性", "canDoZh": "能在法国的咖啡馆点一杯喝的",
-  "skills": ["listen", "speak", "write"], "estimatedMinutes": 23,
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 26.5,
   "newItems": [
     { "id": "fr.cafe", "kind": "word", "pos": "noun", "text": "le café", "zh": "咖啡", "features": { "gender": "m", "ipa": "lə ka.fe" }, "noteZh": "阳性:le café。é 读 [e],重音符号不能漏。在法国点 un café,默认是一小杯浓缩咖啡。" },
     { "id": "fr.the", "kind": "word", "pos": "noun", "text": "le thé", "zh": "茶", "features": { "gender": "m", "ipa": "lə te" }, "noteZh": "阳性:le thé。th 读 [t],h 不发音;é 读 [e]。" },
     { "id": "fr.eau", "kind": "word", "pos": "noun", "text": "l'eau", "zh": "水", "features": { "gender": "f", "ipa": "lo" }, "noteZh": "eau 三个字母只读一个音 [o]。元音开头的名词冠词缩成 l',看不出性别,要单独记:eau 是阴性。复数 les eaux 加 x。" },
     { "id": "fr.baguette", "kind": "word", "pos": "noun", "text": "la baguette", "zh": "法棍面包", "features": { "gender": "f", "ipa": "la ba.ɡɛt" }, "noteZh": "阴性:la baguette。gu 读 [ɡ],tt 读 [t],词尾 e 不发音。法国人几乎每天都买新鲜的法棍。" },
     { "id": "fr.sil_vous_plait", "kind": "phrase", "pos": "phrase", "text": "s'il vous plaît", "zh": "请(礼貌)", "alt": ["s'il vous plait"], "features": { "ipa": "sil vu plɛ" }, "noteZh": "对店员、老师、陌生人用的“请”,放在句末:Un café, s'il vous plaît.;plaît 的 t 不发音。对朋友说 s'il te plaît。" },
-    { "id": "fr.merci", "kind": "word", "pos": "interj", "text": "merci", "zh": "谢谢", "features": { "ipa": "mɛʁ.si" }, "noteZh": "别人递东西、端上饮料都要说。注意:别人问你要不要什么时,只回答 Merci 常常是“不用了,谢谢”;要的话说 Oui, merci。" }
+    { "id": "fr.merci", "kind": "word", "pos": "interj", "text": "merci", "zh": "谢谢", "features": { "ipa": "mɛʁ.si" }, "noteZh": "别人递东西、端上饮料都要说。注意:别人问你要不要什么时,只回答 Merci 常常是“不用了,谢谢”;要的话说 Oui, merci。" },
+    { "id": "fr.oui", "kind": "word", "pos": "interj", "text": "oui", "zh": "是;对", "features": { "ipa": "wi" }, "noteZh": "读 [wi],一个音节,不要读成“乌伊”。别人问要不要时,说 Oui, merci(要,谢谢)。" },
+    { "id": "fr.et", "kind": "word", "pos": "conj", "text": "et", "zh": "和;而且", "features": { "ipa": "e" }, "noteZh": "t 不发音,也永远不和后面的词联诵。连接两样东西:le café et le thé;句首的 Et… ? 用来追问:Et de l'eau ?(还要水吗?)" },
+    { "id": "fr.de", "kind": "word", "pos": "prep", "text": "de", "zh": "来自;……的", "features": { "ipa": "də" }, "noteZh": "元音前变 d'。Je suis de Chengdu.(我来自成都。)le frère de Chloé = 克洛艾的兄弟。Et de l'eau ? 里的 de l' 表示“一些”,第 2 单元第 5 课细讲。" }
   ],
   "reviewItems": ["fr.bonjour"],
   "lines": [
     { "speaker": "hao", "text": "Bonjour ! Un café, s'il vous plaît.", "zh": "你好!请来一杯咖啡。", "items": ["fr.bonjour", "fr.cafe", "fr.sil_vous_plait"] },
-    { "speaker": "serveur", "text": "Et de l'eau ?", "zh": "要水吗?", "items": ["fr.eau"] },
-    { "speaker": "hao", "text": "Oui, merci !", "zh": "要,谢谢!", "items": ["fr.merci"] },
+    { "speaker": "serveur", "text": "Et de l'eau ?", "zh": "要水吗?", "items": ["fr.et", "fr.de", "fr.eau"] },
+    { "speaker": "hao", "text": "Oui, merci !", "zh": "要,谢谢!", "items": ["fr.oui", "fr.merci"] },
     { "speaker": "chloe", "text": "Salut, Hao !", "zh": "(克洛艾也来了)嗨,浩!", "items": ["fr.salut"] },
     { "speaker": "chloe", "text": "Un thé, s'il vous plaît !", "zh": "请来一杯茶!", "items": ["fr.the", "fr.sil_vous_plait"] },
     { "speaker": "serveur", "text": "Le café ?", "zh": "(端上来)咖啡是哪位的?", "items": ["fr.cafe"] },
     { "speaker": "hao", "text": "Merci !", "zh": "谢谢!(是我的。)", "items": ["fr.merci"] },
-    { "speaker": "serveur", "text": "Le thé ?", "zh": "茶是哪位的?", "items": ["fr.the"] },
+    { "speaker": "serveur", "text": "Et le thé ?", "zh": "茶呢?是哪位的?", "items": ["fr.et", "fr.the"] },
     { "speaker": "chloe", "text": "Merci !", "zh": "谢谢!", "items": ["fr.merci"] },
-    { "speaker": "chloe", "text": "Le café, le thé, l'eau… la baguette !", "zh": "(克洛艾教浩记冠词)咖啡、茶、水……还有法棍!", "items": ["fr.cafe", "fr.the", "fr.eau", "fr.baguette"] }
+    { "speaker": "chloe", "text": "Le café, le thé, l'eau… et la baguette !", "zh": "(克洛艾教浩记冠词)咖啡、茶、水……还有法棍!", "items": ["fr.cafe", "fr.the", "fr.eau", "fr.et", "fr.baguette"] }
   ],
   "questions": [
     { "prompt": "浩点了什么?", "options": ["茶", "咖啡", "法棍面包"], "answer": 1, "explainZh": "Un café, s'il vous plaît. —— 请来一杯咖啡。" },
     { "prompt": "服务员问浩还要不要什么?", "options": ["茶", "法棍面包", "水"], "answer": 2, "explainZh": "服务员问 Et de l'eau ?(要水吗?),浩说 Oui, merci !(要,谢谢!)" },
     { "prompt": "克洛艾点了什么?", "options": ["茶", "咖啡", "水"], "answer": 0, "explainZh": "克洛艾说:Un thé, s'il vous plaît !(请来一杯茶!)" },
-    { "prompt": "服务员端饮料时说 Le café ?,是什么意思?", "options": ["咖啡好喝吗?", "咖啡是哪位的?", "还要一杯咖啡吗?"], "answer": 1, "explainZh": "服务员端着两杯饮料,问 Le café ?、Le thé ?,是在问“咖啡是谁的、茶是谁的”,所以浩和克洛艾都回答 Merci !" }
+    { "prompt": "服务员端饮料时说 Le café ?,是什么意思?", "options": ["咖啡好喝吗?", "咖啡是哪位的?", "还要一杯咖啡吗?"], "answer": 1, "explainZh": "服务员端着两杯饮料,问 Le café ?、Et le thé ?,是在问“咖啡是谁的、茶是谁的”,所以浩和克洛艾都回答 Merci !" }
   ],
   "grammar": [
     { "id": "fr.g.gender_article", "titleZh": "名词分阴阳性,连冠词一起记",
       "bodyZh": "法语每个名词都有性别:阳性或阴性。性别大多没有道理可讲(咖啡是阳性,法棍是阴性),所以记名词一定连冠词一起记:le 表示阳性,la 表示阴性。元音开头的名词,le / la 都缩成 l'(l'eau),看不出性别,要单独记住:eau 是阴性。中文名词没有性别,英语一律用 the,所以这是中国学生最容易忽略的地方。以后形容词、冠词都要跟着名词的性变,现在记对,后面就省事。",
       "examples": [ { "text": "le café", "zh": "咖啡(阳性)" }, { "text": "le thé", "zh": "茶(阳性)" }, { "text": "la baguette", "zh": "法棍(阴性)" }, { "text": "l'eau", "zh": "水(阴性,要单独记)" } ] },
-    { "id": "fr.g.ordering", "titleZh": "在咖啡馆点单:要什么 + s'il vous plaît",
-      "bodyZh": "点东西最简单的说法:要的东西 + s'il vous plaît。Un café 的 un 是“一(杯)”,现在先整句记(数字第 5 课学)。对店员要用 s'il vous plaît,不能只说名词。服务员端上来时说 Le café ?,意思是“咖啡是哪位的?”,这时说的是桌上这杯,用 le。别忘了说 Merci。文化点:法国人进咖啡馆先说 Bonjour,直接点单会显得没礼貌。",
-      "examples": [ { "text": "Un café, s'il vous plaît.", "zh": "请来一杯咖啡。" }, { "text": "Un thé, s'il vous plaît.", "zh": "请来一杯茶。" }, { "text": "Le thé ? — Merci !", "zh": "茶是哪位的?——谢谢,是我的。" } ] }
+    { "id": "fr.g.ordering", "titleZh": "在咖啡馆点单;oui、et、de",
+      "bodyZh": "点东西最简单的说法:要的东西 + s'il vous plaît。Un café 的 un 是“一(杯)”,现在先整句记(数字第 5 课学)。对店员要用 s'il vous plaît,不能只说名词。服务员常用 Et… ? 追问“还要……吗?”:Et de l'eau ?(要水吗?)要的话回答 Oui, merci !;只说 Merci 常常会被理解成“不用了,谢谢”。et 是“和、还有”,t 不发音。de 最常用的意思是“来自”:Je suis de Chengdu.;Et de l'eau ? 里的 de l' 表示“一些”,第 2 单元学部分冠词时再细讲。服务员端上来时说 Le café ?,意思是“咖啡是哪位的?”。文化点:法国人进咖啡馆先说 Bonjour,直接点单会显得没礼貌。",
+      "examples": [ { "text": "Un café, s'il vous plaît.", "zh": "请来一杯咖啡。" }, { "text": "Et de l'eau ? — Oui, merci !", "zh": "要水吗?——要,谢谢!" }, { "text": "Je suis de Chengdu.", "zh": "我来自成都。(de = 来自)" } ] }
   ],
   "review": "draft"
 }
