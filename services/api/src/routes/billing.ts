@@ -23,9 +23,9 @@ import { HttpError } from "../errors";
 
 /**
  * 按配置创建 App Store 校验器;缺配置就返回 null(交易接口回 503"支付服务暂未开通")。
- * 苹果根证书放在 APPLE_ROOT_CERTS_DIR 指定的目录(不进仓库)。
+ * 苹果根证书放在 config.apple.rootCertsDir(环境变量 APPLE_ROOT_CERTS_DIR)指定的目录(不进仓库)。
  */
-export function createAppStoreVerifier(config: Config, env: NodeJS.ProcessEnv = process.env): AppStoreVerifier | null {
+export function createAppStoreVerifier(config: Config): AppStoreVerifier | null {
   const a = config.apple;
   const off = (why: string) => {
     if (config.env !== "test") console.warn(`[支付] 苹果内购校验未开通:${why}`);
@@ -36,8 +36,7 @@ export function createAppStoreVerifier(config: Config, env: NodeJS.ProcessEnv = 
     if (config.env === "production") return off("生产环境不能用 APPLE_ENVIRONMENT=LocalTesting");
     return createAppleVerifier({ bundleId: a.bundleId, environment: "LocalTesting", rootCertificates: [] });
   }
-  // 目录以后由 config.apple.rootCertsDir 提供(config.ts 归 server-core),现在先直接读环境变量
-  const dir = (a as { rootCertsDir?: string }).rootCertsDir ?? env.APPLE_ROOT_CERTS_DIR;
+  const dir = a.rootCertsDir;
   if (!dir) return off("没有配置 APPLE_ROOT_CERTS_DIR(苹果根证书目录)");
   if (a.environment === "Production" && !a.appAppleId) return off("生产环境要配置 APPLE_APP_ID(App 的数字 id)");
   try {

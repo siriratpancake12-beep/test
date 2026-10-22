@@ -2,7 +2,7 @@ import { createHash, timingSafeEqual } from "node:crypto";
 import type { FastifyInstance, FastifyRequest } from "fastify";
 import { SignJWT, jwtVerify } from "jose";
 import type { Config } from "../config";
-import { forbidden, unauthorized } from "../errors";
+import { HttpError, forbidden, unauthorized } from "../errors";
 
 /**
  * 登录凭证:HS256 签名的 JWT,有效期 90 天。App 存在系统安全存储里。
@@ -46,9 +46,18 @@ export async function requireUser(req: FastifyRequest, config: Config): Promise<
   return sub;
 }
 
-/** 可选登录:有 token 就返回用户 id,没有返回 null(埋点等接口登录前也能用)。 */
+/**
+ * 可选登录:token 有效就返回用户 id;没有 token、token 无效或过期、账号已注销都当作没登录,返回 null。
+ * 埋点等接口登录前也能用;App 拿着过期的旧凭证上传埋点也照收(按匿名记),不会因为 401 一直重试。
+ */
 export async function optionalUser(req: FastifyRequest, config: Config): Promise<string | null> {
-  return req.headers.authorization ? requireUser(req, config) : null;
+  if (!req.headers.authorization) return null;
+  try {
+    return await requireUser(req, config);
+  } catch (e) {
+    if (e instanceof HttpError && e.status === 401) return null;
+    throw e;
+  }
 }
 
 /** 后台接口:请求头 x-admin-token 要和配置一致;没配置口令时后台关闭。 */
