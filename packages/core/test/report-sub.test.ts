@@ -82,7 +82,7 @@ describe("订阅", () => {
 
   it("第一单元免费,其余要会员;复习不受限制(不在这里判断)", () => {
     expect(canAccessLesson(de[1]!, de, false)).toBe(true);
-    const later = { ...de[1]!, unit: "A1-2", order: 3 };
+    const later = { ...de[1]!, id: "de.a1u2.l01", unit: "A1-2", order: de[1]!.order + 1000 };
     expect(canAccessLesson(later, [...de, later], false)).toBe(false);
     expect(canAccessLesson(later, [...de, later], true)).toBe(true);
     // 分级测试后起步在 A1-2 的人,免费的是 A1-2

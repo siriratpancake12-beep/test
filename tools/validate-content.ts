@@ -53,7 +53,9 @@ for (const code of languageCodes()) {
     }
   }
 
-  problems.push(...validateCourse(loadPackRaw(code), lessons));
+  // 排序一律按 id 推出的顺序(文件里存的 order 可能还是旧的;--strict 会单独报出来)
+  const ordered = (lessons as { id: string; order: number }[]).map((l) => ({ ...l, order: orderFromId(l.id) ?? l.order }));
+  problems.push(...validateCourse(loadPackRaw(code), ordered));
   const shown = only ? problems.filter((p) => only.some((pre) => p.lesson.startsWith(pre))) : problems;
   console.log(`${code}: 已写 ${written.length} 课, ${shown.length} 个问题${only ? `(只看 ${only.join(",")})` : ""}`);
   for (const p of shown) console.log(`  [${p.lesson}] ${p.msg}`);
