@@ -1,0 +1,48 @@
+{
+  "id": "fr.a1u6.l02", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106020,
+  "titleZh": "我去超市——aller 和交通方式", "goalZh": "会用 aller 说去哪儿,用 en / à 说怎么去", "canDoZh": "能说自己去哪儿、怎么去(步行、坐公交、坐地铁、骑车、开车)",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.aller", "kind": "word", "pos": "verb", "text": "aller", "zh": "去", "features": { "ipa": "a.le" }, "noteZh": "不规则:je vais, tu vas, il va, nous allons, vous allez, ils vont;Ça va 的 va 就是 aller;去某地:aller à + 地点。" },
+    { "id": "fr.au", "kind": "word", "pos": "prep", "text": "au", "zh": "到;在(à + le)", "features": { "ipa": "o" }, "noteZh": "à + le 必须缩合成 au:Je vais au supermarché.(不能说 à le);阳性国家前也用 au:au Canada。" },
+    { "id": "fr.aux", "kind": "word", "pos": "prep", "text": "aux", "zh": "到;在(à + les)", "features": { "ipa": "o" }, "noteZh": "à + les 缩合成 aux:Tu vas aux toilettes ?;x 不发音,元音前联诵读 [z]。" },
+    { "id": "fr.en", "kind": "word", "pos": "prep", "text": "en", "zh": "坐(交通工具);在(阴性国家、月份)", "features": { "ipa": "ɑ̃" }, "noteZh": "坐在里面的交通工具用 en,不加冠词:en bus, en métro, en voiture;也用在阴性国家和月份前:en France, en avril。" },
+    { "id": "fr.a_pied", "kind": "phrase", "pos": "phrase", "text": "à pied", "zh": "步行", "features": { "ipa": "a pje" }, "noteZh": "d 不发音;走路用 à,不用 en:Je vais au supermarché à pied." },
+    { "id": "fr.bus", "kind": "word", "pos": "noun", "text": "le bus", "zh": "公交车", "features": { "gender": "m", "ipa": "lə bys" }, "noteZh": "s 要读出来:[bys];u 读 [y];坐公交 = en bus。" },
+    { "id": "fr.metro", "kind": "word", "pos": "noun", "text": "le métro", "zh": "地铁", "features": { "gender": "m", "ipa": "lə me.tʁo" }, "noteZh": "é 不能漏;坐地铁 = en métro。" },
+    { "id": "fr.velo", "kind": "word", "pos": "noun", "text": "le vélo", "zh": "自行车", "features": { "gender": "m", "ipa": "lə ve.lo" }, "noteZh": "骑车去说 à vélo(口语也常听到 en vélo)。" },
+    { "id": "fr.voiture", "kind": "word", "pos": "noun", "text": "la voiture", "zh": "汽车;小轿车", "features": { "gender": "f", "ipa": "la vwa.tyʁ" }, "noteZh": "oi 读 [wa],u 读 [y];开车去、坐车去 = en voiture。" },
+    { "id": "fr.comment", "kind": "word", "pos": "adv", "text": "comment", "zh": "怎么;怎样", "features": { "ipa": "kɔ.mɑ̃" }, "noteZh": "t 不发音;问方式:Tu vas à l'université comment ?(口语)/ Comment tu vas à l'université ?;单独说 Comment tu vas ? 是“你好吗?”。" }
+  ],
+  "reviewItems": ["fr.supermarche", "fr.gare", "fr.musee", "fr.universite"],
+  "lines": [
+    { "speaker": "lucas", "text": "Salut, Hao ! Tu vas où ?", "zh": "嗨,浩!你去哪儿?", "items": ["fr.salut", "fr.tu", "fr.aller", "fr.ou_lieu"] },
+    { "speaker": "hao", "text": "Je vais au supermarché, à pied. Et vous ?", "zh": "我去超市,走路去。你们呢?", "items": ["fr.je", "fr.aller", "fr.au", "fr.supermarche", "fr.a_pied", "fr.et", "fr.vous"] },
+    { "speaker": "lucas", "text": "Moi, je vais à la gare, en métro.", "zh": "我去火车站,坐地铁。", "items": ["fr.moi", "fr.je", "fr.aller", "fr.a", "fr.gare", "fr.en", "fr.metro"] },
+    { "speaker": "emilie", "text": "Et moi, je vais au musée, à vélo !", "zh": "我去博物馆,骑自行车!", "items": ["fr.et", "fr.moi", "fr.je", "fr.aller", "fr.au", "fr.musee", "fr.a", "fr.velo"] },
+    { "speaker": "lucas", "text": "Hao, tu vas à l'université comment ?", "zh": "浩,你平时怎么去大学?", "items": ["fr.tu", "fr.aller", "fr.a", "fr.universite", "fr.comment"] },
+    { "speaker": "hao", "text": "En bus. Et toi, Lucas ?", "zh": "坐公交。你呢,卢卡?", "items": ["fr.en", "fr.bus", "fr.et_toi"] },
+    { "speaker": "lucas", "text": "À vélo. Je n'ai pas de voiture !", "zh": "骑车。我没有汽车!", "items": ["fr.a", "fr.velo", "fr.je", "fr.avoir", "fr.ne_pas", "fr.pas_de", "fr.voiture"] }
+  ],
+  "questions": [
+    { "prompt": "浩要去哪儿?", "options": ["火车站", "超市", "博物馆", "大学"], "answer": 1, "explainZh": "浩说:Je vais au supermarché, à pied.(去火车站的是卢卡,去博物馆的是艾米莉)" },
+    { "prompt": "艾米莉怎么去博物馆?", "options": ["坐地铁", "走路", "骑自行车"], "answer": 2, "explainZh": "艾米莉说:Et moi, je vais au musée, à vélo !" },
+    { "prompt": "浩平时怎么去大学?", "options": ["坐公交", "走路", "骑自行车", "开车"], "answer": 0, "explainZh": "卢卡问 tu vas à l'université comment ?,浩回答 En bus." }
+  ],
+  "grammar": [
+    { "id": "fr.g.aller_au", "titleZh": "aller(去)和 à + 冠词的缩合",
+      "bodyZh": "aller(去)是不规则动词:je vais, tu vas, il / elle / on va, nous allons, vous allez, ils / elles vont。早就会说的 Ça va ?、Comment allez-vous ? 里的 va、allez 就是它。\n“去某地”说 aller à + 地点。à 碰到定冠词 le、les 必须缩合:à + le → au(Je vais au musée),à + les → aux(Tu vas aux toilettes ?);à la、à l' 不变:à la gare、à l'université;城市前不加冠词:à Lyon。✗ Je vais à le supermarché。\n中文“去超市”、英语 go to the supermarket 都不用管冠词,法语要先想清楚地点名词的性别:le musée → au musée,la banque → à la banque。\n问去哪儿:Tu vas où ?(口语)/ Où est-ce que tu vas ?",
+      "examples": [
+        { "text": "Je vais au supermarché, puis à la pharmacie.", "zh": "我去超市,然后去药店。" },
+        { "text": "Tu vas aux toilettes ? C'est au premier étage.", "zh": "你要去洗手间?在二楼(法国的 premier étage)。" }
+      ] },
+    { "id": "fr.g.transport", "titleZh": "交通方式:en bus、à pied",
+      "bodyZh": "说怎么去,中文用不同的动词(坐、骑、走),法语用介词:\n坐在里面的交通工具用 en:en bus(坐公交)、en métro(坐地铁)、en voiture(开车 / 坐车去)。\n走路、骑在上面的用 à:à pied(走路)、à vélo(骑车,口语里也常听到 en vélo)。\n交通工具前面不加冠词:✗ en le bus。\n问方式用 comment:Tu vas à l'université comment ?(口语里疑问词常放句尾)/ Comment tu vas à l'université ?。注意单独一句 Comment tu vas ? 是问“你好吗?”。",
+      "examples": [
+        { "text": "Je vais à l'université en bus.", "zh": "我坐公交去大学。" },
+        { "text": "Émilie va au musée à vélo.", "zh": "艾米莉骑车去博物馆。" }
+      ] }
+  ],
+  "review": "draft"
+}

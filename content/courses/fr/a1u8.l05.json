@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u8.l05", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 健康、爱好与周末", "order": 108050,
+  "titleZh": "上周末你做了什么?——复合过去时入门", "goalZh": "会用复合过去时说过去做过的事,比如上周末去了哪儿、做了什么", "canDoZh": "能用几句话说上周末做了什么、去了哪儿、怎么样",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "fr.week_end", "kind": "word", "pos": "noun", "text": "le week-end", "zh": "周末", "features": { "gender": "m", "ipa": "lə wi.kɛnd" }, "noteZh": "有连字符;ce week-end(这个周末),le week-end dernier(上个周末)。" },
+    { "id": "fr.hier", "kind": "word", "pos": "adv", "text": "hier", "zh": "昨天", "features": { "ipa": "jɛʁ" }, "noteZh": "h 不发音,读一个音节 [jɛʁ];hier soir = 昨天晚上。" },
+    { "id": "fr.dernier", "kind": "word", "pos": "adj", "text": "dernier", "zh": "上一个的;最后的(阳性)", "features": { "ipa": "dɛʁ.nje" }, "noteZh": "阴性 dernière;放在名词后表示“上一个”:la semaine dernière(上周)。" },
+    { "id": "fr.voir", "kind": "word", "pos": "verb", "text": "voir", "zh": "看见;看(电影)", "features": { "ipa": "vwaʁ" }, "noteZh": "不规则:je vois, tu vois, il voit;过去分词 vu:J'ai vu un film." },
+    { "id": "fr.visiter", "kind": "word", "pos": "verb", "text": "visiter", "zh": "参观(地方)", "features": { "ipa": "vi.zi.te" }, "noteZh": "只用于地方:visiter un musée;看望人不用 visiter。" },
+    { "id": "fr.film", "kind": "word", "pos": "noun", "text": "le film", "zh": "电影(一部)", "features": { "gender": "m", "ipa": "lə film" }, "noteZh": "voir un film / regarder un film(看电影)。" },
+    { "id": "fr.rester", "kind": "word", "pos": "verb", "text": "rester", "zh": "待;留下", "features": { "ipa": "ʁɛs.te" }, "noteZh": "不是“休息”!复合过去时用 être:Je suis resté(e) à la maison." },
+    { "id": "fr.rentrer", "kind": "word", "pos": "verb", "text": "rentrer", "zh": "回家;回来", "features": { "ipa": "ʁɑ̃.tʁe" }, "noteZh": "复合过去时用 être:Je suis rentré(e) tard." },
+    { "id": "fr.cetait", "kind": "phrase", "pos": "phrase", "text": "C'était…", "zh": "那(当时)是……(评价过去)", "features": { "ipa": "se.tɛ" }, "noteZh": "过去时的“是”;A1 先当固定说法:C'était bien ? — Oui, c'était super !" },
+    { "id": "fr.super", "kind": "word", "pos": "adj", "text": "super", "zh": "超棒的;太好了", "features": { "ipa": "sy.pɛʁ" }, "noteZh": "口语,阴阳性、单复数都不变;也可以单独说 Super !(太好了!)" }
+  ],
+  "reviewItems": ["fr.faire", "fr.musee", "fr.prendre", "fr.dimanche"],
+  "lines": [
+    { "speaker": "mme_moreau", "text": "Qu'est-ce que vous avez fait le week-end dernier, Hao ?", "zh": "浩,你上周末做了什么?", "items": ["fr.quest_ce_que", "fr.vous", "fr.avoir", "fr.faire", "fr.week_end", "fr.dernier"] },
+    { "speaker": "hao", "text": "Samedi, j'ai visité un musée.", "zh": "星期六,我参观了一个博物馆。", "items": ["fr.samedi", "fr.je", "fr.avoir", "fr.visiter", "fr.un", "fr.musee"] },
+    { "speaker": "hao", "text": "Le soir, j'ai vu un film avec Lucas.", "zh": "晚上,我和卢卡看了一部电影。", "items": ["fr.soir", "fr.je", "fr.avoir", "fr.voir", "fr.un", "fr.film", "fr.avec"] },
+    { "speaker": "hao", "text": "Dimanche, je suis resté à la maison et j'ai fait mes devoirs.", "zh": "星期天,我待在家里写作业。", "items": ["fr.dimanche", "fr.je", "fr.etre", "fr.rester", "fr.a", "fr.maison", "fr.et", "fr.avoir", "fr.faire", "fr.mes", "fr.devoirs"] },
+    { "speaker": "mme_moreau", "text": "Et vous, Émilie ?", "zh": "艾米莉,你呢?", "items": ["fr.et", "fr.vous"] },
+    { "speaker": "emilie", "text": "Moi, j'ai pris le train pour Annecy.", "zh": "我坐火车去了安纳西。", "items": ["fr.moi", "fr.je", "fr.avoir", "fr.prendre", "fr.train", "fr.pour"] },
+    { "speaker": "emilie", "text": "Je suis rentrée très tard hier soir.", "zh": "昨天晚上很晚才回来。", "items": ["fr.je", "fr.etre", "fr.rentrer", "fr.tres", "fr.tard", "fr.hier", "fr.soir"] },
+    { "speaker": "mme_moreau", "text": "C'était bien ?", "zh": "玩得好吗?", "items": ["fr.cetait", "fr.bien"] },
+    { "speaker": "emilie", "text": "Oui, c'était super !", "zh": "嗯,太棒了!", "items": ["fr.oui", "fr.cetait", "fr.super"] }
+  ],
+  "questions": [
+    { "prompt": "浩星期六晚上做了什么?", "options": ["参观博物馆", "和卢卡看了一部电影", "写作业"], "answer": 1, "explainZh": "Le soir, j'ai vu un film avec Lucas.——vu 是 voir 的过去分词。参观博物馆是星期六白天,写作业是星期天。" },
+    { "prompt": "浩星期天做了什么?", "options": ["待在家里写作业", "坐火车去了安纳西", "去看医生"], "answer": 0, "explainZh": "Dimanche, je suis resté à la maison et j'ai fait mes devoirs.——坐火车去安纳西的是艾米莉。" },
+    { "prompt": "艾米莉是什么时候回来的?", "options": ["星期六晚上", "昨天下午", "昨天晚上很晚"], "answer": 2, "explainZh": "Je suis rentrée très tard hier soir.——今天是星期一,hier soir 就是星期天晚上;女生写 rentrée。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.passe_compose", "titleZh": "复合过去时:avoir / être + 过去分词",
+      "bodyZh": "说过去做过的事,法语口语最常用复合过去时:助动词 avoir 或 être 的现在时 + 过去分词。-er 动词的过去分词把 -er 换成 -é,读音和原形一样:visiter → j'ai visité,regarder → j'ai regardé。常用的不规则过去分词要单独记:faire → fait,prendre → pris,voir → vu,lire → lu,boire → bu,avoir → eu [y],être → été(和“夏天”l'été 同形:J'ai été malade. 我病了一场)。大多数动词用 avoir:j'ai visité, tu as vu, il a fait, nous avons pris。少数表示“去、来、走、待、回”的动词用 être:aller → allé,venir → venu,partir → parti,rester → resté,rentrer → rentré;这时过去分词要像形容词一样和主语配合:女生说 je suis allée、je suis rentrée(多一个 e,读音不变),复数加 s。否定时 ne… pas 夹住助动词:Je n'ai pas vu le film.。最常见的错误是漏掉助动词(说成 Je visité):中文一个“了”就够了,法语一定要有 ai / suis。时间词:hier(昨天)、le week-end dernier(上周末)、la semaine dernière(上周)。评价过去的事,先把 C'était bien ? — C'était super ! 当固定说法记。",
+      "examples": [
+        { "text": "Samedi, j'ai visité un musée.", "zh": "星期六我参观了一个博物馆。" },
+        { "text": "Hier, on a vu un film.", "zh": "昨天我们看了一部电影。" },
+        { "text": "Je suis resté à la maison.", "zh": "我待在家里了。(男生;女生写 restée)" },
+        { "text": "Émilie est rentrée tard.", "zh": "艾米莉很晚才回来。" }
+      ] }
+  ],
+  "review": "draft"
+}

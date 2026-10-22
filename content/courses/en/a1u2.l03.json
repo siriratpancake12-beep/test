@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u2.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 Family & friends", "order": 102030,
+  "titleZh": "他长什么样?", "goalZh": "会描述一个人的外貌:高矮、头发、戴不戴眼镜", "canDoZh": "能用几句话描述一个人的长相,让没见过他的人也能认出来",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.what_does_he_look_like", "kind": "phrase", "pos": "phrase", "text": "What does he look like", "zh": "他长什么样?", "alt": ["What does she look like"], "features": { "ipa": "ˌwʌt dəz hi ˈlʊk ˌlaɪk" }, "noteZh": "问长相用 look like;问性格用 What's he like?(下一课),两句很容易混。问对方:What do you look like?" },
+    { "id": "en.guy", "kind": "word", "pos": "noun", "text": "guy", "zh": "家伙;男的(口语)", "features": { "ipa": "ɡaɪ" }, "noteZh": "美国口语里说“那个男生”常说 that guy;复数 guys 也可以泛指一群人。" },
+    { "id": "en.tall", "kind": "word", "pos": "adj", "text": "tall", "zh": "(个子)高的", "features": { "ipa": "tɑːl" }, "noteZh": "说人高用 tall,不用 high;词尾 l 舌尖要抬起来。" },
+    { "id": "en.short", "kind": "word", "pos": "adj", "text": "short", "zh": "矮的;短的", "features": { "ipa": "ʃɔːrt" }, "noteZh": "可以说人矮,也可以说头发短:short hair。说自己矮,口语里更委婉的说法是 I'm not very tall.。" },
+    { "id": "en.hair", "kind": "word", "pos": "noun", "text": "hair", "zh": "头发", "features": { "ipa": "her" }, "noteZh": "头发是不可数名词:She has long hair.(不说 hairs,也不加 a)。" },
+    { "id": "en.long", "kind": "word", "pos": "adj", "text": "long", "zh": "长的", "features": { "ipa": "lɑːŋ" }, "noteZh": "词尾 ng 是后鼻音 /ŋ/,不要读成“long-g”。" },
+    { "id": "en.black", "kind": "word", "pos": "adj", "text": "black", "zh": "黑色的", "features": { "ipa": "blæk" }, "noteZh": "bl 之间不要加元音;a 读 /æ/。" },
+    { "id": "en.brown", "kind": "word", "pos": "adj", "text": "brown", "zh": "棕色的", "features": { "ipa": "braʊn" }, "noteZh": "中国人说的“黑眼睛”,英语一般说 brown eyes;“黄头发”多说 blond hair。" },
+    { "id": "en.glasses", "kind": "word", "pos": "noun", "text": "glasses", "zh": "眼镜", "features": { "ipa": "ˈɡlæsɪz" }, "noteZh": "眼镜永远用复数 glasses,词尾读 /ɪz/;“他戴眼镜”可以说 He has glasses.,也常说 wear glasses(wear 第 6 单元学)。" }
+  ],
+  "reviewItems": ["en.brother", "en.older", "en.have", "en.big"],
+  "lines": [
+    { "speaker": "lei", "text": "Hi, Sofia! Your older brother... what does he look like?", "zh": "嗨,索菲亚!你哥哥……他长什么样?", "items": ["en.hi", "en.older", "en.brother", "en.what_does_he_look_like"] },
+    { "speaker": "sofia", "text": "He's a big guy. He's tall, and he has short black hair.", "zh": "他块头挺大,个子很高,黑色短发。", "items": ["en.big", "en.guy", "en.tall", "en.have", "en.short", "en.black", "en.hair"] },
+    { "speaker": "lei", "text": "Tall, short black hair. Got it.", "zh": "个子高,黑色短发。记住了。", "items": ["en.tall", "en.short", "en.black", "en.hair", "en.got_it"] },
+    { "speaker": "sofia", "text": "Oh, and he has glasses. And you, Lei? What do you look like?", "zh": "哦,还有,他戴眼镜。那你呢,磊?你长什么样?", "items": ["en.have", "en.glasses", "en.and_you", "en.what_does_he_look_like"] },
+    { "speaker": "lei", "text": "I have short black hair, and I'm not very tall.", "zh": "我是黑色短发,个子不太高。", "items": ["en.have", "en.short", "en.black", "en.hair", "en.tall"] },
+    { "speaker": "lei", "text": "Sofia, it's Lei. There are two tall guys here.", "zh": "索菲亚,是我,磊。这儿有两个高个子男生。", "items": ["en.tall", "en.guy"] },
+    { "speaker": "sofia", "text": "Two tall guys? What do they look like?", "zh": "两个高个子?他们长什么样?", "items": ["en.tall", "en.guy", "en.what_does_he_look_like"] },
+    { "speaker": "lei", "text": "One guy has long brown hair, and one guy has glasses.", "zh": "一个是棕色长发,一个戴眼镜。", "items": ["en.guy", "en.have", "en.long", "en.brown", "en.hair", "en.glasses"] },
+    { "speaker": "sofia", "text": "The guy with glasses! That's my brother. Thank you, Lei!", "zh": "戴眼镜的那个!那就是我哥哥。谢谢你,磊!", "items": ["en.guy", "en.glasses", "en.brother", "en.thank_you"] }
+  ],
+  "questions": [
+    { "prompt": "迭戈长什么样?", "options": ["个子不高,棕色长发", "个子高,黑色短发,戴眼镜", "个子高,棕色长发,戴眼镜"], "answer": 1, "explainZh": "索菲亚说 He's tall, and he has short black hair.,又补充 he has glasses。" },
+    { "prompt": "磊靠什么认出了迭戈?", "options": ["长头发", "个子高", "黑头发", "戴眼镜"], "answer": 3, "explainZh": "两个男生个子都很高:一个是棕色长发,一个戴眼镜。索菲亚说 The guy with glasses! That's my brother." }
+  ],
+  "grammar": [
+    { "id": "en.g.has_hair_adj_order", "titleZh": "描述长相:be + 形容词,have / has + 名词",
+      "bodyZh": "说高矮用 be:He's tall. I'm not very tall.;说头发、眼镜这些“长在身上、戴在身上的”用 have / has:He has short black hair. He has glasses.。中文说“他黑头发”,英语要说 He has black hair,不能说 He is black hair。几个形容词放在名词前,先说长短、再说颜色:short black hair、long brown hair。hair 是不可数名词,不加 -s,也不加 a。问长相用 What does he look like?,问对方用 What do you look like?。发音:hair 结尾要卷舌;tall、long 里的 l 舌尖要顶住上齿龈。",
+      "examples": [
+        { "text": "He's tall, and he has short black hair.", "zh": "他个子高,黑色短发。" },
+        { "text": "What does she look like? — She has long brown hair.", "zh": "她长什么样?——她是棕色长发。" }
+      ] }
+  ],
+  "review": "draft"
+}

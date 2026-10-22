@@ -1,0 +1,50 @@
+{
+  "id": "en.a1u2.l08", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-2 Family & friends", "order": 102080,
+  "titleZh": "单元复习:我的家人和新朋友", "goalZh": "读懂并会讲一段介绍家人和朋友的短文,复习本单元的家人、外貌和性格词", "canDoZh": "能用一小段话介绍自己的家人和新朋友:他们是谁、长什么样、是什么样的人",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 20,
+  "newItems": [
+    { "id": "en.best_friend", "kind": "phrase", "pos": "noun", "text": "best friend", "zh": "最好的朋友", "features": { "ipa": "ˌbest ˈfrend" }, "noteZh": "best 结尾的 t 碰上 friend 的 f,常常轻到听不见:“bes-friend”。" },
+    { "id": "en.miss", "kind": "word", "pos": "verb", "text": "miss", "zh": "想念", "features": { "ipa": "mɪs" }, "noteZh": "I miss my family. 我想家了;miss 还有“错过”的意思:miss the bus。" },
+    { "id": "en.love", "kind": "word", "pos": "verb", "text": "love", "zh": "爱;非常喜欢", "features": { "ipa": "lʌv" }, "noteZh": "美国人说 love 很随意:I love this song! = 我超喜欢这首歌;词尾 v 下唇要轻轻振动。" },
+    { "id": "en.home", "kind": "word", "pos": "noun", "text": "home", "zh": "家(住的地方);家乡", "features": { "ipa": "hoʊm" }, "noteZh": "go home 回家、at home 在家(go home 不加 to);想家:I miss home。" }
+  ],
+  "reviewItems": ["en.only_child", "en.glasses", "en.funny", "en.grandma"],
+  "lines": [
+    { "speaker": "narrator", "text": "My name is Lei, and I'm from Chengdu, China.", "zh": "我叫磊,来自中国成都。", "items": ["en.my_name_is", "en.im_from"] },
+    { "speaker": "narrator", "text": "There are four people in my family.", "zh": "我家有四口人。", "items": ["en.people", "en.family"] },
+    { "speaker": "narrator", "text": "My dad is an engineer, and my mom is a teacher.", "zh": "我爸爸是工程师,我妈妈是老师。", "items": ["en.dad", "en.engineer", "en.mom", "en.teacher"] },
+    { "speaker": "narrator", "text": "My grandma lives with us. She has glasses, and she's really funny.", "zh": "我奶奶和我们住在一起。她戴眼镜,特别逗。", "items": ["en.grandma", "en.live", "en.have", "en.glasses", "en.really", "en.funny"] },
+    { "speaker": "narrator", "text": "I'm an only child, but my cousin is my best friend.", "zh": "我是独生子,不过我表姐是我最好的朋友。", "items": ["en.only_child", "en.cousin", "en.best_friend"] },
+    { "speaker": "narrator", "text": "Now I'm a freshman in Seattle.", "zh": "现在我在西雅图读大一。", "items": ["en.freshman"] },
+    { "speaker": "narrator", "text": "My roommate, Ethan, is from California.", "zh": "我的室友伊森来自加州。", "items": ["en.roommate"] },
+    { "speaker": "narrator", "text": "He's tall, and he's very friendly.", "zh": "他个子很高,人很友好。", "items": ["en.tall", "en.friendly"] },
+    { "speaker": "narrator", "text": "Amy is really nice, and she's smart.", "zh": "艾米人特别好,又聪明。", "items": ["en.really", "en.nice", "en.smart"] },
+    { "speaker": "narrator", "text": "Sofia has long black hair, and she has a big family.", "zh": "索菲亚留着黑色长发,她家是个大家庭。", "items": ["en.have", "en.long", "en.black", "en.hair", "en.big", "en.family"] },
+    { "speaker": "narrator", "text": "I miss my family and my home.", "zh": "我想念家人,想家。", "items": ["en.miss", "en.family", "en.home"] },
+    { "speaker": "narrator", "text": "But I love Seattle, and I have great friends here.", "zh": "但我爱西雅图,在这里我也有很好的朋友。", "items": ["en.love", "en.have", "en.great", "en.friend"] }
+  ],
+  "questions": [
+    { "prompt": "磊的奶奶是什么样的人?", "options": ["很害羞", "特别逗", "很安静"], "answer": 1, "explainZh": "My grandma lives with us. She has glasses, and she's really funny.(她戴眼镜,特别逗。)" },
+    { "prompt": "磊最好的朋友是谁?", "options": ["他的室友伊森", "艾米", "他的奶奶", "他的表姐"], "answer": 3, "explainZh": "I'm an only child, but my cousin is my best friend.(我是独生子,不过我表姐是我最好的朋友。)" },
+    { "prompt": "索菲亚长什么样?", "options": ["黑色长发", "棕色短发", "戴眼镜"], "answer": 0, "explainZh": "Sofia has long black hair.(索菲亚留着黑色长发。)戴眼镜的是磊的奶奶。" },
+    { "prompt": "短文最后,磊的心情是怎样的?", "options": ["他不喜欢西雅图", "他一点也不想家", "他想家,但在西雅图也有好朋友"], "answer": 2, "explainZh": "I miss my family and my home. But I love Seattle, and I have great friends here." }
+  ],
+  "grammar": [
+    { "id": "en.g.and_but", "titleZh": "用 and 和 but 把句子连起来",
+      "bodyZh": "两句话意思顺着说,用 and(而且;和);意思有转折,用 but(但是;不过)。写短文时用它们把短句连起来,读起来更顺,也更像一篇文章:I'm an only child, but my cousin is my best friend.。连接两个完整的句子时,and、but 前面一般加逗号。朗读时在逗号、句号处稍微停顿,陈述句句末语调下降 ↘。",
+      "examples": [
+        { "text": "My dad is an engineer, and my mom is a teacher.", "zh": "我爸爸是工程师,我妈妈是老师。" },
+        { "text": "I miss my family, but I love Seattle.", "zh": "我想家,但我爱西雅图。" },
+        { "text": "He's tall, and he's very friendly.", "zh": "他个子高,人也很友好。" }
+      ] },
+    { "id": "en.g.unit2_summary", "titleZh": "单元小结:介绍家人和朋友的四个句型",
+      "bodyZh": "① 谁的:my / your / his / her / our / their + 名词(my mom、her family)。② 有:I have…,he / she has…(She has a big family.)。③ 几口人:There are four people in my family.。④ 什么样:be + 形容词说性格和高矮(He's tall. She's really nice.),have / has 说头发、眼镜(She has long black hair.)。主语是 he、she 或一个人时,动词要加 -s:has、lives、works,写的时候特别容易漏。",
+      "examples": [
+        { "text": "My grandma lives with us.", "zh": "我奶奶和我们住在一起。" },
+        { "text": "She has long black hair.", "zh": "她留着黑色长发。" },
+        { "text": "There are four people in my family.", "zh": "我家有四口人。" }
+      ] }
+  ],
+  "review": "draft"
+}
