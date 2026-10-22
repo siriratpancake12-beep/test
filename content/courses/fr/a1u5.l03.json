@@ -24,7 +24,7 @@
     { "speaker": "lucas", "text": "Oui, je me lève tard et je me couche tard !", "zh": "是啊,我起得晚,睡得也晚!", "items": ["fr.oui", "fr.je", "fr.se_lever", "fr.tard", "fr.et", "fr.se_coucher"] },
     { "speaker": "lucas", "text": "Tu te lèves à quelle heure, le matin ?", "zh": "你早上几点起床?", "items": ["fr.tu", "fr.se_lever", "fr.a", "fr.quel", "fr.heure", "fr.matin"] },
     { "speaker": "hao", "text": "Je me lève tôt, à sept heures, tous les jours.", "zh": "我起得早,每天七点。", "items": ["fr.je", "fr.se_lever", "fr.tot", "fr.a", "fr.sept", "fr.heure", "fr.tous_les_jours"] },
-    { "speaker": "hao", "text": "D'abord, le petit-déjeuner. Puis, j'ai cours à neuf heures.", "zh": "先吃早饭,然后九点上课。", "items": ["fr.dabord", "fr.petit_dejeuner", "fr.puis", "fr.je", "fr.avoir", "fr.cours", "fr.a", "fr.neuf", "fr.heure"] },
+    { "speaker": "hao", "text": "D'abord, le petit-déjeuner. Puis j'ai cours à neuf heures.", "zh": "先吃早饭,然后九点上课。", "items": ["fr.dabord", "fr.petit_dejeuner", "fr.puis", "fr.je", "fr.avoir", "fr.cours", "fr.a", "fr.neuf", "fr.heure"] },
     { "speaker": "hao", "text": "Le déjeuner, c'est à midi, après le cours.", "zh": "午饭是中午十二点,下课以后。", "items": ["fr.dejeuner", "fr.cest", "fr.a", "fr.midi", "fr.apres", "fr.cours"] },
     { "speaker": "hao", "text": "Et le soir, je me couche à onze heures.", "zh": "晚上我十一点睡觉。", "items": ["fr.et", "fr.soir", "fr.je", "fr.se_coucher", "fr.a", "fr.onze", "fr.heure"] }
   ],
@@ -40,7 +40,7 @@
         { "text": "Je me lève à sept heures.", "zh": "我七点起床。" },
         { "text": "Lucas se lève tard.", "zh": "卢卡起得晚。" },
         { "text": "Vous vous couchez à quelle heure ?", "zh": "您 / 你们几点睡觉?" },
-        { "text": "D'abord, je me lève. Puis, je mange.", "zh": "我先起床,然后吃饭。" }
+        { "text": "D'abord, je me lève. Puis je mange.", "zh": "我先起床,然后吃饭。" }
       ] }
   ],
   "review": "draft"

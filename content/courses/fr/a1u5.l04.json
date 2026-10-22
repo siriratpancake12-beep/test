@@ -18,7 +18,7 @@
   "reviewItems": ["fr.cuisine", "fr.samedi", "fr.se_lever", "fr.tous_les_jours"],
   "lines": [
     { "speaker": "lucas", "text": "Salut, Hao ! Qu'est-ce que tu fais samedi ?", "zh": "嗨,浩!你星期六做什么?", "items": ["fr.salut", "fr.quest_ce_que", "fr.tu", "fr.faire", "fr.samedi"] },
-    { "speaker": "hao", "text": "Le matin, je fais mes devoirs. Puis, je fais les courses.", "zh": "上午我做作业,然后去采购。", "items": ["fr.matin", "fr.je", "fr.faire", "fr.mes", "fr.devoirs", "fr.puis", "fr.courses"] },
+    { "speaker": "hao", "text": "Le matin, je fais mes devoirs. Puis je fais les courses.", "zh": "上午我做作业,然后去采购。", "items": ["fr.matin", "fr.je", "fr.faire", "fr.mes", "fr.devoirs", "fr.puis", "fr.courses"] },
     { "speaker": "hao", "text": "Le soir, je fais la cuisine. Et toi ?", "zh": "晚上我做饭。你呢?", "items": ["fr.soir", "fr.je", "fr.faire", "fr.cuisine", "fr.et_toi"] },
     { "speaker": "lucas", "text": "Moi, le samedi, je me lève tard. Je ne regarde pas l'heure !", "zh": "我啊,星期六起得很晚,根本不看时间!", "items": ["fr.moi", "fr.samedi", "fr.je", "fr.se_lever", "fr.tard", "fr.ne_pas", "fr.regarder", "fr.heure"] },
     { "speaker": "hao", "text": "Tu fais souvent du sport ?", "zh": "你经常运动吗?", "items": ["fr.tu", "fr.faire", "fr.souvent", "fr.du", "fr.sport"] },

@@ -28,8 +28,8 @@
     { "speaker": "hao", "text": "Janvier ou février !", "zh": "一月或者二月!", "items": ["fr.janvier", "fr.ou", "fr.fevrier"] }
   ],
   "questions": [
-    { "prompt": "浩的生日是哪天?", "options": ["11 月 7 日", "1 月 20 日", "10 月 23 日", "1 月 1 日"], "answer": 1, "explainZh": "浩说:C'est le 20 janvier.(11 月 7 日是克洛艾的生日)" },
-    { "prompt": "对话这天是几月几号?", "options": ["10 月 23 日", "11 月 7 日", "12 月 23 日"], "answer": 0, "explainZh": "克洛艾说:Aujourd'hui, c'est le 23 octobre." },
+    { "prompt": "浩的生日是哪天?", "options": ["1 月 20 日", "11 月 7 日", "10 月 23 日", "1 月 1 日"], "answer": 0, "explainZh": "浩说:C'est le 20 janvier.(11 月 7 日是克洛艾的生日)" },
+    { "prompt": "对话这天是几月几号?", "options": ["le 23 septembre", "le 23 octobre", "le 7 novembre"], "answer": 1, "explainZh": "克洛艾说:Aujourd'hui, c'est le 23 octobre.(septembre 是九月,le 7 novembre 是克洛艾的生日)" },
     { "prompt": "克洛艾的生日是星期几?", "options": ["星期日", "星期五", "星期六"], "answer": 2, "explainZh": "克洛艾说:Et le 7 novembre, c'est un samedi !" },
     { "prompt": "中国新年(春节)在什么时候?", "options": ["1 月 1 日", "一月或者二月", "十二月"], "answer": 1, "explainZh": "浩说:Janvier ou février !春节按农历算,每年公历的日期都不一样;le Nouvel An(1 月 1 日)是公历新年。" }
   ],

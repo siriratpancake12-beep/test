@@ -78,9 +78,13 @@ export function lessonPractice(lesson: Lesson, pool: Item[], pack: LanguagePack,
     .slice(0, REVIEW_IN_PRACTICE)
     .forEach((it, i) => out.push(exerciseFor(it, i % 2 ? "listen" : "produce", all, pack, seed + 200 + i)));
   lesson.newItems.forEach((it, i) => out.push(exerciseFor(it, "produce", all, pack, seed + 100 + i)));
-  for (const line of shuffle(lesson.lines, rand).slice(0, 2)) {
+  // 先挑出能做排序题的句子(3–10 个词块)再抽 2 句,不然抽到太长或太短的句子就少一道题
+  const reorderable = lesson.lines.flatMap((line) => {
     const t = tokens(line, pack);
-    if (t) out.push({ type: "reorder", lineText: line.text, zh: line.zh, tiles: shuffle(t, rand), answer: t });
+    return t ? [{ line, t }] : [];
+  });
+  for (const { line, t } of shuffle(reorderable, rand).slice(0, 2)) {
+    out.push({ type: "reorder", lineText: line.text, zh: line.zh, tiles: shuffle(t, rand), answer: t });
   }
   const speakLine = lesson.lines.find((l) => l.text.length <= 60);
   if (speakLine) out.push({ type: "speak", text: speakLine.text, zh: speakLine.zh });

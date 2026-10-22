@@ -5,7 +5,7 @@
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "fr.heure", "kind": "word", "pos": "noun", "text": "l'heure", "zh": "小时;点钟", "features": { "gender": "f", "ipa": "lœʁ" }, "noteZh": "h 不发音,阴性:une heure;和前面的数字联诵:deux heures [dø.zœʁ]、six heures [si.zœʁ]、neuf heures [nœ.vœʁ]。" },
-    { "id": "fr.quelle_heure", "kind": "phrase", "pos": "phrase", "text": "Il est quelle heure ?", "zh": "现在几点?", "features": { "ipa": "i.lɛ kɛ.lœʁ" }, "noteZh": "口语常用;正式一点说 Quelle heure est-il ?;回答 Il est … heure(s)。问“几点(做某事)”说 à quelle heure ?" },
+    { "id": "fr.quelle_heure", "kind": "phrase", "pos": "phrase", "text": "Il est quelle heure ?", "zh": "现在几点?", "alt": ["Quelle heure est-il ?"], "features": { "ipa": "i.lɛ kɛ.lœʁ" }, "noteZh": "口语常用;正式一点说 Quelle heure est-il ?;回答 Il est … heure(s)。问“几点(做某事)”说 à quelle heure ?" },
     { "id": "fr.et_demie", "kind": "phrase", "pos": "phrase", "text": "et demie", "zh": "(几点)半", "features": { "ipa": "e də.mi" }, "noteZh": "huit heures et demie = 八点半;demie 跟阴性的 heure 配合,词尾 e 不发音;中午十二点半写 midi et demi。" },
     { "id": "fr.et_quart", "kind": "phrase", "pos": "phrase", "text": "et quart", "zh": "(几点)一刻;过十五分", "features": { "ipa": "e kaʁ" }, "noteZh": "huit heures et quart = 八点一刻(8:15);quart 的 t 不发音。" },
     { "id": "fr.moins_le_quart", "kind": "phrase", "pos": "phrase", "text": "moins le quart", "zh": "差一刻", "features": { "ipa": "mwɛ̃ lə kaʁ" }, "noteZh": "neuf heures moins le quart = 九点差一刻(8:45);moins 的 s 不发音,oin 读鼻化元音 [wɛ̃]。" },

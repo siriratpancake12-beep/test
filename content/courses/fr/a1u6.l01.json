@@ -4,7 +4,7 @@
   "titleZh": "城市里的地方", "goalZh": "会说城市里常去的地方,问附近有没有某个地方", "canDoZh": "能说出城市里常去的地方,问“这一带有超市吗?”",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
   "newItems": [
-    { "id": "fr.ville", "kind": "word", "pos": "noun", "text": "la ville", "zh": "城市;市区", "features": { "gender": "f", "ipa": "la vil" }, "noteZh": "ll 在这里读 [l],不读 [j](和 famille 不同);Lyon, c'est une belle ville."},
+    { "id": "fr.ville", "kind": "word", "pos": "noun", "text": "la ville", "zh": "城市;市区", "features": { "gender": "f", "ipa": "la vil" }, "noteZh": "ll 在这里读 [l],不读 [j](和 famille 不同);Lyon, c'est une belle ville." },
     { "id": "fr.place", "kind": "word", "pos": "noun", "text": "la place", "zh": "广场;座位", "features": { "gender": "f", "ipa": "la plas" }, "noteZh": "两个意思:广场(la place Bellecour),也指座位;“在广场上”说 sur la place。" },
     { "id": "fr.musee", "kind": "word", "pos": "noun", "text": "le musée", "zh": "博物馆", "features": { "gender": "m", "ipa": "lə my.ze" }, "noteZh": "虽然以 -ée 结尾,却是阳性!s 在两个元音之间读 [z]。" },
     { "id": "fr.supermarche", "kind": "word", "pos": "noun", "text": "le supermarché", "zh": "超市", "features": { "gender": "m", "ipa": "lə sy.pɛʁ.maʁ.ʃe" }, "noteZh": "super + marché(市场);ch 读 [ʃ],é 不能漏。" },
@@ -28,7 +28,7 @@
     { "speaker": "hao", "text": "Lyon, c'est une belle ville !", "zh": "里昂真是一座漂亮的城市!", "items": ["fr.cest", "fr.une", "fr.beau", "fr.ville"] }
   ],
   "questions": [
-    { "prompt": "银行在哪儿?", "options": ["超市旁边", "药店对面", "广场上", "火车站旁边"], "answer": 1, "explainZh": "克洛艾说:la banque est en face de la pharmacie.(en face de = 在……对面)" },
+    { "prompt": "银行在哪儿?", "options": ["超市旁边", "广场上", "火车站旁边", "药店对面"], "answer": 3, "explainZh": "克洛艾说:la banque est en face de la pharmacie.(en face de = 在……对面)" },
     { "prompt": "邮局旁边是什么?", "options": ["一家超市", "一家银行", "一个小博物馆"], "answer": 2, "explainZh": "克洛艾说:La poste est sur la place, à côté d'un petit musée." },
     { "prompt": "大学在哪儿?", "options": ["火车站旁边", "邮局对面", "超市旁边"], "answer": 0, "explainZh": "克洛艾说:Elle est à côté de la gare.(à côté de = 在……旁边)" }
   ],

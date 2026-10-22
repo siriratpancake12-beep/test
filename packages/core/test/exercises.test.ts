@@ -1,5 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { checkReorder, exerciseFor, lessonPractice } from "../src/exercises";
+import { practiceCount } from "../src/hours";
 import { lessons, pack } from "./fixtures";
 
 const de = lessons("de"), fr = lessons("fr");
@@ -52,6 +53,15 @@ describe("练习生成", () => {
     const firstReview = ex.findIndex((e) => "itemId" in e && e.itemId === "de.hallo");
     const lastProduce = ex.map((e) => "direction" in e && e.direction === "produce" && e.itemId !== "de.hallo").lastIndexOf(true);
     expect(firstReview).toBeLessThan(lastProduce);
+  });
+
+  it("题数和时长估算(practiceCount)一致:能做排序题的句子够,就一定出 2 道", () => {
+    for (const [code, ls] of [["de", de], ["fr", fr]] as const) {
+      const all = ls.flatMap((l) => l.newItems);
+      for (const l of ls) for (let s = 1; s <= 20; s++) {
+        expect(lessonPractice(l, all, pack(code), s)).toHaveLength(practiceCount(l));
+      }
+    }
   });
 
   it("排序题和开口说", () => {

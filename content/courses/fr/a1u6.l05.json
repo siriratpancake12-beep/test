@@ -19,7 +19,7 @@
   "lines": [
     { "speaker": "hao", "text": "Bonjour, monsieur. Je voudrais un aller-retour Lyon-Paris, s'il vous plaît.", "zh": "您好,先生。我想买一张里昂到巴黎的往返票。", "items": ["fr.bonjour", "fr.monsieur", "fr.je_voudrais", "fr.un", "fr.aller_retour", "fr.sil_vous_plait"] },
     { "speaker": "guichetier", "text": "Bonjour. Vous partez à quelle date ?", "zh": "您好。您哪天出发?", "items": ["fr.bonjour", "fr.vous", "fr.partir", "fr.a", "fr.quel", "fr.date"] },
-    { "speaker": "hao", "text": "Le 18 avril, le matin. Et je pars de Paris le 22.", "zh": "4 月 18 日上午。22 号从巴黎往回走。", "items": ["fr.dix_huit", "fr.avril", "fr.matin", "fr.et", "fr.je", "fr.partir", "fr.de", "fr.vingt", "fr.deux"] },
+    { "speaker": "hao", "text": "Le 18 avril, le matin. Et je pars de Paris le 22.", "zh": "4 月 18 日上午。22 号从巴黎回来。", "items": ["fr.dix_huit", "fr.avril", "fr.matin", "fr.et", "fr.je", "fr.partir", "fr.de", "fr.vingt", "fr.deux"] },
     { "speaker": "guichetier", "text": "Vous prenez le train de huit heures quatre ?", "zh": "您坐 8 点 04 分那班火车吗?", "items": ["fr.vous", "fr.prendre", "fr.train", "fr.de", "fr.huit", "fr.heure", "fr.quatre"] },
     { "speaker": "hao", "text": "Oui, très bien.", "zh": "好的,可以。", "items": ["fr.oui", "fr.tres", "fr.bien"] },
     { "speaker": "guichetier", "text": "Voilà les billets. Ça fait quatre-vingt-dix euros.", "zh": "这是您的票。一共九十欧。", "items": ["fr.voila", "fr.billet", "fr.ca_fait", "fr.quatre_vingt_dix", "fr.euro"] },
@@ -27,7 +27,7 @@
     { "speaker": "lucas", "text": "Moi aussi, je vais partir à Paris, en juillet ou en août !", "zh": "我也要去巴黎,七月或者八月!", "items": ["fr.moi", "fr.aussi", "fr.je", "fr.aller", "fr.partir", "fr.a", "fr.en", "fr.juillet", "fr.ou", "fr.aout"] }
   ],
   "questions": [
-    { "prompt": "浩买的往返票是哪两天?", "options": ["4 月 22 日去,4 月 18 日回", "4 月 18 日去,4 月 22 日回", "4 月 18 日去,7 月 22 日回"], "answer": 1, "explainZh": "浩说:Le 18 avril, le matin. Et je pars de Paris le 22.(22 号从巴黎出发,就是回里昂)" },
+    { "prompt": "浩哪天出发去巴黎?", "options": ["le 18 mai", "le 18 avril", "le 22 juin", "le 22 mars"], "answer": 1, "explainZh": "浩说:Le 18 avril, le matin.(4 月 18 日上午出发;le 22 是从巴黎回来的日子)" },
     { "prompt": "票一共多少钱?", "options": ["60 欧", "70 欧", "80 欧", "90 欧"], "answer": 3, "explainZh": "售票员说:Ça fait quatre-vingt-dix euros.(quatre-vingt-dix = 4 × 20 + 10 = 90)" }
   ],
   "grammar": [
