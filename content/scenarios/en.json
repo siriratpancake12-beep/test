@@ -1,0 +1,162 @@
+[
+  {
+    "id": "en.meet_classmates", "lang": "en", "level": "A1",
+    "titleZh": "认识新同学",
+    "goalZh": "在迎新会上和美国同学打招呼,互相介绍名字、来自哪里、喜欢做什么",
+    "roleZh": "新同学 Amy(美国大学生)",
+    "setupZh": "波士顿一所大学的国际学生迎新会(orientation),在学生活动中心。Amy 是波士顿本地的大学生,来做志愿者,热情、说话慢而清楚。她会问学习者叫什么、来自哪里、喜欢做什么,也会介绍自己:她学音乐,喜欢打篮球、吃冰淇淋。只聊名字(可以用英文名)、国家和城市、专业、爱好这类话题,不问住址、电话、社交账号等个人信息。",
+    "opening": { "text": "Hi! I'm Amy. Welcome to Boston! What's your name?", "zh": "嗨!我是艾米。欢迎来到波士顿!你叫什么名字?" },
+    "tasks": ["打招呼,说出你的名字", "说说你来自哪里", "说一件你喜欢做的事", "问 Amy 一个问题(比如她喜欢做什么)"],
+    "usefulPhrases": [
+      { "text": "Hi, my name is …", "zh": "嗨,我叫……" },
+      { "text": "Nice to meet you.", "zh": "很高兴认识你。" },
+      { "text": "I'm from China.", "zh": "我来自中国。" },
+      { "text": "I'm a student.", "zh": "我是学生。" },
+      { "text": "I like music and basketball.", "zh": "我喜欢音乐和篮球。" },
+      { "text": "What do you like to do?", "zh": "你喜欢做什么?" },
+      { "text": "How about you?", "zh": "你呢?" },
+      { "text": "Me too!", "zh": "我也是!" },
+      { "text": "Sorry, can you say that again?", "zh": "不好意思,能再说一遍吗?" }
+    ]
+  },
+  {
+    "id": "en.cafe_order", "lang": "en", "level": "A1",
+    "titleZh": "在咖啡馆点单",
+    "goalZh": "在咖啡馆点一杯喝的和一样吃的,说清楚要多大杯、在这儿吃还是带走,然后付钱",
+    "roleZh": "咖啡馆店员",
+    "setupZh": "波士顿街角的一家咖啡馆(coffee shop),上午客人不多,在柜台点单。店员友好,说话简单。价格(小 / 中 / 大杯):coffee $2.50 / $3 / $3.50,latte $4 / $4.50 / $5;tea $2.50,hot chocolate $3.50(只有一种大小);吃的有 muffin、bagel、cookie,每样 $3。店员会问要什么、要多大杯、for here or to go(在这儿吃还是带走),最后说总价;可以刷卡,也可以付现金。",
+    "opening": { "text": "Hi there! What can I get you?", "zh": "你好!想要点什么?" },
+    "tasks": ["点一杯喝的,说清楚要多大杯", "再点一样吃的", "回答在这儿吃还是带走", "问价格并付钱"],
+    "usefulPhrases": [
+      { "text": "Can I get a latte, please?", "zh": "请给我一杯拿铁。" },
+      { "text": "A small coffee, please.", "zh": "请给我一杯小杯咖啡。" },
+      { "text": "Medium, please.", "zh": "中杯。" },
+      { "text": "And a muffin, please.", "zh": "再要一个玛芬蛋糕。" },
+      { "text": "For here, please.", "zh": "在这儿吃。" },
+      { "text": "To go, please.", "zh": "带走。" },
+      { "text": "How much is it?", "zh": "多少钱?" },
+      { "text": "Can I pay with a card?", "zh": "可以刷卡吗?" },
+      { "text": "That's all, thanks.", "zh": "就这些,谢谢。" }
+    ]
+  },
+  {
+    "id": "en.grocery_shopping", "lang": "en", "level": "A1",
+    "titleZh": "在超市买东西",
+    "goalZh": "在超市问东西放在哪里、问价格,结账时回答要不要袋子,然后付钱",
+    "roleZh": "超市店员",
+    "setupZh": "宿舍附近的一家小超市(grocery store)。学习者要买牛奶、面包和苹果。店员先在货架旁回答问题:milk 在 3 号通道(aisle 3)的冷柜里,bread 在 5 号通道,apples 在门口的水果区;然后在收银台结账:milk $3.50、bread $2.50、一袋 apples $4,一共 $10。店员会问 Do you need a bag? 和 Cash or card?",
+    "opening": { "text": "Hi! Can I help you find something?", "zh": "你好!需要帮你找什么东西吗?" },
+    "tasks": ["问店员你要的东西在哪里", "问一样东西多少钱", "结账时回答要不要袋子", "付钱并道谢"],
+    "usefulPhrases": [
+      { "text": "Excuse me, where is the milk?", "zh": "请问,牛奶在哪儿?" },
+      { "text": "Do you have apples?", "zh": "有苹果吗?" },
+      { "text": "How much is this?", "zh": "这个多少钱?" },
+      { "text": "I'll take it.", "zh": "我要这个。" },
+      { "text": "Yes, I need a bag, please.", "zh": "要,请给我一个袋子。" },
+      { "text": "No, thanks. I have a bag.", "zh": "不用了,谢谢。我有袋子。" },
+      { "text": "Card, please.", "zh": "我刷卡。" },
+      { "text": "Here you go.", "zh": "给你。" },
+      { "text": "Thanks! Have a nice day!", "zh": "谢谢!祝你今天愉快!" }
+    ]
+  },
+  {
+    "id": "en.ask_directions", "lang": "en", "level": "A1",
+    "titleZh": "问路",
+    "goalZh": "在街上问路人去地铁站怎么走,听懂方向,再问问远不远",
+    "roleZh": "街上的路人(波士顿本地人)",
+    "setupZh": "波士顿市中心的街上,学习者想去最近的地铁站(subway station,本地人也叫 the T)。路线:沿这条街直走两个路口(two blocks),在银行那里左转,地铁站在右手边,走路大约五分钟。路人很友好,用简单的方向词(go straight、turn left、on your right);学习者没听懂时,会放慢速度、换个简单的说法再说一遍。",
+    "opening": { "text": "Hi! You look lost. Can I help?", "zh": "嗨!你好像迷路了。需要帮忙吗?" },
+    "tasks": ["说清楚你要去哪里", "听懂并说一遍怎么走(比如直走、左转)", "问远不远或者要走多久", "道谢"],
+    "usefulPhrases": [
+      { "text": "Excuse me, where is the subway station?", "zh": "请问,地铁站在哪儿?" },
+      { "text": "How do I get to the library?", "zh": "去图书馆怎么走?" },
+      { "text": "Is it far?", "zh": "远吗?" },
+      { "text": "Go straight for two blocks.", "zh": "直走两个路口。" },
+      { "text": "Turn left at the bank.", "zh": "在银行那儿左转。" },
+      { "text": "It's on your right.", "zh": "在你的右边。" },
+      { "text": "So, straight and then left?", "zh": "也就是先直走,再左转?" },
+      { "text": "Can you speak more slowly, please?", "zh": "请说慢一点好吗?" },
+      { "text": "Thank you so much!", "zh": "太感谢了!" }
+    ]
+  },
+  {
+    "id": "en.hotel_checkin", "lang": "en", "level": "A1",
+    "titleZh": "酒店入住",
+    "goalZh": "在酒店前台办理入住:说你有预订、确认住几晚,再问早餐时间和 Wi-Fi",
+    "roleZh": "酒店前台接待员",
+    "setupZh": "波士顿的一家酒店,晚上。学习者刚到,已经在网上订了三晚的房间。前台会问名字来查预订(学习者随便说一个名字或英文名就行,不问证件号、电话、地址),再请学习者出示护照(学习者说 Here is my passport 就算完成,不需要任何号码)。房间是 5 楼的 512 号;早餐 7 点到 10 点,在一楼;Wi-Fi 免费,密码写在房卡套上。",
+    "opening": { "text": "Good evening, and welcome! Do you have a reservation?", "zh": "晚上好,欢迎光临!您有预订吗?" },
+    "tasks": ["说你有预订,报一个名字", "确认住几晚", "问早餐时间", "问 Wi-Fi 或者房间在几楼"],
+    "usefulPhrases": [
+      { "text": "Yes, I have a reservation.", "zh": "是的,我有预订。" },
+      { "text": "My name is …", "zh": "我叫……" },
+      { "text": "For three nights.", "zh": "住三晚。" },
+      { "text": "Here is my passport.", "zh": "这是我的护照。" },
+      { "text": "What time is breakfast?", "zh": "早餐几点?" },
+      { "text": "Is there free Wi-Fi?", "zh": "有免费的 Wi-Fi 吗?" },
+      { "text": "What's the Wi-Fi password?", "zh": "Wi-Fi 密码是什么?" },
+      { "text": "What floor is my room on?", "zh": "我的房间在几楼?" },
+      { "text": "Thank you. Good night!", "zh": "谢谢,晚安!" }
+    ]
+  },
+  {
+    "id": "en.pharmacy", "lang": "en", "level": "A1",
+    "titleZh": "在药店说症状",
+    "goalZh": "在药店告诉药剂师你哪里不舒服、从什么时候开始,买到合适的药,并问清楚怎么吃",
+    "roleZh": "药店的药剂师(pharmacist)",
+    "setupZh": "宿舍附近的一家药店(drugstore)。学习者感冒了:嗓子疼、头疼,从昨天开始,没有发烧。药剂师会问哪里不舒服、从什么时候开始、有没有发烧、对药物过不过敏,然后推荐一盒普通的感冒药($8.99),提醒按盒子上的说明吃、饭后吃,多休息、多喝水,三天还没好就去看医生。这是语言练习:只给休息、喝水、看医生这类一般建议,不说具体的药名和剂量;学习者如果说的是真实的严重症状(比如呼吸困难、胸口疼),请学习者马上去看医生或拨打急救电话。",
+    "opening": { "text": "Hi there! How can I help you today?", "zh": "你好!今天有什么可以帮你的?" },
+    "tasks": ["说你哪里不舒服", "说症状从什么时候开始", "回答有没有发烧、过不过敏", "问这个药怎么吃"],
+    "usefulPhrases": [
+      { "text": "I don't feel well.", "zh": "我不太舒服。" },
+      { "text": "I have a sore throat.", "zh": "我嗓子疼。" },
+      { "text": "I have a headache.", "zh": "我头疼。" },
+      { "text": "It started yesterday.", "zh": "从昨天开始的。" },
+      { "text": "I don't have a fever.", "zh": "我没有发烧。" },
+      { "text": "I'm not allergic to any medicine.", "zh": "我对药物不过敏。" },
+      { "text": "How do I take it?", "zh": "这个药怎么吃?" },
+      { "text": "How much is it?", "zh": "多少钱?" },
+      { "text": "Thanks for your help.", "zh": "谢谢你的帮助。" }
+    ]
+  },
+  {
+    "id": "en.make_plans", "lang": "en", "level": "A1",
+    "titleZh": "和朋友约时间",
+    "goalZh": "约朋友 Amy 周末一起出去:商量做什么、哪天、几点、在哪儿见面",
+    "roleZh": "朋友 Amy",
+    "setupZh": "学习者在迎新会上认识的 Amy 现在是朋友了,两人下课后在校园里聊天。Amy 想周末一起出去:看电影、逛美术馆,或者去吃冰淇淋都可以。她周六上午要打工,周六下午和周日都有空。双方要定下:做什么、哪天、几点、在哪儿见(比如地铁站或者咖啡馆门口)。学习者第一次提的时间如果是周六上午,Amy 会说那时不行,请学习者换一个时间。",
+    "opening": { "text": "Hey! Do you want to do something this weekend?", "zh": "嘿!这个周末想一起做点什么吗?" },
+    "tasks": ["提议一起做一件事", "商量好哪天", "定好几点", "定好在哪儿见面"],
+    "usefulPhrases": [
+      { "text": "Do you want to see a movie?", "zh": "你想去看电影吗?" },
+      { "text": "Are you free on Saturday?", "zh": "你周六有空吗?" },
+      { "text": "Sorry, I can't on Saturday.", "zh": "不好意思,我周六不行。" },
+      { "text": "How about Sunday afternoon?", "zh": "周日下午怎么样?" },
+      { "text": "What time is good for you?", "zh": "你几点方便?" },
+      { "text": "Let's meet at two.", "zh": "我们两点见吧。" },
+      { "text": "Where should we meet?", "zh": "我们在哪儿见?" },
+      { "text": "Sounds good!", "zh": "听起来不错!" },
+      { "text": "See you then!", "zh": "到时候见!" }
+    ]
+  },
+  {
+    "id": "en.train_ticket", "lang": "en", "level": "A1",
+    "titleZh": "车站买票",
+    "goalZh": "在火车站的售票窗口买一张去纽约的票:说清楚哪天、单程还是往返,问发车时间、价格和站台",
+    "roleZh": "火车站售票员",
+    "setupZh": "波士顿南站(South Station)的售票窗口。学习者想周六去纽约玩。售票员会问去哪里、哪天、单程(one-way)还是往返(round-trip)、坐几点的车。周六有上午 9:00 和 11:30 两班车,路上大约四个小时;单程 $50,往返 $90。站台(track)在发车前 15 分钟显示在大屏幕上,售票员会请学习者到时候看屏幕。",
+    "opening": { "text": "Hi! Where would you like to go?", "zh": "你好!您想去哪儿?" },
+    "tasks": ["说出目的地和日期", "说要单程还是往返", "选一班车", "问价格或者在哪个站台上车"],
+    "usefulPhrases": [
+      { "text": "One ticket to New York, please.", "zh": "请给我一张去纽约的票。" },
+      { "text": "For Saturday morning.", "zh": "周六上午的。" },
+      { "text": "One-way, please.", "zh": "单程。" },
+      { "text": "Round-trip, please.", "zh": "往返。" },
+      { "text": "What time does the train leave?", "zh": "火车几点开?" },
+      { "text": "How long is the trip?", "zh": "路上要多久?" },
+      { "text": "How much is it?", "zh": "多少钱?" },
+      { "text": "Which track is it?", "zh": "在几号站台?" },
+      { "text": "Can you write it down, please?", "zh": "能帮我写下来吗?" }
+    ]
+  }
+]

@@ -1,0 +1,162 @@
+[
+  {
+    "id": "fr.meet_classmates", "lang": "fr", "level": "A1",
+    "titleZh": "认识新同学",
+    "goalZh": "在里昂大学的迎新日和法国同学打招呼,介绍自己的名字、国籍、学什么,再问问对方",
+    "roleZh": "新同学 Chloé(里昂本地大学生)",
+    "setupZh": "里昂一所大学的迎新日(journée d'accueil),大家在校园的草坪上认识新朋友。Chloé 是里昂人,学历史(histoire),喜欢看电影和做饭。同学之间用 tu。她会问学习者叫什么、是哪国人、学什么、来里昂多久了,也会介绍自己。只聊名字、国家和城市、专业、爱好这类话题,不问住址、电话、社交账号等个人信息。",
+    "opening": { "text": "Salut ! Moi, c'est Chloé. Et toi, tu t'appelles comment ?", "zh": "嗨!我是克洛艾。你呢,你叫什么名字?" },
+    "tasks": ["打招呼,说出你的名字", "说你是哪国人、来自哪个城市", "说你学什么专业", "问 Chloé 一个问题"],
+    "usefulPhrases": [
+      { "text": "Salut ! Je m'appelle …", "zh": "嗨!我叫……" },
+      { "text": "Enchanté !", "zh": "很高兴认识你!(女生写作 Enchantée,读音一样)" },
+      { "text": "Je suis chinois. / Je suis chinoise.", "zh": "我是中国人。(男生 / 女生)" },
+      { "text": "Je viens de Pékin, en Chine.", "zh": "我来自中国北京。" },
+      { "text": "J'étudie l'économie.", "zh": "我学经济。" },
+      { "text": "Je suis à Lyon depuis deux semaines.", "zh": "我来里昂两个星期了。" },
+      { "text": "Et toi, qu'est-ce que tu étudies ?", "zh": "你呢,你学什么?" },
+      { "text": "Qu'est-ce que tu aimes faire ?", "zh": "你喜欢做什么?" },
+      { "text": "Pardon, tu peux répéter ?", "zh": "不好意思,你能再说一遍吗?" }
+    ]
+  },
+  {
+    "id": "fr.cafe_order", "lang": "fr", "level": "A1",
+    "titleZh": "在咖啡馆点单",
+    "goalZh": "在里昂的咖啡馆点一杯喝的和一样吃的,回答在这儿吃还是带走,然后付钱",
+    "roleZh": "咖啡馆服务员",
+    "setupZh": "里昂老城(Vieux Lyon)的一家咖啡馆,上午,在柜台点单。服务员对顾客用 vous。饮料:un café 1,80 €(在法国就是一小杯浓缩咖啡)、un café crème 3,20 €、un chocolat chaud 3,50 €、un thé 3 €、un jus d'orange 4 €;吃的:un croissant 1,50 €、un pain au chocolat 1,60 €。服务员会问要什么、在这儿吃还是带走(sur place ou à emporter),最后说总价;可以刷卡,也可以付现金。",
+    "opening": { "text": "Bonjour ! Vous désirez ?", "zh": "您好!您要点什么?" },
+    "tasks": ["点一杯喝的", "再点一样吃的", "回答在这儿吃还是带走", "问价格并付钱"],
+    "usefulPhrases": [
+      { "text": "Je voudrais un café, s'il vous plaît.", "zh": "请给我一杯咖啡。" },
+      { "text": "Un chocolat chaud, s'il vous plaît.", "zh": "请来一杯热巧克力。" },
+      { "text": "Et un croissant, s'il vous plaît.", "zh": "再要一个牛角面包。" },
+      { "text": "Sur place, s'il vous plaît.", "zh": "在这儿吃。" },
+      { "text": "À emporter, s'il vous plaît.", "zh": "带走。" },
+      { "text": "C'est combien ?", "zh": "多少钱?" },
+      { "text": "Je peux payer par carte ?", "zh": "我可以刷卡吗?" },
+      { "text": "Voilà.", "zh": "给您。" },
+      { "text": "Merci, bonne journée !", "zh": "谢谢,祝您一天愉快!" }
+    ]
+  },
+  {
+    "id": "fr.market_shopping", "lang": "fr", "level": "A1",
+    "titleZh": "在市场买水果",
+    "goalZh": "在里昂的露天市场买水果:问价格、说要多少,最后付钱",
+    "roleZh": "市场水果摊的摊主",
+    "setupZh": "里昂红十字区(Croix-Rousse)的露天市场,周六上午。摊主热情、说话有点快,学习者请他说慢一点时会再说一遍。摊主对顾客用 vous。价格:苹果(les pommes)2,50 € 一公斤,香蕉(les bananes)2 € 一公斤,西红柿(les tomates)3 € 一公斤,草莓 4 € 一盒(une barquette de fraises)。法国按公斤或者按盒买:un kilo de pommes、une barquette de fraises。摊主会问要什么、要多少、还要别的吗(Et avec ceci ?),最后说总价;可以付现金,也可以刷卡。",
+    "opening": { "text": "Bonjour ! Qu'est-ce qu'il vous faut aujourd'hui ?", "zh": "您好!今天要买点什么?" },
+    "tasks": ["说你想买什么水果", "问价格", "说要多少(一公斤、一盒……)", "说「就这些」并付钱"],
+    "usefulPhrases": [
+      { "text": "Je voudrais des pommes, s'il vous plaît.", "zh": "我想买些苹果。" },
+      { "text": "C'est combien, le kilo ?", "zh": "一公斤多少钱?" },
+      { "text": "Un kilo, s'il vous plaît.", "zh": "请给我一公斤。" },
+      { "text": "Une barquette de fraises, s'il vous plaît.", "zh": "请给我一盒草莓。" },
+      { "text": "C'est tout, merci.", "zh": "就这些,谢谢。" },
+      { "text": "Ça fait combien ?", "zh": "一共多少钱?" },
+      { "text": "Je peux payer par carte ?", "zh": "可以刷卡吗?" },
+      { "text": "Vous pouvez parler plus lentement, s'il vous plaît ?", "zh": "您能说慢一点吗?" },
+      { "text": "Bonne journée !", "zh": "祝您一天愉快!" }
+    ]
+  },
+  {
+    "id": "fr.ask_directions", "lang": "fr", "level": "A1",
+    "titleZh": "问路",
+    "goalZh": "在街上问路人去地铁站怎么走,听懂方向,再问问远不远",
+    "roleZh": "街上的路人(里昂本地人)",
+    "setupZh": "里昂市中心(Presqu'île)的街上,学习者想去最近的地铁站(la station de métro)。路线:一直往前走(tout droit),到红绿灯(au feu)那里往左拐,地铁站在右手边,走路大约五分钟。路人对学习者用 vous,很友好;学习者没听懂时,会放慢速度再说一遍。",
+    "opening": { "text": "Bonjour ! Je peux vous aider ?", "zh": "您好!需要帮忙吗?" },
+    "tasks": ["说清楚你要去哪里", "听懂并说一遍怎么走(比如直走、左转)", "问远不远或者要走多久", "道谢"],
+    "usefulPhrases": [
+      { "text": "Excusez-moi, où est la station de métro ?", "zh": "请问,地铁站在哪儿?" },
+      { "text": "Pour aller à la gare, s'il vous plaît ?", "zh": "请问去火车站怎么走?" },
+      { "text": "C'est loin ?", "zh": "远吗?" },
+      { "text": "Tout droit, puis à gauche ?", "zh": "先直走,然后左转?" },
+      { "text": "Au feu, à gauche ?", "zh": "在红绿灯那儿左转?" },
+      { "text": "C'est à droite.", "zh": "在右边。" },
+      { "text": "C'est à cinq minutes à pied ?", "zh": "走路五分钟吗?" },
+      { "text": "Vous pouvez répéter, s'il vous plaît ?", "zh": "您能再说一遍吗?" },
+      { "text": "Merci beaucoup !", "zh": "非常感谢!" }
+    ]
+  },
+  {
+    "id": "fr.dorm_checkin", "lang": "fr", "level": "A1",
+    "titleZh": "学生公寓入住",
+    "goalZh": "第一天到学生公寓办理入住:说你今天入住,问房间在哪儿,再问洗衣房和 Wi-Fi",
+    "roleZh": "学生公寓前台的工作人员 Madame Martin",
+    "setupZh": "里昂一所学生公寓(résidence universitaire)的前台(l'accueil),学习者第一天搬进来。Madame Martin 友好、说话清楚,对学生用 vous。她会问名字(学习者随便说一个名字就行,不问证件号、电话、生日),请学习者在入住单上签字(学习者问在哪儿签,或者说 D'accord,就算完成)。房间是 204 号,在 au deuxième étage(法国的地面层叫 rez-de-chaussée,deuxième étage 相当于中国的三楼),有一个小厨房;洗衣房(la laverie)在地面层,洗一次 3 €;Wi-Fi 的密码写在房间里的说明上;前台周一到周五 9 点到 17 点开门。最后把钥匙交给学习者。",
+    "opening": { "text": "Bonjour et bienvenue ! Vous arrivez aujourd'hui ?", "zh": "您好,欢迎!您是今天入住吗?" },
+    "tasks": ["说你今天入住,报一个名字", "问你的房间在哪儿", "问洗衣房在哪儿", "问有没有 Wi-Fi"],
+    "usefulPhrases": [
+      { "text": "Oui, j'arrive aujourd'hui.", "zh": "是的,我今天入住。" },
+      { "text": "Je m'appelle …", "zh": "我叫……" },
+      { "text": "Où est-ce que je signe ?", "zh": "我在哪儿签字?" },
+      { "text": "Où est ma chambre ?", "zh": "我的房间在哪儿?" },
+      { "text": "Où est la laverie ?", "zh": "洗衣房在哪儿?" },
+      { "text": "C'est combien, une machine ?", "zh": "洗一次多少钱?" },
+      { "text": "Est-ce qu'il y a le Wi-Fi ?", "zh": "有 Wi-Fi 吗?" },
+      { "text": "Quel est le mot de passe du Wi-Fi ?", "zh": "Wi-Fi 密码是什么?" },
+      { "text": "Merci pour votre aide !", "zh": "谢谢您的帮助!" }
+    ]
+  },
+  {
+    "id": "fr.pharmacy", "lang": "fr", "level": "A1",
+    "titleZh": "在药店说症状",
+    "goalZh": "在药店告诉药剂师你哪里不舒服、从什么时候开始,买到合适的药,并问清楚怎么吃",
+    "roleZh": "药店的药剂师",
+    "setupZh": "宿舍附近的一家药店(门口有绿色的十字)。在法国,小病常常先问药剂师。学习者感冒了:喉咙疼、流鼻涕,从昨天开始,没有发烧。药剂师对顾客用 vous,会问哪里不舒服、从什么时候开始、有没有发烧、对药物过不过敏,然后推荐一盒普通的感冒药(6,50 €),提醒按盒子上的说明吃,多休息、多喝水,三天还没好就去看医生(un médecin généraliste)。这是语言练习:只给休息、喝水、看医生这类一般建议,不说具体的药名和剂量;学习者如果说的是真实的严重症状(比如呼吸困难、胸口疼),请学习者马上去看医生或拨打急救电话 15 或 112。",
+    "opening": { "text": "Bonjour ! Qu'est-ce qui ne va pas ?", "zh": "您好!哪里不舒服?" },
+    "tasks": ["说你哪里不舒服", "说症状从什么时候开始", "回答有没有发烧、过不过敏", "问这个药怎么吃"],
+    "usefulPhrases": [
+      { "text": "J'ai mal à la gorge.", "zh": "我喉咙疼。" },
+      { "text": "J'ai mal à la tête.", "zh": "我头疼。" },
+      { "text": "J'ai le nez qui coule.", "zh": "我流鼻涕。" },
+      { "text": "Depuis hier.", "zh": "从昨天开始。" },
+      { "text": "Je n'ai pas de fièvre.", "zh": "我没有发烧。" },
+      { "text": "Je n'ai pas d'allergies.", "zh": "我没有过敏。" },
+      { "text": "Comment est-ce que je le prends ?", "zh": "这个药怎么吃?" },
+      { "text": "C'est combien ?", "zh": "多少钱?" },
+      { "text": "Merci, au revoir !", "zh": "谢谢,再见!" }
+    ]
+  },
+  {
+    "id": "fr.make_plans", "lang": "fr", "level": "A1",
+    "titleZh": "和朋友约时间",
+    "goalZh": "约朋友 Chloé 周末一起出去:商量做什么、哪天、几点、在哪儿见面",
+    "roleZh": "朋友 Chloé",
+    "setupZh": "学习者在迎新日认识的 Chloé 现在是好朋友了,两人在学校食堂(le resto U)吃饭聊天。Chloé 想周末一起出去:去富维耶山(Fourvière)看风景、去金头公园(le parc de la Tête d'Or)散步,或者去看电影都可以。她周六上午要打工,周六下午和周日都有空。朋友之间用 tu。双方要定下:做什么、哪天、几点、在哪儿见(比如地铁站或者咖啡馆门口)。学习者第一次提的时间如果是周六上午,Chloé 会说那时不行,请学习者换一个时间。",
+    "opening": { "text": "Salut ! Tu es libre ce week-end ?", "zh": "嗨!你这个周末有空吗?" },
+    "tasks": ["提议一起做一件事", "商量好哪天", "定好几点", "定好在哪儿见面"],
+    "usefulPhrases": [
+      { "text": "Oui, je suis libre.", "zh": "是的,我有空。" },
+      { "text": "On va au cinéma ?", "zh": "我们去看电影吧?" },
+      { "text": "Tu veux aller au parc de la Tête d'Or ?", "zh": "你想去金头公园吗?" },
+      { "text": "Samedi matin, je ne peux pas.", "zh": "周六上午我不行。" },
+      { "text": "Dimanche, ça te va ?", "zh": "周日你方便吗?" },
+      { "text": "À quelle heure ?", "zh": "几点?" },
+      { "text": "On se retrouve où ?", "zh": "我们在哪儿碰头?" },
+      { "text": "D'accord !", "zh": "好的!" },
+      { "text": "À dimanche !", "zh": "周日见!" }
+    ]
+  },
+  {
+    "id": "fr.train_ticket", "lang": "fr", "level": "A1",
+    "titleZh": "车站买票",
+    "goalZh": "在里昂帕尔迪厄火车站的售票窗口买一张去巴黎的票:说清楚哪天、单程还是往返,问发车时间、价格和站台",
+    "roleZh": "火车站售票窗口的工作人员",
+    "setupZh": "里昂帕尔迪厄火车站(gare de Lyon Part-Dieu)的售票窗口(le guichet)。学习者想周六去巴黎玩。工作人员对顾客用 vous,会问去哪里、哪天、单程(un aller simple)还是往返(un aller-retour)、几点出发、一等座还是二等座(première ou seconde classe)。周六有上午 8 点和 10 点两班高铁(TGV),路上大约两个小时;二等座单程 45 €,往返 90 €。站台(la voie)在发车前 20 分钟显示在大屏幕上,工作人员会请学习者到时候看屏幕。",
+    "opening": { "text": "Bonjour ! Vous allez où ?", "zh": "您好!您去哪儿?" },
+    "tasks": ["说出目的地和日期", "说要单程还是往返", "选一班车", "问价格或者站台"],
+    "usefulPhrases": [
+      { "text": "Je voudrais un billet pour Paris, s'il vous plaît.", "zh": "我想要一张去巴黎的票。" },
+      { "text": "Pour samedi matin.", "zh": "周六上午的。" },
+      { "text": "Un aller simple, s'il vous plaît.", "zh": "单程。" },
+      { "text": "Un aller-retour, s'il vous plaît.", "zh": "往返。" },
+      { "text": "En seconde classe.", "zh": "二等座。" },
+      { "text": "Le train part à quelle heure ?", "zh": "火车几点出发?" },
+      { "text": "Ça coûte combien ?", "zh": "多少钱?" },
+      { "text": "C'est quelle voie ?", "zh": "在几号站台?" },
+      { "text": "Vous pouvez l'écrire, s'il vous plaît ?", "zh": "您能帮我写下来吗?" }
+    ]
+  }
+]
