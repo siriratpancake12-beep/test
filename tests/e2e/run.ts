@@ -332,10 +332,18 @@ async function onboardGerman(page: Page) {
     await click("回首页");
     await page.waitForTimeout(900);
   }
-  const before = (await body()).slice(0, 150);
+  // 计划里的"约 N 分钟"会随时间变(学习步长 1 分钟的复习卡过一会儿就又到期了),和进度丢没丢无关,比较时去掉
+  const home = async () => (await body()).slice(0, 150).replace(/(约 |· )\d+ 分钟/g, "$1N 分钟");
+  const before = await home();
   await page.reload();
-  await page.waitForTimeout(1500);
-  check((await body()).slice(0, 150) === before, "刷新后进度还在");
+  // 启动图要等本机记录读完才收起,慢的机器上 1.5 秒不一定够:最多等 10 秒,等到首页内容一样为止
+  let after = "";
+  for (let i = 0; i < 20 && after !== before; i++) {
+    await page.waitForTimeout(500);
+    after = await home();
+  }
+  if (after !== before) console.log(`刷新前:${before}\n刷新后:${after}`);
+  check(after === before, "刷新后进度还在");
   await shot("03-home");
 
   // 单元的课学完了:单元练习(不计分)→ 单元测评(笨办法答题,分数不一定够,只看流程)

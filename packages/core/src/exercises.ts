@@ -1,6 +1,7 @@
 import { cardKey, retrievability, type Direction } from "./srs";
 import { rng, shuffle } from "./random";
 import { splitArticle } from "./grading";
+import { splitTiles } from "./tiles";
 import type { Item, LanguagePack, Lesson, Line } from "./schema";
 import type { IssueKind, Progress } from "./session";
 
@@ -55,7 +56,7 @@ export function exerciseFor(item: Item, direction: Direction, pool: Item[], pack
 
 /** 句子切成词块:有空格的语言按空格切;日语用课文里写好的分词(line.tokens)。 */
 export function tokens(line: Line, pack: LanguagePack): string[] | null {
-  const t = line.tokens ?? (pack.code === "ja" ? null : line.text.split(/\s+/).filter(Boolean));
+  const t = line.tokens ?? (pack.code === "ja" ? null : splitTiles(line.text));
   return t && t.length >= 3 && t.length <= 10 ? t : null;
 }
 
@@ -86,7 +87,9 @@ export function lessonPractice(lesson: Lesson, pool: Item[], pack: LanguagePack,
   for (const { line, t } of shuffle(reorderable, rand).slice(0, 2)) {
     out.push({ type: "reorder", lineText: line.text, zh: line.zh, tiles: shuffle(t, rand), answer: t });
   }
-  const speakLine = lesson.lines.find((l) => l.text.length <= 60);
+  // 开口说挑一句不长不短的:太短的(比如信的开头 "Querido Diego:")练不到什么
+  const short = lesson.lines.filter((l) => l.text.length <= 60);
+  const speakLine = short.find((l) => (l.tokens?.length ?? splitTiles(l.text).length) >= 4) ?? short[0];
   if (speakLine) out.push({ type: "speak", text: speakLine.text, zh: speakLine.zh });
   return out;
 }

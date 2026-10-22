@@ -22,3 +22,4 @@ export * from "./hours";
 export * from "./checkpoint";
 export * from "./tutor";
 export * from "./random";
+export * from "./tiles";

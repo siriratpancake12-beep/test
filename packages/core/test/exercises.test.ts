@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { checkReorder, exerciseFor, lessonPractice } from "../src/exercises";
 import { practiceCount } from "../src/hours";
+import { splitTiles } from "../src/tiles";
 import { lessons, pack } from "./fixtures";
 
 const de = lessons("de"), fr = lessons("fr");
@@ -62,6 +63,19 @@ describe("练习生成", () => {
         expect(lessonPractice(l, all, pack(code), s)).toHaveLength(practiceCount(l));
       }
     }
+  });
+
+  it("排序题词块:法语标点前的空格不会切出单独的标点块", () => {
+    expect(splitTiles("Ça va ?")).toEqual(["Ça", "va ?"]);
+    expect(splitTiles("« Bonjour ! » dit Hao.")).toEqual(["« Bonjour ! »", "dit", "Hao."]);
+    expect(splitTiles("¿Qué tal?")).toEqual(["¿Qué", "tal?"]);
+  });
+
+  it("开口说挑 4 个词以上的短句,不挑信的开头", () => {
+    const l = structuredClone(de[0]!);
+    l.lines = [{ ...l.lines[0]!, text: "Lieber Jonas," }, ...l.lines];
+    const speak = lessonPractice(l, dePool, pack("de"), 1).find((e) => e.type === "speak");
+    expect(speak && speak.type === "speak" && speak.text).not.toBe("Lieber Jonas,");
   });
 
   it("排序题和开口说", () => {

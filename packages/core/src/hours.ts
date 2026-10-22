@@ -1,4 +1,5 @@
 import type { Cefr, Lesson } from "./schema";
+import { splitTiles } from "./tiles";
 
 /**
  * 课程时长和顺序。
@@ -36,7 +37,7 @@ export const UNIT_EXTRA_MIN = Math.round((25 + 15) * 0.35);
 const READER_SHADOW_LINES = 5;
 
 const reorderable = (line: Lesson["lines"][number]) => {
-  const n = line.tokens?.length ?? line.text.split(/\s+/).filter(Boolean).length;
+  const n = line.tokens?.length ?? splitTiles(line.text).length;
   return n >= 3 && n <= 10;
 };
 
