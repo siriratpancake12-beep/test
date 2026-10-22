@@ -28,5 +28,5 @@ export type Outline = z.infer<typeof Outline>;
 /** 课还没写好时,用大纲里的信息顶上:分批写课时,前面的课没写完也能校验后面的课。 */
 export function stubLesson(o: OutlineLesson): Lesson {
   const { scenarioZh: _s, grammarFocusZh: _g, ...rest } = o;
-  return Lesson.parse({ ...rest, schemaVersion: 1, lines: [], grammar: [], review: "draft" });
+  return Lesson.parse({ ...rest, schemaVersion: 1, lines: [], questions: [], grammar: [], review: "draft" });
 }

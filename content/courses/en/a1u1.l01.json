@@ -18,5 +18,9 @@
     { "speaker": "lei", "text": "I'm from Chengdu, China.", "zh": "我来自中国成都。", "items": ["en.im_from"] },
     { "speaker": "amy", "text": "Cool! Thank you, Lei.", "zh": "酷!谢谢你,磊。", "items": ["en.thank_you"] }
   ],
+  "questions": [
+    {"prompt": "磊来自哪里?", "options": ["北京", "成都", "上海"], "answer": 1, "explainZh": "I'm from Chengdu, China."},
+    {"prompt": "Amy 问了磊什么?", "options": ["他叫什么名字", "他是哪里人", "他几岁"], "answer": 1, "explainZh": "Where are you from? —— 你是哪里人?"}
+  ],
   "review": "draft"
 }

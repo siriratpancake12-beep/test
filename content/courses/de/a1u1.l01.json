@@ -18,6 +18,10 @@
     { "speaker": "wei", "text": "Ich komme aus China.", "zh": "我来自中国。", "items": ["de.ich_komme_aus", "de.china"] },
     { "speaker": "lena", "text": "Tschüss, Wei!", "zh": "再见,伟!", "items": ["de.tschuess"] }
   ],
+  "questions": [
+    {"prompt": "伟来自哪里?", "options": ["柏林", "中国", "法国"], "answer": 1, "explainZh": "伟说:Ich komme aus China."},
+    {"prompt": "莉娜最后怎么跟伟告别?", "options": ["Guten Tag", "Hallo", "Tschüss"], "answer": 2, "explainZh": "Tschüss 是比较随意的“再见”。"}
+  ],
   "grammar": [
     { "id": "de.g.ich_verb", "titleZh": "动词跟着“我”变:ich + 动词-e",
       "bodyZh": "德语动词要随人称变化。和 ich(我)搭配时,动词一般以 -e 结尾:heißen → ich heiße,kommen → ich komme。",

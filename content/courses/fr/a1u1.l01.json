@@ -17,6 +17,10 @@
     { "speaker": "hao", "text": "Je suis chinois.", "zh": "我是中国人。", "items": ["fr.je_suis", "fr.chinois"] },
     { "speaker": "chloe", "text": "Au revoir, Hao !", "zh": "再见,浩!", "items": ["fr.au_revoir"] }
   ],
+  "questions": [
+    {"prompt": "浩是哪国人?", "options": ["法国人", "德国人", "中国人"], "answer": 2, "explainZh": "浩说:Je suis chinois."},
+    {"prompt": "克洛艾最后说了什么?", "options": ["Au revoir", "Bonjour", "Merci"], "answer": 0, "explainZh": "Au revoir 是“再见”。"}
+  ],
   "grammar": [
     { "id": "fr.g.nationality", "titleZh": "国籍形容词分阴阳性",
       "bodyZh": "说自己的国籍,男生和女生用的词不同:阴性一般在阳性后加 e。加了 e 以后,原本不发音的词尾辅音要读出来。",

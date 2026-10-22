@@ -17,5 +17,8 @@
     { "speaker": "serveur", "text": "Et de l'eau ?", "zh": "要水吗?", "items": ["fr.eau"] },
     { "speaker": "hao", "text": "Oui, merci !", "zh": "要,谢谢!", "items": ["fr.merci"] }
   ],
+  "questions": [
+    {"prompt": "浩点了什么?", "options": ["茶", "咖啡", "法棍面包"], "answer": 1, "explainZh": "Un café, s'il vous plaît. —— 请来一杯咖啡。"}
+  ],
   "review": "draft"
 }

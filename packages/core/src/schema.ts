@@ -71,6 +71,19 @@ export const GrammarNote = z.object({
 });
 export type GrammarNote = z.infer<typeof GrammarNote>;
 
+/**
+ * 理解题:听完/读完课文后检查听懂了没有。A1 题干用中文,A2 起可以用学习语言(promptZh 给中文意思)。
+ */
+export const Question = z.object({
+  prompt: z.string().min(1),
+  promptZh: z.string().optional(),
+  options: z.array(z.string().min(1)).min(2).max(4),
+  answer: z.number().int().min(0),
+  /** 答错时的中文解释(指出课文里哪一句) */
+  explainZh: z.string().optional(),
+});
+export type Question = z.infer<typeof Question>;
+
 export const Lesson = z.object({
   id: z.string().regex(/^[a-z]{2}\.[a-z0-9]+\.[a-z0-9]+$/, "id 形如 de.a1u1.l01"),
   schemaVersion: z.literal(1),
@@ -91,6 +104,8 @@ export const Lesson = z.object({
   /** 本课复用的旧词条 id(必须在之前的课里教过) */
   reviewItems: z.array(z.string()).default([]),
   lines: z.array(Line).default([]),
+  /** 理解题(课文 4 句以上的课至少 2 道) */
+  questions: z.array(Question).default([]),
   grammar: z.array(GrammarNote).default([]),
   /** 审校状态:上线前必须是 native(母语者审过) */
   review: z.enum(["draft", "ai", "native"]).default("draft"),

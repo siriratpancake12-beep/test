@@ -18,4 +18,5 @@ export * from "./events";
 export * from "./api";
 export * from "./sync";
 export * from "./scenario";
+export * from "./hours";
 export * from "./random";

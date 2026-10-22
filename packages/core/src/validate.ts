@@ -36,6 +36,12 @@ export function validateCourse(packRaw: unknown, lessonsRaw: unknown[]): Problem
     }
     for (const id of l.reviewItems) if (!taught.has(id)) P(`复习词 ${id} 之前没教过`);
     for (const it of l.newItems) taught.set(it.id, it);
+    if (l.lines.length >= 4 && l.questions.length < 2) P("课文 4 句以上的课至少要有 2 道理解题(questions)");
+    l.questions.forEach((q, i) => {
+      if (q.answer >= q.options.length) P(`理解题 ${i + 1} 的答案序号超出选项范围`);
+      if (new Set(q.options).size !== q.options.length) P(`理解题 ${i + 1} 有重复的选项`);
+    });
+    if (l.type === "reading" && l.lines.length > 0 && l.lines.length < 6) P("短文(reading)至少 6 句");
     for (const line of l.lines) {
       for (const id of line.items) if (!taught.has(id)) P(`句子"${line.text}"用到没教过的词 ${id}`);
       if (pack.cast && line.speaker !== "narrator" && !pack.cast[line.speaker]) P(`说话人 ${line.speaker} 不在语言包的角色表里`);

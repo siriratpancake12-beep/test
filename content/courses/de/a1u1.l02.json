@@ -17,6 +17,9 @@
     { "speaker": "wei", "text": "Das ist meine Mutter.", "zh": "这是我妈妈。", "items": ["de.das_ist", "de.mutter"] },
     { "speaker": "lena", "text": "Hallo! Ist das deine Schwester?", "zh": "你们好!这是你姐姐吗?", "items": ["de.hallo", "de.das_ist", "de.schwester"] }
   ],
+  "questions": [
+    {"prompt": "莉娜问的是谁?", "options": ["伟的姐妹", "伟的妈妈", "伟的爸爸"], "answer": 0, "explainZh": "Ist das deine Schwester? —— 这是你的姐妹吗?"}
+  ],
   "grammar": [
     { "id": "de.g.mein_meine", "titleZh": "mein 还是 meine?",
       "bodyZh": "“我的”要跟名词的性走:阳性、中性用 mein(mein Vater, mein Kind),阴性用 meine(meine Mutter)。所以记名词一定连冠词一起记。",
