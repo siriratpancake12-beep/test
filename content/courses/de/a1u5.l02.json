@@ -1,0 +1,46 @@
+{
+  "id": "de.a1u5.l02", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105020,
+  "titleZh": "我的一周:课表", "goalZh": "记住星期几,会说哪天做什么", "canDoZh": "能看懂一周的课表,说出哪天有什么课、周末做什么",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.montag", "kind": "word", "pos": "noun", "text": "der Montag", "zh": "星期一", "features": { "gender": "m", "plural": "die Montage", "ipa": "ˈmoːntaːk" }, "noteZh": "星期都是阳性;“在星期一”用 am:am Montag;“每逢星期一”是 montags(小写,不加 am)。" },
+    { "id": "de.dienstag", "kind": "word", "pos": "noun", "text": "der Dienstag", "zh": "星期二", "features": { "gender": "m", "plural": "die Dienstage", "ipa": "ˈdiːnstaːk" }, "noteZh": "ie 读长音 [iː];词尾 g 读 [k]:am Dienstag。" },
+    { "id": "de.mittwoch", "kind": "word", "pos": "noun", "text": "der Mittwoch", "zh": "星期三", "features": { "gender": "m", "plural": "die Mittwoche", "ipa": "ˈmɪtvɔx" }, "noteZh": "Mitt-woch = 一周的中间,不以 -tag 结尾;w 读 [v]。" },
+    { "id": "de.donnerstag", "kind": "word", "pos": "noun", "text": "der Donnerstag", "zh": "星期四", "features": { "gender": "m", "plural": "die Donnerstage", "ipa": "ˈdɔnɐstaːk" }, "noteZh": "Donner = 雷(“雷神的日子”,和英语 Thursday 同源);er 读 [ɐ]。" },
+    { "id": "de.freitag", "kind": "word", "pos": "noun", "text": "der Freitag", "zh": "星期五", "features": { "gender": "m", "plural": "die Freitage", "ipa": "ˈfʁaɪ̯taːk" }, "noteZh": "ei 读 [aɪ̯];星期五告别时常说 Schönes Wochenende!(周末愉快!)" },
+    { "id": "de.samstag", "kind": "word", "pos": "noun", "text": "der Samstag", "zh": "星期六", "alt": ["der Sonnabend"], "features": { "gender": "m", "plural": "die Samstage", "ipa": "ˈzamstaːk" }, "noteZh": "s 在词首元音前读 [z];柏林和北德也说 der Sonnabend。" },
+    { "id": "de.sonntag", "kind": "word", "pos": "noun", "text": "der Sonntag", "zh": "星期日", "features": { "gender": "m", "plural": "die Sonntage", "ipa": "ˈzɔntaːk" }, "noteZh": "德国周日商店基本都关门,超市也不开;s 读 [z]。" },
+    { "id": "de.woche", "kind": "word", "pos": "noun", "text": "die Woche", "zh": "星期;周", "features": { "gender": "f", "plural": "die Wochen", "ipa": "ˈvɔxə" }, "noteZh": "Schöne Woche!(祝你这周愉快!);jede Woche(每周)先认识;ch 在 o 后面读 [x]。" },
+    { "id": "de.wochenende", "kind": "word", "pos": "noun", "text": "das Wochenende", "zh": "周末", "features": { "gender": "n", "plural": "die Wochenenden", "ipa": "ˈvɔxn̩ˌʔɛndə" }, "noteZh": "Woche + Ende(结尾)= 周末,中性;am Wochenende(在周末);Schönes Wochenende!(周末愉快!)" },
+    { "id": "de.am", "kind": "word", "pos": "prep", "text": "am", "zh": "在(星期几、日期、早晚)", "features": { "ipa": "am" }, "noteZh": "am = an dem:am Montag、am Wochenende、am 15. November、am Abend;钟点前用 um,月份前用 im。" }
+  ],
+  "reviewItems": ["de.kurs", "de.deutsch", "de.haben"],
+  "lines": [
+    { "speaker": "lena", "text": "Wei, was hast du am Montag?", "zh": "伟,你星期一有什么课?", "items": ["de.was", "de.haben", "de.du", "de.am", "de.montag"] },
+    { "speaker": "wei", "text": "Am Montag und am Mittwoch habe ich Deutsch.", "zh": "星期一和星期三我有德语课。", "items": ["de.am", "de.montag", "de.und", "de.mittwoch", "de.haben", "de.ich", "de.deutsch"] },
+    { "speaker": "lena", "text": "Und am Dienstag?", "zh": "那星期二呢?", "items": ["de.und", "de.am", "de.dienstag"] },
+    { "speaker": "wei", "text": "Am Dienstag und am Donnerstag habe ich zwei Kurse.", "zh": "星期二和星期四我有两门专业课。", "items": ["de.am", "de.dienstag", "de.und", "de.donnerstag", "de.haben", "de.ich", "de.zwei", "de.kurs"] },
+    { "speaker": "lena", "text": "Und am Freitag?", "zh": "星期五呢?", "items": ["de.und", "de.am", "de.freitag"] },
+    { "speaker": "wei", "text": "Am Freitag habe ich keinen Kurs. Und du?", "zh": "星期五我没有课。你呢?", "items": ["de.am", "de.freitag", "de.haben", "de.ich", "de.kein", "de.kurs", "de.und", "de.du"] },
+    { "speaker": "lena", "text": "Am Donnerstag und am Samstag arbeite ich.", "zh": "我星期四和星期六要打工。", "items": ["de.am", "de.donnerstag", "de.und", "de.samstag", "de.arbeiten", "de.ich"] },
+    { "speaker": "wei", "text": "Und am Wochenende? Kochen wir am Sonntag zusammen?", "zh": "那周末呢?星期天我们一起做饭吧?", "items": ["de.und", "de.am", "de.wochenende", "de.kochen", "de.wir", "de.sonntag", "de.zusammen"] },
+    { "speaker": "lena", "text": "Ja, gern! Um zwölf?", "zh": "好啊!十二点?", "items": ["de.ja", "de.gern", "de.um", "de.zwoelf"] },
+    { "speaker": "wei", "text": "Gut! Schöne Woche, Lena!", "zh": "好!莉娜,祝你这周愉快!", "items": ["de.gut", "de.schoen", "de.woche"] }
+  ],
+  "questions": [
+    { "prompt": "王伟星期几有德语课?", "options": ["星期二和星期四", "星期一和星期三", "星期五", "星期六"], "answer": 1, "explainZh": "王伟说:Am Montag und am Mittwoch habe ich Deutsch." },
+    { "prompt": "莉娜哪两天打工?", "options": ["星期四和星期六", "星期五和星期日", "星期一和星期三"], "answer": 0, "explainZh": "莉娜说:Am Donnerstag und am Samstag arbeite ich." },
+    { "prompt": "他们约好星期天做什么?", "options": ["一起去上课", "一起去打工", "十二点一起做饭"], "answer": 2, "explainZh": "王伟问:Kochen wir am Sonntag zusammen?莉娜说:Ja, gern! Um zwölf?" }
+  ],
+  "grammar": [
+    { "id": "de.g.u5_am_wochentag", "titleZh": "星期几用 am;时间放句首,动词还在第二位",
+      "bodyZh": "① 星期都是阳性:der Montag、der Dienstag……;“在星期几”用 am(= an dem):am Montag、am Freitag、am Wochenende。复习:钟点用 um(um zwölf),星期用 am。\n② 德语陈述句里,变位动词永远在第二位。时间可以放在句首,这时主语要跑到动词后面:Ich habe am Montag Deutsch. → Am Montag habe ich Deutsch.\n中文“星期一我有德语课”、英语 On Monday I have German 都是“时间 + 主语 + 动词”,照搬到德语就错了:✗ Am Montag ich habe Deutsch.\n③ 两天连着说:am Montag und am Mittwoch(每个星期前面都可以带 am)。\n④ 每周固定做的事可以说 montags(每逢星期一,小写,不加 am),先认识。\n⑤ 一周:die Woche;周末:das Wochenende。告别时可以说 Schöne Woche!(祝你这周愉快),星期五说 Schönes Wochenende!",
+      "examples": [
+        { "text": "Am Montag habe ich Deutsch.", "zh": "星期一我有德语课。" },
+        { "text": "Ich habe am Montag Deutsch.", "zh": "我星期一有德语课。(意思一样,主语开头)" },
+        { "text": "Am Sonntag kochen wir zusammen.", "zh": "星期天我们一起做饭。" }
+      ] }
+  ],
+  "review": "draft"
+}

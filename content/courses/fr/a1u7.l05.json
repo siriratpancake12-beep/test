@@ -28,7 +28,7 @@
   ],
   "questions": [
     { "prompt": "浩为什么明天不能去理发?", "options": ["理发店明天不开门", "他明天下午要上课", "他明天要去银行"], "answer": 1, "explainZh": "浩说:Désolé, demain après-midi, je dois aller en cours.——je dois = 我必须。" },
-    { "prompt": "浩约的是什么时候?", "options": ["明天下午五点半", "下周二下午三点半", "下周二下午五点半", "下周二上午七点半"], "answer": 2, "explainZh": "理发师说 Mardi prochain, à dix-sept heures trente(下周二 17:30),浩确认 cinq heures et demie(五点半)。" }
+    { "prompt": "浩约的是什么时候?", "options": ["明天下午五点半", "下周二下午三点半", "下周二上午七点半", "下周二下午五点半"], "answer": 3, "explainZh": "理发师说 Mardi prochain, à dix-sept heures trente(下周二 17:30),浩确认 cinq heures et demie(五点半)。" }
   ],
   "grammar": [
     { "id": "fr.g.devoir_il_faut", "titleZh": "devoir / il faut + 动词原形:必须、得",

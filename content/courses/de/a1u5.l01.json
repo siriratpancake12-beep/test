@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u5.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105010,
+  "titleZh": "现在几点?", "goalZh": "会问时间、说钟点(整点、半点、一刻)", "canDoZh": "能问“几点了?”,听懂并说出钟点,能说课几点开始",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.uhr", "kind": "word", "pos": "noun", "text": "die Uhr", "zh": "钟;表;……点钟", "features": { "gender": "f", "plural": "die Uhren", "ipa": "uːɐ̯" }, "noteZh": "说钟点时 Uhr 不加复数:drei Uhr(三点)、acht Uhr dreißig(8:30);die Uhren 是“几块表”。" },
+    { "id": "de.stunde", "kind": "word", "pos": "noun", "text": "die Stunde", "zh": "小时;课时", "features": { "gender": "f", "plural": "die Stunden", "ipa": "ˈʃtʊndə" }, "noteZh": "drei Stunden = 三个小时,drei Uhr = 三点,别混;eine halbe Stunde = 半小时;词首 st 读 [ʃt]。" },
+    { "id": "de.wie_spaet", "kind": "phrase", "pos": "phrase", "text": "Wie spät ist es?", "zh": "几点了?", "alt": ["Wie viel Uhr ist es?"], "features": { "ipa": "viː ˈʃpɛːt ɪst ɛs" }, "noteZh": "回答用 Es ist …:Es ist drei (Uhr). / Es ist halb vier.;这里的 es 就像英语 It's three 里的 it。也可以问 Wie viel Uhr ist es?" },
+    { "id": "de.halb", "kind": "word", "pos": "adj", "text": "halb", "zh": "半", "features": { "ipa": "halp" }, "noteZh": "halb vier = 3:30(往四点走的那半小时),不是四点半!这是中国学生最容易错的地方。“半小时”是 eine halbe Stunde;词尾 b 读 [p]。" },
+    { "id": "de.viertel", "kind": "word", "pos": "noun", "text": "das Viertel", "zh": "一刻钟;四分之一;城区", "features": { "gender": "n", "plural": "die Viertel", "ipa": "ˈfɪʁtl̩" }, "noteZh": "Viertel nach drei = 3:15,Viertel vor drei = 2:45;v 读 [f],ie 在这里读短音。Viertel 还表示“城区、街区”:Kreuzberg ist ein Viertel in Berlin." },
+    { "id": "de.nach", "kind": "word", "pos": "prep", "text": "nach", "zh": "(几点)过;去往(城市、国家)", "features": { "ipa": "naːx" }, "noteZh": "钟点:zehn nach drei = 3:10(三点过十分);方向:nach Hamburg、nach China(第 6 单元);ch 在 a 后面读 [x]。" },
+    { "id": "de.vor", "kind": "word", "pos": "prep", "text": "vor", "zh": "(几点)差;在……之前/前面", "features": { "ipa": "foːɐ̯" }, "noteZh": "钟点:zehn vor drei = 2:50(差十分三点);v 读 [f];也表示位置“在……前面”:vor dem Kino(在电影院门口)。" },
+    { "id": "de.um", "kind": "word", "pos": "prep", "text": "um", "zh": "在(几点)", "features": { "ipa": "ʊm" }, "noteZh": "um + 钟点 = 在几点:Mein Kurs ist um neun Uhr.;问“几点(做某事)”:Um wie viel Uhr?;问现在几点不用 um:Wie spät ist es?" },
+    { "id": "de.wann", "kind": "word", "pos": "adv", "text": "wann", "zh": "什么时候", "features": { "ipa": "van" }, "noteZh": "问“什么时候”:Wann ist der Kurs? – Um neun.;w 读 [v],a 读短音。" },
+    { "id": "de.kurs", "kind": "word", "pos": "noun", "text": "der Kurs", "zh": "课程;(培训)班", "features": { "gender": "m", "plural": "die Kurse", "ipa": "kʊʁs" }, "noteZh": "der Deutschkurs = 德语课(德语班);大学里的大课叫 die Vorlesung(先认识)。" }
+  ],
+  "reviewItems": ["de.jetzt", "de.zwoelf", "de.dreissig"],
+  "lines": [
+    { "speaker": "wei", "text": "Jonas! Wie spät ist es jetzt?", "zh": "约纳斯!现在几点了?", "items": ["de.wie_spaet", "de.jetzt"] },
+    { "speaker": "jonas", "text": "Es ist halb neun.", "zh": "八点半。", "items": ["de.es", "de.sein", "de.halb", "de.neun"] },
+    { "speaker": "wei", "text": "Halb neun? Mein Kurs ist um Viertel nach neun!", "zh": "halb neun?(王伟以为是九点半)我的课九点一刻就开始了!", "items": ["de.halb", "de.neun", "de.mein", "de.kurs", "de.sein", "de.um", "de.viertel", "de.nach"] },
+    { "speaker": "jonas", "text": "Wei, halb neun ist acht Uhr dreißig.", "zh": "伟,halb neun 是八点三十分。", "items": ["de.halb", "de.neun", "de.sein", "de.acht", "de.uhr", "de.dreissig"] },
+    { "speaker": "wei", "text": "Acht Uhr dreißig? Eine halbe Stunde vor neun?", "zh": "八点三十分?就是九点前半小时?", "items": ["de.acht", "de.uhr", "de.dreissig", "de.ein", "de.halb", "de.stunde", "de.vor", "de.neun"] },
+    { "speaker": "jonas", "text": "Ja. Und halb zwölf ist elf Uhr dreißig.", "zh": "对。halb zwölf 就是十一点三十分。", "items": ["de.ja", "de.und", "de.halb", "de.zwoelf", "de.sein", "de.elf", "de.uhr", "de.dreissig"] },
+    { "speaker": "wei", "text": "Danke! Und wann arbeitest du?", "zh": "谢谢!那你几点上班?", "items": ["de.danke", "de.und", "de.wann", "de.arbeiten", "de.du"] },
+    { "speaker": "jonas", "text": "Um fünf. Jetzt bin ich noch im Bett!", "zh": "下午五点。现在嘛,我还在床上呢!", "items": ["de.um", "de.fuenf", "de.jetzt", "de.sein", "de.ich", "de.noch", "de.in", "de.bett"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯说 Es ist halb neun。现在几点?", "options": ["九点半", "八点半", "九点一刻"], "answer": 1, "explainZh": "halb neun 是“往九点走的那半小时”,也就是 8:30。约纳斯说:Halb neun ist acht Uhr dreißig." },
+    { "prompt": "王伟的德语课几点开始?", "options": ["8:30", "9:30", "9:15", "5:00"], "answer": 2, "explainZh": "王伟说:Mein Kurs ist um Viertel nach neun.(Viertel nach neun = 九点一刻 = 9:15)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u5_uhrzeit", "titleZh": "钟点怎么说:halb、Viertel、nach / vor 和 um",
+      "bodyZh": "问现在几点:Wie spät ist es?(也可以问 Wie viel Uhr ist es?),回答 Es ist …。\n① 整点:Es ist drei (Uhr).(Uhr 可以省。)\n② 半点:halb + 下一个钟点。halb neun = 8:30,是“往九点走的那半小时”,不是九点半!中文“八点半”、英语 half past eight 都按已经过去的钟点说,德语按快要到的钟点说,这是中国学生最容易错的地方。halb zwölf = 11:30。\n③ 一刻和几分:Viertel nach neun = 9:15,Viertel vor neun = 8:45;其他分钟也用 nach(过)/ vor(差):zehn nach drei = 3:10,zwanzig vor neun = 8:40。\n④ 正式说法(车站、广播、课表):小时 + Uhr + 分钟,不用 halb / Viertel:9:15 = neun Uhr fünfzehn,8:30 = acht Uhr dreißig。\n⑤ “在几点”做某事用 um:Mein Kurs ist um Viertel nach neun.;问的时候说 Wann …? 或 Um wie viel Uhr …?\n⑥ Uhr 是“几点钟”,Stunde 是“几个小时”:drei Uhr = 三点,drei Stunden = 三个小时;eine halbe Stunde = 半小时。",
+      "examples": [
+        { "text": "Es ist halb neun.", "zh": "八点半了。(8:30)" },
+        { "text": "Mein Kurs ist um Viertel nach neun.", "zh": "我的课九点一刻开始。(9:15)" }
+      ] }
+  ],
+  "review": "draft"
+}

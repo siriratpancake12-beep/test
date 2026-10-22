@@ -2,7 +2,7 @@
   "id": "fr.a1u7.l08", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
   "unit": "A1-7 购物与办事", "order": 107080,
   "titleZh": "单元复习:浩的星期六——买礼物", "goalZh": "读懂一段关于购物的短文,把买东西、颜色、价格、付款串起来", "canDoZh": "能读懂一段购物经历(在哪儿买、买了什么、什么颜色、多少钱),并照着写自己的",
-  "skills": ["read", "write"], "estimatedMinutes": 20,
+  "skills": ["read", "write"], "estimatedMinutes": 20.5,
   "newItems": [
     { "id": "fr.cadeau", "kind": "word", "pos": "noun", "text": "le cadeau", "zh": "礼物", "features": { "gender": "m", "ipa": "lə ka.do" }, "noteZh": "eau 读 [o];复数 cadeaux(加 x)。" },
     { "id": "fr.pour", "kind": "word", "pos": "prep", "text": "pour", "zh": "为了;给", "features": { "ipa": "puʁ" }, "noteZh": "un cadeau pour Chloé(给克洛艾的礼物);pour + 动词原形 = 为了做……" },
@@ -40,7 +40,7 @@
         { "text": "C'est un cadeau pour Chloé.", "zh": "这是给克洛艾的礼物。" }
       ] },
     { "id": "fr.g.u7_revision", "titleZh": "第 7 单元复习:买东西、办事的关键说法",
-      "bodyZh": "这一单元的说法可以串起来用:① 数量词 + de:deux kilos de pommes, une bouteille d'eau;② 颜色放在名词后面,还要配合:un sac noir, des chaussures blanches;③ ce / cet / cette / ces:ce sac, cette taille, ces pulls;④ trop + 形容词:trop cher, trop petit;⑤ 动词 + 原形:Je voudrais ouvrir un compte. Je peux payer par carte ? Il faut prendre rendez-vous. 短文用的是现在时(过去时第 8 单元才学),所以“浩挑了一个包”在法语里是 Ils choisissent un sac。写作练习:照着短文,用 Ce matin… / À midi… / L'après-midi… 写写你的星期六:去哪儿、买什么、什么颜色、多少钱、怎么付钱。",
+      "bodyZh": "这一单元的说法可以串起来用:① 数量词 + de:deux kilos de pommes, une bouteille d'eau;② 颜色放在名词后面,还要配合:un sac noir, des chaussures blanches;③ ce / cet / cette / ces:ce sac, cette taille, ces pulls;④ trop + 形容词:trop cher, trop petit;⑤ 动词 + 原形:Je voudrais ouvrir un compte. Je peux payer par carte ? Il faut prendre rendez-vous. 短文用现在时讲故事(过去时第 8 单元才学),所以中文的“他们挑了一个包”,短文里写成 Ils choisissent un sac rouge。写作练习:照着短文,用 Ce matin… / À midi… / L'après-midi… 写写你的星期六:去哪儿、买什么、什么颜色、多少钱、怎么付钱。",
       "examples": [
         { "text": "Ce sac noir est trop cher.", "zh": "这个黑包太贵了。" },
         { "text": "Je voudrais deux kilos de pommes.", "zh": "我要两公斤苹果。" },

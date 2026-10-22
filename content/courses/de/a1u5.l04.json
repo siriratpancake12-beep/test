@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u5.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105040,
+  "titleZh": "周五去看电影吗?——约时间", "goalZh": "会约时间、答应和拒绝,用 können / müssen / wollen 说理由", "canDoZh": "能约朋友见面的时间,能答应、拒绝或提出别的时间,并简单说明理由",
+  "skills": ["listen", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.koennen", "kind": "word", "pos": "verb", "text": "können", "zh": "能;会;可以", "features": { "ipa": "ˈkœnən" }, "noteZh": "ich kann, du kannst, er kann(ich 和 er 一样,没有 -t);另一个动词用原形放句末:Kannst du am Samstag kommen?" },
+    { "id": "de.muessen", "kind": "word", "pos": "verb", "text": "müssen", "zh": "必须;得", "features": { "ipa": "ˈmʏsn̩" }, "noteZh": "ich muss, du musst, er muss;注意 nicht müssen = 不必(不是“不许”):Du musst nicht kommen.(你不用来。)" },
+    { "id": "de.wollen", "kind": "word", "pos": "verb", "text": "wollen", "zh": "想;要(打算)", "features": { "ipa": "ˈvɔlən" }, "noteZh": "ich will, du willst, er will;ich will 是“我想要、打算”,不是英语的 will(将要)!请求别人时用 möchten 更礼貌。" },
+    { "id": "de.heute", "kind": "word", "pos": "adv", "text": "heute", "zh": "今天", "features": { "ipa": "ˈhɔʏ̯tə" }, "noteZh": "eu 读 [ɔʏ̯];heute Abend = 今天晚上。" },
+    { "id": "de.morgen", "kind": "word", "pos": "adv", "text": "morgen", "zh": "明天", "features": { "ipa": "ˈmɔʁɡn̩" }, "noteZh": "小写的 morgen 是“明天”,大写的 der Morgen 是“早晨”;明天早上:morgen früh。" },
+    { "id": "de.zeit", "kind": "word", "pos": "noun", "text": "die Zeit", "zh": "时间", "features": { "gender": "f", "plural": "die Zeiten", "ipa": "tsaɪ̯t" }, "noteZh": "Hast du Zeit?(你有空吗?)– Ja, ich habe Zeit. / Leider habe ich keine Zeit.;z 读 [ts]。" },
+    { "id": "de.leider", "kind": "word", "pos": "adv", "text": "leider", "zh": "可惜;遗憾的是", "features": { "ipa": "ˈlaɪ̯dɐ" }, "noteZh": "拒绝时很有用:Leider kann ich nicht.(很遗憾,我去不了。)放在句首时,动词紧跟在它后面。" },
+    { "id": "de.kino", "kind": "word", "pos": "noun", "text": "das Kino", "zh": "电影院", "features": { "gender": "n", "plural": "die Kinos", "ipa": "ˈkiːno" }, "noteZh": "ins Kino gehen = 去看电影(ins = in das);vor dem Kino = 在电影院门口。" },
+    { "id": "de.film", "kind": "word", "pos": "noun", "text": "der Film", "zh": "电影", "features": { "gender": "m", "plural": "die Filme", "ipa": "fɪlm" }, "noteZh": "阳性:der Film;Ist der Film gut?(这部电影好看吗?)" },
+    { "id": "de.vielleicht", "kind": "word", "pos": "adv", "text": "vielleicht", "zh": "也许", "features": { "ipa": "fiˈlaɪ̯çt" }, "noteZh": "重音在 leicht 上;v 读 [f],ie 在这里读短音;提建议时很客气:Vielleicht um vier?" }
+  ],
+  "reviewItems": ["de.freitag", "de.samstag", "de.wann", "de.gern"],
+  "lines": [
+    { "speaker": "lena", "text": "Hallo, Wei! Heute ist Freitag. Willst du ins Kino gehen?", "zh": "嗨,伟!今天星期五。你想去看电影吗?", "items": ["de.hallo", "de.heute", "de.sein", "de.freitag", "de.wollen", "de.du", "de.in", "de.kino", "de.gehen"] },
+    { "speaker": "wei", "text": "Heute kann ich leider nicht. Ich muss lernen.", "zh": "今天我恐怕去不了。我得学习。", "items": ["de.heute", "de.koennen", "de.ich", "de.leider", "de.nicht", "de.muessen", "de.lernen"] },
+    { "speaker": "lena", "text": "Und morgen? Kannst du am Samstag?", "zh": "那明天呢?星期六你行吗?", "items": ["de.und", "de.morgen", "de.koennen", "de.du", "de.am", "de.samstag"] },
+    { "speaker": "wei", "text": "Ja, morgen habe ich Zeit. Wann?", "zh": "行,明天我有空。几点?", "items": ["de.ja", "de.morgen", "de.haben", "de.ich", "de.zeit", "de.wann"] },
+    { "speaker": "lena", "text": "Morgen früh muss ich arbeiten. Vielleicht um vier?", "zh": "明天上午我得打工。要不四点?", "items": ["de.morgen", "de.frueh", "de.muessen", "de.ich", "de.arbeiten", "de.vielleicht", "de.um", "de.vier"] },
+    { "speaker": "wei", "text": "Um vier? Ja, gern! Ist der Film gut?", "zh": "四点?好啊!那部电影好看吗?", "items": ["de.um", "de.vier", "de.ja", "de.gern", "de.sein", "de.film", "de.gut"] },
+    { "speaker": "lena", "text": "Ja, sehr gut! Ein Film aus China.", "zh": "很好看!是一部中国电影。", "items": ["de.ja", "de.sehr", "de.gut", "de.ein", "de.film", "de.ich_komme_aus", "de.china"] },
+    { "speaker": "wei", "text": "Gut, dann um vier vor dem Kino. Tschüss!", "zh": "好,那就四点电影院门口见。拜拜!", "items": ["de.gut", "de.dann", "de.um", "de.vier", "de.vor", "de.kino", "de.tschuess"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么今天不能去看电影?", "options": ["他要学习", "他要上班", "他没有钱买票"], "answer": 0, "explainZh": "王伟说:Heute kann ich leider nicht. Ich muss lernen.(müssen = 必须、得)" },
+    { "prompt": "他们最后约在什么时候、什么地方见面?", "options": ["今天四点,在电影院门口", "明天早上,在书店", "明天四点,在电影院门口"], "answer": 2, "explainZh": "莉娜明天早上要打工(Morgen früh muss ich arbeiten),所以说 Vielleicht um vier?;王伟说:Gut, dann um vier vor dem Kino." }
+  ],
+  "grammar": [
+    { "id": "de.g.u5_modalverben", "titleZh": "情态动词 können / müssen / wollen:动词在第二位,原形放句末",
+      "bodyZh": "können(能、会、可以)、müssen(必须、得)、wollen(想要、打算)是情态动词,变位不规则:\nich kann / du kannst / er, sie kann / wir können / ihr könnt / sie, Sie können\nich muss / du musst / er, sie muss / wir müssen / ihr müsst / sie, Sie müssen\nich will / du willst / er, sie will / wir wollen / ihr wollt / sie, Sie wollen\nich 和 er / sie 的形式一样,都没有 -t。\n句子里情态动词放在第二位(是非问句放第一位),真正要做的那个动词用原形,放到句末,像一个“框”:Ich muss lernen. / Willst du ins Kino gehen? / Morgen früh muss ich arbeiten.\n意思清楚时,句末的动词常常省掉:Kannst du am Samstag?(你星期六行吗?)\n易错:① ich will 是“我想要、打算”,不是英语的 will(将要)。② nicht müssen 是“不必”:Du musst nicht kommen.(你不用来。)③ 拒绝邀请先说 leider,再说理由:Heute kann ich leider nicht. Ich muss lernen.\n约时间常用:heute(今天)、morgen(明天)、morgen früh(明天早上)、um vier(四点)、vor dem Kino(在电影院门口)。",
+      "examples": [
+        { "text": "Willst du ins Kino gehen?", "zh": "你想去看电影吗?" },
+        { "text": "Morgen früh muss ich arbeiten.", "zh": "明天早上我得上班。" }
+      ] }
+  ],
+  "review": "draft"
+}

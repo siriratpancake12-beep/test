@@ -27,8 +27,8 @@
     { "speaker": "medecin", "text": "Voilà l'ordonnance. Prenez ce médicament trois fois par jour.", "zh": "这是处方。这个药一天吃三次。", "items": ["fr.voila", "fr.ordonnance", "fr.prendre", "fr.ce", "fr.medicament", "fr.trois", "fr.fois", "fr.par", "fr.jour"] }
   ],
   "questions": [
-    { "prompt": "浩发烧多久了?", "options": ["一天", "两天", "两个星期"], "answer": 1, "explainZh": "J'ai de la fièvre depuis deux jours.——depuis + 时间 = 已经……多久了,法语用现在时。" },
-    { "prompt": "医生让浩怎么吃药?", "options": ["一天两次", "一天一次", "一天三次"], "answer": 2, "explainZh": "Prenez ce médicament trois fois par jour.——trois fois par jour = 一天三次。" }
+    { "prompt": "浩发烧多久了?", "options": ["两天", "一天", "两个星期"], "answer": 0, "explainZh": "J'ai de la fièvre depuis deux jours.——depuis + 时间 = 已经……多久了,法语用现在时。" },
+    { "prompt": "医生让浩怎么吃药?", "options": ["一天两次", "一天三次", "一天一次"], "answer": 1, "explainZh": "Prenez ce médicament trois fois par jour.——trois fois par jour = 一天三次。" }
   ],
   "grammar": [
     { "id": "fr.g.depuis_reposez_vous", "titleZh": "depuis + 现在时;医生的嘱咐 Reposez-vous !",

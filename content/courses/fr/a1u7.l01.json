@@ -27,8 +27,8 @@
     { "speaker": "marchand", "text": "Ça fait sept euros cinquante.", "zh": "一共七欧五十。", "items": ["fr.ca_fait", "fr.sept", "fr.euro", "fr.cinquante"] }
   ],
   "questions": [
-    { "prompt": "浩买了几公斤土豆?", "options": ["一公斤", "两公斤", "七公斤"], "answer": 1, "explainZh": "浩说:Deux kilos de pommes de terre…——两公斤土豆;一公斤(un kilo)的是苹果。" },
-    { "prompt": "一共多少钱?", "options": ["5 欧 70", "17 欧 50", "7 欧 50"], "answer": 2, "explainZh": "摊主说:Ça fait sept euros cinquante.——七欧五十。sept 和 euros 要连读 [sɛ.tø.ʁo]。" }
+    { "prompt": "浩买了几公斤土豆?", "options": ["七公斤", "一公斤", "两公斤"], "answer": 2, "explainZh": "浩说:Deux kilos de pommes de terre…——两公斤土豆;一公斤(un kilo)的是苹果。" },
+    { "prompt": "一共多少钱?", "options": ["7 欧 50", "5 欧 70", "17 欧 50"], "answer": 0, "explainZh": "摊主说:Ça fait sept euros cinquante.——七欧五十。sept 和 euros 要连读 [sɛ.tø.ʁo]。" }
   ],
   "grammar": [
     { "id": "fr.g.quantite_de", "titleZh": "数量词 + de:un kilo de pommes",

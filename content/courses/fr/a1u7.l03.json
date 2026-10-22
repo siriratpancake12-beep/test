@@ -18,7 +18,7 @@
   "reviewItems": ["fr.pull", "fr.cest_combien", "fr.euro", "fr.par"],
   "lines": [
     { "speaker": "hao", "text": "Bonjour, madame. Je peux essayer ce pull vert ?", "zh": "您好。我可以试试这件绿毛衣吗?", "items": ["fr.bonjour", "fr.madame", "fr.je", "fr.pouvoir", "fr.essayer", "fr.ce", "fr.pull", "fr.vert"] },
-    { "speaker": "vendeuse", "text": "D'accord. Il est en M.", "zh": "好的。这件是 M 号。", "items": ["fr.d_accord", "fr.il", "fr.etre", "fr.en"] },
+    { "speaker": "vendeuse", "text": "Oui ! Il est en M.", "zh": "可以!这件是 M 号。", "items": ["fr.oui", "fr.il", "fr.etre", "fr.en"] },
     { "speaker": "hao", "text": "Il est trop petit. Vous avez ce pull en L ?", "zh": "太小了。这件毛衣有 L 号的吗?", "items": ["fr.il", "fr.etre", "fr.trop", "fr.petit", "fr.vous", "fr.avoir", "fr.ce", "fr.pull", "fr.en"] },
     { "speaker": "vendeuse", "text": "Oui, voilà. Cette taille vous va très bien !", "zh": "有,给您。这个尺码您穿正合适!", "items": ["fr.oui", "fr.voila", "fr.cette", "fr.taille", "fr.vous", "fr.aller", "fr.tres", "fr.bien"] },
     { "speaker": "hao", "text": "Soixante-quinze euros ? C'est trop cher ! Ces pulls bleus, c'est combien ?", "zh": "(看价签)75 欧?太贵了!这些蓝毛衣多少钱?", "items": ["fr.soixante", "fr.quinze", "fr.euro", "fr.cest", "fr.trop", "fr.cher", "fr.ces", "fr.pull", "fr.bleu", "fr.cest_combien"] },
@@ -27,7 +27,7 @@
     { "speaker": "vendeuse", "text": "Oui ! Merci, et bonne journée !", "zh": "可以!谢谢,祝您愉快!", "items": ["fr.oui", "fr.merci", "fr.et", "fr.bonne_journee"] }
   ],
   "questions": [
-    { "prompt": "浩为什么没买那件绿毛衣?", "options": ["M 号太大了", "绿色的太贵了", "店里没有 L 号"], "answer": 1, "explainZh": "L 号很合适,可浩一看价钱就说:Soixante-quinze euros ? C'est trop cher !" },
+    { "prompt": "浩为什么没买那件绿毛衣?", "options": ["绿色的太贵了", "M 号太大了", "店里没有 L 号"], "answer": 0, "explainZh": "L 号很合适,可浩一看价钱就说:Soixante-quinze euros ? C'est trop cher !" },
     { "prompt": "浩买的蓝毛衣多少钱?", "options": ["13 欧", "75 欧", "30 欧"], "answer": 2, "explainZh": "店员说 Trente euros(30 欧)。trente(30)和 treize(13)听起来有点像,注意分清。" }
   ],
   "grammar": [

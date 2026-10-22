@@ -1,0 +1,48 @@
+{
+  "id": "de.a1u5.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105030,
+  "titleZh": "我七点起床:可分动词和语序", "goalZh": "掌握可分动词的位置(Ich stehe um sieben auf),会按时间顺序讲一天", "canDoZh": "能按顺序说出自己一天的安排:几点起床、吃早饭、出门、上课",
+  "skills": ["read", "write", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.tag", "kind": "word", "pos": "noun", "text": "der Tag", "zh": "天;日;白天", "features": { "gender": "m", "plural": "die Tage", "ipa": "taːk" }, "noteZh": "词尾 g 读 [k];Guten Tag 里的 Tag 就是它;mein Tag = 我的一天;“每天”是 jeden Tag(先认识)。" },
+    { "id": "de.morgen_tageszeit", "kind": "word", "pos": "noun", "text": "der Morgen", "zh": "早晨", "features": { "gender": "m", "plural": "die Morgen", "ipa": "ˈmɔʁɡn̩" }, "noteZh": "am Morgen = 在早上;Guten Morgen! 里的就是它;别和小写的 morgen(明天,下一课学)搞混。" },
+    { "id": "de.abend", "kind": "word", "pos": "noun", "text": "der Abend", "zh": "晚上", "features": { "gender": "m", "plural": "die Abende", "ipa": "ˈaːbn̩t" }, "noteZh": "am Abend = 在晚上;Guten Abend!(晚上好!);词尾 d 读 [t]。" },
+    { "id": "de.aufstehen", "kind": "word", "pos": "verb", "text": "aufstehen", "zh": "起床;站起来", "features": { "ipa": "ˈaʊ̯fˌʃteːən" }, "noteZh": "可分动词:Ich stehe um sieben Uhr auf.(前缀 auf 放到句末);重音在 auf 上。" },
+    { "id": "de.fruehstuecken", "kind": "word", "pos": "verb", "text": "frühstücken", "zh": "吃早饭", "features": { "ipa": "ˈfʁyːˌʃtʏkn̩" }, "noteZh": "不是可分动词:Ich frühstücke um halb acht.;名词 das Frühstück(早饭)第 4 单元学过。" },
+    { "id": "de.anfangen", "kind": "word", "pos": "verb", "text": "anfangen", "zh": "开始", "features": { "ipa": "ˈanˌfaŋən" }, "noteZh": "可分、不规则:Der Kurs fängt um neun an.(du fängst, er fängt:a 变 ä)" },
+    { "id": "de.gehen", "kind": "word", "pos": "verb", "text": "gehen", "zh": "走;去", "features": { "ipa": "ˈɡeːən" }, "noteZh": "ich gehe, du gehst, er geht;走路去用 gehen,坐车去用 fahren(第 6 单元);Wie geht's? 里的 geht 也是它。" },
+    { "id": "de.frueh", "kind": "word", "pos": "adj", "text": "früh", "zh": "早", "features": { "ipa": "fʁyː" }, "noteZh": "h 不发音,ü 是长音;morgen früh = 明天早上。" },
+    { "id": "de.spaet", "kind": "word", "pos": "adj", "text": "spät", "zh": "晚;迟", "features": { "ipa": "ʃpɛːt" }, "noteZh": "Es ist spät.(很晚了。)Wie spät ist es? 里也是它;ä 读长音 [ɛː]。" },
+    { "id": "de.dann", "kind": "word", "pos": "adv", "text": "dann", "zh": "然后;那么", "features": { "ipa": "dan" }, "noteZh": "讲顺序:Dann gehe ich in den Kurs.(dann 放句首,动词紧跟在后面);也表示“那么”:Gut, dann um vier!" }
+  ],
+  "reviewItems": ["de.um", "de.halb", "de.einkaufen"],
+  "lines": [
+    { "speaker": "wei", "text": "Am Morgen stehe ich früh auf, um sieben Uhr.", "zh": "我早上起得早,七点就起床。", "items": ["de.am", "de.morgen_tageszeit", "de.aufstehen", "de.ich", "de.frueh", "de.um", "de.sieben", "de.uhr"] },
+    { "speaker": "wei", "text": "Um halb acht frühstücke ich, dann gehe ich in den Kurs.", "zh": "七点半我吃早饭,然后去上课。", "items": ["de.um", "de.halb", "de.acht", "de.fruehstuecken", "de.ich", "de.dann", "de.gehen", "de.in", "de.kurs"] },
+    { "speaker": "wei", "text": "Der Kurs fängt um Viertel nach neun an.", "zh": "课九点一刻开始。", "items": ["de.kurs", "de.anfangen", "de.um", "de.viertel", "de.nach", "de.neun"] },
+    { "speaker": "wei", "text": "Am Abend kaufe ich ein und koche.", "zh": "晚上我去买东西、做饭。", "items": ["de.am", "de.abend", "de.einkaufen", "de.ich", "de.und", "de.kochen"] },
+    { "speaker": "jonas", "text": "Mein Tag fängt spät an.", "zh": "我的一天开始得很晚。", "items": ["de.mein", "de.tag", "de.anfangen", "de.spaet"] },
+    { "speaker": "jonas", "text": "Ich stehe um elf Uhr auf und frühstücke um zwölf.", "zh": "我十一点起床,十二点吃早饭。", "items": ["de.ich", "de.aufstehen", "de.um", "de.elf", "de.uhr", "de.und", "de.fruehstuecken", "de.zwoelf"] },
+    { "speaker": "jonas", "text": "Am Abend arbeite ich im Restaurant.", "zh": "晚上我在餐馆上班。", "items": ["de.am", "de.abend", "de.arbeiten", "de.ich", "de.in", "de.restaurant"] }
+  ],
+  "questions": [
+    { "prompt": "王伟几点吃早饭?", "options": ["七点", "七点半", "八点半"], "answer": 1, "explainZh": "王伟说:Um halb acht frühstücke ich.(halb acht = 7:30)" },
+    { "prompt": "约纳斯几点起床?", "options": ["七点", "十二点", "十一点"], "answer": 2, "explainZh": "约纳斯说:Ich stehe um elf Uhr auf und frühstücke um zwölf.(十一点起床,十二点才吃早饭)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u5_trennbar", "titleZh": "可分动词:前缀跑到句末",
+      "bodyZh": "aufstehen(起床)、anfangen(开始)、einkaufen(买东西)这类动词由“前缀 + 动词”组成。原形连在一起写;一变位,前缀就和动词分开,跑到句子最后:\naufstehen → Ich stehe um sieben Uhr auf.\nanfangen → Der Kurs fängt um Viertel nach neun an.(fangen 还是不规则动词:du fängst, er fängt)\neinkaufen → Am Abend kaufe ich ein.\n怎么认:重音在前缀上(AUFstehen、ANfangen、EINkaufen),词典里常写成 auf|stehen。\n注意:frühstücken(吃早饭)不是可分动词,整个词一起变位:Ich frühstücke um halb acht.\n中国学生常见错误:把前缀留在动词旁边(✗ Ich aufstehe um sieben.),或者干脆把前缀丢了(✗ Der Kurs fängt um neun.)。说完一句,检查前缀有没有放到最后。",
+      "examples": [
+        { "text": "Ich stehe um sieben Uhr auf.", "zh": "我七点起床。" },
+        { "text": "Der Kurs fängt um Viertel nach neun an.", "zh": "课九点一刻开始。" },
+        { "text": "Am Abend kaufe ich ein.", "zh": "晚上我去买东西。" }
+      ] },
+    { "id": "de.g.u5_zeit_vorne", "titleZh": "时间放句首、用 dann 接下去:动词还在第二位",
+      "bodyZh": "讲一天的安排时,常把时间放在句首:Am Morgen …(在早上)、Um halb acht …、Am Abend …(在晚上)。不管句首是什么,变位动词都在第二位,主语跟在动词后面:Um halb acht frühstücke ich.\n用 dann(然后)接下一件事时也一样:Dann gehe ich in den Kurs.(✗ Dann ich gehe in den Kurs.)英语 Then I go … 的语序不能照搬。\n可分动词在这种句子里照样分开:Am Morgen stehe ich früh auf.\n讲一天的顺序可以这样串起来:Am Morgen … Um … Dann … Am Abend …",
+      "examples": [
+        { "text": "Um halb acht frühstücke ich.", "zh": "七点半我吃早饭。" },
+        { "text": "Dann gehe ich in den Kurs.", "zh": "然后我去上课。" }
+      ] }
+  ],
+  "review": "draft"
+}

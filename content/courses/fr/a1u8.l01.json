@@ -28,9 +28,9 @@
     { "speaker": "hao", "text": "Merci, Lucas. Tu es très gentil.", "zh": "谢谢你,卢卡。你人真好。", "items": ["fr.merci", "fr.tu", "fr.etre", "fr.tres", "fr.gentil"] }
   ],
   "questions": [
-    { "prompt": "浩哪儿疼?", "options": ["肚子和牙", "头、嗓子、背和腿", "只有头疼"], "answer": 1, "explainZh": "J'ai mal à la tête et à la gorge… j'ai très mal au dos et aux jambes." },
-    { "prompt": "卢卡让浩做什么?", "options": ["去药店买药", "一起去吃早饭", "去看医生"], "answer": 2, "explainZh": "Il faut aller chez le médecin !——il faut = 得、必须;chez le médecin = 去医生那儿。" },
-    { "prompt": "卢卡问 Aux dents ? 是什么意思?", "options": ["牙疼吗?", "背疼吗?", "手疼吗?"], "answer": 0, "explainZh": "les dents 是牙齿,à + les 缩合成 aux:J'ai mal aux dents.(我牙疼。)" }
+    { "prompt": "浩哪儿疼?", "options": ["只有头疼", "肚子和牙", "头、嗓子、背和腿"], "answer": 2, "explainZh": "J'ai mal à la tête et à la gorge… j'ai très mal au dos et aux jambes." },
+    { "prompt": "卢卡让浩做什么?", "options": ["去看医生", "去药店买药", "一起去吃早饭"], "answer": 0, "explainZh": "Il faut aller chez le médecin !——il faut = 得、必须;chez le médecin = 去医生那儿。" },
+    { "prompt": "卢卡问 Aux dents ? 是什么意思?", "options": ["背疼吗?", "牙疼吗?", "手疼吗?"], "answer": 1, "explainZh": "les dents 是牙齿,à + les 缩合成 aux:J'ai mal aux dents.(我牙疼。)" }
   ],
   "grammar": [
     { "id": "fr.g.avoir_mal_a", "titleZh": "avoir mal à + 身体部位:哪儿疼",

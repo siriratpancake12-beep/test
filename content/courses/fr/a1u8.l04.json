@@ -27,8 +27,8 @@
     { "speaker": "chloe", "text": "Tu es drôle, Lucas ! On va au cinéma après le cours ?", "zh": "卢卡,你真逗!下课后我们去看电影吧?", "items": ["fr.tu", "fr.etre", "fr.drole", "fr.on", "fr.aller", "fr.au", "fr.cinema", "fr.apres", "fr.cours"] }
   ],
   "questions": [
-    { "prompt": "卢卡多久踢一次足球?", "options": ["每天", "一周两次", "一周一次"], "answer": 1, "explainZh": "Je joue au foot deux fois par semaine.——deux fois par semaine = 一周两次。" },
-    { "prompt": "卢卡为什么喜欢运动?", "options": ["因为他学体育", "因为运动对身体好", "因为运动完他能吃很多"], "answer": 2, "explainZh": "Parce qu'après le sport, je mange beaucoup !——大家都笑了,克洛艾说 Tu es drôle !" }
+    { "prompt": "卢卡多久踢一次足球?", "options": ["每天", "一周一次", "一周两次"], "answer": 2, "explainZh": "Je joue au foot deux fois par semaine.——deux fois par semaine = 一周两次。" },
+    { "prompt": "卢卡为什么喜欢运动?", "options": ["因为他学体育", "因为运动完他能吃很多", "因为运动对身体好"], "answer": 1, "explainZh": "Parce qu'après le sport, je mange beaucoup !——大家都笑了,克洛艾说 Tu es drôle !" }
   ],
   "grammar": [
     { "id": "fr.g.jouer_a_de", "titleZh": "jouer au foot / jouer de la guitare;Pourquoi ? — Parce que…",

@@ -22,7 +22,7 @@
     { "speaker": "lei", "text": "Sure. It's two oh six, five five five, oh one nine three.", "zh": "好的。是 206-555-0193。", "items": ["en.sure", "en.oh_zero"] },
     { "speaker": "marcus", "text": "OK. How do you spell Lei? L-I?", "zh": "好。Lei 怎么拼?L-I?", "items": ["en.how_do_you_spell"] },
     { "speaker": "lei", "text": "No, L-E-I.", "zh": "不是,是 L-E-I。", "items": [] },
-    { "speaker": "marcus", "text": "L-E-I. Got it! Text me, Lei!", "zh": "L-E-I。记下了!给我发个消息吧,磊!", "items": ["en.got_it", "en.text"] }
+    { "speaker": "marcus", "text": "L-E-I. Got it! Here's my number. Text me, Lei!", "zh": "L-E-I。记下了!这是我的号码,给我发个消息吧,磊!", "items": ["en.got_it", "en.phone_number", "en.text"] }
   ],
   "questions": [
     { "prompt": "马库斯是几年级的学生?", "options": ["大一", "大二", "大四"], "answer": 2, "explainZh": "艾米介绍说 He's a senior.(他是大四的。)senior 是大四学生,freshman 才是大一。" },

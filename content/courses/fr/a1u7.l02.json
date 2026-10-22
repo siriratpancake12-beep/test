@@ -2,7 +2,7 @@
   "id": "fr.a1u7.l02", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
   "unit": "A1-7 购物与办事", "order": 107020,
   "titleZh": "衣服和颜色", "goalZh": "会说常见的衣服和颜色,颜色形容词跟名词配合", "canDoZh": "能说出常见的衣服和颜色,描述自己想买什么样的衣服",
-  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "fr.vetement", "kind": "word", "pos": "noun", "text": "le vêtement", "zh": "衣服(一件)", "features": { "gender": "m", "ipa": "lə vɛt.mɑ̃" }, "noteZh": "说“衣服”一般用复数 les vêtements;ê 读 [ɛ],中间的 e 不发音。" },
     { "id": "fr.manteau", "kind": "word", "pos": "noun", "text": "le manteau", "zh": "大衣;外套", "features": { "gender": "m", "ipa": "lə mɑ̃.to" }, "noteZh": "eau 读 [o];复数 manteaux(加 x,不加 s)。" },

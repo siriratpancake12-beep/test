@@ -13,7 +13,7 @@
   "lines": [
     { "speaker": "serveur", "text": "Bonjour ! Qu'est-ce que vous prenez ?", "zh": "你们好!喝点什么?", "items": ["fr.bonjour", "fr.quest_ce_que", "fr.vous", "fr.prendre"] },
     { "speaker": "lucas", "text": "Quatre chocolats chauds et un sandwich. J'ai faim !", "zh": "四杯热巧克力,再来一个三明治。我饿了!", "items": ["fr.quatre", "fr.chocolat_chaud", "fr.et", "fr.un", "fr.sandwich", "fr.jai_faim"] },
-    { "speaker": "chloe", "text": "Hao, tu as été malade le week-end dernier ?", "zh": "浩,听说你上周末病了?", "items": ["fr.tu", "fr.avoir", "fr.etre", "fr.malade", "fr.week_end", "fr.dernier"] },
+    { "speaker": "chloe", "text": "Hao, tu as été malade le week-end dernier ?", "zh": "浩,你上周末病了?", "items": ["fr.tu", "fr.avoir", "fr.etre", "fr.malade", "fr.week_end", "fr.dernier"] },
     { "speaker": "hao", "text": "Oui, je suis resté à la maison. Et toi ?", "zh": "是啊,我在家待着。你呢?", "items": ["fr.oui", "fr.je", "fr.etre", "fr.rester", "fr.a", "fr.maison", "fr.et_toi"] },
     { "speaker": "chloe", "text": "Moi, j'ai vu un film au cinéma. C'était super !", "zh": "我去电影院看了一部电影,特别好看!", "items": ["fr.moi", "fr.je", "fr.avoir", "fr.voir", "fr.un", "fr.film", "fr.au", "fr.cinema", "fr.cetait", "fr.super"] },
     { "speaker": "lucas", "text": "Et la semaine prochaine ? Qu'est-ce que vous allez faire ?", "zh": "那下周呢?你们打算干什么?", "items": ["fr.et", "fr.semaine", "fr.prochain", "fr.quest_ce_que", "fr.vous", "fr.aller", "fr.faire"] },
@@ -25,9 +25,9 @@
     { "speaker": "serveur", "text": "Voilà les chocolats chauds ! Et bon voyage, Hao !", "zh": "热巧克力来了!浩,一路顺风!", "items": ["fr.voila", "fr.chocolat_chaud", "fr.et", "fr.bon", "fr.voyage"] }
   ],
   "questions": [
-    { "prompt": "上周末浩怎么了?", "options": ["他去看了电影", "他病了,待在家里", "他去滑雪了"], "answer": 1, "explainZh": "克洛艾问 Tu as été malade… ?,浩说:Oui, je suis resté à la maison.;看电影的是克洛艾。" },
-    { "prompt": "艾米莉下周要做什么?", "options": ["回父母家", "去旅行", "去山里滑雪"], "answer": 2, "explainZh": "Je vais faire du ski. À la montagne, il neige beaucoup !——回父母家的是卢卡。" },
-    { "prompt": "浩要去哪个国家旅行?", "options": ["意大利", "加拿大", "中国"], "answer": 0, "explainZh": "艾米莉问 Quel pays ?,浩说:L'Italie ! Je vais visiter Rome en train." }
+    { "prompt": "上周末浩怎么了?", "options": ["他去看了电影", "他去滑雪了", "他病了,待在家里"], "answer": 2, "explainZh": "克洛艾问 Tu as été malade… ?,浩说:Oui, je suis resté à la maison.;看电影的是克洛艾。" },
+    { "prompt": "艾米莉下周要做什么?", "options": ["去山里滑雪", "回父母家", "去旅行"], "answer": 0, "explainZh": "Je vais faire du ski. À la montagne, il neige beaucoup !——回父母家的是卢卡。" },
+    { "prompt": "浩要去哪个国家旅行?", "options": ["加拿大", "意大利", "中国"], "answer": 1, "explainZh": "艾米莉问 Quel pays ?,浩说:L'Italie ! Je vais visiter Rome en train." }
   ],
   "grammar": [
     { "id": "fr.g.passe_vs_futur_proche", "titleZh": "上周末 vs 下周:复合过去时和近将来时",

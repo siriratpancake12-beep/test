@@ -24,7 +24,7 @@
     { "speaker": "conseiller", "text": "Votre date de naissance et votre adresse ?", "zh": "您的出生日期和地址呢?", "items": ["fr.votre", "fr.date_de_naissance", "fr.et", "fr.adresse"] },
     { "speaker": "hao", "text": "Le vingt janvier deux mille six. Voilà mon adresse.", "zh": "2006 年 1 月 20 日。这是我的地址。", "items": ["fr.vingt", "fr.janvier", "fr.deux", "fr.mille", "fr.six", "fr.voila", "fr.mon", "fr.adresse"] },
     { "speaker": "conseiller", "text": "Et votre numéro de portable ?", "zh": "还有您的手机号?", "items": ["fr.et", "fr.votre", "fr.numero", "fr.de", "fr.portable"] },
-    { "speaker": "hao", "text": "C'est le zéro six, soixante et onze, quatre-vingt-quatre, quatre-vingt-douze, quinze.", "zh": "06 71 84 92 15。", "items": ["fr.cest", "fr.zero", "fr.six", "fr.soixante", "fr.et", "fr.onze", "fr.quatre_vingts", "fr.quatre", "fr.douze", "fr.quinze"] },
+    { "speaker": "hao", "text": "C'est le zéro six, soixante et onze, quatre-vingt-quatre, quatre-vingt-douze, quinze.", "zh": "是 06 71 84 92 15。", "items": ["fr.cest", "fr.zero", "fr.six", "fr.soixante", "fr.et", "fr.onze", "fr.quatre_vingts", "fr.quatre", "fr.douze", "fr.quinze"] },
     { "speaker": "conseiller", "text": "Merci. Vous pouvez signer ici, s'il vous plaît ?", "zh": "谢谢。请您在这里签个字,好吗?", "items": ["fr.merci", "fr.vous", "fr.pouvoir", "fr.signer", "fr.ici", "fr.sil_vous_plait"] }
   ],
   "questions": [

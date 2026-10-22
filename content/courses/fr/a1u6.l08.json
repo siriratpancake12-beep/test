@@ -1,0 +1,48 @@
+{
+  "id": "fr.a1u6.l08", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106080,
+  "titleZh": "单元复习:带艾米莉逛里昂", "goalZh": "把地点、交通、问路、近将来时串起来,带朋友在城市里走一圈", "canDoZh": "能带朋友逛城市:说要去哪儿、怎么去、坐几号线,并介绍自己从哪儿来",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.venir", "kind": "word", "pos": "verb", "text": "venir", "zh": "来", "features": { "ipa": "və.niʁ" }, "noteZh": "不规则:je viens, tu viens, il vient, nous venons, vous venez, ils viennent [vjɛn];venir de = 从……来:Je viens de Chine.;Vous venez d'où ?" },
+    { "id": "fr.france", "kind": "word", "pos": "noun", "text": "la France", "zh": "法国", "features": { "gender": "f", "ipa": "la fʁɑ̃s" }, "noteZh": "国名大写、有阴阳性;在法国 en France,来自法国 de France(都不加冠词)。" },
+    { "id": "fr.canada", "kind": "word", "pos": "noun", "text": "le Canada", "zh": "加拿大", "features": { "gender": "m", "ipa": "lə ka.na.da" }, "noteZh": "阳性国家:au Canada(在加拿大),du Canada(来自加拿大)。" },
+    { "id": "fr.ici", "kind": "word", "pos": "adv", "text": "ici", "zh": "这里", "features": { "ipa": "i.si" }, "noteZh": "c 读 [s];près d'ici = 离这儿近;On descend ici. = 我们在这儿下车。" }
+  ],
+  "reviewItems": ["fr.prendre", "fr.tourner", "fr.a_pied", "fr.chine"],
+  "lines": [
+    { "speaker": "boulangere", "text": "Bonjour, Hao ! Et votre amie, elle vient d'où ?", "zh": "早上好,浩!您这位朋友是从哪儿来的?", "items": ["fr.bonjour", "fr.et", "fr.votre", "fr.ami", "fr.elle", "fr.venir", "fr.de", "fr.ou_lieu"] },
+    { "speaker": "emilie", "text": "Je viens du Canada, de Montréal.", "zh": "我从加拿大来,蒙特利尔。", "items": ["fr.je", "fr.venir", "fr.du", "fr.canada", "fr.de"] },
+    { "speaker": "boulangere", "text": "Du Canada ! Et vous, Hao, vous venez de Chine, non ?", "zh": "加拿大!那您呢,浩,您是从中国来的,对吧?", "items": ["fr.du", "fr.canada", "fr.et", "fr.vous", "fr.venir", "fr.de", "fr.chine", "fr.non"] },
+    { "speaker": "hao", "text": "Oui, de Chengdu. Et j'adore le pain français !", "zh": "对,从成都来。我特别喜欢法国的面包!", "items": ["fr.oui", "fr.de", "fr.et", "fr.je", "fr.adorer", "fr.pain", "fr.francais"] },
+    { "speaker": "emilie", "text": "Moi aussi ! En France, le pain est délicieux.", "zh": "我也是!法国的面包太好吃了。", "items": ["fr.moi", "fr.aussi", "fr.en", "fr.france", "fr.pain", "fr.etre", "fr.delicieux"] },
+    { "speaker": "hao", "text": "Après, on prend le métro, la ligne D.", "zh": "待会儿我们坐地铁,D 线。", "items": ["fr.apres", "fr.on", "fr.prendre", "fr.metro", "fr.ligne"] },
+    { "speaker": "emilie", "text": "On descend où ?", "zh": "我们在哪儿下车?", "items": ["fr.on", "fr.descendre", "fr.ou_lieu"] },
+    { "speaker": "hao", "text": "À Vieux Lyon. Après, on va à pied.", "zh": "在老城站。然后我们走路。", "items": ["fr.a", "fr.apres", "fr.on", "fr.aller", "fr.a_pied"] },
+    { "speaker": "hao", "text": "Tourne à gauche, puis continue tout droit.", "zh": "往左拐,然后一直往前走。", "items": ["fr.tourner", "fr.a_gauche", "fr.puis", "fr.continuer", "fr.tout_droit"] },
+    { "speaker": "hao", "text": "Traverse la place, et voilà le Vieux Lyon !", "zh": "穿过广场,这就是里昂老城!", "items": ["fr.traverser", "fr.place", "fr.et", "fr.voila"] },
+    { "speaker": "emilie", "text": "C'est très beau ! L'après-midi, on va aller au musée ?", "zh": "真漂亮!下午我们去博物馆吧?", "items": ["fr.cest", "fr.tres", "fr.beau", "fr.apres_midi", "fr.on", "fr.aller", "fr.au", "fr.musee"] },
+    { "speaker": "hao", "text": "D'accord ! Le musée est près d'ici.", "zh": "好啊!博物馆离这儿很近。", "items": ["fr.d_accord", "fr.musee", "fr.etre", "fr.pres", "fr.de", "fr.ici"] }
+  ],
+  "questions": [
+    { "prompt": "艾米莉是从哪儿来的?", "options": ["中国成都", "法国里昂", "加拿大蒙特利尔"], "answer": 2, "explainZh": "艾米莉说:Je viens du Canada, de Montréal.(从成都来的是浩)" },
+    { "prompt": "他们怎么去里昂老城?", "options": ["坐公交", "先坐地铁,再走路", "骑自行车", "开车"], "answer": 1, "explainZh": "浩说 on prend le métro, la ligne D;在 Vieux Lyon 下车以后 on va à pied。" },
+    { "prompt": "下午他们打算做什么?", "options": ["去博物馆", "去面包店", "回宿舍"], "answer": 0, "explainZh": "艾米莉说:L'après-midi, on va aller au musée ?浩回答 D'accord !" }
+  ],
+  "grammar": [
+    { "id": "fr.g.venir_de", "titleZh": "venir de:从哪儿来",
+      "bodyZh": "venir(来)是不规则动词:je viens, tu viens, il / elle / on vient, nous venons, vous venez, ils / elles viennent。单数三个人称读音一样 [vjɛ̃];ils viennent 读 [vjɛn],鼻化音没了(和 il prend / ils prennent 一样)。\n“从……来”用 venir de:Je viens de Lyon.;元音前 de 变成 d':Vous venez d'où ?(您从哪儿来?)\nde 碰到定冠词 le、les 要缩合:de + le → du(du Canada),de + les → des;de la、de l' 不变。这和 à + le → au、à + les → aux 是同一个规律。\n以前学的 Je suis de Chengdu 和 Je viens de Chengdu 意思一样,都是“我是成都人 / 我从成都来”。",
+      "examples": [
+        { "text": "Je viens de Chine.", "zh": "我从中国来。" },
+        { "text": "Émilie vient du Canada.", "zh": "艾米莉从加拿大来。" },
+        { "text": "Vous venez d'où ?", "zh": "您从哪儿来?" }
+      ] },
+    { "id": "fr.g.countries", "titleZh": "国家前面的介词:en / au,de / du",
+      "bodyZh": "国名有阴阳性,前面的介词跟着变(城市前不分性别,一律用 à 和 de):\n阴性国家(大多以 -e 结尾,如 la France、la Chine):在 / 去 → en France、en Chine;来自 → de France、de Chine,都不加冠词。\n阳性国家(如 le Canada):在 / 去 → au Canada;来自 → du Canada。\n中文“在中国”“从中国来”不用管这些,法语要先知道国名的性别,所以国名也要连冠词记:la Chine、la France、le Canada。\n常见错误:✗ à la France、✗ en Canada、✗ Je viens de la Chine。",
+      "examples": [
+        { "text": "J'habite en France, à Lyon.", "zh": "我住在法国里昂。" },
+        { "text": "Ses parents habitent au Canada.", "zh": "她的父母住在加拿大。" }
+      ] }
+  ],
+  "review": "draft"
+}

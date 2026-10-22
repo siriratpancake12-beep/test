@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u6.l05", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106050,
+  "titleZh": "在火车站买去巴黎的票——近将来时", "goalZh": "会在火车站买往返票,说出发日期和时间,用 aller + 动词原形说打算", "canDoZh": "能在火车站窗口买一张某天去巴黎的往返票,并说清出发和回来的日期、时间",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.mars", "kind": "word", "pos": "propn", "text": "mars", "zh": "三月", "features": { "ipa": "maʁs" }, "noteZh": "s 要读出来;月份是阳性、小写:en mars,le 3 mars。" },
+    { "id": "fr.avril", "kind": "word", "pos": "propn", "text": "avril", "zh": "四月", "features": { "ipa": "a.vʁil" }, "noteZh": "l 要读出来;月份是阳性、小写:en avril,le 18 avril。" },
+    { "id": "fr.mai", "kind": "word", "pos": "propn", "text": "mai", "zh": "五月", "features": { "ipa": "mɛ" }, "noteZh": "ai 读 [ɛ];月份是阳性、小写,前面不加冠词:en mai,le 3 mai。" },
+    { "id": "fr.juin", "kind": "word", "pos": "propn", "text": "juin", "zh": "六月", "features": { "ipa": "ʒɥɛ̃" }, "noteZh": "ui 读 [ɥi],后面是鼻化元音;不要和 juillet 混。" },
+    { "id": "fr.juillet", "kind": "word", "pos": "propn", "text": "juillet", "zh": "七月", "features": { "ipa": "ʒɥi.jɛ" }, "noteZh": "-ill- 读 [j],t 不发音;月份是阳性、小写:en juillet。" },
+    { "id": "fr.aout", "kind": "word", "pos": "propn", "text": "août", "zh": "八月", "features": { "ipa": "ut" }, "noteZh": "常读 [ut],也有人读 [u];û 上的符号不能漏;月份是阳性、小写:en août。" },
+    { "id": "fr.billet", "kind": "word", "pos": "noun", "text": "le billet", "zh": "(火车、飞机、电影)票", "features": { "gender": "m", "ipa": "lə bi.jɛ" }, "noteZh": "ll 读 [j],t 不发音;地铁、公交票是 ticket。" },
+    { "id": "fr.aller_retour", "kind": "word", "pos": "noun", "text": "l'aller-retour", "zh": "往返票", "features": { "gender": "m", "ipa": "la.le.ʁə.tuʁ" }, "noteZh": "元音开头,阳性;买票说 un aller-retour Lyon-Paris;单程票是 l'aller simple。" },
+    { "id": "fr.train", "kind": "word", "pos": "noun", "text": "le train", "zh": "火车", "features": { "gender": "m", "ipa": "lə tʁɛ̃" }, "noteZh": "ain 读鼻化元音 [ɛ̃];le train de huit heures = 八点那班火车;坐火车 = prendre le train / en train。" },
+    { "id": "fr.partir", "kind": "word", "pos": "verb", "text": "partir", "zh": "出发;离开", "features": { "ipa": "paʁ.tiʁ" }, "noteZh": "不规则:je pars, tu pars, il part, nous partons, vous partez, ils partent;从某地出发:partir de Paris。" }
+  ],
+  "reviewItems": ["fr.prendre", "fr.date", "fr.heure", "fr.aller"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour, monsieur. Je voudrais un aller-retour Lyon-Paris, s'il vous plaît.", "zh": "您好,先生。我想买一张里昂到巴黎的往返票。", "items": ["fr.bonjour", "fr.monsieur", "fr.je_voudrais", "fr.un", "fr.aller_retour", "fr.sil_vous_plait"] },
+    { "speaker": "guichetier", "text": "Bonjour. Vous partez à quelle date ?", "zh": "您好。您哪天出发?", "items": ["fr.bonjour", "fr.vous", "fr.partir", "fr.a", "fr.quel", "fr.date"] },
+    { "speaker": "hao", "text": "Le 18 avril, le matin. Et je pars de Paris le 22.", "zh": "4 月 18 日上午。22 号从巴黎往回走。", "items": ["fr.dix_huit", "fr.avril", "fr.matin", "fr.et", "fr.je", "fr.partir", "fr.de", "fr.vingt", "fr.deux"] },
+    { "speaker": "guichetier", "text": "Vous prenez le train de huit heures quatre ?", "zh": "您坐 8 点 04 分那班火车吗?", "items": ["fr.vous", "fr.prendre", "fr.train", "fr.de", "fr.huit", "fr.heure", "fr.quatre"] },
+    { "speaker": "hao", "text": "Oui, très bien.", "zh": "好的,可以。", "items": ["fr.oui", "fr.tres", "fr.bien"] },
+    { "speaker": "guichetier", "text": "Voilà les billets. Ça fait quatre-vingt-dix euros.", "zh": "这是您的票。一共九十欧。", "items": ["fr.voila", "fr.billet", "fr.ca_fait", "fr.quatre_vingt_dix", "fr.euro"] },
+    { "speaker": "hao", "text": "Lucas ! Le 18 avril, je vais partir à Paris !", "zh": "卢卡!4 月 18 日我要去巴黎了!", "items": ["fr.dix_huit", "fr.avril", "fr.je", "fr.aller", "fr.partir", "fr.a"] },
+    { "speaker": "lucas", "text": "Moi aussi, je vais partir à Paris, en juillet ou en août !", "zh": "我也要去巴黎,七月或者八月!", "items": ["fr.moi", "fr.aussi", "fr.je", "fr.aller", "fr.partir", "fr.a", "fr.en", "fr.juillet", "fr.ou", "fr.aout"] }
+  ],
+  "questions": [
+    { "prompt": "浩买的往返票是哪两天?", "options": ["4 月 22 日去,4 月 18 日回", "4 月 18 日去,4 月 22 日回", "4 月 18 日去,7 月 22 日回"], "answer": 1, "explainZh": "浩说:Le 18 avril, le matin. Et je pars de Paris le 22.(22 号从巴黎出发,就是回里昂)" },
+    { "prompt": "票一共多少钱?", "options": ["60 欧", "70 欧", "80 欧", "90 欧"], "answer": 3, "explainZh": "售票员说:Ça fait quatre-vingt-dix euros.(quatre-vingt-dix = 4 × 20 + 10 = 90)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.futur_proche", "titleZh": "近将来时:aller + 动词原形",
+      "bodyZh": "说马上要做、打算做的事,用 aller 的现在时 + 动词原形:Je vais partir le 18 avril.(我 4 月 18 日要出发。)On va prendre le train.(我们要坐火车。)aller 照常变位,后面的动词保持原形:je vais partir, tu vas partir, il va partir, nous allons partir, vous allez partir, ils vont partir。\n中文用“要、打算、准备”,英语用 be going to,法语用 aller,思路一样。“要去某地”也可以说 Je vais aller à Paris.\n否定时 ne…pas 夹住 aller:Je ne vais pas partir.\npartir(出发)是不规则动词:je pars, tu pars, il part, nous partons, vous partez, ils partent;从哪儿出发用 de:partir de Paris。\n火车时刻用 24 小时制:le train de huit heures quatre(8:04 那班车)、dix-sept heures trente(17:30)。",
+      "examples": [
+        { "text": "Je vais partir le premier mars.", "zh": "我 3 月 1 日要出发。" },
+        { "text": "Tu vas partir en mai ou en juin ?", "zh": "你打算五月走还是六月走?" }
+      ] }
+  ],
+  "review": "draft"
+}

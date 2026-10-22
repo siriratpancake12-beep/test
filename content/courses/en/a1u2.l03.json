@@ -18,8 +18,8 @@
   "lines": [
     { "speaker": "lei", "text": "Hi, Sofia! Your older brother... what does he look like?", "zh": "嗨,索菲亚!你哥哥……他长什么样?", "items": ["en.hi", "en.older", "en.brother", "en.what_does_he_look_like"] },
     { "speaker": "sofia", "text": "He's a big guy. He's tall, and he has short black hair.", "zh": "他块头挺大,个子很高,黑色短发。", "items": ["en.big", "en.guy", "en.tall", "en.have", "en.short", "en.black", "en.hair"] },
-    { "speaker": "lei", "text": "Tall, short black hair. Got it.", "zh": "个子高,黑色短发。记住了。", "items": ["en.tall", "en.short", "en.black", "en.hair", "en.got_it"] },
-    { "speaker": "sofia", "text": "Oh, and he has glasses. And you, Lei? What do you look like?", "zh": "哦,还有,他戴眼镜。那你呢,磊?你长什么样?", "items": ["en.have", "en.glasses", "en.and_you", "en.what_does_he_look_like"] },
+    { "speaker": "lei", "text": "Sorry? Could you say that again?", "zh": "不好意思?你能再说一遍吗?", "items": ["en.sorry", "en.say_that_again"] },
+    { "speaker": "sofia", "text": "Tall, short black hair, and glasses. And you? What do you look like?", "zh": "高个子,黑色短发,戴眼镜。那你呢?你长什么样?", "items": ["en.tall", "en.short", "en.black", "en.hair", "en.glasses", "en.and_you", "en.what_does_he_look_like"] },
     { "speaker": "lei", "text": "I have short black hair, and I'm not very tall.", "zh": "我是黑色短发,个子不太高。", "items": ["en.have", "en.short", "en.black", "en.hair", "en.tall"] },
     { "speaker": "lei", "text": "Sofia, it's Lei. There are two tall guys here.", "zh": "索菲亚,是我,磊。这儿有两个高个子男生。", "items": ["en.tall", "en.guy"] },
     { "speaker": "sofia", "text": "Two tall guys? What do they look like?", "zh": "两个高个子?他们长什么样?", "items": ["en.tall", "en.guy", "en.what_does_he_look_like"] },
@@ -27,7 +27,7 @@
     { "speaker": "sofia", "text": "The guy with glasses! That's my brother. Thank you, Lei!", "zh": "戴眼镜的那个!那就是我哥哥。谢谢你,磊!", "items": ["en.guy", "en.glasses", "en.brother", "en.thank_you"] }
   ],
   "questions": [
-    { "prompt": "迭戈长什么样?", "options": ["个子不高,棕色长发", "个子高,黑色短发,戴眼镜", "个子高,棕色长发,戴眼镜"], "answer": 1, "explainZh": "索菲亚说 He's tall, and he has short black hair.,又补充 he has glasses。" },
+    { "prompt": "迭戈长什么样?", "options": ["个子不高,棕色长发", "个子高,黑色短发,戴眼镜", "个子高,棕色长发,戴眼镜"], "answer": 1, "explainZh": "索菲亚说 He's tall, and he has short black hair.;磊没听清,她重复时又补了一句 and glasses(还戴眼镜)。" },
     { "prompt": "磊靠什么认出了迭戈?", "options": ["长头发", "个子高", "黑头发", "戴眼镜"], "answer": 3, "explainZh": "两个男生个子都很高:一个是棕色长发,一个戴眼镜。索菲亚说 The guy with glasses! That's my brother." }
   ],
   "grammar": [
