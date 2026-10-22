@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u1.l03", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101030,
+  "titleZh": "这是我的室友", "goalZh": "会介绍别人,说出自己和别人的身份、年级和专业", "canDoZh": "能把朋友介绍给别人,并说出自己是几年级、学什么专业",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.this_is", "kind": "phrase", "pos": "phrase", "text": "This is", "zh": "这是……(介绍别人)", "features": { "ipa": "ˈðɪs ɪz" }, "noteZh": "介绍别人说 This is…,不说 He is…;th 是浊音 /ð/:舌尖轻放在上下齿之间,同时声带振动。" },
+    { "id": "en.friend", "kind": "word", "pos": "noun", "text": "friend", "zh": "朋友", "features": { "ipa": "frend" }, "noteZh": "ie 读 /e/;词尾 nd 收住就好,不要拖出一个“德”音。" },
+    { "id": "en.student", "kind": "word", "pos": "noun", "text": "student", "zh": "学生", "features": { "ipa": "ˈstuːdənt" }, "noteZh": "美式读 /ˈstuː-/;st 之间不要加元音,不读成“斯图登特”。说自己是学生要加 a:I'm a student.。" },
+    { "id": "en.international_student", "kind": "phrase", "pos": "noun", "text": "international student", "zh": "国际学生;留学生", "features": { "ipa": "ˌɪnt̬ɚˈnæʃənəl ˈstuːdənt" }, "noteZh": "international 以元音开头,前面用 an:an international student;重音在 -NA-。" },
+    { "id": "en.freshman", "kind": "word", "pos": "noun", "text": "freshman", "zh": "大一新生", "features": { "ipa": "ˈfreʃmən" }, "noteZh": "美国大学四个年级:freshman 大一、sophomore 大二、junior 大三、senior 大四;复数是 freshmen。" },
+    { "id": "en.major", "kind": "word", "pos": "noun", "text": "major", "zh": "(大学)专业", "features": { "ipa": "ˈmeɪdʒɚ" }, "noteZh": "问专业:What's your major? 回答:I'm a computer science major. 或 My major is computer science。" },
+    { "id": "en.computer_science", "kind": "phrase", "pos": "noun", "text": "computer science", "zh": "计算机科学(专业)", "features": { "ipa": "kəmˌpjuːt̬ɚ ˈsaɪəns" }, "noteZh": "computer 重音在第二个音节 com-PU-ter;t 在美式里读成轻快的 d。" },
+    { "id": "en.me_too", "kind": "phrase", "pos": "phrase", "text": "Me too", "zh": "我也是", "features": { "ipa": "ˌmiː ˈtuː" }, "noteZh": "表示“也”的 too 放句末:I'm a freshman too.;不说 I'm too a freshman。" },
+    { "id": "en.you_guys", "kind": "phrase", "pos": "pron", "text": "you guys", "zh": "你们;大家(口语)", "features": { "ipa": "jə ˈɡaɪz" }, "noteZh": "美国口语里 you guys 就是“你们”,男女都可以用;Hi, you guys! 就是“大家好”。" }
+  ],
+  "reviewItems": ["en.hey", "en.roommate", "en.where_are_you_from", "en.im_from"],
+  "lines": [
+    { "speaker": "lei", "text": "Hey, Amy! This is my roommate, Ethan.", "zh": "嘿,艾米!这是我的室友,伊森。", "items": ["en.hey", "en.this_is", "en.roommate"] },
+    { "speaker": "amy", "text": "Hi, Ethan! This is my friend Sofia. She's an international student.", "zh": "嗨,伊森!这是我的朋友索菲亚。她是国际学生。", "items": ["en.hi", "en.this_is", "en.friend", "en.international_student"] },
+    { "speaker": "lei", "text": "Me too! I'm from China.", "zh": "我也是!我来自中国。", "items": ["en.me_too", "en.im_from"] },
+    { "speaker": "ethan", "text": "Cool! Where are you from, Sofia?", "zh": "酷!你是哪里人,索菲亚?", "items": ["en.cool", "en.where_are_you_from"] },
+    { "speaker": "sofia", "text": "I'm from Mexico. Nice to meet you, you guys!", "zh": "我来自墨西哥。很高兴认识你们!", "items": ["en.im_from", "en.nice_to_meet_you", "en.you_guys"] },
+    { "speaker": "amy", "text": "Are you guys freshmen?", "zh": "你们俩是大一新生吗?", "items": ["en.you_guys", "en.freshman"] },
+    { "speaker": "lei", "text": "Yes, we are. I'm a computer science student.", "zh": "对,我们是。我是学计算机的。", "items": ["en.computer_science", "en.student"] },
+    { "speaker": "sofia", "text": "Great! And Ethan? What's his major?", "zh": "太好了!那伊森呢?他学什么专业?", "items": ["en.great", "en.major"] },
+    { "speaker": "ethan", "text": "My major? Hey, I'm a freshman!", "zh": "我的专业?嘿,我才大一啊!", "items": ["en.major", "en.hey", "en.freshman"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚是从哪里来的?", "options": ["中国", "加州", "墨西哥", "西雅图"], "answer": 2, "explainZh": "索菲亚说 I'm from Mexico.(我来自墨西哥。)" },
+    { "prompt": "关于磊,哪一项是对的?", "options": ["他是大一新生,学计算机", "他是索菲亚的室友", "他来自墨西哥"], "answer": 0, "explainZh": "艾米问 Are you guys freshmen?,磊说 Yes, we are. I'm a computer science student.;磊的室友是伊森,来自墨西哥的是索菲亚。" }
+  ],
+  "grammar": [
+    { "id": "en.g.he_she_possessive", "titleZh": "介绍别人:This is… / he's、she's / my、your、his、her",
+      "bodyZh": "把别人介绍给朋友用 This is…:This is my roommate, Ethan.(不说 He is my roommate 来开头)。说第三个人用 he is(他)、she is(她),口语缩写成 he's、she's。“我的、你的、他的、她的”是 my、your、his、her,放在名词前面:my friend、your major、his major、her friend。中文“他”“她”读音一样,英语 he / she、his / her 一定要分清,中国学生说快了常常混。",
+      "examples": [
+        { "text": "This is my friend Sofia. She's from Mexico.", "zh": "这是我的朋友索菲亚。她来自墨西哥。" },
+        { "text": "What's his major? — His major is computer science.", "zh": "他学什么专业?——他学计算机。" }
+      ] },
+    { "id": "en.g.a_an_articles", "titleZh": "a 和 an:I'm a student,不说 I'm student",
+      "bodyZh": "说一个人的身份(学生、大一新生……)时,单数名词前面要加 a 或 an。中文说“我是学生”没有“一个”,所以这是中国学生最容易漏的地方:要说 I'm a student.,不说 I'm student.。用 a 还是 an 看后面那个词的第一个音:元音音素前用 an(an international student),辅音前用 a(a freshman、a computer science student)。看的是读音,不是字母。复数不加 a:We are freshmen.。",
+      "examples": [
+        { "text": "I'm a freshman. I'm a computer science student.", "zh": "我是大一新生,学计算机。" },
+        { "text": "She's an international student.", "zh": "她是国际学生。" }
+      ] }
+  ],
+  "review": "draft"
+}

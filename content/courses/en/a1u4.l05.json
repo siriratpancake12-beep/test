@@ -1,0 +1,47 @@
+{
+  "id": "en.a1u4.l05", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-4 Food & drinks", "order": 104050,
+  "titleZh": "去超市买菜", "goalZh": "会说常见食品,在超市问东西在哪儿,应对收银台的常见问题", "canDoZh": "能在美国超市找到要买的东西,问店员\"鸡蛋在哪儿\",并应付收银员的提问",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.grocery_store", "kind": "phrase", "pos": "noun", "text": "grocery store", "zh": "超市;食品杂货店", "alt": ["supermarket"], "features": { "ipa": "ˈɡroʊsɚi ˌstɔːr" }, "noteZh": "美国人日常多说 grocery store;去买菜:go grocery shopping。" },
+    { "id": "en.excuse_me", "kind": "phrase", "pos": "phrase", "text": "Excuse me", "zh": "打扰一下;劳驾", "features": { "ipa": "ɪkˈskjuːz mi" }, "noteZh": "向陌生人开口、借过时都用;它只是\"打扰一下\",真的道歉要说 Sorry。" },
+    { "id": "en.egg", "kind": "word", "pos": "noun", "text": "egg", "zh": "鸡蛋", "features": { "ipa": "eɡ" }, "noteZh": "词尾 g 轻轻收住,不要读成 \"eg-ge\";a dozen eggs 一打(12 个)鸡蛋。" },
+    { "id": "en.rice", "kind": "word", "pos": "noun", "text": "rice", "zh": "米;米饭", "features": { "ipa": "raɪs" }, "noteZh": "rice 和 lice(虱子)只差 r 和 l!r 嘴唇收圆,舌尖不碰上颚。" },
+    { "id": "en.chicken", "kind": "word", "pos": "noun", "text": "chicken", "zh": "鸡肉;鸡", "features": { "ipa": "ˈtʃɪkɪn" }, "noteZh": "作\"鸡肉\"讲不可数,不加 a:I'll have chicken.。" },
+    { "id": "en.vegetable", "kind": "word", "pos": "noun", "text": "vegetable", "zh": "蔬菜", "features": { "ipa": "ˈvedʒtəbəl" }, "noteZh": "只读三个音节 VEG-ta-ble;一般用复数 vegetables。" },
+    { "id": "en.fruit", "kind": "word", "pos": "noun", "text": "fruit", "zh": "水果", "features": { "ipa": "fruːt" }, "noteZh": "一般不可数:I eat fruit every day.;ui 读 /uː/。" },
+    { "id": "en.need", "kind": "word", "pos": "verb", "text": "need", "zh": "需要", "features": { "ipa": "niːd" }, "noteZh": "Do you need a bag? 要袋子吗?;need to + 动词:I need to go。" },
+    { "id": "en.bag", "kind": "word", "pos": "noun", "text": "bag", "zh": "袋子;包", "features": { "ipa": "bæɡ" }, "noteZh": "a 读 /æ/,别读成 beg;很多超市的袋子要收费。" },
+    { "id": "en.aisle", "kind": "word", "pos": "noun", "text": "aisle", "zh": "(超市、飞机上的)过道", "features": { "ipa": "aɪl" }, "noteZh": "s 不发音,和 I'll 读音一样;Aisle 5 五号过道。" }
+  ],
+  "reviewItems": ["en.how_much", "en.pay", "en.card"],
+  "lines": [
+    { "speaker": "lei", "text": "Wow, this grocery store is really big!", "zh": "哇,这家超市真大!", "items": ["en.grocery_store", "en.really", "en.big"] },
+    { "speaker": "lei", "text": "I need some eggs, rice, chicken, vegetables, and fruit.", "zh": "我需要鸡蛋、米、鸡肉、蔬菜和水果。", "items": ["en.need", "en.egg", "en.rice", "en.chicken", "en.vegetable", "en.fruit"] },
+    { "speaker": "lei", "text": "Excuse me, where are the eggs?", "zh": "打扰一下,鸡蛋在哪儿?", "items": ["en.excuse_me", "en.egg"] },
+    { "speaker": "clerk", "text": "They're in Aisle 5.", "zh": "在 5 号过道。", "items": ["en.aisle"] },
+    { "speaker": "lei", "text": "Thanks! And where is the rice?", "zh": "谢谢!那米在哪儿?", "items": ["en.thank_you", "en.rice"] },
+    { "speaker": "clerk", "text": "Rice? It's in Aisle 3.", "zh": "米?在 3 号过道。", "items": ["en.rice", "en.aisle"] },
+    { "speaker": "cashier", "text": "Hi! Do you need a bag? You pay for bags here.", "zh": "你好!要袋子吗?我们这儿的袋子要收费。", "items": ["en.hi", "en.need", "en.bag", "en.pay"] },
+    { "speaker": "lei", "text": "No, thanks. I have a bag. How much is it?", "zh": "不用了,谢谢。我带了袋子。一共多少钱?", "items": ["en.no_thanks", "en.have", "en.bag", "en.how_much"] },
+    { "speaker": "cashier", "text": "It's twenty-two fifty. Card or cash?", "zh": "一共 22.5 美元。刷卡还是现金?", "items": ["en.card", "en.cash"] },
+    { "speaker": "lei", "text": "Card, please.", "zh": "刷卡,谢谢。", "items": ["en.card"] }
+  ],
+  "questions": [
+    { "prompt": "鸡蛋在哪儿?", "options": ["5 号过道", "3 号过道", "收银台旁边"], "answer": 0, "explainZh": "Excuse me, where are the eggs? — They're in Aisle 5.——3 号过道放的是米。" },
+    { "prompt": "收银员问磊要不要袋子,磊怎么说?", "options": ["要一个", "要两个", "不用,他自己带了袋子"], "answer": 2, "explainZh": "No, thanks. I have a bag.——这家超市的袋子要收费,磊自己带了。" },
+    { "prompt": "一共多少钱?", "options": ["$20.50", "$22.50", "$12.50", "$22.15"], "answer": 1, "explainZh": "It's twenty-two fifty.——22.50 美元;口语报价常把 dollars 和 cents 省掉。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u4_some_any", "titleZh": "some / any;Where is…? / Where are…?",
+      "bodyZh": "说\"一些\"时,肯定句用 some:I need some eggs. / We need some rice.;疑问句和否定句一般用 any:Do you have any eggs? / I don't have any rice.。\n可数名词说\"一些\"要用复数:some eggs、some vegetables;不可数名词没有复数,也不加 a:some rice、some fruit、some chicken(chicken 作\"鸡肉\"讲不可数,a chicken 是\"一只鸡\")。\n问东西在哪儿,be 动词跟着名词变:Where are the eggs?(复数)/ Where is the rice?(不可数,当单数用)。回答:They're in Aisle 5. / It's in Aisle 3.。\n向陌生人开口先说 Excuse me(打扰一下),它不是道歉,道歉要说 Sorry。\n发音:aisle 的 s 不发音,读 /aɪl/,和 I'll 一样。",
+      "examples": [
+        { "text": "I need some eggs and some rice.", "zh": "我需要一些鸡蛋和一些米。" },
+        { "text": "Do you have any chicken?", "zh": "你们有鸡肉吗?" },
+        { "text": "Where are the eggs? — They're in Aisle 5.", "zh": "鸡蛋在哪儿?——在 5 号过道。" },
+        { "text": "Where is the rice? — It's in Aisle 3.", "zh": "米在哪儿?——在 3 号过道。" }
+      ] }
+  ],
+  "review": "draft"
+}

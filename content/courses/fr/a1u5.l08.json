@@ -1,0 +1,48 @@
+{
+  "id": "fr.a1u5.l08", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105080,
+  "titleZh": "单元复习:克洛艾的生日聚会", "goalZh": "把星期、日期、钟点、日常活动串起来,完成一次邀请和约时间", "canDoZh": "能邀请朋友、约好星期几和几点见面,也能接受或婉拒邀请",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.libre", "kind": "word", "pos": "adj", "text": "libre", "zh": "有空的;自由的", "features": { "ipa": "libʁ" }, "noteZh": "Tu es libre samedi ?(你周六有空吗?)阴阳性同形;问几个人用复数 libres,读音不变。" },
+    { "id": "fr.d_accord", "kind": "phrase", "pos": "phrase", "text": "D'accord !", "zh": "好的;同意", "features": { "ipa": "da.kɔʁ" }, "noteZh": "词尾 d 不发音;答应邀请最常用的一句;口语里也常简单说 OK。" },
+    { "id": "fr.desole", "kind": "word", "pos": "adj", "text": "désolé", "zh": "抱歉的;对不起", "features": { "ipa": "de.zɔ.le" }, "noteZh": "女生写 désolée,读音一样;s 在两个元音之间读 [z];婉拒时先说 Désolé(e)。" },
+    { "id": "fr.fete", "kind": "word", "pos": "noun", "text": "la fête", "zh": "聚会;节日", "features": { "gender": "f", "ipa": "la fɛt" }, "noteZh": "ê 读 [ɛ];faire une fête = 办聚会;une fête d'anniversaire = 生日聚会。" }
+  ],
+  "reviewItems": ["fr.anniversaire", "fr.samedi", "fr.novembre", "fr.et_demie"],
+  "lines": [
+    { "speaker": "chloe", "text": "Hao, Lucas, vous êtes libres samedi soir ?", "zh": "浩、卢卡,你们星期六晚上有空吗?", "items": ["fr.vous", "fr.etre", "fr.libre", "fr.samedi", "fr.soir"] },
+    { "speaker": "hao", "text": "Samedi ? Le 7 novembre ?", "zh": "星期六?11 月 7 日?", "items": ["fr.samedi", "fr.sept", "fr.novembre"] },
+    { "speaker": "chloe", "text": "Oui, c'est mon anniversaire ! On fait une fête.", "zh": "对,是我的生日!我们办个聚会。", "items": ["fr.oui", "fr.cest", "fr.mon", "fr.anniversaire", "fr.on", "fr.faire", "fr.une", "fr.fete"] },
+    { "speaker": "hao", "text": "À quelle heure ? Et c'est où ?", "zh": "几点?在哪儿?", "items": ["fr.a", "fr.quel", "fr.heure", "fr.et", "fr.cest", "fr.ou_lieu"] },
+    { "speaker": "chloe", "text": "À huit heures et demie, dans notre appartement, à la Croix-Rousse.", "zh": "八点半,在我们家的公寓,在红十字区。", "items": ["fr.a", "fr.huit", "fr.heure", "fr.et_demie", "fr.dans", "fr.notre", "fr.appartement"] },
+    { "speaker": "hao", "text": "D'accord ! À samedi !", "zh": "好的!星期六见!", "items": ["fr.d_accord", "fr.a", "fr.samedi"] },
+    { "speaker": "lucas", "text": "Désolé, Chloé. Samedi soir, je ne suis pas libre.", "zh": "对不起,克洛艾。星期六晚上我没空。", "items": ["fr.desole", "fr.samedi", "fr.soir", "fr.je", "fr.ne_pas", "fr.etre", "fr.libre"] },
+    { "speaker": "chloe", "text": "Et dimanche, tu es libre ?", "zh": "那星期天你有空吗?", "items": ["fr.et", "fr.dimanche", "fr.tu", "fr.etre", "fr.libre"] },
+    { "speaker": "lucas", "text": "Dimanche après-midi, oui. On boit un café ensemble ?", "zh": "星期天下午有空。我们一起喝杯咖啡吧?", "items": ["fr.dimanche", "fr.apres_midi", "fr.oui", "fr.on", "fr.boire", "fr.un", "fr.cafe", "fr.ensemble"] },
+    { "speaker": "chloe", "text": "D'accord ! Dimanche, à quatre heures ?", "zh": "好啊!星期天四点?", "items": ["fr.d_accord", "fr.dimanche", "fr.a", "fr.quatre", "fr.heure"] },
+    { "speaker": "hao", "text": "Moi aussi, je suis libre dimanche !", "zh": "我星期天也有空!", "items": ["fr.moi", "fr.aussi", "fr.je", "fr.etre", "fr.libre", "fr.dimanche"] },
+    { "speaker": "chloe", "text": "Très bien ! Samedi, la fête, et dimanche, le café !", "zh": "太好了!星期六聚会,星期天喝咖啡!", "items": ["fr.tres", "fr.bien", "fr.samedi", "fr.fete", "fr.et", "fr.dimanche", "fr.cafe"] }
+  ],
+  "questions": [
+    { "prompt": "克洛艾的生日聚会是什么时候?", "options": ["11 月 7 日星期天下午四点", "10 月 7 日星期六晚上八点半", "11 月 7 日星期六晚上八点半"], "answer": 2, "explainZh": "克洛艾问的是 samedi soir,浩确认是 le 7 novembre,聚会 à huit heures et demie。" },
+    { "prompt": "卢卡为什么不能去聚会?", "options": ["他要做作业", "他星期六晚上没空", "他不喜欢聚会"], "answer": 1, "explainZh": "卢卡说:Désolé, Chloé. Samedi soir, je ne suis pas libre." },
+    { "prompt": "星期天下午他们要做什么?", "options": ["一起喝咖啡", "一起做饭", "一起去采购"], "answer": 0, "explainZh": "卢卡提议 On boit un café ensemble ?,大家约在星期天四点。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.invite", "titleZh": "邀请、答应和婉拒",
+      "bodyZh": "问有没有空:Tu es libre + 时间 ?(问一个朋友)/ Vous êtes libres… ?(问几个人,libre 加 s,读音不变)。对老师、店员这样用 vous 称呼的一个人,不加 s:Vous êtes libre ?\n答应:Oui, d'accord !(好的!)还可以加一句 À samedi !(星期六见!)。\n婉拒:先说 Désolé(男生)/ Désolée(女生),读音一样;再用 ne…pas 说没空:Je ne suis pas libre. 法国人婉拒时一般会马上提一个别的时间:Et dimanche ?\n提议一起做点什么:On + 动词…?,用升调:On boit un café ensemble ?\n中文“你有空吗?”可以不用“是”,法语一定要有 être:✗ Tu libre samedi ? → ✓ Tu es libre samedi ?",
+      "examples": [
+        { "text": "Tu es libre dimanche ?", "zh": "你星期天有空吗?" },
+        { "text": "Désolée, je ne suis pas libre samedi.", "zh": "对不起,我星期六没空。(女生说)" },
+        { "text": "D'accord ! À dimanche !", "zh": "好的!星期天见!" }
+      ] },
+    { "id": "fr.g.unit5_time", "titleZh": "单元小结:星期、日期、钟点连起来说",
+      "bodyZh": "约时间时,法语一般按“星期 → 日期 → 钟点”的顺序说:samedi 7 novembre, à huit heures et demie。中文说“11 月 7 日星期六晚上八点半”,顺序几乎反过来。\n钟点:Il est huit heures et demie.;“在几点”加 à:à huit heures et demie。\n星期:samedi(这个星期六)/ le samedi(每个星期六)。\n日期:le 7 novembre,1 号说 le premier。\n时段直接放在星期后面,不加介词:samedi soir(星期六晚上)、dimanche après-midi(星期天下午)。\n问时间和地点:C'est quand ? / À quelle heure ? / C'est où ?",
+      "examples": [
+        { "text": "La fête, c'est samedi 7 novembre, à huit heures et demie.", "zh": "聚会在 11 月 7 日星期六,八点半。" },
+        { "text": "Mon anniversaire, c'est le mercredi 20 janvier.", "zh": "我的生日是 1 月 20 日,星期三。" }
+      ] }
+  ],
+  "review": "draft"
+}

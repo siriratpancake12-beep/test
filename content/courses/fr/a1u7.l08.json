@@ -1,0 +1,52 @@
+{
+  "id": "fr.a1u7.l08", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107080,
+  "titleZh": "单元复习:浩的星期六——买礼物", "goalZh": "读懂一段关于购物的短文,把买东西、颜色、价格、付款串起来", "canDoZh": "能读懂一段购物经历(在哪儿买、买了什么、什么颜色、多少钱),并照着写自己的",
+  "skills": ["read", "write"], "estimatedMinutes": 20,
+  "newItems": [
+    { "id": "fr.cadeau", "kind": "word", "pos": "noun", "text": "le cadeau", "zh": "礼物", "features": { "gender": "m", "ipa": "lə ka.do" }, "noteZh": "eau 读 [o];复数 cadeaux(加 x)。" },
+    { "id": "fr.pour", "kind": "word", "pos": "prep", "text": "pour", "zh": "为了;给", "features": { "ipa": "puʁ" }, "noteZh": "un cadeau pour Chloé(给克洛艾的礼物);pour + 动词原形 = 为了做……" },
+    { "id": "fr.choisir", "kind": "word", "pos": "verb", "text": "choisir", "zh": "选择;挑", "features": { "ipa": "ʃwa.ziʁ" }, "noteZh": "-ir 动词:je choisis, tu choisis, il choisit, nous choisissons, vous choisissez, ils choisissent。" },
+    { "id": "fr.argent", "kind": "word", "pos": "noun", "text": "l'argent", "zh": "钱", "features": { "gender": "m", "ipa": "laʁ.ʒɑ̃" }, "noteZh": "元音开头,要记住是阳性;t 不发音;也指“银”。" }
+  ],
+  "reviewItems": ["fr.sac", "fr.ce", "fr.trop", "fr.payer"],
+  "lines": [
+    { "speaker": "narrator", "text": "Aujourd'hui, c'est samedi. Ce soir, c'est la fête de Chloé !", "zh": "今天是星期六。今晚是克洛艾的生日聚会!", "items": ["fr.aujourd_hui", "fr.cest", "fr.samedi", "fr.ce", "fr.soir", "fr.fete", "fr.de"] },
+    { "speaker": "narrator", "text": "Ce matin, Hao va à la banque. Il prend sa nouvelle carte bancaire.", "zh": "今天上午,浩去银行,拿他的新银行卡。", "items": ["fr.ce", "fr.matin", "fr.aller", "fr.a", "fr.banque", "fr.il", "fr.prendre", "fr.sa", "fr.nouveau", "fr.carte_bancaire"] },
+    { "speaker": "narrator", "text": "À midi, il va en ville avec Lucas.", "zh": "中午,他和卢卡一起去市中心。", "items": ["fr.a", "fr.midi", "fr.il", "fr.aller", "fr.en", "fr.ville", "fr.avec"] },
+    { "speaker": "narrator", "text": "Ils veulent choisir un cadeau pour Chloé.", "zh": "他们想给克洛艾挑一件礼物。", "items": ["fr.ils", "fr.vouloir", "fr.choisir", "fr.un", "fr.cadeau", "fr.pour"] },
+    { "speaker": "narrator", "text": "Hao aime beaucoup ce sac noir, mais il est trop cher.", "zh": "浩很喜欢这个黑色的包,可是太贵了。", "items": ["fr.aimer", "fr.beaucoup", "fr.ce", "fr.sac", "fr.noir", "fr.mais", "fr.il", "fr.etre", "fr.trop", "fr.cher"] },
+    { "speaker": "narrator", "text": "Ils choisissent un sac rouge. Il est très beau !", "zh": "他们挑了一个红色的包,很漂亮!", "items": ["fr.ils", "fr.choisir", "fr.un", "fr.sac", "fr.rouge", "fr.il", "fr.etre", "fr.tres", "fr.beau"] },
+    { "speaker": "narrator", "text": "Le sac rouge est à cinquante euros.", "zh": "红色的包五十欧。", "items": ["fr.sac", "fr.rouge", "fr.etre", "fr.a", "fr.cinquante", "fr.euro"] },
+    { "speaker": "narrator", "text": "Lucas n'a pas beaucoup d'argent.", "zh": "卢卡的钱不多。", "items": ["fr.ne_pas", "fr.avoir", "fr.beaucoup", "fr.de", "fr.argent"] },
+    { "speaker": "narrator", "text": "Hao paie trente euros par carte, et Lucas paie vingt euros.", "zh": "浩刷卡付三十欧,卢卡付二十欧。", "items": ["fr.payer", "fr.trente", "fr.euro", "fr.par", "fr.carte", "fr.et", "fr.vingt"] },
+    { "speaker": "narrator", "text": "L'après-midi, Hao va au marché.", "zh": "下午,浩去菜市场。", "items": ["fr.apres_midi", "fr.aller", "fr.au", "fr.marche"] },
+    { "speaker": "narrator", "text": "Il achète deux kilos de pommes pour la fête.", "zh": "他买了两公斤苹果,带去聚会。", "items": ["fr.il", "fr.acheter", "fr.deux", "fr.kilo", "fr.de", "fr.pomme", "fr.pour", "fr.fete"] },
+    { "speaker": "narrator", "text": "Ce soir, Hao va à la fête avec le sac rouge !", "zh": "今晚,浩带着红色的包去参加聚会!", "items": ["fr.ce", "fr.soir", "fr.aller", "fr.a", "fr.fete", "fr.avec", "fr.sac", "fr.rouge"] }
+  ],
+  "questions": [
+    { "prompt": "浩和卢卡给克洛艾买了什么礼物?", "options": ["一件毛衣", "一个包", "一双鞋", "两公斤苹果"], "answer": 1, "explainZh": "Ils veulent choisir un cadeau pour Chloé… Ils choisissent un sac rouge.——礼物是一个包。" },
+    { "prompt": "礼物是什么颜色的?", "options": ["黑色", "白色", "红色"], "answer": 2, "explainZh": "黑色的包太贵了(trop cher),他们挑了红色的:un sac rouge。" },
+    { "prompt": "礼物多少钱?", "options": ["50 欧", "15 欧", "30 欧"], "answer": 0, "explainZh": "Le sac rouge est à cinquante euros.——50 欧。注意 cinquante(50)和 quinze(15)。" },
+    { "prompt": "谁付的钱?", "options": ["浩一个人付", "浩和卢卡一起付", "卢卡一个人付"], "answer": 1, "explainZh": "Hao paie trente euros par carte, et Lucas paie vingt euros.——浩刷卡付 30 欧,卢卡付 20 欧。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.choisir_pour", "titleZh": "choisir(-ir 动词)和 pour + 人",
+      "bodyZh": "choisir(挑选)属于第二组动词:以 -ir 结尾,复数中间加 -iss-:je choisis, tu choisis, il/elle choisit, nous choisissons, vous choisissez, ils/elles choisissent。单数三个形式读音一样 [ʃwa.zi],词尾的 s、t 不发音。注意不是所有 -ir 动词都这样变:ouvrir 按 -er 动词变(j'ouvre),partir 也不规则(je pars)。pour + 人 = 给某人的:un cadeau pour Chloé(给克洛艾的礼物);pour + 动词原形 = 为了做……。",
+      "examples": [
+        { "text": "Je choisis un cadeau pour ma mère.", "zh": "我给妈妈挑礼物。" },
+        { "text": "Ils choisissent un sac rouge.", "zh": "他们挑了一个红色的包。" },
+        { "text": "Nous choisissons ensemble.", "zh": "我们一起挑。" },
+        { "text": "C'est un cadeau pour Chloé.", "zh": "这是给克洛艾的礼物。" }
+      ] },
+    { "id": "fr.g.u7_revision", "titleZh": "第 7 单元复习:买东西、办事的关键说法",
+      "bodyZh": "这一单元的说法可以串起来用:① 数量词 + de:deux kilos de pommes, une bouteille d'eau;② 颜色放在名词后面,还要配合:un sac noir, des chaussures blanches;③ ce / cet / cette / ces:ce sac, cette taille, ces pulls;④ trop + 形容词:trop cher, trop petit;⑤ 动词 + 原形:Je voudrais ouvrir un compte. Je peux payer par carte ? Il faut prendre rendez-vous. 短文用的是现在时(过去时第 8 单元才学),所以“浩挑了一个包”在法语里是 Ils choisissent un sac。写作练习:照着短文,用 Ce matin… / À midi… / L'après-midi… 写写你的星期六:去哪儿、买什么、什么颜色、多少钱、怎么付钱。",
+      "examples": [
+        { "text": "Ce sac noir est trop cher.", "zh": "这个黑包太贵了。" },
+        { "text": "Je voudrais deux kilos de pommes.", "zh": "我要两公斤苹果。" },
+        { "text": "Je peux payer par carte ?", "zh": "可以刷卡吗?" },
+        { "text": "Il faut choisir un cadeau.", "zh": "得挑一件礼物。" }
+      ] }
+  ],
+  "review": "draft"
+}

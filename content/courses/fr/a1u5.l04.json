@@ -1,0 +1,47 @@
+{
+  "id": "fr.a1u5.l04", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105040,
+  "titleZh": "周末你做什么?——faire 和日常活动", "goalZh": "会用 faire 和几个常用动词说平时做什么、多久做一次", "canDoZh": "能说自己平时在家做什么(做饭、采购、做作业、运动、打扫),多久做一次",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.faire", "kind": "word", "pos": "verb", "text": "faire", "zh": "做;干", "features": { "ipa": "fɛʁ" }, "noteZh": "不规则:je fais, tu fais, il / on fait, nous faisons [fə.zɔ̃], vous faites, ils font;faire la cuisine(做饭)、faire les courses(采购)。" },
+    { "id": "fr.courses", "kind": "word", "pos": "noun", "text": "les courses", "zh": "采购;买东西", "features": { "gender": "f", "ipa": "le kuʁs" }, "noteZh": "faire les courses = 去买菜、买日用品;一般用复数(阴性)。" },
+    { "id": "fr.devoirs", "kind": "word", "pos": "noun", "text": "les devoirs", "zh": "作业", "features": { "gender": "m", "ipa": "le də.vwaʁ" }, "noteZh": "faire mes devoirs = 做(我的)作业;一般用复数(阳性);词尾 s 不发音。" },
+    { "id": "fr.sport", "kind": "word", "pos": "noun", "text": "le sport", "zh": "运动", "features": { "gender": "m", "ipa": "lə spɔʁ" }, "noteZh": "t 不发音;faire du sport = 做运动(du 是部分冠词)。" },
+    { "id": "fr.menage", "kind": "word", "pos": "noun", "text": "le ménage", "zh": "打扫;家务", "features": { "gender": "m", "ipa": "lə me.naʒ" }, "noteZh": "faire le ménage = 打扫卫生;ge 读 [ʒ]。" },
+    { "id": "fr.regarder", "kind": "word", "pos": "verb", "text": "regarder", "zh": "看;注视", "features": { "ipa": "ʁə.gaʁ.de" }, "noteZh": "后面直接接东西,不加介词:regarder l'heure(看时间)、regarder la télé(看电视)。" },
+    { "id": "fr.ecouter", "kind": "word", "pos": "verb", "text": "écouter", "zh": "听", "features": { "ipa": "e.ku.te" }, "noteZh": "元音开头:j'écoute;écouter de la musique(听音乐),不加介词(英语要说 listen to)。" },
+    { "id": "fr.musique", "kind": "word", "pos": "noun", "text": "la musique", "zh": "音乐", "features": { "gender": "f", "ipa": "la my.zik" }, "noteZh": "s 在两个元音之间读 [z];qu 读 [k]。" },
+    { "id": "fr.souvent", "kind": "word", "pos": "adv", "text": "souvent", "zh": "经常", "features": { "ipa": "su.vɑ̃" }, "noteZh": "放在动词后面:Je fais souvent la cuisine.(英语 often 放在动词前,法语不行);t 不发音。" },
+    { "id": "fr.on", "kind": "word", "pos": "pron", "text": "on", "zh": "我们(口语);人们", "features": { "ipa": "ɔ̃" }, "noteZh": "动词用第三人称单数:on fait;口语里 on 比 nous 常用得多;On… ? 用升调就是“我们一起……吧?”" }
+  ],
+  "reviewItems": ["fr.cuisine", "fr.samedi", "fr.se_lever", "fr.tous_les_jours"],
+  "lines": [
+    { "speaker": "lucas", "text": "Salut, Hao ! Qu'est-ce que tu fais samedi ?", "zh": "嗨,浩!你星期六做什么?", "items": ["fr.salut", "fr.quest_ce_que", "fr.tu", "fr.faire", "fr.samedi"] },
+    { "speaker": "hao", "text": "Le matin, je fais mes devoirs. Puis, je fais les courses.", "zh": "上午我做作业,然后去采购。", "items": ["fr.matin", "fr.je", "fr.faire", "fr.mes", "fr.devoirs", "fr.puis", "fr.courses"] },
+    { "speaker": "hao", "text": "Le soir, je fais la cuisine. Et toi ?", "zh": "晚上我做饭。你呢?", "items": ["fr.soir", "fr.je", "fr.faire", "fr.cuisine", "fr.et_toi"] },
+    { "speaker": "lucas", "text": "Moi, le samedi, je me lève tard. Je ne regarde pas l'heure !", "zh": "我啊,星期六起得很晚,根本不看时间!", "items": ["fr.moi", "fr.samedi", "fr.je", "fr.se_lever", "fr.tard", "fr.ne_pas", "fr.regarder", "fr.heure"] },
+    { "speaker": "hao", "text": "Tu fais souvent du sport ?", "zh": "你经常运动吗?", "items": ["fr.tu", "fr.faire", "fr.souvent", "fr.du", "fr.sport"] },
+    { "speaker": "lucas", "text": "Oui, tous les jours ! Et j'écoute de la musique.", "zh": "对,每天都运动!我还听音乐。", "items": ["fr.oui", "fr.tous_les_jours", "fr.et", "fr.je", "fr.ecouter", "fr.de_la", "fr.musique"] },
+    { "speaker": "hao", "text": "Et le ménage ?", "zh": "那打扫卫生呢?", "items": ["fr.et", "fr.menage"] },
+    { "speaker": "lucas", "text": "Le ménage ? Le dimanche soir… à onze heures !", "zh": "打扫?星期天晚上……十一点吧!", "items": ["fr.menage", "fr.dimanche", "fr.soir", "fr.a", "fr.onze", "fr.heure"] },
+    { "speaker": "lucas", "text": "Samedi soir, on fait la cuisine ensemble ?", "zh": "星期六晚上,我们一起做饭吧?", "items": ["fr.samedi", "fr.soir", "fr.on", "fr.faire", "fr.cuisine", "fr.ensemble"] },
+    { "speaker": "hao", "text": "Très bien ! On mange à huit heures ?", "zh": "好啊!我们八点吃?", "items": ["fr.tres", "fr.bien", "fr.on", "fr.manger", "fr.a", "fr.huit", "fr.heure"] }
+  ],
+  "questions": [
+    { "prompt": "浩星期六上午做什么?", "options": ["做饭", "做作业", "运动", "采购"], "answer": 1, "explainZh": "浩说:Le matin, je fais mes devoirs.(做饭是晚上,采购是做完作业以后)" },
+    { "prompt": "卢卡多久运动一次?", "options": ["每天", "只在星期六", "很少运动"], "answer": 0, "explainZh": "浩问 Tu fais souvent du sport ?,卢卡回答 Oui, tous les jours !" },
+    { "prompt": "卢卡一般什么时候打扫卫生?", "options": ["星期六上午", "星期六晚上", "星期天晚上"], "answer": 2, "explainZh": "卢卡说:Le ménage ? Le dimanche soir…(拖到星期天晚上十一点)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.faire_on", "titleZh": "faire 的变位和搭配;on = 我们",
+      "bodyZh": "faire(做)是不规则动词,要整个记:je fais, tu fais, il / elle / on fait, nous faisons, vous faites, ils / elles font。fais、fait 读音一样 [fɛ];nous faisons 的 ai 读 [ə]:[fə.zɔ̃];“你们做”是 vous faites,不是 ✗ vous faisez。\n很多日常活动用“faire + 冠词 + 名词”:faire la cuisine(做饭)、faire les courses(采购)、faire le ménage(打扫)、faire mes devoirs(做作业)、faire du sport(运动,du 是部分冠词,和 boire du café 一样)。中文用的是不同的动词(做饭、买菜、打扫、运动),法语都用 faire,冠词不能丢。\n口语里“我们”常说 on,动词用第三人称单数,和 il 一样:On fait la cuisine ensemble ?(= Nous faisons la cuisine ensemble ?)用升调说,就是邀请“我们一起……吧?”\n频率副词 souvent 放在变位动词后面:Je fais souvent la cuisine.(英语说 I often cook,法语不能说 ✗ Je souvent fais…)。",
+      "examples": [
+        { "text": "Nous faisons les courses le samedi.", "zh": "我们每周六去采购。" },
+        { "text": "Vous faites du sport ?", "zh": "您 / 你们做运动吗?" },
+        { "text": "Ils font souvent le ménage.", "zh": "他们经常打扫。" },
+        { "text": "On fait la cuisine ensemble ?", "zh": "我们一起做饭吧?" }
+      ] }
+  ],
+  "review": "draft"
+}

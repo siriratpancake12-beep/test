@@ -1,0 +1,47 @@
+{
+  "id": "en.a1u3.l03", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-3 Daily life", "order": 103030,
+  "titleZh": "伊森睡到中午", "goalZh": "会用第三人称单数说别人的作息,读准动词词尾的 -s", "canDoZh": "能说说室友或家人每天做什么,用对 he / she 后面动词的 -s",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.wake_up", "kind": "phrase", "pos": "verb", "text": "wake up", "zh": "醒来", "features": { "ipa": "ˌweɪk ˈʌp" }, "noteZh": "wake up 是醒,get up 是起床:I wake up at seven, but I get up at 7:30.;连读 \"way-kup\"。" },
+    { "id": "en.sleep", "kind": "word", "pos": "verb", "text": "sleep", "zh": "睡觉", "features": { "ipa": "sliːp" }, "noteZh": "ee 是长音 /iː/;词尾 p 双唇闭上就好,不要读成 \"slee-pu\"。" },
+    { "id": "en.noon", "kind": "word", "pos": "noun", "text": "noon", "zh": "中午(12 点)", "features": { "ipa": "nuːn" }, "noteZh": "at noon 在中午。" },
+    { "id": "en.play", "kind": "word", "pos": "verb", "text": "play", "zh": "玩;打(球)", "features": { "ipa": "pleɪ" }, "noteZh": "play video games 打游戏,play basketball 打篮球;第三人称 plays 读 /pleɪz/。" },
+    { "id": "en.video_game", "kind": "phrase", "pos": "noun", "text": "video game", "zh": "电子游戏", "features": { "ipa": "ˈvɪdioʊ ˌɡeɪm" }, "noteZh": "v 要上齿轻咬下唇,别读成 w;一般用复数:play video games。" },
+    { "id": "en.watch", "kind": "word", "pos": "verb", "text": "watch", "zh": "看(电视、比赛、视频)", "features": { "ipa": "wɑːtʃ" }, "noteZh": "看电视、看节目用 watch,看书用 read;第三人称 watches 读 /ˈwɑːtʃɪz/。" },
+    { "id": "en.show", "kind": "word", "pos": "noun", "text": "show", "zh": "(电视、网络)节目;剧", "features": { "ipa": "ʃoʊ" }, "noteZh": "watch a show 看剧、看节目。" },
+    { "id": "en.gym", "kind": "word", "pos": "noun", "text": "gym", "zh": "健身房", "features": { "ipa": "dʒɪm" }, "noteZh": "go to the gym 去健身房;g 在这里读 /dʒ/。" },
+    { "id": "en.work_out", "kind": "phrase", "pos": "verb", "text": "work out", "zh": "健身;锻炼", "features": { "ipa": "ˌwɝːk ˈaʊt" }, "noteZh": "连读像 \"wor-kout\";美国大学生很爱健身,学校健身房一般对学生免费。" },
+    { "id": "en.week", "kind": "word", "pos": "noun", "text": "week", "zh": "周;一个星期", "features": { "ipa": "wiːk" }, "noteZh": "five times a week 一周五次;next week 下周;ee 是长音 /iː/。" }
+  ],
+  "reviewItems": ["en.get_up", "en.go_to_bed", "en.study", "en.work"],
+  "lines": [
+    { "speaker": "amy", "text": "Hey, Lei! How's it going with your roommate?", "zh": "嘿,磊!你和室友处得怎么样?", "items": ["en.hey", "en.hows_it_going", "en.roommate"] },
+    { "speaker": "lei", "text": "Good! But Ethan wakes up at eleven and gets up at noon.", "zh": "挺好的!不过伊森十一点才醒,中午才起床。", "items": ["en.im_good", "en.wake_up", "en.get_up", "en.noon"] },
+    { "speaker": "amy", "text": "At noon? Does he have class in the morning?", "zh": "中午?他上午有课吗?", "items": ["en.noon", "en.have", "en.class", "en.morning"] },
+    { "speaker": "lei", "text": "No, he doesn't. He sleeps!", "zh": "没有。他在睡觉!", "items": ["en.sleep"] },
+    { "speaker": "amy", "text": "And in the afternoon? Does he work?", "zh": "那下午呢?他打工吗?", "items": ["en.afternoon", "en.work"] },
+    { "speaker": "lei", "text": "No. He works out at the gym five times a week.", "zh": "不打工。他一周去健身房锻炼五次。", "items": ["en.work_out", "en.gym", "en.week"] },
+    { "speaker": "amy", "text": "Wow! Does he study at night?", "zh": "哇!那他晚上学习吗?", "items": ["en.study", "en.night"] },
+    { "speaker": "lei", "text": "Not really. He plays video games and watches shows.", "zh": "不怎么学。他打游戏、看剧。", "items": ["en.really", "en.play", "en.video_game", "en.watch", "en.show"] },
+    { "speaker": "lei", "text": "He goes to bed at three in the morning!", "zh": "他凌晨三点才睡觉!", "items": ["en.go_to_bed", "en.morning"] },
+    { "speaker": "amy", "text": "That's a freshman thing! They sleep in the morning and play at night.", "zh": "大一新生都这样!上午睡觉,晚上玩。", "items": ["en.freshman", "en.sleep", "en.morning", "en.play", "en.night"] }
+  ],
+  "questions": [
+    { "prompt": "伊森几点起床?", "options": ["十一点", "中午十二点", "下午三点"], "answer": 1, "explainZh": "He wakes up at eleven and gets up at noon.——十一点是醒(wake up),中午才起床(get up)。" },
+    { "prompt": "伊森一周去健身房锻炼几次?", "options": ["五次", "三次", "每天一次"], "answer": 0, "explainZh": "He works out at the gym five times a week.——一周五次。" },
+    { "prompt": "伊森晚上一般做什么?", "options": ["在图书馆学习", "打工", "打游戏、看剧", "很早睡觉"], "answer": 2, "explainZh": "Not really. He plays video games and watches shows.——他晚上不怎么学习,打游戏、看剧,凌晨三点才睡。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u3_third_person_s", "titleZh": "he / she 后面的动词加 -s",
+      "bodyZh": "说别人(he / she / Ethan / my mom)平时做什么,动词要加 -s:He gets up at noon.。中文\"我起床\"\"他起床\"动词不变,所以这是中国学生最容易漏的地方。主语是 I / you / we / they 或复数名词(freshmen)时不加:They sleep in the morning.。\n怎么加:一般直接加 -s(gets、plays);以 s、sh、ch、x、o 结尾加 -es(watches、goes);辅音字母 + y 结尾,改 y 为 i 再加 -es(study → studies);have 要变成 has。\n-s 的三种读音:在 /t/ /k/ /p/ 这类清辅音后读 /s/(gets、works、sleeps、wakes);在元音和浊辅音后读 /z/(plays、goes);在 s、sh、ch 后读 /ɪz/,多出一个音节(watches)。\n否定和疑问借助 does,后面的动词回到原形:He doesn't study at night.(不说 doesn't studies);Does he have class? — No, he doesn't.(不说 Does he has…)。记住:-s 只出现一次,不在动词上,就在 does 上。",
+      "examples": [
+        { "text": "Sofia's mom works at a hospital.", "zh": "索菲亚的妈妈在医院工作。" },
+        { "text": "Ethan plays video games and watches shows.", "zh": "伊森打游戏、看剧。" },
+        { "text": "He doesn't study at night.", "zh": "他晚上不学习。" },
+        { "text": "Does he have class in the morning? — No, he doesn't.", "zh": "他上午有课吗?——没有。" }
+      ] }
+  ],
+  "review": "draft"
+}

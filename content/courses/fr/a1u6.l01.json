@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u6.l01", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106010,
+  "titleZh": "城市里的地方", "goalZh": "会说城市里常去的地方,问附近有没有某个地方", "canDoZh": "能说出城市里常去的地方,问“这一带有超市吗?”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.ville", "kind": "word", "pos": "noun", "text": "la ville", "zh": "城市;市区", "features": { "gender": "f", "ipa": "la vil" }, "noteZh": "ll 在这里读 [l],不读 [j](和 famille 不同);Lyon, c'est une belle ville."},
+    { "id": "fr.place", "kind": "word", "pos": "noun", "text": "la place", "zh": "广场;座位", "features": { "gender": "f", "ipa": "la plas" }, "noteZh": "两个意思:广场(la place Bellecour),也指座位;“在广场上”说 sur la place。" },
+    { "id": "fr.musee", "kind": "word", "pos": "noun", "text": "le musée", "zh": "博物馆", "features": { "gender": "m", "ipa": "lə my.ze" }, "noteZh": "虽然以 -ée 结尾,却是阳性!s 在两个元音之间读 [z]。" },
+    { "id": "fr.supermarche", "kind": "word", "pos": "noun", "text": "le supermarché", "zh": "超市", "features": { "gender": "m", "ipa": "lə sy.pɛʁ.maʁ.ʃe" }, "noteZh": "super + marché(市场);ch 读 [ʃ],é 不能漏。" },
+    { "id": "fr.banque", "kind": "word", "pos": "noun", "text": "la banque", "zh": "银行", "features": { "gender": "f", "ipa": "la bɑ̃k" }, "noteZh": "an 读鼻化元音 [ɑ̃],qu 读 [k],词尾 e 不发音。" },
+    { "id": "fr.poste", "kind": "word", "pos": "noun", "text": "la poste", "zh": "邮局", "features": { "gender": "f", "ipa": "la pɔst" }, "noteZh": "寄信、取包裹的地方;s 和 t 都要读出来。" },
+    { "id": "fr.pharmacie", "kind": "word", "pos": "noun", "text": "la pharmacie", "zh": "药店", "features": { "gender": "f", "ipa": "la faʁ.ma.si" }, "noteZh": "ph 读 [f];门口有绿色的十字。" },
+    { "id": "fr.gare", "kind": "word", "pos": "noun", "text": "la gare", "zh": "火车站", "features": { "gender": "f", "ipa": "la gaʁ" }, "noteZh": "只指火车站;地铁站是 la station(第 4 课)。" },
+    { "id": "fr.universite", "kind": "word", "pos": "noun", "text": "l'université", "zh": "大学", "features": { "gender": "f", "ipa": "ly.ni.vɛʁ.si.te" }, "noteZh": "元音开头,要记住是阴性;口语也说 la fac。" }
+  ],
+  "reviewItems": ["fr.il_y_a", "fr.a_cote_de", "fr.en_face_de", "fr.rue"],
+  "lines": [
+    { "speaker": "chloe", "text": "Hao, dans ta rue, il y a un supermarché.", "zh": "浩,你住的这条街上有一家超市。", "items": ["fr.dans", "fr.ta", "fr.rue", "fr.il_y_a", "fr.un", "fr.supermarche"] },
+    { "speaker": "chloe", "text": "Et voilà une pharmacie, à côté du supermarché.", "zh": "这儿还有一家药店,在超市旁边。", "items": ["fr.et", "fr.voila", "fr.une", "fr.pharmacie", "fr.a_cote_de", "fr.supermarche"] },
+    { "speaker": "hao", "text": "Est-ce qu'il y a une banque ?", "zh": "有银行吗?", "items": ["fr.est_ce_que", "fr.il_y_a", "fr.une", "fr.banque"] },
+    { "speaker": "chloe", "text": "Oui, la banque est en face de la pharmacie.", "zh": "有,银行在药店对面。", "items": ["fr.oui", "fr.banque", "fr.etre", "fr.en_face_de", "fr.pharmacie"] },
+    { "speaker": "hao", "text": "Et la poste ?", "zh": "那邮局呢?", "items": ["fr.et", "fr.poste"] },
+    { "speaker": "chloe", "text": "La poste est sur la place, à côté d'un petit musée.", "zh": "邮局在广场上,旁边是一个小博物馆。", "items": ["fr.poste", "fr.etre", "fr.sur", "fr.place", "fr.a_cote_de", "fr.un", "fr.petit", "fr.musee"] },
+    { "speaker": "hao", "text": "Un musée ? J'adore les musées !", "zh": "博物馆?我最喜欢博物馆了!", "items": ["fr.un", "fr.musee", "fr.je", "fr.adorer"] },
+    { "speaker": "hao", "text": "Et l'université, c'est où ?", "zh": "那大学在哪儿?", "items": ["fr.et", "fr.universite", "fr.cest", "fr.ou_lieu"] },
+    { "speaker": "chloe", "text": "L'université ? Elle est à côté de la gare.", "zh": "大学?在火车站旁边。", "items": ["fr.universite", "fr.elle", "fr.etre", "fr.a_cote_de", "fr.gare"] },
+    { "speaker": "hao", "text": "Lyon, c'est une belle ville !", "zh": "里昂真是一座漂亮的城市!", "items": ["fr.cest", "fr.une", "fr.beau", "fr.ville"] }
+  ],
+  "questions": [
+    { "prompt": "银行在哪儿?", "options": ["超市旁边", "药店对面", "广场上", "火车站旁边"], "answer": 1, "explainZh": "克洛艾说:la banque est en face de la pharmacie.(en face de = 在……对面)" },
+    { "prompt": "邮局旁边是什么?", "options": ["一家超市", "一家银行", "一个小博物馆"], "answer": 2, "explainZh": "克洛艾说:La poste est sur la place, à côté d'un petit musée." },
+    { "prompt": "大学在哪儿?", "options": ["火车站旁边", "邮局对面", "超市旁边"], "answer": 0, "explainZh": "克洛艾说:Elle est à côté de la gare.(à côté de = 在……旁边)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.il_y_a_places", "titleZh": "问附近有没有:Est-ce qu'il y a… ?",
+      "bodyZh": "问附近有没有某个地方:Est-ce qu'il y a une pharmacie ?(这一带有药店吗?)口语里也可以只用升调:Il y a une pharmacie ?。il y a 后面一般接 un / une:il y a un supermarché, il y a une banque。没有:Il n'y a pas de banque.(否定以后 un / une 变成 de,第 2 单元学过。)\n已经知道是哪一个、要说它在哪儿,就换成“定冠词 + 名词 + être”:La banque est en face de la pharmacie. 中文说“有一家银行”“银行在药店对面”,法语分别用 il y a 和 être,不要混。\n地点名词要连冠词记性别:le supermarché、le musée(以 -ée 结尾却是阳性!)、la place、la banque、la poste、la pharmacie、la gare、la ville;元音开头的 l'université 是阴性。\nà côté de、en face de 碰到 le 要缩合:à côté du supermarché(de + le → du);碰到 la、l' 不变:en face de la pharmacie。",
+      "examples": [
+        { "text": "Est-ce qu'il y a une poste ?", "zh": "这儿有邮局吗?" },
+        { "text": "Il n'y a pas de musée dans ma rue.", "zh": "我住的街上没有博物馆。" },
+        { "text": "La gare est à côté du supermarché.", "zh": "火车站在超市旁边。" },
+        { "text": "Le musée est en face de la banque.", "zh": "博物馆在银行对面。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u1.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101040,
+  "titleZh": "请问怎么拼?", "goalZh": "会拼写自己的姓名;听不懂时会请对方重复、说慢一点,或问某个词的意思", "canDoZh": "能在办手续时拼出自己的姓名,没听懂时礼貌地请对方再说一遍、说慢一点",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.first_name", "kind": "phrase", "pos": "noun", "text": "first name", "zh": "名(不是姓)", "features": { "ipa": "ˈfɝːst ˌneɪm" }, "noteZh": "英语名在前、姓在后:Lei Zhang。表格上 First name 填 Lei,Last name 填 Zhang;别因为 first 是“第一”就把姓填进去。" },
+    { "id": "en.last_name", "kind": "phrase", "pos": "noun", "text": "last name", "zh": "姓", "alt": ["family name"], "features": { "ipa": "ˈlæst ˌneɪm" }, "noteZh": "也叫 family name;美国人常有 middle name(中间名),中国学生一般没有,空着就行。" },
+    { "id": "en.how_do_you_spell", "kind": "phrase", "pos": "phrase", "text": "How do you spell", "zh": "……怎么拼?", "features": { "ipa": "ˌhaʊ də jə ˈspel" }, "noteZh": "常说 How do you spell that? / How do you spell your last name?;拼的时候一个字母一个字母地读:Z-H-A-N-G。" },
+    { "id": "en.sorry", "kind": "word", "pos": "interj", "text": "Sorry", "zh": "对不起;(升调)你说什么?", "features": { "ipa": "ˈsɑːri" }, "noteZh": "用升调说 Sorry? ↗ 意思是“没听清,请再说一遍”,美国人很常用,比 Pardon? 更自然。" },
+    { "id": "en.say_that_again", "kind": "phrase", "pos": "phrase", "text": "Could you say that again", "zh": "你能再说一遍吗?", "alt": ["Can you say that again"], "features": { "ipa": "ˌkʊdʒə ˈseɪ ðæt əˈɡen" }, "noteZh": "听不懂就问,美国人很习惯,不丢人;could you 连读成“could-ja”。" },
+    { "id": "en.slower_please", "kind": "phrase", "pos": "phrase", "text": "A little slower, please", "zh": "请说慢一点", "alt": ["Slower, please", "More slowly, please"], "features": { "ipa": "ə ˌlɪt̬əl ˈsloʊɚ ˈpliːz" }, "noteZh": "比 Speak slowly. 更自然、更客气。" },
+    { "id": "en.understand", "kind": "word", "pos": "verb", "text": "understand", "zh": "懂;理解", "features": { "ipa": "ˌʌndɚˈstænd" }, "noteZh": "没听懂说 Sorry, I don't understand.;重音在最后 un-der-STAND。" },
+    { "id": "en.what_does_that_mean", "kind": "phrase", "pos": "phrase", "text": "What does that mean", "zh": "那是什么意思?", "alt": ["What does it mean"], "features": { "ipa": "ˌwʌt dəz ðæt ˈmiːn" }, "noteZh": "问某个词:What does “major” mean?;问句里有 does,mean 就用原形,不说 What does that means。" },
+    { "id": "en.how_do_you_say", "kind": "phrase", "pos": "phrase", "text": "How do you say this in English", "zh": "这个用英语怎么说?", "alt": ["How do you say it in English"], "features": { "ipa": "ˌhaʊ də jə ˈseɪ ðɪs ɪn ˈɪŋɡlɪʃ" }, "noteZh": "想不起英文说法时的救命句:指着东西问 How do you say this in English?,也可以直接带上中文:How do you say “学生证” in English?" }
+  ],
+  "reviewItems": ["en.my_name_is", "en.thank_you", "en.international_student"],
+  "lines": [
+    { "speaker": "advisor", "text": "Hi! What's your first name and last name, please?", "zh": "你好!请问你的名和姓是什么?", "items": ["en.hi", "en.first_name", "en.last_name"] },
+    { "speaker": "lei", "text": "Sorry? Could you say that again? A little slower, please.", "zh": "不好意思?您能再说一遍吗?请说慢一点。", "items": ["en.sorry", "en.say_that_again", "en.slower_please"] },
+    { "speaker": "advisor", "text": "Your first name and your last name.", "zh": "你的名,还有你的姓。", "items": ["en.first_name", "en.last_name"] },
+    { "speaker": "lei", "text": "Sorry, I don't understand. What does that mean?", "zh": "对不起,我没听懂。那是什么意思?", "items": ["en.sorry", "en.understand", "en.what_does_that_mean"] },
+    { "speaker": "advisor", "text": "Your first name is your name, not your family name.", "zh": "first name 是你的名字,不是你的姓。", "items": ["en.first_name", "en.last_name"] },
+    { "speaker": "lei", "text": "Oh! My name is Zhang Lei. How do you say this in English?", "zh": "哦!我叫张磊。这个用英语怎么说?", "items": ["en.my_name_is", "en.how_do_you_say"] },
+    { "speaker": "advisor", "text": "In English, it's Lei Zhang. How do you spell your last name?", "zh": "用英语说是 Lei Zhang。你的姓怎么拼?", "items": ["en.how_do_you_spell", "en.last_name"] },
+    { "speaker": "lei", "text": "Z-H-A-N-G.", "zh": "Z-H-A-N-G。", "items": [] },
+    { "speaker": "advisor", "text": "OK. Lei Zhang, international student from China. Thank you!", "zh": "好的。Lei Zhang,来自中国的国际学生。谢谢!", "items": ["en.international_student", "en.thank_you"] }
+  ],
+  "questions": [
+    { "prompt": "表格上的 first name 应该填什么?", "options": ["Zhang", "Lei", "Lei Zhang"], "answer": 1, "explainZh": "工作人员说 Your first name is your name, not your family name.——first name 是名,不是姓,所以填 Lei;英语里全名写成 Lei Zhang。" },
+    { "prompt": "磊没听清工作人员的话时,先说了什么?", "options": ["Thank you!", "How do you spell that?", "Sorry? Could you say that again?"], "answer": 2, "explainZh": "工作人员说得很快,磊用升调说 Sorry?,再请她重复:Could you say that again? A little slower, please." }
+  ],
+  "grammar": [
+    { "id": "en.g.whats_how_spell", "titleZh": "What's your…? / How do you spell…? 和英文姓名的顺序",
+      "bodyZh": "问“……是什么”用 What's your…?(What's = What is):What's your first name? What's your last name?。问“怎么拼”用 How do you spell…?,回答时一个字母一个字母地读:Z-H-A-N-G。这两种带疑问词的问句,句末语调下降 ↘。英文姓名是名在前、姓在后:张磊在英语里是 Lei Zhang,first name 是 Lei,last name 是 Zhang。拼名字时注意这几组容易混的字母:E /iː/ 和 I /aɪ/、G /dʒiː/ 和 J /dʒeɪ/、M 和 N、B 和 V;美式英语里 Z 读 /ziː/,不读 zed。",
+      "examples": [
+        { "text": "What's your last name? — Zhang.", "zh": "你姓什么?——张。" },
+        { "text": "How do you spell that? — Z-H-A-N-G.", "zh": "怎么拼?——Z-H-A-N-G。" }
+      ] }
+  ],
+  "review": "draft"
+}

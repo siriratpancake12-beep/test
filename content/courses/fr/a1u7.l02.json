@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u7.l02", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107020,
+  "titleZh": "衣服和颜色", "goalZh": "会说常见的衣服和颜色,颜色形容词跟名词配合", "canDoZh": "能说出常见的衣服和颜色,描述自己想买什么样的衣服",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.vetement", "kind": "word", "pos": "noun", "text": "le vêtement", "zh": "衣服(一件)", "features": { "gender": "m", "ipa": "lə vɛt.mɑ̃" }, "noteZh": "说“衣服”一般用复数 les vêtements;ê 读 [ɛ],中间的 e 不发音。" },
+    { "id": "fr.manteau", "kind": "word", "pos": "noun", "text": "le manteau", "zh": "大衣;外套", "features": { "gender": "m", "ipa": "lə mɑ̃.to" }, "noteZh": "eau 读 [o];复数 manteaux(加 x,不加 s)。" },
+    { "id": "fr.pull", "kind": "word", "pos": "noun", "text": "le pull", "zh": "毛衣", "features": { "gender": "m", "ipa": "lə pyl" }, "noteZh": "u 读 [y],ll 读 [l],不要按英语读。" },
+    { "id": "fr.pantalon", "kind": "word", "pos": "noun", "text": "le pantalon", "zh": "裤子", "features": { "gender": "m", "ipa": "lə pɑ̃.ta.lɔ̃" }, "noteZh": "一条裤子用单数:un pantalon(英语 trousers 是复数)。" },
+    { "id": "fr.tee_shirt", "kind": "word", "pos": "noun", "text": "le tee-shirt", "zh": "T 恤", "alt": ["le t-shirt"], "features": { "gender": "m", "ipa": "lə ti.ʃœʁt" }, "noteZh": "也写 t-shirt;复数 des tee-shirts。" },
+    { "id": "fr.chaussure", "kind": "word", "pos": "noun", "text": "la chaussure", "zh": "鞋", "features": { "gender": "f", "ipa": "la ʃo.syʁ" }, "noteZh": "一般用复数 des chaussures(一双鞋)。" },
+    { "id": "fr.noir", "kind": "word", "pos": "adj", "text": "noir", "zh": "黑色的(阳性)", "features": { "ipa": "nwaʁ" }, "noteZh": "阴性 noire,复数 noirs / noires,读音都一样。" },
+    { "id": "fr.blanc", "kind": "word", "pos": "adj", "text": "blanc", "zh": "白色的(阳性)", "features": { "ipa": "blɑ̃" }, "noteZh": "c 不发音;阴性不规则:blanche [blɑ̃ʃ]。" },
+    { "id": "fr.bleu", "kind": "word", "pos": "adj", "text": "bleu", "zh": "蓝色的(阳性)", "features": { "ipa": "blø" }, "noteZh": "阴性 bleue,复数 bleus,读音都一样。" },
+    { "id": "fr.rouge", "kind": "word", "pos": "adj", "text": "rouge", "zh": "红色的", "features": { "ipa": "ʁuʒ" }, "noteZh": "以 -e 结尾,阴阳性同形;复数 rouges。" }
+  ],
+  "reviewItems": ["fr.grand", "fr.beau", "fr.aimer", "fr.adorer"],
+  "lines": [
+    { "speaker": "chloe", "text": "Hao, tu as un manteau ? On est en novembre !", "zh": "浩,你有大衣吗?都十一月了!", "items": ["fr.tu", "fr.avoir", "fr.un", "fr.manteau", "fr.on", "fr.etre", "fr.en", "fr.novembre"] },
+    { "speaker": "hao", "text": "Non, j'ai des tee-shirts, c'est tout !", "zh": "没有,我只有 T 恤!", "items": ["fr.non", "fr.je", "fr.avoir", "fr.des", "fr.tee_shirt", "fr.cest_tout"] },
+    { "speaker": "chloe", "text": "On va acheter des vêtements ensemble !", "zh": "那我们一起去买衣服吧!", "items": ["fr.on", "fr.aller", "fr.acheter", "fr.des", "fr.vetement", "fr.ensemble"] },
+    { "speaker": "hao", "text": "Je voudrais un manteau noir et un pull bleu.", "zh": "我想要一件黑大衣和一件蓝毛衣。", "items": ["fr.je_voudrais", "fr.un", "fr.manteau", "fr.noir", "fr.et", "fr.pull", "fr.bleu"] },
+    { "speaker": "chloe", "text": "Et un pantalon aussi !", "zh": "还要一条裤子!", "items": ["fr.et", "fr.un", "fr.pantalon", "fr.aussi"] },
+    { "speaker": "hao", "text": "Le manteau noir est beau, mais un peu grand.", "zh": "这件黑大衣挺好看,就是有点大。", "items": ["fr.manteau", "fr.noir", "fr.etre", "fr.beau", "fr.mais", "fr.un_peu", "fr.grand"] },
+    { "speaker": "chloe", "text": "Regarde ! J'adore les chaussures blanches.", "zh": "你看!我好喜欢这双白鞋。", "items": ["fr.regarder", "fr.je", "fr.adorer", "fr.chaussure", "fr.blanc"] },
+    { "speaker": "hao", "text": "Et les chaussures rouges ?", "zh": "那双红的呢?", "items": ["fr.et", "fr.chaussure", "fr.rouge"] },
+    { "speaker": "chloe", "text": "Rouges ? Non, merci ! J'aime le blanc.", "zh": "红的?算了吧!我喜欢白的。", "items": ["fr.rouge", "fr.non", "fr.merci", "fr.je", "fr.aimer", "fr.blanc"] }
+  ],
+  "questions": [
+    { "prompt": "浩为什么要买衣服?", "options": ["他的大衣太旧了", "他只有 T 恤,没有大衣", "他要去巴黎"], "answer": 1, "explainZh": "克洛艾问 Tu as un manteau ?,浩说:Non, j'ai des tee-shirts, c'est tout !" },
+    { "prompt": "浩想要什么颜色的毛衣?", "options": ["黑色", "白色", "蓝色", "红色"], "answer": 2, "explainZh": "Je voudrais un manteau noir et un pull bleu.——黑色的是大衣,毛衣要蓝色的。" },
+    { "prompt": "克洛艾喜欢哪双鞋?", "options": ["白色的", "红色的", "黑色的"], "answer": 0, "explainZh": "J'adore les chaussures blanches.——blanches 是 blanc 的阴性复数;红鞋她说 Non, merci !" }
+  ],
+  "grammar": [
+    { "id": "fr.g.couleurs", "titleZh": "颜色词放在名词后面,还要配合",
+      "bodyZh": "法语的颜色词是形容词,一般放在名词后面:un manteau noir(黑大衣)、un pull bleu(蓝毛衣)。中文和英语都把颜色放在前面(a black coat),照着说成 un noir manteau 是最常见的错误。颜色词还要和名词的性、数一致:阴性加 -e,复数加 -s,noir → noire / noirs / noires,bleu → bleue / bleus / bleues,写法变了,读音都一样。blanc 的阴性不规则:blanche,要读出 [ʃ]。rouge 本来就以 -e 结尾,阴阳性同形,复数只加 -s。另外两点和中文、英语不同:一条裤子是单数 un pantalon(英语 trousers 是复数);一双鞋说复数 des chaussures。",
+      "examples": [
+        { "text": "Je voudrais un manteau noir.", "zh": "我想要一件黑色的大衣。" },
+        { "text": "Chloé adore les chaussures blanches.", "zh": "克洛艾特别喜欢那双白鞋。" },
+        { "text": "Le lit est blanc, la table est blanche.", "zh": "床是白的,桌子也是白的。" },
+        { "text": "La pomme est rouge, le pull est rouge aussi.", "zh": "苹果是红的,毛衣也是红的。" }
+      ] }
+  ],
+  "review": "draft"
+}

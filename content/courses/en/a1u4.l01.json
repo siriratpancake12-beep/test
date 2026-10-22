@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u4.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 Food & drinks", "order": 104010,
+  "titleZh": "点一杯咖啡", "goalZh": "会在咖啡店点一杯咖啡,说清楚大小、冷热和堂食还是外带", "canDoZh": "能在美国的咖啡店点一杯咖啡:选大小和冷热,说清楚在这儿喝还是带走",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.coffee", "kind": "word", "pos": "noun", "text": "coffee", "zh": "咖啡", "features": { "ipa": "ˈkɑːfi" }, "noteZh": "美式 o 读 /ɑː/,嘴张大;重音在前 COF-fee。" },
+    { "id": "en.can_i_get", "kind": "phrase", "pos": "phrase", "text": "Can I get", "zh": "请给我……(点单)", "alt": ["Could I get", "Can I have"], "features": { "ipa": "kən aɪ ˈɡet" }, "noteZh": "美国人点单最常用 Can I get a…, please?;直接说 I want… 会显得生硬。can 在这里弱读成 /kən/。" },
+    { "id": "en.small", "kind": "word", "pos": "adj", "text": "small", "zh": "小的;小杯、小号", "features": { "ipa": "smɑːl" }, "noteZh": "a 在 l 前读 /ɑː/;词尾 l 舌尖要抬起来。" },
+    { "id": "en.medium", "kind": "word", "pos": "adj", "text": "medium", "zh": "中等的;中杯、中号", "features": { "ipa": "ˈmiːdiəm" }, "noteZh": "读 \"MEE-dee-um\",不读 \"mei-di-um\"。" },
+    { "id": "en.large", "kind": "word", "pos": "adj", "text": "large", "zh": "大杯的;大号的", "features": { "ipa": "lɑːrdʒ" }, "noteZh": "杯型、衣服尺码的\"大\"用 large;日常说\"大\"用 big。" },
+    { "id": "en.hot", "kind": "word", "pos": "adj", "text": "hot", "zh": "热的;烫的", "features": { "ipa": "hɑːt" }, "noteZh": "美式 o 读 /ɑː/;hot 还有\"辣\"的意思:hot sauce 辣酱。" },
+    { "id": "en.iced", "kind": "word", "pos": "adj", "text": "iced", "zh": "加冰的(饮料)", "features": { "ipa": "aɪst" }, "noteZh": "iced coffee 冰咖啡、iced tea 冰茶;-ed 读 /t/。" },
+    { "id": "en.anything_else", "kind": "phrase", "pos": "phrase", "text": "Anything else", "zh": "还要别的吗?", "features": { "ipa": "ˌeniθɪŋ ˈels" }, "noteZh": "店员几乎一定会问;不要了就说 That's it. 或 No, that's all.;th 是清音 /θ/。" },
+    { "id": "en.thats_it", "kind": "phrase", "pos": "phrase", "text": "That's it", "zh": "就这些", "alt": ["That's all"], "features": { "ipa": "ˌðæts ˈɪt" }, "noteZh": "That's 和 it 连读成 \"that-sit\"。" },
+    { "id": "en.for_here_or_to_go", "kind": "phrase", "pos": "phrase", "text": "For here or to go", "zh": "在这儿用还是带走?", "features": { "ipa": "fɚ ˈhɪr ɚ tə ˈɡoʊ" }, "noteZh": "回答 For here.(堂食)或 To go.(外带);选择疑问句前升后降:here ↗,go ↘。" }
+  ],
+  "reviewItems": ["en.how_do_you_spell", "en.first_name", "en.got_it"],
+  "lines": [
+    { "speaker": "barista", "text": "Hi! What can I get for you?", "zh": "嗨!请问要点什么?", "items": ["en.hi", "en.can_i_get"] },
+    { "speaker": "lei", "text": "Can I get a small… no, a medium iced coffee, please?", "zh": "请给我一杯小杯……不,中杯冰咖啡。", "items": ["en.can_i_get", "en.small", "en.medium", "en.iced", "en.coffee"] },
+    { "speaker": "barista", "text": "Sure. And for you?", "zh": "好的。那您呢?", "items": ["en.sure"] },
+    { "speaker": "amy", "text": "A large hot coffee, please!", "zh": "一杯大杯热咖啡,谢谢!", "items": ["en.large", "en.hot", "en.coffee"] },
+    { "speaker": "barista", "text": "Got it. Anything else? For here or to go?", "zh": "好的。还要别的吗?在这儿喝还是带走?", "items": ["en.got_it", "en.anything_else", "en.for_here_or_to_go"] },
+    { "speaker": "lei", "text": "That's it. To go, please.", "zh": "就这些。带走,谢谢。", "items": ["en.thats_it", "en.for_here_or_to_go"] },
+    { "speaker": "barista", "text": "What's your first name, and how do you spell it?", "zh": "你叫什么名字?怎么拼?", "items": ["en.first_name", "en.how_do_you_spell"] },
+    { "speaker": "lei", "text": "Lei. L-E-I.", "zh": "Lei,L-E-I。", "items": [] }
+  ],
+  "questions": [
+    { "prompt": "磊最后点了什么?", "options": ["小杯冰咖啡", "中杯冰咖啡", "大杯热咖啡", "中杯热咖啡"], "answer": 1, "explainZh": "Can I get a small… no, a medium iced coffee, please?——他先说小杯,马上改成了中杯冰咖啡。大杯热咖啡是艾米点的。" },
+    { "prompt": "他们的咖啡是在店里喝还是带走?", "options": ["带走", "在店里喝"], "answer": 0, "explainZh": "That's it. To go, please.——to go 是带走,for here 是在店里喝。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u4_can_i_get", "titleZh": "用 Can I get…? 点单",
+      "bodyZh": "在美国点单最常用 Can I get + 饮品, please?,自然又礼貌;直接说 I want… 会显得生硬。店员问你要什么则说 What can I get for you?。\n饮品点单时可以直接数:a coffee、two coffees。几个形容词一起用时,大小在前、冷热在后:a medium iced coffee、a large hot coffee;iced 以元音开头,单独用时前面是 an:an iced coffee。\n店员接着会问:Anything else?(还要别的吗?)——不要了就说 That's it.(就这些);For here or to go?(在这儿喝还是带走?)——回答 For here. 或 To go.。最后常问名字写在杯子上,记得拼给对方听。\n发音:Can I get a… 连读成 \"ca-nai-ge-da\",can 弱读成 /kən/;For here or to go? 前升后降:here ↗,go ↘。",
+      "examples": [
+        { "text": "Can I get a medium iced coffee, please?", "zh": "请给我一杯中杯冰咖啡。" },
+        { "text": "For here or to go? — To go, please.", "zh": "在这儿喝还是带走?——带走,谢谢。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u7.l03", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107030,
+  "titleZh": "试衣服、付钱——ce / cette / ces 和 pouvoir", "goalZh": "会在服装店试衣服、问尺码和价格,用卡付钱", "canDoZh": "能在服装店说要试哪件、问有没有别的尺码、问价格,并用卡付钱",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.ce", "kind": "word", "pos": "det", "text": "ce", "zh": "这个;那个(阳性)", "features": { "ipa": "sə" }, "noteZh": "元音开头的阳性名词前变成 cet:cet appartement。" },
+    { "id": "fr.cette", "kind": "word", "pos": "det", "text": "cette", "zh": "这个;那个(阴性)", "features": { "ipa": "sɛt" }, "noteZh": "cet 和 cette 读音一样 [sɛt]:cette taille。" },
+    { "id": "fr.ces", "kind": "word", "pos": "det", "text": "ces", "zh": "这些;那些", "features": { "ipa": "se" }, "noteZh": "不分阴阳;和 ses(他的)读音一样、写法不同。" },
+    { "id": "fr.taille", "kind": "word", "pos": "noun", "text": "la taille", "zh": "尺码;身材", "features": { "gender": "f", "ipa": "la taj" }, "noteZh": "-ille 读 [j];Vous faites quelle taille ?(您穿多大号?)" },
+    { "id": "fr.essayer", "kind": "word", "pos": "verb", "text": "essayer", "zh": "试(穿);尝试", "features": { "ipa": "e.se.je" }, "noteZh": "Je peux essayer… ?(我可以试一下……吗?);j'essaie / j'essaye 都对。" },
+    { "id": "fr.trop", "kind": "word", "pos": "adv", "text": "trop", "zh": "太;过于", "features": { "ipa": "tʁo" }, "noteZh": "p 不发音;C'est trop cher. Il est trop petit.;trop 是“过头了”,夸东西好用 très:très beau。" },
+    { "id": "fr.cher", "kind": "word", "pos": "adj", "text": "cher", "zh": "贵的(阳性)", "features": { "ipa": "ʃɛʁ" }, "noteZh": "r 要读出来;阴性 chère,复数 chers / chères。" },
+    { "id": "fr.vert", "kind": "word", "pos": "adj", "text": "vert", "zh": "绿色的(阳性)", "features": { "ipa": "vɛʁ" }, "noteZh": "t 不发音;阴性 verte [vɛʁt]。" },
+    { "id": "fr.payer", "kind": "word", "pos": "verb", "text": "payer", "zh": "付钱;支付", "features": { "ipa": "pe.je" }, "noteZh": "payer par carte(刷卡),payer en espèces(付现金);je paie / je paye 都对。" },
+    { "id": "fr.pouvoir", "kind": "word", "pos": "verb", "text": "pouvoir", "zh": "能;可以", "features": { "ipa": "pu.vwaʁ" }, "noteZh": "je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent;后面接动词原形:Je peux essayer ? Je peux payer par carte ?" }
+  ],
+  "reviewItems": ["fr.pull", "fr.cest_combien", "fr.euro", "fr.par"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour, madame. Je peux essayer ce pull vert ?", "zh": "您好。我可以试试这件绿毛衣吗?", "items": ["fr.bonjour", "fr.madame", "fr.je", "fr.pouvoir", "fr.essayer", "fr.ce", "fr.pull", "fr.vert"] },
+    { "speaker": "vendeuse", "text": "D'accord. Il est en M.", "zh": "好的。这件是 M 号。", "items": ["fr.d_accord", "fr.il", "fr.etre", "fr.en"] },
+    { "speaker": "hao", "text": "Il est trop petit. Vous avez ce pull en L ?", "zh": "太小了。这件毛衣有 L 号的吗?", "items": ["fr.il", "fr.etre", "fr.trop", "fr.petit", "fr.vous", "fr.avoir", "fr.ce", "fr.pull", "fr.en"] },
+    { "speaker": "vendeuse", "text": "Oui, voilà. Cette taille vous va très bien !", "zh": "有,给您。这个尺码您穿正合适!", "items": ["fr.oui", "fr.voila", "fr.cette", "fr.taille", "fr.vous", "fr.aller", "fr.tres", "fr.bien"] },
+    { "speaker": "hao", "text": "Soixante-quinze euros ? C'est trop cher ! Ces pulls bleus, c'est combien ?", "zh": "(看价签)75 欧?太贵了!这些蓝毛衣多少钱?", "items": ["fr.soixante", "fr.quinze", "fr.euro", "fr.cest", "fr.trop", "fr.cher", "fr.ces", "fr.pull", "fr.bleu", "fr.cest_combien"] },
+    { "speaker": "vendeuse", "text": "Trente euros. Et il y a votre taille !", "zh": "30 欧。也有您的尺码!", "items": ["fr.trente", "fr.euro", "fr.et", "fr.il_y_a", "fr.votre", "fr.taille"] },
+    { "speaker": "hao", "text": "Je prends le bleu. Je peux payer par carte ?", "zh": "那我要蓝的。可以刷卡吗?", "items": ["fr.je_prends", "fr.prendre", "fr.bleu", "fr.je", "fr.pouvoir", "fr.payer", "fr.par", "fr.carte"] },
+    { "speaker": "vendeuse", "text": "Oui ! Merci, et bonne journée !", "zh": "可以!谢谢,祝您愉快!", "items": ["fr.oui", "fr.merci", "fr.et", "fr.bonne_journee"] }
+  ],
+  "questions": [
+    { "prompt": "浩为什么没买那件绿毛衣?", "options": ["M 号太大了", "绿色的太贵了", "店里没有 L 号"], "answer": 1, "explainZh": "L 号很合适,可浩一看价钱就说:Soixante-quinze euros ? C'est trop cher !" },
+    { "prompt": "浩买的蓝毛衣多少钱?", "options": ["13 欧", "75 欧", "30 欧"], "answer": 2, "explainZh": "店员说 Trente euros(30 欧)。trente(30)和 treize(13)听起来有点像,注意分清。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.demonstratifs", "titleZh": "ce / cet / cette / ces(这个、那个)和 Je peux… ?",
+      "bodyZh": "“这个、那个”要跟后面名词的性、数变:阳性用 ce(ce pull),元音开头的阳性名词前用 cet(cet appartement),阴性用 cette(cette taille),复数不分阴阳一律用 ces(ces pulls, ces chaussures)。cet 和 cette 读音一样 [sɛt];ces 和 ses(他的)读音一样。中文的“这”不变,法语要先想好名词的阴阳性和单复数。trop + 形容词是“太……(过头了)”:trop petit, trop cher,形容词照样配合(trop petite, trop chères)。想问“我可以……吗?”就说 Je peux + 动词原形:Je peux essayer ce pull ? Je peux payer par carte ?;pouvoir 的变位:je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent。",
+      "examples": [
+        { "text": "Je peux essayer ce pull ?", "zh": "我可以试试这件毛衣吗?" },
+        { "text": "Ces chaussures sont trop chères.", "zh": "这双鞋太贵了。" }
+      ] }
+  ],
+  "review": "draft"
+}

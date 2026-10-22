@@ -2,25 +2,41 @@
   "id": "en.a1u1.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
   "unit": "A1-1 Nice to meet you", "order": 101010,
   "titleZh": "初次见面", "goalZh": "会做简单的自我介绍,读准 th 和词重音", "canDoZh": "能用英语和新朋友互相介绍、说自己来自哪里",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 22,
   "newItems": [
-    { "id": "en.hi", "kind": "word", "pos": "interj", "text": "Hi", "zh": "嗨", "features": { "ipa": "haɪ" } },
-    { "id": "en.my_name_is", "kind": "phrase", "pos": "phrase", "text": "My name is", "zh": "我的名字是……", "features": { "ipa": "maɪ ˈneɪm ɪz" } },
-    { "id": "en.nice_to_meet_you", "kind": "phrase", "pos": "phrase", "text": "Nice to meet you", "zh": "很高兴认识你", "features": { "ipa": "ˈnaɪs tə ˈmiːt juː" } },
-    { "id": "en.where_are_you_from", "kind": "phrase", "pos": "phrase", "text": "Where are you from", "zh": "你是哪里人?", "features": {} },
-    { "id": "en.im_from", "kind": "phrase", "pos": "phrase", "text": "I'm from", "zh": "我来自……", "alt": ["I am from"], "features": {} },
+    { "id": "en.hi", "kind": "word", "pos": "interj", "text": "Hi", "zh": "嗨;你好", "features": { "ipa": "haɪ" }, "noteZh": "美国人最常用的打招呼,对同学、老师、店员都可以说,比 Hello 更随意、更常用。" },
+    { "id": "en.my_name_is", "kind": "phrase", "pos": "phrase", "text": "My name is", "zh": "我的名字是……", "features": { "ipa": "maɪ ˈneɪm ɪz" }, "noteZh": "稍正式的自我介绍;口语里更常直接说 I'm Lei.。name 的 a 读 /eɪ/,词尾 m 要把嘴闭上。" },
+    { "id": "en.nice_to_meet_you", "kind": "phrase", "pos": "phrase", "text": "Nice to meet you", "zh": "很高兴认识你", "features": { "ipa": "ˈnaɪs tə ˈmiːt juː" }, "noteZh": "只在第一次见面时说;重音落在 NICE 和 MEET 上,to 轻读成 /tə/。对方先说了,你可以回 Nice to meet you, too.。" },
+    { "id": "en.where_are_you_from", "kind": "phrase", "pos": "phrase", "text": "Where are you from", "zh": "你是哪里人?", "features": { "ipa": "ˌwer ɚ jə ˈfrʌm" }, "noteZh": "from 放在句末并且重读;are you 轻读,连起来像“where-er-ya FROM”。回答用 I'm from…。" },
+    { "id": "en.im_from", "kind": "phrase", "pos": "phrase", "text": "I'm from", "zh": "我来自……", "alt": ["I am from"], "features": { "ipa": "aɪm frəm" }, "noteZh": "常见错误:I'm come from China。要么说 I'm from China,要么说 I come from China,两个动词不能叠在一起。" },
     { "id": "en.thank_you", "kind": "phrase", "pos": "phrase", "text": "Thank you", "zh": "谢谢", "alt": ["Thanks"], "features": { "ipa": "ˈθæŋk juː" }, "noteZh": "th 要把舌尖轻轻放在上下牙之间送气,不是 s 也不是 f。" }
   ],
+  "reviewItems": [],
   "lines": [
     { "speaker": "amy", "text": "Hi! My name is Amy.", "zh": "嗨!我叫艾米。", "items": ["en.hi", "en.my_name_is"] },
-    { "speaker": "lei", "text": "Hi, Amy! My name is Lei. Nice to meet you.", "zh": "嗨,艾米!我叫磊。很高兴认识你。", "items": ["en.hi", "en.my_name_is", "en.nice_to_meet_you"] },
+    { "speaker": "lei", "text": "Hi, Amy. My name is Lei.", "zh": "嗨,艾米。我叫磊。", "items": ["en.hi", "en.my_name_is"] },
+    { "speaker": "amy", "text": "Lei? Nice to meet you, Lei!", "zh": "磊?很高兴认识你,磊!", "items": ["en.nice_to_meet_you"] },
+    { "speaker": "lei", "text": "Nice to meet you, Amy.", "zh": "很高兴认识你,艾米。", "items": ["en.nice_to_meet_you"] },
     { "speaker": "amy", "text": "Where are you from?", "zh": "你是哪里人?", "items": ["en.where_are_you_from"] },
     { "speaker": "lei", "text": "I'm from Chengdu, China.", "zh": "我来自中国成都。", "items": ["en.im_from"] },
-    { "speaker": "amy", "text": "Cool! Thank you, Lei.", "zh": "酷!谢谢你,磊。", "items": ["en.thank_you"] }
+    { "speaker": "amy", "text": "Oh, Chengdu! Wow!", "zh": "哦,成都!哇!", "items": [] },
+    { "speaker": "lei", "text": "Where are you from, Amy?", "zh": "你是哪里人,艾米?", "items": ["en.where_are_you_from"] },
+    { "speaker": "amy", "text": "I'm from Seattle. Oh, and this is for you.", "zh": "我是西雅图人。哦,这个给你。", "items": ["en.im_from"] },
+    { "speaker": "lei", "text": "Oh! Thank you, Amy.", "zh": "哦!谢谢你,艾米。", "items": ["en.thank_you"] }
   ],
   "questions": [
-    {"prompt": "磊来自哪里?", "options": ["北京", "成都", "上海"], "answer": 1, "explainZh": "I'm from Chengdu, China."},
-    {"prompt": "Amy 问了磊什么?", "options": ["他叫什么名字", "他是哪里人", "他几岁"], "answer": 1, "explainZh": "Where are you from? —— 你是哪里人?"}
+    { "prompt": "磊来自哪里?", "options": ["北京", "成都", "上海"], "answer": 1, "explainZh": "磊说 I'm from Chengdu, China.(我来自中国成都。)" },
+    { "prompt": "艾米是哪里人?", "options": ["成都人", "加州人", "西雅图人"], "answer": 2, "explainZh": "磊回问 Where are you from, Amy?,艾米说 I'm from Seattle.(我是西雅图人。)" },
+    { "prompt": "磊最后为什么说 Thank you?", "options": ["艾米给了他一样东西", "艾米告诉了他自己的名字", "艾米问他是哪里人"], "answer": 0, "explainZh": "艾米说 Oh, and this is for you.(这个给你。)磊接过来说 Thank you, Amy.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.im_i_am", "titleZh": "I'm = I am:说名字和来自哪里",
+      "bodyZh": "英语的句子一定要有动词。说“我是……”“我来自……”要用 be 动词 am:I am,口语里几乎都缩写成 I'm。中文说“我成都人”可以不带“是”,英语不能说 I from China,要说 I'm from China;也不要说 I'm come from China——I'm 和 come 是两个动词,只能用一个。问别人来自哪里说 Where are you from?,from 放在句末。介绍名字可以说 My name is Lei.,口语里更常说 I'm Lei.。发音:Thank you 的 th 舌尖要放在上下牙之间;Nice to meet you 读成 NICE to MEET you,重音落在实词上。",
+      "examples": [
+        { "text": "I'm from Chengdu, China.", "zh": "我来自中国成都。" },
+        { "text": "Where are you from? — I'm from Seattle.", "zh": "你是哪里人?——我是西雅图人。" },
+        { "text": "Hi! I'm Lei. Nice to meet you.", "zh": "嗨!我是磊。很高兴认识你。" }
+      ] }
   ],
   "review": "draft"
 }

@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u1.l02", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101020,
+  "titleZh": "宿舍里的新室友", "goalZh": "会用正式和随意的不同说法打招呼、问候和回应", "canDoZh": "能和新室友打招呼、互相问候,被问 How are you? 时自然地回答并回问",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.hey", "kind": "word", "pos": "interj", "text": "Hey", "zh": "嘿(熟人、同龄人之间)", "features": { "ipa": "heɪ" }, "noteZh": "比 Hi 更随意,美国年轻人见面常说;对老师、上司用 Hi 或 Hello 更稳妥。" },
+    { "id": "en.come_in", "kind": "phrase", "pos": "phrase", "text": "Come in", "zh": "请进", "features": { "ipa": "ˌkʌm ˈɪn" }, "noteZh": "连读:come 的 m 和 in 连在一起,听起来像“ca-min”。" },
+    { "id": "en.how_are_you", "kind": "phrase", "pos": "phrase", "text": "How are you", "zh": "你好吗?", "features": { "ipa": "ˌhaʊ ɚ ˈjuː" }, "noteZh": "美国人常把它当“你好”用,并不期待你认真讲近况;简单回答 Good, thanks. 再回问一句就好。" },
+    { "id": "en.im_good", "kind": "phrase", "pos": "phrase", "text": "I'm good", "zh": "我挺好的", "alt": ["I am good", "Good"], "features": { "ipa": "aɪm ˈɡʊd" }, "noteZh": "课本里的 I'm fine, thank you. And you? 没有错,但美国人日常更常说 Good / I'm good / Pretty good。" },
+    { "id": "en.and_you", "kind": "phrase", "pos": "phrase", "text": "And you", "zh": "你呢?", "alt": ["How about you", "What about you"], "features": { "ipa": "ənd ˈjuː" }, "noteZh": "别人问候你以后要回问一句,这是基本礼貌;重音落在 you 上。说完自己的情况再问 And you? 也很常用:I'm from China. And you?" },
+    { "id": "en.hows_it_going", "kind": "phrase", "pos": "phrase", "text": "How's it going", "zh": "最近还好吗?(随意)", "alt": ["How is it going"], "features": { "ipa": "ˌhaʊz ɪt ˈɡoʊɪŋ" }, "noteZh": "朋友、同学之间最常用的问候;How's it 连读成“how-zit”,回答同样可以是 Good / Great。" },
+    { "id": "en.great", "kind": "word", "pos": "adj", "text": "great", "zh": "太好了;很棒的", "features": { "ipa": "ɡreɪt" }, "noteZh": "回答问候时说 Great! 比 Good 更热情;ea 读 /eɪ/,不读 /iː/。" },
+    { "id": "en.cool", "kind": "word", "pos": "adj", "text": "cool", "zh": "酷;好的(口语回应)", "features": { "ipa": "kuːl" }, "noteZh": "美国人表示“好啊、不错”常说 Cool!;词尾 l 要把舌尖抬起来碰上齿龈,不要吞掉。" },
+    { "id": "en.roommate", "kind": "word", "pos": "noun", "text": "roommate", "zh": "室友", "features": { "ipa": "ˈruːmmeɪt" }, "noteZh": "中间两个 m 只读一个稍长的 m;美国大学新生大多住宿舍,一般两人一间。" },
+    { "id": "en.see_you_later", "kind": "phrase", "pos": "phrase", "text": "See you later", "zh": "回头见", "alt": ["See you"], "features": { "ipa": "ˌsiː jə ˈleɪt̬ɚ" }, "noteZh": "不一定真的“晚点见”,只是道别的常用说法,和 Bye 差不多;later 的 t 读成轻快的 d。" }
+  ],
+  "reviewItems": ["en.hi", "en.nice_to_meet_you", "en.my_name_is"],
+  "lines": [
+    { "speaker": "ethan", "text": "Hey! How's it going? Come in!", "zh": "嘿!你好啊!快进来!", "items": ["en.hey", "en.hows_it_going", "en.come_in"] },
+    { "speaker": "lei", "text": "Hi! I'm good, thanks. How are you?", "zh": "嗨!我挺好的,谢谢。你好吗?", "items": ["en.hi", "en.im_good", "en.thank_you", "en.how_are_you"] },
+    { "speaker": "ethan", "text": "Great! Are you my roommate?", "zh": "很好!你是我的室友吗?", "items": ["en.great", "en.roommate"] },
+    { "speaker": "lei", "text": "Yes, I am. My name is Lei. Are you Ethan?", "zh": "是的,我是。我叫磊。你是伊森吗?", "items": ["en.my_name_is"] },
+    { "speaker": "ethan", "text": "Yes, I am. Cool! Nice to meet you, Lei.", "zh": "对,我就是。太好了!很高兴认识你,磊。", "items": ["en.cool", "en.nice_to_meet_you"] },
+    { "speaker": "lei", "text": "Nice to meet you, Ethan. I'm from Chengdu, China. And you?", "zh": "很高兴认识你,伊森。我来自中国成都。你呢?", "items": ["en.nice_to_meet_you", "en.im_from", "en.and_you"] },
+    { "speaker": "ethan", "text": "I'm from California. OK, see you later, man!", "zh": "我是加州人。好啦,回头见,哥们儿!", "items": ["en.im_from", "en.see_you_later"] },
+    { "speaker": "lei", "text": "Oh, OK. See you later!", "zh": "哦,好的。回头见!", "items": ["en.see_you_later"] }
+  ],
+  "questions": [
+    { "prompt": "伊森是哪里人?", "options": ["加州", "成都", "西雅图"], "answer": 0, "explainZh": "磊说完自己来自成都后问 And you?,伊森说 I'm from California.(我是加州人。)" },
+    { "prompt": "伊森开门时,用哪句话随意地问候磊?", "options": ["How are you?", "Nice to meet you.", "How's it going?"], "answer": 2, "explainZh": "伊森说 Hey! How's it going? Come in!——How's it going? 是朋友、同学之间随意的问候;磊回问的 How are you? 什么场合都能用。" }
+  ],
+  "grammar": [
+    { "id": "en.g.be_yes_no", "titleZh": "Are you…? —— Yes, I am. / No, I'm not.",
+      "bodyZh": "问“你是……吗?”把 are 放到句首:You are Ethan. → Are you Ethan?。回答不要只说 Yes,也不能说 Yes, I'm.,要用简短回答 Yes, I am.(肯定的简短回答里 I am 不能缩写)或 No, I'm not.。中文说“对,是我”就行,英语要把主语和 be 动词说出来。缩写:I am → I'm,you are → you're。语调:Are you Ethan? 这种用 yes / no 回答的问题,句末语调上扬 ↗;How are you? 这种带疑问词的问题,句末下降 ↘。",
+      "examples": [
+        { "text": "Are you Ethan? — Yes, I am.", "zh": "你是伊森吗?——对,我是。" },
+        { "text": "Are you my roommate? — No, I'm not. I'm Amy.", "zh": "你是我的室友吗?——不是。我是艾米。" }
+      ] }
+  ],
+  "review": "draft"
+}

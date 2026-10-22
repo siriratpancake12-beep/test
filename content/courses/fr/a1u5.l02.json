@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u5.l02", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105020,
+  "titleZh": "星期一到星期日——课表", "goalZh": "会说一周七天和上午、下午、晚上,看懂课表", "canDoZh": "能看懂一周的课表,说出哪天、上午还是下午有课",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.lundi", "kind": "word", "pos": "noun", "text": "le lundi", "zh": "星期一;每周一", "features": { "gender": "m", "ipa": "lə lœ̃.di" }, "noteZh": "星期都是阳性、小写,前面不加介词(英语说 on Monday);lundi = 这个星期一,le lundi = 每个星期一。" },
+    { "id": "fr.mardi", "kind": "word", "pos": "noun", "text": "le mardi", "zh": "星期二;每周二", "features": { "gender": "m", "ipa": "lə maʁ.di" }, "noteZh": "le mardi après-midi = 每周二下午。" },
+    { "id": "fr.mercredi", "kind": "word", "pos": "noun", "text": "le mercredi", "zh": "星期三;每周三", "features": { "gender": "m", "ipa": "lə mɛʁ.kʁə.di" }, "noteZh": "中间的 e 弱读 [ə];法国很多中小学周三下午不上课。" },
+    { "id": "fr.jeudi", "kind": "word", "pos": "noun", "text": "le jeudi", "zh": "星期四;每周四", "features": { "gender": "m", "ipa": "lə ʒø.di" }, "noteZh": "eu 读 [ø]:嘴形像发“喔”,舌头像发“诶”。" },
+    { "id": "fr.vendredi", "kind": "word", "pos": "noun", "text": "le vendredi", "zh": "星期五;每周五", "features": { "gender": "m", "ipa": "lə vɑ̃.dʁə.di" }, "noteZh": "en 读鼻化元音 [ɑ̃],n 不单独发音。" },
+    { "id": "fr.samedi", "kind": "word", "pos": "noun", "text": "le samedi", "zh": "星期六;每周六", "features": { "gender": "m", "ipa": "lə sam.di" }, "noteZh": "中间的 e 不读:[sam.di]。" },
+    { "id": "fr.dimanche", "kind": "word", "pos": "noun", "text": "le dimanche", "zh": "星期日;每周日", "features": { "gender": "m", "ipa": "lə di.mɑ̃ʃ" }, "noteZh": "an 读鼻化元音 [ɑ̃];法国很多商店星期日关门。" },
+    { "id": "fr.matin", "kind": "word", "pos": "noun", "text": "le matin", "zh": "早上;上午", "features": { "gender": "m", "ipa": "lə ma.tɛ̃" }, "noteZh": "in 读鼻化元音 [ɛ̃];le matin = 每天早上,le lundi matin = 每周一上午。" },
+    { "id": "fr.apres_midi", "kind": "word", "pos": "noun", "text": "l'après-midi", "zh": "下午", "features": { "gender": "m", "ipa": "la.pʁɛ.mi.di" }, "noteZh": "元音开头,一般当阳性用;中间有连字符;le mardi après-midi = 每周二下午。" },
+    { "id": "fr.soir", "kind": "word", "pos": "noun", "text": "le soir", "zh": "晚上;傍晚", "features": { "gender": "m", "ipa": "lə swaʁ" }, "noteZh": "Bonsoir 就是 bon + soir;le soir = 每天晚上,samedi soir = 这个星期六晚上。" }
+  ],
+  "reviewItems": ["fr.cours", "fr.commencer", "fr.heure", "fr.a"],
+  "lines": [
+    { "speaker": "mme_moreau", "text": "Le matin, le cours commence à neuf heures.", "zh": "每天上午,课九点开始。", "items": ["fr.matin", "fr.cours", "fr.commencer", "fr.a", "fr.neuf", "fr.heure"] },
+    { "speaker": "mme_moreau", "text": "Le mardi et le jeudi, il y a aussi cours l'après-midi.", "zh": "每周二和周四,下午也有课。", "items": ["fr.mardi", "fr.et", "fr.jeudi", "fr.il_y_a", "fr.aussi", "fr.cours", "fr.apres_midi"] },
+    { "speaker": "mme_moreau", "text": "Le samedi et le dimanche, il n'y a pas cours.", "zh": "每周六和周日没有课。", "items": ["fr.samedi", "fr.et", "fr.dimanche", "fr.il_y_a", "fr.ne_pas", "fr.cours"] },
+    { "speaker": "chloe", "text": "Hao, tu as cours le lundi après-midi ?", "zh": "浩,你星期一下午有课吗?", "items": ["fr.tu", "fr.avoir", "fr.cours", "fr.lundi", "fr.apres_midi"] },
+    { "speaker": "hao", "text": "Non, mais le mardi et le jeudi, oui.", "zh": "没有,不过星期二和星期四下午有。", "items": ["fr.non", "fr.mais", "fr.mardi", "fr.et", "fr.jeudi", "fr.oui"] },
+    { "speaker": "chloe", "text": "Moi, j'ai cours le lundi et le vendredi après-midi.", "zh": "我星期一和星期五下午有课。", "items": ["fr.moi", "fr.je", "fr.avoir", "fr.cours", "fr.lundi", "fr.et", "fr.vendredi", "fr.apres_midi"] },
+    { "speaker": "hao", "text": "Et le soir ? Le lundi soir ?", "zh": "那晚上呢?星期一晚上?", "items": ["fr.et", "fr.soir", "fr.lundi"] },
+    { "speaker": "chloe", "text": "Le soir, je mange avec ma famille. Le mercredi après-midi ?", "zh": "晚上我和家里人一起吃饭。星期三下午呢?", "items": ["fr.soir", "fr.je", "fr.manger", "fr.avec", "fr.ma", "fr.famille", "fr.mercredi", "fr.apres_midi"] },
+    { "speaker": "hao", "text": "Oui ! Le mercredi après-midi, je n'ai pas cours.", "zh": "好啊!星期三下午我没课。", "items": ["fr.oui", "fr.mercredi", "fr.apres_midi", "fr.je", "fr.avoir", "fr.ne_pas", "fr.cours"] },
+    { "speaker": "chloe", "text": "Très bien ! Mercredi, à quatorze heures !", "zh": "太好了!那就这个星期三,下午两点!", "items": ["fr.tres", "fr.bien", "fr.mercredi", "fr.a", "fr.quatorze", "fr.heure"] }
+  ],
+  "questions": [
+    { "prompt": "浩哪几天下午有课?", "options": ["星期一和星期五", "星期二和星期四", "星期三和星期六", "每天都有"], "answer": 1, "explainZh": "莫罗老师说 Le mardi et le jeudi, il y a aussi cours l'après-midi.,浩也说 le mardi et le jeudi, oui。" },
+    { "prompt": "克洛艾晚上一般做什么?", "options": ["上课", "工作", "和家里人一起吃饭"], "answer": 2, "explainZh": "克洛艾说:Le soir, je mange avec ma famille." },
+    { "prompt": "他们约在什么时候第一次练习?", "options": ["星期三下午两点", "星期一晚上", "星期五下午两点"], "answer": 0, "explainZh": "两个人星期三下午都没课,克洛艾最后说:Mercredi, à quatorze heures !" }
+  ],
+  "grammar": [
+    { "id": "fr.g.days_parts", "titleZh": "星期和上午、下午、晚上",
+      "bodyZh": "一周七天:lundi、mardi、mercredi、jeudi、vendredi、samedi、dimanche。都是阳性,一律小写(英语的 Monday 要大写,法语不用)。\n星期前面不加介词:中文说“在星期一”,英语说 on Monday,法语直接说 lundi。\n加不加 le 意思不一样:Lundi, j'ai cours.(这个星期一我有课,只说一次)/ Le lundi, j'ai cours.(每个星期一都有课,是习惯)。课表上的安排都用 le + 星期。\n一天里的时段:le matin(上午)、l'après-midi(下午)、le soir(晚上),同样是加 le 表示“每天上午/下午/晚上”。和星期连着说:le mardi après-midi(每周二下午)、lundi soir(这个星期一晚上)。\n课表上常写 du lundi au vendredi(从星期一到星期五),现在看懂就行,du、au 的用法第 6 单元学。",
+      "examples": [
+        { "text": "Mercredi, j'ai cours à neuf heures.", "zh": "这个星期三我九点有课。" },
+        { "text": "Le mercredi, j'ai cours à neuf heures.", "zh": "每个星期三我都是九点有课。" },
+        { "text": "Le dimanche, je mange avec ma famille.", "zh": "每个星期天我都和家里人一起吃饭。" }
+      ] }
+  ],
+  "review": "draft"
+}

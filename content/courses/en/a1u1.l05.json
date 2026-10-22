@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u1.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101050,
+  "titleZh": "留个电话吧", "goalZh": "会按美国人的习惯说和听电话号码,交换联系方式并复述确认", "canDoZh": "能和同学互留电话号码和邮箱,并把听到的号码复述一遍确认",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.phone_number", "kind": "phrase", "pos": "noun", "text": "phone number", "zh": "电话号码", "features": { "ipa": "ˈfoʊn ˌnʌmbɚ" }, "noteZh": "问号码:What's your phone number? 口语也常省成 What's your number?" },
+    { "id": "en.oh_zero", "kind": "word", "pos": "num", "text": "oh", "zh": "零(报号码时)", "alt": ["zero"], "features": { "ipa": "oʊ" }, "noteZh": "美国人报电话号码、房间号时常把 0 读成 oh:555-0147 读作 five five five, oh one four seven。" },
+    { "id": "en.text", "kind": "word", "pos": "verb", "text": "text", "zh": "发短信;发消息", "features": { "ipa": "tekst" }, "noteZh": "Text me! 给我发消息;词尾 xt 是 /kst/ 三个辅音,都要读出来。" },
+    { "id": "en.call", "kind": "word", "pos": "verb", "text": "call", "zh": "打电话(给)", "features": { "ipa": "kɑːl" }, "noteZh": "Call me. 给我打电话;不说 call to me。" },
+    { "id": "en.email", "kind": "word", "pos": "noun", "text": "email", "zh": "电子邮件;邮箱", "features": { "ipa": "ˈiːmeɪl" }, "noteZh": "读邮箱地址:@ 读 at,. 读 dot;美国老师和学校主要用邮件联系学生。" },
+    { "id": "en.group_chat", "kind": "phrase", "pos": "noun", "text": "group chat", "zh": "群聊", "features": { "ipa": "ˈɡruːp ˌtʃæt" }, "noteZh": "I'll add you to the group chat. 我把你拉进群。" },
+    { "id": "en.got_it", "kind": "phrase", "pos": "phrase", "text": "Got it", "zh": "知道了;记下了", "features": { "ipa": "ˈɡɑːt̬ ɪt" }, "noteZh": "美式连读,t 变成轻快的 d,听起来像“ga-dit”。" },
+    { "id": "en.thats_right", "kind": "phrase", "pos": "phrase", "text": "That's right", "zh": "对,没错", "alt": ["That is right"], "features": { "ipa": "ˌðæts ˈraɪt" }, "noteZh": "确认对方说得对;right 的 r 嘴唇略圆,舌尖不碰上颚。" },
+    { "id": "en.sure", "kind": "word", "pos": "interj", "text": "Sure", "zh": "当然;行啊", "features": { "ipa": "ʃʊr" }, "noteZh": "别人请你帮忙、问你要联系方式时,美国人最常答 Sure!,语气轻松。" },
+    { "id": "en.youre_welcome", "kind": "phrase", "pos": "phrase", "text": "You're welcome", "zh": "不客气", "alt": ["You are welcome"], "features": { "ipa": "jʊr ˈwelkəm" }, "noteZh": "回应 Thank you;口语里也常说 No problem / Sure。" }
+  ],
+  "reviewItems": ["en.sorry", "en.say_that_again", "en.how_do_you_spell"],
+  "lines": [
+    { "speaker": "lei", "text": "Sofia, what's your phone number?", "zh": "索菲亚,你的电话号码是多少?", "items": ["en.phone_number"] },
+    { "speaker": "sofia", "text": "Sure. It's two oh six, five five five, oh one four seven.", "zh": "好呀。是 206-555-0147。", "items": ["en.sure", "en.oh_zero"] },
+    { "speaker": "lei", "text": "Sorry? Could you say that again?", "zh": "不好意思?你能再说一遍吗?", "items": ["en.sorry", "en.say_that_again"] },
+    { "speaker": "sofia", "text": "OK. Two oh six, five five five, oh one four seven.", "zh": "好的。206-555-0147。", "items": ["en.oh_zero"] },
+    { "speaker": "lei", "text": "Is that two oh six, five five five, oh one four seven?", "zh": "是 206-555-0147 吗?", "items": ["en.oh_zero"] },
+    { "speaker": "sofia", "text": "That's right. Text me or call me!", "zh": "没错。给我发消息或者打电话都行!", "items": ["en.thats_right", "en.text", "en.call"] },
+    { "speaker": "lei", "text": "Got it. Thank you! How do you spell Sofia?", "zh": "记下了。谢谢!Sofia 怎么拼?", "items": ["en.got_it", "en.thank_you", "en.how_do_you_spell"] },
+    { "speaker": "sofia", "text": "You're welcome! S-O-F-I-A. My email is in the group chat.", "zh": "不客气!S-O-F-I-A。我的邮箱在群里。", "items": ["en.youre_welcome", "en.email", "en.group_chat"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚的电话号码是多少?", "options": ["206-555-0174", "206-555-0147", "260-555-0147", "206-555-1047"], "answer": 1, "explainZh": "索菲亚说 two oh six, five five five, oh one four seven——oh 就是 0,号码是 206-555-0147。" },
+    { "prompt": "在哪儿能找到索菲亚的邮箱?", "options": ["她会发短信告诉磊", "她会打电话告诉磊", "在群聊里"], "answer": 2, "explainZh": "索菲亚说 My email is in the group chat.(我的邮箱在群里。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.phone_numbers", "titleZh": "电话号码怎么读、怎么确认",
+      "bodyZh": "美国的电话号码是 10 位,按 3-3-4 分成三组,一个数字一个数字地读,组和组之间停一下:206-555-0147 读作 two oh six, five five five, oh one four seven。号码里的 0 常读 oh,也可以读 zero。听完要复述一遍确认:Is that…?,对方说 That's right. 就没错了。问号码用 What's your phone number?(What's = What is)。请别人联系你用祈使句——直接用动词开头,不用说 you:Text me. / Call me.。",
+      "examples": [
+        { "text": "It's two oh six, five five five, oh one four seven.", "zh": "号码是 206-555-0147。" },
+        { "text": "Is that oh one four seven? — That's right.", "zh": "是 0147 吗?——对。" }
+      ] }
+  ],
+  "review": "draft"
+}

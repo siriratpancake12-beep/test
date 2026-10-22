@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u8.l01", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-8 健康、爱好与周末", "order": 108010,
+  "titleZh": "我头疼——身体部位", "goalZh": "会说身体部位,用 avoir mal à 说哪儿疼", "canDoZh": "能说自己哪儿不舒服,比如“我头疼、嗓子疼、肚子疼”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.avoir_mal_a", "kind": "phrase", "pos": "phrase", "text": "avoir mal à…", "zh": "……疼", "features": { "ipa": "a.vwaʁ mal a" }, "noteZh": "J'ai mal à la tête.(我头疼);à + le → au:J'ai mal au ventre.;à + les → aux:J'ai mal aux dents." },
+    { "id": "fr.malade", "kind": "word", "pos": "adj", "text": "malade", "zh": "生病的", "features": { "ipa": "ma.lad" }, "noteZh": "阴阳性同形;Je suis malade.(我病了。)用 être,不用 avoir。" },
+    { "id": "fr.tete", "kind": "word", "pos": "noun", "text": "la tête", "zh": "头", "features": { "gender": "f", "ipa": "la tɛt" }, "noteZh": "ê 读 [ɛ]。" },
+    { "id": "fr.gorge", "kind": "word", "pos": "noun", "text": "la gorge", "zh": "喉咙;嗓子", "features": { "gender": "f", "ipa": "la gɔʁʒ" }, "noteZh": "第一个 g 读 [g],词尾的 ge 读 [ʒ];J'ai mal à la gorge.(我嗓子疼。)" },
+    { "id": "fr.ventre", "kind": "word", "pos": "noun", "text": "le ventre", "zh": "肚子", "features": { "gender": "m", "ipa": "lə vɑ̃tʁ" }, "noteZh": "en 读鼻化元音 [ɑ̃];阳性,所以说 J'ai mal au ventre(à + le → au)。" },
+    { "id": "fr.dos", "kind": "word", "pos": "noun", "text": "le dos", "zh": "背", "features": { "gender": "m", "ipa": "lə do" }, "noteZh": "s 不发音;J'ai mal au dos.(我背疼。)" },
+    { "id": "fr.dent", "kind": "word", "pos": "noun", "text": "la dent", "zh": "牙齿", "features": { "gender": "f", "ipa": "la dɑ̃" }, "noteZh": "t 不发音;牙疼说 J'ai mal aux dents(用复数)。" },
+    { "id": "fr.main", "kind": "word", "pos": "noun", "text": "la main", "zh": "手", "features": { "gender": "f", "ipa": "la mɛ̃" }, "noteZh": "鼻化元音 [ɛ̃],和 pain 同韵;以 -ain 结尾却是阴性。" },
+    { "id": "fr.jambe", "kind": "word", "pos": "noun", "text": "la jambe", "zh": "腿", "features": { "gender": "f", "ipa": "la ʒɑ̃b" }, "noteZh": "am 读鼻化元音 [ɑ̃];两条腿都疼说 J'ai mal aux jambes。" }
+  ],
+  "reviewItems": ["fr.au", "fr.aux", "fr.avoir", "fr.tres"],
+  "lines": [
+    { "speaker": "lucas", "text": "Salut, Hao ! On va prendre le petit-déjeuner ? J'ai faim !", "zh": "嗨,浩!去吃早饭吧?我饿了!", "items": ["fr.salut", "fr.on", "fr.aller", "fr.prendre", "fr.petit_dejeuner", "fr.jai_faim"] },
+    { "speaker": "hao", "text": "Désolé, Lucas. Je suis malade.", "zh": "对不起,卢卡。我病了。", "items": ["fr.desole", "fr.je_suis", "fr.malade"] },
+    { "speaker": "lucas", "text": "Tu es malade ? Tu as mal où ?", "zh": "你病了?哪儿疼?", "items": ["fr.tu", "fr.etre", "fr.malade", "fr.avoir", "fr.avoir_mal_a", "fr.ou_lieu"] },
+    { "speaker": "hao", "text": "J'ai mal à la tête et à la gorge.", "zh": "我头疼,嗓子也疼。", "items": ["fr.je", "fr.avoir", "fr.avoir_mal_a", "fr.tete", "fr.et", "fr.gorge"] },
+    { "speaker": "lucas", "text": "Et au ventre ? Aux dents ? À la main ?", "zh": "那肚子呢?牙呢?手呢?", "items": ["fr.et", "fr.au", "fr.ventre", "fr.aux", "fr.dent", "fr.a", "fr.main"] },
+    { "speaker": "hao", "text": "Non. Mais j'ai très mal au dos et aux jambes.", "zh": "不疼。可是我背疼得厉害,腿也疼。", "items": ["fr.non", "fr.mais", "fr.je", "fr.avoir", "fr.tres", "fr.avoir_mal_a", "fr.au", "fr.dos", "fr.et", "fr.aux", "fr.jambe"] },
+    { "speaker": "lucas", "text": "Tu es très malade, Hao ! Il faut aller chez le médecin.", "zh": "你病得不轻啊,浩!得去看医生。", "items": ["fr.tu", "fr.etre", "fr.tres", "fr.malade", "fr.il_faut", "fr.aller", "fr.chez", "fr.medecin"] },
+    { "speaker": "hao", "text": "D'accord. Tu as le numéro du médecin ?", "zh": "好吧。你有医生的电话吗?", "items": ["fr.d_accord", "fr.tu", "fr.avoir", "fr.numero", "fr.de", "fr.medecin"] },
+    { "speaker": "lucas", "text": "Oui. Et voilà du thé et du pain.", "zh": "有。来,给你茶和面包。", "items": ["fr.oui", "fr.et", "fr.voila", "fr.du", "fr.the", "fr.pain"] },
+    { "speaker": "hao", "text": "Merci, Lucas. Tu es très gentil.", "zh": "谢谢你,卢卡。你人真好。", "items": ["fr.merci", "fr.tu", "fr.etre", "fr.tres", "fr.gentil"] }
+  ],
+  "questions": [
+    { "prompt": "浩哪儿疼?", "options": ["肚子和牙", "头、嗓子、背和腿", "只有头疼"], "answer": 1, "explainZh": "J'ai mal à la tête et à la gorge… j'ai très mal au dos et aux jambes." },
+    { "prompt": "卢卡让浩做什么?", "options": ["去药店买药", "一起去吃早饭", "去看医生"], "answer": 2, "explainZh": "Il faut aller chez le médecin !——il faut = 得、必须;chez le médecin = 去医生那儿。" },
+    { "prompt": "卢卡问 Aux dents ? 是什么意思?", "options": ["牙疼吗?", "背疼吗?", "手疼吗?"], "answer": 0, "explainZh": "les dents 是牙齿,à + les 缩合成 aux:J'ai mal aux dents.(我牙疼。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.avoir_mal_a", "titleZh": "avoir mal à + 身体部位:哪儿疼",
+      "bodyZh": "“……疼”法语说 avoir mal à + 定冠词 + 身体部位,和第 6 单元学的 à 一样要缩合:阴性和元音前不变,à la tête, à la gorge, à la main;à + le 缩合成 au:au ventre, au dos;à + les 缩合成 aux:aux dents, aux jambes。身体部位前用定冠词,不用 mon / ma:J'ai mal à la tête(不说 à ma tête),因为 j'ai 已经说明是谁疼了。中文说“我头疼”,英语 I have a headache,法语字面是“我在头上有疼”,动词用 avoir,不用 être。très 放在 mal 前面:J'ai très mal au dos.(我背疼得厉害。)问哪儿疼:Tu as mal où ?。“我病了”是另一种说法:Je suis malade.(être + 形容词)。",
+      "examples": [
+        { "text": "J'ai mal à la tête.", "zh": "我头疼。" },
+        { "text": "Lucas a mal au ventre.", "zh": "卢卡肚子疼。" },
+        { "text": "Tu as mal aux dents ?", "zh": "你牙疼吗?" },
+        { "text": "J'ai très mal au dos.", "zh": "我背疼得厉害。" }
+      ] }
+  ],
+  "review": "draft"
+}

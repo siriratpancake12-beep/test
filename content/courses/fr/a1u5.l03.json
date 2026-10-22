@@ -1,0 +1,47 @@
+{
+  "id": "fr.a1u5.l03", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105030,
+  "titleZh": "我七点起床——一天的作息", "goalZh": "会用代词式动词和顺序词,按时间说一天的作息", "canDoZh": "能按时间顺序说自己一天的安排:几点起床、吃饭、上课、睡觉",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.se_lever", "kind": "word", "pos": "verb", "text": "se lever", "zh": "起床;站起来", "features": { "ipa": "sə lə.ve" }, "noteZh": "je me lève, tu te lèves, il se lève, nous nous levons, vous vous levez, ils se lèvent:后面的音节不发音时 e 变成 è [lɛv];别漏了 me / te / se。" },
+    { "id": "fr.se_coucher", "kind": "word", "pos": "verb", "text": "se coucher", "zh": "上床睡觉", "features": { "ipa": "sə ku.ʃe" }, "noteZh": "je me couche, tu te couches, il se couche…;指“上床去睡”,“睡着、睡觉的过程”是 dormir(以后学)。" },
+    { "id": "fr.dejeuner", "kind": "word", "pos": "noun", "text": "le déjeuner", "zh": "午饭", "features": { "gender": "m", "ipa": "lə de.ʒœ.ne" }, "noteZh": "也可以当动词 déjeuner(吃午饭);早饭 le petit-déjeuner,晚饭 le dîner。" },
+    { "id": "fr.diner", "kind": "word", "pos": "noun", "text": "le dîner", "zh": "晚饭", "features": { "gender": "m", "ipa": "lə di.ne" }, "noteZh": "î 读 [i];法国人一般晚上八点左右吃晚饭,比中国晚。" },
+    { "id": "fr.tous_les_jours", "kind": "phrase", "pos": "phrase", "text": "tous les jours", "zh": "每天", "features": { "ipa": "tu le ʒuʁ" }, "noteZh": "tous 的 s 不发音;一般放在句尾:Je me lève tôt tous les jours." },
+    { "id": "fr.dabord", "kind": "word", "pos": "adv", "text": "d'abord", "zh": "首先;先", "features": { "ipa": "da.bɔʁ" }, "noteZh": "词尾 d 不发音;按顺序说:d'abord… puis… après…" },
+    { "id": "fr.puis", "kind": "word", "pos": "adv", "text": "puis", "zh": "然后;接着", "features": { "ipa": "pɥi" }, "noteZh": "ui 读 [ɥi],和 huit 的元音一样;s 不发音。" },
+    { "id": "fr.apres", "kind": "word", "pos": "prep", "text": "après", "zh": "在……之后;以后", "features": { "ipa": "a.pʁɛ" }, "noteZh": "après le cours(下课以后);也可以单独用:Et après ?(然后呢?)s 不发音。" },
+    { "id": "fr.tard", "kind": "word", "pos": "adv", "text": "tard", "zh": "晚;迟", "features": { "ipa": "taʁ" }, "noteZh": "d 不发音;和 en retard 不同:tard 只是“时间晚”,en retard 是“比约好的时间晚”。" },
+    { "id": "fr.tot", "kind": "word", "pos": "adv", "text": "tôt", "zh": "早", "features": { "ipa": "to" }, "noteZh": "ô 读 [o],t 不发音;放在动词后面:Je me lève tôt." }
+  ],
+  "reviewItems": ["fr.matin", "fr.soir", "fr.petit_dejeuner", "fr.heure"],
+  "lines": [
+    { "speaker": "lucas", "text": "Tu manges ? Il est sept heures !", "zh": "你在吃饭?才七点啊!", "items": ["fr.tu", "fr.manger", "fr.il", "fr.etre", "fr.sept", "fr.heure"] },
+    { "speaker": "hao", "text": "Oui, c'est le dîner. Et toi ?", "zh": "对啊,吃晚饭。你呢?", "items": ["fr.oui", "fr.cest", "fr.diner", "fr.et_toi"] },
+    { "speaker": "lucas", "text": "Moi, le soir, je mange à neuf heures.", "zh": "我晚上九点吃饭。", "items": ["fr.moi", "fr.soir", "fr.je", "fr.manger", "fr.a", "fr.neuf", "fr.heure"] },
+    { "speaker": "hao", "text": "Neuf heures ? C'est tard !", "zh": "九点?好晚啊!", "items": ["fr.neuf", "fr.heure", "fr.cest", "fr.tard"] },
+    { "speaker": "lucas", "text": "Oui, je me lève tard et je me couche tard !", "zh": "是啊,我起得晚,睡得也晚!", "items": ["fr.oui", "fr.je", "fr.se_lever", "fr.tard", "fr.et", "fr.se_coucher"] },
+    { "speaker": "lucas", "text": "Tu te lèves à quelle heure, le matin ?", "zh": "你早上几点起床?", "items": ["fr.tu", "fr.se_lever", "fr.a", "fr.quel", "fr.heure", "fr.matin"] },
+    { "speaker": "hao", "text": "Je me lève tôt, à sept heures, tous les jours.", "zh": "我起得早,每天七点。", "items": ["fr.je", "fr.se_lever", "fr.tot", "fr.a", "fr.sept", "fr.heure", "fr.tous_les_jours"] },
+    { "speaker": "hao", "text": "D'abord, le petit-déjeuner. Puis, j'ai cours à neuf heures.", "zh": "先吃早饭,然后九点上课。", "items": ["fr.dabord", "fr.petit_dejeuner", "fr.puis", "fr.je", "fr.avoir", "fr.cours", "fr.a", "fr.neuf", "fr.heure"] },
+    { "speaker": "hao", "text": "Le déjeuner, c'est à midi, après le cours.", "zh": "午饭是中午十二点,下课以后。", "items": ["fr.dejeuner", "fr.cest", "fr.a", "fr.midi", "fr.apres", "fr.cours"] },
+    { "speaker": "hao", "text": "Et le soir, je me couche à onze heures.", "zh": "晚上我十一点睡觉。", "items": ["fr.et", "fr.soir", "fr.je", "fr.se_coucher", "fr.a", "fr.onze", "fr.heure"] }
+  ],
+  "questions": [
+    { "prompt": "卢卡晚上一般几点吃饭?", "options": ["七点", "八点", "九点", "十一点"], "answer": 2, "explainZh": "卢卡说:Moi, le soir, je mange à neuf heures." },
+    { "prompt": "浩每天几点起床?", "options": ["七点", "九点", "十点"], "answer": 0, "explainZh": "浩说:Je me lève tôt, à sept heures, tous les jours." },
+    { "prompt": "浩什么时候吃午饭?", "options": ["早上七点,上课以前", "中午十二点,下课以后", "晚上七点"], "answer": 1, "explainZh": "浩说:Le déjeuner, c'est à midi, après le cours.(七点吃的是晚饭 le dîner)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.pronominal_verbs", "titleZh": "代词式动词 se lever、se coucher;按顺序说一天",
+      "bodyZh": "se lever(起床)、se coucher(上床睡觉)前面带 se,叫代词式动词。变位时 se 要跟着主语变:je me lève, tu te lèves, il / elle / on se lève, nous nous levons, vous vous levez, ils / elles se lèvent。me、te、se 放在动词前面,元音前省音:你第一课就会说的 Je m'appelle 也是这一类。\n中文“起床”、英语 get up 都没有这个代词,中国学生最容易漏掉:✗ Je lève à sept heures → ✓ Je me lève à sept heures(Je lève 是“我举起(什么东西)”)。否定时 ne…pas 把“代词 + 动词”一起夹住:Je ne me lève pas tôt.\nlever 的重音符号:后面的音节不发音时 e 变成 è(je me lève、ils se lèvent),nous levons、vous levez 不变。\n按顺序说一天:d'abord(首先)… puis(然后)… après(之后)…;tôt(早)、tard(晚)放在动词后面:Je me couche tard.",
+      "examples": [
+        { "text": "Je me lève à sept heures.", "zh": "我七点起床。" },
+        { "text": "Lucas se lève tard.", "zh": "卢卡起得晚。" },
+        { "text": "Vous vous couchez à quelle heure ?", "zh": "您 / 你们几点睡觉?" },
+        { "text": "D'abord, je me lève. Puis, je mange.", "zh": "我先起床,然后吃饭。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u5.l01", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105010,
+  "titleZh": "现在几点?——钟点", "goalZh": "会问和说钟点,包括一刻、半点、差一刻", "canDoZh": "能问“现在几点?”,说出几点几分、几点半,知道课几点开始",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "fr.heure", "kind": "word", "pos": "noun", "text": "l'heure", "zh": "小时;点钟", "features": { "gender": "f", "ipa": "lœʁ" }, "noteZh": "h 不发音,阴性:une heure;和前面的数字联诵:deux heures [dø.zœʁ]、six heures [si.zœʁ]、neuf heures [nœ.vœʁ]。" },
+    { "id": "fr.quelle_heure", "kind": "phrase", "pos": "phrase", "text": "Il est quelle heure ?", "zh": "现在几点?", "features": { "ipa": "i.lɛ kɛ.lœʁ" }, "noteZh": "口语常用;正式一点说 Quelle heure est-il ?;回答 Il est … heure(s)。问“几点(做某事)”说 à quelle heure ?" },
+    { "id": "fr.et_demie", "kind": "phrase", "pos": "phrase", "text": "et demie", "zh": "(几点)半", "features": { "ipa": "e də.mi" }, "noteZh": "huit heures et demie = 八点半;demie 跟阴性的 heure 配合,词尾 e 不发音;中午十二点半写 midi et demi。" },
+    { "id": "fr.et_quart", "kind": "phrase", "pos": "phrase", "text": "et quart", "zh": "(几点)一刻;过十五分", "features": { "ipa": "e kaʁ" }, "noteZh": "huit heures et quart = 八点一刻(8:15);quart 的 t 不发音。" },
+    { "id": "fr.moins_le_quart", "kind": "phrase", "pos": "phrase", "text": "moins le quart", "zh": "差一刻", "features": { "ipa": "mwɛ̃ lə kaʁ" }, "noteZh": "neuf heures moins le quart = 九点差一刻(8:45);moins 的 s 不发音,oin 读鼻化元音 [wɛ̃]。" },
+    { "id": "fr.midi", "kind": "word", "pos": "noun", "text": "le midi", "zh": "中午;中午十二点", "features": { "gender": "m", "ipa": "lə mi.di" }, "noteZh": "说钟点时不加冠词,也不加 heures:Il est midi.(十二点了)/ à midi(在中午)。" },
+    { "id": "fr.minute", "kind": "word", "pos": "noun", "text": "la minute", "zh": "分钟", "features": { "gender": "f", "ipa": "la mi.nyt" }, "noteZh": "u 读 [y];报钟点时分钟数直接放在 heures 后面,不说 minutes:neuf heures cinq(9:05)。" },
+    { "id": "fr.cours", "kind": "word", "pos": "noun", "text": "le cours", "zh": "课", "features": { "gender": "m", "ipa": "lə kuʁ" }, "noteZh": "s 不发音,单复数同形;le cours de français = 法语课;avoir cours = 有课:J'ai cours à neuf heures." },
+    { "id": "fr.commencer", "kind": "word", "pos": "verb", "text": "commencer", "zh": "开始", "features": { "ipa": "kɔ.mɑ̃.se" }, "noteZh": "-er 动词:le cours commence(词尾 e 不发音);nous commençons:a、o 前面的 c 要写成 ç 才读 [s]。" },
+    { "id": "fr.en_retard", "kind": "phrase", "pos": "phrase", "text": "en retard", "zh": "迟到;晚了", "features": { "ipa": "ɑ̃ ʁə.taʁ" }, "noteZh": "être en retard(迟到);晚了几分钟:être en retard de cinq minutes;d 不发音;准时是 à l'heure。" }
+  ],
+  "reviewItems": ["fr.huit", "fr.neuf", "fr.quinze", "fr.trente"],
+  "lines": [
+    { "speaker": "hao", "text": "Lucas, il est quelle heure ?", "zh": "卢卡,现在几点?", "items": ["fr.quelle_heure"] },
+    { "speaker": "lucas", "text": "Il est neuf heures moins le quart.", "zh": "九点差一刻。", "items": ["fr.il", "fr.etre", "fr.neuf", "fr.heure", "fr.moins_le_quart"] },
+    { "speaker": "hao", "text": "Neuf heures moins le quart ? Le cours commence à neuf heures !", "zh": "九点差一刻?课九点就开始了!", "items": ["fr.neuf", "fr.heure", "fr.moins_le_quart", "fr.cours", "fr.commencer", "fr.a"] },
+    { "speaker": "lucas", "text": "Tu as quinze minutes ! Moi, mon cours commence à midi.", "zh": "你还有十五分钟!我嘛,我的课中午十二点才开始。", "items": ["fr.tu", "fr.avoir", "fr.quinze", "fr.minute", "fr.moi", "fr.mon", "fr.cours", "fr.commencer", "fr.a", "fr.midi"] },
+    { "speaker": "mme_moreau", "text": "Bonjour, Hao. Il est neuf heures cinq : vous êtes en retard !", "zh": "你好,浩。现在九点零五分,您迟到了!", "items": ["fr.bonjour", "fr.il", "fr.etre", "fr.neuf", "fr.heure", "fr.cinq", "fr.vous", "fr.en_retard"] },
+    { "speaker": "mme_moreau", "text": "Huit heures quinze, c'est… ?", "zh": "八点十五分,换个说法是……?", "items": ["fr.huit", "fr.heure", "fr.quinze", "fr.cest"] },
+    { "speaker": "hao", "text": "Huit heures et quart.", "zh": "八点一刻。", "items": ["fr.huit", "fr.heure", "fr.et_quart"] },
+    { "speaker": "mme_moreau", "text": "Très bien ! Et quatorze heures trente ?", "zh": "很好!那十四点三十分呢?", "items": ["fr.tres", "fr.bien", "fr.et", "fr.quatorze", "fr.heure", "fr.trente"] },
+    { "speaker": "hao", "text": "C'est deux heures et demie.", "zh": "就是(下午)两点半。", "items": ["fr.cest", "fr.deux", "fr.heure", "fr.et_demie"] }
+  ],
+  "questions": [
+    { "prompt": "浩问时间的时候,是几点?", "options": ["八点一刻", "八点四十五分", "九点零五分", "九点半"], "answer": 1, "explainZh": "卢卡说:Il est neuf heures moins le quart.(九点差一刻,也就是 8:45)" },
+    { "prompt": "卢卡的课几点开始?", "options": ["九点", "下午两点半", "中午十二点"], "answer": 2, "explainZh": "卢卡说:Moi, mon cours commence à midi.(midi = 中午十二点)" },
+    { "prompt": "浩到教室的时候迟到了多久?", "options": ["五分钟", "十五分钟", "半小时"], "answer": 0, "explainZh": "课九点开始,莫罗老师说 Il est neuf heures cinq(九点零五分),所以浩迟到了五分钟。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.telling_time", "titleZh": "说钟点:Il est … heure(s)",
+      "bodyZh": "问时间:Il est quelle heure ?(口语)/ Quelle heure est-il ?(正式)。回答:Il est + 数字 + heure(s)。这里的 il 不指人,像英语 It is 里的 it;heures 不能省,不能只说 Il est neuf。一点是 une heure(heure 是阴性),两点以上 heures 加 s:s 不发音,但要和前面的数字联诵,deux heures、six heures、dix heures 读 [z],neuf heures 的 f 读 [v]。\n几分直接放在 heures 后面,不加 et,也不说 minutes:neuf heures cinq(9:05)。只有“一刻”和“半”用 et:et quart、et demie;“差一刻”用 moins le quart:neuf heures moins le quart 就是 8:45,和中文“九点差一刻”的思路一样。中午十二点说 midi,后面不加 heures。\n课表、火车、广播这些正式场合用 24 小时制,直接读数字:14 h 30 = quatorze heures trente;这时一般不用 et quart、et demie、moins le quart。\n“在几点(做某事)”要加 à:Le cours commence à neuf heures.(中文“九点开始”不用介词,英语用 at nine。)\n常见错误:✗ Il est neuf heures et quinze(et 只放在 quart、demie 前面);✗ Il est midi heures。",
+      "examples": [
+        { "text": "Il est une heure et demie.", "zh": "一点半。" },
+        { "text": "Il est midi moins le quart.", "zh": "十一点四十五分(差一刻十二点)。" },
+        { "text": "Il est dix heures cinq.", "zh": "十点零五分。" },
+        { "text": "Le cours commence à quatorze heures trente.", "zh": "课 14:30 开始。" }
+      ] }
+  ],
+  "review": "draft"
+}

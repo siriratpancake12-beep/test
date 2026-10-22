@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u4.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 Food & drinks", "order": 104030,
+  "titleZh": "在餐厅点菜", "goalZh": "会在美国餐厅点饮料、点菜,问菜辣不辣", "canDoZh": "能在美国餐厅看菜单点菜,问清楚一道菜辣不辣",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.menu", "kind": "word", "pos": "noun", "text": "menu", "zh": "菜单", "features": { "ipa": "ˈmenjuː" }, "noteZh": "Can I see the menu? 能看一下菜单吗?" },
+    { "id": "en.water", "kind": "word", "pos": "noun", "text": "water", "zh": "水", "features": { "ipa": "ˈwɑːt̬ɚ" }, "noteZh": "美式读 \"WAH-der\":t 读成轻快的 d,结尾卷舌;美国餐厅的冰水一般免费。" },
+    { "id": "en.ready_to_order", "kind": "phrase", "pos": "phrase", "text": "Are you ready to order", "zh": "可以点菜了吗?", "features": { "ipa": "ɑːr jə ˌredi tə ˈɔːrdɚ" }, "noteZh": "还没想好可以说 Not yet. / We need a minute.;order 结尾卷舌。" },
+    { "id": "en.ill_have", "kind": "phrase", "pos": "phrase", "text": "I'll have", "zh": "我要……(点菜)", "alt": ["I will have", "I'd like"], "features": { "ipa": "aɪl ˈhæv" }, "noteZh": "点菜最常用:I'll have the burger.;I'll 的 l 要读出来,别说成 I have。" },
+    { "id": "en.eat", "kind": "word", "pos": "verb", "text": "eat", "zh": "吃", "features": { "ipa": "iːt" }, "noteZh": "What do you want to eat? 想吃什么?;一日三餐常用 have:have lunch。" },
+    { "id": "en.food", "kind": "word", "pos": "noun", "text": "food", "zh": "食物;饭菜", "features": { "ipa": "fuːd" }, "noteZh": "Chinese food 中国菜,spicy food 辣的菜;一般不加 s。" },
+    { "id": "en.like", "kind": "word", "pos": "verb", "text": "like", "zh": "喜欢", "features": { "ipa": "laɪk" }, "noteZh": "Do you like spicy food?;第三人称 She likes…;非常喜欢说 love。" },
+    { "id": "en.burger", "kind": "word", "pos": "noun", "text": "burger", "zh": "汉堡", "features": { "ipa": "ˈbɝːɡɚ" }, "noteZh": "两个卷舌音 BUR-ger。" },
+    { "id": "en.fries", "kind": "word", "pos": "noun", "text": "fries", "zh": "薯条", "features": { "ipa": "fraɪz" }, "noteZh": "美式叫 fries(French fries),英式叫 chips;美国的 chips 是薯片。" },
+    { "id": "en.spicy", "kind": "word", "pos": "adj", "text": "spicy", "zh": "辣的", "features": { "ipa": "ˈspaɪsi" }, "noteZh": "Is it spicy? 辣吗?;不辣的叫 mild;hot 也可以表示辣。" }
+  ],
+  "reviewItems": ["en.want", "en.drink", "en.no_thanks"],
+  "lines": [
+    { "speaker": "server", "text": "Hi there! Here are your menus. Something to drink?", "zh": "你们好!这是菜单。想喝点什么?", "items": ["en.hi", "en.menu", "en.drink"] },
+    { "speaker": "lei", "text": "Water for us, please.", "zh": "我们俩都要水,谢谢。", "items": ["en.water"] },
+    { "speaker": "server", "text": "Sure. Are you ready to order?", "zh": "好的。可以点菜了吗?", "items": ["en.sure", "en.ready_to_order"] },
+    { "speaker": "lei", "text": "Yes. Is the spicy burger really spicy?", "zh": "可以。辣味汉堡真的辣吗?", "items": ["en.spicy", "en.burger", "en.really"] },
+    { "speaker": "server", "text": "A little. Do you like spicy food?", "zh": "有一点。你喜欢吃辣吗?", "items": ["en.a_little", "en.like", "en.spicy", "en.food"] },
+    { "speaker": "lei", "text": "I love it! I'm from Chengdu. I'll have the spicy burger and fries.", "zh": "超爱!我是成都人。我要辣味汉堡和薯条。", "items": ["en.love", "en.im_from", "en.ill_have", "en.spicy", "en.burger", "en.fries"] },
+    { "speaker": "server", "text": "And for you? Do you want the spicy burger?", "zh": "那您呢?也要辣味汉堡吗?", "items": ["en.want", "en.spicy", "en.burger"] },
+    { "speaker": "sofia", "text": "No, thanks! I'll have the burger. I don't eat spicy food.", "zh": "不用了,谢谢!我要普通汉堡。我不吃辣。", "items": ["en.no_thanks", "en.ill_have", "en.burger", "en.eat", "en.spicy", "en.food"] }
+  ],
+  "questions": [
+    { "prompt": "服务员说辣味汉堡辣不辣?", "options": ["有一点辣", "很辣", "一点也不辣"], "answer": 0, "explainZh": "Is the spicy burger really spicy? — A little.——a little 是\"有一点\"。" },
+    { "prompt": "索菲亚点了什么?", "options": ["辣味汉堡和薯条", "辣味汉堡", "只要了水", "普通汉堡"], "answer": 3, "explainZh": "No, thanks! I'll have the burger. I don't eat spicy food.——她不吃辣,点的是普通汉堡;辣味汉堡和薯条是磊点的。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u4_ill_have", "titleZh": "点菜用 I'll have…;a 和 the",
+      "bodyZh": "在餐厅点菜最常用 I'll have + 菜:I'll have the burger.(我要汉堡)。I'll 是 I will 的缩写,这里当固定说法用;l 要读出来,说成 I have the burger 就成了\"我有汉堡\"。\n点菜单上的某一道菜用 the:the spicy burger(菜单上那道辣味汉堡);泛指一类东西不加 the:I love spicy food.(我爱吃辣)、I don't eat spicy food.。\nlike + 名词表示喜欢:Do you like spicy food? — Yes, I love it!(love 比 like 更强烈)。\n发音:water 美式读 \"WAH-der\",t 夹在两个元音中间读成轻快的 d,结尾卷舌;照英式读成 \"wor-ter\",美国服务员可能听不懂。",
+      "examples": [
+        { "text": "I'll have the spicy burger and fries.", "zh": "我要辣味汉堡和薯条。" },
+        { "text": "Do you like spicy food? — Yes, I love it!", "zh": "你喜欢吃辣吗?——喜欢,超爱!" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u7.l01", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107010,
+  "titleZh": "在菜市场买水果蔬菜", "goalZh": "会在菜市场按公斤、按瓶买东西,听懂摊主常说的话", "canDoZh": "能在菜市场买一公斤苹果、两公斤土豆,听懂“还要别的吗?”并说“就这些”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.marche", "kind": "word", "pos": "noun", "text": "le marché", "zh": "市场;集市", "features": { "gender": "m", "ipa": "lə maʁ.ʃe" }, "noteZh": "法国城市每周固定几天有露天市场,摆在广场或街边;ch 读 [ʃ],é 读 [e]。" },
+    { "id": "fr.fruit", "kind": "word", "pos": "noun", "text": "le fruit", "zh": "水果", "features": { "gender": "m", "ipa": "lə fʁɥi" }, "noteZh": "t 不发音;ui 读 [ɥi];泛指“水果”常用复数 les fruits。" },
+    { "id": "fr.legume", "kind": "word", "pos": "noun", "text": "le légume", "zh": "蔬菜", "features": { "gender": "m", "ipa": "lə le.gym" }, "noteZh": "以 -e 结尾却是阳性;泛指“蔬菜”常用复数 les légumes。" },
+    { "id": "fr.pomme", "kind": "word", "pos": "noun", "text": "la pomme", "zh": "苹果", "features": { "gender": "f", "ipa": "la pɔm" }, "noteZh": "mm 只读一个 [m];复数 des pommes,s 不发音。" },
+    { "id": "fr.pomme_de_terre", "kind": "word", "pos": "noun", "text": "la pomme de terre", "zh": "土豆", "features": { "gender": "f", "ipa": "la pɔm də tɛʁ" }, "noteZh": "字面意思是“土里的苹果”;复数 des pommes de terre(只在 pomme 后加 s)。" },
+    { "id": "fr.acheter", "kind": "word", "pos": "verb", "text": "acheter", "zh": "买", "features": { "ipa": "aʃ.te" }, "noteZh": "j'achète, tu achètes, il achète, ils achètent(加 è);nous achetons, vous achetez 不加。" },
+    { "id": "fr.kilo", "kind": "word", "pos": "noun", "text": "le kilo", "zh": "公斤", "features": { "gender": "m", "ipa": "lə ki.lo" }, "noteZh": "un kilo de pommes(数量词后面用 de,不用 des);deux kilos 的 s 不发音。" },
+    { "id": "fr.bouteille", "kind": "word", "pos": "noun", "text": "la bouteille", "zh": "瓶子;一瓶", "features": { "gender": "f", "ipa": "la bu.tɛj" }, "noteZh": "-eille 读 [ɛj];une bouteille d'eau(一瓶水)。" },
+    { "id": "fr.et_avec_ceci", "kind": "phrase", "pos": "phrase", "text": "Et avec ceci ?", "zh": "还要别的吗?(店员常说)", "features": { "ipa": "e a.vɛk sə.si" }, "noteZh": "菜市场、面包店最常听到的一句;不要了就说 C'est tout, merci." },
+    { "id": "fr.cest_tout", "kind": "phrase", "pos": "phrase", "text": "C'est tout.", "zh": "就这些", "features": { "ipa": "sɛ tu" }, "noteZh": "tout 的 t 不发音;店员也会问 C'est tout ?(就这些吗?)" }
+  ],
+  "reviewItems": ["fr.je_voudrais", "fr.ca_fait", "fr.cinquante", "fr.jus_dorange"],
+  "lines": [
+    { "speaker": "isabelle", "text": "Voilà le marché, Hao ! Qu'est-ce que tu achètes ?", "zh": "浩,菜市场到了!你要买什么?", "items": ["fr.voila", "fr.marche", "fr.quest_ce_que", "fr.tu", "fr.acheter"] },
+    { "speaker": "marchand", "text": "Bonjour ! Des fruits ? Des légumes ?", "zh": "早上好!要水果吗?要蔬菜吗?", "items": ["fr.bonjour", "fr.des", "fr.fruit", "fr.legume"] },
+    { "speaker": "hao", "text": "Bonjour, monsieur. Je voudrais un kilo de pommes, s'il vous plaît.", "zh": "您好,先生。请给我一公斤苹果。", "items": ["fr.bonjour", "fr.monsieur", "fr.je_voudrais", "fr.un", "fr.kilo", "fr.de", "fr.pomme", "fr.sil_vous_plait"] },
+    { "speaker": "marchand", "text": "Un kilo de pommes, voilà ! Et avec ceci ?", "zh": "一公斤苹果,给您!还要别的吗?", "items": ["fr.un", "fr.kilo", "fr.de", "fr.pomme", "fr.voila", "fr.et_avec_ceci"] },
+    { "speaker": "hao", "text": "Deux kilos de pommes de terre et une bouteille de jus d'orange.", "zh": "两公斤土豆,再要一瓶橙汁。", "items": ["fr.deux", "fr.kilo", "fr.de", "fr.pomme_de_terre", "fr.et", "fr.une", "fr.bouteille", "fr.jus_dorange"] },
+    { "speaker": "marchand", "text": "Voilà. C'est tout, monsieur ?", "zh": "给您。就这些吗,先生?", "items": ["fr.voila", "fr.cest_tout", "fr.monsieur"] },
+    { "speaker": "hao", "text": "Oui, c'est tout, merci.", "zh": "对,就这些,谢谢。", "items": ["fr.oui", "fr.cest_tout", "fr.merci"] },
+    { "speaker": "marchand", "text": "Ça fait sept euros cinquante.", "zh": "一共七欧五十。", "items": ["fr.ca_fait", "fr.sept", "fr.euro", "fr.cinquante"] }
+  ],
+  "questions": [
+    { "prompt": "浩买了几公斤土豆?", "options": ["一公斤", "两公斤", "七公斤"], "answer": 1, "explainZh": "浩说:Deux kilos de pommes de terre…——两公斤土豆;一公斤(un kilo)的是苹果。" },
+    { "prompt": "一共多少钱?", "options": ["5 欧 70", "17 欧 50", "7 欧 50"], "answer": 2, "explainZh": "摊主说:Ça fait sept euros cinquante.——七欧五十。sept 和 euros 要连读 [sɛ.tø.ʁo]。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.quantite_de", "titleZh": "数量词 + de:un kilo de pommes",
+      "bodyZh": "说“一公斤……”“一瓶……”,数量词后面直接加 de,名词前不再加冠词:un kilo de pommes(不说 un kilo des pommes),deux kilos de pommes de terre;元音前 de 变成 d':une bouteille d'eau。英语 a kilo of apples 里的 of 就相当于 de,但 de 后面不能再加 les。和第 2 单元的部分冠词对比:Je bois du jus d'orange.(喝点橙汁,不说多少)/ Je voudrais une bouteille de jus d'orange.(要一瓶,说了数量就用 de)。数量词本身也变复数:deux kilos(s 不发音)。另外,acheter 有几个形式要把 e 写成 è:j'achète, tu achètes, il achète, ils achètent;nous achetons, vous achetez 不变。",
+      "examples": [
+        { "text": "Je voudrais un kilo de pommes.", "zh": "我要一公斤苹果。" },
+        { "text": "Une bouteille d'eau, s'il vous plaît.", "zh": "请给我一瓶水。" }
+      ] }
+  ],
+  "review": "draft"
+}

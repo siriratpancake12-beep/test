@@ -1,0 +1,46 @@
+{
+  "id": "en.a1u3.l02", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 Daily life", "order": 103020,
+  "titleZh": "我的一天", "goalZh": "会用一般现在时按顺序说自己每天的作息", "canDoZh": "能按时间顺序说出自己一天的安排:几点起床、上课、吃饭、学习、睡觉",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.get_up", "kind": "phrase", "pos": "verb", "text": "get up", "zh": "起床", "features": { "ipa": "ˌɡet̬ ˈʌp" }, "noteZh": "美式连读像 \"ge-dup\";get up 是\"起床\",wake up 是\"醒来\"(下一课)。" },
+    { "id": "en.take_a_shower", "kind": "phrase", "pos": "verb", "text": "take a shower", "zh": "洗澡(淋浴)", "features": { "ipa": "ˌteɪk ə ˈʃaʊɚ" }, "noteZh": "美国人大多早上冲澡;take a 连读成 \"tay-ka\"。" },
+    { "id": "en.breakfast", "kind": "word", "pos": "noun", "text": "breakfast", "zh": "早饭", "features": { "ipa": "ˈbrekfəst" }, "noteZh": "三餐前不加 a / the:have breakfast;ea 读 /e/,不读 break 的 /eɪ/。" },
+    { "id": "en.lunch", "kind": "word", "pos": "noun", "text": "lunch", "zh": "午饭", "features": { "ipa": "lʌntʃ" }, "noteZh": "have lunch 吃午饭;u 读 /ʌ/。" },
+    { "id": "en.dinner", "kind": "word", "pos": "noun", "text": "dinner", "zh": "晚饭", "features": { "ipa": "ˈdɪnɚ" }, "noteZh": "美国人晚饭一般在 6 点左右。" },
+    { "id": "en.go", "kind": "word", "pos": "verb", "text": "go", "zh": "去", "features": { "ipa": "ɡoʊ" }, "noteZh": "go to class 去上课;go home 回家(home 前不加 to)。" },
+    { "id": "en.study", "kind": "word", "pos": "verb", "text": "study", "zh": "学习;读书", "features": { "ipa": "ˈstʌdi" }, "noteZh": "study 是\"学习、用功\",learn 更强调\"学会\";s 后面的 t 不送气,听起来接近 d,读成 \"sdʌ-di\" 就对了。" },
+    { "id": "en.library", "kind": "word", "pos": "noun", "text": "library", "zh": "图书馆", "features": { "ipa": "ˈlaɪbreri" }, "noteZh": "三个音节 LI-brar-y,两个 r 都要读出来。" },
+    { "id": "en.go_to_bed", "kind": "phrase", "pos": "verb", "text": "go to bed", "zh": "上床睡觉", "features": { "ipa": "ˌɡoʊ tə ˈbed" }, "noteZh": "bed 前不加 the;\"睡着\"是 fall asleep。" },
+    { "id": "en.every_day", "kind": "phrase", "pos": "adv", "text": "every day", "zh": "每天", "features": { "ipa": "ˌevri ˈdeɪ" }, "noteZh": "分开写的 every day 是\"每天\";连写的 everyday 是形容词\"日常的\"。" }
+  ],
+  "reviewItems": ["en.class", "en.morning", "en.night", "en.have"],
+  "lines": [
+    { "speaker": "sofia", "text": "Lei, what time do you get up every day?", "zh": "磊,你每天几点起床?", "items": ["en.get_up", "en.every_day"] },
+    { "speaker": "lei", "text": "At seven. I take a shower and have breakfast.", "zh": "七点。我冲个澡,吃早饭。", "items": ["en.take_a_shower", "en.have", "en.breakfast"] },
+    { "speaker": "sofia", "text": "Seven? I get up at six in the morning!", "zh": "七点?我早上六点就起床!", "items": ["en.get_up", "en.morning"] },
+    { "speaker": "lei", "text": "Wow, that's early! My class is at nine.", "zh": "哇,真早!我的课九点开始。", "items": ["en.early", "en.class"] },
+    { "speaker": "sofia", "text": "What do you do in the afternoon?", "zh": "那你下午做什么?", "items": ["en.afternoon"] },
+    { "speaker": "lei", "text": "I have lunch at twelve and study in the library.", "zh": "我十二点吃午饭,然后在图书馆学习。", "items": ["en.have", "en.lunch", "en.study", "en.library"] },
+    { "speaker": "sofia", "text": "Me too! I go to the library at two.", "zh": "我也是!我两点去图书馆。", "items": ["en.me_too", "en.go", "en.library"] },
+    { "speaker": "lei", "text": "Great! See you at the library!", "zh": "太好了!图书馆见!", "items": ["en.great", "en.see_you_later", "en.library"] },
+    { "speaker": "sofia", "text": "And at night? What time do you go to bed?", "zh": "那晚上呢?你几点睡觉?", "items": ["en.night", "en.go_to_bed"] },
+    { "speaker": "lei", "text": "I have dinner at six and go to bed at eleven.", "zh": "我六点吃晚饭,十一点睡觉。", "items": ["en.have", "en.dinner", "en.go_to_bed"] }
+  ],
+  "questions": [
+    { "prompt": "磊每天几点起床?", "options": ["六点", "七点", "九点"], "answer": 1, "explainZh": "磊说 At seven.——七点。早上六点起床的是索菲亚,九点是磊上课的时间。" },
+    { "prompt": "磊下午一般在哪儿?", "options": ["宿舍", "健身房", "图书馆"], "answer": 2, "explainZh": "I have lunch at twelve and study in the library.——他吃完午饭在图书馆学习。" },
+    { "prompt": "磊晚上几点睡觉?", "options": ["十一点", "九点", "六点", "十二点"], "answer": 0, "explainZh": "I have dinner at six and go to bed at eleven.——十一点睡觉;六点是他吃晚饭的时间。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u3_routine", "titleZh": "一般现在时:说每天的作息",
+      "bodyZh": "说每天都做的事(作息、习惯),英语用一般现在时。主语是 I / you / we / they 时,动词就用原形:I get up at seven. We study in the library.。中文\"我七点起床\"动词不变,英语这里也不变,但别加 am / is:不说 I am get up at seven。(主语是 he / she 时动词要加 -s,下一课学。)\n一日三餐用 have 表示\"吃\",前面不加 a / the:have breakfast、have lunch、have dinner(不说 have a breakfast)。go to bed、go to class 里也不加 the。\n\"几点\"用 at + 钟点,和 every day 一样一般放在句末:I get up at seven every day.\n注意:单独问 What do you do? 是\"你做什么工作?\"(第 2 单元学过);后面加上时间,What do you do in the afternoon? 就是问\"你下午做什么\"。\n发音:get up 要连读,t 夹在两个元音中间,美式读成轻快的 d,像 \"ge-dup\"。",
+      "examples": [
+        { "text": "I get up at seven every day.", "zh": "我每天七点起床。" },
+        { "text": "I have lunch at twelve.", "zh": "我十二点吃午饭。" },
+        { "text": "We go to the library in the afternoon.", "zh": "我们下午去图书馆。" }
+      ] }
+  ],
+  "review": "draft"
+}

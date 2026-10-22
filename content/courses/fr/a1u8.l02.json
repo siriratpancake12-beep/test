@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u8.l02", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 健康、爱好与周末", "order": 108020,
+  "titleZh": "看医生", "goalZh": "会向医生描述症状和持续时间,听懂医生的嘱咐", "canDoZh": "能向医生说清楚哪儿不舒服、发烧几天了,听懂“这个药一天吃三次”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.fievre", "kind": "word", "pos": "noun", "text": "la fièvre", "zh": "发烧", "features": { "gender": "f", "ipa": "la fjɛvʁ" }, "noteZh": "è 读 [ɛ];J'ai de la fièvre.(我发烧了)用 avoir + 部分冠词。" },
+    { "id": "fr.rhume", "kind": "word", "pos": "noun", "text": "le rhume", "zh": "感冒", "features": { "gender": "m", "ipa": "lə ʁym" }, "noteZh": "h 不发音;J'ai un rhume.(我感冒了。)" },
+    { "id": "fr.tousser", "kind": "word", "pos": "verb", "text": "tousser", "zh": "咳嗽", "features": { "ipa": "tu.se" }, "noteZh": "ss 读 [s];Je tousse.(我咳嗽。)规则的 -er 动词。" },
+    { "id": "fr.medicament", "kind": "word", "pos": "noun", "text": "le médicament", "zh": "药", "features": { "gender": "m", "ipa": "lə me.di.ka.mɑ̃" }, "noteZh": "t 不发音;“吃药”说 prendre un médicament,不用 manger。" },
+    { "id": "fr.ordonnance", "kind": "word", "pos": "noun", "text": "l'ordonnance", "zh": "处方", "features": { "gender": "f", "ipa": "lɔʁ.dɔ.nɑ̃s" }, "noteZh": "元音开头,要记住是阴性;拿着处方去药店(la pharmacie)买药。" },
+    { "id": "fr.fois", "kind": "word", "pos": "noun", "text": "la fois", "zh": "次;回", "features": { "gender": "f", "ipa": "la fwa" }, "noteZh": "s 不发音,单复数同形;trois fois par jour = 一天三次。" },
+    { "id": "fr.jour", "kind": "word", "pos": "noun", "text": "le jour", "zh": "天;日", "features": { "gender": "m", "ipa": "lə ʒuʁ" }, "noteZh": "deux jours = 两天;Bonjour 就是 bon + jour。" },
+    { "id": "fr.depuis", "kind": "word", "pos": "prep", "text": "depuis", "zh": "从……以来;已经(多久)", "features": { "ipa": "də.pɥi" }, "noteZh": "法语用现在时:J'ai mal à la tête depuis deux jours.(我头疼两天了。)" },
+    { "id": "fr.se_reposer", "kind": "word", "pos": "verb", "text": "se reposer", "zh": "休息", "features": { "ipa": "sə ʁə.po.ze" }, "noteZh": "je me repose, tu te reposes…;命令式:Reposez-vous !(您好好休息!)" },
+    { "id": "fr.grave", "kind": "word", "pos": "adj", "text": "grave", "zh": "严重的", "features": { "ipa": "gʁav" }, "noteZh": "Ce n'est pas grave.(不要紧;没关系)非常常用。" }
+  ],
+  "reviewItems": ["fr.avoir_mal_a", "fr.gorge", "fr.prendre", "fr.boire"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour, monsieur. J'ai mal à la gorge et je tousse.", "zh": "您好,医生。我嗓子疼,还咳嗽。", "items": ["fr.bonjour", "fr.monsieur", "fr.je", "fr.avoir", "fr.avoir_mal_a", "fr.gorge", "fr.et", "fr.tousser"] },
+    { "speaker": "medecin", "text": "Depuis quand ? Vous avez de la fièvre ?", "zh": "从什么时候开始的?发烧吗?", "items": ["fr.depuis", "fr.quand", "fr.vous", "fr.avoir", "fr.de_la", "fr.fievre"] },
+    { "speaker": "hao", "text": "Oui, j'ai de la fièvre depuis deux jours.", "zh": "发烧,已经烧了两天了。", "items": ["fr.oui", "fr.je", "fr.avoir", "fr.de_la", "fr.fievre", "fr.depuis", "fr.deux", "fr.jour"] },
+    { "speaker": "medecin", "text": "C'est un rhume. Ce n'est pas grave.", "zh": "是感冒,不要紧。", "items": ["fr.cest", "fr.un", "fr.rhume", "fr.ne_pas", "fr.grave"] },
+    { "speaker": "hao", "text": "Je peux aller en cours demain ?", "zh": "我明天能去上课吗?", "items": ["fr.je", "fr.pouvoir", "fr.aller", "fr.en", "fr.cours", "fr.demain"] },
+    { "speaker": "medecin", "text": "Non, reposez-vous ! Et buvez beaucoup d'eau.", "zh": "不行,好好休息!还要多喝水。", "items": ["fr.non", "fr.se_reposer", "fr.et", "fr.boire", "fr.beaucoup", "fr.de", "fr.eau"] },
+    { "speaker": "hao", "text": "D'accord. Et le médicament ?", "zh": "好的。那药呢?", "items": ["fr.d_accord", "fr.et", "fr.medicament"] },
+    { "speaker": "medecin", "text": "Voilà l'ordonnance. Prenez ce médicament trois fois par jour.", "zh": "这是处方。这个药一天吃三次。", "items": ["fr.voila", "fr.ordonnance", "fr.prendre", "fr.ce", "fr.medicament", "fr.trois", "fr.fois", "fr.par", "fr.jour"] }
+  ],
+  "questions": [
+    { "prompt": "浩发烧多久了?", "options": ["一天", "两天", "两个星期"], "answer": 1, "explainZh": "J'ai de la fièvre depuis deux jours.——depuis + 时间 = 已经……多久了,法语用现在时。" },
+    { "prompt": "医生让浩怎么吃药?", "options": ["一天两次", "一天一次", "一天三次"], "answer": 2, "explainZh": "Prenez ce médicament trois fois par jour.——trois fois par jour = 一天三次。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.depuis_reposez_vous", "titleZh": "depuis + 现在时;医生的嘱咐 Reposez-vous !",
+      "bodyZh": "说“……多久了”用 depuis + 时间,动词用现在时,因为现在还在发烧:J'ai de la fièvre depuis deux jours.(我发烧两天了。)英语用现在完成时(I have had…),中文用“了”,法语都不用过去时。问“从什么时候开始?”说 Depuis quand ?。医生交代怎么做,用 vous 的命令式(第 6 单元学过,去掉 vous 就行):Prenez ce médicament.(吃这个药。)Buvez beaucoup d'eau.(多喝水。)代词式动词的命令式,代词要放到动词后面,用连字符连起来:vous vous reposez → Reposez-vous !(好好休息!)。次数:trois fois par jour(一天三次),par 是“每”。",
+      "examples": [
+        { "text": "J'ai de la fièvre depuis deux jours.", "zh": "我发烧两天了。" },
+        { "text": "Reposez-vous et buvez beaucoup d'eau.", "zh": "好好休息,多喝水。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "en.a1u4.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 Food & drinks", "order": 104080,
+  "titleZh": "单元复习:第一次独立当班", "goalZh": "站到柜台另一边:听懂顾客的点单,复述确认,收钱并送客;复习本单元的点单、定制和付款用语", "canDoZh": "能在咖啡店柜台接待顾客:问要什么、确认大小和口味、收钱并说再见",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.customer", "kind": "word", "pos": "noun", "text": "customer", "zh": "顾客", "features": { "ipa": "ˈkʌstəmɚ" }, "noteZh": "重音在第一个音节 CUS-to-mer。" },
+    { "id": "en.coming_right_up", "kind": "phrase", "pos": "phrase", "text": "Coming right up", "zh": "马上就好", "features": { "ipa": "ˌkʌmɪŋ ˌraɪt̬ ˈʌp" }, "noteZh": "店员、服务员的常用语,意思是\"这就给您做\";right up 连读成 \"rai-dup\"。" },
+    { "id": "en.have_a_nice_day", "kind": "phrase", "pos": "phrase", "text": "Have a nice day", "zh": "祝你今天愉快", "alt": ["Have a good day"], "features": { "ipa": "ˌhæv ə ˌnaɪs ˈdeɪ" }, "noteZh": "美国店员送客几乎必说;回答 Thanks, you too!" },
+    { "id": "en.good_job", "kind": "phrase", "pos": "phrase", "text": "Good job", "zh": "干得好", "alt": ["Great job", "Nice job"], "features": { "ipa": "ˌɡʊd ˈdʒɑːb" }, "noteZh": "夸别人做得好;美国人很常这样鼓励人。" }
+  ],
+  "reviewItems": ["en.for_here_or_to_go", "en.anything_else", "en.oat_milk", "en.slower_please"],
+  "lines": [
+    { "speaker": "lei", "text": "Hi! What can I get for you?", "zh": "您好!请问要点什么?", "items": ["en.hi", "en.can_i_get"] },
+    { "speaker": "customer", "text": "Can I get a large iced vanilla latte with oat milk, no sugar?", "zh": "请给我一杯大杯冰香草拿铁,换燕麦奶,不加糖。", "items": ["en.can_i_get", "en.large", "en.iced", "en.vanilla", "en.latte", "en.oat_milk", "en.sugar"] },
+    { "speaker": "lei", "text": "Sorry? A little slower, please.", "zh": "不好意思?请说慢一点。", "items": ["en.sorry", "en.slower_please"] },
+    { "speaker": "customer", "text": "Sure. A large iced latte. Oat milk, vanilla, no sugar.", "zh": "好的。大杯冰拿铁。燕麦奶,加香草,不加糖。", "items": ["en.sure", "en.large", "en.iced", "en.latte", "en.oat_milk", "en.vanilla", "en.sugar"] },
+    { "speaker": "lei", "text": "A large iced vanilla latte with oat milk, no sugar?", "zh": "大杯冰香草拿铁,换燕麦奶,不加糖,对吗?", "items": ["en.large", "en.iced", "en.vanilla", "en.latte", "en.oat_milk", "en.sugar"] },
+    { "speaker": "customer", "text": "That's right!", "zh": "对!", "items": ["en.thats_right"] },
+    { "speaker": "lei", "text": "Anything else? For here or to go?", "zh": "还要别的吗?在这儿喝还是带走?", "items": ["en.anything_else", "en.for_here_or_to_go"] },
+    { "speaker": "customer", "text": "That's it. To go, please.", "zh": "就这些。带走,谢谢。", "items": ["en.thats_it", "en.for_here_or_to_go"] },
+    { "speaker": "lei", "text": "Six fifty, please. Marcus, a large iced vanilla latte!", "zh": "一共 6.5 美元。马库斯,一杯大杯冰香草拿铁!", "items": ["en.large", "en.iced", "en.vanilla", "en.latte"] },
+    { "speaker": "marcus", "text": "Coming right up!", "zh": "马上就好!", "items": ["en.coming_right_up"] },
+    { "speaker": "lei", "text": "Here you go. Have a nice day!", "zh": "给您。祝您今天愉快!", "items": ["en.go", "en.have_a_nice_day"] },
+    { "speaker": "customer", "text": "Thanks, you too!", "zh": "谢谢,你也是!", "items": ["en.thank_you", "en.you_too"] },
+    { "speaker": "lei", "text": "Good morning! A large hot coffee, no sugar?", "zh": "早上好!还是大杯热咖啡,不加糖?", "items": ["en.morning", "en.large", "en.hot", "en.coffee", "en.sugar"] },
+    { "speaker": "regular", "text": "Yes! Every day. Thanks, Lei.", "zh": "对!天天都是这杯。谢谢你,磊。", "items": ["en.every_day", "en.thank_you"] },
+    { "speaker": "laura", "text": "Good job, Lei! The customers love you.", "zh": "干得好,磊!顾客们都很喜欢你。", "items": ["en.good_job", "en.customer", "en.love"] }
+  ],
+  "questions": [
+    { "prompt": "顾客第一次点完单,磊说 Sorry? A little slower, please. 是为什么?", "options": ["他没听清,请顾客说慢一点", "他做错了咖啡,向顾客道歉", "他想让顾客换一杯"], "answer": 0, "explainZh": "A little slower, please. 是\"请说慢一点\";这里的 Sorry? 用升调,意思是\"您说什么?\"。" },
+    { "prompt": "这位顾客点的是什么?", "options": ["大杯热拿铁,加糖", "中杯冰拿铁,换燕麦奶", "大杯冰香草拿铁,换燕麦奶,不加糖", "大杯热咖啡,不加糖"], "answer": 2, "explainZh": "A large iced vanilla latte with oat milk, no sugar? — That's right!;大杯热咖啡不加糖是老顾客天天点的那杯。" },
+    { "prompt": "下班前劳拉对磊说了什么?", "options": ["下次别再迟到", "干得好,顾客们都很喜欢你", "明天早点来"], "answer": 1, "explainZh": "Good job, Lei! The customers love you.——Good job! 是\"干得好\"。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u4_at_the_counter", "titleZh": "站到柜台另一边:店员的一整套说法",
+      "bodyZh": "① 打招呼、问点什么:Hi! What can I get for you?\n② 没听清就说:Sorry? A little slower, please.——别不好意思,顾客一般都会放慢。\n③ 复述确认:把关键信息(大小、冷热、奶的种类)重读——a LARGE ICED VANILLA latte with OAT milk, NO sugar?,顾客说 That's right! 再做。\n④ 追问:Anything else? / For here or to go?\n⑤ 收钱:Six fifty, please.(价格省略 dollars)/ Card or cash?\n⑥ 同事做饮品时说 Coming right up!(马上就好);递给顾客说 Here you go.(给您)。\n⑦ 送客:Have a nice day!——顾客一般回 Thanks, you too!\n最后,美国人很爱用 Good job! 夸人做得好。",
+      "examples": [
+        { "text": "A large iced vanilla latte with oat milk, no sugar?", "zh": "大杯冰香草拿铁,换燕麦奶,不加糖,对吗?" },
+        { "text": "Here you go. Have a nice day!", "zh": "给您。祝您今天愉快!" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u3.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 Daily life", "order": 103050,
+  "titleZh": "咖啡馆招兼职", "goalZh": "会说星期几、自己什么时候有空,能谈打工的排班", "canDoZh": "能在打工面试时说清楚自己哪几天、几点到几点有空",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.monday", "kind": "word", "pos": "propn", "text": "Monday", "zh": "星期一", "features": { "ipa": "ˈmʌndeɪ" }, "noteZh": "o 读 /ʌ/,像 \"mun-day\"。" },
+    { "id": "en.tuesday", "kind": "word", "pos": "propn", "text": "Tuesday", "zh": "星期二", "features": { "ipa": "ˈtuːzdeɪ" }, "noteZh": "美式读 /ˈtuːz-/,英式读 /ˈtjuːz-/。" },
+    { "id": "en.wednesday", "kind": "word", "pos": "propn", "text": "Wednesday", "zh": "星期三", "features": { "ipa": "ˈwenzdeɪ" }, "noteZh": "拼写里的第一个 d 不发音,只有两个音节 WENZ-day。" },
+    { "id": "en.thursday", "kind": "word", "pos": "propn", "text": "Thursday", "zh": "星期四", "features": { "ipa": "ˈθɝːzdeɪ" }, "noteZh": "开头是 th /θ/:舌尖放在齿间送气,不读成 s。" },
+    { "id": "en.friday", "kind": "word", "pos": "propn", "text": "Friday", "zh": "星期五", "features": { "ipa": "ˈfraɪdeɪ" }, "noteZh": "Friday night 周五晚上,美国大学生最爱的时间。" },
+    { "id": "en.free", "kind": "word", "pos": "adj", "text": "free", "zh": "有空的;免费的", "features": { "ipa": "friː" }, "noteZh": "Are you free on Tuesday? 周二有空吗?;free 还表示\"免费\":The gym is free。" },
+    { "id": "en.part_time", "kind": "word", "pos": "adj", "text": "part-time", "zh": "兼职的", "alt": ["part time"], "features": { "ipa": "ˌpɑːrt ˈtaɪm" }, "noteZh": "part-time job 兼职;持学生签证的留学生一般只能在校内打工,上课期间每周工时有上限。" },
+    { "id": "en.cafe", "kind": "word", "pos": "noun", "text": "cafe", "zh": "咖啡馆", "alt": ["café"], "features": { "ipa": "kæˈfeɪ" }, "noteZh": "重音在后 ca-FE;也写作 café。" },
+    { "id": "en.start", "kind": "word", "pos": "verb", "text": "start", "zh": "开始", "features": { "ipa": "stɑːrt" }, "noteZh": "When can you start? 你什么时候能开始上班?;My class starts at nine。" },
+    { "id": "en.manager", "kind": "word", "pos": "noun", "text": "manager", "zh": "经理", "features": { "ipa": "ˈmænədʒɚ" }, "noteZh": "重音在第一个音节 MAN-a-ger。" }
+  ],
+  "reviewItems": ["en.job", "en.work", "en.afternoon", "en.week"],
+  "lines": [
+    { "speaker": "marcus", "text": "Lei, this is Laura. She's our cafe manager.", "zh": "磊,这是劳拉,我们咖啡馆的经理。", "items": ["en.this_is", "en.cafe", "en.manager"] },
+    { "speaker": "laura", "text": "Nice to meet you, Lei. The job is part-time. When are you free?", "zh": "很高兴认识你,磊。这份工作是兼职。你什么时候有空?", "items": ["en.nice_to_meet_you", "en.job", "en.part_time", "en.free"] },
+    { "speaker": "lei", "text": "I have class on Monday, Wednesday, and Friday mornings.", "zh": "我周一、周三和周五上午有课。", "items": ["en.have", "en.class", "en.monday", "en.wednesday", "en.friday", "en.morning"] },
+    { "speaker": "lei", "text": "But I'm free on Tuesday and Thursday afternoons.", "zh": "不过周二和周四下午我有空。", "items": ["en.free", "en.tuesday", "en.thursday", "en.afternoon"] },
+    { "speaker": "laura", "text": "Great. You work on Tuesdays and Thursdays, from two to six.", "zh": "很好。你每周二、周四上班,从两点到六点。", "items": ["en.great", "en.work", "en.tuesday", "en.thursday"] },
+    { "speaker": "lei", "text": "Two days a week. Got it! When do I start?", "zh": "一周两天。明白了!我哪天开始?", "items": ["en.week", "en.got_it", "en.start"] },
+    { "speaker": "laura", "text": "You start on Monday at two. Please don't be late.", "zh": "周一两点开始。请不要迟到。", "items": ["en.start", "en.monday", "en.late"] },
+    { "speaker": "lei", "text": "I'm never late. Thank you, Laura!", "zh": "我从不迟到。谢谢你,劳拉!", "items": ["en.never", "en.late", "en.thank_you"] }
+  ],
+  "questions": [
+    { "prompt": "磊哪几天下午有空?", "options": ["周一和周三", "周三和周五", "周末", "周二和周四"], "answer": 3, "explainZh": "But I'm free on Tuesday and Thursday afternoons.——周二和周四下午有空;周一、三、五上午他有课。" },
+    { "prompt": "劳拉给磊排的班是什么时候?", "options": ["每周一、三、五上午", "每天两点到六点", "每周二、周四,两点到六点"], "answer": 2, "explainZh": "You work on Tuesdays and Thursdays, from two to six.——每周二、周四下午两点到六点,一周两天。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u3_time_prepositions", "titleZh": "时间介词小结:at 钟点,on 星期,in 上午 / 下午",
+      "bodyZh": "at + 钟点:at two、at nine o'clock。\non + 星期:on Monday(这个周一);星期加 -s 表示\"每周都这样\":on Tuesdays(每周二)。\nin + 一天里的时段:in the morning、in the afternoon(但 at night)。\n星期和时段连在一起时只用 on:on Monday mornings、on Tuesday afternoons(不说 in Tuesday afternoon)。\n几点到几点:from two to six。星期的首字母永远大写,前面不加 the。\n发音:Wednesday 的第一个 d 不发音,只读两个音节 WENZ-day;Tuesday 美式读 /ˈtuːzdeɪ/;Thursday 开头是 th /θ/,舌尖放在上下齿之间送气,别读成 s。",
+      "examples": [
+        { "text": "I have class on Monday mornings.", "zh": "我每周一上午有课。" },
+        { "text": "You work on Tuesdays, from two to six.", "zh": "你每周二上班,从两点到六点。" }
+      ] }
+  ],
+  "review": "draft"
+}
