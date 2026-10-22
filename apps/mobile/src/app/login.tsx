@@ -60,8 +60,8 @@ export default function Login() {
   }
 
   const leave = () => {
-    // 只回到 App 内的页面
-    if (next?.startsWith("/") && !next.startsWith("//")) router.replace(next);
+    // 只回到 App 内的页面。dismissTo:从会员页来的,退回下面那个会员页(不会叠两层);下面没有就换成它
+    if (next?.startsWith("/") && !next.startsWith("//")) router.dismissTo(next);
     else if (router.canGoBack()) router.back();
     else router.replace("/");
   };

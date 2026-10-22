@@ -362,7 +362,7 @@ async function onboardGerman(page: Page) {
 
   // 埋点:只在本机排队(没配服务器),只有 events.ts 列出的属性
   const names = (await queued()).map((e) => e.name);
-  check(["onboarding_complete", "plan_view", "lesson_start", "lesson_complete", "report_view", "paywall_view", "trial_start"].every((n) => names.includes(n)), "埋点:各页面的事件都记下了");
+  check((["onboarding_complete", "plan_view", "lesson_start", "lesson_complete", "report_view", "paywall_view", "trial_start"] as const).every((n) => names.includes(n)), "埋点:各页面的事件都记下了");
   const done = (await queued()).find((e) => e.name === "lesson_complete");
   check(!!done && typeof done.props.seconds === "number" && Object.keys(done.props).sort().join() === "correct,lessonId,seconds,total", "埋点:lesson_complete 带用时,不带多余属性");
   // 第一条 app_open 在选语种之前,没有 lang
@@ -470,7 +470,7 @@ async function onboardGerman(page: Page) {
   // "旧手机"上学过第一课、目标 A2:登录后要合并到新手机上
   const PHONE = "13800138000";
   const yesterday = new Date(Date.now() - 86_400_000);
-  let old = { ...emptyProgress("de", -yesterday.getTimezoneOffset()), goal: { kind: "travel" as const, target: "A2" as const, dailyMinutes: 20 } };
+  let old: Progress = { ...emptyProgress("de", -yesterday.getTimezoneOffset()), goal: { kind: "travel", target: "A2", dailyMinutes: 20 } };
   old = completeLesson(old, readLesson("a1u1.l01.json"), yesterday);
   old = recordAnswer(old, { itemId: "de.hallo", direction: "produce", verdict: "correct", ms: 3000 }, yesterday);
   mock.users.set(PHONE, { id: "u-old", token: "t-old" });
@@ -572,7 +572,7 @@ async function onboardGerman(page: Page) {
   check(await until(() => mock.events.some((e) => e.name === "lesson_complete")), "切到后台时上传埋点");
   await setVisibility("visible");
   const names = mock.events.map((e) => e.name);
-  check(names[0] === "app_open" && ["onboarding_complete", "plan_view", "login", "lesson_start", "lesson_complete", "tutor_message"].every((n) => names.includes(n)), "上传的埋点从同意后的 app_open 开始,各事件都在");
+  check(names[0] === "app_open" && (["onboarding_complete", "plan_view", "login", "lesson_start", "lesson_complete", "tutor_message"] as const).every((n) => names.includes(n)), "上传的埋点从同意后的 app_open 开始,各事件都在");
   check(mock.events.find((e) => e.name === "login")?.props.isNew === false && new Set(mock.events.map((e) => e.anonId)).size === 1, "埋点:login 带 isNew,全程同一个 anonId");
   await page.waitForTimeout(500);
   check(JSON.parse((await storage())["analytics:queue"] ?? "[]").length === 0, "上传成功的埋点从本机队列删掉");

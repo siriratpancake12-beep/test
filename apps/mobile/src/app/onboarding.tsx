@@ -70,8 +70,8 @@ export default function Onboarding() {
   /** 下一个目标定好了:存下来回学习计划页。goal_change 在学习计划页选目标时已经记过,这里不再记 */
   const finishNextGoal = (goal: Partial<Goal>) => {
     update((p) => setGoal(p, goal as Goal));
-    if (router.canGoBack()) router.back();
-    else router.replace("/plan");
+    // 学习计划页在下面就退回去,不在(比如以后从别的页面进来)就换成它
+    router.dismissTo("/plan");
   };
 
   return (

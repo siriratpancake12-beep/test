@@ -11,7 +11,7 @@ import { NeedConsent } from "../components/NeedConsent";
 import { getPack } from "../content";
 import { zhDate } from "../labels";
 import { askNotifications, canAskNotifications, notificationsGranted, reschedule } from "../notify";
-import { manageSubscriptionsUrl, PurchaseFailure, restore } from "../purchases";
+import { DEV_PURCHASES, manageSubscriptionsUrl, PurchaseFailure, restore } from "../purchases";
 import { useStore } from "../store";
 import { color, s } from "../theme";
 
@@ -45,14 +45,14 @@ export default function Settings() {
     if (await notificationsGranted()) return setPerm("granted");
     setPerm((await canAskNotifications()) ? "ask" : "denied");
   }, []);
-  // 从系统设置回来时权限可能变了
+  // 从系统设置回来时权限可能变了;在这里同意隐私政策以后也要重查(基本功能模式下一律当作"不能问")
   useEffect(() => {
     void refreshPerm();
     const listener = AppState.addEventListener("change", (st) => {
       if (st === "active") void refreshPerm();
     });
     return () => listener.remove();
-  }, [refreshPerm]);
+  }, [refreshPerm, consented]);
 
   const rescheduleNow = () => {
     if (progress && pack) reschedule(progress, sub, `学${pack.nameZh}`).catch((e) => console.warn("排提醒失败", e));
@@ -91,9 +91,8 @@ export default function Settings() {
     setRestoreMsg(events.length ? "已恢复购买" : "没有找到可以恢复的购买记录");
   });
 
-  // 开通会员要先登录(App Store 的交易要关联账号,换手机才能恢复);没配服务器时直接去会员页
-  const openPaywall = () =>
-    router.push(serverEnabled() && !user ? `/login?next=${encodeURIComponent("/paywall?reason=plan")}` : "/paywall?reason=plan");
+  // 真实内购要先登录(交易关联账号,换手机才能恢复),和会员页的规则一样;开通的登录入口在会员页上,恢复购买直接去登录
+  const needLogin = !DEV_PURCHASES && !user;
 
   const goal = progress?.goal;
   const autoRenewOn = !!sub?.autoRenew && (sub.status === "trial" || sub.status === "active");
@@ -148,11 +147,11 @@ export default function Settings() {
           <NeedConsent feature="开通会员、恢复购买" compact />
         ) : (
           <>
-            {!premium && <Row testID="settings-paywall" title="开通会员" value={serverEnabled() && !user ? "需要先登录" : undefined} onPress={openPaywall} />}
+            {!premium && <Row testID="settings-paywall" title="开通会员" value={needLogin ? "需要先登录" : undefined} onPress={() => router.push("/paywall?reason=plan")} />}
             {!!sub && sub.status !== "expired" && sub.status !== "revoked" && (
               <Row title={autoRenewOn ? "管理订阅(取消自动续费)" : "管理订阅"} onPress={() => void Linking.openURL(manageSubscriptionsUrl)} />
             )}
-            <Row testID="settings-restore" title="恢复购买" onPress={() => void doRestore()} />
+            <Row testID="settings-restore" title="恢复购买" value={needLogin ? "需要先登录" : undefined} onPress={() => (needLogin ? router.push("/login") : void doRestore())} />
             {!!restoreMsg && <Text style={s.sub}>{restoreMsg}</Text>}
             {!confirm && !!error && <Text style={[s.body, { color: color.bad }]}>{error}</Text>}
           </>

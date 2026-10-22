@@ -134,11 +134,12 @@ export function listenPurchases(onEvents: (events: SubEvent[]) => void): () => v
 }
 
 /**
- * 让本地会员状态跟着服务器走:启动、回到前台时对齐一次,并处理 App 开着时到来的交易。
- * 要放在 StoreProvider 里面,比如 _layout.tsx 里加一个 <PurchaseSync />。不是真实内购模式时什么也不做。
+ * 让本地会员状态跟着服务器走:启动、登录(换账号)、回到前台时对齐一次,并处理 App 开着时到来的交易。
+ * 登录也要对齐:换手机登录后会员马上恢复;退出登录、换账号时 store 已经清掉了本机的会员状态。
+ * 要放在 StoreProvider 里面(_layout.tsx 的 <PurchaseSync />,同意隐私政策后才挂)。不是真实内购模式时什么也不做。
  */
 export function usePurchaseSync(): void {
-  const { ready, sub, applySub } = useStore();
+  const { ready, sub, applySub, user } = useStore();
   const local = useRef(sub);
   useEffect(() => {
     local.current = sub;
@@ -159,7 +160,7 @@ export function usePurchaseSync(): void {
       stop();
       appState.remove();
     };
-  }, [ready, applySub]);
+  }, [ready, applySub, user?.id]); // eslint-disable-line react-hooks/exhaustive-deps
 }
 
 export function PurchaseSync(): null {
