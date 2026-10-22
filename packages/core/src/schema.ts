@@ -18,8 +18,8 @@ export const Skill = z.enum(["listen", "speak", "read", "write"]);
 
 /** 语种特有的词条信息。全部可选,语言包的 `features` 决定哪些必须填(见 validate)。 */
 export const ItemFeatures = z.object({
-  /** 名词的性:德语 m/f/n,法语、西语、意语 m/f */
-  gender: z.enum(["m", "f", "n"]).optional(),
+  /** 名词的性:德语 m/f/n,法语、西语、意语 m/f;pl = 只有复数形式的名词(die Eltern、les gens) */
+  gender: z.enum(["m", "f", "n", "pl"]).optional(),
   /** 复数形式(德语名词必须填,复数是学习难点) */
   plural: z.string().optional(),
   /** 读音:日语假名、汉字词的读法 */

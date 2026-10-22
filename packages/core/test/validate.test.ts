@@ -26,3 +26,14 @@ describe("内容检查", () => {
     expect(msgs.some((m) => m.includes("de.hallo"))).toBe(true);
   });
 });
+
+describe("只有复数的名词", () => {
+  it("德语 die Eltern 标 pl 不报错,不要求复数;用 der 会报", () => {
+    const ok = structuredClone(l1);
+    ok.newItems.push({ id: "de.eltern", kind: "word", pos: "noun", text: "die Eltern", zh: "父母", features: { gender: "pl" } });
+    expect(validateCourse(dePack, [ok, l2]).filter((p) => p.msg.includes("de.eltern"))).toEqual([]);
+    const bad = structuredClone(l1);
+    bad.newItems.push({ id: "de.eltern", kind: "word", pos: "noun", text: "der Eltern", zh: "父母", features: { gender: "pl" } });
+    expect(validateCourse(dePack, [bad, l2]).map((p) => p.msg).join()).toMatch(/复数冠词/);
+  });
+});

@@ -78,6 +78,13 @@ export function checkFeatures(it: Item, pack: LanguagePack): string[] {
   if (it.pos === "noun" && pack.features.nounGender !== "none") {
     if (!f.gender) out.push("名词缺少性别 gender");
     else if (pack.features.nounGender === "mf" && f.gender === "n") out.push("这个语种没有中性");
+    // 只有复数形式的名词:冠词必须是复数冠词(德语的 die 既是阴性也是复数),不要求再写复数
+    if (f.gender === "pl") {
+      const sp = splitArticle(it.text, pack);
+      const art = sp?.[0].toLowerCase();
+      if (pack.articles && (!art || (pack.articles[art] !== "pl" && !(pack.code === "de" && art === "die")))) out.push("只有复数的名词要用复数冠词");
+      return out;
+    }
     // 俄语有性但没有冠词:只要求标 gender
     const sp = splitArticle(it.text, pack);
     if (!sp && pack.articles) out.push(`名词要带冠词写(如 ${Object.keys(pack.articles)[0] ?? ""} ...),方便记性别`);

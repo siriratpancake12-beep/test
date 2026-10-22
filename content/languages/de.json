@@ -2,6 +2,41 @@
   "code": "de", "nameZh": "德语", "nativeName": "Deutsch", "script": "latin", "locale": "de-DE",
   "features": { "nounGender": "mfn", "requirePlural": true, "reading": false, "roman": false, "pitch": false },
   "articles": { "der": "m", "die": "f", "das": "n" },
-  "examsZh": ["歌德证书 Goethe A1–C2", "TestDaF / DSH(留学)", "德福"],
-  "tipsZh": ["名词有阳、阴、中三性,复数也要单独记", "所有名词首字母大写", "格的变化(一二三四格)是最大难点", "动词位置:主句第二位、从句句末"]
+  "examsZh": ["歌德证书 Goethe-Zertifikat A1–C2", "德福 TestDaF / DSH(留学)"],
+  "tipsZh": [
+    "名词有阳、阴、中三性,复数也要单独记",
+    "所有名词首字母大写",
+    "格的变化(一二三四格)是最大难点",
+    "动词位置:主句第二位、从句句末",
+    "du 和 Sie 要分清:朋友、同学之间用 du,对老师、店员、陌生人用 Sie",
+    "21–99 先说个位再说十位:einundzwanzig 是“一和二十”;halb drei 是两点半,不是三点半",
+    "w 读 [v]、v 读 [f]、z 读 [ts],词尾的 b / d / g 读成 p / t / k"
+  ],
+  "cast": {
+    "wei": { "name": "Wei", "nameZh": "王伟", "gender": "m", "bioZh": "20 岁,来自成都的中国留学生,来柏林读计算机专业,德语从零学起;礼貌、认真、有点害羞,爸爸是厨师,他自己也爱做川菜。德国人称呼他 Herr Wang,朋友叫他 Wei。" },
+    "lena": { "name": "Lena", "nameZh": "莉娜", "gender": "f", "bioZh": "20 岁,土生土长的柏林人,读师范(英语),是王伟在大学的学伴,自己也在学中文;热情、爱笑、语速快,喜欢游泳和看电影,周四晚上和周六上午在书店打工;会耐心地纠正王伟。" },
+    "sofia": { "name": "Sofia", "nameZh": "索菲娅", "gender": "f", "bioZh": "22 岁,意大利人,王伟德语班的同学,后来成了他的室友;开朗、话多、爱做饭、爱听音乐,周末在一家冰淇淋店打工;德语比王伟好一点,常拿自己学德语的经验帮他。" },
+    "jonas": { "name": "Jonas", "nameZh": "约纳斯", "gender": "m", "bioZh": "25 岁,汉堡人,在柏林一家餐馆当厨师,是 WG 的主租人;随和、话不多、爱开玩笑,爱踢足球,常上晚班、起得很晚。" },
+    "paul": { "name": "Paul", "nameZh": "保罗", "gender": "m", "bioZh": "16 岁,莉娜的弟弟,中学生;好奇心强,对中国很感兴趣,爱踢足球、打游戏,说话快、问题多,和谁都用 du。" },
+    "wagner": { "name": "Frau Wagner", "nameZh": "瓦格纳老师", "gender": "f", "bioZh": "40 多岁,来自科隆,大学语言中心的德语老师;说标准德语、语速慢、很有耐心,对学生一律用 Sie,常鼓励大家开口。" },
+    "hoffmann": { "name": "Herr Hoffmann", "nameZh": "霍夫曼先生", "gender": "m", "bioZh": "72 岁,住在 WG 楼下的老邻居,退休前开火车;客气、讲究,总用 Sie,爱聊天气和火车,周末常请年轻人喝咖啡。" },
+    "verkaeuferin": { "name": "Verkäuferin", "nameZh": "女店员", "gender": "f", "bioZh": "面包店、商店里的女店员(每次场景里不一定是同一个人);说话快,爱用店里的固定说法。" },
+    "verkaeufer": { "name": "Verkäufer", "nameZh": "男店员", "gender": "m", "bioZh": "商场、二手市场的男店员或摊主;主动招呼客人,会推荐颜色和尺码。" },
+    "kassiererin": { "name": "Kassiererin", "nameZh": "收银员", "gender": "f", "bioZh": "超市收银员,结账时只说几句固定的话,语速很快。" },
+    "kellnerin": { "name": "Kellnerin", "nameZh": "女服务员", "gender": "f", "bioZh": "学校旁边咖啡馆的女服务员,友好、利落。" },
+    "kellner": { "name": "Kellner", "nameZh": "男服务员", "gender": "m", "bioZh": "约纳斯工作的那家餐馆的服务员,礼貌、专业,对客人用 Sie。" },
+    "aerztin": { "name": "Dr. Neumann", "nameZh": "诺伊曼医生", "gender": "f", "bioZh": "王伟的家庭医生(女),说话清楚、有条理,会用简单的话解释病情和医嘱。" },
+    "arzthelferin": { "name": "Arzthelferin", "nameZh": "诊所前台", "gender": "f", "bioZh": "诺伊曼医生诊所的前台,负责电话预约和登记。" },
+    "apotheker": { "name": "Apotheker", "nameZh": "药剂师", "gender": "m", "bioZh": "街角药店的药剂师,耐心地说明药怎么吃。" },
+    "passantin": { "name": "Passantin", "nameZh": "女路人", "gender": "f", "bioZh": "街上被问路的女士,热心,指路时说得比较快。" },
+    "passant": { "name": "Passant", "nameZh": "男路人", "gender": "m", "bioZh": "街上被问路的男士。" },
+    "fahrkartenverkaeufer": { "name": "Fahrkartenverkäufer", "nameZh": "售票员", "gender": "m", "bioZh": "火车站售票窗口的工作人员,会问去哪儿、单程还是往返。" },
+    "kontrolleurin": { "name": "Kontrolleurin", "nameZh": "查票员", "gender": "f", "bioZh": "地铁、火车上查票的工作人员,对乘客用 Sie。" },
+    "bankberaterin": { "name": "Bankberaterin", "nameZh": "银行职员", "gender": "f", "bioZh": "银行里帮客户开户、填表的职员,说话正式。" },
+    "postangestellter": { "name": "Postangestellter", "nameZh": "邮局职员", "gender": "m", "bioZh": "邮局柜台的工作人员,负责寄信、寄包裹。" },
+    "mitarbeiterin": { "name": "Mitarbeiterin", "nameZh": "女工作人员", "gender": "f", "bioZh": "语言学校、办事处、问讯处等的女工作人员(电话里也常是她)。" },
+    "mitarbeiter": { "name": "Mitarbeiter", "nameZh": "男工作人员", "gender": "m", "bioZh": "各种柜台、问讯处的男工作人员。" },
+    "durchsage": { "name": "Durchsage", "nameZh": "广播", "gender": "f", "bioZh": "车站、车厢、超市里的广播;歌德 A1 听力常考,句子短、信息多(站台、时间、晚点)。" },
+    "radio": { "name": "Radio", "nameZh": "电台播音员", "gender": "m", "bioZh": "收音机里的天气预报和交通信息,语速比日常对话快。" }
+  }
 }
