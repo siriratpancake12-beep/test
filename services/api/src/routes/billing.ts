@@ -9,8 +9,8 @@ import { requireUser } from "../auth/session";
 import type { Config } from "../config";
 import type { Db } from "../db";
 import {
-  activeUserId, bindingOwner, claimOrphanEvents, deleteBoundSubscription, loadSubscription, lockOriginalTransaction, lockUserSubscription,
-  recentAccountTokens, recordAppleNotification, recordEvents, recordRebind, saveSubscription,
+  activeUserId, bindingOwner, claimOrphanEvents, deleteBoundSubscription, DELETED_USER, lastRebindOwner, loadSubscription, lockOriginalTransaction,
+  lockUserSubscription, NO_OWNER, recentAccountTokens, recordAppleNotification, recordEvents, recordRebind, saveSubscription,
 } from "../db/billing";
 import { HttpError } from "../errors";
 
@@ -25,7 +25,8 @@ import { HttpError } from "../errors";
  * - 原来的主人已经注销(或者账号这一行已经没了):恢复购买时换绑到当前账号。交易是苹果签名的,证明当前的 Apple ID 拥有这个订阅。
  * - 原来的主人还在用:不悄悄换绑,回"这笔购买属于另一个语途账号"。
  * - 同一个 Apple ID 在另一个账号里重新买了(交易带的是这个账号的标识):谁付的钱归谁,订阅转过去。
- * 每次换绑都在 subscription_rebinds 记一行(只有 id),原来主人名下的这个订阅删掉,免得两个账号都是会员。
+ * - 交易没有账号标识(比如在 App 外兑换的优惠码):没有还在用的主人时,第一个来恢复购买的账号认领(来源 claim_no_token)。
+ * 每次换绑、认领都在 subscription_rebinds 记一行(只有 id),原来主人名下的这个订阅删掉,免得两个账号都是会员。
  * 苹果的通知不会记到已注销的账号上:找不到还在用的主人就先记下,等新账号恢复购买时一起补上。
  * 接入说明见 docs/08-支付接入.md。
  */
@@ -95,16 +96,17 @@ export function registerBilling(app: FastifyInstance, deps: Deps) {
       const bought = token === me;
       const mine = bought || uuid(await bindingOwner(trx, otid)) === me;
       const previous = mine && !bought ? null : await previousOwner(trx, otid, me, token);
-      if (!mine) {
-        // 不是这个账号买的:只有原来的主人已经注销时才换绑过来,还在用的不动
-        if (!previous) throw new HttpError(403, "no_account_token", "这笔购买没有关联语途账号,请联系客服处理");
-        if (!previous.deleted) throw wrongAccount();
-      } else if (previous && !previous.deleted) {
+      // 原来的主人还在用:不悄悄换绑
+      if (!mine && previous && !previous.deleted) throw wrongAccount();
+      if (mine && previous && !previous.deleted) {
         // 这个账号自己买的,但订阅现在在另一个还在用的账号名下:只有比那边更新的购买(重新订阅、升级)才转过来,
         // 拿自己以前的旧交易不能把订阅抢回来
         if (isStale((await loadSubscription(trx, previous.userId)).sub, tx.periodEnd, deps.now())) throw wrongAccount();
       }
-      return applyItem(trx, deps, userId, item, previous);
+      // 剩下的"不是这个账号的":原来的主人已注销(换绑),或者交易没有账号标识(比如在 App 外兑换的优惠码)、
+      // 也没有还在用的主人——第一个来恢复购买的账号认领
+      const rebind = !mine ? { previous, source: token ? item.source : CLAIM_NO_TOKEN } : previous ? { previous, source: item.source } : null;
+      return applyItem(trx, deps, userId, item, rebind);
     });
     return res(sub, deps.now());
   });
@@ -129,19 +131,24 @@ export function registerBilling(app: FastifyInstance, deps: Deps) {
       await applyItem(trx, deps, userId, {
         source: "apple-notification", environment: n.environment, originalTransactionId: otid,
         productId: n.productId, periodEnd: n.periodEnd, events: n.events, raw: n.raw,
-      }, previous);
+      }, previous ? { previous, source: "apple-notification" } : null);
     });
     return { ok: true };
   });
 }
 
 const wrongAccount = () => new HttpError(403, "wrong_account", "这笔购买属于另一个语途账号,请登录购买时用的账号");
+/** 换绑记录的来源:没有账号标识的购买被第一个恢复购买的账号认领 */
+const CLAIM_NO_TOKEN = "claim_no_token";
 
 const UUID = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i;
 /** 账号标识统一成小写 UUID(我们的用户 id 是小写的,苹果给回来的大小写不一定) */
 const uuid = (id: string | null | undefined) => (id && UUID.test(id) ? id.toLowerCase() : undefined);
 
-/** 订阅原来的主人:userId(按我们存的写法,注销了的按小写 UUID)和这个账号是否已经注销(注销或者这一行已经没了都算) */
+/**
+ * 订阅原来的主人:userId(按我们存的写法;注销了的是小写 UUID,只从换绑记录里知道的是 "deleted")
+ * 和这个账号是否已经注销(注销或者这一行已经没了都算)
+ */
 interface Owner {
   userId: string;
   deleted: boolean;
@@ -162,6 +169,10 @@ async function previousOwner(trx: Db, otid: string, self: string, token?: string
     const id = uuid(t);
     if (id && id !== self) return owner(id);
   }
+  // 没有账号标识的订阅:看换绑记录里最后归了谁(那个账号注销时会改成 "deleted")
+  const last = await lastRebindOwner(trx, otid);
+  if (last === DELETED_USER) return { userId: DELETED_USER, deleted: true };
+  if (last && uuid(last) !== self) return owner(last);
   return null;
 }
 
@@ -197,10 +208,16 @@ interface StoreItem {
 /**
  * 一条校验过的商店数据(交易或通知):记流水,再把第一次见到的事件应用到这个用户的会员状态。
  * userId 为空(还不知道是谁的)时只记流水,等用户上报同一订阅的交易时补上。
- * previous 不为空表示换绑:订阅原来属于另一个账号(已注销,或者这个账号重新买了它)。
+ * rebind 不为空表示这次要把订阅绑到这个账号并记审计:previous 是原来的主人(已注销,或者这个账号重新买了它),
+ * 为空是第一次认领(没有账号标识的购买)。
  * 调用前要先锁上这个订阅(lockOriginalTransaction),这里再锁用户,顺序固定。
  */
-async function applyItem(trx: Db, deps: Deps, userId: string | null, item: StoreItem, previous: Owner | null = null): Promise<Subscription | null> {
+async function applyItem(
+  trx: Db, deps: Deps, userId: string | null, item: StoreItem, rebind: { previous: Owner | null; source: string } | null = null,
+): Promise<Subscription | null> {
+  const previous = rebind?.previous ?? null;
+  // 原来主人的真实 id(换绑记录里已经是 "deleted" 的就没有了)
+  const previousId = uuid(previous?.userId);
   const now = deps.now();
   if (userId) await lockUserSubscription(trx, userId);
   const fresh = await recordEvents(trx, item.events.map((event) => ({
@@ -213,18 +230,19 @@ async function applyItem(trx: Db, deps: Deps, userId: string | null, item: Store
   let sub = before;
   // 之前没对应上用户的同一订阅的事件,按发生顺序先补上(包括原来的主人注销时去掉了账号关联的流水,换绑时用它重建会员状态)
   if (item.originalTransactionId) {
-    const fromDeleted = previous?.deleted ? previous.userId : undefined;
+    const fromDeleted = previous?.deleted ? previousId : undefined;
     for (const o of await claimOrphanEvents(trx, userId, item.originalTransactionId, fromDeleted)) sub = applyStoreEvents(sub, [o.event], o.periodEnd, now);
   }
   sub = applyStoreEvents(sub, item.events.filter((e) => fresh.has(e.id)), item.periodEnd, now);
   const otid = item.originalTransactionId;
-  const rebind = !!(sub && otid && previous);
-  if (rebind) {
+  const bind = !!(sub && otid && rebind);
+  if (bind) {
     // 原来主人名下的这个订阅删掉(已注销的账号这一行通常已经没了);审计只记 id,已注销的不再和新账号关联
-    await deleteBoundSubscription(trx, previous!.userId, otid!);
-    await recordRebind(trx, { originalTransactionId: otid!, oldUserId: previous!.deleted ? "deleted" : previous!.userId, newUserId: userId, source: item.source, at: now });
+    if (previousId) await deleteBoundSubscription(trx, previousId, otid!);
+    const oldUserId = !previous ? NO_OWNER : previous.deleted ? DELETED_USER : previous.userId;
+    await recordRebind(trx, { originalTransactionId: otid!, oldUserId, newUserId: userId, source: rebind!.source, at: now });
   }
-  if (sub && (sub !== before || rebind)) await saveSubscription(trx, userId, sub, otid ?? originalTransactionId, now);
+  if (sub && (sub !== before || bind)) await saveSubscription(trx, userId, sub, otid ?? originalTransactionId, now);
   return sub;
 }
 

@@ -2,6 +2,7 @@ import type { FastifyInstance } from "fastify";
 import { ROUTES, type User } from "@lingo/core";
 import type { Deps } from "../app";
 import { deleteAiUsage } from "../db/ai";
+import { forgetBillingUser } from "../db/billing";
 import { unauthorized } from "../errors";
 import { requireUser } from "../auth/session";
 import { toUser } from "../auth/users";
@@ -13,7 +14,8 @@ import { toUser } from "../auth/users";
  * - 用 Apple 登录过的,先向苹果撤销授权(苹果要求);撤销失败不挡注销,记日志
  * - 删除个人信息:手机号、苹果/微信标识和令牌清空(这一行只留 id 和时间,用来让旧 token 失效、统计注册数)
  * - 删除学习进度、这个手机号的验证码记录(含 IP)、AI 老师和发音评测的用量记录
- * - 订阅:删除订阅状态;交易流水保留(对账、退款、指标要用),但 user_id 置空,和这个人不再关联
+ * - 订阅:删除订阅状态;交易流水保留(对账、退款、指标要用),但 user_id 置空,和这个人不再关联;
+ *   订阅换绑记录里的这个 id 改成 "deleted"(见 db/billing.ts 的 forgetBillingUser)
  * - 埋点保留(用于统计),user_id 同样置空
  * - 之后这个账号不能再登录;同一个手机号、苹果账号、微信可以重新注册成一个新账号
  * 注销不等于取消苹果订阅(订阅在用户的 Apple ID 下),App 里注销前会提示。
@@ -58,9 +60,7 @@ export function registerAccount(app: FastifyInstance, deps: Deps) {
       await trx.updateTable("events").set({ user_id: null }).where("user_id", "=", userId).execute();
       if (row?.phone) await trx.deleteFrom("sms_codes").where("phone", "=", row.phone).execute();
       await deleteAiUsage(trx, userId);
-      await trx.deleteFrom("subscriptions").where("user_id", "=", userId).execute();
-      await trx.updateTable("subscription_events").set({ user_id: null }).where("user_id", "=", userId).execute();
-      await trx.updateTable("apple_notifications").set({ user_id: null }).where("user_id", "=", userId).execute();
+      await forgetBillingUser(trx, userId);
     });
     req.log.info({ userId }, "账号已注销");
     return reply.status(204).send();
