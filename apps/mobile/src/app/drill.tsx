@@ -2,6 +2,7 @@ import { Redirect, router } from "expo-router";
 import { useMemo, useState } from "react";
 import { ScrollView, Text, View } from "react-native";
 import { finishDrill, recordAnswer, topWeakness, weaknessDrill } from "@lingo/core";
+import { track } from "../analytics";
 import { toAnswer } from "../answers";
 import { Button } from "../components/Button";
 import { ExerciseView } from "../components/ExerciseView";
@@ -50,6 +51,7 @@ export default function Drill() {
           const next = recordAnswer(p, toAnswer(ex, r), now);
           return i + 1 >= exercises.length ? finishDrill(next, now) : next;
         });
+        if (i + 1 >= exercises.length) track("drill_complete", { weakness: weak.kind, total: exercises.length, correct: right + (r.verdict === "wrong" ? 0 : 1) });
         if (r.verdict !== "wrong") setRight(right + 1);
         setI(i + 1);
       }} />

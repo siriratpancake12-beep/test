@@ -1,6 +1,8 @@
 import { router, useLocalSearchParams } from "expo-router";
+import { useEffect } from "react";
 import { ScrollView, Text, View } from "react-native";
 import { GOAL_KINDS, levelProgress, projection, setGoal } from "@lingo/core";
+import { track } from "../analytics";
 import { Button } from "../components/Button";
 import { getLessons, getPack } from "../content";
 import { zhDate, zhMonth } from "../labels";
@@ -17,6 +19,7 @@ const MAX_DAILY = 120;
 export default function Plan() {
   const { first } = useLocalSearchParams<{ first?: string }>();
   const { lang, progress, premium, update } = useStore();
+  useEffect(() => track("plan_view", { first: !!first }), []); // eslint-disable-line react-hooks/exhaustive-deps
   const pack = lang ? getPack(lang) : undefined;
   if (!pack || !progress?.goal) return null;
   const lessons = getLessons(pack.code);
@@ -57,7 +60,10 @@ export default function Plan() {
             <>
               <Text style={s.body}>⚠️ 要在 {zhDate(goal.deadline!)} 前达到 {goal.target},每天需要学约 {pr.neededMinutes} 分钟。</Text>
               {suggested <= MAX_DAILY ? (
-                <Button title={`改成每天 ${suggested} 分钟`} onPress={() => update((p) => setGoal(p, { ...goal, dailyMinutes: suggested }))} />
+                <Button title={`改成每天 ${suggested} 分钟`} onPress={() => {
+                  update((p) => setGoal(p, { ...goal, dailyMinutes: suggested }));
+                  track("goal_change", { target: goal.target, dailyMinutes: suggested });
+                }} />
               ) : (
                 <Text style={s.sub}>这个期限太紧了。建议先把目标定在低一级,达到后再继续往上。</Text>
               )}

@@ -2,6 +2,7 @@ import { router } from "expo-router";
 import { useMemo, useState } from "react";
 import { ScrollView, Text } from "react-native";
 import { applyPlacement, levelPassed, placementLevels, placementQuestions, type Cefr } from "@lingo/core";
+import { track } from "../analytics";
 import { ExerciseView } from "../components/ExerciseView";
 import { getLessons, getPack } from "../content";
 import { useStore } from "../store";
@@ -33,8 +34,14 @@ export default function Placement() {
       return;
     }
     // 这一级考完
-    if (!levelPassed(c, questions.length)) return done(levels.slice(0, li));
-    if (li + 1 >= levels.length) return done(levels);
+    if (!levelPassed(c, questions.length)) {
+      track("placement_complete", { passedLevels: levels.slice(0, li).join(","), questions: questions.length, correct: c });
+      return done(levels.slice(0, li));
+    }
+    if (li + 1 >= levels.length) {
+      track("placement_complete", { passedLevels: levels.join(","), questions: questions.length, correct: c });
+      return done(levels);
+    }
     setLi(li + 1);
     setQi(0);
     setCorrect(0);
@@ -45,7 +52,10 @@ export default function Placement() {
     <ScrollView style={s.screen} contentContainerStyle={s.pad}>
       <Text style={s.sub}>{levels[li]} · 第 {qi + 1}/{questions.length} 题 · 不会就选最像的,不用猜太久</Text>
       {q && <ExerciseView ex={q} pack={pack} onDone={(r) => next(r.verdict !== "wrong")} />}
-      <Text style={[s.sub, { color: color.primary, marginTop: 24, textAlign: "center" }]} onPress={() => done(levels.slice(0, li))}>
+      <Text style={[s.sub, { color: color.primary, marginTop: 24, textAlign: "center" }]} onPress={() => {
+        track("placement_complete", { passedLevels: levels.slice(0, li).join(","), questions: qi, correct });
+        done(levels.slice(0, li));
+      }}>
         后面的都不会了,结束测试
       </Text>
     </ScrollView>

@@ -2,6 +2,7 @@ import { router, useLocalSearchParams } from "expo-router";
 import { useMemo, useState } from "react";
 import { ScrollView, Text, View } from "react-native";
 import { exerciseFor, finishReview, recordAnswer, reviewCap, todaysReview } from "@lingo/core";
+import { track } from "../analytics";
 import { toAnswer } from "../answers";
 import { Button } from "../components/Button";
 import { ExerciseView } from "../components/ExerciseView";
@@ -54,6 +55,7 @@ export default function Review() {
           const next = recordAnswer(p, toAnswer(ex, r), now);
           return i + 1 >= queue.length ? finishReview(next, now) : next;
         });
+        if (i + 1 >= queue.length) track("review_complete", { cards: queue.length, correct: right + (r.verdict === "wrong" ? 0 : 1) });
         if (r.verdict !== "wrong") setRight(right + 1);
         setI(i + 1);
       }} />

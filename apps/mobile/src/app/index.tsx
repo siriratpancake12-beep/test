@@ -5,6 +5,7 @@ import {
   canAccessLesson, dailyPlan, isDone, isUnlocked, levelProgress, nextLesson, projection, renewalReminder, streak, todayMinutes,
   type Block,
 } from "@lingo/core";
+import { serverEnabled } from "../api";
 import { Button } from "../components/Button";
 import { getLesson, getLessons, getPack } from "../content";
 import { issueLabel, zhDate, zhMonth } from "../labels";
@@ -129,6 +130,7 @@ export default function Home() {
         {!premium && <Button ghost title="了解会员" onPress={() => router.push("/paywall?reason=plan")} />}
         <Button ghost title="调整学习目标" onPress={() => router.push("/onboarding")} />
         <Button ghost title="换一门语言" onPress={() => setLang(null)} />
+        <SettingsEntry />
       </View>
     </ScrollView>
   );
@@ -144,4 +146,15 @@ function blockSub(b: Block): string {
   if (b.kind === "review") return b.done ? "今天的复习做完了" : `${b.cards} 个词该巩固了`;
   if (b.kind === "drill") return "针对你最近常犯的错";
   return getLesson(b.lessonId)?.canDoZh ?? "";
+}
+
+/** 设置入口。配置了服务器又没登录时顺带说一句登录的好处(只提示,不强迫) */
+function SettingsEntry() {
+  const { user } = useStore();
+  return (
+    <>
+      <Button ghost title="⚙️ 设置" onPress={() => router.push("/settings")} />
+      {serverEnabled() && !user && <Text style={[s.sub, { textAlign: "center" }]}>登录后换手机不丢进度、多台设备同步</Text>}
+    </>
+  );
 }

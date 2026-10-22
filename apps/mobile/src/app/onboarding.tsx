@@ -2,6 +2,7 @@ import { router } from "expo-router";
 import { useEffect, useState } from "react";
 import { ScrollView, Text } from "react-native";
 import { GOAL_KINDS, addDays, dayKey, setGoal, type Cefr, type Goal, type GoalKind } from "@lingo/core";
+import { track } from "../analytics";
 import { Button } from "../components/Button";
 import { Option } from "../components/Option";
 import { availableLangs, comingSoonLangs } from "../content";
@@ -51,6 +52,8 @@ export default function Onboarding() {
   const finish = (hasBase: boolean) => {
     const goal = draft as Goal;
     update((p) => setGoal(p, goal));
+    if (progress?.goal) track("goal_change", { target: goal.target, dailyMinutes: goal.dailyMinutes });
+    else track("onboarding_complete", { goalKind: goal.kind, target: goal.target, dailyMinutes: goal.dailyMinutes, hasDeadline: !!goal.deadline, hasBase });
     router.replace(hasBase ? "/placement" : "/plan?first=1");
   };
 
