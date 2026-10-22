@@ -1,6 +1,7 @@
 {
   "expo": {
     "name": "语途",
+    "description": "语途是面向 14 岁以上中文学习者的外语学习 App,首发英语、法语、德语:按你的目标定制学习计划,在快忘的时候安排复习,针对常犯的错误专项练习,每周报告让进步看得见。",
     "slug": "lingo-cn",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -13,7 +14,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#E6F4FE",
+        "backgroundColor": "#435BE9",
         "foregroundImage": "./assets/android-icon-foreground.png",
         "backgroundImage": "./assets/android-icon-background.png",
         "monochromeImage": "./assets/android-icon-monochrome.png"
