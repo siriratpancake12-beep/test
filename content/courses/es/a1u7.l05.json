@@ -1,0 +1,52 @@
+{
+  "id": "es.a1u7.l05", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107050,
+  "titleZh": "给弟弟挑礼物", "goalZh": "会给别人挑礼物,比较两样东西", "canDoZh": "能为别人挑礼物,并比较两样东西哪个更便宜、更好",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "es.regalo", "kind": "word", "pos": "noun", "text": "el regalo", "zh": "礼物", "features": { "gender": "m", "ipa": "el reˈɡalo" }, "noteZh": "Es un regalo = 是送人的(店员会帮你包装);词首 r 要颤舌。" },
+    { "id": "es.mas", "kind": "word", "pos": "adv", "text": "más", "zh": "更;更多", "features": { "ipa": "mas" }, "noteZh": "比较:más barato que = 比……便宜;一定要写重音符号,不带重音的 mas 是书面语的“但是”。" },
+    { "id": "es.que_conj", "kind": "word", "pos": "conj", "text": "que", "zh": "比(用在比较句里)", "features": { "ipa": "ke" }, "noteZh": "más … que …:Este es más bonito que ese;没有重音符号,和疑问词 qué 不同。" },
+    { "id": "es.menos", "kind": "word", "pos": "adv", "text": "menos", "zh": "更少;没有……那么", "features": { "ipa": "ˈmenos" }, "noteZh": "menos caro que = 没有……那么贵;说时间的 menos cuarto 你已经学过。" },
+    { "id": "es.mejor", "kind": "word", "pos": "adj", "text": "mejor", "zh": "更好的", "features": { "ipa": "meˈxoɾ" }, "noteZh": "不说 más bueno,说 mejor;阴阳同形,复数 mejores;el mejor regalo = 最好的礼物;反义词 peor;j 读 [x]。" },
+    { "id": "es.gorra", "kind": "word", "pos": "noun", "text": "la gorra", "zh": "棒球帽;鸭舌帽", "features": { "gender": "f", "ipa": "la ˈɡora" }, "noteZh": "rr 要颤舌;带檐的礼帽叫 el sombrero。" },
+    { "id": "es.precio", "kind": "word", "pos": "noun", "text": "el precio", "zh": "价格", "features": { "gender": "m", "ipa": "el ˈpɾeθjo" }, "noteZh": "¿Qué precio tiene? = 多少钱?;c 在 i 前读 [θ]。" }
+  ],
+  "reviewItems": ["es.hermano", "es.caro", "es.barato", "es.este"],
+  "lines": [
+    { "speaker": "pilar", "text": "En El Rastro, la ropa es menos cara que en las tiendas.", "zh": "在跳蚤市场,衣服没有商店里那么贵。", "items": ["es.en", "es.ropa", "es.ser", "es.menos", "es.caro", "es.que_conj", "es.tienda"] },
+    { "speaker": "lina", "text": "Vale. Busco un regalo para mi hermano.", "zh": "好。我想给我弟弟找个礼物。", "items": ["es.vale", "es.buscar", "es.un", "es.regalo", "es.para", "es.mi", "es.hermano"] },
+    { "speaker": "pilar", "text": "¿Para tu hermano? ¿Cuántos años tiene?", "zh": "给你弟弟?他多大了?", "items": ["es.para", "es.tu_pos", "es.hermano", "es.cuantos", "es.ano", "es.tener"] },
+    { "speaker": "lina", "text": "Diez. Su cumpleaños es en diciembre.", "zh": "十岁。他的生日在十二月。", "items": ["es.diez", "es.su", "es.cumpleanos", "es.ser", "es.en", "es.diciembre"] },
+    { "speaker": "vendedor", "text": "¿Un regalo? Esta gorra azul es muy bonita.", "zh": "买礼物吗?这顶蓝色的棒球帽很好看。", "items": ["es.un", "es.regalo", "es.este", "es.gorra", "es.azul", "es.ser", "es.muy", "es.bonito"] },
+    { "speaker": "lina", "text": "¿Qué precio tiene la gorra?", "zh": "这顶帽子多少钱?", "items": ["es.que", "es.precio", "es.tener", "es.gorra"] },
+    { "speaker": "vendedor", "text": "Ocho euros. Y esa camiseta roja, quince.", "zh": "8 欧。那件红 T 恤 15 欧。", "items": ["es.ocho", "es.euro", "es.y", "es.ese", "es.camiseta", "es.rojo", "es.quince"] },
+    { "speaker": "lina", "text": "La gorra es más barata que la camiseta.", "zh": "帽子比 T 恤便宜。", "items": ["es.gorra", "es.ser", "es.mas", "es.barato", "es.que_conj", "es.camiseta"] },
+    { "speaker": "pilar", "text": "Sí, pero la camiseta es mejor. Y es más bonita.", "zh": "是,可是 T 恤更好,也更好看。", "items": ["es.si", "es.pero", "es.camiseta", "es.ser", "es.mejor", "es.y", "es.mas", "es.bonito"] },
+    { "speaker": "lina", "text": "Pero es más cara…", "zh": "可是更贵……", "items": ["es.pero", "es.ser", "es.mas", "es.caro"] },
+    { "speaker": "pilar", "text": "¿Doce euros por la camiseta? Es un regalo para su hermano.", "zh": "(对摊主)T 恤 12 欧卖不卖?是给她弟弟的礼物。", "items": ["es.doce", "es.euro", "es.por", "es.camiseta", "es.ser", "es.un", "es.regalo", "es.para", "es.su", "es.hermano"] },
+    { "speaker": "vendedor", "text": "Vale, doce euros. ¡Para usted, Doña Pilar!", "zh": "好吧,12 欧。冲您的面子,皮拉尔太太!", "items": ["es.vale", "es.doce", "es.euro", "es.para", "es.usted"] }
+  ],
+  "questions": [
+    { "prompt": "李娜的弟弟多大?生日在几月?", "options": ["十二岁,十月", "十岁,十二月", "十岁,十一月"], "answer": 1, "explainZh": "李娜说:Diez. Su cumpleaños es en diciembre.(diciembre = 十二月)" },
+    { "prompt": "帽子和 T 恤本来各多少钱?", "options": ["帽子 8 欧,T 恤 15 欧", "帽子 15 欧,T 恤 8 欧", "都是 12 欧"], "answer": 0, "explainZh": "摊主说 Ocho euros. Y esa camiseta roja, quince.——所以李娜说 La gorra es más barata que la camiseta。" },
+    { "prompt": "最后买了什么?多少钱?", "options": ["帽子,8 欧", "T 恤,15 欧", "T 恤,12 欧"], "answer": 2, "explainZh": "皮拉尔太太讲价:¿Doce euros por la camiseta?,摊主说 Vale, doce euros。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u7_mas_menos", "titleZh": "比较:más / menos + 形容词 + que",
+      "bodyZh": "“A 比 B 更……”说 A + ser + más + 形容词 + que + B:La gorra es más barata que la camiseta(帽子比 T 恤便宜)。“A 没有 B 那么……”用 menos:la ropa es menos cara que en las tiendas(衣服没有商店里那么贵)。形容词照样跟主语配合(la gorra → barata)。语序和中文不同:中文“比 B”放在形容词前面,西语 que + B 放在最后。这里的 que 没有重音符号;带重音的 qué 是“什么”。más 一定要写重音符号。",
+      "examples": [
+        { "text": "La gorra es más barata que la camiseta.", "zh": "帽子比 T 恤便宜。" },
+        { "text": "Madrid es más grande que Toledo.", "zh": "马德里比托莱多大。" },
+        { "text": "El jersey es menos caro que el abrigo.", "zh": "毛衣没有大衣那么贵。" }
+      ] },
+    { "id": "es.g.u7_mejor_para", "titleZh": "mejor(更好)和 para + 人(给……)",
+      "bodyZh": "bueno(好)的比较级不规则,说 mejor,不说 más bueno:La camiseta es mejor que la gorra。mejor 阴阳同形,复数 mejores;前面加定冠词就是“最好的”:el mejor regalo(最好的礼物)。送给谁、给谁买,用 para + 人:Es un regalo para mi hermano(这是给我弟弟的礼物)。问价钱除了 ¿Cuánto cuesta? 还可以说 ¿Qué precio tiene?(这个什么价?);在跳蚤市场讲价,可以直接报一个价:¿Doce euros?",
+      "examples": [
+        { "text": "La camiseta es mejor que la gorra.", "zh": "T 恤比帽子好。" },
+        { "text": "Es un regalo para mi hermano.", "zh": "这是给我弟弟的礼物。" },
+        { "text": "¿Qué precio tiene la gorra?", "zh": "这顶帽子什么价?" }
+      ] }
+  ],
+  "review": "draft"
+}

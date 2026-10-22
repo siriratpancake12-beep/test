@@ -1,0 +1,50 @@
+{
+  "id": "es.a1u8.l08", "schemaVersion": 1, "lang": "es", "type": "reading", "cefr": "A1",
+  "unit": "A1-8 爱好与周末", "order": 108080,
+  "titleZh": "单元复习:李娜的周末博客", "goalZh": "读懂一篇写爱好和周末的短文,能写类似的短文", "canDoZh": "能读懂、写出一段话,介绍自己的爱好、上周末做了什么和下周末的计划",
+  "skills": ["read", "listen", "write"], "estimatedMinutes": 19,
+  "newItems": [
+    { "id": "es.porque", "kind": "word", "pos": "conj", "text": "porque", "zh": "因为", "features": { "ipa": "ˈpoɾke" }, "noteZh": "写成一个词、没有重音符号;问'为什么'是 ¿por qué?(分开写、有重音符号)。" },
+    { "id": "es.pueblo", "kind": "word", "pos": "noun", "text": "el pueblo", "zh": "村子;小镇", "features": { "gender": "m", "ipa": "el ˈpweblo" }, "noteZh": "很多马德里人周末和假期会回'老家的村子'(el pueblo)。" },
+    { "id": "es.proximo", "kind": "word", "pos": "adj", "text": "próximo", "zh": "下一个", "features": { "ipa": "ˈpɾoksimo" }, "noteZh": "el próximo fin de semana = 下周末;próximo 放在名词前,pasado 放在名词后:el próximo sábado / el sábado pasado;x 在这里读 [ks]。" }
+  ],
+  "reviewItems": ["es.gustar", "es.pasarlo_bien", "es.ir_a", "es.tiempo"],
+  "lines": [
+    { "speaker": "lina", "text": "¡Hola! Me llamo Li Na y estudio en Madrid.", "zh": "大家好!我叫李娜,在马德里上学。", "items": ["es.hola", "es.me_llamo", "es.y", "es.estudiar", "es.en"] },
+    { "speaker": "lina", "text": "Me gusta mucho leer, ver películas y escuchar música.", "zh": "我很喜欢看书、看电影和听音乐。", "items": ["es.gustar", "es.mucho", "es.leer", "es.ver", "es.pelicula", "es.y", "es.escuchar", "es.musica"] },
+    { "speaker": "lina", "text": "En otoño, Madrid es muy bonito y hace buen tiempo.", "zh": "马德里的秋天很美,天气也好。", "items": ["es.en", "es.otono", "es.ser", "es.muy", "es.bonito", "es.y", "es.hacer", "es.bueno", "es.tiempo"] },
+    { "speaker": "lina", "text": "Pero por la mañana hace frío, y llevo mi abrigo nuevo.", "zh": "不过早上冷,我就穿上我的新大衣。", "items": ["es.pero", "es.por", "es.la_manana", "es.hacer", "es.frio", "es.y", "es.llevar", "es.mi", "es.abrigo", "es.nuevo"] },
+    { "speaker": "lina", "text": "El sábado pasado fui a mi primer partido de fútbol con Javier.", "zh": "上星期六,我跟哈维尔去看了我的第一场足球赛。", "items": ["es.sabado", "es.pasado", "es.ir", "es.a", "es.mi", "es.primero", "es.partido", "es.de", "es.futbol", "es.con"] },
+    { "speaker": "lina", "text": "¡Fue genial! Lo pasé muy bien y hice muchas fotos.", "zh": "太棒了!我玩得很开心,还拍了很多照片。", "items": ["es.ser", "es.genial", "es.pasarlo_bien", "es.muy", "es.y", "es.hacer_fotos", "es.mucho"] },
+    { "speaker": "lina", "text": "Ahora me gusta el fútbol, porque es muy divertido.", "zh": "现在我喜欢上足球了,因为它特别好玩。", "items": ["es.ahora", "es.gustar", "es.futbol", "es.porque", "es.ser", "es.muy", "es.divertido"] },
+    { "speaker": "lina", "text": "Los abuelos de Javier viven en un pueblo cerca de Madrid.", "zh": "哈维尔的爷爷奶奶住在马德里附近的一个村子里。", "items": ["es.abuelo", "es.de", "es.vivir", "es.en", "es.un", "es.pueblo", "es.cerca"] },
+    { "speaker": "lina", "text": "El próximo fin de semana son las fiestas del pueblo.", "zh": "下周末是村里过节的日子。", "items": ["es.proximo", "es.fin_de_semana", "es.ser", "es.fiesta", "es.pueblo"] },
+    { "speaker": "lina", "text": "Javier, Marta y yo vamos a ir.", "zh": "哈维尔、玛尔塔和我都要去。", "items": ["es.y", "es.yo", "es.ir_a", "es.ir"] },
+    { "speaker": "lina", "text": "Marta no trabaja ese fin de semana. ¡Qué bien!", "zh": "玛尔塔那个周末不上班。太好了!", "items": ["es.no", "es.trabajar", "es.ese", "es.fin_de_semana", "es.que_bien"] },
+    { "speaker": "lina", "text": "Voy a hacer muchas fotos. ¡Un abrazo!", "zh": "我要拍很多照片。拥抱大家!", "items": ["es.ir_a", "es.hacer_fotos", "es.mucho", "es.un_abrazo"] }
+  ],
+  "questions": [
+    { "prompt": "李娜的爱好有哪些?", "options": ["看书、看电影和听音乐", "踢足球和跳舞", "游泳和跑步"], "answer": 0, "explainZh": "Me gusta mucho leer, ver películas y escuchar música." },
+    { "prompt": "李娜现在觉得足球怎么样?", "options": ["还是不喜欢", "太无聊了", "喜欢上了,因为很好玩"], "answer": 2, "explainZh": "Ahora me gusta el fútbol, porque es muy divertido.——porque = 因为。" },
+    { "prompt": "下周末李娜要去哪儿?", "options": ["托莱多", "哈维尔爷爷奶奶住的村子", "塞维利亚"], "answer": 1, "explainZh": "Los abuelos de Javier viven en un pueblo cerca de Madrid. El próximo fin de semana son las fiestas del pueblo." },
+    { "prompt": "玛尔塔为什么能一起去?", "options": ["她住在那个村子", "她不喜欢足球", "那个周末她不上班"], "answer": 2, "explainZh": "Marta no trabaja ese fin de semana. ¡Qué bien!——玛尔塔周末常要值班,这次正好不用上班。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u8_porque", "titleZh": "porque(因为)和 ¿por qué?(为什么)",
+      "bodyZh": "说原因用 porque,写成一个词,没有重音符号:Ahora me gusta el fútbol, porque es muy divertido。问“为什么”是 ¿Por qué?,分开写,qué 有重音符号:—¿Por qué te gusta el fútbol? —Porque es muy divertido。两个说法读音几乎一样,写的时候最容易混:问句里分开写、带重音;回答里连在一起、不带重音。中文常说“因为……所以……”,西语有了 porque 就不再加“所以”。",
+      "examples": [
+        { "text": "Me gusta el fútbol porque es muy divertido.", "zh": "我喜欢足球,因为它很好玩。" },
+        { "text": "Llevo mi abrigo porque hace frío.", "zh": "我穿着大衣,因为天冷。" },
+        { "text": "—¿Por qué? —Porque hace frío.", "zh": "——为什么?——因为天冷。" }
+      ] },
+    { "id": "es.g.u8_repaso", "titleZh": "单元小结:爱好、上周末和下周末",
+      "bodyZh": "写周末博客要分清三种时间:现在的爱好和习惯用现在时:Me gusta leer. Siempre estudio en un café.;上周末做过的事用简单过去时:El sábado pasado fui a un partido. Lo pasé muy bien. Hice muchas fotos.;下周末的计划用 ir a + 动词原形:El próximo fin de semana voy a ir a un pueblo.。时间词帮你选动词形式:ayer, el sábado pasado → 过去时;mañana, el próximo fin de semana → ir a + 动词原形。próximo 放在名词前,pasado 放在名词后:el próximo sábado / el sábado pasado。说天气用 hace:hace frío, hace buen tiempo。",
+      "examples": [
+        { "text": "Me gusta mucho escuchar música.", "zh": "我很喜欢听音乐。" },
+        { "text": "El sábado pasado fui a un partido.", "zh": "上星期六我去看了一场比赛。" },
+        { "text": "El próximo fin de semana voy a ir a un pueblo.", "zh": "下周末我要去一个村子。" },
+        { "text": "Hoy hace buen tiempo.", "zh": "今天天气很好。" }
+      ] }
+  ],
+  "review": "draft"
+}

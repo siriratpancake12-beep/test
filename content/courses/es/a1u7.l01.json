@@ -1,0 +1,53 @@
+{
+  "id": "es.a1u7.l01", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107010,
+  "titleZh": "天冷了,买件大衣", "goalZh": "记住常见衣物的说法,会说自己在找什么", "canDoZh": "能在服装店说出要找的衣服,说自己平时穿什么",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "es.ropa", "kind": "word", "pos": "noun", "text": "la ropa", "zh": "衣服(总称)", "features": { "gender": "f", "ipa": "la ˈropa" }, "noteZh": "衣服的总称,不可数,用单数:Quiero comprar ropa nueva(不说 ropas);tienda de ropa = 服装店;词首 r 要颤舌。" },
+    { "id": "es.llevar", "kind": "word", "pos": "verb", "text": "llevar", "zh": "穿着;戴着;带", "features": { "ipa": "ʝeˈbaɾ" }, "noteZh": "-ar 规则动词:llevo, llevas, lleva…;中文的“穿衣服、穿鞋、戴帽子”都可以用它:Llevo zapatillas;也有“带着”的意思;ll 读 [ʝ]。" },
+    { "id": "es.abrigo", "kind": "word", "pos": "noun", "text": "el abrigo", "zh": "大衣;外套", "features": { "gender": "m", "ipa": "el aˈbɾiɡo" }, "noteZh": "冬天穿的厚大衣;-o 结尾,阳性;b 在两个元音之间读得很轻。" },
+    { "id": "es.jersey", "kind": "word", "pos": "noun", "text": "el jersey", "zh": "毛衣", "features": { "gender": "m", "ipa": "el xeɾˈsei" }, "noteZh": "西班牙说 jersey,按西语读:j 读 [x],重音在后(jer-SÉI);复数 jerséis;拉美多说 el suéter。" },
+    { "id": "es.camiseta", "kind": "word", "pos": "noun", "text": "la camiseta", "zh": "T 恤", "features": { "gender": "f", "ipa": "la kamiˈseta" }, "noteZh": "T 恤(也指背心、球衣);衬衫是 la camisa,别混。" },
+    { "id": "es.pantalones", "kind": "word", "pos": "noun", "text": "los pantalones", "zh": "裤子", "features": { "gender": "m", "ipa": "los pantaˈlones" }, "noteZh": "一条裤子一般用复数:unos pantalones;西班牙口语也常说单数 un pantalón;短裤是 los pantalones cortos。" },
+    { "id": "es.vestido", "kind": "word", "pos": "noun", "text": "el vestido", "zh": "连衣裙", "features": { "gender": "m", "ipa": "el besˈtido" }, "noteZh": "-o 结尾,阳性:el vestido(连衣裙是阳性,别按中文的感觉猜);半身裙是 la falda;v 读 [b]。" },
+    { "id": "es.zapatos", "kind": "word", "pos": "noun", "text": "los zapatos", "zh": "鞋", "features": { "gender": "m", "ipa": "los θaˈpatos" }, "noteZh": "一只鞋是 el zapato;z 读 [θ]。" },
+    { "id": "es.zapatillas", "kind": "word", "pos": "noun", "text": "las zapatillas", "zh": "运动鞋;拖鞋", "features": { "gender": "f", "ipa": "las θapaˈtiʝas" }, "noteZh": "西班牙说 zapatillas(运动鞋;在家穿的拖鞋也叫 zapatillas),墨西哥等地多说 tenis;ll 读 [ʝ]。" },
+    { "id": "es.buscar", "kind": "word", "pos": "verb", "text": "buscar", "zh": "找;寻找", "features": { "ipa": "busˈkaɾ" }, "noteZh": "-ar 规则动词;后面直接跟要找的东西,不加介词:Busco un abrigo(英语 look for 有 for,西语没有);店员常问 ¿Qué buscas?" }
+  ],
+  "reviewItems": ["es.tienda", "es.comprar", "es.querer"],
+  "lines": [
+    { "speaker": "marta", "text": "Li Na, ¿no llevas abrigo?", "zh": "李娜,你没穿大衣吗?", "items": ["es.no", "es.llevar", "es.abrigo"] },
+    { "speaker": "lina", "text": "No tengo abrigo. Tengo muchas camisetas.", "zh": "我没有大衣。我有很多 T 恤。", "items": ["es.no", "es.tener", "es.abrigo", "es.mucho", "es.camiseta"] },
+    { "speaker": "marta", "text": "En noviembre tienes que llevar abrigo. ¡Vamos a la tienda!", "zh": "十一月得穿大衣了。走,去商店!", "items": ["es.en", "es.noviembre", "es.tener_que", "es.llevar", "es.abrigo", "es.ir", "es.a", "es.tienda"] },
+    { "speaker": "dependienta", "text": "¡Hola! ¿Qué buscas?", "zh": "你好!想找点什么?", "items": ["es.hola", "es.que", "es.buscar"] },
+    { "speaker": "lina", "text": "Quiero comprar ropa nueva. Busco un abrigo y un jersey.", "zh": "我想买新衣服。我要找一件大衣和一件毛衣。", "items": ["es.querer", "es.comprar", "es.ropa", "es.nuevo", "es.buscar", "es.un", "es.abrigo", "es.y", "es.jersey"] },
+    { "speaker": "dependienta", "text": "Los abrigos están aquí, al lado de los vestidos.", "zh": "大衣在这儿,在连衣裙旁边。", "items": ["es.abrigo", "es.estar", "es.aqui", "es.al_lado_de", "es.vestido"] },
+    { "speaker": "lina", "text": "¿Tienen pantalones también?", "zh": "你们这儿也有裤子吗?", "items": ["es.tener", "es.pantalones", "es.tambien"] },
+    { "speaker": "dependienta", "text": "Sí, claro. Los pantalones están allí, con las camisetas.", "zh": "有,当然有。裤子在那边,跟 T 恤放在一起。", "items": ["es.si", "es.claro", "es.pantalones", "es.estar", "es.alli", "es.con", "es.camiseta"] },
+    { "speaker": "lina", "text": "¿Y tú, Marta? ¿Quieres unos zapatos?", "zh": "你呢,玛尔塔?你想买双鞋吗?", "items": ["es.y", "es.tu", "es.querer", "es.zapatos"] },
+    { "speaker": "marta", "text": "No. Yo llevo zapatillas en el hospital y en la calle.", "zh": "不用。我在医院和街上都穿运动鞋。", "items": ["es.no", "es.yo", "es.llevar", "es.zapatillas", "es.en", "es.hospital", "es.y", "es.calle"] }
+  ],
+  "questions": [
+    { "prompt": "李娜为什么要去买衣服?", "options": ["她的大衣太旧了", "她没有大衣,只有很多 T 恤", "玛尔塔想买一条连衣裙"], "answer": 1, "explainZh": "李娜说:No tengo abrigo. Tengo muchas camisetas.;玛尔塔说十一月得穿大衣:tienes que llevar abrigo。" },
+    { "prompt": "大衣在店里的什么地方?", "options": ["在 T 恤旁边", "在鞋子旁边", "在连衣裙旁边"], "answer": 2, "explainZh": "店员说:Los abrigos están aquí, al lado de los vestidos.;和 T 恤放在一起的是裤子(Los pantalones están allí, con las camisetas)。" },
+    { "prompt": "玛尔塔在医院和街上穿什么鞋?", "options": ["运动鞋", "皮鞋", "她想买的新鞋"], "answer": 0, "explainZh": "玛尔塔说:Yo llevo zapatillas en el hospital y en la calle.——zapatillas 是运动鞋,zapatos 是皮鞋。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u7_ropa", "titleZh": "衣服名词:un abrigo, unos pantalones",
+      "bodyZh": "衣服名词也分阴阳性,要连冠词一起记:el abrigo, el jersey, el vestido(连衣裙是阳性,别按中文的感觉猜),la ropa, la camiseta。成双成对的东西一般用复数:los pantalones(裤子)、los zapatos(鞋)、las zapatillas(运动鞋),“一条裤子、一双鞋”就说 unos pantalones、unos zapatos。中文要用量词“一件、一条、一双”,西语不用量词,只看名词的性和数选 un / una / unos / unas。la ropa(衣服)是总称,不可数,用单数:Quiero comprar ropa nueva(不说 ropas)。",
+      "examples": [
+        { "text": "Busco un abrigo y un jersey.", "zh": "我找一件大衣和一件毛衣。" },
+        { "text": "¿Quieres unos zapatos?", "zh": "你想买双鞋吗?" },
+        { "text": "Quiero comprar ropa nueva.", "zh": "我想买新衣服。" }
+      ] },
+    { "id": "es.g.u7_llevar_buscar", "titleZh": "llevar(穿着)、buscar(找)和 ¿Tienen…?",
+      "bodyZh": "中文的“穿衣服、穿鞋、戴帽子”,西语都可以用 llevar(-ar 规则动词:llevo, llevas, lleva…),说的是身上穿着、戴着什么:Yo llevo zapatillas(我穿运动鞋)。泛泛地说穿不穿,名词前常不加冠词:¿No llevas abrigo?。buscar 是“找”,后面直接跟要找的东西,不要照英语 look for 加介词:Busco un abrigo。在店里问“你们这儿有……吗”,用 tener 的复数 ¿Tienen…?,问的是这家店:¿Tienen pantalones?。复习 tener que + 动词原形(得……):En noviembre tienes que llevar abrigo。",
+      "examples": [
+        { "text": "Yo llevo zapatillas.", "zh": "我穿运动鞋。" },
+        { "text": "¿Qué buscas?", "zh": "你在找什么?" },
+        { "text": "¿Tienen pantalones también?", "zh": "你们这儿也有裤子吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

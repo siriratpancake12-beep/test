@@ -1,0 +1,53 @@
+{
+  "id": "es.a1u7.l02", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107020,
+  "titleZh": "我要黑色的", "goalZh": "记住常用颜色,注意颜色形容词的阴阳性和单复数", "canDoZh": "能说出想要的颜色,描述衣服和眼睛的颜色",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "es.color", "kind": "word", "pos": "noun", "text": "el color", "zh": "颜色", "features": { "gender": "m", "ipa": "el koˈloɾ" }, "noteZh": "阳性:el color,复数 colores;¿De qué color es? = 是什么颜色的?" },
+    { "id": "es.negro", "kind": "word", "pos": "adj", "text": "negro", "zh": "黑色的", "features": { "ipa": "ˈneɡɾo" }, "noteZh": "阴性 negra,复数 negros / negras;黑头发也常说 el pelo moreno。" },
+    { "id": "es.blanco", "kind": "word", "pos": "adj", "text": "blanco", "zh": "白色的", "features": { "ipa": "ˈblaŋko" }, "noteZh": "阴性 blanca;bl 两个辅音连着读,中间不要加元音(不要读成 bu-lanco)。" },
+    { "id": "es.rojo", "kind": "word", "pos": "adj", "text": "rojo", "zh": "红色的", "features": { "ipa": "ˈroxo" }, "noteZh": "阴性 roja;词首 r 要多颤几下,j 读 [x]。" },
+    { "id": "es.azul", "kind": "word", "pos": "adj", "text": "azul", "zh": "蓝色的", "features": { "ipa": "aˈθul" }, "noteZh": "男女同形,复数 azules;z 读 [θ]。" },
+    { "id": "es.verde", "kind": "word", "pos": "adj", "text": "verde", "zh": "绿色的", "features": { "ipa": "ˈbeɾde" }, "noteZh": "男女同形;v 读 [b]。" },
+    { "id": "es.amarillo", "kind": "word", "pos": "adj", "text": "amarillo", "zh": "黄色的", "features": { "ipa": "amaˈɾiʝo" }, "noteZh": "阴性 amarilla;ll 读 [ʝ],r 只轻弹一下。" },
+    { "id": "es.gris", "kind": "word", "pos": "adj", "text": "gris", "zh": "灰色的", "features": { "ipa": "ɡɾis" }, "noteZh": "男女同形,复数 grises。" },
+    { "id": "es.marron", "kind": "word", "pos": "adj", "text": "marrón", "zh": "棕色的;咖啡色的", "features": { "ipa": "maˈron" }, "noteZh": "男女同形,复数 marrones(重音符号去掉);rr 要颤。" },
+    { "id": "es.ojos", "kind": "word", "pos": "noun", "text": "los ojos", "zh": "眼睛", "features": { "gender": "m", "ipa": "los ˈoxos" }, "noteZh": "一只眼睛是 el ojo;Tiene los ojos azules / marrones / negros;j 读 [x]。" }
+  ],
+  "reviewItems": ["es.abrigo", "es.jersey", "es.pelo"],
+  "lines": [
+    { "speaker": "dependienta", "text": "Tenemos este jersey en tres colores: rojo, azul y gris.", "zh": "这款毛衣有三种颜色:红色、蓝色和灰色。", "items": ["es.tener", "es.este", "es.jersey", "es.en", "es.tres", "es.color", "es.rojo", "es.azul", "es.y", "es.gris"] },
+    { "speaker": "lina", "text": "¿Y el abrigo? Yo quiero un abrigo negro.", "zh": "那大衣呢?我想要一件黑色的大衣。", "items": ["es.y", "es.abrigo", "es.yo", "es.querer", "es.un", "es.negro"] },
+    { "speaker": "marta", "text": "¿Negro? Hay abrigos azules y verdes también.", "zh": "黑的?还有蓝色和绿色的大衣呢。", "items": ["es.negro", "es.hay", "es.abrigo", "es.azul", "es.y", "es.verde", "es.tambien"] },
+    { "speaker": "lina", "text": "No, gracias. Quiero el negro. Es muy bonito.", "zh": "不了,谢谢。我就要黑的。黑的很好看。", "items": ["es.no", "es.gracias", "es.querer", "es.negro", "es.ser", "es.muy", "es.bonito"] },
+    { "speaker": "marta", "text": "Vale, el abrigo negro. Pero el jersey, ¿rojo o amarillo?", "zh": "好吧,大衣要黑的。那毛衣呢,红的还是黄的?", "items": ["es.vale", "es.abrigo", "es.negro", "es.pero", "es.jersey", "es.rojo", "es.o", "es.amarillo"] },
+    { "speaker": "lina", "text": "¿Amarillo? No… El rojo, por favor.", "zh": "黄的?不要……请给我红的。", "items": ["es.amarillo", "es.no", "es.rojo", "es.por_favor"] },
+    { "speaker": "dependienta", "text": "Esta camiseta blanca es muy bonita con el jersey rojo.", "zh": "这件白 T 恤配红毛衣很好看。", "items": ["es.este", "es.camiseta", "es.blanco", "es.ser", "es.muy", "es.bonito", "es.con", "es.jersey", "es.rojo"] },
+    { "speaker": "marta", "text": "Tienes los ojos negros, el pelo negro… ¡y el abrigo negro!", "zh": "你眼睛是黑的,头发是黑的……大衣也是黑的!", "items": ["es.tener", "es.ojos", "es.negro", "es.pelo", "es.y", "es.abrigo"] },
+    { "speaker": "lina", "text": "Y tú tienes los ojos marrones. ¿De qué color es tu abrigo?", "zh": "你的眼睛是棕色的。你的大衣是什么颜色的?", "items": ["es.y", "es.tu", "es.tener", "es.ojos", "es.marron", "es.de", "es.que", "es.color", "es.ser", "es.tu_pos", "es.abrigo"] },
+    { "speaker": "marta", "text": "Mi abrigo es verde. ¡Y es muy viejo!", "zh": "我的大衣是绿色的。而且已经很旧了!", "items": ["es.mi", "es.abrigo", "es.ser", "es.verde", "es.y", "es.muy", "es.viejo"] }
+  ],
+  "questions": [
+    { "prompt": "李娜想要什么颜色的大衣?", "options": ["黑色", "蓝色", "绿色"], "answer": 0, "explainZh": "李娜说 Yo quiero un abrigo negro,后来又说 Quiero el negro;蓝色和绿色是玛尔塔的建议。" },
+    { "prompt": "李娜最后要了什么颜色的毛衣?", "options": ["黄色", "灰色", "红色"], "answer": 2, "explainZh": "玛尔塔问 ¿rojo o amarillo?,李娜说:El rojo, por favor." },
+    { "prompt": "玛尔塔的眼睛和大衣是什么颜色的?", "options": ["黑色的眼睛,绿色的大衣", "棕色的眼睛,绿色的大衣", "棕色的眼睛,白色的大衣"], "answer": 1, "explainZh": "李娜说 tú tienes los ojos marrones;玛尔塔说 Mi abrigo es verde。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u7_colores", "titleZh": "颜色放在名词后面,跟名词配合",
+      "bodyZh": "颜色是形容词,一般放在名词后面,和中文“黑大衣”、英语 a black coat 的顺序正好相反:un abrigo negro。-o 结尾的颜色有四种形式,跟名词的性和数变:un jersey negro, una camiseta negra, unos zapatos negros, unas zapatillas negras(rojo, blanco, amarillo 也一样)。-e 结尾和辅音结尾的颜色不分阴阳,只变单复数:verde → verdes,azul → azules,gris → grises,marrón → marrones(加 -es 以后重音仍在 ro 上,重音符号要去掉)。名词是复数,颜色也要用复数:los ojos marrones(不说 los ojos marrón)。",
+      "examples": [
+        { "text": "un jersey rojo, una camiseta roja", "zh": "一件红毛衣,一件红 T 恤" },
+        { "text": "Hay abrigos azules y verdes.", "zh": "有蓝色和绿色的大衣。" },
+        { "text": "Tienes los ojos marrones.", "zh": "你的眼睛是棕色的。" }
+      ] },
+    { "id": "es.g.u7_el_negro", "titleZh": "el negro(黑的那件)、¿De qué color es? 和 tener los ojos…",
+      "bodyZh": "上下文清楚时,可以省掉名词,只说冠词 + 颜色:Quiero el negro(我要黑的,指 el abrigo)、El rojo, por favor(要红的,指 el jersey)。冠词跟着省掉的名词走:说 la camiseta 就是 la blanca。问颜色用 ¿De qué color es…?,复数用 son:¿De qué color son tus zapatos?。说眼睛、头发的颜色用 tener + 定冠词:Tienes los ojos negros(你是黑眼睛)、Tiene el pelo rubio——中文说“她眼睛是黑的”,西语说“她有黑眼睛”,而且用 los / el,不用 mis / tus。",
+      "examples": [
+        { "text": "Quiero el negro.", "zh": "我要黑的那件。" },
+        { "text": "¿De qué color es tu abrigo?", "zh": "你的大衣是什么颜色的?" },
+        { "text": "Tiene los ojos negros y el pelo negro.", "zh": "她是黑眼睛、黑头发。" }
+      ] }
+  ],
+  "review": "draft"
+}

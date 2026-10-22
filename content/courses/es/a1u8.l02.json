@@ -1,0 +1,54 @@
+{
+  "id": "es.a1u8.l02", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-8 爱好与周末", "order": 108020,
+  "titleZh": "你周末常做什么?", "goalZh": "记住常见爱好,会说多久做一次", "canDoZh": "能说出自己的爱好,以及多久做一次(总是、有时、从不)",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "es.fin_de_semana", "kind": "phrase", "pos": "noun", "text": "el fin de semana", "zh": "周末", "features": { "gender": "m", "ipa": "el fin de seˈmana" }, "noteZh": "复数 los fines de semana = 每个周末;问别人平时周末做什么:¿Qué haces los fines de semana?;este fin de semana = 这个周末。" },
+    { "id": "es.hacer", "kind": "word", "pos": "verb", "text": "hacer", "zh": "做;(天气)……", "features": { "ipa": "aˈθeɾ" }, "noteZh": "不规则:hago, haces, hace…;¿Qué haces? = 你在做什么 / 你平时做什么?;天气也用它(下一课)。" },
+    { "id": "es.nadar", "kind": "word", "pos": "verb", "text": "nadar", "zh": "游泳", "features": { "ipa": "naˈdaɾ" }, "noteZh": "-ar 规则动词;la piscina = 游泳池。" },
+    { "id": "es.bailar", "kind": "word", "pos": "verb", "text": "bailar", "zh": "跳舞", "features": { "ipa": "baiˈlaɾ" }, "noteZh": "-ar 规则动词;ai 连起来读成一个音节:bai-lar。" },
+    { "id": "es.correr", "kind": "word", "pos": "verb", "text": "correr", "zh": "跑步;跑", "features": { "ipa": "koˈreɾ" }, "noteZh": "rr 要颤舌;-er 规则动词。" },
+    { "id": "es.jugar", "kind": "word", "pos": "verb", "text": "jugar", "zh": "玩;(打)球", "features": { "ipa": "xuˈɡaɾ" }, "noteZh": "u 变 ue:juego, juegas, juega…(jugamos, jugáis 不变);打球说 jugar a + 球类:jugar al fútbol(a + el = al)。" },
+    { "id": "es.viajar", "kind": "word", "pos": "verb", "text": "viajar", "zh": "去旅行", "features": { "ipa": "bjaˈxaɾ" }, "noteZh": "-ar 规则动词;j 读 [x];viajar por España = 在西班牙各地旅行。" },
+    { "id": "es.siempre", "kind": "word", "pos": "adv", "text": "siempre", "zh": "总是", "features": { "ipa": "ˈsjempɾe" }, "noteZh": "位置比较自由:Siempre nado los sábados / Nado siempre los sábados。" },
+    { "id": "es.a_veces", "kind": "phrase", "pos": "phrase", "text": "a veces", "zh": "有时候", "features": { "ipa": "a ˈbeθes" }, "noteZh": "vez 的复数是 veces(z 变 c)。" },
+    { "id": "es.nunca", "kind": "word", "pos": "adv", "text": "nunca", "zh": "从不", "features": { "ipa": "ˈnuŋka" }, "noteZh": "放在动词前:Nunca bailo;放在动词后要加 no:No bailo nunca。" }
+  ],
+  "reviewItems": ["es.gustar", "es.sabado", "es.parque", "es.futbol"],
+  "lines": [
+    { "speaker": "diego", "text": "Marta, ¿qué haces los fines de semana?", "zh": "玛尔塔,你周末一般做什么?", "items": ["es.que", "es.hacer", "es.fin_de_semana"] },
+    { "speaker": "marta", "text": "Siempre nado los sábados por la tarde. Y a veces bailo.", "zh": "每个星期六下午我都去游泳。有时候也去跳舞。", "items": ["es.siempre", "es.nadar", "es.sabado", "es.por", "es.la_tarde", "es.y", "es.a_veces", "es.bailar"] },
+    { "speaker": "diego", "text": "Yo juego al fútbol y corro en el parque. ¡Me gusta mucho!", "zh": "我在公园踢足球、跑步。我特别喜欢!", "items": ["es.yo", "es.jugar", "es.futbol", "es.y", "es.correr", "es.en", "es.parque", "es.gustar", "es.mucho"] },
+    { "speaker": "marta", "text": "¿Por la mañana?", "zh": "上午吗?", "items": ["es.por", "es.la_manana"] },
+    { "speaker": "diego", "text": "¡No! Los fines de semana nunca me levanto temprano.", "zh": "才不呢!周末我从来不早起。", "items": ["es.no", "es.fin_de_semana", "es.nunca", "es.levantarse", "es.temprano"] },
+    { "speaker": "marta", "text": "¿Y tú, Li Na? ¿Qué haces los sábados?", "zh": "你呢,李娜?你星期六做什么?", "items": ["es.y", "es.tu", "es.que", "es.hacer", "es.sabado"] },
+    { "speaker": "lina", "text": "Por la tarde, siempre estudio español en un café.", "zh": "下午我总是在咖啡馆学西语。", "items": ["es.por", "es.la_tarde", "es.siempre", "es.estudiar", "es.espanol", "es.en", "es.un", "es.cafe"] },
+    { "speaker": "diego", "text": "¿Siempre? ¿No bailas nunca?", "zh": "总是?你从来不跳舞吗?", "items": ["es.siempre", "es.no", "es.bailar", "es.nunca"] },
+    { "speaker": "lina", "text": "Nunca. A veces corro en el parque. ¡Y quiero viajar por España!", "zh": "从来不跳。有时候去公园跑步。我还想去西班牙各地旅行!", "items": ["es.nunca", "es.a_veces", "es.correr", "es.en", "es.parque", "es.y", "es.querer", "es.viajar", "es.por", "es.espana"] },
+    { "speaker": "diego", "text": "¿Por España? ¡Y por México también!", "zh": "西班牙各地?墨西哥也得去!", "items": ["es.por", "es.espana", "es.y", "es.mexico", "es.tambien"] }
+  ],
+  "questions": [
+    { "prompt": "玛尔塔每个星期六下午做什么?", "options": ["跳舞", "踢足球", "游泳"], "answer": 2, "explainZh": "Siempre nado los sábados por la tarde.——跳舞只是 a veces(有时候)。" },
+    { "prompt": "迭戈为什么不在上午踢球?", "options": ["他周末从来不早起", "上午公园不开门", "他上午要上课"], "answer": 0, "explainZh": "¡No! Los fines de semana nunca me levanto temprano.——nunca = 从不。" },
+    { "prompt": "李娜星期六下午总是做什么?", "options": ["在公园跑步", "在咖啡馆学西语", "和朋友去跳舞"], "answer": 1, "explainZh": "Por la tarde, siempre estudio español en un café.;跑步是 a veces,跳舞是 nunca。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u8_frecuencia", "titleZh": "多久做一次:siempre、a veces、nunca",
+      "bodyZh": "siempre(总是)、a veces(有时候)、nunca(从不)说做事的频率。siempre 和 a veces 的位置比较自由,句首、动词后都可以:Siempre nado los sábados / Nado siempre los sábados。nunca 放在动词前面就直接否定:Nunca me levanto temprano;放在动词后面,动词前要加 no:No bailo nunca。中文说“我从不跳舞”只有一个否定词,西语 no … nunca 连用是对的,不会“负负得正”。星期用复数表示“每个星期几”:los sábados(每个星期六)、los fines de semana(每个周末);单数 el sábado 一般指“这个星期六”。",
+      "examples": [
+        { "text": "Siempre nado los sábados por la tarde.", "zh": "我每个星期六下午都游泳。" },
+        { "text": "A veces corro en el parque.", "zh": "我有时候在公园跑步。" },
+        { "text": "No bailo nunca.", "zh": "我从来不跳舞。" },
+        { "text": "Nunca me levanto temprano.", "zh": "我从不早起。" }
+      ] },
+    { "id": "es.g.u8_hacer_jugar", "titleZh": "hacer(做)和 jugar al fútbol",
+      "bodyZh": "hacer 是“做”,第一人称不规则:hago, haces, hace, hacemos, hacéis, hacen。问别人平时做什么:¿Qué haces el fin de semana?;回答时一般不再用 hacer,直接说做的事:Nado. / Juego al fútbol.。jugar(玩、打球)u 变 ue:juego, juegas, juega, jugamos, jugáis, juegan。说打什么球用 jugar a + 定冠词 + 球类,a + el 缩合成 al:jugar al fútbol——英语 play football 不加介词,西语要加 a。correr(跑步)是 -er 规则动词:corro, corres, corre…,rr 要颤舌。",
+      "examples": [
+        { "text": "¿Qué haces los sábados?", "zh": "你星期六做什么?" },
+        { "text": "Juego al fútbol en el parque.", "zh": "我在公园踢足球。" },
+        { "text": "Corro con mis amigos.", "zh": "我和朋友们一起跑步。" }
+      ] }
+  ],
+  "review": "draft"
+}

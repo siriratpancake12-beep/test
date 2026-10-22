@@ -1,0 +1,54 @@
+{
+  "id": "es.a1u8.l01", "schemaVersion": 1, "lang": "es", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 爱好与周末", "order": 108010,
+  "titleZh": "我喜欢看电影", "goalZh": "会用 gustar 说喜欢和不喜欢什么,会表示'我也是 / 我也不'", "canDoZh": "能说自己喜欢和不喜欢什么,问别人的爱好,并表示同意",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "es.gustar", "kind": "word", "pos": "verb", "text": "gustar", "zh": "(某人)喜欢……", "features": { "ipa": "ɡusˈtaɾ" }, "noteZh": "Me gusta + 单数名词 / 动词原形,Me gustan + 复数名词;喜欢的东西才是主语,不说 Yo gusto…" },
+    { "id": "es.encantar", "kind": "word", "pos": "verb", "text": "encantar", "zh": "非常喜欢", "features": { "ipa": "eŋkanˈtaɾ" }, "noteZh": "用法同 gustar:Me encanta bailar;它本身就是'非常',不再加 mucho。" },
+    { "id": "es.tampoco", "kind": "word", "pos": "adv", "text": "tampoco", "zh": "也不", "features": { "ipa": "tamˈpoko" }, "noteZh": "同意否定句:—No me gusta el fútbol. —A mí tampoco。肯定句用 también。" },
+    { "id": "es.cine", "kind": "word", "pos": "noun", "text": "el cine", "zh": "电影院;电影(艺术)", "features": { "gender": "m", "ipa": "el ˈθine" }, "noteZh": "ir al cine = 去看电影;说“喜欢看电影”常说 Me gusta el cine;c 在 i 前读 [θ]。" },
+    { "id": "es.pelicula", "kind": "word", "pos": "noun", "text": "la película", "zh": "电影(一部)", "features": { "gender": "f", "ipa": "la peˈlikula" }, "noteZh": "重音在 lí;ver una película = 看一部电影。" },
+    { "id": "es.musica", "kind": "word", "pos": "noun", "text": "la música", "zh": "音乐", "features": { "gender": "f", "ipa": "la ˈmusika" }, "noteZh": "重音在 mú,别漏了重音符号;escuchar música = 听音乐。" },
+    { "id": "es.escuchar", "kind": "word", "pos": "verb", "text": "escuchar", "zh": "听", "features": { "ipa": "eskuˈtʃaɾ" }, "noteZh": "-ar 规则动词;后面直接跟东西,不加介词:escuchar música(英语 listen to 有 to,西语没有)。" },
+    { "id": "es.futbol", "kind": "word", "pos": "noun", "text": "el fútbol", "zh": "足球", "features": { "gender": "m", "ipa": "el ˈfutbol" }, "noteZh": "西班牙重音在 fút;墨西哥等地说 futbol(重音在后)。" },
+    { "id": "es.leer", "kind": "word", "pos": "verb", "text": "leer", "zh": "读;看(书)", "features": { "ipa": "leˈeɾ" }, "noteZh": "-er 规则动词:leo, lees, lee…;两个 e 都要读出来:le-er。" },
+    { "id": "es.ver", "kind": "word", "pos": "verb", "text": "ver", "zh": "看;看见", "features": { "ipa": "beɾ" }, "noteZh": "第一人称 veo,其他照 -er 规则:ves, ve…;v 读 [b];ver una película = 看电影。" }
+  ],
+  "reviewItems": ["es.libro", "es.tambien", "es.no", "es.mucho"],
+  "lines": [
+    { "speaker": "javier", "text": "Li Na, ¿te gusta el cine?", "zh": "李娜,你喜欢看电影吗?", "items": ["es.gustar", "es.cine"] },
+    { "speaker": "lina", "text": "Sí, me encanta. Me gusta mucho ver películas.", "zh": "喜欢,特别喜欢。我很喜欢看电影。", "items": ["es.si", "es.encantar", "es.gustar", "es.mucho", "es.ver", "es.pelicula"] },
+    { "speaker": "javier", "text": "¿Y leer? ¿Te gustan los libros?", "zh": "那看书呢?你喜欢书吗?", "items": ["es.y", "es.leer", "es.gustar", "es.libro"] },
+    { "speaker": "lina", "text": "Sí, mucho. También me gusta escuchar música.", "zh": "喜欢,很喜欢。我也喜欢听音乐。", "items": ["es.si", "es.mucho", "es.tambien", "es.gustar", "es.escuchar", "es.musica"] },
+    { "speaker": "javier", "text": "¡A mí también! ¿Y el fútbol? ¿Te gusta?", "zh": "我也是!那足球呢?你喜欢吗?", "items": ["es.a", "es.tambien", "es.y", "es.futbol", "es.gustar"] },
+    { "speaker": "lina", "text": "No, no me gusta el fútbol.", "zh": "不,我不喜欢足球。", "items": ["es.no", "es.gustar", "es.futbol"] },
+    { "speaker": "javier", "text": "¿No? ¡A mí me encanta! Y a mis hermanos también.", "zh": "不喜欢?我可超爱足球!我的兄弟姐妹也是。", "items": ["es.no", "es.a", "es.encantar", "es.y", "es.mi", "es.hermano", "es.tambien"] },
+    { "speaker": "lina", "text": "Y no me gusta levantarme temprano.", "zh": "还有,我不喜欢早起。", "items": ["es.y", "es.no", "es.gustar", "es.levantarse", "es.temprano"] },
+    { "speaker": "javier", "text": "¡A mí tampoco! Me gusta estudiar chino por la noche.", "zh": "我也不喜欢!我喜欢晚上学中文。", "items": ["es.a", "es.tampoco", "es.gustar", "es.estudiar", "es.chino", "es.por", "es.noche"] },
+    { "speaker": "lina", "text": "¿Por la noche? Yo, por la noche, veo películas.", "zh": "晚上?我晚上看电影。", "items": ["es.por", "es.noche", "es.yo", "es.ver", "es.pelicula"] }
+  ],
+  "questions": [
+    { "prompt": "李娜喜欢什么?", "options": ["足球和早起", "只喜欢听音乐", "看电影、看书和听音乐"], "answer": 2, "explainZh": "Me gusta mucho ver películas;问她喜不喜欢书,她说 Sí, mucho;También me gusta escuchar música。" },
+    { "prompt": "哈维尔觉得足球怎么样?", "options": ["不太喜欢", "他特别喜欢,他的兄弟姐妹也喜欢", "他的兄弟姐妹喜欢,他不喜欢"], "answer": 1, "explainZh": "¡A mí me encanta! Y a mis hermanos también.——me encanta = 特别喜欢。" },
+    { "prompt": "两个人都不喜欢什么?", "options": ["早起", "看电影", "学中文"], "answer": 0, "explainZh": "李娜说 no me gusta levantarme temprano,哈维尔说 ¡A mí tampoco!——接否定句表示“我也不”,用 tampoco。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u8_gustar", "titleZh": "gustar:喜欢的东西是主语",
+      "bodyZh": "中文、英语说“我喜欢音乐 / I like music”,主语是“我”;西语的 gustar 意思是“让……喜欢”,喜欢的东西才是主语,人用 me / te / le / nos / os / les 放在前面:Me gusta la música(音乐让我喜欢 = 我喜欢音乐)。所以动词跟着“东西”变:单数名词或动词原形用 gusta(Me gusta el cine. Me gusta leer.),复数名词用 gustan(Me gustan los libros.)。名词前要带定冠词:Me gusta el fútbol(不说 me gusta fútbol)。否定把 no 放在最前面:No me gusta el fútbol。中国学生最常见的错是照中文说 Yo gusto la música——这是错的。",
+      "examples": [
+        { "text": "Me gusta la música.", "zh": "我喜欢音乐。" },
+        { "text": "Me gustan los libros.", "zh": "我喜欢书。" },
+        { "text": "No me gusta levantarme temprano.", "zh": "我不喜欢早起。" },
+        { "text": "¿Te gusta el cine?", "zh": "你喜欢看电影吗?" }
+      ] },
+    { "id": "es.g.u8_encantar_tampoco", "titleZh": "encantar(特别喜欢)和 a mí también / a mí tampoco",
+      "bodyZh": "encantar 的用法和 gustar 一样,意思是“特别喜欢、超爱”:Me encanta ver películas。它本身已经是“非常”,不再加 mucho(不说 me encanta mucho);gustar 才加 mucho:Me gusta mucho。想强调“我”、或者和别人对比,前面加 a mí、a Javier 这样的说法:¡A mí me encanta!(我可超爱!)Y a mis hermanos también(我的兄弟姐妹也是)。接别人的话:对方说肯定句(Me gusta la música),你也喜欢就说 A mí también;对方说否定句(No me gusta levantarme temprano),你也不喜欢就说 A mí tampoco。gustar 句里的人是 me 这个形式,所以这里说 a mí,不说 yo también。问对方“你呢?”说 ¿Y a ti?。",
+      "examples": [
+        { "text": "Me encanta ver películas.", "zh": "我特别爱看电影。" },
+        { "text": "—Me gusta la música. —¡A mí también!", "zh": "——我喜欢音乐。——我也是!" },
+        { "text": "—No me gusta el fútbol. —A mí tampoco.", "zh": "——我不喜欢足球。——我也不喜欢。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "es.a1u8.l03", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
+  "unit": "A1-8 爱好与周末", "order": 108030,
+  "titleZh": "今天天气怎么样?", "goalZh": "会说天气和季节", "canDoZh": "能说今天天气怎么样,以及马德里和家乡不同季节的天气",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "es.tiempo", "kind": "word", "pos": "noun", "text": "el tiempo", "zh": "天气;时间", "features": { "gender": "m", "ipa": "el ˈtjempo" }, "noteZh": "¿Qué tiempo hace? = 天气怎么样?;No tengo tiempo = 我没时间。" },
+    { "id": "es.bueno", "kind": "word", "pos": "adj", "text": "bueno", "zh": "好的", "features": { "ipa": "ˈbweno" }, "noteZh": "在阳性单数名词前变 buen:hace buen tiempo;反义词 malo(mal tiempo)。" },
+    { "id": "es.calor", "kind": "word", "pos": "noun", "text": "el calor", "zh": "热;炎热", "features": { "gender": "m", "ipa": "el kaˈloɾ" }, "noteZh": "阳性:el calor;hace calor = 天气热,tengo calor = 我觉得热。" },
+    { "id": "es.frio", "kind": "word", "pos": "noun", "text": "el frío", "zh": "冷;寒冷", "features": { "gender": "m", "ipa": "el ˈfɾio" }, "noteZh": "hace frío = 天冷;作形容词:agua fría(凉水);重音在 í。" },
+    { "id": "es.sol", "kind": "word", "pos": "noun", "text": "el sol", "zh": "太阳;阳光", "features": { "gender": "m", "ipa": "el sol" }, "noteZh": "hace sol = 出太阳;马德里一年里晴天很多;太阳门广场 Puerta del Sol 里的 Sol 就是这个词。" },
+    { "id": "es.llover", "kind": "word", "pos": "verb", "text": "llover", "zh": "下雨", "features": { "ipa": "ʝoˈbeɾ" }, "noteZh": "只用第三人称:llueve(o 变 ue);la lluvia = 雨;下雪是 nieva。" },
+    { "id": "es.primavera", "kind": "word", "pos": "noun", "text": "la primavera", "zh": "春天", "features": { "gender": "f", "ipa": "la pɾimaˈbeɾa" }, "noteZh": "四季里只有它是阴性:la primavera;v 读 [b]。" },
+    { "id": "es.verano", "kind": "word", "pos": "noun", "text": "el verano", "zh": "夏天", "features": { "gender": "m", "ipa": "el beˈɾano" }, "noteZh": "v 读 [b]。" },
+    { "id": "es.otono", "kind": "word", "pos": "noun", "text": "el otoño", "zh": "秋天", "features": { "gender": "m", "ipa": "el oˈtoɲo" }, "noteZh": "ñ 不能写成 n;重音在 to。" },
+    { "id": "es.invierno", "kind": "word", "pos": "noun", "text": "el invierno", "zh": "冬天", "features": { "gender": "m", "ipa": "el imˈbjeɾno" }, "noteZh": "马德里冬天干冷,偶尔下雪(nieva);nv 读 [mb]。" }
+  ],
+  "reviewItems": ["es.hacer", "es.mucho", "es.agosto", "es.diciembre"],
+  "lines": [
+    { "speaker": "locutor", "text": "Buenos días. Hoy, en Madrid, hace sol y buen tiempo.", "zh": "早上好。今天马德里晴,天气很好。", "items": ["es.buenos_dias", "es.hoy", "es.en", "es.hacer", "es.sol", "es.y", "es.bueno", "es.tiempo"] },
+    { "speaker": "locutor", "text": "Pero por la mañana y por la noche hace frío.", "zh": "不过早晚都比较冷。", "items": ["es.pero", "es.por", "es.la_manana", "es.y", "es.noche", "es.hacer", "es.frio"] },
+    { "speaker": "pilar", "text": "¡Buenos días, hija! Hace frío, ¿no?", "zh": "(在楼梯上)早上好,孩子!今天挺冷的,是吧?", "items": ["es.buenos_dias", "es.hijo", "es.hacer", "es.frio", "es.no"] },
+    { "speaker": "lina", "text": "Sí, mucho. Pero hace sol. ¡El otoño en Madrid es muy bonito!", "zh": "是啊,好冷。不过出太阳了。马德里的秋天真美!", "items": ["es.si", "es.mucho", "es.pero", "es.hacer", "es.sol", "es.otono", "es.en", "es.ser", "es.muy", "es.bonito"] },
+    { "speaker": "pilar", "text": "¿Y qué tiempo hace en Chengdú ahora?", "zh": "那成都现在天气怎么样?", "items": ["es.y", "es.que", "es.tiempo", "es.hacer", "es.en", "es.ahora"] },
+    { "speaker": "lina", "text": "Ahora llueve mucho. Y en verano hace mucho calor.", "zh": "现在常下雨。夏天特别热。", "items": ["es.ahora", "es.llover", "es.mucho", "es.y", "es.en", "es.verano", "es.hacer", "es.calor"] },
+    { "speaker": "pilar", "text": "Aquí también. En agosto hace mucho calor en Madrid.", "zh": "这儿也是。马德里八月热得很。", "items": ["es.aqui", "es.tambien", "es.en", "es.agosto", "es.hacer", "es.mucho", "es.calor"] },
+    { "speaker": "lina", "text": "¿Y en invierno?", "zh": "那冬天呢?", "items": ["es.y", "es.en", "es.invierno"] },
+    { "speaker": "pilar", "text": "En diciembre hace mucho frío. Pero la primavera es muy bonita.", "zh": "十二月很冷。不过春天很美。", "items": ["es.en", "es.diciembre", "es.hacer", "es.mucho", "es.frio", "es.pero", "es.primavera", "es.ser", "es.muy", "es.bonito"] },
+    { "speaker": "lina", "text": "Hoy llevo mi abrigo nuevo. ¡Hasta luego, Doña Pilar!", "zh": "今天我穿着新大衣呢。回头见,皮拉尔太太!", "items": ["es.hoy", "es.llevar", "es.mi", "es.abrigo", "es.nuevo", "es.hasta_luego"] }
+  ],
+  "questions": [
+    { "prompt": "广播里说今天马德里天气怎么样?", "options": ["一整天都很热", "晴天,但是早晚冷", "下雨"], "answer": 1, "explainZh": "Hoy, en Madrid, hace sol y buen tiempo. Pero por la mañana y por la noche hace frío." },
+    { "prompt": "成都现在天气怎么样?", "options": ["常下雨", "很热", "出太阳"], "answer": 0, "explainZh": "李娜说 Ahora llueve mucho.(llueve 是 llover 的第三人称);很热说的是成都的夏天。" },
+    { "prompt": "皮拉尔太太说马德里什么时候很热?", "options": ["十二月", "春天", "八月"], "answer": 2, "explainZh": "En agosto hace mucho calor en Madrid.;十二月是 hace mucho frío。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u8_hace_tiempo", "titleZh": "说天气用 hace:hace frío / calor / sol",
+      "bodyZh": "西语说天气大多用 hacer 的第三人称 hace,没有主语(相当于英语的 it):Hace frío(天冷)、Hace calor(天热)、Hace sol(出太阳)、Hace buen tiempo(天气好)。不要说 Es frío 或 Está calor。frío、calor、sol 在这里是名词,所以“很冷、很热”用 mucho,不用 muy:Hace mucho frío / Hace mucho calor(不说 hace muy frío)。问天气:¿Qué tiempo hace?(tiempo 在这里是“天气”,也有“时间”的意思)。“我觉得冷”是另一种说法:Tengo frío(用 tener,说人的感觉)。下雨用 llover,只用第三人称,o 变 ue:Llueve mucho。",
+      "examples": [
+        { "text": "¿Qué tiempo hace hoy?", "zh": "今天天气怎么样?" },
+        { "text": "Hace sol, pero hace mucho frío.", "zh": "出太阳了,但是很冷。" },
+        { "text": "En Chengdú llueve mucho.", "zh": "成都常下雨。" }
+      ] },
+    { "id": "es.g.u8_estaciones", "titleZh": "季节:en verano、en invierno;bueno → buen",
+      "bodyZh": "四季:la primavera(春)、el verano(夏)、el otoño(秋)、el invierno(冬),只有 primavera 是阴性。“在夏天”说 en verano,不加冠词;季节当主语时带定冠词:El otoño en Madrid es muy bonito。月份也用 en:en agosto, en diciembre。bueno(好)放在阳性单数名词前面要去掉 -o,变成 buen:hace buen tiempo;放在名词后面,或者是阴性,就不变:el tiempo es bueno, una buena película。otoño 的 ñ 不能写成 n。",
+      "examples": [
+        { "text": "En verano hace mucho calor.", "zh": "夏天很热。" },
+        { "text": "En diciembre hace mucho frío.", "zh": "十二月很冷。" },
+        { "text": "Hoy hace buen tiempo.", "zh": "今天天气好。" }
+      ] }
+  ],
+  "review": "draft"
+}

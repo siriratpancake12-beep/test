@@ -1,0 +1,53 @@
+{
+  "id": "es.a1u7.l03", "schemaVersion": 1, "lang": "es", "type": "grammar", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107030,
+  "titleZh": "我能试一下这件吗?", "goalZh": "会用指示词 este / ese 指衣服,会问能不能试穿、说尺码合不合适", "canDoZh": "能在店里指着衣服问能不能试穿,说出自己的尺码和穿着合不合适",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "es.ese", "kind": "word", "pos": "det", "text": "ese", "zh": "那;那个", "features": { "ipa": "ˈese" }, "noteZh": "跟名词变:ese abrigo, esa falda, esos zapatos, esas camisetas;指离对方近、离自己稍远的东西;阳性单数是 ese,不是 eso。" },
+    { "id": "es.probarse", "kind": "word", "pos": "verb", "text": "probarse", "zh": "试穿", "features": { "ipa": "pɾoˈbaɾse" }, "noteZh": "o 变 ue:me pruebo, te pruebas, se prueba…;放在 poder 后面时,se 换成 me / te 接在词尾:¿Puedo probarme este abrigo?" },
+    { "id": "es.talla", "kind": "word", "pos": "noun", "text": "la talla", "zh": "(衣服的)尺码", "features": { "gender": "f", "ipa": "la ˈtaʝa" }, "noteZh": "鞋的尺码叫 el número;¿Qué talla tienes? = 你穿多大号?" },
+    { "id": "es.probador", "kind": "word", "pos": "noun", "text": "el probador", "zh": "试衣间", "features": { "gender": "m", "ipa": "el pɾobaˈdoɾ" }, "noteZh": "¿Dónde están los probadores? = 试衣间在哪儿?;-or 结尾的名词多是阳性。" },
+    { "id": "es.demasiado", "kind": "word", "pos": "adv", "text": "demasiado", "zh": "太;过于", "features": { "ipa": "demaˈsjado" }, "noteZh": "Es demasiado grande = 太大了;放在形容词前面不变形:demasiado corta(不说 demasiada corta)。" },
+    { "id": "es.corto", "kind": "word", "pos": "adj", "text": "corto", "zh": "短的", "features": { "ipa": "ˈkoɾto" }, "noteZh": "阴性 corta;manga corta = 短袖。" },
+    { "id": "es.largo", "kind": "word", "pos": "adj", "text": "largo", "zh": "长的", "features": { "ipa": "ˈlaɾɡo" }, "noteZh": "是'长的',不是'大的'(大是 grande);el pelo largo = 长头发。" },
+    { "id": "es.otro", "kind": "word", "pos": "det", "text": "otro", "zh": "另一个;别的", "features": { "ipa": "ˈotɾo" }, "noteZh": "前面不加 un:otra talla(不说 una otra talla)。" },
+    { "id": "es.falda", "kind": "word", "pos": "noun", "text": "la falda", "zh": "裙子(半身裙)", "features": { "gender": "f", "ipa": "la ˈfalda" }, "noteZh": "半身裙;连衣裙是 el vestido(阳性)。" },
+    { "id": "es.me_queda_bien", "kind": "phrase", "pos": "phrase", "text": "me queda bien", "zh": "(衣服)我穿着合适", "features": { "ipa": "me ˈkeda ˈbjen" }, "noteZh": "quedar 的用法和 gustar 一样(第 8 单元):衣服是主语,Me queda grande = 我穿着大,Te queda pequeña = 你穿着小;¿Qué tal te queda? = 你穿着怎么样?;说颜色、款式适不适合你也用它:El rojo no me queda bien。" }
+  ],
+  "reviewItems": ["es.este", "es.poder", "es.grande", "es.pequeno"],
+  "lines": [
+    { "speaker": "lina", "text": "¿Puedo probarme ese abrigo negro?", "zh": "我可以试一下那件黑大衣吗?", "items": ["es.poder", "es.probarse", "es.ese", "es.abrigo", "es.negro"] },
+    { "speaker": "dependienta", "text": "¿Este? Claro. ¿Qué talla tienes?", "zh": "这件吗?当然可以。你穿多大号?", "items": ["es.este", "es.claro", "es.que", "es.talla", "es.tener"] },
+    { "speaker": "lina", "text": "La cuarenta, por favor.", "zh": "40 号的,谢谢。", "items": ["es.cuarenta", "es.por_favor"] },
+    { "speaker": "dependienta", "text": "Aquí tienes. Los probadores están allí, a la derecha.", "zh": "给你。试衣间在那边,右手边。", "items": ["es.aqui", "es.tener", "es.probador", "es.estar", "es.alli", "es.a_la_derecha"] },
+    { "speaker": "lina", "text": "Marta, este abrigo es demasiado grande.", "zh": "玛尔塔,这件大衣太大了。", "items": ["es.este", "es.abrigo", "es.ser", "es.demasiado", "es.grande"] },
+    { "speaker": "marta", "text": "Sí, y es un poco largo. ¿Hay otra talla?", "zh": "是啊,还有点长。有别的尺码吗?", "items": ["es.si", "es.y", "es.ser", "es.un_poco", "es.largo", "es.hay", "es.otro", "es.talla"] },
+    { "speaker": "dependienta", "text": "Sí, aquí tienes la treinta y ocho.", "zh": "有,这是 38 号的。", "items": ["es.si", "es.aqui", "es.tener", "es.treinta", "es.y", "es.ocho"] },
+    { "speaker": "lina", "text": "¡Ahora sí! Este me queda bien.", "zh": "这回对了!这件我穿着正合适。", "items": ["es.ahora", "es.si", "es.este", "es.me_queda_bien"] },
+    { "speaker": "marta", "text": "¿Y esta falda? ¿Qué tal me queda?", "zh": "那这条裙子呢?我穿着怎么样?", "items": ["es.y", "es.este", "es.falda", "es.que_tal", "es.me_queda_bien"] },
+    { "speaker": "lina", "text": "Te queda pequeña y demasiado corta. ¿Quieres esa falda larga?", "zh": "你穿着小,而且太短了。要不要那条长裙?", "items": ["es.me_queda_bien", "es.pequeno", "es.y", "es.demasiado", "es.corto", "es.querer", "es.ese", "es.falda", "es.largo"] }
+  ],
+  "questions": [
+    { "prompt": "李娜试的第一件大衣怎么样?", "options": ["正合适", "太小了", "太大了,还有点长"], "answer": 2, "explainZh": "李娜说 este abrigo es demasiado grande,玛尔塔说 es un poco largo。" },
+    { "prompt": "最后哪个尺码的大衣李娜穿着合适?", "options": ["38 号", "40 号", "36 号"], "answer": 0, "explainZh": "店员拿来 la treinta y ocho(38 号),李娜说:¡Ahora sí! Este me queda bien." },
+    { "prompt": "玛尔塔试的裙子有什么问题?", "options": ["太长了", "又小又太短", "颜色不好看"], "answer": 1, "explainZh": "李娜说:Te queda pequeña y demasiado corta.——pequeña 是小,corta 是短。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u7_este_ese", "titleZh": "este 和 ese:这件、那件",
+      "bodyZh": "指离自己近的东西用 este(这),指离自己稍远、离对方近的东西用 ese(那)。两个词都要跟名词的性和数一致:este abrigo / esta falda / estos zapatos / estas camisetas;ese abrigo / esa falda / esos zapatos / esas camisetas。阳性单数是 este、ese,不是 esto、eso(esto / eso 指“这件事、这个东西”,后面不跟名词)。看课文:李娜指着远处的大衣说 ese abrigo;店员就站在大衣旁边,所以说 ¿Este?。名词清楚的时候可以省掉:Este me queda bien(这件我穿着合适)。中文用量词“这件、那条、这双”,西语不用量词,只看名词的阴阳性和单复数。",
+      "examples": [
+        { "text": "¿Puedo probarme ese abrigo negro?", "zh": "我可以试一下那件黑大衣吗?" },
+        { "text": "¿Y esta falda?", "zh": "那这条裙子呢?" },
+        { "text": "Esos zapatos son muy bonitos.", "zh": "那双鞋很好看。" }
+      ] },
+    { "id": "es.g.u7_probarse_quedar", "titleZh": "¿Puedo probarme…? 和 me queda bien / grande",
+      "bodyZh": "probarse(试穿)是带 se 的动词,o 变 ue:me pruebo, te pruebas, se prueba…;跟在 poder 后面时,se 要换成对应的人称,接在原形词尾:¿Puedo probarme este abrigo?(我能试试这件大衣吗?)。说衣服合不合身用 quedar,结构和第 8 单元要学的 gustar 一样:衣服是主语,人用 me / te / le 放在前面:Este abrigo me queda bien(这件大衣我穿着合适)、Te queda pequeña(你穿着小)。衣服是复数时用 quedan:Los pantalones me quedan grandes。形容词跟衣服配合:la falda → pequeña, corta。“太……”说 demasiado + 形容词,“有点……”说 un poco + 形容词。注意 largo 是“长”,不是英语的 large(大)。",
+      "examples": [
+        { "text": "Este abrigo me queda bien.", "zh": "这件大衣我穿着合适。" },
+        { "text": "Te queda demasiado corta.", "zh": "你穿着太短了。" },
+        { "text": "Los pantalones me quedan grandes.", "zh": "这条裤子我穿着大。" }
+      ] }
+  ],
+  "review": "draft"
+}

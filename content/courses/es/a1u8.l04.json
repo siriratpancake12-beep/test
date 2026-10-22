@@ -1,0 +1,51 @@
+{
+  "id": "es.a1u8.l04", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 爱好与周末", "order": 108040,
+  "titleZh": "周六你有空吗?", "goalZh": "会用 ir a + 动词原形说计划,会约人、接受和礼貌地拒绝邀请", "canDoZh": "能约朋友周末一起做事,并接受或礼貌地拒绝邀请",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "es.ir_a", "kind": "phrase", "pos": "phrase", "text": "ir a", "zh": "打算;将要(做……)", "features": { "ipa": "iɾ a" }, "noteZh": "voy a, vas a, va a… + 动词原形:Voy a ver una película;和'去某地'的 ir a + 地点不同。" },
+    { "id": "es.quedar", "kind": "word", "pos": "verb", "text": "quedar", "zh": "约见面", "features": { "ipa": "keˈdaɾ" }, "noteZh": "¿Quedamos el sábado? = 周六见个面?;quedar con alguien = 和某人约;me queda bien 是另一个意思(衣服合身)。" },
+    { "id": "es.lo_siento", "kind": "phrase", "pos": "phrase", "text": "Lo siento", "zh": "对不起;很遗憾", "features": { "ipa": "lo ˈsjento" }, "noteZh": "拒绝邀请时先说 Lo siento,再说理由。" },
+    { "id": "es.que_bien", "kind": "phrase", "pos": "phrase", "text": "¡Qué bien!", "zh": "太好了!", "features": { "ipa": "ke ˈbjen" }, "noteZh": "听到好消息时说;¡Qué + 形容词 / 副词! 是常用感叹句。" },
+    { "id": "es.libre", "kind": "word", "pos": "adj", "text": "libre", "zh": "有空的;自由的", "features": { "ipa": "ˈlibɾe" }, "noteZh": "用 estar:¿Estás libre el sábado? = 你周六有空吗?" },
+    { "id": "es.ocupado", "kind": "word", "pos": "adj", "text": "ocupado", "zh": "忙的;没空的", "alt": ["ocupada"], "features": { "ipa": "okuˈpado" }, "noteZh": "用 estar:Estoy ocupada(女生说 ocupada)。" },
+    { "id": "es.partido", "kind": "word", "pos": "noun", "text": "el partido", "zh": "比赛(球赛)", "features": { "gender": "m", "ipa": "el paɾˈtido" }, "noteZh": "un partido de fútbol = 一场足球赛。" },
+    { "id": "es.fiesta", "kind": "word", "pos": "noun", "text": "la fiesta", "zh": "聚会;派对;节日", "features": { "gender": "f", "ipa": "la ˈfjesta" }, "noteZh": "西班牙各地都有自己的节庆,常用复数:las fiestas del pueblo = 村里的节日;¿Hay una fiesta? = 有聚会吗?" }
+  ],
+  "reviewItems": ["es.querer", "es.poder", "es.tener_que", "es.vale"],
+  "lines": [
+    { "speaker": "javier", "text": "¡Hola, Li Na! ¿Estás libre el sábado?", "zh": "(星期四晚上,哈维尔打来电话)嗨,李娜!你星期六有空吗?", "items": ["es.hola", "es.estar", "es.libre", "es.sabado"] },
+    { "speaker": "lina", "text": "¿El sábado? ¿Hay una fiesta?", "zh": "星期六?有聚会吗?", "items": ["es.sabado", "es.hay", "es.una", "es.fiesta"] },
+    { "speaker": "javier", "text": "No, ¡voy a ver un partido de fútbol! ¿Quieres ir?", "zh": "不是,我要去看一场足球赛!你想去吗?", "items": ["es.no", "es.ir_a", "es.ver", "es.un", "es.partido", "es.de", "es.futbol", "es.querer", "es.ir"] },
+    { "speaker": "lina", "text": "Mmm… Vale. Pero por la mañana estoy ocupada: tengo que estudiar.", "zh": "嗯……好吧。不过上午我没空,得学习。", "items": ["es.vale", "es.pero", "es.por", "es.la_manana", "es.estar", "es.ocupado", "es.tener_que", "es.estudiar"] },
+    { "speaker": "javier", "text": "El partido es a las seis. ¿Puedes por la tarde?", "zh": "比赛六点开始。你下午行吗?", "items": ["es.partido", "es.ser", "es.a", "es.seis", "es.poder", "es.por", "es.la_tarde"] },
+    { "speaker": "lina", "text": "Sí, por la tarde estoy libre.", "zh": "行,下午我有空。", "items": ["es.si", "es.por", "es.la_tarde", "es.estar", "es.libre"] },
+    { "speaker": "javier", "text": "¡Qué bien! ¿Quedamos a las cuatro en Sol?", "zh": "太好了!我们四点在太阳门见?", "items": ["es.que_bien", "es.quedar", "es.a", "es.cuatro", "es.en"] },
+    { "speaker": "lina", "text": "Vale. El sábado a las cuatro, en Sol.", "zh": "好。星期六四点,太阳门见。", "items": ["es.vale", "es.sabado", "es.a", "es.cuatro", "es.en"] },
+    { "speaker": "diego", "text": "Li Na, ¿vas a ir al partido con Javier?", "zh": "(后来,迭戈打来电话)李娜,你要跟哈维尔去看球?", "items": ["es.ir_a", "es.ir", "es.partido", "es.con"] },
+    { "speaker": "lina", "text": "Sí, el sábado. ¿Quieres ir también?", "zh": "对,星期六。你也想去吗?", "items": ["es.si", "es.sabado", "es.querer", "es.ir", "es.tambien"] },
+    { "speaker": "diego", "text": "¡Quiero! Pero lo siento, no puedo. Tengo que estar con mi prima Carla.", "zh": "想啊!可是对不起,我去不了。我得陪我表姐卡拉。", "items": ["es.querer", "es.pero", "es.lo_siento", "es.no", "es.poder", "es.tener_que", "es.estar", "es.con", "es.mi", "es.primo"] },
+    { "speaker": "lina", "text": "¿Carla está en Madrid? ¡Qué bien! Vale, otro día.", "zh": "卡拉来马德里了?真好!那好,改天吧。", "items": ["es.estar", "es.en", "es.que_bien", "es.vale", "es.otro", "es.dia"] }
+  ],
+  "questions": [
+    { "prompt": "哈维尔约李娜去做什么?", "options": ["看足球赛", "参加聚会", "一起学习"], "answer": 0, "explainZh": "李娜以为有聚会(¿Hay una fiesta?),哈维尔说:No, ¡voy a ver un partido de fútbol!" },
+    { "prompt": "他们约了几点、在哪儿见面?", "options": ["六点,在太阳门", "四点,在哈维尔家", "四点,在太阳门"], "answer": 2, "explainZh": "¿Quedamos a las cuatro en Sol?——六点是比赛开始的时间。" },
+    { "prompt": "迭戈为什么去不了?", "options": ["他星期六要上班", "他得陪表姐卡拉", "他不喜欢足球"], "answer": 1, "explainZh": "迭戈说:Pero lo siento, no puedo. Tengo que estar con mi prima Carla." }
+  ],
+  "grammar": [
+    { "id": "es.g.u8_ir_a", "titleZh": "ir a + 动词原形:打算、要去做",
+      "bodyZh": "ir 的现在时 + a + 动词原形,表示打算做、马上要做的事,相当于英语的 be going to:Voy a ver un partido(我要去看一场比赛)、¿Vas a ir al partido?(你要去看比赛吗?)。ir 要变位(voy, vas, va, vamos, vais, van),后面的动词用原形不变。和第 5、6 单元学的 ir a + 地点(Voy a la universidad)不同:a 后面是动词原形就是“打算做”,是地点就是“去”。中文的“要……、打算……、会……”都可以用它来说。",
+      "examples": [
+        { "text": "Voy a ver un partido de fútbol.", "zh": "我要去看一场足球赛。" },
+        { "text": "El sábado voy a estudiar.", "zh": "星期六我打算学习。" }
+      ] },
+    { "id": "es.g.u8_quedar", "titleZh": "约人、答应和礼貌地拒绝",
+      "bodyZh": "问有没有空:¿Estás libre el sábado?(libre、ocupado 都用 estar,因为说的是一时的状态;女生说 ocupada)。邀请:¿Quieres + 动词原形?:¿Quieres ir?。约时间、地点用 quedar:¿Quedamos a las cuatro en Sol?(我们四点在太阳门见?)。答应:¡Vale! / ¡Claro! / ¡Qué bien!。拒绝时西班牙人一般先说 Lo siento,再说 no puedo 和理由(tener que + 动词原形),最后常加一句 otro día(改天吧)——只说一个 No 会显得很生硬。",
+      "examples": [
+        { "text": "¿Estás libre el sábado?", "zh": "你星期六有空吗?" },
+        { "text": "Lo siento, no puedo. Tengo que estudiar.", "zh": "对不起,我去不了。我得学习。" }
+      ] }
+  ],
+  "review": "draft"
+}

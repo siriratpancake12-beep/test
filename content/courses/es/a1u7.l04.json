@@ -1,0 +1,52 @@
+{
+  "id": "es.a1u7.l04", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107040,
+  "titleZh": "一共多少钱?", "goalZh": "会听懂上百欧元的价格,会选择付款方式", "canDoZh": "能问价钱、听懂一百多欧元的价格,并用卡或现金付款",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "es.ciento", "kind": "word", "pos": "num", "text": "ciento", "zh": "一百(101–199 里用)", "features": { "ipa": "ˈθjento" }, "noteZh": "正好 100 说 cien(cien euros);101–199 说 ciento + 后面的数:ciento uno, ciento veintinueve;c 在 i、e 前读 [θ]。" },
+    { "id": "es.doscientos", "kind": "word", "pos": "num", "text": "doscientos", "zh": "二百", "features": { "ipa": "dosˈθjentos" }, "noteZh": "跟名词的性变:doscientos euros, doscientas camisetas;三百 trescientos、四百 cuatrocientos 照这个规律,但五百是 quinientos。" },
+    { "id": "es.mil", "kind": "word", "pos": "num", "text": "mil", "zh": "一千", "features": { "ipa": "mil" }, "noteZh": "前面不加 un:mil euros(不说 un mil);两千是 dos mil,mil 不加 -es;1200 = mil doscientos。" },
+    { "id": "es.caro", "kind": "word", "pos": "adj", "text": "caro", "zh": "贵的", "features": { "ipa": "ˈkaɾo" }, "noteZh": "r 只弹一下;carro(拉美的'汽车')是 rr。" },
+    { "id": "es.barato", "kind": "word", "pos": "adj", "text": "barato", "zh": "便宜的", "features": { "ipa": "baˈɾato" }, "noteZh": "阴性 barata;反义词 caro;r 只轻弹一下。" },
+    { "id": "es.rebajas", "kind": "word", "pos": "noun", "text": "las rebajas", "zh": "打折季;减价", "features": { "gender": "f", "ipa": "las reˈbaxas" }, "noteZh": "常用复数;西班牙传统的打折季在一月和七月,现在平时也常有打折;con las rebajas = 打折以后,estar de rebajas = 正在打折;词首 r 要颤舌,j 读 [x]。" },
+    { "id": "es.tarjeta", "kind": "word", "pos": "noun", "text": "la tarjeta", "zh": "卡;银行卡", "features": { "gender": "f", "ipa": "la taɾˈxeta" }, "noteZh": "pagar con tarjeta = 刷卡;j 读 [x]。" },
+    { "id": "es.en_efectivo", "kind": "phrase", "pos": "phrase", "text": "en efectivo", "zh": "用现金", "features": { "ipa": "en efekˈtibo" }, "noteZh": "¿Con tarjeta o en efectivo? = 刷卡还是付现金?;刷卡用 con,现金用 en,不说 con efectivo。" }
+  ],
+  "reviewItems": ["es.cuanto_cuesta", "es.cien", "es.euro", "es.pagar"],
+  "lines": [
+    { "speaker": "lina", "text": "¿Cuánto cuesta este abrigo negro?", "zh": "这件黑大衣多少钱?", "items": ["es.cuanto_cuesta", "es.este", "es.abrigo", "es.negro"] },
+    { "speaker": "dependienta", "text": "Ahora, con las rebajas, ciento veintinueve euros.", "zh": "现在打折,129 欧。", "items": ["es.ahora", "es.con", "es.rebajas", "es.ciento", "es.veinte", "es.nueve", "es.euro"] },
+    { "speaker": "lina", "text": "¿Y ese abrigo blanco?", "zh": "那件白大衣呢?", "items": ["es.y", "es.ese", "es.abrigo", "es.blanco"] },
+    { "speaker": "dependienta", "text": "Ese, mil doscientos euros.", "zh": "那件 1200 欧。", "items": ["es.ese", "es.mil", "es.doscientos", "es.euro"] },
+    { "speaker": "lina", "text": "¿Mil doscientos? ¡Es muy caro!", "zh": "1200?好贵啊!", "items": ["es.mil", "es.doscientos", "es.ser", "es.muy", "es.caro"] },
+    { "speaker": "marta", "text": "Sí, pero mi abrigo verde es de aquí: cien euros, ¡y tiene ocho años!", "zh": "是贵。不过我那件绿大衣就是在这儿买的:一百欧,已经穿了八年了!", "items": ["es.si", "es.pero", "es.mi", "es.abrigo", "es.verde", "es.ser", "es.de", "es.aqui", "es.cien", "es.euro", "es.y", "es.tener", "es.ocho", "es.ano"] },
+    { "speaker": "lina", "text": "Vale. ¿Y el jersey rojo? ¿Cuánto es?", "zh": "好吧。那件红毛衣呢?多少钱?", "items": ["es.vale", "es.y", "es.jersey", "es.rojo", "es.cuanto_es"] },
+    { "speaker": "dependienta", "text": "Treinta y cinco euros.", "zh": "35 欧。", "items": ["es.treinta", "es.y", "es.cinco", "es.euro"] },
+    { "speaker": "lina", "text": "¡Es barato! El abrigo negro y el jersey, por favor.", "zh": "挺便宜的!黑大衣和毛衣我都要。", "items": ["es.ser", "es.barato", "es.abrigo", "es.negro", "es.y", "es.jersey", "es.por_favor"] },
+    { "speaker": "dependienta", "text": "Son ciento sesenta y cuatro euros. ¿Con tarjeta o en efectivo?", "zh": "一共 164 欧。刷卡还是付现金?", "items": ["es.ser", "es.ciento", "es.sesenta", "es.y", "es.cuatro", "es.euro", "es.con", "es.tarjeta", "es.o", "es.en_efectivo"] },
+    { "speaker": "lina", "text": "Pago con tarjeta, gracias.", "zh": "我刷卡,谢谢。", "items": ["es.pagar", "es.con", "es.tarjeta", "es.gracias"] }
+  ],
+  "questions": [
+    { "prompt": "打折以后,黑大衣多少钱?", "options": ["129 欧", "119 欧", "1200 欧"], "answer": 0, "explainZh": "店员说 con las rebajas, ciento veintinueve euros:ciento(一百)+ veintinueve(二十九)= 129;1200 欧(mil doscientos)是白大衣的价钱。" },
+    { "prompt": "玛尔塔为什么提到她的绿大衣?", "options": ["她想换一件新大衣", "绿大衣是她妈妈送的", "绿大衣是在这家店买的,一百欧,穿了八年"], "answer": 2, "explainZh": "玛尔塔说 mi abrigo verde es de aquí: cien euros, ¡y tiene ocho años!——这家店不便宜,但是衣服耐穿。" },
+    { "prompt": "李娜一共付了多少钱?怎么付的?", "options": ["164 欧,付现金", "164 欧,刷卡", "200 欧,刷卡"], "answer": 1, "explainZh": "129 + 35 = 164:Son ciento sesenta y cuatro euros;李娜说 Pago con tarjeta。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u7_numeros", "titleZh": "100 到 1000:cien、ciento、doscientos、mil",
+      "bodyZh": "正好一百说 cien:cien euros。101 到 199 用 ciento + 后面的数,中间不加 y:ciento veintinueve(129)、ciento sesenta y cuatro(164)——y 只出现在十位和个位之间(sesenta y cuatro)。二百到九百是一个词,要跟名词的性一致:doscientos euros(阳性)、doscientas camisetas(阴性)。三百 trescientos、四百 cuatrocientos、六百 seiscientos、八百 ochocientos 照规律;五百 quinientos、七百 setecientos、九百 novecientos 不规则,要单独记。一千是 mil,前面不加 un:mil euros;1200 = mil doscientos,2000 = dos mil(mil 不变复数)。听价格时先抓“百”:听到 ciento / -cientos,后面才是十位和个位。",
+      "examples": [
+        { "text": "Ciento veintinueve euros.", "zh": "129 欧。" },
+        { "text": "Son ciento sesenta y cuatro euros.", "zh": "一共 164 欧。" },
+        { "text": "Mil doscientos euros.", "zh": "1200 欧。" }
+      ] },
+    { "id": "es.g.u7_pagar", "titleZh": "付款:con tarjeta / en efectivo;caro 和 barato",
+      "bodyZh": "结账时店员几乎都会问 ¿Con tarjeta o en efectivo?(刷卡还是付现金?),回答 Con tarjeta / En efectivo,或者说 Pago con tarjeta(我刷卡)。注意介词:刷卡用 con,现金用 en,不说 con efectivo。问价钱:问一件东西用 ¿Cuánto cuesta…?,结账问 ¿Cuánto es?,回答常用 Son … euros(复数用 son)。caro(贵)、barato(便宜)是形容词,要跟名词配合:un abrigo caro, una tienda barata。打折以后的价格说 con las rebajas。",
+      "examples": [
+        { "text": "¿Con tarjeta o en efectivo?", "zh": "刷卡还是付现金?" },
+        { "text": "Pago con tarjeta.", "zh": "我刷卡。" },
+        { "text": "Esta tienda no es barata.", "zh": "这家店不便宜。" }
+      ] }
+  ],
+  "review": "draft"
+}

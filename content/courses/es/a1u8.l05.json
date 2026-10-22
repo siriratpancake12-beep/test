@@ -1,0 +1,54 @@
+{
+  "id": "es.a1u8.l05", "schemaVersion": 1, "lang": "es", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 爱好与周末", "order": 108050,
+  "titleZh": "上周末你做了什么?", "goalZh": "认识简单过去时最常用的几个形式,会说上周末做了什么、怎么样", "canDoZh": "能用几句话说上周末去了哪里、做了什么、玩得怎么样",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 27,
+  "newItems": [
+    { "id": "es.ayer", "kind": "word", "pos": "adv", "text": "ayer", "zh": "昨天", "features": { "ipa": "aˈʝeɾ" }, "noteZh": "y 在元音前读 [ʝ];说昨天做了什么要用过去时:Ayer descansé。" },
+    { "id": "es.pasado", "kind": "word", "pos": "adj", "text": "pasado", "zh": "上一个;过去的", "features": { "ipa": "paˈsado" }, "noteZh": "el fin de semana pasado = 上周末,el sábado pasado = 上周六,el año pasado = 去年。" },
+    { "id": "es.visitar", "kind": "word", "pos": "verb", "text": "visitar", "zh": "参观;拜访", "features": { "ipa": "bisiˈtaɾ" }, "noteZh": "过去时:visité, visitaste, visitó…;拜访人要加 a:visitar a un amigo。" },
+    { "id": "es.descansar", "kind": "word", "pos": "verb", "text": "descansar", "zh": "休息", "features": { "ipa": "deskanˈsaɾ" }, "noteZh": "-ar 规则动词;过去时 descansé。" },
+    { "id": "es.pasarlo_bien", "kind": "phrase", "pos": "phrase", "text": "pasarlo bien", "zh": "玩得开心;过得愉快", "features": { "ipa": "paˈsaɾlo ˈbjen" }, "noteZh": "过去时常说:Lo pasé muy bien = 我玩得很开心;lo 不能省;玩得特别开心也说 Lo pasé genial。" },
+    { "id": "es.hacer_fotos", "kind": "phrase", "pos": "phrase", "text": "hacer fotos", "zh": "拍照", "features": { "ipa": "aˈθeɾ ˈfotos" }, "noteZh": "西班牙常说 hacer fotos,拉美说 tomar / sacar fotos;过去时 hice muchas fotos。" },
+    { "id": "es.genial", "kind": "word", "pos": "adj", "text": "genial", "zh": "棒极了", "features": { "ipa": "xeˈnjal" }, "noteZh": "西班牙年轻人常说 ¡Genial!;g 在 e 前读 [x]。" },
+    { "id": "es.divertido", "kind": "word", "pos": "adj", "text": "divertido", "zh": "有趣的;好玩的", "features": { "ipa": "dibeɾˈtido" }, "noteZh": "说活动或人有意思;阴性 divertida。" },
+    { "id": "es.aburrido", "kind": "word", "pos": "adj", "text": "aburrido", "zh": "无聊的", "features": { "ipa": "abuˈrido" }, "noteZh": "ser aburrido = 让人无聊,estar aburrido = 感到无聊;rr 要颤舌。" }
+  ],
+  "reviewItems": ["es.fin_de_semana", "es.comer", "es.ir", "es.hacer"],
+  "lines": [
+    { "speaker": "andres", "text": "¡Buenos días! Li Na, ¿qué hiciste el fin de semana pasado?", "zh": "早上好!李娜,你上周末做了什么?", "items": ["es.buenos_dias", "es.que", "es.hacer", "es.fin_de_semana", "es.pasado"] },
+    { "speaker": "lina", "text": "El sábado fui a un partido de fútbol con Javier.", "zh": "星期六我跟哈维尔去看了一场足球赛。", "items": ["es.sabado", "es.ir", "es.a", "es.un", "es.partido", "es.de", "es.futbol", "es.con"] },
+    { "speaker": "andres", "text": "¿A un partido? ¿Y te gustó?", "zh": "看球赛?你喜欢吗?", "items": ["es.a", "es.un", "es.partido", "es.y", "es.gustar"] },
+    { "speaker": "lina", "text": "¡Sí! Fue mi primer partido. Lo pasé muy bien.", "zh": "喜欢!那是我第一次看球赛。我玩得很开心。", "items": ["es.si", "es.ser", "es.mi", "es.primero", "es.partido", "es.pasarlo_bien", "es.muy"] },
+    { "speaker": "andres", "text": "¡Genial! ¿Hiciste fotos?", "zh": "太棒了!拍照了吗?", "items": ["es.genial", "es.hacer_fotos"] },
+    { "speaker": "lina", "text": "Sí, hice muchas fotos. ¡Fue muy divertido!", "zh": "拍了,拍了好多照片。特别好玩!", "items": ["es.si", "es.hacer_fotos", "es.mucho", "es.ser", "es.muy", "es.divertido"] },
+    { "speaker": "andres", "text": "¿Y ayer, domingo?", "zh": "那昨天星期天呢?", "items": ["es.y", "es.ayer", "es.domingo"] },
+    { "speaker": "lina", "text": "Ayer comí en casa y descansé. Fue un poco aburrido. ¿Y tú?", "zh": "昨天我在家吃饭、休息。有点无聊。你呢?", "items": ["es.ayer", "es.comer", "es.en", "es.casa", "es.y", "es.descansar", "es.ser", "es.un_poco", "es.aburrido", "es.tu"] },
+    { "speaker": "andres", "text": "Yo visité a unos amigos cerca de Madrid. ¡Lo pasé genial!", "zh": "我去马德里附近看了几个朋友。玩得开心极了!", "items": ["es.yo", "es.visitar", "es.a", "es.amigo", "es.cerca", "es.de", "es.pasarlo_bien", "es.genial"] },
+    { "speaker": "lina", "text": "¡Qué bien!", "zh": "真好!", "items": ["es.que_bien"] }
+  ],
+  "questions": [
+    { "prompt": "李娜上星期六做了什么?", "options": ["在家休息", "去看了朋友", "跟哈维尔去看了足球赛"], "answer": 2, "explainZh": "El sábado fui a un partido de fútbol con Javier.——fui 是 ir 的过去时“我去了”。" },
+    { "prompt": "李娜觉得星期天过得怎么样?", "options": ["有点无聊", "特别好玩", "棒极了"], "answer": 0, "explainZh": "Ayer comí en casa y descansé. Fue un poco aburrido." },
+    { "prompt": "安德烈斯老师上周末做了什么?", "options": ["去看了足球赛", "去马德里附近看朋友", "在家休息"], "answer": 1, "explainZh": "Yo visité a unos amigos cerca de Madrid. ¡Lo pasé genial!" }
+  ],
+  "grammar": [
+    { "id": "es.g.u8_preterito", "titleZh": "简单过去时入门:visité, comí",
+      "bodyZh": "说过去某个时间(ayer, el sábado, el fin de semana pasado)做完的事,用简单过去时(pretérito indefinido)。中文加个“了”就行,西语要换动词词尾。-ar 动词:visitar → visité(我)、visitaste(你)、visitó(他 / 她 / 您);-er 和 -ir 动词:comer → comí、comiste、comió。重音符号很关键:visito(我参观,现在时)和 visitó(他参观了,过去时)只差一个重音符号,意思完全不同,写和读都不能漏。同样:descansar → descansé,pasar → pasé:Lo pasé muy bien(我玩得很开心)。拜访人要加 a:visité a unos amigos。",
+      "examples": [
+        { "text": "Ayer comí en casa.", "zh": "昨天我在家吃的饭。" },
+        { "text": "Visité a unos amigos.", "zh": "我去看了几个朋友。" },
+        { "text": "El domingo descansé.", "zh": "星期天我休息了。" },
+        { "text": "Lo pasé muy bien.", "zh": "我玩得很开心。" }
+      ] },
+    { "id": "es.g.u8_fui_hice", "titleZh": "最常用的不规则形式:fui, fue, hice",
+      "bodyZh": "几个最常用的动词过去时不规则,先当固定形式记:ir 和 ser 的过去时一模一样——fui(我去了;我是)、fue(他 / 她去了;他 / 她 / 那是);hacer → hice(我做了)、hiciste(你做了)。这几个词都没有重音符号。看上下文分辨意思:Fui a un partido(我去看了一场比赛,是 ir)、Fue mi primer partido(那是我第一次看比赛,是 ser)。评价过去的事常用 fue:Fue genial(太棒了)、Fue muy divertido(很好玩)、Fue un poco aburrido(有点无聊)。拍照西班牙说 hacer fotos,过去时 hice muchas fotos(拉美说 tomé / saqué fotos)。",
+      "examples": [
+        { "text": "El sábado fui a un partido de fútbol.", "zh": "星期六我去看了一场足球赛。" },
+        { "text": "Fue muy divertido.", "zh": "很好玩。" },
+        { "text": "¿Qué hiciste ayer?", "zh": "你昨天做了什么?" },
+        { "text": "Hice muchas fotos.", "zh": "我拍了很多照片。" }
+      ] }
+  ],
+  "review": "draft"
+}

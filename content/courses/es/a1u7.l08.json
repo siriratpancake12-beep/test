@@ -1,0 +1,49 @@
+{
+  "id": "es.a1u7.l08", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107080,
+  "titleZh": "单元复习:换一件毛衣", "goalZh": "在一段完整的购物对话里综合运用本单元的说法", "canDoZh": "能独立完成一次换货:说明问题、换颜色或尺码、试穿、确认",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "es.cambiar", "kind": "word", "pos": "verb", "text": "cambiar", "zh": "换;改变", "features": { "ipa": "kamˈbjaɾ" }, "noteZh": "cambiar A por B = 把 A 换成 B:¿Puedo cambiar el rojo por el azul?;-ar 规则动词。" },
+    { "id": "es.bufanda", "kind": "word", "pos": "noun", "text": "la bufanda", "zh": "围巾", "features": { "gender": "f", "ipa": "la buˈfanda" }, "noteZh": "冬天围的围巾;-a 结尾,阴性:la bufanda;薄丝巾一般叫 el pañuelo。" },
+    { "id": "es.tique", "kind": "word", "pos": "noun", "text": "el tique", "zh": "小票;购物凭证", "alt": ["el ticket"], "features": { "gender": "m", "ipa": "el ˈtike" }, "noteZh": "也写作 ticket;换货、退货要带小票;拉美说 el recibo。" }
+  ],
+  "reviewItems": ["es.talla", "es.otro", "es.probarse", "es.color"],
+  "lines": [
+    { "speaker": "dependienta", "text": "¡Hola! ¿Qué tal el abrigo negro?", "zh": "你好!那件黑大衣怎么样?", "items": ["es.hola", "es.que_tal", "es.abrigo", "es.negro"] },
+    { "speaker": "lina", "text": "Muy bien, gracias. Pero quiero cambiar este jersey.", "zh": "很好,谢谢。不过我想换一下这件毛衣。", "items": ["es.muy", "es.bien", "es.gracias", "es.pero", "es.querer", "es.cambiar", "es.este", "es.jersey"] },
+    { "speaker": "dependienta", "text": "¿No te queda bien? ¿Quieres otra talla?", "zh": "穿着不合适吗?要换个尺码吗?", "items": ["es.no", "es.me_queda_bien", "es.querer", "es.otro", "es.talla"] },
+    { "speaker": "lina", "text": "No, la talla está bien. Pero el rojo no me queda bien.", "zh": "不是,尺码没问题。是红色不适合我。", "items": ["es.no", "es.talla", "es.estar", "es.bien", "es.pero", "es.rojo", "es.me_queda_bien"] },
+    { "speaker": "dependienta", "text": "Vale. ¿Tienes el tique?", "zh": "好的。小票带了吗?", "items": ["es.vale", "es.tener", "es.tique"] },
+    { "speaker": "lina", "text": "Sí, aquí está. ¿Puedo cambiar el rojo por otro color?", "zh": "带了,在这儿。我能把红的换成别的颜色吗?", "items": ["es.si", "es.aqui", "es.estar", "es.poder", "es.cambiar", "es.rojo", "es.por", "es.otro", "es.color"] },
+    { "speaker": "dependienta", "text": "Claro. Tenemos este jersey en azul, en gris y en verde.", "zh": "当然可以。这款毛衣有蓝色、灰色和绿色的。", "items": ["es.claro", "es.tener", "es.este", "es.jersey", "es.en", "es.azul", "es.gris", "es.y", "es.verde"] },
+    { "speaker": "lina", "text": "El azul, por favor. ¿Puedo probarme este?", "zh": "要蓝的,谢谢。我能试一下这件吗?", "items": ["es.azul", "es.por_favor", "es.poder", "es.probarse", "es.este"] },
+    { "speaker": "dependienta", "text": "Sí, el probador está allí, a la derecha.", "zh": "可以,试衣间在那边,右手边。", "items": ["es.si", "es.probador", "es.estar", "es.alli", "es.a_la_derecha"] },
+    { "speaker": "lina", "text": "¡Me queda muy bien! Y este color es más bonito.", "zh": "(试完)我穿着很合适!而且这个颜色更好看。", "items": ["es.me_queda_bien", "es.muy", "es.bien", "es.y", "es.este", "es.color", "es.ser", "es.mas", "es.bonito"] },
+    { "speaker": "dependienta", "text": "¿Y esta bufanda gris? Con las rebajas, doce euros.", "zh": "这条灰围巾要不要?打折后 12 欧。", "items": ["es.y", "es.este", "es.bufanda", "es.gris", "es.con", "es.rebajas", "es.doce", "es.euro"] },
+    { "speaker": "lina", "text": "¡Es muy bonita! Quiero la bufanda también. Pago en efectivo.", "zh": "真好看!围巾我也要。我付现金。", "items": ["es.ser", "es.muy", "es.bonito", "es.querer", "es.bufanda", "es.tambien", "es.pagar", "es.en_efectivo"] }
+  ],
+  "questions": [
+    { "prompt": "李娜为什么想换毛衣?", "options": ["毛衣太大了", "红色不适合她", "毛衣太贵了"], "answer": 1, "explainZh": "李娜说:la talla está bien. Pero el rojo no me queda bien.——尺码没问题,是颜色不合适。" },
+    { "prompt": "换货时店员先要看什么?", "options": ["小票", "银行卡", "那件大衣"], "answer": 0, "explainZh": "店员问 ¿Tienes el tique?,李娜说 Sí, aquí está。" },
+    { "prompt": "李娜把红毛衣换成了什么颜色?", "options": ["灰色", "绿色", "蓝色"], "answer": 2, "explainZh": "店员说有 azul, gris y verde,李娜说:El azul, por favor." },
+    { "prompt": "关于围巾,哪一句是对的?", "options": ["围巾是蓝色的", "打折后 12 欧,李娜付现金买了", "李娜没有买围巾"], "answer": 1, "explainZh": "店员说 Con las rebajas, doce euros;李娜说 Quiero la bufanda también. Pago en efectivo。" }
+  ],
+  "grammar": [
+    { "id": "es.g.u7_cambiar", "titleZh": "换货:cambiar A por B",
+      "bodyZh": "想把一样东西换成另一样,说 cambiar + 要换掉的东西 + por + 想要的东西:¿Puedo cambiar el rojo por otro color?(我能把红的换成别的颜色吗?)。por 后面是换来的那一个。换货、退货时店员一般先问 ¿Tienes el tique?(有小票吗?),所以小票要留好。说明原因可以用本单元学的 quedar:No me queda bien(不合身,或者不适合我)、Me queda grande(我穿着大)——quedar bien 既能说尺码合适,也能说颜色、款式适合你。otro 前面不加 un:otro color, otra talla。",
+      "examples": [
+        { "text": "Quiero cambiar este jersey.", "zh": "我想换这件毛衣。" },
+        { "text": "¿Puedo cambiar el rojo por el azul?", "zh": "我能把红的换成蓝的吗?" },
+        { "text": "El rojo no me queda bien.", "zh": "红色不适合我。" }
+      ] },
+    { "id": "es.g.u7_repaso", "titleZh": "单元小结:在服装店怎么说",
+      "bodyZh": "把本单元的说法串起来:找东西 Busco un abrigo / ¿Tienen…?;颜色放在名词后并配合:un jersey azul, una bufanda gris;指东西用 este(这)/ ese(那);试穿 ¿Puedo probarme este?;合不合身 Me queda bien / grande / demasiado corta;比较 más / menos … que 和 mejor;听价格 ciento veintinueve, mil doscientos;付款 ¿Con tarjeta o en efectivo?。",
+      "examples": [
+        { "text": "¿Tienen este jersey en azul?", "zh": "这款毛衣有蓝色的吗?" },
+        { "text": "Este color es más bonito.", "zh": "这个颜色更好看。" },
+        { "text": "Con las rebajas, doce euros.", "zh": "打折后 12 欧。" }
+      ] }
+  ],
+  "review": "draft"
+}
