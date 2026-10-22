@@ -42,3 +42,16 @@ describe("韩语", () => {
     expect(validateCourse(ko, [bad]).map((p) => p.msg).join()).toMatch(/罗马音/);
   });
 });
+
+describe("句子长度", () => {
+  it("A1 句子超过上限会报", () => {
+    const en = pack("en");
+    const long = "I really want to go to the big supermarket near my school with my best friend after class today";
+    const l = Lesson.parse({
+      id: "en.a1u1.l01", schemaVersion: 1, lang: "en", type: "dialogue", cefr: "A1", unit: "A1-1", order: 101010,
+      titleZh: "t", goalZh: "g", canDoZh: "c", skills: ["listen"], estimatedMinutes: 10, newItems: [],
+      lines: [{ speaker: "narrator", text: long, zh: "很长的一句", items: [] }],
+    });
+    expect(validateCourse(en, [l]).map((p) => p.msg).join()).toMatch(/句子太长/);
+  });
+});
