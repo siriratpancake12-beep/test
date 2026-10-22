@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>语途后台 · 指标</title>
+<style>
+  :root {
+    --bg: #f5f6f8; --card: #ffffff; --text: #1d2129; --muted: #646a73; --line: #dee0e3;
+    --accent: #1f6feb; --accent-text: #ffffff; --bad: #c9302c; --star: #fff8e6; --star-line: #f0c36d;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0f1115; --card: #181b21; --text: #e6e8eb; --muted: #9aa0a8; --line: #2c3038;
+      --accent: #4c8df6; --accent-text: #0f1115; --bad: #ff7b72; --star: #2a2413; --star-line: #8a6d2c;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 15px/1.6 -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", sans-serif; }
+  main { max-width: 1040px; margin: 0 auto; padding: 28px 16px 56px; }
+  h1 { font-size: 22px; margin: 0 0 20px; }
+  form { display: flex; flex-wrap: wrap; align-items: center; gap: 10px; }
+  label { display: inline-flex; align-items: center; gap: 8px; }
+  input { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; min-height: 38px; }
+  button { font: inherit; border-radius: 8px; padding: 7px 14px; min-height: 38px; cursor: pointer; border: 1px solid var(--line); background: var(--card); color: var(--text); }
+  button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-text); font-weight: 600; }
+  button.link { border: none; background: none; color: var(--muted); text-decoration: underline; padding: 7px 4px; }
+  button:disabled { opacity: .6; cursor: progress; }
+  .hint { color: var(--muted); font-size: 13px; margin: 10px 0 0; }
+  .error { color: var(--bad); margin: 14px 0 0; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 12px; margin-top: 22px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 14px 16px; }
+  .card.star { background: var(--star); border-color: var(--star-line); grid-column: 1 / -1; }
+  .card .label { color: var(--muted); font-size: 13px; }
+  .card .value { font-size: 30px; font-weight: 650; font-variant-numeric: tabular-nums; margin: 2px 0 4px; }
+  .card.star .value { font-size: 38px; }
+  .card .desc { color: var(--muted); font-size: 12.5px; line-height: 1.5; }
+  .section { margin: 26px 0 0; font-size: 15px; color: var(--muted); font-weight: 600; }
+  [hidden] { display: none !important; }
+</style>
+</head>
+<body>
+<main>
+  <h1>语途后台 · 指标</h1>
+
+  <section id="login" hidden>
+    <form id="login-form">
+      <label>后台口令 <input id="token" type="password" autocomplete="current-password" required></label>
+      <button class="primary" type="submit">进入</button>
+    </form>
+    <p class="hint">口令只保存在这个浏览器标签页里(sessionStorage),关闭标签页就清除。</p>
+  </section>
+
+  <section id="panel" hidden>
+    <form id="range-form">
+      <label>从 <input id="from" type="date" required></label>
+      <label>到 <input id="to" type="date" required></label>
+      <button class="primary" id="query" type="submit">查询</button>
+      <button type="button" data-days="7">近 7 天</button>
+      <button type="button" data-days="30">近 30 天</button>
+      <button type="button" data-days="90">近 90 天</button>
+      <button type="button" class="link" id="logout">退出</button>
+    </form>
+    <p class="hint">日期按 UTC 计算(北京时间早上 8 点换日)。比例显示"—"表示还没有样本。</p>
+    <div id="result"></div>
+  </section>
+
+  <p id="error" class="error" role="alert" hidden></p>
+</main>
+<script>
+(() => {
+  "use strict";
+  const KEY = "yutu-admin-token";
+  const $ = (id) => document.getElementById(id);
+  // sessionStorage 在隐私模式等情况下可能用不了,用不了就只存在内存里
+  let memory = null;
+  const token = {
+    get() { try { return sessionStorage.getItem(KEY) ?? memory; } catch { return memory; } },
+    set(v) { memory = v; try { sessionStorage.setItem(KEY, v); } catch {} },
+    clear() { memory = null; try { sessionStorage.removeItem(KEY); } catch {} },
+  };
+
+  const GROUPS = [
+    { title: null, items: [
+      { key: "northStar", label: "北极星:每周学习 ≥ 3 天的付费用户", desc: "区间最后 7 天里有 3 天以上学习(完成课、复习或专练),且截止时是会员", kind: "count", star: true },
+    ] },
+    { title: "学习与留存", items: [
+      { key: "weeklyActiveLearners", label: "周活跃学习者", desc: "区间最后 7 天有学习的人数(未登录的按设备算)", kind: "count" },
+      { key: "newUsers", label: "新注册用户", desc: "区间内注册的账号数", kind: "count" },
+      { key: "retention.d1", label: "次日留存", desc: "区间内注册的人,注册后第 1 天还在学习的比例", kind: "rate" },
+      { key: "retention.d7", label: "7 日留存", desc: "注册后第 7 天还在学习的比例", kind: "rate" },
+      { key: "retention.d30", label: "30 日留存", desc: "注册后第 30 天还在学习的比例", kind: "rate" },
+    ] },
+    { title: "订阅", items: [
+      { key: "trialStarts", label: "开始试用", desc: "区间内开始免费试用的次数", kind: "count" },
+      { key: "trialToPaid", label: "试用转付费", desc: "区间内开始试用(且已满 7 天)的人里,之后付费的比例", kind: "rate" },
+      { key: "renewalRate", label: "续费率", desc: "续费 ÷(续费 + 到期未续)", kind: "rate" },
+      { key: "refundRate", label: "退款率", desc: "退款 ÷(购买 + 续费)。偏高说明有人觉得\"被套路\"", kind: "rate" },
+    ] },
+  ];
+
+  const utcDay = (d) => d.toISOString().slice(0, 10);
+  const daysAgo = (n) => utcDay(new Date(Date.now() - n * 86400000));
+  function setRange(days) {
+    $("to").value = daysAgo(0);
+    $("from").value = daysAgo(days - 1);
+  }
+  function fmt(v, kind) {
+    if (v === null || v === undefined) return "—";
+    if (kind === "rate") return (v * 100).toFixed(1) + "%";
+    return Number(v).toLocaleString("zh-CN");
+  }
+  function showError(msg) {
+    $("error").textContent = msg;
+    $("error").hidden = !msg;
+  }
+  function show() {
+    const has = !!token.get();
+    $("login").hidden = has;
+    $("panel").hidden = !has;
+    if (has) load();
+    else $("token").focus();
+  }
+  const pick = (obj, path) => path.split(".").reduce((o, k) => (o == null ? undefined : o[k]), obj);
+
+  function render(m) {
+    const root = $("result");
+    root.textContent = "";
+    for (const g of GROUPS) {
+      if (g.title) {
+        const h = document.createElement("h2");
+        h.className = "section";
+        h.textContent = g.title;
+        root.append(h);
+      }
+      const grid = document.createElement("div");
+      grid.className = "grid";
+      for (const it of g.items) {
+        const card = document.createElement("div");
+        card.className = "card" + (it.star ? " star" : "");
+        const label = document.createElement("div");
+        label.className = "label";
+        label.textContent = it.label;
+        const value = document.createElement("div");
+        value.className = "value";
+        value.textContent = fmt(pick(m, it.key), it.kind);
+        const desc = document.createElement("div");
+        desc.className = "desc";
+        desc.textContent = it.desc;
+        card.append(label, value, desc);
+        grid.append(card);
+      }
+      root.append(grid);
+    }
+  }
+
+  async function load() {
+    const from = $("from").value, to = $("to").value;
+    if (!from || !to) return;
+    showError("");
+    $("query").disabled = true;
+    try {
+      const res = await fetch("/v1/admin/metrics?from=" + encodeURIComponent(from) + "&to=" + encodeURIComponent(to), {
+        headers: { "x-admin-token": token.get() || "" },
+        cache: "no-store",
+      });
+      const data = await res.json().catch(() => null);
+      if (res.status === 403) {
+        token.clear();
+        show();
+        showError("口令不对,请重新输入");
+        return;
+      }
+      if (!res.ok) throw new Error((data && data.error && data.error.message) || "查询失败(" + res.status + ")");
+      render(data);
+    } catch (e) {
+      showError(e instanceof TypeError ? "网络连接失败,请检查网络" : e.message);
+    } finally {
+      $("query").disabled = false;
+    }
+  }
+
+  $("login-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    const v = $("token").value.trim();
+    if (!v) return;
+    token.set(v);
+    $("token").value = "";
+    showError("");
+    show();
+  });
+  $("range-form").addEventListener("submit", (e) => {
+    e.preventDefault();
+    load();
+  });
+  for (const b of document.querySelectorAll("[data-days]")) {
+    b.addEventListener("click", () => {
+      setRange(Number(b.getAttribute("data-days")));
+      load();
+    });
+  }
+  $("logout").addEventListener("click", () => {
+    token.clear();
+    $("result").textContent = "";
+    show();
+  });
+
+  setRange(30);
+  show();
+})();
+</script>
+</body>
+</html>
