@@ -33,7 +33,7 @@ export default function Home() {
   if (!lang || !progress || !pack || !progress.goal) return <Redirect href="/onboarding" />;
 
   const lessons = getLessons(lang);
-  const plan = dailyPlan(progress, lessons, now, { premium, canAccess: (l) => canAccessLesson(l, lessons, premium) });
+  const plan = dailyPlan(progress, lessons, now, { premium, canAccess: (l) => canAccessLesson(l, lessons, premium, progress.freeUnit) });
   const pr = projection(progress, pack, lessons, now);
   const days = streak(progress, now);
   const mins = todayMinutes(progress, now);
@@ -80,8 +80,8 @@ export default function Home() {
       {upNext && plan.blocks.some((b) => b.kind === "lesson" && b.done) && (
         <Button
           ghost
-          title={`${canAccessLesson(upNext, lessons, premium) ? "" : "🔒 "}继续学下一课:${upNext.titleZh}`}
-          onPress={() => router.push(canAccessLesson(upNext, lessons, premium) ? `/lesson/${upNext.id}` : "/paywall?reason=lesson")}
+          title={`${canAccessLesson(upNext, lessons, premium, progress.freeUnit) ? "" : "🔒 "}继续学下一课:${upNext.titleZh}`}
+          onPress={() => router.push(canAccessLesson(upNext, lessons, premium, progress.freeUnit) ? `/lesson/${upNext.id}` : "/paywall?reason=lesson")}
         />
       )}
 
@@ -111,7 +111,7 @@ export default function Home() {
       {showAll && lessons.map((l) => {
         const done = isDone(progress, l.id);
         const open = isUnlocked(lessons, progress, l.id);
-        const locked = !canAccessLesson(l, lessons, premium);
+        const locked = !canAccessLesson(l, lessons, premium, progress.freeUnit);
         return (
           <Pressable key={l.id} disabled={!open} onPress={() => router.push(locked ? "/paywall?reason=lesson" : `/lesson/${l.id}`)}
             style={[s.card, { opacity: open ? 1 : 0.45 }]}>

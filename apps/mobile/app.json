@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "学外语",
+    "name": "语途",
     "slug": "lingo-cn",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -8,7 +8,8 @@
     "userInterfaceStyle": "light",
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.example.lingocn"
+      "bundleIdentifier": "com.example.lingocn",
+      "usesAppleSignIn": true
     },
     "android": {
       "adaptiveIcon": {
@@ -27,7 +28,19 @@
     "plugins": [
       "expo-router",
       "expo-sqlite",
-      "expo-notifications"
-    ]
+      "expo-notifications",
+      [
+        "expo-audio",
+        {
+          "microphonePermission": "跟读练习时录下你的发音,和标准发音对比。录音只在本机或用于打分,不会公开。"
+        }
+      ],
+      "expo-apple-authentication",
+      "expo-secure-store",
+      "expo-iap"
+    ],
+    "extra": {
+      "apiBase": ""
+    }
   }
 }

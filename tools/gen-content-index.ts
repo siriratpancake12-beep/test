@@ -29,5 +29,20 @@ for (const f of readdirSync(join(content, "languages")).sort()) {
   });
   courses.push(`  ${code}: [${vars.join(", ")}],`);
 }
-writeFileSync(out, `// 由 tools/gen-content-index.ts 生成,不要手改。\n${imports.join("\n")}\n\nexport const rawPacks: unknown[] = [\n${packs.join("\n")}\n];\n\nexport const rawLessons: Record<string, unknown[]> = {\n${courses.join("\n")}\n};\n`);
+// AI 口语场景:content/scenarios/<lang>.json
+const scenarios: string[] = [];
+const scenarioDir = join(content, "scenarios");
+if (existsSync(scenarioDir)) {
+  for (const f of readdirSync(scenarioDir).filter((x) => x.endsWith(".json")).sort()) {
+    const v = `s_${f.replace(/\.json$/, "")}`;
+    imports.push(`import ${v} from "${rel(`scenarios/${f}`)}";`);
+    scenarios.push(`  ${f.replace(/\.json$/, "")}: ${v} as unknown[],`);
+  }
+}
+writeFileSync(
+  out,
+  `// 由 tools/gen-content-index.ts 生成,不要手改。\n${imports.join("\n")}\n\nexport const rawPacks: unknown[] = [\n${packs.join("\n")}\n];\n\n` +
+    `export const rawLessons: Record<string, unknown[]> = {\n${courses.join("\n")}\n};\n\n` +
+    `export const rawScenarios: Record<string, unknown[]> = {\n${scenarios.join("\n")}\n};\n`,
+);
 console.log("wrote", out);

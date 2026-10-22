@@ -85,6 +85,9 @@ describe("订阅", () => {
     const later = { ...de[1]!, unit: "A1-2", order: 3 };
     expect(canAccessLesson(later, [...de, later], false)).toBe(false);
     expect(canAccessLesson(later, [...de, later], true)).toBe(true);
+    // 分级测试后起步在 A1-2 的人,免费的是 A1-2
+    expect(canAccessLesson(later, [...de, later], false, "A1-2")).toBe(true);
+    expect(canAccessLesson(de[0]!, [...de, later], false, "A1-2")).toBe(false);
   });
 
   it("付费介绍最多 3 天出现一次", () => {

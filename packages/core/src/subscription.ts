@@ -133,13 +133,18 @@ export function renewalReminder(sub: Subscription | null, now: Date): RenewalRem
   return { key, kind, daysLeft, chargeDate: date, priceCny: product.priceCny, zh };
 }
 
-/** 第一单元(按顺序最前面的单元)免费,其余要会员。 */
-export function isFreeLesson(lesson: Lesson, lessons: Lesson[]): boolean {
+/**
+ * 免费单元:每个人免费学自己起步的那个单元(progress.freeUnit);还没确定时按课程第一单元。
+ * 这样分级测试跳到 A2 的人,免费体验的也是 A2 的内容,而不是已经会了的 A1。
+ */
+export function isFreeLesson(lesson: Lesson, lessons: Lesson[], freeUnit?: string | null): boolean {
+  if (freeUnit) return lesson.unit === freeUnit;
   const first = [...lessons].sort((a, b) => a.order - b.order)[0];
   return !!first && lesson.unit === first.unit;
 }
 
-export const canAccessLesson = (lesson: Lesson, lessons: Lesson[], premium: boolean) => premium || isFreeLesson(lesson, lessons);
+export const canAccessLesson = (lesson: Lesson, lessons: Lesson[], premium: boolean, freeUnit?: string | null) =>
+  premium || isFreeLesson(lesson, lessons, freeUnit);
 
 /** 非强制的付费介绍(如学完免费单元后)最多 3 天出现一次,不能反复打扰。 */
 export function softPaywallAllowed(lastShown: string | null, now: Date): boolean {

@@ -99,6 +99,8 @@ describe("分级测试", () => {
     expect(nextLesson(all, p)?.id).toBe("de.a2u1.l01");
     expect(isUnlocked(all, p, "de.a2u1.l01")).toBe(true);
     expect(p.log).toEqual({});
+    // 免费单元是跳级后起步的单元
+    expect(p.freeUnit).toBe("A2-1");
     // 产出方向是新卡,会在之后的复习里出现
     expect(todaysReview(p, at("2026-11-01"), 50, 50).every((c) => c.direction === "produce")).toBe(true);
   });

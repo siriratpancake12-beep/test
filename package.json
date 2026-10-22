@@ -4,11 +4,12 @@
   "type": "module",
   "workspaces": [
     "packages/*",
-    "apps/*"
+    "apps/*",
+    "services/*"
   ],
   "scripts": {
-    "test": "npm test -w @lingo/core",
-    "typecheck": "npm run typecheck -w @lingo/core && npm run typecheck -w @lingo/mobile",
+    "test": "npm test --workspaces --if-present",
+    "typecheck": "npm run typecheck --workspaces --if-present",
     "validate": "tsx tools/validate-content.ts",
     "content:index": "tsx tools/gen-content-index.ts",
     "e2e": "npm run build:web -w @lingo/mobile && tsx tests/e2e/run.ts"

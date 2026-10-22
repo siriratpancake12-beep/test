@@ -36,7 +36,10 @@ export function validateCourse(packRaw: unknown, lessonsRaw: unknown[]): Problem
     }
     for (const id of l.reviewItems) if (!taught.has(id)) P(`复习词 ${id} 之前没教过`);
     for (const it of l.newItems) taught.set(it.id, it);
-    for (const line of l.lines) for (const id of line.items) if (!taught.has(id)) P(`句子"${line.text}"用到没教过的词 ${id}`);
+    for (const line of l.lines) {
+      for (const id of line.items) if (!taught.has(id)) P(`句子"${line.text}"用到没教过的词 ${id}`);
+      if (pack.cast && line.speaker !== "narrator" && !pack.cast[line.speaker]) P(`说话人 ${line.speaker} 不在语言包的角色表里`);
+    }
   }
   return problems;
 }

@@ -48,5 +48,8 @@ export function applyPlacement(p: Progress, lessons: Lesson[], passed: Cefr[], n
       cards[k] = d === "produce" ? fresh : reviewCard(fresh, "correct", now);
     }
   }
-  return { ...p, cards, learned, skipped: [...new Set([...p.skipped, ...skip.map((l) => l.id)])] };
+  const skipped = [...new Set([...p.skipped, ...skip.map((l) => l.id)])];
+  // 免费单元给"跳级后起步的那个单元",只在第一次确定
+  const start = [...lessons].sort((a, b) => a.order - b.order).find((l) => !skipped.includes(l.id) && !(l.id in p.completed));
+  return { ...p, cards, learned, skipped, freeUnit: p.freeUnit ?? start?.unit ?? null };
 }

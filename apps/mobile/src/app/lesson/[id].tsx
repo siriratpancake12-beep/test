@@ -43,10 +43,10 @@ export default function LessonScreen() {
 
   if (!lesson || !pack) return <Text style={s.body}>找不到这节课</Text>;
   const lessons = getLessons(lesson.lang);
-  if (!canAccessLesson(lesson, lessons, premium)) return <Redirect href="/paywall?reason=lesson" />;
+  if (!canAccessLesson(lesson, lessons, premium, progress?.freeUnit)) return <Redirect href="/paywall?reason=lesson" />;
   const firstLessonEver = progress && Object.keys(progress.completed).length === 0;
   const nextOne = lessons.find((l) => l.order > lesson.order);
-  const unitFinished = !premium && isFreeLesson(lesson, lessons) && !!nextOne && !isFreeLesson(nextOne, lessons);
+  const unitFinished = !premium && isFreeLesson(lesson, lessons, progress?.freeUnit) && !!nextOne && !isFreeLesson(nextOne, lessons, progress?.freeUnit);
 
   const answer = async (ex: Exercise, r: ExerciseResult) => {
     const now = new Date();

@@ -121,6 +121,11 @@ export const LanguagePack = z.object({
    * 不填用默认值(goal.ts);上线后用真实学习数据校准。
    */
   hoursToLevel: z.object({ "pre-A1": z.number(), A1: z.number(), A2: z.number(), B1: z.number(), B2: z.number(), C1: z.number() }).partial().optional(),
+  /**
+   * 固定角色表:说话人 id → 名字和性别。整门课用同一组人物,形成连续的故事线;
+   * 课文里的 speaker 必须出自这里(或 narrator 旁白)。App 按性别选朗读声音。
+   */
+  cast: z.record(z.string(), z.object({ name: z.string(), nameZh: z.string(), gender: z.enum(["f", "m"]), bioZh: z.string().optional() })).optional(),
   /** 主流考试,用于考试方向的课程线 */
   examsZh: z.array(z.string()).default([]),
   /** 给中国学习者的总体难点提示 */

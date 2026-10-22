@@ -34,3 +34,7 @@ export const rawLessons: Record<string, unknown[]> = {
   ko: [],
   ru: [],
 };
+
+export const rawScenarios: Record<string, unknown[]> = {
+
+};

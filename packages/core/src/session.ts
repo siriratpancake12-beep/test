@@ -47,6 +47,11 @@ export interface Progress {
   completed: Record<string, string>;
   /** 分级测试跳过的课 */
   skipped: string[];
+  /**
+   * 免费体验的单元:每个人免费学"自己起步的那个单元"(零基础是第一单元,测试跳级的是跳到的单元)。
+   * 第一次确定后不再变。null = 还没确定,按课程第一单元算。
+   */
+  freeUnit: string | null;
   /** 学过的词条 → 第一次学完(或测试跳过)的日期。"学了多少词"以这里为准 */
   learned: Record<string, string>;
   cards: Record<string, CardState>;
@@ -78,6 +83,7 @@ export const emptyProgress = (lang: string, tz = DEFAULT_TZ): Progress => ({
   goal: null,
   completed: {},
   skipped: [],
+  freeUnit: null,
   learned: {},
   cards: {},
   log: {},
