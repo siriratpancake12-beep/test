@@ -1,0 +1,127 @@
+{
+  "lang": "ja",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-5 时间与日程", "cefr": "A1", "themeZh": "5 月,别科的生活有了规律:早上看时间、课从几点到几点、去咖啡馆面试打工、问朋友的生日、约周末看电影、第一天打工听店长讲排班。〜時〜分 和 半、午前 / 午後、に / から / まで、星期和日期、N が あります、V ませんか / V ましょう、句末 よ。" }
+  ],
+  "lessons": [
+    {
+      "id": "ja.a1u5.l01", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105010,
+      "titleZh": "现在几点?", "goalZh": "会说、会听钟点(几点几分、几点半、上午 / 下午),会问时间",
+      "canDoZh": "能问现在几点,能说、能听懂几点几分、几点半、上午和下午",
+      "scenarioZh": "5 月的一个早上,林雨还在睡,智友敲门:リンさん、今 8時半ですよ!林雨:あ、8時半ですか!两人一边吃早饭一边确认时间。晚上林雨问大家さん现在几点:すみません、今 何時ですか。—夜の 10時ですよ。课文 8–10 句;何時 用 何 + 時 组成,11、12 点用 じゅういち、じゅうに 组成。说话人:jiu、rin、kobayashi。",
+      "grammarFocusZh": "钟点“数字 + 時”:4 時 よじ、7 時 しちじ、9 時 くじ;分钟“数字 + 分”:1 分 いっぷん、3 分 さんぷん、4 分 よんぷん、6 分 ろっぷん、8 分 はっぷん、10 分 じゅっぷん,其他读 ふん;半 = 30 分;午前 / 午後 放在钟点前面:午後 3時;今 何時ですか;句末 よ 告诉对方他不知道的事(对长辈用多了像在提醒)",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.ima", "kind": "word", "pos": "noun", "text": "今", "zh": "现在", "features": { "reading": "いま", "pitch": 1 }, "noteZh": "今 何時ですか(现在几点?)。今 后面不加 に。" },
+        { "id": "ja.ji", "kind": "word", "pos": "num", "text": "時", "zh": "……点(钟)", "features": { "reading": "じ" }, "noteZh": "4時 よじ、7時 しちじ、9時 くじ;几点 = 何時(なんじ)。和“时间”的 時間(じかん)不同。" },
+        { "id": "ja.fun", "kind": "word", "pos": "num", "text": "分", "zh": "……分(钟)", "features": { "reading": "ふん" }, "noteZh": "1分 いっぷん、3分 さんぷん、4分 よんぷん、6分 ろっぷん、8分 はっぷん、10分 じゅっぷん,其他读 ふん(2分 にふん、5分 ごふん)。" },
+        { "id": "ja.han", "kind": "word", "pos": "noun", "text": "半", "zh": "半;……点半", "features": { "reading": "はん", "pitch": 1 }, "noteZh": "8時半(8 点半)。" },
+        { "id": "ja.gozen", "kind": "word", "pos": "noun", "text": "午前", "zh": "上午", "features": { "reading": "ごぜん", "pitch": 1 }, "noteZh": "放在钟点前面:午前 10時(上午 10 点)。" },
+        { "id": "ja.gogo", "kind": "word", "pos": "noun", "text": "午後", "zh": "下午", "features": { "reading": "ごご", "pitch": 1 }, "noteZh": "放在钟点前面:午後 3時(下午 3 点)。" },
+        { "id": "ja.asa", "kind": "word", "pos": "noun", "text": "朝", "zh": "早上", "features": { "reading": "あさ", "pitch": 1 }, "noteZh": "朝ご飯 = 早饭。朝 后面不加 に。" },
+        { "id": "ja.yoru", "kind": "word", "pos": "noun", "text": "夜", "zh": "晚上", "features": { "reading": "よる", "pitch": 1 }, "noteZh": "夜の 10時(晚上 10 点)。" },
+        { "id": "ja.yo_p", "kind": "word", "pos": "particle", "text": "よ", "zh": "……哦(句末,告诉对方不知道的事)", "features": {}, "noteZh": "8時半ですよ!(已经 8 点半了哦!)。对长辈用多了会显得像在提醒、教训。" }
+      ],
+      "reviewItems": ["ja.juu", "ja.nani", "ja.sumimasen"]
+    },
+    {
+      "id": "ja.a1u5.l02", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105020,
+      "titleZh": "课从几点到几点?", "goalZh": "会用 から / まで 说时间段,用“时间 + に + 动词”说几点做什么",
+      "canDoZh": "能说课几点开始、几点结束,说自己每天几点起床、几点睡觉",
+      "scenarioZh": "别科第二个月,田中老师讲课程安排:授業は 9時から 12時半までです。课间,林雨和智友聊作息:ジウさんは 毎日 何時に 起きますか。—6時に 起きます。リンさんは?—7時半に 起きます。夜 12時に 寝ます。智友:わたしは 11時に 寝ますよ。课文 8–10 句。说话人:tanaka、jiu、rin。",
+      "grammarFocusZh": "“A から B まで”(从 A 到 B),时间、地点都能用;具体时间点 + に + 动词:7時に 起きます;毎日、今、朝 这类词后面不加 に;“授業が 始まります / 終わります”:开始、结束的是事情,用 が;ます / ません 复习",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.okiru", "kind": "word", "pos": "verb", "text": "起きます", "zh": "起床", "features": { "reading": "おきます", "pitch": 3 }, "noteZh": "辞书形 起きる(二类动词)。7時に 起きます。" },
+        { "id": "ja.neru", "kind": "word", "pos": "verb", "text": "寝ます", "zh": "睡觉", "features": { "reading": "ねます", "pitch": 2 }, "noteZh": "辞书形 寝る(二类动词)。也有“躺下”的意思。" },
+        { "id": "ja.hajimaru", "kind": "word", "pos": "verb", "text": "始まります", "zh": "开始", "features": { "reading": "はじまります", "pitch": 5 }, "noteZh": "授業が 始まります(开始上课):开始的是事情,用 が。辞书形 始まる(一类动词)。" },
+        { "id": "ja.owaru", "kind": "word", "pos": "verb", "text": "終わります", "zh": "结束", "features": { "reading": "おわります", "pitch": 4 }, "noteZh": "授業が 終わります(下课)。辞书形 終わる(一类动词)。" },
+        { "id": "ja.jugyou", "kind": "word", "pos": "noun", "text": "授業", "zh": "课;上课", "features": { "reading": "じゅぎょう", "pitch": 1 }, "noteZh": "授業 = 课、上课,不是“授予”的意思。授業が あります = 有课。" },
+        { "id": "ja.mainichi", "kind": "word", "pos": "noun", "text": "毎日", "zh": "每天", "features": { "reading": "まいにち", "pitch": 1 }, "noteZh": "毎日、毎週、毎朝 后面不加 に:毎日 7時に 起きます。" },
+        { "id": "ja.kara_p", "kind": "word", "pos": "particle", "text": "から", "zh": "从……(起点)", "features": {}, "noteZh": "表示起点:9時から(从 9 点起)、中国から(从中国)。" },
+        { "id": "ja.made_p", "kind": "word", "pos": "particle", "text": "まで", "zh": "到……(终点)", "features": {}, "noteZh": "表示终点:12時まで(到 12 点)。から〜まで 常成对用。" },
+        { "id": "ja.ni_p", "kind": "word", "pos": "particle", "text": "に", "zh": "在……(具体的时间点)", "features": {}, "noteZh": "具体钟点、日期、星期后面加 に:7時に 起きます、日曜日に 行きます;毎日、今日、明日 不加。に 还表示目的地、存在的地点(第 6 单元)。" }
+      ],
+      "reviewItems": ["ja.ima", "ja.ji", "ja.han", "ja.asa"]
+    },
+    {
+      "id": "ja.a1u5.l03", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105030,
+      "titleZh": "打工面试:星期几能来?", "goalZh": "会说星期几,能在面试时说自己哪几天、几点到几点有空",
+      "canDoZh": "能说今天星期几;能在打工面试时说自己哪几天、几点到几点能上班",
+      "scenarioZh": "林雨想打工,去车站附近的咖啡馆面试。森店长:リンさんは 留学生ですね。授業は 何曜日ですか。—月曜日から 金曜日までです。店长:土曜日と 日曜日は 大丈夫ですか。—はい、大丈夫です。—何時から 何時までですか。—9時から 5時までです。店长:今日は ありがとうございました。课文 10–12 句;何曜日 用 何 + 曜日 组成(“打工”这个词第 5 课才学,面试时不用说)。说话人:mori、rin。",
+      "grammarFocusZh": "星期的说法:日语用“月火水木金土日”(七曜),要整体记,读音:月 げつ、火 か、水 すい、木 もく、金 きん、土 ど、日 にち;何曜日ですか(星期几?);今日は 水曜日です;星期作时间点时加 に:土曜日に 行きます(行きます 第 5 课学)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.getsuyoubi", "kind": "word", "pos": "noun", "text": "月曜日", "zh": "星期一", "features": { "reading": "げつようび", "pitch": 3 }, "noteZh": "日语的星期用“月火水木金土日”,要整体记;曜 读 よう(长音)。" },
+        { "id": "ja.kayoubi", "kind": "word", "pos": "noun", "text": "火曜日", "zh": "星期二", "features": { "reading": "かようび", "pitch": 2 }, "noteZh": "火 在这里读 か。" },
+        { "id": "ja.suiyoubi", "kind": "word", "pos": "noun", "text": "水曜日", "zh": "星期三", "features": { "reading": "すいようび", "pitch": 3 }, "noteZh": "水 在这里读 すい(音读),单独的“水”读 みず(训读)。" },
+        { "id": "ja.mokuyoubi", "kind": "word", "pos": "noun", "text": "木曜日", "zh": "星期四", "features": { "reading": "もくようび", "pitch": 3 }, "noteZh": "木 在这里读 もく。" },
+        { "id": "ja.kinyoubi", "kind": "word", "pos": "noun", "text": "金曜日", "zh": "星期五", "features": { "reading": "きんようび", "pitch": 3 }, "noteZh": "金 在这里读 きん。" },
+        { "id": "ja.doyoubi", "kind": "word", "pos": "noun", "text": "土曜日", "zh": "星期六", "features": { "reading": "どようび", "pitch": 2 }, "noteZh": "土 在这里读 ど。" },
+        { "id": "ja.nichiyoubi", "kind": "word", "pos": "noun", "text": "日曜日", "zh": "星期日", "features": { "reading": "にちようび", "pitch": 3 }, "noteZh": "日 在这里读 にち。" },
+        { "id": "ja.kyou", "kind": "word", "pos": "noun", "text": "今日", "zh": "今天", "features": { "reading": "きょう", "pitch": 1 }, "noteZh": "熟字训:两个字合起来读 きょう(きょ 是拗音,う 是长音)。今日 后面不加 に。" },
+        { "id": "ja.youbi", "kind": "word", "pos": "noun", "text": "曜日", "zh": "星期(……曜日)", "features": { "reading": "ようび" }, "noteZh": "何曜日(なんようび)= 星期几;曜日 前面加“月火水木金土日”。" },
+        { "id": "ja.tenchou", "kind": "word", "pos": "noun", "text": "店長", "zh": "店长", "features": { "reading": "てんちょう", "pitch": 1 }, "noteZh": "称呼店长直接说 店長 就可以。ちょう 是拗音 + 长音。" }
+      ],
+      "reviewItems": ["ja.kara_p", "ja.made_p", "ja.nani", "ja.ryuugakusei"]
+    },
+    {
+      "id": "ja.a1u5.l04", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105040,
+      "titleZh": "几月几号?生日", "goalZh": "会说月份和日期,能问、能说生日",
+      "canDoZh": "能说今天几月几号,能问别人的生日,说自己的生日",
+      "scenarioZh": "智友的生日快到了,林雨在日历前问她:ジウさんの 誕生日は いつですか。—5月10日(とおか)です。—そうですか!今日は 5月3日(みっか)です。林雨也说自己的生日:わたしの 誕生日は 11月1日(ついたち)です。两人商量给智友办个小 パーティー。课文 8–10 句;日期只用本课教的 1–5 号、10 号,以及“数字 + 日(にち)”的日期(11 号以后,14、20、24 号除外)。说话人:rin、jiu。",
+      "grammarFocusZh": "月份“数字 + 月(がつ)”:4月 しがつ、7月 しちがつ、9月 くがつ;1–10 号用日语固有读法(ついたち、ふつか、みっか、よっか、いつか……とおか;6–9 号 むいか、なのか、ようか、ここのか 先认识),11 号以后一般是“数字 + 日(にち)”,但 14 日 じゅうよっか、20 日 はつか、24 日 にじゅうよっか 特殊;“N は いつですか”;日期顺序和中文一样:年 → 月 → 日",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.gatsu", "kind": "word", "pos": "num", "text": "月", "zh": "……月(月份)", "features": { "reading": "がつ" }, "noteZh": "1月 いちがつ……;4月 しがつ、7月 しちがつ、9月 くがつ。" },
+        { "id": "ja.nichi", "kind": "word", "pos": "num", "text": "日", "zh": "……日 / 号", "features": { "reading": "にち" }, "noteZh": "11日 じゅういちにち……;但 14日 じゅうよっか、20日 はつか、24日 にじゅうよっか 特殊。" },
+        { "id": "ja.tanjoubi", "kind": "word", "pos": "noun", "text": "誕生日", "zh": "生日", "features": { "reading": "たんじょうび", "pitch": 3 }, "noteZh": "生日快乐:誕生日 おめでとう(ございます)。" },
+        { "id": "ja.itsu", "kind": "word", "pos": "pron", "text": "いつ", "zh": "什么时候", "features": { "pitch": 1 }, "noteZh": "问时间:誕生日は いつですか。" },
+        { "id": "ja.tsuitachi", "kind": "word", "pos": "noun", "text": "ついたち", "zh": "1 号", "alt": ["一日"], "features": {}, "noteZh": "汉字写作 一日,和“一天”(いちにち)写法相同、读法不同。" },
+        { "id": "ja.futsuka", "kind": "word", "pos": "noun", "text": "ふつか", "zh": "2 号", "alt": ["二日"], "features": {}, "noteZh": "汉字写作 二日;也有“两天”的意思。" },
+        { "id": "ja.mikka", "kind": "word", "pos": "noun", "text": "みっか", "zh": "3 号", "alt": ["三日"], "features": {}, "noteZh": "汉字写作 三日;有促音:み・っ・か。" },
+        { "id": "ja.yokka", "kind": "word", "pos": "noun", "text": "よっか", "zh": "4 号", "alt": ["四日"], "features": {}, "noteZh": "汉字写作 四日;有促音。和 8 号 ようか 很像,注意区分。" },
+        { "id": "ja.itsuka", "kind": "word", "pos": "noun", "text": "いつか", "zh": "5 号", "alt": ["五日"], "features": {}, "noteZh": "汉字写作 五日。和 いつ(什么时候)不同。" },
+        { "id": "ja.tooka", "kind": "word", "pos": "noun", "text": "とおか", "zh": "10 号", "alt": ["十日"], "features": {}, "noteZh": "汉字写作 十日;とお 是长音。" }
+      ],
+      "reviewItems": ["ja.kyou", "ja.paatii", "ja.sou", "ja.no_p"]
+    },
+    {
+      "id": "ja.a1u5.l05", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105050,
+      "titleZh": "周末一起去看电影吧", "goalZh": "会用 V ませんか 邀请、用 V ましょう 回应,委婉地拒绝并改约时间",
+      "canDoZh": "能约朋友周末一起做什么,能接受邀请,也能委婉地拒绝、改约时间",
+      "scenarioZh": "星期五,咲约林雨:リンさん、週末 いっしょに 映画を 見ませんか。—いいですね!明日ですか。—はい、明日の 午後です。—すみません、明日は ちょっと……アルバイトが あります。咲:日曜日は?—日曜日は 大丈夫です。咲:日曜日に 行きましょう!最后确认:日曜日の 2時ですね。—はい!课文 10–12 句,只用学过的词。说话人:saki、rin。",
+      "grammarFocusZh": "邀请:V ませんか(要不要一起……?)比 V ますか 更客气、更像邀请;回应:いいですね(好啊)/ V ましょう(……吧,一起做);委婉拒绝:すみません、〜は ちょっと…(话不说完);いっしょに 放在动词前;“N が あります”表示有某事(东西、事情用 あります,人和动物用 います);行きます 的目的地第 6 单元学(へ / に)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.shuumatsu", "kind": "word", "pos": "noun", "text": "週末", "zh": "周末", "features": { "reading": "しゅうまつ", "pitch": 0 }, "noteZh": "週末 = 土曜日と 日曜日。しゅう 是拗音 + 长音。" },
+        { "id": "ja.issho_ni", "kind": "word", "pos": "adv", "text": "いっしょに", "zh": "一起", "alt": ["一緒に"], "features": { "pitch": 0 }, "noteZh": "汉字写作 一緒に。放在动词前:いっしょに 行きましょう。" },
+        { "id": "ja.eiga", "kind": "word", "pos": "noun", "text": "映画", "zh": "电影", "features": { "reading": "えいが" }, "noteZh": "映画を 見ます = 看电影;映画館(えいがかん)= 电影院。" },
+        { "id": "ja.miru", "kind": "word", "pos": "verb", "text": "見ます", "zh": "看", "features": { "reading": "みます", "pitch": 2 }, "noteZh": "辞书形 見る(二类动词)。看电影、看电视用 見ます,看书用 読みます(第 8 单元)。" },
+        { "id": "ja.iku", "kind": "word", "pos": "verb", "text": "行きます", "zh": "去", "features": { "reading": "いきます", "pitch": 3 }, "noteZh": "辞书形 行く(一类动词)。目的地用 へ / に(第 6 单元)。" },
+        { "id": "ja.ii", "kind": "word", "pos": "adj", "text": "いい", "zh": "好;可以", "features": { "pitch": 1 }, "noteZh": "いいですね(好啊!接受邀请时说)。否定是 よくないです(特殊变化)。" },
+        { "id": "ja.chotto", "kind": "word", "pos": "adv", "text": "ちょっと", "zh": "有点儿;(委婉拒绝)不太方便", "features": { "pitch": 1 }, "noteZh": "拒绝时说 〜は ちょっと…,话不说完,对方就明白了。ちょ 是拗音,っ 是促音。" },
+        { "id": "ja.aru", "kind": "word", "pos": "verb", "text": "あります", "zh": "有;在(东西、事情)", "features": { "pitch": 3 }, "noteZh": "东西、事情用 あります,人和动物用 います:アルバイトが あります(有打工)。辞书形 ある(一类动词)。" },
+        { "id": "ja.ashita", "kind": "word", "pos": "noun", "text": "明日", "zh": "明天", "features": { "reading": "あした", "pitch": 3 }, "noteZh": "熟字训:两个字合起来读 あした。明日 后面不加 に。" },
+        { "id": "ja.arubaito", "kind": "word", "pos": "noun", "text": "アルバイト", "zh": "打工", "features": { "pitch": 3 }, "noteZh": "来自德语 Arbeit,口语常说 バイト。在日本,留学生打工要先办“资格外活动许可”。" }
+      ],
+      "reviewItems": ["ja.doyoubi", "ja.nichiyoubi", "ja.ji", "ja.daijoubu"]
+    },
+    {
+      "id": "ja.a1u5.l08", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105080,
+      "titleZh": "单元复习:第一天打工", "goalZh": "把钟点、星期、日期和 から / まで 串起来,听懂工作安排",
+      "canDoZh": "能听懂打工的排班和工作时间,说出自己哪天上班、哪天休息",
+      "scenarioZh": "林雨被录用了!第一天去喫茶店上班,森店长给她讲排班:リンさんの 仕事は 毎週 土曜日と 日曜日です。9時から 5時までです。12時から 1時までは 休みです。林雨确认:土曜日は 9時からですね。店长介绍店里的营业时间:喫茶店は 朝 8時から 夜 9時までです。最后店长填员工表,问林雨的生日:誕生日は いつですか。—11月1日です。对话 12–14 句,把本单元的钟点、星期、日期、から / まで 都用上。说话人:mori、rin。",
+      "grammarFocusZh": "复习:〜時〜分、から / まで、に(时间点)、星期、日期;“N は 休みです”(……休息);毎週 + 星期:毎週 土曜日(每周六),不加 に",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.kissaten", "kind": "word", "pos": "noun", "text": "喫茶店", "zh": "咖啡馆(老式)", "features": { "reading": "きっさてん" }, "noteZh": "喫茶店 = 咖啡馆,多指老式的;“喫”是吃、喝的意思。有促音:き・っ・さ・て・ん。" },
+        { "id": "ja.yasumi", "kind": "word", "pos": "noun", "text": "休み", "zh": "休息;休息日;假期", "features": { "reading": "やすみ", "pitch": 3 }, "noteZh": "今日は 休みです(今天休息 / 放假)。" },
+        { "id": "ja.maishuu", "kind": "word", "pos": "noun", "text": "毎週", "zh": "每周", "features": { "reading": "まいしゅう", "pitch": 0 }, "noteZh": "毎週 土曜日(每周六),后面不加 に。" },
+        { "id": "ja.shigoto", "kind": "word", "pos": "noun", "text": "仕事", "zh": "工作", "features": { "reading": "しごと", "pitch": 0 }, "noteZh": "仕事は 何ですか(做什么工作?)。" }
+      ],
+      "reviewItems": ["ja.arubaito", "ja.tenchou", "ja.kara_p", "ja.made_p"]
+    }
+  ]
+}

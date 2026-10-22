@@ -1,0 +1,124 @@
+{
+  "lang": "ja",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-8 我的一天与周末", "cefr": "A1", "themeZh": "7 月,第一学期快结束了:合租房里出门、回家的问候,按时间顺序说自己的一天,聊上周末做了什么、平时的爱好,和朋友去海边玩并写日记,最后写短文回顾在东京的几个月。V ました / V ませんでした、い形容词过去形(楽しかったです)、N を します、それから、ごろ、いつも / よく / ときどき / あまり / ぜんぜん、て形入门(先……然后……)。" }
+  ],
+  "lessons": [
+    {
+      "id": "ja.a1u8.l01", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108010,
+      "titleZh": "出门和回家", "goalZh": "会用出门、回家的固定说法,说一日三餐",
+      "canDoZh": "能用出门、回家的固定说法和家里人打招呼,说早饭、午饭、晚饭吃什么",
+      "scenarioZh": "7 月的一个工作日,合租房的早上。林雨:おはようございます。大家さん:おはよう。朝ごはんは?—パンと コーヒーです。出门:いってきます!—いってらっしゃい!晚上回来:ただいま。—おかえりなさい。大家さん:晩ごはんを 食べますか。—はい、食べます。睡前:シャワーを 浴びます。おやすみなさい。课文 10–12 句,不用过去形(第 3 课才学)。说话人:rin、kobayashi、jiu。",
+      "grammarFocusZh": "出门 / 回家的固定说法成对用:いってきます ↔ いってらっしゃい、ただいま ↔ おかえりなさい(家人、室友之间每天说);朝ごはん / 昼ごはん / 晩ごはん(ご飯 = 饭);洗淋浴说 シャワーを 浴びます",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.ittekimasu", "kind": "phrase", "pos": "phrase", "text": "いってきます", "zh": "我出门了", "alt": ["行ってきます"], "features": {}, "noteZh": "出门时对家里的人说;っ 是促音。" },
+        { "id": "ja.itterasshai", "kind": "phrase", "pos": "phrase", "text": "いってらっしゃい", "zh": "路上小心;慢走", "alt": ["行ってらっしゃい"], "features": {}, "noteZh": "回应 いってきます;っしゃ 是促音 + 拗音。" },
+        { "id": "ja.tadaima", "kind": "phrase", "pos": "phrase", "text": "ただいま", "zh": "我回来了", "features": {}, "noteZh": "回到家时说。" },
+        { "id": "ja.okaerinasai", "kind": "phrase", "pos": "phrase", "text": "おかえりなさい", "zh": "你回来啦", "alt": ["おかえり"], "features": {}, "noteZh": "回应 ただいま;家人之间常说 おかえり。" },
+        { "id": "ja.asagohan", "kind": "word", "pos": "noun", "text": "朝ごはん", "zh": "早饭", "alt": ["朝ご飯"], "features": { "reading": "あさごはん", "pitch": 3 }, "noteZh": "也写作 朝ご飯。朝ごはんは?(早饭吃什么?)" },
+        { "id": "ja.hirugohan", "kind": "word", "pos": "noun", "text": "昼ごはん", "zh": "午饭", "alt": ["昼ご飯"], "features": { "reading": "ひるごはん", "pitch": 3 }, "noteZh": "也写作 昼ご飯。" },
+        { "id": "ja.bangohan", "kind": "word", "pos": "noun", "text": "晩ごはん", "zh": "晚饭", "alt": ["晩ご飯"], "features": { "reading": "ばんごはん", "pitch": 3 }, "noteZh": "也写作 晩ご飯;也说 夕ごはん(ゆうごはん)。" },
+        { "id": "ja.shawaa", "kind": "word", "pos": "noun", "text": "シャワー", "zh": "淋浴", "features": { "pitch": 1 }, "noteZh": "シャワーを 浴びます(洗淋浴);泡澡说 お風呂に 入ります(以后学)。" },
+        { "id": "ja.abiru", "kind": "word", "pos": "verb", "text": "浴びます", "zh": "淋(浴)", "features": { "reading": "あびます", "pitch": 3 }, "noteZh": "辞书形 浴びる(二类动词),一般和 シャワー 搭配。" }
+      ],
+      "reviewItems": ["ja.ohayou_gozaimasu", "ja.oyasuminasai", "ja.gohan", "ja.koohii"]
+    },
+    {
+      "id": "ja.a1u8.l02", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108020,
+      "titleZh": "我的一天", "goalZh": "会按时间顺序说自己一天做什么,用 それから 连接、用 ごろ 说大概的时间",
+      "canDoZh": "能按时间顺序说自己的一天:几点左右起床、上课、学习、打工、休息",
+      "scenarioZh": "田中老师让大家说说自己的一天。林雨:わたしは いつも 7時半ごろ 起きます。朝ごはんを 食べます。それから 学校へ 行きます。午前は 授業です。午後は 図書館で 宿題を します。日本語を 勉強します。土曜日と 日曜日は 喫茶店で 働きます。夜は テレビを 見ます。智友:わたしは 友だちと 日本語で 話します。月曜日は 授業を 休みます(请假)。课文 10–12 句,按时间顺序。说话人:tanaka、rin、jiu。",
+      "grammarFocusZh": "一天的顺序:それから(然后)连接两个句子;“时间 + ごろ”(……点左右),ごろ 后面的 に 可以省略;いつも(总是)放在句首或动词前;“地点 で V ます”复习:図書館で 勉強します、喫茶店で 働きます;“语言 で 話します”(用某种语言说),“人 と 話します”(和某人说);宿題を します(做作业)",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.benkyousuru", "kind": "word", "pos": "verb", "text": "勉強します", "zh": "学习", "features": { "reading": "べんきょうします", "pitch": 6 }, "noteZh": "勉強 = 学习,不是中文“勉强”的意思:日本語を 勉強します。辞书形 勉強する。" },
+        { "id": "ja.hataraku", "kind": "word", "pos": "verb", "text": "働きます", "zh": "工作;打工", "features": { "reading": "はたらきます", "pitch": 5 }, "noteZh": "地点用 で:喫茶店で 働きます。辞书形 働く(一类动词)。" },
+        { "id": "ja.yasumu", "kind": "word", "pos": "verb", "text": "休みます", "zh": "休息;请假", "features": { "reading": "やすみます", "pitch": 4 }, "noteZh": "不去上课、请假也说 休みます:授業を 休みます。辞书形 休む(一类动词)。" },
+        { "id": "ja.hanasu", "kind": "word", "pos": "verb", "text": "話します", "zh": "说;谈", "features": { "reading": "はなします", "pitch": 4 }, "noteZh": "日本語で 話します(用日语说)、友だちと 話します(和朋友聊)。辞书形 話す(一类动词)。" },
+        { "id": "ja.shukudai", "kind": "word", "pos": "noun", "text": "宿題", "zh": "作业", "features": { "reading": "しゅくだい", "pitch": 0 }, "noteZh": "宿題を します(做作业)。しゅく 是拗音。" },
+        { "id": "ja.toshokan", "kind": "word", "pos": "noun", "text": "図書館", "zh": "图书馆", "features": { "reading": "としょかん", "pitch": 2 }, "noteZh": "図書館で 勉強します。図書 = 图书。" },
+        { "id": "ja.itsumo", "kind": "word", "pos": "adv", "text": "いつも", "zh": "总是;平时", "features": { "pitch": 1 }, "noteZh": "いつも 7時ごろ 起きます(平时 7 点左右起床)。" },
+        { "id": "ja.sorekara", "kind": "word", "pos": "conj", "text": "それから", "zh": "然后", "features": { "pitch": 0 }, "noteZh": "用在两个句子之间:朝ごはんを 食べます。それから 学校へ 行きます。" },
+        { "id": "ja.goro", "kind": "word", "pos": "noun", "text": "ごろ", "zh": "……左右(时间点)", "features": {}, "noteZh": "接在时间后面:7時ごろ(7 点左右)。只用于时间点;“大约多久”用 ぐらい(以后学)。" },
+        { "id": "ja.terebi", "kind": "word", "pos": "noun", "text": "テレビ", "zh": "电视", "features": { "pitch": 1 }, "noteZh": "テレビを 見ます(看电视)。" }
+      ],
+      "reviewItems": ["ja.okiru", "ja.mainichi", "ja.de_p", "ja.kissaten"]
+    },
+    {
+      "id": "ja.a1u8.l03", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108030,
+      "titleZh": "上周末做了什么?", "goalZh": "会用动词过去形说做过什么、没做什么,用“楽しかったです”说开心",
+      "canDoZh": "能说昨天、上周末做了什么、没做什么,以及玩得开不开心",
+      "scenarioZh": "星期一,咲问林雨周末做了什么:リンさん、週末は 何を しましたか。—土曜日は 喫茶店で 働きました。日曜日は 掃除と 洗濯を しました。それから 公園を 散歩しました。咲:わたしは 買い物を しました。楽しかったです。健太:わたしは 何も しませんでした。昨日は 家で 寝ました!课文 10–12 句。说话人:saki、rin、kenta。",
+      "grammarFocusZh": "动词过去形:V ます → V ました,V ません → V ませんでした;週末は 何を しましたか;“N を します”:買い物を します、掃除を します(名词 + します 构成很多动作);何も + 否定 = 什么都没……:何も しませんでした;い形容词过去形 楽しい → 楽しかったです(先当固定说法用,规则以后系统学);公園を 散歩します(经过的地方用 を)",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.kinou", "kind": "word", "pos": "noun", "text": "昨日", "zh": "昨天", "features": { "reading": "きのう", "pitch": 2 }, "noteZh": "熟字训:读 きのう。昨日 后面不加 に。" },
+        { "id": "ja.senshuu", "kind": "word", "pos": "noun", "text": "先週", "zh": "上周", "features": { "reading": "せんしゅう", "pitch": 0 }, "noteZh": "先週 = 上周,来週(らいしゅう)= 下周:日语的“先”是“之前的”,“来”是“下一个”。" },
+        { "id": "ja.soujisuru", "kind": "word", "pos": "verb", "text": "掃除します", "zh": "打扫", "features": { "reading": "そうじします", "pitch": 5 }, "noteZh": "辞书形 掃除する。部屋を 掃除します(打扫房间)。" },
+        { "id": "ja.sentakusuru", "kind": "word", "pos": "verb", "text": "洗濯します", "zh": "洗衣服", "features": { "reading": "せんたくします", "pitch": 6 }, "noteZh": "洗濯 = 洗衣服;せんたく 听起来像中文“选择”,意思完全不同。辞书形 洗濯する。" },
+        { "id": "ja.kaimono", "kind": "word", "pos": "noun", "text": "買い物", "zh": "购物", "features": { "reading": "かいもの", "pitch": 0 }, "noteZh": "買い物を します(购物)。" },
+        { "id": "ja.sanpo", "kind": "word", "pos": "noun", "text": "散歩", "zh": "散步", "features": { "reading": "さんぽ", "pitch": 0 }, "noteZh": "公園を 散歩します(在公园散步):经过的地方用 を。" },
+        { "id": "ja.nanimo", "kind": "word", "pos": "adv", "text": "何も", "zh": "什么都(不)……", "features": { "reading": "なにも" }, "noteZh": "后面接否定:何も しませんでした(什么都没做)。" },
+        { "id": "ja.tanoshii", "kind": "word", "pos": "adj", "text": "楽しい", "zh": "开心;愉快", "features": { "reading": "たのしい", "pitch": 3 }, "noteZh": "自己觉得开心:楽しかったです(玩得很开心);おもしろい 是事物“有趣”。" }
+      ],
+      "reviewItems": ["ja.shuumatsu", "ja.suru", "ja.kouen", "ja.neru"]
+    },
+    {
+      "id": "ja.a1u8.l04", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108040,
+      "titleZh": "你常做什么?说说爱好", "goalZh": "会说自己的爱好,用频率副词说常做、有时做、不太做什么",
+      "canDoZh": "能说自己的爱好,能用“经常、有时、不太、完全不”说做某事的频率",
+      "scenarioZh": "动画研究会的活动上,健太和林雨聊爱好。健太:リンさんの 趣味は 何ですか。—音楽です。よく 音楽を 聞きます。健太さんは?—アニメです!毎日 アニメを 見ます。林雨:本は 読みますか。—ときどき 読みます。林雨:わたしは あまり アニメを 見ません。健太:そうですか!わたしは ぜんぜん 勉強しません(笑)。课文 10–12 句。说话人:kenta、rin。",
+      "grammarFocusZh": "频率副词:いつも(总是)> よく(经常)> ときどき(有时)> あまり + 否定(不太)> ぜんぜん + 否定(完全不);“趣味は N です”;読みます(看书、看报、看漫画)和 見ます(看电影、电视、动画)的区别;聞きます 也有“问”的意思",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.yoku", "kind": "word", "pos": "adv", "text": "よく", "zh": "经常", "features": { "pitch": 1 }, "noteZh": "よく 見ます(常看)。" },
+        { "id": "ja.tokidoki", "kind": "word", "pos": "adv", "text": "ときどき", "zh": "有时", "alt": ["時々"], "features": { "pitch": 0 }, "noteZh": "汉字写作 時々。" },
+        { "id": "ja.amari", "kind": "word", "pos": "adv", "text": "あまり", "zh": "不太……(后接否定)", "features": { "pitch": 0 }, "noteZh": "后面接否定:あまり 見ません(不太看)。" },
+        { "id": "ja.zenzen", "kind": "word", "pos": "adv", "text": "ぜんぜん", "zh": "完全(不)……(后接否定)", "alt": ["全然"], "features": { "pitch": 0 }, "noteZh": "后面接否定:ぜんぜん わかりません(完全不懂)。汉字写作 全然。" },
+        { "id": "ja.hon", "kind": "word", "pos": "noun", "text": "本", "zh": "书", "features": { "reading": "ほん", "pitch": 1 }, "noteZh": "本を 読みます(看书)。" },
+        { "id": "ja.yomu", "kind": "word", "pos": "verb", "text": "読みます", "zh": "读;看(书)", "features": { "reading": "よみます", "pitch": 3 }, "noteZh": "看书、看报、看漫画用 読みます;看电影、电视、动画用 見ます。辞书形 読む(一类动词)。" },
+        { "id": "ja.ongaku", "kind": "word", "pos": "noun", "text": "音楽", "zh": "音乐", "features": { "reading": "おんがく", "pitch": 1 }, "noteZh": "音楽を 聞きます(听音乐)。" },
+        { "id": "ja.kiku", "kind": "word", "pos": "verb", "text": "聞きます", "zh": "听;问", "features": { "reading": "ききます", "pitch": 3 }, "noteZh": "音楽を 聞きます(听);先生に 聞きます(问老师)。辞书形 聞く(一类动词)。" },
+        { "id": "ja.shumi", "kind": "word", "pos": "noun", "text": "趣味", "zh": "爱好", "features": { "reading": "しゅみ", "pitch": 1 }, "noteZh": "趣味 = 爱好(hobby),比中文“趣味”的意思窄。趣味は 何ですか(爱好是什么?)。" },
+        { "id": "ja.anime", "kind": "word", "pos": "noun", "text": "アニメ", "zh": "动画", "features": {}, "noteZh": "日本动画;漫画是 マンガ / 漫画。" }
+      ],
+      "reviewItems": ["ja.itsumo", "ja.miru", "ja.suki", "ja.benkyousuru"]
+    },
+    {
+      "id": "ja.a1u8.l05", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108050,
+      "titleZh": "て形入门:去海边的一天", "goalZh": "认识动词的 て形,会用“V1て、V2ます”把两三个动作按先后连起来",
+      "canDoZh": "能用“先……然后……”把两三个动作连起来,讲一讲周末去海边玩了什么",
+      "scenarioZh": "7 月的一个周日,天气很好,林雨、咲、健太、智友坐电车去海边(江之岛,专有名词)。晚上林雨写日记给田中老师看:日曜日は いい 天気でした。とても 暑かったです。友だちと 電車で 海へ 行きました。海で 遊んで、写真を 撮りました。それから レストランで ご飯を 食べて、家へ 帰りました。とても 楽しかったです。课文 8–10 句:林雨读日记,咲、健太在旁边补一两句。说话人:rin、saki、kenta。",
+      "grammarFocusZh": "て形入门:“V1て、V2ます”表示先做 V1、再做 V2,时态看最后一个动词;て形的变法:二类动词去 ます 加 て(食べて、見て、起きて);一类动词看词尾:う・つ・る → って(会って、待って、撮って、帰って),ぶ・む → んで(遊んで、飲んで、読んで),く → いて(書いて,例外 行って),す → して(話して);する → して,来る → 来て(きて);本课只要求认出、会用学过的动词连句;名词 / な形容词的过去:いい 天気でした",
+      "skills": ["read", "write", "speak"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.toru", "kind": "word", "pos": "verb", "text": "撮ります", "zh": "拍(照片)", "features": { "reading": "とります", "pitch": 3 }, "noteZh": "写真を 撮ります(拍照)。辞书形 撮る(一类动词),て形 撮って。" },
+        { "id": "ja.asobu", "kind": "word", "pos": "verb", "text": "遊びます", "zh": "玩;(和朋友)出去玩", "features": { "reading": "あそびます", "pitch": 4 }, "noteZh": "成年人和朋友出去玩也说 遊びます。辞书形 遊ぶ(一类动词),て形 遊んで。" },
+        { "id": "ja.tenki", "kind": "word", "pos": "noun", "text": "天気", "zh": "天气", "features": { "reading": "てんき", "pitch": 1 }, "noteZh": "いい 天気ですね(天气真好)。" },
+        { "id": "ja.atsui", "kind": "word", "pos": "adj", "text": "暑い", "zh": "热(天气)", "features": { "reading": "あつい", "pitch": 2 }, "noteZh": "天气热用 暑い,东西烫用 熱い(同音);过去形 暑かったです。" },
+        { "id": "ja.natsu", "kind": "word", "pos": "noun", "text": "夏", "zh": "夏天", "features": { "reading": "なつ", "pitch": 2 }, "noteZh": "日本的夏天湿热,7–8 月有很多烟花大会。" },
+        { "id": "ja.umi", "kind": "word", "pos": "noun", "text": "海", "zh": "海;海边", "features": { "reading": "うみ", "pitch": 1 }, "noteZh": "海へ 行きます(去海边)。" },
+        { "id": "ja.kaku", "kind": "word", "pos": "verb", "text": "書きます", "zh": "写", "features": { "reading": "かきます", "pitch": 3 }, "noteZh": "日記を 書きます(写日记)。辞书形 書く(一类动词),て形 書いて。" },
+        { "id": "ja.nikki", "kind": "word", "pos": "noun", "text": "日記", "zh": "日记", "features": { "reading": "にっき", "pitch": 0 }, "noteZh": "有促音:に・っ・き。" }
+      ],
+      "reviewItems": ["ja.tanoshii", "ja.shashin", "ja.densha", "ja.sorekara"]
+    },
+    {
+      "id": "ja.a1u8.l08", "lang": "ja", "type": "reading", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108080,
+      "titleZh": "单元复习:我在东京的第一个学期", "goalZh": "把过去形、习惯和打算的说法串起来,读懂并写出一篇回顾短文",
+      "canDoZh": "能读懂并写出一篇 10 句左右的短文:回顾这几个月做了什么、现在的生活、暑假的打算",
+      "scenarioZh": "7 月底,别科第一学期结束,田中老师请大家写一篇短文回顾在东京的生活。林雨写:3月に 東京へ 来ました。日本語は ぜんぜん わかりませんでした。今は 友だちが たくさん います。毎週 喫茶店で 働きます。日曜日は 友だちと 遊びます。夏休みに 国へ 帰ります。家族に おみやげを 買いました。日本語の 勉強を がんばります!短文 10–12 句:用过去形回顾,用现在形说习惯和打算。说话人用 rin(第一人称)或 narrator。",
+      "grammarFocusZh": "复习:过去形 V ました / V ませんでした、い形容词过去形、て形连接、频率副词、それから;“时间 に V ました”:3月に 来ました;“国へ 帰ります”(回国);短文的结构:过去 → 现在 → 打算",
+      "skills": ["read", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.natsuyasumi", "kind": "word", "pos": "noun", "text": "夏休み", "zh": "暑假", "features": { "reading": "なつやすみ", "pitch": 3 }, "noteZh": "日本大学的暑假一般从 7 月底或 8 月初开始。" },
+        { "id": "ja.kuni", "kind": "word", "pos": "noun", "text": "国", "zh": "国家;祖国", "features": { "reading": "くに", "pitch": 0 }, "noteZh": "国へ 帰ります(回国)。" },
+        { "id": "ja.ganbaru", "kind": "word", "pos": "verb", "text": "がんばります", "zh": "努力;加油", "alt": ["頑張ります"], "features": { "pitch": 5 }, "noteZh": "汉字写作 頑張ります。がんばって!= 加油!(て形)。辞书形 がんばる。" },
+        { "id": "ja.takusan", "kind": "word", "pos": "adv", "text": "たくさん", "zh": "很多", "alt": ["沢山"], "features": {}, "noteZh": "友だちが たくさん います(有很多朋友)。" }
+      ],
+      "reviewItems": ["ja.kuru", "ja.kaeru", "ja.kazoku", "ja.omiyage"]
+    }
+  ]
+}

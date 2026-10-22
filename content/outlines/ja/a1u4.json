@@ -1,0 +1,123 @@
+{
+  "lang": "ja",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-4 吃喝", "cefr": "A1", "themeZh": "4 月底到 5 月,林雨开始自己解决一日三餐:便利店买午饭(要不要加热、要不要袋子)、面包店点数量、大学食堂、大家さん的晚饭、和朋友去家庭餐厅、周末一起包饺子。を / で、动词 ます 形的肯定和否定、N が 好きです、V たいです、N に します、ひとつ・ふたつ・みっつ、价格(円、百)。" }
+  ],
+  "lessons": [
+    {
+      "id": "ja.a1u4.l01", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104010,
+      "titleZh": "在便利店买午饭", "goalZh": "听懂便利店店员的常用问话,会说要还是不要",
+      "canDoZh": "能在便利店买东西:听懂“要加热吗”“要袋子吗”,并回答要还是不要",
+      "scenarioZh": "午休,林雨去学校旁边的便利店买便当。店员:いらっしゃいませ。……お弁当、温めますか。林雨没听清:すみません、もう一度 おねがいします。店员:温めますか。—はい、おねがいします。店员:袋は いりますか。—いいえ、大丈夫です。店员:ありがとうございました。(价格下一课才学,这一课店员不报价格。)课文 8–10 句。说话人:tenin_m、rin。",
+      "grammarFocusZh": "店员的问法“N、V ますか”(要……吗),ます 结尾表示礼貌;接受说 はい、おねがいします,婉拒说 いいえ、大丈夫です;没听清说 すみません、もう一度 おねがいします;“N は いりますか”(要不要 N);いらっしゃいませ、ありがとうございました 是店员的固定说法,听懂即可,不用回答",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.konbini", "kind": "word", "pos": "noun", "text": "コンビニ", "zh": "便利店", "features": { "pitch": 0 }, "noteZh": "コンビニエンスストア(convenience store)的简称。日本的便利店多数 24 小时营业,还能交费、寄快递。" },
+        { "id": "ja.irasshaimase", "kind": "phrase", "pos": "phrase", "text": "いらっしゃいませ", "zh": "欢迎光临", "features": {}, "noteZh": "店员对客人说的话,客人不用回答。っしゃ 有促音和拗音。" },
+        { "id": "ja.obentou", "kind": "word", "pos": "noun", "text": "お弁当", "zh": "盒饭;便当", "features": { "reading": "おべんとう", "pitch": 0 }, "noteZh": "お 是表示礼貌的前缀。便利店的便当可以请店员加热。" },
+        { "id": "ja.atatameru", "kind": "word", "pos": "verb", "text": "温めます", "zh": "加热", "features": { "reading": "あたためます", "pitch": 5 }, "noteZh": "便利店店员常问 お弁当、温めますか(便当要加热吗)。辞书形 温める(二类动词)。" },
+        { "id": "ja.onegaishimasu", "kind": "phrase", "pos": "phrase", "text": "おねがいします", "zh": "麻烦您了;请……", "alt": ["お願いします"], "features": {}, "noteZh": "请别人做事、接受别人的提议时说:はい、おねがいします(好的,麻烦了)。" },
+        { "id": "ja.fukuro", "kind": "word", "pos": "noun", "text": "袋", "zh": "袋子", "features": { "reading": "ふくろ", "pitch": 3 }, "noteZh": "日本的塑料购物袋要另外付钱,店员会问 袋は いりますか。" },
+        { "id": "ja.iru_need", "kind": "word", "pos": "verb", "text": "いります", "zh": "需要", "alt": ["要ります"], "features": { "pitch": 3 }, "noteZh": "辞书形 いる(要る,一类动词),和表示“在”的 います(居る)不是一个词。" },
+        { "id": "ja.daijoubu", "kind": "word", "pos": "adj", "text": "大丈夫", "zh": "没问题;(婉拒)不用了", "features": { "reading": "だいじょうぶ", "pitch": 3 }, "noteZh": "大丈夫 在日语里是“没问题、不要紧”,不是中文“男子汉”的意思。店员问要不要什么时说 大丈夫です,就是“不用了”。" },
+        { "id": "ja.mouichido", "kind": "word", "pos": "adv", "text": "もう一度", "zh": "再一次", "features": { "reading": "もういちど" }, "noteZh": "没听清时说 すみません、もう一度 おねがいします。" }
+      ],
+      "reviewItems": ["ja.sumimasen", "ja.hai", "ja.iie", "ja.arigatou_gozaimasu"]
+    },
+    {
+      "id": "ja.a1u4.l02", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104020,
+      "titleZh": "请给我两个这个", "goalZh": "会用“N を 数量 ください”买东西,问价格,听懂几百日元",
+      "canDoZh": "能指着东西说要哪个、要几个,能问价格,听懂几百日元的价格",
+      "scenarioZh": "早上,林雨在车站旁的面包店买早饭。林雨指着橱窗:これを ふたつ ください。店员:どれですか。—それです。いくらですか。—300円です。林雨又看到远处的点心:あれも ひとつ ください。店员报价时只报单价(“一共”第 7 单元才学)。课文 8–10 句。说话人:tenin、rin。",
+      "grammarFocusZh": "“N を ください”(请给我 N);数量放在 を 后面、动词前面:これを ふたつ ください;ひとつ・ふたつ・みっつ 是日语固有的数法,数东西用(よっつ 到 とお 见注释);いくらですか(多少钱);价格 = 数字 + 円,百 的音变:300 さんびゃく、600 ろっぴゃく、800 はっぴゃく",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.kudasai", "kind": "phrase", "pos": "phrase", "text": "ください", "zh": "请给我……", "features": {}, "noteZh": "N を ください(请给我 N)。只用于请人给东西;请人做事的说法以后学。" },
+        { "id": "ja.dore", "kind": "word", "pos": "pron", "text": "どれ", "zh": "哪个", "features": { "pitch": 1 }, "noteZh": "三个以上里选“哪一个”:どれですか。" },
+        { "id": "ja.hitotsu", "kind": "word", "pos": "num", "text": "ひとつ", "zh": "一个", "alt": ["一つ"], "features": { "pitch": 2 }, "noteZh": "ひとつ、ふたつ、みっつ、よっつ、いつつ、むっつ、ななつ、やっつ、ここのつ、とお:日语固有的数法,数一般的东西用,到 10 为止。" },
+        { "id": "ja.futatsu", "kind": "word", "pos": "num", "text": "ふたつ", "zh": "两个", "alt": ["二つ"], "features": { "pitch": 3 }, "noteZh": "これを ふたつ ください(这个要两个)。" },
+        { "id": "ja.mittsu", "kind": "word", "pos": "num", "text": "みっつ", "zh": "三个", "alt": ["三つ"], "features": { "pitch": 3 }, "noteZh": "有促音:み・っ・つ 3 拍。" },
+        { "id": "ja.ikura", "kind": "word", "pos": "pron", "text": "いくら", "zh": "多少钱", "features": { "pitch": 1 }, "noteZh": "これは いくらですか(这个多少钱?)。" },
+        { "id": "ja.wo_p", "kind": "word", "pos": "particle", "text": "を", "zh": "宾语助词(写作 を,读 o)", "features": {}, "noteZh": "写作 を,读 o:これを ください、パンを 食べます。单独朗读这个词条时要按 o 读。" },
+        { "id": "ja.en", "kind": "word", "pos": "noun", "text": "円", "zh": "日元", "features": { "reading": "えん", "pitch": 1 }, "noteZh": "日元的“円”读 えん,不读 yuan:100円(ひゃくえん)。" },
+        { "id": "ja.hyaku", "kind": "word", "pos": "num", "text": "百", "zh": "百", "features": { "reading": "ひゃく", "pitch": 2 }, "noteZh": "300 さんびゃく、600 ろっぴゃく、800 はっぴゃく 读音会变;100 就是 ひゃく,不说 いちひゃく。" },
+        { "id": "ja.pan", "kind": "word", "pos": "noun", "text": "パン", "zh": "面包", "features": { "pitch": 1 }, "noteZh": "来自葡萄牙语。" }
+      ],
+      "reviewItems": ["ja.kore", "ja.sore", "ja.are", "ja.mo_p"]
+    },
+    {
+      "id": "ja.a1u4.l03", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104030,
+      "titleZh": "在食堂:吃什么?喝什么?", "goalZh": "会用“N を V ます / V ません”说吃什么、喝什么,用 で 说在哪里吃",
+      "canDoZh": "能说自己吃什么、喝什么、不吃什么;能问别人“吃什么?”",
+      "scenarioZh": "中午,健太带林雨去大学食堂。健太:リンさんは 何を 食べますか。—魚を 食べます。健太さんは?—肉を 食べます。野菜は 食べません(笑)。健太:お茶を 飲みますか。—いいえ、水を 飲みます。健太问林雨平时在哪里吃午饭:大学で 食べます。课文 8–10 句。说话人:kenta、rin。",
+      "grammarFocusZh": "“N を V ます”(吃 / 喝 N),动词放在句末;否定 V ません:肉を 食べません;“何を V ますか”;“地点 で V ます”(在哪里做);ます 形是礼貌的说法,辞书形(食べる、飲む)以后再学",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.taberu", "kind": "word", "pos": "verb", "text": "食べます", "zh": "吃", "features": { "reading": "たべます", "pitch": 3 }, "noteZh": "辞书形 食べる(二类动词)。否定 食べません,过去 食べました(第 8 单元)。" },
+        { "id": "ja.nomu", "kind": "word", "pos": "verb", "text": "飲みます", "zh": "喝", "features": { "reading": "のみます", "pitch": 3 }, "noteZh": "辞书形 飲む(一类动词)。吃药也用 飲みます。" },
+        { "id": "ja.mizu", "kind": "word", "pos": "noun", "text": "水", "zh": "水(凉水)", "features": { "reading": "みず", "pitch": 0 }, "noteZh": "一般指凉水;热水叫 お湯(おゆ)。餐厅的水免费:水を ください。" },
+        { "id": "ja.ocha", "kind": "word", "pos": "noun", "text": "お茶", "zh": "茶;(日本)绿茶", "features": { "reading": "おちゃ", "pitch": 0 }, "noteZh": "お 是礼貌前缀;一般指日本绿茶。ちゃ 是拗音。" },
+        { "id": "ja.gohan", "kind": "word", "pos": "noun", "text": "ご飯", "zh": "米饭;饭", "features": { "reading": "ごはん", "pitch": 1 }, "noteZh": "既指米饭,也指一顿饭:朝ご飯 = 早饭。" },
+        { "id": "ja.niku", "kind": "word", "pos": "noun", "text": "肉", "zh": "肉", "features": { "reading": "にく", "pitch": 2 }, "noteZh": "牛肉 ぎゅうにく、猪肉 ぶたにく、鸡肉 とりにく。" },
+        { "id": "ja.sakana", "kind": "word", "pos": "noun", "text": "魚", "zh": "鱼", "features": { "reading": "さかな", "pitch": 0 }, "noteZh": "吃的鱼、活的鱼都叫 魚。" },
+        { "id": "ja.yasai", "kind": "word", "pos": "noun", "text": "野菜", "zh": "蔬菜", "features": { "reading": "やさい", "pitch": 0 }, "noteZh": "野菜 = 蔬菜,不是中文“野菜”(山野里的菜)。" },
+        { "id": "ja.de_p", "kind": "word", "pos": "particle", "text": "で", "zh": "在(动作发生的地点)", "features": {}, "noteZh": "表示动作发生的地方:大学で 食べます(在大学吃)。和表示“在哪里存在”的 に(第 6 单元)不同。" }
+      ],
+      "reviewItems": ["ja.nani", "ja.wo_p", "ja.daigaku"]
+    },
+    {
+      "id": "ja.a1u4.l04", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104040,
+      "titleZh": "大家さん的晚饭:真好吃!", "goalZh": "会说饭前饭后的礼节用语,夸饭菜好吃,说喜欢和不喜欢的味道",
+      "canDoZh": "能在饭桌上说“我开动了”“吃好了”,夸饭菜好吃,说自己喜欢和不喜欢吃什么",
+      "scenarioZh": "晚上,大家さん做了日本家常菜,请林雨和智友一起吃。大家さん:どうぞ。三人:いただきます!林雨:おいしいです!大家さん:リンさんは からい 料理が 好きですか。—いいえ。あまい 料理が 好きです。からい 料理は 嫌いです。智友:わたしは からい 料理が 好きです!吃完:ごちそうさまでした。大家さん可以笑着提醒 嫌い 当面说有点重。课文 10–12 句。说话人:kobayashi、rin、jiu。",
+      "grammarFocusZh": "“N が 好きです / 嫌いです”:喜欢、讨厌的对象用 が,不用 を;い形容词作谓语:おいしいです、からいです;い形容词直接修饰名词:あまい 料理;饭前 いただきます、饭后 ごちそうさまでした 是固定的礼节;嫌い 语气重,当面说别人做的菜要避免",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.itadakimasu", "kind": "phrase", "pos": "phrase", "text": "いただきます", "zh": "我开动了(饭前)", "features": {}, "noteZh": "饭前双手合十说,是对食物和做饭的人的感谢。" },
+        { "id": "ja.gochisousama", "kind": "phrase", "pos": "phrase", "text": "ごちそうさまでした", "zh": "我吃好了,谢谢款待(饭后)", "alt": ["ごちそうさま"], "features": {}, "noteZh": "饭后说;在餐厅吃完出门时对店员说也很自然。熟人之间可以只说 ごちそうさま。" },
+        { "id": "ja.oishii", "kind": "word", "pos": "adj", "text": "おいしい", "zh": "好吃;好喝", "alt": ["美味しい"], "features": { "pitch": 0 }, "noteZh": "形容味道好:この 料理、おいしいですね。" },
+        { "id": "ja.suki", "kind": "word", "pos": "adj", "text": "好き", "zh": "喜欢", "features": { "reading": "すき", "pitch": 2 }, "noteZh": "な形容词。N が 好きです(喜欢 N):用 が 不用 を。" },
+        { "id": "ja.kirai", "kind": "word", "pos": "adj", "text": "嫌い", "zh": "讨厌;不喜欢", "features": { "reading": "きらい", "pitch": 0 }, "noteZh": "な形容词,虽然以 い 结尾。语气很重,礼貌地说 あまり 好きじゃないです(第 8 单元学 あまり)。" },
+        { "id": "ja.amai", "kind": "word", "pos": "adj", "text": "あまい", "zh": "甜", "alt": ["甘い"], "features": { "pitch": 0 }, "noteZh": "汉字写作 甘い。" },
+        { "id": "ja.karai", "kind": "word", "pos": "adj", "text": "からい", "zh": "辣;咸", "alt": ["辛い"], "features": { "pitch": 2 }, "noteZh": "汉字写作 辛い(这个字还读 つらい,意思是难受)。からい 有时也指“咸”。" },
+        { "id": "ja.ryouri", "kind": "word", "pos": "noun", "text": "料理", "zh": "菜;做菜", "features": { "reading": "りょうり", "pitch": 1 }, "noteZh": "料理 = 菜肴、烹饪,不是中文“料理(处理)”的意思:日本料理 = 日本菜,中華料理 = 中国菜。" }
+      ],
+      "reviewItems": ["ja.douzo", "ja.ga_p", "ja.taberu"]
+    },
+    {
+      "id": "ja.a1u4.l05", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104050,
+      "titleZh": "在家庭餐厅点菜", "goalZh": "会看菜单点菜、点饮料,说“我要……”“我想吃……”",
+      "canDoZh": "能在餐厅看菜单点菜和饮料,能说“我要……”“我想吃……”",
+      "scenarioZh": "周六,咲、智友和林雨去车站附近的家庭餐厅。店员:いらっしゃいませ。3人ですか。—はい。三人看 メニュー:林雨:わたしは カレーに します。智友:ラーメンが 食べたいです。咲:わたしも ラーメンに します。点饮料:コーヒーを ふたつと ジュースを ひとつ ください。最后又加了 ケーキ。课文 10–12 句。说话人:tenin、saki、jiu、rin。",
+      "grammarFocusZh": "“N に します”(就要 N:点菜、做选择);“V たいです”(想做……):ラーメンが / を 食べたいです,たい 接在 ます 形去掉 ます 的部分后面,后面的变化和 い形容词一样;点几样东西:コーヒーを ふたつと ジュースを ひとつ ください;外来语的长音:メニュー、コーヒー、ケーキ",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.resutoran", "kind": "word", "pos": "noun", "text": "レストラン", "zh": "餐厅", "features": { "pitch": 1 }, "noteZh": "西式餐厅;家庭餐厅叫 ファミレス。" },
+        { "id": "ja.menyuu", "kind": "word", "pos": "noun", "text": "メニュー", "zh": "菜单", "features": { "pitch": 1 }, "noteZh": "ニュ 是拗音,ー 是长音:メ・ニュ・ー 3 拍。" },
+        { "id": "ja.raamen", "kind": "word", "pos": "noun", "text": "ラーメン", "zh": "拉面", "features": { "pitch": 1 }, "noteZh": "日本拉面源于中国的汤面,但味道很不一样。" },
+        { "id": "ja.karee", "kind": "word", "pos": "noun", "text": "カレー", "zh": "咖喱(饭)", "features": { "pitch": 0 }, "noteZh": "日本咖喱饭(カレーライス),日本人最爱的家常菜之一,一般不辣。" },
+        { "id": "ja.juusu", "kind": "word", "pos": "noun", "text": "ジュース", "zh": "果汁;甜饮料", "features": { "pitch": 1 }, "noteZh": "日语的 ジュース 泛指果汁、汽水等甜饮料。" },
+        { "id": "ja.koohii", "kind": "word", "pos": "noun", "text": "コーヒー", "zh": "咖啡", "features": { "pitch": 3 }, "noteZh": "两个长音:コ・ー・ヒ・ー 4 拍。" },
+        { "id": "ja.keeki", "kind": "word", "pos": "noun", "text": "ケーキ", "zh": "蛋糕", "features": { "pitch": 1 }, "noteZh": "西式蛋糕。" },
+        { "id": "ja.suru", "kind": "word", "pos": "verb", "text": "します", "zh": "做;(点菜时)要……", "features": { "pitch": 2 }, "noteZh": "最常用的不规则动词(辞书形 する)。N に します = 决定要 N:わたしは カレーに します。" }
+      ],
+      "reviewItems": ["ja.kudasai", "ja.hitotsu", "ja.futatsu", "ja.mo_p"]
+    },
+    {
+      "id": "ja.a1u4.l08", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104080,
+      "titleZh": "单元复习:一起包饺子", "goalZh": "把本单元的点餐、吃饭、喜好说法串起来,在一起做饭的场合自然地交流",
+      "canDoZh": "能在一起做饭、吃饭的场合用日语招呼大家、夸别人做得好、说自己喜欢吃什么",
+      "scenarioZh": "周日,林雨在合租房教大家包中国的水饺,咲和健太也来了。林雨:ぎょうざを 作ります!大家さん:わたしも 作りたいです。健太包得很难看,大家都笑了;大家さん包得很好,林雨:上手ですね!饺子煮好了,林雨:どうぞ。みんな:いただきます!健太:おいしい!最后聊各自喜欢什么馅(“馅”不教,用 肉、野菜 说)。对话 12–14 句,把本单元的 ください、を / が / で、食べます / 飲みます、好き、たい 都用上。说话人:rin、kobayashi、jiu、saki、kenta。",
+      "grammarFocusZh": "复习:N を V ます / V ません、N が 好きです、V たいです、N を 数量 ください;夸人说 上手ですね,被夸时谦虚地说 いいえ、まだまだです;日本的 ぎょうざ 多是煎饺,中国常吃的水饺日语叫 水餃子(すいぎょうざ)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "ja.gyouza", "kind": "word", "pos": "noun", "text": "ぎょうざ", "zh": "饺子", "alt": ["餃子", "ギョーザ"], "features": { "pitch": 0 }, "noteZh": "日本的 ぎょうざ 一般是煎饺(焼き餃子);中国常吃的水饺叫 水餃子。汉字写作 餃子。" },
+        { "id": "ja.tsukuru", "kind": "word", "pos": "verb", "text": "作ります", "zh": "做;制作", "features": { "reading": "つくります", "pitch": 4 }, "noteZh": "辞书形 作る(一类动词)。料理を 作ります(做菜)。" },
+        { "id": "ja.minna", "kind": "word", "pos": "pron", "text": "みんな", "zh": "大家", "features": { "pitch": 3 }, "noteZh": "中文的“大家”日语说 みんな(汉字 大家 读 おおや,是房东)。みんなで 食べます = 大家一起吃。" },
+        { "id": "ja.jouzu", "kind": "word", "pos": "adj", "text": "上手", "zh": "擅长;(做得)好", "features": { "reading": "じょうず", "pitch": 3 }, "noteZh": "な形容词。上手 = 擅长、做得好,不是中文“上手”的意思。夸别人说 上手ですね!不能用来夸自己。" }
+      ],
+      "reviewItems": ["ja.oishii", "ja.taberu", "ja.ryouri", "ja.itadakimasu"]
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "lang": "ja",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-6 城市与交通", "cefr": "A1", "themeZh": "5 月底到 6 月,林雨开始一个人在东京出门:在车站找厕所、看大家さん画的街区地图、去交番问路、和健太坐地铁去浅草、课上聊怎么上学、在车站和咲约见面。ここ / そこ / あそこ / どこ、この / あの、位置词、地点 に N が あります、へ、交通工具 + で、N に 乗ります / N を 降ります、来ます / 帰ります、〜分 / 〜時間 かかります。" }
+  ],
+  "lessons": [
+    {
+      "id": "ja.a1u6.l01", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106010,
+      "titleZh": "厕所在哪里?", "goalZh": "会用 ここ / そこ / あそこ / どこ 问地方、答地方",
+      "canDoZh": "能问厕所、车站、银行、邮局在哪里,听懂“这里 / 那里”的回答",
+      "scenarioZh": "周日,林雨和智友第一次去新宿(专有名词)。在车站里,林雨问站务员:すみません、トイレは どこですか。—あそこです。智友想去银行:銀行は どこですか。站务员指着林雨手里的地图:そこです。最后两人找邮局:郵便局は どこですか。—あそこです。课文 8–10 句。说话人:rin、jiu、ekiin。",
+      "grammarFocusZh": "ここ / そこ / あそこ / どこ:和 これ / それ / あれ / どれ 一样按“离谁近”分;“N は どこですか”(N 在哪里?),回答“N は ここ / そこ / あそこです”;问路先说 すみません;车站里问厕所、出口是最常用的句子",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 9,
+      "newItems": [
+        { "id": "ja.koko", "kind": "word", "pos": "pron", "text": "ここ", "zh": "这里", "features": { "pitch": 0 }, "noteZh": "说话人所在的地方。" },
+        { "id": "ja.soko", "kind": "word", "pos": "pron", "text": "そこ", "zh": "那里(离你近)", "features": { "pitch": 0 }, "noteZh": "听话人那边的地方。" },
+        { "id": "ja.asoko", "kind": "word", "pos": "pron", "text": "あそこ", "zh": "那里(离我们都远)", "features": { "pitch": 0 }, "noteZh": "离两个人都远的地方。" },
+        { "id": "ja.doko", "kind": "word", "pos": "pron", "text": "どこ", "zh": "哪里", "features": { "pitch": 1 }, "noteZh": "N は どこですか(N 在哪里?)。" },
+        { "id": "ja.toire", "kind": "word", "pos": "noun", "text": "トイレ", "zh": "厕所;洗手间", "features": { "pitch": 1 }, "noteZh": "更客气的说法是 お手洗い(おてあらい)。" },
+        { "id": "ja.eki", "kind": "word", "pos": "noun", "text": "駅", "zh": "车站", "features": { "reading": "えき", "pitch": 1 }, "noteZh": "电车、地铁的车站;公交车站叫 バス停(バスてい)。" },
+        { "id": "ja.ginkou", "kind": "word", "pos": "noun", "text": "銀行", "zh": "银行", "features": { "reading": "ぎんこう", "pitch": 0 }, "noteZh": "ぎん 后面是长音 こう:ぎ・ん・こ・う 4 拍。" },
+        { "id": "ja.yuubinkyoku", "kind": "word", "pos": "noun", "text": "郵便局", "zh": "邮局", "features": { "reading": "ゆうびんきょく", "pitch": 3 }, "noteZh": "日本的邮局也能存钱、寄包裹,标志是“〒”。" }
+      ],
+      "reviewItems": ["ja.kore", "ja.sore", "ja.are", "ja.sumimasen"]
+    },
+    {
+      "id": "ja.a1u6.l02", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106020,
+      "titleZh": "邮局在车站前面", "goalZh": "会用位置词说明东西在哪儿,用“地点 に N が あります”说某处有什么",
+      "canDoZh": "能说明一个地方在哪儿(车站前面、超市旁边、附近有……),看着简单的地图听懂别人的说明",
+      "scenarioZh": "大家さん给林雨画了一张附近的地图,一边画一边说:駅の 前に 郵便局が あります。スーパーは 郵便局の となりです。病院は 駅の 後ろです。ここの 近くに 公園が あります。林雨看着地图问:銀行は どこですか。—スーパーの 右です。课文 8–10 句。说话人:kobayashi、rin。",
+      "grammarFocusZh": "“N1 の 前 / 後ろ / 右 / 左 / となり / 近く”表示位置;“地点 に N が あります”(某处有 N)和“N は 地点です / 地点に あります”(N 在某处):新出现的东西用 が,已经在说的用 は;に 表示存在的地点,和动作地点的 で(第 4 单元)不同",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.mae", "kind": "word", "pos": "noun", "text": "前", "zh": "前面;……之前", "features": { "reading": "まえ", "pitch": 1 }, "noteZh": "駅の 前(车站前面);也表示时间上的“之前”(以后学)。" },
+        { "id": "ja.ushiro", "kind": "word", "pos": "noun", "text": "後ろ", "zh": "后面", "features": { "reading": "うしろ", "pitch": 0 }, "noteZh": "駅の 後ろ(车站后面)。" },
+        { "id": "ja.migi", "kind": "word", "pos": "noun", "text": "右", "zh": "右边", "features": { "reading": "みぎ", "pitch": 0 }, "noteZh": "右に 曲がります(往右拐,第 3 课)。" },
+        { "id": "ja.hidari", "kind": "word", "pos": "noun", "text": "左", "zh": "左边", "features": { "reading": "ひだり", "pitch": 0 }, "noteZh": "左に あります(在左边)。" },
+        { "id": "ja.tonari", "kind": "word", "pos": "noun", "text": "となり", "zh": "旁边;隔壁", "alt": ["隣"], "features": { "pitch": 0 }, "noteZh": "汉字写作 隣。紧挨着的旁边、隔壁:スーパーの となり。" },
+        { "id": "ja.chikaku", "kind": "word", "pos": "noun", "text": "近く", "zh": "附近", "features": { "reading": "ちかく" }, "noteZh": "ここの 近く(这附近)。近い 是形容词“近”(第 3 课),近く 是名词“附近”。" },
+        { "id": "ja.byouin", "kind": "word", "pos": "noun", "text": "病院", "zh": "医院", "features": { "reading": "びょういん", "pitch": 0 }, "noteZh": "びょういん(医院)和 びよういん(美容院)只差一个小 ょ,一定要读准。" },
+        { "id": "ja.kouen", "kind": "word", "pos": "noun", "text": "公園", "zh": "公园", "features": { "reading": "こうえん", "pitch": 0 }, "noteZh": "こう 是长音:こ・う・え・ん 4 拍。" },
+        { "id": "ja.suupaa", "kind": "word", "pos": "noun", "text": "スーパー", "zh": "超市", "features": { "pitch": 1 }, "noteZh": "スーパーマーケット 的简称。" }
+      ],
+      "reviewItems": ["ja.aru", "ja.ni_p", "ja.eki", "ja.doko"]
+    },
+    {
+      "id": "ja.a1u6.l03", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106030,
+      "titleZh": "在交番问路", "goalZh": "会在街上问路,听懂简单的指路,问远不远",
+      "canDoZh": "能在街上问路,听懂“沿着这条路一直走、在那个红绿灯往右拐”这样简单的指路,并问远不远",
+      "scenarioZh": "林雨要去咲家附近的さくら公园(专有名词),迷了路,走进交番问警察:すみません、さくら公園は どこですか。警察:この 道を まっすぐです。あの 信号を 右に 曲がります。公園は 左に あります。林雨:遠いですか。—いいえ、近いですよ。林雨:ありがとうございます。课文 8–10 句;日常指路常用 〜て 形(まっすぐ 行って……),A1 先用“まっすぐです”“右に 曲がります”这样的说法。说话人:rin、keikan。",
+      "grammarFocusZh": "この / その / あの / どの + 名词(这个 / 那个……):これ 单独用,この 后面一定接名词;路线:“N を まっすぐです”“N を 右 / 左に 曲がります”(拐弯的地点用 を,方向用 に);遠い / 近い 是 い形容词:遠いですか(远吗?);在日本迷路可以去 交番 问",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.kouban", "kind": "word", "pos": "noun", "text": "交番", "zh": "派出所;岗亭", "features": { "reading": "こうばん", "pitch": 0 }, "noteZh": "日本街头的小派出所,迷路、捡到东西都可以去。" },
+        { "id": "ja.michi", "kind": "word", "pos": "noun", "text": "道", "zh": "路;道路", "features": { "reading": "みち", "pitch": 0 }, "noteZh": "この 道を まっすぐです(沿着这条路一直走)。" },
+        { "id": "ja.massugu", "kind": "word", "pos": "adv", "text": "まっすぐ", "zh": "笔直;一直(往前)", "features": { "pitch": 3 }, "noteZh": "有促音:ま・っ・す・ぐ。" },
+        { "id": "ja.shingou", "kind": "word", "pos": "noun", "text": "信号", "zh": "红绿灯", "features": { "reading": "しんごう", "pitch": 0 }, "noteZh": "信号 = 红绿灯,不是手机的“信号”。日本人把绿灯叫 青信号(あおしんごう)。" },
+        { "id": "ja.magaru", "kind": "word", "pos": "verb", "text": "曲がります", "zh": "拐弯", "features": { "reading": "まがります", "pitch": 4 }, "noteZh": "“地点 を 方向 に 曲がります”:信号を 右に 曲がります。辞书形 曲がる(一类动词)。" },
+        { "id": "ja.tooi", "kind": "word", "pos": "adj", "text": "遠い", "zh": "远", "features": { "reading": "とおい", "pitch": 0 }, "noteZh": "とお 是长音(tō),不要读成 とい。" },
+        { "id": "ja.chikai", "kind": "word", "pos": "adj", "text": "近い", "zh": "近", "features": { "reading": "ちかい", "pitch": 2 }, "noteZh": "近い 是形容词“近”;“附近”说 近く。" },
+        { "id": "ja.kono", "kind": "word", "pos": "det", "text": "この", "zh": "这个……(后接名词)", "features": { "pitch": 0 }, "noteZh": "后面一定接名词:この 道(这条路)。单独说“这个”用 これ。" },
+        { "id": "ja.ano", "kind": "word", "pos": "det", "text": "あの", "zh": "那个……(后接名词)", "features": { "pitch": 0 }, "noteZh": "あの 信号(那个红绿灯)。也用来开口搭话:あのう、すみません。" }
+      ],
+      "reviewItems": ["ja.migi", "ja.hidari", "ja.doko", "ja.yo_p"]
+    },
+    {
+      "id": "ja.a1u6.l04", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106040,
+      "titleZh": "坐地铁去浅草", "goalZh": "会说坐什么车去哪里、在哪站换乘、在哪站下,听懂站台号",
+      "canDoZh": "能说坐什么车去哪里、在哪站换乘和下车,听懂站台号和车内广播的站名",
+      "scenarioZh": "星期天,健太带林雨去浅草。在车站:健太:浅草へ 地下鉄で 行きます。切符は?—あります。健太:3番線ですよ。车上广播报站:上野です。健太:上野で 乗り換えです。到了浅草:浅草で 降ります。(上野、浅草 是专有名词;广播只报站名,“下一站”不教。)课文 10–12 句。说话人:kenta、rin、anaunsu。",
+      "grammarFocusZh": "“地点 へ 行きます”(往……去),へ 写作 へ、读 e,和 に 基本可以互换;交通工具 + で:電車で、地下鉄で 行きます(で 的新用法:手段);“N に 乗ります”(乘坐的车用 に)、“N を 降ります”(下车用 を)——助词和中文思路不同,要成对记;“地点 で 乗り換えです”(在……换乘);〜番線(……号站台)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.densha", "kind": "word", "pos": "noun", "text": "電車", "zh": "电车;(城铁)列车", "features": { "reading": "でんしゃ" }, "noteZh": "日本的 JR、私铁等电车都叫 電車;地下的叫 地下鉄。しゃ 是拗音。" },
+        { "id": "ja.chikatetsu", "kind": "word", "pos": "noun", "text": "地下鉄", "zh": "地铁", "features": { "reading": "ちかてつ", "pitch": 0 }, "noteZh": "东京的地铁线路很多,按颜色和字母区分。" },
+        { "id": "ja.noru", "kind": "word", "pos": "verb", "text": "乗ります", "zh": "乘坐", "features": { "reading": "のります", "pitch": 3 }, "noteZh": "電車に 乗ります:乘坐的交通工具用 に,不用 を。辞书形 乗る(一类动词)。" },
+        { "id": "ja.oriru", "kind": "word", "pos": "verb", "text": "降ります", "zh": "下(车)", "features": { "reading": "おります", "pitch": 3 }, "noteZh": "電車を 降ります:下车用 を。辞书形 降りる(二类动词)。" },
+        { "id": "ja.norikae", "kind": "word", "pos": "noun", "text": "乗り換え", "zh": "换乘", "features": { "reading": "のりかえ", "pitch": 0 }, "noteZh": "上野で 乗り換えです(在上野换乘)。动词是 乗り換えます。" },
+        { "id": "ja.bansen", "kind": "word", "pos": "num", "text": "番線", "zh": "……号站台", "features": { "reading": "ばんせん" }, "noteZh": "3番線(3 号站台);问站台说 何番線ですか。" },
+        { "id": "ja.e_p", "kind": "word", "pos": "particle", "text": "へ", "zh": "往……(方向、目的地)", "features": {}, "noteZh": "写作 へ,读 e:浅草へ 行きます。和 に 基本可以互换。单独朗读这个词条时要按 e 读。" },
+        { "id": "ja.kippu", "kind": "word", "pos": "noun", "text": "切符", "zh": "车票", "features": { "reading": "きっぷ", "pitch": 0 }, "noteZh": "切符 = 纸质车票。日本大多用交通 IC 卡,也可以在售票机买 切符。有促音:き・っ・ぷ。" }
+      ],
+      "reviewItems": ["ja.iku", "ja.de_p", "ja.ni_p", "ja.aru"]
+    },
+    {
+      "id": "ja.a1u6.l05", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106050,
+      "titleZh": "你怎么来学校?", "goalZh": "会说怎么来、怎么回、要花多长时间",
+      "canDoZh": "能说自己怎么上学、要花多长时间,能问别人“怎么来的?”“要多久?”",
+      "scenarioZh": "别科课上,田中老师问大家怎么上学:リンさんは 何で 学校へ 来ますか。—自転車で 来ます。—何分 かかりますか。—15分 かかります。智友:わたしも 自転車です。泰国同学:わたしは 歩いて 来ます。老师:わたしは 電車と バスで 来ます。1時間 かかります。下课后大家各自回家:家へ 帰ります。课文 10–12 句;何で(なにで)用 何 + で 组成。说话人:tanaka、rin、jiu、kurasumeito。",
+      "grammarFocusZh": "“交通工具 + で 来ます / 行きます / 帰ります”,走路说 歩いて 来ます;何で 来ますか(怎么来的?);时长“数字 + 分 / 時間 + かかります”:15分 かかります、1時間 かかります(時 是几点,時間 是几小时);行きます / 来ます / 帰ります 的区别:帰ります 只用于回到自己的家、自己的国家",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.kuru", "kind": "word", "pos": "verb", "text": "来ます", "zh": "来", "features": { "reading": "きます", "pitch": 2 }, "noteZh": "辞书形 来る(くる,不规则动词)。第 2 单元的 から来ました 就是它的过去形。" },
+        { "id": "ja.kaeru", "kind": "word", "pos": "verb", "text": "帰ります", "zh": "回(家、国)", "features": { "reading": "かえります", "pitch": 4 }, "noteZh": "只用于回到自己的地方:家へ 帰ります、国へ 帰ります。辞书形 帰る(一类动词,虽然以 える 结尾)。" },
+        { "id": "ja.basu", "kind": "word", "pos": "noun", "text": "バス", "zh": "公交车", "features": { "pitch": 1 }, "noteZh": "公交车站叫 バス停(バスてい)。" },
+        { "id": "ja.jitensha", "kind": "word", "pos": "noun", "text": "自転車", "zh": "自行车", "features": { "reading": "じてんしゃ", "pitch": 2 }, "noteZh": "日本学生上学常骑自行车:自転車で 来ます。" },
+        { "id": "ja.aruite", "kind": "word", "pos": "adv", "text": "歩いて", "zh": "走着;步行", "features": { "reading": "あるいて", "pitch": 2 }, "noteZh": "动词 歩く(走路)的て形,当副词用:歩いて 来ます(走着来)。" },
+        { "id": "ja.ie", "kind": "word", "pos": "noun", "text": "家", "zh": "家;房子", "alt": ["うち"], "features": { "reading": "いえ", "pitch": 2 }, "noteZh": "口语说自己家常用 うち:うちへ 帰ります。" },
+        { "id": "ja.gakkou", "kind": "word", "pos": "noun", "text": "学校", "zh": "学校", "features": { "reading": "がっこう", "pitch": 0 }, "noteZh": "有促音和长音:が・っ・こ・う 4 拍。" },
+        { "id": "ja.jikan", "kind": "word", "pos": "noun", "text": "時間", "zh": "时间;……小时", "features": { "reading": "じかん", "pitch": 0 }, "noteZh": "“时间”和“……个小时”都用 時間:1時間 = 1 小时。注意 時(几点)和 時間(几小时)不同。" },
+        { "id": "ja.kakaru", "kind": "word", "pos": "verb", "text": "かかります", "zh": "花费(时间、钱)", "features": { "pitch": 4 }, "noteZh": "電車で 30分 かかります(坐电车要 30 分钟)。辞书形 かかる(一类动词)。" }
+      ],
+      "reviewItems": ["ja.densha", "ja.e_p", "ja.fun", "ja.de_p"]
+    },
+    {
+      "id": "ja.a1u6.l08", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106080,
+      "titleZh": "单元复习:在车站等朋友", "goalZh": "把问路、位置、坐车、花多长时间串起来,在车站和朋友约见面",
+      "canDoZh": "能在车站和朋友约见面地点,打电话说自己在哪、还要多久,找不到时会问站务员",
+      "scenarioZh": "周六,林雨约咲在车站见面一起去看电影。林雨在电车上给咲打电话:今 電車です。10分 かかります。咲:改札の 前で 待ちます。林雨下车后找不到检票口,问站务员:すみません、改札は どこですか。—あそこです。站务员顺便提醒电影院在 A3 出口那边(A3 当编号)。两人见面:咲:ここです!林雨:すみません!对话 12–14 句,把本单元的 どこ、位置词、電車、かかります、出口、会います、待ちます 都用上。说话人:rin、saki、ekiin。",
+      "grammarFocusZh": "复习:N は どこですか、位置词、N に 乗ります / N を 降ります、交通工具 + で、〜分 かかります;“地点 で 会います / 待ちます”(动作的地点用 で);“人 に 会います”(见面的对象用 に,不用 を)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.deguchi", "kind": "word", "pos": "noun", "text": "出口", "zh": "出口", "features": { "reading": "でぐち", "pitch": 1 }, "noteZh": "A3 出口(地铁 A3 出口)。入口是 いりぐち。" },
+        { "id": "ja.kaisatsu", "kind": "word", "pos": "noun", "text": "改札", "zh": "检票口", "features": { "reading": "かいさつ", "pitch": 0 }, "noteZh": "车站的检票口;约见面常说 改札の 前で(在检票口前)。" },
+        { "id": "ja.au", "kind": "word", "pos": "verb", "text": "会います", "zh": "见面", "features": { "reading": "あいます", "pitch": 3 }, "noteZh": "友だちに 会います:见面的对象用 に,不用 を。辞书形 会う(一类动词)。" },
+        { "id": "ja.matsu", "kind": "word", "pos": "verb", "text": "待ちます", "zh": "等", "features": { "reading": "まちます", "pitch": 3 }, "noteZh": "友だちを 待ちます(等朋友)。辞书形 待つ(一类动词)。" }
+      ],
+      "reviewItems": ["ja.doko", "ja.mae", "ja.densha", "ja.kakaru"]
+    }
+  ]
+}

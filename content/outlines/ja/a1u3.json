@@ -1,0 +1,128 @@
+{
+  "lang": "ja",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-3 我的家人和朋友", "cefr": "A1", "themeZh": "4 月中旬,林雨在东京安顿下来:给大家さん看家人的照片、看咲的全家福、办日本的手机号、和智友聊年龄和家人、咲正式介绍健太、写作文《我的家人》。これ / それ / あれ、だれ / 何、自己家人和别人家人的说法、数字 0–10 和年龄人数、N が います、と / も / ね、形容词修饰人。" }
+  ],
+  "lessons": [
+    {
+      "id": "ja.a1u3.l01", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-3 我的家人和朋友", "order": 103010,
+      "titleZh": "这是我的家人", "goalZh": "会用 これ / それ / あれ 指东西,用 だれ / 何 提问,介绍自己的家人",
+      "canDoZh": "能拿着照片介绍自己的家人;能问“这是谁?”“那是什么?”",
+      "scenarioZh": "4 月中旬的一个晚上,林雨在合租房的客厅给大家さん看手机里的家人照片:これは わたしの 家族の 写真です。これは 父です。これは 母です。大家さん指着林雨递过去的照片问:それは だれですか。—弟です。林雨指着墙上的照片问:あれは だれですか。——大家さん用名字回答(あれは そらです,“孙子”这个词不教)。最后大家さん指着照片里杭州的西湖问:これは 何ですか。(西湖 当专有名词。)课文 8–10 句。说话人:rin、kobayashi。",
+      "grammarFocusZh": "これ / それ / あれ:离说话人近 / 离听话人近 / 离两个人都远(中文“这 / 那”两分,日语三分);“これは 何ですか”“それは だれですか”:疑问词放在要问的位置,句末加 か;何 在 です 前读 なん;对外人说自己的家人用 父、母、弟(下一课学别人家人的说法)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.kore", "kind": "word", "pos": "pron", "text": "これ", "zh": "这个(离我近的东西)", "features": { "pitch": 0 }, "noteZh": "离说话人近的东西:これは 何ですか(这是什么?)。" },
+        { "id": "ja.sore", "kind": "word", "pos": "pron", "text": "それ", "zh": "那个(离你近的东西)", "features": { "pitch": 0 }, "noteZh": "离听话人近的东西,比如对方手里、身边的。" },
+        { "id": "ja.are", "kind": "word", "pos": "pron", "text": "あれ", "zh": "那个(离我们都远的东西)", "features": { "pitch": 0 }, "noteZh": "离两个人都远的东西:あれは だれですか(那是谁?)。" },
+        { "id": "ja.dare", "kind": "word", "pos": "pron", "text": "だれ", "zh": "谁", "alt": ["誰"], "features": { "pitch": 1 }, "noteZh": "问人;更礼貌的说法是 どなた。" },
+        { "id": "ja.nani", "kind": "word", "pos": "pron", "text": "何", "zh": "什么", "alt": ["なん"], "features": { "reading": "なに", "pitch": 1 }, "noteZh": "后面接 です、の 或 d / t / n 开头的音时读 なん:何ですか(なんですか);其他时候一般读 なに:何を(なにを)。" },
+        { "id": "ja.shashin", "kind": "word", "pos": "noun", "text": "写真", "zh": "照片", "features": { "reading": "しゃしん", "pitch": 0 }, "noteZh": "写真 = 照片,不是“写实”。しゃ 是拗音,一拍。" },
+        { "id": "ja.kazoku", "kind": "word", "pos": "noun", "text": "家族", "zh": "家人;家庭", "features": { "reading": "かぞく", "pitch": 1 }, "noteZh": "わたしの 家族(我的家人)。“家族”在日语里是日常词,不像中文那样指大家族。" },
+        { "id": "ja.chichi", "kind": "word", "pos": "noun", "text": "父", "zh": "(我的)父亲", "features": { "reading": "ちち" }, "noteZh": "对外人说自己的父亲用 父;在家里叫爸爸、说别人的父亲用 お父さん。" },
+        { "id": "ja.haha", "kind": "word", "pos": "noun", "text": "母", "zh": "(我的)母亲", "features": { "reading": "はは", "pitch": 1 }, "noteZh": "对外人说自己的母亲用 母;在家里叫妈妈、说别人的母亲用 お母さん。" },
+        { "id": "ja.otouto", "kind": "word", "pos": "noun", "text": "弟", "zh": "(我的)弟弟", "features": { "reading": "おとうと", "pitch": 4 }, "noteZh": "とう 是长音:お・と・う・と 4 拍。" }
+      ],
+      "reviewItems": ["ja.watashi", "ja.wa_p", "ja.no_p"]
+    },
+    {
+      "id": "ja.a1u3.l02", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-3 我的家人和朋友", "order": 103020,
+      "titleZh": "别人的家人:お父さん 和 父", "goalZh": "分清说自己家人和说别人家人的两套叫法,学会用 そうですか 回应",
+      "canDoZh": "能区分“我爸爸”和“您爸爸”的说法;能听懂别人介绍家人,并用 そうですか 回应",
+      "scenarioZh": "周末,咲和林雨在咖啡馆,咲给林雨看自己的全家福:これは 父です。これは 兄です。林雨:お兄さんですか。—はい。林雨指着一位年轻的女性:お姉さんですか。咲笑着说:いいえ、姉では ありません。母です!林雨:そうですか!课文 8–10 句:咲说自己的家人用 父、母、兄,林雨说咲的家人用 お父さん、お母さん、お兄さん。说话人:saki、rin。",
+      "grammarFocusZh": "自己的家人和别人的家人说法不同:对外人说自己家用 父 母 兄 姉 弟 妹(谦称);说别人家、或在家里叫长辈用 お父さん お母さん お兄さん お姉さん,别人的弟弟妹妹说 弟さん 妹さん;そうですか(是吗 / 原来如此,语调下降表示明白了)",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.otousan", "kind": "word", "pos": "noun", "text": "お父さん", "zh": "(别人的)父亲;爸爸", "features": { "reading": "おとうさん", "pitch": 2 }, "noteZh": "说别人的父亲,或在家里叫自己的爸爸。とう 是长音。" },
+        { "id": "ja.okaasan", "kind": "word", "pos": "noun", "text": "お母さん", "zh": "(别人的)母亲;妈妈", "features": { "reading": "おかあさん", "pitch": 2 }, "noteZh": "说别人的母亲,或在家里叫自己的妈妈。かあ 是长音(kā)。" },
+        { "id": "ja.oniisan", "kind": "word", "pos": "noun", "text": "お兄さん", "zh": "(别人的)哥哥", "features": { "reading": "おにいさん", "pitch": 2 }, "noteZh": "にい 是长音。也用来称呼年轻男性(像中文的“小哥”)。" },
+        { "id": "ja.oneesan", "kind": "word", "pos": "noun", "text": "お姉さん", "zh": "(别人的)姐姐", "features": { "reading": "おねえさん", "pitch": 2 }, "noteZh": "ねえ 是长音。也用来称呼年轻女性(像中文的“小姐姐”)。" },
+        { "id": "ja.ani", "kind": "word", "pos": "noun", "text": "兄", "zh": "(我的)哥哥", "features": { "reading": "あに", "pitch": 1 }, "noteZh": "对外人说自己的哥哥。" },
+        { "id": "ja.ane", "kind": "word", "pos": "noun", "text": "姉", "zh": "(我的)姐姐", "features": { "reading": "あね", "pitch": 0 }, "noteZh": "对外人说自己的姐姐。" },
+        { "id": "ja.imouto", "kind": "word", "pos": "noun", "text": "妹", "zh": "(我的)妹妹", "features": { "reading": "いもうと", "pitch": 4 }, "noteZh": "对外人说自己的妹妹。もう 是长音。" },
+        { "id": "ja.otoutosan", "kind": "word", "pos": "noun", "text": "弟さん", "zh": "(别人的)弟弟", "features": { "reading": "おとうとさん" }, "noteZh": "说别人的弟弟:リンさんの 弟さん。" },
+        { "id": "ja.imoutosan", "kind": "word", "pos": "noun", "text": "妹さん", "zh": "(别人的)妹妹", "features": { "reading": "いもうとさん" }, "noteZh": "说别人的妹妹。" },
+        { "id": "ja.sou", "kind": "word", "pos": "adv", "text": "そう", "zh": "那样;是的", "features": {}, "noteZh": "そうですか(是吗 / 原来如此)、そうです(是的)、そうですね(是啊)。" }
+      ],
+      "reviewItems": ["ja.chichi", "ja.haha", "ja.otouto", "ja.dare"]
+    },
+    {
+      "id": "ja.a1u3.l03", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-3 我的家人和朋友", "order": 103030,
+      "titleZh": "数字 0–9:报手机号码", "goalZh": "会读、会听 0 到 9,能一位一位地报电话号码",
+      "canDoZh": "能用日语说 0–9,一位一位地报出自己的手机号码,也能听懂并记下别人的号码",
+      "scenarioZh": "林雨跟咲去手机店办日本的手机卡。窗口职员念出新号码:ゼロ、はち、ゼロの、いち、に、さん、よんの……林雨跟着念一遍,咲在旁边确认:はい、そうです。回到合租房,智友问她的新号码,林雨自己报一遍(“电话号码”这个词第 5 课才学,这一课用 これ、です 和数字就能说)。课文 6–8 句。说话人:madoguchi、rin、saki、jiu。",
+      "grammarFocusZh": "0–9 的读法;4、7、9 有两种读法:报号码一般说 よん、なな、きゅう(し 和“死”、く 和“苦”同音,日本人也避讳);0 说 ゼロ 或 れい;电话号码一位一位地读,中间的“-”读 の;に、ご 是一拍的短音,报号码时常拉长成 にい、ごお,让节奏整齐",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 9,
+      "newItems": [
+        { "id": "ja.zero", "kind": "word", "pos": "num", "text": "ゼロ", "zh": "零(0)", "alt": ["れい"], "features": { "pitch": 1 }, "noteZh": "也说 れい(零)。电话号码、房间号常说 ゼロ。" },
+        { "id": "ja.ichi", "kind": "word", "pos": "num", "text": "いち", "zh": "一(1)", "features": { "pitch": 2 }, "noteZh": "汉字写作 一。" },
+        { "id": "ja.ni", "kind": "word", "pos": "num", "text": "に", "zh": "二(2)", "features": { "pitch": 1 }, "noteZh": "汉字写作 二。报号码时常拉长读 にい。" },
+        { "id": "ja.san_num", "kind": "word", "pos": "num", "text": "さん", "zh": "三(3)", "features": { "pitch": 0 }, "noteZh": "汉字写作 三。和敬称 さん(リンさん)同音,看上下文区分。" },
+        { "id": "ja.yon", "kind": "word", "pos": "num", "text": "よん", "zh": "四(4)", "alt": ["し"], "features": { "pitch": 1 }, "noteZh": "汉字写作 四。也读 し,但 し 和“死”同音,报号码、数东西多用 よん。" },
+        { "id": "ja.go", "kind": "word", "pos": "num", "text": "ご", "zh": "五(5)", "features": { "pitch": 1 }, "noteZh": "汉字写作 五。报号码时常拉长读 ごお。" },
+        { "id": "ja.roku", "kind": "word", "pos": "num", "text": "ろく", "zh": "六(6)", "features": { "pitch": 2 }, "noteZh": "汉字写作 六。" },
+        { "id": "ja.nana", "kind": "word", "pos": "num", "text": "なな", "zh": "七(7)", "alt": ["しち"], "features": { "pitch": 1 }, "noteZh": "汉字写作 七。也读 しち;报号码多说 なな,7 点说 しちじ。" },
+        { "id": "ja.hachi", "kind": "word", "pos": "num", "text": "はち", "zh": "八(8)", "features": { "pitch": 2 }, "noteZh": "汉字写作 八。" },
+        { "id": "ja.kyuu", "kind": "word", "pos": "num", "text": "きゅう", "zh": "九(9)", "alt": ["く"], "features": { "pitch": 1 }, "noteZh": "汉字写作 九。也读 く,但 く 和“苦”同音;9 点说 くじ。" }
+      ],
+      "reviewItems": ["ja.kore", "ja.no_p", "ja.sou"]
+    },
+    {
+      "id": "ja.a1u3.l04", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-3 我的家人和朋友", "order": 103040,
+      "titleZh": "几岁?家里有几口人?", "goalZh": "会说年龄和家里的人数,用“N が います”说家里有谁",
+      "canDoZh": "能说自己和家人的年龄,能说家里有几口人、有哪些人",
+      "scenarioZh": "厨房里,林雨和智友边做饭边聊家里:ジウさんは 何歳ですか。—21歳です。リンさんは?—はたちです。家族は 何人ですか。—4人です。父と 母と 弟が います。弟は 9歳です。智友:わたしは 兄が います。课文 8–10 句;何歳、何人 用学过的 何 加 歳、人 组成。说话人:jiu、rin。",
+      "grammarFocusZh": "11–99 按“几个十 + 几”组成:じゅういち(11)、にじゅう(20)、にじゅういち(21);年龄“数字 + 歳”:1、8、10 岁读 いっさい、はっさい、じゅっさい,20 岁说 はたち;人数:ひとり、ふたり 特殊,3 人以上“数字 + 人(にん)”,4 人读 よにん;“N が います”表示有某人(人和动物用 います);N と N(和),只能连接名词",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.juu", "kind": "word", "pos": "num", "text": "じゅう", "zh": "十(10)", "features": { "pitch": 1 }, "noteZh": "汉字写作 十。11 = じゅういち、20 = にじゅう、99 = きゅうじゅうきゅう。" },
+        { "id": "ja.sai", "kind": "word", "pos": "num", "text": "歳", "zh": "……岁", "features": { "reading": "さい" }, "noteZh": "1歳 いっさい、8歳 はっさい、10歳 じゅっさい;问年龄说 何歳ですか(更礼貌是 おいくつですか)。也可写作 才。" },
+        { "id": "ja.hatachi", "kind": "word", "pos": "noun", "text": "はたち", "zh": "二十岁", "alt": ["二十歳"], "features": { "pitch": 1 }, "noteZh": "二十岁有专门的说法,不说 にじゅっさい。日本人二十岁可以喝酒,很多地方还为二十岁的人办庆祝仪式。" },
+        { "id": "ja.nin", "kind": "word", "pos": "num", "text": "人", "zh": "……个人(数人数)", "features": { "reading": "にん" }, "noteZh": "3人 さんにん、4人 よにん(不是 よんにん)、5人 ごにん……;1 个人、2 个人说 ひとり、ふたり。" },
+        { "id": "ja.hitori", "kind": "word", "pos": "num", "text": "ひとり", "zh": "一个人", "alt": ["一人"], "features": { "pitch": 2 }, "noteZh": "汉字写作 一人。ひとりで = 一个人(单独)。" },
+        { "id": "ja.futari", "kind": "word", "pos": "num", "text": "ふたり", "zh": "两个人", "alt": ["二人"], "features": { "pitch": 3 }, "noteZh": "汉字写作 二人。" },
+        { "id": "ja.iru", "kind": "word", "pos": "verb", "text": "います", "zh": "(人、动物)在;有", "features": { "pitch": 2 }, "noteZh": "人和动物用 います,东西用 あります(第 5 单元):弟が います = 我有个弟弟。辞书形 いる(二类动词)。" },
+        { "id": "ja.ga_p", "kind": "word", "pos": "particle", "text": "が", "zh": "主语助词(います、あります 前面的人或物)", "features": {}, "noteZh": "弟が います。います、あります、好き 前面的人或物用 が。" },
+        { "id": "ja.to_p", "kind": "word", "pos": "particle", "text": "と", "zh": "和(连接名词)", "features": {}, "noteZh": "父と 母(爸爸和妈妈);只能连接名词,不能连接两个句子。" }
+      ],
+      "reviewItems": ["ja.nani", "ja.kazoku", "ja.otouto", "ja.ani"]
+    },
+    {
+      "id": "ja.a1u3.l05", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-3 我的家人和朋友", "order": 103050,
+      "titleZh": "我的朋友", "goalZh": "会用形容词简单描述一个人,用 も 说“也”,和新朋友交换电话号码",
+      "canDoZh": "能用 1–2 句话描述一个人(温柔、有趣、精神、漂亮);能和新朋友交换电话号码",
+      "scenarioZh": "校园里,咲正式介绍健太:わたしの 友だちの 健太さんです。とても おもしろい 人です。健太:リンさんも 学生ですか。—はい、留学生です。咲:ジウさんは きれいな 人ですね。林雨:はい、とても やさしい 人です。分开前健太问:電話番号は?林雨报号码(复习 0–9),健太没听清,再确认一次。课文 10–12 句。说话人:saki、kenta、rin。",
+      "grammarFocusZh": "形容词修饰名词:い形容词直接接名词(おもしろい 人、やさしい 人),な形容词要加 な(きれいな 人、元気な 人);“N は 形容词です”;も(也)替换 は:リンさんも 学生です;句末 ね 表示求同感,对方常答 そうですね",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.tomodachi", "kind": "word", "pos": "noun", "text": "友だち", "zh": "朋友", "alt": ["友達"], "features": { "reading": "ともだち", "pitch": 0 }, "noteZh": "也写作 友達。わたしの 友だちの 健太さん = 我的朋友健太。" },
+        { "id": "ja.hito", "kind": "word", "pos": "noun", "text": "人", "zh": "人(一个人)", "features": { "reading": "ひと", "pitch": 0 }, "noteZh": "やさしい 人(温柔的人)。“人”单独用读 ひと,国籍读 じん,数人数读 にん。" },
+        { "id": "ja.yasashii", "kind": "word", "pos": "adj", "text": "やさしい", "zh": "温柔;和善", "alt": ["優しい"], "features": { "pitch": 0 }, "noteZh": "汉字写作 優しい。还有一个同音词 易しい(容易)。" },
+        { "id": "ja.omoshiroi", "kind": "word", "pos": "adj", "text": "おもしろい", "zh": "有趣;好玩", "alt": ["面白い"], "features": { "pitch": 4 }, "noteZh": "人、书、电影都能用:有趣、好玩、搞笑。" },
+        { "id": "ja.genki", "kind": "word", "pos": "adj", "text": "元気", "zh": "精神;健康", "features": { "reading": "げんき", "pitch": 1 }, "noteZh": "な形容词:元気な 人(有活力的人)。お元気ですか = 您好吗(很久没见时问)。" },
+        { "id": "ja.kirei", "kind": "word", "pos": "adj", "text": "きれい", "zh": "漂亮;干净", "alt": ["綺麗"], "features": { "pitch": 1 }, "noteZh": "虽然以 い 结尾,却是 な形容词:きれいな 人。也有“干净”的意思。" },
+        { "id": "ja.totemo", "kind": "word", "pos": "adv", "text": "とても", "zh": "很;非常", "features": { "pitch": 0 }, "noteZh": "放在形容词前面:とても おもしろい 人。" },
+        { "id": "ja.mo_p", "kind": "word", "pos": "particle", "text": "も", "zh": "也(助词)", "features": {}, "noteZh": "替换 は:わたしも 学生です(我也是学生)。" },
+        { "id": "ja.denwabangou", "kind": "word", "pos": "noun", "text": "電話番号", "zh": "电话号码", "features": { "reading": "でんわばんごう" }, "noteZh": "音读汉字词,意思和中文一样。问号码:電話番号は?" },
+        { "id": "ja.ne_p", "kind": "word", "pos": "particle", "text": "ね", "zh": "……呢 / ……吧(句末,求同感)", "features": {}, "noteZh": "きれいですね(真漂亮啊)。对方常答 そうですね。" }
+      ],
+      "reviewItems": ["ja.ryuugakusei", "ja.gakusei", "ja.zero", "ja.kyuu"]
+    },
+    {
+      "id": "ja.a1u3.l08", "lang": "ja", "type": "reading", "cefr": "A1", "unit": "A1-3 我的家人和朋友", "order": 103080,
+      "titleZh": "单元复习:作文《わたしの 家族》", "goalZh": "把本单元的家人、数字、年龄和形容词串起来,读懂并写出一段家庭介绍",
+      "canDoZh": "能读懂并写出一段 8 句左右的家庭介绍:几口人、家人的职业、年龄和性格",
+      "scenarioZh": "田中老师布置作文《わたしの 家族》,林雨写了一段短文:我家 4 口人,还有一条狗;爸爸是公司职员,妈妈是中学英语老师(写 先生 即可),两个人都很温柔;弟弟 9 岁,是小学生,很有趣;最后写“东京的家人”:大家さん小林さん也很温柔,智友是她的好朋友。短文 8–10 句,说话人用 rin(第一人称)或 narrator。",
+      "grammarFocusZh": "复习:人数和年龄、N が います、と、も、形容词修饰名词;短文用“N は N です”一句说一件事,写得短、写得准",
+      "skills": ["read", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.kaishain", "kind": "word", "pos": "noun", "text": "会社員", "zh": "公司职员", "features": { "reading": "かいしゃいん", "pitch": 3 }, "noteZh": "会社 = 公司,不是“社会”;会社員 = 上班族。" },
+        { "id": "ja.shougakusei", "kind": "word", "pos": "noun", "text": "小学生", "zh": "小学生", "features": { "reading": "しょうがくせい" }, "noteZh": "小学生、中学生、高校生(高中生)、大学生。" },
+        { "id": "ja.inu", "kind": "word", "pos": "noun", "text": "犬", "zh": "狗", "features": { "reading": "いぬ", "pitch": 2 }, "noteZh": "狗;猫是 ねこ。" },
+        { "id": "ja.ooyasan", "kind": "word", "pos": "noun", "text": "大家さん", "zh": "房东", "features": { "reading": "おおやさん" }, "noteZh": "大家(おおや)= 房东,不是中文的“大家”(那是 みんな)。" }
+      ],
+      "reviewItems": ["ja.kazoku", "ja.chichi", "ja.haha", "ja.yasashii"]
+    }
+  ]
+}

@@ -1,0 +1,121 @@
+{
+  "lang": "ja",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-7 购物", "cefr": "A1", "themeZh": "6 月梅雨季,林雨开始自己买东西:下雨天买伞、和智友逛服装店挑颜色、在鞋店试尺码、在百货商场给妈妈挑礼物、在收银台付款、雨天逛百元店。その / どの、千・万、颜色、い形容词和な形容词的肯定与否定、形容词 + の、N が ほしいです、N は ありますか、全部で、〜で 払います。" }
+  ],
+  "lessons": [
+    {
+      "id": "ja.a1u7.l01", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-7 购物", "order": 107010,
+      "titleZh": "这把伞多少钱?", "goalZh": "会问价格,听懂几千、几万日元,会说贵和便宜",
+      "canDoZh": "能问东西的价格,听懂几千、几万日元的价格,能说贵还是便宜",
+      "scenarioZh": "6 月进入梅雨季,林雨没带伞,在车站旁的店里买伞。林雨:すみません、この 傘は いくらですか。店员:1,500円です。—高いですね……。店员:その 傘は 500円です。安いですよ。—その 傘を ください。店里还有一个包:あの かばんは?—2万円です。—高い!课文 10–12 句。说话人:tenin、rin。",
+      "grammarFocusZh": "千 和 万:1,500 せんごひゃく、3,000 さんぜん、8,000 はっせん(音变),1 万说 いちまん(不能只说 まん),日语和中文一样按“万”分段;この / その / あの / どの + 名词(その、どの 是新的);高い 既是“贵”也是“高”,安い 是“便宜”;い形容词作谓语:高いです、安いです",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.sen", "kind": "word", "pos": "num", "text": "千", "zh": "千", "features": { "reading": "せん", "pitch": 1 }, "noteZh": "3,000 さんぜん、8,000 はっせん 读音会变;1,000 就说 せん。" },
+        { "id": "ja.man", "kind": "word", "pos": "num", "text": "万", "zh": "万", "features": { "reading": "まん", "pitch": 1 }, "noteZh": "1 万要说 いちまん(不能只说 まん)。日语和中文一样按“万”分段:15,000 = いちまんごせん。" },
+        { "id": "ja.kau", "kind": "word", "pos": "verb", "text": "買います", "zh": "买", "features": { "reading": "かいます", "pitch": 3 }, "noteZh": "辞书形 買う(一类动词)。傘を 買います。" },
+        { "id": "ja.takai", "kind": "word", "pos": "adj", "text": "高い", "zh": "贵;高", "features": { "reading": "たかい", "pitch": 2 }, "noteZh": "高い 既是“贵”也是“高”;“便宜”是 安い。" },
+        { "id": "ja.yasui", "kind": "word", "pos": "adj", "text": "安い", "zh": "便宜", "features": { "reading": "やすい", "pitch": 2 }, "noteZh": "安い = 便宜,不是“安全”。" },
+        { "id": "ja.sono", "kind": "word", "pos": "det", "text": "その", "zh": "那个……(离你近)", "features": { "pitch": 0 }, "noteZh": "离听话人近的东西:その 傘(你那边那把伞),后面一定接名词。" },
+        { "id": "ja.dono", "kind": "word", "pos": "det", "text": "どの", "zh": "哪个……", "features": { "pitch": 1 }, "noteZh": "どの 傘ですか(哪把伞?),后面一定接名词。" },
+        { "id": "ja.kasa", "kind": "word", "pos": "noun", "text": "傘", "zh": "伞", "features": { "reading": "かさ", "pitch": 1 }, "noteZh": "梅雨季(6 月前后)出门要带伞;便利店都卖塑料伞。" },
+        { "id": "ja.kaban", "kind": "word", "pos": "noun", "text": "かばん", "zh": "包", "alt": ["鞄"], "features": { "pitch": 0 }, "noteZh": "书包、手提包都叫 かばん。" }
+      ],
+      "reviewItems": ["ja.kono", "ja.ano", "ja.ikura", "ja.en"]
+    },
+    {
+      "id": "ja.a1u7.l02", "lang": "ja", "type": "vocab", "cefr": "A1", "unit": "A1-7 购物", "order": 107020,
+      "titleZh": "什么颜色好看?", "goalZh": "会说常见的颜色,说喜欢什么颜色、什么可爱",
+      "canDoZh": "能说出常见的颜色,能说自己喜欢什么颜色、哪件衣服好看",
+      "scenarioZh": "周六,林雨和智友去服装店买夏天的 Tシャツ。智友:わたしは 赤い Tシャツが 好きです。林雨:わたしは 白い Tシャツが 好きです。智友:この 青い Tシャツ、かわいいですね!—そうですね。店员过来问:何色が いいですか。林雨:黒い Tシャツは ありますか。(ありますか 第 5 单元学过。)课文 10–12 句;何色(なにいろ)用 何 + 色 组成。说话人:jiu、rin、tenin。",
+      "grammarFocusZh": "颜色形容词 赤い、青い、白い、黒い、黄色い 直接修饰名词:赤い Tシャツ;说颜色本身用名词,去掉 い:赤、青、白、黒(赤が 好きです);何色ですか / 何色が いいですか;青 在日语里主要是“蓝色”,绿灯也叫“青”;かわいい 用于东西和人(可爱、好看)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.iro", "kind": "word", "pos": "noun", "text": "色", "zh": "颜色", "features": { "reading": "いろ", "pitch": 2 }, "noteZh": "何色(なにいろ)= 什么颜色。" },
+        { "id": "ja.akai", "kind": "word", "pos": "adj", "text": "赤い", "zh": "红色的", "features": { "reading": "あかい", "pitch": 0 }, "noteZh": "颜色名词是 赤(あか):赤が 好きです。" },
+        { "id": "ja.aoi", "kind": "word", "pos": "adj", "text": "青い", "zh": "蓝色的", "features": { "reading": "あおい", "pitch": 2 }, "noteZh": "青 在日语里主要是蓝色:青い 空(蓝天);绿灯也叫“青”。" },
+        { "id": "ja.shiroi", "kind": "word", "pos": "adj", "text": "白い", "zh": "白色的", "features": { "reading": "しろい", "pitch": 2 }, "noteZh": "颜色名词是 白(しろ)。" },
+        { "id": "ja.kuroi", "kind": "word", "pos": "adj", "text": "黒い", "zh": "黑色的", "features": { "reading": "くろい", "pitch": 2 }, "noteZh": "颜色名词是 黒(くろ)。" },
+        { "id": "ja.kiiroi", "kind": "word", "pos": "adj", "text": "黄色い", "zh": "黄色的", "features": { "reading": "きいろい", "pitch": 0 }, "noteZh": "颜色名词是 黄色(きいろ);きい 是长音。" },
+        { "id": "ja.tshatsu", "kind": "word", "pos": "noun", "text": "Tシャツ", "zh": "T恤", "features": { "reading": "ティーシャツ", "pitch": 0 }, "noteZh": "读 ティーシャツ;T 用英文字母写。" },
+        { "id": "ja.kawaii", "kind": "word", "pos": "adj", "text": "かわいい", "zh": "可爱;好看", "features": { "pitch": 3 }, "noteZh": "东西和人都能用,是年轻人最常用的夸奖词之一。" }
+      ],
+      "reviewItems": ["ja.suki", "ja.kono", "ja.ii", "ja.ne_p"]
+    },
+    {
+      "id": "ja.a1u7.l03", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-7 购物", "order": 107030,
+      "titleZh": "太大了,有小一点的吗?", "goalZh": "会用 い形容词的否定和“形容词 + の”试穿、换尺码",
+      "canDoZh": "能试穿衣服和鞋子,说哪里不合适(有点大、有点长),问有没有别的尺码",
+      "scenarioZh": "林雨在鞋店试鞋。店员:サイズは?—23です。林雨试了以后:ちょっと 大きいです。もう少し 小さいのは ありますか。—はい。これは どうですか。—これは 大きくないです。いいですね!后来林雨又去服装区试裤子(“裤子”不教,用 これ 指):試着室は どこですか。……ちょっと 長いです。もう少し 短いのは ありますか。课文 10–12 句。说话人:tenin_m、rin。",
+      "grammarFocusZh": "い形容词的否定:大きい → 大きくないです(いい → よくないです);“形容词 + の”代替前面说过的名词:小さいの(小的那个);“N は ありますか”(有没有 N?);“もう少し + 形容词”(再……一点);これは どうですか(这个怎么样?)",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.ookii", "kind": "word", "pos": "adj", "text": "大きい", "zh": "大", "features": { "reading": "おおきい", "pitch": 3 }, "noteZh": "“大”在这里读 おお(训读),大学 的“大”读 だい(音读)。否定 大きくないです。" },
+        { "id": "ja.chiisai", "kind": "word", "pos": "adj", "text": "小さい", "zh": "小", "features": { "reading": "ちいさい", "pitch": 3 }, "noteZh": "ちい 是长音。否定 小さくないです。" },
+        { "id": "ja.nagai", "kind": "word", "pos": "adj", "text": "長い", "zh": "长", "features": { "reading": "ながい", "pitch": 2 }, "noteZh": "否定 長くないです。" },
+        { "id": "ja.mijikai", "kind": "word", "pos": "adj", "text": "短い", "zh": "短", "features": { "reading": "みじかい", "pitch": 3 }, "noteZh": "否定 短くないです。" },
+        { "id": "ja.saizu", "kind": "word", "pos": "noun", "text": "サイズ", "zh": "尺码;大小", "features": { "pitch": 1 }, "noteZh": "S / M / L 用英文字母读:エス、エム、エル。" },
+        { "id": "ja.mousukoshi", "kind": "word", "pos": "adv", "text": "もう少し", "zh": "再……一点", "features": { "reading": "もうすこし" }, "noteZh": "もう少し 小さいの(再小一点的)。少し 单独用 = 一点点。" },
+        { "id": "ja.kutsu", "kind": "word", "pos": "noun", "text": "靴", "zh": "鞋", "features": { "reading": "くつ", "pitch": 2 }, "noteZh": "靴 = 鞋子,不只是靴子。进日本人家里要脱鞋。" },
+        { "id": "ja.shichakushitsu", "kind": "word", "pos": "noun", "text": "試着室", "zh": "试衣间", "features": { "reading": "しちゃくしつ" }, "noteZh": "试穿叫 試着(しちゃく)。ちゃ 是拗音。" },
+        { "id": "ja.dou", "kind": "word", "pos": "adv", "text": "どう", "zh": "怎么样", "features": { "pitch": 1 }, "noteZh": "これは どうですか(这个怎么样?)。" }
+      ],
+      "reviewItems": ["ja.chotto", "ja.ii", "ja.aru"]
+    },
+    {
+      "id": "ja.a1u7.l04", "lang": "ja", "type": "grammar", "cefr": "A1", "unit": "A1-7 购物", "order": 107040,
+      "titleZh": "给妈妈买礼物", "goalZh": "会说想要什么,会用 な形容词 评价东西,分清 い形容词和な形容词的否定",
+      "canDoZh": "能说自己想要什么,用“漂亮、方便、有名”等评价商品,给家人挑礼物",
+      "scenarioZh": "放暑假前,林雨想给妈妈买礼物,和咲去 デパート。林雨:母に おみやげを 買いたいです。母の 財布は 古いです。新しい 財布が ほしいです。咲:この 財布、すてきですね。—そうですね。……高いですね。店员:これは 日本の 有名な 財布です。小さいです。便利ですよ。咲:これは 高くないですね。课文 10–12 句。说话人:rin、saki、tenin。",
+      "grammarFocusZh": "“N が ほしいです”(想要 N:东西)/“V たいです”(想做:动作)——不说 ×財布を ほしいです;な形容词修饰名词加 な:すてきな 財布、有名な 店,否定说 すてきじゃないです;い形容词和な形容词的否定对比:新しくないです / 便利じゃないです;“人 に 买”:母に 買います(给妈妈买,に 表示对象)",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.hoshii", "kind": "word", "pos": "adj", "text": "ほしい", "zh": "想要", "alt": ["欲しい"], "features": { "pitch": 2 }, "noteZh": "N が ほしいです = 想要 N(东西);想做某事用 V たいです。" },
+        { "id": "ja.atarashii", "kind": "word", "pos": "adj", "text": "新しい", "zh": "新", "features": { "reading": "あたらしい", "pitch": 4 }, "noteZh": "否定 新しくないです。" },
+        { "id": "ja.furui", "kind": "word", "pos": "adj", "text": "古い", "zh": "旧;老", "features": { "reading": "ふるい", "pitch": 2 }, "noteZh": "古い 用于东西;说人“年纪大”不用 古い。" },
+        { "id": "ja.saifu", "kind": "word", "pos": "noun", "text": "財布", "zh": "钱包", "features": { "reading": "さいふ", "pitch": 0 }, "noteZh": "日本还有很多人用现金,钱包很常用。" },
+        { "id": "ja.suteki", "kind": "word", "pos": "adj", "text": "すてき", "zh": "漂亮;很棒", "alt": ["素敵"], "features": { "pitch": 0 }, "noteZh": "な形容词:すてきな 財布。夸东西、衣服、地方都可以。" },
+        { "id": "ja.benri", "kind": "word", "pos": "adj", "text": "便利", "zh": "方便", "features": { "reading": "べんり", "pitch": 1 }, "noteZh": "な形容词:便利な かばん。“便利店”在日语里叫 コンビニ。" },
+        { "id": "ja.yuumei", "kind": "word", "pos": "adj", "text": "有名", "zh": "有名;著名", "features": { "reading": "ゆうめい", "pitch": 0 }, "noteZh": "な形容词:有名な 店(有名的店)。" },
+        { "id": "ja.omiyage", "kind": "word", "pos": "noun", "text": "おみやげ", "zh": "伴手礼;土特产", "alt": ["お土産"], "features": { "pitch": 0 }, "noteZh": "汉字写作 お土産(熟字训,读 みやげ)。旅行带回来、或拜访别人时带的小礼物。" },
+        { "id": "ja.depaato", "kind": "word", "pos": "noun", "text": "デパート", "zh": "百货商场", "features": { "pitch": 2 }, "noteZh": "地下一层(デパ地下)卖熟食和点心。" }
+      ],
+      "reviewItems": ["ja.kau", "ja.takai", "ja.chiisai"]
+    },
+    {
+      "id": "ja.a1u7.l05", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物", "order": 107050,
+      "titleZh": "结账:可以刷卡吗?", "goalZh": "听懂收银台的说法,会问付款方式并付款",
+      "canDoZh": "能在收银台听懂一共多少钱,问能不能刷卡,选择付款方式",
+      "scenarioZh": "林雨在一家小杂货店买了 Tシャツ 和伞,到 レジ 结账。店员:全部で 3,200円です。林雨:カードで いいですか。店员:すみません、現金だけです。林雨:じゃあ、現金で 払います。店员:袋は いりますか。—いいえ、大丈夫です。店员递上 レシート:ありがとうございました。课文 10–12 句。说话人:tenin、rin。",
+      "grammarFocusZh": "“全部で + 价格”(一共……);付款方式用 で:カードで 払います、現金で 払います(で 表示手段,复习第 6 单元);“〜で いいですか”(用……可以吗?);だけ(只):現金だけです;じゃあ(那么)用来接着做决定;复习 袋は いりますか / 大丈夫です",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.reji", "kind": "word", "pos": "noun", "text": "レジ", "zh": "收银台", "features": { "pitch": 1 }, "noteZh": "收银台;排队结账在 レジ。" },
+        { "id": "ja.kaado", "kind": "word", "pos": "noun", "text": "カード", "zh": "卡;信用卡", "features": { "pitch": 1 }, "noteZh": "信用卡、交通卡、积分卡都叫 カード:カードで 払います = 刷卡付。" },
+        { "id": "ja.genkin", "kind": "word", "pos": "noun", "text": "現金", "zh": "现金", "features": { "reading": "げんきん", "pitch": 3 }, "noteZh": "日本有些小店只收现金。" },
+        { "id": "ja.harau", "kind": "word", "pos": "verb", "text": "払います", "zh": "付(钱)", "features": { "reading": "はらいます", "pitch": 4 }, "noteZh": "辞书形 払う(一类动词)。付款方式用 で:現金で 払います。" },
+        { "id": "ja.zenbude", "kind": "word", "pos": "adv", "text": "全部で", "zh": "一共", "features": { "reading": "ぜんぶで" }, "noteZh": "全部で 3,200円です(一共 3,200 日元)。" },
+        { "id": "ja.dake_p", "kind": "word", "pos": "particle", "text": "だけ", "zh": "只;仅", "features": {}, "noteZh": "接在名词后面:現金だけです(只收现金)。" },
+        { "id": "ja.reshiito", "kind": "word", "pos": "noun", "text": "レシート", "zh": "小票", "features": { "pitch": 2 }, "noteZh": "日本的商店一般都会给小票。" },
+        { "id": "ja.jaa", "kind": "word", "pos": "conj", "text": "じゃあ", "zh": "那么;那", "features": { "pitch": 1 }, "noteZh": "口语,用来接着做决定或换话题:じゃあ、これに します。更礼貌的说法是 では。" }
+      ],
+      "reviewItems": ["ja.de_p", "ja.fukuro", "ja.daijoubu", "ja.iru_need"]
+    },
+    {
+      "id": "ja.a1u7.l08", "lang": "ja", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物", "order": 107080,
+      "titleZh": "单元复习:雨天的百元店", "goalZh": "把价格、颜色、形容词和付款的说法串起来,完整地买一次东西",
+      "canDoZh": "能在商店里比较颜色、大小和价格,决定买什么并结账",
+      "scenarioZh": "下雨的周日,林雨和智友躲雨走进一家“百元店”(什么都卖 100 日元左右的店,店名不出现)。智友:雨ですね。この 店は いろいろ ありますね!两人比较伞的颜色、大小和价格;林雨想给弟弟买 おみやげ:弟に かわいい かばんが ほしいです……最后一起去 レジ:全部で 800円です。对话 12–14 句,把本单元的价格、颜色、形容词的肯定和否定、ほしい、ありますか、で 付款都用上。说话人:jiu、rin、tenin_m。",
+      "grammarFocusZh": "复习:この / その / あの / どの、颜色、い形容词和な形容词的肯定 / 否定、形容词 + の、N が ほしいです、全部で、〜で 払います;高低音会区分词义:あ↘め(雨)/ あめ↗(糖)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "newItems": [
+        { "id": "ja.ame", "kind": "word", "pos": "noun", "text": "雨", "zh": "雨", "features": { "reading": "あめ", "pitch": 1 }, "noteZh": "あ↘め(先高后低)是“雨”,あめ↗(先低后高)是“糖”(飴)——高低音区分词义的典型例子。" },
+        { "id": "ja.mise", "kind": "word", "pos": "noun", "text": "店", "zh": "店;商店", "features": { "reading": "みせ", "pitch": 2 }, "noteZh": "店员是 店員(てんいん),店长是 店長。" },
+        { "id": "ja.iroiro", "kind": "word", "pos": "adj", "text": "いろいろ", "zh": "各种各样", "features": { "pitch": 0 }, "noteZh": "いろいろ あります(东西很多)。修饰名词说 いろいろな。" }
+      ],
+      "reviewItems": ["ja.kasa", "ja.iro", "ja.hoshii", "ja.zenbude"]
+    }
+  ]
+}
