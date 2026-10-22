@@ -62,7 +62,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
       signInPrivateKey: env.APPLE_SIGNIN_PRIVATE_KEY,
     },
     wechat: { appId: env.WECHAT_APP_ID, appSecret: env.WECHAT_APP_SECRET },
-    ai: { baseUrl: env.AI_BASE_URL, apiKey: env.AI_API_KEY, model: env.AI_MODEL, dailyFree: num(env.AI_DAILY_FREE, 3), dailyPremium: num(env.AI_DAILY_PREMIUM, 60) },
+    ai: { baseUrl: env.AI_BASE_URL, apiKey: env.AI_API_KEY, model: env.AI_MODEL, dailyFree: num(env.AI_DAILY_FREE, 12), dailyPremium: num(env.AI_DAILY_PREMIUM, 60) },
     speech: { provider: env.SPEECH_PROVIDER === "azure" ? "azure" : "none", azureKey: env.AZURE_SPEECH_KEY, azureRegion: env.AZURE_SPEECH_REGION },
   };
   if (cfg.env === "production") {
