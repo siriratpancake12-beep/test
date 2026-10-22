@@ -1,6 +1,7 @@
 import type { FastifyInstance } from "fastify";
 import { ROUTES, type User } from "@lingo/core";
 import type { Deps } from "../app";
+import { deleteAiUsage } from "../db/ai";
 import { unauthorized } from "../errors";
 import { requireUser } from "../auth/session";
 import { toUser } from "../auth/users";
@@ -9,11 +10,13 @@ import { toUser } from "../auth/users";
  * 账号:查看自己的账号信息、注销账号。负责人:server-core。
  *
  * 注销(苹果审核 5.1.1(v) 和《个人信息保护法》都要求 App 内能注销):
- * - 删除个人信息:手机号、苹果/微信标识清空(这一行只留 id 和时间,用来让旧 token 失效、统计注册数)
- * - 删除学习进度、这个手机号的验证码记录(含 IP)
- * - 埋点保留(用于统计),但 user_id 置空,和这个人不再关联
+ * - 用 Apple 登录过的,先向苹果撤销授权(苹果要求);撤销失败不挡注销,记日志
+ * - 删除个人信息:手机号、苹果/微信标识和令牌清空(这一行只留 id 和时间,用来让旧 token 失效、统计注册数)
+ * - 删除学习进度、这个手机号的验证码记录(含 IP)、AI 老师和发音评测的用量记录
+ * - 订阅:删除订阅状态;交易流水保留(对账、退款、指标要用),但 user_id 置空,和这个人不再关联
+ * - 埋点保留(用于统计),user_id 同样置空
  * - 之后这个账号不能再登录;同一个手机号、苹果账号、微信可以重新注册成一个新账号
- * 订阅记录由支付模块管理,不在这里删(交易记录要留着对账、处理退款)。
+ * 注销不等于取消苹果订阅(订阅在用户的 Apple ID 下),App 里注销前会提示。
  */
 export function registerAccount(app: FastifyInstance, deps: Deps) {
   const { db, config } = deps;
@@ -28,16 +31,36 @@ export function registerAccount(app: FastifyInstance, deps: Deps) {
   app.delete(ROUTES.account, async (req, reply) => {
     const userId = await requireUser(req, config);
     const now = deps.now();
+    const row = await db.selectFrom("users").select(["phone", "apple_sub", "apple_refresh_token"]).where("id", "=", userId).executeTakeFirst();
+
+    // 先撤销苹果授权(网络调用,不放在事务里);苹果那边出错也照样注销,不能让用户注销不了
+    if (row?.apple_refresh_token) {
+      if (deps.appleTokens) {
+        try {
+          await deps.appleTokens.revoke(row.apple_refresh_token);
+        } catch (err) {
+          req.log.error({ err, userId }, "向苹果撤销授权失败");
+        }
+      } else {
+        req.log.warn({ userId }, "没有配置 Sign in with Apple 密钥,跳过向苹果撤销授权");
+      }
+    } else if (row?.apple_sub) {
+      req.log.warn({ userId }, "没有苹果刷新令牌(登录时没带授权码或换取失败),无法向苹果撤销授权");
+    }
+
     await db.transaction().execute(async (trx) => {
-      const row = await trx.selectFrom("users").select("phone").where("id", "=", userId).forUpdate().executeTakeFirst();
       await trx
         .updateTable("users")
-        .set({ phone: null, apple_sub: null, wechat_unionid: null, wechat_openid: null, deleted_at: now })
+        .set({ phone: null, apple_sub: null, apple_refresh_token: null, wechat_unionid: null, wechat_openid: null, deleted_at: now })
         .where("id", "=", userId)
         .execute();
       await trx.deleteFrom("progress").where("user_id", "=", userId).execute();
       await trx.updateTable("events").set({ user_id: null }).where("user_id", "=", userId).execute();
       if (row?.phone) await trx.deleteFrom("sms_codes").where("phone", "=", row.phone).execute();
+      await deleteAiUsage(trx, userId);
+      await trx.deleteFrom("subscriptions").where("user_id", "=", userId).execute();
+      await trx.updateTable("subscription_events").set({ user_id: null }).where("user_id", "=", userId).execute();
+      await trx.updateTable("apple_notifications").set({ user_id: null }).where("user_id", "=", userId).execute();
     });
     req.log.info({ userId }, "账号已注销");
     return reply.status(204).send();

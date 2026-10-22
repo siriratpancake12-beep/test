@@ -16,7 +16,10 @@ const fix = (text: string) =>
     return `${head}${want}`;
   });
 
-for (const code of languageCodes()) {
+// --lang xx 只处理一门语言(别的语言可能有人正在写)
+const i = process.argv.indexOf("--lang");
+const only = i >= 0 ? process.argv[i + 1] : undefined;
+for (const code of languageCodes().filter((c) => !only || c === only)) {
   for (const f of [...lessonFiles(code), ...outlineFiles(code)]) {
     const before = readFileSync(f, "utf8");
     const after = fix(before);

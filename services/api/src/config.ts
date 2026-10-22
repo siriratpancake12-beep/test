@@ -13,6 +13,13 @@ export interface Config {
   adminToken: string | null;
   /** production 时不允许开发用的短信、默认密钥等 */
   env: "development" | "test" | "production";
+  /**
+   * 信任哪些代理转发来的 X-Forwarded-For(传给 Fastify 的 trustProxy,决定 req.ip)。
+   * 服务器在负载均衡后面时,TCP 连接来自负载均衡,真实 IP 在 X-Forwarded-For 里;但这个头客户端可以随便填,
+   * 所以只信"我们自己的代理"。默认:本机和内网地址段(含阿里云负载均衡用的 100.64.0.0/10),公网直连伪造的不算。
+   * TRUST_PROXY:逗号分隔的 IP / 网段;true = 全信(只在服务器绝对不可能被直连时用);false = 不信;数字 = 信最近 N 跳。
+   */
+  trustProxy: boolean | number | string[];
   sms: { provider: "dev" | "aliyun"; aliyunAccessKeyId?: string; aliyunAccessKeySecret?: string; signName?: string; templateCode?: string };
   apple: {
     bundleId: string;
@@ -26,6 +33,8 @@ export interface Config {
     teamId?: string;
     signInKeyId?: string;
     signInPrivateKey?: string;
+    /** 苹果根证书(.cer)所在目录,校验内购交易和服务器通知的签名用(证书不进仓库) */
+    rootCertsDir?: string;
   };
   wechat: { appId?: string; appSecret?: string };
   ai: { baseUrl?: string; apiKey?: string; model?: string; dailyFree: number; dailyPremium: number };
@@ -33,6 +42,18 @@ export interface Config {
 }
 
 const num = (v: string | undefined, d: number) => (v && !Number.isNaN(Number(v)) ? Number(v) : d);
+
+/** 默认信任的代理地址:本机、链路本地、内网地址段(proxy-addr 的写法),加上运营商级 NAT 段(阿里云负载均衡转发到后端用它) */
+export const DEFAULT_TRUST_PROXY = ["loopback", "linklocal", "uniquelocal", "100.64.0.0/10"];
+
+export function parseTrustProxy(v: string | undefined): boolean | number | string[] {
+  const s = (v ?? "").trim();
+  if (!s) return DEFAULT_TRUST_PROXY;
+  if (/^(true|yes|on)$/i.test(s)) return true;
+  if (/^(false|no|off|none)$/i.test(s)) return false;
+  if (/^\d+$/.test(s)) return Number(s);
+  return s.split(",").map((x) => x.trim()).filter(Boolean);
+}
 
 export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
   const mode = env.NODE_ENV === "production" ? "production" : env.NODE_ENV === "test" ? "test" : "development";
@@ -43,6 +64,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
     jwtSecret: env.JWT_SECRET || "dev-only-secret-change-me",
     adminToken: env.ADMIN_TOKEN || null,
     env: mode,
+    trustProxy: parseTrustProxy(env.TRUST_PROXY),
     sms: {
       provider: env.SMS_PROVIDER === "aliyun" ? "aliyun" : "dev",
       aliyunAccessKeyId: env.ALIYUN_ACCESS_KEY_ID,
@@ -60,6 +82,7 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
       teamId: env.APPLE_TEAM_ID,
       signInKeyId: env.APPLE_SIGNIN_KEY_ID,
       signInPrivateKey: env.APPLE_SIGNIN_PRIVATE_KEY,
+      rootCertsDir: env.APPLE_ROOT_CERTS_DIR || undefined,
     },
     wechat: { appId: env.WECHAT_APP_ID, appSecret: env.WECHAT_APP_SECRET },
     ai: { baseUrl: env.AI_BASE_URL, apiKey: env.AI_API_KEY, model: env.AI_MODEL, dailyFree: num(env.AI_DAILY_FREE, 12), dailyPremium: num(env.AI_DAILY_PREMIUM, 60) },
@@ -68,6 +91,8 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
   if (cfg.env === "production") {
     if (cfg.jwtSecret === "dev-only-secret-change-me") throw new Error("生产环境必须设置 JWT_SECRET");
     if (cfg.sms.provider === "dev") throw new Error("生产环境不能用开发短信(SMS_PROVIDER)");
+    // 不配就会悄悄用内置的 PGlite:数据存在容器里,重新部署就全没了
+    if (!cfg.databaseUrl) throw new Error("生产环境必须设置 DATABASE_URL(内置的 PGlite 只用于开发和测试)");
   }
   return cfg;
 }

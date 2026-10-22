@@ -267,16 +267,16 @@ describe("createAppStoreVerifier 和真实签名校验", () => {
   const cfg = (over: Partial<ReturnType<typeof testConfig>["apple"]> = {}) => testConfig({ apple: { bundleId: BUNDLE_ID, environment: "Sandbox", ...over } });
 
   it("缺配置返回 null", () => {
-    expect(createAppStoreVerifier(cfg(), {})).toBeNull();
-    expect(createAppStoreVerifier(cfg(), { APPLE_ROOT_CERTS_DIR: join(dir, "nope") })).toBeNull();
-    expect(createAppStoreVerifier(cfg({ environment: "Production" }), { APPLE_ROOT_CERTS_DIR: dir })).toBeNull();
-    expect(createAppStoreVerifier({ ...cfg({ environment: "LocalTesting" }), env: "production" }, {})).toBeNull();
-    expect(createAppStoreVerifier(cfg({ environment: "LocalTesting" }), {})).not.toBeNull();
-    expect(createAppStoreVerifier(cfg({ environment: "Production", appAppleId: 1234567890 }), { APPLE_ROOT_CERTS_DIR: dir })).not.toBeNull();
+    expect(createAppStoreVerifier(cfg())).toBeNull();
+    expect(createAppStoreVerifier(cfg({ rootCertsDir: join(dir, "nope") }))).toBeNull();
+    expect(createAppStoreVerifier(cfg({ environment: "Production", rootCertsDir: dir }))).toBeNull();
+    expect(createAppStoreVerifier({ ...cfg({ environment: "LocalTesting" }), env: "production" })).toBeNull();
+    expect(createAppStoreVerifier(cfg({ environment: "LocalTesting" }))).not.toBeNull();
+    expect(createAppStoreVerifier(cfg({ environment: "Production", appAppleId: 1234567890, rootCertsDir: dir }))).not.toBeNull();
   });
 
   it("端到端:苹果签名的交易和通知 → 会员;伪造的签名被拒", async () => {
-    t.deps.appStore = createAppStoreVerifier(cfg(), { APPLE_ROOT_CERTS_DIR: dir });
+    t.deps.appStore = createAppStoreVerifier(cfg({ rootCertsDir: dir }));
     expect(t.deps.appStore).not.toBeNull();
     const u = await newUser();
     const s = story(u.id);

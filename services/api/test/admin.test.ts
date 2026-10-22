@@ -74,7 +74,8 @@ const subscriptions: [string, Subscription][] = [
   ["u4", sub("active", "2027-11-29T00:00:00.000Z")], // 会员但只学了 2 天
   ["u6", sub("active", "2026-12-25T00:00:00.000Z")],
 ];
-const subEvents: [string, string, string][] = [
+/** [用户, 类型, 时间, 环境(不填 = 老数据没记环境,照算)] */
+const subEvents: [string, string, string, string?][] = [
   ["u1", "start-trial", "2026-11-10T00:00:00Z"],
   ["u1", "start-trial", "2026-11-10T00:00:01Z"], // 交易和通知各记了一条:试用开启数按条数算,转付费按人算
   ["u2", "start-trial", "2026-11-12T00:00:00Z"],
@@ -82,12 +83,18 @@ const subEvents: [string, string, string][] = [
   ["u3", "purchase", "2026-11-20T00:00:00Z"], // 和试用同一时刻:试用本身那笔,不算转付费
   ["u4", "start-trial", "2026-11-26T00:00:00Z"], // 到截止时还没满 7 天
   ["u6", "start-trial", "2026-10-25T00:00:00Z"], // 区间前
-  ["u1", "renewed", "2026-11-17T00:00:00Z"], // u1 试用转付费
+  ["u1", "renewed", "2026-11-17T00:00:00Z", "Production"], // u1 试用转付费
   ["u6", "renewed", "2026-11-01T00:00:00Z"],
   ["u2", "billing-failed", "2026-11-18T00:00:00Z"],
   ["u2", "expired", "2026-11-19T00:00:00Z"],
   ["u3", "refunded", "2026-11-25T00:00:00Z"],
   ["u6", "renewed", "2026-12-02T00:00:00Z"], // 区间后
+  // 苹果沙盒(审核、TestFlight、自己测试)的流水:哪项指标都不算
+  ["u5", "start-trial", "2026-11-10T00:00:00Z", "Sandbox"],
+  ["u5", "renewed", "2026-11-17T00:00:00Z", "Sandbox"],
+  ["u2", "purchase", "2026-11-20T00:00:00Z", "Sandbox"], // 不能让 u2 变成"转付费"
+  ["u4", "expired", "2026-11-21T00:00:00Z", "Sandbox"],
+  ["u4", "refunded", "2026-11-22T00:00:00Z", "Sandbox"],
 ];
 
 async function seed() {
@@ -105,8 +112,8 @@ async function seed() {
   for (const [u, s] of subscriptions) {
     await db.insertInto("subscriptions").values({ user_id: id[u]!, data: JSON.stringify(s), original_transaction_id: `otx-${u}`, updated_at: new Date() }).execute();
   }
-  await db.insertInto("subscription_events").values(subEvents.map(([u, type, at], i) => ({
-    id: `se_${i}`, user_id: id[u]!, type, product_id: "premium_yearly", at: new Date(at), source: "test", raw: null,
+  await db.insertInto("subscription_events").values(subEvents.map(([u, type, at, environment], i) => ({
+    id: `se_${i}`, user_id: id[u]!, type, product_id: "premium_yearly", at: new Date(at), source: "test", raw: null, environment: environment ?? null,
   }))).execute();
 }
 
@@ -157,7 +164,7 @@ describe("后台指标", () => {
       weeklyActiveLearners: 6,
       // 学了 3 天的 u1 u2 u3 u6 里,截止时是会员的:u2(宽限期)u3 u6
       northStar: 3,
-      // 区间内 start-trial 的条数
+      // 区间内 start-trial 的条数(不含沙盒)
       trialStarts: 5,
       // 满 7 天的试用 u1 u2 u3,之后付费的 u1
       trialToPaid: 1 / 3,

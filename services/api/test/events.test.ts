@@ -62,8 +62,16 @@ describe("埋点上传", () => {
     expect((await t.app.inject({ method: "POST", url: ROUTES.events })).statusCode).toBe(400);
   });
 
-  it("带了无效的 token:401(可选登录不等于不检查)", async () => {
-    const r = await post([ev()], { authorization: "Bearer not-a-token" });
-    expect(r.statusCode).toBe(401);
+  it("带了无效或过期的 token:照收,按没登录记(App 拿着旧凭证也能上传)", async () => {
+    const e1 = ev(), e2 = ev();
+    const r = await post([e1], { authorization: "Bearer not-a-token" });
+    expect(r.statusCode).toBe(200);
+    expect(r.json()).toEqual({ accepted: 1 });
+    // 签名对但已过期的
+    const { SignJWT } = await import("jose");
+    const expired = await new SignJWT({}).setProtectedHeader({ alg: "HS256" }).setSubject("someone").setIssuedAt(1).setExpirationTime(2)
+      .sign(new TextEncoder().encode(t.deps.config.jwtSecret));
+    expect((await post([e2], { authorization: `Bearer ${expired}` })).json()).toEqual({ accepted: 1 });
+    expect((await rows([e1.id, e2.id])).map((x) => x.user_id)).toEqual([null, null]);
   });
 });

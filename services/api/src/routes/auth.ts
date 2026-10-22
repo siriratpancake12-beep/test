@@ -8,7 +8,7 @@ import type { Database } from "../db";
 import { HttpError, badRequest, tooMany } from "../errors";
 import { createAliyunSmsSender } from "../auth/aliyun-sms";
 import { AppleUnavailableError, createAppleIdVerifier } from "../auth/apple";
-import { clientIp } from "../auth/client-ip";
+import { createAppleTokenClient } from "../auth/apple-tokens";
 import { installAccountCheck, signSession } from "../auth/session";
 import { SMS_RULES, beijingDayStart, hashSmsCode, newSmsCode, sameHash } from "../auth/sms-code";
 import { findOrCreateUser, findUserBy, toUser, type UserRow } from "../auth/users";
@@ -16,7 +16,7 @@ import { WechatError, createWechatClient } from "../auth/wechat";
 
 /**
  * 登录:手机号 + 短信验证码、Sign in with Apple、微信。负责人:server-core。
- * 下面三个接口是外部服务的抽象,测试里用假的实现;真实实现按 config 创建(createAuthProviders)。
+ * 下面几个接口是外部服务的抽象,测试里用假的实现;真实实现按 config 创建(createAuthProviders)。
  */
 export interface SmsSender {
   send(phone: string, code: string): Promise<void>;
@@ -25,21 +25,39 @@ export interface AppleIdVerifier {
   /** 校验 App 拿到的 identityToken(苹果签名的 JWT),返回苹果用户 id */
   verify(identityToken: string): Promise<{ sub: string; email?: string }>;
 }
+export interface AppleTokenClient {
+  /** 用 App 登录时拿到的一次性授权码换刷新令牌;sub 是令牌对应的苹果用户 id(核对授权码是不是本人的) */
+  exchangeCode(code: string): Promise<{ refreshToken: string; sub?: string }>;
+  /** 撤销授权(注销账号时,苹果要求) */
+  revoke(refreshToken: string): Promise<void>;
+}
 export interface WechatClient {
   /** 用 App 拿到的 code 换微信用户身份 */
   exchange(code: string): Promise<{ openid: string; unionid?: string }>;
 }
 
+/** Apple 登录时最多等多久"用授权码换刷新令牌"(超过就让它在后台完成,先回登录结果) */
+const APPLE_EXCHANGE_WAIT_MS = 2500;
+
 /** 开发用:验证码打在日志里。生产环境 loadConfig 不允许用它。 */
 const devSms: SmsSender = { async send(phone, code) { console.log(`[开发短信] ${phone} 验证码 ${code}`); } };
 
-export function createAuthProviders(config: Config): { sms: SmsSender; apple: AppleIdVerifier | null; wechat: WechatClient | null } {
+export function createAuthProviders(config: Config): { sms: SmsSender; apple: AppleIdVerifier | null; appleTokens: AppleTokenClient | null; wechat: WechatClient | null } {
   return {
     sms: createSmsSender(config),
     // 校验只需要苹果公开的公钥和我们的 bundleId,不需要密钥,所以总是开着
     apple: createAppleIdVerifier(config.apple.bundleId),
+    appleTokens: createAppleTokens(config),
     wechat: config.wechat.appId && config.wechat.appSecret ? createWechatClient(config.wechat.appId, config.wechat.appSecret) : null,
   };
+}
+
+/** 配了 Sign in with Apple 的密钥(Team ID、Key ID、私钥)才开;没配时 Apple 登录照常,只是注销时没法向苹果撤销授权 */
+export function createAppleTokens(config: Config): AppleTokenClient | null {
+  const { teamId, signInKeyId, signInPrivateKey, bundleId } = config.apple;
+  if (teamId && signInKeyId && signInPrivateKey) return createAppleTokenClient({ teamId, keyId: signInKeyId, privateKey: signInPrivateKey, clientId: bundleId });
+  if (config.env !== "test") console.warn("[登录] 没有配置 Sign in with Apple 密钥(APPLE_TEAM_ID、APPLE_SIGNIN_KEY_ID、APPLE_SIGNIN_PRIVATE_KEY):注销账号时无法向苹果撤销授权");
+  return null;
 }
 
 /** SMS_PROVIDER=aliyun 但配置不全时直接启动失败:比悄悄退回"验证码打日志"安全(那样线上谁都登录不了,验证码还进了日志) */
@@ -77,7 +95,8 @@ export function registerAuth(app: FastifyInstance, deps: Deps) {
 
   app.post(ROUTES.smsSend, async (req) => {
     const { phone } = SmsSendReq.parse(req.body, { error: () => "请输入正确的手机号" });
-    const ip = clientIp(req.socket.remoteAddress, req.headers["x-forwarded-for"]);
+    // 负载均衡后面的真实 IP 由 Fastify 按 trustProxy 从 X-Forwarded-For 取(见 config.trustProxy)
+    const ip = req.ip || "unknown";
     const now = deps.now();
     const code = newSmsCode();
     const id = randomUUID();
@@ -149,7 +168,7 @@ export function registerAuth(app: FastifyInstance, deps: Deps) {
 
   app.post(ROUTES.appleLogin, async (req) => {
     if (!deps.apple) throw badRequest("暂不支持 Apple 登录", "login_unavailable");
-    const { identityToken } = AppleLoginReq.parse(req.body, { error: () => "Apple 登录信息不完整,请重试" });
+    const { identityToken, authorizationCode } = AppleLoginReq.parse(req.body, { error: () => "Apple 登录信息不完整,请重试" });
     let sub: string;
     try {
       ({ sub } = await deps.apple.verify(identityToken));
@@ -161,6 +180,27 @@ export function registerAuth(app: FastifyInstance, deps: Deps) {
       throw new HttpError(401, "apple_invalid", "Apple 登录验证失败,请重试");
     }
     const { user, isNew } = await findOrCreateUser(db, { apple_sub: sub }, "apple_sub", deps.now());
+    if (authorizationCode && deps.appleTokens) {
+      // 换刷新令牌存起来,注销账号时用它向苹果撤销授权。失败不影响这次登录(下次登录会再换);
+      // 苹果慢的时候最多等一会儿,剩下的在后台做完,不拖慢登录
+      const tokens = deps.appleTokens;
+      const saving = (async () => {
+        try {
+          const got = await tokens.exchangeCode(authorizationCode);
+          // 授权码必须是这个苹果账号自己的:别人的授权码存到这个账号上,注销时会撤销掉别人的授权
+          if (got.sub && got.sub !== sub) {
+            req.log.warn({ userId: user.id }, "授权码和登录的苹果账号不一致,不保存");
+            return;
+          }
+          await db.updateTable("users").set({ apple_refresh_token: got.refreshToken }).where("id", "=", user.id).execute();
+        } catch (err) {
+          req.log.warn({ err, userId: user.id }, "用授权码换苹果刷新令牌失败(不影响登录)");
+        }
+      })();
+      let timer: ReturnType<typeof setTimeout> | undefined;
+      await Promise.race([saving, new Promise<void>((r) => (timer = setTimeout(r, APPLE_EXCHANGE_WAIT_MS)))]);
+      clearTimeout(timer);
+    }
     return done(user, isNew);
   });
 

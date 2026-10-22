@@ -1,0 +1,6098 @@
+{
+  "lang": "es",
+  "levels": [
+    "A1"
+  ],
+  "units": [
+    {
+      "unit": "A1-1 ¡Hola!",
+      "cefr": "A1",
+      "themeZh": "初到马德里的第一周:打招呼、问名字和介绍自己、说国籍和来自哪里、拼写名字、听不懂时请对方重复或说慢一点、数字 0–20、问年龄和电话。语法:主语代词 yo / tú、ser 的单数变位、国籍形容词的阴阳性、字母和拼读规则、用 tener 说年龄"
+    },
+    {
+      "unit": "A1-2 家人与朋友",
+      "cefr": "A1",
+      "themeZh": "看家人的照片、兄弟姐妹和亲戚、家人的年龄(数字到 100)、描述长相和性格、家人做什么工作、会说什么语言。语法:tener、不定冠词 un / una 和名词复数、物主形容词 mi / tu / su、主语代词 él / ella / nosotros / ellos、形容词的性数配合、-ar 规则动词现在时"
+    },
+    {
+      "unit": "A1-3 我的住处",
+      "cefr": "A1",
+      "themeZh": "搬进合租公寓:房间和家具、东西放在哪儿、认识房东和街区、说住在哪里、向朋友介绍住处、写一封介绍新家的邮件。语法:hay、estar 说位置、方位短语和 del 缩合、hay 和 estar 的区别、usted、-ir 规则动词 vivir、ser 和 estar 加形容词"
+    },
+    {
+      "unit": "A1-4 吃喝",
+      "cefr": "A1",
+      "themeZh": "在马德里吃喝:酒吧早餐、和朋友点 tapas、逛菜市场、吃今日套餐、在家做中国菜请室友、结账付钱。语法:querer(e→ie)、poder(o→ue)、vosotros 和它的变位、-er 规则动词 comer / beber、点餐和付款的固定说法、序数词 primero / segundo"
+    },
+    {
+      "unit": "A1-5 时间与日常",
+      "cefr": "A1",
+      "themeZh": "现在几点、约几点见、一周七天、日期和生日、十二个月和学年安排、一天的作息、一周的计划。语法:钟点(es la una / son las…)、¿a qué hora?、星期和日期的说法、empezar(e→ie)、反身动词入门(levantarse、acostarse)、por la mañana / tarde / noche"
+    },
+    {
+      "unit": "A1-6 城市与交通",
+      "cefr": "A1",
+      "themeZh": "城市里常去的地方、在街上问路、坐地铁和公交、在火车站买票、问景点开放时间和门票、写一日游行程。语法:ir(不规则)、ir a + 地点 / ir en + 交通工具、a + el = al、tener que + 动词原形、salir / llegar / volver、问路的固定说法"
+    },
+    {
+      "unit": "A1-7 购物",
+      "cefr": "A1",
+      "themeZh": "天冷了买衣服:衣物和颜色、指着衣服试穿、尺码合不合适、听懂上百欧元的价格和付款方式、在跳蚤市场给弟弟挑礼物、换货。语法:颜色形容词的配合、指示词 este / ese、probarse(o→ue)、100–1000 的数字、比较 más / menos … que、mejor"
+    },
+    {
+      "unit": "A1-8 爱好与周末",
+      "cefr": "A1",
+      "themeZh": "说喜欢和不喜欢什么、爱好和频率、天气和季节、约朋友和礼貌地拒绝、上周末做了什么、写周末博客。语法:gustar / encantar、a mí también / tampoco、频率副词、hacer 说天气、ir a + 动词原形、简单过去时入门(visité、comí、fui、hice)"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "es.a1u1.l01",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-1 ¡Hola!",
+      "order": 101010,
+      "titleZh": "你好,我叫李娜",
+      "goalZh": "学会按时间段打招呼,会问别人的名字、介绍自己的名字",
+      "canDoZh": "能用西语打招呼,问对方叫什么,并介绍自己的名字",
+      "scenarioZh": "九月初的一个上午,李娜第一次到马德里的大学报到。国际学生办公室门口,学生志愿者 Javier 笑着跟她打招呼,两人互相问名字,说'很高兴认识你';下午在走廊又碰见,改说 buenas tardes,最后说再见。说话人:lina、javier。",
+      "grammarFocusZh": "问候按时间段选:buenos días(午饭前)/ buenas tardes(午饭后到天黑)/ buenas noches(天黑以后);me llamo / ¿cómo te llamas? 先当固定说法记;问句和感叹句前面要加倒问号 ¿ 和倒叹号 ¡;encantado / encantada 跟说话人的性别走。发音:h 不发音,ll 读 [ʝ]",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.hola",
+          "kind": "word",
+          "pos": "interj",
+          "text": "Hola",
+          "zh": "你好;嗨",
+          "features": {
+            "ipa": "ˈola"
+          },
+          "noteZh": "h 不发音,读作 ola。见面最常用,对谁都可以说。"
+        },
+        {
+          "id": "es.buenos_dias",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "Buenos días",
+          "zh": "早上好;上午好",
+          "features": {
+            "ipa": "ˈbwenos ˈdias"
+          },
+          "noteZh": "午饭(西班牙一般两点左右)以前都可以说;días 的 í 有重音符号。"
+        },
+        {
+          "id": "es.buenas_tardes",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "Buenas tardes",
+          "zh": "下午好",
+          "features": {
+            "ipa": "ˈbwenas ˈtaɾdes"
+          },
+          "noteZh": "西班牙的 tarde 从午饭后一直到天黑,夏天晚上八九点还说 buenas tardes。"
+        },
+        {
+          "id": "es.buenas_noches",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "Buenas noches",
+          "zh": "晚上好;晚安",
+          "features": {
+            "ipa": "ˈbwenas ˈnotʃes"
+          },
+          "noteZh": "天黑以后见面、告别、睡前都可以说。"
+        },
+        {
+          "id": "es.como_te_llamas",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Cómo te llamas?",
+          "zh": "你叫什么名字?",
+          "features": {
+            "ipa": "ˈkomo te ˈʝamas"
+          },
+          "noteZh": "对长辈或在正式场合说 ¿Cómo se llama usted?;西班牙大多数地方 ll 读得像 y [ʝ]。"
+        },
+        {
+          "id": "es.me_llamo",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "Me llamo",
+          "zh": "我叫……",
+          "features": {
+            "ipa": "me ˈʝamo"
+          },
+          "noteZh": "后面直接跟名字:Me llamo Li Na。不要说 me llamo es。"
+        },
+        {
+          "id": "es.encantado",
+          "kind": "word",
+          "pos": "adj",
+          "text": "encantado",
+          "zh": "幸会;很高兴认识你",
+          "alt": [
+            "encantada"
+          ],
+          "features": {
+            "ipa": "eŋkanˈtado"
+          },
+          "noteZh": "按说话人的性别变:男生说 encantado,女生说 encantada(李娜说 encantada)。"
+        },
+        {
+          "id": "es.y",
+          "kind": "word",
+          "pos": "conj",
+          "text": "y",
+          "zh": "和(连接词)",
+          "features": {
+            "ipa": "i"
+          },
+          "noteZh": "只有一个字母,读 [i]。¿Y tú? = 你呢?"
+        },
+        {
+          "id": "es.tu",
+          "kind": "word",
+          "pos": "pron",
+          "text": "tú",
+          "zh": "你",
+          "features": {
+            "ipa": "tu"
+          },
+          "noteZh": "有重音符号;不带重音的 tu 是'你的'(第 2 单元学)。对朋友、同学、年轻人用 tú。"
+        },
+        {
+          "id": "es.adios",
+          "kind": "word",
+          "pos": "interj",
+          "text": "Adiós",
+          "zh": "再见",
+          "features": {
+            "ipa": "aˈdjos"
+          },
+          "noteZh": "重音在 ós,别漏了重音符号。"
+        }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "es.a1u1.l02",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-1 ¡Hola!",
+      "order": 101020,
+      "titleZh": "你是哪里人?",
+      "goalZh": "会用 ser 说自己是哪国人、来自哪里,也会问别人",
+      "canDoZh": "能说自己是中国人、来自哪个城市,也能问别人从哪里来",
+      "scenarioZh": "国际学生欢迎会上,Javier 把李娜介绍给墨西哥交换生 Diego。三个人互相问是哪里人:李娜来自中国成都,Diego 来自墨西哥瓜达拉哈拉,Javier 是土生土长的马德里人。李娜注意到自己要说 Soy china,不是 chino。说话人:lina、javier、diego。",
+      "grammarFocusZh": "主语代词 yo / tú;ser 的单数变位 soy / eres / es(不规则,要背);ser de + 国家或城市 = 来自哪里;疑问词 ¿dónde? / ¿de dónde?;国籍形容词分阴阳性:chino → china,mexicano → mexicana,español → española;国家名大写、国籍小写;动词已经表明人称,主语代词常省略(Soy china.)",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.ser",
+          "kind": "word",
+          "pos": "verb",
+          "text": "ser",
+          "zh": "是(身份、国籍、来源)",
+          "features": {
+            "ipa": "seɾ"
+          },
+          "noteZh": "不规则:soy, eres, es, somos, sois, son。说'是谁、是哪国人、来自哪里'用 ser。"
+        },
+        {
+          "id": "es.yo",
+          "kind": "word",
+          "pos": "pron",
+          "text": "yo",
+          "zh": "我",
+          "features": {
+            "ipa": "ʝo"
+          },
+          "noteZh": "动词变位已经说明是'我',所以常省略:Soy de China。强调或对比时才说 yo。"
+        },
+        {
+          "id": "es.de",
+          "kind": "word",
+          "pos": "prep",
+          "text": "de",
+          "zh": "从……来;……的",
+          "features": {
+            "ipa": "de"
+          },
+          "noteZh": "Soy de China.(我来自中国);也表示'……的':el libro de Li Na。"
+        },
+        {
+          "id": "es.donde",
+          "kind": "word",
+          "pos": "adv",
+          "text": "dónde",
+          "zh": "哪里",
+          "features": {
+            "ipa": "ˈdonde"
+          },
+          "noteZh": "疑问词都有重音符号:¿Dónde? ¿De dónde eres? = 你是哪里人?"
+        },
+        {
+          "id": "es.china",
+          "kind": "word",
+          "pos": "propn",
+          "text": "China",
+          "zh": "中国",
+          "features": {
+            "ipa": "ˈtʃina"
+          },
+          "noteZh": "国家名首字母大写;ch 读 [tʃ],像汉语'吃'但不卷舌。"
+        },
+        {
+          "id": "es.espana",
+          "kind": "word",
+          "pos": "propn",
+          "text": "España",
+          "zh": "西班牙",
+          "features": {
+            "ipa": "esˈpaɲa"
+          },
+          "noteZh": "ñ 读 [ɲ],像'尼亚'连读;ñ 不能写成 n。"
+        },
+        {
+          "id": "es.mexico",
+          "kind": "word",
+          "pos": "propn",
+          "text": "México",
+          "zh": "墨西哥",
+          "features": {
+            "ipa": "ˈmexiko"
+          },
+          "noteZh": "这里的 x 读 [x](像汉语 h),不读 ks。"
+        },
+        {
+          "id": "es.chino",
+          "kind": "word",
+          "pos": "adj",
+          "text": "chino",
+          "zh": "中国的;中国人",
+          "alt": [
+            "china"
+          ],
+          "features": {
+            "ipa": "ˈtʃino"
+          },
+          "noteZh": "女生说 china:Soy china。国籍要小写;加冠词 el chino 也指'汉语'。"
+        },
+        {
+          "id": "es.espanol",
+          "kind": "word",
+          "pos": "adj",
+          "text": "español",
+          "zh": "西班牙的;西班牙人",
+          "alt": [
+            "española"
+          ],
+          "features": {
+            "ipa": "espaˈɲol"
+          },
+          "noteZh": "辅音结尾的国籍,阴性加 -a:española;el español 也指'西班牙语'。"
+        },
+        {
+          "id": "es.mexicano",
+          "kind": "word",
+          "pos": "adj",
+          "text": "mexicano",
+          "zh": "墨西哥的;墨西哥人",
+          "alt": [
+            "mexicana"
+          ],
+          "features": {
+            "ipa": "mexiˈkano"
+          },
+          "noteZh": "阴性 mexicana;x 读 [x]。"
+        }
+      ],
+      "reviewItems": [
+        "es.me_llamo",
+        "es.tu",
+        "es.encantado"
+      ]
+    },
+    {
+      "id": "es.a1u1.l03",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-1 ¡Hola!",
+      "order": 101030,
+      "titleZh": "怎么拼写?",
+      "goalZh": "认识西语字母和拼读规则,会请别人拼写、重复、说慢一点",
+      "canDoZh": "能拼写自己的名字;听不懂时会请对方重复或说慢一点",
+      "scenarioZh": "第一节西语课,安德烈斯老师给新同学做名单:每个人要拼出自己的名字,还要留电话、说年龄。老师说得太快,李娜鼓起勇气说 No entiendo,请他重复、说慢一点——数字她还说不好,接下来两课就学。说话人:andres、lina。",
+      "grammarFocusZh": "字母表和拼读规则:五个元音 a e i o u 发音固定;h 不发音;c 在 e、i 前和 z 读 [θ](咬舌音,拉美读 s);j 和 g(在 e、i 前)读喉音 [x];ll 和 y 读 [ʝ];ñ 读 [ɲ];r 轻弹一下,rr 和词首的 r 要多颤几下;b 和 v 读音相同。重音规则:以元音、n、s 结尾的词重音在倒数第二个音节,其他在最后一个音节,不合规则的写重音符号。拼名字时一个字母一个字母说(L-i:ele, i)",
+      "skills": [
+        "listen",
+        "speak",
+        "write"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.como_se_escribe",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Cómo se escribe?",
+          "zh": "怎么拼写?",
+          "features": {
+            "ipa": "ˈkomo se esˈkɾibe"
+          },
+          "noteZh": "拼名字时一个字母一个字母说:Na = ene, a。"
+        },
+        {
+          "id": "es.no_entiendo",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "No entiendo",
+          "zh": "我听不懂;我不明白",
+          "features": {
+            "ipa": "no enˈtjendo"
+          },
+          "noteZh": "听不懂就说,很正常;语气要礼貌,后面接 ¿Puedes repetir?"
+        },
+        {
+          "id": "es.puedes_repetir",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Puedes repetir?",
+          "zh": "你能再说一遍吗?",
+          "features": {
+            "ipa": "ˈpwedes repeˈtiɾ"
+          },
+          "noteZh": "对老师、陌生人更客气地说 ¿Puede repetir?(用 usted 的变位)。"
+        },
+        {
+          "id": "es.mas_despacio",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "Más despacio",
+          "zh": "慢一点",
+          "features": {
+            "ipa": "mas desˈpaθjo"
+          },
+          "noteZh": "常说:Más despacio, por favor.(请说慢一点);c 在 i 前读 [θ]。"
+        },
+        {
+          "id": "es.por_favor",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "por favor",
+          "zh": "请",
+          "features": {
+            "ipa": "poɾ faˈboɾ"
+          },
+          "noteZh": "放在句末最自然:Más despacio, por favor。v 读 [b]。"
+        },
+        {
+          "id": "es.gracias",
+          "kind": "word",
+          "pos": "interj",
+          "text": "Gracias",
+          "zh": "谢谢",
+          "features": {
+            "ipa": "ˈɡɾaθjas"
+          },
+          "noteZh": "西班牙 c 在 i 前读 [θ](咬舌),拉美读 [s];r 只轻弹一下。"
+        },
+        {
+          "id": "es.si",
+          "kind": "word",
+          "pos": "adv",
+          "text": "sí",
+          "zh": "是;对",
+          "features": {
+            "ipa": "si"
+          },
+          "noteZh": "有重音符号;没有重音的 si 是'如果'。"
+        },
+        {
+          "id": "es.no",
+          "kind": "word",
+          "pos": "adv",
+          "text": "no",
+          "zh": "不;不是",
+          "features": {
+            "ipa": "no"
+          },
+          "noteZh": "否定放在动词前:No entiendo。回答问题常说两次:No, no soy español。"
+        },
+        {
+          "id": "es.cual_es_tu_numero",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Cuál es tu número de teléfono?",
+          "zh": "你的电话号码是多少?",
+          "features": {
+            "ipa": "kwal es tu ˈnumeɾo de teˈlefono"
+          },
+          "noteZh": "回答:Es el 6…。西班牙手机号 9 位,以 6 或 7 开头,一般一位一位地读。"
+        },
+        {
+          "id": "es.cuantos_anos_tienes",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Cuántos años tienes?",
+          "zh": "你多大了?",
+          "features": {
+            "ipa": "ˈkwantos ˈaɲos ˈtjenes"
+          },
+          "noteZh": "回答:Tengo veinte años。说年龄用 tener(有),不用 ser;años 的 ñ 一定要写,写成 n 意思完全不同。"
+        }
+      ],
+      "reviewItems": [
+        "es.me_llamo",
+        "es.ser",
+        "es.y"
+      ]
+    },
+    {
+      "id": "es.a1u1.l04",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-1 ¡Hola!",
+      "order": 101040,
+      "titleZh": "数字 1–10 和电话号码",
+      "goalZh": "会说 1–10,能一位一位地说出和听懂电话号码",
+      "canDoZh": "能用西语说出自己的手机号,也能听写别人的号码",
+      "scenarioZh": "下课后李娜和 Javier 第一次做语言交换:Javier 学中文,李娜学西语。两人对比中国人和西班牙人用手指数数的方法,然后交换手机号。这一课的号码里不要出现 0(0 在单元复习课里学)。说话人:lina、javier。",
+      "grammarFocusZh": "数字 1–10;电话号码一位一位地读:Es el seis, cuatro, cinco…;问号码用 ¿Cuál es…?;uno 在名词前要变成 un / una(第 2 单元学)。发音:cinco、diez 里的 [θ],nueve 里的 v 读 [b]",
+      "skills": [
+        "listen",
+        "speak",
+        "write"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.uno",
+          "kind": "word",
+          "pos": "num",
+          "text": "uno",
+          "zh": "一",
+          "features": {
+            "ipa": "ˈuno"
+          },
+          "noteZh": "在阳性名词前变 un,在阴性名词前变 una。"
+        },
+        {
+          "id": "es.dos",
+          "kind": "word",
+          "pos": "num",
+          "text": "dos",
+          "zh": "二",
+          "features": {
+            "ipa": "dos"
+          }
+        },
+        {
+          "id": "es.tres",
+          "kind": "word",
+          "pos": "num",
+          "text": "tres",
+          "zh": "三",
+          "features": {
+            "ipa": "tɾes"
+          },
+          "noteZh": "tr 连在一起读,中间不要加元音;r 只轻弹一下。"
+        },
+        {
+          "id": "es.cuatro",
+          "kind": "word",
+          "pos": "num",
+          "text": "cuatro",
+          "zh": "四",
+          "features": {
+            "ipa": "ˈkwatɾo"
+          },
+          "noteZh": "cua 读得像'夸'。"
+        },
+        {
+          "id": "es.cinco",
+          "kind": "word",
+          "pos": "num",
+          "text": "cinco",
+          "zh": "五",
+          "features": {
+            "ipa": "ˈθiŋko"
+          },
+          "noteZh": "西班牙读 [θ](舌尖轻咬),拉美读 [s]。"
+        },
+        {
+          "id": "es.seis",
+          "kind": "word",
+          "pos": "num",
+          "text": "seis",
+          "zh": "六",
+          "features": {
+            "ipa": "seis"
+          },
+          "noteZh": "ei 是一个双元音,像英语 say。"
+        },
+        {
+          "id": "es.siete",
+          "kind": "word",
+          "pos": "num",
+          "text": "siete",
+          "zh": "七",
+          "features": {
+            "ipa": "ˈsjete"
+          }
+        },
+        {
+          "id": "es.ocho",
+          "kind": "word",
+          "pos": "num",
+          "text": "ocho",
+          "zh": "八",
+          "features": {
+            "ipa": "ˈotʃo"
+          },
+          "noteZh": "ch 读 [tʃ]。"
+        },
+        {
+          "id": "es.nueve",
+          "kind": "word",
+          "pos": "num",
+          "text": "nueve",
+          "zh": "九",
+          "features": {
+            "ipa": "ˈnwebe"
+          },
+          "noteZh": "v 和 b 读音一样;ue 是一个双元音 [we],nue 只占一个音节。"
+        },
+        {
+          "id": "es.diez",
+          "kind": "word",
+          "pos": "num",
+          "text": "diez",
+          "zh": "十",
+          "features": {
+            "ipa": "djeθ"
+          },
+          "noteZh": "z 在西班牙读 [θ],拉美读 [s]。"
+        }
+      ],
+      "reviewItems": [
+        "es.cual_es_tu_numero",
+        "es.no_entiendo",
+        "es.mas_despacio",
+        "es.gracias"
+      ]
+    },
+    {
+      "id": "es.a1u1.l05",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-1 ¡Hola!",
+      "order": 101050,
+      "titleZh": "你多大了?",
+      "goalZh": "会说 11–20,会问别人的年龄、说自己的年龄",
+      "canDoZh": "能问别人多大,并说出自己的年龄",
+      "scenarioZh": "在学校咖啡馆,李娜、Diego 和 Javier 玩'猜年龄':Diego 猜李娜十八岁,李娜笑着说不对,她二十岁;Javier 十九岁,Diego 也是二十岁。说话人:lina、diego、javier。",
+      "grammarFocusZh": "数字 11–20:11–15 要单独记,16–19 是 dieci + 个位,写成一个词(dieciséis 有重音符号);说年龄用 tener:tengo / tienes / tiene + 数字 + años,不能用 ser。发音:once、doce、trece、catorce、quince 里的 [θ]",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.once",
+          "kind": "word",
+          "pos": "num",
+          "text": "once",
+          "zh": "十一",
+          "features": {
+            "ipa": "ˈonθe"
+          },
+          "noteZh": "c 在 e 前读 [θ];和英语 once 没有关系。"
+        },
+        {
+          "id": "es.doce",
+          "kind": "word",
+          "pos": "num",
+          "text": "doce",
+          "zh": "十二",
+          "features": {
+            "ipa": "ˈdoθe"
+          }
+        },
+        {
+          "id": "es.trece",
+          "kind": "word",
+          "pos": "num",
+          "text": "trece",
+          "zh": "十三",
+          "features": {
+            "ipa": "ˈtɾeθe"
+          }
+        },
+        {
+          "id": "es.catorce",
+          "kind": "word",
+          "pos": "num",
+          "text": "catorce",
+          "zh": "十四",
+          "features": {
+            "ipa": "kaˈtoɾθe"
+          }
+        },
+        {
+          "id": "es.quince",
+          "kind": "word",
+          "pos": "num",
+          "text": "quince",
+          "zh": "十五",
+          "features": {
+            "ipa": "ˈkinθe"
+          },
+          "noteZh": "qu 读 [k],u 不发音。"
+        },
+        {
+          "id": "es.dieciseis",
+          "kind": "word",
+          "pos": "num",
+          "text": "dieciséis",
+          "zh": "十六",
+          "features": {
+            "ipa": "djeθiˈseis"
+          },
+          "noteZh": "dieci + seis,写成一个词,最后的 é 有重音符号。"
+        },
+        {
+          "id": "es.diecisiete",
+          "kind": "word",
+          "pos": "num",
+          "text": "diecisiete",
+          "zh": "十七",
+          "features": {
+            "ipa": "djeθiˈsjete"
+          }
+        },
+        {
+          "id": "es.dieciocho",
+          "kind": "word",
+          "pos": "num",
+          "text": "dieciocho",
+          "zh": "十八",
+          "features": {
+            "ipa": "djeθiˈotʃo"
+          }
+        },
+        {
+          "id": "es.diecinueve",
+          "kind": "word",
+          "pos": "num",
+          "text": "diecinueve",
+          "zh": "十九",
+          "features": {
+            "ipa": "djeθiˈnwebe"
+          }
+        },
+        {
+          "id": "es.veinte",
+          "kind": "word",
+          "pos": "num",
+          "text": "veinte",
+          "zh": "二十",
+          "features": {
+            "ipa": "ˈbeinte"
+          },
+          "noteZh": "v 读 [b];21–29 也写成一个词:veintiuno……(第 2 单元)。"
+        }
+      ],
+      "reviewItems": [
+        "es.cuantos_anos_tienes",
+        "es.y",
+        "es.tu"
+      ]
+    },
+    {
+      "id": "es.a1u1.l08",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-1 ¡Hola!",
+      "order": 101080,
+      "titleZh": "单元复习:在体育中心办卡",
+      "goalZh": "把本单元的打招呼、名字、国籍、拼写、数字和年龄串起来,完成一次登记个人信息的对话",
+      "canDoZh": "能在前台说清自己的个人信息:姓名(并拼写)、国籍、年龄和电话",
+      "scenarioZh": "李娜去大学体育中心办健身卡。前台工作人员问她的名字和姓(怎么拼)、是哪国人、多大、手机号——这次号码里有 0。李娜有一处听不清,请对方重复。办好后道谢、说再见。对话比前几课长,至少 12 句。说话人:recepcionista、lina。",
+      "grammarFocusZh": "复习 ser、me llamo、tener … años 和数字 0–20;西班牙人一般有两个姓(先父姓,后母姓),中国人姓在前名在后,登记时要说明:Li es el apellido。Gracias — De nada 的问答",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 12,
+      "newItems": [
+        {
+          "id": "es.cero",
+          "kind": "word",
+          "pos": "num",
+          "text": "cero",
+          "zh": "零",
+          "features": {
+            "ipa": "ˈθeɾo"
+          },
+          "noteZh": "c 读 [θ],r 只轻弹一下;电话号码里常有。"
+        },
+        {
+          "id": "es.apellido",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el apellido",
+          "zh": "姓",
+          "features": {
+            "gender": "m",
+            "ipa": "el apeˈʝido"
+          },
+          "noteZh": "西班牙人通常有两个姓(如 García López),表格上写 apellidos;ll 读 [ʝ]。"
+        },
+        {
+          "id": "es.de_nada",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "De nada",
+          "zh": "不客气",
+          "features": {
+            "ipa": "de ˈnada"
+          },
+          "noteZh": "别人说 Gracias 时的回答。"
+        },
+        {
+          "id": "es.hasta_luego",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "Hasta luego",
+          "zh": "回头见;待会儿见",
+          "features": {
+            "ipa": "ˈasta ˈlweɡo"
+          },
+          "noteZh": "h 不发音。西班牙人告别时最常说,不一定真的待会儿就见。"
+        }
+      ],
+      "reviewItems": [
+        "es.como_se_escribe",
+        "es.cual_es_tu_numero",
+        "es.cuantos_anos_tienes",
+        "es.chino"
+      ]
+    },
+    {
+      "id": "es.a1u2.l01",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-2 家人与朋友",
+      "order": 102010,
+      "titleZh": "这是我的家人",
+      "goalZh": "记住主要家庭成员的说法,会用'这是我的……'介绍人",
+      "canDoZh": "能指着照片介绍自己的家人,问'这是谁'",
+      "scenarioZh": "晚上,李娜在手机上给 Javier 看家人的照片:爸爸、妈妈和十岁的弟弟在成都的家里吃火锅。Javier 指着照片问 ¿Quién es?,李娜一个个介绍:Este es mi padre…… 说话人:javier、lina。",
+      "grammarFocusZh": "家庭成员名词的阴阳性(el padre / la madre,el hermano / la hermana);阳性复数可以包括男女:los padres = 父母,los hermanos = 兄弟姐妹;物主形容词 mi / tu 放在名词前,复数加 -s(mis padres、tus hermanos);介绍人用 Este es… / Esta es…;¿Quién es? 问是谁",
+      "skills": [
+        "listen",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.familia",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la familia",
+          "zh": "家庭;家人",
+          "features": {
+            "gender": "f",
+            "ipa": "la faˈmilja"
+          },
+          "noteZh": "单数表示'一家人':Mi familia es de Chengdú。"
+        },
+        {
+          "id": "es.padre",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el padre",
+          "zh": "父亲;爸爸",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈpadɾe"
+          },
+          "noteZh": "口语叫 papá(重音在后)。"
+        },
+        {
+          "id": "es.madre",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la madre",
+          "zh": "母亲;妈妈",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈmadɾe"
+          },
+          "noteZh": "口语叫 mamá。"
+        },
+        {
+          "id": "es.padres",
+          "kind": "word",
+          "pos": "noun",
+          "text": "los padres",
+          "zh": "父母",
+          "features": {
+            "gender": "m",
+            "ipa": "los ˈpadɾes"
+          },
+          "noteZh": "los padres 是'父母',不是'父亲们';parientes 是'亲戚',不是'父母'。"
+        },
+        {
+          "id": "es.hermano",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el hermano",
+          "zh": "兄弟(哥哥或弟弟)",
+          "features": {
+            "gender": "m",
+            "ipa": "el eɾˈmano"
+          },
+          "noteZh": "h 不发音;西语不分哥哥弟弟;los hermanos 也可以指'兄弟姐妹'。"
+        },
+        {
+          "id": "es.hermana",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la hermana",
+          "zh": "姐妹(姐姐或妹妹)",
+          "features": {
+            "gender": "f",
+            "ipa": "la eɾˈmana"
+          }
+        },
+        {
+          "id": "es.mi",
+          "kind": "word",
+          "pos": "det",
+          "text": "mi",
+          "zh": "我的",
+          "features": {
+            "ipa": "mi"
+          },
+          "noteZh": "复数 mis:mis padres;没有重音符号。"
+        },
+        {
+          "id": "es.tu_pos",
+          "kind": "word",
+          "pos": "det",
+          "text": "tu",
+          "zh": "你的",
+          "features": {
+            "ipa": "tu"
+          },
+          "noteZh": "不带重音符号的 tu 是'你的',带重音的 tú 是'你';复数 tus。"
+        },
+        {
+          "id": "es.este",
+          "kind": "word",
+          "pos": "det",
+          "text": "este",
+          "zh": "这;这个(人或东西)",
+          "features": {
+            "ipa": "ˈeste"
+          },
+          "noteZh": "介绍人:Este es mi padre / Esta es mi madre(女性用 esta);复数 estos / estas。第 7 单元还会学 ese(那个)。"
+        },
+        {
+          "id": "es.quien",
+          "kind": "word",
+          "pos": "pron",
+          "text": "quién",
+          "zh": "谁",
+          "features": {
+            "ipa": "kjen"
+          },
+          "noteZh": "疑问词有重音符号:¿Quién es?;问好几个人用 ¿Quiénes son?"
+        }
+      ],
+      "reviewItems": [
+        "es.ser",
+        "es.yo",
+        "es.y"
+      ]
+    },
+    {
+      "id": "es.a1u2.l02",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-2 家人与朋友",
+      "order": 102020,
+      "titleZh": "你有兄弟姐妹吗?",
+      "goalZh": "会用 tener 说家里有什么人,会问'几个'",
+      "canDoZh": "能问别人有没有兄弟姐妹、家里有几口人,也能说自己家的情况",
+      "scenarioZh": "Javier 说他家是大家庭:两个哥哥、一个妹妹,叔叔家还有三个表兄弟,每个星期天都一起吃饭。李娜说她只有一个弟弟——在中国,她这一代很多人是独生子女。说话人:javier、lina。",
+      "grammarFocusZh": "tener(有)现在时:tengo, tienes, tiene, tenemos, tenéis, tienen(不规则);不定冠词 un / una;名词复数:元音结尾加 -s,辅音结尾加 -es;¿cuántos? / ¿cuántas? 要和后面名词的性一致;主语代词 él / ella;su = 他的 / 她的 / 您的",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.tener",
+          "kind": "word",
+          "pos": "verb",
+          "text": "tener",
+          "zh": "有",
+          "features": {
+            "ipa": "teˈneɾ"
+          },
+          "noteZh": "不规则:tengo, tienes, tiene, tenemos, tenéis, tienen;说年龄也用它:Tengo veinte años。"
+        },
+        {
+          "id": "es.un",
+          "kind": "word",
+          "pos": "det",
+          "text": "un",
+          "zh": "一个(阳性)",
+          "features": {
+            "ipa": "un"
+          },
+          "noteZh": "用在阳性单数名词前:un hermano。"
+        },
+        {
+          "id": "es.una",
+          "kind": "word",
+          "pos": "det",
+          "text": "una",
+          "zh": "一个(阴性)",
+          "features": {
+            "ipa": "ˈuna"
+          },
+          "noteZh": "用在阴性单数名词前:una hermana。"
+        },
+        {
+          "id": "es.cuantos",
+          "kind": "word",
+          "pos": "det",
+          "text": "cuántos",
+          "zh": "多少;几个",
+          "features": {
+            "ipa": "ˈkwantos"
+          },
+          "noteZh": "要和名词一致:¿Cuántos hermanos tienes? / ¿Cuántas hermanas tienes?"
+        },
+        {
+          "id": "es.el",
+          "kind": "word",
+          "pos": "pron",
+          "text": "él",
+          "zh": "他",
+          "features": {
+            "ipa": "el"
+          },
+          "noteZh": "有重音符号,和冠词 el 区分。"
+        },
+        {
+          "id": "es.ella",
+          "kind": "word",
+          "pos": "pron",
+          "text": "ella",
+          "zh": "她",
+          "features": {
+            "ipa": "ˈeʝa"
+          },
+          "noteZh": "ll 读 [ʝ]。"
+        },
+        {
+          "id": "es.su",
+          "kind": "word",
+          "pos": "det",
+          "text": "su",
+          "zh": "他的;她的;您的",
+          "features": {
+            "ipa": "su"
+          },
+          "noteZh": "su 可以指他、她、您、他们的,看上下文;复数 sus。"
+        },
+        {
+          "id": "es.hijo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el hijo",
+          "zh": "儿子",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈixo"
+          },
+          "noteZh": "女儿是 la hija;los hijos = 孩子们(儿子和女儿);h 不发音,j 读 [x]。"
+        },
+        {
+          "id": "es.tio",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el tío",
+          "zh": "叔叔、舅舅等(父母的兄弟)",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈtio"
+          },
+          "noteZh": "西语不分父系母系,都叫 tío;女的是 la tía。西班牙年轻人口语里 tío / tía 还当'哥们儿'用。"
+        },
+        {
+          "id": "es.primo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el primo",
+          "zh": "堂兄弟;表兄弟",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈpɾimo"
+          },
+          "noteZh": "女的是 la prima;西语不分堂表。"
+        }
+      ],
+      "reviewItems": [
+        "es.hermano",
+        "es.hermana",
+        "es.mi"
+      ]
+    },
+    {
+      "id": "es.a1u2.l03",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-2 家人与朋友",
+      "order": 102030,
+      "titleZh": "爷爷八十二岁了",
+      "goalZh": "会说 21–100,能说家人的年龄",
+      "canDoZh": "能说出家人的年龄,听懂 100 以内的数字",
+      "scenarioZh": "Diego 给李娜看墨西哥老家的全家福:爷爷八十二岁,奶奶七十九岁,爸爸妈妈五十多岁。李娜也说自己的爸爸五十岁、妈妈四十八岁,爷爷奶奶七十多岁。说话人:diego、lina。",
+      "grammarFocusZh": "21–29 写成一个词:veintiuno, veintidós, veintitrés…(veintidós、veintitrés、veintiséis 有重音符号);31 起十位和个位之间用 y:treinta y uno, cuarenta y ocho;100 是 cien;用 tener 说别人的年龄:Mi abuelo tiene ochenta y dos años。发音:sesenta(六十)和 setenta(七十)别混",
+      "skills": [
+        "listen",
+        "speak",
+        "write"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.abuelo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el abuelo",
+          "zh": "爷爷;外公",
+          "features": {
+            "gender": "m",
+            "ipa": "el aˈbwelo"
+          },
+          "noteZh": "los abuelos = 爷爷奶奶 / 外公外婆。"
+        },
+        {
+          "id": "es.abuela",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la abuela",
+          "zh": "奶奶;外婆",
+          "features": {
+            "gender": "f",
+            "ipa": "la aˈbwela"
+          }
+        },
+        {
+          "id": "es.treinta",
+          "kind": "word",
+          "pos": "num",
+          "text": "treinta",
+          "zh": "三十",
+          "features": {
+            "ipa": "ˈtɾeinta"
+          }
+        },
+        {
+          "id": "es.cuarenta",
+          "kind": "word",
+          "pos": "num",
+          "text": "cuarenta",
+          "zh": "四十",
+          "features": {
+            "ipa": "kwaˈɾenta"
+          }
+        },
+        {
+          "id": "es.cincuenta",
+          "kind": "word",
+          "pos": "num",
+          "text": "cincuenta",
+          "zh": "五十",
+          "features": {
+            "ipa": "θiŋˈkwenta"
+          },
+          "noteZh": "两个 c 不一样:第一个读 [θ],第二个在 u 前读 [k]。"
+        },
+        {
+          "id": "es.sesenta",
+          "kind": "word",
+          "pos": "num",
+          "text": "sesenta",
+          "zh": "六十",
+          "features": {
+            "ipa": "seˈsenta"
+          },
+          "noteZh": "六十是 s,七十是 t:sesenta / setenta,别混。"
+        },
+        {
+          "id": "es.setenta",
+          "kind": "word",
+          "pos": "num",
+          "text": "setenta",
+          "zh": "七十",
+          "features": {
+            "ipa": "seˈtenta"
+          }
+        },
+        {
+          "id": "es.ochenta",
+          "kind": "word",
+          "pos": "num",
+          "text": "ochenta",
+          "zh": "八十",
+          "features": {
+            "ipa": "oˈtʃenta"
+          }
+        },
+        {
+          "id": "es.noventa",
+          "kind": "word",
+          "pos": "num",
+          "text": "noventa",
+          "zh": "九十",
+          "features": {
+            "ipa": "noˈbenta"
+          },
+          "noteZh": "v 读 [b]。"
+        },
+        {
+          "id": "es.cien",
+          "kind": "word",
+          "pos": "num",
+          "text": "cien",
+          "zh": "一百",
+          "features": {
+            "ipa": "θjen"
+          },
+          "noteZh": "正好 100 说 cien;101 以后说 ciento uno……(第 7 单元)。"
+        }
+      ],
+      "reviewItems": [
+        "es.veinte",
+        "es.tener",
+        "es.madre"
+      ]
+    },
+    {
+      "id": "es.a1u2.l04",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-2 家人与朋友",
+      "order": 102040,
+      "titleZh": "她长什么样?",
+      "goalZh": "会用 ser + 形容词描述人的长相和性格,注意形容词的阴阳性和单复数",
+      "canDoZh": "能简单描述一个人的长相和性格,比如高矮、头发颜色、好不好相处",
+      "scenarioZh": "Diego 的表姐 Carla 第一次来马德里,Diego 让李娜在咖啡馆门口帮忙接她。李娜问:¿Cómo es? Diego 说她很高、很瘦、深色头发,人很好相处;李娜也描述了自己,好让 Carla 认出她。Carla 只被提到,不说话。说话人:lina、diego。",
+      "grammarFocusZh": "ser + 形容词描述人;形容词放在名词后,并和名词的性数一致:alto / alta / altos / altas;以 -e 或辅音结尾的形容词男女同形;muy + 形容词;tener + el pelo … 说头发(Tiene el pelo rubio);¿Cómo es? 问长相或性格。描述外貌时避免说别人胖、丑",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.como_es",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Cómo es?",
+          "zh": "他/她长什么样?是什么样的人?",
+          "features": {
+            "ipa": "ˈkomo es"
+          },
+          "noteZh": "问长相或性格;问身体、心情要说 ¿Cómo está?(estar 第 3 单元学)。"
+        },
+        {
+          "id": "es.muy",
+          "kind": "word",
+          "pos": "adv",
+          "text": "muy",
+          "zh": "很;非常",
+          "features": {
+            "ipa": "mui"
+          },
+          "noteZh": "放在形容词前:muy alto;单独说'很多'要用 mucho(第 3 单元)。"
+        },
+        {
+          "id": "es.alto",
+          "kind": "word",
+          "pos": "adj",
+          "text": "alto",
+          "zh": "高的",
+          "features": {
+            "ipa": "ˈalto"
+          },
+          "noteZh": "阴性 alta,复数 altos / altas。"
+        },
+        {
+          "id": "es.bajo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "bajo",
+          "zh": "矮的",
+          "features": {
+            "ipa": "ˈbaxo"
+          },
+          "noteZh": "阴性 baja;j 读 [x]。"
+        },
+        {
+          "id": "es.delgado",
+          "kind": "word",
+          "pos": "adj",
+          "text": "delgado",
+          "zh": "瘦的;苗条的",
+          "features": {
+            "ipa": "delˈɡado"
+          },
+          "noteZh": "说别人胖(gordo)不礼貌,描述长相时尽量不用。"
+        },
+        {
+          "id": "es.guapo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "guapo",
+          "zh": "(人)好看的;帅;漂亮",
+          "features": {
+            "ipa": "ˈɡwapo"
+          },
+          "noteZh": "男女都能用:guapo / guapa;西班牙人也用 ¡Guapa! 亲切地打招呼。"
+        },
+        {
+          "id": "es.rubio",
+          "kind": "word",
+          "pos": "adj",
+          "text": "rubio",
+          "zh": "金发的",
+          "features": {
+            "ipa": "ˈrubjo"
+          },
+          "noteZh": "词首 r 要多颤几下;阴性 rubia。"
+        },
+        {
+          "id": "es.moreno",
+          "kind": "word",
+          "pos": "adj",
+          "text": "moreno",
+          "zh": "深色头发的;肤色深的",
+          "features": {
+            "ipa": "moˈɾeno"
+          },
+          "noteZh": "西班牙说 moreno 多指头发颜色深(黑发、棕发),也可以指皮肤晒黑。"
+        },
+        {
+          "id": "es.pelo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el pelo",
+          "zh": "头发",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈpelo"
+          },
+          "noteZh": "说头发用 tener:Tiene el pelo rubio;一般用单数,不说 los pelos。"
+        },
+        {
+          "id": "es.simpatico",
+          "kind": "word",
+          "pos": "adj",
+          "text": "simpático",
+          "zh": "和善的;好相处的",
+          "features": {
+            "ipa": "simˈpatiko"
+          },
+          "noteZh": "不是'同情的';阴性 simpática,重音符号在 pá。"
+        }
+      ],
+      "reviewItems": [
+        "es.ser",
+        "es.el",
+        "es.ella"
+      ]
+    },
+    {
+      "id": "es.a1u2.l05",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-2 家人与朋友",
+      "order": 102050,
+      "titleZh": "你妈妈做什么工作?",
+      "goalZh": "会说常见职业和工作地点,掌握 -ar 规则动词的现在时",
+      "canDoZh": "能说家人做什么工作、在哪里工作、会说什么语言",
+      "scenarioZh": "语言交换时,Javier 问李娜家人做什么工作、在哪儿工作(¿Dónde trabaja tu madre?,qué 第 3 单元才学):妈妈是医生,在医院上班;爸爸是中学老师,会说英语。Javier 说自己是学生,哥哥是医生,也在医院工作。说话人:javier、lina。",
+      "grammarFocusZh": "-ar 规则动词现在时:去掉 -ar,加 -o, -as, -a, -amos, -áis, -an(trabajo, trabajas, trabaja…);说职业不加冠词:Es médica.;职业名词的阴阳性:médico / médica,profesor / profesora,estudiante 男女同形;en + 地点 = 在……;mayor:hermano mayor = 哥哥",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.trabajar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "trabajar",
+          "zh": "工作",
+          "features": {
+            "ipa": "tɾabaˈxaɾ"
+          },
+          "noteZh": "-ar 规则动词:trabajo, trabajas, trabaja, trabajamos, trabajáis, trabajan;j 读 [x]。"
+        },
+        {
+          "id": "es.hablar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "hablar",
+          "zh": "说(语言);讲话",
+          "features": {
+            "ipa": "aˈblaɾ"
+          },
+          "noteZh": "h 不发音:Hablo chino.(我说汉语)。"
+        },
+        {
+          "id": "es.estudiar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "estudiar",
+          "zh": "学习;上学",
+          "features": {
+            "ipa": "estuˈdjaɾ"
+          },
+          "noteZh": "-ar 规则动词;Estudio en Madrid = 我在马德里上学。"
+        },
+        {
+          "id": "es.en",
+          "kind": "word",
+          "pos": "prep",
+          "text": "en",
+          "zh": "在……(里/上)",
+          "features": {
+            "ipa": "en"
+          },
+          "noteZh": "表示地点:en Madrid, en un hospital;坐交通工具也用 en(第 6 单元)。"
+        },
+        {
+          "id": "es.medico",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el médico",
+          "zh": "医生",
+          "alt": [
+            "la médica"
+          ],
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈmediko"
+          },
+          "noteZh": "女医生是 la médica;口语也叫 el doctor / la doctora。"
+        },
+        {
+          "id": "es.profesor",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el profesor",
+          "zh": "老师",
+          "alt": [
+            "la profesora"
+          ],
+          "features": {
+            "gender": "m",
+            "ipa": "el pɾofeˈsoɾ"
+          },
+          "noteZh": "女老师是 la profesora;西班牙大学里学生常直接叫老师的名字,用 tú。"
+        },
+        {
+          "id": "es.estudiante",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el estudiante",
+          "zh": "学生",
+          "alt": [
+            "la estudiante"
+          ],
+          "features": {
+            "gender": "m",
+            "ipa": "el estuˈdjante"
+          },
+          "noteZh": "男女同形:el estudiante / la estudiante;说自己是学生:Soy estudiante(不加冠词)。"
+        },
+        {
+          "id": "es.hospital",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el hospital",
+          "zh": "医院",
+          "features": {
+            "gender": "m",
+            "ipa": "el ospiˈtal"
+          },
+          "noteZh": "h 不发音,重音在最后:hos-pi-TAL。"
+        },
+        {
+          "id": "es.ingles",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el inglés",
+          "zh": "英语",
+          "features": {
+            "gender": "m",
+            "ipa": "el iŋˈɡles"
+          },
+          "noteZh": "语言名是阳性、小写;'英国人'也是 inglés / inglesa。"
+        },
+        {
+          "id": "es.mayor",
+          "kind": "word",
+          "pos": "adj",
+          "text": "mayor",
+          "zh": "年纪大的;年长的",
+          "features": {
+            "ipa": "maˈʝoɾ"
+          },
+          "noteZh": "hermano mayor = 哥哥;说老人用 mayor 比 viejo 礼貌。男女同形,复数 mayores。"
+        }
+      ],
+      "reviewItems": [
+        "es.padre",
+        "es.madre",
+        "es.chino"
+      ]
+    },
+    {
+      "id": "es.a1u2.l08",
+      "lang": "es",
+      "type": "reading",
+      "cefr": "A1",
+      "unit": "A1-2 家人与朋友",
+      "order": 102080,
+      "titleZh": "单元复习:我的家人和朋友",
+      "goalZh": "读懂一篇介绍家人和朋友的短文,并模仿着写自己的",
+      "canDoZh": "能读懂、写出一段话,介绍自己的家人和新朋友",
+      "scenarioZh": "安德烈斯老师布置作文《Mi familia y mis amigos》。李娜写:家里有几口人,爸爸妈妈的工作和年龄,十岁的弟弟;在马德里的新朋友 Javier 和 Diego 长什么样、做什么、人怎么样。说话人用 lina(第一人称)或 narrator。至少 8 句。",
+      "grammarFocusZh": "复习 ser / tener、物主形容词和形容词配合、-ar 动词;主语代词复数 nosotros / ellos(西班牙'你们'说 vosotros,第 4 单元学;拉美用 ustedes);用 y 把短句连起来(pero 第 3 单元学)",
+      "skills": [
+        "read",
+        "listen",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.amigo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el amigo",
+          "zh": "朋友",
+          "alt": [
+            "la amiga"
+          ],
+          "features": {
+            "gender": "m",
+            "ipa": "el aˈmiɡo"
+          },
+          "noteZh": "女的是 la amiga;mi mejor amigo = 我最好的朋友。"
+        },
+        {
+          "id": "es.nosotros",
+          "kind": "word",
+          "pos": "pron",
+          "text": "nosotros",
+          "zh": "我们",
+          "alt": [
+            "nosotras"
+          ],
+          "features": {
+            "ipa": "noˈsotɾos"
+          },
+          "noteZh": "全是女性时用 nosotras。"
+        },
+        {
+          "id": "es.ellos",
+          "kind": "word",
+          "pos": "pron",
+          "text": "ellos",
+          "zh": "他们",
+          "features": {
+            "ipa": "ˈeʝos"
+          },
+          "noteZh": "全是女性用 ellas(她们);有男有女用 ellos。"
+        },
+        {
+          "id": "es.joven",
+          "kind": "word",
+          "pos": "adj",
+          "text": "joven",
+          "zh": "年轻的",
+          "features": {
+            "ipa": "ˈxoben"
+          },
+          "noteZh": "男女同形;复数 jóvenes(加重音符号);j 读 [x]。"
+        }
+      ],
+      "reviewItems": [
+        "es.hermano",
+        "es.tener",
+        "es.trabajar",
+        "es.simpatico"
+      ]
+    },
+    {
+      "id": "es.a1u3.l01",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-3 我的住处",
+      "order": 103010,
+      "titleZh": "这是你的房间",
+      "goalZh": "会说公寓里的房间,会用 hay 说'有……'",
+      "canDoZh": "能听懂别人带你看房,说出公寓里有哪些房间",
+      "scenarioZh": "九月底,李娜从临时住的学生公寓搬进合租公寓。室友 Marta 开门:Hola, ¿qué tal? 然后带她看房:客厅、厨房、一个卫生间和两间卧室,其中一间是李娜的。说话人:marta、lina。",
+      "grammarFocusZh": "hay = 有(某处存在某物),单复数都用 hay:Hay una cocina. Hay dos habitaciones.;hay 后面用不定冠词或数字,不用 el / la;¿Qué tal? 打招呼,回答 Bien, ¿y tú?。发音:hay 读 [ai],ñ 在 baño、compañero 里",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.que_tal",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Qué tal?",
+          "zh": "你好吗?;怎么样?",
+          "features": {
+            "ipa": "ke ˈtal"
+          },
+          "noteZh": "熟人见面最常说,回答 Bien, ¿y tú?;也能问事情:¿Qué tal la clase?"
+        },
+        {
+          "id": "es.bien",
+          "kind": "word",
+          "pos": "adv",
+          "text": "bien",
+          "zh": "好;不错",
+          "features": {
+            "ipa": "bjen"
+          },
+          "noteZh": "回答'怎么样':Muy bien, gracias;bien 是副词,修饰动词:Hablas muy bien。"
+        },
+        {
+          "id": "es.companero",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el compañero",
+          "zh": "同伴;室友;同学",
+          "alt": [
+            "la compañera"
+          ],
+          "features": {
+            "gender": "m",
+            "ipa": "el kompaˈɲeɾo"
+          },
+          "noteZh": "compañero de piso = 合租室友,compañero de clase = 同学;女的是 la compañera。"
+        },
+        {
+          "id": "es.casa",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la casa",
+          "zh": "家;房子",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈkasa"
+          },
+          "noteZh": "en casa = 在家,a casa = 回家(都不加冠词)。"
+        },
+        {
+          "id": "es.piso",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el piso",
+          "zh": "公寓;楼层",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈpiso"
+          },
+          "noteZh": "西班牙说 piso,拉美多说 departamento / apartamento;piso compartido = 合租公寓。"
+        },
+        {
+          "id": "es.habitacion",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la habitación",
+          "zh": "房间;卧室",
+          "features": {
+            "gender": "f",
+            "ipa": "la abitaˈθjon"
+          },
+          "noteZh": "-ción 结尾的词都是阴性,重音在 ó;拉美也说 el cuarto,墨西哥说 la recámara。"
+        },
+        {
+          "id": "es.cocina",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la cocina",
+          "zh": "厨房",
+          "features": {
+            "gender": "f",
+            "ipa": "la koˈθina"
+          },
+          "noteZh": "c 在 i 前读 [θ];la cocina 也指'菜系':la cocina china。"
+        },
+        {
+          "id": "es.bano",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el baño",
+          "zh": "卫生间;浴室",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈbaɲo"
+          },
+          "noteZh": "ñ 不能写成 n;找厕所问 ¿Dónde está el baño?"
+        },
+        {
+          "id": "es.salon",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el salón",
+          "zh": "客厅",
+          "features": {
+            "gender": "m",
+            "ipa": "el saˈlon"
+          },
+          "noteZh": "拉美常说 la sala。"
+        },
+        {
+          "id": "es.hay",
+          "kind": "word",
+          "pos": "verb",
+          "text": "hay",
+          "zh": "有(存在)",
+          "features": {
+            "ipa": "ai"
+          },
+          "noteZh": "不变形,单复数都用 hay;h 不发音,读 [ai]。"
+        }
+      ],
+      "reviewItems": [
+        "es.un",
+        "es.una",
+        "es.tu_pos"
+      ]
+    },
+    {
+      "id": "es.a1u3.l02",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-3 我的住处",
+      "order": 103020,
+      "titleZh": "房间里有什么?",
+      "goalZh": "记住常用家具和物品,会问'有什么'",
+      "canDoZh": "能说出自己房间里有什么家具和东西",
+      "scenarioZh": "李娜的房间还空着。Marta 带她看客厅里有哪些家具可以用,两人商量还缺什么:床、衣柜、桌子都有了,还缺一把椅子;李娜的电脑和书先放在沙发上。说话人:lina、marta。",
+      "grammarFocusZh": "¿Qué hay en…? 问有什么;名词的性:-o 结尾多是阳性、-a 结尾多是阴性,但有例外(el sofá),所以一定连冠词一起记;名词复数 las sillas, los libros",
+      "skills": [
+        "listen",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.que",
+          "kind": "word",
+          "pos": "pron",
+          "text": "qué",
+          "zh": "什么",
+          "features": {
+            "ipa": "ke"
+          },
+          "noteZh": "疑问词有重音符号:¿Qué hay? ¿Qué es?"
+        },
+        {
+          "id": "es.cama",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la cama",
+          "zh": "床",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈkama"
+          }
+        },
+        {
+          "id": "es.mesa",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la mesa",
+          "zh": "桌子",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈmesa"
+          },
+          "noteZh": "阴性:la mesa;吃饭、写字的桌子都可以叫 mesa。"
+        },
+        {
+          "id": "es.silla",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la silla",
+          "zh": "椅子",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈsiʝa"
+          },
+          "noteZh": "ll 读 [ʝ]。"
+        },
+        {
+          "id": "es.armario",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el armario",
+          "zh": "衣柜;柜子",
+          "features": {
+            "gender": "m",
+            "ipa": "el aɾˈmaɾjo"
+          }
+        },
+        {
+          "id": "es.sofa",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el sofá",
+          "zh": "沙发",
+          "features": {
+            "gender": "m",
+            "ipa": "el soˈfa"
+          },
+          "noteZh": "-a 结尾却是阳性:el sofá;重音在最后。"
+        },
+        {
+          "id": "es.ventana",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la ventana",
+          "zh": "窗户",
+          "features": {
+            "gender": "f",
+            "ipa": "la benˈtana"
+          },
+          "noteZh": "v 读 [b]。"
+        },
+        {
+          "id": "es.libro",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el libro",
+          "zh": "书",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈlibɾo"
+          }
+        },
+        {
+          "id": "es.ordenador",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el ordenador",
+          "zh": "电脑",
+          "features": {
+            "gender": "m",
+            "ipa": "el oɾdenaˈdoɾ"
+          },
+          "noteZh": "西班牙说 ordenador,拉美说 la computadora;笔记本电脑叫 el portátil。"
+        }
+      ],
+      "reviewItems": [
+        "es.hay",
+        "es.habitacion",
+        "es.salon"
+      ]
+    },
+    {
+      "id": "es.a1u3.l03",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-3 我的住处",
+      "order": 103030,
+      "titleZh": "钥匙在哪儿?",
+      "goalZh": "会用 estar 和方位短语说东西在哪儿,分清 hay 和 estar",
+      "canDoZh": "能问东西在哪儿,并说出它在桌子上、床下、门后等位置",
+      "scenarioZh": "搬家第一天乱糟糟:李娜找不到钥匙、手机和书,一样一样问 Marta。Marta 一边做饭一边回答:Está encima de la mesa…… 最后发现钥匙就在门后面。说话人:lina、marta。",
+      "grammarFocusZh": "estar 现在时:estoy, estás, está, estamos, estáis, están;用 estar 说位置:¿Dónde está…? Está encima de / debajo de / al lado de / detrás de…;de + el 合成 del(al lado del sofá);hay 和 estar:第一次提到、不知道有没有用 hay + 不定冠词(Hay una llave en la mesa),说具体的东西在哪儿用 estar + 定冠词(La llave está en la mesa)",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.estar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "estar",
+          "zh": "在;处于(某种状态)",
+          "features": {
+            "ipa": "esˈtaɾ"
+          },
+          "noteZh": "不规则:estoy, estás, está, estamos, estáis, están;说位置用 estar,不用 ser。"
+        },
+        {
+          "id": "es.encima_de",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "encima de",
+          "zh": "在……上面",
+          "features": {
+            "ipa": "enˈθima de"
+          },
+          "noteZh": "de + el 要合成 del:encima del sofá。"
+        },
+        {
+          "id": "es.debajo_de",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "debajo de",
+          "zh": "在……下面",
+          "features": {
+            "ipa": "deˈbaxo de"
+          }
+        },
+        {
+          "id": "es.al_lado_de",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "al lado de",
+          "zh": "在……旁边",
+          "features": {
+            "ipa": "al ˈlado de"
+          },
+          "noteZh": "al lado de la ventana;al lado del armario。"
+        },
+        {
+          "id": "es.detras_de",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "detrás de",
+          "zh": "在……后面",
+          "features": {
+            "ipa": "deˈtɾas de"
+          },
+          "noteZh": "重音符号在 á。"
+        },
+        {
+          "id": "es.puerta",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la puerta",
+          "zh": "门",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈpweɾta"
+          }
+        },
+        {
+          "id": "es.llave",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la llave",
+          "zh": "钥匙",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈʝabe"
+          },
+          "noteZh": "ll 读 [ʝ];复数 las llaves。"
+        },
+        {
+          "id": "es.movil",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el móvil",
+          "zh": "手机",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈmobil"
+          },
+          "noteZh": "西班牙说 el móvil,拉美说 el celular。"
+        },
+        {
+          "id": "es.aqui",
+          "kind": "word",
+          "pos": "adv",
+          "text": "aquí",
+          "zh": "这里",
+          "features": {
+            "ipa": "aˈki"
+          },
+          "noteZh": "重音在 í。"
+        },
+        {
+          "id": "es.alli",
+          "kind": "word",
+          "pos": "adv",
+          "text": "allí",
+          "zh": "那里",
+          "features": {
+            "ipa": "aˈʝi"
+          },
+          "noteZh": "ll 读 [ʝ],重音在 í;拉美口语常说 allá。"
+        }
+      ],
+      "reviewItems": [
+        "es.donde",
+        "es.mesa",
+        "es.cama",
+        "es.hay"
+      ]
+    },
+    {
+      "id": "es.a1u3.l04",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-3 我的住处",
+      "order": 103040,
+      "titleZh": "楼下的房东太太",
+      "goalZh": "会对长辈用 usted,会说自己住在哪里、街区怎么样",
+      "canDoZh": "能礼貌地向长辈介绍自己,说出自己住在哪条街、附近有什么",
+      "scenarioZh": "李娜在楼梯口遇到房东 Doña Pilar,她就住在这栋楼的一层。Pilar 问李娜是哪里人、在哪儿上学;李娜第一次用 usted 说话(Pilar 对她用 tú)。Pilar 介绍这个街区:离市中心不远,大学就在附近;她也在这儿住了很多年。说话人:pilar、lina。",
+      "grammarFocusZh": "usted(您)用第三人称变位:¿Usted vive aquí? ¿De dónde es usted?;-ir 规则动词 vivir 现在时:vivo, vives, vive, vivimos, vivís, viven(和 -er 动词只有 nosotros / vosotros 不同);cerca de / lejos de;西班牙地址写法:calle + 街名 + 号码;también 的位置(Yo también vivo aquí)",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.usted",
+          "kind": "word",
+          "pos": "pron",
+          "text": "usted",
+          "zh": "您",
+          "features": {
+            "ipa": "usˈted"
+          },
+          "noteZh": "对长辈、陌生人、正式场合用;动词用第三人称:¿Cómo está usted?;书面缩写 Ud.。"
+        },
+        {
+          "id": "es.vivir",
+          "kind": "word",
+          "pos": "verb",
+          "text": "vivir",
+          "zh": "住;生活",
+          "features": {
+            "ipa": "biˈbiɾ"
+          },
+          "noteZh": "-ir 规则动词:vivo, vives, vive, vivimos, vivís, viven;b 和 v 读音相同。"
+        },
+        {
+          "id": "es.calle",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la calle",
+          "zh": "街道",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈkaʝe"
+          },
+          "noteZh": "地址先写街名再写号码:calle de Toledo, 15;ll 读 [ʝ]。"
+        },
+        {
+          "id": "es.barrio",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el barrio",
+          "zh": "街区;社区",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈbarjo"
+          },
+          "noteZh": "rr 要多颤几下;可以先练 tr、dr 带出颤音。"
+        },
+        {
+          "id": "es.cerca",
+          "kind": "word",
+          "pos": "adv",
+          "text": "cerca",
+          "zh": "近;在附近",
+          "features": {
+            "ipa": "ˈθeɾka"
+          },
+          "noteZh": "cerca de + 地点:cerca de la universidad;c 在 e 前读 [θ]。"
+        },
+        {
+          "id": "es.lejos",
+          "kind": "word",
+          "pos": "adv",
+          "text": "lejos",
+          "zh": "远",
+          "features": {
+            "ipa": "ˈlexos"
+          },
+          "noteZh": "lejos de + 地点;j 读 [x]。"
+        },
+        {
+          "id": "es.centro",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el centro",
+          "zh": "市中心;中心",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈθentɾo"
+          },
+          "noteZh": "en el centro = 在市中心。"
+        },
+        {
+          "id": "es.universidad",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la universidad",
+          "zh": "大学",
+          "features": {
+            "gender": "f",
+            "ipa": "la unibeɾsiˈdad"
+          },
+          "noteZh": "-dad 结尾的词都是阴性;词尾的 d 很轻,几乎听不到。"
+        },
+        {
+          "id": "es.tambien",
+          "kind": "word",
+          "pos": "adv",
+          "text": "también",
+          "zh": "也",
+          "features": {
+            "ipa": "tamˈbjen"
+          },
+          "noteZh": "放在动词前:Yo también vivo aquí;回应别人说 Yo también(我也是)。重音在 én。"
+        },
+        {
+          "id": "es.vecino",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el vecino",
+          "zh": "邻居",
+          "alt": [
+            "la vecina"
+          ],
+          "features": {
+            "gender": "m",
+            "ipa": "el beˈθino"
+          },
+          "noteZh": "女邻居是 la vecina。"
+        }
+      ],
+      "reviewItems": [
+        "es.donde",
+        "es.ser",
+        "es.estar",
+        "es.casa"
+      ]
+    },
+    {
+      "id": "es.a1u3.l05",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-3 我的住处",
+      "order": 103050,
+      "titleZh": "我的房间小,但是很漂亮",
+      "goalZh": "会用形容词描述住处,初步分清 ser 和 estar 加形容词",
+      "canDoZh": "能向朋友介绍自己的住处:大小、新旧、亮不亮、干不干净",
+      "scenarioZh": "周日 Javier 第一次来李娜的新家,李娜带他参观:Mi habitación es pequeña, pero muy bonita. Javier 觉得公寓有点旧、没有电梯,但光线很好,厨房也很干净。说话人:lina、javier。",
+      "grammarFocusZh": "ser + 形容词说事物本身的特点(El piso es viejo);estar + 形容词说一时的状态(La cocina está limpia);pero 连接对比;mucho 作形容词时要变:mucha luz, muchos libros;grande 在单数名词前变成 gran",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.grande",
+          "kind": "word",
+          "pos": "adj",
+          "text": "grande",
+          "zh": "大的",
+          "features": {
+            "ipa": "ˈɡɾande"
+          },
+          "noteZh": "男女同形;放在单数名词前变 gran:una gran ciudad。"
+        },
+        {
+          "id": "es.pequeno",
+          "kind": "word",
+          "pos": "adj",
+          "text": "pequeño",
+          "zh": "小的;年纪小的",
+          "features": {
+            "ipa": "peˈkeɲo"
+          },
+          "noteZh": "ñ 不能写成 n;mi hermano pequeño = 我弟弟。"
+        },
+        {
+          "id": "es.bonito",
+          "kind": "word",
+          "pos": "adj",
+          "text": "bonito",
+          "zh": "(东西、地方)漂亮的",
+          "features": {
+            "ipa": "boˈnito"
+          },
+          "noteZh": "多形容东西和地方;说人好看多用 guapo。阴性 bonita。"
+        },
+        {
+          "id": "es.nuevo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "nuevo",
+          "zh": "新的",
+          "features": {
+            "ipa": "ˈnwebo"
+          }
+        },
+        {
+          "id": "es.viejo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "viejo",
+          "zh": "(东西)旧的;老的",
+          "features": {
+            "ipa": "ˈbjexo"
+          },
+          "noteZh": "说东西旧可以用;说人'老'不太礼貌,用 mayor。"
+        },
+        {
+          "id": "es.limpio",
+          "kind": "word",
+          "pos": "adj",
+          "text": "limpio",
+          "zh": "干净的",
+          "features": {
+            "ipa": "ˈlimpjo"
+          },
+          "noteZh": "常和 estar 连用:La cocina está limpia。"
+        },
+        {
+          "id": "es.luz",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la luz",
+          "zh": "光;灯",
+          "features": {
+            "gender": "f",
+            "ipa": "la luθ"
+          },
+          "noteZh": "复数 las luces(z 变 c);Tiene mucha luz = 采光很好。"
+        },
+        {
+          "id": "es.mucho",
+          "kind": "word",
+          "pos": "adj",
+          "text": "mucho",
+          "zh": "很多的",
+          "features": {
+            "ipa": "ˈmutʃo"
+          },
+          "noteZh": "跟名词变:mucha luz, muchos libros;作副词不变:Trabaja mucho。"
+        },
+        {
+          "id": "es.pero",
+          "kind": "word",
+          "pos": "conj",
+          "text": "pero",
+          "zh": "但是",
+          "features": {
+            "ipa": "ˈpeɾo"
+          },
+          "noteZh": "r 只弹一下;perro(狗)是 rr,意思完全不同。"
+        },
+        {
+          "id": "es.ascensor",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el ascensor",
+          "zh": "电梯",
+          "features": {
+            "gender": "m",
+            "ipa": "el asθenˈsoɾ"
+          },
+          "noteZh": "马德里很多老楼没有电梯;拉美也说 el elevador。"
+        }
+      ],
+      "reviewItems": [
+        "es.habitacion",
+        "es.cocina",
+        "es.muy"
+      ]
+    },
+    {
+      "id": "es.a1u3.l08",
+      "lang": "es",
+      "type": "reading",
+      "cefr": "A1",
+      "unit": "A1-3 我的住处",
+      "order": 103080,
+      "titleZh": "单元复习:给 Diego 的一封邮件",
+      "goalZh": "读懂一封介绍新家的邮件,学会邮件的开头和结尾",
+      "canDoZh": "能读懂、写出一封介绍自己住处的简短邮件",
+      "scenarioZh": "Diego 问李娜新家怎么样。李娜写邮件:公寓在哪个街区、有几个房间、她的房间里有什么、室友 Marta 和房东 Pilar 是什么样的人,最后附上一张照片。格式:Querido Diego: …… Un abrazo, Li Na。说话人用 lina。至少 8 句。",
+      "grammarFocusZh": "复习 hay / estar / ser + 形容词和方位短语;邮件格式(DELE A1 写作常考):称呼后用冒号,结尾 Un abrazo + 名字",
+      "skills": [
+        "read",
+        "listen",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.querido",
+          "kind": "word",
+          "pos": "adj",
+          "text": "querido",
+          "zh": "亲爱的(信件开头)",
+          "alt": [
+            "querida"
+          ],
+          "features": {
+            "ipa": "keˈɾido"
+          },
+          "noteZh": "写给女生用 querida:Querida Marta:;西语书信的称呼后面用冒号。"
+        },
+        {
+          "id": "es.un_abrazo",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "Un abrazo",
+          "zh": "拥抱你(信件结尾)",
+          "features": {
+            "ipa": "un aˈbɾaθo"
+          },
+          "noteZh": "朋友之间写信、发消息的结尾;更亲密的说 un beso。"
+        },
+        {
+          "id": "es.foto",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la foto",
+          "zh": "照片",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈfoto"
+          },
+          "noteZh": "-o 结尾却是阴性(是 la fotografía 的缩写)。"
+        },
+        {
+          "id": "es.tranquilo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "tranquilo",
+          "zh": "安静的;平静的",
+          "features": {
+            "ipa": "tɾaŋˈkilo"
+          },
+          "noteZh": "qu 读 [k];阴性 tranquila;一个安静的街区:un barrio tranquilo。"
+        }
+      ],
+      "reviewItems": [
+        "es.piso",
+        "es.barrio",
+        "es.companero",
+        "es.vecino"
+      ]
+    },
+    {
+      "id": "es.a1u4.l01",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-4 吃喝",
+      "order": 104010,
+      "titleZh": "楼下酒吧的早餐",
+      "goalZh": "会点西班牙式早餐和饮料",
+      "canDoZh": "能在咖啡馆或酒吧点早餐和饮料",
+      "scenarioZh": "早上八点,Marta 带李娜去楼下的小酒吧吃早餐。服务员分别问她们 ¿Qué te pongo?:Marta 要一杯加奶咖啡和一份番茄烤面包,李娜要一杯茶和一杯果汁。说话人:camarero、marta、lina。",
+      "grammarFocusZh": "点餐的固定说法:Un café con leche, por favor. / Para mí, un té.;con(加)和 sin(不加);服务员问 ¿Qué te pongo?(西班牙酒吧的说法,对顾客常用 tú);un / una + 饮料或食物。发音:zumo 的 z 读 [θ]",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.cafe",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el café",
+          "zh": "咖啡;咖啡馆",
+          "features": {
+            "gender": "m",
+            "ipa": "el kaˈfe"
+          },
+          "noteZh": "café con leche(加奶咖啡)是西班牙早餐标配;重音在 é。"
+        },
+        {
+          "id": "es.leche",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la leche",
+          "zh": "牛奶",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈletʃe"
+          },
+          "noteZh": "阴性:la leche。"
+        },
+        {
+          "id": "es.te",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el té",
+          "zh": "茶",
+          "features": {
+            "gender": "m",
+            "ipa": "el te"
+          },
+          "noteZh": "有重音符号;不带重音的 te 是'你'(宾格),如 ¿Cómo te llamas?"
+        },
+        {
+          "id": "es.zumo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el zumo",
+          "zh": "果汁",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈθumo"
+          },
+          "noteZh": "西班牙说 zumo,拉美说 el jugo。"
+        },
+        {
+          "id": "es.tostada",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la tostada",
+          "zh": "烤面包片",
+          "features": {
+            "gender": "f",
+            "ipa": "la tosˈtada"
+          },
+          "noteZh": "西班牙早餐常吃 tostada con tomate(抹番茄和橄榄油的烤面包)。"
+        },
+        {
+          "id": "es.tomate",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el tomate",
+          "zh": "西红柿;番茄",
+          "features": {
+            "gender": "m",
+            "ipa": "el toˈmate"
+          }
+        },
+        {
+          "id": "es.con",
+          "kind": "word",
+          "pos": "prep",
+          "text": "con",
+          "zh": "加;带着;和……一起",
+          "features": {
+            "ipa": "kon"
+          },
+          "noteZh": "café con leche = 加奶咖啡;con mis amigos = 和朋友一起。"
+        },
+        {
+          "id": "es.sin",
+          "kind": "word",
+          "pos": "prep",
+          "text": "sin",
+          "zh": "不加;没有",
+          "features": {
+            "ipa": "sin"
+          },
+          "noteZh": "café sin azúcar = 不加糖的咖啡。"
+        },
+        {
+          "id": "es.para_mi",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "Para mí",
+          "zh": "我要……;给我……",
+          "features": {
+            "ipa": "ˈpaɾa mi"
+          },
+          "noteZh": "点餐时说 Para mí, un café;mí 有重音符号,和'我的' mi 不同。"
+        },
+        {
+          "id": "es.que_te_pongo",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Qué te pongo?",
+          "zh": "(服务员)你要点什么?",
+          "features": {
+            "ipa": "ke te ˈpoŋɡo"
+          },
+          "noteZh": "西班牙酒吧服务员的口头禅,字面意思'给你上什么';也常听到 ¿Qué vas a tomar?"
+        }
+      ],
+      "reviewItems": [
+        "es.por_favor",
+        "es.gracias",
+        "es.y"
+      ]
+    },
+    {
+      "id": "es.a1u4.l02",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-4 吃喝",
+      "order": 104020,
+      "titleZh": "我想要……:第一次吃 tapas",
+      "goalZh": "会用 querer 说想要什么,会和朋友商量着点菜",
+      "canDoZh": "能在 tapas 酒吧和朋友商量着点几样 tapas 和饮料",
+      "scenarioZh": "周五晚上,Javier 带李娜和 Diego 去老城区的 tapas 酒吧。服务员问 ¿Qué queréis?,三个人商量:土豆鸡蛋饼、火腿、奶酪、辣味炸土豆……Diego 发现西班牙的 tortilla 和墨西哥的完全不一样。说话人:camarero、javier、diego、lina。",
+      "grammarFocusZh": "querer(想要)现在时:quiero, quieres, quiere, queremos, queréis, quieren(e 变 ie,nosotros / vosotros 不变);querer + 名词:Quiero una tortilla.;vosotros(你们)和它的变位 queréis,拉美用 ustedes + quieren;o = 还是 / 或者:¿Agua o zumo?;vale 表示同意",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.querer",
+          "kind": "word",
+          "pos": "verb",
+          "text": "querer",
+          "zh": "想要;爱",
+          "features": {
+            "ipa": "keˈɾeɾ"
+          },
+          "noteZh": "e→ie 变位:quiero, quieres, quiere, queremos, queréis, quieren;Te quiero = 我爱你。"
+        },
+        {
+          "id": "es.vosotros",
+          "kind": "word",
+          "pos": "pron",
+          "text": "vosotros",
+          "zh": "你们",
+          "alt": [
+            "vosotras"
+          ],
+          "features": {
+            "ipa": "boˈsotɾos"
+          },
+          "noteZh": "西班牙用 vosotros(全是女性用 vosotras);拉美不用 vosotros,'你们'一律说 ustedes,动词用第三人称复数。"
+        },
+        {
+          "id": "es.tapa",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la tapa",
+          "zh": "(西班牙)下酒小菜",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈtapa"
+          },
+          "noteZh": "有的酒吧点饮料会送一小份 tapa;一大份叫 una ración。"
+        },
+        {
+          "id": "es.tortilla",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la tortilla",
+          "zh": "土豆鸡蛋饼",
+          "features": {
+            "gender": "f",
+            "ipa": "la toɾˈtiʝa"
+          },
+          "noteZh": "西班牙的 tortilla(de patatas)是土豆鸡蛋饼;墨西哥的 tortilla 是玉米薄饼,完全不是一种东西。"
+        },
+        {
+          "id": "es.jamon",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el jamón",
+          "zh": "火腿",
+          "features": {
+            "gender": "m",
+            "ipa": "el xaˈmon"
+          },
+          "noteZh": "j 读 [x],比汉语 h 更靠后;重音在 ó。"
+        },
+        {
+          "id": "es.queso",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el queso",
+          "zh": "奶酪",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈkeso"
+          },
+          "noteZh": "qu 读 [k]。"
+        },
+        {
+          "id": "es.patatas_bravas",
+          "kind": "phrase",
+          "pos": "noun",
+          "text": "las patatas bravas",
+          "zh": "辣味炸土豆",
+          "features": {
+            "gender": "f",
+            "ipa": "las paˈtatas ˈbɾabas"
+          },
+          "noteZh": "马德里最有名的 tapa 之一;patata 拉美叫 papa。对四川人来说一点也不辣。"
+        },
+        {
+          "id": "es.agua",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "el agua",
+          "zh": "水",
+          "features": {
+            "ipa": "el ˈaɡwa"
+          },
+          "noteZh": "agua 是阴性名词(el agua fría),但因为以重读的 a 开头,单数前用 el,不说 la agua;复数是 las aguas。点水:agua con gas(气泡水)/ sin gas。"
+        },
+        {
+          "id": "es.o",
+          "kind": "word",
+          "pos": "conj",
+          "text": "o",
+          "zh": "或者;还是",
+          "features": {
+            "ipa": "o"
+          },
+          "noteZh": "¿Té o café?;在 o 开头的词前变成 u:siete u ocho。"
+        },
+        {
+          "id": "es.vale",
+          "kind": "word",
+          "pos": "interj",
+          "text": "Vale",
+          "zh": "好的;行",
+          "features": {
+            "ipa": "ˈbale"
+          },
+          "noteZh": "西班牙人最常用的'好的';拉美多说 está bien / OK,墨西哥说 sale。"
+        }
+      ],
+      "reviewItems": [
+        "es.para_mi",
+        "es.con",
+        "es.sin",
+        "es.que"
+      ]
+    },
+    {
+      "id": "es.a1u4.l03",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-4 吃喝",
+      "order": 104030,
+      "titleZh": "逛菜市场",
+      "goalZh": "会买水果,会问价钱、说数量",
+      "canDoZh": "能在菜市场买水果,问一共多少钱并付款",
+      "scenarioZh": "周六上午,Marta 带李娜去街区的菜市场。水果摊老板很热情:¿Qué te pongo, guapa? 李娜买一公斤橙子、半公斤苹果和几根香蕉,问一共多少钱;老板问她还要别的吗。说话人:frutero、lina、marta。",
+      "grammarFocusZh": "un kilo de / medio kilo de + 复数名词:un kilo de naranjas;价格:Son dos euros (con) cincuenta.;¿Cuánto es?(一共多少钱)和 ¿Algo más? 的问答;复习 querer 和 ¿Qué te pongo?",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.mercado",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el mercado",
+          "zh": "市场;菜市场",
+          "features": {
+            "gender": "m",
+            "ipa": "el meɾˈkado"
+          },
+          "noteZh": "马德里每个街区都有室内菜市场,比超市新鲜。"
+        },
+        {
+          "id": "es.fruta",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la fruta",
+          "zh": "水果",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈfɾuta"
+          },
+          "noteZh": "常用单数泛指水果。"
+        },
+        {
+          "id": "es.manzana",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la manzana",
+          "zh": "苹果",
+          "features": {
+            "gender": "f",
+            "ipa": "la manˈθana"
+          },
+          "noteZh": "z 读 [θ]。"
+        },
+        {
+          "id": "es.naranja",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la naranja",
+          "zh": "橙子",
+          "features": {
+            "gender": "f",
+            "ipa": "la naˈɾanxa"
+          },
+          "noteZh": "j 读 [x];zumo de naranja = 橙汁。"
+        },
+        {
+          "id": "es.platano",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el plátano",
+          "zh": "香蕉",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈplatano"
+          },
+          "noteZh": "重音在 plá;南美很多地方说 la banana。"
+        },
+        {
+          "id": "es.kilo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el kilo",
+          "zh": "公斤",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈkilo"
+          },
+          "noteZh": "un kilo de manzanas = 一公斤苹果。"
+        },
+        {
+          "id": "es.medio",
+          "kind": "word",
+          "pos": "adj",
+          "text": "medio",
+          "zh": "半;一半的",
+          "features": {
+            "ipa": "ˈmedjo"
+          },
+          "noteZh": "medio kilo = 半公斤(前面不加 un);说钟点的'半'用 y media(第 5 单元)。"
+        },
+        {
+          "id": "es.euro",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el euro",
+          "zh": "欧元",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈeuɾo"
+          },
+          "noteZh": "e 和 u 都要读出来;一分钱叫 el céntimo。"
+        },
+        {
+          "id": "es.cuanto_es",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Cuánto es?",
+          "zh": "一共多少钱?",
+          "features": {
+            "ipa": "ˈkwanto es"
+          },
+          "noteZh": "结账时问总价;回答:Son tres euros。问单件的价格是 ¿Cuánto cuesta?(第 6 单元)。"
+        },
+        {
+          "id": "es.algo_mas",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Algo más?",
+          "zh": "还要别的吗?",
+          "features": {
+            "ipa": "ˈalɡo mas"
+          },
+          "noteZh": "店员常问;不要了就说 No, gracias。"
+        }
+      ],
+      "reviewItems": [
+        "es.que_te_pongo",
+        "es.querer",
+        "es.cincuenta"
+      ]
+    },
+    {
+      "id": "es.a1u4.l04",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-4 吃喝",
+      "order": 104040,
+      "titleZh": "今日套餐",
+      "goalZh": "会看懂和点今日套餐(menú del día),会结账",
+      "canDoZh": "能在餐馆点一份三道菜的今日套餐,并要账单结账",
+      "scenarioZh": "下课后 Diego 带李娜去大学旁边的小餐馆吃 menú del día:十二欧,有第一道菜(比如沙拉)、第二道菜(肉或鱼)、甜点和饮料。女服务员问他们 de primero、de segundo 要什么,最后两人要了账单。说话人:camarera、diego、lina。",
+      "grammarFocusZh": "-er 规则动词现在时:como, comes, come, comemos, coméis, comen(beber 同样变);用 de primero / de segundo / de postre 点每道菜;primero 在阳性单数名词前变 primer:el primer plato;La cuenta, por favor",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.comer",
+          "kind": "word",
+          "pos": "verb",
+          "text": "comer",
+          "zh": "吃;吃午饭",
+          "features": {
+            "ipa": "koˈmeɾ"
+          },
+          "noteZh": "-er 规则动词:como, comes, come…;在西班牙 comer 也专指'吃午饭'(两点左右)。"
+        },
+        {
+          "id": "es.beber",
+          "kind": "word",
+          "pos": "verb",
+          "text": "beber",
+          "zh": "喝",
+          "features": {
+            "ipa": "beˈbeɾ"
+          },
+          "noteZh": "b 和 v 读音相同;点饮料也常说 tomar。"
+        },
+        {
+          "id": "es.menu_del_dia",
+          "kind": "phrase",
+          "pos": "noun",
+          "text": "el menú del día",
+          "zh": "今日套餐",
+          "features": {
+            "gender": "m",
+            "ipa": "el meˈnu del ˈdia"
+          },
+          "noteZh": "工作日中午的套餐,一般有两道菜、甜点、面包和饮料,十几欧;menú 重音在 ú。"
+        },
+        {
+          "id": "es.primero",
+          "kind": "word",
+          "pos": "adj",
+          "text": "primero",
+          "zh": "第一",
+          "features": {
+            "ipa": "pɾiˈmeɾo"
+          },
+          "noteZh": "在阳性单数名词前变 primer:el primer plato;de primero = 第一道菜(多是沙拉、汤)。"
+        },
+        {
+          "id": "es.segundo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "segundo",
+          "zh": "第二",
+          "features": {
+            "ipa": "seˈɡundo"
+          },
+          "noteZh": "de segundo = 第二道菜(主菜,肉或鱼)。"
+        },
+        {
+          "id": "es.postre",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el postre",
+          "zh": "甜点",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈpostɾe"
+          },
+          "noteZh": "de postre = 甜点吃……"
+        },
+        {
+          "id": "es.pescado",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el pescado",
+          "zh": "鱼(做成菜的)",
+          "features": {
+            "gender": "m",
+            "ipa": "el pesˈkado"
+          },
+          "noteZh": "活鱼叫 el pez,做成菜叫 el pescado。"
+        },
+        {
+          "id": "es.carne",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la carne",
+          "zh": "肉",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈkaɾne"
+          },
+          "noteZh": "-e 结尾的名词性别要单独记:la carne 是阴性。"
+        },
+        {
+          "id": "es.ensalada",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la ensalada",
+          "zh": "沙拉",
+          "features": {
+            "gender": "f",
+            "ipa": "la ensaˈlada"
+          },
+          "noteZh": "套餐的第一道菜常有 ensalada mixta(什锦沙拉)。"
+        },
+        {
+          "id": "es.cuenta",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la cuenta",
+          "zh": "账单",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈkwenta"
+          },
+          "noteZh": "结账说 La cuenta, por favor。"
+        }
+      ],
+      "reviewItems": [
+        "es.querer",
+        "es.agua",
+        "es.o",
+        "es.euro"
+      ]
+    },
+    {
+      "id": "es.a1u4.l05",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-4 吃喝",
+      "order": 104050,
+      "titleZh": "我能用一下厨房吗?",
+      "goalZh": "会用 poder 请求许可、问能不能,会简单评价食物",
+      "canDoZh": "能请求别人允许(比如用厨房、请朋友来),能简单说食物好不好吃、辣不辣",
+      "scenarioZh": "李娜想给室友做一顿中国菜:番茄炒蛋、宫保鸡丁和米饭。她先问 Marta 能不能在家做饭、能不能请 Diego 来;吃饭时 Marta 说 ¡Qué rico!,但觉得有一点辣。说话人:lina、marta、diego。",
+      "grammarFocusZh": "poder(能、可以)现在时:puedo, puedes, puede, podemos, podéis, pueden(o 变 ue);poder + 动词原形:¿Puedo cocinar? ¿Podemos comer aquí?;回答请求:¡Claro! / Sí, claro;¡Qué + 形容词! 感叹;un poco + 形容词(un poco picante)",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.poder",
+          "kind": "word",
+          "pos": "verb",
+          "text": "poder",
+          "zh": "能;可以",
+          "features": {
+            "ipa": "poˈdeɾ"
+          },
+          "noteZh": "o→ue 变位:puedo, puedes, puede, podemos, podéis, pueden;后面直接加动词原形。"
+        },
+        {
+          "id": "es.cocinar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "cocinar",
+          "zh": "做饭",
+          "features": {
+            "ipa": "koθiˈnaɾ"
+          },
+          "noteZh": "-ar 规则动词;两个 c 在 i 前都读 [θ]。"
+        },
+        {
+          "id": "es.arroz",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el arroz",
+          "zh": "米饭;大米",
+          "features": {
+            "gender": "m",
+            "ipa": "el aˈroθ"
+          },
+          "noteZh": "rr 要颤舌,z 读 [θ]。"
+        },
+        {
+          "id": "es.pollo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el pollo",
+          "zh": "鸡肉;鸡",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈpoʝo"
+          },
+          "noteZh": "ll 读 [ʝ]。"
+        },
+        {
+          "id": "es.huevo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el huevo",
+          "zh": "鸡蛋",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈwebo"
+          },
+          "noteZh": "h 不发音,hue 读得像 [we]。"
+        },
+        {
+          "id": "es.picante",
+          "kind": "word",
+          "pos": "adj",
+          "text": "picante",
+          "zh": "辣的",
+          "features": {
+            "ipa": "piˈkante"
+          },
+          "noteZh": "男女同形;西班牙菜很少辣。"
+        },
+        {
+          "id": "es.rico",
+          "kind": "word",
+          "pos": "adj",
+          "text": "rico",
+          "zh": "好吃的;富有的",
+          "features": {
+            "ipa": "ˈriko"
+          },
+          "noteZh": "说食物好吃:¡Qué rico! / Está muy rico(用 estar);说人有钱用 ser。"
+        },
+        {
+          "id": "es.claro",
+          "kind": "word",
+          "pos": "interj",
+          "text": "Claro",
+          "zh": "当然",
+          "features": {
+            "ipa": "ˈklaɾo"
+          },
+          "noteZh": "回答请求最常用:¡Claro! / Sí, claro。"
+        },
+        {
+          "id": "es.que_aproveche",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¡Que aproveche!",
+          "zh": "慢用!;吃好!",
+          "features": {
+            "ipa": "ke apɾoˈbetʃe"
+          },
+          "noteZh": "看到别人吃饭时说的祝福;回答 Gracias。这里的 que 没有重音符号。"
+        },
+        {
+          "id": "es.un_poco",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "un poco",
+          "zh": "一点;有点",
+          "features": {
+            "ipa": "un ˈpoko"
+          },
+          "noteZh": "un poco picante = 有点辣;Hablo un poco de español = 我会说一点西语。"
+        }
+      ],
+      "reviewItems": [
+        "es.cocina",
+        "es.tomate",
+        "es.comer",
+        "es.amigo"
+      ]
+    },
+    {
+      "id": "es.a1u4.l08",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-4 吃喝",
+      "order": 104080,
+      "titleZh": "单元复习:四个人的 tapas 之夜",
+      "goalZh": "在一段较长的点餐对话里,综合使用本单元点餐、商量和付款的说法",
+      "canDoZh": "能和朋友一起在酒吧点餐、商量、要账单并付钱",
+      "scenarioZh": "周五晚上,李娜、Marta、Javier 和 Diego 一起出去吃 tapas:先看菜单,每人点喝的,再一起点几样 tapas、一份蔬菜和面包分着吃;李娜笑着说 patatas bravas 一点也不辣。最后要账单,商量怎么付钱(西班牙朋友之间常平摊)。对话至少 12 句。说话人:camarero、lina、marta、javier、diego。",
+      "grammarFocusZh": "复习 querer / poder / comer / beber 和点餐的固定说法;pagar 是 -ar 规则动词(pago, pagas…),朋友之间平摊说 pagar a medias",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 12,
+      "newItems": [
+        {
+          "id": "es.pagar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "pagar",
+          "zh": "付钱;支付",
+          "features": {
+            "ipa": "paˈɡaɾ"
+          },
+          "noteZh": "-ar 规则动词;朋友之间平摊说 pagar a medias,'我请客'说 Invito yo。"
+        },
+        {
+          "id": "es.carta",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la carta",
+          "zh": "菜单;信",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈkaɾta"
+          },
+          "noteZh": "点菜用的菜单叫 la carta;el menú 多指套餐。"
+        },
+        {
+          "id": "es.pan",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el pan",
+          "zh": "面包",
+          "features": {
+            "gender": "m",
+            "ipa": "el pan"
+          },
+          "noteZh": "西班牙吃饭几乎都配面包;una barra de pan = 一根长棍面包。"
+        },
+        {
+          "id": "es.verdura",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la verdura",
+          "zh": "蔬菜",
+          "features": {
+            "gender": "f",
+            "ipa": "la beɾˈduɾa"
+          },
+          "noteZh": "常用复数 las verduras;v 读 [b]。"
+        }
+      ],
+      "reviewItems": [
+        "es.tapa",
+        "es.querer",
+        "es.cuenta",
+        "es.vosotros"
+      ]
+    },
+    {
+      "id": "es.a1u5.l01",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-5 时间与日常",
+      "order": 105010,
+      "titleZh": "现在几点?",
+      "goalZh": "会问时间、说时间,会约几点做某事",
+      "canDoZh": "能问现在几点,听懂并说出时间,和朋友约好几点见",
+      "scenarioZh": "上课前,李娜的手机没电了,她在走廊问 Javier 现在几点;两人约好下午在学校咖啡馆见。Javier 说的 y media、menos cuarto 一开始让李娜有点晕。说话人:lina、javier。",
+      "grammarFocusZh": "¿Qué hora es? → Es la una. / Son las dos, las tres…(一点用单数 es la,其他用 son las);y cuarto(一刻)、y media(半)、menos cuarto(差一刻);¿A qué hora…? → A las cinco.;de la mañana / de la tarde / de la noche 区分上午、下午和晚上;火车、电视等正式场合用 24 小时制",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.que_hora_es",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Qué hora es?",
+          "zh": "现在几点?",
+          "features": {
+            "ipa": "ke ˈoɾa es"
+          },
+          "noteZh": "回答:Es la una.(一点)/ Son las tres.(三点);h 不发音。"
+        },
+        {
+          "id": "es.y_cuarto",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "y cuarto",
+          "zh": "(几点)一刻;十五分",
+          "features": {
+            "ipa": "i ˈkwaɾto"
+          },
+          "noteZh": "Son las dos y cuarto = 两点一刻。"
+        },
+        {
+          "id": "es.y_media",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "y media",
+          "zh": "(几点)半",
+          "features": {
+            "ipa": "i ˈmedja"
+          },
+          "noteZh": "Son las tres y media = 三点半。"
+        },
+        {
+          "id": "es.menos_cuarto",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "menos cuarto",
+          "zh": "差一刻",
+          "features": {
+            "ipa": "ˈmenos ˈkwaɾto"
+          },
+          "noteZh": "Son las cinco menos cuarto = 差一刻五点(4:45);过了半点常用 menos:las seis menos diez = 5:50。"
+        },
+        {
+          "id": "es.a_que_hora",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿A qué hora?",
+          "zh": "几点(做某事)?",
+          "features": {
+            "ipa": "a ke ˈoɾa"
+          },
+          "noteZh": "回答用 a:A las nueve.(九点);和 ¿Qué hora es? 不一样。"
+        },
+        {
+          "id": "es.a",
+          "kind": "word",
+          "pos": "prep",
+          "text": "a",
+          "zh": "在(几点);到;去",
+          "features": {
+            "ipa": "a"
+          },
+          "noteZh": "a las ocho = 在八点;a + el 合成 al。"
+        },
+        {
+          "id": "es.ahora",
+          "kind": "word",
+          "pos": "adv",
+          "text": "ahora",
+          "zh": "现在",
+          "features": {
+            "ipa": "aˈoɾa"
+          },
+          "noteZh": "h 不发音,读 a-o-ra。"
+        },
+        {
+          "id": "es.la_manana",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la mañana",
+          "zh": "上午;早上",
+          "features": {
+            "gender": "f",
+            "ipa": "la maˈɲana"
+          },
+          "noteZh": "de la mañana = 上午(的几点);不带冠词的 mañana 是'明天'(下一课)。"
+        },
+        {
+          "id": "es.la_tarde",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la tarde",
+          "zh": "下午;傍晚",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈtaɾde"
+          },
+          "noteZh": "从午饭后到天黑都是 la tarde;不带冠词的 tarde 是'晚、迟'。"
+        },
+        {
+          "id": "es.noche",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la noche",
+          "zh": "晚上;夜里",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈnotʃe"
+          },
+          "noteZh": "de la noche = 晚上(的几点);esta noche = 今晚。"
+        }
+      ],
+      "reviewItems": [
+        "es.ser",
+        "es.uno",
+        "es.doce"
+      ]
+    },
+    {
+      "id": "es.a1u5.l02",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-5 时间与日常",
+      "order": 105020,
+      "titleZh": "今天星期几?",
+      "goalZh": "记住一周七天,会说今天、明天和某天做什么",
+      "canDoZh": "能说今天星期几,并说出一周里哪天有课、哪天休息",
+      "scenarioZh": "李娜和 Marta 在冰箱门上贴每周安排:李娜周一到周四有课,周五下午做语言交换;Marta 这个周六、周日都要在医院值班。说话人:lina、marta。",
+      "grammarFocusZh": "星期都是阳性、小写:el lunes;el lunes = 这个 / 下个星期一,los lunes = 每个星期一;说'在星期几'不用介词:El viernes trabajo.(不说 en el viernes);¿Qué día es hoy? → Hoy es martes.(这里不加冠词);hoy / mañana",
+      "skills": [
+        "listen",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.dia",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el día",
+          "zh": "天;日子",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈdia"
+          },
+          "noteZh": "-a 结尾却是阳性:el día;buenos días 里就是它的复数。"
+        },
+        {
+          "id": "es.lunes",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el lunes",
+          "zh": "星期一",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈlunes"
+          },
+          "noteZh": "星期名小写;单复数同形:el lunes / los lunes。"
+        },
+        {
+          "id": "es.martes",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el martes",
+          "zh": "星期二",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈmaɾtes"
+          }
+        },
+        {
+          "id": "es.miercoles",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el miércoles",
+          "zh": "星期三",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈmjeɾkoles"
+          },
+          "noteZh": "重音符号在 é 上。"
+        },
+        {
+          "id": "es.jueves",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el jueves",
+          "zh": "星期四",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈxwebes"
+          },
+          "noteZh": "j 读 [x]。"
+        },
+        {
+          "id": "es.viernes",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el viernes",
+          "zh": "星期五",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈbjeɾnes"
+          },
+          "noteZh": "v 读 [b]。"
+        },
+        {
+          "id": "es.sabado",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el sábado",
+          "zh": "星期六",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈsabado"
+          },
+          "noteZh": "重音在 sá。"
+        },
+        {
+          "id": "es.domingo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el domingo",
+          "zh": "星期日",
+          "features": {
+            "gender": "m",
+            "ipa": "el doˈmiŋɡo"
+          }
+        },
+        {
+          "id": "es.hoy",
+          "kind": "word",
+          "pos": "adv",
+          "text": "hoy",
+          "zh": "今天",
+          "features": {
+            "ipa": "oi"
+          },
+          "noteZh": "h 不发音,读 [oi]。"
+        },
+        {
+          "id": "es.manana",
+          "kind": "word",
+          "pos": "adv",
+          "text": "mañana",
+          "zh": "明天",
+          "features": {
+            "ipa": "maˈɲana"
+          },
+          "noteZh": "不带冠词是'明天',la mañana 是'上午';mañana por la mañana = 明天上午。"
+        }
+      ],
+      "reviewItems": [
+        "es.la_tarde",
+        "es.tener",
+        "es.trabajar"
+      ]
+    },
+    {
+      "id": "es.a1u5.l03",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-5 时间与日常",
+      "order": 105030,
+      "titleZh": "你的生日是哪天?",
+      "goalZh": "会说日期,记住一月到六月",
+      "canDoZh": "能说出自己的生日,问别人生日是哪天",
+      "scenarioZh": "Marta 在厨房的日历上记朋友们的生日,问李娜 ¿Cuándo es tu cumpleaños?:李娜是三月十二日,Marta 自己是六月二日,Javier 在五月,Diego 在一月。七月到十二月下一课学,这一课只用上半年的月份。说话人:marta、lina。",
+      "grammarFocusZh": "日期:el + 日 + de + 月:el doce de marzo;每月一号说 el uno(拉美也说 el primero);月份小写,前面不加冠词:en enero;¿Cuándo es tu cumpleaños? → Es el …;祝福:¡Feliz cumpleaños!",
+      "skills": [
+        "listen",
+        "speak",
+        "write"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.cumpleanos",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el cumpleaños",
+          "zh": "生日",
+          "features": {
+            "gender": "m",
+            "ipa": "el kumpleˈaɲos"
+          },
+          "noteZh": "单复数同形;cumple + años,ñ 不能写成 n。"
+        },
+        {
+          "id": "es.feliz_cumpleanos",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¡Feliz cumpleaños!",
+          "zh": "生日快乐!",
+          "features": {
+            "ipa": "feˈliθ kumpleˈaɲos"
+          },
+          "noteZh": "feliz 的 z 读 [θ];唱生日歌时唱 Cumpleaños feliz。"
+        },
+        {
+          "id": "es.cuando",
+          "kind": "word",
+          "pos": "adv",
+          "text": "cuándo",
+          "zh": "什么时候",
+          "features": {
+            "ipa": "ˈkwando"
+          },
+          "noteZh": "疑问词带重音符号:¿Cuándo es…?"
+        },
+        {
+          "id": "es.mes",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el mes",
+          "zh": "月;月份",
+          "features": {
+            "gender": "m",
+            "ipa": "el mes"
+          },
+          "noteZh": "复数 los meses;al mes = 每个月。"
+        },
+        {
+          "id": "es.enero",
+          "kind": "word",
+          "pos": "propn",
+          "text": "enero",
+          "zh": "一月",
+          "features": {
+            "ipa": "eˈneɾo"
+          },
+          "noteZh": "月份小写,前面一般不加冠词:en enero。"
+        },
+        {
+          "id": "es.febrero",
+          "kind": "word",
+          "pos": "propn",
+          "text": "febrero",
+          "zh": "二月",
+          "features": {
+            "ipa": "feˈbɾeɾo"
+          }
+        },
+        {
+          "id": "es.marzo",
+          "kind": "word",
+          "pos": "propn",
+          "text": "marzo",
+          "zh": "三月",
+          "features": {
+            "ipa": "ˈmaɾθo"
+          },
+          "noteZh": "z 读 [θ]。"
+        },
+        {
+          "id": "es.abril",
+          "kind": "word",
+          "pos": "propn",
+          "text": "abril",
+          "zh": "四月",
+          "features": {
+            "ipa": "aˈbɾil"
+          },
+          "noteZh": "重音在最后:a-BRIL。"
+        },
+        {
+          "id": "es.mayo",
+          "kind": "word",
+          "pos": "propn",
+          "text": "mayo",
+          "zh": "五月",
+          "features": {
+            "ipa": "ˈmaʝo"
+          }
+        },
+        {
+          "id": "es.junio",
+          "kind": "word",
+          "pos": "propn",
+          "text": "junio",
+          "zh": "六月",
+          "features": {
+            "ipa": "ˈxunjo"
+          },
+          "noteZh": "j 读 [x]。"
+        }
+      ],
+      "reviewItems": [
+        "es.de",
+        "es.tu_pos",
+        "es.doce"
+      ]
+    },
+    {
+      "id": "es.a1u5.l04",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-5 时间与日常",
+      "order": 105040,
+      "titleZh": "一学年的安排",
+      "goalZh": "记住七月到十二月,会说什么时候开始、什么时候结束",
+      "canDoZh": "能说出开学、放假在几月,一件事什么时候开始、什么时候结束",
+      "scenarioZh": "Marta 问李娜这一学年怎么安排:课九月开始、六月结束,十二月有圣诞假期,一月要好好学习;七月李娜在中国,八月在马德里。Marta 说自己八月有假期,会在塞维利亚。说话人:marta、lina。",
+      "grammarFocusZh": "empezar(开始)e 变 ie:empieza, empiezan;terminar(结束)是规则 -ar 动词;en + 月份:en julio;de … a …(从……到……):de julio a agosto;复习 ¿Cuándo…?",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.julio",
+          "kind": "word",
+          "pos": "propn",
+          "text": "julio",
+          "zh": "七月",
+          "features": {
+            "ipa": "ˈxuljo"
+          },
+          "noteZh": "j 读 [x]。"
+        },
+        {
+          "id": "es.agosto",
+          "kind": "word",
+          "pos": "propn",
+          "text": "agosto",
+          "zh": "八月",
+          "features": {
+            "ipa": "aˈɡosto"
+          },
+          "noteZh": "西班牙的'度假月',不少商店和餐馆八月会关门。"
+        },
+        {
+          "id": "es.septiembre",
+          "kind": "word",
+          "pos": "propn",
+          "text": "septiembre",
+          "zh": "九月",
+          "alt": [
+            "setiembre"
+          ],
+          "features": {
+            "ipa": "sepˈtjembɾe"
+          },
+          "noteZh": "也可以写成 setiembre(拉美更常见)。"
+        },
+        {
+          "id": "es.octubre",
+          "kind": "word",
+          "pos": "propn",
+          "text": "octubre",
+          "zh": "十月",
+          "features": {
+            "ipa": "okˈtubɾe"
+          }
+        },
+        {
+          "id": "es.noviembre",
+          "kind": "word",
+          "pos": "propn",
+          "text": "noviembre",
+          "zh": "十一月",
+          "features": {
+            "ipa": "noˈbjembɾe"
+          }
+        },
+        {
+          "id": "es.diciembre",
+          "kind": "word",
+          "pos": "propn",
+          "text": "diciembre",
+          "zh": "十二月",
+          "features": {
+            "ipa": "diˈθjembɾe"
+          },
+          "noteZh": "c 在 i 前读 [θ]。"
+        },
+        {
+          "id": "es.clase",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la clase",
+          "zh": "课;课堂;班级",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈklase"
+          },
+          "noteZh": "tengo clase = 我有课;compañero de clase = 同学。"
+        },
+        {
+          "id": "es.vacaciones",
+          "kind": "word",
+          "pos": "noun",
+          "text": "las vacaciones",
+          "zh": "假期",
+          "features": {
+            "gender": "f",
+            "ipa": "las bakaˈθjones"
+          },
+          "noteZh": "总是用复数;去度假 ir de vacaciones。"
+        },
+        {
+          "id": "es.empezar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "empezar",
+          "zh": "开始",
+          "features": {
+            "ipa": "empeˈθaɾ"
+          },
+          "noteZh": "e→ie:empiezo, empiezas, empieza, empezamos, empezáis, empiezan。"
+        },
+        {
+          "id": "es.terminar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "terminar",
+          "zh": "结束;完成",
+          "features": {
+            "ipa": "teɾmiˈnaɾ"
+          },
+          "noteZh": "-ar 规则动词。"
+        }
+      ],
+      "reviewItems": [
+        "es.mes",
+        "es.cuando",
+        "es.estudiar"
+      ]
+    },
+    {
+      "id": "es.a1u5.l05",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-5 时间与日常",
+      "order": 105050,
+      "titleZh": "李娜的一天",
+      "goalZh": "会用反身动词说一天的作息,会说几点起床、吃饭、睡觉",
+      "canDoZh": "能按时间顺序说自己一天的作息",
+      "scenarioZh": "李娜给 Marta 讲自己的一天:七点起床、洗澡、吃早饭,九点去上课,两点吃午饭,晚上很累,十二点睡觉。Marta 上夜班,作息正好相反:早上九点才回家睡觉,下午四点起床。说话人:lina、marta。",
+      "grammarFocusZh": "反身动词:me levanto, te levantas, se levanta, nos levantamos, os levantáis, se levantan(代词放在变位动词前);acostarse 是 o 变 ue(me acuesto);西班牙的饭点:早饭、两点左右吃午饭(comer)、九点左右吃晚饭(cenar);por la mañana / por la tarde / por la noche(没有具体钟点时);ir(去)完全不规则:voy, vas, va, vamos, vais, van,ir a + 地点(a + el = al)",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.levantarse",
+          "kind": "word",
+          "pos": "verb",
+          "text": "levantarse",
+          "zh": "起床",
+          "features": {
+            "ipa": "lebanˈtaɾse"
+          },
+          "noteZh": "反身动词:me levanto, te levantas, se levanta…"
+        },
+        {
+          "id": "es.ducharse",
+          "kind": "word",
+          "pos": "verb",
+          "text": "ducharse",
+          "zh": "洗澡;淋浴",
+          "features": {
+            "ipa": "duˈtʃaɾse"
+          },
+          "noteZh": "me ducho, te duchas…;la ducha = 淋浴。"
+        },
+        {
+          "id": "es.acostarse",
+          "kind": "word",
+          "pos": "verb",
+          "text": "acostarse",
+          "zh": "上床睡觉",
+          "features": {
+            "ipa": "akosˈtaɾse"
+          },
+          "noteZh": "o→ue:me acuesto, te acuestas, se acuesta…"
+        },
+        {
+          "id": "es.desayunar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "desayunar",
+          "zh": "吃早饭",
+          "features": {
+            "ipa": "desaʝuˈnaɾ"
+          },
+          "noteZh": "-ar 规则动词;el desayuno = 早餐。"
+        },
+        {
+          "id": "es.cenar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "cenar",
+          "zh": "吃晚饭",
+          "features": {
+            "ipa": "θeˈnaɾ"
+          },
+          "noteZh": "西班牙人一般晚上九点以后才吃晚饭;la cena = 晚餐。"
+        },
+        {
+          "id": "es.temprano",
+          "kind": "word",
+          "pos": "adv",
+          "text": "temprano",
+          "zh": "早(时间早)",
+          "features": {
+            "ipa": "temˈpɾano"
+          },
+          "noteZh": "Me levanto temprano = 我起得早;和 la mañana(上午)不同。"
+        },
+        {
+          "id": "es.tarde",
+          "kind": "word",
+          "pos": "adv",
+          "text": "tarde",
+          "zh": "晚;迟",
+          "features": {
+            "ipa": "ˈtaɾde"
+          },
+          "noteZh": "Me acuesto tarde = 我睡得晚;llegar tarde = 迟到。带冠词的 la tarde 是'下午'。"
+        },
+        {
+          "id": "es.por",
+          "kind": "word",
+          "pos": "prep",
+          "text": "por",
+          "zh": "在(某个时段);通过",
+          "features": {
+            "ipa": "poɾ"
+          },
+          "noteZh": "por la mañana / por la tarde / por la noche = 在上午 / 下午 / 晚上(不说具体钟点时)。"
+        },
+        {
+          "id": "es.ir",
+          "kind": "word",
+          "pos": "verb",
+          "text": "ir",
+          "zh": "去",
+          "features": {
+            "ipa": "iɾ"
+          },
+          "noteZh": "完全不规则:voy, vas, va, vamos, vais, van;ir a + 地点:Voy a la universidad;a + el = al:Voy al gimnasio。交通方式(en metro…)第 6 单元学。"
+        },
+        {
+          "id": "es.cansado",
+          "kind": "word",
+          "pos": "adj",
+          "text": "cansado",
+          "zh": "累的",
+          "alt": [
+            "cansada"
+          ],
+          "features": {
+            "ipa": "kanˈsado"
+          },
+          "noteZh": "用 estar:Estoy cansada(女生说 cansada)。"
+        }
+      ],
+      "reviewItems": [
+        "es.a",
+        "es.la_manana",
+        "es.comer",
+        "es.estar"
+      ]
+    },
+    {
+      "id": "es.a1u5.l08",
+      "lang": "es",
+      "type": "reading",
+      "cefr": "A1",
+      "unit": "A1-5 时间与日常",
+      "order": 105080,
+      "titleZh": "单元复习:李娜的一周",
+      "goalZh": "读懂一篇关于一周安排的短文,并写出自己的一周",
+      "canDoZh": "能读懂并写出自己一周的安排:星期几、几点、做什么",
+      "scenarioZh": "李娜为西语课写的短文《Mi semana》:周一到周四上课,下课后去图书馆;每周一、周三去健身房(第 1 单元办的卡);周五下午语言交换;周末起得晚、和 Marta 去菜市场。说话人用 lina 或 narrator。至少 8 句。",
+      "grammarFocusZh": "复习钟点、星期、反身动词和 -ar / -er / -ir 动词;los lunes = 每周一;a + el = al:voy al gimnasio(ir 上一课学过)",
+      "skills": [
+        "read",
+        "listen",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.semana",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la semana",
+          "zh": "星期;周",
+          "features": {
+            "gender": "f",
+            "ipa": "la seˈmana"
+          },
+          "noteZh": "cada semana = 每周;el fin de semana = 周末(第 8 单元)。"
+        },
+        {
+          "id": "es.ano",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el año",
+          "zh": "年",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈaɲo"
+          },
+          "noteZh": "ñ 一定要写;este año = 今年,todos los años = 每年。"
+        },
+        {
+          "id": "es.biblioteca",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la biblioteca",
+          "zh": "图书馆",
+          "features": {
+            "gender": "f",
+            "ipa": "la bibljoˈteka"
+          },
+          "noteZh": "不是'书店'(书店是 la librería)。"
+        },
+        {
+          "id": "es.gimnasio",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el gimnasio",
+          "zh": "健身房",
+          "features": {
+            "gender": "m",
+            "ipa": "el ximˈnasjo"
+          },
+          "noteZh": "g 在 i 前读 [x]。"
+        }
+      ],
+      "reviewItems": [
+        "es.lunes",
+        "es.levantarse",
+        "es.clase",
+        "es.por"
+      ]
+    },
+    {
+      "id": "es.a1u6.l01",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-6 城市与交通",
+      "order": 106010,
+      "titleZh": "附近有药店吗?",
+      "goalZh": "记住城市里常去的地方,会问附近有没有",
+      "canDoZh": "能问附近有没有银行、药店、超市等,并听懂简单的回答",
+      "scenarioZh": "李娜要买药、取钱,问 Doña Pilar 附近有没有药店和银行。Pilar 一一告诉她:超市就在旁边,广场上有药店,银行在车站旁边;周末还可以去附近的公园和博物馆。说话人:lina、pilar。",
+      "grammarFocusZh": "¿Hay un / una … cerca (de aquí)? 问附近有没有(hay + 不定冠词);¿Dónde está el / la …? 问具体的地方(estar + 定冠词);复习 cerca de / al lado de;a + el = al,de + el = del",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.ciudad",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la ciudad",
+          "zh": "城市",
+          "features": {
+            "gender": "f",
+            "ipa": "la θjuˈdad"
+          },
+          "noteZh": "-dad 结尾都是阴性;词尾 d 很轻。"
+        },
+        {
+          "id": "es.banco",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el banco",
+          "zh": "银行;长椅",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈbaŋko"
+          }
+        },
+        {
+          "id": "es.farmacia",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la farmacia",
+          "zh": "药店",
+          "features": {
+            "gender": "f",
+            "ipa": "la faɾˈmaθja"
+          },
+          "noteZh": "门口有绿色十字;重音在 ma:far-MA-cia。"
+        },
+        {
+          "id": "es.supermercado",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el supermercado",
+          "zh": "超市",
+          "features": {
+            "gender": "m",
+            "ipa": "el supeɾmeɾˈkado"
+          }
+        },
+        {
+          "id": "es.plaza",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la plaza",
+          "zh": "广场",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈplaθa"
+          },
+          "noteZh": "z 读 [θ];Plaza Mayor 是马德里有名的广场。"
+        },
+        {
+          "id": "es.parque",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el parque",
+          "zh": "公园",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈpaɾke"
+          },
+          "noteZh": "El Retiro 是马德里市中心最有名的公园。"
+        },
+        {
+          "id": "es.museo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el museo",
+          "zh": "博物馆;美术馆",
+          "features": {
+            "gender": "m",
+            "ipa": "el muˈseo"
+          },
+          "noteZh": "重音在 se:mu-SE-o;el Museo del Prado = 普拉多博物馆。"
+        },
+        {
+          "id": "es.estacion",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la estación",
+          "zh": "车站",
+          "features": {
+            "gender": "f",
+            "ipa": "la estaˈθjon"
+          },
+          "noteZh": "estación de metro = 地铁站,estación de tren = 火车站;-ción 结尾都是阴性。"
+        },
+        {
+          "id": "es.tienda",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la tienda",
+          "zh": "商店",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈtjenda"
+          },
+          "noteZh": "tienda de ropa = 服装店(第 7 单元)。"
+        },
+        {
+          "id": "es.restaurante",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el restaurante",
+          "zh": "餐馆",
+          "features": {
+            "gender": "m",
+            "ipa": "el restauˈɾante"
+          },
+          "noteZh": "词首 r 要颤舌。"
+        }
+      ],
+      "reviewItems": [
+        "es.hay",
+        "es.cerca",
+        "es.al_lado_de",
+        "es.calle"
+      ]
+    },
+    {
+      "id": "es.a1u6.l02",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-6 城市与交通",
+      "order": 106020,
+      "titleZh": "请问,普拉多博物馆在哪儿?",
+      "goalZh": "会礼貌地问路,听懂直走、左转、右转和大概多远",
+      "canDoZh": "能在街上礼貌地问路,听懂简单的路线说明",
+      "scenarioZh": "周六李娜一个人去普拉多博物馆,出了地铁站就迷路了。她拦住一位路人:Perdone, ¿dónde está el Museo del Prado? 路人告诉她一直往前走,然后在第二个路口右转,博物馆就在一个大公园对面,走路五分钟。说话人:lina、transeunte。",
+      "grammarFocusZh": "礼貌地开口:Perdone(对陌生人,usted)/ Perdona(对朋友,tú);指路的命令式先当固定说法记:gire / gira a la derecha(右转),todo recto(一直走);la primera / la segunda calle(第一 / 第二条街,序数词跟名词变阴性);Está a cinco minutos(离这儿五分钟)",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.perdone",
+          "kind": "word",
+          "pos": "interj",
+          "text": "Perdone",
+          "zh": "打扰一下;对不起(对陌生人)",
+          "features": {
+            "ipa": "peɾˈdone"
+          },
+          "noteZh": "对陌生人用 perdone(usted),对朋友用 perdona(tú);单纯道歉也可以说 perdón。"
+        },
+        {
+          "id": "es.todo_recto",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "todo recto",
+          "zh": "一直往前走",
+          "features": {
+            "ipa": "ˈtodo ˈrekto"
+          },
+          "noteZh": "拉美多说 derecho / todo derecho。"
+        },
+        {
+          "id": "es.a_la_derecha",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "a la derecha",
+          "zh": "往右;在右边",
+          "features": {
+            "ipa": "a la deˈɾetʃa"
+          },
+          "noteZh": "gire a la derecha = 您往右拐。"
+        },
+        {
+          "id": "es.a_la_izquierda",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "a la izquierda",
+          "zh": "往左;在左边",
+          "features": {
+            "ipa": "a la iθˈkjeɾda"
+          },
+          "noteZh": "z 读 [θ],qu 读 [k]。"
+        },
+        {
+          "id": "es.girar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "girar",
+          "zh": "转弯;拐",
+          "features": {
+            "ipa": "xiˈɾaɾ"
+          },
+          "noteZh": "g 在 i 前读 [x];问路时常听到 gire(您拐)/ gira(你拐)。"
+        },
+        {
+          "id": "es.esquina",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la esquina",
+          "zh": "街角;路口",
+          "features": {
+            "gender": "f",
+            "ipa": "la esˈkina"
+          },
+          "noteZh": "en la esquina = 在街角;qu 读 [k]。"
+        },
+        {
+          "id": "es.delante_de",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "delante de",
+          "zh": "在……前面",
+          "features": {
+            "ipa": "deˈlante de"
+          },
+          "noteZh": "反义词是 detrás de(在……后面)。"
+        },
+        {
+          "id": "es.enfrente_de",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "enfrente de",
+          "zh": "在……对面",
+          "features": {
+            "ipa": "enˈfɾente de"
+          },
+          "noteZh": "enfrente del museo = 在博物馆对面(de + el = del)。"
+        },
+        {
+          "id": "es.minuto",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el minuto",
+          "zh": "分钟",
+          "features": {
+            "gender": "m",
+            "ipa": "el miˈnuto"
+          },
+          "noteZh": "Está a cinco minutos = 离这儿五分钟。"
+        },
+        {
+          "id": "es.despues",
+          "kind": "word",
+          "pos": "adv",
+          "text": "después",
+          "zh": "之后;以后",
+          "features": {
+            "ipa": "desˈpwes"
+          },
+          "noteZh": "重音在 ués;指路时说 Todo recto y después a la derecha;después de + 动词原形或名词:después de comer = 吃完饭以后。"
+        }
+      ],
+      "reviewItems": [
+        "es.donde",
+        "es.estar",
+        "es.museo",
+        "es.segundo"
+      ]
+    },
+    {
+      "id": "es.a1u6.l03",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-6 城市与交通",
+      "order": 106030,
+      "titleZh": "坐地铁去学校",
+      "goalZh": "会用 ir en / a pie 说怎么去,会说常见的交通工具和车站",
+      "canDoZh": "能说自己怎么去学校或市中心、坐几号线、在哪站下车",
+      "scenarioZh": "Javier 教李娜在马德里坐地铁:坐 1 号线,到 Sol 站下车;Diego 说他走路去学校,Marta 坐公交去医院,Javier 有时开爸爸的车。说话人:javier、lina、diego。",
+      "grammarFocusZh": "复习 ir(voy, vas, va…)和 ir a + 地点(a + el = al:voy al centro);ir en + 交通工具(en metro、en autobús、en tren、en coche),但步行是 a pie;coger(坐、乘)是西班牙说法,第一人称 cojo;bajarse en + 站名 = 在……下车",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.metro",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el metro",
+          "zh": "地铁",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈmetɾo"
+          },
+          "noteZh": "ir en metro = 坐地铁。"
+        },
+        {
+          "id": "es.autobus",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el autobús",
+          "zh": "公共汽车",
+          "features": {
+            "gender": "m",
+            "ipa": "el autoˈbus"
+          },
+          "noteZh": "重音在 ús;复数 los autobuses(重音符号去掉);墨西哥说 el camión。"
+        },
+        {
+          "id": "es.tren",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el tren",
+          "zh": "火车",
+          "features": {
+            "gender": "m",
+            "ipa": "el tɾen"
+          }
+        },
+        {
+          "id": "es.coche",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el coche",
+          "zh": "汽车;小轿车",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈkotʃe"
+          },
+          "noteZh": "西班牙说 coche,拉美说 el carro / el auto。"
+        },
+        {
+          "id": "es.a_pie",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "a pie",
+          "zh": "步行;走路",
+          "features": {
+            "ipa": "a ˈpje"
+          },
+          "noteZh": "交通方式都用 en(en metro),唯独步行是 a pie;西班牙口语也说 andando。"
+        },
+        {
+          "id": "es.linea",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la línea",
+          "zh": "(地铁、公交)线路",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈlinea"
+          },
+          "noteZh": "la línea 1 = 1 号线;重音在 lí。"
+        },
+        {
+          "id": "es.coger",
+          "kind": "word",
+          "pos": "verb",
+          "text": "coger",
+          "zh": "乘坐;拿",
+          "features": {
+            "ipa": "koˈxeɾ"
+          },
+          "noteZh": "西班牙说 coger el metro;在墨西哥、阿根廷等地 coger 有不雅的意思,去拉美要说 tomar。g 在 e 前读 [x],第一人称 cojo。"
+        },
+        {
+          "id": "es.bajarse",
+          "kind": "word",
+          "pos": "verb",
+          "text": "bajarse",
+          "zh": "下车",
+          "features": {
+            "ipa": "baˈxaɾse"
+          },
+          "noteZh": "反身动词:me bajo en Sol = 我在太阳门站下。"
+        },
+        {
+          "id": "es.parada",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la parada",
+          "zh": "(公交)站;停靠站",
+          "features": {
+            "gender": "f",
+            "ipa": "la paˈɾada"
+          },
+          "noteZh": "la parada de autobús = 公交车站;地铁站叫 la estación de metro。"
+        }
+      ],
+      "reviewItems": [
+        "es.ir",
+        "es.universidad",
+        "es.en",
+        "es.estacion"
+      ]
+    },
+    {
+      "id": "es.a1u6.l04",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-6 城市与交通",
+      "order": 106040,
+      "titleZh": "买两张去托莱多的火车票",
+      "goalZh": "会在车站买票,问发车时间、到达时间和票价",
+      "canDoZh": "能在车站买往返火车票,问清几点出发、几点到、多少钱",
+      "scenarioZh": "李娜和 Diego 想周六去托莱多玩一天。在阿托查火车站的售票窗口,李娜买两张往返票,问几点出发、几点到、多少钱,有没有学生优惠;车站广播在报车次和时间。说话人:lina、taquillera、diego、megafonia。",
+      "grammarFocusZh": "un billete (de ida / de ida y vuelta) para + 地点;¿A qué hora sale / llega el tren?——salir(出发)第一人称不规则 salgo,llegar(到达)规则;tener que + 动词原形 = 必须:Tenemos que comprar los billetes.;¿Cuánto cuesta / cuestan?(costar o 变 ue);火车时刻用 24 小时制:a las quince treinta",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.billete",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el billete",
+          "zh": "票(车票);纸币",
+          "features": {
+            "gender": "m",
+            "ipa": "el biˈʝete"
+          },
+          "noteZh": "西班牙说 billete,拉美多说 el boleto。"
+        },
+        {
+          "id": "es.ida_y_vuelta",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "de ida y vuelta",
+          "zh": "往返的",
+          "features": {
+            "ipa": "de ˈida i ˈbwelta"
+          },
+          "noteZh": "单程是 de ida;un billete de ida y vuelta = 一张往返票。"
+        },
+        {
+          "id": "es.salir",
+          "kind": "word",
+          "pos": "verb",
+          "text": "salir",
+          "zh": "出发;出去",
+          "features": {
+            "ipa": "saˈliɾ"
+          },
+          "noteZh": "第一人称不规则:salgo, sales, sale…;El tren sale a las nueve。"
+        },
+        {
+          "id": "es.llegar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "llegar",
+          "zh": "到达",
+          "features": {
+            "ipa": "ʝeˈɡaɾ"
+          },
+          "noteZh": "llegar a + 地点:Llegamos a Toledo a las diez。"
+        },
+        {
+          "id": "es.tener_que",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "tener que",
+          "zh": "必须;得",
+          "features": {
+            "ipa": "teˈneɾ ke"
+          },
+          "noteZh": "tener que + 动词原形:Tengo que estudiar = 我得学习。"
+        },
+        {
+          "id": "es.comprar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "comprar",
+          "zh": "买",
+          "features": {
+            "ipa": "komˈpɾaɾ"
+          },
+          "noteZh": "-ar 规则动词。"
+        },
+        {
+          "id": "es.para",
+          "kind": "word",
+          "pos": "prep",
+          "text": "para",
+          "zh": "给;为了;去往",
+          "features": {
+            "ipa": "ˈpaɾa"
+          },
+          "noteZh": "un billete para Toledo = 去托莱多的票;descuento para estudiantes = 学生优惠;Es para mi hermano = 是给我弟弟的;para mí 你已经学过。"
+        },
+        {
+          "id": "es.descuento",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el descuento",
+          "zh": "折扣;优惠",
+          "features": {
+            "gender": "m",
+            "ipa": "el desˈkwento"
+          },
+          "noteZh": "¿Hay descuento para estudiantes? = 学生有优惠吗?"
+        },
+        {
+          "id": "es.viaje",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el viaje",
+          "zh": "旅行;行程",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈbjaxe"
+          },
+          "noteZh": "¡Buen viaje! = 一路顺风;j 读 [x]。"
+        },
+        {
+          "id": "es.cuanto_cuesta",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¿Cuánto cuesta?",
+          "zh": "(这个)多少钱?",
+          "features": {
+            "ipa": "ˈkwanto ˈkwesta"
+          },
+          "noteZh": "一样东西用 cuesta,几样用 cuestan:¿Cuánto cuestan los billetes?;costar 是 o→ue 变位。"
+        }
+      ],
+      "reviewItems": [
+        "es.a_que_hora",
+        "es.tren",
+        "es.sabado",
+        "es.estudiante"
+      ]
+    },
+    {
+      "id": "es.a1u6.l05",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-6 城市与交通",
+      "order": 106050,
+      "titleZh": "大教堂几点开门?",
+      "goalZh": "会问景点的开放时间和门票,简单描述一座城市",
+      "canDoZh": "能问景点几点开门、几点关门、门票多少钱,并简单说说一座城市的样子",
+      "scenarioZh": "出发前,李娜和 Diego 在马德里市中心的游客中心为托莱多一日游做准备:问大教堂和博物馆几点开门、几点关门、门票多少钱,有没有免费的时候;工作人员给了他们一张地图,说托莱多是一座古老而有名的城市,不大,走路就能逛。说话人:guia、lina、diego。",
+      "grammarFocusZh": "abrir / cerrar(开门 / 关门):El museo abre a las diez y cierra a las seis.(cerrar e 变 ie);la entrada(门票)和 gratis(免费);用形容词描述城市:Toledo es una ciudad muy antigua y famosa;Madrid es una ciudad grande y moderna(形容词跟着 ciudad 用阴性);复习 muy 和 mucho",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.abrir",
+          "kind": "word",
+          "pos": "verb",
+          "text": "abrir",
+          "zh": "打开;开门",
+          "features": {
+            "ipa": "aˈbɾiɾ"
+          },
+          "noteZh": "-ir 规则动词:abro, abres, abre…"
+        },
+        {
+          "id": "es.cerrar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "cerrar",
+          "zh": "关;关门",
+          "features": {
+            "ipa": "θeˈraɾ"
+          },
+          "noteZh": "e→ie:cierro, cierras, cierra…;rr 要颤舌。"
+        },
+        {
+          "id": "es.entrada",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la entrada",
+          "zh": "门票;入口",
+          "features": {
+            "gender": "f",
+            "ipa": "la enˈtɾada"
+          },
+          "noteZh": "一张门票 una entrada;入口也叫 la entrada,出口是 la salida。"
+        },
+        {
+          "id": "es.gratis",
+          "kind": "word",
+          "pos": "adv",
+          "text": "gratis",
+          "zh": "免费",
+          "features": {
+            "ipa": "ˈɡɾatis"
+          },
+          "noteZh": "不变形:La entrada es gratis。"
+        },
+        {
+          "id": "es.catedral",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la catedral",
+          "zh": "大教堂",
+          "features": {
+            "gender": "f",
+            "ipa": "la kateˈdɾal"
+          },
+          "noteZh": "-al 结尾的名词性别要单独记:la catedral 是阴性。"
+        },
+        {
+          "id": "es.antiguo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "antiguo",
+          "zh": "古老的;历史悠久的",
+          "features": {
+            "ipa": "anˈtiɡwo"
+          },
+          "noteZh": "guo 里的 u 要读出来;说城市、建筑古老用 antiguo,说东西旧多用 viejo。"
+        },
+        {
+          "id": "es.moderno",
+          "kind": "word",
+          "pos": "adj",
+          "text": "moderno",
+          "zh": "现代的;时髦的",
+          "features": {
+            "ipa": "moˈdeɾno"
+          }
+        },
+        {
+          "id": "es.famoso",
+          "kind": "word",
+          "pos": "adj",
+          "text": "famoso",
+          "zh": "有名的",
+          "features": {
+            "ipa": "faˈmoso"
+          },
+          "noteZh": "阴性 famosa;ser famoso por… = 以……出名。"
+        },
+        {
+          "id": "es.plano",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el plano",
+          "zh": "城市地图",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈplano"
+          },
+          "noteZh": "城市、地铁的地图叫 el plano;el mapa(-a 结尾的阳性)指一般的地图。"
+        }
+      ],
+      "reviewItems": [
+        "es.a_que_hora",
+        "es.museo",
+        "es.domingo",
+        "es.cuanto_cuesta"
+      ]
+    },
+    {
+      "id": "es.a1u6.l08",
+      "lang": "es",
+      "type": "reading",
+      "cefr": "A1",
+      "unit": "A1-6 城市与交通",
+      "order": 106080,
+      "titleZh": "单元复习:托莱多一日游行程",
+      "goalZh": "读懂一份一日游的行程安排,并写出自己的出行计划",
+      "canDoZh": "能读懂、写出一份简单的一日游行程:怎么去、几点出发和到达、去哪儿",
+      "scenarioZh": "出发前一晚,李娜在手机上给 Marta 发了一段行程:早上坐地铁到阿托查站,九点二十的火车,十点到托莱多;先走路去大教堂,中午吃套餐,下午逛博物馆,晚上七点坐火车回马德里。说话人用 lina。至少 8 句。",
+      "grammarFocusZh": "复习 ir a / ir en / salir / llegar / tener que 和钟点;用一般现在时说已经定好的安排(Nuestro tren sale a las nueve y veinte.);primero … luego … 说先后顺序;nuestro 跟名词变:nuestra casa, nuestros billetes",
+      "skills": [
+        "read",
+        "listen",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.volver",
+          "kind": "word",
+          "pos": "verb",
+          "text": "volver",
+          "zh": "回来;返回",
+          "features": {
+            "ipa": "bolˈbeɾ"
+          },
+          "noteZh": "o→ue:vuelvo, vuelves, vuelve…;volver a casa = 回家。"
+        },
+        {
+          "id": "es.luego",
+          "kind": "word",
+          "pos": "adv",
+          "text": "luego",
+          "zh": "然后;接着",
+          "features": {
+            "ipa": "ˈlweɡo"
+          },
+          "noteZh": "常和 primero 连用:Primero vamos al museo, luego comemos;hasta luego 的 luego 就是它。"
+        },
+        {
+          "id": "es.nuestro",
+          "kind": "word",
+          "pos": "det",
+          "text": "nuestro",
+          "zh": "我们的",
+          "features": {
+            "ipa": "ˈnwestɾo"
+          },
+          "noteZh": "跟名词变:nuestro tren, nuestra casa, nuestros amigos;'你们的'是 vuestro。"
+        }
+      ],
+      "reviewItems": [
+        "es.ir",
+        "es.tren",
+        "es.salir",
+        "es.llegar"
+      ]
+    },
+    {
+      "id": "es.a1u7.l01",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-7 购物",
+      "order": 107010,
+      "titleZh": "天冷了,买件大衣",
+      "goalZh": "记住常见衣物的说法,会说自己在找什么",
+      "canDoZh": "能在服装店说出要找的衣服,说自己平时穿什么",
+      "scenarioZh": "十一月马德里变冷了,李娜只带了薄衣服。Marta 陪她去服装店,店员问 ¿Qué buscas?,李娜要一件大衣和一件毛衣,还看了裤子;Marta 说她平时总穿运动鞋。说话人:dependienta、lina、marta。",
+      "grammarFocusZh": "衣物名词的性和数:un abrigo, una camiseta, unos pantalones, unos zapatos(成双的东西常用复数);buscar(找)+ 名词;llevar = 穿着、戴着(Llevo un jersey);对店里说 ¿Tienen…?(您这儿有……吗)",
+      "skills": [
+        "listen",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.ropa",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la ropa",
+          "zh": "衣服(总称)",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈropa"
+          },
+          "noteZh": "不可数,用单数:Compro ropa;tienda de ropa = 服装店。"
+        },
+        {
+          "id": "es.llevar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "llevar",
+          "zh": "穿着;戴着;带",
+          "features": {
+            "ipa": "ʝeˈbaɾ"
+          },
+          "noteZh": "-ar 规则动词:Llevo un abrigo negro = 我穿着一件黑大衣。"
+        },
+        {
+          "id": "es.abrigo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el abrigo",
+          "zh": "大衣;外套",
+          "features": {
+            "gender": "m",
+            "ipa": "el aˈbɾiɡo"
+          }
+        },
+        {
+          "id": "es.jersey",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el jersey",
+          "zh": "毛衣",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈxeɾsei"
+          },
+          "noteZh": "西班牙说 jersey,按西语读 [ˈxeɾsei];拉美多说 el suéter。"
+        },
+        {
+          "id": "es.camiseta",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la camiseta",
+          "zh": "T 恤",
+          "features": {
+            "gender": "f",
+            "ipa": "la kamiˈseta"
+          }
+        },
+        {
+          "id": "es.pantalones",
+          "kind": "word",
+          "pos": "noun",
+          "text": "los pantalones",
+          "zh": "裤子",
+          "features": {
+            "gender": "m",
+            "ipa": "los pantaˈlones"
+          },
+          "noteZh": "常用复数;短裤是 los pantalones cortos。"
+        },
+        {
+          "id": "es.vestido",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el vestido",
+          "zh": "连衣裙",
+          "features": {
+            "gender": "m",
+            "ipa": "el besˈtido"
+          },
+          "noteZh": "-o 结尾,阳性:el vestido。"
+        },
+        {
+          "id": "es.zapatos",
+          "kind": "word",
+          "pos": "noun",
+          "text": "los zapatos",
+          "zh": "鞋",
+          "features": {
+            "gender": "m",
+            "ipa": "los θaˈpatos"
+          },
+          "noteZh": "一只鞋是 el zapato;z 读 [θ]。"
+        },
+        {
+          "id": "es.zapatillas",
+          "kind": "word",
+          "pos": "noun",
+          "text": "las zapatillas",
+          "zh": "运动鞋;拖鞋",
+          "features": {
+            "gender": "f",
+            "ipa": "las θapaˈtiʝas"
+          },
+          "noteZh": "西班牙说 zapatillas,墨西哥等地多说 tenis。"
+        },
+        {
+          "id": "es.buscar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "buscar",
+          "zh": "找;寻找",
+          "features": {
+            "ipa": "busˈkaɾ"
+          },
+          "noteZh": "-ar 规则动词;店员常问 ¿Qué buscas? / ¿Busca algo?"
+        }
+      ],
+      "reviewItems": [
+        "es.tienda",
+        "es.comprar",
+        "es.querer"
+      ]
+    },
+    {
+      "id": "es.a1u7.l02",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-7 购物",
+      "order": 107020,
+      "titleZh": "我要黑色的",
+      "goalZh": "记住常用颜色,注意颜色形容词的阴阳性和单复数",
+      "canDoZh": "能说出想要的颜色,描述衣服和眼睛的颜色",
+      "scenarioZh": "店员拿出几件不同颜色的毛衣:红的、蓝的、灰的。李娜想要黑色的大衣,Marta 劝她试试颜色亮一点的;两人还聊到李娜的黑眼睛和 Marta 的棕色眼睛。说话人:dependienta、lina、marta。",
+      "grammarFocusZh": "颜色形容词放在名词后并配合:un jersey negro, una camiseta negra, unos zapatos negros;-e 和辅音结尾的颜色只变单复数(verde / verdes,azul / azules,gris / grises,marrón / marrones);¿De qué color es?;tener + los ojos + 颜色:Tiene los ojos marrones",
+      "skills": [
+        "listen",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 9,
+      "newItems": [
+        {
+          "id": "es.color",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el color",
+          "zh": "颜色",
+          "features": {
+            "gender": "m",
+            "ipa": "el koˈloɾ"
+          },
+          "noteZh": "阳性:el color;¿De qué color es? = 是什么颜色的?"
+        },
+        {
+          "id": "es.negro",
+          "kind": "word",
+          "pos": "adj",
+          "text": "negro",
+          "zh": "黑色的",
+          "features": {
+            "ipa": "ˈneɡɾo"
+          },
+          "noteZh": "黑头发一般说 el pelo negro 或 moreno。"
+        },
+        {
+          "id": "es.blanco",
+          "kind": "word",
+          "pos": "adj",
+          "text": "blanco",
+          "zh": "白色的",
+          "features": {
+            "ipa": "ˈblaŋko"
+          }
+        },
+        {
+          "id": "es.rojo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "rojo",
+          "zh": "红色的",
+          "features": {
+            "ipa": "ˈroxo"
+          },
+          "noteZh": "词首 r 要多颤;j 读 [x]。"
+        },
+        {
+          "id": "es.azul",
+          "kind": "word",
+          "pos": "adj",
+          "text": "azul",
+          "zh": "蓝色的",
+          "features": {
+            "ipa": "aˈθul"
+          },
+          "noteZh": "男女同形,复数 azules;z 读 [θ]。"
+        },
+        {
+          "id": "es.verde",
+          "kind": "word",
+          "pos": "adj",
+          "text": "verde",
+          "zh": "绿色的",
+          "features": {
+            "ipa": "ˈbeɾde"
+          },
+          "noteZh": "男女同形;v 读 [b]。"
+        },
+        {
+          "id": "es.amarillo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "amarillo",
+          "zh": "黄色的",
+          "features": {
+            "ipa": "amaˈɾiʝo"
+          },
+          "noteZh": "ll 读 [ʝ]。"
+        },
+        {
+          "id": "es.gris",
+          "kind": "word",
+          "pos": "adj",
+          "text": "gris",
+          "zh": "灰色的",
+          "features": {
+            "ipa": "ɡɾis"
+          },
+          "noteZh": "男女同形,复数 grises。"
+        },
+        {
+          "id": "es.marron",
+          "kind": "word",
+          "pos": "adj",
+          "text": "marrón",
+          "zh": "棕色的;咖啡色的",
+          "features": {
+            "ipa": "maˈron"
+          },
+          "noteZh": "男女同形,复数 marrones(重音符号去掉);rr 要颤。"
+        },
+        {
+          "id": "es.ojos",
+          "kind": "word",
+          "pos": "noun",
+          "text": "los ojos",
+          "zh": "眼睛",
+          "features": {
+            "gender": "m",
+            "ipa": "los ˈoxos"
+          },
+          "noteZh": "一只眼睛是 el ojo;Tiene los ojos azules / marrones / negros;j 读 [x]。"
+        }
+      ],
+      "reviewItems": [
+        "es.abrigo",
+        "es.jersey",
+        "es.pelo"
+      ]
+    },
+    {
+      "id": "es.a1u7.l03",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-7 购物",
+      "order": 107030,
+      "titleZh": "我能试一下这件吗?",
+      "goalZh": "会用指示词 este / ese 指衣服,会问能不能试穿、说尺码合不合适",
+      "canDoZh": "能在店里指着衣服问能不能试穿,说出自己的尺码和穿着合不合适",
+      "scenarioZh": "李娜指着一件大衣问 ¿Puedo probarme este abrigo?,店员问她穿多大号,带她去试衣间。第一件太大了,换了一件小一号的正好;Marta 也试了一条裙子,太短了。说话人:lina、dependienta、marta。",
+      "grammarFocusZh": "指示词:este / esta / estos / estas(这),ese / esa / esos / esas(那),要和名词性数一致;probarse(试穿)o 变 ue:¿Puedo probarme…?;la talla(尺码)+ 数字或 S / M / L;demasiado / un poco + 形容词 说'太……、有点……';quedar 的用法和 gustar 一样:Me queda bien / grande",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.ese",
+          "kind": "word",
+          "pos": "det",
+          "text": "ese",
+          "zh": "那;那个",
+          "features": {
+            "ipa": "ˈese"
+          },
+          "noteZh": "跟名词变:ese abrigo, esa falda, esos zapatos, esas camisetas。"
+        },
+        {
+          "id": "es.probarse",
+          "kind": "word",
+          "pos": "verb",
+          "text": "probarse",
+          "zh": "试穿",
+          "features": {
+            "ipa": "pɾoˈbaɾse"
+          },
+          "noteZh": "o→ue:me pruebo, te pruebas…;¿Puedo probarme esta falda?"
+        },
+        {
+          "id": "es.talla",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la talla",
+          "zh": "(衣服的)尺码",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈtaʝa"
+          },
+          "noteZh": "鞋的尺码叫 el número;¿Qué talla tienes? = 你穿多大号?"
+        },
+        {
+          "id": "es.probador",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el probador",
+          "zh": "试衣间",
+          "features": {
+            "gender": "m",
+            "ipa": "el pɾobaˈdoɾ"
+          },
+          "noteZh": "¿Dónde están los probadores?"
+        },
+        {
+          "id": "es.demasiado",
+          "kind": "word",
+          "pos": "adv",
+          "text": "demasiado",
+          "zh": "太;过于",
+          "features": {
+            "ipa": "demaˈsjado"
+          },
+          "noteZh": "Es demasiado grande = 太大了。"
+        },
+        {
+          "id": "es.corto",
+          "kind": "word",
+          "pos": "adj",
+          "text": "corto",
+          "zh": "短的",
+          "features": {
+            "ipa": "ˈkoɾto"
+          },
+          "noteZh": "阴性 corta;manga corta = 短袖。"
+        },
+        {
+          "id": "es.largo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "largo",
+          "zh": "长的",
+          "features": {
+            "ipa": "ˈlaɾɡo"
+          },
+          "noteZh": "是'长的',不是'大的'(大是 grande);el pelo largo = 长头发。"
+        },
+        {
+          "id": "es.otro",
+          "kind": "word",
+          "pos": "det",
+          "text": "otro",
+          "zh": "另一个;别的",
+          "features": {
+            "ipa": "ˈotɾo"
+          },
+          "noteZh": "前面不加 un:otra talla(不说 una otra talla)。"
+        },
+        {
+          "id": "es.falda",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la falda",
+          "zh": "裙子(半身裙)",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈfalda"
+          }
+        },
+        {
+          "id": "es.me_queda_bien",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "me queda bien",
+          "zh": "(衣服)我穿着合适",
+          "features": {
+            "ipa": "me ˈkeda ˈbjen"
+          },
+          "noteZh": "quedar 的用法和 gustar 一样(第 8 单元):Me queda grande = 我穿着太大;¿Qué tal te queda? = 你穿着怎么样?"
+        }
+      ],
+      "reviewItems": [
+        "es.este",
+        "es.poder",
+        "es.grande",
+        "es.pequeno"
+      ]
+    },
+    {
+      "id": "es.a1u7.l04",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-7 购物",
+      "order": 107040,
+      "titleZh": "一共多少钱?",
+      "goalZh": "会听懂上百欧元的价格,会选择付款方式",
+      "canDoZh": "能问价钱、听懂一百多欧元的价格,并用卡或现金付款",
+      "scenarioZh": "结账时店员说大衣一百二十九欧、毛衣三十五欧;正在打折,一共不到两百欧。店员问 ¿Con tarjeta o en efectivo?,李娜刷卡。Marta 小声说:这家店不便宜,但衣服质量很好。说话人:dependienta、lina、marta。",
+      "grammarFocusZh": "101–999:ciento + 后面的数(ciento veinte);二百到九百要和名词的性一致:doscientos euros / doscientas personas;quinientos、setecientos、novecientos 不规则;mil(一千)前面不加 un;caro / barato;pagar con tarjeta / en efectivo;复习 ¿Cuánto cuesta? 和 ¿Cuánto es?",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.ciento",
+          "kind": "word",
+          "pos": "num",
+          "text": "ciento",
+          "zh": "一百(101–199 里用)",
+          "features": {
+            "ipa": "ˈθjento"
+          },
+          "noteZh": "正好 100 说 cien,101 起说 ciento uno, ciento veinte……"
+        },
+        {
+          "id": "es.doscientos",
+          "kind": "word",
+          "pos": "num",
+          "text": "doscientos",
+          "zh": "二百",
+          "features": {
+            "ipa": "dosˈθjentos"
+          },
+          "noteZh": "跟名词的性变:doscientas personas;三百 trescientos、四百 cuatrocientos 照这个规律,但五百是 quinientos。"
+        },
+        {
+          "id": "es.mil",
+          "kind": "word",
+          "pos": "num",
+          "text": "mil",
+          "zh": "一千",
+          "features": {
+            "ipa": "mil"
+          },
+          "noteZh": "前面不加 un:mil euros;两千是 dos mil。"
+        },
+        {
+          "id": "es.caro",
+          "kind": "word",
+          "pos": "adj",
+          "text": "caro",
+          "zh": "贵的",
+          "features": {
+            "ipa": "ˈkaɾo"
+          },
+          "noteZh": "r 只弹一下;carro(拉美的'汽车')是 rr。"
+        },
+        {
+          "id": "es.barato",
+          "kind": "word",
+          "pos": "adj",
+          "text": "barato",
+          "zh": "便宜的",
+          "features": {
+            "ipa": "baˈɾato"
+          }
+        },
+        {
+          "id": "es.rebajas",
+          "kind": "word",
+          "pos": "noun",
+          "text": "las rebajas",
+          "zh": "打折季;减价",
+          "features": {
+            "gender": "f",
+            "ipa": "las reˈbaxas"
+          },
+          "noteZh": "西班牙一月和七月是打折季;estar de rebajas = 正在打折。"
+        },
+        {
+          "id": "es.tarjeta",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la tarjeta",
+          "zh": "卡;银行卡",
+          "features": {
+            "gender": "f",
+            "ipa": "la taɾˈxeta"
+          },
+          "noteZh": "pagar con tarjeta = 刷卡;j 读 [x]。"
+        },
+        {
+          "id": "es.en_efectivo",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "en efectivo",
+          "zh": "用现金",
+          "features": {
+            "ipa": "en efekˈtibo"
+          },
+          "noteZh": "¿Con tarjeta o en efectivo? = 刷卡还是现金?"
+        }
+      ],
+      "reviewItems": [
+        "es.cuanto_cuesta",
+        "es.cien",
+        "es.euro",
+        "es.pagar"
+      ]
+    },
+    {
+      "id": "es.a1u7.l05",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-7 购物",
+      "order": 107050,
+      "titleZh": "给弟弟挑礼物",
+      "goalZh": "会给别人挑礼物,比较两样东西",
+      "canDoZh": "能为别人挑礼物,并比较两样东西哪个更便宜、更好",
+      "scenarioZh": "周日上午,Doña Pilar 带李娜去 El Rastro 跳蚤市场,给弟弟挑十二月的生日礼物。李娜在一顶帽子和一件 T 恤之间犹豫:这个比那个便宜,那个更好看……Pilar 帮她和摊主讲价。说话人:lina、pilar、vendedor。",
+      "grammarFocusZh": "比较:más + 形容词 + que(比……更),menos + 形容词 + que(没有……那么);mejor(更好)不规则,不说 más bueno;复习 para + 人(给……):Es para mi hermano.;el precio 说价格",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.regalo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el regalo",
+          "zh": "礼物",
+          "features": {
+            "gender": "m",
+            "ipa": "el reˈɡalo"
+          },
+          "noteZh": "Es un regalo = 是送人的(店员会帮你包装)。"
+        },
+        {
+          "id": "es.mas",
+          "kind": "word",
+          "pos": "adv",
+          "text": "más",
+          "zh": "更;更多",
+          "features": {
+            "ipa": "mas"
+          },
+          "noteZh": "比较:más barato que = 比……便宜;重音符号不能丢。"
+        },
+        {
+          "id": "es.que_conj",
+          "kind": "word",
+          "pos": "conj",
+          "text": "que",
+          "zh": "比(用在比较句里)",
+          "features": {
+            "ipa": "ke"
+          },
+          "noteZh": "más … que …:Este es más bonito que ese;没有重音符号,和疑问词 qué 不同。"
+        },
+        {
+          "id": "es.menos",
+          "kind": "word",
+          "pos": "adv",
+          "text": "menos",
+          "zh": "更少;没有……那么",
+          "features": {
+            "ipa": "ˈmenos"
+          },
+          "noteZh": "menos caro que = 没有……那么贵;说时间的 menos cuarto 你已经学过。"
+        },
+        {
+          "id": "es.mejor",
+          "kind": "word",
+          "pos": "adj",
+          "text": "mejor",
+          "zh": "更好的",
+          "features": {
+            "ipa": "meˈxoɾ"
+          },
+          "noteZh": "不说 más bueno,说 mejor;反义词 peor;j 读 [x]。"
+        },
+        {
+          "id": "es.gorra",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la gorra",
+          "zh": "棒球帽;鸭舌帽",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈɡora"
+          },
+          "noteZh": "rr 要颤舌;带檐的礼帽叫 el sombrero。"
+        },
+        {
+          "id": "es.precio",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el precio",
+          "zh": "价格",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈpɾeθjo"
+          },
+          "noteZh": "¿Qué precio tiene? = 多少钱?;c 在 i 前读 [θ]。"
+        }
+      ],
+      "reviewItems": [
+        "es.hermano",
+        "es.caro",
+        "es.barato",
+        "es.este"
+      ]
+    },
+    {
+      "id": "es.a1u7.l08",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-7 购物",
+      "order": 107080,
+      "titleZh": "单元复习:换一件毛衣",
+      "goalZh": "在一段完整的购物对话里综合运用本单元的说法",
+      "canDoZh": "能独立完成一次换货:说明问题、换颜色或尺码、试穿、确认",
+      "scenarioZh": "李娜回到那家服装店,想把毛衣换成另一个颜色;店员看了小票,帮她找颜色和尺码,试穿后正好,还给她看了一条打折的围巾。对话至少 12 句。说话人:lina、dependienta。",
+      "grammarFocusZh": "复习指示词、颜色、尺码和价格;cambiar A por B = 把 A 换成 B:¿Puedo cambiar este jersey por otro?",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 12,
+      "newItems": [
+        {
+          "id": "es.cambiar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "cambiar",
+          "zh": "换;改变",
+          "features": {
+            "ipa": "kamˈbjaɾ"
+          },
+          "noteZh": "cambiar … por … = 把……换成……;-ar 规则动词。"
+        },
+        {
+          "id": "es.bufanda",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la bufanda",
+          "zh": "围巾",
+          "features": {
+            "gender": "f",
+            "ipa": "la buˈfanda"
+          }
+        },
+        {
+          "id": "es.tique",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el tique",
+          "zh": "小票;购物凭证",
+          "alt": [
+            "el ticket"
+          ],
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈtike"
+          },
+          "noteZh": "也写作 ticket;换货、退货要带小票;拉美说 el recibo。"
+        }
+      ],
+      "reviewItems": [
+        "es.talla",
+        "es.otro",
+        "es.probarse",
+        "es.color"
+      ]
+    },
+    {
+      "id": "es.a1u8.l01",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-8 爱好与周末",
+      "order": 108010,
+      "titleZh": "我喜欢看电影",
+      "goalZh": "会用 gustar 说喜欢和不喜欢什么,会表示'我也是 / 我也不'",
+      "canDoZh": "能说自己喜欢和不喜欢什么,问别人的爱好,并表示同意",
+      "scenarioZh": "语言交换时 Javier 问李娜周末喜欢做什么:她喜欢看电影、看书、听音乐,不喜欢足球;Javier 超爱足球,也喜欢音乐。两人发现都不喜欢早起。说话人:javier、lina。",
+      "grammarFocusZh": "gustar 的结构和中文相反:Me gusta el cine(喜欢的东西是主语);喜欢的东西是复数用 gustan:Me gustan los libros;喜欢做某事用动词原形:Me gusta leer;me / te / le / nos / os / les;同意:A mí también / A mí tampoco;encantar(非常喜欢)用法相同",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.gustar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "gustar",
+          "zh": "(某人)喜欢……",
+          "features": {
+            "ipa": "ɡusˈtaɾ"
+          },
+          "noteZh": "Me gusta + 单数名词 / 动词原形,Me gustan + 复数名词;喜欢的东西才是主语。"
+        },
+        {
+          "id": "es.encantar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "encantar",
+          "zh": "非常喜欢",
+          "features": {
+            "ipa": "eŋkanˈtaɾ"
+          },
+          "noteZh": "用法同 gustar:Me encanta bailar;它本身就是'非常',不再加 mucho。"
+        },
+        {
+          "id": "es.tampoco",
+          "kind": "word",
+          "pos": "adv",
+          "text": "tampoco",
+          "zh": "也不",
+          "features": {
+            "ipa": "tamˈpoko"
+          },
+          "noteZh": "同意否定句:—No me gusta el fútbol. —A mí tampoco。肯定句用 también。"
+        },
+        {
+          "id": "es.cine",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el cine",
+          "zh": "电影院;电影(艺术)",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈθine"
+          },
+          "noteZh": "ir al cine = 去看电影;c 在 i 前读 [θ]。"
+        },
+        {
+          "id": "es.pelicula",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la película",
+          "zh": "电影(一部)",
+          "features": {
+            "gender": "f",
+            "ipa": "la peˈlikula"
+          },
+          "noteZh": "重音在 lí;ver una película = 看一部电影。"
+        },
+        {
+          "id": "es.musica",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la música",
+          "zh": "音乐",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈmusika"
+          },
+          "noteZh": "重音在 mú。"
+        },
+        {
+          "id": "es.escuchar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "escuchar",
+          "zh": "听",
+          "features": {
+            "ipa": "eskuˈtʃaɾ"
+          },
+          "noteZh": "-ar 规则动词:escuchar música = 听音乐。"
+        },
+        {
+          "id": "es.futbol",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el fútbol",
+          "zh": "足球",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈfutbol"
+          },
+          "noteZh": "西班牙重音在 fút;墨西哥等地说 futbol(重音在后)。"
+        },
+        {
+          "id": "es.leer",
+          "kind": "word",
+          "pos": "verb",
+          "text": "leer",
+          "zh": "读;看(书)",
+          "features": {
+            "ipa": "leˈeɾ"
+          },
+          "noteZh": "-er 规则动词:leo, lees, lee…"
+        },
+        {
+          "id": "es.ver",
+          "kind": "word",
+          "pos": "verb",
+          "text": "ver",
+          "zh": "看;看见",
+          "features": {
+            "ipa": "beɾ"
+          },
+          "noteZh": "第一人称 veo;ver una película = 看电影。"
+        }
+      ],
+      "reviewItems": [
+        "es.libro",
+        "es.tambien",
+        "es.no",
+        "es.mucho"
+      ]
+    },
+    {
+      "id": "es.a1u8.l02",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-8 爱好与周末",
+      "order": 108020,
+      "titleZh": "你周末常做什么?",
+      "goalZh": "记住常见爱好,会说多久做一次",
+      "canDoZh": "能说出自己的爱好,以及多久做一次(总是、有时、从不)",
+      "scenarioZh": "Marta 和 Diego 聊周末:Marta 每个周六都去游泳,有时候去跳舞;Diego 常踢足球、跑步,从来不早起。李娜说她周末总是去咖啡馆学西语,有时候去公园跑步,以后想去西班牙各地旅行。说话人:marta、diego、lina。",
+      "grammarFocusZh": "频率副词:siempre(总是)、a veces(有时)、nunca(从不);nunca 放在动词前,放在动词后要加 no:No bailo nunca.;jugar(玩、打球)u 变 ue:juego al fútbol(jugar a + 运动,a + el = al);hacer(做)第一人称 hago:¿Qué haces el fin de semana?;los fines de semana = 每个周末",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.fin_de_semana",
+          "kind": "phrase",
+          "pos": "noun",
+          "text": "el fin de semana",
+          "zh": "周末",
+          "features": {
+            "gender": "m",
+            "ipa": "el fin de seˈmana"
+          },
+          "noteZh": "los fines de semana = 每个周末。"
+        },
+        {
+          "id": "es.hacer",
+          "kind": "word",
+          "pos": "verb",
+          "text": "hacer",
+          "zh": "做;(天气)……",
+          "features": {
+            "ipa": "aˈθeɾ"
+          },
+          "noteZh": "不规则:hago, haces, hace…;¿Qué haces? = 你在做什么 / 你平时做什么?;天气也用它(下一课)。"
+        },
+        {
+          "id": "es.nadar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "nadar",
+          "zh": "游泳",
+          "features": {
+            "ipa": "naˈdaɾ"
+          },
+          "noteZh": "-ar 规则动词;la piscina = 游泳池。"
+        },
+        {
+          "id": "es.bailar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "bailar",
+          "zh": "跳舞",
+          "features": {
+            "ipa": "baiˈlaɾ"
+          },
+          "noteZh": "-ar 规则动词。"
+        },
+        {
+          "id": "es.correr",
+          "kind": "word",
+          "pos": "verb",
+          "text": "correr",
+          "zh": "跑步;跑",
+          "features": {
+            "ipa": "koˈreɾ"
+          },
+          "noteZh": "rr 要颤舌;-er 规则动词。"
+        },
+        {
+          "id": "es.jugar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "jugar",
+          "zh": "玩;(打)球",
+          "features": {
+            "ipa": "xuˈɡaɾ"
+          },
+          "noteZh": "u→ue:juego, juegas, juega…;jugar al fútbol。"
+        },
+        {
+          "id": "es.viajar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "viajar",
+          "zh": "去旅行",
+          "features": {
+            "ipa": "bjaˈxaɾ"
+          },
+          "noteZh": "-ar 规则动词;j 读 [x]。"
+        },
+        {
+          "id": "es.siempre",
+          "kind": "word",
+          "pos": "adv",
+          "text": "siempre",
+          "zh": "总是",
+          "features": {
+            "ipa": "ˈsjempɾe"
+          }
+        },
+        {
+          "id": "es.a_veces",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "a veces",
+          "zh": "有时候",
+          "features": {
+            "ipa": "a ˈbeθes"
+          },
+          "noteZh": "vez 的复数是 veces(z 变 c)。"
+        },
+        {
+          "id": "es.nunca",
+          "kind": "word",
+          "pos": "adv",
+          "text": "nunca",
+          "zh": "从不",
+          "features": {
+            "ipa": "ˈnuŋka"
+          },
+          "noteZh": "放在动词前:Nunca bailo;放在动词后要加 no:No bailo nunca。"
+        }
+      ],
+      "reviewItems": [
+        "es.gustar",
+        "es.sabado",
+        "es.parque",
+        "es.futbol"
+      ]
+    },
+    {
+      "id": "es.a1u8.l03",
+      "lang": "es",
+      "type": "vocab",
+      "cefr": "A1",
+      "unit": "A1-8 爱好与周末",
+      "order": 108030,
+      "titleZh": "今天天气怎么样?",
+      "goalZh": "会说天气和季节",
+      "canDoZh": "能说今天天气怎么样,以及马德里和家乡不同季节的天气",
+      "scenarioZh": "十一月的一个早上,Marta 打开收音机听天气预报。李娜出门时在楼梯上遇到 Doña Pilar,两人聊天气:马德里秋天阳光很好,但早晚很冷;成都现在常下雨;Pilar 说马德里夏天很热,冬天很冷。说话人:locutor、lina、pilar。",
+      "grammarFocusZh": "说天气用 hacer 的第三人称:hace calor / frío / sol / buen tiempo(不说 es calor);llover(下雨)只用第三人称:llueve;¿Qué tiempo hace?;en + 季节:en verano;calor、frío 是名词,所以说 hace mucho calor(用 mucho,不用 muy);bueno 在阳性单数名词前变 buen",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 10,
+      "newItems": [
+        {
+          "id": "es.tiempo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el tiempo",
+          "zh": "天气;时间",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈtjempo"
+          },
+          "noteZh": "¿Qué tiempo hace? = 天气怎么样?;No tengo tiempo = 我没时间。"
+        },
+        {
+          "id": "es.bueno",
+          "kind": "word",
+          "pos": "adj",
+          "text": "bueno",
+          "zh": "好的",
+          "features": {
+            "ipa": "ˈbweno"
+          },
+          "noteZh": "在阳性单数名词前变 buen:hace buen tiempo;反义词 malo(mal tiempo)。"
+        },
+        {
+          "id": "es.calor",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el calor",
+          "zh": "热;炎热",
+          "features": {
+            "gender": "m",
+            "ipa": "el kaˈloɾ"
+          },
+          "noteZh": "阳性:el calor;hace calor = 天气热,tengo calor = 我觉得热。"
+        },
+        {
+          "id": "es.frio",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el frío",
+          "zh": "冷;寒冷",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈfɾio"
+          },
+          "noteZh": "hace frío = 天冷;作形容词:agua fría(凉水);重音在 í。"
+        },
+        {
+          "id": "es.sol",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el sol",
+          "zh": "太阳;阳光",
+          "features": {
+            "gender": "m",
+            "ipa": "el sol"
+          },
+          "noteZh": "hace sol = 出太阳;马德里一年里晴天很多。"
+        },
+        {
+          "id": "es.llover",
+          "kind": "word",
+          "pos": "verb",
+          "text": "llover",
+          "zh": "下雨",
+          "features": {
+            "ipa": "ʝoˈbeɾ"
+          },
+          "noteZh": "只用第三人称:llueve(o 变 ue);la lluvia = 雨;下雪是 nieva。"
+        },
+        {
+          "id": "es.primavera",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la primavera",
+          "zh": "春天",
+          "features": {
+            "gender": "f",
+            "ipa": "la pɾimaˈbeɾa"
+          }
+        },
+        {
+          "id": "es.verano",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el verano",
+          "zh": "夏天",
+          "features": {
+            "gender": "m",
+            "ipa": "el beˈɾano"
+          },
+          "noteZh": "v 读 [b]。"
+        },
+        {
+          "id": "es.otono",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el otoño",
+          "zh": "秋天",
+          "features": {
+            "gender": "m",
+            "ipa": "el oˈtoɲo"
+          },
+          "noteZh": "ñ 不能写成 n;重音在 to。"
+        },
+        {
+          "id": "es.invierno",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el invierno",
+          "zh": "冬天",
+          "features": {
+            "gender": "m",
+            "ipa": "el imˈbjeɾno"
+          },
+          "noteZh": "马德里冬天干冷,偶尔下雪(nieva)。"
+        }
+      ],
+      "reviewItems": [
+        "es.hacer",
+        "es.mucho",
+        "es.agosto",
+        "es.diciembre"
+      ]
+    },
+    {
+      "id": "es.a1u8.l04",
+      "lang": "es",
+      "type": "dialogue",
+      "cefr": "A1",
+      "unit": "A1-8 爱好与周末",
+      "order": 108040,
+      "titleZh": "周六你有空吗?",
+      "goalZh": "会用 ir a + 动词原形说计划,会约人、接受和礼貌地拒绝邀请",
+      "canDoZh": "能约朋友周末一起做事,并接受或礼貌地拒绝邀请",
+      "scenarioZh": "周四晚上,Javier 打电话约李娜周六去看一场足球比赛。李娜说周六上午不行,要学习,但下午有空;两人约好四点在太阳门见。后来 Diego 也打来电话,他也想去,可是表姐 Carla 这个周末在马德里,他要陪她,只好说 Lo siento。说话人:javier、lina、diego。",
+      "grammarFocusZh": "ir a + 动词原形 = 打算、将要:Voy a estudiar.;¿Quieres + 动词原形? 邀请;接受:¡Vale! / ¡Claro! / ¡Qué bien!;拒绝要给理由:Lo siento, no puedo, tengo que…;quedar = 约见面:¿Quedamos a las cuatro?;estar libre / estar ocupado",
+      "skills": [
+        "listen",
+        "speak",
+        "read"
+      ],
+      "estimatedMinutes": 11,
+      "newItems": [
+        {
+          "id": "es.ir_a",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "ir a",
+          "zh": "打算;将要(做……)",
+          "features": {
+            "ipa": "iɾ a"
+          },
+          "noteZh": "voy a, vas a, va a… + 动词原形:Voy a ver una película;和'去某地'的 ir a + 地点不同。"
+        },
+        {
+          "id": "es.quedar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "quedar",
+          "zh": "约见面",
+          "features": {
+            "ipa": "keˈdaɾ"
+          },
+          "noteZh": "¿Quedamos el sábado? = 周六见个面?;quedar con alguien = 和某人约;me queda bien 是另一个意思(衣服合身)。"
+        },
+        {
+          "id": "es.lo_siento",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "Lo siento",
+          "zh": "对不起;很遗憾",
+          "features": {
+            "ipa": "lo ˈsjento"
+          },
+          "noteZh": "拒绝邀请时先说 Lo siento,再说理由。"
+        },
+        {
+          "id": "es.que_bien",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "¡Qué bien!",
+          "zh": "太好了!",
+          "features": {
+            "ipa": "ke ˈbjen"
+          },
+          "noteZh": "听到好消息时说;¡Qué + 形容词 / 副词! 是常用感叹句。"
+        },
+        {
+          "id": "es.libre",
+          "kind": "word",
+          "pos": "adj",
+          "text": "libre",
+          "zh": "有空的;自由的",
+          "features": {
+            "ipa": "ˈlibɾe"
+          },
+          "noteZh": "用 estar:¿Estás libre el sábado? = 你周六有空吗?"
+        },
+        {
+          "id": "es.ocupado",
+          "kind": "word",
+          "pos": "adj",
+          "text": "ocupado",
+          "zh": "忙的;没空的",
+          "alt": [
+            "ocupada"
+          ],
+          "features": {
+            "ipa": "okuˈpado"
+          },
+          "noteZh": "用 estar:Estoy ocupada(女生说 ocupada)。"
+        },
+        {
+          "id": "es.partido",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el partido",
+          "zh": "比赛(球赛)",
+          "features": {
+            "gender": "m",
+            "ipa": "el paɾˈtido"
+          },
+          "noteZh": "un partido de fútbol = 一场足球赛。"
+        },
+        {
+          "id": "es.fiesta",
+          "kind": "word",
+          "pos": "noun",
+          "text": "la fiesta",
+          "zh": "聚会;派对;节日",
+          "features": {
+            "gender": "f",
+            "ipa": "la ˈfjesta"
+          },
+          "noteZh": "西班牙各地都有自己的 fiestas(节庆)。"
+        }
+      ],
+      "reviewItems": [
+        "es.querer",
+        "es.poder",
+        "es.tener_que",
+        "es.vale"
+      ]
+    },
+    {
+      "id": "es.a1u8.l05",
+      "lang": "es",
+      "type": "grammar",
+      "cefr": "A1",
+      "unit": "A1-8 爱好与周末",
+      "order": 108050,
+      "titleZh": "上周末你做了什么?",
+      "goalZh": "认识简单过去时最常用的几个形式,会说上周末做了什么、怎么样",
+      "canDoZh": "能用几句话说上周末去了哪里、做了什么、玩得怎么样",
+      "scenarioZh": "周一早上,安德烈斯老师问大家上周末做了什么。李娜说她第一次去看了足球比赛,玩得很开心,拍了很多照片;星期天在家休息,有点无聊。老师说他去郊区看了朋友。说话人:andres、lina。",
+      "grammarFocusZh": "简单过去时(pretérito indefinido)入门:说过去某个时间做完的事。-ar:visité, visitaste, visitó(重音符号区分意思);-er / -ir:comí, comiste, comió;最常用的不规则:fui(我去了 / 我是)、fue、hice;评价:Fue genial / Fue muy divertido;时间词 ayer、el fin de semana pasado。这一课只要求会说'我'和'他 / 她'的几个形式",
+      "skills": [
+        "listen",
+        "speak",
+        "read",
+        "write"
+      ],
+      "estimatedMinutes": 12,
+      "newItems": [
+        {
+          "id": "es.ayer",
+          "kind": "word",
+          "pos": "adv",
+          "text": "ayer",
+          "zh": "昨天",
+          "features": {
+            "ipa": "aˈʝeɾ"
+          }
+        },
+        {
+          "id": "es.pasado",
+          "kind": "word",
+          "pos": "adj",
+          "text": "pasado",
+          "zh": "上一个;过去的",
+          "features": {
+            "ipa": "paˈsado"
+          },
+          "noteZh": "el fin de semana pasado = 上周末,el sábado pasado = 上周六,el año pasado = 去年。"
+        },
+        {
+          "id": "es.visitar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "visitar",
+          "zh": "参观;拜访",
+          "features": {
+            "ipa": "bisiˈtaɾ"
+          },
+          "noteZh": "过去时:visité, visitaste, visitó…;拜访人要加 a:visitar a un amigo。"
+        },
+        {
+          "id": "es.descansar",
+          "kind": "word",
+          "pos": "verb",
+          "text": "descansar",
+          "zh": "休息",
+          "features": {
+            "ipa": "deskanˈsaɾ"
+          },
+          "noteZh": "-ar 规则动词;过去时 descansé。"
+        },
+        {
+          "id": "es.pasarlo_bien",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "pasarlo bien",
+          "zh": "玩得开心;过得愉快",
+          "features": {
+            "ipa": "paˈsaɾlo ˈbjen"
+          },
+          "noteZh": "过去时常说:Lo pasé muy bien = 我玩得很开心。"
+        },
+        {
+          "id": "es.hacer_fotos",
+          "kind": "phrase",
+          "pos": "phrase",
+          "text": "hacer fotos",
+          "zh": "拍照",
+          "features": {
+            "ipa": "aˈθeɾ ˈfotos"
+          },
+          "noteZh": "西班牙常说 hacer fotos,拉美说 tomar / sacar fotos;过去时 hice muchas fotos。"
+        },
+        {
+          "id": "es.genial",
+          "kind": "word",
+          "pos": "adj",
+          "text": "genial",
+          "zh": "棒极了",
+          "features": {
+            "ipa": "xeˈnjal"
+          },
+          "noteZh": "西班牙年轻人常说 ¡Genial!;g 在 e 前读 [x]。"
+        },
+        {
+          "id": "es.divertido",
+          "kind": "word",
+          "pos": "adj",
+          "text": "divertido",
+          "zh": "有趣的;好玩的",
+          "features": {
+            "ipa": "dibeɾˈtido"
+          },
+          "noteZh": "说活动或人有意思;阴性 divertida。"
+        },
+        {
+          "id": "es.aburrido",
+          "kind": "word",
+          "pos": "adj",
+          "text": "aburrido",
+          "zh": "无聊的",
+          "features": {
+            "ipa": "abuˈrido"
+          },
+          "noteZh": "ser aburrido = 让人无聊,estar aburrido = 感到无聊;rr 要颤舌。"
+        }
+      ],
+      "reviewItems": [
+        "es.fin_de_semana",
+        "es.comer",
+        "es.ir",
+        "es.hacer"
+      ]
+    },
+    {
+      "id": "es.a1u8.l08",
+      "lang": "es",
+      "type": "reading",
+      "cefr": "A1",
+      "unit": "A1-8 爱好与周末",
+      "order": 108080,
+      "titleZh": "单元复习:李娜的周末博客",
+      "goalZh": "读懂一篇写爱好和周末的短文,能写类似的短文",
+      "canDoZh": "能读懂、写出一段话,介绍自己的爱好、上周末做了什么和下周末的计划",
+      "scenarioZh": "李娜在语言中心的博客上写:她的爱好,马德里秋天的天气,上周末第一次看足球比赛的感受(原来她也喜欢足球!),还有下周末的计划——和 Marta、Javier 去 Javier 爷爷奶奶的村子过节。说话人用 lina。至少 10 句。",
+      "grammarFocusZh": "把本单元串起来:gustar 说爱好、hacer 说天气、简单过去时说上周末、ir a + 动词原形说计划;用 porque 说原因;el próximo fin de semana = 下周末",
+      "skills": [
+        "read",
+        "listen",
+        "write"
+      ],
+      "estimatedMinutes": 12,
+      "newItems": [
+        {
+          "id": "es.porque",
+          "kind": "word",
+          "pos": "conj",
+          "text": "porque",
+          "zh": "因为",
+          "features": {
+            "ipa": "ˈpoɾke"
+          },
+          "noteZh": "写成一个词、没有重音符号;问'为什么'是 ¿por qué?(分开写、有重音符号)。"
+        },
+        {
+          "id": "es.pueblo",
+          "kind": "word",
+          "pos": "noun",
+          "text": "el pueblo",
+          "zh": "村子;小镇",
+          "features": {
+            "gender": "m",
+            "ipa": "el ˈpweblo"
+          },
+          "noteZh": "很多马德里人周末和假期会回'老家的村子'(el pueblo)。"
+        },
+        {
+          "id": "es.proximo",
+          "kind": "word",
+          "pos": "adj",
+          "text": "próximo",
+          "zh": "下一个",
+          "features": {
+            "ipa": "ˈpɾoksimo"
+          },
+          "noteZh": "el próximo fin de semana = 下周末;x 在这里读 [ks]。"
+        }
+      ],
+      "reviewItems": [
+        "es.gustar",
+        "es.pasarlo_bien",
+        "es.ir_a",
+        "es.tiempo"
+      ]
+    }
+  ]
+}

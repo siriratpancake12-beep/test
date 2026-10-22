@@ -7,7 +7,8 @@ import type { Db } from "../db";
  *
  * 区间 [from 0 点, to 次日 0 点)。"能观察到的截止时间" seen = min(区间结束, 现在):
  * 查询包含今天时,第 N 天还没过完的人、试用还没满 7 天的人不进样本,否则比例会偏低。
- * 订阅表(subscriptions、subscription_events)由支付模块维护,这里只读。
+ * 订阅表(subscriptions、subscription_events)由支付模块维护,这里只读;订阅类指标(开始试用、试用转付费、
+ * 续费率、退款率)不算苹果沙盒环境(environment = 'Sandbox')的流水。
  */
 const DAY = 86_400_000;
 /** 算作"学习"的事件 */
@@ -22,6 +23,8 @@ export async function computeMetrics(db: Db, from: string, to: string, now: Date
   // "区间最后 7 天":以 to 为最后一天的 7 个自然日
   const weekStart = new Date(end.getTime() - 7 * DAY);
   const learn = sql.join([...LEARNING_EVENTS]);
+  // 苹果沙盒的订阅流水(苹果审核、TestFlight、我们自己测试)不算;老数据没有 environment 的照算
+  const real = sql`environment is distinct from 'Sandbox'`;
 
   const newUsers = async () => {
     const r = await sql<{ n: number }>`select count(*)::int as n from users where created_at >= ${start} and created_at < ${end}`.execute(db);
@@ -99,7 +102,7 @@ export async function computeMetrics(db: Db, from: string, to: string, now: Date
     const types = ["start-trial", "purchase", "renewed", "expired", "refunded"];
     const r = await sql<{ type: string; n: number }>`
       select type, count(*)::int as n from subscription_events
-      where at >= ${start} and at < ${end} and type in (${sql.join(types)})
+      where at >= ${start} and at < ${end} and type in (${sql.join(types)}) and ${real}
       group by type
     `.execute(db);
     const c = new Map(r.rows.map((row) => [row.type, Number(row.n)]));
@@ -114,13 +117,14 @@ export async function computeMetrics(db: Db, from: string, to: string, now: Date
     const r = await sql<{ total: number; paid: number }>`
       with trials as (
         select user_id, min(at) as at from subscription_events
-        where type = 'start-trial' and user_id is not null and at >= ${start} and at < ${end}
+        where type = 'start-trial' and user_id is not null and at >= ${start} and at < ${end} and ${real}
         group by user_id
       )
       select count(*)::int as total,
         (count(*) filter (where exists (
           select 1 from subscription_events p
           where p.user_id = trials.user_id and p.type in ('purchase', 'renewed') and p.at > trials.at
+            and p.environment is distinct from 'Sandbox'
         )))::int as paid
       from trials
       where trials.at <= ${new Date(seen.getTime() - 7 * DAY)}
