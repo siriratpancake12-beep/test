@@ -1,0 +1,52 @@
+{
+  "id": "fr.a1u4.l08", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-4 我的住处", "order": 104080,
+  "titleZh": "单元复习:给爸妈的邮件——我的住处", "goalZh": "读懂并能模仿写一段介绍住处的短文", "canDoZh": "能写几句话介绍自己的住处:房间里有什么、在几楼、房租多少、邻居怎么样",
+  "skills": ["read", "write"], "estimatedMinutes": 20,
+  "newItems": [
+    { "id": "fr.loyer", "kind": "word", "pos": "noun", "text": "le loyer", "zh": "房租", "features": { "gender": "m", "ipa": "lə lwa.je" }, "noteZh": "oy 读 [waj]:[lwa.je];Le loyer est de trois cents euros par mois.(房租每月三百欧。)" },
+    { "id": "fr.mois", "kind": "word", "pos": "noun", "text": "le mois", "zh": "月;月份", "features": { "gender": "m", "ipa": "lə mwa" }, "noteZh": "s 不发音,单复数同形;par mois = 每月。" },
+    { "id": "fr.voisin", "kind": "word", "pos": "noun", "text": "le voisin", "zh": "邻居(男)", "features": { "gender": "m", "ipa": "lə vwa.zɛ̃" }, "noteZh": "女邻居是 la voisine [vwa.zin],加 e 以后鼻化音消失;两个元音之间的 s 读 [z]。" },
+    { "id": "fr.par", "kind": "word", "pos": "prep", "text": "par", "zh": "每;用(方式)", "features": { "ipa": "paʁ" }, "noteZh": "par mois(每月);以后还会用到 payer par carte(刷卡付款)、trois fois par jour(一天三次)。" }
+  ],
+  "reviewItems": ["fr.chambre", "fr.etage", "fr.cent", "fr.sympa"],
+  "lines": [
+    { "speaker": "narrator", "text": "Bonjour ! Ça va ?", "zh": "爸爸妈妈好!你们好吗?", "items": ["fr.bonjour", "fr.ca_va"] },
+    { "speaker": "narrator", "text": "Moi, ça va très bien à Lyon.", "zh": "我在里昂一切都很好。", "items": ["fr.moi", "fr.ca_va", "fr.tres", "fr.bien", "fr.a"] },
+    { "speaker": "narrator", "text": "J'habite soixante-dix-huit, rue Pasteur.", "zh": "我住在巴斯德街 78 号。", "items": ["fr.je", "fr.habiter", "fr.soixante_dix", "fr.huit", "fr.rue"] },
+    { "speaker": "narrator", "text": "Ma chambre est au premier étage : c'est la chambre huit.", "zh": "我的房间在二楼(法国叫 premier étage),8 号房。", "items": ["fr.ma", "fr.chambre", "fr.etre", "fr.a", "fr.premier", "fr.etage", "fr.cest", "fr.huit"] },
+    { "speaker": "narrator", "text": "Elle est petite, mais il y a une grande fenêtre.", "zh": "房间不大,可是有一扇大窗户。", "items": ["fr.elle", "fr.etre", "fr.petit", "fr.mais", "fr.il_y_a", "fr.une", "fr.grand", "fr.fenetre"] },
+    { "speaker": "narrator", "text": "Il y a un lit, un bureau, une chaise et une armoire.", "zh": "房间里有一张床、一张书桌、一把椅子和一个衣柜。", "items": ["fr.il_y_a", "fr.un", "fr.lit", "fr.bureau", "fr.une", "fr.chaise", "fr.et", "fr.armoire"] },
+    { "speaker": "narrator", "text": "Il n'y a pas de table, mais la cuisine est au rez-de-chaussée.", "zh": "没有桌子,不过地面层有厨房。", "items": ["fr.il_y_a", "fr.ne_pas", "fr.pas_de", "fr.table", "fr.mais", "fr.cuisine", "fr.etre", "fr.a", "fr.rez_de_chaussee"] },
+    { "speaker": "narrator", "text": "Le loyer est de trois cents euros par mois.", "zh": "房租每月三百欧。", "items": ["fr.loyer", "fr.etre", "fr.de", "fr.trois", "fr.cent", "fr.euro", "fr.par", "fr.mois"] },
+    { "speaker": "narrator", "text": "Mon voisin, c'est Lucas. Il est français et très sympa.", "zh": "我的邻居叫卢卡。他是法国人,人很好。", "items": ["fr.mon", "fr.voisin", "fr.cest", "fr.il", "fr.etre", "fr.francais", "fr.et", "fr.tres", "fr.sympa"] },
+    { "speaker": "narrator", "text": "Nous mangeons ensemble dans la cuisine.", "zh": "我们常在厨房一起吃饭。", "items": ["fr.nous", "fr.manger", "fr.ensemble", "fr.dans", "fr.cuisine"] },
+    { "speaker": "narrator", "text": "Mon étage est très calme.", "zh": "我住的这层很安静。", "items": ["fr.mon", "fr.etage", "fr.etre", "fr.tres", "fr.calme"] },
+    { "speaker": "narrator", "text": "À bientôt ! Hao", "zh": "回头聊!浩", "items": ["fr.a_bientot"] }
+  ],
+  "questions": [
+    { "prompt": "浩的房间在几楼(按中国的说法)?", "options": ["一楼", "二楼", "三楼"], "answer": 1, "explainZh": "Ma chambre est au premier étage —— 法国的 premier étage 是地面层上面一层,也就是中国的二楼。" },
+    { "prompt": "浩的房租是多少?", "options": ["每月三百欧", "每月一百欧", "每月八十欧"], "answer": 0, "explainZh": "Le loyer est de trois cents euros par mois.(房租每月三百欧。)par mois = 每月;trois cents 有 s。" },
+    { "prompt": "浩的房间里没有什么?", "options": ["床", "衣柜", "桌子", "书桌"], "answer": 2, "explainZh": "Il n'y a pas de table.(没有桌子。)否定以后 une table 变成 de table。" },
+    { "prompt": "浩的邻居卢卡是什么样的人?", "options": ["加拿大人", "他不住在宿舍", "浩的老师", "法国人,人很好"], "answer": 3, "explainZh": "Mon voisin, c'est Lucas. Il est français et très sympa.(我的邻居是卢卡,他是法国人,人很好。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.u4_review_place", "titleZh": "单元小结:介绍住处的句型",
+      "bodyZh": "1. 有什么、没有什么:Il y a + un / une / des;否定 Il n'y a pas de(un / une / des 都变成 de)。\n2. 在哪儿:sur, sous, dans, devant, derrière, à côté de, en face de;de + le 缩合成 du(à côté du lit)。\n3. 在几楼:au rez-de-chaussée(中国的一楼)、au premier étage(中国的二楼),法国的楼层比中国少算一层。\n4. 地址和数字:J'habite 78, rue Pasteur(门牌号在前);Quelle est ton adresse ?\n照着写自己的住处:J'habite …, rue … / Ma chambre est au … étage. / Il y a … / Il n'y a pas de … / Le loyer est de … euros par mois. / Mon voisin (ma voisine) est …",
+      "examples": [
+        { "text": "Il y a un lit et une armoire.", "zh": "有一张床和一个衣柜。" },
+        { "text": "Il n'y a pas de table.", "zh": "没有桌子。" },
+        { "text": "La cuisine est au rez-de-chaussée.", "zh": "厨房在一楼(地面层)。" },
+        { "text": "Les toilettes sont en face de l'ascenseur.", "zh": "厕所在电梯对面。" }
+      ] },
+    { "id": "fr.g.u4_review_adj_email", "titleZh": "形容词的位置和配合;法语邮件怎么写",
+      "bodyZh": "形容词跟名词的性数配合:Ma chambre est petite(chambre 阴性 → petite);Les fenêtres sont belles(阴性复数)。grand、petit、beau、nouveau 放在名词前:une grande fenêtre, un bel appartement;calme、sympa、français 这类放在名词后或 être 后面:un étage calme, Il est très sympa.\n“每……”用 par:par mois(每月)。说价钱、房租用 être de:Le loyer est de trois cents euros par mois.\n给家人朋友写邮件很简单:开头 Bonjour ! 或 Salut !,可以接一句 Ça va ?;结尾 À bientôt ! 再写自己的名字。对一个人用 tu,对两个人(比如爸爸妈妈)用 vous。",
+      "examples": [
+        { "text": "Ma chambre est petite, mais il y a une grande fenêtre.", "zh": "我的房间不大,可是有一扇大窗户。" },
+        { "text": "Mon voisin est très sympa.", "zh": "我的邻居人很好。" },
+        { "text": "Le loyer est de trois cents euros par mois.", "zh": "房租每月三百欧。" },
+        { "text": "Bonjour ! Ça va ?", "zh": "你们好!最近好吗?(邮件开头)" }
+      ] }
+  ],
+  "review": "draft"
+}

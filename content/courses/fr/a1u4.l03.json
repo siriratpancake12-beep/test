@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u4.l03", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 我的住处", "order": 104030,
+  "titleZh": "厨房在几楼?——参观宿舍楼", "goalZh": "会问宿舍里的设施在哪儿、在几楼,会用 est-ce que 提问", "canDoZh": "能问宿舍的厨房、浴室、厕所在哪儿,听懂“在一楼、在二楼、在电梯对面”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.est_ce_que", "kind": "phrase", "pos": "phrase", "text": "Est-ce que…?", "zh": "……吗?(一般疑问句开头)", "features": { "ipa": "ɛs.kə" }, "noteZh": "放在陈述句前面就变成问句,语序不变:Est-ce que tu es étudiant ?;元音前 est-ce qu':Est-ce qu'il y a… ?;读 [ɛs.kə],只有两个音节。" },
+    { "id": "fr.cuisine", "kind": "word", "pos": "noun", "text": "la cuisine", "zh": "厨房;做饭", "features": { "gender": "f", "ipa": "la kɥi.zin" }, "noteZh": "两个意思:厨房,也指做饭、菜肴:faire la cuisine(做饭)。ui 读 [ɥi]。" },
+    { "id": "fr.salle_de_bains", "kind": "word", "pos": "noun", "text": "la salle de bains", "zh": "浴室;卫生间", "alt": ["la salle de bain"], "features": { "gender": "f", "ipa": "la sal də bɛ̃" }, "noteZh": "法国的浴室(洗澡)和厕所常常分开;bains 的 s 不发音。" },
+    { "id": "fr.toilettes", "kind": "word", "pos": "noun", "text": "les toilettes", "zh": "厕所", "features": { "gender": "f", "ipa": "le twa.lɛt" }, "noteZh": "平时用复数(阴性),代词用 elles;问路:Où sont les toilettes ?" },
+    { "id": "fr.etage", "kind": "word", "pos": "noun", "text": "l'étage", "zh": "楼层", "features": { "gender": "m", "ipa": "le.taʒ" }, "noteZh": "元音开头,要记住是阳性;au premier étage = 在中国说的二楼!" },
+    { "id": "fr.rez_de_chaussee", "kind": "word", "pos": "noun", "text": "le rez-de-chaussée", "zh": "一楼(地面层)", "features": { "gender": "m", "ipa": "lə ʁed.ʃo.se" }, "noteZh": "法国从地面层开始算:rez-de-chaussée = 中国的一楼,premier étage = 中国的二楼;rez 的 z 不发音,电梯按钮上常写 RDC 或 0。" },
+    { "id": "fr.ascenseur", "kind": "word", "pos": "noun", "text": "l'ascenseur", "zh": "电梯", "features": { "gender": "m", "ipa": "la.sɑ̃.sœʁ" }, "noteZh": "元音开头,阳性;sc 读 [s]。" },
+    { "id": "fr.premier", "kind": "word", "pos": "adj", "text": "premier", "zh": "第一的(阳性)", "features": { "ipa": "pʁə.mje" }, "noteZh": "阴性 première [pʁə.mjɛʁ];其他序数词 = 数字 + -ième:deuxième、troisième;每月一号也用它:le premier mars。" },
+    { "id": "fr.en_face_de", "kind": "phrase", "pos": "phrase", "text": "en face de", "zh": "在……对面", "features": { "ipa": "ɑ̃ fas də" }, "noteZh": "de + le → du:en face du lit;de + la / l' 不变:en face de l'ascenseur。" }
+  ],
+  "reviewItems": ["fr.ou_lieu", "fr.a_cote_de", "fr.chambre"],
+  "lines": [
+    { "speaker": "gardien", "text": "Bonjour, monsieur. La cuisine est au rez-de-chaussée.", "zh": "您好,先生。厨房在一楼(地面层)。", "items": ["fr.bonjour", "fr.monsieur", "fr.cuisine", "fr.etre", "fr.a", "fr.rez_de_chaussee"] },
+    { "speaker": "hao", "text": "Est-ce qu'il y a un ascenseur ?", "zh": "有电梯吗?", "items": ["fr.est_ce_que", "fr.il_y_a", "fr.un", "fr.ascenseur"] },
+    { "speaker": "gardien", "text": "Oui, à côté de la cuisine.", "zh": "有,在厨房旁边。", "items": ["fr.oui", "fr.a_cote_de", "fr.cuisine"] },
+    { "speaker": "hao", "text": "Où sont la salle de bains et les toilettes ?", "zh": "浴室和厕所在哪儿?", "items": ["fr.ou_lieu", "fr.etre", "fr.salle_de_bains", "fr.et", "fr.toilettes"] },
+    { "speaker": "gardien", "text": "Au premier étage, en face de l'ascenseur.", "zh": "在 premier étage(中国说的二楼),电梯对面。", "items": ["fr.a", "fr.premier", "fr.etage", "fr.en_face_de", "fr.ascenseur"] },
+    { "speaker": "hao", "text": "Ma chambre est au premier étage aussi !", "zh": "我的房间也在这一层!", "items": ["fr.ma", "fr.chambre", "fr.etre", "fr.a", "fr.premier", "fr.etage", "fr.aussi"] },
+    { "speaker": "hao", "text": "Merci ! Est-ce que la cuisine est grande ?", "zh": "谢谢!厨房大吗?", "items": ["fr.merci", "fr.est_ce_que", "fr.cuisine", "fr.etre", "fr.grand"] },
+    { "speaker": "gardien", "text": "Oui, il y a des tables et des chaises. Bonne journée !", "zh": "挺大的,有桌子和椅子。祝您今天愉快!", "items": ["fr.oui", "fr.il_y_a", "fr.des", "fr.table", "fr.et", "fr.chaise", "fr.bonne_journee"] }
+  ],
+  "questions": [
+    { "prompt": "公共厨房在哪一层?", "options": ["地面层 rez-de-chaussée(中国的一楼)", "premier étage(中国的二楼)", "在浩的房间旁边"], "answer": 0, "explainZh": "La cuisine est au rez-de-chaussée.(厨房在地面层,也就是中国说的一楼。)" },
+    { "prompt": "浴室和厕所在哪儿?", "options": ["在浩的房间里", "在厨房旁边", "在 premier étage,电梯对面"], "answer": 2, "explainZh": "Au premier étage, en face de l'ascenseur.(在 premier étage,电梯对面。)在厨房旁边的是电梯。" },
+    { "prompt": "浩的房间在 premier étage,按中国的说法是几楼?", "options": ["一楼", "二楼", "三楼"], "answer": 1, "explainZh": "法国从地面层(rez-de-chaussée)开始算,premier étage 是地面层上面一层,也就是中国的二楼。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.questions_floors", "titleZh": "三种问句;法国的楼层少算一层",
+      "bodyZh": "一般疑问句有三种说法,意思一样:\n① 语调:陈述句句末升调就是问句,口语最常用:Il y a un ascenseur ?\n② Est-ce que + 陈述句:语序不变,像把中文句末的“吗”挪到了句首,一听就知道是问句,最稳妥:Est-ce qu'il y a un ascenseur ?(元音前 est-ce qu')\n③ 倒装:主语和动词换位置、加连字符,比如 Y a-t-il un ascenseur ?——书面、正式,现在只要求听得懂。\n楼层:法国从地面层开始算,地面层叫 le rez-de-chaussée(中国的一楼),上面一层才是 le premier étage(中国的二楼),数字都比中国少一。说“在……层”用 au:au rez-de-chaussée、au premier étage(au = à + le,第 6 单元系统学,现在整块记)。\n序数词:“第一”是 premier(阴性 première);其他的在数字后面加 -ième:deuxième(第二)、troisième(第三)。",
+      "examples": [
+        { "text": "Est-ce qu'il y a un ascenseur ?", "zh": "有电梯吗?(= Il y a un ascenseur ?)" },
+        { "text": "Ma chambre est au premier étage.", "zh": "我的房间在二楼(法国的 premier étage)。" }
+      ] }
+  ],
+  "review": "draft"
+}

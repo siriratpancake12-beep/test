@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u4.l02", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-4 我的住处", "order": 104020,
+  "titleZh": "我的钥匙在哪儿?——地点介词", "goalZh": "会问东西在哪儿,用地点介词回答", "canDoZh": "能问“我的钥匙在哪儿?”,并用“在桌子上/下面/旁边”回答",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.ou_lieu", "kind": "word", "pos": "adv", "text": "où", "zh": "哪里", "features": { "ipa": "u" }, "noteZh": "带重音符号的 où 是“哪里”;不带的 ou 是“或者”,读音一样。Où est… ?(单数)/ Où sont… ?(复数);口语也说 Il est où ?" },
+    { "id": "fr.sur", "kind": "word", "pos": "prep", "text": "sur", "zh": "在……上面", "features": { "ipa": "syʁ" }, "noteZh": "u 读 [y]。sur le bureau = 在书桌上:介词在前,和中文“书桌上”的语序相反。" },
+    { "id": "fr.sous", "kind": "word", "pos": "prep", "text": "sous", "zh": "在……下面", "features": { "ipa": "su" }, "noteZh": "ou 读 [u],s 不发音;和 sur 读音像、意思相反,要听清。" },
+    { "id": "fr.dans", "kind": "word", "pos": "prep", "text": "dans", "zh": "在……里面", "features": { "ipa": "dɑ̃" }, "noteZh": "鼻化元音 [ɑ̃],s 不发音:dans mon sac = 在我的包里。" },
+    { "id": "fr.devant", "kind": "word", "pos": "prep", "text": "devant", "zh": "在……前面", "features": { "ipa": "də.vɑ̃" }, "noteZh": "t 不发音:devant l'armoire = 在衣柜前面。" },
+    { "id": "fr.derriere", "kind": "word", "pos": "prep", "text": "derrière", "zh": "在……后面", "features": { "ipa": "dɛ.ʁjɛʁ" }, "noteZh": "两个 r 都是小舌音,è 读 [ɛ]:derrière l'ordinateur = 在电脑后面。" },
+    { "id": "fr.a_cote_de", "kind": "phrase", "pos": "phrase", "text": "à côté de", "zh": "在……旁边", "features": { "ipa": "a ko.te də" }, "noteZh": "de + le 要缩合成 du:à côté du lit;de + la / l' 不变:à côté de la fenêtre、à côté de l'armoire。" },
+    { "id": "fr.cle", "kind": "word", "pos": "noun", "text": "la clé", "zh": "钥匙", "alt": ["la clef"], "features": { "gender": "f", "ipa": "la kle" }, "noteZh": "也写 la clef,读音一样(f 不发音);一串钥匙常用复数:mes clés。" },
+    { "id": "fr.livre", "kind": "word", "pos": "noun", "text": "le livre", "zh": "书", "features": { "gender": "m", "ipa": "lə livʁ" }, "noteZh": "词尾 e 不发音;le livre de français = 法语书(课本)。" },
+    { "id": "fr.sac", "kind": "word", "pos": "noun", "text": "le sac", "zh": "包;袋子", "features": { "gender": "m", "ipa": "lə sak" }, "noteZh": "词尾 c 要读出来 [sak]。" }
+  ],
+  "reviewItems": ["fr.lit", "fr.bureau", "fr.il_y_a", "fr.tes"],
+  "lines": [
+    { "speaker": "hao", "text": "Lucas ! Où sont mes clés ?", "zh": "卢卡!我的钥匙在哪儿?", "items": ["fr.ou_lieu", "fr.etre", "fr.mes", "fr.cle"] },
+    { "speaker": "lucas", "text": "Tes clés ? Sur le bureau !", "zh": "你的钥匙?在书桌上!", "items": ["fr.tes", "fr.cle", "fr.sur", "fr.bureau"] },
+    { "speaker": "hao", "text": "Merci ! Et mon sac ? Il est où ?", "zh": "谢谢!那我的包呢?在哪儿?", "items": ["fr.merci", "fr.et", "fr.mon", "fr.sac", "fr.il", "fr.etre", "fr.ou_lieu"] },
+    { "speaker": "lucas", "text": "Ton sac ? Sous la chaise, à côté du lit !", "zh": "你的包?在椅子下面,床旁边!", "items": ["fr.ton", "fr.sac", "fr.sous", "fr.chaise", "fr.a_cote_de", "fr.lit"] },
+    { "speaker": "hao", "text": "Et mon livre de français ? Il n'est pas dans mon sac !", "zh": "那我的法语书呢?不在包里!", "items": ["fr.et", "fr.mon", "fr.livre", "fr.de", "fr.francais", "fr.il", "fr.ne_pas", "fr.etre", "fr.dans", "fr.sac"] },
+    { "speaker": "lucas", "text": "Il y a un livre derrière l'ordinateur.", "zh": "电脑后面有一本书。", "items": ["fr.il_y_a", "fr.un", "fr.livre", "fr.derriere", "fr.ordinateur"] },
+    { "speaker": "hao", "text": "Non, c'est un livre de chinois.", "zh": "不是,那是一本中文书。", "items": ["fr.non", "fr.cest", "fr.un", "fr.livre", "fr.de", "fr.chinois"] },
+    { "speaker": "lucas", "text": "Ton livre de français est devant l'armoire !", "zh": "你的法语书在衣柜前面!", "items": ["fr.ton", "fr.livre", "fr.de", "fr.francais", "fr.etre", "fr.devant", "fr.armoire"] },
+    { "speaker": "hao", "text": "Merci, Lucas ! Bonne journée !", "zh": "谢谢你,卢卡!祝你今天愉快!", "items": ["fr.merci", "fr.bonne_journee"] }
+  ],
+  "questions": [
+    { "prompt": "浩的钥匙在哪儿?", "options": ["在椅子下面", "在书桌上", "在包里"], "answer": 1, "explainZh": "Tes clés ? Sur le bureau !(你的钥匙?在书桌上!)sur = 在……上面。" },
+    { "prompt": "浩的包在哪儿?", "options": ["在椅子下面,床旁边", "在衣柜前面", "在电脑后面"], "answer": 0, "explainZh": "Ton sac ? Sous la chaise, à côté du lit !—— sous = 在……下面;à côté de + le lit 缩合成 à côté du lit。" },
+    { "prompt": "浩的法语书最后在哪儿?", "options": ["在包里", "在电脑后面", "在床上", "在衣柜前面"], "answer": 3, "explainZh": "电脑后面那本是中文书(c'est un livre de chinois);卢卡说:Ton livre de français est devant l'armoire !(你的法语书在衣柜前面!)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.ou_prepositions", "titleZh": "东西在哪儿?Où est… ? 和地点介词",
+      "bodyZh": "问东西在哪儿:Où est + 单数?Où sont + 复数?Où est mon sac ? Où sont mes clés ?——动词跟后面的名词变,单数 est,复数 sont。口语里也常把 où 放到句末:Il est où ?\n回答用“地点介词 + 名词”,名词前要有冠词或 mon / ton 这类词:sur(在……上面)、sous(在……下面)、dans(在……里面)、devant(在……前面)、derrière(在……后面)、à côté de(在……旁边)。\n和中文语序相反:中文说“书桌上”“椅子下面”,方位词在后;法语介词在前:sur le bureau, sous la chaise。sur [syʁ] 和 sous [su] 读音很像、意思相反,要听清。\nà côté de 后面接 le 要缩合成 du:à côté du lit(不能说 à côté de le lit);接 la、l' 不变:à côté de la chaise、à côté de l'armoire。这种缩合第 6 单元系统学,现在先整块记住。",
+      "examples": [
+        { "text": "Où est mon sac ?", "zh": "我的包在哪儿?(单数用 est)" },
+        { "text": "Où sont mes clés ?", "zh": "我的钥匙在哪儿?(复数用 sont)" },
+        { "text": "Tes clés sont sur le bureau.", "zh": "你的钥匙在书桌上。" },
+        { "text": "Le sac est à côté du lit.", "zh": "包在床旁边。(de + le → du)" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "fr.a1u3.l05", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-3 家人与朋友", "order": 103050,
+  "titleZh": "我的朋友克洛艾——描述一个人", "goalZh": "会用形容词描述人的外貌和性格,会用 son / sa / ses", "canDoZh": "能用几个形容词描述朋友的样子和性格,比如“她个子高,人很好相处”",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.ami", "kind": "word", "pos": "noun", "text": "l'ami", "zh": "朋友(男)", "features": { "gender": "m", "ipa": "la.mi" }, "noteZh": "女性朋友是 l'amie,读音一样。元音开头,“我的女性朋友”说 mon amie(不说 ma amie),联诵读 [mɔ̃.na.mi]。" },
+    { "id": "fr.grand", "kind": "word", "pos": "adj", "text": "grand", "zh": "高的;大的(阳性)", "features": { "ipa": "gʁɑ̃" }, "noteZh": "阴性 grande [gʁɑ̃d],d 要读出来;说人是“个子高”。放在名词前:un grand frère(哥哥)。" },
+    { "id": "fr.petit", "kind": "word", "pos": "adj", "text": "petit", "zh": "矮的;小的(阳性)", "features": { "ipa": "pə.ti" }, "noteZh": "阴性 petite [pə.tit],t 要读出来;说人是“个子矮”。放在名词前:une petite sœur(妹妹)。" },
+    { "id": "fr.sympa", "kind": "word", "pos": "adj", "text": "sympa", "zh": "人很好的;好相处的", "features": { "ipa": "sɛ̃.pa" }, "noteZh": "sympathique 的口语说法,阴阳性同形:Elle est sympa.;复数 sympas。" },
+    { "id": "fr.gentil", "kind": "word", "pos": "adj", "text": "gentil", "zh": "和善的;待人好的(阳性)", "features": { "ipa": "ʒɑ̃.ti" }, "noteZh": "词尾 l 不发音!阴性 gentille [ʒɑ̃.tij]。Il est gentil avec moi. = 他对我很好。" },
+    { "id": "fr.cheveux", "kind": "word", "pos": "noun", "text": "les cheveux", "zh": "头发", "features": { "gender": "m", "ipa": "le ʃə.vø" }, "noteZh": "平时用复数,阳性;单数 le cheveu 是“一根头发”。eu 读 [ø],x 不发音。" },
+    { "id": "fr.yeux", "kind": "word", "pos": "noun", "text": "les yeux", "zh": "眼睛", "features": { "gender": "m", "ipa": "le.zjø" }, "noteZh": "单数是完全不同的 l'œil [lœj];前面的词要联诵:les yeux [le.zjø]、ses yeux [se.zjø]。" },
+    { "id": "fr.son", "kind": "word", "pos": "det", "text": "son", "zh": "他的;她的(阳性单数)", "features": { "ipa": "sɔ̃" }, "noteZh": "跟后面名词的性走,不看主人是男是女:son frère(他的/她的兄弟);元音开头的阴性名词前也用 son:son amie。" },
+    { "id": "fr.sa", "kind": "word", "pos": "det", "text": "sa", "zh": "他的;她的(阴性单数)", "features": { "ipa": "sa" }, "noteZh": "用在阴性单数名词前:sa mère 既是“他的妈妈”,也是“她的妈妈”。" },
+    { "id": "fr.ses", "kind": "word", "pos": "det", "text": "ses", "zh": "他的;她的(复数)", "features": { "ipa": "se" }, "noteZh": "用在复数名词前,不分阴阳性:ses parents, ses yeux;s 不发音,元音前联诵读 [z]。" }
+  ],
+  "reviewItems": ["fr.frere", "fr.soeur", "fr.cest", "fr.tres"],
+  "lines": [
+    { "speaker": "hao", "text": "Salut, c'est Hao ! J'ai trois amis à Lyon : Chloé, Lucas et Émilie.", "zh": "嗨,我是浩!我在里昂有三个朋友:克洛艾、卢卡和艾米莉。", "items": ["fr.salut", "fr.cest", "fr.je", "fr.avoir", "fr.trois", "fr.ami", "fr.a", "fr.et"] },
+    { "speaker": "hao", "text": "Chloé est grande et très sympa.", "zh": "克洛艾个子高,人很好相处。", "items": ["fr.etre", "fr.grand", "fr.et", "fr.tres", "fr.sympa"] },
+    { "speaker": "hao", "text": "Son grand frère est très gentil.", "zh": "她哥哥人很和善。", "items": ["fr.son", "fr.grand", "fr.frere", "fr.etre", "fr.tres", "fr.gentil"] },
+    { "speaker": "hao", "text": "Sa petite sœur a les yeux et les cheveux de Chloé.", "zh": "她妹妹的眼睛和头发跟克洛艾一模一样。", "items": ["fr.sa", "fr.petit", "fr.soeur", "fr.avoir", "fr.yeux", "fr.et", "fr.cheveux", "fr.de"] },
+    { "speaker": "hao", "text": "Lucas est petit, mais ses yeux sont très grands !", "zh": "卢卡个子不高,可是眼睛很大!", "items": ["fr.etre", "fr.petit", "fr.mais", "fr.ses", "fr.yeux", "fr.tres", "fr.grand"] },
+    { "speaker": "hao", "text": "Il est très gentil avec moi.", "zh": "他对我特别热心。", "items": ["fr.il", "fr.etre", "fr.tres", "fr.gentil", "fr.avec", "fr.moi"] },
+    { "speaker": "hao", "text": "Émilie est sympa aussi. Ses parents habitent à Montréal.", "zh": "艾米莉人也很好。她的父母住在蒙特利尔。", "items": ["fr.etre", "fr.sympa", "fr.aussi", "fr.ses", "fr.parents", "fr.habiter", "fr.a"] }
+  ],
+  "questions": [
+    { "prompt": "浩说克洛艾是什么样的人?", "options": ["个子矮,很热心", "个子高,人很好相处", "眼睛很大"], "answer": 1, "explainZh": "Chloé est grande et très sympa.(克洛艾个子高,人很好相处。)grande 是 grand 的阴性。眼睛很大的是卢卡。" },
+    { "prompt": "“Ses parents habitent à Montréal.” 说的是谁的父母?", "options": ["卢卡的", "浩的", "艾米莉的"], "answer": 2, "explainZh": "Émilie est sympa aussi. Ses parents habitent à Montréal. —— ses 指前面说的艾米莉;ses 只说明 parents 是复数,看不出主人是男是女。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.adj_agreement", "titleZh": "形容词要跟名词配合",
+      "bodyZh": "法语的形容词要跟它说明的人或东西变:阴性一般加 -e,复数加 -s,阴性复数加 -es。Lucas est petit. → Chloé est grande. → Ses yeux sont grands.\n加了 -e 以后,原来不发音的词尾辅音要读出来:grand [gʁɑ̃] → grande [gʁɑ̃d],petit [pə.ti] → petite [pə.tit];复数的 -s 不发音,grand 和 grands 读音一样。gentil 的阴性是 gentille [ʒɑ̃.tij];sympa 阴阳性同形。\n位置:大多数形容词放在名词后面(un ami français);grand、petit 这类常用的短形容词放在名词前面:mon grand frère(我哥哥)、sa petite sœur(她妹妹)。中文“大眼睛”“法国朋友”形容词都在前,法语多数在后,别照中文的语序。",
+      "examples": [
+        { "text": "Lucas est petit, et Chloé est grande.", "zh": "卢卡个子矮,克洛艾个子高。(阴性加 -e,d 要读出来)" },
+        { "text": "C'est un ami français.", "zh": "这是一个法国朋友。(大多数形容词放在名词后面)" }
+      ] },
+    { "id": "fr.g.son_sa_ses", "titleZh": "son / sa / ses:“他的”“她的”是同一个词",
+      "bodyZh": "son / sa / ses 既是“他的”,也是“她的”。选哪个和 mon / ma / mes 一样,只看后面的名词:阳性单数用 son(son frère),阴性单数用 sa(sa sœur),复数用 ses(ses yeux、ses parents)。\n从这个词上看不出主人是男是女:sa mère 可以是“他的妈妈”,也可以是“她的妈妈”,要看上下文。受英语 his / her 的影响,很多人以为“她的”用 sa、“他的”用 son——不对:浩说他妈妈是 sa mère,克洛艾的哥哥是 son frère。\n元音开头的阴性名词前用 son 代替 sa,好读:son amie(他的/她的女性朋友)。",
+      "examples": [
+        { "text": "C'est Hao et sa mère.", "zh": "这是浩和他妈妈。(主人是男的,mère 是阴性 → sa)" },
+        { "text": "C'est Chloé et son frère.", "zh": "这是克洛艾和她哥哥。(主人是女的,frère 是阳性 → son)" }
+      ] }
+  ],
+  "review": "draft"
+}

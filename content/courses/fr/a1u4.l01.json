@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u4.l01", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-4 我的住处", "order": 104010,
+  "titleZh": "我的房间里有……——家具", "goalZh": "会说房间里的家具,用 il y a 介绍“有什么”", "canDoZh": "能给朋友介绍自己的宿舍房间里有什么家具、没有什么",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.il_y_a", "kind": "phrase", "pos": "phrase", "text": "il y a", "zh": "有(某处有某物)", "features": { "ipa": "il.ja" }, "noteZh": "表示“某处有某物”,单复数都用 il y a:Il y a un lit. Il y a des croissants.;否定 Il n'y a pas de…;三个词连起来读 [i.lja]。" },
+    { "id": "fr.des", "kind": "word", "pos": "det", "text": "des", "zh": "一些(复数不定冠词)", "features": { "ipa": "de" }, "noteZh": "un / une 的复数,不分阴阳性;s 不发音,元音前联诵读 [z]:des armoires [de.zaʁ.mwaʁ];否定后变成 de。" },
+    { "id": "fr.lit", "kind": "word", "pos": "noun", "text": "le lit", "zh": "床", "features": { "gender": "m", "ipa": "lə li" }, "noteZh": "t 不发音,读 [li]。" },
+    { "id": "fr.bureau", "kind": "word", "pos": "noun", "text": "le bureau", "zh": "书桌;办公室", "features": { "gender": "m", "ipa": "lə by.ʁo" }, "noteZh": "两个意思:房间里的书桌,也指办公室;eau 读 [o];复数 bureaux。" },
+    { "id": "fr.table", "kind": "word", "pos": "noun", "text": "la table", "zh": "桌子", "features": { "gender": "f", "ipa": "la tabl" }, "noteZh": "吃饭、放东西的桌子;写字的书桌一般说 le bureau。" },
+    { "id": "fr.chaise", "kind": "word", "pos": "noun", "text": "la chaise", "zh": "椅子", "features": { "gender": "f", "ipa": "la ʃɛz" }, "noteZh": "ch 读 [ʃ],ai 读 [ɛ],两个元音之间的 s 读 [z]。" },
+    { "id": "fr.armoire", "kind": "word", "pos": "noun", "text": "l'armoire", "zh": "衣柜", "features": { "gender": "f", "ipa": "laʁ.mwaʁ" }, "noteZh": "元音开头,要记住是阴性;oi 读 [wa]。" },
+    { "id": "fr.fenetre", "kind": "word", "pos": "noun", "text": "la fenêtre", "zh": "窗户", "features": { "gender": "f", "ipa": "la fə.nɛtʁ" }, "noteZh": "ê 读开口的 [ɛ],写的时候帽子不能漏;第一个 e 很轻。" },
+    { "id": "fr.lampe", "kind": "word", "pos": "noun", "text": "la lampe", "zh": "灯;台灯", "features": { "gender": "f", "ipa": "la lɑ̃p" }, "noteZh": "am 是鼻化元音 [ɑ̃],m 不单独读。" },
+    { "id": "fr.ordinateur", "kind": "word", "pos": "noun", "text": "l'ordinateur", "zh": "电脑", "features": { "gender": "m", "ipa": "lɔʁ.di.na.tœʁ" }, "noteZh": "元音开头,要记住是阳性;口语也说 l'ordi。" }
+  ],
+  "reviewItems": ["fr.chambre", "fr.petit", "fr.une"],
+  "lines": [
+    { "speaker": "hao", "text": "Voilà ma chambre ! Elle est petite.", "zh": "这就是我的房间!很小。", "items": ["fr.voila", "fr.ma", "fr.chambre", "fr.elle", "fr.etre", "fr.petit"] },
+    { "speaker": "chloe", "text": "Mais il y a une grande fenêtre !", "zh": "可是有一扇大窗户!", "items": ["fr.mais", "fr.il_y_a", "fr.une", "fr.grand", "fr.fenetre"] },
+    { "speaker": "hao", "text": "Oui. Il y a un lit, un bureau et une chaise.", "zh": "对。有一张床、一张书桌和一把椅子。", "items": ["fr.oui", "fr.il_y_a", "fr.un", "fr.lit", "fr.bureau", "fr.et", "fr.une", "fr.chaise"] },
+    { "speaker": "hao", "text": "Et voilà mon ordinateur et ma lampe.", "zh": "这是我的电脑和台灯。", "items": ["fr.et", "fr.voila", "fr.mon", "fr.ordinateur", "fr.ma", "fr.lampe"] },
+    { "speaker": "chloe", "text": "Il y a une armoire ?", "zh": "有衣柜吗?", "items": ["fr.il_y_a", "fr.une", "fr.armoire"] },
+    { "speaker": "hao", "text": "Oui, une petite armoire.", "zh": "有,一个小衣柜。", "items": ["fr.oui", "fr.une", "fr.petit", "fr.armoire"] },
+    { "speaker": "chloe", "text": "Et une table ?", "zh": "那桌子呢?", "items": ["fr.et", "fr.une", "fr.table"] },
+    { "speaker": "hao", "text": "Non, il n'y a pas de table. La chambre est petite !", "zh": "没有,没有桌子。房间太小了!", "items": ["fr.non", "fr.il_y_a", "fr.ne_pas", "fr.pas_de", "fr.table", "fr.chambre", "fr.etre", "fr.petit"] },
+    { "speaker": "hao", "text": "Mais il y a des croissants et du thé !", "zh": "不过有可颂,还有茶!", "items": ["fr.mais", "fr.il_y_a", "fr.des", "fr.croissant", "fr.et", "fr.du", "fr.the"] },
+    { "speaker": "chloe", "text": "Merci, Hao ! Tu es très gentil.", "zh": "谢谢你,浩!你真好。", "items": ["fr.merci", "fr.tu", "fr.etre", "fr.tres", "fr.gentil"] }
+  ],
+  "questions": [
+    { "prompt": "浩的房间里没有什么?", "options": ["床", "衣柜", "桌子", "椅子"], "answer": 2, "explainZh": "Non, il n'y a pas de table.(没有桌子。)否定句里 une table 变成了 de table。" },
+    { "prompt": "浩请克洛艾吃什么、喝什么?", "options": ["可颂和茶", "面包和咖啡", "三明治和橙汁"], "answer": 0, "explainZh": "Mais il y a des croissants et du thé !(不过有可颂,还有茶!)des 是 un / une 的复数。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.il_y_a", "titleZh": "il y a:“有……”,单复数都一样",
+      "bodyZh": "il y a 表示“(某处)有……”,后面是单数还是复数都不变:Il y a un lit. Il y a des croissants. 介绍一个地方有什么,法国人不说“我有”(J'ai),而说 il y a——它本身就是一个固定的块,里面的 a 来自 avoir。\nun / une 的复数是 des:un croissant → des croissants,une chaise → des chaises。des 不分阴阳性,s 不发音,元音前联诵读 [z]:des armoires [de.zaʁ.mwaʁ]。中文和英语常常什么都不加(“有可颂”/ there are croissants),法语名词前一定要有冠词,中国学生最容易漏掉 des。\n否定:il n'y a pas de + 名词,un / une / des 都变成 de(元音前 d'):Il n'y a pas de table. Il n'y a pas d'armoire. 这和 Je n'ai pas de frère 是同一条规则。\n问“有没有……?”:句末升调就行:Il y a une armoire ?",
+      "examples": [
+        { "text": "Il y a un lit et une chaise.", "zh": "有一张床和一把椅子。" },
+        { "text": "Il y a des croissants.", "zh": "有可颂。(复数用 des)" },
+        { "text": "Il n'y a pas de table.", "zh": "没有桌子。(否定后 une → de)" },
+        { "text": "Il y a une armoire ?", "zh": "有衣柜吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

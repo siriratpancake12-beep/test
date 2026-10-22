@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u3.l04", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 家人与朋友", "order": 103040,
+  "titleZh": "他是工程师——职业", "goalZh": "会说常见职业,问别人做什么工作", "canDoZh": "能说家人做什么工作,并问别人“你是做什么的?”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.ingenieur", "kind": "word", "pos": "noun", "text": "l'ingénieur", "zh": "工程师", "features": { "gender": "m", "ipa": "lɛ̃.ʒe.njœʁ" }, "noteZh": "元音开头,要记住是阳性;说职业不加冠词:Il est ingénieur.;女工程师现在常写 ingénieure,读音一样。" },
+    { "id": "fr.medecin", "kind": "word", "pos": "noun", "text": "le médecin", "zh": "医生", "features": { "gender": "m", "ipa": "lə med.sɛ̃" }, "noteZh": "中间的 e 几乎不读:[med.sɛ̃];男女都可以用:Ma mère est médecin." },
+    { "id": "fr.professeur", "kind": "word", "pos": "noun", "text": "le professeur", "zh": "老师", "features": { "gender": "m", "ipa": "lə pʁɔ.fɛ.sœʁ" }, "noteZh": "中学、大学老师都叫 professeur,小学老师正式叫 professeur des écoles;口语常说 le/la prof。女老师现在一般写 professeure,读音一样:Elle est professeure." },
+    { "id": "fr.serveur", "kind": "word", "pos": "noun", "text": "le serveur", "zh": "服务员(男)", "features": { "gender": "m", "ipa": "lə sɛʁ.vœʁ" }, "noteZh": "女服务员是 la serveuse [sɛʁ.vøz];在咖啡馆叫服务员说 S'il vous plaît !,不要喊 Garçon !(不礼貌)。" },
+    { "id": "fr.entreprise", "kind": "word", "pos": "noun", "text": "l'entreprise", "zh": "公司;企业", "features": { "gender": "f", "ipa": "lɑ̃.tʁə.pʁiz" }, "noteZh": "元音开头,要记住是阴性:une entreprise;C'est une entreprise chinoise.(这是一家中国公司。)" },
+    { "id": "fr.hopital", "kind": "word", "pos": "noun", "text": "l'hôpital", "zh": "医院", "features": { "gender": "m", "ipa": "lɔ.pi.tal" }, "noteZh": "h 不发音,冠词省成 l';阳性;ô 上面有长音符,写的时候不能漏。在医院工作:travailler à l'hôpital。" },
+    { "id": "fr.chine", "kind": "word", "pos": "noun", "text": "la Chine", "zh": "中国", "features": { "gender": "f", "ipa": "la ʃin" }, "noteZh": "国名要大写、有阴阳性、要带冠词:la Chine, la France(阴性);城市名不加冠词:à Chengdu。“在中国”说 en Chine(第 6 单元学)。" },
+    { "id": "fr.quest_ce_que", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que…?", "zh": "……什么?(放在句首提问)", "features": { "ipa": "kɛs.kə" }, "noteZh": "放在句首问“什么”,后面的语序不变:Qu'est-ce que tu aimes ?(你喜欢什么?);元音前 qu'est-ce qu'。" },
+    { "id": "fr.quest_ce_que_tu_fais", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que tu fais dans la vie ?", "zh": "你是做什么工作的?", "features": { "ipa": "kɛs.kə ty fɛ dɑ̃ la vi" }, "noteZh": "问职业的固定说法,整句记(faire 第 5 单元学);对不熟的人、长辈说 Qu'est-ce que vous faites dans la vie ?" },
+    { "id": "fr.a_la_retraite", "kind": "phrase", "pos": "phrase", "text": "à la retraite", "zh": "退休了", "features": { "ipa": "a la ʁə.tʁɛt" }, "noteZh": "和 être 连用:Mon grand-père est à la retraite.(我爷爷退休了。)" }
+  ],
+  "reviewItems": ["fr.travailler", "fr.grand_pere", "fr.grand_mere", "fr.etre"],
+  "lines": [
+    { "speaker": "emilie", "text": "Hao, ton père est professeur ?", "zh": "浩,你爸爸是老师吗?", "items": ["fr.ton", "fr.pere", "fr.etre", "fr.professeur"] },
+    { "speaker": "hao", "text": "Non, il est ingénieur. Il travaille à Chengdu.", "zh": "不是,他是工程师,在成都工作。", "items": ["fr.non", "fr.il", "fr.etre", "fr.ingenieur", "fr.travailler", "fr.a"] },
+    { "speaker": "emilie", "text": "C'est une entreprise chinoise ?", "zh": "是一家中国公司吗?", "items": ["fr.cest", "fr.une", "fr.entreprise", "fr.chinois"] },
+    { "speaker": "hao", "text": "Oui. Et ma mère est médecin : elle travaille à l'hôpital.", "zh": "对。我妈妈是医生,她在医院工作。", "items": ["fr.oui", "fr.et", "fr.ma", "fr.mere", "fr.etre", "fr.medecin", "fr.elle", "fr.travailler", "fr.a", "fr.hopital"] },
+    { "speaker": "emilie", "text": "Et ton grand-père et ta grand-mère ?", "zh": "那你爷爷奶奶呢?", "items": ["fr.et", "fr.ton", "fr.grand_pere", "fr.ta", "fr.grand_mere"] },
+    { "speaker": "hao", "text": "Ils sont à la retraite. Et ta mère, Émilie ?", "zh": "他们退休了。你妈妈呢,艾米莉?", "items": ["fr.ils", "fr.etre", "fr.a_la_retraite", "fr.et", "fr.ta", "fr.mere"] },
+    { "speaker": "emilie", "text": "Elle est professeure à Montréal. Elle adore la Chine !", "zh": "她在蒙特利尔当老师。她特别喜欢中国!", "items": ["fr.elle", "fr.etre", "fr.professeur", "fr.a", "fr.adorer", "fr.chine"] },
+    { "speaker": "emilie", "text": "Et vous, Karim ? Qu'est-ce que vous faites dans la vie ?", "zh": "您呢,卡里姆?您是做什么的?", "items": ["fr.et", "fr.vous", "fr.quest_ce_que", "fr.quest_ce_que_tu_fais"] },
+    { "speaker": "serveur", "text": "Moi ? Je suis serveur… et étudiant !", "zh": "我?我是服务员……也是大学生!", "items": ["fr.moi", "fr.je", "fr.etre", "fr.serveur", "fr.et", "fr.etudiant"] }
+  ],
+  "questions": [
+    { "prompt": "浩的爸爸做什么工作?", "options": ["老师", "医生", "工程师", "服务员"], "answer": 2, "explainZh": "艾米莉猜 professeur,浩说:Non, il est ingénieur.(不,他是工程师。)" },
+    { "prompt": "浩的爷爷奶奶现在怎么样?", "options": ["已经退休了", "在医院工作", "住在蒙特利尔"], "answer": 0, "explainZh": "浩说:Ils sont à la retraite.(他们退休了。)在医院工作的是浩的妈妈。" },
+    { "prompt": "卡里姆是做什么的?", "options": ["老师", "服务员,也是大学生", "工程师"], "answer": 1, "explainZh": "Moi ? Je suis serveur… et étudiant !(我是服务员……也是大学生!)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.profession_no_article", "titleZh": "说职业不加冠词:Il est ingénieur",
+      "bodyZh": "用 être 说某人做什么工作,职业名词前不加冠词:Il est ingénieur. Elle est médecin. Je suis étudiant. 这和英语不一样(He is an engineer),中国学生常照英语加 un / une,说成 Il est un ingénieur——这是错的。\n用 c'est 的时候反过来,要加冠词:C'est un ingénieur.(这是一位工程师。)\n职业名词也分阴阳性:serveur → serveuse(女服务员),étudiant → étudiante;professeur、ingénieur 现在女性一般写 professeure、ingénieure,读音不变;médecin 男女都用。\n问职业用固定说法 Qu'est-ce que tu fais dans la vie ?(你是做什么的?),对不熟的人、长辈、店员用 vous:Qu'est-ce que vous faites dans la vie ? Qu'est-ce que 放在句首就是问“什么”:Qu'est-ce que tu aimes ?\n国名前要加冠词:la Chine(J'adore la Chine !);城市名不加:à Chengdu, à Montréal。",
+      "examples": [
+        { "text": "Il est ingénieur.", "zh": "他是工程师。(职业前不加 un)" },
+        { "text": "Elle est médecin : elle travaille à l'hôpital.", "zh": "她是医生,在医院工作。" },
+        { "text": "C'est un ingénieur.", "zh": "这是一位工程师。(c'est 后面要加冠词)" },
+        { "text": "Qu'est-ce que tu aimes ?", "zh": "你喜欢什么?" }
+      ] }
+  ],
+  "review": "draft"
+}

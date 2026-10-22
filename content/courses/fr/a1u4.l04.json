@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u4.l04", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-4 我的住处", "order": 104040,
+  "titleZh": "你们的公寓真漂亮——房子和房间", "goalZh": "会介绍一套房子有哪些房间,用 beau / nouveau 等形容词评价", "canDoZh": "能介绍一套公寓有几个房间、各个房间怎么样,并夸主人的房子",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.appartement", "kind": "word", "pos": "noun", "text": "l'appartement", "zh": "公寓;套房", "features": { "gender": "m", "ipa": "la.paʁ.tə.mɑ̃" }, "noteZh": "元音开头,要记住是阳性;两个 p(英语 apartment 只有一个)。" },
+    { "id": "fr.maison", "kind": "word", "pos": "noun", "text": "la maison", "zh": "房子;家", "features": { "gender": "f", "ipa": "la mɛ.zɔ̃" }, "noteZh": "两个元音之间的 s 读 [z];指独栋的房子,也指“家”:à la maison = 在家。" },
+    { "id": "fr.salon", "kind": "word", "pos": "noun", "text": "le salon", "zh": "客厅", "features": { "gender": "m", "ipa": "lə sa.lɔ̃" }, "noteZh": "鼻化元音 [ɔ̃],n 不单独读。" },
+    { "id": "fr.piece", "kind": "word", "pos": "noun", "text": "la pièce", "zh": "房间(总称)", "features": { "gender": "f", "ipa": "la pjɛs" }, "noteZh": "pièce 指任何房间(客厅、卧室都算),chambre 只指卧室。法国人说几室按 pièce 算,厨房、浴室不算在内:quatre pièces = 客厅 + 三间卧室。" },
+    { "id": "fr.jardin", "kind": "word", "pos": "noun", "text": "le jardin", "zh": "花园;院子", "features": { "gender": "m", "ipa": "lə ʒaʁ.dɛ̃" }, "noteZh": "鼻化元音 [ɛ̃];une maison avec un jardin = 带花园的房子。" },
+    { "id": "fr.beau", "kind": "word", "pos": "adj", "text": "beau", "zh": "漂亮的;好看的(阳性)", "features": { "ipa": "bo" }, "noteZh": "阴性 belle [bɛl],复数 beaux;放在名词前:un beau salon;元音开头的阳性名词前用 bel:un bel appartement。" },
+    { "id": "fr.nouveau", "kind": "word", "pos": "adj", "text": "nouveau", "zh": "新的(阳性)", "features": { "ipa": "nu.vo" }, "noteZh": "阴性 nouvelle [nu.vɛl],复数 nouveaux;放在名词前;元音开头的阳性名词前用 nouvel:un nouvel ordinateur。" },
+    { "id": "fr.notre", "kind": "word", "pos": "det", "text": "notre", "zh": "我们的(单数)", "features": { "ipa": "nɔtʁ" }, "noteZh": "不分阴阳性;复数 nos [no]:notre maison, nos chambres。" },
+    { "id": "fr.votre", "kind": "word", "pos": "det", "text": "votre", "zh": "您的;你们的(单数)", "features": { "ipa": "vɔtʁ" }, "noteZh": "不分阴阳性,复数 vos [vo];对一个人用 vous 时,“您的”也是 votre:Votre appartement est très beau !" },
+    { "id": "fr.calme", "kind": "word", "pos": "adj", "text": "calme", "zh": "安静的;平静的", "features": { "ipa": "kalm" }, "noteZh": "阴阳性同形,放在名词后面:une rue calme;L'appartement est très calme.(公寓很安静。)" }
+  ],
+  "reviewItems": ["fr.cuisine", "fr.salle_de_bains", "fr.grand"],
+  "lines": [
+    { "speaker": "isabelle", "text": "Hao, voilà notre appartement.", "zh": "浩,这就是我们家的公寓。", "items": ["fr.voila", "fr.notre", "fr.appartement"] },
+    { "speaker": "hao", "text": "Votre appartement est très beau !", "zh": "您家的公寓真漂亮!", "items": ["fr.votre", "fr.appartement", "fr.etre", "fr.tres", "fr.beau"] },
+    { "speaker": "isabelle", "text": "Merci ! Il y a quatre pièces : le salon et trois chambres.", "zh": "谢谢!一共四个房间:客厅和三间卧室。", "items": ["fr.merci", "fr.il_y_a", "fr.quatre", "fr.piece", "fr.salon", "fr.et", "fr.trois", "fr.chambre"] },
+    { "speaker": "hao", "text": "Le salon est grand, et les fenêtres sont très belles !", "zh": "客厅很大,窗户也很漂亮!", "items": ["fr.salon", "fr.etre", "fr.grand", "fr.et", "fr.fenetre", "fr.tres", "fr.beau"] },
+    { "speaker": "isabelle", "text": "Et voilà la cuisine : elle est nouvelle !", "zh": "这是厨房——是新的!", "items": ["fr.et", "fr.voila", "fr.cuisine", "fr.elle", "fr.etre", "fr.nouveau"] },
+    { "speaker": "isabelle", "text": "La salle de bains est petite, mais elle est nouvelle aussi.", "zh": "浴室小一点,不过也是新的。", "items": ["fr.salle_de_bains", "fr.etre", "fr.petit", "fr.mais", "fr.elle", "fr.nouveau", "fr.aussi"] },
+    { "speaker": "hao", "text": "C'est un bel appartement, et il est très calme.", "zh": "这套公寓真漂亮,还很安静。", "items": ["fr.cest", "fr.un", "fr.beau", "fr.appartement", "fr.et", "fr.il", "fr.etre", "fr.tres", "fr.calme"] },
+    { "speaker": "isabelle", "text": "Oui. Et nous avons aussi une maison, avec un jardin !", "zh": "是啊。我们还有一栋房子,带花园!", "items": ["fr.oui", "fr.et", "fr.nous", "fr.avoir", "fr.aussi", "fr.une", "fr.maison", "fr.avec", "fr.un", "fr.jardin"] },
+    { "speaker": "isabelle", "text": "La maison est petite, mais le jardin est grand.", "zh": "房子不大,可是花园很大。", "items": ["fr.maison", "fr.etre", "fr.petit", "fr.mais", "fr.jardin", "fr.grand"] }
+  ],
+  "questions": [
+    { "prompt": "伊莎贝尔家的公寓有几个 pièces?", "options": ["三个", "四个", "五个"], "answer": 1, "explainZh": "Il y a quatre pièces : le salon et trois chambres.(一共四个房间:客厅和三间卧室。)法国人按 pièce 数房间,厨房、浴室不算。" },
+    { "prompt": "哪里是新的?", "options": ["厨房和浴室", "客厅", "花园"], "answer": 0, "explainZh": "Et voilà la cuisine : elle est nouvelle ! … La salle de bains est petite, mais elle est nouvelle aussi." },
+    { "prompt": "伊莎贝尔家除了这套公寓,还有什么?", "options": ["一套新公寓", "一部电梯", "一栋带花园的房子"], "answer": 2, "explainZh": "Et nous avons aussi une maison, avec un jardin !(我们还有一栋房子,带花园!)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.beau_nouveau_notre", "titleZh": "beau / nouveau 放在名词前,有特殊形式;notre / votre",
+      "bodyZh": "大多数形容词放在名词后面(un appartement calme),但几个常用的短形容词放在名词前面:beau(漂亮)、nouveau(新)、grand(大)、petit(小):un beau salon, une nouvelle cuisine, une petite chambre。\n英语的 beautiful、new 永远不变,法语要跟名词变,而且 beau 和 nouveau 的变化要单独记:阴性 belle、nouvelle;复数 beaux、nouveaux(加 x 不加 s)。放在元音开头的阳性单数名词前,改成 bel、nouvel,读起来顺:un bel appartement [bɛ.la.paʁ.tə.mɑ̃]、un nouvel ordinateur。在 être 后面照常配合:L'appartement est beau. Les fenêtres sont belles.\n“我们的”是 notre(复数 nos),“您的 / 你们的”是 votre(复数 vos):notre appartement, nos chambres, votre maison。notre / votre 不分阴阳性。“他们的”是 leur,先认识就好。\n文化:去法国人家里做客,夸一句 Votre appartement est très beau ! 主人会很高兴。",
+      "examples": [
+        { "text": "Votre appartement est très beau !", "zh": "您家的公寓真漂亮!" },
+        { "text": "C'est un bel appartement.", "zh": "这是一套漂亮的公寓。(元音前 beau → bel)" },
+        { "text": "La cuisine est nouvelle.", "zh": "厨房是新的。(阴性 nouvelle)" },
+        { "text": "Voilà notre maison et notre jardin.", "zh": "这是我们的房子和花园。" }
+      ] }
+  ],
+  "review": "draft"
+}
