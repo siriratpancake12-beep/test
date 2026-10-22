@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { completeLesson, emptyProgress, recordAnswer, type Progress } from "../src/session";
-import { mergeProgress, parseProgress } from "../src/sync";
+import { fromWire, mergeProgress, parseProgress, toWire } from "../src/sync";
 import { cardKey } from "../src/srs";
 import { lessons } from "./fixtures";
 
@@ -159,5 +159,38 @@ describe("收到的进度先检查结构(parseProgress)", () => {
       { lang: "de", checkpoints: [{ lessonId: "x" }] },
     ];
     for (const b of bad) expect(parseProgress(b), JSON.stringify(b)).toBeNull();
+  });
+});
+
+describe("同步的紧凑格式", () => {
+  let p = completeLesson(emptyProgress("de"), de[0]!, at("2026-11-01"));
+  p = completeLesson(p, de[1]!, at("2026-11-01"));
+  for (const it of de[0]!.newItems) p = recordAnswer(p, { itemId: it.id, direction: "produce", verdict: "correct" }, at("2026-11-02"));
+
+  it("来回转换不丢信息(复习时间精确到秒)", () => {
+    const back = fromWire(JSON.parse(JSON.stringify(toWire(p))))!;
+    expect(back).not.toBeNull();
+    expect(Object.keys(back.cards).sort()).toEqual(Object.keys(p.cards).sort());
+    for (const [k, c] of Object.entries(p.cards)) {
+      const b = back.cards[k]!;
+      expect(b.itemId).toBe(c.itemId);
+      expect(b.direction).toBe(c.direction);
+      expect(Math.abs(new Date(b.card.due).getTime() - c.card.due.getTime())).toBeLessThan(1000);
+      expect(b.card.reps).toBe(c.card.reps);
+      expect(b.card.state).toBe(c.card.state);
+      expect(b.card.stability).toBeCloseTo(c.card.stability, 3);
+    }
+    expect(back.completed).toEqual(p.completed);
+    expect(back.log).toEqual(p.log);
+  });
+
+  it("体积不到普通格式的一半", () => {
+    expect(JSON.stringify(toWire(p)).length).toBeLessThan(JSON.stringify(p).length / 2);
+  });
+
+  it("普通格式照样能读;坏数据返回 null", () => {
+    expect(fromWire(JSON.parse(JSON.stringify(p)))?.lang).toBe("de");
+    expect(fromWire({ wire: 1, lang: "de", cards: { "de.hallo#produce": [1, 2] } })).toBeNull();
+    expect(fromWire({ wire: 1, lang: "de", cards: null })).toBeNull();
   });
 });

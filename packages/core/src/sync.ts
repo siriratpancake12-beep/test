@@ -203,3 +203,48 @@ const ProgressShape = z.looseObject({
   completedLessons: z.array(z.string()).optional(),
   activeDays: z.array(z.string()).optional(),
 });
+
+/**
+ * 同步用的紧凑格式(wire)。复习卡是进度里最大的部分(一门课学完约 7500 张),
+ * 从对象改成数字数组后体积约为原来的三分之一,学完整门课也远低于服务器的上限。
+ *
+ * cards 的每一项:[due(秒), stability, difficulty, elapsed_days, scheduled_days, learning_steps, reps, lapses, state, last_review(秒,没有为 0)]
+ * 键仍是 "<itemId>#<direction>"。其他字段和 Progress 一样。
+ */
+export interface WireProgress extends Omit<Progress, "cards"> {
+  wire: 1;
+  cards: Record<string, number[]>;
+}
+
+const sec = (d: Date | string | undefined | null) => (d ? Math.round(new Date(d).getTime() / 1000) : 0);
+const r4 = (x: number) => Math.round(x * 1e4) / 1e4;
+
+export function toWire(p: Progress): WireProgress {
+  const cards: Record<string, number[]> = {};
+  for (const [k, { card: c }] of Object.entries(p.cards)) {
+    cards[k] = [sec(c.due), r4(c.stability), r4(c.difficulty), c.elapsed_days, c.scheduled_days, c.learning_steps ?? 0, c.reps, c.lapses, c.state, sec(c.last_review)];
+  }
+  return { ...p, wire: 1, cards };
+}
+
+/** 读同步数据:紧凑格式和普通格式都认;格式不对返回 null(不要把坏数据合并进来) */
+export function fromWire(raw: unknown): Progress | null {
+  if (!raw || typeof raw !== "object" || (raw as { wire?: unknown }).wire !== 1) return parseProgress(raw);
+  const { wire: _w, cards: packed, ...rest } = raw as WireProgress;
+  if (!packed || typeof packed !== "object") return null;
+  const cards: Record<string, unknown> = {};
+  for (const [k, a] of Object.entries(packed)) {
+    const cut = k.lastIndexOf("#");
+    if (cut <= 0 || !Array.isArray(a) || a.length < 10 || a.some((x) => typeof x !== "number")) return null;
+    const [due, stability, difficulty, elapsed, scheduled, steps, reps, lapses, state, last] = a as number[];
+    cards[k] = {
+      itemId: k.slice(0, cut),
+      direction: k.slice(cut + 1),
+      card: {
+        due: new Date(due! * 1000), stability, difficulty, elapsed_days: elapsed, scheduled_days: scheduled, learning_steps: steps,
+        reps, lapses, state, ...(last ? { last_review: new Date(last * 1000) } : {}),
+      },
+    };
+  }
+  return parseProgress({ ...rest, cards });
+}
