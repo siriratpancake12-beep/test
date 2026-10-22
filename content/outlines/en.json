@@ -152,7 +152,7 @@
       "titleZh": "我有两个哥哥", "goalZh": "会说兄弟姐妹和年龄,掌握名词复数和它的读音",
       "canDoZh": "能说出自己有几个兄弟姐妹、他们多大,也能问别人",
       "scenarioZh": "课间,索菲亚给磊看她家的照片:她有两个哥哥(25 岁的迭戈、22 岁的路易斯)和一对 13 岁的双胞胎妹妹。磊问每个人多大(How old is he?),索菲亚也问磊有没有兄弟姐妹;两人聊起\"大家庭\"和\"独生子女\"的不同。",
-      "grammarFocusZh": "名词复数:brother → brothers,-s 有三种读音 /s/(parents)、/z/(brothers)、/ɪz/(glasses);have 表示\"有\":I have two brothers.;How old is he? — He's 25 (years old).。发音:thirteen(重音在后 thir-TEEN)和 thirty(重音在前 THIR-ty)靠重音区分。",
+      "grammarFocusZh": "名词复数:brother → brothers,-s 有三种读音 /s/(parents)、/z/(brothers)、/ɪz/(glasses,下一课的词,这里只在讲解里预告;2-2 和 2-3 合起来覆盖三种读音);have 表示\"有\":I have two brothers.;How old is he? — He's 25 (years old).。发音:thirteen(重音在后 thir-TEEN)和 thirty(重音在前 THIR-ty)靠重音区分。",
       "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
       "newItems": [
         { "id": "en.brother", "kind": "word", "pos": "noun", "text": "brother", "zh": "兄弟(哥哥或弟弟)", "features": { "ipa": "ˈbrʌðɚ" }, "noteZh": "th 是浊音 /ð/,别读成 /z/ 或 /d/;英语不分哥哥弟弟,要说清楚用 older brother / younger brother。" },
@@ -760,7 +760,7 @@
       "id": "en.a1u7.l03", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-7 Free time & plans", "order": 107030,
       "titleZh": "一起去打球吗?", "goalZh": "会发出邀请、接受邀请,或礼貌地拒绝并说明原因",
       "canDoZh": "能约朋友一起做某事;没空时也能礼貌地拒绝,并改约下次",
-      "scenarioZh": "伊森问磊今天下午要不要一起打篮球,磊说 Sounds good! I'm in.;接着艾米发消息问磊明晚要不要一起去看电影,磊明晚要打工,只好说 Sorry, I can't. I have to work. Thanks for asking! Maybe next time?;艾米说那就周末再约。",
+      "scenarioZh": "伊森问磊今天下午要不要一起打篮球,磊说 Sounds good! I'm in.;接着艾米发消息问磊明天下午要不要一起去看电影,磊明天下午要打工,只好说 Sorry, I can't. I have to work. Thanks for asking! Maybe next time?;艾米说那就下个周末再约。",
       "grammarFocusZh": "Do you want to + 动词原形?(邀请);have to + 动词原形(说明必须做的事);宾语代词 me / you / him / her / us / them:Do you want to join us?。发音:want to 口语常读成 wanna,have to 读成 hafta(听得懂即可);邀请用升调,Sounds good! 用降调。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
       "newItems": [
@@ -835,7 +835,7 @@
       "id": "en.a1u8.l01", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-8 Last weekend", "order": 108010,
       "titleZh": "周末过得怎么样?", "goalZh": "会用 was / were 问答过去的情况,简单评价一个周末",
       "canDoZh": "能回答\"你周末过得怎么样?\",说说当时在哪儿、天气和感受",
-      "scenarioZh": "万圣节后的周一早上,劳拉在咖啡馆问磊 How was your weekend?;磊说派对棒极了,大家的服装都很吓人;马库斯说他的周末很无聊,一直在家,天气也不好;劳拉问 Where were you on Sunday?,磊说太累了,在宿舍睡了一整天。",
+      "scenarioZh": "万圣节后的周一,劳拉在咖啡馆碰到来买咖啡的磊,问他 How was your weekend?;磊说派对棒极了,大家的服装都很吓人;马库斯说他的周末很无聊,一直在家,天气也不好;劳拉问 Where were you on Sunday?,磊说太累了,在宿舍睡了一整天。",
       "grammarFocusZh": "be 动词的过去式:I / he / she / it was,you / we / they were;否定 wasn't / weren't;How was…? 问感受;时间词 yesterday、last weekend。发音:was、were 在句中弱读 /wəz/、/wɚ/;回应别人时 Really? ↗ / That's great! ↘ 让对方知道你在认真听。",
       "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
       "newItems": [
