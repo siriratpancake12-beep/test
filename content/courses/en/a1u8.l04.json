@@ -1,0 +1,45 @@
+{
+  "id": "en.a1u8.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 Last weekend", "order": 108040,
+  "titleZh": "我不太舒服", "goalZh": "会在校医院说清楚哪里不舒服、从什么时候开始,听懂医生的简单嘱咐", "canDoZh": "能在学校医务室告诉医生自己哪里不舒服、什么时候开始的,并听懂怎么吃药",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.dont_feel_well", "kind": "phrase", "pos": "phrase", "text": "I don't feel well", "zh": "我不太舒服", "alt": ["I do not feel well", "I don't feel good"], "features": { "ipa": "aɪ ˌdoʊnt ˌfiːl ˈwel" }, "noteZh": "比 I'm sick. 委婉;这里的 well 是\"身体好\"。" },
+    { "id": "en.sick", "kind": "word", "pos": "adj", "text": "sick", "zh": "生病的", "features": { "ipa": "sɪk" }, "noteZh": "美式 I'm sick. 就是\"我病了\";英式的 sick 常指\"想吐\"。" },
+    { "id": "en.headache", "kind": "word", "pos": "noun", "text": "headache", "zh": "头疼", "features": { "ipa": "ˈhedeɪk" }, "noteZh": "I have a headache. 我头疼;重音在前 HEAD-ache,ache 读 /eɪk/,ch 读 /k/。" },
+    { "id": "en.fever", "kind": "word", "pos": "noun", "text": "fever", "zh": "发烧", "features": { "ipa": "ˈfiːvɚ" }, "noteZh": "have a fever 发烧;美国体温用华氏度,100°F 约等于 37.8°C。" },
+    { "id": "en.sore_throat", "kind": "phrase", "pos": "noun", "text": "sore throat", "zh": "嗓子疼", "features": { "ipa": "ˌsɔːr ˈθroʊt" }, "noteZh": "have a sore throat 嗓子疼;throat 是清音 th /θ/ 再接 r,舌尖从齿间迅速往后卷。" },
+    { "id": "en.doctor", "kind": "word", "pos": "noun", "text": "doctor", "zh": "医生", "features": { "ipa": "ˈdɑːktɚ" }, "noteZh": "看医生 see a doctor;称呼医生 Dr. + 姓。" },
+    { "id": "en.medicine", "kind": "word", "pos": "noun", "text": "medicine", "zh": "药", "features": { "ipa": "ˈmedɪsən" }, "noteZh": "吃药说 take medicine,不说 eat medicine!" },
+    { "id": "en.rest", "kind": "word", "pos": "noun", "text": "rest", "zh": "休息", "features": { "ipa": "rest" }, "noteZh": "Get some rest. 好好休息;r 开头嘴唇先收圆。" },
+    { "id": "en.twice_a_day", "kind": "phrase", "pos": "adv", "text": "twice a day", "zh": "一天两次", "features": { "ipa": "ˌtwaɪs ə ˈdeɪ" }, "noteZh": "一次 once、两次 twice、三次以上用 times:three times a day。" },
+    { "id": "en.get_better", "kind": "phrase", "pos": "verb", "text": "get better", "zh": "好起来;康复", "features": { "ipa": "ˌɡet ˈbet̬ɚ" }, "noteZh": "You're going to get better. 你会好起来的;朋友生病时口语也常说 Feel better!" }
+  ],
+  "reviewItems": ["en.yesterday", "en.tired", "en.water", "en.sleep"],
+  "lines": [
+    { "speaker": "receptionist", "text": "Hi! How can I help you?", "zh": "你好!有什么可以帮你的?", "items": ["en.hi", "en.can_i_help_you"] },
+    { "speaker": "lei", "text": "I'm sick. I need to see a doctor.", "zh": "我病了,想看一下医生。", "items": ["en.sick", "en.need", "en.see", "en.doctor"] },
+    { "speaker": "doctor", "text": "Hi, Lei. So you don't feel well. What's wrong?", "zh": "你好,磊。你不太舒服是吧?哪儿不舒服?", "items": ["en.hi", "en.dont_feel_well", "en.whats_wrong_with_it"] },
+    { "speaker": "lei", "text": "I have a headache, a sore throat, and a fever.", "zh": "我头疼、嗓子疼,还发烧。", "items": ["en.have", "en.headache", "en.sore_throat", "en.fever"] },
+    { "speaker": "doctor", "text": "When did it start? Did you take any medicine?", "zh": "什么时候开始的?吃过药了吗?", "items": ["en.start", "en.take", "en.medicine"] },
+    { "speaker": "lei", "text": "Yesterday. No, I didn't. I was tired, so I slept all day.", "zh": "昨天开始的。没吃药。我很累,就睡了一整天。", "items": ["en.yesterday", "en.tired", "en.sleep", "en.all_day"] },
+    { "speaker": "doctor", "text": "It's a cold. Drink a lot of water and get some rest.", "zh": "是感冒。多喝水,好好休息。", "items": ["en.cold", "en.drink", "en.a_lot_of", "en.water", "en.rest"] },
+    { "speaker": "doctor", "text": "Take this medicine twice a day. You're going to get better.", "zh": "这个药一天吃两次。你会好起来的。", "items": ["en.take", "en.medicine", "en.twice_a_day", "en.going_to", "en.get_better"] }
+  ],
+  "questions": [
+    { "prompt": "磊哪里不舒服?", "options": ["头疼、嗓子疼,还发烧", "肚子疼,还发烧", "只是有点累,没生病"], "answer": 0, "explainZh": "I have a headache, a sore throat, and a fever." },
+    { "prompt": "医生让磊怎么吃药?", "options": ["一天一次", "一天两次", "一天三次"], "answer": 1, "explainZh": "Take this medicine twice a day.(twice = 两次)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.at_the_doctor",
+      "titleZh": "看病常用:have a + 症状、过去的问答、医嘱",
+      "bodyZh": "说症状用 have a + 名词:I have a headache(头疼)/ a sore throat(嗓子疼)/ a fever(发烧),别漏掉 a。医生说 It's a cold.,这里的 cold 是名词\"感冒\"(have a cold 感冒了),不是\"冷的\"。医生问过去的情况用 did:When did it start? Did you take any medicine? 简短回答 Yes, I did. / No, I didn't.(问的是过去,不说 No, I don't.)。医嘱多用祈使句,直接用动词原形开头:Drink a lot of water. Get some rest. Take this medicine twice a day.。\"吃药\"说 take medicine,不说 eat medicine。发音:headache 重音在前 HEAD-ache,ache 读 /eɪk/;throat 开头是清音 /θ/,舌尖先放在齿间,再迅速往后卷成 r。",
+      "examples": [
+        { "text": "I have a headache and a sore throat.", "zh": "我头疼,嗓子也疼。" },
+        { "text": "Did you take any medicine? — No, I didn't.", "zh": "你吃过药了吗?——没吃。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

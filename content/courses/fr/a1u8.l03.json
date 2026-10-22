@@ -1,0 +1,47 @@
+{
+  "id": "fr.a1u8.l03", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-8 健康、爱好与周末", "order": 108030,
+  "titleZh": "今天天气怎么样?——天气和季节", "goalZh": "会说天气和四季,比较不同地方的天气", "canDoZh": "能说今天天气怎么样,比较里昂、蒙特利尔和自己家乡不同季节的天气",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.temps", "kind": "word", "pos": "noun", "text": "le temps", "zh": "天气;时间", "features": { "gender": "m", "ipa": "lə tɑ̃" }, "noteZh": "p 和 s 都不发音;Quel temps fait-il ? 里的 temps 是天气,combien de temps 里的是时间。" },
+    { "id": "fr.il_fait_beau", "kind": "phrase", "pos": "phrase", "text": "Il fait beau.", "zh": "天气很好", "features": { "ipa": "il fɛ bo" }, "noteZh": "天气用 il fait + 形容词:Il fait chaud. Il fait froid.;fait 读 [fɛ]。" },
+    { "id": "fr.chaud", "kind": "word", "pos": "adj", "text": "chaud", "zh": "热的(阳性)", "features": { "ipa": "ʃo" }, "noteZh": "d 不发音;阴性 chaude [ʃod];人觉得热说 J'ai chaud.(用 avoir)" },
+    { "id": "fr.froid", "kind": "word", "pos": "adj", "text": "froid", "zh": "冷的(阳性)", "features": { "ipa": "fʁwa" }, "noteZh": "d 不发音;阴性 froide [fʁwad];人觉得冷说 J'ai froid.(不说 Je suis froid)" },
+    { "id": "fr.il_pleut", "kind": "phrase", "pos": "phrase", "text": "Il pleut.", "zh": "下雨;在下雨", "features": { "ipa": "il plø" }, "noteZh": "动词 pleuvoir 只用 il 这个形式;雨是 la pluie。" },
+    { "id": "fr.il_neige", "kind": "phrase", "pos": "phrase", "text": "Il neige.", "zh": "下雪;在下雪", "features": { "ipa": "il nɛʒ" }, "noteZh": "雪是 la neige;ei 读 [ɛ]。" },
+    { "id": "fr.printemps", "kind": "word", "pos": "noun", "text": "le printemps", "zh": "春天", "features": { "gender": "m", "ipa": "lə pʁɛ̃.tɑ̃" }, "noteZh": "p、s 不发音;“在春天”说 au printemps(唯一用 au 的季节)。" },
+    { "id": "fr.ete", "kind": "word", "pos": "noun", "text": "l'été", "zh": "夏天", "features": { "gender": "m", "ipa": "le.te" }, "noteZh": "元音开头,阳性;在夏天 en été。" },
+    { "id": "fr.automne", "kind": "word", "pos": "noun", "text": "l'automne", "zh": "秋天", "features": { "gender": "m", "ipa": "lo.tɔn" }, "noteZh": "m 不发音:[o.tɔn];在秋天 en automne。" },
+    { "id": "fr.hiver", "kind": "word", "pos": "noun", "text": "l'hiver", "zh": "冬天", "features": { "gender": "m", "ipa": "li.vɛʁ" }, "noteZh": "h 不发音,阳性;在冬天 en hiver。" }
+  ],
+  "reviewItems": ["fr.aujourd_hui", "fr.canada", "fr.tres", "fr.demain"],
+  "lines": [
+    { "speaker": "emilie", "text": "Il pleut et il fait froid aujourd'hui !", "zh": "今天下雨,还这么冷!", "items": ["fr.il_pleut", "fr.et", "fr.il", "fr.faire", "fr.froid", "fr.aujourd_hui"] },
+    { "speaker": "hao", "text": "Oui. Quel temps fait-il à Montréal en hiver ?", "zh": "是啊。蒙特利尔冬天天气怎么样?", "items": ["fr.oui", "fr.quel", "fr.temps", "fr.faire", "fr.il", "fr.a", "fr.en", "fr.hiver"] },
+    { "speaker": "emilie", "text": "Au Canada, il neige souvent. Il fait très froid !", "zh": "在加拿大常常下雪,特别冷!", "items": ["fr.au", "fr.canada", "fr.il_neige", "fr.souvent", "fr.il", "fr.faire", "fr.tres", "fr.froid"] },
+    { "speaker": "hao", "text": "Et en été ?", "zh": "那夏天呢?", "items": ["fr.et", "fr.en", "fr.ete"] },
+    { "speaker": "emilie", "text": "En été, il fait chaud. Et à Chengdu ?", "zh": "夏天挺热的。那成都呢?", "items": ["fr.en", "fr.ete", "fr.il", "fr.faire", "fr.chaud", "fr.et", "fr.a"] },
+    { "speaker": "hao", "text": "En été, il fait très chaud.", "zh": "夏天特别热。", "items": ["fr.en", "fr.ete", "fr.il", "fr.faire", "fr.tres", "fr.chaud"] },
+    { "speaker": "hao", "text": "Mais en hiver, il ne fait pas très froid.", "zh": "不过冬天不太冷。", "items": ["fr.mais", "fr.en", "fr.hiver", "fr.il", "fr.ne_pas", "fr.faire", "fr.tres", "fr.froid"] },
+    { "speaker": "hao", "text": "Au printemps et en automne, il fait beau.", "zh": "春天和秋天天气很好。", "items": ["fr.au", "fr.printemps", "fr.et", "fr.en", "fr.automne", "fr.il_fait_beau"] },
+    { "speaker": "emilie", "text": "Et demain, il va faire beau à Lyon ?", "zh": "那明天里昂会是好天气吗?", "items": ["fr.et", "fr.demain", "fr.il", "fr.aller", "fr.faire", "fr.beau", "fr.il_fait_beau", "fr.a"] },
+    { "speaker": "hao", "text": "Non, demain, il pleut aussi !", "zh": "不会,明天也下雨!", "items": ["fr.non", "fr.demain", "fr.il_pleut", "fr.aussi"] }
+  ],
+  "questions": [
+    { "prompt": "今天里昂的天气怎么样?", "options": ["晴天,很暖和", "下雨,很冷", "下雪"], "answer": 1, "explainZh": "艾米莉说:Il pleut et il fait froid aujourd'hui !" },
+    { "prompt": "浩说成都什么时候天气好?", "options": ["夏天", "冬天", "春天和秋天"], "answer": 2, "explainZh": "Au printemps et en automne, il fait beau.——成都夏天很热(très chaud),冬天不太冷。" },
+    { "prompt": "蒙特利尔冬天怎么样?", "options": ["常下雪,特别冷", "常下雨,不太冷", "天气很好"], "answer": 0, "explainZh": "Au Canada, il neige souvent. Il fait très froid !" }
+  ],
+  "grammar": [
+    { "id": "fr.g.meteo_saisons", "titleZh": "天气用 il fait / il pleut;季节前用 au 或 en",
+      "bodyZh": "说天气用无人称的 il,这个 il 不指任何人,相当于英语的 it:Il fait + 形容词(Il fait beau. Il fait chaud. Il fait froid.);下雨、下雪直接用动词:Il pleut. Il neige.。问天气:Quel temps fait-il ?(倒装问句,口语也说 Il fait quel temps ?)。中文说“天气很冷”,不要直译成 Le temps est froid。人觉得冷、热要用 avoir:J'ai froid.(我冷)/ J'ai chaud.(我热),和 J'ai faim 一样;说 Je suis froid 意思是“我这个人很冷淡”。四季都是阳性;“在春天”说 au printemps,另外三个季节以元音开头,用 en:en été, en automne, en hiver。",
+      "examples": [
+        { "text": "Aujourd'hui, il fait froid et il pleut.", "zh": "今天又冷又下雨。" },
+        { "text": "En hiver, il neige souvent au Canada.", "zh": "加拿大冬天常常下雪。" },
+        { "text": "Au printemps, il fait beau à Chengdu.", "zh": "成都的春天天气很好。" },
+        { "text": "J'ai froid !", "zh": "我好冷!(人觉得冷用 avoir)" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "en.a1u7.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107030,
+  "titleZh": "一起去打球吗?", "goalZh": "会发出邀请、接受邀请,或礼貌地拒绝并说明原因", "canDoZh": "能约朋友一起做某事;没空时也能礼貌地拒绝,并改约下次",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.do_you_want_to", "kind": "phrase", "pos": "phrase", "text": "Do you want to", "zh": "你想不想……?(邀请)", "features": { "ipa": "də jə ˈwɑːnt tə" }, "noteZh": "口语里常连读成 \"d'ya wanna\";后面接动词原形:Do you want to play basketball?" },
+    { "id": "en.sounds_good", "kind": "phrase", "pos": "phrase", "text": "Sounds good", "zh": "好啊;听起来不错", "alt": ["Sounds great", "That sounds good"], "features": { "ipa": "ˌsaʊndz ˈɡʊd" }, "noteZh": "接受邀请、同意安排最常用的一句,用降调;sounds 词尾 /dz/ 要读出来。" },
+    { "id": "en.im_in", "kind": "phrase", "pos": "phrase", "text": "I'm in", "zh": "算我一个", "alt": ["I am in"], "features": { "ipa": "aɪm ˈɪn" }, "noteZh": "朋友之间很随意的说法;连读成 \"ai-min\"。" },
+    { "id": "en.have_to", "kind": "phrase", "pos": "verb", "text": "have to", "zh": "不得不;必须", "features": { "ipa": "ˈhæf tə" }, "noteZh": "口语读 /ˈhæf tə/(像 hafta);I have to work. 我得上班。第三人称用 has to,后面都接动词原形。" },
+    { "id": "en.maybe_next_time", "kind": "phrase", "pos": "phrase", "text": "Maybe next time", "zh": "下次吧", "features": { "ipa": "ˌmeɪbi ˌnekst ˈtaɪm" }, "noteZh": "拒绝之后加这一句,语气就温和多了。" },
+    { "id": "en.thanks_for_asking", "kind": "phrase", "pos": "phrase", "text": "Thanks for asking", "zh": "谢谢你约我(问我)", "features": { "ipa": "ˈθæŋks fɚ ˈæskɪŋ" }, "noteZh": "拒绝邀请时先道谢:Thanks for asking, but I can't.。" },
+    { "id": "en.tonight", "kind": "word", "pos": "adv", "text": "tonight", "zh": "今晚", "features": { "ipa": "təˈnaɪt" }, "noteZh": "不说 this night;前面不加 in / on。" },
+    { "id": "en.tomorrow", "kind": "word", "pos": "adv", "text": "tomorrow", "zh": "明天", "features": { "ipa": "təˈmɑːroʊ" }, "noteZh": "重音在中间 to-MOR-row;tomorrow night 明晚,前面不加 in / on。" },
+    { "id": "en.join", "kind": "word", "pos": "verb", "text": "join", "zh": "加入;一起来", "features": { "ipa": "dʒɔɪn" }, "noteZh": "Do you want to join us? 要不要和我们一起?join 后面直接接人,不加 with。" }
+  ],
+  "reviewItems": ["en.cant", "en.basketball", "en.movie", "en.free"],
+  "lines": [
+    { "speaker": "ethan", "text": "Hey, man! Do you want to join us for basketball tonight?", "zh": "嘿,哥们儿!今晚要不要和我们一起打篮球?", "items": ["en.hey", "en.do_you_want_to", "en.join", "en.basketball", "en.tonight"] },
+    { "speaker": "lei", "text": "Sounds good! I'm in.", "zh": "好啊!算我一个。", "items": ["en.sounds_good", "en.im_in"] },
+    { "speaker": "ethan", "text": "Cool! Seven o'clock at the gym.", "zh": "好嘞!七点,健身房见。", "items": ["en.cool", "en.oclock", "en.gym"] },
+    { "speaker": "amy", "text": "Hi, Lei! Do you want to see a movie tomorrow?", "zh": "嗨,磊!明天想去看电影吗?", "items": ["en.hi", "en.do_you_want_to", "en.see", "en.movie", "en.tomorrow"] },
+    { "speaker": "lei", "text": "Sorry, I can't. I have to work tomorrow.", "zh": "抱歉,我去不了。我明天得上班。", "items": ["en.sorry", "en.cant", "en.have_to", "en.work", "en.tomorrow"] },
+    { "speaker": "lei", "text": "But thanks for asking! Maybe next time?", "zh": "不过谢谢你约我!下次吧?", "items": ["en.thanks_for_asking", "en.maybe_next_time"] },
+    { "speaker": "amy", "text": "Sure! Are you free this weekend?", "zh": "当然!你这个周末有空吗?", "items": ["en.sure", "en.free", "en.weekend"] },
+    { "speaker": "lei", "text": "Yes, I'm free on Saturday.", "zh": "有,我周六有空。", "items": ["en.free", "en.saturday"] },
+    { "speaker": "amy", "text": "Great! Saturday, then. See you!", "zh": "太好了!那就周六。回头见!", "items": ["en.great", "en.saturday", "en.then", "en.see_you_later"] }
+  ],
+  "questions": [
+    { "prompt": "伊森约磊做什么?磊答应了吗?", "options": ["今晚打篮球,答应了", "明天看电影,答应了", "今晚打篮球,没答应"], "answer": 0, "explainZh": "Do you want to join us for basketball tonight? —— Sounds good! I'm in.(好啊,算我一个)" },
+    { "prompt": "磊为什么不能和艾米去看电影?", "options": ["他不喜欢看电影", "他明天要打篮球", "他明天得上班"], "answer": 2, "explainZh": "磊说:Sorry, I can't. I have to work tomorrow.;所以两人改到周六。" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.invite_have_to",
+      "titleZh": "邀请和拒绝:Do you want to…? / I have to…",
+      "bodyZh": "邀请别人用 Do you want to + 动词原形?(你想不想……?):Do you want to see a movie? 答应说 Sounds good! / I'm in!;拒绝先说 Sorry, I can't.,再用 have to + 动词原形说明原因:I have to work.(我得上班),最后加一句 Thanks for asking! / Maybe next time?,语气就很友好,不会显得生硬。have to 后面一定是动词原形,主语是他、她时用 has to:Sofia has to study.。邀请里常带宾语代词:join us(和我们一起)、see you(见你)。在动词、介词后面,\"我、你、他、她、我们、他们\"要用宾语形式 me / you / him / her / us / them,不说 join we。发音:want to 口语常连读成 wanna,have to 读成 hafta,听得懂就行,自己说完整的也很好;邀请用升调 ↗,Sounds good! 用降调 ↘。",
+      "examples": [
+        { "text": "Do you want to join us?", "zh": "你要不要和我们一起?" },
+        { "text": "Sorry, I can't. I have to work.", "zh": "抱歉,我去不了,我得上班。" },
+        { "text": "Sofia has to study tonight.", "zh": "索菲亚今晚得学习。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

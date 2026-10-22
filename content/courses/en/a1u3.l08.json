@@ -1,0 +1,57 @@
+{
+  "id": "en.a1u3.l08", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 Daily life", "order": 103080,
+  "titleZh": "单元复习:我在西雅图的一周", "goalZh": "读懂并会讲一段描述一周生活的短文,复习时间、作息、第三人称 -s 和频率副词", "canDoZh": "能用一段话讲讲自己普通的一周:上课、打工、运动和周末",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 23,
+  "newItems": [
+    { "id": "en.busy", "kind": "word", "pos": "adj", "text": "busy", "zh": "忙的", "features": { "ipa": "ˈbɪzi" }, "noteZh": "u 读 /ɪ/、s 读 /z/:\"bi-zee\"。" },
+    { "id": "en.tired", "kind": "word", "pos": "adj", "text": "tired", "zh": "累的", "features": { "ipa": "ˈtaɪɚd" }, "noteZh": "ir 要卷舌,词尾 d 轻轻收住;I'm tired. 我累了。" },
+    { "id": "en.then", "kind": "word", "pos": "adv", "text": "then", "zh": "然后", "features": { "ipa": "ðen" }, "noteZh": "th 是浊音 /ð/;讲顺序:I have lunch, then I go to the library。" },
+    { "id": "en.after", "kind": "word", "pos": "prep", "text": "after", "zh": "在……之后", "features": { "ipa": "ˈæftɚ" }, "noteZh": "after class 下课后,after work 下班后。" }
+  ],
+  "reviewItems": ["en.usually", "en.part_time", "en.weekend", "en.every_day"],
+  "lines": [
+    { "speaker": "lei", "text": "Hi, you guys! Here's my week in Seattle.", "zh": "嗨,大家好!给你们看看我在西雅图的一周。", "items": ["en.hi", "en.you_guys", "en.week"] },
+    { "speaker": "lei", "text": "I have class on Monday, Wednesday, and Friday mornings.", "zh": "我每周一、周三、周五上午有课。", "items": ["en.have", "en.class", "en.monday", "en.wednesday", "en.friday", "en.morning"] },
+    { "speaker": "lei", "text": "On Tuesdays and Thursdays, I have a part-time job.", "zh": "每周二和周四,我做一份兼职。", "items": ["en.tuesday", "en.thursday", "en.have", "en.part_time", "en.job"] },
+    { "speaker": "lei", "text": "I work at the cafe from two to six.", "zh": "我在咖啡馆上班,从两点到六点。", "items": ["en.work", "en.cafe"] },
+    { "speaker": "lei", "text": "After work, I have dinner. Then I often study in the library.", "zh": "下班以后我吃晚饭,然后常常去图书馆学习。", "items": ["en.after", "en.work", "en.have", "en.dinner", "en.then", "en.often", "en.study", "en.library"] },
+    { "speaker": "lei", "text": "I usually go to bed at eleven.", "zh": "我通常十一点睡觉。", "items": ["en.usually", "en.go_to_bed"] },
+    { "speaker": "lei", "text": "My roommate, Ethan, gets up at noon.", "zh": "我的室友伊森中午才起床。", "items": ["en.roommate", "en.get_up", "en.noon"] },
+    { "speaker": "lei", "text": "He plays video games at night and sleeps in the morning!", "zh": "他晚上打游戏,上午睡觉!", "items": ["en.play", "en.video_game", "en.night", "en.sleep", "en.morning"] },
+    { "speaker": "lei", "text": "On the weekend, I sleep late and do laundry.", "zh": "周末我睡懒觉、洗衣服。", "items": ["en.weekend", "en.sleep", "en.late", "en.do_laundry"] },
+    { "speaker": "lei", "text": "Every Sunday, I call my parents. I miss them every day.", "zh": "每个周日我都给爸妈打电话。我每天都想他们。", "items": ["en.sunday", "en.call", "en.parents", "en.miss", "en.every_day"] },
+    { "speaker": "lei", "text": "I'm busy, and I'm sometimes tired.", "zh": "我很忙,有时候也很累。", "items": ["en.busy", "en.sometimes", "en.tired"] },
+    { "speaker": "lei", "text": "But I love it here!", "zh": "但我很喜欢这里!", "items": ["en.love"] }
+  ],
+  "questions": [
+    { "prompt": "磊每周哪几天去咖啡馆打工?", "options": ["周一、周三、周五", "周二、周四", "周六、周日"], "answer": 1, "explainZh": "On Tuesdays and Thursdays, I have a part-time job.——每周二、周四下午两点到六点。周一、三、五上午他有课。" },
+    { "prompt": "下班以后,磊一般做什么?", "options": ["先吃晚饭,再去图书馆学习", "去健身房锻炼", "打游戏", "马上睡觉"], "answer": 0, "explainZh": "After work, I have dinner. Then I often study in the library.——after 是\"在……之后\",then 是\"然后\"。" },
+    { "prompt": "下面哪一项说的是伊森?", "options": ["每天上午都有课", "晚上常去图书馆学习", "中午才起床,晚上打游戏"], "answer": 2, "explainZh": "My roommate, Ethan, gets up at noon. He plays video games at night and sleeps in the morning!" },
+    { "prompt": "磊觉得在西雅图的生活怎么样?", "options": ["每天都很轻松,有点无聊", "很忙,有时很累,但很喜欢这里", "不喜欢这里,想回成都"], "answer": 1, "explainZh": "I'm busy, and I'm sometimes tired. But I love it here!——他想家(I miss them every day),但很喜欢这里。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u3_review_present_simple", "titleZh": "复习:一般现在时的两种形式",
+      "bodyZh": "说习惯和作息都用一般现在时。I / you / we / they 用动词原形:I work at the cafe.;he / she 或一个人的名字后面,动词加 -s:Ethan gets up at noon.。\n否定和疑问用 don't / doesn't、Do / Does,后面的动词都回到原形:I don't work on Mondays. / Does Ethan study at night?。\n朗读时把每个 -s 读清楚:gets /s/、plays /z/、watches /ɪz/。",
+      "examples": [
+        { "text": "I work at the cafe from two to six.", "zh": "我在咖啡馆上班,从两点到六点。" },
+        { "text": "Ethan gets up at noon and plays video games at night.", "zh": "伊森中午起床,晚上打游戏。" },
+        { "text": "Does Ethan study at night? — No, he doesn't.", "zh": "伊森晚上学习吗?——不学。" }
+      ] },
+    { "id": "en.g.u3_review_frequency_time", "titleZh": "复习:频率副词和 at / on / in",
+      "bodyZh": "频率副词放在行为动词前、be 动词后:I usually go to bed at eleven. / I'm sometimes tired.。\n时间介词:at + 钟点(at eleven);on + 星期(on Tuesdays、on the weekend);in + 时段(in the morning、in the afternoon),但 at night。\nevery day、every Sunday 前面不加介词:不说 on every Sunday。",
+      "examples": [
+        { "text": "I usually go to bed at eleven.", "zh": "我通常十一点睡觉。" },
+        { "text": "I'm sometimes tired.", "zh": "我有时候很累。" },
+        { "text": "On Tuesdays and Thursdays, I work in the afternoon.", "zh": "每周二和周四,我下午上班。" }
+      ] },
+    { "id": "en.g.u3_then_after", "titleZh": "用 then 和 after 把事情串起来",
+      "bodyZh": "讲一天的安排时,用 then(然后)和 after(在……之后)把事情按顺序连起来,听的人更容易跟上。\nafter + 名词:after class(下课后)、after work(下班后)、after lunch(午饭后);放在句首时后面加逗号:After work, I have dinner.。\nthen 放在第二件事前面:I have dinner. Then I study.;也可以说 I have dinner, and then I study.。\n发音:then 的 th 是浊音 /ð/,舌尖轻放在上下齿之间、声带振动,别读成 \"zen\" 或 \"den\"。",
+      "examples": [
+        { "text": "After work, I have dinner.", "zh": "下班以后,我吃晚饭。" },
+        { "text": "I have dinner. Then I study in the library.", "zh": "我吃晚饭,然后去图书馆学习。" },
+        { "text": "After class, I have lunch.", "zh": "下课以后,我吃午饭。" }
+      ] }
+  ],
+  "review": "draft"
+}

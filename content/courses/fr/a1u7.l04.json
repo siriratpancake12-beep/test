@@ -1,0 +1,46 @@
+{
+  "id": "fr.a1u7.l04", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107040,
+  "titleZh": "在银行开户——vouloir 和填表", "goalZh": "会用 vouloir 说想做什么、用 pouvoir 请对方做事,会填开户表格", "canDoZh": "能在银行说明来意(开户、办银行卡),并说出表格上的姓、名、出生日期和地址",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.vouloir", "kind": "word", "pos": "verb", "text": "vouloir", "zh": "想要", "features": { "ipa": "vu.lwaʁ" }, "noteZh": "je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent;请别人做事时 Je voudrais 更礼貌。" },
+    { "id": "fr.ouvrir", "kind": "word", "pos": "verb", "text": "ouvrir", "zh": "打开;开(账户、店门)", "features": { "ipa": "u.vʁiʁ" }, "noteZh": "以 -ir 结尾,但变位像 -er 动词:j'ouvre, tu ouvres, il ouvre。" },
+    { "id": "fr.compte", "kind": "word", "pos": "noun", "text": "le compte", "zh": "账户", "features": { "gender": "m", "ipa": "lə kɔ̃t" }, "noteZh": "p 不发音:[kɔ̃t];ouvrir un compte = 开户。" },
+    { "id": "fr.carte_bancaire", "kind": "word", "pos": "noun", "text": "la carte bancaire", "zh": "银行卡", "features": { "gender": "f", "ipa": "la kaʁt bɑ̃.kɛʁ" }, "noteZh": "口语常说 la carte 或 la CB。" },
+    { "id": "fr.nom", "kind": "word", "pos": "noun", "text": "le nom", "zh": "姓;名字", "features": { "gender": "m", "ipa": "lə nɔ̃" }, "noteZh": "法国表格上 nom = 姓(Zhang),prénom = 名(Hao);m 不发音,读鼻化元音 [ɔ̃]。" },
+    { "id": "fr.prenom", "kind": "word", "pos": "noun", "text": "le prénom", "zh": "名(名字)", "features": { "gender": "m", "ipa": "lə pʁe.nɔ̃" }, "noteZh": "表格上 Prénom 一栏填名(Hao),不填姓;朋友之间互相叫 prénom。" },
+    { "id": "fr.date_de_naissance", "kind": "word", "pos": "noun", "text": "la date de naissance", "zh": "出生日期", "features": { "gender": "f", "ipa": "la dat də nɛ.sɑ̃s" }, "noteZh": "表格上常见;日期按 日/月/年 写:20/01/2006。" },
+    { "id": "fr.mille", "kind": "word", "pos": "num", "text": "mille", "zh": "一千", "features": { "ipa": "mil" }, "noteZh": "ll 读 [l];永远不加 s:deux mille(2000);年份 2006 = deux mille six。" },
+    { "id": "fr.signer", "kind": "word", "pos": "verb", "text": "signer", "zh": "签字;签名", "features": { "ipa": "si.ɲe" }, "noteZh": "gn 读 [ɲ];Signez ici, s'il vous plaît.(请在这里签字。)" }
+  ],
+  "reviewItems": ["fr.adresse", "fr.numero", "fr.portable", "fr.pouvoir"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour, monsieur. Je voudrais ouvrir un compte, s'il vous plaît.", "zh": "您好,先生。我想开个账户。", "items": ["fr.bonjour", "fr.monsieur", "fr.je_voudrais", "fr.ouvrir", "fr.un", "fr.compte", "fr.sil_vous_plait"] },
+    { "speaker": "conseiller", "text": "Très bien. Vous voulez aussi une carte bancaire ?", "zh": "好的。您也要办一张银行卡吗?", "items": ["fr.tres", "fr.bien", "fr.vous", "fr.vouloir", "fr.aussi", "fr.une", "fr.carte_bancaire"] },
+    { "speaker": "hao", "text": "Oui, je veux bien.", "zh": "好啊,要一张。", "items": ["fr.oui", "fr.je", "fr.vouloir", "fr.bien"] },
+    { "speaker": "conseiller", "text": "Votre nom et votre prénom, s'il vous plaît ?", "zh": "请问您的姓和名?", "items": ["fr.votre", "fr.nom", "fr.et", "fr.prenom", "fr.sil_vous_plait"] },
+    { "speaker": "hao", "text": "Mon nom, c'est Zhang, et mon prénom, c'est Hao.", "zh": "我姓张,名字叫浩。", "items": ["fr.mon", "fr.nom", "fr.cest", "fr.et", "fr.prenom"] },
+    { "speaker": "conseiller", "text": "Votre date de naissance et votre adresse ?", "zh": "您的出生日期和地址呢?", "items": ["fr.votre", "fr.date_de_naissance", "fr.et", "fr.adresse"] },
+    { "speaker": "hao", "text": "Le vingt janvier deux mille six. Voilà mon adresse.", "zh": "2006 年 1 月 20 日。这是我的地址。", "items": ["fr.vingt", "fr.janvier", "fr.deux", "fr.mille", "fr.six", "fr.voila", "fr.mon", "fr.adresse"] },
+    { "speaker": "conseiller", "text": "Et votre numéro de portable ?", "zh": "还有您的手机号?", "items": ["fr.et", "fr.votre", "fr.numero", "fr.de", "fr.portable"] },
+    { "speaker": "hao", "text": "C'est le zéro six, soixante et onze, quatre-vingt-quatre, quatre-vingt-douze, quinze.", "zh": "是 06 71 84 92 15。", "items": ["fr.cest", "fr.zero", "fr.six", "fr.soixante", "fr.et", "fr.onze", "fr.quatre_vingts", "fr.quatre", "fr.douze", "fr.quinze"] },
+    { "speaker": "conseiller", "text": "Merci. Vous pouvez signer ici, s'il vous plaît ?", "zh": "谢谢。请您在这里签个字,好吗?", "items": ["fr.merci", "fr.vous", "fr.pouvoir", "fr.signer", "fr.ici", "fr.sil_vous_plait"] }
+  ],
+  "questions": [
+    { "prompt": "法国表格上的 nom 一栏,浩应该填什么?", "options": ["Hao", "Zhang Hao", "Zhang"], "answer": 2, "explainZh": "Mon nom, c'est Zhang, et mon prénom, c'est Hao.——nom 是姓,prénom 是名。" },
+    { "prompt": "浩的出生日期在法国的表格上怎么写?", "options": ["2006/01/20", "20/01/2006", "01/20/2006"], "answer": 1, "explainZh": "Le vingt janvier deux mille six = 2006 年 1 月 20 日;法国按 日/月/年 写:20/01/2006。" },
+    { "prompt": "银行顾问最后请浩做什么?", "options": ["签字", "说手机号", "明天再来"], "answer": 0, "explainZh": "Vous pouvez signer ici, s'il vous plaît ?——signer 是“签字”;Vous pouvez… ? 是礼貌地请对方做事。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.vouloir_pouvoir", "titleZh": "vouloir / pouvoir + 动词原形",
+      "bodyZh": "vouloir(想要)是不规则动词:je veux, tu veux, il/elle veut, nous voulons, vous voulez, ils/elles veulent。后面可以接名词(Je veux un café.),也可以接动词原形(Je veux ouvrir un compte.)。对店员、银行顾问这些不熟的人说 Je voudrais… 更客气,Je veux… 听起来像“我就要……”;别人问你要不要什么,回答 Oui, je veux bien.(好啊,要。)上一课学的 pouvoir(能、可以)也接动词原形:Je peux… ? 是“我可以……吗?”,Vous pouvez… ? 是礼貌地请对方做事。英语说 want to / can,法语后面直接接原形,不加任何词;第二个动词也不变位(说 Je veux ouvrir,不说 Je veux ouvre)。填表时年份照数字读:2006 = deux mille six(mille 永远不加 s)。",
+      "examples": [
+        { "text": "Je voudrais ouvrir un compte.", "zh": "我想开个账户。" },
+        { "text": "Vous voulez une carte bancaire ?", "zh": "您要办银行卡吗?" },
+        { "text": "Lucas veut manger avec nous.", "zh": "卢卡想和我们一起吃饭。" },
+        { "text": "Vous pouvez signer ici ?", "zh": "您能在这里签个字吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

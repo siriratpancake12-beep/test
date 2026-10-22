@@ -1,0 +1,46 @@
+{
+  "id": "en.a1u2.l01", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 Family & friends", "order": 102010,
+  "titleZh": "我的全家福", "goalZh": "会说家庭成员,用 This is my… 介绍照片里的家人", "canDoZh": "能拿着手机里的全家福,给朋友介绍照片里的家人",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.family", "kind": "word", "pos": "noun", "text": "family", "zh": "家人;家庭", "features": { "ipa": "ˈfæməli" }, "noteZh": "重音在第一个音节 FAM-;a 读 /æ/,嘴要张大。" },
+    { "id": "en.photo", "kind": "word", "pos": "noun", "text": "photo", "zh": "照片", "alt": ["picture"], "features": { "ipa": "ˈfoʊt̬oʊ" }, "noteZh": "口语也常说 picture;美式 t 在两个元音之间读得像轻快的 d。全家福可以说 family photo。" },
+    { "id": "en.whos_that", "kind": "phrase", "pos": "phrase", "text": "Who's that", "zh": "那是谁?", "alt": ["Who is that"], "features": { "ipa": "ˌhuːz ˈðæt" }, "noteZh": "指着照片问也可以说 Who's this?;回答用 That's my…。" },
+    { "id": "en.mom", "kind": "word", "pos": "noun", "text": "mom", "zh": "妈妈", "features": { "ipa": "mɑːm" }, "noteZh": "美式拼写 mom,英式是 mum;正式说法 mother。" },
+    { "id": "en.dad", "kind": "word", "pos": "noun", "text": "dad", "zh": "爸爸", "features": { "ipa": "dæd" }, "noteZh": "正式说法 father;a 读 /æ/,嘴张大,词尾 d 轻轻收住。" },
+    { "id": "en.parents", "kind": "word", "pos": "noun", "text": "parents", "zh": "父母", "features": { "ipa": "ˈperənts" }, "noteZh": "指父母两个人,用复数;词尾 nts 要读完整。" },
+    { "id": "en.grandma", "kind": "word", "pos": "noun", "text": "grandma", "zh": "奶奶;外婆", "features": { "ipa": "ˈɡrænmɑː" }, "noteZh": "英语不分奶奶和外婆,都叫 grandma(正式说法 grandmother);d 一般不发音。要说清楚可以说 my dad's mom(爸爸的妈妈)。" },
+    { "id": "en.grandpa", "kind": "word", "pos": "noun", "text": "grandpa", "zh": "爷爷;外公", "features": { "ipa": "ˈɡrænpɑː" }, "noteZh": "同样不分爷爷和外公,正式说法 grandfather。" },
+    { "id": "en.cousin", "kind": "word", "pos": "noun", "text": "cousin", "zh": "堂/表兄弟姐妹", "features": { "ipa": "ˈkʌzən" }, "noteZh": "英语不分堂和表、不分男女、不分大小,都叫 cousin;ou 读 /ʌ/。" },
+    { "id": "en.only_child", "kind": "phrase", "pos": "noun", "text": "only child", "zh": "独生子女", "features": { "ipa": "ˌoʊnli ˈtʃaɪld" }, "noteZh": "I'm an only child.(only 以元音开头,用 an);美国人对这个话题很好奇,可以多聊两句。" }
+  ],
+  "reviewItems": ["en.this_is", "en.roommate", "en.cool"],
+  "lines": [
+    { "speaker": "ethan", "text": "Hey, roommate! Cool photo. Who's that?", "zh": "嘿,室友!照片不错啊。那是谁?", "items": ["en.hey", "en.roommate", "en.cool", "en.photo", "en.whos_that"] },
+    { "speaker": "lei", "text": "That's my family. This is my mom, and this is my dad.", "zh": "那是我的家人。这是我妈妈,这是我爸爸。", "items": ["en.family", "en.this_is", "en.mom", "en.dad"] },
+    { "speaker": "ethan", "text": "And who's that?", "zh": "那这位是谁?", "items": ["en.whos_that"] },
+    { "speaker": "lei", "text": "That's my grandma, my dad's mom.", "zh": "那是我奶奶,就是我爸爸的妈妈。", "items": ["en.grandma", "en.dad", "en.mom"] },
+    { "speaker": "ethan", "text": "Who's that girl?", "zh": "那个女孩是谁?", "items": ["en.whos_that"] },
+    { "speaker": "lei", "text": "That's my cousin. She's a great friend.", "zh": "那是我表姐,她是个特别好的朋友。", "items": ["en.cousin", "en.great", "en.friend"] },
+    { "speaker": "ethan", "text": "Wow! So you're an only child?", "zh": "哇!这么说你是独生子?", "items": ["en.only_child"] },
+    { "speaker": "lei", "text": "Yes, I am. Is that your family photo?", "zh": "对,我是。那是你们家的全家福吗?", "items": ["en.family", "en.photo"] },
+    { "speaker": "ethan", "text": "Yes! These are my parents, and this is my grandpa.", "zh": "对!这是我爸妈,这是我爷爷。", "items": ["en.parents", "en.this_is", "en.grandpa"] },
+    { "speaker": "lei", "text": "Cool! Hi, Ethan's family!", "zh": "酷!你们好呀,伊森的家人!", "items": ["en.cool", "en.hi", "en.family"] }
+  ],
+  "questions": [
+    { "prompt": "照片里的女孩是谁?", "options": ["磊的妈妈", "磊的表姐", "磊的奶奶", "伊森的妹妹"], "answer": 1, "explainZh": "伊森问 Who's that girl?,磊说 That's my cousin.(那是我表姐。)cousin 不分男女、不分堂表。" },
+    { "prompt": "磊有兄弟姐妹吗?", "options": ["有一个姐姐", "有一个弟弟", "没有,他是独生子女"], "answer": 2, "explainZh": "伊森问 So you're an only child?,磊说 Yes, I am.;照片里的女孩是表姐(cousin),不是亲姐姐。" },
+    { "prompt": "伊森给磊看的照片里有谁?", "options": ["他的父母和爷爷", "他的奶奶和表姐", "他的室友"], "answer": 0, "explainZh": "伊森说 These are my parents, and this is my grandpa.(这是我爸妈,这是我爷爷。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.possessive_this_these", "titleZh": "my / your / his / her / our / their 和 This is… / These are…",
+      "bodyZh": "“谁的”放在名词前面:my(我的)、your(你的;你们的)、his(他的)、her(她的)、our(我们的)、their(他们的)。中文常说“我妈妈”“我们家”,把“的”省掉;英语不能省:要说 my mom,不说 I mom 或 me mom。“某人的”在名字后面加 's:Ethan's family、my dad's mom。介绍一个人用 This is…,介绍两个及以上的人用 These are…(these 是 this 的复数):These are my parents.。发音:grandma 里的 d 通常不发音,读成“gran-ma”;parents 结尾的 nts 要读完整。",
+      "examples": [
+        { "text": "This is my mom, and this is my dad.", "zh": "这是我妈妈,这是我爸爸。" },
+        { "text": "These are my parents.", "zh": "这是我的父母。" },
+        { "text": "Is that your family? — Yes, that's our family photo.", "zh": "那是你的家人吗?——对,那是我们的全家福。" }
+      ] }
+  ],
+  "review": "draft"
+}

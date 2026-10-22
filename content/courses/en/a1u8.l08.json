@@ -1,0 +1,58 @@
+{
+  "id": "en.a1u8.l08", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-8 Last weekend", "order": 108080,
+  "titleZh": "单元复习:我的第一个学期", "goalZh": "读懂并会讲一段回顾几个月经历的短文,综合复习一般过去时和整个 A1 的话题", "canDoZh": "能用一段话讲讲自己过去几个月的经历和变化:刚来时怎样、做了什么、现在怎样、接下来打算做什么",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 20.5,
+  "newItems": [
+    { "id": "en.semester", "kind": "word", "pos": "noun", "text": "semester", "zh": "学期", "features": { "ipa": "səˈmestɚ" }, "noteZh": "美国大学多数一年两个学期(秋季、春季);重音在中间 se-MES-ter;下学期 next semester。" },
+    { "id": "en.nervous", "kind": "word", "pos": "adj", "text": "nervous", "zh": "紧张的", "features": { "ipa": "ˈnɝːvəs" }, "noteZh": "ner 卷舌,v 上齿碰下唇;I was nervous. 我当时很紧张。" },
+    { "id": "en.learn", "kind": "word", "pos": "verb", "text": "learn", "zh": "学会;学到", "features": { "ipa": "lɝːn" }, "noteZh": "learn 强调学会、学到(I learned a lot.),study 强调学习的过程;学游泳 learn to swim。" },
+    { "id": "en.confident", "kind": "word", "pos": "adj", "text": "confident", "zh": "自信的", "features": { "ipa": "ˈkɑːnfɪdənt" }, "noteZh": "重音在前 CON-fi-dent;I'm confident now. 我现在很自信。" }
+  ],
+  "reviewItems": ["en.ago", "en.going_to", "en.understand", "en.friend"],
+  "lines": [
+    { "speaker": "lei", "text": "When I came to Seattle, I was really nervous.", "zh": "我刚来西雅图的时候,特别紧张。", "items": ["en.come", "en.really", "en.nervous"] },
+    { "speaker": "lei", "text": "I didn't understand people, and I was very shy.", "zh": "我听不懂别人说话,而且很害羞。", "items": ["en.understand", "en.people", "en.shy"] },
+    { "speaker": "lei", "text": "Then I made friends: Amy, Ethan, Sofia, and Marcus.", "zh": "后来我交到了朋友:艾米、伊森、索菲亚和马库斯。", "items": ["en.then", "en.make", "en.friend"] },
+    { "speaker": "lei", "text": "I started a part-time job at a cafe.", "zh": "我在一家咖啡馆做起了兼职。", "items": ["en.start", "en.part_time", "en.job", "en.cafe"] },
+    { "speaker": "lei", "text": "I learned a lot there. Now I can talk to customers!", "zh": "我在那儿学到了很多。现在我能和顾客聊天了!", "items": ["en.learn", "en.a_lot_of", "en.can", "en.talk", "en.customer"] },
+    { "speaker": "lei", "text": "I can also take the bus downtown and buy clothes.", "zh": "我还会坐公交去市中心,自己买衣服。", "items": ["en.can", "en.take", "en.bus", "en.downtown", "en.buy", "en.clothes"] },
+    { "speaker": "lei", "text": "After our hiking trip, I was sick, but I got better.", "zh": "那次徒步回来,我病了一场,不过后来好了。", "items": ["en.after", "en.go_hiking", "en.trip", "en.sick", "en.get_better"] },
+    { "speaker": "lei", "text": "I had my first Halloween and my first Thanksgiving.", "zh": "我过了第一个万圣节和第一个感恩节。", "items": ["en.have", "en.first", "en.halloween", "en.thanksgiving"] },
+    { "speaker": "lei", "text": "Thanksgiving was two weeks ago. I'm thankful for my friends here.", "zh": "感恩节是两周前。我很感谢这里的朋友们。", "items": ["en.thanksgiving", "en.week", "en.ago", "en.thankful", "en.friend"] },
+    { "speaker": "lei", "text": "Now I'm not nervous. I'm confident, and I talk a lot!", "zh": "现在我不紧张了。我很自信,话也多了!", "items": ["en.nervous", "en.confident", "en.talk", "en.a_lot_of"] },
+    { "speaker": "lei", "text": "Next semester, I'm going to learn to swim with Ethan.", "zh": "下学期,我打算跟伊森学游泳。", "items": ["en.next", "en.semester", "en.going_to", "en.learn", "en.swim"] },
+    { "speaker": "lei", "text": "But first, I'm going to go home to Chengdu. I miss my family!", "zh": "不过在那之前,我要先回成都。我想家了!", "items": ["en.first", "en.going_to", "en.go", "en.home", "en.miss", "en.family"] }
+  ],
+  "questions": [
+    { "prompt": "磊刚来西雅图时是什么样的?", "options": ["很自信,话很多", "很紧张,也很害羞", "每天都很忙"], "answer": 1, "explainZh": "When I came to Seattle, I was really nervous. I didn't understand people, and I was very shy." },
+    { "prompt": "磊在哪儿打工?在那儿有什么收获?", "options": ["在咖啡馆,现在能和顾客聊天了", "在超市,学会了做饭", "在图书馆,认识了艾米"], "answer": 0, "explainZh": "I started a part-time job at a cafe. I learned a lot there. Now I can talk to customers!" },
+    { "prompt": "那次徒步之后发生了什么?", "options": ["他拍了很多照片", "他买了新衣服", "他生病了,后来好了"], "answer": 2, "explainZh": "After our hiking trip, I was sick, but I got better." },
+    { "prompt": "下学期磊打算做什么?", "options": ["回成都上学", "换一份工作", "再去山里徒步", "跟伊森学游泳"], "answer": 3, "explainZh": "Next semester, I'm going to learn to swim with Ethan.(回成都是放假时的事:But first, I'm going to go home to Chengdu.)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.past_present_future",
+      "titleZh": "过去、现在、将来:三种时间一起用",
+      "bodyZh": "讲自己的变化,要把三种时间分清楚:过去的事用一般过去时(I was nervous. I made friends.);现在的情况和习惯用一般现在时(Now I'm confident. I work at a cafe.);打算好的将来用 be going to(Next semester, I'm going to learn to swim.)。用 When I came here, I was… 开头,能自然地从过去讲起;再用 Now… 转到现在,用 Next semester… 讲打算。时间词就是信号:ago、last、yesterday、when I came here 配过去式;now、every day 配一般现在时;next、tomorrow、this weekend 配 be going to。",
+      "examples": [
+        { "text": "When I came to Seattle, I was really nervous.", "zh": "我刚来西雅图的时候特别紧张。" },
+        { "text": "Now I'm confident, and I talk a lot.", "zh": "现在我很自信,话也多了。" },
+        { "text": "I work at a cafe two afternoons a week.", "zh": "我每周在咖啡馆上两个下午的班。" },
+        { "text": "Next semester, I'm going to learn to swim.", "zh": "下学期我打算学游泳。" }
+      ]
+    },
+    {
+      "id": "en.g.u8_review",
+      "titleZh": "复习:过去式怎么变、怎么读",
+      "bodyZh": "第 8 单元学的过去式:be 动词用 was / were;规则动词加 -ed,读 /t/(talked、finished)、/d/(learned、cleaned)或 /ɪd/(started、visited);常用不规则动词要单独记:came、made、had、saw、got、went、ate、bought。问句和否定用 did / didn't + 动词原形:Did you understand? —— No, I didn't.。朗读这篇短文时,-ed 词尾一定要读出来;句子重音放在关键的词上(nervous、confident、first);逗号、句号处稍微停一下,听起来更从容。",
+      "examples": [
+        { "text": "I learned a lot at the cafe.", "zh": "我在咖啡馆学到了很多。(learned 读 /d/)" },
+        { "text": "I started a part-time job.", "zh": "我做起了兼职。(started 读 /ɪd/)" },
+        { "text": "I made friends, and I had my first Thanksgiving.", "zh": "我交到了朋友,还过了第一个感恩节。" },
+        { "text": "Did you understand? — No, I didn't.", "zh": "你听懂了吗?——没听懂。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

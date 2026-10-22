@@ -1,0 +1,30 @@
+{
+  "id": "fr.a1u1.l01", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 Bonjour !", "order": 101010,
+  "titleZh": "打招呼和自我介绍", "goalZh": "会用法语问好、说名字和国籍", "canDoZh": "能用法语打招呼、介绍自己的名字和国籍",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
+  "newItems": [
+    { "id": "fr.bonjour", "kind": "word", "pos": "interj", "text": "Bonjour", "zh": "你好/早上好", "features": { "ipa": "bɔ̃.ʒuʁ" }, "noteZh": "白天见面都可以说;晚上用 Bonsoir。" },
+    { "id": "fr.salut", "kind": "word", "pos": "interj", "text": "Salut", "zh": "嗨(朋友之间)", "features": { "ipa": "sa.ly" }, "noteZh": "词尾 t 不发音。" },
+    { "id": "fr.je_mappelle", "kind": "phrase", "pos": "phrase", "text": "Je m'appelle", "zh": "我叫……", "features": { "ipa": "ʒə ma.pɛl" } },
+    { "id": "fr.je_suis", "kind": "phrase", "pos": "phrase", "text": "Je suis", "zh": "我是……", "features": { "ipa": "ʒə sɥi" } },
+    { "id": "fr.chinois", "kind": "word", "pos": "adj", "text": "chinois", "zh": "中国的(阳性)", "features": { "ipa": "ʃi.nwa" }, "noteZh": "女生说 chinoise(多一个 e,s 要读出来)。" },
+    { "id": "fr.au_revoir", "kind": "phrase", "pos": "phrase", "text": "Au revoir", "zh": "再见", "features": { "ipa": "o ʁə.vwaʁ" } }
+  ],
+  "lines": [
+    { "speaker": "chloe", "text": "Bonjour ! Je m'appelle Chloé.", "zh": "你好!我叫克洛艾。", "items": ["fr.bonjour", "fr.je_mappelle"] },
+    { "speaker": "hao", "text": "Salut, Chloé ! Je m'appelle Hao.", "zh": "嗨,克洛艾!我叫浩。", "items": ["fr.salut", "fr.je_mappelle"] },
+    { "speaker": "hao", "text": "Je suis chinois.", "zh": "我是中国人。", "items": ["fr.je_suis", "fr.chinois"] },
+    { "speaker": "chloe", "text": "Au revoir, Hao !", "zh": "再见,浩!", "items": ["fr.au_revoir"] }
+  ],
+  "questions": [
+    {"prompt": "浩是哪国人?", "options": ["法国人", "德国人", "中国人"], "answer": 2, "explainZh": "浩说:Je suis chinois."},
+    {"prompt": "克洛艾最后说了什么?", "options": ["Au revoir", "Bonjour", "Merci"], "answer": 0, "explainZh": "Au revoir 是“再见”。"}
+  ],
+  "grammar": [
+    { "id": "fr.g.nationality", "titleZh": "国籍形容词分阴阳性",
+      "bodyZh": "说自己的国籍,男生和女生用的词不同:阴性一般在阳性后加 e。加了 e 以后,原本不发音的词尾辅音要读出来。",
+      "examples": [ { "text": "Il est chinois.", "zh": "他是中国人。" }, { "text": "Elle est chinoise.", "zh": "她是中国人。" } ] }
+  ],
+  "review": "draft"
+}

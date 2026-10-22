@@ -1,0 +1,46 @@
+{
+  "id": "en.a1u7.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107010,
+  "titleZh": "你平时喜欢做什么?", "goalZh": "会用 like / love / hate + -ing 聊自己的爱好", "canDoZh": "能和朋友聊爱好:说自己喜欢做什么、不喜欢做什么,再问回去",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.what_do_you_do_for_fun", "kind": "phrase", "pos": "phrase", "text": "What do you do for fun", "zh": "你平时喜欢做什么(消遣)?", "features": { "ipa": "ˌwʌt də jə ˌduː fɚ ˈfʌn" }, "noteZh": "美国人聊爱好最常这样问,比 What's your hobby? 自然得多;回答直接说 I like + 动词-ing。" },
+    { "id": "en.fun", "kind": "word", "pos": "adj", "text": "fun", "zh": "好玩的;有意思的", "features": { "ipa": "fʌn" }, "noteZh": "fun 说活动好玩:Running is fun.;funny 是\"好笑的、爱逗人笑的\",别混。" },
+    { "id": "en.music", "kind": "word", "pos": "noun", "text": "music", "zh": "音乐", "features": { "ipa": "ˈmjuːzɪk" }, "noteZh": "重音在前 MU-sic,s 读 /z/;听音乐 listen to music(不说 listen music)。" },
+    { "id": "en.listen_to", "kind": "phrase", "pos": "verb", "text": "listen to", "zh": "听", "features": { "ipa": "ˈlɪsən tə" }, "noteZh": "t 不发音;后面接东西一定加 to:listen to music。" },
+    { "id": "en.guitar", "kind": "word", "pos": "noun", "text": "guitar", "zh": "吉他", "features": { "ipa": "ɡɪˈtɑːr" }, "noteZh": "重音在后 gui-TAR;弹吉他 play the guitar,乐器前加 the。" },
+    { "id": "en.take_pictures", "kind": "phrase", "pos": "verb", "text": "take pictures", "zh": "拍照", "alt": ["take photos"], "features": { "ipa": "ˌteɪk ˈpɪktʃɚz" }, "noteZh": "拍照用 take,不用 make;I like taking pictures.(take 去 e 加 -ing)。" },
+    { "id": "en.movie", "kind": "word", "pos": "noun", "text": "movie", "zh": "电影", "features": { "ipa": "ˈmuːvi" }, "noteZh": "重音在前 MO-vie;美式说 movie,英式 film;看电影 watch a movie / go to the movies。" },
+    { "id": "en.run", "kind": "word", "pos": "verb", "text": "run", "zh": "跑;跑步", "features": { "ipa": "rʌn" }, "noteZh": "加 -ing 要双写 n:running;去跑步 go running;r 开头嘴唇先收圆。" },
+    { "id": "en.hate", "kind": "word", "pos": "verb", "text": "hate", "zh": "讨厌;很不喜欢", "features": { "ipa": "heɪt" }, "noteZh": "口语里 hate 没有中文\"恨\"那么重:I hate running. 我很讨厌跑步。" }
+  ],
+  "reviewItems": ["en.like", "en.love", "en.play", "en.watch"],
+  "lines": [
+    { "speaker": "marcus", "text": "It's quiet today. So, Lei, what do you do for fun?", "zh": "今天店里挺清闲的。对了,磊,你平时喜欢做什么?", "items": ["en.quiet", "en.today", "en.what_do_you_do_for_fun"] },
+    { "speaker": "lei", "text": "I like taking pictures. And I love listening to music.", "zh": "我喜欢拍照,还特别爱听音乐。", "items": ["en.like", "en.take_pictures", "en.love", "en.listen_to", "en.music"] },
+    { "speaker": "marcus", "text": "Me too! I play the guitar every night.", "zh": "我也是!我每天晚上都弹吉他。", "items": ["en.me_too", "en.play", "en.guitar", "en.night"] },
+    { "speaker": "lei", "text": "Really? I love guitar music!", "zh": "真的吗?我超爱吉他音乐!", "items": ["en.really", "en.love", "en.guitar", "en.music"] },
+    { "speaker": "marcus", "text": "Come and watch me play on Friday!", "zh": "周五来看我弹吧!", "items": ["en.come", "en.watch", "en.play", "en.friday"] },
+    { "speaker": "lei", "text": "Cool, thanks! Do you like movies?", "zh": "好啊,谢谢!你喜欢看电影吗?", "items": ["en.cool", "en.thank_you", "en.like", "en.movie"] },
+    { "speaker": "marcus", "text": "Yes, I love watching movies. But I hate running.", "zh": "喜欢,我很爱看电影。不过我讨厌跑步。", "items": ["en.love", "en.watch", "en.movie", "en.hate", "en.run"] },
+    { "speaker": "lei", "text": "Really? Running is fun!", "zh": "真的吗?跑步很好玩啊!", "items": ["en.really", "en.run", "en.fun"] },
+    { "speaker": "marcus", "text": "Not for me! I run when I'm late for work. That's it!", "zh": "对我可不是!我只在上班快迟到的时候才跑,仅此而已!", "items": ["en.run", "en.late", "en.work", "en.thats_it"] }
+  ],
+  "questions": [
+    { "prompt": "磊平时喜欢做什么?", "options": ["打游戏和看电影", "拍照和听音乐", "弹吉他和跑步"], "answer": 1, "explainZh": "磊说:I like taking pictures. And I love listening to music.(喜欢拍照,爱听音乐)" },
+    { "prompt": "马库斯讨厌跑步。他什么时候才跑?", "options": ["每天早上", "周五晚上", "上班快迟到的时候"], "answer": 2, "explainZh": "马库斯说:I run when I'm late for work. That's it!(只有上班快迟到时才跑)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.like_doing",
+      "titleZh": "like / love / hate + 动词-ing;play 后面加不加 the",
+      "bodyZh": "说喜欢、很爱、讨厌做某件事,在 like / love / hate 后面接\"动词-ing\":I like taking pictures. / I love listening to music. / I hate running.。中文说\"我喜欢拍照\",两个动词直接连在一起;英语不能说 I like take pictures,第二个动词要变成 -ing(也可以说 like to + 动词原形,意思差不多,但不能两个原形直接连)。加 -ing 的规则:一般直接加(play → playing);不发音的 e 去掉再加(take → taking);run 这种短元音 + 一个辅音结尾的,双写最后的字母(running)。另外,play 后面接游戏、球类不加 the(play video games;下一课学的篮球、足球也一样),接乐器要加 the(play the guitar)。发音:gui-TAR 重音在后,MU-sic、MO-vie 重音在前。",
+      "examples": [
+        { "text": "I like taking pictures.", "zh": "我喜欢拍照。" },
+        { "text": "Marcus hates running.", "zh": "马库斯讨厌跑步。" },
+        { "text": "I love playing the guitar.", "zh": "我超爱弹吉他。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

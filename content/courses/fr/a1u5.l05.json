@@ -1,0 +1,47 @@
+{
+  "id": "fr.a1u5.l05", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105050,
+  "titleZh": "你的生日是哪天?——日期和月份", "goalZh": "会说九月到二月这几个月份和日期,问生日", "canDoZh": "能说出自己的生日,问和回答“今天几号?”",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.septembre", "kind": "word", "pos": "propn", "text": "septembre", "zh": "九月", "features": { "ipa": "sɛp.tɑ̃bʁ" }, "noteZh": "p 要读出来;月份是阳性、小写,前面不加冠词:le premier septembre(9 月 1 日)。" },
+    { "id": "fr.octobre", "kind": "word", "pos": "propn", "text": "octobre", "zh": "十月", "features": { "ipa": "ɔk.tɔbʁ" }, "noteZh": "c 读 [k];月份是阳性、小写:le 23 octobre(10 月 23 日)。" },
+    { "id": "fr.novembre", "kind": "word", "pos": "propn", "text": "novembre", "zh": "十一月", "features": { "ipa": "nɔ.vɑ̃bʁ" }, "noteZh": "em 读鼻化元音 [ɑ̃];月份是阳性、小写:le 7 novembre。" },
+    { "id": "fr.decembre", "kind": "word", "pos": "propn", "text": "décembre", "zh": "十二月", "features": { "ipa": "de.sɑ̃bʁ" }, "noteZh": "é 不能漏;c 在 e 前读 [s];月份是阳性、小写:le 3 décembre。" },
+    { "id": "fr.janvier", "kind": "word", "pos": "propn", "text": "janvier", "zh": "一月", "features": { "ipa": "ʒɑ̃.vje" }, "noteZh": "r 不发音;月份是阳性、小写:le 20 janvier,le premier janvier(元旦)。" },
+    { "id": "fr.fevrier", "kind": "word", "pos": "propn", "text": "février", "zh": "二月", "features": { "ipa": "fe.vʁi.je" }, "noteZh": "两个 é;词尾 r 不发音;月份是阳性、小写:le 14 février。" },
+    { "id": "fr.anniversaire", "kind": "word", "pos": "noun", "text": "l'anniversaire", "zh": "生日", "features": { "gender": "m", "ipa": "la.ni.vɛʁ.sɛʁ" }, "noteZh": "元音开头,要记住是阳性:mon anniversaire;生日快乐说 Bon anniversaire !(也说 Joyeux anniversaire !)" },
+    { "id": "fr.aujourd_hui", "kind": "word", "pos": "adv", "text": "aujourd'hui", "zh": "今天", "features": { "ipa": "o.ʒuʁ.dɥi" }, "noteZh": "中间有省音符号,是一个词,要整体记;放在句首或句尾都行。" },
+    { "id": "fr.quand", "kind": "word", "pos": "adv", "text": "quand", "zh": "什么时候", "features": { "ipa": "kɑ̃" }, "noteZh": "d 不发音;口语常放在句中:C'est quand, ton anniversaire ?;元音前联诵读 [t]:Quand est-ce que… [kɑ̃.tɛs.kə]。" },
+    { "id": "fr.date", "kind": "word", "pos": "noun", "text": "la date", "zh": "日期", "features": { "gender": "f", "ipa": "la dat" }, "noteZh": "Quelle est la date aujourd'hui ?(今天几号?)词尾 e 不发音,t 要读出来。" }
+  ],
+  "reviewItems": ["fr.premier", "fr.quel", "fr.vingt", "fr.mois"],
+  "lines": [
+    { "speaker": "chloe", "text": "Hao, c'est quand, ton anniversaire ?", "zh": "浩,你的生日是哪天?", "items": ["fr.cest", "fr.quand", "fr.ton", "fr.anniversaire"] },
+    { "speaker": "hao", "text": "C'est le 20 janvier. Et toi ?", "zh": "1 月 20 日。你呢?", "items": ["fr.cest", "fr.vingt", "fr.janvier", "fr.et_toi"] },
+    { "speaker": "chloe", "text": "Moi, c'est le 7 novembre !", "zh": "我的是 11 月 7 日!", "items": ["fr.moi", "fr.cest", "fr.sept", "fr.novembre"] },
+    { "speaker": "hao", "text": "Le 7 novembre ? Quelle est la date aujourd'hui ?", "zh": "11 月 7 日?今天几号?", "items": ["fr.sept", "fr.novembre", "fr.quel", "fr.etre", "fr.date", "fr.aujourd_hui"] },
+    { "speaker": "chloe", "text": "Aujourd'hui, c'est le 23 octobre.", "zh": "今天是 10 月 23 日。", "items": ["fr.aujourd_hui", "fr.cest", "fr.vingt", "fr.trois", "fr.octobre"] },
+    { "speaker": "chloe", "text": "Et le 7 novembre, c'est un samedi !", "zh": "而且 11 月 7 日是星期六!", "items": ["fr.et", "fr.sept", "fr.novembre", "fr.cest", "fr.un", "fr.samedi"] },
+    { "speaker": "hao", "text": "Octobre, novembre, décembre, janvier… Mon anniversaire, c'est dans trois mois.", "zh": "十月、十一月、十二月、一月……我的生日还有三个月。", "items": ["fr.octobre", "fr.novembre", "fr.decembre", "fr.janvier", "fr.mon", "fr.anniversaire", "fr.cest", "fr.dans", "fr.trois", "fr.mois"] },
+    { "speaker": "chloe", "text": "Le Nouvel An, c'est le premier janvier. Et le Nouvel An chinois ?", "zh": "新年是 1 月 1 日。那中国新年呢?", "items": ["fr.nouveau", "fr.an", "fr.cest", "fr.premier", "fr.janvier", "fr.et", "fr.chinois"] },
+    { "speaker": "hao", "text": "Janvier ou février !", "zh": "一月或者二月!", "items": ["fr.janvier", "fr.ou", "fr.fevrier"] }
+  ],
+  "questions": [
+    { "prompt": "浩的生日是哪天?", "options": ["1 月 20 日", "11 月 7 日", "10 月 23 日", "1 月 1 日"], "answer": 0, "explainZh": "浩说:C'est le 20 janvier.(11 月 7 日是克洛艾的生日)" },
+    { "prompt": "对话这天是几月几号?", "options": ["le 23 septembre", "le 23 octobre", "le 7 novembre"], "answer": 1, "explainZh": "克洛艾说:Aujourd'hui, c'est le 23 octobre.(septembre 是九月,le 7 novembre 是克洛艾的生日)" },
+    { "prompt": "克洛艾的生日是星期几?", "options": ["星期日", "星期五", "星期六"], "answer": 2, "explainZh": "克洛艾说:Et le 7 novembre, c'est un samedi !" },
+    { "prompt": "中国新年(春节)在什么时候?", "options": ["1 月 1 日", "一月或者二月", "十二月"], "answer": 1, "explainZh": "浩说:Janvier ou février !春节按农历算,每年公历的日期都不一样;le Nouvel An(1 月 1 日)是公历新年。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.dates", "titleZh": "日期的说法:le + 数字 + 月份",
+      "bodyZh": "法语说日期,顺序和中文相反:先说日、后说月。中文“1 月 20 日”,法语是 le 20 janvier。前面要加 le,日子用普通的数字(le 2、le 3…le 20),只有每月 1 号用 premier:le premier janvier。常见错误:✗ le 20 de janvier、✗ le un janvier。\n月份是阳性,一律小写,前面不加冠词:janvier、février、septembre、octobre、novembre、décembre(另外六个月份第 6 单元学)。带上星期一起说:le samedi 7 novembre(11 月 7 日星期六),星期放在数字前面。\n问日期:Quelle est la date aujourd'hui ?(今天几号?)回答:C'est le 23 octobre. 口语里也常说 On est le 23 octobre.\n问“什么时候”用 quand,口语里常放在句中:C'est quand, ton anniversaire ?\n“还有多久”用 dans + 时间:dans trois mois(三个月以后)。“在几月”要说 en octobre,en 第 6 单元学。",
+      "examples": [
+        { "text": "Mon anniversaire, c'est le 20 janvier.", "zh": "我的生日是 1 月 20 日。" },
+        { "text": "Aujourd'hui, c'est le premier septembre.", "zh": "今天是 9 月 1 日。" },
+        { "text": "C'est le samedi 7 novembre.", "zh": "那天是 11 月 7 日,星期六。" },
+        { "text": "C'est quand, l'anniversaire de ta mère ?", "zh": "你妈妈的生日是哪天?" }
+      ] }
+  ],
+  "review": "draft"
+}

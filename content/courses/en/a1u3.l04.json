@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u3.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 Daily life", "order": 103040,
+  "titleZh": "你周末一般做什么?", "goalZh": "会用频率副词说自己多久做一次某事", "canDoZh": "能说说自己周末一般做什么、多久给家里打一次电话",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.how_often", "kind": "phrase", "pos": "phrase", "text": "How often", "zh": "多久一次", "features": { "ipa": "ˌhaʊ ˈɑːfən" }, "noteZh": "How often do you call your parents? 回答可以用 every day / twice a week / sometimes。" },
+    { "id": "en.always", "kind": "word", "pos": "adv", "text": "always", "zh": "总是", "features": { "ipa": "ˈɑːlweɪz" }, "noteZh": "重音在前 AL-ways。" },
+    { "id": "en.usually", "kind": "word", "pos": "adv", "text": "usually", "zh": "通常", "features": { "ipa": "ˈjuːʒuəli" }, "noteZh": "s 读 /ʒ/;口语里常读得很快,像 \"yoo-zhuh-lee\",甚至只有两个音节 \"yoozh-lee\"。" },
+    { "id": "en.often", "kind": "word", "pos": "adv", "text": "often", "zh": "经常", "features": { "ipa": "ˈɑːfən" }, "noteZh": "t 通常不发音,读 /ˈɑːfən/;也有人把 t 读出来,两种都对。" },
+    { "id": "en.sometimes", "kind": "word", "pos": "adv", "text": "sometimes", "zh": "有时候", "features": { "ipa": "ˈsʌmtaɪmz" }, "noteZh": "可以放句首:Sometimes I cook.;别和 some time(一段时间)混。" },
+    { "id": "en.never", "kind": "word", "pos": "adv", "text": "never", "zh": "从不", "features": { "ipa": "ˈnevɚ" }, "noteZh": "never 本身就是否定,不再加 don't:I never eat breakfast.(不说 I don't never…)。" },
+    { "id": "en.weekend", "kind": "word", "pos": "noun", "text": "weekend", "zh": "周末", "features": { "ipa": "ˈwiːkend" }, "noteZh": "美式说 on the weekend / on weekends(英式用 at)。" },
+    { "id": "en.saturday", "kind": "word", "pos": "propn", "text": "Saturday", "zh": "星期六", "features": { "ipa": "ˈsæt̬ɚdeɪ" }, "noteZh": "星期首字母大写;on Saturday 这周六,on Saturdays 每周六。" },
+    { "id": "en.sunday", "kind": "word", "pos": "propn", "text": "Sunday", "zh": "星期日", "features": { "ipa": "ˈsʌndeɪ" }, "noteZh": "美国的日历一般从周日开始排。" },
+    { "id": "en.do_laundry", "kind": "phrase", "pos": "verb", "text": "do laundry", "zh": "洗衣服", "alt": ["do the laundry", "do my laundry"], "features": { "ipa": "ˌduː ˈlɑːndri" }, "noteZh": "美国宿舍楼里一般有公用洗衣房,刷卡或投币使用。" }
+  ],
+  "reviewItems": ["en.call", "en.parents", "en.sleep", "en.gym"],
+  "lines": [
+    { "speaker": "sofia", "text": "Lei, what do you usually do on the weekend?", "zh": "磊,你周末一般做什么?", "items": ["en.usually", "en.weekend"] },
+    { "speaker": "lei", "text": "On Saturdays, I often sleep late. And I do laundry.", "zh": "周六我常常睡懒觉,还要洗衣服。", "items": ["en.saturday", "en.often", "en.sleep", "en.late", "en.do_laundry"] },
+    { "speaker": "sofia", "text": "And on Sundays?", "zh": "那周日呢?", "items": ["en.sunday"] },
+    { "speaker": "lei", "text": "I always call my parents at night. It's morning in China!", "zh": "晚上我总是给爸妈打电话。那时候中国是早上!", "items": ["en.always", "en.call", "en.parents", "en.night", "en.morning"] },
+    { "speaker": "sofia", "text": "Cool! How often do you work out?", "zh": "真好!你多久锻炼一次?", "items": ["en.cool", "en.how_often", "en.work_out"] },
+    { "speaker": "lei", "text": "Sometimes. I go to the gym with Ethan.", "zh": "有时候吧。我跟伊森一起去健身房。", "items": ["en.sometimes", "en.go", "en.gym"] },
+    { "speaker": "sofia", "text": "I never go to the gym. But I work out at home every day!", "zh": "我从来不去健身房。不过我每天都在家锻炼!", "items": ["en.never", "en.go", "en.gym", "en.work_out", "en.home", "en.every_day"] },
+    { "speaker": "lei", "text": "Every day? Wow, that's great!", "zh": "每天?哇,真厉害!", "items": ["en.every_day", "en.great"] }
+  ],
+  "questions": [
+    { "prompt": "磊周日晚上总是做什么?", "options": ["洗衣服", "去健身房", "睡懒觉", "给爸妈打电话"], "answer": 3, "explainZh": "I always call my parents at night. It's morning in China!——周日晚上给爸妈打电话,那时中国正是早上。" },
+    { "prompt": "索菲亚多久去一次健身房?", "options": ["每天都去", "从来不去", "有时候去"], "answer": 1, "explainZh": "I never go to the gym. But I work out at home every day!——她从不去健身房,但每天在家锻炼。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u3_frequency_adverbs", "titleZh": "多久做一次:always、usually、often、sometimes、never",
+      "bodyZh": "频率从高到低:always(总是)> usually(通常)> often(经常)> sometimes(有时)> never(从不)。\n位置:放在行为动词前面——I usually sleep late. / I always call my parents.;放在 be 动词后面——Sofia is never late.(不说 Sofia never is late)。sometimes 还可以放在句首:Sometimes I go to the gym.。\nnever 本身就是否定,不要再加 don't:I never go to the gym.(不说 I don't never…)。\n问频率用 How often do you…?,回答可以很短:Sometimes. / Every day. / Five times a week.。\n\"每个周六\"\"每个周末\"用复数:on Saturdays、on weekends;美式也常说 on the weekend。\n发音:often 的 t 一般不发音 /ˈɑːfən/;usually 的 s 读 /ʒ/。",
+      "examples": [
+        { "text": "I usually sleep late on Saturdays.", "zh": "我周六通常睡懒觉。" },
+        { "text": "Sofia is never late.", "zh": "索菲亚从不迟到。" }
+      ] }
+  ],
+  "review": "draft"
+}

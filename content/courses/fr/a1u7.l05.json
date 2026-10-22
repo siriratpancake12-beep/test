@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u7.l05", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107050,
+  "titleZh": "打电话预约理发——devoir 和 il faut", "goalZh": "会打电话预约,说出想要的日期和时间,用 devoir / il faut 说必须做的事", "canDoZh": "能打电话预约(理发、看医生等),说出想约的日子和时间,并确认",
+  "skills": ["listen", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.allo", "kind": "word", "pos": "interj", "text": "Allô ?", "zh": "喂?(打电话)", "features": { "ipa": "a.lo" }, "noteZh": "只在电话里用;ô 上有长音符。" },
+    { "id": "fr.rendez_vous", "kind": "word", "pos": "noun", "text": "le rendez-vous", "zh": "预约;约会", "features": { "gender": "m", "ipa": "lə ʁɑ̃.de.vu" }, "noteZh": "z 不发音;prendre rendez-vous = 预约;单复数同形。" },
+    { "id": "fr.coiffeur", "kind": "word", "pos": "noun", "text": "le coiffeur", "zh": "理发师(男)", "features": { "gender": "m", "ipa": "lə kwa.fœʁ" }, "noteZh": "女理发师是 la coiffeuse;去理发店说 aller chez le coiffeur。" },
+    { "id": "fr.chez", "kind": "word", "pos": "prep", "text": "chez", "zh": "在……家;在……店里", "features": { "ipa": "ʃe" }, "noteZh": "后面接人,不接地方:chez moi(在我家),chez le médecin(在医生那儿);z 不发音。" },
+    { "id": "fr.devoir", "kind": "word", "pos": "verb", "text": "devoir", "zh": "必须;应该", "features": { "ipa": "də.vwaʁ" }, "noteZh": "je dois, tu dois, il doit, nous devons, vous devez, ils doivent;后面接动词原形。" },
+    { "id": "fr.il_faut", "kind": "phrase", "pos": "phrase", "text": "il faut", "zh": "必须;需要", "features": { "ipa": "il fo" }, "noteZh": "后面接动词原形,不分人称:Il faut prendre rendez-vous.;t 不发音。" },
+    { "id": "fr.possible", "kind": "word", "pos": "adj", "text": "possible", "zh": "可能的;可以的", "features": { "ipa": "pɔ.sibl" }, "noteZh": "阴阳性同形;C'est possible ?(可以吗?)" },
+    { "id": "fr.demain", "kind": "word", "pos": "adv", "text": "demain", "zh": "明天", "features": { "ipa": "də.mɛ̃" }, "noteZh": "ain 读鼻化元音 [ɛ̃];demain matin = 明天早上。" },
+    { "id": "fr.semaine", "kind": "word", "pos": "noun", "text": "la semaine", "zh": "星期;周", "features": { "gender": "f", "ipa": "la sə.mɛn" }, "noteZh": "la semaine prochaine = 下周;cette semaine = 这周。" },
+    { "id": "fr.prochain", "kind": "word", "pos": "adj", "text": "prochain", "zh": "下一个的(阳性)", "features": { "ipa": "pʁɔ.ʃɛ̃" }, "noteZh": "阴性 prochaine [pʁɔ.ʃɛn];放在名词后:la semaine prochaine, mardi prochain。" }
+  ],
+  "reviewItems": ["fr.libre", "fr.d_accord", "fr.heure", "fr.mardi"],
+  "lines": [
+    { "speaker": "lucas", "text": "Hao, tes cheveux ! Il faut aller chez le coiffeur !", "zh": "浩,瞧你的头发!得去理发了!", "items": ["fr.tes", "fr.cheveux", "fr.il_faut", "fr.aller", "fr.chez", "fr.coiffeur"] },
+    { "speaker": "hao", "text": "Allô, bonjour ! Je voudrais prendre rendez-vous, s'il vous plaît.", "zh": "(打电话)喂,您好!我想预约一下。", "items": ["fr.allo", "fr.bonjour", "fr.je_voudrais", "fr.prendre", "fr.rendez_vous", "fr.sil_vous_plait"] },
+    { "speaker": "coiffeuse", "text": "Bonjour, monsieur. Demain, c'est possible ?", "zh": "您好,先生。明天可以吗?", "items": ["fr.bonjour", "fr.monsieur", "fr.demain", "fr.cest", "fr.possible"] },
+    { "speaker": "hao", "text": "Désolé, demain après-midi, je dois aller en cours.", "zh": "不好意思,明天下午我得去上课。", "items": ["fr.desole", "fr.demain", "fr.apres_midi", "fr.je", "fr.devoir", "fr.aller", "fr.en", "fr.cours"] },
+    { "speaker": "coiffeuse", "text": "Et la semaine prochaine ? Mardi, vous êtes libre ?", "zh": "那下周呢?周二您有空吗?", "items": ["fr.et", "fr.semaine", "fr.prochain", "fr.mardi", "fr.vous", "fr.etre", "fr.libre"] },
+    { "speaker": "hao", "text": "Oui, mardi, c'est possible. À quelle heure ?", "zh": "有空,周二可以。几点?", "items": ["fr.oui", "fr.mardi", "fr.cest", "fr.possible", "fr.a", "fr.quel", "fr.heure"] },
+    { "speaker": "coiffeuse", "text": "Mardi prochain, à dix-sept heures trente. D'accord ?", "zh": "下周二,17 点 30 分。可以吗?", "items": ["fr.mardi", "fr.prochain", "fr.a", "fr.dix_sept", "fr.heure", "fr.trente", "fr.d_accord"] },
+    { "speaker": "hao", "text": "D'accord, cinq heures et demie. Merci, au revoir !", "zh": "好的,五点半。谢谢,再见!", "items": ["fr.d_accord", "fr.cinq", "fr.heure", "fr.et_demie", "fr.merci", "fr.au_revoir"] }
+  ],
+  "questions": [
+    { "prompt": "浩为什么明天不能去理发?", "options": ["理发店明天不开门", "他明天下午要上课", "他明天要去银行"], "answer": 1, "explainZh": "浩说:Désolé, demain après-midi, je dois aller en cours.——je dois = 我必须。" },
+    { "prompt": "浩约的是什么时候?", "options": ["明天下午五点半", "下周二下午三点半", "下周二上午七点半", "下周二下午五点半"], "answer": 3, "explainZh": "理发师说 Mardi prochain, à dix-sept heures trente(下周二 17:30),浩确认 cinq heures et demie(五点半)。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.devoir_il_faut", "titleZh": "devoir / il faut + 动词原形:必须、得",
+      "bodyZh": "说“必须、得”有两种说法。devoir 要跟主语变位:je dois, tu dois, il/elle doit, nous devons, vous devez, ils/elles doivent(单数三个形式读音一样 [dwa]),后面接动词原形:Je dois aller en cours.(我得去上课。)il faut 不分人称,永远是 il faut + 动词原形,这里的 il 不指人,意思是“得、需要”:Il faut prendre rendez-vous.(得先预约。)不要说成 Je faut。打电话预约的几句:接通先说 Allô ?;Je voudrais prendre rendez-vous.(我想预约);C'est possible ?(可以吗?);À quelle heure ?(几点?)。prochain 放在名词后面:la semaine prochaine(下周)、mardi prochain(下周二)。chez + 人 = 在某人那儿:chez le coiffeur(在理发店)、chez moi(在我家)。",
+      "examples": [
+        { "text": "Demain, je dois aller en cours.", "zh": "明天我得去上课。" },
+        { "text": "Il faut prendre rendez-vous.", "zh": "得先预约。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "de.a1u5.l08", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105080,
+  "titleZh": "单元复习:约纳斯的生日聚会", "goalZh": "读懂一封聚会邀请和几条回复,会写简单的邀请、答应和拒绝", "canDoZh": "能读懂聚会邀请里的时间和地点,能写短消息答应或拒绝邀请并说明理由",
+  "skills": ["read", "write"], "estimatedMinutes": 23,
+  "newItems": [
+    { "id": "de.party", "kind": "word", "pos": "noun", "text": "die Party", "zh": "派对;聚会", "features": { "gender": "f", "plural": "die Partys", "ipa": "ˈpaːɐ̯ti" }, "noteZh": "复数是 Partys(不是 Parties);开派对:eine Party machen。" },
+    { "id": "de.herzlichen_glueckwunsch", "kind": "phrase", "pos": "phrase", "text": "Herzlichen Glückwunsch!", "zh": "祝贺你!/生日快乐!", "alt": ["Herzlichen Glückwunsch zum Geburtstag!", "Alles Gute zum Geburtstag!"], "features": { "ipa": "ˈhɛʁtslɪçn̩ ˈɡlʏkˌvʊnʃ" }, "noteZh": "过生日、考试通过都能说;德国人认为提前祝生日不吉利,一定要等到当天或之后再说。" },
+    { "id": "de.geschenk", "kind": "word", "pos": "noun", "text": "das Geschenk", "zh": "礼物", "features": { "gender": "n", "plural": "die Geschenke", "ipa": "ɡəˈʃɛŋk" }, "noteZh": "中性:das Geschenk;德国人收到礼物一般当面打开、当面道谢。" },
+    { "id": "de.einladen", "kind": "word", "pos": "verb", "text": "einladen", "zh": "邀请", "features": { "ipa": "ˈaɪ̯nˌlaːdn̩" }, "noteZh": "可分、不规则:Ich lade dich ein. / Er lädt uns ein.;Ich lade dich ein. 也常表示“我请客”。" }
+  ],
+  "reviewItems": ["de.samstag", "de.november", "de.koennen", "de.leider"],
+  "lines": [
+    { "speaker": "narrator", "text": "Jonas schreibt: Hallo zusammen! Am 15. November habe ich Geburtstag.", "zh": "约纳斯在 WG 群里写道:大家好!11 月 15 日是我的生日。", "items": ["de.schreiben", "de.hallo", "de.zusammen", "de.am", "de.fuenf", "de.zehn", "de.november", "de.haben", "de.ich", "de.geburtstag"] },
+    { "speaker": "narrator", "text": "Ich mache am Samstag eine Party in der WG.", "zh": "星期六我在 WG 开派对。", "items": ["de.ich", "de.machen", "de.am", "de.samstag", "de.ein", "de.party", "de.in", "de.wg"] },
+    { "speaker": "narrator", "text": "Die Party fängt am Abend um acht Uhr an.", "zh": "派对晚上八点开始。", "items": ["de.party", "de.anfangen", "de.am", "de.abend", "de.um", "de.acht", "de.uhr"] },
+    { "speaker": "narrator", "text": "Ich lade euch ein! Könnt ihr kommen? Viele Grüße, Jonas", "zh": "我邀请你们!你们能来吗?祝好,约纳斯", "items": ["de.ich", "de.einladen", "de.ihr", "de.koennen", "de.ich_komme_aus", "de.viele_gruesse"] },
+    { "speaker": "narrator", "text": "Lena schreibt: Lieber Jonas, danke! Ich komme gern.", "zh": "莉娜回复:亲爱的约纳斯,谢谢!我很乐意去。", "items": ["de.schreiben", "de.liebe", "de.danke", "de.ich", "de.ich_komme_aus", "de.gern"] },
+    { "speaker": "narrator", "text": "Ein Geschenk habe ich auch.", "zh": "礼物我也准备好了。", "items": ["de.ein", "de.geschenk", "de.haben", "de.ich", "de.auch"] },
+    { "speaker": "narrator", "text": "Sofia schreibt: Am Samstag muss ich leider arbeiten.", "zh": "索菲娅回复:很遗憾,星期六我得上班。", "items": ["de.schreiben", "de.am", "de.samstag", "de.muessen", "de.ich", "de.leider", "de.arbeiten"] },
+    { "speaker": "narrator", "text": "Aber um zehn Uhr kann ich kommen.", "zh": "不过十点我能到。", "items": ["de.aber", "de.um", "de.zehn", "de.uhr", "de.koennen", "de.ich", "de.ich_komme_aus"] },
+    { "speaker": "narrator", "text": "Wei schreibt: Herzlichen Glückwunsch! Kann Paul auch kommen?", "zh": "王伟回复:生日快乐!保罗也能来吗?", "items": ["de.schreiben", "de.herzlichen_glueckwunsch", "de.koennen", "de.auch", "de.ich_komme_aus"] },
+    { "speaker": "narrator", "text": "Jonas schreibt: Danke, aber nicht heute! Paul kann gern kommen.", "zh": "约纳斯回复:谢谢,不过今天先别祝!保罗当然可以来。", "items": ["de.schreiben", "de.danke", "de.aber", "de.nicht", "de.heute", "de.koennen", "de.gern", "de.ich_komme_aus"] },
+    { "speaker": "narrator", "text": "Am Samstag um acht Uhr kommen Lena und Paul.", "zh": "星期六晚上八点,莉娜和保罗来了。", "items": ["de.am", "de.samstag", "de.um", "de.acht", "de.uhr", "de.ich_komme_aus", "de.und"] },
+    { "speaker": "narrator", "text": "Jetzt hat Jonas Geburtstag: Herzlichen Glückwunsch, Jonas!", "zh": "现在才是约纳斯的生日:生日快乐,约纳斯!", "items": ["de.jetzt", "de.haben", "de.geburtstag", "de.herzlichen_glueckwunsch"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯的派对几点开始?", "options": ["晚上十点", "晚上八点", "下午四点"], "answer": 1, "explainZh": "约纳斯写:Die Party fängt am Abend um acht Uhr an." },
+    { "prompt": "索菲娅为什么晚到?", "options": ["她要学习", "她要去买礼物", "她要上班"], "answer": 2, "explainZh": "索菲娅写:Am Samstag muss ich leider arbeiten. Aber um zehn Uhr kann ich kommen." },
+    { "prompt": "王伟在回复里问了什么?", "options": ["保罗能不能也来", "派对在哪儿开", "要不要带礼物"], "answer": 0, "explainZh": "王伟写:Kann Paul auch kommen?" },
+    { "prompt": "约纳斯为什么回王伟 “nicht heute”?", "options": ["他今天要上班", "生日祝福要等到生日当天才说,不能提前", "派对改到别的日子了"], "answer": 1, "explainZh": "王伟提前写了 Herzlichen Glückwunsch!;德国人认为提前祝生日不吉利,要等到生日当天(11 月 15 日)再说。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u5_zeit_review", "titleZh": "复习:时间怎么说——um / am / im",
+      "bodyZh": "第 5 单元的时间说法,看介词就能分清:\num + 钟点:um acht Uhr、um halb neun、um Viertel nach neun\nam + 星期、日期、早晚:am Samstag、am 15. November(读作 am fünfzehnten November)、am Abend、am Wochenende\nim + 月份、季节:im November、im Winter\n不加介词:heute、morgen、morgen früh、jetzt。\n几个时间一起说时,一般从大到小:am Samstag um acht Uhr。",
+      "examples": [
+        { "text": "Die Party fängt am Abend um acht Uhr an.", "zh": "派对晚上八点开始。" },
+        { "text": "Am 15. November habe ich Geburtstag.", "zh": "11 月 15 日是我的生日。" },
+        { "text": "Lena hat im Dezember Geburtstag.", "zh": "莉娜的生日在十二月。" }
+      ] },
+    { "id": "de.g.u5_verbposition", "titleZh": "复习:动词的位置——情态动词、可分动词、时间放句首",
+      "bodyZh": "德语陈述句里,变位动词总在第二位;另一部分放到句末,像一个“框”:\n可分动词的前缀:Die Party fängt um acht Uhr an. / Ich lade euch ein.(einladen)\n情态动词后面的原形:Am Samstag muss ich leider arbeiten. / Um zehn Uhr kann ich kommen.\n时间放句首时,主语挪到动词后面:Am Samstag mache ich eine Party.(✗ Am Samstag ich mache …)\n顺便认识两个代词形式:einladen 后面跟第四格,du 变 dich,ihr 变 euch:Ich lade dich ein.(我邀请你)/ Ich lade euch ein.(我邀请你们)。",
+      "examples": [
+        { "text": "Am Samstag muss ich leider arbeiten.", "zh": "很遗憾,星期六我得上班。" },
+        { "text": "Ich lade euch ein!", "zh": "我邀请你们!" },
+        { "text": "Um zehn Uhr kann ich kommen.", "zh": "十点我能来。" }
+      ] },
+    { "id": "de.g.u5_einladung", "titleZh": "写邀请和回复(歌德 A1 写作第二部分)",
+      "bodyZh": "考试常让你写一条 30 个词左右的短信或邮件:邀请别人,或者回复邀请。按这个顺序写:\n① 称呼:Hallo Lena! / Lieber Jonas,(对男的)/ Liebe Lena,(对女的);对一群人说 Hallo zusammen!\n② 内容:什么事、哪天、几点、在哪儿:Ich mache am Samstag eine Party in der WG. Die Party fängt um acht Uhr an.\n③ 请求或问题:Könnt ihr kommen? / Kann Paul auch kommen?\n④ 结尾:Viele Grüße / Liebe Grüße + 名字。\n答应:Ich komme gern!;拒绝要说理由:Leider kann ich nicht. Ich muss arbeiten.\n文化:德国人认为提前祝生日不吉利,Herzlichen Glückwunsch! 要等到生日当天或之后再说,所以约纳斯回王伟:nicht heute!",
+      "examples": [
+        { "text": "Lieber Jonas, ich komme gern!", "zh": "亲爱的约纳斯,我很乐意去!" },
+        { "text": "Leider kann ich nicht. Ich muss arbeiten.", "zh": "很遗憾我去不了,我得上班。" },
+        { "text": "Viele Grüße, Lena", "zh": "祝好,莉娜" }
+      ] }
+  ],
+  "review": "draft"
+}

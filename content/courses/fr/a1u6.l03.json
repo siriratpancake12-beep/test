@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u6.l03", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106030,
+  "titleZh": "请问博物馆怎么走?——问路", "goalZh": "会礼貌地问路,听懂直走、左转、右转、过马路这些指路的话", "canDoZh": "能在街上向路人问路,听懂“一直走、在第一条街左转、穿过广场”这样的指路",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.excusez_moi", "kind": "phrase", "pos": "phrase", "text": "Excusez-moi.", "zh": "打扰一下;劳驾(礼貌)", "features": { "ipa": "ɛk.sky.ze.mwa" }, "noteZh": "问路、请人让路时的开头,后面加 madame / monsieur 更礼貌;熟人之间说 Excuse-moi。" },
+    { "id": "fr.pardon", "kind": "word", "pos": "interj", "text": "Pardon ?", "zh": "什么?(没听清时);不好意思", "features": { "ipa": "paʁ.dɔ̃" }, "noteZh": "没听清时升调说 Pardon ?,对方就会再说一遍;不小心碰到别人时说 Pardon !" },
+    { "id": "fr.tout_droit", "kind": "phrase", "pos": "phrase", "text": "tout droit", "zh": "一直往前", "features": { "ipa": "tu dʁwa" }, "noteZh": "两个 t 都不发音;不要和 à droite(往右)搞混。" },
+    { "id": "fr.a_gauche", "kind": "phrase", "pos": "phrase", "text": "à gauche", "zh": "往左;在左边", "features": { "ipa": "a goʃ" }, "noteZh": "au 读 [o],ch 读 [ʃ]。" },
+    { "id": "fr.a_droite", "kind": "phrase", "pos": "phrase", "text": "à droite", "zh": "往右;在右边", "features": { "ipa": "a dʁwat" }, "noteZh": "droite 的 t 要读出来;tout droit 的 t 不读。" },
+    { "id": "fr.tourner", "kind": "word", "pos": "verb", "text": "tourner", "zh": "转弯;转", "features": { "ipa": "tuʁ.ne" }, "noteZh": "-er 动词;指路用命令式:Tournez à gauche.;在某条街转:tourner dans la première rue。" },
+    { "id": "fr.continuer", "kind": "word", "pos": "verb", "text": "continuer", "zh": "继续(往前走)", "features": { "ipa": "kɔ̃.ti.nɥe" }, "noteZh": "-er 动词;Continuez tout droit.(一直往前走);ui 读 [ɥi]。" },
+    { "id": "fr.traverser", "kind": "word", "pos": "verb", "text": "traverser", "zh": "穿过;过(马路、广场)", "features": { "ipa": "tʁa.vɛʁ.se" }, "noteZh": "-er 动词,后面直接接地方,不加介词:Traversez la place.(英语 cross the square 也一样)" },
+    { "id": "fr.loin", "kind": "word", "pos": "adv", "text": "loin", "zh": "远", "features": { "ipa": "lwɛ̃" }, "noteZh": "oin 读 [wɛ̃];loin de + 地方:C'est loin de la gare ?" },
+    { "id": "fr.pres", "kind": "word", "pos": "adv", "text": "près", "zh": "近", "features": { "ipa": "pʁɛ" }, "noteZh": "s 不发音;près de + 地方:près de la gare。" }
+  ],
+  "reviewItems": ["fr.musee", "fr.place", "fr.en_face_de", "fr.premier"],
+  "lines": [
+    { "speaker": "hao", "text": "Excusez-moi, madame. Où est le musée, s'il vous plaît ?", "zh": "打扰一下,女士。请问博物馆在哪儿?", "items": ["fr.excusez_moi", "fr.madame", "fr.ou_lieu", "fr.etre", "fr.musee", "fr.sil_vous_plait"] },
+    { "speaker": "passante", "text": "Le musée ? Continuez tout droit, puis tournez à gauche.", "zh": "博物馆?一直往前走,然后左转。", "items": ["fr.musee", "fr.continuer", "fr.tout_droit", "fr.puis", "fr.tourner", "fr.a_gauche"] },
+    { "speaker": "hao", "text": "Pardon ? Je ne comprends pas.", "zh": "什么?我没听懂。", "items": ["fr.pardon", "fr.je_ne_comprends_pas"] },
+    { "speaker": "passante", "text": "Continuez tout droit. Tournez dans la première rue à gauche.", "zh": "一直往前走。在第一条街往左转。", "items": ["fr.continuer", "fr.tout_droit", "fr.tourner", "fr.dans", "fr.premier", "fr.rue", "fr.a_gauche"] },
+    { "speaker": "passante", "text": "Traversez la place. Le musée est à droite, en face de la banque.", "zh": "穿过广场。博物馆在右边,在银行对面。", "items": ["fr.traverser", "fr.place", "fr.musee", "fr.etre", "fr.a_droite", "fr.en_face_de", "fr.banque"] },
+    { "speaker": "hao", "text": "Merci ! C'est loin ?", "zh": "谢谢!远吗?", "items": ["fr.merci", "fr.cest", "fr.loin"] },
+    { "speaker": "passante", "text": "Non, c'est près. Cinq minutes à pied.", "zh": "不远,很近。走路五分钟。", "items": ["fr.non", "fr.cest", "fr.pres", "fr.cinq", "fr.minute", "fr.a_pied"] },
+    { "speaker": "hao", "text": "Merci beaucoup, madame. Bonne journée !", "zh": "非常感谢,女士。祝您今天愉快!", "items": ["fr.merci", "fr.beaucoup", "fr.madame", "fr.bonne_journee"] }
+  ],
+  "questions": [
+    { "prompt": "博物馆在哪儿?", "options": ["在银行旁边", "在广场左边", "在银行对面", "在第一条街上"], "answer": 2, "explainZh": "路人说:Le musée est à droite, en face de la banque.(en face de = 在……对面)" },
+    { "prompt": "路人是怎么指路的?", "options": ["先左转,再一直走,然后过马路", "一直走,在第一条街左转,穿过广场", "一直走,在第一条街右转,穿过广场"], "answer": 1, "explainZh": "Continuez tout droit. Tournez dans la première rue à gauche. Traversez la place.(tout droit 是一直往前,不是右转)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.imperative", "titleZh": "命令式:Tournez à gauche !",
+      "bodyZh": "指路、给建议常用命令式。vous 形式:直接用 vous 的变位,去掉 vous:vous tournez → Tournez à gauche.;vous continuez → Continuez tout droit.;vous traversez → Traversez la place.(英语 Turn left 也不说主语;中文“请往左拐”也不说“您”。)\ntu 形式(对朋友):-er 动词用 tu 的变位,去掉 tu,词尾的 s 也去掉:tu tournes → Tourne à gauche !;tu continues → Continue !\n听指路最容易混的一对:tout droit(一直往前,t 不发音)≠ à droite(往右,t 要读)。往左是 à gauche。\n远近:C'est loin ? — Non, c'est près.;后面接地方要加 de:loin de la gare、près de la place。\n问路先说 Excusez-moi, madame / monsieur…;没听清就升调说 Pardon ?",
+      "examples": [
+        { "text": "Continuez tout droit, puis tournez à droite.", "zh": "一直往前走,然后右转。" },
+        { "text": "Tourne à gauche, Lucas !", "zh": "卢卡,往左拐!" }
+      ] }
+  ],
+  "review": "draft"
+}

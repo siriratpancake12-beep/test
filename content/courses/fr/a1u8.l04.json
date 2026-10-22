@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u8.l04", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 健康、爱好与周末", "order": 108040,
+  "titleZh": "你的爱好是什么?", "goalZh": "会说自己的爱好,用 jouer à / jouer de,并简单说明原因", "canDoZh": "能说自己的爱好(运动、音乐、看书、看电影),并用 parce que 简单说为什么喜欢",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.jouer", "kind": "word", "pos": "verb", "text": "jouer", "zh": "玩;打(球);弹(乐器)", "features": { "ipa": "ʒwe" }, "noteZh": "jouer au basket(打篮球),jouer de la guitare(弹吉他);规则的 -er 动词。" },
+    { "id": "fr.foot", "kind": "word", "pos": "noun", "text": "le foot", "zh": "足球", "features": { "gender": "m", "ipa": "lə fut" }, "noteZh": "football 的口语说法;oo 读 [u],t 要读出来。" },
+    { "id": "fr.basket", "kind": "word", "pos": "noun", "text": "le basket", "zh": "篮球", "features": { "gender": "m", "ipa": "lə bas.kɛt" }, "noteZh": "t 要读出来;les baskets(复数,阴性)是运动鞋。" },
+    { "id": "fr.guitare", "kind": "word", "pos": "noun", "text": "la guitare", "zh": "吉他", "features": { "gender": "f", "ipa": "la gi.taʁ" }, "noteZh": "gu 读 [g],u 不发音。" },
+    { "id": "fr.lire", "kind": "word", "pos": "verb", "text": "lire", "zh": "读;看(书)", "features": { "ipa": "liʁ" }, "noteZh": "不规则:je lis, tu lis, il lit, nous lisons, vous lisez, ils lisent。" },
+    { "id": "fr.nager", "kind": "word", "pos": "verb", "text": "nager", "zh": "游泳", "features": { "ipa": "na.ʒe" }, "noteZh": "nous nageons(加 e,保持 g 读 [ʒ])。" },
+    { "id": "fr.cinema", "kind": "word", "pos": "noun", "text": "le cinéma", "zh": "电影院;电影(艺术)", "features": { "gender": "m", "ipa": "lə si.ne.ma" }, "noteZh": "aller au cinéma = 去看电影。" },
+    { "id": "fr.pourquoi", "kind": "word", "pos": "adv", "text": "pourquoi", "zh": "为什么", "features": { "ipa": "puʁ.kwa" }, "noteZh": "回答用 parce que…;oi 读 [wa]。" },
+    { "id": "fr.parce_que", "kind": "phrase", "pos": "phrase", "text": "parce que", "zh": "因为", "features": { "ipa": "paʁs.kə" }, "noteZh": "元音前变 parce qu':parce qu'il fait beau。" },
+    { "id": "fr.drole", "kind": "word", "pos": "adj", "text": "drôle", "zh": "有趣的;好笑的", "features": { "ipa": "dʁol" }, "noteZh": "ô 读闭口的 [o];阴阳性同形;Tu es drôle !(你真逗!)" }
+  ],
+  "reviewItems": ["fr.aimer", "fr.faire", "fr.sport", "fr.musique"],
+  "lines": [
+    { "speaker": "mme_moreau", "text": "Qu'est-ce que vous aimez faire, Hao ?", "zh": "浩,你喜欢做什么?", "items": ["fr.quest_ce_que", "fr.vous", "fr.aimer", "fr.faire"] },
+    { "speaker": "hao", "text": "J'aime jouer au basket et faire la cuisine.", "zh": "我喜欢打篮球,还喜欢做饭。", "items": ["fr.je", "fr.aimer", "fr.jouer", "fr.au", "fr.basket", "fr.et", "fr.faire", "fr.cuisine"] },
+    { "speaker": "mme_moreau", "text": "Et vous, Chloé ?", "zh": "克洛艾,你呢?", "items": ["fr.et", "fr.vous"] },
+    { "speaker": "chloe", "text": "J'adore la musique : je joue de la guitare. J'aime aussi lire.", "zh": "我特别喜欢音乐,我弹吉他。我也喜欢看书。", "items": ["fr.je", "fr.adorer", "fr.musique", "fr.jouer", "fr.de", "fr.guitare", "fr.aimer", "fr.aussi", "fr.lire"] },
+    { "speaker": "lucas", "text": "Moi, je joue au foot deux fois par semaine. J'aime aussi nager.", "zh": "我每周踢两次足球,也喜欢游泳。", "items": ["fr.moi", "fr.je", "fr.jouer", "fr.au", "fr.foot", "fr.deux", "fr.fois", "fr.par", "fr.semaine", "fr.aimer", "fr.aussi", "fr.nager"] },
+    { "speaker": "mme_moreau", "text": "Pourquoi est-ce que vous aimez le sport, Lucas ?", "zh": "卢卡,你为什么喜欢运动?", "items": ["fr.pourquoi", "fr.est_ce_que", "fr.vous", "fr.aimer", "fr.sport"] },
+    { "speaker": "lucas", "text": "Parce qu'après le sport, je mange beaucoup !", "zh": "因为运动完,我能吃好多!", "items": ["fr.parce_que", "fr.apres", "fr.sport", "fr.je", "fr.manger", "fr.beaucoup"] },
+    { "speaker": "chloe", "text": "Tu es drôle, Lucas ! On va au cinéma après le cours ?", "zh": "卢卡,你真逗!下课后我们去看电影吧?", "items": ["fr.tu", "fr.etre", "fr.drole", "fr.on", "fr.aller", "fr.au", "fr.cinema", "fr.apres", "fr.cours"] }
+  ],
+  "questions": [
+    { "prompt": "卢卡多久踢一次足球?", "options": ["每天", "一周一次", "一周两次"], "answer": 2, "explainZh": "Je joue au foot deux fois par semaine.——deux fois par semaine = 一周两次。" },
+    { "prompt": "卢卡为什么喜欢运动?", "options": ["因为他学体育", "因为运动完他能吃很多", "因为运动对身体好"], "answer": 1, "explainZh": "Parce qu'après le sport, je mange beaucoup !——大家都笑了,克洛艾说 Tu es drôle !" }
+  ],
+  "grammar": [
+    { "id": "fr.g.jouer_a_de", "titleZh": "jouer au foot / jouer de la guitare;Pourquoi ? — Parce que…",
+      "bodyZh": "jouer 后面接球类运动用 à,接乐器用 de,冠词照常缩合:jouer au foot、jouer au basket(à + le → au);jouer de la guitare(de la 不变),jouer du piano(弹钢琴,de + le → du)。中文“踢足球”“打篮球”“弹吉他”动词各不相同,法语都用 jouer,只换介词。喜欢做某事:aimer / adorer + 动词原形,第二个动词不变位:J'aime nager. J'adore lire.。问原因用 Pourquoi ?(为什么?),回答用 Parce que…(因为……),元音前变成 parce qu':Parce qu'après le sport, je mange beaucoup !",
+      "examples": [
+        { "text": "Lucas joue au foot, Chloé joue de la guitare.", "zh": "卢卡踢足球,克洛艾弹吉他。" },
+        { "text": "Pourquoi ? — Parce que j'aime le sport.", "zh": "为什么?——因为我喜欢运动。" }
+      ] }
+  ],
+  "review": "draft"
+}

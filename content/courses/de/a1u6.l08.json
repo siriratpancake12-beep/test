@@ -1,0 +1,57 @@
+{
+  "id": "de.a1u6.l08", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106080,
+  "titleZh": "单元复习:从家到机场怎么走", "goalZh": "读懂一段路线说明,会写自己从家到某地的路线", "canDoZh": "能读懂、也能写一段路线说明(坐什么车、在哪儿换乘、要多长时间)",
+  "skills": ["read", "write"], "estimatedMinutes": 23,
+  "newItems": [
+    { "id": "de.nach_hause", "kind": "phrase", "pos": "phrase", "text": "nach Hause", "zh": "回家(往家去)", "features": { "ipa": "naːx ˈhaʊ̯zə" }, "noteZh": "表示方向:Ich gehe nach Hause. / Sofia fliegt nach Hause.;“在家”用 zu Hause。" },
+    { "id": "de.zu_hause", "kind": "phrase", "pos": "phrase", "text": "zu Hause", "zh": "在家", "alt": ["zuhause"], "features": { "ipa": "tsuː ˈhaʊ̯zə" }, "noteZh": "表示位置:Ich bin zu Hause.;“回家”用 nach Hause。" },
+    { "id": "de.flughafen", "kind": "word", "pos": "noun", "text": "der Flughafen", "zh": "机场", "features": { "gender": "m", "plural": "die Flughäfen", "ipa": "ˈfluːkˌhaːfn̩" }, "noteZh": "Flug(飞行)+ Hafen(港口),跟着 Hafen 是阳性;zum Flughafen fahren;柏林的机场叫 BER。" },
+    { "id": "de.fliegen", "kind": "word", "pos": "verb", "text": "fliegen", "zh": "飞;坐飞机去", "features": { "ipa": "ˈfliːɡn̩" }, "noteZh": "Ich fliege nach China.(我坐飞机去中国。)ie 读长音;走路 gehen、坐车 fahren、坐飞机 fliegen。" }
+  ],
+  "reviewItems": ["de.umsteigen", "de.fahren", "de.mit", "de.minute"],
+  "lines": [
+    { "speaker": "narrator", "text": "Sofia fliegt am Samstag nach Hause, nach Italien.", "zh": "星期六索菲娅要坐飞机回家——回意大利。", "items": ["de.fliegen", "de.am", "de.samstag", "de.nach_hause", "de.nach", "de.italien"] },
+    { "speaker": "narrator", "text": "Wei schreibt: Um halb zehn gehst du zu Fuß zur U-Bahn.", "zh": "王伟在群里写道:九点半你走路去地铁站。", "items": ["de.schreiben", "de.um", "de.halb", "de.zehn", "de.gehen", "de.du", "de.zu_fuss", "de.zu", "de.u_bahn"] },
+    { "speaker": "narrator", "text": "Du fährst mit der U-Bahn zum Bahnhof Neukölln.", "zh": "你坐地铁到 Neukölln 站。", "items": ["de.du", "de.fahren", "de.mit", "de.u_bahn", "de.zu", "de.bahnhof"] },
+    { "speaker": "narrator", "text": "Da steigst du in die S-Bahn zum Flughafen um.", "zh": "在那儿换乘去机场的城铁。", "items": ["de.da", "de.umsteigen", "de.du", "de.in", "de.s_bahn", "de.zu", "de.flughafen"] },
+    { "speaker": "narrator", "text": "Die S-Bahn braucht dreißig Minuten. Gute Reise!", "zh": "城铁要坐三十分钟。一路顺风!", "items": ["de.s_bahn", "de.brauchen", "de.dreissig", "de.minute", "de.gut", "de.reise"] },
+    { "speaker": "narrator", "text": "Jonas schreibt: Oder ich fahre dich mit dem Auto!", "zh": "约纳斯回复:要不我开车送你!", "items": ["de.schreiben", "de.oder", "de.ich", "de.fahren", "de.du", "de.mit", "de.auto"] },
+    { "speaker": "narrator", "text": "Sofia schreibt: Danke! Ich fahre gern mit Jonas.", "zh": "索菲娅回复:谢谢!我愿意坐约纳斯的车去。", "items": ["de.schreiben", "de.danke", "de.ich", "de.fahren", "de.gern", "de.mit"] },
+    { "speaker": "narrator", "text": "Am 6. Januar fliege ich nach Berlin.", "zh": "1 月 6 日我飞回柏林。", "items": ["de.am", "de.sechs", "de.januar", "de.fliegen", "de.ich", "de.nach"] },
+    { "speaker": "narrator", "text": "Und du, Wei? Fliegst du nach China?", "zh": "你呢,伟?你回中国吗?", "items": ["de.und", "de.du", "de.fliegen", "de.nach", "de.china"] },
+    { "speaker": "narrator", "text": "Wei schreibt: Nein, ich bin zu Hause in Berlin.", "zh": "王伟回复:不回,我就在柏林的家里过。", "items": ["de.schreiben", "de.nein", "de.ich", "de.sein", "de.zu_hause", "de.in"] },
+    { "speaker": "narrator", "text": "Am 24. Dezember lade ich Herrn Hoffmann ein.", "zh": "12 月 24 日(平安夜)我请霍夫曼先生来家里。", "items": ["de.am", "de.vier", "de.und", "de.zwanzig", "de.dezember", "de.einladen", "de.ich", "de.herr"] },
+    { "speaker": "narrator", "text": "Wir kochen und essen zusammen.", "zh": "我们一起做饭、一起吃饭。", "items": ["de.wir", "de.kochen", "de.und", "de.essen", "de.zusammen"] }
+  ],
+  "questions": [
+    { "prompt": "按王伟写的路线,索菲娅在哪儿换乘城铁?", "options": ["在机场", "在 Neukölln 火车站", "在大学"], "answer": 1, "explainZh": "王伟写:Du fährst mit der U-Bahn zum Bahnhof Neukölln. Da steigst du in die S-Bahn zum Flughafen um." },
+    { "prompt": "坐城铁到机场要多长时间?", "options": ["三十分钟", "十三分钟", "一个小时"], "answer": 0, "explainZh": "Die S-Bahn braucht dreißig Minuten.(dreißig = 30,dreizehn 才是 13)" },
+    { "prompt": "最后索菲娅决定怎么去机场?", "options": ["坐地铁再换城铁", "走路去", "坐约纳斯的车"], "answer": 2, "explainZh": "约纳斯说可以开车送她(Oder ich fahre dich mit dem Auto!),索菲娅回复:Ich fahre gern mit Jonas." },
+    { "prompt": "12 月 24 日王伟做什么?", "options": ["坐飞机回中国", "请霍夫曼先生来,一起做饭、吃饭", "去意大利找索菲娅"], "answer": 1, "explainZh": "王伟写:Am 24. Dezember lade ich Herrn Hoffmann ein. Wir kochen und essen zusammen." }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_hause", "titleZh": "nach Hause 还是 zu Hause?",
+      "bodyZh": "两个都和“家”有关,一个是方向,一个是位置:\nnach Hause = 回家(往家里去),和 gehen、fahren、fliegen 这些动词连用:Sofia fliegt nach Hause. / Ich gehe nach Hause.\nzu Hause = 在家(待在家里),常和 sein 连用:Ich bin zu Hause.\n对比问句:Wohin?(去哪儿)→ nach Hause;Wo?(在哪儿)→ zu Hause。\n这里的 Hause 是 Haus 的老式第三格形式,只在这两个固定说法里出现,前面不加冠词。\n常见错误:✗ Ich gehe zu Hause.(应为 nach Hause)/ ✗ Ich bin nach Hause.(应为 zu Hause)",
+      "examples": [
+        { "text": "Sofia fliegt nach Hause.", "zh": "索菲娅坐飞机回家。" },
+        { "text": "Ich bin zu Hause in Berlin.", "zh": "我在柏林的家里。" },
+        { "text": "Ich gehe nach Hause.", "zh": "我回家。" }
+      ] },
+    { "id": "de.g.u6_wege_review", "titleZh": "复习:写路线——mit / zu / nach 和可分动词",
+      "bodyZh": "写一段路线,常用的就是这几块:\n① 坐什么车:mit dem Bus / mit dem Auto(der、das → dem)、mit der U-Bahn / mit der S-Bahn(die → der);走路:zu Fuß。\n② 去哪个地方:zum Bahnhof、zum Flughafen(阳性、中性用 zum);zur U-Bahn、zur Uni(阴性用 zur)。\n③ 去城市、国家:nach + 地名:nach Berlin、nach Italien、nach China。\n④ 在哪儿换乘:Da steigst du in die S-Bahn um.(可分动词,前缀放句末)。\n⑤ 要多长时间:Die S-Bahn braucht dreißig Minuten.(brauchen 也能表示“要花多长时间”)。\n⑥ 按顺序写:Um halb zehn … Dann … Da …;对朋友用 du 的陈述句就行:Du fährst mit der U-Bahn …",
+      "examples": [
+        { "text": "Du fährst mit der U-Bahn zum Bahnhof.", "zh": "你坐地铁到火车站。" },
+        { "text": "Da steigst du in die S-Bahn um.", "zh": "在那儿换乘城铁。" },
+        { "text": "Die S-Bahn braucht dreißig Minuten.", "zh": "城铁要三十分钟。" }
+      ] },
+    { "id": "de.g.u6_fragen_review", "titleZh": "复习:问路、Sie 的命令式和车站广播",
+      "bodyZh": "问陌生人:Entschuldigung, wie komme ich zum Flughafen / zur Post?;问附近有没有:Gibt es hier in der Nähe eine Apotheke?\n对方用 Sie 的命令式指路,动词在句首,后面紧跟 Sie:Gehen Sie geradeaus! / Nehmen Sie die S-Bahn!;关键词:geradeaus、rechts、links、an der Ampel。\n这个句型是对 Sie 说的;对朋友写路线,用 du 的陈述句就行(du 的命令式以后再学)。\n车站和车上:Nächste Haltestelle: …(下一站)/ die S-Bahn Richtung Potsdam(开往波茨坦方向)/ Der Zug hat zehn Minuten Verspätung.(晚点十分钟)/ Welches Gleis?(几号站台?)",
+      "examples": [
+        { "text": "Entschuldigung, wie komme ich zum Flughafen?", "zh": "打扰一下,去机场怎么走?" },
+        { "text": "Nehmen Sie die S-Bahn!", "zh": "您坐城铁吧!" },
+        { "text": "Gehen Sie geradeaus und dann links.", "zh": "您一直往前走,然后往左拐。" }
+      ] }
+  ],
+  "review": "draft"
+}

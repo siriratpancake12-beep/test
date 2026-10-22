@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u2.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-2 Family & friends", "order": 102020,
+  "titleZh": "我有两个哥哥", "goalZh": "会说兄弟姐妹和年龄,掌握名词复数和它的读音", "canDoZh": "能说出自己有几个兄弟姐妹、他们多大,也能问别人",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.brother", "kind": "word", "pos": "noun", "text": "brother", "zh": "兄弟(哥哥或弟弟)", "features": { "ipa": "ˈbrʌðɚ" }, "noteZh": "th 是浊音 /ð/,别读成 /z/ 或 /d/;英语不分哥哥弟弟,要说清楚用 older brother / younger brother。" },
+    { "id": "en.sister", "kind": "word", "pos": "noun", "text": "sister", "zh": "姐妹(姐姐或妹妹)", "features": { "ipa": "ˈsɪstɚ" }, "noteZh": "同样不分姐姐妹妹:older sister 姐姐,younger sister 妹妹。" },
+    { "id": "en.have", "kind": "word", "pos": "verb", "text": "have", "zh": "有", "features": { "ipa": "hæv" }, "noteZh": "I have two brothers.;第三人称用 has:She has a sister.;词尾 v 要上齿轻碰下唇,别读成“hæf”。" },
+    { "id": "en.older", "kind": "word", "pos": "adj", "text": "older", "zh": "年纪大一些的(哥哥、姐姐)", "features": { "ipa": "ˈoʊldɚ" }, "noteZh": "older brother 哥哥,older sister 姐姐;口语也说 big brother / big sister。" },
+    { "id": "en.younger", "kind": "word", "pos": "adj", "text": "younger", "zh": "年纪小一些的(弟弟、妹妹)", "features": { "ipa": "ˈjʌŋɡɚ" }, "noteZh": "younger sister 妹妹;口语也说 little sister / little brother;注意 /ŋɡ/,g 要读出来。" },
+    { "id": "en.twins", "kind": "word", "pos": "noun", "text": "twins", "zh": "双胞胎", "features": { "ipa": "twɪnz" }, "noteZh": "一对双胞胎用复数 twins;其中一个是 a twin。" },
+    { "id": "en.how_old", "kind": "phrase", "pos": "phrase", "text": "How old", "zh": "多大(年纪)", "features": { "ipa": "ˌhaʊ ˈoʊld" }, "noteZh": "How old is she? — She's 13.;对长辈、刚认识的成年人一般不问年龄。" },
+    { "id": "en.years_old", "kind": "phrase", "pos": "phrase", "text": "years old", "zh": "……岁", "features": { "ipa": "ˌjɪrz ˈoʊld" }, "noteZh": "可以省略:I'm 19. = I'm 19 years old.;但不能只说 I'm 19 years。" },
+    { "id": "en.big", "kind": "word", "pos": "adj", "text": "big", "zh": "大的(体积、规模)", "features": { "ipa": "bɪɡ" }, "noteZh": "a big family 人口多的家庭;说人 a big guy 是“块头大”,不是“年纪大”;杯型、尺码的“大”常用 large(第 4 单元)。" }
+  ],
+  "reviewItems": ["en.family", "en.photo", "en.only_child"],
+  "lines": [
+    { "speaker": "sofia", "text": "Lei, this is my family photo. These are my parents.", "zh": "磊,这是我们家的全家福。这是我爸妈。", "items": ["en.this_is", "en.family", "en.photo", "en.parents"] },
+    { "speaker": "lei", "text": "Wow, a big family! Who's that?", "zh": "哇,好大一家人!那是谁?", "items": ["en.big", "en.family", "en.whos_that"] },
+    { "speaker": "sofia", "text": "That's my older brother, Diego. He's twenty-five.", "zh": "那是我哥哥迭戈。他 25 岁。", "items": ["en.older", "en.brother"] },
+    { "speaker": "lei", "text": "And who's that? How old is he?", "zh": "那这位是谁?他多大?", "items": ["en.whos_that", "en.how_old"] },
+    { "speaker": "sofia", "text": "That's Luis. He's twenty-two. I have two older brothers.", "zh": "那是路易斯,他 22 岁。我有两个哥哥。", "items": ["en.have", "en.older", "en.brother"] },
+    { "speaker": "lei", "text": "And who's that? Your younger sisters?", "zh": "那这两个呢?是你妹妹吗?", "items": ["en.whos_that", "en.younger", "en.sister"] },
+    { "speaker": "sofia", "text": "Yes! They're twins. They're thirteen years old.", "zh": "对!她们是双胞胎,13 岁。", "items": ["en.twins", "en.years_old"] },
+    { "speaker": "lei", "text": "Two brothers and two sisters! I'm an only child.", "zh": "两个哥哥、两个妹妹!我是独生子。", "items": ["en.brother", "en.sister", "en.only_child"] },
+    { "speaker": "sofia", "text": "An only child? Wow! Your parents have one, and my parents have five!", "zh": "独生子?哇!你爸妈只有你一个,我爸妈有五个孩子!", "items": ["en.only_child", "en.parents", "en.have"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚的大哥迭戈多大?", "options": ["22 岁", "13 岁", "25 岁"], "answer": 2, "explainZh": "索菲亚说 That's my older brother, Diego. He's twenty-five.;22 岁的是二哥路易斯。" },
+    { "prompt": "索菲亚的双胞胎妹妹多大?", "options": ["13 岁", "30 岁", "3 岁"], "answer": 0, "explainZh": "They're thirteen years old.——thirteen(13)重音在后:thir-TEEN;thirty(30)重音在前:THIR-ty。" }
+  ],
+  "grammar": [
+    { "id": "en.g.plural_s_sounds", "titleZh": "名词复数:加 -s,有三种读音",
+      "bodyZh": "两个及以上要用复数,大多数名词在词尾加 -s:brother → brothers,sister → sisters。中文“两个哥哥”的“哥哥”不变,英语一定要加 -s,这是中国学生最常漏的地方。-s 有三种读音:在 p、t、k、f 这类清辅音后面读 /s/,如 parents;在元音和浊辅音后面读 /z/,如 brothers、sisters、twins;在 s、x、sh、ch 这类音后面写成 -es,读 /ɪz/,多出一个音节,如下一课的 glasses(眼镜)。",
+      "examples": [
+        { "text": "I have two older brothers.", "zh": "我有两个哥哥。" },
+        { "text": "These are my parents.", "zh": "这是我的父母。" }
+      ] },
+    { "id": "en.g.have_has_how_old", "titleZh": "have / has 表示“有”;How old…? 问年龄",
+      "bodyZh": "“有”用 have:I have two brothers.;主语是 he、she 或一个人的名字时用 has:She has two older brothers.。问“有没有”:Do you have brothers or sisters?——Yes, I do. / No, I don't.。问年龄用 How old is he?,回答 He's 25. 或 He's 25 years old.(不能只说 He's 25 years.);中文说“他 25 岁”没有“是”,英语要用 be:He's 25,不说 He 25 或 He has 25。听年龄时注意 -teen 和 -ty:thirteen(13)重音在后 thir-TEEN,thirty(30)重音在前 THIR-ty。",
+      "examples": [
+        { "text": "She has two older brothers.", "zh": "她有两个哥哥。" },
+        { "text": "How old are they? — They're thirteen years old.", "zh": "她们多大?——13 岁。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "en.a1u2.l05", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-2 Family & friends", "order": 102050,
+  "titleZh": "我家有四口人", "goalZh": "会用 There are… 说家里有几口人,用 a / an 说家人的职业", "canDoZh": "能说出家里有几口人、父母做什么工作、住在哪里",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.how_many", "kind": "phrase", "pos": "phrase", "text": "How many", "zh": "多少(个)", "features": { "ipa": "ˌhaʊ ˈmeni" }, "noteZh": "后面跟复数名词:How many people…? How many brothers…?" },
+    { "id": "en.people", "kind": "word", "pos": "noun", "text": "people", "zh": "人;人们", "features": { "ipa": "ˈpiːpəl" }, "noteZh": "people 本身就是复数,不加 s:four people。" },
+    { "id": "en.what_does_she_do", "kind": "phrase", "pos": "phrase", "text": "What does she do", "zh": "她是做什么工作的?", "alt": ["What does he do", "What do you do"], "features": { "ipa": "ˌwʌt dəz ʃi ˈduː" }, "noteZh": "问职业最常用这句,比 What's her job? 自然;问家人:What does your dad do?" },
+    { "id": "en.job", "kind": "word", "pos": "noun", "text": "job", "zh": "职业;(一份)工作", "features": { "ipa": "dʒɑːb" }, "noteZh": "美式 o 读 /ɑː/;part-time job 兼职(第 3 单元)。" },
+    { "id": "en.teacher", "kind": "word", "pos": "noun", "text": "teacher", "zh": "老师", "features": { "ipa": "ˈtiːtʃɚ" }, "noteZh": "美国大学生称呼老师一般用 Professor + 姓,不叫 Teacher。" },
+    { "id": "en.nurse", "kind": "word", "pos": "noun", "text": "nurse", "zh": "护士", "features": { "ipa": "nɝːs" }, "noteZh": "ur 读卷舌的 /ɝː/:舌尖往后卷,不碰上颚。" },
+    { "id": "en.engineer", "kind": "word", "pos": "noun", "text": "engineer", "zh": "工程师", "features": { "ipa": "ˌendʒɪˈnɪr" }, "noteZh": "重音在最后 en-gi-NEER;以元音开头,用 an:an engineer。" },
+    { "id": "en.work", "kind": "word", "pos": "verb", "text": "work", "zh": "工作;上班", "features": { "ipa": "wɝːk" }, "noteZh": "work 的 or 读 /ɝː/,别读成 walk /wɑːk/;She works at a hospital。" },
+    { "id": "en.live", "kind": "word", "pos": "verb", "text": "live", "zh": "住;生活", "features": { "ipa": "lɪv" }, "noteZh": "i 是短音 /ɪ/,词尾 v 要读出来;My parents live in Chengdu.;第三人称 lives。" },
+    { "id": "en.hospital", "kind": "word", "pos": "noun", "text": "hospital", "zh": "医院", "features": { "ipa": "ˈhɑːspɪt̬əl" }, "noteZh": "重音在第一个音节 HOS-pi-tal;在医院工作 work at a hospital。" }
+  ],
+  "reviewItems": ["en.parents", "en.brother", "en.sister", "en.have"],
+  "lines": [
+    { "speaker": "professor", "text": "OK, you guys. Please work with a friend.", "zh": "好,同学们。请找一位同学一起做。", "items": ["en.you_guys", "en.work", "en.friend"] },
+    { "speaker": "sofia", "text": "Lei, how many people are there in your family?", "zh": "磊,你家有几口人?", "items": ["en.how_many", "en.people", "en.family"] },
+    { "speaker": "lei", "text": "There are four: my dad, my mom, my grandma, and me.", "zh": "四口:我爸爸、我妈妈、我奶奶和我。", "items": ["en.dad", "en.mom", "en.grandma"] },
+    { "speaker": "sofia", "text": "What does your dad do?", "zh": "你爸爸是做什么工作的?", "items": ["en.what_does_she_do", "en.dad"] },
+    { "speaker": "lei", "text": "He's an engineer, and my mom is a teacher.", "zh": "他是工程师,我妈妈是老师。", "items": ["en.engineer", "en.mom", "en.teacher"] },
+    { "speaker": "sofia", "text": "A teacher? That's a great job! Do they live in Chengdu?", "zh": "老师?那是很好的工作!他们住在成都吗?", "items": ["en.teacher", "en.great", "en.job", "en.live"] },
+    { "speaker": "lei", "text": "Yes. My parents live in Chengdu, and my grandma lives with us.", "zh": "对。我父母住在成都,我奶奶和我们住在一起。", "items": ["en.parents", "en.live", "en.grandma"] },
+    { "speaker": "lei", "text": "What does your mom do, Sofia?", "zh": "你妈妈是做什么工作的,索菲亚?", "items": ["en.mom", "en.what_does_she_do"] },
+    { "speaker": "sofia", "text": "She's a nurse. She works at a hospital in Mexico.", "zh": "她是护士,在墨西哥的一家医院工作。", "items": ["en.nurse", "en.work", "en.hospital"] },
+    { "speaker": "lei", "text": "And you have two brothers and two sisters. That's a big family!", "zh": "你还有两个哥哥、两个妹妹。真是个大家庭!", "items": ["en.have", "en.brother", "en.sister", "en.big", "en.family"] }
+  ],
+  "questions": [
+    { "prompt": "磊家有几口人?", "options": ["三口", "四口", "五口", "七口"], "answer": 1, "explainZh": "磊说 There are four: my dad, my mom, my grandma, and me.(爸爸、妈妈、奶奶和我,四口人。)" },
+    { "prompt": "索菲亚的妈妈做什么工作?", "options": ["老师", "工程师", "护士"], "answer": 2, "explainZh": "索菲亚说 She's a nurse. She works at a hospital in Mexico.(她是护士,在墨西哥的医院工作。)" },
+    { "prompt": "下面哪一项是对的?", "options": ["磊的奶奶和他父母住在一起", "磊的妈妈是护士", "磊的爸爸在医院工作"], "answer": 0, "explainZh": "磊说 My parents live in Chengdu, and my grandma lives with us.;他妈妈是老师(teacher),爸爸是工程师(engineer)。" }
+  ],
+  "grammar": [
+    { "id": "en.g.there_are_jobs", "titleZh": "There are… 说几口人;职业前要加 a / an",
+      "bodyZh": "说“某处有……”用 There is(一个)/ There are(两个及以上):There are four people in my family.(我家有四口人。)这是最地道的说法,别照着中文说成 In my family have four people。问“有多少”用 How many + 复数名词:How many people are there in your family?。问职业最自然的说法是 What does your dad do?;回答时职业前一定要加 a / an:He's an engineer. She's a nurse.——中文说“他是工程师”没有“一个”,所以最容易漏;engineer 以元音开头,用 an。另外先认识:主语是 he、she 或一个人时,动词后面加 -s:she works、my grandma lives(第 3 单元系统学)。",
+      "examples": [
+        { "text": "How many people are there in your family?", "zh": "你家有几口人?" },
+        { "text": "There are four people in my family.", "zh": "我家有四口人。" },
+        { "text": "What does your mom do? — She's a teacher.", "zh": "你妈妈是做什么的?——她是老师。" },
+        { "text": "My dad is an engineer. He works in Chengdu.", "zh": "我爸爸是工程师,他在成都工作。" }
+      ] }
+  ],
+  "review": "draft"
+}

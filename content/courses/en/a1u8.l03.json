@@ -1,0 +1,46 @@
+{
+  "id": "en.a1u8.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 Last weekend", "order": 108030,
+  "titleZh": "我们去爬山了", "goalZh": "会用常用不规则动词的过去式讲一次出游", "canDoZh": "能讲讲一次出游:去了哪儿、怎么去的、看到了什么、吃了什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.trip", "kind": "word", "pos": "noun", "text": "trip", "zh": "旅行;出行", "features": { "ipa": "trɪp" }, "noteZh": "a weekend trip 周末出游;去旅行 take a trip;How was your trip? 玩得怎么样?" },
+    { "id": "en.car", "kind": "word", "pos": "noun", "text": "car", "zh": "汽车", "features": { "ipa": "kɑːr" }, "noteZh": "美式卷舌 /kɑːr/;坐车去 by car、in his car。" },
+    { "id": "en.drive", "kind": "word", "pos": "verb", "text": "drive", "zh": "开车", "features": { "ipa": "draɪv" }, "noteZh": "过去式 drove;美国很多地方不开车很难出门。" },
+    { "id": "en.hour", "kind": "word", "pos": "noun", "text": "hour", "zh": "小时", "features": { "ipa": "aʊr" }, "noteZh": "h 不发音,所以说 an hour(用 an);两个小时 two hours。" },
+    { "id": "en.make", "kind": "word", "pos": "verb", "text": "make", "zh": "做;制作", "features": { "ipa": "meɪk" }, "noteZh": "过去式 made;make sandwiches 做三明治;但\"做作业\"说 do homework。" },
+    { "id": "en.sandwich", "kind": "word", "pos": "noun", "text": "sandwich", "zh": "三明治", "features": { "ipa": "ˈsænwɪtʃ" }, "noteZh": "d 通常不发音:\"SAN-wich\";复数 sandwiches。" },
+    { "id": "en.view", "kind": "word", "pos": "noun", "text": "view", "zh": "景色;风景", "features": { "ipa": "vjuː" }, "noteZh": "v 开头,上齿轻咬下唇;The view was awesome! 风景太美了!" },
+    { "id": "en.come_back", "kind": "phrase", "pos": "verb", "text": "come back", "zh": "回来", "features": { "ipa": "ˌkʌm ˈbæk" }, "noteZh": "过去式 came back;We came back at nine.。" }
+  ],
+  "reviewItems": ["en.go_hiking", "en.mountain", "en.lake", "en.a_lot_of"],
+  "lines": [
+    { "speaker": "amy", "text": "Hey, Lei! How was your trip to the mountains?", "zh": "嘿,磊!去山里玩得怎么样?", "items": ["en.hey", "en.trip", "en.mountain"] },
+    { "speaker": "lei", "text": "Awesome! We got up at six, and Marcus drove.", "zh": "太棒了!我们六点就起床了,马库斯开的车。", "items": ["en.awesome", "en.get_up", "en.drive"] },
+    { "speaker": "amy", "text": "Wow! How long were you in the car?", "zh": "哇!你们在车上坐了多久?", "items": ["en.how_long", "en.car"] },
+    { "speaker": "lei", "text": "Two hours. Then we went hiking for four hours!", "zh": "两个小时。然后我们走了四个小时的山路!", "items": ["en.hour", "en.then", "en.go_hiking"] },
+    { "speaker": "amy", "text": "Did you see the lake?", "zh": "你们看到湖了吗?", "items": ["en.see", "en.lake"] },
+    { "speaker": "lei", "text": "Yes! We had lunch there. I made sandwiches.", "zh": "看到了!我们在那儿吃的午饭,三明治是我做的。", "items": ["en.have", "en.lunch", "en.make", "en.sandwich"] },
+    { "speaker": "amy", "text": "Cool! How was the view?", "zh": "酷!风景怎么样?", "items": ["en.cool", "en.view"] },
+    { "speaker": "lei", "text": "Beautiful! I took a lot of pictures. Then it rained.", "zh": "美极了!我拍了好多照片。后来下雨了。", "items": ["en.beautiful", "en.take_pictures", "en.a_lot_of", "en.then", "en.rain"] },
+    { "speaker": "amy", "text": "Oh no! When did you come back?", "zh": "哎呀!你们什么时候回来的?", "items": ["en.come_back"] },
+    { "speaker": "lei", "text": "We bought coffee and came back at nine.", "zh": "我们买了咖啡,九点才回来。", "items": ["en.buy", "en.coffee", "en.come_back"] }
+  ],
+  "questions": [
+    { "prompt": "他们怎么去的山里?路上花了多久?", "options": ["坐公交,一个小时", "马库斯开车,两个小时", "走路去的,四个小时"], "answer": 1, "explainZh": "We got up at six, and Marcus drove. —— How long were you in the car? —— Two hours.(走了四个小时的是山路)" },
+    { "prompt": "他们几点回来的?回来前做了什么?", "options": ["九点,先买了咖啡", "六点,先在湖边拍照", "九点,先吃了午饭"], "answer": 0, "explainZh": "We bought coffee and came back at nine." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.past_irregular",
+      "titleZh": "常用不规则动词的过去式",
+      "bodyZh": "很多常用动词的过去式不加 -ed,要单独记:go → went,have → had,see → saw,take → took,get → got,make → made,buy → bought,drive → drove,come → came,eat → ate。它们同样不随人称变:I went / Marcus went。问句和否定照样用 did / didn't,后面回到原形:Did you go hiking?(不说 Did you went?),We didn't see the lake.。固定说法也跟着变:get up → got up,take pictures → took pictures,come back → came back。发音:bought 的 gh 不发音,读 /bɑːt/;took 的 oo 读短音 /ʊ/。",
+      "examples": [
+        { "text": "We went hiking on Saturday.", "zh": "我们周六去徒步了。" },
+        { "text": "I made sandwiches, and we had lunch at the lake.", "zh": "我做了三明治,我们在湖边吃了午饭。" },
+        { "text": "Did you see the lake? — Yes, we did.", "zh": "你们看到湖了吗?——看到了。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

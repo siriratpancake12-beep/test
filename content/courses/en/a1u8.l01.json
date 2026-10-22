@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u8.l01", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 Last weekend", "order": 108010,
+  "titleZh": "周末过得怎么样?", "goalZh": "会用 was / were 问答过去的情况,简单评价一个周末", "canDoZh": "能回答\"你周末过得怎么样?\",说说当时在哪儿、天气和感受",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "en.how_was_your_weekend", "kind": "phrase", "pos": "phrase", "text": "How was your weekend", "zh": "你周末过得怎么样?", "features": { "ipa": "ˌhaʊ wəz jɚ ˈwiːkend" }, "noteZh": "美国人周一见面几乎必问;回答 It was great! / Pretty good. / Not bad.。" },
+    { "id": "en.last", "kind": "word", "pos": "adj", "text": "last", "zh": "上一个的;刚过去的", "features": { "ipa": "læst" }, "noteZh": "last weekend 上周末、last night 昨晚、last week 上周;前面不加 in / on。" },
+    { "id": "en.yesterday", "kind": "word", "pos": "adv", "text": "yesterday", "zh": "昨天", "features": { "ipa": "ˈjestɚdeɪ" }, "noteZh": "yesterday morning 昨天上午;但\"昨晚\"说 last night,不说 yesterday night。" },
+    { "id": "en.weather", "kind": "word", "pos": "noun", "text": "weather", "zh": "天气", "features": { "ipa": "ˈweðɚ" }, "noteZh": "th 是浊音 /ð/;How was the weather? 天气怎么样?" },
+    { "id": "en.sunny", "kind": "word", "pos": "adj", "text": "sunny", "zh": "晴朗的", "features": { "ipa": "ˈsʌni" }, "noteZh": "西雅图的秋冬很少有 sunny day,所以出太阳时大家都很开心。" },
+    { "id": "en.boring", "kind": "word", "pos": "adj", "text": "boring", "zh": "无聊的", "features": { "ipa": "ˈbɔːrɪŋ" }, "noteZh": "boring 说事情无聊,bored 说人觉得无聊:The movie was boring. I was bored.。" },
+    { "id": "en.awesome", "kind": "word", "pos": "adj", "text": "awesome", "zh": "超赞的(口语)", "features": { "ipa": "ˈɑːsəm" }, "noteZh": "美国年轻人的高频词,语气比 good、great 更强。" },
+    { "id": "en.so", "kind": "word", "pos": "adv", "text": "so", "zh": "这么;那么(加强语气)", "features": { "ipa": "soʊ" }, "noteZh": "放在形容词前加强语气:It was so fun! 太好玩了!/ I'm so tired. 累死了。连接两句时 so 是\"所以\":I was tired, so I stayed home.。" },
+    { "id": "en.all_day", "kind": "phrase", "pos": "adv", "text": "all day", "zh": "一整天", "features": { "ipa": "ˌɑːl ˈdeɪ" }, "noteZh": "I was home all day. 我一整天都在家;all weekend 整个周末。" }
+  ],
+  "reviewItems": ["en.halloween", "en.costume", "en.scary", "en.tired"],
+  "lines": [
+    { "speaker": "laura", "text": "Good morning, Lei! How was your weekend?", "zh": "早上好,磊!周末过得怎么样?", "items": ["en.morning", "en.how_was_your_weekend"] },
+    { "speaker": "lei", "text": "It was awesome! I was at a Halloween party on Saturday.", "zh": "棒极了!我周六去了一个万圣节派对。", "items": ["en.awesome", "en.halloween", "en.party", "en.saturday"] },
+    { "speaker": "laura", "text": "That's great! Were the costumes scary?", "zh": "太好了!大家的服装吓人吗?", "items": ["en.great", "en.costume", "en.scary"] },
+    { "speaker": "lei", "text": "Yes, they were so scary!", "zh": "吓人,特别吓人!", "items": ["en.so", "en.scary"] },
+    { "speaker": "laura", "text": "And what about you, Marcus? How was your weekend?", "zh": "马库斯,你呢?周末过得怎么样?", "items": ["en.and_you", "en.how_was_your_weekend"] },
+    { "speaker": "marcus", "text": "It was boring. I was home all weekend.", "zh": "挺无聊的。我整个周末都待在家里。", "items": ["en.boring", "en.home", "en.weekend"] },
+    { "speaker": "marcus", "text": "The weather was bad. It wasn't sunny at all.", "zh": "天气很糟,一点太阳都没有。", "items": ["en.weather", "en.sunny"] },
+    { "speaker": "laura", "text": "Oh no! It was really cold last weekend.", "zh": "哎呀!上周末确实很冷。", "items": ["en.really", "en.cold", "en.last", "en.weekend"] },
+    { "speaker": "laura", "text": "And yesterday, Lei?", "zh": "磊,那昨天呢?", "items": ["en.yesterday"] },
+    { "speaker": "lei", "text": "I was so tired. I was home all day.", "zh": "我太累了,在宿舍待了一整天。", "items": ["en.so", "en.tired", "en.home", "en.all_day"] }
+  ],
+  "questions": [
+    { "prompt": "磊的周末过得怎么样?", "options": ["很无聊", "很棒,周六去了万圣节派对", "生病了"], "answer": 1, "explainZh": "It was awesome! I was at a Halloween party on Saturday." },
+    { "prompt": "马库斯为什么觉得周末很无聊?", "options": ["他整个周末都在家,天气也不好", "他周末一直在上班", "派对的服装太吓人了"], "answer": 0, "explainZh": "I was home all weekend. The weather was bad. It wasn't sunny at all." },
+    { "prompt": "磊昨天(周日)做了什么?", "options": ["又去了一个派对", "去咖啡馆上班", "太累了,在宿舍待了一整天"], "answer": 2, "explainZh": "And yesterday, Lei? —— I was so tired. I was home all day." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.was_were",
+      "titleZh": "was / were:说过去的情况",
+      "bodyZh": "说过去\"是、在、怎么样\",把 be 动词换成过去式:I / he / she / it 用 was,you / we / they 用 were(am、is → was,are → were)。否定在后面加 not:wasn't / weren't;问句把 was / were 提到前面:Were the costumes scary? —— Yes, they were.。问感受用 How was…?:How was your weekend? 回答 It was awesome! / It was boring.。过去的时间词:yesterday(昨天)、last weekend(上周末)、last night(昨晚),last 前面不加 in / on,\"昨晚\"也不说 yesterday night。中国学生常错:I was go to a party(was 后面不能直接跟动词原形,做过的事下一课学)。发音:was、were 在句子里弱读成 /wəz/、/wɚ/,一带而过;听别人讲周末时,用 Really? ↗、That's great! ↘ 回应,让对方知道你在认真听。",
+      "examples": [
+        { "text": "How was your weekend? — It was awesome!", "zh": "你周末过得怎么样?——棒极了!" },
+        { "text": "The costumes were so scary.", "zh": "那些服装太吓人了。" },
+        { "text": "It wasn't sunny last weekend.", "zh": "上周末没出太阳。" },
+        { "text": "Where were you yesterday?", "zh": "你昨天在哪儿?" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

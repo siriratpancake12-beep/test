@@ -6,8 +6,10 @@ import { validateCourse } from "../src/validate";
 const content = join(import.meta.dirname, "..", "..", "..", "content");
 const raw = (p: string) => JSON.parse(readFileSync(join(content, p), "utf8"));
 const dePack = raw("languages/de.json");
-const l1 = raw("courses/de/a1u1.l01.json");
-const l2 = raw("courses/de/a1u1.l02.json");
+const data = join(import.meta.dirname, "data");
+const fixture = (p: string) => JSON.parse(readFileSync(join(data, p), "utf8"));
+const l1 = fixture("courses/de/a1u1.l01.json");
+const l2 = fixture("courses/de/a1u1.l02.json");
 
 describe("内容检查", () => {
   it("示例课程没有问题", () => {

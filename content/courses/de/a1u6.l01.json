@@ -1,0 +1,46 @@
+{
+  "id": "de.a1u6.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106010,
+  "titleZh": "城市里的地方", "goalZh": "记住城市里常见地方的名称,会问“……在哪儿?”", "canDoZh": "能说出城市里常见的地方(车站、邮局、银行、药店……),能问某个地方在哪里",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.stadt", "kind": "word", "pos": "noun", "text": "die Stadt", "zh": "城市", "features": { "gender": "f", "plural": "die Städte", "ipa": "ʃtat" }, "noteZh": "dt 读 [t];复数变音:die Städte;in der Stadt = 在城里。" },
+    { "id": "de.bahnhof", "kind": "word", "pos": "noun", "text": "der Bahnhof", "zh": "火车站", "features": { "gender": "m", "plural": "die Bahnhöfe", "ipa": "ˈbaːnˌhoːf" }, "noteZh": "火车总站:der Hauptbahnhof(Hbf);地铁站:der U-Bahnhof;复数变音:die Bahnhöfe;Bahn 里的 h 不发音,只把 a 拉长。" },
+    { "id": "de.haltestelle", "kind": "word", "pos": "noun", "text": "die Haltestelle", "zh": "(公交、电车)车站", "features": { "gender": "f", "plural": "die Haltestellen", "ipa": "ˈhaltəˌʃtɛlə" }, "noteZh": "halten(停)+ Stelle(地方):公交车、有轨电车停靠的站;火车站是 der Bahnhof。" },
+    { "id": "de.uni", "kind": "word", "pos": "noun", "text": "die Uni", "zh": "大学", "alt": ["die Universität"], "features": { "gender": "f", "plural": "die Unis", "ipa": "ˈʊni" }, "noteZh": "die Universität 的口语说法;去大学:zur Uni;在大学:an der Uni(下一课学 zu、an)。" },
+    { "id": "de.post", "kind": "word", "pos": "noun", "text": "die Post", "zh": "邮局;邮件", "features": { "gender": "f", "plural": "-", "ipa": "pɔst" }, "noteZh": "zur Post gehen = 去邮局;Post 也指收到的信件、包裹。" },
+    { "id": "de.bank_geld", "kind": "word", "pos": "noun", "text": "die Bank", "zh": "银行", "features": { "gender": "f", "plural": "die Banken", "ipa": "baŋk" }, "noteZh": "复数 die Banken;同一个词还表示“长椅”,那时复数是 die Bänke。" },
+    { "id": "de.apotheke", "kind": "word", "pos": "noun", "text": "die Apotheke", "zh": "药店", "features": { "gender": "f", "plural": "die Apotheken", "ipa": "apoˈteːkə" }, "noteZh": "th 读 [t];德国药店门口有红色的 A 字标志,很多药只能在药店买。" },
+    { "id": "de.museum", "kind": "word", "pos": "noun", "text": "das Museum", "zh": "博物馆", "features": { "gender": "n", "plural": "die Museen", "ipa": "muˈzeːʊm" }, "noteZh": "复数特殊:die Museen;eu 在这里分开读 e-u:Mu-se-um。" },
+    { "id": "de.park", "kind": "word", "pos": "noun", "text": "der Park", "zh": "公园", "features": { "gender": "m", "plural": "die Parks", "ipa": "paʁk" }, "noteZh": "阳性,复数加 -s:die Parks;r 在元音后读得很轻。" },
+    { "id": "de.bibliothek", "kind": "word", "pos": "noun", "text": "die Bibliothek", "zh": "图书馆", "features": { "gender": "f", "plural": "die Bibliotheken", "ipa": "biblioˈteːk" }, "noteZh": "重音在最后的 thek 上;th 读 [t];大学的图书馆常叫 die Unibibliothek。" }
+  ],
+  "reviewItems": ["de.wo", "de.hier", "de.es_gibt"],
+  "lines": [
+    { "speaker": "lena", "text": "Das ist dein Viertel, Wei. Hier ist die Post.", "zh": "伟,这就是你住的街区。这儿是邮局。", "items": ["de.das_ist", "de.dein", "de.viertel", "de.hier", "de.sein", "de.post"] },
+    { "speaker": "wei", "text": "Und wo ist die Apotheke?", "zh": "那药店在哪儿?", "items": ["de.und", "de.wo", "de.sein", "de.apotheke"] },
+    { "speaker": "lena", "text": "Hier, und das ist die Bank.", "zh": "就在这儿。这是银行。", "items": ["de.hier", "de.und", "de.das_ist", "de.bank_geld"] },
+    { "speaker": "wei", "text": "Gibt es hier auch eine Haltestelle?", "zh": "这儿也有公交车站吗?", "items": ["de.es_gibt", "de.hier", "de.auch", "de.ein", "de.haltestelle"] },
+    { "speaker": "lena", "text": "Ja, und es gibt auch einen Bahnhof und einen Park.", "zh": "有,还有一个火车站和一个公园。", "items": ["de.ja", "de.und", "de.es_gibt", "de.auch", "de.ein", "de.bahnhof", "de.park"] },
+    { "speaker": "wei", "text": "Berlin ist eine große Stadt!", "zh": "柏林真是个大城市!", "items": ["de.sein", "de.ein", "de.gross", "de.stadt"] },
+    { "speaker": "lena", "text": "Ja, und es gibt hier sehr schöne Museen.", "zh": "是啊,这里还有很漂亮的博物馆。", "items": ["de.ja", "de.und", "de.es_gibt", "de.hier", "de.sehr", "de.schoen", "de.museum"] },
+    { "speaker": "wei", "text": "Und wo ist die Bibliothek?", "zh": "那图书馆在哪儿?", "items": ["de.und", "de.wo", "de.sein", "de.bibliothek"] },
+    { "speaker": "lena", "text": "Die Uni hat eine Bibliothek. Sie ist sehr groß.", "zh": "大学里有图书馆,很大。", "items": ["de.uni", "de.haben", "de.ein", "de.bibliothek", "de.sie_sg", "de.sein", "de.sehr", "de.gross"] },
+    { "speaker": "wei", "text": "Danke, Lena! Ich schreibe alles in mein Handy.", "zh": "谢谢你,莉娜!我把这些都记在手机里。", "items": ["de.danke", "de.ich", "de.schreiben", "de.alles", "de.in", "de.mein", "de.handy"] }
+  ],
+  "questions": [
+    { "prompt": "王伟问了哪两个地方在哪儿?", "options": ["邮局和银行", "火车站和公园", "博物馆和大学", "药店和图书馆"], "answer": 3, "explainZh": "王伟问:Und wo ist die Apotheke? / Und wo ist die Bibliothek?" },
+    { "prompt": "图书馆在哪儿?", "options": ["在火车站旁边", "在大学里", "在公园里"], "answer": 1, "explainZh": "莉娜说:Die Uni hat eine Bibliothek.(大学有图书馆)" },
+    { "prompt": "最后王伟做了什么?", "options": ["去了博物馆", "去银行办事", "把这些地方记在手机里"], "answer": 2, "explainZh": "王伟说:Ich schreibe alles in mein Handy." }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_orte", "titleZh": "地方名词:性要一个个记;Wo ist …? 和 Gibt es hier …?",
+      "bodyZh": "城市里的地方名词,性没有规律,一定连冠词一起记:\n阴性:die Stadt、die Post、die Bank、die Apotheke、die Haltestelle、die Uni、die Bibliothek\n阳性:der Bahnhof、der Park\n中性:das Museum\n小窍门:-e 结尾的大多是阴性(die Apotheke、die Haltestelle);-hof 结尾的是阳性(der Bahnhof)。\n复数要特别记:das Museum → die Museen;die Stadt → die Städte;der Bahnhof → die Bahnhöfe。\nBank 有两个意思:银行(复数 die Banken)和长椅(复数 die Bänke)。\n问某个地方在哪儿:Wo ist die Post? – Hier. / Die Post ist hier.\n问附近有没有:Gibt es hier eine Apotheke / einen Park / ein Museum?(es gibt 后面用第四格:阳性的 ein 变 einen,阴性、中性不变)。\n说某个地方有什么,也可以用 haben:Die Uni hat eine Bibliothek.",
+      "examples": [
+        { "text": "Wo ist die Apotheke?", "zh": "药店在哪儿?" },
+        { "text": "Gibt es hier einen Park?", "zh": "这儿有公园吗?" },
+        { "text": "Die Uni hat eine Bibliothek.", "zh": "大学里有图书馆。" }
+      ] }
+  ],
+  "review": "draft"
+}

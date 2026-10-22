@@ -1,0 +1,43 @@
+{
+  "id": "fr.a1u6.l04", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106040,
+  "titleZh": "坐地铁——prendre", "goalZh": "会说坐哪条线、往哪个方向、在哪儿换乘、在哪儿下车", "canDoZh": "能在地铁站买票,问清楚坐哪条线、往哪个方向、在哪站换乘、要坐多久",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.prendre", "kind": "word", "pos": "verb", "text": "prendre", "zh": "拿;乘坐;吃(点单)", "features": { "ipa": "pʁɑ̃dʁ" }, "noteZh": "不规则:je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent [pʁɛn];prendre le métro = 坐地铁,要加冠词。" },
+    { "id": "fr.ticket", "kind": "word", "pos": "noun", "text": "le ticket", "zh": "(地铁、公交)票", "features": { "gender": "m", "ipa": "lə ti.kɛ" }, "noteZh": "地铁、公交的票叫 ticket,火车票、机票叫 billet;词尾 t 不发音。" },
+    { "id": "fr.ligne", "kind": "word", "pos": "noun", "text": "la ligne", "zh": "(交通)线路", "features": { "gender": "f", "ipa": "la liɲ" }, "noteZh": "gn 读 [ɲ],像汉语“捏”的声母;la ligne A(A 线),字母照法语读 [a]。" },
+    { "id": "fr.direction", "kind": "word", "pos": "noun", "text": "la direction", "zh": "方向", "features": { "gender": "f", "ipa": "la di.ʁɛk.sjɔ̃" }, "noteZh": "地铁按终点站认方向:direction + 终点站,中间不加介词;-tion 读 [sjɔ̃]。" },
+    { "id": "fr.station", "kind": "word", "pos": "noun", "text": "la station", "zh": "地铁站;(电车)站", "features": { "gender": "f", "ipa": "la sta.sjɔ̃" }, "noteZh": "地铁站是 station,火车站是 gare,公交站是 arrêt。" },
+    { "id": "fr.changer", "kind": "word", "pos": "verb", "text": "changer", "zh": "换(车);改变", "features": { "ipa": "ʃɑ̃.ʒe" }, "noteZh": "changer à + 站名 = 在某站换乘;nous changeons(g 后面加 e,保持读 [ʒ])。" },
+    { "id": "fr.descendre", "kind": "word", "pos": "verb", "text": "descendre", "zh": "下(车);下去", "features": { "ipa": "de.sɑ̃dʁ" }, "noteZh": "-re 动词:je descends, il descend(d、s 不发音),nous descendons;descendre à + 站名 = 在某站下车。" },
+    { "id": "fr.arret", "kind": "word", "pos": "noun", "text": "l'arrêt", "zh": "(公交、有轨电车)车站", "features": { "gender": "m", "ipa": "la.ʁɛ" }, "noteZh": "元音开头,阳性;t 不发音;公交车站是 l'arrêt de bus。" },
+    { "id": "fr.combien_de_temps", "kind": "phrase", "pos": "phrase", "text": "combien de temps", "zh": "多长时间", "features": { "ipa": "kɔ̃.bjɛ̃ də tɑ̃" }, "noteZh": "temps 的 p、s 都不发音;Combien de temps en métro ?(坐地铁要多久?)回答:Quinze minutes." }
+  ],
+  "reviewItems": ["fr.metro", "fr.aller", "fr.minute", "fr.gare"],
+  "lines": [
+    { "speaker": "emilie", "text": "Hao, je vais à la gare Part-Dieu, puis je prends le bus.", "zh": "浩,我要去帕尔迪厄火车站,然后坐公交。", "items": ["fr.je", "fr.aller", "fr.a", "fr.gare", "fr.puis", "fr.prendre", "fr.bus"] },
+    { "speaker": "hao", "text": "On prend le métro ensemble ! D'abord, deux tickets.", "zh": "我们一起坐地铁吧!先买两张票。", "items": ["fr.on", "fr.prendre", "fr.metro", "fr.ensemble", "fr.dabord", "fr.deux", "fr.ticket"] },
+    { "speaker": "hao", "text": "On prend la ligne D, direction Gare de Vénissieux.", "zh": "我们坐 D 线,往 Gare de Vénissieux 方向。", "items": ["fr.on", "fr.prendre", "fr.ligne", "fr.direction", "fr.gare", "fr.de"] },
+    { "speaker": "hao", "text": "On change à Saxe-Gambetta : ligne B, direction Charpennes.", "zh": "在 Saxe-Gambetta 站换乘 B 线,往 Charpennes 方向。", "items": ["fr.on", "fr.changer", "fr.a", "fr.ligne", "fr.direction"] },
+    { "speaker": "emilie", "text": "Et on descend où ?", "zh": "那我们在哪儿下车?", "items": ["fr.et", "fr.on", "fr.descendre", "fr.ou_lieu"] },
+    { "speaker": "hao", "text": "À la station Part-Dieu.", "zh": "在 Part-Dieu 站。", "items": ["fr.a", "fr.station"] },
+    { "speaker": "emilie", "text": "Combien de temps en métro ?", "zh": "坐地铁要多长时间?", "items": ["fr.combien_de_temps", "fr.en", "fr.metro"] },
+    { "speaker": "hao", "text": "Quinze minutes. L'arrêt de bus est à côté de la station.", "zh": "十五分钟。公交车站就在地铁站旁边。", "items": ["fr.quinze", "fr.minute", "fr.arret", "fr.de", "fr.bus", "fr.etre", "fr.a_cote_de", "fr.station"] },
+    { "speaker": "emilie", "text": "Merci, Hao ! Tu es très gentil !", "zh": "谢谢你,浩!你人真好!", "items": ["fr.merci", "fr.tu", "fr.etre", "fr.tres", "fr.gentil"] }
+  ],
+  "questions": [
+    { "prompt": "他们在哪一站换乘?", "options": ["Bellecour", "Saxe-Gambetta", "Part-Dieu", "Charpennes"], "answer": 1, "explainZh": "浩说:On change à Saxe-Gambetta : ligne B, direction Charpennes.(Charpennes 是 B 线的方向,不是换乘站;Part-Dieu 是下车的站)" },
+    { "prompt": "坐地铁要多长时间?", "options": ["五分钟", "十分钟", "三十分钟", "十五分钟"], "answer": 3, "explainZh": "艾米莉问 Combien de temps en métro ?,浩回答 Quinze minutes." }
+  ],
+  "grammar": [
+    { "id": "fr.g.prendre", "titleZh": "prendre 的变位;descendre 这类 -re 动词",
+      "bodyZh": "prendre(拿;乘坐)是不规则动词:je prends, tu prends, il / elle / on prend, nous prenons, vous prenez, ils / elles prennent。单数三个人称读音一样 [pʁɑ̃](d、s 都不发音);ils prennent 读 [pʁɛn],鼻化音没了,听的时候要和 il prend 分清。以前学的 Je prends un café 就是这个动词。\n坐什么交通工具:prendre le métro / le bus / la ligne D,要加冠词。对比上一课:aller à la gare en métro(坐地铁去火车站)= prendre le métro。\n-re 动词 descendre(下车):je descends, tu descends, il descend, nous descendons, vous descendez, ils descendent;单数的 d、s 都不发音。\n坐地铁常用的几句:changer à + 站名(在某站换乘)、descendre à + 站名(在某站下车)、direction + 终点站(里昂和巴黎的地铁都按终点站认方向,不说东南西北)。问要多久:Combien de temps en métro ?",
+      "examples": [
+        { "text": "Nous prenons le bus.", "zh": "我们坐公交。" },
+        { "text": "Ils prennent la ligne A, direction Perrache.", "zh": "他们坐 A 线,往 Perrache 方向。" },
+        { "text": "Je descends à Bellecour.", "zh": "我在 Bellecour 站下车。" }
+      ] }
+  ],
+  "review": "draft"
+}

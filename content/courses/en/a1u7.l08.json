@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u7.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107080,
+  "titleZh": "单元复习:万圣节派对计划", "goalZh": "把爱好、能力、邀请、计划和约时间地点串起来,和朋友一起商量一次活动", "canDoZh": "能和朋友一起商量一次活动:谁去、穿什么、带什么、几点在哪儿集合",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 23.5,
+  "newItems": [
+    { "id": "en.halloween", "kind": "word", "pos": "propn", "text": "Halloween", "zh": "万圣节", "features": { "ipa": "ˌhæloʊˈiːn" }, "noteZh": "10 月 31 日;重音在最后 Hal-lo-WEEN;常见活动是扮装(dress up)和要糖(trick-or-treat)。" },
+    { "id": "en.costume", "kind": "word", "pos": "noun", "text": "costume", "zh": "(扮装用的)服装", "features": { "ipa": "ˈkɑːstuːm" }, "noteZh": "万圣节扮装:wear a costume;别和 custom(习俗)混。" },
+    { "id": "en.scary", "kind": "word", "pos": "adj", "text": "scary", "zh": "吓人的", "features": { "ipa": "ˈskeri" }, "noteZh": "scary 是东西\"吓人\",scared 是人\"害怕\";美式读 /ˈskeri/。" },
+    { "id": "en.panda", "kind": "word", "pos": "noun", "text": "panda", "zh": "大熊猫", "features": { "ipa": "ˈpændə" }, "noteZh": "a 读 /æ/;美国人一听你来自成都,很可能马上说 Pandas!" }
+  ],
+  "reviewItems": ["en.going_to", "en.lets", "en.cook", "en.fun"],
+  "lines": [
+    { "speaker": "amy", "text": "Hey, you guys! Do you want to come to my Halloween party on Saturday?", "zh": "嘿,大家!周六想不想来我的万圣节派对?", "items": ["en.hey", "en.you_guys", "en.do_you_want_to", "en.come", "en.halloween", "en.party", "en.saturday"] },
+    { "speaker": "ethan", "text": "Cool! I'm in!", "zh": "酷!算我一个!", "items": ["en.cool", "en.im_in"] },
+    { "speaker": "sofia", "text": "Me too! Do we have to wear costumes?", "zh": "我也去!我们得穿扮装的衣服吗?", "items": ["en.me_too", "en.have_to", "en.wear", "en.costume"] },
+    { "speaker": "amy", "text": "Yes! Costumes are really fun.", "zh": "要!扮装可好玩了。", "items": ["en.costume", "en.really", "en.fun"] },
+    { "speaker": "ethan", "text": "Lei, what are you going to be?", "zh": "磊,你打算扮成什么?", "items": ["en.going_to"] },
+    { "speaker": "lei", "text": "I'm going to be a panda. I'm from Chengdu!", "zh": "我要扮大熊猫。我可是从成都来的!", "items": ["en.going_to", "en.panda", "en.im_from"] },
+    { "speaker": "ethan", "text": "And my costume is going to be really scary!", "zh": "我的服装会超级吓人!", "items": ["en.costume", "en.going_to", "en.really", "en.scary"] },
+    { "speaker": "amy", "text": "Great! And who can cook? We need food.", "zh": "太好了!对了,谁会做饭?我们得准备吃的。", "items": ["en.great", "en.can", "en.cook", "en.need", "en.food"] },
+    { "speaker": "sofia", "text": "I'm going to cook Mexican food.", "zh": "我打算做墨西哥菜。", "items": ["en.going_to", "en.cook", "en.food"] },
+    { "speaker": "lei", "text": "And I can cook really spicy Sichuan food!", "zh": "我会做特别辣的川菜!", "items": ["en.can", "en.cook", "en.really", "en.spicy", "en.food"] },
+    { "speaker": "ethan", "text": "Let's meet here on Saturday at seven.", "zh": "那我们周六七点在这儿集合吧。", "items": ["en.lets", "en.meet", "en.saturday"] },
+    { "speaker": "lei", "text": "Sounds good! We don't really have Halloween parties in Chengdu. I can't wait!", "zh": "好啊!我们成都不怎么开万圣节派对。好期待啊!", "items": ["en.sounds_good", "en.really", "en.have", "en.halloween", "en.party", "en.cant_wait"] }
+  ],
+  "questions": [
+    { "prompt": "艾米邀请大家做什么?", "options": ["去看乐队演出", "去她的万圣节派对", "去山里徒步"], "answer": 1, "explainZh": "Do you want to come to my Halloween party on Saturday?" },
+    { "prompt": "磊打算扮成什么?", "options": ["很吓人的角色", "篮球运动员", "大熊猫"], "answer": 2, "explainZh": "I'm going to be a panda. I'm from Chengdu!(要扮吓人角色的是伊森)" },
+    { "prompt": "派对上吃的怎么安排?", "options": ["索菲亚做墨西哥菜,磊做川菜", "艾米一个人做", "伊森去买汉堡"], "answer": 0, "explainZh": "I'm going to cook Mexican food. —— And I can cook really spicy Sichuan food!" },
+    { "prompt": "他们约几点、在哪儿集合?", "options": ["周五七点半,剧院门口", "周六七点,在这儿", "周六八点,艾米家门口"], "answer": 1, "explainZh": "伊森说:Let's meet here on Saturday at seven." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.u7_review",
+      "titleZh": "单元小结:爱好、能力、邀请、计划、约时间",
+      "bodyZh": "这个单元学的几种说法,商量一次活动时会一起用上:① 爱好:like / love / hate + 动词-ing(I love taking pictures.);② 能力:can / can't + 动词原形(I can cook. / I can't swim.);③ 邀请:Do you want to + 动词原形?,答应说 Sounds good! / I'm in!,拒绝说 Sorry, I can't. I have to…,再加一句 Maybe next time?;④ 计划:be going to + 动词原形(I'm going to be a panda.);⑤ 提议:Let's + 动词原形,或者 How about + 时间、地点?。记住:can、have to、going to、Let's 后面都接动词原形,不加 -s、-ing。发音:兴奋的时候语调起伏更大,It's going to be really fun! 重音落在 fun 上。",
+      "examples": [
+        { "text": "I love taking pictures.", "zh": "我很爱拍照。" },
+        { "text": "I can cook really spicy food.", "zh": "我会做特别辣的菜。" },
+        { "text": "Do you want to come to my party?", "zh": "想来我的派对吗?" },
+        { "text": "It's going to be really fun!", "zh": "一定会特别好玩!" },
+        { "text": "Let's meet here at seven.", "zh": "我们七点在这儿集合吧。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

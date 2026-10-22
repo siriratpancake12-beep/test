@@ -1,0 +1,47 @@
+{
+  "id": "fr.a1u8.l08", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 健康、爱好与周末", "order": 108080,
+  "titleZh": "单元复习:上周末和下个假期", "goalZh": "把健康、天气、爱好、复合过去时和近将来时串起来,和朋友聊周末和假期", "canDoZh": "能和朋友聊上周末做了什么、接下来打算做什么,以及那边天气怎么样",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.ski", "kind": "word", "pos": "noun", "text": "le ski", "zh": "滑雪", "features": { "gender": "m", "ipa": "lə ski" }, "noteZh": "faire du ski = 去滑雪(和 faire du sport 一样用 du)。" },
+    { "id": "fr.montagne", "kind": "word", "pos": "noun", "text": "la montagne", "zh": "山;山区", "features": { "gender": "f", "ipa": "la mɔ̃.taɲ" }, "noteZh": "gn 读 [ɲ];aller à la montagne = 去山里(度假)。" },
+    { "id": "fr.voyage", "kind": "word", "pos": "noun", "text": "le voyage", "zh": "旅行", "features": { "gender": "m", "ipa": "lə vwa.jaʒ" }, "noteZh": "以 -age 结尾的名词大多是阳性;faire un voyage = 去旅行;Bon voyage !(一路顺风!)" },
+    { "id": "fr.pays", "kind": "word", "pos": "noun", "text": "le pays", "zh": "国家", "features": { "gender": "m", "ipa": "lə pe.i" }, "noteZh": "读两个音节 [pe.i],s 不发音,单复数同形。" }
+  ],
+  "reviewItems": ["fr.week_end", "fr.il_neige", "fr.dernier", "fr.malade"],
+  "lines": [
+    { "speaker": "serveur", "text": "Bonjour ! Qu'est-ce que vous prenez ?", "zh": "你们好!喝点什么?", "items": ["fr.bonjour", "fr.quest_ce_que", "fr.vous", "fr.prendre"] },
+    { "speaker": "lucas", "text": "Quatre chocolats chauds et un sandwich. J'ai faim !", "zh": "四杯热巧克力,再来一个三明治。我饿了!", "items": ["fr.quatre", "fr.chocolat_chaud", "fr.et", "fr.un", "fr.sandwich", "fr.jai_faim"] },
+    { "speaker": "chloe", "text": "Hao, tu as été malade le week-end dernier ?", "zh": "浩,你上周末病了?", "items": ["fr.tu", "fr.avoir", "fr.etre", "fr.malade", "fr.week_end", "fr.dernier"] },
+    { "speaker": "hao", "text": "Oui, je suis resté à la maison. Et toi ?", "zh": "是啊,我在家待着。你呢?", "items": ["fr.oui", "fr.je", "fr.etre", "fr.rester", "fr.a", "fr.maison", "fr.et_toi"] },
+    { "speaker": "chloe", "text": "Moi, j'ai vu un film au cinéma. C'était super !", "zh": "我去电影院看了一部电影,特别好看!", "items": ["fr.moi", "fr.je", "fr.avoir", "fr.voir", "fr.un", "fr.film", "fr.au", "fr.cinema", "fr.cetait", "fr.super"] },
+    { "speaker": "lucas", "text": "Et la semaine prochaine ? Qu'est-ce que vous allez faire ?", "zh": "那下周呢?你们打算干什么?", "items": ["fr.et", "fr.semaine", "fr.prochain", "fr.quest_ce_que", "fr.vous", "fr.aller", "fr.faire"] },
+    { "speaker": "emilie", "text": "Je vais faire du ski. À la montagne, il neige beaucoup !", "zh": "我要去滑雪。山里雪下得可大了!", "items": ["fr.je", "fr.aller", "fr.faire", "fr.du", "fr.ski", "fr.a", "fr.montagne", "fr.il_neige", "fr.beaucoup"] },
+    { "speaker": "lucas", "text": "Moi, je vais rentrer chez mes parents.", "zh": "我要回爸妈家。", "items": ["fr.moi", "fr.je", "fr.aller", "fr.rentrer", "fr.chez", "fr.mes", "fr.parents"] },
+    { "speaker": "hao", "text": "Et moi, je vais faire un voyage !", "zh": "我呢,要去旅行!", "items": ["fr.et", "fr.moi", "fr.je", "fr.aller", "fr.faire", "fr.un", "fr.voyage"] },
+    { "speaker": "emilie", "text": "Super ! Quel pays ?", "zh": "太好了!去哪个国家?", "items": ["fr.super", "fr.quel", "fr.pays"] },
+    { "speaker": "hao", "text": "L'Italie ! Je vais visiter Rome en train.", "zh": "意大利!我要坐火车去罗马玩。", "items": ["fr.je", "fr.aller", "fr.visiter", "fr.en", "fr.train"] },
+    { "speaker": "serveur", "text": "Voilà les chocolats chauds ! Et bon voyage, Hao !", "zh": "热巧克力来了!浩,一路顺风!", "items": ["fr.voila", "fr.chocolat_chaud", "fr.et", "fr.bon", "fr.voyage"] }
+  ],
+  "questions": [
+    { "prompt": "上周末浩怎么了?", "options": ["他去看了电影", "他去滑雪了", "他病了,待在家里"], "answer": 2, "explainZh": "克洛艾问 Tu as été malade… ?,浩说:Oui, je suis resté à la maison.;看电影的是克洛艾。" },
+    { "prompt": "艾米莉下周要做什么?", "options": ["去山里滑雪", "回父母家", "去旅行"], "answer": 0, "explainZh": "Je vais faire du ski. À la montagne, il neige beaucoup !——回父母家的是卢卡。" },
+    { "prompt": "浩要去哪个国家旅行?", "options": ["加拿大", "意大利", "中国"], "answer": 1, "explainZh": "艾米莉问 Quel pays ?,浩说:L'Italie ! Je vais visiter Rome en train." }
+  ],
+  "grammar": [
+    { "id": "fr.g.passe_vs_futur_proche", "titleZh": "上周末 vs 下周:复合过去时和近将来时",
+      "bodyZh": "聊过去和打算,动词形式要分清:已经做过的事用复合过去时(avoir / être + 过去分词):J'ai vu un film. Je suis resté à la maison.;打算做、快要做的事用近将来时(aller 的现在时 + 动词原形):Je vais faire du ski. Je vais rentrer chez mes parents.。时间词能帮你判断:hier, le week-end dernier, la semaine dernière 说过去;demain, ce week-end, la semaine prochaine 说将来。中文靠“了”“要”,法语靠动词的形式,只换时间词、动词不变是不行的。",
+      "examples": [
+        { "text": "Le week-end dernier, j'ai vu un film.", "zh": "上周末我看了一部电影。" },
+        { "text": "La semaine prochaine, je vais faire du ski.", "zh": "下周我要去滑雪。" }
+      ] },
+    { "id": "fr.g.faire_du_ski", "titleZh": "faire du ski 和 jouer au foot;Quel pays ?",
+      "bodyZh": "说做什么运动有两种说法:球类用 jouer à(jouer au foot, jouer au basket);其他运动常用 faire + 部分冠词:faire du ski(滑雪)、faire du sport(运动)、faire du vélo(骑车)。问“哪个……?”用 quel,和名词配合:quel pays ?(阳性)/ quelle ville ?(阴性),读音一样。国家前的介词也复习一下:阴性国家用 en(en France, en Italie),阳性国家用 au(au Canada)。",
+      "examples": [
+        { "text": "Émilie fait du ski en hiver.", "zh": "艾米莉冬天去滑雪。" },
+        { "text": "Tu vas visiter quel pays ?", "zh": "你要去哪个国家玩?" }
+      ] }
+  ],
+  "review": "draft"
+}

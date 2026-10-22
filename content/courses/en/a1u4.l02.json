@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u4.l02", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 Food & drinks", "order": 104020,
+  "titleZh": "燕麦奶,不加糖", "goalZh": "会按自己的口味定制饮品:选饮品、换奶、加香草、不要糖或冰", "canDoZh": "能在咖啡店点一杯按自己口味定制的饮料,比如\"中杯热拿铁,换燕麦奶,不加糖\"",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.want", "kind": "word", "pos": "verb", "text": "want", "zh": "想要", "features": { "ipa": "wɑːnt" }, "noteZh": "w 双唇收圆、往前送,上齿不碰下唇;点单时 Can I get… 比 I want… 礼貌。" },
+    { "id": "en.drink", "kind": "word", "pos": "verb", "text": "drink", "zh": "喝", "features": { "ipa": "drɪŋk" }, "noteZh": "Something to drink? 喝点什么?;也可作名词\"饮料\":a drink。" },
+    { "id": "en.latte", "kind": "word", "pos": "noun", "text": "latte", "zh": "拿铁", "features": { "ipa": "ˈlɑːteɪ" }, "noteZh": "美式读 /ˈlɑː-teɪ/,重音在前。" },
+    { "id": "en.tea", "kind": "word", "pos": "noun", "text": "tea", "zh": "茶", "features": { "ipa": "tiː" }, "noteZh": "美国说 tea 常默认是红茶;iced tea(冰茶)常常是加了糖的。" },
+    { "id": "en.milk", "kind": "word", "pos": "noun", "text": "milk", "zh": "牛奶", "features": { "ipa": "mɪlk" }, "noteZh": "词尾 l 舌尖要抬起来,别读成 \"mi-ou-k\"。" },
+    { "id": "en.oat_milk", "kind": "phrase", "pos": "noun", "text": "oat milk", "zh": "燕麦奶", "features": { "ipa": "ˈoʊt ˌmɪlk" }, "noteZh": "常见的还有 almond milk 杏仁奶、soy milk 豆奶;换成燕麦奶:with oat milk。" },
+    { "id": "en.sugar", "kind": "word", "pos": "noun", "text": "sugar", "zh": "糖", "features": { "ipa": "ˈʃʊɡɚ" }, "noteZh": "s 读 /ʃ/,像 \"shu-ger\";不要糖:no sugar。" },
+    { "id": "en.vanilla", "kind": "word", "pos": "noun", "text": "vanilla", "zh": "香草(口味)", "features": { "ipa": "vəˈnɪlə" }, "noteZh": "v 上齿轻咬下唇再出声,不要读成 w;重音在中间 va-NIL-la。" },
+    { "id": "en.ice", "kind": "word", "pos": "noun", "text": "ice", "zh": "冰;冰块", "features": { "ipa": "aɪs" }, "noteZh": "no ice 不加冰;美国饮料默认加很多冰。" },
+    { "id": "en.no_thanks", "kind": "phrase", "pos": "phrase", "text": "No, thanks", "zh": "不用了,谢谢", "alt": ["No thanks", "No, thank you"], "features": { "ipa": "ˌnoʊ ˈθæŋks" }, "noteZh": "礼貌拒绝最简单的说法;thanks 的 th 是清音 /θ/。" }
+  ],
+  "reviewItems": ["en.can_i_get", "en.medium", "en.hot", "en.thats_it"],
+  "lines": [
+    { "speaker": "lei", "text": "Sofia, what do you want?", "zh": "索菲亚,你想要什么?", "items": ["en.want"] },
+    { "speaker": "sofia", "text": "A latte with oat milk and vanilla. But no sugar.", "zh": "一杯拿铁,要燕麦奶和香草。但是不要糖。", "items": ["en.latte", "en.oat_milk", "en.vanilla", "en.sugar"] },
+    { "speaker": "lei", "text": "Can I get a medium hot latte with oat milk and vanilla?", "zh": "请给我一杯中杯热拿铁,换燕麦奶,加香草。", "items": ["en.can_i_get", "en.medium", "en.hot", "en.latte", "en.oat_milk", "en.vanilla"] },
+    { "speaker": "lei", "text": "No sugar, please. And a large hot tea for me.", "zh": "不加糖,谢谢。我要一杯大杯热茶。", "items": ["en.sugar", "en.large", "en.hot", "en.tea"] },
+    { "speaker": "sofia", "text": "Hot tea? No ice?", "zh": "热茶?不加冰?", "items": ["en.hot", "en.tea", "en.ice"] },
+    { "speaker": "lei", "text": "No ice! In China, we drink hot tea.", "zh": "不加冰!在中国,我们喝热茶。", "items": ["en.ice", "en.drink", "en.hot", "en.tea"] },
+    { "speaker": "barista", "text": "Sure. Milk in your tea?", "zh": "好的。茶里加牛奶吗?", "items": ["en.sure", "en.milk", "en.tea"] },
+    { "speaker": "lei", "text": "No, thanks. That's it.", "zh": "不用了,谢谢。就这些。", "items": ["en.no_thanks", "en.thats_it"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚的拿铁是怎么定制的?", "options": ["加牛奶、加糖", "换燕麦奶、加冰", "换燕麦奶、加香草、不加糖"], "answer": 2, "explainZh": "Can I get a medium hot latte with oat milk and vanilla? … No sugar, please.——中杯热拿铁,换燕麦奶,加香草,不加糖。" },
+    { "prompt": "咖啡师问磊茶里加不加牛奶,磊怎么回答?", "options": ["要,多加一点", "不用了,谢谢", "要换成燕麦奶"], "answer": 1, "explainZh": "Milk in your tea? — No, thanks.——No, thanks. 是最简单的礼貌拒绝。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u4_customize_drinks", "titleZh": "定制饮品:with / no;可数和不可数",
+      "bodyZh": "定制饮品用 with(加、换成)和 no(不要):with oat milk(换燕麦奶)、with vanilla(加香草)、no sugar(不加糖)、no ice(不加冰)。要求直接接在饮品后面:a medium hot latte with oat milk, no sugar。\n可数和不可数:点的一杯杯饮品可以数——a latte、two teas;但 milk、sugar、ice、water 是不可数名词,不加 a,也没有复数:no sugar(不说 no sugars)、milk(不说 a milk)。\nwant + 名词表示\"想要\":朋友之间可以问 What do you want?;对店员点单还是用 Can I get…? 更礼貌。\n文化:美国的冷饮默认加很多冰,不想要就说 No ice;很多中国人和磊一样,更爱喝热的。\n发音:vanilla 的 v 上齿轻碰下唇再出声;want、with 的 w 双唇收圆往前送,牙齿不碰嘴唇。中国学生常把 v 读成 w。",
+      "examples": [
+        { "text": "Can I get a medium hot latte with oat milk?", "zh": "请给我一杯中杯热拿铁,换燕麦奶。" },
+        { "text": "No sugar, no ice, please.", "zh": "不加糖,不加冰,谢谢。" }
+      ] }
+  ],
+  "review": "draft"
+}

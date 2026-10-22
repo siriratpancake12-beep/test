@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u1.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101080,
+  "titleZh": "单元复习:迎新派对", "goalZh": "把本单元的打招呼、自我介绍、介绍别人、拼写和留电话串起来,完成一次完整的结识对话", "canDoZh": "能在派对上主动认识一个新朋友:打招呼、介绍自己和专业,最后互留联系方式",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.party", "kind": "word", "pos": "noun", "text": "party", "zh": "派对;聚会", "features": { "ipa": "ˈpɑːrt̬i" }, "noteZh": "美式 t 在两个元音之间读得像轻快的 d:“par-dee”。" },
+    { "id": "en.welcome", "kind": "word", "pos": "interj", "text": "Welcome", "zh": "欢迎", "features": { "ipa": "ˈwelkəm" }, "noteZh": "Welcome to the party! 欢迎来派对!注意和 You're welcome(不客气)区分。" },
+    { "id": "en.senior", "kind": "word", "pos": "noun", "text": "senior", "zh": "大四学生", "features": { "ipa": "ˈsiːnjɚ" }, "noteZh": "四个年级:freshman、sophomore、junior、senior;senior 还有“年长的”意思。" },
+    { "id": "en.you_too", "kind": "phrase", "pos": "phrase", "text": "You too", "zh": "你也是(回应客套话)", "features": { "ipa": "ˌjuː ˈtuː" }, "noteZh": "别人说 Nice to meet you. 可以回 Nice to meet you too. 或简单一句 You too!;别人祝你 Have a nice day! 也这样回。" }
+  ],
+  "reviewItems": ["en.this_is", "en.major", "en.phone_number", "en.text"],
+  "lines": [
+    { "speaker": "amy", "text": "Welcome to the party, you guys! Lei, this is Marcus. He's a senior.", "zh": "欢迎来派对,大家!磊,这是马库斯。他是大四的。", "items": ["en.welcome", "en.party", "en.you_guys", "en.this_is", "en.senior"] },
+    { "speaker": "marcus", "text": "Hey, Lei! Nice to meet you.", "zh": "嘿,磊!很高兴认识你。", "items": ["en.hey", "en.nice_to_meet_you"] },
+    { "speaker": "lei", "text": "You too! I'm Lei Zhang. I'm a freshman from Chengdu, China.", "zh": "我也很高兴认识你!我叫张磊,是从中国成都来的大一新生。", "items": ["en.you_too", "en.freshman"] },
+    { "speaker": "marcus", "text": "Cool! What's your major?", "zh": "酷!你学什么专业?", "items": ["en.cool", "en.major"] },
+    { "speaker": "lei", "text": "Computer science. And this is my roommate, Ethan, and my friend Sofia.", "zh": "计算机。这是我的室友伊森,还有我的朋友索菲亚。", "items": ["en.computer_science", "en.this_is", "en.roommate", "en.friend"] },
+    { "speaker": "ethan", "text": "Hey, man! Great party!", "zh": "嘿,哥们儿!派对真棒!", "items": ["en.hey", "en.great", "en.party"] },
+    { "speaker": "sofia", "text": "Hi, Marcus! Lei and I are international students.", "zh": "嗨,马库斯!我和磊都是国际学生。", "items": ["en.hi", "en.international_student"] },
+    { "speaker": "marcus", "text": "Wow! Welcome to Seattle! Hey, Lei, what's your phone number?", "zh": "哇!欢迎来西雅图!对了,磊,你的电话号码是多少?", "items": ["en.welcome", "en.hey", "en.phone_number"] },
+    { "speaker": "lei", "text": "Sure. It's two oh six, five five five, oh one nine three.", "zh": "好的。是 206-555-0193。", "items": ["en.sure", "en.oh_zero"] },
+    { "speaker": "marcus", "text": "OK. How do you spell Lei? L-I?", "zh": "好。Lei 怎么拼?L-I?", "items": ["en.how_do_you_spell"] },
+    { "speaker": "lei", "text": "No, L-E-I.", "zh": "不是,是 L-E-I。", "items": [] },
+    { "speaker": "marcus", "text": "L-E-I. Got it! Here's my number. Text me, Lei!", "zh": "L-E-I。记下了!这是我的号码,给我发个消息吧,磊!", "items": ["en.got_it", "en.phone_number", "en.text"] }
+  ],
+  "questions": [
+    { "prompt": "马库斯是几年级的学生?", "options": ["大一", "大二", "大四"], "answer": 2, "explainZh": "艾米介绍说 He's a senior.(他是大四的。)senior 是大四学生,freshman 才是大一。" },
+    { "prompt": "磊的电话号码是多少?", "options": ["206-555-0193", "206-555-0139", "206-555-0913"], "answer": 0, "explainZh": "磊说 two oh six, five five five, oh one nine three,号码是 206-555-0193。" },
+    { "prompt": "磊的名字怎么拼?", "options": ["L-I", "L-E-I", "L-E-E"], "answer": 1, "explainZh": "马库斯以为是 L-I,磊纠正说 No, L-E-I.。字母 E 读 /iː/,I 读 /aɪ/,很容易听混。" }
+  ],
+  "grammar": [
+    { "id": "en.g.be_all_persons", "titleZh": "单元小结:be 动词的全部人称",
+      "bodyZh": "be 动词跟着主语变:I am(I'm)、you are(you're)、he is(he's)、she is(she's)、it is(it's)、we are(we're)、they are(they're)。两个人一起做主语算复数,用 are:Lei and I are…、Ethan and Lei are…。问句把 be 动词放到最前面:Are you a freshman? — Yes, I am. / No, I'm not.。别忘了说身份时单数名词前加 a / an:He's a senior. She's an international student.;复数不加:We're freshmen.。",
+      "examples": [
+        { "text": "I'm a freshman, and he's a senior.", "zh": "我是大一新生,他是大四的。" },
+        { "text": "Lei and I are international students.", "zh": "我和磊都是国际学生。" }
+      ] },
+    { "id": "en.g.sentence_stress", "titleZh": "句子重音:实词重读,虚词轻读",
+      "bodyZh": "英语句子有轻有重:名词、动词、形容词这些实词读得重、读得清楚;a、an、the、to、from、and、is、are 这些虚词读得轻、读得快。比如 I'm a FRESHman from CHIna:a 和 from 一带而过,FRESH 和 CHI 重读。中国学生常把每个词读得一样重,听起来像一个字一个字地念,美国人反而不容易听懂。跟读时先抓住重读的词,其他的词轻轻带过。",
+      "examples": [
+        { "text": "I'm a freshman from China.", "zh": "我是来自中国的大一新生。(重读 FRESH、CHI)" },
+        { "text": "Welcome to the party!", "zh": "欢迎来派对!(重读 WEL、PAR,to the 轻读)" },
+        { "text": "What's your major?", "zh": "你学什么专业?(重读 MA)" }
+      ] }
+  ],
+  "review": "draft"
+}
