@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u6.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106040,
+  "titleZh": "在售票机前:买一张车票", "goalZh": "会在售票机买票,知道在哪儿上车、下车、换乘", "canDoZh": "能买到需要的车票,问清楚坐哪个方向、在哪儿换乘、在哪儿下车",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.fahrkarte", "kind": "word", "pos": "noun", "text": "die Fahrkarte", "zh": "车票", "alt": ["das Ticket", "der Fahrschein"], "features": { "gender": "f", "plural": "die Fahrkarten", "ipa": "ˈfaːɐ̯ˌkaʁtə" }, "noteZh": "也说 das Ticket / der Fahrschein;有的车票上车前要先在小机器上打印时间(entwerten),否则算逃票。" },
+    { "id": "de.automat", "kind": "word", "pos": "noun", "text": "der Automat", "zh": "自动售货机;售票机", "features": { "gender": "m", "plural": "die Automaten", "ipa": "aʊ̯toˈmaːt" }, "noteZh": "售票机:der Fahrkartenautomat;重音在最后的 mat 上;复数 die Automaten。" },
+    { "id": "de.hin_und_zurueck", "kind": "phrase", "pos": "phrase", "text": "hin und zurück", "zh": "往返(票)", "features": { "ipa": "hɪn ʊnt tsuˈʁʏk" }, "noteZh": "Einmal Hamburg, hin und zurück, bitte!(一张去汉堡的往返票。)单程:einfach。柏林市内和去波茨坦的普通车票都是单程的,往返要买两张(或者买一日票)。" },
+    { "id": "de.einsteigen", "kind": "word", "pos": "verb", "text": "einsteigen", "zh": "上车", "features": { "ipa": "ˈaɪ̯nˌʃtaɪ̯ɡn̩" }, "noteZh": "可分:Wir steigen hier ein.;上哪辆车:in die S-Bahn einsteigen。" },
+    { "id": "de.aussteigen", "kind": "word", "pos": "verb", "text": "aussteigen", "zh": "下车", "features": { "ipa": "ˈaʊ̯sˌʃtaɪ̯ɡn̩" }, "noteZh": "可分:Wo steigen wir aus?(我们在哪儿下车?)" },
+    { "id": "de.umsteigen", "kind": "word", "pos": "verb", "text": "umsteigen", "zh": "换乘;换车", "features": { "ipa": "ˈʊmˌʃtaɪ̯ɡn̩" }, "noteZh": "可分:Wir steigen am Bahnhof um.;和情态动词一起用时不分开:Wir müssen umsteigen." },
+    { "id": "de.richtung", "kind": "word", "pos": "noun", "text": "die Richtung", "zh": "方向", "features": { "gender": "f", "plural": "die Richtungen", "ipa": "ˈʁɪçtʊŋ" }, "noteZh": "看站牌:U2 Richtung Pankow = 开往 Pankow 方向的 U2;Richtung 后面直接跟地名,不加介词。" },
+    { "id": "de.naechste", "kind": "word", "pos": "adj", "text": "nächste", "zh": "下一个;最近的", "alt": ["nächster", "nächstes", "nächsten"], "features": { "ipa": "ˈnɛːçstə" }, "noteZh": "车上广播:Nächste Haltestelle: …(下一站:……);词尾跟名词变:der nächste Zug;nächste Woche = 下周。" },
+    { "id": "de.nur", "kind": "word", "pos": "adv", "text": "nur", "zh": "只;仅仅", "features": { "ipa": "nuːɐ̯" }, "noteZh": "Der Automat nimmt nur Karten.(这台机器只收卡。)nur 放在它限定的词前面。" },
+    { "id": "de.da", "kind": "word", "pos": "adv", "text": "da", "zh": "那儿;那里", "alt": ["dort"], "features": { "ipa": "daː" }, "noteZh": "口语里最常用的“那儿”,正式一点说 dort:Da ist der Automat!;da 还常表示“在场”:Ist Lena da?(莉娜在吗?)" }
+  ],
+  "reviewItems": ["de.s_bahn", "de.haltestelle", "de.bar", "de.karte"],
+  "lines": [
+    { "speaker": "lena", "text": "Da ist der Automat! Wir brauchen vier Fahrkarten.", "zh": "售票机在那儿!我们要买四张票。", "items": ["de.da", "de.sein", "de.automat", "de.wir", "de.brauchen", "de.vier", "de.fahrkarte"] },
+    { "speaker": "wei", "text": "Vier? Hin und zurück? Kann ich bar bezahlen?", "zh": "四张?去和回各一张?我能付现金吗?", "items": ["de.vier", "de.hin_und_zurueck", "de.koennen", "de.ich", "de.bar", "de.bezahlen"] },
+    { "speaker": "lena", "text": "Ja, hin und zurück. Aber der Automat nimmt nur Karten.", "zh": "对,两个人去回各一张。不过这台机器只收卡。", "items": ["de.ja", "de.hin_und_zurueck", "de.aber", "de.automat", "de.nehmen", "de.nur", "de.karte"] },
+    { "speaker": "durchsage", "text": "Nächste Haltestelle: Hauptbahnhof.", "zh": "(公交车上的广播)下一站:中央火车站。", "items": ["de.naechste", "de.haltestelle", "de.bahnhof"] },
+    { "speaker": "lena", "text": "Hier müssen wir aussteigen und umsteigen.", "zh": "我们得在这儿下车换乘。", "items": ["de.hier", "de.muessen", "de.wir", "de.aussteigen", "de.und", "de.umsteigen"] },
+    { "speaker": "wei", "text": "Wo steigen wir in die S-Bahn ein?", "zh": "我们在哪儿上城铁?", "items": ["de.wo", "de.einsteigen", "de.wir", "de.in", "de.s_bahn"] },
+    { "speaker": "lena", "text": "Da! Die S-Bahn Richtung Potsdam.", "zh": "那儿!开往波茨坦方向的城铁。", "items": ["de.da", "de.s_bahn", "de.richtung"] },
+    { "speaker": "wei", "text": "Gut. Und in Potsdam steigen wir aus.", "zh": "好。然后到波茨坦下车。", "items": ["de.gut", "de.und", "de.in", "de.aussteigen", "de.wir"] }
+  ],
+  "questions": [
+    { "prompt": "售票机收什么?", "options": ["现金和卡都收", "只收现金", "只收卡"], "answer": 2, "explainZh": "莉娜说:Aber der Automat nimmt nur Karten.(nur = 只)" },
+    { "prompt": "他们在哪儿换乘?换乘什么车?", "options": ["在中央火车站换乘开往波茨坦方向的城铁", "在波茨坦换乘地铁", "在中央火车站换乘公交车"], "answer": 0, "explainZh": "广播报站 Nächste Haltestelle: Hauptbahnhof,莉娜说 Hier müssen wir aussteigen und umsteigen,然后指着 die S-Bahn Richtung Potsdam。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_ein_aus_um", "titleZh": "上车、下车、换乘:einsteigen / aussteigen / umsteigen",
+      "bodyZh": "这三个都是可分动词(复习第 5 单元的 aufstehen、anfangen):变位时前缀 ein- / aus- / um- 跑到句末:Wir steigen in Potsdam aus. / Wo steigen wir ein?\n和情态动词一起用时不分开,原形放到句末:Hier müssen wir aussteigen und umsteigen.\n上哪辆车:in + 车:in die S-Bahn einsteigen / umsteigen;在哪儿下:in Potsdam aussteigen,在哪儿换:am Bahnhof umsteigen。\n看站牌、听广播:Richtung + 终点站,不加冠词和介词:die S-Bahn Richtung Potsdam(开往波茨坦方向的城铁);车上广播:Nächste Haltestelle: …(下一站:……)。\nnur(只)放在它限定的词前面:Der Automat nimmt nur Karten.\n小知识:柏林市内和去波茨坦的普通车票都是单程的,去和回要各买一张(也可以买一日票);有的车票上车前要先在小机器上打印时间。",
+      "examples": [
+        { "text": "Wir müssen hier umsteigen.", "zh": "我们得在这儿换乘。" },
+        { "text": "Wo steigen wir ein?", "zh": "我们在哪儿上车?" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -28,7 +28,7 @@
   ],
   "questions": [
     { "prompt": "约纳斯说 Es ist halb neun。现在几点?", "options": ["九点半", "八点半", "九点一刻"], "answer": 1, "explainZh": "halb neun 是“往九点走的那半小时”,也就是 8:30。约纳斯说:Halb neun ist acht Uhr dreißig." },
-    { "prompt": "王伟的德语课几点开始?", "options": ["8:30", "9:30", "9:15", "5:00"], "answer": 2, "explainZh": "王伟说:Mein Kurs ist um Viertel nach neun.(Viertel nach neun = 九点一刻 = 9:15)" }
+    { "prompt": "王伟的德语课几点开始?", "options": ["8:30", "9:30", "5:00", "9:15"], "answer": 3, "explainZh": "王伟说:Mein Kurs ist um Viertel nach neun.(Viertel nach neun = 九点一刻 = 9:15)" }
   ],
   "grammar": [
     { "id": "de.g.u5_uhrzeit", "titleZh": "钟点怎么说:halb、Viertel、nach / vor 和 um",

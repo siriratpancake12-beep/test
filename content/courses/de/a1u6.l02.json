@@ -1,0 +1,49 @@
+{
+  "id": "de.a1u6.l02", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106020,
+  "titleZh": "怎么去?——交通工具和 mit / zu / nach", "goalZh": "会说坐什么交通工具去哪里,掌握 mit / zu / nach / in / an 的基本用法", "canDoZh": "能说自己怎么去大学、去市中心(坐地铁、骑车、走路),也能问别人怎么去",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.fahren", "kind": "word", "pos": "verb", "text": "fahren", "zh": "(乘车、开车、骑车)去;行驶", "features": { "ipa": "ˈfaːʁən" }, "noteZh": "不规则:du fährst, er fährt;坐车、骑车、开车用 fahren,走路用 gehen:Ich fahre mit der U-Bahn." },
+    { "id": "de.zu", "kind": "word", "pos": "prep", "text": "zu", "zh": "到……去;往(某人、某地)", "features": { "ipa": "tsuː" }, "noteZh": "zu + 第三格:zum Bahnhof(zu dem)、zur Uni(zu der)、zu Lena(去莉娜那里);去城市、国家用 nach。" },
+    { "id": "de.an", "kind": "word", "pos": "prep", "text": "an", "zh": "在……旁边;在(……边上)", "features": { "ipa": "an" }, "noteZh": "an + 第三格表示位置:an der Haltestelle(在车站)、an der Ampel(在红绿灯那里);am = an dem。" },
+    { "id": "de.bus", "kind": "word", "pos": "noun", "text": "der Bus", "zh": "公交车", "features": { "gender": "m", "plural": "die Busse", "ipa": "bʊs" }, "noteZh": "复数 die Busse(双写 s);mit dem Bus fahren。" },
+    { "id": "de.u_bahn", "kind": "word", "pos": "noun", "text": "die U-Bahn", "zh": "地铁", "features": { "gender": "f", "plural": "die U-Bahnen", "ipa": "ˈuːˌbaːn" }, "noteZh": "U = Untergrund(地下);柏林的地铁线叫 U1–U9;mit der U-Bahn fahren。" },
+    { "id": "de.s_bahn", "kind": "word", "pos": "noun", "text": "die S-Bahn", "zh": "城铁(城市快铁)", "features": { "gender": "f", "plural": "die S-Bahnen", "ipa": "ˈɛsˌbaːn" }, "noteZh": "连接市区和郊区的快铁,线路叫 S1、S2……;去机场、去波茨坦常坐 S-Bahn。" },
+    { "id": "de.fahrrad", "kind": "word", "pos": "noun", "text": "das Fahrrad", "zh": "自行车", "alt": ["das Rad"], "features": { "gender": "n", "plural": "die Fahrräder", "ipa": "ˈfaːɐ̯ˌʁaːt" }, "noteZh": "口语常说 das Rad;骑车也用 fahren:Fahrrad fahren / mit dem Fahrrad fahren。" },
+    { "id": "de.auto", "kind": "word", "pos": "noun", "text": "das Auto", "zh": "汽车", "features": { "gender": "n", "plural": "die Autos", "ipa": "ˈaʊ̯to" }, "noteZh": "au 读 [aʊ̯](像“奥”);开车:Auto fahren / mit dem Auto fahren。" },
+    { "id": "de.zu_fuss", "kind": "phrase", "pos": "phrase", "text": "zu Fuß", "zh": "步行", "features": { "ipa": "tsuː ˈfuːs" }, "noteZh": "Ich gehe zu Fuß.(我走路去。)Fuß 是“脚”;不说 ✗ mit dem Fuß。" }
+  ],
+  "reviewItems": ["de.mit", "de.nach", "de.gehen", "de.uni"],
+  "lines": [
+    { "speaker": "sofia", "text": "Wei, wie fährst du zur Uni?", "zh": "伟,你怎么去学校?", "items": ["de.wie", "de.fahren", "de.du", "de.zu", "de.uni"] },
+    { "speaker": "wei", "text": "Ich fahre mit der U-Bahn. Und du?", "zh": "我坐地铁。你呢?", "items": ["de.ich", "de.fahren", "de.mit", "de.u_bahn", "de.und", "de.du"] },
+    { "speaker": "sofia", "text": "Ich fahre mit dem Fahrrad. Das ist billig! Und du, Jonas?", "zh": "我骑自行车,便宜!约纳斯,你呢?", "items": ["de.ich", "de.fahren", "de.mit", "de.fahrrad", "de.das_ist", "de.billig", "de.und", "de.du"] },
+    { "speaker": "jonas", "text": "Ich fahre mit dem Bus zum Restaurant.", "zh": "我坐公交车去餐馆。", "items": ["de.ich", "de.fahren", "de.mit", "de.bus", "de.zu", "de.restaurant"] },
+    { "speaker": "wei", "text": "Herr Hoffmann, fahren Sie mit dem Auto?", "zh": "霍夫曼先生,您开车出门吗?", "items": ["de.herr", "de.fahren", "de.sie_hoeflich", "de.mit", "de.auto"] },
+    { "speaker": "hoffmann", "text": "Nein, Herr Wang. Ich gehe gern zu Fuß.", "zh": "不,王先生。我喜欢走路。", "items": ["de.nein", "de.herr", "de.ich", "de.gehen", "de.gern", "de.zu_fuss"] },
+    { "speaker": "hoffmann", "text": "Aber am Sonntag fahre ich gern mit der S-Bahn nach Potsdam.", "zh": "不过星期天我喜欢坐城铁去波茨坦。", "items": ["de.aber", "de.am", "de.sonntag", "de.fahren", "de.ich", "de.gern", "de.mit", "de.s_bahn", "de.nach"] },
+    { "speaker": "wei", "text": "Und wie fahren wir am Samstag zum Park?", "zh": "那星期六我们怎么去公园?", "items": ["de.und", "de.wie", "de.fahren", "de.wir", "de.am", "de.samstag", "de.zu", "de.park"] },
+    { "speaker": "jonas", "text": "Mit dem Bus! Um zwölf an der Haltestelle.", "zh": "坐公交车!十二点在车站碰头。", "items": ["de.mit", "de.bus", "de.um", "de.zwoelf", "de.an", "de.haltestelle"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅怎么去学校?为什么?", "options": ["骑自行车,因为便宜", "坐地铁,因为快", "坐公交车,因为方便"], "answer": 0, "explainZh": "索菲娅说:Ich fahre mit dem Fahrrad. Das ist billig!" },
+    { "prompt": "星期六大家怎么去公园?在哪儿碰头?", "options": ["骑自行车,十点在公园门口", "走路,十二点在大学", "坐公交车,十二点在车站"], "answer": 2, "explainZh": "约纳斯说:Mit dem Bus! Um zwölf an der Haltestelle." }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_fahren_gehen", "titleZh": "fahren 还是 gehen?",
+      "bodyZh": "中文一个“去”字,德语要看怎么去:走路用 gehen,坐车、骑车、开车都用 fahren(坐飞机用 fliegen,本单元最后一课学)。\nfahren 是不规则动词,du 和 er / sie 的 a 变 ä:ich fahre / du fährst / er, sie fährt / wir fahren / ihr fahrt / sie, Sie fahren。\n坐什么车:mit + 交通工具:mit dem Bus、mit der U-Bahn、mit der S-Bahn、mit dem Auto、mit dem Fahrrad;走路说 zu Fuß gehen。\n骑自行车也用 fahren:Ich fahre mit dem Fahrrad.(英语说 ride a bike,德语没有专门的“骑”。)\n问别人怎么去:Wie fährst du zur Uni? / Wie fahren Sie zum Bahnhof?",
+      "examples": [
+        { "text": "Ich fahre mit der U-Bahn zur Uni.", "zh": "我坐地铁去大学。" },
+        { "text": "Ich gehe gern zu Fuß.", "zh": "我喜欢走路。" }
+      ] },
+    { "id": "de.g.u6_dativ_fix", "titleZh": "mit / zu / an / nach:先背固定搭配(第三格入门)",
+      "bodyZh": "mit、zu 和表示位置的 an 后面要用第三格,冠词会变:阳性、中性的 der / das 变 dem,阴性的 die 变 der。现在不用背整张变格表,先把常用搭配整块记住:\nmit dem Bus / mit dem Auto / mit dem Fahrrad(阳、中)—— mit der U-Bahn / mit der S-Bahn(阴)\nzum Bahnhof、zum Park、zum Restaurant(zum = zu dem)—— zur Uni、zur Post、zur Haltestelle(zur = zu der)\nan der Haltestelle(在车站)、am Bahnhof(在火车站,am = an dem)\n去城市、国家用 nach + 地名,不加冠词:nach Potsdam、nach Hamburg、nach China;去城里的某个地方用 zu:zum Bahnhof(✗ nach dem Bahnhof)。\n在城里:in der Stadt。\n中国学生常见错误:漏冠词(✗ mit Bus)、冠词没变(✗ mit die U-Bahn);zu dem、zu der 平时都缩成 zum、zur。",
+      "examples": [
+        { "text": "Ich fahre mit dem Bus zum Restaurant.", "zh": "我坐公交车去餐馆。" },
+        { "text": "Um zwölf an der Haltestelle.", "zh": "十二点在车站碰头。" },
+        { "text": "Am Sonntag fahre ich nach Potsdam.", "zh": "星期天我去波茨坦。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "de.a1u5.l05", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105050,
+  "titleZh": "你的生日在几月?——秋冬的月份", "goalZh": "记住九月到二月和秋、冬两个季节,会问和说生日", "canDoZh": "能问别人的生日在几月、哪一天,说出自己和朋友的生日",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.geburtstag", "kind": "word", "pos": "noun", "text": "der Geburtstag", "zh": "生日", "features": { "gender": "m", "plural": "die Geburtstage", "ipa": "ɡəˈbuːɐ̯tsˌtaːk" }, "noteZh": "Wann hast du Geburtstag?(德语说“你什么时候有生日”);Geburt(出生)+ Tag(日子),所以是阳性。" },
+    { "id": "de.monat", "kind": "word", "pos": "noun", "text": "der Monat", "zh": "月;月份", "features": { "gender": "m", "plural": "die Monate", "ipa": "ˈmoːnat" }, "noteZh": "月份都是阳性,“在几月”用 im:im Oktober;重音在前面:MO-nat。" },
+    { "id": "de.herbst", "kind": "word", "pos": "noun", "text": "der Herbst", "zh": "秋天", "features": { "gender": "m", "plural": "die Herbste", "ipa": "hɛʁpst" }, "noteZh": "季节都是阳性:im Herbst(在秋天);b 读 [p],rbst 几个辅音连着读,中间别加元音。" },
+    { "id": "de.winter", "kind": "word", "pos": "noun", "text": "der Winter", "zh": "冬天", "features": { "gender": "m", "plural": "die Winter", "ipa": "ˈvɪntɐ" }, "noteZh": "im Winter;w 读 [v];柏林的冬天很冷,下午四点天就黑了。" },
+    { "id": "de.september", "kind": "word", "pos": "noun", "text": "der September", "zh": "九月", "features": { "gender": "m", "plural": "-", "ipa": "zɛpˈtɛmbɐ" }, "noteZh": "月份和英语很像,但读音不同:S 读 [z],重音在 tem 上;im September。" },
+    { "id": "de.oktober", "kind": "word", "pos": "noun", "text": "der Oktober", "zh": "十月", "features": { "gender": "m", "plural": "-", "ipa": "ɔkˈtoːbɐ" }, "noteZh": "重音在 to 上;10 月 3 日是德国统一日(国庆节)。" },
+    { "id": "de.november", "kind": "word", "pos": "noun", "text": "der November", "zh": "十一月", "features": { "gender": "m", "plural": "-", "ipa": "noˈvɛmbɐ" }, "noteZh": "外来词里 v 读 [v];重音在 vem 上。" },
+    { "id": "de.dezember", "kind": "word", "pos": "noun", "text": "der Dezember", "zh": "十二月", "features": { "gender": "m", "plural": "-", "ipa": "deˈtsɛmbɐ" }, "noteZh": "z 读 [ts];12 月 24 日是平安夜,德国人和家人一起过圣诞。" },
+    { "id": "de.januar", "kind": "word", "pos": "noun", "text": "der Januar", "zh": "一月", "features": { "gender": "m", "plural": "-", "ipa": "ˈjanu̯aːɐ̯" }, "noteZh": "J 读 [j](像“呀”),重音在第一个音节;奥地利说 Jänner。" },
+    { "id": "de.februar", "kind": "word", "pos": "noun", "text": "der Februar", "zh": "二月", "features": { "gender": "m", "plural": "-", "ipa": "ˈfeːbʁu̯aːɐ̯" }, "noteZh": "重音在第一个音节:FE-bru-ar;中国的春节常在一月底或二月。" }
+  ],
+  "reviewItems": ["de.am", "de.jahr", "de.wann"],
+  "lines": [
+    { "speaker": "sofia", "text": "Jonas, wann hast du Geburtstag?", "zh": "约纳斯,你的生日是什么时候?", "items": ["de.wann", "de.haben", "de.du", "de.geburtstag"] },
+    { "speaker": "jonas", "text": "Am 15. November. Jetzt ist Oktober, noch ein Monat!", "zh": "11 月 15 日。现在是十月,还有一个月!", "items": ["de.am", "de.fuenf", "de.zehn", "de.november", "de.jetzt", "de.sein", "de.oktober", "de.noch", "de.ein", "de.monat"] },
+    { "speaker": "wei", "text": "Und du, Sofia? Hast du im September Geburtstag?", "zh": "你呢,索菲娅?你的生日在九月吗?", "items": ["de.und", "de.du", "de.haben", "de.in", "de.september", "de.geburtstag"] },
+    { "speaker": "sofia", "text": "Nein, im Januar. Und du, Wei?", "zh": "不是,在一月。你呢,伟?", "items": ["de.nein", "de.in", "de.januar", "de.und", "de.du"] },
+    { "speaker": "wei", "text": "Im Februar. Dann bin ich einundzwanzig Jahre alt.", "zh": "二月。到时候我就二十一岁了。", "items": ["de.in", "de.februar", "de.dann", "de.sein", "de.ich", "de.eins", "de.und", "de.zwanzig", "de.jahr", "de.alt"] },
+    { "speaker": "wei", "text": "Im Februar ist meine Familie zusammen, und mein Vater kocht.", "zh": "二月(过春节)我们全家团聚,我爸爸做饭。", "items": ["de.in", "de.februar", "de.sein", "de.mein", "de.familie", "de.zusammen", "de.und", "de.vater", "de.kochen"] },
+    { "speaker": "jonas", "text": "Lecker! Ich will auch nach Chengdu!", "zh": "听着就好吃!我也想去成都!", "items": ["de.lecker", "de.ich", "de.wollen", "de.auch", "de.nach"] },
+    { "speaker": "lena", "text": "Und ich habe im Dezember Geburtstag.", "zh": "我的生日在十二月。", "items": ["de.und", "de.ich", "de.haben", "de.in", "de.dezember", "de.geburtstag"] },
+    { "speaker": "sofia", "text": "Lena, Wei und ich haben im Winter Geburtstag!", "zh": "莉娜、伟和我,我们的生日都在冬天!", "items": ["de.und", "de.ich", "de.haben", "de.in", "de.winter", "de.geburtstag"] },
+    { "speaker": "lena", "text": "Ja! Und Jonas hat im Herbst Geburtstag.", "zh": "对!约纳斯的生日在秋天。", "items": ["de.ja", "de.und", "de.haben", "de.in", "de.herbst", "de.geburtstag"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯的生日是哪天?", "options": ["10 月 15 日", "11 月 15 日", "11 月 5 日", "12 月 15 日"], "answer": 1, "explainZh": "约纳斯说:Am 15. November.(读作 am fünfzehnten November)" },
+    { "prompt": "谁的生日在秋天?", "options": ["莉娜", "索菲娅", "约纳斯", "王伟"], "answer": 2, "explainZh": "莉娜说:Und Jonas hat im Herbst Geburtstag.(十一月是秋天;莉娜十二月、索菲娅一月、王伟二月,都在冬天)" },
+    { "prompt": "王伟说,二月他家里怎么样?", "options": ["全家团聚,爸爸做饭", "全家都来柏林", "爸爸在餐馆上班"], "answer": 0, "explainZh": "王伟说:Im Februar ist meine Familie zusammen, und mein Vater kocht." }
+  ],
+  "grammar": [
+    { "id": "de.g.u5_im_monat", "titleZh": "im + 月份 / 季节,am + 日期(序数词)",
+      "bodyZh": "① 月份和季节都是阳性:der Oktober、der Winter。“在几月”“在什么季节”用 im(= in dem):im November、im Winter。\n② “在几号”用 am + 序数词。写的时候是数字加一个点:am 15. November,读作 am fünfzehnten November。\n序数词:1.–19. 在数字后面加 -t-:zweite、vierte、fünfte、zehnte、fünfzehnte;特殊的是 erste(第一)、dritte(第三)、siebte(第七),还有 achte(第八,只加 -e);20. 以后加 -st-:zwanzigste、einundzwanzigste。放在 am 后面时词尾是 -en:am ersten Januar、am dritten Oktober。\n③ 问生日:Wann hast du Geburtstag?(德语说“你什么时候有生日”);回答:Im Februar. / Am 15. November. / Ich habe im Dezember Geburtstag.\n④ 时间介词一览:um + 钟点(um vier),am + 星期、日期、早晚(am Samstag、am 15. November、am Abend),im + 月份、季节(im Januar、im Winter)。\n⑤ 九月到二月和英语很像,读音却不一样:September 的 S 读 [z],Dezember 的 z 读 [ts],Januar 的 J 读 [j]。",
+      "examples": [
+        { "text": "Wann hast du Geburtstag?", "zh": "你的生日是什么时候?" },
+        { "text": "Jonas hat am 15. November Geburtstag.", "zh": "约纳斯的生日是 11 月 15 日。" },
+        { "text": "Im Winter haben wir Geburtstag.", "zh": "我们的生日都在冬天。" }
+      ] }
+  ],
+  "review": "draft"
+}

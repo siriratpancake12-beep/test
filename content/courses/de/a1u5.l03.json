@@ -27,7 +27,7 @@
   ],
   "questions": [
     { "prompt": "王伟几点吃早饭?", "options": ["七点", "七点半", "八点半"], "answer": 1, "explainZh": "王伟说:Um halb acht frühstücke ich.(halb acht = 7:30)" },
-    { "prompt": "约纳斯几点起床?", "options": ["七点", "十二点", "十一点"], "answer": 2, "explainZh": "约纳斯说:Ich stehe um elf Uhr auf und frühstücke um zwölf.(十一点起床,十二点才吃早饭)" }
+    { "prompt": "约纳斯几点起床?", "options": ["十一点", "七点", "十二点"], "answer": 0, "explainZh": "约纳斯说:Ich stehe um elf Uhr auf und frühstücke um zwölf.(十一点起床,十二点才吃早饭)" }
   ],
   "grammar": [
     { "id": "de.g.u5_trennbar", "titleZh": "可分动词:前缀跑到句末",

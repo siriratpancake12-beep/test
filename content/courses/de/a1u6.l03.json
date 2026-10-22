@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u6.l03", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106030,
+  "titleZh": "请问,去博物馆怎么走?", "goalZh": "会问路,听懂别人用 Sie 的命令式指路", "canDoZh": "能在街上礼貌地问路,听懂“一直走、在红绿灯那里右转”这样的指路",
+  "skills": ["listen", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.entschuldigung", "kind": "word", "pos": "interj", "text": "Entschuldigung", "zh": "对不起;打扰一下", "alt": ["Entschuldigen Sie"], "features": { "ipa": "ɛntˈʃʊldɪɡʊŋ" }, "noteZh": "问路、请人让路、道歉都能用;问路时先说 Entschuldigung, … 再问;重音在 schul 上。" },
+    { "id": "de.wie_komme_ich", "kind": "phrase", "pos": "phrase", "text": "Wie komme ich zum …?", "zh": "去……怎么走?", "alt": ["Wie komme ich zur …?", "Wie komme ich zu …?"], "features": { "ipa": "viː ˈkɔmə ɪç tsʊm" }, "noteZh": "阳性、中性用 zum(zum Bahnhof, zum Museum),阴性用 zur(zur Post, zur Uni)。" },
+    { "id": "de.wohin", "kind": "word", "pos": "adv", "text": "wohin", "zh": "去哪里", "features": { "ipa": "voˈhɪn" }, "noteZh": "wo = 在哪里(位置),wohin = 去哪里(方向),woher = 从哪里来;重音在 hin 上。" },
+    { "id": "de.links", "kind": "word", "pos": "adv", "text": "links", "zh": "左边;向左", "features": { "ipa": "lɪŋks" }, "noteZh": "nach links = 向左;an der Ampel links = 在红绿灯那里左转。" },
+    { "id": "de.rechts", "kind": "word", "pos": "adv", "text": "rechts", "zh": "右边;向右", "features": { "ipa": "ʁɛçts" }, "noteZh": "chts 读 [çts];德国车靠右行驶。" },
+    { "id": "de.geradeaus", "kind": "word", "pos": "adv", "text": "geradeaus", "zh": "一直往前", "features": { "ipa": "ɡəʁaːdəˈʔaʊ̯s" }, "noteZh": "重音在最后的 aus 上:Gehen Sie geradeaus!(一直往前走!)" },
+    { "id": "de.strasse", "kind": "word", "pos": "noun", "text": "die Straße", "zh": "街道;马路", "features": { "gender": "f", "plural": "die Straßen", "ipa": "ˈʃtʁaːsə" }, "noteZh": "地址里常缩写成 Str.,街名常连写:die Parkstraße;die erste Straße links = 第一个路口左转。" },
+    { "id": "de.ampel", "kind": "word", "pos": "noun", "text": "die Ampel", "zh": "红绿灯", "features": { "gender": "f", "plural": "die Ampeln", "ipa": "ˈampl̩" }, "noteZh": "an der Ampel rechts = 在红绿灯那里右转;红灯时德国人一般不过马路。" },
+    { "id": "de.weit", "kind": "word", "pos": "adj", "text": "weit", "zh": "远", "features": { "ipa": "vaɪ̯t" }, "noteZh": "Ist das weit?(远吗?)– Nein, nicht weit.;w 读 [v]。" },
+    { "id": "de.in_der_naehe", "kind": "phrase", "pos": "phrase", "text": "in der Nähe", "zh": "在附近", "features": { "ipa": "ɪn deːɐ̯ ˈnɛːə" }, "noteZh": "Gibt es hier in der Nähe eine Apotheke?(这附近有药店吗?)Nähe 的 h 不发音。" }
+  ],
+  "reviewItems": ["de.museum", "de.apotheke", "de.dann", "de.zu"],
+  "lines": [
+    { "speaker": "wei", "text": "Entschuldigung, wie komme ich zum Museum?", "zh": "打扰一下,请问去博物馆怎么走?", "items": ["de.entschuldigung", "de.wie_komme_ich", "de.museum"] },
+    { "speaker": "passantin", "text": "Wohin möchten Sie? Hier gibt es zwei Museen.", "zh": "您要去哪儿?这儿有两个博物馆。", "items": ["de.wohin", "de.moechten", "de.sie_hoeflich", "de.hier", "de.es_gibt", "de.zwei", "de.museum"] },
+    { "speaker": "wei", "text": "Zum Museum in der Parkstraße. Ist das weit?", "zh": "去公园街的那个博物馆。远吗?", "items": ["de.zu", "de.museum", "de.in", "de.das_ist", "de.weit"] },
+    { "speaker": "passantin", "text": "Nein, nicht weit. Gehen Sie hier geradeaus und an der Ampel rechts.", "zh": "不远。您从这儿一直往前走,到红绿灯那里往右拐。", "items": ["de.nein", "de.nicht", "de.weit", "de.gehen", "de.sie_hoeflich", "de.hier", "de.geradeaus", "de.und", "de.an", "de.ampel", "de.rechts"] },
+    { "speaker": "wei", "text": "An der Ampel rechts. Und dann?", "zh": "到红绿灯往右。然后呢?", "items": ["de.an", "de.ampel", "de.rechts", "de.und", "de.dann"] },
+    { "speaker": "passantin", "text": "Dann nehmen Sie die erste Straße links.", "zh": "然后在第一个路口往左拐。", "items": ["de.dann", "de.nehmen", "de.sie_hoeflich", "de.eins", "de.strasse", "de.links"] },
+    { "speaker": "wei", "text": "Danke! Gibt es hier in der Nähe auch eine Apotheke?", "zh": "谢谢!这附近还有药店吗?", "items": ["de.danke", "de.es_gibt", "de.hier", "de.in_der_naehe", "de.auch", "de.ein", "de.apotheke"] },
+    { "speaker": "passantin", "text": "Ja, an der Ampel links.", "zh": "有,就在红绿灯那儿,左边。", "items": ["de.ja", "de.an", "de.ampel", "de.links"] }
+  ],
+  "questions": [
+    { "prompt": "到了红绿灯那里,去博物馆要往哪边走?", "options": ["往右拐", "往左拐", "一直往前走"], "answer": 0, "explainZh": "路人说:Gehen Sie hier geradeaus und an der Ampel rechts.(rechts = 右)" },
+    { "prompt": "药店在哪儿?", "options": ["在第一个路口右边", "在博物馆里", "在红绿灯那儿,左边"], "answer": 2, "explainZh": "王伟问附近有没有药店,路人说:Ja, an der Ampel links.(links = 左)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_imperativ_sie", "titleZh": "Sie 的命令式和问路",
+      "bodyZh": "对陌生人、店员、老师提要求或者指路时,用 Sie 的命令式:把 Sie 形式的动词放到句首,后面紧跟 Sie:Gehen Sie geradeaus! / Nehmen Sie die erste Straße links!\n它和是非问句(Gehen Sie …?)语序一样,区别在语调:命令句语调往下降,书面上用句号或感叹号。\n中文“往前走”、英语 Go straight ahead 都没有主语,德语的 Sie 不能省。sein 是特殊的:Seien Sie …(先认识)。\n问路:Entschuldigung, wie komme ich zum Museum / zum Bahnhof / zur Post?(zum = zu dem,用于阳性、中性;zur = zu der,用于阴性)。问附近有没有:Gibt es hier in der Nähe eine Apotheke?\n听指路抓关键词:geradeaus(一直往前)、rechts(右)、links(左)、an der Ampel(在红绿灯那儿)、die erste Straße links(第一个路口左转)、(nicht) weit((不)远)。没听清就重复一遍确认:An der Ampel rechts?",
+      "examples": [
+        { "text": "Gehen Sie geradeaus und an der Ampel rechts.", "zh": "您一直往前走,到红绿灯往右拐。" },
+        { "text": "Entschuldigung, wie komme ich zur Post?", "zh": "打扰一下,去邮局怎么走?" }
+      ] }
+  ],
+  "review": "draft"
+}

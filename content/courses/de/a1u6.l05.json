@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u6.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106050,
+  "titleZh": "坐火车去汉堡", "goalZh": "看懂、听懂火车站的时刻和广播:几点、几号站台、晚点多久", "canDoZh": "能在售票窗口买火车票,问火车几点开、从哪个站台开,听懂车站广播里的站台和晚点信息",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "de.zug", "kind": "word", "pos": "noun", "text": "der Zug", "zh": "火车;列车", "features": { "gender": "m", "plural": "die Züge", "ipa": "tsuːk" }, "noteZh": "复数变音:die Züge;mit dem Zug fahren;z 读 [ts],词尾 g 读 [k]。" },
+    { "id": "de.gleis", "kind": "word", "pos": "noun", "text": "das Gleis", "zh": "站台;轨道", "features": { "gender": "n", "plural": "die Gleise", "ipa": "ɡlaɪ̯s" }, "noteZh": "火车站按 Gleis 编号:Gleis 7(7 号站台),车票和显示屏上都这么写。" },
+    { "id": "de.abfahren", "kind": "word", "pos": "verb", "text": "abfahren", "zh": "出发;开车(离开)", "features": { "ipa": "ˈapˌfaːʁən" }, "noteZh": "可分、不规则:Der Zug fährt um 14:32 ab.;名词 die Abfahrt(出发),显示屏上常见。" },
+    { "id": "de.ankommen", "kind": "word", "pos": "verb", "text": "ankommen", "zh": "到达", "features": { "ipa": "ˈanˌkɔmən" }, "noteZh": "可分:Wann kommen wir in Hamburg an?;名词 die Ankunft(到达)。" },
+    { "id": "de.verspaetung", "kind": "word", "pos": "noun", "text": "die Verspätung", "zh": "晚点;迟到", "features": { "gender": "f", "plural": "die Verspätungen", "ipa": "fɛɐ̯ˈʃpɛːtʊŋ" }, "noteZh": "Der Zug hat zehn Minuten Verspätung.(火车晚点十分钟,用 haben);里面藏着 spät(晚)。" },
+    { "id": "de.minute", "kind": "word", "pos": "noun", "text": "die Minute", "zh": "分钟", "features": { "gender": "f", "plural": "die Minuten", "ipa": "miˈnuːtə" }, "noteZh": "重音在 nu 上:zehn Minuten;报钟点时不说 Minuten:vierzehn Uhr zweiunddreißig。" },
+    { "id": "de.puenktlich", "kind": "word", "pos": "adj", "text": "pünktlich", "zh": "准时", "features": { "ipa": "ˈpʏŋktlɪç" }, "noteZh": "德国人很看重准时,约好的时间最好提前几分钟到;德国火车却常常晚点。" },
+    { "id": "de.reise", "kind": "word", "pos": "noun", "text": "die Reise", "zh": "旅行", "features": { "gender": "f", "plural": "die Reisen", "ipa": "ˈʁaɪ̯zə" }, "noteZh": "Gute Reise!(一路顺风!)别和 der Reis(米饭)搞混:Reise 的 s 读 [z]。" },
+    { "id": "de.welche", "kind": "word", "pos": "det", "text": "welche", "zh": "哪个;哪些", "alt": ["welcher", "welches", "welchen", "welchem"], "features": { "ipa": "ˈvɛlçə" }, "noteZh": "词尾跟名词的性变,像 der / die / das:welcher Zug, welche Richtung, welches Gleis。" }
+  ],
+  "reviewItems": ["de.bahnhof", "de.fahrkarte", "de.um", "de.nach"],
+  "lines": [
+    { "speaker": "jonas", "text": "Wir sind sehr früh am Bahnhof, Wei! Kaufst du die Fahrkarten?", "zh": "伟,我们到火车站也太早了吧!你去买票?", "items": ["de.wir", "de.sein", "de.sehr", "de.frueh", "de.am", "de.bahnhof", "de.kaufen", "de.du", "de.fahrkarte"] },
+    { "speaker": "wei", "text": "Guten Tag! Zwei Fahrkarten nach Hamburg, hin und zurück, bitte.", "zh": "您好!两张去汉堡的往返票,谢谢。", "items": ["de.guten_tag", "de.zwei", "de.fahrkarte", "de.nach", "de.hin_und_zurueck", "de.bitte"] },
+    { "speaker": "fahrkartenverkaeufer", "text": "Gern. Der nächste Zug fährt um vierzehn Uhr zweiunddreißig ab.", "zh": "好的。下一班火车 14:32 开。", "items": ["de.gern", "de.naechste", "de.zug", "de.abfahren", "de.um", "de.vier", "de.zehn", "de.uhr", "de.zwei", "de.und", "de.dreissig"] },
+    { "speaker": "wei", "text": "Welches Gleis? Und wann kommen wir in Hamburg an?", "zh": "几号站台?我们几点到汉堡?", "items": ["de.welche", "de.gleis", "de.und", "de.wann", "de.ankommen", "de.wir", "de.in"] },
+    { "speaker": "fahrkartenverkaeufer", "text": "Gleis sieben. Um sechzehn Uhr vierzig. Gute Reise!", "zh": "7 号站台。16:40 到。祝您旅途愉快!", "items": ["de.gleis", "de.sieben", "de.um", "de.sechzehn", "de.uhr", "de.vierzig", "de.gut", "de.reise"] },
+    { "speaker": "durchsage", "text": "Gleis sieben: Der Zug nach Hamburg hat zehn Minuten Verspätung.", "zh": "(车站广播)7 号站台:开往汉堡的火车晚点十分钟。", "items": ["de.gleis", "de.sieben", "de.zug", "de.nach", "de.haben", "de.zehn", "de.minute", "de.verspaetung"] },
+    { "speaker": "wei", "text": "Welcher Zug hat Verspätung? Unser Zug?", "zh": "哪趟车晚点?我们这趟吗?", "items": ["de.welche", "de.zug", "de.haben", "de.verspaetung", "de.unser"] },
+    { "speaker": "jonas", "text": "Ja. Nur zehn Minuten? Das ist pünktlich!", "zh": "对。才晚十分钟?那就算准时啦!", "items": ["de.ja", "de.nur", "de.zehn", "de.minute", "de.das_ist", "de.puenktlich"] }
+  ],
+  "questions": [
+    { "prompt": "去汉堡的火车几点开?", "options": ["14:23", "14:32", "16:40"], "answer": 1, "explainZh": "售票员说:Der nächste Zug fährt um vierzehn Uhr zweiunddreißig ab.(zweiunddreißig 先说个位“二”,再说十位“三十”= 32)" },
+    { "prompt": "火车从几号站台开?", "options": ["1 号", "17 号", "7 号"], "answer": 2, "explainZh": "售票员说 Gleis sieben(7 号站台);广播也说 Gleis sieben。17 是 siebzehn。" },
+    { "prompt": "约纳斯对晚点十分钟怎么看?", "options": ["开玩笑说这就算准时了", "很生气,要去找工作人员", "想改坐汽车去汉堡"], "answer": 0, "explainZh": "约纳斯说:Nur zehn Minuten? Das ist pünktlich!——他在开玩笑:德国火车常常晚点,晚十分钟不算什么。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_zug", "titleZh": "坐火车:abfahren / ankommen、welcher / welche / welches、24 小时制",
+      "bodyZh": "① abfahren(出发)和 ankommen(到达)都是可分动词:Der Zug fährt um vierzehn Uhr zweiunddreißig ab.(fahren 不规则:er fährt)/ Wann kommen wir in Hamburg an?\n② 问“哪个”用 welch-,词尾跟名词的性走,和 der / die / das 的词尾一样:der Zug → Welcher Zug?;die Richtung → Welche Richtung?;das Gleis → Welches Gleis?;复数:Welche Züge?\n③ 车站、广播、时刻表都用 24 小时制,读法是“小时 + Uhr + 分钟”:14:32 = vierzehn Uhr zweiunddreißig,16:40 = sechzehn Uhr vierzig。注意 32 读作 zweiunddreißig(先说个位“二”,再说十位“三十”),很容易听成 23。\n④ 晚点用 haben:Der Zug hat zehn Minuten Verspätung.(✗ Der Zug ist zehn Minuten Verspätung.)\n⑤ 买火车票:Zwei Fahrkarten nach Hamburg, hin und zurück, bitte.;售票员最后常说 Gute Reise!(一路顺风!)",
+      "examples": [
+        { "text": "Der Zug fährt um vierzehn Uhr zweiunddreißig ab.", "zh": "火车 14:32 出发。" },
+        { "text": "Welches Gleis?", "zh": "几号站台?" },
+        { "text": "Der Zug hat zehn Minuten Verspätung.", "zh": "火车晚点十分钟。" }
+      ] }
+  ],
+  "review": "draft"
+}
