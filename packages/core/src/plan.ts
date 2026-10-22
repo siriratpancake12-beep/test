@@ -1,3 +1,4 @@
+import { estimateLessonMinutes } from "./hours";
 import { engagement, pace, topWeakness, type Pace } from "./learner";
 import type { Lesson } from "./schema";
 import { nextLesson, todaysReview, type IssueKind, type Progress } from "./session";
@@ -67,7 +68,7 @@ export function dailyPlan(p: Progress, lessons: Lesson[], now: Date, opts: PlanO
   const next = doneToday ?? nextLesson(lessons, p);
   const tooMuchBacklog = sp === "slower" && due >= 20;
   if (next && (doneToday || (!comeback && !tooMuchBacklog) || due === 0)) {
-    blocks.push({ kind: "lesson", lessonId: next.id, minutes: next.estimatedMinutes, done: !!doneToday, locked: !opts.canAccess(next) });
+    blocks.push({ kind: "lesson", lessonId: next.id, minutes: Math.round(estimateLessonMinutes(next)), done: !!doneToday, locked: !opts.canAccess(next) });
   }
 
   if (comeback) notes.push({ code: "comeback", zh: `欢迎回来!今天先把最容易忘的 ${due} 张卡复习一下,${blocks[0]?.minutes ?? 1} 分钟就好。` });

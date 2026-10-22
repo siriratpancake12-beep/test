@@ -27,8 +27,11 @@ export const MINUTES = {
 
 /** 学过的词之后的间隔复习,按课程时间的 15% 算(保守) */
 export const REVIEW_SHARE = 0.15;
-/** 每个单元:单元练习 10 分钟 + 单元测评 12 分钟 */
-export const UNIT_EXTRA_MIN = 22;
+/**
+ * 每个单元的单元练习(约 25 题)和单元测评(约 15 题),按每题平均用时算,约 14 分钟。
+ * 题数见 checkpoint.ts。
+ */
+export const UNIT_EXTRA_MIN = Math.round((25 + 15) * 0.35);
 /** 读物里精选跟读的句数 */
 const READER_SHADOW_LINES = 5;
 

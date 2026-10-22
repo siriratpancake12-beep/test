@@ -31,6 +31,6 @@ describe("学习时长", () => {
     expect(h.units).toBe(1);
     expect(h.lessons).toBe(2);
     const raw = de.reduce((a, l) => a + estimateLessonMinutes(l), 0);
-    expect(h.totalHours).toBeCloseTo((raw * 1.15 + 22) / 60, 1);
+    expect(h.totalHours).toBeCloseTo((raw * 1.15 + 14) / 60, 1);
   });
 });

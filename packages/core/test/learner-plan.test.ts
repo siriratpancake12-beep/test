@@ -1,6 +1,7 @@
 import { describe, expect, it } from "vitest";
 import { weaknessDrill } from "../src/exercises";
 import { activeVocab, engagement, pace, topWeakness, usualHour } from "../src/learner";
+import { estimateLessonMinutes } from "../src/hours";
 import { dailyPlan, reviewCap } from "../src/plan";
 import { completeLesson, emptyProgress, finishReview, recordAnswer, type Progress } from "../src/session";
 import { lessons, pack } from "./fixtures";
@@ -66,7 +67,8 @@ describe("学习者画像", () => {
 describe("每日计划", () => {
   it("新用户:只有第一课", () => {
     const plan = dailyPlan(emptyProgress("de"), de, at("2026-11-01"), opts);
-    expect(plan.blocks).toEqual([{ kind: "lesson", lessonId: "de.a1u1.l01", minutes: 8, done: false, locked: false }]);
+    // 课的时长按内容算(不是课文件里手填的 estimatedMinutes)
+    expect(plan.blocks).toEqual([{ kind: "lesson", lessonId: "de.a1u1.l01", minutes: Math.round(estimateLessonMinutes(de[0]!)), done: false, locked: false }]);
   });
 
   it("有到期复习先复习;有弱点加专练(非会员显示锁)", () => {

@@ -19,4 +19,5 @@ export * from "./api";
 export * from "./sync";
 export * from "./scenario";
 export * from "./hours";
+export * from "./checkpoint";
 export * from "./random";

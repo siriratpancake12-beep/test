@@ -4,7 +4,7 @@
  * 算法见 packages/core/src/hours.ts(每一步按句数、词数、题数乘平均用时 + 复习 15% + 每单元练习和测评)。
  */
 import { Lesson } from "../packages/core/src/schema";
-import { courseHours, estimateLessonMinutes } from "../packages/core/src/hours";
+import { courseHours, estimateLessonMinutes, UNIT_EXTRA_MIN } from "../packages/core/src/hours";
 import { stubLesson } from "../packages/core/src/outline";
 import { languageCodes, lessonFiles, loadOutline, readJson } from "./_content";
 
@@ -23,7 +23,7 @@ for (const code of languageCodes()) {
   };
   const plannedMin = planned.reduce((a, l) => a + avg(l.type === "reading") * 1.15, 0);
   const units = new Set([...written, ...planned].map((l) => l.unit)).size;
-  const total = courseHours(written).totalHours + plannedMin / 60 + ((units - w.units) * 22) / 60;
+  const total = courseHours(written).totalHours + plannedMin / 60 + ((units - w.units) * UNIT_EXTRA_MIN) / 60;
   const levels = Object.entries(w.byLevel).map(([k, v]) => `${k} ${v}h`).join(" · ");
   rows.push(`| ${code} | ${w.lessons} / ${w.readers} | ${w.totalHours} h${levels ? `(${levels})` : ""} | ${written.length + planned.length} | ${Math.round(total)} h |`);
 }
