@@ -2,6 +2,38 @@
   "code": "es", "nameZh": "西班牙语", "nativeName": "Español", "script": "latin", "locale": "es-ES",
   "features": { "nounGender": "mf", "requirePlural": false, "reading": false, "roman": false, "pitch": false },
   "articles": { "el": "m", "la": "f", "los": "pl", "las": "pl" },
-  "examsZh": ["DELE", "SIELE", "西语专四专八"],
-  "tipsZh": ["大舌音 rr 需要练习", "动词变位多,但拼读规则非常规则", "ser 和 estar 都是“是”,用法不同"]
+  "examsZh": ["DELE A1–C2(塞万提斯学院)", "SIELE(线上考试)", "西语专四专八"],
+  "tipsZh": [
+    "名词有阴阳性,一定连冠词 el / la 一起记;-o 结尾多是阳性、-a 结尾多是阴性,但有例外(el día、el sofá、la foto)",
+    "拼读规则非常规则,看到就能读:h 不发音,b 和 v 读音相同,j 和 g(在 e、i 前)读喉音 [x]",
+    "大舌音 rr 和词首的 r 要多颤几下,单个 r 只轻弹一下(pero 但是 / perro 狗)",
+    "西班牙的 c(在 e、i 前)和 z 读咬舌音 [θ],拉美读 [s];两种都对,本课程按西班牙的读音",
+    "重音符号会改变意思和读音:tú 你 / tu 你的,sí 是 / si 如果,él 他 / el,写的时候不能漏",
+    "动词变位多:先记 ser、estar、tener、ir 这几个不规则动词;主语代词常省略,听动词词尾分辨是谁",
+    "ser 和 estar 都是“是”:ser 说身份、国籍、特点,estar 说位置和一时的状态",
+    "本课程以西班牙本土西语为准;拉美常见的不同说法(ustedes 代替 vosotros、carro、computadora、celular)在提示里注明"
+  ],
+  "cast": {
+    "lina": { "name": "Li Na", "nameZh": "李娜", "gender": "f", "bioZh": "20 岁,来自成都的大一新生,在马德里读国际商务,西语从零学起;认真、好奇,有点慢热但敢开口,爱吃辣,随身带小本子记新词。" },
+    "javier": { "name": "Javier", "nameZh": "哈维尔", "gender": "m", "bioZh": "19 岁,土生土长的马德里人,李娜的同学和语言交换伙伴(他在学中文);热情、话多、语速快,足球迷,家里是大家庭,口头禅是 vale。" },
+    "marta": { "name": "Marta", "nameZh": "玛尔塔", "gender": "f", "bioZh": "24 岁,来自塞维利亚的护士,在马德里的医院上班、常上夜班,是李娜的合租室友;直爽热心、爱做饭、爱干净,常给李娜讲西班牙的生活习惯。" },
+    "diego": { "name": "Diego", "nameZh": "迭戈", "gender": "m", "bioZh": "20 岁,来自墨西哥瓜达拉哈拉的交换生,李娜在留学生欢迎会上认识的朋友;乐天、爱开玩笑、爱唱歌和踢球,说墨西哥西语,常拿两边的不同说法开玩笑。" },
+    "andres": { "name": "Andrés", "nameZh": "安德烈斯老师", "gender": "m", "bioZh": "52 岁,大学语言中心的西语老师;说话慢而清楚,爱用手势和画图,幽默耐心,爱讲马德里的历史小故事,让学生直接叫他 Andrés、用 tú。" },
+    "pilar": { "name": "Doña Pilar", "nameZh": "皮拉尔太太", "gender": "f", "bioZh": "72 岁,公寓的房东,住在同一栋楼的一层;退休前是裁缝,热心爱聊天、说话慢,熟悉街区的每一家店;李娜对她用 usted,她对李娜用 tú。" },
+    "camarero": { "name": "Camarero", "nameZh": "酒吧服务员", "gender": "m", "bioZh": "楼下小酒吧和老城区 tapas 酒吧的服务员(不一定是同一个人);动作快、说话快,对顾客用 tú,常问 ¿Qué te pongo?" },
+    "camarera": { "name": "Camarera", "nameZh": "餐馆服务员", "gender": "f", "bioZh": "大学旁边小餐馆的服务员,介绍今日套餐很有耐心。" },
+    "frutero": { "name": "Frutero", "nameZh": "水果摊老板", "gender": "m", "bioZh": "街区菜市场水果摊的老板,嗓门大、爱开玩笑,管女顾客叫 guapa。" },
+    "cajera": { "name": "Cajera", "nameZh": "收银员", "gender": "f", "bioZh": "超市收银员,结账时只说几句固定的话:要不要袋子、怎么付款。" },
+    "dependienta": { "name": "Dependienta", "nameZh": "服装店店员", "gender": "f", "bioZh": "服装店店员,热情专业,会主动帮顾客找尺码和颜色。" },
+    "vendedor": { "name": "Vendedor", "nameZh": "摊主", "gender": "m", "bioZh": "周日 El Rastro 跳蚤市场的摊主,爱聊天,愿意讲价。" },
+    "recepcionista": { "name": "Recepcionista", "nameZh": "前台工作人员", "gender": "f", "bioZh": "大学体育中心(以后还有酒店等地)的前台,说话礼貌、语速适中,登记信息时会重复确认。" },
+    "taquillera": { "name": "Taquillera", "nameZh": "售票员", "gender": "f", "bioZh": "火车站售票窗口的工作人员,说话简短快速,报时间用 24 小时制。" },
+    "guia": { "name": "Guía", "nameZh": "游客中心工作人员", "gender": "m", "bioZh": "市中心游客中心的工作人员,熟悉马德里和周边城市的景点、开放时间和门票。" },
+    "transeunte": { "name": "Transeúnte", "nameZh": "路人", "gender": "m", "bioZh": "在街上被问路的马德里人,热心,但指路时说得比较快。" },
+    "megafonia": { "name": "Megafonía", "nameZh": "车站广播", "gender": "f", "bioZh": "火车站、地铁里的广播:句子短、信息多(车次、站台、时间),DELE 听力常考。" },
+    "locutor": { "name": "Locutor", "nameZh": "电台播音员", "gender": "m", "bioZh": "收音机里的天气预报和新闻,语速比日常对话快。" },
+    "medica": { "name": "Médica", "nameZh": "医生", "gender": "f", "bioZh": "社区医疗中心的家庭医生(以后'看病'单元用),说话温和、清楚。" },
+    "farmaceutico": { "name": "Farmacéutico", "nameZh": "药剂师", "gender": "m", "bioZh": "街区药店的药剂师(以后'看病'单元用),会耐心说明药怎么吃。" },
+    "taxista": { "name": "Taxista", "nameZh": "出租车司机", "gender": "m", "bioZh": "出租车司机(以后'旅行'单元用),爱聊天、爱问乘客从哪儿来。" }
+  }
 }
