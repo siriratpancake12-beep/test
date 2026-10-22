@@ -14,7 +14,19 @@ export interface Config {
   /** production 时不允许开发用的短信、默认密钥等 */
   env: "development" | "test" | "production";
   sms: { provider: "dev" | "aliyun"; aliyunAccessKeyId?: string; aliyunAccessKeySecret?: string; signName?: string; templateCode?: string };
-  apple: { bundleId: string; appAppleId?: number; issuerId?: string; keyId?: string; privateKey?: string; environment: "Production" | "Sandbox" | "LocalTesting" };
+  apple: {
+    bundleId: string;
+    appAppleId?: number;
+    /** App Store Server API(内购)的密钥 */
+    issuerId?: string;
+    keyId?: string;
+    privateKey?: string;
+    environment: "Production" | "Sandbox" | "LocalTesting";
+    /** Sign in with Apple 的密钥(和内购密钥不是同一把),用于换取令牌和注销时撤销授权 */
+    teamId?: string;
+    signInKeyId?: string;
+    signInPrivateKey?: string;
+  };
   wechat: { appId?: string; appSecret?: string };
   ai: { baseUrl?: string; apiKey?: string; model?: string; dailyFree: number; dailyPremium: number };
   speech: { provider: "none" | "azure"; azureKey?: string; azureRegion?: string };
@@ -45,6 +57,9 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
       keyId: env.APPLE_KEY_ID,
       privateKey: env.APPLE_PRIVATE_KEY,
       environment: env.APPLE_ENVIRONMENT === "Production" ? "Production" : env.APPLE_ENVIRONMENT === "LocalTesting" ? "LocalTesting" : "Sandbox",
+      teamId: env.APPLE_TEAM_ID,
+      signInKeyId: env.APPLE_SIGNIN_KEY_ID,
+      signInPrivateKey: env.APPLE_SIGNIN_PRIVATE_KEY,
     },
     wechat: { appId: env.WECHAT_APP_ID, appSecret: env.WECHAT_APP_SECRET },
     ai: { baseUrl: env.AI_BASE_URL, apiKey: env.AI_API_KEY, model: env.AI_MODEL, dailyFree: num(env.AI_DAILY_FREE, 3), dailyPremium: num(env.AI_DAILY_PREMIUM, 60) },

@@ -49,7 +49,11 @@ export type AuthResult = z.infer<typeof AuthResult>;
 
 export const SmsSendReq = z.object({ phone: Phone });
 export const SmsVerifyReq = z.object({ phone: Phone, code: z.string().regex(/^\d{6}$/) });
-export const AppleLoginReq = z.object({ identityToken: z.string().min(10) });
+export const AppleLoginReq = z.object({
+  identityToken: z.string().min(10),
+  /** 苹果的一次性授权码:服务器用它换取刷新令牌,注销账号时向苹果撤销授权(苹果要求) */
+  authorizationCode: z.string().min(1).optional(),
+});
 export const WechatLoginReq = z.object({ code: z.string().min(1) });
 
 /** 进度用 JSON 传(日期是 ISO 字符串);服务器用 core 的合并规则合并多台设备的进度 */
