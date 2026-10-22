@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u7.l04", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107040,
+  "titleZh": "这个周末你打算干什么?", "goalZh": "会用 be going to 说自己的计划和打算", "canDoZh": "能说出自己这个周末的计划,比如\"我周六打算和朋友去爬山\"",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "en.going_to", "kind": "phrase", "pos": "verb", "text": "be going to", "zh": "打算;将要", "alt": ["going to", "gonna"], "features": { "ipa": "bi ˈɡoʊɪŋ tə" }, "noteZh": "be 要随人称变:I'm / she's / they're going to…,后面接动词原形;口语常读成 gonna。" },
+    { "id": "en.plan", "kind": "word", "pos": "noun", "text": "plan", "zh": "计划;安排", "features": { "ipa": "plæn" }, "noteZh": "Do you have any plans this weekend? 这周末有什么安排?(常用复数 plans)" },
+    { "id": "en.go_hiking", "kind": "phrase", "pos": "verb", "text": "go hiking", "zh": "去徒步;去爬山", "features": { "ipa": "ˌɡoʊ ˈhaɪkɪŋ" }, "noteZh": "美国人说\"去爬山\"多是 go hiking(走山路);climb 是真的攀爬。" },
+    { "id": "en.mountain", "kind": "word", "pos": "noun", "text": "mountain", "zh": "山", "features": { "ipa": "ˈmaʊntən" }, "noteZh": "美式 -tain 常读得很轻,像 \"moun-n\";in the mountains 在山里。" },
+    { "id": "en.lake", "kind": "word", "pos": "noun", "text": "lake", "zh": "湖", "features": { "ipa": "leɪk" }, "noteZh": "l 开头舌尖顶上齿龈;西雅图周围湖很多。" },
+    { "id": "en.stay_home", "kind": "phrase", "pos": "verb", "text": "stay home", "zh": "待在家里", "alt": ["stay at home"], "features": { "ipa": "ˌsteɪ ˈhoʊm" }, "noteZh": "美式常说 stay home(不加 at)。" },
+    { "id": "en.relax", "kind": "word", "pos": "verb", "text": "relax", "zh": "放松", "features": { "ipa": "rɪˈlæks" }, "noteZh": "重音在后 re-LAX;stay home and relax 在家放松一下。" },
+    { "id": "en.homework", "kind": "word", "pos": "noun", "text": "homework", "zh": "作业", "features": { "ipa": "ˈhoʊmwɝːk" }, "noteZh": "不可数,不加 s:a lot of homework;写作业 do homework。" },
+    { "id": "en.a_lot_of", "kind": "phrase", "pos": "det", "text": "a lot of", "zh": "很多", "alt": ["lots of"], "features": { "ipa": "ə ˈlɑːt̬ əv" }, "noteZh": "美式连读像 \"a-la-da\";可数、不可数都能用:a lot of pictures / a lot of homework。" }
+  ],
+  "reviewItems": ["en.weekend", "en.saturday", "en.sunday", "en.take_pictures"],
+  "lines": [
+    { "speaker": "sofia", "text": "Hi, Lei! Do you have any plans this weekend?", "zh": "嗨,磊!这个周末有什么安排吗?", "items": ["en.hi", "en.have", "en.plan", "en.weekend"] },
+    { "speaker": "lei", "text": "Yes! I'm going to go hiking on Saturday.", "zh": "有!我周六打算去徒步。", "items": ["en.going_to", "en.go_hiking", "en.saturday"] },
+    { "speaker": "sofia", "text": "Cool! Where are you going to go?", "zh": "酷!你打算去哪儿?", "items": ["en.cool", "en.going_to", "en.go"] },
+    { "speaker": "lei", "text": "To the mountains, with Ethan and Marcus.", "zh": "去山里,和伊森、马库斯一起。", "items": ["en.mountain"] },
+    { "speaker": "lei", "text": "There's a beautiful lake. I'm going to take a lot of pictures!", "zh": "那儿有一个很美的湖。我要拍好多照片!", "items": ["en.beautiful", "en.lake", "en.going_to", "en.take_pictures", "en.a_lot_of"] },
+    { "speaker": "sofia", "text": "Nice! What are you going to do on Sunday?", "zh": "真好!那周日你打算做什么?", "items": ["en.nice", "en.going_to", "en.sunday"] },
+    { "speaker": "lei", "text": "I'm going to stay home, relax, and do my homework.", "zh": "我打算待在宿舍,放松一下,再写写作业。", "items": ["en.going_to", "en.stay_home", "en.relax", "en.homework"] },
+    { "speaker": "lei", "text": "I have a lot of homework. What about you?", "zh": "我作业可多了。你呢?", "items": ["en.have", "en.a_lot_of", "en.homework", "en.and_you"] },
+    { "speaker": "sofia", "text": "I have to work on Saturday.", "zh": "我周六得打工。", "items": ["en.have_to", "en.work", "en.saturday"] },
+    { "speaker": "sofia", "text": "On Sunday, I'm going to walk to the lake and take pictures.", "zh": "周日我打算走到湖边去,拍拍照。", "items": ["en.sunday", "en.going_to", "en.walk", "en.lake", "en.take_pictures"] }
+  ],
+  "questions": [
+    { "prompt": "磊周六打算做什么?", "options": ["待在宿舍休息", "去打工", "和伊森、马库斯去山里徒步"], "answer": 2, "explainZh": "I'm going to go hiking on Saturday. —— To the mountains, with Ethan and Marcus." },
+    { "prompt": "磊周日为什么打算待在宿舍?", "options": ["他周日要上班", "他想放松一下,而且作业很多", "那天要下雨"], "answer": 1, "explainZh": "I'm going to stay home, relax, and do my homework. I have a lot of homework." },
+    { "prompt": "索菲亚这个周末有什么安排?", "options": ["周六打工,周日去湖边拍照", "周六去徒步,周日待在家", "周六、周日都在家休息"], "answer": 0, "explainZh": "I have to work on Saturday. On Sunday, I'm going to walk to the lake and take pictures." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.be_going_to",
+      "titleZh": "be going to + 动词原形:说打算好的事",
+      "bodyZh": "说已经打算好、计划要做的事,用 be going to + 动词原形。be 要随主语变:I'm going to… / He's going to… / We're going to…。问别人的打算:What are you going to do this weekend? 表示将来的时间词一般放在句末:tomorrow、tonight、this weekend、on Saturday、next week。中国学生常见的错:漏掉 be(说成 I going to go hiking);to 后面的动词加了 -ing 或 -s(I'm going to goes)。I'm going to go hiking 里两个 go 都要说,不能省掉后一个。发音:口语里 going to 常读成 gonna,听到要认得;自己说完整的 going to 就很好。",
+      "examples": [
+        { "text": "I'm going to go hiking on Saturday.", "zh": "我周六打算去徒步。" },
+        { "text": "What are you going to do this weekend?", "zh": "你这个周末打算做什么?" },
+        { "text": "Ethan is going to play video games tonight.", "zh": "伊森今晚打算打游戏。" },
+        { "text": "We're going to see a movie next week.", "zh": "我们打算下周去看电影。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

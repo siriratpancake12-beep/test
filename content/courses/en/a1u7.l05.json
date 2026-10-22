@@ -1,0 +1,46 @@
+{
+  "id": "en.a1u7.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107050,
+  "titleZh": "七点半剧院门口见", "goalZh": "会商量见面的时间和地点,提出建议并确认", "canDoZh": "能和朋友约好见面的时间和地点,比如\"周五七点半在剧院门口见\"",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.lets", "kind": "phrase", "pos": "phrase", "text": "Let's", "zh": "我们……吧", "features": { "ipa": "lets" }, "noteZh": "Let's = Let us,后面接动词原形:Let's meet at seven.(不说 Let's to meet);回应可以说 OK! / Sounds good!" },
+    { "id": "en.meet", "kind": "word", "pos": "verb", "text": "meet", "zh": "见面;碰头", "features": { "ipa": "miːt" }, "noteZh": "Where do you want to meet? 在哪儿见?;meet 还有\"认识\"的意思(Nice to meet you)。" },
+    { "id": "en.how_about", "kind": "phrase", "pos": "phrase", "text": "How about", "zh": "……怎么样?(提建议)", "alt": ["What about"], "features": { "ipa": "ˌhaʊ əˈbaʊt" }, "noteZh": "How about seven? 七点怎么样?后面可以跟名词、时间、地点或动词-ing;提建议用升调。" },
+    { "id": "en.concert", "kind": "word", "pos": "noun", "text": "concert", "zh": "音乐会;演出", "features": { "ipa": "ˈkɑːnsɚt" }, "noteZh": "重音在前 CON-cert。" },
+    { "id": "en.band", "kind": "word", "pos": "noun", "text": "band", "zh": "乐队", "features": { "ipa": "bænd" }, "noteZh": "a 读 /æ/;词尾 nd 收住。" },
+    { "id": "en.theater", "kind": "word", "pos": "noun", "text": "theater", "zh": "剧院;电影院", "features": { "ipa": "ˈθiːət̬ɚ" }, "noteZh": "美式拼写 theater(英式 theatre),电影院也叫 movie theater;开头是清音 th /θ/。" },
+    { "id": "en.see_you_there", "kind": "phrase", "pos": "phrase", "text": "See you there", "zh": "到时候见", "features": { "ipa": "ˌsiː jə ˈðer" }, "noteZh": "约好地点后的道别语,用降调;there 的 th 是浊音。" },
+    { "id": "en.on_time", "kind": "phrase", "pos": "adv", "text": "on time", "zh": "准时", "features": { "ipa": "ɑːn ˈtaɪm" }, "noteZh": "美国人很看重准时;要迟到最好提前发消息说一声。" },
+    { "id": "en.cant_wait", "kind": "phrase", "pos": "phrase", "text": "I can't wait", "zh": "我等不及了;太期待了", "alt": ["I cannot wait", "Can't wait"], "features": { "ipa": "aɪ ˌkænt ˈweɪt" }, "noteZh": "表达期待的常用说法;can't 要重读。" }
+  ],
+  "reviewItems": ["en.friday", "en.in_front_of", "en.ticket", "en.group_chat"],
+  "lines": [
+    { "speaker": "lei", "text": "Hey, you guys! Marcus's band has a concert on Friday.", "zh": "嘿,大家!马库斯的乐队周五有一场演出。", "items": ["en.hey", "en.you_guys", "en.band", "en.have", "en.concert", "en.friday"] },
+    { "speaker": "lei", "text": "I have three tickets. Do you want to come?", "zh": "我有三张票。你们想来吗?", "items": ["en.have", "en.ticket", "en.do_you_want_to", "en.come"] },
+    { "speaker": "amy", "text": "Cool! I'm in! What time does it start?", "zh": "酷!算我一个!几点开始?", "items": ["en.cool", "en.im_in", "en.start"] },
+    { "speaker": "lei", "text": "At eight, at a theater downtown. Let's meet at 7:30.", "zh": "八点,在市中心的一家剧院。我们七点半碰头吧。", "items": ["en.theater", "en.downtown", "en.lets", "en.meet"] },
+    { "speaker": "sofia", "text": "Sounds good. Where do you want to meet?", "zh": "好的。在哪儿碰头?", "items": ["en.sounds_good", "en.do_you_want_to", "en.meet"] },
+    { "speaker": "amy", "text": "How about in front of the theater?", "zh": "剧院门口怎么样?", "items": ["en.how_about", "en.in_front_of", "en.theater"] },
+    { "speaker": "lei", "text": "Perfect! Please be on time, you guys.", "zh": "好极了!大家一定要准时哦。", "items": ["en.perfect", "en.on_time", "en.you_guys"] },
+    { "speaker": "sofia", "text": "Got it! I'm going to text the group chat on my way.", "zh": "知道了!我出发以后在群里说一声。", "items": ["en.got_it", "en.going_to", "en.text", "en.group_chat", "en.on_my_way"] },
+    { "speaker": "amy", "text": "See you there! I can't wait!", "zh": "到时候见!太期待了!", "items": ["en.see_you_there", "en.cant_wait"] }
+  ],
+  "questions": [
+    { "prompt": "演出几点开始?他们约几点碰头?", "options": ["七点半开始,八点碰头", "八点开始,七点半碰头", "八点开始,八点碰头"], "answer": 1, "explainZh": "磊说:At eight, at a theater downtown. Let's meet at 7:30.(八点开始,七点半碰头)" },
+    { "prompt": "他们约在哪儿见?", "options": ["马库斯打工的咖啡馆", "公交车站", "剧院门口"], "answer": 2, "explainZh": "艾米提议 How about in front of the theater?,磊说 Perfect!" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.lets_how_about",
+      "titleZh": "提建议:Let's… / How about…?",
+      "bodyZh": "提议大家一起做某事,用 Let's + 动词原形(Let's 就是 Let us):Let's meet at 7:30.(我们七点半见吧)。不说 Let's to meet,也不说 Let's meeting。想提一个具体的时间或地点让大家定,用 How about + 名词 / 时间 / 地点?:How about seven? How about in front of the theater? 同意可以说 Sounds good! / Perfect!;不合适就再提一个:How about eight?。顺便复习时间和地点的介词:几点用 at(at 7:30),星期几用 on(on Friday),\"在……门口\"用 in front of。发音:提建议的 How about seven? 用升调 ↗;确认的 See you there! 用降调 ↘。",
+      "examples": [
+        { "text": "Let's meet at 7:30.", "zh": "我们七点半碰头吧。" },
+        { "text": "How about in front of the theater?", "zh": "剧院门口怎么样?" },
+        { "text": "The concert starts at eight on Friday.", "zh": "演出周五八点开始。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

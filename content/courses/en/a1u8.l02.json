@@ -1,0 +1,55 @@
+{
+  "id": "en.a1u8.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 Last weekend", "order": 108020,
+  "titleZh": "你周末做了什么?", "goalZh": "会用规则动词的过去式讲做过的事,读准 -ed 的三种读音", "canDoZh": "能说出自己上周末做了哪几件事,比如\"打扫了房间、和爸妈视频、看了一场比赛\"",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.what_did_you_do", "kind": "phrase", "pos": "phrase", "text": "What did you do", "zh": "你(那时)做了什么?", "features": { "ipa": "ˌwʌt dɪdʒə ˈduː" }, "noteZh": "did you 连读成 \"di-ja\";What did you do last weekend? 你上周末干什么了?" },
+    { "id": "en.clean", "kind": "word", "pos": "verb", "text": "clean", "zh": "打扫;清洁", "features": { "ipa": "kliːn" }, "noteZh": "clean my room 打扫房间;过去式 cleaned 读 /kliːnd/。" },
+    { "id": "en.room", "kind": "word", "pos": "noun", "text": "room", "zh": "房间", "features": { "ipa": "ruːm" }, "noteZh": "my room 我的房间;roommate 里的 room 就是它。" },
+    { "id": "en.visit", "kind": "word", "pos": "verb", "text": "visit", "zh": "参观;拜访", "features": { "ipa": "ˈvɪzɪt" }, "noteZh": "过去式 visited 读 /ˈvɪzɪt̬ɪd/(t、d 结尾的动词 -ed 读 /ɪd/);v 上齿碰下唇。" },
+    { "id": "en.talk", "kind": "word", "pos": "verb", "text": "talk", "zh": "聊天;说话", "features": { "ipa": "tɑːk" }, "noteZh": "l 不发音;talk to someone 和某人聊;过去式 talked 读 /tɑːkt/。" },
+    { "id": "en.finish", "kind": "word", "pos": "verb", "text": "finish", "zh": "完成;做完", "features": { "ipa": "ˈfɪnɪʃ" }, "noteZh": "过去式 finished 读 /ˈfɪnɪʃt/;I finished my homework.。" },
+    { "id": "en.game", "kind": "word", "pos": "noun", "text": "game", "zh": "比赛", "features": { "ipa": "ɡeɪm" }, "noteZh": "watch a game 看比赛;美国大学的橄榄球赛、篮球赛是周末大事。video game 是电子游戏。" },
+    { "id": "en.video_call", "kind": "phrase", "pos": "noun", "text": "video call", "zh": "视频通话", "features": { "ipa": "ˈvɪdioʊ ˌkɑːl" }, "noteZh": "和家里视频:I talked to my mom on a video call.;video 的 v 别读成 w。" },
+    { "id": "en.ago", "kind": "word", "pos": "adv", "text": "ago", "zh": "……以前", "features": { "ipa": "əˈɡoʊ" }, "noteZh": "放在时间后面:two days ago 两天前、a week ago 一周前。" }
+  ],
+  "reviewItems": ["en.watch", "en.call", "en.study", "en.last"],
+  "lines": [
+    { "speaker": "sofia", "text": "Hi, Lei! What did you do last weekend?", "zh": "嗨,磊!你上周末做什么了?", "items": ["en.hi", "en.what_did_you_do", "en.last", "en.weekend"] },
+    { "speaker": "lei", "text": "On Saturday, I cleaned my room. Then I called my parents.", "zh": "周六我打扫了房间,然后给爸妈打了电话。", "items": ["en.saturday", "en.clean", "en.room", "en.then", "en.call", "en.parents"] },
+    { "speaker": "lei", "text": "It was a video call. My grandma talked a lot!", "zh": "是视频通话。我奶奶说了好多话!", "items": ["en.video_call", "en.grandma", "en.talk", "en.a_lot_of"] },
+    { "speaker": "lei", "text": "At night, Ethan and I watched a basketball game. What did you do?", "zh": "晚上我和伊森看了一场篮球赛。你呢,做什么了?", "items": ["en.night", "en.watch", "en.basketball", "en.game", "en.what_did_you_do"] },
+    { "speaker": "sofia", "text": "I visited the museum downtown. It was really cool.", "zh": "我去参观了市中心的博物馆,特别有意思。", "items": ["en.visit", "en.museum", "en.downtown", "en.really", "en.cool"] },
+    { "speaker": "sofia", "text": "And I talked to my sisters on a video call.", "zh": "我还和妹妹们视频聊天了。", "items": ["en.talk", "en.sister", "en.video_call"] },
+    { "speaker": "lei", "text": "Nice! Did you finish your homework?", "zh": "真好!你作业写完了吗?", "items": ["en.nice", "en.finish", "en.homework"] },
+    { "speaker": "sofia", "text": "Yes! I finished it two days ago.", "zh": "写完了!两天前就写完了。", "items": ["en.finish", "en.ago"] },
+    { "speaker": "lei", "text": "Me too! I studied all day on Sunday.", "zh": "我也是!我周日学了一整天。", "items": ["en.me_too", "en.study", "en.all_day", "en.sunday"] }
+  ],
+  "questions": [
+    { "prompt": "磊上周六做了哪些事?", "options": ["打扫房间、和家里视频,晚上看篮球赛", "参观博物馆,和妹妹们视频", "在宿舍睡了一整天"], "answer": 0, "explainZh": "On Saturday, I cleaned my room. Then I called my parents. …… At night, Ethan and I watched a basketball game." },
+    { "prompt": "索菲亚上周末做了什么?", "options": ["和伊森看了一场篮球赛", "打扫了房间", "参观了博物馆,还和妹妹们视频了"], "answer": 2, "explainZh": "I visited the museum downtown. …… And I talked to my sisters on a video call." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.past_ed",
+      "titleZh": "规则动词的过去式:加 -ed,读准三种音",
+      "bodyZh": "讲已经做过的事,动词要变成过去式。规则动词加 -ed:clean → cleaned,watch → watched,visit → visited;以 e 结尾的只加 -d(live → lived);辅音 + y 结尾的,把 y 变成 i 再加 -ed(study → studied)。过去式不随人称变,I / she / they 都是 cleaned。-ed 有三种读音:清辅音(k、p、s、ʃ、tʃ 等)后面读 /t/,如 talked、watched、finished;浊辅音和元音后面读 /d/,如 cleaned、called、studied;t、d 结尾的动词后面读 /ɪd/,多出一个音节,如 visited、started。中国学生常犯两种错:把 -ed 读成单独的\"的\",或者干脆漏掉不读——漏掉了,别人就听不出你说的是过去的事。",
+      "examples": [
+        { "text": "I cleaned my room.", "zh": "我打扫了房间。(cleaned 读 /d/)" },
+        { "text": "We watched a basketball game.", "zh": "我们看了一场篮球赛。(watched 读 /t/)" },
+        { "text": "Sofia visited a museum.", "zh": "索菲亚参观了一家博物馆。(visited 读 /ɪd/)" }
+      ]
+    },
+    {
+      "id": "en.g.past_did",
+      "titleZh": "过去的问句和否定:did + 动词原形",
+      "bodyZh": "问过去做了什么,要请 did 帮忙:What did you do last weekend? / Did you finish your homework? 否定用 didn't:I didn't call my parents.。关键一点:有了 did / didn't,后面的动词就回到原形——Did you finish…?(不说 Did you finished…?),I didn't call…(不说 I didn't called…)。简短回答:Yes, I did. / No, I didn't.。说\"……以前\"用 ago,放在时间后面:two days ago、a week ago(不说 before two days)。",
+      "examples": [
+        { "text": "What did you do last weekend?", "zh": "你上周末做什么了?" },
+        { "text": "Did you finish your homework? — Yes, I did.", "zh": "你作业写完了吗?——写完了。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

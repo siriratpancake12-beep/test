@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u7.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107020,
+  "titleZh": "你会什么?", "goalZh": "会用 can / can't 说自己会做和不会做的事,并听清美国人说的 can 和 can't", "canDoZh": "能说出自己会什么、不会什么(比如\"我会做川菜,但不会游泳\"),也能问朋友会不会",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.can", "kind": "word", "pos": "verb", "text": "can", "zh": "能;会", "features": { "ipa": "kæn" }, "noteZh": "后面接动词原形,不随人称变:She can dance.(不说 She cans dance / can dances);句中通常弱读成 /kən/,I can swim 听起来像 \"I kn swim\"。" },
+    { "id": "en.cant", "kind": "word", "pos": "verb", "text": "can't", "zh": "不能;不会", "alt": ["cannot", "can not", "cant"], "features": { "ipa": "kænt" }, "noteZh": "美式读 /kænt/,元音饱满、要重读;词尾 t 常常听不见,靠重音和元音和 can 区分。" },
+    { "id": "en.swim", "kind": "word", "pos": "verb", "text": "swim", "zh": "游泳", "features": { "ipa": "swɪm" }, "noteZh": "去游泳 go swimming(加 -ing 双写 m)。" },
+    { "id": "en.dance", "kind": "word", "pos": "verb", "text": "dance", "zh": "跳舞", "features": { "ipa": "dæns" }, "noteZh": "美式读 /dæns/,a 是 /æ/;加 -ing 去 e:dancing。" },
+    { "id": "en.sing", "kind": "word", "pos": "verb", "text": "sing", "zh": "唱歌", "features": { "ipa": "sɪŋ" }, "noteZh": "词尾 ng 是后鼻音 /ŋ/(舌根抬起),别读成 sin。" },
+    { "id": "en.cook", "kind": "word", "pos": "verb", "text": "cook", "zh": "做饭;烹饪", "features": { "ipa": "kʊk" }, "noteZh": "I can cook Chinese food.;cook 作名词是\"厨师\",cooker 是炊具。" },
+    { "id": "en.speak", "kind": "word", "pos": "verb", "text": "speak", "zh": "说(某种语言)", "features": { "ipa": "spiːk" }, "noteZh": "说语言用 speak:I can speak Chinese and English.;sp 之间不加元音。" },
+    { "id": "en.basketball", "kind": "word", "pos": "noun", "text": "basketball", "zh": "篮球", "features": { "ipa": "ˈbæskɪtbɑːl" }, "noteZh": "重音在前 BAS-ket-ball;打篮球 play basketball(球类前不加 the)。" },
+    { "id": "en.soccer", "kind": "word", "pos": "noun", "text": "soccer", "zh": "足球", "features": { "ipa": "ˈsɑːkɚ" }, "noteZh": "美国说 soccer;football 在美国指美式橄榄球!" },
+    { "id": "en.well", "kind": "word", "pos": "adv", "text": "well", "zh": "好(修饰动词)", "features": { "ipa": "wel" }, "noteZh": "She sings well. 她唱得好(good 是形容词,不修饰动词);词尾 l 舌尖要抬起来。" }
+  ],
+  "reviewItems": ["en.a_little", "en.really", "en.spicy"],
+  "lines": [
+    { "speaker": "amy", "text": "International Student Night is next week! What can you guys do?", "zh": "国际学生之夜就在下周!你们都会些什么?", "items": ["en.international_student", "en.night", "en.next", "en.week", "en.can", "en.you_guys"] },
+    { "speaker": "sofia", "text": "I can dance, and I can sing a little.", "zh": "我会跳舞,也会唱一点儿歌。", "items": ["en.can", "en.dance", "en.sing", "en.a_little"] },
+    { "speaker": "marcus", "text": "I can play the guitar really well!", "zh": "我会弹吉他,还弹得特别好!", "items": ["en.can", "en.play", "en.guitar", "en.really", "en.well"] },
+    { "speaker": "ethan", "text": "I can't sing, but I can play basketball and soccer!", "zh": "我不会唱歌,但我会打篮球和踢足球!", "items": ["en.cant", "en.sing", "en.can", "en.play", "en.basketball", "en.soccer"] },
+    { "speaker": "amy", "text": "Lei, can you sing or dance?", "zh": "磊,你会唱歌或者跳舞吗?", "items": ["en.can", "en.sing", "en.dance"] },
+    { "speaker": "lei", "text": "No, I can't. But I can cook really spicy Sichuan food!", "zh": "不会。不过我会做川菜,特别辣的那种!", "items": ["en.cant", "en.can", "en.cook", "en.really", "en.spicy", "en.food"] },
+    { "speaker": "amy", "text": "Perfect! Food is your job, then.", "zh": "太好了!那美食就交给你了。", "items": ["en.perfect", "en.food", "en.job", "en.then"] },
+    { "speaker": "ethan", "text": "Lei, you speak Chinese and English. But can you swim?", "zh": "磊,你中文、英语都会说。可你会游泳吗?", "items": ["en.speak", "en.can", "en.swim"] },
+    { "speaker": "lei", "text": "No, I can't.", "zh": "不会。", "items": ["en.cant"] },
+    { "speaker": "ethan", "text": "Come swimming with me on Sunday. It's fun!", "zh": "周日跟我去游泳吧,很好玩的!", "items": ["en.come", "en.swim", "en.sunday", "en.fun"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚会什么?", "options": ["弹吉他", "跳舞,也会唱一点儿歌", "做川菜"], "answer": 1, "explainZh": "索菲亚说:I can dance, and I can sing a little." },
+    { "prompt": "磊会唱歌或跳舞吗?", "options": ["会唱歌,不会跳舞", "会跳舞,不会唱歌", "都不会"], "answer": 2, "explainZh": "艾米问 Can you sing or dance?,磊答 No, I can't.;他会的是做川菜(I can cook really spicy Sichuan food)。" },
+    { "prompt": "伊森问磊会不会游泳,磊怎么回答?", "options": ["不会", "会一点儿", "会,游得很好"], "answer": 0, "explainZh": "Can you swim? —— No, I can't.。can't 读得重、元音饱满;如果是 can,会轻轻带过,读成 /kən/。" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.can_cant",
+      "titleZh": "can / can't + 动词原形:会、不会",
+      "bodyZh": "说\"会做某事\"用 can + 动词原形,\"不会\"用 can't + 动词原形。can 不随人称变,后面的动词也不加 -s:She can dance.(不说 She cans dance,也不说 She can dances)。问\"你会……吗?\"把 can 放到句首:Can you swim? 回答 Yes, I can. / No, I can't.。说\"做得好\"用 well 修饰动词:Marcus plays the guitar really well.(不说 very good,good 是形容词,只能修饰名词或放在 be 后面)。发音:美国人说 can 时常常弱读成 /kən/,一带而过;can't 读 /kænt/,元音饱满、重读,词尾的 t 常常听不见。所以听的时候别等那个 t,要听元音和重音:轻轻带过的是 can,读得又重又响的是 can't。",
+      "examples": [
+        { "text": "I can cook, but I can't swim.", "zh": "我会做饭,但不会游泳。" },
+        { "text": "Can you sing? — No, I can't.", "zh": "你会唱歌吗?——不会。" },
+        { "text": "Marcus plays the guitar really well.", "zh": "马库斯吉他弹得特别好。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}
