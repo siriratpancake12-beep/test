@@ -11,11 +11,11 @@
     { "id": "ko.eottaeyo", "kind": "phrase", "pos": "phrase", "text": "어때요", "zh": "怎么样?", "features": { "roman": "eottaeyo" }, "noteZh": "原形 어떻다;이거 어때요?= 这个怎么样?;回答 좋아요 / 예뻐요 / 좀 비싸요。" },
     { "id": "ko.yeppeoyo", "kind": "word", "pos": "adj", "text": "예뻐요", "zh": "漂亮;好看", "features": { "roman": "yeppeoyo" }, "noteZh": "原形 예쁘다(ㅡ 脱落,和 크다 → 커요 一样);紧音 ㅃ;夸东西、夸人都可以。" },
     { "id": "ko.maeume_deureoyo", "kind": "phrase", "pos": "phrase", "text": "마음에 들어요", "zh": "看中了;满意", "features": { "roman": "maeume deureoyo" }, "noteZh": "字面“进到心里”;挑东西时说 이거 마음에 들어요(这个我看中了);连音读 [마으메 드러요]。和 좋아해요(一向喜欢)不同。" },
-    { "id": "ko.igeollo_juseyo", "kind": "phrase", "pos": "phrase", "text": "이걸로 주세요", "zh": "就要这个", "features": { "roman": "igeollo juseyo" }, "noteZh": "이거 + (으)로(选定)+ 주세요,口语里 이거로 说成 이걸로;在几样东西里选定时说。" }
+    { "id": "ko.igeollo_juseyo", "kind": "phrase", "pos": "phrase", "text": "이걸로 주세요", "zh": "就要这个", "features": { "roman": "igeollo juseyo" }, "noteZh": "이걸로 是 이것으로 的口语说法,(으)로 表示选定;在几样东西里选定时说 이걸로 주세요。" }
   ],
   "reviewItems": ["ko.eomma", "ko.saengil", "ko.eolmayeyo", "ko.bissayo"],
   "lines": [
-    { "speaker": "jing", "text": "엄마 생일이 오월이에요. 생일 선물을 사고 싶어요.", "zh": "(四月底,宿舍里)我妈妈的生日在五月,我想买个生日礼物寄回杭州。", "roman": "eomma saengiri oworieyo. saengil seonmureul sago sipeoyo.", "items": ["ko.eomma", "ko.saengil", "ko.o", "ko.wol", "ko.seonmul", "ko.sayo"] },
+    { "speaker": "jing", "text": "엄마 생일이 오월이에요. 생일 선물을 사고 싶어요.", "zh": "(四月底,宿舍里。陈静想寄一份礼物回杭州)我妈妈的生日在五月,我想买个生日礼物。", "roman": "eomma saengiri oworieyo. saengil seonmureul sago sipeoyo.", "items": ["ko.eomma", "ko.saengil", "ko.o", "ko.wol", "ko.seonmul", "ko.sayo"] },
     { "speaker": "sua", "text": "뭐 사고 싶어요?", "zh": "你想买什么?", "roman": "mwo sago sipeoyo?", "items": ["ko.mwo", "ko.sayo"] },
     { "speaker": "jing", "text": "잘 몰라요. 뭐 살까요?", "zh": "我也不太清楚。买什么好呢?", "roman": "jal mollayo. mwo salkkayo?", "items": ["ko.jal", "ko.mollayo", "ko.mwo", "ko.sayo"] },
     { "speaker": "sua", "text": "화장품 어때요? 명동에 같이 가요!", "zh": "化妆品怎么样?我们一起去明洞吧!", "roman": "hwajangpum eottaeyo? myeongdonge gachi gayo!", "items": ["ko.hwajangpum", "ko.eottaeyo", "ko.gachi", "ko.gayo"] },

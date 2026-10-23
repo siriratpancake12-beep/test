@@ -1,0 +1,78 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-1 Nice to meet you", "cefr": "A1", "themeZh": "开学第一周:打招呼、介绍自己和别人、说来自哪里和专业、拼写名字、听不懂时请对方重复、交换电话号码" },
+    { "unit": "A1-2 Family & friends", "cefr": "A1", "themeZh": "家人和朋友:看照片介绍家人,说兄弟姐妹、年龄和职业,描述一个人的长相和性格" },
+    { "unit": "A1-3 Daily life", "cefr": "A1", "themeZh": "开学后的日常:问时间、讲自己和室友的作息、说多久做一次,找到校园咖啡馆的兼职" },
+    { "unit": "A1-4 Food & drinks", "cefr": "A1", "themeZh": "吃吃喝喝:在咖啡店点单和定制饮品,在餐厅点菜、结账、给小费,逛超市,最后自己站上咖啡馆柜台" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u1.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-1 Nice to meet you", "order": 101045,
+      "titleZh": "迎新周海报", "goalZh": "读懂迎新海报上志愿者的自我介绍,记住听不懂时开口求助的几句话",
+      "canDoZh": "能读懂迎新海报上的自我介绍和活动信息,知道遇到问题找谁、怎么开口",
+      "scenarioZh": "体裁:海报。说话人 narrator(艾米第一人称的自我介绍用 amy)。国际学生办公室贴在宿舍楼大厅的迎新周海报:上半部分是志愿者艾米的简短自我介绍(名字、来自西雅图、是这里的学生),下半部分列出'听不懂怎么办'的三句话(Sorry? / Could you say that again? / What does that mean?)和欢迎语。只用第 1–4 课的词,至少 6 句。",
+      "grammarFocusZh": "复习 I'm… / My name is… / I'm from… 和 be 动词;读海报先看标题和醒目的大字,再找名字、地点这些关键信息。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 16.5,
+      "newItems": [
+        { "id": "en.hello", "kind": "word", "pos": "interj", "text": "Hello", "zh": "你好;(接电话)喂", "features": { "ipa": "həˈloʊ" }, "noteZh": "比 Hi 稍正式,对谁都能说;重音在后 he-LLO。接电话说 Hello? 要用升调,意思是“喂?”。" },
+        { "id": "en.volunteer", "kind": "word", "pos": "noun", "text": "volunteer", "zh": "志愿者", "features": { "ipa": "ˌvɑːlənˈtɪr" }, "noteZh": "重音在最后 vol-un-TEER;美国大学的迎新周有很多学生志愿者,有问题可以直接找他们。" },
+        { "id": "en.office", "kind": "word", "pos": "noun", "text": "office", "zh": "办公室", "features": { "ipa": "ˈɑːfɪs" }, "noteZh": "美式 o 读 /ɑː/,嘴张大;the International Student Office 国际学生办公室,留学生办手续、有问题都去这里。" },
+        { "id": "en.ask", "kind": "word", "pos": "verb", "text": "ask", "zh": "问;请求", "features": { "ipa": "æsk" }, "noteZh": "美式 a 读 /æ/,词尾 sk 两个辅音都要读出来;问某人直接说 ask + 人:Ask me!,不说 ask to me。" }
+      ],
+      "reviewItems": ["en.international_student", "en.understand", "en.say_that_again", "en.slower_please", "en.what_does_that_mean"]
+    },
+    {
+      "id": "en.a1u1.l06", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-1 Nice to meet you", "order": 101060,
+      "titleZh": "社团招新日", "goalZh": "会用 we / they + are 说一群人,用 isn't / aren't 纠正说错的信息,并问答大学几年级",
+      "canDoZh": "能说出自己和朋友是几年级的学生,用 we / they 介绍一群人,并用 isn't / aren't 纠正别人说错的信息",
+      "scenarioZh": "迎新周的社团招新日,磊、伊森(ethan)和索菲亚(sofia)在各个摊位间转。艾米(amy)在国际学生社团的摊位前招呼大家,索菲亚说 We're international students, and we're freshmen.(Are you guys freshmen? — Yes, we are. 第 3 课已经出现过,这里不重复);艾米以为伊森也是国际学生,磊替他纠正:No, he isn't. He's from California.;艾米说自己是大二学生,英语叫 sophomore,索菲亚说她学生物。最后三人在报名表上写下名字和邮箱。senior 是第 8 课的词条,本课不用。",
+      "grammarFocusZh": "we / they + are,be 动词的否定 isn't / aren't,Are they…? 的简答;问年级 What year are you? — I'm a sophomore.(freshman 复习)。发音:we're /wɪr/、they're /ðer/ 的缩写,they're、their、there 读音相同。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25.5,
+      "newItems": [
+        { "id": "en.club", "kind": "word", "pos": "noun", "text": "club", "zh": "社团;俱乐部", "features": { "ipa": "klʌb" }, "noteZh": "u 读 /ʌ/,嘴巴放松、短促,不要读成“克拉布”;美国大学开学有社团招新日,一般叫 club fair。" },
+        { "id": "en.sign_up", "kind": "phrase", "pos": "verb", "text": "sign up", "zh": "报名;注册", "features": { "ipa": "ˌsaɪn ˈʌp" }, "noteZh": "sign 的 g 不发音;连读成 \"sai-nup\"。报名参加某个活动说 sign up for…:sign up for the club。" },
+        { "id": "en.write", "kind": "word", "pos": "verb", "text": "write", "zh": "写", "features": { "ipa": "raɪt" }, "noteZh": "开头的 w 不发音,和 right 读音一样;write your name 写下你的名字。" },
+        { "id": "en.name", "kind": "word", "pos": "noun", "text": "name", "zh": "名字", "features": { "ipa": "neɪm" }, "noteZh": "问名字说 What's your name?;表格上的 name 一般要写全名,只写名的地方会标 first name。" },
+        { "id": "en.biology", "kind": "word", "pos": "noun", "text": "biology", "zh": "生物学", "features": { "ipa": "baɪˈɑːlədʒi" }, "noteZh": "重音在第二个音节 bi-OL-o-gy;说专业不加冠词:My major is biology.。" },
+        { "id": "en.know", "kind": "word", "pos": "verb", "text": "know", "zh": "知道;认识", "features": { "ipa": "noʊ" }, "noteZh": "k 不发音,和 no 读音一样;不知道说 I don't know.;认识一个人也用 know:Do you know Amy?" },
+        { "id": "en.what_year_are_you", "kind": "phrase", "pos": "phrase", "text": "What year are you", "zh": "你读大几?;你几年级?", "features": { "ipa": "ˌwʌt ˈjɪr ɚ juː" }, "noteZh": "问大学几年级;回答 I'm a freshman. / I'm a sophomore.。year 开头的 /j/ 要发出来,别读成 ear(耳朵)。" },
+        { "id": "en.sophomore", "kind": "word", "pos": "noun", "text": "sophomore", "zh": "大二学生", "features": { "ipa": "ˈsɑːfmɔːr" }, "noteZh": "美式常读成两个音节 SOPH-more,中间的 o 几乎不读;拼写难,记住 soph-o-more。" }
+      ],
+      "reviewItems": ["en.international_student", "en.freshman", "en.friend", "en.major", "en.email"]
+    },
+    {
+      "id": "en.a1u1.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-1 Nice to meet you", "order": 101070,
+      "titleZh": "电话里报邮箱", "goalZh": "会接打电话、确认对方是谁,能把邮箱地址按英语习惯一个个报清楚、听清楚",
+      "canDoZh": "能接听陌生来电、用 This is… 说明自己是谁,并按英语习惯报出和听懂邮箱地址",
+      "scenarioZh": "迎新周的一个下午,磊的手机接连响了两次。第一个电话打错了(Is this Mike? — No, sorry. Wrong number.,打错电话的陌生人用 passerby);第二个是国际学生办公室的顾问(advisor),她说登记表上磊的邮箱看不清,请他报一遍。磊说 This is Lei.,把邮箱拆成字母和符号一个个读,顾问复述时错了一个字母,磊纠正后两人确认无误。邮箱用虚构的域名,不出现学校名。",
+      "grammarFocusZh": "电话用语:接电话说 Hello?,自报身份说 This is Lei.(电话里不说 I'm Lei),用 Is this…? 确认对方;邮箱读法 @ = at、. = dot、_ = underscore,复习字母读音。发音:at /æt/、dot /dɑːt/(美式 o 读 /ɑː/),接电话的 Hello? 用升调。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+      "newItems": [
+        { "id": "en.is_this", "kind": "phrase", "pos": "phrase", "text": "Is this", "zh": "(电话里)请问是……吗?", "features": { "ipa": "ˈɪz ðɪs" }, "noteZh": "打电话确认对方是谁用 Is this…?:Is this Lei?;电话里一般不说 Are you Lei?。回答 Yes, this is Lei.。" },
+        { "id": "en.whos_calling", "kind": "phrase", "pos": "phrase", "text": "Who's calling", "zh": "(电话里)请问您是哪位?", "features": { "ipa": "ˌhuːz ˈkɑːlɪŋ" }, "noteZh": "礼貌地问打来电话的人是谁:Who's calling, please?;别直接问 Who are you?,听起来很生硬。" },
+        { "id": "en.wrong_number", "kind": "phrase", "pos": "phrase", "text": "Wrong number", "zh": "(电话)打错了", "features": { "ipa": "ˌrɑːŋ ˈnʌmbɚ" }, "noteZh": "接到打错的电话说 Sorry, wrong number. 就行;wrong 的 w 不发音,读 /rɑːŋ/。" },
+        { "id": "en.bye", "kind": "word", "pos": "interj", "text": "Bye", "zh": "再见", "features": { "ipa": "baɪ" }, "noteZh": "比 Goodbye 随意,朋友之间、打电话结束时最常说:OK, bye! 也常说 Bye-bye。" },
+        { "id": "en.dot", "kind": "word", "pos": "noun", "text": "dot", "zh": "点(网址、邮箱里的 .)", "features": { "ipa": "dɑːt" }, "noteZh": "美式 o 读 /ɑː/,嘴张大,别读成“多特”;邮箱、网址里的 . 读 dot,不读 point(point 是小数点)。" },
+        { "id": "en.underscore", "kind": "word", "pos": "noun", "text": "underscore", "zh": "下划线(_)", "features": { "ipa": "ˈʌndɚskɔːr" }, "noteZh": "邮箱里的 _ 读 underscore,重音在前 UN-der-score;- 读 dash。" },
+        { "id": "en.again", "kind": "word", "pos": "adv", "text": "again", "zh": "再;又", "features": { "ipa": "əˈɡen" }, "noteZh": "美式常读 /əˈɡen/,和 ten 押韵;放在句末。What's your email again? 是“你的邮箱是什么来着?”,问以前说过、自己没记住的事。" }
+      ],
+      "reviewItems": ["en.sorry", "en.email", "en.office", "en.got_it", "en.thats_right"]
+    },
+    {
+      "id": "en.a1u1.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-1 Nice to meet you", "order": 101085,
+      "titleZh": "给教授的自我介绍邮件", "goalZh": "读懂一封自我介绍邮件,学会邮件的主题、称呼和落款,能照着写一封",
+      "canDoZh": "能读懂并仿写一封简单的自我介绍邮件:称呼、介绍自己和朋友、结尾署名",
+      "scenarioZh": "体裁:邮件。说话人 lei(第一人称)。第一节写作课后,教授(professor)请每个学生发邮件介绍自己。磊写道:自己叫 Lei Zhang(名在前、姓在后),来自中国成都,是大一新生,专业是计算机;室友伊森来自加州,索菲亚和他同上这门课;英语还不太好,听不懂时会请大家说慢一点。有主题(Subject)、称呼(Hi Professor)和署名(Best, Lei),至少 8 句。",
+      "grammarFocusZh": "复习本单元的 be 动词、物主形容词和 a / an;邮件格式 Subject、Hi / Dear…、Best;读的时候注意 I'm a freshman 里的冠词不能漏。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 15.5,
+      "newItems": [
+        { "id": "en.subject", "kind": "word", "pos": "noun", "text": "subject", "zh": "(邮件的)主题;科目", "features": { "ipa": "ˈsʌbdʒekt" }, "noteZh": "邮件第一行 Subject: 后面写主题,让人一眼看出邮件是关于什么的;u 读 /ʌ/,重音在前 SUB-ject。" },
+        { "id": "en.professor", "kind": "word", "pos": "noun", "text": "professor", "zh": "教授;(大学)老师", "features": { "ipa": "prəˈfesɚ" }, "noteZh": "重音在第二个音节 pro-FES-sor;美国大学生称呼老师用 Professor + 姓(Professor Brown),不说 Teacher Brown。" },
+        { "id": "en.best", "kind": "word", "pos": "adj", "text": "best", "zh": "最好的;(邮件落款)祝好", "features": { "ipa": "best" }, "noteZh": "邮件结尾常写 Best,(Best wishes 的简写),下一行写自己的名字;best 本身是 good 的最高级“最好的”。" }
+      ],
+      "reviewItems": ["en.first_name", "en.freshman", "en.computer_science", "en.roommate", "en.biology", "en.ask"]
+    }
+  ]
+}

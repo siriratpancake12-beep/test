@@ -1,0 +1,200 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-10 手机与网络", "cefr": "A1", "themeZh": "四月底,王伟的手机坏了,WG 的网络也出了问题:手机和电脑用语、手机套餐和价格、打客服热线、网购和取包裹、拼读邮箱、网上安全,还教霍夫曼先生用手机发照片。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u10.l01", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110010,
+      "titleZh": "手机和电脑",
+      "goalZh": "会说手机和电脑的常用词,用可分动词说开机、关机、充电",
+      "canDoZh": "能说出手机、电脑和网络的常用词,说说自己每天用手机做什么",
+      "scenarioZh": "四月底的一个晚上,在 WG 厨房,王伟的手机摔了一下,屏幕全黑了(规划里的 kaputt 是第 3 单元新增课的词,还没定,本课说 Der Bildschirm ist schwarz)。约纳斯问是不是没电了,索菲娅让他关机再开机,还是黑屏;约纳斯说要换手机或者换屏幕。接着大家聊每天用手机做什么:王伟发消息、拍照片给家里看;约纳斯的手机很旧,只有三个 App,只听音乐;索菲娅每天晚上看视频,还找不到自己的充电线。说话人:wei、jonas、sofia。",
+      "grammarFocusZh": "可分动词复习:das Handy anmachen / ausmachen / aufladen(Ich lade das Handy auf.),和 können 连用时前缀不分开;复合词(das Ladekabel = laden + das Kabel,der Bildschirm)",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "de.bildschirm", "kind": "word", "pos": "noun", "text": "der Bildschirm", "zh": "屏幕;显示器", "features": { "gender": "m", "plural": "die Bildschirme", "ipa": "ˈbɪltʃɪʁm" }, "noteZh": "das Bild(图像)+ der Schirm(屏;伞),性看最后一个词:der;手机、电脑的屏幕都叫 Bildschirm,也常说 das Display;Bild 末尾的 d 读 [t]。" },
+        { "id": "de.akku", "kind": "word", "pos": "noun", "text": "der Akku", "zh": "(手机、电脑的)电池", "features": { "gender": "m", "plural": "die Akkus", "ipa": "ˈaku" }, "noteZh": "Akkumulator 的简称,说手机电池都用它:Der Akku ist leer.(没电了);阳性,复数加 -s。" },
+        { "id": "de.leer", "kind": "word", "pos": "adj", "text": "leer", "zh": "空的;没电的", "features": { "ipa": "leːɐ̯" }, "noteZh": "Der Akku ist leer.(电池没电了。)/ Der Kühlschrank ist leer.(冰箱空了。);反义词 voll(满);ee 读长音 [eː]。" },
+        { "id": "de.aufladen", "kind": "word", "pos": "verb", "text": "aufladen", "zh": "充电", "features": { "ipa": "ˈaʊ̯fˌlaːdn̩" }, "noteZh": "可分、不规则:Ich lade das Handy auf. / Er lädt das Handy auf.;和 einladen(邀请)一样,du / er 的 a 变成 ä。" },
+        { "id": "de.anmachen", "kind": "word", "pos": "verb", "text": "anmachen", "zh": "打开(电器、灯)", "features": { "ipa": "ˈanˌmaxn̩" }, "noteZh": "可分:Ich mache das Handy an.(我开机);灯、电视、电脑都能用;反义词 ausmachen;比 einschalten 更口语。" },
+        { "id": "de.ausmachen", "kind": "word", "pos": "verb", "text": "ausmachen", "zh": "关掉(电器、灯)", "features": { "ipa": "ˈaʊ̯sˌmaxn̩" }, "noteZh": "可分:Ich mache den Laptop aus.(我关电脑);反义词 anmachen;关机再开机:ausmachen und wieder anmachen。" },
+        { "id": "de.ladekabel", "kind": "word", "pos": "noun", "text": "das Ladekabel", "zh": "充电线", "features": { "gender": "n", "plural": "die Ladekabel", "ipa": "ˈlaːdəˌkaːbl̩" }, "noteZh": "laden(充电)+ das Kabel(线),性看最后一个词:das;复数不变:zwei Ladekabel。" },
+        { "id": "de.app", "kind": "word", "pos": "noun", "text": "die App", "zh": "应用程序;App", "features": { "gender": "f", "plural": "die Apps", "ipa": "ɛp" }, "noteZh": "英语外来词,读 [ɛp];阴性(是 die Applikation 的简称);复数加 -s:drei Apps。" },
+        { "id": "de.video", "kind": "word", "pos": "noun", "text": "das Video", "zh": "视频", "features": { "gender": "n", "plural": "die Videos", "ipa": "ˈviːdeo" }, "noteZh": "外来词里的 v 读 [v](不读 [f]):VI-de-o;中性,复数加 -s;Videos sehen(看视频)。" },
+        { "id": "de.bild", "kind": "word", "pos": "noun", "text": "das Bild", "zh": "图片;照片;画", "features": { "gender": "n", "plural": "die Bilder", "ipa": "bɪlt" }, "noteZh": "手机拍的照片可以说 Bilder:Ich mache Bilder.(我拍照片。);墙上挂的画也是 das Bild;复数 Bilder;词尾 d 读 [t]。" }
+      ],
+      "reviewItems": ["de.handy", "de.nachricht", "de.jeder", "de.immer", "de.wieder"]
+    },
+    {
+      "id": "de.a1u10.l02", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110020,
+      "titleZh": "在手机店:换个套餐",
+      "goalZh": "会用 wie + 形容词问价格和期限,听懂 pro Monat,选一个手机套餐",
+      "canDoZh": "能在手机店问套餐的价格、流量和合同期限,决定选哪一种",
+      "scenarioZh": "周六王伟去手机店(不写真实品牌)。男店员问他要合同(der Vertrag)还是预付卡(die Prepaidkarte):合同每月 19,99 欧元、20 GB、签两年;预付卡每月 9,99 欧元、10 GB、每个月都能退订(kündigen)。王伟问 Wie teuer …? Wie lange …? Wie viele Gigabyte …?,觉得 20 GB 用不着,选了预付卡;店员要看他的护照,给他新的 SIM 卡。规划里 Wie schnell? 的 schnell 是第 2 单元新增课的词,还没定,本课不用;pro 已由 u13.l01 登记,规划里 pro 是本课的语法点,本课登记。说话人:verkaeufer、wei。",
+      "grammarFocusZh": "wie + 形容词提问(Wie teuer …? Wie lange …? Wie viele …?);价格和 pro(9,99 Euro pro Monat);价格的读法复习(neun Euro neunundneunzig)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "de.vertrag", "kind": "word", "pos": "noun", "text": "der Vertrag", "zh": "合同", "features": { "gender": "m", "plural": "die Verträge", "ipa": "fɛɐ̯ˈtʁaːk" }, "noteZh": "手机、房子、工作都要签 Vertrag;Der Vertrag ist zwei Jahre.(合同期两年);复数变音:Verträge;v 读 [f],词尾 g 读 [k]。" },
+        { "id": "de.prepaidkarte", "kind": "word", "pos": "noun", "text": "die Prepaidkarte", "zh": "预付卡(先充值后使用的手机卡)", "features": { "gender": "f", "plural": "die Prepaidkarten", "ipa": "ˈpʁiːpeɪ̯tˌkaʁtə" }, "noteZh": "英语 prepaid + die Karte,性看 Karte:die;不用签长合同,钱用完了再充;也写 Prepaid-Karte。" },
+        { "id": "de.sim_karte", "kind": "word", "pos": "noun", "text": "die SIM-Karte", "zh": "SIM 卡;手机卡", "features": { "gender": "f", "plural": "die SIM-Karten", "ipa": "ˈzɪmˌkaʁtə" }, "noteZh": "SIM 读 [zɪm];在德国办手机卡要出示护照或身份证;阴性,跟着 die Karte。" },
+        { "id": "de.pro", "kind": "word", "pos": "prep", "text": "pro", "zh": "每(每月、每人……)", "features": { "ipa": "pʁoː" }, "noteZh": "pro + 不带冠词的名词:9,99 Euro pro Monat(每月 9.99 欧元);中文“每月”放在价钱前面,德语 pro Monat 放在价钱后面。" },
+        { "id": "de.gigabyte", "kind": "word", "pos": "noun", "text": "das Gigabyte", "zh": "千兆字节;GB(流量单位)", "features": { "gender": "n", "plural": "die Gigabyte", "ipa": "ˈɡiːɡaˌbaɪ̯t" }, "noteZh": "写作 GB,口语常说 Giga;数量后面不变复数:zehn Gigabyte;byte 按英语读 [baɪ̯t]。" },
+        { "id": "de.internet", "kind": "word", "pos": "noun", "text": "das Internet", "zh": "互联网;网络;上网流量", "features": { "gender": "n", "plural": "-", "ipa": "ˈɪntɐnɛt" }, "noteZh": "中性;im Internet(在网上);口语里 zehn Gigabyte Internet 指手机流量;重音在前:IN-ter-net。" },
+        { "id": "de.tarif", "kind": "word", "pos": "noun", "text": "der Tarif", "zh": "(手机、网络的)套餐;价目", "features": { "gender": "m", "plural": "die Tarife", "ipa": "taˈʁiːf" }, "noteZh": "手机套餐叫 der Handytarif;重音在后:ta-RIF;阳性。" },
+        { "id": "de.guenstig", "kind": "word", "pos": "adj", "text": "günstig", "zh": "便宜的;划算的", "features": { "ipa": "ˈɡʏnstɪç" }, "noteZh": "比 billig 好听:billig 有时带“便宜没好货”的意思,günstig 是“价钱划算”;词尾 -ig 读 [ɪç];ü 是短音。" },
+        { "id": "de.kuendigen", "kind": "word", "pos": "verb", "text": "kündigen", "zh": "解约;退订(合同)", "features": { "ipa": "ˈkʏndɪɡn̩" }, "noteZh": "den Vertrag kündigen(解除合同);Sie können jeden Monat kündigen.(每个月都可以退订);也是“辞职、辞退”的意思;ü 是短音 [ʏ]。" }
+      ],
+      "reviewItems": ["de.teuer", "de.wie_lange", "de.wie_viel", "de.monat", "de.pass"]
+    },
+    {
+      "id": "de.a1u10.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110030,
+      "titleZh": "先下载,再登录:说步骤",
+      "goalZh": "会用 zuerst / dann / danach / zum Schluss 说步骤,会用可分动词加情态动词",
+      "canDoZh": "能一步一步地说明怎么用手机做一件事,也能听懂别人的说明",
+      "scenarioZh": "王伟买了新手机。晚上索菲娅教他:先把旧手机的照片存好(speichern),再下载、安装 App,然后用邮箱登录(sich anmelden,第 9 单元学过)。王伟复述时把顺序说反了,索菲娅纠正:Zuerst musst du die Bilder speichern!;最后王伟打开 App,点一下,就能给莉娜发消息了。du 的命令式下个单元才教,本课用陈述句和情态动词说步骤。说话人:wei、sofia。",
+      "grammarFocusZh": "可分动词和情态动词连用时前缀不分开、放句末(Du musst die App herunterladen);zuerst / dann / danach / zum Schluss 说步骤,放句首时动词仍在第二位",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.herunterladen", "kind": "word", "pos": "verb", "text": "herunterladen", "zh": "下载", "features": { "ipa": "hɛˈʁʊntɐˌlaːdn̩" }, "noteZh": "可分:Ich lade die App herunter.;口语常说 runterladen;和情态动词连用时不分开:Du musst die App herunterladen.;du lädst … herunter。" },
+        { "id": "de.zuerst", "kind": "word", "pos": "adv", "text": "zuerst", "zh": "首先;先", "features": { "ipa": "tsuˈʔeːɐ̯st" }, "noteZh": "说步骤的第一步:Zuerst speicherst du die Bilder.;放句首时动词还在第二位,主语挪到动词后面;重音在 erst。" },
+        { "id": "de.danach", "kind": "word", "pos": "adv", "text": "danach", "zh": "之后;然后", "features": { "ipa": "daˈnaːx" }, "noteZh": "说下一步:Danach meldest du dich an.;意思和 dann 差不多;a 后面的 ch 读 [x]。" },
+        { "id": "de.zum_schluss", "kind": "phrase", "pos": "phrase", "text": "zum Schluss", "zh": "最后", "features": { "ipa": "tsʊm ˈʃlʊs" }, "noteZh": "说最后一步:Zum Schluss öffnest du die App.;der Schluss = 结尾;放句首时动词还在第二位。" },
+        { "id": "de.speichern", "kind": "word", "pos": "verb", "text": "speichern", "zh": "存储;保存", "features": { "ipa": "ˈʃpaɪ̯çɐn" }, "noteZh": "电脑、手机上的“保存”:die Bilder speichern;-ern 结尾的动词:ich speichere, du speicherst;sp 读 [ʃp],ei 读 [aɪ̯]。" },
+        { "id": "de.installieren", "kind": "word", "pos": "verb", "text": "installieren", "zh": "安装", "features": { "ipa": "ɪnstaˈliːʁən" }, "noteZh": "eine App installieren(安装 App);-ieren 动词重音在 lie,完成时 installiert(不加 ge-)。" },
+        { "id": "de.oeffnen", "kind": "word", "pos": "verb", "text": "öffnen", "zh": "打开", "features": { "ipa": "ˈœfnən" }, "noteZh": "Wie öffne ich die App?(怎么打开 App?);门、窗、文件都能用;du öffnest, er öffnet(词干以 n 结尾要加 e);第 7 单元的 geöffnet 就是它的过去分词。" },
+        { "id": "de.klicken", "kind": "word", "pos": "verb", "text": "klicken", "zh": "点击", "features": { "ipa": "ˈklɪkn̩" }, "noteZh": "用鼠标或手指点一下:Ich klicke hier.;ck 读 [k]。" },
+        { "id": "de.einfach", "kind": "word", "pos": "adj", "text": "einfach", "zh": "简单;容易", "features": { "ipa": "ˈaɪ̯nfax" }, "noteZh": "Das ist einfach!(这很简单!);反义词 schwer / kompliziert;a 后面的 ch 读 [x]。" }
+      ],
+      "reviewItems": ["de.app", "de.bild", "de.anmelden", "de.e_mail", "de.nachricht"]
+    },
+    {
+      "id": "de.a1u10.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110040,
+      "titleZh": "网断了!——打客服热线",
+      "goalZh": "听懂热线的语音菜单,按要求按键,向客服说清楚网络的情况",
+      "canDoZh": "能听懂客服热线的语音菜单并按键选择,向客服说明网络问题",
+      "scenarioZh": "WG 的网络(das WLAN)两天都上不了。约纳斯上晚班,王伟给网络公司(不写真实名称)的热线打电话:先是语音菜单(Für die Rechnung drücken Sie die Eins …),然后等候;女客服问客户号码和地址(Musterstraße 12),问路由器(der Router)的灯是什么颜色(红灯在闪),让他把路由器关掉,一分钟后再打开;灯变绿,网又有了。规划里的 Problem、funktionieren 是第 3 单元新增课的词,还没定,本课说 Wir haben seit zwei Tagen kein WLAN.。说话人:durchsage(语音菜单)、mitarbeiterin、wei。",
+      "grammarFocusZh": "Sie 的命令式复习(Drücken Sie die Zwei! Machen Sie den Router aus!);听懂数字和颜色;可分动词 ausmachen / anmachen;seit 复习(Wir haben seit zwei Tagen kein Internet)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "newItems": [
+        { "id": "de.wlan", "kind": "word", "pos": "noun", "text": "das WLAN", "zh": "无线网络;Wi-Fi", "features": { "gender": "n", "plural": "die WLANs", "ipa": "ˈveːlaːn" }, "noteZh": "德国人读 [ˈveːlaːn](W 读 we,LAN 读 lan),一般不说 Wi-Fi;中性:Wir haben kein WLAN.(我们没网了。)" },
+        { "id": "de.router", "kind": "word", "pos": "noun", "text": "der Router", "zh": "路由器", "features": { "gender": "m", "plural": "die Router", "ipa": "ˈʁuːtɐ" }, "noteZh": "英语外来词,德国人一般读 [ˈʁuːtɐ](像 Ruter);阳性,复数不变。" },
+        { "id": "de.druecken", "kind": "word", "pos": "verb", "text": "drücken", "zh": "按;压", "features": { "ipa": "ˈdʁʏkn̩" }, "noteZh": "按按钮、按键:Drücken Sie die Eins.(请按 1。);ü 是短音 [ʏ];门上写 Drücken 是“推”。" },
+        { "id": "de.kundennummer", "kind": "word", "pos": "noun", "text": "die Kundennummer", "zh": "客户号码", "features": { "gender": "f", "plural": "die Kundennummern", "ipa": "ˈkʊndn̩ˌnʊmɐ" }, "noteZh": "der Kunde(客户)+ die Nummer(号码),性看 Nummer:die;客服电话里第一件事常常就是问它;号码要一位一位地读。" },
+        { "id": "de.licht", "kind": "word", "pos": "noun", "text": "das Licht", "zh": "灯光;光", "features": { "gender": "n", "plural": "die Lichter", "ipa": "lɪçt" }, "noteZh": "Das Licht ist grün.(灯是绿的);开灯、关灯:das Licht anmachen / ausmachen;ch 读 [ç]。" },
+        { "id": "de.gruen", "kind": "word", "pos": "adj", "text": "grün", "zh": "绿色的", "features": { "ipa": "ɡʁyːn" }, "noteZh": "ü 是长音 [yː];颜色放在 sein 后面不变:Das Licht ist grün.;复习颜色:rot, blau, schwarz, weiß。" },
+        { "id": "de.blinken", "kind": "word", "pos": "verb", "text": "blinken", "zh": "闪烁;闪", "features": { "ipa": "ˈblɪŋkn̩" }, "noteZh": "Das Licht blinkt rot.(灯闪着红光);nk 读 [ŋk]。" },
+        { "id": "de.hotline", "kind": "word", "pos": "noun", "text": "die Hotline", "zh": "热线;客服电话", "features": { "gender": "f", "plural": "die Hotlines", "ipa": "ˈhɔtlaɪ̯n" }, "noteZh": "英语外来词,阴性;德国的热线常先放语音菜单(按 1、按 2),再转人工。" }
+      ],
+      "reviewItems": ["de.internet", "de.ausmachen", "de.anmachen", "de.seit", "de.warten", "de.rechnung"]
+    },
+    {
+      "id": "de.a1u10.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110045,
+      "titleZh": "订单确认和取件通知",
+      "goalZh": "读懂订单确认、快递短信和取件通知,知道什么时候、去哪儿、带什么取包裹",
+      "canDoZh": "能读懂网购的订单确认和包裹通知,找出送货时间和取件地点",
+      "scenarioZh": "体裁:订单确认邮件、快递短信和取件通知单(商店和快递公司都不写真实名称)。王伟在网上买了手机壳和充电线。他读了三样东西:订单确认(商品、价格、4 月 29 日送到);快递短信(明天 10 到 14 点送);信箱里的取件单(家里没人,包裹在 Karl-Marx-Straße 的邮局,明天起可以去取,带证件,七天内)。最后两句是王伟的想法:他上午在学校,明天去取。abholen 已由 u15.l03 登记,本课先登记(取件通知离不开它)。说话人:narrator(邮件、短信和通知)、wei(最后两句)。",
+      "grammarFocusZh": "复习:日期、钟点、von … bis …、Sie 的命令式(Bitte bringen Sie Ihren Ausweis mit!);复合词(die Handyhülle = das Handy + die Hülle)",
+      "skills": ["read", "write"], "estimatedMinutes": 17.5,
+      "newItems": [
+        { "id": "de.bestellung", "kind": "word", "pos": "noun", "text": "die Bestellung", "zh": "订单;订购", "features": { "gender": "f", "plural": "die Bestellungen", "ipa": "bəˈʃtɛlʊŋ" }, "noteZh": "动词 bestellen(第 4 单元点菜学过)+ -ung 变成名词,阴性;Vielen Dank für Ihre Bestellung!——网店邮件的第一句。" },
+        { "id": "de.handyhuelle", "kind": "word", "pos": "noun", "text": "die Handyhülle", "zh": "手机壳", "features": { "gender": "f", "plural": "die Handyhüllen", "ipa": "ˈhɛndiˌhʏlə" }, "noteZh": "das Handy + die Hülle(套子),性看最后一个词:die;Handy 是德国人自己用的“英语词”,英语里不这么说。" },
+        { "id": "de.abholen", "kind": "word", "pos": "verb", "text": "abholen", "zh": "取;接", "features": { "ipa": "ˈapˌhoːlən" }, "noteZh": "可分:Ich hole das Paket ab.(我去取包裹);也表示接人:Ich hole dich am Bahnhof ab.;前缀 ab 重读。" },
+        { "id": "de.liefern", "kind": "word", "pos": "verb", "text": "liefern", "zh": "送货;交付", "features": { "ipa": "ˈliːfɐn" }, "noteZh": "Wir liefern Ihr Paket am 29. April.(我们 4 月 29 日给您送货);-ern 结尾:ich liefere, er liefert;ie 读长音 [iː]。" }
+      ],
+      "reviewItems": ["de.paket", "de.ladekabel", "de.ausweis", "de.mitbringen", "de.vormittag"]
+    },
+    {
+      "id": "de.a1u10.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110050,
+      "titleZh": "你的邮箱是什么?",
+      "goalZh": "会说、会拼读邮箱地址,听懂 Punkt、Bindestrich、Unterstrich、At-Zeichen",
+      "canDoZh": "能拼读自己的邮箱地址和用户名,听写别人的邮箱",
+      "scenarioZh": "德语课上瓦格纳老师要做一个班级邮件列表(die Liste)。她请每个人说邮箱:王伟说 wei.wang@example.org(示例地址,不用真实邮箱),拼读 W-E-I,说明中间是点、不是横线或下划线、全是小写;索菲娅的邮箱里有下划线,姓 Rossi 里有两个 S,老师先写成一个 S,索菲娅再拼一遍,老师改过来。新定下:索菲娅姓 Rossi,瓦格纳老师叫她 Frau Rossi。说话人:wagner、wei、sofia。",
+      "grammarFocusZh": "拼读复习(第 7 单元的字母表)和 Punkt / Bindestrich / Unterstrich / At-Zeichen / kleine Buchstaben 的说法;Wie ist Ihre E-Mail-Adresse?",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "de.e_mail_adresse", "kind": "word", "pos": "noun", "text": "die E-Mail-Adresse", "zh": "电子邮箱地址", "features": { "gender": "f", "plural": "die E-Mail-Adressen", "ipa": "ˈiːmeɪ̯l ʔaˌdʁɛsə" }, "noteZh": "die E-Mail + die Adresse,性看 Adresse:die;Wie ist Ihre E-Mail-Adresse?(您的邮箱地址是什么?)——问地址、名字、电话号码都用 wie。" },
+        { "id": "de.liste", "kind": "word", "pos": "noun", "text": "die Liste", "zh": "名单;清单;列表", "features": { "gender": "f", "plural": "die Listen", "ipa": "ˈlɪstə" }, "noteZh": "eine Liste machen(列个单子);die E-Mail-Liste(邮件列表);阴性,i 是短音。" },
+        { "id": "de.buchstabe", "kind": "word", "pos": "noun", "text": "der Buchstabe", "zh": "字母", "features": { "gender": "m", "plural": "die Buchstaben", "ipa": "ˈbuːxˌʃtaːbə" }, "noteZh": "kleine / große Buchstaben(小写 / 大写字母);和 buchstabieren(拼读,第 7 单元)是一家;-e 结尾却是阳性。" },
+        { "id": "de.bindestrich", "kind": "word", "pos": "noun", "text": "der Bindestrich", "zh": "连字符;短横线(-)", "features": { "gender": "m", "plural": "die Bindestriche", "ipa": "ˈbɪndəˌʃtʁɪç" }, "noteZh": "binden(连起来)+ der Strich(线);邮箱、网址里的 - 读 Bindestrich;ch 读 [ç]。" },
+        { "id": "de.unterstrich", "kind": "word", "pos": "noun", "text": "der Unterstrich", "zh": "下划线(_)", "features": { "gender": "m", "plural": "die Unterstriche", "ipa": "ˈʊntɐˌʃtʁɪç" }, "noteZh": "unter(下面)+ der Strich(线);邮箱里的 _ 读 Unterstrich;重音在前。" },
+        { "id": "de.at_zeichen", "kind": "word", "pos": "noun", "text": "das At-Zeichen", "zh": "@ 符号(读作 ät)", "features": { "gender": "n", "plural": "die At-Zeichen", "ipa": "ˈɛtˌtsaɪ̯çn̩" }, "noteZh": "说邮箱时 @ 读 ät(按英语 at 读),也有人叫它 Klammeraffe(“抓着的猴子”);das Zeichen = 符号。" },
+        { "id": "de.doppelt", "kind": "word", "pos": "adj", "text": "doppelt", "zh": "双的;两个", "features": { "ipa": "ˈdɔpl̩t" }, "noteZh": "拼读时说双写字母:Das S ist doppelt.(两个 S),也常说 Doppel-S;pp 前面的 o 是短音。" },
+        { "id": "de.korrigieren", "kind": "word", "pos": "verb", "text": "korrigieren", "zh": "改正;纠正;批改", "features": { "ipa": "kɔʁiˈɡiːʁən" }, "noteZh": "Ich korrigiere das.(我改一下);老师批改作业也用它;-ieren 动词重音在 gie。" }
+      ],
+      "reviewItems": ["de.buchstabieren", "de.punkt", "de.adresse", "de.klein", "de.kurs"]
+    },
+    {
+      "id": "de.a1u10.l06", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110060,
+      "titleZh": "密码和网上安全",
+      "goalZh": "认识网上安全的常用词,能说出保护密码的几条规则",
+      "canDoZh": "能看懂网上的安全提示,说出密码、账号、登录这些词,知道个人信息不能随便给别人",
+      "scenarioZh": "王伟收到一封奇怪的邮件,说他的银行账户被冻结了(gesperrt),要他点链接、写密码。他问莉娜;莉娜说这是骗人的(Betrug),银行从来不在邮件里要密码,链接不能点,邮件可以删掉;两人接着说密码的规则:要长、要保密、每个网站用不一样的密码,上网要小心。规划里“银行从来不问密码”的 fragen 是第 1 单元新增课的词,还没定,本课说 Eine Bank will dein Passwort nie in einer E-Mail.。说话人:wei、lena。",
+      "grammarFocusZh": "dürfen + man 复习(Den Link darfst du nicht öffnen / Darf man ein Passwort für zwei Websites benutzen?);nie / immer 复习(Eine Bank will dein Passwort nie …);müssen 说规则(Ein Passwort muss lang sein)",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26,
+      "newItems": [
+        { "id": "de.passwort", "kind": "word", "pos": "noun", "text": "das Passwort", "zh": "密码", "features": { "gender": "n", "plural": "die Passwörter", "ipa": "ˈpasvɔʁt" }, "noteZh": "中性,复数变音:Passwörter;w 读 [v]:PASS-wort;Das Passwort ist geheim.(密码要保密。)" },
+        { "id": "de.gesperrt", "kind": "word", "pos": "adj", "text": "gesperrt", "zh": "被锁住的;被冻结的", "features": { "ipa": "ɡəˈʃpɛʁt" }, "noteZh": "Mein Konto ist gesperrt.(我的账户被冻结了。);银行卡、账号、马路都能用;sp 读 [ʃp]。" },
+        { "id": "de.betrug", "kind": "word", "pos": "noun", "text": "der Betrug", "zh": "诈骗;欺骗", "features": { "gender": "m", "plural": "-", "ipa": "bəˈtʁuːk" }, "noteZh": "Das ist Betrug!(这是骗人的!);网上骗密码的邮件也叫 Phishing;词尾 g 读 [k]。" },
+        { "id": "de.link", "kind": "word", "pos": "noun", "text": "der Link", "zh": "链接", "features": { "gender": "m", "plural": "die Links", "ipa": "lɪŋk" }, "noteZh": "英语外来词,阳性;不认识的人发来的链接不要点;别和 links(左边)弄混。" },
+        { "id": "de.loeschen", "kind": "word", "pos": "verb", "text": "löschen", "zh": "删除;熄灭", "features": { "ipa": "ˈlœʃn̩" }, "noteZh": "eine E-Mail löschen(删除邮件);ö 是短音 [œ],sch 读 [ʃ]。" },
+        { "id": "de.geheim", "kind": "word", "pos": "adj", "text": "geheim", "zh": "秘密的;保密的", "features": { "ipa": "ɡəˈhaɪ̯m" }, "noteZh": "Das Passwort ist geheim.;ei 读 [aɪ̯];重音在 heim。" },
+        { "id": "de.website", "kind": "word", "pos": "noun", "text": "die Website", "zh": "网站", "features": { "gender": "f", "plural": "die Websites", "ipa": "ˈvɛpsaɪ̯t" }, "noteZh": "英语外来词,德国人读 [ˈvɛpsaɪ̯t];阴性;也说 die Webseite / die Internetseite。" },
+        { "id": "de.andere", "kind": "word", "pos": "adj", "text": "andere", "zh": "别的;另一个;不同的", "alt": ["anderer", "anderes", "anderen"], "features": { "ipa": "ˈandəʁə" }, "noteZh": "放在名词前,词尾跟着名词变:ein anderes Passwort(另一个密码)、eine andere Website(另一个网站)。" },
+        { "id": "de.vorsichtig", "kind": "word", "pos": "adj", "text": "vorsichtig", "zh": "小心的;谨慎的", "features": { "ipa": "ˈfoːɐ̯ˌzɪçtɪç" }, "noteZh": "Man muss im Internet vorsichtig sein.(上网要小心。);v 读 [f];词尾 -ig 读 [ɪç]。" }
+      ],
+      "reviewItems": ["de.klicken", "de.oeffnen", "de.sicher", "de.nie", "de.konto"]
+    },
+    {
+      "id": "de.a1u10.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110070,
+      "titleZh": "教霍夫曼先生发照片",
+      "goalZh": "会用 Sie 一步一步教长辈用手机,会说屏幕上的位置",
+      "canDoZh": "能用简单的德语一步一步教别人用手机做一件事",
+      "scenarioZh": "霍夫曼先生的女儿(住在慕尼黑,和外孙女一起,都不出场)送了他一部智能手机。他在楼梯间叫住王伟:Herr Wang, können Sie mir helfen?;王伟一步一步教他:先打开相机,按按钮拍照,再点右边、左边,把照片发给女儿(zuerst … dann … danach);霍夫曼先生先找眼镜,又说太复杂,请他慢一点、再说一遍;照片终于发出去了,他很高兴,请王伟星期天来喝咖啡。规划里的 das Foto 是第 2 单元新增课的词,还没定,本课用 das Bild;unten 已由 u15 登记,本课只用 links / rechts。说话人:hoffmann、wei。",
+      "grammarFocusZh": "用 zuerst / dann / danach 说步骤复习;对霍夫曼先生一直用 Sie(Zuerst machen Sie die Kamera an);可分动词复习;给谁发:ihnen / Ihrer Tochter 先当固定说法",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "newItems": [
+        { "id": "de.smartphone", "kind": "word", "pos": "noun", "text": "das Smartphone", "zh": "智能手机", "features": { "gender": "n", "plural": "die Smartphones", "ipa": "ˈsmaːɐ̯tfoːn" }, "noteZh": "英语外来词,中性;日常说 das Handy 就行,Smartphone 强调是智能手机;sm 读 [sm],不读 [ʃm]。" },
+        { "id": "de.tochter", "kind": "word", "pos": "noun", "text": "die Tochter", "zh": "女儿", "features": { "gender": "f", "plural": "die Töchter", "ipa": "ˈtɔxtɐ" }, "noteZh": "复数变音:Töchter;o 后面的 ch 读 [x];儿子是 der Sohn。" },
+        { "id": "de.enkelin", "kind": "word", "pos": "noun", "text": "die Enkelin", "zh": "孙女;外孙女", "features": { "gender": "f", "plural": "die Enkelinnen", "ipa": "ˈɛŋkəlɪn" }, "noteZh": "der Enkel(孙子、外孙)+ -in;德语不分“孙”和“外孙”;复数 Enkelinnen;nk 读 [ŋk]。" },
+        { "id": "de.kamera", "kind": "word", "pos": "noun", "text": "die Kamera", "zh": "相机;摄像头", "features": { "gender": "f", "plural": "die Kameras", "ipa": "ˈkaməʁa" }, "noteZh": "手机上的相机也叫 die Kamera;重音在前:KA-me-ra;复数加 -s。" },
+        { "id": "de.knopf", "kind": "word", "pos": "noun", "text": "der Knopf", "zh": "按钮;纽扣", "features": { "gender": "m", "plural": "die Knöpfe", "ipa": "knɔpf" }, "noteZh": "开头的 k 和 pf 都要读出来:k-nopf;复数变音:Knöpfe;Drücken Sie den Knopf.(按这个按钮。)" },
+        { "id": "de.kompliziert", "kind": "word", "pos": "adj", "text": "kompliziert", "zh": "复杂的", "features": { "ipa": "kɔmpliˈtsiːɐ̯t" }, "noteZh": "Das ist kompliziert!(这太复杂了!);反义词 einfach;z 读 [ts],重音在 ziert。" },
+        { "id": "de.brille", "kind": "word", "pos": "noun", "text": "die Brille", "zh": "眼镜", "features": { "gender": "f", "plural": "die Brillen", "ipa": "ˈbʁɪlə" }, "noteZh": "一副眼镜就是 eine Brille(单数!);Wo ist meine Brille?;双写 ll 前面的 i 是短音。" },
+        { "id": "de.senden", "kind": "word", "pos": "verb", "text": "senden", "zh": "发送", "features": { "ipa": "ˈzɛndn̩" }, "noteZh": "手机上的发送键常写 Senden;意思和 schicken 一样;du sendest, er sendet(词干以 d 结尾要加 e)。" }
+      ],
+      "reviewItems": ["de.zuerst", "de.danach", "de.druecken", "de.anmachen", "de.bild", "de.moment"]
+    },
+    {
+      "id": "de.a1u10.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110080,
+      "titleZh": "单元复习与应用:WG 开会换网络套餐",
+      "goalZh": "综合运用本单元的词和语法,在 WG 会上讨论网络套餐、说看法、一起做决定",
+      "canDoZh": "能在 WG 里讨论网络和费用,说出价格、网速和自己的看法,一起做决定",
+      "scenarioZh": "晚上 WG 开会:网太慢(规划里的 schnell 是第 2 单元新增课的词,还没定,本课说 zu langsam),约纳斯想换新套餐,每月多 10 欧元,索菲娅觉得太贵;王伟在网上查了三家公司(die Firma):第一家每月 30 欧元、合同两年,第二家 35 欧元、每个月都能退订,第三家 45 欧元、太贵;王伟提建议(der Vorschlag),大家选了第二家,每人每月多付 3,33 欧元。比较级 A2 才学;einverstanden 已由 u13.l06 登记,本课不用。说话人:jonas、sofia、wei。",
+      "grammarFocusZh": "复习:wie + 形容词、价格和 pro、可分动词、说步骤;说看法 Ich finde das zu teuer / Das ist nicht viel;提建议 Ich habe einen Vorschlag",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.firma", "kind": "word", "pos": "noun", "text": "die Firma", "zh": "公司", "features": { "gender": "f", "plural": "die Firmen", "ipa": "ˈfɪʁma" }, "noteZh": "复数是 Firmen(不是 Firmas);in einer Firma arbeiten(在公司工作);i 是短音。" },
+        { "id": "de.vorschlag", "kind": "word", "pos": "noun", "text": "der Vorschlag", "zh": "建议;提议", "features": { "gender": "m", "plural": "die Vorschläge", "ipa": "ˈfoːɐ̯ˌʃlaːk" }, "noteZh": "开会时说:Ich habe einen Vorschlag.(我有个建议。);复数变音:Vorschläge;v 读 [f],词尾 g 读 [k]。" }
+      ],
+      "reviewItems": ["de.tarif", "de.pro", "de.kuendigen", "de.vertrag", "de.wlan", "de.mehr"]
+    },
+    {
+      "id": "de.a1u10.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110085,
+      "titleZh": "在德国上网和付钱:我的发现",
+      "goalZh": "读懂王伟对照中德上网、付钱习惯的博客,说出几处不同",
+      "canDoZh": "能读懂一篇对照中国和德国生活习惯的博客短文,说出几处不同",
+      "scenarioZh": "体裁:博客。来德国快八个月了,王伟写他的发现:在中国他什么都用手机付钱,在德国很多人付现金,他们家附近的面包店只收现金;地铁里有时没信号(kein Netz),发不了消息;在德国大家上网很小心,名字和地址是私事,不爱写到网上;很多人发语音消息,莉娜每天给他发一条。最后他写:中国付钱很方便,德国人的小心也有道理,两边他都喜欢。比较级 A2 才学,用 In China … Aber in Deutschland … 对照着写。说话人:wei(博客)。",
+      "grammarFocusZh": "复习:es gibt、können / müssen、nicht / kein;对照的写法(In China … Aber in Deutschland …);用 man 说一般情况",
+      "skills": ["read", "write"], "estimatedMinutes": 18,
+      "newItems": [
+        { "id": "de.bargeld", "kind": "word", "pos": "noun", "text": "das Bargeld", "zh": "现金", "features": { "gender": "n", "plural": "-", "ipa": "ˈbaːɐ̯ˌɡɛlt" }, "noteZh": "bar(用现金,第 4 单元)+ das Geld;德国很多小店、面包店只收现金:Hier nur Bargeld!;不可数。" },
+        { "id": "de.netz", "kind": "word", "pos": "noun", "text": "das Netz", "zh": "网络;(手机)信号;网", "features": { "gender": "n", "plural": "die Netze", "ipa": "nɛts" }, "noteZh": "Ich habe kein Netz.(我手机没信号。);tz 读 [ts];中性。" },
+        { "id": "de.sprachnachricht", "kind": "word", "pos": "noun", "text": "die Sprachnachricht", "zh": "语音消息", "features": { "gender": "f", "plural": "die Sprachnachrichten", "ipa": "ˈʃpʁaːxˌnaːxʁɪçt" }, "noteZh": "die Sprache + die Nachricht(消息,第 5 单元);两个 ch 都在 a 后面,读 [x];德国年轻人很爱发语音。" },
+        { "id": "de.privat", "kind": "word", "pos": "adj", "text": "privat", "zh": "私人的;私密的", "features": { "ipa": "pʁiˈvaːt" }, "noteZh": "Das ist privat.(这是私事。);v 在这里读 [v];重音在后:pri-VAT。" }
+      ],
+      "reviewItems": ["de.seit", "de.man", "de.nachricht", "de.vorsichtig", "de.einfach"]
+    }
+  ]
+}

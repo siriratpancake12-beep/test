@@ -1,45 +1,45 @@
 {
   "id": "de.a1u15.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
   "unit": "A1-15 节日与生日", "order": 115010,
-  "titleZh": "保罗的生日邀请", "goalZh": "听懂电话里的聚会邀请,会用 dich / euch / uns,问时间、说自己几点到、问要带什么", "canDoZh": "能听懂聚会邀请,问清楚时间、地点、要不要带东西,答应或说晚点到",
+  "titleZh": "保罗的生日邀请", "goalZh": "听懂电话里的聚会邀请,会用 dich / euch / uns,问时间、说自己晚点到、问要带什么", "canDoZh": "能听懂聚会邀请,问清楚时间、地点、要不要带东西,答应或说晚点到",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
   "newItems": [
     { "id": "de.dich", "kind": "word", "pos": "pron", "text": "dich", "zh": "你(第四格,做宾语)", "features": { "ipa": "dɪç" }, "noteZh": "du 做宾语时变成 dich:Ich lade dich ein.(我邀请你。)中文的“你”做主语、宾语都一样,德语要变;ch 在 i 后面读 [ç]。" },
     { "id": "de.euch", "kind": "word", "pos": "pron", "text": "euch", "zh": "你们(做宾语)", "features": { "ipa": "ɔʏ̯ç" }, "noteZh": "ihr 做宾语时是 euch:Ich lade euch ein.(我邀请你们。)mit euch(和你们一起)也用这个形式;eu 读 [ɔʏ̯],像“奥伊”。" },
-    { "id": "de.uns", "kind": "word", "pos": "pron", "text": "uns", "zh": "我们(做宾语)", "features": { "ipa": "ʊns" }, "noteZh": "wir 做宾语时是 uns:Ihr findet uns im Hinterhof.(你们在后院能找到我们。)mit uns、von uns 也用 uns;Wir sehen uns!(回头见!)" },
+    { "id": "de.uns", "kind": "word", "pos": "pron", "text": "uns", "zh": "我们(做宾语)", "features": { "ipa": "ʊns" }, "noteZh": "wir 做宾语时是 uns:Ihr findet uns im Hinterhof.(你们在后院能找到我们。)mit uns、von uns 也用 uns;Dann sehen wir uns!(那到时候见!)" },
     { "id": "de.hinterhof", "kind": "word", "pos": "noun", "text": "der Hinterhof", "zh": "后院(楼房后面的院子)", "features": { "gender": "m", "plural": "die Hinterhöfe", "ipa": "ˈhɪntɐˌhoːf" }, "noteZh": "柏林的老楼后面常有一个或几个院子:hinter(在……后面)+ der Hof(院子);im Hinterhof(在后院)。复数变音:die Hinterhöfe。" },
     { "id": "de.grillen", "kind": "word", "pos": "verb", "text": "grillen", "zh": "烧烤;烤(肉)", "features": { "ipa": "ˈɡʁɪlən" }, "noteZh": "德国人夏天最爱的活动:Wir grillen im Hinterhof / im Park.;规则动词:ich grille, du grillst;烤架是 der Grill。" },
-    { "id": "de.alle", "kind": "word", "pos": "pron", "text": "alle", "zh": "大家;所有(的人)", "features": { "ipa": "ˈalə" }, "noteZh": "指人:Kommt ihr alle?(你们都来吗?)Das ist von uns allen.(这是我们大家送的。)第三格复数加 -n:allen;alles(一切)指事情,alle 指人或复数的东西。" },
+    { "id": "de.alle", "kind": "word", "pos": "pron", "text": "alle", "zh": "大家;所有(的人)", "features": { "ipa": "ˈalə" }, "noteZh": "指人:Ich lade euch alle ein!(我邀请你们大家!)Das ist von uns allen.(这是我们大家送的。)第三格复数加 -n:allen;alles(一切)指事情,alle 指人或复数的东西。" },
     { "id": "de.so", "kind": "word", "pos": "adv", "text": "so", "zh": "这么;那么", "features": { "ipa": "zoː" }, "noteZh": "加强语气:So ein Pech!(真倒霉!)Hier sind so viele Leute!(这儿人真多!)s 在元音前读 [z],像轻轻的 z。" },
-    { "id": "de.pech", "kind": "word", "pos": "noun", "text": "das Pech", "zh": "倒霉;运气不好", "features": { "gender": "n", "plural": "-", "ipa": "pɛç" }, "noteZh": "So ein Pech!(真倒霉!/太可惜了!)同情别人遇到的小倒霉事,语调先高后低、拖长一点;不可数,没有复数。" },
-    { "id": "de.bringen", "kind": "word", "pos": "verb", "text": "bringen", "zh": "带来;拿来", "features": { "ipa": "ˈbʁɪŋən" }, "noteZh": "完成时不规则:Ich habe Obst gebracht.;Was kann ich zur Party bringen?(我能带点什么去派对?)ng 读 [ŋ],g 不单独发音。" }
+    { "id": "de.pech", "kind": "word", "pos": "noun", "text": "das Pech", "zh": "倒霉;运气不好", "features": { "gender": "n", "plural": "-", "ipa": "pɛç" }, "noteZh": "So ein Pech!(真倒霉!/真不巧!)同情别人遇到的小倒霉事,语调先高后低、拖长一点;不可数,没有复数。" },
+    { "id": "de.laune", "kind": "word", "pos": "noun", "text": "die Laune", "zh": "心情;情绪", "features": { "gender": "f", "plural": "die Launen", "ipa": "ˈlaʊ̯nə" }, "noteZh": "gute Laune(好心情)、schlechte Laune(心情不好);邀请时常开玩笑说 Ihr müsst nur gute Laune mitbringen!(你们只要带着好心情来!)au 读 [aʊ̯]。" }
   ],
-  "reviewItems": ["de.einladen", "de.party", "de.anfangen", "de.passen", "de.hunger"],
+  "reviewItems": ["de.einladen", "de.mitbringen", "de.party", "de.spaeter", "de.problem"],
   "lines": [
     { "speaker": "paul", "text": "Hallo Wei, hier ist Paul! Am 14. Juni habe ich Geburtstag.", "zh": "(电话里)喂,王伟,我是保罗!6 月 14 日是我的生日。", "items": ["de.hallo", "de.hier", "de.sein", "de.am", "de.vier", "de.zehn", "de.juni", "de.haben", "de.ich", "de.geburtstag"] },
     { "speaker": "wei", "text": "Hallo Paul! Dann bist du siebzehn, oder?", "zh": "你好,保罗!那你就十七岁了,对吧?", "items": ["de.hallo", "de.dann", "de.sein", "de.du", "de.siebzehn", "de.oder"] },
-    { "speaker": "paul", "text": "Ja! Ich mache eine Party, und wir grillen im Hinterhof.", "zh": "对!我要开个派对,我们在后院烧烤。", "items": ["de.ja", "de.ich", "de.machen", "de.ein", "de.party", "de.und", "de.wir", "de.grillen", "de.in", "de.hinterhof"] },
-    { "speaker": "paul", "text": "Ich lade euch ein: dich, Sofia und Jonas!", "zh": "我邀请你们:你、索菲娅,还有约纳斯!", "items": ["de.ich", "de.einladen", "de.euch", "de.dich", "de.und"] },
+    { "speaker": "paul", "text": "Genau! Ich mache eine Party im Hinterhof, und wir grillen.", "zh": "没错!我在后院开个派对,我们烧烤。", "items": ["de.genau", "de.ich", "de.machen", "de.ein", "de.party", "de.in", "de.hinterhof", "de.und", "de.wir", "de.grillen"] },
+    { "speaker": "paul", "text": "Ich lade euch alle ein: dich, Sofia und Jonas!", "zh": "我邀请你们大家:你、索菲娅,还有约纳斯!", "items": ["de.ich", "de.einladen", "de.euch", "de.alle", "de.dich", "de.und"] },
     { "speaker": "wei", "text": "Vielen Dank! Wann fängt die Party an?", "zh": "太谢谢了!派对几点开始?", "items": ["de.vielen_dank", "de.wann", "de.anfangen", "de.party"] },
     { "speaker": "paul", "text": "Um sechs Uhr. Ihr findet uns im Hinterhof.", "zh": "六点。你们到后院就能找到我们。", "items": ["de.um", "de.sechs", "de.uhr", "de.ihr", "de.finden", "de.uns", "de.in", "de.hinterhof"] },
-    { "speaker": "wei", "text": "Sofia und ich arbeiten bis sechs. Wir sind um halb sieben da.", "zh": "索菲娅和我打工到六点,我们六点半到。", "items": ["de.und", "de.ich", "de.arbeiten", "de.bis", "de.sechs", "de.wir", "de.sein", "de.um", "de.halb", "de.sieben", "de.da"] },
+    { "speaker": "wei", "text": "Sofia und ich arbeiten bis sechs. Wir kommen ein bisschen später.", "zh": "索菲娅和我打工到六点,我们会晚一点到。", "items": ["de.und", "de.ich", "de.arbeiten", "de.bis", "de.sechs", "de.wir", "de.ich_komme_aus", "de.ein_bisschen", "de.spaeter"] },
     { "speaker": "wei", "text": "Und Jonas arbeitet bis sieben. Er kommt um acht.", "zh": "约纳斯上班到七点,他八点来。", "items": ["de.und", "de.arbeiten", "de.bis", "de.sieben", "de.er", "de.ich_komme_aus", "de.um", "de.acht"] },
-    { "speaker": "paul", "text": "So ein Pech! Aber das passt, wir grillen bis elf.", "zh": "真不巧!不过没关系,我们烤到十一点。", "items": ["de.so", "de.ein", "de.pech", "de.aber", "de.passen", "de.wir", "de.grillen", "de.bis", "de.elf"] },
-    { "speaker": "wei", "text": "Was kann ich zur Party bringen? Vielleicht Obst?", "zh": "我能带点什么去派对?带点水果?", "items": ["de.was", "de.koennen", "de.ich", "de.zu", "de.party", "de.bringen", "de.vielleicht", "de.obst"] },
-    { "speaker": "paul", "text": "Gern! Aber bitte kein Geschenk! Ihr müsst nur Hunger haben.", "zh": "好啊!不过千万别带礼物!你们只要饿着肚子来就行。", "items": ["de.gern", "de.aber", "de.bitte", "de.kein", "de.geschenk", "de.ihr", "de.muessen", "de.nur", "de.hunger", "de.haben"] },
-    { "speaker": "wei", "text": "Gut! Wir kommen alle mit Hunger. Bis dann!", "zh": "好!我们都饿着肚子去。回头见!", "items": ["de.gut", "de.wir", "de.ich_komme_aus", "de.alle", "de.mit", "de.hunger", "de.bis", "de.dann"] }
+    { "speaker": "paul", "text": "So ein Pech! Aber kein Problem, wir grillen bis elf.", "zh": "真不巧!不过没关系,我们烤到十一点。", "items": ["de.so", "de.ein", "de.pech", "de.aber", "de.kein", "de.problem", "de.wir", "de.grillen", "de.bis", "de.elf"] },
+    { "speaker": "wei", "text": "Was kann ich mitbringen? Vielleicht einen Salat?", "zh": "我带点什么去?带个沙拉?", "items": ["de.was", "de.koennen", "de.ich", "de.mitbringen", "de.vielleicht", "de.ein", "de.salat"] },
+    { "speaker": "paul", "text": "Gern! Aber bitte kein Geschenk! Ihr müsst nur gute Laune mitbringen.", "zh": "好啊!不过千万别带礼物!你们只要带着好心情来就行。", "items": ["de.gern", "de.aber", "de.bitte", "de.kein", "de.geschenk", "de.ihr", "de.muessen", "de.nur", "de.gut", "de.laune", "de.mitbringen"] },
+    { "speaker": "wei", "text": "Super! Dann sehen wir uns am 14. Bis dann!", "zh": "太好了!那我们 14 号见。回头见!", "items": ["de.toll", "de.dann", "de.sehen", "de.wir", "de.uns", "de.am", "de.vier", "de.zehn", "de.bis"] }
   ],
   "questions": [
-    { "prompt": "保罗的派对几点开始?", "options": ["六点半", "八点", "六点"], "answer": 2, "explainZh": "保罗说:Um sechs Uhr.(六点。)六点半是王伟和索菲娅到的时间,八点是约纳斯到的时间。" },
+    { "prompt": "保罗的派对几点开始?", "options": ["七点", "八点", "六点"], "answer": 2, "explainZh": "保罗说:Um sechs Uhr.(六点。)八点是约纳斯到的时间。" },
     { "prompt": "约纳斯为什么八点才到?", "options": ["他上班到七点", "他要去买礼物", "他要先去接索菲娅"], "answer": 0, "explainZh": "王伟说:Und Jonas arbeitet bis sieben. Er kommt um acht.(约纳斯上班到七点,八点来。)" },
-    { "prompt": "王伟问能不能带水果,保罗怎么说?", "options": ["什么都别带", "好啊,但是别带礼物", "带一个蛋糕吧"], "answer": 1, "explainZh": "保罗说:Gern! Aber bitte kein Geschenk! Ihr müsst nur Hunger haben.(好啊!不过别带礼物!你们只要饿着肚子来就行。)" }
+    { "prompt": "王伟问要不要带沙拉,保罗怎么说?", "options": ["什么都别带", "好啊,但是别带礼物", "带一个蛋糕吧"], "answer": 1, "explainZh": "保罗说:Gern! Aber bitte kein Geschenk! Ihr müsst nur gute Laune mitbringen.(好啊!不过别带礼物!你们只要带着好心情来就行。)" }
   ],
   "grammar": [
     { "id": "de.g.u15_akk_dich_euch_uns", "titleZh": "第四格代词(一):dich、euch、uns",
-      "bodyZh": "“邀请你”“找到我们”里的“你”“我们”是宾语。德语的人称代词做宾语时要换成第四格:du → dich,ihr → euch,wir → uns。\nIch lade dich ein.(我邀请你。)/ Ich lade euch ein.(我邀请你们。)/ Ihr findet uns im Hinterhof.(你们到后院就能找到我们。)\n中文的“你”当主语、当宾语都一样,英语的 you 也不变,所以中国学生常说成 ✗ Ich lade du ein。记住:动词后面的“你”是 dich,“你们”是 euch,“我们”是 uns。ich 的第四格 mich 和整张表在本单元第 3 课。\n语序:代词宾语紧跟在变位动词后面,可分动词的前缀还是放在句末:Ich lade euch ein.(✗ Ich einlade euch)。\n顺便学一句同情别人的话:So ein Pech!(真不巧!/真倒霉!)重音在 Pech 上,语调往下走、拖长一点。",
+      "bodyZh": "“邀请你”“找到我们”里的“你”“我们”是宾语。德语的人称代词做宾语时要换成第四格:du → dich,ihr → euch,wir → uns。\nIch lade dich ein.(我邀请你。)/ Ich lade euch alle ein.(我邀请你们大家。)/ Ihr findet uns im Hinterhof.(你们到后院就能找到我们。)\n中文的“你”当主语、当宾语都一样,英语的 you 也不变,所以中国学生常说成 ✗ Ich lade du ein。记住:动词后面的“你”是 dich,“你们”是 euch,“我们”是 uns。ich 的第四格 mich 和整张表在本单元第 3 课。\n语序:代词宾语紧跟在变位动词后面,可分动词的前缀还是放在句末:Ich lade euch ein.(✗ Ich einlade euch);Was kann ich mitbringen?(情态动词 + 句末的原形)。\n同情别人的一句话:So ein Pech!(真不巧!/真倒霉!)重音在 Pech 上,语调往下走、拖长一点。",
       "examples": [
         { "text": "Ich lade dich ein.", "zh": "我邀请你。" },
-        { "text": "Ich lade euch ein!", "zh": "我邀请你们!" },
+        { "text": "Ich lade euch alle ein!", "zh": "我邀请你们大家!" },
         { "text": "Ihr findet uns im Hinterhof.", "zh": "你们到后院就能找到我们。" },
         { "text": "So ein Pech!", "zh": "真不巧!" }
       ] }

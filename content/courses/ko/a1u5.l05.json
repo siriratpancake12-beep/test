@@ -17,7 +17,7 @@
   ],
   "reviewItems": ["ko.sueop", "ko.areubaiteu", "ko.ahop", "ko.yeol"],
   "lines": [
-    { "speaker": "sua", "text": "징 씨! 징 씨! 수업 없어요?", "zh": "(早上,秀雅使劲推还在睡觉的陈静)陈静!陈静!你没课吗?", "roman": "jing ssi! jing ssi! sueop eopseoyo?", "items": ["ko.ssi", "ko.sueop", "ko.eopseoyo"] },
+    { "speaker": "sua", "text": "징 씨! 징 씨! 수업 없어요?", "zh": "(星期二早上,秀雅使劲推还在睡觉的陈静)陈静!陈静!你没课吗?", "roman": "jing ssi! jing ssi! sueop eopseoyo?", "items": ["ko.ssi", "ko.sueop", "ko.eopseoyo"] },
     { "speaker": "jing", "text": "네? 지금 몇 시예요?", "zh": "啊?现在几点?", "roman": "ne? jigeum myeot siyeyo?", "items": ["ko.ne", "ko.jigeum", "ko.myeot", "ko.si"] },
     { "speaker": "sua", "text": "아홉 시 십 분이에요!", "zh": "九点十分了!", "roman": "ahop si sip bunieyo!", "items": ["ko.ahop", "ko.si", "ko.sip", "ko.bun"] },
     { "speaker": "jing", "text": "아홉 시 십 분이요? 수업이 아홉 시 반이에요!", "zh": "九点十分?我九点半上课!", "roman": "ahop si sip buniyo? sueobi ahop si banieyo!", "items": ["ko.ahop", "ko.si", "ko.sip", "ko.bun", "ko.sueop", "ko.ban"] },
@@ -31,7 +31,7 @@
     { "speaker": "choi", "text": "오후 두 시요. 네, 알겠습니다. 고마워요!", "zh": "下午两点。好,知道了。谢谢!", "roman": "ohu du siyo. ne, algetseumnida. gomawoyo!", "items": ["ko.ohu", "ko.dul", "ko.si", "ko.ne", "ko.algetseumnida", "ko.gomawoyo"] }
   ],
   "questions": [
-    { "prompt": "秀雅叫醒陈静时是几点?", "options": ["九点半", "九点十分", "十点"], "answer": 1, "explainZh": "第 3 句:아홉 시 십 분이에요 = 九点十分。“点”用固有数词 아홉,“分”用汉字数词 십。" },
+    { "prompt": "秀雅叫醒陈静时是几点?", "options": ["九点十分", "九点半", "十点"], "answer": 0, "explainZh": "第 3 句:아홉 시 십 분이에요 = 九点十分。“点”用固有数词 아홉,“分”用汉字数词 십。" },
     { "prompt": "陈静和秀雅今天各是几点的课?", "options": ["陈静九点,秀雅九点半", "陈静十点,秀雅九点半", "陈静九点半,秀雅十点"], "answer": 2, "explainZh": "第 4 句:수업이 아홉 시 반이에요(陈静九点半上课);第 7 句秀雅说 저는 오늘 열 시에 수업이 있어요(她十点有课)。" },
     { "prompt": "陈静什么时候去咖啡店打工?", "options": ["明天下午两点", "今天下午两点", "明天上午十点"], "answer": 0, "explainZh": "第 9、11 句:오늘은 안 해요. 내일 해요……오후 두 시에 해요(明天下午两点)。明天上午她有课。" }
   ],

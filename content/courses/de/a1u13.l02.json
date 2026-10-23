@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u13.l02", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113020,
+  "titleZh": "打电话问工作", "goalZh": "会打电话问工作:职位还在不在、要不要经验、什么时候能上班,约好试工的时间", "canDoZh": "能打电话问兼职还招不招人、工作时间和工资,约好见面时间",
+  "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.stelle", "kind": "word", "pos": "noun", "text": "die Stelle", "zh": "职位;工作岗位", "features": { "gender": "f", "plural": "die Stellen", "ipa": "ˈʃtɛlə" }, "noteZh": "st 在词首读 [ʃt];打电话问工作:Ist die Stelle noch frei?(这个职位还招人吗?)" },
+    { "id": "de.als", "kind": "word", "pos": "conj", "text": "als", "zh": "作为;当(+ 职业、身份)", "features": { "ipa": "als" }, "noteZh": "als + 职业,不加冠词:Ich arbeite als Aushilfe.(我当临时工。)Haben Sie schon als Kellner gearbeitet?;直接说职业也不加冠词:Ich bin Kellner.。" },
+    { "id": "de.erfahrung", "kind": "word", "pos": "noun", "text": "die Erfahrung", "zh": "经验", "features": { "gender": "f", "plural": "die Erfahrungen", "ipa": "ɛɐ̯ˈfaːʁʊŋ" }, "noteZh": "-ung 结尾的名词是阴性;找工作时常被问:Haben Sie Erfahrung?(您有经验吗?)不加冠词。" },
+    { "id": "de.kellner", "kind": "word", "pos": "noun", "text": "der Kellner", "zh": "(男)服务员", "features": { "gender": "m", "plural": "die Kellner", "ipa": "ˈkɛlnɐ" }, "noteZh": "女服务员是 die Kellnerin;在餐馆叫服务员一般说 Entschuldigung! 或 Hallo!,不直接喊 Kellner!" },
+    { "id": "de.jemand", "kind": "word", "pos": "pron", "text": "jemand", "zh": "某人;有人", "features": { "ipa": "ˈjeːmant" }, "noteZh": "Wir brauchen jemanden.(我们需要一个人。)第四格常说 jemanden;“没有人”是 niemand。词尾 d 读 [t]。" },
+    { "id": "de.sofort", "kind": "word", "pos": "adv", "text": "sofort", "zh": "马上;立刻", "features": { "ipa": "zoˈfɔʁt" }, "noteZh": "重音在 fort 上,s 读 [z];Können Sie sofort anfangen?(您能马上开始吗?)" },
+    { "id": "de.probearbeiten", "kind": "word", "pos": "noun", "text": "das Probearbeiten", "zh": "试工", "features": { "gender": "n", "plural": "-", "ipa": "ˈpʁoːbəˌʔaʁbaɪ̯tn̩" }, "noteZh": "die Probe(试)+ arbeiten;动词原形大写当名词,是中性:zum Probearbeiten kommen(来试工)。德国的餐馆、小店招人常先请你试工几个小时。" },
+    { "id": "de.moeglich", "kind": "word", "pos": "adj", "text": "möglich", "zh": "可能的;行得通的", "features": { "ipa": "ˈmøːklɪç" }, "noteZh": "Ist das möglich?(可以吗?)Das ist möglich.(可以。)ö 是长音,g 在 l 前读 [k],-lich 读 [lɪç]。" }
+  ],
+  "reviewItems": ["de.eisdiele", "de.aushilfe", "de.semester", "de.pro", "de.sagen", "de.schnell"],
+  "lines": [
+    { "speaker": "chefin", "text": "Eisdiele Berger, guten Tag!", "zh": "Berger 冰淇淋店,您好!", "items": ["de.eisdiele", "de.guten_tag"] },
+    { "speaker": "wei", "text": "Guten Tag, hier ist Wei Wang. Ist die Stelle als Aushilfe noch frei?", "zh": "您好,我是王伟。请问临时工的职位还招人吗?", "items": ["de.guten_tag", "de.hier", "de.sein", "de.stelle", "de.als", "de.aushilfe", "de.noch", "de.frei"] },
+    { "speaker": "chefin", "text": "Ja. Haben Sie schon Erfahrung? Haben Sie schon als Kellner gearbeitet?", "zh": "还招。您有经验吗?当过服务员吗?", "items": ["de.ja", "de.haben", "de.sie_hoeflich", "de.schon", "de.erfahrung", "de.als", "de.kellner", "de.arbeiten"] },
+    { "speaker": "wei", "text": "Nein, noch nie. Aber ich lerne schnell, und Sofia arbeitet auch bei Ihnen.", "zh": "没有,还从来没当过。不过我学得很快,而且索菲娅也在您店里工作。", "items": ["de.nein", "de.noch", "de.nie", "de.aber", "de.ich", "de.lernen", "de.schnell", "de.und", "de.arbeiten", "de.auch", "de.bei", "de.sie_hoeflich"] },
+    { "speaker": "chefin", "text": "Sofia? Sehr gut! Wann haben Sie Zeit? Wir brauchen jemanden am Wochenende.", "zh": "索菲娅?太好了!您什么时候有时间?我们周末需要人。", "items": ["de.sehr", "de.gut", "de.wann", "de.haben", "de.sie_hoeflich", "de.zeit", "de.wir", "de.brauchen", "de.jemand", "de.am", "de.wochenende"] },
+    { "speaker": "wei", "text": "Im Semester kann ich drei Tage pro Woche arbeiten, auch am Wochenende.", "zh": "学期里我每周能上三天班,周末也可以。", "items": ["de.in", "de.semester", "de.koennen", "de.ich", "de.drei", "de.tag", "de.pro", "de.woche", "de.arbeiten", "de.auch", "de.am", "de.wochenende"] },
+    { "speaker": "chefin", "text": "Können Sie sofort anfangen? Und bis wann haben Sie Zeit?", "zh": "您能马上开始吗?您能做到什么时候?", "items": ["de.koennen", "de.sie_hoeflich", "de.sofort", "de.anfangen", "de.und", "de.bis", "de.wann", "de.haben", "de.zeit"] },
+    { "speaker": "wei", "text": "Ja, sofort. Bis Juli, im August fliege ich nach Chengdu.", "zh": "能,马上就可以。能做到七月,八月我要飞回成都。", "items": ["de.ja", "de.sofort", "de.bis", "de.juli", "de.in", "de.august", "de.fliegen", "de.ich", "de.nach"] },
+    { "speaker": "chefin", "text": "Gut. Können Sie am Donnerstag um 15 Uhr zum Probearbeiten kommen?", "zh": "好。您星期四下午三点能来试工吗?", "items": ["de.gut", "de.koennen", "de.sie_hoeflich", "de.am", "de.donnerstag", "de.um", "de.fuenf", "de.zehn", "de.uhr", "de.zu", "de.probearbeiten", "de.ich_komme_aus"] },
+    { "speaker": "wei", "text": "Ja, das ist möglich. Vielen Dank!", "zh": "可以。非常感谢!", "items": ["de.ja", "de.das_ist", "de.moeglich", "de.vielen_dank"] },
+    { "speaker": "chefin", "text": "Bis Donnerstag! Und bei uns sagt man „du“.", "zh": "星期四见!对了,我们店里大家都用 du 称呼。", "items": ["de.bis", "de.donnerstag", "de.und", "de.bei", "de.wir", "de.sagen", "de.man", "de.du"] },
+    { "speaker": "wei", "text": "Gut, bis Donnerstag! Tschüss!", "zh": "好,星期四见!拜拜!", "items": ["de.gut", "de.bis", "de.donnerstag", "de.tschuess"] }
+  ],
+  "questions": [
+    { "prompt": "老板问王伟以前做过什么工作没有?", "options": ["厨师", "服务员", "收银员"], "answer": 1, "explainZh": "老板问:Haben Sie schon als Kellner gearbeitet?(您当过服务员吗?)王伟说:Nein, noch nie.(还从来没有。)" },
+    { "prompt": "王伟能在冰淇淋店工作到什么时候?", "options": ["到七月", "到八月", "到九月"], "answer": 0, "explainZh": "王伟说:Bis Juli, im August fliege ich nach Chengdu.(能做到七月,八月我要回成都。)" },
+    { "prompt": "老板最后请王伟做什么?", "options": ["星期六早上来签合同", "把德语考试成绩寄给她", "星期四下午三点来试工"], "answer": 2, "explainZh": "老板说:Können Sie am Donnerstag um 15 Uhr zum Probearbeiten kommen?(您星期四下午三点能来试工吗?)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_als", "titleZh": "als + 职业:当……、作为……",
+      "bodyZh": "说“做什么工作、当什么”用 als + 职业,职业前面不加冠词:Ich arbeite als Aushilfe.(我当临时工。)Sofia arbeitet als Aushilfe in der Eisdiele.;问经验:Haben Sie schon als Kellner gearbeitet?(您当过服务员吗?完成时复习)。直接说“我是……”也不加冠词:Ich bin Kellner. / Ich bin Student.。中文“当服务员”“做临时工”的“当、做”,德语用 als 表示。",
+      "examples": [
+        { "text": "Ich arbeite als Aushilfe.", "zh": "我当临时工。" },
+        { "text": "Haben Sie schon als Kellner gearbeitet?", "zh": "您当过服务员吗?" }
+      ] },
+    { "id": "de.g.u13_telefon_job", "titleZh": "打电话问工作;店里的 du 和 Sie",
+      "bodyZh": "打电话先报名字,再说来意:Guten Tag, hier ist Wei Wang. Ist die Stelle noch frei?;对方常问:Haben Sie Erfahrung? / Wann haben Sie Zeit? / Können Sie sofort anfangen?;约时间:Können Sie am Donnerstag um 15 Uhr kommen? – Ja, das ist möglich.。\n第一次打电话、还不认识,双方用 Sie。在德国的餐馆、咖啡馆、小店里,同事之间、甚至和老板之间常常都用 du,一般由老板或年长的一方先提出:Bei uns sagt man „du“.;在银行、公司办公室一般还是用 Sie。",
+      "examples": [
+        { "text": "Ist die Stelle noch frei?", "zh": "这个职位还招人吗?" },
+        { "text": "Bei uns sagt man „du“.", "zh": "我们这儿大家都用 du。" }
+      ] }
+  ],
+  "review": "draft"
+}

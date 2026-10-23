@@ -14,7 +14,7 @@
   "lines": [
     { "speaker": "sua", "text": "징 씨, 부모님 선물을 사고 싶어요. 같이 가요!", "zh": "(五月初。5 月 8 日是韩国的父母节)陈静,我想给爸妈买礼物,陪我去吧!", "roman": "jing ssi, bumonim seonmureul sago sipeoyo. gachi gayo!", "items": ["ko.ssi", "ko.bumonim", "ko.seonmul", "ko.sayo", "ko.gachi", "ko.gayo"] },
     { "speaker": "jing", "text": "좋아요! 그럼 백화점에 가요.", "zh": "好啊!那我们去百货商店吧。", "roman": "joayo! geureom baekhwajeome gayo.", "items": ["ko.joayo", "ko.geureom", "ko.baekhwajeom", "ko.gayo"] },
-    { "speaker": "sua", "text": "아빠 선물이에요. 뭐 살까요?", "zh": "(在百货商店,秀雅小声问陈静)给爸爸的礼物,买什么好呢?", "roman": "appa seonmurieyo. mwo salkkayo?", "items": ["ko.appa", "ko.seonmul", "ko.mwo", "ko.sayo"] },
+    { "speaker": "sua", "text": "아빠 선물은 뭐 살까요?", "zh": "(在百货商店,秀雅小声问陈静)给爸爸的礼物买什么好呢?", "roman": "appa seonmureun mwo salkkayo?", "items": ["ko.appa", "ko.seonmul", "ko.mwo", "ko.sayo"] },
     { "speaker": "jing", "text": "이 검은색 지갑 어때요?", "zh": "这个黑色的钱包怎么样?", "roman": "i geomeunsaek jigap eottaeyo?", "items": ["ko.geomeunsaek", "ko.jigap", "ko.eottaeyo"] },
     { "speaker": "sua", "text": "좋아요! 이거 얼마예요?", "zh": "好!(问店员)这个多少钱?", "roman": "joayo! igeo eolmayeyo?", "items": ["ko.joayo", "ko.igeo", "ko.eolmayeyo"] },
     { "speaker": "clerk", "text": "오만 원이에요. 오늘은 이십 퍼센트 할인이에요.", "zh": "五万韩元。今天打八折。", "roman": "oman wonieyo. oneureun isip peosenteu harinieyo.", "items": ["ko.o", "ko.man", "ko.won", "ko.oneul", "ko.i", "ko.sip", "ko.peosenteu", "ko.harin"] },

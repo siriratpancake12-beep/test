@@ -24,7 +24,7 @@
     { "speaker": "park", "text": "오전에는 수업이 있어요. 점심은요?", "zh": "上午有课。那午饭呢?", "roman": "ojeoneneun sueobi isseoyo. jeomsimeunyo?", "items": ["ko.ojeon", "ko.sueop", "ko.isseoyo", "ko.jeomsim"] },
     { "speaker": "jing", "text": "한 시에 친구하고 점심을 먹어요.", "zh": "一点和朋友一起吃午饭。", "roman": "han sie chinguhago jeomsimeul meogeoyo.", "items": ["ko.hana", "ko.si", "ko.chingu", "ko.jeomsim", "ko.meogeoyo"] },
     { "speaker": "park", "text": "오후에는 뭐 해요?", "zh": "下午做什么?", "roman": "ohueneun mwo haeyo?", "items": ["ko.ohu", "ko.mwo", "ko.haeyo"] },
-    { "speaker": "jing", "text": "카페에서 일해요. 아르바이트예요.", "zh": "在咖啡店工作,是打工。", "roman": "kapeeseo ilhaeyo. areubaiteuyeyo.", "items": ["ko.kape", "ko.ilhaeyo", "ko.areubaiteu"] },
+    { "speaker": "jing", "text": "카페에서 일해요. 아르바이트예요.", "zh": "(陈静一周有两个下午打工)在咖啡店工作,是打工。", "roman": "kapeeseo ilhaeyo. areubaiteuyeyo.", "items": ["ko.kape", "ko.ilhaeyo", "ko.areubaiteu"] },
     { "speaker": "park", "text": "저녁에는요?", "zh": "晚上呢?", "roman": "jeonyeogeneunyo?", "items": ["ko.jeonyeok"] },
     { "speaker": "jing", "text": "저녁을 먹어요. 그리고 도서관에서 공부해요. 열두 시에 자요.", "zh": "吃晚饭,然后在图书馆学习。十二点睡觉。", "roman": "jeonyeogeul meogeoyo. geurigo doseogwaneseo gongbuhaeyo. yeoldu sie jayo.", "items": ["ko.jeonyeok", "ko.meogeoyo", "ko.geurigo", "ko.doseogwan", "ko.gongbuhaeyo", "ko.yeol", "ko.dul", "ko.si", "ko.jayo"] },
     { "speaker": "nam", "text": "저는 아홉 시에 일어나요!", "zh": "我九点起床!", "roman": "jeoneun ahop sie ireonayo!", "items": ["ko.jeo", "ko.ahop", "ko.si", "ko.ireonayo"] },
@@ -37,7 +37,7 @@
   ],
   "grammar": [
     { "id": "ko.g.haeyo_rules", "titleZh": "해요体现在时规则小结",
-      "bodyZh": "动词、形容词的原形都以 -다 结尾(먹다、가다、하다),去掉 -다 剩下的是词干。变 해요体看词干最后一个元音,分三种:① ㅏ 或 ㅗ → 加 -아요:일어나다 → 일어나요、자다 → 자요、가다 → 가요(ㅏ 和 아 合成一个),오다 → 와요(ㅗ + 아 → ㅘ);② 其他元音 → 加 -어요:먹다 → 먹어요、씻다 → 씻어요,마시다 → 마셔요(ㅣ + 어 → ㅕ);③ 하다 → 해요:공부하다 → 공부해요、일하다 → 일해요。词干没有收音时元音会合在一起,这是最容易写错的地方:不写 가아요、자아요、마시어요。第 7 单元学过的 ㅡ 脱落(크다 → 커요、예쁘다 → 예뻐요)是另一条规则。",
+      "bodyZh": "动词、形容词的原形都以 -다 结尾(먹다、가다、하다),去掉 -다 剩下的是词干。变 해요体看词干最后一个元音,分三种:① ㅏ 或 ㅗ → 加 -아요:일어나다 → 일어나요、자다 → 자요、가다 → 가요(ㅏ 和 아 合成一个),오다 → 와요(ㅗ + 아 → ㅘ);② 其他元音 → 加 -어요:먹다 → 먹어요、씻다 → 씻어요,마시다 → 마셔요(ㅣ + 어 → ㅕ);③ 하다 → 해요:공부하다 → 공부해요、일하다 → 일해요。词干没有收音时元音会合在一起,这是最容易写错的地方:不写 가아요、자아요;마시어요 口语里也都说成 마셔요。第 7 单元学过的 ㅡ 脱落(크다 → 커요、예쁘다 → 예뻐요)是另一条规则。",
       "examples": [ { "text": "일곱 시에 일어나요.", "zh": "七点起床。(ㅏ → 아요,合成 나요)" }, { "text": "씻어요. 그리고 아침을 먹어요.", "zh": "洗漱,然后吃早饭。(其他元音 → 어요)" }, { "text": "도서관에서 공부해요.", "zh": "在图书馆学习。(하다 → 해요)" } ] },
     { "id": "ko.g.time_e_place_eseo", "titleZh": "时间 + 에,地点 + 에서",
       "bodyZh": "说“几点做什么”,时间后面加 에:일곱 시에 일어나요、한 시에 점심을 먹어요。오늘、내일、지금、매일 后面不加 에;几个时间词连在一起时,에 只加在最后一个上:매일 아침 일곱 시에(每天早上七点)。说“在哪儿做什么”,地点后面加 에서:카페에서 일해요、도서관에서 공부해요。中国学生常把“在图书馆学习”说成 도서관에 공부해요:에 用于“在哪儿有、去哪儿”(도서관에 있어요 / 가요),做动作的地方要用 에서。아침、저녁 既是“早上、晚上”,又是“早饭、晚饭”:아침에 씻어요(早上洗漱)/ 아침을 먹어요(吃早饭),看后面的助词就能分清。",

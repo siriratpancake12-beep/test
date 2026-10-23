@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u1.l06", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101060,
+  "titleZh": "社团招新日", "goalZh": "会用 we / they + are 说一群人,用 isn't / aren't 纠正说错的信息,并问答大学几年级", "canDoZh": "能说出自己和朋友是几年级的学生,用 we / they 介绍一群人,并用 isn't / aren't 纠正别人说错的信息",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "en.club", "kind": "word", "pos": "noun", "text": "club", "zh": "社团;俱乐部", "features": { "ipa": "klʌb" }, "noteZh": "u 读 /ʌ/,嘴巴放松、短促,不要读成“克拉布”;美国大学开学有社团招新日,一般叫 club fair。" },
+    { "id": "en.sign_up", "kind": "phrase", "pos": "verb", "text": "sign up", "zh": "报名;注册", "features": { "ipa": "ˌsaɪn ˈʌp" }, "noteZh": "sign 的 g 不发音;连读成 \"sai-nup\"。报名参加某个活动说 sign up for…:sign up for the club。" },
+    { "id": "en.write", "kind": "word", "pos": "verb", "text": "write", "zh": "写", "features": { "ipa": "raɪt" }, "noteZh": "开头的 w 不发音,和 right 读音一样;write your name 写下你的名字。" },
+    { "id": "en.name", "kind": "word", "pos": "noun", "text": "name", "zh": "名字", "features": { "ipa": "neɪm" }, "noteZh": "问名字说 What's your name?;表格上的 name 一般要写全名,只写名的地方会标 first name。" },
+    { "id": "en.biology", "kind": "word", "pos": "noun", "text": "biology", "zh": "生物学", "features": { "ipa": "baɪˈɑːlədʒi" }, "noteZh": "重音在第二个音节 bi-OL-o-gy;说专业不加冠词:My major is biology.。" },
+    { "id": "en.know", "kind": "word", "pos": "verb", "text": "know", "zh": "知道;认识", "features": { "ipa": "noʊ" }, "noteZh": "k 不发音,和 no 读音一样;不知道说 I don't know.;认识一个人也用 know:Do you know Amy?" },
+    { "id": "en.what_year_are_you", "kind": "phrase", "pos": "phrase", "text": "What year are you", "zh": "你读大几?;你几年级?", "features": { "ipa": "ˌwʌt ˈjɪr ɚ juː" }, "noteZh": "问大学几年级;回答 I'm a freshman. / I'm a sophomore.。year 开头的 /j/ 要发出来,别读成 ear(耳朵)。" },
+    { "id": "en.sophomore", "kind": "word", "pos": "noun", "text": "sophomore", "zh": "大二学生", "features": { "ipa": "ˈsɑːfmɔːr" }, "noteZh": "美式常读成两个音节 SOPH-more,中间的 o 几乎不读;拼写难,记住 soph-o-more。" }
+  ],
+  "reviewItems": ["en.international_student", "en.freshman", "en.friend", "en.major", "en.email"],
+  "lines": [
+    { "speaker": "amy", "text": "Hello, you guys! This is the International Student Club.", "zh": "(社团招新日,艾米在一个摊位后面招手)你们好!这里是国际学生社团。", "items": ["en.hello", "en.you_guys", "en.international_student", "en.club"] },
+    { "speaker": "sofia", "text": "Cool! We're international students, and we're freshmen.", "zh": "酷!我们是国际学生,都是大一新生。", "items": ["en.cool", "en.international_student", "en.freshman"] },
+    { "speaker": "amy", "text": "And Ethan? Is he an international student too?", "zh": "那伊森呢?他也是国际学生吗?", "items": ["en.international_student"] },
+    { "speaker": "lei", "text": "No, he isn't. He's from California.", "zh": "不,他不是。他是加州人。", "items": [] },
+    { "speaker": "ethan", "text": "We aren't all international students, but we're friends!", "zh": "我们不全是国际学生,但我们是朋友!", "items": ["en.international_student", "en.friend"] },
+    { "speaker": "amy", "text": "Great! Please sign up. Write your name, email, and major.", "zh": "太好了!请报个名吧。写上你们的名字、邮箱和专业。", "items": ["en.great", "en.sign_up", "en.write", "en.name", "en.email", "en.major"] },
+    { "speaker": "sofia", "text": "OK. My major is biology.", "zh": "好的。我的专业是生物。", "items": ["en.major", "en.biology"] },
+    { "speaker": "ethan", "text": "Major? I don't know!", "zh": "专业?我还不知道呢!", "items": ["en.major", "en.know"] },
+    { "speaker": "lei", "text": "What year are you, Amy?", "zh": "艾米,你读大几?", "items": ["en.what_year_are_you"] },
+    { "speaker": "amy", "text": "I'm a sophomore. They're sophomores too.", "zh": "我大二。(指着摊位后面的几个同学)他们也都是大二的。", "items": ["en.sophomore"] }
+  ],
+  "questions": [
+    { "prompt": "伊森是国际学生吗?", "options": ["是,他来自墨西哥", "是,他来自中国", "不是,他是加州人"], "answer": 2, "explainZh": "艾米问 Is he an international student too?,磊替他回答 No, he isn't. He's from California.(不,他不是。他是加州人。)" },
+    { "prompt": "艾米读几年级?", "options": ["大二", "大一", "大四"], "answer": 0, "explainZh": "艾米说 I'm a sophomore.,sophomore 是大二学生;磊他们三个才是大一新生(freshmen)。" },
+    { "prompt": "报名时要写哪些信息?", "options": ["名字和电话号码", "名字、邮箱和专业", "名字和年级"], "answer": 1, "explainZh": "艾米说 Write your name, email, and major.(写上你们的名字、邮箱和专业。)" },
+    { "prompt": "伊森的专业是什么?", "options": ["生物", "计算机", "他还不知道"], "answer": 2, "explainZh": "伊森说 Major? I don't know!(专业?我还不知道呢!)学生物的是索菲亚。" }
+  ],
+  "grammar": [
+    { "id": "en.g.we_they_negative", "titleZh": "we / they + are;否定 isn't 和 aren't",
+      "bodyZh": "说“我们”“他们”用 we are、they are,口语缩写成 we're、they're;一个人用 he is / she is。否定在 be 后面加 not,口语常缩写:is not = isn't,are not = aren't(I am not 只能缩成 I'm not)。纠正别人说错的信息,先否定、再说对的:No, he isn't. He's from California.。一般疑问句的简短回答也用 be:Are they freshmen? — Yes, they are. / No, they aren't.(肯定的简答不缩写,不说 Yes, they're.)。中文“我们是”“他们是”“他是”都用一个“是”,英语要跟着主语换 am / is / are,中国学生说快了容易说成 We is… 或 They is…。",
+      "examples": [
+        { "text": "We're freshmen. We aren't sophomores.", "zh": "我们是大一新生,不是大二的。" },
+        { "text": "Is he an international student? — No, he isn't.", "zh": "他是国际学生吗?——不,他不是。" },
+        { "text": "Are they sophomores? — Yes, they are.", "zh": "他们是大二的吗?——是的。" }
+      ] },
+    { "id": "en.g.what_year", "titleZh": "问年级 What year are you?;they're、their、there 读音一样",
+      "bodyZh": "问大学几年级说 What year are you?,回答 I'm a freshman.(大一)、I'm a sophomore.(大二);大三叫 junior,大四叫 senior(本单元第 8 课会学到)。这里也要加 a:I'm a sophomore.;说一群人用复数:We're freshmen.(freshman 的复数是 freshmen)。发音:we're 读 /wɪr/,they're 读 /ðer/。they're(他们是)、their(他们的)、there(那里)读音完全一样,听的时候靠上下文,写的时候别写错:They're my friends. / their names / They're there.。",
+      "examples": [
+        { "text": "What year are you? — I'm a sophomore.", "zh": "你读大几?——我大二。" },
+        { "text": "They're my friends. Their names are Sofia and Ethan.", "zh": "他们是我的朋友,他们叫索菲亚和伊森。" },
+        { "text": "Lei and Sofia are there. They're freshmen.", "zh": "磊和索菲亚在那儿,他们是大一新生。" }
+      ] }
+  ],
+  "review": "draft"
+}

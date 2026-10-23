@@ -1,0 +1,41 @@
+{
+  "id": "en.a1u1.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101085,
+  "titleZh": "给教授的自我介绍邮件", "goalZh": "读懂一封自我介绍邮件,学会邮件的主题、称呼和落款,能照着写一封", "canDoZh": "能读懂并仿写一封简单的自我介绍邮件:称呼、介绍自己和朋友、结尾署名",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 15.5,
+  "newItems": [
+    { "id": "en.subject", "kind": "word", "pos": "noun", "text": "subject", "zh": "(邮件的)主题;科目", "features": { "ipa": "ˈsʌbdʒekt" }, "noteZh": "邮件第一行 Subject: 后面写主题,让人一眼看出邮件是关于什么的;u 读 /ʌ/,重音在前 SUB-ject。" },
+    { "id": "en.professor", "kind": "word", "pos": "noun", "text": "professor", "zh": "教授;(大学)老师", "features": { "ipa": "prəˈfesɚ" }, "noteZh": "重音在第二个音节 pro-FES-sor;美国大学生称呼老师用 Professor + 姓(Professor Brown),不说 Teacher Brown。" },
+    { "id": "en.best", "kind": "word", "pos": "adj", "text": "best", "zh": "最好的;(邮件落款)祝好", "features": { "ipa": "best" }, "noteZh": "邮件结尾常写 Best,(Best wishes 的简写),下一行写自己的名字;best 本身是 good 的最高级“最好的”。" }
+  ],
+  "reviewItems": ["en.first_name", "en.freshman", "en.computer_science", "en.roommate", "en.biology", "en.ask"],
+  "lines": [
+    { "speaker": "lei", "text": "Subject: Hello from Lei Zhang", "zh": "(第一节写作课后,教授请每个学生发邮件介绍自己)主题:张磊的问候", "items": ["en.subject", "en.hello"] },
+    { "speaker": "lei", "text": "Hi, Professor,", "zh": "教授您好:", "items": ["en.hi", "en.professor"] },
+    { "speaker": "lei", "text": "My name is Lei Zhang. Lei is my first name.", "zh": "我叫张磊(Lei Zhang)。Lei 是我的名。", "items": ["en.my_name_is", "en.first_name"] },
+    { "speaker": "lei", "text": "I'm from Chengdu, China, and I'm a freshman.", "zh": "我来自中国成都,是大一新生。", "items": ["en.im_from", "en.freshman"] },
+    { "speaker": "lei", "text": "My major is computer science.", "zh": "我的专业是计算机。", "items": ["en.major", "en.computer_science"] },
+    { "speaker": "lei", "text": "My roommate, Ethan, is from California.", "zh": "我的室友伊森是加州人。", "items": ["en.roommate"] },
+    { "speaker": "lei", "text": "My friend Sofia is your student too.", "zh": "我的朋友索菲亚也是您的学生。", "items": ["en.friend", "en.student"] },
+    { "speaker": "lei", "text": "She's from Mexico, and her major is biology.", "zh": "她来自墨西哥,专业是生物。", "items": ["en.major", "en.biology"] },
+    { "speaker": "lei", "text": "My English is OK, but it isn't great.", "zh": "我的英语还行,但不算很好。", "items": ["en.great"] },
+    { "speaker": "lei", "text": "When I don't understand, I ask, “A little slower, please?”", "zh": "听不懂的时候,我会请大家:“能说慢一点吗?”", "items": ["en.understand", "en.ask", "en.slower_please"] },
+    { "speaker": "lei", "text": "Nice to meet you, Professor!", "zh": "很高兴认识您,教授!", "items": ["en.nice_to_meet_you", "en.professor"] },
+    { "speaker": "lei", "text": "Best, Lei", "zh": "祝好!磊", "items": ["en.best"] }
+  ],
+  "questions": [
+    { "prompt": "这封邮件是写给谁的?", "options": ["室友伊森", "教授", "艾米"], "answer": 1, "explainZh": "邮件开头是 Hi, Professor,(教授您好)。" },
+    { "prompt": "关于索菲亚,邮件里说了什么?", "options": ["她是磊的室友", "她来自加州", "她来自墨西哥,专业是生物"], "answer": 2, "explainZh": "磊写 She's from Mexico, and her major is biology.;磊的室友是伊森,来自加州的也是伊森。" },
+    { "prompt": "邮件最后的 Best, Lei 是什么意思?", "options": ["祝好!磊(落款)", "磊是最好的学生", "磊最好的朋友"], "answer": 0, "explainZh": "Best, 是邮件结尾常用的落款,意思是“祝好”,下一行写自己的名字。" }
+  ],
+  "grammar": [
+    { "id": "en.g.email_format", "titleZh": "邮件的格式:Subject、Hi…,、Best,",
+      "bodyZh": "英文邮件一般分四块:① Subject: 主题,一句话说清楚邮件是关于什么的(Hello from Lei Zhang);② 称呼:Hi, Professor, 或 Hi Sofia,(写给老师也可以用更正式的 Dear…);③ 正文:先介绍自己,一句话说一件事;④ 落款:Best,(祝好),换行写名字。英文名字名在前、姓在后,所以磊写 Lei Zhang,还特意说明 Lei is my first name.。介绍身份时 a 不能漏:I'm a freshman.,不说 I'm freshman.;说专业不加 a:My major is computer science.。",
+      "examples": [
+        { "text": "Subject: Hello from Lei Zhang", "zh": "主题:张磊的问候" },
+        { "text": "Hi, Professor, my name is Lei Zhang.", "zh": "教授您好,我叫张磊。" },
+        { "text": "I'm a freshman, and my major is computer science.", "zh": "我是大一新生,专业是计算机。" }
+      ] }
+  ],
+  "review": "draft"
+}

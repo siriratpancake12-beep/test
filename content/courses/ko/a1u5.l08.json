@@ -18,7 +18,7 @@
     { "speaker": "sua", "text": "오늘은 사월 십일 일이에요.", "zh": "今天是四月十一号。", "roman": "oneureun sawol sibil irieyo.", "items": ["ko.oneul", "ko.sa", "ko.wol", "ko.sip", "ko.il"] },
     { "speaker": "jing", "text": "네? 그럼 내일이에요!", "zh": "啊?那不就是明天!", "roman": "ne? geureom naeirieyo!", "items": ["ko.ne", "ko.geureom", "ko.naeil"] },
     { "speaker": "sua", "text": "네! 내일 카페에서 같이 먹어요. 빵하고 커피!", "zh": "对!明天我们在咖啡店一起吃点东西吧——面包和咖啡!(给敏俊一个小惊喜)", "roman": "ne! naeil kapeeseo gachi meogeoyo. ppanghago keopi!", "items": ["ko.ne", "ko.naeil", "ko.kape", "ko.gachi", "ko.meogeoyo", "ko.ppang", "ko.keopi"] },
-    { "speaker": "jing", "text": "남 씨, 내일 시간 있어요?", "zh": "(陈静马上给南打电话)阮文南,你明天有空吗?", "roman": "nam ssi, naeil sigan isseoyo?", "items": ["ko.ssi", "ko.naeil", "ko.sigan", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "남 씨, 내일 시간 있어요?", "zh": "(陈静马上给南打电话)阿南,你明天有空吗?", "roman": "nam ssi, naeil sigan isseoyo?", "items": ["ko.ssi", "ko.naeil", "ko.sigan", "ko.isseoyo"] },
     { "speaker": "nam", "text": "네, 있어요. 몇 시예요?", "zh": "有啊。几点?", "roman": "ne, isseoyo. myeot siyeyo?", "items": ["ko.ne", "ko.isseoyo", "ko.myeot", "ko.si"] },
     { "speaker": "jing", "text": "오후 세 시, 카페요! 민준 오빠 생일이에요.", "zh": "下午三点,在咖啡店!是敏俊哥的生日。", "roman": "ohu se si, kapeyo! minjun oppa saengirieyo.", "items": ["ko.ohu", "ko.set", "ko.si", "ko.kape", "ko.oppa", "ko.saengil"] },
     { "speaker": "nam", "text": "아, 그래요? 좋아요!", "zh": "啊,是吗?好啊!", "roman": "a, geuraeyo? joayo!", "items": ["ko.geuraeyo", "ko.joayo"] },
@@ -29,9 +29,9 @@
   ],
   "questions": [
     { "prompt": "敏俊的生日是几月几号?", "options": ["4 月 11 日", "4 月 12 日", "4 月 10 日"], "answer": 1, "explainZh": "第 2 句:사월 십이 일이에요 = 4 月 12 日。月份是 汉字数词 + 월,日子是 汉字数词 + 일。" },
-    { "prompt": "今天是几月几号?", "options": ["4 月 11 日", "4 月 12 日", "11 月 4 日"], "answer": 0, "explainZh": "第 4 句:오늘은 사월 십일 일이에요 = 4 月 11 日,所以敏俊的生日就是明天(내일)。십일 일(11 日)和 십이 일(12 日)只差一个音。" },
-    { "prompt": "陈静约南明天几点、在哪儿?", "options": ["上午十点,在宿舍", "下午两点,在学校", "下午三点,在咖啡店"], "answer": 2, "explainZh": "第 9 句:오후 세 시, 카페요!(下午三点,咖啡店)。세 시 的 세 是 셋 在 시 前面的形式。" },
-    { "prompt": "最后她们打算准备几个面包、几杯咖啡?", "options": ["四个、四杯", "五个、五杯", "三个、三杯"], "answer": 1, "explainZh": "第 12–14 句:她们三个加上敏俊是 네 명(四个人),陈静又说还要给老板一份:다섯 개, 다섯 잔(五个、五杯)。" }
+    { "prompt": "今天是几月几号?", "options": ["4 月 12 日", "11 月 4 日", "4 月 11 日"], "answer": 2, "explainZh": "第 4 句:오늘은 사월 십일 일이에요 = 4 月 11 日,所以敏俊的生日就是明天(내일)。십일 일(11 日)和 십이 일(12 日)只差一个音。" },
+    { "prompt": "陈静约南明天几点、在哪儿?", "options": ["下午三点,在咖啡店", "上午十点,在宿舍", "下午两点,在学校"], "answer": 0, "explainZh": "第 9 句:오후 세 시, 카페요!(下午三点,咖啡店)。세 시 的 세 是 셋 在 시 前面的形式。" },
+    { "prompt": "最后她们打算准备几个面包、几杯咖啡?", "options": ["五个、五杯", "四个、四杯", "三个、三杯"], "answer": 0, "explainZh": "第 12–14 句:她们三个加上敏俊是 네 명(四个人),陈静又说还要给老板一份:다섯 개, 다섯 잔(五个、五杯)。" }
   ],
   "grammar": [
     { "id": "ko.g.u5_dates", "titleZh": "几月几号:汉字数词 + 월 / 일",

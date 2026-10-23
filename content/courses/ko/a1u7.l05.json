@@ -15,7 +15,7 @@
   ],
   "reviewItems": ["ko.kadeu", "ko.saijeu", "ko.jagayo", "ko.dwaeyo"],
   "lines": [
-    { "speaker": "clerk", "text": "어서 오세요!", "zh": "(陈静回宿舍一穿,S 码的裙子太小了。第二天她带着小票回到东大门那家店)欢迎光临!", "roman": "eoseo oseyo!", "items": ["ko.eoseo_oseyo"] },
+    { "speaker": "clerk", "text": "어서 오세요!", "zh": "(那条 S 码的裙子,陈静回宿舍一穿才发现太小了。过了几天,她带着小票回到东大门那家店)欢迎光临!", "roman": "eoseo oseyo!", "items": ["ko.eoseo_oseyo"] },
     { "speaker": "jing", "text": "안녕하세요. 이 치마가 너무 작아요.", "zh": "您好。这条裙子太小了。", "roman": "annyeonghaseyo. i chimaga neomu jagayo.", "items": ["ko.annyeonghaseyo", "ko.chima", "ko.neomu", "ko.jagayo"] },
     { "speaker": "clerk", "text": "영수증 있어요?", "zh": "有小票吗?", "roman": "yeongsujeung isseoyo?", "items": ["ko.yeongsujeung", "ko.isseoyo"] },
     { "speaker": "jing", "text": "네, 영수증 여기요. 환불돼요?", "zh": "有,小票在这儿。能退款吗?", "roman": "ne, yeongsujeung yeogiyo. hwanbuldwaeyo?", "items": ["ko.ne", "ko.yeongsujeung", "ko.yeogiyo", "ko.hwanbul", "ko.dwaeyo"] },
@@ -29,7 +29,7 @@
     { "speaker": "jing", "text": "여기 팔천 원이요. 감사합니다!", "zh": "这是八千。谢谢!", "roman": "yeogi palcheon woniyo. gamsahamnida!", "items": ["ko.yeogi", "ko.pal", "ko.cheon", "ko.won", "ko.gamsahamnida"] }
   ],
   "questions": [
-    { "prompt": "陈静为什么回到这家店?", "options": ["裙子的颜色不对", "她想再买一双鞋", "裙子太小了", "她忘了拿小票"], "answer": 2, "explainZh": "第 2 句:이 치마가 너무 작아요(这条裙子太小了)。上一课她没再试 S 码就买了。" },
+    { "prompt": "陈静为什么回到这家店?", "options": ["裙子的颜色不对", "她想再买一双鞋", "裙子太小了", "她忘了拿小票"], "answer": 2, "explainZh": "第 2 句:이 치마가 너무 작아요(这条裙子太小了)。本单元第 3 课她没再试 S 码就买了。" },
     { "prompt": "关于这条裙子,店员是怎么说的?", "options": ["能退款,也能换货", "不能退款,但能换货", "不能退款,也不能换货"], "answer": 1, "explainZh": "第 5 句:환불은 안 돼요. 교환은 돼요.——退款不行,换货可以。은/는 在这里表示对比。" },
     { "prompt": "店员说“오늘은 다 이십 퍼센트 할인이에요”,意思是?", "options": ["今天全部打八折", "今天全部打二折", "今天买一送一"], "answer": 0, "explainZh": "이십 퍼센트 할인 是减掉 20%,付原价的 80%,也就是中文的“打八折”,不是打二折。" },
     { "prompt": "那件白 T 恤今天卖多少钱?", "options": ["10,000 韩元", "2,000 韩元", "8,000 韩元"], "answer": 2, "explainZh": "第 9 句:原价 만 원(10,000),打八折以后 오늘은 팔천 원(今天 8,000)。" }

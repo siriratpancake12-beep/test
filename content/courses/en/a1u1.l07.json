@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u1.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101070,
+  "titleZh": "电话里报邮箱", "goalZh": "会接打电话、确认对方是谁,能把邮箱地址按英语习惯一个个报清楚、听清楚", "canDoZh": "能接听陌生来电、用 This is… 说明自己是谁,并按英语习惯报出和听懂邮箱地址",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "en.is_this", "kind": "phrase", "pos": "phrase", "text": "Is this", "zh": "(电话里)请问是……吗?", "features": { "ipa": "ˈɪz ðɪs" }, "noteZh": "打电话确认对方是谁用 Is this…?:Is this Lei?;电话里一般不说 Are you Lei?。回答 Yes, this is Lei.。" },
+    { "id": "en.whos_calling", "kind": "phrase", "pos": "phrase", "text": "Who's calling", "zh": "(电话里)请问您是哪位?", "features": { "ipa": "ˌhuːz ˈkɑːlɪŋ" }, "noteZh": "礼貌地问打来电话的人是谁:Who's calling, please?;别直接问 Who are you?,听起来很生硬。" },
+    { "id": "en.wrong_number", "kind": "phrase", "pos": "phrase", "text": "Wrong number", "zh": "(电话)打错了", "features": { "ipa": "ˌrɑːŋ ˈnʌmbɚ" }, "noteZh": "接到打错的电话说 Sorry, wrong number. 就行;wrong 的 w 不发音,读 /rɑːŋ/。" },
+    { "id": "en.bye", "kind": "word", "pos": "interj", "text": "Bye", "zh": "再见", "features": { "ipa": "baɪ" }, "noteZh": "比 Goodbye 随意,朋友之间、打电话结束时最常说:OK, bye! 也常说 Bye-bye。" },
+    { "id": "en.dot", "kind": "word", "pos": "noun", "text": "dot", "zh": "点(网址、邮箱里的 .)", "features": { "ipa": "dɑːt" }, "noteZh": "美式 o 读 /ɑː/,嘴张大,别读成“多特”;邮箱、网址里的 . 读 dot,不读 point(point 是小数点)。" },
+    { "id": "en.underscore", "kind": "word", "pos": "noun", "text": "underscore", "zh": "下划线(_)", "features": { "ipa": "ˈʌndɚskɔːr" }, "noteZh": "邮箱里的 _ 读 underscore,重音在前 UN-der-score;- 读 dash。" },
+    { "id": "en.again", "kind": "word", "pos": "adv", "text": "again", "zh": "再;又", "features": { "ipa": "əˈɡen" }, "noteZh": "美式常读 /əˈɡen/,和 ten 押韵;放在句末。What's your email again? 是“你的邮箱是什么来着?”,问以前说过、自己没记住的事。" }
+  ],
+  "reviewItems": ["en.sorry", "en.email", "en.office", "en.got_it", "en.thats_right"],
+  "lines": [
+    { "speaker": "lei", "text": "Hello?", "zh": "(迎新周的一个下午,磊的手机响了)喂?", "items": ["en.hello"] },
+    { "speaker": "passerby", "text": "Hi! Is this Mike?", "zh": "(一个陌生的女声)你好!请问是迈克吗?", "items": ["en.hi", "en.is_this"] },
+    { "speaker": "lei", "text": "No, sorry. Wrong number.", "zh": "不是,不好意思,您打错了。", "items": ["en.sorry", "en.wrong_number"] },
+    { "speaker": "passerby", "text": "Oh, sorry! Bye!", "zh": "哦,对不起!再见!", "items": ["en.sorry", "en.bye"] },
+    { "speaker": "advisor", "text": "Hello, is this Lei Zhang?", "zh": "(没过多久,手机又响了)你好,请问是张磊吗?", "items": ["en.hello", "en.is_this"] },
+    { "speaker": "lei", "text": "Yes, this is Lei. Who's calling, please?", "zh": "是的,我是磊。请问您是哪位?", "items": ["en.this_is", "en.whos_calling"] },
+    { "speaker": "advisor", "text": "This is the International Student Office. What's your email again?", "zh": "这里是国际学生办公室。你的邮箱是什么来着?(登记表上的字看不清)", "items": ["en.this_is", "en.international_student", "en.office", "en.email", "en.again"] },
+    { "speaker": "lei", "text": "Sure. It's L-E-I underscore Z-H-A-N-G at example dot com.", "zh": "好的。是 L-E-I 下划线 Z-H-A-N-G,@ example 点 com。", "items": ["en.sure", "en.underscore", "en.dot"] },
+    { "speaker": "advisor", "text": "OK. L-E-E underscore Z-H-A-N-G at example dot com?", "zh": "好。L-E-E 下划线 Z-H-A-N-G,@example.com?", "items": ["en.underscore", "en.dot"] },
+    { "speaker": "lei", "text": "Sorry, no. L-E-I. I, not E.", "zh": "不好意思,不对。是 L-E-I。是 I,不是 E。", "items": ["en.sorry"] },
+    { "speaker": "advisor", "text": "Got it. L-E-I underscore Z-H-A-N-G at example dot com.", "zh": "明白了。lei_zhang@example.com。", "items": ["en.got_it", "en.underscore", "en.dot"] },
+    { "speaker": "lei", "text": "That's right. Thank you! Bye!", "zh": "没错。谢谢您!再见!", "items": ["en.thats_right", "en.thank_you", "en.bye"] }
+  ],
+  "questions": [
+    { "prompt": "第一个电话是怎么回事?", "options": ["国际学生办公室打来问邮箱", "对方找迈克,打错了", "艾米打来约磊见面"], "answer": 1, "explainZh": "对方问 Is this Mike?(请问是迈克吗?),磊说 No, sorry. Wrong number.(不是,您打错了。)" },
+    { "prompt": "磊的邮箱是哪一个?", "options": ["lee_zhang@example.com", "lei.zhang@example.com", "leizhang@example.com", "lei_zhang@example.com"], "answer": 3, "explainZh": "磊说 L-E-I underscore Z-H-A-N-G at example dot com:underscore 是下划线 _,at 是 @,dot 是点。" },
+    { "prompt": "顾问复述邮箱时哪里错了?", "options": ["把 I 听成了 E", "把下划线听成了点", "把 Zhang 拼错了"], "answer": 0, "explainZh": "顾问说成 L-E-E,磊纠正:L-E-I. I, not E.(是 I,不是 E。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.phone_this_is", "titleZh": "电话用语:Hello? / Is this…? / This is…",
+      "bodyZh": "接电话说 Hello?,用升调 ↗,意思是“喂?”。打电话确认对方是谁用 Is this…?:Is this Lei?(请问是磊吗?);说自己是谁用 This is…:This is Lei.(我是磊)、This is the International Student Office.(这里是国际学生办公室)。电话里看不见人,英语习惯用 this 指电话里的人,一般不说 I'm Lei. 或 Are you Lei?。想知道对方是谁,礼貌地问 Who's calling, please?;打错了说 Sorry, wrong number.;挂电话前说 Bye!。",
+      "examples": [
+        { "text": "Hello? — Hi, is this Lei? — Yes, this is Lei.", "zh": "喂?——你好,请问是磊吗?——是的,我是磊。" },
+        { "text": "Is this Mike? — No, sorry. Wrong number.", "zh": "请问是迈克吗?——不是,不好意思,您打错了。" },
+        { "text": "Who's calling, please? — This is Amy.", "zh": "请问您是哪位?——我是艾米。" }
+      ] },
+    { "id": "en.g.email_at_dot", "titleZh": "邮箱怎么读:@ 读 at,. 读 dot,_ 读 underscore",
+      "bodyZh": "英语里邮箱地址按字母和符号一个个读:@ 读 at /æt/,. 读 dot /dɑːt/,_ 读 underscore;.com 读 dot com。名字部分一个字母一个字母地拼,容易混的字母(E 和 I、G 和 J、B 和 V)要读得特别清楚;对方复述时仔细听,错了马上纠正:I, not E.。dot 是美式发音,o 读 /ɑː/,嘴张大。课文里的 example.com 是专门留给举例用的域名,不是真的邮箱。",
+      "examples": [
+        { "text": "L-E-I underscore Z-H-A-N-G at example dot com.", "zh": "lei_zhang@example.com" },
+        { "text": "S-O-F-I-A at example dot com.", "zh": "sofia@example.com" }
+      ] }
+  ],
+  "review": "draft"
+}

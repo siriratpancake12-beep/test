@@ -1,0 +1,43 @@
+{
+  "id": "ko.a1u8.l08", "schemaVersion": 1, "lang": "ko", "type": "reading", "cefr": "A1",
+  "unit": "A1-8 我的一天与周末", "order": 108080,
+  "titleZh": "单元复习:我在首尔的第一篇日记", "goalZh": "读懂并会写一段讲一周生活的短文,综合运用现在时和过去时",
+  "canDoZh": "能用韩语写一小段日记:这周做了什么、心情怎么样、下周打算做什么",
+  "skills": ["read", "listen", "write"], "estimatedMinutes": 20,
+  "newItems": [
+    { "id": "ko.ilgi", "kind": "word", "pos": "noun", "text": "일기", "zh": "日记", "features": { "roman": "ilgi" }, "noteZh": "汉字词 日记;“写日记”是 일기를 써요(쓰다,以后学);한국어 일기 = 韩语日记。" },
+    { "id": "ko.saenghwal", "kind": "word", "pos": "noun", "text": "생활", "zh": "生活", "features": { "roman": "saenghwal" }, "noteZh": "汉字词 生活;한국 생활 = 在韩国的生活、유학 생활 = 留学生活。" },
+    { "id": "ko.haengbokhaeyo", "kind": "word", "pos": "adj", "text": "행복해요", "zh": "幸福;很开心", "features": { "roman": "haengbokaeyo" }, "noteZh": "汉字词 幸福 + 하다;ㄱ 和 ㅎ 合成送气音,读 [행보캐요];说自己很开心、很满足。" },
+    { "id": "ko.yeolsimhi", "kind": "word", "pos": "adv", "text": "열심히", "zh": "努力地;认真地", "features": { "roman": "yeolsimhi" }, "noteZh": "汉字词 热心 + 히(韩语的“热心”是“努力、认真”的意思);열심히 공부해요(努力学习)。" }
+  ],
+  "reviewItems": ["ko.maeil", "ko.bumonim", "ko.siheom", "ko.jaemiisseoyo"],
+  "lines": [
+    { "speaker": "jing", "text": "오늘은 일요일이에요. 한국어 일기는 처음이에요.", "zh": "今天是星期天。用韩语写日记,这还是第一次。", "roman": "oneureun iryoirieyo. hangugeo ilgineun cheoeumieyo.", "items": ["ko.oneul", "ko.iryoil", "ko.hangugeo", "ko.ilgi", "ko.cheoeum"] },
+    { "speaker": "jing", "text": "저는 삼월에 한국에 왔어요. 지금은 오월이에요.", "zh": "我三月来到韩国,现在已经五月了。", "roman": "jeoneun samwore hanguge wasseoyo. jigeumeun oworieyo.", "items": ["ko.jeo", "ko.sam", "ko.wol", "ko.hanguk", "ko.wayo", "ko.jigeum", "ko.o"] },
+    { "speaker": "jing", "text": "제 한국 생활은 매일 바빠요.", "zh": "我在韩国的生活每天都很忙。", "roman": "je hanguk saenghwareun maeil bappayo.", "items": ["ko.hanguk", "ko.saenghwal", "ko.maeil", "ko.bappayo"] },
+    { "speaker": "jing", "text": "오전에는 수업이 있어요.", "zh": "上午有课。", "roman": "ojeoneneun sueobi isseoyo.", "items": ["ko.ojeon", "ko.sueop", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "월요일하고 수요일 오후에는 카페에서 일해요.", "zh": "星期一和星期三下午在咖啡店打工。", "roman": "woryoilhago suyoil ohueneun kapeeseo ilhaeyo.", "items": ["ko.woryoil", "ko.suyoil", "ko.ohu", "ko.kape", "ko.ilhaeyo"] },
+    { "speaker": "jing", "text": "토요일에 민준 오빠하고 남 씨하고 노래방에 갔어요.", "zh": "星期六我和敏俊哥、阿南去唱了 KTV。", "roman": "toyoire minjun oppahago nam ssihago noraebange gasseoyo.", "items": ["ko.toyoil", "ko.oppa", "ko.ssi", "ko.noraebang", "ko.gayo"] },
+    { "speaker": "jing", "text": "그리고 한강에서 산책했어요. 진짜 재미있었어요!", "zh": "然后在汉江边散了步。特别开心!", "roman": "geurigo hangangeseo sanchaekaesseoyo. jinjja jaemiisseosseoyo!", "items": ["ko.geurigo", "ko.sanchaek", "ko.haeyo", "ko.jinjja", "ko.jaemiisseoyo"] },
+    { "speaker": "jing", "text": "오늘은 수아 씨하고 콘서트에 갔어요. 지금은 좀 피곤해요.", "zh": "今天和秀雅去看了演唱会。现在有点累。", "roman": "oneureun sua ssihago konseoteue gasseoyo. jigeumeun jom pigonhaeyo.", "items": ["ko.oneul", "ko.ssi", "ko.konseoteu", "ko.gayo", "ko.jigeum", "ko.jom", "ko.pigonhaeyo"] },
+    { "speaker": "jing", "text": "항저우의 부모님이 보고 싶어요.", "zh": "我想杭州的爸爸妈妈了。", "roman": "hangjeouui bumonimi bogo sipeoyo.", "items": ["ko.bumonim", "ko.bwayo"] },
+    { "speaker": "jing", "text": "서울에는 좋은 친구가 많이 있어요.", "zh": "不过在首尔,我有很多好朋友。", "roman": "seoureneun joeun chinguga mani isseoyo.", "items": ["ko.joayo", "ko.chingu", "ko.mani", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "저는 서울에서 진짜 행복해요.", "zh": "我在首尔真的很开心。", "roman": "jeoneun seoureseo jinjja haengbokaeyo.", "items": ["ko.jeo", "ko.jinjja", "ko.haengbokhaeyo"] },
+    { "speaker": "jing", "text": "다음 주 금요일에 시험이 있어요. 열심히 공부하고 싶어요!", "zh": "下周五有考试。我要好好学习!", "roman": "daeum ju geumyoire siheomi isseoyo. yeolsimhi gongbuhago sipeoyo!", "items": ["ko.daeume", "ko.geumyoil", "ko.siheom", "ko.isseoyo", "ko.yeolsimhi", "ko.gongbuhaeyo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静星期几下午打工?", "options": ["星期二和星期四", "星期六", "星期一和星期三", "每天"], "answer": 2, "explainZh": "第 5 句:월요일하고 수요일 오후에는 카페에서 일해요(星期一和星期三下午在咖啡店打工)。上午每天有课。" },
+    { "prompt": "星期六陈静做了什么?", "options": ["和秀雅去看了演唱会", "和敏俊、南去唱 KTV,还在汉江边散了步", "在宿舍打扫卫生"], "answer": 1, "explainZh": "第 6、7 句:토요일에……노래방에 갔어요. 그리고 한강에서 산책했어요.。演唱会是今天(星期天)和秀雅去的。" },
+    { "prompt": "哪一项符合陈静现在的心情?", "options": ["有点累,但在首尔很开心", "很想家,在首尔不开心", "一点也不累"], "answer": 0, "explainZh": "第 8 句 지금은 좀 피곤해요(现在有点累);第 9 句她想杭州的爸爸妈妈,但第 10、11 句说首尔有很多好朋友,저는 서울에서 진짜 행복해요。" },
+    { "prompt": "下周五有什么事?", "options": ["演唱会", "去釜山", "考试"], "answer": 2, "explainZh": "第 12 句:다음 주 금요일에 시험이 있어요. 열심히 공부하고 싶어요!" }
+  ],
+  "grammar": [
+    { "id": "ko.g.tense_mix_diary", "titleZh": "日记里的现在时和过去时",
+      "bodyZh": "写日记、讲一周的生活,要分清三种时间:① 习惯、经常做的事用现在时:오전에는 수업이 있어요、월요일하고 수요일 오후에는 카페에서 일해요;② 已经做过的事用过去时:토요일에 노래방에 갔어요、한강에서 산책했어요;③ 将来的安排也常用现在时:다음 주 금요일에 시험이 있어요。中文靠“了、过、会”这些词区分,韩语靠动词词尾:갔어요(去了)/ 가요(去,常去,或者要去)。时间词一般放在句子前面:토요일에、오늘은、다음 주 금요일에。本课的日记用 해요体写;韩国人自己写日记一般用 -다 体(갔다、재미있었다),A2 再学。",
+      "examples": [ { "text": "오전에는 수업이 있어요.", "zh": "上午有课。(习惯:现在时)" }, { "text": "토요일에 노래방에 갔어요.", "zh": "星期六去唱了 KTV。(做过的事:过去时)" }, { "text": "다음 주 금요일에 시험이 있어요.", "zh": "下周五有考试。(安排:现在时)" } ] },
+    { "id": "ko.g.diary_feelings", "titleZh": "写感受的几个说法",
+      "bodyZh": "“第一次……”:N은/는 처음이에요(第 6 单元学过):한국어 일기는 처음이에요。想念家人、朋友:N이/가 보고 싶어요(字面“想见”):부모님이 보고 싶어요。说心情直接用形容词:피곤해요(累)、행복해요(幸福、很开心)、재미있었어요(很有意思)。想表达“好好……、努力……”:열심히 + 动词,再加 -고 싶어요 表示决心:열심히 공부하고 싶어요。“不过在首尔……”这种转折,可以用 은/는 的对比来表达:서울에는 좋은 친구가 많이 있어요。发音:행복해요 读 [행보캐요](ㄱ 和 ㅎ 合成 ㅋ)。",
+      "examples": [ { "text": "한국어 일기는 처음이에요.", "zh": "用韩语写日记还是第一次。" }, { "text": "항저우의 부모님이 보고 싶어요.", "zh": "我想杭州的爸爸妈妈了。" }, { "text": "열심히 공부하고 싶어요.", "zh": "我要好好学习。" } ] }
+  ],
+  "review": "draft"
+}

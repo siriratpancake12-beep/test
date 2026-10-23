@@ -28,12 +28,12 @@
     { "speaker": "sua", "text": "학교 앞 은행 옆에 편의점이 있어요.", "zh": "学校前面那家银行旁边有个便利店。", "roman": "hakgyo ap eunhaeng yeope pyeonuijeomi isseoyo.", "items": ["ko.hakgyo", "ko.ap", "ko.eunhaeng", "ko.yeop", "ko.pyeonuijeom", "ko.isseoyo"] },
     { "speaker": "jing", "text": "네, 거기 편의점 있어요.", "zh": "嗯,那儿是有个便利店。", "roman": "ne, geogi pyeonuijeom isseoyo.", "items": ["ko.ne", "ko.geogi", "ko.pyeonuijeom", "ko.isseoyo"] },
     { "speaker": "sua", "text": "식당은 그 편의점 뒤에 있어요. 진짜 맛있어요!", "zh": "饭馆就在那家便利店后面。特别好吃!", "roman": "sikdangeun geu pyeonuijeom dwie isseoyo. jinjja masisseoyo!", "items": ["ko.sikdang", "ko.pyeonuijeom", "ko.dwi", "ko.isseoyo", "ko.jinjja", "ko.masisseoyo"] },
-    { "speaker": "jing", "text": "아, 저기 편의점이 있어요!", "zh": "(两人走到街上)啊,便利店在那儿!", "roman": "a, jeogi pyeonuijeomi isseoyo!", "items": ["ko.jeogi", "ko.pyeonuijeom", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "아, 저기 은행 옆에 편의점이 있어요!", "zh": "(两人走到街上)啊,那边银行旁边就是便利店!", "roman": "a, jeogi eunhaeng yeope pyeonuijeomi isseoyo!", "items": ["ko.jeogi", "ko.eunhaeng", "ko.yeop", "ko.pyeonuijeom", "ko.isseoyo"] },
     { "speaker": "sua", "text": "네, 식당은 거기 뒤에 있어요. 같이 가요!", "zh": "对,饭馆就在那后面。走吧!", "roman": "ne, sikdangeun geogi dwie isseoyo. gachi gayo!", "items": ["ko.ne", "ko.sikdang", "ko.geogi", "ko.dwi", "ko.isseoyo", "ko.gachi", "ko.gayo"] }
   ],
   "questions": [
-    { "prompt": "陈静的手机最后在哪儿找到的?", "options": ["包里", "书上面", "衣服下面"], "answer": 2, "explainZh": "第 2–6 句:가방 안에 없어요、책 위에도 없어요;秀雅说 옷 아래에 있어요(在衣服下面)。" },
-    { "prompt": "秀雅说的饭馆在哪儿?", "options": ["便利店后面", "银行前面", "学校里面"], "answer": 0, "explainZh": "第 10、12 句:学校前面那家银行旁边有便利店,식당은 그 편의점 뒤에 있어요(饭馆在便利店后面)。" },
+    { "prompt": "陈静的手机最后在哪儿找到的?", "options": ["衣服下面", "包里", "书上面"], "answer": 0, "explainZh": "第 2–6 句:가방 안에 없어요、책 위에도 없어요;秀雅说 옷 아래에 있어요(在衣服下面)。" },
+    { "prompt": "秀雅说的饭馆在哪儿?", "options": ["银行前面", "学校里面", "便利店后面"], "answer": 2, "explainZh": "第 10、12 句:学校前面那家银行旁边有便利店,식당은 그 편의점 뒤에 있어요(饭馆在便利店后面)。" },
     { "prompt": "第 6 句秀雅说“저기 있어요”,手机在哪儿?", "options": ["就在秀雅手边", "离两个人都有点远", "在陈静手里"], "answer": 1, "explainZh": "저기 指离两个人都远、看得见的地方;离自己近说 여기,离对方近或刚提到的说 거기。陈静走过去拿到手机,才说 여기 있어요。" }
   ],
   "grammar": [

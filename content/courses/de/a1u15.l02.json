@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u15.l02", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-15 节日与生日", "order": 115020,
+  "titleZh": "礼物和贺卡", "goalZh": "会说常见的礼物,在商店里买礼物、和朋友分摊钱,写一句生日祝福", "canDoZh": "能说出常见的礼物,写一张简单的生日贺卡",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.schenken", "kind": "word", "pos": "verb", "text": "schenken", "zh": "送(礼物)", "features": { "ipa": "ˈʃɛŋkn̩" }, "noteZh": "schenken + 人 + 东西:Wir schenken Paul ein Trikot.(我们送保罗一件球衣。)名词 das Geschenk(礼物)就是从它来的。" },
+    { "id": "de.fan", "kind": "word", "pos": "noun", "text": "der Fan", "zh": "迷;粉丝", "features": { "gender": "m", "plural": "die Fans", "ipa": "fɛn" }, "noteZh": "从英语借来,读 [fɛn];ein großer Fußballfan(超级球迷);复数 die Fans。" },
+    { "id": "de.spiel", "kind": "word", "pos": "noun", "text": "das Spiel", "zh": "游戏;比赛", "features": { "gender": "n", "plural": "die Spiele", "ipa": "ʃpiːl" }, "noteZh": "spielen 的名词:ein Spiel kaufen(买个游戏)、das Fußballspiel(足球比赛);sp 在词首读 [ʃp]。" },
+    { "id": "de.gutschein", "kind": "word", "pos": "noun", "text": "der Gutschein", "zh": "代金券;礼品卡", "features": { "gender": "m", "plural": "die Gutscheine", "ipa": "ˈɡuːtˌʃaɪ̯n" }, "noteZh": "不知道送什么时常送:ein Gutschein für das Kino(电影代金券);ei 读 [aɪ̯],sch 读 [ʃ]。" },
+    { "id": "de.langweilig", "kind": "word", "pos": "adj", "text": "langweilig", "zh": "无聊的;没意思的", "features": { "ipa": "ˈlaŋˌvaɪ̯lɪç" }, "noteZh": "Der Film ist langweilig.(这部电影没意思。)词尾 -ig 读 [ɪç];反义是 interessant(本单元第 7 课)。" },
+    { "id": "de.trikot", "kind": "word", "pos": "noun", "text": "das Trikot", "zh": "球衣;运动衫", "features": { "gender": "n", "plural": "die Trikots", "ipa": "tʁiˈkoː" }, "noteZh": "法语来的词,重音在后面,词尾 t 不发音:tri-KO;复数 die Trikots;球迷爱穿自己球队的 Trikot。" },
+    { "id": "de.mannschaft", "kind": "word", "pos": "noun", "text": "die Mannschaft", "zh": "(运动)队", "features": { "gender": "f", "plural": "die Mannschaften", "ipa": "ˈmanʃaft" }, "noteZh": "ein Trikot von seiner Mannschaft(他那支球队的球衣);国家队是 die Nationalmannschaft;-schaft 结尾的名词都是阴性。" },
+    { "id": "de.haelfte", "kind": "word", "pos": "noun", "text": "die Hälfte", "zh": "一半", "features": { "gender": "f", "plural": "die Hälften", "ipa": "ˈhɛlftə" }, "noteZh": "Ich bezahle die Hälfte.(我付一半。)和朋友一起买礼物时很有用;和 halb(半)是一家,ä 读 [ɛ]。" },
+    { "id": "de.wuenschen", "kind": "word", "pos": "verb", "text": "wünschen", "zh": "祝愿;希望", "features": { "ipa": "ˈvʏnʃn̩" }, "noteZh": "贺卡常用:Wir wünschen dir viel Spaß!(祝你玩得开心!)dir 是 du 的第三格,先当固定说法;w 读 [v],ü 是短音。" }
+  ],
+  "reviewItems": ["de.suchen", "de.groesse", "de.name", "de.karte", "de.herzlichen_glueckwunsch"],
+  "lines": [
+    { "speaker": "wei", "text": "Lena, was schenken wir Paul? Vielleicht ein Buch?", "zh": "莉娜,我们送保罗什么?送本书?", "items": ["de.was", "de.schenken", "de.wir", "de.vielleicht", "de.ein", "de.buch"] },
+    { "speaker": "lena", "text": "Nein, Paul liest nicht gern. Aber er ist ein großer Fußballfan!", "zh": "不行,保罗不爱看书。不过他是个超级球迷!", "items": ["de.nein", "de.lesen", "de.nicht", "de.gern", "de.aber", "de.er", "de.sein", "de.ein", "de.gross", "de.fussball", "de.fan"] },
+    { "speaker": "wei", "text": "Dann vielleicht ein Spiel? Oder einen Gutschein?", "zh": "那送个游戏?还是送张代金券?", "items": ["de.dann", "de.vielleicht", "de.ein", "de.spiel", "de.oder", "de.gutschein"] },
+    { "speaker": "lena", "text": "Ein Gutschein ist langweilig. Er möchte ein Trikot von seiner Mannschaft!", "zh": "代金券太没意思了。他想要一件他那支球队的球衣!", "items": ["de.ein", "de.gutschein", "de.sein", "de.langweilig", "de.er", "de.moechten", "de.trikot", "de.von", "de.sein_poss", "de.mannschaft"] },
+    { "speaker": "verkaeuferin", "text": "Guten Tag! Kann ich Ihnen helfen?", "zh": "您好!需要帮忙吗?", "items": ["de.guten_tag", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
+    { "speaker": "lena", "text": "Ja, bitte. Wir suchen ein Trikot, Größe M.", "zh": "要的,麻烦您。我们想找一件球衣,M 号。", "items": ["de.ja", "de.bitte", "de.wir", "de.suchen", "de.ein", "de.trikot", "de.groesse"] },
+    { "speaker": "verkaeuferin", "text": "Hier, bitte. Es kostet fünfzig Euro, mit Namen sechzig.", "zh": "给您。这件五十欧元,印上名字六十欧元。", "items": ["de.hier", "de.bitte", "de.es", "de.kosten", "de.fuenfzig", "de.euro", "de.mit", "de.name", "de.sechzig"] },
+    { "speaker": "wei", "text": "Mit Namen, bitte! Ich bezahle die Hälfte.", "zh": "要印名字的!我付一半。", "items": ["de.mit", "de.name", "de.bitte", "de.ich", "de.bezahlen", "de.haelfte"] },
+    { "speaker": "lena", "text": "Super! Und jetzt die Karte. Was schreiben wir?", "zh": "太好了!现在写贺卡。我们写什么?", "items": ["de.toll", "de.und", "de.jetzt", "de.karte", "de.was", "de.schreiben", "de.wir"] },
+    { "speaker": "wei", "text": "Lieber Paul, alles Gute zum Geburtstag! Wir wünschen dir viel Spaß!", "zh": "亲爱的保罗,生日快乐!祝你玩得开心!", "items": ["de.liebe", "de.herzlichen_glueckwunsch", "de.geburtstag", "de.wir", "de.wuenschen", "de.du", "de.viel", "de.spass"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜为什么觉得不该送书?", "options": ["保罗已经有很多书了", "保罗不爱看书", "书太贵了"], "answer": 1, "explainZh": "莉娜说:Nein, Paul liest nicht gern.(不行,保罗不爱看书。)" },
+    { "prompt": "他们最后买了什么?", "options": ["一张代金券", "一个游戏", "一件印着名字的球衣"], "answer": 2, "explainZh": "莉娜说保罗想要 ein Trikot von seiner Mannschaft(他那支球队的球衣),王伟说 Mit Namen, bitte!(要印名字的!)" },
+    { "prompt": "王伟要付多少钱?", "options": ["30 欧元", "60 欧元", "50 欧元"], "answer": 0, "explainZh": "印名字的球衣 60 欧元(mit Namen sechzig),王伟说 Ich bezahle die Hälfte.(我付一半)——就是 30 欧元。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u15_fuer_akk", "titleZh": "für + 第四格;schenken 送礼物",
+      "bodyZh": "für(给;为了)后面用第四格,人称代词也要变:für mich、für dich、für ihn、für sie、für uns、für euch、für Sie。Das Trikot ist für ihn.(球衣是给他的。)Das Geschenk ist für dich!(这礼物是给你的!)\n名字和名词直接跟在 für 后面:für Paul;阳性名词前的物主冠词要用第四格:für ihren Bruder(给她弟弟)。\nschenken(送礼物):送谁 + 送什么——Wir schenken Paul ein Trikot.;问:Was schenken wir Paul?(我们送保罗什么?)中文说“送给他”,德语不用加“给”这个词。\n和朋友一起买东西时:Ich bezahle die Hälfte.(我付一半。)",
+      "examples": [
+        { "text": "Das Trikot ist für ihn.", "zh": "球衣是给他的。" },
+        { "text": "Das Geschenk ist für dich!", "zh": "这礼物是给你的!" },
+        { "text": "Wir schenken Paul ein Trikot.", "zh": "我们送保罗一件球衣。" }
+      ] },
+    { "id": "de.g.u15_karte", "titleZh": "写一张生日贺卡",
+      "bodyZh": "德国的生日贺卡一般三步:\n① 称呼:Lieber Paul,(写给男的)/ Liebe Lena,(写给女的)\n② 祝福:Alles Gute zum Geburtstag! 或 Herzlichen Glückwunsch zum Geburtstag!;再加一句 Wir wünschen dir viel Spaß!(祝你玩得开心!)——dir 是 du 的第三格,先整句记;写给用 Sie 的人改成 Ihnen:Wir wünschen Ihnen …\n③ 落款:Dein Wei(男)/ Deine Lena(女),或者 Viele Grüße, Wei。\n别忘了第 5 单元学的习俗:生日祝福要等到生日当天或之后才说,所以这张贺卡派对那天才交给保罗。",
+      "examples": [
+        { "text": "Lieber Paul, alles Gute zum Geburtstag!", "zh": "亲爱的保罗,生日快乐!" },
+        { "text": "Wir wünschen dir viel Spaß!", "zh": "祝你玩得开心!" },
+        { "text": "Deine Lena", "zh": "(落款)莉娜" }
+      ] }
+  ],
+  "review": "draft"
+}

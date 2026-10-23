@@ -1,0 +1,54 @@
+{
+  "id": "ko.a1u3.l01", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 自我介绍与家人", "order": 103010,
+  "titleZh": "我叫陈静", "goalZh": "会用 N은/는 N이에요/예요 说名字和身份,会问别人的名字",
+  "canDoZh": "能用韩语说出自己的名字、国籍和身份,问别人叫什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ko.ireum", "kind": "word", "pos": "noun", "text": "이름", "zh": "名字", "features": { "roman": "ireum" }, "noteZh": "问名字:이름이 뭐예요?;连音读 [이르미 뭐예요]。回答说 저는 ○○이에요/예요,自己的名字后面不加 씨。对长辈问名字要用更尊敬的说法(以后学)。" },
+    { "id": "ko.saram", "kind": "word", "pos": "noun", "text": "사람", "zh": "人", "features": { "roman": "saram" }, "noteZh": "国家 + 사람 = ……人:중국 사람(中国人)、한국 사람(韩国人),中间空一格。사람이에요 连音读 [사라미에요]。" },
+    { "id": "ko.haksaeng", "kind": "word", "pos": "noun", "text": "학생", "zh": "学生", "features": { "roman": "haksaeng" }, "noteZh": "汉字词 学生;紧音化:收音 ㄱ 后面的 ㅅ 变紧,读 [학쌩]。" },
+    { "id": "ko.yuhaksaeng", "kind": "word", "pos": "noun", "text": "유학생", "zh": "留学生", "features": { "roman": "yuhaksaeng" }, "noteZh": "汉字词 留学生;读 [유학쌩]。중국 유학생 = 中国留学生。" },
+    { "id": "ko.cheoeum_boepgetseumnida", "kind": "phrase", "pos": "phrase", "text": "처음 뵙겠습니다", "zh": "初次见面(正式)", "features": { "roman": "cheoeum boepgetseumnida" }, "noteZh": "第一次见面的客气话,对老师、长辈或在全班面前做自我介绍时用;读 [처음 뵙껟씀니다]。同学私下见面说 반갑습니다 就够了。" },
+    { "id": "ko.jal_butakdeurimnida", "kind": "phrase", "pos": "phrase", "text": "잘 부탁드립니다", "zh": "请多关照", "features": { "roman": "jal butakdeurimnida" }, "noteZh": "自我介绍的结束语,和中文“请多关照”用法一样;读 [잘 부탁뜨림니다]:탁 后面的 ㄷ 变紧,-ㅂ니다 鼻音化。" },
+    { "id": "ko.majayo", "kind": "phrase", "pos": "phrase", "text": "맞아요", "zh": "对;没错", "features": { "roman": "majayo" }, "noteZh": "原形 맞다(对、正确)。确认对方说得对:남 씨예요?— 네, 맞아요.;连音读 [마자요]。" }
+  ],
+  "reviewItems": ["ko.jeo", "ko.jungguk", "ko.bangapseumnida", "ko.seonsaengnim"],
+  "lines": [
+    { "speaker": "park", "text": "안녕하세요! 이름이 뭐예요?", "zh": "(语学堂第二周的星期一,班上来了两位插班的新同学。朴老师请大家轮流自我介绍,先看向陈静)大家好!你叫什么名字?", "roman": "Annyeonghaseyo! Ireumi mwoyeyo?", "items": ["ko.annyeonghaseyo", "ko.ireum", "ko.mwo"] },
+    { "speaker": "jing", "text": "처음 뵙겠습니다. 저는 천징이에요.", "zh": "(陈静站起来,朝新同学点点头)初次见面,我叫陈静。", "roman": "Cheoeum boepgetseumnida. Jeoneun Cheonjingieyo.", "items": ["ko.cheoeum_boepgetseumnida", "ko.jeo"] },
+    { "speaker": "park", "text": "천징 씨는 중국 사람이에요?", "zh": "陈静是中国人吗?", "roman": "Cheonjing ssineun jungguk saramieyo?", "items": ["ko.ssi", "ko.jungguk", "ko.saram"] },
+    { "speaker": "jing", "text": "네, 맞아요. 중국 사람이에요.", "zh": "对,没错。我是中国人。", "roman": "Ne, majayo. Jungguk saramieyo.", "items": ["ko.ne", "ko.majayo", "ko.jungguk", "ko.saram"] },
+    { "speaker": "park", "text": "학생이에요?", "zh": "是学生吗?", "roman": "Haksaengieyo?", "items": ["ko.haksaeng"] },
+    { "speaker": "jing", "text": "네, 선생님. 유학생이에요. 잘 부탁드립니다.", "zh": "是的,老师。我是留学生。请多关照。(说完鞠了一躬)", "roman": "Ne, seonsaengnim. Yuhaksaengieyo. Jal butakdeurimnida.", "items": ["ko.ne", "ko.seonsaengnim", "ko.yuhaksaeng", "ko.jal_butakdeurimnida"] },
+    { "speaker": "park", "text": "이름이 뭐예요?", "zh": "(老师笑着点点头,转向南)你叫什么名字?", "roman": "Ireumi mwoyeyo?", "items": ["ko.ireum", "ko.mwo"] },
+    { "speaker": "nam", "text": "저는 남이에요.", "zh": "(南说得又快又小声)我叫阿南。", "roman": "Jeoneun Namieyo.", "items": ["ko.jeo"] },
+    { "speaker": "park", "text": "남 씨예요?", "zh": "(新同学好像没听清,老师替他们再问一遍)是阿南吗?", "roman": "Nam ssiyeyo?", "items": ["ko.ssi"] },
+    { "speaker": "nam", "text": "네, 맞아요. 저도 유학생이에요. 반갑습니다!", "zh": "对,没错。我也是留学生。很高兴认识大家!", "roman": "Ne, majayo. Jeodo yuhaksaengieyo. Bangapseumnida!", "items": ["ko.ne", "ko.majayo", "ko.jeo", "ko.yuhaksaeng", "ko.bangapseumnida"] },
+    { "speaker": "jing", "text": "이름이 뭐예요?", "zh": "(老师让同桌两人用今天的句子再练一遍。陈静转向阿南)你叫什么名字?", "roman": "Ireumi mwoyeyo?", "items": ["ko.ireum", "ko.mwo"] },
+    { "speaker": "nam", "text": "처음 뵙겠습니다. 저는 남이에요!", "zh": "(阿南一本正经地鞠了一躬,两人都笑了)初次见面,我叫阿南!", "roman": "Cheoeum boepgetseumnida. Jeoneun Namieyo!", "items": ["ko.cheoeum_boepgetseumnida", "ko.jeo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静说自己是什么人?", "options": ["韩国留学生", "中国老师", "中国留学生"], "answer": 2, "explainZh": "第 4、6 句:중국 사람이에요(我是中国人)、유학생이에요(我是留学生)。" },
+    { "prompt": "老师问“남 씨예요?”,是想确认什么?", "options": ["他是不是叫阿南", "他是不是老师", "他是不是中国人"], "answer": 0, "explainZh": "第 9 句:新同学没听清,老师问 남 씨예요?(是阿南吗?);阿南回答 네, 맞아요(对,没错,第 10 句)。" },
+    { "prompt": "陈静自我介绍的最后说了 잘 부탁드립니다,意思是?", "options": ["初次见面", "请多关照", "很高兴见到你", "对,没错"], "answer": 1, "explainZh": "第 6 句:잘 부탁드립니다 = 请多关照,放在自我介绍的最后;第 2 句的 처음 뵙겠습니다 是“初次见面”,放在开头。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.eun_neun_ieyo", "titleZh": "N은/는 N이에요/예요:我是……",
+      "bodyZh": "韩语说“A 是 B”:A은/는 B이에요/예요。“是”放在句末,而且直接连在名词后面、不空格:저는 천징이에요(我是陈静)。中国学生常按中文语序把“是”放在中间,或者把 이에요 和名词分开写,这两种都不对。\n① 은/는 标出话题(“说到……”):前一个字有收音用 은(선생님은),没有收音用 는(저는、천징 씨는)。上下文清楚时常常省掉:학생이에요?(是学生吗?)\n② 이에요/예요 看名词最后一个字:有收音用 이에요(천징이에요、학생이에요),没有收音用 예요(씨예요、뭐예요)。第 1–2 单元已经整句说过 저예요、뭐예요?、남이에요——저、뭐 没有收音,所以是 예요;남 有收音,所以是 이에요,连音读 [나미에요]。\n③ 问句和陈述句一样,只是句末语调上扬:남 씨예요?↗",
+      "examples": [
+        { "text": "저는 천징이에요.", "zh": "我是陈静。(징 有收音 → 이에요;收音 ㅇ 不连音)" },
+        { "text": "저는 남이에요.", "zh": "我是阿南。(남 有收音 → 이에요,读 [나미에요])" },
+        { "text": "천징 씨는 학생이에요?", "zh": "陈静是学生吗?(씨 没有收音 → 는)" },
+        { "text": "남 씨예요?", "zh": "是阿南吗?(씨 没有收音 → 예요)" }
+      ] },
+    { "id": "ko.g.self_intro", "titleZh": "问名字和自我介绍的固定说法",
+      "bodyZh": "问名字:이름이 뭐예요?(你叫什么名字?)这里的 이 是主语助词,本单元第 4 课细讲,现在整句记住;连音读 [이르미 뭐예요]。回答:저는 ○○이에요/예요。注意 씨 是称呼别人用的,说自己的名字不加 씨:저는 천징 씨예요 ✗。\n在全班面前做自我介绍,韩国人常用这个顺序:처음 뵙겠습니다(初次见面)→ 名字、国家、身份 → 잘 부탁드립니다(请多关照)。这两句是 합니다体,比 해요体郑重;平时和同学说 반갑습니다(很高兴见到你)就够了。别人说对了,用 네, 맞아요(对,没错)确认。",
+      "examples": [
+        { "text": "이름이 뭐예요?", "zh": "你叫什么名字?[이르미 뭐예요]" },
+        { "text": "처음 뵙겠습니다. 저는 천징이에요.", "zh": "初次见面,我叫陈静。" },
+        { "text": "네, 맞아요. 유학생이에요.", "zh": "对,没错。我是留学生。" }
+      ] }
+  ],
+  "review": "draft"
+}

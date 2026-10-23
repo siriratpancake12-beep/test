@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u13.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113030,
+  "titleZh": "我应该几点到?——sollen", "goalZh": "会用 sollen 转述别人的要求(Die Chefin sagt, ich soll …),会用 Soll ich …? 主动提出帮忙", "canDoZh": "能用 sollen 转述别人的要求,也能用 Soll ich …? 主动帮忙",
+  "skills": ["read", "write", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.sollen", "kind": "word", "pos": "verb", "text": "sollen", "zh": "应该;(别人)要我做", "features": { "ipa": "ˈzɔlən" }, "noteZh": "情态动词:ich soll, du sollst, er soll(ich 和 er 没有词尾),原形放句末;转述别人的要求:Die Chefin sagt, ich soll pünktlich sein.;主动帮忙:Soll ich …?(要我……吗?)" },
+    { "id": "de.tragen", "kind": "word", "pos": "verb", "text": "tragen", "zh": "穿;戴;拿着", "features": { "ipa": "ˈtʁaːɡn̩" }, "noteZh": "不规则:du trägst, er trägt(a 变 ä);穿衣服、戴眼镜都可以用 tragen:eine Hose tragen, eine Brille tragen。" },
+    { "id": "de.t_shirt", "kind": "word", "pos": "noun", "text": "das T-Shirt", "zh": "T 恤", "features": { "gender": "n", "plural": "die T-Shirts", "ipa": "ˈtiːʃœːɐ̯t" }, "noteZh": "英语借词,中性:das T-Shirt;复数加 -s;德国人基本按英语的音读。" },
+    { "id": "de.abwischen", "kind": "word", "pos": "verb", "text": "abwischen", "zh": "擦(干净)", "features": { "ipa": "ˈapˌvɪʃn̩" }, "noteZh": "可分动词,ab 放句末:Ich wische den Tisch ab.;问:Soll ich die Tische abwischen?;ab 读 [ap]。" },
+    { "id": "de.holen", "kind": "word", "pos": "verb", "text": "holen", "zh": "去拿;取来", "features": { "ipa": "ˈhoːlən" }, "noteZh": "去别处把东西拿过来:Ich hole das Eis.(我去拿冰淇淋。)规则动词:du holst, er holt;o 是长音。" },
+    { "id": "de.kasse", "kind": "word", "pos": "noun", "text": "die Kasse", "zh": "收银台;收款处", "features": { "gender": "f", "plural": "die Kassen", "ipa": "ˈkasə" }, "noteZh": "an der Kasse(在收银台);超市的收银员是 die Kassiererin;ss 读清音 [s]。" },
+    { "id": "de.chef", "kind": "word", "pos": "noun", "text": "der Chef", "zh": "老板;上司", "features": { "gender": "m", "plural": "die Chefs", "ipa": "ʃɛf" }, "noteZh": "ch 读 [ʃ](从法语来的词);复数加 -s:die Chefs;女的是 die Chefin。" },
+    { "id": "de.erklaeren", "kind": "word", "pos": "verb", "text": "erklären", "zh": "解释;讲解", "features": { "ipa": "ɛɐ̯ˈklɛːʁən" }, "noteZh": "er- 不可分、不重读,重音在 klä 上;Ich erkläre dir alles.(我把一切都给你讲讲。)给谁讲用 dir / Ihnen,先当固定说法记。" }
+  ],
+  "reviewItems": ["de.chefin", "de.sagen", "de.probearbeiten", "de.bleiben", "de.waschen", "de.puenktlich"],
+  "lines": [
+    { "speaker": "sofia", "text": "Ich erkläre dir alles. Die Chefin sagt, du sollst bis sieben bleiben.", "zh": "我来给你讲一讲。老板说,你今天要待到七点。", "items": ["de.ich", "de.erklaeren", "de.du", "de.alles", "de.chefin", "de.sagen", "de.sollen", "de.bis", "de.sieben", "de.bleiben"] },
+    { "speaker": "sofia", "text": "Zur Arbeit sollst du eine Hose in Schwarz und ein T-Shirt in Weiß tragen.", "zh": "上班时你要穿黑裤子、白 T 恤。", "items": ["de.zu", "de.arbeit", "de.sollen", "de.du", "de.ein", "de.hose", "de.in", "de.schwarz", "de.und", "de.t_shirt", "de.weiss", "de.tragen"] },
+    { "speaker": "sofia", "text": "Vor der Arbeit sollst du immer die Hände waschen.", "zh": "上班前一定要洗手。", "items": ["de.vor", "de.arbeit", "de.sollen", "de.du", "de.immer", "de.hand", "de.waschen"] },
+    { "speaker": "wei", "text": "Gut. Soll ich die Tische abwischen oder das Eis holen?", "zh": "好。要我擦桌子,还是去拿冰淇淋?", "items": ["de.gut", "de.sollen", "de.ich", "de.tisch", "de.abwischen", "de.oder", "de.eis", "de.holen"] },
+    { "speaker": "sofia", "text": "Die Tische, bitte. Dann sollst du an der Kasse helfen.", "zh": "先擦桌子吧。然后你去收银台帮忙。", "items": ["de.tisch", "de.bitte", "de.dann", "de.sollen", "de.du", "de.an", "de.kasse", "de.helfen"] },
+    { "speaker": "jonas", "text": "Und, wie war das Probearbeiten?", "zh": "(晚上在 WG)怎么样,试工顺利吗?", "items": ["de.und", "de.wie", "de.sein", "de.probearbeiten"] },
+    { "speaker": "wei", "text": "Gut! Ich soll drei Tage pro Woche arbeiten, auch am Wochenende.", "zh": "挺好!我每周要上三天班,周末也上。", "items": ["de.gut", "de.ich", "de.sollen", "de.drei", "de.tag", "de.pro", "de.woche", "de.arbeiten", "de.auch", "de.am", "de.wochenende"] },
+    { "speaker": "jonas", "text": "Und was sagt die Chefin? Ist sie nett?", "zh": "老板怎么说?她人好吗?", "items": ["de.und", "de.was", "de.sagen", "de.chefin", "de.sein", "de.sie_sg", "de.nett"] },
+    { "speaker": "wei", "text": "Ja, sehr. Sie sagt, ich soll immer pünktlich sein.", "zh": "很好。她说我一定要准时。", "items": ["de.ja", "de.sehr", "de.sie_sg", "de.sagen", "de.ich", "de.sollen", "de.immer", "de.puenktlich", "de.sein"] },
+    { "speaker": "jonas", "text": "Mein Chef sagt das auch. Aber pünktlich bin ich nie!", "zh": "我老板也这么说。可我从来不准时!", "items": ["de.mein", "de.chef", "de.sagen", "de.auch", "de.aber", "de.puenktlich", "de.sein", "de.ich", "de.nie"] }
+  ],
+  "questions": [
+    { "prompt": "上班时王伟要穿什么?", "options": ["蓝裤子和白衬衫", "黑 T 恤和白裤子", "黑裤子和白 T 恤"], "answer": 2, "explainZh": "索菲娅说:Zur Arbeit sollst du eine Hose in Schwarz und ein T-Shirt in Weiß tragen.(要穿黑裤子、白 T 恤。)" },
+    { "prompt": "索菲娅让王伟先做什么?", "options": ["去拿冰淇淋", "擦桌子", "在收银台收钱"], "answer": 1, "explainZh": "王伟问:Soll ich die Tische abwischen oder das Eis holen?索菲娅说:Die Tische, bitte.(先擦桌子。)然后才去收银台帮忙。" },
+    { "prompt": "约纳斯说 Aber pünktlich bin ich nie! 是什么意思?", "options": ["他在开玩笑:他自己从来不准时", "他觉得王伟会迟到", "他的老板对他很不满意"], "answer": 0, "explainZh": "约纳斯说:Mein Chef sagt das auch. Aber pünktlich bin ich nie!(我老板也这么说,可我从来不准时!)他爱开玩笑,也起得很晚。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_sollen", "titleZh": "sollen(一):转述别人的要求",
+      "bodyZh": "sollen 是情态动词:ich soll · du sollst · er / sie soll · wir sollen · ihr sollt · sie / Sie sollen(ich 和 er 都没有词尾,和 müssen、können 一样)。原形放句末:Ich soll pünktlich sein.\n最常见的用法是转述别人的要求,相当于中文的“(某人)叫我 / 让我……”:Die Chefin sagt, du sollst bis sieben Uhr bleiben.(老板说你要待到七点。)\nsollen 和 müssen 都能译成“得、要”,区别在要求从哪儿来:Ich muss lernen.(我自己知道必须学);Ich soll lernen.(是别人要我学的)。",
+      "examples": [
+        { "text": "Die Chefin sagt, ich soll pünktlich sein.", "zh": "老板说我要准时。" },
+        { "text": "Du sollst ein T-Shirt in Weiß tragen.", "zh": "你得穿白 T 恤。" },
+        { "text": "Ich soll drei Tage pro Woche arbeiten.", "zh": "我每周要上三天班。" }
+      ] },
+    { "id": "de.g.u13_soll_ich", "titleZh": "sollen(二):Soll ich …? 主动帮忙",
+      "bodyZh": "Soll ich …?(要我……吗?/ 我来……好吗?)是主动提出帮忙、问别人要你做什么的说法:Soll ich die Tische abwischen?(要我擦桌子吗?)回答:Ja, bitte. / Ja, gern. / Nein, danke, das mache ich.。动词 sollen 放句首,真正要做的事放句末;可分动词整个放在最后:abwischen。英语的 Shall I …? 用法差不多。",
+      "examples": [
+        { "text": "Soll ich die Tische abwischen?", "zh": "要我擦桌子吗?" },
+        { "text": "Soll ich das Eis holen?", "zh": "要我去拿冰淇淋吗?" },
+        { "text": "Ja, bitte. Dann sollst du an der Kasse helfen.", "zh": "好啊。然后你去收银台帮忙。" }
+      ] }
+  ],
+  "review": "draft"
+}

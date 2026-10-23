@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u13.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113040,
+  "titleZh": "在冰淇淋店:几个球?", "goalZh": "会用店里的固定说法招呼顾客、问口味和蛋筒还是杯装,算钱、找零", "canDoZh": "能招呼客人、问口味和数量、收钱找零",
+  "skills": ["listen", "speak"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "de.was_darf_es_sein", "kind": "phrase", "pos": "phrase", "text": "Was darf es sein?", "zh": "您要点什么?(店员招呼顾客)", "features": { "ipa": "vas daʁf ɛs ˈzaɪ̯n" }, "noteZh": "面包店、冰淇淋店、咖啡馆的店员常这样招呼顾客,很客气,不用分 du 和 Sie;darf 是 dürfen 的变位。" },
+    { "id": "de.kugel", "kind": "word", "pos": "noun", "text": "die Kugel", "zh": "(冰淇淋的)球;球形", "features": { "gender": "f", "plural": "die Kugeln", "ipa": "ˈkuːɡl̩" }, "noteZh": "冰淇淋按球卖:eine Kugel / drei Kugeln Eis;u 是长音。" },
+    { "id": "de.erdbeere", "kind": "word", "pos": "noun", "text": "die Erdbeere", "zh": "草莓", "features": { "gender": "f", "plural": "die Erdbeeren", "ipa": "ˈeːɐ̯tˌbeːʁə" }, "noteZh": "die Erde(土地)+ die Beere(浆果),重音在 Erd 上,d 读 [t];点冰淇淋时口味直接说名字:Erdbeere, bitte!" },
+    { "id": "de.zitrone", "kind": "word", "pos": "noun", "text": "die Zitrone", "zh": "柠檬", "features": { "gender": "f", "plural": "die Zitronen", "ipa": "tsiˈtʁoːnə" }, "noteZh": "重音在 tro 上:zi-TRO-ne;z 读 [ts]。" },
+    { "id": "de.waffel", "kind": "word", "pos": "noun", "text": "die Waffel", "zh": "华夫饼;(冰淇淋的)蛋筒", "features": { "gender": "f", "plural": "die Waffeln", "ipa": "ˈvafl̩" }, "noteZh": "冰淇淋店常问:In der Waffel oder im Becher?(要蛋筒还是杯装?)w 读 [v]。" },
+    { "id": "de.becher", "kind": "word", "pos": "noun", "text": "der Becher", "zh": "(没有把的)杯子;纸杯", "features": { "gender": "m", "plural": "die Becher", "ipa": "ˈbɛçɐ" }, "noteZh": "没有把的杯子叫 Becher,有把的是 die Tasse;ch 在 e 后面读 [ç]。" },
+    { "id": "de.eiskaffee", "kind": "word", "pos": "noun", "text": "der Eiskaffee", "zh": "冰咖啡(加冰淇淋)", "features": { "gender": "m", "plural": "die Eiskaffees", "ipa": "ˈaɪ̯skaˌfeː" }, "noteZh": "德国的 Eiskaffee 是凉咖啡加香草冰淇淋和奶油,不是加冰块的咖啡;性跟 der Kaffee 走。" },
+    { "id": "de.sonst_noch_etwas", "kind": "phrase", "pos": "phrase", "text": "Sonst noch etwas?", "zh": "还要别的吗?", "features": { "ipa": "zɔnst nɔx ˈɛtvas" }, "noteZh": "店员收钱以前常问;回答:Nein, danke. / Ja, noch …;口语里也说 Sonst noch was?" },
+    { "id": "de.cent", "kind": "word", "pos": "noun", "text": "der Cent", "zh": "欧分", "features": { "gender": "m", "plural": "die Cent", "ipa": "sɛnt" }, "noteZh": "1 Euro = 100 Cent;说钱数时复数不变:sechzig Cent;价格 1,80 € 读作 ein Euro achtzig,在店里常简说 eins achtzig。" }
+  ],
+  "reviewItems": ["de.schokolade", "de.lecker", "de.das_macht", "de.zusammen", "de.bekommen", "de.zurueck"],
+  "lines": [
+    { "speaker": "wei", "text": "Hallo, Paul! Hallo, Lena! Was darf es sein?", "zh": "你好,保罗!你好,莉娜!要点什么?", "items": ["de.hallo", "de.was_darf_es_sein"] },
+    { "speaker": "paul", "text": "Drei Kugeln, bitte: Schokolade, Erdbeere und Zitrone!", "zh": "三个球:巧克力、草莓和柠檬!", "items": ["de.drei", "de.kugel", "de.bitte", "de.schokolade", "de.erdbeere", "de.und", "de.zitrone"] },
+    { "speaker": "wei", "text": "In der Waffel oder im Becher?", "zh": "要蛋筒还是杯装?", "items": ["de.in", "de.waffel", "de.oder", "de.becher"] },
+    { "speaker": "paul", "text": "In der Waffel, bitte!", "zh": "蛋筒的!", "items": ["de.in", "de.waffel", "de.bitte"] },
+    { "speaker": "lena", "text": "Und für mich einen Eiskaffee, bitte.", "zh": "我要一杯冰咖啡。", "items": ["de.und", "de.fuer", "de.ich", "de.ein", "de.eiskaffee", "de.bitte"] },
+    { "speaker": "wei", "text": "Gern. Sonst noch etwas?", "zh": "好的。还要别的吗?", "items": ["de.gern", "de.sonst_noch_etwas"] },
+    { "speaker": "lena", "text": "Nein, danke. Was macht das zusammen?", "zh": "不要了,谢谢。一共多少钱?", "items": ["de.nein", "de.danke", "de.was", "de.das_macht", "de.zusammen"] },
+    { "speaker": "wei", "text": "Das macht zusammen neun Euro vierzig.", "zh": "一共九欧四十。", "items": ["de.das_macht", "de.zusammen", "de.neun", "de.euro", "de.vierzig"] },
+    { "speaker": "sofia", "text": "Wei, eine Kugel kostet eins achtzig. Das macht acht Euro vierzig!", "zh": "伟,一个球一欧八十。一共是八欧四十!", "items": ["de.ein", "de.kugel", "de.kosten", "de.eins", "de.acht", "de.das_macht", "de.euro", "de.vierzig"] },
+    { "speaker": "lena", "text": "Hier sind neun Euro.", "zh": "给你九欧元。", "items": ["de.hier", "de.sein", "de.neun", "de.euro"] },
+    { "speaker": "wei", "text": "Danke! Und du bekommst sechzig Cent zurück.", "zh": "谢谢!找你六十欧分。", "items": ["de.danke", "de.und", "de.du", "de.bekommen", "de.sechzig", "de.cent", "de.zurueck"] },
+    { "speaker": "paul", "text": "Lecker! Wei, ich komme jetzt jeden Tag!", "zh": "真好吃!伟,我以后每天都来!", "items": ["de.lecker", "de.ich", "de.ich_komme_aus", "de.jetzt", "de.jeder", "de.tag"] }
+  ],
+  "questions": [
+    { "prompt": "保罗要了哪几种口味?", "options": ["巧克力、香草和柠檬", "巧克力、草莓和柠檬", "草莓、覆盆子和柠檬"], "answer": 1, "explainZh": "保罗说:Drei Kugeln, bitte: Schokolade, Erdbeere und Zitrone!(巧克力、草莓和柠檬。)" },
+    { "prompt": "王伟一开始说错了什么?", "options": ["价格", "口味", "杯子的大小"], "answer": 0, "explainZh": "王伟说一共 neun Euro vierzig(9.40 欧元),索菲娅纠正:一个球 eins achtzig(1.80 欧元),一共 acht Euro vierzig(8.40 欧元)。" },
+    { "prompt": "一共多少钱?", "options": ["9.40 欧元", "5.40 欧元", "8.40 欧元"], "answer": 2, "explainZh": "三个球 3 × 1.80 = 5.40 欧元,加一杯冰咖啡,索菲娅说:Das macht acht Euro vierzig!(一共 8.40 欧元!)莉娜给了九欧元,找回 60 欧分。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_eisdiele", "titleZh": "在店里:服务用语和价格的读法",
+      "bodyZh": "店员常用的几句:Was darf es sein?(要点什么?)/ In der Waffel oder im Becher?(蛋筒还是杯装?)/ Sonst noch etwas?(还要别的吗?)/ Das macht (zusammen) …(一共……)。顾客点单:Drei Kugeln, bitte. / Für mich einen Eiskaffee, bitte.(第四格 einen 复习)。\n价格的读法:1,80 € 读 ein Euro achtzig,在店里常简说 eins achtzig;8,40 € 读 acht Euro vierzig;0,60 € 读 sechzig Cent。找零:Du bekommst sechzig Cent zurück. / Sie bekommen … zurück.(zurückbekommen 可分)。冰淇淋按球算:eine Kugel, drei Kugeln(复数加 -n),口味直接说名字,不加冠词:Schokolade, Erdbeere und Zitrone。",
+      "examples": [
+        { "text": "Was darf es sein?", "zh": "要点什么?" },
+        { "text": "Eine Kugel kostet eins achtzig.", "zh": "一个球一欧八十。" },
+        { "text": "Du bekommst sechzig Cent zurück.", "zh": "找你六十欧分。" }
+      ] }
+  ],
+  "review": "draft"
+}

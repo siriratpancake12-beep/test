@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u6.l08", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106080,
+  "titleZh": "单元复习:我带你去明洞", "goalZh": "把本单元的方位、指路、地铁说法串起来,自己给别人带路",
+  "canDoZh": "能给第一次去明洞的朋友讲清坐车路线,出站后看地图带路,迷路时向路人求助",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ko.jido", "kind": "word", "pos": "noun", "text": "지도", "zh": "地图", "features": { "roman": "jido" }, "noteZh": "汉字词 地图;手机里的地图 App 也叫 지도:지도에는 이 근처예요(地图上就在这附近)。" },
+    { "id": "ko.sinae", "kind": "word", "pos": "noun", "text": "시내", "zh": "市中心;市区", "features": { "roman": "sinae" }, "noteZh": "汉字词 市内,但意思是“市中心、热闹的城区”;시내에 가요 = 进城、去市中心。" },
+    { "id": "ko.gugyeong", "kind": "word", "pos": "noun", "text": "구경", "zh": "观光;逛;看热闹", "features": { "roman": "gugyeong" }, "noteZh": "固有词;加 하다 变动词:구경해요(逛逛、看看)、구경하고 싶어요(想逛逛);명동 구경 = 逛明洞。" },
+    { "id": "ko.cheoeum", "kind": "word", "pos": "noun", "text": "처음", "zh": "第一次;最初", "features": { "roman": "cheoeum" }, "noteZh": "N은/는 처음이에요 = 第一次(来)N:명동은 처음이에요;처음 뵙겠습니다(初次见面)里的 처음 就是它。" }
+  ],
+  "reviewItems": ["ko.jihacheol", "ko.chulgu", "ko.garatayo", "ko.oenjjok"],
+  "lines": [
+    { "speaker": "nam", "text": "천징 씨, 저는 명동은 처음이에요. 구경하고 싶어요!", "zh": "(周末)陈静,我还是第一次去明洞,想好好逛逛!", "roman": "cheonjing ssi, jeoneun myeongdongeun cheoeumieyo. gugyeonghago sipeoyo!", "items": ["ko.ssi", "ko.jeo", "ko.cheoeum", "ko.gugyeong", "ko.haeyo"] },
+    { "speaker": "jing", "text": "좋아요! 같이 가요. 명동은 시내에 있어요.", "zh": "好啊!我们一起去。明洞在市中心。", "roman": "joayo! gachi gayo. myeongdongeun sinaee isseoyo.", "items": ["ko.joayo", "ko.gachi", "ko.gayo", "ko.sinae", "ko.isseoyo"] },
+    { "speaker": "nam", "text": "어떻게 가요?", "zh": "怎么去?", "roman": "eotteoke gayo?", "items": ["ko.eotteoke", "ko.gayo"] },
+    { "speaker": "jing", "text": "지하철을 타요. 여기 신촌역에서 이호선을 타요.", "zh": "(这回轮到陈静带路)坐地铁。就在这儿,新村站坐 2 号线。", "roman": "jihacheoreul tayo. yeogi sinchonnyeogeseo ihoseoneul tayo.", "items": ["ko.jihacheol", "ko.tayo", "ko.yeogi", "ko.yeok", "ko.i", "ko.hoseon"] },
+    { "speaker": "nam", "text": "이호선이요? 그리고요?", "zh": "2 号线?然后呢?", "roman": "ihoseoniyo? geurigoyo?", "items": ["ko.i", "ko.hoseon", "ko.geurigo"] },
+    { "speaker": "jing", "text": "동대문역사문화공원역에서 사호선으로 갈아타요. 지도에 있어요.", "zh": "在东大门历史文化公园站换乘 4 号线。(指着线路图)地图上有。", "roman": "dongdaemunnyeoksamunhwagongwonnyeogeseo sahoseoneuro garatayo. jidoe isseoyo.", "items": ["ko.yeok", "ko.sa", "ko.hoseon", "ko.garatayo", "ko.jido", "ko.isseoyo"] },
+    { "speaker": "nam", "text": "천징 씨, 여기예요?", "zh": "(列车到站)陈静,是这儿吗?", "roman": "cheonjing ssi, yeogiyeyo?", "items": ["ko.ssi", "ko.yeogi"] },
+    { "speaker": "jing", "text": "네, 여기에서 내려요. 사호선은 저기 있어요.", "zh": "对,在这儿下车。4 号线在那边。", "roman": "ne, yeogieseo naeryeoyo. sahoseoneun jeogi isseoyo.", "items": ["ko.ne", "ko.yeogi", "ko.naeryeoyo", "ko.sa", "ko.hoseon", "ko.jeogi", "ko.isseoyo"] },
+    { "speaker": "nam", "text": "명동역이에요!", "zh": "(又坐了两站)明洞站到了!", "roman": "myeongdongnyeogieyo!", "items": ["ko.yeok"] },
+    { "speaker": "jing", "text": "육 번 출구로 가요!", "zh": "我们走 6 号出口!", "roman": "yuk beon chulguro gayo!", "items": ["ko.yuk", "ko.beon", "ko.chulgu", "ko.gayo"] },
+    { "speaker": "nam", "text": "천징 씨, 그 식당은 어디에 있어요?", "zh": "(出了站,南想去他在短视频里看到的一家饭馆)陈静,那家饭馆在哪儿?", "roman": "cheonjing ssi, geu sikdangeun eodie isseoyo?", "items": ["ko.ssi", "ko.sikdang", "ko.eodi", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "지도에는 이 근처예요… 저기요, 이 식당이 어디에 있어요?", "zh": "地图上就在这附近……(怎么也找不到,陈静拦住一位路人)打扰一下,这家饭馆在哪儿?", "roman": "jidoeneun i geuncheoyeyo… jeogiyo, i sikdangi eodie isseoyo?", "items": ["ko.jido", "ko.geuncheo", "ko.jeogiyo", "ko.sikdang", "ko.eodi", "ko.isseoyo"] },
+    { "speaker": "passerby", "text": "아, 이 식당이요? 쭉 가세요. 왼쪽에 있어요.", "zh": "啊,这家饭馆啊?一直往前走,在左手边。", "roman": "a, i sikdangiyo? jjuk gaseyo. oenjjoge isseoyo.", "items": ["ko.sikdang", "ko.jjuk", "ko.gaseyo", "ko.oenjjok", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "감사합니다! 남 씨, 쭉 가요!", "zh": "谢谢您!阿南,我们一直往前走!", "roman": "gamsahamnida! nam ssi, jjuk gayo!", "items": ["ko.gamsahamnida", "ko.ssi", "ko.jjuk", "ko.gayo"] },
+    { "speaker": "nam", "text": "아, 저기 있어요! 천징 씨, 고마워요!", "zh": "啊,在那儿!陈静,谢谢你!", "roman": "a, jeogi isseoyo! cheonjing ssi, gomawoyo!", "items": ["ko.jeogi", "ko.isseoyo", "ko.ssi", "ko.gomawoyo"] }
+  ],
+  "questions": [
+    { "prompt": "南为什么想去明洞?", "options": ["他要去明洞打工", "他第一次去,想逛逛", "他要去明洞上课"], "answer": 1, "explainZh": "第 1 句:저는 명동은 처음이에요. 구경하고 싶어요!(我第一次去明洞,想逛逛!)" },
+    { "prompt": "他们在哪一站换乘 4 号线?", "options": ["东大门历史文化公园站", "新村站", "明洞站"], "answer": 0, "explainZh": "第 6 句:동대문역사문화공원역에서 사호선으로 갈아타요(在东大门历史文化公园站换乘 4 号线)。" },
+    { "prompt": "到了明洞站,他们走几号出口?", "options": ["4 号", "2 号", "6 号"], "answer": 2, "explainZh": "第 10 句:육 번 출구로 가요(走 6 号出口)。线路和出口都用汉字数词:사호선、육 번 출구。" },
+    { "prompt": "路人说那家饭馆在哪儿?", "options": ["一直走,在左边", "一直走,在右边", "就在出口旁边"], "answer": 0, "explainZh": "第 13 句:쭉 가세요. 왼쪽에 있어요(一直走,在左边)。右边是 오른쪽。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u6_e_eseo_ro", "titleZh": "复习:에、에서、(으)로 怎么分",
+      "bodyZh": "这个单元的三个助词放在一起看:\n· 에:① 去的地方——명동에 가요(去明洞);② 在的地方——명동은 시내에 있어요(明洞在市中心)、왼쪽에 있어요(在左边)。\n· 에서:在某处做动作——여기에서 내려요(在这儿下车)、신촌역에서 이호선을 타요(在新村站坐 2 号线)、동대문역사문화공원역에서 갈아타요(在那一站换乘)。\n· (으)로:往哪儿、换成什么、用什么——육 번 출구로 가요(往 6 号出口走)、사호선으로 갈아타요(换成 4 号线)、버스로 삼십 분 걸려요(坐公交三十分钟)。\n简单的判断办法:动词是 있어요、가요、와요,地点后面用 에;动词是 타요、내려요、갈아타요 这类在某处做的动作,地点后面用 에서。",
+      "examples": [ { "text": "명동은 시내에 있어요.", "zh": "明洞在市中心。" }, { "text": "여기에서 내려요.", "zh": "在这儿下车。" }, { "text": "육 번 출구로 가요.", "zh": "走 6 号出口。" } ] },
+    { "id": "ko.g.u6_guiding", "titleZh": "带路:一起走用 해요,告诉别人怎么走用 -(으)세요",
+      "bodyZh": "陈静和南一起走,所以她说 같이 가요、지하철을 타요、여기에서 내려요——这里的 해요体是“我们……吧”。如果是告诉别人自己怎么去(比如给要一个人去明洞的朋友发消息),就用 -(으)세요:신촌역에서 이호선을 타세요、사호선으로 갈아타세요、명동역에서 내리세요。路人给陈静指路时说的 쭉 가세요,也是这个用法。\n第一次做某事:N은/는 처음이에요 = 第一次(来)N——명동은 처음이에요(第一次来明洞)、한국은 처음이에요(第一次来韩国)。想做什么用 -고 싶어요:구경하고 싶어요(想逛逛)。구경 是名词,加 하다 就是动词 구경해요。",
+      "examples": [ { "text": "명동역에서 내리세요.", "zh": "(告诉别人)请在明洞站下车。" }, { "text": "저는 명동은 처음이에요.", "zh": "我是第一次来明洞。" }, { "text": "구경하고 싶어요!", "zh": "我想逛逛!" } ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u13.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113060,
+  "titleZh": "请假和换班", "goalZh": "会请同事替班、商量换班,会打电话向老板说明为什么不能来,请她改排班", "canDoZh": "能和同事商量换班,打电话向老板请假并说明理由",
+  "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.tauschen", "kind": "word", "pos": "verb", "text": "tauschen", "zh": "交换;调换", "features": { "ipa": "ˈtaʊ̯ʃn̩" }, "noteZh": "den Dienst tauschen(换班);规则动词:du tauschst, er tauscht;au 读 [aʊ],sch 读 [ʃ]。" },
+    { "id": "de.dienst", "kind": "word", "pos": "noun", "text": "der Dienst", "zh": "班;值班", "features": { "gender": "m", "plural": "die Dienste", "ipa": "diːnst" }, "noteZh": "上班的“班”:am Mittwoch Dienst haben(星期三上班)、den Dienst tauschen(换班);ie 是长音。" },
+    { "id": "de.referat", "kind": "word", "pos": "noun", "text": "das Referat", "zh": "(课上的)报告", "features": { "gender": "n", "plural": "die Referate", "ipa": "ʁefeˈʁaːt" }, "noteZh": "学生在课上做的报告、发言:ein Referat machen / halten;重音在 rat 上。" },
+    { "id": "de.vorbereiten", "kind": "word", "pos": "verb", "text": "vorbereiten", "zh": "准备", "features": { "ipa": "ˈfoːɐ̯bəˌʁaɪ̯tn̩" }, "noteZh": "可分动词,vor 放句末:Wir bereiten ein Referat vor.;词干以 t 结尾:du bereitest vor;v 读 [f]。" },
+    { "id": "de.was_ist_los", "kind": "phrase", "pos": "phrase", "text": "Was ist los?", "zh": "怎么了?出什么事了?", "features": { "ipa": "vas ɪst ˈloːs" }, "noteZh": "看出对方有事、心情不好时问;回答直接说情况就行:Ich bin krank. / Ich habe ein Problem." },
+    { "id": "de.aendern", "kind": "word", "pos": "verb", "text": "ändern", "zh": "改;改变", "features": { "ipa": "ˈɛndɐn" }, "noteZh": "ich ändere, du änderst, er ändert;den Dienstplan ändern(改排班表);ä 读 [ɛ]。" },
+    { "id": "de.einverstanden", "kind": "word", "pos": "adj", "text": "einverstanden", "zh": "同意", "features": { "ipa": "ˈaɪ̯nfɛɐ̯ˌʃtandn̩" }, "noteZh": "Einverstanden!(同意!/ 就这么定了!)也说 Ich bin einverstanden.;v 读 [f]。" },
+    { "id": "de.viel_erfolg", "kind": "phrase", "pos": "phrase", "text": "Viel Erfolg!", "zh": "祝你成功!", "features": { "ipa": "fiːl ɛɐ̯ˈfɔlk" }, "noteZh": "别人要考试、做报告、面试时说;意思和 Viel Glück! 差不多;Erfolg 词尾的 g 读 [k]。" }
+  ],
+  "reviewItems": ["de.das_geht", "de.treffen", "de.gruppe", "de.dienstplan", "de.moment", "de.denn"],
+  "lines": [
+    { "speaker": "wei", "text": "Sofia, kannst du nächsten Mittwoch für mich arbeiten?", "zh": "索菲娅,下周三你能替我上班吗?", "items": ["de.koennen", "de.du", "de.naechste", "de.mittwoch", "de.fuer", "de.ich", "de.arbeiten"] },
+    { "speaker": "sofia", "text": "Am Mittwoch habe ich Deutschkurs. Das geht leider nicht.", "zh": "星期三我有德语课。恐怕不行。", "items": ["de.am", "de.mittwoch", "de.haben", "de.ich", "de.deutsch", "de.kurs", "de.das_geht", "de.leider", "de.nicht"] },
+    { "speaker": "sofia", "text": "Warum? Was ist los?", "zh": "为什么?出什么事了?", "items": ["de.warum", "de.was_ist_los"] },
+    { "speaker": "wei", "text": "Ich treffe meine Gruppe an der Uni. Wir bereiten ein Referat vor.", "zh": "我要和学校的小组见面,我们要准备一个报告。", "items": ["de.ich", "de.treffen", "de.mein", "de.gruppe", "de.an", "de.uni", "de.wir", "de.vorbereiten", "de.ein", "de.referat"] },
+    { "speaker": "sofia", "text": "Ruf die Chefin an. Vielleicht kannst du den Dienst tauschen.", "zh": "给老板打个电话吧。也许你可以换个班。", "items": ["de.anrufen", "de.chefin", "de.vielleicht", "de.koennen", "de.du", "de.dienst", "de.tauschen"] },
+    { "speaker": "wei", "text": "Hallo, hier ist Wei. Darf ich etwas fragen?", "zh": "(打电话)你好,我是伟。我能问件事吗?", "items": ["de.hallo", "de.hier", "de.sein", "de.duerfen", "de.ich", "de.etwas", "de.fragen"] },
+    { "speaker": "chefin", "text": "Ja, natürlich.", "zh": "当然可以。", "items": ["de.ja", "de.natuerlich"] },
+    { "speaker": "wei", "text": "Am Mittwoch kann ich leider nicht kommen, denn wir haben ein Referat.", "zh": "星期三我来不了,因为我们要做报告。", "items": ["de.am", "de.mittwoch", "de.koennen", "de.ich", "de.leider", "de.nicht", "de.ich_komme_aus", "de.denn", "de.wir", "de.haben", "de.ein", "de.referat"] },
+    { "speaker": "wei", "text": "Kann ich den Dienst tauschen? Ich arbeite gern am Donnerstag.", "zh": "我能换个班吗?我可以星期四来上班。", "items": ["de.koennen", "de.ich", "de.dienst", "de.tauschen", "de.ich", "de.arbeiten", "de.gern", "de.am", "de.donnerstag"] },
+    { "speaker": "chefin", "text": "Moment … Ja, einverstanden. Ich ändere den Dienstplan.", "zh": "稍等……好,同意。我来改排班表。", "items": ["de.moment", "de.ja", "de.einverstanden", "de.ich", "de.aendern", "de.dienstplan"] },
+    { "speaker": "wei", "text": "Vielen Dank! Das ist sehr nett.", "zh": "太感谢了!你真好。", "items": ["de.vielen_dank", "de.das_ist", "de.sehr", "de.nett"] },
+    { "speaker": "chefin", "text": "Kein Problem. Und viel Erfolg mit dem Referat!", "zh": "没问题。祝你们报告顺利!", "items": ["de.kein", "de.problem", "de.und", "de.viel_erfolg", "de.mit", "de.referat"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅为什么不能星期三替王伟上班?", "options": ["她星期三要去旅行", "她星期三要上德语课", "她星期三也要做报告"], "answer": 1, "explainZh": "索菲娅说:Am Mittwoch habe ich Deutschkurs. Das geht leider nicht.(星期三我有德语课,不行。)" },
+    { "prompt": "王伟星期三要做什么?", "options": ["去看医生", "参加考试", "和小组同学准备报告"], "answer": 2, "explainZh": "王伟说:Ich treffe meine Gruppe an der Uni. Wir bereiten ein Referat vor.(我要和小组见面,准备一个报告。)" },
+    { "prompt": "老板同意了什么?", "options": ["王伟改成星期四上班", "王伟这个星期不用上班", "索菲娅替王伟上班"], "answer": 0, "explainZh": "王伟问:Kann ich den Dienst tauschen? Ich arbeite gern am Donnerstag.老板说:Ja, einverstanden. Ich ändere den Dienstplan.(同意,我来改排班表。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_tauschen", "titleZh": "替班和换班:für + 第四格、tauschen",
+      "bodyZh": "请人替你上班:Kannst du am Mittwoch für mich arbeiten?(für + 第四格:für mich / für dich / für Sofia);换班:den Dienst tauschen(Kann ich den Dienst tauschen?)。拒绝时先说抱歉再说原因:Am Mittwoch habe ich Deutschkurs. Das geht leider nicht.。\n可分动词 vorbereiten(准备):Wir bereiten ein Referat vor.,vor 放句末。",
+      "examples": [
+        { "text": "Kannst du am Mittwoch für mich arbeiten?", "zh": "你星期三能替我上班吗?" },
+        { "text": "Wir bereiten ein Referat vor.", "zh": "我们在准备一个报告。" }
+      ] },
+    { "id": "de.g.u13_absagen_chefin", "titleZh": "打电话请假:先问、再说原因、再提办法",
+      "bodyZh": "① 开头:Hallo, hier ist Wei. Darf ich etwas fragen?;② 说明不能来,用 denn 说原因:Am Mittwoch kann ich leider nicht kommen, denn wir haben ein Referat.;③ 提出办法:Kann ich am Donnerstag arbeiten? / Kann ich den Dienst tauschen?;④ 对方答应:Einverstanden! / Das geht.;⑤ 道谢:Vielen Dank, das ist sehr nett!。别人要考试、做报告时可以说 Viel Erfolg!(祝你成功!)。",
+      "examples": [
+        { "text": "Am Mittwoch kann ich leider nicht kommen, denn wir haben ein Referat.", "zh": "星期三我来不了,因为我们要做报告。" },
+        { "text": "Ja, einverstanden.", "zh": "好,同意。" }
+      ] }
+  ],
+  "review": "draft"
+}

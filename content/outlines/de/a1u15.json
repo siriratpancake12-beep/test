@@ -8,30 +8,30 @@
     {
       "id": "de.a1u15.l01", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-15 节日与生日", "order": 115010,
       "titleZh": "保罗的生日邀请",
-      "goalZh": "听懂电话里的聚会邀请,会用 dich / euch / uns,问时间、说自己几点到、问要带什么",
+      "goalZh": "听懂电话里的聚会邀请,会用 dich / euch / uns,问时间、说自己晚点到、问要带什么",
       "canDoZh": "能听懂聚会邀请,问清楚时间、地点、要不要带东西,答应或说晚点到",
-      "scenarioZh": "保罗给王伟打电话:6 月 14 日星期六下午,他在家里的院子办 17 岁生日烧烤,请 WG 的人都来。王伟问几点开始、要不要带东西(Soll ich etwas mitbringen?);保罗开玩笑说不用带礼物,带好心情就行——其实他很想要一件新球衣;约纳斯那天上班,会晚点到。说话人:paul、wei。(课文:烧烤晚上六点在后院 der Hinterhof 开始;王伟和索菲娅打工到六点,六点半到,约纳斯上班到七点,八点才到;王伟问 Was kann ich zur Party bringen?——sollen、mitbringen 是别的同事单元里的词,还没定,这里不用;不写星期几;想要球衣的事放到 l02 由莉娜说出来。)",
-      "grammarFocusZh": "第四格代词 dich / euch / uns(Ich lade euch ein / Ihr findet uns im Hinterhof);说自己几点到(Wir kommen um halb sieben);So ein Pech! 的语调",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+      "scenarioZh": "保罗给王伟打电话:6 月 14 日星期六下午,他在家里的院子办 17 岁生日烧烤,请 WG 的人都来。王伟问几点开始、要不要带东西(Soll ich etwas mitbringen?);保罗开玩笑说不用带礼物,带好心情就行——其实他很想要一件新球衣;约纳斯那天上班,会晚点到。说话人:paul、wei。(课文:烧烤晚上六点在后院 der Hinterhof 开始;王伟和索菲娅打工到六点,晚一点到,约纳斯上班到七点,八点才到;sollen、etwas 是第 9、13 单元的词,还没定,王伟问 Was kann ich mitbringen?;不写星期几;想要球衣的事放到 l02 由莉娜说出来。)",
+      "grammarFocusZh": "第四格代词 dich / euch / uns(Ich lade euch ein / Ihr findet uns im Hinterhof);mitbringen 复习(Was kann ich mitbringen?);So ein Pech! 的语调",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
         { "id": "de.dich", "kind": "word", "pos": "pron", "text": "dich", "zh": "你(第四格,做宾语)", "features": { "ipa": "dɪç" }, "noteZh": "du 做宾语时变成 dich:Ich lade dich ein.(我邀请你。)中文的“你”做主语、宾语都一样,德语要变;ch 在 i 后面读 [ç]。" },
         { "id": "de.euch", "kind": "word", "pos": "pron", "text": "euch", "zh": "你们(做宾语)", "features": { "ipa": "ɔʏ̯ç" }, "noteZh": "ihr 做宾语时是 euch:Ich lade euch ein.(我邀请你们。)mit euch(和你们一起)也用这个形式;eu 读 [ɔʏ̯],像“奥伊”。" },
-        { "id": "de.uns", "kind": "word", "pos": "pron", "text": "uns", "zh": "我们(做宾语)", "features": { "ipa": "ʊns" }, "noteZh": "wir 做宾语时是 uns:Ihr findet uns im Hinterhof.(你们在后院能找到我们。)mit uns、von uns 也用 uns;Wir sehen uns!(回头见!)" },
+        { "id": "de.uns", "kind": "word", "pos": "pron", "text": "uns", "zh": "我们(做宾语)", "features": { "ipa": "ʊns" }, "noteZh": "wir 做宾语时是 uns:Ihr findet uns im Hinterhof.(你们在后院能找到我们。)mit uns、von uns 也用 uns;Dann sehen wir uns!(那到时候见!)" },
         { "id": "de.hinterhof", "kind": "word", "pos": "noun", "text": "der Hinterhof", "zh": "后院(楼房后面的院子)", "features": { "gender": "m", "plural": "die Hinterhöfe", "ipa": "ˈhɪntɐˌhoːf" }, "noteZh": "柏林的老楼后面常有一个或几个院子:hinter(在……后面)+ der Hof(院子);im Hinterhof(在后院)。复数变音:die Hinterhöfe。" },
         { "id": "de.grillen", "kind": "word", "pos": "verb", "text": "grillen", "zh": "烧烤;烤(肉)", "features": { "ipa": "ˈɡʁɪlən" }, "noteZh": "德国人夏天最爱的活动:Wir grillen im Hinterhof / im Park.;规则动词:ich grille, du grillst;烤架是 der Grill。" },
-        { "id": "de.alle", "kind": "word", "pos": "pron", "text": "alle", "zh": "大家;所有(的人)", "features": { "ipa": "ˈalə" }, "noteZh": "指人:Kommt ihr alle?(你们都来吗?)Das ist von uns allen.(这是我们大家送的。)第三格复数加 -n:allen;alles(一切)指事情,alle 指人或复数的东西。" },
+        { "id": "de.alle", "kind": "word", "pos": "pron", "text": "alle", "zh": "大家;所有(的人)", "features": { "ipa": "ˈalə" }, "noteZh": "指人:Ich lade euch alle ein!(我邀请你们大家!)Das ist von uns allen.(这是我们大家送的。)第三格复数加 -n:allen;alles(一切)指事情,alle 指人或复数的东西。" },
         { "id": "de.so", "kind": "word", "pos": "adv", "text": "so", "zh": "这么;那么", "features": { "ipa": "zoː" }, "noteZh": "加强语气:So ein Pech!(真倒霉!)Hier sind so viele Leute!(这儿人真多!)s 在元音前读 [z],像轻轻的 z。" },
-        { "id": "de.pech", "kind": "word", "pos": "noun", "text": "das Pech", "zh": "倒霉;运气不好", "features": { "gender": "n", "plural": "-", "ipa": "pɛç" }, "noteZh": "So ein Pech!(真倒霉!/太可惜了!)同情别人遇到的小倒霉事,语调先高后低、拖长一点;不可数,没有复数。" },
-        { "id": "de.bringen", "kind": "word", "pos": "verb", "text": "bringen", "zh": "带来;拿来", "features": { "ipa": "ˈbʁɪŋən" }, "noteZh": "完成时不规则:Ich habe Obst gebracht.;Was kann ich zur Party bringen?(我能带点什么去派对?)ng 读 [ŋ],g 不单独发音。" }
+        { "id": "de.pech", "kind": "word", "pos": "noun", "text": "das Pech", "zh": "倒霉;运气不好", "features": { "gender": "n", "plural": "-", "ipa": "pɛç" }, "noteZh": "So ein Pech!(真倒霉!/真不巧!)同情别人遇到的小倒霉事,语调先高后低、拖长一点;不可数,没有复数。" },
+        { "id": "de.laune", "kind": "word", "pos": "noun", "text": "die Laune", "zh": "心情;情绪", "features": { "gender": "f", "plural": "die Launen", "ipa": "ˈlaʊ̯nə" }, "noteZh": "gute Laune(好心情)、schlechte Laune(心情不好);邀请时常开玩笑说 Ihr müsst nur gute Laune mitbringen!(你们只要带着好心情来!)au 读 [aʊ̯]。" }
       ],
-      "reviewItems": ["de.einladen", "de.party", "de.anfangen", "de.passen", "de.hunger"]
+      "reviewItems": ["de.einladen", "de.mitbringen", "de.party", "de.spaeter", "de.problem"]
     },
     {
       "id": "de.a1u15.l02", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-15 节日与生日", "order": 115020,
       "titleZh": "礼物和贺卡",
       "goalZh": "会说常见的礼物,在商店里买礼物、和朋友分摊钱,写一句生日祝福",
       "canDoZh": "能说出常见的礼物,写一张简单的生日贺卡",
-      "scenarioZh": "王伟和莉娜去商店给保罗挑礼物:书、游戏、T 恤、音乐会门票、代金券(der Gutschein);莉娜说保罗最喜欢足球,两人最后买了一件球衣(das Trikot);莉娜教王伟写贺卡:Lieber Paul, alles Gute zum 17. Geburtstag! Wir wünschen dir …。说话人:lena、wei、verkaeuferin。(课文:在商场里挑书、游戏、代金券,莉娜说保罗想要他那支球队的球衣;印上名字 60 欧元,王伟付一半;T 恤、音乐会门票没有写进课文。)",
+      "scenarioZh": "王伟和莉娜去商店给保罗挑礼物:书、游戏、T 恤、音乐会门票、代金券(der Gutschein);莉娜说保罗最喜欢足球,两人最后买了一件球衣(das Trikot);莉娜教王伟写贺卡:Lieber Paul, alles Gute zum 17. Geburtstag! Wir wünschen dir …。说话人:lena、wei、verkaeuferin。(课文:在商场里挑书、游戏、代金券,莉娜说保罗想要他那支球队的球衣;印上名字 60 欧元,王伟付一半;T 恤、音乐会是第 12、13 单元的词,没写进课文。)",
       "grammarFocusZh": "für + 第四格代词(Das ist für dich / für ihn);schenken + 人 + 东西;Wir wünschen dir … 里的 dir 先当固定说法;Alles Gute zum Geburtstag! 复习",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
       "newItems": [
@@ -45,35 +45,34 @@
         { "id": "de.haelfte", "kind": "word", "pos": "noun", "text": "die Hälfte", "zh": "一半", "features": { "gender": "f", "plural": "die Hälften", "ipa": "ˈhɛlftə" }, "noteZh": "Ich bezahle die Hälfte.(我付一半。)和朋友一起买礼物时很有用;和 halb(半)是一家,ä 读 [ɛ]。" },
         { "id": "de.wuenschen", "kind": "word", "pos": "verb", "text": "wünschen", "zh": "祝愿;希望", "features": { "ipa": "ˈvʏnʃn̩" }, "noteZh": "贺卡常用:Wir wünschen dir viel Spaß!(祝你玩得开心!)dir 是 du 的第三格,先当固定说法;w 读 [v],ü 是短音。" }
       ],
-      "reviewItems": ["de.geschenk", "de.groesse", "de.karte", "de.herzlichen_glueckwunsch"]
+      "reviewItems": ["de.suchen", "de.groesse", "de.name", "de.karte", "de.herzlichen_glueckwunsch"]
     },
     {
       "id": "de.a1u15.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-15 节日与生日", "order": 115030,
       "titleZh": "我去接你!——第四格人称代词",
-      "goalZh": "掌握第四格人称代词全表和 wen,会说谁接谁、谁捎谁",
+      "goalZh": "掌握第四格人称代词全表和 wen,会说谁接谁、谁捎谁、给谁打电话",
       "canDoZh": "能用第四格人称代词说“我去接你、我给你们打电话、我们请他”这样的句子",
-      "scenarioZh": "聚会前一天晚上,WG 在厨房商量明天谁接谁、谁给谁打电话:索菲娅问约纳斯 Kannst du mich nach der Arbeit abholen?(nach der Arbeit 当固定说法);约纳斯说 Ich rufe euch um sechs an.;王伟说 Ich frage Lena, sie holt uns vielleicht ab.。说话人:sofia、jonas、wei。(课文:王伟和索菲娅六点下班,莉娜在车站接他们;约纳斯开玩笑说 Mich holt niemand ab!,他有车,晚上捎大家回家;礼物放在王伟这儿,当晚包好;Arbeit、fragen 是别的同事单元里的词,这里不用。)",
-      "grammarFocusZh": "第四格人称代词全表:mich, dich, ihn, sie, es, uns, euch, sie, Sie,常和 abholen / mitnehmen / einladen / finden / für 连用;和第一格对比(ich → mich, wir → uns, ihr → euch);问宾语用 wen",
+      "scenarioZh": "聚会前一天晚上,WG 在厨房商量明天谁接谁、谁给谁打电话:索菲娅问约纳斯 Kannst du mich nach der Arbeit abholen?(nach der Arbeit 当固定说法);约纳斯说 Ich rufe euch um sechs an.;王伟说 Ich frage Lena, sie holt uns vielleicht ab.。说话人:sofia、jonas、wei。(课文:王伟和索菲娅六点下班,莉娜在车站接他们;约纳斯开玩笑说 Mich holt niemand ab!,他有车,晚上捎大家回家;礼物放在王伟这儿,当晚包好;abholen 是第 10 单元的词,这里当复习词;Arbeit 是第 12 单元的词,这里不用。)",
+      "grammarFocusZh": "第四格人称代词全表:mich, dich, ihn, sie, es, uns, euch, sie, Sie,常和 abholen / anrufen / mitnehmen / einladen / finden / für 连用;和第一格对比(ich → mich, wir → uns, ihr → euch);问宾语用 wen",
       "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26,
       "newItems": [
         { "id": "de.plan", "kind": "word", "pos": "noun", "text": "der Plan", "zh": "计划;安排", "features": { "gender": "m", "plural": "die Pläne", "ipa": "plaːn" }, "noteZh": "Wie ist der Plan?(怎么安排?)复数变音:die Pläne;a 是长音。" },
-        { "id": "de.abholen", "kind": "word", "pos": "verb", "text": "abholen", "zh": "接(人);取(东西)", "features": { "ipa": "ˈapˌhoːlən" }, "noteZh": "可分动词,ab 放句末:Lena holt uns an der Haltestelle ab.(莉娜到车站接我们。)ab 的 b 读 [p]。" },
         { "id": "de.mich", "kind": "word", "pos": "pron", "text": "mich", "zh": "我(第四格,做宾语)", "features": { "ipa": "mɪç" }, "noteZh": "ich 做宾语时是 mich:Holst du mich ab?(你来接我吗?)für mich(给我的);和以后学的 mir(第三格)不一样。" },
-        { "id": "de.niemand", "kind": "word", "pos": "pron", "text": "niemand", "zh": "没有人;谁也不", "features": { "ipa": "ˈniːmant" }, "noteZh": "Mich holt niemand ab!(没人来接我!)动词用单数;词尾 d 读 [t];“有人”是 jemand。" },
+        { "id": "de.niemand", "kind": "word", "pos": "pron", "text": "niemand", "zh": "没有人;谁也不", "features": { "ipa": "ˈniːmant" }, "noteZh": "Mich holt niemand ab!(没人来接我!)动词用单数;词尾 d 读 [t]。" },
         { "id": "de.mitnehmen", "kind": "word", "pos": "verb", "text": "mitnehmen", "zh": "带上;捎上(某人)", "features": { "ipa": "ˈmɪtˌneːmən" }, "noteZh": "可分、不规则:du nimmst mit, er nimmt mit;Ich nehme euch mit nach Hause.(我开车捎你们回家。)Ich nehme das Geschenk mit.(礼物我带上。)" },
         { "id": "de.einpacken", "kind": "word", "pos": "verb", "text": "einpacken", "zh": "包起来;装好", "features": { "ipa": "ˈaɪ̯nˌpakn̩" }, "noteZh": "可分动词:Wir packen das Geschenk ein.(我们把礼物包好。)反义是 auspacken(打开包装,下一课)。" },
         { "id": "de.geschenkpapier", "kind": "word", "pos": "noun", "text": "das Geschenkpapier", "zh": "包装纸", "features": { "gender": "n", "plural": "-", "ipa": "ɡəˈʃɛŋkpaˌpiːɐ̯" }, "noteZh": "das Geschenk(礼物)+ das Papier(纸);复合词的性看最后一部分:das Papier → das Geschenkpapier;一般不用复数。" },
         { "id": "de.wen", "kind": "word", "pos": "pron", "text": "wen", "zh": "谁(做宾语)", "features": { "ipa": "veːn" }, "noteZh": "问宾语用 wen:Wen lädt Paul ein?(保罗邀请谁?)问主语用 wer:Wer kommt?(谁来?)w 读 [v]。" },
         { "id": "de.lieben", "kind": "word", "pos": "verb", "text": "lieben", "zh": "爱;特别喜欢", "features": { "ipa": "ˈliːbn̩" }, "noteZh": "Paul liebt Fußball.(保罗超爱足球。)比 gern 的语气强得多;Ich liebe dich. = 我爱你;ie 读长音 [iː]。" }
       ],
-      "reviewItems": ["de.haltestelle", "de.auto", "de.nach_hause", "de.trikot"]
+      "reviewItems": ["de.abholen", "de.haltestelle", "de.auto", "de.nach_hause", "de.trikot"]
     },
     {
       "id": "de.a1u15.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-15 节日与生日", "order": 115040,
       "titleZh": "生日烧烤",
       "goalZh": "会在生日聚会上祝贺、送礼物、表达惊喜和喜欢、请别人尝尝",
       "canDoZh": "能在生日聚会上祝贺、送礼物、道谢,和别人聊几句",
-      "scenarioZh": "保罗的生日烧烤在莉娜家的院子里。大家说 Herzlichen Glückwunsch!;保罗打开礼物大叫 Wow, danke! Das gefällt mir total!;王伟带了自己做的中国点心,保罗问 Was ist das?;约纳斯晚到,一来就接手了烤架。说话人:paul、wei、lena、jonas、sofia。(课文:王伟带的是自己做的包子 Baozi;约纳斯到的时候烤架上的香肠已经烤黑了;wirklich 是别的同事单元里的词,惊讶用 Echt? 表达。)",
+      "scenarioZh": "保罗的生日烧烤在莉娜家的院子里。大家说 Herzlichen Glückwunsch!;保罗打开礼物大叫 Wow, danke! Das gefällt mir total!;王伟带了自己做的中国点心,保罗问 Was ist das?;约纳斯晚到,一来就接手了烤架。说话人:paul、wei、lena、jonas、sofia。(课文:王伟带的是自己做的包子 Baozi;约纳斯到的时候烤架上的香肠已经烤黑了。)",
       "grammarFocusZh": "Das gefällt mir! / Gefällt dir das Geschenk? 当固定说法(第三格 A2 才讲);第四格代词复习(Ist das für mich? / Pack es aus!);惊喜、感谢的语调",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
@@ -94,21 +93,21 @@
       "titleZh": "生日贺卡和感谢消息",
       "goalZh": "读懂几张生日贺卡和一条感谢消息,学会贺卡和感谢消息的写法",
       "canDoZh": "能读懂生日贺卡和感谢消息,也能写一张简单的贺卡",
-      "scenarioZh": "体裁:贺卡和群消息。聚会后,保罗把收到的几张贺卡拍照发到群里(莉娜、索菲娅、霍夫曼先生写的,每张 2–3 句),第二天又发了感谢消息:谢谢大家的礼物,球衣他第一天就穿去踢球了,中国点心很好吃,下次想学怎么做。说话人:narrator(贺卡和保罗的消息)。(课文:贺卡是莉娜、索菲娅和约纳斯写的;按审稿意见,每张贺卡、每条消息的说话人用写的人:lena、sofia、jonas、paul。)",
-      "grammarFocusZh": "贺卡的格式(Lieber … / Liebe … / Alles Gute! / Dein … / Deine …);感谢消息(Vielen Dank für … / Danke für alles!);第四格代词和 für 复习",
+      "scenarioZh": "体裁:贺卡和群消息。聚会后,保罗把收到的几张贺卡拍照发到群里(莉娜、索菲娅、霍夫曼先生写的,每张 2–3 句),第二天又发了感谢消息:谢谢大家的礼物,球衣他第一天就穿去踢球了,中国点心很好吃,下次想学怎么做。说话人:narrator(贺卡和保罗的消息)。(课文:贺卡是莉娜、索菲娅和约纳斯写的;按审稿意见,每张贺卡、每条消息的说话人用写的人:lena、sofia、jonas、paul;nächstes Mal 的 mal 是第 10 单元的词,这里当复习词。)",
+      "grammarFocusZh": "贺卡的格式(Lieber … / Liebe … / Alles Gute! / Dein … / Deine …);感谢消息(Vielen Dank für … / Ich danke euch!);第四格代词和 für 复习",
       "skills": ["read", "write"], "estimatedMinutes": 14,
       "newItems": [
-        { "id": "de.mal", "kind": "word", "pos": "noun", "text": "das Mal", "zh": "次;回", "features": { "gender": "n", "plural": "die Male", "ipa": "maːl" }, "noteZh": "nächstes Mal(下次)、das erste Mal(第一次);“几次”写成一个词:einmal、zweimal。" }
+        { "id": "de.danken", "kind": "word", "pos": "verb", "text": "danken", "zh": "感谢", "features": { "ipa": "ˈdaŋkn̩" }, "noteZh": "比 danke 正式、完整:Ich danke euch für alles!(谢谢你们为我做的一切!)danken + 人 + für + 事;口语一般说 Danke! 就够了。" }
       ],
-      "reviewItems": ["de.liebe", "de.viele_gruesse", "de.anziehen", "de.das_gefaellt_mir", "de.gleich"]
+      "reviewItems": ["de.liebe", "de.viele_gruesse", "de.anziehen", "de.gleich", "de.mal"]
     },
     {
       "id": "de.a1u15.l05", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-15 节日与生日", "order": 115050,
       "titleZh": "端午节和粽子",
       "goalZh": "会用简单的德语介绍端午节:什么时候、吃什么、有什么活动",
       "canDoZh": "能用简单的德语介绍一个中国节日:什么时候、吃什么、做什么",
-      "scenarioZh": "六月中是端午节。王伟在 WG 厨房包粽子,用 Reis、Fleisch、Blätter 给大家解释,一边做一边讲:节日在农历五月初五,有龙舟比赛(das Drachenboot),大家吃粽子;索菲娅问意大利有没有像这样的东西,约纳斯学包粽子,包得歪歪扭扭。说话人:wei、sofia、jonas。(课文:man 是第 9 单元的词,还没定,这里用 Wir essen … / Viele Leute …;索菲娅没问意大利,而是笑约纳斯包的粽子像土豆。)",
-      "grammarFocusZh": "介绍节日的句型:Das Drachenbootfest ist im Juni. / Wir essen … / Es gibt …;序数词说日期(am fünften Tag im fünften Monat);erst …, dann … 说步骤",
+      "scenarioZh": "六月中是端午节。王伟在 WG 厨房包粽子,用 Reis、Fleisch、Blätter 给大家解释,一边做一边讲:节日在农历五月初五,有龙舟比赛(das Drachenboot),大家吃粽子;索菲娅问意大利有没有像这样的东西,约纳斯学包粽子,包得歪歪扭扭。说话人:wei、sofia、jonas。(课文:man 是第 9 单元的词,还没定,这里用 Wir essen … / Viele Leute …;索菲娅说意大利没有这个节日,还笑约纳斯包的粽子像土豆。)",
+      "grammarFocusZh": "介绍节日的句型:Das Fest ist im Juni. / Wir essen … / Es gibt …;序数词说日期(am fünften Tag im fünften Monat);Zuerst … 说步骤以前用 dann 复习",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
       "newItems": [
         { "id": "de.drachenbootfest", "kind": "word", "pos": "noun", "text": "das Drachenbootfest", "zh": "端午节", "features": { "gender": "n", "plural": "die Drachenbootfeste", "ipa": "ˈdʁaxn̩boːtˌfɛst" }, "noteZh": "der Drache(龙)+ das Boot(船)+ das Fest(节日);复合词的性看最后一部分,所以是 das;ch 在 a 后面读 [x]。" },
@@ -121,14 +120,14 @@
         { "id": "de.rennen", "kind": "word", "pos": "noun", "text": "das Rennen", "zh": "(速度)比赛", "features": { "gender": "n", "plural": "die Rennen", "ipa": "ˈʁɛnən" }, "noteZh": "das Drachenbootrennen(龙舟赛);单复数同形;词首 r 是小舌音 [ʁ],喉咙后面轻轻震动。" },
         { "id": "de.typisch", "kind": "word", "pos": "adj", "text": "typisch", "zh": "典型的;……的作风", "features": { "ipa": "ˈtyːpɪʃ" }, "noteZh": "口语:Typisch Jonas!(约纳斯就是这样!)y 读 [yː],和 ü 一样;重音在 ty 上。" }
       ],
-      "reviewItems": ["de.reis", "de.fleisch", "de.monat", "de.kartoffel"]
+      "reviewItems": ["de.fest", "de.feiern", "de.reis", "de.fleisch", "de.kartoffel"]
     },
     {
       "id": "de.a1u15.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-15 节日与生日", "order": 115060,
       "titleZh": "夏至音乐节:你们在哪儿?",
       "goalZh": "会在人多的地方打电话找人:问对方在哪儿、说自己听不清、说马上到",
       "canDoZh": "能在人多的户外活动里打电话找人,说清楚自己在哪儿",
-      "scenarioZh": "6 月 21 日是夏至音乐节(die Fête de la Musique),柏林很多街上都有免费的音乐会。莉娜和索菲娅先去了,王伟下班后给莉娜打电话:Wo seid ihr? – Wir sind an der Bühne, vor dem Café.;街上太吵,两人听不清(Ich höre dich nicht!),只好发定位;找到后三人一起听音乐、买饮料。说话人:wei、lena、sofia。(课文:王伟听不清是因为到处是音乐、人很多;索菲娅接过电话说 Wir sind rechts von der Bühne;买的是果汁 Saft;laut、Konzert、Getränk 是别的同事单元里的词,这里不用。)",
+      "scenarioZh": "6 月 21 日是夏至音乐节(die Fête de la Musique),柏林很多街上都有免费的音乐会。莉娜和索菲娅先去了,王伟下班后给莉娜打电话:Wo seid ihr? – Wir sind an der Bühne, vor dem Café.;街上太吵,两人听不清(Ich höre dich nicht!),只好发定位;找到后三人一起听音乐、买饮料。说话人:wei、lena、sofia。(课文:王伟听不清是因为到处是音乐、人很多;索菲娅接过电话说 Wir sind rechts von der Bühne, an der Ecke;买的是果汁 Saft;laut、Konzert 是第 9、12 单元的词,这里不用。)",
       "grammarFocusZh": "打电话找人:Wo seid ihr? / Ich bin gleich da! / Ich höre dich nicht!;an der Bühne / vor dem Café / rechts von der Bühne 当固定说法(双向介词 A2 才讲)",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
       "newItems": [
@@ -141,35 +140,34 @@
         { "id": "de.durst", "kind": "word", "pos": "noun", "text": "der Durst", "zh": "渴", "features": { "gender": "m", "plural": "-", "ipa": "dʊʁst" }, "noteZh": "Ich habe Durst.(我渴了。)和 Ich habe Hunger.(我饿了。)一样用 haben;不可数。" },
         { "id": "de.saft", "kind": "word", "pos": "noun", "text": "der Saft", "zh": "果汁", "features": { "gender": "m", "plural": "die Säfte", "ipa": "zaft" }, "noteZh": "der Apfelsaft(苹果汁)、der Orangensaft(橙汁);德国人也爱喝苹果汁兑气泡水;复数变音:die Säfte。" }
       ],
-      "reviewItems": ["de.cafe", "de.hoeren", "de.musik", "de.leute", "de.rechts", "de.gleich"]
+      "reviewItems": ["de.voll", "de.leute", "de.hoeren", "de.musik", "de.rechts", "de.gleich"]
     },
     {
       "id": "de.a1u15.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-15 节日与生日", "order": 115070,
       "titleZh": "可惜我去不了",
       "goalZh": "会礼貌地拒绝邀请、说明原因,并约别的时间",
       "canDoZh": "能礼貌地拒绝邀请、说明理由,并提出别的时间",
-      "scenarioZh": "霍夫曼先生请王伟周六来参加他和老同事(退休的火车司机们,不出场)的聚会,可王伟那天要上班。他敲门告诉霍夫曼先生:Leider kann ich nicht kommen, denn ich muss arbeiten.;霍夫曼先生说 Schade, aber kein Problem.,问他喜不喜欢火车;两人约好七月一起去看一个有老火车的博物馆。说话人:wei、hoffmann。(课文:在楼道里,霍夫曼先生请王伟,王伟当场说 Das tut mir leid … Ich muss leider absagen.;霍夫曼先生说 Das macht nichts.;denn、schade、Problem 是别的同事单元里的词,这里不用,理由单独说一句。)",
-      "grammarFocusZh": "拒绝和道歉:Das tut mir leid. / Leider kann ich nicht kommen. / Ich muss leider absagen.;回答:Das macht nichts.;提出别的时间(Vielleicht im Juli?);第四格代词复习(Ich rufe Sie an)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "scenarioZh": "霍夫曼先生请王伟周六来参加他和老同事(退休的火车司机们,不出场)的聚会,可王伟那天要上班。他敲门告诉霍夫曼先生:Leider kann ich nicht kommen, denn ich muss arbeiten.;霍夫曼先生说 Schade, aber kein Problem.,问他喜不喜欢火车;两人约好七月一起去看一个有老火车的博物馆。说话人:wei、hoffmann。(课文:在楼道里,霍夫曼先生请王伟,王伟当场说 Das tut mir leid … Ich muss leider absagen.;霍夫曼先生说 Das macht nichts.;Tut mir leid! 是第 11 单元的词,这里当复习词;denn、schade 是第 12 单元的词,这里不用,理由单独说一句。)",
+      "grammarFocusZh": "拒绝和道歉:Das tut mir leid. / Leider kann ich nicht kommen. / Ich muss leider absagen.;回答:Das macht nichts. / Kein Problem.;提出别的时间(Vielleicht im Juli?);第四格代词复习(Ich rufe Sie an)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
       "newItems": [
         { "id": "de.kollege", "kind": "word", "pos": "noun", "text": "der Kollege", "zh": "同事", "features": { "gender": "m", "plural": "die Kollegen", "ipa": "kɔˈleːɡə" }, "noteZh": "女同事是 die Kollegin;meine Kollegen von früher(我以前的同事);重音在 le 上。" },
         { "id": "de.frueher", "kind": "word", "pos": "adv", "text": "früher", "zh": "以前;从前", "features": { "ipa": "ˈfʁyːɐ" }, "noteZh": "Früher bin ich Züge gefahren.(我以前开火车。)和 früh(早)是一家;讲过去的情况常用它。" },
         { "id": "de.lokfuehrer", "kind": "word", "pos": "noun", "text": "der Lokführer", "zh": "火车司机", "features": { "gender": "m", "plural": "die Lokführer", "ipa": "ˈlɔkˌfyːʁɐ" }, "noteZh": "die Lok(火车头)+ der Führer(驾驶的人);女的是 die Lokführerin;单复数同形。" },
-        { "id": "de.tut_mir_leid", "kind": "phrase", "pos": "phrase", "text": "Tut mir leid!", "zh": "对不起;很遗憾", "alt": ["Das tut mir leid."], "features": { "ipa": "tuːt miːɐ̯ ˈlaɪ̯t" }, "noteZh": "拒绝邀请、道歉都能用:Das tut mir leid, ich kann leider nicht.;比 Entschuldigung 多一层“遗憾”;词尾 d 读 [t]。" },
         { "id": "de.absagen", "kind": "word", "pos": "verb", "text": "absagen", "zh": "推掉;取消(约好的事)", "features": { "ipa": "ˈapˌzaːɡn̩" }, "noteZh": "可分动词:Ich muss leider absagen.(我只好推掉了。)ab 读 [ap];反义是 zusagen(答应)。" },
         { "id": "de.nichts", "kind": "word", "pos": "pron", "text": "nichts", "zh": "什么也没有;什么也不", "features": { "ipa": "nɪçts" }, "noteZh": "Das macht nichts.(没关系。)Ich brauche nichts.(我什么也不需要。)ch 读 [ç],后面的 ts 读 [ts]。" },
         { "id": "de.rentner", "kind": "word", "pos": "noun", "text": "der Rentner", "zh": "退休的人", "features": { "gender": "m", "plural": "die Rentner", "ipa": "ˈʁɛntnɐ" }, "noteZh": "die Rente(退休金)来的;Wir sind jetzt alle Rentner.(我们现在都退休了。)女的是 die Rentnerin。" },
         { "id": "de.interessant", "kind": "word", "pos": "adj", "text": "interessant", "zh": "有意思的;有趣的", "features": { "ipa": "ɪntəʁɛˈsant" }, "noteZh": "重音在最后:in-te-res-SANT;Ich finde Züge sehr interessant.;反义是 langweilig。" },
         { "id": "de.lok", "kind": "word", "pos": "noun", "text": "die Lok", "zh": "火车头;机车", "features": { "gender": "f", "plural": "die Loks", "ipa": "lɔk" }, "noteZh": "die Lokomotive 的简称;alte Loks(老火车头);复数加 -s。" }
       ],
-      "reviewItems": ["de.leider", "de.zug", "de.museum", "de.ferien", "de.anrufen"]
+      "reviewItems": ["de.tut_mir_leid", "de.leider", "de.zug", "de.museum", "de.ferien", "de.anrufen"]
     },
     {
       "id": "de.a1u15.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-15 节日与生日", "order": 115080,
       "titleZh": "单元复习与应用:给霍夫曼先生的惊喜",
       "goalZh": "复习本单元的第四格代词、命令式和日期,和朋友一起策划一个小聚会",
       "canDoZh": "能和朋友一起策划一个小聚会:定时间、分工、请人来",
-      "scenarioZh": "WG 发现霍夫曼先生 6 月 28 日过 73 岁生日,而且他一个人住。三人决定给他一个惊喜:在院子里摆桌子喝咖啡、吃蛋糕;他们分工(谁买蛋糕、谁写卡片、谁去请他下楼),还叫了莉娜和保罗。霍夫曼先生下楼看到大家,非常感动。说话人:sofia、jonas、wei、hoffmann。(课文:惊喜是生日当天上午十点在后院吃早饭、喝咖啡、吃蛋糕——王伟和索菲娅周末下午要打工;allein 是别的同事单元里的词,说成 Seine Familie wohnt in München. Er hat hier keine Familie.)",
+      "scenarioZh": "WG 发现霍夫曼先生 6 月 28 日过 73 岁生日,而且他一个人住。三人决定给他一个惊喜:在院子里摆桌子喝咖啡、吃蛋糕;他们分工(谁买蛋糕、谁写卡片、谁去请他下楼),还叫了莉娜和保罗。霍夫曼先生下楼看到大家,非常感动。说话人:sofia、jonas、wei、hoffmann。(课文:惊喜是生日当天上午十点在后院吃早饭、喝咖啡、吃蛋糕——王伟和索菲娅周末下午要打工;allein 是第 12 单元的词,说成 Seine Familie wohnt in München. Er hat hier keine Familie.)",
       "grammarFocusZh": "复习:第四格代词、du 和 Sie 的命令式、日期和年龄;对霍夫曼先生说 Herzlichen Glückwunsch zum Geburtstag!",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 27,
       "newItems": [
@@ -177,21 +175,20 @@
         { "id": "de.unten", "kind": "word", "pos": "adv", "text": "unten", "zh": "在下面;楼下", "features": { "ipa": "ˈʊntn̩" }, "noteZh": "nach unten(往下;下楼)、unten im Haus(楼下);反义是 oben(上面)。" },
         { "id": "de.ich_freue_mich", "kind": "phrase", "pos": "phrase", "text": "Ich freue mich!", "zh": "我很高兴!", "features": { "ipa": "ɪç ˈfʁɔʏ̯ə mɪç" }, "noteZh": "表达高兴、感动:Ich freue mich sehr!;这里的 mich 是“自己”(反身代词,A2 才讲),先整句记;eu 读 [ɔʏ̯]。" }
       ],
-      "reviewItems": ["de.hinterhof", "de.abholen", "de.karte", "de.fruehstueck", "de.baeckerei"]
+      "reviewItems": ["de.hinterhof", "de.mitbringen", "de.karte", "de.fruehstueck", "de.baeckerei"]
     },
     {
       "id": "de.a1u15.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-15 节日与生日", "order": 115085,
       "titleZh": "七月的柏林活动日历",
       "goalZh": "读懂活动日历里的日期、钟点、地点、价格和适合谁,选出想去的活动",
       "canDoZh": "能读懂一份活动日历,找出活动的日期、时间、地点、价格和适合谁",
-      "scenarioZh": "体裁:城市活动日历(网页)。王伟看七月的柏林活动日历,想安排学期结束后的周末:露天电影(每周五)、湖边的夏日节、博物馆长夜(一个晚上能看很多博物馆)、公园里的免费音乐会;每项写着日期、时间、地点、票价和适合谁。最后是他发给莉娜的一句话。说话人:narrator(活动日历)、wei(最后一句)。(课文:“博物馆长夜”写成 Museen am Abend:很多博物馆开到 24 点;湖边是 Musik am See,公园里是 Musik im Park;Nacht、lang、Konzert 是别的同事单元里的词,这里不用。)",
-      "grammarFocusZh": "复习:日期和钟点、von … bis …;Eintritt frei / kostenlos;freitags(每周五);für + 第四格说适合谁(für Kinder, für alle)",
+      "scenarioZh": "体裁:城市活动日历(网页)。王伟看七月的柏林活动日历,想安排学期结束后的周末:露天电影(每周五)、湖边的夏日节、博物馆长夜(一个晚上能看很多博物馆)、公园里的免费音乐会;每项写着日期、时间、地点、票价和适合谁。最后是他发给莉娜的一句话。说话人:narrator(活动日历)、wei(最后一句)。(课文:湖边是 Sommerfest am See,公园里是 Musik im Park;Konzert 是第 12 单元的词,这里不用。)",
+      "grammarFocusZh": "复习:日期和钟点、von … bis …;Eintritt frei;jeden Freitag(每周五);für + 第四格说适合谁(für Kinder, für alle)",
       "skills": ["read", "write"], "estimatedMinutes": 14,
       "newItems": [
-        { "id": "de.eintritt", "kind": "word", "pos": "noun", "text": "der Eintritt", "zh": "门票;入场(费)", "features": { "gender": "m", "plural": "die Eintritte", "ipa": "ˈaɪ̯nˌtʁɪt" }, "noteZh": "活动广告常见:Eintritt: 6 Euro(门票 6 欧元)、Eintritt frei!(免费入场!)" },
-        { "id": "de.freitags", "kind": "word", "pos": "adv", "text": "freitags", "zh": "每逢星期五", "features": { "ipa": "ˈfʁaɪ̯taːks" }, "noteZh": "星期加 -s、小写,表示“每个星期……”:freitags = 每周五;别的星期也一样:sonntags(每周日)。" }
+        { "id": "de.eintritt", "kind": "word", "pos": "noun", "text": "der Eintritt", "zh": "门票;入场(费)", "features": { "gender": "m", "plural": "die Eintritte", "ipa": "ˈaɪ̯nˌtʁɪt" }, "noteZh": "活动广告常见:Eintritt: 6 Euro(门票 6 欧元)、Eintritt frei!(免费入场!)" }
       ],
-      "reviewItems": ["de.alle", "de.museum", "de.see", "de.geoeffnet", "de.spiel"]
+      "reviewItems": ["de.alle", "de.nacht", "de.museum", "de.see", "de.spiel"]
     }
   ]
 }

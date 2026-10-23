@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u10.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110010,
+  "titleZh": "手机和电脑", "goalZh": "会说手机和电脑的常用词,用可分动词说开机、关机、充电", "canDoZh": "能说出手机、电脑和网络的常用词,说说自己每天用手机做什么",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.bildschirm", "kind": "word", "pos": "noun", "text": "der Bildschirm", "zh": "屏幕;显示器", "features": { "gender": "m", "plural": "die Bildschirme", "ipa": "ˈbɪltʃɪʁm" }, "noteZh": "das Bild(图像)+ der Schirm(屏;伞),性看最后一个词:der;手机、电脑的屏幕都叫 Bildschirm,也常说 das Display;Bild 末尾的 d 读 [t]。" },
+    { "id": "de.akku", "kind": "word", "pos": "noun", "text": "der Akku", "zh": "(手机、电脑的)电池", "features": { "gender": "m", "plural": "die Akkus", "ipa": "ˈaku" }, "noteZh": "Akkumulator 的简称,说手机电池都用它:Der Akku ist leer.(没电了);阳性,复数加 -s。" },
+    { "id": "de.leer", "kind": "word", "pos": "adj", "text": "leer", "zh": "空的;没电的", "features": { "ipa": "leːɐ̯" }, "noteZh": "Der Akku ist leer.(电池没电了。)/ Der Kühlschrank ist leer.(冰箱空了。);反义词 voll(满);ee 读长音 [eː]。" },
+    { "id": "de.aufladen", "kind": "word", "pos": "verb", "text": "aufladen", "zh": "充电", "features": { "ipa": "ˈaʊ̯fˌlaːdn̩" }, "noteZh": "可分、不规则:Ich lade das Handy auf. / Er lädt das Handy auf.;和 einladen(邀请)一样,du / er 的 a 变成 ä。" },
+    { "id": "de.anmachen", "kind": "word", "pos": "verb", "text": "anmachen", "zh": "打开(电器、灯)", "features": { "ipa": "ˈanˌmaxn̩" }, "noteZh": "可分:Ich mache das Handy an.(我开机);灯、电视、电脑都能用;反义词 ausmachen;比 einschalten 更口语。" },
+    { "id": "de.ausmachen", "kind": "word", "pos": "verb", "text": "ausmachen", "zh": "关掉(电器、灯)", "features": { "ipa": "ˈaʊ̯sˌmaxn̩" }, "noteZh": "可分:Ich mache den Laptop aus.(我关电脑);反义词 anmachen;关机再开机:ausmachen und wieder anmachen。" },
+    { "id": "de.ladekabel", "kind": "word", "pos": "noun", "text": "das Ladekabel", "zh": "充电线", "features": { "gender": "n", "plural": "die Ladekabel", "ipa": "ˈlaːdəˌkaːbl̩" }, "noteZh": "laden(充电)+ das Kabel(线),性看最后一个词:das;复数不变:zwei Ladekabel。" },
+    { "id": "de.app", "kind": "word", "pos": "noun", "text": "die App", "zh": "应用程序;App", "features": { "gender": "f", "plural": "die Apps", "ipa": "ɛp" }, "noteZh": "英语外来词,读 [ɛp];阴性(是 die Applikation 的简称);复数加 -s:drei Apps。" },
+    { "id": "de.video", "kind": "word", "pos": "noun", "text": "das Video", "zh": "视频", "features": { "gender": "n", "plural": "die Videos", "ipa": "ˈviːdeo" }, "noteZh": "外来词里的 v 读 [v](不读 [f]):VI-de-o;中性,复数加 -s;Videos sehen(看视频)。" },
+    { "id": "de.bild", "kind": "word", "pos": "noun", "text": "das Bild", "zh": "图片;照片;画", "features": { "gender": "n", "plural": "die Bilder", "ipa": "bɪlt" }, "noteZh": "手机拍的照片可以说 Bilder:Ich mache Bilder.(我拍照片。);墙上挂的画也是 das Bild;复数 Bilder;词尾 d 读 [t]。" }
+  ],
+  "reviewItems": ["de.handy", "de.nachricht", "de.jeder", "de.immer", "de.wieder"],
+  "lines": [
+    { "speaker": "wei", "text": "Jonas, Sofia, hier ist mein Handy. Der Bildschirm ist schwarz!", "zh": "约纳斯、索菲娅,你们看我的手机。屏幕全黑了!", "items": ["de.hier", "de.sein", "de.mein", "de.handy", "de.bildschirm", "de.schwarz"] },
+    { "speaker": "jonas", "text": "Und der Akku? Ist er vielleicht leer?", "zh": "电池呢?是不是没电了?", "items": ["de.und", "de.akku", "de.sein", "de.er", "de.vielleicht", "de.leer"] },
+    { "speaker": "wei", "text": "Nein, ich lade das Handy jeden Tag auf.", "zh": "不是,我每天都给手机充电。", "items": ["de.nein", "de.ich", "de.aufladen", "de.handy", "de.jeder", "de.tag"] },
+    { "speaker": "sofia", "text": "Kannst du es ausmachen und wieder anmachen?", "zh": "你能关机再开机试试吗?", "items": ["de.koennen", "de.du", "de.es", "de.ausmachen", "de.und", "de.wieder", "de.anmachen"] },
+    { "speaker": "wei", "text": "Ich mache es aus und wieder an. Der Bildschirm ist immer noch schwarz.", "zh": "我关了又开了。屏幕还是黑的。", "items": ["de.ich", "de.ausmachen", "de.es", "de.und", "de.wieder", "de.anmachen", "de.bildschirm", "de.sein", "de.immer", "de.noch", "de.schwarz"] },
+    { "speaker": "jonas", "text": "Dann brauchst du ein neues Handy. Oder einen neuen Bildschirm.", "zh": "那你得换个新手机了。要不就换个新屏幕。", "items": ["de.dann", "de.brauchen", "de.du", "de.ein", "de.neu", "de.handy", "de.oder", "de.bildschirm"] },
+    { "speaker": "sofia", "text": "Was machst du jeden Tag mit dem Handy?", "zh": "你每天用手机做什么?", "items": ["de.was", "de.machen", "de.du", "de.jeder", "de.tag", "de.mit", "de.handy"] },
+    { "speaker": "wei", "text": "Ich schreibe Nachrichten und mache Bilder für meine Familie.", "zh": "我发消息,还给家里人拍照片。", "items": ["de.ich", "de.schreiben", "de.nachricht", "de.und", "de.machen", "de.bild", "de.fuer", "de.mein", "de.familie"] },
+    { "speaker": "jonas", "text": "Mein Handy ist alt. Ich habe nur drei Apps und höre Musik.", "zh": "我的手机很旧。我只有三个 App,用来听音乐。", "items": ["de.mein", "de.handy", "de.sein", "de.alt", "de.ich", "de.haben", "de.nur", "de.drei", "de.app", "de.und", "de.hoeren", "de.musik"] },
+    { "speaker": "sofia", "text": "Und ich sehe jeden Abend Videos. Wo ist mein Ladekabel?", "zh": "我每天晚上看视频。我的充电线在哪儿?", "items": ["de.und", "de.ich", "de.sehen", "de.jeder", "de.abend", "de.video", "de.wo", "de.sein", "de.mein", "de.ladekabel"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的手机怎么了?", "options": ["没电了", "屏幕黑了,关机再开机也不行", "被约纳斯拿走了"], "answer": 1, "explainZh": "王伟说:Der Bildschirm ist schwarz!(屏幕全黑了!)他每天都充电(Ich lade das Handy jeden Tag auf.),关机再开机屏幕还是黑的。" },
+    { "prompt": "约纳斯用手机做什么?", "options": ["看视频", "拍照片", "听音乐"], "answer": 2, "explainZh": "约纳斯说:Ich habe nur drei Apps und höre Musik.(我只有三个 App,用来听音乐。)看视频的是索菲娅,拍照片的是王伟。" },
+    { "prompt": "索菲娅最后在找什么?", "options": ["她的充电线", "她的手机", "她的电脑"], "answer": 0, "explainZh": "索菲娅说:Wo ist mein Ladekabel?(我的充电线在哪儿?)" }
+  ],
+  "grammar": [
+    { "id": "de.g.trennbar_handy", "titleZh": "开机、关机、充电:可分动词复习",
+      "bodyZh": "说手机、电脑的动作,很多是可分动词:anmachen(打开)、ausmachen(关掉)、aufladen(充电)。陈述句里前缀放句末:Ich mache das Handy aus. / Ich lade das Handy jeden Tag auf.。\n和情态动词(können、müssen、möchten)一起用时不分开,原形放句末:Kannst du es ausmachen und wieder anmachen?。\n两个可分动词连着说,前缀各放各的:Ich mache es aus und wieder an.。aufladen 不规则:du lädst auf、er lädt auf(和第 5 单元的 einladen 一样)。",
+      "examples": [
+        { "text": "Ich lade das Handy auf.", "zh": "我给手机充电。" },
+        { "text": "Kannst du es ausmachen?", "zh": "你能把它关掉吗?" },
+        { "text": "Sofia macht den Laptop an.", "zh": "索菲娅打开笔记本电脑。" }
+      ] },
+    { "id": "de.g.komposita_handy", "titleZh": "复合词和外来词:Ladekabel、App、Video",
+      "bodyZh": "手机和电脑的词很多是复合词,拆开就好记:das Ladekabel = laden(充电)+ das Kabel(线);der Bildschirm = das Bild(图像)+ der Schirm(屏)。性和复数看最后一个词:das Kabel → das Ladekabel(复数 die Ladekabel)。\n英语外来词照英语读,性要单独记:die App、das Video、der Laptop、der Akku;复数大多加 -s:Apps、Videos、Laptops、Akkus。",
+      "examples": [
+        { "text": "Wo ist mein Ladekabel?", "zh": "我的充电线在哪儿?" },
+        { "text": "Ich habe nur drei Apps.", "zh": "我只有三个 App。" },
+        { "text": "Sofia sieht jeden Abend Videos.", "zh": "索菲娅每天晚上看视频。" }
+      ] }
+  ],
+  "review": "draft"
+}

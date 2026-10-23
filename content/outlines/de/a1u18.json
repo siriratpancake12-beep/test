@@ -1,0 +1,190 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-18 意外与求助", "cefr": "A1", "themeZh": "七月初,倒霉的一周:钱包在地铁上丢了、列出丢失的证件、挂失银行卡、去失物招领处、保罗踢球扭伤脚要打 112、在急诊室登记、把自己锁在门外,最后感冒了向老板请病假。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u18.l01", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118010,
+      "titleZh": "我的钱包不见了!",
+      "goalZh": "会说钱包丢了、什么样、里面有什么,会在车站服务台请工作人员帮忙",
+      "canDoZh": "能说出丢了什么、在哪儿、什么时候丢的,请别人帮忙",
+      "scenarioZh": "周一早上,王伟在地铁上发现钱包(der Geldbeutel)不见了。他先问旁边的男乘客有没有看见,乘客说也许有人捡到了,让他去车站的服务窗口问;下车后王伟在窗口向男工作人员说明:黑色的钱包,里面有银行卡、学生证和 30 欧元;工作人员说这儿没有人交钱包,可以去失物招领处(das Fundbüro)问,也可以在网上填失物登记表。说话人:wei、passant、mitarbeiter。",
+      "grammarFocusZh": "第四格物主冠词初见:Ich habe meinen Geldbeutel verloren / Ihren Geldbeutel?;完成时复习(verloren、gesehen、gefunden、abgegeben,Was ist passiert? 用 sein)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "de.geldbeutel", "kind": "word", "pos": "noun", "text": "der Geldbeutel", "zh": "钱包", "features": { "gender": "m", "plural": "die Geldbeutel", "ipa": "ˈɡɛltˌbɔɪ̯tl̩" }, "noteZh": "das Geld(钱)+ der Beutel(袋子),复合词的性跟最后一个词:der Geldbeutel;复数不变。北方也常说 das Portemonnaie,意思一样。eu 读 [ɔɪ̯],像“欧伊”。" },
+        { "id": "de.weg", "kind": "word", "pos": "adv", "text": "weg", "zh": "不见了;走了;离开", "features": { "ipa": "vɛk" }, "noteZh": "东西丢了、找不到了最常说:Mein Geldbeutel ist weg!(我的钱包不见了!)人走了也说 Er ist schon weg.。w 读 [v],词尾 g 清化读 [k]。" },
+        { "id": "de.passieren", "kind": "word", "pos": "verb", "text": "passieren", "zh": "发生", "features": { "ipa": "paˈsiːʁən" }, "noteZh": "Was ist passiert?(出什么事了?)完成时用 sein;-ieren 结尾的动词过去分词不加 ge-:passiert。重音在 sie 上。" },
+        { "id": "de.fahrgast", "kind": "word", "pos": "noun", "text": "der Fahrgast", "zh": "乘客", "features": { "gender": "m", "plural": "die Fahrgäste", "ipa": "ˈfaːɐ̯ˌɡast" }, "noteZh": "fahren(乘车)+ der Gast(客人)= 乘车的客人;车厢广播常说 Liebe Fahrgäste(各位乘客)。复数变音:die Fahrgäste。" },
+        { "id": "de.schalter", "kind": "word", "pos": "noun", "text": "der Schalter", "zh": "(车站、银行、邮局的)窗口;柜台", "features": { "gender": "m", "plural": "die Schalter", "ipa": "ˈʃaltɐ" }, "noteZh": "am Schalter(在窗口):买票、问事、办手续的地方都叫 Schalter;复数不变。sch 读 [ʃ],词尾 -er 读得很轻,像 [ɐ]。" },
+        { "id": "de.bankkarte", "kind": "word", "pos": "noun", "text": "die Bankkarte", "zh": "银行卡", "features": { "gender": "f", "plural": "die Bankkarten", "ipa": "ˈbaŋkˌkaʁtə" }, "noteZh": "die Bank(银行)+ die Karte(卡):复合词的性跟最后一个词。德国最常见的是借记卡,口语也叫 EC-Karte 或 Girokarte;nk 里的 n 读 [ŋ]。" },
+        { "id": "de.abgeben", "kind": "word", "pos": "verb", "text": "abgeben", "zh": "交出;上交(把东西交给负责的人)", "features": { "ipa": "ˈapˌɡeːbn̩" }, "noteZh": "可分动词:Er gibt den Geldbeutel ab. / Er hat ihn abgegeben.;捡到东西交到失物招领处就用 abgeben。ab 的 b 读 [p];变位跟 geben:du gibst ab, er gibt ab。" },
+        { "id": "de.fundbuero", "kind": "word", "pos": "noun", "text": "das Fundbüro", "zh": "失物招领处", "features": { "gender": "n", "plural": "die Fundbüros", "ipa": "ˈfʊntbyˌʁoː" }, "noteZh": "der Fund(找到的东西,来自 finden)+ das Büro(办公室);复数加 -s。德国的城市、车站、交通公司都有 Fundbüro,丢了东西可以去问,也可以在网上登记。ü 要撮圆嘴唇。" },
+        { "id": "de.sitzen", "kind": "word", "pos": "verb", "text": "sitzen", "zh": "坐;坐着", "features": { "ipa": "ˈzɪtsn̩" }, "noteZh": "Wo haben Sie gesessen?(您刚才坐在哪儿?)不规则:完成时 gesessen(德国北部和标准语用 haben,南部和奥地利常用 sein)。s 在元音前读 [z],tz 读 [ts]。" }
+      ],
+      "reviewItems": ["de.verlieren", "de.studentenausweis", "de.niemand", "de.ausfuellen", "de.formular", "de.platz"]
+    },
+    {
+      "id": "de.a1u18.l02", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118020,
+      "titleZh": "证件和卡",
+      "goalZh": "会说常用的证件和卡,知道丢了以后马上该做什么",
+      "canDoZh": "能说出常用的证件和卡,说清楚丢了哪些、要做什么",
+      "scenarioZh": "回到家,王伟和索菲娅列清单,钱包里有什么:银行卡、学生证、医保卡(die Versichertenkarte)、居留卡(居留许可,die Aufenthaltserlaubnis)和一张家人的照片;索菲娅说银行卡要马上打电话冻结(sperren),医保卡找医保公司(die Krankenkasse)补,居留卡要去外管局重新申请(beantragen);还好护照在家里,学期票在手机里。说话人:sofia、wei。",
+      "grammarFocusZh": "第四格物主冠词复习(Deine Bankkarte musst du sperren / Ruf deine Krankenkasse an);müssen 和 sofort;证件和卡的复合词(die Bankkarte、die Versichertenkarte、der Studentenausweis)",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.dokument", "kind": "word", "pos": "noun", "text": "das Dokument", "zh": "证件;文件", "features": { "gender": "n", "plural": "die Dokumente", "ipa": "dokuˈmɛnt" }, "noteZh": "护照、居留卡、证明这类正式的文件都可以叫 Dokument;重音在最后的 ment 上,和英语 document 重音位置不同。" },
+        { "id": "de.versichertenkarte", "kind": "word", "pos": "noun", "text": "die Versichertenkarte", "zh": "医保卡", "features": { "gender": "f", "plural": "die Versichertenkarten", "ipa": "fɛɐ̯ˈzɪçɐtn̩ˌkaʁtə" }, "noteZh": "der Versicherte(参保人)+ die Karte;看病时在诊所前台要出示。口语也叫 Krankenkassenkarte 或 Gesundheitskarte。ver- 不重读,重音在 si 上;ch 在 i 后读 [ç]。" },
+        { "id": "de.sperren", "kind": "word", "pos": "verb", "text": "sperren", "zh": "冻结(卡);封锁", "features": { "ipa": "ˈʃpɛʁən" }, "noteZh": "银行卡丢了要马上 sperren(挂失冻结);完成时 gesperrt:Die Karte ist jetzt gesperrt.(卡已经冻结了。)sp 在词首读 [ʃp]。" },
+        { "id": "de.krankenkasse", "kind": "word", "pos": "noun", "text": "die Krankenkasse", "zh": "医保公司;医疗保险", "features": { "gender": "f", "plural": "die Krankenkassen", "ipa": "ˈkʁaŋkn̩ˌkasə" }, "noteZh": "在德国每个人都必须有医疗保险,学生也一样;医保卡丢了给自己的 Krankenkasse 打电话,它会寄新卡。krank(病)+ die Kasse(钱箱;收款处)。" },
+        { "id": "de.beantragen", "kind": "word", "pos": "verb", "text": "beantragen", "zh": "申请(证件、许可)", "features": { "ipa": "bəˈʔantʁaːɡn̩" }, "noteZh": "办手续的常用词:einen Pass / eine Aufenthaltserlaubnis beantragen;be- 不可分,完成时没有 ge-:Ich habe sie beantragt.。be 和 an 之间有一个短停顿(声门塞音)。" },
+        { "id": "de.zum_glueck", "kind": "phrase", "pos": "phrase", "text": "zum Glück", "zh": "幸亏;还好", "features": { "ipa": "tsʊm ˈɡlʏk" }, "noteZh": "放在句首,后面动词照样在第二位:Zum Glück ist mein Pass zu Hause.(还好护照在家里。)ü 撮圆嘴唇,词尾 ck 读 [k]。" },
+        { "id": "de.kopieren", "kind": "word", "pos": "verb", "text": "kopieren", "zh": "复印;复制", "features": { "ipa": "koˈpiːʁən" }, "noteZh": "Kopier deine Dokumente!(把证件都复印一份!)-ieren 结尾,完成时不加 ge-:Ich habe den Pass kopiert.;重音在 pie 上。" },
+        { "id": "de.schlimm", "kind": "word", "pos": "adj", "text": "schlimm", "zh": "糟糕;严重", "features": { "ipa": "ʃlɪm" }, "noteZh": "安慰人常说:Das ist nicht so schlimm.(没那么严重。)反过来 Das ist schlimm!(这可糟了!)sch 读 [ʃ],i 是短元音。" }
+      ],
+      "reviewItems": ["de.pech", "de.liste", "de.bankkarte", "de.aufenthaltserlaubnis", "de.auslaenderbehoerde", "de.sofort"]
+    },
+    {
+      "id": "de.a1u18.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118030,
+      "titleZh": "你的钥匙呢?——第四格物主冠词",
+      "goalZh": "掌握物主冠词的第四格(meinen / deinen / Ihren …),会问别人有没有看见自己的东西",
+      "canDoZh": "能说对“我的 / 你的 / 您的……”的第四格形式,问别人有没有看见自己的东西",
+      "scenarioZh": "钱包丢了以后,王伟一整天都心不在焉:找不到耳机(其实挂在脖子上)、手机(在背包里,约纳斯打电话才听见响)和钥匙。约纳斯帮他找,问 Hast du deinen Schlüssel dabei?;最后钥匙在冰箱里找到了——早上王伟买完牛奶,连钥匙一起放进去了,约纳斯笑得停不下来。说话人:wei、jonas。",
+      "grammarFocusZh": "第四格物主冠词:阳性加 -en(meinen / deinen / seinen / ihren / unseren / Ihren),阴性和复数加 -e,中性不变,和 ein / kein 的变化一样;haben / suchen / finden / sehen / vergessen 后面用第四格;代词指物 ihn / sie / es",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.kopfhoerer", "kind": "word", "pos": "noun", "text": "der Kopfhörer", "zh": "耳机", "features": { "gender": "m", "plural": "die Kopfhörer", "ipa": "ˈkɔpfˌhøːʁɐ" }, "noteZh": "der Kopf(头)+ hören(听)+ -er;复数不变,一副耳机常说复数:Wo sind meine Kopfhörer?。pf 两个音都要发,ö 是撮圆嘴唇的 e。" },
+        { "id": "de.rucksack", "kind": "word", "pos": "noun", "text": "der Rucksack", "zh": "双肩背包", "features": { "gender": "m", "plural": "die Rucksäcke", "ipa": "ˈʁʊkˌzak" }, "noteZh": "der Rücken(背)+ der Sack(袋子);复数变音:die Rucksäcke。英语的 rucksack 就是从德语借的。s 在元音前读 [z]。" },
+        { "id": "de.liegen", "kind": "word", "pos": "verb", "text": "liegen", "zh": "躺;(平放着)在某处", "features": { "ipa": "ˈliːɡn̩" }, "noteZh": "说东西放在哪儿:Dein Schlüssel liegt im Kühlschrank!;人躺着也用它:Ich liege im Bett.。ie 读长音 [iː],和 ei [aɪ̯] 别混:liegen ≠ leihen。" },
+        { "id": "de.klingeln", "kind": "word", "pos": "verb", "text": "klingeln", "zh": "(铃、电话)响;按门铃", "features": { "ipa": "ˈklɪŋl̩n" }, "noteZh": "Das Handy klingelt.(手机响了。)按门铃也用它。-eln 结尾的动词 ich 形式常去掉 e:ich klingle;ng 读 [ŋ],g 不单独发音。" },
+        { "id": "de.vergessen", "kind": "word", "pos": "verb", "text": "vergessen", "zh": "忘记;忘带", "features": { "ipa": "fɛɐ̯ˈɡɛsn̩" }, "noteZh": "不规则:du vergisst, er vergisst;完成时 Ich habe … vergessen(ver- 开头不加 ge-)。后面直接跟第四格:Ich vergesse meinen Schlüssel.。" },
+        { "id": "de.dabei", "kind": "word", "pos": "adv", "text": "dabei", "zh": "带在身上(dabeihaben)", "features": { "ipa": "daˈbaɪ̯" }, "noteZh": "etwas dabeihaben = 身上带着某物:Hast du deinen Schlüssel dabei?(你带钥匙了吗?)dabei 放句末;重音在 bei 上,ei 读 [aɪ̯]。" },
+        { "id": "de.komisch", "kind": "word", "pos": "adj", "text": "komisch", "zh": "好笑;奇怪", "features": { "ipa": "ˈkoːmɪʃ" }, "noteZh": "两个意思:好笑(Das ist nicht komisch!这不好笑!)和奇怪(Das ist komisch, wo ist mein Handy?)。o 读长音,sch 读 [ʃ]。" },
+        { "id": "de.durcheinander", "kind": "word", "pos": "adj", "text": "durcheinander", "zh": "心里乱;(东西)乱七八糟", "features": { "ipa": "dʊʁçʔaɪ̯ˈnandɐ" }, "noteZh": "Du bist heute ganz durcheinander.(你今天心不在焉的。)也说房间乱:Mein Zimmer ist durcheinander.;重音在 nan 上,前面的 durch 里 ch 读 [ç]。" }
+      ],
+      "reviewItems": ["de.ueberall", "de.suchen", "de.schluessel", "de.handy", "de.kuehlschrank", "de.lachen"]
+    },
+    {
+      "id": "de.a1u18.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118040,
+      "titleZh": "挂失银行卡",
+      "goalZh": "会打银行电话挂失银行卡,回答核对身份的问题,听懂新卡和报警的说明",
+      "canDoZh": "能打电话冻结银行卡,回答核对身份的问题",
+      "scenarioZh": "周一晚上,王伟打银行的挂失电话。女银行职员核对他的名字、地址和出生地(示例地址 Musterstraße 12),问卡最后一次是什么时候用的,然后说卡已经冻结了(gesperrt),新卡大约一周后寄到,密码(die PIN)另外邮寄;她还建议他去警察局报案(eine Anzeige machen 当固定说法),也许钱包是被小偷偷的。说话人:wei、bankberaterin。",
+      "grammarFocusZh": "电话里核对身份:Ihren Namen und Ihre Adresse, bitte / Wo sind Sie geboren?;完成时复习(Ich habe meine Bankkarte verloren / Wann haben Sie die Karte zuletzt benutzt? / Ein Dieb hat … gestohlen);第四格物主冠词复习",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.keine_sorge", "kind": "phrase", "pos": "phrase", "text": "Keine Sorge!", "zh": "别担心!", "features": { "ipa": "ˈkaɪ̯nə ˈzɔʁɡə" }, "noteZh": "安慰别人最常用;die Sorge 是“担心”,用 kein 否定。也说 Keine Angst!(别怕!)s 在元音前读 [z]。" },
+        { "id": "de.zuletzt", "kind": "word", "pos": "adv", "text": "zuletzt", "zh": "最后一次;上一次", "features": { "ipa": "tsuˈlɛtst" }, "noteZh": "Wann haben Sie die Karte zuletzt benutzt?(您最后一次用卡是什么时候?)丢了东西时常被问到。z 读 [ts],词尾 tzt 读 [tst]。" },
+        { "id": "de.ungefaehr", "kind": "word", "pos": "adv", "text": "ungefähr", "zh": "大约;大概", "features": { "ipa": "ˈʊnɡəfɛːɐ̯" }, "noteZh": "放在数字前:in ungefähr einer Woche(大约一周以后)、ungefähr zehn Minuten。重音在 un 上;ä 读长音 [ɛː]。" },
+        { "id": "de.pin", "kind": "word", "pos": "noun", "text": "die PIN", "zh": "(银行卡的)密码", "features": { "gender": "f", "plural": "die PINs", "ipa": "pɪn" }, "noteZh": "银行卡的数字密码,德语也叫 die Geheimzahl;银行一般把新卡和 PIN 分开寄。阴性:die PIN。" },
+        { "id": "de.dieb", "kind": "word", "pos": "noun", "text": "der Dieb", "zh": "小偷", "features": { "gender": "m", "plural": "die Diebe", "ipa": "diːp" }, "noteZh": "ie 读长音 [iː],和 ei 相反:Dieb [iː] / Polizei [aɪ̯];词尾 b 清化读 [p],复数 Diebe 里 b 又读 [b]。地铁里常听到广播提醒小心小偷。" },
+        { "id": "de.stehlen", "kind": "word", "pos": "verb", "text": "stehlen", "zh": "偷", "features": { "ipa": "ˈʃteːlən" }, "noteZh": "不规则:du stiehlst, er stiehlt;完成时 Er hat … gestohlen。st 在词首读 [ʃt];eh 是长音。" },
+        { "id": "de.eine_anzeige_machen", "kind": "phrase", "pos": "phrase", "text": "eine Anzeige machen", "zh": "(到警察局)报案", "features": { "ipa": "ˈaɪ̯nə ˈanˌtsaɪ̯ɡə ˈmaxn̩" }, "noteZh": "先当固定说法记:Machen Sie eine Anzeige bei der Polizei.(去警察局报案。)正式说法是 Anzeige erstatten。die Anzeige 另外还有“广告、启事”的意思(第 13 单元的招聘广告)。" },
+        { "id": "de.polizei", "kind": "word", "pos": "noun", "text": "die Polizei", "zh": "警察;警察局", "features": { "gender": "f", "plural": "-", "ipa": "poliˈtsaɪ̯" }, "noteZh": "zur Polizei gehen(去警察局);报警电话 110,急救和消防 112。重音在最后的 zei 上,ei 读 [aɪ̯];z 读 [ts]。" }
+      ],
+      "reviewItems": ["de.bankkarte", "de.sperren", "de.adresse", "de.geboren", "de.benutzen"]
+    },
+    {
+      "id": "de.a1u18.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118045,
+      "titleZh": "失物招领处的邮件",
+      "goalZh": "读懂失物招领处的通知邮件和网页说明,找出去哪儿取、什么时间、要带什么、要付多少钱",
+      "canDoZh": "能读懂失物招领处的通知,找出去哪儿取、什么时间、要带什么",
+      "scenarioZh": "体裁:邮件和网页说明(交通公司的失物招领处,不写真实名称)。周二,王伟收到失物招领处的邮件(他周一在网上填了失物登记表):有乘客把他的钱包交上来了,里面的东西都在;请他七天内带证件(比如护照)来取,手续费 5 欧元;下面是网页上的地址(示例地址)、开放时间(周一到周五 9–18 点,周四到 20 点)和怎么在网上登记丢失的东西。说话人:narrator(邮件和说明)。",
+      "grammarFocusZh": "复习:日期、钟点、von … bis …、Sie 的命令式(Bitte bringen Sie … mit / Füllen Sie … aus)和 können;通知里常省略动词(Montag bis Freitag: 9 bis 18 Uhr)",
+      "skills": ["read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.oeffnungszeit", "kind": "word", "pos": "noun", "text": "die Öffnungszeit", "zh": "营业时间;开放时间", "features": { "gender": "f", "plural": "die Öffnungszeiten", "ipa": "ˈœfnʊŋsˌtsaɪ̯t" }, "noteZh": "通知、网页上一般用复数:Öffnungszeiten: Mo–Fr 9–18 Uhr。öffnen(开)+ -ung + s + die Zeit;ö 撮圆嘴唇,z 读 [ts]。" }
+      ],
+      "reviewItems": ["de.fundbuero", "de.fahrgast", "de.abgeben", "de.abholen", "de.gebuehr", "de.ausweis"]
+    },
+    {
+      "id": "de.a1u18.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118050,
+      "titleZh": "保罗扭伤了脚:打 112",
+      "goalZh": "会打急救电话,按接线员的问题说清楚地点、出了什么事、几个人受伤",
+      "canDoZh": "能打急救电话,说清楚在哪儿、出了什么事、有几个人受伤",
+      "scenarioZh": "周六在公园踢球,保罗摔倒了,脚踝(der Knöchel)很疼,站不起来。约纳斯说要叫救护车(der Krankenwagen),让王伟打 112;女接线员问 Wo genau sind Sie? Was ist passiert? Wie viele Personen sind verletzt?,王伟一项一项回答,说清楚公园在哪条街、在入口那儿(示例街名 Parkstraße);接线员说救护车十分钟到,先别动保罗的脚。只练语言,不写医疗处理。说话人:paul、jonas、wei、notruf。",
+      "grammarFocusZh": "急救电话的几个问题(Wo genau sind Sie? Was ist passiert? Wie viele Personen sind verletzt?)和简短的回答;Er ist hingefallen(sein 的完成时);Sie 的命令式 + 第四格物主冠词(Bewegen Sie seinen Fuß bitte nicht!);noteZh 写 112(急救、消防)和 110(警察)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.knoechel", "kind": "word", "pos": "noun", "text": "der Knöchel", "zh": "脚踝", "features": { "gender": "m", "plural": "die Knöchel", "ipa": "ˈknœçl̩" }, "noteZh": "kn 两个音都要读出来,k 不能省;ö 撮圆嘴唇,ch 在 ö 后读 [ç]。踢球最容易伤的地方:Mein Knöchel tut weh.。" },
+        { "id": "de.krankenwagen", "kind": "word", "pos": "noun", "text": "der Krankenwagen", "zh": "救护车", "features": { "gender": "m", "plural": "die Krankenwagen", "ipa": "ˈkʁaŋkn̩ˌvaːɡn̩" }, "noteZh": "krank(病)+ der Wagen(车);复数不变。叫救护车打 112(免费)。正式说法是 der Rettungswagen,口语一般说 Krankenwagen。" },
+        { "id": "de.notruf", "kind": "word", "pos": "noun", "text": "der Notruf", "zh": "急救电话;紧急呼叫", "features": { "gender": "m", "plural": "die Notrufe", "ipa": "ˈnoːtˌʁuːf" }, "noteZh": "die Not(危急)+ der Ruf(呼叫)。德国的急救和消防是 112,警察是 110,手机没话费也能打。接线员按顺序问:在哪儿、出了什么事、几个人受伤,回答要短,别先挂电话。" },
+        { "id": "de.eingang", "kind": "word", "pos": "noun", "text": "der Eingang", "zh": "入口", "features": { "gender": "m", "plural": "die Eingänge", "ipa": "ˈaɪ̯nˌɡaŋ" }, "noteZh": "ein(进)+ der Gang(走);反义词 der Ausgang(出口)。打急救电话说清楚在哪个入口,救护车才找得到:am Eingang Parkstraße。" },
+        { "id": "de.hinfallen", "kind": "word", "pos": "verb", "text": "hinfallen", "zh": "摔倒;跌倒", "features": { "ipa": "ˈhɪnˌfalən" }, "noteZh": "可分动词,完成时用 sein:Er ist hingefallen.(他摔倒了。)先当固定说法记。现在时 a 变 ä:er fällt hin。重音在 hin 上。" },
+        { "id": "de.person", "kind": "word", "pos": "noun", "text": "die Person", "zh": "人;人数", "features": { "gender": "f", "plural": "die Personen", "ipa": "pɛʁˈzoːn" }, "noteZh": "数人数时常用:Wie viele Personen?(几个人?)订座、订房也这样问。阴性;重音在 son 上。" },
+        { "id": "de.verletzt", "kind": "word", "pos": "adj", "text": "verletzt", "zh": "受伤的", "features": { "ipa": "fɛɐ̯ˈlɛtst" }, "noteZh": "放在 sein 后面:Wie viele Personen sind verletzt?(几个人受伤?)Sein Knie ist verletzt.。来自动词 verletzen(弄伤);词尾 tzt 读 [tst]。" },
+        { "id": "de.bewegen", "kind": "word", "pos": "verb", "text": "bewegen", "zh": "移动;动", "features": { "ipa": "bəˈveːɡn̩" }, "noteZh": "Bewegen Sie seinen Fuß bitte nicht!(请别动他的脚!)be- 不可分、不重读;w 读 [v]。" }
+      ],
+      "reviewItems": ["de.passieren", "de.fuss", "de.wehtun", "de.park", "de.stehen", "de.genau"]
+    },
+    {
+      "id": "de.a1u18.l06", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118060,
+      "titleZh": "在急诊室",
+      "goalZh": "会在急诊室登记,说出哪里疼、怎么受的伤,听懂“骨折 / 扭伤”和医嘱",
+      "canDoZh": "能在急诊室登记,说出哪里疼、怎么发生的,听懂结果",
+      "scenarioZh": "医院急诊室(die Notaufnahme)人很多。前台要保罗的医保卡,问出了什么事、哪里疼,王伟说明踢球时摔倒了;前台给保罗擦伤的膝盖一个创可贴(das Pflaster),说今天病人多,要等两个小时;莉娜赶来了;医生检查后(医生不出场,莉娜转述):不是骨折(gebrochen),只是扭伤(verstaucht),要经常冷敷(kühlen),三个星期不能踢球。说话人:arzthelferin、wei、paul、lena。",
+      "grammarFocusZh": "身体部位和 wehtun 复习(Mein Knöchel tut sehr weh / Ich kann nicht gehen);sein + verletzt / gebrochen / verstaucht;完成时复习(Wir haben Fußball gespielt / Paul ist hingefallen / Der Arzt hat den Fuß untersucht)",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.notaufnahme", "kind": "word", "pos": "noun", "text": "die Notaufnahme", "zh": "(医院的)急诊室", "features": { "gender": "f", "plural": "die Notaufnahmen", "ipa": "ˈnoːtʔaʊ̯fˌnaːmə" }, "noteZh": "die Not(危急)+ die Aufnahme(接收);晚上、周末诊所关门,急事去医院的 Notaufnahme。不急的病要等很久,先看重病人。" },
+        { "id": "de.patient", "kind": "word", "pos": "noun", "text": "der Patient", "zh": "(男)病人;患者", "features": { "gender": "m", "plural": "die Patienten", "ipa": "paˈtsi̯ɛnt" }, "noteZh": "女病人 die Patientin;ti 在这里读 [tsi̯],和 Information 里的 -tion 一样;复数 die Patienten。" },
+        { "id": "de.knie", "kind": "word", "pos": "noun", "text": "das Knie", "zh": "膝盖", "features": { "gender": "n", "plural": "die Knie", "ipa": "kniː" }, "noteZh": "k 要读出来:[kniː];复数写法不变,读 [ˈkniːə]。和 Knöchel(脚踝)一样都是 kn 开头。" },
+        { "id": "de.pflaster", "kind": "word", "pos": "noun", "text": "das Pflaster", "zh": "创可贴;膏药", "features": { "gender": "n", "plural": "die Pflaster", "ipa": "ˈpflastɐ" }, "noteZh": "pf 两个音都要发:先闭嘴唇发 p,马上接 f;复数不变。药店、超市都能买到。" },
+        { "id": "de.untersuchen", "kind": "word", "pos": "verb", "text": "untersuchen", "zh": "检查(身体)", "features": { "ipa": "ˌʊntɐˈzuːxn̩" }, "noteZh": "Der Arzt untersucht den Fuß.(医生检查脚。)unter- 在这里不可分,完成时也不加 ge-:Er hat den Fuß untersucht.;重音在 su 上。" },
+        { "id": "de.gebrochen", "kind": "word", "pos": "adj", "text": "gebrochen", "zh": "骨折的;断了的", "features": { "ipa": "ɡəˈbʁɔxn̩" }, "noteZh": "Der Fuß ist gebrochen.(脚骨折了。)来自 brechen(折断)的过去分词;ch 在 o 后读 [x]。" },
+        { "id": "de.verstaucht", "kind": "word", "pos": "adj", "text": "verstaucht", "zh": "扭伤的", "features": { "ipa": "fɛɐ̯ˈʃtaʊ̯xt" }, "noteZh": "Der Fuß ist nicht gebrochen, nur verstaucht.(没骨折,只是扭伤。)常和 gebrochen 对比着说;au 读 [aʊ̯],ch 在 au 后读 [x]。" },
+        { "id": "de.kuehlen", "kind": "word", "pos": "verb", "text": "kühlen", "zh": "冷敷;使变凉", "features": { "ipa": "ˈkyːlən" }, "noteZh": "Den Fuß kühlen(给脚冷敷);和 kalt、der Kühlschrank 是一家:Kühlschrank 就是“让东西变凉的柜子”。ü 撮圆嘴唇,读长音。" }
+      ],
+      "reviewItems": ["de.versichertenkarte", "de.hinfallen", "de.knoechel", "de.verletzt", "de.krankenhaus", "de.warten"]
+    },
+    {
+      "id": "de.a1u18.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118070,
+      "titleZh": "被锁在门外",
+      "goalZh": "会在被锁在门外时向邻居求助、给室友打电话,商量怎么办",
+      "canDoZh": "能在被锁在门外时向邻居求助,商量怎么办",
+      "scenarioZh": "周六晚上王伟下楼倒垃圾,两分钟后回来,门在身后关上了——钥匙在屋里,他站在楼道里(das Treppenhaus)。约纳斯在餐馆上班,索菲娅出去了(unterwegs),电话也打不通。他按楼下霍夫曼先生的门铃,问有没有备用钥匙(der Ersatzschlüssel);霍夫曼先生说没有,晚上叫开锁公司(der Schlüsseldienst)很贵,这也不算急事(kein Notfall),先给约纳斯打电话;约纳斯说他 23 点下班,23 点半回来开门,还开玩笑问王伟今天是不是又倒霉了;霍夫曼先生请王伟进屋,屋里暖和又舒服(gemütlich),王伟问起他以前开火车的照片。说话人:wei、hoffmann、jonas。",
+      "grammarFocusZh": "求助:Können Sie mir helfen? / Haben Sie vielleicht …?;第四格物主冠词复习(Ich habe meinen Schlüssel nicht dabei / Haben Sie Ihr Handy dabei?);Die Tür ist zugefallen 先当固定说法;对邻居用 Sie、对室友用 du",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.die_tuer_ist_zugefallen", "kind": "phrase", "pos": "phrase", "text": "Die Tür ist zugefallen.", "zh": "门(自己)关上了。(钥匙在里面)", "features": { "ipa": "diː tyːɐ̯ ɪst ˈtsuːɡəˌfalən" }, "noteZh": "德国的门很多从外面没有把手,一关上不用钥匙就打不开,先当固定说法记。zufallen 是可分动词,完成时用 sein。" },
+        { "id": "de.ersatzschluessel", "kind": "word", "pos": "noun", "text": "der Ersatzschlüssel", "zh": "备用钥匙", "features": { "gender": "m", "plural": "die Ersatzschlüssel", "ipa": "ɛɐ̯ˈzatsˌʃlʏsl̩" }, "noteZh": "der Ersatz(替代品)+ der Schlüssel;复数不变。很多德国人把备用钥匙放在信得过的邻居或朋友那儿。tz 读 [ts],ü 撮圆嘴唇。" },
+        { "id": "de.schluesseldienst", "kind": "word", "pos": "noun", "text": "der Schlüsseldienst", "zh": "开锁公司;开锁服务", "features": { "gender": "m", "plural": "die Schlüsseldienste", "ipa": "ˈʃlʏsl̩ˌdiːnst" }, "noteZh": "der Schlüssel(钥匙)+ der Dienst(服务);晚上和周末叫开锁特别贵,先问清楚价钱。ie 读长音 [iː]。" },
+        { "id": "de.treppenhaus", "kind": "word", "pos": "noun", "text": "das Treppenhaus", "zh": "楼梯间;楼道", "features": { "gender": "n", "plural": "die Treppenhäuser", "ipa": "ˈtʁɛpn̩ˌhaʊ̯s" }, "noteZh": "die Treppe(楼梯)+ das Haus;复数变音 die Treppenhäuser。邻居常在楼道里碰面聊天;pp 前的 e 是短元音。" },
+        { "id": "de.notfall", "kind": "word", "pos": "noun", "text": "der Notfall", "zh": "紧急情况", "features": { "gender": "m", "plural": "die Notfälle", "ipa": "ˈnoːtˌfal" }, "noteZh": "die Not(危急)+ der Fall(情况);Das ist ein Notfall!(这是急事!)真正的 Notfall 打 112;复数变音 die Notfälle。" },
+        { "id": "de.unterwegs", "kind": "word", "pos": "adv", "text": "unterwegs", "zh": "在路上;在外面(不在家)", "features": { "ipa": "ˌʊntɐˈveːks" }, "noteZh": "Sofia ist unterwegs.(索菲娅出去了,不在家。)也指在路上:Ich bin schon unterwegs!(我已经在路上了!)重音在 wegs 上,词尾 gs 读 [ks]。" },
+        { "id": "de.erreichen", "kind": "word", "pos": "verb", "text": "erreichen", "zh": "(打电话)联系上;赶上(车)", "features": { "ipa": "ɛɐ̯ˈʁaɪ̯çn̩" }, "noteZh": "Ich erreiche sie nicht.(我联系不上她。)赶上车也用它:Wir erreichen den Zug.;er- 不可分、不重读,完成时 erreicht。" },
+        { "id": "de.gemuetlich", "kind": "word", "pos": "adj", "text": "gemütlich", "zh": "舒适;温馨", "features": { "ipa": "ɡəˈmyːtlɪç" }, "noteZh": "德国人很看重的感觉:暖和、安静、让人放松的地方或时间都叫 gemütlich;Hier ist es gemütlich.。ü 撮圆嘴唇读长音,词尾 -lich 读 [lɪç]。" }
+      ],
+      "reviewItems": ["de.dabei", "de.unten", "de.oeffnen", "de.feierabend", "de.frueher", "de.lokfuehrer"]
+    },
+    {
+      "id": "de.a1u18.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118080,
+      "titleZh": "单元复习与应用:向老板请病假",
+      "goalZh": "会打电话请病假,说清楚哪里不舒服、大概几天不能来,知道什么时候要交病假条",
+      "canDoZh": "能打电话请病假,说清楚哪里不舒服、多久不能来",
+      "scenarioZh": "这一周倒霉事太多,周日早上王伟又发烧、嗓子疼,得了重感冒(和周日晚上写的日记接上:规划原来写周三,改成周日)。他给冰淇淋店的老板娘打电话:Ich bin krank, ich habe Fieber.;老板娘问他几天不能来,说到周三(第四天)还病着就要交医生开的病假条(die Krankmeldung),让他多睡觉、多喝茶;王伟又给索菲娅发消息,请她告诉同事(Bescheid sagen);索菲娅说晚上给他做汤。说话人:wei、chefin、sofia。",
+      "grammarFocusZh": "复习:krank / Fieber / müssen、第四格物主冠词、完成时;请假的说法(Ich kann heute leider nicht kommen / Wie viele Tage kannst du nicht arbeiten?);老板娘对员工用 du,du 的命令式给建议(Schlaf viel und trink viel Tee!)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.krankmeldung", "kind": "word", "pos": "noun", "text": "die Krankmeldung", "zh": "病假条;请病假", "features": { "gender": "f", "plural": "die Krankmeldungen", "ipa": "ˈkʁaŋkˌmɛldʊŋ" }, "noteZh": "在德国,病假超过三天(从第四天起)要交医生开的病假证明,有的老板第一天就要;生病了要在上班前先打电话请假。krank + die Meldung(通知)。" },
+        { "id": "de.bescheid_sagen", "kind": "phrase", "pos": "phrase", "text": "Bescheid sagen", "zh": "告诉一声;通知(某人)", "features": { "ipa": "bəˈʃaɪ̯t ˈzaːɡn̩" }, "noteZh": "jemandem Bescheid sagen = 告诉某人一声:Kannst du den Kollegen Bescheid sagen?(你能跟同事说一声吗?)口语非常常用;ei 读 [aɪ̯],词尾 d 读 [t]。" }
+      ],
+      "reviewItems": ["de.krank", "de.fieber", "de.gute_besserung", "de.chefin", "de.eisdiele", "de.kollege"]
+    },
+    {
+      "id": "de.a1u18.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118085,
+      "titleZh": "倒霉的一周(王伟的日记)",
+      "goalZh": "读懂一篇讲意外经历的日记,按顺序说出每天发生了什么,也会用完成时写类似的日记",
+      "canDoZh": "能读懂一篇讲意外经历的日记,按顺序说出发生了什么",
+      "scenarioZh": "体裁:日记。周日晚上,王伟躺在床上写这一周:周一在地铁上丢了钱包,马上打电话冻结了银行卡;周二失物招领处来信,钱包有人交上来了;周六踢球时保罗摔倒,他自己打了 112,幸好脚踝只是扭伤;晚上又把自己锁在门外,在霍夫曼先生家喝茶、看火车照片;今天自己也感冒了。结尾:这一周真倒霉,可是朋友们都很好,而且他学会了很多有用的德语词。用完成时写。说话人:wei(日记)。",
+      "grammarFocusZh": "复习:完成时(haben / sein)、按时间顺序讲(am Montag, am Dienstag, am Samstag, am Abend, heute)、时间放句首动词第二位、第四格物主冠词",
+      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.dieser", "kind": "word", "pos": "det", "text": "dieser", "zh": "这个;这", "alt": ["diese", "dieses", "diesen", "diesem"], "features": { "ipa": "ˈdiːzɐ" }, "noteZh": "词尾跟定冠词一样变:dieser Tag, diese Woche, dieses Jahr;diese Woche = 这个星期(不加介词)。ie 读长音 [iː]。" }
+      ],
+      "reviewItems": ["de.verlieren", "de.fundbuero", "de.notruf", "de.gebrochen", "de.tagebuch", "de.pech"]
+    }
+  ]
+}

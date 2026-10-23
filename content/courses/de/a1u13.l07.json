@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u13.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113070,
+  "titleZh": "第一周的反馈", "goalZh": "听懂别人对自己工作的评价(哪里好、哪里要练),会问自己该怎么改进,说清楚七月哪段时间能多上班", "canDoZh": "能听懂别人对自己工作的评价,说说自己哪里做得好、哪里要改进",
+  "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.zufrieden", "kind": "word", "pos": "adj", "text": "zufrieden", "zh": "满意", "features": { "ipa": "tsuˈfʁiːdn̩" }, "noteZh": "对谁满意用 mit:Ich bin mit dir zufrieden.(我对你很满意。)重音在 frie 上,ie 是长音。" },
+    { "id": "de.kunde", "kind": "word", "pos": "noun", "text": "der Kunde", "zh": "顾客;客户", "features": { "gender": "m", "plural": "die Kunden", "ipa": "ˈkʊndə" }, "noteZh": "复数 die Kunden 也泛指所有顾客;der Kunde 除了第一格都加 -n:Ich frage den Kunden.;女顾客是 die Kundin。" },
+    { "id": "de.kundin", "kind": "word", "pos": "noun", "text": "die Kundin", "zh": "女顾客", "features": { "gender": "f", "plural": "die Kundinnen", "ipa": "ˈkʊndɪn" }, "noteZh": "der Kunde 的阴性,复数 die Kundinnen。" },
+    { "id": "de.freundlich", "kind": "word", "pos": "adj", "text": "freundlich", "zh": "友好;和气", "features": { "ipa": "ˈfʁɔʏ̯ntlɪç" }, "noteZh": "der Freund + -lich;eu 读 [ɔʏ],d 在 l 前读 [t],词尾 -lich 读 [lɪç];服务行业最常听到的夸奖:Sie sind sehr freundlich.;反义词 unfreundlich。" },
+    { "id": "de.trinkgeld", "kind": "word", "pos": "noun", "text": "das Trinkgeld", "zh": "小费", "features": { "gender": "n", "plural": "die Trinkgelder", "ipa": "ˈtʁɪŋkˌɡɛlt" }, "noteZh": "trinken + das Geld,性跟 Geld 走;在德国的餐馆、咖啡馆,顾客常把钱凑个整数当小费。" },
+    { "id": "de.wechselgeld", "kind": "word", "pos": "noun", "text": "das Wechselgeld", "zh": "找的零钱", "features": { "gender": "n", "plural": "-", "ipa": "ˈvɛksl̩ˌɡɛlt" }, "noteZh": "wechseln(换)+ das Geld;收钱时说:Hier ist Ihr Wechselgeld.(这是找您的钱。)chs 读 [ks]。" },
+    { "id": "de.rechnen", "kind": "word", "pos": "verb", "text": "rechnen", "zh": "计算;算", "features": { "ipa": "ˈʁɛçnən" }, "noteZh": "ich rechne, du rechnest, er rechnet(词干以 n 结尾,du / er 前要加 e);ch 在 e 后面读 [ç]。" },
+    { "id": "de.mitte", "kind": "word", "pos": "noun", "text": "die Mitte", "zh": "中间;(月)中旬", "features": { "gender": "f", "plural": "-", "ipa": "ˈmɪtə" }, "noteZh": "Mitte Juli(七月中旬)、Ende Juli(七月底)前面都不加介词;in der Mitte(在中间)。" }
+  ],
+  "reviewItems": ["de.nervoes", "de.schnell", "de.wirklich", "de.warten", "de.ueben", "de.sollen"],
+  "lines": [
+    { "speaker": "chefin", "text": "Wei, das war deine erste Woche. Ich bin sehr zufrieden mit dir!", "zh": "伟,这是你的第一个星期。我对你很满意!", "items": ["de.sein", "de.dein", "de.eins", "de.woche", "de.ich", "de.sehr", "de.zufrieden", "de.mit", "de.du"] },
+    { "speaker": "wei", "text": "Wirklich? Danke! Ich war oft nervös.", "zh": "真的吗?谢谢!我常常很紧张。", "items": ["de.wirklich", "de.danke", "de.ich", "de.sein", "de.oft", "de.nervoes"] },
+    { "speaker": "chefin", "text": "Die Kunden finden dich sehr freundlich, und du arbeitest schnell.", "zh": "顾客们觉得你很友好,你干活也快。", "items": ["de.kunde", "de.finden", "de.du", "de.sehr", "de.freundlich", "de.und", "de.arbeiten", "de.schnell"] },
+    { "speaker": "chefin", "text": "Du bekommst auch viel Trinkgeld. Das machst du gut!", "zh": "你得的小费也很多。你干得不错!", "items": ["de.du", "de.bekommen", "de.auch", "de.viel", "de.trinkgeld", "de.machen", "de.gut"] },
+    { "speaker": "wei", "text": "Danke! Und was muss ich noch üben?", "zh": "谢谢!那我还要练什么?", "items": ["de.danke", "de.und", "de.was", "de.muessen", "de.ich", "de.noch", "de.ueben"] },
+    { "speaker": "chefin", "text": "Beim Wechselgeld bist du noch zu langsam.", "zh": "找零钱的时候你还太慢。", "items": ["de.bei", "de.wechselgeld", "de.sein", "de.du", "de.noch", "de.zu_adv", "de.langsam"] },
+    { "speaker": "chefin", "text": "Gestern hat eine Kundin lange gewartet. Du musst noch rechnen üben.", "zh": "昨天有位女顾客等了好久。你还得练练算钱。", "items": ["de.gestern", "de.haben", "de.ein", "de.kundin", "de.lang", "de.warten", "de.du", "de.muessen", "de.noch", "de.rechnen", "de.ueben"] },
+    { "speaker": "wei", "text": "Soll ich zu Hause üben?", "zh": "要我在家里练吗?", "items": ["de.sollen", "de.ich", "de.zu_hause", "de.ueben"] },
+    { "speaker": "chefin", "text": "Ja, gern. Und noch eine Frage: Kannst du im Juli mehr arbeiten?", "zh": "好啊。还有个问题:七月你能多上几天班吗?", "items": ["de.ja", "de.gern", "de.und", "de.noch", "de.ein", "de.frage", "de.koennen", "de.du", "de.in", "de.juli", "de.mehr", "de.arbeiten"] },
+    { "speaker": "wei", "text": "Ab Mitte Juli, ja. Dann sind Semesterferien.", "zh": "七月中旬以后可以,那时候放暑假了。", "items": ["de.ab", "de.mitte", "de.juli", "de.ja", "de.dann", "de.sein", "de.semester", "de.ferien"] },
+    { "speaker": "wei", "text": "Aber Ende Juli mache ich eine Reise mit Freunden.", "zh": "不过七月底我要和朋友去旅行。", "items": ["de.aber", "de.ende", "de.juli", "de.machen", "de.ich", "de.ein", "de.reise", "de.mit", "de.freund"] },
+    { "speaker": "chefin", "text": "Kein Problem. Das hilft mir schon sehr!", "zh": "没问题。这已经帮我大忙了!", "items": ["de.kein", "de.problem", "de.helfen", "de.ich", "de.schon", "de.sehr"] }
+  ],
+  "questions": [
+    { "prompt": "老板觉得王伟哪里做得好?", "options": ["找零钱很快", "会说意大利语", "对顾客很友好,干活也快"], "answer": 2, "explainZh": "老板说:Die Kunden finden dich sehr freundlich, und du arbeitest schnell.(顾客觉得你很友好,你干活也快。)找零钱反而是他还要练的。" },
+    { "prompt": "王伟还要多练什么?", "options": ["说德语", "算钱、找零钱", "做冰淇淋"], "answer": 1, "explainZh": "老板说:Beim Wechselgeld bist du noch zu langsam. … Du musst noch rechnen üben.(找零钱还太慢,得练练算钱。)" },
+    { "prompt": "七月王伟什么时候可以多上班?", "options": ["七月中旬以后", "七月初", "七月底"], "answer": 0, "explainZh": "王伟说:Ab Mitte Juli, ja. Dann sind Semesterferien.(七月中旬以后可以,那时放暑假。)七月底他要去旅行。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_feedback", "titleZh": "评价工作:夸奖和建议",
+      "bodyZh": "夸奖:Ich bin sehr zufrieden mit dir.(我对你很满意。zufrieden mit + 人)/ Das machst du gut!(你干得好!)/ Die Kunden finden dich freundlich.(finden + 人 + 形容词)。指出问题:Beim Wechselgeld bist du noch zu langsam.(beim = bei dem,“在……方面”)/ Du musst noch rechnen üben.。自己问怎么改进:Was muss ich noch üben? / Soll ich zu Hause üben?(Soll ich …? 复习)。听到批评可以先说 Danke!,再问怎么做。",
+      "examples": [
+        { "text": "Ich bin sehr zufrieden mit dir!", "zh": "我对你很满意!" },
+        { "text": "Was muss ich noch üben?", "zh": "我还要练什么?" }
+      ] },
+    { "id": "de.g.u13_mitte_ende", "titleZh": "说时间段:ab、Mitte、Ende + 月份",
+      "bodyZh": "说一个月的哪一段:Mitte Juli(七月中旬)、Ende Juli(七月底),前面都不加介词;“从……起”用 ab:ab Mitte Juli(从七月中旬起)、ab Montag;整个月份用 im:im Juli, im August。德国大学的夏季学期一般在七月结束,接下来是 Semesterferien(假期)。",
+      "examples": [
+        { "text": "Ab Mitte Juli kann ich mehr arbeiten.", "zh": "从七月中旬起我能多上班。" },
+        { "text": "Ende Juli mache ich eine Reise.", "zh": "七月底我要去旅行。" }
+      ] }
+  ],
+  "review": "draft"
+}

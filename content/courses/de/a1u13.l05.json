@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u13.l05", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113050,
+  "titleZh": "工作合同和工资", "goalZh": "会说工作合同和工资的基本词:挣多少、每周几个小时、要交什么材料、全职和兼职、休假", "canDoZh": "能说出工作和工资的基本词,问清楚每小时多少钱、什么时候发工资、要带什么材料",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.arbeitsvertrag", "kind": "word", "pos": "noun", "text": "der Arbeitsvertrag", "zh": "劳动合同", "features": { "gender": "m", "plural": "die Arbeitsverträge", "ipa": "ˈaʁbaɪ̯tsfɛɐ̯ˌtʁaːk" }, "noteZh": "die Arbeit + s + der Vertrag(合同),中间的 s 起连接作用,性跟 Vertrag 走;den Arbeitsvertrag unterschreiben(签劳动合同)。" },
+    { "id": "de.verdienen", "kind": "word", "pos": "verb", "text": "verdienen", "zh": "挣(钱)", "features": { "ipa": "fɛɐ̯ˈdiːnən" }, "noteZh": "ver- 不可分、不重读,v 读 [f];Wie viel verdienst du?(你挣多少?)在德国一般不直接问别人的工资,朋友之间聊打工可以。" },
+    { "id": "de.iban", "kind": "word", "pos": "noun", "text": "die IBAN", "zh": "国际银行账号", "features": { "gender": "f", "plural": "die IBANs", "ipa": "ˈiːban" }, "noteZh": "缩写,整个读作 [ˈiːban];德国的银行账号就是 IBAN,以 DE 开头;发工资、交房租都要用。" },
+    { "id": "de.kopie", "kind": "word", "pos": "noun", "text": "die Kopie", "zh": "复印件", "features": { "gender": "f", "plural": "die Kopien", "ipa": "koˈpiː" }, "noteZh": "重音在后:ko-PIE,ie 是长音;复数 die Kopien 读 [koˈpiːən];eine Kopie von deinem Pass(你护照的复印件)。" },
+    { "id": "de.urlaub", "kind": "word", "pos": "noun", "text": "der Urlaub", "zh": "(上班的人的)休假", "features": { "gender": "m", "plural": "die Urlaube", "ipa": "ˈuːɐ̯laʊ̯p" }, "noteZh": "上班的人休假叫 Urlaub(Urlaub haben / machen),学生和学校放假叫 die Ferien;词尾 b 读 [p]。" },
+    { "id": "de.feierabend", "kind": "word", "pos": "noun", "text": "der Feierabend", "zh": "下班;下班后的时间", "features": { "gender": "m", "plural": "die Feierabende", "ipa": "ˈfaɪ̯ɐˌʔaːbn̩t" }, "noteZh": "feiern + der Abend;下班时常说 Feierabend!(下班啦!)或 Schönen Feierabend!(下班愉快!);词尾 d 读 [t]。" },
+    { "id": "de.teilzeit", "kind": "word", "pos": "noun", "text": "die Teilzeit", "zh": "非全日制;兼职", "features": { "gender": "f", "plural": "-", "ipa": "ˈtaɪ̯lˌtsaɪ̯t" }, "noteZh": "der Teil + die Zeit;Teilzeit arbeiten(做兼职),不加冠词;反义词 Vollzeit。" },
+    { "id": "de.vollzeit", "kind": "word", "pos": "noun", "text": "die Vollzeit", "zh": "全职", "features": { "gender": "f", "plural": "-", "ipa": "ˈfɔlˌtsaɪ̯t" }, "noteZh": "voll(满)+ die Zeit,v 读 [f];Vollzeit arbeiten(上全职班),不加冠词。" }
+  ],
+  "reviewItems": ["de.genau", "de.das_geht", "de.mehr", "de.pro", "de.endlich", "de.bekommen"],
+  "lines": [
+    { "speaker": "chefin", "text": "Wei, hier ist dein Arbeitsvertrag. Lies ihn bitte genau.", "zh": "伟,这是你的劳动合同。请仔细看一看。", "items": ["de.hier", "de.sein", "de.dein", "de.arbeitsvertrag", "de.lesen", "de.ihn", "de.bitte", "de.genau"] },
+    { "speaker": "wei", "text": "Ich verdiene fünfzehn Euro pro Stunde, oder?", "zh": "我每小时挣十五欧元,对吧?", "items": ["de.ich", "de.verdienen", "de.fuenf", "de.zehn", "de.euro", "de.pro", "de.stunde", "de.oder"] },
+    { "speaker": "chefin", "text": "Ja, genau. Und du arbeitest 18 Stunden pro Woche.", "zh": "对。你每周工作 18 个小时。", "items": ["de.ja", "de.genau", "de.und", "de.du", "de.arbeiten", "de.acht", "de.zehn", "de.stunde", "de.pro", "de.woche"] },
+    { "speaker": "wei", "text": "Gut. Was brauchst du noch von mir?", "zh": "好。你还需要我交什么?", "items": ["de.gut", "de.was", "de.brauchen", "de.du", "de.noch", "de.von", "de.ich"] },
+    { "speaker": "chefin", "text": "Deine IBAN und eine Kopie von deinem Pass.", "zh": "你的银行账号(IBAN)和护照复印件。", "items": ["de.dein", "de.iban", "de.und", "de.ein", "de.kopie", "de.von", "de.pass"] },
+    { "speaker": "wei", "text": "Und im August bin ich in China. Geht das?", "zh": "还有,八月我在中国。这样行吗?", "items": ["de.und", "de.in", "de.august", "de.sein", "de.ich", "de.china", "de.das_geht"] },
+    { "speaker": "chefin", "text": "Ja, das geht. Dann hast du Urlaub.", "zh": "行,那时候你就休假。", "items": ["de.ja", "de.das_geht", "de.dann", "de.haben", "de.du", "de.urlaub"] },
+    { "speaker": "jonas", "text": "Endlich Feierabend! Und, hast du jetzt einen Arbeitsvertrag?", "zh": "(晚上)终于下班了!怎么样,你签合同了吗?", "items": ["de.endlich", "de.feierabend", "de.und", "de.haben", "de.du", "de.jetzt", "de.ein", "de.arbeitsvertrag"] },
+    { "speaker": "wei", "text": "Ja! Ich arbeite Teilzeit, 18 Stunden pro Woche.", "zh": "签了!我做兼职,每周 18 个小时。", "items": ["de.ja", "de.ich", "de.arbeiten", "de.teilzeit", "de.acht", "de.zehn", "de.stunde", "de.pro", "de.woche"] },
+    { "speaker": "jonas", "text": "Ich arbeite Vollzeit. Ich verdiene mehr, aber du bekommst jeden Tag ein Eis!", "zh": "我是全职。我挣得多,可你每天都有冰淇淋吃!", "items": ["de.ich", "de.arbeiten", "de.vollzeit", "de.verdienen", "de.mehr", "de.aber", "de.du", "de.bekommen", "de.jeder", "de.tag", "de.ein", "de.eis"] }
+  ],
+  "questions": [
+    { "prompt": "王伟每周工作几个小时?", "options": ["15 个小时", "18 个小时", "40 个小时"], "answer": 1, "explainZh": "老板说:Und du arbeitest 18 Stunden pro Woche.(你每周工作 18 个小时。)15 是每小时的工资(15 欧元)。" },
+    { "prompt": "老板还要王伟交什么?", "options": ["照片和地址", "德语考试成绩", "护照复印件和银行账号(IBAN)"], "answer": 2, "explainZh": "老板说:Deine IBAN und eine Kopie von deinem Pass.(你的 IBAN 和护照复印件。)" },
+    { "prompt": "约纳斯和王伟有什么不一样?", "options": ["约纳斯做全职,王伟做兼职", "约纳斯做兼职,王伟做全职", "两个人都做全职"], "answer": 0, "explainZh": "王伟说:Ich arbeite Teilzeit.(我做兼职。)约纳斯说:Ich arbeite Vollzeit.(我是全职。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_vertrag", "titleZh": "工作和工资的词:复合词和缩写",
+      "bodyZh": "这一课的词大多是复合词,拆开就好记,性跟最后一个词走:der Arbeitsvertrag = die Arbeit + s + der Vertrag(中间的 s 只起连接作用);die Teilzeit / die Vollzeit = der Teil / voll + die Zeit;der Feierabend = feiern + der Abend。Teilzeit、Vollzeit 说“做兼职 / 全职”时不加冠词:Ich arbeite Teilzeit.。缩写 die IBAN(银行账号)整个读作 [ˈiːban]。\n问工资:Wie viel verdiene ich (pro Stunde)?;在德国一般不直接问别人挣多少,朋友之间聊打工时可以。",
+      "examples": [
+        { "text": "Ich arbeite Teilzeit, 18 Stunden pro Woche.", "zh": "我做兼职,每周 18 小时。" },
+        { "text": "Ich verdiene fünfzehn Euro pro Stunde.", "zh": "我每小时挣十五欧元。" },
+        { "text": "Endlich Feierabend!", "zh": "终于下班了!" }
+      ] },
+    { "id": "de.g.u13_urlaub", "titleZh": "Urlaub 还是 Ferien?",
+      "bodyZh": "两个都是“假期”:上班的人休假叫 der Urlaub(Urlaub haben / machen),学校和大学放假叫 die Ferien(只有复数)。王伟八月不上班,对冰淇淋店来说他是休假:Im August hast du Urlaub.;对大学来说那是假期:Im August habe ich Ferien.。“行不行”用上个单元学的 Geht das? – Ja, das geht.",
+      "examples": [
+        { "text": "Im August hast du Urlaub.", "zh": "八月你休假。" },
+        { "text": "Im August habe ich Ferien.", "zh": "八月我放假。" },
+        { "text": "Geht das? – Ja, das geht.", "zh": "行吗?——行。" }
+      ] }
+  ],
+  "review": "draft"
+}

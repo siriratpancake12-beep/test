@@ -106,20 +106,20 @@
       "titleZh": "模拟口语:请求和回答",
       "goalZh": "会用 Können Sie bitte …? / Kannst du bitte …? 提请求,会答应和有礼貌地拒绝(说明理由)",
       "canDoZh": "能根据图片卡片提出请求,并回答别人的请求(考试口语第三部分)",
-      "scenarioZh": "德语课上分组练口语第三部分:卡片上画着窗户、咖啡、笔……王伟抽到窗户:Können Sie bitte das Fenster aufmachen?;索菲娅回答 Ja, gern. 或 Nein, das geht leider nicht, denn …;瓦格纳老师当考官,纠正他们的发音和语序。说话人:wagner、wei、sofia。(课文:卡片是窗户、糖、圆珠笔、门;笔用第 1 单元学过的 der Kuli。)",
+      "scenarioZh": "德语课上分组练口语第三部分:卡片上画着窗户、咖啡、笔……王伟抽到窗户:Können Sie bitte das Fenster aufmachen?;索菲娅回答 Ja, gern. 或 Nein, das geht leider nicht, denn …;瓦格纳老师当考官,纠正他们的发音和语序。说话人:wagner、wei、sofia。(课文:卡片是窗户、糖、圆珠笔(第 1 单元学过的 der Kuli)、纸和门;aufmachen、geben 是第 10–11 单元学过的词,本课复习。)",
       "grammarFocusZh": "请求的几种说法:Können Sie bitte …? / Kannst du bitte …? / …, bitte!;回答 Ja, gern / Natürlich / Leider nicht, denn …",
       "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
       "newItems": [
         { "id": "de.bitte_nomen", "kind": "word", "pos": "noun", "text": "die Bitte", "zh": "请求", "features": { "gender": "f", "plural": "die Bitten", "ipa": "ˈbɪtə" }, "noteZh": "和 bitte(请)写法一样,但名词首字母大写、带冠词:Ich habe eine Bitte.(我有个请求。)口语考试第三部分就是“提出请求、回应请求”。" },
-        { "id": "de.aufmachen", "kind": "word", "pos": "verb", "text": "aufmachen", "zh": "打开", "features": { "ipa": "ˈaʊ̯fˌmaxn̩" }, "noteZh": "可分动词,重音在 auf 上:Ich mache das Fenster auf.;和情态动词连用时连在一起放句末:Können Sie bitte das Fenster aufmachen?;反义词 zumachen。" },
+        { "id": "de.oeffnen", "kind": "word", "pos": "verb", "text": "öffnen", "zh": "打开(比 aufmachen 正式)", "features": { "ipa": "ˈœfnən" }, "noteZh": "ich öffne, du öffnest, er öffnet(词干以 n 结尾,du / er 前要加 e);意思和 aufmachen 一样,书面语和正式场合多用 öffnen;geöffnet(营业中)就是它的过去分词。ö 是短音 [œ]。" },
         { "id": "de.zumachen", "kind": "word", "pos": "verb", "text": "zumachen", "zh": "关上", "features": { "ipa": "ˈtsuːˌmaxn̩" }, "noteZh": "可分动词,重音在 zu 上:Ich mache die Tür zu.;和 aufmachen 成对记;zu 读 [tsuː]。" },
-        { "id": "de.geben", "kind": "word", "pos": "verb", "text": "geben", "zh": "给", "features": { "ipa": "ˈɡeːbn̩" }, "noteZh": "不规则:ich gebe, du gibst, er gibt(e 变 i);Kannst du mir bitte den Zucker geben?(mir = 给我,先当固定说法记)。es gibt(有)也是从 geben 来的。" },
         { "id": "de.zucker", "kind": "word", "pos": "noun", "text": "der Zucker", "zh": "糖", "features": { "gender": "m", "plural": "-", "ipa": "ˈtsʊkɐ" }, "noteZh": "z 读 [ts],ck 读 [k],词尾 -er 读 [ɐ];不可数,不用复数:Kaffee mit Milch und Zucker。" },
         { "id": "de.das_geht", "kind": "phrase", "pos": "phrase", "text": "Das geht", "zh": "行;可以(安排得开)", "features": { "ipa": "das ˈɡeːt" }, "noteZh": "问安排、回应请求时说行不行:Geht das?(行吗?)– Ja, das geht.(行。)/ Nein, das geht leider nicht.(恐怕不行。)这里的 gehen 不是“走”,而是“行得通”。" },
         { "id": "de.gerade", "kind": "word", "pos": "adv", "text": "gerade", "zh": "正在;刚好", "features": { "ipa": "ɡəˈʁaːdə" }, "noteZh": "Ich schreibe gerade.(我正在写。)德语没有专门的“进行时”,用现在时 + gerade 表示“正在”;重音在 ra 上。" },
-        { "id": "de.luft", "kind": "word", "pos": "noun", "text": "die Luft", "zh": "空气", "features": { "gender": "f", "plural": "-", "ipa": "lʊft" }, "noteZh": "不可数,不用复数;Die Luft ist hier nicht gut.(这里空气不好 / 屋里很闷。)德国人很习惯开窗通风,教室、办公室里常听到这句。" }
+        { "id": "de.luft", "kind": "word", "pos": "noun", "text": "die Luft", "zh": "空气", "features": { "gender": "f", "plural": "-", "ipa": "lʊft" }, "noteZh": "不可数,不用复数;Die Luft ist hier nicht gut.(这里空气不好 / 屋里很闷。)德国人很习惯开窗通风,教室、办公室里常听到这句。" },
+        { "id": "de.papier", "kind": "word", "pos": "noun", "text": "das Papier", "zh": "纸", "features": { "gender": "n", "plural": "die Papiere", "ipa": "paˈpiːɐ̯" }, "noteZh": "重音在后:pa-PIER;当“纸”讲一般不用复数:ein bisschen Papier;复数 die Papiere 指“证件、文件”。" }
       ],
-      "reviewItems": ["de.fenster", "de.tuer", "de.natuerlich", "de.denn", "de.karte", "de.kuli"]
+      "reviewItems": ["de.aufmachen", "de.geben", "de.fenster", "de.tuer", "de.natuerlich", "de.kuli"]
     },
     {
       "id": "de.a1u12.l06", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-12 考试周", "order": 112060,

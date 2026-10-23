@@ -1,0 +1,50 @@
+{
+  "id": "de.a1u13.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113010,
+  "titleZh": "招聘信息上的词", "goalZh": "看懂兼职招聘信息上的常用词(临时工、每小时多少钱、时间灵活、德语要求),说出一份工作的时间和工资", "canDoZh": "能看懂常见的兼职招聘信息,说出工作内容、时间和工资",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "de.job", "kind": "word", "pos": "noun", "text": "der Job", "zh": "工作;(临时的)活儿", "features": { "gender": "m", "plural": "die Jobs", "ipa": "dʒɔp" }, "noteZh": "英语借词,读 [dʒɔp](词尾 b 读 [p]);口语里常指兼职、短工:ein Job für den Sommer;正式的“职位”是 die Stelle。" },
+    { "id": "de.anzeige", "kind": "word", "pos": "noun", "text": "die Anzeige", "zh": "广告;(招聘)启事", "features": { "gender": "f", "plural": "die Anzeigen", "ipa": "ˈanˌtsaɪ̯ɡə" }, "noteZh": "招聘、租房、二手买卖的广告都叫 Anzeige;重音在 an 上,z 读 [ts],ei 读 [aɪ]。" },
+    { "id": "de.aushilfe", "kind": "word", "pos": "noun", "text": "die Aushilfe", "zh": "临时工;帮工", "features": { "gender": "f", "plural": "die Aushilfen", "ipa": "ˈaʊ̯sˌhɪlfə" }, "noteZh": "aus + die Hilfe(帮助);忙的时候来帮忙、每周只干几个小时的人;招聘启事常写 Aushilfe gesucht(招临时工)。" },
+    { "id": "de.minijob", "kind": "word", "pos": "noun", "text": "der Minijob", "zh": "迷你工作(工时少、收入不高的兼职)", "features": { "gender": "m", "plural": "die Minijobs", "ipa": "ˈmɪniˌdʒɔp" }, "noteZh": "德国常见的一种小兼职,学生常做;每月能挣多少有规定,具体以官方信息为准。性跟 der Job 走。" },
+    { "id": "de.eisdiele", "kind": "word", "pos": "noun", "text": "die Eisdiele", "zh": "冰淇淋店", "features": { "gender": "f", "plural": "die Eisdielen", "ipa": "ˈaɪ̯sˌdiːlə" }, "noteZh": "das Eis + die Diele → die Eisdiele,性跟后一个词走;德国很多冰淇淋店是意大利人开的,也叫 das Eiscafé。ie 读长音 [iː]。" },
+    { "id": "de.flexibel", "kind": "word", "pos": "adj", "text": "flexibel", "zh": "灵活的(时间可以商量)", "features": { "ipa": "flɛˈksiːbl̩" }, "noteZh": "招聘启事里常见:Arbeitszeit flexibel(工作时间灵活);重音在 xi 上,x 读 [ks]。" },
+    { "id": "de.deutschkenntnisse", "kind": "word", "pos": "noun", "text": "die Deutschkenntnisse", "zh": "德语水平;德语知识", "features": { "gender": "pl", "ipa": "ˈdɔʏ̯tʃˌkɛntnɪsə" }, "noteZh": "只用复数(die 是复数冠词):Deutsch + die Kenntnisse(知识);招聘启事:gute Deutschkenntnisse(德语好);eu 读 [ɔʏ],tsch 读 [tʃ]。" },
+    { "id": "de.lohn", "kind": "word", "pos": "noun", "text": "der Lohn", "zh": "工资(按小时、按天算的)", "features": { "gender": "m", "plural": "die Löhne", "ipa": "loːn" }, "noteZh": "h 不发音,o 是长音;复数变元音 die Löhne;按小时算的叫 der Stundenlohn(Stunde + n + Lohn)。" },
+    { "id": "de.chefin", "kind": "word", "pos": "noun", "text": "die Chefin", "zh": "女老板;女上司", "features": { "gender": "f", "plural": "die Chefinnen", "ipa": "ˈʃɛfɪn" }, "noteZh": "ch 在这里读 [ʃ](从法语来的词);男的是 der Chef;阴性加 -in,复数 -innen。" }
+  ],
+  "reviewItems": ["de.pro", "de.suchen", "de.ein_paar", "de.supermarkt", "de.frueh", "de.eis"],
+  "lines": [
+    { "speaker": "wei", "text": "Sofia, ich suche einen Job für den Sommer.", "zh": "索菲娅,我想找个暑期工。", "items": ["de.ich", "de.suchen", "de.ein", "de.job", "de.fuer", "de.sommer"] },
+    { "speaker": "sofia", "text": "Hier sind ein paar Anzeigen: „Café sucht Aushilfe, am Wochenende.“", "zh": "这儿有几条招聘广告:“咖啡馆招临时工,周末上班。”", "items": ["de.hier", "de.sein", "de.ein_paar", "de.anzeige", "de.cafe", "de.suchen", "de.aushilfe", "de.am", "de.wochenende"] },
+    { "speaker": "wei", "text": "Was ist eine Aushilfe?", "zh": "Aushilfe 是什么?", "items": ["de.was", "de.sein", "de.ein", "de.aushilfe"] },
+    { "speaker": "sofia", "text": "Eine Aushilfe arbeitet nur ein paar Stunden. Das ist oft ein Minijob.", "zh": "临时工只干几个小时,常常是一份 Minijob(小兼职)。", "items": ["de.ein", "de.aushilfe", "de.arbeiten", "de.nur", "de.ein_paar", "de.stunde", "de.das_ist", "de.oft", "de.minijob"] },
+    { "speaker": "wei", "text": "Hier: „Supermarkt, von 6 bis 9 Uhr, 16 Euro pro Stunde.“", "zh": "这条:“超市,6 点到 9 点,每小时 16 欧元。”", "items": ["de.hier", "de.supermarkt", "de.von", "de.sechs", "de.bis", "de.neun", "de.uhr", "de.sechzehn", "de.euro", "de.pro", "de.stunde"] },
+    { "speaker": "wei", "text": "Um sechs Uhr? Das ist zu früh für mich!", "zh": "早上六点?对我来说太早了!", "items": ["de.um", "de.sechs", "de.uhr", "de.das_ist", "de.zu_adv", "de.frueh", "de.fuer", "de.ich"] },
+    { "speaker": "sofia", "text": "Und hier ist unsere Eisdiele: „Aushilfe gesucht, flexibel, gute Deutschkenntnisse.“", "zh": "这条是我们冰淇淋店的:“招临时工,时间灵活,德语要好。”", "items": ["de.und", "de.hier", "de.sein", "de.unser", "de.eisdiele", "de.aushilfe", "de.suchen", "de.flexibel", "de.gut", "de.deutschkenntnisse"] },
+    { "speaker": "wei", "text": "Mein Deutsch ist jetzt schon gut! Und der Lohn?", "zh": "我现在德语已经不错了!工资呢?", "items": ["de.mein", "de.deutsch", "de.sein", "de.jetzt", "de.schon", "de.gut", "de.und", "de.lohn"] },
+    { "speaker": "sofia", "text": "Fünfzehn Euro pro Stunde, und jeden Tag ein Eis!", "zh": "每小时十五欧元,每天还有一个冰淇淋!", "items": ["de.fuenf", "de.zehn", "de.euro", "de.pro", "de.stunde", "de.und", "de.jeder", "de.tag", "de.ein", "de.eis"] },
+    { "speaker": "wei", "text": "Toll! Dann rufe ich die Chefin an.", "zh": "太好了!那我给老板打电话。", "items": ["de.toll", "de.dann", "de.anrufen", "de.ich", "de.chefin"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么不想去超市打工?", "options": ["工资太低", "开始得太早", "只在周末上班"], "answer": 1, "explainZh": "王伟说:Um sechs Uhr? Das ist zu früh für mich!(早上六点?太早了!)超市每小时 16 欧元,工资并不低。" },
+    { "prompt": "冰淇淋店招临时工,有什么要求?", "options": ["德语要好", "要会做饭", "每天都要上班"], "answer": 0, "explainZh": "广告上写:gute Deutschkenntnisse(德语要好);时间是 flexibel(灵活)的。" },
+    { "prompt": "冰淇淋店每小时给多少钱?", "options": ["16 欧元", "13 欧元", "15 欧元"], "answer": 2, "explainZh": "索菲娅说:Fünfzehn Euro pro Stunde.(每小时十五欧元。)16 欧元是超市的。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_pro", "titleZh": "pro:每小时、每周(复习)",
+      "bodyZh": "说“每……多少”用 pro + 不带冠词的名词:15 Euro pro Stunde(每小时 15 欧元)、drei Tage pro Woche(每周三天)、ein Eis pro Tag(每天一个冰淇淋)。招聘启事、价格、工作时间里都很常用。说“每天”也常用 jeden Tag:Ich arbeite jeden Tag.",
+      "examples": [
+        { "text": "Der Lohn ist 15 Euro pro Stunde.", "zh": "工资是每小时 15 欧元。" },
+        { "text": "Ich arbeite drei Tage pro Woche.", "zh": "我每周工作三天。" }
+      ] },
+    { "id": "de.g.u13_komposita", "titleZh": "看懂招聘启事里的复合词",
+      "bodyZh": "招聘启事里复合词很多,拆开就好懂:die Eisdiele = das Eis + die Diele;die Aushilfe = aus + die Hilfe;die Deutschkenntnisse = Deutsch + die Kenntnisse(只用复数);der Stundenlohn = die Stunde + n + der Lohn(时薪)。复合词的性跟最后一个词走,重音一般在第一部分:EISdiele、AUShilfe。启事常省掉动词:Aushilfe gesucht!(招临时工!)= Wir suchen eine Aushilfe.",
+      "examples": [
+        { "text": "Aushilfe gesucht!", "zh": "招临时工!" },
+        { "text": "Wir suchen eine Aushilfe.", "zh": "我们找一个临时工。" }
+      ] }
+  ],
+  "review": "draft"
+}

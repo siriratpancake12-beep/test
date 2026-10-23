@@ -1,0 +1,41 @@
+{
+  "id": "en.a1u1.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-1 Nice to meet you", "order": 101045,
+  "titleZh": "迎新周海报", "goalZh": "读懂迎新海报上志愿者的自我介绍,记住听不懂时开口求助的几句话", "canDoZh": "能读懂迎新海报上的自我介绍和活动信息,知道遇到问题找谁、怎么开口",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 16.5,
+  "newItems": [
+    { "id": "en.hello", "kind": "word", "pos": "interj", "text": "Hello", "zh": "你好;(接电话)喂", "features": { "ipa": "həˈloʊ" }, "noteZh": "比 Hi 稍正式,对谁都能说;重音在后 he-LLO。接电话说 Hello? 要用升调,意思是“喂?”。" },
+    { "id": "en.volunteer", "kind": "word", "pos": "noun", "text": "volunteer", "zh": "志愿者", "features": { "ipa": "ˌvɑːlənˈtɪr" }, "noteZh": "重音在最后 vol-un-TEER;美国大学的迎新周有很多学生志愿者,有问题可以直接找他们。" },
+    { "id": "en.office", "kind": "word", "pos": "noun", "text": "office", "zh": "办公室", "features": { "ipa": "ˈɑːfɪs" }, "noteZh": "美式 o 读 /ɑː/,嘴张大;the International Student Office 国际学生办公室,留学生办手续、有问题都去这里。" },
+    { "id": "en.ask", "kind": "word", "pos": "verb", "text": "ask", "zh": "问;请求", "features": { "ipa": "æsk" }, "noteZh": "美式 a 读 /æ/,词尾 sk 两个辅音都要读出来;问某人直接说 ask + 人:Ask me!,不说 ask to me。" }
+  ],
+  "reviewItems": ["en.international_student", "en.understand", "en.say_that_again", "en.slower_please", "en.what_does_that_mean"],
+  "lines": [
+    { "speaker": "narrator", "text": "Hello, international students!", "zh": "(宿舍楼大厅的海报,最上面是大标题)你好,国际学生们!", "items": ["en.hello", "en.international_student"] },
+    { "speaker": "amy", "text": "Hi, you guys! My name is Amy.", "zh": "(左边是艾米的照片和自我介绍)嗨,大家好!我叫艾米。", "items": ["en.hi", "en.you_guys", "en.my_name_is"] },
+    { "speaker": "amy", "text": "I'm from Seattle, and I'm a student here.", "zh": "我是西雅图人,在这里上学。", "items": ["en.im_from", "en.student"] },
+    { "speaker": "amy", "text": "I'm a volunteer at the International Student Office.", "zh": "我是国际学生办公室的志愿者。", "items": ["en.volunteer", "en.international_student", "en.office"] },
+    { "speaker": "narrator", "text": "Don't understand? That's OK!", "zh": "(下半部分)听不懂?没关系!", "items": ["en.understand"] },
+    { "speaker": "narrator", "text": "Sorry? Could you say that again?", "zh": "不好意思?你能再说一遍吗?", "items": ["en.sorry", "en.say_that_again"] },
+    { "speaker": "narrator", "text": "A little slower, please.", "zh": "请说慢一点。", "items": ["en.slower_please"] },
+    { "speaker": "narrator", "text": "What does that mean?", "zh": "那是什么意思?", "items": ["en.what_does_that_mean"] },
+    { "speaker": "narrator", "text": "How do you say this in English?", "zh": "这个用英语怎么说?", "items": ["en.how_do_you_say"] },
+    { "speaker": "amy", "text": "Ask me! I'm here for you guys.", "zh": "来问我吧!我就是来帮你们的。", "items": ["en.ask", "en.you_guys"] },
+    { "speaker": "amy", "text": "Nice to meet you, and see you later!", "zh": "很高兴认识你们,回头见!", "items": ["en.nice_to_meet_you", "en.see_you_later"] }
+  ],
+  "questions": [
+    { "prompt": "海报上的艾米是谁?", "options": ["来自中国的国际学生", "国际学生办公室的志愿者", "国际学生办公室的老师"], "answer": 1, "explainZh": "艾米说 I'm from Seattle, and I'm a student here.(我是西雅图人,在这里上学)和 I'm a volunteer at the International Student Office.(我是国际学生办公室的志愿者)。" },
+    { "prompt": "想请对方说慢一点,要用海报上的哪一句?", "options": ["What does that mean?", "How do you say this in English?", "Could you say that again?", "A little slower, please."], "answer": 3, "explainZh": "A little slower, please. 是“请说慢一点”;Could you say that again? 是请对方再说一遍,What does that mean? 是问意思。" },
+    { "prompt": "听不懂别人说的话时,海报让你怎么做?", "options": ["别担心,用海报上的话开口问", "先回宿舍查词典", "不说话,等对方再说一遍"], "answer": 0, "explainZh": "海报写 Don't understand? That's OK!(听不懂?没关系!),下面列出了几句求助的话,艾米还说 Ask me!(来问我吧!)。" }
+  ],
+  "grammar": [
+    { "id": "en.g.read_poster", "titleZh": "读海报:先看大标题,再找名字和地点",
+      "bodyZh": "海报、通知上的字不多,先看最大的标题:Hello, international students! 说明这张海报是写给国际学生的。再找名字(Amy)、地点(the International Student Office)这些关键信息,就知道有问题该找谁、去哪儿。自我介绍的几个句型这里都有:My name is…(我叫……)、I'm from…(我来自……)、I'm a…(我是……)。注意 I'm a student、I'm a volunteer 里的 a 不能漏;the International Student Office 指学校里那一个具体的办公室,所以用 the。Don't understand? 是海报上的省略说法,完整的句子是 You don't understand?。",
+      "examples": [
+        { "text": "My name is Amy. I'm from Seattle.", "zh": "我叫艾米,是西雅图人。" },
+        { "text": "I'm a volunteer at the International Student Office.", "zh": "我是国际学生办公室的志愿者。" },
+        { "text": "Don't understand? Ask me!", "zh": "听不懂?来问我!" }
+      ] }
+  ],
+  "review": "draft"
+}

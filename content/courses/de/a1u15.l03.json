@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u15.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-15 节日与生日", "order": 115030,
+  "titleZh": "我去接你!——第四格人称代词", "goalZh": "掌握第四格人称代词全表和 wen,会说谁接谁、谁捎谁、给谁打电话", "canDoZh": "能用第四格人称代词说“我去接你、我给你们打电话、我们请他”这样的句子",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "de.plan", "kind": "word", "pos": "noun", "text": "der Plan", "zh": "计划;安排", "features": { "gender": "m", "plural": "die Pläne", "ipa": "plaːn" }, "noteZh": "Wie ist der Plan?(怎么安排?)复数变音:die Pläne;a 是长音。" },
+    { "id": "de.mich", "kind": "word", "pos": "pron", "text": "mich", "zh": "我(第四格,做宾语)", "features": { "ipa": "mɪç" }, "noteZh": "ich 做宾语时是 mich:Holst du mich ab?(你来接我吗?)für mich(给我的);和以后学的 mir(第三格)不一样。" },
+    { "id": "de.niemand", "kind": "word", "pos": "pron", "text": "niemand", "zh": "没有人;谁也不", "features": { "ipa": "ˈniːmant" }, "noteZh": "Mich holt niemand ab!(没人来接我!)动词用单数;词尾 d 读 [t]。" },
+    { "id": "de.mitnehmen", "kind": "word", "pos": "verb", "text": "mitnehmen", "zh": "带上;捎上(某人)", "features": { "ipa": "ˈmɪtˌneːmən" }, "noteZh": "可分、不规则:du nimmst mit, er nimmt mit;Ich nehme euch mit nach Hause.(我开车捎你们回家。)Ich nehme das Geschenk mit.(礼物我带上。)" },
+    { "id": "de.einpacken", "kind": "word", "pos": "verb", "text": "einpacken", "zh": "包起来;装好", "features": { "ipa": "ˈaɪ̯nˌpakn̩" }, "noteZh": "可分动词:Wir packen das Geschenk ein.(我们把礼物包好。)反义是 auspacken(打开包装,下一课)。" },
+    { "id": "de.geschenkpapier", "kind": "word", "pos": "noun", "text": "das Geschenkpapier", "zh": "包装纸", "features": { "gender": "n", "plural": "-", "ipa": "ɡəˈʃɛŋkpaˌpiːɐ̯" }, "noteZh": "das Geschenk(礼物)+ das Papier(纸);复合词的性看最后一部分:das Papier → das Geschenkpapier;一般不用复数。" },
+    { "id": "de.wen", "kind": "word", "pos": "pron", "text": "wen", "zh": "谁(做宾语)", "features": { "ipa": "veːn" }, "noteZh": "问宾语用 wen:Wen lädt Paul ein?(保罗邀请谁?)问主语用 wer:Wer kommt?(谁来?)w 读 [v]。" },
+    { "id": "de.lieben", "kind": "word", "pos": "verb", "text": "lieben", "zh": "爱;特别喜欢", "features": { "ipa": "ˈliːbn̩" }, "noteZh": "Paul liebt Fußball.(保罗超爱足球。)比 gern 的语气强得多;Ich liebe dich. = 我爱你;ie 读长音 [iː]。" }
+  ],
+  "reviewItems": ["de.abholen", "de.haltestelle", "de.auto", "de.nach_hause", "de.trikot"],
+  "lines": [
+    { "speaker": "sofia", "text": "Morgen ist Pauls Party. Wie ist der Plan?", "zh": "明天就是保罗的派对了。怎么安排?", "items": ["de.morgen", "de.sein", "de.party", "de.wie", "de.plan"] },
+    { "speaker": "wei", "text": "Wir arbeiten bis sechs. Lena holt uns an der Haltestelle ab.", "zh": "我们打工到六点。莉娜到车站接我们。", "items": ["de.wir", "de.arbeiten", "de.bis", "de.sechs", "de.abholen", "de.uns", "de.an", "de.haltestelle"] },
+    { "speaker": "jonas", "text": "Und mich? Mich holt niemand ab!", "zh": "那我呢?都没人来接我!", "items": ["de.und", "de.mich", "de.abholen", "de.niemand"] },
+    { "speaker": "sofia", "text": "Dich? Du hast ein Auto, Jonas!", "zh": "接你?你自己有车啊,约纳斯!", "items": ["de.dich", "de.du", "de.haben", "de.ein", "de.auto"] },
+    { "speaker": "jonas", "text": "Ach so! Dann nehme ich euch am Abend mit nach Hause.", "zh": "哦,对哦!那我晚上开车捎你们回家。", "items": ["de.ach_so", "de.dann", "de.mitnehmen", "de.ich", "de.euch", "de.am", "de.abend", "de.nach_hause"] },
+    { "speaker": "wei", "text": "Danke! Und das Trikot? Ich habe es hier.", "zh": "谢谢!那球衣呢?在我这儿。", "items": ["de.danke", "de.und", "de.trikot", "de.ich", "de.haben", "de.es", "de.hier"] },
+    { "speaker": "sofia", "text": "Wir packen es heute ein. Haben wir Geschenkpapier?", "zh": "我们今天就把它包好。家里有包装纸吗?", "items": ["de.wir", "de.einpacken", "de.es", "de.heute", "de.haben", "de.geschenkpapier"] },
+    { "speaker": "jonas", "text": "Ja, im Schrank. Und wen lädt Paul noch ein?", "zh": "有,在柜子里。保罗还请了谁?", "items": ["de.ja", "de.in", "de.schrank", "de.und", "de.wen", "de.einladen", "de.noch"] },
+    { "speaker": "wei", "text": "Seine Freunde, seine Familie und uns!", "zh": "他的朋友、他的家人,还有我们!", "items": ["de.sein_poss", "de.freund", "de.familie", "de.und", "de.uns"] },
+    { "speaker": "sofia", "text": "Paul liebt Fußball. Das Trikot findet er super!", "zh": "保罗超爱足球。这件球衣他肯定觉得超棒!", "items": ["de.lieben", "de.fussball", "de.trikot", "de.finden", "de.er", "de.toll"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜到哪儿接王伟和索菲娅?", "options": ["冰淇淋店门口", "车站", "WG 门口"], "answer": 1, "explainZh": "王伟说:Lena holt uns an der Haltestelle ab.(莉娜到车站接我们。)" },
+    { "prompt": "晚上谁送大家回家?", "options": ["莉娜", "保罗的爸爸", "约纳斯"], "answer": 2, "explainZh": "约纳斯有车:Dann nehme ich euch am Abend mit nach Hause.(那我晚上开车捎你们回家。)" },
+    { "prompt": "礼物现在在哪儿?", "options": ["在王伟这儿", "在莉娜家", "还在商店里"], "answer": 0, "explainZh": "王伟说:Das Trikot? Ich habe es hier.(球衣?在我这儿。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u15_akk_pronomen", "titleZh": "第四格人称代词全表和 wen",
+      "bodyZh": "人称代词做宾语(“接我”“捎你们”“喜欢它”)时用第四格:\nich → mich,du → dich,er → ihn,sie → sie,es → es\nwir → uns,ihr → euch,sie(他们)→ sie,Sie(您)→ Sie\n只有 ich、du、er、wir、ihr 变,sie、es、Sie 和第一格一样。ihn 第 7 单元学过,dich、euch、uns 是本单元第 1 课学的。\n哪些动词后面要第四格:abholen(接)、mitnehmen(捎上)、einladen(邀请)、anrufen(给……打电话)、besuchen、finden、kennen、lieben……;介词 für 后面也是第四格:für mich。\n问宾语用 wen(谁):Wen lädt Paul ein?(保罗邀请谁?)问主语才用 wer:Wer kommt?(谁来?)\n和英语对比:me / him / us 英语也变,可是 you 不变,德语的 du → dich、ihr → euch 都要变。中国学生最常见的错:✗ Lena holt wir ab → ✓ Lena holt uns ab。",
+      "examples": [
+        { "text": "Lena holt uns an der Haltestelle ab.", "zh": "莉娜到车站接我们。" },
+        { "text": "Mich holt niemand ab!", "zh": "没人来接我!" },
+        { "text": "Ich nehme euch mit.", "zh": "我捎上你们。" },
+        { "text": "Wen lädt Paul noch ein?", "zh": "保罗还请了谁?" }
+      ] },
+    { "id": "de.g.u15_pronomen_position", "titleZh": "代词宾语放在哪儿",
+      "bodyZh": "代词宾语一般紧跟在变位动词后面;可分动词的前缀照样放在句末:Ich hole dich um sechs ab.(✗ Ich abhole dich)/ Ich nehme euch mit nach Hause. / Wir packen es heute ein.\n要强调宾语时,可以把它放到句首,动词还是在第二位,主语挪到动词后面:Mich holt niemand ab!(没人接“我”!)/ Das Trikot findet er super!(这件球衣他觉得超棒!)\n给用 Sie 的人打电话:Ich rufe Sie morgen an.(我明天给您打电话。)Sie 大写,第一格、第四格一样。",
+      "examples": [
+        { "text": "Ich hole dich um sechs ab.", "zh": "我六点去接你。" },
+        { "text": "Wir packen es heute ein.", "zh": "我们今天把它包好。" },
+        { "text": "Ich rufe Sie morgen an.", "zh": "我明天给您打电话。" }
+      ] }
+  ],
+  "review": "draft"
+}

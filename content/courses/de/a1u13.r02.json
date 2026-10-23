@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u13.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113085,
+  "titleZh": "王伟的打工日记", "goalZh": "读懂一篇打工日记:第一天出了什么错、现在会做什么、对这份工作的感受;注意完成时和现在时的对比", "canDoZh": "能读懂一篇讲工作经历的日记,说出工作内容、感受和收获",
+  "skills": ["read"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "de.tagebuch", "kind": "word", "pos": "noun", "text": "das Tagebuch", "zh": "日记;日记本", "features": { "gender": "n", "plural": "die Tagebücher", "ipa": "ˈtaːɡəˌbuːx" }, "noteZh": "der Tag + e + das Buch → das Tagebuch,性跟 Buch 走;Tagebuch schreiben(写日记)。" },
+    { "id": "de.himbeere", "kind": "word", "pos": "noun", "text": "die Himbeere", "zh": "覆盆子;树莓", "features": { "gender": "f", "plural": "die Himbeeren", "ipa": "ˈhɪmˌbeːʁə" }, "noteZh": "和 die Erdbeere(草莓)都是 Beere(浆果),很容易弄混;重音在 Him 上。" },
+    { "id": "de.verwechseln", "kind": "word", "pos": "verb", "text": "verwechseln", "zh": "弄混;搞错", "features": { "ipa": "fɛɐ̯ˈvɛksl̩n" }, "noteZh": "ver- 不可分,完成时不加 ge-:Ich habe Erdbeere und Himbeere verwechselt.(我把草莓和覆盆子弄混了。)chs 读 [ks]。" },
+    { "id": "de.witz", "kind": "word", "pos": "noun", "text": "der Witz", "zh": "笑话;玩笑", "features": { "gender": "m", "plural": "die Witze", "ipa": "vɪts" }, "noteZh": "Witze machen(开玩笑)、einen Witz erzählen(讲笑话);w 读 [v],tz 读 [ts]。" }
+  ],
+  "reviewItems": ["de.erdbeere", "de.kundin", "de.lachen", "de.was_darf_es_sein", "de.manchmal", "de.zitrone"],
+  "lines": [
+    { "speaker": "wei", "text": "Mein Tagebuch: Sonntag, am Abend", "zh": "我的日记:星期天晚上", "items": ["de.mein", "de.tagebuch", "de.sonntag", "de.am", "de.abend"] },
+    { "speaker": "wei", "text": "Jetzt arbeite ich schon zwei Wochen in der Eisdiele.", "zh": "我在冰淇淋店已经干了两个星期了。", "items": ["de.jetzt", "de.arbeiten", "de.ich", "de.schon", "de.zwei", "de.woche", "de.in", "de.eisdiele"] },
+    { "speaker": "wei", "text": "Am ersten Tag war ich sehr nervös.", "zh": "第一天我非常紧张。", "items": ["de.am", "de.eins", "de.tag", "de.sein", "de.ich", "de.sehr", "de.nervoes"] },
+    { "speaker": "wei", "text": "Ich habe Erdbeere und Himbeere verwechselt!", "zh": "我把草莓和覆盆子弄混了!", "items": ["de.ich", "de.haben", "de.erdbeere", "de.und", "de.himbeere", "de.verwechseln"] },
+    { "speaker": "wei", "text": "Die Kundin hat gelacht, und ich habe auch gelacht.", "zh": "那位女顾客笑了,我也笑了。", "items": ["de.kundin", "de.haben", "de.lachen", "de.und", "de.ich", "de.auch"] },
+    { "speaker": "wei", "text": "Jetzt sage ich jeden Tag: „Hallo! Was darf es sein?“", "zh": "现在我每天都说:“您好!要点什么?”", "items": ["de.jetzt", "de.sagen", "de.ich", "de.jeder", "de.tag", "de.hallo", "de.was_darf_es_sein"] },
+    { "speaker": "wei", "text": "Ich sage auch oft: „Zitrone ist heute sehr lecker!“", "zh": "我还常说:“今天的柠檬味特别好吃!”", "items": ["de.ich", "de.sagen", "de.auch", "de.oft", "de.zitrone", "de.sein", "de.heute", "de.sehr", "de.lecker"] },
+    { "speaker": "wei", "text": "Manchmal mache ich Witze, und die Kunden lachen.", "zh": "有时候我开开玩笑,顾客们都笑了。", "items": ["de.manchmal", "de.machen", "de.ich", "de.witz", "de.und", "de.kunde", "de.lachen"] },
+    { "speaker": "wei", "text": "Die Kinder von den Nachbarn kommen jeden Tag.", "zh": "邻居家的孩子们每天都来。", "items": ["de.kind", "de.von", "de.nachbar", "de.ich_komme_aus", "de.jeder", "de.tag"] },
+    { "speaker": "wei", "text": "Sie nehmen immer Schokolade!", "zh": "他们总是要巧克力味的!", "items": ["de.sie_pl", "de.nehmen", "de.immer", "de.schokolade"] },
+    { "speaker": "wei", "text": "Die Arbeit macht Spaß, denn ich spreche jeden Tag viel Deutsch.", "zh": "打工很有意思,因为我每天都说很多德语。", "items": ["de.arbeit", "de.machen", "de.spass", "de.denn", "de.ich", "de.sprechen", "de.jeder", "de.tag", "de.viel", "de.deutsch"] },
+    { "speaker": "wei", "text": "Ich glaube, bei der Arbeit lernt man schnell Deutsch.", "zh": "我觉得,打工时德语学得很快。", "items": ["de.ich", "de.glauben", "de.bei", "de.arbeit", "de.lernen", "de.man", "de.schnell", "de.deutsch"] },
+    { "speaker": "wei", "text": "Am Mittwoch arbeite ich wieder.", "zh": "星期三我又要上班了。", "items": ["de.am", "de.mittwoch", "de.arbeiten", "de.ich", "de.wieder"] }
+  ],
+  "questions": [
+    { "prompt": "第一天王伟把什么弄混了?", "options": ["巧克力和香草", "蛋筒和杯子", "草莓和覆盆子"], "answer": 2, "explainZh": "Ich habe Erdbeere und Himbeere verwechselt!(我把草莓和覆盆子弄混了!)" },
+    { "prompt": "邻居家的孩子们总是买什么口味?", "options": ["柠檬", "巧克力", "草莓"], "answer": 1, "explainZh": "Die Kinder von den Nachbarn kommen jeden Tag. Sie nehmen immer Schokolade!(他们总是要巧克力味的!)" },
+    { "prompt": "王伟为什么觉得打工很有意思?", "options": ["每天都能说很多德语", "工资很高", "老板总是夸他"], "answer": 0, "explainZh": "Die Arbeit macht Spaß, denn ich spreche jeden Tag viel Deutsch.(因为我每天都说很多德语。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_tagebuch", "titleZh": "写日记:过去的事用完成时,现在的事用现在时",
+      "bodyZh": "讲已经发生的事用完成时:Am ersten Tag war ich nervös.(sein → war)/ Ich habe Erdbeere und Himbeere verwechselt. / Die Kundin hat gelacht.;讲现在的情况、每天的习惯用现在时:Jetzt sage ich jeden Tag … / Manchmal mache ich Witze.。用时间词把顺序串起来:am ersten Tag(第一天)→ jetzt(现在)→ am Mittwoch(星期三)。\n本课的过去分词:gelacht(lachen)、verwechselt(verwechseln)。ver- 开头的动词分词不加 ge-,verwechselt 先当固定说法记,这类分词 A2 再系统讲。",
+      "examples": [
+        { "text": "Am ersten Tag war ich sehr nervös.", "zh": "第一天我非常紧张。" },
+        { "text": "Ich habe Erdbeere und Himbeere verwechselt.", "zh": "我把草莓和覆盆子弄混了。" },
+        { "text": "Jetzt mache ich manchmal Witze.", "zh": "现在我有时候还开开玩笑。" }
+      ] }
+  ],
+  "review": "draft"
+}

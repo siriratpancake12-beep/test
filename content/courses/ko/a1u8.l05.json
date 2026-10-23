@@ -1,0 +1,44 @@
+{
+  "id": "ko.a1u8.l05", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 我的一天与周末", "order": 108050,
+  "titleZh": "周末一起去看演唱会吧?", "goalZh": "会用 -(으)ㄹ까요? 提议、商量时间地点,会接受和婉拒邀请",
+  "canDoZh": "能约朋友周末一起玩:提议做什么、商量几点在哪儿见,有事时礼貌地拒绝",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "ko.eonje", "kind": "word", "pos": "pron", "text": "언제", "zh": "什么时候", "features": { "roman": "eonje" }, "noteZh": "언제 만날까요?= 什么时候见?;언제 시간 있어요?= 什么时候有空?;언제 后面不加 에。" },
+    { "id": "ko.yaksok", "kind": "word", "pos": "noun", "text": "약속", "zh": "约定;和人约好的事", "features": { "roman": "yaksok" }, "noteZh": "汉字词 约束;일요일에 약속이 있어요 = 星期天有约了(和谁约好的事都叫 약속,不一定是恋爱约会)。" },
+    { "id": "ko.noraebang", "kind": "word", "pos": "noun", "text": "노래방", "zh": "KTV;练歌房", "features": { "roman": "noraebang" }, "noteZh": "노래(歌)+ 방(房间);韩国年轻人聚会常去,按时间收费。" },
+    { "id": "ko.konseoteu", "kind": "word", "pos": "noun", "text": "콘서트", "zh": "演唱会;音乐会", "features": { "roman": "konseoteu" }, "noteZh": "外来词 concert;K-pop 콘서트 的票常常几分钟就抢光。" },
+    { "id": "ko.pyo", "kind": "word", "pos": "noun", "text": "표", "zh": "票", "features": { "roman": "pyo" }, "noteZh": "汉字词 票;콘서트 표、기차 표;数票用 장(张):표 두 장。" },
+    { "id": "ko.daeume", "kind": "word", "pos": "adv", "text": "다음에", "zh": "下次;以后", "features": { "roman": "daeume" }, "noteZh": "婉拒邀请:미안해요, 다음에 같이 가요——这样拒绝不伤人;“下周”是 다음 주。" },
+    { "id": "ko.syoping", "kind": "word", "pos": "noun", "text": "쇼핑", "zh": "购物;逛街", "features": { "roman": "syoping" }, "noteZh": "外来词 shopping;쇼핑해요 = 逛街买东西;쇼핑도 해요 = 也逛逛街。" },
+    { "id": "ko.sanchaek", "kind": "word", "pos": "noun", "text": "산책", "zh": "散步", "features": { "roman": "sanchaek" }, "noteZh": "汉字词 散策;한강에서 산책해요(在汉江边散步);산책할까요?= 去散散步吧?" }
+  ],
+  "reviewItems": ["ko.gachi", "ko.sigan", "ko.mianhaeyo", "ko.chulgu"],
+  "lines": [
+    { "speaker": "sua", "text": "징 씨, 콘서트 표가 있어요! 일요일에 같이 갈까요?", "zh": "(星期四早上,宿舍里,秀雅举着手机)陈静,我抢到演唱会的票了!星期天一起去吧?", "roman": "jing ssi, konseoteu pyoga isseoyo! iryoire gachi galkkayo?", "items": ["ko.ssi", "ko.konseoteu", "ko.pyo", "ko.isseoyo", "ko.iryoil", "ko.gachi", "ko.gayo"] },
+    { "speaker": "jing", "text": "진짜요? 좋아요! 콘서트는 몇 시예요?", "zh": "真的?好啊!演唱会几点开始?", "roman": "jinjjayo? joayo! konseoteuneun myeot siyeyo?", "items": ["ko.jinjja", "ko.joayo", "ko.konseoteu", "ko.myeot", "ko.si"] },
+    { "speaker": "sua", "text": "일곱 시예요. 그럼 몇 시에 만날까요?", "zh": "七点。(星期天下午秀雅在外面有事)那我们几点见?", "roman": "ilgop siyeyo. geureom myeot sie mannalkkayo?", "items": ["ko.ilgop", "ko.si", "ko.geureom", "ko.myeot", "ko.mannayo"] },
+    { "speaker": "jing", "text": "다섯 시에 홍대입구역 구 번 출구에서 만날까요?", "zh": "五点在弘大入口站 9 号出口见,好吗?", "roman": "daseot sie hongdaeipguyeok gu beon chulgueseo mannalkkayo?", "items": ["ko.daseot", "ko.si", "ko.yeok", "ko.gu", "ko.beon", "ko.chulgu", "ko.mannayo"] },
+    { "speaker": "sua", "text": "좋아요! 같이 쇼핑도 해요.", "zh": "好!演唱会前我们还能一起逛逛街。", "roman": "joayo! gachi syopingdo haeyo.", "items": ["ko.joayo", "ko.gachi", "ko.syoping", "ko.haeyo"] },
+    { "speaker": "minjun", "text": "징 씨, 일요일에 시간 있어요? 같이 노래방에 갈까요?", "zh": "(下午,陈静在图书馆门口碰到敏俊)陈静,星期天有空吗?一起去唱 K 吧?", "roman": "jing ssi, iryoire sigan isseoyo? gachi noraebange galkkayo?", "items": ["ko.ssi", "ko.iryoil", "ko.sigan", "ko.isseoyo", "ko.gachi", "ko.noraebang", "ko.gayo"] },
+    { "speaker": "jing", "text": "미안해요, 오빠. 일요일에 약속이 있어요. 다음에 같이 가요.", "zh": "对不起啊,哥。星期天我有约了。下次一起去吧。", "roman": "mianhaeyo, oppa. iryoire yaksogi isseoyo. daeume gachi gayo.", "items": ["ko.mianhaeyo", "ko.oppa", "ko.iryoil", "ko.yaksok", "ko.isseoyo", "ko.daeume", "ko.gachi", "ko.gayo"] },
+    { "speaker": "minjun", "text": "그럼 토요일은 어때요?", "zh": "那星期六呢?", "roman": "geureom toyoireun eottaeyo?", "items": ["ko.geureom", "ko.toyoil", "ko.eottaeyo"] },
+    { "speaker": "jing", "text": "토요일은 좋아요! 언제 만날까요?", "zh": "星期六可以!什么时候见?", "roman": "toyoireun joayo! eonje mannalkkayo?", "items": ["ko.toyoil", "ko.joayo", "ko.eonje", "ko.mannayo"] },
+    { "speaker": "minjun", "text": "오후 두 시 어때요? 남 씨도 같이 가요!", "zh": "下午两点怎么样?叫上阿南一起!", "roman": "ohu du si eottaeyo? nam ssido gachi gayo!", "items": ["ko.ohu", "ko.dul", "ko.si", "ko.eottaeyo", "ko.ssi", "ko.gachi", "ko.gayo"] },
+    { "speaker": "jing", "text": "좋아요! 그리고 한강에서 산책할까요?", "zh": "好!唱完再去汉江边散散步吧?", "roman": "joayo! geurigo hangangeseo sanchaekalkkayo?", "items": ["ko.joayo", "ko.geurigo", "ko.sanchaek", "ko.haeyo"] },
+    { "speaker": "minjun", "text": "좋아요! 그럼 토요일에 만나요!", "zh": "好啊!那星期六见!", "roman": "joayo! geureom toyoire mannayo!", "items": ["ko.joayo", "ko.geureom", "ko.toyoil", "ko.mannayo"] }
+  ],
+  "questions": [
+    { "prompt": "秀雅约陈静做什么?", "options": ["星期天一起去看演唱会", "星期六一起去唱 KTV", "星期天一起去汉江散步", "星期六一起逛街"], "answer": 0, "explainZh": "第 1 句:콘서트 표가 있어요! 일요일에 같이 갈까요?(我有演唱会的票!星期天一起去吧?)" },
+    { "prompt": "陈静和秀雅约在哪儿见?", "options": ["新村站 2 号出口", "明洞站 6 号出口", "弘大入口站 9 号出口"], "answer": 2, "explainZh": "第 4 句:다섯 시에 홍대입구역 구 번 출구에서 만날까요?——五点在弘大入口站 9 号出口见。" },
+    { "prompt": "敏俊约陈静星期天去 KTV,陈静怎么回答?", "options": ["马上答应了", "说星期天有约了,下次再一起去", "说她不喜欢唱歌"], "answer": 1, "explainZh": "第 7 句:미안해요, 오빠. 일요일에 약속이 있어요. 다음에 같이 가요.——先道歉,再说有约,最后约“下次”。" },
+    { "prompt": "陈静和敏俊最后约在什么时候?", "options": ["星期六下午两点", "星期天下午五点", "星期六晚上七点"], "answer": 0, "explainZh": "第 8–10 句:敏俊问 토요일은 어때요?,陈静说 토요일은 좋아요!,敏俊说 오후 두 시 어때요?。星期天下午五点是陈静和秀雅见面的时间。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.eulkkayo", "titleZh": "提议、商量:-(으)ㄹ까요?",
+      "bodyZh": "-(으)ㄹ까요? 用来提议、和对方商量(“……吧?/ ……好吗?”):词干没有收音加 -ㄹ까요(가다 → 갈까요?、만나다 → 만날까요?、보다 → 볼까요?),有收音加 -을까요(먹다 → 먹을까요?),收音是 ㄹ 的直接加 -까요(놀다 → 놀까요?);하다 → 할까요?(산책할까요?)。商量时间、地点:몇 시에 만날까요?、언제 만날까요?、어디에서 만날까요?。接受说 좋아요! / 네, 같이 가요!;婉拒按“道歉—说理由—约下次”的顺序:미안해요. 일요일에 약속이 있어요. 다음에 같이 가요.,这样拒绝不伤人。해요体本身也能表示提议:같이 가요!(一起去吧!)。本课的 -(으)ㄹ까요? 都是“我们一起……好吗?”;“我来……好吗?”也用它,以后学。",
+      "examples": [ { "text": "일요일에 같이 갈까요?", "zh": "星期天一起去吧?(가다 → 갈까요)" }, { "text": "몇 시에 만날까요?", "zh": "几点见?(만나다 → 만날까요)" }, { "text": "같이 떡볶이를 먹을까요?", "zh": "一起吃辣炒年糕吧?(有收音:먹을까요)" }, { "text": "미안해요. 다음에 같이 가요.", "zh": "对不起,下次一起去吧。(婉拒)" } ] }
+  ],
+  "review": "draft"
+}

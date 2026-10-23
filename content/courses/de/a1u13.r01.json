@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u13.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113045,
+  "titleZh": "排班表和店里的规定", "goalZh": "读懂排班表和店里的规定:自己哪天几点上班、迟到怎么办、哪些事不许做、工资什么时候发", "canDoZh": "能读懂排班表和员工须知,找出自己哪天几点上班、要注意什么",
+  "skills": ["read"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "de.dienstplan", "kind": "word", "pos": "noun", "text": "der Dienstplan", "zh": "排班表", "features": { "gender": "m", "plural": "die Dienstpläne", "ipa": "ˈdiːnstˌplaːn" }, "noteZh": "der Dienst(班)+ der Plan(计划)→ der Dienstplan,性跟 Plan 走;复数 die Dienstpläne。ie 是长音。" },
+    { "id": "de.mitarbeiter", "kind": "word", "pos": "noun", "text": "der Mitarbeiter", "zh": "员工;同事", "features": { "gender": "m", "plural": "die Mitarbeiter", "ipa": "ˈmɪtˌʔaʁbaɪ̯tɐ" }, "noteZh": "mit(一起)+ arbeiten + -er;女员工是 die Mitarbeiterin;复数和单数一样:die Mitarbeiter。" },
+    { "id": "de.vorher", "kind": "word", "pos": "adv", "text": "vorher", "zh": "事先;在那之前", "features": { "ipa": "foːɐ̯ˈheːɐ̯" }, "noteZh": "v 读 [f];Ruf bitte vorher an!(请事先打电话!)反义词 nachher(之后)。" },
+    { "id": "de.kostenlos", "kind": "word", "pos": "adj", "text": "kostenlos", "zh": "免费的", "features": { "ipa": "ˈkɔstn̩loːs" }, "noteZh": "kosten(花钱)+ -los(没有)= 不要钱的;同样意思的还有 gratis。" }
+  ],
+  "reviewItems": ["de.ueberweisen", "de.lohn", "de.duerfen", "de.man", "de.benutzen", "de.puenktlich"],
+  "lines": [
+    { "speaker": "narrator", "text": "Dienstplan Juni: Eisdiele Berger", "zh": "Berger 冰淇淋店:六月排班表", "items": ["de.dienstplan", "de.juni", "de.eisdiele"] },
+    { "speaker": "narrator", "text": "Wei: Mittwoch von 14 bis 20 Uhr", "zh": "王伟:星期三 14 点到 20 点", "items": ["de.mittwoch", "de.von", "de.vier", "de.zehn", "de.bis", "de.zwanzig", "de.uhr"] },
+    { "speaker": "narrator", "text": "Wei: Samstag und Sonntag von 12 bis 18 Uhr", "zh": "王伟:星期六和星期天 12 点到 18 点", "items": ["de.samstag", "de.und", "de.sonntag", "de.von", "de.zwoelf", "de.bis", "de.acht", "de.zehn", "de.uhr"] },
+    { "speaker": "narrator", "text": "Sofia: Samstag und Sonntag von 10 bis 16 Uhr", "zh": "索菲娅:星期六和星期天 10 点到 16 点", "items": ["de.samstag", "de.und", "de.sonntag", "de.von", "de.zehn", "de.bis", "de.sechzehn", "de.uhr"] },
+    { "speaker": "narrator", "text": "Hallo zusammen! Bitte lesen!", "zh": "大家好!请务必读一读!", "items": ["de.hallo", "de.zusammen", "de.bitte", "de.lesen"] },
+    { "speaker": "narrator", "text": "Man muss pünktlich sein.", "zh": "上班要准时。", "items": ["de.man", "de.muessen", "de.puenktlich", "de.sein"] },
+    { "speaker": "narrator", "text": "Kommst du zu spät? Dann ruf bitte vorher an.", "zh": "要迟到吗?那请事先打电话。", "items": ["de.ich_komme_aus", "de.du", "de.zu_adv", "de.spaet", "de.dann", "de.anrufen", "de.bitte", "de.vorher"] },
+    { "speaker": "narrator", "text": "Bei der Arbeit darf man das Handy nicht benutzen.", "zh": "工作的时候不许用手机。", "items": ["de.bei", "de.arbeit", "de.duerfen", "de.man", "de.handy", "de.nicht", "de.benutzen"] },
+    { "speaker": "narrator", "text": "Jeder Mitarbeiter bekommt pro Tag ein Eis kostenlos.", "zh": "每个员工每天可以免费吃一个冰淇淋。", "items": ["de.jeder", "de.mitarbeiter", "de.bekommen", "de.pro", "de.tag", "de.ein", "de.eis", "de.kostenlos"] },
+    { "speaker": "narrator", "text": "Den Lohn überweisen wir am Monatsende.", "zh": "工资每个月月底转账。", "items": ["de.lohn", "de.ueberweisen", "de.wir", "de.am", "de.monat", "de.ende"] },
+    { "speaker": "narrator", "text": "Viel Spaß bei der Arbeit! Die Chefin", "zh": "工作愉快!老板", "items": ["de.viel", "de.spass", "de.bei", "de.arbeit", "de.chefin"] }
+  ],
+  "questions": [
+    { "prompt": "王伟星期三几点上班?", "options": ["12 点到 18 点", "14 点到 20 点", "10 点到 16 点"], "answer": 1, "explainZh": "排班表上写:Wei: Mittwoch von 14 bis 20 Uhr。12 点到 18 点是他周末的班,10 点到 16 点是索菲娅的班。" },
+    { "prompt": "要迟到了,应该怎么办?", "options": ["事先打电话", "第二天多干一个小时", "给老板发邮件"], "answer": 0, "explainZh": "须知写着:Kommst du zu spät? Dann ruf bitte vorher an.(要迟到?那请事先打电话。)" },
+    { "prompt": "员工每天可以免费得到什么?", "options": ["一杯咖啡", "一份午饭", "一个冰淇淋"], "answer": 2, "explainZh": "Jeder Mitarbeiter bekommt pro Tag ein Eis kostenlos.(每个员工每天可以免费吃一个冰淇淋。)" },
+    { "prompt": "工资什么时候发?", "options": ["每个月月底", "每个星期五", "每个月月中"], "answer": 0, "explainZh": "Den Lohn überweisen wir am Monatsende.(工资每个月月底转账。)Monatsende = Monat + Ende。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_dienstplan", "titleZh": "看排班表和规定:von … bis …、man muss / man darf nicht",
+      "bodyZh": "排班表上的时间:星期几不加 am 也行(Mittwoch von 14 bis 20 Uhr),说成句子时用 am:Am Mittwoch arbeite ich von 14 bis 20 Uhr.。\n规定常用 man(泛指大家):Man muss pünktlich sein.(必须准时)/ Man darf das Handy nicht benutzen.(不许用手机)。小店的通知对员工也常直接用 du:Kommst du zu spät? Dann ruf bitte vorher an.(du 的命令式:anrufen → Ruf … an!)。月底 = am Monatsende(Monat + s + Ende)。",
+      "examples": [
+        { "text": "Am Mittwoch arbeite ich von 14 bis 20 Uhr.", "zh": "星期三我从 14 点工作到 20 点。" },
+        { "text": "Man darf das Handy nicht benutzen.", "zh": "不许用手机。" },
+        { "text": "Ruf bitte vorher an!", "zh": "请事先打电话!" }
+      ] }
+  ],
+  "review": "draft"
+}

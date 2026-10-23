@@ -12,7 +12,7 @@
     { "id": "ko.yeonghwa", "kind": "word", "pos": "noun", "text": "영화", "zh": "电影", "features": { "roman": "yeonghwa" }, "noteZh": "汉字词 映画;영화관 = 电影院;영화를 봐요 = 看电影。" },
     { "id": "ko.swieoyo", "kind": "word", "pos": "verb", "text": "쉬어요", "zh": "休息", "features": { "roman": "swieoyo" }, "noteZh": "原形 쉬다;집에서 쉬어요;过去:쉬었어요(쉬 + 었어요,不缩合)。" },
     { "id": "ko.undonghaeyo", "kind": "word", "pos": "verb", "text": "운동해요", "zh": "运动;锻炼", "features": { "roman": "undonghaeyo" }, "noteZh": "汉字词 运动 + 하다;过去:운동했어요。" },
-    { "id": "ko.cheongsohaeyo", "kind": "word", "pos": "verb", "text": "청소해요", "zh": "打扫", "features": { "roman": "cheongsohaeyo" }, "noteZh": "汉字词 清扫 + 하다;过去:청소했어요;否定:청소 안 했어요。" }
+    { "id": "ko.cheongsohaeyo", "kind": "word", "pos": "verb", "text": "청소해요", "zh": "打扫", "features": { "roman": "cheongsohaeyo" }, "noteZh": "汉字词 清扫 + 하다;过去:청소했어요;没打扫:청소 안 했어요。" }
   ],
   "reviewItems": ["ko.jumal", "ko.chingu", "ko.jip", "ko.toyoil"],
   "lines": [

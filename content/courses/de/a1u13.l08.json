@@ -1,0 +1,50 @@
+{
+  "id": "de.a1u13.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 打工", "order": 113080,
+  "titleZh": "单元复习与应用:给保罗出主意", "goalZh": "会介绍自己的工作(做什么、几点到几点、每小时多少钱),会给想找工作的朋友提建议;复习 als、sollen、von … bis …、denn", "canDoZh": "能介绍自己的工作,给想找工作的朋友提建议",
+  "skills": ["listen", "speak"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "de.erst", "kind": "word", "pos": "adv", "text": "erst", "zh": "才(强调早、少、晚)", "features": { "ipa": "eːɐ̯st" }, "noteZh": "Du bist erst 16.(你才 16 岁。)Das Ergebnis kommt erst in vier Wochen.(成绩四个星期以后才出来。)nur 是单纯的“只”,erst 带着“还不到、比想的晚”的意思。" },
+    { "id": "de.regel", "kind": "word", "pos": "noun", "text": "die Regel", "zh": "规定;规则", "features": { "gender": "f", "plural": "die Regeln", "ipa": "ˈʁeːɡl̩" }, "noteZh": "Es gibt Regeln.(有规定。)e 是长音;复数 die Regeln。" }
+  ],
+  "reviewItems": ["de.als", "de.verdienen", "de.pro", "de.sollen", "de.trinkgeld", "de.laptop"],
+  "lines": [
+    { "speaker": "paul", "text": "Wei, ich will im Sommer auch arbeiten. Ich möchte einen Laptop kaufen.", "zh": "伟,暑假我也想打工。我想买一台笔记本电脑。", "items": ["de.ich", "de.wollen", "de.in", "de.sommer", "de.auch", "de.arbeiten", "de.moechten", "de.ein", "de.laptop", "de.kaufen"] },
+    { "speaker": "wei", "text": "Gute Idee! Was möchtest du machen?", "zh": "好主意!你想做什么?", "items": ["de.gut", "de.idee", "de.was", "de.moechten", "de.du", "de.machen"] },
+    { "speaker": "paul", "text": "Ich weiß nicht. Was machst du hier genau?", "zh": "我也不知道。你在这儿具体做什么?", "items": ["de.ich", "de.wissen", "de.nicht", "de.was", "de.machen", "de.du", "de.hier", "de.genau"] },
+    { "speaker": "wei", "text": "Ich arbeite als Aushilfe. Ich verkaufe Eis und mache Kaffee.", "zh": "我当临时工。我卖冰淇淋,也做咖啡。", "items": ["de.ich", "de.arbeiten", "de.als", "de.aushilfe", "de.verkaufen", "de.eis", "de.und", "de.machen", "de.kaffee"] },
+    { "speaker": "paul", "text": "Und wann arbeitest du? Wie viel verdienst du?", "zh": "你什么时候上班?挣多少钱?", "items": ["de.und", "de.wann", "de.arbeiten", "de.du", "de.wie_viel", "de.verdienen"] },
+    { "speaker": "wei", "text": "Am Mittwoch von 14 bis 20 Uhr und am Wochenende.", "zh": "星期三 14 点到 20 点,还有周末。", "items": ["de.am", "de.mittwoch", "de.von", "de.vier", "de.zehn", "de.bis", "de.zwanzig", "de.uhr", "de.und", "de.wochenende"] },
+    { "speaker": "wei", "text": "Ich bekomme 15 Euro pro Stunde und manchmal Trinkgeld.", "zh": "每小时 15 欧元,有时候还有小费。", "items": ["de.ich", "de.bekommen", "de.fuenf", "de.zehn", "de.euro", "de.pro", "de.stunde", "de.und", "de.manchmal", "de.trinkgeld"] },
+    { "speaker": "paul", "text": "Toll! Was soll ich machen? Soll ich hier fragen?", "zh": "太好了!我该怎么做?我也来这儿问问?", "items": ["de.toll", "de.was", "de.sollen", "de.ich", "de.machen", "de.hier", "de.fragen"] },
+    { "speaker": "wei", "text": "Ruf die Chefin an. Und du musst pünktlich sein, denn das ist sehr wichtig!", "zh": "给老板打电话。还有你一定要准时,因为这一点非常重要!", "items": ["de.anrufen", "de.chefin", "de.und", "de.du", "de.muessen", "de.puenktlich", "de.sein", "de.denn", "de.das_ist", "de.sehr", "de.wichtig"] },
+    { "speaker": "sofia", "text": "Aber Paul, du bist erst 16.", "zh": "可是保罗,你才 16 岁。", "items": ["de.aber", "de.du", "de.sein", "de.erst", "de.sechzehn"] },
+    { "speaker": "sofia", "text": "Für Schüler gibt es Regeln: Du darfst nicht jeden Tag lange arbeiten.", "zh": "中学生打工有规定:你不能每天工作很长时间。", "items": ["de.fuer", "de.schueler", "de.es_gibt", "de.regel", "de.du", "de.duerfen", "de.nicht", "de.jeder", "de.tag", "de.lang", "de.arbeiten"] },
+    { "speaker": "sofia", "text": "Und die Arbeit muss leicht sein.", "zh": "而且活儿必须是轻松的。", "items": ["de.und", "de.arbeit", "de.muessen", "de.leicht", "de.sein"] },
+    { "speaker": "paul", "text": "Eis verkaufen ist leicht! Und ich bekomme jeden Tag ein Eis!", "zh": "卖冰淇淋很轻松啊!而且我每天都有冰淇淋吃!", "items": ["de.eis", "de.verkaufen", "de.sein", "de.leicht", "de.und", "de.ich", "de.bekommen", "de.jeder", "de.tag", "de.ein"] },
+    { "speaker": "wei", "text": "Langsam, Paul! Ich frage die Chefin für dich.", "zh": "别急,保罗!我帮你问问老板。", "items": ["de.langsam", "de.ich", "de.fragen", "de.chefin", "de.fuer", "de.du"] }
+  ],
+  "questions": [
+    { "prompt": "保罗为什么想打工?", "options": ["想去旅行", "想买笔记本电脑", "想学做冰淇淋"], "answer": 1, "explainZh": "保罗说:Ich möchte einen Laptop kaufen.(我想买一台笔记本电脑。)" },
+    { "prompt": "王伟在冰淇淋店做什么?", "options": ["卖冰淇淋、做咖啡", "当厨师", "打扫卫生"], "answer": 0, "explainZh": "王伟说:Ich arbeite als Aushilfe. Ich verkaufe Eis und mache Kaffee.(我当临时工,卖冰淇淋,也做咖啡。)" },
+    { "prompt": "索菲娅提醒保罗什么?", "options": ["冰淇淋店不招中学生", "打工会影响学习", "中学生打工有规定,不能每天工作很长时间"], "answer": 2, "explainZh": "索菲娅说:Für Schüler gibt es Regeln: Du darfst nicht jeden Tag lange arbeiten.(中学生打工有规定,不能每天工作很长时间。)" },
+    { "prompt": "最后王伟说要做什么?", "options": ["帮保罗问老板", "让保罗自己写信", "告诉保罗他太小,不能打工"], "answer": 0, "explainZh": "王伟说:Langsam, Paul! Ich frage die Chefin für dich.(别急,我帮你问问老板。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u13_review_job", "titleZh": "第 13 单元小结(一):介绍自己的工作",
+      "bodyZh": "做什么:Ich arbeite als Aushilfe.(als + 职业,不加冠词);Ich verkaufe Eis und mache Kaffee.。什么时候:Am Mittwoch von 14 bis 20 Uhr und am Wochenende.(am + 星期,von … bis … + 钟点)。挣多少:Ich bekomme / verdiene 15 Euro pro Stunde.。多久:Ich arbeite Teilzeit, 18 Stunden pro Woche.。",
+      "examples": [
+        { "text": "Ich arbeite als Aushilfe in einer Eisdiele.", "zh": "我在一家冰淇淋店当临时工。" },
+        { "text": "Ich arbeite am Mittwoch von 14 bis 20 Uhr.", "zh": "我星期三从 14 点工作到 20 点。" },
+        { "text": "Ich verdiene 15 Euro pro Stunde.", "zh": "我每小时挣 15 欧元。" }
+      ] },
+    { "id": "de.g.u13_review_rat", "titleZh": "第 13 单元小结(二):提建议、讲规定",
+      "bodyZh": "问别人的意见:Was soll ich machen? / Soll ich hier fragen?(sollen)。给建议:Ruf die Chefin an!(du 的命令式)/ Du musst pünktlich sein, denn das ist sehr wichtig.(müssen + denn 说理由)。讲规定:Du darfst nicht jeden Tag lange arbeiten.(dürfen nicht = 不许)/ Die Arbeit muss leicht sein.。说年纪小:Du bist erst 16.(erst = 才)。",
+      "examples": [
+        { "text": "Was soll ich machen?", "zh": "我该怎么做?" },
+        { "text": "Du musst pünktlich sein, denn das ist wichtig.", "zh": "你得准时,因为这很重要。" },
+        { "text": "Du bist erst 16.", "zh": "你才 16 岁。" }
+      ] }
+  ],
+  "review": "draft"
+}
