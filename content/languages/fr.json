@@ -19,7 +19,13 @@
     "conseiller": { "name": "Le conseiller", "nameZh": "银行顾问", "gender": "m", "bioZh": "银行的客户顾问,帮浩开户、填表;说话正式、慢,常用 Vous pouvez… ?" },
     "coiffeuse": { "name": "La coiffeuse", "nameZh": "理发师", "gender": "f", "bioZh": "宿舍附近理发店的理发师,接电话预约,会重复日期和时间来确认。" },
     "medecin": { "name": "Le médecin", "nameZh": "医生", "gender": "m", "bioZh": "宿舍附近诊所的全科医生,温和、说话清楚,用命令式交代怎么吃药、怎么休息。" },
-    "pharmacienne": { "name": "La pharmacienne", "nameZh": "药剂师", "gender": "f", "bioZh": "药店的药剂师,看处方、交代用药;看病之后买药的场景可以用她。" }
+    "pharmacienne": { "name": "La pharmacienne", "nameZh": "药剂师", "gender": "f", "bioZh": "药店的药剂师,看处方、交代用药;看病之后买药的场景可以用她。" },
+    "receptionniste": {"name": "Réceptionniste", "nameZh": "前台", "gender": "f", "bioZh": "酒店、诊所等处的前台接待员,说话礼貌、用 vous。"},
+    "service_client": {"name": "Service client", "nameZh": "客服", "gender": "m", "bioZh": "电话或网上客服,说标准的服务用语。"},
+    "tutrice": {"name": "Tutrice", "nameZh": "实习导师", "gender": "f", "bioZh": "浩实习时的导师,说话清楚、反馈具体。"},
+    "agent_immobilier": {"name": "Agent immobilier", "nameZh": "房产中介", "gender": "m", "bioZh": "租房中介,说话快,爱用行话。"},
+    "guichet": {"name": "Agent au guichet", "nameZh": "窗口工作人员", "gender": "f", "bioZh": "政府部门、邮局等窗口的工作人员,按规定办事。"},
+    "examinateur": {"name": "Examinateur", "nameZh": "考官", "gender": "m", "bioZh": "DELF 口语考试的考官,说话慢而清楚。"}
   },
   "examsZh": ["TEF / TCF(留学、加拿大和魁北克移民)", "DELF / DALF", "法语专四专八"],
   "tipsZh": [
