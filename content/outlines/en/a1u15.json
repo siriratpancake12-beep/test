@@ -141,7 +141,7 @@
       "canDoZh": "能和同学聊考试考得怎么样、得了什么成绩,并主动提出一起复习",
       "scenarioZh": "微积分第一次小测验的成绩发下来了,磊和索菲亚在走廊上聊:How was the quiz? — It was hard. I didn't finish.;磊拿了 A,索菲亚只拿了 C。索菲亚说在墨西哥这差不多是 7 分,磊说在中国差不多是 75 分;F 就是不及格。磊主动说 Do you want to study with me this week?,索菲亚马上答应,说下次要拿 B。(规划里的 study together,together 已在第 7 单元新增课里登记、还没定,这里用 with me。)",
       "grammarFocusZh": "复习过去时 How was…? / What did you get?;成绩说法 get an A / a B+ / a C;A、F 读音以元音开头,前面用 an(an A、an F,复习 a / an)。发音:an A 连读成 \"a-nay\"。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
         { "id": "en.quiz", "kind": "word", "pos": "noun", "text": "quiz", "zh": "小测验", "features": { "ipa": "kwɪz" }, "noteZh": "美国大学常有 quiz(十几二十分钟的小测验),比 test、exam 小;qu 读 /kw/,结尾 z 要带声。" },
         { "id": "en.test", "kind": "word", "pos": "noun", "text": "test", "zh": "测验;考试", "features": { "ipa": "test" }, "noteZh": "a big test 一次大考;词尾 st 轻轻收住,不加元音。" },
@@ -152,7 +152,7 @@
         { "id": "en.almost", "kind": "word", "pos": "adv", "text": "almost", "zh": "差点;几乎", "features": { "ipa": "ˈɑːlmoʊst" }, "noteZh": "I almost failed! 我差点没及格!;重音在前 AL-most,l 很轻。" },
         { "id": "en.luck", "kind": "word", "pos": "noun", "text": "luck", "zh": "运气", "features": { "ipa": "lʌk" }, "noteZh": "Good luck! 祝你好运!;u 读 /ʌ/,短促,和 lock /lɑːk/ 不一样。" }
       ],
-      "reviewItems": ["en.finish", "en.calculus", "en.easy", "en.hard", "en.study", "en.grade"]
+      "reviewItems": ["en.calculus", "en.finish", "en.hard", "en.letter", "en.together", "en.study"]
     },
     {
       "id": "en.a1u15.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115080,

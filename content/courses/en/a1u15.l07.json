@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u15.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115070,
+  "titleZh": "第一次小测验", "goalZh": "会问答考得怎么样、得了什么成绩,知道美国的字母成绩", "canDoZh": "能和同学聊考试考得怎么样、得了什么成绩,并主动提出一起复习",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.quiz", "kind": "word", "pos": "noun", "text": "quiz", "zh": "小测验", "features": { "ipa": "kwɪz" }, "noteZh": "美国大学常有 quiz(十几二十分钟的小测验),比 test、exam 小;qu 读 /kw/,结尾 z 要带声。" },
+    { "id": "en.test", "kind": "word", "pos": "noun", "text": "test", "zh": "测验;考试", "features": { "ipa": "test" }, "noteZh": "a big test 一次大考;词尾 st 轻轻收住,不加元音。" },
+    { "id": "en.get_an_a", "kind": "phrase", "pos": "verb", "text": "get an A", "zh": "得 A;考了 A", "alt": ["got an A"], "features": { "ipa": "ˌɡet̬ ən ˈeɪ" }, "noteZh": "说成绩用 get + 成绩:get a B、get a C,过去式 got;问别人考得怎样:What did you get?。字母 A、F 的读音以元音开头,前面用 an。" },
+    { "id": "en.pass", "kind": "word", "pos": "verb", "text": "pass", "zh": "(考试)通过;及格", "features": { "ipa": "pæs" }, "noteZh": "I passed! 我及格了!;过去式 passed 读 /pæst/,a 读 /æ/。" },
+    { "id": "en.fail", "kind": "word", "pos": "verb", "text": "fail", "zh": "不及格;没通过", "features": { "ipa": "feɪl" }, "noteZh": "成绩 F 就是 fail(不及格);ai 读 /eɪ/,结尾 l 舌尖抬起。" },
+    { "id": "en.score", "kind": "word", "pos": "noun", "text": "score", "zh": "分数;得分", "features": { "ipa": "skɔːr" }, "noteZh": "一次考试的具体分数叫 score(My score is 92.);一门课最后的总评常用字母,叫 grade。" },
+    { "id": "en.almost", "kind": "word", "pos": "adv", "text": "almost", "zh": "差点;几乎", "features": { "ipa": "ˈɑːlmoʊst" }, "noteZh": "I almost failed! 我差点没及格!;重音在前 AL-most,l 很轻。" },
+    { "id": "en.luck", "kind": "word", "pos": "noun", "text": "luck", "zh": "运气", "features": { "ipa": "lʌk" }, "noteZh": "Good luck! 祝你好运!;u 读 /ʌ/,短促,和 lock /lɑːk/ 不一样。" }
+  ],
+  "reviewItems": ["en.calculus", "en.finish", "en.hard", "en.letter", "en.together", "en.study"],
+  "lines": [
+    { "speaker": "lei", "text": "Sofia! How was the calculus quiz?", "zh": "(微积分小测验的成绩发下来了)索菲亚!微积分小测验考得怎么样?", "items": ["en.calculus", "en.quiz"] },
+    { "speaker": "sofia", "text": "It was hard. I didn't finish.", "zh": "好难。我没做完。", "items": ["en.hard", "en.finish"] },
+    { "speaker": "lei", "text": "Oh no. What did you get?", "zh": "哎呀。你得了多少?", "items": ["en.get_an_a"] },
+    { "speaker": "sofia", "text": "I got a C. My score is 72. I almost failed!", "zh": "C。我考了 72 分,差点没及格!", "items": ["en.get_an_a", "en.score", "en.almost", "en.fail"] },
+    { "speaker": "lei", "text": "A C is OK. You passed! An F is bad.", "zh": "C 还行啊,你及格了!F 才糟糕呢。", "items": ["en.pass"] },
+    { "speaker": "sofia", "text": "In Mexico, that's a seven. Not good!", "zh": "在墨西哥,这相当于 7 分。不怎么样!", "items": [] },
+    { "speaker": "lei", "text": "In China, there are no letter grades. It's 72.", "zh": "在中国没有字母成绩,就是 72 分。", "items": ["en.letter", "en.grade"] },
+    { "speaker": "sofia", "text": "What did you get, Lei?", "zh": "磊,你得了多少?", "items": ["en.get_an_a"] },
+    { "speaker": "lei", "text": "I got an A. But it's a quiz, not a big test.", "zh": "我得了 A。不过这只是小测验,不是大考。", "items": ["en.get_an_a", "en.quiz", "en.big", "en.test"] },
+    { "speaker": "lei", "text": "Do you want to study together this week?", "zh": "这周要不要一起复习?", "items": ["en.do_you_want_to", "en.study", "en.together", "en.week"] },
+    { "speaker": "sofia", "text": "Yes! Thank you, Lei. Next time, I'm going to get a B!", "zh": "要!谢谢你,磊。下次我要考 B!", "items": ["en.thank_you", "en.next", "en.going_to", "en.get_an_a"] },
+    { "speaker": "lei", "text": "Or an A! Good luck!", "zh": "说不定是 A 呢!祝你好运!", "items": ["en.luck"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚的小测验考得怎么样?", "options": ["得了 A", "得了 C,差点没及格", "不及格"], "answer": 1, "explainZh": "I got a C. My score is 72. I almost failed!——C,72 分,差一点就不及格。" },
+    { "prompt": "磊为什么说 You passed!?", "options": ["索菲亚得了 A", "小测验不算成绩", "C 也算及格"], "answer": 2, "explainZh": "A C is OK. You passed! An F is bad.——C 是及格的,F 才是不及格。" },
+    { "prompt": "最后磊提议做什么?", "options": ["这周一起复习", "一起去找教授", "下次考试前通宵复习"], "answer": 0, "explainZh": "Do you want to study together this week?——磊主动约索菲亚这周一起复习。" }
+  ],
+  "grammar": [
+    { "id": "en.g.grades_get", "titleZh": "成绩怎么说:get an A、a B+、a C",
+      "bodyZh": "说考了什么成绩用 get + 成绩:I got an A.(我得了 A)/ I got a C.;问别人:What did you get?(你得了多少?)。字母 A 和 F 的读音以元音开头(/eɪ/、/ef/),前面用 an:an A、an F;B、C、D 用 a:a B、a C。B+ 读 B plus,B- 读 B minus。\n美国大学的课程成绩一般分 A、B、C、D、F 五档,F 就是 fail(不及格);一次考试的具体分数叫 score(My score is 72.)。中国常用百分制,美国的 C 大致相当于 70 多分。\n发音:an A 要连读,听起来像 \"a-nay\";an F 像 \"a-nef\"。",
+      "examples": [
+        { "text": "What did you get?", "zh": "你得了多少?" },
+        { "text": "I got an A.", "zh": "我得了 A。" },
+        { "text": "I got a C. I almost failed!", "zh": "我得了 C,差点没及格!" },
+        { "text": "An F is bad.", "zh": "F 就糟了。" }
+      ] },
+    { "id": "en.g.how_was_review", "titleZh": "复习:How was…? 问过去的事",
+      "bodyZh": "问一件已经过去的事怎么样,用 How was + 名词?:How was the quiz? / How was your weekend?(第 8 单元)。回答用过去时:It was hard. I didn't finish.(否定是 didn't + 动词原形,不说 didn't finished)。主动约人一起复习:Do you want to study together this week?——第 7 单元的邀请句型,对方答应常说 Yes! Thank you!。",
+      "examples": [
+        { "text": "How was the quiz? — It was hard.", "zh": "小测验怎么样?——很难。" },
+        { "text": "Do you want to study together this week?", "zh": "这周要不要一起复习?" }
+      ] }
+  ],
+  "review": "draft"
+}
