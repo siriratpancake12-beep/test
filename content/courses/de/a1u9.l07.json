@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u9.l07", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-9 大学与课程", "order": 109070,
+  "titleZh": "-", "goalZh": "-", "canDoZh": "-",
+  "skills": ["listen"], "estimatedMinutes": 1,
+  "newItems": [],
+  "reviewItems": ["de.kennen", "de.leider", "de.sondern", "de.wie_viel"],
+  "lines": [
+    { "speaker": "wagner", "text": "Heute machen wir ein Berlin-Quiz! Kennen Sie den Alexanderplatz?", "zh": "今天我们来做柏林知识问答!大家知道亚历山大广场吗?", "items": ["de.heute", "de.machen", "de.wir", "de.ein", "de.quiz", "de.kennen", "de.sie_hoeflich"] },
+    { "speaker": "sofia", "text": "Ja, den kenne ich. Da ist der Fernsehturm!", "zh": "知道,我去过。电视塔就在那儿!", "items": ["de.ja", "de.kennen", "de.ich", "de.da", "de.sein", "de.fernsehturm"] },
+    { "speaker": "wagner", "text": "Sehr gut, ein Punkt für Sofia! Herr Wang, kennen Sie den Bezirk Pankow?", "zh": "很好,索菲娅得一分!王先生,您知道潘科区吗?", "items": ["de.sehr", "de.gut", "de.ein", "de.punkt", "de.fuer", "de.herr", "de.kennen", "de.sie_hoeflich", "de.bezirk"] },
+    { "speaker": "wei", "text": "Pankow? Nein, den kenne ich leider nicht.", "zh": "潘科?不知道,这个区我不熟。", "items": ["de.nein", "de.kennen", "de.ich", "de.leider", "de.nicht"] },
+    { "speaker": "wagner", "text": "Pankow ist im Norden. Und wie viele Bezirke hat die Hauptstadt?", "zh": "潘科在北边。那么,首都柏林有几个区?", "items": ["de.sein", "de.in", "de.norden", "de.und", "de.wie_viel", "de.bezirk", "de.haben", "de.hauptstadt"] },
+    { "speaker": "sofia", "text": "Das weiß ich leider nicht. Zehn?", "zh": "这个我可不知道。十个?", "items": ["de.wissen", "de.ich", "de.leider", "de.nicht", "de.zehn"] },
+    { "speaker": "wei", "text": "Nicht zehn, sondern zwölf. Das weiß ich!", "zh": "不是十个,而是十二个。这个我知道!", "items": ["de.nicht", "de.zehn", "de.sondern", "de.zwoelf", "de.wissen", "de.ich"] },
+    { "speaker": "wagner", "text": "Super, Herr Wang! Wie heißt der Fluss am Hauptbahnhof?", "zh": "太棒了,王先生!中央火车站旁边的河叫什么?", "items": ["de.toll", "de.herr", "de.wie", "de.ich_heisse", "de.fluss", "de.an"] },
+    { "speaker": "wei", "text": "Das weiß ich auch: die Spree!", "zh": "这个我也知道:施普雷河!", "items": ["de.wissen", "de.ich", "de.auch"] },
+    { "speaker": "sofia", "text": "Wei gewinnt! Du kennst Berlin sehr gut.", "zh": "王伟赢了!你对柏林真熟。", "items": ["de.gewinnen", "de.du", "de.kennen", "de.sehr", "de.gut"] }
+  ],
+  "questions": [
+    { "prompt": "柏林有几个区?", "options": ["十个", "十二个", "三个"], "answer": 1, "explainZh": "王伟说:Nicht zehn, sondern zwölf.(不是十个,而是十二个。)十个是索菲娅猜错的。" },
+    { "prompt": "王伟知道潘科区吗?", "options": ["不知道", "知道,他住在那儿", "知道,他常去那儿"], "answer": 0, "explainZh": "王伟说:Pankow? Nein, den kenne ich leider nicht.(潘科?这个区我不熟。)老师说潘科在柏林北边。" },
+    { "prompt": "中央火车站旁边的河叫什么?", "options": ["易北河(Elbe)", "莱茵河(Rhein)", "施普雷河(Spree)"], "answer": 2, "explainZh": "王伟说:Das weiß ich auch: die Spree!(这个我也知道:施普雷河!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.wissen", "titleZh": "wissen 的变位",
+      "bodyZh": "wissen(知道)的单数变位很特别:ich weiß、du weißt、er / sie / es weiß——ich 和 er 一样,都没有词尾(和情态动词 kann、darf 一样);复数是规则的:wir wissen、ihr wisst、sie / Sie wissen。ß 读 [s]。\nwissen 后面接“事情”:一个事实、一个答案,常用 das / es 代替:Das weiß ich.(这个我知道。)/ Ich weiß es nicht.(我不知道。)\n不知道的时候礼貌地说:Das weiß ich leider nicht.(这个我可不知道。)",
+      "examples": [
+        { "text": "Das weiß ich leider nicht.", "zh": "这个我可不知道。" },
+        { "text": "Weißt du das?", "zh": "你知道这个吗?" },
+        { "text": "Wir wissen es nicht.", "zh": "我们不知道。" }
+      ] },
+    { "id": "de.g.wissen_kennen", "titleZh": "wissen 还是 kennen?",
+      "bodyZh": "中文都说“知道”,德语要分开:\nkennen + 人、地方、东西(名词):“认识、熟悉、去过、见过”——Ich kenne Frau Wagner.(我认识瓦格纳老师)/ Kennen Sie den Alexanderplatz?(您知道亚历山大广场吗?)/ Du kennst Berlin sehr gut.(你对柏林很熟)。\nwissen + 事实、答案(常常是 das / es):Wie viele Bezirke hat Berlin? – Das weiß ich: zwölf!\n小窍门:能换成“熟悉、认识”的用 kennen;能换成“知道这件事”的用 wissen。✗ Ich weiß Berlin. → ✓ Ich kenne Berlin.;✗ Das kenne ich nicht(问的是答案时)→ ✓ Das weiß ich nicht.。“你知道……在哪儿吗?”(Weißt du, wo …?)这样的句子 A2 才学。",
+      "examples": [
+        { "text": "Ich kenne Frau Wagner.", "zh": "我认识瓦格纳老师。" },
+        { "text": "Du kennst Berlin sehr gut.", "zh": "你对柏林很熟。" },
+        { "text": "Wie viele Bezirke hat Berlin? Das weiß ich!", "zh": "柏林有几个区?这个我知道!" }
+      ] }
+  ],
+  "review": "draft"
+}

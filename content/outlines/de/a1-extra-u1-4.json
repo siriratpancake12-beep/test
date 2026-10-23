@@ -161,7 +161,7 @@
         { "id": "de.hausverwaltung", "kind": "word", "pos": "noun", "text": "die Hausverwaltung", "zh": "物业(房屋管理公司)", "features": { "gender": "f", "plural": "die Hausverwaltungen", "ipa": "ˈhaʊ̯sfɛɐ̯ˌvaltʊŋ" }, "noteZh": "租的房子里东西坏了,一般先打电话给 Hausverwaltung;-ung 结尾是阴性。" },
         { "id": "de.reparieren", "kind": "word", "pos": "verb", "text": "reparieren", "zh": "修理", "features": { "ipa": "ʁepaˈʁiːʁən" }, "noteZh": "规则动词:Der Hausmeister repariert die Heizung.;-ieren 结尾的动词重音在 ie 上。" }
       ],
-      "reviewItems": ["de.lampe", "de.bad", "de.hier", "de.kein", "de.schreiben", "de.telefonieren"]
+      "reviewItems": ["de.lampe", "de.bad", "de.hier", "de.kein", "de.wg", "de.telefonieren"]
     },
     {
       "id": "de.a1u3.l07", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-3 我的新家", "order": 103070,

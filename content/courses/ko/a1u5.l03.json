@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u5.l03", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105030,
+  "titleZh": "하나, 둘, 셋:固有数词", "goalZh": "会读、会写固有数词 1–10,知道两套数字各用在哪儿",
+  "canDoZh": "能用固有数词数东西,从 하나 数到 열",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "ko.hana", "kind": "word", "pos": "num", "text": "하나", "zh": "一(固有数词)", "features": { "roman": "hana" }, "noteZh": "数东西、数数时用:하나, 둘, 셋……;在量词前变 한:한 개、한 명、한 잔(下一课)。" },
+    { "id": "ko.dul", "kind": "word", "pos": "num", "text": "둘", "zh": "二(固有数词)", "features": { "roman": "dul" }, "noteZh": "收音 ㄹ;在量词前变 두:두 잔(两杯)。" },
+    { "id": "ko.set", "kind": "word", "pos": "num", "text": "셋", "zh": "三(固有数词)", "features": { "roman": "set" }, "noteZh": "单读 [섿],收音 ㅅ 读 t、不爆破;在量词前变 세:세 명(三个人)。" },
+    { "id": "ko.net", "kind": "word", "pos": "num", "text": "넷", "zh": "四(固有数词)", "features": { "roman": "net" }, "noteZh": "单读 [넫];在量词前变 네:네 개(四个),和应答的 네(是)同形。" },
+    { "id": "ko.daseot", "kind": "word", "pos": "num", "text": "다섯", "zh": "五(固有数词)", "features": { "roman": "daseot" }, "noteZh": "收音 ㅅ 读 [t]:[다섣];从 다섯 开始,量词前不再变形:다섯 개。" },
+    { "id": "ko.yeoseot", "kind": "word", "pos": "num", "text": "여섯", "zh": "六(固有数词)", "features": { "roman": "yeoseot" }, "noteZh": "[여섣];和 여덟(八)开头一样,最容易混,多读几遍:여섯 六、여덟 八。" },
+    { "id": "ko.ilgop", "kind": "word", "pos": "num", "text": "일곱", "zh": "七(固有数词)", "features": { "roman": "ilgop" }, "noteZh": "收音 ㅂ 双唇闭住不爆破;别和汉字数词 일(一)、칠(七)混。" },
+    { "id": "ko.yeodeol", "kind": "word", "pos": "num", "text": "여덟", "zh": "八(固有数词)", "features": { "roman": "yeodeol" }, "noteZh": "双收音 ㄼ 单读只读 ㄹ:[여덜];后面接元音时 ㅂ 移过去:여덟이에요 [여덜비에요]。" },
+    { "id": "ko.ahop", "kind": "word", "pos": "num", "text": "아홉", "zh": "九(固有数词)", "features": { "roman": "ahop" }, "noteZh": "ㅎ 在两个元音中间很轻,听起来像 [아옵];收音 ㅂ 不爆破。" },
+    { "id": "ko.yeol", "kind": "word", "pos": "num", "text": "열", "zh": "十(固有数词)", "features": { "roman": "yeol" }, "noteZh": "11–19 是 열 + 一位数:열하나 [여라나]、열둘……;20 是 스물(下一课)。" }
+  ],
+  "reviewItems": ["ko.ppang", "ko.sajangnim", "ko.algetseumnida"],
+  "lines": [
+    { "speaker": "choi", "text": "천징 씨, 여기 빵하고 우유요.", "zh": "(咖啡店刚送来一批面包和牛奶)陈静,面包和牛奶在这儿,你点一下数。", "roman": "cheonjing ssi, yeogi ppanghago uyuyo.", "items": ["ko.ssi", "ko.yeogi", "ko.ppang", "ko.uyu"] },
+    { "speaker": "jing", "text": "네, 알겠습니다, 사장님! 하나, 둘, 셋, 넷, 다섯…", "zh": "好的,老板!一、二、三、四、五……", "roman": "ne, algetseumnida, sajangnim! hana, dul, set, net, daseot…", "items": ["ko.ne", "ko.algetseumnida", "ko.sajangnim", "ko.hana", "ko.dul", "ko.set", "ko.net", "ko.daseot"] },
+    { "speaker": "choi", "text": "다섯, 그리고?", "zh": "五,然后呢?", "roman": "daseot, geurigo?", "items": ["ko.daseot", "ko.geurigo"] },
+    { "speaker": "jing", "text": "여섯… 여덟?", "zh": "(陈静数乱了)六……八?", "roman": "yeoseot… yeodeol?", "items": ["ko.yeoseot", "ko.yeodeol"] },
+    { "speaker": "choi", "text": "하하, 아니요. 여섯, 일곱, 여덟!", "zh": "哈哈,不对。六、七、八!", "roman": "haha, aniyo. yeoseot, ilgop, yeodeol!", "items": ["ko.aniyo", "ko.yeoseot", "ko.ilgop", "ko.yeodeol"] },
+    { "speaker": "jing", "text": "아, 일곱! 여섯, 일곱, 여덟, 아홉, 열!", "zh": "啊,七!六、七、八、九、十!", "roman": "a, ilgop! yeoseot, ilgop, yeodeol, ahop, yeol!", "items": ["ko.ilgop", "ko.yeoseot", "ko.yeodeol", "ko.ahop", "ko.yeol"] },
+    { "speaker": "choi", "text": "맞아요, 열! 그럼 우유는요?", "zh": "对,十个!那牛奶呢?", "roman": "majayo, yeol! geureom uyuneunyo?", "items": ["ko.majayo", "ko.yeol", "ko.geureom", "ko.uyu"] },
+    { "speaker": "jing", "text": "우유는… 하나, 둘, 셋, 넷. 넷이에요!", "zh": "牛奶……一、二、三、四。四盒!", "roman": "uyuneun… hana, dul, set, net. nesieyo!", "items": ["ko.uyu", "ko.hana", "ko.dul", "ko.set", "ko.net"] },
+    { "speaker": "choi", "text": "네, 넷. 고마워요, 천징 씨.", "zh": "好,四盒。谢谢你,陈静。", "roman": "ne, net. gomawoyo, cheonjing ssi.", "items": ["ko.ne", "ko.net", "ko.gomawoyo", "ko.ssi"] },
+    { "speaker": "jing", "text": "아니에요!", "zh": "不客气!", "roman": "anieyo!", "items": ["ko.anieyo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静数面包时在哪儿卡住了?", "options": ["数到 다섯 就想不起后面了", "漏了 일곱,从 여섯 跳到 여덟", "把 아홉 和 열 说反了"], "answer": 1, "explainZh": "第 4、5 句:陈静数成 여섯… 여덟?,漏了 일곱(七);老板帮她数:여섯, 일곱, 여덟。" },
+    { "prompt": "面包和牛奶各有多少?", "options": ["面包 10 个,牛奶 4 盒", "面包 8 个,牛奶 4 盒", "面包 10 个,牛奶 10 盒"], "answer": 0, "explainZh": "第 6、7 句面包数到 열(十),老板说 맞아요, 열!;第 8 句牛奶是 넷(四)。" },
+    { "prompt": "老板说“고마워요”,陈静回答“아니에요”,意思是?", "options": ["不是我", "我不知道", "不客气"], "answer": 2, "explainZh": "第 9、10 句:아니에요 除了“不是”,别人道谢或夸你的时候也表示“哪里、不客气”。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u5_native_numbers", "titleZh": "固有数词 하나~열:数东西用它",
+      "bodyZh": "固有数词是韩语本来就有的数字:하나 一、둘 二、셋 三、넷 四、다섯 五、여섯 六、일곱 七、여덟 八、아홉 九、열 十;11–19 是 열 + 一位数:열하나 [여라나]、열둘、열셋……\n两套数字分工不同,先记口诀:“点钟、个数、年龄用固有;分钟、号码、日期、钱用汉字。”数面包、说几岁、说几点用 하나、둘、셋;电话号码、几号、几分钟、多少钱用 일、이、삼。中国学生最常见的错误是该用固有数词的地方用了汉字数词,比如“三个苹果”说成 사과 삼 개(应为 사과 세 개)。\n下一课学:固有数词放在量词前面,하나、둘、셋、넷 要变成 한、두、세、네(한 개、두 잔)。",
+      "examples": [ { "text": "하나, 둘, 셋, 넷, 다섯", "zh": "一、二、三、四、五(数东西)" }, { "text": "여섯, 일곱, 여덟, 아홉, 열", "zh": "六、七、八、九、十" }, { "text": "열하나, 열둘, 열셋", "zh": "十一、十二、十三" } ] },
+    { "id": "ko.g.u5_native_pron", "titleZh": "固有数词的读音:收音和双收音",
+      "bodyZh": "固有数词里收音多,单读时按代表音读:셋 [섿]、넷 [넫]、다섯 [다섣]、여섯 [여섣]——收音 ㅅ 读 t,舌尖顶住、不爆破;일곱、아홉 的 ㅂ 双唇闭住不放开;여덟 的双收音 ㄼ 单读只读 ㄹ:[여덜]。后面接元音时收音移到下一个字:넷이에요 [네시에요]、여덟이에요 [여덜비에요](ㄼ 里的 ㅂ 又出来了)。\n아홉 的 ㅎ 在两个元音中间很轻,听起来像 [아옵];열하나 也一样,读 [여라나]。여섯(六)和 여덟(八)开头一样、最容易混:여섯 第二个字是 섯,여덟 第二个字是 덟。",
+      "examples": [ { "text": "셋, 넷, 다섯", "zh": "三、四、五:读 [섿] [넫] [다섣]" }, { "text": "여섯, 여덟", "zh": "六、八:读 [여섣] [여덜],别混" }, { "text": "아홉, 열하나", "zh": "九、十一:读 [아옵] [여라나]" } ] }
+  ],
+  "review": "draft"
+}

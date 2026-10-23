@@ -12,7 +12,7 @@
     { "id": "de.hausverwaltung", "kind": "word", "pos": "noun", "text": "die Hausverwaltung", "zh": "物业(房屋管理公司)", "features": { "gender": "f", "plural": "die Hausverwaltungen", "ipa": "ˈhaʊ̯sfɛɐ̯ˌvaltʊŋ" }, "noteZh": "租的房子里东西坏了,一般先打电话给 Hausverwaltung;-ung 结尾是阴性。" },
     { "id": "de.reparieren", "kind": "word", "pos": "verb", "text": "reparieren", "zh": "修理", "features": { "ipa": "ʁepaˈʁiːʁən" }, "noteZh": "规则动词:Der Hausmeister repariert die Heizung.;-ieren 结尾的动词重音在 ie 上。" }
   ],
-  "reviewItems": ["de.lampe", "de.bad", "de.hier", "de.kein", "de.schreiben", "de.telefonieren"],
+  "reviewItems": ["de.lampe", "de.bad", "de.hier", "de.kein", "de.wg", "de.telefonieren"],
   "lines": [
     { "speaker": "wei", "text": "Jonas, die Heizung funktioniert nicht!", "zh": "约纳斯,暖气不工作了!", "items": ["de.heizung", "de.funktionieren", "de.nicht"] },
     { "speaker": "jonas", "text": "Wirklich? Und die Lampe im Bad?", "zh": "真的?那浴室的灯呢?", "items": ["de.wirklich", "de.und", "de.lampe", "de.in", "de.bad"] },
@@ -24,7 +24,7 @@
     { "speaker": "wei", "text": "Wang, Wei Wang. Ich wohne in der Musterstraße 12, in der WG.", "zh": "王,王伟。我住在 Musterstraße 12 号的合租公寓。", "items": ["de.ich", "de.wohnen", "de.in", "de.zwoelf", "de.wg"] },
     { "speaker": "mitarbeiterin", "text": "Gut, Herr Wang. Und was ist kaputt?", "zh": "好的,王先生。哪儿坏了?", "items": ["de.gut", "de.herr", "de.und", "de.was", "de.sein", "de.kaputt"] },
     { "speaker": "wei", "text": "Die Heizung funktioniert nicht, und die Lampe im Bad ist kaputt.", "zh": "暖气不工作了,浴室的灯也坏了。", "items": ["de.heizung", "de.funktionieren", "de.nicht", "de.und", "de.lampe", "de.in", "de.bad", "de.sein", "de.kaputt"] },
-    { "speaker": "mitarbeiterin", "text": "Ich schreibe das. Der Hausmeister kommt und repariert die Heizung und die Lampe.", "zh": "我记下了。管理员会来修暖气和灯。", "items": ["de.ich", "de.schreiben", "de.das_ist", "de.hausmeister", "de.ich_komme_aus", "de.und", "de.reparieren", "de.heizung", "de.lampe"] },
+    { "speaker": "mitarbeiterin", "text": "Gut. Der Hausmeister kommt und repariert die Heizung und die Lampe.", "zh": "好的。管理员会来修暖气和灯。", "items": ["de.gut", "de.hausmeister", "de.ich_komme_aus", "de.und", "de.reparieren", "de.heizung", "de.lampe"] },
     { "speaker": "jonas", "text": "Der Hausmeister kommt? In Berlin? Wirklich?", "zh": "管理员会来?在柏林?真的假的?", "items": ["de.hausmeister", "de.ich_komme_aus", "de.in", "de.wirklich"] }
   ],
   "questions": [
