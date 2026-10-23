@@ -1,0 +1,55 @@
+{
+  "id": "ko.a1u4.l05", "schemaVersion": 1, "lang": "ko", "type": "grammar", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104050,
+  "titleZh": "真好吃!说味道", "goalZh": "会用形容词的 해요体说味道,用 너무、조금、많이、진짜 说程度,懂饭桌礼仪",
+  "canDoZh": "能在饭桌上说“开动了”“吃好了”,评价菜好不好吃、咸不咸、甜不甜",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "ko.masisseoyo", "kind": "word", "pos": "adj", "text": "맛있어요", "zh": "好吃", "features": { "roman": "masisseoyo" }, "noteZh": "原形 맛있다:맛(味道)+ 있다;连音读 [마시써요]。" },
+    { "id": "ko.madeopseoyo", "kind": "word", "pos": "adj", "text": "맛없어요", "zh": "不好吃", "features": { "roman": "madeopseoyo" }, "noteZh": "原形 맛없다;读 [마덥써요]。是 맛있어요 的反义,不说 안 맛있어요;当着做饭、请客的人说太直接。" },
+    { "id": "ko.jjayo", "kind": "word", "pos": "adj", "text": "짜요", "zh": "咸", "features": { "roman": "jjayo" }, "noteZh": "原形 짜다;紧音 ㅉ,别读成送气的 차요。" },
+    { "id": "ko.darayo", "kind": "word", "pos": "adj", "text": "달아요", "zh": "甜", "features": { "roman": "darayo" }, "noteZh": "原形 달다;连音读 [다라요]。" },
+    { "id": "ko.neomu", "kind": "word", "pos": "adv", "text": "너무", "zh": "太;非常", "features": { "roman": "neomu" }, "noteZh": "本来是“太(过分)”:너무 짜요;口语里也表示“非常”:너무 맛있어요。" },
+    { "id": "ko.jogeum", "kind": "word", "pos": "adv", "text": "조금", "zh": "一点;有点", "features": { "roman": "jogeum" }, "noteZh": "조금 매워요(有点辣);口语常缩成 좀(第 7 单元学 좀 的其他用法)。" },
+    { "id": "ko.mani", "kind": "word", "pos": "adv", "text": "많이", "zh": "多;很多地", "features": { "roman": "mani" }, "noteZh": "ㅎ 脱落读 [마니];修饰动词:많이 먹어요(多吃点)。对长辈要说 많이 드세요(以后学)。" },
+    { "id": "ko.jinjja", "kind": "word", "pos": "adv", "text": "진짜", "zh": "真的;真", "features": { "roman": "jinjja" }, "noteZh": "口语:진짜 맛있어요!;升调 진짜요?= 真的吗?;书面语说 정말。" },
+    { "id": "ko.jal_meokgetseumnida", "kind": "phrase", "pos": "phrase", "text": "잘 먹겠습니다", "zh": "我开动了(饭前说)", "features": { "roman": "jal meokgetseumnida" }, "noteZh": "饭前对请客的人或一起吃饭的人说;读 [잘 먹껟씀니다]。" },
+    { "id": "ko.jal_meogeotseumnida", "kind": "phrase", "pos": "phrase", "text": "잘 먹었습니다", "zh": "我吃好了;谢谢款待(饭后说)", "features": { "roman": "jal meogeotseumnida" }, "noteZh": "饭后对请客的人说;离开饭馆时对老板说也很自然。读 [잘 머거씀니다]。" }
+  ],
+  "reviewItems": ["ko.maewoyo", "ko.an", "ko.gimchijjigae", "ko.joayo"],
+  "lines": [
+    { "speaker": "jing", "text": "잘 먹겠습니다!", "zh": "(敏俊请陈静吃饭,陈静把室友秀雅也带来了。菜一上桌,两个女生一起对敏俊说)那我们开动啦!", "roman": "Jal meokgetseumnida!", "items": ["ko.jal_meokgetseumnida"] },
+    { "speaker": "sua", "text": "김치찌개 진짜 맛있어요!", "zh": "(秀雅先尝了一口泡菜汤)泡菜汤真好吃!", "roman": "Gimchijjigae jinjja masisseoyo!", "items": ["ko.gimchijjigae", "ko.jinjja", "ko.masisseoyo"] },
+    { "speaker": "minjun", "text": "천징 씨는요? 맛없어요?", "zh": "(敏俊看陈静皱着眉头)陈静呢?不好吃吗?", "roman": "Cheonjing ssineunyo? Madeopseoyo?", "items": ["ko.ssi", "ko.madeopseoyo"] },
+    { "speaker": "jing", "text": "아니요, 맛있어요! 조금 매워요. 그리고 조금 짜요.", "zh": "不是,好吃!就是有点辣,还有点咸。", "roman": "Aniyo, masisseoyo! Jogeum maewoyo. Geurigo jogeum jjayo.", "items": ["ko.aniyo", "ko.masisseoyo", "ko.jogeum", "ko.maewoyo", "ko.geurigo", "ko.jjayo"] },
+    { "speaker": "minjun", "text": "그럼 이거 먹어요. 안 매워요!", "zh": "(敏俊把一盘甜点心推到她面前)那吃这个吧。这个不辣!", "roman": "Geureom igeo meogeoyo. An maewoyo!", "items": ["ko.geureom", "ko.igeo", "ko.meogeoyo", "ko.an", "ko.maewoyo"] },
+    { "speaker": "jing", "text": "너무 달아요!", "zh": "(陈静咬了一口)太甜了!", "roman": "Neomu darayo!", "items": ["ko.neomu", "ko.darayo"] },
+    { "speaker": "sua", "text": "진짜요? 저는 좋아요!", "zh": "真的吗?我觉得挺好!(秀雅又拿了一块)", "roman": "Jinjjayo? Jeoneun joayo!", "items": ["ko.jinjja", "ko.jeo", "ko.joayo"] },
+    { "speaker": "minjun", "text": "많이 먹어요!", "zh": "多吃点!", "roman": "Mani meogeoyo!", "items": ["ko.mani", "ko.meogeoyo"] },
+    { "speaker": "jing", "text": "민준 씨, 잘 먹었습니다!", "zh": "(吃完饭)敏俊,我们吃好了,谢谢款待!", "roman": "Minjun ssi, jal meogeotseumnida!", "items": ["ko.ssi", "ko.jal_meogeotseumnida"] },
+    { "speaker": "minjun", "text": "아니에요. 또 만나요!", "zh": "哪里哪里。下次见!", "roman": "Anieyo. Tto mannayo!", "items": ["ko.anieyo", "ko.tto_mannayo"] }
+  ],
+  "questions": [
+    { "prompt": "秀雅觉得泡菜汤怎么样?", "options": ["有点咸", "真好吃", "太甜了"], "answer": 1, "explainZh": "第 2 句:김치찌개 진짜 맛있어요!(泡菜汤真好吃!)“有点咸”是陈静说的(第 4 句),“太甜了”是陈静吃点心时说的(第 6 句)。" },
+    { "prompt": "敏俊问陈静“맛없어요?”,陈静怎么回答?", "options": ["네, 맛없어요.", "아니요, 안 매워요.", "아니요, 맛있어요! 조금 매워요."], "answer": 2, "explainZh": "第 4 句:아니요, 맛있어요! 조금 매워요. 그리고 조금 짜요.——不是不好吃,只是有点辣、有点咸。" },
+    { "prompt": "陈静吃了敏俊推荐的点心,觉得怎么样?", "options": ["太甜了", "有点辣", "不好吃"], "answer": 0, "explainZh": "第 6 句:너무 달아요!(太甜了!)敏俊推荐时说的是 안 매워요(不辣,第 5 句)。" },
+    { "prompt": "吃完饭,陈静对请客的敏俊说什么?", "options": ["잘 먹겠습니다!", "잘 먹었습니다!", "많이 먹어요!"], "answer": 1, "explainZh": "第 9 句:饭后说 잘 먹었습니다(我吃好了,谢谢款待)。잘 먹겠습니다 是饭前说的(第 1 句);많이 먹어요 是请客的人劝大家多吃(第 8 句)。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.adj_haeyo", "titleZh": "形容词的 해요体:直接当谓语,不用“是”",
+      "bodyZh": "韩语的形容词和动词一样变 해요体,可以直接放在句末当谓语:짜다 → 짜요(咸)、달다 → 달아요(甜)、맛있다 → 맛있어요(好吃)、맵다 → 매워요(辣)。后面不用再加“是”:김치찌개 맛있어요 就是“泡菜汤好吃”,说成 맛있어요예요、맛있이에요 都不对。\n中文常说“很好吃”,其实“很”没有多少意思;韩语单说 맛있어요 就够了,要强调才加 진짜、너무。\n否定一般用 안:안 짜요、안 달아요、안 매워요。但“好吃”的反义是一个词 맛없어요,不说 안 맛있어요。맛없어요 很直接,当着请客、做饭的人最好说得委婉一点:조금 짜요(有点咸)。发音:맛있어요 [마시써요]、맛없어요 [마덥써요]。",
+      "examples": [
+        { "text": "김치찌개 진짜 맛있어요!", "zh": "泡菜汤真好吃!" },
+        { "text": "조금 짜요.", "zh": "有点咸。" },
+        { "text": "맛없어요?", "zh": "不好吃吗?(不说 안 맛있어요)" }
+      ] },
+    { "id": "ko.g.degree_mealtime", "titleZh": "程度副词 너무 / 조금 / 진짜 / 많이;饭桌上的两句话",
+      "bodyZh": "程度副词放在形容词、动词前面:너무 달아요(太甜了)、조금 매워요(有点辣)、진짜 맛있어요(真好吃)。너무 本来是“太(过分)”,现在口语里也常用来表示“非常”:너무 맛있어요。많이 一般修饰动词:많이 먹어요(多吃点)——这里的 해요体是劝对方,相当于“吃吧”。\n吃饭的两句固定说法:饭前说 잘 먹겠습니다(我开动了),饭后说 잘 먹었습니다(我吃好了、谢谢款待),特别是别人请客的时候一定要说。请客的人常回答 아니에요(哪里哪里)。中国人吃饭前没有固定要说的话,在韩国不说会显得不太礼貌。",
+      "examples": [
+        { "text": "너무 달아요!", "zh": "太甜了!" },
+        { "text": "많이 먹어요!", "zh": "多吃点!" },
+        { "text": "잘 먹었습니다!", "zh": "我吃好了,谢谢款待!" }
+      ] }
+  ],
+  "review": "draft"
+}

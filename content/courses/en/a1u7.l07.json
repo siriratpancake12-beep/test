@@ -20,12 +20,12 @@
     { "speaker": "lei", "text": "I have to work. Laura needs me at the cafe.", "zh": "我得上班,劳拉要我去店里帮忙。", "items": ["en.have_to", "en.work", "en.need", "en.cafe"] },
     { "speaker": "lei", "text": "Can we play on Sunday instead? Call me back. Thanks!", "zh": "能不能改到周日打?给我回个电话。谢谢!", "items": ["en.can", "en.play", "en.sunday", "en.instead", "en.call_back", "en.thank_you"] },
     { "speaker": "ethan", "text": "Hey, man! It's Ethan. Thanks for the message.", "zh": "(晚上伊森回电话)嘿,哥们儿!我是伊森。留言收到了,谢啦。", "items": ["en.hey", "en.thank_you", "en.message"] },
-    { "speaker": "ethan", "text": "No problem. Sunday is good. What time?", "zh": "没问题,周日可以。几点?", "items": ["en.no_problem", "en.sunday"] },
-    { "speaker": "lei", "text": "How about ten in the morning?", "zh": "上午十点怎么样?", "items": ["en.how_about", "en.morning"] },
+    { "speaker": "ethan", "text": "Sorry, I never answer at the gym. Sunday is good!", "zh": "抱歉,我在健身房从来不接电话。周日可以!", "items": ["en.sorry", "en.never", "en.answer", "en.gym", "en.sunday"] },
+    { "speaker": "lei", "text": "Great! How about ten in the morning?", "zh": "太好了!上午十点怎么样?", "items": ["en.great", "en.how_about", "en.morning"] },
     { "speaker": "ethan", "text": "Ten? That's really early for me, man!", "zh": "十点?对我来说也太早了吧,哥们儿!", "items": ["en.really", "en.early"] },
     { "speaker": "lei", "text": "Sorry! I hope it's OK. I have to study in the afternoon.", "zh": "不好意思!希望你能行。我下午得学习。", "items": ["en.sorry", "en.hope", "en.have_to", "en.study", "en.afternoon"] },
     { "speaker": "ethan", "text": "OK, OK. Ten o'clock at the gym.", "zh": "好吧好吧。十点,健身房见。", "items": ["en.oclock", "en.gym"] },
-    { "speaker": "lei", "text": "Great! Sunday at ten is good. See you!", "zh": "太好了!周日十点没问题。回头见!", "items": ["en.great", "en.sunday", "en.see_you_later"] }
+    { "speaker": "lei", "text": "Cool. Sunday at ten is good. See you!", "zh": "好嘞。周日十点没问题。回头见!", "items": ["en.cool", "en.sunday", "en.see_you_later"] }
   ],
   "questions": [
     { "prompt": "磊为什么周六不能去打球?", "options": ["他要写作业", "他要去咖啡馆上班", "他要去健身房"], "answer": 1, "explainZh": "磊在留言里说 I have to work. Laura needs me at the cafe.(我得上班,劳拉要我去店里帮忙。)" },
