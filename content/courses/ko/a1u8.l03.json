@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u8.l03", "schemaVersion": 1, "lang": "ko", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 我的一天与周末", "order": 108030,
+  "titleZh": "周末你做什么了?", "goalZh": "会用 -았/었어요 说过去做了什么,会问别人昨天、上周做了什么",
+  "canDoZh": "能说出上个周末做了什么:见了谁、看了什么、在家做了什么",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 27,
+  "newItems": [
+    { "id": "ko.eoje", "kind": "word", "pos": "noun", "text": "어제", "zh": "昨天", "features": { "roman": "eoje" }, "noteZh": "어제 뭐 했어요?= 昨天做什么了?;어제 后面不加 에。" },
+    { "id": "ko.jinanju", "kind": "word", "pos": "noun", "text": "지난주", "zh": "上周", "features": { "roman": "jinanju" }, "noteZh": "지난(过去的)+ 주(周);下周是 다음 주,上个周末是 지난 주말;지난주에 要加 에。" },
+    { "id": "ko.mannayo", "kind": "word", "pos": "verb", "text": "만나요", "zh": "见面;见", "features": { "roman": "mannayo" }, "noteZh": "原形 만나다;친구를 만나요(见朋友,用 을/를;也可以说 친구하고 만나요);过去:만났어요。" },
+    { "id": "ko.bwayo", "kind": "word", "pos": "verb", "text": "봐요", "zh": "看", "features": { "roman": "bwayo" }, "noteZh": "原形 보다(ㅗ + ㅏ → ㅘ);영화를 봐요;过去:봤어요;또 봐요 = 回头见。" },
+    { "id": "ko.yeonghwa", "kind": "word", "pos": "noun", "text": "영화", "zh": "电影", "features": { "roman": "yeonghwa" }, "noteZh": "汉字词 映画;영화관 = 电影院;영화를 봐요 = 看电影。" },
+    { "id": "ko.swieoyo", "kind": "word", "pos": "verb", "text": "쉬어요", "zh": "休息", "features": { "roman": "swieoyo" }, "noteZh": "原形 쉬다;집에서 쉬어요;过去:쉬었어요(쉬 + 었어요,不缩合)。" },
+    { "id": "ko.undonghaeyo", "kind": "word", "pos": "verb", "text": "운동해요", "zh": "运动;锻炼", "features": { "roman": "undonghaeyo" }, "noteZh": "汉字词 运动 + 하다;过去:운동했어요。" },
+    { "id": "ko.cheongsohaeyo", "kind": "word", "pos": "verb", "text": "청소해요", "zh": "打扫", "features": { "roman": "cheongsohaeyo" }, "noteZh": "汉字词 清扫 + 하다;过去:청소했어요;否定:청소 안 했어요。" }
+  ],
+  "reviewItems": ["ko.jumal", "ko.chingu", "ko.jip", "ko.toyoil"],
+  "lines": [
+    { "speaker": "park", "text": "여러분, 안녕하세요? 주말에 뭐 했어요?", "zh": "(星期一早上,语学堂)大家好!周末做什么了?", "roman": "yeoreobun, annyeonghaseyo? jumare mwo haesseoyo?", "items": ["ko.yeoreobun", "ko.annyeonghaseyo", "ko.jumal", "ko.mwo", "ko.haeyo"] },
+    { "speaker": "jing", "text": "저는 토요일에 친구를 만났어요.", "zh": "我星期六见了朋友。", "roman": "jeoneun toyoire chingureul mannasseoyo.", "items": ["ko.jeo", "ko.toyoil", "ko.chingu", "ko.mannayo"] },
+    { "speaker": "park", "text": "친구하고 뭐 했어요?", "zh": "和朋友做什么了?", "roman": "chinguhago mwo haesseoyo?", "items": ["ko.chingu", "ko.mwo", "ko.haeyo"] },
+    { "speaker": "jing", "text": "같이 영화를 봤어요. 영화가 진짜 좋았어요.", "zh": "一起看了电影。电影特别好看。", "roman": "gachi yeonghwareul bwasseoyo. yeonghwaga jinjja joasseoyo.", "items": ["ko.gachi", "ko.yeonghwa", "ko.bwayo", "ko.jinjja", "ko.joayo"] },
+    { "speaker": "park", "text": "남 씨는 주말에 뭐 했어요?", "zh": "阿南,你周末做什么了?", "roman": "nam ssineun jumare mwo haesseoyo?", "items": ["ko.ssi", "ko.jumal", "ko.mwo", "ko.haeyo"] },
+    { "speaker": "nam", "text": "저는 집에서 쉬었어요. 그리고 청소했어요.", "zh": "我在家休息了,还打扫了卫生。", "roman": "jeoneun jibeseo swieosseoyo. geurigo cheongsohaesseoyo.", "items": ["ko.jeo", "ko.jip", "ko.swieoyo", "ko.geurigo", "ko.cheongsohaeyo"] },
+    { "speaker": "jing", "text": "남 씨가 청소했어요? 진짜요?", "zh": "阿南打扫卫生了?真的吗?", "roman": "nam ssiga cheongsohaesseoyo? jinjjayo?", "items": ["ko.ssi", "ko.cheongsohaeyo", "ko.jinjja"] },
+    { "speaker": "nam", "text": "네! 지난주에는 안 했어요.", "zh": "真的!上周可没打扫。(大家都笑了)", "roman": "ne! jinanjueneun an haesseoyo.", "items": ["ko.ne", "ko.jinanju", "ko.an", "ko.haeyo"] },
+    { "speaker": "jing", "text": "선생님은요?", "zh": "老师您呢?", "roman": "seonsaengnimeunyo?", "items": ["ko.seonsaengnim"] },
+    { "speaker": "park", "text": "저는 일요일에 운동했어요. 천징 씨는 어제 뭐 했어요?", "zh": "我星期天去运动了。陈静,你昨天做什么了?", "roman": "jeoneun iryoire undonghaesseoyo. cheonjing ssineun eoje mwo haesseoyo?", "items": ["ko.jeo", "ko.iryoil", "ko.undonghaeyo", "ko.ssi", "ko.eoje", "ko.mwo", "ko.haeyo"] },
+    { "speaker": "jing", "text": "어제는 도서관에서 한국어를 공부했어요.", "zh": "昨天我在图书馆学了韩语。", "roman": "eojeneun doseogwaneseo hangugeoreul gongbuhaesseoyo.", "items": ["ko.eoje", "ko.doseogwan", "ko.hangugeo", "ko.gongbuhaeyo"] },
+    { "speaker": "park", "text": "잘했어요, 천징 씨!", "zh": "很好,陈静!(过去时也说对了)", "roman": "jalhaesseoyo, cheonjing ssi!", "items": ["ko.jal", "ko.haeyo", "ko.ssi"] }
+  ],
+  "questions": [
+    { "prompt": "陈静星期六做了什么?", "options": ["在家打扫卫生", "去运动了", "和朋友一起看了电影", "在图书馆学习"], "answer": 2, "explainZh": "第 2、4 句:토요일에 친구를 만났어요. 같이 영화를 봤어요.——星期六见了朋友,一起看了电影。在图书馆学习是昨天(星期天)。" },
+    { "prompt": "南周末做了什么?", "options": ["在家休息,还打扫了卫生", "和朋友看了电影", "去运动了"], "answer": 0, "explainZh": "第 6 句:집에서 쉬었어요. 그리고 청소했어요.。去运动的是朴老师(第 10 句)。" },
+    { "prompt": "陈静昨天做了什么?", "options": ["去咖啡店打工", "在图书馆学韩语", "和老师一起运动"], "answer": 1, "explainZh": "第 11 句:어제는 도서관에서 한국어를 공부했어요.(昨天在图书馆学了韩语。)" }
+  ],
+  "grammar": [
+    { "id": "ko.g.past_tense", "titleZh": "过去时 -았/었어요",
+      "bodyZh": "说“做了……”,把 해요体的 -아요 / -어요 换成 -았어요 / -었어요:词干最后的元音是 ㅏ 或 ㅗ → -았어요,其他 → -었어요,하다 → 했어요。没有收音的词干会缩合,最容易写错:가 + 았어요 → 갔어요(去了)、만나 + 았어요 → 만났어요(见了)、보 + 았어요 → 봤어요(看了,ㅗ + ㅏ → ㅘ);有收音的不缩合:먹었어요;쉬 + 었어요 → 쉬었어요 也不缩合。하다 动词:공부했어요、청소했어요、운동했어요。一个简单的记法:先说出 해요体(가요、봐요、해요),去掉最后的 요,在最后一个字下面加 ㅆ,再加 어요:가요 → 갔어요、봐요 → 봤어요、해요 → 했어요。汉语的“了”位置很灵活,韩语的过去时都在动词词尾上。",
+      "examples": [ { "text": "토요일에 친구를 만났어요.", "zh": "星期六见了朋友。(만나 + 았어요 → 만났어요)" }, { "text": "같이 영화를 봤어요.", "zh": "一起看了电影。(보 + 았어요 → 봤어요)" }, { "text": "집에서 쉬었어요.", "zh": "在家休息了。(쉬 + 었어요)" }, { "text": "그리고 청소했어요.", "zh": "还打扫了卫生。(하다 → 했어요)" } ] },
+    { "id": "ko.g.past_time_words", "titleZh": "问做了什么:时间词 + 뭐 했어요?",
+      "bodyZh": "问“做什么了”说 뭐 했어요?:주말에 뭐 했어요?、어제 뭐 했어요?。常用的时间词:어제(昨天)、지난주(上周)、지난 주말(上个周末)、토요일에(星期六)。和 오늘、내일 一样,어제 后面不加 에;지난주、星期后面加 에。过去的否定也是把 안 放在动词前:안 했어요(没做)、청소 안 했어요(没打扫)。만나다 带宾语:친구를 만났어요(见了朋友);也可以说 친구하고 만났어요(和朋友见了面)。",
+      "examples": [ { "text": "주말에 뭐 했어요?", "zh": "周末做什么了?" }, { "text": "어제는 도서관에서 공부했어요.", "zh": "昨天在图书馆学习了。" }, { "text": "지난주에는 안 했어요.", "zh": "上周没做。" } ] }
+  ],
+  "review": "draft"
+}

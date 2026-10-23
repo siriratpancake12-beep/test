@@ -1,0 +1,44 @@
+{
+  "id": "ko.a1u8.l04", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 我的一天与周末", "order": 108040,
+  "titleZh": "釜山的海真美", "goalZh": "会回答“周末过得怎么样”,用形容词的过去时说感受、天气",
+  "canDoZh": "能讲一次短途旅行:去了哪儿、和谁去、天气怎么样、好不好玩",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "ko.jumal_jal_bonaesseoyo", "kind": "phrase", "pos": "phrase", "text": "주말 잘 보냈어요", "zh": "周末过得好吗?", "features": { "roman": "jumal jal bonaesseoyo" }, "noteZh": "周一见面的固定问候(句末升调);보냈어요 是 보내다(度过)的过去时;回答 네, 잘 보냈어요 / 좀 바빴어요。" },
+    { "id": "ko.jaemiisseoyo", "kind": "word", "pos": "adj", "text": "재미있어요", "zh": "有意思;好玩", "features": { "roman": "jaemiisseoyo" }, "noteZh": "재미(乐趣)+ 있어요;连音读 [재미이써요];反义 재미없어요;过去:재미있었어요。" },
+    { "id": "ko.norayo", "kind": "word", "pos": "verb", "text": "놀아요", "zh": "玩", "features": { "roman": "norayo" }, "noteZh": "原形 놀다;连音读 [노라요];친구하고 놀아요(和朋友玩);过去:놀았어요。" },
+    { "id": "ko.yeohaeng", "kind": "word", "pos": "noun", "text": "여행", "zh": "旅行", "features": { "roman": "yeohaeng" }, "noteZh": "汉字词 旅行;부산 여행 = 釜山之旅;여행을 가요 = 去旅行。" },
+    { "id": "ko.bada", "kind": "word", "pos": "noun", "text": "바다", "zh": "海;大海", "features": { "roman": "bada" }, "noteZh": "元音之间的 ㄷ 变浊,听起来像 bada;바다에서 놀아요(在海边玩)。" },
+    { "id": "ko.nalssi", "kind": "word", "pos": "noun", "text": "날씨", "zh": "天气", "features": { "roman": "nalssi" }, "noteZh": "날씨가 좋아요(天气好);씨 是紧音 ㅆ。" },
+    { "id": "ko.bappayo", "kind": "word", "pos": "adj", "text": "바빠요", "zh": "忙", "features": { "roman": "bappayo" }, "noteZh": "原形 바쁘다(ㅡ 脱落);过去:바빴어요。" },
+    { "id": "ko.pigonhaeyo", "kind": "word", "pos": "adj", "text": "피곤해요", "zh": "累;疲惫", "features": { "roman": "pigonhaeyo" }, "noteZh": "汉字词 疲困 + 하다;过去:피곤했어요;问长辈、老板说 피곤하세요?" }
+  ],
+  "reviewItems": ["ko.gayo", "ko.yeppeoyo", "ko.jinjja", "ko.sonnim"],
+  "lines": [
+    { "speaker": "choi", "text": "천징 씨, 주말 잘 보냈어요?", "zh": "(星期一下午,陈静到咖啡店上班)陈静,周末过得好吗?", "roman": "cheonjing ssi, jumal jal bonaesseoyo?", "items": ["ko.ssi", "ko.jumal_jal_bonaesseoyo"] },
+    { "speaker": "jing", "text": "네! 수아 씨하고 같이 부산에 갔어요.", "zh": "挺好的!我和秀雅一起去釜山了。", "roman": "ne! sua ssihago gachi busane gasseoyo.", "items": ["ko.ne", "ko.ssi", "ko.gachi", "ko.gayo"] },
+    { "speaker": "choi", "text": "아, 부산 여행! 바다에서 놀았어요?", "zh": "哦,釜山旅行!去海边玩了吗?", "roman": "a, busan yeohaeng! badaeseo norasseoyo?", "items": ["ko.yeohaeng", "ko.bada", "ko.norayo"] },
+    { "speaker": "jing", "text": "네, 많이 놀았어요. 바다가 진짜 예뻤어요.", "zh": "嗯,玩了好久。海特别美。", "roman": "ne, mani norasseoyo. badaga jinjja yeppeosseoyo.", "items": ["ko.ne", "ko.mani", "ko.norayo", "ko.bada", "ko.jinjja", "ko.yeppeoyo"] },
+    { "speaker": "choi", "text": "날씨는 어땠어요?", "zh": "天气怎么样?", "roman": "nalssineun eottaesseoyo?", "items": ["ko.nalssi", "ko.eottaeyo"] },
+    { "speaker": "jing", "text": "날씨도 좋았어요. 수아 씨 집에서 밥도 먹었어요.", "zh": "天气也很好。我们还在秀雅家吃了饭。", "roman": "nalssido joasseoyo. sua ssi jibeseo bapdo meogeosseoyo.", "items": ["ko.nalssi", "ko.joayo", "ko.ssi", "ko.jip", "ko.bap", "ko.meogeoyo"] },
+    { "speaker": "choi", "text": "재미있었어요?", "zh": "好玩吗?", "roman": "jaemiisseosseoyo?", "items": ["ko.jaemiisseoyo"] },
+    { "speaker": "jing", "text": "네, 재미있었어요. 사장님은 주말 잘 보냈어요?", "zh": "嗯,很好玩。老板,您周末过得好吗?", "roman": "ne, jaemiisseosseoyo. sajangnimeun jumal jal bonaesseoyo?", "items": ["ko.ne", "ko.jaemiisseoyo", "ko.sajangnim", "ko.jumal_jal_bonaesseoyo"] },
+    { "speaker": "choi", "text": "저는 진짜 바빴어요. 손님이 많이 왔어요.", "zh": "我可忙坏了,客人特别多。", "roman": "jeoneun jinjja bappasseoyo. sonnimi mani wasseoyo.", "items": ["ko.jeo", "ko.jinjja", "ko.bappayo", "ko.sonnim", "ko.mani", "ko.wayo"] },
+    { "speaker": "jing", "text": "사장님, 피곤하세요?", "zh": "老板,您累吗?", "roman": "sajangnim, pigonhaseyo?", "items": ["ko.sajangnim", "ko.pigonhaeyo"] },
+    { "speaker": "choi", "text": "조금요. 천징 씨는요?", "zh": "有一点。你呢?", "roman": "jogeumyo. cheonjing ssineunyo?", "items": ["ko.jogeum", "ko.ssi"] },
+    { "speaker": "jing", "text": "저도 좀 피곤해요. 그럼 우리 커피 마셔요!", "zh": "我也有点累。那我们喝杯咖啡吧!", "roman": "jeodo jom pigonhaeyo. geureom uri keopi masyeoyo!", "items": ["ko.jeo", "ko.jom", "ko.pigonhaeyo", "ko.geureom", "ko.uri", "ko.keopi", "ko.masyeoyo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静周末去了哪儿?", "options": ["东大门", "釜山", "明洞", "杭州"], "answer": 1, "explainZh": "第 2 句:수아 씨하고 같이 부산에 갔어요(和秀雅一起去了釜山)。釜山是秀雅的老家。" },
+    { "prompt": "釜山的天气怎么样?", "options": ["很好", "下雨了", "有点冷"], "answer": 0, "explainZh": "第 6 句:날씨도 좋았어요(天气也很好)。도 是说“海很美,天气也好”。" },
+    { "prompt": "崔老板的周末过得怎么样?", "options": ["去海边玩了", "在家休息了", "很忙,客人很多"], "answer": 2, "explainZh": "第 9 句:저는 진짜 바빴어요. 손님이 많이 왔어요.(我可忙坏了,来了很多客人。)" },
+    { "prompt": "陈静现在觉得怎么样?", "options": ["很忙", "有点累", "很饿"], "answer": 1, "explainZh": "第 12 句:저도 좀 피곤해요(我也有点累)。周末去釜山玩得很开心,星期一就有点累了。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.adj_past", "titleZh": "形容词的过去时:좋았어요、예뻤어요、바빴어요",
+      "bodyZh": "形容词也用 -았/었어요 说过去的样子和感受,规则和动词一样:좋다 → 좋았어요(好)、재미있다 → 재미있었어요(好玩)、피곤하다 → 피곤했어요(累)。ㅡ 脱落的形容词先去掉 ㅡ 再加:바쁘다 的 ㅡ 前面是 바(ㅏ),所以是 바빴어요;예쁘다 的 ㅡ 前面是 예(ㅖ),所以是 예뻤어요。说“大海、天气怎么样”用 N이/가 + 形容词:바다가 예뻤어요;再说一样就换成 도:날씨도 좋았어요(天气也很好)。现在的感受还是用现在时:지금은 좀 피곤해요(现在有点累),一段对话里过去和现在可以混着用。周一见面常问 주말 잘 보냈어요?(周末过得好吗?),回答 네, 잘 보냈어요 或 좀 바빴어요。",
+      "examples": [ { "text": "바다가 진짜 예뻤어요.", "zh": "海特别美。(예쁘다 → 예뻤어요)" }, { "text": "날씨도 좋았어요.", "zh": "天气也很好。(좋다 → 좋았어요)" }, { "text": "저는 진짜 바빴어요.", "zh": "我特别忙。(바쁘다 → 바빴어요)" }, { "text": "지금은 좀 피곤해요.", "zh": "现在有点累。(现在的感觉用现在时)" } ] }
+  ],
+  "review": "draft"
+}

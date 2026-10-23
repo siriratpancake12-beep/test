@@ -1,0 +1,44 @@
+{
+  "id": "ko.a1u6.l04", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106040,
+  "titleZh": "坐地铁去明洞", "goalZh": "会问怎么去某地,听懂坐几号线、在哪儿换乘、在哪儿下车、走几号出口",
+  "canDoZh": "能问清楚坐地铁的路线:坐几号线、在哪站换乘、在哪站下、走几号出口",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ko.jihacheol", "kind": "word", "pos": "noun", "text": "지하철", "zh": "地铁", "features": { "roman": "jihacheol" }, "noteZh": "汉字词 地下铁;지하철을 타요 = 坐地铁。" },
+    { "id": "ko.yeok", "kind": "word", "pos": "noun", "text": "역", "zh": "站(地铁站、火车站)", "features": { "roman": "yeok" }, "noteZh": "汉字词 驿;站名 + 역:명동역、신촌역;前一个字有收音时常读成 [녁]:명동역 [명동녁]。公交车站叫 정류장(下一课)。" },
+    { "id": "ko.hoseon", "kind": "word", "pos": "noun", "text": "호선", "zh": "号线", "features": { "roman": "hoseon" }, "noteZh": "汉字词 号线;用汉字数词:이호선(2 号线)、사호선(4 号线);问“几号线”:몇 호선이에요?" },
+    { "id": "ko.tayo", "kind": "word", "pos": "verb", "text": "타요", "zh": "坐;乘(车)", "features": { "roman": "tayo" }, "noteZh": "原形 타다;N을/를 타요:지하철을 타요、버스를 타요(不用 에);“坐地铁”的“坐”不是 앉다(坐下)。" },
+    { "id": "ko.naeryeoyo", "kind": "word", "pos": "verb", "text": "내려요", "zh": "下(车)", "features": { "roman": "naeryeoyo" }, "noteZh": "原形 내리다(리 + 어요 缩成 려요);N에서 내려요 = 在 N 下车。" },
+    { "id": "ko.garatayo", "kind": "word", "pos": "verb", "text": "갈아타요", "zh": "换乘", "features": { "roman": "garatayo" }, "noteZh": "原形 갈아타다;连音读 [가라타요]:N에서 N(으)로 갈아타요(在某站换成某线)。" },
+    { "id": "ko.gyotongkadeu", "kind": "word", "pos": "noun", "text": "교통카드", "zh": "交通卡", "features": { "roman": "gyotongkadeu" }, "noteZh": "汉字词 交通 + card;地铁、公交通用,便利店有卖,也可以充值。" },
+    { "id": "ko.chulgu", "kind": "word", "pos": "noun", "text": "출구", "zh": "出口", "features": { "roman": "chulgu" }, "noteZh": "汉字词 出口;约见面常说 명동역 육 번 출구(明洞站 6 号出口),出口号用汉字数词。" },
+    { "id": "ko.eotteoke", "kind": "word", "pos": "adv", "text": "어떻게", "zh": "怎么;怎样", "features": { "roman": "eotteoke" }, "noteZh": "어떻게 가요?= 怎么去?;ㅎ 和 ㄱ 合成送气音,读 [어떠케]。" }
+  ],
+  "reviewItems": ["ko.kadeu", "ko.beon", "ko.gayo", "ko.i"],
+  "lines": [
+    { "speaker": "jing", "text": "수아 씨, 명동에 어떻게 가요?", "zh": "(陈静想去明洞逛逛,可来首尔一个多月,她还没坐过地铁)秀雅,去明洞怎么走?", "roman": "sua ssi, myeongdonge eotteoke gayo?", "items": ["ko.ssi", "ko.eotteoke", "ko.gayo"] },
+    { "speaker": "sua", "text": "지하철을 타요. 신촌역에서 이호선을 타요.", "zh": "坐地铁。在新村站坐 2 号线。", "roman": "jihacheoreul tayo. sinchonnyeogeseo ihoseoneul tayo.", "items": ["ko.jihacheol", "ko.tayo", "ko.yeok", "ko.i", "ko.hoseon"] },
+    { "speaker": "jing", "text": "이호선이요? 명동역은 이호선에 있어요?", "zh": "2 号线?明洞站在 2 号线上吗?", "roman": "ihoseoniyo? myeongdongnyeogeun ihoseone isseoyo?", "items": ["ko.i", "ko.hoseon", "ko.yeok", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "아니요. 동대문역사문화공원역에서 사호선으로 갈아타요.", "zh": "不在。要在东大门历史文化公园站换乘 4 号线。", "roman": "aniyo. dongdaemunnyeoksamunhwagongwonnyeogeseo sahoseoneuro garatayo.", "items": ["ko.aniyo", "ko.yeok", "ko.sa", "ko.hoseon", "ko.garatayo"] },
+    { "speaker": "jing", "text": "어디에서 내려요?", "zh": "在哪儿下车?", "roman": "eodieseo naeryeoyo?", "items": ["ko.eodi", "ko.naeryeoyo"] },
+    { "speaker": "sua", "text": "명동역에서 내려요. 육 번 출구예요.", "zh": "在明洞站下车,走 6 号出口。", "roman": "myeongdongnyeogeseo naeryeoyo. yuk beon chulguyeyo.", "items": ["ko.yeok", "ko.naeryeoyo", "ko.yuk", "ko.beon", "ko.chulgu"] },
+    { "speaker": "jing", "text": "아, 저는 교통카드가 없어요.", "zh": "啊,我没有交通卡。", "roman": "a, jeoneun gyotongkadeuga eopseoyo.", "items": ["ko.jeo", "ko.gyotongkadeu", "ko.eopseoyo"] },
+    { "speaker": "sua", "text": "편의점에 교통카드가 있어요. 그 카드로 지하철을 타요.", "zh": "便利店里就有交通卡。用那张卡坐地铁。", "roman": "pyeonuijeome gyotongkadeuga isseoyo. geu kadeuro jihacheoreul tayo.", "items": ["ko.pyeonuijeom", "ko.gyotongkadeu", "ko.isseoyo", "ko.kadeu", "ko.jihacheol", "ko.tayo"] },
+    { "speaker": "jing", "text": "그럼… 신촌역에서 이호선을 타요. 동대문역사문화공원역에서 갈아타요.", "zh": "(陈静复述一遍)那就是……在新村站坐 2 号线,在东大门历史文化公园站换乘。", "roman": "geureom… sinchonnyeogeseo ihoseoneul tayo. dongdaemunnyeoksamunhwagongwonnyeogeseo garatayo.", "items": ["ko.geureom", "ko.yeok", "ko.i", "ko.hoseon", "ko.tayo", "ko.garatayo"] },
+    { "speaker": "sua", "text": "네, 사호선으로요.", "zh": "对,换 4 号线。", "roman": "ne, sahoseoneuroyo.", "items": ["ko.ne", "ko.sa", "ko.hoseon"] },
+    { "speaker": "jing", "text": "그리고 명동역에서 내려요. 육 번 출구!", "zh": "然后在明洞站下车,6 号出口!", "roman": "geurigo myeongdongnyeogeseo naeryeoyo. yuk beon chulgu!", "items": ["ko.geurigo", "ko.yeok", "ko.naeryeoyo", "ko.yuk", "ko.beon", "ko.chulgu"] },
+    { "speaker": "sua", "text": "네, 맞아요!", "zh": "对,没错!", "roman": "ne, majayo!", "items": ["ko.ne", "ko.majayo"] }
+  ],
+  "questions": [
+    { "prompt": "从新村去明洞,要在哪一站换乘?", "options": ["新村站", "东大门历史文化公园站", "明洞站"], "answer": 1, "explainZh": "第 4 句:동대문역사문화공원역에서 사호선으로 갈아타요(在东大门历史文化公园站换乘 4 号线)。" },
+    { "prompt": "到了明洞站走几号出口?", "options": ["2 号出口", "4 号出口", "6 号出口"], "answer": 2, "explainZh": "第 6 句:육 번 출구예요(6 号出口)。出口号、线路号都用汉字数词:육 번 출구、이호선、사호선。" },
+    { "prompt": "陈静没有交通卡,秀雅怎么说?", "options": ["便利店里有", "地铁站里没有", "不用卡也能坐"], "answer": 0, "explainZh": "第 8 句:편의점에 교통카드가 있어요(便利店里有交通卡),그 카드로 지하철을 타요(用那张卡坐地铁)。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u6_subway", "titleZh": "坐地铁:N을/를 타요、N에서 내려요、N(으)로 갈아타요",
+      "bodyZh": "① 坐车用 N을/를 타요,用宾语助词 을/를,不用 에:지하철을 타요、이호선을 타요。汉语“坐地铁”的“坐”也不能说成 앉다(坐下)。\n② N에서 = 在某处做某个动作:신촌역에서 타요(在新村站上车)、명동역에서 내려요(在明洞站下车)、동대문역사문화공원역에서 갈아타요(在那一站换乘)。对比第 1 课:在某处“存在”用 에 있어요,在某处“做事”用 에서。\n③ N(으)로 = 换成……、用……:사호선으로 갈아타요(换成 4 号线)、그 카드로 타요(用那张卡坐)。\n④ 问路线:명동에 어떻게 가요?(去明洞怎么走?)。线路、出口用汉字数词:이호선(2 号线)、육 번 출구(6 号出口)。站名后面加 역,前一个字有收音时 역 常读成 [녁]:신촌역 [신촌녁]、명동역 [명동녁]。",
+      "examples": [ { "text": "신촌역에서 이호선을 타요.", "zh": "在新村站坐 2 号线。" }, { "text": "동대문역사문화공원역에서 사호선으로 갈아타요.", "zh": "在东大门历史文化公园站换乘 4 号线。" }, { "text": "명동역에서 내려요. 육 번 출구예요.", "zh": "在明洞站下车,走 6 号出口。" } ] }
+  ],
+  "review": "draft"
+}

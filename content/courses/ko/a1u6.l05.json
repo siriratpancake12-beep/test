@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u6.l05", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106050,
+  "titleZh": "师傅,请在这儿停车", "goalZh": "会用 -고 싶어요 说想去哪儿,坐公交和出租车时问时间、远近,让司机停车",
+  "canDoZh": "能坐出租车说清目的地、问要多久,并让司机在合适的地方停车",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "ko.beoseu", "kind": "word", "pos": "noun", "text": "버스", "zh": "公交车;巴士", "features": { "roman": "beoseu" }, "noteZh": "外来词 bus;몇 번 버스예요?= 几路车?;首尔的公交上车刷交通卡,下车也要刷(不然换乘没有优惠)。" },
+    { "id": "ko.jeongnyujang", "kind": "word", "pos": "noun", "text": "정류장", "zh": "(公交)车站", "features": { "roman": "jeongnyujang" }, "noteZh": "汉字词 停留场;ㅇ 后面的 ㄹ 读成 ㄴ:[정뉴장];地铁站叫 역。" },
+    { "id": "ko.taeksi", "kind": "word", "pos": "noun", "text": "택시", "zh": "出租车", "features": { "roman": "taeksi" }, "noteZh": "外来词 taxi;택시를 타요 = 打车;上车说 目的地 + (으)로 가 주세요。" },
+    { "id": "ko.gisanim", "kind": "word", "pos": "noun", "text": "기사님", "zh": "司机师傅", "features": { "roman": "gisanim" }, "noteZh": "汉字词 技士 + 님;称呼公交、出租车司机,下车时可以说 감사합니다。" },
+    { "id": "ko.eolmana_geollyeoyo", "kind": "phrase", "pos": "phrase", "text": "얼마나 걸려요", "zh": "要多长时间?", "features": { "roman": "eolmana geollyeoyo" }, "noteZh": "얼마나 = 多少、多久;걸려요 = 花(时间),原形 걸리다;回答把 얼마나 换成时间:삼십 분 걸려요。" },
+    { "id": "ko.sewo_juseyo", "kind": "phrase", "pos": "phrase", "text": "세워 주세요", "zh": "请停车", "features": { "roman": "sewo juseyo" }, "noteZh": "세우다(停下)+ -아/어 주세요;坐出租车到地方时说:여기서 세워 주세요(请在这儿停)。" },
+    { "id": "ko.meoreoyo", "kind": "word", "pos": "adj", "text": "멀어요", "zh": "远", "features": { "roman": "meoreoyo" }, "noteZh": "原形 멀다;여기에서 멀어요?= 离这儿远吗?;连音读 [머러요]。" },
+    { "id": "ko.gakkawoyo", "kind": "word", "pos": "adj", "text": "가까워요", "zh": "近", "features": { "roman": "gakkawoyo" }, "noteZh": "原形 가깝다,ㅂ 变 우(和 매워요 一样):가깝 + 어요 → 가까워요。" }
+  ],
+  "reviewItems": ["ko.bun", "ko.gaseyo", "ko.tayo", "ko.myeot"],
+  "lines": [
+    { "speaker": "nam", "text": "천징 씨, 저는 남산에 가고 싶어요.", "zh": "(星期天)陈静,我想去南山。", "roman": "cheonjing ssi, jeoneun namsane gago sipeoyo.", "items": ["ko.ssi", "ko.jeo", "ko.gayo"] },
+    { "speaker": "jing", "text": "저도 가고 싶어요! 학교 앞 정류장에서 버스를 타요.", "zh": "我也想去!我们去学校门口的车站坐公交吧。", "roman": "jeodo gago sipeoyo! hakgyo ap jeongnyujangeseo beoseureul tayo.", "items": ["ko.jeo", "ko.gayo", "ko.hakgyo", "ko.ap", "ko.jeongnyujang", "ko.beoseu", "ko.tayo"] },
+    { "speaker": "jing", "text": "저기요, 남산이 여기에서 멀어요?", "zh": "(在车站,陈静问旁边等车的人)打扰一下,南山离这儿远吗?", "roman": "jeogiyo, namsani yeogieseo meoreoyo?", "items": ["ko.jeogiyo", "ko.yeogi", "ko.meoreoyo"] },
+    { "speaker": "passerby", "text": "조금 멀어요. 버스로 삼십 분 걸려요.", "zh": "有点远。坐公交要三十分钟。", "roman": "jogeum meoreoyo. beoseuro samsip bun geollyeoyo.", "items": ["ko.jogeum", "ko.meoreoyo", "ko.beoseu", "ko.sam", "ko.sip", "ko.bun", "ko.eolmana_geollyeoyo"] },
+    { "speaker": "nam", "text": "몇 번 버스를 타요?", "zh": "坐几路车?", "roman": "myeot beon beoseureul tayo?", "items": ["ko.myeot", "ko.beon", "ko.beoseu", "ko.tayo"] },
+    { "speaker": "passerby", "text": "아, 저 버스요! 지금 와요.", "zh": "啊,就那辆!正好来了。", "roman": "a, jeo beoseuyo! jigeum wayo.", "items": ["ko.beoseu", "ko.jigeum", "ko.wayo"] },
+    { "speaker": "nam", "text": "천징 씨, 신촌이 여기에서 가까워요?", "zh": "(傍晚在南山,下起了雨)陈静,新村离这儿近吗?", "roman": "cheonjing ssi, sinchoni yeogieseo gakkawoyo?", "items": ["ko.ssi", "ko.yeogi", "ko.gakkawoyo"] },
+    { "speaker": "jing", "text": "아니요, 멀어요. 택시를 타요!", "zh": "不近,挺远的。我们打车吧!", "roman": "aniyo, meoreoyo. taeksireul tayo!", "items": ["ko.aniyo", "ko.meoreoyo", "ko.taeksi", "ko.tayo"] },
+    { "speaker": "driver", "text": "안녕하세요. 어디로 가세요?", "zh": "(上了出租车)您好。去哪儿?", "roman": "annyeonghaseyo. eodiro gaseyo?", "items": ["ko.annyeonghaseyo", "ko.eodi", "ko.gaseyo"] },
+    { "speaker": "jing", "text": "기사님, 신촌역으로 가 주세요. 얼마나 걸려요?", "zh": "师傅,请到新村站。要多长时间?", "roman": "gisanim, sinchonnyeogeuro ga juseyo. eolmana geollyeoyo?", "items": ["ko.gisanim", "ko.yeok", "ko.gayo", "ko.eolmana_geollyeoyo"] },
+    { "speaker": "driver", "text": "이십 분 걸려요.", "zh": "要二十分钟。", "roman": "isip bun geollyeoyo.", "items": ["ko.i", "ko.sip", "ko.bun", "ko.eolmana_geollyeoyo"] },
+    { "speaker": "jing", "text": "기사님, 여기서 세워 주세요. 감사합니다!", "zh": "(到了新村站附近)师傅,请在这儿停车。谢谢您!", "roman": "gisanim, yeogiseo sewo juseyo. gamsahamnida!", "items": ["ko.gisanim", "ko.yeogi", "ko.sewo_juseyo", "ko.gamsahamnida"] }
+  ],
+  "questions": [
+    { "prompt": "路人说坐公交去南山要多久?", "options": ["二十分钟", "三十分钟", "十分钟"], "answer": 1, "explainZh": "第 4 句:조금 멀어요. 버스로 삼십 분 걸려요(有点远,坐公交要三十分钟)。二十分钟是后来打车回新村的时间。" },
+    { "prompt": "回新村时,陈静为什么说要打车?", "options": ["新村离这儿远", "出租车更便宜", "公交车不去新村"], "answer": 0, "explainZh": "第 7、8 句:南问 신촌이 여기에서 가까워요?(新村离这儿近吗?),陈静说 아니요, 멀어요. 택시를 타요!(不近,挺远的,打车吧!)" },
+    { "prompt": "到了地方,陈静对司机说什么?", "options": ["얼마나 걸려요?", "신촌역으로 가 주세요.", "여기서 세워 주세요."], "answer": 2, "explainZh": "最后一句:기사님, 여기서 세워 주세요(师傅,请在这儿停车)。上车时说 신촌역으로 가 주세요,问时间说 얼마나 걸려요?" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u6_go_sipeoyo", "titleZh": "-고 싶어요:想……",
+      "bodyZh": "动词词干 + 고 싶어요 = 想做……:가다 → 가고 싶어요(想去)、타다 → 타고 싶어요(想坐)、먹다 → 먹고 싶어요(想吃)。词干就是原形去掉 다,有没有收音都直接加 고 싶어요,不用变形。\n问对方:어디에 가고 싶어요?(你想去哪儿?)、뭐 먹고 싶어요?(你想吃什么?);接话:저도 가고 싶어요!(我也想去!)。注意:-고 싶어요 只用来说“我想”或问“你想”;说别人“他想……”要换成 -고 싶어해요(以后学),这一点和汉语不一样。",
+      "examples": [ { "text": "저는 남산에 가고 싶어요.", "zh": "我想去南山。" }, { "text": "저도 가고 싶어요!", "zh": "我也想去!" } ] },
+    { "id": "ko.g.u6_a_juseyo", "titleZh": "-아/어 주세요:请(为我)……;坐出租车的三句话",
+      "bodyZh": "动词的 해요 形去掉 요,再加 주세요 = 请(为我)做……:가요 → 가 주세요(请开到……)、세워요 → 세워 주세요(请停下)、말해요 → 말해 주세요(请说)。学过的 다시 말해 주세요、천천히 말해 주세요 就是这个结构。上一课的 -(으)세요 是客气地指示,-아/어 주세요 更像“拜托你帮我做”,请司机、店员做事时最常用。\n坐出租车:① 上车说 目的地 + (으)로 가 주세요:신촌역으로 가 주세요;② 问时间:얼마나 걸려요?——이십 분 걸려요(要二十分钟);③ 到了说 여기서 세워 주세요(请在这儿停),下车说 감사합니다。여기서 是 여기에서 的口语缩略。问远近:여기에서 멀어요?——조금 멀어요 / 가까워요。",
+      "examples": [ { "text": "기사님, 신촌역으로 가 주세요.", "zh": "师傅,请到新村站。" }, { "text": "여기서 세워 주세요.", "zh": "请在这儿停车。" } ] }
+  ],
+  "review": "draft"
+}
