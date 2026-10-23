@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u4.l03", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104030,
+  "titleZh": "在面包店:一共多少钱?", "goalZh": "会在面包店买东西、问价格、付钱", "canDoZh": "能在面包店买东西并问价格,听懂一共多少钱,选择付现金还是刷卡",
+  "skills": ["listen", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.baeckerei", "kind": "word", "pos": "noun", "text": "die Bäckerei", "zh": "面包店", "features": { "gender": "f", "plural": "die Bäckereien", "ipa": "bɛkəˈʁaɪ̯" }, "noteZh": "-ei 结尾的名词是阴性,重音在 -ei 上:Bäcke-REI;面包师是 der Bäcker。德国很多面包店里也有几张桌子,可以坐下喝咖啡。" },
+    { "id": "de.broetchen", "kind": "word", "pos": "noun", "text": "das Brötchen", "zh": "小面包", "alt": ["die Schrippe"], "features": { "gender": "n", "plural": "die Brötchen", "ipa": "ˈbʁøːtçən" }, "noteZh": "-chen 结尾的名词都是中性,复数不变;柏林人管它叫 die Schrippe。" },
+    { "id": "de.kuchen", "kind": "word", "pos": "noun", "text": "der Kuchen", "zh": "蛋糕", "features": { "gender": "m", "plural": "die Kuchen", "ipa": "ˈkuːxn̩" }, "noteZh": "和 die Küche(厨房)不同:Kuchen 是长音 u,ch 读 [x]。" },
+    { "id": "de.stueck", "kind": "word", "pos": "noun", "text": "das Stück", "zh": "块;件;个", "features": { "gender": "n", "plural": "die Stücke", "ipa": "ʃtʏk" }, "noteZh": "ein Stück Kuchen(一块蛋糕);和数字连用时不变:zwei Stück Kuchen;St 读 [ʃt],ü 是短音。" },
+    { "id": "de.wie_viel", "kind": "phrase", "pos": "phrase", "text": "wie viel", "zh": "多少", "features": { "ipa": "viː ˈfiːl" }, "noteZh": "Wie viel kostet das?(多少钱?)分开写;问可数的东西有几个用 wie viele:Wie viele Brötchen?" },
+    { "id": "de.das_macht", "kind": "phrase", "pos": "phrase", "text": "Das macht …", "zh": "一共……(钱)", "features": { "ipa": "das ˈmaxt" }, "noteZh": "店员常说:Das macht drei Euro zwanzig.(一共 3.20 欧元。)" },
+    { "id": "de.alles", "kind": "word", "pos": "pron", "text": "alles", "zh": "一切;全部", "features": { "ipa": "ˈaləs" }, "noteZh": "店员问 Ist das alles?(就这些吗?)回答 Ja, das ist alles.;常听到 Alles klar!(好的,明白!)" },
+    { "id": "de.zusammen", "kind": "word", "pos": "adv", "text": "zusammen", "zh": "一起;一共", "features": { "ipa": "tsuˈzamən" }, "noteZh": "Das macht zusammen fünf Euro.(一共 5 欧元。)在餐馆:Zusammen oder getrennt?(一起付还是分开付?)" },
+    { "id": "de.bar", "kind": "word", "pos": "adv", "text": "bar", "zh": "用现金", "features": { "ipa": "baːɐ̯" }, "noteZh": "Zahlen Sie bar oder mit Karte?(付现金还是刷卡?)德国有些小店只收现金。" },
+    { "id": "de.karte", "kind": "word", "pos": "noun", "text": "die Karte", "zh": "卡;卡片", "features": { "gender": "f", "plural": "die Karten", "ipa": "ˈkaʁtə" }, "noteZh": "mit Karte zahlen = 刷卡;Karte 能组成很多词:Speisekarte(菜单)、Fahrkarte(车票)。" }
+  ],
+  "reviewItems": ["de.euro", "de.kosten", "de.moechten"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Morgen! Ist das eine Bäckerei oder ein Café?", "zh": "早上好!这儿是面包店还是咖啡馆?", "items": ["de.guten_morgen", "de.das_ist", "de.ein", "de.baeckerei", "de.oder", "de.cafe"] },
+    { "speaker": "verkaeuferin", "text": "Eine Bäckerei und ein Café! Was möchten Sie?", "zh": "既是面包店也是咖啡馆!您要点什么?", "items": ["de.ein", "de.baeckerei", "de.und", "de.cafe", "de.was", "de.moechten", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Vier Brötchen und zwei Stück Kuchen, bitte.", "zh": "请给我四个小面包和两块蛋糕。", "items": ["de.vier", "de.broetchen", "de.und", "de.zwei", "de.stueck", "de.kuchen", "de.bitte"] },
+    { "speaker": "verkaeuferin", "text": "Ist das alles?", "zh": "就这些吗?", "items": ["de.das_ist", "de.alles"] },
+    { "speaker": "wei", "text": "Ja. Wie viel kostet das?", "zh": "对。多少钱?", "items": ["de.ja", "de.wie_viel", "de.kosten", "de.das_ist"] },
+    { "speaker": "verkaeuferin", "text": "Das macht zusammen sechs Euro zwanzig. Bar oder mit Karte?", "zh": "一共 6.20 欧元。付现金还是刷卡?", "items": ["de.das_macht", "de.zusammen", "de.sechs", "de.euro", "de.zwanzig", "de.bar", "de.oder", "de.mit", "de.karte"] },
+    { "speaker": "wei", "text": "Mit Karte, bitte.", "zh": "刷卡,谢谢。", "items": ["de.mit", "de.karte", "de.bitte"] },
+    { "speaker": "verkaeuferin", "text": "Danke! Auf Wiedersehen!", "zh": "谢谢!再见!", "items": ["de.danke", "de.auf_wiedersehen"] }
+  ],
+  "questions": [
+    { "prompt": "王伟买了什么?", "options": ["两个小面包和四块蛋糕", "四个小面包和两块蛋糕", "四个小面包和一杯咖啡"], "answer": 1, "explainZh": "王伟说:Vier Brötchen und zwei Stück Kuchen, bitte.(四个小面包和两块蛋糕。)" },
+    { "prompt": "一共多少钱?王伟怎么付的?", "options": ["2.20 欧元,付现金", "6.20 欧元,付现金", "6.20 欧元,刷卡"], "answer": 2, "explainZh": "店员说:Das macht zusammen sechs Euro zwanzig.(一共 6.20 欧元)王伟说 Mit Karte, bitte.——刷卡。" }
+  ],
+  "grammar": [
+    { "id": "de.g.preise", "titleZh": "价格怎么读:6,20 € = sechs Euro zwanzig",
+      "bodyZh": "德语写价格用逗号:6,20 €(中文写 6.20 欧元)。读的时候先说欧元,再说后面的数,“分”(Cent)一般省略:2,20 € = zwei Euro zwanzig,6,20 € = sechs Euro zwanzig;不到 1 欧元才说 Cent:0,80 € = achtzig Cent。Euro 不加复数。问价钱用 Wie viel kostet …? 或 Was kostet …?(wie viel 分开写)。店员报总价常说 Das macht (zusammen) …。das Stück(块、份)和数字连用时不变:zwei Stück Kuchen(不说 ✗ zwei Stücke Kuchen);小面包直接数:vier Brötchen。在店里一定会听到的两句:Ist das alles?(就这些吗?)– Ja, das ist alles.;Bar oder mit Karte?(付现金还是刷卡?)",
+      "examples": [ { "text": "Ein Stück Kuchen kostet zwei Euro zwanzig.", "zh": "一块蛋糕 2.20 欧元。" }, { "text": "Das macht zusammen sechs Euro zwanzig.", "zh": "一共 6.20 欧元。" } ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u4.l02", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104020,
+  "titleZh": "我要一杯咖啡:möchten 和第四格", "goalZh": "会用 möchten 和 nehmen 点饮料,掌握第四格的 den / einen", "canDoZh": "能在咖啡馆点一杯喝的,也能问朋友想喝什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.cafe", "kind": "word", "pos": "noun", "text": "das Café", "zh": "咖啡馆", "alt": ["das Cafe"], "features": { "gender": "n", "plural": "die Cafés", "ipa": "kaˈfeː" }, "noteZh": "Café [kaˈfeː] 是咖啡馆,重音在后;Kaffee [ˈkafe] 是咖啡,重音在前。" },
+    { "id": "de.moechten", "kind": "word", "pos": "verb", "text": "möchten", "zh": "想要", "features": { "ipa": "ˈmœçtn̩" }, "noteZh": "ich möchte, du möchtest, er/sie möchte(第三人称没有 -t!);点餐、买东西时比 Ich will … 礼貌得多。" },
+    { "id": "de.trinken", "kind": "word", "pos": "verb", "text": "trinken", "zh": "喝", "features": { "ipa": "ˈtʁɪŋkn̩" }, "noteZh": "nk 读 [ŋk](像“ng”后面带个 k);Was möchtest du trinken?(你想喝点什么?)" },
+    { "id": "de.nehmen", "kind": "word", "pos": "verb", "text": "nehmen", "zh": "拿;要(点餐);乘坐", "features": { "ipa": "ˈneːmən" }, "noteZh": "不规则:du nimmst, er nimmt;点餐时 Ich nehme … = 我要……;Wir nehmen den Bus. = 我们坐公交车。" },
+    { "id": "de.kaffee", "kind": "word", "pos": "noun", "text": "der Kaffee", "zh": "咖啡", "features": { "gender": "m", "plural": "die Kaffees", "ipa": "ˈkafe" }, "noteZh": "点一杯:Einen Kaffee, bitte!(阳性第四格 einen);点几杯常说 zwei Kaffee。" },
+    { "id": "de.tee", "kind": "word", "pos": "noun", "text": "der Tee", "zh": "茶", "features": { "gender": "m", "plural": "die Tees", "ipa": "teː" }, "noteZh": "德国人说 Tee 常指红茶或花草茶;绿茶是 grüner Tee。" },
+    { "id": "de.wasser", "kind": "word", "pos": "noun", "text": "das Wasser", "zh": "水", "features": { "gender": "n", "plural": "-", "ipa": "ˈvasɐ" }, "noteZh": "w 读 [v];在餐馆点 ein Wasser 一般上瓶装水(常常是带气的)。" },
+    { "id": "de.tasse", "kind": "word", "pos": "noun", "text": "die Tasse", "zh": "(带把的)杯子", "features": { "gender": "f", "plural": "die Tassen", "ipa": "ˈtasə" }, "noteZh": "eine Tasse Kaffee / Tee:量词后面直接跟名词。" },
+    { "id": "de.glas", "kind": "word", "pos": "noun", "text": "das Glas", "zh": "玻璃杯;玻璃", "features": { "gender": "n", "plural": "die Gläser", "ipa": "ɡlaːs" }, "noteZh": "ein Glas Wasser;复数变音:die Gläser。" },
+    { "id": "de.mit", "kind": "word", "pos": "prep", "text": "mit", "zh": "和……一起;带着;乘(交通工具)", "features": { "ipa": "mɪt" }, "noteZh": "Kaffee mit Milch(加奶的咖啡)、mit Karte zahlen(刷卡)、mit Lena(和莉娜一起);mit 后面用第三格(mit dem Bus),第 6 单元细讲。" }
+  ],
+  "reviewItems": ["de.oder", "de.bitte", "de.danke"],
+  "lines": [
+    { "speaker": "lena", "text": "Wei, möchtest du ins Café?", "zh": "王伟,你想去咖啡馆吗?", "items": ["de.moechten", "de.du", "de.in", "de.cafe"] },
+    { "speaker": "wei", "text": "Kaffee? Nein, danke. Ich trinke Tee.", "zh": "咖啡?不了,谢谢。我喝茶。", "items": ["de.kaffee", "de.nein", "de.danke", "de.ich", "de.trinken", "de.tee"] },
+    { "speaker": "lena", "text": "Wei! Das Café, nicht der Kaffee!", "zh": "王伟!是咖啡馆,不是咖啡!", "items": ["de.cafe", "de.nicht", "de.kaffee"] },
+    { "speaker": "kellnerin", "text": "Hallo! Was möchten Sie trinken? Kaffee oder Tee?", "zh": "你们好!想喝点什么?咖啡还是茶?", "items": ["de.hallo", "de.was", "de.moechten", "de.sie_hoeflich", "de.trinken", "de.kaffee", "de.oder", "de.tee"] },
+    { "speaker": "lena", "text": "Ich nehme einen Kaffee mit Milch, bitte.", "zh": "我要一杯加奶的咖啡,谢谢。", "items": ["de.ich", "de.nehmen", "de.ein", "de.kaffee", "de.mit", "de.milch", "de.bitte"] },
+    { "speaker": "wei", "text": "Ich möchte eine Tasse Tee und ein Glas Wasser.", "zh": "我要一杯茶和一杯水。", "items": ["de.ich", "de.moechten", "de.ein", "de.tasse", "de.tee", "de.und", "de.glas", "de.wasser"] },
+    { "speaker": "kellnerin", "text": "Einen Kaffee, einen Tee und ein Wasser. Danke!", "zh": "一杯咖啡、一杯茶和一杯水。谢谢!", "items": ["de.ein", "de.kaffee", "de.tee", "de.und", "de.wasser", "de.danke"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜点了什么?", "options": ["一杯茶", "一杯加奶的咖啡", "一杯水"], "answer": 1, "explainZh": "莉娜说:Ich nehme einen Kaffee mit Milch, bitte.(我要一杯加奶的咖啡。)茶和水是王伟点的。" },
+    { "prompt": "莉娜请王伟去咖啡馆,王伟为什么先说 Nein, danke?", "options": ["他不喜欢咖啡馆", "他想回家", "他把 Café(咖啡馆)听成了 Kaffee(咖啡)"], "answer": 2, "explainZh": "王伟以为莉娜说的是 Kaffee(咖啡),就说 Nein, danke. Ich trinke Tee.;莉娜纠正:Das Café, nicht der Kaffee!" }
+  ],
+  "grammar": [
+    { "id": "de.g.moechten_nehmen", "titleZh": "möchten 和 nehmen:点喝的、点吃的",
+      "bodyZh": "点饮料、点菜最常用 möchten(想要)和 nehmen(要、拿)。möchten 的变位要特别记:ich möchte, du möchtest, er / sie möchte(第三人称没有 -t!), wir möchten, ihr möchtet, sie / Sie möchten。nehmen 是不规则动词,du 和 er / sie 的元音变了:ich nehme, du nimmst, er / sie nimmt。点东西说 Ich möchte … 或 Ich nehme …,比 Ich will … 礼貌得多——中文“我要一杯咖啡”直接用 will 说出来会显得很冲。问别人:对朋友 Was möchtest du trinken?,对服务员、陌生人 Was möchten Sie trinken?。发音:Café [kaˈfeː](咖啡馆)重音在后,Kaffee [ˈkafe](咖啡)重音在前。",
+      "examples": [ { "text": "Was möchten Sie trinken?", "zh": "您想喝点什么?" }, { "text": "Lena möchte einen Kaffee.", "zh": "莉娜想要一杯咖啡。" }, { "text": "Du nimmst einen Tee.", "zh": "你要一杯茶。" } ] },
+    { "id": "de.g.akk_den_einen", "titleZh": "第四格:der → den,ein → einen",
+      "bodyZh": "möchten、nehmen、trinken 后面的东西是第四格。和第 3 单元学的一样,只有阳性要变:定冠词 der → den,不定冠词 ein → einen;阴性、中性不变。der Kaffee → Ich nehme den Kaffee / einen Kaffee.;die Tasse → eine Tasse;das Wasser → ein Wasser。点东西时常常只说名词,阳性照样用 einen:Einen Kaffee, bitte!。说“一杯……”时,量词后面直接跟名词,不加冠词:eine Tasse Tee, ein Glas Wasser(英语要说 a cup of tea)。“加奶的咖啡”说 Kaffee mit Milch,这里的 mit 是“加、带”。",
+      "examples": [ { "text": "Ich nehme den Tee.", "zh": "我要这个茶。" }, { "text": "Einen Kaffee mit Milch, bitte!", "zh": "请来一杯加奶的咖啡!" } ] }
+  ],
+  "review": "draft"
+}

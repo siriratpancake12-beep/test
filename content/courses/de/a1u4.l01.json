@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u4.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104010,
+  "titleZh": "去超市:写购物清单", "goalZh": "记住常见食物的名称,会说要买什么", "canDoZh": "能用德语写一张购物清单,在超市里说出要买的东西",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "de.supermarkt", "kind": "word", "pos": "noun", "text": "der Supermarkt", "zh": "超市", "features": { "gender": "m", "plural": "die Supermärkte", "ipa": "ˈzuːpɐˌmaʁkt" }, "noteZh": "复数变音:die Supermärkte;重音在 Su 上。德国超市周日和节假日一般不开门,周六要买齐。" },
+    { "id": "de.einkaufen", "kind": "word", "pos": "verb", "text": "einkaufen", "zh": "购物;采购", "features": { "ipa": "ˈaɪ̯nˌkaʊ̯fn̩" }, "noteZh": "可分动词:Wir kaufen ein.;常说 einkaufen gehen(去买东西)。" },
+    { "id": "de.kaufen", "kind": "word", "pos": "verb", "text": "kaufen", "zh": "买", "features": { "ipa": "ˈkaʊ̯fn̩" }, "noteZh": "kaufen 后面接买的东西:Ich kaufe Brot.;einkaufen 是“去采购”,一般不接具体东西。" },
+    { "id": "de.brot", "kind": "word", "pos": "noun", "text": "das Brot", "zh": "面包", "features": { "gender": "n", "plural": "die Brote", "ipa": "bʁoːt" }, "noteZh": "德国面包种类非常多;小圆面包是 das Brötchen。" },
+    { "id": "de.milch", "kind": "word", "pos": "noun", "text": "die Milch", "zh": "牛奶", "features": { "gender": "f", "plural": "-", "ipa": "mɪlç" }, "noteZh": "不可数,不加 ein:Wir brauchen Milch.;lch 里的 ch 读 [ç]。" },
+    { "id": "de.ei", "kind": "word", "pos": "noun", "text": "das Ei", "zh": "鸡蛋", "features": { "gender": "n", "plural": "die Eier", "ipa": "aɪ̯" }, "noteZh": "ei 读 [aɪ̯](像“爱”);复数 die Eier。超市里鸡蛋常按 6 个、10 个一盒卖。" },
+    { "id": "de.kaese", "kind": "word", "pos": "noun", "text": "der Käse", "zh": "奶酪", "features": { "gender": "m", "plural": "-", "ipa": "ˈkɛːzə" }, "noteZh": "ä 读长音 [ɛː],s 读 [z];不可数。" },
+    { "id": "de.obst", "kind": "word", "pos": "noun", "text": "das Obst", "zh": "水果(统称)", "features": { "gender": "n", "plural": "-", "ipa": "oːpst" }, "noteZh": "不可数的统称:Wir kaufen Obst.;具体的水果:der Apfel, die Banane。" },
+    { "id": "de.apfel", "kind": "word", "pos": "noun", "text": "der Apfel", "zh": "苹果", "features": { "gender": "m", "plural": "die Äpfel", "ipa": "ˈapfl̩" }, "noteZh": "复数变音:die Äpfel;pf 两个音都要发出来,先闭嘴唇再送气。" },
+    { "id": "de.gemuese", "kind": "word", "pos": "noun", "text": "das Gemüse", "zh": "蔬菜(统称)", "features": { "gender": "n", "plural": "-", "ipa": "ɡəˈmyːzə" }, "noteZh": "不可数的统称:Wir brauchen Gemüse.。" }
+  ],
+  "reviewItems": ["de.brauchen", "de.kuehlschrank", "de.noch"],
+  "lines": [
+    { "speaker": "sofia", "text": "Wei, was ist noch im Kühlschrank?", "zh": "王伟,冰箱里还有什么?", "items": ["de.was", "de.sein", "de.noch", "de.in", "de.kuehlschrank"] },
+    { "speaker": "wei", "text": "Noch Käse und Milch, aber keine Eier.", "zh": "还有奶酪和牛奶,但是没有鸡蛋了。", "items": ["de.noch", "de.kaese", "de.und", "de.milch", "de.aber", "de.kein", "de.ei"] },
+    { "speaker": "sofia", "text": "Wir brauchen Eier, Brot und Gemüse.", "zh": "我们需要鸡蛋、面包和蔬菜。", "items": ["de.wir", "de.brauchen", "de.ei", "de.brot", "de.und", "de.gemuese"] },
+    { "speaker": "wei", "text": "Und Obst! Ich kaufe Äpfel.", "zh": "还有水果!我买苹果。", "items": ["de.und", "de.obst", "de.ich", "de.kaufen", "de.apfel"] },
+    { "speaker": "sofia", "text": "Gut, wir kaufen jetzt ein!", "zh": "好,我们现在去买东西!", "items": ["de.gut", "de.wir", "de.einkaufen", "de.jetzt"] },
+    { "speaker": "wei", "text": "Der Supermarkt ist sehr groß! Wo ist das Brot?", "zh": "超市好大!面包在哪儿?", "items": ["de.supermarkt", "de.sein", "de.sehr", "de.gross", "de.wo", "de.brot"] },
+    { "speaker": "sofia", "text": "Das Brot ist hier. Das Gemüse auch.", "zh": "面包在这儿,蔬菜也在这儿。", "items": ["de.brot", "de.sein", "de.hier", "de.gemuese", "de.auch"] },
+    { "speaker": "kassiererin", "text": "Guten Tag! Zwölf Euro, bitte.", "zh": "您好!一共十二欧元。", "items": ["de.guten_tag", "de.zwoelf", "de.euro", "de.bitte"] },
+    { "speaker": "wei", "text": "Hier, bitte. Danke! Auf Wiedersehen!", "zh": "给您。谢谢!再见!", "items": ["de.hier", "de.bitte", "de.danke", "de.auf_wiedersehen"] }
+  ],
+  "questions": [
+    { "prompt": "冰箱里还有什么?", "options": ["鸡蛋和面包", "奶酪和牛奶", "水果和蔬菜"], "answer": 1, "explainZh": "王伟说:Noch Käse und Milch, aber keine Eier.(还有奶酪和牛奶,但是没有鸡蛋了。)" },
+    { "prompt": "王伟要买什么水果?", "options": ["香蕉", "橙子", "苹果"], "answer": 2, "explainZh": "王伟说:Und Obst! Ich kaufe Äpfel.(还有水果!我买苹果。)" },
+    { "prompt": "在收银台一共付了多少钱?", "options": ["12 欧元", "20 欧元", "2 欧元"], "answer": 0, "explainZh": "收银员说:Zwölf Euro, bitte.——zwölf = 12。" }
+  ],
+  "grammar": [
+    { "id": "de.g.unzaehlbar", "titleZh": "Wir brauchen Milch:不可数的东西不加 ein",
+      "bodyZh": "牛奶、奶酪、水果、蔬菜这类“论量不论个”的东西是不可数名词:前面不加 ein,也没有复数——Wir brauchen Milch. / Noch Käse und Milch.(不说 ✗ eine Milch)。否定用 kein:keine Milch, kein Käse。能一个一个数的东西,买的时候常用复数,也不加冠词:Ich kaufe Äpfel. / Wir brauchen Eier.。这两个复数要记牢:das Ei → die Eier,der Apfel → die Äpfel(变音)。中文“买点苹果”不分单复数;英语 apples / milk 的区别和德语一样。另外分清两个“买”:kaufen 后面接买的东西(Ich kaufe Äpfel.);einkaufen 是“去采购、购物”,一般不接具体东西,而且是可分动词:Wir kaufen jetzt ein.(ein 跑到句末,第 5 单元细讲)。",
+      "examples": [ { "text": "Wir brauchen Milch und Brot.", "zh": "我们需要牛奶和面包。" }, { "text": "Ich kaufe Äpfel und Eier.", "zh": "我买苹果和鸡蛋。" }, { "text": "Wir haben keine Eier.", "zh": "我们没有鸡蛋了。" }, { "text": "Wir kaufen jetzt ein.", "zh": "我们现在去买东西。" } ] }
+  ],
+  "review": "draft"
+}

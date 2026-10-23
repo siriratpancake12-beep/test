@@ -1,0 +1,43 @@
+{
+  "id": "ja.a1u1.l01", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 平假名与问候", "order": 101010,
+  "titleZh": "平假名①:あ行、か行和“你好”", "goalZh": "认读、书写 あ行和か行的 10 个平假名,学会白天打招呼",
+  "canDoZh": "能认读、写出 あいうえお かきくけこ;见面时能用 こんにちは 打招呼,称呼别人时会在名字后面加 さん",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "ja.kana_a", "kind": "char", "pos": "char", "text": "あ", "zh": "a(像“啊”)", "features": { "roman": "a" }, "noteZh": "来自汉字“安”的草书。嘴自然张开,不要张得太大。" },
+    { "id": "ja.kana_i", "kind": "char", "pos": "char", "text": "い", "zh": "i(像“衣”)", "features": { "roman": "i" }, "noteZh": "来自“以”。左长右短两笔。" },
+    { "id": "ja.kana_u", "kind": "char", "pos": "char", "text": "う", "zh": "u(像“乌”,嘴唇不撅)", "features": { "roman": "u" }, "noteZh": "来自“宇”。日语的 u 嘴唇放松、不撅圆,比汉语“乌”扁。" },
+    { "id": "ja.kana_e", "kind": "char", "pos": "char", "text": "え", "zh": "e(像“诶”)", "features": { "roman": "e" }, "noteZh": "来自“衣”。是单纯的 e,不要读成 ei。" },
+    { "id": "ja.kana_o", "kind": "char", "pos": "char", "text": "お", "zh": "o(像“哦”)", "features": { "roman": "o" }, "noteZh": "来自“於”。和 あ 很像:お 右上多一点。" },
+    { "id": "ja.kana_ka", "kind": "char", "pos": "char", "text": "か", "zh": "ka(像“卡”)", "features": { "roman": "ka" }, "noteZh": "来自“加”。在词中间送气很弱,中国人常听成“嘎”,但它是清音,不是浊音 が。" },
+    { "id": "ja.kana_ki", "kind": "char", "pos": "char", "text": "き", "zh": "ki(像英语 key)", "features": { "roman": "ki" }, "noteZh": "来自“幾”。和 さ 很像:き 有两横。" },
+    { "id": "ja.kana_ku", "kind": "char", "pos": "char", "text": "く", "zh": "ku(像“酷”,嘴唇不撅)", "features": { "roman": "ku" }, "noteZh": "来自“久”。一笔写成,像个“<”。" },
+    { "id": "ja.kana_ke", "kind": "char", "pos": "char", "text": "け", "zh": "ke(像 kei 去掉 i)", "features": { "roman": "ke" }, "noteZh": "来自“計”。" },
+    { "id": "ja.kana_ko", "kind": "char", "pos": "char", "text": "こ", "zh": "ko(像 kou 去掉 u)", "features": { "roman": "ko" }, "noteZh": "来自“己”。上下两笔,上短下长。" },
+    { "id": "ja.konnichiwa", "kind": "phrase", "pos": "phrase", "text": "こんにちは", "zh": "你好(白天见面)", "features": { "roman": "konnichiwa" }, "noteZh": "末尾的 は 读 wa,不读 ha(它原来是助词)。早上用 おはようございます,晚上用 こんばんは;家里人之间一般不说 こんにちは。" },
+    { "id": "ja.san", "kind": "word", "pos": "noun", "text": "さん", "zh": "……先生/女士(接在别人名字后的敬称)", "features": { "roman": "san" }, "noteZh": "接在别人的姓或名后面,男女老少都能用:リンさん、こばやしさん。不能用在自己的名字上(不说 リンさんです)。" }
+  ],
+  "reviewItems": [],
+  "lines": [
+    { "speaker": "saki", "text": "リン・ユーさん?", "zh": "是林雨同学吗?", "roman": "Rin Yuu-san?", "tokens": ["リン・ユー", "さん?"], "items": ["ja.san"] },
+    { "speaker": "rin", "text": "こんにちは。さきさん?", "zh": "你好。你是咲同学吧?", "roman": "Konnichiwa. Saki-san?", "tokens": ["こんにちは。", "さき", "さん?"], "items": ["ja.konnichiwa", "ja.san"] },
+    { "speaker": "saki", "text": "こんにちは、リンさん!", "zh": "你好,林同学!", "roman": "Konnichiwa, Rin-san!", "tokens": ["こんにちは、", "リン", "さん!"], "items": ["ja.konnichiwa", "ja.san"] },
+    { "speaker": "narrator", "text": "あ い う え お", "zh": "あ行:a i u e o", "roman": "a i u e o", "tokens": ["あ", "い", "う", "え", "お"], "items": ["ja.kana_a", "ja.kana_i", "ja.kana_u", "ja.kana_e", "ja.kana_o"] },
+    { "speaker": "narrator", "text": "か き く け こ", "zh": "か行:ka ki ku ke ko", "roman": "ka ki ku ke ko", "tokens": ["か", "き", "く", "け", "こ"], "items": ["ja.kana_ka", "ja.kana_ki", "ja.kana_ku", "ja.kana_ke", "ja.kana_ko"] }
+  ],
+  "questions": [
+    { "prompt": "咲见到林雨,先说了什么?", "options": ["こんにちは、リンさん!", "リン・ユーさん?", "さきさん?"], "answer": 1, "explainZh": "咲先用全名确认:リン・ユーさん?(是林雨同学吗?)确认以后才说 こんにちは、リンさん!。“さきさん?”是林雨说的。" },
+    { "prompt": "林雨跟咲打招呼,“你好”她是怎么说的?", "options": ["こんにちは", "さん", "さき"], "answer": 0, "explainZh": "林雨说:こんにちは。さきさん?——こんにちは 是白天见面的问候;さき 是咲的名字,さん 是加在名字后面的敬称。" },
+    { "prompt": "林雨叫咲的时候,名字后面加了什么?", "options": ["什么都不加,因为两人是同学", "加 こんにちは,表示客气", "加 さん,表示礼貌"], "answer": 2, "explainZh": "林雨说 さきさん?,咲也叫她 リンさん——在别人的名字后面加 さん 表示礼貌。介绍自己时不加 さん。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.gojuon_haku", "titleZh": "五十音图:行和段,一个假名一拍",
+      "bodyZh": "平假名按“五十音图”排列:横着的一组叫“行”(か行:か き く け こ),竖着的一组叫“段”(あ段:あ か……)。每一行都按 a i u e o 的顺序排,先把 あ行五个元音读准,后面各行只是在元音前加辅音:か = k + a。平假名来自汉字的草书:あ←安、い←以、か←加、こ←己。日语按“拍”数节奏,一个假名一拍,每拍长短差不多:かお 是 ka-o 两拍,不要连成一个音节“考”。元音要点:う 嘴唇放松、不撅圆;え 是单纯的 e,不滑向 ei;お 不滑向 ou。か行在词中间送气很弱,中国人常听成 ga(えき 听起来像“诶给”),但它仍是清音,不要读成浊音 が(第 4 课学)。",
+      "examples": [ { "text": "あい", "zh": "爱(a-i,两拍)" }, { "text": "いえ", "zh": "家;房子(i-e)" }, { "text": "かお", "zh": "脸(ka-o,不读成“考”)" }, { "text": "えき", "zh": "车站(e-ki,き 是清音)" } ] },
+    { "id": "ja.g.konnichiwa_san", "titleZh": "こんにちは 和 さん",
+      "bodyZh": "こんにちは 是白天见面时的问候,对谁都能用。末尾的 は 读 wa 不读 ha——它原来是助词(第 2 单元学)。早上说 おはようございます,晚上说 こんばんは(本单元后面学)。さん 接在别人的名字后面表示礼貌,相当于“……同学 / 先生 / 女士”,男女老少都能用,接姓、接名、接全名都行:リン・ユーさん、リンさん、さきさん。但不能用在自己身上:介绍自己时不说 ✗ リンさんです。中文里同学之间常直接叫名字,日语里刚认识的人之间一般都要加 さん。",
+      "examples": [ { "text": "こんにちは、さきさん。", "zh": "你好,咲同学。" }, { "text": "リンさん?", "zh": "(你是)林同学吗?" }, { "text": "リン・ユーさん、こんにちは。", "zh": "林雨同学,你好。" } ] }
+  ],
+  "review": "draft"
+}

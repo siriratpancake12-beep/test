@@ -1,0 +1,45 @@
+{
+  "id": "ja.a1u1.l02", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 平假名与问候", "order": 101020,
+  "titleZh": "平假名②:さ行、た行和“谢谢”", "goalZh": "认读、书写 さ行和た行的 10 个平假名,学会道谢和回应道谢",
+  "canDoZh": "能认读、写出 さしすせそ たちつてと;别人帮了忙能说 ありがとうございます,别人道谢时会回 いいえ",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ja.kana_sa", "kind": "char", "pos": "char", "text": "さ", "zh": "sa(像“撒”)", "features": { "roman": "sa" }, "noteZh": "来自“左”。和 ち 左右相反,别写反。" },
+    { "id": "ja.kana_shi", "kind": "char", "pos": "char", "text": "し", "zh": "shi(像“西”)", "features": { "roman": "shi" }, "noteZh": "来自“之”。读 shi(接近汉语“西”),不是 si。" },
+    { "id": "ja.kana_su", "kind": "char", "pos": "char", "text": "す", "zh": "su(像“斯”)", "features": { "roman": "su" }, "noteZh": "来自“寸”。在 です、ます 的末尾常常轻到几乎听不见。" },
+    { "id": "ja.kana_se", "kind": "char", "pos": "char", "text": "せ", "zh": "se(像 sei 去掉 i)", "features": { "roman": "se" }, "noteZh": "来自“世”。" },
+    { "id": "ja.kana_so", "kind": "char", "pos": "char", "text": "そ", "zh": "so(像 sou 去掉 u)", "features": { "roman": "so" }, "noteZh": "来自“曽”。可以一笔写,也可以两笔写。" },
+    { "id": "ja.kana_ta", "kind": "char", "pos": "char", "text": "た", "zh": "ta(像“他”)", "features": { "roman": "ta" }, "noteZh": "来自“太”。在词中间中国人常听成“哒”,但它是清音。" },
+    { "id": "ja.kana_chi", "kind": "char", "pos": "char", "text": "ち", "zh": "chi(像“七”)", "features": { "roman": "chi" }, "noteZh": "来自“知”。读 chi(接近汉语“七”)。和 さ 左右相反。" },
+    { "id": "ja.kana_tsu", "kind": "char", "pos": "char", "text": "つ", "zh": "tsu(像“此”)", "features": { "roman": "tsu" }, "noteZh": "来自“川”。tsu 是一个音(接近汉语“此”),不要读成“次乌”两个音。" },
+    { "id": "ja.kana_te", "kind": "char", "pos": "char", "text": "て", "zh": "te(像 tei 去掉 i)", "features": { "roman": "te" }, "noteZh": "来自“天”。" },
+    { "id": "ja.kana_to", "kind": "char", "pos": "char", "text": "と", "zh": "to(像 tou 去掉 u)", "features": { "roman": "to" }, "noteZh": "来自“止”。" },
+    { "id": "ja.arigatou_gozaimasu", "kind": "phrase", "pos": "phrase", "text": "ありがとうございます", "zh": "谢谢(礼貌)", "features": { "roman": "arigatou gozaimasu" }, "noteZh": "对朋友可以只说 ありがとう。とう 是长音,读 tō;店员常用过去形 ありがとうございました(谢谢惠顾)。" },
+    { "id": "ja.iie", "kind": "word", "pos": "interj", "text": "いいえ", "zh": "不,不是;哪里(回应道谢、道歉)", "features": { "roman": "iie" }, "noteZh": "别人道谢或道歉时说 いいえ,意思是“不客气、没关系”。用第 1 课的假名就能拼出来。" }
+  ],
+  "reviewItems": ["ja.kana_ka", "ja.kana_ki", "ja.konnichiwa", "ja.san"],
+  "lines": [
+    { "speaker": "rin", "text": "さきさん、ありがとうございます。", "zh": "咲同学,谢谢你。", "roman": "Saki-san, arigatou gozaimasu.", "tokens": ["さき", "さん、", "ありがとうございます。"], "items": ["ja.san", "ja.arigatou_gozaimasu"] },
+    { "speaker": "saki", "text": "いいえ、いいえ。", "zh": "不客气,不客气。", "roman": "Iie, iie.", "tokens": ["いいえ、", "いいえ。"], "items": ["ja.iie"] },
+    { "speaker": "keikan", "text": "こんにちは。", "zh": "你好。", "roman": "Konnichiwa.", "tokens": ["こんにちは。"], "items": ["ja.konnichiwa"] },
+    { "speaker": "rin", "text": "こんにちは。", "zh": "您好。", "roman": "Konnichiwa.", "tokens": ["こんにちは。"], "items": ["ja.konnichiwa"] },
+    { "speaker": "narrator", "text": "さ し す せ そ", "zh": "さ行:sa shi su se so", "roman": "sa shi su se so", "tokens": ["さ", "し", "す", "せ", "そ"], "items": ["ja.kana_sa", "ja.kana_shi", "ja.kana_su", "ja.kana_se", "ja.kana_so"] },
+    { "speaker": "narrator", "text": "た ち つ て と", "zh": "た行:ta chi tsu te to", "roman": "ta chi tsu te to", "tokens": ["た", "ち", "つ", "て", "と"], "items": ["ja.kana_ta", "ja.kana_chi", "ja.kana_tsu", "ja.kana_te", "ja.kana_to"] },
+    { "speaker": "narrator", "text": "か き さ し た ち", "zh": "ka ki、sa shi、ta chi(注意 shi 和 chi)", "roman": "ka ki sa shi ta chi", "tokens": ["か", "き", "さ", "し", "た", "ち"], "items": ["ja.kana_ka", "ja.kana_ki", "ja.kana_sa", "ja.kana_shi", "ja.kana_ta", "ja.kana_chi"] }
+  ],
+  "questions": [
+    { "prompt": "咲帮林雨拿行李,林雨说了什么?", "options": ["いいえ、いいえ。", "こんにちは。", "さきさん、ありがとうございます。"], "answer": 2, "explainZh": "林雨说:さきさん、ありがとうございます。(咲同学,谢谢你。)いいえ、いいえ 是咲的回答。" },
+    { "prompt": "林雨道谢以后,咲说 いいえ、いいえ,是什么意思?", "options": ["不对,不对", "不客气", "再见"], "answer": 1, "explainZh": "いいえ 本来是“不”,别人道谢时说 いいえ,意思是“哪里哪里、不客气”。" },
+    { "prompt": "在路上,谁跟林雨说了 こんにちは?", "options": ["派出所的警察", "咲", "大家さん"], "answer": 0, "explainZh": "路过派出所时,警察说 こんにちは,林雨也回了一句 こんにちは。日本街区的警察、邻居常跟路过的人打招呼,回一句问候就好。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.shi_chi_tsu", "titleZh": "さ行、た行:し、ち、つ 的读音",
+      "bodyZh": "さ行、た行大多是“辅音 + 元音”,但有三个例外:し 读 shi(接近“西”),ち 读 chi(接近“七”),つ 读 tsu(接近“此”,是一个音,不是“次乌”)。罗马字也写 shi / chi / tsu,不写 si / ti / tu(用输入法两种都能打出来)。す 在 です、ます 的词尾常轻得几乎听不见,听起来像 des、mas。た 在词中间送气弱,中国人常听成“哒”,但它是清音,和浊音 だ 不同。写法上注意:さ 和 ち 左右相反;き 比 さ 多一横。",
+      "examples": [ { "text": "すし", "zh": "寿司(su-shi)" }, { "text": "ちかてつ", "zh": "地铁(chi-ka-te-tsu)" }, { "text": "くつした", "zh": "袜子(ku-tsu-shi-ta)" }, { "text": "さとう", "zh": "砂糖;也是咲的姓“佐藤”" } ] },
+    { "id": "ja.g.arigatou_iie", "titleZh": "道谢和回应:ありがとうございます / いいえ",
+      "bodyZh": "别人帮了忙,礼貌地说 ありがとうございます。とう 是长音,要拉长一拍(第 5 课系统学长音)。对家人、好朋友可以只说 ありがとう;对刚认识的人、长辈、店员都要说完整的 ありがとうございます——林雨和咲刚认识,所以用礼貌的说法。别人向你道谢时,说 いいえ(哪里,不客气),说两遍 いいえ、いいえ 显得更热情。いいえ 本来是“不”,在这里是客气地表示“不用谢”。课本里常见的 どういたしまして 比较郑重,日常生活里更常听到 いいえ、いいえ。",
+      "examples": [ { "text": "ありがとうございます。", "zh": "谢谢。(礼貌)" }, { "text": "いいえ、いいえ。", "zh": "不客气,不客气。" }, { "text": "さきさん、ありがとうございます。", "zh": "咲同学,谢谢你。" } ] }
+  ],
+  "review": "draft"
+}

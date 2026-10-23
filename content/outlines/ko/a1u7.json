@@ -1,0 +1,125 @@
+{
+  "lang": "ko",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-7 购物", "cefr": "A1", "themeZh": "买东西:在传统市场问价、讲价,说衣服和颜色,试穿、换尺码,给妈妈挑生日礼物,听懂打折、退换货,最后陪室友去百货店挑父母节礼物" }
+  ],
+  "lessons": [
+    {
+      "id": "ko.a1u7.l01", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物", "order": 107010,
+      "titleZh": "苹果多少钱?",
+      "goalZh": "会问价钱、听懂用汉字数词说的价格,会算总价、讲价",
+      "canDoZh": "能在传统市场问价、听懂“一个一千韩元”,问一共多少钱并试着讲价",
+      "scenarioZh": "周六,陈静和秀雅(sua)去传统市场买水果。摊主阿姨(vendor)吆喝“학생, 사과 싸요!”;陈静问“사과 얼마예요?”——“한 개에 천 원이에요.”;陈静要五个,问“다 얼마예요?”——“오천 원이에요.”;秀雅说“조금 깎아 주세요!”,阿姨说“그럼 사천오백 원!”。课文至少 12 句;价格算对。",
+      "grammarFocusZh": "价格用汉字数词 + 원:천 원(1,000)、오천 원(5,000)、만 원(10,000)、이만 오천 원(25,000)。韩语和汉语一样四位一进(만 = 万),“一千、一万”前不加 일。单价:한 개에 천 원(一个一千)。问价:얼마예요?、다 얼마예요?(一共多少?)。비싸요 / 싸요;사요(买)和 싸요(便宜)只差松紧音。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.eolmayeyo", "kind": "phrase", "pos": "phrase", "text": "얼마예요", "zh": "多少钱?", "features": { "roman": "eolmayeyo" }, "noteZh": "이거 얼마예요?= 这个多少钱?;얼마 = 多少(钱)。" },
+        { "id": "ko.won", "kind": "word", "pos": "noun", "text": "원", "zh": "韩元(货币单位)", "features": { "roman": "won" }, "noteZh": "前面用汉字数词:천 원、오천 원;韩元面额大,一杯咖啡常要四五千韩元。" },
+        { "id": "ko.man", "kind": "word", "pos": "num", "text": "만", "zh": "万", "features": { "roman": "man" }, "noteZh": "汉字词 万;一万说 만,不说 일만:만 원、이만 오천 원(25,000)。" },
+        { "id": "ko.bissayo", "kind": "word", "pos": "adj", "text": "비싸요", "zh": "贵", "features": { "roman": "bissayo" }, "noteZh": "原形 비싸다;紧音 ㅆ;너무 비싸요!= 太贵了!" },
+        { "id": "ko.ssayo", "kind": "word", "pos": "adj", "text": "싸요", "zh": "便宜", "features": { "roman": "ssayo" }, "noteZh": "原形 싸다;注意紧音:싸요(便宜)不是 사요(买)。" },
+        { "id": "ko.kkakka_juseyo", "kind": "phrase", "pos": "phrase", "text": "깎아 주세요", "zh": "便宜一点吧", "features": { "roman": "kkakka juseyo" }, "noteZh": "字面“请削一点”;传统市场可以讲价,超市、商场一般不讲价。" },
+        { "id": "ko.sijang", "kind": "word", "pos": "noun", "text": "시장", "zh": "市场", "features": { "roman": "sijang" }, "noteZh": "汉字词 市场;传统市场比超市便宜,还能讲价。" },
+        { "id": "ko.gwail", "kind": "word", "pos": "noun", "text": "과일", "zh": "水果", "features": { "roman": "gwail" }, "noteZh": "과 = 果;韩国水果偏贵,常按个卖或按筐卖。" },
+        { "id": "ko.da", "kind": "word", "pos": "adv", "text": "다", "zh": "都;全部", "features": { "roman": "da" }, "noteZh": "다 얼마예요?= 一共多少钱?;放在动词、形容词前:다 맛있어요(都好吃)。" }
+      ],
+      "reviewItems": ["ko.sagwa", "ko.cheon", "ko.gae", "ko.jogeum"]
+    },
+    {
+      "id": "ko.a1u7.l02", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-7 购物", "order": 107020,
+      "titleZh": "你喜欢什么颜色?",
+      "goalZh": "会说常见的衣服和颜色,用“颜色 + 衣服”描述想要的东西",
+      "canDoZh": "能说出自己想买什么颜色的什么衣服,问朋友喜欢什么颜色",
+      "scenarioZh": "天气变暖,陈静没有春天的衣服。秀雅(sua)打开衣柜给她看自己的红裙子、黑裤子;两人聊喜欢的颜色(“빨간색 좋아해요?”“색깔 뭐 좋아해요?”——무슨 第 8 单元才学),陈静喜欢蓝色和白色,决定周末去东大门买黑裤子和白 T 恤。课文至少 10 句。",
+      "grammarFocusZh": "颜色 + 名词:빨간색 치마、검은색 바지、흰색 티셔츠(口语也说 빨간 치마)。颜色词结构:형용사 + 색(色):빨간색、파란색、노란색;검은색、흰색。复习 을/를 좋아해요、이거 / 그거 / 저거。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 13,
+      "newItems": [
+        { "id": "ko.tisyeocheu", "kind": "word", "pos": "noun", "text": "티셔츠", "zh": "T 恤", "features": { "roman": "tisyeocheu" }, "noteZh": "外来词 T-shirt;셔 = ㅅ + ㅕ,츠 用 ㅡ 补音。" },
+        { "id": "ko.baji", "kind": "word", "pos": "noun", "text": "바지", "zh": "裤子", "features": { "roman": "baji" }, "noteZh": "청바지 = 牛仔裤(청 = 青)。" },
+        { "id": "ko.chima", "kind": "word", "pos": "noun", "text": "치마", "zh": "裙子", "features": { "roman": "chima" }, "noteZh": "치 要送气;韩服的裙子也叫 치마。" },
+        { "id": "ko.sinbal", "kind": "word", "pos": "noun", "text": "신발", "zh": "鞋", "features": { "roman": "sinbal" }, "noteZh": "鞋子的统称;进韩国人家里、一些饭馆要脱鞋。" },
+        { "id": "ko.saekkkal", "kind": "word", "pos": "noun", "text": "색깔", "zh": "颜色", "features": { "roman": "saekkkal" }, "noteZh": "색(色)+ 깔;다른 색깔 있어요?= 有别的颜色吗?" },
+        { "id": "ko.geomeunsaek", "kind": "word", "pos": "noun", "text": "검은색", "zh": "黑色", "alt": ["검정색"], "features": { "roman": "geomeunsaek" }, "noteZh": "也说 검정색;连音读 [거믄색]。" },
+        { "id": "ko.huinsaek", "kind": "word", "pos": "noun", "text": "흰색", "zh": "白色", "alt": ["하얀색"], "features": { "roman": "huinsaek" }, "noteZh": "ㅢ 在辅音后读 [이]:[힌색];也说 하얀색。" },
+        { "id": "ko.ppalgansaek", "kind": "word", "pos": "noun", "text": "빨간색", "zh": "红色", "features": { "roman": "ppalgansaek" }, "noteZh": "紧音 ㅃ;也说 빨강。" },
+        { "id": "ko.paransaek", "kind": "word", "pos": "noun", "text": "파란색", "zh": "蓝色", "features": { "roman": "paransaek" }, "noteZh": "送气 ㅍ;也说 파랑。파란 불 是“绿灯”,韩语的 파랗다 有时也包括绿色。" }
+      ],
+      "reviewItems": ["ko.ot", "ko.joahaeyo", "ko.igeo", "ko.mwo"]
+    },
+    {
+      "id": "ko.a1u7.l03", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物", "order": 107030,
+      "titleZh": "可以试穿吗?",
+      "goalZh": "会在服装店要求试穿,说大小合不合适,要别的尺码或颜色",
+      "canDoZh": "能在服装店试穿衣服,说“有点大”,要求换小一号或别的颜色",
+      "scenarioZh": "东大门的一家服装店。店员(clerk)说“어서 오세요.”;陈静拿起一条蓝色裙子问“입어 봐도 돼요?”,店员指着试衣间说“네, 저기요.”;试完说“좀 커요. 더 작은 거 있어요?”(더 작은 거 当整块用);又问“다른 색깔 있어요?”;秀雅(sua)说“잘 어울려요!”。最后陈静买了 S 码的蓝裙子。课文至少 12 句。",
+      "grammarFocusZh": "ㅡ 脱落:词干以 ㅡ 结尾时 ㅡ 去掉再加 -아요/-어요——크다 → 커요、예쁘다 → 예뻐요、배고프다 → 배고파요。程度:좀 커요(有点大)、더 작아요(更小)。다른 + 名词:다른 색깔、다른 사이즈。입어 봐도 돼요?= 可以试穿吗?(-아/어 보다“试试”+ -아/어도 돼요“可以吗”,先整句记)。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.saijeu", "kind": "word", "pos": "noun", "text": "사이즈", "zh": "尺码", "features": { "roman": "saijeu" }, "noteZh": "外来词 size;衣服常用 S、M、L 或 90、95、100,鞋用毫米(235 = 23.5 厘米)。" },
+        { "id": "ko.keoyo", "kind": "word", "pos": "adj", "text": "커요", "zh": "大", "features": { "roman": "keoyo" }, "noteZh": "原形 크다(ㅡ 脱落:크 + 어요 → 커요);너무 커요 = 太大了。" },
+        { "id": "ko.jagayo", "kind": "word", "pos": "adj", "text": "작아요", "zh": "小", "features": { "roman": "jagayo" }, "noteZh": "原形 작다;连音读 [자가요]。" },
+        { "id": "ko.dareun", "kind": "word", "pos": "det", "text": "다른", "zh": "别的;其他的", "features": { "roman": "dareun" }, "noteZh": "放在名词前:다른 색깔 있어요?(有别的颜色吗?)、다른 거(别的)。" },
+        { "id": "ko.jom", "kind": "word", "pos": "adv", "text": "좀", "zh": "稍微;(请求时)请", "features": { "roman": "jom" }, "noteZh": "조금 的口语形:좀 커요(有点大);请求时加 좀 更客气:좀 깎아 주세요、좀 천천히 말해 주세요。" },
+        { "id": "ko.deo", "kind": "word", "pos": "adv", "text": "더", "zh": "更;再", "features": { "roman": "deo" }, "noteZh": "더 작아요(更小)、하나 더 주세요(再来一个)。" },
+        { "id": "ko.ibeo_bwado_dwaeyo", "kind": "phrase", "pos": "phrase", "text": "입어 봐도 돼요", "zh": "可以试穿吗?", "features": { "roman": "ibeo bwado dwaeyo" }, "noteZh": "입다(穿)+ 보다(试)+ -아/어도 돼요(可以吗);试鞋说 신어 봐도 돼요?" },
+        { "id": "ko.jal_eoullyeoyo", "kind": "phrase", "pos": "phrase", "text": "잘 어울려요", "zh": "很适合你;很配", "features": { "roman": "jal eoullyeoyo" }, "noteZh": "店员和朋友最常说的夸奖;ㄹ 连读,像 [자러울려요]。" }
+      ],
+      "reviewItems": ["ko.eoseo_oseyo", "ko.chima", "ko.paransaek", "ko.dwaeyo"]
+    },
+    {
+      "id": "ko.a1u7.l04", "lang": "ko", "type": "grammar", "cefr": "A1", "unit": "A1-7 购物", "order": 107040,
+      "titleZh": "给妈妈挑生日礼物",
+      "goalZh": "会用 -고 싶어요 说想买什么,用 어때요? 征求意见,选定一样东西",
+      "canDoZh": "能在店里说想给谁买什么礼物,问“这个怎么样?”,最后说“就要这个”",
+      "scenarioZh": "五月是妈妈的生日,陈静想寄礼物回杭州:“엄마 생일 선물을 사고 싶어요.”。秀雅(sua)带她去明洞的化妆品店。店员(clerk)拿出几样:“이거 어때요?”;陈静问价钱,觉得一个太贵,另一个颜色很好看:“예뻐요! 마음에 들어요.”;最后说“이걸로 주세요.”,刷卡付款。课文至少 12 句。",
+      "grammarFocusZh": "-고 싶어요 = 想……:선물을 사고 싶어요;问对方:뭐 사고 싶어요?。征求意见:N 어때요?(这个怎么样?);拿不定主意时自言自语 뭐 살까요?(买什么好呢?)——-(으)ㄹ까요? 第 8 单元系统学。예쁘다 → 예뻐요(ㅡ 脱落)。마음에 들어요(看中了、满意)和 좋아해요(一向喜欢)的区别。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.sayo", "kind": "word", "pos": "verb", "text": "사요", "zh": "买", "features": { "roman": "sayo" }, "noteZh": "原形 사다;사요(买)/ 싸요(便宜)只差松紧;사고 싶어요 = 想买。" },
+        { "id": "ko.seonmul", "kind": "word", "pos": "noun", "text": "선물", "zh": "礼物", "features": { "roman": "seonmul" }, "noteZh": "汉字词 膳物;생일 선물 = 生日礼物。" },
+        { "id": "ko.hwajangpum", "kind": "word", "pos": "noun", "text": "화장품", "zh": "化妆品", "features": { "roman": "hwajangpum" }, "noteZh": "汉字词 化妆品;화장품 가게 = 化妆品店。" },
+        { "id": "ko.eottaeyo", "kind": "phrase", "pos": "phrase", "text": "어때요", "zh": "怎么样?", "features": { "roman": "eottaeyo" }, "noteZh": "原形 어떻다;이거 어때요?= 这个怎么样?;回答 좋아요 / 예뻐요 / 좀 비싸요。" },
+        { "id": "ko.yeppeoyo", "kind": "word", "pos": "adj", "text": "예뻐요", "zh": "漂亮;好看", "features": { "roman": "yeppeoyo" }, "noteZh": "原形 예쁘다(ㅡ 脱落);夸东西、夸人都可以。" },
+        { "id": "ko.maeume_deureoyo", "kind": "phrase", "pos": "phrase", "text": "마음에 들어요", "zh": "看中了;满意", "features": { "roman": "maeume deureoyo" }, "noteZh": "字面“进到心里”;挑东西时说 이거 마음에 들어요;连音读 [마으메 드러요]。" },
+        { "id": "ko.igeollo_juseyo", "kind": "phrase", "pos": "phrase", "text": "이걸로 주세요", "zh": "就要这个", "features": { "roman": "igeollo juseyo" }, "noteZh": "이거 + (으)로(选定)+ 주세요;在几样东西里选定时说。" }
+      ],
+      "reviewItems": ["ko.eomma", "ko.saengil", "ko.eolmayeyo", "ko.bissayo"]
+    },
+    {
+      "id": "ko.a1u7.l05", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物", "order": 107050,
+      "titleZh": "能换吗?打折和退换货",
+      "goalZh": "会拿着小票去换尺码,听懂能不能退款、打几折、付现金还是刷卡",
+      "canDoZh": "能带着小票去店里换货,听懂“打八折”“只能换不能退”",
+      "scenarioZh": "陈静回宿舍才发现那条蓝裙子太小,第二天带着小票回到东大门那家店。店员(clerk)问“영수증 있어요?”——“네, 여기요.”;陈静问“환불돼요?”——“환불은 안 돼요. 교환돼요.”;陈静说“M 사이즈로 바꿔 주세요.”;店员说今天全场“이십 퍼센트 할인”,陈静又看中一件白 T 恤,问“현금 돼요? 카드 돼요?”。课文至少 12 句;理解题可以考“이십 퍼센트 할인 = 打八折”。",
+      "grammarFocusZh": "N(으)로 바꿔 주세요 = 请换成 N:다른 사이즈로、M 사이즈로。N 돼요?:교환돼요?、환불돼요?、현금 돼요?(能……吗?)。打折:이십 퍼센트 할인 = 减 20% = 打八折,중국 学习者最容易算错。对比 은/는:환불은 안 돼요(退款是不行的,换货可以)。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.hyeongeum", "kind": "word", "pos": "noun", "text": "현금", "zh": "现金", "features": { "roman": "hyeongeum" }, "noteZh": "汉字词 现金;韩国几乎处处能刷卡,传统市场的小摊有时只收现金。" },
+        { "id": "ko.yeongsujeung", "kind": "word", "pos": "noun", "text": "영수증", "zh": "收据;小票", "features": { "roman": "yeongsujeung" }, "noteZh": "汉字词 领收证;退换货一定要带 영수증。" },
+        { "id": "ko.harin", "kind": "word", "pos": "noun", "text": "할인", "zh": "打折;折扣", "features": { "roman": "harin" }, "noteZh": "汉字词 割引;连音读 [하린]。삼십 퍼센트 할인 = 打七折,不是打三折!" },
+        { "id": "ko.gyohwan", "kind": "word", "pos": "noun", "text": "교환", "zh": "换货;交换", "features": { "roman": "gyohwan" }, "noteZh": "汉字词 交换;교환돼요?= 能换吗?" },
+        { "id": "ko.hwanbul", "kind": "word", "pos": "noun", "text": "환불", "zh": "退款", "features": { "roman": "hwanbul" }, "noteZh": "汉字词 还拂;환불돼요?= 能退款吗?" },
+        { "id": "ko.bakkwo_juseyo", "kind": "phrase", "pos": "phrase", "text": "바꿔 주세요", "zh": "请给我换(一下)", "features": { "roman": "bakkwo juseyo" }, "noteZh": "바꾸다(换)+ -아/어 주세요;다른 사이즈로 바꿔 주세요 = 请给我换个尺码。" },
+        { "id": "ko.peosenteu", "kind": "word", "pos": "noun", "text": "퍼센트", "zh": "百分之……", "features": { "roman": "peosenteu" }, "noteZh": "外来词 percent;前面用汉字数词:이십 퍼센트(20%)。" }
+      ],
+      "reviewItems": ["ko.kadeu", "ko.saijeu", "ko.jagayo", "ko.dwaeyo"]
+    },
+    {
+      "id": "ko.a1u7.l08", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物", "order": 107080,
+      "titleZh": "单元复习:百货店里挑父母节礼物",
+      "goalZh": "把本单元的问价、颜色、尺码、打折、付款串起来,帮别人挑东西",
+      "canDoZh": "能陪朋友逛商店:帮她出主意、问价和折扣、比较颜色,最后完成付款",
+      "scenarioZh": "5 月 8 日是韩国的父母节(어버이날),秀雅(sua)要给爸爸妈妈买礼物,陈静陪她去百货店。这次轮到陈静出主意:“이 지갑 어때요?”“노란색 모자도 예뻐요.”;两人问店员(clerk)价钱和折扣,比较颜色,秀雅买了钱包,陈静看到打折的帽子也给自己买了一顶;最后刷卡、要小票。课文至少 14 句。",
+      "grammarFocusZh": "复习:얼마예요?/ 다 얼마예요?、颜色 + 名词、다른 N 있어요?、-고 싶어요、어때요?、N(으)로 주세요 / 바꿔 주세요、할인 和价格计算。N도 = 也:노란색 모자도 예뻐요。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.baekhwajeom", "kind": "word", "pos": "noun", "text": "백화점", "zh": "百货商店", "features": { "roman": "baekhwajeom" }, "noteZh": "汉字词 百货店;ㄱ 和 ㅎ 合成送气音,读 [배콰점]。" },
+        { "id": "ko.jigap", "kind": "word", "pos": "noun", "text": "지갑", "zh": "钱包", "features": { "roman": "jigap" }, "noteZh": "汉字词 纸匣;收音 ㅂ 不爆破。" },
+        { "id": "ko.moja", "kind": "word", "pos": "noun", "text": "모자", "zh": "帽子", "features": { "roman": "moja" }, "noteZh": "汉字词 帽子;“戴帽子”是 모자를 써요(以后学)。" },
+        { "id": "ko.noransaek", "kind": "word", "pos": "noun", "text": "노란색", "zh": "黄色", "features": { "roman": "noransaek" }, "noteZh": "也说 노랑;노란색 모자 = 黄色帽子。" }
+      ],
+      "reviewItems": ["ko.seonmul", "ko.harin", "ko.jal_eoullyeoyo", "ko.maeume_deureoyo"]
+    }
+  ]
+}
