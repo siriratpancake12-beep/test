@@ -13,37 +13,37 @@
     { "id": "de.kopieren", "kind": "word", "pos": "verb", "text": "kopieren", "zh": "复印;复制", "features": { "ipa": "koˈpiːʁən" }, "noteZh": "Kopier deine Dokumente!(把证件都复印一份!)-ieren 结尾,完成时不加 ge-:Ich habe den Pass kopiert.;重音在 pie 上。" },
     { "id": "de.schlimm", "kind": "word", "pos": "adj", "text": "schlimm", "zh": "糟糕;严重", "features": { "ipa": "ʃlɪm" }, "noteZh": "安慰人常说:Das ist nicht so schlimm.(没那么严重。)反过来 Das ist schlimm!(这可糟了!)sch 读 [ʃ],i 是短元音。" }
   ],
-  "reviewItems": ["de.pech", "de.liste", "de.bankkarte", "de.aufenthaltserlaubnis", "de.auslaenderbehoerde", "de.sofort"],
+  "reviewItems": ["de.bankkarte", "de.aufenthaltserlaubnis", "de.auslaenderbehoerde", "de.foto", "de.schnell", "de.warten"],
   "lines": [
-    { "speaker": "sofia", "text": "Was für ein Pech, Wei! Welche Dokumente waren im Geldbeutel?", "zh": "(回到 WG)真倒霉,王伟!钱包里都有哪些证件?", "items": ["de.was", "de.fuer", "de.ein", "de.pech", "de.welche", "de.dokument", "de.sein", "de.in", "de.geldbeutel"] },
-    { "speaker": "wei", "text": "Meine Bankkarte, mein Studentenausweis und meine Versichertenkarte.", "zh": "我的银行卡、学生证,还有医保卡。", "items": ["de.mein", "de.bankkarte", "de.studentenausweis", "de.und", "de.versichertenkarte"] },
-    { "speaker": "sofia", "text": "Langsam! Wir schreiben eine Liste. Was noch?", "zh": "慢点儿!我们列个清单。还有什么?", "items": ["de.langsam", "de.wir", "de.schreiben", "de.ein", "de.liste", "de.was", "de.noch"] },
+    { "speaker": "sofia", "text": "Was für ein Tag, Wei! Welche Dokumente waren im Geldbeutel?", "zh": "(回到 WG)今天可真够呛,王伟!钱包里都有哪些证件?", "items": ["de.was", "de.fuer", "de.ein", "de.tag", "de.welche", "de.dokument", "de.sein", "de.in", "de.geldbeutel"] },
+    { "speaker": "wei", "text": "Meine Bankkarte, meine Versichertenkarte und dreißig Euro.", "zh": "我的银行卡、医保卡,还有三十欧元。", "items": ["de.mein", "de.bankkarte", "de.versichertenkarte", "de.und", "de.dreissig", "de.euro"] },
+    { "speaker": "sofia", "text": "Warte, ich schreibe das. Was noch?", "zh": "等等,我记下来。还有什么?", "items": ["de.warten", "de.ich", "de.schreiben", "de.was", "de.noch"] },
     { "speaker": "wei", "text": "Meine Aufenthaltserlaubnis und ein Foto von meiner Familie.", "zh": "我的居留卡,还有一张家人的照片。", "items": ["de.mein", "de.aufenthaltserlaubnis", "de.und", "de.ein", "de.foto", "de.von", "de.familie"] },
-    { "speaker": "sofia", "text": "Deine Bankkarte musst du sofort sperren. Ruf heute noch die Bank an!", "zh": "你的银行卡得马上冻结。今天就给银行打电话!", "items": ["de.dein", "de.bankkarte", "de.muessen", "de.du", "de.sofort", "de.sperren", "de.anrufen", "de.heute", "de.noch", "de.bank_geld"] },
+    { "speaker": "sofia", "text": "Deine Bankkarte musst du schnell sperren. Ruf heute noch die Bank an!", "zh": "你的银行卡得赶快冻结。今天就给银行打电话!", "items": ["de.dein", "de.bankkarte", "de.muessen", "de.du", "de.schnell", "de.sperren", "de.anrufen", "de.heute", "de.noch", "de.bank_geld"] },
     { "speaker": "wei", "text": "Und die Versichertenkarte? Ich brauche sie beim Arzt.", "zh": "那医保卡呢?看病的时候要用。", "items": ["de.und", "de.versichertenkarte", "de.ich", "de.brauchen", "de.sie_sg", "de.bei", "de.arzt"] },
-    { "speaker": "sofia", "text": "Das ist nicht so schlimm. Deine Krankenkasse schickt dir eine neue Karte.", "zh": "那个不要紧。你的医保公司会给你寄一张新卡。", "items": ["de.sein", "de.nicht", "de.so", "de.schlimm", "de.dein", "de.krankenkasse", "de.schicken", "de.du", "de.ein", "de.neu", "de.karte"] },
+    { "speaker": "sofia", "text": "Das ist nicht schlimm. Deine Krankenkasse schickt dir eine neue Karte.", "zh": "那个不要紧。你的医保公司会给你寄一张新卡。", "items": ["de.sein", "de.nicht", "de.schlimm", "de.dein", "de.krankenkasse", "de.schicken", "de.du", "de.ein", "de.neu", "de.karte"] },
     { "speaker": "sofia", "text": "Eine neue Aufenthaltserlaubnis musst du bei der Ausländerbehörde beantragen.", "zh": "居留卡就麻烦了,得去外管局重新申请。", "items": ["de.ein", "de.neu", "de.aufenthaltserlaubnis", "de.muessen", "de.du", "de.bei", "de.auslaenderbehoerde", "de.beantragen"] },
-    { "speaker": "wei", "text": "Zum Glück ist mein Pass zu Hause. Und mein Semesterticket ist im Handy.", "zh": "还好护照在家里,学期票也在手机里。", "items": ["de.zum_glueck", "de.sein", "de.mein", "de.pass", "de.zu_hause", "de.und", "de.semesterticket", "de.in", "de.handy"] },
-    { "speaker": "sofia", "text": "Mein Tipp: Kopier alle Dokumente. Dann hast du immer eine Kopie!", "zh": "教你一招:把证件都复印一份,这样手里总有复印件!", "items": ["de.mein", "de.tipp", "de.kopieren", "de.alle", "de.dokument", "de.dann", "de.haben", "de.du", "de.immer", "de.ein", "de.kopie"] }
+    { "speaker": "wei", "text": "Zum Glück ist mein Pass zu Hause. Und mein Handy war in der Tasche.", "zh": "还好护照在家里,手机也在包里,没丢。", "items": ["de.zum_glueck", "de.sein", "de.mein", "de.pass", "de.zu_hause", "de.und", "de.handy", "de.in", "de.tasche"] },
+    { "speaker": "sofia", "text": "Kopier deine Dokumente! Das mache ich immer.", "zh": "把证件都复印一份!我一直都这么做。", "items": ["de.kopieren", "de.dein", "de.dokument", "de.machen", "de.ich", "de.immer"] }
   ],
   "questions": [
-    { "prompt": "索菲娅说银行卡要怎么办?", "options": ["下个星期再说", "马上冻结,今天就给银行打电话", "去外管局补办"], "answer": 1, "explainZh": "索菲娅说:Deine Bankkarte musst du sofort sperren. Ruf heute noch die Bank an!(你的银行卡得马上冻结,今天就给银行打电话!)" },
+    { "prompt": "索菲娅说银行卡要怎么办?", "options": ["下个星期再说", "赶快冻结,今天就给银行打电话", "去外管局补办"], "answer": 1, "explainZh": "索菲娅说:Deine Bankkarte musst du schnell sperren. Ruf heute noch die Bank an!(你的银行卡得赶快冻结,今天就给银行打电话!)" },
     { "prompt": "居留卡丢了要怎么办?", "options": ["去外管局重新申请", "给医保公司打电话", "复印一份就行"], "answer": 0, "explainZh": "Eine neue Aufenthaltserlaubnis musst du bei der Ausländerbehörde beantragen.(新的居留卡得去外管局重新申请。)给医保公司打电话是补医保卡。" },
     { "prompt": "王伟的护照在哪儿?", "options": ["在钱包里", "在索菲娅那儿", "在家里"], "answer": 2, "explainZh": "王伟说:Zum Glück ist mein Pass zu Hause.(还好护照在家里。)" }
   ],
   "grammar": [
-    { "id": "de.g.u18_sofort_muessen", "titleZh": "丢了证件先做什么:müssen + sofort,物主冠词第四格复习",
-      "bodyZh": "提醒别人必须马上做的事,用 müssen,不定式放句末,sofort(马上)、heute noch(今天之内)放在中间:Deine Bankkarte musst du sofort sperren.(你的银行卡得马上冻结。)这句把宾语 deine Bankkarte 放到句首强调,变位动词 musst 还在第二位,主语 du 挪到它后面。\n朋友之间也可以直接用 du 的命令式:Ruf heute noch die Bank an!(今天就给银行打电话!)可分动词的前缀 an 放句末。\n物主冠词第四格复习:阴性和复数加 -e(deine Bankkarte、alle Dokumente),中性不变(mein Pass、dein Handy),阳性加 -en(deinen Ausweis)。\n生活常识:银行卡丢了马上打银行电话冻结;医保卡找自己的医保公司(Krankenkasse)补;居留卡要去外管局重新申请(beantragen)。平时最好把证件都复印一份(kopieren)。",
+    { "id": "de.g.u18_schnell_muessen", "titleZh": "丢了证件先做什么:müssen + schnell / heute noch;物主冠词第四格复习",
+      "bodyZh": "提醒别人必须赶快做的事,用 müssen,不定式放句末,schnell(快)、heute noch(今天之内)放在中间:Deine Bankkarte musst du schnell sperren.(你的银行卡得赶快冻结。)这句把宾语 deine Bankkarte 放到句首强调,变位动词 musst 还在第二位,主语 du 挪到它后面。\n朋友之间也可以直接用 du 的命令式:Ruf heute noch die Bank an!(今天就给银行打电话!)/ Kopier deine Dokumente!(把证件都复印一份!)可分动词的前缀 an 放句末。\n物主冠词第四格复习:阴性和复数加 -e(deine Bankkarte、deine Dokumente),中性不变(mein Pass、dein Handy),阳性加 -en(deinen Geldbeutel)。\n生活常识:银行卡丢了马上打银行电话冻结;医保卡找自己的医保公司(Krankenkasse)补;居留卡要去外管局重新申请(beantragen)。平时最好把证件都复印一份(kopieren)。",
       "examples": [
-        { "text": "Deine Bankkarte musst du sofort sperren.", "zh": "你的银行卡得马上冻结。" },
+        { "text": "Deine Bankkarte musst du schnell sperren.", "zh": "你的银行卡得赶快冻结。" },
         { "text": "Ruf heute noch die Bank an!", "zh": "今天就给银行打电话!" },
         { "text": "Eine neue Aufenthaltserlaubnis musst du beantragen.", "zh": "新的居留卡得重新申请。" }
       ] },
     { "id": "de.g.u18_komposita_karten", "titleZh": "证件和卡的复合词:die Bankkarte = die Bank + die Karte",
-      "bodyZh": "德语爱把几个名词连成一个长词(复合词),意思从后往前理解:最后一个词说“是什么”,前面的词说“哪一种”。die Bankkarte = Bank + Karte(银行的卡),die Versichertenkarte = Versicherte + Karte(参保人的卡),der Studentenausweis = Student + Ausweis(学生的证件),das Semesterticket = Semester + Ticket(学期票)。\n复合词的性和复数都跟最后一个词:die Karte → die Bankkarte → die Bankkarten;der Ausweis → der Studentenausweis。\n中间常加连接音 -en- 或 -s-:Student-en-ausweis、Versichert-en-karte、Krank-en-kasse。重音一般在第一个词上:Bankkarte 重读 Bank,Krankenkasse 重读 Kran。读长词时先找到最后一个词,再一段一段往前读,就不怕了。",
+      "bodyZh": "德语爱把几个名词连成一个长词(复合词),意思从后往前理解:最后一个词说“是什么”,前面的词说“哪一种”。die Bankkarte = Bank + Karte(银行的卡),die Versichertenkarte = Versicherte + Karte(参保人的卡),die Krankenkasse = krank + Kasse(看病的“钱箱”,也就是医保公司),der Geldbeutel = Geld + Beutel(装钱的袋子)。\n复合词的性和复数都跟最后一个词:die Karte → die Bankkarte → die Bankkarten;der Beutel → der Geldbeutel。\n中间常加连接音 -en- 或 -s-:Versichert-en-karte、Krank-en-kasse、Aufenthalt-s-erlaubnis。重音一般在第一个词上:Bankkarte 重读 Bank,Krankenkasse 重读 Kran。读长词时先找到最后一个词,再一段一段往前读,就不怕了。",
       "examples": [
         { "text": "die Bank + die Karte = die Bankkarte", "zh": "银行 + 卡 = 银行卡" },
-        { "text": "der Student + der Ausweis = der Studentenausweis", "zh": "大学生 + 证件 = 学生证" },
+        { "text": "das Kino + die Karte = die Kinokarte", "zh": "电影院 + 卡 = 电影票" },
         { "text": "Meine Versichertenkarte ist weg.", "zh": "我的医保卡不见了。" }
       ] }
   ],

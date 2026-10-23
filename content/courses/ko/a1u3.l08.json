@@ -19,7 +19,7 @@
     { "speaker": "jing", "text": "저는 유학생입니다. 대학교 전공은 경영학입니다.", "zh": "我是留学生。我在大学的专业是经营学(明年开始读)。", "roman": "Jeoneun yuhaksaengimnida. Daehakgyo jeongongeun gyeongyeonghagimnida.", "items": ["ko.jeo", "ko.yuhaksaeng", "ko.daehakgyo", "ko.jeongong", "ko.gyeongyeonghak"] },
     { "speaker": "jing", "text": "한국에 친구가 있습니다.", "zh": "在韩国,我有朋友。", "roman": "Hanguge chinguga itseumnida.", "items": ["ko.hanguk", "ko.chingu", "ko.isseoyo"] },
     { "speaker": "jing", "text": "수아 씨는 한국 사람입니다. 고향은 부산입니다.", "zh": "秀雅是韩国人,老家在釜山。", "roman": "Sua ssineun hanguk saramimnida. Gohyangeun Busanimnida.", "items": ["ko.ssi", "ko.hanguk", "ko.saram", "ko.gohyang"] },
-    { "speaker": "jing", "text": "남 씨는 베트남 유학생입니다. 고향은 하노이입니다.", "zh": "(陈静看了一眼阿南)阿南是越南留学生,老家在河内。", "roman": "Nam ssineun beteunam yuhaksaengimnida. Gohyangeun Hanoiimnida.", "items": ["ko.ssi", "ko.beteunam", "ko.yuhaksaeng", "ko.gohyang"] },
+    { "speaker": "jing", "text": "남 씨는 베트남 유학생입니다. 고향은 하노이입니다.", "zh": "(陈静看了一眼南)阿南是越南留学生,老家在河内。", "roman": "Nam ssineun beteunam yuhaksaengimnida. Gohyangeun Hanoiimnida.", "items": ["ko.ssi", "ko.beteunam", "ko.yuhaksaeng", "ko.gohyang"] },
     { "speaker": "jing", "text": "민준 씨는 서울 사람입니다.", "zh": "敏俊是首尔人。", "roman": "Minjun ssineun Seoul saramimnida.", "items": ["ko.ssi", "ko.saram"] },
     { "speaker": "jing", "text": "민준 씨 전공도 경영학입니다.", "zh": "敏俊的专业也是经营学。", "roman": "Minjun ssi jeongongdo gyeongyeonghagimnida.", "items": ["ko.ssi", "ko.jeongong", "ko.gyeongyeonghak"] },
     { "speaker": "jing", "text": "여러분도 제 친구입니다!", "zh": "大家也都是我的朋友!", "roman": "Yeoreobundo je chinguimnida!", "items": ["ko.yeoreobun", "ko.chingu"] },
@@ -28,7 +28,7 @@
   "questions": [
     { "prompt": "陈静家里有谁?", "options": ["爸爸、妈妈、哥哥和她", "父母和她", "奶奶、父母和她"], "answer": 1, "explainZh": "第 3、4 句:우리 가족은 부모님과 저입니다(我家是父母和我);동생은 없습니다. 언니도 오빠도 없습니다(没有兄弟姐妹)。" },
     { "prompt": "陈静在大学的专业是什么?", "options": ["韩语", "视觉设计", "经营学"], "answer": 2, "explainZh": "第 5 句:대학교 전공은 경영학입니다。第 10 句说敏俊的专业也是经营学(전공도 = 专业也是)。" },
-    { "prompt": "秀雅的老家在哪儿?", "options": ["釜山", "首尔", "河内"], "answer": 0, "explainZh": "第 7 句:수아 씨는 한국 사람입니다. 고향은 부산입니다。首尔是敏俊的家乡(第 9 句),河内是阿南的老家(第 8 句)。" },
+    { "prompt": "秀雅的老家在哪儿?", "options": ["釜山", "首尔", "河内"], "answer": 0, "explainZh": "第 7 句:수아 씨는 한국 사람입니다. 고향은 부산입니다。首尔是敏俊的家乡(第 9 句),河内是南的老家(第 8 句)。" },
     { "prompt": "“저는 천징입니다”和“저는 천징이에요”有什么不同?", "options": ["意思不一样", "입니다 更正式,适合在全班面前发言", "이에요 更正式"], "answer": 1, "explainZh": "意思一样。입니다 是 합니다体,用在发言、面试这类正式场合;이에요/예요 是 해요体,平时说话用。" }
   ],
   "grammar": [

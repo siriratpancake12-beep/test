@@ -1,0 +1,186 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-15 A new semester", "cefr": "A1", "themeZh": "第二学期开学:说这学期上什么课、和经理调班、看懂教学大纲和截止日期、去教授的答疑时间、组学习小组、聊小测验和成绩,和顾问谈学习计划" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u15.l01", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115010,
+      "titleZh": "这学期你上什么课?", "goalZh": "会说常见的学科名称,用 take a class 问答这学期上什么课",
+      "canDoZh": "能说出这学期上的课,问朋友上什么课、在哪儿上、几点上",
+      "scenarioZh": "开学第一天早上,磊和索菲亚在校园咖啡馆对课表:磊这学期上微积分、物理、编程、写作 2 和一门音乐课(马库斯学音乐,很喜欢这门课);索菲亚上化学、微积分、历史和写作 2。两人发现微积分和写作课又在一起,很开心;最后问清微积分在哪个教室、几点上,赶去上课。",
+      "grammarFocusZh": "学科词 math、calculus、physics、chemistry、programming、history、writing;美式说 take a class(上一门课);What classes are you taking this semester?;学科名前不加冠词,physics 虽然以 s 结尾却是单数。发音:学科词的重音——CAL-cu-lus、PHYS-ics、CHEM-is-try、PRO-gram-ming、HIS-to-ry。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.take_a_class", "kind": "phrase", "pos": "verb", "text": "take a class", "zh": "上(一门)课;选(一门)课", "features": { "ipa": "ˌteɪk ə ˈklæs" }, "noteZh": "美国大学生说\"上什么课\"用 take:What classes are you taking? 你这学期上什么课?I'm taking physics. 我上物理。不说 learn a class / study a class。" },
+        { "id": "en.math", "kind": "word", "pos": "noun", "text": "math", "zh": "数学", "features": { "ipa": "mæθ" }, "noteZh": "美式 math,英式 maths;词尾 th /θ/:舌尖放在上下齿之间送气,不读成 s 或 f。" },
+        { "id": "en.calculus", "kind": "word", "pos": "noun", "text": "calculus", "zh": "微积分", "features": { "ipa": "ˈkælkjələs" }, "noteZh": "重音在第一个音节 CAL-cu-lus;课名 Calculus 2 读作 Calculus two。" },
+        { "id": "en.physics", "kind": "word", "pos": "noun", "text": "physics", "zh": "物理(学)", "features": { "ipa": "ˈfɪzɪks" }, "noteZh": "ph 读 /f/,y 读 /ɪ/,中间的 s 读 /z/:FIZ-iks。以 s 结尾,但是单数:Physics is hard.(不说 Physics are…)。" },
+        { "id": "en.chemistry", "kind": "word", "pos": "noun", "text": "chemistry", "zh": "化学", "features": { "ipa": "ˈkeməstri" }, "noteZh": "ch 在这里读 /k/,不读 /tʃ/;重音在前 CHEM-is-try。" },
+        { "id": "en.programming", "kind": "word", "pos": "noun", "text": "programming", "zh": "编程", "features": { "ipa": "ˈproʊɡræmɪŋ" }, "noteZh": "重音在前 PRO-gram-ming;两个 m 只读一个 /m/,结尾 -ing 是后鼻音 /ŋ/。" },
+        { "id": "en.history", "kind": "word", "pos": "noun", "text": "history", "zh": "历史", "features": { "ipa": "ˈhɪstɚi" }, "noteZh": "重音在前 HIS-to-ry;中间的 to 读得又轻又短,快读时像两个音节 \"HIS-tree\"。" },
+        { "id": "en.writing", "kind": "word", "pos": "noun", "text": "writing", "zh": "写作;写作课", "features": { "ipa": "ˈraɪt̬ɪŋ" }, "noteZh": "开头的 w 不发音;美式 t 在两个元音之间读得像轻快的 d:\"RAI-ding\"。课名 Writing 2(写作 2)首字母大写。" },
+        { "id": "en.hard", "kind": "word", "pos": "adj", "text": "hard", "zh": "难的;困难的", "features": { "ipa": "hɑːrd" }, "noteZh": "Calculus is hard. 微积分很难;hard for me 对我来说难;ar 要卷舌。hard 还有\"硬的\"的意思。" },
+        { "id": "en.easy", "kind": "word", "pos": "adj", "text": "easy", "zh": "容易的;简单的", "features": { "ipa": "ˈiːzi" }, "noteZh": "It's easy for me. 对我来说很简单;s 读 /z/,ea 是长音 /iː/。" }
+      ],
+      "reviewItems": ["en.semester", "en.class", "en.music", "en.fun", "en.hurry_up"]
+    },
+    {
+      "id": "en.a1u15.l02", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115020,
+      "titleZh": "这学期我改成周一周三上班", "goalZh": "会用现在进行时说\"这段时间\"的安排,和一般现在时说的习惯区分开",
+      "canDoZh": "能说清楚这学期的安排和平时的习惯有什么不同,并和经理商量调班",
+      "scenarioZh": "劳拉(laura)要排新学期的班,问磊的新课表。磊说 I usually work on Tuesdays and Thursdays, but this semester I'm taking physics. The lab is on Tuesday afternoons.;他问能不能换到周一和周三,劳拉看了看排班表说可以,还是两点到六点。磊说这学期每天晚上都在学习,劳拉提醒他别迟到。(从这学期起磊周一、周三下午 2–6 点上班,后面的课保持一致。)",
+      "grammarFocusZh": "现在进行时表示\"这段时间正在做\"(this semester / these days / this week),一般现在时表示习惯和固定安排(usually、课表上的时间),两者对比;复习 on + 星期和 from… to…。发音:semester /səˈmestɚ/、today /təˈdeɪ/、lecture /ˈlektʃɚ/ 里不重读的音节读成弱元音,又轻又短。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.schedule", "kind": "word", "pos": "noun", "text": "schedule", "zh": "日程;课表;排班表", "features": { "ipa": "ˈskedʒuːl" }, "noteZh": "美式读 /ˈsked-/,英式读 /ˈʃed-/;class schedule 课表,work schedule 排班表。" },
+        { "id": "en.lab", "kind": "word", "pos": "noun", "text": "lab", "zh": "实验课;实验室", "features": { "ipa": "læb" }, "noteZh": "laboratory 的简称,口语都说 lab;physics lab 物理实验课;a 读 /æ/,嘴张大。" },
+        { "id": "en.lecture", "kind": "word", "pos": "noun", "text": "lecture", "zh": "(大学的)讲课;大课", "features": { "ipa": "ˈlektʃɚ" }, "noteZh": "美国大学的理科课常分 lecture(老师讲课)和 lab(做实验)两部分;-ture 读 /tʃɚ/,不读\"恰\"。" },
+        { "id": "en.switch", "kind": "word", "pos": "verb", "text": "switch", "zh": "换;调换", "features": { "ipa": "swɪtʃ" }, "noteZh": "Can I switch to Mondays? 我能换到周一吗?;tch 读 /tʃ/,词尾不要加元音。" },
+        { "id": "en.these_days", "kind": "phrase", "pos": "adv", "text": "these days", "zh": "最近;这些天", "features": { "ipa": "ˈðiːz ˌdeɪz" }, "noteZh": "说最近一段时间的情况,常和现在进行时连用:I'm studying every night these days.;these 是长音 /iː/,词尾 s 读 /z/。" },
+        { "id": "en.fine", "kind": "word", "pos": "adj", "text": "fine", "zh": "可以的;没问题的;(身体)好的", "features": { "ipa": "faɪn" }, "noteZh": "That's fine. 可以、没问题;I'm fine. 我挺好。" },
+        { "id": "en.still", "kind": "word", "pos": "adv", "text": "still", "zh": "还;仍然", "features": { "ipa": "stɪl" }, "noteZh": "放在实义动词前、be 动词后:I still work two days a week. / It's still early.;词尾 l 舌尖抬起来碰上齿龈。" },
+        { "id": "en.practice", "kind": "word", "pos": "verb", "text": "practice", "zh": "练习;(乐队)排练", "features": { "ipa": "ˈpræktɪs" }, "noteZh": "practice English 练英语;乐队排练也说 practice;美式拼写 practice(英式动词写 practise);重音在前 PRAC-tice。" }
+      ],
+      "reviewItems": ["en.usually", "en.tuesday", "en.thursday", "en.let_me_see", "en.good_job"]
+    },
+    {
+      "id": "en.a1u15.l03", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115030,
+      "titleZh": "教学大纲上写着什么?", "goalZh": "听懂老师讲成绩怎么算,会用 due 问作业什么时候交",
+      "canDoZh": "能听懂老师讲课程要求,问清楚作业什么时候交、成绩怎么算",
+      "scenarioZh": "写作 2 的第一节课,教授(professor)讲教学大纲:三篇文章占 40%,期中 20%,期末 30%,课堂参与 10%;晚交一天扣 10%。索菲亚问 What does \"participation\" mean?,磊问 When is the first essay due?,教授说三周以后的周五交。(规划里写的是 2 月 6 日,月份第 10 单元才定词条,这里改说 in three weeks, on Friday。)",
+      "grammarFocusZh": "due 的用法(The essay is due on Friday. / When is it due?);百分比和成绩(40 percent of your grade);晚交扣分 10 percent off(复习第 6 单元 percent off);课堂上问词义 What does… mean?(复习第 1 单元)。发音:participation 重音在 -PA-,-tion 前面的音节重读。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.syllabus", "kind": "word", "pos": "noun", "text": "syllabus", "zh": "教学大纲;课程说明", "features": { "ipa": "ˈsɪləbəs" }, "noteZh": "第一节课老师都会发 syllabus,写着成绩怎么算、作业什么时候交、有哪些规定;重音在前 SYL-la-bus。" },
+        { "id": "en.essay", "kind": "word", "pos": "noun", "text": "essay", "zh": "(课程)论文;文章", "features": { "ipa": "ˈeseɪ" }, "noteZh": "写作课的作业多半是 essay;重音在前 ES-say,第二个音节读 /eɪ/。" },
+        { "id": "en.due", "kind": "word", "pos": "adj", "text": "due", "zh": "到期的;应交的", "features": { "ipa": "duː" }, "noteZh": "The essay is due on Friday. 文章周五交;When is it due? 什么时候交?;美式读 /duː/,英式读 /djuː/。" },
+        { "id": "en.grade", "kind": "word", "pos": "noun", "text": "grade", "zh": "成绩;分数等级", "features": { "ipa": "ɡreɪd" }, "noteZh": "美国大学的课程成绩用 A、B、C、D、F 表示;grade 在美国中小学还指\"年级\"。" },
+        { "id": "en.percent", "kind": "word", "pos": "noun", "text": "percent", "zh": "百分之……", "features": { "ipa": "pɚˈsent" }, "noteZh": "40% 读 forty percent,percent 不加 s;重音在后 per-CENT。第 6 单元学过 percent off(减价百分之……)。" },
+        { "id": "en.midterm", "kind": "word", "pos": "noun", "text": "midterm", "zh": "期中考试", "features": { "ipa": "ˈmɪdtɝːm" }, "noteZh": "mid(中间)+ term(学期);期末考试叫 final;ter 卷舌 /ɝː/。" },
+        { "id": "en.final", "kind": "word", "pos": "noun", "text": "final", "zh": "期末考试", "features": { "ipa": "ˈfaɪnəl" }, "noteZh": "the final = the final exam;final 作形容词是\"最后的\"。词尾 l 舌尖抬起。" },
+        { "id": "en.participation", "kind": "word", "pos": "noun", "text": "participation", "zh": "课堂参与(出勤、发言、讨论)", "features": { "ipa": "pɑːrˌtɪsəˈpeɪʃən" }, "noteZh": "美国很多课的成绩里有一部分是 participation:来上课、发言、参加讨论;重音在 -PA- 上——以 -tion 结尾的词,重音落在 -tion 前面那个音节。" }
+      ],
+      "reviewItems": ["en.what_does_that_mean", "en.excuse_me", "en.percent_off", "en.late", "en.talk"]
+    },
+    {
+      "id": "en.a1u15.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115040,
+      "titleZh": "去教授的答疑时间", "goalZh": "会在答疑时间说明自己哪里不懂,请老师解释、问怎么改进",
+      "canDoZh": "能在老师的答疑时间说明自己哪里不懂,请老师解释和给建议",
+      "scenarioZh": "第一篇文章磊只拿了 B-。周四下午三点(他周一、周三下午上班),他去教授(professor)的答疑时间:I don't understand my grade. Can you explain it?;教授说他的想法很好,但小的语法问题太多,特别是 a / the 和名词的 -s,建议他去写作中心找辅导老师。磊记下了写作中心的时间。(规划写周三,和磊周三下午上班冲突,改成周四。)",
+      "grammarFocusZh": "请求帮助和解释:Do you have a minute? / Can you explain…? / What can I do?(Could you…? 第 12 单元的词条还没定,先用 Can you…?);老师的反馈常用 but 转折(Your ideas are great, but…)。发音:explain 重音在后 ex-PLAIN;office hours 里 hours 的 h 不发音(复习第 8 单元)。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.office_hours", "kind": "phrase", "pos": "noun", "text": "office hours", "zh": "(老师的)答疑时间", "features": { "ipa": "ˈɑːfɪs ˌaʊrz" }, "noteZh": "教授每周固定在办公室等学生来问问题的时间,一般不用预约,直接去就行;hours 的 h 不发音。" },
+        { "id": "en.explain", "kind": "word", "pos": "verb", "text": "explain", "zh": "解释;讲解", "features": { "ipa": "ɪkˈspleɪn" }, "noteZh": "重音在后 ex-PLAIN;Can you explain it? 能解释一下吗?;不说 explain me,要说 explain it to me。" },
+        { "id": "en.idea", "kind": "word", "pos": "noun", "text": "idea", "zh": "想法;主意", "features": { "ipa": "aɪˈdiːə" }, "noteZh": "三个音节 i-DE-a,重音在中间;Good idea! 好主意!" },
+        { "id": "en.grammar", "kind": "word", "pos": "noun", "text": "grammar", "zh": "语法", "features": { "ipa": "ˈɡræmɚ" }, "noteZh": "拼写结尾是 -ar,不是 -er;重音在前 GRAM-mar。" },
+        { "id": "en.problem", "kind": "word", "pos": "noun", "text": "problem", "zh": "问题;(练习)题", "features": { "ipa": "ˈprɑːbləm" }, "noteZh": "a grammar problem 语法问题;math problems 数学题;第二个音节读弱元音 /ə/(No problem 里学过)。" },
+        { "id": "en.tutor", "kind": "word", "pos": "noun", "text": "tutor", "zh": "辅导老师", "features": { "ipa": "ˈtuːt̬ɚ" }, "noteZh": "美国大学的写作中心、学习中心有免费的 tutor,常是研究生或高年级学生;美式 t 读得像轻快的 d。" },
+        { "id": "en.writing_center", "kind": "phrase", "pos": "noun", "text": "Writing Center", "zh": "写作中心", "features": { "ipa": "ˈraɪt̬ɪŋ ˌsentɚ" }, "noteZh": "美国大学里帮学生看文章、改文章的地方,一般免费;center 是美式拼写(英式 centre)。" },
+        { "id": "en.sentence", "kind": "word", "pos": "noun", "text": "sentence", "zh": "句子", "features": { "ipa": "ˈsentəns" }, "noteZh": "重音在前 SEN-tence,第二个音节读弱元音 /ə/;This sentence needs \"the.\" 这个句子要加 the。" }
+      ],
+      "reviewItems": ["en.understand", "en.minute", "en.come_in", "en.a_lot_of", "en.small"]
+    },
+    {
+      "id": "en.a1u15.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115045,
+      "titleZh": "写作课教学大纲(节选)", "goalZh": "读懂课程大纲的几个固定栏目,找到时间、百分比和截止日期",
+      "canDoZh": "能看懂一份课程大纲:老师的答疑时间、成绩组成、作业截止日期和课堂规定",
+      "scenarioZh": "体裁:教学大纲(教授写的,第一人称)。说话人 professor。写作 2 大纲的第一页:答疑时间(每周四 2–4 点,214 室),成绩组成(三篇文章 40%、期中 20%、期末 30%、课堂参与 10%),三篇文章分别在第 4、8、12 周的周五交,课堂规定(准时上课、晚交一天扣 10%、不能抄袭),最后欢迎学生多来答疑。(规划里是周三 2–4 点,和磊周三下午上班冲突,改成周四;日期改用\"第几周\",月份和序数词第 10 单元才定词条。)",
+      "grammarFocusZh": "复习 due、百分比和时间读法;大纲里常见的祈使句和 can(You can talk to me after class.);读大纲按栏目找信息。理解题考\"第二篇文章哪天交\"\"晚交两天扣多少\"。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "en.rule", "kind": "word", "pos": "noun", "text": "rule", "zh": "规定;规矩", "features": { "ipa": "ruːl" }, "noteZh": "class rules 课堂规定;r 开头嘴唇先收圆,结尾 l 舌尖抬起来。" },
+        { "id": "en.copy", "kind": "word", "pos": "verb", "text": "copy", "zh": "抄;抄袭;复制", "features": { "ipa": "ˈkɑːpi" }, "noteZh": "美国学校很看重学术诚信,抄同学的或网上的文章后果很严重;o 读 /ɑː/。" },
+        { "id": "en.read", "kind": "word", "pos": "verb", "text": "read", "zh": "读;看(书、文章)", "features": { "ipa": "riːd" }, "noteZh": "看书、看文章用 read,不用 see 或 watch;过去式也写 read,但读 /red/。" }
+      ],
+      "reviewItems": ["en.welcome", "en.on_time", "en.percent_off", "en.thursday", "en.room", "en.week"]
+    },
+    {
+      "id": "en.a1u15.l05", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115050,
+      "titleZh": "组个学习小组", "goalZh": "会提议、商量一起学习的时间和地点,在图书馆预订学习室",
+      "canDoZh": "能和同学约好一起学习的时间和地点,并在图书馆预订学习室",
+      "scenarioZh": "微积分作业很难,伊森和索菲亚都卡住了。磊提议组学习小组:Let's meet on Tuesdays and Thursdays at four.,伊森四点有课,大家改到五点;伊森说磊数学好,可以教他们。三人去图书馆服务台订学习室,工作人员(staff)说 You can reserve a room for two hours.,要看学生卡。(规划里是 book a room,book 已在第 5 单元新增课里登记、还没定,这里用 reserve。)",
+      "grammarFocusZh": "复习 Let's… / How about…? 和时间介词;can 表示允许(You can reserve a room.);be good at 说擅长什么。发音:library 读 /ˈlaɪbreri/,别吞掉第一个 r(不要读成 \"lie-berry\")。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.study_group", "kind": "phrase", "pos": "noun", "text": "study group", "zh": "学习小组", "features": { "ipa": "ˈstʌdi ˌɡruːp" }, "noteZh": "美国大学生常几个人组成 study group,一起做作业、复习考试;复合名词重音在前 STUD-y group。" },
+        { "id": "en.reserve", "kind": "word", "pos": "verb", "text": "reserve", "zh": "预订;预约(房间、座位)", "features": { "ipa": "rɪˈzɝːv" }, "noteZh": "reserve a room 订一个房间;s 读 /z/,重音在后 re-SERVE,ser 卷舌。" },
+        { "id": "en.study_room", "kind": "phrase", "pos": "noun", "text": "study room", "zh": "(图书馆的)小组学习室", "features": { "ipa": "ˈstʌdi ˌruːm" }, "noteZh": "美国大学图书馆的小组学习室一般要提前预订,有时间限制。" },
+        { "id": "en.teach", "kind": "word", "pos": "verb", "text": "teach", "zh": "教", "features": { "ipa": "tiːtʃ" }, "noteZh": "teach + 人:You can teach us!(不说 teach to us);过去式 taught /tɑːt/。" },
+        { "id": "en.good_at", "kind": "phrase", "pos": "adj", "text": "good at", "zh": "擅长", "features": { "ipa": "ˈɡʊd ət" }, "noteZh": "be good at + 名词:I'm good at math. 我数学好;at 弱读 /ət/,和 good 连读。" },
+        { "id": "en.page", "kind": "word", "pos": "noun", "text": "page", "zh": "页", "features": { "ipa": "peɪdʒ" }, "noteZh": "on page 20 在第 20 页;g 读 /dʒ/,a 读 /eɪ/。" },
+        { "id": "en.desk", "kind": "word", "pos": "noun", "text": "desk", "zh": "书桌;服务台", "features": { "ipa": "desk" }, "noteZh": "the library desk 图书馆服务台;词尾 sk 两个辅音都要读出来,别加元音读成 \"des-ke\"。" },
+        { "id": "en.stuck", "kind": "word", "pos": "adj", "text": "stuck", "zh": "卡住的;(题目)做不下去的", "features": { "ipa": "stʌk" }, "noteZh": "I'm stuck on problem 5. 我卡在第 5 题了;u 读 /ʌ/,短促放松。" }
+      ],
+      "reviewItems": ["en.homework", "en.lets", "en.how_about", "en.library", "en.hour", "en.calculus"]
+    },
+    {
+      "id": "en.a1u15.l06", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115060,
+      "titleZh": "go to class 还是 go to the class?", "goalZh": "会用 go to class、go home、at home 这类不加冠词的固定说法",
+      "canDoZh": "能用对 go to class、go home 这类不加冠词的固定说法,说清楚自己一天去哪儿",
+      "scenarioZh": "周一一大早,伊森睡眼惺忪地问磊去哪儿。磊说:I'm going to class. After class, I'm going to work. Then I'm going to the library, and then home.;伊森说自己要回去睡觉。晚上索菲亚发消息问磊在不在家,磊回 I'm not at home. I'm at the library.;第二天马库斯问磊明天在不在店里,磊说周二一整天都在学校。",
+      "grammarFocusZh": "不加冠词的固定说法:go to class / go to school / go to work / go to bed / go home(home 前不加 to)/ at home / at school / at work;对比要加 the 的地点:go to the library / the gym / the cafe;中国学生最常错说 go to home。发音:to、the 在句中弱读,the 读 /ðə/。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.go_to_class", "kind": "phrase", "pos": "verb", "text": "go to class", "zh": "去上课", "features": { "ipa": "ˌɡoʊ tə ˈklæs" }, "noteZh": "class 前面不加 the:I'm going to class.;说的是\"去上课\"这件事,不是去某一间教室。" },
+        { "id": "en.go_to_work", "kind": "phrase", "pos": "verb", "text": "go to work", "zh": "去上班", "features": { "ipa": "ˌɡoʊ tə ˈwɝːk" }, "noteZh": "work 前不加 the,也不加 my:I go to work at two.;下班后说 after work。" },
+        { "id": "en.go_to_school", "kind": "phrase", "pos": "verb", "text": "go to school", "zh": "上学;去上学", "features": { "ipa": "ˌɡoʊ tə ˈskuːl" }, "noteZh": "美国人说上大学也常用 school:I go to school in Seattle. 我在西雅图上学。" },
+        { "id": "en.go_home", "kind": "phrase", "pos": "verb", "text": "go home", "zh": "回家", "features": { "ipa": "ˌɡoʊ ˈhoʊm" }, "noteZh": "home 前不加 to,中国学生最常说错成 go to home;住校的学生回宿舍也常说 go home。" },
+        { "id": "en.at_home", "kind": "phrase", "pos": "adv", "text": "at home", "zh": "在家", "features": { "ipa": "ət ˈhoʊm" }, "noteZh": "Are you at home? 你在家吗?;美国人口语也常说 I'm home.(我在家 / 我回来了)。" },
+        { "id": "en.at_work", "kind": "phrase", "pos": "adv", "text": "at work", "zh": "在上班", "features": { "ipa": "ət ˈwɝːk" }, "noteZh": "I'm at work. 我在上班,不说 at the work。" },
+        { "id": "en.at_school", "kind": "phrase", "pos": "adv", "text": "at school", "zh": "在学校(上课)", "features": { "ipa": "ət ˈskuːl" }, "noteZh": "at school 说的是在学校上课、学习;at the school 一般指在那栋楼、那个地方。" },
+        { "id": "en.sleepy", "kind": "word", "pos": "adj", "text": "sleepy", "zh": "困的;想睡觉的", "features": { "ipa": "ˈsliːpi" }, "noteZh": "sleepy 是困、想睡,tired 是累;ee 是长音 /iː/。" },
+        { "id": "en.awake", "kind": "word", "pos": "adj", "text": "awake", "zh": "醒着的", "features": { "ipa": "əˈweɪk" }, "noteZh": "Are you awake? 你醒着吗?;wake up 是\"醒来\"这个动作,awake 是醒着的状态;重音在后 a-WAKE。" }
+      ],
+      "reviewItems": ["en.go_to_bed", "en.library", "en.after", "en.then", "en.busy"]
+    },
+    {
+      "id": "en.a1u15.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115070,
+      "titleZh": "第一次小测验", "goalZh": "会问答考得怎么样、得了什么成绩,知道美国的字母成绩",
+      "canDoZh": "能和同学聊考试考得怎么样、得了什么成绩,并主动提出一起复习",
+      "scenarioZh": "微积分第一次小测验的成绩发下来了,磊和索菲亚在走廊上聊:How was the quiz? — It was hard. I didn't finish.;磊拿了 A,索菲亚只拿了 C。索菲亚说在墨西哥这差不多是 7 分,磊说在中国差不多是 75 分;F 就是不及格。磊主动说 Do you want to study with me this week?,索菲亚马上答应,说下次要拿 B。(规划里的 study together,together 已在第 7 单元新增课里登记、还没定,这里用 with me。)",
+      "grammarFocusZh": "复习过去时 How was…? / What did you get?;成绩说法 get an A / a B+ / a C;A、F 读音以元音开头,前面用 an(an A、an F,复习 a / an)。发音:an A 连读成 \"a-nay\"。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.quiz", "kind": "word", "pos": "noun", "text": "quiz", "zh": "小测验", "features": { "ipa": "kwɪz" }, "noteZh": "美国大学常有 quiz(十几二十分钟的小测验),比 test、exam 小;qu 读 /kw/,结尾 z 要带声。" },
+        { "id": "en.test", "kind": "word", "pos": "noun", "text": "test", "zh": "测验;考试", "features": { "ipa": "test" }, "noteZh": "a big test 一次大考;词尾 st 轻轻收住,不加元音。" },
+        { "id": "en.get_an_a", "kind": "phrase", "pos": "verb", "text": "get an A", "zh": "得 A;考了 A", "alt": ["got an A"], "features": { "ipa": "ˌɡet̬ ən ˈeɪ" }, "noteZh": "说成绩用 get + 成绩:get a B、get a C,过去式 got;问别人考得怎样:What did you get?。字母 A、F 的读音以元音开头,前面用 an。" },
+        { "id": "en.pass", "kind": "word", "pos": "verb", "text": "pass", "zh": "(考试)通过;及格", "features": { "ipa": "pæs" }, "noteZh": "I passed! 我及格了!;过去式 passed 读 /pæst/,a 读 /æ/。" },
+        { "id": "en.fail", "kind": "word", "pos": "verb", "text": "fail", "zh": "不及格;没通过", "features": { "ipa": "feɪl" }, "noteZh": "成绩 F 就是 fail(不及格);ai 读 /eɪ/,结尾 l 舌尖抬起。" },
+        { "id": "en.score", "kind": "word", "pos": "noun", "text": "score", "zh": "分数;得分", "features": { "ipa": "skɔːr" }, "noteZh": "一次考试的具体分数叫 score(My score is 92.);一门课最后的总评常用字母,叫 grade。" },
+        { "id": "en.only", "kind": "word", "pos": "adv", "text": "only", "zh": "只;仅仅", "features": { "ipa": "ˈoʊnli" }, "noteZh": "放在要限定的词前面:I only got a C.;第 2 单元学过 only child(独生子女)。" },
+        { "id": "en.luck", "kind": "word", "pos": "noun", "text": "luck", "zh": "运气", "features": { "ipa": "lʌk" }, "noteZh": "Good luck! 祝你好运!;u 读 /ʌ/,短促,和 lock /lɑːk/ 不一样。" }
+      ],
+      "reviewItems": ["en.finish", "en.calculus", "en.easy", "en.hard", "en.study", "en.grade"]
+    },
+    {
+      "id": "en.a1u15.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115080,
+      "titleZh": "单元复习:和顾问谈学习计划", "goalZh": "综合运用本单元的说法,讲清自己这学期的课程、打工和困难",
+      "canDoZh": "能和顾问谈自己这学期的课程、打工时间和学习上的困难,听懂相关规定",
+      "scenarioZh": "国际学生每学期要和顾问(advisor)见一次面。顾问问磊这学期上几门课、一共多少学分(国际学生一般至少要修 12 个学分),每周打工几个小时(学期中一般每周最多 20 小时);磊说自己每周工作 8 小时,写作课有点难,已经每周去写作中心。顾问说 You're doing great.,提醒他期中考试在第 8 周。",
+      "grammarFocusZh": "复习现在进行时表示这学期的安排、一般现在时说规定和习惯、学科词和 go to class 这类说法;at least / at most。发音:学分 credits 的 /ts/ 和弱元音。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.credit", "kind": "word", "pos": "noun", "text": "credit", "zh": "学分", "features": { "ipa": "ˈkredɪt" }, "noteZh": "a three-credit class 一门三学分的课;复数 credits 的词尾 ts 读 /ts/,像\"次\"的声母。" },
+        { "id": "en.at_least", "kind": "phrase", "pos": "adv", "text": "at least", "zh": "至少", "features": { "ipa": "ət ˈliːst" }, "noteZh": "at least twelve credits 至少 12 个学分;least 是长音 /iː/,词尾 st 收住。" },
+        { "id": "en.at_most", "kind": "phrase", "pos": "adv", "text": "at most", "zh": "最多;顶多", "features": { "ipa": "ət ˈmoʊst" }, "noteZh": "twenty hours a week at most 每周最多 20 小时;和 at least(至少)是一对。" },
+        { "id": "en.youre_doing_great", "kind": "phrase", "pos": "phrase", "text": "You're doing great", "zh": "你做得很好;你表现很棒", "alt": ["You are doing great"], "features": { "ipa": "jʊr ˌduːɪŋ ˈɡreɪt" }, "noteZh": "鼓励对方正在做的事做得好(学习、工作、适应新环境),回应说 Thanks!。" }
+      ],
+      "reviewItems": ["en.these_days", "en.take_a_class", "en.writing_center", "en.midterm", "en.how_many", "en.international_student"]
+    },
+    {
+      "id": "en.a1u15.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115085,
+      "titleZh": "磊的一周计划表", "goalZh": "读懂一份一周计划表,按天说出课程、打工和要交的作业",
+      "canDoZh": "能读懂一份一周计划表,说出每天的课、打工、学习小组和要交的作业",
+      "scenarioZh": "体裁:周计划表(磊手机里的日程)。说话人 lei(第一人称)。周一到周日每天一两行:上午的课、周一周三下午 2–6 点在咖啡馆上班、周二周四下午五点学习小组、周四三点去教授答疑、周五写作课交文章(Essay 1 due!!)、周六洗衣服和打扫房间、周日晚上和爸妈视频;最后两行是给自己的提醒。至少 10 行。(规划里答疑是周三三点,改成周四,和 r01、l04 一致。)",
+      "grammarFocusZh": "复习学科词、时间介词和不加冠词的说法(go to work、at home);计划表里的省略写法(5:00 — study group, library),读的时候自己补全。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "en.remember", "kind": "word", "pos": "verb", "text": "remember", "zh": "记得;记住", "features": { "ipa": "rɪˈmembɚ" }, "noteZh": "Remember: … 给自己的提醒,\"记住:……\";重音在中间 re-MEM-ber。" }
+      ],
+      "reviewItems": ["en.study_group", "en.office_hours", "en.due", "en.go_to_work", "en.video_call", "en.do_laundry"]
+    }
+  ]
+}

@@ -10,8 +10,8 @@
       "titleZh": "我的钱包不见了!",
       "goalZh": "会说钱包丢了、什么样、里面有什么,会在车站服务台请工作人员帮忙",
       "canDoZh": "能说出丢了什么、在哪儿、什么时候丢的,请别人帮忙",
-      "scenarioZh": "周一早上,王伟在地铁上发现钱包(der Geldbeutel)不见了。他先问旁边的男乘客有没有看见,乘客说也许有人捡到了,让他去车站的服务窗口问;下车后王伟在窗口向男工作人员说明:黑色的钱包,里面有银行卡、学生证和 30 欧元;工作人员说这儿没有人交钱包,可以去失物招领处(das Fundbüro)问,也可以在网上填失物登记表。说话人:wei、passant、mitarbeiter。",
-      "grammarFocusZh": "第四格物主冠词初见:Ich habe meinen Geldbeutel verloren / Ihren Geldbeutel?;完成时复习(verloren、gesehen、gefunden、abgegeben,Was ist passiert? 用 sein)",
+      "scenarioZh": "周一早上,王伟在地铁上发现钱包(der Geldbeutel)不见了。他先问旁边的男乘客有没有看见,乘客问他刚才坐在哪儿,说也许有人捡到了,让他去车站的服务窗口(der Schalter)问;下车后王伟在窗口向男工作人员说明:黑色的钱包,里面有银行卡和 30 欧元;工作人员说今天还没有乘客交来钱包,让他明天去失物招领处(das Fundbüro),或者给那儿打电话。说话人:wei、passant、mitarbeiter。",
+      "grammarFocusZh": "第四格物主冠词初见:Ich habe meinen Geldbeutel verloren / Ihren Geldbeutel?;完成时复习(verloren、gesehen、gefunden、gesessen、abgegeben;Was ist passiert? 用 sein);kein + 名词表示“没有一个”",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
         { "id": "de.geldbeutel", "kind": "word", "pos": "noun", "text": "der Geldbeutel", "zh": "钱包", "features": { "gender": "m", "plural": "die Geldbeutel", "ipa": "ˈɡɛltˌbɔɪ̯tl̩" }, "noteZh": "das Geld(钱)+ der Beutel(袋子),复合词的性跟最后一个词:der Geldbeutel;复数不变。北方也常说 das Portemonnaie,意思一样。eu 读 [ɔɪ̯],像“欧伊”。" },
@@ -24,15 +24,15 @@
         { "id": "de.fundbuero", "kind": "word", "pos": "noun", "text": "das Fundbüro", "zh": "失物招领处", "features": { "gender": "n", "plural": "die Fundbüros", "ipa": "ˈfʊntbyˌʁoː" }, "noteZh": "der Fund(找到的东西,来自 finden)+ das Büro(办公室);复数加 -s。德国的城市、车站、交通公司都有 Fundbüro,丢了东西可以去问,也可以在网上登记。ü 要撮圆嘴唇。" },
         { "id": "de.sitzen", "kind": "word", "pos": "verb", "text": "sitzen", "zh": "坐;坐着", "features": { "ipa": "ˈzɪtsn̩" }, "noteZh": "Wo haben Sie gesessen?(您刚才坐在哪儿?)不规则:完成时 gesessen(德国北部和标准语用 haben,南部和奥地利常用 sein)。s 在元音前读 [z],tz 读 [ts]。" }
       ],
-      "reviewItems": ["de.verlieren", "de.studentenausweis", "de.niemand", "de.ausfuellen", "de.formular", "de.platz"]
+      "reviewItems": ["de.verlieren", "de.fragen", "de.helfen", "de.schwarz", "de.anrufen"]
     },
     {
       "id": "de.a1u18.l02", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118020,
       "titleZh": "证件和卡",
       "goalZh": "会说常用的证件和卡,知道丢了以后马上该做什么",
       "canDoZh": "能说出常用的证件和卡,说清楚丢了哪些、要做什么",
-      "scenarioZh": "回到家,王伟和索菲娅列清单,钱包里有什么:银行卡、学生证、医保卡(die Versichertenkarte)、居留卡(居留许可,die Aufenthaltserlaubnis)和一张家人的照片;索菲娅说银行卡要马上打电话冻结(sperren),医保卡找医保公司(die Krankenkasse)补,居留卡要去外管局重新申请(beantragen);还好护照在家里,学期票在手机里。说话人:sofia、wei。",
-      "grammarFocusZh": "第四格物主冠词复习(Deine Bankkarte musst du sperren / Ruf deine Krankenkasse an);müssen 和 sofort;证件和卡的复合词(die Bankkarte、die Versichertenkarte、der Studentenausweis)",
+      "scenarioZh": "回到家,王伟和索菲娅一样一样地数钱包里有什么:银行卡、医保卡(die Versichertenkarte)、居留卡(die Aufenthaltserlaubnis)、一张家人的照片和 30 欧元;索菲娅说银行卡要赶快打电话冻结(sperren),医保卡找医保公司(die Krankenkasse)补,不要紧;居留卡要去外管局重新申请(beantragen);还好护照在家里,手机在包里没丢。索菲娅还教他:证件都复印一份(kopieren)。说话人:sofia、wei。",
+      "grammarFocusZh": "第四格物主冠词复习(Deine Bankkarte musst du sperren / Ruf deine Krankenkasse an);müssen + schnell / heute noch(规划写的 sofort 已由第 13 单元登记,本课先不用);证件和卡的复合词(die Bankkarte、die Versichertenkarte、die Krankenkasse)",
       "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "de.dokument", "kind": "word", "pos": "noun", "text": "das Dokument", "zh": "证件;文件", "features": { "gender": "n", "plural": "die Dokumente", "ipa": "dokuˈmɛnt" }, "noteZh": "护照、居留卡、证明这类正式的文件都可以叫 Dokument;重音在最后的 ment 上,和英语 document 重音位置不同。" },
@@ -44,7 +44,7 @@
         { "id": "de.kopieren", "kind": "word", "pos": "verb", "text": "kopieren", "zh": "复印;复制", "features": { "ipa": "koˈpiːʁən" }, "noteZh": "Kopier deine Dokumente!(把证件都复印一份!)-ieren 结尾,完成时不加 ge-:Ich habe den Pass kopiert.;重音在 pie 上。" },
         { "id": "de.schlimm", "kind": "word", "pos": "adj", "text": "schlimm", "zh": "糟糕;严重", "features": { "ipa": "ʃlɪm" }, "noteZh": "安慰人常说:Das ist nicht so schlimm.(没那么严重。)反过来 Das ist schlimm!(这可糟了!)sch 读 [ʃ],i 是短元音。" }
       ],
-      "reviewItems": ["de.pech", "de.liste", "de.bankkarte", "de.aufenthaltserlaubnis", "de.auslaenderbehoerde", "de.sofort"]
+      "reviewItems": ["de.bankkarte", "de.aufenthaltserlaubnis", "de.auslaenderbehoerde", "de.foto", "de.schnell", "de.warten"]
     },
     {
       "id": "de.a1u18.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118030,
@@ -59,45 +59,46 @@
         { "id": "de.rucksack", "kind": "word", "pos": "noun", "text": "der Rucksack", "zh": "双肩背包", "features": { "gender": "m", "plural": "die Rucksäcke", "ipa": "ˈʁʊkˌzak" }, "noteZh": "der Rücken(背)+ der Sack(袋子);复数变音:die Rucksäcke。英语的 rucksack 就是从德语借的。s 在元音前读 [z]。" },
         { "id": "de.liegen", "kind": "word", "pos": "verb", "text": "liegen", "zh": "躺;(平放着)在某处", "features": { "ipa": "ˈliːɡn̩" }, "noteZh": "说东西放在哪儿:Dein Schlüssel liegt im Kühlschrank!;人躺着也用它:Ich liege im Bett.。ie 读长音 [iː],和 ei [aɪ̯] 别混:liegen ≠ leihen。" },
         { "id": "de.klingeln", "kind": "word", "pos": "verb", "text": "klingeln", "zh": "(铃、电话)响;按门铃", "features": { "ipa": "ˈklɪŋl̩n" }, "noteZh": "Das Handy klingelt.(手机响了。)按门铃也用它。-eln 结尾的动词 ich 形式常去掉 e:ich klingle;ng 读 [ŋ],g 不单独发音。" },
-        { "id": "de.vergessen", "kind": "word", "pos": "verb", "text": "vergessen", "zh": "忘记;忘带", "features": { "ipa": "fɛɐ̯ˈɡɛsn̩" }, "noteZh": "不规则:du vergisst, er vergisst;完成时 Ich habe … vergessen(ver- 开头不加 ge-)。后面直接跟第四格:Ich vergesse meinen Schlüssel.。" },
-        { "id": "de.dabei", "kind": "word", "pos": "adv", "text": "dabei", "zh": "带在身上(dabeihaben)", "features": { "ipa": "daˈbaɪ̯" }, "noteZh": "etwas dabeihaben = 身上带着某物:Hast du deinen Schlüssel dabei?(你带钥匙了吗?)dabei 放句末;重音在 bei 上,ei 读 [aɪ̯]。" },
+        { "id": "de.dabei", "kind": "word", "pos": "adv", "text": "dabei", "zh": "带在身上(dabeihaben)", "features": { "ipa": "daˈbaɪ̯" }, "noteZh": "etwas dabeihaben = 身上带着某物:Hast du deinen Schlüssel dabei?(你带钥匙了吗?)dabei 放句末,否定时 nicht 放在它前面;重音在 bei 上,ei 读 [aɪ̯]。" },
         { "id": "de.komisch", "kind": "word", "pos": "adj", "text": "komisch", "zh": "好笑;奇怪", "features": { "ipa": "ˈkoːmɪʃ" }, "noteZh": "两个意思:好笑(Das ist nicht komisch!这不好笑!)和奇怪(Das ist komisch, wo ist mein Handy?)。o 读长音,sch 读 [ʃ]。" },
-        { "id": "de.durcheinander", "kind": "word", "pos": "adj", "text": "durcheinander", "zh": "心里乱;(东西)乱七八糟", "features": { "ipa": "dʊʁçʔaɪ̯ˈnandɐ" }, "noteZh": "Du bist heute ganz durcheinander.(你今天心不在焉的。)也说房间乱:Mein Zimmer ist durcheinander.;重音在 nan 上,前面的 durch 里 ch 读 [ç]。" }
+        { "id": "de.durcheinander", "kind": "word", "pos": "adj", "text": "durcheinander", "zh": "心里乱;(东西)乱七八糟", "features": { "ipa": "dʊʁçʔaɪ̯ˈnandɐ" }, "noteZh": "Du bist heute ganz durcheinander.(你今天心不在焉的。)也说房间乱:Mein Zimmer ist durcheinander.;重音在 nan 上,前面的 durch 里 ch 读 [ç]。" },
+        { "id": "de.irgendwo", "kind": "word", "pos": "adv", "text": "irgendwo", "zh": "在某个地方;不知在哪儿", "features": { "ipa": "ˈɪʁɡn̩tˌvoː" }, "noteZh": "找东西时常说:Er ist irgendwo hier!(就在这附近哪儿!)irgend- 表示“随便哪个、不知道哪个”:irgendwo(某处)。重音在 ir 上。" }
       ],
-      "reviewItems": ["de.ueberall", "de.suchen", "de.schluessel", "de.handy", "de.kuehlschrank", "de.lachen"]
+      "reviewItems": ["de.vergessen", "de.suchen", "de.schluessel", "de.handy", "de.kuehlschrank", "de.lachen"]
     },
     {
       "id": "de.a1u18.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118040,
       "titleZh": "挂失银行卡",
       "goalZh": "会打银行电话挂失银行卡,回答核对身份的问题,听懂新卡和报警的说明",
       "canDoZh": "能打电话冻结银行卡,回答核对身份的问题",
-      "scenarioZh": "周一晚上,王伟打银行的挂失电话。女银行职员核对他的名字、地址和出生地(示例地址 Musterstraße 12),问卡最后一次是什么时候用的,然后说卡已经冻结了(gesperrt),新卡大约一周后寄到,密码(die PIN)另外邮寄;她还建议他去警察局报案(eine Anzeige machen 当固定说法),也许钱包是被小偷偷的。说话人:wei、bankberaterin。",
-      "grammarFocusZh": "电话里核对身份:Ihren Namen und Ihre Adresse, bitte / Wo sind Sie geboren?;完成时复习(Ich habe meine Bankkarte verloren / Wann haben Sie die Karte zuletzt benutzt? / Ein Dieb hat … gestohlen);第四格物主冠词复习",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "scenarioZh": "周一晚上,王伟打银行的挂失电话。女银行职员先让他放心,核对他的名字、地址和出生地(示例地址 Musterstraße 12),问他最后一次用卡付钱是什么时候,然后说卡已经冻结了(gesperrt),新卡大约一周后寄到,密码(die PIN)另外邮寄;她还建议他去警察局报案(eine Anzeige machen 当固定说法),也许钱包是被小偷偷的。说话人:wei、bankberaterin。",
+      "grammarFocusZh": "电话里核对身份:Ihren Namen und Ihre Adresse, bitte / Wo sind Sie geboren?;完成时复习(Ich habe meine Bankkarte verloren / Wann haben Sie zuletzt mit der Karte bezahlt? / Ein Dieb hat … gestohlen);sein + 过去分词说状态(Die Karte ist gesperrt)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
-        { "id": "de.keine_sorge", "kind": "phrase", "pos": "phrase", "text": "Keine Sorge!", "zh": "别担心!", "features": { "ipa": "ˈkaɪ̯nə ˈzɔʁɡə" }, "noteZh": "安慰别人最常用;die Sorge 是“担心”,用 kein 否定。也说 Keine Angst!(别怕!)s 在元音前读 [z]。" },
-        { "id": "de.zuletzt", "kind": "word", "pos": "adv", "text": "zuletzt", "zh": "最后一次;上一次", "features": { "ipa": "tsuˈlɛtst" }, "noteZh": "Wann haben Sie die Karte zuletzt benutzt?(您最后一次用卡是什么时候?)丢了东西时常被问到。z 读 [ts],词尾 tzt 读 [tst]。" },
+        { "id": "de.keine_sorge", "kind": "phrase", "pos": "phrase", "text": "Keine Sorge!", "zh": "别担心!", "features": { "ipa": "ˈkaɪ̯nə ˈzɔʁɡə" }, "noteZh": "安慰别人最常用:Keine Sorge, wir sperren die Karte.(别担心,我们来冻结这张卡。)die Sorge 是“担心”,用 kein 否定;s 在元音前读 [z]。" },
+        { "id": "de.zuletzt", "kind": "word", "pos": "adv", "text": "zuletzt", "zh": "最后一次;上一次", "features": { "ipa": "tsuˈlɛtst" }, "noteZh": "Wann haben Sie zuletzt mit der Karte bezahlt?(您最后一次用卡付钱是什么时候?)丢了东西时常被问到。z 读 [ts],词尾 tzt 读 [tst]。" },
         { "id": "de.ungefaehr", "kind": "word", "pos": "adv", "text": "ungefähr", "zh": "大约;大概", "features": { "ipa": "ˈʊnɡəfɛːɐ̯" }, "noteZh": "放在数字前:in ungefähr einer Woche(大约一周以后)、ungefähr zehn Minuten。重音在 un 上;ä 读长音 [ɛː]。" },
         { "id": "de.pin", "kind": "word", "pos": "noun", "text": "die PIN", "zh": "(银行卡的)密码", "features": { "gender": "f", "plural": "die PINs", "ipa": "pɪn" }, "noteZh": "银行卡的数字密码,德语也叫 die Geheimzahl;银行一般把新卡和 PIN 分开寄。阴性:die PIN。" },
         { "id": "de.dieb", "kind": "word", "pos": "noun", "text": "der Dieb", "zh": "小偷", "features": { "gender": "m", "plural": "die Diebe", "ipa": "diːp" }, "noteZh": "ie 读长音 [iː],和 ei 相反:Dieb [iː] / Polizei [aɪ̯];词尾 b 清化读 [p],复数 Diebe 里 b 又读 [b]。地铁里常听到广播提醒小心小偷。" },
         { "id": "de.stehlen", "kind": "word", "pos": "verb", "text": "stehlen", "zh": "偷", "features": { "ipa": "ˈʃteːlən" }, "noteZh": "不规则:du stiehlst, er stiehlt;完成时 Er hat … gestohlen。st 在词首读 [ʃt];eh 是长音。" },
-        { "id": "de.eine_anzeige_machen", "kind": "phrase", "pos": "phrase", "text": "eine Anzeige machen", "zh": "(到警察局)报案", "features": { "ipa": "ˈaɪ̯nə ˈanˌtsaɪ̯ɡə ˈmaxn̩" }, "noteZh": "先当固定说法记:Machen Sie eine Anzeige bei der Polizei.(去警察局报案。)正式说法是 Anzeige erstatten。die Anzeige 另外还有“广告、启事”的意思(第 13 单元的招聘广告)。" },
-        { "id": "de.polizei", "kind": "word", "pos": "noun", "text": "die Polizei", "zh": "警察;警察局", "features": { "gender": "f", "plural": "-", "ipa": "poliˈtsaɪ̯" }, "noteZh": "zur Polizei gehen(去警察局);报警电话 110,急救和消防 112。重音在最后的 zei 上,ei 读 [aɪ̯];z 读 [ts]。" }
+        { "id": "de.eine_anzeige_machen", "kind": "phrase", "pos": "phrase", "text": "eine Anzeige machen", "zh": "(到警察局)报案", "features": { "ipa": "ˈaɪ̯nə ˈanˌtsaɪ̯ɡə ˈmaxn̩" }, "noteZh": "先当固定说法记:Machen Sie eine Anzeige bei der Polizei.(去警察局报案。)正式说法是 Anzeige erstatten;die Anzeige 另外还有“广告”的意思。" },
+        { "id": "de.polizei", "kind": "word", "pos": "noun", "text": "die Polizei", "zh": "警察;警察局", "features": { "gender": "f", "plural": "-", "ipa": "poliˈtsaɪ̯" }, "noteZh": "zur Polizei gehen(去警察局);报警电话 110,急救和消防 112。重音在最后的 zei 上,ei 读 [aɪ̯];z 读 [ts]。" },
+        { "id": "de.auf_wiederhoeren", "kind": "phrase", "pos": "phrase", "text": "Auf Wiederhören!", "zh": "再见!(打电话时说)", "features": { "ipa": "aʊ̯f ˈviːdɐˌhøːʁən" }, "noteZh": "电话里道别用 Auf Wiederhören(hören = 听),当面道别才说 Auf Wiedersehen(sehen = 看)。朋友之间打电话说 Tschüss 就行。" }
       ],
-      "reviewItems": ["de.bankkarte", "de.sperren", "de.adresse", "de.geboren", "de.benutzen"]
+      "reviewItems": ["de.verlieren", "de.bankkarte", "de.sperren", "de.adresse", "de.geboren", "de.bezahlen"]
     },
     {
       "id": "de.a1u18.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118045,
       "titleZh": "失物招领处的邮件",
       "goalZh": "读懂失物招领处的通知邮件和网页说明,找出去哪儿取、什么时间、要带什么、要付多少钱",
       "canDoZh": "能读懂失物招领处的通知,找出去哪儿取、什么时间、要带什么",
-      "scenarioZh": "体裁:邮件和网页说明(交通公司的失物招领处,不写真实名称)。周二,王伟收到失物招领处的邮件(他周一在网上填了失物登记表):有乘客把他的钱包交上来了,里面的东西都在;请他七天内带证件(比如护照)来取,手续费 5 欧元;下面是网页上的地址(示例地址)、开放时间(周一到周五 9–18 点,周四到 20 点)和怎么在网上登记丢失的东西。说话人:narrator(邮件和说明)。",
-      "grammarFocusZh": "复习:日期、钟点、von … bis …、Sie 的命令式(Bitte bringen Sie … mit / Füllen Sie … aus)和 können;通知里常省略动词(Montag bis Freitag: 9 bis 18 Uhr)",
+      "scenarioZh": "体裁:邮件和网页说明(交通公司的失物招领处,不写真实名称)。周二,王伟收到失物招领处的邮件(他周一给那儿打过电话):有乘客把他的钱包交上来了,里面的卡、照片和钱都在;请他七天内来取,带上护照,要付 5 欧元;下面是网页上的地址(示例地址)、开放时间(周一到周五 9–18 点,周四到 20 点)和丢了东西怎么登记。说话人:narrator(邮件和说明)。",
+      "grammarFocusZh": "复习:日期、钟点、von … bis …、Sie 的命令式(Bringen Sie bitte … mit / Füllen Sie … aus);通知里常省略动词(Montag bis Freitag: 9 bis 18 Uhr);用问句代替“如果”(Ist Ihre Tasche bei uns? Dann …)",
       "skills": ["read"], "estimatedMinutes": 14,
       "newItems": [
         { "id": "de.oeffnungszeit", "kind": "word", "pos": "noun", "text": "die Öffnungszeit", "zh": "营业时间;开放时间", "features": { "gender": "f", "plural": "die Öffnungszeiten", "ipa": "ˈœfnʊŋsˌtsaɪ̯t" }, "noteZh": "通知、网页上一般用复数:Öffnungszeiten: Mo–Fr 9–18 Uhr。öffnen(开)+ -ung + s + die Zeit;ö 撮圆嘴唇,z 读 [ts]。" }
       ],
-      "reviewItems": ["de.fundbuero", "de.fahrgast", "de.abgeben", "de.abholen", "de.gebuehr", "de.ausweis"]
+      "reviewItems": ["de.fundbuero", "de.fahrgast", "de.abgeben", "de.weg", "de.mitbringen", "de.nachricht"]
     },
     {
       "id": "de.a1u18.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118050,
@@ -117,7 +118,7 @@
         { "id": "de.verletzt", "kind": "word", "pos": "adj", "text": "verletzt", "zh": "受伤的", "features": { "ipa": "fɛɐ̯ˈlɛtst" }, "noteZh": "放在 sein 后面:Wie viele Personen sind verletzt?(几个人受伤?)Sein Knie ist verletzt.。来自动词 verletzen(弄伤);词尾 tzt 读 [tst]。" },
         { "id": "de.bewegen", "kind": "word", "pos": "verb", "text": "bewegen", "zh": "移动;动", "features": { "ipa": "bəˈveːɡn̩" }, "noteZh": "Bewegen Sie seinen Fuß bitte nicht!(请别动他的脚!)be- 不可分、不重读;w 读 [v]。" }
       ],
-      "reviewItems": ["de.passieren", "de.fuss", "de.wehtun", "de.park", "de.stehen", "de.genau"]
+      "reviewItems": ["de.passieren", "de.fuss", "de.wehtun", "de.park", "de.genau", "de.keine_sorge"]
     },
     {
       "id": "de.a1u18.l06", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118060,
@@ -144,7 +145,7 @@
       "titleZh": "被锁在门外",
       "goalZh": "会在被锁在门外时向邻居求助、给室友打电话,商量怎么办",
       "canDoZh": "能在被锁在门外时向邻居求助,商量怎么办",
-      "scenarioZh": "周六晚上王伟下楼倒垃圾,两分钟后回来,门在身后关上了——钥匙在屋里,他站在楼道里(das Treppenhaus)。约纳斯在餐馆上班,索菲娅出去了(unterwegs),电话也打不通。他按楼下霍夫曼先生的门铃,问有没有备用钥匙(der Ersatzschlüssel);霍夫曼先生说没有,晚上叫开锁公司(der Schlüsseldienst)很贵,这也不算急事(kein Notfall),先给约纳斯打电话;约纳斯说他 23 点下班,23 点半回来开门,还开玩笑问王伟今天是不是又倒霉了;霍夫曼先生请王伟进屋,屋里暖和又舒服(gemütlich),王伟问起他以前开火车的照片。说话人:wei、hoffmann、jonas。",
+      "scenarioZh": "周六晚上王伟下楼倒垃圾,两分钟后回来,门在身后关上了——钥匙在屋里,他被关在楼道里(das Treppenhaus)。约纳斯在餐馆上班,索菲娅出去了(unterwegs),电话打不通。他按楼下霍夫曼先生的门铃,问有没有备用钥匙(der Ersatzschlüssel);霍夫曼先生说没有,晚上叫开锁公司(der Schlüsseldienst)很贵,这也不算急事(kein Notfall),先给约纳斯打电话;约纳斯说他上班到 23 点,23 点半到家,还开玩笑说“今天不是你的日子”;霍夫曼先生请王伟在他家等,屋里暖和又舒服(gemütlich),王伟请他给自己看看老火车的照片。说话人:wei、hoffmann、jonas。",
       "grammarFocusZh": "求助:Können Sie mir helfen? / Haben Sie vielleicht …?;第四格物主冠词复习(Ich habe meinen Schlüssel nicht dabei / Haben Sie Ihr Handy dabei?);Die Tür ist zugefallen 先当固定说法;对邻居用 Sie、对室友用 du",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
@@ -157,34 +158,35 @@
         { "id": "de.erreichen", "kind": "word", "pos": "verb", "text": "erreichen", "zh": "(打电话)联系上;赶上(车)", "features": { "ipa": "ɛɐ̯ˈʁaɪ̯çn̩" }, "noteZh": "Ich erreiche sie nicht.(我联系不上她。)赶上车也用它:Wir erreichen den Zug.;er- 不可分、不重读,完成时 erreicht。" },
         { "id": "de.gemuetlich", "kind": "word", "pos": "adj", "text": "gemütlich", "zh": "舒适;温馨", "features": { "ipa": "ɡəˈmyːtlɪç" }, "noteZh": "德国人很看重的感觉:暖和、安静、让人放松的地方或时间都叫 gemütlich;Hier ist es gemütlich.。ü 撮圆嘴唇读长音,词尾 -lich 读 [lɪç]。" }
       ],
-      "reviewItems": ["de.dabei", "de.unten", "de.oeffnen", "de.feierabend", "de.frueher", "de.lokfuehrer"]
+      "reviewItems": ["de.dabei", "de.teuer", "de.helfen", "de.warten", "de.zeigen", "de.problem"]
     },
     {
       "id": "de.a1u18.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118080,
       "titleZh": "单元复习与应用:向老板请病假",
       "goalZh": "会打电话请病假,说清楚哪里不舒服、大概几天不能来,知道什么时候要交病假条",
       "canDoZh": "能打电话请病假,说清楚哪里不舒服、多久不能来",
-      "scenarioZh": "这一周倒霉事太多,周日早上王伟又发烧、嗓子疼,得了重感冒(和周日晚上写的日记接上:规划原来写周三,改成周日)。他给冰淇淋店的老板娘打电话:Ich bin krank, ich habe Fieber.;老板娘问他几天不能来,说到周三(第四天)还病着就要交医生开的病假条(die Krankmeldung),让他多睡觉、多喝茶;王伟又给索菲娅发消息,请她告诉同事(Bescheid sagen);索菲娅说晚上给他做汤。说话人:wei、chefin、sofia。",
+      "scenarioZh": "这一周倒霉事太多,周日早上王伟又发烧、嗓子疼,得了重感冒(和周日晚上写的日记接上:规划原来写周三,改成周日)。他给冰淇淋店的老板娘打电话:Ich bin krank, ich habe Fieber.;老板娘问他几天不能来,说到周三(第四天)还病着就要交医生开的病假条(die Krankmeldung),让他多睡觉、多喝茶;王伟又给索菲娅发消息,请她在店里(im Laden)跟大家说一声(Bescheid sagen);索菲娅说晚上给他煮汤。说话人:wei、chefin、sofia。",
       "grammarFocusZh": "复习:krank / Fieber / müssen、第四格物主冠词、完成时;请假的说法(Ich kann heute leider nicht kommen / Wie viele Tage kannst du nicht arbeiten?);老板娘对员工用 du,du 的命令式给建议(Schlaf viel und trink viel Tee!)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
       "newItems": [
         { "id": "de.krankmeldung", "kind": "word", "pos": "noun", "text": "die Krankmeldung", "zh": "病假条;请病假", "features": { "gender": "f", "plural": "die Krankmeldungen", "ipa": "ˈkʁaŋkˌmɛldʊŋ" }, "noteZh": "在德国,病假超过三天(从第四天起)要交医生开的病假证明,有的老板第一天就要;生病了要在上班前先打电话请假。krank + die Meldung(通知)。" },
-        { "id": "de.bescheid_sagen", "kind": "phrase", "pos": "phrase", "text": "Bescheid sagen", "zh": "告诉一声;通知(某人)", "features": { "ipa": "bəˈʃaɪ̯t ˈzaːɡn̩" }, "noteZh": "jemandem Bescheid sagen = 告诉某人一声:Kannst du den Kollegen Bescheid sagen?(你能跟同事说一声吗?)口语非常常用;ei 读 [aɪ̯],词尾 d 读 [t]。" }
+        { "id": "de.bescheid_sagen", "kind": "phrase", "pos": "phrase", "text": "Bescheid sagen", "zh": "告诉一声;通知(某人)", "features": { "ipa": "bəˈʃaɪ̯t ˈzaːɡn̩" }, "noteZh": "jemandem Bescheid sagen = 告诉某人一声:Kannst du im Laden Bescheid sagen?(你能在店里跟大家说一声吗?)口语非常常用;ei 读 [aɪ̯],词尾 d 读 [t]。" },
+        { "id": "de.laden", "kind": "word", "pos": "noun", "text": "der Laden", "zh": "店;商店", "features": { "gender": "m", "plural": "die Läden", "ipa": "ˈlaːdn̩" }, "noteZh": "口语里小商店都叫 Laden:im Laden arbeiten(在店里上班);复数变音 die Läden。a 是长音,词尾 -en 读得很轻。" }
       ],
-      "reviewItems": ["de.krank", "de.fieber", "de.gute_besserung", "de.chefin", "de.eisdiele", "de.kollege"]
+      "reviewItems": ["de.krank", "de.fieber", "de.gute_besserung", "de.anrufen", "de.schlafen", "de.lieb"]
     },
     {
       "id": "de.a1u18.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-18 意外与求助", "order": 118085,
       "titleZh": "倒霉的一周(王伟的日记)",
       "goalZh": "读懂一篇讲意外经历的日记,按顺序说出每天发生了什么,也会用完成时写类似的日记",
       "canDoZh": "能读懂一篇讲意外经历的日记,按顺序说出发生了什么",
-      "scenarioZh": "体裁:日记。周日晚上,王伟躺在床上写这一周:周一在地铁上丢了钱包,马上打电话冻结了银行卡;周二失物招领处来信,钱包有人交上来了;周六踢球时保罗摔倒,他自己打了 112,幸好脚踝只是扭伤;晚上又把自己锁在门外,在霍夫曼先生家喝茶、看火车照片;今天自己也感冒了。结尾:这一周真倒霉,可是朋友们都很好,而且他学会了很多有用的德语词。用完成时写。说话人:wei(日记)。",
+      "scenarioZh": "体裁:日记。周日晚上,王伟躺在床上写这一周:周一在地铁上丢了钱包,当天就打电话冻结了银行卡;周二失物招领处来信,钱包有人交上来了;周六踢球时保罗摔倒,他自己打了 112,幸好脚踝只是扭伤;晚上又把自己关在门外,在霍夫曼先生家喝茶、看火车照片;今天自己也感冒了。结尾:这一周真糟糕,问题一个接一个,可是朋友们都很好,而且他学了很多有用的德语。用完成时写。说话人:wei(日记)。",
       "grammarFocusZh": "复习:完成时(haben / sein)、按时间顺序讲(am Montag, am Dienstag, am Samstag, am Abend, heute)、时间放句首动词第二位、第四格物主冠词",
       "skills": ["read", "write"], "estimatedMinutes": 14,
       "newItems": [
         { "id": "de.dieser", "kind": "word", "pos": "det", "text": "dieser", "zh": "这个;这", "alt": ["diese", "dieses", "diesen", "diesem"], "features": { "ipa": "ˈdiːzɐ" }, "noteZh": "词尾跟定冠词一样变:dieser Tag, diese Woche, dieses Jahr;diese Woche = 这个星期(不加介词)。ie 读长音 [iː]。" }
       ],
-      "reviewItems": ["de.verlieren", "de.fundbuero", "de.notruf", "de.gebrochen", "de.tagebuch", "de.pech"]
+      "reviewItems": ["de.verlieren", "de.fundbuero", "de.notruf", "de.gebrochen", "de.schlimm", "de.problem"]
     }
   ]
 }

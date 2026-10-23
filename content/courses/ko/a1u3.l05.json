@@ -18,20 +18,20 @@
   "lines": [
     { "speaker": "minjun", "text": "안녕하세요! 이민준이에요. 반갑습니다.", "zh": "(第一次语言交换,在学校里的一家咖啡店。一个男生站起来打招呼)你好!我叫李敏俊,很高兴认识你。", "roman": "Annyeonghaseyo! Iminjunieyo. Bangapseumnida.", "items": ["ko.annyeonghaseyo", "ko.bangapseumnida"] },
     { "speaker": "jing", "text": "안녕하세요. 저는 천징이에요. 잘 부탁드립니다.", "zh": "你好,我叫陈静。请多关照。", "roman": "Annyeonghaseyo. Jeoneun Cheonjingieyo. Jal butakdeurimnida.", "items": ["ko.annyeonghaseyo", "ko.jeo", "ko.jal_butakdeurimnida"] },
-    { "speaker": "jing", "text": "그리고 제 친구 남 씨예요.", "zh": "还有,这是我的朋友阿南。(阿南也跟着来了,在旁边笑着挥手)", "roman": "Geurigo je chingu Nam ssiyeyo.", "items": ["ko.geurigo", "ko.chingu", "ko.ssi"] },
+    { "speaker": "jing", "text": "그리고 제 친구 남 씨예요.", "zh": "还有,这是我的朋友阿南。(南也跟着来了,在旁边笑着挥手)", "roman": "Geurigo je chingu Nam ssiyeyo.", "items": ["ko.geurigo", "ko.chingu", "ko.ssi"] },
     { "speaker": "minjun", "text": "우리 가족 사진이에요.", "zh": "(大家说好今天用韩语聊家人,敏俊先拿出手机)这是我家人的照片。", "roman": "Uri gajok sajinieyo.", "items": ["ko.uri", "ko.gajok", "ko.sajin"] },
     { "speaker": "minjun", "text": "할머니하고 부모님이에요. 그리고 누나예요.", "zh": "这是我奶奶和我爸妈。还有,这是我姐姐。(他又用不太标准的中文说了一遍:“我的……姐姐!”)", "roman": "Halmeonihago bumonimieyo. Geurigo nunayeyo.", "items": ["ko.halmeoni", "ko.bumonim", "ko.geurigo", "ko.nuna"] },
-    { "speaker": "nam", "text": "저는 형하고 남동생이 있어요.", "zh": "(阿南也凑过来)我有一个哥哥和一个弟弟。", "roman": "Jeoneun hyeonghago namdongsaengi isseoyo.", "items": ["ko.jeo", "ko.hyeong", "ko.namdongsaeng", "ko.isseoyo"] },
-    { "speaker": "nam", "text": "이거 우리 할아버지예요!", "zh": "(阿南马上翻出他给爷爷拍的短视频)这是我爷爷!", "roman": "Igeo uri harabeojiyeyo!", "items": ["ko.igeo", "ko.uri", "ko.harabeoji"] },
+    { "speaker": "nam", "text": "저는 형하고 남동생이 있어요.", "zh": "(南也凑过来)我有一个哥哥和一个弟弟。", "roman": "Jeoneun hyeonghago namdongsaengi isseoyo.", "items": ["ko.jeo", "ko.hyeong", "ko.namdongsaeng", "ko.isseoyo"] },
+    { "speaker": "nam", "text": "이거 우리 할아버지예요!", "zh": "(南马上翻出他给爷爷拍的短视频)这是我爷爷!", "roman": "Igeo uri harabeojiyeyo!", "items": ["ko.igeo", "ko.uri", "ko.harabeoji"] },
     { "speaker": "minjun", "text": "천징 씨 가족은요?", "zh": "(敏俊笑着看完视频,转向陈静)陈静,你家呢?", "roman": "Cheonjing ssi gajogeunyo?", "items": ["ko.ssi", "ko.gajok"] },
     { "speaker": "jing", "text": "우리 가족은 아버지와 어머니, 그리고 저예요.", "zh": "我家有爸爸、妈妈,还有我。", "roman": "Uri gajogeun abeojiwa eomeoni, geurigo jeoyeyo.", "items": ["ko.uri", "ko.gajok", "ko.abeoji", "ko.eomeoni", "ko.geurigo", "ko.jeo"] },
     { "speaker": "minjun", "text": "아, 그래요? 동생 없어요?", "zh": "啊,是吗?没有弟弟妹妹?", "roman": "A, geuraeyo? Dongsaeng eopseoyo?", "items": ["ko.geuraeyo", "ko.dongsaeng", "ko.eopseoyo"] },
     { "speaker": "jing", "text": "네, 없어요.", "zh": "嗯,没有。", "roman": "Ne, eopseoyo.", "items": ["ko.ne", "ko.eopseoyo"] },
-    { "speaker": "jing", "text": "그리고 친구가 있어요. 수아 씨, 남 씨, 민준 씨!", "zh": "(陈静笑着看看阿南和敏俊)不过我有朋友呀:秀雅、阿南,还有敏俊!", "roman": "Geurigo chinguga isseoyo. Sua ssi, Nam ssi, Minjun ssi!", "items": ["ko.geurigo", "ko.chingu", "ko.isseoyo", "ko.ssi"] }
+    { "speaker": "jing", "text": "그리고 친구가 있어요. 수아 씨, 남 씨, 민준 씨!", "zh": "(陈静笑着看看南和敏俊)不过我有朋友呀:秀雅、阿南,还有敏俊!", "roman": "Geurigo chinguga isseoyo. Sua ssi, Nam ssi, Minjun ssi!", "items": ["ko.geurigo", "ko.chingu", "ko.isseoyo", "ko.ssi"] }
   ],
   "questions": [
     { "prompt": "敏俊家有谁?", "options": ["奶奶、父母和姐姐", "爷爷、奶奶和哥哥", "父母和妹妹"], "answer": 0, "explainZh": "第 5 句:할머니하고 부모님이에요. 그리고 누나예요.(这是奶奶和父母,还有姐姐。)누나 是男生叫的“姐姐”。" },
-    { "prompt": "阿南说“저는 형하고 남동생이 있어요”,他有什么兄弟?", "options": ["一个姐姐和一个妹妹", "一个哥哥和一个弟弟", "两个哥哥"], "answer": 1, "explainZh": "第 6 句:형 是男生叫的“哥哥”,남동생 是弟弟,하고 = 和。" },
+    { "prompt": "南说“저는 형하고 남동생이 있어요”,他有什么兄弟?", "options": ["一个姐姐和一个妹妹", "一个哥哥和一个弟弟", "两个哥哥"], "answer": 1, "explainZh": "第 6 句:형 是男生叫的“哥哥”,남동생 是弟弟,하고 = 和。" },
     { "prompt": "陈静介绍自己家时,为什么说 아버지와 어머니,不说 아빠하고 엄마?", "options": ["아빠、엄마 是男生用的", "아버지와 어머니 是她的爷爷奶奶", "向刚认识的人介绍家人,用正式一点的说法"], "answer": 2, "explainZh": "第 9 句:아버지、어머니 比 아빠、엄마 正式,和刚认识的人、在正式场合介绍家人时常用;와 也比 하고 正式。" }
   ],
   "grammar": [

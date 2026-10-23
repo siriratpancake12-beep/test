@@ -20,8 +20,8 @@
     { "speaker": "minjun", "text": "아, 그래요? 천징 씨, 뭐 마셔요?", "zh": "啊,是吗?陈静,你喝什么?(他又用不太标准的中文说了一遍:“你,喝,什么?”)", "roman": "A, geuraeyo? Cheonjing ssi, mwo masyeoyo?", "items": ["ko.geuraeyo", "ko.ssi", "ko.mwo", "ko.masyeoyo"] },
     { "speaker": "jing", "text": "저는 녹차를 마셔요.", "zh": "我喝绿茶。", "roman": "Jeoneun nokchareul masyeoyo.", "items": ["ko.jeo", "ko.nokcha", "ko.masyeoyo"] },
     { "speaker": "minjun", "text": "녹차요? 커피는요?", "zh": "绿茶?不喝咖啡吗?", "roman": "Nokchayo? Keopineunyo?", "items": ["ko.nokcha", "ko.keopi"] },
-    { "speaker": "jing", "text": "커피도 좋아해요. 차도 좋아해요.", "zh": "咖啡我也喜欢,茶也喜欢。", "roman": "Keopido joahaeyo. Chado joahaeyo.", "items": ["ko.keopi", "ko.joahaeyo", "ko.cha"] },
-    { "speaker": "minjun", "text": "저는 아메리카노를 좋아해요.", "zh": "我喜欢美式。(敏俊一年四季都喝冰美式)", "roman": "Jeoneun amerikanoreul joahaeyo.", "items": ["ko.jeo", "ko.amerikano", "ko.joahaeyo"] },
+    { "speaker": "jing", "text": "커피도 좋아해요. 차도 좋아해요. 민준 씨는 뭐 마셔요?", "zh": "咖啡我也喜欢,茶也喜欢。敏俊,你喝什么?", "roman": "Keopido joahaeyo. Chado joahaeyo. Minjun ssineun mwo masyeoyo?", "items": ["ko.keopi", "ko.joahaeyo", "ko.cha", "ko.ssi", "ko.mwo", "ko.masyeoyo"] },
+    { "speaker": "minjun", "text": "저는 아메리카노요. 아메리카노를 좋아해요!", "zh": "我要美式。我喜欢美式!(敏俊一年四季都喝冰美式)", "roman": "Jeoneun amerikanoyo. Amerikanoreul joahaeyo!", "items": ["ko.jeo", "ko.amerikano", "ko.joahaeyo"] },
     { "speaker": "jing", "text": "저는 카페라테도 좋아해요. 우유를 좋아해요.", "zh": "我还喜欢拿铁。我爱喝牛奶。", "roman": "Jeoneun kaperatedo joahaeyo. Uyureul joahaeyo.", "items": ["ko.jeo", "ko.kaperate", "ko.joahaeyo", "ko.uyu"] },
     { "speaker": "minjun", "text": "빵도 먹어요?", "zh": "(柜台的玻璃柜里摆着面包)你吃面包吗?", "roman": "Ppangdo meogeoyo?", "items": ["ko.ppang", "ko.meogeoyo"] },
     { "speaker": "jing", "text": "네, 먹어요! 빵을 좋아해요.", "zh": "嗯,吃!我喜欢面包。", "roman": "Ne, meogeoyo! Ppangeul joahaeyo.", "items": ["ko.ne", "ko.meogeoyo", "ko.ppang", "ko.joahaeyo"] },
@@ -29,7 +29,7 @@
   ],
   "questions": [
     { "prompt": "陈静喝什么?", "options": ["绿茶", "美式咖啡", "拿铁"], "answer": 0, "explainZh": "第 3 句:저는 녹차를 마셔요(我喝绿茶)。美式是敏俊喜欢的(第 6 句);拿铁陈静也喜欢,但这次没点(第 7 句)。" },
-    { "prompt": "敏俊喜欢喝什么?", "options": ["绿茶", "牛奶", "美式咖啡"], "answer": 2, "explainZh": "第 6 句:저는 아메리카노를 좋아해요(我喜欢美式)。爱喝牛奶的是陈静(第 7 句)。" },
+    { "prompt": "敏俊喜欢喝什么?", "options": ["绿茶", "牛奶", "美式咖啡"], "answer": 2, "explainZh": "第 5 句陈静问 민준 씨는 뭐 마셔요?,第 6 句敏俊回答:저는 아메리카노요. 아메리카노를 좋아해요!(我要美式,我喜欢美式!)爱喝牛奶的是陈静(第 7 句)。" },
     { "prompt": "“빵을 좋아해요”里为什么用 을?", "options": ["因为 빵 是吃的东西", "빵 最后一个字有收音 ㅇ", "后面是 좋아해요,要用 이/가"], "answer": 1, "explainZh": "을/를 是宾语助词:有收音用 을(빵을),没有收音用 를(녹차를、커피를)。좋아해요 前面用 을/를;上一单元的 있어요 前面才用 이/가。" }
   ],
   "grammar": [

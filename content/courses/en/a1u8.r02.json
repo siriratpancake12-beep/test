@@ -1,0 +1,38 @@
+{
+  "id": "en.a1u8.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-8 Last weekend", "order": 108085,
+  "titleZh": "劳拉的学期末邮件", "goalZh": "读懂一封学期总结和假期安排的通知邮件,找出时间、地点和要做的事", "canDoZh": "能读懂一封学期总结和假期安排的邮件,找出放假安排和要做的事",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 12.5,
+  "newItems": [],
+  "reviewItems": ["en.semester", "en.nervous", "en.confident", "en.customer", "en.party"],
+  "lines": [
+    { "speaker": "narrator", "text": "Hi, all!", "zh": "(学期最后一周,劳拉发给咖啡馆全体员工的邮件)大家好!", "items": ["en.hi"] },
+    { "speaker": "narrator", "text": "This semester was really busy.", "zh": "这学期真的很忙。", "items": ["en.semester", "en.really", "en.busy"] },
+    { "speaker": "narrator", "text": "There were a lot of new customers, and you were all great.", "zh": "新顾客特别多,你们每个人都做得很棒。", "items": ["en.a_lot_of", "en.new", "en.customer", "en.great"] },
+    { "speaker": "narrator", "text": "Thank you for your work!", "zh": "谢谢大家的辛苦工作!", "items": ["en.thank_you", "en.work"] },
+    { "speaker": "narrator", "text": "Lei, our new guy, was nervous on his first day.", "zh": "我们的新同事磊,第一天上班的时候很紧张。", "items": ["en.new", "en.guy", "en.nervous", "en.first"] },
+    { "speaker": "narrator", "text": "Now he's confident, and the customers love him!", "zh": "现在他很自信,顾客们都很喜欢他!", "items": ["en.confident", "en.customer", "en.love"] },
+    { "speaker": "narrator", "text": "After this Friday, there's no work for four weeks.", "zh": "这周五以后放四周假,不用来上班。", "items": ["en.after", "en.friday", "en.work", "en.week"] },
+    { "speaker": "narrator", "text": "We're back one week before the new semester.", "zh": "新学期开学前一周,我们回来开门。", "items": ["en.back", "en.week", "en.before", "en.new", "en.semester"] },
+    { "speaker": "narrator", "text": "We're going to have a party this Friday at five, here at the cafe.", "zh": "这周五下午五点,我们要在店里办个小聚会。", "items": ["en.going_to", "en.have", "en.party", "en.friday", "en.cafe"] },
+    { "speaker": "narrator", "text": "There's food, coffee, and tea. Friends are welcome, too!", "zh": "有吃的、咖啡和茶。也欢迎带朋友来!", "items": ["en.food", "en.coffee", "en.tea", "en.friend", "en.welcome"] },
+    { "speaker": "narrator", "text": "Get some rest, and have fun!", "zh": "假期里好好休息,玩得开心!", "items": ["en.rest", "en.have", "en.fun"] },
+    { "speaker": "narrator", "text": "See you on Friday! Laura", "zh": "周五见!劳拉", "items": ["en.see_you_later", "en.friday"] }
+  ],
+  "questions": [
+    { "prompt": "劳拉在邮件里说磊这学期怎么样?", "options": ["第一天很紧张,现在很自信,顾客都喜欢他", "总是迟到", "到现在还是很紧张"], "answer": 0, "explainZh": "Lei, our new guy, was nervous on his first day. Now he's confident, and the customers love him!(磊第一天很紧张,现在很自信,顾客都喜欢他。)" },
+    { "prompt": "放假期间,咖啡馆怎么安排?", "options": ["照常营业", "这周五以后放四周假,新学期开学前一周回来", "只有周末开门"], "answer": 1, "explainZh": "After this Friday, there's no work for four weeks. We're back one week before the new semester.(这周五以后放四周假,新学期开学前一周回来。)" },
+    { "prompt": "聚会是什么时候、在哪儿?", "options": ["周五晚上七点,在劳拉家", "周六下午五点,在咖啡馆", "周五下午五点,在咖啡馆"], "answer": 2, "explainZh": "We're going to have a party this Friday at five, here at the cafe.(这周五五点,在店里办聚会。)" },
+    { "prompt": "关于聚会,邮件里还说了什么?", "options": ["只有咖啡,不能带朋友", "每人要带一道菜", "只有员工能来", "有吃的、咖啡和茶,也欢迎带朋友来"], "answer": 3, "explainZh": "There's food, coffee, and tea. Friends are welcome, too!(有吃的、咖啡和茶,也欢迎带朋友来!)" }
+  ],
+  "grammar": [
+    { "id": "en.g.past_vs_going_to", "titleZh": "回顾用过去时,说安排用 be going to",
+      "bodyZh": "这封邮件前半段回顾这学期,用一般过去时:This semester was really busy.、There were a lot of new customers.、Lei was nervous on his first day.;后半段说接下来的安排,用 be going to 或一般现在时:We're going to have a party this Friday.、We're back one week before the new semester.。同一封邮件里,时间一变,动词也跟着变,别把 was 写成 is。读通知类的邮件,先找时间(this Friday at five)、地点(here at the cafe)和要做的事,最后看是谁发的。",
+      "examples": [
+        { "text": "This semester was really busy.", "zh": "这学期真的很忙。" },
+        { "text": "There were a lot of new customers.", "zh": "新顾客特别多。" },
+        { "text": "We're going to have a party this Friday.", "zh": "这周五我们要办个聚会。" }
+      ] }
+  ],
+  "review": "draft"
+}

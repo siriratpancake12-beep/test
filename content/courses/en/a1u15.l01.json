@@ -1,0 +1,47 @@
+{
+  "id": "en.a1u15.l01", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115010,
+  "titleZh": "这学期你上什么课?", "goalZh": "会说常见的学科名称,用 take a class 问答这学期上什么课", "canDoZh": "能说出这学期上的课,问朋友上什么课、在哪儿上、几点上",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.take_a_class", "kind": "phrase", "pos": "verb", "text": "take a class", "zh": "上(一门)课;选(一门)课", "features": { "ipa": "ˌteɪk ə ˈklæs" }, "noteZh": "美国大学生说\"上什么课\"用 take:What classes are you taking? 你这学期上什么课?I'm taking physics. 我上物理。不说 learn a class / study a class。" },
+    { "id": "en.math", "kind": "word", "pos": "noun", "text": "math", "zh": "数学", "features": { "ipa": "mæθ" }, "noteZh": "美式 math,英式 maths;词尾 th /θ/:舌尖放在上下齿之间送气,不读成 s 或 f。" },
+    { "id": "en.calculus", "kind": "word", "pos": "noun", "text": "calculus", "zh": "微积分", "features": { "ipa": "ˈkælkjələs" }, "noteZh": "重音在第一个音节 CAL-cu-lus;课名 Calculus 2 读作 Calculus two。" },
+    { "id": "en.physics", "kind": "word", "pos": "noun", "text": "physics", "zh": "物理(学)", "features": { "ipa": "ˈfɪzɪks" }, "noteZh": "ph 读 /f/,y 读 /ɪ/,中间的 s 读 /z/:FIZ-iks。以 s 结尾,但是单数:Physics is hard.(不说 Physics are…)。" },
+    { "id": "en.chemistry", "kind": "word", "pos": "noun", "text": "chemistry", "zh": "化学", "features": { "ipa": "ˈkeməstri" }, "noteZh": "ch 在这里读 /k/,不读 /tʃ/;重音在前 CHEM-is-try。" },
+    { "id": "en.programming", "kind": "word", "pos": "noun", "text": "programming", "zh": "编程", "features": { "ipa": "ˈproʊɡræmɪŋ" }, "noteZh": "重音在前 PRO-gram-ming;两个 m 只读一个 /m/,结尾 -ing 是后鼻音 /ŋ/。" },
+    { "id": "en.history", "kind": "word", "pos": "noun", "text": "history", "zh": "历史", "features": { "ipa": "ˈhɪstɚi" }, "noteZh": "重音在前 HIS-to-ry;中间的 to 读得又轻又短,快读时像两个音节 \"HIS-tree\"。" },
+    { "id": "en.writing", "kind": "word", "pos": "noun", "text": "writing", "zh": "写作;写作课", "features": { "ipa": "ˈraɪt̬ɪŋ" }, "noteZh": "开头的 w 不发音;美式 t 在两个元音之间读得像轻快的 d:\"RAI-ding\"。课名 Writing 2(写作 2)首字母大写。" },
+    { "id": "en.hard", "kind": "word", "pos": "adj", "text": "hard", "zh": "难的;困难的", "features": { "ipa": "hɑːrd" }, "noteZh": "Calculus is hard. 微积分很难;hard for me 对我来说难;ar 要卷舌。hard 还有\"硬的\"的意思。" },
+    { "id": "en.easy", "kind": "word", "pos": "adj", "text": "easy", "zh": "容易的;简单的", "features": { "ipa": "ˈiːzi" }, "noteZh": "It's easy for me. 对我来说很简单;s 读 /z/,ea 是长音 /iː/。" }
+  ],
+  "reviewItems": ["en.semester", "en.class", "en.music", "en.fun", "en.hurry_up"],
+  "lines": [
+    { "speaker": "lei", "text": "Hi, Sofia! What classes are you taking this semester?", "zh": "嗨,索菲亚!你这学期上什么课?", "items": ["en.hi", "en.class", "en.take_a_class", "en.semester"] },
+    { "speaker": "sofia", "text": "Chemistry, calculus, history, and Writing 2. And you?", "zh": "化学、微积分、历史,还有写作 2。你呢?", "items": ["en.chemistry", "en.calculus", "en.history", "en.writing", "en.and_you"] },
+    { "speaker": "lei", "text": "I'm taking calculus and Writing 2, too!", "zh": "微积分和写作 2 我也上!", "items": ["en.take_a_class", "en.calculus", "en.writing"] },
+    { "speaker": "sofia", "text": "Cool! Two classes with you!", "zh": "太好了!有两门课和你一起上!", "items": ["en.cool", "en.class"] },
+    { "speaker": "lei", "text": "And I'm taking physics, programming, and a music class.", "zh": "我还上物理、编程,还有一门音乐课。", "items": ["en.take_a_class", "en.physics", "en.programming", "en.music", "en.class"] },
+    { "speaker": "sofia", "text": "Physics and calculus? That's hard!", "zh": "物理加微积分?那可真难!", "items": ["en.physics", "en.calculus", "en.hard"] },
+    { "speaker": "lei", "text": "Not for me. I love math! But chemistry is hard for me.", "zh": "对我来说不难,我喜欢数学!不过化学对我来说很难。", "items": ["en.love", "en.math", "en.chemistry", "en.hard"] },
+    { "speaker": "sofia", "text": "Chemistry is easy for me! Is the music class fun?", "zh": "化学对我来说很简单!音乐课好玩吗?", "items": ["en.chemistry", "en.easy", "en.music", "en.class", "en.fun"] },
+    { "speaker": "lei", "text": "Yes, it's easy and fun. Where's our calculus class?", "zh": "好玩,又简单又有意思。我们的微积分课在哪儿上?", "items": ["en.easy", "en.fun", "en.calculus", "en.class"] },
+    { "speaker": "sofia", "text": "Room 104, at nine. It's 8:50! Hurry up!", "zh": "104 教室,九点。现在都八点五十了!快点!", "items": ["en.room", "en.hurry_up"] }
+  ],
+  "questions": [
+    { "prompt": "磊和索菲亚哪两门课一起上?", "options": ["化学和历史", "微积分和写作 2", "物理和编程"], "answer": 1, "explainZh": "索菲亚说 Chemistry, calculus, history, and Writing 2.,磊说 I'm taking calculus and Writing 2, too!——两人都上微积分和写作 2。" },
+    { "prompt": "哪门课对磊来说很难?", "options": ["数学", "物理", "化学", "音乐"], "answer": 2, "explainZh": "Not for me. I love math! But chemistry is hard for me.——磊喜欢数学,物理不觉得难,难的是化学。" },
+    { "prompt": "他们的微积分课在哪儿、几点上?", "options": ["104 教室,九点", "104 教室,八点五十", "咖啡馆,九点"], "answer": 0, "explainZh": "Room 104, at nine.——104 教室,九点上课;8:50 是说话时的时间,所以索菲亚催磊快点。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u15_subjects", "titleZh": "说上什么课:take a class 和学科名",
+      "bodyZh": "① 美国大学生说\"上(选)一门课\"用 take:What classes are you taking this semester?(这学期你上什么课?)—— I'm taking physics and calculus.。这里的现在进行时说的是\"这学期一直在上\",下一课细讲。不说 I'm learning a class。\n② 学科名前面不加 a / the:I love math.(不说 the math);说某一门具体的课才加:the music class、our calculus class。\n③ physics 虽然以 s 结尾,却是单数:Physics is hard.。\n④ 说难易用 hard / easy + for me(对我来说):It's easy for me.。\n发音:学科词的重音都在第一个音节——CAL-cu-lus、PHYS-ics、CHEM-is-try、PRO-gram-ming、HIS-to-ry;重读的音节又响又长,其余的轻轻带过。",
+      "examples": [
+        { "text": "What classes are you taking this semester?", "zh": "你这学期上什么课?" },
+        { "text": "I'm taking physics and programming.", "zh": "我上物理和编程。" },
+        { "text": "Chemistry is hard for me.", "zh": "化学对我来说很难。" },
+        { "text": "Where's your physics class? — In Room 210, at ten.", "zh": "你的物理课在哪儿上?——210 教室,十点。" }
+      ] }
+  ],
+  "review": "draft"
+}

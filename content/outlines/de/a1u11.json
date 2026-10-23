@@ -92,9 +92,9 @@
       "titleZh": "楼里的住户规定",
       "goalZh": "读懂楼里的住户规定,找出安静时间、垃圾和自行车的规定",
       "canDoZh": "能读懂楼道里贴的住户规定,找出安静时间、垃圾和自行车的规定",
-      "scenarioZh": "体裁:楼道里的通知(物业贴的 Hausordnung)。王伟在楼道里读住户规定:晚上 22 点到早上 6 点、星期天要保持安静(die Ruhezeit),那时不能放很响的音乐;垃圾要分类,垃圾桶在院子里;自行车不能放在楼道(der Hausflur),院子和地下室(der Keller)里有地方;有问题给物业办公室打电话。最后一句是霍夫曼先生用笔加上的:Vielen Dank! Ihr Nachbar Hoffmann。规划里的“管理员”der Hausmeister 是第 3 单元新增课的词(还没定),本课说 das Büro;电话号码不写。说话人:narrator(通知)。",
+      "scenarioZh": "体裁:楼道里的通知(物业贴的 Hausordnung)。王伟在楼道里读住户规定:晚上 22 点到早上 6 点、星期天要保持安静(die Ruhezeit),那时不能放很响的音乐;垃圾要分类,垃圾桶在院子里;自行车不能放在楼道(der Hausflur),院子和地下室(der Keller)里有地方;有问题给物业办公室打电话。最后一句是霍夫曼先生用笔加上的:Machen Sie bitte im Keller das Licht aus! Ihr Nachbar Hoffmann。规划里的“管理员”der Hausmeister 是第 3 单元新增课的词(还没定),本课说 das Büro;电话号码不写,只写办公时间(星期一到星期五 9–12 点)。说话人:narrator(通知)、hoffmann(手写的那一句)。",
       "grammarFocusZh": "复习:Bitte + Sie 的命令式、Bitte keine …!、dürfen / müssen;von … bis … 和钟点",
-      "skills": ["read", "write"], "estimatedMinutes": 17,
+      "skills": ["read", "write"], "estimatedMinutes": 17.5,
       "newItems": [
         { "id": "de.hausordnung", "kind": "word", "pos": "noun", "text": "die Hausordnung", "zh": "住户守则;楼里的规定", "features": { "gender": "f", "plural": "die Hausordnungen", "ipa": "ˈhaʊ̯sˌʔɔʁdnʊŋ" }, "noteZh": "das Haus + die Ordnung(秩序);德国的出租楼都有 Hausordnung,常贴在楼道里。" },
         { "id": "de.ruhezeit", "kind": "word", "pos": "noun", "text": "die Ruhezeit", "zh": "安静时间", "features": { "gender": "f", "plural": "die Ruhezeiten", "ipa": "ˈʁuːəˌtsaɪ̯t" }, "noteZh": "die Ruhe(安静)+ die Zeit;一般是晚上 22 点到早上 6 点,还有星期天:不能大声放音乐、不能用吸尘器;Ruhe 里的 h 不发音。" },
@@ -108,8 +108,8 @@
       "titleZh": "第一次用洗衣机",
       "goalZh": "会问洗衣机怎么用,说出洗衣服常用的词",
       "canDoZh": "能问清楚洗衣机怎么用,说出洗衣服常用的词",
-      "scenarioZh": "王伟第一次用 WG 的洗衣机(die Waschmaschine),请索菲娅帮忙(Hilf mir bitte!):选什么模式、用多少度(毛巾 60 度,毛衣 30 度)、洗衣液放哪儿、按哪个按钮;结果他的白衬衫被一只红袜子(约纳斯的)染成了粉色(rosa),索菲娅笑着说 Wasch Weiß und Rot nicht zusammen!,还告诉他晾衣架在浴室里。规划里“洗多长时间”没写进课文;das T-Shirt 已由 u13 登记,本课用 das Hemd。说话人:wei、sofia。",
-      "grammarFocusZh": "du 的命令式复习(Hilf mir bitte! / Wasch Weiß und Rot nicht zusammen!);waschen 的变位(du wäschst, er wäscht),命令式不保留变音;Grad 和颜色复习",
+      "scenarioZh": "王伟第一次用 WG 的洗衣机(die Waschmaschine),请索菲娅帮忙(Hilf mir bitte!):选什么模式、用多少度(毛巾 60 度,毛衣 30 度)、洗衣液放哪儿、按哪个按钮,洗好的衣服在浴室的晾衣架上晾;结果洗衣机里还有约纳斯的一只红袜子,王伟的白衬衫染成了粉色(rosa),索菲娅说 Wasch Weiß und Rot nie mehr zusammen!。规划里“洗多长时间”没写进课文;das T-Shirt 已由 u13 登记,本课用 das Hemd。说话人:wei、sofia。",
+      "grammarFocusZh": "du 的命令式复习(Hilf mir bitte! / Wasch Weiß und Rot nie mehr zusammen!);waschen 的变位(du wäschst, er wäscht),命令式不保留变音;Grad 和颜色复习",
       "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "de.waschmaschine", "kind": "word", "pos": "noun", "text": "die Waschmaschine", "zh": "洗衣机", "features": { "gender": "f", "plural": "die Waschmaschinen", "ipa": "ˈvaʃmaˌʃiːnə" }, "noteZh": "waschen + die Maschine;WG 里常常几个人共用一台;重音在 wasch。" },

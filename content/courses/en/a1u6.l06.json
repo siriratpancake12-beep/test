@@ -13,7 +13,7 @@
   ],
   "reviewItems": ["en.shoes", "en.percent_off", "en.good_deal", "en.size", "en.return"],
   "lines": [
-    { "speaker": "lei", "text": "I really like these shoes, but they're fifty dollars.", "zh": "(回到宿舍,磊又想起第 4 课那双运动鞋)我真的很喜欢这双鞋,可是要 50 美元。", "items": ["en.really", "en.like", "en.shoes", "en.dollar"] },
+    { "speaker": "lei", "text": "I really like these shoes, but they're fifty dollars.", "zh": "(回到宿舍,磊还惦记着商场里那双运动鞋)我真的很喜欢这双鞋,可是要 50 美元。", "items": ["en.really", "en.like", "en.shoes", "en.dollar"] },
     { "speaker": "ethan", "text": "Fifty? Buy them online, man. The same shoes are thirty percent off.", "zh": "50?在网上买呀,哥们儿。同一双鞋网上减 30%。", "items": ["en.buy", "en.online", "en.same", "en.shoes", "en.percent_off"] },
     { "speaker": "lei", "text": "Wow, that's a good deal! How much is shipping?", "zh": "哇,真划算!运费多少?", "items": ["en.good_deal", "en.how_much", "en.shipping"] },
     { "speaker": "ethan", "text": "It's free shipping. They come in three days.", "zh": "免运费。三天就到。", "items": ["en.free", "en.shipping", "en.come"] },

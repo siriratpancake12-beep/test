@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u11.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111045,
+  "titleZh": "楼里的住户规定", "goalZh": "读懂楼里的住户规定,找出安静时间、垃圾和自行车的规定", "canDoZh": "能读懂楼道里贴的住户规定,找出安静时间、垃圾和自行车的规定",
+  "skills": ["read", "write"], "estimatedMinutes": 17.5,
+  "newItems": [
+    { "id": "de.hausordnung", "kind": "word", "pos": "noun", "text": "die Hausordnung", "zh": "住户守则;楼里的规定", "features": { "gender": "f", "plural": "die Hausordnungen", "ipa": "ˈhaʊ̯sˌʔɔʁdnʊŋ" }, "noteZh": "das Haus + die Ordnung(秩序);德国的出租楼都有 Hausordnung,常贴在楼道里。" },
+    { "id": "de.ruhezeit", "kind": "word", "pos": "noun", "text": "die Ruhezeit", "zh": "安静时间", "features": { "gender": "f", "plural": "die Ruhezeiten", "ipa": "ˈʁuːəˌtsaɪ̯t" }, "noteZh": "die Ruhe(安静)+ die Zeit;一般是晚上 22 点到早上 6 点,还有星期天:不能大声放音乐、不能用吸尘器;Ruhe 里的 h 不发音。" },
+    { "id": "de.hausflur", "kind": "word", "pos": "noun", "text": "der Hausflur", "zh": "楼道;门厅", "features": { "gender": "m", "plural": "die Hausflure", "ipa": "ˈhaʊ̯sˌfluːɐ̯" }, "noteZh": "das Haus + der Flur(走廊);楼道里一般不许放自行车、鞋和垃圾;u 是长音。" },
+    { "id": "de.keller", "kind": "word", "pos": "noun", "text": "der Keller", "zh": "地下室", "features": { "gender": "m", "plural": "die Keller", "ipa": "ˈkɛlɐ" }, "noteZh": "很多楼在地下室给每户一个小隔间放东西:im Keller;复数不变。" }
+  ],
+  "reviewItems": ["de.trennen", "de.tonne", "de.hof", "de.laut", "de.fahrrad", "de.nachbar"],
+  "lines": [
+    { "speaker": "narrator", "text": "Hausordnung – Musterstraße 12", "zh": "住户守则——Musterstraße 12 号", "items": ["de.hausordnung", "de.zwoelf"] },
+    { "speaker": "narrator", "text": "Liebe Nachbarn, unser Haus hat zwölf Wohnungen. Bitte lesen Sie die Hausordnung.", "zh": "亲爱的邻居们,我们楼里有十二套公寓。请您读一读住户守则。", "items": ["de.liebe", "de.nachbar", "de.unser", "de.haus", "de.haben", "de.zwoelf", "de.wohnung", "de.bitte", "de.lesen", "de.sie_hoeflich", "de.hausordnung"] },
+    { "speaker": "narrator", "text": "Die Ruhezeit ist von 22 bis 6 Uhr und am Sonntag.", "zh": "安静时间是晚上 22 点到早上 6 点,还有星期天。", "items": ["de.ruhezeit", "de.sein", "de.von", "de.zwei", "de.zwanzig", "de.bis", "de.sechs", "de.uhr", "de.und", "de.am", "de.sonntag"] },
+    { "speaker": "narrator", "text": "Dann bitte keine laute Musik!", "zh": "这段时间请不要大声放音乐!", "items": ["de.dann", "de.bitte", "de.kein", "de.laut", "de.musik"] },
+    { "speaker": "narrator", "text": "Sie dürfen dann auch nicht staubsaugen.", "zh": "这段时间也不能用吸尘器。", "items": ["de.sie_hoeflich", "de.duerfen", "de.dann", "de.auch", "de.nicht", "de.staubsaugen"] },
+    { "speaker": "narrator", "text": "Bitte trennen Sie den Müll. Die Tonnen sind im Hof.", "zh": "请把垃圾分类。垃圾桶在院子里。", "items": ["de.bitte", "de.trennen", "de.sie_hoeflich", "de.muell", "de.tonne", "de.sein", "de.in", "de.hof"] },
+    { "speaker": "narrator", "text": "Bitte keine Fahrräder im Hausflur!", "zh": "楼道里请勿停放自行车!", "items": ["de.bitte", "de.kein", "de.fahrrad", "de.in", "de.hausflur"] },
+    { "speaker": "narrator", "text": "Im Hof und im Keller ist Platz für Fahrräder.", "zh": "院子里和地下室里有停自行车的位子。", "items": ["de.in", "de.hof", "de.und", "de.keller", "de.sein", "de.platz", "de.fuer", "de.fahrrad"] },
+    { "speaker": "narrator", "text": "Im Hausflur bitte auch keine Schuhe und keinen Müll!", "zh": "楼道里也请不要放鞋和垃圾!", "items": ["de.in", "de.hausflur", "de.bitte", "de.auch", "de.kein", "de.schuh", "de.und", "de.muell"] },
+    { "speaker": "narrator", "text": "Haben Sie Fragen? Rufen Sie bitte das Büro an.", "zh": "您有问题吗?请给办公室打电话。", "items": ["de.haben", "de.sie_hoeflich", "de.frage", "de.anrufen", "de.bitte", "de.buero"] },
+    { "speaker": "narrator", "text": "Das Büro ist von Montag bis Freitag von 9 bis 12 Uhr geöffnet.", "zh": "办公室星期一到星期五 9 点到 12 点开门。", "items": ["de.buero", "de.sein", "de.von", "de.montag", "de.bis", "de.freitag", "de.neun", "de.zwoelf", "de.uhr", "de.geoeffnet"] },
+    { "speaker": "hoffmann", "text": "Machen Sie bitte im Keller das Licht aus! Ihr Nachbar Hoffmann", "zh": "请随手关掉地下室的灯!您的邻居霍夫曼", "items": ["de.ausmachen", "de.sie_hoeflich", "de.bitte", "de.in", "de.keller", "de.licht", "de.ihr_hoeflich", "de.nachbar"] }
+  ],
+  "questions": [
+    { "prompt": "楼里的安静时间是什么时候?", "options": ["晚上 22 点到早上 6 点,还有星期天", "每天中午 12 点到下午 3 点", "晚上 20 点到早上 8 点"], "answer": 0, "explainZh": "通知上写:Die Ruhezeit ist von 22 bis 6 Uhr und am Sonntag.(安静时间是晚上 22 点到早上 6 点,还有星期天。)" },
+    { "prompt": "自行车可以放在哪儿?", "options": ["楼道里", "院子里和地下室里", "公寓里"], "answer": 1, "explainZh": "通知上写:Bitte keine Fahrräder im Hausflur! Im Hof und im Keller ist Platz für Fahrräder.(楼道里请勿停放自行车,院子里和地下室里有位子。)" },
+    { "prompt": "霍夫曼先生用笔加了一句什么?", "options": ["请把垃圾分类", "安静时间别放音乐", "请随手关掉地下室的灯"], "answer": 2, "explainZh": "最后一句是霍夫曼先生写的:Machen Sie bitte im Keller das Licht aus!(请随手关掉地下室的灯!)" },
+    { "prompt": "有问题的时候怎么办?", "options": ["给办公室打电话", "去院子里问霍夫曼先生", "给大家发邮件"], "answer": 0, "explainZh": "通知上写:Haben Sie Fragen? Rufen Sie bitte das Büro an.(您有问题吗?请给办公室打电话。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.regeln_bitte_keine", "titleZh": "规定的说法:Bitte …!、Bitte keine …!、nicht dürfen",
+      "bodyZh": "通知、规定里常见几种说法:\n① Bitte + Sie 的命令式:Bitte trennen Sie den Müll.(请把垃圾分类。)/ Rufen Sie bitte das Büro an.(请给办公室打电话。)\n② Bitte keine + 名词!(请不要……!)没有动词,很短,通知里最常见:Bitte keine laute Musik! / Bitte keine Fahrräder im Hausflur!\n③ 不许做什么:Sie dürfen nicht … / Man darf nicht …(第 9 单元):Sie dürfen dann auch nicht staubsaugen.\n④ 时间段用 von … bis …:von 22 bis 6 Uhr(从 22 点到 6 点)/ von Montag bis Freitag(星期一到星期五)。",
+      "examples": [
+        { "text": "Bitte trennen Sie den Müll.", "zh": "请把垃圾分类。" },
+        { "text": "Bitte keine laute Musik!", "zh": "请不要大声放音乐!" },
+        { "text": "Das Büro ist von Montag bis Freitag geöffnet.", "zh": "办公室星期一到星期五开门。" }
+      ] }
+  ],
+  "review": "draft"
+}

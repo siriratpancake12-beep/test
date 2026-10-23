@@ -5,7 +5,7 @@
   "skills": ["read", "listen", "speak"], "estimatedMinutes": 14.5,
   "newItems": [
     { "id": "en.happy_birthday", "kind": "phrase", "pos": "phrase", "text": "Happy birthday", "zh": "生日快乐", "features": { "ipa": "ˌhæpi ˈbɝːθdeɪ" }, "noteZh": "也可以说 Happy birthday to you!;happy 的 a 是 /æ/,嘴张大;birthday 的 th 是清音 /θ/。" },
-    { "id": "en.dear", "kind": "word", "pos": "adj", "text": "dear", "zh": "亲爱的(信的开头)", "features": { "ipa": "dɪr" }, "noteZh": "写信、贺卡的开头:Dear Mom,——后面用逗号,不用冒号;ear 读 /ɪr/,要卷舌。" }
+    { "id": "en.dear", "kind": "word", "pos": "adj", "text": "dear", "zh": "亲爱的(信的开头)", "features": { "ipa": "dɪr" }, "noteZh": "写信、贺卡的开头:Dear Mom,——贺卡和私人信件里后面用逗号;ear 读 /ɪr/,要卷舌。" }
   ],
   "reviewItems": ["en.scarf", "en.gift", "en.on_sale", "en.new", "en.miss"],
   "lines": [
@@ -29,7 +29,7 @@
   ],
   "grammar": [
     { "id": "en.g.card_format", "titleZh": "贺卡怎么写:Dear… / Love, …",
-      "bodyZh": "英文贺卡和信的开头写 Dear + 称呼:Dear Mom,(亲爱的妈妈:)——中文称呼后面用冒号,英文用逗号。接着写祝福 Happy birthday!,再用几句短句说说礼物和近况。结尾给家人、好朋友写 Love, + 名字:Love, Lei(爱你的磊),Love 后面也是逗号;给老师写邮件一般不用 Love。最后常用 I miss you. / I love you.(第 2 单元学过)表达想念。",
+      "bodyZh": "英文贺卡和信的开头写 Dear + 称呼:Dear Mom,(亲爱的妈妈:)——中文称呼后面用冒号,英文贺卡和私人信件一般用逗号。接着写祝福 Happy birthday!,再用几句短句说说礼物和近况。结尾给家人、好朋友写 Love, + 名字:Love, Lei(爱你的磊),Love 后面也是逗号;给老师写邮件一般不用 Love。最后常用 I miss you. / I love you.(第 2 单元学过)表达想念。",
       "examples": [
         { "text": "Dear Mom, happy birthday!", "zh": "亲爱的妈妈,生日快乐!" },
         { "text": "I miss you. I love you!", "zh": "我想你。我爱你!" },

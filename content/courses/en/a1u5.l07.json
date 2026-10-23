@@ -23,7 +23,7 @@
     { "speaker": "lei", "text": "Green Lake Park. How do I go back?", "zh": "格林湖公园。我怎么坐回去?", "items": ["en.park", "en.go", "en.back"] },
     { "speaker": "driver", "text": "It's two stops back. Get off at the next stop.", "zh": "往回两站就是。你下一站下车。", "items": ["en.bus_stop", "en.back", "en.get_off", "en.next"] },
     { "speaker": "driver", "text": "Then take Bus 62 on the other side of the street.", "zh": "然后到马路对面坐 62 路。", "items": ["en.then", "en.take", "en.bus", "en.other", "en.side", "en.street"] },
-    { "speaker": "lei", "text": "The other side? Across from this bus stop?", "zh": "马路对面?就在这个车站对面?", "items": ["en.other", "en.side", "en.across_from", "en.bus_stop"] },
+    { "speaker": "lei", "text": "The other side? Across from the bus stop?", "zh": "马路对面?就是那个车站的对面?", "items": ["en.other", "en.side", "en.across_from", "en.bus_stop"] },
     { "speaker": "driver", "text": "That's right. And take off your headphones!", "zh": "对。还有,把耳机摘了吧!", "items": ["en.thats_right", "en.take_off", "en.headphones"] },
     { "speaker": "driver", "text": "Push the button before your stop.", "zh": "快到站之前按一下按钮。", "items": ["en.push", "en.button", "en.before", "en.bus_stop"] },
     { "speaker": "lei", "text": "Got it. Thank you!", "zh": "明白了。谢谢您!", "items": ["en.got_it", "en.thank_you"] }

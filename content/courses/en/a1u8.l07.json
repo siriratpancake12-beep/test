@@ -23,15 +23,15 @@
     { "speaker": "lei", "text": "That's so funny! I have a funny one, too.", "zh": "太好笑了!我也有一件好笑的事。", "items": ["en.so", "en.funny", "en.have"] },
     { "speaker": "lei", "text": "On my first day in Seattle, a man said, \"How's it going?\"", "zh": "我刚到西雅图那天,有个人跟我说:“How's it going?”(最近怎么样?)", "items": ["en.first", "en.say", "en.hows_it_going"] },
     { "speaker": "lei", "text": "I thought it meant \"How do you go there?\" So I said, \"By bus!\"", "zh": "我以为他问的是“你怎么去那儿?”,就回答:“坐公交!”", "items": ["en.think", "en.mean", "en.go", "en.say", "en.by", "en.bus"] },
-    { "speaker": "marcus", "text": "Ha! By bus!", "zh": "(大家笑成一团)哈!坐公交!", "items": ["en.by", "en.bus"] },
+    { "speaker": "marcus", "text": "Oh no! By bus!", "zh": "(大家笑成一团)天哪!坐公交!", "items": ["en.by", "en.bus"] },
     { "speaker": "lei", "text": "And at a cafe: \"For here or to go?\" I said, \"Yes!\"", "zh": "还有一次在咖啡店,店员问:“在这儿用还是带走?”我说:“是的!”", "items": ["en.cafe", "en.for_here_or_to_go", "en.say"] },
     { "speaker": "marcus", "text": "\"Yes\" isn't an answer, man!", "zh": "“是的”可不算回答啊,哥们儿!", "items": ["en.answer"] },
-    { "speaker": "laura", "text": "My first day was funny, too. Mistakes are OK. That's how we learn!", "zh": "(劳拉听见了,也笑了)我第一天上班也闹过笑话。犯错没关系,我们就是这样学会的!", "items": ["en.first", "en.funny", "en.mistake", "en.learn"] }
+    { "speaker": "laura", "text": "My first day was funny, too. Mistakes are OK, Lei. Now you understand!", "zh": "(劳拉听见了,也笑了)我第一天上班也闹过笑话。犯错没关系,磊。这下你不就懂了嘛!", "items": ["en.first", "en.funny", "en.mistake", "en.understand"] }
   ],
   "questions": [
     { "prompt": "马库斯第一天上班闹了什么笑话?", "options": ["把糖放进了茶里", "把盐当成糖放进了顾客的咖啡", "忘了收钱"], "answer": 1, "explainZh": "A customer wanted sugar, and I put salt in her coffee!(顾客要糖,我却往她的咖啡里放了盐!)" },
     { "prompt": "有人跟磊说 How's it going? 时,磊以为是什么意思?", "options": ["你好吗?", "你去哪儿?", "你怎么去那儿?"], "answer": 2, "explainZh": "I thought it meant \"How do you go there?\"(我以为意思是“你怎么去那儿?”)所以他回答 By bus!。其实 How's it going? 是“最近怎么样?”。" },
-    { "prompt": "劳拉最后说了什么?", "options": ["犯错没关系,这样才能学会", "以后不能再犯错了", "她从来不犯错"], "answer": 0, "explainZh": "Mistakes are OK. That's how we learn!(犯错没关系,我们就是这样学会的!)" }
+    { "prompt": "劳拉最后说了什么?", "options": ["犯错没关系,闹过笑话就懂了", "以后不能再犯错了", "她从来不犯错"], "answer": 0, "explainZh": "劳拉说她第一天上班也闹过笑话(My first day was funny, too.),还说 Mistakes are OK, Lei. Now you understand!(犯错没关系,这下你不就懂了嘛!)" }
   ],
   "grammar": [
     { "id": "en.g.story_past_verbs", "titleZh": "讲故事常用的过去式:said、thought、told",

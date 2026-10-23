@@ -20,17 +20,17 @@
     { "speaker": "park", "text": "천징 씨, 일본 사람이에요?", "zh": "(课上练习“不是……”的说法,朴老师故意问错)陈静,你是日本人吗?", "roman": "Cheonjing ssi, ilbon saramieyo?", "items": ["ko.ssi", "ko.ilbon", "ko.saram"] },
     { "speaker": "jing", "text": "아니요, 일본 사람이 아니에요. 중국 사람이에요.", "zh": "不,我不是日本人。我是中国人。", "roman": "Aniyo, ilbon sarami anieyo. Jungguk saramieyo.", "items": ["ko.aniyo", "ko.ilbon", "ko.saram", "ko.anieyo", "ko.jungguk"] },
     { "speaker": "park", "text": "맞아요. 남 씨는 미국 사람이에요?", "zh": "没错。(又转向南)阿南是美国人吗?", "roman": "Majayo. Nam ssineun miguk saramieyo?", "items": ["ko.majayo", "ko.ssi", "ko.miguk", "ko.saram"] },
-    { "speaker": "nam", "text": "아니요, 미국 사람이 아니에요. 한국 사람도 아니에요.", "zh": "(阿南笑着摆摆手)不,我不是美国人。也不是韩国人。", "roman": "Aniyo, miguk sarami anieyo. Hanguk saramdo anieyo.", "items": ["ko.aniyo", "ko.miguk", "ko.saram", "ko.anieyo", "ko.hanguk"] },
+    { "speaker": "nam", "text": "아니요, 미국 사람이 아니에요. 한국 사람도 아니에요.", "zh": "(南笑着摆摆手)不,我不是美国人。也不是韩国人。", "roman": "Aniyo, miguk sarami anieyo. Hanguk saramdo anieyo.", "items": ["ko.aniyo", "ko.miguk", "ko.saram", "ko.anieyo", "ko.hanguk"] },
     { "speaker": "jing", "text": "남 씨는 어느 나라 사람이에요?", "zh": "(课间,陈静好奇地问)阿南,你是哪国人?", "roman": "Nam ssineun eoneu nara saramieyo?", "items": ["ko.ssi", "ko.eoneu", "ko.nara", "ko.saram"] },
     { "speaker": "nam", "text": "베트남 사람이에요.", "zh": "我是越南人。", "roman": "Beteunam saramieyo.", "items": ["ko.beteunam", "ko.saram"] },
     { "speaker": "jing", "text": "아, 그래요? 고향이 어디예요?", "zh": "啊,是吗?你老家在哪儿?", "roman": "A, geuraeyo? Gohyangi eodiyeyo?", "items": ["ko.geuraeyo", "ko.gohyang", "ko.eodi"] },
     { "speaker": "nam", "text": "하노이예요. 천징 씨 고향은 베이징이에요?", "zh": "河内。陈静的老家是北京吗?", "roman": "Hanoiyeyo. Cheonjing ssi gohyangeun Beijingieyo?", "items": ["ko.ssi", "ko.gohyang"] },
     { "speaker": "jing", "text": "아니요, 베이징이 아니에요. 항저우예요.", "zh": "不是,不是北京,是杭州。", "roman": "Aniyo, Beijingi anieyo. Hangjeouyeyo.", "items": ["ko.aniyo", "ko.anieyo"] },
-    { "speaker": "nam", "text": "아, 그래요? 항저우 좋아요!", "zh": "啊,是吗?杭州很好啊!(阿南在短视频里看过西湖)", "roman": "A, geuraeyo? Hangjeou joayo!", "items": ["ko.geuraeyo", "ko.joayo"] }
+    { "speaker": "nam", "text": "아, 그래요? 항저우 좋아요!", "zh": "啊,是吗?杭州很好啊!(南在短视频里看过西湖)", "roman": "A, geuraeyo? Hangjeou joayo!", "items": ["ko.geuraeyo", "ko.joayo"] }
   ],
   "questions": [
-    { "prompt": "阿南是哪国人?", "options": ["美国人", "越南人", "韩国人"], "answer": 1, "explainZh": "第 4 句阿南说 미국 사람이 아니에요. 한국 사람도 아니에요(不是美国人,也不是韩国人);第 6 句:베트남 사람이에요(我是越南人)。" },
-    { "prompt": "陈静的老家在哪儿?", "options": ["北京", "河内", "杭州"], "answer": 2, "explainZh": "第 9 句:베이징이 아니에요. 항저우예요(不是北京,是杭州)。하노이(河内)是阿南的老家(第 8 句)。" },
+    { "prompt": "南是哪国人?", "options": ["美国人", "越南人", "韩国人"], "answer": 1, "explainZh": "第 4 句南说 미국 사람이 아니에요. 한국 사람도 아니에요(不是美国人,也不是韩国人);第 6 句:베트남 사람이에요(我是越南人)。" },
+    { "prompt": "陈静的老家在哪儿?", "options": ["北京", "河内", "杭州"], "answer": 2, "explainZh": "第 9 句:베이징이 아니에요. 항저우예요(不是北京,是杭州)。하노이(河内)是南的老家(第 8 句)。" },
     { "prompt": "“아니요, 베이징이 아니에요.”里为什么用 이,不用 가?", "options": ["베이징 的最后一个字 징 有收音", "因为 베이징 是地名", "因为前面有 아니요"], "answer": 0, "explainZh": "N이/가 아니에요:名词最后一个字有收音用 이,没有收音用 가。징 有收音 ㅇ,所以是 베이징이 아니에요;커피 没有收音,就说 커피가 아니에요。" }
   ],
   "grammar": [

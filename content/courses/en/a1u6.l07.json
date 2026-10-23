@@ -7,10 +7,10 @@
     { "id": "en.pair", "kind": "word", "pos": "noun", "text": "pair", "zh": "双;对;副", "features": { "ipa": "per" }, "noteZh": "a pair of socks 一双袜子,two pairs of shoes 两双鞋;pair 和 pear(梨)读音一样,air 要卷舌。" },
     { "id": "en.socks", "kind": "word", "pos": "noun", "text": "socks", "zh": "袜子", "features": { "ipa": "sɑːks" }, "noteZh": "袜子一般用复数;o 美式读 /ɑː/,词尾 cks 读 /ks/,别加元音。" },
     { "id": "en.bottle", "kind": "word", "pos": "noun", "text": "bottle", "zh": "瓶;瓶子", "features": { "ipa": "ˈbɑːt̬l̩" }, "noteZh": "a bottle of water 一瓶水;美式 tt 读成轻快的 d,结尾的 l 自己成一个音节:“BAH-dl”。" },
-    { "id": "en.shampoo", "kind": "word", "pos": "noun", "text": "shampoo", "zh": "洗发水", "features": { "ipa": "ʃæmˈpuː" }, "noteZh": "重音在后 sham-POO;sh 是 /ʃ/,别读成 s。不能直接数,一瓶是 a bottle of shampoo。" },
+    { "id": "en.shampoo", "kind": "word", "pos": "noun", "text": "shampoo", "zh": "洗发水", "features": { "ipa": "ʃæmˈpuː" }, "noteZh": "重音在后 sham-POO;sh 是 /ʃ/,别读成 s。一般不直接数,一瓶是 a bottle of shampoo。" },
     { "id": "en.box", "kind": "word", "pos": "noun", "text": "box", "zh": "盒;盒子;箱子", "features": { "ipa": "bɑːks" }, "noteZh": "a box of tissues 一盒纸巾;复数 boxes 读 /ˈbɑːksɪz/。" },
     { "id": "en.tissue", "kind": "word", "pos": "noun", "text": "tissue", "zh": "纸巾", "features": { "ipa": "ˈtɪʃuː" }, "noteZh": "ss 读 /ʃ/:“TI-shoo”;一盒纸巾 a box of tissues。吃饭擦嘴的餐巾纸,美国人一般叫 napkin。" },
-    { "id": "en.toothpaste", "kind": "word", "pos": "noun", "text": "toothpaste", "zh": "牙膏", "features": { "ipa": "ˈtuːθpeɪst" }, "noteZh": "不能直接数:I need toothpaste.,一管是 a tube of toothpaste;th 是清音 /θ/,舌尖放在上下齿之间送气。" },
+    { "id": "en.toothpaste", "kind": "word", "pos": "noun", "text": "toothpaste", "zh": "牙膏", "features": { "ipa": "ˈtuːθpeɪst" }, "noteZh": "一般不直接数:I need toothpaste.,一管是 a tube of toothpaste;th 是清音 /θ/,舌尖放在上下齿之间送气。" },
     { "id": "en.pack", "kind": "word", "pos": "noun", "text": "pack", "zh": "包;盒(一包东西)", "features": { "ipa": "pæk" }, "noteZh": "a pack of batteries 一包电池;a 是 /æ/,嘴张大;词尾 ck 轻轻收住。" },
     { "id": "en.battery", "kind": "word", "pos": "noun", "text": "battery", "zh": "电池", "features": { "ipa": "ˈbæt̬ɚi" }, "noteZh": "复数 batteries(y 变 i 加 -es);美式 tt 读成轻快的 d:“BA-der-ee”,重音在前。" }
   ],
@@ -34,7 +34,7 @@
   ],
   "grammar": [
     { "id": "en.g.quantity_words", "titleZh": "量词:a pair of、a bottle of、a box of、a pack of",
-      "bodyZh": "英语数东西,有的直接加数字(two bags),有的要先用一个“量词”:a pair of socks(一双袜子)、a bottle of shampoo(一瓶洗发水)、a box of tissues(一盒纸巾)、a pack of batteries(一包电池)。和中文的“一双、一瓶、一盒”一样放在名词前面,只是中间要加 of,不能漏。water、shampoo、toothpaste 这类不能直接数的东西(不可数名词),要数瓶数就说 two bottles of water;只说“买点牙膏”,用 some:I need some toothpaste.。发音:of 夹在中间弱读成 /əv/,说快了只剩一个轻轻的 /ə/:“a bottle-uh water”。",
+      "bodyZh": "英语数东西,有的直接加数字(two bags),有的要先用一个“量词”:a pair of socks(一双袜子)、a bottle of shampoo(一瓶洗发水)、a box of tissues(一盒纸巾)、a pack of batteries(一包电池)。和中文的“一双、一瓶、一盒”一样放在名词前面,只是中间要加 of,不能漏。water、shampoo、toothpaste 这类一般不直接数的东西(不可数名词),要数瓶数就说 two bottles of water;只说“买点牙膏”,用 some:I need some toothpaste.。发音:of 夹在中间弱读成 /əv/,说快了只剩一个轻轻的 /ə/:“a bottle-uh water”。",
       "examples": [
         { "text": "I need two pairs of socks.", "zh": "我要两双袜子。" },
         { "text": "Can I get a bottle of water?", "zh": "请给我一瓶水。" },

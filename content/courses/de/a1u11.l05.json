@@ -1,0 +1,50 @@
+{
+  "id": "de.a1u11.l05", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111050,
+  "titleZh": "第一次用洗衣机", "goalZh": "会问洗衣机怎么用,说出洗衣服常用的词", "canDoZh": "能问清楚洗衣机怎么用,说出洗衣服常用的词",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.waschmaschine", "kind": "word", "pos": "noun", "text": "die Waschmaschine", "zh": "洗衣机", "features": { "gender": "f", "plural": "die Waschmaschinen", "ipa": "ˈvaʃmaˌʃiːnə" }, "noteZh": "waschen + die Maschine;WG 里常常几个人共用一台;重音在 wasch。" },
+    { "id": "de.programm", "kind": "word", "pos": "noun", "text": "das Programm", "zh": "程序;(洗衣机的)模式;节目", "features": { "gender": "n", "plural": "die Programme", "ipa": "pʁoˈɡʁam" }, "noteZh": "洗衣机、电脑、电视都有 Programm:Welches Programm?(选哪个模式?);重音在后:pro-GRAMM。" },
+    { "id": "de.waschmittel", "kind": "word", "pos": "noun", "text": "das Waschmittel", "zh": "洗衣液;洗衣粉", "features": { "gender": "n", "plural": "die Waschmittel", "ipa": "ˈvaʃˌmɪtl̩" }, "noteZh": "waschen + das Mittel(用品);复数不变;Wo kommt das Waschmittel rein?(洗衣液放哪儿?)" },
+    { "id": "de.handtuch", "kind": "word", "pos": "noun", "text": "das Handtuch", "zh": "毛巾", "features": { "gender": "n", "plural": "die Handtücher", "ipa": "ˈhantˌtuːx" }, "noteZh": "die Hand + das Tuch(布);复数变音:Handtücher;毛巾一般用 60 度洗。" },
+    { "id": "de.rosa", "kind": "word", "pos": "adj", "text": "rosa", "zh": "粉红色的", "features": { "ipa": "ˈʁoːza" }, "noteZh": "放在名词前也不变词尾:ein rosa Hemd(一件粉色衬衫);s 读 [z]。" },
+    { "id": "de.socke", "kind": "word", "pos": "noun", "text": "die Socke", "zh": "袜子", "features": { "gender": "f", "plural": "die Socken", "ipa": "ˈzɔkə" }, "noteZh": "常用复数 Socken;一只红袜子:eine rote Socke;ck 读 [k]。" },
+    { "id": "de.trocknen", "kind": "word", "pos": "verb", "text": "trocknen", "zh": "弄干;晾干", "features": { "ipa": "ˈtʁɔknən" }, "noteZh": "die Wäsche trocknen(晾衣服);du trocknest, er trocknet(词干以 n 结尾要加 e);形容词是 trocken(干的)。" },
+    { "id": "de.waeschestaender", "kind": "word", "pos": "noun", "text": "der Wäscheständer", "zh": "(可折叠的)晾衣架", "features": { "gender": "m", "plural": "die Wäscheständer", "ipa": "ˈvɛʃəˌʃtɛndɐ" }, "noteZh": "die Wäsche + der Ständer(架子);德国很多人不用烘干机,在房间或浴室里用晾衣架晾衣服。" }
+  ],
+  "reviewItems": ["de.waschen", "de.waesche", "de.grad", "de.bunt", "de.mehr", "de.knopf"],
+  "lines": [
+    { "speaker": "wei", "text": "Sofia, hilf mir bitte! Die Waschmaschine ist neu für mich.", "zh": "索菲娅,帮帮我!我还没用过这台洗衣机。", "items": ["de.helfen", "de.ich", "de.bitte", "de.waschmaschine", "de.sein", "de.neu", "de.fuer"] },
+    { "speaker": "sofia", "text": "Gern! Was möchtest du waschen?", "zh": "好啊!你想洗什么?", "items": ["de.gern", "de.was", "de.moechten", "de.du", "de.waschen"] },
+    { "speaker": "wei", "text": "Meine Handtücher, ein weißes Hemd und einen Pullover.", "zh": "我的毛巾、一件白衬衫,还有一件毛衣。", "items": ["de.mein", "de.handtuch", "de.ein", "de.weiss", "de.hemd", "de.und", "de.pullover"] },
+    { "speaker": "sofia", "text": "Die Handtücher wäschst du bei 60 Grad. Den Pullover nur bei 30 Grad!", "zh": "毛巾用 60 度洗。毛衣只能用 30 度!", "items": ["de.handtuch", "de.waschen", "de.du", "de.bei", "de.sechzig", "de.grad", "de.pullover", "de.nur", "de.dreissig"] },
+    { "speaker": "wei", "text": "Und welches Programm nehme ich?", "zh": "那我选哪个模式?", "items": ["de.und", "de.welche", "de.programm", "de.nehmen", "de.ich"] },
+    { "speaker": "sofia", "text": "Nimm das Programm „Bunt“. Das Waschmittel muss hier rein.", "zh": "选“彩色衣物”模式。洗衣液放这儿。", "items": ["de.nehmen", "de.programm", "de.bunt", "de.waschmittel", "de.muessen", "de.hier", "de.herein"] },
+    { "speaker": "wei", "text": "Und dann drücke ich den Knopf hier, oder?", "zh": "然后按这个按钮,对吧?", "items": ["de.und", "de.dann", "de.druecken", "de.ich", "de.knopf", "de.hier", "de.oder"] },
+    { "speaker": "sofia", "text": "Ja. Die Wäsche trocknest du dann im Bad. Da ist der Wäscheständer.", "zh": "对。洗好的衣服在浴室晾,晾衣架就在那儿。", "items": ["de.ja", "de.waesche", "de.trocknen", "de.du", "de.dann", "de.in", "de.bad", "de.da", "de.sein", "de.waeschestaender"] },
+    { "speaker": "wei", "text": "Sofia! Mein Hemd ist jetzt rosa! Und hier ist eine rote Socke.", "zh": "索菲娅!我的衬衫变成粉色了!这儿还有一只红袜子。", "items": ["de.mein", "de.hemd", "de.sein", "de.jetzt", "de.rosa", "de.und", "de.hier", "de.ein", "de.rot", "de.socke"] },
+    { "speaker": "sofia", "text": "Die Socke ist von Jonas! Wasch Weiß und Rot nie mehr zusammen!", "zh": "这是约纳斯的袜子!以后别再把白的和红的一起洗了!", "items": ["de.socke", "de.sein", "de.von", "de.waschen", "de.weiss", "de.und", "de.rot", "de.nie", "de.mehr", "de.zusammen"] }
+  ],
+  "questions": [
+    { "prompt": "毛巾用多少度洗?", "options": ["90 度", "30 度", "60 度"], "answer": 2, "explainZh": "索菲娅说:Die Handtücher wäschst du bei 60 Grad.(毛巾用 60 度洗。)毛衣只能用 30 度。" },
+    { "prompt": "洗好的衣服在哪儿晾?", "options": ["在院子里", "在浴室里", "在厨房里"], "answer": 1, "explainZh": "索菲娅说:Die Wäsche trocknest du dann im Bad. Da ist der Wäscheständer.(洗好的衣服在浴室晾,晾衣架就在那儿。)" },
+    { "prompt": "王伟的白衬衫为什么变成了粉色?", "options": ["洗衣机里有约纳斯的一只红袜子", "他用了 90 度", "洗衣液放错了"], "answer": 0, "explainZh": "王伟说:Hier ist eine rote Socke.(这儿有一只红袜子。)索菲娅说:Die Socke ist von Jonas!(这是约纳斯的袜子!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.waschen_imperativ", "titleZh": "waschen 的变位和命令式",
+      "bodyZh": "waschen 是 a → ä 的不规则动词,只在 du 和 er / sie / es 变:ich wasche, du wäschst, er wäscht, wir waschen。同样的还有 fahren(du fährst)、schlafen(du schläfst)。\n命令式不保留变音:du wäschst → Wasch …!;du fährst → Fahr …!。e → i 的动词保留 i:du nimmst → Nimm!、du hilfst → Hilf!(第 3 课)。\n请人帮忙:Hilf mir bitte!;提醒别人别再做:Wasch Weiß und Rot nie mehr zusammen!(nie mehr = 再也别……)",
+      "examples": [
+        { "text": "Die Handtücher wäschst du bei 60 Grad.", "zh": "毛巾用 60 度洗。" },
+        { "text": "Hilf mir bitte!", "zh": "帮帮我!" },
+        { "text": "Wasch Weiß und Rot nie mehr zusammen!", "zh": "别再把白的和红的一起洗了!" }
+      ] },
+    { "id": "de.g.waesche_grad_farbe", "titleZh": "洗衣服:温度、颜色和放哪儿",
+      "bodyZh": "温度用 bei:bei 60 Grad waschen(用 60 度洗);毛巾常用 60 度,毛衣用 30 度:Den Pullover nur bei 30 Grad!。\n颜色当名词用时大写:Weiß und Rot(白色的和红色的衣物);洗衣机的 „Bunt“ 模式洗彩色衣物;rosa 放在名词前面也不加词尾:ein rosa Hemd(一件粉色衬衫)。\n说东西放哪儿:Das Waschmittel muss hier rein.(洗衣液放这儿。)/ Da ist der Wäscheständer.(晾衣架在那儿。)",
+      "examples": [
+        { "text": "Den Pullover nur bei 30 Grad!", "zh": "毛衣只能用 30 度洗!" },
+        { "text": "Mein Hemd ist jetzt rosa!", "zh": "我的衬衫变成粉色了!" }
+      ] }
+  ],
+  "review": "draft"
+}

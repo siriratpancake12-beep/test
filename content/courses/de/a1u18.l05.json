@@ -13,11 +13,11 @@
     { "id": "de.verletzt", "kind": "word", "pos": "adj", "text": "verletzt", "zh": "受伤的", "features": { "ipa": "fɛɐ̯ˈlɛtst" }, "noteZh": "放在 sein 后面:Wie viele Personen sind verletzt?(几个人受伤?)Sein Knie ist verletzt.。来自动词 verletzen(弄伤);词尾 tzt 读 [tst]。" },
     { "id": "de.bewegen", "kind": "word", "pos": "verb", "text": "bewegen", "zh": "移动;动", "features": { "ipa": "bəˈveːɡn̩" }, "noteZh": "Bewegen Sie seinen Fuß bitte nicht!(请别动他的脚!)be- 不可分、不重读;w 读 [v]。" }
   ],
-  "reviewItems": ["de.passieren", "de.fuss", "de.wehtun", "de.park", "de.stehen", "de.genau"],
+  "reviewItems": ["de.passieren", "de.fuss", "de.wehtun", "de.park", "de.genau", "de.keine_sorge"],
   "lines": [
     { "speaker": "paul", "text": "Mein Fuß! Mein Knöchel tut sehr weh!", "zh": "(星期六,公园里踢球)我的脚!我的脚踝好疼!", "items": ["de.mein", "de.fuss", "de.knoechel", "de.wehtun", "de.sehr"] },
     { "speaker": "jonas", "text": "Paul, kannst du aufstehen?", "zh": "保罗,你能站起来吗?", "items": ["de.koennen", "de.du", "de.aufstehen"] },
-    { "speaker": "paul", "text": "Nein, ich kann nicht stehen. Es tut zu weh!", "zh": "不行,我站不住,太疼了!", "items": ["de.nein", "de.ich", "de.koennen", "de.nicht", "de.stehen", "de.es", "de.zu_adv", "de.wehtun"] },
+    { "speaker": "paul", "text": "Nein, ich kann nicht. Es tut zu weh!", "zh": "不行,我站不起来,太疼了!", "items": ["de.nein", "de.ich", "de.koennen", "de.nicht", "de.es", "de.zu_adv", "de.wehtun"] },
     { "speaker": "jonas", "text": "Wei, ruf bitte die 112 an! Wir brauchen einen Krankenwagen.", "zh": "王伟,快打 112!我们得叫救护车。", "items": ["de.anrufen", "de.bitte", "de.eins", "de.zwei", "de.wir", "de.brauchen", "de.ein", "de.krankenwagen"] },
     { "speaker": "notruf", "text": "Notruf 112. Wo genau sind Sie?", "zh": "急救电话 112。您具体在什么地方?", "items": ["de.notruf", "de.eins", "de.zwei", "de.wo", "de.genau", "de.sein", "de.sie_hoeflich"] },
     { "speaker": "wei", "text": "Im Park an der Parkstraße, am Eingang.", "zh": "在 Parkstraße 旁边的公园里,入口那儿。", "items": ["de.in", "de.park", "de.an", "de.am", "de.eingang"] },
@@ -26,7 +26,7 @@
     { "speaker": "notruf", "text": "Wie viele Personen sind verletzt?", "zh": "有几个人受伤?", "items": ["de.wie_viel", "de.person", "de.sein", "de.verletzt"] },
     { "speaker": "wei", "text": "Nur eine Person. Er ist siebzehn Jahre alt.", "zh": "就一个人。他十七岁。", "items": ["de.nur", "de.ein", "de.person", "de.er", "de.sein", "de.siebzehn", "de.jahr", "de.alt"] },
     { "speaker": "notruf", "text": "Der Krankenwagen kommt in zehn Minuten. Bewegen Sie seinen Fuß bitte nicht!", "zh": "救护车十分钟后到。请先别动他的脚!", "items": ["de.krankenwagen", "de.ich_komme_aus", "de.in", "de.zehn", "de.minute", "de.bewegen", "de.sie_hoeflich", "de.sein_poss", "de.fuss", "de.bitte", "de.nicht"] },
-    { "speaker": "wei", "text": "Danke! Paul, keine Angst! Der Krankenwagen kommt bald.", "zh": "谢谢!保罗,别怕!救护车很快就来。", "items": ["de.danke", "de.kein", "de.angst", "de.krankenwagen", "de.ich_komme_aus", "de.bald"] }
+    { "speaker": "wei", "text": "Danke! Keine Sorge, Paul. Wir warten hier zusammen.", "zh": "谢谢!别担心,保罗,我们陪你在这儿等。", "items": ["de.danke", "de.keine_sorge", "de.wir", "de.warten", "de.hier", "de.zusammen"] }
   ],
   "questions": [
     { "prompt": "保罗怎么了?", "options": ["他头疼", "他发烧了", "他踢球时摔倒了,脚踝很疼"], "answer": 2, "explainZh": "保罗说 Mein Knöchel tut sehr weh!;王伟在电话里说:Mein Freund ist beim Fußball hingefallen.(我朋友踢球时摔倒了。)" },

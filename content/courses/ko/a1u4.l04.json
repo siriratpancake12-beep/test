@@ -17,13 +17,13 @@
   ],
   "reviewItems": ["ko.jeogiyo", "ko.mul", "ko.juseyo", "ko.meogeoyo"],
   "lines": [
-    { "speaker": "nam", "text": "박 선생님이 이 식당을 좋아해요.", "zh": "(星期六中午,阿南带陈静来到学校附近的一家饭馆)朴老师喜欢这家饭馆。", "roman": "Bak seonsaengnimi i sikdangeul joahaeyo.", "items": ["ko.seonsaengnim", "ko.sikdang", "ko.joahaeyo"] },
+    { "speaker": "nam", "text": "박 선생님이 이 식당을 좋아해요.", "zh": "(星期六中午,南带陈静来到学校附近的一家饭馆)朴老师喜欢这家饭馆。", "roman": "Bak seonsaengnimi i sikdangeul joahaeyo.", "items": ["ko.seonsaengnim", "ko.sikdang", "ko.joahaeyo"] },
     { "speaker": "jing", "text": "저기요!", "zh": "(两人坐下,陈静举手叫服务员)您好,麻烦一下!", "roman": "Jeogiyo!", "items": ["ko.jeogiyo"] },
     { "speaker": "server", "text": "네, 여기 메뉴요.", "zh": "来了,给您菜单。", "roman": "Ne, yeogi menyuyo.", "items": ["ko.ne", "ko.yeogi", "ko.menyu"] },
     { "speaker": "jing", "text": "남 씨, 뭐 먹어요?", "zh": "阿南,你吃什么?", "roman": "Nam ssi, mwo meogeoyo?", "items": ["ko.ssi", "ko.mwo", "ko.meogeoyo"] },
-    { "speaker": "nam", "text": "김치찌개 매워요?", "zh": "(阿南问服务员)泡菜汤辣吗?", "roman": "Gimchijjigae maewoyo?", "items": ["ko.gimchijjigae", "ko.maewoyo"] },
+    { "speaker": "nam", "text": "김치찌개 매워요?", "zh": "(南问服务员)泡菜汤辣吗?", "roman": "Gimchijjigae maewoyo?", "items": ["ko.gimchijjigae", "ko.maewoyo"] },
     { "speaker": "server", "text": "네, 매워요.", "zh": "辣。", "roman": "Ne, maewoyo.", "items": ["ko.ne", "ko.maewoyo"] },
-    { "speaker": "nam", "text": "그럼 불고기하고 밥 주세요.", "zh": "(阿南不太能吃辣)那给我烤肉和米饭吧。", "roman": "Geureom bulgogihago bap juseyo.", "items": ["ko.geureom", "ko.bulgogi", "ko.bap", "ko.juseyo"] },
+    { "speaker": "nam", "text": "그럼 불고기하고 밥 주세요.", "zh": "(南不太能吃辣)那给我烤肉和米饭吧。", "roman": "Geureom bulgogihago bap juseyo.", "items": ["ko.geureom", "ko.bulgogi", "ko.bap", "ko.juseyo"] },
     { "speaker": "jing", "text": "비빔밥 안 매워요?", "zh": "拌饭不辣吗?", "roman": "Bibimbap an maewoyo?", "items": ["ko.bibimbap", "ko.an", "ko.maewoyo"] },
     { "speaker": "server", "text": "네, 안 매워요.", "zh": "对,不辣。(辣酱放在旁边,可以自己加)", "roman": "Ne, an maewoyo.", "items": ["ko.ne", "ko.an", "ko.maewoyo"] },
     { "speaker": "jing", "text": "그럼 저는 비빔밥 주세요. 그리고 물도 주세요.", "zh": "那我要拌饭。还有,请给我们水。", "roman": "Geureom jeoneun bibimbap juseyo. Geurigo muldo juseyo.", "items": ["ko.geureom", "ko.jeo", "ko.bibimbap", "ko.juseyo", "ko.geurigo", "ko.mul"] },
@@ -31,9 +31,9 @@
     { "speaker": "server", "text": "여기요. 불고기하고 비빔밥이에요.", "zh": "(过了一会儿,菜上来了)给您,烤肉和拌饭。", "roman": "Yeogiyo. Bulgogihago bibimbabieyo.", "items": ["ko.yeogiyo", "ko.bulgogi", "ko.bibimbap"] }
   ],
   "questions": [
-    { "prompt": "阿南为什么没点泡菜汤?", "options": ["泡菜汤太贵了", "服务员说泡菜汤卖完了", "泡菜汤辣,阿南不太能吃辣"], "answer": 2, "explainZh": "第 5–7 句:阿南问 김치찌개 매워요?,服务员说 네, 매워요(辣),阿南就说 그럼 불고기하고 밥 주세요(那就要烤肉和米饭)。" },
+    { "prompt": "南为什么没点泡菜汤?", "options": ["泡菜汤太贵了", "服务员说泡菜汤卖完了", "泡菜汤辣,南不太能吃辣"], "answer": 2, "explainZh": "第 5–7 句:南问 김치찌개 매워요?,服务员说 네, 매워요(辣),南就说 그럼 불고기하고 밥 주세요(那就要烤肉和米饭)。" },
     { "prompt": "服务员说拌饭“안 매워요”,意思是?", "options": ["不辣", "不好吃", "很辣"], "answer": 0, "explainZh": "第 9 句:안 + 매워요 = 不辣。“不好吃”是另一个词 맛없어요(下一课学),和 안 매워요 完全不是一个意思。" },
-    { "prompt": "陈静点了什么?", "options": ["烤肉和米饭", "拌饭和水", "泡菜汤和水"], "answer": 1, "explainZh": "第 10 句:그럼 저는 비빔밥 주세요. 그리고 물도 주세요.(那我要拌饭,还要水。)烤肉和米饭是阿南点的(第 7 句)。" }
+    { "prompt": "陈静点了什么?", "options": ["烤肉和米饭", "拌饭和水", "泡菜汤和水"], "answer": 1, "explainZh": "第 10 句:그럼 저는 비빔밥 주세요. 그리고 물도 주세요.(那我要拌饭,还要水。)烤肉和米饭是南点的(第 7 句)。" }
   ],
   "grammar": [
     { "id": "ko.g.an_negation", "titleZh": "안 + 动词/形容词:不……;그럼 + 决定",

@@ -2,14 +2,15 @@
   "id": "de.a1u18.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
   "unit": "A1-18 意外与求助", "order": 118080,
   "titleZh": "单元复习与应用:向老板请病假", "goalZh": "会打电话请病假,说清楚哪里不舒服、大概几天不能来,知道什么时候要交病假条", "canDoZh": "能打电话请病假,说清楚哪里不舒服、多久不能来",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
   "newItems": [
     { "id": "de.krankmeldung", "kind": "word", "pos": "noun", "text": "die Krankmeldung", "zh": "病假条;请病假", "features": { "gender": "f", "plural": "die Krankmeldungen", "ipa": "ˈkʁaŋkˌmɛldʊŋ" }, "noteZh": "在德国,病假超过三天(从第四天起)要交医生开的病假证明,有的老板第一天就要;生病了要在上班前先打电话请假。krank + die Meldung(通知)。" },
-    { "id": "de.bescheid_sagen", "kind": "phrase", "pos": "phrase", "text": "Bescheid sagen", "zh": "告诉一声;通知(某人)", "features": { "ipa": "bəˈʃaɪ̯t ˈzaːɡn̩" }, "noteZh": "jemandem Bescheid sagen = 告诉某人一声:Kannst du den Kollegen Bescheid sagen?(你能跟同事说一声吗?)口语非常常用;ei 读 [aɪ̯],词尾 d 读 [t]。" }
+    { "id": "de.bescheid_sagen", "kind": "phrase", "pos": "phrase", "text": "Bescheid sagen", "zh": "告诉一声;通知(某人)", "features": { "ipa": "bəˈʃaɪ̯t ˈzaːɡn̩" }, "noteZh": "jemandem Bescheid sagen = 告诉某人一声:Kannst du im Laden Bescheid sagen?(你能在店里跟大家说一声吗?)口语非常常用;ei 读 [aɪ̯],词尾 d 读 [t]。" },
+    { "id": "de.laden", "kind": "word", "pos": "noun", "text": "der Laden", "zh": "店;商店", "features": { "gender": "m", "plural": "die Läden", "ipa": "ˈlaːdn̩" }, "noteZh": "口语里小商店都叫 Laden:im Laden arbeiten(在店里上班);复数变音 die Läden。a 是长音,词尾 -en 读得很轻。" }
   ],
-  "reviewItems": ["de.krank", "de.fieber", "de.gute_besserung", "de.chefin", "de.eisdiele", "de.kollege"],
+  "reviewItems": ["de.krank", "de.fieber", "de.gute_besserung", "de.anrufen", "de.schlafen", "de.lieb"],
   "lines": [
-    { "speaker": "chefin", "text": "Hallo Wei, guten Morgen! Was ist los?", "zh": "(星期天早上,王伟给冰淇淋店的老板娘打电话)喂,王伟,早上好!怎么了?", "items": ["de.hallo", "de.guten_morgen", "de.was_ist_los"] },
+    { "speaker": "chefin", "text": "Hallo Wei, guten Morgen! Was gibt's?", "zh": "(星期天早上,王伟给冰淇淋店的老板娘打电话)喂,王伟,早上好!有什么事?", "items": ["de.hallo", "de.guten_morgen", "de.was", "de.es_gibt"] },
     { "speaker": "wei", "text": "Guten Morgen! Ich bin krank. Ich habe Fieber und Halsschmerzen.", "zh": "早上好!我病了,发烧,嗓子也疼。", "items": ["de.guten_morgen", "de.ich", "de.sein", "de.krank", "de.haben", "de.fieber", "de.und", "de.hals", "de.schmerz"] },
     { "speaker": "wei", "text": "Ich kann heute leider nicht kommen.", "zh": "今天我恐怕来不了了。", "items": ["de.ich", "de.koennen", "de.heute", "de.leider", "de.nicht", "de.ich_komme_aus"] },
     { "speaker": "chefin", "text": "Wie viele Tage kannst du nicht arbeiten?", "zh": "你有几天不能上班?", "items": ["de.wie_viel", "de.tag", "de.koennen", "de.du", "de.nicht", "de.arbeiten"] },
@@ -18,8 +19,8 @@
     { "speaker": "wei", "text": "Gut, dann gehe ich am Mittwoch zum Arzt.", "zh": "好的,那我星期三去看医生。", "items": ["de.gut", "de.dann", "de.gehen", "de.ich", "de.am", "de.mittwoch", "de.zu", "de.arzt"] },
     { "speaker": "chefin", "text": "Schlaf viel und trink viel Tee! Gute Besserung!", "zh": "多睡觉,多喝茶!早日康复!", "items": ["de.schlafen", "de.viel", "de.und", "de.trinken", "de.tee", "de.gute_besserung"] },
     { "speaker": "wei", "text": "Danke! Tschüss!", "zh": "谢谢!再见!", "items": ["de.danke", "de.tschuess"] },
-    { "speaker": "wei", "text": "Hallo Sofia, ich bin krank und kann heute nicht in die Eisdiele kommen.", "zh": "(接着王伟给索菲娅发消息)嗨,索菲娅,我病了,今天去不了冰淇淋店。", "items": ["de.hallo", "de.ich", "de.sein", "de.krank", "de.und", "de.koennen", "de.heute", "de.nicht", "de.in", "de.eisdiele", "de.ich_komme_aus"] },
-    { "speaker": "wei", "text": "Die Chefin weiß es schon. Kannst du den Kollegen Bescheid sagen?", "zh": "老板娘已经知道了。你能跟同事们说一声吗?", "items": ["de.chefin", "de.wissen", "de.es", "de.schon", "de.koennen", "de.du", "de.kollege", "de.bescheid_sagen"] },
+    { "speaker": "wei", "text": "Hallo Sofia, ich bin krank und kann heute nicht arbeiten.", "zh": "(接着王伟给索菲娅发消息)嗨,索菲娅,我病了,今天上不了班。", "items": ["de.hallo", "de.ich", "de.sein", "de.krank", "de.und", "de.koennen", "de.heute", "de.nicht", "de.arbeiten"] },
+    { "speaker": "wei", "text": "Ich habe schon angerufen. Kannst du bitte im Laden Bescheid sagen?", "zh": "我已经打过电话了。你能在店里跟大家说一声吗?", "items": ["de.ich", "de.haben", "de.schon", "de.anrufen", "de.koennen", "de.du", "de.bitte", "de.in", "de.laden", "de.bescheid_sagen"] },
     { "speaker": "sofia", "text": "Ja, das mache ich. Was für eine Woche, Wei!", "zh": "好,我去说。王伟,你这一周可真够呛!", "items": ["de.ja", "de.machen", "de.ich", "de.was", "de.fuer", "de.ein", "de.woche"] },
     { "speaker": "sofia", "text": "Dein Geldbeutel, Paul, die Tür – und jetzt bist du krank!", "zh": "先是钱包,然后是保罗,又是门——现在你自己也病了!", "items": ["de.dein", "de.geldbeutel", "de.tuer", "de.und", "de.jetzt", "de.sein", "de.du", "de.krank"] },
     { "speaker": "sofia", "text": "Heute Abend koche ich dir eine Suppe. Gute Besserung!", "zh": "今天晚上我给你煮汤。早日康复!", "items": ["de.heute", "de.abend", "de.kochen", "de.ich", "de.du", "de.ein", "de.suppe", "de.gute_besserung"] },
@@ -33,7 +34,7 @@
   ],
   "grammar": [
     { "id": "de.g.u18_review_possessiv", "titleZh": "本单元复习(一):第四格物主冠词",
-      "bodyZh": "这一单元反复用到第四格物主冠词。规律:词尾和 ein / kein 一样,做宾语(第四格)时只有阳性单数加 -en,阴性、中性、复数不变。\n本单元的例子:meinen Geldbeutel、Ihren Geldbeutel(第 1 课),deine Bankkarte(第 2 课),deinen Schlüssel、dein Handy、meine Kopfhörer(第 3 课),seinen Fuß(第 5 课),Ihr Handy(第 7 课)。\n先判断是不是宾语,再看名词的性:是阳性单数才加 -en。速记:mein → meinen(阳性)/ meine(阴性、复数)/ mein(中性);Ihr → Ihren / Ihre / Ihr。",
+      "bodyZh": "这一单元反复用到第四格物主冠词。规律:词尾和 ein / kein 一样,做宾语(第四格)时只有阳性单数加 -en,阴性、中性、复数不变。\n本单元的例子:meinen Geldbeutel、Ihren Geldbeutel(第 1 课),deine Bankkarte(第 2 课),deinen Schlüssel、dein Handy、meine Kopfhörer(第 3 课),seinen Fuß(第 5 课),meinen Schlüssel、Ihre Fotos(第 7 课)。\n先判断是不是宾语,再看名词的性:是阳性单数才加 -en。速记:mein → meinen(阳性)/ meine(阴性、复数)/ mein(中性);Ihr → Ihren / Ihre / Ihr。",
       "examples": [
         { "text": "Ich habe meinen Geldbeutel verloren.", "zh": "我把钱包丢了。" },
         { "text": "Deine Bankkarte musst du sofort sperren.", "zh": "你的银行卡得马上冻结。" },
@@ -41,7 +42,7 @@
         { "text": "Ich habe meinen Schlüssel nicht dabei.", "zh": "我没带钥匙。" }
       ] },
     { "id": "de.g.u18_review_krankmelden", "titleZh": "本单元复习(二):出了事怎么说;打电话请病假",
-      "bodyZh": "出了事,先用完成时说发生了什么:Ich habe meinen Geldbeutel verloren. / Paul ist hingefallen. / Die Tür ist zugefallen.;别人会问 Was ist passiert? 或者 Was ist los?(怎么了?)\n打电话请病假,照这个顺序说:① 打招呼、说自己是谁;② 说病情:Ich bin krank. Ich habe Fieber und Halsschmerzen.;③ 说不能来:Ich kann heute leider nicht kommen.;④ 说大概多久:Vielleicht zwei oder drei Tage.。\n老板娘对员工用 du,给建议用 du 的命令式:Schlaf viel und trink viel Tee!(schlafen → Schlaf!,trinken → Trink!)\n生活常识:在德国,病假超过三天(从第四天起)要交医生开的病假证明(die Krankmeldung),有的老板第一天就要;生病了要在上班之前先打电话。",
+      "bodyZh": "出了事,先用完成时说发生了什么:Ich habe meinen Geldbeutel verloren. / Paul ist hingefallen. / Die Tür ist zugefallen.;别人会问 Was ist passiert?(出什么事了?)熟人打电话也常先问 Was gibt's?(有什么事?)\n打电话请病假,照这个顺序说:① 打招呼、说自己是谁;② 说病情:Ich bin krank. Ich habe Fieber und Halsschmerzen.;③ 说不能来:Ich kann heute leider nicht kommen.;④ 说大概多久:Vielleicht zwei oder drei Tage.。\n老板娘对员工用 du,给建议用 du 的命令式:Schlaf viel und trink viel Tee!(schlafen → Schlaf!,trinken → Trink!)\n生活常识:在德国,病假超过三天(从第四天起)要交医生开的病假证明(die Krankmeldung),有的老板第一天就要;生病了要在上班之前先打电话。",
       "examples": [
         { "text": "Ich kann heute leider nicht kommen.", "zh": "今天我恐怕来不了了。" },
         { "text": "Ich habe Fieber und Halsschmerzen.", "zh": "我发烧,嗓子疼。" },

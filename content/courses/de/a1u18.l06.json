@@ -20,11 +20,11 @@
     { "speaker": "paul", "text": "Mein Knöchel tut sehr weh. Ich kann nicht gehen.", "zh": "我的脚踝很疼,走不了路。", "items": ["de.mein", "de.knoechel", "de.wehtun", "de.sehr", "de.ich", "de.koennen", "de.nicht", "de.gehen"] },
     { "speaker": "arzthelferin", "text": "Ihr Knie ist auch verletzt. Hier ist ein Pflaster.", "zh": "您的膝盖也擦伤了。给您一个创可贴。", "items": ["de.ihr_hoeflich", "de.knie", "de.sein", "de.auch", "de.verletzt", "de.hier", "de.ein", "de.pflaster"] },
     { "speaker": "arzthelferin", "text": "Heute haben wir viele Patienten. Sie müssen leider zwei Stunden warten.", "zh": "今天病人很多。很抱歉,您得等两个小时。", "items": ["de.heute", "de.haben", "de.wir", "de.viel", "de.patient", "de.sie_hoeflich", "de.muessen", "de.leider", "de.zwei", "de.stunde", "de.warten"] },
-    { "speaker": "lena", "text": "Paul! Wei! Ich bin sofort ins Krankenhaus gekommen.", "zh": "(两个小时后,莉娜下班赶来了)保罗!王伟!我马上就赶来医院了。", "items": ["de.ich", "de.sein", "de.sofort", "de.in", "de.krankenhaus", "de.ich_komme_aus"] },
+    { "speaker": "lena", "text": "Paul! Wei! Ich bin schnell ins Krankenhaus gekommen.", "zh": "(两个小时后,莉娜下班赶来了)保罗!王伟!我赶紧来医院了。", "items": ["de.ich", "de.sein", "de.schnell", "de.in", "de.krankenhaus", "de.ich_komme_aus"] },
     { "speaker": "paul", "text": "Hallo Lena. Wir warten schon zwei Stunden in der Notaufnahme!", "zh": "嗨,莉娜。我们在急诊室已经等了两个小时了!", "items": ["de.hallo", "de.wir", "de.warten", "de.schon", "de.zwei", "de.stunde", "de.in", "de.notaufnahme"] },
     { "speaker": "lena", "text": "Der Arzt hat den Fuß untersucht. Er ist nicht gebrochen, nur verstaucht.", "zh": "(医生看完以后,莉娜告诉王伟)医生检查了脚,没有骨折,只是扭伤。", "items": ["de.arzt", "de.haben", "de.fuss", "de.untersuchen", "de.er", "de.sein", "de.nicht", "de.gebrochen", "de.nur", "de.verstaucht"] },
     { "speaker": "lena", "text": "Paul muss ihn oft kühlen und drei Wochen nicht Fußball spielen.", "zh": "保罗要经常冷敷,三个星期不能踢球。", "items": ["de.muessen", "de.ihn", "de.oft", "de.kuehlen", "de.und", "de.drei", "de.woche", "de.nicht", "de.fussball", "de.spielen"] },
-    { "speaker": "paul", "text": "Drei Wochen kein Fußball? Was für ein Pech!", "zh": "三个星期不能踢球?真倒霉!", "items": ["de.drei", "de.woche", "de.kein", "de.fussball", "de.was", "de.fuer", "de.ein", "de.pech"] }
+    { "speaker": "paul", "text": "Drei Wochen kein Fußball? Das ist schlimm!", "zh": "三个星期不能踢球?这下糟了!", "items": ["de.drei", "de.woche", "de.kein", "de.fussball", "de.sein", "de.schlimm"] }
   ],
   "questions": [
     { "prompt": "前台说要等多久?", "options": ["半个小时", "两个小时", "十分钟"], "answer": 1, "explainZh": "Heute haben wir viele Patienten. Sie müssen leider zwei Stunden warten.(今天病人多,您得等两个小时。)" },

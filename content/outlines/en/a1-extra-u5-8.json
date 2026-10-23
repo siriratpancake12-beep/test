@@ -115,10 +115,10 @@
         { "id": "en.pair", "kind": "word", "pos": "noun", "text": "pair", "zh": "双;对;副", "features": { "ipa": "per" }, "noteZh": "a pair of socks 一双袜子,two pairs of shoes 两双鞋;pair 和 pear(梨)读音一样,air 要卷舌。" },
         { "id": "en.socks", "kind": "word", "pos": "noun", "text": "socks", "zh": "袜子", "features": { "ipa": "sɑːks" }, "noteZh": "袜子一般用复数;o 美式读 /ɑː/,词尾 cks 读 /ks/,别加元音。" },
         { "id": "en.bottle", "kind": "word", "pos": "noun", "text": "bottle", "zh": "瓶;瓶子", "features": { "ipa": "ˈbɑːt̬l̩" }, "noteZh": "a bottle of water 一瓶水;美式 tt 读成轻快的 d,结尾的 l 自己成一个音节:“BAH-dl”。" },
-        { "id": "en.shampoo", "kind": "word", "pos": "noun", "text": "shampoo", "zh": "洗发水", "features": { "ipa": "ʃæmˈpuː" }, "noteZh": "重音在后 sham-POO;sh 是 /ʃ/,别读成 s。不能直接数,一瓶是 a bottle of shampoo。" },
+        { "id": "en.shampoo", "kind": "word", "pos": "noun", "text": "shampoo", "zh": "洗发水", "features": { "ipa": "ʃæmˈpuː" }, "noteZh": "重音在后 sham-POO;sh 是 /ʃ/,别读成 s。一般不直接数,一瓶是 a bottle of shampoo。" },
         { "id": "en.box", "kind": "word", "pos": "noun", "text": "box", "zh": "盒;盒子;箱子", "features": { "ipa": "bɑːks" }, "noteZh": "a box of tissues 一盒纸巾;复数 boxes 读 /ˈbɑːksɪz/。" },
         { "id": "en.tissue", "kind": "word", "pos": "noun", "text": "tissue", "zh": "纸巾", "features": { "ipa": "ˈtɪʃuː" }, "noteZh": "ss 读 /ʃ/:“TI-shoo”;一盒纸巾 a box of tissues。吃饭擦嘴的餐巾纸,美国人一般叫 napkin。" },
-        { "id": "en.toothpaste", "kind": "word", "pos": "noun", "text": "toothpaste", "zh": "牙膏", "features": { "ipa": "ˈtuːθpeɪst" }, "noteZh": "不能直接数:I need toothpaste.,一管是 a tube of toothpaste;th 是清音 /θ/,舌尖放在上下齿之间送气。" },
+        { "id": "en.toothpaste", "kind": "word", "pos": "noun", "text": "toothpaste", "zh": "牙膏", "features": { "ipa": "ˈtuːθpeɪst" }, "noteZh": "一般不直接数:I need toothpaste.,一管是 a tube of toothpaste;th 是清音 /θ/,舌尖放在上下齿之间送气。" },
         { "id": "en.pack", "kind": "word", "pos": "noun", "text": "pack", "zh": "包;盒(一包东西)", "features": { "ipa": "pæk" }, "noteZh": "a pack of batteries 一包电池;a 是 /æ/,嘴张大;词尾 ck 轻轻收住。" },
         { "id": "en.battery", "kind": "word", "pos": "noun", "text": "battery", "zh": "电池", "features": { "ipa": "ˈbæt̬ɚi" }, "noteZh": "复数 batteries(y 变 i 加 -es);美式 tt 读成轻快的 d:“BA-der-ee”,重音在前。" }
       ],
@@ -133,7 +133,7 @@
       "skills": ["read", "listen", "speak"], "estimatedMinutes": 14.5,
       "newItems": [
         { "id": "en.happy_birthday", "kind": "phrase", "pos": "phrase", "text": "Happy birthday", "zh": "生日快乐", "features": { "ipa": "ˌhæpi ˈbɝːθdeɪ" }, "noteZh": "也可以说 Happy birthday to you!;happy 的 a 是 /æ/,嘴张大;birthday 的 th 是清音 /θ/。" },
-        { "id": "en.dear", "kind": "word", "pos": "adj", "text": "dear", "zh": "亲爱的(信的开头)", "features": { "ipa": "dɪr" }, "noteZh": "写信、贺卡的开头:Dear Mom,——后面用逗号,不用冒号;ear 读 /ɪr/,要卷舌。" }
+        { "id": "en.dear", "kind": "word", "pos": "adj", "text": "dear", "zh": "亲爱的(信的开头)", "features": { "ipa": "dɪr" }, "noteZh": "写信、贺卡的开头:Dear Mom,——贺卡和私人信件里后面用逗号;ear 读 /ɪr/,要卷舌。" }
       ],
       "reviewItems": ["en.scarf", "en.gift", "en.on_sale", "en.new", "en.miss"]
     },
@@ -219,31 +219,31 @@
       "grammarFocusZh": "there was / there were(过去的 there is / are),否定 There wasn't / weren't any…,问句 Was there…? / Were there…?;复习 was / were 和购物词。发音:/ɝː/(were、first、shirt、Thursday)舌头卷起、不碰上颚,不要读成'窝'。",
       "skills": ["listen", "speak", "write"], "estimatedMinutes": 23,
       "newItems": [
-        { "id": "en.black_friday", "kind": "phrase", "pos": "propn", "text": "Black Friday", "zh": "黑色星期五(感恩节后的大促销日)", "features": { "ipa": "ˌblæk ˈfraɪdeɪ" } },
-        { "id": "en.mall", "kind": "word", "pos": "noun", "text": "mall", "zh": "商场;购物中心", "features": { "ipa": "mɑːl" } },
-        { "id": "en.line", "kind": "word", "pos": "noun", "text": "line", "zh": "队;排队的队伍", "features": { "ipa": "laɪn" } },
-        { "id": "en.crowded", "kind": "word", "pos": "adj", "text": "crowded", "zh": "拥挤的;人多的", "features": { "ipa": "ˈkraʊdɪd" } },
-        { "id": "en.wallet", "kind": "word", "pos": "noun", "text": "wallet", "zh": "钱包", "features": { "ipa": "ˈwɑːlɪt" } },
-        { "id": "en.shirt", "kind": "word", "pos": "noun", "text": "shirt", "zh": "衬衫", "features": { "ipa": "ʃɝːt" } }
+        { "id": "en.black_friday", "kind": "phrase", "pos": "propn", "text": "Black Friday", "zh": "黑色星期五(感恩节后的大促销日)", "features": { "ipa": "ˌblæk ˈfraɪdeɪ" }, "noteZh": "感恩节后的那个星期五,美国很多商店一大早就开始大减价,人特别多;两个词首字母都大写。" },
+        { "id": "en.mall", "kind": "word", "pos": "noun", "text": "mall", "zh": "商场;购物中心", "features": { "ipa": "mɑːl" }, "noteZh": "美式 a 读 /ɑː/,和 ball 押韵;at the mall 在商场。" },
+        { "id": "en.line", "kind": "word", "pos": "noun", "text": "line", "zh": "队;排队的队伍", "features": { "ipa": "laɪn" }, "noteZh": "a long line 长队,wait in line 排队;英式英语说 queue。l 舌尖顶住上齿龈,别读成 n。" },
+        { "id": "en.crowded", "kind": "word", "pos": "adj", "text": "crowded", "zh": "拥挤的;人多的", "features": { "ipa": "ˈkraʊdɪd" }, "noteZh": "The mall was really crowded. 商场里特别挤;-ed 跟在 d 后面读 /ɪd/:“CROW-did”。" },
+        { "id": "en.wallet", "kind": "word", "pos": "noun", "text": "wallet", "zh": "钱包", "features": { "ipa": "ˈwɑːlɪt" }, "noteZh": "w 双唇收圆往前送,别读成 v;a 读 /ɑː/:“WAH-lit”。" },
+        { "id": "en.shirt", "kind": "word", "pos": "noun", "text": "shirt", "zh": "衬衫", "features": { "ipa": "ʃɝːt" }, "noteZh": "ir 读 /ɝː/,舌头卷起来;shirt 一般指有领子、有扣子的衬衫,T-shirt 是 T 恤。" }
       ],
       "reviewItems": ["en.store", "en.good_deal", "en.percent_off", "en.medium", "en.thats_it"]
     },
     {
       "id": "en.a1u8.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-8 Last weekend", "order": 108070,
-      "titleZh": "我闹过的笑话", "goalZh": "会用 said、thought、asked、told 讲一个自己闹过的小笑话,并回应别人的故事",
+      "titleZh": "我闹过的笑话", "goalZh": "会用 said、thought、told 讲一个自己闹过的小笑话,并回应别人的故事",
       "canDoZh": "能讲一个自己闹过的小笑话:当时发生了什么、别人说了什么、我以为是什么意思",
       "scenarioZh": "咖啡馆不忙的时候,马库斯讲他第一天上班把盐当成糖放进咖啡的事。磊也讲了刚来时的笑话:咖啡师问 How's it going?,他以为是问'怎么去',回答 By bus!;还有一次店员问 For here or to go?,他说 Yes.。大家笑成一团,劳拉(laura)说她刚工作时也闹过笑话,学语言就是这样。",
       "grammarFocusZh": "用一般过去时讲故事:said(say)、thought(think)、asked、told;He asked me… / I thought it meant…;听故事时回应 That's so funny! / Oh no!。发音:said 读 /sed/,不读 /seɪd/;讲到笑点前稍停一下,重读关键词。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
-        { "id": "en.say", "kind": "word", "pos": "verb", "text": "say", "zh": "说", "features": { "ipa": "seɪ" } },
-        { "id": "en.think", "kind": "word", "pos": "verb", "text": "think", "zh": "想;认为;以为", "features": { "ipa": "θɪŋk" } },
-        { "id": "en.tell", "kind": "word", "pos": "verb", "text": "tell", "zh": "告诉;对……说", "features": { "ipa": "tel" } },
-        { "id": "en.mean", "kind": "word", "pos": "verb", "text": "mean", "zh": "意思是", "features": { "ipa": "miːn" } },
-        { "id": "en.mistake", "kind": "word", "pos": "noun", "text": "mistake", "zh": "错误", "features": { "ipa": "mɪˈsteɪk" } },
-        { "id": "en.salt", "kind": "word", "pos": "noun", "text": "salt", "zh": "盐", "features": { "ipa": "sɑːlt" } },
-        { "id": "en.put", "kind": "word", "pos": "verb", "text": "put", "zh": "放", "features": { "ipa": "pʊt" } },
-        { "id": "en.by", "kind": "word", "pos": "prep", "text": "by", "zh": "乘(交通工具)", "features": { "ipa": "baɪ" } }
+        { "id": "en.say", "kind": "word", "pos": "verb", "text": "say", "zh": "说", "features": { "ipa": "seɪ" }, "noteZh": "过去式 said 读 /sed/,不读 /seɪd/;say 后面直接接说的话:She said, \"Thank you!\"" },
+        { "id": "en.think", "kind": "word", "pos": "verb", "text": "think", "zh": "想;认为;以为", "features": { "ipa": "θɪŋk" }, "noteZh": "过去式 thought /θɑːt/;th 是清音 /θ/,舌尖放在上下齿之间,别读成 s 或 f。I thought… 我(当时)以为……" },
+        { "id": "en.tell", "kind": "word", "pos": "verb", "text": "tell", "zh": "告诉;对……说", "features": { "ipa": "tel" }, "noteZh": "过去式 told;tell 后面直接跟人:I told her…(不说 told to her);say 后面不直接跟人。" },
+        { "id": "en.mean", "kind": "word", "pos": "verb", "text": "mean", "zh": "意思是", "features": { "ipa": "miːn" }, "noteZh": "过去式 meant /ment/;第 1 单元的 What does that mean? 就是这个词。I thought it meant… 我以为它的意思是……" },
+        { "id": "en.mistake", "kind": "word", "pos": "noun", "text": "mistake", "zh": "错误", "features": { "ipa": "mɪˈsteɪk" }, "noteZh": "重音在后 mis-TAKE;Mistakes are OK. 犯错没关系。“犯错”英语说 make a mistake。" },
+        { "id": "en.salt", "kind": "word", "pos": "noun", "text": "salt", "zh": "盐", "features": { "ipa": "sɑːlt" }, "noteZh": "美式读 /sɑːlt/,l 要带出来,别读成“扫特”;salt and sugar 盐和糖。" },
+        { "id": "en.put", "kind": "word", "pos": "verb", "text": "put", "zh": "放", "features": { "ipa": "pʊt" }, "noteZh": "过去式还是 put;put salt in the coffee 往咖啡里放盐;u 读短的 /ʊ/。" },
+        { "id": "en.by", "kind": "word", "pos": "prep", "text": "by", "zh": "乘(交通工具)", "features": { "ipa": "baɪ" }, "noteZh": "by bus 坐公交、by train 坐火车,中间不加 the;By bus. 也可以单独用来回答“怎么去”。" }
       ],
       "reviewItems": ["en.customer", "en.sugar", "en.hows_it_going", "en.for_here_or_to_go", "en.first"]
     },

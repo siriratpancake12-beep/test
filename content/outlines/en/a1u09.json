@@ -1,0 +1,190 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-9 Rain or shine", "cefr": "A1", "themeZh": "西雅图的冬天:聊天气、说四季和气温(华氏和摄氏)、看天气预报、按天气穿衣,第一次遇到下雪停课,说寒假计划" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u9.l01", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109010,
+      "titleZh": "今天天气真糟糕", "goalZh": "会用 it 说天气,用 What's the weather like? 问天气",
+      "canDoZh": "能和顾客、同学用天气开个头聊几句,说出现在是什么天气",
+      "scenarioZh": "12 月一个下雨的下午,老顾客(regular)浑身湿漉漉地走进咖啡馆:Terrible weather today!。磊和他聊天气:又冷又刮风,雨下了一整夜;老顾客问 Is it going to rain all day?,磊看了看手机说傍晚会停,明天多云、周六晴。马库斯(marcus)在旁边打趣:Welcome to Seattle!。",
+      "grammarFocusZh": "天气用 it 作主语:It's cold / windy / cloudy.;正在下雨用现在进行时 It's raining.;What's the weather like? 问天气(复习 weather、rain、cold、sunny)。发音:/aʊ/(cloudy、outside)从 a 滑到 u,不要读成'奥'。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "en.terrible", "kind": "word", "pos": "adj", "text": "terrible", "zh": "糟糕的;可怕的", "features": { "ipa": "ˈterəbəl" }, "noteZh": "Terrible weather!(天气真糟糕!)是抱怨天气的常用开场白,用降调;重音在第一个音节 TER-,结尾的 l 舌尖顶住上齿龈收住,不要读成'特瑞波'。" },
+        { "id": "en.wet", "kind": "word", "pos": "adj", "text": "wet", "zh": "湿的", "features": { "ipa": "wet" }, "noteZh": "You're wet!(你都湿了!)w 开头双唇先收圆再张开,不要读成 v;词尾 t 轻轻收住,不加元音。" },
+        { "id": "en.whats_the_weather_like", "kind": "phrase", "pos": "phrase", "text": "What's the weather like", "zh": "天气怎么样?", "features": { "ipa": "ˌwʌts ðə ˈweðɚ laɪk" }, "noteZh": "like 在这里是'像',不是'喜欢';回答直接说 It's cold. / It's raining.,不用 like。weather 的 th 是浊音 /ð/,舌尖轻放在上下齿之间。" },
+        { "id": "en.outside", "kind": "word", "pos": "adv", "text": "outside", "zh": "在外面;到外面", "features": { "ipa": "ˌaʊtˈsaɪd" }, "noteZh": "ou 读 /aʊ/,从'啊'滑到'乌';It's cold outside.(外面冷);go outside(出去),outside 前面不加 to。" },
+        { "id": "en.windy", "kind": "word", "pos": "adj", "text": "windy", "zh": "刮风的;风大的", "features": { "ipa": "ˈwɪndi" }, "noteZh": "名词 wind(风)加 -y 变成形容词,cloudy、sunny 也是这样构成的;说'风很大'是 It's windy.,不说 It's wind.。" },
+        { "id": "en.december", "kind": "word", "pos": "propn", "text": "December", "zh": "十二月", "features": { "ipa": "dɪˈsembɚ" }, "noteZh": "月份首字母永远大写;重音在第二个音节 de-CEM-ber,结尾 -ber 美式卷舌;in December(在十二月)。" },
+        { "id": "en.stop", "kind": "word", "pos": "verb", "text": "stop", "zh": "停;停止", "features": { "ipa": "stɑːp" }, "noteZh": "The rain is going to stop.(雨要停了);美式 o 读 /ɑː/,嘴张大;词尾 p 双唇闭上就收,不要加'普'。" },
+        { "id": "en.evening", "kind": "word", "pos": "noun", "text": "evening", "zh": "傍晚;晚上", "features": { "ipa": "ˈiːvnɪŋ" }, "noteZh": "只有两个音节 EVE-ning,中间的 e 不读;this evening(今天傍晚);Good evening 是晚上见面时的问候,道别说 Good night。" },
+        { "id": "en.cloudy", "kind": "word", "pos": "adj", "text": "cloudy", "zh": "多云的;阴天的", "features": { "ipa": "ˈklaʊdi" }, "noteZh": "cloud(云)+ y;ou 读 /aʊ/ 要滑完整;美国天气预报里的 cloudy 常常就是中文说的'阴天'。" }
+      ],
+      "reviewItems": ["en.weather", "en.rain", "en.cold", "en.sunny", "en.let_me_see"]
+    },
+    {
+      "id": "en.a1u9.l02", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109020,
+      "titleZh": "四季", "goalZh": "会说四季,用 in + 季节和一般现在时说家乡的气候",
+      "canDoZh": "能说出四季,说说自己家乡每个季节的天气和大家常做的事",
+      "scenarioZh": "期末复习的间隙,磊和索菲亚(sofia)在图书馆看着窗外的雨,聊各自家乡的四季:成都夏天又热又潮湿,冬天很少下雪,常常灰蒙蒙的,大家爱吃辣;索菲亚家乡的冬天很暖和,从不下雪;西雅图从秋天到春天总下雨,夏天干燥又晴朗。两人说各自喜欢哪个季节、为什么。",
+      "grammarFocusZh": "四季 spring、summer、fall(美式,英式说 autumn)、winter;in + 季节(in winter / in the summer);用一般现在时说气候(It doesn't snow a lot in Chengdu.),用现在进行时说眼前(It's raining now.)。发音:/oʊ/(snow、cold)嘴唇从半开滑到收圆,不要读成短促的'欧'。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.season", "kind": "word", "pos": "noun", "text": "season", "zh": "季节", "features": { "ipa": "ˈsiːzən" }, "noteZh": "s 在两个元音之间读 /z/:'SEA-zn';four seasons(四季);Which season do you like?(你喜欢哪个季节?)" },
+        { "id": "en.spring", "kind": "word", "pos": "noun", "text": "spring", "zh": "春天", "features": { "ipa": "sprɪŋ" }, "noteZh": "spr 三个辅音连在一起,中间不加元音(不读'丝普林');结尾 -ng 是 /ŋ/,舌根抵住软腭。" },
+        { "id": "en.summer", "kind": "word", "pos": "noun", "text": "summer", "zh": "夏天", "features": { "ipa": "ˈsʌmɚ" }, "noteZh": "u 读 /ʌ/,短而放松;in summer、in the summer 都可以。" },
+        { "id": "en.fall", "kind": "word", "pos": "noun", "text": "fall", "zh": "秋天(美式)", "features": { "ipa": "fɑːl" }, "noteZh": "美国人说 fall,英国人说 autumn;fall 作动词是'落下、摔倒'(过去式 fell);词尾 l 舌尖要顶住上齿龈。" },
+        { "id": "en.winter", "kind": "word", "pos": "noun", "text": "winter", "zh": "冬天", "features": { "ipa": "ˈwɪnt̬ɚ" }, "noteZh": "美式口语里 nt 的 t 常被吞掉,听起来像 'win-er';in winter(在冬天)。" },
+        { "id": "en.snow", "kind": "word", "pos": "verb", "text": "snow", "zh": "下雪;雪", "features": { "ipa": "snoʊ" }, "noteZh": "和 rain 一样,既是动词也是名词:It's snowing.(在下雪)/ a lot of snow(很多雪);ow 读 /oʊ/,嘴唇从半开滑到收圆。" },
+        { "id": "en.humid", "kind": "word", "pos": "adj", "text": "humid", "zh": "潮湿的;闷热的", "features": { "ipa": "ˈhjuːmɪd" }, "noteZh": "hu 读 /hjuː/,像 'hyoo';hot and humid(又热又潮)正好形容成都、重庆的夏天。" },
+        { "id": "en.dry", "kind": "word", "pos": "adj", "text": "dry", "zh": "干燥的", "features": { "ipa": "draɪ" }, "noteZh": "dr 像'拽'的声母再加卷舌;和 humid 相反:Summer in Seattle is dry.。" },
+        { "id": "en.city", "kind": "word", "pos": "noun", "text": "city", "zh": "城市", "features": { "ipa": "ˈsɪt̬i" }, "noteZh": "美式 t 在两个元音之间读成轻快的 d,像 'si-dee';my city 可以指'我住的城市',也可以指'我家乡'。" },
+        { "id": "en.flower", "kind": "word", "pos": "noun", "text": "flower", "zh": "花", "features": { "ipa": "ˈflaʊɚ" }, "noteZh": "ow 读 /aʊ/,后面再接卷舌的 ɚ,两个音节 FLOW-er;复数 flowers。" }
+      ],
+      "reviewItems": ["en.sunny", "en.gray", "en.spicy", "en.never", "en.warm"]
+    },
+    {
+      "id": "en.a1u9.l03", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109030,
+      "titleZh": "30 度?那是热还是冷?", "goalZh": "会说温度,用 How + 形容词? 问有多冷、多热",
+      "canDoZh": "能看懂美国天气预报里的华氏温度,大致换算成摄氏度,说出今天有多冷",
+      "scenarioZh": "磊看到手机上写着 30 degrees,以为挺暖和,穿着薄外套就要出门。室友伊森(ethan)拦住他:那是华氏,零下一度左右!伊森让他再穿件毛衣;伊森说他洛杉矶的家现在 70 度,磊一算才明白是二十一二度,很舒服;两人又聊洛杉矶夏天有多热。",
+      "grammarFocusZh": "温度的说法:It's 30 degrees. / It's minus five. / below zero;How + 形容词?:How cold is it? / How hot is it in summer?;复习数字和 -teen / -ty。发音:degree 重音在后 de-GREE;Fahrenheit 读 /ˈferənhaɪt/,重音在前。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 26,
+      "newItems": [
+        { "id": "en.look", "kind": "word", "pos": "verb", "text": "look", "zh": "看;瞧", "features": { "ipa": "lʊk" }, "noteZh": "Look!(你看!)用来让人注意;看某样东西要加 at:Look at the sky.;oo 读短音 /ʊ/,不要拉长成 'luke'。" },
+        { "id": "en.degree", "kind": "word", "pos": "noun", "text": "degree", "zh": "度(温度)", "features": { "ipa": "dɪˈɡriː" }, "noteZh": "重音在后 de-GREE;除了 1 度,都用复数 degrees:30 degrees。" },
+        { "id": "en.fahrenheit", "kind": "word", "pos": "noun", "text": "Fahrenheit", "zh": "华氏度", "features": { "ipa": "ˈferənhaɪt" }, "noteZh": "美国的天气预报用华氏度,写作 °F;重音在第一个音节,h 不发音,首字母大写。" },
+        { "id": "en.celsius", "kind": "word", "pos": "noun", "text": "Celsius", "zh": "摄氏度", "features": { "ipa": "ˈselsiəs" }, "noteZh": "中国用的温度,写作 °C;开头的 C 读 /s/,不读 /k/;很多美国人对摄氏度不熟,说温度时可以两种都说。" },
+        { "id": "en.use", "kind": "word", "pos": "verb", "text": "use", "zh": "用;使用", "features": { "ipa": "juːz" }, "noteZh": "动词 use 词尾是浊音 /z/(名词 use 读 /juːs/);We use Celsius in China.(我们中国用摄氏度。)" },
+        { "id": "en.minus", "kind": "word", "pos": "prep", "text": "minus", "zh": "零下;减去", "features": { "ipa": "ˈmaɪnəs" }, "noteZh": "minus five = 零下 5 度,也可以说 five below zero;算数时 70 minus 30 = 70 减 30。i 读 /aɪ/。" },
+        { "id": "en.below_zero", "kind": "phrase", "pos": "adv", "text": "below zero", "zh": "零度以下", "features": { "ipa": "bɪˌloʊ ˈzɪroʊ" }, "noteZh": "It's below zero.(零下了。)below 的 ow 读 /oʊ/;zero 美式读 /ˈzɪroʊ/,z 要带声。" },
+        { "id": "en.freezing", "kind": "word", "pos": "adj", "text": "freezing", "zh": "冷极了;冰冷的", "features": { "ipa": "ˈfriːzɪŋ" }, "noteZh": "It's freezing!(冻死了!)比 It's cold. 冷得多,口语很常用;f 上齿轻咬下唇,zz 之后的 ing 要带鼻音 /ŋ/。" },
+        { "id": "en.temperature", "kind": "word", "pos": "noun", "text": "temperature", "zh": "温度;气温", "features": { "ipa": "ˈtempɚətʃɚ" }, "noteZh": "口语里常读成三个音节 'TEM-pra-cher';What's the temperature?(现在多少度?)" }
+      ],
+      "reviewItems": ["en.warm", "en.jacket", "en.sweater", "en.no_way", "en.sometimes"]
+    },
+    {
+      "id": "en.a1u9.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109040,
+      "titleZh": "明天要下雪!", "goalZh": "会用 be going to 根据迹象说'要下雪了',听懂停课的消息",
+      "canDoZh": "能根据天气预报和眼前的迹象说'要下雪了',听懂学校因下雪停课的通知",
+      "scenarioZh": "傍晚艾米(amy)发消息说天气预报明天下雪;西雅图很少下雪,磊一看天色也说要下雪了。第二天一早伊森(ethan)叫醒磊:校园一片白,学校通知上午的课取消(snow day)。来自洛杉矶的伊森比磊还兴奋,两人叫上第一次见到雪的索菲亚(sofia),约在宿舍楼前堆雪人。",
+      "grammarFocusZh": "be going to 表示有迹象的预测:Look at the sky. It's going to snow.(第 7 单元学过用它说计划);canceled 作形容词:Classes are canceled.。发音:snow 的 /oʊ/ 要滑完整;canceled 美式拼一个 l,读 /ˈkænsəld/。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "en.forecast", "kind": "word", "pos": "noun", "text": "forecast", "zh": "(天气)预报", "features": { "ipa": "ˈfɔːrkæst" }, "noteZh": "完整说法是 weather forecast;重音在前 FOR-cast;Look at the forecast.(看看天气预报。)" },
+        { "id": "en.sky", "kind": "word", "pos": "noun", "text": "sky", "zh": "天空", "features": { "ipa": "skaɪ" }, "noteZh": "sk 之间不加元音;Look at the sky.(看看天。)天阴得发灰可以说 The sky is gray.。" },
+        { "id": "en.canceled", "kind": "word", "pos": "adj", "text": "canceled", "zh": "取消了的", "features": { "ipa": "ˈkænsəld" }, "noteZh": "美式拼一个 l(英式 cancelled);Classes are canceled.(课取消了。)词尾 -ed 读 /d/。" },
+        { "id": "en.snow_day", "kind": "phrase", "pos": "noun", "text": "snow day", "zh": "(因下雪)停课的日子", "features": { "ipa": "ˈsnoʊ deɪ" }, "noteZh": "美国学校因为下雪停课的那一天叫 snow day,学生都很开心;复合词重音在前:SNOW day。" },
+        { "id": "en.excited", "kind": "word", "pos": "adj", "text": "excited", "zh": "兴奋的;激动的", "features": { "ipa": "ɪkˈsaɪt̬ɪd" }, "noteZh": "人感到兴奋说 I'm excited.,不说 I'm exciting(那是'我这个人让人兴奋');t 在两个元音之间美式读闪音。" },
+        { "id": "en.build", "kind": "word", "pos": "verb", "text": "build", "zh": "建;堆(雪人)", "features": { "ipa": "bɪld" }, "noteZh": "ui 读短音 /ɪ/;过去式 built /bɪlt/;build a snowman(堆雪人)。" },
+        { "id": "en.snowman", "kind": "word", "pos": "noun", "text": "snowman", "zh": "雪人", "features": { "ipa": "ˈsnoʊmæn" }, "noteZh": "snow + man,重音在前;复数 snowmen。" },
+        { "id": "en.building", "kind": "word", "pos": "noun", "text": "building", "zh": "楼;建筑", "features": { "ipa": "ˈbɪldɪŋ" }, "noteZh": "build 的名词;宿舍楼、教学楼都可以叫 building:in front of our building(在我们楼前)。" },
+        { "id": "en.campus", "kind": "word", "pos": "noun", "text": "campus", "zh": "校园", "features": { "ipa": "ˈkæmpəs" }, "noteZh": "a 读 /æ/,嘴张大;'在校园里'说 on campus,用 on。" }
+      ],
+      "reviewItems": ["en.wake_up", "en.white", "en.cant_wait", "en.gray", "en.in_front_of"]
+    },
+    {
+      "id": "en.a1u9.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109045,
+      "titleZh": "一周天气预报", "goalZh": "会看一周天气预报里的天气、最高最低气温和降雨概率",
+      "canDoZh": "能看懂一周天气预报:每天的天气、最高和最低气温、下雨的可能性",
+      "scenarioZh": "体裁:天气预报(手机天气应用的一周页面)。说话人 narrator。周一到周日每天一行:天气、最高和最低气温(华氏)、降雨概率(80% chance of rain),周四有 60% 的可能下雪;底部提示:周四早上路面结冰,出门小心,多穿点。共 10 行。",
+      "grammarFocusZh": "复习本单元的天气词和温度说法;读预报看 High / Low 两栏和百分比;理解题考'哪天可能下雪、哪天适合出门'。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "en.high", "kind": "word", "pos": "adj", "text": "high", "zh": "高的;(气温)最高", "features": { "ipa": "haɪ" }, "noteZh": "gh 不发音;天气预报里 High 45 = 最高 45 °F(约 7 °C)。" },
+        { "id": "en.low", "kind": "word", "pos": "adj", "text": "low", "zh": "低的;(气温)最低", "features": { "ipa": "loʊ" }, "noteZh": "Low 38 = 最低 38 °F(约 3 °C);ow 读 /oʊ/,和 snow 押韵;l 开头舌尖顶住上齿龈。" },
+        { "id": "en.chance", "kind": "word", "pos": "noun", "text": "chance", "zh": "可能性;机会", "features": { "ipa": "tʃæns" }, "noteZh": "80% chance of rain = 降雨概率 80%;ch 读 /tʃ/,a 读 /æ/,嘴张大。" },
+        { "id": "en.careful", "kind": "word", "pos": "adj", "text": "careful", "zh": "小心的", "features": { "ipa": "ˈkerfəl" }, "noteZh": "Be careful!(小心!)是提醒别人的固定说法;care + ful,重音在前。" }
+      ],
+      "reviewItems": ["en.street", "en.ice", "en.clothes", "en.walk"]
+    },
+    {
+      "id": "en.a1u9.l05", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109050,
+      "titleZh": "穿暖和点!", "goalZh": "会说冬天的衣物,分清 wear(穿着)和 put on(穿上)",
+      "canDoZh": "能根据天气说出门要穿什么、带什么,提醒朋友多穿一点",
+      "scenarioZh": "雪后的周六,艾米(amy)约磊去市中心。出门前她看见磊穿着普通的鞋和薄外套,马上让他换上暖和的外套,还问他帽子、手套在哪儿,说最好穿靴子。磊说他没有靴子,但有伞;艾米说西雅图人下雨很少打伞,都穿带帽兜的防雨外套或大衣。两人决定先去商店买一顶帽子和一副手套。",
+      "grammarFocusZh": "wear 表示'穿着'(状态),put on 表示'穿上'(动作):Put on your warm jacket!;冬季衣物 coat、hat、gloves、boots、umbrella、hood(复习 jacket、shoes、wear);复习 need + 名词(You need boots.)。发音:gloves /ɡlʌvz/ 词尾的 v 和 z 都要带声。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+      "newItems": [
+        { "id": "en.ready", "kind": "word", "pos": "adj", "text": "ready", "zh": "准备好的", "features": { "ipa": "ˈredi" }, "noteZh": "Ready to go?(准备好出门了吗?)是 Are you ready to go? 的口语省略;ea 读短音 /e/。" },
+        { "id": "en.thin", "kind": "word", "pos": "adj", "text": "thin", "zh": "薄的;瘦的", "features": { "ipa": "θɪn" }, "noteZh": "th 是清音 /θ/,舌尖轻轻咬住再送气,不要读成 sin 或 fin;a thin jacket(薄外套)。" },
+        { "id": "en.put_on", "kind": "phrase", "pos": "verb", "text": "put on", "zh": "穿上;戴上", "features": { "ipa": "ˌpʊt ˈɑːn" }, "noteZh": "说'穿上、戴上'这个动作;wear 是'穿着'的状态。连读成 'pu-ton';代词要放中间:put it on。" },
+        { "id": "en.coat", "kind": "word", "pos": "noun", "text": "coat", "zh": "(厚)外套;大衣", "features": { "ipa": "koʊt" }, "noteZh": "比 jacket 长、厚,冬天穿;oa 读 /oʊ/,要滑完整;词尾 t 收住。" },
+        { "id": "en.hat", "kind": "word", "pos": "noun", "text": "hat", "zh": "帽子", "features": { "ipa": "hæt" }, "noteZh": "a 读 /æ/,嘴张大;冬天的毛线帽美国人也叫 hat。" },
+        { "id": "en.gloves", "kind": "word", "pos": "noun", "text": "gloves", "zh": "手套", "features": { "ipa": "ɡlʌvz" }, "noteZh": "手套一般说复数 gloves;o 读 /ʌ/;词尾 v 和 z 都要带声,不要读成'格拉夫斯'。" },
+        { "id": "en.boots", "kind": "word", "pos": "noun", "text": "boots", "zh": "靴子", "features": { "ipa": "buːts" }, "noteZh": "靴子一般说复数 boots;oo 读长音 /uː/;词尾 ts 像'次'但不带元音。" },
+        { "id": "en.umbrella", "kind": "word", "pos": "noun", "text": "umbrella", "zh": "伞", "features": { "ipa": "ʌmˈbrelə" }, "noteZh": "重音在中间 um-BREL-la;以元音开头,说 an umbrella;很多西雅图人下雨天不打伞,穿带帽兜的外套。" },
+        { "id": "en.hood", "kind": "word", "pos": "noun", "text": "hood", "zh": "(衣服上的)帽兜", "features": { "ipa": "hʊd" }, "noteZh": "oo 读短音 /ʊ/,和 good 押韵;a jacket with a hood(带帽兜的外套)。" }
+      ],
+      "reviewItems": ["en.jacket", "en.wear", "en.shoes", "en.need", "en.whats_wrong_with_it", "en.freezing"]
+    },
+    {
+      "id": "en.a1u9.l06", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109060,
+      "titleZh": "四点半天就黑了", "goalZh": "会用 get + 形容词说天色、天气和人的变化",
+      "canDoZh": "能说天色和天气的变化,比如'天黑了''天变冷了',比较冬天和夏天白天的长短",
+      "scenarioZh": "六点磊下班走出咖啡馆,外面早已漆黑一片。马库斯(marcus)说西雅图冬天下午四点半就天黑,夏天要到九点多才黑;磊说成都冬天六点多才天黑,他早上七点起床时天还黑着。两人边走边聊:天黑得早,人也容易累、心情差,马库斯说那就多出门、多运动,他最爱这里的夏天。",
+      "grammarFocusZh": "get + 形容词表示变化:It gets dark at 4:30. / It's getting cold.;it 的几种用法小结:说时间(It's six.)、天气和天色(It's dark.)、距离(It's far.)。发音:dark /dɑːrk/ 美式要卷舌,别读成'达克'。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.get", "kind": "word", "pos": "verb", "text": "get", "zh": "变得;得到;买", "features": { "ipa": "ɡet" }, "noteZh": "get + 形容词表示变化:It gets dark.(天黑了)/ I get tired.(我会累);也常表示'得到、买':I got this for you.;过去式 got。" },
+        { "id": "en.until", "kind": "word", "pos": "prep", "text": "until", "zh": "直到……(为止)", "features": { "ipa": "ənˈtɪl" }, "noteZh": "not … until 表示'直到……才':It doesn't get dark until nine.(要到九点才天黑);重音在后 un-TIL。" },
+        { "id": "en.still", "kind": "word", "pos": "adv", "text": "still", "zh": "还;仍然", "features": { "ipa": "stɪl" }, "noteZh": "It's still dark.(天还黑着);st 之间不加元音,词尾 l 舌尖顶住上齿龈。" },
+        { "id": "en.sad", "kind": "word", "pos": "adj", "text": "sad", "zh": "难过的", "features": { "ipa": "sæd" }, "noteZh": "a 读 /æ/,嘴张大,和 said /sed/ 不同;get sad(难过起来、心情变差)。" },
+        { "id": "en.sleepy", "kind": "word", "pos": "adj", "text": "sleepy", "zh": "困的;想睡觉的", "features": { "ipa": "ˈsliːpi" }, "noteZh": "sleep + y;'困'说 sleepy,'累'说 tired;ee 读长音 /iː/。" },
+        { "id": "en.exercise", "kind": "word", "pos": "verb", "text": "exercise", "zh": "锻炼;运动", "features": { "ipa": "ˈeksɚsaɪz" }, "noteZh": "重音在第一个音节 EX-er-cise;意思和第 3 单元的 work out 差不多,exercise 用得更广。" },
+        { "id": "en.sun", "kind": "word", "pos": "noun", "text": "sun", "zh": "太阳;阳光", "features": { "ipa": "sʌn" }, "noteZh": "u 读 /ʌ/,和 son(儿子)同音;in the sun(在阳光下)。" },
+        { "id": "en.happy", "kind": "word", "pos": "adj", "text": "happy", "zh": "高兴的;快乐的", "features": { "ipa": "ˈhæpi" }, "noteZh": "a 读 /æ/,嘴张大;祝福语 Happy holidays! / Happy New Year! 里都有它。" }
+      ],
+      "reviewItems": ["en.dark", "en.oclock", "en.tired", "en.get_up", "en.after"]
+    },
+    {
+      "id": "en.a1u9.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109070,
+      "titleZh": "寒假你回家吗?", "goalZh": "会用 be going to 说假期计划,问别人的安排",
+      "canDoZh": "能说说自己假期打算做什么、去哪儿,也能问朋友的假期安排",
+      "scenarioZh": "学期最后一周,大家在学生中心聊寒假:伊森要回洛杉矶的家过圣诞;索菲亚十月刚为哥哥的婚礼回过墨西哥,这次机票太贵,留在西雅图;艾米是本地人,和家人在一起;磊本来想回成都(8-8 里说过),可寒假只有一个月,机票又太贵,也留下。伊森说洛杉矶冬天也晴朗暖和、七十度左右,邀请磊和索菲亚一月去玩、去海边。",
+      "grammarFocusZh": "复习 be going to 说计划(I'm going to stay here.);How long is winter break? — About a month.;用 It's sunny and warm there. 说别处的天气。发音:break 里的 ea 读 /eɪ/(和 great 一样),别读成 /iː/。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "newItems": [
+        { "id": "en.holiday", "kind": "word", "pos": "noun", "text": "holiday", "zh": "节日;假日", "features": { "ipa": "ˈhɑːlədeɪ" }, "noteZh": "美国人说 the holidays,指 12 月底圣诞、新年这一段节日;英式 holiday 也指'度假',美式度假多说 vacation。" },
+        { "id": "en.christmas", "kind": "word", "pos": "propn", "text": "Christmas", "zh": "圣诞节", "features": { "ipa": "ˈkrɪsməs" }, "noteZh": "t 不发音:'CHRIS-mas';首字母大写;for Christmas(过圣诞节)。" },
+        { "id": "en.stay", "kind": "word", "pos": "verb", "text": "stay", "zh": "留;待", "features": { "ipa": "steɪ" }, "noteZh": "stay here(留在这儿)/ stay in Seattle;st 之间不加元音,ay 读 /eɪ/。第 7 单元的 stay home 是'待在家里'。" },
+        { "id": "en.wedding", "kind": "word", "pos": "noun", "text": "wedding", "zh": "婚礼", "features": { "ipa": "ˈwedɪŋ" }, "noteZh": "w 开头双唇先收圆;my brother's wedding(我哥哥的婚礼)。" },
+        { "id": "en.winter_break", "kind": "phrase", "pos": "noun", "text": "winter break", "zh": "寒假", "features": { "ipa": "ˈwɪnt̬ɚ breɪk" }, "noteZh": "美国大学说 winter break,暑假是 summer break;break 的 ea 读 /eɪ/。" },
+        { "id": "en.only", "kind": "word", "pos": "adv", "text": "only", "zh": "只;仅仅", "features": { "ipa": "ˈoʊnli" }, "noteZh": "only a month(只有一个月);o 读 /oʊ/;放在要限定的词前面。" },
+        { "id": "en.month", "kind": "word", "pos": "noun", "text": "month", "zh": "月;一个月", "features": { "ipa": "mʌnθ" }, "noteZh": "o 读 /ʌ/;结尾 th /θ/ 舌尖轻咬;复数 months 不好读,口语里可以读成 'munts'。" },
+        { "id": "en.january", "kind": "word", "pos": "propn", "text": "January", "zh": "一月", "features": { "ipa": "ˈdʒænjueri" }, "noteZh": "重音在第一个音节 JAN-u-ary;月份首字母大写;in January(在一月)。" },
+        { "id": "en.beach", "kind": "word", "pos": "noun", "text": "beach", "zh": "海滩;海边", "features": { "ipa": "biːtʃ" }, "noteZh": "ea 读长音 /iː/,一定要拉长,短了会变成别的词;go to the beach(去海边)。" },
+        { "id": "en.invite", "kind": "word", "pos": "verb", "text": "invite", "zh": "邀请", "features": { "ipa": "ɪnˈvaɪt" }, "noteZh": "重音在后 in-VITE;Thanks for inviting us!(谢谢你邀请我们!)" }
+      ],
+      "reviewItems": ["en.plan", "en.ticket", "en.expensive", "en.going_to", "en.sounds_good"]
+    },
+    {
+      "id": "en.a1u9.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109080,
+      "titleZh": "单元复习:放假前的最后一班", "goalZh": "综合运用本单元的天气、穿衣和假期计划,和顾客、同事闲聊",
+      "canDoZh": "能和顾客、同事自然地聊天气、穿衣和假期计划,完成一段完整的闲聊",
+      "scenarioZh": "寒假前磊的最后一班,外面又飘起了雪。老顾客(regular)进门抱怨路滑,问雪会不会一直下;一位顾客(customer)问他假期回不回家,磊说留在西雅图、一月去洛杉矶;劳拉(laura)说这是本学期最后一天,一个月后(一月)见,提醒大家戴好帽子手套、路上小心;马库斯说他寒假要和乐队在市中心演出。磊和每个人都能聊上几句。对话 15 句。",
+      "grammarFocusZh": "复习天气的 it、It's going to…、get + 形容词、wear / put on 和 be going to 说假期计划。发音:闲聊的语调——抱怨天气用降调(Terrible weather! ↘),一般疑问句用升调。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 23,
+      "newItems": [
+        { "id": "en.slippery", "kind": "word", "pos": "adj", "text": "slippery", "zh": "滑的", "features": { "ipa": "ˈslɪpɚi" }, "noteZh": "The streets are slippery.(路很滑。)sl 连在一起读,重音在前 SLIP-。" },
+        { "id": "en.merry_christmas", "kind": "phrase", "pos": "phrase", "text": "Merry Christmas", "zh": "圣诞快乐", "features": { "ipa": "ˌmeri ˈkrɪsməs" }, "noteZh": "Christmas 的 t 不发音;不确定对方过不过圣诞时,美国人常说 Happy holidays!。" }
+      ],
+      "reviewItems": ["en.careful", "en.get", "en.stay", "en.holiday", "en.january"]
+    },
+    {
+      "id": "en.a1u9.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-9 Rain or shine", "order": 109085,
+      "titleZh": "磊的日记:第一个下雪天", "goalZh": "会读一篇按时间顺序写的日记,说出发生了什么和作者的感受",
+      "canDoZh": "能读懂一篇写过去一天的日记,按时间顺序说出发生了什么、作者有什么感受",
+      "scenarioZh": "体裁:日记。说话人 lei(第一人称)。下雪那天晚上,磊用英语写日记:早上伊森叫醒他,课取消了;他们和索菲亚在楼前堆了一个雪人(戴着伊森的帽子);下午在校园里打雪仗;晚上很冷,但他很开心;成都很少下雪,他拍了很多照片发给奶奶,奶奶回他'真美!戴上帽子!'。共 12 句。",
+      "grammarFocusZh": "复习一般过去时(was / were、规则和不规则动词)和本单元的天气词;日记用 In the morning… / In the afternoon… / At night… 串起一天。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 13,
+      "newItems": [
+        { "id": "en.snowball_fight", "kind": "phrase", "pos": "noun", "text": "snowball fight", "zh": "打雪仗", "features": { "ipa": "ˈsnoʊbɑːl faɪt" }, "noteZh": "have a snowball fight(打雪仗);snowball 是'雪球'。" }
+      ],
+      "reviewItems": ["en.wake_up", "en.take_pictures", "en.text", "en.grandma", "en.big"]
+    }
+  ]
+}

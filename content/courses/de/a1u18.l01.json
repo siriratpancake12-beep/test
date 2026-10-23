@@ -14,29 +14,29 @@
     { "id": "de.fundbuero", "kind": "word", "pos": "noun", "text": "das Fundbüro", "zh": "失物招领处", "features": { "gender": "n", "plural": "die Fundbüros", "ipa": "ˈfʊntbyˌʁoː" }, "noteZh": "der Fund(找到的东西,来自 finden)+ das Büro(办公室);复数加 -s。德国的城市、车站、交通公司都有 Fundbüro,丢了东西可以去问,也可以在网上登记。ü 要撮圆嘴唇。" },
     { "id": "de.sitzen", "kind": "word", "pos": "verb", "text": "sitzen", "zh": "坐;坐着", "features": { "ipa": "ˈzɪtsn̩" }, "noteZh": "Wo haben Sie gesessen?(您刚才坐在哪儿?)不规则:完成时 gesessen(德国北部和标准语用 haben,南部和奥地利常用 sein)。s 在元音前读 [z],tz 读 [ts]。" }
   ],
-  "reviewItems": ["de.verlieren", "de.studentenausweis", "de.niemand", "de.ausfuellen", "de.formular", "de.platz"],
+  "reviewItems": ["de.verlieren", "de.fragen", "de.helfen", "de.schwarz", "de.anrufen"],
   "lines": [
     { "speaker": "wei", "text": "Entschuldigung! Mein Geldbeutel ist weg. Haben Sie ihn gesehen?", "zh": "(星期一早上,地铁上)打扰一下!我的钱包不见了。您看见了吗?", "items": ["de.entschuldigung", "de.mein", "de.geldbeutel", "de.sein", "de.weg", "de.haben", "de.sie_hoeflich", "de.ihn", "de.sehen"] },
     { "speaker": "passant", "text": "Ihren Geldbeutel? Nein, leider nicht. Wo haben Sie gesessen?", "zh": "您的钱包?没看见,不好意思。您刚才坐在哪儿?", "items": ["de.ihr_hoeflich", "de.geldbeutel", "de.nein", "de.leider", "de.nicht", "de.wo", "de.haben", "de.sie_hoeflich", "de.sitzen"] },
-    { "speaker": "wei", "text": "Hier, auf dem Platz am Fenster. Aber hier ist er nicht.", "zh": "这儿,靠窗的座位。可是这儿没有。", "items": ["de.hier", "de.auf", "de.platz", "de.am", "de.fenster", "de.aber", "de.sein", "de.er", "de.nicht"] },
+    { "speaker": "wei", "text": "Hier, am Fenster. Aber hier ist er nicht.", "zh": "这儿,靠窗。可是这儿没有。", "items": ["de.hier", "de.am", "de.fenster", "de.aber", "de.sein", "de.er", "de.nicht"] },
     { "speaker": "passant", "text": "Vielleicht hat ihn ein Fahrgast gefunden. Fragen Sie am Schalter im Bahnhof!", "zh": "也许有乘客捡到了。您去车站的服务窗口问问吧!", "items": ["de.vielleicht", "de.haben", "de.ihn", "de.ein", "de.fahrgast", "de.finden", "de.fragen", "de.sie_hoeflich", "de.am", "de.schalter", "de.in", "de.bahnhof"] },
     { "speaker": "wei", "text": "Guten Morgen! Können Sie mir bitte helfen?", "zh": "(下车后,在车站的服务窗口)早上好!您能帮帮我吗?", "items": ["de.guten_morgen", "de.koennen", "de.sie_hoeflich", "de.ich", "de.bitte", "de.helfen"] },
     { "speaker": "mitarbeiter", "text": "Gern. Was ist passiert?", "zh": "可以。出什么事了?", "items": ["de.gern", "de.was", "de.sein", "de.passieren"] },
     { "speaker": "wei", "text": "Ich habe meinen Geldbeutel verloren, heute Morgen in der U-Bahn.", "zh": "我把钱包丢了,今天早上在地铁上。", "items": ["de.ich", "de.haben", "de.mein", "de.geldbeutel", "de.verlieren", "de.heute", "de.morgen_tageszeit", "de.in", "de.u_bahn"] },
     { "speaker": "mitarbeiter", "text": "Welche Farbe hat er? Und was war im Geldbeutel?", "zh": "钱包是什么颜色的?里面有什么?", "items": ["de.welche", "de.farbe", "de.haben", "de.er", "de.und", "de.was", "de.sein", "de.in", "de.geldbeutel"] },
-    { "speaker": "wei", "text": "Er ist schwarz. Meine Bankkarte, mein Studentenausweis und dreißig Euro.", "zh": "黑色的。里面有我的银行卡、学生证和三十欧元。", "items": ["de.er", "de.sein", "de.schwarz", "de.mein", "de.bankkarte", "de.studentenausweis", "de.und", "de.dreissig", "de.euro"] },
-    { "speaker": "mitarbeiter", "text": "Hier hat leider niemand einen Geldbeutel abgegeben.", "zh": "可惜还没有人把钱包交到我们这儿。", "items": ["de.hier", "de.haben", "de.leider", "de.niemand", "de.ein", "de.geldbeutel", "de.abgeben"] },
-    { "speaker": "mitarbeiter", "text": "Gehen Sie morgen zum Fundbüro, oder füllen Sie das Formular online aus.", "zh": "您明天去失物招领处问问,或者在网上填一张失物登记表。", "items": ["de.gehen", "de.sie_hoeflich", "de.morgen", "de.zu", "de.fundbuero", "de.oder", "de.ausfuellen", "de.formular", "de.online"] },
-    { "speaker": "wei", "text": "Gut, das mache ich heute. Vielen Dank für Ihre Hilfe!", "zh": "好,我今天就填。非常感谢您的帮助!", "items": ["de.gut", "de.machen", "de.ich", "de.heute", "de.vielen_dank", "de.fuer", "de.ihr_hoeflich", "de.hilfe"] }
+    { "speaker": "wei", "text": "Er ist schwarz. Meine Bankkarte und dreißig Euro sind im Geldbeutel.", "zh": "黑色的。钱包里有我的银行卡和三十欧元。", "items": ["de.er", "de.sein", "de.schwarz", "de.mein", "de.bankkarte", "de.und", "de.dreissig", "de.euro", "de.in", "de.geldbeutel"] },
+    { "speaker": "mitarbeiter", "text": "Heute hat leider noch kein Fahrgast einen Geldbeutel abgegeben.", "zh": "可惜今天还没有乘客交来钱包。", "items": ["de.heute", "de.haben", "de.leider", "de.noch", "de.kein", "de.fahrgast", "de.ein", "de.geldbeutel", "de.abgeben"] },
+    { "speaker": "mitarbeiter", "text": "Gehen Sie morgen zum Fundbüro, oder rufen Sie da an.", "zh": "您明天去失物招领处问问,或者给那儿打个电话。", "items": ["de.gehen", "de.sie_hoeflich", "de.morgen", "de.zu", "de.fundbuero", "de.oder", "de.anrufen", "de.da"] },
+    { "speaker": "wei", "text": "Gut, ich rufe heute noch an. Vielen Dank, Sie sind sehr nett!", "zh": "好,我今天就打。非常感谢,您真好!", "items": ["de.gut", "de.ich", "de.anrufen", "de.heute", "de.noch", "de.vielen_dank", "de.sie_hoeflich", "de.sein", "de.sehr", "de.nett"] }
   ],
   "questions": [
     { "prompt": "王伟的钱包是什么颜色的?", "options": ["蓝色的", "黑色的", "红色的"], "answer": 1, "explainZh": "工作人员问 Welche Farbe hat er?,王伟回答:Er ist schwarz.(黑色的。)" },
-    { "prompt": "钱包里有什么?", "options": ["护照和手机", "只有三十欧元", "银行卡、学生证和三十欧元"], "answer": 2, "explainZh": "王伟说:Meine Bankkarte, mein Studentenausweis und dreißig Euro.(我的银行卡、学生证和三十欧元。)" },
-    { "prompt": "工作人员建议王伟怎么办?", "options": ["明天去失物招领处,或者在网上填登记表", "马上去警察局报案", "在车站的窗口等一等"], "answer": 0, "explainZh": "工作人员说:Gehen Sie morgen zum Fundbüro, oder füllen Sie das Formular online aus.(明天去失物招领处,或者在网上填表。)他们这儿没有人交来钱包。" }
+    { "prompt": "钱包里有什么?", "options": ["护照和手机", "只有三十欧元", "银行卡和三十欧元"], "answer": 2, "explainZh": "王伟说:Meine Bankkarte und dreißig Euro sind im Geldbeutel.(钱包里有我的银行卡和三十欧元。)" },
+    { "prompt": "工作人员建议王伟怎么办?", "options": ["明天去失物招领处,或者给那儿打电话", "马上去警察局报案", "在车站的窗口等一等"], "answer": 0, "explainZh": "工作人员说:Gehen Sie morgen zum Fundbüro, oder rufen Sie da an.(明天去失物招领处,或者给那儿打电话。)今天还没有乘客交来钱包。" }
   ],
   "grammar": [
     { "id": "de.g.u18_weg_verloren", "titleZh": "丢了东西怎么说:Mein Geldbeutel ist weg / Ich habe meinen Geldbeutel verloren",
-      "bodyZh": "说东西丢了,最常用两种说法:① Mein Geldbeutel ist weg!(我的钱包不见了!)—— weg 放在 sein 后面,说“现在没了”;② Ich habe meinen Geldbeutel verloren.(我把钱包丢了。)—— 完成时,说发生了什么。verlieren 以 ver- 开头,过去分词不加 ge-:verloren(不说 geverloren)。找不到也可以说 Ich finde meinen Geldbeutel nicht.。\n注意物主冠词:der Geldbeutel 是阳性,做主语时是 mein Geldbeutel;做 verlieren、sehen、finden 的宾语(第四格)时要加 -en:meinen Geldbeutel,和 einen 的变化一样;对“您”说 Ihren Geldbeutel。阴性、中性不变(meine Bankkarte、mein Handy),下一课系统讲。\n别人会问:Was ist passiert?(出什么事了?passieren 的完成时用 sein)、Wo haben Sie gesessen?、Was war im Geldbeutel?。回答可以很短:Heute Morgen in der U-Bahn. / Schwarz.。“谁也没有”用 niemand,本身就是否定,不再加 nicht:Hier hat niemand einen Geldbeutel abgegeben.",
+      "bodyZh": "说东西丢了,最常用两种说法:① Mein Geldbeutel ist weg!(我的钱包不见了!)—— weg 放在 sein 后面,说“现在没了”;② Ich habe meinen Geldbeutel verloren.(我把钱包丢了。)—— 完成时,说发生了什么。verlieren 以 ver- 开头,过去分词不加 ge-:verloren(不说 geverloren)。找不到也可以说 Ich finde meinen Geldbeutel nicht.。\n注意物主冠词:der Geldbeutel 是阳性,做主语时是 mein Geldbeutel;做 verlieren、sehen、finden 的宾语(第四格)时要加 -en:meinen Geldbeutel,和 einen 的变化一样;对“您”说 Ihren Geldbeutel。阴性、中性不变(meine Bankkarte、mein Handy),下一课系统讲。\n别人会问:Was ist passiert?(出什么事了?passieren 的完成时用 sein)、Wo haben Sie gesessen?(sitzen 的过去分词是 gesessen)、Was war im Geldbeutel?。回答可以很短:Heute Morgen in der U-Bahn. / Hier, am Fenster.。“一个也没有”用 kein:Heute hat noch kein Fahrgast einen Geldbeutel abgegeben.",
       "examples": [
         { "text": "Mein Geldbeutel ist weg!", "zh": "我的钱包不见了!" },
         { "text": "Ich habe meinen Geldbeutel verloren.", "zh": "我把钱包丢了。" },

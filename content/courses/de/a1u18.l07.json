@@ -13,40 +13,40 @@
     { "id": "de.erreichen", "kind": "word", "pos": "verb", "text": "erreichen", "zh": "(打电话)联系上;赶上(车)", "features": { "ipa": "ɛɐ̯ˈʁaɪ̯çn̩" }, "noteZh": "Ich erreiche sie nicht.(我联系不上她。)赶上车也用它:Wir erreichen den Zug.;er- 不可分、不重读,完成时 erreicht。" },
     { "id": "de.gemuetlich", "kind": "word", "pos": "adj", "text": "gemütlich", "zh": "舒适;温馨", "features": { "ipa": "ɡəˈmyːtlɪç" }, "noteZh": "德国人很看重的感觉:暖和、安静、让人放松的地方或时间都叫 gemütlich;Hier ist es gemütlich.。ü 撮圆嘴唇读长音,词尾 -lich 读 [lɪç]。" }
   ],
-  "reviewItems": ["de.dabei", "de.unten", "de.oeffnen", "de.feierabend", "de.frueher", "de.lokfuehrer"],
+  "reviewItems": ["de.dabei", "de.teuer", "de.helfen", "de.warten", "de.zeigen", "de.problem"],
   "lines": [
-    { "speaker": "wei", "text": "Nein! Die Tür ist zugefallen, und ich stehe im Treppenhaus!", "zh": "(星期六晚上,王伟下楼倒完垃圾回来)糟了!门关上了,我被关在楼道里了!", "items": ["de.nein", "de.die_tuer_ist_zugefallen", "de.und", "de.ich", "de.stehen", "de.in", "de.treppenhaus"] },
+    { "speaker": "wei", "text": "Nein! Die Tür ist zugefallen, und ich bin im Treppenhaus!", "zh": "(星期六晚上,王伟下楼倒完垃圾回来)糟了!门关上了,我被关在楼道里了!", "items": ["de.nein", "de.die_tuer_ist_zugefallen", "de.und", "de.ich", "de.sein", "de.in", "de.treppenhaus"] },
     { "speaker": "wei", "text": "Guten Abend, Herr Hoffmann! Können Sie mir helfen?", "zh": "(王伟按了楼下霍夫曼先生的门铃)晚上好,霍夫曼先生!您能帮帮我吗?", "items": ["de.gut", "de.abend", "de.herr", "de.koennen", "de.sie_hoeflich", "de.ich", "de.helfen"] },
     { "speaker": "hoffmann", "text": "Herr Wang! Was ist passiert?", "zh": "王先生!出什么事了?", "items": ["de.herr", "de.was", "de.sein", "de.passieren"] },
     { "speaker": "wei", "text": "Ich habe meinen Schlüssel nicht dabei. Haben Sie vielleicht einen Ersatzschlüssel?", "zh": "我没带钥匙。您这儿有没有我们的备用钥匙?", "items": ["de.ich", "de.haben", "de.mein", "de.schluessel", "de.nicht", "de.dabei", "de.sie_hoeflich", "de.vielleicht", "de.ein", "de.ersatzschluessel"] },
     { "speaker": "hoffmann", "text": "Nein, leider nicht. Und der Schlüsseldienst ist am Abend sehr teuer.", "zh": "没有,真不好意思。晚上叫开锁公司又特别贵。", "items": ["de.nein", "de.leider", "de.nicht", "de.und", "de.schluesseldienst", "de.sein", "de.am", "de.abend", "de.sehr", "de.teuer"] },
     { "speaker": "hoffmann", "text": "Das ist kein Notfall. Rufen Sie Jonas oder Sofia an!", "zh": "这也不算急事。您给约纳斯或者索菲娅打个电话吧!", "items": ["de.sein", "de.kein", "de.notfall", "de.anrufen", "de.sie_hoeflich", "de.oder"] },
     { "speaker": "wei", "text": "Sofia ist unterwegs, ich erreiche sie nicht. Ich rufe Jonas an.", "zh": "索菲娅出去了,电话打不通。我给约纳斯打。", "items": ["de.sein", "de.unterwegs", "de.ich", "de.erreichen", "de.sie_sg", "de.nicht", "de.anrufen"] },
-    { "speaker": "wei", "text": "Jonas, die Tür ist zugefallen! Ich war nur zwei Minuten unten.", "zh": "约纳斯,门关上了!我就下楼了两分钟。", "items": ["de.die_tuer_ist_zugefallen", "de.ich", "de.sein", "de.nur", "de.zwei", "de.minute", "de.unten"] },
-    { "speaker": "jonas", "text": "Hast du heute schon wieder Pech?", "zh": "你今天又倒霉啦?", "items": ["de.haben", "de.du", "de.heute", "de.schon", "de.wieder", "de.pech"] },
-    { "speaker": "jonas", "text": "Ich habe um elf Feierabend. Um halb zwölf öffne ich dir die Tür.", "zh": "我十一点下班,十一点半回去给你开门。", "items": ["de.ich", "de.haben", "de.um", "de.elf", "de.feierabend", "de.halb", "de.zwoelf", "de.oeffnen", "de.du", "de.tuer"] },
-    { "speaker": "hoffmann", "text": "Dann kommen Sie herein, Herr Wang. Hier ist es warm und gemütlich.", "zh": "那您进来吧,王先生。屋里暖和,也舒服。", "items": ["de.dann", "de.ich_komme_aus", "de.sie_hoeflich", "de.herein", "de.herr", "de.hier", "de.sein", "de.es", "de.warm", "de.und", "de.gemuetlich"] },
-    { "speaker": "wei", "text": "Danke! Sie waren früher Lokführer, oder? Haben Sie Fotos von Ihren Zügen?", "zh": "谢谢!您以前是火车司机,对吧?您有那些火车的照片吗?", "items": ["de.danke", "de.sie_hoeflich", "de.sein", "de.frueher", "de.lokfuehrer", "de.oder", "de.haben", "de.foto", "de.von", "de.ihr_hoeflich", "de.zug"] }
+    { "speaker": "wei", "text": "Jonas, die Tür ist zugefallen! Ich war nur zwei Minuten weg.", "zh": "约纳斯,门关上了!我就出去了两分钟。", "items": ["de.die_tuer_ist_zugefallen", "de.ich", "de.sein", "de.nur", "de.zwei", "de.minute", "de.weg"] },
+    { "speaker": "jonas", "text": "Schon wieder ein Problem? Heute ist nicht dein Tag, Wei!", "zh": "又出事了?王伟,你今天可真是不顺!", "items": ["de.schon", "de.wieder", "de.ein", "de.problem", "de.heute", "de.sein", "de.nicht", "de.dein", "de.tag"] },
+    { "speaker": "jonas", "text": "Ich arbeite bis elf. Um halb zwölf bin ich zu Hause.", "zh": "我上班到十一点,十一点半到家。", "items": ["de.ich", "de.arbeiten", "de.bis", "de.elf", "de.um", "de.halb", "de.zwoelf", "de.sein", "de.zu_hause"] },
+    { "speaker": "hoffmann", "text": "Dann warten Sie bei mir, Herr Wang. Hier ist es warm und gemütlich.", "zh": "那您就在我这儿等吧,王先生。屋里暖和,也舒服。", "items": ["de.dann", "de.warten", "de.sie_hoeflich", "de.bei", "de.ich", "de.herr", "de.hier", "de.sein", "de.es", "de.warm", "de.und", "de.gemuetlich"] },
+    { "speaker": "wei", "text": "Sehr gern! Können Sie mir Ihre Fotos von den alten Zügen zeigen?", "zh": "太好了!您能给我看看那些老火车的照片吗?", "items": ["de.sehr", "de.gern", "de.koennen", "de.sie_hoeflich", "de.ich", "de.ihr_hoeflich", "de.foto", "de.von", "de.alt", "de.zug", "de.zeigen"] }
   ],
   "questions": [
     { "prompt": "王伟为什么进不了家门?", "options": ["钥匙丢在地铁上了", "约纳斯换了锁", "门关上了,钥匙在屋里"], "answer": 2, "explainZh": "王伟说:Die Tür ist zugefallen.(门关上了。)Ich habe meinen Schlüssel nicht dabei.(我没带钥匙。)" },
     { "prompt": "霍夫曼先生为什么建议先别叫开锁公司?", "options": ["开锁公司离得太远", "晚上开锁很贵,而且不算急事", "他自己会开锁"], "answer": 1, "explainZh": "Der Schlüsseldienst ist am Abend sehr teuer. Das ist kein Notfall.(晚上开锁公司很贵,这也不算急事。)" },
-    { "prompt": "约纳斯几点能回来开门?", "options": ["23 点", "23 点半", "22 点半"], "answer": 1, "explainZh": "约纳斯说:Ich habe um elf Feierabend. Um halb zwölf öffne ich dir die Tür.——halb zwölf 是十一点半,也就是 23:30。" }
+    { "prompt": "约纳斯几点到家?", "options": ["23 点", "23 点半", "22 点半"], "answer": 1, "explainZh": "约纳斯说:Ich arbeite bis elf. Um halb zwölf bin ich zu Hause.——halb zwölf 是十一点半,也就是 23:30。" }
   ],
   "grammar": [
     { "id": "de.g.u18_hilfe_nachbar", "titleZh": "向邻居求助:Können Sie mir helfen? / Haben Sie vielleicht …?",
-      "bodyZh": "请人帮忙先打招呼,再问 Können Sie mir helfen?(mir 先当固定说法记)。问别人有没有某样东西:Haben Sie vielleicht einen Ersatzschlüssel?——加上 vielleicht(也许),问题就不那么直接,更客气。拒绝也要客气:Nein, leider nicht.(没有,真不好意思。)\n称呼别搞乱:对邻居、长辈用 Sie(霍夫曼先生和王伟互相用 Sie,叫他 Herr Wang):Rufen Sie Jonas an!;对室友用 du:Jonas, wann kommst du nach Hause?。\n生活常识:德国很多门在外面没有把手,门一关上,没钥匙就进不去(Die Tür ist zugefallen.)。晚上和周末叫开锁公司(der Schlüsseldienst)很贵,可以先问室友、邻居有没有备用钥匙(der Ersatzschlüssel)。",
+      "bodyZh": "请人帮忙先打招呼,再问 Können Sie mir helfen?(mir 先当固定说法记)。问别人有没有某样东西:Haben Sie vielleicht einen Ersatzschlüssel?——加上 vielleicht(也许),问题就不那么直接,更客气。拒绝也要客气:Nein, leider nicht.(没有,真不好意思。)\n称呼别搞乱:对邻居、长辈用 Sie(霍夫曼先生和王伟互相用 Sie,叫他 Herr Wang):Rufen Sie Jonas an!;对室友用 du:Heute ist nicht dein Tag, Wei!。\n生活常识:德国很多门在外面没有把手,门一关上,没钥匙就进不去(Die Tür ist zugefallen.)。晚上和周末叫开锁公司(der Schlüsseldienst)很贵,可以先问室友、邻居有没有备用钥匙(der Ersatzschlüssel)。",
       "examples": [
         { "text": "Können Sie mir helfen?", "zh": "您能帮帮我吗?" },
         { "text": "Haben Sie vielleicht einen Ersatzschlüssel?", "zh": "您这儿有没有备用钥匙?" },
         { "text": "Nein, leider nicht.", "zh": "没有,真不好意思。" }
       ] },
-    { "id": "de.g.u18_dabeihaben", "titleZh": "dabeihaben:Ich habe meinen Schlüssel nicht dabei",
-      "bodyZh": "“身上带着”说 dabeihaben:haben 变位放第二位,dabei 放句末,中间的宾语用第四格:Ich habe meinen Schlüssel nicht dabei.(我没带钥匙。)/ Haben Sie Ihr Handy dabei?(您带手机了吗?)nicht 放在 dabei 前面。\n物主冠词第四格复习:der Schlüssel → meinen Schlüssel(阳性加 -en),das Handy → Ihr Handy(中性不变)。\n另外 früher(以前)常和 war / hatte 一起说过去的情况:Sie waren früher Lokführer, oder?(您以前是火车司机,对吧?)句末加 oder? 是请对方确认,像中文的“对吧?”。",
+    { "id": "de.g.u18_dabeihaben", "titleZh": "dabeihaben:Ich habe meinen Schlüssel nicht dabei;kein + 名词",
+      "bodyZh": "“身上带着”说 dabeihaben:haben 变位放第二位,dabei 放句末,中间的宾语用第四格:Ich habe meinen Schlüssel nicht dabei.(我没带钥匙。)nicht 放在 dabei 前面。\n物主冠词第四格复习:der Schlüssel → meinen Schlüssel(阳性加 -en),die Fotos → Ihre Fotos(复数 -e)。\n否定名词用 kein:Das ist kein Notfall.(这不是急事。)否定整句或形容词用 nicht:Heute ist nicht dein Tag.(这句是固定说法,意思是“你今天真不顺”。)",
       "examples": [
         { "text": "Ich habe meinen Schlüssel nicht dabei.", "zh": "我没带钥匙。" },
-        { "text": "Haben Sie Ihr Handy dabei?", "zh": "您带手机了吗?" },
-        { "text": "Sie waren früher Lokführer, oder?", "zh": "您以前是火车司机,对吧?" }
+        { "text": "Das ist kein Notfall.", "zh": "这不是急事。" },
+        { "text": "Heute ist nicht dein Tag!", "zh": "你今天真不顺!" }
       ] }
   ],
   "review": "draft"
