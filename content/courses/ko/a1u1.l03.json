@@ -1,0 +1,47 @@
+{
+  "id": "ko.a1u1.l03", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 谚文:元音和辅音", "order": 101030,
+  "titleZh": "네 还是 아니요?Y 系元音和 ㅐ ㅔ", "goalZh": "会读、会写 ㅑ ㅕ ㅛ ㅠ 和 ㅐ ㅔ ㅒ ㅖ,会用 네 / 아니요 回答",
+  "canDoZh": "能用 네(是)和 아니요(不是)回答别人的确认问题",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ko.jamo_ya", "kind": "char", "pos": "char", "text": "ㅑ", "zh": "元音 ya,像“呀”", "features": { "roman": "ya" }, "noteZh": "ㅏ 的短横变成两条 = 前面多一个 y 音:아 → 야。" },
+    { "id": "ko.jamo_yeo", "kind": "char", "pos": "char", "text": "ㅕ", "zh": "元音 yeo,张嘴不圆唇的“哟”", "features": { "roman": "yeo" }, "noteZh": "= y + ㅓ,嘴唇不圆;和圆唇的 ㅛ 对比:여 / 요。" },
+    { "id": "ko.jamo_yo", "kind": "char", "pos": "char", "text": "ㅛ", "zh": "元音 yo,圆唇的“哟”", "features": { "roman": "yo" }, "noteZh": "= y + ㅗ。해요体的句子都以 요 结尾,如本单元复习课的 주세요、여기요。" },
+    { "id": "ko.jamo_yu", "kind": "char", "pos": "char", "text": "ㅠ", "zh": "元音 yu,像“优”", "features": { "roman": "yu" }, "noteZh": "= y + ㅜ,两个短竖朝下:우유(牛奶)。" },
+    { "id": "ko.jamo_ae", "kind": "char", "pos": "char", "text": "ㅐ", "zh": "元音 ae,像“诶”(嘴稍大)", "features": { "roman": "ae" }, "noteZh": "现代首尔话里 ㅐ 和 ㅔ 几乎读成一样,都像“诶”,只能靠记拼写:개(狗)/ 게(螃蟹)。" },
+    { "id": "ko.jamo_e", "kind": "char", "pos": "char", "text": "ㅔ", "zh": "元音 e,像“诶”", "features": { "roman": "e" }, "noteZh": "写法:ㅓ 右边加一竖;和 ㅐ(ㅏ 右边加一竖)区分写法。" },
+    { "id": "ko.jamo_yae", "kind": "char", "pos": "char", "text": "ㅒ", "zh": "元音 yae,像“耶”", "features": { "roman": "yae" }, "noteZh": "很少见,几乎只出现在 얘(这孩子)这类词里;读音和 ㅖ 基本一样。" },
+    { "id": "ko.jamo_ye", "kind": "char", "pos": "char", "text": "ㅖ", "zh": "元音 ye,像“耶”", "features": { "roman": "ye" }, "noteZh": "예(是,比 네 正式)里就是这个音;在 ㅇ 以外的辅音后常读成 ㅔ:시계 [시게](钟表)。" },
+    { "id": "ko.ne", "kind": "word", "pos": "interj", "text": "네", "zh": "是;好的;嗯(应答)", "features": { "roman": "ne" }, "noteZh": "最常用的应答:回答“是”、答应、被点名、接电话都说 네;升调说 네? 是“啊?什么?”。读成 ne,别读成轻声的“呢”。" },
+    { "id": "ko.aniyo", "kind": "word", "pos": "interj", "text": "아니요", "zh": "不;不是", "alt": ["아뇨"], "features": { "roman": "aniyo" }, "noteZh": "口语里常缩成 아뇨 [anyo]。拒绝别人的好意时直接说 아니요 有点生硬,后面最好加一句理由或 괜찮아요(第 2 单元)。" }
+  ],
+  "reviewItems": ["ko.jamo_o", "ko.jamo_n", "ko.jeo"],
+  "lines": [
+    { "speaker": "staff", "text": "이유나?", "zh": "(宿舍办公室,工作人员看着名单,抬头问陈静)李有娜?", "roman": "Iyuna?", "items": [] },
+    { "speaker": "jing", "text": "아니요.", "zh": "不是。", "roman": "Aniyo.", "items": ["ko.aniyo"] },
+    { "speaker": "staff", "text": "천징?", "zh": "(换了一张名单)陈静?", "roman": "Cheonjing?", "items": [] },
+    { "speaker": "jing", "text": "네?", "zh": "(工作人员说得太快)啊?", "roman": "Ne?", "items": ["ko.ne"] },
+    { "speaker": "staff", "text": "천징?", "zh": "陈静?", "roman": "Cheonjing?", "items": [] },
+    { "speaker": "jing", "text": "네, 저예요.", "zh": "是,是我。", "roman": "Ne, jeoyeyo.", "items": ["ko.ne", "ko.jeo"] },
+    { "speaker": "narrator", "text": "야 여 요 유", "zh": "Y 系元音:ya、yeo、yo、yu", "roman": "ya yeo yo yu", "items": ["ko.jamo_ng", "ko.jamo_ya", "ko.jamo_yeo", "ko.jamo_yo", "ko.jamo_yu"] },
+    { "speaker": "narrator", "text": "나 냐 너 녀 노 뇨 누 뉴", "zh": "ㄴ 配元音:多一短笔,前面就多一个 y 音", "roman": "na nya neo nyeo no nyo nu nyu", "items": ["ko.jamo_n", "ko.jamo_a", "ko.jamo_ya", "ko.jamo_eo", "ko.jamo_yeo", "ko.jamo_o", "ko.jamo_yo", "ko.jamo_u", "ko.jamo_yu"] },
+    { "speaker": "narrator", "text": "애 에, 얘 예", "zh": "ae / e、yae / ye:现在的读音几乎一样,只能记拼写", "roman": "ae e, yae ye", "items": ["ko.jamo_ng", "ko.jamo_ae", "ko.jamo_e", "ko.jamo_yae", "ko.jamo_ye"] },
+    { "speaker": "jing", "text": "야 여 요 유, 애 에 얘 예", "zh": "(回到房间,陈静把新学的元音念了一遍)ya、yeo、yo、yu,ae、e、yae、ye", "roman": "ya yeo yo yu, ae e yae ye", "items": ["ko.jamo_ng", "ko.jamo_ya", "ko.jamo_yeo", "ko.jamo_yo", "ko.jamo_yu", "ko.jamo_ae", "ko.jamo_e", "ko.jamo_yae", "ko.jamo_ye"] }
+  ],
+  "questions": [
+    { "prompt": "工作人员第一次问“이유나?”,陈静怎么回答?", "options": ["아니요.", "네.", "네, 저예요."], "answer": 0, "explainZh": "第 1、2 句:陈静不是李有娜,所以说 아니요(不是)。" },
+    { "prompt": "第 4 句陈静用升调说“네?”,是什么意思?", "options": ["是的,是我", "不是我", "啊?您说什么?"], "answer": 2, "explainZh": "工作人员说得快,陈静没听清。네 用升调说是“啊?什么?”,对方听了会再说一遍;第 6 句“네, 저예요.”才是“是,是我”。" },
+    { "prompt": "第 9 句里的 애 和 에,现在的读音怎么样?", "options": ["애 圆唇,에 不圆唇", "几乎一样,只能靠记拼写", "애 读 ya,에 读 ye"], "answer": 1, "explainZh": "现代首尔话里 ㅐ 和 ㅔ 都读得像“诶”,ㅒ 和 ㅖ 都像“耶”,写的时候要记拼写:네(是)是 ㅔ。" },
+    { "prompt": "ㅗ 多加一短笔变成 ㅛ,读音有什么变化?", "options": ["变成送气音", "变成长音", "前面多一个 y 音:o → yo"], "answer": 2, "explainZh": "第 7、8 句:ㅏ ㅓ ㅗ ㅜ 多一短笔,前面就多一个 y 音:노 → 뇨、누 → 뉴。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.y_vowels", "titleZh": "Y 系元音:多一笔,多一个 y;ㅐ 和 ㅔ",
+      "bodyZh": "基本元音再加一短笔,前面就多一个 y 音:ㅏ → ㅑ(ya)、ㅓ → ㅕ(yeo)、ㅗ → ㅛ(yo)、ㅜ → ㅠ(yu)。竖元音是短横变成两条,横元音是短竖变成两条。这一课最容易混的是 ㅕ 和 ㅛ:ㅕ = y + ㅓ,嘴唇不圆;ㅛ = y + ㅗ,嘴唇收圆,对比 여 / 요。另外四个元音:ㅐ(ㅏ 右边加一竖)和 ㅔ(ㅓ 右边加一竖)在现代首尔话里读音基本一样,都像“诶”;ㅒ 和 ㅖ 也基本一样,都像“耶”。听不出区别很正常,韩国人自己也常靠拼写区分,所以写的时候要记住:네(是)是 ㅔ,不是 ㅐ。",
+      "examples": [ { "text": "야 여 요 유", "zh": "ya yeo yo yu:多一笔,多一个 y" }, { "text": "여 / 요", "zh": "yeo / yo:不圆唇 / 圆唇" }, { "text": "애 / 에", "zh": "ae / e:读音几乎一样,只能记拼写" }, { "text": "네", "zh": "是;好的(写 ㅔ)" } ] },
+    { "id": "ko.g.ne_aniyo", "titleZh": "네 和 아니요:回答“是不是”",
+      "bodyZh": "别人问“是……吗?”,回答“是”说 네,“不是”说 아니요(口语里常缩成 아뇨)。네 用得比汉语的“是”广:被点名时答“到”、答应别人“好的”、听别人说话时附和“嗯嗯”,都说 네。注意语调:네 降调是“是的”;네? 升调是“啊?什么?”,没听清时这样说,对方一般会再说一遍。确认是不是自己时,可以说 네, 저예요(是,是我):저 是“我”,예요 是“是……”的礼貌说法,第 3 单元细讲,这里先整句记。",
+      "examples": [ { "text": "이유나? — 아니요.", "zh": "李有娜?——不是。" }, { "text": "천징? — 네, 저예요.", "zh": "陈静?——是,是我。" }, { "text": "네?", "zh": "(升调)啊?您说什么?" } ] }
+  ],
+  "review": "draft"
+}

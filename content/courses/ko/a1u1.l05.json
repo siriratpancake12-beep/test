@@ -1,0 +1,45 @@
+{
+  "id": "ko.a1u1.l05", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 谚文:元音和辅音", "order": 101050,
+  "titleZh": "아빠 和 오빠:紧音", "goalZh": "会读、会写紧音 ㄲ ㄸ ㅃ ㅆ ㅉ,分清松音、送气音、紧音三组对立",
+  "canDoZh": "能用“名字 + 씨”礼貌地称呼别人,听懂 아빠(爸爸)、오빠(哥哥)",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "ko.jamo_kk", "kind": "char", "pos": "char", "text": "ㄲ", "zh": "紧音 kk:喉咙绷紧、不送气", "features": { "roman": "kk" }, "noteZh": "两个 ㄱ 并排写;像把“嘎”说得又短又硬:까。" },
+    { "id": "ko.jamo_tt", "kind": "char", "pos": "char", "text": "ㄸ", "zh": "紧音 tt", "features": { "roman": "tt" }, "noteZh": "两个 ㄷ 并排;像又短又硬的“大”:따。" },
+    { "id": "ko.jamo_pp", "kind": "char", "pos": "char", "text": "ㅃ", "zh": "紧音 pp", "features": { "roman": "pp" }, "noteZh": "两个 ㅂ 并排;像又短又硬的“爸”:빠。" },
+    { "id": "ko.jamo_ss", "kind": "char", "pos": "char", "text": "ㅆ", "zh": "紧音 ss", "features": { "roman": "ss" }, "noteZh": "两个 ㅅ 并排;舌尖用力、不送气:사 / 싸。씨 里就是这个音。" },
+    { "id": "ko.jamo_jj", "kind": "char", "pos": "char", "text": "ㅉ", "zh": "紧音 jj", "features": { "roman": "jj" }, "noteZh": "两个 ㅈ 并排;像短而硬的“砸”:짜(咸,第 4 单元)。" },
+    { "id": "ko.appa", "kind": "word", "pos": "noun", "text": "아빠", "zh": "爸爸(口语)", "features": { "roman": "appa" }, "noteZh": "亲昵的口语叫法,小孩和成年人都常用;正式说 아버지(第 3 单元)。빠 要绷紧,别读成送气的 파。" },
+    { "id": "ko.oppa", "kind": "word", "pos": "noun", "text": "오빠", "zh": "哥哥(女生叫)", "features": { "roman": "oppa" }, "noteZh": "女生称呼哥哥或亲近的年长男性;男生叫哥哥用 형(第 3 单元)。韩剧里的“欧巴”就是它。" },
+    { "id": "ko.ssi", "kind": "word", "pos": "noun", "text": "씨", "zh": "……先生/女士(接在名字后)", "features": { "roman": "ssi" }, "noteZh": "接在全名或名字后表示礼貌:천징 씨、수아 씨;不能用在自己名字后,也不要只接在姓后(김 씨 有点不客气)。对老师说 선생님(第 2 单元)。" }
+  ],
+  "reviewItems": ["ko.jamo_s", "ko.jamo_ch", "ko.uri"],
+  "lines": [
+    { "speaker": "sua", "text": "천징 씨?", "zh": "(晚上,宿舍门开了,一个女生拖着行李箱进来)你是陈静吧?", "roman": "Cheonjing ssi?", "items": ["ko.ssi"] },
+    { "speaker": "jing", "text": "네, 천징이에요. 수아 씨?", "zh": "对,我是陈静。你是秀雅?", "roman": "Ne, cheonjingieyo. Sua ssi?", "items": ["ko.ne", "ko.ssi"] },
+    { "speaker": "sua", "text": "네, 김수아예요.", "zh": "对,我叫金秀雅。", "roman": "Ne, gimsuayeyo.", "items": ["ko.ne"] },
+    { "speaker": "sua", "text": "우리 아빠예요.", "zh": "(秀雅打开手机相册)这是我爸爸。", "roman": "Uri appayeyo.", "items": ["ko.uri", "ko.appa"] },
+    { "speaker": "sua", "text": "우리 오빠예요.", "zh": "(又翻到一张,是一个穿军装的年轻人)这是我哥哥。", "roman": "Uri oppayeyo.", "items": ["ko.uri", "ko.oppa"] },
+    { "speaker": "jing", "text": "아빠예요?", "zh": "(秀雅说得快,陈静没听清)是爸爸吗?", "roman": "Appayeyo?", "items": ["ko.appa"] },
+    { "speaker": "sua", "text": "아니요, 오빠예요, 오빠!", "zh": "不是,是哥哥,哥哥!", "roman": "Aniyo, oppayeyo, oppa!", "items": ["ko.aniyo", "ko.oppa"] },
+    { "speaker": "narrator", "text": "가 카 까", "zh": "松音 / 送气音 / 紧音:ga / ka / kka", "roman": "ga ka kka", "items": ["ko.jamo_g", "ko.jamo_k", "ko.jamo_kk", "ko.jamo_a"] },
+    { "speaker": "narrator", "text": "다 타 따, 바 파 빠", "zh": "da / ta / tta,ba / pa / ppa", "roman": "da ta tta, ba pa ppa", "items": ["ko.jamo_d", "ko.jamo_t", "ko.jamo_tt", "ko.jamo_b", "ko.jamo_p", "ko.jamo_pp", "ko.jamo_a"] },
+    { "speaker": "narrator", "text": "자 차 짜, 사 싸", "zh": "ja / cha / jja,sa / ssa(ㅅ 只有松、紧两种)", "roman": "ja cha jja, sa ssa", "items": ["ko.jamo_j", "ko.jamo_ch", "ko.jamo_jj", "ko.jamo_s", "ko.jamo_ss", "ko.jamo_a"] }
+  ],
+  "questions": [
+    { "prompt": "第 8 句“가 카 까”里,哪一个是紧音?", "options": ["가", "카", "까"], "answer": 2, "explainZh": "ㄲ 是紧音:喉咙绷紧、不送气,声音短而硬;카 的 ㅋ 是送气音(有一股气),가 的 ㄱ 是松音(轻、气流弱)。" },
+    { "prompt": "秀雅给陈静看的第二张照片上是谁?", "options": ["秀雅的爸爸", "秀雅的哥哥", "秀雅自己"], "answer": 1, "explainZh": "第 5–7 句:秀雅说 우리 오빠예요(这是我哥哥)。陈静没听清,问 아빠예요?(是爸爸吗?),秀雅说 아니요, 오빠예요。" },
+    { "prompt": "陈静怎么称呼刚见面的秀雅?", "options": ["수아 씨", "김 씨", "오빠"], "answer": 0, "explainZh": "第 2 句:名字 + 씨 表示礼貌。只接在姓后面(김 씨)有点不客气;오빠 是女生叫哥哥。" },
+    { "prompt": "下面哪一组是按“松音、送气音、紧音”的顺序排的?", "options": ["바 빠 파", "바 파 빠", "파 바 빠"], "answer": 1, "explainZh": "第 9 句:바(松音 ㅂ)、파(送气音 ㅍ)、빠(紧音 ㅃ)。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.tense", "titleZh": "三组对立:松音、送气音、紧音",
+      "bodyZh": "ㄲ ㄸ ㅃ ㅆ ㅉ 叫“紧音”,写法是两个松音并排:ㄱ → ㄲ、ㄷ → ㄸ、ㅂ → ㅃ、ㅅ → ㅆ、ㅈ → ㅉ。到这一课,同一个发音位置上有三种音:가(松音:轻,气流弱)、카(送气音:气流强)、까(紧音:喉咙绷紧、不送气,声音短而硬,音调偏高)。汉语里没有紧音,可以这样找感觉:先憋一下气、喉咙用力,再突然发出“嘎”,不让气流冲出来。ㅅ 只有两种:사(松)/ 싸(紧),没有送气的。听辨时先听有没有一股气(有气是送气音),再听紧不紧(短而硬是紧音)。称呼里就有紧音:아빠、오빠、씨。아빠 和 오빠 只差第一个元音(ㅏ / ㅗ),说快了容易听混,第一个字的口型要做到位。",
+      "examples": [ { "text": "가 카 까", "zh": "ga / ka / kka" }, { "text": "다 타 따", "zh": "da / ta / tta" }, { "text": "바 파 빠", "zh": "ba / pa / ppa" }, { "text": "사 싸", "zh": "sa / ssa:只有松、紧两种" } ] },
+    { "id": "ko.g.ssi", "titleZh": "称呼别人:名字 + 씨",
+      "bodyZh": "称呼同辈或不太熟的人,韩语常在名字后面加 씨,表示礼貌,比汉语直接叫名字客气:천징 씨、수아 씨。要点:① 接全名或名字都可以(김수아 씨、수아 씨),只接在姓后面(김 씨)有点不客气,不要这样叫人;② 不能用在自己身上,自我介绍不说 ✗ 천징 씨예요,直接说 천징이에요(이에요 / 예요 是“是……”,第 3 单元细讲);③ 对老师、长辈不用 씨,叫老师用 선생님(第 2 单元)。介绍自己家的人,韩国人习惯说 우리(我们的):우리 아빠(我爸爸)、우리 오빠(我哥哥)。",
+      "examples": [ { "text": "천징 씨?", "zh": "你是陈静吧?" }, { "text": "네, 천징이에요.", "zh": "对,我是陈静。" }, { "text": "우리 오빠예요.", "zh": "这是我哥哥。" } ] }
+  ],
+  "review": "draft"
+}

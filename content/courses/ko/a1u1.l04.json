@@ -1,0 +1,45 @@
+{
+  "id": "ko.a1u1.l04", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 谚文:元音和辅音", "order": 101040,
+  "titleZh": "커피 还是 차?送气音", "goalZh": "会读、会写送气音 ㅊ ㅋ ㅌ ㅍ 和 ㅎ,听得出松音和送气音的区别",
+  "canDoZh": "能看懂菜单上的 커피(咖啡)、차(茶),在便利店认出 휴지(纸巾)",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "ko.jamo_ch", "kind": "char", "pos": "char", "text": "ㅊ", "zh": "送气音 ch,像“七”的声母", "features": { "roman": "ch" }, "noteZh": "= ㅈ 上加一短笔,用力送气:자 / 차。" },
+    { "id": "ko.jamo_k", "kind": "char", "pos": "char", "text": "ㅋ", "zh": "送气音 k,像“科”的声母", "features": { "roman": "k" }, "noteZh": "= ㄱ 中间加一横,强送气:기 / 키。" },
+    { "id": "ko.jamo_t", "kind": "char", "pos": "char", "text": "ㅌ", "zh": "送气音 t,像“特”的声母", "features": { "roman": "t" }, "noteZh": "= ㄷ 中间加一横,强送气:다 / 타。" },
+    { "id": "ko.jamo_p", "kind": "char", "pos": "char", "text": "ㅍ", "zh": "送气音 p,像“坡”的声母", "features": { "roman": "p" }, "noteZh": "上下两横、中间两短竖,样子和 ㅂ 不像,要单独记;强送气:바 / 파。" },
+    { "id": "ko.jamo_h", "kind": "char", "pos": "char", "text": "ㅎ", "zh": "辅音 h,像轻轻的“喝”", "features": { "roman": "h" }, "noteZh": "比汉语的 h 轻,喉咙里没有摩擦;在两个元音之间常弱化(第 2 单元讲)。" },
+    { "id": "ko.keopi", "kind": "word", "pos": "noun", "text": "커피", "zh": "咖啡", "features": { "roman": "keopi" }, "noteZh": "外来词 coffee;第一个字是 ㅓ 不是 ㅗ,不读“扣皮”。ㅋ、ㅍ 都是送气音。" },
+    { "id": "ko.cha", "kind": "word", "pos": "noun", "text": "차", "zh": "茶;汽车", "features": { "roman": "cha" }, "noteZh": "汉字词:茶、车 都读 차,看上下文分辨。送气要足,不要读成 자。" },
+    { "id": "ko.hyuji", "kind": "word", "pos": "noun", "text": "휴지", "zh": "纸巾;卫生纸", "features": { "roman": "hyuji" }, "noteZh": "汉字词 休纸。在便利店、餐厅要纸巾就说 휴지(本单元复习课学 주세요)。지 夹在元音中间,读得轻,不要读成送气的“七”。" }
+  ],
+  "reviewItems": ["ko.jamo_g", "ko.jamo_d", "ko.jamo_j", "ko.ne"],
+  "lines": [
+    { "speaker": "narrator", "text": "커피, 차", "zh": "(宿舍楼下有一家小咖啡店,门口的菜单板上写着)咖啡,茶", "roman": "keopi, cha", "items": ["ko.keopi", "ko.cha"] },
+    { "speaker": "jing", "text": "커피, 차", "zh": "(陈静站在店门口,一个字一个字地念)咖啡,茶", "roman": "keopi, cha", "items": ["ko.keopi", "ko.cha"] },
+    { "speaker": "narrator", "text": "가 카, 다 타", "zh": "松音 / 送气音:ga / ka,da / ta", "roman": "ga ka, da ta", "items": ["ko.jamo_g", "ko.jamo_k", "ko.jamo_d", "ko.jamo_t", "ko.jamo_a"] },
+    { "speaker": "narrator", "text": "바 파, 자 차", "zh": "ba / pa,ja / cha(차 就是“茶”)", "roman": "ba pa, ja cha", "items": ["ko.jamo_b", "ko.jamo_p", "ko.jamo_j", "ko.jamo_ch", "ko.jamo_a"] },
+    { "speaker": "jing", "text": "가 카, 다 타, 바 파, 자 차", "zh": "(陈静把手放在嘴前,念送气音时能感到一股气)ga ka,da ta,ba pa,ja cha", "roman": "ga ka, da ta, ba pa, ja cha", "items": ["ko.jamo_g", "ko.jamo_k", "ko.jamo_d", "ko.jamo_t", "ko.jamo_b", "ko.jamo_p", "ko.jamo_j", "ko.jamo_ch", "ko.jamo_a"] },
+    { "speaker": "narrator", "text": "하 허 호 후 흐 히", "zh": "ㅎ 这一行:ha、heo、ho、hu、heu、hi(比汉语的 h 轻)", "roman": "ha heo ho hu heu hi", "items": ["ko.jamo_h", "ko.jamo_a", "ko.jamo_eo", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu", "ko.jamo_i"] },
+    { "speaker": "narrator", "text": "휴지", "zh": "(旁边便利店的货架上贴着)纸巾", "roman": "hyuji", "items": ["ko.hyuji"] },
+    { "speaker": "jing", "text": "휴지예요?", "zh": "(陈静拿起一包,问店员)这是纸巾吗?", "roman": "Hyujiyeyo?", "items": ["ko.hyuji"] },
+    { "speaker": "clerk", "text": "네, 휴지예요.", "zh": "对,是纸巾。", "roman": "Ne, hyujiyeyo.", "items": ["ko.ne", "ko.hyuji"] },
+    { "speaker": "jing", "text": "커피, 차, 휴지", "zh": "(回宿舍的路上,陈静念着今天认识的三个词)咖啡、茶、纸巾", "roman": "keopi, cha, hyuji", "items": ["ko.keopi", "ko.cha", "ko.hyuji"] }
+  ],
+  "questions": [
+    { "prompt": "第 3、4 句里,哪一组全是送气音?", "options": ["가 다 바 자", "카 타 파 차", "가 타 바 차"], "answer": 1, "explainZh": "ㅋ ㅌ ㅍ ㅊ 是送气音,发音时气流很强;ㄱ ㄷ ㅂ ㅈ 是松音,气流弱。第 5 句陈静把手放在嘴前,念 카 타 파 차 时能感到一股气。" },
+    { "prompt": "咖啡店菜单板上的 차 是什么意思?", "options": ["茶", "纸巾", "牛奶"], "answer": 0, "explainZh": "第 1、2 句:菜单上写着 커피(咖啡)和 차(茶)。차 也有“汽车”的意思,要看场合。" },
+    { "prompt": "陈静在便利店问了店员什么?", "options": ["要不要袋子", "这是不是纸巾", "有没有咖啡"], "answer": 1, "explainZh": "第 8 句:휴지예요?(这是纸巾吗?)店员回答 네, 휴지예요.(对,是纸巾。)" },
+    { "prompt": "下面哪一对是“松音 / 送气音”?", "options": ["다 / 나", "타 / 파", "다 / 타"], "answer": 2, "explainZh": "第 3 句:다(松音 ㄷ)/ 타(送气音 ㅌ)。다 / 나 是两个不同的辅音;타 / 파 都是送气音。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.aspirated", "titleZh": "松音和送气音:가 / 카、다 / 타、바 / 파、자 / 차",
+      "bodyZh": "ㅋ ㅌ ㅍ ㅊ 叫“送气音”,写法大多是松音加一笔:ㄱ → ㅋ、ㄷ → ㅌ、ㅈ → ㅊ(ㅍ 和 ㅂ 长得不像,要单独记)。送气音发音时气流很强,手放在嘴前能明显感到一股气;松音 ㄱ ㄷ ㅂ ㅈ 气流弱、读得轻。汉语的 k、t、p、q 本来就送气,所以送气音对中国学习者不难;难的是反过来——词首的松音容易读得太用力,把 가 读成 카、자 读成 차。一个窍门:松音开头的字音调偏低,轻轻带出来;送气音开头的字音调偏高,气流冲出来。点单时这一点很有用:차(茶)送气要足,不然听起来像 자。",
+      "examples": [ { "text": "가 / 카", "zh": "ga / ka" }, { "text": "다 / 타", "zh": "da / ta" }, { "text": "자 / 차", "zh": "ja / cha:차 是“茶”" }, { "text": "커피", "zh": "咖啡:ㅋ、ㅍ 都是送气音" } ] },
+    { "id": "ko.g.h_sound", "titleZh": "ㅎ:比汉语的 h 轻",
+      "bodyZh": "ㅎ 像汉语的 h,但更轻:汉语的“喝”喉咙里有摩擦,韩语的 ㅎ 只是轻轻呼出一口气。ㅎ 接 ㅠ 时像“休”的声母:휴지(纸巾,汉字词“休纸”)。顺便注意 휴지 的 지:ㅈ 夹在两个元音中间,读得轻、带一点浊音,不要读成送气的“七”。ㅎ 在两个元音之间还会变得很弱甚至听不见,这条规则第 2 单元细讲。",
+      "examples": [ { "text": "하 허 호 후 흐 히", "zh": "ㅎ 这一行:轻轻呼气" }, { "text": "휴지", "zh": "纸巾:휴 像“休”,지 读得轻" } ] }
+  ],
+  "review": "draft"
+}

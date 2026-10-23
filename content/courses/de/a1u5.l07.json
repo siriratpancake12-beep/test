@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u5.l07", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105070,
+  "titleZh": "秋冬的节日", "goalZh": "会说德国和中国秋冬节日的日期,会问别人过不过某个节日", "canDoZh": "能说出德国和中国秋冬的主要节日在几月几号,问朋友过不过这些节日",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.weihnachten", "kind": "word", "pos": "propn", "text": "Weihnachten", "zh": "圣诞节", "features": { "ipa": "ˈvaɪ̯naxtn̩" }, "noteZh": "节日名称一般不加冠词:Weihnachten ist im Dezember.;最重要的是 12 月 24 日晚上(平安夜),德国人一般和家人一起过。w 读 [v],ei 读 [aɪ]。" },
+    { "id": "de.silvester", "kind": "word", "pos": "propn", "text": "Silvester", "zh": "跨年夜(12 月 31 日)", "features": { "ipa": "zɪlˈvɛstɐ" }, "noteZh": "不加冠词:Silvester ist am 31. Dezember.;重音在 ves 上,开头的 s 读 [z]。中国的除夕是春节前一天,和 Silvester 不是同一天。" },
+    { "id": "de.fest", "kind": "word", "pos": "noun", "text": "das Fest", "zh": "节日;庆祝活动", "features": { "gender": "n", "plural": "die Feste", "ipa": "fɛst" }, "noteZh": "中性:das Fest;很多节日名称带 -fest:das Frühlingsfest(春节)、das Mondfest(中秋节)。e 是短音。" },
+    { "id": "de.fruehlingsfest", "kind": "word", "pos": "noun", "text": "das Frühlingsfest", "zh": "春节", "features": { "gender": "n", "plural": "die Frühlingsfeste", "ipa": "ˈfʁyːlɪŋsˌfɛst" }, "noteZh": "直译“春天的节日”,也说 das chinesische Neujahrsfest;重音在 Früh 上,ü 嘴唇撅圆。春节在一月或二月,日子每年不一样。" },
+    { "id": "de.mondfest", "kind": "word", "pos": "noun", "text": "das Mondfest", "zh": "中秋节", "features": { "gender": "n", "plural": "die Mondfeste", "ipa": "ˈmoːntˌfɛst" }, "noteZh": "der Mond(月亮)+ das Fest;词尾的 d 读 [t]。月饼是 der Mondkuchen。" },
+    { "id": "de.feiern", "kind": "word", "pos": "verb", "text": "feiern", "zh": "庆祝;过(节、生日)", "features": { "ipa": "ˈfaɪ̯ɐn" }, "noteZh": "ich feiere, du feierst, er feiert, wir feiern;Feierst du Weihnachten?(你过圣诞节吗?)ei 读 [aɪ],词尾 -ern 的 e 很轻。" },
+    { "id": "de.singen", "kind": "word", "pos": "verb", "text": "singen", "zh": "唱;唱歌", "features": { "ipa": "ˈzɪŋən" }, "noteZh": "s 在元音前读 [z](浊音),ng 读 [ŋ];规则变化:ich singe, du singst, er singt。" },
+    { "id": "de.bei", "kind": "word", "pos": "prep", "text": "bei", "zh": "在……那里(家里);在……时", "features": { "ipa": "baɪ̯" }, "noteZh": "bei + 人 = 在某人那里、在某人家:bei Lena(在莉娜家)、bei meiner Familie(在我家里);后面接第三格,先当固定说法记。" }
+  ],
+  "reviewItems": ["de.november", "de.dezember", "de.januar", "de.eltern", "de.vielleicht"],
+  "lines": [
+    { "speaker": "jonas", "text": "Wei, am 11. November ist Sankt Martin. Die Kinder singen am Abend.", "zh": "王伟,11 月 11 日是圣马丁节。那天晚上孩子们(提着灯笼)唱歌。", "items": ["de.am", "de.elf", "de.november", "de.sein", "de.kind", "de.singen", "de.abend"] },
+    { "speaker": "sofia", "text": "Und im Dezember feiern wir Weihnachten. Feierst du auch Weihnachten?", "zh": "十二月我们过圣诞节。你也过圣诞节吗?", "items": ["de.und", "de.in", "de.dezember", "de.feiern", "de.wir", "de.weihnachten", "de.du", "de.auch"] },
+    { "speaker": "wei", "text": "Nein, in China ist Weihnachten kein großes Fest.", "zh": "不过。在中国,圣诞节不算什么大节日。", "items": ["de.nein", "de.in", "de.china", "de.sein", "de.weihnachten", "de.kein", "de.gross", "de.fest"] },
+    { "speaker": "wei", "text": "Unser großes Fest ist das Frühlingsfest, im Januar oder im Februar.", "zh": "我们的大节日是春节,在一月或者二月。", "items": ["de.unser", "de.gross", "de.fest", "de.sein", "de.fruehlingsfest", "de.in", "de.januar", "de.oder", "de.februar"] },
+    { "speaker": "wei", "text": "Und im September oder Oktober feiern wir das Mondfest.", "zh": "九月或者十月我们过中秋节。", "items": ["de.und", "de.in", "de.september", "de.oder", "de.oktober", "de.feiern", "de.wir", "de.mondfest"] },
+    { "speaker": "wei", "text": "Und ihr? Wo feiert ihr Weihnachten?", "zh": "那你们呢?你们在哪儿过圣诞节?", "items": ["de.und", "de.ihr", "de.wo", "de.feiern", "de.weihnachten"] },
+    { "speaker": "jonas", "text": "Bei meinen Eltern in Hamburg. Wir essen und singen zusammen.", "zh": "在汉堡我爸妈家。我们一起吃饭、唱歌。", "items": ["de.bei", "de.mein", "de.eltern", "de.in", "de.wir", "de.essen", "de.und", "de.singen", "de.zusammen"] },
+    { "speaker": "sofia", "text": "Ich feiere bei meiner Familie in Italien.", "zh": "我回意大利,在家里过。", "items": ["de.ich", "de.feiern", "de.bei", "de.mein", "de.familie", "de.in", "de.italien"] },
+    { "speaker": "jonas", "text": "Am 31. Dezember ist Silvester. Wo feierst du Silvester, Wei?", "zh": "12 月 31 日是跨年夜。王伟,你在哪儿跨年?", "items": ["de.am", "de.eins", "de.und", "de.dreissig", "de.dezember", "de.sein", "de.silvester", "de.wo", "de.feiern", "de.du"] },
+    { "speaker": "wei", "text": "Vielleicht bei Lena! Am 1. Januar fängt dann das neue Jahr an.", "zh": "也许在莉娜家!然后 1 月 1 日新的一年就开始了。", "items": ["de.vielleicht", "de.bei", "de.am", "de.eins", "de.januar", "de.anfangen", "de.dann", "de.neu", "de.jahr"] }
+  ],
+  "questions": [
+    { "prompt": "圣马丁节是哪天?这天晚上孩子们做什么?", "options": ["12 月 24 日,吃饭", "11 月 11 日,唱歌", "1 月 1 日,唱歌"], "answer": 1, "explainZh": "约纳斯说:am 11. November ist Sankt Martin. Die Kinder singen am Abend.(11 月 11 日是圣马丁节,晚上孩子们唱歌。)" },
+    { "prompt": "约纳斯在哪儿过圣诞节?", "options": ["在柏林和朋友一起过", "在意大利", "在汉堡的爸妈家"], "answer": 2, "explainZh": "Bei meinen Eltern in Hamburg.(在汉堡我爸妈家。)回意大利过节的是索菲娅。" },
+    { "prompt": "王伟说中国的大节日是什么?在几月?", "options": ["春节,在一月或二月", "中秋节,在十二月", "圣诞节,在十二月"], "answer": 0, "explainZh": "Unser großes Fest ist das Frühlingsfest, im Januar oder im Februar.;中秋节(das Mondfest)在九月或十月。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u5_feste_datum", "titleZh": "节日和日期:Weihnachten ist im Dezember / Silvester ist am 31. Dezember",
+      "bodyZh": "节日名称 Weihnachten(圣诞节)、Silvester(跨年夜)一般不加冠词:Weihnachten ist im Dezember.(不说 das Weihnachten。)\n带 -fest 的节日是普通名词,要加冠词 das:das Frühlingsfest(春节)、das Mondfest(中秋节)。\n说在哪个月用 im,说哪一天用 am + 序数词:im Dezember / am 31. Dezember(读作 am einunddreißigsten Dezember)、am 1. Januar(am ersten Januar)、am 11. November(am elften November)。\n中文说“12 月 31 日”,德语倒过来,先说日、再说月:31. Dezember;写日期时数字后面要加点。\n易错:春节在中国农历里,每年的公历日期不一样,所以只能说 im Januar oder im Februar,不能说固定的一天。",
+      "examples": [
+        { "text": "Weihnachten ist im Dezember.", "zh": "圣诞节在十二月。" },
+        { "text": "Silvester ist am 31. Dezember.", "zh": "跨年夜是 12 月 31 日。(读作 am einunddreißigsten Dezember)" },
+        { "text": "Das Frühlingsfest ist im Januar oder im Februar.", "zh": "春节在一月或者二月。" }
+      ] },
+    { "id": "de.g.u5_feiern_bei", "titleZh": "feiern 的变位和 bei + 人:在谁家过节",
+      "bodyZh": "feiern(庆祝、过节)词干是 feier-,ich 的形式保留 e:ich feiere, du feierst, er / sie feiert, wir feiern, ihr feiert, sie / Sie feiern。\n问别人过不过节:Feierst du Weihnachten?(你过圣诞节吗?)问在哪儿过:Wo feierst du Weihnachten? / Wo feiert ihr Weihnachten?\n回答在谁家过,用 bei + 人:bei Lena(在莉娜家)、bei meinen Eltern(在我爸妈家)、bei meiner Familie(在我家里)。bei 后面的 meinen、meiner 是第三格的形式,先整块记住。\n易错:bei 不是“去”,而是“在……那里”:Ich bin bei Lena.(我在莉娜家。)",
+      "examples": [
+        { "text": "Feierst du Weihnachten?", "zh": "你过圣诞节吗?" },
+        { "text": "Wo feiert ihr Silvester?", "zh": "你们在哪儿跨年?" },
+        { "text": "Ich feiere bei meiner Familie.", "zh": "我在家里过。" }
+      ] }
+  ],
+  "review": "draft"
+}

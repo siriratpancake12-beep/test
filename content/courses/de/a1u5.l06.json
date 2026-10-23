@@ -1,0 +1,48 @@
+{
+  "id": "de.a1u5.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105060,
+  "titleZh": "语音留言:改个时间", "goalZh": "听懂改时间的语音留言,会用 Vormittag / Mittag / Nachmittag、treffen、mitbringen 回复和重新约", "canDoZh": "能听懂朋友语音留言里的原因和新时间,并用语音回复同意或者再商量",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.vormittag", "kind": "word", "pos": "noun", "text": "der Vormittag", "zh": "上午", "features": { "gender": "m", "plural": "die Vormittage", "ipa": "ˈfoːɐ̯mɪˌtaːk" }, "noteZh": "vor(在……之前)+ Mittag(中午)= 上午;am Vormittag(在上午)。v 读 [f],词尾的 g 读 [k]。" },
+    { "id": "de.mittag", "kind": "word", "pos": "noun", "text": "der Mittag", "zh": "中午", "features": { "gender": "m", "plural": "die Mittage", "ipa": "ˈmɪtaːk" }, "noteZh": "am Mittag(在中午);德国人说的 Mittag 大约是 12 点到 14 点,也是吃午饭的时间。词尾 g 读 [k]。" },
+    { "id": "de.nachmittag", "kind": "word", "pos": "noun", "text": "der Nachmittag", "zh": "下午", "features": { "gender": "m", "plural": "die Nachmittage", "ipa": "ˈnaːxmɪˌtaːk" }, "noteZh": "nach(在……之后)+ Mittag = 下午;ch 在 a 后面读 [x],和汉语拼音 h 差不多。一天的时段:der Morgen – der Vormittag – der Mittag – der Nachmittag – der Abend,前面都用 am。" },
+    { "id": "de.treffen", "kind": "word", "pos": "verb", "text": "treffen", "zh": "见面;碰到", "features": { "ipa": "ˈtʁɛfn̩" }, "noteZh": "不规则:ich treffe, du triffst, er trifft;Ich treffe Lena.(我和莉娜见面。)约时间常说 Treffen wir uns um halb sechs?(我们五点半见?),这里的 uns 先当固定说法记。" },
+    { "id": "de.mitbringen", "kind": "word", "pos": "verb", "text": "mitbringen", "zh": "带来;带上", "features": { "ipa": "ˈmɪtˌbʁɪŋən" }, "noteZh": "可分动词,重音在 mit 上,mit 放句末:Ich bringe die Karten mit.(票我带来。)bringen 是规则变化:ich bringe, du bringst, er bringt。" },
+    { "id": "de.spaeter", "kind": "word", "pos": "adv", "text": "später", "zh": "晚一点;以后", "features": { "ipa": "ˈʃpɛːtɐ" }, "noteZh": "spät(晚)的比较级,常单独当副词用:Ich komme später.(我晚点来。)sp 在词首读 [ʃp],ä 读长音 [ɛː]。" },
+    { "id": "de.nachricht", "kind": "word", "pos": "noun", "text": "die Nachricht", "zh": "消息;留言", "features": { "gender": "f", "plural": "die Nachrichten", "ipa": "ˈnaːxˌʁɪçt" }, "noteZh": "eine Nachricht schreiben(发消息);语音消息是 die Sprachnachricht。一个词里两种 ch:a 后面读 [x],i 后面读 [ç]。复数 die Nachrichten 也指“新闻”。" },
+    { "id": "de.bis_spaeter", "kind": "phrase", "pos": "phrase", "text": "Bis später!", "zh": "回头见!/待会儿见!", "features": { "ipa": "bɪs ˈʃpɛːtɐ" }, "noteZh": "当天还要再见面时说;bis 是“到……为止”,第 7 单元再单独学。说“明天见”是 Bis morgen!" },
+    { "id": "de.warten", "kind": "word", "pos": "verb", "text": "warten", "zh": "等;等候", "features": { "ipa": "ˈvaʁtn̩" }, "noteZh": "w 读 [v];词干以 t 结尾,du / er 前要加 e:du wartest, er wartet。Ich warte vor dem Kino.(我在电影院门口等。)" }
+  ],
+  "reviewItems": ["de.kinokarte", "de.kino", "de.leider", "de.halb", "de.bezahlen"],
+  "lines": [
+    { "speaker": "lena", "text": "Hallo Wei, hier ist Lena. Am Mittag habe ich ein bisschen Zeit.", "zh": "(语音留言)嗨,王伟,我是莉娜。中午我有一会儿空。", "items": ["de.hallo", "de.hier", "de.sein", "de.am", "de.mittag", "de.haben", "de.ich", "de.ein_bisschen", "de.zeit"] },
+    { "speaker": "lena", "text": "Heute arbeite ich am Vormittag und am Nachmittag.", "zh": "今天我上午和下午都要上班。", "items": ["de.heute", "de.arbeiten", "de.ich", "de.am", "de.vormittag", "de.und", "de.nachmittag"] },
+    { "speaker": "lena", "text": "Um vier kann ich leider nicht. Aber um halb sechs!", "zh": "四点我恐怕来不了。不过五点半可以!", "items": ["de.um", "de.vier", "de.koennen", "de.ich", "de.leider", "de.nicht", "de.aber", "de.halb", "de.sechs"] },
+    { "speaker": "lena", "text": "Den Film gibt es auch um sechs.", "zh": "那部电影六点也有一场。", "items": ["de.film", "de.es_gibt", "de.auch", "de.um", "de.sechs"] },
+    { "speaker": "lena", "text": "Treffen wir uns um halb sechs vor dem Kino?", "zh": "我们五点半在电影院门口见,好吗?", "items": ["de.treffen", "de.wir", "de.um", "de.halb", "de.sechs", "de.vor", "de.kino"] },
+    { "speaker": "lena", "text": "Die Kinokarten bringe ich mit. Bis später!", "zh": "电影票我带来。回头见!", "items": ["de.kinokarte", "de.mitbringen", "de.ich", "de.bis_spaeter"] },
+    { "speaker": "wei", "text": "Hallo Lena! Ja, wir treffen uns um halb sechs.", "zh": "(王伟听了两遍,回了一条语音)嗨,莉娜!好,我们五点半见。", "items": ["de.hallo", "de.ja", "de.wir", "de.treffen", "de.um", "de.halb", "de.sechs"] },
+    { "speaker": "wei", "text": "Am Nachmittag lerne ich, und dann warte ich vor dem Kino.", "zh": "下午我学习,然后去电影院门口等你。", "items": ["de.am", "de.nachmittag", "de.lernen", "de.ich", "de.und", "de.dann", "de.warten", "de.vor", "de.kino"] },
+    { "speaker": "wei", "text": "Danke, Lena! Bis später!", "zh": "谢谢你,莉娜!回头见!", "items": ["de.danke", "de.bis_spaeter"] },
+    { "speaker": "wei", "text": "Lena, noch eine Nachricht: Ich bringe Sofia mit!", "zh": "(过了一会儿,王伟又发了一条)莉娜,再说一件事:我把索菲娅也带去!", "items": ["de.noch", "de.ein", "de.nachricht", "de.ich", "de.mitbringen"] },
+    { "speaker": "wei", "text": "Kannst du noch eine Kinokarte kaufen? Ich bezahle später.", "zh": "你能再买一张电影票吗?钱我晚点给你。", "items": ["de.koennen", "de.du", "de.noch", "de.ein", "de.kinokarte", "de.kaufen", "de.ich", "de.bezahlen", "de.spaeter"] },
+    { "speaker": "lena", "text": "Ja, gern! Dann kaufe ich noch eine Kinokarte. Bis später, ihr zwei!", "zh": "好啊!那我再买一张。你们俩,回头见!", "items": ["de.ja", "de.gern", "de.dann", "de.kaufen", "de.ich", "de.noch", "de.ein", "de.kinokarte", "de.bis_spaeter", "de.ihr", "de.zwei"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜为什么下午四点来不了?", "options": ["她要学习", "她今天下午也要上班", "她没有电影票"], "answer": 1, "explainZh": "莉娜说:Heute arbeite ich am Vormittag und am Nachmittag.(今天我上午和下午都要上班。)所以 Um vier kann ich leider nicht." },
+    { "prompt": "他们最后约在几点、在哪儿见面?", "options": ["四点,在电影院门口", "六点,在书店门口", "五点半,在电影院门口", "五点半,在 WG"], "answer": 2, "explainZh": "莉娜问:Treffen wir uns um halb sechs vor dem Kino?——halb sechs 是五点半(六点前半小时);电影六点开始,王伟回答 Ja, wir treffen uns um halb sechs." },
+    { "prompt": "王伟的第二条留言说了什么?", "options": ["他要带索菲娅一起去,请莉娜再买一张票", "他今天去不了电影院", "电影票由他来买"], "answer": 0, "explainZh": "Ich bringe Sofia mit! Kannst du noch eine Kinokarte kaufen?(我把索菲娅也带去!你能再买一张票吗?)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u5_tageszeiten", "titleZh": "一天的时段和改时间:am Vormittag、am Nachmittag,Um vier kann ich leider nicht",
+      "bodyZh": "一天的时段都是阳性名词,说“在……的时候”都用 am:am Morgen(早上)– am Vormittag(上午)– am Mittag(中午)– am Nachmittag(下午)– am Abend(晚上)。\n前面有 heute(今天)时不用 am,直接说 heute Vormittag、heute Nachmittag、heute Abend;“明天早上”一般说 morgen früh(不说 morgen Morgen)。\n时间放句首,动词还在第二位:Am Nachmittag lerne ich.(不说 Am Nachmittag ich lerne。)\n改时间的语音留言照这个顺序说:称呼(Hallo Wei, hier ist Lena)→ 原因(Heute arbeite ich am Nachmittag)→ 原来的时间不行(Um vier kann ich leider nicht)→ 新时间(Aber um halb sechs!)→ 提议见面(Treffen wir uns …?)→ 告别(Bis später!)。\n可分动词 mitbringen 的 mit 放句末:Ich bringe die Kinokarten mit. / Ich bringe Sofia mit.(带东西、带人都可以。)\n易错:① halb sechs 是五点半,不是六点半。② Bis später! 只在当天还会见面时说;明天见说 Bis morgen!,不确定什么时候见用 Tschüss!",
+      "examples": [
+        { "text": "Am Vormittag arbeite ich.", "zh": "上午我上班。" },
+        { "text": "Heute Nachmittag lerne ich.", "zh": "今天下午我学习。" },
+        { "text": "Um vier kann ich leider nicht. Aber um halb sechs!", "zh": "四点我恐怕不行。不过五点半可以!" },
+        { "text": "Ich bringe die Kinokarten mit.", "zh": "电影票我带来。" }
+      ] }
+  ],
+  "review": "draft"
+}
