@@ -1,0 +1,58 @@
+{
+  "id": "ja.a1u7.l05", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107050,
+  "titleZh": "结账:可以刷卡吗?", "goalZh": "听懂收银台的说法,会问付款方式并付款", "canDoZh": "能在收银台听懂一共多少钱,问能不能刷卡,选择付款方式",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ja.reji", "kind": "word", "pos": "noun", "text": "レジ", "zh": "收银台", "features": { "pitch": 1 }, "noteZh": "收银台;结账时在 レジ 前排队。" },
+    { "id": "ja.kaado", "kind": "word", "pos": "noun", "text": "カード", "zh": "卡;信用卡", "features": { "pitch": 1 }, "noteZh": "信用卡、交通卡、积分卡都叫 カード;カー 是长音。カードで 払います = 刷卡付。" },
+    { "id": "ja.genkin", "kind": "word", "pos": "noun", "text": "現金", "zh": "现金", "features": { "reading": "げんきん", "pitch": 3 }, "noteZh": "げん・きん 里两个 ん 各占一拍。日本有些小店、小餐馆只收现金。" },
+    { "id": "ja.harau", "kind": "word", "pos": "verb", "text": "払います", "zh": "付(钱)", "features": { "reading": "はらいます", "pitch": 4 }, "noteZh": "辞书形 払う(一类动词)。付款方式用 で:現金で 払います;不说 ×カードを 払います。" },
+    { "id": "ja.zenbude", "kind": "word", "pos": "adv", "text": "全部で", "zh": "一共", "features": { "reading": "ぜんぶで" }, "noteZh": "全部で 3,200円です(一共 3,200 日元),で 不能省。" },
+    { "id": "ja.dake_p", "kind": "word", "pos": "particle", "text": "だけ", "zh": "只;仅", "features": {}, "noteZh": "接在名词后面:現金だけです(只收现金)。中文的“只”在动词前,だけ 在名词后。" },
+    { "id": "ja.reshiito", "kind": "word", "pos": "noun", "text": "レシート", "zh": "小票", "features": { "pitch": 2 }, "noteZh": "シー 是长音。日本的商店一般都会给小票。" },
+    { "id": "ja.jaa", "kind": "word", "pos": "conj", "text": "じゃあ", "zh": "那么;那", "features": { "pitch": 1 }, "noteZh": "口语,用来接着做决定或换话题:じゃあ、これに します。正式一点说 では。" }
+  ],
+  "reviewItems": ["ja.de_p", "ja.fukuro", "ja.daijoubu", "ja.iru_need"],
+  "lines": [
+    { "speaker": "rin", "text": "すみません、レジはどこですか。", "tokens": ["すみません、", "レジ", "は", "どこですか。"], "zh": "不好意思,收银台在哪里?", "items": ["ja.sumimasen", "ja.reji", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "tenin", "text": "レジはあそこです。どうぞ。", "tokens": ["レジ", "は", "あそこ", "です。", "どうぞ。"], "zh": "收银台在那边,您请。", "items": ["ja.reji", "ja.wa_p", "ja.asoko", "ja.desu", "ja.douzo"] },
+    { "speaker": "rin", "text": "これをおねがいします。", "tokens": ["これ", "を", "おねがいします。"], "zh": "(在收银台)麻烦您,结一下这些。", "items": ["ja.kore", "ja.wo_p", "ja.onegaishimasu"] },
+    { "speaker": "tenin", "text": "Tシャツと傘ですね。袋はいりますか。", "reading": "ティーシャツとかさですね。ふくろはいりますか。", "tokens": ["Tシャツ", "と", "傘", "ですね。", "袋", "は", "いりますか。"], "zh": "T 恤和伞,对吧。需要袋子吗?", "items": ["ja.tshatsu", "ja.to_p", "ja.kasa", "ja.desu", "ja.ne_p", "ja.fukuro", "ja.wa_p", "ja.iru_need", "ja.ka_p"] },
+    { "speaker": "rin", "text": "いいえ、大丈夫です。全部でいくらですか。", "reading": "いいえ、だいじょうぶです。ぜんぶでいくらですか。", "tokens": ["いいえ、", "大丈夫です。", "全部で", "いくらですか。"], "zh": "不用了,谢谢。一共多少钱?", "items": ["ja.iie", "ja.daijoubu", "ja.desu", "ja.zenbude", "ja.ikura", "ja.ka_p"] },
+    { "speaker": "tenin", "text": "全部で3,200円です。", "reading": "ぜんぶでさんぜんにひゃくえんです。", "tokens": ["全部で", "3,200円", "です。"], "zh": "一共 3,200 日元。", "items": ["ja.zenbude", "ja.san_num", "ja.sen", "ja.ni", "ja.hyaku", "ja.en", "ja.desu"] },
+    { "speaker": "rin", "text": "カードでいいですか。", "tokens": ["カード", "で", "いいですか。"], "zh": "可以刷卡吗?", "items": ["ja.kaado", "ja.de_p", "ja.ii", "ja.desu", "ja.ka_p"] },
+    { "speaker": "tenin", "text": "すみません、現金だけです。", "reading": "すみません、げんきんだけです。", "tokens": ["すみません、", "現金", "だけ", "です。"], "zh": "不好意思,我们只收现金。", "items": ["ja.sumimasen", "ja.genkin", "ja.dake_p", "ja.desu"] },
+    { "speaker": "rin", "text": "じゃあ、現金で払います。はい、5,000円です。", "reading": "じゃあ、げんきんではらいます。はい、ごせんえんです。", "tokens": ["じゃあ、", "現金", "で", "払います。", "はい、", "5,000円", "です。"], "zh": "那我付现金。给您,5,000 日元。", "items": ["ja.jaa", "ja.genkin", "ja.de_p", "ja.harau", "ja.hai", "ja.go", "ja.sen", "ja.en", "ja.desu"] },
+    { "speaker": "tenin", "text": "1,800円とレシートです。ありがとうございました。", "reading": "せんはっぴゃくえんとレシートです。ありがとうございました。", "tokens": ["1,800円", "と", "レシート", "です。", "ありがとうございました。"], "zh": "找您 1,800 日元,这是小票。谢谢惠顾。", "items": ["ja.sen", "ja.hachi", "ja.hyaku", "ja.en", "ja.to_p", "ja.reshiito", "ja.desu", "ja.arigatou_gozaimasu"] }
+  ],
+  "questions": [
+    { "prompt": "一共多少钱?", "options": ["1,800 日元", "3,200 日元", "5,000 日元", "2,300 日元"], "answer": 1, "explainZh": "店员说:全部で3,200円です。(さんぜんにひゃくえん,一共 3,200 日元)" },
+    { "prompt": "林雨最后怎么付的钱?", "options": ["刷卡", "用手机支付", "付现金"], "answer": 2, "explainZh": "店员说 現金だけです(只收现金),林雨说:じゃあ、現金で払います。" },
+    { "prompt": "林雨要袋子吗?", "options": ["不要", "要一个", "要两个"], "answer": 0, "explainZh": "店员问 袋はいりますか,林雨说:いいえ、大丈夫です。(不用了)" }
+  ],
+  "grammar": [
+    {
+      "id": "ja.g.zenbude_de",
+      "titleZh": "全部で 和 〜で 払います",
+      "bodyZh": "“全部で + 价格”= 一共……:全部で 3,200円です。付款方式用 で 表示,和第 6 单元“電車で 行きます”(坐电车去)的 で 是同一个用法,表示手段:カードで 払います(刷卡付)、現金で 払います(付现金)。中文说“用卡付”,日语没有对应“用”的词,在方式后面加 で 就行。払います 的宾语是钱:3,200円を 払います,所以不说 ×カードを 払います。想问“用……可以吗?”就说“〜で いいですか”:カードで いいですか。",
+      "examples": [
+        { "text": "全部で3,200円です。", "zh": "一共 3,200 日元。(ぜんぶでさんぜんにひゃくえんです)" },
+        { "text": "カードで払います。", "zh": "我刷卡付。(カードではらいます)" },
+        { "text": "現金でいいですか。", "zh": "付现金可以吗?(げんきんでいいですか)" }
+      ]
+    },
+    {
+      "id": "ja.g.dake_jaa",
+      "titleZh": "だけ(只)和 じゃあ(那么)",
+      "bodyZh": "だけ 接在名词后面,表示“只、仅”:現金だけです(只收现金)、これだけです(就这些)。中文的“只”放在动词前面(只收现金),日语的 だけ 紧跟在名词后面,位置正好相反。じゃあ 是口语的“那、那么”,听了对方的话以后接着做决定:じゃあ、現金で 払います;正式一点说 では。在收银台,店员常问 袋は いりますか(要袋子吗?),不要就说 いいえ、大丈夫です(第 4 单元学过),比直接说 いりません 委婉。",
+      "examples": [
+        { "text": "現金だけです。", "zh": "只收现金。(げんきんだけです)" },
+        { "text": "これだけです。", "zh": "就这些。" },
+        { "text": "じゃあ、カードで払います。", "zh": "那我刷卡。(じゃあ、カードではらいます)" },
+        { "text": "袋はいりますか。", "zh": "需要袋子吗?(ふくろはいりますか)" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

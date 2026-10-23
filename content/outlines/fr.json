@@ -19,7 +19,7 @@
       "canDoZh": "能用法语打招呼、介绍自己的名字和国籍",
       "scenarioZh": "浩到里昂的第一天,在大学语言中心门口认识了法国女生克洛艾,两人第一次打招呼、互相说名字,浩说自己是中国人。",
       "grammarFocusZh": "国籍形容词分阴阳性(chinois / chinoise);Je m'appelle… / Je suis… 先当固定说法整句记",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.bonjour", "kind": "word", "pos": "interj", "text": "Bonjour", "zh": "你好/早上好", "features": { "ipa": "bɔ̃.ʒuʁ" }, "noteZh": "白天见面都可以说;晚上用 Bonsoir。" },
         { "id": "fr.salut", "kind": "word", "pos": "interj", "text": "Salut", "zh": "嗨(朋友之间)", "features": { "ipa": "sa.ly" }, "noteZh": "词尾 t 不发音。" },
@@ -138,7 +138,7 @@
       "canDoZh": "能在面包店买可颂和巧克力面包,问价格并付钱",
       "scenarioZh": "早上八点,浩第一次走进宿舍楼下的面包店。店员热情地说 Bonjour, monsieur !,浩用 Je voudrais… 买一个可颂和一个巧克力面包,问 C'est combien ?,店员说 Ça fait deux euros.;浩付钱,店员说 Voilà ! Bonne journée !(价格只用 1–10 的整数欧元)",
       "grammarFocusZh": "不定冠词 un / une:阳性名词用 un(un croissant),阴性名词用 une(une baguette);Je voudrais + 名词,比 Je veux 礼貌;问价 C'est combien ? / 报总价 Ça fait…;法国人进店先说 Bonjour",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.boulangerie", "kind": "word", "pos": "noun", "text": "la boulangerie", "zh": "面包店", "features": { "gender": "f", "ipa": "la bu.lɑ̃.ʒʁi" }, "noteZh": "法国人几乎每天都去;店员是 la boulangère。" },
         { "id": "fr.croissant", "kind": "word", "pos": "noun", "text": "le croissant", "zh": "可颂;羊角面包", "features": { "gender": "m", "ipa": "lə kʁwa.sɑ̃" }, "noteZh": "oi 读 [wa];词尾 t 不发音。" },
@@ -225,7 +225,7 @@
       "canDoZh": "能说自己早餐吃什么、喝什么,也能说“我不吃……、我不喝……”",
       "scenarioZh": "周六早上在宿舍的公共厨房,卢卡在吃法式早餐:面包、黄油、果酱、咖啡。他问浩吃什么;浩说在中国早上常吃鸡蛋、喝牛奶,今天他吃鸡蛋和面包,不喝咖啡,也不吃果酱。",
       "grammarFocusZh": "部分冠词表示“一些(数不清的东西)”:du(阳性)、de la(阴性)、de l'(元音前):du pain, de la confiture, de l'eau;否定以后 un/une/du/de la 都变成 de(元音前 d'):Je ne mange pas de pain. Je ne bois pas de café.;manger、boire 的变位",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.petit_dejeuner", "kind": "word", "pos": "noun", "text": "le petit-déjeuner", "zh": "早餐", "features": { "gender": "m", "ipa": "lə pə.ti.de.ʒœ.ne" }, "noteZh": "有连字符;petit 的 t 不发音。" },
         { "id": "fr.pain", "kind": "word", "pos": "noun", "text": "le pain", "zh": "面包", "features": { "gender": "m", "ipa": "lə pɛ̃" }, "noteZh": "鼻化元音 [ɛ̃],和数字 cinq 的元音一样。" },
@@ -269,8 +269,8 @@
         { "id": "fr.mere", "kind": "word", "pos": "noun", "text": "la mère", "zh": "母亲;妈妈", "features": { "gender": "f", "ipa": "la mɛʁ" }, "noteZh": "口语叫妈妈是 maman。" },
         { "id": "fr.frere", "kind": "word", "pos": "noun", "text": "le frère", "zh": "兄弟(哥哥或弟弟)", "features": { "gender": "m", "ipa": "lə fʁɛʁ" }, "noteZh": "法语不分哥哥弟弟,要说清楚就加 grand / petit:mon grand frère(我哥哥)。" },
         { "id": "fr.soeur", "kind": "word", "pos": "noun", "text": "la sœur", "zh": "姐妹(姐姐或妹妹)", "alt": ["la soeur"], "features": { "gender": "f", "ipa": "la sœʁ" }, "noteZh": "œ 连写,可以输入 oe;读 [sœʁ]。" },
-        { "id": "fr.grand_pere", "kind": "word", "pos": "noun", "text": "le grand-père", "zh": "祖父;外祖父", "features": { "gender": "m", "ipa": "lə gʁɑ̃.pɛʁ" }, "noteZh": "不分爷爷和外公;grand 的 d 不发音。" },
-        { "id": "fr.grand_mere", "kind": "word", "pos": "noun", "text": "la grand-mère", "zh": "祖母;外祖母", "features": { "gender": "f", "ipa": "la gʁɑ̃.mɛʁ" }, "noteZh": "不分奶奶和外婆;虽然是阴性,grand 也不加 e。" },
+        { "id": "fr.grand_pere", "kind": "word", "pos": "noun", "text": "le grand-père", "zh": "祖父;外祖父(爷爷;外公)", "features": { "gender": "m", "ipa": "lə gʁɑ̃.pɛʁ" }, "noteZh": "不分爷爷和外公;grand 的 d 不发音。" },
+        { "id": "fr.grand_mere", "kind": "word", "pos": "noun", "text": "la grand-mère", "zh": "祖母;外祖母(奶奶;外婆)", "features": { "gender": "f", "ipa": "la gʁɑ̃.mɛʁ" }, "noteZh": "不分奶奶和外婆;虽然是阴性,grand 也不加 e。" },
         { "id": "fr.mon", "kind": "word", "pos": "det", "text": "mon", "zh": "我的(阳性单数)", "features": { "ipa": "mɔ̃" }, "noteZh": "mon père, mon frère;元音开头的阴性名词前也用 mon:mon amie。" },
         { "id": "fr.ma", "kind": "word", "pos": "det", "text": "ma", "zh": "我的(阴性单数)", "features": { "ipa": "ma" }, "noteZh": "ma mère, ma sœur。" },
         { "id": "fr.mes", "kind": "word", "pos": "det", "text": "mes", "zh": "我的(复数)", "features": { "ipa": "me" }, "noteZh": "不分阴阳性:mes frères, mes sœurs;元音前联诵读 [z]。" },
@@ -333,12 +333,12 @@
       "newItems": [
         { "id": "fr.ingenieur", "kind": "word", "pos": "noun", "text": "l'ingénieur", "zh": "工程师", "features": { "gender": "m", "ipa": "lɛ̃.ʒe.njœʁ" }, "noteZh": "元音开头,要记住是阳性;女工程师现在常写 l'ingénieure,读音一样。" },
         { "id": "fr.medecin", "kind": "word", "pos": "noun", "text": "le médecin", "zh": "医生", "features": { "gender": "m", "ipa": "lə med.sɛ̃" }, "noteZh": "中间的 e 几乎不读:[med.sɛ̃];女医生也可以说 le médecin(或 la médecin)。" },
-        { "id": "fr.professeur", "kind": "word", "pos": "noun", "text": "le professeur", "zh": "老师(中学、大学)", "features": { "gender": "m", "ipa": "lə pʁɔ.fɛ.sœʁ" }, "noteZh": "口语常说 le/la prof;女老师可以写 la professeure。" },
+        { "id": "fr.professeur", "kind": "word", "pos": "noun", "text": "le professeur", "zh": "老师", "features": { "gender": "m", "ipa": "lə pʁɔ.fɛ.sœʁ" }, "noteZh": "口语常说 le/la prof;女老师可以写 la professeure。" },
         { "id": "fr.serveur", "kind": "word", "pos": "noun", "text": "le serveur", "zh": "服务员(男)", "features": { "gender": "m", "ipa": "lə sɛʁ.vœʁ" }, "noteZh": "女服务员是 la serveuse;在咖啡馆叫服务员说 S'il vous plaît !" },
         { "id": "fr.entreprise", "kind": "word", "pos": "noun", "text": "l'entreprise", "zh": "公司;企业", "features": { "gender": "f", "ipa": "lɑ̃.tʁə.pʁiz" }, "noteZh": "元音开头,要记住是阴性:une entreprise。" },
         { "id": "fr.hopital", "kind": "word", "pos": "noun", "text": "l'hôpital", "zh": "医院", "features": { "gender": "m", "ipa": "lɔ.pi.tal" }, "noteZh": "h 不发音,冠词省成 l';阳性;ô 上面有长音符。" },
         { "id": "fr.chine", "kind": "word", "pos": "noun", "text": "la Chine", "zh": "中国", "features": { "gender": "f", "ipa": "la ʃin" }, "noteZh": "国名有阴阳性、要带冠词:la Chine, la France(阴性),le Canada(阳性);“在中国”说 en Chine(第 6 单元学)。" },
-        { "id": "fr.quest_ce_que", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que…?", "zh": "……什么?(放在句首提问)", "features": { "ipa": "kɛs.kə" }, "noteZh": "放在句首问“什么”:Qu'est-ce que tu aimes ?(你喜欢什么?);元音前 qu'est-ce qu'。" },
+        { "id": "fr.quest_ce_que", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que… ?", "zh": "……什么?(放在句首提问)", "features": { "ipa": "kɛs.kə" }, "noteZh": "放在句首问“什么”:Qu'est-ce que tu aimes ?(你喜欢什么?);元音前 qu'est-ce qu'。" },
         { "id": "fr.quest_ce_que_tu_fais", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que tu fais dans la vie ?", "zh": "你是做什么工作的?", "features": { "ipa": "kɛs.kə ty fɛ dɑ̃ la vi" }, "noteZh": "问职业的固定说法,整句记(faire 第 5 单元学);对长辈说 Qu'est-ce que vous faites dans la vie ?" },
         { "id": "fr.a_la_retraite", "kind": "phrase", "pos": "phrase", "text": "à la retraite", "zh": "退休了", "features": { "ipa": "a la ʁə.tʁɛt" }, "noteZh": "Mes grands-parents sont à la retraite.(我爷爷奶奶退休了。)" }
       ],
@@ -357,7 +357,7 @@
         { "id": "fr.grand", "kind": "word", "pos": "adj", "text": "grand", "zh": "高的;大的(阳性)", "features": { "ipa": "gʁɑ̃" }, "noteZh": "阴性 grande [gʁɑ̃d],d 要读出来;un grand frère = 哥哥。" },
         { "id": "fr.petit", "kind": "word", "pos": "adj", "text": "petit", "zh": "矮的;小的(阳性)", "features": { "ipa": "pə.ti" }, "noteZh": "阴性 petite [pə.tit];une petite sœur = 妹妹。" },
         { "id": "fr.sympa", "kind": "word", "pos": "adj", "text": "sympa", "zh": "人很好的;好相处的", "features": { "ipa": "sɛ̃.pa" }, "noteZh": "sympathique 的口语说法,阴阳性同形;复数 sympas。" },
-        { "id": "fr.gentil", "kind": "word", "pos": "adj", "text": "gentil", "zh": "和善的;友好的(阳性)", "features": { "ipa": "ʒɑ̃.ti" }, "noteZh": "词尾 l 不发音!阴性 gentille [ʒɑ̃.tij]。" },
+        { "id": "fr.gentil", "kind": "word", "pos": "adj", "text": "gentil", "zh": "和善的;待人好的(阳性)", "features": { "ipa": "ʒɑ̃.ti" }, "noteZh": "词尾 l 不发音!阴性 gentille [ʒɑ̃.tij]。" },
         { "id": "fr.cheveux", "kind": "word", "pos": "noun", "text": "les cheveux", "zh": "头发", "features": { "gender": "m", "ipa": "le ʃə.vø" }, "noteZh": "平时用复数,阳性;单数 le cheveu 是“一根头发”。" },
         { "id": "fr.yeux", "kind": "word", "pos": "noun", "text": "les yeux", "zh": "眼睛", "features": { "gender": "m", "ipa": "le.zjø" }, "noteZh": "单数是完全不同的 l'œil [lœj];les yeux 要联诵读 [le.zjø]。" },
         { "id": "fr.son", "kind": "word", "pos": "det", "text": "son", "zh": "他的;她的(阳性单数)", "features": { "ipa": "sɔ̃" }, "noteZh": "跟后面名词的性走,不看主人是男是女:son frère(他的/她的兄弟)。" },
@@ -435,7 +435,7 @@
       "grammarFocusZh": "三种问句:语调(Il y a un ascenseur ?)、est-ce que(Est-ce qu'il y a un ascenseur ?)、倒装(只要求听懂);楼层:le rez-de-chaussée 是地面层(中国的一楼),le premier étage 是中国的二楼;序数词 premier/première,其他序数词 = 数字 + -ième",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
       "newItems": [
-        { "id": "fr.est_ce_que", "kind": "phrase", "pos": "phrase", "text": "Est-ce que…?", "zh": "……吗?(一般疑问句开头)", "features": { "ipa": "ɛs.kə" }, "noteZh": "放在陈述句前面就变成问句,语序不变:Est-ce que tu es étudiant ?;元音前 est-ce qu'。" },
+        { "id": "fr.est_ce_que", "kind": "phrase", "pos": "phrase", "text": "Est-ce que… ?", "zh": "……吗?(一般疑问句开头)", "features": { "ipa": "ɛs.kə" }, "noteZh": "放在陈述句前面就变成问句,语序不变:Est-ce que tu es étudiant ?;元音前 est-ce qu'。" },
         { "id": "fr.cuisine", "kind": "word", "pos": "noun", "text": "la cuisine", "zh": "厨房;做饭", "features": { "gender": "f", "ipa": "la kɥi.zin" }, "noteZh": "两个意思:厨房,也指做饭、菜肴:faire la cuisine(做饭)。" },
         { "id": "fr.salle_de_bains", "kind": "word", "pos": "noun", "text": "la salle de bains", "zh": "浴室;卫生间", "alt": ["la salle de bain"], "features": { "gender": "f", "ipa": "la sal də bɛ̃" }, "noteZh": "法国的浴室和厕所常常分开;bains 的 s 不发音。" },
         { "id": "fr.toilettes", "kind": "word", "pos": "noun", "text": "les toilettes", "zh": "厕所", "features": { "gender": "f", "ipa": "le twa.lɛt" }, "noteZh": "平时用复数(阴性);问路:Où sont les toilettes ?" },
@@ -638,7 +638,7 @@
       "titleZh": "城市里的地方",
       "goalZh": "会说城市里常去的地方,问附近有没有某个地方",
       "canDoZh": "能说出城市里常去的地方,问“这一带有超市吗?”",
-      "scenarioZh": "克洛艾带浩在宿舍周围转一圈:这里有一家超市、一家药店、一家银行和邮局;广场旁边有一个博物馆;大学在地铁站对面;火车站在市中心。浩一边走一边问 Est-ce qu'il y a… ?",
+      "scenarioZh": "克洛艾带浩在宿舍周围转一圈:浩住的街上有一家超市,药店在超市旁边,银行在药店对面;邮局在广场上,旁边有一个小博物馆。浩问火车站在哪儿,克洛艾说就在大学旁边。浩一边走一边问 Est-ce qu'il y a… ?,最后说里昂是一座漂亮的城市。",
       "grammarFocusZh": "il y a + un / une + 地点(Il y a une pharmacie ?);名词的阴阳性:le musée(以 -ée 结尾却是阳性)、la place;为下一课的 à + 冠词缩合做准备",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
       "newItems": [
@@ -849,7 +849,7 @@
       "titleZh": "打电话预约理发——devoir 和 il faut",
       "goalZh": "会打电话预约,说出想要的日期和时间,用 devoir / il faut 说必须做的事",
       "canDoZh": "能打电话预约(理发、看医生等),说出想约的日子和时间,并确认",
-      "scenarioZh": "克洛艾的生日聚会快到了,浩想先剪头发。他给宿舍附近的理发店打电话:Allô, bonjour, je voudrais prendre rendez-vous.;理发师问明天行不行,浩说明天下午他必须上课;最后约在下周二下午五点半,理发师重复一遍时间确认:Il faut venir à cinq heures et demie.",
+      "scenarioZh": "卢卡看浩的头发长了,说 Il faut aller chez le coiffeur !浩给宿舍附近的理发店打电话:Allô, bonjour ! Je voudrais prendre rendez-vous.;理发师问明天行不行,浩说明天下午他得去上课(je dois aller en cours);最后约在下周二 17:30,浩确认:cinq heures et demie。",
       "grammarFocusZh": "devoir + 动词原形(必须;应该):je dois, tu dois, il doit, nous devons, vous devez, ils doivent;il faut + 动词原形(必须,不分人称);电话用语:Allô ? / Je voudrais prendre rendez-vous. / C'est possible ?;chez + 人(chez le coiffeur = 在理发店);la semaine prochaine, mardi prochain",
       "skills": ["listen", "speak"], "estimatedMinutes": 11,
       "newItems": [
@@ -952,7 +952,7 @@
       "titleZh": "你的爱好是什么?",
       "goalZh": "会说自己的爱好,用 jouer à / jouer de,并简单说明原因",
       "canDoZh": "能说自己的爱好(运动、音乐、看书、看电影),并用 parce que 简单说为什么喜欢",
-      "scenarioZh": "周一的法语课上,莫罗老师让大家介绍自己的爱好。浩喜欢打篮球和做饭;卢卡每周踢两次足球,也爱游泳;克洛艾(来当语伴)弹吉他,也爱看书和去电影院;老师问 Pourquoi ?,大家用 parce que 回答,卢卡的回答把大家逗笑了。",
+      "scenarioZh": "星期三下午,莫罗老师在语言中心组织语伴交流活动(tandem),法国学生卢卡和克洛艾来陪留学生练口语。老师请大家介绍自己的爱好:浩喜欢打篮球和做饭;克洛艾弹吉他,也爱看书;卢卡每周踢两次足球,也爱游泳。老师问 Pourquoi ?,卢卡用 parce que 回答,把大家逗笑了;最后克洛艾约大家晚上去看电影。",
       "grammarFocusZh": "jouer à + 球类(和冠词缩合):jouer au foot, jouer au basket;jouer de + 乐器:jouer de la guitare;aimer / adorer + 动词原形:J'aime nager.;Pourquoi ? — Parce que…",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
       "newItems": [
@@ -974,7 +974,7 @@
       "titleZh": "上周末你做了什么?——复合过去时入门",
       "goalZh": "会用复合过去时说过去做过的事,比如上周末去了哪儿、做了什么",
       "canDoZh": "能用几句话说上周末做了什么、去了哪儿、怎么样",
-      "scenarioZh": "周一早上,莫罗老师问大家周末做了什么。浩说:星期六我参观了一个博物馆,晚上和卢卡看了一部电影;星期天我待在家里,做了作业。艾米莉说她坐火车去了安纳西,很晚才回来。老师问 C'était bien ?——C'était super !",
+      "scenarioZh": "星期一下午,莫罗老师组织的语伴活动上(这次来帮忙的是艾米莉),老师问大家周末做了什么。浩说:星期六我参观了一个博物馆,晚上和卢卡看了一部电影;星期天我待在家里,做了作业。艾米莉说她坐火车去了安纳西,昨天晚上很晚才回来。老师问 C'était bien ?——C'était super !",
       "grammarFocusZh": "复合过去时 = avoir 的现在时 + 过去分词:-er 动词的过去分词是 -é(j'ai visité, j'ai regardé);常见不规则过去分词:fait, pris, vu, lu, bu;少数表示移动、变化的动词用 être(aller, venir, partir, rester, rentrer):je suis allé(e),过去分词和主语配合;否定:Je n'ai pas vu le film.;时间词 hier、le week-end dernier",
       "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
       "newItems": [

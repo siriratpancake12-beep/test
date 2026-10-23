@@ -24,7 +24,7 @@
     { "speaker": "lucas", "text": "Moi, je joue au foot deux fois par semaine. J'aime aussi nager.", "zh": "我每周踢两次足球,也喜欢游泳。", "items": ["fr.moi", "fr.je", "fr.jouer", "fr.au", "fr.foot", "fr.deux", "fr.fois", "fr.par", "fr.semaine", "fr.aimer", "fr.aussi", "fr.nager"] },
     { "speaker": "mme_moreau", "text": "Pourquoi est-ce que vous aimez le sport, Lucas ?", "zh": "卢卡,你为什么喜欢运动?", "items": ["fr.pourquoi", "fr.est_ce_que", "fr.vous", "fr.aimer", "fr.sport"] },
     { "speaker": "lucas", "text": "Parce qu'après le sport, je mange beaucoup !", "zh": "因为运动完,我能吃好多!", "items": ["fr.parce_que", "fr.apres", "fr.sport", "fr.je", "fr.manger", "fr.beaucoup"] },
-    { "speaker": "chloe", "text": "Tu es drôle, Lucas ! On va au cinéma après le cours ?", "zh": "卢卡,你真逗!下课后我们去看电影吧?", "items": ["fr.tu", "fr.etre", "fr.drole", "fr.on", "fr.aller", "fr.au", "fr.cinema", "fr.apres", "fr.cours"] }
+    { "speaker": "chloe", "text": "Tu es drôle, Lucas ! On va au cinéma ce soir ?", "zh": "卢卡,你真逗!今晚我们去看电影吧?", "items": ["fr.tu", "fr.etre", "fr.drole", "fr.on", "fr.aller", "fr.au", "fr.cinema", "fr.ce", "fr.soir"] }
   ],
   "questions": [
     { "prompt": "卢卡多久踢一次足球?", "options": ["每天", "一周一次", "一周两次"], "answer": 2, "explainZh": "Je joue au foot deux fois par semaine.——deux fois par semaine = 一周两次。" },
