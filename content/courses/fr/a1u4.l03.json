@@ -2,9 +2,9 @@
   "id": "fr.a1u4.l03", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
   "unit": "A1-4 我的住处", "order": 104030,
   "titleZh": "厨房在几楼?——参观宿舍楼", "goalZh": "会问宿舍里的设施在哪儿、在几楼,会用 est-ce que 提问", "canDoZh": "能问宿舍的厨房、浴室、厕所在哪儿,听懂“在一楼、在二楼、在电梯对面”",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
   "newItems": [
-    { "id": "fr.est_ce_que", "kind": "phrase", "pos": "phrase", "text": "Est-ce que…?", "zh": "……吗?(一般疑问句开头)", "features": { "ipa": "ɛs.kə" }, "noteZh": "放在陈述句前面就变成问句,语序不变:Est-ce que tu es étudiant ?;元音前 est-ce qu':Est-ce qu'il y a… ?;读 [ɛs.kə],只有两个音节。" },
+    { "id": "fr.est_ce_que", "kind": "phrase", "pos": "phrase", "text": "Est-ce que… ?", "zh": "……吗?(一般疑问句开头)", "features": { "ipa": "ɛs.kə" }, "noteZh": "放在陈述句前面就变成问句,语序不变:Est-ce que tu es étudiant ?;元音前 est-ce qu':Est-ce qu'il y a… ?;读 [ɛs.kə],只有两个音节。" },
     { "id": "fr.cuisine", "kind": "word", "pos": "noun", "text": "la cuisine", "zh": "厨房;做饭", "features": { "gender": "f", "ipa": "la kɥi.zin" }, "noteZh": "两个意思:厨房,也指做饭、菜肴:faire la cuisine(做饭)。ui 读 [ɥi]。" },
     { "id": "fr.salle_de_bains", "kind": "word", "pos": "noun", "text": "la salle de bains", "zh": "浴室;卫生间", "alt": ["la salle de bain"], "features": { "gender": "f", "ipa": "la sal də bɛ̃" }, "noteZh": "法国的浴室(洗澡)和厕所常常分开;bains 的 s 不发音。" },
     { "id": "fr.toilettes", "kind": "word", "pos": "noun", "text": "les toilettes", "zh": "厕所", "features": { "gender": "f", "ipa": "le twa.lɛt" }, "noteZh": "平时用复数(阴性),代词用 elles;问路:Où sont les toilettes ?" },
@@ -16,7 +16,7 @@
   ],
   "reviewItems": ["fr.ou_lieu", "fr.a_cote_de", "fr.chambre"],
   "lines": [
-    { "speaker": "gardien", "text": "Bonjour, monsieur. La cuisine est au rez-de-chaussée.", "zh": "您好,先生。厨房在一楼(地面层)。", "items": ["fr.bonjour", "fr.monsieur", "fr.cuisine", "fr.etre", "fr.a", "fr.rez_de_chaussee"] },
+    { "speaker": "gardien", "text": "Bonjour, monsieur. La cuisine est au rez-de-chaussée.", "zh": "(浩刚入住时,管理员带他参观宿舍楼)您好,先生。厨房在一楼(地面层)。", "items": ["fr.bonjour", "fr.monsieur", "fr.cuisine", "fr.etre", "fr.a", "fr.rez_de_chaussee"] },
     { "speaker": "hao", "text": "Est-ce qu'il y a un ascenseur ?", "zh": "有电梯吗?", "items": ["fr.est_ce_que", "fr.il_y_a", "fr.un", "fr.ascenseur"] },
     { "speaker": "gardien", "text": "Oui, à côté de la cuisine.", "zh": "有,在厨房旁边。", "items": ["fr.oui", "fr.a_cote_de", "fr.cuisine"] },
     { "speaker": "hao", "text": "Où sont la salle de bains et les toilettes ?", "zh": "浴室和厕所在哪儿?", "items": ["fr.ou_lieu", "fr.etre", "fr.salle_de_bains", "fr.et", "fr.toilettes"] },
@@ -38,5 +38,5 @@
         { "text": "Ma chambre est au premier étage.", "zh": "我的房间在二楼(法国的 premier étage)。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

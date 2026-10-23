@@ -2,7 +2,7 @@
   "id": "fr.a1u4.l02", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
   "unit": "A1-4 我的住处", "order": 104020,
   "titleZh": "我的钥匙在哪儿?——地点介词", "goalZh": "会问东西在哪儿,用地点介词回答", "canDoZh": "能问“我的钥匙在哪儿?”,并用“在桌子上/下面/旁边”回答",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "fr.ou_lieu", "kind": "word", "pos": "adv", "text": "où", "zh": "哪里", "features": { "ipa": "u" }, "noteZh": "带重音符号的 où 是“哪里”;不带的 ou 是“或者”,读音一样。Où est… ?(单数)/ Où sont… ?(复数);口语也说 Il est où ?" },
     { "id": "fr.sur", "kind": "word", "pos": "prep", "text": "sur", "zh": "在……上面", "features": { "ipa": "syʁ" }, "noteZh": "u 读 [y]。sur le bureau = 在书桌上:介词在前,和中文“书桌上”的语序相反。" },
@@ -42,5 +42,5 @@
         { "text": "Le sac est à côté du lit.", "zh": "包在床旁边。(de + le → du)" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

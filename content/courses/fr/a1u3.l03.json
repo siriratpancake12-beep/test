@@ -2,7 +2,7 @@
   "id": "fr.a1u3.l03", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
   "unit": "A1-3 家人与朋友", "order": 103030,
   "titleZh": "我爸妈住在成都——-er 动词", "goalZh": "会用 -er 动词的全部人称说家人住在哪里、工作、说什么语言", "canDoZh": "能说家人住在哪个城市、在不在工作、会说什么语言",
-  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "fr.habiter", "kind": "word", "pos": "verb", "text": "habiter", "zh": "住;居住", "features": { "ipa": "a.bi.te" }, "noteZh": "h 不发音,所以 je 要省音:j'habite;nous、vous、ils 要联诵:nous habitons [nu.za.bi.tɔ̃]。住在某城市:habiter à + 城市(J'habite à Lyon)。" },
     { "id": "fr.travailler", "kind": "word", "pos": "verb", "text": "travailler", "zh": "工作", "features": { "ipa": "tʁa.va.je" }, "noteZh": "-ill- 读 [j]:je travaille [tʁa.vaj];Ils travaillent beaucoup. = 他们工作很忙。" },
@@ -17,12 +17,12 @@
   ],
   "reviewItems": ["fr.chinois", "fr.francais", "fr.mere"],
   "lines": [
-    { "speaker": "mme_moreau", "text": "Hao, vous êtes de Chengdu ?", "zh": "浩,您是成都人吧?", "items": ["fr.vous", "fr.etre", "fr.de"] },
+    { "speaker": "mme_moreau", "text": "Hao, vous êtes de Chengdu ?", "zh": "浩,你是成都人吧?", "items": ["fr.vous", "fr.etre", "fr.de"] },
     { "speaker": "hao", "text": "Oui, madame. Mes parents habitent à Chengdu.", "zh": "是的,老师。我父母住在成都。", "items": ["fr.oui", "fr.madame", "fr.mes", "fr.parents", "fr.habiter", "fr.a"] },
     { "speaker": "mme_moreau", "text": "Ils travaillent ?", "zh": "他们工作吗?", "items": ["fr.ils", "fr.travailler"] },
     { "speaker": "hao", "text": "Oui, ils travaillent beaucoup. Ma mère parle un peu anglais.", "zh": "是的,他们工作很忙。我妈妈会说一点英语。", "items": ["fr.oui", "fr.ils", "fr.travailler", "fr.beaucoup", "fr.ma", "fr.mere", "fr.parler", "fr.un_peu", "fr.anglais"] },
     { "speaker": "hao", "text": "Moi, je parle chinois et un peu français.", "zh": "我呢,说中文,也会说一点法语。", "items": ["fr.moi", "fr.je", "fr.parler", "fr.chinois", "fr.et", "fr.un_peu", "fr.francais"] },
-    { "speaker": "mme_moreau", "text": "Très bien ! Et vous, Chloé ?", "zh": "很好!您呢,克洛艾?", "items": ["fr.tres", "fr.bien", "fr.et", "fr.vous"] },
+    { "speaker": "mme_moreau", "text": "Très bien ! Et vous, Chloé ?", "zh": "很好!你呢,克洛艾?", "items": ["fr.tres", "fr.bien", "fr.et", "fr.vous"] },
     { "speaker": "chloe", "text": "Nous habitons à Lyon, et nous parlons français.", "zh": "我们家住在里昂,我们说法语。", "items": ["fr.nous", "fr.habiter", "fr.a", "fr.et", "fr.parler", "fr.francais"] },
     { "speaker": "chloe", "text": "Ma mère et ma sœur ? Elles parlent très bien anglais.", "zh": "我妈妈和我妹妹?她们英语说得很好。", "items": ["fr.ma", "fr.mere", "fr.et", "fr.soeur", "fr.elles", "fr.parler", "fr.tres", "fr.bien", "fr.anglais"] },
     { "speaker": "chloe", "text": "Et moi, je parle un peu chinois !", "zh": "我呢,会说一点中文!", "items": ["fr.et", "fr.moi", "fr.je", "fr.parler", "fr.un_peu", "fr.chinois"] }
@@ -42,5 +42,5 @@
         { "text": "Ils sont chinois, et ils ont cinquante et quarante-huit ans.", "zh": "他们是中国人,一个五十岁,一个四十八岁。(ils sont [il.sɔ̃] 和 ils ont [il.zɔ̃] 别听混)" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

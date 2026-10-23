@@ -2,7 +2,7 @@
   "id": "fr.a1u4.l08", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
   "unit": "A1-4 我的住处", "order": 104080,
   "titleZh": "单元复习:给爸妈的邮件——我的住处", "goalZh": "读懂并能模仿写一段介绍住处的短文", "canDoZh": "能写几句话介绍自己的住处:房间里有什么、在几楼、房租多少、邻居怎么样",
-  "skills": ["read", "write"], "estimatedMinutes": 20,
+  "skills": ["read", "write"], "estimatedMinutes": 20.5,
   "newItems": [
     { "id": "fr.loyer", "kind": "word", "pos": "noun", "text": "le loyer", "zh": "房租", "features": { "gender": "m", "ipa": "lə lwa.je" }, "noteZh": "oy 读 [waj]:[lwa.je];Le loyer est de trois cents euros par mois.(房租每月三百欧。)" },
     { "id": "fr.mois", "kind": "word", "pos": "noun", "text": "le mois", "zh": "月;月份", "features": { "gender": "m", "ipa": "lə mwa" }, "noteZh": "s 不发音,单复数同形;par mois = 每月。" },
@@ -11,18 +11,18 @@
   ],
   "reviewItems": ["fr.chambre", "fr.etage", "fr.cent", "fr.sympa"],
   "lines": [
-    { "speaker": "narrator", "text": "Bonjour ! Ça va ?", "zh": "爸爸妈妈好!你们好吗?", "items": ["fr.bonjour", "fr.ca_va"] },
-    { "speaker": "narrator", "text": "Moi, ça va très bien à Lyon.", "zh": "我在里昂一切都很好。", "items": ["fr.moi", "fr.ca_va", "fr.tres", "fr.bien", "fr.a"] },
-    { "speaker": "narrator", "text": "J'habite soixante-dix-huit, rue Pasteur.", "zh": "我住在巴斯德街 78 号。", "items": ["fr.je", "fr.habiter", "fr.soixante_dix", "fr.huit", "fr.rue"] },
-    { "speaker": "narrator", "text": "Ma chambre est au premier étage : c'est la chambre huit.", "zh": "我的房间在二楼(法国叫 premier étage),8 号房。", "items": ["fr.ma", "fr.chambre", "fr.etre", "fr.a", "fr.premier", "fr.etage", "fr.cest", "fr.huit"] },
-    { "speaker": "narrator", "text": "Elle est petite, mais il y a une grande fenêtre.", "zh": "房间不大,可是有一扇大窗户。", "items": ["fr.elle", "fr.etre", "fr.petit", "fr.mais", "fr.il_y_a", "fr.une", "fr.grand", "fr.fenetre"] },
-    { "speaker": "narrator", "text": "Il y a un lit, un bureau, une chaise et une armoire.", "zh": "房间里有一张床、一张书桌、一把椅子和一个衣柜。", "items": ["fr.il_y_a", "fr.un", "fr.lit", "fr.bureau", "fr.une", "fr.chaise", "fr.et", "fr.armoire"] },
-    { "speaker": "narrator", "text": "Il n'y a pas de table, mais la cuisine est au rez-de-chaussée.", "zh": "没有桌子,不过地面层有厨房。", "items": ["fr.il_y_a", "fr.ne_pas", "fr.pas_de", "fr.table", "fr.mais", "fr.cuisine", "fr.etre", "fr.a", "fr.rez_de_chaussee"] },
-    { "speaker": "narrator", "text": "Le loyer est de trois cents euros par mois.", "zh": "房租每月三百欧。", "items": ["fr.loyer", "fr.etre", "fr.de", "fr.trois", "fr.cent", "fr.euro", "fr.par", "fr.mois"] },
-    { "speaker": "narrator", "text": "Mon voisin, c'est Lucas. Il est français et très sympa.", "zh": "我的邻居叫卢卡。他是法国人,人很好。", "items": ["fr.mon", "fr.voisin", "fr.cest", "fr.il", "fr.etre", "fr.francais", "fr.et", "fr.tres", "fr.sympa"] },
-    { "speaker": "narrator", "text": "Nous mangeons ensemble dans la cuisine.", "zh": "我们常在厨房一起吃饭。", "items": ["fr.nous", "fr.manger", "fr.ensemble", "fr.dans", "fr.cuisine"] },
-    { "speaker": "narrator", "text": "Mon étage est très calme.", "zh": "我住的这层很安静。", "items": ["fr.mon", "fr.etage", "fr.etre", "fr.tres", "fr.calme"] },
-    { "speaker": "narrator", "text": "À bientôt ! Hao", "zh": "回头聊!浩", "items": ["fr.a_bientot"] }
+    { "speaker": "hao", "text": "Bonjour ! Ça va ?", "zh": "爸爸妈妈好!你们好吗?", "items": ["fr.bonjour", "fr.ca_va"] },
+    { "speaker": "hao", "text": "Moi, ça va très bien à Lyon.", "zh": "我在里昂一切都很好。", "items": ["fr.moi", "fr.ca_va", "fr.tres", "fr.bien", "fr.a"] },
+    { "speaker": "hao", "text": "J'habite soixante-dix-huit, rue Pasteur.", "zh": "我住在巴斯德街 78 号。", "items": ["fr.je", "fr.habiter", "fr.soixante_dix", "fr.huit", "fr.rue"] },
+    { "speaker": "hao", "text": "Ma chambre est au premier étage : c'est la chambre huit.", "zh": "我的房间在二楼(法国叫 premier étage),8 号房。", "items": ["fr.ma", "fr.chambre", "fr.etre", "fr.a", "fr.premier", "fr.etage", "fr.cest", "fr.huit"] },
+    { "speaker": "hao", "text": "Elle est petite, mais il y a une grande fenêtre.", "zh": "房间不大,可是有一扇大窗户。", "items": ["fr.elle", "fr.etre", "fr.petit", "fr.mais", "fr.il_y_a", "fr.une", "fr.grand", "fr.fenetre"] },
+    { "speaker": "hao", "text": "Il y a un lit, un bureau, une chaise et une armoire.", "zh": "房间里有一张床、一张书桌、一把椅子和一个衣柜。", "items": ["fr.il_y_a", "fr.un", "fr.lit", "fr.bureau", "fr.une", "fr.chaise", "fr.et", "fr.armoire"] },
+    { "speaker": "hao", "text": "Il n'y a pas de table, mais la cuisine est au rez-de-chaussée.", "zh": "没有桌子,不过地面层有厨房。", "items": ["fr.il_y_a", "fr.ne_pas", "fr.pas_de", "fr.table", "fr.mais", "fr.cuisine", "fr.etre", "fr.a", "fr.rez_de_chaussee"] },
+    { "speaker": "hao", "text": "Le loyer est de trois cents euros par mois.", "zh": "房租每月三百欧。", "items": ["fr.loyer", "fr.etre", "fr.de", "fr.trois", "fr.cent", "fr.euro", "fr.par", "fr.mois"] },
+    { "speaker": "hao", "text": "Mon voisin, c'est Lucas. Il est français et très sympa.", "zh": "我的邻居叫卢卡。他是法国人,人很好。", "items": ["fr.mon", "fr.voisin", "fr.cest", "fr.il", "fr.etre", "fr.francais", "fr.et", "fr.tres", "fr.sympa"] },
+    { "speaker": "hao", "text": "Nous mangeons ensemble dans la cuisine.", "zh": "我们常在厨房一起吃饭。", "items": ["fr.nous", "fr.manger", "fr.ensemble", "fr.dans", "fr.cuisine"] },
+    { "speaker": "hao", "text": "Mon étage est très calme.", "zh": "我住的这层很安静。", "items": ["fr.mon", "fr.etage", "fr.etre", "fr.tres", "fr.calme"] },
+    { "speaker": "hao", "text": "À bientôt ! Hao", "zh": "回头聊!浩", "items": ["fr.a_bientot"] }
   ],
   "questions": [
     { "prompt": "浩的房间在几楼(按中国的说法)?", "options": ["一楼", "二楼", "三楼"], "answer": 1, "explainZh": "Ma chambre est au premier étage —— 法国的 premier étage 是地面层上面一层,也就是中国的二楼。" },
@@ -48,5 +48,5 @@
         { "text": "Bonjour ! Ça va ?", "zh": "你们好!最近好吗?(邮件开头)" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

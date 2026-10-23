@@ -2,7 +2,7 @@
   "id": "fr.a1u3.l02", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
   "unit": "A1-3 家人与朋友", "order": 103020,
   "titleZh": "你几岁?——avoir 和年龄", "goalZh": "会用 avoir 说年龄,会说 21–69", "canDoZh": "能问别人几岁,说出自己和家人的年龄",
-  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "fr.avoir", "kind": "word", "pos": "verb", "text": "avoir", "zh": "有", "features": { "ipa": "a.vwaʁ" }, "noteZh": "不规则:j'ai, tu as, il/elle a, nous avons, vous avez, ils/elles ont。年龄、饿、渴都用 avoir:J'ai vingt ans. 注意 il a [i.la](他有)和 il est [i.lɛ](他是)读音不同。" },
     { "id": "fr.an", "kind": "word", "pos": "noun", "text": "l'an", "zh": "年;岁", "features": { "gender": "m", "ipa": "lɑ̃" }, "noteZh": "元音开头,阳性。说年龄 ans 不能省:J'ai vingt ans;和前面的数字联诵:deux ans [dø.zɑ̃]、vingt ans [vɛ̃.tɑ̃]、neuf ans [nœ.vɑ̃]。" },
@@ -28,7 +28,7 @@
     { "speaker": "chloe", "text": "Soixante-sept et soixante-neuf ans !", "zh": "一位六十七岁,一位六十九岁!", "items": ["fr.soixante", "fr.sept", "fr.et", "fr.neuf", "fr.an"] }
   ],
   "questions": [
-    { "prompt": "浩的妈妈几岁?", "options": ["三十岁", "四十八岁", "五十岁", "二十岁"], "answer": 1, "explainZh": "浩说:Elle a quarante-huit ans.(她四十八岁。)Trente ans ? 是克洛艾开玩笑猜的。" },
+    { "prompt": "浩的妈妈几岁?", "options": ["三十岁", "五十岁", "二十岁", "四十八岁"], "answer": 3, "explainZh": "浩说:Elle a quarante-huit ans.(她四十八岁。)Trente ans ? 是克洛艾开玩笑猜的。" },
     { "prompt": "克洛艾几岁?", "options": ["二十三岁", "十五岁", "二十岁"], "answer": 2, "explainZh": "浩说 J'ai vingt ans,克洛艾说 Moi aussi !(我也是!)——她也二十岁。二十三岁的是她哥哥,十五岁的是她妹妹。" },
     { "prompt": "克洛艾的两位祖母多少岁?", "options": ["六十七岁和六十九岁", "五十岁和四十八岁", "二十三岁和十五岁"], "answer": 0, "explainZh": "Soixante-sept et soixante-neuf ans ! —— soixante = 60,soixante-sept = 67,soixante-neuf = 69。" }
   ],
@@ -42,5 +42,5 @@
         { "text": "Émilie a vingt et un ans.", "zh": "艾米莉二十一岁。(21 中间加 et)" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -2,7 +2,7 @@
   "id": "fr.a1u4.l04", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
   "unit": "A1-4 我的住处", "order": 104040,
   "titleZh": "你们的公寓真漂亮——房子和房间", "goalZh": "会介绍一套房子有哪些房间,用 beau / nouveau 等形容词评价", "canDoZh": "能介绍一套公寓有几个房间、各个房间怎么样,并夸主人的房子",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "fr.appartement", "kind": "word", "pos": "noun", "text": "l'appartement", "zh": "公寓;套房", "features": { "gender": "m", "ipa": "la.paʁ.tə.mɑ̃" }, "noteZh": "元音开头,要记住是阳性;两个 p(英语 apartment 只有一个)。" },
     { "id": "fr.maison", "kind": "word", "pos": "noun", "text": "la maison", "zh": "房子;家", "features": { "gender": "f", "ipa": "la mɛ.zɔ̃" }, "noteZh": "两个元音之间的 s 读 [z];指独栋的房子,也指“家”:à la maison = 在家。" },
@@ -42,5 +42,5 @@
         { "text": "Voilà notre maison et notre jardin.", "zh": "这是我们的房子和花园。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

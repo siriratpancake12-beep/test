@@ -1,0 +1,45 @@
+{
+  "id": "ja.a1u1.l08", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 平假名与问候", "order": 101080,
+  "titleZh": "单元复习:合租房的欢迎茶会", "goalZh": "把第 1 单元的问候语串起来,在一天的不同场合正确地打招呼",
+  "canDoZh": "能按时间和场合选对问候语:早上、白天、晚上、初次见面、道谢、道歉、告别、睡前",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "ja.konbanwa", "kind": "phrase", "pos": "phrase", "text": "こんばんは", "zh": "晚上好", "features": { "roman": "konbanwa" }, "noteZh": "天黑以后见面时说;末尾的 は 也读 wa。ん 在 ば 前面读得像 m(kombanwa),但仍占一拍。" },
+    { "id": "ja.oyasuminasai", "kind": "phrase", "pos": "phrase", "text": "おやすみなさい", "zh": "晚安", "features": { "roman": "oyasuminasai" }, "noteZh": "睡前或晚上分别时说;朋友、家人之间说 おやすみ。" },
+    { "id": "ja.douzo", "kind": "word", "pos": "adv", "text": "どうぞ", "zh": "请(用);给你", "features": { "roman": "douzo", "pitch": 1 }, "noteZh": "递东西、请人吃喝、请人进门或先走时说。どう 是长音(dō)。" },
+    { "id": "ja.sayounara", "kind": "phrase", "pos": "phrase", "text": "さようなら", "zh": "再见(正式)", "features": { "roman": "sayounara" }, "noteZh": "下课时对老师说 先生、さようなら;朋友之间常说 じゃあね、またね——さようなら 听起来像要分开很久。" }
+  ],
+  "reviewItems": ["ja.sumimasen", "ja.arigatou_gozaimasu", "ja.hai", "ja.iie"],
+  "lines": [
+    { "speaker": "saki", "text": "こんばんは!", "zh": "晚上好!", "roman": "Konbanwa!", "tokens": ["こんばんは!"], "items": ["ja.konbanwa"] },
+    { "speaker": "kobayashi", "text": "こんばんは。どうぞ。", "zh": "晚上好。请进。", "roman": "Konbanwa. Douzo.", "tokens": ["こんばんは。", "どうぞ。"], "items": ["ja.konbanwa", "ja.douzo"] },
+    { "speaker": "rin", "text": "さきさん、こんばんは。", "zh": "咲同学,晚上好。", "roman": "Saki-san, konbanwa.", "tokens": ["さき", "さん、", "こんばんは。"], "items": ["ja.san", "ja.konbanwa"] },
+    { "speaker": "saki", "text": "はじめまして。さとう さきです。", "zh": "初次见面,我是佐藤咲。", "roman": "Hajimemashite. Satou Saki desu.", "tokens": ["はじめまして。", "さとう", "さき", "です。"], "items": ["ja.hajimemashite", "ja.desu"] },
+    { "speaker": "jiu", "text": "はじめまして。キム・ジウです。よろしくおねがいします。", "zh": "初次见面,我是金智友。请多关照。", "roman": "Hajimemashite. Kimu Jiu desu. Yoroshiku onegaishimasu.", "tokens": ["はじめまして。", "キム・ジウ", "です。", "よろしくおねがいします。"], "items": ["ja.hajimemashite", "ja.desu", "ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "kobayashi", "text": "リンさん、どうぞ。", "zh": "林雨,请用。", "roman": "Rin-san, douzo.", "tokens": ["リン", "さん、", "どうぞ。"], "items": ["ja.san", "ja.douzo"] },
+    { "speaker": "rin", "text": "はい、ありがとうございます。ジウさん、どうぞ。", "zh": "好的,谢谢您。智友,给你。", "roman": "Hai, arigatou gozaimasu. Jiu-san, douzo.", "tokens": ["はい、", "ありがとうございます。", "ジウ", "さん、", "どうぞ。"], "items": ["ja.hai", "ja.arigatou_gozaimasu", "ja.san", "ja.douzo"] },
+    { "speaker": "jiu", "text": "ありがとうございます。", "zh": "谢谢。", "roman": "Arigatou gozaimasu.", "tokens": ["ありがとうございます。"], "items": ["ja.arigatou_gozaimasu"] },
+    { "speaker": "rin", "text": "あ、すみません!", "zh": "啊,对不起!", "roman": "A, sumimasen!", "tokens": ["あ、", "すみません!"], "items": ["ja.sumimasen"] },
+    { "speaker": "kobayashi", "text": "いいえ、いいえ。", "zh": "没关系,没关系。", "roman": "Iie, iie.", "tokens": ["いいえ、", "いいえ。"], "items": ["ja.iie"] },
+    { "speaker": "saki", "text": "こばやしさん、ありがとうございます。さようなら。", "zh": "小林阿姨,谢谢您。再见。", "roman": "Kobayashi-san, arigatou gozaimasu. Sayounara.", "tokens": ["こばやし", "さん、", "ありがとうございます。", "さようなら。"], "items": ["ja.san", "ja.arigatou_gozaimasu", "ja.sayounara"] },
+    { "speaker": "rin", "text": "さきさん、さようなら。", "zh": "咲同学,再见。", "roman": "Saki-san, sayounara.", "tokens": ["さき", "さん、", "さようなら。"], "items": ["ja.san", "ja.sayounara"] },
+    { "speaker": "rin", "text": "こばやしさん、ジウさん、おやすみなさい。", "zh": "小林阿姨、智友,晚安。", "roman": "Kobayashi-san, Jiu-san, oyasuminasai.", "tokens": ["こばやし", "さん、", "ジウ", "さん、", "おやすみなさい。"], "items": ["ja.san", "ja.oyasuminasai"] },
+    { "speaker": "kobayashi", "text": "おやすみなさい。", "zh": "晚安。", "roman": "Oyasuminasai.", "tokens": ["おやすみなさい。"], "items": ["ja.oyasuminasai"] }
+  ],
+  "questions": [
+    { "prompt": "咲晚上来到合租房,用哪句话打招呼?", "options": ["こんにちは!", "おはようございます!", "こんばんは!"], "answer": 2, "explainZh": "天黑以后见面说 こんばんは(晚上好)。咲一进门就说 こんばんは!,大家さん也回 こんばんは。" },
+    { "prompt": "大家さん把茶递给林雨时说了什么?", "options": ["どうぞ。", "すみません。", "さようなら。"], "answer": 0, "explainZh": "大家さん说 リンさん、どうぞ。(林雨,请用。)递东西、请人吃喝时说 どうぞ。林雨把茶递给智友时也说了 どうぞ。" },
+    { "prompt": "林雨不小心碰翻了杯子,说 すみません。大家さん回答 いいえ、いいえ,意思是?", "options": ["不是我的杯子", "没关系,没关系", "不要了"], "answer": 1, "explainZh": "别人道歉时说 いいえ,意思是“没关系”。" },
+    { "prompt": "睡觉前,林雨对大家さん和智友说了什么?", "options": ["さようなら。", "こんばんは。", "ありがとうございます。", "おやすみなさい。"], "answer": 3, "explainZh": "林雨说:こばやしさん、ジウさん、おやすみなさい。(晚安。)さようなら 是咲回家时说的。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u1_greetings", "titleZh": "复习:按时间和场合选问候语",
+      "bodyZh": "日语的问候按时间分:早上(大约 10 点以前)おはようございます,白天 こんにちは,天黑以后 こんばんは;晚上分别或睡觉前说 おやすみなさい。こんにちは、こんばんは 末尾的 は 都读 wa。按场合分:第一次见面 はじめまして……よろしくおねがいします;道谢说 ありがとうございます,道歉说 すみません,对方都可以回 いいえ;递东西、请人进门或请人吃喝说 どうぞ;告别说 さようなら。中文的“你好”白天晚上都能用,日语要按时间换:晚上见面说 こんにちは 会显得别扭。",
+      "examples": [ { "text": "おはようございます。", "zh": "早上好。" }, { "text": "こんにちは。", "zh": "你好。(白天)" }, { "text": "こんばんは。", "zh": "晚上好。" }, { "text": "おやすみなさい。", "zh": "晚安。" } ] },
+    { "id": "ja.g.polite_casual", "titleZh": "礼貌说法和朋友之间的说法",
+      "bodyZh": "不少问候语有两种说法:ありがとうございます / ありがとう、おはようございます / おはよう、おやすみなさい / おやすみ。长的是礼貌说法,对老师、长辈、店员、刚认识的人用;短的用在家人、好朋友之间。初学时先用礼貌说法最稳妥——林雨对大家さん、咲、智友都用礼貌说法。さようなら 比较正式,学生放学时常对老师说 先生、さようなら;朋友之间分别更常说 じゃあね、またね。どうぞ 的 どう 是长音,读 dō。",
+      "examples": [ { "text": "ありがとうございます。/ ありがとう。", "zh": "谢谢。(礼貌 / 朋友之间)" }, { "text": "おやすみなさい。/ おやすみ。", "zh": "晚安。(礼貌 / 朋友之间)" }, { "text": "どうぞ。", "zh": "请(用);请进。" }, { "text": "さきさん、さようなら。", "zh": "咲同学,再见。" } ] }
+  ],
+  "review": "draft"
+}

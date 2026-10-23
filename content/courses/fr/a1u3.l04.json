@@ -2,7 +2,7 @@
   "id": "fr.a1u3.l04", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
   "unit": "A1-3 家人与朋友", "order": 103040,
   "titleZh": "他是工程师——职业", "goalZh": "会说常见职业,问别人做什么工作", "canDoZh": "能说家人做什么工作,并问别人“你是做什么的?”",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "fr.ingenieur", "kind": "word", "pos": "noun", "text": "l'ingénieur", "zh": "工程师", "features": { "gender": "m", "ipa": "lɛ̃.ʒe.njœʁ" }, "noteZh": "元音开头,要记住是阳性;说职业不加冠词:Il est ingénieur.;女工程师现在常写 ingénieure,读音一样。" },
     { "id": "fr.medecin", "kind": "word", "pos": "noun", "text": "le médecin", "zh": "医生", "features": { "gender": "m", "ipa": "lə med.sɛ̃" }, "noteZh": "中间的 e 几乎不读:[med.sɛ̃];男女都可以用:Ma mère est médecin." },
@@ -11,7 +11,7 @@
     { "id": "fr.entreprise", "kind": "word", "pos": "noun", "text": "l'entreprise", "zh": "公司;企业", "features": { "gender": "f", "ipa": "lɑ̃.tʁə.pʁiz" }, "noteZh": "元音开头,要记住是阴性:une entreprise;C'est une entreprise chinoise.(这是一家中国公司。)" },
     { "id": "fr.hopital", "kind": "word", "pos": "noun", "text": "l'hôpital", "zh": "医院", "features": { "gender": "m", "ipa": "lɔ.pi.tal" }, "noteZh": "h 不发音,冠词省成 l';阳性;ô 上面有长音符,写的时候不能漏。在医院工作:travailler à l'hôpital。" },
     { "id": "fr.chine", "kind": "word", "pos": "noun", "text": "la Chine", "zh": "中国", "features": { "gender": "f", "ipa": "la ʃin" }, "noteZh": "国名要大写、有阴阳性、要带冠词:la Chine, la France(阴性);城市名不加冠词:à Chengdu。“在中国”说 en Chine(第 6 单元学)。" },
-    { "id": "fr.quest_ce_que", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que…?", "zh": "……什么?(放在句首提问)", "features": { "ipa": "kɛs.kə" }, "noteZh": "放在句首问“什么”,后面的语序不变:Qu'est-ce que tu aimes ?(你喜欢什么?);元音前 qu'est-ce qu'。" },
+    { "id": "fr.quest_ce_que", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que… ?", "zh": "……什么?(放在句首提问)", "features": { "ipa": "kɛs.kə" }, "noteZh": "放在句首问“什么”,后面的语序不变:Qu'est-ce que tu aimes ?(你喜欢什么?);元音前 qu'est-ce qu'。" },
     { "id": "fr.quest_ce_que_tu_fais", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que tu fais dans la vie ?", "zh": "你是做什么工作的?", "features": { "ipa": "kɛs.kə ty fɛ dɑ̃ la vi" }, "noteZh": "问职业的固定说法,整句记(faire 第 5 单元学);对不熟的人、长辈说 Qu'est-ce que vous faites dans la vie ?" },
     { "id": "fr.a_la_retraite", "kind": "phrase", "pos": "phrase", "text": "à la retraite", "zh": "退休了", "features": { "ipa": "a la ʁə.tʁɛt" }, "noteZh": "和 être 连用:Mon grand-père est à la retraite.(我爷爷退休了。)" }
   ],
@@ -24,13 +24,13 @@
     { "speaker": "emilie", "text": "Et ton grand-père et ta grand-mère ?", "zh": "那你爷爷奶奶呢?", "items": ["fr.et", "fr.ton", "fr.grand_pere", "fr.ta", "fr.grand_mere"] },
     { "speaker": "hao", "text": "Ils sont à la retraite. Et ta mère, Émilie ?", "zh": "他们退休了。你妈妈呢,艾米莉?", "items": ["fr.ils", "fr.etre", "fr.a_la_retraite", "fr.et", "fr.ta", "fr.mere"] },
     { "speaker": "emilie", "text": "Elle est professeure à Montréal. Elle adore la Chine !", "zh": "她在蒙特利尔当老师。她特别喜欢中国!", "items": ["fr.elle", "fr.etre", "fr.professeur", "fr.a", "fr.adorer", "fr.chine"] },
-    { "speaker": "emilie", "text": "Et vous, Karim ? Qu'est-ce que vous faites dans la vie ?", "zh": "您呢,卡里姆?您是做什么的?", "items": ["fr.et", "fr.vous", "fr.quest_ce_que", "fr.quest_ce_que_tu_fais"] },
-    { "speaker": "serveur", "text": "Moi ? Je suis serveur… et étudiant !", "zh": "我?我是服务员……也是大学生!", "items": ["fr.moi", "fr.je", "fr.etre", "fr.serveur", "fr.et", "fr.etudiant"] }
+    { "speaker": "emilie", "text": "Et toi, Hao ? Qu'est-ce que tu fais dans la vie ?", "zh": "那你呢,浩?你是做什么的?", "items": ["fr.et_toi", "fr.quest_ce_que", "fr.quest_ce_que_tu_fais"] },
+    { "speaker": "serveur", "text": "Et moi ? Je suis serveur… et étudiant !", "zh": "(卡里姆插话)那我呢?我是服务员……也是大学生!", "items": ["fr.et", "fr.moi", "fr.je", "fr.etre", "fr.serveur", "fr.etudiant"] }
   ],
   "questions": [
     { "prompt": "浩的爸爸做什么工作?", "options": ["老师", "医生", "工程师", "服务员"], "answer": 2, "explainZh": "艾米莉猜 professeur,浩说:Non, il est ingénieur.(不,他是工程师。)" },
     { "prompt": "浩的爷爷奶奶现在怎么样?", "options": ["已经退休了", "在医院工作", "住在蒙特利尔"], "answer": 0, "explainZh": "浩说:Ils sont à la retraite.(他们退休了。)在医院工作的是浩的妈妈。" },
-    { "prompt": "卡里姆是做什么的?", "options": ["老师", "服务员,也是大学生", "工程师"], "answer": 1, "explainZh": "Moi ? Je suis serveur… et étudiant !(我是服务员……也是大学生!)" }
+    { "prompt": "卡里姆是做什么的?", "options": ["老师", "服务员,也是大学生", "工程师"], "answer": 1, "explainZh": "卡里姆插话:Et moi ? Je suis serveur… et étudiant !(那我呢?我是服务员……也是大学生!)" }
   ],
   "grammar": [
     { "id": "fr.g.profession_no_article", "titleZh": "说职业不加冠词:Il est ingénieur",
@@ -42,5 +42,5 @@
         { "text": "Qu'est-ce que tu aimes ?", "zh": "你喜欢什么?" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

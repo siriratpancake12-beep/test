@@ -2,23 +2,23 @@
   "id": "fr.a1u3.l08", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
   "unit": "A1-3 家人与朋友", "order": 103080,
   "titleZh": "单元复习:在克洛艾家吃周日午饭", "goalZh": "把家人、年龄、职业、描述串起来,在朋友家做客时自然地聊天", "canDoZh": "能在朋友家做客:回答家人、年龄、职业的问题,礼貌地说“开动吧”“回头见”",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 23,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 23.5,
   "newItems": [
     { "id": "fr.famille", "kind": "word", "pos": "noun", "text": "la famille", "zh": "家庭;家人", "features": { "gender": "f", "ipa": "la fa.mij" }, "noteZh": "-ille 读 [ij]。说“家人”时用单数:Ta famille est très sympa.(你家人真好。)" },
     { "id": "fr.fils_unique", "kind": "phrase", "pos": "phrase", "text": "fils unique", "zh": "独生子", "features": { "ipa": "fis y.nik" }, "noteZh": "fils 的 l 不发音、s 要读:[fis];说身份不加冠词:Je suis fils unique.;独生女是 fille unique。" },
     { "id": "fr.bon_appetit", "kind": "phrase", "pos": "phrase", "text": "Bon appétit !", "zh": "吃好!开动吧", "features": { "ipa": "bɔ.na.pe.ti" }, "noteZh": "开饭时说;bon 和 appétit 联诵,鼻化音消失:[bɔ.na.pe.ti]。主人说了以后,客人回一句 Merci ! 或 Bon appétit !" },
     { "id": "fr.a_bientot", "kind": "phrase", "pos": "phrase", "text": "À bientôt !", "zh": "回头见", "features": { "ipa": "a bjɛ̃.to" }, "noteZh": "à 带重音符号,t 不发音;比 Au revoir 亲切,表示很快会再见,常和它连着说:Au revoir et à bientôt !" }
   ],
-  "reviewItems": ["fr.avoir", "fr.an", "fr.quest_ce_que_tu_fais", "fr.sympa"],
+  "reviewItems": ["fr.avoir", "fr.an", "fr.professeur", "fr.sympa"],
   "lines": [
-    { "speaker": "isabelle", "text": "Bonjour, Hao ! Enchantée.", "zh": "你好,浩!很高兴认识您。", "items": ["fr.bonjour", "fr.enchante"] },
+    { "speaker": "isabelle", "text": "Bonjour, Hao ! Enchantée.", "zh": "你好,浩!很高兴认识你。", "items": ["fr.bonjour", "fr.enchante"] },
     { "speaker": "hao", "text": "Enchanté, madame. Merci beaucoup !", "zh": "阿姨好,很高兴认识您。太感谢您了!", "items": ["fr.enchante", "fr.madame", "fr.merci", "fr.beaucoup"] },
-    { "speaker": "isabelle", "text": "Bon appétit ! Vous avez un frère ou une sœur ?", "zh": "开动吧!您有兄弟姐妹吗?", "items": ["fr.bon_appetit", "fr.vous", "fr.avoir", "fr.un", "fr.frere", "fr.ou", "fr.une", "fr.soeur"] },
+    { "speaker": "isabelle", "text": "Bon appétit ! Vous avez un frère ou une sœur ?", "zh": "开动吧!你有兄弟姐妹吗?", "items": ["fr.bon_appetit", "fr.vous", "fr.avoir", "fr.un", "fr.frere", "fr.ou", "fr.une", "fr.soeur"] },
     { "speaker": "hao", "text": "Merci ! Non, je n'ai pas de frère. Je suis fils unique.", "zh": "谢谢!没有,我没有兄弟姐妹,我是独生子。", "items": ["fr.merci", "fr.non", "fr.je", "fr.ne_pas", "fr.avoir", "fr.pas_de", "fr.frere", "fr.etre", "fr.fils_unique"] },
-    { "speaker": "isabelle", "text": "Et vous avez quel âge ?", "zh": "那您多大了?", "items": ["fr.et", "fr.vous", "fr.avoir", "fr.quel_age"] },
+    { "speaker": "isabelle", "text": "Et vous avez quel âge ?", "zh": "那你多大了?", "items": ["fr.et", "fr.vous", "fr.avoir", "fr.quel_age"] },
     { "speaker": "hao", "text": "J'ai vingt ans. Chloé aussi !", "zh": "我二十岁。克洛艾也是!", "items": ["fr.je", "fr.avoir", "fr.vingt", "fr.an", "fr.aussi"] },
     { "speaker": "chloe", "text": "Son père est ingénieur, et sa mère est médecin.", "zh": "他爸爸是工程师,他妈妈是医生。", "items": ["fr.son", "fr.pere", "fr.etre", "fr.ingenieur", "fr.et", "fr.sa", "fr.mere", "fr.medecin"] },
-    { "speaker": "hao", "text": "Et vous, madame, qu'est-ce que vous faites dans la vie ?", "zh": "阿姨,那您是做什么工作的?", "items": ["fr.et", "fr.vous", "fr.madame", "fr.quest_ce_que_tu_fais"] },
+    { "speaker": "hao", "text": "Et vous, madame ?", "zh": "阿姨,那您呢?", "items": ["fr.et", "fr.vous", "fr.madame"] },
     { "speaker": "isabelle", "text": "Je suis professeure.", "zh": "我是老师。", "items": ["fr.je", "fr.etre", "fr.professeur"] },
     { "speaker": "hao", "text": "C'est délicieux, madame !", "zh": "阿姨,真好吃!", "items": ["fr.cest", "fr.delicieux", "fr.madame"] },
     { "speaker": "hao", "text": "Ta famille est très sympa, Chloé !", "zh": "克洛艾,你家人真好!", "items": ["fr.ta", "fr.famille", "fr.etre", "fr.tres", "fr.sympa"] },
@@ -27,12 +27,12 @@
   "questions": [
     { "prompt": "浩有兄弟姐妹吗?", "options": ["有一个哥哥", "有一个妹妹", "没有,他是独生子"], "answer": 2, "explainZh": "Non, je n'ai pas de frère. Je suis fils unique.(我没有兄弟,我是独生子。)否定句里 un frère 变成了 de frère。" },
     { "prompt": "浩几岁?", "options": ["二十岁", "二十三岁", "十五岁"], "answer": 0, "explainZh": "J'ai vingt ans. Chloé aussi !(我二十岁,克洛艾也是。)" },
-    { "prompt": "伊莎贝尔是做什么的?", "options": ["医生", "老师", "工程师"], "answer": 1, "explainZh": "浩问 Qu'est-ce que vous faites dans la vie ?,伊莎贝尔说:Je suis professeure.(我是老师。)医生是浩的妈妈。" },
+    { "prompt": "伊莎贝尔是做什么的?", "options": ["医生", "老师", "工程师"], "answer": 1, "explainZh": "刚聊完浩父母的工作,浩问 Et vous, madame ?(阿姨,您呢?),伊莎贝尔说:Je suis professeure.(我是老师。)医生是浩的妈妈。" },
     { "prompt": "伊莎贝尔开饭的时候说了什么?", "options": ["À bientôt !", "Au revoir !", "Enchantée !", "Bon appétit !"], "answer": 3, "explainZh": "开饭时说 Bon appétit !(吃好!开动吧);À bientôt ! 是走的时候说的“回头见”。" }
   ],
   "grammar": [
     { "id": "fr.g.u3_review", "titleZh": "单元小结:用 avoir 和 être 介绍家人",
-      "bodyZh": "1. avoir 说年龄和“有没有”:J'ai vingt ans. Vous avez un frère ou une sœur ? 否定的时候,un / une 要变成 de(元音前 d'):Je n'ai pas de frère.——不能说 Je n'ai pas un frère。这和第 2 单元 Je ne mange pas de pain 是同一条规则。\n2. être 说职业、国籍、性格,职业前不加冠词:Il est ingénieur. Elle est médecin. Je suis fils unique.\n3. “谁的”:我的 mon / ma / mes,你的 ton / ta / tes,他的或她的 son / sa / ses,都只看后面名词的性和数:Son père est ingénieur(他的爸爸),Ta famille est très sympa(你的家人)。对用 vous 的人,“您的”是 votre,下个单元学。\n4. 形容词跟名词配合:Chloé est grande(阴性加 -e),Ses yeux sont grands(复数加 -s)。\n文化:去法国朋友家吃饭,进门先说 Bonjour;第一次见面一般握手,熟了以后才贴面(la bise);开饭时主人说 Bon appétit !,夸一句 C'est délicieux ! 是最好的礼貌;走的时候说 Merci, au revoir et à bientôt !",
+      "bodyZh": "1. avoir 说年龄和“有没有”:J'ai vingt ans. Vous avez un frère ou une sœur ? 否定的时候,un / une 要变成 de(元音前 d'):Je n'ai pas de frère.——不能说 Je n'ai pas un frère。这和第 2 单元 Je ne mange pas de pain 是同一条规则。\n2. être 说职业、国籍、性格,职业前不加冠词:Il est ingénieur. Elle est médecin. Je suis fils unique.\n3. “谁的”:我的 mon / ma / mes,你的 ton / ta / tes,他的或她的 son / sa / ses,都只看后面名词的性和数:Son père est ingénieur(他的爸爸),Ta famille est très sympa(你的家人)。对用 vous 的人,“您的”是 votre,下个单元学。\n4. 形容词跟名词配合:Chloé est grande(阴性加 -e),Ses yeux sont grands(复数加 -s)。\n文化:去法国朋友家吃饭,进门先说 Bonjour;第一次见面可以握手,在朋友家里很多人也会直接贴面(la bise),跟着对方来就行;开饭时主人说 Bon appétit !,夸一句 C'est délicieux ! 是最好的礼貌;走的时候说 Merci, au revoir et à bientôt !",
       "examples": [
         { "text": "Vous avez un frère ou une sœur ?", "zh": "您有兄弟姐妹吗?" },
         { "text": "Non, je n'ai pas de frère.", "zh": "没有,我没有兄弟。(否定后 un → de)" },
@@ -40,5 +40,5 @@
         { "text": "Ta famille est très sympa !", "zh": "你家人真好!" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

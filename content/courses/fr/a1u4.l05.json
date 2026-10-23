@@ -2,14 +2,14 @@
   "id": "fr.a1u4.l05", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
   "unit": "A1-4 我的住处", "order": 104050,
   "titleZh": "我的地址和电话——数字 70 到 100", "goalZh": "会说 0 和 70–100,会说自己的地址和法国手机号", "canDoZh": "能说出自己的地址和法国手机号,也能听懂别人报的号码并记下来",
-  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "fr.zero", "kind": "word", "pos": "num", "text": "zéro", "zh": "零", "features": { "ipa": "ze.ʁo" }, "noteZh": "电话号码开头的 0 要读出来:zéro six;é 不能漏写。" },
     { "id": "fr.soixante_dix", "kind": "word", "pos": "num", "text": "soixante-dix", "zh": "七十", "features": { "ipa": "swa.sɑ̃t.dis" }, "noteZh": "= 60 + 10;71 是 soixante et onze,72 是 soixante-douze,78 是 soixante-dix-huit。" },
     { "id": "fr.quatre_vingts", "kind": "word", "pos": "num", "text": "quatre-vingts", "zh": "八十", "features": { "ipa": "ka.tʁə.vɛ̃" }, "noteZh": "= 4 × 20;后面再接数字时去掉 s:quatre-vingt-un(81,不加 et)、quatre-vingt-quatre(84)。" },
     { "id": "fr.quatre_vingt_dix", "kind": "word", "pos": "num", "text": "quatre-vingt-dix", "zh": "九十", "features": { "ipa": "ka.tʁə.vɛ̃.dis" }, "noteZh": "= 4 × 20 + 10;92 是 quatre-vingt-douze,98 是 quatre-vingt-dix-huit,99 是 quatre-vingt-dix-neuf。" },
     { "id": "fr.cent", "kind": "word", "pos": "num", "text": "cent", "zh": "一百", "features": { "ipa": "sɑ̃" }, "noteZh": "t 不发音;100 直接说 cent,不说 un cent;deux cents(200)有 s,deux cent dix(210)没有。" },
-    { "id": "fr.numero", "kind": "word", "pos": "noun", "text": "le numéro", "zh": "号码;号", "features": { "gender": "m", "ipa": "lə ny.me.ʁo" }, "noteZh": "le numéro de portable = 手机号;两个 é 都不能漏写。" },
+    { "id": "fr.numero", "kind": "word", "pos": "noun", "text": "le numéro", "zh": "号码;号", "features": { "gender": "m", "ipa": "lə ny.me.ʁo" }, "noteZh": "le numéro de portable = 手机号;é 不能漏写。" },
     { "id": "fr.portable", "kind": "word", "pos": "noun", "text": "le portable", "zh": "手机", "features": { "gender": "m", "ipa": "lə pɔʁ.tabl" }, "noteZh": "口语里手机就叫 portable(也说 le téléphone);法国手机号是 06 或 07 开头的十位数。" },
     { "id": "fr.adresse", "kind": "word", "pos": "noun", "text": "l'adresse", "zh": "地址", "features": { "gender": "f", "ipa": "la.dʁɛs" }, "noteZh": "元音开头,要记住是阴性;元音前用 ton:ton adresse。法语只有一个 d(英语 address 有两个)。" },
     { "id": "fr.rue", "kind": "word", "pos": "noun", "text": "la rue", "zh": "街;路", "features": { "gender": "f", "ipa": "la ʁy" }, "noteZh": "地址的写法:78, rue Pasteur(门牌号在前,rue 小写);u 读 [y]。" },
@@ -42,5 +42,5 @@
         { "text": "Zéro six, soixante et onze, quatre-vingt-quatre, quatre-vingt-dix-huit, vingt.", "zh": "06 71 84 98 20(两位一组地读)" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }
