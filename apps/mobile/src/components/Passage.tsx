@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Text, View } from "react-native";
 import type { LanguagePack, Line } from "@lingo/core";
-import { speakerOf } from "../content";
+import { speakerLabel, speakerOf } from "../content";
 import { say, stopSpeaking } from "../speech";
 import { color, s } from "../theme";
 import { Button } from "./Button";
@@ -11,6 +11,7 @@ import { readingOf, ReadingToggle, useReading } from "./Reading";
 /**
  * 阅读课的短文:句子连成一段(不是对话气泡),像读一篇真的文章。
  * 点一句就朗读这一句,并在下面显示这句的中文(日语、韩语有读音的连读音一起);也可以从头连着听,或者打开全文翻译。
+ * 几个人写的(群消息、来回的邮件):换人的地方另起一段,标上是谁写的;只有一个人写的就是一整段。
  */
 export function Passage({ lines, pack }: { lines: Line[]; pack: LanguagePack }) {
   const [active, setActive] = useState<number | null>(null);
@@ -19,6 +20,14 @@ export function Passage({ lines, pack }: { lines: Line[]; pack: LanguagePack }) 
   const reading = useReading(lines);
   const activeReading = active !== null && reading.show && lines[active] ? readingOf(lines[active]!) : undefined;
   useEffect(() => () => stopSpeaking(), []);
+  // 连续同一个人说的句子是一段
+  const groups: { speaker: string; items: { l: Line; i: number }[] }[] = [];
+  lines.forEach((l, i) => {
+    const last = groups[groups.length - 1];
+    if (last && last.speaker === l.speaker) last.items.push({ l, i });
+    else groups.push({ speaker: l.speaker, items: [{ l, i }] });
+  });
+  const multi = new Set(lines.map((l) => l.speaker)).size > 1;
 
   const read = (i: number, chain = false) => {
     const l = lines[i];
@@ -31,14 +40,19 @@ export function Passage({ lines, pack }: { lines: Line[]; pack: LanguagePack }) 
   return (
     <View style={s.card}>
       <Text style={s.sub}>点句子听发音、看这句的中文</Text>
-      <Text style={{ fontSize: 19, lineHeight: 31, color: color.text }}>
-        {lines.map((l, i) => (
-          <Text key={i} onPress={() => { setPlayingAll(false); read(i); }} style={active === i ? { backgroundColor: "#E6ECFF", color: color.primary } : null}>
-            {l.text}
-            {i < lines.length - 1 ? " " : ""}
+      {groups.map((g, gi) => (
+        <View key={gi}>
+          {multi && g.speaker !== "narrator" && <Text style={s.sub}>{speakerLabel(speakerOf(pack, g.speaker))}</Text>}
+          <Text style={{ fontSize: 19, lineHeight: 31, color: color.text }}>
+            {g.items.map(({ l, i }, k) => (
+              <Text key={i} onPress={() => { setPlayingAll(false); read(i); }} style={active === i ? { backgroundColor: "#E6ECFF", color: color.primary } : null}>
+                {l.text}
+                {k < g.items.length - 1 ? " " : ""}
+              </Text>
+            ))}
           </Text>
-        ))}
-      </Text>
+        </View>
+      ))}
       {!!activeReading && <Text style={readingStyle}>{activeReading}</Text>}
       {active !== null && !allZh && <Text style={[s.body, { color: color.sub }]}>💬 {lines[active]?.zh}</Text>}
       {allZh && <Text style={[s.body, { color: color.sub }]}>{lines.map((l) => l.zh).join("")}</Text>}
