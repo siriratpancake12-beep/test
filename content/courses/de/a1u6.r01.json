@@ -1,0 +1,40 @@
+{
+  "id": "de.a1u6.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106045,
+  "titleZh": "从波茨坦寄出的明信片", "goalZh": "读懂、也会写一张明信片:在哪儿、怎么去的、那里有什么", "canDoZh": "能读懂、也能写一张明信片:在哪儿、怎么去的、那里有什么",
+  "skills": ["read", "write"], "estimatedMinutes": 14.5,
+  "newItems": [
+    { "id": "de.schloss", "kind": "word", "pos": "noun", "text": "das Schloss", "zh": "宫殿;城堡;锁", "features": { "gender": "n", "plural": "die Schlösser", "ipa": "ʃlɔs" }, "noteZh": "复数变元音:die Schlösser;sch 读 [ʃ],o 是短音。波茨坦有很多宫殿和大公园。" },
+    { "id": "de.postkarte", "kind": "word", "pos": "noun", "text": "die Postkarte", "zh": "明信片", "features": { "gender": "f", "plural": "die Postkarten", "ipa": "ˈpɔstˌkaʁtə" }, "noteZh": "die Post + die Karte;写明信片和写邮件一样:开头 Liebe … / Lieber …,结尾 Viele Grüße。" }
+  ],
+  "reviewItems": ["de.warten", "de.umsteigen", "de.s_bahn", "de.liebe", "de.viele_gruesse", "de.kennen"],
+  "lines": [
+    { "speaker": "wei", "text": "Liebe Sofia,", "zh": "亲爱的索菲娅:", "items": ["de.liebe"] },
+    { "speaker": "wei", "text": "heute ist Sonntag, und ich bin in Potsdam!", "zh": "今天是星期天,我在波茨坦!", "items": ["de.heute", "de.sein", "de.sonntag", "de.und", "de.ich", "de.in"] },
+    { "speaker": "wei", "text": "Lena kennt Potsdam sehr gut.", "zh": "莉娜对波茨坦很熟。", "items": ["de.kennen", "de.sehr", "de.gut"] },
+    { "speaker": "wei", "text": "Wir fahren mit dem Bus zum Hauptbahnhof.", "zh": "我们先坐公交车到中央火车站。", "items": ["de.wir", "de.fahren", "de.mit", "de.bus", "de.zu"] },
+    { "speaker": "wei", "text": "Da steigen wir in die S-Bahn Richtung Potsdam um.", "zh": "在那儿换乘开往波茨坦方向的城铁。", "items": ["de.da", "de.umsteigen", "de.wir", "de.in", "de.s_bahn", "de.richtung"] },
+    { "speaker": "wei", "text": "Wir warten eine halbe Stunde, dann kommt die S-Bahn.", "zh": "我们等了半个小时,城铁才来。", "items": ["de.wir", "de.warten", "de.ein", "de.halb", "de.stunde", "de.dann", "de.ich_komme_aus", "de.s_bahn"] },
+    { "speaker": "wei", "text": "Potsdam ist sehr schön. Es gibt hier einen großen Park und alte Schlösser.", "zh": "波茨坦很美。这里有一个大公园,还有一些老宫殿。", "items": ["de.sein", "de.sehr", "de.schoen", "de.es_gibt", "de.hier", "de.ein", "de.gross", "de.park", "de.und", "de.alt", "de.schloss"] },
+    { "speaker": "wei", "text": "Wir gehen in ein Schloss und in ein Museum.", "zh": "我们去参观了一座宫殿和一家博物馆。", "items": ["de.wir", "de.gehen", "de.in", "de.ein", "de.schloss", "de.und", "de.museum"] },
+    { "speaker": "wei", "text": "Jetzt bin ich im Park und schreibe die Postkarte.", "zh": "现在我在公园里写这张明信片。", "items": ["de.jetzt", "de.sein", "de.ich", "de.in", "de.park", "de.und", "de.schreiben", "de.postkarte"] },
+    { "speaker": "wei", "text": "Am Abend fahren wir nach Berlin.", "zh": "晚上我们坐车回柏林。", "items": ["de.am", "de.abend", "de.fahren", "de.wir", "de.nach"] },
+    { "speaker": "wei", "text": "Potsdam ist nicht weit. Du musst auch nach Potsdam fahren!", "zh": "波茨坦不远。你也一定要来看看!", "items": ["de.sein", "de.nicht", "de.weit", "de.du", "de.muessen", "de.auch", "de.nach", "de.fahren"] },
+    { "speaker": "wei", "text": "Viele Grüße, dein Wei", "zh": "祝好!王伟", "items": ["de.viele_gruesse", "de.dein"] }
+  ],
+  "questions": [
+    { "prompt": "王伟他们怎么去的波茨坦?", "options": ["先坐公交车到中央火车站,再换城铁", "坐火车直接去", "骑自行车去"], "answer": 0, "explainZh": "Wir fahren mit dem Bus zum Hauptbahnhof. Da steigen wir in die S-Bahn Richtung Potsdam um.(先坐公交车到中央火车站,再换乘城铁。)" },
+    { "prompt": "他们等城铁等了多久?", "options": ["十分钟", "一个小时", "半个小时"], "answer": 2, "explainZh": "Wir warten eine halbe Stunde(我们等了半个小时)——eine halbe Stunde 是半个小时。" },
+    { "prompt": "王伟写这张明信片的时候在哪儿?", "options": ["在博物馆里", "在公园里", "在城铁上"], "answer": 1, "explainZh": "Jetzt bin ich im Park und schreibe die Postkarte.(现在我在公园里写明信片。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_postkarte", "titleZh": "写明信片:格式和 mit / zu / nach / in 的固定搭配",
+      "bodyZh": "明信片的格式和邮件一样:开头写 Liebe Sofia,(给女性)/ Lieber Jonas,(给男性),后面加逗号,下一行第一个词小写:heute ist Sonntag …;结尾写 Viele Grüße 和自己的名字(dein Wei / deine Lena)。\n写行程常用这几个固定搭配:mit dem Bus / mit der S-Bahn(坐公交 / 坐城铁)、zum Hauptbahnhof(到中央火车站)、nach Potsdam / nach Berlin(去城市用 nach)、in Potsdam(在城市里用 in)。\n可分动词 umsteigen 的 um 放句末:Da steigen wir in die S-Bahn um.\n第 8 单元学完成时以前,明信片里先用现在时写今天的事:Jetzt bin ich im Park und schreibe die Postkarte.",
+      "examples": [
+        { "text": "Wir fahren mit dem Bus zum Hauptbahnhof.", "zh": "我们坐公交车到中央火车站。" },
+        { "text": "Da steigen wir in die S-Bahn um.", "zh": "我们在那儿换乘城铁。" },
+        { "text": "Am Abend fahren wir nach Berlin.", "zh": "晚上我们坐车回柏林。" }
+      ] }
+  ],
+  "review": "draft"
+}

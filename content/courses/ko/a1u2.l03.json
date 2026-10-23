@@ -1,0 +1,45 @@
+{
+  "id": "ko.a1u2.l03", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 谚文:收音与问候", "order": 102030,
+  "titleZh": "写的和读的不一样:代表音和双收音", "goalZh": "掌握代表音规则(ㅅ ㅈ ㅊ ㅌ ㅎ 等收音都读 [t])和双收音的读法",
+  "canDoZh": "能读对 옷(衣服)、꽃(花)、앞(前面)、밖(外面)这类写法和读音不同的词",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "ko.ot", "kind": "word", "pos": "noun", "text": "옷", "zh": "衣服", "features": { "roman": "ot" }, "noteZh": "收音 ㅅ 读 [t]:옷 [옫];后面接元音时 ㅅ 移过去:옷이 [오시]。" },
+    { "id": "ko.kkot", "kind": "word", "pos": "noun", "text": "꽃", "zh": "花", "features": { "roman": "kkot" }, "noteZh": "收音 ㅊ 也读 [t]:꽃 [꼳];开头是紧音 ㄲ。和 옷 押韵,听的时候注意开头。" },
+    { "id": "ko.ap", "kind": "word", "pos": "noun", "text": "앞", "zh": "前面", "features": { "roman": "ap" }, "noteZh": "收音 ㅍ 读 [p]:앞 [압];학교 앞(学校前面,第 6 单元)。" },
+    { "id": "ko.bak", "kind": "word", "pos": "noun", "text": "밖", "zh": "外面", "features": { "roman": "bak" }, "noteZh": "收音 ㄲ 读 [k]:밖 [박]。" },
+    { "id": "ko.syl_eops", "kind": "char", "pos": "char", "text": "없", "zh": "双收音 ㅄ:单读 [업]", "features": { "roman": "eop" }, "noteZh": "两个收音只读 ㅂ;接元音时 ㅅ 移到下一个字并变紧:없어요 [업써요](没有,第 3 单元)。" },
+    { "id": "ko.syl_anj", "kind": "char", "pos": "char", "text": "앉", "zh": "双收音 ㄵ:单读 [안]", "features": { "roman": "an" }, "noteZh": "只读 ㄴ;接元音时 ㅈ 移过去:앉으세요 [안즈세요](请坐)。" },
+    { "id": "ko.syl_ilg", "kind": "char", "pos": "char", "text": "읽", "zh": "双收音 ㄺ:单读 [익]", "features": { "roman": "ik" }, "noteZh": "单读时读 ㄱ;接元音时 ㄹ 留下、ㄱ 移过去:읽어요 [일거요](读)。" },
+    { "id": "ko.syl_manh", "kind": "char", "pos": "char", "text": "많", "zh": "双收音 ㄶ:单读 [만]", "features": { "roman": "man" }, "noteZh": "ㅎ 不发音;接元音时 ㅎ 脱落:많이 [마니](很多,第 4 单元)。" }
+  ],
+  "reviewItems": ["ko.syl_at", "ko.syl_ap", "ko.syl_ak", "ko.mwo"],
+  "lines": [
+    { "speaker": "park", "text": "뭐예요?", "zh": "(收音课上,朴老师举起一张卡片,上面画着一件衣服)这是什么?", "roman": "Mwoyeyo?", "items": ["ko.mwo"] },
+    { "speaker": "jing", "text": "옷이에요.", "zh": "是衣服。", "roman": "Osieyo.", "items": ["ko.ot"] },
+    { "speaker": "park", "text": "네, 옷.", "zh": "对,衣服。", "roman": "Ne, ot.", "items": ["ko.ne", "ko.ot"] },
+    { "speaker": "park", "text": "꽃.", "zh": "(这次老师不拿卡片,只念一个词)花。", "roman": "Kkot.", "items": ["ko.kkot"] },
+    { "speaker": "nam", "text": "네? 옷이에요?", "zh": "啊?是“衣服”吗?", "roman": "Ne? Osieyo?", "items": ["ko.ne", "ko.ot"] },
+    { "speaker": "park", "text": "아니요. 꽃이에요, 꽃.", "zh": "(老师举起画着花的卡片)不是。是花,花。", "roman": "Aniyo. Kkochieyo, kkot.", "items": ["ko.aniyo", "ko.kkot"] },
+    { "speaker": "jing", "text": "앞, 밖.", "zh": "(老师在黑板上写了两个字,先指指教室前面,再指指窗外;陈静读出来)前面,外面。", "roman": "Ap, bak.", "items": ["ko.ap", "ko.bak"] },
+    { "speaker": "narrator", "text": "앋 옷 꽃", "zh": "收音 ㄷ、ㅅ、ㅊ 都读 [t]:at、ot、kkot", "roman": "at ot kkot", "items": ["ko.syl_at", "ko.ot", "ko.kkot"] },
+    { "speaker": "narrator", "text": "압 앞, 악 밖", "zh": "ㅂ、ㅍ 都读 [p],ㄱ、ㄲ 都读 [k]:ap、ap,ak、bak", "roman": "ap ap, ak bak", "items": ["ko.syl_ap", "ko.ap", "ko.syl_ak", "ko.bak"] },
+    { "speaker": "narrator", "text": "없 앉 읽 많", "zh": "双收音单读时只读一个:eop、an、ik、man", "roman": "eop an ik man", "items": ["ko.syl_eops", "ko.syl_anj", "ko.syl_ilg", "ko.syl_manh"] }
+  ],
+  "questions": [
+    { "prompt": "老师只念了一个词“꽃”,南以为是什么?", "options": ["옷(衣服)", "앞(前面)", "밖(外面)"], "answer": 0, "explainZh": "第 4–6 句:꽃 [꼳] 和 옷 [옫] 的收音都读 [t],只差开头的辅音。南听成了 옷,问 옷이에요?,老师说 아니요, 꽃이에요。" },
+    { "prompt": "꽃 单独读的时候,收音 ㅊ 读成什么音?", "options": ["[ch]", "[t]", "[s]"], "answer": 1, "explainZh": "代表音规则:ㄷ ㅅ ㅆ ㅈ ㅊ ㅌ ㅎ 作收音都读 [t],所以 꽃 读 [꼳]。只有后面接元音时(꽃이에요 [꼬치에요])ㅊ 才读出来。" },
+    { "prompt": "앞(前面)和 압 的读音怎么样?", "options": ["앞 后面要带一个“普”", "앞 要送气,압 不送气", "一样,都读 [압]"], "answer": 2, "explainZh": "第 9 句:收音 ㅍ 和 ㅂ 都读 [p],双唇闭住就停,所以 앞 和 압 读音相同。" },
+    { "prompt": "双收音的 없 单独读时读什么?", "options": ["[업]", "[엇]", "[업스]"], "answer": 0, "explainZh": "第 10 句:ㅄ 单读只读 ㅂ,없 读 [업];ㅅ 要等后面接元音时才移过去读:없어요 [업써요]。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.representative", "titleZh": "代表音规则:收音写法多,读音只有 7 个",
+      "bodyZh": "上一课的 7 个收音是“读音”,写法却多得多。规则:ㄱ ㄲ ㅋ 作收音都读 [k];ㄷ ㅅ ㅆ ㅈ ㅊ ㅌ ㅎ 都读 [t];ㅂ ㅍ 都读 [p];ㄴ ㄹ ㅁ ㅇ 照原样读。所以 옷 读 [옫]、꽃 读 [꼳]、앞 读 [압]、밖 读 [박]:옷 和 꽃 押韵,앞 和 압 同音。中国学习者常见的错是看到 ㅅ 就读 s、看到 ㅊ 就读 ch,在后面加个元音读成“奥斯”“阔赤”。记住:收音后面没有元音时,一律按代表音读,堵住就停。后面接元音开头的音节(比如 이에요)时,收音会移到下一个字,按原来的字母读:옷이에요 [오시에요]、꽃이에요 [꼬치에요]——这叫连音,第 4 课细讲。",
+      "examples": [ { "text": "옷 [옫]", "zh": "衣服:收音 ㅅ 读 [t]" }, { "text": "꽃 [꼳]", "zh": "花:收音 ㅊ 读 [t]" }, { "text": "앞 [압] / 밖 [박]", "zh": "前面 / 外面" }, { "text": "옷이에요 [오시에요]", "zh": "是衣服:ㅅ 移到下一个字,读 s" } ] },
+    { "id": "ko.g.double_batchim", "titleZh": "双收音:单读时只读一个",
+      "bodyZh": "有些字下面有两个收音字母,叫双收音,比如 없、앉、읽、많。单独读(或后面接辅音)时只读其中一个:없 读 [업](读 ㅂ)、앉 读 [안](读 ㄴ)、많 读 [만](读 ㄴ,ㅎ 不发音)——大多数读左边那个;읽 读 [익],读的是右边的 ㄱ,要单独记。后面接元音开头的音节时,第二个收音字母移到下一个字:없어요 [업써요](没有)、앉으세요 [안즈세요](请坐)、읽어요 [일거요](读)、많이 [마니](很多,ㅎ 脱落)。这些词以后会一个个学到,现在先会认、会读这四个字。",
+      "examples": [ { "text": "없 [업]", "zh": "双收音 ㅄ:读 ㅂ" }, { "text": "앉 [안]", "zh": "双收音 ㄵ:读 ㄴ" }, { "text": "읽 [익]", "zh": "双收音 ㄺ:读 ㄱ" }, { "text": "많 [만]", "zh": "双收音 ㄶ:读 ㄴ" } ] }
+  ],
+  "review": "draft"
+}

@@ -22,10 +22,10 @@
     { "speaker": "wei", "text": "Die Nudeln sind lang, und das Leben ist dann auch lang!", "zh": "面条长,寿命也就长啦!", "items": ["de.nudel", "de.sein", "de.lang", "de.und", "de.leben", "de.dann", "de.auch"] }
   ],
   "questions": [
-    { "prompt": "在德国,生日蛋糕一般是谁带来的?", "options": ["朋友们", "过生日的人自己", "老师"], "answer": 1, "explainZh": "Das Geburtstagskind bringt auch den Kuchen mit.(蛋糕也是寿星自己带来。)这和中国常见的“朋友给寿星买蛋糕”不一样。" },
+    { "prompt": "在德国,生日蛋糕一般是谁带来的?", "options": ["朋友们", "老师", "过生日的人自己"], "answer": 2, "explainZh": "Das Geburtstagskind bringt auch den Kuchen mit.(蛋糕也是寿星自己带来。)这和中国常见的“朋友给寿星买蛋糕”不一样。" },
     { "prompt": "按德国的习俗,什么时候祝别人生日快乐?", "options": ["生日当天", "生日前一天", "什么时候都可以"], "answer": 0, "explainZh": "Vor dem Geburtstag gibt es keine Party. Am Geburtstag schreiben die Freunde Nachrichten …(生日之前不庆祝,当天才发祝福。)" },
-    { "prompt": "短文里说,哪一个生日特别重要?", "options": ["16 岁生日", "20 岁生日", "18 岁生日"], "answer": 2, "explainZh": "Der 18. Geburtstag ist sehr wichtig.(18 岁生日特别重要。)" },
-    { "prompt": "王伟说,中国人过生日吃什么?为什么?", "options": ["吃蛋糕,因为好吃", "吃长面条,因为面条长,寿命也长", "吃饺子,因为过节"], "answer": 1, "explainZh": "In China essen wir am Geburtstag lange Nudeln. Die Nudeln sind lang, und das Leben ist dann auch lang!" }
+    { "prompt": "短文里说,哪一个生日特别重要?", "options": ["16 岁生日", "18 岁生日", "20 岁生日"], "answer": 1, "explainZh": "Der 18. Geburtstag ist sehr wichtig.(18 岁生日特别重要。)" },
+    { "prompt": "王伟说,中国人过生日吃什么?为什么?", "options": ["吃长面条,因为面条长,寿命也长", "吃蛋糕,因为好吃", "吃饺子,因为过节"], "answer": 0, "explainZh": "In China essen wir am Geburtstag lange Nudeln. Die Nudeln sind lang, und das Leben ist dann auch lang!" }
   ],
   "grammar": [
     { "id": "de.g.u5_geburtstag_trennbar", "titleZh": "复习:可分动词 einladen / mitbringen 和生日祝福",

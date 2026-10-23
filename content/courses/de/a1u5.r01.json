@@ -23,7 +23,7 @@
     { "speaker": "wei", "text": "Am Dienstag ist es billig, aber am Samstag können wir zusammen gehen.", "zh": "星期二便宜,不过星期六我们可以一起去。", "items": ["de.am", "de.dienstag", "de.sein", "de.es", "de.billig", "de.aber", "de.samstag", "de.koennen", "de.wir", "de.zusammen", "de.gehen"] }
   ],
   "questions": [
-    { "prompt": "《Ein Tag in Chengdu》这部电影有多长?", "options": ["一个小时", "两个小时", "三个小时"], "answer": 1, "explainZh": "放映表上写着:Der Film ist zwei Stunden lang.(片长两个小时。)三个小时的是意大利电影《Hundert Jahre》。" },
+    { "prompt": "《Ein Tag in Chengdu》这部电影有多长?", "options": ["三个小时", "一个小时", "两个小时"], "answer": 2, "explainZh": "放映表上写着:Der Film ist zwei Stunden lang.(片长两个小时。)三个小时的是意大利电影《Hundert Jahre》。" },
     { "prompt": "哪天的电影票便宜?一张多少钱?", "options": ["星期六,9 欧元", "星期天,6 欧元", "星期二,6 欧元"], "answer": 2, "explainZh": "Am Dienstag ist Kinotag. Dann kostet eine Kinokarte sechs Euro.(星期二是电影日,一张票 6 欧元。)平时一张 9 欧元。" },
     { "prompt": "三部电影里,星期天放的是哪一部?", "options": ["《Hundert Jahre》", "《Mein Freund, der Koch》", "《Ein Tag in Chengdu》"], "answer": 0, "explainZh": "《Hundert Jahre》:Am Sonntag um 15 Uhr.(星期天 15 点。)另外两部都在星期五或星期六放。" },
     { "prompt": "王伟觉得哪一场最合适?", "options": ["星期二晚上 8:15", "星期六下午 4:15", "星期天下午 3 点", "星期五晚上 8:15"], "answer": 1, "explainZh": "王伟写道:am Samstag um Viertel nach vier(星期六四点一刻,就是放映表上的 16:15),星期二虽然便宜,但他说星期六两人可以一起去。" }

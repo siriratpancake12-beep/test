@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u2.l01", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 谚文:收音与问候", "order": 102010,
+  "titleZh": "最后一块拼图:复合元音", "goalZh": "会读、会写 7 个复合元音,学完全部 40 个谚文字母",
+  "canDoZh": "能拼读任何不带收音的韩文字,听懂并会问 뭐?(什么?)",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 27,
+  "newItems": [
+    { "id": "ko.jamo_wa", "kind": "char", "pos": "char", "text": "ㅘ", "zh": "元音 wa,像“哇”", "features": { "roman": "wa" }, "noteZh": "= ㅗ + ㅏ,快速连成一个音;ㅗ 写在下、ㅏ 写在右:와、과。" },
+    { "id": "ko.jamo_wae", "kind": "char", "pos": "char", "text": "ㅙ", "zh": "元音 wae,读音像“喂”", "features": { "roman": "wae" }, "noteZh": "= ㅗ + ㅐ;和 ㅚ、ㅞ 读音几乎一样,只能记拼写:왜(为什么)。" },
+    { "id": "ko.jamo_oe", "kind": "char", "pos": "char", "text": "ㅚ", "zh": "元音 oe,实际读音像“喂”", "features": { "roman": "oe" }, "noteZh": "= ㅗ + ㅣ,但不读“哦衣”,而读 we:회사(公司)、죄송합니다。" },
+    { "id": "ko.jamo_wo", "kind": "char", "pos": "char", "text": "ㅝ", "zh": "元音 wo,像张大嘴的“窝”", "features": { "roman": "wo" }, "noteZh": "= ㅜ + ㅓ:뭐(什么)、고마워요。" },
+    { "id": "ko.jamo_we", "kind": "char", "pos": "char", "text": "ㅞ", "zh": "元音 we,像“喂”", "features": { "roman": "we" }, "noteZh": "= ㅜ + ㅔ;很少见,如 웨이터(服务员)。" },
+    { "id": "ko.jamo_wi", "kind": "char", "pos": "char", "text": "ㅟ", "zh": "元音 wi,像快读的“威”", "features": { "roman": "wi" }, "noteZh": "= ㅜ + ㅣ,嘴唇从圆迅速变扁:위(上面,第 6 单元)、뒤(后面)。" },
+    { "id": "ko.jamo_ui", "kind": "char", "pos": "char", "text": "ㅢ", "zh": "元音 ui:从 ㅡ 滑向 ㅣ", "features": { "roman": "ui" }, "noteZh": "三种读法:词首读 [의](의자 椅子);辅音后或词中常读 [이](회의 [회이]);作助词“的”读 [에]。" },
+    { "id": "ko.mwo", "kind": "word", "pos": "pron", "text": "뭐", "zh": "什么(口语)", "features": { "roman": "mwo" }, "noteZh": "무엇 的口语缩略。单说 뭐? 像随口的“啥?”,只对熟朋友说;对老师、店员和刚认识的人问 뭐예요?(是什么?)。" },
+    { "id": "ko.sagwa", "kind": "word", "pos": "noun", "text": "사과", "zh": "苹果;道歉", "features": { "roman": "sagwa" }, "noteZh": "两个汉字词同音:沙果(苹果)、谢过(道歉),看上下文分辨;과 = ㄱ + ㅘ。" }
+  ],
+  "reviewItems": ["ko.jamo_o", "ko.jamo_u", "ko.jamo_eu", "ko.ne"],
+  "lines": [
+    { "speaker": "narrator", "text": "와 왜 외 워 웨 위 의", "zh": "七个复合元音:wa、wae、oe、wo、we、wi、ui", "roman": "wa wae oe wo we wi ui", "items": ["ko.jamo_ng", "ko.jamo_wa", "ko.jamo_wae", "ko.jamo_oe", "ko.jamo_wo", "ko.jamo_we", "ko.jamo_wi", "ko.jamo_ui"] },
+    { "speaker": "narrator", "text": "오 아 와, 우 어 워", "zh": "ㅗ + ㅏ = ㅘ,ㅜ + ㅓ = ㅝ:两个元音快速连成一个音", "roman": "o a wa, u eo wo", "items": ["ko.jamo_ng", "ko.jamo_o", "ko.jamo_a", "ko.jamo_wa", "ko.jamo_u", "ko.jamo_eo", "ko.jamo_wo"] },
+    { "speaker": "narrator", "text": "우 이 위, 으 이 의", "zh": "ㅜ + ㅣ = ㅟ,ㅡ + ㅣ = ㅢ", "roman": "u i wi, eu i ui", "items": ["ko.jamo_ng", "ko.jamo_u", "ko.jamo_i", "ko.jamo_wi", "ko.jamo_eu", "ko.jamo_ui"] },
+    { "speaker": "park", "text": "사과.", "zh": "(语学堂开课前的分班说明会,朴老师举起一张图片卡)苹果。", "roman": "Sagwa.", "items": ["ko.sagwa"] },
+    { "speaker": "nam", "text": "뭐예요?", "zh": "(坐在陈静旁边的越南同学南指着下一张卡)这是什么?", "roman": "Mwoyeyo?", "items": ["ko.mwo"] },
+    { "speaker": "park", "text": "오이예요.", "zh": "是黄瓜。", "roman": "Oiyeyo.", "items": ["ko.oi"] },
+    { "speaker": "nam", "text": "네? 뭐예요?", "zh": "啊?是什么?", "roman": "Ne? Mwoyeyo?", "items": ["ko.ne", "ko.mwo"] },
+    { "speaker": "park", "text": "오이, 오이예요.", "zh": "(老师放慢速度)黄瓜,是黄瓜。", "roman": "Oi, oiyeyo.", "items": ["ko.oi"] },
+    { "speaker": "jing", "text": "뭐예요?", "zh": "(陈静指着第三张卡)这个是什么?", "roman": "Mwoyeyo?", "items": ["ko.mwo"] },
+    { "speaker": "park", "text": "우유예요.", "zh": "是牛奶。", "roman": "Uyuyeyo.", "items": ["ko.uyu"] }
+  ],
+  "questions": [
+    { "prompt": "南指着第二张图片卡问“뭐예요?”,老师怎么回答?", "options": ["사과예요.", "오이예요.", "우유예요."], "answer": 1, "explainZh": "第 5–8 句:第二张卡是黄瓜,老师说 오이예요(是黄瓜)。南没听清又问了一遍,老师放慢速度再说。사과 是第一张卡,우유 是陈静问的第三张卡。" },
+    { "prompt": "“뭐예요?”是什么意思?", "options": ["是什么?", "在哪儿?", "是谁?"], "answer": 0, "explainZh": "뭐 是“什么”,뭐예요? 是礼貌地问“是什么?”。南和陈静问老师都用 뭐예요?,不能只说 뭐?。" },
+    { "prompt": "ㅗ 和 ㅏ 快速连读,合成哪个元音?", "options": ["ㅝ", "ㅚ", "ㅘ"], "answer": 2, "explainZh": "第 2 句:오 + 아 → 와,ㅗ + ㅏ = ㅘ(wa)。ㅝ 是 ㅜ + ㅓ,ㅚ 是 ㅗ + ㅣ。" },
+    { "prompt": "下面哪一组复合元音,现在的读音几乎一样?", "options": ["와 워 위", "왜 외 웨", "의 위 와"], "answer": 1, "explainZh": "ㅙ、ㅚ、ㅞ 在现代首尔话里都读得像“喂”(we),只能靠记拼写。와 워 위 的读音各不相同。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.compound_vowels", "titleZh": "复合元音:两个元音快速连读",
+      "bodyZh": "复合元音是把两个元音快速滑成一个音:ㅗ + ㅏ = ㅘ(wa)、ㅗ + ㅐ = ㅙ(wae)、ㅗ + ㅣ = ㅚ(oe)、ㅜ + ㅓ = ㅝ(wo)、ㅜ + ㅔ = ㅞ(we)、ㅜ + ㅣ = ㅟ(wi)、ㅡ + ㅣ = ㅢ(ui)。规律:ㅗ 只和 ㅏ ㅐ ㅣ 组合,ㅜ 只和 ㅓ ㅔ ㅣ 组合,所以不会有“ㅗ + ㅓ”这样的写法。写的时候横的部分在辅音下面,竖的部分在右边:과 = ㄱ + ㅘ、뭐 = ㅁ + ㅝ。读的时候是一个音节,嘴唇从第一个元音的口型迅速滑到第二个,不要拆成两拍:사과 是 사-과 两个音节,不是 사-고-아。",
+      "examples": [ { "text": "와 / 워", "zh": "wa / wo:ㅗ + ㅏ,ㅜ + ㅓ" }, { "text": "사과", "zh": "苹果:과 = ㄱ + ㅘ" }, { "text": "뭐", "zh": "什么:뭐 = ㅁ + ㅝ" }, { "text": "위 / 의", "zh": "wi / ui" } ] },
+    { "id": "ko.g.oe_ui", "titleZh": "ㅙ ㅚ ㅞ 读音几乎一样;ㅢ 有三种读法",
+      "bodyZh": "现代首尔话里 ㅙ、ㅚ、ㅞ 三个读音几乎一样,都像汉语的“喂”(we),只能靠记拼写。特别注意 ㅚ:看起来是 ㅗ + ㅣ,但不读“哦—衣”,而读 we,比如以后要学的 죄송합니다(对不起)。ㅢ 有三种读法:在词首读 [의](从扁唇的 ㅡ 滑到 ㅣ);在辅音后面或词的中间常读成 [이];作助词“的”时一般读 [에]:아이의 우유(孩子的牛奶)读 [아이에 우유]。到这一课,40 个谚文字母全部学完:14 个基本辅音 + 5 个紧音 + 21 个元音,任何不带收音的字都能自己拼出来了。",
+      "examples": [ { "text": "왜 / 외 / 웨", "zh": "wae / oe / we:读音几乎一样" }, { "text": "의", "zh": "ui:在词首读 [의]" }, { "text": "아이의 우유", "zh": "孩子的牛奶:助词 의 读 [에]" } ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "ko.a1u2.l02", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 谚文:收音与问候", "order": 102020,
+  "titleZh": "안녕하세요!七个收音", "goalZh": "掌握 7 个代表音收音的读法,特别是不爆破的 ㄱ ㄷ ㅂ 和 -n / -m / -ng 的区别",
+  "canDoZh": "能用 안녕하세요 打招呼,读出 한국(韩国)、중국(中国)",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ko.syl_ak", "kind": "char", "pos": "char", "text": "악", "zh": "收音 ㄱ:读 [ak],舌根堵住不放开", "features": { "roman": "ak" }, "noteZh": "收音不爆破:口型停在 k 上,不发出“克”。" },
+    { "id": "ko.syl_an", "kind": "char", "pos": "char", "text": "안", "zh": "收音 ㄴ:读 [an],像“安”", "features": { "roman": "an" }, "noteZh": "舌尖顶住上齿龈;和 앙(舌根鼻音)对比:안 / 앙 ≈ 安 / 昂。안 也是否定词“不”(第 4 单元)。" },
+    { "id": "ko.syl_at", "kind": "char", "pos": "char", "text": "앋", "zh": "收音 ㄷ:读 [at],舌尖堵住不放开", "features": { "roman": "at" }, "noteZh": "这个字本身不是词,用来练 ㄷ 收音;很多收音字母都读成这个音(下一课)。" },
+    { "id": "ko.syl_al", "kind": "char", "pos": "char", "text": "알", "zh": "收音 ㄹ:读 [al],舌尖抵住上颚", "features": { "roman": "al" }, "noteZh": "收音 ㄹ 是 l,不卷舌,不要读成“阿儿”。" },
+    { "id": "ko.syl_am", "kind": "char", "pos": "char", "text": "암", "zh": "收音 ㅁ:读 [am],双唇闭住", "features": { "roman": "am" }, "noteZh": "普通话没有 -m 收尾,像粤语“暗”的收尾:最后嘴唇要闭上。" },
+    { "id": "ko.syl_ap", "kind": "char", "pos": "char", "text": "압", "zh": "收音 ㅂ:读 [ap],双唇闭住不放开", "features": { "roman": "ap" }, "noteZh": "像粤语“鸭”的收尾:嘴唇闭上就停,不发出“普”。" },
+    { "id": "ko.syl_ang", "kind": "char", "pos": "char", "text": "앙", "zh": "收音 ㅇ:读 [ang],像“昂”", "features": { "roman": "ang" }, "noteZh": "ㅇ 在下面读 ng;注意分清 ㄴ / ㅇ 收音:반 / 방。" },
+    { "id": "ko.annyeonghaseyo", "kind": "phrase", "pos": "phrase", "text": "안녕하세요", "zh": "你好", "features": { "roman": "annyeonghaseyo" }, "noteZh": "汉字词 安宁 + 하세요;早中晚都能用,对老师、店员、刚认识的人都说它,回答也说 안녕하세요。안 收 ㄴ、녕 收 ㅇ,하 的 ㅎ 读得很轻。" },
+    { "id": "ko.hanguk", "kind": "word", "pos": "propn", "text": "한국", "zh": "韩国", "features": { "roman": "hanguk" }, "noteZh": "汉字词 韩国;국 的收音 ㄱ 不爆破。" },
+    { "id": "ko.jungguk", "kind": "word", "pos": "propn", "text": "중국", "zh": "中国", "features": { "roman": "jungguk" }, "noteZh": "汉字词 中国;중 收 ㅇ、국 收 ㄱ。" }
+  ],
+  "reviewItems": ["ko.jamo_ng", "ko.jamo_r", "ko.jamo_h", "ko.ne"],
+  "lines": [
+    { "speaker": "park", "text": "안녕하세요!", "zh": "(语学堂开课第一天,朴老师走进教室)大家好!", "roman": "Annyeonghaseyo!", "items": ["ko.annyeonghaseyo"] },
+    { "speaker": "jing", "text": "안녕하세요!", "zh": "(陈静和同学们一起回答)老师好!", "roman": "Annyeonghaseyo!", "items": ["ko.annyeonghaseyo"] },
+    { "speaker": "park", "text": "한국.", "zh": "(老师指着地图上的韩国)韩国。", "roman": "Hanguk.", "items": ["ko.hanguk"] },
+    { "speaker": "jing", "text": "한국.", "zh": "(大家跟着念)韩国。", "roman": "Hanguk.", "items": ["ko.hanguk"] },
+    { "speaker": "park", "text": "천징 씨?", "zh": "(老师指着地图上的中国,看向陈静)陈静,你来读?", "roman": "Cheonjing ssi?", "items": ["ko.ssi"] },
+    { "speaker": "jing", "text": "중국!", "zh": "中国!", "roman": "Jungguk!", "items": ["ko.jungguk"] },
+    { "speaker": "park", "text": "네, 중국.", "zh": "对,中国。", "roman": "Ne, jungguk.", "items": ["ko.ne", "ko.jungguk"] },
+    { "speaker": "narrator", "text": "악 안 앋 알 암 압 앙", "zh": "七个收音:ak、an、at、al、am、ap、ang", "roman": "ak an at al am ap ang", "items": ["ko.syl_ak", "ko.syl_an", "ko.syl_at", "ko.syl_al", "ko.syl_am", "ko.syl_ap", "ko.syl_ang", "ko.jamo_r", "ko.jamo_ng"] },
+    { "speaker": "narrator", "text": "안, 녕, 하, 세, 요", "zh": "안녕하세요 一个字一个字地念:안 收 ㄴ,녕 收 ㅇ,하 的 ㅎ 很轻", "roman": "an, nyeong, ha, se, yo", "items": ["ko.syl_an", "ko.jamo_ng", "ko.jamo_h", "ko.annyeonghaseyo"] },
+    { "speaker": "jing", "text": "안 앙, 암 압, 악 앋", "zh": "(晚上,陈静对着镜子练收音)-n / -ng,-m / -p,-k / -t", "roman": "an ang, am ap, ak at", "items": ["ko.syl_an", "ko.syl_ang", "ko.syl_am", "ko.syl_ap", "ko.syl_ak", "ko.syl_at"] }
+  ],
+  "questions": [
+    { "prompt": "开课第一天,老师和学生互相用哪句话打招呼?", "options": ["네!", "아니요!", "안녕하세요!"], "answer": 2, "explainZh": "第 1、2 句:老师说 안녕하세요!,学生也回答 안녕하세요!。韩语的“你好”回答时也说同一句。" },
+    { "prompt": "老师指着地图上的中国叫陈静,陈静读出了什么?", "options": ["중국", "한국", "안녕"], "answer": 0, "explainZh": "第 5–7 句:陈静读出 중국(中国),老师说 네, 중국(对,中国)。한국 是“韩国”。" },
+    { "prompt": "收音 ㄱ、ㄷ、ㅂ(악、앋、압)怎么读?", "options": ["后面加一个轻轻的“克、特、普”", "和 ㄴ、ㅁ 一样拖长", "做出口型就停住,不爆破"], "answer": 2, "explainZh": "ㄱ ㄷ ㅂ 收音只做出口型、把气流堵住就停:악 舌根堵住,앋 舌尖堵住,압 双唇闭住,后面不加任何元音。" },
+    { "prompt": "第 10 句陈静念 암 和 압 时,最后嘴唇怎么样?", "options": ["张开", "闭上", "圆起来往前突"], "answer": 1, "explainZh": "收音 ㅁ、ㅂ 都要双唇闭上:암 闭唇带鼻音,압 闭唇就停。안、앙 最后嘴唇是张开的。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.batchim7", "titleZh": "收音只有 7 个读音",
+      "bodyZh": "写在方块字最下面的辅音叫“收音”(받침):한 = ㅎ + ㅏ + ㄴ,국 = ㄱ + ㅜ + ㄱ。收音的写法有很多种,读出来只有 7 个音:ㄱ [k]、ㄴ [n]、ㄷ [t]、ㄹ [l]、ㅁ [m]、ㅂ [p]、ㅇ [ng]。最要注意的是 ㄱ ㄷ ㅂ 三个“堵住”的收音:只做出口型、把气流堵住就停,不放开、不爆破——악 是舌根堵住,앋 是舌尖堵住,압 是双唇闭住。中国学习者常在后面多加一个元音,把 국 读成“哭克”、압 读成“阿普”,要避免。收音 ㄹ 是舌尖抵住上颚的 l,不卷舌,不读“儿”。",
+      "examples": [ { "text": "악 / 앋 / 압", "zh": "ak / at / ap:堵住就停,不爆破" }, { "text": "한국", "zh": "韩国:한 收 ㄴ,국 收 ㄱ" }, { "text": "중국", "zh": "中国:중 收 ㅇ,국 收 ㄱ" }, { "text": "알", "zh": "al:舌尖抵住上颚,不卷舌" } ] },
+    { "id": "ko.g.n_m_ng", "titleZh": "-n、-m、-ng 三个鼻音收音要分清",
+      "bodyZh": "普通话只有 -n 和 -ng 两个鼻音韵尾,韩语还多一个 -m:안 [an] 舌尖顶住上齿龈(像“安”),앙 [ang] 舌根抬起(像“昂”),암 [am] 双唇闭上(像粤语“暗”的收尾)。可以用口型检查:说完 암、압 嘴唇是闭着的,说完 안、앙 嘴唇是张开的。平时 -n、-ng 分不清的同学要特别注意:안녕하세요 的 안 收 ㄴ、녕 收 ㅇ,不要都读成 -ng 或都读成 -n。녕 后面的 하,ㅎ 读得很轻,说快了几乎听不见。",
+      "examples": [ { "text": "안 / 앙", "zh": "an / ang:安 / 昂" }, { "text": "암 / 압", "zh": "am / ap:最后双唇闭上" }, { "text": "안녕하세요", "zh": "你好:안 收 ㄴ,녕 收 ㅇ" } ] }
+  ],
+  "review": "draft"
+}

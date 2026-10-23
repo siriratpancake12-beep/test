@@ -30,9 +30,9 @@
     { "speaker": "lena", "text": "Ja, gern! Dann kaufe ich noch eine Kinokarte. Bis später, ihr zwei!", "zh": "好啊!那我再买一张。你们俩,回头见!", "items": ["de.ja", "de.gern", "de.dann", "de.kaufen", "de.ich", "de.noch", "de.ein", "de.kinokarte", "de.bis_spaeter", "de.ihr", "de.zwei"] }
   ],
   "questions": [
-    { "prompt": "莉娜为什么下午四点来不了?", "options": ["她要学习", "她今天下午也要上班", "她没有电影票"], "answer": 1, "explainZh": "莉娜说:Heute arbeite ich am Vormittag und am Nachmittag.(今天我上午和下午都要上班。)所以 Um vier kann ich leider nicht." },
+    { "prompt": "莉娜为什么下午四点来不了?", "options": ["她今天下午也要上班", "她要学习", "她没有电影票"], "answer": 0, "explainZh": "莉娜说:Heute arbeite ich am Vormittag und am Nachmittag.(今天我上午和下午都要上班。)所以 Um vier kann ich leider nicht." },
     { "prompt": "他们最后约在几点、在哪儿见面?", "options": ["四点,在电影院门口", "六点,在书店门口", "五点半,在电影院门口", "五点半,在 WG"], "answer": 2, "explainZh": "莉娜问:Treffen wir uns um halb sechs vor dem Kino?——halb sechs 是五点半(六点前半小时);电影六点开始,王伟回答 Ja, wir treffen uns um halb sechs." },
-    { "prompt": "王伟的第二条留言说了什么?", "options": ["他要带索菲娅一起去,请莉娜再买一张票", "他今天去不了电影院", "电影票由他来买"], "answer": 0, "explainZh": "Ich bringe Sofia mit! Kannst du noch eine Kinokarte kaufen?(我把索菲娅也带去!你能再买一张票吗?)" }
+    { "prompt": "王伟的第二条留言说了什么?", "options": ["他今天去不了电影院", "他要带索菲娅一起去,请莉娜再买一张票", "电影票由他来买"], "answer": 1, "explainZh": "Ich bringe Sofia mit! Kannst du noch eine Kinokarte kaufen?(我把索菲娅也带去!你能再买一张票吗?)" }
   ],
   "grammar": [
     { "id": "de.g.u5_tageszeiten", "titleZh": "一天的时段和改时间:am Vormittag、am Nachmittag,Um vier kann ich leider nicht",

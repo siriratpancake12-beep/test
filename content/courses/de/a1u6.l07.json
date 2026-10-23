@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u6.l07", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106070,
+  "titleZh": "汉堡的圣诞市场", "goalZh": "会在圣诞市场的小摊上问价、点吃的喝的,听不清价格时请对方再说一遍", "canDoZh": "能在圣诞市场的小摊上问价、买吃的喝的,说出圣诞市场上常见的东西",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.weihnachtsmarkt", "kind": "word", "pos": "noun", "text": "der Weihnachtsmarkt", "zh": "圣诞市场", "features": { "gender": "m", "plural": "die Weihnachtsmärkte", "ipa": "ˈvaɪ̯naxtsˌmaʁkt" }, "noteZh": "Weihnachten + Markt,中间的 -s- 是连接音;复合词重音在第一部分(WEIH-),性跟着最后一个词(der Markt)。一般从 11 月底开到圣诞节前。" },
+    { "id": "de.markt", "kind": "word", "pos": "noun", "text": "der Markt", "zh": "市场;集市", "features": { "gender": "m", "plural": "die Märkte", "ipa": "maʁkt" }, "noteZh": "复数变元音:die Märkte;rkt 几个辅音要连着读,不要加元音读成“马尔克特”。" },
+    { "id": "de.stand", "kind": "word", "pos": "noun", "text": "der Stand", "zh": "小摊;摊位", "features": { "gender": "m", "plural": "die Stände", "ipa": "ʃtant" }, "noteZh": "st 在词首读 [ʃt];词尾 d 读 [t];复数变元音:die Stände。" },
+    { "id": "de.kinderpunsch", "kind": "word", "pos": "noun", "text": "der Kinderpunsch", "zh": "热果汁饮料(不含酒精)", "features": { "gender": "m", "plural": "-", "ipa": "ˈkɪndɐˌpʊnʃ" }, "noteZh": "Kinder(孩子们)+ Punsch:用果汁和香料煮的热饮,不含酒精,大人也常喝;一般说 eine Tasse Kinderpunsch。" },
+    { "id": "de.bratwurst", "kind": "word", "pos": "noun", "text": "die Bratwurst", "zh": "烤香肠", "features": { "gender": "f", "plural": "die Bratwürste", "ipa": "ˈbʁaːtˌvʊʁst" }, "noteZh": "braten(烤、煎)+ die Wurst;复数变元音 Würste;常夹在小面包里吃:eine Bratwurst im Brötchen。" },
+    { "id": "de.lebkuchen", "kind": "word", "pos": "noun", "text": "der Lebkuchen", "zh": "姜饼(圣诞香料饼)", "features": { "gender": "m", "plural": "die Lebkuchen", "ipa": "ˈleːpˌkuːxn̩" }, "noteZh": "复数不变;b 在 k 前面读 [p]:Leb- 读 [leːp];圣诞季的传统点心,常做成心形。" },
+    { "id": "de.suess", "kind": "word", "pos": "adj", "text": "süß", "zh": "甜;可爱", "features": { "ipa": "zyːs" }, "noteZh": "s 在词首读 [z],ü 是长音,ß 读清音 [s];也常用来夸东西“可爱”:Das ist süß!" },
+    { "id": "de.frohe_weihnachten", "kind": "phrase", "pos": "phrase", "text": "Frohe Weihnachten!", "zh": "圣诞快乐!", "features": { "ipa": "ˈfʁoːə ˈvaɪ̯naxtn̩" }, "noteZh": "圣诞节前几天就可以说(和生日祝福不一样);也说 Schöne Weihnachten!" }
+  ],
+  "reviewItems": ["de.tasse", "de.das_macht", "de.wie_bitte", "de.noch_einmal", "de.lecker"],
+  "lines": [
+    { "speaker": "jonas", "text": "Das ist der Weihnachtsmarkt, Wei! Der Markt hat sehr schöne Stände.", "zh": "(傍晚,汉堡市中心)王伟,这就是圣诞市场!这里的小摊都很漂亮。", "items": ["de.das_ist", "de.weihnachtsmarkt", "de.markt", "de.haben", "de.sehr", "de.schoen", "de.stand"] },
+    { "speaker": "wei", "text": "Was gibt es hier? Kinderpunsch? Was ist das?", "zh": "这儿卖什么?Kinderpunsch?那是什么?", "items": ["de.was", "de.es_gibt", "de.hier", "de.kinderpunsch", "de.sein", "de.das_ist"] },
+    { "speaker": "jonas", "text": "Er ist süß und sehr lecker. Und da gibt es Bratwurst!", "zh": "是一种热果汁,很甜,特别好喝。那边还有烤香肠!", "items": ["de.er", "de.sein", "de.suess", "de.und", "de.sehr", "de.lecker", "de.da", "de.es_gibt", "de.bratwurst"] },
+    { "speaker": "wei", "text": "Hallo! Zwei Tassen Kinderpunsch, bitte.", "zh": "您好!请来两杯热果汁。", "items": ["de.hallo", "de.zwei", "de.tasse", "de.kinderpunsch", "de.bitte"] },
+    { "speaker": "verkaeuferin", "text": "Das macht sieben Euro fünfzig.", "zh": "(说得很快)一共 7.50 欧元。", "items": ["de.das_macht", "de.sieben", "de.euro", "de.fuenfzig"] },
+    { "speaker": "wei", "text": "Wie bitte? Noch einmal, bitte! Langsam, bitte!", "zh": "什么?请再说一遍!请慢一点!", "items": ["de.wie_bitte", "de.noch_einmal", "de.bitte", "de.langsam"] },
+    { "speaker": "verkaeuferin", "text": "Sieben Euro fünfzig. Frohe Weihnachten!", "zh": "7.50 欧元。圣诞快乐!", "items": ["de.sieben", "de.euro", "de.fuenfzig", "de.frohe_weihnachten"] },
+    { "speaker": "wei", "text": "Danke! Frohe Weihnachten!", "zh": "谢谢!圣诞快乐!", "items": ["de.danke", "de.frohe_weihnachten"] },
+    { "speaker": "jonas", "text": "Und hier gibt es Lebkuchen. Er ist auch sehr süß.", "zh": "(到了另一个小摊)这儿卖姜饼。姜饼也很甜。", "items": ["de.und", "de.hier", "de.es_gibt", "de.lebkuchen", "de.er", "de.sein", "de.auch", "de.sehr", "de.suess"] },
+    { "speaker": "wei", "text": "Ich kaufe meiner Familie in Chengdu Lebkuchen!", "zh": "我给成都的家里买些姜饼!", "items": ["de.ich", "de.kaufen", "de.mein", "de.familie", "de.in", "de.lebkuchen"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯说 Kinderpunsch 怎么样?", "options": ["很辣", "很贵", "很甜,很好喝"], "answer": 2, "explainZh": "Er ist süß und sehr lecker.(很甜,特别好喝。)Kinderpunsch 是不含酒精的热果汁。" },
+    { "prompt": "两杯 Kinderpunsch 一共多少钱?", "options": ["7.50 欧元", "7.15 欧元", "17.50 欧元"], "answer": 0, "explainZh": "女店员说:Das macht sieben Euro fünfzig.——sieben Euro fünfzig 是 7.50 欧元;17 是 siebzehn。" },
+    { "prompt": "王伟买姜饼(Lebkuchen)做什么?", "options": ["自己晚上吃", "送给成都的家里人", "送给约纳斯"], "answer": 1, "explainZh": "Ich kaufe meiner Familie in Chengdu Lebkuchen!(我给成都的家里买些姜饼!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_komposita", "titleZh": "复合词:Weihnachtsmarkt = Weihnachten + Markt",
+      "bodyZh": "德语爱把几个词连成一个长词:Weihnachten + der Markt → der Weihnachtsmarkt(圣诞市场),中间有时加连接音 -s-;Kinder + Punsch → der Kinderpunsch;braten(烤)+ die Wurst → die Bratwurst。\n两条规则:① 复合词的性和复数跟着最后一个词走:der Markt → der Weihnachtsmarkt,复数 die Weihnachtsmärkte;die Wurst → die Bratwurst。② 重音一般在第一部分:WEIHnachtsmarkt、KINderpunsch、BRATwurst。\n记长词的办法:先拆开找最后一个词,性就知道了;第 5 单元的 die Kinokarte(das Kino + die Karte)也是这样。",
+      "examples": [
+        { "text": "Der Weihnachtsmarkt ist sehr schön.", "zh": "圣诞市场很漂亮。" },
+        { "text": "Die Bratwurst ist lecker.", "zh": "烤香肠很好吃。" },
+        { "text": "Ich trinke eine Tasse Kinderpunsch.", "zh": "我喝一杯热果汁。" }
+      ] },
+    { "id": "de.g.u6_am_stand", "titleZh": "在小摊买东西:数量 + 东西 + bitte,听不清就请对方再说一遍",
+      "bodyZh": "点东西最简单的说法:数量 + 东西 + bitte:Zwei Tassen Kinderpunsch, bitte.(请来两杯热果汁。)\n摊主报价常说 Das macht …(一共……):Das macht sieben Euro fünfzig.(7.50 欧元。)\n摊主说得快、听不清时,一定要开口请对方重复:Wie bitte? / Noch einmal, bitte! / Langsam, bitte!——这在德国很正常,对方一般会慢慢再说一遍。\n易错:sieben Euro fünfzig(7.50)和 siebzehn Euro fünfzig(17.50)只差 -zehn,听价格时要听清楚。\n圣诞节前道别可以说 Frohe Weihnachten!,对方也回一句 Frohe Weihnachten! 或 Danke, Ihnen auch!",
+      "examples": [
+        { "text": "Zwei Tassen Kinderpunsch, bitte.", "zh": "请来两杯热果汁。" },
+        { "text": "Das macht sieben Euro fünfzig.", "zh": "一共 7.50 欧元。" },
+        { "text": "Wie bitte? Noch einmal, bitte!", "zh": "什么?请再说一遍!" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u2.l04", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 谚文:收音与问候", "order": 102040,
+  "titleZh": "谢谢和对不起", "goalZh": "会用正式和亲切两种说法道谢、道歉,读准连音和鼻音化",
+  "canDoZh": "能根据对象说 감사합니다 / 고마워요、죄송합니다 / 미안해요,初次见面说 반갑습니다",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "ko.gamsahamnida", "kind": "phrase", "pos": "phrase", "text": "감사합니다", "zh": "谢谢(正式)", "features": { "roman": "gamsahamnida" }, "noteZh": "汉字词 感谢 + 합니다;鼻音化读 [감사함니다]。对老师、店员、陌生人都可以说。" },
+    { "id": "ko.gomawoyo", "kind": "phrase", "pos": "phrase", "text": "고마워요", "zh": "谢谢(亲切)", "alt": ["고맙습니다"], "features": { "roman": "gomawoyo" }, "noteZh": "对同学、朋友常用;更正式的说法是 고맙습니다 [고맙씀니다]。" },
+    { "id": "ko.joesonghamnida", "kind": "phrase", "pos": "phrase", "text": "죄송합니다", "zh": "对不起;很抱歉(正式)", "features": { "roman": "joesonghamnida" }, "noteZh": "汉字词 罪悚;죄 的 ㅚ 读 we,鼻音化读 [죄송함니다]。对老师、长辈、顾客道歉用它;问路前也常先说一句。" },
+    { "id": "ko.mianhaeyo", "kind": "phrase", "pos": "phrase", "text": "미안해요", "zh": "对不起(亲切)", "features": { "roman": "mianhaeyo" }, "noteZh": "汉字词 未安;对同学、朋友道歉用;对长辈、正式场合用 죄송합니다。" },
+    { "id": "ko.bangapseumnida", "kind": "phrase", "pos": "phrase", "text": "반갑습니다", "zh": "很高兴见到你", "alt": ["반가워요"], "features": { "roman": "bangapseumnida" }, "noteZh": "初次见面或重逢时说;读 [반갑씀니다]:ㅂ 后的 ㅅ 变紧、습 + 니 鼻音化。和同龄人说 반가워요 更轻松。" },
+    { "id": "ko.hangugeo", "kind": "word", "pos": "noun", "text": "한국어", "zh": "韩国语;韩语", "features": { "roman": "hangugeo" }, "noteZh": "汉字词 韩国语;连音:국 的 ㄱ 移到 어 上,读 [한구거]。" },
+    { "id": "ko.junggugeo", "kind": "word", "pos": "noun", "text": "중국어", "zh": "汉语;中文", "features": { "roman": "junggugeo" }, "noteZh": "汉字词 中国语;连音读 [중구거]。" }
+  ],
+  "reviewItems": ["ko.hanguk", "ko.jungguk", "ko.annyeonghaseyo", "ko.ssi"],
+  "lines": [
+    { "speaker": "jing", "text": "죄송합니다.", "zh": "(语学堂第二天,陈静迟到了一分钟,推门进来)对不起,我来晚了。", "roman": "Joesonghamnida.", "items": ["ko.joesonghamnida"] },
+    { "speaker": "park", "text": "네. 천징 씨, 여기요.", "zh": "(老师点点头,递给她一份讲义)好。陈静,给你。", "roman": "Ne. Cheonjing ssi, yeogiyo.", "items": ["ko.ne", "ko.ssi", "ko.yeogiyo"] },
+    { "speaker": "jing", "text": "감사합니다.", "zh": "谢谢老师。", "roman": "Gamsahamnida.", "items": ["ko.gamsahamnida"] },
+    { "speaker": "park", "text": "한국, 한국어. 중국, 중국어.", "zh": "(老师带大家读黑板上的词)韩国,韩国语。中国,汉语。", "roman": "Hanguk, hangugeo. Jungguk, junggugeo.", "items": ["ko.hanguk", "ko.hangugeo", "ko.jungguk", "ko.junggugeo"] },
+    { "speaker": "nam", "text": "천징 씨, 안녕하세요! 남이에요.", "zh": "(课间,坐在旁边的南第一次跟陈静说话)陈静,你好!我是阿南。", "roman": "Cheonjing ssi, annyeonghaseyo! Namieyo.", "items": ["ko.ssi", "ko.annyeonghaseyo"] },
+    { "speaker": "jing", "text": "남 씨, 반갑습니다. 천징이에요.", "zh": "阿南,很高兴认识你。我是陈静。", "roman": "Nam ssi, bangapseumnida. Cheonjingieyo.", "items": ["ko.ssi", "ko.bangapseumnida"] },
+    { "speaker": "nam", "text": "반갑습니다! 중국어예요?", "zh": "(看到陈静桌上的词典)很高兴认识你!这是中文吗?", "roman": "Bangapseumnida! Junggugeoyeyo?", "items": ["ko.bangapseumnida", "ko.junggugeo"] },
+    { "speaker": "jing", "text": "네, 중국어하고 한국어예요.", "zh": "对,中文和韩语都有。", "roman": "Ne, junggugeohago hangugeoyeyo.", "items": ["ko.ne", "ko.junggugeo", "ko.hangugeo"] },
+    { "speaker": "nam", "text": "미안해요!", "zh": "(南一转身,把陈静的笔碰到了地上)对不起!", "roman": "Mianhaeyo!", "items": ["ko.mianhaeyo"] },
+    { "speaker": "jing", "text": "미안해요!", "zh": "(两人同时弯腰去捡,头碰到了一起)对不起!", "roman": "Mianhaeyo!", "items": ["ko.mianhaeyo"] },
+    { "speaker": "nam", "text": "여기요.", "zh": "(南把笔捡起来递给她)给你。", "roman": "Yeogiyo.", "items": ["ko.yeogiyo"] },
+    { "speaker": "jing", "text": "고마워요.", "zh": "谢谢。", "roman": "Gomawoyo.", "items": ["ko.gomawoyo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静迟到了,进教室时对老师说了什么?", "options": ["미안해요.", "죄송합니다.", "고마워요."], "answer": 1, "explainZh": "第 1 句:对老师道歉用正式的 죄송합니다。미안해요 比较亲切,对同学、朋友用(第 9、10 句)。" },
+    { "prompt": "老师递讲义给陈静,陈静怎么道谢?", "options": ["고마워요.", "반갑습니다.", "감사합니다."], "answer": 2, "explainZh": "第 3 句:对老师道谢用正式的 감사합니다。반갑습니다 是“很高兴见到你”。" },
+    { "prompt": "南看到陈静桌上的词典,问了什么?", "options": ["是不是中文", "是不是韩语书", "是不是他的书"], "answer": 0, "explainZh": "第 7 句:중국어예요?(是中文吗?)陈静回答 네, 중국어하고 한국어예요(中文和韩语都有)。" },
+    { "prompt": "南帮陈静捡起笔,陈静说 고마워요。为什么这里不说 감사합니다?", "options": ["고마워요 更正式", "对同学用亲切的 고마워요 就可以", "감사합니다 只能对店员说"], "answer": 1, "explainZh": "고마워요 是 해요体,礼貌又亲切;감사합니다 是 합니다体,更郑重,对老师、长辈常用。对同学说 고마워요 更自然。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.liaison_nasal", "titleZh": "两条音变:连音和鼻音化",
+      "bodyZh": "① 连音:前一个字有收音、后一个字以 ㅇ 开头时,收音移到后一个字上读(ㅇ 本来不发音,正好空出位置):한국어 [한구거]、중국어 [중구거]、남이에요 [나미에요]。收音 ㅇ 不移:천징이에요 读 [천징이에요]。② 鼻音化:收音 [k] [t] [p] 后面碰上 ㄴ 或 ㅁ,变成同一部位的鼻音 [ng] [n] [m]:합니다 → [함니다]、감사합니다 → [감사함니다]。반갑습니다 读 [반갑씀니다]:습 的 ㅂ 碰上 니 变成 ㅁ,ㅂ 后面的 ㅅ 还会读紧。所以 -ㅂ니다 结尾的词,都读成 -[ㅁ니다]。这两条规则让韩语听起来“连成一片”,看着字读和听到的不一样,这很正常,跟读时照听到的读。",
+      "examples": [ { "text": "한국어 [한구거]", "zh": "韩语:连音" }, { "text": "중국어 [중구거]", "zh": "汉语:连音" }, { "text": "감사합니다 [감사함니다]", "zh": "谢谢:鼻音化" }, { "text": "반갑습니다 [반갑씀니다]", "zh": "很高兴见到你:紧音 + 鼻音化" } ] },
+    { "id": "ko.g.formal_polite", "titleZh": "两种礼貌程度:감사합니다 / 고마워요",
+      "bodyZh": "道谢、道歉都有两种说法:감사합니다、죄송합니다 是 합니다体,正式、郑重;고마워요、미안해요 是 해요体,礼貌又亲切。对老师、长辈、顾客,或者在正式场合(上课时、迟到了、给别人添了麻烦)用 합니다体;对同学、同龄的朋友用 해요体就够了,也更自然。所以陈静迟到时对老师说 죄송합니다,收到讲义说 감사합니다;和同学南之间说 미안해요、고마워요。初次见面的 반갑습니다 也是 합니다体,和同龄人可以说轻松一点的 반가워요。拿不准的时候用 합니다体,不会失礼,只是稍微有点距离感。",
+      "examples": [ { "text": "죄송합니다. / 미안해요.", "zh": "对不起。(正式 / 亲切)" }, { "text": "감사합니다. / 고마워요.", "zh": "谢谢。(正式 / 亲切)" }, { "text": "반갑습니다.", "zh": "很高兴认识你。" } ] }
+  ],
+  "review": "draft"
+}

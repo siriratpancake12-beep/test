@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u6.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106060,
+  "titleZh": "查票了!——在去汉堡的火车上", "goalZh": "坐火车遇到查票能出示车票、听懂查票员的话,会请对方稍等、问几点到", "canDoZh": "能在车上应对查票:出示车票,听懂查票员的问题,说明自己的情况",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.kontrolle", "kind": "word", "pos": "noun", "text": "die Kontrolle", "zh": "检查;查验", "features": { "gender": "f", "plural": "die Kontrollen", "ipa": "kɔnˈtʁɔlə" }, "noteZh": "重音在 trol 上;车上查票时会听到 Fahrkartenkontrolle!(查票!);机场的护照检查是 die Passkontrolle。" },
+    { "id": "de.zeigen", "kind": "word", "pos": "verb", "text": "zeigen", "zh": "给……看;出示", "features": { "ipa": "ˈtsaɪ̯ɡn̩" }, "noteZh": "z 读 [ts],ei 读 [aɪ];Ich zeige Ihnen die Fahrkarten.(我给您看车票。)Morgen zeige ich dir den Hafen.(明天我带你去看港口。)" },
+    { "id": "de.tasche", "kind": "word", "pos": "noun", "text": "die Tasche", "zh": "包;口袋", "features": { "gender": "f", "plural": "die Taschen", "ipa": "ˈtaʃə" }, "noteZh": "in der Tasche(在包里、在口袋里);sch 读 [ʃ]。" },
+    { "id": "de.moment", "kind": "word", "pos": "noun", "text": "der Moment", "zh": "一会儿;片刻", "features": { "gender": "m", "plural": "die Momente", "ipa": "moˈmɛnt" }, "noteZh": "重音在后;请别人等一下:Moment, bitte! / Einen Moment, bitte!(请稍等!)" },
+    { "id": "de.platz", "kind": "word", "pos": "noun", "text": "der Platz", "zh": "座位;位子;广场", "features": { "gender": "m", "plural": "die Plätze", "ipa": "plats" }, "noteZh": "tz 读 [ts];火车上的座位、办事大厅里的“几号窗口”都叫 Platz;复数变元音 die Plätze;Alexanderplatz 里的 Platz 是“广场”。" },
+    { "id": "de.gute_fahrt", "kind": "phrase", "pos": "phrase", "text": "Gute Fahrt!", "zh": "一路顺风!(坐车、开车时说)", "features": { "ipa": "ˈɡuːtə ˈfaːɐ̯t" }, "noteZh": "die Fahrt(乘车、行驶)来自 fahren;出远门、旅行也常说 Gute Reise!" },
+    { "id": "de.hafen", "kind": "word", "pos": "noun", "text": "der Hafen", "zh": "港口", "features": { "gender": "m", "plural": "die Häfen", "ipa": "ˈhaːfn̩" }, "noteZh": "复数变元音:die Häfen;zum Hafen(去港口)= zu dem Hafen。汉堡港是德国最大的港口。" },
+    { "id": "de.faehre", "kind": "word", "pos": "noun", "text": "die Fähre", "zh": "渡船;轮渡", "features": { "gender": "f", "plural": "die Fähren", "ipa": "ˈfɛːʁə" }, "noteZh": "ä 读长音 [ɛː];mit der Fähre fahren(坐渡船)。在汉堡,港口的渡船也是公共交通。" }
+  ],
+  "reviewItems": ["de.fahrkarte", "de.ankommen", "de.verspaetung", "de.aussteigen", "de.zu_fuss", "de.hin_und_zurueck"],
+  "lines": [
+    { "speaker": "wei", "text": "Jonas, hier sind zwei Plätze, am Fenster!", "zh": "(火车开了)约纳斯,这儿有两个座位,靠窗!", "items": ["de.hier", "de.sein", "de.zwei", "de.platz", "de.an", "de.fenster"] },
+    { "speaker": "kontrolleurin", "text": "Guten Tag, Fahrkartenkontrolle! Die Fahrkarten, bitte.", "zh": "大家好,查票了!请出示车票。", "items": ["de.guten_tag", "de.fahrkarte", "de.kontrolle", "de.bitte"] },
+    { "speaker": "jonas", "text": "Wei, du hast die Fahrkarten, oder?", "zh": "王伟,票在你那儿,对吧?", "items": ["de.du", "de.haben", "de.fahrkarte", "de.oder"] },
+    { "speaker": "wei", "text": "Ja, Moment, bitte … Wo sind die Fahrkarten?", "zh": "对,请稍等……票呢?", "items": ["de.ja", "de.moment", "de.bitte", "de.wo", "de.sein", "de.fahrkarte"] },
+    { "speaker": "kontrolleurin", "text": "Ich warte, ich habe Zeit.", "zh": "我等您,不着急。", "items": ["de.ich", "de.warten", "de.haben", "de.zeit"] },
+    { "speaker": "wei", "text": "Hier, in meiner Tasche! Ich zeige Ihnen die Fahrkarten.", "zh": "在这儿,在我包里!我给您看车票。", "items": ["de.hier", "de.in", "de.mein", "de.tasche", "de.ich", "de.zeigen", "de.sie_hoeflich", "de.fahrkarte"] },
+    { "speaker": "kontrolleurin", "text": "Danke. Zwei Fahrkarten nach Hamburg, hin und zurück. Gut!", "zh": "谢谢。两张去汉堡的往返票。没问题!", "items": ["de.danke", "de.zwei", "de.fahrkarte", "de.nach", "de.hin_und_zurueck", "de.gut"] },
+    { "speaker": "wei", "text": "Entschuldigung, wann kommen wir in Hamburg an?", "zh": "请问,我们几点到汉堡?", "items": ["de.entschuldigung", "de.wann", "de.ankommen", "de.wir", "de.in"] },
+    { "speaker": "kontrolleurin", "text": "Um sechzehn Uhr fünfzig. Wir haben zehn Minuten Verspätung. Gute Fahrt!", "zh": "16:50。我们晚点十分钟。祝您一路顺风!", "items": ["de.um", "de.sechzehn", "de.uhr", "de.fuenfzig", "de.wir", "de.haben", "de.zehn", "de.minute", "de.verspaetung", "de.gute_fahrt"] },
+    { "speaker": "jonas", "text": "Keine Fahrkarten? Dann musst du aussteigen und zu Fuß nach Hamburg gehen!", "zh": "(查票员走了以后)要是没票,你就得下车,走路去汉堡!", "items": ["de.kein", "de.fahrkarte", "de.dann", "de.muessen", "de.du", "de.aussteigen", "de.und", "de.zu_fuss", "de.nach", "de.gehen"] },
+    { "speaker": "wei", "text": "Zu Fuß nach Hamburg? Das ist sehr weit, Jonas!", "zh": "走路去汉堡?那也太远了,约纳斯!", "items": ["de.zu_fuss", "de.nach", "de.das_ist", "de.sehr", "de.weit"] },
+    { "speaker": "jonas", "text": "Morgen zeige ich dir den Hafen. Wir fahren mit der Fähre!", "zh": "(哈哈大笑)明天我带你去看港口。我们坐渡船!", "items": ["de.morgen", "de.zeigen", "de.ich", "de.du", "de.hafen", "de.wir", "de.fahren", "de.mit", "de.faehre"] }
+  ],
+  "questions": [
+    { "prompt": "车票在谁那儿?放在哪儿?", "options": ["在约纳斯那儿,在他的包里", "在王伟那儿,在他的包里", "在王伟的手机里"], "answer": 1, "explainZh": "约纳斯问 Wei, du hast die Fahrkarten, oder?;王伟找到了:Hier, in meiner Tasche!(在我包里!)" },
+    { "prompt": "火车几点到汉堡?", "options": ["14:32", "16:40", "16:50"], "answer": 2, "explainZh": "查票员说:Um sechzehn Uhr fünfzig. Wir haben zehn Minuten Verspätung.(原来 16:40 到,晚点十分钟,所以 16:50 到。)" },
+    { "prompt": "约纳斯说明天带王伟去做什么?", "options": ["去看港口、坐渡船", "去圣诞市场", "坐火车回柏林"], "answer": 0, "explainZh": "Morgen zeige ich dir den Hafen. Wir fahren mit der Fähre!(明天带你去看港口,我们坐渡船!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_kontrolle", "titleZh": "车上查票:请对方稍等、给对方看车票、问几点到",
+      "bodyZh": "查票员常说:Fahrkartenkontrolle! / Die Fahrkarten, bitte!(查票!请出示车票。)\n一下子找不到时,礼貌地请对方等一下:Moment, bitte! / Einen Moment, bitte!,也可以用 Sie 的命令式:Warten Sie bitte einen Moment!\n给对方看东西用 zeigen:Ich zeige Ihnen die Fahrkarten.(我给您看车票。)“给谁”放在前面,“什么东西”放在后面;Ihnen 是 Sie 的第三格(给您),dir 是 du 的第三格(给你),先整块记住。\n问几点到用可分动词 ankommen,an 放句末:Wann kommen wir in Hamburg an?\n小提示:柏林大学生的学期票在全德国的地铁、公交和区域火车上都能用,可是坐 ICE 这样的城际快车要另外买票。查票时没有有效车票要交罚款,所以车票要放在找得到的地方!",
+      "examples": [
+        { "text": "Einen Moment, bitte!", "zh": "请稍等!" },
+        { "text": "Warten Sie bitte einen Moment!", "zh": "请您稍等一下!" },
+        { "text": "Ich zeige Ihnen die Fahrkarten.", "zh": "我给您看车票。" },
+        { "text": "Wann kommen wir in Hamburg an?", "zh": "我们几点到汉堡?" }
+      ] }
+  ],
+  "review": "draft"
+}
