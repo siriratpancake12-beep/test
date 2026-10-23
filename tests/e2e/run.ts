@@ -2,10 +2,11 @@
  * 端到端测试:打包网页版,用真浏览器把主要流程走一遍。`npm run e2e`
  *
  * 1. 新用户:隐私同意(同意前本机什么都不记;不同意 → 说明 → 再看看;看隐私政策)→ 选语种 → 设目标 → 学习计划
- *    → 第一课 → 首页 → 周报 → 会员试用 → 第二课 → 复习 → 刷新后进度还在 → 单元练习 → 单元测评
+ *    → 第一课 → 首页 → 周报 → 会员试用 → 第二课 → 复习 → 刷新后进度还在 → 全部课程(按单元折叠)
+ *    → 第一单元其余的课直接记成学完 → 单元练习 → 单元测评
  *    → 设置页(没配服务器就没有登录)→ 埋点只记 events.ts 列出的属性 → 撤回同意(改用基本功能)再同意,学习记录还在
  * 2. 学过一些的用户:分级测试 → 学习计划(埋点统计全部等级的题数)
- * 3. 冠词老出错、目标 A1 已经达成、单元测评通过的会员(同意的是旧版协议):先重新同意 → 弱点专练只出冠词题
+ * 3. 冠词老出错、A1 的课全部学完(目标达成)、单元测评通过的会员(同意的是旧版协议):先重新同意 → 弱点专练只出冠词题
  *    → 目标达成后选下一个目标(不再问"之前学过吗",回到学习计划,goal_change 只记一次)→ 单元证书
  * 4. 有服务器(本机的假服务器,320 宽的小屏):同意前不发任何请求 → 短信登录 → 进度和"旧手机"合并(紧凑格式)
  *    → 学完一课自动上传 → AI 对话(标"AI 生成"、反馈、被拦下的话不进历史)→ 切到后台上传埋点
@@ -14,6 +15,7 @@
  *    一个请求都不发、不记埋点 → 在设置里同意 → 登录;旧版服务器还不认紧凑格式时改传普通格式
  *
  * 答题策略很笨(总选第一个、输入 Hallo),只验证流程走得通、不报错,不验证答对。
+ * 用的是 App 实际打包的课程(课名、单元里有几节课都从生成的内容里取),课程增加了测试不用改。
  * 本机已有 Chromium 时用 CHROMIUM_PATH 指定;CI 里用 `npx playwright install chromium`。
  */
 import { createServer, type IncomingMessage } from "node:http";
@@ -21,17 +23,26 @@ import { existsSync, mkdirSync, readFileSync, statSync } from "node:fs";
 import { extname, join } from "node:path";
 import { chromium, type Page } from "playwright";
 import {
-  applySubEvent, completeLesson, emptyDay, emptyProgress, EventsReq, fromWire, Lesson, mergeProgress, parseProgress, ProgressPutReq,
-  recordAnswer, recordCheckpoint, ROUTES, screenUserText, SmsSendReq, SmsVerifyReq, toWire, TutorChatReq,
-  type AppEvent, type Progress,
+  applySubEvent, checkpointLessonId, completeLesson, courseUnits, emptyDay, emptyProgress, EventsReq, fromWire, mergeProgress, parseProgress,
+  ProgressPutReq, recordAnswer, recordCheckpoint, ROUTES, screenUserText, SmsSendReq, SmsVerifyReq, toWire, TutorChatReq, unitLabel,
+  type AppEvent, type Lesson, type Progress,
 } from "../../packages/core/src/index";
+import { createLibrary } from "../../apps/mobile/src/content/library";
 
 const root = join(import.meta.dirname, "..", "..");
 const dist = join(root, "apps", "mobile", "dist-web");
 const shots = join(import.meta.dirname, "shots");
 mkdirSync(shots, { recursive: true });
 if (!existsSync(join(dist, "index.html"))) throw new Error("先运行 npm run build:web -w @lingo/mobile");
-const readLesson = (f: string) => Lesson.parse(JSON.parse(readFileSync(join(root, "content", "courses", "de", f), "utf8")));
+
+// 课名、单元里有几节课都从 App 实际打包的内容里取(build:web 时生成的 apps/mobile/src/content/*.generated.ts),
+// 不写死:课程还在不断增加,测试要跟着真实内容走
+const content = createLibrary(await import("../../apps/mobile/src/content/index.generated"));
+const de = content.getLessons("de");
+const [first, second] = [de[0]!, de[1]!];
+/** 德语第一单元的课 */
+const unit1 = de.filter((l) => l.unit === first.unit);
+const cafe = content.getScenario("de.cafe_order")!;
 
 // ---- 假服务器:按 core/api.ts 的接口约定实现登录、进度、埋点、AI 对话、注销(只在内存里) ----
 const CODE = "246810";
@@ -247,7 +258,9 @@ function helpers(page: Page) {
     await click("开始练习");
     return answerAll(tag);
   };
-  return { click, tap, fill, visible, body, shot, storage, queued, until, setVisibility, overflow, canGoBack, answerAll, doLesson };
+  /** 看得见的这种元素有几个 */
+  const count = (sel: string) => vis(sel).count();
+  return { click, tap, fill, visible, body, shot, storage, queued, until, setVisibility, overflow, canGoBack, answerAll, doLesson, count };
 }
 
 async function newPage(opts: { state?: Record<string, string>; apiBase?: string; width?: number } = {}) {
@@ -272,10 +285,23 @@ async function onboardGerman(page: Page) {
   await page.waitForTimeout(600);
 }
 
+/**
+ * 把这些德语课记成学完(和 App 里学完一课一样建复习卡、记日志),写进本机记录后刷新页面。
+ * 单元里的课每节都在界面上学一遍太慢,而且课程还在增加;界面上学课的流程前两课已经测过了。
+ */
+async function finishLessons(page: Page, lessons: Lesson[]) {
+  const saved = await page.evaluate(() => localStorage.getItem("progress:de"));
+  let p = parseProgress(JSON.parse(saved ?? "null"))!;
+  for (const l of lessons) p = completeLesson(p, l, new Date());
+  await page.evaluate((v) => localStorage.setItem("progress:de", v), JSON.stringify(p));
+  await page.reload();
+  await page.waitForTimeout(1500);
+}
+
 // ---- 1. 新用户 ----
 {
   const page = await newPage();
-  const { click, tap, body, shot, storage, queued, answerAll, doLesson } = helpers(page);
+  const { click, tap, body, shot, storage, queued, answerAll, doLesson, count } = helpers(page);
   check((await body()).includes("欢迎使用语途") && (await body()).includes("《隐私政策》"), "第一次打开:先显示用户协议和隐私政策摘要");
   check(Object.keys(await storage()).length === 0, "同意之前本机什么都没记(没有埋点、没有任何记录)");
   await shot("00-consent");
@@ -301,14 +327,14 @@ async function onboardGerman(page: Page) {
   check((await body()).includes("目标 B1") && (await body()).includes("每天需要学约"), "学习计划:显示目标,并提示按期需要的每日时间");
   await click("先免费学第一单元");
   await page.waitForTimeout(600);
-  check(await doLesson("新课:打招呼和自我介绍", "lesson1"), "第一课:练习做完");
+  check(await doLesson(`新课:${first.titleZh}`, "lesson1"), "第一课:练习做完");
   await shot("02-lesson-done");
   await click("回首页");
   await page.waitForTimeout(600);
   check((await body()).includes("连续 1 天"), "首页:连续 1 天");
   await click("📊 本周学习报告");
   await page.waitForTimeout(500);
-  check((await body()).includes("能用德语跟人打招呼"), "周报:列出这周学会的事");
+  check((await body()).includes(first.canDoZh), "周报:列出这周学会的事");
   await page.goBack();
   await page.waitForTimeout(500);
   await click("了解会员");
@@ -317,7 +343,7 @@ async function onboardGerman(page: Page) {
   await click("免费试用 7 天");
   await page.waitForTimeout(700);
   check((await body()).includes("试用有效期至"), "开通试用后首页显示试用期");
-  await click("继续学下一课:我的家人");
+  await click(`继续学下一课:${second.titleZh}`);
   await page.waitForTimeout(800);
   await click("学生词");
   await click("下一步");
@@ -346,7 +372,26 @@ async function onboardGerman(page: Page) {
   check(after === before, "刷新后进度还在");
   await shot("03-home");
 
-  // 单元的课学完了:单元练习(不计分)→ 单元测评(笨办法答题,分数不一定够,只看流程)
+  // 全部课程:按单元折叠,默认只展开正在学的单元,不会一次把几百节课都渲染出来
+  const units = courseUnits(de);
+  const upNext = de.find((l) => l.id !== first.id && l.id !== second.id)!;
+  const learning = units.find((u) => u.unit === upNext.unit)!;
+  await click("全部课程 ▼");
+  check(
+    (await count('[data-testid="unit-header"]')) === units.length && (await count('[data-testid="course-lesson"]')) === learning.lessons.length,
+    `全部课程:列出 ${units.length} 个单元,只展开正在学的单元(${learning.lessons.length} 节课)`,
+  );
+  const other = [...units].reverse().find((u) => u.unit !== learning.unit);
+  if (other) {
+    await page.getByTestId("unit-header").filter({ visible: true }).nth(units.indexOf(other)).click();
+    await page.waitForTimeout(300);
+    check((await count('[data-testid="course-lesson"]')) === other.lessons.length, "全部课程:点开另一个单元,只显示这个单元的课");
+  }
+  await shot("03c-course-list");
+  await click("全部课程 ▲");
+
+  // 第一单元剩下的课记成学完 → 单元练习(不计分)→ 单元测评(笨办法答题,分数不一定够,只看流程)
+  await finishLessons(page, unit1.filter((l) => l.id !== first.id && l.id !== second.id));
   await click("单元练习:", false);
   await page.waitForTimeout(600);
   await click("开始单元练习", true);
@@ -423,12 +468,12 @@ async function onboardGerman(page: Page) {
 {
   const now = new Date();
   let p: Progress = { ...emptyProgress("de", -now.getTimezoneOffset()), goal: { kind: "study-abroad", target: "A1", dailyMinutes: 15 } };
-  p = completeLesson(p, readLesson("a1u1.l01.json"), now);
-  p = completeLesson(p, readLesson("a1u1.l02.json"), now);
+  // A1 的课全部学完(目标 A1 达成);第一单元的单元测评 92 分
+  for (const l of de.filter((x) => x.cefr === "A1")) p = completeLesson(p, l, now);
   for (const id of ["de.mutter", "de.schwester", "de.kind"]) {
     p = recordAnswer(p, { itemId: id, direction: "produce", verdict: "wrong", issues: [{ kind: "article", expected: "die", got: "der" }] }, now);
   }
-  p = recordCheckpoint(p, "de.a1u1.l02", 92, now);
+  p = recordCheckpoint(p, checkpointLessonId(unit1), 92, now);
   const sub = applySubEvent(null, { type: "start-trial", productId: "premium_yearly", platform: "web", at: now });
   const page = await newPage({ state: {
     currentLang: "de", "progress:de": JSON.stringify(p), subscription: JSON.stringify(sub),
@@ -465,7 +510,10 @@ async function onboardGerman(page: Page) {
   // 单元证书:学习计划里通过的单元可以查看
   await click("查看证书");
   await page.waitForTimeout(700);
-  check((await body()).includes("完成 A1-1 单元") && (await body()).includes("这个单元学会了") && (await body()).includes("92 分"), "单元证书:写明分数和学会了什么");
+  check(
+    (await body()).includes(`完成 ${unitLabel(first.unit).code} 单元`) && (await body()).includes("这个单元学会了") && (await body()).includes("92 分"),
+    "单元证书:写明分数和学会了什么",
+  );
   await click("分享给朋友", true);
   await page.waitForTimeout(500);
   check((await body()).includes("单元测评 92 分"), "网页不能系统分享时,显示文字让人复制");
@@ -479,7 +527,7 @@ async function onboardGerman(page: Page) {
   const PHONE = "13800138000";
   const yesterday = new Date(Date.now() - 86_400_000);
   let old: Progress = { ...emptyProgress("de", -yesterday.getTimezoneOffset()), goal: { kind: "travel", target: "A2", dailyMinutes: 20 } };
-  old = completeLesson(old, readLesson("a1u1.l01.json"), yesterday);
+  old = completeLesson(old, first, yesterday);
   old = recordAnswer(old, { itemId: "de.hallo", direction: "produce", verdict: "correct", ms: 3000 }, yesterday);
   mock.users.set(PHONE, { id: "u-old", token: "t-old" });
   mock.progress.set("u-old:de", { progress: JSON.parse(JSON.stringify(old)), rev: 3 });
@@ -522,17 +570,17 @@ async function onboardGerman(page: Page) {
   check((await body()).includes("手机号 138****8000"), "登录成功,回到设置页显示账号");
   const synced = await until(async () => {
     const pr = JSON.parse((await storage())["progress:de"] ?? "{}") as Progress;
-    return !!pr.completed?.["de.a1u1.l01"] && pr.goal?.target === "A2";
+    return !!pr.completed?.[first.id] && pr.goal?.target === "A2";
   });
   check(synced, "登录后同步:旧手机学过的课和目标合并进来");
   check(mock.requests.every((r) => !r.path.startsWith("/v1/progress") || r.auth === "Bearer t-old"), "同步请求带着登录凭证");
   check(await until(() => mock.requests.some((r) => r.path === ROUTES.progress("en"))) && !(await storage())["progress:en"], "服务器上的坏数据被忽略,不写进本机");
   await page.goBack();
   await page.waitForTimeout(800);
-  check((await body()).includes("新课:我的家人"), "首页:按合并后的进度安排下一课(复习卡的日期正确还原)");
+  check((await body()).includes(`新课:${second.titleZh}`), "首页:按合并后的进度安排下一课(复习卡的日期正确还原)");
 
   // 在新手机上学完第二课:3 秒内自动上传。上传前"平板"刚好也传了一版(baseRev 过期):服务器先合并,手机采用合并后的版本
-  await click("新课:我的家人");
+  await click(`新课:${second.titleZh}`);
   await page.waitForTimeout(800);
   await click("学生词");
   await click("下一步");
@@ -542,7 +590,7 @@ async function onboardGerman(page: Page) {
   await click("回首页");
   const uploaded = await until(() => {
     const pr = mock.progress.get("u-old:de")?.progress as Progress | undefined;
-    return !!pr?.completed["de.a1u1.l02"] && !!pr.completed["de.a1u1.l01"] && !!pr.log[TABLET_DAY];
+    return !!pr?.completed[second.id] && !!pr.completed[first.id] && !!pr.log[TABLET_DAY];
   });
   check(uploaded && mock.staleMerges > 0, "学完一课后自动上传;和平板同时上传时合并,三台设备的记录都在");
   check(mock.requests.filter((r) => r.method === "PUT").every((r) => r.wire), "上传进度用紧凑格式");
@@ -551,7 +599,7 @@ async function onboardGerman(page: Page) {
   // AI 对话:回答标"AI 生成"、可以反馈;含个人信息的话被拦下,不进之后的历史
   await click("🗣 AI 对话练习");
   await page.waitForTimeout(700);
-  await click("在咖啡馆点单");
+  await click(cafe.titleZh);
   await page.waitForTimeout(700);
   const send = async (text: string) => {
     await page.getByPlaceholder("用德语回答…").fill(text);
@@ -610,7 +658,7 @@ async function onboardGerman(page: Page) {
   await click("取消", true);
   await page.goBack();
   await page.waitForTimeout(600);
-  check(!(await storage()).session && JSON.parse((await storage())["progress:de"] ?? "{}").completed?.["de.a1u1.l02"], "取消换账号:没登录,本机记录不动");
+  check(!(await storage()).session && JSON.parse((await storage())["progress:de"] ?? "{}").completed?.[second.id], "取消换账号:没登录,本机记录不动");
 
   // 登回原来的账号,然后注销
   await login(PHONE);
@@ -645,13 +693,13 @@ async function onboardGerman(page: Page) {
   await page.waitForTimeout(600);
   check((await body()).includes("基本功能模式"), "首页:提示现在是基本功能模式");
   check((await overflow()) === 0, "首页:320 宽不超出屏幕");
-  check(await doLesson("新课:打招呼和自我介绍", "basic-lesson"), "基本功能:可以离线学课");
+  check(await doLesson(`新课:${first.titleZh}`, "basic-lesson"), "基本功能:可以离线学课");
   check((await overflow()) === 0, "课程完成页:320 宽不超出屏幕");
   await click("回首页");
   await page.waitForTimeout(600);
   await click("📊 本周学习报告");
   await page.waitForTimeout(500);
-  check((await body()).includes("能用德语跟人打招呼"), "基本功能:可以看周报");
+  check((await body()).includes(first.canDoZh), "基本功能:可以看周报");
   await page.goBack();
   await page.waitForTimeout(500);
   await click("🗣 AI 对话练习");
@@ -690,7 +738,7 @@ async function onboardGerman(page: Page) {
   await fill("code-input", CODE);
   await tap("login-submit");
   await page.waitForTimeout(800);
-  const legacyOk = await until(() => !!(mock.progress.get("u-13700137000:de")?.progress as Progress | undefined)?.completed["de.a1u1.l01"]);
+  const legacyOk = await until(() => !!(mock.progress.get("u-13700137000:de")?.progress as Progress | undefined)?.completed[first.id]);
   const puts = mock.requests.slice(sent).filter((r) => r.method === "PUT");
   check(legacyOk && puts.some((r) => r.wire && r.status === 400) && puts.some((r) => !r.wire && r.status === 200), "旧版服务器还不认紧凑格式时改传普通格式,照样同步上去");
   mock.legacy = false;

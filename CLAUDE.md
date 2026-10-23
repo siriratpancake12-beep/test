@@ -7,7 +7,8 @@
 ## 结构
 - `packages/core` 学习引擎(内容格式、判题、复习、计划、会员状态、接口约定 `api.ts`、埋点 `events.ts`、进度合并 `sync.ts`)
 - `packages/billing` 支付校验 · `services/api` 服务器(Fastify + Kysely,开发/测试用 PGlite,生产用 Postgres)
-- `apps/mobile` App(Expo / React Native)· `content/` 语言包、大纲、课程、口语场景 · `tools/` 内容工具 · `tests/e2e` 端到端测试
+- `apps/mobile` App(Expo / React Native);内置课程的加载在 `apps/mobile/src/content/`(各页面 `import ... from "../content"`)
+- `content/` 语言包、大纲、课程、口语场景 · `tools/` 内容工具 · `tests/e2e` 端到端测试
 
 ## 检查(提交前要全部通过)
 ```
@@ -22,4 +23,5 @@ npm run e2e              # 端到端测试(需要 Chromium;本机用 CHROMIUM_PA
 - 课程:每节课必须有 `canDoZh`;德法名词连冠词写并标性别,德语名词标复数;课文说话人必须在语言包的 `cast` 里;课文只能用已经教过的词条;写好的课的新词必须和大纲一致。
 - 内容是原创的,不抄教材。AI 写、AI 审的课 `review` 标 `ai`;正式上线前要母语老师审成 `native`。
 - 不提交任何密钥、签名文件;服务器密钥只放环境变量。
-- 改了 `content/` 以后运行 `npm run content:index` 更新 App 的内容索引。
+- App 内置的课程由 `npm run content:index` 生成到 `apps/mobile/src/content/*.generated.ts`(构建时校验、按语种懒加载,见 `docs/02`)。
+  生成文件**不提交**;打包(Metro 启动时)和 App 类型检查前会自动生成。开发服务器开着时改了 `content/`,运行一次 `npm run content:index`。

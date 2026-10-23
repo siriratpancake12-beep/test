@@ -30,14 +30,17 @@
   },
   "devDependencies": {
     "@types/react": "~19.3.0",
-    "typescript": "~6.0.3"
+    "typescript": "~6.0.3",
+    "vitest": "^5.0.5"
   },
   "scripts": {
     "start": "expo start",
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
+    "pretypecheck": "tsx ../../tools/gen-content-index.ts",
     "typecheck": "tsc --noEmit",
+    "test": "vitest run",
     "build:web": "expo export --platform web --output-dir dist-web --clear"
   },
   "private": true
