@@ -1,0 +1,48 @@
+{
+  "id": "ko.a1u8.l02", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-8 我的一天与周末", "order": 108020,
+  "titleZh": "这周的课表:星期", "goalZh": "会说星期一到星期日,问今天星期几,说一周的安排",
+  "canDoZh": "能问“今天星期几?”,说出自己一周哪天上课、哪天打工、哪天考试",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ko.woryoil", "kind": "word", "pos": "noun", "text": "월요일", "zh": "星期一", "features": { "roman": "woryoil" }, "noteZh": "汉字词 月曜日;连音读 [워료일]。" },
+    { "id": "ko.hwayoil", "kind": "word", "pos": "noun", "text": "화요일", "zh": "星期二", "features": { "roman": "hwayoil" }, "noteZh": "汉字词 火曜日。" },
+    { "id": "ko.suyoil", "kind": "word", "pos": "noun", "text": "수요일", "zh": "星期三", "features": { "roman": "suyoil" }, "noteZh": "汉字词 水曜日。" },
+    { "id": "ko.mogyoil", "kind": "word", "pos": "noun", "text": "목요일", "zh": "星期四", "features": { "roman": "mogyoil" }, "noteZh": "汉字词 木曜日;连音读 [모교일]。" },
+    { "id": "ko.geumyoil", "kind": "word", "pos": "noun", "text": "금요일", "zh": "星期五", "features": { "roman": "geumyoil" }, "noteZh": "汉字词 金曜日;连音读 [그묘일]。" },
+    { "id": "ko.toyoil", "kind": "word", "pos": "noun", "text": "토요일", "zh": "星期六", "features": { "roman": "toyoil" }, "noteZh": "汉字词 土曜日。" },
+    { "id": "ko.iryoil", "kind": "word", "pos": "noun", "text": "일요일", "zh": "星期日", "features": { "roman": "iryoil" }, "noteZh": "汉字词 日曜日;连音读 [이료일];这里的 일 是“日”,不是数字“一”:일요일 是星期天。" },
+    { "id": "ko.jumal", "kind": "word", "pos": "noun", "text": "주말", "zh": "周末", "features": { "roman": "jumal" }, "noteZh": "汉字词 周末;주말에 뭐 해요?= 周末做什么?" },
+    { "id": "ko.museun", "kind": "word", "pos": "det", "text": "무슨", "zh": "什么(的)", "features": { "roman": "museun" }, "noteZh": "后面接名词:무슨 요일(星期几)、무슨 시험(什么考试);单独问“什么”用 뭐。" },
+    { "id": "ko.siheom", "kind": "word", "pos": "noun", "text": "시험", "zh": "考试", "features": { "roman": "siheom" }, "noteZh": "汉字词 试验(韩语里是“考试”);TOPIK 시험 = 韩国语能力考试。" }
+  ],
+  "reviewItems": ["ko.oneul", "ko.naeil", "ko.haeyo", "ko.sueop"],
+  "lines": [
+    { "speaker": "jing", "text": "수아 씨, 오늘이 무슨 요일이에요?", "zh": "(星期天晚上,宿舍里,两人在对下周的安排)秀雅,今天星期几?", "roman": "sua ssi, oneuri museun yoirieyo?", "items": ["ko.ssi", "ko.oneul", "ko.museun"] },
+    { "speaker": "sua", "text": "일요일이에요! 내일은 월요일이에요.", "zh": "(秀雅笑了)星期天啊!明天就星期一了。", "roman": "iryoirieyo! naeireun woryoirieyo.", "items": ["ko.iryoil", "ko.naeil", "ko.woryoil"] },
+    { "speaker": "sua", "text": "징 씨는 무슨 요일에 아르바이트해요?", "zh": "你星期几打工?", "roman": "jing ssineun museun yoire areubaiteuhaeyo?", "items": ["ko.ssi", "ko.museun", "ko.areubaiteu", "ko.haeyo"] },
+    { "speaker": "jing", "text": "월요일하고 수요일에 아르바이트해요.", "zh": "星期一和星期三打工。", "roman": "woryoilhago suyoire areubaiteuhaeyo.", "items": ["ko.woryoil", "ko.suyoil", "ko.areubaiteu", "ko.haeyo"] },
+    { "speaker": "sua", "text": "화요일하고 목요일에는요?", "zh": "那星期二和星期四呢?", "roman": "hwayoilhago mogyoireneunyo?", "items": ["ko.hwayoil", "ko.mogyoil"] },
+    { "speaker": "jing", "text": "오전에는 수업이 있어요. 오후에는 도서관에서 공부해요.", "zh": "上午有课,下午在图书馆学习。", "roman": "ojeoneneun sueobi isseoyo. ohueneun doseogwaneseo gongbuhaeyo.", "items": ["ko.ojeon", "ko.sueop", "ko.isseoyo", "ko.ohu", "ko.doseogwan", "ko.gongbuhaeyo"] },
+    { "speaker": "sua", "text": "저는 금요일에 시험이 있어요.", "zh": "我星期五有考试。", "roman": "jeoneun geumyoire siheomi isseoyo.", "items": ["ko.jeo", "ko.geumyoil", "ko.siheom", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "무슨 시험이에요?", "zh": "什么考试?", "roman": "museun siheomieyo?", "items": ["ko.museun", "ko.siheom"] },
+    { "speaker": "sua", "text": "전공 시험이에요.", "zh": "专业课考试。", "roman": "jeongong siheomieyo.", "items": ["ko.jeongong", "ko.siheom"] },
+    { "speaker": "jing", "text": "그럼 주말에 뭐 해요?", "zh": "那周末做什么?", "roman": "geureom jumare mwo haeyo?", "items": ["ko.geureom", "ko.jumal", "ko.mwo", "ko.haeyo"] },
+    { "speaker": "sua", "text": "토요일에 같이 부산에 가요! 제 고향이에요.", "zh": "星期六一起去釜山吧!那是我老家。", "roman": "toyoire gachi busane gayo! je gohyangieyo.", "items": ["ko.toyoil", "ko.gachi", "ko.gayo", "ko.gohyang"] },
+    { "speaker": "jing", "text": "좋아요! 부산은 처음이에요.", "zh": "好啊!我还是第一次去釜山。", "roman": "joayo! busaneun cheoeumieyo.", "items": ["ko.joayo", "ko.cheoeum"] }
+  ],
+  "questions": [
+    { "prompt": "陈静星期几打工?", "options": ["星期二和星期四", "星期五", "星期六和星期天", "星期一和星期三"], "answer": 3, "explainZh": "第 4 句:월요일하고 수요일에 아르바이트해요(星期一和星期三打工)。星期二和星期四下午她在图书馆学习。" },
+    { "prompt": "秀雅星期五有什么事?", "options": ["去釜山", "有专业课考试", "去咖啡店打工"], "answer": 1, "explainZh": "第 7、9 句:금요일에 시험이 있어요……전공 시험이에요(星期五有专业课考试)。去釜山是星期六。" },
+    { "prompt": "这个周末两人打算做什么?", "options": ["星期六一起去釜山", "星期天在宿舍学习", "星期六去东大门买衣服"], "answer": 0, "explainZh": "第 11 句:토요일에 같이 부산에 가요! 제 고향이에요.——釜山是秀雅的老家,陈静是第一次去。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.days_of_week", "titleZh": "星期:汉字 + 요일",
+      "bodyZh": "韩语的星期是汉字“月火水木金土日”加 요일(曜日):월요일(月)、화요일(火)、수요일(水)、목요일(木)、금요일(金)、토요일(土)、일요일(日),和日语一样。它不是“星期一、二、三”那样的数字,顺序只能记:月火水木金土日。中国学生容易把 일요일 当成“星期一”(因为 일 也是数字“一”):这里的 일 是“日”,일요일 是星期天。连音要读出来:월요일 [워료일]、목요일 [모교일]、금요일 [그묘일]、일요일 [이료일]。토요일 和 일요일 合起来就是 주말(周末)。",
+      "examples": [ { "text": "월요일 화요일 수요일 목요일 금요일", "zh": "星期一到星期五(月、火、水、木、金)" }, { "text": "토요일하고 일요일은 주말이에요.", "zh": "星期六和星期天是周末。" }, { "text": "오늘이 무슨 요일이에요?", "zh": "今天星期几?" } ] },
+    { "id": "ko.g.weekday_e_museun", "titleZh": "星期 + 에;무슨 + 名词",
+      "bodyZh": "说“星期几做什么”,星期后面加 에:금요일에 시험이 있어요。오늘、내일 后面不加 에(내일 수업이 있어요)。两个星期用 하고 连起来,에 只加在后面那个上:월요일하고 수요일에。要和别的日子对比,用 에는:화요일하고 목요일에는요?(那星期二、星期四呢?)。问“星期几”说 무슨 요일이에요?;무슨 + 名词 = 什么……:무슨 시험이에요?(什么考试?)。单独问“什么”还是用 뭐:주말에 뭐 해요?。说“有安排”可以用 N이/가 있어요:시험이 있어요、수업이 있어요。",
+      "examples": [ { "text": "월요일하고 수요일에 아르바이트해요.", "zh": "星期一和星期三打工。" }, { "text": "무슨 시험이에요?", "zh": "什么考试?" }, { "text": "금요일에 시험이 있어요.", "zh": "星期五有考试。" } ] }
+  ],
+  "review": "draft"
+}

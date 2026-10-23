@@ -1,0 +1,198 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-13 打工", "cefr": "A1", "themeZh": "五月底到六月初,考完试找暑期工:看招聘信息、打电话问工作、试工、听懂老板的要求、卖冰淇淋、读排班表、谈工资、请假换班;王伟在索菲娅打工的冰淇淋店上班。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u13.l01", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-13 打工", "order": 113010,
+      "titleZh": "招聘信息上的词",
+      "goalZh": "能看懂常见的兼职招聘信息,说出工作内容、时间和工资",
+      "canDoZh": "能看懂常见的兼职招聘信息,说出工作内容、时间和工资",
+      "scenarioZh": "考完试,王伟想找暑期工。他和索菲娅在手机上看招聘信息,索菲娅解释常见的词:die Aushilfe(临时工)、der Minijob、pro Stunde、der Lohn、am Wochenende、flexibel、Deutschkenntnisse;王伟看中三份:咖啡馆、超市补货,还有索菲娅打工的冰淇淋店(die Eisdiele)。说话人:sofia、wei。",
+      "grammarFocusZh": "pro Stunde / pro Monat 复习;复合词(die Aushilfe, der Stundenlohn, die Deutschkenntnisse)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.job", "kind": "word", "pos": "noun", "text": "der Job", "zh": "工作;(临时的)活儿", "features": { "gender": "m", "plural": "die Jobs", "ipa": "dʒɔp" }, "noteZh": "英语借词,读 [dʒɔp](词尾 b 读 [p]);口语里常指兼职、短工:ein Job für den Sommer;正式的“职位”是 die Stelle。" },
+        { "id": "de.anzeige", "kind": "word", "pos": "noun", "text": "die Anzeige", "zh": "广告;(招聘)启事", "features": { "gender": "f", "plural": "die Anzeigen", "ipa": "ˈanˌtsaɪ̯ɡə" }, "noteZh": "招聘、租房、二手买卖的广告都叫 Anzeige;重音在 an 上,z 读 [ts],ei 读 [aɪ]。" },
+        { "id": "de.aushilfe", "kind": "word", "pos": "noun", "text": "die Aushilfe", "zh": "临时工;帮工", "features": { "gender": "f", "plural": "die Aushilfen", "ipa": "ˈaʊ̯sˌhɪlfə" }, "noteZh": "aus + die Hilfe(帮助);忙的时候来帮忙、每周只干几个小时的人;招聘启事常写 Aushilfe gesucht(招临时工)。" },
+        { "id": "de.minijob", "kind": "word", "pos": "noun", "text": "der Minijob", "zh": "迷你工作(工时少、收入不高的兼职)", "features": { "gender": "m", "plural": "die Minijobs", "ipa": "ˈmɪniˌdʒɔp" }, "noteZh": "德国常见的一种小兼职,学生常做;每月能挣多少有规定,具体以官方信息为准。性跟 der Job 走。" },
+        { "id": "de.pro", "kind": "word", "pos": "prep", "text": "pro", "zh": "每(每小时、每周……)", "features": { "ipa": "pʁoː" }, "noteZh": "pro + 不带冠词的名词:15 Euro pro Stunde(每小时 15 欧元)、drei Tage pro Woche(每周三天);招聘启事和价格上很常用。" },
+        { "id": "de.eisdiele", "kind": "word", "pos": "noun", "text": "die Eisdiele", "zh": "冰淇淋店", "features": { "gender": "f", "plural": "die Eisdielen", "ipa": "ˈaɪ̯sˌdiːlə" }, "noteZh": "das Eis + die Diele → die Eisdiele,性跟后一个词走;德国很多冰淇淋店是意大利人开的,也叫 das Eiscafé。ie 读长音 [iː]。" },
+        { "id": "de.flexibel", "kind": "word", "pos": "adj", "text": "flexibel", "zh": "灵活的(时间可以商量)", "features": { "ipa": "flɛˈksiːbl̩" }, "noteZh": "招聘启事里常见:Arbeitszeit flexibel(工作时间灵活);重音在 xi 上,x 读 [ks]。" },
+        { "id": "de.deutschkenntnisse", "kind": "word", "pos": "noun", "text": "die Deutschkenntnisse", "zh": "德语水平;德语知识", "features": { "gender": "pl", "ipa": "ˈdɔʏ̯tʃˌkɛntnɪsə" }, "noteZh": "只用复数(die 是复数冠词):Deutsch + die Kenntnisse(知识);招聘启事:gute Deutschkenntnisse(德语好);eu 读 [ɔʏ],tsch 读 [tʃ]。" },
+        { "id": "de.lohn", "kind": "word", "pos": "noun", "text": "der Lohn", "zh": "工资(按小时、按天算的)", "features": { "gender": "m", "plural": "die Löhne", "ipa": "loːn" }, "noteZh": "h 不发音,o 是长音;复数变元音 die Löhne;按小时算的叫 der Stundenlohn(Stunde + n + Lohn)。" },
+        { "id": "de.chefin", "kind": "word", "pos": "noun", "text": "die Chefin", "zh": "女老板;女上司", "features": { "gender": "f", "plural": "die Chefinnen", "ipa": "ˈʃɛfɪn" }, "noteZh": "ch 在这里读 [ʃ](从法语来的词);男的是 der Chef;阴性加 -in,复数 -innen。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u13.l02", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-13 打工", "order": 113020,
+      "titleZh": "打电话问工作",
+      "goalZh": "能打电话问兼职还招不招人、工作时间和工资,约好见面时间",
+      "canDoZh": "能打电话问兼职还招不招人、工作时间和工资,约好见面时间",
+      "scenarioZh": "王伟给冰淇淋店打电话。店老板 Frau Berger(说话人用 mitarbeiterin)问他会说什么语言、什么时候有时间、有没有当过服务员;王伟说每周可以工作三天,周末也可以;老板请他周四下午三点来试工(das Probearbeiten)。说话人:wei、mitarbeiterin。",
+      "grammarFocusZh": "als + 职业(Haben Sie schon als Kellner gearbeitet?);打电话的开头和结尾复习;时间表达复习",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.stelle", "kind": "word", "pos": "noun", "text": "die Stelle", "zh": "职位;工作岗位", "features": { "gender": "f", "plural": "die Stellen", "ipa": "ˈʃtɛlə" }, "noteZh": "st 在词首读 [ʃt];打电话问工作:Ist die Stelle noch frei?(这个职位还招人吗?)" },
+        { "id": "de.als", "kind": "word", "pos": "conj", "text": "als", "zh": "作为;当(+ 职业、身份)", "features": { "ipa": "als" }, "noteZh": "als + 职业,不加冠词:Ich arbeite als Aushilfe.(我当临时工。)Haben Sie schon als Kellner gearbeitet?;直接说职业也不加冠词:Ich bin Kellner.。" },
+        { "id": "de.erfahrung", "kind": "word", "pos": "noun", "text": "die Erfahrung", "zh": "经验", "features": { "gender": "f", "plural": "die Erfahrungen", "ipa": "ɛɐ̯ˈfaːʁʊŋ" }, "noteZh": "-ung 结尾的名词是阴性;找工作时常被问:Haben Sie Erfahrung?(您有经验吗?)不加冠词。" },
+        { "id": "de.kellner", "kind": "word", "pos": "noun", "text": "der Kellner", "zh": "(男)服务员", "features": { "gender": "m", "plural": "die Kellner", "ipa": "ˈkɛlnɐ" }, "noteZh": "女服务员是 die Kellnerin;在餐馆叫服务员一般说 Entschuldigung! 或 Hallo!,不直接喊 Kellner!" },
+        { "id": "de.jemand", "kind": "word", "pos": "pron", "text": "jemand", "zh": "某人;有人", "features": { "ipa": "ˈjeːmant" }, "noteZh": "Wir brauchen jemanden.(我们需要一个人。)第四格常说 jemanden;“没有人”是 niemand。词尾 d 读 [t]。" },
+        { "id": "de.sofort", "kind": "word", "pos": "adv", "text": "sofort", "zh": "马上;立刻", "features": { "ipa": "zoˈfɔʁt" }, "noteZh": "重音在 fort 上,s 读 [z];Können Sie sofort anfangen?(您能马上开始吗?)" },
+        { "id": "de.probearbeiten", "kind": "word", "pos": "noun", "text": "das Probearbeiten", "zh": "试工", "features": { "gender": "n", "plural": "-", "ipa": "ˈpʁoːbəˌʔaʁbaɪ̯tn̩" }, "noteZh": "die Probe(试)+ arbeiten;动词原形大写当名词,是中性:zum Probearbeiten kommen(来试工)。德国的餐馆、小店招人常先请你试工几个小时。" },
+        { "id": "de.moeglich", "kind": "word", "pos": "adj", "text": "möglich", "zh": "可能的;行得通的", "features": { "ipa": "ˈmøːklɪç" }, "noteZh": "Ist das möglich?(可以吗?)Das ist möglich.(可以。)ö 是长音,g 在 l 前读 [k],-lich 读 [lɪç]。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u13.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-13 打工", "order": 113030,
+      "titleZh": "我应该几点到?——sollen",
+      "goalZh": "能用 sollen 转述别人的要求,也能用 Soll ich …? 主动帮忙",
+      "canDoZh": "能用 sollen 转述别人的要求,也能用 Soll ich …? 主动帮忙",
+      "scenarioZh": "试工那天,索菲娅在店里带王伟:老板说他应该九点到、要穿黑裤子和白 T 恤、上班前先洗手;王伟不停地问 Soll ich die Tische abwischen? Soll ich das Eis holen?;下班回家,他把老板的要求说给约纳斯听(Die Chefin sagt, ich soll …)。说话人:sofia、wei、jonas。",
+      "grammarFocusZh": "sollen 的变位(ich soll, du sollst, er soll)和两种用法:转述别人的要求(Ich soll um neun da sein)、主动提出帮忙(Soll ich …?);和 müssen 的区别",
+      "skills": ["read", "write", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.sollen", "kind": "word", "pos": "verb", "text": "sollen", "zh": "应该;(别人)要我做", "features": { "ipa": "ˈzɔlən" }, "noteZh": "情态动词:ich soll, du sollst, er soll(ich 和 er 没有词尾),原形放句末;转述别人的要求:Die Chefin sagt, ich soll pünktlich sein.;主动帮忙:Soll ich …?(要我……吗?)" },
+        { "id": "de.tragen", "kind": "word", "pos": "verb", "text": "tragen", "zh": "穿;戴;拿着", "features": { "ipa": "ˈtʁaːɡn̩" }, "noteZh": "不规则:du trägst, er trägt(a 变 ä);穿衣服、戴眼镜都可以用 tragen:eine Hose tragen, eine Brille tragen。" },
+        { "id": "de.t_shirt", "kind": "word", "pos": "noun", "text": "das T-Shirt", "zh": "T 恤", "features": { "gender": "n", "plural": "die T-Shirts", "ipa": "ˈtiːʃœːɐ̯t" }, "noteZh": "英语借词,中性:das T-Shirt;复数加 -s;德国人基本按英语的音读。" },
+        { "id": "de.waschen", "kind": "word", "pos": "verb", "text": "waschen", "zh": "洗", "features": { "ipa": "ˈvaʃn̩" }, "noteZh": "不规则:du wäschst, er wäscht(a 变 ä);die Hände waschen(洗手);w 读 [v],sch 读 [ʃ]。" },
+        { "id": "de.abwischen", "kind": "word", "pos": "verb", "text": "abwischen", "zh": "擦(干净)", "features": { "ipa": "ˈapˌvɪʃn̩" }, "noteZh": "可分动词,ab 放句末:Ich wische den Tisch ab.;问:Soll ich die Tische abwischen?;ab 读 [ap]。" },
+        { "id": "de.holen", "kind": "word", "pos": "verb", "text": "holen", "zh": "去拿;取来", "features": { "ipa": "ˈhoːlən" }, "noteZh": "去别处把东西拿过来:Ich hole das Eis.(我去拿冰淇淋。)规则动词:du holst, er holt;o 是长音。" },
+        { "id": "de.kasse", "kind": "word", "pos": "noun", "text": "die Kasse", "zh": "收银台;收款处", "features": { "gender": "f", "plural": "die Kassen", "ipa": "ˈkasə" }, "noteZh": "an der Kasse(在收银台);超市的收银员是 die Kassiererin;ss 读清音 [s]。" },
+        { "id": "de.chef", "kind": "word", "pos": "noun", "text": "der Chef", "zh": "老板;上司", "features": { "gender": "m", "plural": "die Chefs", "ipa": "ʃɛf" }, "noteZh": "ch 读 [ʃ](从法语来的词);复数加 -s:die Chefs;女的是 die Chefin。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u13.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-13 打工", "order": 113040,
+      "titleZh": "在冰淇淋店:几个球?",
+      "goalZh": "能招呼客人、问口味和数量、收钱找零",
+      "canDoZh": "能招呼客人、问口味和数量、收钱找零",
+      "scenarioZh": "周六下午店里很忙,王伟第一次自己卖冰淇淋。莉娜和保罗来看他:保罗要三个球(die Kugel)——巧克力、草莓和柠檬,问蛋筒还是杯子(Waffel oder Becher?);莉娜要一杯冰咖啡;王伟收钱找零,说错了一次价格,索菲娅在旁边纠正。说话人:wei、paul、lena、sofia。",
+      "grammarFocusZh": "服务用语:Was darf es sein? / Sonst noch etwas? / Das macht …;数量和价格复习(drei Kugeln, 1,80 Euro pro Kugel)",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.was_darf_es_sein", "kind": "phrase", "pos": "phrase", "text": "Was darf es sein?", "zh": "您要点什么?(店员招呼顾客)", "features": { "ipa": "vas daʁf ɛs ˈzaɪ̯n" }, "noteZh": "面包店、冰淇淋店、咖啡馆的店员常这样招呼顾客,很客气,不用分 du 和 Sie;darf 是 dürfen 的变位。" },
+        { "id": "de.kugel", "kind": "word", "pos": "noun", "text": "die Kugel", "zh": "(冰淇淋的)球;球形", "features": { "gender": "f", "plural": "die Kugeln", "ipa": "ˈkuːɡl̩" }, "noteZh": "冰淇淋按球卖:eine Kugel / drei Kugeln Eis;u 是长音。" },
+        { "id": "de.erdbeere", "kind": "word", "pos": "noun", "text": "die Erdbeere", "zh": "草莓", "features": { "gender": "f", "plural": "die Erdbeeren", "ipa": "ˈeːɐ̯tˌbeːʁə" }, "noteZh": "die Erde(土地)+ die Beere(浆果),重音在 Erd 上,d 读 [t];点冰淇淋时口味直接说名字:Erdbeere, bitte!" },
+        { "id": "de.zitrone", "kind": "word", "pos": "noun", "text": "die Zitrone", "zh": "柠檬", "features": { "gender": "f", "plural": "die Zitronen", "ipa": "tsiˈtʁoːnə" }, "noteZh": "重音在 tro 上:zi-TRO-ne;z 读 [ts]。" },
+        { "id": "de.waffel", "kind": "word", "pos": "noun", "text": "die Waffel", "zh": "华夫饼;(冰淇淋的)蛋筒", "features": { "gender": "f", "plural": "die Waffeln", "ipa": "ˈvafl̩" }, "noteZh": "冰淇淋店常问:In der Waffel oder im Becher?(要蛋筒还是杯装?)w 读 [v]。" },
+        { "id": "de.becher", "kind": "word", "pos": "noun", "text": "der Becher", "zh": "(没有把的)杯子;纸杯", "features": { "gender": "m", "plural": "die Becher", "ipa": "ˈbɛçɐ" }, "noteZh": "没有把的杯子叫 Becher,有把的是 die Tasse;ch 在 e 后面读 [ç]。" },
+        { "id": "de.eiskaffee", "kind": "word", "pos": "noun", "text": "der Eiskaffee", "zh": "冰咖啡(加冰淇淋)", "features": { "gender": "m", "plural": "die Eiskaffees", "ipa": "ˈaɪ̯skaˌfeː" }, "noteZh": "德国的 Eiskaffee 是凉咖啡加香草冰淇淋和奶油,不是加冰块的咖啡;性跟 der Kaffee 走。" },
+        { "id": "de.sonst_noch_etwas", "kind": "phrase", "pos": "phrase", "text": "Sonst noch etwas?", "zh": "还要别的吗?", "features": { "ipa": "zɔnst nɔx ˈɛtvas" }, "noteZh": "店员收钱以前常问;回答:Nein, danke. / Ja, noch …;口语里也说 Sonst noch was?" },
+        { "id": "de.cent", "kind": "word", "pos": "noun", "text": "der Cent", "zh": "欧分", "features": { "gender": "m", "plural": "die Cent", "ipa": "sɛnt" }, "noteZh": "1 Euro = 100 Cent;说钱数时复数不变:sechzig Cent;价格 1,80 € 读作 ein Euro achtzig,在店里常简说 eins achtzig。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u13.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-13 打工", "order": 113045,
+      "titleZh": "排班表和店里的规定",
+      "goalZh": "能读懂排班表和员工须知,找出自己哪天几点上班、要注意什么",
+      "canDoZh": "能读懂排班表和员工须知,找出自己哪天几点上班、要注意什么",
+      "scenarioZh": "体裁:排班表和员工须知(贴在店里的墙上)。王伟读六月的排班表:他周三 14 到 20 点,周六、周日 12 到 18 点;须知写着:要准时,迟到要提前打电话;工作时不能用手机;每人每天可以免费吃一个冰淇淋;工资每月月底转到银行账户。说话人:narrator(排班表和须知)。",
+      "grammarFocusZh": "复习:von … bis …、am + 星期、dürfen / müssen + man",
+      "skills": ["read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.dienstplan", "kind": "word", "pos": "noun", "text": "der Dienstplan", "zh": "排班表", "features": { "gender": "m", "plural": "die Dienstpläne", "ipa": "ˈdiːnstˌplaːn" }, "noteZh": "der Dienst(班)+ der Plan(计划)→ der Dienstplan,性跟 Plan 走;复数 die Dienstpläne。ie 是长音。" },
+        { "id": "de.mitarbeiter", "kind": "word", "pos": "noun", "text": "der Mitarbeiter", "zh": "员工;同事", "features": { "gender": "m", "plural": "die Mitarbeiter", "ipa": "ˈmɪtˌʔaʁbaɪ̯tɐ" }, "noteZh": "mit(一起)+ arbeiten + -er;女员工是 die Mitarbeiterin;复数和单数一样:die Mitarbeiter。" },
+        { "id": "de.vorher", "kind": "word", "pos": "adv", "text": "vorher", "zh": "事先;在那之前", "features": { "ipa": "foːɐ̯ˈheːɐ̯" }, "noteZh": "v 读 [f];Ruf bitte vorher an!(请事先打电话!)反义词 nachher(之后)。" },
+        { "id": "de.kostenlos", "kind": "word", "pos": "adj", "text": "kostenlos", "zh": "免费的", "features": { "ipa": "ˈkɔstn̩loːs" }, "noteZh": "kosten(花钱)+ -los(没有)= 不要钱的;同样意思的还有 gratis。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u13.l05", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-13 打工", "order": 113050,
+      "titleZh": "工作合同和工资",
+      "goalZh": "能说出工作和工资的基本词,问清楚每小时多少钱、什么时候发工资、要带什么材料",
+      "canDoZh": "能说出工作和工资的基本词,问清楚每小时多少钱、什么时候发工资、要带什么材料",
+      "scenarioZh": "下班后,老板(mitarbeiterin)和王伟谈合同:每小时多少欧元、每月最多工作多少小时、工资什么时候发,要他带护照和银行账户号码(die IBAN)。回家后王伟和约纳斯聊:约纳斯是全职厨师(Vollzeit),王伟是兼职(Teilzeit / Minijob)。说话人:mitarbeiterin、wei、jonas。",
+      "grammarFocusZh": "复合词和缩写(der Arbeitsvertrag, die IBAN, Vollzeit / Teilzeit);数字和价格复习",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.arbeitsvertrag", "kind": "word", "pos": "noun", "text": "der Arbeitsvertrag", "zh": "劳动合同", "features": { "gender": "m", "plural": "die Arbeitsverträge", "ipa": "ˈaʁbaɪ̯tsfɛɐ̯ˌtʁaːk" }, "noteZh": "die Arbeit + s + der Vertrag(合同),中间的 s 起连接作用,性跟 Vertrag 走;den Arbeitsvertrag unterschreiben(签劳动合同)。" },
+        { "id": "de.verdienen", "kind": "word", "pos": "verb", "text": "verdienen", "zh": "挣(钱)", "features": { "ipa": "fɛɐ̯ˈdiːnən" }, "noteZh": "ver- 不可分、不重读,v 读 [f];Wie viel verdienst du?(你挣多少?)在德国一般不直接问别人的工资,朋友之间聊打工可以。" },
+        { "id": "de.iban", "kind": "word", "pos": "noun", "text": "die IBAN", "zh": "国际银行账号", "features": { "gender": "f", "plural": "die IBANs", "ipa": "ˈiːban" }, "noteZh": "缩写,整个读作 [ˈiːban];德国的银行账号就是 IBAN,以 DE 开头;发工资、交房租都要用。" },
+        { "id": "de.kopie", "kind": "word", "pos": "noun", "text": "die Kopie", "zh": "复印件", "features": { "gender": "f", "plural": "die Kopien", "ipa": "koˈpiː" }, "noteZh": "重音在后:ko-PIE,ie 是长音;复数 die Kopien 读 [koˈpiːən];eine Kopie von deinem Pass(你护照的复印件)。" },
+        { "id": "de.urlaub", "kind": "word", "pos": "noun", "text": "der Urlaub", "zh": "(上班的人的)休假", "features": { "gender": "m", "plural": "die Urlaube", "ipa": "ˈuːɐ̯laʊ̯p" }, "noteZh": "上班的人休假叫 Urlaub(Urlaub haben / machen),学生和学校放假叫 die Ferien;词尾 b 读 [p]。" },
+        { "id": "de.feierabend", "kind": "word", "pos": "noun", "text": "der Feierabend", "zh": "下班;下班后的时间", "features": { "gender": "m", "plural": "die Feierabende", "ipa": "ˈfaɪ̯ɐˌʔaːbn̩t" }, "noteZh": "feiern + der Abend;下班时常说 Feierabend!(下班啦!)或 Schönen Feierabend!(下班愉快!);词尾 d 读 [t]。" },
+        { "id": "de.teilzeit", "kind": "word", "pos": "noun", "text": "die Teilzeit", "zh": "非全日制;兼职", "features": { "gender": "f", "plural": "-", "ipa": "ˈtaɪ̯lˌtsaɪ̯t" }, "noteZh": "der Teil + die Zeit;Teilzeit arbeiten(做兼职),不加冠词;反义词 Vollzeit。" },
+        { "id": "de.vollzeit", "kind": "word", "pos": "noun", "text": "die Vollzeit", "zh": "全职", "features": { "gender": "f", "plural": "-", "ipa": "ˈfɔlˌtsaɪ̯t" }, "noteZh": "voll(满)+ die Zeit,v 读 [f];Vollzeit arbeiten(上全职班),不加冠词。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u13.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-13 打工", "order": 113060,
+      "titleZh": "请假和换班",
+      "goalZh": "能和同事商量换班,打电话向老板请假并说明理由",
+      "canDoZh": "能和同事商量换班,打电话向老板请假并说明理由",
+      "scenarioZh": "下周三王伟要去系里开小组会,不能上班。他先问索菲娅 Kannst du am Mittwoch für mich arbeiten?;索菲娅周三有德语课,但周四可以;王伟再给老板打电话说明情况,问能不能改成周四;老板同意了。说话人:wei、sofia、mitarbeiterin。",
+      "grammarFocusZh": "denn 和 sollen 复习;für + 第四格(für mich)复习;tauschen(Wir tauschen den Dienst)",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.tauschen", "kind": "word", "pos": "verb", "text": "tauschen", "zh": "交换;调换", "features": { "ipa": "ˈtaʊ̯ʃn̩" }, "noteZh": "den Dienst tauschen(换班);规则动词:du tauschst, er tauscht;au 读 [aʊ],sch 读 [ʃ]。" },
+        { "id": "de.dienst", "kind": "word", "pos": "noun", "text": "der Dienst", "zh": "班;值班", "features": { "gender": "m", "plural": "die Dienste", "ipa": "diːnst" }, "noteZh": "上班的“班”:am Mittwoch Dienst haben(星期三上班)、den Dienst tauschen(换班);ie 是长音。" },
+        { "id": "de.referat", "kind": "word", "pos": "noun", "text": "das Referat", "zh": "(课上的)报告", "features": { "gender": "n", "plural": "die Referate", "ipa": "ʁefeˈʁaːt" }, "noteZh": "学生在课上做的报告、发言:ein Referat machen / halten;重音在 rat 上。" },
+        { "id": "de.vorbereiten", "kind": "word", "pos": "verb", "text": "vorbereiten", "zh": "准备", "features": { "ipa": "ˈfoːɐ̯bəˌʁaɪ̯tn̩" }, "noteZh": "可分动词,vor 放句末:Wir bereiten ein Referat vor.;词干以 t 结尾:du bereitest vor;v 读 [f]。" },
+        { "id": "de.was_ist_los", "kind": "phrase", "pos": "phrase", "text": "Was ist los?", "zh": "怎么了?出什么事了?", "features": { "ipa": "vas ɪst ˈloːs" }, "noteZh": "看出对方有事、心情不好时问;回答直接说情况就行:Ich bin krank. / Ich habe ein Problem." },
+        { "id": "de.aendern", "kind": "word", "pos": "verb", "text": "ändern", "zh": "改;改变", "features": { "ipa": "ˈɛndɐn" }, "noteZh": "ich ändere, du änderst, er ändert;den Dienstplan ändern(改排班表);ä 读 [ɛ]。" },
+        { "id": "de.einverstanden", "kind": "word", "pos": "adj", "text": "einverstanden", "zh": "同意", "features": { "ipa": "ˈaɪ̯nfɛɐ̯ˌʃtandn̩" }, "noteZh": "Einverstanden!(同意!/ 就这么定了!)也说 Ich bin einverstanden.;v 读 [f]。" },
+        { "id": "de.viel_erfolg", "kind": "phrase", "pos": "phrase", "text": "Viel Erfolg!", "zh": "祝你成功!", "features": { "ipa": "fiːl ɛɐ̯ˈfɔlk" }, "noteZh": "别人要考试、做报告、面试时说;意思和 Viel Glück! 差不多;Erfolg 词尾的 g 读 [k]。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u13.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-13 打工", "order": 113070,
+      "titleZh": "第一周的反馈",
+      "goalZh": "能听懂别人对自己工作的评价,说说自己哪里做得好、哪里要改进",
+      "canDoZh": "能听懂别人对自己工作的评价,说说自己哪里做得好、哪里要改进",
+      "scenarioZh": "第一周结束,老板和王伟聊:顾客很喜欢他,他很友好、动作也快;但找钱有时候太慢,要多练数字。她问王伟七月能不能多上几天班;王伟说七月中学期结束以后可以,但月底要去旅行。说话人:mitarbeiterin、wei。",
+      "grammarFocusZh": "评价的说法(Das machst du gut / Du bist sehr freundlich / Du musst … üben);sollen 复习;日期和月份复习",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.zufrieden", "kind": "word", "pos": "adj", "text": "zufrieden", "zh": "满意", "features": { "ipa": "tsuˈfʁiːdn̩" }, "noteZh": "对谁满意用 mit:Ich bin mit dir zufrieden.(我对你很满意。)重音在 frie 上,ie 是长音。" },
+        { "id": "de.kunde", "kind": "word", "pos": "noun", "text": "der Kunde", "zh": "顾客;客户", "features": { "gender": "m", "plural": "die Kunden", "ipa": "ˈkʊndə" }, "noteZh": "复数 die Kunden 也泛指所有顾客;der Kunde 除了第一格都加 -n:Ich frage den Kunden.;女顾客是 die Kundin。" },
+        { "id": "de.kundin", "kind": "word", "pos": "noun", "text": "die Kundin", "zh": "女顾客", "features": { "gender": "f", "plural": "die Kundinnen", "ipa": "ˈkʊndɪn" }, "noteZh": "der Kunde 的阴性,复数 die Kundinnen。" },
+        { "id": "de.freundlich", "kind": "word", "pos": "adj", "text": "freundlich", "zh": "友好;和气", "features": { "ipa": "ˈfʁɔʏ̯ntlɪç" }, "noteZh": "der Freund + -lich;eu 读 [ɔʏ],d 在 l 前读 [t],词尾 -lich 读 [lɪç];服务行业最常听到的夸奖:Sie sind sehr freundlich.;反义词 unfreundlich。" },
+        { "id": "de.trinkgeld", "kind": "word", "pos": "noun", "text": "das Trinkgeld", "zh": "小费", "features": { "gender": "n", "plural": "die Trinkgelder", "ipa": "ˈtʁɪŋkˌɡɛlt" }, "noteZh": "trinken + das Geld,性跟 Geld 走;在德国的餐馆、咖啡馆,顾客常把钱凑个整数当小费。" },
+        { "id": "de.wechselgeld", "kind": "word", "pos": "noun", "text": "das Wechselgeld", "zh": "找的零钱", "features": { "gender": "n", "plural": "-", "ipa": "ˈvɛksl̩ˌɡɛlt" }, "noteZh": "wechseln(换)+ das Geld;收钱时说:Hier ist Ihr Wechselgeld.(这是找您的钱。)chs 读 [ks]。" },
+        { "id": "de.rechnen", "kind": "word", "pos": "verb", "text": "rechnen", "zh": "计算;算", "features": { "ipa": "ˈʁɛçnən" }, "noteZh": "ich rechne, du rechnest, er rechnet(词干以 n 结尾,du / er 前要加 e);ch 在 e 后面读 [ç]。" },
+        { "id": "de.mitte", "kind": "word", "pos": "noun", "text": "die Mitte", "zh": "中间;(月)中旬", "features": { "gender": "f", "plural": "-", "ipa": "ˈmɪtə" }, "noteZh": "Mitte Juli(七月中旬)、Ende Juli(七月底)前面都不加介词;in der Mitte(在中间)。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u13.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-13 打工", "order": 113080,
+      "titleZh": "单元复习与应用:给保罗出主意",
+      "goalZh": "能介绍自己的工作,给想找工作的朋友提建议",
+      "canDoZh": "能介绍自己的工作,给想找工作的朋友提建议",
+      "scenarioZh": "保罗(16 岁)也想暑假打工,挣钱买新电脑。他来店里吃冰淇淋,问王伟:你做什么?几点到几点?每小时多少钱?王伟介绍自己的工作,告诉他找工作要注意什么;索菲娅补充:16 岁的学生只能做轻松的工作,工作时间也有规定(只说“有规定”,不讲具体法律)。说话人:paul、wei、sofia。",
+      "grammarFocusZh": "复习:als、sollen、von … bis …、denn",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.erst", "kind": "word", "pos": "adv", "text": "erst", "zh": "才(强调早、少、晚)", "features": { "ipa": "eːɐ̯st" }, "noteZh": "Du bist erst 16.(你才 16 岁。)Das Ergebnis kommt erst in vier Wochen.(成绩四个星期以后才出来。)nur 是单纯的“只”,erst 带着“还不到、比想的晚”的意思。" },
+        { "id": "de.regel", "kind": "word", "pos": "noun", "text": "die Regel", "zh": "规定;规则", "features": { "gender": "f", "plural": "die Regeln", "ipa": "ˈʁeːɡl̩" }, "noteZh": "Es gibt Regeln.(有规定。)e 是长音;复数 die Regeln。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u13.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-13 打工", "order": 113085,
+      "titleZh": "王伟的打工日记",
+      "goalZh": "能读懂一篇讲工作经历的日记,说出工作内容、感受和收获",
+      "canDoZh": "能读懂一篇讲工作经历的日记,说出工作内容、感受和收获",
+      "scenarioZh": "体裁:日记。在冰淇淋店工作两周以后,王伟写日记:第一天很紧张,把草莓(Erdbeere)和覆盆子(Himbeere)弄混了;现在他能用德语招呼客人、推荐口味,还会开玩笑;很多邻居的孩子每天都来;他觉得打工也是学德语的好办法。用完成时和现在时写。说话人:wei(日记)。",
+      "grammarFocusZh": "复习:完成时、denn;时间顺序(am ersten Tag, jetzt);一些分词先当固定说法(verwechselt,不加 ge- 的分词 A2 讲)",
+      "skills": ["read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.tagebuch", "kind": "word", "pos": "noun", "text": "das Tagebuch", "zh": "日记;日记本", "features": { "gender": "n", "plural": "die Tagebücher", "ipa": "ˈtaːɡəˌbuːx" }, "noteZh": "der Tag + e + das Buch → das Tagebuch,性跟 Buch 走;Tagebuch schreiben(写日记)。" },
+        { "id": "de.himbeere", "kind": "word", "pos": "noun", "text": "die Himbeere", "zh": "覆盆子;树莓", "features": { "gender": "f", "plural": "die Himbeeren", "ipa": "ˈhɪmˌbeːʁə" }, "noteZh": "和 die Erdbeere(草莓)都是 Beere(浆果),很容易弄混;重音在 Him 上。" },
+        { "id": "de.verwechseln", "kind": "word", "pos": "verb", "text": "verwechseln", "zh": "弄混;搞错", "features": { "ipa": "fɛɐ̯ˈvɛksl̩n" }, "noteZh": "ver- 不可分,完成时不加 ge-:Ich habe Erdbeere und Himbeere verwechselt.(我把草莓和覆盆子弄混了。)chs 读 [ks]。" },
+        { "id": "de.witz", "kind": "word", "pos": "noun", "text": "der Witz", "zh": "笑话;玩笑", "features": { "gender": "m", "plural": "die Witze", "ipa": "vɪts" }, "noteZh": "Witze machen(开玩笑)、einen Witz erzählen(讲笑话);w 读 [v],tz 读 [ts]。" }
+      ],
+      "reviewItems": []
+    }
+  ]
+}
