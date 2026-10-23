@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u2.l05", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 谚文:收音与问候", "order": 102050,
+  "titleZh": "没关系,下次见!", "goalZh": "会回应道歉、答应提议,分清两种“再见”,会叫住别人;读准 ㅎ 的弱化和脱落",
+  "canDoZh": "能在离开教室、商店时正确地说再见,别人道歉时说 괜찮아요",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "ko.gwaenchanayo", "kind": "phrase", "pos": "phrase", "text": "괜찮아요", "zh": "没关系;不用了;还好", "features": { "roman": "gwaenchanayo" }, "noteZh": "ㅎ 脱落读 [괜차나요]。回应道歉(没关系)、婉拒(不用了)、问对方行不行或要不要紧(괜찮아요?)都用它。" },
+    { "id": "ko.joayo", "kind": "phrase", "pos": "phrase", "text": "좋아요", "zh": "好;好啊;很好", "features": { "roman": "joayo" }, "noteZh": "收音 ㅎ 后面接元音时不发音,读 [조아요];答应提议、接受别人给的东西时说 좋아요!" },
+    { "id": "ko.annyeonghi_gaseyo", "kind": "phrase", "pos": "phrase", "text": "안녕히 가세요", "zh": "再见(对离开的人说)", "features": { "roman": "annyeonghi gaseyo" }, "noteZh": "字面是“请平安地走”:对方走、你留下时说;两个人都要走时也互相说它。안녕히 的 ㅎ 很轻,像 [안녕이]。" },
+    { "id": "ko.annyeonghi_gyeseyo", "kind": "phrase", "pos": "phrase", "text": "안녕히 계세요", "zh": "再见(对留下的人说)", "features": { "roman": "annyeonghi gyeseyo" }, "noteZh": "字面是“请平安地待着”:你走、对方留下时说,比如离开商店时对店员说。계 读 [게]。" },
+    { "id": "ko.annyeong", "kind": "phrase", "pos": "phrase", "text": "안녕", "zh": "你好;再见(对熟朋友)", "features": { "roman": "annyeong" }, "noteZh": "半语,只对熟悉的同龄人或比自己小的人说;对老师、店员、刚认识的人说 안녕하세요 / 안녕히 가세요。" },
+    { "id": "ko.jeogiyo", "kind": "phrase", "pos": "phrase", "text": "저기요", "zh": "打扰一下;请问(叫住别人)", "features": { "roman": "jeogiyo" }, "noteZh": "叫住陌生人、在餐厅叫服务员时说,相当于“不好意思,请问……”。" },
+    { "id": "ko.tto_mannayo", "kind": "phrase", "pos": "phrase", "text": "또 만나요", "zh": "下次见;再会", "features": { "roman": "tto mannayo" }, "noteZh": "字面“再见面吧”;同学、朋友道别时常说。또 是紧音,喉咙绷紧。" }
+  ],
+  "reviewItems": ["ko.mianhaeyo", "ko.annyeonghaseyo", "ko.jamo_h", "ko.jamo_tt"],
+  "lines": [
+    { "speaker": "jing", "text": "남 씨, 안녕하세요!", "zh": "(第三天早上,陈静走进教室)阿南,早上好!", "roman": "Nam ssi, annyeonghaseyo!", "items": ["ko.ssi", "ko.annyeonghaseyo"] },
+    { "speaker": "nam", "text": "안녕하세요, 천징 씨!", "zh": "早啊,陈静!", "roman": "Annyeonghaseyo, Cheonjing ssi!", "items": ["ko.annyeonghaseyo", "ko.ssi"] },
+    { "speaker": "nam", "text": "미안해요!", "zh": "(下课了。南收拾东西时,把陈静的书压皱了)对不起!", "roman": "Mianhaeyo!", "items": ["ko.mianhaeyo"] },
+    { "speaker": "jing", "text": "괜찮아요.", "zh": "没关系。", "roman": "Gwaenchanayo.", "items": ["ko.gwaenchanayo", "ko.jamo_h"] },
+    { "speaker": "nam", "text": "커피 괜찮아요?", "zh": "(南从包里拿出两罐咖啡,递给陈静一罐)喝咖啡可以吗?", "roman": "Keopi gwaenchanayo?", "items": ["ko.keopi", "ko.gwaenchanayo"] },
+    { "speaker": "jing", "text": "네, 좋아요! 고마워요.", "zh": "好啊!谢谢。", "roman": "Ne, joayo! Gomawoyo.", "items": ["ko.ne", "ko.joayo", "ko.gomawoyo", "ko.jamo_h"] },
+    { "speaker": "jing", "text": "안녕히 계세요.", "zh": "(陈静走到门口,对还在教室里的朴老师说)老师再见。", "roman": "Annyeonghi gyeseyo.", "items": ["ko.annyeonghi_gyeseyo"] },
+    { "speaker": "park", "text": "네, 안녕히 가세요.", "zh": "好,慢走。", "roman": "Ne, annyeonghi gaseyo.", "items": ["ko.ne", "ko.annyeonghi_gaseyo"] },
+    { "speaker": "nam", "text": "천징 씨, 안녕! 또 만나요!", "zh": "(到了楼门口,南要往另一个方向走)陈静,拜拜!回头见!", "roman": "Cheonjing ssi, annyeong! Tto mannayo!", "items": ["ko.ssi", "ko.annyeong", "ko.tto_mannayo"] },
+    { "speaker": "jing", "text": "안녕히 가세요. 또 만나요!", "zh": "再见,回头见!", "roman": "Annyeonghi gaseyo. Tto mannayo!", "items": ["ko.annyeonghi_gaseyo", "ko.tto_mannayo", "ko.jamo_tt"] },
+    { "speaker": "jing", "text": "저기요! 여기요.", "zh": "(前面一位女士的手机掉在地上,她没发现。陈静捡起来追上去)不好意思!(把手机递过去)给您。", "roman": "Jeogiyo! Yeogiyo.", "items": ["ko.jeogiyo", "ko.yeogiyo"] },
+    { "speaker": "passerby", "text": "감사합니다!", "zh": "太谢谢你了!", "roman": "Gamsahamnida!", "items": ["ko.gamsahamnida"] }
+  ],
+  "questions": [
+    { "prompt": "南把陈静的书压皱了,说 미안해요。陈静怎么回答?", "options": ["괜찮아요.", "좋아요!", "또 만나요!"], "answer": 0, "explainZh": "第 3、4 句:别人道歉时说 괜찮아요(没关系)。좋아요 是“好啊”,또 만나요 是“回头见”。" },
+    { "prompt": "第 5 句南问“커피 괜찮아요?”,这里的 괜찮아요 是什么意思?", "options": ["不用了", "没关系", "(给你咖啡)可以吗?"], "answer": 2, "explainZh": "괜찮아요 有好几个意思:回应道歉是“没关系”(第 4 句);用升调问对方是“可以吗 / 行吗”(第 5 句);拒绝别人时是“不用了”。陈静高兴地接受,说 네, 좋아요!" },
+    { "prompt": "陈静离开教室时,对朴老师说了哪一句?", "options": ["안녕히 가세요——老师也要走", "안녕히 계세요——陈静走,老师留在教室", "안녕!——下课了可以随便说"], "answer": 1, "explainZh": "第 7、8 句:自己走、对方留下,说 안녕히 계세요;老师看着陈静离开,所以回答 안녕히 가세요。" },
+    { "prompt": "在楼门口南说 안녕!,陈静却回答 안녕히 가세요。为什么?", "options": ["안녕 只能早上说", "안녕 是“你好”,不能用来道别", "안녕 是半语,陈静和南才认识两天,用礼貌的说法更合适"], "answer": 2, "explainZh": "안녕 是半语,见面、分别都能用,但只对很熟的同龄人或比自己小的人说。陈静和南刚认识,两个人又都要走,所以她说 안녕히 가세요。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.h_drop", "titleZh": "ㅎ 的弱化和脱落",
+      "bodyZh": "ㅎ 是个很“弱”的音。① 收音 ㅎ(包括双收音 ㄶ、ㅀ 里的 ㅎ)后面接元音时不发音:좋아요 读 [조아요],괜찮아요 读 [괜차나요](ㄶ 里的 ㄴ 移到下一个字,ㅎ 脱落)。② ㅎ 在元音或 ㄴ ㄹ ㅁ ㅇ 后面作初声时读得很轻,说快了几乎听不见:안녕히 听起来像 [안녕이],안녕하세요 说快了也接近 [안녕아세요]。所以听到 [조아요] 要知道写作 좋아요,写的时候别漏了 ㅎ。和上一课的连音、鼻音化一样,这些音变是为了说起来顺,跟读时照听到的读就对了。",
+      "examples": [ { "text": "좋아요 [조아요]", "zh": "好啊:ㅎ 脱落" }, { "text": "괜찮아요 [괜차나요]", "zh": "没关系:ㄴ 移过去,ㅎ 脱落" }, { "text": "안녕히 가세요", "zh": "再见:히 的 ㅎ 读得很轻" } ] },
+    { "id": "ko.g.goodbye", "titleZh": "两种“再见”:안녕히 가세요 / 안녕히 계세요",
+      "bodyZh": "韩语说“再见”要看谁走、谁留:对离开的人说 안녕히 가세요(慢走,字面“请平安地走”);自己离开、对留下的人说 안녕히 계세요(请留步,字面“请平安地待着”)。离开教室、商店时,对留在里面的老师、店员说 안녕히 계세요;两个人都要走(比如在路口分开),双方都说 안녕히 가세요。안녕 是半语,见面、分别都能用,但只对很熟的同龄人或比自己小的人说;对老师、店员、刚认识的人用 안녕하세요 / 안녕히 가세요。同学之间常再加一句 또 만나요(回头见)。另外两句回应:别人道歉时说 괜찮아요(没关系);别人提议或给你东西,高兴地接受就说 좋아요(好啊)。",
+      "examples": [ { "text": "안녕히 계세요.", "zh": "(我走了,您留步)再见。" }, { "text": "안녕히 가세요.", "zh": "(您慢走)再见。" }, { "text": "안녕! 또 만나요!", "zh": "拜拜!回头见!(对熟朋友)" }, { "text": "괜찮아요.", "zh": "没关系。" } ] }
+  ],
+  "review": "draft"
+}

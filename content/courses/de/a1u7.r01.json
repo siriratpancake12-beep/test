@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u7.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107045,
+  "titleZh": "冬季打折广告", "goalZh": "看懂打折广告里的商品、颜色、尺码、原价、现价和截止日期", "canDoZh": "能看懂商场打折广告里的商品、颜色、尺码、原价和现价",
+  "skills": ["read"], "estimatedMinutes": 16.5,
+  "newItems": [
+    { "id": "de.prozent", "kind": "word", "pos": "noun", "text": "das Prozent", "zh": "百分之……", "features": { "gender": "n", "plural": "die Prozente", "ipa": "pʁoˈtsɛnt" }, "noteZh": "重音在后;数字后面用单数:50 Prozent;打折广告写 minus 30 Prozent(-30 %)是便宜 30%,也就是中文说的“七折”,不是“三折”!" },
+    { "id": "de.minus", "kind": "word", "pos": "adv", "text": "minus", "zh": "减;零下", "features": { "ipa": "ˈmiːnʊs" }, "noteZh": "打折广告:minus 30 Prozent(便宜 30%,也就是七折);天气:minus fünf Grad(零下五度)。i 读长音。" },
+    { "id": "de.dame", "kind": "word", "pos": "noun", "text": "die Dame", "zh": "女士", "features": { "gender": "f", "plural": "die Damen", "ipa": "ˈdaːmə" }, "noteZh": "商场里分 Damen(女装)和 Herren(男装);Meine Damen und Herren!(女士们,先生们!)" },
+    { "id": "de.kleid", "kind": "word", "pos": "noun", "text": "das Kleid", "zh": "连衣裙", "features": { "gender": "n", "plural": "die Kleider", "ipa": "klaɪ̯t" }, "noteZh": "词尾 d 读 [t];别和 die Kleidung(衣服的总称)混了。" }
+  ],
+  "reviewItems": ["de.jacke", "de.pullover", "de.hose", "de.groesse", "de.bis", "de.fuer"],
+  "lines": [
+    { "speaker": "lena", "text": "Wei, im Kaufhaus ist jetzt alles billig!", "zh": "(莉娜发来一张商场广告)王伟,商场现在什么都便宜!", "items": ["de.in", "de.kaufhaus", "de.sein", "de.jetzt", "de.alles", "de.billig"] },
+    { "speaker": "narrator", "text": "Winterjacken für Damen und Herren: minus 50 Prozent!", "zh": "女士、男士冬季外套:五折!", "items": ["de.winter", "de.jacke", "de.fuer", "de.dame", "de.und", "de.herr", "de.minus", "de.fuenfzig", "de.prozent"] },
+    { "speaker": "narrator", "text": "Jacke für Herren, schwarz, Größe M bis XL: 120 Euro, jetzt 60 Euro.", "zh": "男士外套,黑色,M 到 XL 号:原价 120 欧元,现价 60 欧元。", "items": ["de.jacke", "de.fuer", "de.herr", "de.schwarz", "de.groesse", "de.bis", "de.hundert", "de.zwanzig", "de.euro", "de.jetzt", "de.sechzig"] },
+    { "speaker": "narrator", "text": "Pullover, rot oder blau: minus 30 Prozent, jetzt 35 Euro.", "zh": "毛衣,红色或蓝色:七折,现价 35 欧元。", "items": ["de.pullover", "de.rot", "de.oder", "de.blau", "de.minus", "de.dreissig", "de.prozent", "de.jetzt", "de.fuenf", "de.und", "de.euro"] },
+    { "speaker": "narrator", "text": "Hosen für Herren, schwarz und blau: minus 50 Prozent.", "zh": "男士裤子,黑色和蓝色:五折。", "items": ["de.hose", "de.fuer", "de.herr", "de.schwarz", "de.und", "de.blau", "de.minus", "de.fuenfzig", "de.prozent"] },
+    { "speaker": "narrator", "text": "Kleider für Damen, rot und weiß: nur 25 Euro.", "zh": "女士连衣裙,红色和白色:只要 25 欧元。", "items": ["de.kleid", "de.fuer", "de.dame", "de.rot", "de.und", "de.weiss", "de.nur", "de.fuenf", "de.zwanzig", "de.euro"] },
+    { "speaker": "narrator", "text": "Schuhe für Damen und Herren: minus 30 Prozent.", "zh": "女鞋、男鞋:七折。", "items": ["de.schuh", "de.fuer", "de.dame", "de.und", "de.herr", "de.minus", "de.dreissig", "de.prozent"] },
+    { "speaker": "narrator", "text": "Nur bis zum 31. Januar!", "zh": "只到 1 月 31 日!", "items": ["de.nur", "de.bis", "de.zu", "de.eins", "de.und", "de.dreissig", "de.januar"] },
+    { "speaker": "wei", "text": "Danke, Lena! Der Pullover in Rot kostet jetzt nur 35 Euro.", "zh": "谢谢你,莉娜!那件红毛衣现在只要 35 欧元了。", "items": ["de.danke", "de.pullover", "de.in", "de.rot", "de.kosten", "de.jetzt", "de.nur", "de.fuenf", "de.und", "de.dreissig", "de.euro"] },
+    { "speaker": "wei", "text": "Ich brauche auch eine Hose. Gehen wir zusammen ins Kaufhaus?", "zh": "我还需要一条裤子。我们一起去商场吧?", "items": ["de.ich", "de.brauchen", "de.auch", "de.ein", "de.hose", "de.gehen", "de.wir", "de.zusammen", "de.in", "de.kaufhaus"] }
+  ],
+  "questions": [
+    { "prompt": "广告上的冬季外套打几折?", "options": ["七折", "五折", "三折"], "answer": 1, "explainZh": "Winterjacken … minus 50 Prozent!——便宜 50%,就是中文说的“五折”;120 欧元的外套现在 60 欧元。" },
+    { "prompt": "红毛衣现在多少钱?", "options": ["50 欧元", "30 欧元", "35 欧元"], "answer": 2, "explainZh": "Pullover, rot oder blau: minus 30 Prozent, jetzt 35 Euro.(七折,现价 35 欧元。)王伟也说:Der Pullover in Rot kostet jetzt nur 35 Euro." },
+    { "prompt": "打折到哪天为止?", "options": ["1 月 31 日", "1 月 13 日", "12 月 31 日"], "answer": 0, "explainZh": "Nur bis zum 31. Januar!(只到 1 月 31 日!)31. 读作 einunddreißigsten。" },
+    { "prompt": "王伟回复说,他还需要买什么?", "options": ["一件外套", "一条裤子", "一双鞋"], "answer": 1, "explainZh": "Ich brauche auch eine Hose.(我还需要一条裤子。)外套他上次已经买了。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u7_angebot", "titleZh": "看打折广告:minus … Prozent、für Damen / für Herren、bis zum …",
+      "bodyZh": "德国的打折广告说“便宜多少”:minus 30 Prozent(-30 %)= 便宜 30%,中文叫“七折”;minus 50 Prozent = 五折。中国学生最容易把 minus 30 Prozent 当成“三折”!\n商品分 für Damen(女士)和 für Herren(男士);für 后面用第四格,Damen、Herren 是复数。\n广告不写完整的句子,常用“商品,颜色,尺码:价格”的格式:Jacke für Herren, schwarz, Größe M bis XL: 120 Euro, jetzt 60 Euro.(颜色放在名词后面,形容词词尾 A2 再学。)\n截止日期:bis zum 31. Januar(到 1 月 31 日为止),zum = zu dem;nur bis … 是“只到……”。",
+      "examples": [
+        { "text": "Jacken für Damen: minus 50 Prozent!", "zh": "女士外套:五折!" },
+        { "text": "Hosen für Herren: nur 30 Euro.", "zh": "男裤:只要 30 欧元。" },
+        { "text": "Nur bis zum 31. Januar!", "zh": "只到 1 月 31 日!" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -79,12 +79,12 @@
       "canDoZh": "能读懂、也能写一张明信片:在哪儿、怎么去的、那里有什么",
       "scenarioZh": "体裁:明信片。周日在波茨坦,王伟给没一起来的索菲娅写明信片(德语课也布置了写明信片的作业):他和莉娜坐 S-Bahn 来,中途换了一次车,在站台等了十分钟(warten 作新词);波茨坦有大公园、宫殿(das Schloss 可作新词)和博物馆;下午坐车回柏林。Liebe Sofia … Viele Grüße。完成时第 8 单元才教,用现在时写正在做的事。说话人:wei(明信片)。",
       "grammarFocusZh": "复习:mit der S-Bahn / in Potsdam / nach Berlin 和可分动词 umsteigen(Wir steigen in … um);明信片的格式(Liebe … / Viele Grüße)",
-      "skills": ["read", "write"], "estimatedMinutes": 12,
+      "skills": ["read", "write"], "estimatedMinutes": 14.5,
       "newItems": [
         { "id": "de.schloss", "kind": "word", "pos": "noun", "text": "das Schloss", "zh": "宫殿;城堡;锁", "features": { "gender": "n", "plural": "die Schlösser", "ipa": "ʃlɔs" }, "noteZh": "复数变元音:die Schlösser;sch 读 [ʃ],o 是短音。波茨坦有很多宫殿和大公园。" },
         { "id": "de.postkarte", "kind": "word", "pos": "noun", "text": "die Postkarte", "zh": "明信片", "features": { "gender": "f", "plural": "die Postkarten", "ipa": "ˈpɔstˌkaʁtə" }, "noteZh": "die Post + die Karte;写明信片和写邮件一样:开头 Liebe … / Lieber …,结尾 Viele Grüße。" }
       ],
-      "reviewItems": ["de.warten", "de.umsteigen", "de.s_bahn", "de.viele_gruesse"]
+      "reviewItems": ["de.warten", "de.umsteigen", "de.s_bahn", "de.liebe", "de.viele_gruesse", "de.kennen"]
     },
     {
       "id": "de.a1u6.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106060,
@@ -92,7 +92,7 @@
       "canDoZh": "能在车上应对查票:出示车票,听懂查票员的问题,说明自己的情况",
       "scenarioZh": "接 u6.l05:王伟和约纳斯坐上了去汉堡的城际快车(ICE;柏林大学生的学期票只管区域交通,坐 ICE 要另外买票,票是王伟在窗口买的往返票)。两人找到座位(der Platz),女查票员来了:Fahrkartenkontrolle! Die Fahrkarten, bitte!;票在王伟这儿,他一下子找不到,请她稍等(Moment, bitte!)——原来在包(die Tasche)里;他把票给她看(zeigen),顺便问几点到汉堡;查票员说晚点十分钟,16:50 到,Gute Fahrt!;约纳斯趁机开玩笑吓唬王伟,又说明天带他去看港口(der Hafen)、坐渡船(die Fähre)。说话人:kontrolleurin、jonas、wei。",
       "grammarFocusZh": "Sie 的命令式和礼貌请求复习(Warten Sie bitte einen Moment!);可分动词 ankommen / aussteigen 复习(Wann kommen wir in Hamburg an?);查票的固定说法(Die Fahrkarten, bitte! / Gute Fahrt!)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
       "newItems": [
         { "id": "de.kontrolle", "kind": "word", "pos": "noun", "text": "die Kontrolle", "zh": "检查;查验", "features": { "gender": "f", "plural": "die Kontrollen", "ipa": "kɔnˈtʁɔlə" }, "noteZh": "重音在 trol 上;车上查票时会听到 Fahrkartenkontrolle!(查票!);机场的护照检查是 die Passkontrolle。" },
         { "id": "de.zeigen", "kind": "word", "pos": "verb", "text": "zeigen", "zh": "给……看;出示", "features": { "ipa": "ˈtsaɪ̯ɡn̩" }, "noteZh": "z 读 [ts],ei 读 [aɪ];Ich zeige Ihnen die Fahrkarten.(我给您看车票。)Morgen zeige ich dir den Hafen.(明天我带你去看港口。)" },
@@ -103,7 +103,7 @@
         { "id": "de.hafen", "kind": "word", "pos": "noun", "text": "der Hafen", "zh": "港口", "features": { "gender": "m", "plural": "die Häfen", "ipa": "ˈhaːfn̩" }, "noteZh": "复数变元音:die Häfen;zum Hafen(去港口)= zu dem Hafen。汉堡港是德国最大的港口。" },
         { "id": "de.faehre", "kind": "word", "pos": "noun", "text": "die Fähre", "zh": "渡船;轮渡", "features": { "gender": "f", "plural": "die Fähren", "ipa": "ˈfɛːʁə" }, "noteZh": "ä 读长音 [ɛː];mit der Fähre fahren(坐渡船)。在汉堡,港口的渡船也是公共交通。" }
       ],
-      "reviewItems": ["de.fahrkarte", "de.aussteigen", "de.ankommen", "de.verspaetung"]
+      "reviewItems": ["de.fahrkarte", "de.ankommen", "de.verspaetung", "de.aussteigen", "de.zu_fuss", "de.hin_und_zurueck"]
     },
     {
       "id": "de.a1u6.l07", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106070,
@@ -111,7 +111,7 @@
       "canDoZh": "能在圣诞市场的小摊上问价、买吃的喝的,说出圣诞市场上常见的东西",
       "scenarioZh": "傍晚,约纳斯带王伟去汉堡市中心的圣诞市场:到处是小摊(der Stand)、灯和音乐;他们买了不含酒精的热果汁(der Kinderpunsch)、烤香肠(die Bratwurst)和姜饼(der Lebkuchen),王伟还想给成都的家里买一个小礼物。女店员说得快,王伟请她再说一遍价格。Weihnachten 在 u5.l07 学过。说话人:verkaeuferin、wei、jonas。",
       "grammarFocusZh": "复习:Was kostet …? / Ich nehme … + 第四格和量词(eine Tasse Kinderpunsch);复合词 Weihnachtsmarkt = Weihnachten + Markt,重音在第一部分",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "de.weihnachtsmarkt", "kind": "word", "pos": "noun", "text": "der Weihnachtsmarkt", "zh": "圣诞市场", "features": { "gender": "m", "plural": "die Weihnachtsmärkte", "ipa": "ˈvaɪ̯naxtsˌmaʁkt" }, "noteZh": "Weihnachten + Markt,中间的 -s- 是连接音;复合词重音在第一部分(WEIH-),性跟着最后一个词(der Markt)。一般从 11 月底开到圣诞节前。" },
         { "id": "de.markt", "kind": "word", "pos": "noun", "text": "der Markt", "zh": "市场;集市", "features": { "gender": "m", "plural": "die Märkte", "ipa": "maʁkt" }, "noteZh": "复数变元音:die Märkte;rkt 几个辅音要连着读,不要加元音读成“马尔克特”。" },
@@ -122,7 +122,7 @@
         { "id": "de.suess", "kind": "word", "pos": "adj", "text": "süß", "zh": "甜;可爱", "features": { "ipa": "zyːs" }, "noteZh": "s 在词首读 [z],ü 是长音,ß 读清音 [s];也常用来夸东西“可爱”:Das ist süß!" },
         { "id": "de.frohe_weihnachten", "kind": "phrase", "pos": "phrase", "text": "Frohe Weihnachten!", "zh": "圣诞快乐!", "features": { "ipa": "ˈfʁoːə ˈvaɪ̯naxtn̩" }, "noteZh": "圣诞节前几天就可以说(和生日祝福不一样);也说 Schöne Weihnachten!" }
       ],
-      "reviewItems": ["de.weihnachten", "de.geschenk", "de.tasse", "de.noch_einmal"]
+      "reviewItems": ["de.tasse", "de.das_macht", "de.wie_bitte", "de.noch_einmal", "de.lecker"]
     },
     {
       "id": "de.a1u6.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106085,
@@ -130,14 +130,14 @@
       "canDoZh": "能读懂一篇讲节日夜晚和出行的博客短文,说出时间、地点和交通",
       "scenarioZh": "体裁:博客短文。12 月 31 日,王伟在莉娜家(Kreuzberg)跨年(bei 作新词:bei Lena / bei Lenas Familie,第三格先当固定说法):晚上一起吃饭、玩游戏,十二点大家到街上看烟花(das Feuerwerk),互相说 Frohes neues Jahr!;一点半,王伟坐夜班公交(der Nachtbus)和地铁回 Neukölln,车上人很多,很热闹。完成时第 8 单元才教,用现在时讲(Heute ist Silvester …)。说话人:wei(博客)。",
       "grammarFocusZh": "复习:钟点(um Mitternacht / um halb zwei)、mit dem Bus / nach Hause、可分动词;时间放句首的语序(Um zwölf Uhr gibt es Feuerwerk)",
-      "skills": ["read"], "estimatedMinutes": 12,
+      "skills": ["read"], "estimatedMinutes": 17,
       "newItems": [
         { "id": "de.feuerwerk", "kind": "word", "pos": "noun", "text": "das Feuerwerk", "zh": "烟花;焰火", "features": { "gender": "n", "plural": "die Feuerwerke", "ipa": "ˈfɔɪ̯ɐˌvɛʁk" }, "noteZh": "eu 读 [ɔʏ];das Feuer(火)+ das Werk;在德国,一般只有跨年夜才放烟花。" },
         { "id": "de.nacht", "kind": "word", "pos": "noun", "text": "die Nacht", "zh": "夜里;夜晚", "features": { "gender": "f", "plural": "die Nächte", "ipa": "naxt" }, "noteZh": "复数变元音:die Nächte;ch 在 a 后面读 [x];in der Nacht(在夜里)、Gute Nacht!(晚安!)、der Nachtbus(夜班公交)。" },
         { "id": "de.frohes_neues_jahr", "kind": "phrase", "pos": "phrase", "text": "Frohes neues Jahr!", "zh": "新年快乐!", "features": { "ipa": "ˈfʁoːəs ˈnɔɪ̯əs ˈjaːɐ̯" }, "noteZh": "12 月 31 日午夜以后到一月初都可以说;也说 Ein gutes neues Jahr!;词尾 -es 跟着中性的 das Jahr。" },
         { "id": "de.voll", "kind": "word", "pos": "adj", "text": "voll", "zh": "满;(人)很多", "features": { "ipa": "fɔl" }, "noteZh": "v 读 [f];Der Bus ist voll.(车上人很多。)" }
       ],
-      "reviewItems": ["de.silvester", "de.bei", "de.u_bahn", "de.nach_hause"]
+      "reviewItems": ["de.silvester", "de.bei", "de.nach_hause", "de.zu_hause", "de.halb", "de.platz"]
     },
     {
       "id": "de.a1u7.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107045,
@@ -145,13 +145,14 @@
       "canDoZh": "能看懂商场打折广告里的商品、颜色、尺码、原价和现价",
       "scenarioZh": "体裁:商场的打折广告(商场不写真实名称)。一月是冬季打折季,莉娜把广告发给王伟:夹克、毛衣、裤子、鞋打五折或七折(minus 50 Prozent,das Prozent 可作新词),写着颜色、尺码、原价和现价,还有一句“只到 1 月 31 日”。最后是王伟回复莉娜的一句话:想去看哪件。说话人:narrator(广告文字)、wei(最后一句)。",
       "grammarFocusZh": "复习:颜色、Größe、价格、für(für Damen / für Herren)和 bis(bis zum 31. Januar 当固定说法);形容词放在名词前面的词尾 A2 才讲,广告用“名词 + 颜色”的写法(Jacke, schwarz, 49 Euro)",
-      "skills": ["read"], "estimatedMinutes": 12,
+      "skills": ["read"], "estimatedMinutes": 16.5,
       "newItems": [
         { "id": "de.prozent", "kind": "word", "pos": "noun", "text": "das Prozent", "zh": "百分之……", "features": { "gender": "n", "plural": "die Prozente", "ipa": "pʁoˈtsɛnt" }, "noteZh": "重音在后;数字后面用单数:50 Prozent;打折广告写 minus 30 Prozent(-30 %)是便宜 30%,也就是中文说的“七折”,不是“三折”!" },
+        { "id": "de.minus", "kind": "word", "pos": "adv", "text": "minus", "zh": "减;零下", "features": { "ipa": "ˈmiːnʊs" }, "noteZh": "打折广告:minus 30 Prozent(便宜 30%,也就是七折);天气:minus fünf Grad(零下五度)。i 读长音。" },
         { "id": "de.dame", "kind": "word", "pos": "noun", "text": "die Dame", "zh": "女士", "features": { "gender": "f", "plural": "die Damen", "ipa": "ˈdaːmə" }, "noteZh": "商场里分 Damen(女装)和 Herren(男装);Meine Damen und Herren!(女士们,先生们!)" },
         { "id": "de.kleid", "kind": "word", "pos": "noun", "text": "das Kleid", "zh": "连衣裙", "features": { "gender": "n", "plural": "die Kleider", "ipa": "klaɪ̯t" }, "noteZh": "词尾 d 读 [t];别和 die Kleidung(衣服的总称)混了。" }
       ],
-      "reviewItems": ["de.jacke", "de.groesse", "de.bis", "de.kaufhaus"]
+      "reviewItems": ["de.jacke", "de.pullover", "de.hose", "de.groesse", "de.bis", "de.fuer"]
     },
     {
       "id": "de.a1u7.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107060,

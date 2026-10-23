@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u6.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106085,
+  "titleZh": "跨年夜:坐夜班车回家", "goalZh": "读懂一篇写跨年夜的博客:时间、地点、做了什么、怎么回家", "canDoZh": "能读懂一篇讲节日夜晚和出行的博客短文,说出时间、地点和交通",
+  "skills": ["read"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "de.feuerwerk", "kind": "word", "pos": "noun", "text": "das Feuerwerk", "zh": "烟花;焰火", "features": { "gender": "n", "plural": "die Feuerwerke", "ipa": "ˈfɔɪ̯ɐˌvɛʁk" }, "noteZh": "eu 读 [ɔʏ];das Feuer(火)+ das Werk;在德国,一般只有跨年夜才放烟花。" },
+    { "id": "de.nacht", "kind": "word", "pos": "noun", "text": "die Nacht", "zh": "夜里;夜晚", "features": { "gender": "f", "plural": "die Nächte", "ipa": "naxt" }, "noteZh": "复数变元音:die Nächte;ch 在 a 后面读 [x];in der Nacht(在夜里)、Gute Nacht!(晚安!)、der Nachtbus(夜班公交)。" },
+    { "id": "de.frohes_neues_jahr", "kind": "phrase", "pos": "phrase", "text": "Frohes neues Jahr!", "zh": "新年快乐!", "features": { "ipa": "ˈfʁoːəs ˈnɔɪ̯əs ˈjaːɐ̯" }, "noteZh": "12 月 31 日午夜以后到一月初都可以说;也说 Ein gutes neues Jahr!;词尾 -es 跟着中性的 das Jahr。" },
+    { "id": "de.voll", "kind": "word", "pos": "adj", "text": "voll", "zh": "满;(人)很多", "features": { "ipa": "fɔl" }, "noteZh": "v 读 [f];Der Bus ist voll.(车上人很多。)" }
+  ],
+  "reviewItems": ["de.silvester", "de.bei", "de.nach_hause", "de.zu_hause", "de.halb", "de.platz"],
+  "lines": [
+    { "speaker": "wei", "text": "Mein erstes Silvester in Deutschland", "zh": "我在德国的第一个跨年夜", "items": ["de.mein", "de.eins", "de.silvester", "de.in", "de.deutschland"] },
+    { "speaker": "wei", "text": "Heute ist Silvester!", "zh": "今天是跨年夜!", "items": ["de.heute", "de.sein", "de.silvester"] },
+    { "speaker": "wei", "text": "Ich feiere bei Lena und ihrer Familie in Kreuzberg.", "zh": "我在 Kreuzberg 的莉娜家,和她的家人一起过。", "items": ["de.ich", "de.feiern", "de.bei", "de.und", "de.ihr_poss", "de.familie", "de.in"] },
+    { "speaker": "wei", "text": "Lena und ihre Eltern kochen, und wir essen zusammen.", "zh": "莉娜和她爸妈做饭,我们一起吃饭。", "items": ["de.und", "de.ihr_poss", "de.eltern", "de.kochen", "de.wir", "de.essen", "de.zusammen"] },
+    { "speaker": "wei", "text": "Paul ist auch da. Er spricht ein bisschen Chinesisch mit mir.", "zh": "保罗也在。他跟我说了几句中文。", "items": ["de.sein", "de.auch", "de.da", "de.er", "de.sprechen", "de.ein_bisschen", "de.chinesisch", "de.mit", "de.ich"] },
+    { "speaker": "wei", "text": "Um zwölf Uhr in der Nacht sind wir vor dem Haus.", "zh": "夜里十二点,我们都到了楼前。", "items": ["de.um", "de.zwoelf", "de.uhr", "de.in", "de.nacht", "de.sein", "de.wir", "de.vor", "de.haus"] },
+    { "speaker": "wei", "text": "Es gibt ein Feuerwerk. Frohes neues Jahr!", "zh": "外面放起了烟花。新年快乐!", "items": ["de.es_gibt", "de.ein", "de.feuerwerk", "de.frohes_neues_jahr"] },
+    { "speaker": "wei", "text": "Das Feuerwerk ist sehr schön und sehr hell!", "zh": "烟花特别漂亮,也特别亮!", "items": ["de.feuerwerk", "de.sein", "de.sehr", "de.schoen", "de.und", "de.hell"] },
+    { "speaker": "wei", "text": "In China gibt es zum Frühlingsfest auch Feuerwerk.", "zh": "在中国,过春节的时候也放烟花。", "items": ["de.in", "de.china", "de.es_gibt", "de.zu", "de.fruehlingsfest", "de.auch", "de.feuerwerk"] },
+    { "speaker": "wei", "text": "Um halb zwei fahre ich nach Hause.", "zh": "一点半我坐车回家。", "items": ["de.um", "de.halb", "de.zwei", "de.fahren", "de.ich", "de.nach_hause"] },
+    { "speaker": "wei", "text": "Ich nehme den Nachtbus und dann die U-Bahn nach Neukölln.", "zh": "我先坐夜班公交,再坐地铁回 Neukölln。", "items": ["de.ich", "de.nehmen", "de.nacht", "de.bus", "de.und", "de.dann", "de.u_bahn", "de.nach"] },
+    { "speaker": "wei", "text": "Der Nachtbus ist sehr voll. Ich habe keinen Platz.", "zh": "夜班车上人很多,我没有座位。", "items": ["de.nacht", "de.bus", "de.sein", "de.sehr", "de.voll", "de.ich", "de.haben", "de.kein", "de.platz"] },
+    { "speaker": "wei", "text": "Jetzt bin ich zu Hause. Frohes neues Jahr, Berlin!", "zh": "现在我到家了。柏林,新年快乐!", "items": ["de.jetzt", "de.sein", "de.ich", "de.zu_hause", "de.frohes_neues_jahr"] }
+  ],
+  "questions": [
+    { "prompt": "王伟在哪儿跨年?", "options": ["在 Kreuzberg 的莉娜家", "在 WG,和约纳斯一起", "在汉堡"], "answer": 0, "explainZh": "Ich feiere bei Lena und ihrer Familie in Kreuzberg.(我在 Kreuzberg 的莉娜家,和她的家人一起过。)bei Lena = 在莉娜家。" },
+    { "prompt": "王伟几点回家?怎么回去的?", "options": ["两点半,坐夜班公交和地铁", "一点半,坐夜班公交和地铁", "十二点,走路回去"], "answer": 1, "explainZh": "Um halb zwei fahre ich nach Hause.——halb zwei 是一点半(两点前半小时),不是两点半;他先坐 Nachtbus(夜班公交),再坐 U-Bahn(地铁)。" },
+    { "prompt": "王伟说,中国什么时候也放烟花?", "options": ["中秋节", "圣诞节", "春节"], "answer": 2, "explainZh": "In China gibt es zum Frühlingsfest auch Feuerwerk.(在中国,过春节时也放烟花。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u6_zeit_vorne", "titleZh": "复习:时间放句首,动词还在第二位",
+      "bodyZh": "讲一件事的经过,常把时间放在句首,后面紧跟变位动词,主语放到动词后面:Um halb zwei fahre ich nach Hause.(不说 Um halb zwei ich fahre …。)\nes gibt 也一样:Um zwölf Uhr gibt es ein Feuerwerk.\n钟点复习:um zwölf Uhr in der Nacht(夜里十二点,也叫 Mitternacht)、um halb zwei(一点半)。\nnach Hause 和 zu Hause 别混:Ich fahre nach Hause.(回家,往家去)/ Jetzt bin ich zu Hause.(在家)。",
+      "examples": [
+        { "text": "Um halb zwei fahre ich nach Hause.", "zh": "一点半我坐车回家。" },
+        { "text": "Um zwölf Uhr gibt es ein Feuerwerk.", "zh": "十二点放烟花。" },
+        { "text": "Jetzt bin ich zu Hause.", "zh": "现在我到家了。" }
+      ] }
+  ],
+  "review": "draft"
+}

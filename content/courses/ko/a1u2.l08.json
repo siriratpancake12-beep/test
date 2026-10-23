@@ -1,0 +1,47 @@
+{
+  "id": "ko.a1u2.l08", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 谚文:收音与问候", "order": 102080,
+  "titleZh": "单元复习:语学堂的第一周", "goalZh": "把本单元的问候、道谢、道歉、告别串起来,完成一整天的课堂交流",
+  "canDoZh": "能在韩语课上打招呼、回应点名、听不懂时请老师再说一遍,下课礼貌地道别",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "ko.seonsaengnim", "kind": "word", "pos": "noun", "text": "선생님", "zh": "老师", "features": { "roman": "seonsaengnim" }, "noteZh": "汉字词 先生 + 님(尊称);叫老师直接说 선생님,带姓说 박 선생님;不能用 씨 称呼老师。" },
+    { "id": "ko.chingu", "kind": "word", "pos": "noun", "text": "친구", "zh": "朋友", "features": { "roman": "chingu" }, "noteZh": "汉字词 亲旧;韩国人说 친구 多指同龄的朋友。介绍朋友说 제 친구(我的朋友)。" },
+    { "id": "ko.sueop", "kind": "word", "pos": "noun", "text": "수업", "zh": "课;上课", "features": { "roman": "sueop" }, "noteZh": "汉字词 授业;连音:수업이 [수어비]。" },
+    { "id": "ko.dasi_malhae_juseyo", "kind": "phrase", "pos": "phrase", "text": "다시 말해 주세요", "zh": "请再说一遍", "features": { "roman": "dasi malhae juseyo" }, "noteZh": "听不懂时最重要的一句,全课程反复用;更客气可以先说 죄송합니다。" }
+  ],
+  "reviewItems": ["ko.gamsahamnida", "ko.joesonghamnida", "ko.annyeonghi_gyeseyo", "ko.bangapseumnida"],
+  "lines": [
+    { "speaker": "park", "text": "안녕하세요!", "zh": "(第一周的星期五,朴老师走进教室)大家好!", "roman": "Annyeonghaseyo!", "items": ["ko.annyeonghaseyo"] },
+    { "speaker": "jing", "text": "안녕하세요, 선생님!", "zh": "老师好!", "roman": "Annyeonghaseyo, seonsaengnim!", "items": ["ko.annyeonghaseyo", "ko.seonsaengnim"] },
+    { "speaker": "park", "text": "천징 씨?", "zh": "(点名)陈静?", "roman": "Cheonjing ssi?", "items": ["ko.ssi"] },
+    { "speaker": "jing", "text": "네!", "zh": "到!", "roman": "Ne!", "items": ["ko.ne"] },
+    { "speaker": "park", "text": "옷, 꽃, 앞, 밖.", "zh": "(听写开始了,老师念得很快)衣服,花,前面,外面。", "roman": "Ot, kkot, ap, bak.", "items": ["ko.ot", "ko.kkot", "ko.ap", "ko.bak"] },
+    { "speaker": "jing", "text": "죄송합니다. 다시 말해 주세요.", "zh": "对不起,请再说一遍。", "roman": "Joesonghamnida. Dasi malhae juseyo.", "items": ["ko.joesonghamnida", "ko.dasi_malhae_juseyo"] },
+    { "speaker": "park", "text": "네. 옷…… 꽃…… 앞…… 밖.", "zh": "好。衣服……花……前面……外面。(这次念得很慢)", "roman": "Ne. Ot…… kkot…… ap…… bak.", "items": ["ko.ne", "ko.ot", "ko.kkot", "ko.ap", "ko.bak"] },
+    { "speaker": "jing", "text": "감사합니다, 선생님.", "zh": "谢谢老师。", "roman": "Gamsahamnida, seonsaengnim.", "items": ["ko.gamsahamnida", "ko.seonsaengnim"] },
+    { "speaker": "sua", "text": "천징 씨! 한국어 수업 괜찮아요?", "zh": "(下课了,室友秀雅在教室门口等她)陈静!韩语课还好吗?", "roman": "Cheonjing ssi! Hangugeo sueop gwaenchanayo?", "items": ["ko.ssi", "ko.hangugeo", "ko.sueop", "ko.gwaenchanayo"] },
+    { "speaker": "jing", "text": "네, 수업이 좋아요!", "zh": "嗯,课上得很好!", "roman": "Ne, sueobi joayo!", "items": ["ko.ne", "ko.sueop", "ko.joayo"] },
+    { "speaker": "jing", "text": "수아 씨, 제 친구 남 씨예요.", "zh": "秀雅,这是我的朋友阿南。", "roman": "Sua ssi, je chingu Nam ssiyeyo.", "items": ["ko.ssi", "ko.chingu"] },
+    { "speaker": "nam", "text": "안녕하세요. 반갑습니다!", "zh": "你好,很高兴认识你!", "roman": "Annyeonghaseyo. Bangapseumnida!", "items": ["ko.annyeonghaseyo", "ko.bangapseumnida"] },
+    { "speaker": "sua", "text": "반갑습니다! 김수아예요.", "zh": "很高兴认识你!我叫金秀雅。", "roman": "Bangapseumnida! Gimsuayeyo.", "items": ["ko.bangapseumnida"] },
+    { "speaker": "jing", "text": "선생님, 안녕히 계세요.", "zh": "(陈静和秀雅要走了)老师再见。", "roman": "Seonsaengnim, annyeonghi gyeseyo.", "items": ["ko.seonsaengnim", "ko.annyeonghi_gyeseyo"] },
+    { "speaker": "park", "text": "네, 안녕히 가세요.", "zh": "好,慢走。", "roman": "Ne, annyeonghi gaseyo.", "items": ["ko.ne", "ko.annyeonghi_gaseyo"] },
+    { "speaker": "nam", "text": "또 만나요!", "zh": "(南朝两人挥挥手)下周见!", "roman": "Tto mannayo!", "items": ["ko.tto_mannayo"] }
+  ],
+  "questions": [
+    { "prompt": "老师点名“천징 씨?”,陈静怎么回答?", "options": ["네!", "안녕!", "아니요!"], "answer": 0, "explainZh": "第 3、4 句:被点名时答 네!,相当于“到!”。" },
+    { "prompt": "老师听写念得太快,陈静说了什么?", "options": ["감사합니다, 선생님.", "죄송합니다. 다시 말해 주세요.", "또 만나요!"], "answer": 1, "explainZh": "第 6 句:죄송합니다. 다시 말해 주세요.(对不起,请再说一遍。)老师慢慢重复以后,陈静说 감사합니다, 선생님(第 8 句)。" },
+    { "prompt": "陈静是怎么向秀雅介绍阿南的?", "options": ["남 씨, 김수아예요.", "선생님, 남 씨예요.", "수아 씨, 제 친구 남 씨예요."], "answer": 2, "explainZh": "第 11 句:先叫秀雅(수아 씨),再说 제 친구 남 씨예요(这是我的朋友阿南)。제 是“我的”。" },
+    { "prompt": "陈静叫朴老师时为什么说 선생님,不说 박 씨?", "options": ["선생님 更亲切", "称呼老师要用 선생님,不能用 씨", "박 是男老师的姓"], "answer": 1, "explainZh": "씨 用在同学、同辈身上;称呼老师直接说 선생님,带姓说 박 선생님。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u2_sound_review", "titleZh": "复习:本单元的三条音变",
+      "bodyZh": "这一单元学了三条让“写的和读的不一样”的规则,在本课里都能听到:① 连音——收音后面接 ㅇ 开头的字,收音移过去:수업이 [수어비]、한국어 [한구거]。② 鼻音化——收音 [k] [t] [p] 碰上 ㄴ ㅁ 变成鼻音:감사합니다 [감사함니다]、반갑습니다 [반갑씀니다]。③ ㅎ 脱落——收音 ㅎ 后面接元音时不发音:좋아요 [조아요]、괜찮아요 [괜차나요]。再加上代表音规则(옷 [옫]、꽃 [꼳]、앞 [압]、밖 [박]),现在任何一个韩文字你都能读对了。听写时听到的是读音,写下来的要是拼写:听到 [수어비] 要写成 수업이。",
+      "examples": [ { "text": "수업이 좋아요.", "zh": "课很好。[수어비 조아요]" }, { "text": "감사합니다.", "zh": "谢谢。[감사함니다]" }, { "text": "괜찮아요?", "zh": "还好吗?[괜차나요]" } ] },
+    { "id": "ko.g.classroom", "titleZh": "课堂上的称呼和用语",
+      "bodyZh": "称呼老师直接说 선생님(先生 + 尊称 님),想带上姓就说 박 선생님;不能用 씨 称呼老师,也不能直接叫老师的名字。同学之间用“名字 + 씨”:남 씨、수아 씨。介绍朋友说“제 친구 + 名字 + 씨예요”(제 = 我的):수아 씨, 제 친구 남 씨예요。韩国人说 친구 一般指同龄的朋友,不过在语学堂里,年龄差一两岁的同学之间也常这样介绍。点名时答 네!(到!)。听不清、听不懂时,最有用的一句是 죄송합니다. 다시 말해 주세요.(对不起,请再说一遍),老师重复以后说 감사합니다。听不懂时别沉默,请对方再说一遍是最自然、也最礼貌的办法。",
+      "examples": [ { "text": "안녕하세요, 선생님!", "zh": "老师好!" }, { "text": "수아 씨, 제 친구 남 씨예요.", "zh": "秀雅,这是我的朋友阿南。" }, { "text": "죄송합니다. 다시 말해 주세요.", "zh": "对不起,请再说一遍。" } ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,198 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-12 考试周", "cefr": "A1", "themeZh": "五月中,王伟参加 5 月 17 日的歌德 A1 考试:熟悉听、读、写、说四个部分和试卷指令,练写短消息、用卡片提问和请求,考试当天的流程,考完后讲考得怎么样、写经验帖。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u12.l01", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-12 考试周", "order": 112010,
+      "titleZh": "模拟考:听力",
+      "goalZh": "能听懂考试里常见的短对话、电话留言和广播,抓住时间、地点和数字",
+      "canDoZh": "能听懂考试里常见的短对话、电话留言和广播,抓住时间、地点和数字",
+      "scenarioZh": "考前一周,瓦格纳老师在课上做模拟听力:一段车站广播、一条电话留言(录音里的女工作人员)和一段短对话;王伟和索菲娅对答案,发现王伟把 vierzig 和 vierzehn 听混了;老师讲技巧:先看题、划关键词,听两遍。说话人:wagner、durchsage、mitarbeiterin、wei、sofia。",
+      "grammarFocusZh": "复习数字和钟点(14 / 40、halb drei);听力题里常见的问句(Wann? Wo? Wie viel? Was kostet …?)",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.zweimal", "kind": "word", "pos": "adv", "text": "zweimal", "zh": "两次;两遍", "features": { "ipa": "ˈtsvaɪ̯maːl" }, "noteZh": "数字 + mal 表示“几次”:einmal、zweimal、dreimal;noch einmal = 再一次。zw 读 [tsv]。" },
+        { "id": "de.teil", "kind": "word", "pos": "noun", "text": "der Teil", "zh": "部分", "features": { "gender": "m", "plural": "die Teile", "ipa": "taɪ̯l" }, "noteZh": "阳性:der Teil;考试分几个部分:Teil eins, Teil zwei …;ei 读 [aɪ]。" },
+        { "id": "de.antwort", "kind": "word", "pos": "noun", "text": "die Antwort", "zh": "回答;答案", "features": { "gender": "f", "plural": "die Antworten", "ipa": "ˈantvɔʁt" }, "noteZh": "重音在 Ant 上,w 读 [v];和 die Frage 成对记:Meine Antwort ist b.(我的答案是 b。)" },
+        { "id": "de.richtig", "kind": "word", "pos": "adj", "text": "richtig", "zh": "对;正确", "features": { "ipa": "ˈʁɪçtɪç" }, "noteZh": "词尾 -ig 读 [ɪç],和 ich 的 ch 一样;Das ist richtig!(对!)Richtig oder falsch?(对还是错?)是考试的常见题型。" },
+        { "id": "de.falsch", "kind": "word", "pos": "adj", "text": "falsch", "zh": "错;错误", "features": { "ipa": "falʃ" }, "noteZh": "sch 读 [ʃ];Das ist falsch.(这是错的。)反义词 richtig。" },
+        { "id": "de.zahl", "kind": "word", "pos": "noun", "text": "die Zahl", "zh": "数字;数", "features": { "gender": "f", "plural": "die Zahlen", "ipa": "tsaːl" }, "noteZh": "z 读 [ts],ah 是长音;die Zahl 是“数、数字”,电话号码、门牌号的“号码”是 die Nummer。" },
+        { "id": "de.durchsage", "kind": "word", "pos": "noun", "text": "die Durchsage", "zh": "广播(通知)", "features": { "gender": "f", "plural": "die Durchsagen", "ipa": "ˈdʊʁçˌzaːɡə" }, "noteZh": "车站、车厢、超市里的广播通知;收音机节目是 das Radio。durch 的 ch 在 r 后面读 [ç],s 在元音前读 [z]。" },
+        { "id": "de.gespraech", "kind": "word", "pos": "noun", "text": "das Gespräch", "zh": "谈话;对话", "features": { "gender": "n", "plural": "die Gespräche", "ipa": "ɡəˈʃpʁɛːç" }, "noteZh": "ge 不重读,重音在 spräch 上;sp 读 [ʃp],ä 是长音,词尾 ch 读 [ç]。中性:das Gespräch。" },
+        { "id": "de.uhrzeit", "kind": "word", "pos": "noun", "text": "die Uhrzeit", "zh": "钟点(几点几分)", "features": { "gender": "f", "plural": "die Uhrzeiten", "ipa": "ˈuːɐ̯ˌtsaɪ̯t" }, "noteZh": "die Uhr + die Zeit → die Uhrzeit,专指“几点几分”;一般的“时间”是 die Zeit(Ich habe keine Zeit)。性跟最后一个词 Zeit 走。" },
+        { "id": "de.ort", "kind": "word", "pos": "noun", "text": "der Ort", "zh": "地方;地点", "features": { "gender": "m", "plural": "die Orte", "ipa": "ʔɔʁt" }, "noteZh": "阳性:der Ort;听力题常问时间和地点:Zeit und Ort;复合词里很常见:der Wohnort(居住地)、der Geburtsort(出生地)。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u12.l02", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-12 考试周", "order": 112020,
+      "titleZh": "试卷上的指令和表格",
+      "goalZh": "能看懂试卷上的常用指令,填好考试用的个人信息表",
+      "canDoZh": "能看懂试卷上的常用指令,填好考试用的个人信息表",
+      "scenarioZh": "瓦格纳老师发模拟试卷,带大家认识试卷上的指令:Kreuzen Sie an! Lesen Sie den Text! Schreiben Sie eine Nachricht! Ergänzen Sie!;还有表格里的 das Geburtsdatum、der Geburtsort、die Unterschrift;王伟填写自己的信息,索菲娅提醒他德国日期的顺序是日.月.年。说话人:wagner、wei、sofia。",
+      "grammarFocusZh": "Sie 的命令式在试卷指令里(Kreuzen Sie an! —— ankreuzen 是可分动词);日期的写法和读法(17.05. = der siebzehnte Mai)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.aufgabe", "kind": "word", "pos": "noun", "text": "die Aufgabe", "zh": "题;任务", "features": { "gender": "f", "plural": "die Aufgaben", "ipa": "ˈaʊ̯fˌɡaːbə" }, "noteZh": "试卷上的“第几题”常写 Aufgabe 1、Aufgabe 2;au 读 [aʊ],重音在 auf 上。家庭作业是 die Hausaufgabe(Haus + Aufgabe)。" },
+        { "id": "de.text", "kind": "word", "pos": "noun", "text": "der Text", "zh": "短文;课文;文字", "features": { "gender": "m", "plural": "die Texte", "ipa": "tɛkst" }, "noteZh": "阳性:der Text;x 读 [ks];试卷指令:Lesen Sie den Text!(请读短文!)" },
+        { "id": "de.ankreuzen", "kind": "word", "pos": "verb", "text": "ankreuzen", "zh": "画叉选出(答案)", "features": { "ipa": "ˈanˌkʁɔʏ̯tsn̩" }, "noteZh": "可分动词,重音在 an 上:Kreuzen Sie an!(请画叉选出答案!)Ich kreuze b an.;das Kreuz 是“叉、十字”。德国的试卷、表格上常用画叉(X)来选,中国学生习惯打勾,要注意。eu 读 [ɔʏ]。" },
+        { "id": "de.ergaenzen", "kind": "word", "pos": "verb", "text": "ergänzen", "zh": "补充;填完整", "features": { "ipa": "ɛɐ̯ˈɡɛntsn̩" }, "noteZh": "er- 是不可分前缀、不重读,重音在 gän 上:Ergänzen Sie das Formular!(把表格填完整!)ä 读 [ɛ],z 读 [ts]。" },
+        { "id": "de.datum", "kind": "word", "pos": "noun", "text": "das Datum", "zh": "日期", "features": { "gender": "n", "plural": "die Daten", "ipa": "ˈdaːtʊm" }, "noteZh": "中性:das Datum;德国的日期按“日.月.年”写:12.05. = 5 月 12 日。复数 die Daten 也有“数据、个人信息”的意思。" },
+        { "id": "de.geburtsdatum", "kind": "word", "pos": "noun", "text": "das Geburtsdatum", "zh": "出生日期", "features": { "gender": "n", "plural": "die Geburtsdaten", "ipa": "ɡəˈbuːɐ̯tsˌdaːtʊm" }, "noteZh": "die Geburt(出生)+ s + das Datum;复合词的性跟最后一个词走:das Geburtsdatum。表格上也常写 geboren am。" },
+        { "id": "de.geburtsort", "kind": "word", "pos": "noun", "text": "der Geburtsort", "zh": "出生地", "features": { "gender": "m", "plural": "die Geburtsorte", "ipa": "ɡəˈbuːɐ̯tsˌʔɔʁt" }, "noteZh": "die Geburt + s + der Ort(地方)→ der Geburtsort,性跟 Ort 走;填表:Geburtsort: Chengdu。" },
+        { "id": "de.unterschrift", "kind": "word", "pos": "noun", "text": "die Unterschrift", "zh": "签名", "features": { "gender": "f", "plural": "die Unterschriften", "ipa": "ˈʊntɐˌʃʁɪft" }, "noteZh": "unterschreiben(签字)的名词;名词重音在 un 上,动词 unterschreiben 的重音在 schrei 上。表格最后一栏常是 Datum, Unterschrift。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u12.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-12 考试周", "order": 112030,
+      "titleZh": "我去不了,因为……:denn",
+      "goalZh": "能用 denn 说明理由,写短消息时说清楚为什么不能来、为什么要改时间",
+      "canDoZh": "能用 denn 说明理由,写短消息时说清楚为什么不能来、为什么要改时间",
+      "scenarioZh": "写作模拟题:给朋友回消息,说你不能去聚会并说明理由。索菲娅和王伟一起写:Ich kann am Samstag nicht kommen, denn ich habe eine Prüfung.;瓦格纳老师讲 denn 后面语序不变;两人又想出更多理由(要打工、要学习、生病了)。说话人:sofia、wei、wagner。",
+      "grammarFocusZh": "denn 连接两个句子,后面的语序不变(…, denn ich muss lernen),和 und / aber / oder 一样不占位置;回答 Warum? 时用 denn 说理由(weil 从句 A2 才讲)",
+      "skills": ["read", "write", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.denn", "kind": "word", "pos": "conj", "text": "denn", "zh": "因为(连接两个句子,说理由)", "features": { "ipa": "dɛn" }, "noteZh": "放在第二个句子开头,前面加逗号;denn 本身不占位置,后面照常是“主语 + 动词”:…, denn ich habe eine Prüfung.。问句里的 denn(Wo bist du denn?)是语气词,意思不一样。" },
+        { "id": "de.einladung", "kind": "word", "pos": "noun", "text": "die Einladung", "zh": "邀请;请柬", "features": { "gender": "f", "plural": "die Einladungen", "ipa": "ˈaɪ̯nˌlaːdʊŋ" }, "noteZh": "einladen(邀请)的名词;-ung 结尾的名词都是阴性;回复邀请常这样开头:Vielen Dank für die Einladung!" },
+        { "id": "de.grund", "kind": "word", "pos": "noun", "text": "der Grund", "zh": "原因;理由", "features": { "gender": "m", "plural": "die Gründe", "ipa": "ɡʁʊnt" }, "noteZh": "词尾 d 读 [t];复数变元音:die Gründe。拒绝邀请时要说明 Grund。" },
+        { "id": "de.satz", "kind": "word", "pos": "noun", "text": "der Satz", "zh": "句子", "features": { "gender": "m", "plural": "die Sätze", "ipa": "zats" }, "noteZh": "s 在元音前读 [z],tz 读 [ts];复数 die Sätze(a 变 ä)。" },
+        { "id": "de.arbeit", "kind": "word", "pos": "noun", "text": "die Arbeit", "zh": "工作;活儿", "features": { "gender": "f", "plural": "die Arbeiten", "ipa": "ˈaʁbaɪ̯t" }, "noteZh": "arbeiten(工作)的名词;Ich habe viel Arbeit.(我活儿很多。)不加冠词。" },
+        { "id": "de.besuch", "kind": "word", "pos": "noun", "text": "der Besuch", "zh": "拜访;来访的客人", "features": { "gender": "m", "plural": "die Besuche", "ipa": "bəˈzuːx" }, "noteZh": "besuchen(拜访)的名词;Ich habe Besuch.(我家里有客人。)这里不加冠词;重音在 such 上,ch 在 u 后面读 [x]。" },
+        { "id": "de.schade", "kind": "word", "pos": "adj", "text": "schade", "zh": "可惜", "features": { "ipa": "ˈʃaːdə" }, "noteZh": "Schade!(真可惜!)/ Das ist schade.(这太可惜了。)对比:leider 放在句子里(Ich kann leider nicht),schade 常单独说,或用在 Das ist … 里。" },
+        { "id": "de.bald", "kind": "word", "pos": "adv", "text": "bald", "zh": "很快;不久", "features": { "ipa": "balt" }, "noteZh": "词尾 d 读 [t];消息结尾常写 Bis bald!(回头见!)" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u12.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-12 考试周", "order": 112040,
+      "titleZh": "模拟口语:用卡片提问",
+      "goalZh": "能根据卡片上的话题词提问和回答(考试口语第二部分)",
+      "canDoZh": "能根据卡片上的话题词提问和回答(考试口语第二部分)",
+      "scenarioZh": "下午莉娜帮王伟练口语。她做了几张卡片:话题“周末”,卡片上写 Kino、Sport、Freunde;王伟抽卡后提问(Was machst du am Wochenende? Gehst du gern ins Kino?),莉娜回答,再换莉娜提问;莉娜提醒他问句要完整、动词位置要对。说话人:lena、wei。",
+      "grammarFocusZh": "根据关键词造问句:W-问句和是非问句复习;ins Kino 当固定说法;回答要说完整的句子",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.thema", "kind": "word", "pos": "noun", "text": "das Thema", "zh": "话题;主题", "features": { "gender": "n", "plural": "die Themen", "ipa": "ˈteːma" }, "noteZh": "th 读 [t],h 不发音;中性:das Thema,复数 die Themen。口语考试第二部分每组抽一个 Thema,比如“周末”“吃喝”。" },
+        { "id": "de.fragen", "kind": "word", "pos": "verb", "text": "fragen", "zh": "问", "features": { "ipa": "ˈfʁaːɡn̩" }, "noteZh": "规则动词:ich frage, du fragst, er fragt;问谁直接用第四格:Ich frage dich.(我问你),不用“对”。和 die Frage(问题)一起记。" },
+        { "id": "de.freizeit", "kind": "word", "pos": "noun", "text": "die Freizeit", "zh": "业余时间;空闲时间", "features": { "gender": "f", "plural": "-", "ipa": "ˈfʁaɪ̯ˌtsaɪ̯t" }, "noteZh": "frei(空闲)+ die Zeit → die Freizeit;in meiner Freizeit(在我的业余时间);两个 ei 都读 [aɪ],z 读 [ts]。" },
+        { "id": "de.tanzen", "kind": "word", "pos": "verb", "text": "tanzen", "zh": "跳舞", "features": { "ipa": "ˈtantsn̩" }, "noteZh": "z 读 [ts];词干以 z 结尾,du 只加 -t:du tanzt;去跳舞:tanzen gehen(Ich gehe tanzen,和 schwimmen gehen 一样)。" },
+        { "id": "de.konzert", "kind": "word", "pos": "noun", "text": "das Konzert", "zh": "音乐会;演唱会", "features": { "gender": "n", "plural": "die Konzerte", "ipa": "kɔnˈtsɛʁt" }, "noteZh": "重音在后:kon-ZERT,z 读 [ts];去听音乐会:ins Konzert gehen(ins = in das)。" },
+        { "id": "de.allein", "kind": "word", "pos": "adv", "text": "allein", "zh": "一个人;单独", "features": { "ipa": "aˈlaɪ̯n" }, "noteZh": "重音在 lein 上;Ich wohne allein.(我一个人住。)相反:zusammen / mit Freunden。" },
+        { "id": "de.natuerlich", "kind": "word", "pos": "adv", "text": "natürlich", "zh": "当然", "features": { "ipa": "naˈtyːɐ̯lɪç" }, "noteZh": "答应请求、回答问题时说 Natürlich!(当然!);重音在 tür 上,ü 是长音,词尾 -lich 读 [lɪç]。" },
+        { "id": "de.lust", "kind": "word", "pos": "noun", "text": "die Lust", "zh": "兴致;想做某事的心情", "features": { "gender": "f", "plural": "-", "ipa": "lʊst" }, "noteZh": "约人时常问:Hast du Lust?(你想去吗?)Hast du Lust auf Kino?(想去看电影吗?)回答:Ja, gern! / Leider habe ich keine Zeit.;这个意思不用复数。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u12.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-12 考试周", "order": 112045,
+      "titleZh": "考试须知",
+      "goalZh": "能读懂考试当天的须知:几点到、带什么、不能带什么、考试的顺序",
+      "canDoZh": "能读懂考试当天的须知:几点到、带什么、不能带什么、考试的顺序",
+      "scenarioZh": "体裁:考试须知(语言学校发的文件)。考试前三天王伟又读了一遍须知:8:30 到,带护照;手机要关掉、交给监考;不能用字典;先考听力(约 20 分钟),再考阅读和写作,下午考口语,每组三四个人;大约四个星期以后出结果。说话人:narrator(须知)。",
+      "grammarFocusZh": "复习:dürfen / müssen + man(Man darf kein Wörterbuch benutzen)、钟点和时长、Sie 的命令式",
+      "skills": ["read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.duerfen", "kind": "word", "pos": "verb", "text": "dürfen", "zh": "可以;允许(否定:不许)", "features": { "ipa": "ˈdʏʁfn̩" }, "noteZh": "情态动词:ich darf, du darfst, er darf, wir dürfen, Sie dürfen(ich 和 er 没有词尾);原形放句末:Sie dürfen das Handy nicht benutzen.(不许用手机。)nicht dürfen = 不许,nicht müssen = 不必,别弄混。ü 是短音 [ʏ]。" },
+        { "id": "de.benutzen", "kind": "word", "pos": "verb", "text": "benutzen", "zh": "使用;用", "features": { "ipa": "bəˈnʊtsn̩" }, "noteZh": "be- 不可分、不重读;tz 读 [ts];词干以 tz 结尾,du 只加 -t:du benutzt。" },
+        { "id": "de.woerterbuch", "kind": "word", "pos": "noun", "text": "das Wörterbuch", "zh": "词典", "features": { "gender": "n", "plural": "die Wörterbücher", "ipa": "ˈvœʁtɐˌbuːx" }, "noteZh": "die Wörter(词)+ das Buch → das Wörterbuch,性跟 Buch 走;复数 die Wörterbücher;ö 是短音 [œ],嘴唇撅圆发 e。" },
+        { "id": "de.gruppe", "kind": "word", "pos": "noun", "text": "die Gruppe", "zh": "小组;组", "features": { "gender": "f", "plural": "die Gruppen", "ipa": "ˈɡʁʊpə" }, "noteZh": "u 是短音;in der Gruppe(在小组里)、in kleinen Gruppen(分成小组)。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u12.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-12 考试周", "order": 112050,
+      "titleZh": "模拟口语:请求和回答",
+      "goalZh": "能根据图片卡片提出请求,并回答别人的请求(考试口语第三部分)",
+      "canDoZh": "能根据图片卡片提出请求,并回答别人的请求(考试口语第三部分)",
+      "scenarioZh": "德语课上分组练口语第三部分:卡片上画着窗户、咖啡、笔……王伟抽到窗户:Können Sie bitte das Fenster aufmachen?;索菲娅回答 Ja, gern. 或 Nein, das geht leider nicht, denn …;瓦格纳老师当考官,纠正他们的发音和语序。说话人:wagner、wei、sofia。",
+      "grammarFocusZh": "请求的几种说法:Können Sie bitte …? / Kannst du bitte …? / …, bitte!;回答 Ja, gern / Natürlich / Leider nicht, denn …",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.bitte_nomen", "kind": "word", "pos": "noun", "text": "die Bitte", "zh": "请求", "features": { "gender": "f", "plural": "die Bitten", "ipa": "ˈbɪtə" }, "noteZh": "和 bitte(请)写法一样,但名词首字母大写、带冠词:Ich habe eine Bitte.(我有个请求。)口语考试第三部分就是“提出请求、回应请求”。" },
+        { "id": "de.aufmachen", "kind": "word", "pos": "verb", "text": "aufmachen", "zh": "打开", "features": { "ipa": "ˈaʊ̯fˌmaxn̩" }, "noteZh": "可分动词,重音在 auf 上:Ich mache das Fenster auf.;和情态动词连用时连在一起放句末:Können Sie bitte das Fenster aufmachen?;反义词 zumachen。" },
+        { "id": "de.zumachen", "kind": "word", "pos": "verb", "text": "zumachen", "zh": "关上", "features": { "ipa": "ˈtsuːˌmaxn̩" }, "noteZh": "可分动词,重音在 zu 上:Ich mache die Tür zu.;和 aufmachen 成对记;zu 读 [tsuː]。" },
+        { "id": "de.geben", "kind": "word", "pos": "verb", "text": "geben", "zh": "给", "features": { "ipa": "ˈɡeːbn̩" }, "noteZh": "不规则:ich gebe, du gibst, er gibt(e 变 i);Kannst du mir bitte den Zucker geben?(mir = 给我,先当固定说法记)。es gibt(有)也是从 geben 来的。" },
+        { "id": "de.zucker", "kind": "word", "pos": "noun", "text": "der Zucker", "zh": "糖", "features": { "gender": "m", "plural": "-", "ipa": "ˈtsʊkɐ" }, "noteZh": "z 读 [ts],ck 读 [k],词尾 -er 读 [ɐ];不可数,不用复数:Kaffee mit Milch und Zucker。" },
+        { "id": "de.stift", "kind": "word", "pos": "noun", "text": "der Stift", "zh": "笔", "features": { "gender": "m", "plural": "die Stifte", "ipa": "ʃtɪft" }, "noteZh": "st 在词首读 [ʃt];der Stift 泛指各种笔,口语里圆珠笔也叫 der Kuli。" },
+        { "id": "de.das_geht", "kind": "phrase", "pos": "phrase", "text": "Das geht", "zh": "行;可以(安排得开)", "features": { "ipa": "das ˈɡeːt" }, "noteZh": "问安排、回应请求时说行不行:Geht das?(行吗?)– Ja, das geht.(行。)/ Nein, das geht leider nicht.(恐怕不行。)这里的 gehen 不是“走”,而是“行得通”。" },
+        { "id": "de.gerade", "kind": "word", "pos": "adv", "text": "gerade", "zh": "正在;刚好", "features": { "ipa": "ɡəˈʁaːdə" }, "noteZh": "Ich schreibe gerade.(我正在写。)德语没有专门的“进行时”,用现在时 + gerade 表示“正在”;重音在 ra 上。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u12.l06", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-12 考试周", "order": 112060,
+      "titleZh": "nicht 放在哪儿?",
+      "goalZh": "能把 nicht 放在句子里正确的位置,说清楚否定的是什么",
+      "canDoZh": "能把 nicht 放在句子里正确的位置,说清楚否定的是什么",
+      "scenarioZh": "瓦格纳老师批改写作模拟题,发现大家 nicht 的位置常出错。她在课上讲常见的情况,王伟和索菲娅修改自己的句子:Ich komme heute nicht. / Ich komme nicht heute, sondern morgen. / Das ist nicht mein Buch. / Ich kann nicht gut schwimmen.。说话人:wagner、wei、sofia。",
+      "grammarFocusZh": "nicht 的位置:否定整句时放在句末,或者放在句末的不定式、分词、可分前缀前面(Ich kann heute nicht kommen);否定某一部分时放在这部分前面(nicht heute, sondern morgen);否定名词用 kein(复习)",
+      "skills": ["read", "write", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.fehler", "kind": "word", "pos": "noun", "text": "der Fehler", "zh": "错误", "features": { "gender": "m", "plural": "die Fehler", "ipa": "ˈfeːlɐ" }, "noteZh": "eh 是长音 [eː];复数和单数一样:die Fehler;Das ist kein Fehler.(这不是错误。)" },
+        { "id": "de.stehen", "kind": "word", "pos": "verb", "text": "stehen", "zh": "站;(写)在、放在(某处)", "features": { "ipa": "ˈʃteːən" }, "noteZh": "st 在词首读 [ʃt],h 不发音;说词在句子里的位置也用 stehen:„Nicht“ steht am Ende.(nicht 放在最后。)" },
+        { "id": "de.ende", "kind": "word", "pos": "noun", "text": "das Ende", "zh": "结尾;尽头", "features": { "gender": "n", "plural": "die Enden", "ipa": "ˈɛndə" }, "noteZh": "中性:das Ende;am Ende(在最后、在结尾);一般不用复数。" },
+        { "id": "de.stimmen", "kind": "word", "pos": "verb", "text": "stimmen", "zh": "(说得)对;符合事实", "features": { "ipa": "ˈʃtɪmən" }, "noteZh": "Das stimmt.(说得对。)Stimmt das?(对吗?)主语一般是 das / es;st 读 [ʃt]。" },
+        { "id": "de.mitkommen", "kind": "word", "pos": "verb", "text": "mitkommen", "zh": "一起来;一起去", "features": { "ipa": "ˈmɪtˌkɔmən" }, "noteZh": "可分动词,mit 放句末:Kommst du mit?(你一起去吗?)否定时 nicht 放在 mit 前面:Ich komme nicht mit.;重音在 mit 上。" },
+        { "id": "de.ganz", "kind": "word", "pos": "adv", "text": "ganz", "zh": "完全;很;整个", "features": { "ipa": "ɡants" }, "noteZh": "z 读 [ts];ganz am Ende(在最最后面)、ganz gut(挺好)。" },
+        { "id": "de.sondern", "kind": "word", "pos": "conj", "text": "sondern", "zh": "而是", "features": { "ipa": "ˈzɔndɐn" }, "noteZh": "只用在 nicht / kein 后面:nicht heute, sondern morgen(不是今天,而是明天);aber 是“但是”,不要混用。s 读 [z],词尾 -ern 读 [ɐn]。" },
+        { "id": "de.glauben", "kind": "word", "pos": "verb", "text": "glauben", "zh": "认为;相信", "features": { "ipa": "ˈɡlaʊ̯bn̩" }, "noteZh": "Ich glaube, das ist richtig.(我觉得这是对的。)说没把握的看法用 glauben,说对东西的评价用 finden(Ich finde das schön)。au 读 [aʊ]。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u12.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-12 考试周", "order": 112070,
+      "titleZh": "考试那天",
+      "goalZh": "能在考场听懂监考的说明,在口语考试里自我介绍、拼读名字、报电话号码",
+      "canDoZh": "能在考场听懂监考的说明,在口语考试里自我介绍、拼读名字、报电话号码",
+      "scenarioZh": "5 月 17 日星期六早上,王伟到了考场。女监考核对护照,说明手机放在哪里;下午口语考试,考官请他按提示词自我介绍(名字、年龄、国家、住在哪儿、语言、职业、爱好),再拼读名字、说电话号码(示例号码)。王伟很紧张,但都说出来了。说话人:mitarbeiterin、wei。",
+      "grammarFocusZh": "自我介绍复习(歌德 A1 口语第一部分的提示词:Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby);拼读和数字复习",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.alter", "kind": "word", "pos": "noun", "text": "das Alter", "zh": "年龄", "features": { "gender": "n", "plural": "-", "ipa": "ˈaltɐ" }, "noteZh": "alt(……岁)的名词;中性:das Alter;表格和口语考试的提示词 Alter? 回答:Ich bin … Jahre alt.。" },
+        { "id": "de.raum", "kind": "word", "pos": "noun", "text": "der Raum", "zh": "房间;教室(公共场所的)", "features": { "gender": "m", "plural": "die Räume", "ipa": "ʁaʊ̯m" }, "noteZh": "学校、公司、考场里的房间常说 Raum:Raum drei(3 号教室);家里的房间一般说 das Zimmer;复数变元音:die Räume。" },
+        { "id": "de.wohnort", "kind": "word", "pos": "noun", "text": "der Wohnort", "zh": "居住地", "features": { "gender": "m", "plural": "die Wohnorte", "ipa": "ˈvoːnˌʔɔʁt" }, "noteZh": "wohnen(住)+ der Ort(地方)→ der Wohnort;回答:Ich wohne in …;w 读 [v]。" },
+        { "id": "de.telefonnummer", "kind": "word", "pos": "noun", "text": "die Telefonnummer", "zh": "电话号码", "features": { "gender": "f", "plural": "die Telefonnummern", "ipa": "teleˈfoːnˌnʊmɐ" }, "noteZh": "das Telefon + die Nummer → die Telefonnummer(性跟 Nummer 走);重音在 fon 上;报号码一位一位地说,2 常说成 zwo。" },
+        { "id": "de.nervoes", "kind": "word", "pos": "adj", "text": "nervös", "zh": "紧张", "features": { "ipa": "nɛʁˈvøːs" }, "noteZh": "外来词,v 在这里读 [v];重音在 vös 上,ö 是长音;Ich bin sehr nervös.(我很紧张。)" },
+        { "id": "de.angst", "kind": "word", "pos": "noun", "text": "die Angst", "zh": "害怕;担心", "features": { "gender": "f", "plural": "die Ängste", "ipa": "aŋst" }, "noteZh": "德语说“害怕”用 haben:Ich habe Angst.(不说 Ich bin Angst);Keine Angst!(别怕!/ 别担心!);Angst vor … = 害怕……;ng 读 [ŋ]。" },
+        { "id": "de.viel_glueck", "kind": "phrase", "pos": "phrase", "text": "Viel Glück!", "zh": "祝你好运!", "features": { "ipa": "fiːl ˈɡlʏk" }, "noteZh": "考试、面试之前常说;das Glück = 运气、幸福;v 读 [f],ü 是短音 [ʏ]。" },
+        { "id": "de.erzaehlen", "kind": "word", "pos": "verb", "text": "erzählen", "zh": "讲;讲述", "features": { "ipa": "ɛɐ̯ˈtsɛːlən" }, "noteZh": "er- 不可分、不重读,重音在 zäh 上;ä 是长音,z 读 [ts];Erzählen Sie bitte!(请您讲讲!)对朋友说 Erzähl!" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u12.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-12 考试周", "order": 112080,
+      "titleZh": "单元复习与应用:考完了!",
+      "goalZh": "能讲考试考得怎么样:哪部分容易、哪部分难、自己做了什么",
+      "canDoZh": "能讲考试考得怎么样:哪部分容易、哪部分难、自己做了什么",
+      "scenarioZh": "考完试,莉娜、索菲娅和约纳斯在咖啡馆等王伟。大家问 Wie war die Prüfung?;王伟说听力有点难(一段广播没听清)、阅读容易、写作写了一条消息、口语还不错;约纳斯开玩笑说要等结果才能庆祝,索菲娅说先去吃冰淇淋。说话人:lena、sofia、jonas、wei。",
+      "grammarFocusZh": "完成时和 war / hatte 复习(Ich habe eine Nachricht geschrieben / Die Prüfung war schwer);denn 复习",
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.endlich", "kind": "word", "pos": "adv", "text": "endlich", "zh": "终于", "features": { "ipa": "ˈɛntlɪç" }, "noteZh": "Endlich!(终于来了!/ 终于好了!)d 在 l 前读 [t],词尾 -lich 读 [lɪç];和 das Ende(结尾)是一家。" },
+        { "id": "de.leicht", "kind": "word", "pos": "adj", "text": "leicht", "zh": "容易;轻", "features": { "ipa": "laɪ̯çt" }, "noteZh": "反义词 schwer(难;重):Das Lesen war leicht, das Hören war schwer.;ei 读 [aɪ],ch 在 ei 后面读 [ç]。" },
+        { "id": "de.ergebnis", "kind": "word", "pos": "noun", "text": "das Ergebnis", "zh": "结果;成绩", "features": { "gender": "n", "plural": "die Ergebnisse", "ipa": "ɛɐ̯ˈɡeːpnɪs" }, "noteZh": "-nis 结尾的名词复数要双写 s:die Ergebnisse;重音在 ge 上,b 在 n 前读 [p];考试的成绩、比赛的比分都叫 Ergebnis。" },
+        { "id": "de.eis", "kind": "word", "pos": "noun", "text": "das Eis", "zh": "冰淇淋;冰", "features": { "gender": "n", "plural": "-", "ipa": "aɪ̯s" }, "noteZh": "中性:das Eis;“吃冰淇淋”用 essen:ein Eis essen;ei 读 [aɪ]。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u12.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-12 考试周", "order": 112085,
+      "titleZh": "我的考试经验",
+      "goalZh": "能读懂一篇分享考试经验的短文,找出备考的方法和考试当天要注意的事",
+      "canDoZh": "能读懂一篇分享考试经验的短文,找出备考的方法和考试当天要注意的事",
+      "scenarioZh": "体裁:德语课博客上的经验帖。考完一周,王伟给下一期的同学写经验帖:考前一个月每天听 15 分钟德语、和语伴练口语、做模拟题;考试当天早点到、手机关掉;口语别怕说错,听不懂就说 Wie bitte?;最后祝大家好运(Viel Glück!)。说话人:wei(博客)。",
+      "grammarFocusZh": "复习:完成时(Ich habe jeden Tag Radio gehört)、denn、情态动词;给建议的说法(Man muss … / Man kann …)",
+      "skills": ["read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.tipp", "kind": "word", "pos": "noun", "text": "der Tipp", "zh": "建议;小窍门", "features": { "gender": "m", "plural": "die Tipps", "ipa": "tɪp" }, "noteZh": "阳性:der Tipp,复数 die Tipps;Hast du einen Tipp für mich?(你有什么建议给我吗?)" },
+        { "id": "de.radio", "kind": "word", "pos": "noun", "text": "das Radio", "zh": "收音机;广播电台", "features": { "gender": "n", "plural": "die Radios", "ipa": "ˈʁaːdi̯o" }, "noteZh": "中性:das Radio;听广播:Radio hören(不加冠词);复数加 -s:die Radios。" },
+        { "id": "de.man", "kind": "word", "pos": "pron", "text": "man", "zh": "人们;大家(泛指)", "features": { "ipa": "man" }, "noteZh": "泛指“人、大家”,动词用 er / sie 的形式:Man muss früh da sein.(要早点到。)中文这类句子常常不说主语,德语要用 man;别和 der Mann(男人)弄混:man 小写、只有一个 n。" }
+      ],
+      "reviewItems": []
+    }
+  ]
+}

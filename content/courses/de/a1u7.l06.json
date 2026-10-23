@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u7.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107060,
+  "titleZh": "在外管局申请居留", "goalZh": "能在外管局办居留手续:听懂叫号,交材料,用 seit 说从什么时候起住在这里", "canDoZh": "能在外管局这类办事处办手续:听懂叫号,交上护照和材料,回答从什么时候起住在哪里、在德国做什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "de.auslaenderbehoerde", "kind": "word", "pos": "noun", "text": "die Ausländerbehörde", "zh": "外国人管理局(外管局)", "features": { "gender": "f", "plural": "die Ausländerbehörden", "ipa": "ˈaʊ̯slɛndɐbəˌhøːɐ̯də" }, "noteZh": "der Ausländer(外国人)+ die Behörde(政府机关);留学生办、延长居留都要去,一般要先在网上预约。ö 是圆唇长音。" },
+    { "id": "de.visum", "kind": "word", "pos": "noun", "text": "das Visum", "zh": "签证", "features": { "gender": "n", "plural": "die Visa", "ipa": "ˈviːzʊm" }, "noteZh": "复数特殊:die Visa;v 在外来词里读 [v],s 读 [z]。留学生的入境签证一般只有几个月,到期前要去外管局办居留许可;预约常常要等很久,最好尽早约。" },
+    { "id": "de.aufenthaltserlaubnis", "kind": "word", "pos": "noun", "text": "die Aufenthaltserlaubnis", "zh": "居留许可", "features": { "gender": "f", "plural": "die Aufenthaltserlaubnisse", "ipa": "ˈaʊ̯fʔɛnthaltsʔɛɐ̯ˌlaʊ̯pnɪs" }, "noteZh": "der Aufenthalt(居留)+ die Erlaubnis(许可),中间加 -s-;很长,先分成两半记:Aufenthalts | erlaubnis。-nis 结尾的名词这里是阴性。" },
+    { "id": "de.anmeldung", "kind": "word", "pos": "noun", "text": "die Anmeldung", "zh": "(住址)登记;报名", "features": { "gender": "f", "plural": "die Anmeldungen", "ipa": "ˈanˌmɛldʊŋ" }, "noteZh": "-ung 结尾的名词都是阴性。到德国住下以后要在两周内去市民局登记住址,拿到的登记证明办居留、开户都要用到。" },
+    { "id": "de.nummer", "kind": "word", "pos": "noun", "text": "die Nummer", "zh": "号码;号", "features": { "gender": "f", "plural": "die Nummern", "ipa": "ˈnʊmɐ" }, "noteZh": "叫号:Die Nummer 125, bitte!;电话号码是 die Handynummer;衣服大一号、小一号:eine Nummer größer / kleiner。" },
+    { "id": "de.seit", "kind": "word", "pos": "prep", "text": "seit", "zh": "自从;……以来", "features": { "ipa": "zaɪ̯t" }, "noteZh": "s 读 [z];Seit wann wohnen Sie hier?(您从什么时候起住在这儿?)从过去开始、现在还在继续的事,德语用现在时:Ich wohne seit Oktober hier.(我十月起就住这儿了。)中文说“已经……了”,德语不用过去时。" },
+    { "id": "de.bescheinigung", "kind": "word", "pos": "noun", "text": "die Bescheinigung", "zh": "证明(文件)", "features": { "gender": "f", "plural": "die Bescheinigungen", "ipa": "bəˈʃaɪ̯nɪɡʊŋ" }, "noteZh": "be- 不重读,重音在 schei 上;登记证明、学校的注册证明都叫 Bescheinigung,要好好保存。" }
+  ],
+  "reviewItems": ["de.platz", "de.termin", "de.pass", "de.formular", "de.ihr_hoeflich", "de.helfen"],
+  "lines": [
+    { "speaker": "durchsage", "text": "Die Nummer 125, bitte zu Platz 3.", "zh": "(外管局大厅里的叫号广播)125 号,请到 3 号窗口。", "items": ["de.nummer", "de.hundert", "de.fuenf", "de.und", "de.zwanzig", "de.bitte", "de.zu", "de.platz", "de.drei"] },
+    { "speaker": "wei", "text": "Guten Tag! Ich habe die Nummer 125 und einen Termin.", "zh": "您好!我是 125 号,我有预约。", "items": ["de.guten_tag", "de.ich", "de.haben", "de.nummer", "de.hundert", "de.fuenf", "de.zwanzig", "de.und", "de.ein", "de.termin"] },
+    { "speaker": "mitarbeiterin", "text": "Guten Tag! Wie kann ich Ihnen helfen?", "zh": "您好!有什么可以帮您的?", "items": ["de.guten_tag", "de.wie", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
+    { "speaker": "wei", "text": "Mein Visum ist nur bis zum 28. Februar. Ich brauche eine Aufenthaltserlaubnis.", "zh": "我的签证只到 2 月 28 日。我需要办居留许可。", "items": ["de.mein", "de.visum", "de.sein", "de.nur", "de.bis", "de.zu", "de.acht", "de.und", "de.zwanzig", "de.februar", "de.ich", "de.brauchen", "de.ein", "de.aufenthaltserlaubnis"] },
+    { "speaker": "mitarbeiterin", "text": "Gut. Ihren Pass und das Formular, bitte.", "zh": "好的。请给我您的护照和申请表。", "items": ["de.gut", "de.ihr_hoeflich", "de.pass", "de.und", "de.formular", "de.bitte"] },
+    { "speaker": "wei", "text": "Hier, bitte. Und das ist die Bescheinigung von der Uni.", "zh": "给您。这是大学的注册证明。", "items": ["de.hier", "de.bitte", "de.und", "de.das_ist", "de.bescheinigung", "de.von", "de.uni"] },
+    { "speaker": "mitarbeiterin", "text": "Danke. Seit wann sind Sie in Deutschland?", "zh": "谢谢。您是什么时候来德国的?", "items": ["de.danke", "de.seit", "de.wann", "de.sein", "de.sie_hoeflich", "de.in", "de.deutschland"] },
+    { "speaker": "wei", "text": "Seit September. Ich studiere hier an der Uni.", "zh": "去年九月来的,从那时起就在这儿。我在这里的大学读书。", "items": ["de.seit", "de.september", "de.ich", "de.studieren", "de.hier", "de.an", "de.uni"] },
+    { "speaker": "mitarbeiterin", "text": "Und seit wann wohnen Sie in der Musterstraße?", "zh": "那您从什么时候起住在 Musterstraße?", "items": ["de.und", "de.seit", "de.wann", "de.wohnen", "de.sie_hoeflich", "de.in"] },
+    { "speaker": "wei", "text": "Seit Oktober. Hier ist die Bescheinigung von meiner Anmeldung.", "zh": "从十月起。这是我住址登记的证明。", "items": ["de.seit", "de.oktober", "de.hier", "de.sein", "de.bescheinigung", "de.von", "de.mein", "de.anmeldung"] },
+    { "speaker": "mitarbeiterin", "text": "Alles gut. Ihre Karte ist in sechs Wochen da, und hier ist eine Bescheinigung.", "zh": "材料都齐了。您的居留卡六个星期后就好;这张证明您先拿着,在拿到卡之前用。", "items": ["de.alles", "de.gut", "de.ihr_hoeflich", "de.karte", "de.sein", "de.in", "de.sechs", "de.woche", "de.da", "de.und", "de.hier", "de.ein", "de.bescheinigung"] },
+    { "speaker": "wei", "text": "Vielen Dank! In sechs Wochen komme ich noch einmal in die Ausländerbehörde.", "zh": "非常感谢!六个星期后我再来外管局。", "items": ["de.vielen_dank", "de.in", "de.sechs", "de.woche", "de.ich_komme_aus", "de.ich", "de.noch_einmal", "de.auslaenderbehoerde"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么来外管局?", "options": ["他要办住址登记", "他的签证快到期了,要申请居留许可", "他要开银行账户"], "answer": 1, "explainZh": "Mein Visum ist nur bis zum 28. Februar. Ich brauche eine Aufenthaltserlaubnis.(签证只到 2 月 28 日,要办居留许可。)住址登记十月就办好了,他带来的是登记证明。" },
+    { "prompt": "王伟从什么时候起住在 Musterstraße?", "options": ["十月", "九月", "二月"], "answer": 0, "explainZh": "工作人员问 Seit wann wohnen Sie in der Musterstraße?,王伟回答 Seit Oktober.(从十月起。)九月是他来德国的时间。" },
+    { "prompt": "居留卡什么时候好?在那之前怎么办?", "options": ["今天就能拿到", "两个星期以后好,在那之前要先回国", "六个星期以后好,在那之前先用一张证明"], "answer": 2, "explainZh": "Ihre Karte ist in sechs Wochen da, und hier ist eine Bescheinigung.(卡六个星期后好,先给您一张证明。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u7_seit", "titleZh": "seit + 时间:从过去开始、现在还在继续,德语用现在时",
+      "bodyZh": "seit 表示“从……起(一直到现在)”:Seit wann sind Sie in Deutschland? – Seit September.(您什么时候来的德国?——九月。)\n关键:事情现在还在继续,德语就用现在时:Ich wohne seit Oktober in der Musterstraße.(我从十月起住在 Musterstraße。)英语要说 I have lived …,中文常说“已经……了”,德语都不用过去时,也不用完成时。\n问“从什么时候起”:Seit wann …?;回答可以是月份(seit Oktober)、日期(seit dem 1. Oktober,dem 是第三格,先当固定说法记)或一段时间(seit zwei Wochen、seit zehn Minuten)。\n易错:Ich wohne seit Oktober hier. 不要说成 Ich habe seit Oktober hier gewohnt.",
+      "examples": [
+        { "text": "Seit wann sind Sie in Deutschland?", "zh": "您是什么时候来德国的?" },
+        { "text": "Ich wohne seit Oktober in der Musterstraße.", "zh": "我从十月起住在 Musterstraße。" },
+        { "text": "Ich warte seit zehn Minuten.", "zh": "我已经等了十分钟了。" }
+      ] },
+    { "id": "de.g.u7_amt", "titleZh": "在办事处:Ihren Pass, bitte!、Ihre Adresse? 和日期",
+      "bodyZh": "办事处的工作人员说话很简短,常常只说名词:Ihren Pass und das Formular, bitte.(请给我您的护照和表格。)Ihre Adresse?(您的地址?)\nIhren 是 Ihr 跟着阳性名词 der Pass 做宾语时的形式,先当固定说法记,第四格的物主冠词第 18 单元再系统学。\n说期限用 bis zum + 日期:Mein Visum ist nur bis zum 28. Februar.(读作 bis zum achtundzwanzigsten Februar)。\n去外管局一般要带:护照(der Pass)、填好的表格(das Formular)、大学的注册证明和住址登记证明(die Bescheinigung)。听到叫号(Die Nummer 125, bitte zu Platz 3)就去对应的窗口。",
+      "examples": [
+        { "text": "Ihren Pass und das Formular, bitte.", "zh": "请给我您的护照和表格。" },
+        { "text": "Mein Visum ist nur bis zum 28. Februar.", "zh": "我的签证只到 2 月 28 日。" }
+      ] }
+  ],
+  "review": "draft"
+}
