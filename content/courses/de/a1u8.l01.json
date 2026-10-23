@@ -22,7 +22,7 @@
     { "speaker": "paul", "text": "Ich spiele auch gern Fußball. Und du, Lena?", "zh": "我也喜欢踢足球。你呢,莉娜?", "items": ["de.ich", "de.spielen", "de.auch", "de.gern", "de.fussball", "de.und", "de.du"] },
     { "speaker": "lena", "text": "Ich schwimme gern. Am Sonntag gehe ich oft schwimmen.", "zh": "我喜欢游泳。星期天我常去游泳。", "items": ["de.ich", "de.schwimmen", "de.gern", "de.am", "de.sonntag", "de.gehen", "de.oft"] },
     { "speaker": "sofia", "text": "Ich höre gern Musik und lese gern Bücher.", "zh": "我喜欢听音乐,也喜欢看书。", "items": ["de.ich", "de.hoeren", "de.gern", "de.musik", "de.und", "de.lesen", "de.buch"] },
-    { "speaker": "paul", "text": "Sofia liest gern. Und du, Wei?", "zh": "索菲娅喜欢看书。你呢,伟?", "items": ["de.lesen", "de.gern", "de.und", "de.du"] },
+    { "speaker": "paul", "text": "Du liest gern? Ich nicht. Und du, Wei?", "zh": "你喜欢看书?我可不喜欢。你呢,王伟?", "items": ["de.du", "de.lesen", "de.gern", "de.ich", "de.nicht", "de.und"] },
     { "speaker": "wei", "text": "Ich lese auch gern. Und ich sehe oft Filme.", "zh": "我也喜欢看书,还经常看电影。", "items": ["de.ich", "de.lesen", "de.auch", "de.gern", "de.und", "de.sehen", "de.oft", "de.film"] },
     { "speaker": "paul", "text": "Spielst du auch Fußball?", "zh": "你也踢足球吗?", "items": ["de.spielen", "de.du", "de.auch", "de.fussball"] },
     { "speaker": "wei", "text": "Nein, noch nicht. Aber ich möchte gern Fußball spielen!", "zh": "还没踢过。不过我很想踢足球!", "items": ["de.nein", "de.noch", "de.nicht", "de.aber", "de.ich", "de.moechten", "de.gern", "de.fussball", "de.spielen"] },
@@ -35,12 +35,12 @@
   ],
   "grammar": [
     { "id": "de.g.hobby_gern_oft", "titleZh": "说爱好:gern、oft 和 spielen",
-      "bodyZh": "“喜欢做某事”= 动词 + gern:Ich schwimme gern.(我喜欢游泳。)不喜欢:nicht gern。多久做一次用 oft(经常),位置和 gern 一样,紧跟在变位动词后面:Ich spiele oft Fußball.——别照中文语序说 Ich oft spiele Fußball。球类运动用 spielen,不加冠词:Fußball spielen(踢足球;英语 play football 也不加 the),中文的“踢”“打”“玩”在德语里都用 spielen。lesen 和 sehen 是不规则动词,du 和 er / sie 的形式元音要变:du liest, er liest;du siehst, er sieht。问爱好:Was ist dein Hobby? / Was machst du gern?",
+      "bodyZh": "“喜欢做某事”= 动词 + gern:Ich schwimme gern.(我喜欢游泳。)不喜欢:nicht gern。多久做一次用 oft(经常),位置和 gern 一样,放在变位动词后面:Ich spiele oft Fußball.;时间放句首时,放在主语后面:Am Sonntag gehe ich oft schwimmen.——别照中文语序说 Ich oft spiele Fußball。球类运动用 spielen,不加冠词:Fußball spielen(踢足球;英语 play football 也不加 the),中文说“踢球”“打球”“玩游戏”,德语都用 spielen。lesen 和 sehen 是不规则动词,du 和 er / sie 的形式元音要变:du liest, er liest;du siehst, er sieht。问爱好:Was ist dein Hobby? / Was machst du gern?",
       "examples": [
         { "text": "Ich spiele oft Fußball.", "zh": "我经常踢足球。" },
         { "text": "Sofia liest gern Bücher.", "zh": "索菲娅喜欢看书。" },
-        { "text": "Wei sieht gern Filme.", "zh": "伟喜欢看电影。" }
+        { "text": "Wei sieht gern Filme.", "zh": "王伟喜欢看电影。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

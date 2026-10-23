@@ -19,16 +19,16 @@
     { "speaker": "wagner", "text": "Guten Morgen! Was haben Sie am Wochenende gemacht?", "zh": "早上好!大家周末做了什么?", "items": ["de.guten_morgen", "de.was", "de.haben", "de.sie_hoeflich", "de.am", "de.wochenende", "de.machen"] },
     { "speaker": "sofia", "text": "Ich habe gestern Freunde besucht. Das hat viel Spaß gemacht!", "zh": "我昨天去看朋友了,玩得很开心!", "items": ["de.ich", "de.haben", "de.gestern", "de.freund", "de.besuchen", "de.viel", "de.spass", "de.machen"] },
     { "speaker": "wagner", "text": "Schön! Und Sie, Herr Wang?", "zh": "真好!您呢,王先生?", "items": ["de.schoen", "de.und", "de.sie_hoeflich", "de.herr"] },
-    { "speaker": "wei", "text": "Am Samstag bin ich mit Lena zum See gefahren. Wir sind geschwommen.", "zh": "星期六我和莉娜去了湖边,我们游了泳。", "items": ["de.am", "de.samstag", "de.sein", "de.ich", "de.mit", "de.zu", "de.see", "de.fahren", "de.wir", "de.schwimmen"] },
-    { "speaker": "wagner", "text": "Toll! Und am Sonntag?", "zh": "太棒了!那星期天呢?", "items": ["de.toll", "de.und", "de.am", "de.sonntag"] },
-    { "speaker": "wei", "text": "Am Sonntag habe ich mit Jonas einen Ausflug gemacht. Wir sind gewandert.", "zh": "星期天我和约纳斯去郊游了,我们去徒步了。", "items": ["de.am", "de.sonntag", "de.haben", "de.ich", "de.mit", "de.ein", "de.ausflug", "de.machen", "de.wir", "de.sein", "de.wandern"] },
+    { "speaker": "wei", "text": "Am Samstag bin ich mit Jonas zum See gefahren. Wir sind gewandert.", "zh": "星期六我和约纳斯去了湖边,我们去徒步了。", "items": ["de.am", "de.samstag", "de.sein", "de.ich", "de.mit", "de.zu", "de.see", "de.fahren", "de.wir", "de.wandern"] },
+    { "speaker": "wagner", "text": "Toll, ein Ausflug! Und am Sonntag?", "zh": "真不错,去郊游了!那星期天呢?", "items": ["de.toll", "de.ein", "de.ausflug", "de.und", "de.am", "de.sonntag"] },
+    { "speaker": "wei", "text": "Am Sonntag bin ich mit Lena schwimmen gegangen.", "zh": "星期天我和莉娜去游泳了。", "items": ["de.am", "de.sonntag", "de.sein", "de.ich", "de.mit", "de.schwimmen", "de.gehen"] },
     { "speaker": "wagner", "text": "Gut. Aber warum waren Sie letzte Woche nicht da?", "zh": "很好。不过您上个星期为什么没来?", "items": ["de.gut", "de.aber", "de.warum", "de.sein", "de.sie_hoeflich", "de.letzte", "de.woche", "de.nicht", "de.da"] },
     { "speaker": "wei", "text": "Ich war krank und hatte eine Erkältung.", "zh": "我病了,得了感冒。", "items": ["de.ich", "de.sein", "de.krank", "de.und", "de.haben", "de.ein", "de.erkaeltung"] }
   ],
   "questions": [
-    { "prompt": "星期六王伟和谁去了湖边?", "options": ["约纳斯", "索菲娅", "莉娜"], "answer": 2, "explainZh": "王伟说:Am Samstag bin ich mit Lena zum See gefahren.(星期六我和莉娜去了湖边。)星期天他才和约纳斯去徒步。" },
-    { "prompt": "索菲娅昨天做了什么?", "options": ["去看朋友了", "去游泳了", "去徒步了"], "answer": 0, "explainZh": "索菲娅说:Ich habe gestern Freunde besucht.(我昨天去看朋友了。)" },
-    { "prompt": "王伟上个星期为什么没来上课?", "options": ["他去汉堡了", "他生病了", "他回中国了"], "answer": 1, "explainZh": "王伟说:Ich war krank und hatte eine Erkältung.(我病了,得了感冒。)" }
+    { "prompt": "星期六王伟和谁去了湖边?", "options": ["约纳斯", "索菲娅", "莉娜"], "answer": 0, "explainZh": "王伟说:Am Samstag bin ich mit Jonas zum See gefahren.(星期六我和约纳斯去了湖边。)星期天他才和莉娜去游泳。" },
+    { "prompt": "索菲娅昨天做了什么?", "options": ["去游泳了", "去看朋友了", "去徒步了"], "answer": 1, "explainZh": "索菲娅说:Ich habe gestern Freunde besucht.(我昨天去看朋友了。)" },
+    { "prompt": "王伟上个星期为什么没来上课?", "options": ["他去汉堡了", "他回中国了", "他生病了"], "answer": 2, "explainZh": "王伟说:Ich war krank und hatte eine Erkältung.(我病了,得了感冒。)" }
   ],
   "grammar": [
     { "id": "de.g.perfekt_haben", "titleZh": "现在完成时(1):haben + 过去分词",
@@ -39,12 +39,12 @@
         { "text": "Sofia hat Freunde besucht.", "zh": "索菲娅去看朋友了。" }
       ] },
     { "id": "de.g.perfekt_sein_war", "titleZh": "现在完成时(2):sein + 过去分词;war / hatte",
-      "bodyZh": "表示从一个地方到另一个地方的动词,完成时用 sein:fahren → Ich bin gefahren、gehen → gegangen、fliegen → geflogen、kommen → gekommen、schwimmen → geschwommen、wandern → gewandert。比较:Wir sind zum See gefahren.(我们去了湖边)/ Wir haben einen Ausflug gemacht.(我们去郊游了)。sein 和 haben 自己说过去时一般不用完成时,而用 war / hatte:ich war, Sie waren;ich hatte, er hatte——Ich war krank. Ich hatte eine Erkältung.。问原因用 warum,回答直接说理由就行。表示过去的时间:gestern(昨天)、letzte Woche(上周)、letztes Wochenende(上个周末)。",
+      "bodyZh": "表示从一个地方到另一个地方的动词,完成时用 sein:fahren → Ich bin gefahren、gehen → gegangen、fliegen → geflogen、kommen → gekommen、schwimmen → geschwommen、wandern → gewandert;“去游泳了”说 Ich bin schwimmen gegangen.。比较:Wir sind zum See gefahren.(我们去了湖边)/ Wir haben einen Ausflug gemacht.(我们去郊游了)。sein 和 haben 自己说过去时一般不用完成时,而用 war / hatte:ich war, Sie waren;ich hatte, er hatte——Ich war krank. Ich hatte eine Erkältung.。问原因用 warum,回答直接说理由就行。表示过去的时间:gestern(昨天)、letzte Woche(上周)、letztes Wochenende(上个周末)。",
       "examples": [
         { "text": "Wir sind zum See gefahren.", "zh": "我们去了湖边。" },
         { "text": "Ich bin gewandert.", "zh": "我去徒步了。" },
         { "text": "Ich war krank.", "zh": "我病了。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -1,0 +1,49 @@
+{
+  "id": "ja.a1u5.l05", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105050,
+  "titleZh": "周末一起去看电影吧", "goalZh": "会用 V ませんか 邀请、用 V ましょう 回应,委婉地拒绝并改约时间",
+  "canDoZh": "能约朋友周末一起做什么,能接受邀请,也能委婉地拒绝、改约时间",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ja.shuumatsu", "kind": "word", "pos": "noun", "text": "週末", "zh": "周末", "features": { "reading": "しゅうまつ", "pitch": 0 }, "noteZh": "週末 = 土曜日と 日曜日。しゅう 是拗音 + 长音。週末 后面不加 に:週末 映画を 見ます。" },
+    { "id": "ja.issho_ni", "kind": "word", "pos": "adv", "text": "いっしょに", "zh": "一起", "alt": ["一緒に"], "features": { "pitch": 0 }, "noteZh": "汉字写作 一緒に。放在动词前:いっしょに 行きましょう。有促音:い・っ・しょ・に。" },
+    { "id": "ja.eiga", "kind": "word", "pos": "noun", "text": "映画", "zh": "电影", "features": { "reading": "えいが" }, "noteZh": "映画を 見ます = 看电影;映画館(えいがかん)= 电影院。えい 实际读成长音 ē:えーが。" },
+    { "id": "ja.miru", "kind": "word", "pos": "verb", "text": "見ます", "zh": "看", "features": { "reading": "みます", "pitch": 2 }, "noteZh": "辞书形 見る(二类动词)。看电影、看电视用 見ます,看书用 読みます(第 8 单元)。" },
+    { "id": "ja.iku", "kind": "word", "pos": "verb", "text": "行きます", "zh": "去", "features": { "reading": "いきます", "pitch": 3 }, "noteZh": "辞书形 行く(一类动词)。目的地用 へ / に(第 6 单元)。いっしょに 行きましょう(一起去吧)。" },
+    { "id": "ja.ii", "kind": "word", "pos": "adj", "text": "いい", "zh": "好;可以", "features": { "pitch": 1 }, "noteZh": "いいですね(好啊!接受邀请时说)。否定是 よくないです(特殊变化)。" },
+    { "id": "ja.chotto", "kind": "word", "pos": "adv", "text": "ちょっと", "zh": "有点儿;(委婉拒绝)不太方便", "features": { "pitch": 1 }, "noteZh": "拒绝时说 〜は ちょっと…,话不说完,对方就明白了。ちょ 是拗音,っ 是促音。" },
+    { "id": "ja.aru", "kind": "word", "pos": "verb", "text": "あります", "zh": "有;在(东西、事情)", "features": { "pitch": 3 }, "noteZh": "东西、事情用 あります,人和动物用 います:アルバイトが あります(要打工)。辞书形 ある(一类动词)。" },
+    { "id": "ja.ashita", "kind": "word", "pos": "noun", "text": "明日", "zh": "明天", "features": { "reading": "あした", "pitch": 3 }, "noteZh": "熟字训:两个字合起来读 あした。明日 后面不加 に。" },
+    { "id": "ja.arubaito", "kind": "word", "pos": "noun", "text": "アルバイト", "zh": "打工", "features": { "pitch": 3 }, "noteZh": "来自德语 Arbeit,口语常说 バイト。在日本,留学生打工要先办“资格外活动许可”。" }
+  ],
+  "reviewItems": ["ja.doyoubi", "ja.nichiyoubi", "ja.ji", "ja.daijoubu"],
+  "lines": [
+    { "speaker": "saki", "text": "リンさん、週末いっしょに映画を見ませんか。", "zh": "(星期五)林雨,周末要不要一起去看电影?", "reading": "リンさん、しゅうまつ いっしょに えいがを みませんか。", "tokens": ["リン", "さん、", "週末", "いっしょに", "映画", "を", "見ませんか。"], "items": ["ja.san", "ja.shuumatsu", "ja.issho_ni", "ja.eiga", "ja.wo_p", "ja.miru"] },
+    { "speaker": "rin", "text": "いいですね!土曜日ですか、日曜日ですか。", "zh": "好啊!星期六还是星期日?", "reading": "いいですね!どようびですか、にちようびですか。", "tokens": ["いいですね!", "土曜日ですか、", "日曜日ですか。"], "items": ["ja.ii", "ja.desu", "ja.ne_p", "ja.doyoubi", "ja.ka_p", "ja.nichiyoubi"] },
+    { "speaker": "saki", "text": "明日の午後です。", "zh": "明天(星期六)下午。", "reading": "あしたの ごごです。", "tokens": ["明日", "の", "午後です。"], "items": ["ja.ashita", "ja.no_p", "ja.gogo", "ja.desu"] },
+    { "speaker": "rin", "text": "すみません、明日はちょっと……。アルバイトがあります。", "zh": "不好意思,明天有点……我要打工。", "reading": "すみません、あしたは ちょっと……。アルバイトが あります。", "tokens": ["すみません、", "明日", "は", "ちょっと……。", "アルバイト", "が", "あります。"], "items": ["ja.sumimasen", "ja.ashita", "ja.wa_p", "ja.chotto", "ja.arubaito", "ja.ga_p", "ja.aru"] },
+    { "speaker": "saki", "text": "そうですか。日曜日は?", "zh": "这样啊。那星期日呢?", "reading": "そうですか。にちようびは?", "tokens": ["そうですか。", "日曜日", "は?"], "items": ["ja.sou", "ja.desu", "ja.ka_p", "ja.nichiyoubi", "ja.wa_p"] },
+    { "speaker": "rin", "text": "日曜日もアルバイトです。夜は大丈夫です!", "zh": "星期日也要打工。不过晚上没问题!", "reading": "にちようびも アルバイトです。よるは だいじょうぶです!", "tokens": ["日曜日", "も", "アルバイトです。", "夜", "は", "大丈夫です!"], "items": ["ja.nichiyoubi", "ja.mo_p", "ja.arubaito", "ja.desu", "ja.yoru", "ja.wa_p", "ja.daijoubu"] },
+    { "speaker": "saki", "text": "日曜日の夜……7時半の映画がありますよ。", "zh": "(查手机)星期日晚上……有 7 点半的场次哦。", "reading": "にちようびの よる……しちじはんの えいがが ありますよ。", "tokens": ["日曜日", "の", "夜……", "7時半", "の", "映画", "が", "ありますよ。"], "items": ["ja.nichiyoubi", "ja.no_p", "ja.yoru", "ja.nana", "ja.ji", "ja.han", "ja.eiga", "ja.ga_p", "ja.aru", "ja.yo_p"] },
+    { "speaker": "rin", "text": "いいですね!行きましょう!6時にご飯もいっしょに食べませんか。", "zh": "好啊!一起去吧!6 点要不要也一起吃个饭?", "reading": "いいですね!いきましょう!ろくじに ごはんも いっしょに たべませんか。", "tokens": ["いいですね!", "行きましょう!", "6時", "に", "ご飯", "も", "いっしょに", "食べませんか。"], "items": ["ja.ii", "ja.desu", "ja.ne_p", "ja.iku", "ja.roku", "ja.ji", "ja.ni_p", "ja.gohan", "ja.mo_p", "ja.issho_ni", "ja.taberu", "ja.ka_p"] },
+    { "speaker": "saki", "text": "いいですね!食べましょう!", "zh": "好啊!一起吃吧!", "tokens": ["いいですね!", "食べましょう!"], "reading": "いいですね!たべましょう!", "items": ["ja.ii", "ja.desu", "ja.ne_p", "ja.taberu"] },
+    { "speaker": "rin", "text": "日曜日の6時ですね。", "zh": "那就星期日 6 点哦。", "reading": "にちようびの ろくじですね。", "tokens": ["日曜日", "の", "6時ですね。"], "items": ["ja.nichiyoubi", "ja.no_p", "ja.roku", "ja.ji", "ja.desu", "ja.ne_p"] },
+    { "speaker": "saki", "text": "はい、日曜日の6時に!", "zh": "嗯,星期日 6 点见!", "reading": "はい、にちようびの ろくじに!", "tokens": ["はい、", "日曜日", "の", "6時", "に!"], "items": ["ja.hai", "ja.nichiyoubi", "ja.no_p", "ja.roku", "ja.ji", "ja.ni_p"] }
+  ],
+  "questions": [
+    { "prompt": "咲约林雨做什么?", "options": ["明天一起去打工", "周末一起看电影", "星期日一起做饭"], "answer": 1, "explainZh": "咲一开口就说:週末いっしょに映画を見ませんか。(周末要不要一起看电影?)" },
+    { "prompt": "林雨为什么星期六下午不能去?", "options": ["要打工", "要上课", "要在家做饭"], "answer": 0, "explainZh": "林雨说:すみません、明日はちょっと……。アルバイトがあります。明日 就是星期六。" },
+    { "prompt": "她们最后约在什么时候见面?", "options": ["星期六下午", "星期日下午 5 点", "星期日晚上 6 点"], "answer": 2, "explainZh": "林雨星期日也打工,但 夜は大丈夫です;她约咲 6時に ご飯も いっしょに 食べませんか,最后确认:日曜日の6時ですね。电影是 7 点半的。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u5_sasou", "titleZh": "约人、接受和婉拒:V ませんか / V ましょう / 〜は ちょっと…",
+      "bodyZh": "① 邀请:V ませんか(要不要一起……?)。把 ます 换成 ませんか:見ます → 見ませんか,食べます → 食べませんか。形式是否定疑问,实际是客气的邀请;V ますか 只是问对方的打算(映画を見ますか = 你看电影吗?),要约人就用 ませんか。いっしょに(一起)放在动词前面。\n② 接受:いいですね!(好啊!)或者 V ましょう(……吧,我们一起做):行きましょう!食べましょう!\n③ 婉拒:日本人很少直接说“不行”。先说 すみません,再说 明日はちょっと……(明天有点……),话说一半就停,对方就明白了;可以补一句理由:アルバイトがあります。最好再提一个别的时间,让对方知道你是真想去:夜は大丈夫です。\n④ N が あります:有某件事、某样东西。アルバイトがあります(要打工)、7時半の映画があります(有 7 点半的场次)。东西、事情用 あります,人和动物用 います(弟がいます)。",
+      "examples": [
+        { "text": "週末いっしょに映画を見ませんか。", "zh": "周末要不要一起看电影?(しゅうまつ いっしょに えいがを みませんか)" },
+        { "text": "いいですね!行きましょう!", "zh": "好啊!一起去吧!(いいですね!いきましょう!)" },
+        { "text": "すみません、明日はちょっと……。", "zh": "不好意思,明天有点……(すみません、あしたは ちょっと……)" },
+        { "text": "アルバイトがあります。", "zh": "我要打工。(アルバイトが あります)" }
+      ] }
+  ],
+  "review": "draft"
+}

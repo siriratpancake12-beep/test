@@ -27,7 +27,7 @@
     { "speaker": "aerztin", "text": "Ja, die Tabletten gibt es in der Apotheke. Gute Besserung!", "zh": "要,药在药店拿。祝您早日康复!", "items": ["de.ja", "de.tablette", "de.es_gibt", "de.in", "de.apotheke", "de.gute_besserung"] }
   ],
   "questions": [
-    { "prompt": "王伟发烧几天了?", "options": ["一天", "两天", "一个星期"], "answer": 1, "explainZh": "医生问 Wie lange haben Sie Fieber?(您发烧多长时间了?)王伟回答 Zwei Tage.(两天了。)" },
+    { "prompt": "王伟发烧几天了?", "options": ["一天", "一个星期", "两天"], "answer": 2, "explainZh": "医生问 Wie lange haben Sie Fieber?(您发烧多长时间了?)王伟回答 Zwei Tage.(两天了。)" },
     { "prompt": "医生让王伟怎么做?", "options": ["多喝茶,多睡觉", "明天再来诊所", "多去运动"], "answer": 0, "explainZh": "医生说:Das ist nur eine Erkältung. Trinken Sie viel Tee und schlafen Sie viel!(只是感冒。多喝茶,多睡觉!)" }
   ],
   "grammar": [
@@ -38,5 +38,5 @@
         { "text": "Sie müssen viel schlafen.", "zh": "您得多睡觉。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }
