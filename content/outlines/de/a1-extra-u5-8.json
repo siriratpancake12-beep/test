@@ -5,7 +5,7 @@
     { "unit": "A1-5 时间与日程", "cefr": "A1", "themeZh": "冬季学期开学:钟点、星期和课表、一天的安排、约时间、生日和秋冬的月份、聚会邀请;钟点表达、时间介词 um / am / im、可分动词、时间放句首的语序、情态动词 können / müssen / wollen。" },
     { "unit": "A1-6 城市与交通", "cefr": "A1", "themeZh": "在柏林出行:城市里的地方、坐什么车、问路和指路、买车票、坐火车去汉堡、写路线;介词 in / an / mit / zu / nach + 第三格入门、Sie 的命令式、fahren 的变位、可分动词 ein- / aus- / umsteigen。" },
     { "unit": "A1-7 购物与办事", "cefr": "A1", "themeZh": "柏林的冬天:买衣服(颜色、尺码、价格)、银行开户填表、邮局寄包裹回中国、打电话预约考试、春夏的月份;第四格人称代词 ihn / sie / es、finden + 形容词、物主冠词 Ihr、介词 für / von / bis。" },
-    { "unit": "A1-8 健康与周末", "cefr": "A1", "themeZh": "春天到夏天:爱好、天气和季节、身体哪里疼、看医生和买药、说上周末做了什么、回顾在德国的第一年;Sie 的命令式和 müssen 复习、现在完成时入门(haben / sein + 过去分词)、war / hatte。" }
+    { "unit": "A1-8 健康与周末", "cefr": "A1", "themeZh": "三到四月,春天:爱好、天气和季节、身体哪里疼、看医生和买药、说上周末做了什么、回顾在德国的头半年;Sie 的命令式和 müssen 复习、现在完成时入门(haben / sein + 过去分词)、war / hatte。" }
   ],
   "lessons": [
     {
@@ -27,7 +27,7 @@
       "canDoZh": "能听懂朋友语音留言里的原因和新时间,并用语音回复同意或者再商量",
       "scenarioZh": "周六中午(am Mittag),王伟收到莉娜的语音留言(die Nachricht):她上午(am Vormittag)在书店上班,今天人多,下午四点来不了,五点半可以;电影六点开始,她问能不能五点半在电影院门口见(treffen),票她会带来(mitbringen)。王伟听了两遍,回复 Kein Problem, bis später!;后来索菲娅也想去,王伟又给莉娜留言,问能不能多买一张票。建议新词:der Vormittag、der Mittag、der Nachmittag、treffen、mitbringen、später、die Nachricht。说话人:lena、wei。",
       "grammarFocusZh": "语音留言的结构(称呼 → 原因 → 新时间 → 请对方回复);können / müssen 复习(Ich kann leider nicht um vier. Ich muss noch arbeiten.);später 和 Bis später!",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
         { "id": "de.vormittag", "kind": "word", "pos": "noun", "text": "der Vormittag", "zh": "上午", "features": { "gender": "m", "plural": "die Vormittage", "ipa": "ˈfoːɐ̯mɪˌtaːk" }, "noteZh": "vor(在……之前)+ Mittag(中午)= 上午;am Vormittag(在上午)。v 读 [f],词尾的 g 读 [k]。" },
         { "id": "de.mittag", "kind": "word", "pos": "noun", "text": "der Mittag", "zh": "中午", "features": { "gender": "m", "plural": "die Mittage", "ipa": "ˈmɪtaːk" }, "noteZh": "am Mittag(在中午);德国人说的 Mittag 大约是 12 点到 14 点,也是吃午饭的时间。词尾 g 读 [k]。" },
@@ -39,7 +39,7 @@
         { "id": "de.bis_spaeter", "kind": "phrase", "pos": "phrase", "text": "Bis später!", "zh": "回头见!/待会儿见!", "features": { "ipa": "bɪs ˈʃpɛːtɐ" }, "noteZh": "当天还要再见面时说;bis 是“到……为止”,第 7 单元再单独学。说“明天见”是 Bis morgen!" },
         { "id": "de.warten", "kind": "word", "pos": "verb", "text": "warten", "zh": "等;等候", "features": { "ipa": "ˈvaʁtn̩" }, "noteZh": "w 读 [v];词干以 t 结尾,du / er 前要加 e:du wartest, er wartet。Ich warte vor dem Kino.(我在电影院门口等。)" }
       ],
-      "reviewItems": ["de.kinokarte", "de.kino", "de.muessen", "de.anfangen"]
+      "reviewItems": ["de.kinokarte", "de.kino", "de.leider", "de.halb", "de.bezahlen"]
     },
     {
       "id": "de.a1u5.l07", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105070,
@@ -47,7 +47,7 @@
       "canDoZh": "能说出德国和中国秋冬的主要节日在几月几号,问朋友过不过这些节日",
       "scenarioZh": "十一月初的一个晚上,WG 厨房的日历上画着好几个节日。索菲娅和约纳斯给王伟讲:10 月 31 日 Halloween,11 月 11 日圣马丁节(孩子们提着灯笼唱歌),12 月的圣诞节(Weihnachten),12 月 31 日除夕(Silvester)和 1 月 1 日新年;王伟讲中国的春节(das Frühlingsfest)在一月或二月,中秋节在九月已经过了。大家互相问 Feierst du Weihnachten?。说话人:sofia、jonas、wei。",
       "grammarFocusZh": "im + 月份、am + 日期复习(Silvester ist am einunddreißigsten Dezember);节日名称一般不加冠词(Weihnachten ist im Dezember);feiern 的变位",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "de.weihnachten", "kind": "word", "pos": "propn", "text": "Weihnachten", "zh": "圣诞节", "features": { "ipa": "ˈvaɪ̯naxtn̩" }, "noteZh": "节日名称一般不加冠词:Weihnachten ist im Dezember.;最重要的是 12 月 24 日晚上(平安夜),德国人一般和家人一起过。w 读 [v],ei 读 [aɪ]。" },
         { "id": "de.silvester", "kind": "word", "pos": "propn", "text": "Silvester", "zh": "跨年夜(12 月 31 日)", "features": { "ipa": "zɪlˈvɛstɐ" }, "noteZh": "不加冠词:Silvester ist am 31. Dezember.;重音在 ves 上,开头的 s 读 [z]。中国的除夕是春节前一天,和 Silvester 不是同一天。" },
@@ -58,7 +58,7 @@
         { "id": "de.singen", "kind": "word", "pos": "verb", "text": "singen", "zh": "唱;唱歌", "features": { "ipa": "ˈzɪŋən" }, "noteZh": "s 在元音前读 [z](浊音),ng 读 [ŋ];规则变化:ich singe, du singst, er singt。" },
         { "id": "de.bei", "kind": "word", "pos": "prep", "text": "bei", "zh": "在……那里(家里);在……时", "features": { "ipa": "baɪ̯" }, "noteZh": "bei + 人 = 在某人那里、在某人家:bei Lena(在莉娜家)、bei meiner Familie(在我家里);后面接第三格,先当固定说法记。" }
       ],
-      "reviewItems": ["de.dezember", "de.januar", "de.november", "de.am"]
+      "reviewItems": ["de.november", "de.dezember", "de.januar", "de.eltern", "de.vielleicht"]
     },
     {
       "id": "de.a1u5.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105085,
@@ -66,12 +66,12 @@
       "canDoZh": "能读懂一篇介绍德国生日习俗的短文,说出和中国不一样的地方",
       "scenarioZh": "体裁:文化介绍短文(德语课的阅读材料)。约纳斯的派对以后,瓦格纳老师在课上发了一篇短文:在德国,过生日的人常常自己请大家吃蛋糕,也会把蛋糕带到学校或单位;生日以前不能说祝福,要等到当天;大家唱生日歌、送小礼物,说 Herzlichen Glückwunsch! 或 Alles Gute zum Geburtstag!;18 岁生日特别重要。最后两句是王伟的感想:在中国,过生日要吃长寿面。说话人:narrator(短文)、wei(最后两句)。",
       "grammarFocusZh": "复习:日期和序数词、可分动词(einladen:Er lädt seine Freunde ein)、müssen / können;Alles Gute zum Geburtstag! 当固定说法",
-      "skills": ["read"], "estimatedMinutes": 12,
+      "skills": ["read"], "estimatedMinutes": 14.5,
       "newItems": [
         { "id": "de.wichtig", "kind": "word", "pos": "adj", "text": "wichtig", "zh": "重要", "features": { "ipa": "ˈvɪçtɪç" }, "noteZh": "w 读 [v];ch 和词尾的 -ig 都读 [ç](-ig 和 zwanzig 的读法一样)。Das ist sehr wichtig!" },
         { "id": "de.leben", "kind": "word", "pos": "noun", "text": "das Leben", "zh": "生命;生活", "features": { "gender": "n", "plural": "die Leben", "ipa": "ˈleːbn̩" }, "noteZh": "大写的 das Leben 是名词;长寿面可以说 Nudeln für ein langes Leben(为了长寿吃的面)。复数不变。" }
       ],
-      "reviewItems": ["de.geburtstag", "de.kuchen", "de.einladen", "de.herzlichen_glueckwunsch"]
+      "reviewItems": ["de.geburtstag", "de.einladen", "de.kuchen", "de.party", "de.geschenk", "de.nudel"]
     },
     {
       "id": "de.a1u6.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106045,

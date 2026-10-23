@@ -17,10 +17,10 @@
   "reviewItems": ["ko.jamo_s", "ko.jamo_ch", "ko.uri"],
   "lines": [
     { "speaker": "sua", "text": "천징 씨?", "zh": "(晚上,宿舍门开了,一个女生拖着行李箱进来)你是陈静吧?", "roman": "Cheonjing ssi?", "items": ["ko.ssi"] },
-    { "speaker": "jing", "text": "네, 천징이에요. 수아 씨?", "zh": "对,我是陈静。你是秀雅?", "roman": "Ne, cheonjingieyo. Sua ssi?", "items": ["ko.ne", "ko.ssi"] },
-    { "speaker": "sua", "text": "네, 김수아예요.", "zh": "对,我叫金秀雅。", "roman": "Ne, gimsuayeyo.", "items": ["ko.ne"] },
+    { "speaker": "jing", "text": "네, 천징이에요. 수아 씨?", "zh": "对,我是陈静。你是秀雅?", "roman": "Ne, Cheonjingieyo. Sua ssi?", "items": ["ko.ne", "ko.ssi"] },
+    { "speaker": "sua", "text": "네, 김수아예요.", "zh": "对,我叫金秀雅。", "roman": "Ne, Gimsuayeyo.", "items": ["ko.ne"] },
     { "speaker": "sua", "text": "우리 아빠예요.", "zh": "(秀雅打开手机相册)这是我爸爸。", "roman": "Uri appayeyo.", "items": ["ko.uri", "ko.appa"] },
-    { "speaker": "sua", "text": "우리 오빠예요.", "zh": "(又翻到一张,是一个穿军装的年轻人)这是我哥哥。", "roman": "Uri oppayeyo.", "items": ["ko.uri", "ko.oppa"] },
+    { "speaker": "sua", "text": "우리 오빠예요.", "zh": "(又翻到一张,照片上的人穿着军装)这是我哥哥。", "roman": "Uri oppayeyo.", "items": ["ko.uri", "ko.oppa"] },
     { "speaker": "jing", "text": "아빠예요?", "zh": "(秀雅说得快,陈静没听清)是爸爸吗?", "roman": "Appayeyo?", "items": ["ko.appa"] },
     { "speaker": "sua", "text": "아니요, 오빠예요, 오빠!", "zh": "不是,是哥哥,哥哥!", "roman": "Aniyo, oppayeyo, oppa!", "items": ["ko.aniyo", "ko.oppa"] },
     { "speaker": "narrator", "text": "가 카 까", "zh": "松音 / 送气音 / 紧音:ga / ka / kka", "roman": "ga ka kka", "items": ["ko.jamo_g", "ko.jamo_k", "ko.jamo_kk", "ko.jamo_a"] },

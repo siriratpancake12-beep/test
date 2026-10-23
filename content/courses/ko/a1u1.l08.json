@@ -1,0 +1,43 @@
+{
+  "id": "ko.a1u1.l08", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 谚文:元音和辅音", "order": 101080,
+  "titleZh": "单元复习:点一杯饮料", "goalZh": "复习全部已学字母,在真实场景里读菜单、用 ○○ 주세요 点饮料",
+  "canDoZh": "能看懂简单的饮料菜单,用 ○○ 주세요 点一杯咖啡、茶、牛奶或果汁",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "ko.juseyo", "kind": "phrase", "pos": "phrase", "text": "주세요", "zh": "请给我……", "features": { "roman": "juseyo" }, "noteZh": "买东西、点餐最有用的一句:名词放前面,주세요 放最后,커피 주세요(请给我咖啡)。别和 주스(果汁)弄混。" },
+    { "id": "ko.yeogiyo", "kind": "phrase", "pos": "phrase", "text": "여기요", "zh": "给您(递东西);这里!(叫服务员)", "features": { "roman": "yeogiyo" }, "noteZh": "店员递东西时说 여기요(给您);在餐厅、咖啡店想叫店员过来,也可以喊 여기요!" },
+    { "id": "ko.uyu", "kind": "word", "pos": "noun", "text": "우유", "zh": "牛奶", "features": { "roman": "uyu" }, "noteZh": "汉字词 牛乳;两个字都用 ㅇ 占位:우 + 유。" },
+    { "id": "ko.juseu", "kind": "word", "pos": "noun", "text": "주스", "zh": "果汁", "features": { "roman": "juseu" }, "noteZh": "外来词 juice;스 是扁唇的 seu,不读“斯”。" }
+  ],
+  "reviewItems": ["ko.keopi", "ko.cha", "ko.ne", "ko.ssi"],
+  "lines": [
+    { "speaker": "jing", "text": "커피, 차, 우유, 주스……", "zh": "(第二天早上,陈静和秀雅走进宿舍楼下的小咖啡店,陈静念柜台上方的菜单)咖啡、茶、牛奶、果汁……", "roman": "Keopi, cha, uyu, juseu……", "items": ["ko.keopi", "ko.cha", "ko.uyu", "ko.juseu"] },
+    { "speaker": "sua", "text": "주스 주세요.", "zh": "(秀雅对老板说)请给我果汁。", "roman": "Juseu juseyo.", "items": ["ko.juseu", "ko.juseyo"] },
+    { "speaker": "choi", "text": "네.", "zh": "好的。", "roman": "Ne.", "items": ["ko.ne"] },
+    { "speaker": "sua", "text": "천징 씨?", "zh": "(转头看陈静)陈静,你呢?", "roman": "Cheonjing ssi?", "items": ["ko.ssi"] },
+    { "speaker": "jing", "text": "커피 주세요.", "zh": "(小声)请给我咖啡。", "roman": "Keopi juseyo.", "items": ["ko.keopi", "ko.juseyo"] },
+    { "speaker": "choi", "text": "네?", "zh": "嗯?您说什么?", "roman": "Ne?", "items": ["ko.ne"] },
+    { "speaker": "jing", "text": "커피 주세요! 우유도 주세요.", "zh": "(大声一点)请给我咖啡!也请给我一点牛奶。", "roman": "Keopi juseyo! Uyudo juseyo.", "items": ["ko.keopi", "ko.juseyo", "ko.uyu"] },
+    { "speaker": "choi", "text": "네.", "zh": "(老板笑着点点头)好的。", "roman": "Ne.", "items": ["ko.ne"] },
+    { "speaker": "choi", "text": "여기요.", "zh": "(过了一会儿,老板把果汁、咖啡和一小杯牛奶放在柜台上)给您。", "roman": "Yeogiyo.", "items": ["ko.yeogiyo"] },
+    { "speaker": "sua", "text": "천징 씨, 여기요.", "zh": "(秀雅把咖啡递给陈静)陈静,给你。", "roman": "Cheonjing ssi, yeogiyo.", "items": ["ko.ssi", "ko.yeogiyo"] },
+    { "speaker": "jing", "text": "여기요! 휴지 주세요.", "zh": "(陈静不小心洒了一点咖啡,朝柜台喊)老板!请给我纸巾。", "roman": "Yeogiyo! Hyuji juseyo.", "items": ["ko.yeogiyo", "ko.hyuji", "ko.juseyo"] },
+    { "speaker": "choi", "text": "네, 여기요.", "zh": "(老板拿着纸巾走过来)好,给您。", "roman": "Ne, yeogiyo.", "items": ["ko.ne", "ko.yeogiyo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静在菜单上念到了哪几样饮料?", "options": ["咖啡、茶、可乐、果汁", "咖啡、牛奶、果汁", "咖啡、茶、牛奶、果汁"], "answer": 2, "explainZh": "第 1 句:커피(咖啡)、차(茶)、우유(牛奶)、주스(果汁)。" },
+    { "prompt": "秀雅点了什么?", "options": ["咖啡", "果汁", "茶"], "answer": 1, "explainZh": "第 2 句:주스 주세요(请给我果汁)。주스 是“果汁”,주세요 是“请给我”,两个词长得像,别弄混。" },
+    { "prompt": "老板用升调说“네?”以后,陈静做了什么?", "options": ["大声又说了一遍,还要了牛奶", "说 아니요", "改点了茶"], "answer": 0, "explainZh": "第 5–7 句:陈静第一次说得太小声,老板说 네?(您说什么?),她就大声说 커피 주세요! 우유도 주세요.(还要一点牛奶)。" },
+    { "prompt": "第 11 句陈静喊“여기요!”,是什么意思?", "options": ["给您", "老板,这里!(叫人过来)", "再见"], "answer": 1, "explainZh": "在店里大声喊 여기요! 是叫店员过来;第 9、12 句老板说的 여기요 是递东西时的“给您”。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.n_juseyo", "titleZh": "名词 + 주세요:请给我……",
+      "bodyZh": "买东西、点饮料最好用的一句:要的东西放前面,주세요 放最后——커피 주세요(请给我咖啡)、휴지 주세요(请给我纸巾)。语序和汉语相反:汉语说“请给我 + 东西”,韩语是“东西 + 주세요”,动词总在句末。不说“一杯”也可以,店员默认是一份。还想要另一样东西,在名词后面加 도(也):우유도 주세요(也请给我牛奶)。别把 주스(果汁)和 주세요 弄混:点果汁就说 주스 주세요。顺便复习三组辅音:주스、주세요 的 ㅈ 是松音,读得轻;차 的 ㅊ 是送气音;아빠 的 ㅃ 是紧音。",
+      "examples": [ { "text": "커피 주세요.", "zh": "请给我咖啡。" }, { "text": "주스 주세요.", "zh": "请给我果汁。" }, { "text": "우유도 주세요.", "zh": "也请给我牛奶。" } ] },
+    { "id": "ko.g.yeogiyo", "titleZh": "여기요 的两种用法",
+      "bodyZh": "여기요 字面是“这里”加上礼貌的 요,有两种常用意思:① 递东西给别人时说,意思是“给您 / 给你”,比如老板把饮料放到柜台上说 여기요;② 在店里想叫店员过来时喊,意思是“(请过来)这里!”,饭馆、咖啡店都常用:여기요! 휴지 주세요。区分靠场合和语调:递东西时语调平稳;叫人时声音大一些,尾音上扬。韩国人很少用“服务员”这类称呼去叫人,叫人还可以说 저기요(第 2 单元学)。",
+      "examples": [ { "text": "여기요.", "zh": "(递东西)给您。" }, { "text": "여기요! 휴지 주세요.", "zh": "(叫店员)老板!请给我纸巾。" }, { "text": "천징 씨, 여기요.", "zh": "陈静,给你。" } ] }
+  ],
+  "review": "draft"
+}
