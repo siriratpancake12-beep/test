@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u18.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118040,
+  "titleZh": "加入校内篮球队", "goalZh": "会报名参加一项运动,问清楚比赛时间、要带什么,用 play / go / do 说自己做什么运动", "canDoZh": "能报名参加一项运动,问清楚比赛时间和要带什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.team", "kind": "word", "pos": "noun", "text": "team", "zh": "队;团队", "features": { "ipa": "tiːm" }, "noteZh": "ea 读长音 /iː/;a basketball team 一支篮球队;Our team needs five players.。" },
+    { "id": "en.player", "kind": "word", "pos": "noun", "text": "player", "zh": "队员;选手", "features": { "ipa": "ˈpleɪɚ" }, "noteZh": "play + -er = 打球的人;a basketball player 篮球运动员;美式结尾卷舌。" },
+    { "id": "en.sport", "kind": "word", "pos": "noun", "text": "sport", "zh": "体育运动;运动项目", "features": { "ipa": "spɔːrt" }, "noteZh": "What sports do you play? 你做什么运动?;sp 之间不加元音,美式 or 卷舌。" },
+    { "id": "en.ball", "kind": "word", "pos": "noun", "text": "ball", "zh": "球", "features": { "ipa": "bɑːl" }, "noteZh": "美式读 /bɑːl/,嘴张大;结尾是“暗 L”,舌尖抬起顶住上齿龈,不要读成“波”。" },
+    { "id": "en.court", "kind": "word", "pos": "noun", "text": "court", "zh": "(篮球、网球等的)场地", "features": { "ipa": "kɔːrt" }, "noteZh": "a basketball court 篮球场;足球场说 field;ou 读 /ɔːr/,美式要卷舌。" },
+    { "id": "en.dragon", "kind": "word", "pos": "noun", "text": "dragon", "zh": "龙", "features": { "ipa": "ˈdræɡən" }, "noteZh": "中国的龙是吉祥的象征,西方传说里的 dragon 常是会喷火的怪兽;dr 连在一起,像“拽”的声母。" },
+    { "id": "en.do_yoga", "kind": "phrase", "pos": "verb", "text": "do yoga", "zh": "做瑜伽", "features": { "ipa": "ˌduː ˈjoʊɡə" }, "noteZh": "瑜伽用 do,不用 play:I do yoga.;yoga 读 /ˈjoʊɡə/,开头是 /j/。" },
+    { "id": "en.intramural", "kind": "word", "pos": "adj", "text": "intramural", "zh": "校内(各队之间)的", "features": { "ipa": "ˌɪntrəˈmjʊrəl" }, "noteZh": "美国大学里学生自己组队、在校内比赛,叫 intramural sports(常简称 IM);重音在 -MU-:in-tra-MU-ral。" }
+  ],
+  "reviewItems": ["en.sign_up", "en.basketball", "en.how_often", "en.bring", "en.soccer"],
+  "lines": [
+    { "speaker": "ethan", "text": "Hi! We want to sign up for intramural basketball.", "zh": "(伊森和磊来到学校健身房的服务台)你好!我们想报名校内篮球赛。", "items": ["en.hi", "en.want", "en.sign_up", "en.intramural", "en.basketball"] },
+    { "speaker": "staff", "text": "Great! Teams of students play on this court. Games are on Saturdays.", "zh": "(工作人员)好啊!就是学生自己组队,在这个球场打。比赛都在周六。", "items": ["en.great", "en.team", "en.student", "en.play", "en.court", "en.game", "en.saturday"] },
+    { "speaker": "staff", "text": "A team needs five players. How many do you have?", "zh": "一个队要五个人。你们有几个?", "items": ["en.team", "en.need", "en.player", "en.how_many", "en.have"] },
+    { "speaker": "ethan", "text": "Two. But Marcus can play. And two guys in our dorm!", "zh": "两个。不过马库斯能来打。还有我们宿舍楼的两个哥们儿!", "items": ["en.can", "en.play", "en.guy", "en.dorm"] },
+    { "speaker": "lei", "text": "What do we need to bring?", "zh": "我们要带什么?", "items": ["en.need", "en.bring"] },
+    { "speaker": "staff", "text": "Basketball shoes and T-shirts in one color. We have balls.", "zh": "篮球鞋,还有全队同一种颜色的 T 恤。球我们这儿有。", "items": ["en.basketball", "en.shoes", "en.t_shirt", "en.color", "en.have", "en.ball"] },
+    { "speaker": "staff", "text": "So, what sports do you play? How often?", "zh": "对了,你们平时做什么运动?多久一次?", "items": ["en.sport", "en.play", "en.how_often"] },
+    { "speaker": "lei", "text": "I play basketball two or three times a week. And I go running.", "zh": "我一周打两三次篮球。我还去跑步。", "items": ["en.play", "en.basketball", "en.week", "en.go", "en.run"] },
+    { "speaker": "ethan", "text": "I play soccer, and I go swimming with Lei. No yoga!", "zh": "我踢足球,还和磊一起去游泳。瑜伽就算了!", "items": ["en.play", "en.soccer", "en.go", "en.swim", "en.do_yoga"] },
+    { "speaker": "staff", "text": "OK! And what's your team name?", "zh": "好!那你们的队叫什么名字?", "items": ["en.team", "en.name"] },
+    { "speaker": "ethan", "text": "We're the International Dragons!", "zh": "我们是“国际飞龙队”!", "items": ["en.dragon"] },
+    { "speaker": "lei", "text": "Dragons? Cool! I love it!", "zh": "龙?酷!我太喜欢了!", "items": ["en.dragon", "en.cool", "en.love"] }
+  ],
+  "questions": [
+    { "prompt": "报名校内篮球赛,一个队要几个人?", "options": ["三个", "五个", "十个"], "answer": 1, "explainZh": "工作人员说 A team needs five players.(一个队要五个人。)" },
+    { "prompt": "工作人员说要带什么?", "options": ["篮球和水", "什么都不用带", "篮球鞋,还有全队同一种颜色的 T 恤"], "answer": 2, "explainZh": "Basketball shoes and T-shirts in one color. We have balls.——球健身房有,不用带。" },
+    { "prompt": "磊多久打一次篮球?", "options": ["一周两三次", "每天都打", "一个月一次"], "answer": 0, "explainZh": "磊说 I play basketball two or three times a week.(我一周打两三次篮球。)" },
+    { "prompt": "伊森给球队起了什么名字?", "options": ["Chinese Dragons", "International Dragons", "Basketball Friends"], "answer": 1, "explainZh": "伊森说 We're the International Dragons!" }
+  ],
+  "grammar": [
+    { "id": "en.g.play_go_do", "titleZh": "play / go / do + 运动;How often…?",
+      "bodyZh": "中文说“打篮球、踢足球、去游泳、做瑜伽”,动词各不相同;英语也要按运动选动词:① 球类用 play,后面不加 the:play basketball、play soccer(不说 play the basketball);② 以 -ing 结尾的运动用 go:go running(去跑步)、go swimming(去游泳),第 7 单元的 go hiking 也是这样;③ 不用球、也不加 -ing 的,常用 do:do yoga(做瑜伽)。问别人做什么运动:What sports do you play?;问多久一次用 How often…?(第 3 单元),回答可以说次数:once a week(一周一次)、twice a week(一周两次)、two or three times a week(一周两三次),三次以上都用 times。发音:basketball 重音在第一个音节 BAS-ket-ball;结尾 ball 的 l 是“暗 L”,舌尖抬起顶住上齿龈,不要读成“波”。",
+      "examples": [
+        { "text": "I play basketball.", "zh": "我打篮球。" },
+        { "text": "I go running.", "zh": "我去跑步。" },
+        { "text": "Do you do yoga?", "zh": "你做瑜伽吗?" },
+        { "text": "How often do you play? — Two or three times a week.", "zh": "你多久打一次?——一周两三次。" }
+      ] }
+  ],
+  "review": "draft"
+}

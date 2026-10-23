@@ -1,0 +1,48 @@
+{
+  "id": "de.a1u19.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-19 旅行准备", "order": 119070,
+  "titleZh": "出发前的最后检查", "goalZh": "会和朋友确认几点在哪儿见、谁带什么、证件和车票带了没有", "canDoZh": "能和朋友确认出发前的事:几点见、谁带什么、证件和车票",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.losgehen", "kind": "word", "pos": "verb", "text": "losgehen", "zh": "开始;出发", "features": { "ipa": "ˈloːsˌɡeːən" }, "noteZh": "口语常说 Morgen geht's los!(明天就出发了!/明天开始了!)geht's = geht es;可分动词,完成时用 sein。" },
+    { "id": "de.fast", "kind": "word", "pos": "adv", "text": "fast", "zh": "差不多;几乎", "features": { "ipa": "fast" }, "noteZh": "Ja, fast.(嗯,差不多了。)Ich bin fast fertig.(我快好了。)a 是短元音;别和英语 fast(快)弄混。" },
+    { "id": "de.aufgeregt", "kind": "word", "pos": "adj", "text": "aufgeregt", "zh": "激动的;紧张的", "features": { "ipa": "ˈaʊ̯fɡəˌʁeːkt" }, "noteZh": "出发前、考试前心里激动或紧张都可以说:Ich bin ein bisschen aufgeregt.;词尾 gt 读 [kt]。" },
+    { "id": "de.hauptbahnhof", "kind": "word", "pos": "noun", "text": "der Hauptbahnhof", "zh": "中央火车站;总站", "features": { "gender": "m", "plural": "die Hauptbahnhöfe", "ipa": "ˈhaʊ̯ptbaːnˌhoːf" }, "noteZh": "haupt-(主要的)+ der Bahnhof;常缩写 Hbf;柏林的 Hauptbahnhof 很大,长途火车大多从这里开。复数变音 die Hauptbahnhöfe。" },
+    { "id": "de.abfahrt", "kind": "word", "pos": "noun", "text": "die Abfahrt", "zh": "出发;开车(时间)", "features": { "gender": "f", "plural": "die Abfahrten", "ipa": "ˈapˌfaːɐ̯t" }, "noteZh": "来自 abfahren;Abfahrt ist um 7:12 Uhr.(7:12 开车。)和 die Ankunft(到达)成对记;复数 die Abfahrten。" },
+    { "id": "de.ticket", "kind": "word", "pos": "noun", "text": "das Ticket", "zh": "票;车票", "features": { "gender": "n", "plural": "die Tickets", "ipa": "ˈtɪkət" }, "noteZh": "口语里车票、门票都可以说 Ticket,和 die Fahrkarte 意思一样;现在很多车票在手机里:Die Tickets habe ich im Handy.;复数 die Tickets。" },
+    { "id": "de.personalausweis", "kind": "word", "pos": "noun", "text": "der Personalausweis", "zh": "(德国人的)身份证", "features": { "gender": "m", "plural": "die Personalausweise", "ipa": "pɛʁzoˈnaːlˌʔaʊ̯svaɪ̯s" }, "noteZh": "德国人坐车、办事常带 Personalausweis,外国人用护照(der Pass);复数 die Personalausweise。ei 读 [aɪ̯]。" },
+    { "id": "de.verpassen", "kind": "word", "pos": "verb", "text": "verpassen", "zh": "错过;没赶上(车)", "features": { "ipa": "fɛɐ̯ˈpasn̩" }, "noteZh": "den Zug verpassen(误了火车)、den Anschluss verpassen(赶不上转车);ver- 不可分,完成时 verpasst。" },
+    { "id": "de.wecken", "kind": "word", "pos": "verb", "text": "wecken", "zh": "叫醒", "features": { "ipa": "ˈvɛkn̩" }, "noteZh": "Ich wecke ihn um fünf.(我五点叫醒他。)闹钟是 der Wecker;w 读 [v],ck 前的 e 是短元音。" }
+  ],
+  "reviewItems": ["de.packen", "de.ladegeraet", "de.treffen", "de.tasche", "de.sonst", "de.vergessen"],
+  "lines": [
+    { "speaker": "lena", "text": "Hallo Wei! Morgen geht's los! Hast du schon gepackt?", "zh": "(出发前一天晚上,莉娜给王伟打电话)喂,王伟!明天就出发啦!你收拾好行李了吗?", "items": ["de.hallo", "de.morgen", "de.losgehen", "de.es", "de.haben", "de.du", "de.schon", "de.packen"] },
+    { "speaker": "wei", "text": "Ja, fast. Ich bin ein bisschen aufgeregt!", "zh": "嗯,差不多了。我有点激动!", "items": ["de.ja", "de.fast", "de.ich", "de.sein", "de.ein_bisschen", "de.aufgeregt"] },
+    { "speaker": "lena", "text": "Ich auch! Wir treffen uns um Viertel vor sieben am Hauptbahnhof.", "zh": "我也是!我们六点三刻在中央火车站见。", "items": ["de.ich", "de.auch", "de.wir", "de.treffen", "de.um", "de.viertel", "de.vor", "de.sieben", "de.am", "de.hauptbahnhof"] },
+    { "speaker": "wei", "text": "Ja. Die Abfahrt ist um 7:12 Uhr, oder?", "zh": "好。火车是 7:12 开,对吧?", "items": ["de.ja", "de.abfahrt", "de.sein", "de.um", "de.sieben", "de.zwoelf", "de.uhr", "de.oder"] },
+    { "speaker": "lena", "text": "Genau. Und du hast die Tickets, oder?", "zh": "对。车票在你那儿,对吧?", "items": ["de.genau", "de.und", "de.du", "de.haben", "de.ticket", "de.oder"] },
+    { "speaker": "wei", "text": "Ja, die sind in meinem Rucksack. Hast du deinen Personalausweis?", "zh": "对,在我的双肩包里。你带身份证了吗?", "items": ["de.ja", "de.sein", "de.in", "de.mein", "de.rucksack", "de.haben", "de.du", "de.dein", "de.personalausweis"] },
+    { "speaker": "lena", "text": "Ja, der ist in meiner Tasche. Und dein Ladegerät? Vergiss es nicht!", "zh": "带了,在我包里。那你的充电器呢?可别忘了!", "items": ["de.ja", "de.sein", "de.in", "de.mein", "de.tasche", "de.und", "de.dein", "de.ladegeraet", "de.vergessen", "de.es", "de.nicht"] },
+    { "speaker": "wei", "text": "Das ist auch schon im Rucksack.", "zh": "也已经放进双肩包了。", "items": ["de.sein", "de.auch", "de.schon", "de.in", "de.rucksack"] },
+    { "speaker": "lena", "text": "Aber Paul hat noch nicht gepackt. Er schläft schon!", "zh": "可是保罗还没收拾行李,他已经睡了!", "items": ["de.aber", "de.haben", "de.noch", "de.nicht", "de.packen", "de.er", "de.schlafen", "de.schon"] },
+    { "speaker": "wei", "text": "Was? Er muss schnell packen, sonst verpassen wir den Zug!", "zh": "什么?他得赶快收拾,不然我们就赶不上火车了!", "items": ["de.was", "de.er", "de.muessen", "de.schnell", "de.packen", "de.sonst", "de.verpassen", "de.wir", "de.zug"] },
+    { "speaker": "lena", "text": "Keine Sorge. Ich wecke ihn um fünf. Dann packt er.", "zh": "别担心。我五点叫醒他,让他那时候收拾。", "items": ["de.keine_sorge", "de.ich", "de.wecken", "de.er", "de.um", "de.fuenf", "de.dann", "de.packen"] },
+    { "speaker": "wei", "text": "Um fünf? Das ist aber früh! Bis morgen, Lena. Gute Nacht!", "zh": "五点?那也太早了!明天见,莉娜。晚安!", "items": ["de.um", "de.fuenf", "de.sein", "de.aber", "de.frueh", "de.bis", "de.morgen", "de.gut", "de.nacht"] }
+  ],
+  "questions": [
+    { "prompt": "他们明天几点在哪儿见面?", "options": ["7:12 在中央火车站", "6:45 在中央火车站", "5 点在莉娜家"], "answer": 1, "explainZh": "Wir treffen uns um Viertel vor sieben am Hauptbahnhof.(六点三刻在中央火车站见。)7:12 是火车开车的时间:Die Abfahrt ist um 7:12 Uhr。" },
+    { "prompt": "车票在哪儿?", "options": ["在王伟的双肩包里", "在莉娜的包里", "在保罗那儿"], "answer": 0, "explainZh": "莉娜问 Du hast die Tickets, oder?,王伟说:Ja, die sind in meinem Rucksack.(在我的双肩包里。)莉娜包里放的是她的身份证。" },
+    { "prompt": "保罗还没收拾行李,莉娜打算怎么办?", "options": ["今天晚上替他收拾", "让他不带行李", "明天五点叫醒他,让他收拾"], "answer": 2, "explainZh": "Ich wecke ihn um fünf. Dann packt er.(我五点叫醒他,让他那时候收拾。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u19_schon_noch_nicht", "titleZh": "出发前检查:Hast du schon gepackt? / Hast du deinen Personalausweis?",
+      "bodyZh": "问别人做好了没有,用现在完成时 + schon(已经):Hast du schon gepackt?(收拾好了吗?)回答:Ja, fast.(差不多了)/ Nein, noch nicht.(还没有)。说别人还没做:Paul hat noch nicht gepackt.;schon 也能放在现在时里:Er schläft schon.(他已经睡了。)\n问对方带没带某样东西,宾语用第四格,物主冠词跟着变:der Personalausweis → deinen Personalausweis,das Ladegerät → dein Ladegerät(中性不变),die Tasche → deine Tasche。人称代词也一样:er → ihn:Ich wecke ihn um fünf.(我五点叫醒他。)\n口语常说 Morgen geht's los!(明天就出发了!)——geht's = geht es,来自可分动词 losgehen。“不然”用 sonst,后面动词在第二位:Er muss schnell packen, sonst verpassen wir den Zug!",
+      "examples": [
+        { "text": "Hast du schon gepackt?", "zh": "你收拾好行李了吗?" },
+        { "text": "Paul hat noch nicht gepackt.", "zh": "保罗还没收拾行李。" },
+        { "text": "Hast du deinen Personalausweis?", "zh": "你带身份证了吗?" },
+        { "text": "Ich wecke ihn um fünf.", "zh": "我五点叫醒他。" }
+      ] }
+  ],
+  "review": "draft"
+}

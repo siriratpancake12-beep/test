@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u12.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112070,
+  "titleZh": "海边租自行车", "goalZh": "会用 We'd like to rent… for… 租自行车,问价格、押金和头盔,说清楚车不合适", "canDoZh": "能在租车店租自行车:说要几辆、租多久,问价格、押金和头盔",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.rent", "kind": "word", "pos": "verb", "text": "rent", "zh": "租;租用", "features": { "ipa": "rent" }, "noteZh": "rent + 东西 + for + 时长:rent three bikes for two hours;rent 也当名词“房租”。r 开头嘴唇先收圆。" },
+    { "id": "en.bike", "kind": "word", "pos": "noun", "text": "bike", "zh": "自行车", "features": { "ipa": "baɪk" }, "noteZh": "bicycle 的口语说法;i 读 /aɪ/,词尾 k 轻轻收住,不加元音。" },
+    { "id": "en.deposit", "kind": "word", "pos": "noun", "text": "deposit", "zh": "押金", "features": { "ipa": "dɪˈpɑːzɪt" }, "noteZh": "租东西常要押金,美国多用银行卡做押金;重音在中间 de-PO-sit,s 读 /z/。" },
+    { "id": "en.helmet", "kind": "word", "pos": "noun", "text": "helmet", "zh": "头盔", "features": { "ipa": "ˈhelmət" }, "noteZh": "重音在前 HEL-met;中间的 l 舌尖要顶住上齿龈,别吞掉读成“嘿 met”。" },
+    { "id": "en.lock", "kind": "word", "pos": "noun", "text": "lock", "zh": "锁", "features": { "ipa": "lɑːk" }, "noteZh": "bike lock 车锁;也能当动词“锁上”:Lock your bike.。美式 o 读 /ɑː/。" },
+    { "id": "en.path", "kind": "word", "pos": "noun", "text": "path", "zh": "小路;(专用)道", "features": { "ipa": "pæθ" }, "noteZh": "bike path 自行车道;th 是清音 /θ/,舌尖放在上下齿之间送气,别读成 s 或 f。" },
+    { "id": "en.safe", "kind": "word", "pos": "adj", "text": "safe", "zh": "安全的", "features": { "ipa": "seɪf" }, "noteZh": "It's very safe. 很安全;送别时说 Have a safe trip!(一路平安)。a 读 /eɪ/。" },
+    { "id": "en.ocean", "kind": "word", "pos": "noun", "text": "ocean", "zh": "海洋;大海", "features": { "ipa": "ˈoʊʃən" }, "noteZh": "美国人说“大海”多用 the ocean(英式常说 the sea);c 在这里读 /ʃ/,重音在前 O-cean。洛杉矶的海是太平洋 the Pacific Ocean。" }
+  ],
+  "reviewItems": ["en.id_like_to", "en.hour", "en.each", "en.fix", "en.too"],
+  "lines": [
+    { "speaker": "clerk", "text": "Hi! Can I help you?", "zh": "(第三天,海边的一家自行车租车店)你好!需要帮忙吗?", "items": ["en.hi", "en.can_i_help_you"] },
+    { "speaker": "lei", "text": "Hi. We'd like to rent three bikes, please.", "zh": "你好。我们想租三辆自行车。", "items": ["en.hi", "en.id_like_to", "en.rent", "en.bike"] },
+    { "speaker": "clerk", "text": "Sure. For how long?", "zh": "好的。租多久?", "items": ["en.sure", "en.how_long"] },
+    { "speaker": "lei", "text": "For two hours. How much is it?", "zh": "两个小时。多少钱?", "items": ["en.hour", "en.how_much"] },
+    { "speaker": "clerk", "text": "It's 15 dollars an hour for each bike.", "zh": "每辆车每小时 15 美元。", "items": ["en.dollar", "en.hour", "en.each", "en.bike"] },
+    { "speaker": "clerk", "text": "And I need a card for the deposit.", "zh": "另外,押金要用一张银行卡。", "items": ["en.need", "en.card", "en.deposit"] },
+    { "speaker": "ethan", "text": "Do we need helmets?", "zh": "要戴头盔吗?", "items": ["en.need", "en.helmet"] },
+    { "speaker": "clerk", "text": "Yes. Helmets and locks are free. Please come back at five.", "zh": "要。头盔和车锁都免费。请五点回来还车。", "items": ["en.helmet", "en.lock", "en.free", "en.come_back"] },
+    { "speaker": "ethan", "text": "I want this black one. It's so cool!", "zh": "我要这辆黑色的,太酷了!", "items": ["en.want", "en.this_one", "en.black", "en.so", "en.cool"] },
+    { "speaker": "lei", "text": "Excuse me. This bike is too big for me.", "zh": "不好意思,这辆车对我来说太大了。", "items": ["en.excuse_me", "en.bike", "en.too", "en.big"] },
+    { "speaker": "clerk", "text": "No problem, I can fix that. The bike path is very safe.", "zh": "没问题,我给你调一下。海边的自行车道很安全。", "items": ["en.no_problem", "en.can", "en.fix", "en.bike", "en.path", "en.safe"] },
+    { "speaker": "sofia", "text": "It's next to the ocean! Let's go to Venice Beach!", "zh": "车道就在海边!我们骑去威尼斯海滩吧!", "items": ["en.next_to", "en.ocean", "en.lets", "en.go"] }
+  ],
+  "questions": [
+    { "prompt": "他们租了几辆车、租多久?", "options": ["两辆,三个小时", "三辆,两个小时", "三辆,一整天"], "answer": 1, "explainZh": "磊说 We'd like to rent three bikes,店员问 For how long?,磊说 For two hours.。" },
+    { "prompt": "租车要多少钱?", "options": ["每辆每小时 15 美元", "每辆每小时 50 美元", "每辆一天 15 美元"], "answer": 0, "explainZh": "店员说 It's 15 dollars an hour for each bike.;fifteen(15)和 fifty(50)要分清。" },
+    { "prompt": "磊的车有什么问题?", "options": ["车锁坏了", "车太小了", "车太大了"], "answer": 2, "explainZh": "磊说 This bike is too big for me.,店员说 I can fix that.(我给你调一下)。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_rent", "titleZh": "租东西:We'd like to rent… for… / $15 an hour",
+      "bodyZh": "租东西用 rent + 东西 + for + 时长:We'd like to rent three bikes for two hours.。We'd like to… 就是第 6 单元的 I'd like to…(我想……,比 I want 客气)换成“我们”。店员问 For how long?(租多久?),回答 For two hours. / For a day.。说“每小时、每天多少钱”用 a:15 dollars an hour(hour 的 h 不发音,开头是元音,所以用 an)、30 dollars a day。租东西常要押金:I need a card for the deposit.。东西不合适,就用第 6 单元的 too + 形容词:This bike is too big for me.。",
+      "examples": [
+        { "text": "We'd like to rent three bikes for two hours.", "zh": "我们想租三辆自行车,租两个小时。" },
+        { "text": "It's 15 dollars an hour.", "zh": "每小时 15 美元。" },
+        { "text": "This bike is too big for me.", "zh": "这辆车对我来说太大了。" }
+      ] },
+    { "id": "en.g.u12_helmet_fifteen", "titleZh": "helmet 里的 l,fifteen 和 fifty",
+      "bodyZh": "helmet(头盔)中间的 l 很容易被吞掉,读成“嘿 met”。读的时候舌尖先顶住上齿龈,发出清楚的 l,再接 m:HEL-met。听价钱时要分清 fifteen(15,重音在后 fif-TEEN,结尾的 n 要清楚)和 fifty(50,重音在前 FIF-ty),第 6 单元练过;听不清就问 Fifteen or fifty?。",
+      "examples": [
+        { "text": "Helmets are free.", "zh": "头盔免费。" },
+        { "text": "It's fifteen dollars, not fifty.", "zh": "是 15 美元,不是 50。" }
+      ] }
+  ],
+  "review": "draft"
+}

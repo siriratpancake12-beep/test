@@ -1,0 +1,183 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-10 Happy holidays", "cefr": "A1", "themeZh": "寒假在西雅图:说月份和日期、生日和出生年份,圣诞节交换礼物,给索菲亚过生日,新年倒计时和新年计划" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u10.l01", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110010,
+      "titleZh": "十二个月", "goalZh": "会说十二个月,用 in + 月份说节日在几月",
+      "canDoZh": "能说出十二个月,说清楚某个节日在几月",
+      "scenarioZh": "假期里咖啡馆关门,磊和索菲亚(sofia)在宿舍休息室给大家做一张新一年的节日日历:先一起把十二个月念一遍,再填节日——圣诞节在十二月,万圣节在十月,感恩节在十一月(墨西哥和中国都不过);磊说中国最大的节日在一月或二月(春节,第 4 课细讲)。两人说各自喜欢哪个月、为什么。(情人节、美国国庆放在读物 r01。)",
+      "grammarFocusZh": "月份 January–December,首字母大写;in + 月份(in December);When is…? — It's in…。发音:February 美式常读 /ˈfebjueri/(第一个 r 常省略);January、February 重音在前,July 重音在后。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.february", "kind": "word", "pos": "propn", "text": "February", "zh": "二月", "features": { "ipa": "ˈfebjueri" }, "noteZh": "重音在前 FEB-;美式口语里第一个 r 常常不读,读成 /ˈfebjueri/;缩写 Feb.。" },
+        { "id": "en.march", "kind": "word", "pos": "propn", "text": "March", "zh": "三月", "features": { "ipa": "mɑːrtʃ" }, "noteZh": "首字母大写;ar 美式卷舌,结尾 ch /tʃ/ 收住不加元音;in March(在三月)。" },
+        { "id": "en.april", "kind": "word", "pos": "propn", "text": "April", "zh": "四月", "features": { "ipa": "ˈeɪprəl" }, "noteZh": "重音在前 A-pril,A 读 /eɪ/;磊的生日在四月。" },
+        { "id": "en.may", "kind": "word", "pos": "propn", "text": "May", "zh": "五月", "features": { "ipa": "meɪ" }, "noteZh": "读 /meɪ/;只有三个字母,一般不缩写;小写的 may 是另一个词(“可能”)。" },
+        { "id": "en.june", "kind": "word", "pos": "propn", "text": "June", "zh": "六月", "features": { "ipa": "dʒuːn" }, "noteZh": "u 读长音 /uː/;别和 July 搞混:June 是六月,July 是七月。" },
+        { "id": "en.july", "kind": "word", "pos": "propn", "text": "July", "zh": "七月", "features": { "ipa": "dʒʊˈlaɪ" }, "noteZh": "重音在后 ju-LY,和别的月份不一样;July 4th 是美国国庆。" },
+        { "id": "en.august", "kind": "word", "pos": "propn", "text": "August", "zh": "八月", "features": { "ipa": "ˈɑːɡəst" }, "noteZh": "Au 读 /ɑː/,重音在前 AU-gust;in August(在八月)。" },
+        { "id": "en.september", "kind": "word", "pos": "propn", "text": "September", "zh": "九月", "features": { "ipa": "sepˈtembɚ" }, "noteZh": "重音在第二个音节 sep-TEM-ber;很多美国大学八月底或九月开学。" },
+        { "id": "en.october", "kind": "word", "pos": "propn", "text": "October", "zh": "十月", "features": { "ipa": "ɑːkˈtoʊbɚ" }, "noteZh": "重音在第二个音节 oc-TO-ber;万圣节是 October 31st。" },
+        { "id": "en.november", "kind": "word", "pos": "propn", "text": "November", "zh": "十一月", "features": { "ipa": "noʊˈvembɚ" }, "noteZh": "重音在第二个音节 no-VEM-ber;感恩节在十一月。" }
+      ],
+      "reviewItems": ["en.january", "en.december", "en.christmas", "en.halloween", "en.thanksgiving"]
+    },
+    {
+      "id": "en.a1u10.l02", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110020,
+      "titleZh": "你的生日是几月几号?", "goalZh": "会用序数词说日期,问别人的生日,看懂美式日期",
+      "canDoZh": "能问别人的生日,说出完整的日期,看懂美式日期的写法",
+      "scenarioZh": "艾米(amy)在手机日历上做朋友们的生日清单,问 When's your birthday?:磊是 4 月 18 日,他又问索菲亚,索菲亚是 12 月 28 日——就在这个假期!索菲亚先走了,艾米和磊马上商量悄悄给她办个惊喜派对。磊看到清单上写着 4/18,艾米解释美国写日期是'月/日/年',磊说中国是年在最前面。",
+      "grammarFocusZh": "序数词 first、second、third、fourth… thirty-first;日期读法 April 18th = April eighteenth;on + 日期(on December 28th);美式写法'月/日/年',和中文'年/月/日'的顺序不同。发音:fourth、fifth、sixth、twelfth 词尾的 /θ/ 要咬舌,fifth、twelfth 里的辅音连缀不能吞。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+      "newItems": [
+        { "id": "en.list", "kind": "word", "pos": "noun", "text": "list", "zh": "清单", "features": { "ipa": "lɪst" }, "noteZh": "make a list(列个清单);i 读短音 /ɪ/,结尾 st 不加元音。" },
+        { "id": "en.calendar", "kind": "word", "pos": "noun", "text": "calendar", "zh": "日历", "features": { "ipa": "ˈkæləndɚ" }, "noteZh": "重音在前 CAL-en-dar,第一个 a 读 /æ/;on my calendar(在我的日历上)。" },
+        { "id": "en.whens_your_birthday", "kind": "phrase", "pos": "phrase", "text": "When's your birthday", "zh": "你的生日是哪天?", "features": { "ipa": "ˌwenz jɚ ˈbɝːθdeɪ" }, "noteZh": "When's = When is;回答 It's on April 18th.,也可以只说日期;反问 And you? 就行。" },
+        { "id": "en.surprise", "kind": "word", "pos": "noun", "text": "surprise", "zh": "惊喜;意外", "features": { "ipa": "sɚˈpraɪz" }, "noteZh": "重音在后 sur-PRISE,词尾 s 读 /z/;a surprise party(惊喜派对);进门时大家喊 Surprise!(惊喜!)" },
+        { "id": "en.secret", "kind": "word", "pos": "noun", "text": "secret", "zh": "秘密", "features": { "ipa": "ˈsiːkrət" }, "noteZh": "It's a secret!(先保密!)重音在前 SE-cret,第一个 e 读 /iː/。" },
+        { "id": "en.date", "kind": "word", "pos": "noun", "text": "date", "zh": "日期", "features": { "ipa": "deɪt" }, "noteZh": "What's the date today?(今天几号?)和问星期几的 What day is it? 不一样;a 读 /eɪ/。" },
+        { "id": "en.year", "kind": "word", "pos": "noun", "text": "year", "zh": "年", "features": { "ipa": "jɪr" }, "noteZh": "开头是 /j/,舌面抬高,和 ear /ɪr/ 不同;next year(明年)、every year(每年)。" },
+        { "id": "en.different", "kind": "word", "pos": "adj", "text": "different", "zh": "不同的", "features": { "ipa": "ˈdɪfɚənt" }, "noteZh": "重音在前,口语常读成两个音节 “DIF-rent”;It's different!(不一样!)" }
+      ],
+      "reviewItems": ["en.birthday", "en.party", "en.sounds_good", "en.see_you_later", "en.december"]
+    },
+    {
+      "id": "en.a1u10.l03", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110030,
+      "titleZh": "圣诞节交换礼物", "goalZh": "会用 This is for you. / You didn't have to! 送礼物、收礼物",
+      "canDoZh": "能参加一次交换礼物活动:抽签、打听对方喜欢什么、送礼物和道谢",
+      "scenarioZh": "留在西雅图过节的磊、索菲亚、艾米和马库斯,在艾米的提议下玩'秘密圣诞老人'(Secret Santa):抽签决定给谁买礼物,每份不超过 20 美元。磊抽到马库斯,偷偷问艾米他喜欢什么;平安夜大家在宿舍休息室的圣诞树下吃饼干、喝热巧克力、交换礼物,马库斯拆开磊送的巧克力和一件印着他乐队名字 The Rainy Days 的 T 恤,说 You didn't have to!,然后弹吉他,大家唱圣诞歌。",
+      "grammarFocusZh": "送礼和收礼的说法:This is for you. / I got this for you. / Thank you, I love it!;Merry Christmas! / Happy holidays!(美国人常说后者,照顾不过圣诞节的人);get + 东西 + for + 人。发音:Christmas 的 t 不发音 /ˈkrɪsməs/。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+      "newItems": [
+        { "id": "en.secret_santa", "kind": "phrase", "pos": "noun", "text": "Secret Santa", "zh": "秘密圣诞老人(抽签互送礼物)", "features": { "ipa": "ˌsiːkrət ˈsæntə" }, "noteZh": "朋友、同事之间抽签,给抽到的人偷偷准备一份小礼物,一般定一个价钱上限;I have Marcus for Secret Santa.(我抽到了马库斯。)" },
+        { "id": "en.christmas_eve", "kind": "phrase", "pos": "propn", "text": "Christmas Eve", "zh": "平安夜", "features": { "ipa": "ˌkrɪsməs ˈiːv" }, "noteZh": "12 月 24 日晚上;Eve /iːv/ 指节日的前一天晚上,New Year's Eve 就是除夕夜。" },
+        { "id": "en.cookie", "kind": "word", "pos": "noun", "text": "cookie", "zh": "饼干;曲奇", "features": { "ipa": "ˈkʊki" }, "noteZh": "美式说 cookie,英式说 biscuit;oo 读短音 /ʊ/;复数 cookies。" },
+        { "id": "en.candy", "kind": "word", "pos": "noun", "text": "candy", "zh": "糖果", "features": { "ipa": "ˈkændi" }, "noteZh": "美式说 candy,英式说 sweets;一般不加 s:a lot of candy。" },
+        { "id": "en.chocolate", "kind": "word", "pos": "noun", "text": "chocolate", "zh": "巧克力", "features": { "ipa": "ˈtʃɑːklət" }, "noteZh": "美式常读成两个音节 “CHOC-let”;hot chocolate 是热巧克力(饮料)。" },
+        { "id": "en.this_is_for_you", "kind": "phrase", "pos": "phrase", "text": "This is for you", "zh": "这是给你的", "features": { "ipa": "ˌðɪs ɪz fɚ ˈjuː" }, "noteZh": "送礼物的固定说法;也可以说 I got this for you.(这是我给你买的。)" },
+        { "id": "en.you_didnt_have_to", "kind": "phrase", "pos": "phrase", "text": "You didn't have to", "zh": "你太客气了;不用这样破费的", "features": { "ipa": "juː ˈdɪdənt hæv tuː" }, "noteZh": "收到礼物时客气地说,是道谢,不是拒绝,后面常跟 Thank you!;didn't 的 t 很轻。" },
+        { "id": "en.song", "kind": "word", "pos": "noun", "text": "song", "zh": "歌", "features": { "ipa": "sɑːŋ" }, "noteZh": "o 读 /ɑː/,结尾 ng 是 /ŋ/,不要读成 n;a Christmas song(圣诞歌)。" }
+      ],
+      "reviewItems": ["en.music", "en.t_shirt", "en.band", "en.concert", "en.guitar", "en.fun"]
+    },
+    {
+      "id": "en.a1u10.l04", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110040,
+      "titleZh": "我是属狗的", "goalZh": "会读年份,用 be born 说出生的年份、地点和日期,简单介绍生肖",
+      "canDoZh": "能说出自己哪年、在哪儿出生,并用英语简单介绍中国的生肖",
+      "scenarioZh": "交换完礼物,大家聊起年龄。马库斯(marcus)问 When were you born?;磊说自己 2006 年生在成都,是狗年,并解释生肖:每年有一个动物,一共十二个,生肖年从春节开始算,春节在一月或二月。艾米 2005 年出生,属鸡,很开心;索菲亚也是 2005 年出生(12 月 28 日),她的生日只剩四天;马库斯笑磊年轻,说自己 2003 年出生,磊告诉他属羊。",
+      "grammarFocusZh": "年份读法:1998 = nineteen ninety-eight,2006 = two thousand six 或 twenty oh-six,2026 = twenty twenty-six;be born:I was born in 2006 / in Chengdu / on April 18th(年份、城市用 in,具体日期用 on);the Year of the Dog。发音:thousand /ˈθaʊzənd/ 的 th 和 /z/。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+      "newItems": [
+        { "id": "en.be_born", "kind": "phrase", "pos": "verb", "text": "be born", "zh": "出生", "features": { "ipa": "bi ˈbɔːrn" }, "noteZh": "一定要有 be:I was born in 2006.(不说 I born… 也不说 I am born…);问 When were you born?。" },
+        { "id": "en.year_of_the_dog", "kind": "phrase", "pos": "noun", "text": "Year of the Dog", "zh": "狗年(属狗)", "features": { "ipa": "ˌjɪr əv ðə ˈdɑːɡ" }, "noteZh": "生肖年都这么说:the Year of the + 动物,前面加 the;the Year of the Rooster(鸡年)、the Year of the Goat(羊年)。" },
+        { "id": "en.zodiac", "kind": "word", "pos": "noun", "text": "zodiac", "zh": "生肖;星座", "features": { "ipa": "ˈzoʊdiæk" }, "noteZh": "the Chinese zodiac 是中国的十二生肖(西方的 zodiac 指十二星座);z 要带声,重音在前 ZO-diac。" },
+        { "id": "en.animal", "kind": "word", "pos": "noun", "text": "animal", "zh": "动物", "features": { "ipa": "ˈænəməl" }, "noteZh": "重音在前 AN-i-mal,a 读 /æ/;twelve animals(十二种动物)。" },
+        { "id": "en.chinese_new_year", "kind": "phrase", "pos": "propn", "text": "Chinese New Year", "zh": "春节", "features": { "ipa": "ˌtʃaɪniːz nuː ˈjɪr" }, "noteZh": "也叫 Lunar New Year 或 Spring Festival;按农历算,每年在一月底到二月中。" },
+        { "id": "en.rooster", "kind": "word", "pos": "noun", "text": "rooster", "zh": "公鸡;(生肖)鸡", "features": { "ipa": "ˈruːstɚ" }, "noteZh": "生肖里的“鸡”英语叫 Rooster;oo 读长音 /uː/;鸡肉是第 4 单元的 chicken。" },
+        { "id": "en.young", "kind": "word", "pos": "adj", "text": "young", "zh": "年轻的", "features": { "ipa": "jʌŋ" }, "noteZh": "ou 读 /ʌ/,结尾 ng 是 /ŋ/;You're so young!(你好年轻!)第 2 单元的 younger 是它的比较级。" },
+        { "id": "en.goat", "kind": "word", "pos": "noun", "text": "goat", "zh": "山羊;(生肖)羊", "features": { "ipa": "ɡoʊt" }, "noteZh": "生肖里的“羊”英语一般叫 Goat(也有人说 Sheep);oa 读 /oʊ/,词尾 t 收住。" }
+      ],
+      "reviewItems": ["en.what_does_that_mean", "en.start", "en.me_too", "en.december", "en.february"]
+    },
+    {
+      "id": "en.a1u10.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110045,
+      "titleZh": "美国节日日历", "goalZh": "会看节日日历上的日期,读懂'某月的第几个星期几'",
+      "canDoZh": "能看懂一张节日日历,说出每个节日的日期,读懂'十一月的第四个星期四'这类说法",
+      "scenarioZh": "体裁:日历(国际学生办公室发的'2026 年美国节日一览')。说话人 narrator。按月份列出:新年 1 月 1 日、马丁·路德·金纪念日(一月的第三个星期一,2026 年是 1 月 19 日)、情人节 2 月 14 日(这年是星期六)、春节 2 月 17 日(晚上有派对)、国庆 7 月 4 日(晚上放烟花)、万圣节 10 月 31 日、感恩节(十一月的第四个星期四,2026 年是 11 月 26 日,周四周五不上课)、圣诞节 12 月 25 日(在寒假里)。共 12 行。",
+      "grammarFocusZh": "复习月份、序数词和日期读法;the fourth Thursday in November 这类说法;理解题考日期和'哪天不上课'。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
+      "newItems": [
+        { "id": "en.new_years_day", "kind": "phrase", "pos": "propn", "text": "New Year's Day", "zh": "元旦(1 月 1 日)", "features": { "ipa": "ˌnuː jɪrz ˈdeɪ" }, "noteZh": "New Year's 里的 's 不能漏;美国这天放假。" },
+        { "id": "en.valentines_day", "kind": "phrase", "pos": "propn", "text": "Valentine's Day", "zh": "情人节(2 月 14 日)", "features": { "ipa": "ˈvæləntaɪnz deɪ" }, "noteZh": "重音在前 VAL-en-tine's;美国中小学生这天也会互送卡片和糖果。" },
+        { "id": "en.independence_day", "kind": "phrase", "pos": "propn", "text": "Independence Day", "zh": "美国国庆日(7 月 4 日)", "features": { "ipa": "ˌɪndɪˈpendəns deɪ" }, "noteZh": "口语里常叫 the Fourth of July;重音在 -PEN-;这天晚上很多城市放烟花。" },
+        { "id": "en.fireworks", "kind": "word", "pos": "noun", "text": "fireworks", "zh": "烟花", "features": { "ipa": "ˈfaɪrwɝːks" }, "noteZh": "一般用复数;fire + works,重音在前;美国国庆和跨年夜常放烟花。" }
+      ],
+      "reviewItems": ["en.costume", "en.halloween", "en.thanksgiving", "en.party"]
+    },
+    {
+      "id": "en.a1u10.l05", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110050,
+      "titleZh": "给索菲亚的生日惊喜", "goalZh": "会用 I can… / Can you…? 分工,说清楚活动的日期和时间",
+      "canDoZh": "能和朋友一起计划一次活动:定日期和时间、分工、保密",
+      "scenarioZh": "(规划里这是 10-6;因为生日在 12 月 28 日、跨年在 31 日,按时间顺序挪到 10-5。)索菲亚 12 月 28 日过生日,家人都在墨西哥。12 月 26 日,艾米、磊和马库斯悄悄商量在索菲亚那栋楼的休息室给她办惊喜派对:28 号星期天晚上 7 点,艾米烤蛋糕,马库斯弹吉他,磊买零食、果汁和 20 根蜡烛,还负责约索菲亚来休息室'看电影';大家先藏起来。几个人一再互相提醒:It's a secret!。",
+      "grammarFocusZh": "用 can 分工(I can bake a cake. Can you get snacks?);日期和时间一起说:on Sunday, the 28th, at seven;复习 Let's… 和邀请。发音:surprise 重音在后 sur-PRISE,词尾是 /z/。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.lounge", "kind": "word", "pos": "noun", "text": "lounge", "zh": "休息室", "features": { "ipa": "laʊndʒ" }, "noteZh": "宿舍楼、酒店里的公共休息室;ou 读 /aʊ/,结尾 ge 读 /dʒ/。" },
+        { "id": "en.bake", "kind": "word", "pos": "verb", "text": "bake", "zh": "烤(蛋糕、面包)", "features": { "ipa": "beɪk" }, "noteZh": "bake a cake(烤蛋糕);和 cake 押韵 /eɪk/,词尾 k 收住不加元音。" },
+        { "id": "en.cake", "kind": "word", "pos": "noun", "text": "cake", "zh": "蛋糕", "features": { "ipa": "keɪk" }, "noteZh": "a 读 /eɪ/;birthday cake(生日蛋糕)。" },
+        { "id": "en.snack", "kind": "word", "pos": "noun", "text": "snack", "zh": "零食;小吃", "features": { "ipa": "snæk" }, "noteZh": "a 读 /æ/,嘴张大;snacks and juice(零食和果汁)。" },
+        { "id": "en.juice", "kind": "word", "pos": "noun", "text": "juice", "zh": "果汁", "features": { "ipa": "dʒuːs" }, "noteZh": "ui 读长音 /uː/,词尾是清音 /s/;orange juice(橙汁)。" },
+        { "id": "en.candle", "kind": "word", "pos": "noun", "text": "candle", "zh": "蜡烛", "features": { "ipa": "ˈkændəl" }, "noteZh": "重音在前,结尾的 l 自成一个音节 “CAN-dl”;twenty candles(二十根蜡烛)。" },
+        { "id": "en.balloon", "kind": "word", "pos": "noun", "text": "balloon", "zh": "气球", "features": { "ipa": "bəˈluːn" }, "noteZh": "重音在后 bal-LOON;拼写是两个 l、两个 o。" },
+        { "id": "en.hide", "kind": "word", "pos": "verb", "text": "hide", "zh": "藏;躲", "features": { "ipa": "haɪd" }, "noteZh": "过去式 hid;i 读 /aɪ/,词尾 d 轻轻收住。" }
+      ],
+      "reviewItems": ["en.surprise", "en.secret", "en.invite", "en.perfect", "en.got_it"]
+    },
+    {
+      "id": "en.a1u10.l06", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110060,
+      "titleZh": "生日派对上", "goalZh": "会说生日派对上的祝福和固定说法,用感叹句的语调",
+      "canDoZh": "能在生日派对上说祝福、唱生日歌、送卡片,回应过生日的朋友",
+      "scenarioZh": "(规划里这是 10-7,按时间顺序挪到 10-6。)28 号晚上,索菲亚推门进来,大家喊 Surprise!,她激动得快哭了,马库斯给她一个大大的拥抱。马库斯弹吉他,大家唱生日歌,她许愿、吹灭 20 根蜡烛;艾米切蛋糕;磊送上一张卡片,上面用刚学的西班牙语写着'生日快乐',索菲亚笑着教他读。",
+      "grammarFocusZh": "派对用语 Surprise! / Make a wish! / Blow out the candles! / Happy birthday!;蛋糕、蜡烛、卡片等派对词;so 加强语气(That's so sweet!)。发音:感叹句起音高、句末降调(Happy BIRTHday! ↘)。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 24.5,
+      "newItems": [
+        { "id": "en.cry", "kind": "word", "pos": "verb", "text": "cry", "zh": "哭", "features": { "ipa": "kraɪ" }, "noteZh": "过去式 cried;Don't cry!(别哭!)cr 连在一起读,中间不加元音。" },
+        { "id": "en.hug", "kind": "word", "pos": "noun", "text": "hug", "zh": "拥抱", "features": { "ipa": "hʌɡ" }, "noteZh": "a big hug(一个大大的拥抱);也能当动词:hug me(抱抱我);u 读 /ʌ/。" },
+        { "id": "en.make_a_wish", "kind": "phrase", "pos": "phrase", "text": "make a wish", "zh": "许愿", "features": { "ipa": "ˌmeɪk ə ˈwɪʃ" }, "noteZh": "过生日吹蜡烛前,大家会说 Make a wish!(许个愿吧!)wish 的 sh 嘴唇要往前突。" },
+        { "id": "en.blow_out", "kind": "phrase", "pos": "verb", "text": "blow out", "zh": "吹灭", "features": { "ipa": "ˌbloʊ ˈaʊt" }, "noteZh": "Blow out the candles!(吹蜡烛!)过去式 blew out;连读成 “blo-wout”。" },
+        { "id": "en.cut", "kind": "word", "pos": "verb", "text": "cut", "zh": "切;剪", "features": { "ipa": "kʌt" }, "noteZh": "过去式还是 cut;cut the cake(切蛋糕);u 读 /ʌ/,词尾 t 收住。" },
+        { "id": "en.birthday_card", "kind": "phrase", "pos": "noun", "text": "birthday card", "zh": "生日贺卡", "features": { "ipa": "ˈbɝːθdeɪ kɑːrd" }, "noteZh": "card 在这里是“卡片、贺卡”,和第 4 单元的 card(银行卡)是同一个词的不同意思;重音在 BIRTH-。" },
+        { "id": "en.sweet", "kind": "word", "pos": "adj", "text": "sweet", "zh": "甜的;(人)贴心的", "features": { "ipa": "swiːt" }, "noteZh": "That's so sweet!(你真贴心!)ee 读长音 /iː/;sw 开头双唇先收圆。" },
+        { "id": "en.wonderful", "kind": "word", "pos": "adj", "text": "wonderful", "zh": "很棒的;太好了", "features": { "ipa": "ˈwʌndɚfəl" }, "noteZh": "重音在前 WON-der-ful,o 读 /ʌ/;a wonderful birthday(一个特别棒的生日)。" }
+      ],
+      "reviewItems": ["en.surprise", "en.birthday", "en.candle", "en.cake", "en.this_is_for_you"]
+    },
+    {
+      "id": "en.a1u10.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110070,
+      "titleZh": "新年倒计时", "goalZh": "会和朋友倒数迎接新年,用 be going to 说新年计划",
+      "canDoZh": "能和朋友一起倒数迎接新年,说出自己的新年计划",
+      "scenarioZh": "(规划里这是 10-5,按时间顺序挪到 10-7。)12 月 31 日晚上,磊、索菲亚和艾米去市中心太空针塔附近看烟花,马库斯的乐队在附近的一场跨年音乐会上演出。零点大家一起倒数:Ten, nine, eight… Happy New Year!,烟花又响又好看。随后每人说新年计划:磊要每天说英语、学会游泳;索菲亚要每周去跳舞;艾米说她今年要开始学中文——磊惊喜地说可以当她的中文老师,还说 I promise.,索菲亚夸大家的目标都很棒。",
+      "grammarFocusZh": "复习 be going to 说计划(This year, I'm going to…);New Year's Eve(除夕夜)和 New Year's Day(元旦);a New Year's resolution(新年计划)。发音:year /jɪr/ 开头是 /j/,舌面抬高,别读成 ear /ɪr/;Happy New Year 重音落在 HAP- 和 YEAR。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.special", "kind": "word", "pos": "adj", "text": "special", "zh": "特别的", "features": { "ipa": "ˈspeʃəl" }, "noteZh": "重音在前 SPE-cial,ci 读 /ʃ/;a special night(一个特别的夜晚)。" },
+        { "id": "en.new_years_eve", "kind": "phrase", "pos": "propn", "text": "New Year's Eve", "zh": "除夕夜(12 月 31 日晚上)", "features": { "ipa": "ˌnuː jɪrz ˈiːv" }, "noteZh": "美国人常在这天晚上聚会、倒数、看烟花;'s 不能漏。" },
+        { "id": "en.count", "kind": "word", "pos": "verb", "text": "count", "zh": "数(数)", "features": { "ipa": "kaʊnt" }, "noteZh": "Let's count!(一起数!)ou 读 /aʊ/;倒数可以说 count down。" },
+        { "id": "en.happy_new_year", "kind": "phrase", "pos": "phrase", "text": "Happy New Year", "zh": "新年快乐", "features": { "ipa": "ˌhæpi nuː ˈjɪr" }, "noteZh": "一般不加 a;重音落在 HAP- 和 YEAR 上;year 开头的 /j/ 要发出来。" },
+        { "id": "en.loud", "kind": "word", "pos": "adj", "text": "loud", "zh": "吵的;声音大的", "features": { "ipa": "laʊd" }, "noteZh": "ou 读 /aʊ/,词尾 d 轻轻收住;The fireworks are so loud!(烟花好响!)" },
+        { "id": "en.new_years_resolution", "kind": "phrase", "pos": "noun", "text": "New Year's resolution", "zh": "新年计划;新年决心", "features": { "ipa": "ˌnuː jɪrz ˌrezəˈluːʃən" }, "noteZh": "a New Year's resolution,复数 resolutions;resolution 重音在 -LU-。" },
+        { "id": "en.goal", "kind": "word", "pos": "noun", "text": "goal", "zh": "目标", "features": { "ipa": "ɡoʊl" }, "noteZh": "That's a great goal!(这个目标真好!)oa 读 /oʊ/,词尾 l 舌尖顶住上齿龈;足球里的“进球”也是 goal。" },
+        { "id": "en.promise", "kind": "word", "pos": "verb", "text": "promise", "zh": "保证;答应", "features": { "ipa": "ˈprɑːmɪs" }, "noteZh": "I promise.(我保证。)重音在前 PROM-ise;o 读 /ɑː/。" }
+      ],
+      "reviewItems": ["en.going_to", "en.learn", "en.swim", "en.speak", "en.fireworks", "en.near_here"]
+    },
+    {
+      "id": "en.a1u10.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110080,
+      "titleZh": "单元复习:新年第一天的电话", "goalZh": "综合运用月份、日期、过去时和 be going to,在电话里讲节日、定出行日期",
+      "canDoZh": "能在电话里回顾节日里做过的事,并和朋友定下一次出行的日期",
+      "scenarioZh": "1 月 1 日,伊森(ethan)从洛杉矶打来电话拜年。他问磊圣诞节、索菲亚的生日派对和跨年夜过得怎么样,磊一一讲给他听。伊森再次邀请磊和索菲亚来洛杉矶,和磊在一起的索菲亚也加进来,三人在电话里定下日期:1 月 4 日飞过去、8 日回来,伊森说那几天都是晴天、七十多度。对话 14 句。",
+      "grammarFocusZh": "复习月份、序数词和日期,过去时(How was…? / We had…)和 be going to;定日期 from January 4th to January 8th。发音:电话里报日期时放慢、重读数字。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 21,
+      "newItems": [
+        { "id": "en.fly", "kind": "word", "pos": "verb", "text": "fly", "zh": "坐飞机去;飞", "features": { "ipa": "flaɪ" }, "noteZh": "过去式 flew;fly to LA(飞去洛杉矶);fl 连在一起读,中间不加元音。" }
+      ],
+      "reviewItems": ["en.secret_santa", "en.surprise", "en.new_years_eve", "en.fireworks", "en.cry", "en.come_back"]
+    },
+    {
+      "id": "en.a1u10.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110085,
+      "titleZh": "磊的新年计划", "goalZh": "会读一份计划清单,说出每条计划和理由",
+      "canDoZh": "能读懂一份新年计划清单,说出每条计划和理由,并写出自己的三条",
+      "scenarioZh": "体裁:清单(写在新笔记本的第一页)。说话人 lei(第一人称)。《My New Year's Resolutions》:每天和别人说英语、每个周末去跑步、学会游泳(伊森教他)、每个星期天和爸妈视频、每周给艾米当中文老师(她也当他的英语老师)、一天只喝一杯咖啡(他自己都不太相信)、多拍西雅图的照片……每条后面一句简单的理由。共 11 句。",
+      "grammarFocusZh": "复习 be going to 和 every day、every Sunday、every weekend 这些表示频率的说法;清单写法:序号 + 动词原形。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 12.5,
+      "newItems": [
+        { "id": "en.important", "kind": "word", "pos": "adj", "text": "important", "zh": "重要的", "features": { "ipa": "ɪmˈpɔːrtənt" }, "noteZh": "重音在第二个音节 im-POR-tant;美式口语里 -tant 的 t 常常很轻。" }
+      ],
+      "reviewItems": ["en.video_call", "en.miss", "en.take_pictures", "en.weekend", "en.run"]
+    }
+  ]
+}

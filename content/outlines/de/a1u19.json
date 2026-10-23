@@ -128,7 +128,7 @@
       "titleZh": "海边:海滩、灯塔和风",
       "goalZh": "会说海边常见的地方和天气,看懂海滩上旗子的意思",
       "canDoZh": "能说出海边常见的地方和天气,看懂海滩上的提示",
-      "scenarioZh": "出发前一天,莉娜在手机上给大家看 Warnemünde 的照片和天气:海滩、海(das Meer / die See)、灯塔、港口、沙丘(die Düne);沙滩上有很多沙子(der Sand),海边常常有风(der Wind),18 到 25 度,有时多云(bewölkt);海滩上有旗子(die Flagge),红旗表示危险、不能游泳;索菲娅说有风的时候浪(die Welle)很大,王伟游得不好可能有危险(gefährlich),王伟说他就在海滩上待着,不过一定要看看海。说话人:lena、wei、sofia。",
+      "scenarioZh": "出发前几天,莉娜来 WG,在手机上给大家看 Warnemünde 的照片和天气:海滩、海(das Meer / die See)、灯塔、港口、沙丘(die Düne);沙滩上有很多沙子(der Sand),海边常常有风(der Wind),手机上说 18 到 25 度,有时多云(bewölkt);海滩上有旗子(die Flagge),红旗表示不能游泳;索菲娅说有风的时候浪(die Welle)很大,海就危险(gefährlich);王伟游得不好,说他就在海滩上待着,不过一定要看看海;索菲娅提醒他别忘了帽子和太阳镜。说话人:lena、wei、sofia。",
       "grammarFocusZh": "die See(海)和 der See(湖)性不同、意思不同;天气的说法复习(Es gibt viel Wind / Es ist bewölkt / Es sind 18 bis 25 Grad);an der See / am Meer(先当固定说法)",
       "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
@@ -150,7 +150,7 @@
       "canDoZh": "能和朋友确认出发前的事:几点见、谁带什么、证件和车票",
       "scenarioZh": "24 日晚上,莉娜和王伟打电话做最后检查:明天要出发了(Morgen geht's los!),王伟有点激动(aufgeregt);6:45 在中央火车站(der Hauptbahnhof)见,7:12 发车(die Abfahrt);车票(die Tickets)在王伟手机里;王伟问莉娜带没带身份证(der Personalausweis),莉娜问他带没带充电器;保罗还没收拾行李,王伟怕误了火车(verpassen),莉娜说她五点叫醒(wecken)保罗;最后说 Bis morgen, gute Nacht!。说话人:lena、wei。",
       "grammarFocusZh": "第四格物主冠词复习(Hast du deinen Personalausweis? / dein Ladegerät?);完成时和 schon / noch nicht(Hast du schon gepackt? – Ja, fast. / Paul hat noch nicht gepackt.);sonst 复习",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
         { "id": "de.losgehen", "kind": "word", "pos": "verb", "text": "losgehen", "zh": "开始;出发", "features": { "ipa": "ˈloːsˌɡeːən" }, "noteZh": "口语常说 Morgen geht's los!(明天就出发了!/明天开始了!)geht's = geht es;可分动词,完成时用 sein。" },
         { "id": "de.fast", "kind": "word", "pos": "adv", "text": "fast", "zh": "差不多;几乎", "features": { "ipa": "fast" }, "noteZh": "Ja, fast.(嗯,差不多了。)Ich bin fast fertig.(我快好了。)a 是短元音;别和英语 fast(快)弄混。" },
@@ -169,9 +169,9 @@
       "titleZh": "单元复习与应用:在火车上",
       "goalZh": "会在火车上找座位、礼貌地请别人让座,听懂车上的晚点和换乘广播",
       "canDoZh": "能在火车上找座位、礼貌地请别人让座,听懂车上的晚点和换乘广播",
-      "scenarioZh": "25 日早上,四个人上了去 Rostock 的火车。7 号车厢(der Wagen)他们订的座位上坐着一位女士(besetzt),王伟礼貌地问:Entschuldigung, sind das nicht unsere Plätze?——原来她走错了车厢;车上广播说火车晚点 15 分钟,9:42 到 Rostock;索菲娅担心赶不上转车(der Anschluss),莉娜看手机:10:05 还有一班去 Warnemünde 的 S-Bahn,大家在 Rostock 等半小时;保罗一路都在吃东西。说话人:sofia、paul、wei、passantin、durchsage、lena。",
-      "grammarFocusZh": "复习:礼貌的说法(Entschuldigung, sind das nicht unsere Plätze? / Gute Fahrt!)、广播里的钟点和晚点、站台;情态动词和 sonst 复习;seit + 地点(seit Berlin)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "scenarioZh": "25 日早上,四个人上了去 Rostock 的火车。7 号车厢(der Wagen)他们订的座位上已经坐着一位女士(besetzt),王伟礼貌地问:Entschuldigung, sind das nicht unsere Plätze?——原来她的座位在 8 号车厢;车上广播说火车晚点 15 分钟,9:42 到 Rostock;索菲娅担心赶不上去 Warnemünde 的转车(der Anschluss),莉娜看手机:10:12 还有一班 S-Bahn,在 Rostock 只要等半小时,十点半就能到;保罗被莉娜五点叫醒,饿得从上车就一直在吃。说话人:sofia、paul、wei、passantin、durchsage、lena。",
+      "grammarFocusZh": "复习:礼貌的说法(Entschuldigung, sind das nicht unsere Plätze? / Kein Problem! Gute Fahrt!)、广播里的钟点和晚点;seit + 时间段(seit zwei Stunden);单元小结:商量去哪儿、收拾行李、情态动词、订房、坐火车",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
       "newItems": [
         { "id": "de.wagen", "kind": "word", "pos": "noun", "text": "der Wagen", "zh": "(火车的)车厢;车", "features": { "gender": "m", "plural": "die Wagen", "ipa": "ˈvaːɡn̩" }, "noteZh": "火车票上写着 Wagen 7, Platz 61(7 号车厢 61 座);口语里 der Wagen 也指汽车。复数不变。" },
         { "id": "de.besetzt", "kind": "word", "pos": "adj", "text": "besetzt", "zh": "(座位)有人;(电话)占线", "features": { "ipa": "bəˈzɛtst" }, "noteZh": "Der Platz ist besetzt.(这个座有人。)反义 frei;打电话占线也说 besetzt。" },
@@ -184,9 +184,9 @@
       "titleZh": "四天的旅行计划",
       "goalZh": "读懂一份几天的旅行计划,说出每天做什么、几点、在哪儿、大概花多少钱",
       "canDoZh": "能读懂一份几天的旅行计划,说出每天做什么、几点、在哪儿",
-      "scenarioZh": "体裁:旅行计划(王伟写在大家共享的文档里)。第一天 10:30 到,先把行李放在前台,去海滩,15 点办入住;第二天骑青年旅舍的自行车去灯塔,下午下海游泳;第三天坐船(das Schiff)去 Rostock 老城(die Altstadt),晚上在港口吃鱼;第四天 10 点退房,买礼物,14:10 从 Rostock 坐火车回柏林;下雨的话去博物馆或室内游泳馆(das Hallenbad);每人大概花 200 欧元(火车 39 欧元、青年旅舍约 110 欧元、吃饭和租自行车约 50 欧元)。说话人:wei(计划)。",
+      "scenarioZh": "体裁:旅行计划(王伟写在大家共享的文档里,火车晚点后在车上改了到达时间)。第一天十点半到,先把行李放在前台,去海滩,15 点办入住;第二天骑青年旅舍的自行车去灯塔,下午莉娜和保罗下海游泳,王伟在海滩上待着;第三天坐船(das Schiff)去 Rostock,老城(die Altstadt)里有很多老房子和集市,晚上在港口吃鱼面包;第四天 10 点前退房,买礼物,14:10 从 Rostock 坐火车回柏林;下雨的话去博物馆或室内游泳馆(das Hallenbad);每人大概花 200 欧元(火车 39 欧元、青年旅舍 110 欧元、自行车、坐船和鱼面包约 50 欧元)。说话人:wei(计划)。",
       "grammarFocusZh": "复习:am + 日期、um + 钟点、时间放句首动词第二位;计划里常用省略的短句(Tag 1: Ankunft um 10:30 Uhr);bei Regen;zusammen 说总数",
-      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "skills": ["read", "write"], "estimatedMinutes": 16.5,
       "newItems": [
         { "id": "de.schiff", "kind": "word", "pos": "noun", "text": "das Schiff", "zh": "船", "features": { "gender": "n", "plural": "die Schiffe", "ipa": "ʃɪf" }, "noteZh": "mit dem Schiff fahren(坐船);复数 die Schiffe。从 Warnemünde 可以坐船去 Rostock 市区。i 是短元音。" },
         { "id": "de.altstadt", "kind": "word", "pos": "noun", "text": "die Altstadt", "zh": "老城;旧城区", "features": { "gender": "f", "plural": "die Altstädte", "ipa": "ˈaltˌʃtat" }, "noteZh": "alt + die Stadt;德国很多城市都有老城,教堂、市场和老房子都在那儿。复数变音 die Altstädte。" },

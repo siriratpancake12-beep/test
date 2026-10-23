@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u18.l02", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118020,
+  "titleZh": "我浑身都疼", "goalZh": "会用 … hurts / … hurt 和 sore 说自己哪儿疼,听懂朋友的简单建议", "canDoZh": "能说出自己哪儿疼、怎么弄的,听懂别人的简单建议",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.hurt", "kind": "word", "pos": "verb", "text": "hurt", "zh": "疼;弄疼", "features": { "ipa": "hɝːt" }, "noteZh": "主语是疼的部位:My leg hurts.(我腿疼);复数用 hurt:My legs hurt.;过去式也是 hurt。hurt /hɝːt/ 要卷舌,别和 heart /hɑːrt/(心脏)混。" },
+    { "id": "en.sore", "kind": "word", "pos": "adj", "text": "sore", "zh": "(肌肉)酸痛的", "features": { "ipa": "sɔːr" }, "noteZh": "运动后肌肉酸痛说 My arms are sore.;第 8 单元的 sore throat(嗓子疼)也是这个词。" },
+    { "id": "en.back_noun", "kind": "word", "pos": "noun", "text": "back", "zh": "背;后背", "features": { "ipa": "bæk" }, "noteZh": "身体部位的 back 是名词:My back hurts.(我背疼);a 读 /æ/,词尾 ck 收住。" },
+    { "id": "en.neck", "kind": "word", "pos": "noun", "text": "neck", "zh": "脖子", "features": { "ipa": "nek" }, "noteZh": "e 读 /e/,嘴别张太大;词尾 ck 读 /k/ 收住,不加元音。" },
+    { "id": "en.shoulder", "kind": "word", "pos": "noun", "text": "shoulder", "zh": "肩膀", "features": { "ipa": "ˈʃoʊldɚ" }, "noteZh": "sh 读 /ʃ/,ou 读 /oʊ/;重音在前 SHOUL-der,美式结尾卷舌。" },
+    { "id": "en.stomach", "kind": "word", "pos": "noun", "text": "stomach", "zh": "肚子;胃", "features": { "ipa": "ˈstʌmək" }, "noteZh": "ch 读 /k/;重音在前 STOM-ach,o 读 /ʌ/;肚子疼可以说 My stomach hurts.。" },
+    { "id": "en.finger", "kind": "word", "pos": "noun", "text": "finger", "zh": "手指", "features": { "ipa": "ˈfɪŋɡɚ" }, "noteZh": "ng 读 /ŋɡ/,g 要发出来:FIN-ger;手指是 finger,脚趾是 toe。" },
+    { "id": "en.stretch", "kind": "word", "pos": "verb", "text": "stretch", "zh": "拉伸;伸展", "features": { "ipa": "stretʃ" }, "noteZh": "运动前后都要拉伸:Stretch first.;str 三个辅音连在一起,中间不加元音,结尾 tch 读 /tʃ/。" },
+    { "id": "en.normal", "kind": "word", "pos": "adj", "text": "normal", "zh": "正常的", "features": { "ipa": "ˈnɔːrməl" }, "noteZh": "That's normal. 这很正常;重音在前 NOR-mal,美式 or 卷舌,结尾的 l 舌尖顶住上齿龈。" }
+  ],
+  "reviewItems": ["en.whats_wrong_with_it", "en.after", "en.friday", "en.get_better", "en.no_way", "en.work_out"],
+  "lines": [
+    { "speaker": "ethan", "text": "Morning, Lei! What's wrong?", "zh": "(第二天早上,磊扶着楼梯扶手,一步一步往下挪)早啊,磊!你怎么了?", "items": ["en.morning", "en.whats_wrong_with_it"] },
+    { "speaker": "lei", "text": "My legs hurt. My back hurts. Everything hurts!", "zh": "我腿疼,背也疼。浑身都疼!", "items": ["en.leg", "en.hurt", "en.back_noun"] },
+    { "speaker": "ethan", "text": "Did you go to the gym yesterday?", "zh": "你昨天去健身房了?", "items": ["en.go", "en.gym", "en.yesterday"] },
+    { "speaker": "lei", "text": "Yes, a free class with Sofia. Now my arms are sore, too.", "zh": "对,跟索菲亚上了一节免费的课。现在胳膊也酸。", "items": ["en.free", "en.class", "en.arm", "en.sore"] },
+    { "speaker": "ethan", "text": "That's normal after your first class.", "zh": "第一次上完课都这样,很正常。", "items": ["en.normal", "en.after", "en.first", "en.class"] },
+    { "speaker": "lei", "text": "Normal? My neck and shoulders hurt. My stomach hurts!", "zh": "正常?我脖子和肩膀疼,肚子也疼!", "items": ["en.normal", "en.neck", "en.shoulder", "en.hurt", "en.stomach"] },
+    { "speaker": "lei", "text": "And my fingers hurt, too!", "zh": "连手指都疼!", "items": ["en.finger", "en.hurt"] },
+    { "speaker": "ethan", "text": "Did you stretch after class?", "zh": "下课以后你拉伸了吗?", "items": ["en.stretch", "en.after", "en.class"] },
+    { "speaker": "lei", "text": "Stretch? No. I went home and slept.", "zh": "拉伸?没有。我回家就睡了。", "items": ["en.stretch", "en.go", "en.home", "en.sleep"] },
+    { "speaker": "ethan", "text": "Always stretch first, and stretch after you work out.", "zh": "运动前一定要先拉伸,练完也要拉伸。", "items": ["en.always", "en.stretch", "en.first", "en.after", "en.work_out"] },
+    { "speaker": "ethan", "text": "And go to the class again on Friday. It gets better!", "zh": "周五再去上一次课,会好很多的!", "items": ["en.go", "en.class", "en.again", "en.friday", "en.get_better"] },
+    { "speaker": "lei", "text": "No way! I'm never going to go to that gym again!", "zh": "不可能!我再也不去那个健身房了!(结果到了周五,磊还是去了。)", "items": ["en.no_way", "en.never", "en.going_to", "en.go", "en.gym", "en.again"] }
+  ],
+  "questions": [
+    { "prompt": "磊哪儿疼?", "options": ["只有头疼", "腿、背、胳膊……浑身都疼", "只有脚疼"], "answer": 1, "explainZh": "磊说 My legs hurt. My back hurts. Everything hurts!,后面又说胳膊酸,脖子、肩膀、肚子、手指都疼。" },
+    { "prompt": "伊森说磊为什么浑身疼?", "options": ["他感冒了", "他昨天打了篮球", "第一次上完健身课都这样,很正常"], "answer": 2, "explainZh": "伊森说 That's normal after your first class.(第一次上完课都这样,很正常。)" },
+    { "prompt": "伊森给磊什么建议?", "options": ["运动前后都要拉伸,周五再去上课", "去看医生", "以后别去健身房了"], "answer": 0, "explainZh": "伊森说 Always stretch first, and stretch after you work out. 还让他 go to the class again on Friday.;说再也不去的是磊自己。" }
+  ],
+  "grammar": [
+    { "id": "en.g.hurts", "titleZh": "… hurts / … hurt 和 sore:说自己哪儿疼",
+      "bodyZh": "中文说“我腿疼”,英语把疼的部位当主语:My leg hurts.。主语是单数(一条腿、背、肚子,还有 everything)用 hurts:My back hurts. Everything hurts!;主语是复数(两条腿、肩膀、手指)用 hurt:My legs hurt. My fingers hurt.。说“疼”最常用 … hurts,不要说 My leg is pain(pain 是名词);过去式也是 hurt。运动以后肌肉酸痛,美国人常说 sore:My arms are sore.(胳膊酸),第 8 单元的 sore throat(嗓子疼)也是这个词。看到朋友不对劲,用 What's wrong?(你怎么了?)问;告诉别人“这很正常”说 That's normal.。发音:hurt /hɝːt/ 舌头卷起来,和 heart /hɑːrt/(心脏)不一样,heart 嘴张得大。",
+      "examples": [
+        { "text": "My back hurts.", "zh": "我背疼。" },
+        { "text": "My legs hurt.", "zh": "我两条腿都疼。" },
+        { "text": "Now my arms are sore, too.", "zh": "现在胳膊也酸。" },
+        { "text": "What's wrong? — Everything hurts!", "zh": "你怎么了?——浑身都疼!" }
+      ] }
+  ],
+  "review": "draft"
+}

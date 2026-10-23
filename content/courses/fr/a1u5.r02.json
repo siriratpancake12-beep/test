@@ -1,0 +1,40 @@
+{
+  "id": "fr.a1u5.r02", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105085,
+  "titleZh": "克洛艾的生日聚会邀请卡(邀请卡)", "goalZh": "读懂一张电子邀请卡和几条回复,找出日期、钟点、地点、要带什么和回复的期限", "canDoZh": "能读懂一张聚会邀请卡(日期、钟点、地点、要带什么、什么时候回复),并用一两句话回复",
+  "skills": ["read", "write"], "estimatedMinutes": 14.5,
+  "newItems": [
+    { "id": "fr.reponse", "kind": "word", "pos": "noun", "text": "la réponse", "zh": "回答;答复", "features": { "gender": "f", "ipa": "la ʁe.pɔ̃s" }, "noteZh": "阴性;on 读鼻化元音 [ɔ̃];邀请卡上的 Réponse avant le 4 novembre = 请在 11 月 4 日以前回复。" },
+    { "id": "fr.gateau", "kind": "word", "pos": "noun", "text": "le gâteau", "zh": "蛋糕;糕点", "features": { "gender": "m", "ipa": "lə ga.to" }, "noteZh": "eau 读 [o];复数加 x:les gâteaux;生日蛋糕是 le gâteau d'anniversaire。" }
+  ],
+  "reviewItems": ["fr.anniversaire", "fr.fete", "fr.libre", "fr.desole", "fr.d_accord"],
+  "lines": [
+    { "speaker": "chloe", "text": "Salut ! Le samedi 7 novembre, c'est mon anniversaire !", "zh": "大家好!11 月 7 日星期六是我的生日!", "items": ["fr.salut", "fr.samedi", "fr.sept", "fr.novembre", "fr.cest", "fr.mon", "fr.anniversaire"] },
+    { "speaker": "chloe", "text": "On fait une fête, le soir, à huit heures et demie.", "zh": "我们晚上八点半开聚会。", "items": ["fr.on", "fr.faire", "fr.une", "fr.fete", "fr.soir", "fr.a", "fr.huit", "fr.heure", "fr.et_demie"] },
+    { "speaker": "chloe", "text": "C'est dans notre appartement, à la Croix-Rousse.", "zh": "地点在我们家的公寓,在红十字区。", "items": ["fr.cest", "fr.dans", "fr.notre", "fr.appartement", "fr.a"] },
+    { "speaker": "chloe", "text": "À manger et à boire ? C'est vous !", "zh": "吃的喝的?就靠你们带啦!", "items": ["fr.a", "fr.manger", "fr.et", "fr.boire", "fr.cest", "fr.vous"] },
+    { "speaker": "chloe", "text": "Réponse avant le 4 novembre, s'il vous plaît. À bientôt ! Chloé", "zh": "请在 11 月 4 日以前回复。回头见!克洛艾", "items": ["fr.reponse", "fr.avant", "fr.quatre", "fr.novembre", "fr.sil_vous_plait", "fr.a_bientot"] },
+    { "speaker": "hao", "text": "Merci, Chloé ! Samedi soir, je suis libre !", "zh": "谢谢你,克洛艾!星期六晚上我有空!", "items": ["fr.merci", "fr.samedi", "fr.soir", "fr.je", "fr.etre", "fr.libre"] },
+    { "speaker": "hao", "text": "Le jus d'orange, c'est moi ! À samedi ! Hao", "zh": "橙汁我来带!星期六见!浩", "items": ["fr.jus_dorange", "fr.cest", "fr.moi", "fr.a", "fr.samedi"] },
+    { "speaker": "lucas", "text": "Désolé, Chloé, samedi soir, je ne suis pas libre…", "zh": "对不起,克洛艾,星期六晚上我没空……", "items": ["fr.desole", "fr.samedi", "fr.soir", "fr.je", "fr.ne_pas", "fr.etre", "fr.libre"] },
+    { "speaker": "lucas", "text": "Mais dimanche, à quatre heures, le café, c'est moi ! Lucas", "zh": "不过星期天四点,咖啡我请!卢卡", "items": ["fr.mais", "fr.dimanche", "fr.a", "fr.quatre", "fr.heure", "fr.cafe", "fr.cest", "fr.moi"] },
+    { "speaker": "emilie", "text": "D'accord, Chloé ! Et le gâteau, c'est moi ! Émilie", "zh": "好的,克洛艾!蛋糕我来带!艾米莉", "items": ["fr.d_accord", "fr.et", "fr.gateau", "fr.cest", "fr.moi"] },
+    { "speaker": "chloe", "text": "Merci ! À samedi… et à dimanche, Lucas !", "zh": "谢谢大家!星期六见……卢卡,星期天见!", "items": ["fr.merci", "fr.a", "fr.samedi", "fr.et", "fr.dimanche"] }
+  ],
+  "questions": [
+    { "prompt": "克洛艾的生日聚会是什么时候?", "options": ["11 月 7 日星期六晚上八点半", "11 月 4 日晚上八点半", "11 月 8 日星期天下午四点"], "answer": 0, "explainZh": "Le samedi 7 novembre… On fait une fête, le soir, à huit heures et demie." },
+    { "prompt": "朋友们要在哪天以前回复?", "options": ["11 月 7 日", "11 月 2 日", "11 月 4 日"], "answer": 2, "explainZh": "Réponse avant le 4 novembre, s'il vous plaît.——avant = 在……以前。" },
+    { "prompt": "谁去不了聚会?", "options": ["浩", "卢卡", "艾米莉"], "answer": 1, "explainZh": "卢卡回复:Désolé, Chloé, samedi soir, je ne suis pas libre…——他星期六晚上没空,星期天下午请大家喝咖啡。" },
+    { "prompt": "艾米莉要带什么?", "options": ["橙汁", "咖啡", "可颂", "蛋糕"], "answer": 3, "explainZh": "Et le gâteau, c'est moi !——X, c'est moi = X 我来;橙汁是浩带,咖啡是卢卡星期天请。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.invitation_reply", "titleZh": "邀请卡和回复的写法;X, c'est moi !",
+      "bodyZh": "邀请卡要写清楚:什么事(c'est mon anniversaire)、哪天几点(le samedi 7 novembre, à huit heures et demie)、在哪儿(dans notre appartement)、什么时候以前回复(Réponse avant le 4 novembre)。\n回复要短:接受说 D'accord ! / Je suis libre !,结尾写 À samedi !;婉拒先说 Désolé(e),再说原因(je ne suis pas libre),最好马上提一个别的时间(Mais dimanche… ?)。朋友之间开头用 Salut,最后签上自己的名字。\n口语里常用“X, c'est moi !”表示“X 我来(负责)”:Le gâteau, c'est moi !(蛋糕我来带!)Le café, c'est moi !(咖啡我请!)反过来,À manger et à boire ? C'est vous !(吃的喝的就靠你们了!)这里的 moi、vous 是重读的形式,要读得清楚。",
+      "examples": [
+        { "text": "Le gâteau, c'est moi !", "zh": "蛋糕我来带!" },
+        { "text": "Désolée, samedi soir, je ne suis pas libre.", "zh": "对不起,星期六晚上我没空。(女生说)" },
+        { "text": "Réponse avant le 4 novembre, s'il vous plaît.", "zh": "请在 11 月 4 日以前回复。" }
+      ] }
+  ],
+  "review": "draft"
+}

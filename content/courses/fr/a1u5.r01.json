@@ -1,0 +1,43 @@
+{
+  "id": "fr.a1u5.r01", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105045,
+  "titleZh": "你是早起的鸟还是夜猫子?(小测验)", "goalZh": "读懂一份作息小测验的题目和结果说明,用学过的钟点和作息说法选出自己的答案", "canDoZh": "能读懂杂志上关于作息的小测验,选出自己的答案并看懂结果",
+  "skills": ["read"], "estimatedMinutes": 17.5,
+  "newItems": [
+    { "id": "fr.test", "kind": "word", "pos": "noun", "text": "le test", "zh": "测验;测试", "features": { "gender": "m", "ipa": "lə tɛst" }, "noteZh": "词尾的 st 都要读出来 [tɛst];杂志上的小测验也叫 test;faire un test = 做测验。" },
+    { "id": "fr.dormir", "kind": "word", "pos": "verb", "text": "dormir", "zh": "睡觉;睡着", "features": { "ipa": "dɔʁ.miʁ" }, "noteZh": "不规则:je dors, tu dors, il dort, nous dormons, vous dormez, ils dorment,单数词尾的 s、t 不发音;dormir 是“在睡、睡着”,se coucher 是“上床睡觉”。" },
+    { "id": "fr.toujours", "kind": "word", "pos": "adv", "text": "toujours", "zh": "总是;一直", "features": { "ipa": "tu.ʒuʁ" }, "noteZh": "s 不发音;和 souvent 一样放在变位动词后面:Il se lève toujours tôt.(他总是起得早。)中文“总是”、英语 always 都放在动词前,法语不行。" },
+    { "id": "fr.avant", "kind": "word", "pos": "prep", "text": "avant", "zh": "在……之前", "features": { "ipa": "a.vɑ̃" }, "noteZh": "和 après 相反:avant le cours(上课前)/ après le cours(下课后);an 读鼻化元音 [ɑ̃],t 不发音。" }
+  ],
+  "reviewItems": ["fr.se_lever", "fr.se_coucher", "fr.tot", "fr.tard", "fr.souvent"],
+  "lines": [
+    { "speaker": "narrator", "text": "Chloé fait un test avec Hao et Lucas.", "zh": "克洛艾和浩、卢卡一起做一个小测验。", "items": ["fr.faire", "fr.un", "fr.test", "fr.avec", "fr.et"] },
+    { "speaker": "narrator", "text": "Test : tu es du matin ou du soir ?", "zh": "测验:你是早起型,还是夜猫子型?", "items": ["fr.test", "fr.tu", "fr.etre", "fr.de", "fr.du", "fr.matin", "fr.ou", "fr.soir"] },
+    { "speaker": "narrator", "text": "1. Tu te lèves tôt ? a) Toujours ! b) Souvent. c) Non, tard !", "zh": "1. 你起得早吗?a) 总是!b) 经常。c) 不,起得晚!", "items": ["fr.tu", "fr.se_lever", "fr.tot", "fr.toujours", "fr.souvent", "fr.non", "fr.tard"] },
+    { "speaker": "narrator", "text": "2. Le soir, tu te couches… a) à onze heures. b) tard. c) très tard !", "zh": "2. 晚上你睡觉……a) 十一点。b) 很晚。c) 特别晚!", "items": ["fr.soir", "fr.tu", "fr.se_coucher", "fr.a", "fr.onze", "fr.heure", "fr.tard", "fr.tres"] },
+    { "speaker": "narrator", "text": "3. Le matin, avant le cours, tu… a) manges. b) regardes ton portable. c) dors !", "zh": "3. 早上上课以前,你……a) 吃东西。b) 看手机。c) 睡觉!", "items": ["fr.matin", "fr.avant", "fr.cours", "fr.tu", "fr.manger", "fr.regarder", "fr.ton", "fr.portable", "fr.dormir"] },
+    { "speaker": "narrator", "text": "4. Le dîner, c'est à… a) 19 h. b) 20 h. c) 21 h !", "zh": "4. 你吃晚饭是在……a) 19 点。b) 20 点。c) 21 点!", "items": ["fr.diner", "fr.cest", "fr.a", "fr.heure"] },
+    { "speaker": "narrator", "text": "5. Le dimanche matin, tu… a) fais le ménage. b) fais du sport. c) dors !", "zh": "5. 星期天上午,你……a) 打扫卫生。b) 做运动。c) 睡觉!", "items": ["fr.dimanche", "fr.matin", "fr.tu", "fr.faire", "fr.menage", "fr.du", "fr.sport", "fr.dormir"] },
+    { "speaker": "narrator", "text": "Beaucoup de a ? Tu es du matin !", "zh": "选 a 多?你是早起型!", "items": ["fr.beaucoup", "fr.de", "fr.tu", "fr.etre", "fr.du", "fr.matin"] },
+    { "speaker": "narrator", "text": "Beaucoup de b ? Tu es du matin… et du soir !", "zh": "选 b 多?你早上晚上都有精神!", "items": ["fr.beaucoup", "fr.de", "fr.tu", "fr.etre", "fr.du", "fr.matin", "fr.et", "fr.soir"] },
+    { "speaker": "narrator", "text": "Beaucoup de c ? Tu es du soir : le matin, tu dors !", "zh": "选 c 多?你是夜猫子型:早上你在睡觉!", "items": ["fr.beaucoup", "fr.de", "fr.tu", "fr.etre", "fr.du", "fr.soir", "fr.matin", "fr.dormir"] },
+    { "speaker": "narrator", "text": "Lucas a cinq c. Il est du soir !", "zh": "卢卡五道题都选了 c。他是夜猫子型!", "items": ["fr.avoir", "fr.cinq", "fr.il", "fr.etre", "fr.de", "fr.du", "fr.soir"] },
+    { "speaker": "narrator", "text": "Et Hao ? Cinq a ! Il se lève toujours tôt.", "zh": "那浩呢?五个 a!他总是起得很早。", "items": ["fr.et", "fr.cinq", "fr.il", "fr.se_lever", "fr.toujours", "fr.tot"] }
+  ],
+  "questions": [
+    { "prompt": "测验里选 c 多的人是什么类型?", "options": ["早起型", "早上晚上都有精神", "夜猫子型"], "answer": 2, "explainZh": "Beaucoup de c ? Tu es du soir : le matin, tu dors !——être du soir 就是“夜猫子型”。" },
+    { "prompt": "卢卡做测验的结果是什么?", "options": ["五个 a,早起型", "五个 c,夜猫子型", "五个 b,早上晚上都有精神"], "answer": 1, "explainZh": "Lucas a cinq c. Il est du soir !——卢卡五道题都选了 c。" },
+    { "prompt": "浩全选了 a。按第 4 题,浩晚上几点吃晚饭?", "options": ["七点(19 h)", "八点(20 h)", "九点(21 h)"], "answer": 0, "explainZh": "第 4 题的 a) 是 19 h,也就是晚上七点,和第 3 课浩说的一样。" },
+    { "prompt": "第 3 题问的是什么时候做什么?", "options": ["晚上睡觉以前", "星期天上午", "下午下课以后", "早上上课以前"], "answer": 3, "explainZh": "Le matin, avant le cours, tu…——avant le cours = 上课以前。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.etre_du_matin", "titleZh": "être du matin / du soir;频率副词 toujours、souvent",
+      "bodyZh": "Tu es du matin ou du soir ? 是固定说法:être du matin = 早上精神好、习惯早起的人(早起型),être du soir = 晚上精神好、习惯晚睡的人(夜猫子型)。这里的 du 是 de + le 缩合成的,不是部分冠词“一些”。\n频率副词 toujours(总是)、souvent(经常)和第 3 课的 tôt、tard 一样,放在变位动词后面:Il se lève toujours tôt.(他总是起得早。)中文“总是”放在动词前,英语 always 也放在动词前,法语不行:✗ Il toujours se lève tôt。tous les jours(每天)一般放在句尾:Je me lève tôt tous les jours.\navant(在……之前)和 après(在……之后)后面直接接名词:avant le cours(上课前)、après le cours(下课后)。\n测验的格式:题号后面是问题,a) b) c) 是选项;结果说明常用“Beaucoup de a ? Tu es…”这样的短句。",
+      "examples": [
+        { "text": "Je suis du soir.", "zh": "我是夜猫子型的。" },
+        { "text": "Hao se lève toujours tôt.", "zh": "浩总是起得很早。" },
+        { "text": "Avant le cours, je mange.", "zh": "上课以前我吃点东西。" }
+      ] }
+  ],
+  "review": "draft"
+}

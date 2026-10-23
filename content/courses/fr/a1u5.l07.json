@@ -1,0 +1,52 @@
+{
+  "id": "fr.a1u5.l07", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105070,
+  "titleZh": "下星期放假!——听懂老师的通知", "goalZh": "听懂老师用 vous 说的放假和调课通知,没听清时说出来、复述确认,并记下日期和钟点", "canDoZh": "能听懂老师关于放假和上课时间变动的口头通知,记下星期、日期和钟点",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "fr.vacances", "kind": "word", "pos": "noun", "text": "les vacances", "zh": "假期", "features": { "gender": "f", "ipa": "le va.kɑ̃s" }, "noteZh": "总是用复数,阴性;an 读鼻化元音 [ɑ̃],词尾 s 不发音;Bonnes vacances !(假期愉快!)" },
+    { "id": "fr.toussaint", "kind": "word", "pos": "noun", "text": "la Toussaint", "zh": "诸圣节(11 月 1 日)", "features": { "gender": "f", "ipa": "la tu.sɛ̃" }, "noteZh": "首字母大写;11 月 1 日,法国的公共假日,中文常叫“万圣节”;学校在这前后放 les vacances de la Toussaint。aint 读鼻化元音 [ɛ̃],t 不发音。" },
+    { "id": "fr.question", "kind": "word", "pos": "noun", "text": "la question", "zh": "问题;提问", "features": { "gender": "f", "ipa": "la kɛs.tjɔ̃" }, "noteZh": "tion 在 s 后面读 [tjɔ̃],不读 [sjɔ̃];Vous avez des questions ?(大家有问题吗?)指“提的问题”,东西“出了毛病”不用 question。" },
+    { "id": "fr.noter", "kind": "word", "pos": "verb", "text": "noter", "zh": "记下;写下来", "features": { "ipa": "nɔ.te" }, "noteZh": "规则的 -er 动词:je note, vous notez;听通知时说 Je note !(我记下来!)" },
+    { "id": "fr.agenda", "kind": "word", "pos": "noun", "text": "l'agenda", "zh": "日程本;记事本", "features": { "gender": "m", "ipa": "la.ʒɛ̃.da" }, "noteZh": "元音开头,要记住是阳性:mon agenda;en 在这里读 [ɛ̃],不读 [ɑ̃];手机里的日程也叫 agenda。" },
+    { "id": "fr.emploi_du_temps", "kind": "word", "pos": "noun", "text": "l'emploi du temps", "zh": "课程表;时间安排", "features": { "gender": "m", "ipa": "lɑ̃.plwa dy tɑ̃" }, "noteZh": "元音开头,阳性;temps 的 p、s 不发音;学校的“课表”就叫 l'emploi du temps。" }
+  ],
+  "reviewItems": ["fr.commencer", "fr.cours", "fr.novembre", "fr.je_ne_comprends_pas", "fr.mercredi"],
+  "lines": [
+    { "speaker": "mme_moreau", "text": "S'il vous plaît ! Samedi, les vacances de la Toussaint commencent.", "zh": "大家听我说!星期六开始放万圣节假期。", "items": ["fr.sil_vous_plait", "fr.samedi", "fr.vacances", "fr.de", "fr.toussaint", "fr.commencer"] },
+    { "speaker": "hao", "text": "Les vacances ? Lundi, il n'y a pas cours ?", "zh": "放假?那星期一没有课吗?", "items": ["fr.vacances", "fr.lundi", "fr.il_y_a", "fr.ne_pas", "fr.cours"] },
+    { "speaker": "mme_moreau", "text": "Non. Il n'y a pas de cours avant le lundi 2 novembre.", "zh": "对,没有。11 月 2 日星期一以前都没有课。", "items": ["fr.non", "fr.il_y_a", "fr.ne_pas", "fr.pas_de", "fr.cours", "fr.avant", "fr.lundi", "fr.deux", "fr.novembre"] },
+    { "speaker": "mme_moreau", "text": "Et le lundi 2 novembre, le cours commence à dix heures.", "zh": "11 月 2 日星期一那天,课十点开始。", "items": ["fr.et", "fr.lundi", "fr.deux", "fr.novembre", "fr.cours", "fr.commencer", "fr.a", "fr.dix", "fr.heure"] },
+    { "speaker": "hao", "text": "Madame, je ne comprends pas. Le lundi… ?", "zh": "老师,我没听懂。星期一……?", "items": ["fr.madame", "fr.je_ne_comprends_pas", "fr.lundi"] },
+    { "speaker": "mme_moreau", "text": "Le lundi… deux… novembre. À dix heures, pas à neuf heures.", "zh": "(放慢)星期一……2 号……十一月。十点,不是九点。", "items": ["fr.lundi", "fr.deux", "fr.novembre", "fr.a", "fr.dix", "fr.heure", "fr.ne_pas", "fr.neuf"] },
+    { "speaker": "hao", "text": "Le 2 novembre, à dix heures. Je note !", "zh": "11 月 2 日,十点。我记下来!", "items": ["fr.deux", "fr.novembre", "fr.a", "fr.dix", "fr.heure", "fr.je", "fr.noter"] },
+    { "speaker": "mme_moreau", "text": "Et l'emploi du temps : le jeudi 5 novembre, il n'y a pas cours l'après-midi.", "zh": "还有课表:11 月 5 日星期四下午没有课。", "items": ["fr.et", "fr.emploi_du_temps", "fr.jeudi", "fr.cinq", "fr.novembre", "fr.il_y_a", "fr.ne_pas", "fr.cours", "fr.apres_midi"] },
+    { "speaker": "mme_moreau", "text": "Le cours, c'est le mercredi 4 novembre, à quatorze heures.", "zh": "那节课改在 11 月 4 日星期三,下午两点。", "items": ["fr.cours", "fr.cest", "fr.mercredi", "fr.quatre", "fr.novembre", "fr.a", "fr.quatorze", "fr.heure"] },
+    { "speaker": "hao", "text": "Mercredi après-midi ? Mais je n'ai pas cours le mercredi après-midi !", "zh": "星期三下午?可是我每个星期三下午都没课啊!", "items": ["fr.mercredi", "fr.apres_midi", "fr.mais", "fr.je", "fr.ne_pas", "fr.avoir", "fr.cours"] },
+    { "speaker": "mme_moreau", "text": "Oui, mais le 4 novembre, il y a cours. Vous avez des questions ?", "zh": "对,不过 11 月 4 日那天有课。大家有问题吗?", "items": ["fr.oui", "fr.mais", "fr.quatre", "fr.novembre", "fr.il_y_a", "fr.cours", "fr.vous", "fr.avoir", "fr.des", "fr.question"] },
+    { "speaker": "hao", "text": "Non, merci. Je note dans mon agenda. Bonnes vacances, madame !", "zh": "没有了,谢谢。我记在日程本上。老师,假期愉快!", "items": ["fr.non", "fr.merci", "fr.je", "fr.noter", "fr.dans", "fr.mon", "fr.agenda", "fr.bon", "fr.vacances", "fr.madame"] }
+  ],
+  "questions": [
+    { "prompt": "放完假,哪天开始上课?", "options": ["10 月 26 日星期一", "11 月 2 日星期一", "11 月 4 日星期三"], "answer": 1, "explainZh": "Il n'y a pas de cours avant le lundi 2 novembre.——11 月 2 日以前都没课,2 号开始上课。" },
+    { "prompt": "11 月 2 日的课几点开始?", "options": ["十点", "九点", "下午两点"], "answer": 0, "explainZh": "À dix heures, pas à neuf heures.——那天十点开始,不是平时的九点。" },
+    { "prompt": "11 月 5 日星期四下午的课改到了什么时候?", "options": ["11 月 4 日星期三上午", "11 月 6 日星期五下午", "11 月 2 日星期一下午", "11 月 4 日星期三下午两点"], "answer": 3, "explainZh": "Le cours, c'est le mercredi 4 novembre, à quatorze heures.——quatorze heures 是下午两点。" },
+    { "prompt": "浩为什么觉得星期三的课很意外?", "options": ["他星期三下午要去旅行", "他不知道 11 月 4 日是星期几", "他平时星期三下午没有课"], "answer": 2, "explainZh": "Mais je n'ai pas cours le mercredi après-midi !——按课表,浩每个星期三下午都没课(第 2 课)。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.pas_cours_avant", "titleZh": "il n'y a pas (de) cours;avant + 日期;commencer à + 钟点",
+      "bodyZh": "说“有课、没课”,口语常用固定说法 il y a cours / il n'y a pas cours(第 2 课学过,cours 前面不加冠词)。老师通知时也常说 Il n'y a pas de cours(一节课也没有):il y a 的否定后面用 de,和 Je n'ai pas de frère 一样。两种说法意思差不多,都要听得懂;不能说 ✗ Il n'y a pas des cours。\navant(在……之前)后面直接接日期、钟点或名词:avant le lundi 2 novembre(11 月 2 日星期一以前)、avant le cours(上课前)。\n开始的时间用 commencer à + 钟点:Le cours commence à dix heures.;放假也用 commencer:Les vacances commencent samedi.(主语是复数 les vacances,动词词尾 -ent 不发音。)",
+      "examples": [
+        { "text": "Lundi, il n'y a pas cours.", "zh": "这个星期一没课。" },
+        { "text": "Il n'y a pas de cours avant le 2 novembre.", "zh": "11 月 2 日以前都没有课。" },
+        { "text": "Les vacances commencent samedi.", "zh": "星期六开始放假。" }
+      ] },
+    { "id": "fr.g.listen_dates", "titleZh": "听懂通知里的星期和日期",
+      "bodyZh": "通知里的时间要分清三种说法:lundi(这个星期一,只说一次)、le lundi(每个星期一,习惯)、le lundi 2 novembre(11 月 2 日星期一,具体的一天)。法语的顺序是“星期 → 日 → 月 → 钟点”:le jeudi 5 novembre, à quatorze heures;中文是“11 月 5 日星期四下午两点”。\n听不清的时候,先说 Je ne comprends pas,再把听到的部分重复一遍,用升调问:Le lundi… ?(星期一……?)老师一般会放慢再说一次。记下来以后再复述一遍确认:Le 2 novembre, à dix heures.\n回答否定问句要小心:Il n'y a pas cours lundi ?——Non.(对,没有课。)法语的 non 跟着事实走(没有课就说 non),中文却说“对”;中国学生容易答成 oui。",
+      "examples": [
+        { "text": "Le lundi, le cours commence à neuf heures.", "zh": "每个星期一,课九点开始。" },
+        { "text": "Le lundi 2 novembre, le cours commence à dix heures.", "zh": "11 月 2 日星期一,课十点开始。" },
+        { "text": "Il n'y a pas cours lundi ? — Non.", "zh": "这个星期一没课吗?——对,没有。" }
+      ] }
+  ],
+  "review": "draft"
+}

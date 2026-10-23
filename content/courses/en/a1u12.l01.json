@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u12.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112010,
+  "titleZh": "办理入住", "goalZh": "会在酒店前台报预订人的姓名、出示银行卡,听懂房间号、楼层和早餐时间", "canDoZh": "能在酒店前台办入住:报预订人姓名、出示证件,听懂房间号、楼层和早餐时间",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.reservation", "kind": "word", "pos": "noun", "text": "reservation", "zh": "预订", "features": { "ipa": "ˌrezɚˈveɪʃən" }, "noteZh": "订酒店、订餐厅都用它:I have a reservation. 我有预订;前台常问 Do you have a reservation?。重音在 -VA-,-tion 读 /ʃən/。" },
+    { "id": "en.under_the_name", "kind": "phrase", "pos": "phrase", "text": "under the name", "zh": "用……的名字(预订、登记)", "features": { "ipa": "ˌʌndɚ ðə ˈneɪm" }, "noteZh": "I have a reservation under the name Zhang. 预订用的是 Zhang 这个姓;口语也常简单说 Under Zhang.。报完姓最好再拼一遍。" },
+    { "id": "en.floor", "kind": "word", "pos": "noun", "text": "floor", "zh": "楼层;地板", "features": { "ipa": "flɔːr" }, "noteZh": "on the fifth floor 在五楼(用序数词,介词用 on);美式 first floor 就是一楼,和中国一样,英式的一楼叫 ground floor。结尾要卷舌。" },
+    { "id": "en.key", "kind": "word", "pos": "noun", "text": "key", "zh": "钥匙;房卡", "features": { "ipa": "kiː" }, "noteZh": "酒店的房卡也叫 key 或 key card;ey 在这里读 /iː/,和 see 押韵。" },
+    { "id": "en.wi_fi", "kind": "word", "pos": "noun", "text": "Wi-Fi", "zh": "无线网;Wi-Fi", "alt": ["wifi", "WiFi"], "features": { "ipa": "ˈwaɪfaɪ" }, "noteZh": "读 /ˈwaɪfaɪ/,两个 i 都读 /aɪ/,重音在前;问密码说 What's the Wi-Fi password?。" },
+    { "id": "en.password", "kind": "word", "pos": "noun", "text": "password", "zh": "密码", "features": { "ipa": "ˈpæswɝːd" }, "noteZh": "pass 美式读 /pæs/,嘴张大;w 后面的 or 读 /ɝː/,要卷舌。银行卡的密码一般叫 PIN。" },
+    { "id": "en.check_out", "kind": "phrase", "pos": "verb", "text": "check out", "zh": "退房", "alt": ["check-out"], "features": { "ipa": "ˌtʃek ˈaʊt" }, "noteZh": "动词分开写 check out(We check out on Thursday.),名词常写 check-out(Check-out is at 11:00.);连读成“che-kout”。晚点退房说 check out late。" },
+    { "id": "en.front_desk", "kind": "phrase", "pos": "noun", "text": "front desk", "zh": "(酒店的)前台", "features": { "ipa": "ˌfrʌnt ˈdesk" }, "noteZh": "酒店大堂里办入住、退房的地方;打给前台说 call the front desk。front 的 o 读 /ʌ/。" }
+  ],
+  "reviewItems": ["en.how_do_you_spell", "en.card", "en.here_it_is", "en.breakfast", "en.call"],
+  "lines": [
+    { "speaker": "receptionist", "text": "Hi there! Welcome. Do you have a reservation?", "zh": "(1 月 4 日下午,洛杉矶圣莫尼卡海边的一家酒店)你好!欢迎光临。请问有预订吗?", "items": ["en.hi", "en.welcome", "en.have", "en.reservation"] },
+    { "speaker": "lei", "text": "Yes. I have a reservation under the name Zhang.", "zh": "有。我用 Zhang 这个名字订的。", "items": ["en.have", "en.reservation", "en.under_the_name"] },
+    { "speaker": "receptionist", "text": "Zhang… How do you spell that?", "zh": "Zhang……请问怎么拼?", "items": ["en.how_do_you_spell"] },
+    { "speaker": "lei", "text": "Z-H-A-N-G. Lei Zhang.", "zh": "Z-H-A-N-G。张磊。", "items": [] },
+    { "speaker": "receptionist", "text": "Thank you. Can I see a card, please?", "zh": "谢谢。能看一下您的银行卡吗?", "items": ["en.thank_you", "en.can", "en.see", "en.card"] },
+    { "speaker": "lei", "text": "Sure. Here it is.", "zh": "好的,给您。", "items": ["en.sure", "en.here_it_is"] },
+    { "speaker": "receptionist", "text": "OK. You're in Rooms 512 and 514, on the fifth floor.", "zh": "好了。你们住 512 和 514 两间房,在五楼。", "items": ["en.room", "en.floor"] },
+    { "speaker": "receptionist", "text": "Here are your keys. The Wi-Fi password is on the key card.", "zh": "这是你们的房卡。Wi-Fi 密码印在房卡上。", "items": ["en.key", "en.wi_fi", "en.password", "en.card"] },
+    { "speaker": "sofia", "text": "Thanks! What time is breakfast?", "zh": "谢谢!早餐几点?", "items": ["en.thank_you", "en.breakfast"] },
+    { "speaker": "receptionist", "text": "From 6:30 to 10:00, over there.", "zh": "6:30 到 10:00,就在那边。", "items": ["en.over_there"] },
+    { "speaker": "sofia", "text": "Can we check out late on Thursday?", "zh": "我们周四能晚点退房吗?", "items": ["en.can", "en.check_out", "en.late", "en.thursday"] },
+    { "speaker": "receptionist", "text": "Please call the front desk that morning.", "zh": "那天早上请打电话到前台问一下。", "items": ["en.call", "en.front_desk", "en.morning"] }
+  ],
+  "questions": [
+    { "prompt": "磊的预订是用哪个名字登记的?", "options": ["索菲亚的名字", "磊的姓 Zhang", "伊森的名字"], "answer": 1, "explainZh": "磊说 I have a reservation under the name Zhang.,还拼了一遍 Z-H-A-N-G。" },
+    { "prompt": "他们的房间在几楼?", "options": ["十二楼", "一楼", "五楼"], "answer": 2, "explainZh": "前台说 You're in Rooms 512 and 514, on the fifth floor.:512 读 five twelve,第一个数字 5 就是楼层。" },
+    { "prompt": "索菲亚问周四能不能晚点退房,前台怎么说?", "options": ["那天早上打电话到前台再说", "可以,下午两点前退房就行", "不行,必须 11 点前退房"], "answer": 0, "explainZh": "前台说 Please call the front desk that morning.(那天早上请打电话到前台问一下),没有马上答应。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_checkin", "titleZh": "办入住:I have a reservation under the name…",
+      "bodyZh": "到了酒店前台,对方一般先问 Do you have a reservation?(有预订吗?)。回答用 I have a reservation under the name Zhang.(我用 Zhang 这个名字订的),口语也可以只说 Yes, under Zhang.。英语名在前、姓在后,预订登记的一般是姓,报完最好再拼一遍:Z-H-A-N-G。前台接着会要证件和银行卡:Can I see a card, please?,递过去时说 Here it is.(第 6 单元学过)。最后前台会告诉你房间号、楼层、早餐时间和 Wi-Fi 密码,信息多、语速快,先抓数字。想晚点退房就问 Can we check out late?。发音:reservation 重音在 -VA- 上:re-ser-VA-tion。",
+      "examples": [
+        { "text": "Do you have a reservation? — Yes, under the name Zhang.", "zh": "有预订吗?——有,用 Zhang 这个名字订的。" },
+        { "text": "Can I see a card, please? — Sure. Here it is.", "zh": "能看一下您的银行卡吗?——好的,给您。" },
+        { "text": "Can we check out late on Thursday?", "zh": "我们周四能晚点退房吗?" }
+      ] },
+    { "id": "en.g.u12_room_floor", "titleZh": "房间号和楼层:512 读 five twelve,“在五楼”是 on the fifth floor",
+      "bodyZh": "三位数的房间号一般拆成两段读:512 读 five twelve,514 读 five fourteen,604 读 six oh four(中间的 0 读 oh,第 1 单元学过)。第一个数字通常就是楼层,512 在五楼。说“在几楼”用 on the + 序数词 + floor:on the fifth floor,不说 on five floor。序数词除了 first、second、third,一般在数字后加 -th:fourth、fifth、sixth(fifth 的 f 和 th 都要读出来)。美式的 first floor 就是一楼,和中国一样;英式的一楼叫 ground floor,first floor 是二楼。floor 结尾要卷舌 /flɔːr/。",
+      "examples": [
+        { "text": "You're in Room 512, on the fifth floor.", "zh": "您住 512 房间,在五楼。" },
+        { "text": "Room 604 is on the sixth floor.", "zh": "604 房间在六楼。" },
+        { "text": "Breakfast is from 6:30 to 10:00.", "zh": "早餐时间是 6:30 到 10:00。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u16.l01", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116010,
+  "titleZh": "家务活", "goalZh": "会说常见的家务,知道 do the dishes、make the bed 这类搭配", "canDoZh": "能说出常见的家务,和室友列一张打扫清单",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.chore", "kind": "word", "pos": "noun", "text": "chore", "zh": "家务活;杂活", "features": { "ipa": "tʃɔːr" }, "noteZh": "常用复数 chores:do the chores 做家务;ch 读 /tʃ/,结尾卷舌。" },
+    { "id": "en.do_the_dishes", "kind": "phrase", "pos": "verb", "text": "do the dishes", "zh": "洗碗", "features": { "ipa": "ˌduː ðə ˈdɪʃɪz" }, "noteZh": "美式口语说洗碗不说 wash the bowls,说 do the dishes(dishes 指所有的碗盘);dishes 读 /ˈdɪʃɪz/,多一个音节。" },
+    { "id": "en.make_the_bed", "kind": "phrase", "pos": "verb", "text": "make the bed", "zh": "铺床;整理床铺", "features": { "ipa": "ˌmeɪk ðə ˈbed" }, "noteZh": "早上起来把被子铺平就是 make the bed;两个人各铺各的说 make the beds;不说 do the bed。" },
+    { "id": "en.take_out_the_trash", "kind": "phrase", "pos": "verb", "text": "take out the trash", "zh": "倒垃圾", "features": { "ipa": "ˌteɪk ˌaʊt ðə ˈtræʃ" }, "noteZh": "美式说 trash,英式说 rubbish;代词要放中间:take it out;trash 的 a 读 /æ/。" },
+    { "id": "en.vacuum", "kind": "word", "pos": "verb", "text": "vacuum", "zh": "吸尘;用吸尘器打扫", "features": { "ipa": "ˈvækjuːm" }, "noteZh": "也作名词\"吸尘器\";拼写有两个 u,读 VAC-yoom,a 读 /æ/。" },
+    { "id": "en.wipe", "kind": "word", "pos": "verb", "text": "wipe", "zh": "擦;抹", "features": { "ipa": "waɪp" }, "noteZh": "wipe the desk 擦桌子;词尾 p 双唇闭上就好,不读成 \"wai-pu\"。" },
+    { "id": "en.bathroom", "kind": "word", "pos": "noun", "text": "bathroom", "zh": "浴室;卫生间", "features": { "ipa": "ˈbæθruːm" }, "noteZh": "美国人说\"卫生间、厕所\"一般用 bathroom(公共场所也说 restroom);th 是 /θ/。" },
+    { "id": "en.dirty", "kind": "word", "pos": "adj", "text": "dirty", "zh": "脏的", "features": { "ipa": "ˈdɝːt̬i" }, "noteZh": "反义词 clean;ir 卷舌 /ɝː/,t 读得像轻快的 d。" },
+    { "id": "en.mess", "kind": "word", "pos": "noun", "text": "mess", "zh": "乱七八糟;一团糟", "features": { "ipa": "mes" }, "noteZh": "Our room is a mess! 我们房间乱死了;e 读 /e/,不读 /æ/。" },
+    { "id": "en.inspection", "kind": "word", "pos": "noun", "text": "inspection", "zh": "检查;(宿舍)查房", "features": { "ipa": "ɪnˈspekʃən" }, "noteZh": "room inspection 宿舍查房;以 -tion 结尾,重音在 -tion 前面的音节 in-SPEC-tion(复习第 15 单元)。" }
+  ],
+  "reviewItems": ["en.room", "en.clean", "en.desk", "en.together", "en.easy", "en.no_way"],
+  "lines": [
+    { "speaker": "lei", "text": "Ethan, there's a room inspection on Friday!", "zh": "(宿舍楼贴出了通知)伊森,周五要查房!", "items": ["en.room", "en.inspection", "en.friday"] },
+    { "speaker": "ethan", "text": "Friday? But our room is a mess!", "zh": "周五?可我们房间乱成一团啊!", "items": ["en.friday", "en.room", "en.mess"] },
+    { "speaker": "lei", "text": "I know. Let's do the chores together.", "zh": "我知道。我们一起做家务吧。", "items": ["en.know", "en.lets", "en.chore", "en.together"] },
+    { "speaker": "lei", "text": "First, we do the dishes and take out the trash.", "zh": "先洗碗,再倒垃圾。", "items": ["en.first", "en.do_the_dishes", "en.take_out_the_trash"] },
+    { "speaker": "ethan", "text": "Then we make the beds, vacuum, and wipe the desks.", "zh": "然后铺床、吸尘、擦桌子。", "items": ["en.then", "en.make_the_bed", "en.vacuum", "en.wipe", "en.desk"] },
+    { "speaker": "lei", "text": "And we clean the bathroom. It's really dirty!", "zh": "还要打扫浴室,脏死了!", "items": ["en.clean", "en.bathroom", "en.really", "en.dirty"] },
+    { "speaker": "ethan", "text": "Wow, that's a lot of chores. Can I do the easy chores?", "zh": "哇,家务好多啊。我能干简单的吗?", "items": ["en.a_lot_of", "en.chore", "en.can", "en.easy"] },
+    { "speaker": "lei", "text": "Sure. You can take out the trash.", "zh": "行啊。你可以去倒垃圾。", "items": ["en.sure", "en.can", "en.take_out_the_trash"] },
+    { "speaker": "ethan", "text": "Great! And then I can watch you clean.", "zh": "太好了!然后我就在旁边看着你打扫。", "items": ["en.great", "en.then", "en.can", "en.watch", "en.clean"] },
+    { "speaker": "lei", "text": "No way! We do the chores together.", "zh": "没门儿!家务我们一起做。", "items": ["en.no_way", "en.chore", "en.together"] }
+  ],
+  "questions": [
+    { "prompt": "宿舍什么时候查房?", "options": ["周一", "周三", "周五"], "answer": 2, "explainZh": "Ethan, there's a room inspection on Friday!——周五查房。" },
+    { "prompt": "磊觉得哪儿特别脏?", "options": ["厨房", "浴室", "书桌"], "answer": 1, "explainZh": "And we clean the bathroom. It's really dirty!——浴室特别脏。" },
+    { "prompt": "伊森想怎么做家务?", "options": ["只干简单的,还想在旁边看着磊干", "一个人把家务全做完", "先打扫浴室"], "answer": 0, "explainZh": "Can I do the easy chores? / And then I can watch you clean.——磊说 No way! We do the chores together.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.make_do_chores", "titleZh": "家务怎么说:make 还是 do?",
+      "bodyZh": "中文说\"洗碗、铺床、洗衣服、做饭\",动词各不相同;英语的家务常用 do 和 make,要整块记:do the dishes(洗碗)、do laundry(洗衣服,第 3 单元)、do homework(写作业);make the bed(铺床、整理床铺)、make dinner(做晚饭)。粗略地说,do 多用于\"干活、完成任务\",make 多用于\"做出、弄好一样东西\",但最可靠的办法是整块记,不要自己换动词(不说 make the dishes、do the bed)。\n其他家务直接用动词:take out the trash(倒垃圾,美式说 trash)、vacuum(吸尘)、wipe the desk(擦桌子)、clean the bathroom(打扫浴室)。",
+      "examples": [
+        { "text": "First, we do the dishes and take out the trash.", "zh": "先洗碗,再倒垃圾。" },
+        { "text": "I make my bed every morning.", "zh": "我每天早上都铺床。" },
+        { "text": "Let's clean the bathroom together.", "zh": "我们一起打扫浴室吧。" }
+      ] },
+    { "id": "en.g.ae_trash", "titleZh": "发音:trash、vacuum 里的 /æ/",
+      "bodyZh": "trash /træʃ/、vacuum /ˈvækjuːm/、bathroom /ˈbæθruːm/ 里的 a 都读 /æ/:嘴张大、嘴角往两边拉,比中文\"哎\"开口更大(复习第 2 单元)。别读成 /e/——mess /mes/ 才是 /e/,嘴张得小一些。对比着读:trash / mess、bathroom / bed。",
+      "examples": [
+        { "text": "You can take out the trash.", "zh": "你可以去倒垃圾。(trash 读 /æ/)" },
+        { "text": "Our room is a mess!", "zh": "我们房间乱成一团!(mess 读 /e/)" }
+      ] }
+  ],
+  "review": "draft"
+}

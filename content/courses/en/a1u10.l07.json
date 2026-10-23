@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u10.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110070,
+  "titleZh": "新年倒计时", "goalZh": "会和朋友倒数迎接新年,用 be going to 说新年计划", "canDoZh": "能和朋友一起倒数迎接新年,说出自己的新年计划",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.special", "kind": "word", "pos": "adj", "text": "special", "zh": "特别的", "features": { "ipa": "ˈspeʃəl" }, "noteZh": "重音在前 SPE-cial,ci 读 /ʃ/;a special night(一个特别的夜晚)。" },
+    { "id": "en.new_years_eve", "kind": "phrase", "pos": "propn", "text": "New Year's Eve", "zh": "除夕夜(12 月 31 日晚上)", "features": { "ipa": "ˌnuː jɪrz ˈiːv" }, "noteZh": "美国人常在这天晚上聚会、倒数、看烟花;'s 不能漏。" },
+    { "id": "en.count", "kind": "word", "pos": "verb", "text": "count", "zh": "数(数)", "features": { "ipa": "kaʊnt" }, "noteZh": "Let's count!(一起数!)ou 读 /aʊ/;倒数可以说 count down。" },
+    { "id": "en.happy_new_year", "kind": "phrase", "pos": "phrase", "text": "Happy New Year", "zh": "新年快乐", "features": { "ipa": "ˌhæpi nuː ˈjɪr" }, "noteZh": "一般不加 a;重音落在 HAP- 和 YEAR 上;year 开头的 /j/ 要发出来。" },
+    { "id": "en.loud", "kind": "word", "pos": "adj", "text": "loud", "zh": "吵的;声音大的", "features": { "ipa": "laʊd" }, "noteZh": "ou 读 /aʊ/,词尾 d 轻轻收住;The fireworks are so loud!(烟花好响!)" },
+    { "id": "en.new_years_resolution", "kind": "phrase", "pos": "noun", "text": "New Year's resolution", "zh": "新年计划;新年决心", "features": { "ipa": "ˌnuː jɪrz ˌrezəˈluːʃən" }, "noteZh": "a New Year's resolution,复数 resolutions;resolution 重音在 -LU-。" },
+    { "id": "en.goal", "kind": "word", "pos": "noun", "text": "goal", "zh": "目标", "features": { "ipa": "ɡoʊl" }, "noteZh": "That's a great goal!(这个目标真好!)oa 读 /oʊ/,词尾 l 舌尖顶住上齿龈;足球里的“进球”也是 goal。" },
+    { "id": "en.promise", "kind": "word", "pos": "verb", "text": "promise", "zh": "保证;答应", "features": { "ipa": "ˈprɑːmɪs" }, "noteZh": "I promise.(我保证。)重音在前 PROM-ise;o 读 /ɑː/。" }
+  ],
+  "reviewItems": ["en.going_to", "en.learn", "en.swim", "en.speak", "en.fireworks", "en.near_here"],
+  "lines": [
+    { "speaker": "amy", "text": "Look at all the people at the Space Needle!", "zh": "(12 月 31 日晚上,市中心)你们看,太空针塔这边好多人!", "items": ["en.look", "en.people"] },
+    { "speaker": "sofia", "text": "It's a special night. Where's Marcus?", "zh": "今晚真特别。马库斯呢?", "items": ["en.special", "en.night"] },
+    { "speaker": "lei", "text": "His band is playing a New Year's Eve concert near here.", "zh": "他的乐队在附近的跨年音乐会上演出。", "items": ["en.band", "en.play", "en.new_years_eve", "en.concert", "en.near_here"] },
+    { "speaker": "amy", "text": "It's 11:59! Let's count!", "zh": "11 点 59 分了!一起倒数!", "items": ["en.lets", "en.count"] },
+    { "speaker": "amy", "text": "Ten, nine, eight, seven, six, five, four, three, two, one!", "zh": "十、九、八、七、六、五、四、三、二、一!", "items": [] },
+    { "speaker": "lei", "text": "Happy New Year! Wow, the fireworks are so loud!", "zh": "新年快乐!哇,烟花好响!", "items": ["en.happy_new_year", "en.fireworks", "en.so", "en.loud"] },
+    { "speaker": "sofia", "text": "And beautiful! OK, what are your New Year's resolutions?", "zh": "也好美!好了,你们的新年计划是什么?", "items": ["en.beautiful", "en.new_years_resolution"] },
+    { "speaker": "lei", "text": "This year, I'm going to speak English every day.", "zh": "今年我要每天说英语。", "items": ["en.year", "en.going_to", "en.speak", "en.every_day"] },
+    { "speaker": "lei", "text": "And I'm going to learn to swim!", "zh": "还要学会游泳!", "items": ["en.going_to", "en.learn", "en.swim"] },
+    { "speaker": "sofia", "text": "Great goals! I'm going to dance every week. And you, Amy?", "zh": "目标真不错!我要每周去跳舞。你呢,艾米?", "items": ["en.great", "en.goal", "en.going_to", "en.dance", "en.week"] },
+    { "speaker": "amy", "text": "I'm going to start learning Chinese!", "zh": "我要开始学中文!", "items": ["en.going_to", "en.start", "en.learn"] },
+    { "speaker": "lei", "text": "Really? I can be your Chinese teacher! I promise.", "zh": "真的?我来当你的中文老师!说到做到。", "items": ["en.really", "en.can", "en.teacher", "en.promise"] }
+  ],
+  "questions": [
+    { "prompt": "马库斯今晚在哪儿?", "options": ["和大家一起看烟花", "在附近的跨年音乐会上演出", "回家过年了"], "answer": 1, "explainZh": "His band is playing a New Year's Eve concert near here.(他的乐队在附近的跨年音乐会上演出。)" },
+    { "prompt": "磊的新年计划是什么?", "options": ["每天说英语,学会游泳", "每周去跳舞", "开始学中文"], "answer": 0, "explainZh": "This year, I'm going to speak English every day. And I'm going to learn to swim!(每周跳舞是索菲亚的计划,学中文是艾米的。)" },
+    { "prompt": "艾米说要学中文,磊怎么回应?", "options": ["他觉得中文太难了", "他说自己没有时间", "他说可以当她的中文老师,还说到做到"], "answer": 2, "explainZh": "Really? I can be your Chinese teacher! I promise." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.new_year",
+      "titleZh": "新年的说法和新年计划",
+      "bodyZh": "New Year's Eve 是 12 月 31 日晚上(除夕夜),New Year's Day 是 1 月 1 日(元旦);零点大家一起倒数,喊 Happy New Year!(一般不加 a)。新年计划叫 a New Year's resolution,说计划用 be going to:This year, I'm going to speak English every day.。New Year's 里的 's 不能漏。中国的春节是 Chinese New Year(第 4 课学过)。发音:year /jɪr/ 开头是 /j/,舌面抬高,和 ear /ɪr/ 不同;Happy New Year 的重音落在 HAP- 和 YEAR 上。",
+      "examples": [
+        { "text": "Happy New Year!", "zh": "新年快乐!" },
+        { "text": "What are your New Year's resolutions?", "zh": "你的新年计划是什么?" },
+        { "text": "This year, I'm going to learn to swim.", "zh": "今年我要学会游泳。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

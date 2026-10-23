@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u18.l01", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118010,
+  "titleZh": "身体部位", "goalZh": "会说主要的身体部位,听懂健身课上老师用祈使句喊的动作指令", "canDoZh": "能说出主要的身体部位,听懂健身课上老师的动作指令",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.body", "kind": "word", "pos": "noun", "text": "body", "zh": "身体", "features": { "ipa": "ˈbɑːdi" }, "noteZh": "o 读 /ɑː/,嘴张大,别读成“波迪”;身体部位叫 body parts。" },
+    { "id": "en.head", "kind": "word", "pos": "noun", "text": "head", "zh": "头", "features": { "ipa": "hed" }, "noteZh": "ea 在这里读短音 /e/(和 bread 一样),不读 /iː/;词尾 d 轻轻收住。Hands on your head! 双手放在头上!" },
+    { "id": "en.arm", "kind": "word", "pos": "noun", "text": "arm", "zh": "胳膊;手臂", "features": { "ipa": "ɑːrm" }, "noteZh": "中文的“手”有时指整条胳膊,英语分得清:arm 是胳膊,hand 是手;美式 ar 要卷舌。" },
+    { "id": "en.hand", "kind": "word", "pos": "noun", "text": "hand", "zh": "手", "features": { "ipa": "hænd" }, "noteZh": "a 读 /æ/,嘴张大、嘴角往两边拉;词尾 nd 收住,不加元音。" },
+    { "id": "en.leg", "kind": "word", "pos": "noun", "text": "leg", "zh": "腿", "features": { "ipa": "leɡ" }, "noteZh": "leg 是整条腿,脚是 foot;词尾 g 轻轻收住,不要读成“莱格”。" },
+    { "id": "en.knee", "kind": "word", "pos": "noun", "text": "knee", "zh": "膝盖", "features": { "ipa": "niː" }, "noteZh": "开头的 k 不发音,读 /niː/(know 的 k 也不发音);Bend your knees. 屈膝。" },
+    { "id": "en.foot", "kind": "word", "pos": "noun", "text": "foot", "zh": "脚(复数 feet)", "features": { "ipa": "fʊt" }, "noteZh": "复数不加 s,是 feet /fiːt/;foot 的 oo 读短音 /ʊ/,feet 的 ee 读长音 /iː/。" },
+    { "id": "en.toe", "kind": "word", "pos": "noun", "text": "toe", "zh": "脚趾", "features": { "ipa": "toʊ" }, "noteZh": "手指是 finger,脚趾是 toe;oe 读双元音 /oʊ/,要滑完整。Touch your toes. 弯腰摸脚趾。" },
+    { "id": "en.tooth", "kind": "word", "pos": "noun", "text": "tooth", "zh": "牙齿(复数 teeth)", "features": { "ipa": "tuːθ" }, "noteZh": "复数是 teeth /tiːθ/,不说 tooths;结尾的 th 舌尖放在上下齿之间吹气,不要读成 s。" },
+    { "id": "en.touch", "kind": "word", "pos": "verb", "text": "touch", "zh": "摸;碰", "features": { "ipa": "tʌtʃ" }, "noteZh": "ou 读 /ʌ/(和 much 的元音一样),ch 读 /tʃ/;Touch your toes. 摸脚趾。" }
+  ],
+  "reviewItems": ["en.gym", "en.free", "en.never", "en.how_do_you_say", "en.crazy"],
+  "lines": [
+    { "speaker": "sofia", "text": "I never go to the gym, Lei. But this class is free!", "zh": "(周一下午,索菲亚拉着磊来到学校健身房)磊,我从来不去健身房。可这节课是免费的!", "items": ["en.never", "en.go", "en.gym", "en.class", "en.free"] },
+    { "speaker": "staff", "text": "OK, everyone! Hands on your head.", "zh": "(健身教练)好,大家!双手放在头上。", "items": ["en.hand", "en.head"] },
+    { "speaker": "staff", "text": "Now touch your knees… and touch your toes!", "zh": "现在摸膝盖……再弯腰摸脚趾!", "items": ["en.touch", "en.knee", "en.toe"] },
+    { "speaker": "lei", "text": "My toes? I can't! My arms are too short!", "zh": "摸脚趾?我够不着!我的胳膊太短了!", "items": ["en.toe", "en.cant", "en.arm", "en.too", "en.short"] },
+    { "speaker": "sofia", "text": "Lei, your hands are on your knees!", "zh": "(索菲亚笑出了声)磊,你的手还在膝盖上呢!", "items": ["en.hand", "en.knee"] },
+    { "speaker": "lei", "text": "I know. My body doesn't like this class!", "zh": "我知道。我的身体不喜欢这节课!", "items": ["en.know", "en.body", "en.like", "en.class"] },
+    { "speaker": "sofia", "text": "Lei, how do you say this in English?", "zh": "(下课后,两人站在墙上的人体海报前,索菲亚指着脚)磊,这个用英语怎么说?", "items": ["en.how_do_you_say"] },
+    { "speaker": "lei", "text": "That's a foot. One foot, two feet. And this is a leg.", "zh": "那是 foot(脚)。一只 foot,两只 feet。这是 leg(腿)。", "items": ["en.foot", "en.leg"] },
+    { "speaker": "sofia", "text": "Feet? OK. And one tooth, two tooths?", "zh": "feet?好吧。那一颗 tooth(牙),两颗 tooths?", "items": ["en.foot", "en.tooth"] },
+    { "speaker": "lei", "text": "No, two teeth! Yes, English is a little crazy.", "zh": "不对,是两颗 teeth!是啊,英语是有点疯。", "items": ["en.tooth", "en.a_little", "en.crazy"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚为什么来上这节健身课?", "options": ["她每天都去健身房", "磊非要她来", "这节课是免费的"], "answer": 2, "explainZh": "索菲亚说 I never go to the gym, Lei. But this class is free!(我从来不去健身房,可这节课是免费的!)" },
+    { "prompt": "老师让大家摸脚趾时,磊的手在哪儿?", "options": ["在头上", "还在膝盖上", "在脚趾上"], "answer": 1, "explainZh": "磊说 My toes? I can't!(够不着脚趾),索菲亚笑他 Lei, your hands are on your knees!(磊,你的手还在膝盖上呢!)" },
+    { "prompt": "“两颗牙”用英语怎么说?", "options": ["two teeth", "two tooths", "two toothes"], "answer": 0, "explainZh": "磊纠正索菲亚:No, two teeth!——tooth 的复数是 teeth,不加 s。" }
+  ],
+  "grammar": [
+    { "id": "en.g.irregular_plural_body", "titleZh": "不规则复数:foot → feet,tooth → teeth",
+      "bodyZh": "英语名词大多加 -s 变复数:arm → arms、hand → hands、leg → legs、knee → knees、toe → toes。有几个常用词不加 -s,而是改元音:foot → feet(脚)、tooth → teeth(牙齿),不说 foots、tooths;第 2 单元学过的 man → men、woman → women 也是这样。中文没有复数变化,说“两只脚”“一口牙”时最容易忘;身体部位很多是成对的,说之前想一下要不要用复数:My knees… / My feet…。发音:foot 的 oo 短 /ʊ/,feet 的 ee 长 /iː/;tooth 和 teeth 结尾都是咬舌的 /θ/,不要读成 s。",
+      "examples": [
+        { "text": "One foot, two feet.", "zh": "一只脚,两只脚。" },
+        { "text": "One tooth, two teeth.", "zh": "一颗牙,两颗牙。" },
+        { "text": "Your hands are on your knees!", "zh": "你的手还在膝盖上呢!" }
+      ] },
+    { "id": "en.g.body_commands", "titleZh": "健身课上的指令:动词原形开头,身体部位前加 your",
+      "bodyZh": "老师喊动作指令用祈使句:动词原形开头,不说 you:Touch your toes.(摸脚趾)。只说部位、省掉动词也很常见:Hands on your head!(双手放在头上!)。英语说身体部位一般要带物主代词:touch your knees、my arms、my body;中文说“摸膝盖”不用加“你的”,英语里的 your、my 却不能省,不说 Touch knees.。发音:knee 开头的 k 不发音,读 /niː/(know 也一样);手腕 wrist 开头的 w 也不发音,读 /rɪst/。",
+      "examples": [
+        { "text": "Touch your toes!", "zh": "弯腰摸脚趾!" },
+        { "text": "Hands on your head.", "zh": "双手放在头上。" },
+        { "text": "My body doesn't like this class!", "zh": "我的身体不喜欢这节课!" }
+      ] }
+  ],
+  "review": "draft"
+}

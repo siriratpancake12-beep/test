@@ -1,0 +1,80 @@
+{
+  "lang": "fr",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-5 时间与日常", "cefr": "A1", "themeZh": "钟点、星期和课表、一天的作息、平时在家做什么、日期和生日、邀请朋友和约时间。语法:钟点表达、代词式动词 se lever / se coucher、faire、on、日期的说法、疑问词 quand" },
+    { "unit": "A1-6 城市与交通", "cefr": "A1", "themeZh": "城市里常去的地方、去哪儿和怎么去、在街上问路、坐地铁、在火车站买票、介绍自己从哪儿来。语法:aller、prendre、venir、介词 à / de 和冠词的缩合(au、aux、du、des)、交通方式 en / à、命令式、近将来时 aller + 动词原形、国家前的介词" },
+    { "unit": "A1-7 购物与办事", "cefr": "A1", "themeZh": "菜市场按斤两买东西、衣服和颜色、试衣服和付款、在银行开户填表、打电话预约、给朋友挑礼物。语法:数量词 + de、颜色形容词的配合、指示形容词 ce/cet/cette/ces、trop、vouloir / pouvoir / devoir + 动词原形、il faut、年份(mille)" },
+    { "unit": "A1-8 健康、爱好与周末", "cefr": "A1", "themeZh": "身体部位和哪儿不舒服、看医生、天气和季节、兴趣爱好、上周末做了什么、周末和假期的打算。语法:avoir mal à + 冠词缩合、医生用的命令式、depuis、无人称的 il fait / il pleut、jouer à / jouer de、pourquoi / parce que、复合过去时入门(avoir / être + 过去分词)、和近将来时对比" }
+  ],
+  "lessons": [
+    {
+      "id": "fr.a1u5.r01", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-5 时间与日常", "order": 105045,
+      "titleZh": "你是早起的鸟还是夜猫子?(小测验)",
+      "goalZh": "读懂一份作息小测验的题目和结果说明,用学过的钟点和作息说法选出自己的答案",
+      "canDoZh": "能读懂杂志上关于作息的小测验,选出自己的答案并看懂结果",
+      "scenarioZh": "体裁:杂志小测验,5 道选择题 + 结果说明,旁白朗读。克洛艾在杂志上看到一个小测验,拿给浩和卢卡做:星期六你几点起床?晚上几点睡觉?早上先做什么?……多数选 A 是“早起的鸟”,多数选 C 是“夜猫子”。卢卡全选 C,浩全选 A。在第 4 课之后读,日期和月份第 5 课才学。",
+      "grammarFocusZh": "复习钟点、星期、se lever / se coucher、faire;选择题的格式 a) b) c);频率 tous les jours / souvent",
+      "skills": ["read"], "estimatedMinutes": 17.5,
+      "newItems": [
+        { "id": "fr.test", "kind": "word", "pos": "noun", "text": "le test", "zh": "测验;测试", "features": { "gender": "m", "ipa": "lə tɛst" }, "noteZh": "词尾的 st 都要读出来 [tɛst];杂志上的小测验也叫 test;faire un test = 做测验。" },
+        { "id": "fr.dormir", "kind": "word", "pos": "verb", "text": "dormir", "zh": "睡觉;睡着", "features": { "ipa": "dɔʁ.miʁ" }, "noteZh": "不规则:je dors, tu dors, il dort, nous dormons, vous dormez, ils dorment,单数词尾的 s、t 不发音;dormir 是“在睡、睡着”,se coucher 是“上床睡觉”。" },
+        { "id": "fr.toujours", "kind": "word", "pos": "adv", "text": "toujours", "zh": "总是;一直", "features": { "ipa": "tu.ʒuʁ" }, "noteZh": "s 不发音;和 souvent 一样放在变位动词后面:Il se lève toujours tôt.(他总是起得早。)中文“总是”、英语 always 都放在动词前,法语不行。" },
+        { "id": "fr.avant", "kind": "word", "pos": "prep", "text": "avant", "zh": "在……之前", "features": { "ipa": "a.vɑ̃" }, "noteZh": "和 après 相反:avant le cours(上课前)/ après le cours(下课后);an 读鼻化元音 [ɑ̃],t 不发音。" }
+      ],
+      "reviewItems": ["fr.se_lever", "fr.se_coucher", "fr.tot", "fr.tard", "fr.souvent"]
+    },
+    {
+      "id": "fr.a1u5.l06", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-5 时间与日常", "order": 105060,
+      "titleZh": "几点开门?——营业时间",
+      "goalZh": "会问和说营业时间(从几点到几点、开到几点、几点关门),看懂门口的营业时间牌",
+      "canDoZh": "能问图书馆、商店几点开门、几点关门,看懂门口的营业时间牌",
+      "scenarioZh": "星期六中午十二点半,浩和克洛艾到大学图书馆想学习,门口的牌子写着:星期一到星期五 8 h 30 – 20 h,星期六 9 h – 13 h,星期天关门——只剩半个小时了!克洛艾说法国很多地方星期天不开门;浩问面包店星期天开不开,克洛艾说宿舍楼下的面包店星期天上午开。",
+      "grammarFocusZh": "de … à … 表示时间段(de 9 h à 13 h);ouvert / fermé 和名词配合(La bibliothèque est fermée le dimanche);复习 le dimanche(每个星期天)和 24 小时制;文化:星期天很多店关门",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+      "newItems": [
+        { "id": "fr.bibliotheque", "kind": "word", "pos": "noun", "text": "la bibliothèque", "zh": "图书馆", "features": { "gender": "f", "ipa": "la bi.bli.jɔ.tɛk" }, "noteZh": "th 读 [t],è 读 [ɛ],词尾的 que 读 [k];大学图书馆口语叫 la BU;书店是 la librairie,别混。" },
+        { "id": "fr.magasin", "kind": "word", "pos": "noun", "text": "le magasin", "zh": "商店", "features": { "gender": "m", "ipa": "lə ma.ga.zɛ̃" }, "noteZh": "阳性;s 在两个元音之间读 [z],in 读鼻化元音 [ɛ̃];复数 les magasins,读音不变。" },
+        { "id": "fr.horaires", "kind": "word", "pos": "noun", "text": "les horaires", "zh": "开放时间;营业时间", "features": { "gender": "m", "ipa": "le.zɔ.ʁɛʁ" }, "noteZh": "一般用复数,阳性;h 不发音,les 和它联诵读 [z];门口的营业时间牌就叫 les horaires。" },
+        { "id": "fr.ouvert", "kind": "word", "pos": "adj", "text": "ouvert", "zh": "开着的;营业的(阳性)", "features": { "ipa": "u.vɛʁ" }, "noteZh": "阳性 ouvert 的 t 不发音;阴性 ouverte 的 t 要读出来 [u.vɛʁt];C'est ouvert ?(开着吗?)" },
+        { "id": "fr.ferme", "kind": "word", "pos": "adj", "text": "fermé", "zh": "关着的;不营业的(阳性)", "features": { "ipa": "fɛʁ.me" }, "noteZh": "阴性 fermée、复数 fermés,读音都一样;C'est fermé le dimanche.(星期天不开。)" },
+        { "id": "fr.fermer", "kind": "word", "pos": "verb", "text": "fermer", "zh": "关门;关上", "features": { "ipa": "fɛʁ.me" }, "noteZh": "规则的 -er 动词,和形容词 fermé 读音一样;La bibliothèque ferme à treize heures.(图书馆十三点关门。)" },
+        { "id": "fr.jusqu_a", "kind": "word", "pos": "prep", "text": "jusqu'à", "zh": "直到;到……为止", "features": { "ipa": "ʒys.ka" }, "noteZh": "s 要读出来;只说结束的时间:C'est ouvert jusqu'à vingt heures.(开到晚上八点。)" },
+        { "id": "fr.maintenant", "kind": "word", "pos": "adv", "text": "maintenant", "zh": "现在", "features": { "ipa": "mɛ̃t.nɑ̃" }, "noteZh": "ain 读鼻化元音 [ɛ̃],中间的 e 不读,词尾 t 不发音;放在句首或句尾都行:Maintenant, on travaille !" }
+      ],
+      "reviewItems": ["fr.boulangerie", "fr.dimanche", "fr.midi", "fr.travailler", "fr.beaucoup"]
+    },
+    {
+      "id": "fr.a1u5.l07", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-5 时间与日常", "order": 105070,
+      "titleZh": "下星期放假!——听懂老师的通知",
+      "goalZh": "听懂老师用 vous 说的放假和调课通知,没听清时说出来、复述确认,并记下日期和钟点",
+      "canDoZh": "能听懂老师关于放假和上课时间变动的口头通知,记下星期、日期和钟点",
+      "scenarioZh": "10 月 23 日星期五下课前,莫罗老师用 vous 通知大家:下星期是万圣节假期(les vacances de la Toussaint),没有课;11 月 2 日星期一开始上课,但那天十点才开始;星期四下午的课改到星期三下午。浩没听清日期,说 Je ne comprends pas…,老师放慢再说一遍;下课后浩把变动写进日程本。",
+      "grammarFocusZh": "日期、星期和钟点的综合听力;Il n'y a pas de cours(否定后的 de 复习);commencer à + 钟点(Le cours commence à dix heures);文化:法国学校的万圣节假期和 11 月 1 日 la Toussaint",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+      "newItems": [
+        { "id": "fr.vacances", "kind": "word", "pos": "noun", "text": "les vacances", "zh": "假期", "features": { "gender": "f", "ipa": "le va.kɑ̃s" }, "noteZh": "总是用复数,阴性;an 读鼻化元音 [ɑ̃],词尾 s 不发音;Bonnes vacances !(假期愉快!)" },
+        { "id": "fr.toussaint", "kind": "word", "pos": "noun", "text": "la Toussaint", "zh": "诸圣节(11 月 1 日)", "features": { "gender": "f", "ipa": "la tu.sɛ̃" }, "noteZh": "首字母大写;11 月 1 日,法国的公共假日,中文常叫“万圣节”;学校在这前后放 les vacances de la Toussaint。aint 读鼻化元音 [ɛ̃],t 不发音。" },
+        { "id": "fr.question", "kind": "word", "pos": "noun", "text": "la question", "zh": "问题;提问", "features": { "gender": "f", "ipa": "la kɛs.tjɔ̃" }, "noteZh": "tion 在 s 后面读 [tjɔ̃],不读 [sjɔ̃];Vous avez des questions ?(大家有问题吗?)指“提的问题”,东西“出了毛病”不用 question。" },
+        { "id": "fr.noter", "kind": "word", "pos": "verb", "text": "noter", "zh": "记下;写下来", "features": { "ipa": "nɔ.te" }, "noteZh": "规则的 -er 动词:je note, vous notez;听通知时说 Je note !(我记下来!)" },
+        { "id": "fr.agenda", "kind": "word", "pos": "noun", "text": "l'agenda", "zh": "日程本;记事本", "features": { "gender": "m", "ipa": "la.ʒɛ̃.da" }, "noteZh": "元音开头,要记住是阳性:mon agenda;en 在这里读 [ɛ̃],不读 [ɑ̃];手机里的日程也叫 agenda。" },
+        { "id": "fr.emploi_du_temps", "kind": "word", "pos": "noun", "text": "l'emploi du temps", "zh": "课程表;时间安排", "features": { "gender": "m", "ipa": "lɑ̃.plwa dy tɑ̃" }, "noteZh": "元音开头,阳性;temps 的 p、s 不发音;学校的“课表”就叫 l'emploi du temps。" }
+      ],
+      "reviewItems": ["fr.commencer", "fr.cours", "fr.novembre", "fr.je_ne_comprends_pas", "fr.mercredi"]
+    },
+    {
+      "id": "fr.a1u5.r02", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-5 时间与日常", "order": 105085,
+      "titleZh": "克洛艾的生日聚会邀请卡(邀请卡)",
+      "goalZh": "读懂一张电子邀请卡和几条回复,找出日期、钟点、地点、要带什么和回复的期限",
+      "canDoZh": "能读懂一张聚会邀请卡(日期、钟点、地点、要带什么、什么时候回复),并用一两句话回复",
+      "scenarioZh": "体裁:电子邀请卡 + 回复短信,约 10 句。克洛艾发给朋友们的邀请卡:11 月 7 日星期六晚上八点半,在她家(红十字区);吃的喝的请大家带;11 月 4 日前回复。后面附三条回复:浩说一定来,带橙汁;卢卡说那天晚上没空,星期天下午可以一起喝咖啡;艾米莉说她带一个蛋糕。邀请卡和每条回复都是写的人自己说(说话人 chloe、hao、lucas、emilie),称呼和落款写清是谁。pour、chez、apporter 都还没学,“要带什么”用 À manger et à boire ? C'est vous ! / Le gâteau, c'est moi ! 这样的口语说法。",
+      "grammarFocusZh": "复习日期、钟点、libre / désolé、faire une fête;邀请卡的格式;接受和婉拒的说法",
+      "skills": ["read", "write"], "estimatedMinutes": 14.5,
+      "newItems": [
+        { "id": "fr.reponse", "kind": "word", "pos": "noun", "text": "la réponse", "zh": "回答;答复", "features": { "gender": "f", "ipa": "la ʁe.pɔ̃s" }, "noteZh": "阴性;on 读鼻化元音 [ɔ̃];邀请卡上的 Réponse avant le 4 novembre = 请在 11 月 4 日以前回复。" },
+        { "id": "fr.gateau", "kind": "word", "pos": "noun", "text": "le gâteau", "zh": "蛋糕;糕点", "features": { "gender": "m", "ipa": "lə ga.to" }, "noteZh": "eau 读 [o];复数加 x:les gâteaux;生日蛋糕是 le gâteau d'anniversaire。" }
+      ],
+      "reviewItems": ["fr.anniversaire", "fr.fete", "fr.libre", "fr.desole", "fr.d_accord"]
+    }
+  ]
+}

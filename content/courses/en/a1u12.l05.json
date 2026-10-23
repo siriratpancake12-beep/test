@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u12.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112050,
+  "titleZh": "附近有什么好吃的?", "goalZh": "会用 Can you recommend…? 请人推荐餐厅,问远不远、怎么走,听懂 a ten-minute walk", "canDoZh": "能请前台推荐吃饭和游玩的地方,问清楚有多远、怎么走",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.recommend", "kind": "word", "pos": "verb", "text": "recommend", "zh": "推荐", "features": { "ipa": "ˌrekəˈmend" }, "noteZh": "Can you recommend a good restaurant? 能推荐一家好餐厅吗?;重音在最后 re-co-MMEND,拼写一个 c、两个 m。" },
+    { "id": "en.restaurant", "kind": "word", "pos": "noun", "text": "restaurant", "zh": "餐厅;饭馆", "features": { "ipa": "ˈrestərɑːnt" }, "noteZh": "美式常读成三个音节 RES-ter-rahnt,重音在前,结尾的 t 轻轻带过。" },
+    { "id": "en.real", "kind": "word", "pos": "adj", "text": "real", "zh": "真正的;正宗的", "features": { "ipa": "ˈriːəl" }, "noteZh": "real Mexican food 正宗的墨西哥菜;第 2 单元的 really 就是它加 -ly。读两个音节 REE-ul,结尾 l 要收住。" },
+    { "id": "en.burrito", "kind": "word", "pos": "noun", "text": "burrito", "zh": "墨西哥卷饼", "features": { "ipa": "bɚˈriːt̬oʊ" }, "noteZh": "用面饼卷上肉、豆子和米饭;重音在中间 bur-REE-to,t 读闪音。" },
+    { "id": "en.taco", "kind": "word", "pos": "noun", "text": "taco", "zh": "塔可(墨西哥玉米饼)", "features": { "ipa": "ˈtɑːkoʊ" }, "noteZh": "小小的玉米饼包上肉和菜,用手拿着吃;a 读 /ɑː/,复数 tacos。" },
+    { "id": "en.hungry", "kind": "word", "pos": "adj", "text": "hungry", "zh": "饿的", "features": { "ipa": "ˈhʌŋɡri" }, "noteZh": "I'm hungry. 我饿了(要用 be,不说 I hungry);ng 后面还有 g 的音 /ŋɡ/。" },
+    { "id": "en.a_ten_minute_walk", "kind": "phrase", "pos": "noun", "text": "a ten-minute walk", "zh": "走路十分钟的路程", "alt": ["ten-minute walk"], "features": { "ipa": "ə ˌten ˌmɪnɪt ˈwɑːk" }, "noteZh": "数字和 minute 用连字符连成一个形容词,minute 不加 s:a five-minute walk、a ten-minute drive(开车十分钟)。walk 的 l 不发音。" },
+    { "id": "en.amazing", "kind": "word", "pos": "adj", "text": "amazing", "zh": "太棒了;令人惊叹的", "features": { "ipa": "əˈmeɪzɪŋ" }, "noteZh": "比 good、great 语气更强,美国人夸吃的、风景都爱用;重音在 -MA-,z 要带声。" }
+  ],
+  "reviewItems": ["en.near_here", "en.lunch", "en.far", "en.go_straight", "en.block"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. Can you recommend a good restaurant near here?", "zh": "(第二天中午,伊森下午才能来)打扰一下,您能推荐附近一家好餐厅吗?", "items": ["en.excuse_me", "en.can", "en.recommend", "en.restaurant", "en.near_here"] },
+    { "speaker": "receptionist", "text": "Sure. Do you like Mexican food?", "zh": "当然。你们喜欢墨西哥菜吗?", "items": ["en.sure", "en.like", "en.food"] },
+    { "speaker": "lei", "text": "Yes! And my friend is from Mexico.", "zh": "喜欢!而且我朋友就是墨西哥人。", "items": ["en.friend"] },
+    { "speaker": "receptionist", "text": "Then try Maria's. They have real burritos and tacos.", "zh": "那就去 Maria's 试试,那儿有正宗的墨西哥卷饼和塔可。", "items": ["en.then", "en.try", "en.have", "en.real", "en.burrito", "en.taco"] },
+    { "speaker": "sofia", "text": "Real burritos for lunch? I'm so hungry!", "zh": "午饭吃正宗的卷饼?我好饿啊!", "items": ["en.real", "en.burrito", "en.lunch", "en.so", "en.hungry"] },
+    { "speaker": "lei", "text": "Is it far?", "zh": "远吗?", "items": ["en.far"] },
+    { "speaker": "receptionist", "text": "No, it's a ten-minute walk, next to Santa Monica Pier.", "zh": "不远,走路十分钟,就在圣莫尼卡码头旁边。", "items": ["en.a_ten_minute_walk", "en.next_to"] },
+    { "speaker": "receptionist", "text": "Go straight for three blocks, then turn left.", "zh": "直走三个街区,然后左转。", "items": ["en.go_straight", "en.block", "en.then", "en.turn", "en.left"] },
+    { "speaker": "lei", "text": "Thank you! Sofia, let's go.", "zh": "谢谢您!索菲亚,我们走吧。", "items": ["en.thank_you", "en.lets", "en.go"] },
+    { "speaker": "ethan", "text": "Hey, guys! Welcome to LA!", "zh": "(两人刚走到码头,伊森正好开车赶到)嘿,你们俩!欢迎来洛杉矶!", "items": ["en.hey", "en.you_guys", "en.welcome"] },
+    { "speaker": "sofia", "text": "Ethan! We're going to Maria's for burritos.", "zh": "伊森!我们要去 Maria's 吃卷饼。", "items": ["en.go", "en.burrito"] },
+    { "speaker": "ethan", "text": "Maria's? It's amazing! I can't wait.", "zh": "Maria's?那家超棒!我等不及了。", "items": ["en.amazing", "en.cant_wait"] }
+  ],
+  "questions": [
+    { "prompt": "前台推荐了一家什么样的餐厅?", "options": ["一家中餐馆", "一家墨西哥餐厅", "码头上的汉堡店"], "answer": 1, "explainZh": "前台先问 Do you like Mexican food?,再推荐 Maria's:They have real burritos and tacos.(那儿有正宗的墨西哥卷饼和塔可)。" },
+    { "prompt": "那家餐厅有多远?", "options": ["开车五分钟", "走路三十分钟", "走路十分钟"], "answer": 2, "explainZh": "前台说 it's a ten-minute walk(走路十分钟),就在码头旁边。" },
+    { "prompt": "伊森见到他们时说了什么?", "options": ["欢迎来洛杉矶!", "对不起,我迟到了", "我们去吃汉堡吧"], "answer": 0, "explainZh": "伊森说 Hey, guys! Welcome to LA!(嘿,你们俩!欢迎来洛杉矶!)" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_recommend", "titleZh": "请人推荐:Can you recommend…? / Is it far?",
+      "bodyZh": "想让本地人推荐吃饭、游玩的地方,最常用 Can you recommend a good restaurant near here?(能推荐附近一家好餐厅吗?),recommend 后面直接跟要推荐的东西。对方推荐时常说 Try…(去……试试)或 They have…(那儿有……)。接着问远不远:Is it far?,对方会说 It's close. 或 It's a ten-minute walk.,再告诉你怎么走(复习第 5 单元:Go straight… then turn left.)。发音:recommend 重音在最后 re-co-MMEND;restaurant 美式常读成三个音节 RES-ter-rahnt。",
+      "examples": [
+        { "text": "Can you recommend a good restaurant near here?", "zh": "能推荐附近一家好餐厅吗?" },
+        { "text": "Is it far? — No, it's close.", "zh": "远吗?——不远,很近。" },
+        { "text": "Go straight for three blocks, then turn left.", "zh": "直走三个街区,然后左转。" }
+      ] },
+    { "id": "en.g.u12_minute_walk", "titleZh": "a ten-minute walk:用“数字-minute”说路程",
+      "bodyZh": "说“走路十分钟”“开车五分钟”,常用 a + 数字-minute + walk / drive:It's a ten-minute walk.、It's a five-minute drive.。数字和 minute 中间加连字符,变成一个形容词放在 walk 前面,所以 minute 不加 s(不说 a ten-minutes walk),前面的 a 也不能漏。也可以用第 5 单元学过的 take:It takes ten minutes.。发音:walk 的 l 不发音,读 /wɑːk/;minute 读 /ˈmɪnɪt/。",
+      "examples": [
+        { "text": "It's a ten-minute walk.", "zh": "走路十分钟。" },
+        { "text": "It's a five-minute drive.", "zh": "开车五分钟。" }
+      ] }
+  ],
+  "review": "draft"
+}

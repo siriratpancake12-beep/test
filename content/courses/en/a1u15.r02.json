@@ -1,0 +1,40 @@
+{
+  "id": "en.a1u15.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115085,
+  "titleZh": "磊的一周计划表", "goalZh": "读懂一份一周计划表,按天说出课程、打工和要交的作业", "canDoZh": "能读懂一份一周计划表,说出每天的课、打工、学习小组和要交的作业",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
+  "newItems": [
+    { "id": "en.remember", "kind": "word", "pos": "verb", "text": "remember", "zh": "记得;记住", "features": { "ipa": "rɪˈmembɚ" }, "noteZh": "Remember: … 给自己的提醒,\"记住:……\";重音在中间 re-MEM-ber。" }
+  ],
+  "reviewItems": ["en.study_group", "en.office_hours", "en.due", "en.midterm", "en.video_call", "en.do_laundry"],
+  "lines": [
+    { "speaker": "lei", "text": "Week 8: a very busy week!", "zh": "(磊手机里的日程)第 8 周:超级忙的一周!", "items": ["en.week", "en.busy"] },
+    { "speaker": "lei", "text": "Monday: calculus at 9:00, physics lecture at 10:00, work from 2:00 to 6:00", "zh": "周一:九点微积分,十点物理课,两点到六点上班", "items": ["en.monday", "en.calculus", "en.physics", "en.lecture", "en.work"] },
+    { "speaker": "lei", "text": "Tuesday: physics lab at 1:00, then study group at 5:00, library", "zh": "周二:一点物理实验课,五点学习小组,在图书馆", "items": ["en.tuesday", "en.physics", "en.lab", "en.then", "en.study_group", "en.library"] },
+    { "speaker": "lei", "text": "Wednesday: calculus midterm at 9:00! Then work from 2:00 to 6:00", "zh": "周三:九点微积分期中考试!然后两点到六点上班", "items": ["en.wednesday", "en.calculus", "en.midterm", "en.then", "en.work"] },
+    { "speaker": "lei", "text": "Thursday: office hours at 3:00. Bring my essay!", "zh": "周四:三点去教授的答疑时间。带上我的文章!", "items": ["en.thursday", "en.office_hours", "en.bring", "en.essay"] },
+    { "speaker": "lei", "text": "Study group at 5:00. Pizza for Ethan?", "zh": "五点学习小组。给伊森带个披萨?", "items": ["en.study_group", "en.pizza"] },
+    { "speaker": "lei", "text": "Friday: Essay 2 due! Writing 2 at 11:00", "zh": "周五:第二篇文章要交!十一点写作 2", "items": ["en.friday", "en.essay", "en.due", "en.writing"] },
+    { "speaker": "lei", "text": "Music history at 2:00. No homework tonight!", "zh": "两点音乐史。今晚没有作业!", "items": ["en.music", "en.history", "en.homework", "en.tonight"] },
+    { "speaker": "lei", "text": "Saturday: do laundry and clean my room", "zh": "周六:洗衣服,打扫房间", "items": ["en.saturday", "en.do_laundry", "en.clean", "en.room"] },
+    { "speaker": "lei", "text": "Sunday night: video call with Mom, Dad, and Grandma", "zh": "周日晚上:和爸爸、妈妈、奶奶视频", "items": ["en.sunday", "en.night", "en.video_call", "en.mom", "en.dad", "en.grandma"] },
+    { "speaker": "lei", "text": "Remember: go to bed early on Tuesday night!", "zh": "记住:周二晚上早点睡!", "items": ["en.remember", "en.go_to_bed", "en.early", "en.tuesday", "en.night"] },
+    { "speaker": "lei", "text": "Remember: don't be late for work!", "zh": "记住:上班别迟到!", "items": ["en.remember", "en.late", "en.work"] }
+  ],
+  "questions": [
+    { "prompt": "这一周磊哪天考微积分期中?", "options": ["周一", "周三", "周五"], "answer": 1, "explainZh": "Wednesday: calculus midterm at 9:00!——周三上午九点。" },
+    { "prompt": "周四下午三点磊要做什么?", "options": ["去咖啡馆上班", "去学习小组", "带着文章去教授的答疑时间", "上音乐史课"], "answer": 2, "explainZh": "Thursday: office hours at 3:00. Bring my essay!——学习小组是五点,音乐史在周五。" },
+    { "prompt": "第二篇文章哪天交?", "options": ["周五", "周四", "周三"], "answer": 0, "explainZh": "Friday: Essay 2 due!——周五交。" },
+    { "prompt": "磊给自己写了什么提醒?", "options": ["周六去健身房", "周日给艾米打电话", "周五晚上写作业", "周二晚上早点睡,上班别迟到"], "answer": 3, "explainZh": "Remember: go to bed early on Tuesday night!(周三上午要考期中)/ Remember: don't be late for work!" }
+  ],
+  "grammar": [
+    { "id": "en.g.planner_notes", "titleZh": "计划表里的省略写法",
+      "bodyZh": "计划表、日程只写关键词,常常省掉主语和动词:Monday: calculus at 9:00(= I have calculus at 9:00 on Monday.);Essay 2 due!(= Essay 2 is due!);Study group at 5:00(= I'm going to the study group at 5:00.)。读的时候自己把省掉的部分补上。时间介词照常用:at + 钟点,from… to…;不加冠词的说法也照常:work、go to bed。给自己的提醒常用 Remember: + 祈使句:Remember: don't be late for work!。",
+      "examples": [
+        { "text": "Monday: calculus at 9:00", "zh": "周一:九点微积分(= 周一九点我有微积分课)" },
+        { "text": "Essay 2 due!", "zh": "第二篇文章要交!" },
+        { "text": "Remember: go to bed early on Tuesday night!", "zh": "记住:周二晚上早点睡!" }
+      ] }
+  ],
+  "review": "draft"
+}

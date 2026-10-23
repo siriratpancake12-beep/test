@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u10.l01", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110010,
+  "titleZh": "十二个月", "goalZh": "会说十二个月,用 in + 月份说节日在几月", "canDoZh": "能说出十二个月,说清楚某个节日在几月",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.february", "kind": "word", "pos": "propn", "text": "February", "zh": "二月", "features": { "ipa": "ˈfebjueri" }, "noteZh": "重音在前 FEB-;美式口语里第一个 r 常常不读,读成 /ˈfebjueri/;缩写 Feb.。" },
+    { "id": "en.march", "kind": "word", "pos": "propn", "text": "March", "zh": "三月", "features": { "ipa": "mɑːrtʃ" }, "noteZh": "首字母大写;ar 美式卷舌,结尾 ch /tʃ/ 收住不加元音;in March(在三月)。" },
+    { "id": "en.april", "kind": "word", "pos": "propn", "text": "April", "zh": "四月", "features": { "ipa": "ˈeɪprəl" }, "noteZh": "重音在前 A-pril,A 读 /eɪ/;磊的生日在四月。" },
+    { "id": "en.may", "kind": "word", "pos": "propn", "text": "May", "zh": "五月", "features": { "ipa": "meɪ" }, "noteZh": "读 /meɪ/;只有三个字母,一般不缩写;小写的 may 是另一个词(“可能”)。" },
+    { "id": "en.june", "kind": "word", "pos": "propn", "text": "June", "zh": "六月", "features": { "ipa": "dʒuːn" }, "noteZh": "u 读长音 /uː/;别和 July 搞混:June 是六月,July 是七月。" },
+    { "id": "en.july", "kind": "word", "pos": "propn", "text": "July", "zh": "七月", "features": { "ipa": "dʒʊˈlaɪ" }, "noteZh": "重音在后 ju-LY,和别的月份不一样;July 4th 是美国国庆。" },
+    { "id": "en.august", "kind": "word", "pos": "propn", "text": "August", "zh": "八月", "features": { "ipa": "ˈɑːɡəst" }, "noteZh": "Au 读 /ɑː/,重音在前 AU-gust;in August(在八月)。" },
+    { "id": "en.september", "kind": "word", "pos": "propn", "text": "September", "zh": "九月", "features": { "ipa": "sepˈtembɚ" }, "noteZh": "重音在第二个音节 sep-TEM-ber;很多美国大学八月底或九月开学。" },
+    { "id": "en.october", "kind": "word", "pos": "propn", "text": "October", "zh": "十月", "features": { "ipa": "ɑːkˈtoʊbɚ" }, "noteZh": "重音在第二个音节 oc-TO-ber;万圣节是 October 31st。" },
+    { "id": "en.november", "kind": "word", "pos": "propn", "text": "November", "zh": "十一月", "features": { "ipa": "noʊˈvembɚ" }, "noteZh": "重音在第二个音节 no-VEM-ber;感恩节在十一月。" }
+  ],
+  "reviewItems": ["en.january", "en.december", "en.christmas", "en.halloween", "en.thanksgiving"],
+  "lines": [
+    { "speaker": "sofia", "text": "OK, let's go: January, February, March, April, May, June.", "zh": "(假期里咖啡馆关门,两人在宿舍休息室做新一年的节日日历)好,开始:一月、二月、三月、四月、五月、六月。", "items": ["en.lets", "en.go", "en.january", "en.february", "en.march", "en.april", "en.may", "en.june"] },
+    { "speaker": "lei", "text": "July, August, September, October, November, December!", "zh": "七月、八月、九月、十月、十一月、十二月!", "items": ["en.july", "en.august", "en.september", "en.october", "en.november", "en.december"] },
+    { "speaker": "sofia", "text": "Great! Now the holidays. Christmas is in December.", "zh": "好!现在填节日。圣诞节在十二月。", "items": ["en.great", "en.holiday", "en.christmas", "en.december"] },
+    { "speaker": "lei", "text": "And Halloween is in October. When is Thanksgiving?", "zh": "万圣节在十月。感恩节是几月?", "items": ["en.halloween", "en.october", "en.thanksgiving"] },
+    { "speaker": "sofia", "text": "It's in November. We don't have it in Mexico.", "zh": "在十一月。我们墨西哥不过感恩节。", "items": ["en.november", "en.have"] },
+    { "speaker": "lei", "text": "In China, we have a big holiday in January or February.", "zh": "中国最大的节日在一月或者二月。", "items": ["en.have", "en.big", "en.holiday", "en.january", "en.february"] },
+    { "speaker": "sofia", "text": "Cool! Which month do you like?", "zh": "酷!你喜欢哪个月?", "items": ["en.cool", "en.which", "en.month", "en.like"] },
+    { "speaker": "lei", "text": "April! It's spring in Chengdu, and it's my birthday.", "zh": "四月!成都那时候是春天,而且是我的生日。", "items": ["en.april", "en.spring", "en.birthday"] },
+    { "speaker": "sofia", "text": "I love December: Christmas, and my birthday, too!", "zh": "我爱十二月:有圣诞节,还有我的生日!", "items": ["en.love", "en.december", "en.christmas", "en.birthday"] },
+    { "speaker": "lei", "text": "And in June, July, and August, we don't have classes!", "zh": "还有六月、七月、八月,我们不用上课!", "items": ["en.june", "en.july", "en.august", "en.have", "en.class"] }
+  ],
+  "questions": [
+    { "prompt": "感恩节在几月?", "options": ["十月", "十一月", "十二月"], "answer": 1, "explainZh": "磊问 When is Thanksgiving?,索菲亚说 It's in November.(十月是万圣节,十二月是圣诞节。)" },
+    { "prompt": "磊为什么喜欢四月?", "options": ["四月成都是春天,还有他的生日", "四月不用上课", "四月有万圣节"], "answer": 0, "explainZh": "April! It's spring in Chengdu, and it's my birthday.(不用上课的是六、七、八月。)" },
+    { "prompt": "索菲亚喜欢哪个月?为什么?", "options": ["一月,因为放寒假", "七月,因为放暑假", "十二月,有圣诞节,还有她的生日"], "answer": 2, "explainZh": "I love December: Christmas, and my birthday, too!" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.months",
+      "titleZh": "十二个月和 in + 月份",
+      "bodyZh": "十二个月:January、February、March、April、May、June、July、August、September、October、November、December。月份首字母永远大写,前面不加 the;说“在几月”用 in:in December / in April。问节日在几月:When is Thanksgiving? — It's in November.。中文的“几月”用数字,英语每个月都有自己的名字,要整个记住;写的时候常缩写成前三个字母加点:Jan.、Feb.、Dec.(May、June、July 一般不缩写)。发音:February 美式常读 /ˈfebjueri/;January、February 重音在前,July 重音在后 ju-LY。",
+      "examples": [
+        { "text": "Christmas is in December.", "zh": "圣诞节在十二月。" },
+        { "text": "When is Thanksgiving? — It's in November.", "zh": "感恩节在几月?——在十一月。" },
+        { "text": "My birthday is in April.", "zh": "我的生日在四月。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

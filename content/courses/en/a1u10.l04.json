@@ -1,0 +1,55 @@
+{
+  "id": "en.a1u10.l04", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110040,
+  "titleZh": "我是属狗的", "goalZh": "会读年份,用 be born 说出生的年份、地点和日期,简单介绍生肖", "canDoZh": "能说出自己哪年、在哪儿出生,并用英语简单介绍中国的生肖",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "en.be_born", "kind": "phrase", "pos": "verb", "text": "be born", "zh": "出生", "features": { "ipa": "bi ˈbɔːrn" }, "noteZh": "一定要有 be:I was born in 2006.(不说 I born… 也不说 I am born…);问 When were you born?。" },
+    { "id": "en.year_of_the_dog", "kind": "phrase", "pos": "noun", "text": "Year of the Dog", "zh": "狗年(属狗)", "features": { "ipa": "ˌjɪr əv ðə ˈdɑːɡ" }, "noteZh": "生肖年都这么说:the Year of the + 动物,前面加 the;the Year of the Rooster(鸡年)、the Year of the Goat(羊年)。" },
+    { "id": "en.zodiac", "kind": "word", "pos": "noun", "text": "zodiac", "zh": "生肖;星座", "features": { "ipa": "ˈzoʊdiæk" }, "noteZh": "the Chinese zodiac 是中国的十二生肖(西方的 zodiac 指十二星座);z 要带声,重音在前 ZO-diac。" },
+    { "id": "en.animal", "kind": "word", "pos": "noun", "text": "animal", "zh": "动物", "features": { "ipa": "ˈænəməl" }, "noteZh": "重音在前 AN-i-mal,a 读 /æ/;twelve animals(十二种动物)。" },
+    { "id": "en.chinese_new_year", "kind": "phrase", "pos": "propn", "text": "Chinese New Year", "zh": "春节", "features": { "ipa": "ˌtʃaɪniːz nuː ˈjɪr" }, "noteZh": "也叫 Lunar New Year 或 Spring Festival;按农历算,每年在一月底到二月中。" },
+    { "id": "en.rooster", "kind": "word", "pos": "noun", "text": "rooster", "zh": "公鸡;(生肖)鸡", "features": { "ipa": "ˈruːstɚ" }, "noteZh": "生肖里的“鸡”英语叫 Rooster;oo 读长音 /uː/;鸡肉是第 4 单元的 chicken。" },
+    { "id": "en.young", "kind": "word", "pos": "adj", "text": "young", "zh": "年轻的", "features": { "ipa": "jʌŋ" }, "noteZh": "ou 读 /ʌ/,结尾 ng 是 /ŋ/;You're so young!(你好年轻!)第 2 单元的 younger 是它的比较级。" },
+    { "id": "en.goat", "kind": "word", "pos": "noun", "text": "goat", "zh": "山羊;(生肖)羊", "features": { "ipa": "ɡoʊt" }, "noteZh": "生肖里的“羊”英语一般叫 Goat(也有人说 Sheep);oa 读 /oʊ/,词尾 t 收住。" }
+  ],
+  "reviewItems": ["en.what_does_that_mean", "en.start", "en.me_too", "en.december", "en.february"],
+  "lines": [
+    { "speaker": "marcus", "text": "So, when were you born, you guys?", "zh": "(交换完礼物,大家聊起年龄)对了,你们都是哪年出生的?", "items": ["en.be_born", "en.you_guys"] },
+    { "speaker": "lei", "text": "I was born in 2006, in Chengdu. That's the Year of the Dog!", "zh": "我 2006 年生在成都。那年是狗年!", "items": ["en.be_born", "en.year_of_the_dog"] },
+    { "speaker": "amy", "text": "The Year of the Dog? What does that mean?", "zh": "狗年?什么意思?", "items": ["en.year_of_the_dog", "en.what_does_that_mean"] },
+    { "speaker": "lei", "text": "It's the Chinese zodiac. Every year has an animal.", "zh": "是中国的生肖。每一年都有一个动物。", "items": ["en.zodiac", "en.year", "en.have", "en.animal"] },
+    { "speaker": "lei", "text": "The year starts on Chinese New Year, in January or February.", "zh": "生肖年从春节开始算,春节在一月或者二月。", "items": ["en.year", "en.start", "en.chinese_new_year", "en.january", "en.february"] },
+    { "speaker": "amy", "text": "Cool! I was born in 2005. What am I?", "zh": "酷!我是 2005 年出生的。我属什么?", "items": ["en.cool", "en.be_born"] },
+    { "speaker": "lei", "text": "2005 was the Year of the Rooster.", "zh": "2005 年是鸡年。", "items": ["en.year", "en.rooster"] },
+    { "speaker": "sofia", "text": "Me too! I was born on December 28th, 2005. That's in four days!", "zh": "我也是!我是 2005 年 12 月 28 日出生的。还有四天就到了!", "items": ["en.me_too", "en.be_born", "en.december"] },
+    { "speaker": "marcus", "text": "2006? Lei, you're so young! I was born in 2003.", "zh": "2006 年?磊,你好年轻啊!我是 2003 年出生的。", "items": ["en.so", "en.young", "en.be_born"] },
+    { "speaker": "lei", "text": "Then you're a Goat, Marcus!", "zh": "那你属羊,马库斯!", "items": ["en.then", "en.goat"] }
+  ],
+  "questions": [
+    { "prompt": "磊是哪年出生的?属什么?", "options": ["2006 年,属狗", "2005 年,属鸡", "2003 年,属羊"], "answer": 0, "explainZh": "I was born in 2006, in Chengdu. That's the Year of the Dog!(属鸡的是艾米和索菲亚,属羊的是马库斯。)" },
+    { "prompt": "磊说生肖年从什么时候开始算?", "options": ["1 月 1 日", "每个人的生日", "春节,在一月或二月"], "answer": 2, "explainZh": "The year starts on Chinese New Year, in January or February." },
+    { "prompt": "下面哪句话是对的?", "options": ["马库斯比磊小", "艾米和索菲亚都属鸡", "索菲亚的生日已经过了"], "answer": 1, "explainZh": "艾米 2005 年出生,磊说 2005 was the Year of the Rooster.;索菲亚说 Me too!,她也是 2005 年出生,生日还有四天。马库斯 2003 年出生,比磊大。" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.reading_years",
+      "titleZh": "年份的读法",
+      "bodyZh": "英语年份一般两位两位地读:1998 = nineteen ninety-eight,2026 = twenty twenty-six。2000 到 2009 年常读成 two thousand…:2003 = two thousand three,2006 = two thousand six(口语也说 twenty oh-six,这里的 0 读 oh,第 1 单元学过)。2010 年以后两种都有,两位两位读更常见:2015 = twenty fifteen。中国学生容易一个数字一个数字地读(two zero zero six),英语里年份不这么读。发音:thousand /ˈθaʊzənd/,th 咬舌,ou 读 /aʊ/,s 读 /z/。",
+      "examples": [
+        { "text": "I was born in 2006.", "zh": "我 2006 年出生(2006 读 two thousand six)。" },
+        { "text": "2005 was the Year of the Rooster.", "zh": "2005 年是鸡年(2005 读 two thousand five)。" }
+      ]
+    },
+    {
+      "id": "en.g.be_born",
+      "titleZh": "be born:说出生",
+      "bodyZh": "英语说“出生”用 be born,一定要有 be,过去的事用 was / were:I was born in 2006.(不说 I born in 2006.,也不说 I am born in 2006.)。问别人:When were you born? / Where were you born?。介词:年份、月份、城市用 in(in 2006 / in December / in Chengdu),具体哪一天用 on(on April 18th / on December 28th)。说生肖:I was born in the Year of the Dog.。",
+      "examples": [
+        { "text": "When were you born? — I was born in 2006, in Chengdu.", "zh": "你哪年出生的?——2006 年,在成都。" },
+        { "text": "Sofia was born on December 28th.", "zh": "索菲亚是 12 月 28 日出生的。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

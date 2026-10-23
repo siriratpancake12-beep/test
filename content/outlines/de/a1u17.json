@@ -12,7 +12,7 @@
       "canDoZh": "能说出常见的运动,说自己做什么运动、多久一次、在哪儿",
       "scenarioZh": "大学运动中心(der Hochschulsport)的夏季课程开始报名了。王伟和莉娜在网上看:游泳、羽毛球、篮球、瑜伽、跑步、攀岩(das Klettern)、乒乓球;莉娜每周游泳两次,王伟想试试羽毛球——在成都他常打。说话人:lena、wei。(课文:zweimal 是第 12 单元的词,还没定,说成 am Dienstag und am Freitag;频率用第 8 单元的 oft / jeden Sonntag。)",
       "grammarFocusZh": "运动的说法:Fußball / Badminton spielen、schwimmen / laufen / klettern、Yoga machen、Sport machen;频率复习(oft, jeden Sonntag, nie)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
       "newItems": [
         { "id": "de.hochschulsport", "kind": "word", "pos": "noun", "text": "der Hochschulsport", "zh": "大学运动中心;大学体育课程", "features": { "gender": "m", "plural": "-", "ipa": "ˈhoːxʃuːlˌʃpɔʁt" }, "noteZh": "die Hochschule(高校)+ der Sport:德国大学给学生开的便宜运动课,每学期报名一次,名额常常很快报满。" },
         { "id": "de.sportart", "kind": "word", "pos": "noun", "text": "die Sportart", "zh": "运动项目", "features": { "gender": "f", "plural": "die Sportarten", "ipa": "ˈʃpɔʁtˌʔaːɐ̯t" }, "noteZh": "der Sport + die Art(种类);Welche Sportarten gibt es?(有哪些运动项目?)性看最后一部分:die Art → die Sportart。" },
@@ -73,7 +73,7 @@
       "canDoZh": "能约朋友去游泳,在湖边浴场买票、问规定、租东西",
       "scenarioZh": "七月初一个很热的周六(34 度),莉娜、索菲娅和王伟骑车去湖边游泳(schwimmen gehen)。浴场要买门票,女工作人员说学生多少钱;他们租了一把遮阳伞(der Sonnenschirm);王伟游得不太好,只在浅水区游;莉娜提醒大家涂防晒霜(die Sonnencreme)。说话人:lena、sofia、wei、mitarbeiterin。(课文:不写星期几;dürfen 是第 9 单元的词,王伟问 Gibt es hier Sonnenschirme?;工作人员说右边水浅、左边只给游得好的人;Sonnencreme、mieten 是第 19 单元登记的词,莉娜提醒的是别晒伤(der Sonnenbrand)。)",
       "grammarFocusZh": "gehen + 不定式(Wir gehen schwimmen);热天的说法(Es sind 34 Grad / Mir ist heiß 当固定说法);können 问可不可以(Gibt es hier …?)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
       "newItems": [
         { "id": "de.rad", "kind": "word", "pos": "noun", "text": "das Rad", "zh": "自行车(口语);轮子", "features": { "gender": "n", "plural": "die Räder", "ipa": "ʁaːt" }, "noteZh": "das Fahrrad 的口语说法:Rad fahren(骑车)、mit dem Rad(骑车去);词尾 d 读 [t],a 是长音;复数 die Räder。" },
         { "id": "de.mir_ist_heiss", "kind": "phrase", "pos": "phrase", "text": "Mir ist heiß.", "zh": "我(觉得)很热。", "alt": ["Mir ist kalt.", "Ist Ihnen heiß?"], "features": { "ipa": "miːɐ̯ ɪst ˈhaɪ̯s" }, "noteZh": "说自己觉得热、冷用 Mir ist heiß / kalt(mir 是第三格,先整句记);千万别说 ✗ Ich bin heiß,意思完全不一样!" },
@@ -97,8 +97,8 @@
       "newItems": [
         { "id": "de.sonnig", "kind": "word", "pos": "adj", "text": "sonnig", "zh": "晴朗的;阳光充足的", "features": { "ipa": "ˈzɔnɪç" }, "noteZh": "die Sonne + -ig;天气预报常用:sonnig und heiß(晴,很热);词尾 -ig 读 [ɪç]。" },
         { "id": "de.gewitter", "kind": "word", "pos": "noun", "text": "das Gewitter", "zh": "雷雨", "features": { "gender": "n", "plural": "die Gewitter", "ipa": "ɡəˈvɪtɐ" }, "noteZh": "Es gibt ein Gewitter.(有雷雨。)夏天的柏林下午常有雷雨,湖边要早点离开水;单复数同形。" },
-        { "id": "de.warnung", "kind": "word", "pos": "noun", "text": "die Warnung", "zh": "警告;预警", "features": { "gender": "f", "plural": "die Warnungen", "ipa": "ˈvaʁnʊŋ" }, "noteZh": "die Hitzewarnung(高温预警)、die Gewitterwarnung(雷雨预警);天气 App 常发;-ung 结尾的名词都是阴性。" },
-        { "id": "de.hitze", "kind": "word", "pos": "noun", "text": "die Hitze", "zh": "炎热;高温", "features": { "gender": "f", "plural": "-", "ipa": "ˈhɪtsə" }, "noteZh": "heiß 的名词:Hitze in Berlin!(柏林高温!)天气 App 会发 Hitzewarnung(高温警报);不可数。" }
+        { "id": "de.hitze", "kind": "word", "pos": "noun", "text": "die Hitze", "zh": "炎热;高温", "features": { "gender": "f", "plural": "-", "ipa": "ˈhɪtsə" }, "noteZh": "heiß 的名词:Hitze in Berlin!(柏林高温!)天气 App 会发 Hitzewarnung(高温预警);不可数。" },
+        { "id": "de.warnung", "kind": "word", "pos": "noun", "text": "die Warnung", "zh": "警告;预警", "features": { "gender": "f", "plural": "die Warnungen", "ipa": "ˈvaʁnʊŋ" }, "noteZh": "die Hitzewarnung(高温预警)、die Gewitterwarnung(雷雨预警);天气 App 常发;-ung 结尾的名词都是阴性。" }
       ],
       "reviewItems": ["de.grad", "de.schatten", "de.bleiben", "de.wichtig", "de.rad"]
     },
@@ -149,7 +149,7 @@
       "titleZh": "太热了,睡不着",
       "goalZh": "会说热天里身体的感受,听懂和给出简单的建议",
       "canDoZh": "能说热天里身体的感受,给别人简单的建议",
-      "scenarioZh": "连续几天 35 度,WG 没有空调。早上大家都很累:约纳斯说晚上热得睡不好(Ich schlafe schlecht),索菲娅头疼,王伟说成都夏天更热,但到处有空调;霍夫曼先生在楼道里分享他的“老办法”:白天关窗、拉上窗帘,晚上开窗,多喝水,洗个凉水澡。说话人:jonas、sofia、wei、hoffmann。(课文:比较级 A2 才学,王伟说成都夏天也很热、常常 38 度;öffnen、aufmachen、zumachen 是第 10–12 单元的词,还没定,霍夫曼先生说 Schließen Sie am Tag die Fenster … Am Abend lüften Sie.)",
+      "scenarioZh": "连续几天 35 度,WG 没有空调。早上大家都很累:约纳斯说晚上热得睡不好(Ich schlafe schlecht),索菲娅头疼,王伟说成都夏天更热,但到处有空调;霍夫曼先生在楼道里分享他的“老办法”:白天关窗、拉上窗帘,晚上开窗,多喝水,洗个凉水澡。说话人:jonas、sofia、wei、hoffmann。(课文:比较级 A2 才学,王伟说成都夏天也很热、常常 38 度;öffnen、aufmachen、zumachen 是第 10–12 单元的词,还没定,霍夫曼先生说 Schließen Sie am Tag die Fenster … Am Abend lüften Sie.;“多喝水”是约纳斯对头疼的索菲娅说 trink viel Wasser!)",
       "grammarFocusZh": "身体感受的说法复习(Ich bin müde / Ich habe Kopfschmerzen / Mir ist heiß);du 和 Sie 的命令式复习(Trink viel Wasser! / Schließen Sie die Fenster!)",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
       "newItems": [
@@ -171,7 +171,7 @@
       "canDoZh": "能回答关于运动和生活习惯的采访,讲自己最近的运动经历",
       "scenarioZh": "大学电台在湖边做夏日采访(播音员用 radio 角色):问路过的学生运动吗、多久一次、夏天最喜欢做什么。王伟和莉娜接受采访:王伟讲他报了羽毛球课、上周第一次在湖里游泳、昨天骑了 30 公里;莉娜讲她的游泳习惯。说话人:radio、wei、lena。(课文:Radio 是第 9 单元的词,播音员说 Heute machen wir Interviews am See;对学生用 ihr / du;“第一次”说成 Das war neu für mich!)",
       "grammarFocusZh": "复习:不规则动词、gehen + 不定式、频率副词、完成时(Ich bin dreißig Kilometer gefahren)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 22,
       "newItems": [
         { "id": "de.interview", "kind": "word", "pos": "noun", "text": "das Interview", "zh": "采访;访谈", "features": { "gender": "n", "plural": "die Interviews", "ipa": "ˈɪntɐˌvjuː" }, "noteZh": "英语借来的词:ein Interview machen(做采访);找工作的面试德语常说 das Vorstellungsgespräch。" }
       ],
@@ -182,9 +182,9 @@
       "titleZh": "我在柏林的第一个夏天",
       "goalZh": "读懂一篇讲夏天活动的博客,说出作者做了什么、觉得怎么样",
       "canDoZh": "能读懂一篇讲夏天活动的博客,说出作者做了什么、觉得怎么样",
-      "scenarioZh": "体裁:博客。王伟写他在柏林的第一个夏天:白天很长,晚上十点天还亮;周末大家去湖边、烧烤、骑车;他开始打羽毛球,每周两次;那场球赛大家都很激动;唯一的问题是太热,没有空调。用完成时和现在时写。说话人:wei(博客)。(课文:每周两次说成 am Dienstag … am Donnerstag;结尾说八月回成都,那儿也很热。)",
+      "scenarioZh": "体裁:博客。王伟写他在柏林的第一个夏天:白天很长,晚上十点天还亮;周末大家去湖边、烧烤、骑车;他开始打羽毛球,每周两次;那场球赛大家都很激动;唯一的问题是太热,没有空调。用完成时和现在时写。说话人:wei(博客)。(课文:王伟周末在冰淇淋店上班,去湖边说成 Am Abend fahren wir oft mit dem Rad zum See;每周两次说成 am Dienstag im Kurs und am Donnerstag mit Freunden;结尾说八月回成都,那儿也很热。)",
       "grammarFocusZh": "复习:完成时(haben / sein)、频率副词、天气的说法;讲习惯用现在时、讲做过的事用完成时",
-      "skills": ["read", "write"], "estimatedMinutes": 12,
+      "skills": ["read", "write"], "estimatedMinutes": 12.5,
       "newItems": [],
       "reviewItems": ["de.lang", "de.hell", "de.spannend", "de.klimaanlage", "de.trick"]
     }

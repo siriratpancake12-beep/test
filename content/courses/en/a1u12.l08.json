@@ -1,0 +1,44 @@
+{
+  "id": "en.a1u12.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112080,
+  "titleZh": "单元复习:退房", "goalZh": "综合用 Could I / Could you…?、说问题和价格,独立办完退房、核对账单、寄存行李和叫车", "canDoZh": "能独立办退房:还房卡、核对账单、寄存行李、请前台帮忙叫车",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 23,
+  "newItems": [
+    { "id": "en.bill", "kind": "word", "pos": "noun", "text": "bill", "zh": "账单", "features": { "ipa": "bɪl" }, "noteZh": "酒店、手机、水电的账单都叫 bill;美国餐厅结账习惯说 check(第 4 单元)。i 是短音,结尾 l 要收住。" },
+    { "id": "en.wrong", "kind": "word", "pos": "adj", "text": "wrong", "zh": "错的;不对的", "features": { "ipa": "rɑːŋ" }, "noteZh": "This is wrong. 这不对;w 不发音,读 /rɑːŋ/,结尾是后鼻音 /ŋ/。" }
+  ],
+  "reviewItems": ["en.check_out", "en.could", "en.keep", "en.sorry_about_that", "en.parking", "en.safe"],
+  "lines": [
+    { "speaker": "lei", "text": "Hi. We'd like to check out, please.", "zh": "(周四中午,退房那天)你好,我们要退房。", "items": ["en.hi", "en.id_like_to", "en.check_out"] },
+    { "speaker": "lei", "text": "Here are our keys, for 604 and 514.", "zh": "这是我们的房卡,604 和 514 的。", "items": ["en.key"] },
+    { "speaker": "receptionist", "text": "Thank you. How was everything?", "zh": "谢谢。住得怎么样?", "items": ["en.thank_you"] },
+    { "speaker": "lei", "text": "The rooms were great. But there was no hot water the first night.", "zh": "房间很好。不过第一晚没有热水。", "items": ["en.room", "en.great", "en.hot", "en.water", "en.night"] },
+    { "speaker": "receptionist", "text": "I'm so sorry about that. Here's your bill.", "zh": "真是抱歉。这是你们的账单。", "items": ["en.sorry_about_that", "en.bill"] },
+    { "speaker": "lei", "text": "Hmm, this is wrong. What's this? Parking, 40 dollars?", "zh": "嗯,这不对。这是什么?停车费 40 美元?", "items": ["en.wrong", "en.parking", "en.dollar"] },
+    { "speaker": "sofia", "text": "We don't have a car. We didn't drive here.", "zh": "我们没有车,不是开车来的。", "items": ["en.have", "en.car", "en.drive"] },
+    { "speaker": "receptionist", "text": "Oh, I'm sorry! That's not your car. Here's a new bill.", "zh": "哦,对不起!那不是你们的车。给您一张新的账单。", "items": ["en.sorry", "en.car", "en.new", "en.bill"] },
+    { "speaker": "lei", "text": "That's OK. Could you keep our bags? We're coming back at four.", "zh": "没关系。能帮我们寄存一下行李吗?我们四点回来。", "items": ["en.thats_ok", "en.could", "en.keep", "en.bag", "en.come_back"] },
+    { "speaker": "receptionist", "text": "Of course. Anything else?", "zh": "当然。还有别的事吗?", "items": ["en.of_course", "en.anything_else"] },
+    { "speaker": "sofia", "text": "Could you call a car for us at four? We're going to the airport.", "zh": "能请您四点帮我们叫一辆车吗?我们要去机场。", "items": ["en.could", "en.call", "en.car", "en.go", "en.airport"] },
+    { "speaker": "receptionist", "text": "Sure, no problem. Have a safe trip home!", "zh": "好的,没问题。祝你们一路平安!", "items": ["en.sure", "en.no_problem", "en.safe", "en.trip", "en.home"] },
+    { "speaker": "lei", "text": "Thank you for everything!", "zh": "谢谢您这几天的帮忙!", "items": ["en.thank_you"] },
+    { "speaker": "sofia", "text": "Thanks! Have a nice day!", "zh": "谢谢!祝您今天愉快!", "items": ["en.thank_you", "en.have_a_nice_day"] }
+  ],
+  "questions": [
+    { "prompt": "磊对这几天的住宿有什么意见?", "options": ["房间太小", "第一晚没有热水", "早餐不好吃"], "answer": 1, "explainZh": "磊说 The rooms were great. But there was no hot water the first night.(房间很好,不过第一晚没有热水)。" },
+    { "prompt": "账单哪里错了?", "options": ["多算了 40 美元停车费", "多算了一晚房费", "少算了税"], "answer": 0, "explainZh": "磊说 Parking, 40 dollars?,索菲亚说 We don't have a car. We didn't drive here.(我们没有车)。" },
+    { "prompt": "下午四点以前,他们的行李放在哪儿?", "options": ["伊森的车上", "机场", "酒店前台"], "answer": 2, "explainZh": "磊问 Could you keep our bags? We're coming back at four.,前台说 Of course.。" },
+    { "prompt": "四点他们要去哪儿?", "options": ["码头", "机场", "伊森家"], "answer": 1, "explainZh": "索菲亚说 Could you call a car for us at four? We're going to the airport.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_review", "titleZh": "单元小结:住酒店的几种说法",
+      "bodyZh": "这个单元在酒店里用到的说法,退房时会一起用上:① 礼貌请求:Could I…? / Could you…?(Could you keep our bags?),回答 Sure. / Of course.;② 说问题:… doesn't work. / There's no hot water.;③ 道歉和回应:I'm so sorry about that. — That's OK.;④ 价格:189 dollars per night, plus tax;Does that include…?;⑤ 用过去时说住得怎么样:The rooms were great. But there was no hot water the first night.(there was 是 there is 的过去式)。提意见时语气平和:先说好的,用 but 转折前稍停一下,再说问题。发现账单不对,直接说 This is wrong.,再指出是哪一项。",
+      "examples": [
+        { "text": "Could you keep our bags? — Of course.", "zh": "能帮我们寄存一下行李吗?——当然。" },
+        { "text": "There was no hot water the first night.", "zh": "第一晚没有热水。" },
+        { "text": "Hmm, this is wrong. Parking, 40 dollars?", "zh": "嗯,这不对。停车费 40 美元?" },
+        { "text": "I'm so sorry about that. — That's OK.", "zh": "真是抱歉。——没关系。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,55 @@
+{
+  "id": "en.a1u10.l06", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110060,
+  "titleZh": "生日派对上", "goalZh": "会说生日派对上的祝福和固定说法,用感叹句的语调", "canDoZh": "能在生日派对上说祝福、唱生日歌、送卡片,回应过生日的朋友",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "en.cry", "kind": "word", "pos": "verb", "text": "cry", "zh": "哭", "features": { "ipa": "kraɪ" }, "noteZh": "过去式 cried;Don't cry!(别哭!)cr 连在一起读,中间不加元音。" },
+    { "id": "en.hug", "kind": "word", "pos": "noun", "text": "hug", "zh": "拥抱", "features": { "ipa": "hʌɡ" }, "noteZh": "a big hug(一个大大的拥抱);也能当动词:hug me(抱抱我);u 读 /ʌ/。" },
+    { "id": "en.make_a_wish", "kind": "phrase", "pos": "phrase", "text": "make a wish", "zh": "许愿", "features": { "ipa": "ˌmeɪk ə ˈwɪʃ" }, "noteZh": "过生日吹蜡烛前,大家会说 Make a wish!(许个愿吧!)wish 的 sh 嘴唇要往前突。" },
+    { "id": "en.blow_out", "kind": "phrase", "pos": "verb", "text": "blow out", "zh": "吹灭", "features": { "ipa": "ˌbloʊ ˈaʊt" }, "noteZh": "Blow out the candles!(吹蜡烛!)过去式 blew out;连读成 “blo-wout”。" },
+    { "id": "en.cut", "kind": "word", "pos": "verb", "text": "cut", "zh": "切;剪", "features": { "ipa": "kʌt" }, "noteZh": "过去式还是 cut;cut the cake(切蛋糕);u 读 /ʌ/,词尾 t 收住。" },
+    { "id": "en.birthday_card", "kind": "phrase", "pos": "noun", "text": "birthday card", "zh": "生日贺卡", "features": { "ipa": "ˈbɝːθdeɪ kɑːrd" }, "noteZh": "card 在这里是“卡片、贺卡”,和第 4 单元的 card(银行卡)是同一个词的不同意思;重音在 BIRTH-。" },
+    { "id": "en.sweet", "kind": "word", "pos": "adj", "text": "sweet", "zh": "甜的;(人)贴心的", "features": { "ipa": "swiːt" }, "noteZh": "That's so sweet!(你真贴心!)ee 读长音 /iː/;sw 开头双唇先收圆。" },
+    { "id": "en.wonderful", "kind": "word", "pos": "adj", "text": "wonderful", "zh": "很棒的;太好了", "features": { "ipa": "ˈwʌndɚfəl" }, "noteZh": "重音在前 WON-der-ful,o 读 /ʌ/;a wonderful birthday(一个特别棒的生日)。" }
+  ],
+  "reviewItems": ["en.surprise", "en.birthday", "en.candle", "en.cake", "en.this_is_for_you"],
+  "lines": [
+    { "speaker": "amy", "text": "Surprise! Happy birthday, Sofia!", "zh": "(28 号晚上,索菲亚推门进来)惊喜!生日快乐,索菲亚!", "items": ["en.surprise", "en.happy", "en.birthday"] },
+    { "speaker": "sofia", "text": "What? You guys! Oh, I'm going to cry!", "zh": "什么?你们!天哪,我要哭了!", "items": ["en.you_guys", "en.going_to", "en.cry"] },
+    { "speaker": "marcus", "text": "Don't cry! Here, a big hug!", "zh": "别哭!来,抱一个!", "items": ["en.cry", "en.big", "en.hug"] },
+    { "speaker": "amy", "text": "Now make a wish and blow out the candles!", "zh": "(马库斯弹吉他,大家唱完生日歌)现在许个愿,吹蜡烛!", "items": ["en.make_a_wish", "en.blow_out", "en.candle"] },
+    { "speaker": "sofia", "text": "Twenty candles! OK... Wow!", "zh": "二十根蜡烛!好……(一口气吹灭)哇!", "items": ["en.candle"] },
+    { "speaker": "amy", "text": "Who wants cake? I can cut it.", "zh": "谁要蛋糕?我来切。", "items": ["en.want", "en.cake", "en.can", "en.cut"] },
+    { "speaker": "lei", "text": "Sofia, this is for you. It's a birthday card.", "zh": "索菲亚,这是给你的,一张生日卡。", "items": ["en.this_is_for_you", "en.birthday_card"] },
+    { "speaker": "sofia", "text": "It's in Spanish! That's so sweet, Lei.", "zh": "是西班牙语写的!你太贴心了,磊。(卡片上用西班牙语写着“生日快乐”)", "items": ["en.so", "en.sweet"] },
+    { "speaker": "lei", "text": "Is my Spanish OK?", "zh": "我的西班牙语写得对吗?", "items": [] },
+    { "speaker": "sofia", "text": "Not bad! Thank you, guys. This is a wonderful birthday!", "zh": "还不错!(笑着教他读了一遍)谢谢你们。这个生日太棒了!", "items": ["en.thank_you", "en.guy", "en.wonderful", "en.birthday"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚进门时是什么反应?", "options": ["她有点生气", "她以为走错了房间", "她激动得快哭了"], "answer": 2, "explainZh": "What? You guys! Oh, I'm going to cry!(我要哭了!)" },
+    { "prompt": "许完愿,索菲亚接着做什么?", "options": ["吹蜡烛", "切蛋糕", "打开礼物"], "answer": 0, "explainZh": "Now make a wish and blow out the candles!(切蛋糕的是艾米。)" },
+    { "prompt": "磊送的生日卡有什么特别的?", "options": ["是他自己画的", "是用西班牙语写的", "里面夹着一张照片"], "answer": 1, "explainZh": "It's in Spanish! That's so sweet, Lei.(卡片是用西班牙语写的。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.party_phrases",
+      "titleZh": "生日派对上的固定说法",
+      "bodyZh": "生日派对上常用这几句:Surprise!(惊喜!)Happy birthday!(生日快乐!)Make a wish!(许个愿!)Blow out the candles!(吹蜡烛!)Who wants cake?(谁要蛋糕?)。收到礼物和祝福:That's so sweet!(你真贴心!)Thank you, guys!。朋友激动得要哭时:Don't cry! / Here, a big hug!。这些都是整句记住、整句用的说法。",
+      "examples": [
+        { "text": "Make a wish and blow out the candles!", "zh": "许个愿,吹蜡烛!" },
+        { "text": "Who wants cake? I can cut it.", "zh": "谁要蛋糕?我来切。" }
+      ]
+    },
+    {
+      "id": "en.g.exclamation_tone",
+      "titleZh": "感叹句的语调",
+      "bodyZh": "感叹句开头音调高、句末往下降:Happy BIRTHday! ↘ / SurPRISE! ↘ / That's so SWEET! ↘。重音落在最重要的词上,语气要足——中文说“生日快乐”语调比较平,英语平平地说会显得不太热情。so 放在形容词前面加强语气:That's so sweet! / This is so fun!。",
+      "examples": [
+        { "text": "Happy birthday, Sofia!", "zh": "生日快乐,索菲亚!" },
+        { "text": "That's so sweet!", "zh": "你太贴心了!" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

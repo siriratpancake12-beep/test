@@ -1,0 +1,54 @@
+{
+  "id": "en.a1u10.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110020,
+  "titleZh": "你的生日是几月几号?", "goalZh": "会用序数词说日期,问别人的生日,看懂美式日期", "canDoZh": "能问别人的生日,说出完整的日期,看懂美式日期的写法",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "en.list", "kind": "word", "pos": "noun", "text": "list", "zh": "清单", "features": { "ipa": "lɪst" }, "noteZh": "make a list(列个清单);i 读短音 /ɪ/,结尾 st 不加元音。" },
+    { "id": "en.calendar", "kind": "word", "pos": "noun", "text": "calendar", "zh": "日历", "features": { "ipa": "ˈkæləndɚ" }, "noteZh": "重音在前 CAL-en-dar,第一个 a 读 /æ/;on my calendar(在我的日历上)。" },
+    { "id": "en.whens_your_birthday", "kind": "phrase", "pos": "phrase", "text": "When's your birthday", "zh": "你的生日是哪天?", "features": { "ipa": "ˌwenz jɚ ˈbɝːθdeɪ" }, "noteZh": "When's = When is;回答 It's on April 18th.,也可以只说日期;反问 And you? 就行。" },
+    { "id": "en.surprise", "kind": "word", "pos": "noun", "text": "surprise", "zh": "惊喜;意外", "features": { "ipa": "sɚˈpraɪz" }, "noteZh": "重音在后 sur-PRISE,词尾 s 读 /z/;a surprise party(惊喜派对);进门时大家喊 Surprise!(惊喜!)" },
+    { "id": "en.secret", "kind": "word", "pos": "noun", "text": "secret", "zh": "秘密", "features": { "ipa": "ˈsiːkrət" }, "noteZh": "It's a secret!(先保密!)重音在前 SE-cret,第一个 e 读 /iː/。" },
+    { "id": "en.date", "kind": "word", "pos": "noun", "text": "date", "zh": "日期", "features": { "ipa": "deɪt" }, "noteZh": "What's the date today?(今天几号?)和问星期几的 What day is it? 不一样;a 读 /eɪ/。" },
+    { "id": "en.year", "kind": "word", "pos": "noun", "text": "year", "zh": "年", "features": { "ipa": "jɪr" }, "noteZh": "开头是 /j/,舌面抬高,和 ear /ɪr/ 不同;next year(明年)、every year(每年)。" },
+    { "id": "en.different", "kind": "word", "pos": "adj", "text": "different", "zh": "不同的", "features": { "ipa": "ˈdɪfɚənt" }, "noteZh": "重音在前,口语常读成两个音节 “DIF-rent”;It's different!(不一样!)" }
+  ],
+  "reviewItems": ["en.birthday", "en.party", "en.sounds_good", "en.see_you_later", "en.december"],
+  "lines": [
+    { "speaker": "amy", "text": "I'm making a birthday list for my calendar!", "zh": "(艾米拿着手机)我在给日历做一份大家的生日清单!", "items": ["en.make", "en.birthday", "en.list", "en.calendar"] },
+    { "speaker": "amy", "text": "Lei, when's your birthday?", "zh": "磊,你生日是哪天?", "items": ["en.whens_your_birthday"] },
+    { "speaker": "lei", "text": "It's on April 18th. And you, Sofia? When's your birthday?", "zh": "4 月 18 日。你呢,索菲亚?你生日是哪天?", "items": ["en.april", "en.whens_your_birthday"] },
+    { "speaker": "sofia", "text": "It's on December 28th. OK, see you later, guys!", "zh": "12 月 28 日。好啦,回头见!(索菲亚先走了)", "items": ["en.december", "en.see_you_later", "en.guy"] },
+    { "speaker": "amy", "text": "December 28th? That's in winter break!", "zh": "12 月 28 日?就在寒假里!", "items": ["en.december", "en.winter_break"] },
+    { "speaker": "amy", "text": "Lei, let's have a surprise party for her. It's a secret!", "zh": "磊,我们给她办个惊喜派对吧。先保密!", "items": ["en.lets", "en.have", "en.surprise", "en.party", "en.secret"] },
+    { "speaker": "lei", "text": "Sounds good! So on your calendar, the month comes first?", "zh": "好啊!咦,你日历上是月份写在前面?", "items": ["en.sounds_good", "en.calendar", "en.month", "en.come", "en.first"] },
+    { "speaker": "amy", "text": "Yes. In the US, the date is month, day, year.", "zh": "对。在美国,日期是按月、日、年写的。", "items": ["en.date", "en.month", "en.year"] },
+    { "speaker": "lei", "text": "In China, it's year, month, day. It's different!", "zh": "在中国是年、月、日。不一样!", "items": ["en.year", "en.month", "en.different"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚的生日是哪天?", "options": ["4 月 18 日", "12 月 18 日", "12 月 28 日"], "answer": 2, "explainZh": "It's on December 28th.(4 月 18 日是磊的生日。)" },
+    { "prompt": "索菲亚走了以后,艾米想做什么?", "options": ["给索菲亚买机票", "悄悄给索菲亚办一个惊喜派对", "把生日清单发给大家"], "answer": 1, "explainZh": "Lei, let's have a surprise party for her. It's a secret!" },
+    { "prompt": "美国的日期按什么顺序写?", "options": ["月、日、年", "年、月、日", "日、月、年"], "answer": 0, "explainZh": "In the US, the date is month, day, year.(磊说中国是 year, month, day。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.ordinal_dates",
+      "titleZh": "序数词和日期的读法",
+      "bodyZh": "说日期要用序数词(第几):1st first、2nd second、3rd third、4th fourth、5th fifth……18th eighteenth、20th twentieth、21st twenty-first、28th twenty-eighth、31st thirty-first。规律是数字加 -th;要特别记的是 first、second、third,还有拼写有变化的 fifth、eighth、ninth、twelfth、twentieth。'几月几号'说成 月份 + 序数词:April 18th 读 April eighteenth(也可以说 the eighteenth of April,美国人更常用前一种)。中国学生常读成基数词 April eighteen,要改成 eighteenth。发音:fourth、fifth、sixth、twelfth 结尾的 /θ/ 要咬舌,fifth /fɪfθ/、twelfth /twelfθ/ 里的辅音要连着读完,不能吞掉。",
+      "examples": [
+        { "text": "My birthday is on April eighteenth.", "zh": "我的生日是 4 月 18 日。" },
+        { "text": "Her birthday is on December twenty-eighth.", "zh": "她的生日是 12 月 28 日。" }
+      ]
+    },
+    {
+      "id": "en.g.on_date_us_format",
+      "titleZh": "on + 日期;美国日期的写法",
+      "bodyZh": "具体哪一天前面用 on:on April 18th / on December 28th;只说月份用 in:in December。问生日:When's your birthday? — It's on April 18th.(也可以只答 April 18th.)。美国写日期是“月/日/年”:4/18/2006 就是 2006 年 4 月 18 日;中国是“年/月/日”:2006/4/18。英国和很多欧洲国家把日写在月前面:在美国 5/6 是 5 月 6 日,在英国是 6 月 5 日,看到日期要先想想是哪国的写法。",
+      "examples": [
+        { "text": "When's your birthday? — It's on April 18th.", "zh": "你生日是哪天?——4 月 18 日。" },
+        { "text": "In the US, the date is month, day, year.", "zh": "在美国,日期按月、日、年写。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

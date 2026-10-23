@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u18.l05", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118050,
+  "titleZh": "绕着湖跑一圈", "goalZh": "会用 along、across、through、up、down 等介词说一条跑步或散步的路线", "canDoZh": "能说清楚一条跑步或散步的路线:沿着哪儿、穿过哪儿、上坡还是下坡",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.along", "kind": "word", "pos": "prep", "text": "along", "zh": "沿着", "features": { "ipa": "əˈlɑːŋ" }, "noteZh": "run along the lake 沿着湖跑;重音在后 a-LONG,美式 o 读 /ɑː/,结尾 ng 读 /ŋ/。" },
+    { "id": "en.across", "kind": "word", "pos": "prep", "text": "across", "zh": "横过;从一边到另一边", "features": { "ipa": "əˈkrɑːs" }, "noteZh": "go across the bridge 过桥;第 5 单元的 across from(在……对面)说位置,across 说路线。" },
+    { "id": "en.through", "kind": "word", "pos": "prep", "text": "through", "zh": "穿过;从……中间过", "features": { "ipa": "θruː" }, "noteZh": "through the trees 从树林中间穿过去;thr 先咬舌发 /θ/,马上卷舌发 r;gh 不发音。" },
+    { "id": "en.around", "kind": "word", "pos": "prep", "text": "around", "zh": "绕着;围着", "features": { "ipa": "əˈraʊnd" }, "noteZh": "run around the lake 绕着湖跑一圈;重音在后 a-ROUND,ou 读 /aʊ/。" },
+    { "id": "en.up", "kind": "word", "pos": "prep", "text": "up", "zh": "向上;往……上", "features": { "ipa": "ʌp" }, "noteZh": "run up the hill 跑上坡;u 读 /ʌ/,短而轻;和 down 是一对。" },
+    { "id": "en.down", "kind": "word", "pos": "prep", "text": "down", "zh": "向下;往……下", "features": { "ipa": "daʊn" }, "noteZh": "walk down the hill 走下坡;ow 读 /aʊ/,从 a 滑到 u,不要读成“当”。" },
+    { "id": "en.into", "kind": "word", "pos": "prep", "text": "into", "zh": "进入;到……里面", "features": { "ipa": "ˈɪntuː" }, "noteZh": "go into the cafe 走进咖啡店;in 说“在里面”(位置),into 说“进到里面”(动作)。" },
+    { "id": "en.bridge", "kind": "word", "pos": "noun", "text": "bridge", "zh": "桥", "features": { "ipa": "brɪdʒ" }, "noteZh": "西雅图湖多、桥也多;dge 读 /dʒ/,词尾不要加元音。" },
+    { "id": "en.hill", "kind": "word", "pos": "noun", "text": "hill", "zh": "小山;山坡", "features": { "ipa": "hɪl" }, "noteZh": "比 mountain 小;up the hill 上坡、down the hill 下坡;结尾是“暗 L”,舌尖抬起。" },
+    { "id": "en.tree", "kind": "word", "pos": "noun", "text": "tree", "zh": "树", "features": { "ipa": "triː" }, "noteZh": "tr 连在一起,像“戳”的声母再加卷舌;ee 读长音 /iː/。" }
+  ],
+  "reviewItems": ["en.run", "en.lake", "en.past", "en.cafe", "en.wait"],
+  "lines": [
+    { "speaker": "sofia", "text": "Lei, do you want to go running on Sunday morning?", "zh": "(周五下课后)磊,周日早上想不想去跑步?", "items": ["en.do_you_want_to", "en.go", "en.run", "en.sunday", "en.morning"] },
+    { "speaker": "lei", "text": "Sure! Where do you run?", "zh": "好啊!你在哪儿跑?", "items": ["en.sure", "en.run"] },
+    { "speaker": "sofia", "text": "I run around the lake every Sunday.", "zh": "我每个周日都绕着湖跑一圈。", "items": ["en.run", "en.around", "en.lake", "en.sunday"] },
+    { "speaker": "sofia", "text": "First, we run along the lake.", "zh": "先沿着湖边跑。", "items": ["en.first", "en.run", "en.along", "en.lake"] },
+    { "speaker": "sofia", "text": "Then we go across the bridge and through the trees.", "zh": "然后过桥,再从树林里穿过去。", "items": ["en.then", "en.go", "en.across", "en.bridge", "en.through", "en.tree"] },
+    { "speaker": "sofia", "text": "Then we run up the hill, past the bus stop.", "zh": "然后跑上山坡,经过公交车站。", "items": ["en.then", "en.run", "en.up", "en.hill", "en.past", "en.bus_stop"] },
+    { "speaker": "sofia", "text": "And then down the hill and into the cafe!", "zh": "最后跑下坡,直接进咖啡店!", "items": ["en.then", "en.down", "en.hill", "en.into", "en.cafe"] },
+    { "speaker": "lei", "text": "Into the cafe? I like this plan!", "zh": "进咖啡店?这个安排我喜欢!", "items": ["en.into", "en.cafe", "en.like", "en.plan"] },
+    { "speaker": "lei", "text": "Sofia, wait! I can't run up this hill!", "zh": "(周日早上,上坡的路上)索菲亚,等等!这个坡我跑不上去了!", "items": ["en.wait", "en.cant", "en.run", "en.up", "en.hill"] },
+    { "speaker": "sofia", "text": "You can do it! Walk up slowly. I'm waiting here!", "zh": "你行的!慢慢走上来。我在这儿等你!", "items": ["en.can", "en.walk", "en.up", "en.slowly", "en.wait"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚每个周日在哪儿跑步?", "options": ["绕着湖跑", "在健身房", "在学校的篮球场"], "answer": 0, "explainZh": "索菲亚说 I run around the lake every Sunday.(我每个周日都绕着湖跑一圈。)" },
+    { "prompt": "按索菲亚的路线,最后到哪儿?", "options": ["回到宿舍", "公交车站", "跑下坡,进咖啡店"], "answer": 2, "explainZh": "And then down the hill and into the cafe!——公交车站是上坡时经过的地方(past the bus stop)。" },
+    { "prompt": "磊在哪儿跑不动了?", "options": ["过桥的时候", "上坡的时候", "在湖边"], "answer": 1, "explainZh": "磊说 Sofia, wait! I can't run up this hill!(这个坡我跑不上去了!)" }
+  ],
+  "grammar": [
+    { "id": "en.g.motion_prepositions", "titleZh": "说路线:along、across、through、around、up、down、past、into",
+      "bodyZh": "说“往哪儿走、怎么走”,在 go / run / walk 后面加表示方向的介词:along the lake(沿着湖)、across the bridge(过桥,从一边到另一边)、through the trees(从树林中间穿过)、around the lake(绕湖一圈)、up the hill(上坡)、down the hill(下坡)、past the bus stop(经过公交站)、into the cafe(进咖啡店)。中文把“沿着湖”放在动词前面(沿着湖跑),英语放在动词后面:We run along the lake.。两组容易混的:across 是从表面的一边到另一边(过桥、过马路),through 是从中间穿过去(穿过树林);in 说“在里面”,into 说“进到里面”。",
+      "examples": [
+        { "text": "We run along the lake.", "zh": "我们沿着湖跑。" },
+        { "text": "Then we go across the bridge and through the trees.", "zh": "然后过桥,再从树林里穿过去。" },
+        { "text": "I can't run up this hill!", "zh": "这个坡我跑不上去了!" }
+      ] },
+    { "id": "en.g.position_vs_route", "titleZh": "位置还是路线?across from 和 across",
+      "bodyZh": "第 5 单元学的 next to、across from、in front of 说东西“在哪儿”(位置):The cafe is across from the library.(咖啡店在图书馆对面)。这一课的 along、across、through 说人“往哪儿走”(路线),前面一般有 go、run、walk 这类动词:We go across the bridge.(我们过桥)。所以看到 across 后面紧跟 from,说的是位置。发音:through /θruː/ 开头的 thr 先咬舌发 /θ/,马上卷舌发 r,不要读成 true /truː/。",
+      "examples": [
+        { "text": "The cafe is across from the library.", "zh": "咖啡店在图书馆对面。(位置)" },
+        { "text": "We go across the bridge.", "zh": "我们过桥。(路线)" }
+      ] }
+  ],
+  "review": "draft"
+}

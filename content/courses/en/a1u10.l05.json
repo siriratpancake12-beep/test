@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u10.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110050,
+  "titleZh": "给索菲亚的生日惊喜", "goalZh": "会用 I can… / Can you…? 分工,说清楚活动的日期和时间", "canDoZh": "能和朋友一起计划一次活动:定日期和时间、分工、保密",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.lounge", "kind": "word", "pos": "noun", "text": "lounge", "zh": "休息室", "features": { "ipa": "laʊndʒ" }, "noteZh": "宿舍楼、酒店里的公共休息室;ou 读 /aʊ/,结尾 ge 读 /dʒ/。" },
+    { "id": "en.bake", "kind": "word", "pos": "verb", "text": "bake", "zh": "烤(蛋糕、面包)", "features": { "ipa": "beɪk" }, "noteZh": "bake a cake(烤蛋糕);和 cake 押韵 /eɪk/,词尾 k 收住不加元音。" },
+    { "id": "en.cake", "kind": "word", "pos": "noun", "text": "cake", "zh": "蛋糕", "features": { "ipa": "keɪk" }, "noteZh": "a 读 /eɪ/;birthday cake(生日蛋糕)。" },
+    { "id": "en.snack", "kind": "word", "pos": "noun", "text": "snack", "zh": "零食;小吃", "features": { "ipa": "snæk" }, "noteZh": "a 读 /æ/,嘴张大;snacks and juice(零食和果汁)。" },
+    { "id": "en.juice", "kind": "word", "pos": "noun", "text": "juice", "zh": "果汁", "features": { "ipa": "dʒuːs" }, "noteZh": "ui 读长音 /uː/,词尾是清音 /s/;orange juice(橙汁)。" },
+    { "id": "en.candle", "kind": "word", "pos": "noun", "text": "candle", "zh": "蜡烛", "features": { "ipa": "ˈkændəl" }, "noteZh": "重音在前,结尾的 l 自成一个音节 “CAN-dl”;twenty candles(二十根蜡烛)。" },
+    { "id": "en.balloon", "kind": "word", "pos": "noun", "text": "balloon", "zh": "气球", "features": { "ipa": "bəˈluːn" }, "noteZh": "重音在后 bal-LOON;拼写是两个 l、两个 o。" },
+    { "id": "en.hide", "kind": "word", "pos": "verb", "text": "hide", "zh": "藏;躲", "features": { "ipa": "haɪd" }, "noteZh": "过去式 hid;i 读 /aɪ/,词尾 d 轻轻收住。" }
+  ],
+  "reviewItems": ["en.surprise", "en.secret", "en.invite", "en.perfect", "en.got_it"],
+  "lines": [
+    { "speaker": "amy", "text": "OK, Sofia's surprise party! It's on Sunday, the 28th, at seven.", "zh": "(12 月 26 日,三个人偷偷碰头)好,索菲亚的惊喜派对!定在 28 号星期天晚上七点。", "items": ["en.surprise", "en.party", "en.sunday"] },
+    { "speaker": "marcus", "text": "Cool. Where?", "zh": "好。在哪儿办?", "items": ["en.cool"] },
+    { "speaker": "amy", "text": "In the lounge in her building. I can bake a cake!", "zh": "在她那栋楼的休息室。蛋糕我来烤!", "items": ["en.lounge", "en.building", "en.can", "en.bake", "en.cake"] },
+    { "speaker": "marcus", "text": "And I can play my guitar.", "zh": "我可以弹吉他。", "items": ["en.can", "en.play", "en.guitar"] },
+    { "speaker": "amy", "text": "Great! Lei, can you get snacks and juice?", "zh": "太好了!磊,你能去买点零食和果汁吗?", "items": ["en.great", "en.can", "en.get", "en.snack", "en.juice"] },
+    { "speaker": "lei", "text": "Sure. And twenty candles! She's going to be twenty.", "zh": "没问题。还要二十根蜡烛!她要满二十岁了。", "items": ["en.sure", "en.candle", "en.going_to"] },
+    { "speaker": "amy", "text": "Yes! And balloons. Then we can hide in the lounge.", "zh": "对!还有气球。然后我们先藏在休息室里。", "items": ["en.balloon", "en.then", "en.can", "en.hide", "en.lounge"] },
+    { "speaker": "marcus", "text": "But how is Sofia going to come to the lounge?", "zh": "可是索菲亚怎么会来休息室呢?", "items": ["en.going_to", "en.come", "en.lounge"] },
+    { "speaker": "lei", "text": "I can invite her to watch a movie. It's a movie night!", "zh": "我约她来看电影。就说是电影之夜!", "items": ["en.can", "en.invite", "en.watch", "en.movie", "en.night"] },
+    { "speaker": "amy", "text": "Perfect! But it's a secret, OK?", "zh": "完美!不过要保密,好吗?", "items": ["en.perfect", "en.secret"] },
+    { "speaker": "marcus", "text": "Got it. It's a secret!", "zh": "明白。保密!", "items": ["en.got_it", "en.secret"] },
+    { "speaker": "lei", "text": "OK! Sunday at seven. It's a secret!", "zh": "好!星期天七点。保密!", "items": ["en.sunday", "en.secret"] }
+  ],
+  "questions": [
+    { "prompt": "惊喜派对定在什么时候?", "options": ["12 月 31 日晚上", "28 号星期天晚上七点", "圣诞节晚上"], "answer": 1, "explainZh": "It's on Sunday, the 28th, at seven.(28 号星期天七点。)" },
+    { "prompt": "磊负责什么?", "options": ["烤蛋糕", "弹吉他", "买零食、果汁和蜡烛,还要把索菲亚约到休息室"], "answer": 2, "explainZh": "Lei, can you get snacks and juice? —— Sure. And twenty candles! …… I can invite her to watch a movie.(烤蛋糕的是艾米,弹吉他的是马库斯。)" },
+    { "prompt": "他们打算怎么让索菲亚来休息室?", "options": ["磊约她来看电影", "直接告诉她有派对", "让她来休息室拿东西"], "answer": 0, "explainZh": "I can invite her to watch a movie. It's a movie night!" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.can_offer",
+      "titleZh": "用 can 分工:I can… / Can you…?",
+      "bodyZh": "商量分工时,用 I can…(我来……)主动揽活,用 Can you…?(你能……吗?)请别人做:I can bake a cake. / Can you get snacks?(这里的 get 是“买来、弄来”)。回答:Sure. / Got it. / OK!。说活动时间,日子前用 on,钟点前用 at:on Sunday, the 28th, at seven;也可以先说钟点:at seven on Sunday。聚会、吃饭这类事,说 at seven 大家就知道是晚上七点。",
+      "examples": [
+        { "text": "I can bake a cake.", "zh": "蛋糕我来烤。" },
+        { "text": "Can you get snacks and juice? — Sure.", "zh": "你能买点零食和果汁吗?——没问题。" },
+        { "text": "The party is on Sunday, the 28th, at seven.", "zh": "派对在 28 号星期天晚上七点。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

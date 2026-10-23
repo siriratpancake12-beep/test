@@ -1,0 +1,185 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-16 Home sweet home", "cefr": "A1", "themeZh": "宿舍里的家务:分配家务、请室友帮忙、订室友公约、用洗衣房、找东西和收拾房间、守公共厨房的规矩、报修,迎接宿舍查房" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u16.l01", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116010,
+      "titleZh": "家务活", "goalZh": "会说常见的家务,知道 do the dishes、make the bed 这类搭配",
+      "canDoZh": "能说出常见的家务,和室友列一张打扫清单",
+      "scenarioZh": "宿舍楼贴出通知:周五查房。磊和伊森看着乱成一团的房间,商量要做哪些家务:洗碗、倒垃圾、铺床、吸尘、擦桌子、打扫浴室;伊森想挑简单的做,还说要\"在旁边看着磊干\",被磊拒绝:We do the chores together!",
+      "grammarFocusZh": "家务的固定搭配:make the bed,do the dishes / do laundry(中文都说\"做、洗、铺\",英语分 make 和 do,要整块记);take out the trash(美式 trash,英式 rubbish)。发音:trash /træʃ/、vacuum /ˈvækjuːm/ 的 /æ/(复习第 2 单元)。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.chore", "kind": "word", "pos": "noun", "text": "chore", "zh": "家务活;杂活", "features": { "ipa": "tʃɔːr" }, "noteZh": "常用复数 chores:do the chores 做家务;ch 读 /tʃ/,结尾卷舌。" },
+        { "id": "en.do_the_dishes", "kind": "phrase", "pos": "verb", "text": "do the dishes", "zh": "洗碗", "features": { "ipa": "ˌduː ðə ˈdɪʃɪz" }, "noteZh": "美式口语说洗碗不说 wash the bowls,说 do the dishes(dishes 指所有的碗盘);dishes 读 /ˈdɪʃɪz/,多一个音节。" },
+        { "id": "en.make_the_bed", "kind": "phrase", "pos": "verb", "text": "make the bed", "zh": "铺床;整理床铺", "features": { "ipa": "ˌmeɪk ðə ˈbed" }, "noteZh": "早上起来把被子铺平就是 make the bed;两个人各铺各的说 make the beds;不说 do the bed。" },
+        { "id": "en.take_out_the_trash", "kind": "phrase", "pos": "verb", "text": "take out the trash", "zh": "倒垃圾", "features": { "ipa": "ˌteɪk ˌaʊt ðə ˈtræʃ" }, "noteZh": "美式说 trash,英式说 rubbish;代词要放中间:take it out;trash 的 a 读 /æ/。" },
+        { "id": "en.vacuum", "kind": "word", "pos": "verb", "text": "vacuum", "zh": "吸尘;用吸尘器打扫", "features": { "ipa": "ˈvækjuːm" }, "noteZh": "也作名词\"吸尘器\";拼写有两个 u,读 VAC-yoom,a 读 /æ/。" },
+        { "id": "en.wipe", "kind": "word", "pos": "verb", "text": "wipe", "zh": "擦;抹", "features": { "ipa": "waɪp" }, "noteZh": "wipe the desk 擦桌子;词尾 p 双唇闭上就好,不读成 \"wai-pu\"。" },
+        { "id": "en.bathroom", "kind": "word", "pos": "noun", "text": "bathroom", "zh": "浴室;卫生间", "features": { "ipa": "ˈbæθruːm" }, "noteZh": "美国人说\"卫生间、厕所\"一般用 bathroom(公共场所也说 restroom);th 是 /θ/。" },
+        { "id": "en.dirty", "kind": "word", "pos": "adj", "text": "dirty", "zh": "脏的", "features": { "ipa": "ˈdɝːt̬i" }, "noteZh": "反义词 clean;ir 卷舌 /ɝː/,t 读得像轻快的 d。" },
+        { "id": "en.mess", "kind": "word", "pos": "noun", "text": "mess", "zh": "乱七八糟;一团糟", "features": { "ipa": "mes" }, "noteZh": "Our room is a mess! 我们房间乱死了;e 读 /e/,不读 /æ/。" },
+        { "id": "en.inspection", "kind": "word", "pos": "noun", "text": "inspection", "zh": "检查;(宿舍)查房", "features": { "ipa": "ɪnˈspekʃən" }, "noteZh": "room inspection 宿舍查房;以 -tion 结尾,重音在 -tion 前面的音节 in-SPEC-tion(复习第 15 单元)。" }
+      ],
+      "reviewItems": ["en.room", "en.clean", "en.desk", "en.together", "en.easy", "en.no_way"]
+    },
+    {
+      "id": "en.a1u16.l02", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116020,
+      "titleZh": "你能去倒垃圾吗?", "goalZh": "会用 Can you…? 请人做事,会答应、推迟或说明为什么不行",
+      "canDoZh": "能请室友帮忙做事,也能答应、推迟或说明为什么不行",
+      "scenarioZh": "两人开始分工。磊说 Can you take out the trash?,伊森说 Sure, in a minute.——一个小时后垃圾还在;伊森反过来让磊洗碗,磊说 It's your turn! I did the dishes yesterday.。最后两人列了一张家务清单,写在冰箱上的白板上,伊森说 Deal!。",
+      "grammarFocusZh": "请求和回应:Can you…? — Sure. / In a minute. / Sorry, I can't right now.;It's my / your turn.;可分短语动词和代词的位置(take it out)。发音:Can you 在句首弱读成 /kənjə/。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.in_a_minute", "kind": "phrase", "pos": "adv", "text": "in a minute", "zh": "马上;等一下", "features": { "ipa": "ɪn ə ˈmɪnɪt" }, "noteZh": "别人请你做事,说 In a minute. 表示\"一会儿就做\",不一定真的是一分钟。" },
+        { "id": "en.its_your_turn", "kind": "phrase", "pos": "phrase", "text": "It's your turn", "zh": "轮到你了", "alt": ["It's my turn"], "features": { "ipa": "ɪts ˈjʊr ˌtɝːn" }, "noteZh": "这里的 turn 是\"轮到的机会\",和 turn left(转弯)意思不同;轮到我了:It's my turn.。" },
+        { "id": "en.later", "kind": "word", "pos": "adv", "text": "later", "zh": "以后;待会儿", "features": { "ipa": "ˈleɪt̬ɚ" }, "noteZh": "I'm going to do it later. 我待会儿做;See you later 里学过;t 读闪音。" },
+        { "id": "en.promise", "kind": "word", "pos": "verb", "text": "promise", "zh": "保证;答应", "features": { "ipa": "ˈprɑːmɪs" }, "noteZh": "I promise! 我保证!;重音在前 PROM-ise,第二个音节读 /ɪs/,不读 \"迈斯\"。" },
+        { "id": "en.list", "kind": "word", "pos": "noun", "text": "list", "zh": "清单;单子", "features": { "ipa": "lɪst" }, "noteZh": "make a list 列个清单;chore list 家务清单;词尾 st 收住,不加元音。" },
+        { "id": "en.whiteboard", "kind": "word", "pos": "noun", "text": "whiteboard", "zh": "白板", "features": { "ipa": "ˈwaɪtbɔːrd" }, "noteZh": "white + board;美国宿舍门上、冰箱上常挂小白板留言;复合词重音在前 WHITE-board。" },
+        { "id": "en.fridge", "kind": "word", "pos": "noun", "text": "fridge", "zh": "冰箱", "features": { "ipa": "frɪdʒ" }, "noteZh": "refrigerator 的口语说法;dge 读 /dʒ/,词尾不加元音。" },
+        { "id": "en.deal", "kind": "word", "pos": "interj", "text": "Deal", "zh": "一言为定;就这么定了", "features": { "ipa": "diːl" }, "noteZh": "商量好以后说 Deal! 表示同意;第 6 单元 good deal(划算)里的 deal 是\"买卖\"。" }
+      ],
+      "reviewItems": ["en.take_out_the_trash", "en.do_the_dishes", "en.chore", "en.right_now", "en.no_way", "en.write"]
+    },
+    {
+      "id": "en.a1u16.l03", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116030,
+      "titleZh": "订个室友公约", "goalZh": "会用 Please… / Don't… / No + 名词 订规矩,和室友商量出公平的办法",
+      "canDoZh": "能和室友商量几条共同遵守的规矩,用 Please… / Don't… 写下来",
+      "scenarioZh": "伊森吃了磊妈妈寄来的辣面条,两人吵了起来:Please don't eat my food! — OK, but please don't play loud music at 7 a.m.!;于是一起订室友公约:工作日晚上 11 点以后是安静时间,午夜以后不带客人,吃别人的东西、借别人的东西先问,家务轮流做。最后两人签了名,和好了。(磊寒假留在西雅图,面条是妈妈寄来的。)",
+      "grammarFocusZh": "复习祈使句和否定 Don't…;订规矩常用 Please…、Let's…、No + 名词;take turns 轮流;That's fair. 同意对方合理的要求。发音:列举时前几项用升调、最后一项用降调(quiet hours ↗, guests ↗, and food ↘),and 弱读成 /ən/。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "newItems": [
+        { "id": "en.agreement", "kind": "word", "pos": "noun", "text": "agreement", "zh": "协议;约定", "features": { "ipa": "əˈɡriːmənt" }, "noteZh": "roommate agreement 室友公约,很多美国大学宿舍都让室友一起订;重音在中间 a-GREE-ment。" },
+        { "id": "en.quiet_hours", "kind": "phrase", "pos": "noun", "text": "quiet hours", "zh": "安静时间(宿舍规定要保持安静的时段)", "features": { "ipa": "ˈkwaɪət ˌaʊrz" }, "noteZh": "美国宿舍一般规定晚上某个时段是 quiet hours;quiet 是两个音节 QUI-et,别读成 quite。" },
+        { "id": "en.guest", "kind": "word", "pos": "noun", "text": "guest", "zh": "客人", "features": { "ipa": "ɡest" }, "noteZh": "u 不发音,读 /ɡest/;有客人来:have guests。" },
+        { "id": "en.weeknight", "kind": "word", "pos": "noun", "text": "weeknight", "zh": "工作日的晚上", "features": { "ipa": "ˈwiːknaɪt" }, "noteZh": "on weeknights 在工作日的晚上(第二天要上课的晚上);gh 不发音。" },
+        { "id": "en.take_turns", "kind": "phrase", "pos": "verb", "text": "take turns", "zh": "轮流", "features": { "ipa": "ˌteɪk ˈtɝːnz" }, "noteZh": "We take turns. 我们轮流来;take turns with the chores 轮流做家务;turns 要用复数。" },
+        { "id": "en.borrow", "kind": "word", "pos": "verb", "text": "borrow", "zh": "借(别人的东西来用)", "features": { "ipa": "ˈbɑːroʊ" }, "noteZh": "borrow 是\"借进来\":Can I borrow your book?;\"借给别人\"是 lend,不要混。" },
+        { "id": "en.loud", "kind": "word", "pos": "adj", "text": "loud", "zh": "大声的;吵的", "features": { "ipa": "laʊd" }, "noteZh": "loud music 很吵的音乐;ou 读 /aʊ/,从 a 滑到 u;词尾 d 带声。" },
+        { "id": "en.fair", "kind": "word", "pos": "adj", "text": "fair", "zh": "公平的;合理的", "features": { "ipa": "fer" }, "noteZh": "That's fair. 这很公平(同意对方合理的要求);和 fare(车费)读音一样。" }
+      ],
+      "reviewItems": ["en.noodles", "en.roommate", "en.rule", "en.ask", "en.before", "en.midnight"]
+    },
+    {
+      "id": "en.a1u16.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116040,
+      "titleZh": "白 T 恤变粉了", "goalZh": "会用祈使句听懂和复述用洗衣机的步骤",
+      "canDoZh": "能用洗衣房的机器洗衣服,问清楚步骤,知道深色浅色要分开洗",
+      "scenarioZh": "磊从宿舍楼的洗衣房出来,白 T 恤全变成了粉色——伊森的一只红袜子混在里面。索菲亚笑着教他:先把浅色和深色分开,白的放这台洗衣机,用冷水,洗衣液放在这个格子里,刷卡后按开始键;烘干机别开太热。磊把步骤复述一遍:Now I know!,还把那件粉 T 恤送给了伊森。",
+      "grammarFocusZh": "复习祈使句说步骤(Separate… / Put… in. / Wash them in cold water. / Push the start button.)和 Don't mix…;whites and colors 指浅色衣物和深色衣物。发音:wash 美式读 /wɑːʃ/,w 双唇收圆。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.wash", "kind": "word", "pos": "verb", "text": "wash", "zh": "洗", "features": { "ipa": "wɑːʃ" }, "noteZh": "美式读 /wɑːʃ/:w 双唇收圆,a 读 /ɑː/;洗衣服、洗手、洗车都用 wash。" },
+        { "id": "en.washer", "kind": "word", "pos": "noun", "text": "washer", "zh": "洗衣机", "features": { "ipa": "ˈwɑːʃɚ" }, "noteZh": "口语里 washer 就是 washing machine;烘干机叫 dryer。" },
+        { "id": "en.dryer", "kind": "word", "pos": "noun", "text": "dryer", "zh": "烘干机", "features": { "ipa": "ˈdraɪɚ" }, "noteZh": "美国人洗完衣服一般用烘干机,很少晾;dr 中间不加元音。" },
+        { "id": "en.separate", "kind": "word", "pos": "verb", "text": "separate", "zh": "分开", "features": { "ipa": "ˈsepəreɪt" }, "noteZh": "动词读 /ˈsepəreɪt/,结尾 -ate 读 /eɪt/;第 4 单元 Together or separate? 里的 separate 是形容词,读 /ˈsepɚət/。" },
+        { "id": "en.whites_and_colors", "kind": "phrase", "pos": "noun", "text": "whites and colors", "zh": "浅色衣物和深色衣物", "features": { "ipa": "ˌwaɪts ən ˈkʌlɚz" }, "noteZh": "洗衣服要分开的两堆:whites 是白色、浅色的,colors 是彩色、深色的;and 弱读 /ən/。" },
+        { "id": "en.pink", "kind": "word", "pos": "adj", "text": "pink", "zh": "粉色的", "features": { "ipa": "pɪŋk" }, "noteZh": "nk 读 /ŋk/,后鼻音;a pink T-shirt 一件粉色 T 恤。" },
+        { "id": "en.soap", "kind": "word", "pos": "noun", "text": "soap", "zh": "肥皂;洗衣液", "features": { "ipa": "soʊp" }, "noteZh": "洗衣服用的口语也叫 laundry soap,瓶子上一般写 detergent;oa 读 /oʊ/。" },
+        { "id": "en.mix", "kind": "word", "pos": "verb", "text": "mix", "zh": "混在一起;搅拌", "features": { "ipa": "mɪks" }, "noteZh": "Don't mix whites and colors! 别把白的和深色的混在一起;做饭\"拌\"也用 mix;x 读 /ks/。" }
+      ],
+      "reviewItems": ["en.socks", "en.put", "en.push", "en.button", "en.t_shirt", "en.know"]
+    },
+    {
+      "id": "en.a1u16.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116045,
+      "titleZh": "宿舍查房通知", "goalZh": "读懂一则查房通知:时间、要做的准备和不许有的东西",
+      "canDoZh": "能看懂查房通知:什么时间、要做哪些准备、哪些东西不允许",
+      "scenarioZh": "体裁:通知(宿舍办公室贴在每层楼的)。说话人 narrator。查房时间是周五上午 10 点到下午 4 点,工作人员先敲门再进屋;查房前要做的事:倒垃圾、清理冰箱里的旧食物、打扫浴室、吸尘,门口不能堆箱子;房间里不许有的东西:宠物、电暖器,不能在房间里做饭(去厨房做);东西坏了要告诉宿舍办公室,自己弄坏的要赔。(规划里有蜡烛,\"蜡烛\"第 10 单元派对课会用到、词条还没定,这里换成电暖器,第 8 课呼应。)",
+      "grammarFocusZh": "复习祈使句和 No + 名词的告示写法(No cooking in your room.);be allowed / Not allowed: …;理解题考\"哪些东西不能有\"。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "en.space_heater", "kind": "phrase", "pos": "noun", "text": "space heater", "zh": "(移动式)电暖器", "features": { "ipa": "ˈspeɪs ˌhiːt̬ɚ" }, "noteZh": "很多美国宿舍不许用电暖器,怕着火;heater 的 t 读闪音。" },
+        { "id": "en.allowed", "kind": "word", "pos": "adj", "text": "allowed", "zh": "允许的", "features": { "ipa": "əˈlaʊd" }, "noteZh": "be allowed:Pets aren't allowed. 不许养宠物;读音和 aloud(大声地)一样。" },
+        { "id": "en.kitchen", "kind": "word", "pos": "noun", "text": "kitchen", "zh": "厨房", "features": { "ipa": "ˈkɪtʃən" }, "noteZh": "tch 读 /tʃ/;宿舍每层的公共厨房常叫 the kitchen 或 the shared kitchen。" }
+      ],
+      "reviewItems": ["en.inspection", "en.take_out_the_trash", "en.fridge", "en.knock", "en.pet", "en.dorm"]
+    },
+    {
+      "id": "en.a1u16.l05", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116050,
+      "titleZh": "我的钱包在哪儿?", "goalZh": "会用 under、behind、between、above、inside 说东西的位置",
+      "canDoZh": "能用方位介词说出东西在哪儿,帮别人找东西、把东西放回原处",
+      "scenarioZh": "查房前两天的早上,伊森到处找钱包、学生证、手机、耳机和另一只红袜子。磊一样样告诉他:钱包在你床底下,学生证在抽屉里,手机在书桌后面,耳机在我床上方的架子上,袜子在两个箱子中间、衣柜旁边;最后让伊森把鞋放进衣柜:Please put your shoes in the closet!(规划里的钥匙、充电器、帽子分别是第 12、14、9 单元的词,换成了已学的东西。)",
+      "grammarFocusZh": "方位介词扩充:under、behind、between、above、inside(第 5 单元学过 next to、across from、in front of);above 和 on 的区别;put… in / on / under…。发音:between、behind、above 重音在后 be-TWEEN、be-HIND、a-BOVE。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "en.under", "kind": "word", "pos": "prep", "text": "under", "zh": "在……下面", "features": { "ipa": "ˈʌndɚ" }, "noteZh": "under the bed 在床底下;重音在前 UN-der。" },
+        { "id": "en.behind", "kind": "word", "pos": "prep", "text": "behind", "zh": "在……后面", "features": { "ipa": "bɪˈhaɪnd" }, "noteZh": "behind the desk 在书桌后面;重音在后 be-HIND。" },
+        { "id": "en.between", "kind": "word", "pos": "prep", "text": "between", "zh": "在……中间(两者之间)", "features": { "ipa": "bɪˈtwiːn" }, "noteZh": "between A and B 在 A 和 B 之间;重音在后 be-TWEEN,ee 是长音。" },
+        { "id": "en.above", "kind": "word", "pos": "prep", "text": "above", "zh": "在……上方", "features": { "ipa": "əˈbʌv" }, "noteZh": "above 是\"在上方、不挨着\",on 是\"挨着放在上面\";重音在后 a-BOVE。" },
+        { "id": "en.inside", "kind": "word", "pos": "prep", "text": "inside", "zh": "在……里面", "features": { "ipa": "ˌɪnˈsaɪd" }, "noteZh": "inside the drawer 在抽屉里;和 in 意思差不多,更强调\"在里头\"。" },
+        { "id": "en.closet", "kind": "word", "pos": "noun", "text": "closet", "zh": "衣柜;壁橱", "features": { "ipa": "ˈklɑːzɪt" }, "noteZh": "美式说 closet(墙里的壁橱),英式多说 wardrobe;s 读 /z/。" },
+        { "id": "en.bed", "kind": "word", "pos": "noun", "text": "bed", "zh": "床", "features": { "ipa": "bed" }, "noteZh": "under the bed 床底下;第 3 单元学过 go to bed(去睡觉);词尾 d 轻轻收住。" },
+        { "id": "en.shelf", "kind": "word", "pos": "noun", "text": "shelf", "zh": "架子;搁板", "features": { "ipa": "ʃelf" }, "noteZh": "on the shelf 在架子上;复数 shelves。" },
+        { "id": "en.drawer", "kind": "word", "pos": "noun", "text": "drawer", "zh": "抽屉", "features": { "ipa": "drɔːr" }, "noteZh": "美式读 /drɔːr/,一个音节;in the drawer 在抽屉里。" }
+      ],
+      "reviewItems": ["en.wallet", "en.id", "en.phone", "en.headphones", "en.box", "en.next_to"]
+    },
+    {
+      "id": "en.a1u16.l06", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116060,
+      "titleZh": "公共厨房的规矩", "goalZh": "会读懂并说出公共厨房的规矩,出了状况会道歉",
+      "canDoZh": "能看懂并遵守公共厨房的规矩,出了小状况时会道歉和处理",
+      "scenarioZh": "磊在楼层的公共厨房炒辣子鸡,烟太大,火警报警器响了。伊森赶紧开门通风,磊连声道歉;伊森让他看墙上的规定:做完饭收拾干净、冰箱里的食物贴上名字、水池里不许留脏碗。旁边有一口脏锅,磊问 Is it yours?,伊森说 Not mine!——锅上贴着邻居 Mike 的名字。(规划里的开窗,window 第 11 单元才定;Whose…? 第 13 单元才学,这里用 Is it yours?。)",
+      "grammarFocusZh": "复习祈使句和 No + 名词说规定、名词性物主代词(Is it yours? — Not mine!);label 作动词(贴标签)和名词(标签)。发音:alarm 重音在后 a-LARM,fire alarm 重音在 fire 上。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "en.smoke", "kind": "word", "pos": "noun", "text": "smoke", "zh": "烟", "features": { "ipa": "smoʊk" }, "noteZh": "炒菜冒烟、着火冒烟都是 smoke;o 读 /oʊ/。" },
+        { "id": "en.fire_alarm", "kind": "phrase", "pos": "noun", "text": "fire alarm", "zh": "火警报警器", "features": { "ipa": "ˈfaɪɚ əˌlɑːrm" }, "noteZh": "美国宿舍的烟雾报警器很灵敏;复合词重音在前 FIRE alarm,alarm 本身重音在后 a-LARM。" },
+        { "id": "en.wall", "kind": "word", "pos": "noun", "text": "wall", "zh": "墙", "features": { "ipa": "wɑːl" }, "noteZh": "on the wall 在墙上;a 在 l 前读 /ɑː/,词尾 l 舌尖抬起。" },
+        { "id": "en.clean_up", "kind": "phrase", "pos": "verb", "text": "clean up", "zh": "收拾干净;打扫", "features": { "ipa": "ˌkliːn ˈʌp" }, "noteZh": "Clean up after you cook. 做完饭要收拾干净;连读 \"klee-nup\"。" },
+        { "id": "en.label", "kind": "word", "pos": "verb", "text": "label", "zh": "贴标签;标签", "features": { "ipa": "ˈleɪbəl" }, "noteZh": "作动词:Label your food.(给食物贴上名字);作名词:a label 标签;重音在前 LA-bel。" },
+        { "id": "en.dish", "kind": "word", "pos": "noun", "text": "dish", "zh": "盘子;碗碟;(一道)菜", "features": { "ipa": "dɪʃ" }, "noteZh": "dirty dishes 脏碗盘;a Chinese dish 一道中国菜;洗碗是 do the dishes(本单元第 1 课)。" },
+        { "id": "en.sink", "kind": "word", "pos": "noun", "text": "sink", "zh": "水池;洗碗池", "features": { "ipa": "sɪŋk" }, "noteZh": "in the sink 在水池里;nk 读 /ŋk/。" },
+        { "id": "en.pot", "kind": "word", "pos": "noun", "text": "pot", "zh": "锅(深的,煮东西用)", "features": { "ipa": "pɑːt" }, "noteZh": "煮汤、煮面用 pot;美式 o 读 /ɑː/。" }
+      ],
+      "reviewItems": ["en.kitchen", "en.rule", "en.dirty", "en.fridge", "en.open", "en.door"]
+    },
+    {
+      "id": "en.a1u16.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116070,
+      "titleZh": "暖气坏了", "goalZh": "会打电话报修:说明来意、描述问题、报房间号、约维修时间",
+      "canDoZh": "能打电话报修:说清楚哪里出了问题,约好维修的时间",
+      "scenarioZh": "查房前两天的半夜,房间的暖气一直发出奇怪的响声,屋里很冷,磊和伊森都睡不着。磊打电话给宿舍维修部的工作人员(staff):I'm calling about my heater. There's a problem with it. It makes a loud noise.;工作人员问房间号(312),说明天上午可以派工人来,问 Is that OK?,磊说他明天上午在家;工作人员提醒他今晚穿件暖和的毛衣。(规划里的\"窗户关不严\"用到 window、close,先不写;维修用 come by 绕开第 12 单元的 fix。)",
+      "grammarFocusZh": "报修的说法:I'm calling about… / There's a problem with… / It makes a (loud) noise. / It's broken.(复习第 6 单元 broken);约时间 Is that OK?。发音:heater /ˈhiːt̬ɚ/ 长元音 /iː/,t 读闪音。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.heater", "kind": "word", "pos": "noun", "text": "heater", "zh": "暖气;取暖器", "features": { "ipa": "ˈhiːt̬ɚ" }, "noteZh": "ea 是长元音 /iː/,t 读闪音:\"HEE-der\";space heater 是电暖器。" },
+        { "id": "en.noise", "kind": "word", "pos": "noun", "text": "noise", "zh": "响声;噪音", "features": { "ipa": "nɔɪz" }, "noteZh": "make a noise 发出响声(不说 do a noise);结尾 se 读 /z/,要带声。" },
+        { "id": "en.strange", "kind": "word", "pos": "adj", "text": "strange", "zh": "奇怪的", "features": { "ipa": "streɪndʒ" }, "noteZh": "str 中间不加元音(复习第 5 单元);a 读 /eɪ/,结尾 ge 读 /dʒ/。" },
+        { "id": "en.middle", "kind": "word", "pos": "noun", "text": "middle", "zh": "中间", "features": { "ipa": "ˈmɪdəl" }, "noteZh": "in the middle of the night 半夜里;in the middle 在中间;结尾的 le 读成音节 /əl/。" },
+        { "id": "en.maintenance", "kind": "word", "pos": "noun", "text": "maintenance", "zh": "维修(部门)", "features": { "ipa": "ˈmeɪntənəns" }, "noteZh": "宿舍、公寓的维修部门就叫 Maintenance;重音在前 MAIN-te-nance。" },
+        { "id": "en.room_number", "kind": "phrase", "pos": "noun", "text": "room number", "zh": "房间号", "features": { "ipa": "ˈruːm ˌnʌmbɚ" }, "noteZh": "What's your room number? 你房间号是多少?;312 读 three twelve。" },
+        { "id": "en.worker", "kind": "word", "pos": "noun", "text": "worker", "zh": "工人", "features": { "ipa": "ˈwɝːkɚ" }, "noteZh": "a worker 一个(维修)工人;wor 读 /wɝː/,卷舌。" },
+        { "id": "en.come_by", "kind": "phrase", "pos": "verb", "text": "come by", "zh": "过来一趟;顺路来", "features": { "ipa": "ˌkʌm ˈbaɪ" }, "noteZh": "A worker can come by tomorrow. 明天会有工人过来;by 重读。" }
+      ],
+      "reviewItems": ["en.awake", "en.listen_to", "en.problem", "en.loud", "en.answer", "en.hello"]
+    },
+    {
+      "id": "en.a1u16.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116080,
+      "titleZh": "单元复习:查房日", "goalZh": "综合运用本单元的说法,在查房时回答问题、说明家务安排",
+      "canDoZh": "能在查房时回答工作人员的问题,说明房间里东西的位置和平时的家务安排",
+      "scenarioZh": "周五宿舍办公室的工作人员(staff)来查房。房间干干净净,工作人员夸 Your room is really neat!,问他们平时怎么分工;磊介绍白板上的家务清单。打开衣柜时,工作人员发现伊森的电暖器,伊森说\"暖气坏了才买的\",磊说昨天工人已经来修好了,工作人员说 Space heaters aren't allowed.,把它拿走了。最后两人顺利通过,击掌庆祝。对话至少 12 句。(规划里是蜡烛,换成电暖器,和 r01、l07 呼应。)",
+      "grammarFocusZh": "复习 make / do 搭配、请求与回应、方位介词和祈使句否定。发音:列举家务时的语调和 and 的弱读。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.neat", "kind": "word", "pos": "adj", "text": "neat", "zh": "整洁的;干净整齐的", "features": { "ipa": "niːt" }, "noteZh": "Your room is really neat! 你们房间真整洁!;口语里 neat 还有\"真棒\"的意思。" },
+        { "id": "en.take_away", "kind": "phrase", "pos": "verb", "text": "take away", "zh": "拿走;带走", "features": { "ipa": "ˌteɪk əˈweɪ" }, "noteZh": "代词放中间:take it away;away 重音在后 a-WAY。" },
+        { "id": "en.high_five", "kind": "phrase", "pos": "noun", "text": "high five", "zh": "击掌(庆祝)", "features": { "ipa": "ˌhaɪ ˈfaɪv" }, "noteZh": "高兴时举手互相拍一下:High five!;也可以说 Give me five!。" }
+      ],
+      "reviewItems": ["en.inspection", "en.take_turns", "en.whiteboard", "en.space_heater", "en.allowed", "en.closet"]
+    },
+    {
+      "id": "en.a1u16.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116085,
+      "titleZh": "磊的日记:我和伊森的\"家务战争\"", "goalZh": "读懂一篇按时间顺序写的幽默日记,说出事情的起因、经过和结果",
+      "canDoZh": "能读懂一篇带点幽默的日记,说出事情的起因、经过和结果",
+      "scenarioZh": "体裁:日记。说话人 lei(第一人称)。周五晚上磊写这一周:伊森吃了妈妈寄来的辣面条,两人大吵一架,订了室友公约;周二白 T 恤和伊森的红袜子一起洗成了粉色(伊森现在很爱穿);周三辣子鸡的烟让火警响了;那天夜里暖气又响个不停;最后今天查房顺利通过。结尾说伊森虽然不太整洁、整晚打游戏,但是个很好的室友,现在他们是好朋友。至少 10 句。",
+      "grammarFocusZh": "复习一般过去时和本单元的家务词;日记里用 First… / Then… / On Tuesday… / Finally… 讲清楚起因和结果。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
+      "newItems": [
+        { "id": "en.fight", "kind": "word", "pos": "noun", "text": "fight", "zh": "吵架;打架", "features": { "ipa": "faɪt" }, "noteZh": "have a fight 吵了一架;gh 不发音,读 /faɪt/。" }
+      ],
+      "reviewItems": ["en.agreement", "en.pink", "en.fire_alarm", "en.heater", "en.inspection", "en.neat"]
+    }
+  ]
+}

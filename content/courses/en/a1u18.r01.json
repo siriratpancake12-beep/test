@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u18.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118045,
+  "titleZh": "健身房课程表和游泳须知", "goalZh": "读懂健身房的一周课程表和游泳须知,按自己的时间选一节课", "canDoZh": "能看懂健身中心的课程表和游泳须知,选一节合适的课",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 15,
+  "newItems": [
+    { "id": "en.beginner", "kind": "word", "pos": "noun", "text": "beginner", "zh": "初学者;新手", "features": { "ipa": "bɪˈɡɪnɚ" }, "noteZh": "begin(开始)+ -ner,n 要双写;重音在第二个音节 be-GIN-ner;for beginners 给初学者的。" },
+    { "id": "en.lifeguard", "kind": "word", "pos": "noun", "text": "lifeguard", "zh": "救生员", "features": { "ipa": "ˈlaɪfɡɑːrd" }, "noteZh": "life(生命)+ guard(守卫),复合词重音在前 LIFE-guard;gu 读 /ɡ/,u 不发音。" },
+    { "id": "en.jump", "kind": "word", "pos": "verb", "text": "jump", "zh": "跳", "features": { "ipa": "dʒʌmp" }, "noteZh": "u 读 /ʌ/;告示上的 No jumping. 是“禁止跳(水)”,用 No + 动词-ing。" }
+  ],
+  "reviewItems": ["en.gym", "en.club", "en.take_a_shower", "en.office", "en.bring"],
+  "lines": [
+    { "speaker": "narrator", "text": "Gym Classes: Free for Students", "zh": "(学校健身房门口贴着一张课程表)健身房课程:学生免费", "items": ["en.gym", "en.class", "en.free", "en.student"] },
+    { "speaker": "narrator", "text": "Monday, 7:00 a.m.: Yoga", "zh": "周一 早上 7:00:瑜伽", "items": ["en.monday", "en.am", "en.do_yoga"] },
+    { "speaker": "narrator", "text": "Tuesday and Thursday, 6:00–7:00 p.m.: Swimming for Beginners", "zh": "周二、周四 晚上 6:00–7:00:初级游泳课", "items": ["en.tuesday", "en.thursday", "en.pm", "en.swim", "en.beginner"] },
+    { "speaker": "narrator", "text": "Wednesday, noon: Running Club. Meet in front of the gym.", "zh": "周三 中午:跑步俱乐部。在健身房门口集合。", "items": ["en.wednesday", "en.noon", "en.run", "en.club", "en.meet", "en.in_front_of", "en.gym"] },
+    { "speaker": "narrator", "text": "Friday, 3:00–6:00 p.m.: Basketball. Bring your friends!", "zh": "周五 下午 3:00–6:00:打篮球。带上你的朋友!", "items": ["en.friday", "en.pm", "en.basketball", "en.bring", "en.friend"] },
+    { "speaker": "narrator", "text": "Swimming for Beginners? Sign up at the gym office.", "zh": "想上初级游泳课?请到健身房办公室报名。", "items": ["en.swim", "en.beginner", "en.sign_up", "en.gym", "en.office"] },
+    { "speaker": "narrator", "text": "Swimming at the Gym", "zh": "(课程表下面是游泳须知)在健身房游泳", "items": ["en.swim", "en.gym"] },
+    { "speaker": "narrator", "text": "Take a shower first.", "zh": "下水前先冲澡。", "items": ["en.take_a_shower", "en.first"] },
+    { "speaker": "narrator", "text": "No running. No jumping.", "zh": "禁止奔跑。禁止跳水。", "items": ["en.run", "en.jump"] },
+    { "speaker": "narrator", "text": "No lifeguard? No swimming!", "zh": "没有救生员?不能下水!", "items": ["en.lifeguard", "en.swim"] },
+    { "speaker": "narrator", "text": "No food or drinks in the water, please.", "zh": "请勿把食物、饮料带进水里。", "items": ["en.food", "en.drink", "en.water"] },
+    { "speaker": "narrator", "text": "Questions? Call the gym office at 206-555-0172.", "zh": "有问题?请打健身房办公室电话 206-555-0172。", "items": ["en.question", "en.call", "en.gym", "en.office"] }
+  ],
+  "questions": [
+    { "prompt": "磊周四晚上有空,他能上哪一节课?", "options": ["瑜伽", "初级游泳课", "跑步俱乐部", "篮球"], "answer": 1, "explainZh": "Tuesday and Thursday, 6:00–7:00 p.m.: Swimming for Beginners.(周二、周四晚上 6–7 点是初级游泳课。)" },
+    { "prompt": "跑步俱乐部什么时候、在哪儿集合?", "options": ["周一早上 7 点,在泳池边", "周五下午 3 点,在篮球场", "周三中午,在健身房门口"], "answer": 2, "explainZh": "Wednesday, noon: Running Club. Meet in front of the gym." },
+    { "prompt": "游泳须知里不允许做什么?", "options": ["在泳池边跑、跳", "下水前冲澡", "带朋友来打篮球"], "answer": 0, "explainZh": "No running. No jumping.(禁止奔跑,禁止跳水。)冲澡是下水前必须做的:Take a shower first.;带朋友是周五篮球课鼓励的。" },
+    { "prompt": "想上初级游泳课,要去哪儿报名?", "options": ["找救生员", "直接去泳池", "健身房办公室"], "answer": 2, "explainZh": "Swimming for Beginners? Sign up at the gym office.(请到健身房办公室报名。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.read_schedule", "titleZh": "读课程表和须知:星期 + 时间 + 课名;No + 动词-ing",
+      "bodyZh": "课程表一行一节课:先看星期,再看时间,最后是课名。6:00–7:00 p.m. 读作 six to seven p.m.;noon 是中午 12 点。把自己有空的时间和课程表对一对,就知道能上哪节课。须知和告示常用很短的句子:No + 动词-ing 表示“禁止……”(No running. 禁止奔跑;No jumping. 禁止跳水);No + 名词 表示“没有……”(No lifeguard? No swimming!);要求做什么就用祈使句:Take a shower first.(先冲澡)。复习 play / go / do:Yoga 是 do yoga,Running Club 是去跑步 go running,Basketball 是 play basketball。",
+      "examples": [
+        { "text": "No running. No jumping.", "zh": "禁止奔跑。禁止跳水。" },
+        { "text": "Take a shower first.", "zh": "先冲澡。" },
+        { "text": "Meet in front of the gym.", "zh": "在健身房门口集合。" }
+      ] }
+  ],
+  "review": "draft"
+}

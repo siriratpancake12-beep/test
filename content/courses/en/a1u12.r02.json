@@ -1,0 +1,39 @@
+{
+  "id": "en.a1u12.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112085,
+  "titleZh": "寄给咖啡馆的明信片", "goalZh": "读懂一张旅行明信片,分清写现在的情况和讲做过的事,学会明信片的开头和结尾", "canDoZh": "能读懂并写一张旅行明信片:在哪儿、天气怎么样、做了什么、什么时候回去",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+  "newItems": [
+    { "id": "en.postcard", "kind": "word", "pos": "noun", "text": "postcard", "zh": "明信片", "features": { "ipa": "ˈpoʊstkɑːrd" }, "noteZh": "post(邮寄)+ card,复合词重音在前 POST-card;明信片开头写 Hi…,结尾写 See you soon! 和名字。" },
+    { "id": "en.soon", "kind": "word", "pos": "adv", "text": "soon", "zh": "很快;不久", "features": { "ipa": "suːn" }, "noteZh": "See you soon! 回头见、很快就见;oo 是长音 /uː/。" }
+  ],
+  "reviewItems": ["en.rent", "en.bike", "en.real", "en.burrito", "en.ocean", "en.amazing"],
+  "lines": [
+    { "speaker": "lei", "text": "Hi, Laura and Marcus!", "zh": "(磊从洛杉矶寄给咖啡馆的明信片)劳拉、马库斯,你们好!", "items": ["en.hi"] },
+    { "speaker": "lei", "text": "This postcard is from sunny LA.", "zh": "这张明信片来自阳光明媚的洛杉矶。", "items": ["en.postcard", "en.sunny"] },
+    { "speaker": "lei", "text": "It's warm here every day.", "zh": "这里每天都很暖和。", "items": ["en.warm", "en.every_day"] },
+    { "speaker": "lei", "text": "From my room, I can see the ocean!", "zh": "从我的房间就能看到大海!", "items": ["en.room", "en.can", "en.see", "en.ocean"] },
+    { "speaker": "lei", "text": "We rented bikes and went to Venice Beach.", "zh": "我们租了自行车,骑到了威尼斯海滩。", "items": ["en.rent", "en.bike", "en.go"] },
+    { "speaker": "lei", "text": "We ate real Mexican burritos. They were amazing!", "zh": "我们吃了正宗的墨西哥卷饼,太好吃了!", "items": ["en.eat", "en.real", "en.burrito", "en.amazing"] },
+    { "speaker": "lei", "text": "Ethan drove us to the mountains.", "zh": "伊森开车带我们上了山。", "items": ["en.drive", "en.mountain"] },
+    { "speaker": "lei", "text": "The view of LA was beautiful.", "zh": "从山上看洛杉矶,风景特别美。", "items": ["en.view", "en.beautiful"] },
+    { "speaker": "lei", "text": "But I miss our cafe and your coffee!", "zh": "不过我想念咱们的咖啡馆,还有你们做的咖啡!", "items": ["en.miss", "en.cafe", "en.coffee"] },
+    { "speaker": "lei", "text": "See you soon!", "zh": "很快见!", "items": ["en.see", "en.soon"] },
+    { "speaker": "lei", "text": "Lei", "zh": "磊", "items": [] }
+  ],
+  "questions": [
+    { "prompt": "这张明信片是写给谁的?", "options": ["劳拉和马库斯", "艾米和伊森", "磊的爸爸妈妈"], "answer": 0, "explainZh": "开头写着 Hi, Laura and Marcus!" },
+    { "prompt": "洛杉矶的天气怎么样?", "options": ["天天下雨", "每天都很暖和,阳光很好", "很冷,还下雪"], "answer": 1, "explainZh": "This postcard is from sunny LA. It's warm here every day." },
+    { "prompt": "下面哪件事明信片里没有提到?", "options": ["租自行车去了威尼斯海滩", "伊森开车带他们上山", "在酒店的泳池游泳"], "answer": 2, "explainZh": "明信片写了 We rented bikes and went to Venice Beach. 和 Ethan drove us to the mountains.,没有写游泳。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_postcard", "titleZh": "写明信片:现在的情况用一般现在时,做过的事用一般过去时",
+      "bodyZh": "明信片很短,一般分三块:开头写给谁:Hi, Laura and Marcus!;中间先说现在在哪儿、怎么样,用一般现在时:It's warm here every day. / I can see the ocean.,再讲做过的事,用一般过去时:We rented bikes. / We ate real burritos. / Ethan drove us to the mountains.(rent 是规则动词,加 -ed;eat → ate、drive → drove 是不规则动词);结尾写 See you soon! 和自己的名字。写之前先想清楚每句说的是“现在”还是“已经做过的事”,时态就不会乱。",
+      "examples": [
+        { "text": "It's warm here every day.", "zh": "这里每天都很暖和。" },
+        { "text": "We rented bikes and went to Venice Beach.", "zh": "我们租了自行车,去了威尼斯海滩。" },
+        { "text": "See you soon!", "zh": "很快见!" }
+      ] }
+  ],
+  "review": "draft"
+}

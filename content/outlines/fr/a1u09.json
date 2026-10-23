@@ -1,0 +1,107 @@
+{
+  "lang": "fr",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-9 去罗马之前", "cefr": "A1", "themeZh": "寒假出发前的准备:买去罗马的国际火车票、看天气预报、按天气准备衣服和行李、告诉宿舍管理员要出门几天、听朋友推荐罗马好玩的地方,出发那天在车站和车上。语法:mettre、avoir chaud / froid / besoin de、il faut + 名词、天气的扩展说法、cent 的复数规则;发音:清辅音和浊辅音" }
+  ],
+  "lessons": [
+    {
+      "id": "fr.a1u9.l01", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109010,
+      "titleZh": "买去罗马的火车票——在都灵换车",
+      "goalZh": "会在火车站窗口买国际往返票,听懂换车、发车时间和百位数的票价",
+      "canDoZh": "能在火车站窗口买一张国际往返火车票,说清日期和座位,听懂换乘、发车时间和票价",
+      "scenarioZh": "12 月 14 日星期一下午(浩上午有课),浩到 Part-Dieu 火车站的售票窗口:他想 12 月 19 日星期六去罗马,23 日星期三回来。售票员说没有直达车,要在都灵(Turin)换车;早上 6 点 58 分出发,17 点左右到罗马;浩要二等座,问要不要订座,售票员说这趟车必须订座,往返一共 236 欧;浩问能不能刷卡。",
+      "grammarFocusZh": "cent 的复数规则:整百加 s(deux cents),后面还有数就不加(deux cent trente-six),和 quatre-vingts 的规则一样;新词 direct、en deuxième classe、réserver、obligatoire;changer à Turin(在都灵换车)/ changer de train;复习 un aller-retour 和 24 小时制",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "fr.direct", "kind": "word", "pos": "adj", "text": "direct", "zh": "直达的;直接的(阳性)", "features": { "ipa": "di.ʁɛkt" }, "noteZh": "词尾的 ct 要读出来 [kt];un train direct 直达车;阴性 directe 读音一样。" },
+        { "id": "fr.deuxieme", "kind": "word", "pos": "adj", "text": "deuxième", "zh": "第二的", "features": { "ipa": "dø.zjɛm" }, "noteZh": "序数词 = 数字 + -ième:deux → deuxième(x 读 [z]),trois → troisième;“第一”是特殊的 premier / première。" },
+        { "id": "fr.classe", "kind": "word", "pos": "noun", "text": "la classe", "zh": "(座位的)等;班级", "features": { "gender": "f", "ipa": "la klas" }, "noteZh": "en première classe 一等座,en deuxième classe 二等座;也指班级(la classe de français)。词尾 e 不发音,读 [klas]。" },
+        { "id": "fr.reserver", "kind": "word", "pos": "verb", "text": "réserver", "zh": "预订;订(座位、房间)", "features": { "ipa": "ʁe.zɛʁ.ve" }, "noteZh": "两个元音之间的 s 读 [z];-er 规则动词;réserver une place 订座位。" },
+        { "id": "fr.obligatoire", "kind": "word", "pos": "adj", "text": "obligatoire", "zh": "必须的;规定要做的", "features": { "ipa": "ɔ.bli.ga.twaʁ" }, "noteZh": "阴阳性同形;oi 读 [wa];C'est obligatoire. 这是必须的。" },
+        { "id": "fr.retour", "kind": "word", "pos": "noun", "text": "le retour", "zh": "返程;回来", "features": { "gender": "m", "ipa": "lə ʁə.tuʁ" }, "noteZh": "l'aller-retour 是往返票,le retour 单说回程;ou 读 [u],两个 r 都是小舌音。" },
+        { "id": "fr.vers", "kind": "word", "pos": "prep", "text": "vers", "zh": "(时间)……左右;朝……", "features": { "ipa": "vɛʁ" }, "noteZh": "vers dix-sept heures = 17 点左右;词尾 s 不发音。" },
+        { "id": "fr.depart", "kind": "word", "pos": "noun", "text": "le départ", "zh": "出发;发车", "features": { "gender": "m", "ipa": "lə de.paʁ" }, "noteZh": "和 partir(出发)是一家;词尾 t 不发音;车站显示屏上的 Départs 是“出发”。" }
+      ],
+      "reviewItems": ["fr.aller_retour", "fr.billet", "fr.train", "fr.changer", "fr.partir", "fr.payer"]
+    },
+    {
+      "id": "fr.a1u9.l02", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109020,
+      "titleZh": "天气预报——明天几度?",
+      "goalZh": "会看天气预报,用 il y a du soleil / du vent、il fait … degrés 分别说两个城市的天气",
+      "canDoZh": "能听懂天气预报里的晴、阴、有风、几度,说出两个城市的天气",
+      "scenarioZh": "晚上,浩和卢卡在公共厨房用手机看天气预报:里昂明天阴天、有风,早上零下两度;罗马是晴天,下午十四度。卢卡说浩运气真好;浩又查了周末的天气:罗马可能下雨。卢卡要回马赛的爸妈家,那边有风,但是出太阳。",
+      "grammarFocusZh": "天气的扩展说法:Il y a du soleil / du vent / des nuages、Le ciel est gris、Il fait quatorze degrés / moins deux(零下);la météo、le degré;复习 Il fait beau / froid、Il pleut、Quel temps fait-il ?;比较级 A2 才学,这里分别说两个城市的天气",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "fr.meteo", "kind": "word", "pos": "noun", "text": "la météo", "zh": "天气预报", "features": { "gender": "f", "ipa": "la me.te.o" }, "noteZh": "两个 é 都读 [e];口语里 la météo 就是天气预报:Tu regardes la météo ?" },
+        { "id": "fr.soleil", "kind": "word", "pos": "noun", "text": "le soleil", "zh": "太阳;阳光", "features": { "gender": "m", "ipa": "lə sɔ.lɛj" }, "noteZh": "eil 读 [ɛj],词尾的 l 不读成 [l];Il y a du soleil. 出太阳了(晴天)。" },
+        { "id": "fr.vent", "kind": "word", "pos": "noun", "text": "le vent", "zh": "风", "features": { "gender": "m", "ipa": "lə vɑ̃" }, "noteZh": "en 读鼻化元音 [ɑ̃],t 不发音;Il y a du vent. 有风(刮风)。" },
+        { "id": "fr.nuage", "kind": "word", "pos": "noun", "text": "le nuage", "zh": "云", "features": { "gender": "m", "ipa": "lə nɥaʒ" }, "noteZh": "nua 读 [nɥa],只有一个音节;-age 结尾,阳性;Il y a des nuages. 多云。" },
+        { "id": "fr.ciel", "kind": "word", "pos": "noun", "text": "le ciel", "zh": "天空", "features": { "gender": "m", "ipa": "lə sjɛl" }, "noteZh": "c 在 i 前读 [s];Le ciel est gris. 天阴阴的。" },
+        { "id": "fr.gris", "kind": "word", "pos": "adj", "text": "gris", "zh": "灰色的(阳性)", "features": { "ipa": "gʁi" }, "noteZh": "s 不发音;阴性 grise [gʁiz],s 要读出来;g 是浊音,声带要振动。" },
+        { "id": "fr.degre", "kind": "word", "pos": "noun", "text": "le degré", "zh": "度(温度)", "features": { "gender": "m", "ipa": "lə də.gʁe" }, "noteZh": "Il fait quatorze degrés. 十四度;d、g 都是浊辅音,声带要振动,比中文拼音的 d、g 更“浊”。" },
+        { "id": "fr.moins", "kind": "word", "pos": "adv", "text": "moins", "zh": "零下(温度);减;差(几分)", "features": { "ipa": "mwɛ̃" }, "noteZh": "oin 读 [wɛ̃],s 不发音;Il fait moins deux. 零下两度;钟点里的 moins le quart(差一刻)也是这个词。" },
+        { "id": "fr.peut_etre", "kind": "word", "pos": "adv", "text": "peut-être", "zh": "也许;可能", "features": { "ipa": "pø.tɛtʁ" }, "noteZh": "中间有连字符;t 和 ê 连起来读 [pø.tɛtʁ];常放在动词后面:Il pleut peut-être."},
+        { "id": "fr.avoir_de_la_chance", "kind": "phrase", "pos": "phrase", "text": "avoir de la chance", "zh": "运气好", "features": { "ipa": "a.vwaʁ də la ʃɑ̃s" }, "noteZh": "Tu as de la chance ! 你运气真好!和 avoir faim 一样用 avoir;la chance 是阴性。" }
+      ],
+      "reviewItems": ["fr.temps", "fr.froid", "fr.il_pleut", "fr.demain", "fr.week_end"]
+    },
+    {
+      "id": "fr.a1u9.l03", "lang": "fr", "type": "grammar", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109030,
+      "titleZh": "穿什么?——mettre 和冬天的衣服",
+      "goalZh": "会用 mettre 说穿什么、戴什么、往箱子里放什么,说出冬天的衣物",
+      "canDoZh": "能根据天气说要穿什么、戴什么、带什么(围巾、手套、帽子、雨伞)",
+      "scenarioZh": "12 月 16 日星期三下午(两人每周三的语伴时间),克洛艾来宿舍帮浩收拾行李:罗马不太冷,可以穿一件薄外套,但一定要带雨伞;克洛艾说她冬天天天戴帽子和手套:En hiver, je mets un bonnet tous les jours !;浩没有围巾,住在隔壁的卢卡把自己的一条红围巾借给他。",
+      "grammarFocusZh": "mettre 的现在时:je mets, tu mets, il met, nous mettons, vous mettez, ils mettent(单数词尾 t 不发音);mettre + 衣物 = 穿、戴,mettre … dans … = 放进;新词 l'écharpe f., les gants, le bonnet, le parapluie, la valise, la veste;复习颜色配合;发音:清辅音和浊辅音 [p]/[b]、[t]/[d]、[k]/[g]",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "fr.mettre", "kind": "word", "pos": "verb", "text": "mettre", "zh": "放;穿上;戴上", "features": { "ipa": "mɛtʁ" }, "noteZh": "不规则动词:je mets, tu mets, il met(单数的 t 不发音),nous mettons, vous mettez, ils mettent;穿衣服、戴帽子、往包里放东西都可以用它。" },
+        { "id": "fr.echarpe", "kind": "word", "pos": "noun", "text": "l'écharpe", "zh": "围巾", "features": { "gender": "f", "ipa": "le.ʃaʁp" }, "noteZh": "元音开头,阴性:une écharpe;ch 读 [ʃ]。" },
+        { "id": "fr.gants", "kind": "word", "pos": "noun", "text": "les gants", "zh": "手套", "features": { "gender": "m", "ipa": "le gɑ̃" }, "noteZh": "阳性;一只手套是 un gant,平时说复数 des gants;t 不发音,g 是浊音 [g]。" },
+        { "id": "fr.bonnet", "kind": "word", "pos": "noun", "text": "le bonnet", "zh": "毛线帽", "features": { "gender": "m", "ipa": "lə bɔ.nɛ" }, "noteZh": "词尾 t 不发音;b 是浊音,声带要振动,别读成清音;戴帽子:mettre un bonnet。" },
+        { "id": "fr.parapluie", "kind": "word", "pos": "noun", "text": "le parapluie", "zh": "雨伞", "features": { "gender": "m", "ipa": "lə pa.ʁa.plɥi" }, "noteZh": "para(挡)+ pluie(雨);uie 读 [ɥi];阳性。" },
+        { "id": "fr.leger", "kind": "word", "pos": "adj", "text": "léger", "zh": "轻的;薄的(阳性)", "features": { "ipa": "le.ʒe" }, "noteZh": "阴性 légère [le.ʒɛʁ](-er → -ère,和 premier → première 一样);une veste légère 一件薄外套。" },
+        { "id": "fr.valise", "kind": "word", "pos": "noun", "text": "la valise", "zh": "行李箱", "features": { "gender": "f", "ipa": "la va.liz" }, "noteZh": "两个元音之间的 s 读 [z];faire sa valise 收拾行李。" },
+        { "id": "fr.veste", "kind": "word", "pos": "noun", "text": "la veste", "zh": "外套;夹克(比大衣薄)", "features": { "gender": "f", "ipa": "la vɛst" }, "noteZh": "阴性;st 要读出来 [st];厚的大衣是 le manteau(第 7 单元学过)。" }
+      ],
+      "reviewItems": ["fr.manteau", "fr.pull", "fr.rouge", "fr.hiver", "fr.froid"]
+    },
+    {
+      "id": "fr.a1u9.l04", "lang": "fr", "type": "grammar", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109040,
+      "titleZh": "我需要……——avoir 的固定搭配",
+      "goalZh": "会用 avoir chaud / froid / besoin de 说感觉和需要,用 il faut + 名词说出门必须带什么",
+      "canDoZh": "能说自己冷了、热了、需要什么东西,也能问别人需要什么",
+      "scenarioZh": "出发前两天(12 月 17 日星期四傍晚),浩和卢卡去超市买旅行用品。外面刮大风,浩说好冷;超市里很暖和,卢卡说好热。浩看着单子说他需要牙膏、牙刷和一个小背包;卢卡问他去意大利要不要带护照——要,出国一定要带护照和居留证:Il faut un passeport et un titre de séjour !;卢卡又喊饿,说火车上要有饼干。",
+      "grammarFocusZh": "avoir chaud / avoir froid / avoir besoin de + 名词(J'ai besoin d'un sac à dos);和 J'ai faim / J'ai soif 一样用 avoir,不能说 Je suis froid;il faut + 名词(Il faut un passeport);新词 le titre de séjour(居留证,A2 还会用到)",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "fr.avoir_besoin_de", "kind": "phrase", "pos": "phrase", "text": "avoir besoin de", "zh": "需要", "features": { "ipa": "a.vwaʁ bə.zwɛ̃ də" }, "noteZh": "J'ai besoin d'un sac. 我需要一个包;de 在元音前写成 d';用 avoir,不说 Je suis besoin。" },
+        { "id": "fr.passeport", "kind": "word", "pos": "noun", "text": "le passeport", "zh": "护照", "features": { "gender": "m", "ipa": "lə pas.pɔʁ" }, "noteZh": "词尾 t 不发音;法语的 p 不送气,听起来接近中文拼音的 b,别读成送气的“趴”。" },
+        { "id": "fr.titre_de_sejour", "kind": "word", "pos": "noun", "text": "le titre de séjour", "zh": "居留证", "features": { "gender": "m", "ipa": "lə titʁ də se.ʒuʁ" }, "noteZh": "外国学生在法国的居留证件,口语里也叫 la carte de séjour;去别的欧洲国家,要带护照和居留证。" },
+        { "id": "fr.dentifrice", "kind": "word", "pos": "noun", "text": "le dentifrice", "zh": "牙膏", "features": { "gender": "m", "ipa": "lə dɑ̃.ti.fʁis" }, "noteZh": "阳性;开头的 dent 就是“牙齿”(第 8 单元学过),en 读 [ɑ̃]。" },
+        { "id": "fr.brosse_a_dents", "kind": "word", "pos": "noun", "text": "la brosse à dents", "zh": "牙刷", "features": { "gender": "f", "ipa": "la bʁɔs a dɑ̃" }, "noteZh": "brosse(刷子)+ à + dents(牙):刷牙用的刷子;dents 用复数,s 不发音。" },
+        { "id": "fr.sac_a_dos", "kind": "word", "pos": "noun", "text": "le sac à dos", "zh": "双肩包;背包", "features": { "gender": "m", "ipa": "lə sak a do" }, "noteZh": "sac(包)+ à + dos(背):背在背上的包;dos 的 s 不发音。" },
+        { "id": "fr.dehors", "kind": "word", "pos": "adv", "text": "dehors", "zh": "外面;在外面", "features": { "ipa": "də.ɔʁ" }, "noteZh": "h 不发音,s 也不发音:[də.ɔʁ];Il fait froid dehors. 外面很冷。" },
+        { "id": "fr.biscuit", "kind": "word", "pos": "noun", "text": "le biscuit", "zh": "饼干", "features": { "gender": "m", "ipa": "lə bis.kɥi" }, "noteZh": "阳性;ui 读 [ɥi],词尾 t 不发音。" }
+      ],
+      "reviewItems": ["fr.supermarche", "fr.froid", "fr.chaud", "fr.il_faut", "fr.jai_faim"]
+    },
+    {
+      "id": "fr.a1u9.r01", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109045,
+      "titleZh": "罗马酒店的预订确认(邮件)",
+      "goalZh": "会读酒店的预订确认邮件,找出日期、房型、价格和入住退房时间",
+      "canDoZh": "能看懂一封酒店预订确认邮件:日期、几晚、房型、价格、早餐和入住退房时间",
+      "scenarioZh": "体裁:邮件,约 11 句,旁白朗读。浩在网上订了罗马火车站旁边的一家小酒店,收到法语版的确认邮件:12 月 19 日到 23 日,四晚,单人房,含早餐,一共 280 欧;下午两点以后可以入住,23 日上午十一点退房;酒店离火车站走路五分钟。读完回答几个问题。",
+      "grammarFocusZh": "复习日期、钟点、de … à …、du … au …;pour + 人数 / 夜数(une chambre pour une personne, pour quatre nuits);百位数 deux cent quatre-vingts euros;邮件的开头 Bonjour Monsieur Zhang 和 Merci pour votre réservation !",
+      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "fr.hotel", "kind": "word", "pos": "noun", "text": "l'hôtel", "zh": "酒店;旅馆", "features": { "gender": "m", "ipa": "lo.tɛl" }, "noteZh": "元音开头(h 不发音),阳性:un hôtel;l'hôtel 要省音,un‿hôtel 要联诵。" },
+        { "id": "fr.nuit", "kind": "word", "pos": "noun", "text": "la nuit", "zh": "夜;(住宿的)一晚", "features": { "gender": "f", "ipa": "la nɥi" }, "noteZh": "ui 读 [ɥi],t 不发音;quatre nuits 四晚;Bonne nuit ! 晚安!" },
+        { "id": "fr.reservation", "kind": "word", "pos": "noun", "text": "la réservation", "zh": "预订", "features": { "gender": "f", "ipa": "la ʁe.zɛʁ.va.sjɔ̃" }, "noteZh": "-tion 结尾的名词都是阴性,-tion 读 [sjɔ̃];来自 réserver(预订)。" },
+        { "id": "fr.personne", "kind": "word", "pos": "noun", "text": "la personne", "zh": "人;(一)个人", "features": { "gender": "f", "ipa": "la pɛʁ.sɔn" }, "noteZh": "总是阴性,说男人也是 une personne;une chambre pour une personne 单人间。" }
+      ],
+      "reviewItems": ["fr.chambre", "fr.petit_dejeuner", "fr.gare", "fr.a_pied", "fr.payer"]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u12.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112020,
+  "titleZh": "能再给我两个枕头吗?", "goalZh": "会用 Could I…? / Could you…? 打电话礼貌地请前台送东西、帮忙,听懂 Of course. 这类回答", "canDoZh": "能打电话给前台,礼貌地请对方送东西、帮忙查信息",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.could", "kind": "word", "pos": "verb", "text": "could", "zh": "(礼貌请求)可以……吗;能……吗", "features": { "ipa": "kʊd" }, "noteZh": "Could I…? / Could you…? 比 Can 更客气,对前台、店员、陌生人请人帮忙时常用;l 不发音,读 /kʊd/,和 good 押韵。" },
+    { "id": "en.more", "kind": "word", "pos": "det", "text": "more", "zh": "更多的;再(多一些)", "features": { "ipa": "mɔːr" }, "noteZh": "two more pillows 再要两个枕头(数字放在 more 前面);one more night 再住一晚。结尾卷舌。" },
+    { "id": "en.extra", "kind": "word", "pos": "adj", "text": "extra", "zh": "额外的;多出来的", "features": { "ipa": "ˈekstrə" }, "noteZh": "an extra pillow 多一个枕头 = one more pillow;extra 以元音开头,前面用 an。" },
+    { "id": "en.pillow", "kind": "word", "pos": "noun", "text": "pillow", "zh": "枕头", "features": { "ipa": "ˈpɪloʊ" }, "noteZh": "重音在前 PIL-low;结尾 ow 读 /oʊ/,嘴唇要收圆。" },
+    { "id": "en.of_course", "kind": "phrase", "pos": "phrase", "text": "Of course", "zh": "当然(可以)", "features": { "ipa": "əv ˈkɔːrs" }, "noteZh": "答应别人的请求:Could you…? — Of course!;of 弱读成 /əv/。别用它回答“你知道……吗”这类问题,听起来像“这还用问”。" },
+    { "id": "en.help", "kind": "word", "pos": "verb", "text": "help", "zh": "帮助;帮忙", "features": { "ipa": "help" }, "noteZh": "help + 人 + with + 事:Could you help me with the Wi-Fi?;词尾 lp 收住,不要读成“嗨尔普”。" },
+    { "id": "en.find", "kind": "word", "pos": "verb", "text": "find", "zh": "找到", "features": { "ipa": "faɪnd" }, "noteZh": "find 是“找到”(结果),look for 是“找”(过程):I'm looking for my key, but I can't find it.;过去式 found。" },
+    { "id": "en.send", "kind": "word", "pos": "verb", "text": "send", "zh": "送;派(人);发送", "features": { "ipa": "send" }, "noteZh": "I'm sending one right now. 我这就让人送过去;发消息、发邮件也用 send;过去式 sent。" }
+  ],
+  "reviewItems": ["en.front_desk", "en.right_now", "en.come", "en.password"],
+  "lines": [
+    { "speaker": "receptionist", "text": "Front desk. How can I help you?", "zh": "(磊在房间里打电话到前台)前台,请问有什么可以帮您?", "items": ["en.front_desk", "en.can_i_help_you"] },
+    { "speaker": "lei", "text": "Hi, this is Room 512. Could I get two more pillows, please?", "zh": "你好,我是 512 房间。能再给我两个枕头吗?", "items": ["en.hi", "en.this_is", "en.room", "en.could", "en.can_i_get", "en.more", "en.pillow"] },
+    { "speaker": "receptionist", "text": "Of course. Someone is coming right now.", "zh": "当然可以。马上就有人送过去。", "items": ["en.of_course", "en.come", "en.right_now"] },
+    { "speaker": "lei", "text": "Thanks. And could you help me with the Wi-Fi?", "zh": "谢谢。还有,能帮我弄一下 Wi-Fi 吗?", "items": ["en.thank_you", "en.could", "en.help", "en.wi_fi"] },
+    { "speaker": "lei", "text": "I can't find the password.", "zh": "我找不到密码。", "items": ["en.cant", "en.find", "en.password"] },
+    { "speaker": "receptionist", "text": "Sure. It's sunny512. It's on your key card, too.", "zh": "好的。密码是 sunny512,房卡上也印着。", "items": ["en.sure", "en.sunny", "en.key", "en.card"] },
+    { "speaker": "sofia", "text": "Hi, this is Room 514. Could I get an extra pillow, too?", "zh": "(隔壁 514 的索菲亚也打到前台)你好,我是 514 房间。能也多给我一个枕头吗?", "items": ["en.hi", "en.this_is", "en.room", "en.could", "en.can_i_get", "en.extra", "en.pillow"] },
+    { "speaker": "receptionist", "text": "Sure. I'm sending one right now. Anything else?", "zh": "好的,我这就让人送一个过去。还需要别的吗?", "items": ["en.sure", "en.send", "en.right_now", "en.anything_else"] },
+    { "speaker": "sofia", "text": "No, thanks. That's it.", "zh": "不用了,谢谢。就这些。", "items": ["en.no_thanks", "en.thats_it"] },
+    { "speaker": "staff", "text": "Hi! Here are your pillows.", "zh": "(十分钟后,酒店的工作人员来敲门)你好!您要的枕头。", "items": ["en.hi", "en.pillow"] }
+  ],
+  "questions": [
+    { "prompt": "磊打电话给前台要什么?", "options": ["一个枕头", "两条毛巾", "两个枕头"], "answer": 2, "explainZh": "磊说 Could I get two more pillows, please?:two more pillows 是“再要两个枕头”。" },
+    { "prompt": "磊为什么问 Wi-Fi 的事?", "options": ["Wi-Fi 太慢了", "他找不到密码", "他想换房间"], "answer": 1, "explainZh": "磊说 I can't find the password.(我找不到密码)。" },
+    { "prompt": "前台说 Wi-Fi 密码还能在哪儿找到?", "options": ["房卡上", "大堂的墙上", "房间的书桌上"], "answer": 0, "explainZh": "前台说 It's on your key card, too.(房卡上也印着)。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_could_requests", "titleZh": "Could I…? / Could you…?:比 Can 更客气的请求",
+      "bodyZh": "请别人做事、向别人要东西,用 Could 开头比 Can 更客气:Could I get…?(能给我……吗?)说的是“我想要”,Could you…?(您能……吗?)是“请您帮我做”。后面都接动词原形:Could you help me?,不说 Could you helping me?。这里的 could 不是“过去能”,说的就是现在的事,意思和中文“能不能……”一样。回答别人的请求:答应说 Sure. / Of course.(当然),做不到说 Sorry, … 再讲原因。要东西时还常带上数量:two more pillows(再要两个,数字放在 more 前面)、an extra pillow(多一个)。发音:could 的 l 不发音,读 /kʊd/;Could you 连读成“cou-ju”/ˈkʊdʒə/。礼貌请求的语调起伏大一点、句末上扬,听起来更友好。",
+      "examples": [
+        { "text": "Could I get two more pillows, please?", "zh": "能再给我两个枕头吗?" },
+        { "text": "Could you help me with the Wi-Fi?", "zh": "能帮我弄一下 Wi-Fi 吗?" },
+        { "text": "Of course. Someone is coming right now.", "zh": "当然可以。马上就有人过去。" }
+      ] },
+    { "id": "en.g.u12_call_front_desk", "titleZh": "打给前台:This is Room 512. 和“马上送到”的进行时",
+      "bodyZh": "在酒店房间打给前台,先报房间号:Hi, this is Room 512.(电话里用 this 说自己是谁,不说 I'm Room 512)。前台说“马上送来”常用现在进行时:Someone is coming right now.(马上有人过去)/ I'm sending one right now.(我这就让人送一个)。这里的进行时说的是已经在安排、马上就发生的事,right now 强调“立刻”。挂电话前对方常问 Anything else?(还要别的吗?),不需要了就说 No, thanks. That's it.(第 4 单元学过)。",
+      "examples": [
+        { "text": "Hi, this is Room 512.", "zh": "你好,我是 512 房间。" },
+        { "text": "I'm sending one right now.", "zh": "我这就让人送一个过去。" },
+        { "text": "Anything else? — No, thanks. That's it.", "zh": "还要别的吗?——不用了,谢谢。就这些。" }
+      ] }
+  ],
+  "review": "draft"
+}

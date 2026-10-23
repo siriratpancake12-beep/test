@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u18.l03", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118030,
+  "titleZh": "慢慢地踢腿", "goalZh": "会用方式副词说一件事做得怎么样(快、慢、认真、好),听懂别人对动作的指导", "canDoZh": "能说出别人做某件事做得怎么样(快、慢、认真、好),听懂别人对自己动作的指导",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.lesson", "kind": "word", "pos": "noun", "text": "lesson", "zh": "(一节)课;课程", "features": { "ipa": "ˈlesən" }, "noteZh": "a swimming lesson 一节游泳课;class 多指学校的课,lesson 常指学一门技能的课;读 /ˈlesən/,o 弱读。" },
+    { "id": "en.kick", "kind": "word", "pos": "verb", "text": "kick", "zh": "踢;(游泳)打腿", "features": { "ipa": "kɪk" }, "noteZh": "i 读短音 /ɪ/;词尾 ck 收住,不要读成“kick-ke”。" },
+    { "id": "en.slow", "kind": "word", "pos": "adj", "text": "slow", "zh": "慢的", "features": { "ipa": "sloʊ" }, "noteZh": "形容词,说人或东西“慢”:I'm so slow!;说“慢慢地做”要用副词 slowly。" },
+    { "id": "en.slowly", "kind": "word", "pos": "adv", "text": "slowly", "zh": "慢慢地", "features": { "ipa": "ˈsloʊli" }, "noteZh": "slow + -ly,修饰动词:Kick slowly.;重音留在词根 SLOW-ly。" },
+    { "id": "en.breathe", "kind": "word", "pos": "verb", "text": "breathe", "zh": "呼吸", "features": { "ipa": "briːð" }, "noteZh": "动词 breathe /briːð/ 结尾是浊音 th,舌尖放在齿间、声带振动;名词 breath /breθ/(一口气)读音不一样。" },
+    { "id": "en.quickly", "kind": "word", "pos": "adv", "text": "quickly", "zh": "快速地;很快地", "features": { "ipa": "ˈkwɪkli" }, "noteZh": "quick + -ly;qu 读 /kw/,嘴唇先收圆;重音在 QUICK-ly。" },
+    { "id": "en.fast", "kind": "word", "pos": "adj", "text": "fast", "zh": "快的;快地", "features": { "ipa": "fæst" }, "noteZh": "fast 既是形容词也是副词,不说 fastly:Ethan is fast. He swims fast.;美式 a 读 /æ/。" },
+    { "id": "en.work_hard", "kind": "phrase", "pos": "verb", "text": "work hard", "zh": "努力;用功;拼命练", "features": { "ipa": "ˌwɝːk ˈhɑːrd" }, "noteZh": "这里的 hard 是副词“努力地”,不加 -ly(hardly 是“几乎不”,意思完全不同):I work hard.。" },
+    { "id": "en.carefully", "kind": "word", "pos": "adv", "text": "carefully", "zh": "仔细地;小心地", "features": { "ipa": "ˈkerfəli" }, "noteZh": "careful + -ly;重音在 CARE-ful-ly,中间的 ful 弱读,很快带过。" }
+  ],
+  "reviewItems": ["en.swim", "en.well", "en.learn", "en.so", "en.good_job"],
+  "lines": [
+    { "speaker": "ethan", "text": "OK, Lei. Swimming lesson one!", "zh": "(周三晚上,学校健身房的室内泳池。伊森终于兑现了上学期的承诺)好,磊。游泳第一课!", "items": ["en.swim", "en.lesson"] },
+    { "speaker": "ethan", "text": "First, kick your legs slowly.", "zh": "先慢慢地打腿。", "items": ["en.first", "en.kick", "en.leg", "en.slowly"] },
+    { "speaker": "ethan", "text": "And breathe slowly. Don't kick so quickly!", "zh": "呼吸也要慢。别踢得那么快!", "items": ["en.breathe", "en.slowly", "en.kick", "en.so", "en.quickly"] },
+    { "speaker": "lei", "text": "Is this OK? I'm so slow!", "zh": "这样行吗?我好慢啊!", "items": ["en.so", "en.slow"] },
+    { "speaker": "ethan", "text": "Slow is OK! You're doing really well. You learn fast!", "zh": "慢没关系!你游得挺好的。你学得真快!", "items": ["en.slow", "en.really", "en.well", "en.learn", "en.fast"] },
+    { "speaker": "lei", "text": "You swim so fast, Ethan!", "zh": "伊森,你游得好快啊!", "items": ["en.swim", "en.so", "en.fast"] },
+    { "speaker": "ethan", "text": "I work hard. I swim three times a week.", "zh": "我练得很努力。我一周游三次。", "items": ["en.work_hard", "en.swim", "en.week"] },
+    { "speaker": "ethan", "text": "Now swim to me. Carefully… carefully… Good!", "zh": "现在朝我游过来。小心……慢慢来……很好!", "items": ["en.swim", "en.carefully"] },
+    { "speaker": "lei", "text": "Ethan! I can swim from here to there!", "zh": "(一个小时后)伊森!我能从这头游到那头了!", "items": ["en.can", "en.swim"] },
+    { "speaker": "ethan", "text": "Great job, man! You swim well now!", "zh": "干得漂亮,哥们儿!你现在游得很好了!", "items": ["en.good_job", "en.swim", "en.well"] }
+  ],
+  "questions": [
+    { "prompt": "伊森让磊怎么打腿?", "options": ["慢慢地踢", "快快地踢", "先不用踢腿"], "answer": 0, "explainZh": "伊森说 First, kick your legs slowly.,又说 Don't kick so quickly!(别踢得那么快!)" },
+    { "prompt": "伊森为什么游得那么快?", "options": ["他每天都游", "他游得慢,但很认真", "他练得很努力,一周游三次"], "answer": 2, "explainZh": "伊森说 I work hard. I swim three times a week.(我练得很努力,一周游三次。)" },
+    { "prompt": "一个小时后,磊能做到什么?", "options": ["游得比伊森还快", "从这头游到那头", "还是不敢下水"], "answer": 1, "explainZh": "磊说 Ethan! I can swim from here to there!(我能从这头游到那头了!)" }
+  ],
+  "grammar": [
+    { "id": "en.g.adverbs_ly", "titleZh": "方式副词:slow → slowly,quick → quickly",
+      "bodyZh": "说一个人或东西“怎么样”用形容词:I'm slow.(我很慢);说一件事“做得怎么样”用副词,大多是形容词 + -ly:slow → slowly(慢慢地)、quick → quickly(很快地)、careful → carefully(仔细地)。中文靠“地”:慢慢地踢;英语靠 -ly,副词放在动词后面:Kick slowly. Breathe slowly.。别把形容词直接放在动词后面:说 Kick your legs slowly.,不说 Kick your legs slow.(口语里偶尔听到 go slow,但用 slowly 不会错)。发音:-ly 副词的重音留在原来的词上:SLOW-ly、QUICK-ly、CARE-ful-ly。",
+      "examples": [
+        { "text": "I'm so slow!", "zh": "我好慢啊!(形容词)" },
+        { "text": "Kick your legs slowly.", "zh": "慢慢地打腿。(副词)" },
+        { "text": "Don't kick so quickly!", "zh": "别踢得那么快!" }
+      ] },
+    { "id": "en.g.adverbs_irregular", "titleZh": "特殊的副词 well、fast、hard;副词放在哪儿",
+      "bodyZh": "有几个副词不加 -ly:good → well(好):You swim well.(不说 You swim good.);fast 形容词、副词同形:Ethan is fast. He swims fast.(没有 fastly);hard 也一样:I work hard.(努力),hardly 是“几乎不”,意思完全不同。副词一般放在动词后面;动词带宾语时放在宾语后面:Sofia speaks English slowly.(不说 Sofia speaks slowly English.)。中文“他游得很好”里的“得”,英语不用翻译:He swims well.。",
+      "examples": [
+        { "text": "You learn fast.", "zh": "你学得很快。" },
+        { "text": "I work hard.", "zh": "我练得很努力。" },
+        { "text": "You swim well now!", "zh": "你现在游得很好了!" },
+        { "text": "Sofia speaks English slowly.", "zh": "索菲亚说英语说得很慢。" }
+      ] }
+  ],
+  "review": "draft"
+}

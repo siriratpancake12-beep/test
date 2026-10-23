@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u19.l06", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-19 旅行准备", "order": 119060,
+  "titleZh": "海边:海滩、灯塔和风", "goalZh": "会说海边常见的地方和天气,看懂海滩上旗子的意思", "canDoZh": "能说出海边常见的地方和天气,看懂海滩上的提示",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.see_meer", "kind": "word", "pos": "noun", "text": "die See", "zh": "海(北方常用)", "features": { "gender": "f", "plural": "die Seen", "ipa": "zeː" }, "noteZh": "die See = 海,der See = 湖(第 8 单元):性不同,意思不同!an der See(在海边)是固定说法;平时说海用 das Meer 最多。" },
+    { "id": "de.duene", "kind": "word", "pos": "noun", "text": "die Düne", "zh": "沙丘", "features": { "gender": "f", "plural": "die Dünen", "ipa": "ˈdyːnə" }, "noteZh": "海滩后面一道一道的沙丘;为了保护沙丘,很多地方不许走上去。ü 撮圆嘴唇,读长音;复数 die Dünen。" },
+    { "id": "de.wind", "kind": "word", "pos": "noun", "text": "der Wind", "zh": "风", "features": { "gender": "m", "plural": "die Winde", "ipa": "vɪnt" }, "noteZh": "Es gibt viel Wind.(风很大。)w 读 [v],词尾 d 读 [t];复数 die Winde。形容词 windig(有风的)。" },
+    { "id": "de.sand", "kind": "word", "pos": "noun", "text": "der Sand", "zh": "沙子", "features": { "gender": "m", "plural": "-", "ipa": "zant" }, "noteZh": "不可数,没有复数:Am Strand gibt es viel Sand.;s 在元音前读 [z],词尾 d 读 [t]。" },
+    { "id": "de.bewoelkt", "kind": "word", "pos": "adj", "text": "bewölkt", "zh": "多云的", "features": { "ipa": "bəˈvœlkt" }, "noteZh": "Es ist bewölkt.(多云。)来自 die Wolke(云);ö 撮圆嘴唇,be- 不重读。" },
+    { "id": "de.flagge", "kind": "word", "pos": "noun", "text": "die Flagge", "zh": "旗;旗子", "features": { "gender": "f", "plural": "die Flaggen", "ipa": "ˈflaɡə" }, "noteZh": "海滩上用不同颜色的旗子告诉大家能不能游泳,红旗(eine rote Flagge)= 危险,不能下水。复数 die Flaggen。" },
+    { "id": "de.gefaehrlich", "kind": "word", "pos": "adj", "text": "gefährlich", "zh": "危险的", "features": { "ipa": "ɡəˈfɛːɐ̯lɪç" }, "noteZh": "Das ist gefährlich!(这很危险!)来自 die Gefahr(危险);ä 读长音,-lich 读 [lɪç]。" },
+    { "id": "de.welle", "kind": "word", "pos": "noun", "text": "die Welle", "zh": "浪;波浪", "features": { "gender": "f", "plural": "die Wellen", "ipa": "ˈvɛlə" }, "noteZh": "Bei Wind sind die Wellen groß.(有风的时候浪大。)w 读 [v];复数 die Wellen。" }
+  ],
+  "reviewItems": ["de.strand", "de.meer", "de.leuchtturm", "de.hafen", "de.vergessen", "de.manchmal"],
+  "lines": [
+    { "speaker": "lena", "text": "Das ist Warnemünde: der Strand und das Meer!", "zh": "(莉娜在手机上给大家看照片)这就是瓦尔内明德:海滩和大海!", "items": ["de.das_ist", "de.strand", "de.und", "de.meer"] },
+    { "speaker": "wei", "text": "Und da sind der Leuchtturm und der Hafen, oder?", "zh": "那边是灯塔和港口吧?", "items": ["de.und", "de.da", "de.sein", "de.leuchtturm", "de.hafen", "de.oder"] },
+    { "speaker": "lena", "text": "Ja. Am Strand gibt es viel Sand und Dünen.", "zh": "对。海滩上有很多沙子,还有沙丘。", "items": ["de.ja", "de.am", "de.strand", "de.es_gibt", "de.viel", "de.sand", "de.und", "de.duene"] },
+    { "speaker": "sofia", "text": "Und das Wetter? An der See gibt es oft Wind.", "zh": "那天气呢?海边常常有风。", "items": ["de.und", "de.wetter", "de.an", "de.see_meer", "de.es_gibt", "de.oft", "de.wind"] },
+    { "speaker": "lena", "text": "Ja, viel Wind. Mein Handy sagt: 18 bis 25 Grad, manchmal bewölkt.", "zh": "对,风很大。手机上说:18 到 25 度,有时多云。", "items": ["de.ja", "de.viel", "de.wind", "de.mein", "de.handy", "de.sagen", "de.acht", "de.zehn", "de.bis", "de.fuenf", "de.zwanzig", "de.grad", "de.manchmal", "de.bewoelkt"] },
+    { "speaker": "wei", "text": "Kann ich im Meer gut schwimmen? Ich schwimme nicht sehr gut.", "zh": "在海里好游泳吗?我游得不太好。", "items": ["de.koennen", "de.ich", "de.in", "de.meer", "de.gut", "de.schwimmen", "de.nicht", "de.sehr"] },
+    { "speaker": "lena", "text": "Eine rote Flagge am Strand heißt: nicht schwimmen!", "zh": "海滩上插着红旗,意思是:不能游泳!", "items": ["de.ein", "de.rot", "de.flagge", "de.am", "de.strand", "de.ich_heisse", "de.nicht", "de.schwimmen"] },
+    { "speaker": "sofia", "text": "Bei Wind sind die Wellen groß. Dann ist das Meer gefährlich.", "zh": "有风的时候浪很大,那时候下海就危险了。", "items": ["de.bei", "de.wind", "de.sein", "de.welle", "de.gross", "de.dann", "de.meer", "de.gefaehrlich"] },
+    { "speaker": "wei", "text": "Keine Sorge, ich bleibe am Strand. Aber ich möchte das Meer sehen!", "zh": "放心,我就待在海滩上。不过我一定要看看海!", "items": ["de.keine_sorge", "de.ich", "de.bleiben", "de.am", "de.strand", "de.aber", "de.moechten", "de.meer", "de.sehen"] },
+    { "speaker": "sofia", "text": "Gut. Aber vergiss deinen Hut und deine Sonnenbrille nicht!", "zh": "好。不过别忘了帽子和太阳镜!", "items": ["de.gut", "de.aber", "de.vergessen", "de.dein", "de.hut", "de.und", "de.sonnenbrille", "de.nicht"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜的手机上说那几天天气怎么样?", "options": ["一直下雨,很冷", "30 多度,没有风", "18 到 25 度,有时多云"], "answer": 2, "explainZh": "Mein Handy sagt: 18 bis 25 Grad, manchmal bewölkt.(手机上说 18 到 25 度,有时多云。)索菲娅还说海边常常有风:An der See gibt es oft Wind." },
+    { "prompt": "海滩上的红旗是什么意思?", "options": ["不能游泳", "这儿可以租自行车", "前面是港口"], "answer": 0, "explainZh": "Eine rote Flagge am Strand heißt: nicht schwimmen!(海滩上插着红旗,意思是不能游泳。)" },
+    { "prompt": "王伟打算在海边做什么?", "options": ["每天在海里游泳", "待在海滩上,看看海", "去港口坐船"], "answer": 1, "explainZh": "王伟游得不好:Ich schwimme nicht sehr gut.,所以他说:Ich bleibe am Strand. Aber ich möchte das Meer sehen!(我就待在海滩上,不过一定要看看海。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u19_die_see_der_see", "titleZh": "die See(海)和 der See(湖);海边的说法",
+      "bodyZh": "同一个 See,性不同意思也不同:die See = 海(北方人常说,an der See = 在海边),der See = 湖(第 8 单元 am See = 在湖边)。平时说“海”最常用 das Meer。\n“在海边、在海滩上”先当固定说法记:am Meer / an der See / am Strand;“去海边”:ans Meer / an die See。\n海边常见的东西:der Strand(海滩)、der Sand(沙子,不可数)、die Düne(沙丘)、die Welle(浪)、der Leuchtturm(灯塔)、der Hafen(港口)。",
+      "examples": [
+        { "text": "An der See gibt es oft Wind.", "zh": "海边常常有风。" },
+        { "text": "Am Strand gibt es viel Sand.", "zh": "海滩上有很多沙子。" },
+        { "text": "Bei Wind sind die Wellen groß.", "zh": "有风的时候浪很大。" }
+      ] },
+    { "id": "de.g.u19_wetter_heisst", "titleZh": "说天气:Es ist bewölkt / viel Wind;heißt = 意思是",
+      "bodyZh": "问天气:Wie ist das Wetter?;回答:Es ist warm / kalt / bewölkt.(暖和/冷/多云)、Es regnet.(下雨)、Es gibt viel Wind.(风很大)。温度:18 bis 25 Grad(读作 achtzehn bis fünfundzwanzig Grad)。手机、天气预报上常省略动词:18 bis 25 Grad, manchmal bewölkt.。\nheißen 除了“叫……名字”,还可以表示“意思是”:Was heißt das?(这是什么意思?)Eine rote Flagge heißt: nicht schwimmen!(红旗的意思是:不能游泳!)\n生活常识:德国海滩上常用旗子提示能不能游泳,红旗表示危险,不能下水。",
+      "examples": [
+        { "text": "Wie ist das Wetter?", "zh": "天气怎么样?" },
+        { "text": "Es ist manchmal bewölkt.", "zh": "有时多云。" },
+        { "text": "Eine rote Flagge heißt: nicht schwimmen!", "zh": "红旗的意思是:不能游泳!" }
+      ] }
+  ],
+  "review": "draft"
+}

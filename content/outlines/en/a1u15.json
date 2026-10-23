@@ -175,11 +175,11 @@
       "canDoZh": "能读懂一份一周计划表,说出每天的课、打工、学习小组和要交的作业",
       "scenarioZh": "体裁:周计划表(磊手机里的日程)。说话人 lei(第一人称)。周一到周日每天一两行:上午的课、周一周三下午 2–6 点在咖啡馆上班、周二周四下午五点学习小组、周四三点去教授答疑、周五写作课交文章(Essay 1 due!!)、周六洗衣服和打扫房间、周日晚上和爸妈视频;最后两行是给自己的提醒。至少 10 行。(规划里答疑是周三三点,改成周四,和 r01、l04 一致。)",
       "grammarFocusZh": "复习学科词、时间介词和不加冠词的说法(go to work、at home);计划表里的省略写法(5:00 — study group, library),读的时候自己补全。",
-      "skills": ["read", "listen", "speak"], "estimatedMinutes": 15,
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
       "newItems": [
         { "id": "en.remember", "kind": "word", "pos": "verb", "text": "remember", "zh": "记得;记住", "features": { "ipa": "rɪˈmembɚ" }, "noteZh": "Remember: … 给自己的提醒,\"记住:……\";重音在中间 re-MEM-ber。" }
       ],
-      "reviewItems": ["en.study_group", "en.office_hours", "en.due", "en.go_to_work", "en.video_call", "en.do_laundry"]
+      "reviewItems": ["en.study_group", "en.office_hours", "en.due", "en.midterm", "en.video_call", "en.do_laundry"]
     }
   ]
 }

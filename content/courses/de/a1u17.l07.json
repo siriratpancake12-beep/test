@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u17.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117070,
+  "titleZh": "太热了,睡不着", "goalZh": "会说热天里身体的感受,听懂和给出简单的建议", "canDoZh": "能说热天里身体的感受,给别人简单的建议",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.klimaanlage", "kind": "word", "pos": "noun", "text": "die Klimaanlage", "zh": "空调", "features": { "gender": "f", "plural": "die Klimaanlagen", "ipa": "ˈkliːmaˌʔanlaːɡə" }, "noteZh": "das Klima + die Anlage(设备);德国的住家很少装空调,夏天热的几天大家靠开窗、风扇过。" },
+    { "id": "de.ventilator", "kind": "word", "pos": "noun", "text": "der Ventilator", "zh": "电风扇", "features": { "gender": "m", "plural": "die Ventilatoren", "ipa": "vɛntiˈlaːtoːɐ̯" }, "noteZh": "注意这里的 v 读 [v];复数 die Ventilatoren,重音挪到 to 上。" },
+    { "id": "de.trick", "kind": "word", "pos": "noun", "text": "der Trick", "zh": "窍门;诀窍", "features": { "gender": "m", "plural": "die Tricks", "ipa": "tʁɪk" }, "noteZh": "Ich habe einen Trick.(我有个窍门。)复数 die Tricks。" },
+    { "id": "de.schliessen", "kind": "word", "pos": "verb", "text": "schließen", "zh": "关上;关闭", "features": { "ipa": "ˈʃliːsn̩" }, "noteZh": "die Fenster schließen(关窗);比口语的 zumachen 正式一点;完成时不规则:geschlossen(商店“关门了”也说 geschlossen)。" },
+    { "id": "de.vorhang", "kind": "word", "pos": "noun", "text": "der Vorhang", "zh": "窗帘;帘子", "features": { "gender": "m", "plural": "die Vorhänge", "ipa": "ˈfoːɐ̯ˌhaŋ" }, "noteZh": "复数变音:die Vorhänge;v 读 [f]。" },
+    { "id": "de.lueften", "kind": "word", "pos": "verb", "text": "lüften", "zh": "开窗通风", "features": { "ipa": "ˈlʏftn̩" }, "noteZh": "德国人很讲究 lüften:冬天每天也要开几次窗通风;夏天白天关窗挡热,晚上凉快时 lüften;du lüftest, er lüftet。" },
+    { "id": "de.duschen", "kind": "word", "pos": "verb", "text": "duschen", "zh": "淋浴;冲澡", "features": { "ipa": "ˈduːʃn̩" }, "noteZh": "kalt duschen(冲凉水澡);名词是 die Dusche;u 是长音。" },
+    { "id": "de.kuehl", "kind": "word", "pos": "adj", "text": "kühl", "zh": "凉快的;凉的", "features": { "ipa": "kyːl" }, "noteZh": "Am Morgen ist es kühl.(早上凉快。)比 kalt(冷)温和;冰箱 der Kühlschrank 就是从它来的。" }
+  ],
+  "reviewItems": ["de.mir_ist_heiss", "de.kopf", "de.schmerz", "de.nacht", "de.ueberall"],
+  "lines": [
+    { "speaker": "jonas", "text": "Guten Morgen … Ich bin so müde.", "zh": "(连着几天 35 度,早上在 WG 厨房)早……我好困。", "items": ["de.guten_morgen", "de.ich", "de.sein", "de.so", "de.muede"] },
+    { "speaker": "sofia", "text": "Ich auch. Und ich habe Kopfschmerzen.", "zh": "我也是。而且我头疼。", "items": ["de.ich", "de.auch", "de.und", "de.haben", "de.kopf", "de.schmerz"] },
+    { "speaker": "jonas", "text": "Ich habe in der Nacht schlecht geschlafen. Es waren 30 Grad im Zimmer!", "zh": "我昨天夜里没睡好。房间里有 30 度!", "items": ["de.ich", "de.haben", "de.in", "de.nacht", "de.schlecht", "de.schlafen", "de.es", "de.sein", "de.grad", "de.zimmer"] },
+    { "speaker": "wei", "text": "In Chengdu ist es im Sommer auch heiß, oft 38 Grad.", "zh": "成都夏天也很热,常常 38 度。", "items": ["de.in", "de.sein", "de.es", "de.sommer", "de.auch", "de.heiss", "de.oft", "de.grad"] },
+    { "speaker": "wei", "text": "Aber da gibt es überall Klimaanlagen.", "zh": "不过那儿到处都有空调。", "items": ["de.aber", "de.da", "de.es_gibt", "de.ueberall", "de.klimaanlage"] },
+    { "speaker": "jonas", "text": "Wir haben nur einen Ventilator. Mir ist so heiß!", "zh": "我们只有一台电风扇。热死我了!", "items": ["de.wir", "de.haben", "de.nur", "de.ein", "de.ventilator", "de.mir_ist_heiss", "de.so"] },
+    { "speaker": "hoffmann", "text": "Guten Morgen! Ist Ihnen auch so heiß?", "zh": "(在楼道里)早上好!你们也热得受不了吧?", "items": ["de.guten_morgen", "de.mir_ist_heiss", "de.sie_hoeflich", "de.auch", "de.so"] },
+    { "speaker": "sofia", "text": "Ja, Herr Hoffmann. Wir können nicht schlafen.", "zh": "是啊,霍夫曼先生。我们都睡不着。", "items": ["de.ja", "de.herr", "de.wir", "de.koennen", "de.nicht", "de.schlafen"] },
+    { "speaker": "hoffmann", "text": "Ich habe einen Trick. Schließen Sie am Tag die Fenster und die Vorhänge.", "zh": "我有个窍门。白天把窗户关上,窗帘也拉上。", "items": ["de.ich", "de.haben", "de.ein", "de.trick", "de.schliessen", "de.sie_hoeflich", "de.am", "de.tag", "de.fenster", "de.und", "de.vorhang"] },
+    { "speaker": "hoffmann", "text": "Am Abend und in der Nacht lüften Sie. Kalt duschen hilft auch!", "zh": "傍晚和夜里再开窗通风。冲个凉水澡也管用!", "items": ["de.am", "de.abend", "de.und", "de.in", "de.nacht", "de.lueften", "de.sie_hoeflich", "de.kalt", "de.duschen", "de.helfen", "de.auch"] },
+    { "speaker": "wei", "text": "Danke! Jetzt ist es noch kühl. Dann lüfte ich schnell!", "zh": "谢谢!现在还挺凉快。那我赶紧开窗通通风!", "items": ["de.danke", "de.jetzt", "de.sein", "de.es", "de.noch", "de.kuehl", "de.dann", "de.lueften", "de.ich", "de.schnell"] },
+    { "speaker": "jonas", "text": "Und du, Sofia, trink viel Wasser! Das hilft bei Kopfschmerzen.", "zh": "还有你,索菲娅,多喝水!头疼的时候喝水管用。", "items": ["de.und", "de.du", "de.trinken", "de.viel", "de.wasser", "de.helfen", "de.bei", "de.kopf", "de.schmerz"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯为什么这么困?", "options": ["他工作到很晚", "夜里太热,他没睡好", "他早上跑了步"], "answer": 1, "explainZh": "约纳斯说:Ich habe in der Nacht schlecht geschlafen. Es waren 30 Grad im Zimmer!(我昨天夜里没睡好,房间里有 30 度!)" },
+    { "prompt": "王伟说成都的夏天怎么样?", "options": ["不热,很凉快", "常常下雨", "也很热,但到处都有空调"], "answer": 2, "explainZh": "王伟说:In Chengdu ist es im Sommer auch heiß, oft 38 Grad. Aber da gibt es überall Klimaanlagen.(成都夏天也很热,常常 38 度,不过到处都有空调。)" },
+    { "prompt": "霍夫曼先生的窍门是什么?", "options": ["白天关窗、拉上窗帘,傍晚和夜里开窗通风", "白天一直开着窗", "买一台空调"], "answer": 0, "explainZh": "霍夫曼先生说:Schließen Sie am Tag die Fenster und die Vorhänge. Am Abend und in der Nacht lüften Sie.(白天关窗、拉上窗帘,傍晚和夜里再开窗通风。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_koerper_ratschlaege", "titleZh": "说身体感受;用命令式给建议",
+      "bodyZh": "说身体感受有三种句型,别混:Ich bin müde.(sein + 形容词)/ Ich habe Kopfschmerzen.(haben + 名词;Kopfschmerzen = der Kopf + der Schmerz,一般用复数,第 8 单元)/ Mir ist heiß.(mir ist + 形容词;问别人:Ist dir heiß? / Ist Ihnen heiß?)\n睡不好:Ich habe schlecht geschlafen.(我没睡好。)/ Wir können nicht schlafen.(我们睡不着。)\n给别人出主意常用命令式,动词放在句首:对 Sie(一个人、几个人都一样):Schließen Sie die Fenster! / Trinken Sie viel Wasser!;对 du:du trinkst 去掉 -st → Trink viel Wasser!;对 ihr:Trinkt viel Wasser!\n也可以直接说什么管用:Kalt duschen hilft auch.(冲凉水澡也管用。)/ Das hilft bei Kopfschmerzen.(这对头疼管用。)\n文化:德国的住家很少有空调,热的那几天,大家白天关窗、拉窗帘,傍晚和夜里再 lüften。",
+      "examples": [
+        { "text": "Ich habe Kopfschmerzen.", "zh": "我头疼。" },
+        { "text": "Mir ist so heiß!", "zh": "热死我了!" },
+        { "text": "Schließen Sie am Tag die Fenster!", "zh": "白天把窗户关上!" },
+        { "text": "Trink viel Wasser!", "zh": "多喝水!" }
+      ] }
+  ],
+  "review": "draft"
+}

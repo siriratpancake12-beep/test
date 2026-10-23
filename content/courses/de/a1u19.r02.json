@@ -1,0 +1,44 @@
+{
+  "id": "de.a1u19.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-19 旅行准备", "order": 119085,
+  "titleZh": "四天的旅行计划", "goalZh": "读懂一份几天的旅行计划,说出每天做什么、几点、在哪儿、大概花多少钱", "canDoZh": "能读懂一份几天的旅行计划,说出每天做什么、几点、在哪儿",
+  "skills": ["read", "write"], "estimatedMinutes": 16.5,
+  "newItems": [
+    { "id": "de.schiff", "kind": "word", "pos": "noun", "text": "das Schiff", "zh": "船", "features": { "gender": "n", "plural": "die Schiffe", "ipa": "ʃɪf" }, "noteZh": "mit dem Schiff fahren(坐船);复数 die Schiffe。从 Warnemünde 可以坐船去 Rostock 市区。i 是短元音。" },
+    { "id": "de.altstadt", "kind": "word", "pos": "noun", "text": "die Altstadt", "zh": "老城;旧城区", "features": { "gender": "f", "plural": "die Altstädte", "ipa": "ˈaltˌʃtat" }, "noteZh": "alt + die Stadt;德国很多城市都有老城,教堂、市场和老房子都在那儿。复数变音 die Altstädte。" },
+    { "id": "de.hallenbad", "kind": "word", "pos": "noun", "text": "das Hallenbad", "zh": "室内游泳馆", "features": { "gender": "n", "plural": "die Hallenbäder", "ipa": "ˈhalənˌbaːt" }, "noteZh": "die Halle(大厅)+ das Bad;下雨天去室内的 Hallenbad,夏天也有露天的 Freibad。复数变音 die Hallenbäder;词尾 d 读 [t]。" }
+  ],
+  "reviewItems": ["de.ankunft", "de.einchecken", "de.gepaeck", "de.rezeption", "de.leuchtturm", "de.hafen"],
+  "lines": [
+    { "speaker": "wei", "text": "Unsere Reise nach Warnemünde – vom 25. bis zum 28. Juli", "zh": "(王伟在火车上改了大家共享的旅行计划)我们的瓦尔内明德之行——7 月 25 日到 28 日", "items": ["de.unser", "de.reise", "de.nach", "de.von", "de.fuenf", "de.zwanzig", "de.bis", "de.zu", "de.acht", "de.juli"] },
+    { "speaker": "wei", "text": "Tag 1: Ankunft um halb elf. Unser Zug hat leider Verspätung.", "zh": "第一天:十点半到。我们的火车可惜晚点了。", "items": ["de.tag", "de.eins", "de.ankunft", "de.um", "de.halb", "de.elf", "de.unser", "de.zug", "de.haben", "de.leider", "de.verspaetung"] },
+    { "speaker": "wei", "text": "Das Gepäck lassen wir an der Rezeption. Dann gehen wir an den Strand.", "zh": "行李先放在前台,然后去海滩。", "items": ["de.gepaeck", "de.lassen", "de.wir", "de.an", "de.rezeption", "de.dann", "de.gehen", "de.strand"] },
+    { "speaker": "wei", "text": "Um 15 Uhr checken wir ein.", "zh": "15 点办入住。", "items": ["de.um", "de.fuenf", "de.zehn", "de.uhr", "de.einchecken", "de.wir"] },
+    { "speaker": "wei", "text": "Tag 2: Wir nehmen die Fahrräder von der Jugendherberge und fahren zum Leuchtturm.", "zh": "第二天:骑青年旅舍的自行车去灯塔。", "items": ["de.tag", "de.zwei", "de.wir", "de.nehmen", "de.fahrrad", "de.von", "de.jugendherberge", "de.und", "de.fahren", "de.zu", "de.leuchtturm"] },
+    { "speaker": "wei", "text": "Am Nachmittag baden Lena und Paul im Meer. Ich bleibe am Strand.", "zh": "下午莉娜和保罗下海游泳,我在海滩上待着。", "items": ["de.am", "de.nachmittag", "de.baden", "de.und", "de.in", "de.meer", "de.ich", "de.bleiben", "de.strand"] },
+    { "speaker": "wei", "text": "Tag 3: Wir fahren mit dem Schiff nach Rostock.", "zh": "第三天:坐船去罗斯托克。", "items": ["de.tag", "de.drei", "de.wir", "de.fahren", "de.mit", "de.schiff", "de.nach"] },
+    { "speaker": "wei", "text": "In der Altstadt gibt es viele alte Häuser und einen Markt.", "zh": "老城里有很多老房子,还有一个集市。", "items": ["de.in", "de.altstadt", "de.es_gibt", "de.viel", "de.alt", "de.haus", "de.und", "de.ein", "de.markt"] },
+    { "speaker": "wei", "text": "Am Abend essen wir Fischbrötchen am Hafen.", "zh": "晚上在港口吃鱼面包。", "items": ["de.am", "de.abend", "de.essen", "de.wir", "de.fischbroetchen", "de.hafen"] },
+    { "speaker": "wei", "text": "Tag 4: Bis 10 Uhr machen wir das Zimmer frei. Dann kaufen wir Geschenke.", "zh": "第四天:10 点以前退房,然后买礼物。", "items": ["de.tag", "de.vier", "de.bis", "de.zehn", "de.uhr", "de.machen", "de.wir", "de.zimmer", "de.frei", "de.dann", "de.kaufen", "de.geschenk"] },
+    { "speaker": "wei", "text": "Um 14:10 Uhr fährt unser Zug von Rostock nach Berlin.", "zh": "14:10 我们从罗斯托克坐火车回柏林。", "items": ["de.um", "de.vier", "de.zehn", "de.uhr", "de.fahren", "de.unser", "de.zug", "de.von", "de.nach"] },
+    { "speaker": "wei", "text": "Bei Regen gehen wir ins Museum oder ins Hallenbad.", "zh": "下雨的话,就去博物馆或者室内游泳馆。", "items": ["de.bei", "de.regen", "de.gehen", "de.wir", "de.in", "de.museum", "de.oder", "de.hallenbad"] },
+    { "speaker": "wei", "text": "Für eine Person: Zug 39 Euro, Jugendherberge 110 Euro.", "zh": "每人:火车 39 欧元,青年旅舍 110 欧元。", "items": ["de.fuer", "de.ein", "de.person", "de.zug", "de.neun", "de.dreissig", "de.euro", "de.jugendherberge", "de.hundert", "de.zehn"] },
+    { "speaker": "wei", "text": "Fahrrad, Schiff und Fischbrötchen: ungefähr 50 Euro. Zusammen sind das ungefähr 200 Euro.", "zh": "自行车、坐船和鱼面包:大约 50 欧元。一共大约 200 欧元。", "items": ["de.fahrrad", "de.schiff", "de.und", "de.fischbroetchen", "de.ungefaehr", "de.fuenfzig", "de.euro", "de.zusammen", "de.sein", "de.zwei", "de.hundert"] }
+  ],
+  "questions": [
+    { "prompt": "第一天到了以后,行李怎么办?", "options": ["带着去海滩", "先寄存在火车站", "先放在青年旅舍的前台"], "answer": 2, "explainZh": "Das Gepäck lassen wir an der Rezeption.(行李先放在前台。)15 点才办入住:Um 15 Uhr checken wir ein." },
+    { "prompt": "第三天他们怎么去罗斯托克?", "options": ["坐船", "骑自行车", "坐城铁"], "answer": 0, "explainZh": "Tag 3: Wir fahren mit dem Schiff nach Rostock.(第三天坐船去罗斯托克。)自行车是第二天去灯塔骑的。" },
+    { "prompt": "下雨的话,他们去哪儿?", "options": ["还是去海滩", "去博物馆或者室内游泳馆", "待在青年旅舍"], "answer": 1, "explainZh": "Bei Regen gehen wir ins Museum oder ins Hallenbad.(下雨就去博物馆或者室内游泳馆。)" },
+    { "prompt": "这次旅行每人大概花多少钱?", "options": ["50 欧元", "110 欧元", "200 欧元"], "answer": 2, "explainZh": "火车 39 欧元、青年旅舍 110 欧元,再加大约 50 欧元:Zusammen sind das ungefähr 200 Euro.(一共大约 200 欧元。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u19_reiseplan", "titleZh": "写旅行计划:时间放句首,动词在第二位;省略的短句",
+      "bodyZh": "计划里常把时间、条件放在句首,变位动词紧跟着在第二位,主语放在动词后面:Am Abend essen wir Fischbrötchen am Hafen. / Um 15 Uhr checken wir ein.(可分动词的前缀放句末)/ Bei Regen gehen wir ins Museum.(bei Regen = 下雨的话)。\n计划、清单里常省略动词:Tag 1: Ankunft um halb elf. / Für eine Person: Zug 39 Euro.\n说总数用 zusammen:Zusammen sind das ungefähr 200 Euro.(一共大约 200 欧元。)\n去海滩:an den Strand(第四格,表示去哪儿);在海滩上:am Strand(第三格,表示在哪儿)。",
+      "examples": [
+        { "text": "Am Abend essen wir Fischbrötchen am Hafen.", "zh": "晚上我们在港口吃鱼面包。" },
+        { "text": "Bei Regen gehen wir ins Museum.", "zh": "下雨的话我们去博物馆。" },
+        { "text": "Zusammen sind das ungefähr 200 Euro.", "zh": "一共大约 200 欧元。" }
+      ] }
+  ],
+  "review": "draft"
+}

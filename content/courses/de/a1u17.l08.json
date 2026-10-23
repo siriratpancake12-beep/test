@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u17.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117080,
+  "titleZh": "单元复习与应用:电台的夏日采访", "goalZh": "复习本单元的不规则动词、gehen + 不定式、频率和完成时,回答关于运动和夏天的采访", "canDoZh": "能回答关于运动和生活习惯的采访,讲自己最近的运动经历",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 22,
+  "newItems": [
+    { "id": "de.interview", "kind": "word", "pos": "noun", "text": "das Interview", "zh": "采访;访谈", "features": { "gender": "n", "plural": "die Interviews", "ipa": "ˈɪntɐˌvjuː" }, "noteZh": "英语借来的词:ein Interview machen(做采访);找工作的面试德语常说 das Vorstellungsgespräch。" }
+  ],
+  "reviewItems": ["de.badminton", "de.kilometer", "de.rad", "de.kurz", "de.jeder"],
+  "lines": [
+    { "speaker": "radio", "text": "Hallo und herzlich willkommen! Heute machen wir Interviews am See.", "zh": "(大学电台在湖边做节目)大家好,欢迎收听!今天我们在湖边做采访。", "items": ["de.hallo", "de.und", "de.herzlich_willkommen", "de.heute", "de.machen", "de.wir", "de.interview", "de.am", "de.see"] },
+    { "speaker": "radio", "text": "Hallo, ihr zwei! Habt ihr kurz Zeit?", "zh": "两位好!有空聊几句吗?", "items": ["de.hallo", "de.ihr", "de.zwei", "de.haben", "de.kurz", "de.zeit"] },
+    { "speaker": "lena", "text": "Ja, gern! Ich bin Lena, und das ist Wei.", "zh": "好啊!我叫莉娜,这是王伟。", "items": ["de.ja", "de.gern", "de.ich", "de.sein", "de.und", "de.das_ist"] },
+    { "speaker": "radio", "text": "Macht ihr Sport? Und wie oft?", "zh": "你们运动吗?多久一次?", "items": ["de.machen", "de.ihr", "de.sport", "de.und", "de.wie", "de.oft"] },
+    { "speaker": "lena", "text": "Ich schwimme oft, am Dienstag und am Freitag. Immer einen Kilometer!", "zh": "我常游泳,星期二和星期五。每次都游一公里!", "items": ["de.ich", "de.schwimmen", "de.oft", "de.am", "de.dienstag", "de.und", "de.freitag", "de.immer", "de.ein", "de.kilometer"] },
+    { "speaker": "lena", "text": "Und jeden Sonntag gehe ich im Park laufen.", "zh": "每个星期天我还去公园跑步。", "items": ["de.und", "de.jeder", "de.sonntag", "de.gehen", "de.ich", "de.in", "de.park", "de.laufen"] },
+    { "speaker": "radio", "text": "Und du, Wei? Läufst du auch?", "zh": "你呢,王伟?你也跑步吗?", "items": ["de.und", "de.du", "de.laufen", "de.auch"] },
+    { "speaker": "wei", "text": "Nein, ich laufe nie! Aber ich spiele jetzt Badminton, jeden Dienstag.", "zh": "不,我从来不跑步!不过我现在打羽毛球,每个星期二都打。", "items": ["de.nein", "de.ich", "de.laufen", "de.nie", "de.aber", "de.spielen", "de.jetzt", "de.badminton", "de.jeder", "de.dienstag"] },
+    { "speaker": "radio", "text": "Und was macht ihr im Sommer gern?", "zh": "那你们夏天喜欢做什么?", "items": ["de.und", "de.was", "de.machen", "de.ihr", "de.in", "de.sommer", "de.gern"] },
+    { "speaker": "wei", "text": "Ich fahre gern Rad. Gestern bin ich dreißig Kilometer gefahren!", "zh": "我喜欢骑车。昨天我骑了三十公里!", "items": ["de.ich", "de.fahren", "de.gern", "de.rad", "de.gestern", "de.sein", "de.dreissig", "de.kilometer"] },
+    { "speaker": "radio", "text": "Toll! Und bist du auch schon im See geschwommen?", "zh": "真棒!那你在湖里游过泳吗?", "items": ["de.toll", "de.und", "de.sein", "de.du", "de.auch", "de.schon", "de.in", "de.see", "de.schwimmen"] },
+    { "speaker": "wei", "text": "Ja, letzte Woche, hier im See. Das war neu für mich!", "zh": "游过,上个星期,就在这个湖里。我还是头一回呢!", "items": ["de.ja", "de.letzte", "de.woche", "de.hier", "de.in", "de.see", "de.sein", "de.neu", "de.fuer", "de.mich"] },
+    { "speaker": "wei", "text": "Das Wasser war kalt, aber sehr schön.", "zh": "水很凉,不过感觉特别棒。", "items": ["de.wasser", "de.sein", "de.kalt", "de.aber", "de.sehr", "de.schoen"] },
+    { "speaker": "lena", "text": "Und jetzt schwimmt er schon gut!", "zh": "而且他现在已经游得不错了!", "items": ["de.und", "de.jetzt", "de.schwimmen", "de.er", "de.schon", "de.gut"] },
+    { "speaker": "radio", "text": "Vielen Dank für das Interview! Viel Spaß am See!", "zh": "谢谢你们接受采访!在湖边玩得开心!", "items": ["de.vielen_dank", "de.fuer", "de.interview", "de.viel", "de.spass", "de.am", "de.see"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜什么时候游泳?", "options": ["每天都游", "星期二和星期五", "只在周末"], "answer": 1, "explainZh": "莉娜说:Ich schwimme oft, am Dienstag und am Freitag.(我常游泳,星期二和星期五。)星期天她去公园跑步。" },
+    { "prompt": "王伟昨天做了什么?", "options": ["骑车骑了三十公里", "第一次在湖里游泳", "打了羽毛球"], "answer": 0, "explainZh": "王伟说:Gestern bin ich dreißig Kilometer gefahren!(昨天我骑了三十公里!)在湖里游泳是上个星期的事。" },
+    { "prompt": "王伟觉得在湖里游泳怎么样?", "options": ["太危险了", "太累了", "以前没游过,水凉,但感觉很棒"], "answer": 2, "explainZh": "王伟说:Das war neu für mich! Das Wasser war kalt, aber sehr schön.(我还是头一回!水很凉,不过感觉特别棒。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_wiederholung", "titleZh": "单元复习:多久一次、gehen + 不定式、完成时",
+      "bodyZh": "说多久一次:immer(总是)> oft(常常)> manchmal(有时)> nie(从不);也可以说具体的日子:jeden Sonntag(每个星期天)、am Dienstag und am Freitag。问别人:Wie oft …?\n去做某事:Ich gehe im Park laufen.(gehen + 不定式,不定式放句末)\n不规则动词别忘了变音:Läufst du auch? / Er fährt gern Rad.\n讲做过的事用完成时:表示移动的 fahren、schwimmen 用 sein:Ich bin dreißig Kilometer gefahren. / Ich bin im See geschwommen.;spielen 用 haben:Ich habe Badminton gespielt.\n采访里对两个年轻人用 ihr:Habt ihr kurz Zeit? / Macht ihr Sport?",
+      "examples": [
+        { "text": "Wie oft macht ihr Sport?", "zh": "你们多久运动一次?" },
+        { "text": "Jeden Sonntag gehe ich laufen.", "zh": "每个星期天我都去跑步。" },
+        { "text": "Gestern bin ich dreißig Kilometer gefahren.", "zh": "昨天我骑了三十公里。" },
+        { "text": "Ich bin im See geschwommen.", "zh": "我在湖里游过泳。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u10.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110030,
+  "titleZh": "圣诞节交换礼物", "goalZh": "会用 This is for you. / You didn't have to! 送礼物、收礼物", "canDoZh": "能参加一次交换礼物活动:抽签、打听对方喜欢什么、送礼物和道谢",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.secret_santa", "kind": "phrase", "pos": "noun", "text": "Secret Santa", "zh": "秘密圣诞老人(抽签互送礼物)", "features": { "ipa": "ˌsiːkrət ˈsæntə" }, "noteZh": "朋友、同事之间抽签,给抽到的人偷偷准备一份小礼物,一般定一个价钱上限;I have Marcus for Secret Santa.(我抽到了马库斯。)" },
+    { "id": "en.christmas_eve", "kind": "phrase", "pos": "propn", "text": "Christmas Eve", "zh": "平安夜", "features": { "ipa": "ˌkrɪsməs ˈiːv" }, "noteZh": "12 月 24 日晚上;Eve /iːv/ 指节日的前一天晚上,New Year's Eve 就是除夕夜。" },
+    { "id": "en.cookie", "kind": "word", "pos": "noun", "text": "cookie", "zh": "饼干;曲奇", "features": { "ipa": "ˈkʊki" }, "noteZh": "美式说 cookie,英式说 biscuit;oo 读短音 /ʊ/;复数 cookies。" },
+    { "id": "en.candy", "kind": "word", "pos": "noun", "text": "candy", "zh": "糖果", "features": { "ipa": "ˈkændi" }, "noteZh": "美式说 candy,英式说 sweets;一般不加 s:a lot of candy。" },
+    { "id": "en.chocolate", "kind": "word", "pos": "noun", "text": "chocolate", "zh": "巧克力", "features": { "ipa": "ˈtʃɑːklət" }, "noteZh": "美式常读成两个音节 “CHOC-let”;hot chocolate 是热巧克力(饮料)。" },
+    { "id": "en.this_is_for_you", "kind": "phrase", "pos": "phrase", "text": "This is for you", "zh": "这是给你的", "features": { "ipa": "ˌðɪs ɪz fɚ ˈjuː" }, "noteZh": "送礼物的固定说法;也可以说 I got this for you.(这是我给你买的。)" },
+    { "id": "en.you_didnt_have_to", "kind": "phrase", "pos": "phrase", "text": "You didn't have to", "zh": "你太客气了;不用这样破费的", "features": { "ipa": "juː ˈdɪdənt hæv tuː" }, "noteZh": "收到礼物时客气地说,是道谢,不是拒绝,后面常跟 Thank you!;didn't 的 t 很轻。" },
+    { "id": "en.song", "kind": "word", "pos": "noun", "text": "song", "zh": "歌", "features": { "ipa": "sɑːŋ" }, "noteZh": "o 读 /ɑː/,结尾 ng 是 /ŋ/,不要读成 n;a Christmas song(圣诞歌)。" }
+  ],
+  "reviewItems": ["en.music", "en.t_shirt", "en.concert", "en.guitar", "en.fun"],
+  "lines": [
+    { "speaker": "lei", "text": "Amy, I have Marcus for Secret Santa. What does he like?", "zh": "(抽完签,磊偷偷问艾米)艾米,我抽到马库斯了。他喜欢什么?", "items": ["en.have", "en.secret_santa", "en.like"] },
+    { "speaker": "amy", "text": "Music! And he loves chocolate. Only twenty dollars, OK?", "zh": "音乐!还有,他超爱巧克力。最多二十美元哦。", "items": ["en.music", "en.love", "en.chocolate", "en.only", "en.dollar"] },
+    { "speaker": "sofia", "text": "Merry Christmas Eve, you guys! Look, it's so beautiful!", "zh": "(平安夜,宿舍休息室的圣诞树下)平安夜快乐!你们看,好漂亮!", "items": ["en.merry_christmas", "en.christmas_eve", "en.you_guys", "en.look", "en.so", "en.beautiful"] },
+    { "speaker": "amy", "text": "I have cookies, candy, and hot chocolate!", "zh": "我带了饼干、糖果,还有热巧克力!", "items": ["en.have", "en.cookie", "en.candy", "en.hot", "en.chocolate"] },
+    { "speaker": "marcus", "text": "Yes, please! OK, Secret Santa time!", "zh": "来一杯!好,开始交换礼物!", "items": ["en.secret_santa"] },
+    { "speaker": "lei", "text": "Marcus, this is for you. Merry Christmas!", "zh": "马库斯,这是给你的。圣诞快乐!", "items": ["en.this_is_for_you", "en.merry_christmas"] },
+    { "speaker": "marcus", "text": "For me? Chocolate! And a T-shirt with The Rainy Days on it!", "zh": "给我的?巧克力!还有一件印着我们乐队名字 The Rainy Days 的 T 恤!", "items": ["en.chocolate", "en.t_shirt"] },
+    { "speaker": "marcus", "text": "Lei, you didn't have to!", "zh": "磊,你太破费了!", "items": ["en.you_didnt_have_to"] },
+    { "speaker": "lei", "text": "I got it for your concerts. Do you like it?", "zh": "这是给你演出穿的。喜欢吗?", "items": ["en.get", "en.concert", "en.like"] },
+    { "speaker": "marcus", "text": "Like it? I love it! Thanks, man.", "zh": "喜欢?我太爱了!谢啦,兄弟。", "items": ["en.like", "en.love", "en.thank_you"] },
+    { "speaker": "amy", "text": "Now a Christmas song! Marcus, play your guitar!", "zh": "现在来首圣诞歌!马库斯,弹吉他!", "items": ["en.christmas", "en.song", "en.play", "en.guitar"] },
+    { "speaker": "lei", "text": "Happy holidays, you guys! This is so fun!", "zh": "节日快乐,大家!太好玩了!", "items": ["en.happy", "en.holiday", "en.you_guys", "en.so", "en.fun"] }
+  ],
+  "questions": [
+    { "prompt": "磊在 Secret Santa 里抽到了谁?", "options": ["艾米", "索菲亚", "马库斯"], "answer": 2, "explainZh": "Amy, I have Marcus for Secret Santa.(我抽到马库斯了。)" },
+    { "prompt": "每份礼物最多多少钱?", "options": ["十美元", "二十美元", "三十美元"], "answer": 1, "explainZh": "Only twenty dollars, OK?(最多二十美元。)" },
+    { "prompt": "磊送了马库斯什么?", "options": ["巧克力和一件印着他乐队名字的 T 恤", "一把吉他", "饼干和热巧克力"], "answer": 0, "explainZh": "Chocolate! And a T-shirt with The Rainy Days on it!(饼干、糖果和热巧克力是艾米给大家准备的。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.giving_gifts",
+      "titleZh": "送礼和收礼:This is for you. / You didn't have to!",
+      "bodyZh": "送礼物时说 This is for you.(这是给你的。)或 I got this for you.(这是我给你买的。)——get + 东西 + for + 人,这里的 get 是“买、弄到”。收到礼物:Thank you! I love it!(谢谢!我太喜欢了!)客气一点可以说 You didn't have to!(你太破费了!),这是道谢,不是拒绝。圣诞节的祝福是 Merry Christmas!(圣诞快乐!);美国人也常说 Happy holidays!,把圣诞、新年等节日都包括进去,对不过圣诞节的人也合适。发音:Christmas 的 t 不发音,读 /ˈkrɪsməs/。",
+      "examples": [
+        { "text": "Marcus, this is for you. Merry Christmas!", "zh": "马库斯,这是给你的。圣诞快乐!" },
+        { "text": "I got it for you. Do you like it? — I love it!", "zh": "这是我给你买的。喜欢吗?——太喜欢了!" },
+        { "text": "You didn't have to! Thank you!", "zh": "你太破费了!谢谢!" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

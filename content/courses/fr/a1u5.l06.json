@@ -1,0 +1,54 @@
+{
+  "id": "fr.a1u5.l06", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日常", "order": 105060,
+  "titleZh": "几点开门?——营业时间", "goalZh": "会问和说营业时间(从几点到几点、开到几点、几点关门),看懂门口的营业时间牌", "canDoZh": "能问图书馆、商店几点开门、几点关门,看懂门口的营业时间牌",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "fr.bibliotheque", "kind": "word", "pos": "noun", "text": "la bibliothèque", "zh": "图书馆", "features": { "gender": "f", "ipa": "la bi.bli.jɔ.tɛk" }, "noteZh": "th 读 [t],è 读 [ɛ],词尾的 que 读 [k];大学图书馆口语叫 la BU;书店是 la librairie,别混。" },
+    { "id": "fr.magasin", "kind": "word", "pos": "noun", "text": "le magasin", "zh": "商店", "features": { "gender": "m", "ipa": "lə ma.ga.zɛ̃" }, "noteZh": "阳性;s 在两个元音之间读 [z],in 读鼻化元音 [ɛ̃];复数 les magasins,读音不变。" },
+    { "id": "fr.horaires", "kind": "word", "pos": "noun", "text": "les horaires", "zh": "开放时间;营业时间", "features": { "gender": "m", "ipa": "le.zɔ.ʁɛʁ" }, "noteZh": "一般用复数,阳性;h 不发音,les 和它联诵读 [z];门口的营业时间牌就叫 les horaires。" },
+    { "id": "fr.ouvert", "kind": "word", "pos": "adj", "text": "ouvert", "zh": "开着的;营业的(阳性)", "features": { "ipa": "u.vɛʁ" }, "noteZh": "阳性 ouvert 的 t 不发音;阴性 ouverte 的 t 要读出来 [u.vɛʁt];C'est ouvert ?(开着吗?)" },
+    { "id": "fr.ferme", "kind": "word", "pos": "adj", "text": "fermé", "zh": "关着的;不营业的(阳性)", "features": { "ipa": "fɛʁ.me" }, "noteZh": "阴性 fermée、复数 fermés,读音都一样;C'est fermé le dimanche.(星期天不开。)" },
+    { "id": "fr.fermer", "kind": "word", "pos": "verb", "text": "fermer", "zh": "关门;关上", "features": { "ipa": "fɛʁ.me" }, "noteZh": "规则的 -er 动词,和形容词 fermé 读音一样;La bibliothèque ferme à treize heures.(图书馆十三点关门。)" },
+    { "id": "fr.jusqu_a", "kind": "word", "pos": "prep", "text": "jusqu'à", "zh": "直到;到……为止", "features": { "ipa": "ʒys.ka" }, "noteZh": "s 要读出来;只说结束的时间:C'est ouvert jusqu'à vingt heures.(开到晚上八点。)" },
+    { "id": "fr.maintenant", "kind": "word", "pos": "adv", "text": "maintenant", "zh": "现在", "features": { "ipa": "mɛ̃t.nɑ̃" }, "noteZh": "ain 读鼻化元音 [ɛ̃],中间的 e 不读,词尾 t 不发音;放在句首或句尾都行:Maintenant, on travaille !" }
+  ],
+  "reviewItems": ["fr.boulangerie", "fr.dimanche", "fr.midi", "fr.travailler", "fr.beaucoup"],
+  "lines": [
+    { "speaker": "hao", "text": "Voilà la bibliothèque ! Et voilà les horaires.", "zh": "图书馆到了!门口还写着开放时间。", "items": ["fr.voila", "fr.bibliotheque", "fr.et", "fr.horaires"] },
+    { "speaker": "narrator", "text": "Lundi – vendredi : 8 h 30 – 20 h. Samedi : 9 h – 13 h. Dimanche : fermé.", "zh": "(牌子上写着)星期一至星期五:8:30–20:00;星期六:9:00–13:00;星期天:闭馆。", "items": ["fr.lundi", "fr.vendredi", "fr.heure", "fr.samedi", "fr.dimanche", "fr.ferme"] },
+    { "speaker": "chloe", "text": "Le samedi, c'est ouvert de neuf heures à treize heures.", "zh": "星期六是九点到十三点开。", "items": ["fr.samedi", "fr.cest", "fr.ouvert", "fr.de", "fr.neuf", "fr.heure", "fr.a", "fr.treize"] },
+    { "speaker": "hao", "text": "Treize heures ? Il est midi et demi maintenant !", "zh": "十三点?现在已经十二点半了!", "items": ["fr.treize", "fr.heure", "fr.il", "fr.etre", "fr.midi", "fr.et_demie", "fr.maintenant"] },
+    { "speaker": "chloe", "text": "Oui, la bibliothèque ferme dans trente minutes !", "zh": "是啊,图书馆再过三十分钟就关门了!", "items": ["fr.oui", "fr.bibliotheque", "fr.fermer", "fr.dans", "fr.trente", "fr.minute"] },
+    { "speaker": "hao", "text": "Et le dimanche, c'est ouvert de quelle heure à quelle heure ?", "zh": "那星期天几点到几点开?", "items": ["fr.et", "fr.dimanche", "fr.cest", "fr.ouvert", "fr.de", "fr.quel", "fr.heure", "fr.a"] },
+    { "speaker": "chloe", "text": "C'est fermé ! Le dimanche, beaucoup de magasins sont fermés.", "zh": "星期天不开!星期天很多商店都关门。", "items": ["fr.cest", "fr.ferme", "fr.dimanche", "fr.beaucoup", "fr.de", "fr.magasin", "fr.etre"] },
+    { "speaker": "hao", "text": "Et la boulangerie de ma rue ? Elle est fermée aussi ?", "zh": "那我那条街上的面包店呢?也关门吗?", "items": ["fr.et", "fr.boulangerie", "fr.de", "fr.ma", "fr.rue", "fr.elle", "fr.etre", "fr.ferme", "fr.aussi"] },
+    { "speaker": "chloe", "text": "Non, elle est ouverte le dimanche matin, jusqu'à treize heures.", "zh": "不关,星期天上午开,一直开到十三点。", "items": ["fr.non", "fr.elle", "fr.etre", "fr.ouvert", "fr.dimanche", "fr.matin", "fr.jusqu_a", "fr.treize", "fr.heure"] },
+    { "speaker": "hao", "text": "Très bien ! Maintenant, on travaille !", "zh": "太好了!现在我们开始学习吧!", "items": ["fr.tres", "fr.bien", "fr.maintenant", "fr.on", "fr.travailler"] }
+  ],
+  "questions": [
+    { "prompt": "星期六图书馆几点关门?", "options": ["十二点半", "十三点(下午一点)", "二十点(晚上八点)"], "answer": 1, "explainZh": "Le samedi, c'est ouvert de neuf heures à treize heures.——treize heures 就是下午一点。" },
+    { "prompt": "浩和克洛艾到的时候,离关门还有多久?", "options": ["半个小时", "一个小时", "十三分钟"], "answer": 0, "explainZh": "Il est midi et demi… la bibliothèque ferme dans trente minutes.——dans trente minutes = 再过三十分钟。" },
+    { "prompt": "图书馆星期一到星期五开到几点?", "options": ["十三点", "十八点", "二十点"], "answer": 2, "explainZh": "牌子上写着 Lundi – vendredi : 8 h 30 – 20 h,也就是开到晚上八点。" },
+    { "prompt": "星期天,浩那条街上的面包店怎么样?", "options": ["一整天都关门", "上午开,开到十三点", "下午才开门"], "answer": 1, "explainZh": "Elle est ouverte le dimanche matin, jusqu'à treize heures.——星期天上午开,开到十三点。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.de_a_jusqu_a", "titleZh": "de … à …:从几点到几点;jusqu'à 和 fermer",
+      "bodyZh": "说营业时间用 de + 钟点 + à + 钟点:C'est ouvert de neuf heures à treize heures.(九点到十三点开。)中文“从……到……”、英语 from… to…,法语是 de… à…。问的时候说:C'est ouvert de quelle heure à quelle heure ?(几点到几点开?)\n只说结束的时间用 jusqu'à:C'est ouvert jusqu'à treize heures.(开到十三点。)说“几点关门”用动词 fermer:La bibliothèque ferme à treize heures.;“再过多久”用 dans + 时间:Elle ferme dans trente minutes.(再过三十分钟关门。)\n营业时间牌一般用 24 小时制,常常不写介词:Lundi – vendredi : 8 h 30 – 20 h,读作 de huit heures trente à vingt heures。牌子上也常写 du lundi au vendredi(从星期一到星期五),du、au 第 6 单元学,现在看懂就行。",
+      "examples": [
+        { "text": "La bibliothèque est ouverte de neuf heures à treize heures.", "zh": "图书馆九点到十三点开。" },
+        { "text": "C'est ouvert de quelle heure à quelle heure ?", "zh": "几点到几点开?" },
+        { "text": "Le magasin est ouvert jusqu'à vingt heures.", "zh": "这家商店开到晚上八点。" },
+        { "text": "La boulangerie ferme à treize heures.", "zh": "面包店十三点关门。" }
+      ] },
+    { "id": "fr.g.ouvert_ferme", "titleZh": "ouvert / fermé 要配合;le dimanche = 每个星期天",
+      "bodyZh": "ouvert(开着的)、fermé(关着的)是形容词,要和说的东西配合:le magasin est ouvert / fermé(阳性);la bibliothèque est ouverte / fermée(阴性加 e);les magasins sont ouverts / fermés(复数加 s)。ouverte 的 t 要读出来 [u.vɛʁt];fermé、fermée、fermés 读音都一样 [fɛʁ.me],写的时候别漏。用 c'est 说的时候一律用阳性单数:C'est ouvert ? C'est fermé.(中文“开门了吗?”可以不说主语,法语口语用 c'est。)\nle dimanche 加 le 是“每个星期天”(第 2 课):La bibliothèque est fermée le dimanche.\n文化:在法国,星期天很多商店不开门,不少面包店星期天只开上午;图书馆、银行、邮局的开放时间各不相同,去之前先看一眼门口的 les horaires。",
+      "examples": [
+        { "text": "Le magasin est fermé.", "zh": "商店关门了。" },
+        { "text": "La bibliothèque est fermée le dimanche.", "zh": "图书馆星期天不开。" },
+        { "text": "Les magasins sont ouverts le samedi.", "zh": "商店星期六营业。" },
+        { "text": "C'est ouvert maintenant ?", "zh": "现在开着吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

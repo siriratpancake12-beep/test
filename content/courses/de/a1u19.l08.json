@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u19.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-19 旅行准备", "order": 119080,
+  "titleZh": "单元复习与应用:在火车上", "goalZh": "会在火车上找座位、礼貌地请别人让座,听懂车上的晚点和换乘广播", "canDoZh": "能在火车上找座位、礼貌地请别人让座,听懂车上的晚点和换乘广播",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.wagen", "kind": "word", "pos": "noun", "text": "der Wagen", "zh": "(火车的)车厢;车", "features": { "gender": "m", "plural": "die Wagen", "ipa": "ˈvaːɡn̩" }, "noteZh": "火车票上写着 Wagen 7, Platz 61(7 号车厢 61 座);口语里 der Wagen 也指汽车。复数不变。" },
+    { "id": "de.besetzt", "kind": "word", "pos": "adj", "text": "besetzt", "zh": "(座位)有人;(电话)占线", "features": { "ipa": "bəˈzɛtst" }, "noteZh": "Der Platz ist besetzt.(这个座有人。)反义 frei;打电话占线也说 besetzt。" },
+    { "id": "de.anschluss", "kind": "word", "pos": "noun", "text": "der Anschluss", "zh": "(火车的)转车;衔接", "features": { "gender": "m", "plural": "die Anschlüsse", "ipa": "ˈanˌʃlʊs" }, "noteZh": "den Anschluss verpassen(赶不上转车);广播常说 Anschlusszüge(转乘的列车)。复数变音 die Anschlüsse。" }
+  ],
+  "reviewItems": ["de.platz", "de.reservieren", "de.ankunft", "de.verpassen", "de.seit", "de.sitzen"],
+  "lines": [
+    { "speaker": "sofia", "text": "Wagen sieben! Wir haben die Plätze 61 bis 64.", "zh": "(25 日早上,在去罗斯托克的火车上)7 号车厢!我们是 61 到 64 号座。", "items": ["de.wagen", "de.sieben", "de.wir", "de.haben", "de.platz", "de.eins", "de.sechzig", "de.bis", "de.vier"] },
+    { "speaker": "paul", "text": "Aber Platz 62 ist besetzt! Da sitzt eine Frau.", "zh": "可是 62 号座有人!那儿坐着一位女士。", "items": ["de.aber", "de.platz", "de.zwei", "de.sechzig", "de.sein", "de.besetzt", "de.da", "de.sitzen", "de.ein", "de.frau"] },
+    { "speaker": "wei", "text": "Entschuldigung, sind das nicht unsere Plätze? Wir haben reserviert.", "zh": "打扰一下,这不是我们的座位吗?我们订了座。", "items": ["de.entschuldigung", "de.sein", "de.nicht", "de.unser", "de.platz", "de.wir", "de.haben", "de.reservieren"] },
+    { "speaker": "passantin", "text": "Ach so! Ist das hier Wagen sieben? Mein Platz ist in Wagen acht.", "zh": "啊,原来是这样!这是 7 号车厢吗?我的座位在 8 号车厢。", "items": ["de.ach_so", "de.sein", "de.hier", "de.wagen", "de.sieben", "de.mein", "de.platz", "de.in", "de.acht"] },
+    { "speaker": "passantin", "text": "Entschuldigung! Ich gehe in Wagen acht.", "zh": "对不起!我去 8 号车厢。", "items": ["de.entschuldigung", "de.ich", "de.gehen", "de.in", "de.wagen", "de.acht"] },
+    { "speaker": "wei", "text": "Kein Problem! Gute Fahrt!", "zh": "没关系!一路顺风!", "items": ["de.kein", "de.problem", "de.gute_fahrt"] },
+    { "speaker": "durchsage", "text": "Liebe Fahrgäste, unser Zug hat heute 15 Minuten Verspätung.", "zh": "(车上广播)各位乘客,本次列车今天晚点 15 分钟。", "items": ["de.liebe", "de.fahrgast", "de.unser", "de.zug", "de.haben", "de.heute", "de.fuenf", "de.zehn", "de.minute", "de.verspaetung"] },
+    { "speaker": "durchsage", "text": "Ankunft in Rostock ist um 9:42 Uhr.", "zh": "到达罗斯托克的时间是 9:42。", "items": ["de.ankunft", "de.in", "de.sein", "de.um", "de.neun", "de.zwei", "de.vierzig", "de.uhr"] },
+    { "speaker": "sofia", "text": "Was? Dann verpassen wir den Anschluss nach Warnemünde!", "zh": "什么?那我们就赶不上去瓦尔内明德的车了!", "items": ["de.was", "de.dann", "de.verpassen", "de.wir", "de.anschluss", "de.nach"] },
+    { "speaker": "lena", "text": "Keine Sorge. Um 10:12 Uhr fährt noch eine S-Bahn.", "zh": "别担心。10:12 还有一班城铁。", "items": ["de.keine_sorge", "de.um", "de.zehn", "de.zwoelf", "de.uhr", "de.fahren", "de.noch", "de.ein", "de.s_bahn"] },
+    { "speaker": "lena", "text": "Wir müssen in Rostock nur eine halbe Stunde warten.", "zh": "我们在罗斯托克只要等半个小时。", "items": ["de.wir", "de.muessen", "de.in", "de.nur", "de.ein", "de.halb", "de.stunde", "de.warten"] },
+    { "speaker": "sofia", "text": "Und Paul? Er isst schon seit zwei Stunden!", "zh": "保罗呢?他已经吃了两个小时了!", "items": ["de.und", "de.er", "de.essen", "de.schon", "de.seit", "de.zwei", "de.stunde"] },
+    { "speaker": "paul", "text": "Ich habe Hunger! Lena hat mich um fünf geweckt.", "zh": "我饿嘛!莉娜五点就把我叫醒了。", "items": ["de.ich", "de.haben", "de.hunger", "de.um", "de.fuenf", "de.wecken"] },
+    { "speaker": "wei", "text": "Um halb elf sind wir in Warnemünde. Dann geht's ans Meer!", "zh": "十点半我们就到瓦尔内明德了。然后就去海边!", "items": ["de.um", "de.halb", "de.elf", "de.wir", "de.sein", "de.in", "de.dann", "de.gehen", "de.es", "de.an", "de.meer"] }
+  ],
+  "questions": [
+    { "prompt": "那位女士为什么坐在他们的座位上?", "options": ["她没有订座", "她走错了车厢,她的座位在 8 号车厢", "她想跟他们换座位"], "answer": 1, "explainZh": "女士说:Ist das hier Wagen sieben? Mein Platz ist in Wagen acht.(这是 7 号车厢吗?我的座位在 8 号车厢。)" },
+    { "prompt": "火车晚点多长时间?", "options": ["5 分钟", "半个小时", "15 分钟"], "answer": 2, "explainZh": "广播说:Unser Zug hat heute 15 Minuten Verspätung.(本次列车晚点 15 分钟。)半个小时是他们在罗斯托克要等的时间。" },
+    { "prompt": "赶不上转车,他们怎么办?", "options": ["在罗斯托克等半小时,坐 10:12 的城铁", "坐出租车去瓦尔内明德", "第二天再去"], "answer": 0, "explainZh": "莉娜说:Um 10:12 Uhr fährt noch eine S-Bahn. Wir müssen in Rostock nur eine halbe Stunde warten.(10:12 还有一班城铁,在罗斯托克只要等半小时。)" },
+    { "prompt": "保罗为什么一直在吃东西?", "options": ["火车上的东西很便宜", "他五点就被叫醒了,很饿", "他不喜欢坐火车"], "answer": 1, "explainZh": "Ich habe Hunger! Lena hat mich um fünf geweckt.(我饿嘛!莉娜五点就把我叫醒了。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u19_zusammenfassung", "titleZh": "单元小结:从商量到出发",
+      "bodyZh": "商量去哪儿:Ich möchte nach Dresden. / Ich will an die Ostsee!;说条件:Die Reise muss billig sein.\n收拾行李:Was muss ich mitbringen? / Nimm deinen Rucksack! / Vergiss dein Ladegerät nicht!\n征得同意:Paul darf mitfahren. / Ich soll immer bei euch bleiben.(nicht müssen = 不必,nicht dürfen = 不许)\n订票、订房:Wir möchten Plätze reservieren. / Haben Sie noch ein Doppelzimmer frei? / Ist die Bettwäsche inklusive?\n出发前和路上:Hast du schon gepackt? / Der Platz ist besetzt. / Unser Zug hat 15 Minuten Verspätung. / Dann verpassen wir den Anschluss!",
+      "examples": [
+        { "text": "Wir möchten Plätze reservieren.", "zh": "我们想订座位。" },
+        { "text": "Unser Zug hat 15 Minuten Verspätung.", "zh": "我们的火车晚点 15 分钟。" },
+        { "text": "Dann verpassen wir den Anschluss!", "zh": "那我们就赶不上转车了!" }
+      ] },
+    { "id": "de.g.u19_seit_hoeflich", "titleZh": "seit + 时间段;客气地指出问题",
+      "bodyZh": "从过去一直持续到现在的事,德语用现在时 + seit:Er isst schon seit zwei Stunden!(他已经吃了两个小时了!)——中文说“了”,德语不用完成时。\n别人坐了你的座位,用否定问句更客气:Entschuldigung, sind das nicht unsere Plätze?(这不是我们的座位吗?)也可以说 Ist der Platz besetzt?(这个座位有人吗?)\n对方道歉时回答:Kein Problem!(没关系!)坐车的人分开时说 Gute Fahrt!(一路顺风!)",
+      "examples": [
+        { "text": "Er isst schon seit zwei Stunden!", "zh": "他已经吃了两个小时了!" },
+        { "text": "Entschuldigung, sind das nicht unsere Plätze?", "zh": "打扰一下,这不是我们的座位吗?" },
+        { "text": "Kein Problem! Gute Fahrt!", "zh": "没关系!一路顺风!" }
+      ] }
+  ],
+  "review": "draft"
+}

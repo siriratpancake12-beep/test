@@ -1,0 +1,45 @@
+{
+  "id": "en.a1u10.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110045,
+  "titleZh": "美国节日日历", "goalZh": "会看节日日历上的日期,读懂'某月的第几个星期几'", "canDoZh": "能看懂一张节日日历,说出每个节日的日期,读懂'十一月的第四个星期四'这类说法",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "en.new_years_day", "kind": "phrase", "pos": "propn", "text": "New Year's Day", "zh": "元旦(1 月 1 日)", "features": { "ipa": "ˌnuː jɪrz ˈdeɪ" }, "noteZh": "New Year's 里的 's 不能漏;美国这天放假。" },
+    { "id": "en.valentines_day", "kind": "phrase", "pos": "propn", "text": "Valentine's Day", "zh": "情人节(2 月 14 日)", "features": { "ipa": "ˈvæləntaɪnz deɪ" }, "noteZh": "重音在前 VAL-en-tine's;美国中小学生这天也会互送卡片和糖果。" },
+    { "id": "en.independence_day", "kind": "phrase", "pos": "propn", "text": "Independence Day", "zh": "美国国庆日(7 月 4 日)", "features": { "ipa": "ˌɪndɪˈpendəns deɪ" }, "noteZh": "口语里常叫 the Fourth of July;重音在 -PEN-;这天晚上很多城市放烟花。" },
+    { "id": "en.fireworks", "kind": "word", "pos": "noun", "text": "fireworks", "zh": "烟花", "features": { "ipa": "ˈfaɪrwɝːks" }, "noteZh": "一般用复数;fire + works,重音在前;美国国庆和跨年夜常放烟花。" }
+  ],
+  "reviewItems": ["en.costume", "en.halloween", "en.thanksgiving", "en.party"],
+  "lines": [
+    { "speaker": "narrator", "text": "US holidays in 2026", "zh": "(国际学生办公室发的单子)2026 年美国节日一览", "items": ["en.holiday"] },
+    { "speaker": "narrator", "text": "January 1st: New Year's Day. No classes.", "zh": "1 月 1 日:元旦。不上课。", "items": ["en.january", "en.new_years_day", "en.class"] },
+    { "speaker": "narrator", "text": "Martin Luther King Jr. Day is the third Monday in January.", "zh": "马丁·路德·金纪念日是一月的第三个星期一。", "items": ["en.monday", "en.january"] },
+    { "speaker": "narrator", "text": "In 2026, that's January 19th. No classes.", "zh": "2026 年是 1 月 19 日。不上课。", "items": ["en.january", "en.class"] },
+    { "speaker": "narrator", "text": "February 14th: Valentine's Day. This year, it's on a Saturday.", "zh": "2 月 14 日:情人节。今年是星期六。", "items": ["en.february", "en.valentines_day", "en.year", "en.saturday"] },
+    { "speaker": "narrator", "text": "February 17th: Chinese New Year. Come to our party at 6:00!", "zh": "2 月 17 日:春节。晚上 6 点来参加我们的派对!", "items": ["en.february", "en.chinese_new_year", "en.come", "en.party"] },
+    { "speaker": "narrator", "text": "July 4th: Independence Day. There are fireworks at night!", "zh": "7 月 4 日:美国国庆日。晚上有烟花!", "items": ["en.july", "en.independence_day", "en.fireworks", "en.night"] },
+    { "speaker": "narrator", "text": "October 31st: Halloween. Wear a costume!", "zh": "10 月 31 日:万圣节。穿上你的扮装服吧!", "items": ["en.october", "en.halloween", "en.wear", "en.costume"] },
+    { "speaker": "narrator", "text": "Thanksgiving is the fourth Thursday in November.", "zh": "感恩节是十一月的第四个星期四。", "items": ["en.thanksgiving", "en.thursday", "en.november"] },
+    { "speaker": "narrator", "text": "In 2026, that's November 26th. No classes on Thursday or Friday.", "zh": "2026 年是 11 月 26 日。星期四和星期五都不上课。", "items": ["en.november", "en.class", "en.thursday", "en.friday"] },
+    { "speaker": "narrator", "text": "December 25th: Christmas. It's in winter break.", "zh": "12 月 25 日:圣诞节。在寒假里。", "items": ["en.december", "en.christmas", "en.winter_break"] },
+    { "speaker": "narrator", "text": "Happy holidays, and see you at our parties!", "zh": "节日快乐,派对上见!", "items": ["en.happy", "en.holiday", "en.see", "en.party"] }
+  ],
+  "questions": [
+    { "prompt": "2026 年的感恩节是哪一天?", "options": ["11 月 4 日", "11 月 26 日,十一月的第四个星期四", "11 月的最后一个星期五"], "answer": 1, "explainZh": "Thanksgiving is the fourth Thursday in November. In 2026, that's November 26th." },
+    { "prompt": "2026 年的春节是几月几号?", "options": ["1 月 19 日", "2 月 14 日", "2 月 17 日"], "answer": 2, "explainZh": "February 17th: Chinese New Year.(1 月 19 日是马丁·路德·金纪念日,2 月 14 日是情人节。)" },
+    { "prompt": "美国国庆日晚上有什么?", "options": ["放烟花", "化装派对", "吃火鸡"], "answer": 0, "explainZh": "July 4th: Independence Day. There are fireworks at night!(化装是万圣节,吃火鸡是感恩节。)" },
+    { "prompt": "圣诞节那天学校是什么情况?", "options": ["要上课", "在寒假里", "只上半天课"], "answer": 1, "explainZh": "December 25th: Christmas. It's in winter break.(那天在寒假里。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.read_holiday_calendar",
+      "titleZh": "看节日日历:the fourth Thursday in November",
+      "bodyZh": "美国有些节日不是固定的日期,而是“某月的第几个星期几”:Thanksgiving is the fourth Thursday in November.(十一月的第四个星期四)、Martin Luther King Jr. Day is the third Monday in January.(一月的第三个星期一)。结构是 the + 序数词 + 星期几 + in + 月份。日期固定的节日直接说日期:July 4th(读 July fourth)、December 25th(读 December twenty-fifth)。名字里有 Day 的节日一般不加 the:New Year's Day、Valentine's Day、Independence Day;美国国庆日口语里常叫 the Fourth of July。",
+      "examples": [
+        { "text": "Thanksgiving is the fourth Thursday in November.", "zh": "感恩节是十一月的第四个星期四。" },
+        { "text": "Valentine's Day is on February 14th.", "zh": "情人节是 2 月 14 日。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

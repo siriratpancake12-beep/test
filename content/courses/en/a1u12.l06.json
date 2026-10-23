@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u12.l06", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112060,
+  "titleZh": "多住一晚要多少钱?", "goalZh": "会读三位数、四位数的价格,听懂 per night 和 plus tax,问清楚包不包括早餐", "canDoZh": "能听懂和说出三位数以上的价格,问清楚每晚多少钱、含不含税",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.per", "kind": "word", "pos": "prep", "text": "per", "zh": "每(一)", "features": { "ipa": "pɝː" }, "noteZh": "$189 per night 每晚 189 美元;口语更常说 a night:$189 a night。读 /pɝː/,要卷舌。" },
+    { "id": "en.plus", "kind": "word", "pos": "prep", "text": "plus", "zh": "加上;另加", "features": { "ipa": "plʌs" }, "noteZh": "plus tax 另加税;美国的标价一般不含税,听到 plus tax 就知道最后要多付一些。u 读 /ʌ/。" },
+    { "id": "en.include", "kind": "word", "pos": "verb", "text": "include", "zh": "包括;包含", "features": { "ipa": "ɪnˈkluːd" }, "noteZh": "Does that include breakfast? 含早餐吗?;问价格包不包括什么就用它。重音在后 in-CLUDE。" },
+    { "id": "en.total", "kind": "word", "pos": "noun", "text": "total", "zh": "总数;总共", "features": { "ipa": "ˈtoʊt̬əl" }, "noteZh": "The total is $424. 一共 424 美元;中间的 t 读闪音,像“TOE-dl”。" },
+    { "id": "en.each", "kind": "word", "pos": "det", "text": "each", "zh": "每个;各", "features": { "ipa": "iːtʃ" }, "noteZh": "$212 for each room 每间房 212 美元;each 后面跟单数名词。读长音 /iːtʃ/,别读成 itch。" },
+    { "id": "en.money", "kind": "word", "pos": "noun", "text": "money", "zh": "钱", "features": { "ipa": "ˈmʌni" }, "noteZh": "不可数名词:a lot of money(不说 moneys);o 读 /ʌ/。" },
+    { "id": "en.cost", "kind": "word", "pos": "verb", "text": "cost", "zh": "花费;价钱是", "features": { "ipa": "kɑːst" }, "noteZh": "How much does it cost? 要多少钱?;和 How much is it? 意思一样。过去式还是 cost,美式 o 读 /ɑː/。" },
+    { "id": "en.suite", "kind": "word", "pos": "noun", "text": "suite", "zh": "(酒店的)套房", "features": { "ipa": "swiːt" }, "noteZh": "读 /swiːt/,和 sweet(甜的)同音,不读成 suit;套房比普通房间大,一般带客厅。" }
+  ],
+  "reviewItems": ["en.tax", "en.breakfast", "en.check_out", "en.expensive"],
+  "lines": [
+    { "speaker": "sofia", "text": "I love LA! One more night here?", "zh": "(第三天早上)我太喜欢洛杉矶了!要不要再住一晚?", "items": ["en.love", "en.more", "en.night"] },
+    { "speaker": "lei", "text": "Hi. How much is one more night?", "zh": "(磊打给前台)你好,再住一晚要多少钱?", "items": ["en.hi", "en.how_much", "en.more", "en.night"] },
+    { "speaker": "receptionist", "text": "It's 189 dollars per night, plus tax.", "zh": "每晚 189 美元,另外加税。", "items": ["en.dollar", "en.per", "en.night", "en.plus", "en.tax"] },
+    { "speaker": "lei", "text": "Does that include breakfast?", "zh": "含早餐吗?", "items": ["en.include", "en.breakfast"] },
+    { "speaker": "receptionist", "text": "No, it doesn't. With tax, it's about 212 dollars for each room.", "zh": "不含。加上税,每间房大约 212 美元。", "items": ["en.tax", "en.dollar", "en.each", "en.room"] },
+    { "speaker": "sofia", "text": "So the total is 424 dollars? That's a lot of money!", "zh": "那两间一共就是 424 美元?好多钱啊!", "items": ["en.total", "en.dollar", "en.a_lot_of", "en.money"] },
+    { "speaker": "lei", "text": "And how much does the big suite on the top floor cost?", "zh": "(开玩笑地)那顶楼的大套房多少钱?", "items": ["en.how_much", "en.big", "en.suite", "en.top", "en.floor", "en.cost"] },
+    { "speaker": "receptionist", "text": "That one is 1,250 dollars a night.", "zh": "那间一晚 1,250 美元。", "items": ["en.this_one", "en.dollar", "en.night"] },
+    { "speaker": "lei", "text": "Wow, that's too expensive! Could we check out at twelve on Thursday?", "zh": "哇,太贵了!那我们周四能十二点退房吗?", "items": ["en.too", "en.expensive", "en.could", "en.check_out", "en.thursday"] },
+    { "speaker": "receptionist", "text": "Sure, that's no problem.", "zh": "可以,没问题。", "items": ["en.sure", "en.no_problem"] }
+  ],
+  "questions": [
+    { "prompt": "多住一晚,每间房含税大约多少钱?", "options": ["189 美元", "212 美元", "424 美元"], "answer": 1, "explainZh": "前台说 189 dollars per night, plus tax,含税 about 212 dollars for each room;424 美元是两间房加起来的总数。" },
+    { "prompt": "房价包括早餐吗?", "options": ["包括", "只包括周末的早餐", "不包括"], "answer": 2, "explainZh": "磊问 Does that include breakfast?,前台说 No, it doesn't.。" },
+    { "prompt": "最后他们决定怎么办?", "options": ["不多住了,周四十二点退房", "多住一晚", "换到顶楼的套房"], "answer": 0, "explainZh": "磊说 that's too expensive,又问 Could we check out at twelve on Thursday?,前台说可以。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_big_numbers", "titleZh": "三位数、四位数怎么读:189、424、1,250",
+      "bodyZh": "三位数先读几百,再读后面两位:189 = one hundred eighty-nine,424 = four hundred twenty-four。美式英语 hundred 后面一般不加 and(英式说 one hundred and eighty-nine)。说价格时口语常省掉 hundred,拆成两段读:$189 读 one eighty-nine,$212 读 two twelve,和第 4 单元的 sixteen fifty 一个道理。四位数用 thousand:1,250 = one thousand two hundred fifty;写的时候每三位加一个逗号(1,250),不是小数点。hundred、thousand 前面有数字时不加 s:two hundred dollars,不说 two hundreds dollars。发音:hundred /ˈhʌndrəd/ 里的 dr 连在一起,不要加元音;thousand 的 th 是清音 /θ/。",
+      "examples": [
+        { "text": "It's 189 dollars per night.", "zh": "每晚 189 美元。(one hundred eighty-nine 或 one eighty-nine)" },
+        { "text": "The total is 424 dollars.", "zh": "一共 424 美元。(four hundred twenty-four)" },
+        { "text": "That one is 1,250 dollars a night.", "zh": "那间一晚 1,250 美元。(one thousand two hundred fifty)" }
+      ] },
+    { "id": "en.g.u12_per_plus_tax", "titleZh": "per night、plus tax、Does that include…?",
+      "bodyZh": "问价格还有几种常见说法:① 每晚、每小时用 per 或 a:189 dollars per night = 189 dollars a night,口语更常用 a;② plus tax 是“另外加税”,美国的标价一般不含销售税(第 4 单元的菜单也是这样),结账时会多出一些;③ 问包不包括某样东西:Does that include breakfast?,回答 Yes, it does. / No, it doesn't.。问“……多少钱”可以说 How much is…?,也可以说 How much does … cost?——用 cost 时前面要有 does,cost 用原形。",
+      "examples": [
+        { "text": "It's 189 dollars a night, plus tax.", "zh": "每晚 189 美元,另外加税。" },
+        { "text": "Does that include breakfast? — No, it doesn't.", "zh": "含早餐吗?——不含。" },
+        { "text": "How much does the suite cost?", "zh": "套房多少钱?" }
+      ] }
+  ],
+  "review": "draft"
+}

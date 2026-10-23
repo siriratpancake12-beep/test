@@ -1,0 +1,41 @@
+{
+  "id": "en.a1u12.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112045,
+  "titleZh": "房间里的入住须知", "goalZh": "读懂酒店房间里的须知卡,找到退房时间、早餐、Wi-Fi、泳池规定和求助电话", "canDoZh": "能看懂酒店房间里的须知卡:退房时间、早餐、Wi-Fi 和泳池规定",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 15.5,
+  "newItems": [
+    { "id": "en.glass", "kind": "word", "pos": "noun", "text": "glass", "zh": "玻璃;玻璃杯", "features": { "ipa": "ɡlæs" }, "noteZh": "告示 No glass. 是“不能带玻璃杯、玻璃瓶”;a glass of water 一杯水。第 2 单元的 glasses 是“眼镜”,别混。美式 a 读 /æ/。" },
+    { "id": "en.kid", "kind": "word", "pos": "noun", "text": "kid", "zh": "孩子;小孩", "features": { "ipa": "kɪd" }, "noteZh": "口语里比 child 常用;复数 kids。词尾 d 轻轻收住,不加元音。" },
+    { "id": "en.enjoy", "kind": "word", "pos": "verb", "text": "enjoy", "zh": "享受;喜欢", "features": { "ipa": "ɪnˈdʒɔɪ" }, "noteZh": "Enjoy your time in LA! 祝你在洛杉矶玩得开心;后面要接东西,不能单说 I enjoy.。重音在后 en-JOY。" }
+  ],
+  "reviewItems": ["en.check_out", "en.lobby", "en.pool", "en.wi_fi", "en.password", "en.gym"],
+  "lines": [
+    { "speaker": "narrator", "text": "Welcome to your room!", "zh": "(酒店房间书桌上的须知卡)欢迎入住!", "items": ["en.welcome", "en.room"] },
+    { "speaker": "narrator", "text": "Check-out is at 11:00 in the morning.", "zh": "退房时间:上午 11:00。", "items": ["en.check_out", "en.morning"] },
+    { "speaker": "narrator", "text": "Breakfast is from 6:30 to 10:00 in the lobby.", "zh": "早餐:6:30 到 10:00,在大堂。", "items": ["en.breakfast", "en.lobby"] },
+    { "speaker": "narrator", "text": "Wi-Fi password: sunny512", "zh": "Wi-Fi 密码:sunny512", "items": ["en.wi_fi", "en.password", "en.sunny"] },
+    { "speaker": "narrator", "text": "Pool: 7:00 in the morning to 10:00 at night", "zh": "泳池:早上 7:00 到晚上 10:00", "items": ["en.pool", "en.morning", "en.night"] },
+    { "speaker": "narrator", "text": "No glass at the pool, please.", "zh": "泳池边请勿携带玻璃杯、玻璃瓶。", "items": ["en.glass", "en.pool"] },
+    { "speaker": "narrator", "text": "No running, please.", "zh": "请勿奔跑。", "items": ["en.run"] },
+    { "speaker": "narrator", "text": "Kids need a parent with them at the pool.", "zh": "儿童去泳池须有家长陪同。", "items": ["en.kid", "en.need", "en.parents", "en.pool"] },
+    { "speaker": "narrator", "text": "Gym: You can work out at any time.", "zh": "健身房:随时可以锻炼。", "items": ["en.gym", "en.can", "en.work_out"] },
+    { "speaker": "narrator", "text": "Laundry room: in the basement", "zh": "洗衣房:在地下室", "items": ["en.laundry_room", "en.basement"] },
+    { "speaker": "narrator", "text": "Need help? Call 0 from your room.", "zh": "需要帮助?请在房间里拨 0。", "items": ["en.need", "en.help", "en.call", "en.room"] },
+    { "speaker": "narrator", "text": "Enjoy your time in Santa Monica!", "zh": "祝您在圣莫尼卡玩得愉快!", "items": ["en.enjoy"] }
+  ],
+  "questions": [
+    { "prompt": "最晚几点要退房?", "options": ["上午 10 点", "上午 11 点", "中午 12 点"], "answer": 1, "explainZh": "Check-out is at 11:00 in the morning.(退房时间是上午 11 点)" },
+    { "prompt": "下面哪一条是泳池的规定?", "options": ["不能带玻璃杯,不能奔跑", "晚上 11 点关门", "只有大人能去"], "answer": 0, "explainZh": "No glass at the pool, please. 和 No running, please.;泳池晚上 10 点关,孩子有家长陪着就能去。" },
+    { "prompt": "在房间里需要帮助,应该怎么办?", "options": ["去健身房找人", "发邮件给酒店", "在房间里拨 0"], "answer": 2, "explainZh": "Need help? Call 0 from your room.(需要帮助?请在房间里拨 0)" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_notice", "titleZh": "读须知和告示:No + 名词 / 动词-ing 和省略句",
+      "bodyZh": "告示、须知要写得短,常用两种写法:① No + 名词 / 动词-ing 表示“禁止”:No glass.(请勿携带玻璃制品)、No running.(请勿奔跑),后面加 please 更客气;② 省略句:Pool: 7:00 in the morning to 10:00 at night.——冒号前是地方或东西,冒号后是时间、位置这些信息。读的时候自己补全成完整的句子:Laundry room: in the basement. 就是 The laundry room is in the basement.。须知卡上最要紧的是退房时间(check-out)和出了问题打哪个号码,先找这两条。kid、kids 是口语里的“孩子”。",
+      "examples": [
+        { "text": "No glass at the pool, please.", "zh": "泳池边请勿携带玻璃制品。" },
+        { "text": "No running, please.", "zh": "请勿奔跑。" },
+        { "text": "Need help? Call 0 from your room.", "zh": "需要帮助?请在房间里拨 0。" }
+      ] }
+  ],
+  "review": "draft"
+}

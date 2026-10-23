@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u12.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112030,
+  "titleZh": "房间里没有热水", "goalZh": "会用 doesn't work / There's no… 向前台说清楚房间的问题,听懂道歉并礼貌回应", "canDoZh": "能向前台说清楚房间里哪儿出了问题,并提出修理或换房的要求",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.doesnt_work", "kind": "phrase", "pos": "phrase", "text": "doesn't work", "zh": "(东西)坏了;不好使", "alt": ["isn't working", "It doesn't work"], "features": { "ipa": "ˈdʌzənt ˈwɝːk" }, "noteZh": "My key doesn't work. 房卡刷不开;The AC isn't working. 空调不工作。这里的 work 是“运转、起作用”,不是“上班”。doesn't 里的 s 读浊音 /z/。" },
+    { "id": "en.shower", "kind": "word", "pos": "noun", "text": "shower", "zh": "淋浴;淋浴喷头", "features": { "ipa": "ˈʃaʊɚ" }, "noteZh": "第 3 单元学过 take a shower(洗澡);the shower 指淋浴喷头。ow 读 /aʊ/,结尾卷舌,两个音节 SHOW-er。" },
+    { "id": "en.ac", "kind": "word", "pos": "noun", "text": "AC", "zh": "空调", "alt": ["A/C", "air conditioning"], "features": { "ipa": "ˌeɪ ˈsiː" }, "noteZh": "air conditioning 的缩写,读两个字母 A-C,重音在 C;美国很多酒店的 AC 冷暖都能开。" },
+    { "id": "en.fix", "kind": "word", "pos": "verb", "text": "fix", "zh": "修理;弄好", "features": { "ipa": "fɪks" }, "noteZh": "Can you fix it? 能修好吗?;x 读 /ks/,i 是短音 /ɪ/。" },
+    { "id": "en.move", "kind": "word", "pos": "verb", "text": "move", "zh": "移动;换(地方)", "features": { "ipa": "muːv" }, "noteZh": "move you to Room 604 给你换到 604 房间;o 读长音 /uː/,结尾 v 要带声,上齿轻碰下唇。" },
+    { "id": "en.try", "kind": "word", "pos": "verb", "text": "try", "zh": "试;尝试", "features": { "ipa": "traɪ" }, "noteZh": "Try it now. 现在试试;第 6 单元学过 try on(试穿)。tr 像“拽”的声母再卷舌,中间不加元音。" },
+    { "id": "en.sorry_about_that", "kind": "phrase", "pos": "phrase", "text": "Sorry about that", "zh": "(为这件事)抱歉", "alt": ["I'm sorry about that", "I'm so sorry about that"], "features": { "ipa": "ˈsɑːri əˌbaʊt ˈðæt" }, "noteZh": "为给人添的麻烦道歉,服务行业天天说:I'm so sorry about that.;about 弱读成 /əˈbaʊt/,that 的 th 是浊音。" },
+    { "id": "en.thats_ok", "kind": "phrase", "pos": "phrase", "text": "That's OK", "zh": "没关系", "alt": ["That's okay", "It's OK"], "features": { "ipa": "ðæts oʊˈkeɪ" }, "noteZh": "回应别人的道歉:I'm sorry. — That's OK.;也可以说 No problem.。OK 读 /oʊˈkeɪ/,重音在后。" }
+  ],
+  "reviewItems": ["en.key", "en.hot", "en.water", "en.free", "en.breakfast"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. My key doesn't work.", "zh": "(晚上回到酒店,磊的房卡刷不开门)打扰一下,我的房卡刷不开。", "items": ["en.excuse_me", "en.key", "en.doesnt_work"] },
+    { "speaker": "receptionist", "text": "Oh, sorry about that. Here's a new one. Try it now.", "zh": "哦,真抱歉。给您一张新的,现在试试。", "items": ["en.sorry_about_that", "en.new", "en.try"] },
+    { "speaker": "lei", "text": "Great, thanks!", "zh": "好的,谢谢!", "items": ["en.great", "en.thank_you"] },
+    { "speaker": "lei", "text": "Sorry, it's me, from Room 512.", "zh": "(二十分钟后,磊和索菲亚又下楼来)不好意思,又是我,512 房间的。", "items": ["en.sorry", "en.room"] },
+    { "speaker": "lei", "text": "There's no hot water in the shower.", "zh": "淋浴没有热水。", "items": ["en.hot", "en.water", "en.shower"] },
+    { "speaker": "sofia", "text": "And his AC isn't working. His room is really hot.", "zh": "而且他房间的空调也不工作,屋里特别热。", "items": ["en.ac", "en.doesnt_work", "en.room", "en.really", "en.hot"] },
+    { "speaker": "receptionist", "text": "I'm so sorry about that. We can't fix it tonight.", "zh": "真是太抱歉了。今晚修不好。", "items": ["en.sorry_about_that", "en.cant", "en.fix", "en.tonight"] },
+    { "speaker": "receptionist", "text": "Can I move you to Room 604?", "zh": "给您换到 604 房间可以吗?", "items": ["en.can", "en.move", "en.room"] },
+    { "speaker": "lei", "text": "Sure. That's OK.", "zh": "可以,没关系。", "items": ["en.sure", "en.thats_ok"] },
+    { "speaker": "receptionist", "text": "Here's your new key. And here are two free breakfasts.", "zh": "这是您的新房卡。另外,送您两份免费早餐。", "items": ["en.new", "en.key", "en.free", "en.breakfast"] },
+    { "speaker": "lei", "text": "Oh, thank you. That's very nice.", "zh": "哦,谢谢您,您真好。", "items": ["en.thank_you", "en.nice"] },
+    { "speaker": "sofia", "text": "Free breakfast? Great!", "zh": "免费早餐?太好了!", "items": ["en.free", "en.breakfast", "en.great"] }
+  ],
+  "questions": [
+    { "prompt": "磊第一次去前台是因为什么?", "options": ["房间没有热水", "房卡刷不开门", "空调坏了"], "answer": 1, "explainZh": "磊说 My key doesn't work.(我的房卡刷不开),前台给了他一张新的。" },
+    { "prompt": "后来磊的房间又出了什么问题?", "options": ["没有热水,空调也不工作", "电视坏了", "隔壁太吵"], "answer": 0, "explainZh": "磊说 There's no hot water in the shower.,索菲亚说 his AC isn't working.。" },
+    { "prompt": "前台是怎么解决的?", "options": ["今晚就派人修好", "退一晚的房费", "给磊换到 604 房间,还送了两份免费早餐"], "answer": 2, "explainZh": "前台说 We can't fix it tonight.(今晚修不好),接着说 Can I move you to Room 604? 和 here are two free breakfasts.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_doesnt_work", "titleZh": "说故障:doesn't work / isn't working / There's no…",
+      "bodyZh": "东西坏了、不好使,最常用 It doesn't work.:My key doesn't work.(我的房卡刷不开)。这里的 work 是“运转、起作用”,和“上班”不是一个意思。也可以用进行时说眼前的状况:The AC isn't working.(空调现在不工作),两种说法意思差不多。缺了什么用 There's no…:There's no hot water.(没有热水),也可以说 There isn't any hot water.(第 4 单元学过:否定句用 any)。中国学生常说成 My key is not work.——别忘了用 doesn't + 动词原形,或者 isn't + working。发音:doesn't /ˈdʌzənt/ 中间的 s 读浊音 /z/,结尾的 t 常常很轻。",
+      "examples": [
+        { "text": "My key doesn't work.", "zh": "我的房卡刷不开。" },
+        { "text": "The AC isn't working.", "zh": "空调不工作。" },
+        { "text": "There's no hot water in the shower.", "zh": "淋浴没有热水。" },
+        { "text": "There isn't any hot water.", "zh": "一点热水都没有。" }
+      ] },
+    { "id": "en.g.u12_apologies", "titleZh": "道歉和回应:I'm so sorry about that. — That's OK.",
+      "bodyZh": "服务人员给你添了麻烦,常说 I'm so sorry about that.(真是抱歉),about that 指刚说的那件事。回应别人的道歉说 That's OK.(没关系)或 No problem.,不说 You're welcome(那是回应感谢的)。对方提出解决办法时常用 Can I…?:Can I move you to Room 604?,同意就说 Sure. 或 That's OK.。反映问题时语气平和,先说 Excuse me 或 Sorry,再说哪儿出了问题,对方会觉得你很有礼貌,也更愿意帮你。",
+      "examples": [
+        { "text": "I'm so sorry about that. — That's OK.", "zh": "真是抱歉。——没关系。" },
+        { "text": "Can I move you to Room 604? — Sure.", "zh": "给您换到 604 房间可以吗?——可以。" }
+      ] }
+  ],
+  "review": "draft"
+}

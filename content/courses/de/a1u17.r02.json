@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u17.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117085,
+  "titleZh": "我在柏林的第一个夏天", "goalZh": "读懂一篇讲夏天活动的博客,说出作者做了什么、觉得怎么样", "canDoZh": "能读懂一篇讲夏天活动的博客,说出作者做了什么、觉得怎么样",
+  "skills": ["read", "write"], "estimatedMinutes": 12.5,
+  "newItems": [],
+  "reviewItems": ["de.lang", "de.hell", "de.spannend", "de.klimaanlage", "de.trick"],
+  "lines": [
+    { "speaker": "wei", "text": "Mein Sommer in Berlin", "zh": "(王伟的博客)我在柏林的夏天", "items": ["de.mein", "de.sommer", "de.in"] },
+    { "speaker": "wei", "text": "Im Sommer sind die Tage in Berlin sehr lang.", "zh": "柏林夏天的白天特别长。", "items": ["de.in", "de.sommer", "de.sein", "de.tag", "de.sehr", "de.lang"] },
+    { "speaker": "wei", "text": "Um 22 Uhr ist es noch hell!", "zh": "晚上十点天还亮着!", "items": ["de.um", "de.uhr", "de.sein", "de.es", "de.noch", "de.hell"] },
+    { "speaker": "wei", "text": "Am Abend fahren wir oft mit dem Rad zum See.", "zh": "傍晚我们常常骑车去湖边。", "items": ["de.am", "de.abend", "de.fahren", "de.wir", "de.oft", "de.mit", "de.rad", "de.zu", "de.see"] },
+    { "speaker": "wei", "text": "Wir schwimmen, grillen und essen zusammen.", "zh": "我们游泳、烧烤,一起吃东西。", "items": ["de.wir", "de.schwimmen", "de.grillen", "de.und", "de.essen", "de.zusammen"] },
+    { "speaker": "wei", "text": "Ich spiele jetzt auch Badminton, am Dienstag im Kurs und am Donnerstag mit Freunden.", "zh": "我现在也打羽毛球了:星期二上课,星期四和朋友一起打。", "items": ["de.ich", "de.spielen", "de.jetzt", "de.auch", "de.badminton", "de.am", "de.dienstag", "de.in", "de.kurs", "de.und", "de.donnerstag", "de.mit", "de.freund"] },
+    { "speaker": "wei", "text": "Wir haben auch zusammen Fußball gesehen, draußen vor dem Restaurant.", "zh": "我们还一起看了足球赛,就在餐馆门口外面。", "items": ["de.wir", "de.haben", "de.auch", "de.zusammen", "de.fussball", "de.sehen", "de.draussen", "de.vor", "de.restaurant"] },
+    { "speaker": "wei", "text": "Das Spiel war so spannend! Deutschland hat zwei Tore geschossen.", "zh": "比赛太紧张了!德国队进了两个球。", "items": ["de.spiel", "de.sein", "de.so", "de.spannend", "de.deutschland", "de.haben", "de.zwei", "de.tor", "de.schiessen"] },
+    { "speaker": "wei", "text": "Nur ein Problem: Es ist sehr heiß, oft 35 Grad.", "zh": "只有一个问题:太热了,常常 35 度。", "items": ["de.nur", "de.ein", "de.problem", "de.es", "de.sein", "de.sehr", "de.heiss", "de.oft", "de.grad"] },
+    { "speaker": "wei", "text": "Wir haben keine Klimaanlage, nur einen Ventilator.", "zh": "我们没有空调,只有一台电风扇。", "items": ["de.wir", "de.haben", "de.kein", "de.klimaanlage", "de.nur", "de.ein", "de.ventilator"] },
+    { "speaker": "wei", "text": "Aber Herr Hoffmann hat einen Trick.", "zh": "不过霍夫曼先生有个窍门。", "items": ["de.aber", "de.herr", "de.haben", "de.ein", "de.trick"] },
+    { "speaker": "wei", "text": "Am Tag schließen wir die Fenster, in der Nacht lüften wir.", "zh": "白天我们关上窗户,夜里再开窗通风。", "items": ["de.am", "de.tag", "de.schliessen", "de.wir", "de.fenster", "de.in", "de.nacht", "de.lueften"] },
+    { "speaker": "wei", "text": "Im August fliege ich nach Chengdu.", "zh": "八月我要飞回成都。", "items": ["de.in", "de.august", "de.fliegen", "de.ich", "de.nach"] },
+    { "speaker": "wei", "text": "Da ist es auch heiß – aber es gibt überall Klimaanlagen!", "zh": "那儿也很热——不过到处都有空调!", "items": ["de.da", "de.sein", "de.es", "de.auch", "de.heiss", "de.aber", "de.es_gibt", "de.ueberall", "de.klimaanlage"] }
+  ],
+  "questions": [
+    { "prompt": "柏林的夏天,晚上十点天怎么样?", "options": ["已经黑了", "还亮着", "常常下雨"], "answer": 1, "explainZh": "王伟写:Um 22 Uhr ist es noch hell!(晚上十点天还亮着!)" },
+    { "prompt": "王伟每个星期打几次羽毛球?", "options": ["一次", "三次", "两次:星期二上课,星期四和朋友打"], "answer": 2, "explainZh": "王伟写:Ich spiele jetzt auch Badminton, am Dienstag im Kurs und am Donnerstag mit Freunden.(星期二上课,星期四和朋友一起打。)" },
+    { "prompt": "王伟说柏林的夏天唯一的问题是什么?", "options": ["太热,家里没有空调", "湖水太凉", "白天太长,睡不着"], "answer": 0, "explainZh": "王伟写:Nur ein Problem: Es ist sehr heiß, oft 35 Grad. Wir haben keine Klimaanlage, nur einen Ventilator.(只有一个问题:太热了……我们没有空调,只有一台电风扇。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_sommer_blog", "titleZh": "写博客:现在时讲习惯,完成时讲做过的事",
+      "bodyZh": "讲经常做的事、现在的情况用现在时,常和频率词一起用:Am Abend fahren wir oft zum See. / Ich spiele jetzt Badminton, am Dienstag und am Donnerstag.\n讲做过的一件事用完成时(haben + 过去分词,分词放句末):Wir haben zusammen Fußball gesehen. / Deutschland hat zwei Tore geschossen.\n表示移动的动词用 sein:Ich bin im See geschwommen. / Ich bin dreißig Kilometer gefahren.\n天气和温度:Es ist sehr heiß, oft 35 Grad. / Um 22 Uhr ist es noch hell.\n结尾说说打算,用现在时就行:Im August fliege ich nach Chengdu.",
+      "examples": [
+        { "text": "Am Abend fahren wir oft zum See.", "zh": "傍晚我们常常去湖边。" },
+        { "text": "Wir haben zusammen Fußball gesehen.", "zh": "我们一起看了足球赛。" },
+        { "text": "Im August fliege ich nach Chengdu.", "zh": "八月我要飞回成都。" }
+      ] }
+  ],
+  "review": "draft"
+}

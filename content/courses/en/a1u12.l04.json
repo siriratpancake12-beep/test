@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u12.l04", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-12 At the hotel", "order": 112040,
+  "titleZh": "酒店里有什么?", "goalZh": "会说酒店设施的名称,用 Is there…? / When can we…? 问有没有、在哪儿、什么时候能用", "canDoZh": "能问酒店有哪些设施、在哪儿、几点开放",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "en.pool", "kind": "word", "pos": "noun", "text": "pool", "zh": "游泳池", "features": { "ipa": "puːl" }, "noteZh": "swimming pool 的简称;oo 是长音 /uː/,结尾的 l 舌尖要抵住上齿龈,别读成“噗”。" },
+    { "id": "en.top", "kind": "word", "pos": "adj", "text": "top", "zh": "最上面的;顶部的", "features": { "ipa": "tɑːp" }, "noteZh": "on the top floor 在顶楼;美式 o 读 /ɑː/,嘴张大,词尾 p 收住。" },
+    { "id": "en.elevator", "kind": "word", "pos": "noun", "text": "elevator", "zh": "电梯", "features": { "ipa": "ˈeləveɪt̬ɚ" }, "noteZh": "美式说 elevator,英式说 lift;重音在第一个音节 EL-e-va-tor,t 读成轻快的闪音。" },
+    { "id": "en.lobby", "kind": "word", "pos": "noun", "text": "lobby", "zh": "大堂;大厅", "features": { "ipa": "ˈlɑːbi" }, "noteZh": "酒店一进门的大厅,前台就在这里;美式 o 读 /ɑː/。" },
+    { "id": "en.laundry_room", "kind": "phrase", "pos": "noun", "text": "laundry room", "zh": "洗衣房", "features": { "ipa": "ˈlɑːndri ˌruːm" }, "noteZh": "第 3 单元学过 do laundry(洗衣服);复合名词重音在前 LAUN-dry room,au 美式读 /ɑː/。" },
+    { "id": "en.basement", "kind": "word", "pos": "noun", "text": "basement", "zh": "地下室;地下一层", "features": { "ipa": "ˈbeɪsmənt" }, "noteZh": "in the basement 在地下室;电梯按钮上常写 B 或 LL(lower level)。重音在前 BASE-ment。" },
+    { "id": "en.parking", "kind": "word", "pos": "noun", "text": "parking", "zh": "停车;停车位", "features": { "ipa": "ˈpɑːrkɪŋ" }, "noteZh": "Is there parking? 能停车吗?;美国酒店停车常常按天另收费:Parking is $20 a day.。ar 要卷舌。" },
+    { "id": "en.keep", "kind": "word", "pos": "verb", "text": "keep", "zh": "保管;留着", "features": { "ipa": "kiːp" }, "noteZh": "You can keep your luggage here. 行李可以寄存在这儿;Keep the change. 不用找了。过去式 kept。" },
+    { "id": "en.luggage", "kind": "word", "pos": "noun", "text": "luggage", "zh": "行李", "features": { "ipa": "ˈlʌɡɪdʒ" }, "noteZh": "不可数名词,不加 s:a lot of luggage;数件数说 two bags。u 读 /ʌ/,-gage 读 /ɡɪdʒ/。" }
+  ],
+  "reviewItems": ["en.gym", "en.swim", "en.do_laundry", "en.floor", "en.front_desk"],
+  "lines": [
+    { "speaker": "lei", "text": "Good morning! Is there a pool here?", "zh": "(第二天早上,磊在前台)早上好!这里有游泳池吗?", "items": ["en.morning", "en.pool"] },
+    { "speaker": "receptionist", "text": "Yes, it's on the top floor, next to the gym.", "zh": "有,在顶楼,健身房旁边。", "items": ["en.top", "en.floor", "en.next_to", "en.gym"] },
+    { "speaker": "lei", "text": "Great! When can we swim?", "zh": "太好了!什么时候可以游泳?", "items": ["en.great", "en.can", "en.swim"] },
+    { "speaker": "receptionist", "text": "From seven in the morning to ten at night.", "zh": "早上七点到晚上十点。", "items": ["en.morning", "en.night"] },
+    { "speaker": "sofia", "text": "Is there a laundry room? I want to do laundry.", "zh": "有洗衣房吗?我想洗衣服。", "items": ["en.laundry_room", "en.want", "en.do_laundry"] },
+    { "speaker": "receptionist", "text": "Yes, it's in the basement. The elevator is over there.", "zh": "有,在地下室。电梯在那边。", "items": ["en.basement", "en.elevator", "en.over_there"] },
+    { "speaker": "lei", "text": "My friend has a car. Is there parking?", "zh": "我朋友有车。这里能停车吗?", "items": ["en.friend", "en.have", "en.car", "en.parking"] },
+    { "speaker": "receptionist", "text": "Yes. Parking is twenty dollars a day.", "zh": "能。停车一天二十美元。", "items": ["en.parking", "en.dollar"] },
+    { "speaker": "sofia", "text": "On Thursday, can we keep our luggage in the lobby?", "zh": "周四退房以后,行李能放在大堂吗?", "items": ["en.thursday", "en.can", "en.keep", "en.luggage", "en.lobby"] },
+    { "speaker": "receptionist", "text": "Sure. You can keep it here, at the front desk.", "zh": "可以。寄存在这儿就行,就在前台。", "items": ["en.sure", "en.can", "en.keep", "en.front_desk"] }
+  ],
+  "questions": [
+    { "prompt": "游泳池在哪儿?", "options": ["地下室", "顶楼,健身房旁边", "大堂旁边"], "answer": 1, "explainZh": "前台说 it's on the top floor, next to the gym.(在顶楼,健身房旁边)。" },
+    { "prompt": "洗衣房在哪儿?", "options": ["顶楼", "五楼", "地下室"], "answer": 2, "explainZh": "前台说 it's in the basement.(在地下室)。" },
+    { "prompt": "周四退房以后,他们的行李可以放在哪儿?", "options": ["前台", "房间里", "伊森的车上"], "answer": 0, "explainZh": "前台说 You can keep it here, at the front desk.(可以寄存在前台)。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u12_is_there_when", "titleZh": "问设施:Is there…? / When can we…?",
+      "bodyZh": "问有没有某个设施,用 Is there a…?(复习第 5 单元的 there is):Is there a pool here?,回答 Yes, there is. / No, there isn't.,或者直接说在哪儿:It's on the top floor.。问什么时候能用,可以问 When can we swim?,对方用 from… to…(从……到……)回答:From seven in the morning to ten at night.。说位置常用这几个说法:on the top floor(在顶楼)、in the basement(在地下室)、next to the gym(在健身房旁边)、over there(在那边)。luggage(行李)不可数,不加 s;寄存行李说 keep your luggage at the front desk。",
+      "examples": [
+        { "text": "Is there a pool here? — Yes, on the top floor.", "zh": "这里有游泳池吗?——有,在顶楼。" },
+        { "text": "When can we swim? — From seven to ten.", "zh": "什么时候可以游泳?——七点到十点。" },
+        { "text": "The laundry room is in the basement.", "zh": "洗衣房在地下室。" }
+      ] },
+    { "id": "en.g.u12_hotel_words", "titleZh": "酒店设施词的读音:elevator、lobby、laundry room",
+      "bodyZh": "elevator(电梯)重音在第一个音节 EL-e-va-tor,t 读成轻快的闪音,听起来像“EL-uh-vay-der”;英式英语叫 lift。lobby(大堂)和 top 一样,美式 o 读 /ɑː/,嘴张大。laundry room(洗衣房)、front desk(前台)这类两个名词组成的词,重音一般落在第一个词上:LAUN-dry room;basement 的重音也在前:BASE-ment。parking 的 ar 要卷舌。",
+      "examples": [
+        { "text": "The elevator is over there.", "zh": "电梯在那边。" },
+        { "text": "You can keep it here, at the front desk.", "zh": "可以寄存在这儿,就在前台。" }
+      ] }
+  ],
+  "review": "draft"
+}

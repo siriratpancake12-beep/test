@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u18.l06", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118060,
+  "titleZh": "第一次滑雪", "goalZh": "会在雪场租装备时报鞋码和身高,听懂教练的动作指令", "canDoZh": "能在雪场租装备、报尺码和身高,听懂教练的指令",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.ski", "kind": "word", "pos": "verb", "text": "ski", "zh": "滑雪;(名词)滑雪板", "features": { "ipa": "skiː" }, "noteZh": "go skiing 去滑雪;租的雪板说 skis(一对);sk 之间不加元音,读 /skiː/。" },
+    { "id": "en.snowboard", "kind": "word", "pos": "noun", "text": "snowboard", "zh": "单板(滑雪板);滑单板", "features": { "ipa": "ˈsnoʊbɔːrd" }, "noteZh": "snow + board 复合词,重音在前 SNOW-board;也能当动词:He snowboards well.。" },
+    { "id": "en.lean", "kind": "word", "pos": "verb", "text": "lean", "zh": "(身体)倾斜;靠", "features": { "ipa": "liːn" }, "noteZh": "Lean forward. 身体往前倾;ea 读长音 /iː/,结尾 n 是前鼻音。" },
+    { "id": "en.forward", "kind": "word", "pos": "adv", "text": "forward", "zh": "向前", "features": { "ipa": "ˈfɔːrwɚd" }, "noteZh": "重音在前 FOR-ward,美式两个 r 都卷舌,第二个音节弱读。" },
+    { "id": "en.bend", "kind": "word", "pos": "verb", "text": "bend", "zh": "弯;弯曲(腰、膝)", "features": { "ipa": "bend" }, "noteZh": "Bend your knees. 屈膝;词尾 nd 收住,不要读成“本德”。" },
+    { "id": "en.fall_down", "kind": "phrase", "pos": "verb", "text": "fall down", "zh": "摔倒;跌倒", "features": { "ipa": "ˌfɑːl ˈdaʊn" }, "noteZh": "过去式是 fell down /fel/:I fell down ten times.;fall 美式读 /fɑːl/。" },
+    { "id": "en.bottom", "kind": "word", "pos": "noun", "text": "bottom", "zh": "底部;(坡)底", "features": { "ipa": "ˈbɑːt̬əm" }, "noteZh": "at the bottom of the hill 在坡底;美式两个元音之间的 t 读闪音,像轻轻的 d。" },
+    { "id": "en.scared", "kind": "word", "pos": "adj", "text": "scared", "zh": "害怕的", "features": { "ipa": "skerd" }, "noteZh": "scared 说人“害怕”,scary 说东西“吓人”(第 7 单元);-ed 不单独成音节,读 /skerd/。" }
+  ],
+  "reviewItems": ["en.mountain", "en.size", "en.shoes", "en.wear", "en.tall", "en.beginner"],
+  "lines": [
+    { "speaker": "marcus", "text": "OK, guys! We're in the mountains. Let's go skiing!", "zh": "(周六,马库斯开了两个小时的车,带大家来到山上的滑雪场)好了各位,到山上了。咱们去滑雪吧!", "items": ["en.guy", "en.mountain", "en.lets", "en.go", "en.ski"] },
+    { "speaker": "clerk", "text": "Hi! Skis or a snowboard?", "zh": "(租装备的柜台,店员)你好!要双板还是单板?", "items": ["en.hi", "en.ski", "en.snowboard"] },
+    { "speaker": "lei", "text": "Skis, please. It's my first time.", "zh": "双板,谢谢。我是第一次滑。", "items": ["en.ski", "en.first"] },
+    { "speaker": "clerk", "text": "OK. What size shoes do you wear? And how tall are you?", "zh": "好。你穿几码的鞋?身高多少?", "items": ["en.size", "en.shoes", "en.wear", "en.tall"] },
+    { "speaker": "lei", "text": "Size nine. And I'm one seventy-five… Sorry, five nine.", "zh": "九码。我一米七五……不好意思,是五英尺九英寸。", "items": ["en.size", "en.sorry"] },
+    { "speaker": "clerk", "text": "Five nine. Got it. Here you go!", "zh": "五英尺九。明白了。给你!", "items": ["en.got_it", "en.here_it_is"] },
+    { "speaker": "staff", "text": "OK, beginners! Bend your knees and lean forward.", "zh": "(初学者课上,滑雪教练)好,初学者们!屈膝,身体往前倾。", "items": ["en.beginner", "en.bend", "en.knee", "en.lean", "en.forward"] },
+    { "speaker": "staff", "text": "And ski slowly. Slowly!", "zh": "慢慢滑。慢一点!", "items": ["en.ski", "en.slowly"] },
+    { "speaker": "lei", "text": "I'm scared! Oh no… I fell down again!", "zh": "我好害怕!哎呀……我又摔倒了!", "items": ["en.scared", "en.fall_down", "en.again"] },
+    { "speaker": "marcus", "text": "Wow, Ethan snowboards really fast. And well!", "zh": "哇,伊森单板滑得好快。还滑得特别好!", "items": ["en.snowboard", "en.really", "en.fast", "en.well"] },
+    { "speaker": "lei", "text": "I fell down ten times. But I'm at the bottom of the hill!", "zh": "(一个小时后)我摔了十次。可我滑到坡底了!", "items": ["en.fall_down", "en.bottom", "en.hill"] },
+    { "speaker": "marcus", "text": "Good job, Lei! Slowly, but you did it!", "zh": "干得好,磊!慢是慢了点,可你做到了!", "items": ["en.good_job", "en.slowly"] }
+  ],
+  "questions": [
+    { "prompt": "租装备时,店员问了磊哪两件事?", "options": ["鞋码和身高", "年龄和电话号码", "名字和地址"], "answer": 0, "explainZh": "店员问 What size shoes do you wear? And how tall are you?(穿几码的鞋?身高多少?)" },
+    { "prompt": "磊为什么先说了 one seventy-five?", "options": ["那是他的鞋码", "他习惯用厘米说身高,马上改成了英尺和英寸", "那是租雪板的价钱"], "answer": 1, "explainZh": "one seventy-five 是 175 厘米;美国用英尺和英寸,所以他马上改口 Sorry, five nine.。他的鞋码是 nine。" },
+    { "prompt": "教练让初学者怎么做?", "options": ["站直,滑快一点", "跟着伊森滑单板", "屈膝、身体往前倾、慢慢滑"], "answer": 2, "explainZh": "教练说 Bend your knees and lean forward. And ski slowly.。" },
+    { "prompt": "磊一共摔了几次?", "options": ["一次也没摔", "十次", "两次"], "answer": 1, "explainZh": "磊说 I fell down ten times.(我摔了十次。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.height_size", "titleZh": "身高和鞋码;复习教练的指令和方式副词",
+      "bodyZh": "美国说身高用英尺(foot,复数 feet)和英寸(inch):5'9\" 读作 five foot nine,口语常说 five nine(中间不加 and),大约是 175 厘米(1 英尺约 30 厘米,1 英寸约 2.5 厘米)。问身高:How tall are you?,回答 I'm five nine.(说 175 厘米,很多美国人一下子反应不过来)。问鞋码:What size shoes do you wear?,回答 Size nine.;中国 42 码大约是美国男鞋 9 码。这里的 foot 是长度单位“英尺”,是第 1 课 foot(脚)的另一个意思。复习:教练喊指令用祈使句(Bend your knees. Lean forward.),说“怎么滑”加方式副词(Ski slowly!),说一个人滑得怎么样,副词放在动词后面(Ethan snowboards really fast.)。fall down 的过去式是 fell down;scared 说人“害怕”,第 7 单元的 scary 说东西“吓人”。",
+      "examples": [
+        { "text": "How tall are you? — I'm five nine.", "zh": "你多高?——五英尺九英寸。" },
+        { "text": "What size shoes do you wear? — Size nine.", "zh": "你穿几码的鞋?——九码。" },
+        { "text": "Bend your knees and lean forward.", "zh": "屈膝,身体往前倾。" },
+        { "text": "I fell down ten times.", "zh": "我摔了十次。" }
+      ] }
+  ],
+  "review": "draft"
+}

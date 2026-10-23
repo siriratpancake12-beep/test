@@ -9,18 +9,18 @@
       "id": "en.a1u12.l01", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-12 At the hotel", "order": 112010,
       "titleZh": "办理入住", "goalZh": "会在酒店前台报预订人的姓名、出示银行卡,听懂房间号、楼层和早餐时间",
       "canDoZh": "能在酒店前台办入住:报预订人姓名、出示证件,听懂房间号、楼层和早餐时间",
-      "scenarioZh": "1 月 4 日(周日)下午,磊和索菲亚在洛杉矶圣莫尼卡海边的酒店办入住。前台(receptionist)问 Do you have a reservation?,磊说 I have a reservation under the name Zhang.,又拼了一遍姓。前台要看银行卡,说他们住 512 和 514 两间房、在五楼,递来房卡,说 Wi-Fi 密码印在房卡上,早餐 6:30 到 10:00。索菲亚问周四能不能晚点退房,前台说那天早上打电话给前台再说。(为了适合青少年,两人各住一间;规划里的“看证件”这里没写,证件 ID 在 5-6 是别人登记的词。)",
+      "scenarioZh": "1 月 4 日(周日)下午,磊和索菲亚在洛杉矶圣莫尼卡海边的酒店办入住。前台(receptionist)问 Do you have a reservation?,磊说 I have a reservation under the name Zhang.,又拼了一遍姓。前台要看银行卡,说他们住 512 和 514 两间房、在五楼,递来房卡,说 Wi-Fi 密码印在房卡上,早餐 6:30 到 10:00。索菲亚问周四能不能晚点退房,前台说那天早上打电话给前台再说。(为了适合青少年,两人各住一间;规划里的“看证件”没写,ID 是 5-6 别人登记的词。)",
       "grammarFocusZh": "入住用语 I have a reservation. / under the name…;房间号读法 512 = five twelve;序数词说楼层 on the fifth floor(美式 first floor 就是一楼,和中国一样)。发音:floor 美式要卷舌 /flɔːr/。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
-        { "id": "en.reservation", "kind": "word", "pos": "noun", "text": "reservation", "zh": "预订", "features": { "ipa": "ˌrezɚˈveɪʃən" }, "noteZh": "订酒店、订餐厅都用它:I have a reservation. 我有预订;前台常问 Do you have a reservation?。重音在 -VA-,-tion 读 /ʃən/。" },
-        { "id": "en.under_the_name", "kind": "phrase", "pos": "phrase", "text": "under the name", "zh": "用……的名字(预订、登记)", "features": { "ipa": "ˌʌndɚ ðə ˈneɪm" }, "noteZh": "I have a reservation under the name Zhang. 预订用的是 Zhang 这个姓;口语也常简单说 Under Zhang.。报完姓最好再拼一遍。" },
-        { "id": "en.floor", "kind": "word", "pos": "noun", "text": "floor", "zh": "楼层;地板", "features": { "ipa": "flɔːr" }, "noteZh": "on the fifth floor 在五楼(用序数词,介词用 on);美式 first floor 就是一楼,和中国一样,英式的一楼叫 ground floor。结尾要卷舌。" },
-        { "id": "en.key", "kind": "word", "pos": "noun", "text": "key", "zh": "钥匙;房卡", "features": { "ipa": "kiː" }, "noteZh": "酒店的房卡也叫 key 或 key card;ey 在这里读 /iː/,和 see 押韵。" },
-        { "id": "en.wi_fi", "kind": "word", "pos": "noun", "text": "Wi-Fi", "zh": "无线网;Wi-Fi", "alt": ["wifi", "WiFi"], "features": { "ipa": "ˈwaɪfaɪ" }, "noteZh": "读 /ˈwaɪfaɪ/,两个 i 都读 /aɪ/,重音在前;问密码说 What's the Wi-Fi password?。" },
-        { "id": "en.password", "kind": "word", "pos": "noun", "text": "password", "zh": "密码", "features": { "ipa": "ˈpæswɝːd" }, "noteZh": "pass 美式读 /pæs/,嘴张大;w 后面的 or 读 /ɝː/,要卷舌。银行卡的密码一般叫 PIN。" },
-        { "id": "en.check_out", "kind": "phrase", "pos": "verb", "text": "check out", "zh": "退房", "alt": ["check-out"], "features": { "ipa": "ˌtʃek ˈaʊt" }, "noteZh": "动词分开写 check out(We check out on Thursday.),名词常写 check-out(Check-out is at 11:00.);连读成“che-kout”。晚点退房说 check out late。" },
-        { "id": "en.front_desk", "kind": "phrase", "pos": "noun", "text": "front desk", "zh": "(酒店的)前台", "features": { "ipa": "ˌfrʌnt ˈdesk" }, "noteZh": "酒店大堂里办入住、退房的地方;打给前台说 call the front desk。front 的 o 读 /ʌ/。" }
+        { "id": "en.reservation", "kind": "word", "pos": "noun", "text": "reservation", "zh": "预订", "features": {"ipa": "ˌrezɚˈveɪʃən"}, "noteZh": "订酒店、订餐厅都用它:I have a reservation. 我有预订;前台常问 Do you have a reservation?。重音在 -VA-,-tion 读 /ʃən/。" },
+        { "id": "en.under_the_name", "kind": "phrase", "pos": "phrase", "text": "under the name", "zh": "用……的名字(预订、登记)", "features": {"ipa": "ˌʌndɚ ðə ˈneɪm"}, "noteZh": "I have a reservation under the name Zhang. 预订用的是 Zhang 这个姓;口语也常简单说 Under Zhang.。报完姓最好再拼一遍。" },
+        { "id": "en.floor", "kind": "word", "pos": "noun", "text": "floor", "zh": "楼层;地板", "features": {"ipa": "flɔːr"}, "noteZh": "on the fifth floor 在五楼(用序数词,介词用 on);美式 first floor 就是一楼,和中国一样,英式的一楼叫 ground floor。结尾要卷舌。" },
+        { "id": "en.key", "kind": "word", "pos": "noun", "text": "key", "zh": "钥匙;房卡", "features": {"ipa": "kiː"}, "noteZh": "酒店的房卡也叫 key 或 key card;ey 在这里读 /iː/,和 see 押韵。" },
+        { "id": "en.wi_fi", "kind": "word", "pos": "noun", "text": "Wi-Fi", "zh": "无线网;Wi-Fi", "alt": ["wifi", "WiFi"], "features": {"ipa": "ˈwaɪfaɪ"}, "noteZh": "读 /ˈwaɪfaɪ/,两个 i 都读 /aɪ/,重音在前;问密码说 What's the Wi-Fi password?。" },
+        { "id": "en.password", "kind": "word", "pos": "noun", "text": "password", "zh": "密码", "features": {"ipa": "ˈpæswɝːd"}, "noteZh": "pass 美式读 /pæs/,嘴张大;w 后面的 or 读 /ɝː/,要卷舌。银行卡的密码一般叫 PIN。" },
+        { "id": "en.check_out", "kind": "phrase", "pos": "verb", "text": "check out", "zh": "退房", "alt": ["check-out"], "features": {"ipa": "ˌtʃek ˈaʊt"}, "noteZh": "动词分开写 check out(We check out on Thursday.),名词常写 check-out(Check-out is at 11:00.);连读成“che-kout”。晚点退房说 check out late。" },
+        { "id": "en.front_desk", "kind": "phrase", "pos": "noun", "text": "front desk", "zh": "(酒店的)前台", "features": {"ipa": "ˌfrʌnt ˈdesk"}, "noteZh": "酒店大堂里办入住、退房的地方;打给前台说 call the front desk。front 的 o 读 /ʌ/。" }
       ],
       "reviewItems": ["en.how_do_you_spell", "en.card", "en.here_it_is", "en.breakfast", "en.call"]
     },
@@ -32,14 +32,14 @@
       "grammarFocusZh": "Could I…? / Could you…? 比 Can 更礼貌,回答 Sure. / Of course. / Sorry, …;打电话先说房间号(This is Room 512.);复习现在进行时说“正在来”(Someone is coming right now.)。发音:could /kʊd/ 的 l 不发音;Could you 连读成 /ˈkʊdʒə/。",
       "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
-        { "id": "en.could", "kind": "word", "pos": "verb", "text": "could", "zh": "(礼貌请求)可以……吗;能……吗", "features": { "ipa": "kʊd" }, "noteZh": "Could I…? / Could you…? 比 Can 更客气,对前台、店员、陌生人请人帮忙时常用;l 不发音,读 /kʊd/,和 good 押韵。" },
-        { "id": "en.more", "kind": "word", "pos": "det", "text": "more", "zh": "更多的;再(多一些)", "features": { "ipa": "mɔːr" }, "noteZh": "two more pillows 再要两个枕头(数字放在 more 前面);one more night 再住一晚。结尾卷舌。" },
-        { "id": "en.extra", "kind": "word", "pos": "adj", "text": "extra", "zh": "额外的;多出来的", "features": { "ipa": "ˈekstrə" }, "noteZh": "an extra pillow 多一个枕头 = one more pillow;extra 以元音开头,前面用 an。" },
-        { "id": "en.pillow", "kind": "word", "pos": "noun", "text": "pillow", "zh": "枕头", "features": { "ipa": "ˈpɪloʊ" }, "noteZh": "重音在前 PIL-low;结尾 ow 读 /oʊ/,嘴唇要收圆。" },
-        { "id": "en.of_course", "kind": "phrase", "pos": "phrase", "text": "Of course", "zh": "当然(可以)", "features": { "ipa": "əv ˈkɔːrs" }, "noteZh": "答应别人的请求:Could you…? — Of course!;of 弱读成 /əv/。别用它回答“你知道……吗”这类问题,听起来像“这还用问”。" },
-        { "id": "en.help", "kind": "word", "pos": "verb", "text": "help", "zh": "帮助;帮忙", "features": { "ipa": "help" }, "noteZh": "help + 人 + with + 事:Could you help me with the Wi-Fi?;词尾 lp 收住,不要读成“嗨尔普”。" },
-        { "id": "en.find", "kind": "word", "pos": "verb", "text": "find", "zh": "找到", "features": { "ipa": "faɪnd" }, "noteZh": "find 是“找到”(结果),look for 是“找”(过程):I'm looking for my key, but I can't find it.;过去式 found。" },
-        { "id": "en.send", "kind": "word", "pos": "verb", "text": "send", "zh": "送;派(人);发送", "features": { "ipa": "send" }, "noteZh": "I'm sending one right now. 我这就让人送过去;发消息、发邮件也用 send;过去式 sent。" }
+        { "id": "en.could", "kind": "word", "pos": "verb", "text": "could", "zh": "(礼貌请求)可以……吗;能……吗", "features": {"ipa": "kʊd"}, "noteZh": "Could I…? / Could you…? 比 Can 更客气,对前台、店员、陌生人请人帮忙时常用;l 不发音,读 /kʊd/,和 good 押韵。" },
+        { "id": "en.more", "kind": "word", "pos": "det", "text": "more", "zh": "更多的;再(多一些)", "features": {"ipa": "mɔːr"}, "noteZh": "two more pillows 再要两个枕头(数字放在 more 前面);one more night 再住一晚。结尾卷舌。" },
+        { "id": "en.extra", "kind": "word", "pos": "adj", "text": "extra", "zh": "额外的;多出来的", "features": {"ipa": "ˈekstrə"}, "noteZh": "an extra pillow 多一个枕头 = one more pillow;extra 以元音开头,前面用 an。" },
+        { "id": "en.pillow", "kind": "word", "pos": "noun", "text": "pillow", "zh": "枕头", "features": {"ipa": "ˈpɪloʊ"}, "noteZh": "重音在前 PIL-low;结尾 ow 读 /oʊ/,嘴唇要收圆。" },
+        { "id": "en.of_course", "kind": "phrase", "pos": "phrase", "text": "Of course", "zh": "当然(可以)", "features": {"ipa": "əv ˈkɔːrs"}, "noteZh": "答应别人的请求:Could you…? — Of course!;of 弱读成 /əv/。别用它回答“你知道……吗”这类问题,听起来像“这还用问”。" },
+        { "id": "en.help", "kind": "word", "pos": "verb", "text": "help", "zh": "帮助;帮忙", "features": {"ipa": "help"}, "noteZh": "help + 人 + with + 事:Could you help me with the Wi-Fi?;词尾 lp 收住,不要读成“嗨尔普”。" },
+        { "id": "en.find", "kind": "word", "pos": "verb", "text": "find", "zh": "找到", "features": {"ipa": "faɪnd"}, "noteZh": "find 是“找到”(结果),look for 是“找”(过程):I'm looking for my key, but I can't find it.;过去式 found。" },
+        { "id": "en.send", "kind": "word", "pos": "verb", "text": "send", "zh": "送;派(人);发送", "features": {"ipa": "send"}, "noteZh": "I'm sending one right now. 我这就让人送过去;发消息、发邮件也用 send;过去式 sent。" }
       ],
       "reviewItems": ["en.front_desk", "en.right_now", "en.come", "en.password"]
     },
@@ -49,16 +49,16 @@
       "canDoZh": "能向前台说清楚房间里哪儿出了问题,并提出修理或换房的要求",
       "scenarioZh": "晚上回来,磊的房卡刷不开门,前台(receptionist)给他换了一张;二十分钟后磊和索菲亚又下楼:磊的房间淋浴没有热水,空调也不工作。磊说 There's no hot water in the shower.;前台连声道歉 I'm so sorry about that.,今晚修不好,给他换到 604 房间,还送了两份免费早餐。磊说 That's OK. Thank you.。",
       "grammarFocusZh": "说故障:It doesn't work. / It isn't working. / There's no hot water. / There isn't any…(复习 some / any);道歉和回应:I'm so sorry about that. — That's OK.。发音:doesn't /ˈdʌzənt/ 的 /z/ 要带声,结尾的 n 自成音节。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
-        { "id": "en.doesnt_work", "kind": "phrase", "pos": "phrase", "text": "doesn't work", "zh": "(东西)坏了;不好使", "alt": ["isn't working", "It doesn't work"], "features": { "ipa": "ˈdʌzənt ˈwɝːk" }, "noteZh": "My key doesn't work. 房卡刷不开;The AC isn't working. 空调不工作。这里的 work 是“运转、起作用”,不是“上班”。doesn't 里的 s 读浊音 /z/。" },
-        { "id": "en.shower", "kind": "word", "pos": "noun", "text": "shower", "zh": "淋浴;淋浴喷头", "features": { "ipa": "ˈʃaʊɚ" }, "noteZh": "第 3 单元学过 take a shower(洗澡);the shower 指淋浴喷头。ow 读 /aʊ/,结尾卷舌,两个音节 SHOW-er。" },
-        { "id": "en.ac", "kind": "word", "pos": "noun", "text": "AC", "zh": "空调", "alt": ["A/C", "air conditioning"], "features": { "ipa": "ˌeɪ ˈsiː" }, "noteZh": "air conditioning 的缩写,读两个字母 A-C,重音在 C;美国很多酒店的 AC 冷暖都能开。" },
-        { "id": "en.fix", "kind": "word", "pos": "verb", "text": "fix", "zh": "修理;弄好", "features": { "ipa": "fɪks" }, "noteZh": "Can you fix it? 能修好吗?;x 读 /ks/,i 是短音 /ɪ/。" },
-        { "id": "en.move", "kind": "word", "pos": "verb", "text": "move", "zh": "移动;换(地方)", "features": { "ipa": "muːv" }, "noteZh": "move you to Room 604 给你换到 604 房间;o 读长音 /uː/,结尾 v 要带声,上齿轻碰下唇。" },
-        { "id": "en.try", "kind": "word", "pos": "verb", "text": "try", "zh": "试;尝试", "features": { "ipa": "traɪ" }, "noteZh": "Try it now. 现在试试;第 6 单元学过 try on(试穿)。tr 像“拽”的声母再卷舌,中间不加元音。" },
-        { "id": "en.sorry_about_that", "kind": "phrase", "pos": "phrase", "text": "Sorry about that", "zh": "(为这件事)抱歉", "alt": ["I'm sorry about that", "I'm so sorry about that"], "features": { "ipa": "ˈsɑːri əˌbaʊt ˈðæt" }, "noteZh": "为给人添的麻烦道歉,服务行业天天说:I'm so sorry about that.;about 弱读成 /əˈbaʊt/,that 的 th 是浊音。" },
-        { "id": "en.thats_ok", "kind": "phrase", "pos": "phrase", "text": "That's OK", "zh": "没关系", "alt": ["That's okay", "It's OK"], "features": { "ipa": "ðæts oʊˈkeɪ" }, "noteZh": "回应别人的道歉:I'm sorry. — That's OK.;也可以说 No problem.。OK 读 /oʊˈkeɪ/,重音在后。" }
+        { "id": "en.doesnt_work", "kind": "phrase", "pos": "phrase", "text": "doesn't work", "zh": "(东西)坏了;不好使", "alt": ["isn't working", "It doesn't work"], "features": {"ipa": "ˈdʌzənt ˈwɝːk"}, "noteZh": "My key doesn't work. 房卡刷不开;The AC isn't working. 空调不工作。这里的 work 是“运转、起作用”,不是“上班”。doesn't 里的 s 读浊音 /z/。" },
+        { "id": "en.shower", "kind": "word", "pos": "noun", "text": "shower", "zh": "淋浴;淋浴喷头", "features": {"ipa": "ˈʃaʊɚ"}, "noteZh": "第 3 单元学过 take a shower(洗澡);the shower 指淋浴喷头。ow 读 /aʊ/,结尾卷舌,两个音节 SHOW-er。" },
+        { "id": "en.ac", "kind": "word", "pos": "noun", "text": "AC", "zh": "空调", "alt": ["A/C", "air conditioning"], "features": {"ipa": "ˌeɪ ˈsiː"}, "noteZh": "air conditioning 的缩写,读两个字母 A-C,重音在 C;美国很多酒店的 AC 冷暖都能开。" },
+        { "id": "en.fix", "kind": "word", "pos": "verb", "text": "fix", "zh": "修理;弄好", "features": {"ipa": "fɪks"}, "noteZh": "Can you fix it? 能修好吗?;x 读 /ks/,i 是短音 /ɪ/。" },
+        { "id": "en.move", "kind": "word", "pos": "verb", "text": "move", "zh": "移动;换(地方)", "features": {"ipa": "muːv"}, "noteZh": "move you to Room 604 给你换到 604 房间;o 读长音 /uː/,结尾 v 要带声,上齿轻碰下唇。" },
+        { "id": "en.try", "kind": "word", "pos": "verb", "text": "try", "zh": "试;尝试", "features": {"ipa": "traɪ"}, "noteZh": "Try it now. 现在试试;第 6 单元学过 try on(试穿)。tr 像“拽”的声母再卷舌,中间不加元音。" },
+        { "id": "en.sorry_about_that", "kind": "phrase", "pos": "phrase", "text": "Sorry about that", "zh": "(为这件事)抱歉", "alt": ["I'm sorry about that", "I'm so sorry about that"], "features": {"ipa": "ˈsɑːri əˌbaʊt ˈðæt"}, "noteZh": "为给人添的麻烦道歉,服务行业天天说:I'm so sorry about that.;about 弱读成 /əˈbaʊt/,that 的 th 是浊音。" },
+        { "id": "en.thats_ok", "kind": "phrase", "pos": "phrase", "text": "That's OK", "zh": "没关系", "alt": ["That's okay", "It's OK"], "features": {"ipa": "ðæts oʊˈkeɪ"}, "noteZh": "回应别人的道歉:I'm sorry. — That's OK.;也可以说 No problem.。OK 读 /oʊˈkeɪ/,重音在后。" }
       ],
       "reviewItems": ["en.key", "en.hot", "en.water", "en.free", "en.breakfast"]
     },
@@ -68,17 +68,17 @@
       "canDoZh": "能问酒店有哪些设施、在哪儿、几点开放",
       "scenarioZh": "第二天早上,磊在前台问 Is there a pool here?;前台说泳池在顶楼、健身房旁边,早上 7 点到晚上 10 点都能游;索菲亚问洗衣房,前台说在地下室,电梯就在那边;磊说朋友有车,问能不能停车,前台说停车一天 20 美元;索菲亚问周四退房后行李能不能放在大堂,前台说可以寄存在前台。(“开放”没用 open:open 是 3-6 别人登记的词,这课用 When can we swim? 问时间。)",
       "grammarFocusZh": "酒店设施词 pool、gym、elevator、lobby、laundry room、parking;复习 Is there…? / Where's…?;时间 from… to…(复习第 3 单元)。发音:elevator /ˈeləveɪt̬ɚ/ 重音在第一个音节,t 读闪音;美式说 elevator,英式说 lift。",
-      "skills": ["listen", "read", "write"], "estimatedMinutes": 26.5,
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 26,
       "newItems": [
-        { "id": "en.pool", "kind": "word", "pos": "noun", "text": "pool", "zh": "游泳池", "features": { "ipa": "puːl" }, "noteZh": "swimming pool 的简称;oo 是长音 /uː/,结尾的 l 舌尖要抵住上齿龈,别读成“噗”。" },
-        { "id": "en.top", "kind": "word", "pos": "adj", "text": "top", "zh": "最上面的;顶部的", "features": { "ipa": "tɑːp" }, "noteZh": "on the top floor 在顶楼;美式 o 读 /ɑː/,嘴张大,词尾 p 收住不送气。" },
-        { "id": "en.elevator", "kind": "word", "pos": "noun", "text": "elevator", "zh": "电梯", "features": { "ipa": "ˈeləveɪt̬ɚ" }, "noteZh": "美式说 elevator,英式说 lift;重音在第一个音节 EL-e-va-tor,t 读成轻快的闪音。" },
-        { "id": "en.lobby", "kind": "word", "pos": "noun", "text": "lobby", "zh": "大堂;大厅", "features": { "ipa": "ˈlɑːbi" }, "noteZh": "酒店一进门的大厅,前台就在这里;美式 o 读 /ɑː/。" },
-        { "id": "en.laundry_room", "kind": "phrase", "pos": "noun", "text": "laundry room", "zh": "洗衣房", "features": { "ipa": "ˈlɑːndri ˌruːm" }, "noteZh": "第 3 单元学过 do laundry(洗衣服);复合名词重音在前 LAUN-dry room,au 美式读 /ɑː/。" },
-        { "id": "en.basement", "kind": "word", "pos": "noun", "text": "basement", "zh": "地下室;地下一层", "features": { "ipa": "ˈbeɪsmənt" }, "noteZh": "in the basement 在地下室;电梯按钮上常写 B 或 LL(lower level)。重音在前 BASE-ment。" },
-        { "id": "en.parking", "kind": "word", "pos": "noun", "text": "parking", "zh": "停车;停车位", "features": { "ipa": "ˈpɑːrkɪŋ" }, "noteZh": "Is there parking? 能停车吗?;美国酒店停车常常按天另收费:Parking is $20 a day.。ar 要卷舌。" },
-        { "id": "en.keep", "kind": "word", "pos": "verb", "text": "keep", "zh": "保管;留着", "features": { "ipa": "kiːp" }, "noteZh": "You can keep your luggage here. 行李可以寄存在这儿;Keep the change. 不用找了。过去式 kept。" },
-        { "id": "en.luggage", "kind": "word", "pos": "noun", "text": "luggage", "zh": "行李", "features": { "ipa": "ˈlʌɡɪdʒ" }, "noteZh": "不可数名词,不加 s:a lot of luggage;数件数说 two bags。u 读 /ʌ/,-gage 读 /ɡɪdʒ/。" }
+        { "id": "en.pool", "kind": "word", "pos": "noun", "text": "pool", "zh": "游泳池", "features": {"ipa": "puːl"}, "noteZh": "swimming pool 的简称;oo 是长音 /uː/,结尾的 l 舌尖要抵住上齿龈,别读成“噗”。" },
+        { "id": "en.top", "kind": "word", "pos": "adj", "text": "top", "zh": "最上面的;顶部的", "features": {"ipa": "tɑːp"}, "noteZh": "on the top floor 在顶楼;美式 o 读 /ɑː/,嘴张大,词尾 p 收住。" },
+        { "id": "en.elevator", "kind": "word", "pos": "noun", "text": "elevator", "zh": "电梯", "features": {"ipa": "ˈeləveɪt̬ɚ"}, "noteZh": "美式说 elevator,英式说 lift;重音在第一个音节 EL-e-va-tor,t 读成轻快的闪音。" },
+        { "id": "en.lobby", "kind": "word", "pos": "noun", "text": "lobby", "zh": "大堂;大厅", "features": {"ipa": "ˈlɑːbi"}, "noteZh": "酒店一进门的大厅,前台就在这里;美式 o 读 /ɑː/。" },
+        { "id": "en.laundry_room", "kind": "phrase", "pos": "noun", "text": "laundry room", "zh": "洗衣房", "features": {"ipa": "ˈlɑːndri ˌruːm"}, "noteZh": "第 3 单元学过 do laundry(洗衣服);复合名词重音在前 LAUN-dry room,au 美式读 /ɑː/。" },
+        { "id": "en.basement", "kind": "word", "pos": "noun", "text": "basement", "zh": "地下室;地下一层", "features": {"ipa": "ˈbeɪsmənt"}, "noteZh": "in the basement 在地下室;电梯按钮上常写 B 或 LL(lower level)。重音在前 BASE-ment。" },
+        { "id": "en.parking", "kind": "word", "pos": "noun", "text": "parking", "zh": "停车;停车位", "features": {"ipa": "ˈpɑːrkɪŋ"}, "noteZh": "Is there parking? 能停车吗?;美国酒店停车常常按天另收费:Parking is $20 a day.。ar 要卷舌。" },
+        { "id": "en.keep", "kind": "word", "pos": "verb", "text": "keep", "zh": "保管;留着", "features": {"ipa": "kiːp"}, "noteZh": "You can keep your luggage here. 行李可以寄存在这儿;Keep the change. 不用找了。过去式 kept。" },
+        { "id": "en.luggage", "kind": "word", "pos": "noun", "text": "luggage", "zh": "行李", "features": {"ipa": "ˈlʌɡɪdʒ"}, "noteZh": "不可数名词,不加 s:a lot of luggage;数件数说 two bags。u 读 /ʌ/,-gage 读 /ɡɪdʒ/。" }
       ],
       "reviewItems": ["en.gym", "en.swim", "en.do_laundry", "en.floor", "en.front_desk"]
     },
@@ -90,9 +90,9 @@
       "grammarFocusZh": "No + 名词 / 动词-ing 的告示写法(No glass. No running.);复习时间读法和祈使句;理解题考“几点前退房”“出了问题拨几号”。",
       "skills": ["read", "listen", "speak"], "estimatedMinutes": 15.5,
       "newItems": [
-        { "id": "en.glass", "kind": "word", "pos": "noun", "text": "glass", "zh": "玻璃;玻璃杯", "features": { "ipa": "ɡlæs" }, "noteZh": "告示 No glass. 是“不能带玻璃杯、玻璃瓶”;a glass of water 一杯水。第 2 单元的 glasses 是“眼镜”,别混。美式 a 读 /æ/。" },
-        { "id": "en.kid", "kind": "word", "pos": "noun", "text": "kid", "zh": "孩子;小孩", "features": { "ipa": "kɪd" }, "noteZh": "口语里比 child 常用;复数 kids。词尾 d 轻轻收住,不加元音。" },
-        { "id": "en.enjoy", "kind": "word", "pos": "verb", "text": "enjoy", "zh": "享受;喜欢", "features": { "ipa": "ɪnˈdʒɔɪ" }, "noteZh": "Enjoy your time in LA! 祝你在洛杉矶玩得开心;后面要接东西,不能单说 I enjoy.。重音在后 en-JOY。" }
+        { "id": "en.glass", "kind": "word", "pos": "noun", "text": "glass", "zh": "玻璃;玻璃杯", "features": {"ipa": "ɡlæs"}, "noteZh": "告示 No glass. 是“不能带玻璃杯、玻璃瓶”;a glass of water 一杯水。第 2 单元的 glasses 是“眼镜”,别混。美式 a 读 /æ/。" },
+        { "id": "en.kid", "kind": "word", "pos": "noun", "text": "kid", "zh": "孩子;小孩", "features": {"ipa": "kɪd"}, "noteZh": "口语里比 child 常用;复数 kids。词尾 d 轻轻收住,不加元音。" },
+        { "id": "en.enjoy", "kind": "word", "pos": "verb", "text": "enjoy", "zh": "享受;喜欢", "features": {"ipa": "ɪnˈdʒɔɪ"}, "noteZh": "Enjoy your time in LA! 祝你在洛杉矶玩得开心;后面要接东西,不能单说 I enjoy.。重音在后 en-JOY。" }
       ],
       "reviewItems": ["en.check_out", "en.lobby", "en.pool", "en.wi_fi", "en.password", "en.gym"]
     },
@@ -102,16 +102,16 @@
       "canDoZh": "能请前台推荐吃饭和游玩的地方,问清楚有多远、怎么走",
       "scenarioZh": "伊森下午才能来。磊问前台 Can you recommend a good restaurant near here?;前台推荐了圣莫尼卡码头旁边的墨西哥小馆 Maria's(虚构):It's a ten-minute walk.,告诉他们直走三个街区再左转。索菲亚听说有正宗的墨西哥卷饼,特别兴奋。两人走到码头时,伊森正好开车赶到:Hey, guys! Welcome to LA!(“地方”没用 place,place 是 5-r02 别人登记的词;How far is it? 在 11-7,这课用 Is it far?。)",
       "grammarFocusZh": "请人推荐 Can you recommend…?;a ten-minute walk / a five-minute drive(数字和 minute 用连字符连起来,minute 不加 s);Is it far?。发音:recommend 重音在最后 re-co-MMEND。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
-        { "id": "en.recommend", "kind": "word", "pos": "verb", "text": "recommend", "zh": "推荐", "features": { "ipa": "ˌrekəˈmend" }, "noteZh": "Can you recommend a good restaurant? 能推荐一家好餐厅吗?;重音在最后 re-co-MMEND,拼写一个 c、两个 m。" },
-        { "id": "en.restaurant", "kind": "word", "pos": "noun", "text": "restaurant", "zh": "餐厅;饭馆", "features": { "ipa": "ˈrestərɑːnt" }, "noteZh": "美式常读成三个音节 RES-ter-rahnt,重音在前,结尾的 t 轻轻带过。" },
-        { "id": "en.real", "kind": "word", "pos": "adj", "text": "real", "zh": "真正的;正宗的", "features": { "ipa": "ˈriːəl" }, "noteZh": "real Mexican food 正宗的墨西哥菜;第 2 单元的 really 就是它加 -ly。读两个音节 REE-ul,结尾 l 要收住。" },
-        { "id": "en.burrito", "kind": "word", "pos": "noun", "text": "burrito", "zh": "墨西哥卷饼", "features": { "ipa": "bɚˈriːt̬oʊ" }, "noteZh": "用面饼卷上肉、豆子和米饭;重音在中间 bur-REE-to,t 读闪音。" },
-        { "id": "en.taco", "kind": "word", "pos": "noun", "text": "taco", "zh": "塔可(墨西哥玉米饼)", "features": { "ipa": "ˈtɑːkoʊ" }, "noteZh": "小小的玉米饼包上肉和菜,用手拿着吃;a 读 /ɑː/,复数 tacos。" },
-        { "id": "en.hungry", "kind": "word", "pos": "adj", "text": "hungry", "zh": "饿的", "features": { "ipa": "ˈhʌŋɡri" }, "noteZh": "I'm hungry. 我饿了(要用 be,不说 I hungry);ng 后面还有 g 的音 /ŋɡ/。" },
-        { "id": "en.a_ten_minute_walk", "kind": "phrase", "pos": "noun", "text": "a ten-minute walk", "zh": "走路十分钟的路程", "alt": ["ten-minute walk"], "features": { "ipa": "ə ˌten ˌmɪnɪt ˈwɑːk" }, "noteZh": "数字和 minute 用连字符连成一个形容词,minute 不加 s:a five-minute walk、a ten-minute drive(开车十分钟)。walk 的 l 不发音。" },
-        { "id": "en.amazing", "kind": "word", "pos": "adj", "text": "amazing", "zh": "太棒了;令人惊叹的", "features": { "ipa": "əˈmeɪzɪŋ" }, "noteZh": "比 good、great 语气更强,美国人夸吃的、风景都爱用;重音在 -MA-,z 要带声。" }
+        { "id": "en.recommend", "kind": "word", "pos": "verb", "text": "recommend", "zh": "推荐", "features": {"ipa": "ˌrekəˈmend"}, "noteZh": "Can you recommend a good restaurant? 能推荐一家好餐厅吗?;重音在最后 re-co-MMEND,拼写一个 c、两个 m。" },
+        { "id": "en.restaurant", "kind": "word", "pos": "noun", "text": "restaurant", "zh": "餐厅;饭馆", "features": {"ipa": "ˈrestərɑːnt"}, "noteZh": "美式常读成三个音节 RES-ter-rahnt,重音在前,结尾的 t 轻轻带过。" },
+        { "id": "en.real", "kind": "word", "pos": "adj", "text": "real", "zh": "真正的;正宗的", "features": {"ipa": "ˈriːəl"}, "noteZh": "real Mexican food 正宗的墨西哥菜;第 2 单元的 really 就是它加 -ly。读两个音节 REE-ul,结尾 l 要收住。" },
+        { "id": "en.burrito", "kind": "word", "pos": "noun", "text": "burrito", "zh": "墨西哥卷饼", "features": {"ipa": "bɚˈriːt̬oʊ"}, "noteZh": "用面饼卷上肉、豆子和米饭;重音在中间 bur-REE-to,t 读闪音。" },
+        { "id": "en.taco", "kind": "word", "pos": "noun", "text": "taco", "zh": "塔可(墨西哥玉米饼)", "features": {"ipa": "ˈtɑːkoʊ"}, "noteZh": "小小的玉米饼包上肉和菜,用手拿着吃;a 读 /ɑː/,复数 tacos。" },
+        { "id": "en.hungry", "kind": "word", "pos": "adj", "text": "hungry", "zh": "饿的", "features": {"ipa": "ˈhʌŋɡri"}, "noteZh": "I'm hungry. 我饿了(要用 be,不说 I hungry);ng 后面还有 g 的音 /ŋɡ/。" },
+        { "id": "en.a_ten_minute_walk", "kind": "phrase", "pos": "noun", "text": "a ten-minute walk", "zh": "走路十分钟的路程", "alt": ["ten-minute walk"], "features": {"ipa": "ə ˌten ˌmɪnɪt ˈwɑːk"}, "noteZh": "数字和 minute 用连字符连成一个形容词,minute 不加 s:a five-minute walk、a ten-minute drive(开车十分钟)。walk 的 l 不发音。" },
+        { "id": "en.amazing", "kind": "word", "pos": "adj", "text": "amazing", "zh": "太棒了;令人惊叹的", "features": {"ipa": "əˈmeɪzɪŋ"}, "noteZh": "比 good、great 语气更强,美国人夸吃的、风景都爱用;重音在 -MA-,z 要带声。" }
       ],
       "reviewItems": ["en.near_here", "en.lunch", "en.far", "en.go_straight", "en.block"]
     },
@@ -119,19 +119,65 @@
       "id": "en.a1u12.l06", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-12 At the hotel", "order": 112060,
       "titleZh": "多住一晚要多少钱?", "goalZh": "会读三位数、四位数的价格,听懂 per night 和 plus tax,问清楚包不包括早餐",
       "canDoZh": "能听懂和说出三位数以上的价格,问清楚每晚多少钱、含不含税",
-      "scenarioZh": "洛杉矶太舒服了,索菲亚想多住一晚。磊打给前台问 How much is one more night?;前台说 It's 189 dollars per night, plus tax.,含税每间大约 212 美元;磊问 Does that include breakfast?(不含)。两间房一共 424 美元,索菲亚说太贵了;磊开玩笑问顶楼的大套房多少钱(1,250 美元一晚)。最后两人决定按原计划周四走,只问 Could we check out at twelve on Thursday?,前台说可以。(tax 是 4-r01 别人登记的词,这课离不开,作为复习词用。)",
+      "scenarioZh": "洛杉矶太舒服了,索菲亚想多住一晚。磊打给前台问 How much is one more night?;前台说 It's 189 dollars per night, plus tax.,含税每间大约 212 美元;磊问 Does that include breakfast?(不含)。两间房一共 424 美元,索菲亚说太贵了;磊开玩笑问顶楼的大套房多少钱(1,250 美元一晚)。最后两人决定按原计划周四走,磊问 Could we check out at twelve on Thursday?,前台说可以。(tax 是 4-r01 别人登记的词,这课离不开,作为复习词用。)",
       "grammarFocusZh": "三位数以上的读法:189 = one hundred eighty-nine,口语也说 one eighty-nine;1,250 = one thousand two hundred fifty(美式中间不加 and);per night / a night、plus tax。发音:hundred /ˈhʌndrəd/ 里的 dr 连在一起,不要加元音。",
       "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
-        { "id": "en.per", "kind": "word", "pos": "prep", "text": "per", "zh": "每(一)", "features": { "ipa": "pɝː" }, "noteZh": "$189 per night 每晚 189 美元;口语更常说 a night:$189 a night。读 /pɝː/,要卷舌。" },
-        { "id": "en.plus", "kind": "word", "pos": "prep", "text": "plus", "zh": "加上;另加", "features": { "ipa": "plʌs" }, "noteZh": "plus tax 另加税;美国的标价一般不含税,听到 plus tax 就知道最后要多付一些。u 读 /ʌ/。" },
-        { "id": "en.include", "kind": "word", "pos": "verb", "text": "include", "zh": "包括;包含", "features": { "ipa": "ɪnˈkluːd" }, "noteZh": "Does that include breakfast? 含早餐吗?;问价格包不包括什么就用它。重音在后 in-CLUDE。" },
-        { "id": "en.total", "kind": "word", "pos": "noun", "text": "total", "zh": "总数;总共", "features": { "ipa": "ˈtoʊt̬əl" }, "noteZh": "The total is $424. 一共 424 美元;中间的 t 读闪音,像“TOE-dl”。" },
-        { "id": "en.each", "kind": "word", "pos": "det", "text": "each", "zh": "每个;各", "features": { "ipa": "iːtʃ" }, "noteZh": "$212 for each room 每间房 212 美元;each 后面跟单数名词。读长音 /iːtʃ/,别读成 itch。" },
-        { "id": "en.money", "kind": "word", "pos": "noun", "text": "money", "zh": "钱", "features": { "ipa": "ˈmʌni" }, "noteZh": "不可数名词:a lot of money(不说 moneys);o 读 /ʌ/。" },
-        { "id": "en.cost", "kind": "verb"??? }
+        { "id": "en.per", "kind": "word", "pos": "prep", "text": "per", "zh": "每(一)", "features": {"ipa": "pɝː"}, "noteZh": "$189 per night 每晚 189 美元;口语更常说 a night:$189 a night。读 /pɝː/,要卷舌。" },
+        { "id": "en.plus", "kind": "word", "pos": "prep", "text": "plus", "zh": "加上;另加", "features": {"ipa": "plʌs"}, "noteZh": "plus tax 另加税;美国的标价一般不含税,听到 plus tax 就知道最后要多付一些。u 读 /ʌ/。" },
+        { "id": "en.include", "kind": "word", "pos": "verb", "text": "include", "zh": "包括;包含", "features": {"ipa": "ɪnˈkluːd"}, "noteZh": "Does that include breakfast? 含早餐吗?;问价格包不包括什么就用它。重音在后 in-CLUDE。" },
+        { "id": "en.total", "kind": "word", "pos": "noun", "text": "total", "zh": "总数;总共", "features": {"ipa": "ˈtoʊt̬əl"}, "noteZh": "The total is $424. 一共 424 美元;中间的 t 读闪音,像“TOE-dl”。" },
+        { "id": "en.each", "kind": "word", "pos": "det", "text": "each", "zh": "每个;各", "features": {"ipa": "iːtʃ"}, "noteZh": "$212 for each room 每间房 212 美元;each 后面跟单数名词。读长音 /iːtʃ/,别读成 itch。" },
+        { "id": "en.money", "kind": "word", "pos": "noun", "text": "money", "zh": "钱", "features": {"ipa": "ˈmʌni"}, "noteZh": "不可数名词:a lot of money(不说 moneys);o 读 /ʌ/。" },
+        { "id": "en.cost", "kind": "word", "pos": "verb", "text": "cost", "zh": "花费;价钱是", "features": {"ipa": "kɑːst"}, "noteZh": "How much does it cost? 要多少钱?;和 How much is it? 意思一样。过去式还是 cost,美式 o 读 /ɑː/。" },
+        { "id": "en.suite", "kind": "word", "pos": "noun", "text": "suite", "zh": "(酒店的)套房", "features": {"ipa": "swiːt"}, "noteZh": "读 /swiːt/,和 sweet(甜的)同音,不读成 suit;套房比普通房间大,一般带客厅。" }
       ],
-      "reviewItems": ["en.tax", "en.front_desk", "en.breakfast", "en.check_out"]
+      "reviewItems": ["en.tax", "en.breakfast", "en.check_out", "en.expensive"]
+    },
+    {
+      "id": "en.a1u12.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-12 At the hotel", "order": 112070,
+      "titleZh": "海边租自行车", "goalZh": "会用 We'd like to rent… for… 租自行车,问价格、押金和头盔,说清楚车不合适",
+      "canDoZh": "能在租车店租自行车:说要几辆、租多久,问价格、押金和头盔",
+      "scenarioZh": "第三天,磊、索菲亚和伊森在海边的租车店租自行车。磊说 We'd like to rent three bikes, please. — For two hours.;店员(clerk)说每辆每小时 15 美元,要用银行卡押一笔押金,头盔和车锁免费,五点前回来;伊森挑了一辆黑色的,磊的车太大,店员说可以调;店员说海边的自行车道很安全,三人骑去威尼斯海滩。(规划里的 seat、before 是别人登记的词,改成 This bike is too big. 和 Please come back at five.)",
+      "grammarFocusZh": "rent + 东西 + for + 时长(for two hours);价格 $15 an hour / a day(每小时、每天);复习 I'd like to… 和 too + 形容词(This bike is too big.)。发音:helmet /ˈhelmət/ 中间的 l 舌尖要顶住上齿龈,别吞掉。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.rent", "kind": "word", "pos": "verb", "text": "rent", "zh": "租;租用", "features": {"ipa": "rent"}, "noteZh": "rent + 东西 + for + 时长:rent three bikes for two hours;rent 也当名词“房租”。r 开头嘴唇先收圆。" },
+        { "id": "en.bike", "kind": "word", "pos": "noun", "text": "bike", "zh": "自行车", "features": {"ipa": "baɪk"}, "noteZh": "bicycle 的口语说法;i 读 /aɪ/,词尾 k 轻轻收住,不加元音。" },
+        { "id": "en.deposit", "kind": "word", "pos": "noun", "text": "deposit", "zh": "押金", "features": {"ipa": "dɪˈpɑːzɪt"}, "noteZh": "租东西常要押金,美国多用银行卡做押金;重音在中间 de-PO-sit,s 读 /z/。" },
+        { "id": "en.helmet", "kind": "word", "pos": "noun", "text": "helmet", "zh": "头盔", "features": {"ipa": "ˈhelmət"}, "noteZh": "重音在前 HEL-met;中间的 l 舌尖要顶住上齿龈,别吞掉读成“嘿 met”。" },
+        { "id": "en.lock", "kind": "word", "pos": "noun", "text": "lock", "zh": "锁", "features": {"ipa": "lɑːk"}, "noteZh": "bike lock 车锁;也能当动词“锁上”:Lock your bike.。美式 o 读 /ɑː/。" },
+        { "id": "en.path", "kind": "word", "pos": "noun", "text": "path", "zh": "小路;(专用)道", "features": {"ipa": "pæθ"}, "noteZh": "bike path 自行车道;th 是清音 /θ/,舌尖放在上下齿之间送气,别读成 s 或 f。" },
+        { "id": "en.safe", "kind": "word", "pos": "adj", "text": "safe", "zh": "安全的", "features": {"ipa": "seɪf"}, "noteZh": "It's very safe. 很安全;送别时说 Have a safe trip!(一路平安)。a 读 /eɪ/。" },
+        { "id": "en.ocean", "kind": "word", "pos": "noun", "text": "ocean", "zh": "海洋;大海", "features": {"ipa": "ˈoʊʃən"}, "noteZh": "美国人说“大海”多用 the ocean(英式常说 the sea);c 在这里读 /ʃ/,重音在前 O-cean。洛杉矶的海是太平洋 the Pacific Ocean。" }
+      ],
+      "reviewItems": ["en.id_like_to", "en.hour", "en.each", "en.fix", "en.too"]
+    },
+    {
+      "id": "en.a1u12.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-12 At the hotel", "order": 112080,
+      "titleZh": "单元复习:退房", "goalZh": "综合用 Could I / Could you…?、说问题和价格,独立办完退房、核对账单、寄存行李和叫车",
+      "canDoZh": "能独立办退房:还房卡、核对账单、寄存行李、请前台帮忙叫车",
+      "scenarioZh": "最后一天(周四)中午,磊去前台退房:还房卡、核对账单(多了 40 美元停车费,索菲亚说他们没开车,前台道歉后重新打了一张);前台问 How was everything?,磊说房间很好,只是第一晚没有热水;磊问 Could you keep our bags? We're coming back at four.;索菲亚请前台四点帮忙叫车去机场。对话至少 12 句。(规划里的 How was your stay? 和 until 都是第 9 单元登记的词,改成 How was everything? 和 We're coming back at four.)",
+      "grammarFocusZh": "复习 Could I / Could you…?、There's no… / doesn't work、价格读法和过去时(The rooms were great.)。发音:提意见时语气平和,用 but 转折前稍停顿。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 23,
+      "newItems": [
+        { "id": "en.bill", "kind": "word", "pos": "noun", "text": "bill", "zh": "账单", "features": {"ipa": "bɪl"}, "noteZh": "酒店、手机、水电的账单都叫 bill;美国餐厅结账习惯说 check(第 4 单元)。i 是短音,结尾 l 要收住。" },
+        { "id": "en.wrong", "kind": "word", "pos": "adj", "text": "wrong", "zh": "错的;不对的", "features": {"ipa": "rɑːŋ"}, "noteZh": "This is wrong. 这不对;w 不发音,读 /rɑːŋ/,结尾是后鼻音 /ŋ/。" }
+      ],
+      "reviewItems": ["en.check_out", "en.could", "en.keep", "en.sorry_about_that", "en.parking", "en.safe"]
+    },
+    {
+      "id": "en.a1u12.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-12 At the hotel", "order": 112085,
+      "titleZh": "寄给咖啡馆的明信片", "goalZh": "读懂一张旅行明信片,分清写现在的情况和讲做过的事,学会明信片的开头和结尾",
+      "canDoZh": "能读懂并写一张旅行明信片:在哪儿、天气怎么样、做了什么、什么时候回去",
+      "scenarioZh": "体裁:明信片。说话人 lei(第一人称)。磊从洛杉矶给咖啡馆的劳拉和马库斯寄了一张明信片:这里天天晴天、很暖和,从房间就能看到大海;他们租了自行车骑到威尼斯海滩,吃了正宗的墨西哥卷饼,伊森开车带他们上山看洛杉矶;他想念店里的咖啡,很快就回去。劳拉后来把它贴在了咖啡馆的墙上(13-8 提到)。至少 8 句。",
+      "grammarFocusZh": "一般现在时(It's warm here every day.)和一般过去时(We rented bikes.)对比使用;明信片格式 Hi… / See you soon! / Lei。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "en.postcard", "kind": "word", "pos": "noun", "text": "postcard", "zh": "明信片", "features": {"ipa": "ˈpoʊstkɑːrd"}, "noteZh": "post(邮寄)+ card,复合词重音在前 POST-card;明信片开头写 Hi…,结尾写 See you soon! 和名字。" },
+        { "id": "en.soon", "kind": "word", "pos": "adv", "text": "soon", "zh": "很快;不久", "features": {"ipa": "suːn"}, "noteZh": "See you soon! 回头见、很快就见;oo 是长音 /uː/。" }
+      ],
+      "reviewItems": ["en.rent", "en.bike", "en.real", "en.burrito", "en.ocean", "en.amazing"]
     }
   ]
 }
