@@ -28,9 +28,9 @@
     { "speaker": "lina", "text": "No… ¡Aquí están, detrás de la puerta!", "zh": "不在……啊,在这儿呢,在门后面!", "items": ["es.no", "es.aqui", "es.estar", "es.detras_de", "es.puerta"] }
   ],
   "questions": [
-    { "prompt": "玛尔塔在哪儿?", "options": ["在客厅", "在厨房", "在卫生间", "在李娜的房间"], "answer": 1, "explainZh": "玛尔塔说:Estoy aquí, en la cocina.(我在这儿呢,在厨房。)" },
-    { "prompt": "李娜的书在哪儿?", "options": ["在桌子上", "在电脑旁边", "在床底下", "在门后面"], "answer": 2, "explainZh": "Están en tu habitación, debajo de la cama.——debajo de 是“在……下面”;桌子上的是手机。" },
-    { "prompt": "钥匙最后在哪儿找到的?", "options": ["在门后面", "在桌子上", "在电脑旁边", "在床底下"], "answer": 0, "explainZh": "李娜最后说:¡Aquí están, detrás de la puerta!(在这儿呢,在门后面!)" }
+    { "prompt": "玛尔塔在哪儿?", "options": ["在厨房", "在客厅", "在卫生间", "在李娜的房间"], "answer": 0, "explainZh": "玛尔塔说:Estoy aquí, en la cocina.(我在这儿呢,在厨房。)" },
+    { "prompt": "李娜的书在哪儿?", "options": ["在桌子上", "在床底下", "在电脑旁边", "在门后面"], "answer": 1, "explainZh": "Están en tu habitación, debajo de la cama.——debajo de 是“在……下面”;桌子上的是手机。" },
+    { "prompt": "钥匙最后在哪儿找到的?", "options": ["在桌子上", "在电脑旁边", "在床底下", "在门后面"], "answer": 3, "explainZh": "李娜最后说:¡Aquí están, detrás de la puerta!(在这儿呢,在门后面!)" }
   ],
   "grammar": [
     { "id": "es.g.estar_location", "titleZh": "estar 说位置;hay 还是 estar?",
@@ -42,5 +42,5 @@
         { "text": "En la mesa no hay llaves: están detrás de la puerta.", "zh": "桌子上没有钥匙,钥匙在门后面。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

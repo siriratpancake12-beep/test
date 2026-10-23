@@ -18,7 +18,7 @@
   "reviewItems": ["es.habitacion", "es.cocina", "es.muy"],
   "lines": [
     { "speaker": "javier", "text": "¡Hola, Li Na! ¿Qué tal tu piso nuevo?", "zh": "你好,李娜!你的新公寓怎么样?", "items": ["es.hola", "es.que_tal", "es.tu_pos", "es.piso", "es.nuevo"] },
-    { "speaker": "lina", "text": "Bien. Es un piso viejo y no hay ascensor.", "zh": "挺好的。是套老公寓,没有电梯。", "items": ["es.bien", "es.ser", "es.un", "es.piso", "es.viejo", "es.y", "es.no", "es.hay", "es.ascensor"] },
+    { "speaker": "lina", "text": "Bien, pero es un piso viejo y no hay ascensor.", "zh": "挺好的,不过是套老公寓,没有电梯。", "items": ["es.bien", "es.pero", "es.ser", "es.un", "es.piso", "es.viejo", "es.y", "es.no", "es.hay", "es.ascensor"] },
     { "speaker": "javier", "text": "Sí, es viejo, pero es muy bonito.", "zh": "是挺旧的,不过很漂亮。", "items": ["es.si", "es.ser", "es.viejo", "es.pero", "es.muy", "es.bonito"] },
     { "speaker": "lina", "text": "Esta es la cocina.", "zh": "这是厨房。", "items": ["es.este", "es.ser", "es.cocina"] },
     { "speaker": "javier", "text": "¡Está muy limpia!", "zh": "好干净啊!", "items": ["es.estar", "es.muy", "es.limpio"] },
@@ -30,7 +30,7 @@
   ],
   "questions": [
     { "prompt": "哈维尔觉得公寓怎么样?", "options": ["又新又大", "旧,但是很漂亮", "很小,也不干净", "很新,还有电梯"], "answer": 1, "explainZh": "哈维尔说:Sí, es viejo, pero es muy bonito.(是挺旧的,不过很漂亮。)" },
-    { "prompt": "这栋楼有电梯吗?", "options": ["没有电梯", "有一部电梯", "有两部电梯"], "answer": 0, "explainZh": "李娜说:Es un piso viejo y no hay ascensor.——ascensor 是电梯。" },
+    { "prompt": "这栋楼有电梯吗?", "options": ["没有电梯", "有一部电梯", "有两部电梯"], "answer": 0, "explainZh": "李娜说:Bien, pero es un piso viejo y no hay ascensor.——ascensor 是电梯。" },
     { "prompt": "李娜的房间怎么样?", "options": ["很大,窗户很小", "很小,采光也不好", "很大,也很新", "很小,但采光很好"], "answer": 3, "explainZh": "李娜说 No, es pequeña, pero muy bonita.;哈维尔说 ¡Y tiene mucha luz!(采光很好),窗户也很大。" }
   ],
   "grammar": [
@@ -43,5 +43,5 @@
         { "text": "En el salón hay muchos libros.", "zh": "客厅里有很多书。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -22,14 +22,14 @@
     { "speaker": "rin", "text": "母の財布は古いです。新しい財布がいいです。", "reading": "ははのさいふはふるいです。あたらしいさいふがいいです。", "tokens": ["母", "の", "財布", "は", "古いです。", "新しい", "財布", "が", "いいです。"], "zh": "我妈妈的钱包旧了。买个新钱包吧。", "items": ["ja.haha", "ja.no_p", "ja.saifu", "ja.wa_p", "ja.furui", "ja.desu", "ja.atarashii", "ja.ga_p", "ja.ii"] },
     { "speaker": "saki", "text": "これはすてきな財布ですね!", "reading": "これはすてきなさいふですね!", "tokens": ["これ", "は", "すてきな", "財布", "ですね!"], "zh": "这个钱包好漂亮!", "items": ["ja.kore", "ja.wa_p", "ja.suteki", "ja.saifu", "ja.desu", "ja.ne_p"] },
     { "speaker": "rin", "text": "そうですね。……ちょっと高いですね。", "reading": "そうですね。……ちょっとたかいですね。", "tokens": ["そう", "ですね。……", "ちょっと", "高いですね。"], "zh": "是啊……就是有点贵。", "items": ["ja.sou", "ja.desu", "ja.ne_p", "ja.chotto", "ja.takai"] },
-    { "speaker": "tenin", "text": "この小さい財布はどうですか。便利ですよ。", "reading": "このちいさいさいふはどうですか。べんりですよ。", "tokens": ["この", "小さい", "財布", "は", "どうですか。", "便利ですよ。"], "zh": "这款小钱包怎么样?很方便哦。", "items": ["ja.kono", "ja.chiisai", "ja.saifu", "ja.wa_p", "ja.dou", "ja.desu", "ja.ka_p", "ja.benri", "ja.yo_p"] },
+    { "speaker": "tenin", "text": "この小さい財布はどうですか。便利ですよ。", "reading": "このちいさいさいふはどうですか。べんりですよ。", "tokens": ["この", "小さい", "財布", "は", "どう", "ですか。", "便利ですよ。"], "zh": "这款小钱包怎么样?很方便哦。", "items": ["ja.kono", "ja.chiisai", "ja.saifu", "ja.wa_p", "ja.dou", "ja.desu", "ja.ka_p", "ja.benri", "ja.yo_p"] },
     { "speaker": "rin", "text": "高くないですね。これにします!", "reading": "たかくないですね。これにします!", "tokens": ["高くないですね。", "これ", "に", "します!"], "zh": "(看了价签)不贵呢。就要这个!", "items": ["ja.takai", "ja.desu", "ja.ne_p", "ja.kore", "ja.ni_p", "ja.suru"] },
     { "speaker": "saki", "text": "リンさんは何がほしいですか。", "reading": "リンさんはなにがほしいですか。", "tokens": ["リンさん", "は", "何", "が", "ほしいですか。"], "zh": "那林雨你自己想要什么?", "items": ["ja.san", "ja.wa_p", "ja.nani", "ja.ga_p", "ja.hoshii", "ja.desu", "ja.ka_p"] },
     { "speaker": "rin", "text": "わたしは新しいかばんがほしいです!", "reading": "わたしはあたらしいかばんがほしいです!", "tokens": ["わたし", "は", "新しい", "かばん", "が", "ほしいです!"], "zh": "我想要一个新包!", "items": ["ja.watashi", "ja.wa_p", "ja.atarashii", "ja.kaban", "ja.ga_p", "ja.hoshii", "ja.desu"] }
   ],
   "questions": [
-    { "prompt": "林雨想给谁买礼物?", "options": ["弟弟", "妈妈", "咲", "智友"], "answer": 1, "explainZh": "林雨说:母におみやげを買いたいです。(我想给妈妈买礼物)" },
-    { "prompt": "林雨为什么想给妈妈买钱包?", "options": ["妈妈的钱包旧了", "妈妈的钱包太大了", "妈妈没有钱包"], "answer": 0, "explainZh": "林雨说:母の財布は古いです。(妈妈的钱包旧了)" },
+    { "prompt": "林雨想给谁买礼物?", "options": ["弟弟", "咲", "智友", "妈妈"], "answer": 3, "explainZh": "林雨说:母におみやげを買いたいです。(我想给妈妈买礼物)" },
+    { "prompt": "林雨为什么想给妈妈买钱包?", "options": ["妈妈没有钱包", "妈妈的钱包旧了", "妈妈的钱包太大了"], "answer": 1, "explainZh": "林雨说:母の財布は古いです。(妈妈的钱包旧了)" },
     { "prompt": "林雨最后买了哪个钱包?", "options": ["咲说很漂亮的那个", "她什么都没买", "店员推荐的小钱包"], "answer": 2, "explainZh": "咲说的那个 ちょっと高いですね;店员推荐 この小さい財布,林雨说 高くないですね。これにします!" },
     { "prompt": "林雨自己想要什么?", "options": ["新包", "新钱包", "新伞"], "answer": 0, "explainZh": "林雨说:わたしは新しいかばんがほしいです!(我想要一个新包)" }
   ],

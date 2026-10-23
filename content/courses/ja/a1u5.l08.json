@@ -1,0 +1,53 @@
+{
+  "id": "ja.a1u5.l08", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105080,
+  "titleZh": "单元复习:第一天打工", "goalZh": "把钟点、星期、日期和 から / まで 串起来,听懂工作安排",
+  "canDoZh": "能听懂打工的排班和工作时间,说出自己哪天上班、哪天休息",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "ja.kissaten", "kind": "word", "pos": "noun", "text": "喫茶店", "zh": "咖啡馆(老式)", "features": { "reading": "きっさてん" }, "noteZh": "喫茶店 = 咖啡馆,多指老式的、卖咖啡和简餐的小店;“喫”是吃、喝的意思。有促音:き・っ・さ・て・ん 5 拍。" },
+    { "id": "ja.yasumi", "kind": "word", "pos": "noun", "text": "休み", "zh": "休息;休息日;假期", "features": { "reading": "やすみ", "pitch": 3 }, "noteZh": "12時から1時までは休みです(12 点到 1 点休息);今日は休みです(今天休息 / 放假)。" },
+    { "id": "ja.maishuu", "kind": "word", "pos": "noun", "text": "毎週", "zh": "每周", "features": { "reading": "まいしゅう", "pitch": 0 }, "noteZh": "毎週 土曜日(每周六),后面不加 に。しゅう 是拗音 + 长音。" },
+    { "id": "ja.shigoto", "kind": "word", "pos": "noun", "text": "仕事", "zh": "工作", "features": { "reading": "しごと", "pitch": 0 }, "noteZh": "仕事は 何ですか(做什么工作?)。リンさんの仕事は土曜日です(你的班在星期六)。ご 是浊音。" }
+  ],
+  "reviewItems": ["ja.arubaito", "ja.tenchou", "ja.kara_p", "ja.made_p"],
+  "lines": [
+    { "speaker": "rin", "text": "おはようございます。今日からよろしくおねがいします。", "zh": "(星期六早上,第一天上班)早上好!从今天起请多关照。", "reading": "おはようございます。きょうからよろしくおねがいします。", "tokens": ["おはようございます。", "今日", "から", "よろしくおねがいします。"], "items": ["ja.ohayou_gozaimasu", "ja.kyou", "ja.kara_p", "ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "mori", "text": "おはようございます。今、8時50分ですね。いいですね。", "zh": "早上好。现在 8 点 50 分。很好。(提前 10 分钟到,店长很满意)", "reading": "おはようございます。いま、はちじごじゅっぷんですね。いいですね。", "tokens": ["おはようございます。", "今、", "8時50分", "ですね。", "いいですね。"], "items": ["ja.ohayou_gozaimasu", "ja.ima", "ja.hachi", "ja.ji", "ja.go", "ja.juu", "ja.fun", "ja.desu", "ja.ne_p", "ja.ii"] },
+    { "speaker": "mori", "text": "リンさんの仕事は毎週土曜日と日曜日です。", "zh": "你的班是每周六和周日。", "reading": "リンさんのしごとはまいしゅうどようびとにちようびです。", "tokens": ["リン", "さん", "の", "仕事", "は", "毎週", "土曜日", "と", "日曜日", "です。"], "items": ["ja.san", "ja.no_p", "ja.shigoto", "ja.wa_p", "ja.maishuu", "ja.doyoubi", "ja.to_p", "ja.nichiyoubi", "ja.desu"] },
+    { "speaker": "rin", "text": "はい。アルバイトは毎週土曜日と日曜日ですね。", "zh": "好的。每周六、周日来打工。", "reading": "はい。アルバイトはまいしゅうどようびとにちようびですね。", "tokens": ["はい。", "アルバイト", "は", "毎週", "土曜日", "と", "日曜日", "ですね。"], "items": ["ja.hai", "ja.arubaito", "ja.wa_p", "ja.maishuu", "ja.doyoubi", "ja.to_p", "ja.nichiyoubi", "ja.desu", "ja.ne_p"] },
+    { "speaker": "mori", "text": "9時から5時までです。12時から1時までは休みです。", "zh": "9 点到 5 点。12 点到 1 点是休息时间。", "reading": "くじからごじまでです。じゅうにじからいちじまではやすみです。", "tokens": ["9時", "から", "5時", "まで", "です。", "12時", "から", "1時", "まで", "は", "休み", "です。"], "items": ["ja.kyuu", "ja.ji", "ja.kara_p", "ja.go", "ja.made_p", "ja.desu", "ja.juu", "ja.ni", "ja.ichi", "ja.wa_p", "ja.yasumi"] },
+    { "speaker": "rin", "text": "12時から1時まで休みですね。わかりました。", "zh": "12 点到 1 点休息。明白了。", "reading": "じゅうにじからいちじまでやすみですね。わかりました。", "tokens": ["12時", "から", "1時", "まで", "休み", "ですね。", "わかりました。"], "items": ["ja.juu", "ja.ni", "ja.ji", "ja.kara_p", "ja.ichi", "ja.made_p", "ja.yasumi", "ja.desu", "ja.ne_p", "ja.wakaru"] },
+    { "speaker": "mori", "text": "喫茶店は朝8時から夜9時までです。", "zh": "店里是早上 8 点到晚上 9 点营业。", "reading": "きっさてんはあさはちじからよるくじまでです。", "tokens": ["喫茶店", "は", "朝", "8時", "から", "夜", "9時", "まで", "です。"], "items": ["ja.kissaten", "ja.wa_p", "ja.asa", "ja.hachi", "ja.ji", "ja.kara_p", "ja.yoru", "ja.kyuu", "ja.made_p", "ja.desu"] },
+    { "speaker": "mori", "text": "リンさん、12時ですよ。休みです。コーヒー、どうぞ。", "zh": "(中午)林雨,12 点了,休息吧。喝杯咖啡。", "reading": "リンさん、じゅうにじですよ。やすみです。コーヒー、どうぞ。", "tokens": ["リン", "さん、", "12時", "ですよ。", "休み", "です。", "コーヒー、", "どうぞ。"], "items": ["ja.san", "ja.juu", "ja.ni", "ja.ji", "ja.desu", "ja.yo_p", "ja.yasumi", "ja.koohii", "ja.douzo"] },
+    { "speaker": "rin", "text": "ありがとうございます。いただきます。", "zh": "谢谢店长。那我不客气了。", "tokens": ["ありがとうございます。", "いただきます。"], "items": ["ja.arigatou_gozaimasu", "ja.itadakimasu"] },
+    { "speaker": "mori", "text": "リンさん、誕生日はいつですか。", "zh": "(店长拿出员工登记表)林雨,你的生日是哪天?", "reading": "リンさん、たんじょうびはいつですか。", "tokens": ["リン", "さん、", "誕生日", "は", "いつ", "ですか。"], "items": ["ja.san", "ja.tanjoubi", "ja.wa_p", "ja.itsu", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "11月1日です。", "zh": "11 月 1 号。", "reading": "じゅういちがつついたちです。", "tokens": ["11月", "1日", "です。"], "items": ["ja.juu", "ja.ichi", "ja.gatsu", "ja.tsuitachi", "ja.desu"] },
+    { "speaker": "mori", "text": "5時です。今日はありがとうございました。", "zh": "(下午)5 点了。今天谢谢你了。", "reading": "ごじです。きょうはありがとうございました。", "tokens": ["5時", "です。", "今日", "は", "ありがとうございました。"], "items": ["ja.go", "ja.ji", "ja.desu", "ja.kyou", "ja.wa_p", "ja.arigatou_gozaimasu"] },
+    { "speaker": "rin", "text": "店長、ありがとうございました。明日も9時からですね。", "zh": "谢谢店长。明天也是 9 点开始吧?", "reading": "てんちょう、ありがとうございました。あしたもくじからですね。", "tokens": ["店長、", "ありがとうございました。", "明日", "も", "9時", "から", "ですね。"], "items": ["ja.tenchou", "ja.arigatou_gozaimasu", "ja.ashita", "ja.mo_p", "ja.kyuu", "ja.ji", "ja.kara_p", "ja.desu", "ja.ne_p"] },
+    { "speaker": "mori", "text": "はい。明日もよろしくおねがいします。", "zh": "对。明天也拜托了。", "reading": "はい。あしたもよろしくおねがいします。", "tokens": ["はい。", "明日", "も", "よろしくおねがいします。"], "items": ["ja.hai", "ja.ashita", "ja.mo_p", "ja.yoroshiku_onegaishimasu"] }
+  ],
+  "questions": [
+    { "prompt": "林雨每周哪几天来打工?", "options": ["星期一到星期五", "每周六和周日", "每周三"], "answer": 1, "explainZh": "店长说:リンさんの仕事は毎週土曜日と日曜日です。毎週 = 每周。" },
+    { "prompt": "林雨上班的时候,几点到几点休息?", "options": ["12 点到 1 点", "9 点到 5 点", "8 点到 9 点"], "answer": 0, "explainZh": "店长说:12時から1時までは休みです。9 点到 5 点是她上班的时间。" },
+    { "prompt": "这家咖啡馆几点到几点营业?", "options": ["早上 9 点到下午 5 点", "中午 12 点到下午 1 点", "早上 8 点到晚上 9 点"], "answer": 2, "explainZh": "店长说:喫茶店は朝8時から夜9時までです。" },
+    { "prompt": "第一天,林雨几点到的店里?", "options": ["9 点", "8 点 50 分", "8 点"], "answer": 1, "explainZh": "店长说:今、8時50分ですね。いいですね。——比 9 点上班早到了 10 分钟。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u5_fukushuu", "titleZh": "复习:钟点、星期、日期和 から / まで、に",
+      "bodyZh": "这一单元学的时间说法串起来:\n· 钟点:9時(くじ)、8時50分(はちじ ごじゅっぷん)、12時半。早上、晚上放在钟点前:朝8時、夜9時(也可以说 午前8時、午後9時)。\n· 每周几:毎週 + 星期,毎週土曜日(每周六)。毎週、毎日、今日、明日 后面不加 に。\n· 从……到……:9時から5時まで;只说开始也行:明日も9時からです。\n· 具体的时间点 + に + 动词:6時に起きます、10日にパーティーをしたいです。\n· 日期:11月1日(じゅういちがつ ついたち)、5月10日(ごがつ とおか)。",
+      "examples": [
+        { "text": "仕事は毎週土曜日と日曜日です。", "zh": "每周六、周日上班。(しごとは まいしゅう どようびと にちようびです)" },
+        { "text": "9時から5時までです。", "zh": "9 点到 5 点。(くじから ごじまでです)" },
+        { "text": "12時から1時までは休みです。", "zh": "12 点到 1 点休息。(じゅうにじから いちじまでは やすみです)" }
+      ] },
+    { "id": "ja.g.u5_baito", "titleZh": "打工第一天怎么说",
+      "bodyZh": "第一天上班先打招呼:今日からよろしくおねがいします(从今天起请多关照)。日本的店里、公司里,当天第一次见面常说 おはようございます,下午、晚上来上班也这么说。\n店长交代事情时,把要点复述一遍,再说 わかりました(明白了),对方就放心了:12時から1時まで休みですね。わかりました。わかりました 是 わかります 的过去形,先当固定说法记(过去形第 8 单元学)。\n休み 既是“休息时间”(12時から1時までは休みです),也是“休息日、放假”(今日は休みです)。下班时日本人常说 お疲れさまでした(辛苦了),以后会学。",
+      "examples": [
+        { "text": "今日からよろしくおねがいします。", "zh": "从今天起请多关照。(きょうから よろしくおねがいします)" },
+        { "text": "わかりました。", "zh": "明白了。" },
+        { "text": "明日も9時からですね。", "zh": "明天也是 9 点开始吧?(あしたも くじからですね)" }
+      ] }
+  ],
+  "review": "draft"
+}

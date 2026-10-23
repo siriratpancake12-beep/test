@@ -4,7 +4,7 @@
   "titleZh": "今日套餐", "goalZh": "会看懂和点今日套餐(menú del día),会结账", "canDoZh": "能在餐馆点一份三道菜的今日套餐,并要账单结账",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
   "newItems": [
-    { "id": "es.comer", "kind": "word", "pos": "verb", "text": "comer", "zh": "吃;吃午饭", "features": { "ipa": "koˈmeɾ" }, "noteZh": "-er 规则动词:como, comes, come…;在西班牙 comer 也专指'吃午饭'(两点左右)。" },
+    { "id": "es.comer", "kind": "word", "pos": "verb", "text": "comer", "zh": "吃;吃午饭", "features": { "ipa": "koˈmeɾ" }, "noteZh": "-er 规则动词:como, comes, come…;在西班牙 comer 也专指“吃午饭”(两点左右)。" },
     { "id": "es.beber", "kind": "word", "pos": "verb", "text": "beber", "zh": "喝", "features": { "ipa": "beˈbeɾ" }, "noteZh": "b 和 v 读音相同;点饮料也常说 tomar。" },
     { "id": "es.menu_del_dia", "kind": "phrase", "pos": "noun", "text": "el menú del día", "zh": "今日套餐", "features": { "gender": "m", "ipa": "el meˈnu del ˈdia" }, "noteZh": "工作日中午的套餐,一般有两道菜、甜点、面包和饮料,十几欧;menú 重音在 ú。" },
     { "id": "es.primero", "kind": "word", "pos": "adj", "text": "primero", "zh": "第一", "features": { "ipa": "pɾiˈmeɾo" }, "noteZh": "在阳性单数名词前变 primer:el primer plato;de primero = 第一道菜(多是沙拉、汤)。" },
@@ -20,15 +20,15 @@
     { "speaker": "diego", "text": "El menú del día son doce euros: primero, segundo y postre.", "zh": "今日套餐十二欧:有第一道菜、第二道菜和甜点。", "items": ["es.menu_del_dia", "es.ser", "es.doce", "es.euro", "es.primero", "es.segundo", "es.y", "es.postre"] },
     { "speaker": "camarera", "text": "Hola. ¿Qué queréis de primero?", "zh": "你们好。第一道菜想要什么?", "items": ["es.hola", "es.que", "es.querer", "es.de", "es.primero"] },
     { "speaker": "lina", "text": "Dos ensaladas, por favor. ¿Y de segundo, qué hay?", "zh": "两份沙拉,谢谢。第二道菜有什么?", "items": ["es.dos", "es.ensalada", "es.por_favor", "es.y", "es.de", "es.segundo", "es.que", "es.hay"] },
-    { "speaker": "camarera", "text": "Carne o pescado. ¿Y qué bebéis?", "zh": "肉或者鱼。你们喝什么?", "items": ["es.carne", "es.o", "es.pescado", "es.y", "es.que", "es.beber"] },
-    { "speaker": "lina", "text": "Para mí, pescado y agua.", "zh": "我要鱼和水。", "items": ["es.para_mi", "es.pescado", "es.y", "es.agua"] },
-    { "speaker": "diego", "text": "Yo quiero carne. Y agua también.", "zh": "我要肉。也要水。", "items": ["es.yo", "es.querer", "es.carne", "es.y", "es.agua", "es.tambien"] },
-    { "speaker": "lina", "text": "¡Aquí comemos muy bien, Diego!", "zh": "这家店吃得真好啊,迭戈!", "items": ["es.aqui", "es.comer", "es.muy", "es.bien"] },
-    { "speaker": "diego", "text": "¡Sí! La cuenta, por favor.", "zh": "是啊!麻烦买单。", "items": ["es.si", "es.cuenta", "es.por_favor"] }
+    { "speaker": "camarera", "text": "Carne o pescado. ¿Y de beber?", "zh": "肉或者鱼。喝点什么?", "items": ["es.carne", "es.o", "es.pescado", "es.y", "es.de", "es.beber"] },
+    { "speaker": "diego", "text": "Para mí, carne y agua.", "zh": "我要肉和水。", "items": ["es.para_mi", "es.carne", "es.y", "es.agua"] },
+    { "speaker": "lina", "text": "Yo quiero pescado. Y agua también.", "zh": "我要鱼,也要水。", "items": ["es.yo", "es.querer", "es.pescado", "es.y", "es.agua", "es.tambien"] },
+    { "speaker": "diego", "text": "¡Aquí comemos muy bien, Li Na!", "zh": "这家店吃得真好啊,李娜!", "items": ["es.aqui", "es.comer", "es.muy", "es.bien"] },
+    { "speaker": "lina", "text": "¡Sí! La cuenta, por favor.", "zh": "是啊!麻烦买单。", "items": ["es.si", "es.cuenta", "es.por_favor"] }
   ],
   "questions": [
-    { "prompt": "今日套餐多少钱?", "options": ["十欧", "二十欧", "十二欧", "两欧"], "answer": 2, "explainZh": "迭戈说:El menú del día son doce euros.——doce 是十二。" },
-    { "prompt": "李娜第二道菜点了什么?", "options": ["鱼", "肉", "沙拉", "甜点"], "answer": 0, "explainZh": "李娜说 Para mí, pescado y agua.;沙拉是两个人的第一道菜,点肉的是迭戈。" }
+    { "prompt": "今日套餐多少钱?", "options": ["十欧", "十二欧", "二十欧", "两欧"], "answer": 1, "explainZh": "迭戈说:El menú del día son doce euros.——doce 是十二。" },
+    { "prompt": "李娜第二道菜点了什么?", "options": ["鱼", "肉", "沙拉", "甜点"], "answer": 0, "explainZh": "李娜说 Yo quiero pescado. Y agua también.;沙拉是两个人的第一道菜,点肉的是迭戈(Para mí, carne y agua.)。" }
   ],
   "grammar": [
     { "id": "es.g.er_verbs_menu", "titleZh": "-er 动词 comer / beber;按道点今日套餐",
@@ -38,5 +38,5 @@
         { "text": "Comemos el menú del día y bebemos agua.", "zh": "我们吃今日套餐,喝水。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

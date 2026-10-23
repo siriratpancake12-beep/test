@@ -1,7 +1,7 @@
 {
   "id": "de.a1u8.l08", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
   "unit": "A1-8 健康与周末", "order": 108080,
-  "titleZh": "单元复习:我在德国的第一年", "goalZh": "读懂一篇用现在完成时写的回顾短文,写自己学德语的经历", "canDoZh": "能读懂、也能写一段 8–10 句的短文,讲自己过去一段时间做了什么、现在怎么样",
+  "titleZh": "单元复习:我在德国的头半年", "goalZh": "读懂一篇回顾过去半年的短文(现在完成时),会写自己的经历和接下来的计划", "canDoZh": "能读懂、也能写一段 8–10 句的短文,讲自己过去半年做了什么、现在怎么样、接下来打算做什么",
   "skills": ["read", "write"], "estimatedMinutes": 20,
   "newItems": [
     { "id": "de.schon", "kind": "word", "pos": "adv", "text": "schon", "zh": "已经", "features": { "ipa": "ʃoːn" }, "noteZh": "Ich spreche schon gut Deutsch.(我的德语已经说得不错了。)放在变位动词后面;否定:noch nicht(还没有)。" },
@@ -11,40 +11,40 @@
   ],
   "reviewItems": ["de.pruefung", "de.september", "de.jetzt", "de.fliegen"],
   "lines": [
-    { "speaker": "narrator", "text": "Ich bin jetzt schon zehn Monate in Berlin.", "zh": "我来柏林已经十个月了。", "items": ["de.ich", "de.sein", "de.jetzt", "de.schon", "de.zehn", "de.monat", "de.in"] },
-    { "speaker": "narrator", "text": "Im September bin ich nach Berlin geflogen.", "zh": "九月我坐飞机来到了柏林。", "items": ["de.in", "de.september", "de.sein", "de.ich", "de.nach", "de.fliegen"] },
-    { "speaker": "narrator", "text": "Ich habe nicht viel verstanden, aber Lena und Sofia haben mir viel geholfen.", "zh": "那时我听不懂多少,可是莉娜和索菲娅帮了我很多。", "items": ["de.ich", "de.haben", "de.nicht", "de.viel", "de.verstehen", "de.aber", "de.und", "de.helfen"] },
-    { "speaker": "narrator", "text": "Im Oktober habe ich ein Zimmer in einer WG gefunden.", "zh": "十月我在一个合租公寓里找到了房间。", "items": ["de.in", "de.oktober", "de.haben", "de.ich", "de.ein", "de.zimmer", "de.wg", "de.finden"] },
-    { "speaker": "narrator", "text": "Im Dezember bin ich mit Jonas nach Hamburg gefahren.", "zh": "十二月我和约纳斯去了汉堡。", "items": ["de.in", "de.dezember", "de.sein", "de.ich", "de.mit", "de.nach", "de.fahren"] },
-    { "speaker": "narrator", "text": "Im Winter war es sehr kalt, und ich habe eine Jacke gekauft.", "zh": "冬天很冷,我买了一件外套。", "items": ["de.in", "de.winter", "de.sein", "de.es", "de.sehr", "de.kalt", "de.und", "de.ich", "de.haben", "de.ein", "de.jacke", "de.kaufen"] },
-    { "speaker": "narrator", "text": "Im Frühling war ich krank und hatte Fieber.", "zh": "春天我病了一场,还发了烧。", "items": ["de.in", "de.fruehling", "de.sein", "de.ich", "de.krank", "de.und", "de.haben", "de.fieber"] },
-    { "speaker": "narrator", "text": "Im Mai habe ich die A1-Prüfung gemacht.", "zh": "五月我参加了 A1 考试。", "items": ["de.in", "de.mai", "de.haben", "de.ich", "de.pruefung", "de.machen"] },
-    { "speaker": "narrator", "text": "Jetzt spreche ich schon gut Deutsch!", "zh": "现在我的德语已经说得不错了!", "items": ["de.jetzt", "de.sprechen", "de.ich", "de.schon", "de.gut", "de.deutsch"] },
-    { "speaker": "narrator", "text": "Im August habe ich Ferien und fliege nach Chengdu.", "zh": "八月我放假,要坐飞机回成都。", "items": ["de.in", "de.august", "de.haben", "de.ich", "de.ferien", "de.und", "de.fliegen", "de.nach"] },
-    { "speaker": "narrator", "text": "Ich besuche meine Familie und koche mit meinem Vater.", "zh": "我要回去看家人,和爸爸一起做饭。", "items": ["de.ich", "de.besuchen", "de.mein", "de.familie", "de.und", "de.kochen", "de.mit", "de.vater"] },
-    { "speaker": "narrator", "text": "Im Oktober komme ich zurück. Dann lerne ich wieder Deutsch!", "zh": "十月我回来,然后接着学德语!", "items": ["de.in", "de.oktober", "de.ich_komme_aus", "de.ich", "de.zurueck", "de.dann", "de.lernen", "de.wieder", "de.deutsch"] }
+    { "speaker": "wei", "text": "Ich bin jetzt schon sieben Monate in Berlin.", "zh": "我来柏林已经七个月了。", "items": ["de.ich", "de.sein", "de.jetzt", "de.schon", "de.sieben", "de.monat", "de.in"] },
+    { "speaker": "wei", "text": "Im September bin ich nach Berlin geflogen.", "zh": "九月我坐飞机来到了柏林。", "items": ["de.in", "de.september", "de.sein", "de.ich", "de.nach", "de.fliegen"] },
+    { "speaker": "wei", "text": "Ich habe nicht viel verstanden, aber Lena und Sofia haben mir viel geholfen.", "zh": "那时我听不懂多少,可是莉娜和索菲娅帮了我很多。", "items": ["de.ich", "de.haben", "de.nicht", "de.viel", "de.verstehen", "de.aber", "de.und", "de.helfen"] },
+    { "speaker": "wei", "text": "Im Oktober habe ich ein Zimmer in einer WG gefunden.", "zh": "十月我在一个合租公寓里找到了房间。", "items": ["de.in", "de.oktober", "de.haben", "de.ich", "de.ein", "de.zimmer", "de.wg", "de.finden"] },
+    { "speaker": "wei", "text": "Im Dezember bin ich mit Jonas nach Hamburg gefahren.", "zh": "十二月我和约纳斯去了汉堡。", "items": ["de.in", "de.dezember", "de.sein", "de.ich", "de.mit", "de.nach", "de.fahren"] },
+    { "speaker": "wei", "text": "Im Winter war es sehr kalt, und ich habe eine Jacke gekauft.", "zh": "冬天很冷,我买了一件外套。", "items": ["de.in", "de.winter", "de.sein", "de.es", "de.sehr", "de.kalt", "de.und", "de.ich", "de.haben", "de.ein", "de.jacke", "de.kaufen"] },
+    { "speaker": "wei", "text": "Im März war ich krank, aber jetzt geht es mir wieder gut.", "zh": "三月我病了一场,不过现在又好了。", "items": ["de.in", "de.maerz", "de.sein", "de.ich", "de.krank", "de.aber", "de.jetzt", "de.gehen", "de.es", "de.wieder", "de.gut"] },
+    { "speaker": "wei", "text": "Ich spreche schon ein bisschen Deutsch!", "zh": "我已经会说一点儿德语了!", "items": ["de.ich", "de.sprechen", "de.schon", "de.ein_bisschen", "de.deutsch"] },
+    { "speaker": "wei", "text": "Im Mai mache ich die A1-Prüfung.", "zh": "五月我要参加 A1 考试。", "items": ["de.in", "de.mai", "de.machen", "de.ich", "de.pruefung"] },
+    { "speaker": "wei", "text": "In den Ferien lerne ich viel für die Prüfung.", "zh": "假期里我在好好准备考试。", "items": ["de.in", "de.ferien", "de.lernen", "de.ich", "de.viel", "de.fuer", "de.pruefung"] },
+    { "speaker": "wei", "text": "Im August fliege ich nach Chengdu und besuche meine Familie.", "zh": "八月我要坐飞机回成都看家人。", "items": ["de.in", "de.august", "de.fliegen", "de.ich", "de.nach", "de.und", "de.besuchen", "de.mein", "de.familie"] },
+    { "speaker": "wei", "text": "Im Oktober komme ich nach Berlin zurück.", "zh": "十月我再回到柏林。", "items": ["de.in", "de.oktober", "de.ich_komme_aus", "de.ich", "de.nach", "de.zurueck"] }
   ],
   "questions": [
     { "prompt": "王伟是几月来柏林的?", "options": ["八月", "九月", "十月"], "answer": 1, "explainZh": "Im September bin ich nach Berlin geflogen.(九月我坐飞机来到了柏林。)十月他找到了合租公寓的房间。" },
-    { "prompt": "王伟什么时候参加了 A1 考试?", "options": ["五月", "三月", "七月"], "answer": 0, "explainZh": "Im Mai habe ich die A1-Prüfung gemacht.(五月我参加了 A1 考试。)" },
-    { "prompt": "八月王伟要做什么?", "options": ["和约纳斯去汉堡", "在柏林上德语课", "回成都看家人"], "answer": 2, "explainZh": "Im August habe ich Ferien und fliege nach Chengdu.(八月我放假,要坐飞机回成都。)" },
-    { "prompt": "王伟什么时候回柏林?", "options": ["九月", "八月", "十一月", "十月"], "answer": 3, "explainZh": "Im Oktober komme ich zurück.(十月我回来。)" }
+    { "prompt": "王伟什么时候参加 A1 考试?", "options": ["五月", "三月", "八月"], "answer": 0, "explainZh": "Im Mai mache ich die A1-Prüfung.(五月我要参加 A1 考试。)考试还没考,是他的计划;三月他病了,八月他回成都。" },
+    { "prompt": "八月王伟要做什么?", "options": ["和约纳斯去汉堡", "在柏林上德语课", "回成都看家人"], "answer": 2, "explainZh": "Im August fliege ich nach Chengdu und besuche meine Familie.(八月我要坐飞机回成都看家人。)" },
+    { "prompt": "王伟什么时候回柏林?", "options": ["九月", "八月", "十一月", "十月"], "answer": 3, "explainZh": "Im Oktober komme ich nach Berlin zurück.(十月我再回到柏林。)" }
   ],
   "grammar": [
     { "id": "de.g.perfekt_review", "titleZh": "现在完成时复习:haben 还是 sein?",
-      "bodyZh": "写经历、写博客,说过去的事多用现在完成时:haben / sein 放第二位,过去分词放句末。表示从一个地方到另一个地方(fahren、fliegen、gehen、kommen)用 sein:Ich bin nach Berlin geflogen.;其他大多数动词用 haben:Ich habe eine Jacke gekauft.。本课的过去分词:geflogen(fliegen)、gefahren(fahren)、gekauft(kaufen)、gemacht(machen)、gefunden(finden)、geholfen(helfen)、verstanden(verstehen,ver- 开头不加 ge-)。sein 和 haben 说过去一般用 war / hatte:Ich war krank. Ich hatte Fieber.。",
+      "bodyZh": "写经历、写博客,说过去的事多用现在完成时:haben / sein 放第二位,过去分词放句末。表示从一个地方到另一个地方(fahren、fliegen、gehen、kommen)用 sein:Ich bin nach Berlin geflogen.;其他大多数动词用 haben:Ich habe eine Jacke gekauft.。本课的过去分词:geflogen(fliegen)、gefahren(fahren)、gekauft(kaufen)、gefunden(finden)、geholfen(helfen)、verstanden(verstehen,ver- 开头不加 ge-)。sein 和 haben 说过去一般用 war / hatte:Ich war krank. Ich hatte Fieber.。",
       "examples": [
         { "text": "Im September bin ich nach Berlin geflogen.", "zh": "九月我坐飞机来到了柏林。" },
         { "text": "Ich habe eine Jacke gekauft.", "zh": "我买了一件外套。" },
-        { "text": "Im Frühling war ich krank.", "zh": "春天我病了。" }
+        { "text": "Im März war ich krank.", "zh": "三月我病了。" }
       ] },
     { "id": "de.g.zeit_schon_wieder", "titleZh": "讲经历:时间放句首;schon、wieder、zurück 的位置",
-      "bodyZh": "按时间顺序讲经历时,时间常放句首(im September、im Winter、dann、jetzt),动词仍然在第二位,主语挪到动词后面:Im Oktober komme ich zurück.(不说 Im Oktober ich komme zurück)。schon(已经)、wieder(又、再)一般紧跟在变位动词后面:Ich bin schon zehn Monate in Berlin. / Dann lerne ich wieder Deutsch.。zurück 像可分动词的前缀一样放句末:Ich komme im Oktober zurück.(zurückkommen = 回来)。",
+      "bodyZh": "按时间顺序讲经历时,时间常放句首(im September、im Winter、dann、jetzt),动词仍然在第二位,主语挪到动词后面:Im Oktober komme ich zurück.(不说 Im Oktober ich komme zurück)。schon(已经)、wieder(又、再)放在变位动词后面;动词后面如果有主语、代词,就跟在它们后面:Ich bin schon sieben Monate in Berlin. / Jetzt geht es mir wieder gut.。zurück 像可分动词的前缀一样放句末:Ich komme im Oktober zurück.(zurückkommen = 回来)。说以后的计划,德语口语一般用现在时加时间就行:Im Mai mache ich die A1-Prüfung.(五月我要考 A1。)",
       "examples": [
-        { "text": "Ich bin schon zehn Monate in Berlin.", "zh": "我在柏林已经十个月了。" },
+        { "text": "Ich bin schon sieben Monate in Berlin.", "zh": "我在柏林已经七个月了。" },
         { "text": "Ich komme im Oktober zurück.", "zh": "我十月回来。" },
         { "text": "Dann bin ich wieder in Berlin.", "zh": "然后我就又回到柏林了。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

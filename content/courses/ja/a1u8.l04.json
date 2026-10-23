@@ -1,0 +1,61 @@
+{
+  "id": "ja.a1u8.l04", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 我的一天与周末", "order": 108040,
+  "titleZh": "你常做什么?说说爱好", "goalZh": "会说自己的爱好,用频率副词说常做、有时做、不太做什么", "canDoZh": "能说自己的爱好,能用“经常、有时、不太、完全不”说做某事的频率",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "ja.yoku", "kind": "word", "pos": "adv", "text": "よく", "zh": "经常", "features": { "pitch": 1 }, "noteZh": "よく 聞きます(常听)、よく 見ます(常看)。" },
+    { "id": "ja.tokidoki", "kind": "word", "pos": "adv", "text": "ときどき", "zh": "有时", "alt": ["時々"], "features": { "pitch": 0 }, "noteZh": "汉字写作 時々;后面接肯定:ときどき 読みます。" },
+    { "id": "ja.amari", "kind": "word", "pos": "adv", "text": "あまり", "zh": "不太……(后接否定)", "features": { "pitch": 0 }, "noteZh": "后面接否定:あまり 見ません(不太看)。中文的“不”在副词里,日语的否定在动词上。" },
+    { "id": "ja.zenzen", "kind": "word", "pos": "adv", "text": "ぜんぜん", "zh": "完全(不)……(后接否定)", "alt": ["全然"], "features": { "pitch": 0 }, "noteZh": "后面接否定:ぜんぜん わかりません(完全不懂)。汉字写作 全然。" },
+    { "id": "ja.hon", "kind": "word", "pos": "noun", "text": "本", "zh": "书", "features": { "reading": "ほん", "pitch": 1 }, "noteZh": "本を 読みます(看书)。日本 的“本”也读 ほん。" },
+    { "id": "ja.yomu", "kind": "word", "pos": "verb", "text": "読みます", "zh": "读;看(书)", "features": { "reading": "よみます", "pitch": 3 }, "noteZh": "看书、看报、看漫画用 読みます;看电影、电视、动画用 見ます。辞书形 読む(一类动词)。" },
+    { "id": "ja.ongaku", "kind": "word", "pos": "noun", "text": "音楽", "zh": "音乐", "features": { "reading": "おんがく", "pitch": 1 }, "noteZh": "音楽を 聞きます(听音乐)。“楽”在这里读 がく,楽しい 里读 たの。" },
+    { "id": "ja.kiku", "kind": "word", "pos": "verb", "text": "聞きます", "zh": "听;问", "features": { "reading": "ききます", "pitch": 3 }, "noteZh": "音楽を 聞きます(听);先生に 聞きます(问老师)。辞书形 聞く(一类动词)。" },
+    { "id": "ja.shumi", "kind": "word", "pos": "noun", "text": "趣味", "zh": "爱好", "features": { "reading": "しゅみ", "pitch": 1 }, "noteZh": "趣味 = 爱好(hobby),比中文“趣味”的意思窄。趣味は 何ですか(爱好是什么?)。" },
+    { "id": "ja.anime", "kind": "word", "pos": "noun", "text": "アニメ", "zh": "动画", "features": {}, "noteZh": "日本动画;漫画是 マンガ / 漫画。" }
+  ],
+  "reviewItems": ["ja.itsumo", "ja.miru", "ja.suki", "ja.benkyousuru"],
+  "lines": [
+    { "speaker": "kenta", "text": "リンさんの趣味は何ですか。", "reading": "リンさんのしゅみはなんですか。", "tokens": ["リンさん", "の", "趣味", "は", "何", "ですか。"], "zh": "(动画研究会的活动上)林雨,你的爱好是什么?", "items": ["ja.san", "ja.no_p", "ja.shumi", "ja.wa_p", "ja.nani", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "写真です。けんたさんは?", "reading": "しゃしんです。けんたさんは?", "tokens": ["写真", "です。", "けんたさん", "は?"], "zh": "拍照。健太你呢?", "items": ["ja.shashin", "ja.desu", "ja.san", "ja.wa_p"] },
+    { "speaker": "kenta", "text": "アニメです!毎日アニメを見ます。", "reading": "アニメです!まいにちアニメをみます。", "tokens": ["アニメ", "です!", "毎日", "アニメ", "を", "見ます。"], "zh": "动画!我每天都看动画。", "items": ["ja.anime", "ja.desu", "ja.mainichi", "ja.wo_p", "ja.miru"] },
+    { "speaker": "rin", "text": "毎日ですか!わたしはあまりアニメを見ません。", "reading": "まいにちですか!わたしはあまりアニメをみません。", "tokens": ["毎日", "ですか!", "わたし", "は", "あまり", "アニメ", "を", "見ません。"], "zh": "每天?!我不太看动画。", "items": ["ja.mainichi", "ja.desu", "ja.ka_p", "ja.watashi", "ja.wa_p", "ja.amari", "ja.anime", "ja.wo_p", "ja.miru"] },
+    { "speaker": "kenta", "text": "そうですか。音楽は好きですか。", "reading": "そうですか。おんがくはすきですか。", "tokens": ["そう", "ですか。", "音楽", "は", "好きですか。"], "zh": "这样啊。那你喜欢音乐吗?", "items": ["ja.sou", "ja.desu", "ja.ka_p", "ja.ongaku", "ja.wa_p", "ja.suki"] },
+    { "speaker": "rin", "text": "はい、よく聞きます。けんたさんは本を読みますか。", "reading": "はい、よくききます。けんたさんはほんをよみますか。", "tokens": ["はい、", "よく", "聞きます。", "けんたさん", "は", "本", "を", "読みますか。"], "zh": "喜欢,我常听。健太你看书吗?", "items": ["ja.hai", "ja.yoku", "ja.kiku", "ja.san", "ja.wa_p", "ja.hon", "ja.wo_p", "ja.yomu", "ja.ka_p"] },
+    { "speaker": "kenta", "text": "ときどき読みます。勉強はぜんぜんしません!", "reading": "ときどきよみます。べんきょうはぜんぜんしません!", "tokens": ["ときどき", "読みます。", "勉強", "は", "ぜんぜん", "しません!"], "zh": "有时候看。学习嘛,完全不学!", "items": ["ja.tokidoki", "ja.yomu", "ja.benkyousuru", "ja.wa_p", "ja.zenzen", "ja.suru"] },
+    { "speaker": "rin", "text": "わたしはいつも勉強しますよ。", "reading": "わたしはいつもべんきょうしますよ。", "tokens": ["わたし", "は", "いつも", "勉強しますよ。"], "zh": "我可是一直都在学哦。", "items": ["ja.watashi", "ja.wa_p", "ja.itsumo", "ja.benkyousuru", "ja.yo_p"] },
+    { "speaker": "kenta", "text": "リンさんは日本語が上手ですね!", "reading": "リンさんはにほんごがじょうずですね!", "tokens": ["リンさん", "は", "日本語", "が", "上手ですね!"], "zh": "林雨你日语真好!", "items": ["ja.san", "ja.wa_p", "ja.nihongo", "ja.ga_p", "ja.jouzu", "ja.desu", "ja.ne_p"] },
+    { "speaker": "rin", "text": "いいえ、ぜんぜん上手じゃないです。", "reading": "いいえ、ぜんぜんじょうずじゃないです。", "tokens": ["いいえ、", "ぜんぜん", "上手じゃないです。"], "zh": "哪里,一点也不好。", "items": ["ja.iie", "ja.zenzen", "ja.jouzu", "ja.dewa_arimasen"] }
+  ],
+  "questions": [
+    { "prompt": "林雨的爱好是什么?", "options": ["动画", "看书", "拍照"], "answer": 2, "explainZh": "健太问 リンさんの趣味は何ですか,林雨说:写真です。(拍照)" },
+    { "prompt": "健太多久看一次动画?", "options": ["每天", "有时", "不太看"], "answer": 0, "explainZh": "健太说:毎日アニメを見ます。(每天都看)" },
+    { "prompt": "健太看书吗?", "options": ["经常看", "有时看", "完全不看"], "answer": 1, "explainZh": "健太说:ときどき読みます。(有时候看);“完全不”说的是学习:勉強はぜんぜんしません。" }
+  ],
+  "grammar": [
+    {
+      "id": "ja.g.hindo",
+      "titleZh": "频率副词:いつも、よく、ときどき、あまり、ぜんぜん",
+      "bodyZh": "从“总是”到“完全不”:いつも(总是)> よく(经常)> ときどき(有时)> あまり〜ません(不太)> ぜんぜん〜ません(完全不)。前三个接肯定,后两个一定接否定:あまり 見ません、ぜんぜん しません。中文的“不”在副词里(不太看、完全不学),日语的否定在动词词尾上,所以别说成 ×あまり 見ます。副词一般放在动词前面,也可以放在句首:わたしは よく 音楽を 聞きます / よく 音楽を 聞きます。口语里也能听到 ぜんぜん 大丈夫(完全没问题)这样接肯定的用法,初学先记“接否定”。",
+      "examples": [
+        { "text": "よく音楽を聞きます。", "zh": "我常听音乐。(よくおんがくをききます)" },
+        { "text": "ときどき本を読みます。", "zh": "我有时看书。(ときどきほんをよみます)" },
+        { "text": "あまりテレビを見ません。", "zh": "我不太看电视。(あまりテレビをみません)" },
+        { "text": "ぜんぜん勉強しません。", "zh": "完全不学习。(ぜんぜんべんきょうしません)" }
+      ]
+    },
+    {
+      "id": "ja.g.shumi_yomu",
+      "titleZh": "趣味は N です;読みます 和 見ます",
+      "bodyZh": "问爱好:趣味は 何ですか;回答:趣味は 写真です / 音楽です。趣味 是“爱好”(hobby),比中文“趣味”的意思窄,不说“很有趣味”这种意思。中文一个“看”字,日语分两个:看书、看报、看漫画用 読みます(读),看电影、电视、动画用 見ます。聞きます 有两个意思:“听”(音楽を 聞きます)和“问”(先生に 聞きます,问的对象用 に)。",
+      "examples": [
+        { "text": "趣味は何ですか。", "zh": "你的爱好是什么?(しゅみはなんですか)" },
+        { "text": "本を読みます。", "zh": "看书。(ほんをよみます)" },
+        { "text": "アニメを見ます。", "zh": "看动画。(アニメをみます)" },
+        { "text": "先生に聞きます。", "zh": "问老师。(せんせいにききます)" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

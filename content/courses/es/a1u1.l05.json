@@ -18,13 +18,13 @@
   "reviewItems": ["es.cuantos_anos_tienes", "es.y", "es.tu"],
   "lines": [
     { "speaker": "diego", "text": "Li Na, ¿cuántos años tienes? ¿Dieciocho?", "zh": "李娜,你多大了?十八?", "items": ["es.cuantos_anos_tienes", "es.dieciocho"] },
-    { "speaker": "lina", "text": "No, no. Tengo veinte años. ¿Y tú?", "zh": "不对,不对。我二十岁。你呢?", "items": ["es.no", "es.cuantos_anos_tienes", "es.veinte", "es.y", "es.tu"] },
-    { "speaker": "diego", "text": "Veinte. ¿Y Javier? ¿Cuántos años tiene?", "zh": "二十。那哈维尔呢?他多大?", "items": ["es.veinte", "es.y", "es.cuantos_anos_tienes"] },
+    { "speaker": "lina", "text": "No, no. Tengo veinte años. ¿Y tú, cuántos años tienes?", "zh": "不对,不对。我二十岁。你呢,你多大了?", "items": ["es.no", "es.cuantos_anos_tienes", "es.veinte", "es.y", "es.tu"] },
+    { "speaker": "diego", "text": "Veinte. ¿Y Javier? ¿Cuántos años tiene?", "zh": "我二十。那哈维尔呢?他多大?", "items": ["es.veinte", "es.y", "es.cuantos_anos_tienes"] },
     { "speaker": "javier", "text": "¿Yo? ¿Cuántos años tengo?", "zh": "我?猜猜我多大?", "items": ["es.yo", "es.cuantos_anos_tienes"] },
     { "speaker": "diego", "text": "¿Once? ¿Doce? ¿Trece?", "zh": "十一?十二?十三?", "items": ["es.once", "es.doce", "es.trece"] },
     { "speaker": "lina", "text": "¿Catorce? ¿Quince? ¿Dieciséis? ¿Diecisiete?", "zh": "十四?十五?十六?十七?", "items": ["es.catorce", "es.quince", "es.dieciseis", "es.diecisiete"] },
     { "speaker": "javier", "text": "¡No, no! Tengo diecinueve años.", "zh": "不对不对!我十九岁。", "items": ["es.no", "es.cuantos_anos_tienes", "es.diecinueve"] },
-    { "speaker": "diego", "text": "¿Diecinueve? ¡Y Li Na y yo, veinte!", "zh": "十九?我和李娜都二十!", "items": ["es.diecinueve", "es.y", "es.yo", "es.veinte"] }
+    { "speaker": "diego", "text": "¿Diecinueve? ¡Li Na y yo, veinte!", "zh": "十九?我和李娜都二十!", "items": ["es.diecinueve", "es.y", "es.yo", "es.veinte"] }
   ],
   "questions": [
     { "prompt": "Diego 先猜李娜几岁?", "options": ["十八岁", "二十岁", "十五岁"], "answer": 0, "explainZh": "Diego 问:¿Dieciocho?(十八?)李娜说:No, no. Tengo veinte años.(我二十岁。)" },
@@ -35,5 +35,5 @@
       "bodyZh": "11–15 各有各的词,要单独记:once, doce, trece, catorce, quince(里面的 c 都读 [θ])。\n16–19 是 dieci(= diez y)+ 个位,写成一个词:dieciséis(é 有重音符号)、diecisiete、dieciocho、diecinueve。20 是 veinte。\n说年龄用 tener(有):tengo / tienes / tiene + 数字 + años,字面意思是“有……年”。中文说“我二十岁”不用动词,英语说 I am twenty 用 be,中国学生很容易说成 Soy veinte——这是错的。口语里 años 可以省掉:Tengo veinte.\n问对方:¿Cuántos años tienes?;问别人:¿Cuántos años tiene Javier?(tener 的全部变位第 2 单元学。)\naños 的 ñ 一定要写:写成 anos 就成了另一个很不雅的词。",
       "examples": [{ "text": "¿Cuántos años tiene Javier?", "zh": "哈维尔多大了?" }, { "text": "Tengo veinte años.", "zh": "我二十岁。(不说 Soy veinte)" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

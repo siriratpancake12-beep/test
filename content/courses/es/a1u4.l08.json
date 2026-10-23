@@ -25,13 +25,13 @@
     { "speaker": "marta", "text": "No, Li Na. Somos cuatro: doce euros. ¡Pagamos los cuatro!", "zh": "不用,李娜。我们四个人,每人十二欧,大家一起付!", "items": ["es.no", "es.ser", "es.cuatro", "es.doce", "es.euro", "es.pagar"] }
   ],
   "questions": [
-    { "prompt": "玛尔塔要喝什么?", "options": ["水", "茶", "橙汁", "咖啡"], "answer": 2, "explainZh": "玛尔塔说 Para mí, un zumo de naranja.;另外三个人要了水(Tres aguas, por favor.)。" },
+    { "prompt": "玛尔塔要喝什么?", "options": ["水", "橙汁", "茶", "咖啡"], "answer": 1, "explainZh": "玛尔塔说 Para mí, un zumo de naranja.;另外三个人要了水(Tres aguas, por favor.)。" },
     { "prompt": "李娜觉得 patatas bravas 怎么样?", "options": ["一点也不辣", "太辣了", "有点辣", "不好吃"], "answer": 0, "explainZh": "李娜说:¿Picantes? ¡En Chengdú no son picantes!;说“有点辣”的是玛尔塔。" },
     { "prompt": "最后怎么付钱?", "options": ["李娜一个人付", "哈维尔请客", "每人付四十八欧", "四个人平摊,每人十二欧"], "answer": 3, "explainZh": "一共 48 欧,玛尔塔说:Somos cuatro: doce euros. ¡Pagamos los cuatro!——西班牙朋友之间常常平摊。" }
   ],
   "grammar": [
     { "id": "es.g.u4_ordering", "titleZh": "复习:在酒吧和餐馆点餐、结账",
-      "bodyZh": "这个单元的点餐套路:\n① 服务员问:¿Qué te pongo?(问一个人)/ ¿Qué queréis?(问一桌人,用 vosotros)/ ¿Qué queréis beber? ¿Y qué queréis comer?\n② 自己点:Para mí, un zumo. / Quiero tortilla. / Un café con leche, por favor.;和朋友商量:¿Qué tapas queremos? ¿Agua o zumo?\n③ 店员问 ¿Algo más?(还要别的吗)—— No, gracias.\n④ 结账:La cuenta, por favor. / ¿Cuánto es? —— Son cuarenta y ocho euros.\n四个动词的现在时一起复习:querer(quiero, quieres, quiere, queremos, queréis, quieren)、poder(puedo, puedes, puede, podemos, podéis, pueden)、comer 和 beber(como, comes, come, comemos, coméis, comen)。vosotros 的形式都以 -áis / -éis 结尾,而且都有重音符号。",
+      "bodyZh": "这个单元的点餐套路:\n① 服务员问:¿Qué te pongo?(问一个人)/ ¿Qué queréis?(问一桌人,用 vosotros)/ ¿Qué queréis beber? ¿Y qué queréis comer?\n② 自己点:Para mí, un zumo. / Quiero tortilla. / Un café con leche, por favor.;和朋友商量:¿Qué tapas queremos? ¿Agua o zumo?\n③ 店员问 ¿Algo más?(还要别的吗)—— No, gracias.\n④ 结账:La cuenta, por favor. / ¿Cuánto es? —— Son cuarenta y ocho euros.\n四个动词的现在时一起复习:querer(quiero, quieres, quiere, queremos, queréis, quieren)、poder(puedo, puedes, puede, podemos, podéis, pueden)、comer 和 beber(como, comes, come, comemos, coméis, comen)。这几个动词的 vosotros 形式都以 -éis 结尾(-ar 动词是 -áis),而且都有重音符号。",
       "examples": [
         { "text": "¿Qué queréis beber? — Para mí, un zumo de naranja.", "zh": "你们想喝什么?——我要一杯橙汁。" },
         { "text": "La cuenta, por favor. — Son cuarenta y ocho euros.", "zh": "麻烦买单。——一共四十八欧。" }
@@ -43,5 +43,5 @@
         { "text": "Somos cuatro: doce euros.", "zh": "我们四个人,每人十二欧。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -22,12 +22,12 @@
     { "speaker": "recepcionista", "text": "Seis, cuatro, siete… dos, ocho, cero… nueve, tres, tres.", "zh": "647……280……933。", "items": ["es.seis", "es.cuatro", "es.siete", "es.dos", "es.ocho", "es.cero", "es.nueve", "es.tres"] },
     { "speaker": "lina", "text": "No, no: uno, no cero. Dos, ocho, uno.", "zh": "不对不对:是 1,不是 0。281。", "items": ["es.no", "es.uno", "es.cero", "es.dos", "es.ocho"] },
     { "speaker": "recepcionista", "text": "Uno, sí. Gracias, Li Na. ¡Hasta luego!", "zh": "对,是 1。谢谢你,李娜。回头见!", "items": ["es.uno", "es.si", "es.gracias", "es.hasta_luego"] },
-    { "speaker": "lina", "text": "¡Gracias! ¡Hasta luego!", "zh": "谢谢!回头见!", "items": ["es.gracias", "es.hasta_luego"] }
+    { "speaker": "lina", "text": "¡De nada! ¡Hasta luego!", "zh": "不客气!回头见!", "items": ["es.de_nada", "es.hasta_luego"] }
   ],
   "questions": [
-    { "prompt": "李娜的姓是哪个?", "options": ["Li", "Na", "Li Na"], "answer": 0, "explainZh": "李娜说:Li es el apellido.(Li 是姓。)中国人姓在前、名在后,登记时要说清楚。" },
-    { "prompt": "前台一下子问了两个问题,李娜哪个没听清?", "options": ["是不是中国人", "多大了", "叫什么名字"], "answer": 1, "explainZh": "李娜先回答 Sí, soy china,再说 ¿Puedes repetir, por favor?;前台就又问了一遍 ¿Cuántos años tienes?" },
-    { "prompt": "李娜的手机号是多少?", "options": ["647 280 933", "674 281 933", "647 281 933"], "answer": 2, "explainZh": "李娜说 Es el seis, cuatro, siete, dos, ocho, uno, nueve, tres, tres.;前台重复时念成了 …dos, ocho, cero…,李娜马上纠正:uno, no cero.(是 1,不是 0。)" }
+    { "prompt": "李娜的姓是哪个?", "options": ["Na", "Li", "Li Na"], "answer": 1, "explainZh": "李娜说:Li es el apellido.(Li 是姓。)中国人姓在前、名在后,登记时要说清楚。" },
+    { "prompt": "前台一下子问了两个问题,李娜哪个没听清?", "options": ["是不是中国人", "叫什么名字", "多大了"], "answer": 2, "explainZh": "李娜先回答 Sí, soy china,再说 ¿Puedes repetir, por favor?;前台就又问了一遍 ¿Cuántos años tienes?" },
+    { "prompt": "李娜的手机号是多少?", "options": ["647 281 933", "647 280 933", "674 281 933"], "answer": 0, "explainZh": "李娜说 Es el seis, cuatro, siete, dos, ocho, uno, nueve, tres, tres.;前台重复时念成了 …dos, ocho, cero…,李娜马上纠正:uno, no cero.(是 1,不是 0。)" }
   ],
   "grammar": [
     { "id": "es.g.u1_resumen", "titleZh": "第 1 单元小结:说清自己的基本信息",
@@ -37,5 +37,5 @@
       "bodyZh": "西班牙人一般有两个姓:先是父亲的第一个姓,再是母亲的第一个姓,比如一个人叫 Lucía García López。表格上常分 primer apellido / segundo apellido(第一个姓 / 第二个姓),平时一般只说第一个。\n中国人只有一个姓,而且姓在前、名在后。西班牙人常把最后一个词当成姓,所以登记时要说明:Li es el apellido.(Li 是姓。)再一个字母一个字母拼出来。\n别人说 Gracias,回答 De nada(不客气)。告别时西班牙人最常说 Hasta luego(回头见),不一定真的待会儿就见。",
       "examples": [{ "text": "Li es el apellido.", "zh": "Li 是姓。" }, { "text": "¿Cómo se escribe el apellido?", "zh": "姓怎么拼?" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

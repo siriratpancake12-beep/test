@@ -19,18 +19,18 @@
     { "speaker": "rin", "text": "すみません、この靴の23はありますか。", "reading": "すみません、このくつのにじゅうさんはありますか。", "tokens": ["すみません、", "この", "靴", "の", "23", "は", "ありますか。"], "zh": "不好意思,这双鞋有 23 厘米的吗?", "items": ["ja.sumimasen", "ja.kono", "ja.kutsu", "ja.no_p", "ja.ni", "ja.juu", "ja.san_num", "ja.wa_p", "ja.aru", "ja.ka_p"] },
     { "speaker": "tenin_m", "text": "23ですね。はい、どうぞ。", "reading": "にじゅうさんですね。はい、どうぞ。", "tokens": ["23", "ですね。", "はい、", "どうぞ。"], "zh": "23 的是吧。有的,您试试。", "items": ["ja.ni", "ja.juu", "ja.san_num", "ja.desu", "ja.ne_p", "ja.hai", "ja.douzo"] },
     { "speaker": "rin", "text": "ちょっと大きいです。もう少し小さいのはありますか。", "reading": "ちょっとおおきいです。もうすこしちいさいのはありますか。", "tokens": ["ちょっと", "大きいです。", "もう少し", "小さい", "の", "は", "ありますか。"], "zh": "(试穿后)有点大。有再小一点的吗?", "items": ["ja.chotto", "ja.ookii", "ja.desu", "ja.mousukoshi", "ja.chiisai", "ja.no_p", "ja.wa_p", "ja.aru", "ja.ka_p"] },
-    { "speaker": "tenin_m", "text": "はい。このサイズはどうですか。", "tokens": ["はい。", "この", "サイズ", "は", "どうですか。"], "zh": "有的。这个尺码怎么样?", "items": ["ja.hai", "ja.kono", "ja.saizu", "ja.wa_p", "ja.dou", "ja.desu", "ja.ka_p"] },
+    { "speaker": "tenin_m", "text": "はい。このサイズはどうですか。", "tokens": ["はい。", "この", "サイズ", "は", "どう", "ですか。"], "zh": "有的。这个尺码怎么样?", "items": ["ja.hai", "ja.kono", "ja.saizu", "ja.wa_p", "ja.dou", "ja.desu", "ja.ka_p"] },
     { "speaker": "rin", "text": "これは大きくないですね。いいです!", "reading": "これはおおきくないですね。いいです!", "tokens": ["これ", "は", "大きくないですね。", "いいです!"], "zh": "这双不大。挺好的!", "items": ["ja.kore", "ja.wa_p", "ja.ookii", "ja.desu", "ja.ne_p", "ja.ii"] },
-    { "speaker": "rin", "text": "すみません、試着室はどこですか。", "reading": "すみません、しちゃくしつはどこですか。", "tokens": ["すみません、", "試着室", "は", "どこですか。"], "zh": "(拿着一条裤子)不好意思,试衣间在哪里?", "items": ["ja.sumimasen", "ja.shichakushitsu", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "すみません、試着室はどこですか。", "reading": "すみません、しちゃくしつはどこですか。", "tokens": ["すみません、", "試着室", "は", "どこ", "ですか。"], "zh": "(拿着一条裤子)不好意思,试衣间在哪里?", "items": ["ja.sumimasen", "ja.shichakushitsu", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
     { "speaker": "tenin_m", "text": "試着室はあそこです。どうぞ。", "reading": "しちゃくしつはあそこです。どうぞ。", "tokens": ["試着室", "は", "あそこ", "です。", "どうぞ。"], "zh": "试衣间在那边,您请。", "items": ["ja.shichakushitsu", "ja.wa_p", "ja.asoko", "ja.desu", "ja.douzo"] },
     { "speaker": "rin", "text": "これはちょっと長いです。もう少し短いのはありますか。", "reading": "これはちょっとながいです。もうすこしみじかいのはありますか。", "tokens": ["これ", "は", "ちょっと", "長いです。", "もう少し", "短い", "の", "は", "ありますか。"], "zh": "这条有点长。有再短一点的吗?", "items": ["ja.kore", "ja.wa_p", "ja.chotto", "ja.nagai", "ja.desu", "ja.mousukoshi", "ja.mijikai", "ja.no_p", "ja.aru", "ja.ka_p"] },
-    { "speaker": "tenin_m", "text": "はい、あります。これはどうですか。", "tokens": ["はい、", "あります。", "これ", "は", "どうですか。"], "zh": "有的。这条怎么样?", "items": ["ja.hai", "ja.aru", "ja.kore", "ja.wa_p", "ja.dou", "ja.desu", "ja.ka_p"] },
+    { "speaker": "tenin_m", "text": "はい、あります。これはどうですか。", "tokens": ["はい、", "あります。", "これ", "は", "どう", "ですか。"], "zh": "有的。这条怎么样?", "items": ["ja.hai", "ja.aru", "ja.kore", "ja.wa_p", "ja.dou", "ja.desu", "ja.ka_p"] },
     { "speaker": "rin", "text": "これは長くないです。いいですね!", "reading": "これはながくないです。いいですね!", "tokens": ["これ", "は", "長くないです。", "いいですね!"], "zh": "这条不长。正合适!", "items": ["ja.kore", "ja.wa_p", "ja.nagai", "ja.desu", "ja.ii", "ja.ne_p"] }
   ],
   "questions": [
-    { "prompt": "第一双鞋(23 厘米)林雨穿着怎么样?", "options": ["有点小", "有点大", "正合适"], "answer": 1, "explainZh": "林雨试完说:ちょっと大きいです。(有点大)" },
+    { "prompt": "第一双鞋(23 厘米)林雨穿着怎么样?", "options": ["有点大", "有点小", "正合适"], "answer": 0, "explainZh": "林雨试完说:ちょっと大きいです。(有点大)" },
     { "prompt": "林雨向店员打听什么地方?", "options": ["收银台", "厕所", "试衣间"], "answer": 2, "explainZh": "林雨问:すみません、試着室はどこですか。(试衣间在哪里?)" },
-    { "prompt": "林雨试的那条裤子怎么了?最后呢?", "options": ["有点长,店员拿来了短一点的", "有点短,店员拿来了长一点的", "有点大,林雨没买"], "answer": 0, "explainZh": "林雨说 これはちょっと長いです。もう少し短いのはありますか。换了以后说 これは長くないです。いいですね!" }
+    { "prompt": "林雨试的那条裤子怎么了?最后呢?", "options": ["有点短,店员拿来了长一点的", "有点长,店员拿来了短一点的", "有点大,林雨没买"], "answer": 1, "explainZh": "林雨说 これはちょっと長いです。もう少し短いのはありますか。换了以后说 これは長くないです。いいですね!" }
   ],
   "grammar": [
     {

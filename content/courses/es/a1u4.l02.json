@@ -5,7 +5,7 @@
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
   "newItems": [
     { "id": "es.querer", "kind": "word", "pos": "verb", "text": "querer", "zh": "想要;爱", "features": { "ipa": "keˈɾeɾ" }, "noteZh": "e→ie 变位:quiero, quieres, quiere, queremos, queréis, quieren;Te quiero = 我爱你。" },
-    { "id": "es.vosotros", "kind": "word", "pos": "pron", "text": "vosotros", "zh": "你们", "alt": ["vosotras"], "features": { "ipa": "boˈsotɾos" }, "noteZh": "西班牙用 vosotros(全是女性用 vosotras);拉美不用 vosotros,'你们'一律说 ustedes,动词用第三人称复数。" },
+    { "id": "es.vosotros", "kind": "word", "pos": "pron", "text": "vosotros", "zh": "你们", "alt": ["vosotras"], "features": { "ipa": "boˈsotɾos" }, "noteZh": "西班牙用 vosotros(全是女性用 vosotras);拉美不用 vosotros,“你们”一律说 ustedes,动词用第三人称复数。" },
     { "id": "es.tapa", "kind": "word", "pos": "noun", "text": "la tapa", "zh": "(西班牙)小份菜;小吃", "features": { "gender": "f", "ipa": "la ˈtapa" }, "noteZh": "西班牙人边喝东西边吃的小份菜;有的酒吧点饮料会送一小份 tapa;一大份叫 una ración;出去吃 tapas 叫 ir de tapas。" },
     { "id": "es.tortilla", "kind": "word", "pos": "noun", "text": "la tortilla", "zh": "土豆鸡蛋饼", "features": { "gender": "f", "ipa": "la toɾˈtiʝa" }, "noteZh": "西班牙的 tortilla(de patatas)是土豆鸡蛋饼;墨西哥的 tortilla 是玉米薄饼,完全不是一种东西。" },
     { "id": "es.jamon", "kind": "word", "pos": "noun", "text": "el jamón", "zh": "火腿", "features": { "gender": "m", "ipa": "el xaˈmon" }, "noteZh": "j 读 [x],比汉语 h 更靠后;重音在 ó。" },
@@ -13,25 +13,25 @@
     { "id": "es.patatas_bravas", "kind": "phrase", "pos": "noun", "text": "las patatas bravas", "zh": "辣味炸土豆", "features": { "gender": "f", "ipa": "las paˈtatas ˈbɾabas" }, "noteZh": "马德里最有名的 tapa 之一,口语常简称 las bravas;patata 拉美叫 papa。对四川人来说一点也不辣。" },
     { "id": "es.agua", "kind": "phrase", "pos": "phrase", "text": "el agua", "zh": "水", "features": { "ipa": "el ˈaɡwa" }, "noteZh": "agua 是阴性名词(el agua fría),但因为以重读的 a 开头,单数前用 el,不说 la agua;复数是 las aguas。点水:agua con gas(气泡水)/ sin gas。" },
     { "id": "es.o", "kind": "word", "pos": "conj", "text": "o", "zh": "或者;还是", "features": { "ipa": "o" }, "noteZh": "¿Té o café?;在 o 开头的词前变成 u:siete u ocho。" },
-    { "id": "es.vale", "kind": "word", "pos": "interj", "text": "Vale", "zh": "好的;行", "features": { "ipa": "ˈbale" }, "noteZh": "西班牙人最常用的'好的';拉美多说 está bien / OK,墨西哥说 sale。" }
+    { "id": "es.vale", "kind": "word", "pos": "interj", "text": "Vale", "zh": "好的;行", "features": { "ipa": "ˈbale" }, "noteZh": "西班牙人最常用的“好的”;拉美多说 está bien / OK,墨西哥说 sale。" }
   ],
   "reviewItems": ["es.para_mi", "es.con", "es.sin", "es.que"],
   "lines": [
     { "speaker": "camarero", "text": "¡Hola! ¿Qué queréis?", "zh": "你们好!要点什么?", "items": ["es.hola", "es.que", "es.querer"] },
     { "speaker": "javier", "text": "Una tortilla, jamón, queso y patatas bravas. ¿Y vosotros?", "zh": "一份土豆鸡蛋饼、火腿、奶酪,还有辣味炸土豆。你们呢?", "items": ["es.una", "es.tortilla", "es.jamon", "es.queso", "es.y", "es.patatas_bravas", "es.vosotros"] },
-    { "speaker": "lina", "text": "¿Qué son las patatas bravas?", "zh": "“辣味炸土豆”是什么?", "items": ["es.que", "es.ser", "es.patatas_bravas"] },
+    { "speaker": "lina", "text": "Vale, pero ¿qué son las patatas bravas?", "zh": "好啊。不过“辣味炸土豆”是什么?", "items": ["es.vale", "es.pero", "es.que", "es.ser", "es.patatas_bravas"] },
     { "speaker": "javier", "text": "Una tapa muy de Madrid.", "zh": "很有马德里特色的一道小吃。", "items": ["es.una", "es.tapa", "es.muy", "es.de"] },
     { "speaker": "camarero", "text": "¿Y queréis agua o zumo?", "zh": "喝的要水还是果汁?", "items": ["es.y", "es.querer", "es.agua", "es.o", "es.zumo"] },
-    { "speaker": "lina", "text": "Para mí, un té sin leche, por favor.", "zh": "我要一杯不加奶的茶,谢谢。", "items": ["es.para_mi", "es.un", "es.te", "es.sin", "es.leche", "es.por_favor"] },
-    { "speaker": "diego", "text": "¿Un té con tapas? ¡Yo quiero agua!", "zh": "吃 tapas 配茶?我要水!", "items": ["es.un", "es.te", "es.con", "es.tapa", "es.yo", "es.querer", "es.agua"] },
+    { "speaker": "lina", "text": "Yo quiero un té sin leche, por favor.", "zh": "我要一杯不加奶的茶,谢谢。", "items": ["es.yo", "es.querer", "es.un", "es.te", "es.sin", "es.leche", "es.por_favor"] },
+    { "speaker": "diego", "text": "¿Un té con tapas? ¡Para mí, agua!", "zh": "吃 tapas 配茶?我要水!", "items": ["es.un", "es.te", "es.con", "es.tapa", "es.para_mi", "es.agua"] },
     { "speaker": "camarero", "text": "Vale. Aquí tenéis.", "zh": "好的。你们的菜来了。", "items": ["es.vale", "es.aqui", "es.tener"] },
     { "speaker": "diego", "text": "¿Esta es la tortilla? ¡No es una tortilla mexicana!", "zh": "这就是 tortilla?这可不是墨西哥的 tortilla!", "items": ["es.este", "es.ser", "es.tortilla", "es.no", "es.una", "es.mexicano"] },
     { "speaker": "javier", "text": "No, es una tortilla española.", "zh": "当然不是,这是西班牙的 tortilla。", "items": ["es.no", "es.ser", "es.una", "es.tortilla", "es.espanol"] }
   ],
   "questions": [
-    { "prompt": "哈维尔点了哪些 tapas?", "options": ["只点了火腿", "土豆鸡蛋饼、火腿、奶酪和辣味炸土豆", "奶酪和面包", "墨西哥玉米饼和火腿"], "answer": 1, "explainZh": "哈维尔说:Una tortilla, jamón, queso y patatas bravas.。" },
-    { "prompt": "李娜要喝什么?", "options": ["水", "果汁", "加奶的茶", "不加奶的茶"], "answer": 3, "explainZh": "李娜说:Para mí, un té sin leche, por favor.;要水的是迭戈(¡Yo quiero agua!)。" },
-    { "prompt": "迭戈看到 tortilla 为什么吃惊?", "options": ["它和墨西哥的 tortilla 完全不一样", "它太辣了", "它是用奶酪做的"], "answer": 0, "explainZh": "¿Esta es la tortilla? ¡No es una tortilla mexicana!——西班牙的 tortilla 是土豆鸡蛋饼,墨西哥的 tortilla 是玉米薄饼。" }
+    { "prompt": "哈维尔点了哪些 tapas?", "options": ["只点了火腿", "奶酪和面包", "土豆鸡蛋饼、火腿、奶酪和辣味炸土豆", "墨西哥玉米饼和火腿"], "answer": 2, "explainZh": "哈维尔说:Una tortilla, jamón, queso y patatas bravas.。" },
+    { "prompt": "李娜要喝什么?", "options": ["水", "果汁", "加奶的茶", "不加奶的茶"], "answer": 3, "explainZh": "李娜说:Yo quiero un té sin leche, por favor.;要水的是迭戈(¡Para mí, agua!)。" },
+    { "prompt": "迭戈看到 tortilla 为什么吃惊?", "options": ["它太辣了", "它和墨西哥的 tortilla 完全不一样", "它是用奶酪做的"], "answer": 1, "explainZh": "¿Esta es la tortilla? ¡No es una tortilla mexicana!——西班牙的 tortilla 是土豆鸡蛋饼,墨西哥的 tortilla 是玉米薄饼。" }
   ],
   "grammar": [
     { "id": "es.g.querer_vosotros", "titleZh": "querer(想要)的变位;vosotros(你们)",
@@ -43,5 +43,5 @@
         { "text": "Queremos unas patatas bravas, por favor.", "zh": "我们要一份辣味炸土豆,谢谢。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

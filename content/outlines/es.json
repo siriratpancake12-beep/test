@@ -417,7 +417,7 @@
           "kind": "word",
           "pos": "adv",
           "text": "sí",
-          "zh": "是;对",
+          "zh": "是的;对",
           "features": {
             "ipa": "si"
           },
@@ -2406,7 +2406,7 @@
             "gender": "m",
             "ipa": "el te"
           },
-          "noteZh": "有重音符号;不带重音的 te 是'你'(宾格),如 ¿Cómo te llamas?"
+          "noteZh": "有重音符号;不带重音的 te 是代词'你',如 ¿Cómo te llamas?、¿Qué te pongo?"
         },
         {
           "id": "es.zumo",
@@ -2543,7 +2543,7 @@
           "kind": "word",
           "pos": "noun",
           "text": "la tapa",
-          "zh": "(西班牙)下酒小菜",
+          "zh": "(西班牙)小份菜;小吃",
           "features": {
             "gender": "f",
             "ipa": "la ˈtapa"
@@ -2668,7 +2668,7 @@
             "gender": "m",
             "ipa": "el meɾˈkado"
           },
-          "noteZh": "马德里每个街区都有室内菜市场,比超市新鲜。"
+          "noteZh": "马德里很多街区都有室内菜市场(mercado municipal),卖的东西很新鲜。"
         },
         {
           "id": "es.fruta",
@@ -2965,7 +2965,7 @@
           "features": {
             "ipa": "koθiˈnaɾ"
           },
-          "noteZh": "-ar 规则动词;两个 c 在 i 前都读 [θ]。"
+          "noteZh": "-ar 规则动词;co 里的 c 读 [k],ci 里的 c 读 [θ]。"
         },
         {
           "id": "es.arroz",

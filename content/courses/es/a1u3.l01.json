@@ -1,7 +1,7 @@
 {
   "id": "es.a1u3.l01", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
   "unit": "A1-3 我的住处", "order": 103010,
-  "titleZh": "这是你的房间", "goalZh": "会说公寓里的房间,会用 hay 说'有……'", "canDoZh": "能听懂别人带你看房,说出公寓里有哪些房间",
+  "titleZh": "这是你的房间", "goalZh": "会说公寓里的房间,会用 hay 说“有……”", "canDoZh": "能听懂别人带你看房,说出公寓里有哪些房间",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
   "newItems": [
     { "id": "es.que_tal", "kind": "phrase", "pos": "phrase", "text": "¿Qué tal?", "zh": "你好吗?;怎么样?", "features": { "ipa": "ke ˈtal" }, "noteZh": "熟人见面最常说的“你好吗”,很随意;回答 Bien, ¿y tú? 或 Muy bien, gracias。也能问一件事怎么样:¿Qué tal la clase?" },
@@ -10,7 +10,7 @@
     { "id": "es.casa", "kind": "word", "pos": "noun", "text": "la casa", "zh": "家;房子", "features": { "gender": "f", "ipa": "la ˈkasa" }, "noteZh": "en casa = 在家,a casa = 回家(都不加冠词);mi casa = 我家,住的是公寓也说 casa。" },
     { "id": "es.piso", "kind": "word", "pos": "noun", "text": "el piso", "zh": "公寓;楼层", "features": { "gender": "m", "ipa": "el ˈpiso" }, "noteZh": "西班牙说 piso,拉美多说 departamento / apartamento;piso compartido = 合租公寓。" },
     { "id": "es.habitacion", "kind": "word", "pos": "noun", "text": "la habitación", "zh": "房间;卧室", "features": { "gender": "f", "ipa": "la abitaˈθjon" }, "noteZh": "-ción 结尾的词都是阴性,重音在 ó;h 不发音。复数 las habitaciones 不写重音符号。拉美也说 el cuarto,墨西哥说 la recámara。" },
-    { "id": "es.cocina", "kind": "word", "pos": "noun", "text": "la cocina", "zh": "厨房", "features": { "gender": "f", "ipa": "la koˈθina" }, "noteZh": "c 在 i 前读 [θ];la cocina 也指'菜系':la cocina china。" },
+    { "id": "es.cocina", "kind": "word", "pos": "noun", "text": "la cocina", "zh": "厨房", "features": { "gender": "f", "ipa": "la koˈθina" }, "noteZh": "c 在 i 前读 [θ];la cocina 也指“菜系”:la cocina china。" },
     { "id": "es.bano", "kind": "word", "pos": "noun", "text": "el baño", "zh": "卫生间;浴室", "features": { "gender": "m", "ipa": "el ˈbaɲo" }, "noteZh": "ñ 不能写成 n;找厕所问 ¿Dónde está el baño?(第 3 课学 estar)。" },
     { "id": "es.salon", "kind": "word", "pos": "noun", "text": "el salón", "zh": "客厅", "features": { "gender": "m", "ipa": "el saˈlon" }, "noteZh": "重音在 ó;复数 los salones 不写重音符号。拉美常说 la sala。" },
     { "id": "es.hay", "kind": "word", "pos": "verb", "text": "hay", "zh": "有(存在)", "features": { "ipa": "ai" }, "noteZh": "不变形,单复数都用 hay:Hay un baño. / Hay dos habitaciones.;h 不发音,读 [ai],和英语的 I 差不多。" }
@@ -38,5 +38,5 @@
         { "text": "¿Cuántas habitaciones hay? — Hay dos.", "zh": "有几间卧室?——有两间。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

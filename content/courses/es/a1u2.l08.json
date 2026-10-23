@@ -20,15 +20,15 @@
     { "speaker": "lina", "text": "Mi hermano tiene diez años. ¡Es muy simpático!", "zh": "我弟弟十岁,特别招人喜欢!", "items": ["es.mi", "es.hermano", "es.tener", "es.diez", "es.cuantos_anos_tienes", "es.ser", "es.muy", "es.simpatico"] },
     { "speaker": "lina", "text": "En Madrid tengo dos amigos: Javier y Diego.", "zh": "在马德里,我有两个朋友:哈维尔和迭戈。", "items": ["es.en", "es.tener", "es.dos", "es.amigo", "es.y"] },
     { "speaker": "lina", "text": "Javier es español, de Madrid. Es alto y moreno.", "zh": "哈维尔是西班牙人,马德里的。他个子高,深色头发。", "items": ["es.ser", "es.espanol", "es.de", "es.alto", "es.y", "es.moreno"] },
-    { "speaker": "lina", "text": "Es muy joven: tiene diecinueve años. Estudia chino.", "zh": "他很年轻,才十九岁,在学汉语。", "items": ["es.ser", "es.muy", "es.joven", "es.tener", "es.diecinueve", "es.cuantos_anos_tienes", "es.estudiar", "es.chino"] },
+    { "speaker": "lina", "text": "Tiene diecinueve años y estudia chino.", "zh": "他十九岁,在学汉语。", "items": ["es.tener", "es.diecinueve", "es.cuantos_anos_tienes", "es.y", "es.estudiar", "es.chino"] },
     { "speaker": "lina", "text": "Diego es mexicano, de Guadalajara. Es moreno y muy simpático.", "zh": "迭戈是墨西哥人,瓜达拉哈拉的。他深色头发,人特别好。", "items": ["es.ser", "es.mexicano", "es.de", "es.moreno", "es.y", "es.muy", "es.simpatico"] },
-    { "speaker": "lina", "text": "Nosotros somos estudiantes y somos amigos.", "zh": "我们都是学生,也是朋友。", "items": ["es.nosotros", "es.ser", "es.estudiante", "es.y", "es.amigo"] }
+    { "speaker": "lina", "text": "Nosotros somos jóvenes, somos estudiantes y somos amigos.", "zh": "我们都很年轻,都是学生,也是朋友。", "items": ["es.nosotros", "es.ser", "es.joven", "es.estudiante", "es.y", "es.amigo"] }
   ],
   "questions": [
-    { "prompt": "李娜家有几口人?", "options": ["三口", "四口", "五口"], "answer": 1, "explainZh": "En mi familia somos cuatro: mis padres, mi hermano y yo.(我家有四口人。)" },
-    { "prompt": "李娜的爸爸做什么工作?", "options": ["医生", "学生", "老师"], "answer": 2, "explainZh": "Mi padre tiene cincuenta años. Es profesor y habla inglés." },
-    { "prompt": "关于 Javier,哪一句是对的?", "options": ["他十九岁,在学汉语", "他是墨西哥人", "他个子矮,金色头发"], "answer": 0, "explainZh": "Javier es español… Es alto y moreno. Es muy joven: tiene diecinueve años. Estudia chino." },
-    { "prompt": "李娜的爸爸妈妈在哪儿工作?", "options": ["在马德里", "在成都", "在瓜达拉哈拉"], "answer": 1, "explainZh": "说完爸爸妈妈,李娜写道:Ellos trabajan en Chengdú.(他们在成都工作。)" }
+    { "prompt": "李娜家有几口人?", "options": ["三口", "五口", "四口"], "answer": 2, "explainZh": "En mi familia somos cuatro: mis padres, mi hermano y yo.(我家有四口人。)" },
+    { "prompt": "李娜的爸爸做什么工作?", "options": ["老师", "医生", "学生"], "answer": 0, "explainZh": "Mi padre tiene cincuenta años. Es profesor y habla inglés." },
+    { "prompt": "关于 Javier,哪一句是对的?", "options": ["他是墨西哥人", "他十九岁,在学汉语", "他个子矮,金色头发"], "answer": 1, "explainZh": "Javier es español… Es alto y moreno. Tiene diecinueve años y estudia chino." },
+    { "prompt": "李娜的爸爸妈妈在哪儿工作?", "options": ["在马德里", "在瓜达拉哈拉", "在成都"], "answer": 2, "explainZh": "说完爸爸妈妈,李娜写道:Ellos trabajan en Chengdú.(他们在成都工作。)" }
   ],
   "grammar": [
     { "id": "es.g.pronombres", "titleZh": "主语代词:yo, tú, él, ella, nosotros, ellos",
@@ -38,5 +38,5 @@
       "bodyZh": "ser(是):soy, eres, es, somos, sois, son——说身份、国籍、职业、长相和性格:Mi madre es médica. / Javier es alto.\ntener(有):tengo, tienes, tiene, tenemos, tenéis, tienen——说家人、年龄、头发:Tengo un hermano. / Tiene diez años. / Tiene el pelo moreno.\n-ar 动词:去掉 -ar,加 -o, -as, -a, -amos, -áis, -an:trabajo, estudias, habla, trabajan…\nmi / tu / su(复数 mis / tus / sus)放在名词前;形容词放在名词后,跟着变:alto → alta → altos → altas。\n写短文的小技巧:A1 的句子短一点没关系,用 y 把两个短句连起来,就更像一段话:Es profesor y habla inglés.(“但是” pero 第 3 单元学。)",
       "examples": [{ "text": "Mi hermano tiene diez años y es muy simpático.", "zh": "我弟弟十岁,特别招人喜欢。" }, { "text": "Mis padres trabajan en Chengdú.", "zh": "我爸妈在成都工作。" }, { "text": "Javier y Diego son estudiantes.", "zh": "哈维尔和迭戈都是学生。" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

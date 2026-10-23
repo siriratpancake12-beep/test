@@ -18,8 +18,8 @@
   "reviewItems": ["es.donde", "es.ser", "es.estar", "es.casa"],
   "lines": [
     { "speaker": "pilar", "text": "¡Hola! Tú eres Li Na, la compañera de Marta, ¿no?", "zh": "你好!你是李娜吧?玛尔塔的室友?", "items": ["es.hola", "es.tu", "es.ser", "es.companero", "es.de", "es.no"] },
-    { "speaker": "lina", "text": "Sí, buenos días. ¿Usted vive en esta calle?", "zh": "是的,您早上好。您住在这条街上吗?", "items": ["es.si", "es.buenos_dias", "es.usted", "es.vivir", "es.en", "es.este", "es.calle"] },
-    { "speaker": "pilar", "text": "Sí, yo también vivo aquí. Soy Pilar, tu vecina.", "zh": "对,我也住这儿。我是皮拉尔,你的邻居。", "items": ["es.si", "es.yo", "es.tambien", "es.vivir", "es.aqui", "es.ser", "es.tu_pos", "es.vecino"] },
+    { "speaker": "lina", "text": "Sí, buenos días. ¿Usted también vive en esta calle?", "zh": "是的,您早上好。您也住在这条街上吗?", "items": ["es.si", "es.buenos_dias", "es.usted", "es.tambien", "es.vivir", "es.en", "es.este", "es.calle"] },
+    { "speaker": "pilar", "text": "Sí, vivo aquí. Soy Pilar, tu vecina.", "zh": "对,我就住这儿。我是皮拉尔,你的邻居。", "items": ["es.si", "es.vivir", "es.aqui", "es.ser", "es.tu_pos", "es.vecino"] },
     { "speaker": "lina", "text": "Encantada, Doña Pilar. ¿Usted es de Madrid?", "zh": "很高兴认识您,皮拉尔太太。您是马德里人吗?", "items": ["es.encantado", "es.usted", "es.ser", "es.de"] },
     { "speaker": "pilar", "text": "Sí, de este barrio. ¿Y tú? ¿De dónde eres?", "zh": "是啊,就是这个街区的人。你呢?你是哪里人?", "items": ["es.si", "es.de", "es.este", "es.barrio", "es.y", "es.tu", "es.donde", "es.ser"] },
     { "speaker": "lina", "text": "Soy china, de Chengdú. Estudio en la universidad. ¿Está lejos?", "zh": "我是中国人,成都来的,在大学读书。大学远吗?", "items": ["es.ser", "es.chino", "es.de", "es.estudiar", "es.en", "es.universidad", "es.estar", "es.lejos"] },
@@ -27,7 +27,7 @@
     { "speaker": "lina", "text": "¡Gracias, Doña Pilar! ¡Hasta luego!", "zh": "谢谢您,皮拉尔太太!回头见!", "items": ["es.gracias", "es.hasta_luego"] }
   ],
   "questions": [
-    { "prompt": "皮拉尔太太是谁?", "options": ["李娜的老师", "玛尔塔的妈妈", "李娜的邻居,也住在这儿", "大学的工作人员"], "answer": 2, "explainZh": "她说:Sí, yo también vivo aquí. Soy Pilar, tu vecina.(我也住这儿,我是你的邻居。)" },
+    { "prompt": "皮拉尔太太是谁?", "options": ["李娜的老师", "玛尔塔的妈妈", "李娜的邻居,也住在这儿", "大学的工作人员"], "answer": 2, "explainZh": "她说:Sí, vivo aquí. Soy Pilar, tu vecina.(对,我就住这儿。我是你的邻居。)" },
     { "prompt": "说到大学和市中心,皮拉尔太太怎么说?", "options": ["大学很远,市中心很近", "大学离家不远,市中心很近", "大学和市中心都很远", "大学很近,市中心很远"], "answer": 1, "explainZh": "李娜问 ¿Está lejos?,她说:No, no está lejos de casa. Y el centro está muy cerca.——lejos 是远,cerca 是近。" }
   ],
   "grammar": [
@@ -38,5 +38,5 @@
         { "text": "Yo también vivo cerca de la universidad.", "zh": "我也住在大学附近。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

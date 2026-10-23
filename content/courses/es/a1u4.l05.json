@@ -5,7 +5,7 @@
   "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
   "newItems": [
     { "id": "es.poder", "kind": "word", "pos": "verb", "text": "poder", "zh": "能;可以", "features": { "ipa": "poˈdeɾ" }, "noteZh": "o→ue 变位:puedo, puedes, puede, podemos, podéis, pueden;后面直接加动词原形。" },
-    { "id": "es.cocinar", "kind": "word", "pos": "verb", "text": "cocinar", "zh": "做饭", "features": { "ipa": "koθiˈnaɾ" }, "noteZh": "-ar 规则动词;两个 c 在 i 前都读 [θ]。" },
+    { "id": "es.cocinar", "kind": "word", "pos": "verb", "text": "cocinar", "zh": "做饭", "features": { "ipa": "koθiˈnaɾ" }, "noteZh": "-ar 规则动词;co 里的 c 读 [k],ci 里的 c 读 [θ]。" },
     { "id": "es.arroz", "kind": "word", "pos": "noun", "text": "el arroz", "zh": "米饭;大米", "features": { "gender": "m", "ipa": "el aˈroθ" }, "noteZh": "rr 要颤舌,z 读 [θ]。" },
     { "id": "es.pollo", "kind": "word", "pos": "noun", "text": "el pollo", "zh": "鸡肉;鸡", "features": { "gender": "m", "ipa": "el ˈpoʝo" }, "noteZh": "ll 读 [ʝ]。" },
     { "id": "es.huevo", "kind": "word", "pos": "noun", "text": "el huevo", "zh": "鸡蛋", "features": { "gender": "m", "ipa": "el ˈwebo" }, "noteZh": "h 不发音,hue 读得像 [we];huevos con tomate = 番茄炒蛋。" },
@@ -26,7 +26,7 @@
     { "speaker": "diego", "text": "¡Gracias! ¡Qué rico!", "zh": "谢谢!真好吃!", "items": ["es.gracias", "es.que", "es.rico"] },
     { "speaker": "marta", "text": "Sí, el pollo está muy rico… pero un poco picante.", "zh": "是啊,鸡肉很好吃……就是有点辣。", "items": ["es.si", "es.pollo", "es.estar", "es.muy", "es.rico", "es.pero", "es.un_poco", "es.picante"] },
     { "speaker": "diego", "text": "¿Picante? ¡No es picante, Marta!", "zh": "辣?这不辣啊,玛尔塔!", "items": ["es.picante", "es.no", "es.ser"] },
-    { "speaker": "lina", "text": "¿Quieres agua, Marta?", "zh": "玛尔塔,要喝点水吗?", "items": ["es.querer", "es.agua"] }
+    { "speaker": "lina", "text": "¿Está muy picante, Marta? ¿Quieres agua?", "zh": "玛尔塔,很辣吗?要喝点水吗?", "items": ["es.estar", "es.muy", "es.picante", "es.querer", "es.agua"] }
   ],
   "questions": [
     { "prompt": "李娜做了哪几道菜?", "options": ["土豆鸡蛋饼和火腿", "鱼和沙拉", "鸡肉和面包", "番茄炒蛋、宫保鸡丁和米饭"], "answer": 3, "explainZh": "李娜说:Huevos con tomate, pollo Kung Pao y arroz.。" },
@@ -35,7 +35,7 @@
   ],
   "grammar": [
     { "id": "es.g.poder", "titleZh": "poder + 动词原形:能不能、可不可以",
-      "bodyZh": "poder(能、可以)和上一课的 querer 一样是词根变化动词,只是重读的 o 变成 ue:puedo, puedes, puede, pueden;nosotros、vosotros 不变:podemos, podéis。\npoder 后面直接跟动词原形,中间不加别的词:¿Puedo cocinar?(我可以做饭吗?)¿Podemos comer en la cocina?(我们可以在厨房吃吗?)。英语是 Can I…?,中文是“我能……吗?”,西语的语序差不多,但只有 poder 变位,后面的动词保持原形。\n请求允许用 ¿Puedo…?,请别人帮忙用 ¿Puedes…?(第 1 单元学的 ¿Puedes repetir? 就是这个结构)。答应别人:¡Claro! / Sí, claro.(当然可以)。\n评价食物:¡Qué rico!(真好吃!)——¡Qué + 形容词! 是感叹句。说一道菜好吃常用 estar:El pollo está muy rico.;rico 和 ser 连用说人,意思是“有钱”。\nun poco + 形容词 = 有点……:un poco picante(有点辣)。和中文的“有点”一样,多用在不太满意的时候。",
+      "bodyZh": "poder(能、可以)和本单元第 2 课的 querer 一样,是词根变化动词,只是重读的 o 变成 ue:puedo, puedes, puede, pueden;nosotros、vosotros 不变:podemos, podéis。\npoder 后面直接跟动词原形,中间不加别的词:¿Puedo cocinar?(我可以做饭吗?)¿Podemos comer en la cocina?(我们可以在厨房吃吗?)。英语是 Can I…?,中文是“我能……吗?”,西语的语序差不多,但只有 poder 变位,后面的动词保持原形。\n请求允许用 ¿Puedo…?,请别人帮忙用 ¿Puedes…?(第 1 单元学的 ¿Puedes repetir? 就是这个结构)。答应别人:¡Claro! / Sí, claro.(当然可以)。\n评价食物:¡Qué rico!(真好吃!)——¡Qué + 形容词! 是感叹句。说一道菜好吃常用 estar:El pollo está muy rico.;rico 和 ser 连用说人,意思是“有钱”。\nun poco + 形容词 = 有点……:un poco picante(有点辣)。和中文的“有点”一样,多用在不太满意的时候。",
       "examples": [
         { "text": "¿Puedo cocinar yo? — Sí, claro.", "zh": "我来做饭可以吗?——当然可以。" },
         { "text": "¿Podemos comer en el salón?", "zh": "我们可以在客厅吃吗?" },
@@ -43,5 +43,5 @@
         { "text": "El pollo está un poco picante.", "zh": "鸡肉有点辣。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

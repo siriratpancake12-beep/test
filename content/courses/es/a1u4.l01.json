@@ -6,14 +6,14 @@
   "newItems": [
     { "id": "es.cafe", "kind": "word", "pos": "noun", "text": "el café", "zh": "咖啡;咖啡馆", "features": { "gender": "m", "ipa": "el kaˈfe" }, "noteZh": "café con leche(加奶咖啡)是西班牙早餐标配;重音在 é。el café 也指咖啡馆。" },
     { "id": "es.leche", "kind": "word", "pos": "noun", "text": "la leche", "zh": "牛奶", "features": { "gender": "f", "ipa": "la ˈletʃe" }, "noteZh": "阴性:la leche;ch 读 [tʃ]。" },
-    { "id": "es.te", "kind": "word", "pos": "noun", "text": "el té", "zh": "茶", "features": { "gender": "m", "ipa": "el te" }, "noteZh": "有重音符号;不带重音的 te 是'你'(宾格),如 ¿Cómo te llamas?" },
+    { "id": "es.te", "kind": "word", "pos": "noun", "text": "el té", "zh": "茶", "features": { "gender": "m", "ipa": "el te" }, "noteZh": "有重音符号;不带重音的 te 是代词“你”,如 ¿Cómo te llamas?、¿Qué te pongo?" },
     { "id": "es.zumo", "kind": "word", "pos": "noun", "text": "el zumo", "zh": "果汁", "features": { "gender": "m", "ipa": "el ˈθumo" }, "noteZh": "z 读 [θ],舌尖轻放在上下齿之间;西班牙说 zumo,拉美说 el jugo。" },
     { "id": "es.tostada", "kind": "word", "pos": "noun", "text": "la tostada", "zh": "烤面包片", "features": { "gender": "f", "ipa": "la tosˈtada" }, "noteZh": "西班牙早餐常吃 tostada con tomate(抹番茄和橄榄油的烤面包)。" },
     { "id": "es.tomate", "kind": "word", "pos": "noun", "text": "el tomate", "zh": "西红柿;番茄", "features": { "gender": "m", "ipa": "el toˈmate" }, "noteZh": "重音在 ma;-e 结尾,阳性:el tomate。" },
     { "id": "es.con", "kind": "word", "pos": "prep", "text": "con", "zh": "加;带着;和……一起", "features": { "ipa": "kon" }, "noteZh": "café con leche = 加奶咖啡;con mis amigos = 和朋友一起。" },
     { "id": "es.sin", "kind": "word", "pos": "prep", "text": "sin", "zh": "不加;没有", "features": { "ipa": "sin" }, "noteZh": "café sin azúcar = 不加糖的咖啡。" },
-    { "id": "es.para_mi", "kind": "phrase", "pos": "phrase", "text": "Para mí", "zh": "我要……;给我……", "features": { "ipa": "ˈpaɾa mi" }, "noteZh": "点餐时说 Para mí, un café;mí 有重音符号,和'我的' mi 不同。" },
-    { "id": "es.que_te_pongo", "kind": "phrase", "pos": "phrase", "text": "¿Qué te pongo?", "zh": "(服务员)你要点什么?", "features": { "ipa": "ke te ˈpoŋɡo" }, "noteZh": "西班牙酒吧服务员的口头禅,字面意思'给你上什么';也常听到 ¿Qué vas a tomar?" }
+    { "id": "es.para_mi", "kind": "phrase", "pos": "phrase", "text": "Para mí", "zh": "我要……;给我……", "features": { "ipa": "ˈpaɾa mi" }, "noteZh": "点餐时说 Para mí, un café;mí 有重音符号,和“我的” mi 不同。" },
+    { "id": "es.que_te_pongo", "kind": "phrase", "pos": "phrase", "text": "¿Qué te pongo?", "zh": "(服务员)你要点什么?", "features": { "ipa": "ke te ˈpoŋɡo" }, "noteZh": "西班牙酒吧服务员的口头禅,字面意思“给你上什么”;也常听到 ¿Qué vas a tomar?" }
   ],
   "reviewItems": ["es.por_favor", "es.gracias", "es.y"],
   "lines": [
@@ -27,7 +27,7 @@
     { "speaker": "camarero", "text": "Muy bien. Un café, un té, un zumo y una tostada.", "zh": "好的。一杯咖啡、一杯茶、一杯果汁和一份烤面包。", "items": ["es.muy", "es.bien", "es.un", "es.cafe", "es.te", "es.zumo", "es.y", "es.una", "es.tostada"] }
   ],
   "questions": [
-    { "prompt": "玛尔塔点了什么?", "options": ["一杯茶和一杯果汁", "一杯加奶咖啡和一份番茄烤面包", "一杯咖啡和一杯果汁", "只要了一杯加奶咖啡"], "answer": 1, "explainZh": "玛尔塔说 Un café con leche, por favor.;服务员问 ¿Y una tostada con tomate?,她说 Sí, gracias。" },
+    { "prompt": "玛尔塔点了什么?", "options": ["一杯加奶咖啡和一份番茄烤面包", "一杯茶和一杯果汁", "一杯咖啡和一杯果汁", "只要了一杯加奶咖啡"], "answer": 0, "explainZh": "玛尔塔说 Un café con leche, por favor.;服务员问 ¿Y una tostada con tomate?,她说 Sí, gracias。" },
     { "prompt": "李娜的茶加奶吗?", "options": ["加奶", "加番茄", "不加奶"], "answer": 2, "explainZh": "服务员问 ¿Con leche?,李娜说:No, sin leche.——sin 是“不加、没有”。" }
   ],
   "grammar": [
@@ -38,5 +38,5 @@
         { "text": "Para mí, un té sin leche.", "zh": "我要一杯不加奶的茶。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

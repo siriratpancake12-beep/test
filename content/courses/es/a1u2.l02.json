@@ -1,7 +1,7 @@
 {
   "id": "es.a1u2.l02", "schemaVersion": 1, "lang": "es", "type": "dialogue", "cefr": "A1",
   "unit": "A1-2 家人与朋友", "order": 102020,
-  "titleZh": "你有兄弟姐妹吗?", "goalZh": "会用 tener 说家里有什么人,会问'几个'", "canDoZh": "能问别人有没有兄弟姐妹、家里有几口人,也能说自己家的情况",
+  "titleZh": "你有兄弟姐妹吗?", "goalZh": "会用 tener 说家里有什么人,会问“几个”", "canDoZh": "能问别人有没有兄弟姐妹、家里有几口人,也能说自己家的情况",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
   "newItems": [
     { "id": "es.tener", "kind": "word", "pos": "verb", "text": "tener", "zh": "有", "features": { "ipa": "teˈneɾ" }, "noteZh": "不规则:tengo, tienes, tiene, tenemos, tenéis, tienen;说年龄也用它:Tengo veinte años。" },
@@ -22,8 +22,8 @@
     { "speaker": "javier", "text": "Tengo dos hermanos y una hermana.", "zh": "我有两个哥哥、一个妹妹。", "items": ["es.tener", "es.dos", "es.hermano", "es.y", "es.una", "es.hermana"] },
     { "speaker": "lina", "text": "¿Y él? ¿Es tu hermano?", "zh": "那他呢?是你哥哥吗?", "items": ["es.y", "es.el", "es.ser", "es.tu_pos", "es.hermano"] },
     { "speaker": "javier", "text": "No, es mi tío. Sus tres hijos son mis primos.", "zh": "不是,是我叔叔。他的三个儿子是我的堂兄弟。", "items": ["es.no", "es.ser", "es.mi", "es.tio", "es.su", "es.tres", "es.hijo", "es.primo"] },
-    { "speaker": "lina", "text": "¿Y ella? ¿Es tu hermana?", "zh": "那她呢?是你妹妹吗?", "items": ["es.y", "es.ella", "es.ser", "es.tu_pos", "es.hermana"] },
-    { "speaker": "javier", "text": "Sí. ¿Y tú, Li Na? ¿Tienes hermanos?", "zh": "对。你呢,李娜?你有兄弟姐妹吗?", "items": ["es.si", "es.y", "es.tu", "es.tener", "es.hermano"] },
+    { "speaker": "lina", "text": "¿Y ella? ¿Quién es?", "zh": "那她呢?她是谁?", "items": ["es.y", "es.ella", "es.quien", "es.ser"] },
+    { "speaker": "javier", "text": "Es mi hermana. ¿Y tú, Li Na? ¿Tienes hermanos?", "zh": "是我妹妹。你呢,李娜?你有兄弟姐妹吗?", "items": ["es.ser", "es.mi", "es.hermana", "es.y", "es.tu", "es.tener", "es.hermano"] },
     { "speaker": "lina", "text": "Tengo un hermano. No tengo hermanas.", "zh": "我有一个弟弟,没有姐妹。", "items": ["es.tener", "es.un", "es.hermano", "es.no", "es.hermana"] }
   ],
   "questions": [
@@ -35,5 +35,5 @@
       "bodyZh": "① tener(有)是不规则动词:tengo, tienes, tiene, tenemos, tenéis, tienen。¿Tienes hermanos? = 你有兄弟姐妹吗?否定把 no 放在动词前:No tengo hermanas.(否定句里一般不加 un / una。)\n② “一个”:阳性名词前用 un(un hermano),阴性名词前用 una(una hermana);单独数数时才说 uno。\n③ 名词复数:元音结尾加 -s(hermano → hermanos,hijo → hijos);辅音结尾加 -es(profesor → profesores)。\n④ 问“几个”:¿cuántos? + 阳性复数,¿cuántas? + 阴性复数:¿Cuántos hermanos tienes? / ¿Cuántas hermanas tienes?\n⑤ él(他,带重音符号,和冠词 el 区分)、ella(她)。su / sus = 他的、她的(也是“您的”):跟着后面的名词变单复数,不分“他”还是“她”,要看上下文——sus hijos 可以是“他的孩子们”,也可以是“她的孩子们”。",
       "examples": [{ "text": "Mi tío tiene tres hijos.", "zh": "我叔叔有三个儿子。" }, { "text": "¿Cuántas hermanas tienes?", "zh": "你有几个姐妹?" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

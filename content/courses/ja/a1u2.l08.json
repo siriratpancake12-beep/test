@@ -1,0 +1,45 @@
+{
+  "id": "ja.a1u2.l08", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 片假名与自我介绍", "order": 102080,
+  "titleZh": "单元复习:欢迎会上的自我介绍", "goalZh": "把第 1–2 单元学过的说法串起来,完整地做一次自我介绍",
+  "canDoZh": "能用 5–6 句话完整地介绍自己:名字、国籍、从哪里来、在哪里上学;听不懂时能说 すみません、わかりません",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "ja.kara_kimashita", "kind": "phrase", "pos": "phrase", "text": "から来ました", "zh": "从……来(我来自……)", "features": { "reading": "からきました", "roman": "kara kimashita" }, "noteZh": "地名 + から来ました:中国から来ました。来(き)是动词 来る 的变化形式,第 6 单元学 来ます。" },
+    { "id": "ja.ryuugakusei", "kind": "word", "pos": "noun", "text": "留学生", "zh": "留学生", "features": { "reading": "りゅうがくせい", "roman": "ryuugakusei" }, "noteZh": "りゅう 是拗音 + 长音:りゅ・う・が・く・せ・い 6 拍。意思和中文一样,读音要单独记。" },
+    { "id": "ja.daigaku", "kind": "word", "pos": "noun", "text": "大学", "zh": "大学", "features": { "reading": "だいがく", "roman": "daigaku", "pitch": 0 }, "noteZh": "“大”在这里读 だい(音读),和 大きい(おおきい,大)的读法不同。" },
+    { "id": "ja.wakaru", "kind": "word", "pos": "verb", "text": "わかります", "zh": "懂;明白", "alt": ["分かります"], "features": { "roman": "wakarimasu", "pitch": 4 }, "noteZh": "听不懂时说 すみません、わかりません;懂了说 わかりました。辞书形 わかる(一类动词)。" }
+  ],
+  "reviewItems": ["ja.hajimemashite", "ja.yoroshiku_onegaishimasu", "ja.namae", "ja.dewa_arimasen"],
+  "lines": [
+    { "speaker": "tanaka", "text": "リンさん、どうぞ。", "zh": "林同学,请。", "roman": "Rin-san, douzo.", "tokens": ["リン", "さん、", "どうぞ。"], "items": ["ja.san", "ja.douzo"] },
+    { "speaker": "rin", "text": "はじめまして。わたしの 名前は リン・ユーです。", "zh": "初次见面,我叫林雨。", "reading": "はじめまして。わたしの なまえは リン・ユーです。", "roman": "Hajimemashite. Watashi no namae wa Rin Yuu desu.", "tokens": ["はじめまして。", "わたし", "の", "名前", "は", "リン・ユー", "です。"], "items": ["ja.hajimemashite", "ja.watashi", "ja.no_p", "ja.namae", "ja.wa_p", "ja.desu"] },
+    { "speaker": "rin", "text": "中国の 杭州から 来ました。", "zh": "我来自中国杭州。", "reading": "ちゅうごくの こうしゅうから きました。", "roman": "Chuugoku no Koushuu kara kimashita.", "tokens": ["中国", "の", "杭州", "から", "来ました。"], "items": ["ja.chuugoku", "ja.no_p", "ja.kara_kimashita"] },
+    { "speaker": "rin", "text": "東京の 大学の 留学生です。よろしくおねがいします。", "zh": "我是东京一所大学的留学生。请多关照。", "reading": "とうきょうの だいがくの りゅうがくせいです。よろしくおねがいします。", "roman": "Toukyou no daigaku no ryuugakusei desu. Yoroshiku onegaishimasu.", "tokens": ["東京", "の", "大学", "の", "留学生", "です。", "よろしくおねがいします。"], "items": ["ja.no_p", "ja.daigaku", "ja.ryuugakusei", "ja.desu", "ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "tanaka", "text": "リンさんは 東京の 大学の 先生ですか。", "zh": "林同学是东京一所大学的老师吗?", "reading": "リンさんは とうきょうの だいがくの せんせいですか。", "roman": "Rin-san wa Toukyou no daigaku no sensei desu ka.", "tokens": ["リン", "さん", "は", "東京", "の", "大学", "の", "先生", "です", "か。"], "items": ["ja.san", "ja.wa_p", "ja.no_p", "ja.daigaku", "ja.sensei", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "すみません、わかりません。", "zh": "对不起,我没听懂。", "roman": "Sumimasen, wakarimasen.", "tokens": ["すみません、", "わかりません。"], "items": ["ja.sumimasen", "ja.wakaru"] },
+    { "speaker": "tanaka", "text": "リンさんは、先生ですか。", "zh": "林同学……你是老师吗?", "reading": "リンさんは、せんせいですか。", "roman": "Rin-san wa, sensei desu ka.", "tokens": ["リン", "さん", "は、", "先生", "です", "か。"], "items": ["ja.san", "ja.wa_p", "ja.sensei", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "あ、わかりました。いいえ、先生では ありません!", "zh": "啊,明白了。不,我不是老师!", "reading": "あ、わかりました。いいえ、せんせいでは ありません!", "roman": "A, wakarimashita. Iie, sensei dewa arimasen!", "tokens": ["あ、", "わかりました。", "いいえ、", "先生", "では", "ありません!"], "items": ["ja.wakaru", "ja.iie", "ja.sensei", "ja.dewa_arimasen"] },
+    { "speaker": "tanaka", "text": "ジウさん、どうぞ。", "zh": "智友同学,请。", "roman": "Jiu-san, douzo.", "tokens": ["ジウ", "さん、", "どうぞ。"], "items": ["ja.san", "ja.douzo"] },
+    { "speaker": "jiu", "text": "はじめまして。キム・ジウです。韓国の ソウルから 来ました。", "zh": "初次见面,我是金智友,来自韩国首尔。", "reading": "はじめまして。キム・ジウです。かんこくの ソウルから きました。", "roman": "Hajimemashite. Kimu Jiu desu. Kankoku no Souru kara kimashita.", "tokens": ["はじめまして。", "キム・ジウ", "です。", "韓国", "の", "ソウル", "から", "来ました。"], "items": ["ja.hajimemashite", "ja.desu", "ja.no_p", "ja.kara_kimashita"] },
+    { "speaker": "jiu", "text": "よろしくおねがいします。", "zh": "请多关照。", "roman": "Yoroshiku onegaishimasu.", "tokens": ["よろしくおねがいします。"], "items": ["ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "kenta", "text": "たなか先生、さようなら。", "zh": "田中老师,再见。", "reading": "たなかせんせい、さようなら。", "roman": "Tanaka-sensei, sayounara.", "tokens": ["たなか", "先生、", "さようなら。"], "items": ["ja.sensei", "ja.sayounara"] },
+    { "speaker": "rin", "text": "たなか先生、ありがとうございます。さようなら。", "zh": "田中老师,谢谢您。再见。", "reading": "たなかせんせい、ありがとうございます。さようなら。", "roman": "Tanaka-sensei, arigatou gozaimasu. Sayounara.", "tokens": ["たなか", "先生、", "ありがとうございます。", "さようなら。"], "items": ["ja.sensei", "ja.arigatou_gozaimasu", "ja.sayounara"] },
+    { "speaker": "tanaka", "text": "さようなら。", "zh": "再见。", "roman": "Sayounara.", "tokens": ["さようなら。"], "items": ["ja.sayounara"] }
+  ],
+  "questions": [
+    { "prompt": "林雨从哪里来?", "options": ["韩国的首尔", "中国的杭州", "日本的东京"], "answer": 1, "explainZh": "林雨说:中国の 杭州から 来ました。(我来自中国杭州。)来自首尔的是智友;东京是林雨现在上大学的地方。" },
+    { "prompt": "田中老师第一次提问时,林雨为什么说 すみません、わかりません?", "options": ["她没听懂老师的问题", "她不想回答", "她不认识田中老师"], "answer": 0, "explainZh": "老师的问题比较长,林雨没听懂,就礼貌地说 すみません、わかりません(对不起,我没听懂)。老师换成短句 リンさんは、先生ですか 再问一次。" },
+    { "prompt": "老师换了说法以后,林雨怎么回答?", "options": ["はい、先生です。", "いいえ、留学生では ありません。", "いいえ、先生では ありません!"], "answer": 2, "explainZh": "林雨说:あ、わかりました。いいえ、先生では ありません!——老师是在开玩笑,林雨是留学生,不是老师。" },
+    { "prompt": "智友从哪里来?", "options": ["中国的杭州", "日本的东京", "泰国", "韩国的首尔"], "answer": 3, "explainZh": "智友说:韓国の ソウルから 来ました。(我来自韩国首尔。)" }
+  ],
+  "grammar": [
+    { "id": "ja.g.kara_kimashita", "titleZh": "地名 から来ました 和自我介绍的顺序",
+      "bodyZh": "说自己从哪里来:地名 + から来ました(从……来)。可以先说国家,再用 の 连上城市:中国の 杭州から 来ました(我来自中国杭州)。来ました 是“来”的过去形式(第 6 单元学 来ます),这里先整体记。完整的自我介绍一般按这个顺序:① はじめまして → ② 名字(わたしの 名前は 〜です)→ ③ 从哪里来(〜から 来ました)→ ④ 身份(東京の 大学の 留学生です)→ ⑤ よろしくおねがいします。每句短一点、按顺序说,听的人更容易记住。留学生(りゅうがくせい)、大学(だいがく)和中文意思一样,读音要单独记。",
+      "examples": [ { "text": "中国の 杭州から 来ました。", "zh": "我来自中国杭州。" }, { "text": "韓国の ソウルから 来ました。", "zh": "我来自韩国首尔。" }, { "text": "東京の 大学の 留学生です。", "zh": "我是东京一所大学的留学生。" } ] },
+    { "id": "ja.g.wakarimasen", "titleZh": "听不懂时:すみません、わかりません",
+      "bodyZh": "没听懂别人的话时,别沉默,礼貌地说 すみません、わかりません(对不起,我没听懂)。对方一般会放慢速度或换简单的说法再说一次;听懂了就说 わかりました(明白了)。わかります 是“懂、明白”,わかりません 是否定,わかりました 是“明白了”。还可以说 もう一度 おねがいします(请再说一遍)。说“不懂”不丢脸——田中老师听到以后,马上换了一个简单的问法。",
+      "examples": [ { "text": "すみません、わかりません。", "zh": "对不起,我没听懂。" }, { "text": "あ、わかりました。", "zh": "啊,我明白了。" }, { "text": "もう一度 おねがいします。", "zh": "请再说一遍。" }, { "text": "わかりますか。—はい、わかります。", "zh": "明白吗?——明白。" } ] }
+  ],
+  "review": "draft"
+}

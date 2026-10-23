@@ -15,11 +15,11 @@
   ],
   "reviewItems": ["ja.de_p", "ja.fukuro", "ja.daijoubu", "ja.iru_need"],
   "lines": [
-    { "speaker": "rin", "text": "すみません、レジはどこですか。", "tokens": ["すみません、", "レジ", "は", "どこですか。"], "zh": "不好意思,收银台在哪里?", "items": ["ja.sumimasen", "ja.reji", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "すみません、レジはどこですか。", "tokens": ["すみません、", "レジ", "は", "どこ", "ですか。"], "zh": "不好意思,收银台在哪里?", "items": ["ja.sumimasen", "ja.reji", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
     { "speaker": "tenin", "text": "レジはあそこです。どうぞ。", "tokens": ["レジ", "は", "あそこ", "です。", "どうぞ。"], "zh": "收银台在那边,您请。", "items": ["ja.reji", "ja.wa_p", "ja.asoko", "ja.desu", "ja.douzo"] },
     { "speaker": "rin", "text": "これをおねがいします。", "tokens": ["これ", "を", "おねがいします。"], "zh": "(在收银台)麻烦您,结一下这些。", "items": ["ja.kore", "ja.wo_p", "ja.onegaishimasu"] },
     { "speaker": "tenin", "text": "Tシャツと傘ですね。袋はいりますか。", "reading": "ティーシャツとかさですね。ふくろはいりますか。", "tokens": ["Tシャツ", "と", "傘", "ですね。", "袋", "は", "いりますか。"], "zh": "T 恤和伞,对吧。需要袋子吗?", "items": ["ja.tshatsu", "ja.to_p", "ja.kasa", "ja.desu", "ja.ne_p", "ja.fukuro", "ja.wa_p", "ja.iru_need", "ja.ka_p"] },
-    { "speaker": "rin", "text": "いいえ、大丈夫です。全部でいくらですか。", "reading": "いいえ、だいじょうぶです。ぜんぶでいくらですか。", "tokens": ["いいえ、", "大丈夫です。", "全部で", "いくらですか。"], "zh": "不用了,谢谢。一共多少钱?", "items": ["ja.iie", "ja.daijoubu", "ja.desu", "ja.zenbude", "ja.ikura", "ja.ka_p"] },
+    { "speaker": "rin", "text": "いいえ、大丈夫です。全部でいくらですか。", "reading": "いいえ、だいじょうぶです。ぜんぶでいくらですか。", "tokens": ["いいえ、", "大丈夫です。", "全部で", "いくら", "ですか。"], "zh": "不用了,谢谢。一共多少钱?", "items": ["ja.iie", "ja.daijoubu", "ja.desu", "ja.zenbude", "ja.ikura", "ja.ka_p"] },
     { "speaker": "tenin", "text": "全部で3,200円です。", "reading": "ぜんぶでさんぜんにひゃくえんです。", "tokens": ["全部で", "3,200円", "です。"], "zh": "一共 3,200 日元。", "items": ["ja.zenbude", "ja.san_num", "ja.sen", "ja.ni", "ja.hyaku", "ja.en", "ja.desu"] },
     { "speaker": "rin", "text": "カードでいいですか。", "tokens": ["カード", "で", "いいですか。"], "zh": "可以刷卡吗?", "items": ["ja.kaado", "ja.de_p", "ja.ii", "ja.desu", "ja.ka_p"] },
     { "speaker": "tenin", "text": "すみません、現金だけです。", "reading": "すみません、げんきんだけです。", "tokens": ["すみません、", "現金", "だけ", "です。"], "zh": "不好意思,我们只收现金。", "items": ["ja.sumimasen", "ja.genkin", "ja.dake_p", "ja.desu"] },
@@ -27,9 +27,9 @@
     { "speaker": "tenin", "text": "1,800円とレシートです。ありがとうございました。", "reading": "せんはっぴゃくえんとレシートです。ありがとうございました。", "tokens": ["1,800円", "と", "レシート", "です。", "ありがとうございました。"], "zh": "找您 1,800 日元,这是小票。谢谢惠顾。", "items": ["ja.sen", "ja.hachi", "ja.hyaku", "ja.en", "ja.to_p", "ja.reshiito", "ja.desu", "ja.arigatou_gozaimasu"] }
   ],
   "questions": [
-    { "prompt": "一共多少钱?", "options": ["1,800 日元", "3,200 日元", "5,000 日元", "2,300 日元"], "answer": 1, "explainZh": "店员说:全部で3,200円です。(さんぜんにひゃくえん,一共 3,200 日元)" },
+    { "prompt": "一共多少钱?", "options": ["3,200 日元", "1,800 日元", "5,000 日元", "2,300 日元"], "answer": 0, "explainZh": "店员说:全部で3,200円です。(さんぜんにひゃくえん,一共 3,200 日元)" },
     { "prompt": "林雨最后怎么付的钱?", "options": ["刷卡", "用手机支付", "付现金"], "answer": 2, "explainZh": "店员说 現金だけです(只收现金),林雨说:じゃあ、現金で払います。" },
-    { "prompt": "林雨要袋子吗?", "options": ["不要", "要一个", "要两个"], "answer": 0, "explainZh": "店员问 袋はいりますか,林雨说:いいえ、大丈夫です。(不用了)" }
+    { "prompt": "林雨要袋子吗?", "options": ["要一个", "不要", "要两个"], "answer": 1, "explainZh": "店员问 袋はいりますか,林雨说:いいえ、大丈夫です。(不用了)" }
   ],
   "grammar": [
     {

@@ -29,14 +29,14 @@
     { "speaker": "lina", "text": "Mi padre tiene cincuenta años y mi madre, cuarenta y ocho.", "zh": "我爸爸五十岁,我妈妈四十八。", "items": ["es.mi", "es.padre", "es.tener", "es.cincuenta", "es.cuantos_anos_tienes", "es.y", "es.madre", "es.cuarenta", "es.ocho"] }
   ],
   "questions": [
-    { "prompt": "Diego 的爷爷多大?", "options": ["七十九岁", "八十二岁", "七十五岁"], "answer": 1, "explainZh": "Diego 说:Este es mi abuelo. Tiene ochenta y dos años.;七十九岁(setenta y nueve)的是他奶奶。" },
-    { "prompt": "李娜的妈妈多大?", "options": ["四十八岁", "五十岁", "七十三岁"], "answer": 0, "explainZh": "李娜说:Mi padre tiene cincuenta años y mi madre, cuarenta y ocho." },
-    { "prompt": "Diego 怎么帮李娜分清 sesenta 和 setenta?", "options": ["sesenta 是七十,setenta 是六十", "两个词意思一样,都能用", "sesenta 像 seis(六),setenta 像 siete(七)"], "answer": 2, "explainZh": "Diego 说:Sesenta: seis. Setenta: siete.——第二个音节不一样:se-SEN-ta 像 seis,se-TEN-ta 像 siete。" }
+    { "prompt": "Diego 的爷爷多大?", "options": ["八十二岁", "七十九岁", "七十五岁"], "answer": 0, "explainZh": "Diego 说:Este es mi abuelo. Tiene ochenta y dos años.;七十九岁(setenta y nueve)的是他奶奶。" },
+    { "prompt": "李娜的妈妈多大?", "options": ["五十岁", "七十三岁", "四十八岁"], "answer": 2, "explainZh": "李娜说:Mi padre tiene cincuenta años y mi madre, cuarenta y ocho." },
+    { "prompt": "Diego 怎么帮李娜分清 sesenta 和 setenta?", "options": ["sesenta 是七十,setenta 是六十", "sesenta 像 seis(六),setenta 像 siete(七)", "两个词意思一样,都能用"], "answer": 1, "explainZh": "Diego 说:Sesenta: seis. Setenta: siete.——第二个音节不一样:se-SEN-ta 像 seis,se-TEN-ta 像 siete。" }
   ],
   "grammar": [
     { "id": "es.g.numeros_21_100", "titleZh": "21–100:十位 + y + 个位",
       "bodyZh": "① 整十:treinta 30 · cuarenta 40 · cincuenta 50 · sesenta 60 · setenta 70 · ochenta 80 · noventa 90;正好 100 说 cien。\n② 21–29 写成一个词:veintiuno, veintidós, veintitrés, veinticuatro, veinticinco, veintiséis, veintisiete, veintiocho, veintinueve(veintidós、veintitrés、veintiséis 有重音符号)。\n③ 31 以后十位和个位分开写,中间加 y:treinta y uno, cuarenta y ocho, ochenta y dos。中文“八十二”直接连着说,西语中间一定要有 y。\n④ uno 在阳性名词前变成 un:veintiún años、treinta y un años。\n⑤ 别混:sesenta(60)和 setenta(70)只差中间一个音:se-SEN-ta 像 seis,se-TEN-ta 像 siete。cincuenta 的两个 c 读音不同:第一个读 [θ],第二个在 u 前读 [k]。\n说别人的年龄还是用 tener:Mi abuelo tiene ochenta y dos años.",
       "examples": [{ "text": "Mi abuelo tiene ochenta y dos años.", "zh": "我爷爷八十二岁。" }, { "text": "Mi madre tiene cuarenta y ocho años.", "zh": "我妈妈四十八岁。" }, { "text": "Veintidós, treinta y uno, cien.", "zh": "二十二、三十一、一百。" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

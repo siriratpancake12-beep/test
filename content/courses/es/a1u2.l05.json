@@ -27,13 +27,13 @@
     { "speaker": "lina", "text": "¿Médico? ¡Mi madre es médica!", "zh": "医生?我妈妈也是医生!", "items": ["es.medico", "es.mi", "es.madre", "es.ser"] }
   ],
   "questions": [
-    { "prompt": "李娜的妈妈在哪儿工作?", "options": ["在大学", "在医院", "在马德里"], "answer": 1, "explainZh": "李娜说:Mi madre es médica. Trabaja en un hospital." },
-    { "prompt": "谁会说英语?", "options": ["Javier", "李娜的妈妈", "李娜的爸爸"], "answer": 2, "explainZh": "说到爸爸,李娜说:No, es profesor y habla inglés.(他是老师,会说英语。)" }
+    { "prompt": "李娜的妈妈在哪儿工作?", "options": ["在医院", "在大学", "在马德里"], "answer": 0, "explainZh": "李娜说:Mi madre es médica. Trabaja en un hospital." },
+    { "prompt": "谁会说英语?", "options": ["Javier", "李娜的爸爸", "李娜的妈妈"], "answer": 1, "explainZh": "说到爸爸,李娜说:No, es profesor y habla inglés.(他是老师,会说英语。)" }
   ],
   "grammar": [
     { "id": "es.g.verbos_ar", "titleZh": "-ar 规则动词;说职业不加冠词",
       "bodyZh": "① -ar 结尾的规则动词:去掉 -ar,按人称加词尾 -o, -as, -a, -amos, -áis, -an:\ntrabajar → trabajo, trabajas, trabaja, trabajamos, trabajáis, trabajan\nhablar、estudiar 一样变:hablo, hablas, habla… / estudio, estudias, estudia…\n词尾已经说明是谁,所以 Trabaja en un hospital 就是“他 / 她在医院工作”。\n② 说职业不加冠词:Es médica. / Soy estudiante.——英语要说 a doctor,西语不加 un / una。职业名词分阴阳性:el médico / la médica,el profesor / la profesora;estudiante 男女同形。\n③ en + 地点 = 在……:en un hospital, en Madrid。\n④ hablar + 语言,不加冠词,语言名小写:Habla inglés. / Hablo chino.。“汉语和英语”说 chino e inglés——y 在 i、hi 开头的词前变成 e。\n⑤ mayor = 年长的:mi hermano mayor = 我哥哥(有几个哥哥时常指大哥)。",
       "examples": [{ "text": "Soy estudiante y estudio en Madrid.", "zh": "我是学生,在马德里上学。" }, { "text": "Hablo chino e inglés.", "zh": "我会说汉语和英语。" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

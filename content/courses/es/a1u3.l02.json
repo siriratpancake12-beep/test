@@ -1,7 +1,7 @@
 {
   "id": "es.a1u3.l02", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
   "unit": "A1-3 我的住处", "order": 103020,
-  "titleZh": "房间里有什么?", "goalZh": "记住常用家具和物品,会问'有什么'", "canDoZh": "能说出自己房间里有什么家具和东西",
+  "titleZh": "房间里有什么?", "goalZh": "记住常用家具和物品,会问“有什么”", "canDoZh": "能说出自己房间里有什么家具和东西",
   "skills": ["listen", "read", "write"], "estimatedMinutes": 24,
   "newItems": [
     { "id": "es.que", "kind": "word", "pos": "pron", "text": "qué", "zh": "什么", "features": { "ipa": "ke" }, "noteZh": "疑问词都有重音符号:¿Qué hay?(有什么?)¿Qué es?(这是什么?);qu 读 [k],u 不发音。" },
@@ -18,7 +18,7 @@
   "lines": [
     { "speaker": "lina", "text": "Marta, ¿qué hay en mi habitación?", "zh": "玛尔塔,我房间里有什么?", "items": ["es.que", "es.hay", "es.en", "es.mi", "es.habitacion"] },
     { "speaker": "marta", "text": "Hay una cama, un armario, una mesa y una ventana.", "zh": "有一张床、一个衣柜、一张桌子,还有一扇窗户。", "items": ["es.hay", "es.una", "es.cama", "es.un", "es.armario", "es.mesa", "es.y", "es.ventana"] },
-    { "speaker": "lina", "text": "¿Y una silla?", "zh": "那椅子呢?", "items": ["es.y", "es.una", "es.silla"] },
+    { "speaker": "lina", "text": "Hay una cama, una mesa… ¿Y una silla?", "zh": "有床,有桌子……那椅子呢?", "items": ["es.hay", "es.una", "es.cama", "es.mesa", "es.y", "es.silla"] },
     { "speaker": "marta", "text": "No, no hay silla.", "zh": "没有,屋里没有椅子。", "items": ["es.no", "es.hay", "es.silla"] },
     { "speaker": "lina", "text": "¿Y en el salón?", "zh": "那客厅里呢?", "items": ["es.y", "es.en", "es.salon"] },
     { "speaker": "marta", "text": "En el salón hay un sofá, una mesa y dos sillas.", "zh": "客厅里有一个沙发、一张桌子和两把椅子。", "items": ["es.en", "es.salon", "es.hay", "es.un", "es.sofa", "es.una", "es.mesa", "es.y", "es.dos", "es.silla"] },
@@ -42,5 +42,5 @@
         { "text": "En mi habitación no hay silla.", "zh": "我房间里没有椅子。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

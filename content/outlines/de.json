@@ -843,7 +843,7 @@
       "id": "de.a1u8.l01", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108010,
       "titleZh": "爱好:你周末喜欢做什么?", "goalZh": "会说自己的爱好和多久做一次",
       "canDoZh": "能说出自己的爱好、多久做一次,也能问别人的爱好",
-      "scenarioZh": "春天到了。保罗问大家空闲时喜欢做什么:约纳斯和保罗踢足球,莉娜游泳,索菲娅听音乐、看书,王伟喜欢看书和看电影,也想试试踢足球。约纳斯约他周六一起踢球。说话人:paul、jonas、lena、sofia、wei。",
+      "scenarioZh": "三月中,春天到了。保罗问大家空闲时喜欢做什么:约纳斯和保罗踢足球,莉娜游泳,索菲娅听音乐、看书,王伟喜欢看书和看电影,也想试试踢足球。约纳斯约他周六一起踢球。说话人:paul、jonas、lena、sofia、wei。",
       "grammarFocusZh": "spielen + 运动(Fußball spielen,不加冠词);gern 复习(Ich schwimme gern);lesen / sehen 不规则(du liest, er sieht);oft 的位置(Ich spiele oft Fußball);Was ist dein Hobby?",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
       "newItems": [
@@ -864,8 +864,8 @@
       "id": "de.a1u8.l02", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108020,
       "titleZh": "春天来了:天气和季节", "goalZh": "会说天气怎么样、多少度,记住春天和夏天",
       "canDoZh": "能说今天天气怎么样(出太阳、下雨、热、多少度),听懂简单的天气预报",
-      "scenarioZh": "周五,霍夫曼先生在楼门口跟王伟聊天气:三月还下过雪,四月常常下雨,现在五月出太阳、暖和了;收音机里的天气预报说周六下雨、周日晴天 25 度。王伟说成都的夏天很热。说话人:hoffmann、wei、radio。",
-      "grammarFocusZh": "天气用 es 做主语:Es regnet. / Es ist warm.;Die Sonne scheint.;Es gibt Schnee.;气温:Es ist 25 Grad.;im Frühling / im Sommer(复习 im + 季节、月份);Wie ist das Wetter?",
+      "scenarioZh": "三月中的一个周五,霍夫曼先生在楼门口跟王伟聊天气:今天出太阳、暖和了,可柏林的三月常常还很冷、会下雪;王伟听说四月常下雨、五月天气就好了;收音机里的天气预报说周六下雨、周日晴天 15 度。王伟说成都的夏天很热。说话人:hoffmann、wei、radio。",
+      "grammarFocusZh": "天气用 es 做主语:Es regnet. / Es ist warm.;Die Sonne scheint.;Es gibt Schnee.;气温:Es sind 15 Grad.;im Frühling / im Sommer(复习 im + 季节、月份);Wie ist das Wetter?",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
       "newItems": [
         { "id": "de.wetter", "kind": "word", "pos": "noun", "text": "das Wetter", "zh": "天气", "features": { "gender": "n", "plural": "-", "ipa": "ˈvɛtɐ" }, "noteZh": "Wie ist das Wetter?(天气怎么样?)天气是德国人最爱聊的“安全话题”。" },
@@ -885,7 +885,7 @@
       "id": "de.a1u8.l03", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108030,
       "titleZh": "我头疼:身体部位", "goalZh": "记住常见的身体部位,会说哪里疼",
       "canDoZh": "能说出身体哪里疼、哪里不舒服",
-      "scenarioZh": "周六王伟和约纳斯、保罗冒雨踢了一下午足球。第二天早上他浑身不舒服:头疼、嗓子疼、背疼,脚也疼。索菲娅问他 Was tut weh?,王伟一个一个说。说话人:sofia、wei。",
+      "scenarioZh": "三月中的一个周六,王伟和约纳斯、保罗冒雨踢了一下午足球。第二天(星期天)早上他浑身不舒服:头疼、嗓子疼、背疼,脚也疼。索菲娅问他 Was tut weh?,王伟一个一个说;索菲娅让他明天别去上德语课。说话人:sofia、wei。",
       "grammarFocusZh": "wehtun 可分(Mein Kopf tut weh / Meine Füße tun weh);复合词:Kopf + Schmerzen = Kopfschmerzen(Ich habe Kopfschmerzen / Halsschmerzen);身体部位的复数(Augen, Hände, Beine, Füße)",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 9,
       "newItems": [
@@ -906,7 +906,7 @@
       "id": "de.a1u8.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108040,
       "titleZh": "在诊所:看医生", "goalZh": "会在诊所前台约时间、跟医生说症状,听懂医生的建议",
       "canDoZh": "能在诊所说出自己哪里不舒服、病了几天,听懂医生的建议(吃药、多睡觉、多喝水)",
-      "scenarioZh": "王伟发烧了。索菲娅帮他打电话约了诺伊曼医生的诊所;前台问他的名字和保险卡(“保险卡”不教,用 Karte)。诺伊曼医生问哪里疼、哪天开始的,说是感冒:Trinken Sie viel Tee und schlafen Sie viel!,开了药片;他去药店买药,药剂师说 Gute Besserung!。说话人:arzthelferin、wei、aerztin、apotheker。",
+      "scenarioZh": "星期一早上,王伟已经发烧两天了。他自己给诺伊曼医生的诊所打电话,前台让他十点来。诺伊曼医生问他发烧多久了,说只是感冒:Trinken Sie viel Tee und schlafen Sie viel!;药片去药店买,最后医生说 Gute Besserung!。说话人:arzthelferin、wei、aerztin。",
       "grammarFocusZh": "Sie 的命令式复习(Nehmen Sie die Tabletten! Trinken Sie viel Wasser!);müssen 复习(Sie müssen viel schlafen);Mir geht es schlecht. / Ich bin krank. / Ich habe Fieber.;viel + 名词(viel Wasser)",
       "skills": ["listen", "speak"], "estimatedMinutes": 11,
       "newItems": [
@@ -927,7 +927,7 @@
       "id": "de.a1u8.l05", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108050,
       "titleZh": "上周末你做了什么?——现在完成时入门", "goalZh": "会用现在完成时说做过的事,会用 war / hatte",
       "canDoZh": "能说上周末或昨天做了什么、去了哪里、怎么样",
-      "scenarioZh": "六月的一个周一,德语课上瓦格纳老师问 Was haben Sie am Wochenende gemacht?:王伟说他和莉娜去湖边游泳,和约纳斯去郊外远足;索菲娅说她拜访了朋友、看了电影;老师问王伟上周五为什么没来——他病了(Ich war krank)。说话人:wagner、wei、sofia。",
+      "scenarioZh": "三月底的一个周一(复活节前),德语课上瓦格纳老师问 Was haben Sie am Wochenende gemacht?:索菲娅说她昨天去看朋友了;王伟说星期六和约纳斯去湖边徒步(湖水还冷,不下水),星期天和莉娜去游泳;老师问王伟上个星期为什么没来——他病了(Ich war krank und hatte eine Erkältung)。说话人:wagner、wei、sofia。",
       "grammarFocusZh": "现在完成时 = haben / sein + 过去分词(放句末):Ich habe Fußball gespielt;规则动词 ge-…-t(gemacht, gespielt, gekauft),常用不规则动词 ge-…-en(gegessen, gesehen, gelesen);表示位置移动用 sein(Ich bin nach Hamburg gefahren / gegangen / geschwommen / gewandert);sein、haben 说过去常用 war / hatte(不单立词条)",
       "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
       "newItems": [
@@ -945,10 +945,10 @@
     },
     {
       "id": "de.a1u8.l08", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108080,
-      "titleZh": "单元复习:我在德国的第一年", "goalZh": "读懂一篇用现在完成时写的回顾短文,写自己学德语的经历",
-      "canDoZh": "能读懂、也能写一段 8–10 句的短文,讲自己过去一段时间做了什么、现在怎么样",
-      "scenarioZh": "七月,王伟考完德语 A1,暑假要回成都。他给德语课的博客写《我在德国的第一年》:九月来柏林,认识莉娜、索菲娅,搬进 WG,冬天买了第一件冬衣,春天病了一次,现在已经能说不少德语;八月放假回中国,十月再回来。全文用完成时和现在时,把 8 个单元的内容串起来。说话人:wei(博客)。",
-      "grammarFocusZh": "复习:现在完成时、war / hatte;时间顺序(im September, dann, jetzt);schon / wieder / zurück 的位置",
+      "titleZh": "单元复习:我在德国的头半年", "goalZh": "读懂一篇回顾过去半年的短文(现在完成时),会写自己的经历和接下来的计划",
+      "canDoZh": "能读懂、也能写一段 8–10 句的短文,讲自己过去半年做了什么、现在怎么样、接下来打算做什么",
+      "scenarioZh": "四月的复活节假期,王伟给德语课的博客写《我在德国的头半年》:来柏林已经七个月;九月坐飞机来,那时听不懂多少,莉娜和索菲娅帮了他很多;十月在 WG 找到房间,十二月和约纳斯去汉堡,冬天买了外套,三月病了一次、现在又好了;已经会说一点德语。后半篇用现在时说计划:五月考 A1(还没考),假期里好好准备;八月回成都看家人,十月回柏林。《我在德国的第一年》在第 20 单元。说话人:wei(博客)。",
+      "grammarFocusZh": "复习:现在完成时、war / hatte;时间顺序(im September, dann, jetzt);schon / wieder / zurück 的位置;用现在时 + 时间说计划(Im Mai mache ich die A1-Prüfung.)",
       "skills": ["read", "write"], "estimatedMinutes": 12,
       "newItems": [
         { "id": "de.schon", "kind": "word", "pos": "adv", "text": "schon", "zh": "已经", "features": { "ipa": "ʃoːn" }, "noteZh": "Ich spreche schon gut Deutsch.(我已经能说不错的德语了。)否定:noch nicht(还没有)。" },

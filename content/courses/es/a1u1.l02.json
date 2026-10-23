@@ -26,17 +26,17 @@
     { "speaker": "javier", "text": "Yo soy español, de Madrid.", "zh": "我是西班牙人,马德里的。", "items": ["es.yo", "es.ser", "es.espanol", "es.de"] }
   ],
   "questions": [
-    { "prompt": "Diego 是哪国人?", "options": ["西班牙人", "墨西哥人", "中国人"], "answer": 1, "explainZh": "Diego 说 Soy mexicano, de Guadalajara,又补了一句 ¡De México!。马德里附近也有个城市叫 Guadalajara,所以 Javier 故意问他 ¿De España?" },
+    { "prompt": "Diego 是哪国人?", "options": ["墨西哥人", "西班牙人", "中国人"], "answer": 0, "explainZh": "Diego 说 Soy mexicano, de Guadalajara,又补了一句 ¡De México!。马德里附近也有个城市叫 Guadalajara,所以 Javier 故意问他 ¿De España?" },
     { "prompt": "李娜为什么说 Soy china,不说 Soy chino?", "options": ["因为 chino 是国家名", "因为对方是男生", "因为国籍要跟说话人自己的性别一致"], "answer": 2, "explainZh": "国籍形容词分阴阳性:男生说 chino,女生说 china。Diego 是男生,所以说 mexicano。" },
-    { "prompt": "Javier 是哪里人?", "options": ["马德里人", "成都人", "瓜达拉哈拉人"], "answer": 0, "explainZh": "Javier 说:Yo soy español, de Madrid.(我是西班牙人,马德里的。)" }
+    { "prompt": "Javier 是哪里人?", "options": ["成都人", "马德里人", "瓜达拉哈拉人"], "answer": 1, "explainZh": "Javier 说:Yo soy español, de Madrid.(我是西班牙人,马德里的。)" }
   ],
   "grammar": [
     { "id": "es.g.ser_singular", "titleZh": "ser(是):soy / eres / es",
       "bodyZh": "ser 是不规则动词,单数三个形式要整个背下来:\nyo soy(我是)· tú eres(你是)· él / ella es(他 / 她是;él、ella 第 2 单元学)\n用 ser 说身份、国籍、来自哪里。ser de + 城市或国家 = 来自……:Soy de Chengdú.\n问“你是哪里人”:¿De dónde eres?——de 一定放在 dónde 前面。英语说 Where are you from?,介词放在句末;西语不能说 ¿Dónde eres de?\n动词词尾已经说明是谁,所以主语代词常常省略:Soy china 就是“我是中国人”。只有对比、强调时才说出来:¿Y tú? — Yo soy español.",
       "examples": [{ "text": "¿De dónde eres?", "zh": "你是哪里人?(你从哪里来?)" }, { "text": "Soy de Guadalajara, México.", "zh": "我是墨西哥瓜达拉哈拉人。" }] },
     { "id": "es.g.nacionalidad", "titleZh": "国籍分阴阳性;国家大写、国籍小写",
-      "bodyZh": "说国籍用形容词,要和说的那个人的性别一致:\n· -o 结尾的:把 -o 换成 -a。chino → china,mexicano → mexicana\n· 辅音结尾的:直接加 -a。español → española\n所以李娜说 Soy china,Diego 说 Soy mexicano。中文“中国人”不分男女,英语 Chinese 也不变,中国女生最容易说成 Soy chino。\n国家名首字母大写:China, España, México;国籍小写:chino, español——英语 Chinese、Spanish 要大写,西语不用。\n说国籍不加冠词,也不用另加“人”:Soy china = 我是中国人。加上冠词 el chino、el español 指“汉语”“西班牙语”。",
+      "bodyZh": "说国籍用形容词,要和说的那个人的性别一致:\n· -o 结尾的:把 -o 换成 -a。chino → china,mexicano → mexicana\n· 辅音结尾的:直接加 -a。español → española\n所以李娜说 Soy china,Diego 说 Soy mexicano。中文“中国人”不分男女,英语 Chinese 也不变,中国女生最容易说成 Soy chino。\n国家名首字母大写:China, España, México;国籍小写:chino, español——英语 Chinese、Spanish 要大写,西语不用。\n说国籍不加冠词,也不用另加“人”:Soy china = 我是中国人。加上冠词,el chino、el español 也可以指“汉语”“西班牙语”。",
       "examples": [{ "text": "Li Na es china y Diego es mexicano.", "zh": "李娜是中国人,迭戈是墨西哥人。" }, { "text": "Javier es español.", "zh": "哈维尔是西班牙人。" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

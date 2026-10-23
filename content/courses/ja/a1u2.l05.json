@@ -1,0 +1,46 @@
+{
+  "id": "ja.a1u2.l05", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 片假名与自我介绍", "order": 102050,
+  "titleZh": "片假名⑤:ラ行、ワ行、ン和外来语;我不是日本人", "goalZh": "学完全部片假名,会读带长音和特殊拼法的外来语;学会用“〜ではありません”否定",
+  "canDoZh": "能认读、写出全部片假名,分清 ソ / ン、シ / ツ,能读 パーティー 这样的外来语;别人弄错时能用“〜ではありません”纠正",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ja.kata_ra", "kind": "char", "pos": "char", "text": "ラ", "zh": "ra(=ら)", "features": { "roman": "ra" }, "noteZh": "取自“良”。" },
+    { "id": "ja.kata_ri", "kind": "char", "pos": "char", "text": "リ", "zh": "ri(=り)", "features": { "roman": "ri" }, "noteZh": "取自“利”的右边“刂”,和平假名 り 很像。" },
+    { "id": "ja.kata_ru", "kind": "char", "pos": "char", "text": "ル", "zh": "ru(=る)", "features": { "roman": "ru" }, "noteZh": "取自“流”的右下部。" },
+    { "id": "ja.kata_re", "kind": "char", "pos": "char", "text": "レ", "zh": "re(=れ)", "features": { "roman": "re" }, "noteZh": "取自“礼”的右边,一笔写成。" },
+    { "id": "ja.kata_ro", "kind": "char", "pos": "char", "text": "ロ", "zh": "ro(=ろ)", "features": { "roman": "ro" }, "noteZh": "取自“呂”,像汉字“口”。" },
+    { "id": "ja.kata_wa", "kind": "char", "pos": "char", "text": "ワ", "zh": "wa(=わ)", "features": { "roman": "wa" }, "noteZh": "取自“和”的右边。和 ウ 区分:ワ 上面没有点。" },
+    { "id": "ja.kata_wo", "kind": "char", "pos": "char", "text": "ヲ", "zh": "o(=を)", "features": { "roman": "wo" }, "noteZh": "取自“乎”。现代日语几乎只用平假名 を,片假名 ヲ 很少见,认识即可。" },
+    { "id": "ja.kata_n", "kind": "char", "pos": "char", "text": "ン", "zh": "n(=ん)", "features": { "roman": "n" }, "noteZh": "和 ソ 区分:ン 的点从左往右写,最后一笔从左下往右上挑;ソ 的点从上往下写,最后一笔往左下撇。" },
+    { "id": "ja.sensei", "kind": "word", "pos": "noun", "text": "先生", "zh": "老师;医生", "features": { "reading": "せんせい", "roman": "sensei", "pitch": 3 }, "noteZh": "日语的“先生”是老师、医生、律师等,不是中文的“先生(男士)”。称呼老师说 先生 或 田中先生,不加 さん;不能用来称呼自己。" },
+    { "id": "ja.dewa_arimasen", "kind": "phrase", "pos": "phrase", "text": "ではありません", "zh": "不是(です 的否定)", "alt": ["じゃありません", "じゃないです"], "features": { "roman": "dewa arimasen" }, "noteZh": "では 的 は 读 wa;口语常说 じゃありません / じゃないです。日本人では ありません(不是日本人)。" },
+    { "id": "ja.nihongo", "kind": "word", "pos": "noun", "text": "日本語", "zh": "日语", "features": { "reading": "にほんご", "roman": "nihongo", "pitch": 0 }, "noteZh": "国名 + 語(ご)= 某国的语言:中国語(汉语)、英語(英语)。日本語の 先生 = 日语老师。" },
+    { "id": "ja.paatii", "kind": "word", "pos": "noun", "text": "パーティー", "zh": "聚会;派对", "features": { "roman": "paatii", "pitch": 1 }, "noteZh": "ティ 是外来语的特殊拼法(テ + 小 ィ,读 ti);两个 ー 都要拉长:パ・ー・ティ・ー 一共 4 拍。" }
+  ],
+  "reviewItems": ["ja.nihon", "ja.chuugoku", "ja.ka_p", "ja.no_p"],
+  "lines": [
+    { "speaker": "kenta", "text": "リンさん、ジウさんは 中国人ですか。", "zh": "林雨,智友是中国人吗?", "reading": "リンさん、ジウさんは ちゅうごくじんですか。", "roman": "Rin-san, Jiu-san wa Chuugokujin desu ka.", "tokens": ["リン", "さん、", "ジウ", "さん", "は", "中国人", "です", "か。"], "items": ["ja.san", "ja.wa_p", "ja.chuugoku", "ja.jin", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "いいえ、中国人では ありません。韓国人です。", "zh": "不,她不是中国人,是韩国人。", "reading": "いいえ、ちゅうごくじんでは ありません。かんこくじんです。", "roman": "Iie, Chuugokujin dewa arimasen. Kankokujin desu.", "tokens": ["いいえ、", "中国人", "では", "ありません。", "韓国人", "です。"], "items": ["ja.iie", "ja.chuugoku", "ja.jin", "ja.dewa_arimasen", "ja.desu"] },
+    { "speaker": "jiu", "text": "キム・ジウです。よろしくおねがいします。", "zh": "我是金智友。请多关照。", "roman": "Kimu Jiu desu. Yoroshiku onegaishimasu.", "tokens": ["キム・ジウ", "です。", "よろしくおねがいします。"], "items": ["ja.desu", "ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "kenta", "text": "たかはし けんたです。日本人です。", "zh": "我是高桥健太,日本人。", "reading": "たかはし けんたです。にほんじんです。", "roman": "Takahashi Kenta desu. Nihonjin desu.", "tokens": ["たかはし", "けんた", "です。", "日本人", "です。"], "items": ["ja.desu", "ja.nihon", "ja.jin"] },
+    { "speaker": "tanaka", "text": "はじめまして。日本語の 先生の たなかです。", "zh": "初次见面,我是日语老师田中。", "reading": "はじめまして。にほんごの せんせいの たなかです。", "roman": "Hajimemashite. Nihongo no sensei no Tanaka desu.", "tokens": ["はじめまして。", "日本語", "の", "先生", "の", "たなか", "です。"], "items": ["ja.hajimemashite", "ja.nihongo", "ja.no_p", "ja.sensei", "ja.desu"] },
+    { "speaker": "kenta", "text": "たなか先生、はじめまして。", "zh": "田中老师,初次见面。", "reading": "たなかせんせい、はじめまして。", "roman": "Tanaka-sensei, hajimemashite.", "tokens": ["たなか", "先生、", "はじめまして。"], "items": ["ja.sensei", "ja.hajimemashite"] },
+    { "speaker": "narrator", "text": "ラ リ ル レ ロ ワ ヲ ン", "zh": "ラ行、ワ行和 ン:ra ri ru re ro wa o n", "roman": "ra ri ru re ro wa o n", "tokens": ["ラ", "リ", "ル", "レ", "ロ", "ワ", "ヲ", "ン"], "items": ["ja.kata_ra", "ja.kata_ri", "ja.kata_ru", "ja.kata_re", "ja.kata_ro", "ja.kata_wa", "ja.kata_wo", "ja.kata_n"] },
+    { "speaker": "narrator", "text": "パーティー", "zh": "聚会(pa-a-ti-i,四拍)", "roman": "paatii", "tokens": ["パーティー"], "items": ["ja.paatii", "ja.kata_choon"] }
+  ],
+  "questions": [
+    { "prompt": "健太以为智友是哪国人?", "options": ["日本人", "中国人", "韩国人"], "answer": 1, "explainZh": "健太问:ジウさんは 中国人ですか。林雨纠正他:いいえ、中国人では ありません。韓国人です。" },
+    { "prompt": "田中老师是做什么的?", "options": ["日语老师", "大学生", "医生"], "answer": 0, "explainZh": "田中老师说:日本語の 先生の たなかです。(我是日语老师田中。)" },
+    { "prompt": "知道田中是老师以后,健太怎么称呼他?", "options": ["たなかさん", "先生さん", "たなか先生"], "answer": 2, "explainZh": "健太说:たなか先生、はじめまして。称呼老师用“姓 + 先生”,不再加 さん。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.dewa_arimasen", "titleZh": "N では ありません:不是……",
+      "bodyZh": "です 的否定是 では ありません:中国人です(是中国人)→ 中国人では ありません(不是中国人)。では 的 は 读 wa。口语里常说 じゃありません 或 じゃないです,意思一样。纠正别人时,先说 いいえ,再否定,最后说出正确的:いいえ、中国人では ありません。韓国人です。和中文不同,“不是”放在句末:中文“不是 中国人”,日语“中国人 では ありません”。",
+      "examples": [ { "text": "いいえ、中国人では ありません。韓国人です。", "zh": "不,她不是中国人,是韩国人。" }, { "text": "わたしは 先生では ありません。学生です。", "zh": "我不是老师,是学生。" }, { "text": "日本人では ありません。", "zh": "不是日本人。" } ] },
+    { "id": "ja.g.gairaigo", "titleZh": "外来语的拼法:ー、ッ、ャュョ 和 ティ",
+      "bodyZh": "片假名写外来语时,长音 ー、促音 ッ、拗音 ャ ュ ョ 的规则和平假名一样:サッカー(足球)、メニュー(菜单)。另外有一些平假名里没有的特殊拼法,用来更接近外语发音:ティ(ti)、ディ(di)、ファ(fa)、ウィ(wi)、チェ(che)……都是“片假名 + 小写的 ァ ィ ゥ ェ ォ”,合成一拍。パーティー = パ・ー・ティ・ー,4 拍,两个 ー 都要拉长。再对比一次易混字:ソ / ン(ソ 往下撇,ン 往上挑)、シ / ツ(シ 往上挑,ツ 往下撇)。ヲ 现代几乎不用,知道它读 o 就行。",
+      "examples": [ { "text": "パーティー", "zh": "聚会(pa-a-ti-i,四拍)" }, { "text": "サッカー", "zh": "足球(sa-k-ka-a,四拍)" }, { "text": "メニュー", "zh": "菜单(me-nyu-u,三拍)" } ] }
+  ],
+  "review": "draft"
+}

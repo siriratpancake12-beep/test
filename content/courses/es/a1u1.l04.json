@@ -30,13 +30,13 @@
   ],
   "questions": [
     { "prompt": "李娜的电话号码是多少?", "options": ["674 281 933", "647 281 933", "647 218 933"], "answer": 1, "explainZh": "李娜说:Es el seis, cuatro, siete, dos, ocho, uno, nueve, tres, tres.;Javier 又三位一组重复了一遍。" },
-    { "prompt": "Javier 第一次说自己的号码时,李娜说了什么?", "options": ["¡Gracias!", "¿Y tú?", "No entiendo. Más despacio, por favor."], "answer": 2, "explainZh": "李娜没听懂,说 No entiendo. Más despacio, por favor.,Javier 就三位一组、慢慢地又说了一遍。" },
-    { "prompt": "Javier 的电话号码是多少?", "options": ["691 355 827", "691 553 827", "619 355 872"], "answer": 0, "explainZh": "Seis, nueve, uno… tres, cinco, cinco… ocho, dos, siete." }
+    { "prompt": "Javier 第一次说自己的号码时,李娜说了什么?", "options": ["No entiendo. Más despacio, por favor.", "¡Gracias!", "¿Y tú?"], "answer": 0, "explainZh": "李娜没听懂,说 No entiendo. Más despacio, por favor.,Javier 就三位一组、慢慢地又说了一遍。" },
+    { "prompt": "Javier 的电话号码是多少?", "options": ["691 553 827", "619 355 872", "691 355 827"], "answer": 2, "explainZh": "Seis, nueve, uno… tres, cinco, cinco… ocho, dos, siete." }
   ],
   "grammar": [
     { "id": "es.g.numeros_1_10", "titleZh": "数字 1–10;电话号码怎么说",
       "bodyZh": "1–10:uno, dos, tres, cuatro, cinco, seis, siete, ocho, nueve, diez。\n问电话号码:¿Cuál es tu número de teléfono?(用 cuál,不用 qué);回答:Es el + 数字。初学一位一位地读,两三位一组停一下,对方最容易听清:Es el seis, cuatro, siete… dos, ocho, uno…。没听清就说 No entiendo / Más despacio, por favor,听完再重复一遍核对。\nuno 用来数数;放在名词前要变:阳性名词前说 un,阴性名词前说 una(第 2 单元学)。\n发音:cinco、diez 里的 c、z 读 [θ](咬舌);nueve 的 v 读 [b];tres、cuatro 的 tr 连着读,中间别加元音;seis 的 ei 像英语 say。\n手势也不一样:中国人一只手就能比出 1–10,六到十都有专门的手势;西班牙人数数常从大拇指开始掰手指,六以上就要用两只手。",
       "examples": [{ "text": "¿Cuál es tu número de teléfono?", "zh": "你的电话号码是多少?" }, { "text": "Es el seis, nueve, uno, tres, cinco, cinco, ocho, dos, siete.", "zh": "是 691 355 827。" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

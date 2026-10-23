@@ -12,7 +12,7 @@
   "reviewItems": ["es.piso", "es.barrio", "es.companero", "es.vecino"],
   "lines": [
     { "speaker": "lina", "text": "Querido Diego:", "zh": "亲爱的迭戈:", "items": ["es.querido"] },
-    { "speaker": "lina", "text": "¿Qué tal? Yo estoy muy bien en mi piso nuevo.", "zh": "你好吗?我在新公寓里过得很好。", "items": ["es.que_tal", "es.yo", "es.estar", "es.muy", "es.bien", "es.en", "es.mi", "es.piso", "es.nuevo"] },
+    { "speaker": "lina", "text": "¿Qué tal? Estoy muy bien en mi piso nuevo.", "zh": "你好吗?我在新公寓里过得很好。", "items": ["es.que_tal", "es.estar", "es.muy", "es.bien", "es.en", "es.mi", "es.piso", "es.nuevo"] },
     { "speaker": "lina", "text": "El piso está en Chamberí, un barrio tranquilo cerca del centro.", "zh": "公寓在 Chamberí,一个离市中心很近的安静街区。", "items": ["es.piso", "es.estar", "es.en", "es.un", "es.barrio", "es.tranquilo", "es.cerca", "es.de", "es.centro"] },
     { "speaker": "lina", "text": "Es viejo y no hay ascensor, pero tiene mucha luz.", "zh": "公寓很旧,也没有电梯,但是采光很好。", "items": ["es.ser", "es.viejo", "es.y", "es.no", "es.hay", "es.ascensor", "es.pero", "es.tener", "es.mucho", "es.luz"] },
     { "speaker": "lina", "text": "Hay un salón, una cocina, un baño y dos habitaciones.", "zh": "有一个客厅、一个厨房、一个卫生间和两间卧室。", "items": ["es.hay", "es.un", "es.salon", "es.una", "es.cocina", "es.bano", "es.y", "es.dos", "es.habitacion"] },
@@ -25,10 +25,10 @@
     { "speaker": "lina", "text": "Un abrazo, Li Na", "zh": "拥抱你,李娜", "items": ["es.un_abrazo"] }
   ],
   "questions": [
-    { "prompt": "李娜的公寓在哪儿?", "options": ["在市中心", "在一个离市中心很近的安静街区", "在大学里", "在塞维利亚"], "answer": 1, "explainZh": "El piso está en Chamberí, un barrio tranquilo cerca del centro.——tranquilo 是安静,cerca del centro 是离市中心近。" },
-    { "prompt": "公寓有什么不方便的地方?", "options": ["没有电梯", "采光不好", "没有厨房", "离市中心很远"], "answer": 0, "explainZh": "Es viejo y no hay ascensor, pero tiene mucha luz.——没有电梯,但采光很好。" },
+    { "prompt": "李娜的公寓在哪儿?", "options": ["在市中心", "在大学里", "在塞维利亚", "在一个离市中心很近的安静街区"], "answer": 3, "explainZh": "El piso está en Chamberí, un barrio tranquilo cerca del centro.——tranquilo 是安静,cerca del centro 是离市中心近。" },
+    { "prompt": "公寓有什么不方便的地方?", "options": ["采光不好", "没有电梯", "没有厨房", "离市中心很远"], "answer": 1, "explainZh": "Es viejo y no hay ascensor, pero tiene mucha luz.——没有电梯,但采光很好。" },
     { "prompt": "李娜房间里的桌子在哪儿?", "options": ["在门后面", "在床旁边", "在窗户旁边", "在客厅里"], "answer": 2, "explainZh": "Hay una cama, un armario y una mesa al lado de la ventana.——al lado de la ventana 是在窗户旁边。" },
-    { "prompt": "邮件里说皮拉尔太太是什么样的人?", "options": ["很安静,不爱说话", "在医院工作", "是塞维利亚人", "人很好,很爱聊天"], "answer": 3, "explainZh": "Mi vecina, Doña Pilar, es muy simpática y habla mucho.;来自塞维利亚、在医院工作的是室友玛尔塔。" }
+    { "prompt": "邮件里说皮拉尔太太是什么样的人?", "options": ["人很好,很爱聊天", "很安静,不爱说话", "在医院工作", "是塞维利亚人"], "answer": 0, "explainZh": "Mi vecina, Doña Pilar, es muy simpática y habla mucho.;来自塞维利亚、在医院工作的是室友玛尔塔。" }
   ],
   "grammar": [
     { "id": "es.g.email", "titleZh": "怎么写一封西语邮件(DELE A1 写作)",
@@ -51,5 +51,5 @@
         { "text": "Doña Pilar habla mucho.", "zh": "皮拉尔太太很爱聊天。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

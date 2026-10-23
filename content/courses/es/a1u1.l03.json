@@ -27,13 +27,13 @@
     { "speaker": "lina", "text": "¡Ah, sí! Gracias.", "zh": "啊,明白了!谢谢。", "items": ["es.si", "es.gracias"] }
   ],
   "questions": [
-    { "prompt": "老师把李娜的名字听成了什么?", "options": ["Li", "Lina", "Na"], "answer": 1, "explainZh": "老师问 ¿Lina?,李娜说 No, Li Na,并拼给他听:Li: ele, i. Na: ene, a." },
+    { "prompt": "老师把李娜的名字听成了什么?", "options": ["Lina", "Li", "Na"], "answer": 0, "explainZh": "老师问 ¿Lina?,李娜说 No, Li Na,并拼给他听:Li: ele, i. Na: ene, a." },
     { "prompt": "老师第一次问年龄和电话时,李娜怎么做?", "options": ["马上说出了电话号码", "说自己是中国人", "请老师再说一遍、说慢一点"], "answer": 2, "explainZh": "李娜说:No entiendo. ¿Puedes repetir? Más despacio, por favor. 老师就放慢速度又问了一遍,还把 años 拼了出来。" }
   ],
   "grammar": [
     { "id": "es.g.alfabeto", "titleZh": "字母和拼读规则:看到就能读",
-      "bodyZh": "西语基本上“怎么写就怎么读”,记住这几条,生词也能读出来:\n· 五个元音 a e i o u 读音固定,不变音,也不能“吞”掉。\n· h 不发音:Hola [ˈola]、hasta。\n· c 在 e、i 前和 z 读 [θ](舌尖轻咬,像英语 think 的 th):gracias、diez;拉美读 [s]。c 在 a、o、u 前读 [k]:cómo。\n· j,还有 g 在 e、i 前,读喉音 [x](像汉语“喝”的声母,更用力):Javier。\n· ll 和 y 读 [ʝ]:me llamo、yo。\n· ñ 读 [ɲ](像“尼亚”连读):España、años。\n· r 只轻弹一下:gracias;rr 和词首的 r 要多颤几下:repetir。\n· b 和 v 读音一样:por favor 的 v 读 [b]。\n重音:元音、n、s 结尾的词,重音在倒数第二个音节(llamo、entiendo);其他辅音结尾的,重音在最后一个音节(español、favor)。不合这个规则的就写重音符号:número、teléfono、adiós。tú / tu、sí / si 和疑问词(¿cómo?、¿dónde?)上的重音符号用来区分意思,也不能漏。\n字母名:a, be, ce, de, e, efe, ge, hache, i, jota, ka, ele, eme, ene, eñe, o, pe, cu, erre, ese, te, u, uve, uve doble, equis, ye, zeta。拼名字一个字母一个字母说:Li = ele, i。",
+      "bodyZh": "西语基本上“怎么写就怎么读”,记住这几条,生词也能读出来:\n· 五个元音 a e i o u 读音固定,不变音,也不能“吞”掉。\n· h 不发音:Hola [ˈola]、hasta。\n· c 在 e、i 前和 z 读 [θ](舌尖轻咬,像英语 think 的 th):gracias、diez;拉美读 [s]。c 在 a、o、u 前读 [k]:cómo。\n· j,还有 g 在 e、i 前,读喉音 [x](像汉语“喝”的声母,更用力):Javier。\n· ll 和元音前的 y 读 [ʝ]:me llamo、yo;单独的 y(和)和词尾的 y 读 [i]:y、hay、muy。\n· ñ 读 [ɲ](像“尼亚”连读):España、años。\n· r 只轻弹一下:gracias;rr 和词首的 r 要多颤几下:repetir。\n· b 和 v 读音一样:por favor 的 v 读 [b]。\n重音:元音、n、s 结尾的词,重音在倒数第二个音节(llamo、entiendo);其他辅音结尾的,重音在最后一个音节(español、favor)。不合这个规则的就写重音符号:número、teléfono、adiós。tú / tu、sí / si 和疑问词(¿cómo?、¿dónde?)上的重音符号用来区分意思,也不能漏。\n字母名:a, be, ce, de, e, efe, ge, hache, i, jota, ka, ele, eme, ene, eñe, o, pe, cu, erre, ese, te, u, uve, uve doble, equis, ye(很多西班牙人也叫它 i griega), zeta。拼名字一个字母一个字母说:Li = ele, i。",
       "examples": [{ "text": "Hola, me llamo Li Na.", "zh": "你好,我叫李娜。(h 不发音;ll 读 [ʝ])" }, { "text": "Gracias. Más despacio, por favor.", "zh": "谢谢。请说慢一点。(c 在 i 前读 [θ];v 读 [b])" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

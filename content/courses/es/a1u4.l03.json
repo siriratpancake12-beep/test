@@ -4,13 +4,13 @@
   "titleZh": "逛菜市场", "goalZh": "会买水果,会问价钱、说数量", "canDoZh": "能在菜市场买水果,问一共多少钱并付款",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
   "newItems": [
-    { "id": "es.mercado", "kind": "word", "pos": "noun", "text": "el mercado", "zh": "市场;菜市场", "features": { "gender": "m", "ipa": "el meɾˈkado" }, "noteZh": "马德里每个街区都有室内菜市场,比超市新鲜。" },
+    { "id": "es.mercado", "kind": "word", "pos": "noun", "text": "el mercado", "zh": "市场;菜市场", "features": { "gender": "m", "ipa": "el meɾˈkado" }, "noteZh": "马德里很多街区都有室内菜市场(mercado municipal),卖的东西很新鲜。" },
     { "id": "es.fruta", "kind": "word", "pos": "noun", "text": "la fruta", "zh": "水果", "features": { "gender": "f", "ipa": "la ˈfɾuta" }, "noteZh": "常用单数泛指水果:mucha fruta = 很多水果。" },
     { "id": "es.manzana", "kind": "word", "pos": "noun", "text": "la manzana", "zh": "苹果", "features": { "gender": "f", "ipa": "la manˈθana" }, "noteZh": "z 读 [θ];复数 las manzanas。" },
     { "id": "es.naranja", "kind": "word", "pos": "noun", "text": "la naranja", "zh": "橙子", "features": { "gender": "f", "ipa": "la naˈɾanxa" }, "noteZh": "j 读 [x];zumo de naranja = 橙汁。" },
     { "id": "es.platano", "kind": "word", "pos": "noun", "text": "el plátano", "zh": "香蕉", "features": { "gender": "m", "ipa": "el ˈplatano" }, "noteZh": "重音在 plá;南美很多地方说 la banana。" },
     { "id": "es.kilo", "kind": "word", "pos": "noun", "text": "el kilo", "zh": "公斤", "features": { "gender": "m", "ipa": "el ˈkilo" }, "noteZh": "un kilo de manzanas = 一公斤苹果。" },
-    { "id": "es.medio", "kind": "word", "pos": "adj", "text": "medio", "zh": "半;一半的", "features": { "ipa": "ˈmedjo" }, "noteZh": "medio kilo = 半公斤(前面不加 un);说钟点的'半'用 y media(第 5 单元)。" },
+    { "id": "es.medio", "kind": "word", "pos": "adj", "text": "medio", "zh": "半;一半的", "features": { "ipa": "ˈmedjo" }, "noteZh": "medio kilo = 半公斤(前面不加 un);说钟点的“半”用 y media(第 5 单元)。" },
     { "id": "es.euro", "kind": "word", "pos": "noun", "text": "el euro", "zh": "欧元", "features": { "gender": "m", "ipa": "el ˈeuɾo" }, "noteZh": "e 和 u 都要读出来;价格说 Son tres euros(一欧元用单数 Es un euro);一分钱叫 el céntimo。" },
     { "id": "es.cuanto_es", "kind": "phrase", "pos": "phrase", "text": "¿Cuánto es?", "zh": "一共多少钱?", "features": { "ipa": "ˈkwanto es" }, "noteZh": "结账时问总价;回答:Son tres euros。问单件的价格是 ¿Cuánto cuesta?(第 6 单元)。" },
     { "id": "es.algo_mas", "kind": "phrase", "pos": "phrase", "text": "¿Algo más?", "zh": "还要别的吗?", "features": { "ipa": "ˈalɡo mas" }, "noteZh": "店员常问;不要了就说 No, gracias。" }
@@ -43,5 +43,5 @@
         { "text": "¿Algo más? — No, gracias.", "zh": "还要别的吗?——不要了,谢谢。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -26,17 +26,17 @@
     { "speaker": "lina", "text": "Soy baja, tengo el pelo moreno… ¡y soy china!", "zh": "我个子矮,深色头发……而且我是中国人!", "items": ["es.ser", "es.bajo", "es.tener", "es.pelo", "es.moreno", "es.y", "es.chino"] }
   ],
   "questions": [
-    { "prompt": "Carla 长什么样?", "options": ["个子矮,金色头发", "个子高,很瘦,深色头发", "个子高,金色头发"], "answer": 1, "explainZh": "Diego 说:Es alta y muy delgada, y tiene el pelo moreno." },
+    { "prompt": "Carla 长什么样?", "options": ["个子高,很瘦,深色头发", "个子矮,金色头发", "个子高,金色头发"], "answer": 0, "explainZh": "Diego 说:Es alta y muy delgada, y tiene el pelo moreno." },
     { "prompt": "照片上金头发的男人是谁?", "options": ["Diego 的爸爸", "Carla 的哥哥", "Carla 的爸爸,也就是 Diego 的舅舅"], "answer": 2, "explainZh": "李娜问 ¿Es su padre?(是她爸爸吗?),Diego 说 Sí, es mi tío.——su 在这里是“她的”。" },
-    { "prompt": "李娜怎么描述自己,好让 Carla 认出她?", "options": ["个子矮,深色头发,是中国人", "个子高,很瘦", "金色头发,个子很高"], "answer": 0, "explainZh": "李娜说:Soy baja, tengo el pelo moreno… ¡y soy china!" }
+    { "prompt": "李娜怎么描述自己,好让 Carla 认出她?", "options": ["个子高,很瘦", "个子矮,深色头发,是中国人", "金色头发,个子很高"], "answer": 1, "explainZh": "李娜说:Soy baja, tengo el pelo moreno… ¡y soy china!" }
   ],
   "grammar": [
     { "id": "es.g.ser_adjetivo", "titleZh": "ser + 形容词:形容词跟着人变",
-      "bodyZh": "描述长相和性格,用 ser + 形容词:Carla es alta.\n形容词要和它描述的人(名词)性数一致:\nalto(他)· alta(她)· altos(他们)· altas(她们)\n以 -e 或辅音结尾的形容词男女同形,复数加 -s / -es(本单元后面会学到 mayor、joven)。\n中文“她很高”里的“很”常常只是顺口,西语的 muy 是真的“非常”:Es alta = 她个子高;Es muy alta = 她个子很高(特别高)。中文还可以不用动词,西语一定要有 es,不能说 Ella alta。\n礼貌:描述外貌别说 gordo(胖)、feo(丑);说 delgado(瘦、苗条)更好听,说个子矮也可以委婉地说 no muy alto(不太高)。",
+      "bodyZh": "描述长相和性格,用 ser + 形容词:Carla es alta.\n形容词要和它描述的人(名词)性数一致:\nalto(他)· alta(她)· altos(他们)· altas(她们)\n以 -e 或辅音结尾的形容词一般男女同形,复数加 -s / -es(本单元后面会学到 mayor、joven);国籍形容词例外,辅音结尾的也要加 -a:español → española。\n中文“她很高”里的“很”常常只是顺口,西语的 muy 是真的“非常”:Es alta = 她个子高;Es muy alta = 她个子很高(特别高)。中文还可以不用动词,西语一定要有 es,不能说 Ella alta。\n礼貌:描述外貌别说 gordo(胖)、feo(丑)这类伤人的词;说瘦用 delgado(苗条),说个子矮也可以委婉一点:no muy alto(不太高)。",
       "examples": [{ "text": "Carla es alta y muy delgada.", "zh": "Carla 个子高,很瘦。" }, { "text": "Mis primos son muy simpáticos.", "zh": "我的表兄弟们都很好相处。" }] },
     { "id": "es.g.como_es_pelo", "titleZh": "¿Cómo es? 和 tener el pelo…",
       "bodyZh": "¿Cómo es? 问一个人长什么样、是什么样的人:¿Cómo es tu prima?;问对方本人:¿Cómo eres?。别和 ¿Cómo está? 混:那是问身体、心情“怎么样”(estar 第 3 单元学)。\n说头发用 tener + el pelo + 颜色:Tiene el pelo moreno / rubio。这里形容词跟着 el pelo(阳性单数)变,所以说女生也是 el pelo moreno;说人本身才跟着人变:Carla es morena。中国学生常写成 Carla tiene el pelo morena——错。\n西班牙说 moreno 多指头发颜色深(黑发、棕发),也可以指皮肤晒黑;金发是 rubio。形容词前加冠词可以指人:el rubio = 那个金头发的(男的)。",
       "examples": [{ "text": "¿Cómo es tu prima?", "zh": "你表姐长什么样?" }, { "text": "Carla tiene el pelo moreno.", "zh": "Carla 是深色头发。" }] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

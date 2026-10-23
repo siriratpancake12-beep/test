@@ -1,0 +1,59 @@
+{
+  "id": "ja.a1u8.l03", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 我的一天与周末", "order": 108030,
+  "titleZh": "上周末做了什么?", "goalZh": "会用动词过去形说做过什么、没做什么,用“楽しかったです”说开心", "canDoZh": "能说昨天、上周末做了什么、没做什么,以及玩得开不开心",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "ja.kinou", "kind": "word", "pos": "noun", "text": "昨日", "zh": "昨天", "features": { "reading": "きのう", "pitch": 2 }, "noteZh": "熟字训:读 きのう,不能按字读。昨日 后面不加 に。" },
+    { "id": "ja.senshuu", "kind": "word", "pos": "noun", "text": "先週", "zh": "上周", "features": { "reading": "せんしゅう", "pitch": 0 }, "noteZh": "先週 = 上周,来週(らいしゅう)= 下周:日语的“先”是“之前的”,“来”是“下一个”。しゅう 是拗音加长音。" },
+    { "id": "ja.soujisuru", "kind": "word", "pos": "verb", "text": "掃除します", "zh": "打扫", "features": { "reading": "そうじします", "pitch": 5 }, "noteZh": "辞书形 掃除する(三类动词)。部屋を 掃除します(打扫房间);そう 是长音。" },
+    { "id": "ja.sentakusuru", "kind": "word", "pos": "verb", "text": "洗濯します", "zh": "洗衣服", "features": { "reading": "せんたくします", "pitch": 6 }, "noteZh": "洗濯 = 洗衣服;せんたく 听起来像中文“选择”,意思完全不同。辞书形 洗濯する(三类动词)。" },
+    { "id": "ja.kaimono", "kind": "word", "pos": "noun", "text": "買い物", "zh": "购物", "features": { "reading": "かいもの", "pitch": 0 }, "noteZh": "買い物を します(购物):買い(买)+ 物(东西)。" },
+    { "id": "ja.sanpo", "kind": "word", "pos": "noun", "text": "散歩", "zh": "散步", "features": { "reading": "さんぽ", "pitch": 0 }, "noteZh": "公園を 散歩します(在公园散步):经过的地方用 を。ぽ 是半浊音。" },
+    { "id": "ja.nanimo", "kind": "word", "pos": "adv", "text": "何も", "zh": "什么都(不)……", "features": { "reading": "なにも" }, "noteZh": "后面接否定:何も しませんでした(什么都没做)。读 なにも。" },
+    { "id": "ja.tanoshii", "kind": "word", "pos": "adj", "text": "楽しい", "zh": "开心;愉快", "features": { "reading": "たのしい", "pitch": 3 }, "noteZh": "自己觉得开心:楽しかったです(玩得很开心),不说 ×楽しいでした;おもしろい 是事物“有趣”。" }
+  ],
+  "reviewItems": ["ja.shuumatsu", "ja.suru", "ja.kouen", "ja.neru"],
+  "lines": [
+    { "speaker": "saki", "text": "リンさん、週末は何をしましたか。", "reading": "リンさん、しゅうまつはなにをしましたか。", "tokens": ["リンさん、", "週末", "は", "何", "を", "しましたか。"], "zh": "(星期一)林雨,周末你做什么了?", "items": ["ja.san", "ja.shuumatsu", "ja.wa_p", "ja.nani", "ja.wo_p", "ja.suru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "土曜日は喫茶店で働きました。", "reading": "どようびはきっさてんではたらきました。", "tokens": ["土曜日", "は", "喫茶店", "で", "働きました。"], "zh": "星期六在咖啡馆打工了。", "items": ["ja.doyoubi", "ja.wa_p", "ja.kissaten", "ja.de_p", "ja.hataraku"] },
+    { "speaker": "saki", "text": "日曜日も働きましたか。", "reading": "にちようびもはたらきましたか。", "tokens": ["日曜日", "も", "働きましたか。"], "zh": "星期天也打工了吗?", "items": ["ja.nichiyoubi", "ja.mo_p", "ja.hataraku", "ja.ka_p"] },
+    { "speaker": "rin", "text": "いいえ、日曜日は休みました。掃除と洗濯をしました。", "reading": "いいえ、にちようびはやすみました。そうじとせんたくをしました。", "tokens": ["いいえ、", "日曜日", "は", "休みました。", "掃除", "と", "洗濯", "を", "しました。"], "zh": "没有,星期天请假休息了。在家打扫、洗衣服。", "items": ["ja.iie", "ja.nichiyoubi", "ja.wa_p", "ja.yasumu", "ja.soujisuru", "ja.to_p", "ja.sentakusuru", "ja.wo_p", "ja.suru"] },
+    { "speaker": "rin", "text": "それから公園を散歩しました。", "reading": "それからこうえんをさんぽしました。", "tokens": ["それから", "公園", "を", "散歩しました。"], "zh": "然后去公园散了散步。", "items": ["ja.sorekara", "ja.kouen", "ja.wo_p", "ja.sanpo", "ja.suru"] },
+    { "speaker": "saki", "text": "いいですね。わたしは買い物をしました。とても楽しかったです。", "reading": "いいですね。わたしはかいものをしました。とてもたのしかったです。", "tokens": ["いいですね。", "わたし", "は", "買い物", "を", "しました。", "とても", "楽しかったです。"], "zh": "不错嘛。我去购物了,特别开心。", "items": ["ja.ii", "ja.desu", "ja.ne_p", "ja.watashi", "ja.wa_p", "ja.kaimono", "ja.wo_p", "ja.suru", "ja.totemo", "ja.tanoshii"] },
+    { "speaker": "rin", "text": "けんたさんは?週末は何をしましたか。", "reading": "けんたさんは?しゅうまつはなにをしましたか。", "tokens": ["けんたさん", "は?", "週末", "は", "何", "を", "しましたか。"], "zh": "健太呢?周末做什么了?", "items": ["ja.san", "ja.wa_p", "ja.shuumatsu", "ja.nani", "ja.wo_p", "ja.suru", "ja.ka_p"] },
+    { "speaker": "kenta", "text": "わたしは何もしませんでした。昨日は家で寝ました!", "reading": "わたしはなにもしませんでした。きのうはいえでねました!", "tokens": ["わたし", "は", "何も", "しませんでした。", "昨日", "は", "家", "で", "寝ました!"], "zh": "我什么都没做。昨天就在家睡觉了!", "items": ["ja.watashi", "ja.wa_p", "ja.nanimo", "ja.suru", "ja.kinou", "ja.ie", "ja.de_p", "ja.neru"] },
+    { "speaker": "saki", "text": "けんたさん、先週も寝ましたね!", "reading": "けんたさん、せんしゅうもねましたね!", "tokens": ["けんたさん、", "先週", "も", "寝ましたね!"], "zh": "健太,你上周末也是睡过去的吧!", "items": ["ja.san", "ja.senshuu", "ja.mo_p", "ja.neru", "ja.ne_p"] },
+    { "speaker": "kenta", "text": "はい、とても楽しかったです!", "reading": "はい、とてもたのしかったです!", "tokens": ["はい、", "とても", "楽しかったです!"], "zh": "对,睡得可开心了!", "items": ["ja.hai", "ja.totemo", "ja.tanoshii", "ja.desu"] }
+  ],
+  "questions": [
+    { "prompt": "林雨星期天做了什么?", "options": ["打扫、洗衣服,然后去公园散步", "在咖啡馆打工", "去购物"], "answer": 0, "explainZh": "林雨说:日曜日は休みました。掃除と洗濯をしました。それから公園を散歩しました。" },
+    { "prompt": "咲周末做了什么?", "options": ["打扫房间", "在家睡觉", "购物"], "answer": 2, "explainZh": "咲说:わたしは買い物をしました。とても楽しかったです。" },
+    { "prompt": "健太周末做了什么?", "options": ["去公园散步", "什么都没做,在家睡觉", "打工"], "answer": 1, "explainZh": "健太说:何もしませんでした。昨日は家で寝ました!" }
+  ],
+  "grammar": [
+    {
+      "id": "ja.g.mashita",
+      "titleZh": "过去形:V ました / V ませんでした",
+      "bodyZh": "说过去做了什么,把 ます 变成 ました:働きます → 働きました,寝ます → 寝ました;否定把 ません 变成 ませんでした:しません → しませんでした。中文靠“了”和“昨天”这类词表示过去,动词本身不变;日语一定要改动词的词尾,有了 昨日、先週 也不能省,不说 ×昨日は 家で 寝ます。昨日、先週、週末、毎日、今日 这类词后面不加 に。“何も + 否定”= 什么都没……:何も しませんでした(什么都没做)。问别人做了什么:週末は 何を しましたか。",
+      "examples": [
+        { "text": "昨日は家で寝ました。", "zh": "昨天在家睡觉了。(きのうはいえでねました)" },
+        { "text": "先週は喫茶店で働きました。", "zh": "上周在咖啡馆打工了。(せんしゅうはきっさてんではたらきました)" },
+        { "text": "何もしませんでした。", "zh": "什么都没做。(なにもしませんでした)" },
+        { "text": "週末は何をしましたか。", "zh": "周末你做什么了?(しゅうまつはなにをしましたか)" }
+      ]
+    },
+    {
+      "id": "ja.g.n_wo_suru",
+      "titleZh": "N を します;楽しかったです",
+      "bodyZh": "很多动作用“名词 + を します”来说:買い物を します(购物)、宿題を します(写作业)、掃除を します / 掃除します(打扫)、洗濯を します / 洗濯します(洗衣服)。两件事一起说用 と:掃除と 洗濯を しました。散歩 也用 します:公園を 散歩します(在公园散步),这里的 を 表示走过的地方(也能听到 公園で 散歩します)。洗濯 是“洗衣服”,和中文“选择”发音像,意思完全不同。玩得开心说 楽しかったです(楽しい 的过去形,先整个记住);中国学生常说成 ×楽しいでした,这是错的。",
+      "examples": [
+        { "text": "買い物をしました。", "zh": "去购物了。(かいものをしました)" },
+        { "text": "掃除と洗濯をしました。", "zh": "打扫了房间,还洗了衣服。(そうじとせんたくをしました)" },
+        { "text": "公園を散歩しました。", "zh": "在公园散了步。(こうえんをさんぽしました)" },
+        { "text": "とても楽しかったです。", "zh": "非常开心。(とてもたのしかったです)" }
+      ]
+    }
+  ],
+  "review": "draft"
+}
