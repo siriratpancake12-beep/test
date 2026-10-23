@@ -17,7 +17,7 @@
   ],
   "reviewItems": ["de.kurs", "de.deutsch", "de.haben"],
   "lines": [
-    { "speaker": "lena", "text": "Wei, was hast du am Montag?", "zh": "伟,你星期一有什么课?", "items": ["de.was", "de.haben", "de.du", "de.am", "de.montag"] },
+    { "speaker": "lena", "text": "Wei, was hast du am Montag?", "zh": "王伟,你星期一有什么课?", "items": ["de.was", "de.haben", "de.du", "de.am", "de.montag"] },
     { "speaker": "wei", "text": "Am Montag und am Mittwoch habe ich Deutsch.", "zh": "星期一和星期三我有德语课。", "items": ["de.am", "de.montag", "de.und", "de.mittwoch", "de.haben", "de.ich", "de.deutsch"] },
     { "speaker": "lena", "text": "Und am Dienstag?", "zh": "那星期二呢?", "items": ["de.und", "de.am", "de.dienstag"] },
     { "speaker": "wei", "text": "Am Dienstag und am Donnerstag habe ich zwei Kurse.", "zh": "星期二和星期四我有两门专业课。", "items": ["de.am", "de.dienstag", "de.und", "de.donnerstag", "de.haben", "de.ich", "de.zwei", "de.kurs"] },
@@ -42,5 +42,5 @@
         { "text": "Am Sonntag kochen wir zusammen.", "zh": "星期天我们一起做饭。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

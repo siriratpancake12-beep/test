@@ -20,12 +20,12 @@
     { "speaker": "sofia", "text": "Jonas, wann hast du Geburtstag?", "zh": "约纳斯,你的生日是什么时候?", "items": ["de.wann", "de.haben", "de.du", "de.geburtstag"] },
     { "speaker": "jonas", "text": "Am 15. November. Jetzt ist Oktober, noch ein Monat!", "zh": "11 月 15 日。现在是十月,还有一个月!", "items": ["de.am", "de.fuenf", "de.zehn", "de.november", "de.jetzt", "de.sein", "de.oktober", "de.noch", "de.ein", "de.monat"] },
     { "speaker": "wei", "text": "Und du, Sofia? Hast du im September Geburtstag?", "zh": "你呢,索菲娅?你的生日在九月吗?", "items": ["de.und", "de.du", "de.haben", "de.in", "de.september", "de.geburtstag"] },
-    { "speaker": "sofia", "text": "Nein, im Januar. Und du, Wei?", "zh": "不是,在一月。你呢,伟?", "items": ["de.nein", "de.in", "de.januar", "de.und", "de.du"] },
+    { "speaker": "sofia", "text": "Nein, im Januar. Und du, Wei?", "zh": "不是,在一月。你呢,王伟?", "items": ["de.nein", "de.in", "de.januar", "de.und", "de.du"] },
     { "speaker": "wei", "text": "Im Februar. Dann bin ich einundzwanzig Jahre alt.", "zh": "二月。到时候我就二十一岁了。", "items": ["de.in", "de.februar", "de.dann", "de.sein", "de.ich", "de.eins", "de.und", "de.zwanzig", "de.jahr", "de.alt"] },
     { "speaker": "wei", "text": "Im Februar ist meine Familie zusammen, und mein Vater kocht.", "zh": "二月(过春节)我们全家团聚,我爸爸做饭。", "items": ["de.in", "de.februar", "de.sein", "de.mein", "de.familie", "de.zusammen", "de.und", "de.vater", "de.kochen"] },
     { "speaker": "jonas", "text": "Lecker! Ich will auch nach Chengdu!", "zh": "听着就好吃!我也想去成都!", "items": ["de.lecker", "de.ich", "de.wollen", "de.auch", "de.nach"] },
     { "speaker": "lena", "text": "Und ich habe im Dezember Geburtstag.", "zh": "我的生日在十二月。", "items": ["de.und", "de.ich", "de.haben", "de.in", "de.dezember", "de.geburtstag"] },
-    { "speaker": "sofia", "text": "Lena, Wei und ich haben im Winter Geburtstag!", "zh": "莉娜、伟和我,我们的生日都在冬天!", "items": ["de.und", "de.ich", "de.haben", "de.in", "de.winter", "de.geburtstag"] },
+    { "speaker": "sofia", "text": "Lena, Wei und ich haben im Winter Geburtstag!", "zh": "莉娜、王伟和我,我们的生日都在冬天!", "items": ["de.und", "de.ich", "de.haben", "de.in", "de.winter", "de.geburtstag"] },
     { "speaker": "lena", "text": "Ja! Und Jonas hat im Herbst Geburtstag.", "zh": "对!约纳斯的生日在秋天。", "items": ["de.ja", "de.und", "de.haben", "de.in", "de.herbst", "de.geburtstag"] }
   ],
   "questions": [
@@ -42,5 +42,5 @@
         { "text": "Im Winter haben wir Geburtstag.", "zh": "我们的生日都在冬天。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

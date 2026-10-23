@@ -1,0 +1,46 @@
+{
+  "id": "ja.a1u2.l02", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 片假名与自我介绍", "order": 102020,
+  "titleZh": "片假名②:サ行、タ行;我是中国人", "goalZh": "认读、书写 サ行和タ行的 10 个片假名,学会说自己是哪国人",
+  "canDoZh": "能认读、写出 サシスセソ タチツテト,分清 シ / ツ;能说“わたしは 中国人です”,听懂别人的国籍",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ja.kata_sa", "kind": "char", "pos": "char", "text": "サ", "zh": "sa(=さ)", "features": { "roman": "sa" }, "noteZh": "取自“散”的左上部。" },
+    { "id": "ja.kata_shi", "kind": "char", "pos": "char", "text": "シ", "zh": "shi(=し)", "features": { "roman": "shi" }, "noteZh": "取自“之”。和 ツ 最容易混:シ 的两点在左边、上下排,点从左往右写;最后一笔从左下往右上挑。" },
+    { "id": "ja.kata_su", "kind": "char", "pos": "char", "text": "ス", "zh": "su(=す)", "features": { "roman": "su" }, "noteZh": "取自“須”的右边。和 ヌ 区分:ス 中间没有那一点。" },
+    { "id": "ja.kata_se", "kind": "char", "pos": "char", "text": "セ", "zh": "se(=せ)", "features": { "roman": "se" }, "noteZh": "取自“世”。和平假名 せ 很像,少一竖。" },
+    { "id": "ja.kata_so", "kind": "char", "pos": "char", "text": "ソ", "zh": "so(=そ)", "features": { "roman": "so" }, "noteZh": "取自“曽”的上部。和 ン(第 5 课学)容易混:ソ 的点从上往下写,最后一笔从右上往左下撇;ン 的点从左往右写,最后一笔从左下往右上挑。" },
+    { "id": "ja.kata_ta", "kind": "char", "pos": "char", "text": "タ", "zh": "ta(=た)", "features": { "roman": "ta" }, "noteZh": "取自“多”,像汉字“夕”。和 ク 区分:タ 中间多一点。" },
+    { "id": "ja.kata_chi", "kind": "char", "pos": "char", "text": "チ", "zh": "chi(=ち)", "features": { "roman": "chi" }, "noteZh": "取自“千”,形状也像“千”。" },
+    { "id": "ja.kata_tsu", "kind": "char", "pos": "char", "text": "ツ", "zh": "tsu(=つ)", "features": { "roman": "tsu" }, "noteZh": "取自“川”。和 シ 区分:ツ 的两点在上面、左右排,点从上往下写;最后一笔从右上往左下撇。" },
+    { "id": "ja.kata_te", "kind": "char", "pos": "char", "text": "テ", "zh": "te(=て)", "features": { "roman": "te" }, "noteZh": "取自“天”。" },
+    { "id": "ja.kata_to", "kind": "char", "pos": "char", "text": "ト", "zh": "to(=と)", "features": { "roman": "to" }, "noteZh": "取自“止”,像汉字“卜”。" },
+    { "id": "ja.chuugoku", "kind": "word", "pos": "propn", "text": "中国", "zh": "中国", "features": { "reading": "ちゅうごく", "roman": "chuugoku", "pitch": 1 }, "noteZh": "ちゅう 是拗音 + 长音:ちゅ・う・ご・く 一共 4 拍。“中”在这里读 ちゅう(音读)。" },
+    { "id": "ja.jin", "kind": "word", "pos": "noun", "text": "人", "zh": "……国人(接在国名后)", "features": { "reading": "じん", "roman": "jin" }, "noteZh": "国名 + 人(じん)= 某国人:中国人、日本人、アメリカ人。“人”单独用时读 ひと,数人数时读 にん(第 3 单元学)——一个汉字几种读法是日语汉字的常态。" }
+  ],
+  "reviewItems": ["ja.watashi", "ja.wa_p", "ja.desu"],
+  "lines": [
+    { "speaker": "tanaka", "text": "リンさん、どうぞ。", "zh": "林同学,请说。", "roman": "Rin-san, douzo.", "tokens": ["リン", "さん、", "どうぞ。"], "items": ["ja.san", "ja.douzo"] },
+    { "speaker": "rin", "text": "はい。わたしは 中国人です。", "zh": "好的。我是中国人。", "reading": "はい。わたしは ちゅうごくじんです。", "roman": "Hai. Watashi wa Chuugokujin desu.", "tokens": ["はい。", "わたし", "は", "中国人", "です。"], "items": ["ja.hai", "ja.watashi", "ja.wa_p", "ja.chuugoku", "ja.jin", "ja.desu"] },
+    { "speaker": "tanaka", "text": "ジウさん、どうぞ。", "zh": "智友同学,请说。", "roman": "Jiu-san, douzo.", "tokens": ["ジウ", "さん、", "どうぞ。"], "items": ["ja.san", "ja.douzo"] },
+    { "speaker": "jiu", "text": "わたしは 韓国人です。", "zh": "我是韩国人。", "reading": "わたしは かんこくじんです。", "roman": "Watashi wa Kankokujin desu.", "tokens": ["わたし", "は", "韓国人", "です。"], "items": ["ja.watashi", "ja.wa_p", "ja.jin", "ja.desu"] },
+    { "speaker": "tanaka", "text": "キットさん、どうぞ。", "zh": "基特同学,请说。", "roman": "Kitto-san, douzo.", "tokens": ["キット", "さん、", "どうぞ。"], "items": ["ja.san", "ja.douzo"] },
+    { "speaker": "kurasumeito", "text": "わたしは タイ人です。", "zh": "我是泰国人。", "reading": "わたしは タイじんです。", "roman": "Watashi wa Taijin desu.", "tokens": ["わたし", "は", "タイ人", "です。"], "items": ["ja.watashi", "ja.wa_p", "ja.jin", "ja.desu"] },
+    { "speaker": "narrator", "text": "サ シ ス セ ソ", "zh": "サ行:sa shi su se so", "roman": "sa shi su se so", "tokens": ["サ", "シ", "ス", "セ", "ソ"], "items": ["ja.kata_sa", "ja.kata_shi", "ja.kata_su", "ja.kata_se", "ja.kata_so"] },
+    { "speaker": "narrator", "text": "タ チ ツ テ ト", "zh": "タ行:ta chi tsu te to", "roman": "ta chi tsu te to", "tokens": ["タ", "チ", "ツ", "テ", "ト"], "items": ["ja.kata_ta", "ja.kata_chi", "ja.kata_tsu", "ja.kata_te", "ja.kata_to"] }
+  ],
+  "questions": [
+    { "prompt": "林雨说自己是哪国人?", "options": ["中国人", "韩国人", "泰国人"], "answer": 0, "explainZh": "林雨说:はい。わたしは 中国人です。(好的。我是中国人。)" },
+    { "prompt": "智友是哪国人?", "options": ["泰国人", "中国人", "韩国人"], "answer": 2, "explainZh": "智友说:わたしは 韓国人です。韓国人 读 かんこくじん,是“韩国人”。" },
+    { "prompt": "基特同学说 わたしは タイ人です,他是哪国人?", "options": ["日本人", "泰国人", "中国人"], "answer": 1, "explainZh": "タイ 是泰国,タイ人 就是泰国人。国名 + 人(じん)= 某国人。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.kuni_jin", "titleZh": "国名 + 人(じん):……国人",
+      "bodyZh": "在国名后面加 人(读 じん)就是“……国人”:中国人(ちゅうごくじん)、韓国人(かんこくじん)、タイ人(タイじん)。说自己的国籍:わたしは 中国人です。“人”这个汉字在日语里有好几种读法:说国籍读 じん,单独说“人”读 ひと,数人数读 にん(第 3 单元学)——一个汉字几种读法是日语汉字的常态,要连读音一起记。中国 读 ちゅうごく:ちゅう 是拗音 + 长音,ちゅ・う・ご・く 一共 4 拍,ちゅう 要拉长,不要读成“丘”。",
+      "examples": [ { "text": "わたしは 中国人です。", "zh": "我是中国人。" }, { "text": "ジウさんは 韓国人です。", "zh": "智友是韩国人。" }, { "text": "キットさんは タイ人です。", "zh": "基特是泰国人。" } ] },
+    { "id": "ja.g.shi_tsu", "titleZh": "シ 和 ツ:片假名里最容易混的一对",
+      "bodyZh": "シ(shi)和 ツ(tsu)都是“两点 + 一笔”,区别看点的位置和最后一笔的方向:シ 的两点在左边、上下排,点从左往右写,最后一笔从左下往右上挑;ツ 的两点在上面、左右排,点从上往下写,最后一笔从右上往左下撇。ソ 和第 5 课的 ン 也是一样的区别。口诀:“シ ン 往上挑,ツ ソ 往下撇”。其他几个可以借汉字记:チ 像“千”,タ 像“夕”,ト 像“卜”;セ 和平假名 せ 很像。",
+      "examples": [ { "text": "シ / ツ", "zh": "shi / tsu" }, { "text": "カツ", "zh": "炸肉排(ka-tsu)" }, { "text": "テスト", "zh": "考试(te-su-to)" } ] }
+  ],
+  "review": "draft"
+}

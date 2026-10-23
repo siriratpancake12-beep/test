@@ -1,0 +1,46 @@
+{
+  "id": "ja.a1u2.l01", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 片假名与自我介绍", "order": 102010,
+  "titleZh": "片假名①:ア行、カ行;わたしは〜です", "goalZh": "认读、书写 ア行和カ行的 10 个片假名,学会用“わたしは〜です”说自己是谁",
+  "canDoZh": "能认读、写出 アイウエオ カキクケコ;能用“わたしは〜です”介绍自己的名字",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ja.kata_a", "kind": "char", "pos": "char", "text": "ア", "zh": "a(=あ)", "features": { "roman": "a" }, "noteZh": "取自汉字“阿”的左边“阝”。" },
+    { "id": "ja.kata_i", "kind": "char", "pos": "char", "text": "イ", "zh": "i(=い)", "features": { "roman": "i" }, "noteZh": "取自“伊”的左边“亻”。" },
+    { "id": "ja.kata_u", "kind": "char", "pos": "char", "text": "ウ", "zh": "u(=う)", "features": { "roman": "u" }, "noteZh": "取自“宇”的上部“宀”。" },
+    { "id": "ja.kata_e", "kind": "char", "pos": "char", "text": "エ", "zh": "e(=え)", "features": { "roman": "e" }, "noteZh": "取自“江”的右边,像汉字“工”。" },
+    { "id": "ja.kata_o", "kind": "char", "pos": "char", "text": "オ", "zh": "o(=お)", "features": { "roman": "o" }, "noteZh": "取自“於”的左边,像汉字“才”。" },
+    { "id": "ja.kata_ka", "kind": "char", "pos": "char", "text": "カ", "zh": "ka(=か)", "features": { "roman": "ka" }, "noteZh": "取自“加”的左边,像汉字“力”;和平假名 か 也很像。" },
+    { "id": "ja.kata_ki", "kind": "char", "pos": "char", "text": "キ", "zh": "ki(=き)", "features": { "roman": "ki" }, "noteZh": "取自“幾”。比平假名 き 少下面的弯。" },
+    { "id": "ja.kata_ku", "kind": "char", "pos": "char", "text": "ク", "zh": "ku(=く)", "features": { "roman": "ku" }, "noteZh": "取自“久”。和 ケ、タ 区分:ク 只有两笔。" },
+    { "id": "ja.kata_ke", "kind": "char", "pos": "char", "text": "ケ", "zh": "ke(=け)", "features": { "roman": "ke" }, "noteZh": "取自“介”。" },
+    { "id": "ja.kata_ko", "kind": "char", "pos": "char", "text": "コ", "zh": "ko(=こ)", "features": { "roman": "ko" }, "noteZh": "取自“己”。两笔写成方框的三条边。" },
+    { "id": "ja.watashi", "kind": "word", "pos": "pron", "text": "わたし", "zh": "我", "alt": ["私"], "features": { "roman": "watashi", "pitch": 0 }, "noteZh": "汉字写作 私(在日语里是“我”,不是中文“私人”的意思)。日语里一般不说“你”(あなた),而是叫对方的名字 + さん。" },
+    { "id": "ja.wa_p", "kind": "word", "pos": "particle", "text": "は", "zh": "主题助词(写作 は,读 wa)", "features": { "roman": "wa" }, "noteZh": "提示句子在说谁、说什么:わたしは リンです(我是林)。写成 は,读 wa。单独朗读这个词条时要按 wa 读。" }
+  ],
+  "reviewItems": ["ja.hajimemashite", "ja.desu", "ja.yoroshiku_onegaishimasu"],
+  "lines": [
+    { "speaker": "tanaka", "text": "はじめまして。わたしは たなかです。", "zh": "初次见面,我姓田中。", "roman": "Hajimemashite. Watashi wa Tanaka desu.", "tokens": ["はじめまして。", "わたし", "は", "たなか", "です。"], "items": ["ja.hajimemashite", "ja.watashi", "ja.wa_p", "ja.desu"] },
+    { "speaker": "tanaka", "text": "リン・ユーさん。", "zh": "林雨同学。", "roman": "Rin Yuu-san.", "tokens": ["リン・ユー", "さん。"], "items": ["ja.san"] },
+    { "speaker": "rin", "text": "はい。はじめまして。わたしは リン・ユーです。", "zh": "到。初次见面,我是林雨。", "roman": "Hai. Hajimemashite. Watashi wa Rin Yuu desu.", "tokens": ["はい。", "はじめまして。", "わたし", "は", "リン・ユー", "です。"], "items": ["ja.hai", "ja.hajimemashite", "ja.watashi", "ja.wa_p", "ja.desu"] },
+    { "speaker": "rin", "text": "よろしくおねがいします。", "zh": "请多关照。", "roman": "Yoroshiku onegaishimasu.", "tokens": ["よろしくおねがいします。"], "items": ["ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "tanaka", "text": "キム・ジウさん。", "zh": "金智友同学。", "roman": "Kimu Jiu-san.", "tokens": ["キム・ジウ", "さん。"], "items": ["ja.san"] },
+    { "speaker": "jiu", "text": "はい。わたしは キム・ジウです。よろしくおねがいします。", "zh": "到。我是金智友。请多关照。", "roman": "Hai. Watashi wa Kimu Jiu desu. Yoroshiku onegaishimasu.", "tokens": ["はい。", "わたし", "は", "キム・ジウ", "です。", "よろしくおねがいします。"], "items": ["ja.hai", "ja.watashi", "ja.wa_p", "ja.desu", "ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "narrator", "text": "ア イ ウ エ オ", "zh": "ア行:a i u e o", "roman": "a i u e o", "tokens": ["ア", "イ", "ウ", "エ", "オ"], "items": ["ja.kata_a", "ja.kata_i", "ja.kata_u", "ja.kata_e", "ja.kata_o"] },
+    { "speaker": "narrator", "text": "カ キ ク ケ コ", "zh": "カ行:ka ki ku ke ko", "roman": "ka ki ku ke ko", "tokens": ["カ", "キ", "ク", "ケ", "コ"], "items": ["ja.kata_ka", "ja.kata_ki", "ja.kata_ku", "ja.kata_ke", "ja.kata_ko"] }
+  ],
+  "questions": [
+    { "prompt": "田中老师是怎么介绍自己的?", "options": ["わたしは たなかさんです。", "わたしは たなかです。", "たなかさん、はい。"], "answer": 1, "explainZh": "老师说:はじめまして。わたしは たなかです。介绍自己时名字后面不加 さん。" },
+    { "prompt": "老师叫到林雨的名字时,林雨先说了什么?", "options": ["いいえ。", "すみません。", "はい。"], "answer": 2, "explainZh": "林雨先答 はい(到),然后说:はじめまして。わたしは リン・ユーです。" },
+    { "prompt": "智友自我介绍的最后一句是什么?", "options": ["よろしくおねがいします。", "はじめまして。", "おはようございます。"], "answer": 0, "explainZh": "智友说:はい。わたしは キム・ジウです。よろしくおねがいします。(到。我是金智友。请多关照。)" }
+  ],
+  "grammar": [
+    { "id": "ja.g.wa_desu", "titleZh": "N1 は N2 です:……是……",
+      "bodyZh": "わたしは リン・ユーです = 我是林雨。は 提示主题(在说谁),写成 は,读 wa;です 放在句末,是礼貌的“是”。语序和中文不同:中文“我 是 林雨”,日语是“我 は 林雨 です”,“是”放在最后。大家都知道在说自己时,わたしは 常常省略,只说 リン・ユーです;在课堂上、正式的自我介绍里说出 わたしは 也很自然。另外,日语里一般不用“你”(あなた)称呼对方,而是叫对方的名字 + さん。",
+      "examples": [ { "text": "わたしは たなかです。", "zh": "我姓田中。" }, { "text": "わたしは リン・ユーです。", "zh": "我是林雨。" }, { "text": "わたしは キム・ジウです。", "zh": "我是金智友。" } ] },
+    { "id": "ja.g.katakana_intro", "titleZh": "片假名:写外国名字和外来语",
+      "bodyZh": "日语有两套假名:平假名写日语固有的词和助词;片假名主要写外国人名、外国地名和外来语(从外语借来的词)。所以林雨的名字写成 リン・ユー,智友写成 キム・ジウ,中间的“・”隔开姓和名。中国人的名字也可以直接写汉字(林雨),在日本上课、办手续时常用片假名标出中文读音。片假名多取汉字的一部分,笔画直、有棱角,可以借汉字记:ア←“阿”的“阝”,カ 像“力”,エ 像“工”,オ 像“才”。カ / か、キ / き 和对应的平假名很像,读音完全一样。",
+      "examples": [ { "text": "リン・ユー", "zh": "林雨(按中文读音写的片假名)" }, { "text": "ココア", "zh": "可可;热可可(外来语)" }, { "text": "キウイ", "zh": "猕猴桃(外来语)" } ] }
+  ],
+  "review": "draft"
+}

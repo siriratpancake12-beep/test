@@ -17,7 +17,7 @@
   ],
   "reviewItems": ["de.freitag", "de.samstag", "de.wann", "de.gern"],
   "lines": [
-    { "speaker": "lena", "text": "Hallo, Wei! Heute ist Freitag. Willst du ins Kino gehen?", "zh": "嗨,伟!今天星期五。你想去看电影吗?", "items": ["de.hallo", "de.heute", "de.sein", "de.freitag", "de.wollen", "de.du", "de.in", "de.kino", "de.gehen"] },
+    { "speaker": "lena", "text": "Hallo, Wei! Heute ist Freitag! Willst du ins Kino gehen?", "zh": "嗨,王伟!今天星期五啦!你想去看电影吗?", "items": ["de.hallo", "de.heute", "de.sein", "de.freitag", "de.wollen", "de.du", "de.in", "de.kino", "de.gehen"] },
     { "speaker": "wei", "text": "Heute kann ich leider nicht. Ich muss lernen.", "zh": "今天我恐怕去不了。我得学习。", "items": ["de.heute", "de.koennen", "de.ich", "de.leider", "de.nicht", "de.muessen", "de.lernen"] },
     { "speaker": "lena", "text": "Und morgen? Kannst du am Samstag?", "zh": "那明天呢?星期六你行吗?", "items": ["de.und", "de.morgen", "de.koennen", "de.du", "de.am", "de.samstag"] },
     { "speaker": "wei", "text": "Ja, morgen habe ich Zeit. Wann?", "zh": "行,明天我有空。几点?", "items": ["de.ja", "de.morgen", "de.haben", "de.ich", "de.zeit", "de.wann"] },
@@ -38,5 +38,5 @@
         { "text": "Morgen früh muss ich arbeiten.", "zh": "明天早上我得上班。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

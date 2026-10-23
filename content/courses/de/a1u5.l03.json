@@ -10,7 +10,7 @@
     { "id": "de.aufstehen", "kind": "word", "pos": "verb", "text": "aufstehen", "zh": "起床;站起来", "features": { "ipa": "ˈaʊ̯fˌʃteːən" }, "noteZh": "可分动词:Ich stehe um sieben Uhr auf.(前缀 auf 放到句末);重音在 auf 上。" },
     { "id": "de.fruehstuecken", "kind": "word", "pos": "verb", "text": "frühstücken", "zh": "吃早饭", "features": { "ipa": "ˈfʁyːˌʃtʏkn̩" }, "noteZh": "不是可分动词:Ich frühstücke um halb acht.;名词 das Frühstück(早饭)第 4 单元学过。" },
     { "id": "de.anfangen", "kind": "word", "pos": "verb", "text": "anfangen", "zh": "开始", "features": { "ipa": "ˈanˌfaŋən" }, "noteZh": "可分、不规则:Der Kurs fängt um neun an.(du fängst, er fängt:a 变 ä)" },
-    { "id": "de.gehen", "kind": "word", "pos": "verb", "text": "gehen", "zh": "走;去", "features": { "ipa": "ˈɡeːən" }, "noteZh": "ich gehe, du gehst, er geht;走路去用 gehen,坐车去用 fahren(第 6 单元);Wie geht's? 里的 geht 也是它。" },
+    { "id": "de.gehen", "kind": "word", "pos": "verb", "text": "gehen", "zh": "走;去", "features": { "ipa": "ˈɡeːən" }, "noteZh": "ich gehe, du gehst, er geht;要说清楚怎么去时,走路用 gehen,坐车用 fahren(第 6 单元);去上课、去看电影这类“去做某事”一般都说 gehen:in den Kurs gehen;Wie geht's? 里的 geht 也是它。" },
     { "id": "de.frueh", "kind": "word", "pos": "adj", "text": "früh", "zh": "早", "features": { "ipa": "fʁyː" }, "noteZh": "h 不发音,ü 是长音;morgen früh = 明天早上。" },
     { "id": "de.spaet", "kind": "word", "pos": "adj", "text": "spät", "zh": "晚;迟", "features": { "ipa": "ʃpɛːt" }, "noteZh": "Es ist spät.(很晚了。)Wie spät ist es? 里也是它;ä 读长音 [ɛː]。" },
     { "id": "de.dann", "kind": "word", "pos": "adv", "text": "dann", "zh": "然后;那么", "features": { "ipa": "dan" }, "noteZh": "讲顺序:Dann gehe ich in den Kurs.(dann 放句首,动词紧跟在后面);也表示“那么”:Gut, dann um vier!" }
@@ -26,7 +26,7 @@
     { "speaker": "jonas", "text": "Am Abend arbeite ich im Restaurant.", "zh": "晚上我在餐馆上班。", "items": ["de.am", "de.abend", "de.arbeiten", "de.ich", "de.in", "de.restaurant"] }
   ],
   "questions": [
-    { "prompt": "王伟几点吃早饭?", "options": ["七点", "七点半", "八点半"], "answer": 1, "explainZh": "王伟说:Um halb acht frühstücke ich.(halb acht = 7:30)" },
+    { "prompt": "王伟几点吃早饭?", "options": ["七点", "八点半", "七点半"], "answer": 2, "explainZh": "王伟说:Um halb acht frühstücke ich.(halb acht = 7:30)" },
     { "prompt": "约纳斯几点起床?", "options": ["十一点", "七点", "十二点"], "answer": 0, "explainZh": "约纳斯说:Ich stehe um elf Uhr auf und frühstücke um zwölf.(十一点起床,十二点才吃早饭)" }
   ],
   "grammar": [
@@ -44,5 +44,5 @@
         { "text": "Dann gehe ich in den Kurs.", "zh": "然后我去上课。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

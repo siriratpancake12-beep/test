@@ -1,0 +1,48 @@
+{
+  "id": "ja.a1u3.l01", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 我的家人和朋友", "order": 103010,
+  "titleZh": "这是我的家人", "goalZh": "会用 これ / それ / あれ 指东西,用 だれ / 何 提问,介绍自己的家人", "canDoZh": "能拿着照片介绍自己的家人;能问“这是谁?”“那是什么?”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ja.kore", "kind": "word", "pos": "pron", "text": "これ", "zh": "这个(离我近的东西)", "features": { "pitch": 0 }, "noteZh": "指离说话人近的东西(自己手里、身边的):これは 何ですか(这是什么?)。" },
+    { "id": "ja.sore", "kind": "word", "pos": "pron", "text": "それ", "zh": "那个(离你近的东西)", "features": { "pitch": 0 }, "noteZh": "指离听话人近的东西(对方手里、身边的):それは 何ですか(你手里那个是什么?)。" },
+    { "id": "ja.are", "kind": "word", "pos": "pron", "text": "あれ", "zh": "那个(离我们都远的东西)", "features": { "pitch": 0 }, "noteZh": "指离两个人都远的东西:あれは だれですか(那是谁?)。中文的“那”在日语里分成 それ 和 あれ 两个。" },
+    { "id": "ja.dare", "kind": "word", "pos": "pron", "text": "だれ", "zh": "谁", "alt": ["誰"], "features": { "pitch": 1 }, "noteZh": "问人用 だれ,问东西用 何,不要混;更礼貌的说法是 どなた。" },
+    { "id": "ja.nani", "kind": "word", "pos": "pron", "text": "何", "zh": "什么", "alt": ["なん"], "features": { "reading": "なに", "pitch": 1 }, "noteZh": "后面接 です、の 或 d / t / n 开头的音时读 なん:何ですか(なんですか);其他时候一般读 なに:何を(なにを)。" },
+    { "id": "ja.shashin", "kind": "word", "pos": "noun", "text": "写真", "zh": "照片", "features": { "reading": "しゃしん", "pitch": 0 }, "noteZh": "写真 = 照片,不是“写实”。しゃ 是拗音,只占一拍:しゃ・し・ん 3 拍。" },
+    { "id": "ja.kazoku", "kind": "word", "pos": "noun", "text": "家族", "zh": "家人;家庭", "features": { "reading": "かぞく", "pitch": 1 }, "noteZh": "わたしの 家族(我的家人)。“家族”在日语里是日常词,就是“家里人”,不像中文那样指大家族。" },
+    { "id": "ja.chichi", "kind": "word", "pos": "noun", "text": "父", "zh": "(我的)父亲", "features": { "reading": "ちち" }, "noteZh": "对外人说自己的父亲用 父,不加 さん;说别人的父亲、在家里叫爸爸用 お父さん(下一课学)。" },
+    { "id": "ja.haha", "kind": "word", "pos": "noun", "text": "母", "zh": "(我的)母亲", "features": { "reading": "はは", "pitch": 1 }, "noteZh": "对外人说自己的母亲用 母,不加 さん;说别人的母亲、在家里叫妈妈用 お母さん(下一课学)。" },
+    { "id": "ja.otouto", "kind": "word", "pos": "noun", "text": "弟", "zh": "(我的)弟弟", "features": { "reading": "おとうと", "pitch": 4 }, "noteZh": "とう 是长音:お・と・う・と 4 拍,不要读成 おとと。" }
+  ],
+  "reviewItems": ["ja.watashi", "ja.wa_p", "ja.no_p"],
+  "lines": [
+    { "speaker": "kobayashi", "text": "リンさん、それは 何ですか。", "reading": "リンさん、それは なんですか。", "zh": "(晚上,林雨在客厅看手机)林さん,那是什么呀?", "tokens": ["リンさん、", "それ", "は", "何", "ですか。"], "items": ["ja.san", "ja.sore", "ja.wa_p", "ja.nani", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "これですか。わたしの 家族の 写真です。", "reading": "これですか。わたしの かぞくの しゃしんです。", "zh": "这个吗?是我家人的照片。", "tokens": ["これ", "ですか。", "わたし", "の", "家族", "の", "写真", "です。"], "items": ["ja.kore", "ja.desu", "ja.ka_p", "ja.watashi", "ja.no_p", "ja.kazoku", "ja.shashin"] },
+    { "speaker": "kobayashi", "text": "それは だれですか。", "zh": "(指着林雨手机上的一位男士)那是谁?", "tokens": ["それ", "は", "だれ", "ですか。"], "items": ["ja.sore", "ja.wa_p", "ja.dare", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "これは 父です。", "reading": "これは ちちです。", "zh": "这是我爸爸。", "tokens": ["これ", "は", "父", "です。"], "items": ["ja.kore", "ja.wa_p", "ja.chichi", "ja.desu"] },
+    { "speaker": "rin", "text": "これは 母です。", "reading": "これは ははです。", "zh": "这是我妈妈。", "tokens": ["これ", "は", "母", "です。"], "items": ["ja.kore", "ja.wa_p", "ja.haha", "ja.desu"] },
+    { "speaker": "kobayashi", "text": "それは?", "zh": "(指着一个小男孩)那这个呢?", "tokens": ["それ", "は?"], "items": ["ja.sore", "ja.wa_p"] },
+    { "speaker": "rin", "text": "弟です。どうぞ。", "reading": "おとうとです。どうぞ。", "zh": "是我弟弟。您看吧。(把手机递给小林さん)", "tokens": ["弟", "です。", "どうぞ。"], "items": ["ja.otouto", "ja.desu", "ja.douzo"] },
+    { "speaker": "kobayashi", "text": "これは 何ですか。", "reading": "これは なんですか。", "zh": "(拿着手机,指着照片里的湖)这是什么?", "tokens": ["これ", "は", "何", "ですか。"], "items": ["ja.kore", "ja.wa_p", "ja.nani", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "それは 西湖です。杭州の 西湖です。", "reading": "それは せいこです。こうしゅうの せいこです。", "zh": "那是西湖,杭州的西湖。", "tokens": ["それ", "は", "西湖", "です。", "杭州", "の", "西湖", "です。"], "items": ["ja.sore", "ja.wa_p", "ja.desu", "ja.no_p"] },
+    { "speaker": "rin", "text": "こばやしさん、あれは だれですか。", "zh": "(指着墙上的照片)小林さん,那是谁?", "tokens": ["こばやしさん、", "あれ", "は", "だれ", "ですか。"], "items": ["ja.san", "ja.are", "ja.wa_p", "ja.dare", "ja.desu", "ja.ka_p"] },
+    { "speaker": "kobayashi", "text": "あれは そらです。わたしの 家族です。", "reading": "あれは そらです。わたしの かぞくです。", "zh": "那是小空,是我的家人。", "tokens": ["あれ", "は", "そら", "です。", "わたし", "の", "家族", "です。"], "items": ["ja.are", "ja.wa_p", "ja.desu", "ja.watashi", "ja.no_p", "ja.kazoku"] }
+  ],
+  "questions": [
+    { "prompt": "林雨手机里的是什么照片?", "options": ["东京的照片", "大学的照片", "她家人的照片"], "answer": 2, "explainZh": "林雨说:これですか。わたしの 家族の 写真です。(这个吗?是我家人的照片。)照片里有爸爸、妈妈和弟弟。" },
+    { "prompt": "墙上照片里的人是谁?", "options": ["小林さん的家人そら", "林雨的弟弟", "小林さん自己"], "answer": 0, "explainZh": "林雨问 あれは だれですか,小林さん答:あれは そらです。わたしの 家族です。(那是小空,是我的家人。)" },
+    { "prompt": "小林さん接过手机以后,为什么说 これは 何ですか,而不是 それは?", "options": ["因为照片离两个人都很远", "因为手机已经在她自己手里", "因为她问的是人,不是东西"], "answer": 1, "explainZh": "林雨说 どうぞ,把手机递给了小林さん。东西在自己手里用 これ,所以小林さん说 これは 何ですか;林雨说的是对方手里的照片,就用 それは 西湖です。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u3_kosoa", "titleZh": "これ / それ / あれ 和“〜は 何 / だれですか”",
+      "bodyZh": "日语的“这 / 那”分三种,看东西离谁近:\n・これ:离说话人(我)近——自己手里、身边的东西。\n・それ:离听话人(你)近——对方手里、身边的东西。\n・あれ:离两个人都远——墙上的照片、远处的楼。\n中文只有“这、那”,中国学习者最容易把 それ 和 あれ 混用。课文里手机在林雨手里时,小林さん问 それは だれですか,林雨答 これは 父です;林雨把手机递过去以后,两个人的说法也跟着换了(これは 何ですか → それは 西湖です)。\n问“是什么 / 是谁”:把 何(什么)或 だれ(谁)放在要问的位置,句末加 か,语序和陈述句一样:これは 写真です → これは 何ですか。问人用 だれ,问东西用 何;何 在 です 前读 なん。回答时常常省掉 これは,只说“弟です”。\n对外人说自己的家人用 父、母、弟,后面不加 さん——小林さん说自己家的孩子,也只说 そら。",
+      "examples": [
+        { "text": "これは 何ですか。—写真です。", "zh": "这是什么?——是照片。(读音:これは なんですか。—しゃしんです。)" },
+        { "text": "それは だれですか。—これは 母です。", "zh": "(指着对方手里的照片)那是谁?——这是我妈妈。(读音:それは だれですか。—これは ははです。)" },
+        { "text": "あれは だれですか。", "zh": "(指着远处的人)那是谁?" },
+        { "text": "あれは 大学ですか。—はい、大学です。", "zh": "那是大学吗?——是的,是大学。(读音:あれは だいがくですか。—はい、だいがくです。)" }
+      ] }
+  ],
+  "review": "draft"
+}

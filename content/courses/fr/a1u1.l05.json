@@ -18,7 +18,7 @@
   ],
   "reviewItems": ["fr.cafe", "fr.the", "fr.eau", "fr.sil_vous_plait"],
   "lines": [
-    { "speaker": "hao", "text": "Bonjour ! Deux cafés et trois thés, s'il vous plaît.", "zh": "(下课后,替同学买饮料)你好!请来两杯咖啡和三杯茶。", "items": ["fr.bonjour", "fr.deux", "fr.cafe", "fr.et", "fr.trois", "fr.the", "fr.sil_vous_plait"] },
+    { "speaker": "hao", "text": "Bonjour ! Deux cafés et trois thés, s'il vous plaît.", "zh": "(下课后,替同学买饮料)您好!请来两杯咖啡和三杯茶。", "items": ["fr.bonjour", "fr.deux", "fr.cafe", "fr.et", "fr.trois", "fr.the", "fr.sil_vous_plait"] },
     { "speaker": "serveur", "text": "Deux cafés ? Trois thés ?", "zh": "两杯咖啡?三杯茶?", "items": ["fr.deux", "fr.cafe", "fr.trois", "fr.the"] },
     { "speaker": "hao", "text": "Non, quatre thés !", "zh": "不对,是四杯茶!", "items": ["fr.non", "fr.quatre", "fr.the"] },
     { "speaker": "serveur", "text": "Deux cafés et quatre thés… six ! Très bien.", "zh": "两杯咖啡和四杯茶……一共六杯!好的。", "items": ["fr.deux", "fr.cafe", "fr.et", "fr.quatre", "fr.the", "fr.six", "fr.tres", "fr.bien"] },

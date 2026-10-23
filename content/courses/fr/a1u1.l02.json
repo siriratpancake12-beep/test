@@ -16,7 +16,7 @@
   ],
   "reviewItems": ["fr.bonjour"],
   "lines": [
-    { "speaker": "hao", "text": "Bonjour ! Un café, s'il vous plaît.", "zh": "你好!请来一杯咖啡。", "items": ["fr.bonjour", "fr.cafe", "fr.sil_vous_plait"] },
+    { "speaker": "hao", "text": "Bonjour ! Un café, s'il vous plaît.", "zh": "您好!请来一杯咖啡。", "items": ["fr.bonjour", "fr.cafe", "fr.sil_vous_plait"] },
     { "speaker": "serveur", "text": "Et de l'eau ?", "zh": "要水吗?", "items": ["fr.et", "fr.de", "fr.eau"] },
     { "speaker": "hao", "text": "Oui, merci !", "zh": "要,谢谢!", "items": ["fr.oui", "fr.merci"] },
     { "speaker": "chloe", "text": "Salut, Hao !", "zh": "(克洛艾也来了)嗨,浩!", "items": ["fr.salut"] },

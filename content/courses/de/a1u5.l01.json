@@ -20,7 +20,7 @@
     { "speaker": "wei", "text": "Jonas! Wie spät ist es jetzt?", "zh": "约纳斯!现在几点了?", "items": ["de.wie_spaet", "de.jetzt"] },
     { "speaker": "jonas", "text": "Es ist halb neun.", "zh": "八点半。", "items": ["de.es", "de.sein", "de.halb", "de.neun"] },
     { "speaker": "wei", "text": "Halb neun? Mein Kurs ist um Viertel nach neun!", "zh": "halb neun?(王伟以为是九点半)我的课九点一刻就开始了!", "items": ["de.halb", "de.neun", "de.mein", "de.kurs", "de.sein", "de.um", "de.viertel", "de.nach"] },
-    { "speaker": "jonas", "text": "Wei, halb neun ist acht Uhr dreißig.", "zh": "伟,halb neun 是八点三十分。", "items": ["de.halb", "de.neun", "de.sein", "de.acht", "de.uhr", "de.dreissig"] },
+    { "speaker": "jonas", "text": "Wei, halb neun ist acht Uhr dreißig.", "zh": "王伟,halb neun 是八点三十分。", "items": ["de.halb", "de.neun", "de.sein", "de.acht", "de.uhr", "de.dreissig"] },
     { "speaker": "wei", "text": "Acht Uhr dreißig? Eine halbe Stunde vor neun?", "zh": "八点三十分?就是九点前半小时?", "items": ["de.acht", "de.uhr", "de.dreissig", "de.ein", "de.halb", "de.stunde", "de.vor", "de.neun"] },
     { "speaker": "jonas", "text": "Ja. Und halb zwölf ist elf Uhr dreißig.", "zh": "对。halb zwölf 就是十一点三十分。", "items": ["de.ja", "de.und", "de.halb", "de.zwoelf", "de.sein", "de.elf", "de.uhr", "de.dreissig"] },
     { "speaker": "wei", "text": "Danke! Und wann arbeitest du?", "zh": "谢谢!那你几点上班?", "items": ["de.danke", "de.und", "de.wann", "de.arbeiten", "de.du"] },
@@ -38,5 +38,5 @@
         { "text": "Mein Kurs ist um Viertel nach neun.", "zh": "我的课九点一刻开始。(9:15)" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }
