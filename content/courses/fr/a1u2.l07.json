@@ -1,0 +1,53 @@
+{
+  "id": "fr.a1u2.l07", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102070,
+  "titleZh": "帮卢卡买早餐——s'il te plaît", "goalZh": "会替朋友买东西并和朋友算钱,分清 s'il te plaît 和 s'il vous plaît",
+  "canDoZh": "能看懂朋友托你买东西的短信,在面包店替两个人点单、付钱,回去和朋友算钱",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "fr.sil_te_plait", "kind": "phrase", "pos": "phrase", "text": "s'il te plaît", "zh": "请;拜托(对朋友、家人)", "features": { "ipa": "sil tə plɛ" }, "noteZh": "对用 tu 的人说;对老师、店员和陌生人说 s'il vous plaît。短信里常缩写成 stp。" },
+    { "id": "fr.encore", "kind": "word", "pos": "adv", "text": "encore", "zh": "还;又;再", "features": { "ipa": "ɑ̃.kɔʁ" }, "noteZh": "Je suis encore fatigué.(我还困着呢。)Encore un croissant ?(再来一个可颂?)en 读鼻化的 [ɑ̃]。" },
+    { "id": "fr.tiens", "kind": "word", "pos": "interj", "text": "Tiens !", "zh": "给你;拿着(对朋友)", "features": { "ipa": "tjɛ̃" }, "noteZh": "把东西递给朋友时说;对店员、长辈说 Voilà 或 Tenez。词尾 s 不发音。" },
+    { "id": "fr.genial", "kind": "word", "pos": "adj", "text": "génial", "zh": "太棒了;特别好的", "features": { "ipa": "ʒe.njal" }, "noteZh": "年轻人很常用的感叹:Génial !;g 在 e 前读 [ʒ],ni 读 [nj]。复数是 géniaux(-al → -aux)。" },
+    { "id": "fr.de_rien", "kind": "phrase", "pos": "phrase", "text": "De rien !", "zh": "不客气", "features": { "ipa": "də ʁjɛ̃" }, "noteZh": "回答 Merci 最常用的说法,对谁都可以;rien 读 [ʁjɛ̃],是鼻化元音。" },
+    { "id": "fr.centime", "kind": "word", "pos": "noun", "text": "le centime", "zh": "分(欧分,1 欧 = 100 分)", "features": { "gender": "m", "ipa": "lə sɑ̃.tim" }, "noteZh": "阳性;cen 读 [sɑ̃]。说价格时常省掉:deux euros vingt = 2 欧 20 分。" }
+  ],
+  "reviewItems": ["fr.je_voudrais", "fr.cest_combien", "fr.ca_fait", "fr.sil_vous_plait", "fr.fatigue", "fr.coucou"],
+  "lines": [
+    { "speaker": "lucas", "text": "Coucou ! Un croissant et une baguette, s'il te plaît !", "zh": "(星期六早上,卢卡还没起床,给正在面包店排队的浩发短信)嗨!帮我带一个可颂和一根法棍,拜托啦!", "items": ["fr.coucou", "fr.un", "fr.croissant", "fr.et", "fr.une", "fr.baguette", "fr.sil_te_plait"] },
+    { "speaker": "hao", "text": "Oui ! Et un pain au chocolat ?", "zh": "好!要不要再来个巧克力面包?", "items": ["fr.oui", "fr.et", "fr.un", "fr.pain_au_chocolat"] },
+    { "speaker": "lucas", "text": "Oui, s'il te plaît ! Je suis encore fatigué…", "zh": "要,拜托了!我还困着呢……", "items": ["fr.oui", "fr.sil_te_plait", "fr.je_suis", "fr.je", "fr.etre", "fr.encore", "fr.fatigue"] },
+    { "speaker": "hao", "text": "Bonjour, madame ! Je voudrais deux croissants et deux pains au chocolat.", "zh": "(轮到浩了)您好!我想要两个可颂和两个巧克力面包。", "items": ["fr.bonjour", "fr.madame", "fr.je_voudrais", "fr.deux", "fr.croissant", "fr.et", "fr.pain_au_chocolat"] },
+    { "speaker": "hao", "text": "Et une baguette, s'il vous plaît.", "zh": "再要一根法棍,谢谢。", "items": ["fr.et", "fr.une", "fr.baguette", "fr.sil_vous_plait"] },
+    { "speaker": "boulangere", "text": "Voilà ! Ça fait cinq euros vingt.", "zh": "给您!一共 5.20 欧。", "items": ["fr.voila", "fr.ca_fait", "fr.cinq", "fr.euro", "fr.vingt"] },
+    { "speaker": "hao", "text": "Voilà, madame. Merci ! Bonne journée !", "zh": "给您。谢谢!祝您今天愉快!", "items": ["fr.voila", "fr.madame", "fr.merci", "fr.bonne_journee"] },
+    { "speaker": "hao", "text": "Tiens, Lucas ! Le croissant, le pain au chocolat et la baguette.", "zh": "(回到宿舍)给你,卢卡!可颂、巧克力面包,还有法棍。", "items": ["fr.tiens", "fr.croissant", "fr.pain_au_chocolat", "fr.et", "fr.baguette"] },
+    { "speaker": "lucas", "text": "Génial ! C'est combien ?", "zh": "太棒了!多少钱?", "items": ["fr.genial", "fr.cest_combien"] },
+    { "speaker": "hao", "text": "Trois euros vingt, s'il te plaît.", "zh": "3.20 欧,麻烦你啦。", "items": ["fr.trois", "fr.euro", "fr.vingt", "fr.sil_te_plait"] },
+    { "speaker": "lucas", "text": "Voilà trois euros et vingt centimes. Merci beaucoup !", "zh": "(卢卡在口袋里翻出几个硬币)给你三欧,还有二十分。太谢谢了!", "items": ["fr.voila", "fr.trois", "fr.euro", "fr.et", "fr.vingt", "fr.centime", "fr.merci", "fr.beaucoup"] },
+    { "speaker": "hao", "text": "De rien !", "zh": "不客气!", "items": ["fr.de_rien"] }
+  ],
+  "questions": [
+    { "prompt": "卢卡在第一条短信里请浩带什么?", "options": ["一个可颂和一根法棍", "两个巧克力面包", "一杯咖啡"], "answer": 0, "explainZh": "Un croissant et une baguette, s'il te plaît !——后来浩问他要不要巧克力面包,卢卡也说要。" },
+    { "prompt": "在面包店一共花了多少钱?", "options": ["3.20 欧", "5.20 欧", "4 欧"], "answer": 1, "explainZh": "店员说 Ça fait cinq euros vingt.(一共 5.20 欧。)" },
+    { "prompt": "卢卡要还给浩多少钱?", "options": ["1 欧", "5.20 欧", "3.20 欧"], "answer": 2, "explainZh": "浩说 Trois euros vingt, s'il te plaît.:卢卡的是一个可颂、一个巧克力面包和一根法棍,1 + 1 + 1.20 = 3.20 欧。" },
+    { "prompt": "浩对卢卡说 s'il te plaît,对面包店店员说的是什么?", "options": ["Coucou", "s'il vous plaît", "De rien"], "answer": 1, "explainZh": "对朋友用 s'il te plaît,对店员用 s'il vous plaît:Et une baguette, s'il vous plaît." }
+  ],
+  "grammar": [
+    { "id": "fr.g.sil_te_plait", "titleZh": "s'il te plaît 和 s'il vous plaît;Tiens 和 Voilà",
+      "bodyZh": "“请、拜托”也分 tu 和 vous 两套:对朋友、家人说 s'il te plaît(短信里常写 stp),对店员、老师、陌生人说 s'il vous plaît。浩一个早上两种都用到了:给卢卡回短信、找卢卡要钱时用 s'il te plaît,在面包店柜台用 s'il vous plaît。\n递东西也一样:对朋友说 Tiens !(给你),对店员、长辈说 Voilà(给您)。别人说 Merci,回答 De rien !(不客气),对谁都可以。中国学生容易对店员说 s'il te plaît,听起来像跟对方很熟,不太礼貌。",
+      "examples": [
+        { "text": "Un croissant, s'il te plaît !", "zh": "帮我带个可颂,拜托啦!(对朋友)" },
+        { "text": "Une baguette, s'il vous plaît.", "zh": "请给我一根法棍。(对店员)" },
+        { "text": "Tiens, Lucas ! — Merci ! — De rien !", "zh": "给你,卢卡!——谢谢!——不客气!" }
+      ] },
+    { "id": "fr.g.sms_court", "titleZh": "短信里的短句;算钱:C'est combien ? / Ça fait…",
+      "bodyZh": "朋友之间发短信常省掉动词,只说要什么:Un croissant et une baguette, s'il te plaît !(帮我带一个可颂和一根法棍!)对店员说话最好用完整的 Je voudrais…。\n算钱复习:问多少钱用 C'est combien ?,说总数用 Ça fait cinq euros vingt.。价格里的“分”叫 centime,平时常省掉:trois euros vingt = 3 欧 20 分;只说分的时候要说出来:vingt centimes(20 分)。",
+      "examples": [
+        { "text": "C'est combien ?", "zh": "多少钱?" },
+        { "text": "Ça fait cinq euros vingt.", "zh": "一共 5.20 欧。" },
+        { "text": "Voilà trois euros et vingt centimes.", "zh": "给你三欧,还有二十分。" }
+      ] }
+  ],
+  "review": "draft"
+}

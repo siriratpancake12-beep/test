@@ -42,7 +42,7 @@
         { "id": "fr.gris", "kind": "word", "pos": "adj", "text": "gris", "zh": "灰色的(阳性)", "features": { "ipa": "gʁi" }, "noteZh": "s 不发音;阴性 grise [gʁiz],s 要读出来;g 是浊音,声带要振动。" },
         { "id": "fr.degre", "kind": "word", "pos": "noun", "text": "le degré", "zh": "度(温度)", "features": { "gender": "m", "ipa": "lə də.gʁe" }, "noteZh": "Il fait quatorze degrés. 十四度;d、g 都是浊辅音,声带要振动,比中文拼音的 d、g 更“浊”。" },
         { "id": "fr.moins", "kind": "word", "pos": "adv", "text": "moins", "zh": "零下(温度);减;差(几分)", "features": { "ipa": "mwɛ̃" }, "noteZh": "oin 读 [wɛ̃],s 不发音;Il fait moins deux. 零下两度;钟点里的 moins le quart(差一刻)也是这个词。" },
-        { "id": "fr.peut_etre", "kind": "word", "pos": "adv", "text": "peut-être", "zh": "也许;可能", "features": { "ipa": "pø.tɛtʁ" }, "noteZh": "中间有连字符;t 和 ê 连起来读 [pø.tɛtʁ];常放在动词后面:Il pleut peut-être."},
+        { "id": "fr.peut_etre", "kind": "word", "pos": "adv", "text": "peut-être", "zh": "也许;可能", "features": { "ipa": "pø.tɛtʁ" }, "noteZh": "中间有连字符;t 和 ê 连起来读 [pø.tɛtʁ];常放在动词后面:Il pleut peut-être." },
         { "id": "fr.avoir_de_la_chance", "kind": "phrase", "pos": "phrase", "text": "avoir de la chance", "zh": "运气好", "features": { "ipa": "a.vwaʁ də la ʃɑ̃s" }, "noteZh": "Tu as de la chance ! 你运气真好!和 avoir faim 一样用 avoir;la chance 是阴性。" }
       ],
       "reviewItems": ["fr.temps", "fr.froid", "fr.il_pleut", "fr.demain", "fr.week_end"]
@@ -54,7 +54,7 @@
       "canDoZh": "能根据天气说要穿什么、戴什么、带什么(围巾、手套、帽子、雨伞)",
       "scenarioZh": "12 月 16 日星期三下午(两人每周三的语伴时间),克洛艾来宿舍帮浩收拾行李:罗马不太冷,可以穿一件薄外套,但一定要带雨伞;克洛艾说她冬天天天戴帽子和手套:En hiver, je mets un bonnet tous les jours !;浩没有围巾,住在隔壁的卢卡把自己的一条红围巾借给他。",
       "grammarFocusZh": "mettre 的现在时:je mets, tu mets, il met, nous mettons, vous mettez, ils mettent(单数词尾 t 不发音);mettre + 衣物 = 穿、戴,mettre … dans … = 放进;新词 l'écharpe f., les gants, le bonnet, le parapluie, la valise, la veste;复习颜色配合;发音:清辅音和浊辅音 [p]/[b]、[t]/[d]、[k]/[g]",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
       "newItems": [
         { "id": "fr.mettre", "kind": "word", "pos": "verb", "text": "mettre", "zh": "放;穿上;戴上", "features": { "ipa": "mɛtʁ" }, "noteZh": "不规则动词:je mets, tu mets, il met(单数的 t 不发音),nous mettons, vous mettez, ils mettent;穿衣服、戴帽子、往包里放东西都可以用它。" },
         { "id": "fr.echarpe", "kind": "word", "pos": "noun", "text": "l'écharpe", "zh": "围巾", "features": { "gender": "f", "ipa": "le.ʃaʁp" }, "noteZh": "元音开头,阴性:une écharpe;ch 读 [ʃ]。" },
@@ -74,7 +74,7 @@
       "canDoZh": "能说自己冷了、热了、需要什么东西,也能问别人需要什么",
       "scenarioZh": "出发前两天(12 月 17 日星期四傍晚),浩和卢卡去超市买旅行用品。外面刮大风,浩说好冷;超市里很暖和,卢卡说好热。浩看着单子说他需要牙膏、牙刷和一个小背包;卢卡问他去意大利要不要带护照——要,出国一定要带护照和居留证:Il faut un passeport et un titre de séjour !;卢卡又喊饿,说火车上要有饼干。",
       "grammarFocusZh": "avoir chaud / avoir froid / avoir besoin de + 名词(J'ai besoin d'un sac à dos);和 J'ai faim / J'ai soif 一样用 avoir,不能说 Je suis froid;il faut + 名词(Il faut un passeport);新词 le titre de séjour(居留证,A2 还会用到)",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
       "newItems": [
         { "id": "fr.avoir_besoin_de", "kind": "phrase", "pos": "phrase", "text": "avoir besoin de", "zh": "需要", "features": { "ipa": "a.vwaʁ bə.zwɛ̃ də" }, "noteZh": "J'ai besoin d'un sac. 我需要一个包;de 在元音前写成 d';用 avoir,不说 Je suis besoin。" },
         { "id": "fr.passeport", "kind": "word", "pos": "noun", "text": "le passeport", "zh": "护照", "features": { "gender": "m", "ipa": "lə pas.pɔʁ" }, "noteZh": "词尾 t 不发音;法语的 p 不送气,听起来接近中文拼音的 b,别读成送气的“趴”。" },
@@ -94,7 +94,7 @@
       "canDoZh": "能看懂一封酒店预订确认邮件:日期、几晚、房型、价格、早餐和入住退房时间",
       "scenarioZh": "体裁:邮件,约 11 句,旁白朗读。浩在网上订了罗马火车站旁边的一家小酒店,收到法语版的确认邮件:12 月 19 日到 23 日,四晚,单人房,含早餐,一共 280 欧;下午两点以后可以入住,23 日上午十一点退房;酒店离火车站走路五分钟。读完回答几个问题。",
       "grammarFocusZh": "复习日期、钟点、de … à …、du … au …;pour + 人数 / 夜数(une chambre pour une personne, pour quatre nuits);百位数 deux cent quatre-vingts euros;邮件的开头 Bonjour Monsieur Zhang 和 Merci pour votre réservation !",
-      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "skills": ["read", "write"], "estimatedMinutes": 17,
       "newItems": [
         { "id": "fr.hotel", "kind": "word", "pos": "noun", "text": "l'hôtel", "zh": "酒店;旅馆", "features": { "gender": "m", "ipa": "lo.tɛl" }, "noteZh": "元音开头(h 不发音),阳性:un hôtel;l'hôtel 要省音,un‿hôtel 要联诵。" },
         { "id": "fr.nuit", "kind": "word", "pos": "noun", "text": "la nuit", "zh": "夜;(住宿的)一晚", "features": { "gender": "f", "ipa": "la nɥi" }, "noteZh": "ui 读 [ɥi],t 不发音;quatre nuits 四晚;Bonne nuit ! 晚安!" },
@@ -102,6 +102,93 @@
         { "id": "fr.personne", "kind": "word", "pos": "noun", "text": "la personne", "zh": "人;(一)个人", "features": { "gender": "f", "ipa": "la pɛʁ.sɔn" }, "noteZh": "总是阴性,说男人也是 une personne;une chambre pour une personne 单人间。" }
       ],
       "reviewItems": ["fr.chambre", "fr.petit_dejeuner", "fr.gare", "fr.a_pied", "fr.payer"]
+    },
+    {
+      "id": "fr.a1u9.l05", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109050,
+      "titleZh": "我要出门几天——告诉宿舍管理员",
+      "goalZh": "会告诉别人自己从哪天到哪天不在,用 Vous pouvez… ? 礼貌地请人帮忙",
+      "canDoZh": "能告诉宿舍管理员自己哪天走、哪天回来,请他帮忙代收包裹",
+      "scenarioZh": "12 月 17 日星期四,浩到宿舍前台:他 19 日到 23 日不在,问管理员能不能替他保管信件和一个包裹(妈妈从成都寄来的圣诞礼物);管理员很乐意,信件放在前台,包裹到了他替浩签收;他记下浩的手机号(包裹的事要用),最后祝他 Bon voyage !",
+      "grammarFocusZh": "du … au … + 日期(du 19 au 23 décembre,复习冠词缩合);pouvoir 的礼貌请求(Vous pouvez garder mon colis ?)和回答 Avec plaisir !;复习近将来时(Je vais partir samedi);新词 le colis、le courrier、l'accueil",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "fr.colis", "kind": "word", "pos": "noun", "text": "le colis", "zh": "包裹", "features": { "gender": "m", "ipa": "lə kɔ.li" }, "noteZh": "阳性;词尾 s 不发音,单复数同形;邮寄的包裹。" },
+        { "id": "fr.courrier", "kind": "word", "pos": "noun", "text": "le courrier", "zh": "信件(总称)", "features": { "gender": "m", "ipa": "lə ku.ʁje" }, "noteZh": "收到的信、明信片等纸质邮件,不可数,用单数;ou 读 [u],ier 读 [je]。" },
+        { "id": "fr.garder", "kind": "word", "pos": "verb", "text": "garder", "zh": "保管;留着", "features": { "ipa": "gaʁ.de" }, "noteZh": "-er 规则动词;Vous pouvez garder mon colis ? 您能替我保管包裹吗?;g 是浊音。" },
+        { "id": "fr.la_lieu", "kind": "word", "pos": "adv", "text": "là", "zh": "那里;在场", "features": { "ipa": "la" }, "noteZh": "带重音符号的 à,和冠词 la 读音一样;être là = 在(这儿);Je ne suis pas là. 我不在。" },
+        { "id": "fr.avec_plaisir", "kind": "phrase", "pos": "phrase", "text": "Avec plaisir !", "zh": "很乐意!(答应请求或邀请)", "features": { "ipa": "a.vɛk plɛ.ziʁ" }, "noteZh": "答应别人的请求、接受邀请都可以用,比 Oui 更热情;两个元音之间的 s 读 [z]。" },
+        { "id": "fr.accueil", "kind": "word", "pos": "noun", "text": "l'accueil", "zh": "前台;接待处", "features": { "gender": "m", "ipa": "la.kœj" }, "noteZh": "元音开头,阳性;ueil 读 [œj];宿舍、学校、公司的前台都叫 l'accueil(酒店多说 la réception)。" },
+        { "id": "fr.absent", "kind": "word", "pos": "adj", "text": "absent", "zh": "不在的;缺席的(阳性)", "features": { "ipa": "ap.sɑ̃" }, "noteZh": "b 在 s 前读成清音 [p]:[ap.sɑ̃];阴性 absente [ap.sɑ̃t]。" },
+        { "id": "fr.noel", "kind": "word", "pos": "propn", "text": "Noël", "zh": "圣诞节", "features": { "ipa": "nɔ.ɛl" }, "noteZh": "ë 上的两点表示 o 和 e 分开读:[nɔ.ɛl];一般不加冠词:à Noël(在圣诞节)、pour Noël(为圣诞节)。" }
+      ],
+      "reviewItems": ["fr.partir", "fr.mere", "fr.signer", "fr.pouvoir", "fr.numero", "fr.voyage"]
+    },
+    {
+      "id": "fr.a1u9.l06", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109060,
+      "titleZh": "背包里有什么?——证件和随身物品",
+      "goalZh": "会说出出门要带的证件和随身物品,一样一样检查",
+      "canDoZh": "能说出出门要带的证件和随身物品,检查自己有没有带齐",
+      "scenarioZh": "出发前一晚(12 月 18 日),卢卡帮浩检查背包:护照、居留证、学生证、火车票、手机和充电器、耳机、钱包、太阳镜;浩找不到充电器,卢卡在床上找到了。卢卡开玩笑说:Et le parapluie ? Il faut un parapluie à Rome !",
+      "grammarFocusZh": "新词 la carte d'étudiant, le chargeur, les écouteurs, le portefeuille, les lunettes (de soleil);名词 + de + 名词(la carte d'étudiant, le billet de train):中心词在前,和中文语序相反;复习 Où est… ?、avoir besoin de;Je suis prêt / prête",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "fr.carte_detudiant", "kind": "word", "pos": "noun", "text": "la carte d'étudiant", "zh": "学生证", "features": { "gender": "f", "ipa": "la kaʁt de.ty.djɑ̃" }, "noteZh": "carte(卡)+ d'étudiant(学生的):中心词在前;la carte 第 2 单元学过“菜单、卡片”的意思。" },
+        { "id": "fr.chargeur", "kind": "word", "pos": "noun", "text": "le chargeur", "zh": "充电器", "features": { "gender": "m", "ipa": "lə ʃaʁ.ʒœʁ" }, "noteZh": "-eur 结尾,阳性;ch 读 [ʃ],g 在 e 前读 [ʒ]。" },
+        { "id": "fr.ecouteurs", "kind": "word", "pos": "noun", "text": "les écouteurs", "zh": "耳机", "features": { "gender": "m", "ipa": "le.ze.ku.tœʁ" }, "noteZh": "阳性;来自 écouter(听);平时用复数;les‿écouteurs 要联诵,s 读 [z]。" },
+        { "id": "fr.portefeuille", "kind": "word", "pos": "noun", "text": "le portefeuille", "zh": "钱包(放卡和纸币的)", "features": { "gender": "m", "ipa": "lə pɔʁ.tə.fœj" }, "noteZh": "阳性;porte(带)+ feuille(纸页);euille 读 [œj]。" },
+        { "id": "fr.lunettes", "kind": "word", "pos": "noun", "text": "les lunettes", "zh": "眼镜", "features": { "gender": "f", "ipa": "le ly.nɛt" }, "noteZh": "阴性,总是用复数(一副眼镜也是 des lunettes);les lunettes de soleil 太阳镜;u 读 [y]。" },
+        { "id": "fr.verifier", "kind": "word", "pos": "verb", "text": "vérifier", "zh": "检查;核对", "features": { "ipa": "ve.ʁi.fje" }, "noteZh": "-er 规则动词;On vérifie ? 我们检查一下吧?" },
+        { "id": "fr.poche", "kind": "word", "pos": "noun", "text": "la poche", "zh": "口袋;(包上的)小袋", "features": { "gender": "f", "ipa": "la pɔʃ" }, "noteZh": "阴性;ch 读 [ʃ];dans la poche 在口袋里。" },
+        { "id": "fr.pret", "kind": "word", "pos": "adj", "text": "prêt", "zh": "准备好的(阳性)", "features": { "ipa": "pʁɛ" }, "noteZh": "t 不发音;阴性 prête [pʁɛt];男生说 Je suis prêt !,女生说 Je suis prête !" }
+      ],
+      "reviewItems": ["fr.passeport", "fr.titre_de_sejour", "fr.billet", "fr.lit", "fr.sac_a_dos", "fr.parapluie"]
+    },
+    {
+      "id": "fr.a1u9.l07", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109070,
+      "titleZh": "罗马有什么好玩的?——克洛艾的建议",
+      "goalZh": "会问朋友去一个城市玩什么,听懂 il faut + 动词原形和命令式的推荐",
+      "canDoZh": "能问朋友去一个城市玩什么,听懂朋友的推荐(一定要去看……、一定要吃……)",
+      "scenarioZh": "出发前一天(12 月 18 日星期五)傍晚,克洛艾下课后和浩在卡里姆的咖啡馆喝热巧克力。克洛艾去过罗马,给浩推荐:一定要去看斗兽场和特雷维喷泉,在喷泉里扔一枚硬币;梵蒂冈的博物馆要提前买票;每天都要吃冰淇淋!浩说十二月吃冰淇淋太冷了,卡里姆端热巧克力过来插话:Une glace en hiver ? Pourquoi pas !",
+      "grammarFocusZh": "il faut + 动词原形表示推荐(Il faut voir le Colisée !,复习);tu 的命令式(Va voir…, Mange…, Achète…, Jette…);复习近将来时;新词 le monument, la fontaine, la glace, la pièce de monnaie",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "fr.monument", "kind": "word", "pos": "noun", "text": "le monument", "zh": "名胜古迹;纪念性建筑", "features": { "gender": "m", "ipa": "lə mɔ.ny.mɑ̃" }, "noteZh": "阳性;u 读 [y],ent 读 [ɑ̃],t 不发音。" },
+        { "id": "fr.fontaine", "kind": "word", "pos": "noun", "text": "la fontaine", "zh": "喷泉", "features": { "gender": "f", "ipa": "la fɔ̃.tɛn" }, "noteZh": "阴性;on 读鼻化元音 [ɔ̃];aine 读 [ɛn],n 后面有 e,不鼻化。" },
+        { "id": "fr.glace", "kind": "word", "pos": "noun", "text": "la glace", "zh": "冰淇淋;冰", "features": { "gender": "f", "ipa": "la glas" }, "noteZh": "阴性;une glace 一份冰淇淋;c 在 e 前读 [s];g 是浊音。" },
+        { "id": "fr.piece_de_monnaie", "kind": "word", "pos": "noun", "text": "la pièce de monnaie", "zh": "硬币", "features": { "gender": "f", "ipa": "la pjɛs də mɔ.nɛ" }, "noteZh": "口语里常只说 une pièce,和“房间” la pièce 是同一个词,看上下文;une pièce d'un euro 一枚一欧的硬币。" },
+        { "id": "fr.jeter", "kind": "word", "pos": "verb", "text": "jeter", "zh": "扔;投", "features": { "ipa": "ʒə.te" }, "noteZh": "je jette, tu jettes(t 双写,e 读 [ɛ]),nous jetons;命令式 Jette une pièce !" },
+        { "id": "fr.a_lavance", "kind": "phrase", "pos": "phrase", "text": "à l'avance", "zh": "提前;事先", "features": { "ipa": "a la.vɑ̃s" }, "noteZh": "放在动词短语后面:acheter les billets à l'avance 提前买票;an 读 [ɑ̃]。" },
+        { "id": "fr.pourquoi_pas", "kind": "phrase", "pos": "phrase", "text": "Pourquoi pas ?", "zh": "为什么不呢?(表示可以、不妨)", "features": { "ipa": "puʁ.kwa pa" }, "noteZh": "接受建议的常用说法,语气轻松;这里 pas 单独用,不加 ne。" },
+        { "id": "fr.magnifique", "kind": "word", "pos": "adj", "text": "magnifique", "zh": "壮丽的;太美了", "features": { "ipa": "ma.ɲi.fik" }, "noteZh": "gn 读 [ɲ](和 montagne 一样);阴阳性同形;C'est magnifique ! 太美了!" }
+      ],
+      "reviewItems": ["fr.il_faut", "fr.voir", "fr.musee", "fr.chocolat_chaud", "fr.billet", "fr.deuxieme"]
+    },
+    {
+      "id": "fr.a1u9.l08", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109080,
+      "titleZh": "单元复习与应用:出发那天",
+      "goalZh": "把本单元的车票、天气、衣物和随身物品用在出发那天的车站和车上",
+      "canDoZh": "能在车站看懂出发信息、听懂车上的广播,用短信告诉朋友自己到了哪儿",
+      "scenarioZh": "12 月 19 日早上 6 点半,浩到 Part-Dieu 车站,看显示屏:去都灵的火车准点;广播(narrator)通知 6 点 58 分发车。车上,浩给克洛艾发短信:天气、窗外白白的山、车上很安静;广播报下一站,提醒去罗马的乘客在都灵换车;克洛艾回复:Bon voyage ! Et mange une glace !。复现本单元的车票、天气、衣服和随身物品。",
+      "grammarFocusZh": "复习:百位数、天气、mettre、avoir froid / besoin de、il faut + 名词、近将来时;车站和车上广播的说法 Le train pour Turin part à…, Prochain arrêt…, Pour Rome, changez de train à Turin;être à l'heure / en retard",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
+      "newItems": [
+        { "id": "fr.a_lheure", "kind": "phrase", "pos": "phrase", "text": "à l'heure", "zh": "准时;准点", "features": { "ipa": "a lœʁ" }, "noteZh": "Le train est à l'heure. 火车准点;反义是 en retard(晚点,第 5 单元学过)。" },
+        { "id": "fr.ecran", "kind": "word", "pos": "noun", "text": "l'écran", "zh": "屏幕;显示屏", "features": { "gender": "m", "ipa": "le.kʁɑ̃" }, "noteZh": "元音开头,阳性:un écran;an 读 [ɑ̃];车站的显示屏、手机屏幕都叫 l'écran。" }
+      ],
+      "reviewItems": ["fr.depart", "fr.soleil", "fr.glace", "fr.passeport", "fr.changer", "fr.mettre"]
+    },
+    {
+      "id": "fr.a1u9.r02", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-9 去罗马之前", "order": 109085,
+      "titleZh": "罗马第一天(旅行日记)",
+      "goalZh": "会读一篇用复合过去时写的旅行日记,按顺序说出一天做了什么",
+      "canDoZh": "能读懂一篇用复合过去时写的旅行日记,按顺序说出浩第一天做了什么",
+      "scenarioZh": "体裁:旅行日记,约 13 句,浩写的第一人称短文(说话人 hao)。12 月 19 日晚上浩在酒店写日记:他早上 6 点 58 分出发,路上看到了白白的山,在都灵换了车,下午 5 点到了罗马;他走路去了酒店,放下行李,晚上看了特雷维喷泉,扔了一枚硬币,吃了一个冰淇淋(虽然很冷!);走了一天,腿很疼,可是这一天棒极了。",
+      "grammarFocusZh": "复合过去时的应用(je suis parti, j'ai changé, je suis allé, j'ai mis, j'ai mangé);时间顺序 d'abord / puis / après;C'était + 形容词",
+      "skills": ["read", "write"], "estimatedMinutes": 13.5,
+      "newItems": [
+        { "id": "fr.journee", "kind": "word", "pos": "noun", "text": "la journée", "zh": "一天;白天(从早到晚)", "features": { "gender": "f", "ipa": "la ʒuʁ.ne" }, "noteZh": "阴性;le jour 是“一天、日子”,la journée 强调从早到晚这一整天:Bonne journée ! 里的就是它;Quelle journée ! 这一天可真够呛!" }
+      ],
+      "reviewItems": ["fr.hotel", "fr.fontaine", "fr.jeter", "fr.glace", "fr.changer", "fr.mettre"]
     }
   ]
 }

@@ -1,0 +1,39 @@
+{
+  "id": "en.a1u13.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113045,
+  "titleZh": "失物招领告示", "goalZh": "读懂几条寻物和招领告示,找到丢了什么、在哪儿丢的、怎么联系", "canDoZh": "能看懂失物招领和寻物启事,找到东西是什么、在哪儿丢的、怎么联系",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+  "newItems": [
+    { "id": "en.backpack", "kind": "word", "pos": "noun", "text": "backpack", "zh": "双肩包", "features": { "ipa": "ˈbækpæk" }, "noteZh": "back(背)+ pack,复合词重音在前 BACK-pack;两个 a 都读 /æ/。" },
+    { "id": "en.reward", "kind": "word", "pos": "noun", "text": "reward", "zh": "酬谢;奖励", "features": { "ipa": "rɪˈwɔːrd" }, "noteZh": "寻物启事上写 Reward! 表示找到的人有酬谢;重音在后 re-WARD,war 读 /wɔːr/。" }
+  ],
+  "reviewItems": ["en.lost_and_found", "en.find", "en.lose", "en.scarf", "en.gift"],
+  "lines": [
+    { "speaker": "narrator", "text": "LOST AND FOUND", "zh": "(码头附近社区公告栏上贴着的几张告示)失物招领", "items": ["en.lost_and_found"] },
+    { "speaker": "narrator", "text": "FOUND: a black backpack on Bus 44, Monday afternoon.", "zh": "招领:周一下午在 44 路公交车上捡到一个黑色双肩包。", "items": ["en.find", "en.black", "en.backpack", "en.bus", "en.monday", "en.afternoon"] },
+    { "speaker": "narrator", "text": "Is it yours? Call Mike at 555-0134.", "zh": "是你的吗?请打电话给迈克:555-0134。", "items": ["en.yours", "en.call"] },
+    { "speaker": "narrator", "text": "LOST: a green scarf, Saturday night, at the theater on 3rd Street.", "zh": "寻物:周六晚上在第三街的剧院丢了一条绿色围巾。", "items": ["en.lose", "en.green", "en.scarf", "en.saturday", "en.night", "en.theater", "en.street"] },
+    { "speaker": "narrator", "text": "It was a gift from my mom.", "zh": "那是我妈妈送我的礼物。", "items": ["en.gift", "en.mom"] },
+    { "speaker": "narrator", "text": "Reward! Please text Ana at 555-0178.", "zh": "有酬谢!请发短信给安娜:555-0178。", "items": ["en.reward", "en.text"] },
+    { "speaker": "narrator", "text": "LOST: a small red bag with my student card.", "zh": "寻物:一个红色的小包,里面有我的学生证。", "items": ["en.lose", "en.small", "en.red", "en.bag", "en.student", "en.card"] },
+    { "speaker": "narrator", "text": "Please call Ben at 555-0156.", "zh": "请打电话给本:555-0156。", "items": ["en.call"] },
+    { "speaker": "narrator", "text": "Lost something on Santa Monica Pier?", "zh": "在圣莫尼卡码头丢了东西?", "items": ["en.lose"] },
+    { "speaker": "narrator", "text": "Come to our Lost and Found, Monday to Sunday, 9:00 to 5:00.", "zh": "请到我们的失物招领处来,周一到周日,9:00 到 5:00。", "items": ["en.come", "en.lost_and_found", "en.monday", "en.sunday"] },
+    { "speaker": "narrator", "text": "Call us at 555-0100.", "zh": "电话:555-0100。", "items": ["en.call"] }
+  ],
+  "questions": [
+    { "prompt": "44 路公交车上捡到了什么?", "options": ["一个红色的小包", "一条绿色围巾", "一个黑色双肩包"], "answer": 2, "explainZh": "FOUND: a black backpack on Bus 44, Monday afternoon.(周一下午在 44 路车上捡到一个黑色双肩包)" },
+    { "prompt": "丢了绿色围巾的人为什么说有酬谢?", "options": ["那是妈妈送的礼物", "围巾里有学生证", "那是刚买的新围巾"], "answer": 0, "explainZh": "It was a gift from my mom. Reward!(那是妈妈送的礼物,有酬谢!)" },
+    { "prompt": "在码头丢了东西,可以怎么办?", "options": ["给安娜发短信", "周一到周日 9 点到 5 点去码头的失物招领处", "给本打电话"], "answer": 1, "explainZh": "Lost something on Santa Monica Pier? Come to our Lost and Found, Monday to Sunday, 9:00 to 5:00.;安娜和本是丢了东西的人。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_notices", "titleZh": "读失物告示:FOUND / LOST 和省略写法",
+      "bodyZh": "告示要写得短,常省掉主语和动词:FOUND: a black backpack on Bus 44 = We found a black backpack on Bus 44.(我们在 44 路车上捡到一个黑色双肩包);LOST: a green scarf = I lost a green scarf.。found 是 find 的过去式,lost 是 lose 的过去式,写在告示开头就是“招领”“寻物”。读告示先找三样:什么东西(颜色、大小)、在哪儿什么时候丢的、怎么联系(打电话还是发短信)。描述东西还是“大小 → 颜色 → 名词”:a small red bag。Reward! 表示找到的人有酬谢。",
+      "examples": [
+        { "text": "FOUND: a black backpack on Bus 44.", "zh": "招领:在 44 路车上捡到一个黑色双肩包。" },
+        { "text": "LOST: a small red bag with my student card.", "zh": "寻物:一个红色的小包,里面有我的学生证。" },
+        { "text": "It was a gift from my mom.", "zh": "那是我妈妈送的礼物。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "fr.a1u9.l03", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109030,
+  "titleZh": "穿什么?——mettre 和冬天的衣服", "goalZh": "会用 mettre 说穿什么、戴什么、往箱子里放什么,说出冬天的衣物", "canDoZh": "能根据天气说要穿什么、戴什么、带什么(围巾、手套、帽子、雨伞)",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "fr.mettre", "kind": "word", "pos": "verb", "text": "mettre", "zh": "放;穿上;戴上", "features": { "ipa": "mɛtʁ" }, "noteZh": "不规则动词:je mets, tu mets, il met(单数的 t 不发音),nous mettons, vous mettez, ils mettent;穿衣服、戴帽子、往包里放东西都可以用它。" },
+    { "id": "fr.echarpe", "kind": "word", "pos": "noun", "text": "l'écharpe", "zh": "围巾", "features": { "gender": "f", "ipa": "le.ʃaʁp" }, "noteZh": "元音开头,阴性:une écharpe;ch 读 [ʃ]。" },
+    { "id": "fr.gants", "kind": "word", "pos": "noun", "text": "les gants", "zh": "手套", "features": { "gender": "m", "ipa": "le gɑ̃" }, "noteZh": "阳性;一只手套是 un gant,平时说复数 des gants;t 不发音,g 是浊音 [g]。" },
+    { "id": "fr.bonnet", "kind": "word", "pos": "noun", "text": "le bonnet", "zh": "毛线帽", "features": { "gender": "m", "ipa": "lə bɔ.nɛ" }, "noteZh": "词尾 t 不发音;b 是浊音,声带要振动,别读成清音;戴帽子:mettre un bonnet。" },
+    { "id": "fr.parapluie", "kind": "word", "pos": "noun", "text": "le parapluie", "zh": "雨伞", "features": { "gender": "m", "ipa": "lə pa.ʁa.plɥi" }, "noteZh": "para(挡)+ pluie(雨);uie 读 [ɥi];阳性。" },
+    { "id": "fr.leger", "kind": "word", "pos": "adj", "text": "léger", "zh": "轻的;薄的(阳性)", "features": { "ipa": "le.ʒe" }, "noteZh": "阴性 légère [le.ʒɛʁ](-er → -ère,和 premier → première 一样);une veste légère 一件薄外套。" },
+    { "id": "fr.valise", "kind": "word", "pos": "noun", "text": "la valise", "zh": "行李箱", "features": { "gender": "f", "ipa": "la va.liz" }, "noteZh": "两个元音之间的 s 读 [z];faire sa valise 收拾行李。" },
+    { "id": "fr.veste", "kind": "word", "pos": "noun", "text": "la veste", "zh": "外套;夹克(比大衣薄)", "features": { "gender": "f", "ipa": "la vɛst" }, "noteZh": "阴性;st 要读出来 [st];厚的大衣是 le manteau(第 7 单元学过)。" }
+  ],
+  "reviewItems": ["fr.manteau", "fr.pull", "fr.rouge", "fr.hiver", "fr.froid"],
+  "lines": [
+    { "speaker": "chloe", "text": "Hao, qu'est-ce que tu mets dans ta valise ?", "zh": "(12 月 16 日星期三下午,克洛艾来宿舍帮浩收拾行李)浩,你往箱子里放什么?", "items": ["fr.quest_ce_que", "fr.tu", "fr.mettre", "fr.dans", "fr.ta", "fr.valise"] },
+    { "speaker": "hao", "text": "Je mets deux pulls, un pantalon et des tee-shirts.", "zh": "我放两件毛衣、一条裤子,还有几件 T 恤。", "items": ["fr.je", "fr.mettre", "fr.deux", "fr.pull", "fr.un", "fr.pantalon", "fr.et", "fr.des", "fr.tee_shirt"] },
+    { "speaker": "chloe", "text": "Et ton manteau ? À Rome, il ne fait pas très froid.", "zh": "那你的大衣呢?罗马不太冷。", "items": ["fr.et", "fr.ton", "fr.manteau", "fr.a", "fr.il", "fr.ne_pas", "fr.faire", "fr.tres", "fr.froid"] },
+    { "speaker": "hao", "text": "D'accord, je mets ma veste. Elle est légère.", "zh": "好,那我穿外套去,它薄一点。", "items": ["fr.d_accord", "fr.je", "fr.mettre", "fr.ma", "fr.veste", "fr.elle", "fr.etre", "fr.leger"] },
+    { "speaker": "chloe", "text": "Et prends un parapluie ! Il pleut peut-être ce week-end.", "zh": "还要带把伞!这个周末可能下雨。", "items": ["fr.et", "fr.prendre", "fr.un", "fr.parapluie", "fr.il_pleut", "fr.peut_etre", "fr.ce", "fr.week_end"] },
+    { "speaker": "chloe", "text": "Moi, en hiver, je mets un bonnet et des gants tous les jours !", "zh": "我呀,冬天天天戴帽子和手套!", "items": ["fr.moi", "fr.en", "fr.hiver", "fr.je", "fr.mettre", "fr.un", "fr.bonnet", "fr.et", "fr.des", "fr.gants", "fr.tous_les_jours"] },
+    { "speaker": "hao", "text": "Je n'ai pas de bonnet. Et je n'ai pas d'écharpe !", "zh": "我没有帽子。也没有围巾!", "items": ["fr.je", "fr.ne_pas", "fr.avoir", "fr.pas_de", "fr.bonnet", "fr.et", "fr.echarpe"] },
+    { "speaker": "lucas", "text": "Prends mon écharpe rouge !", "zh": "(住在隔壁的卢卡探头进来)拿我的红围巾去吧!", "items": ["fr.prendre", "fr.mon", "fr.echarpe", "fr.rouge"] },
+    { "speaker": "hao", "text": "Merci, Lucas ! Je mets l'écharpe dans la valise.", "zh": "谢谢你,卢卡!我把围巾放进箱子里。", "items": ["fr.merci", "fr.je", "fr.mettre", "fr.echarpe", "fr.dans", "fr.valise"] },
+    { "speaker": "chloe", "text": "Non, mets l'écharpe ! À Lyon aussi, il fait froid !", "zh": "别放,现在就围上!里昂也冷着呢!", "items": ["fr.non", "fr.mettre", "fr.echarpe", "fr.a", "fr.aussi", "fr.il", "fr.faire", "fr.froid"] }
+  ],
+  "questions": [
+    { "prompt": "克洛艾冬天天天戴什么?", "options": ["帽子和手套", "围巾和帽子", "手套和围巾"], "answer": 0, "explainZh": "克洛艾说:Moi, en hiver, je mets un bonnet et des gants tous les jours !(帽子和手套)" },
+    { "prompt": "浩的围巾是哪儿来的?", "options": ["克洛艾送的", "在罗马买的", "卢卡借给他的"], "answer": 2, "explainZh": "浩说他没有围巾,卢卡说:Prends mon écharpe rouge !(拿我的红围巾去吧!)" },
+    { "prompt": "克洛艾为什么让浩带伞?", "options": ["罗马很冷", "这个周末罗马可能下雨", "里昂正在下雨"], "answer": 1, "explainZh": "Et prends un parapluie ! Il pleut peut-être ce week-end.——peut-être 是“可能”。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.mettre", "titleZh": "mettre:穿、戴、放",
+      "bodyZh": "mettre 是不规则动词:je mets, tu mets, il / elle met, nous mettons, vous mettez, ils / elles mettent。单数三个人称读音一样 [mɛ],词尾的 s、t 都不发音;复数的 tt 读 [t]:mettons [mɛ.tɔ̃]、mettent [mɛt]。用法:① 穿衣服、戴帽子、围围巾、戴手套,中文要换好几个动词,法语都可以用 mettre:mettre un pull / un bonnet / une écharpe / des gants。② 往哪儿放,用 mettre … dans / sur …:Je mets l'écharpe dans la valise.。命令式 Mets ton bonnet !(戴上帽子!)来自 tu mets,去掉主语就行,和 Prends…、Continue… 一样。mettre 说的是“穿上、戴上”这个动作;“身上穿着什么”第 11 单元学 porter。元音开头的阴性名词前,ma / ta / sa 要换成 mon / ton / son:mon écharpe(我的围巾),这样好读。",
+      "examples": [
+        { "text": "Je mets un bonnet et des gants.", "zh": "我戴上帽子和手套。" },
+        { "text": "Nous mettons les pulls dans la valise.", "zh": "我们把毛衣放进箱子里。" },
+        { "text": "Vous mettez un manteau ? Il fait froid !", "zh": "你们穿大衣吗?天很冷!" },
+        { "text": "Mets ton écharpe !", "zh": "围上你的围巾!" }
+      ] },
+    { "id": "fr.g.sourdes_sonores", "titleZh": "发音:清辅音和浊辅音 [p]/[b]、[t]/[d]、[k]/[g]",
+      "bodyZh": "法语的 b、d、g 是浊辅音:发音时声带振动,手摸着喉咙能感到颤动;p、t、k 是清辅音,声带不振动,而且不送气。中文拼音的 b、d、g 其实是不送气的清音,p、t、k 是送气音,所以中国学生说 bonnet,法国人常听成“ponnet”;说 passeport,p 又容易送出一股气。练习方法:发 b、d、g 之前,先轻轻哼一下“嗯”,让声带先振动起来,再接 bonnet、degré、gants;发 p、t、k 时把手放在嘴前,尽量感觉不到气流:pull、temps、quatorze。成对地练:temps / dent、quatre / gants、pull / bonnet。",
+      "examples": [
+        { "text": "Un bonnet, des gants.", "zh": "一顶帽子,一副手套。(b、d、g 声带要振动)" },
+        { "text": "Deux pulls, trois tee-shirts.", "zh": "两件毛衣,三件 T 恤。(p、t 不送气)" },
+        { "text": "Il fait quatorze degrés.", "zh": "十四度。(注意 t 和 d、k 和 g 的区别)" }
+      ] }
+  ],
+  "review": "draft"
+}

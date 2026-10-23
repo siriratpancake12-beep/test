@@ -1,0 +1,53 @@
+{
+  "id": "fr.a1u9.l07", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109070,
+  "titleZh": "罗马有什么好玩的?——克洛艾的建议", "goalZh": "会问朋友去一个城市玩什么,听懂 il faut + 动词原形和命令式的推荐", "canDoZh": "能问朋友去一个城市玩什么,听懂朋友的推荐(一定要去看……、一定要吃……)",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "fr.monument", "kind": "word", "pos": "noun", "text": "le monument", "zh": "名胜古迹;纪念性建筑", "features": { "gender": "m", "ipa": "lə mɔ.ny.mɑ̃" }, "noteZh": "阳性;u 读 [y],ent 读 [ɑ̃],t 不发音。" },
+    { "id": "fr.fontaine", "kind": "word", "pos": "noun", "text": "la fontaine", "zh": "喷泉", "features": { "gender": "f", "ipa": "la fɔ̃.tɛn" }, "noteZh": "阴性;on 读鼻化元音 [ɔ̃];aine 读 [ɛn],n 后面有 e,不鼻化。" },
+    { "id": "fr.glace", "kind": "word", "pos": "noun", "text": "la glace", "zh": "冰淇淋;冰", "features": { "gender": "f", "ipa": "la glas" }, "noteZh": "阴性;une glace 一份冰淇淋;c 在 e 前读 [s];g 是浊音。" },
+    { "id": "fr.piece_de_monnaie", "kind": "word", "pos": "noun", "text": "la pièce de monnaie", "zh": "硬币", "features": { "gender": "f", "ipa": "la pjɛs də mɔ.nɛ" }, "noteZh": "口语里常只说 une pièce,和“房间” la pièce 是同一个词,看上下文;une pièce d'un euro 一枚一欧的硬币。" },
+    { "id": "fr.jeter", "kind": "word", "pos": "verb", "text": "jeter", "zh": "扔;投", "features": { "ipa": "ʒə.te" }, "noteZh": "je jette, tu jettes(t 双写,e 读 [ɛ]),nous jetons;命令式 Jette une pièce !" },
+    { "id": "fr.a_lavance", "kind": "phrase", "pos": "phrase", "text": "à l'avance", "zh": "提前;事先", "features": { "ipa": "a la.vɑ̃s" }, "noteZh": "放在动词短语后面:acheter les billets à l'avance 提前买票;an 读 [ɑ̃]。" },
+    { "id": "fr.pourquoi_pas", "kind": "phrase", "pos": "phrase", "text": "Pourquoi pas ?", "zh": "为什么不呢?(表示可以、不妨)", "features": { "ipa": "puʁ.kwa pa" }, "noteZh": "接受建议的常用说法,语气轻松;这里 pas 单独用,不加 ne。" },
+    { "id": "fr.magnifique", "kind": "word", "pos": "adj", "text": "magnifique", "zh": "壮丽的;太美了", "features": { "ipa": "ma.ɲi.fik" }, "noteZh": "gn 读 [ɲ](和 montagne 一样);阴阳性同形;C'est magnifique ! 太美了!" }
+  ],
+  "reviewItems": ["fr.il_faut", "fr.voir", "fr.musee", "fr.chocolat_chaud", "fr.billet", "fr.deuxieme"],
+  "lines": [
+    { "speaker": "hao", "text": "Chloé, tu es allée à Rome ?", "zh": "(12 月 18 日星期五傍晚,克洛艾下课后和浩在卡里姆的咖啡馆)克洛艾,你去过罗马吗?", "items": ["fr.tu", "fr.etre", "fr.aller", "fr.a"] },
+    { "speaker": "chloe", "text": "Oui, avec ma famille. C'est une ville magnifique !", "zh": "去过,和家里人一起去的。那座城市美极了!", "items": ["fr.oui", "fr.avec", "fr.ma", "fr.famille", "fr.cest", "fr.une", "fr.ville", "fr.magnifique"] },
+    { "speaker": "hao", "text": "Qu'est-ce qu'il faut voir ?", "zh": "一定要看什么?", "items": ["fr.quest_ce_que", "fr.il_faut", "fr.voir"] },
+    { "speaker": "chloe", "text": "Il faut voir le Colisée. C'est un très beau monument !", "zh": "一定要去看斗兽场。那是一座特别美的古迹!", "items": ["fr.il_faut", "fr.voir", "fr.cest", "fr.un", "fr.tres", "fr.beau", "fr.monument"] },
+    { "speaker": "chloe", "text": "Et va voir la fontaine de Trevi. Jette une pièce dans la fontaine !", "zh": "还要去看特雷维喷泉。往喷泉里扔一枚硬币!", "items": ["fr.et", "fr.aller", "fr.voir", "fr.fontaine", "fr.de", "fr.jeter", "fr.une", "fr.piece_de_monnaie", "fr.dans"] },
+    { "speaker": "hao", "text": "Une pièce ? Pourquoi ?", "zh": "扔硬币?为什么?", "items": ["fr.une", "fr.piece_de_monnaie", "fr.pourquoi"] },
+    { "speaker": "chloe", "text": "Parce qu'après, tu vas voir Rome une deuxième fois !", "zh": "因为这样,以后你还会再来罗马!", "items": ["fr.parce_que", "fr.apres", "fr.tu", "fr.aller", "fr.voir", "fr.une", "fr.deuxieme", "fr.fois"] },
+    { "speaker": "chloe", "text": "Et les musées du Vatican ? Achète les billets à l'avance !", "zh": "还有梵蒂冈博物馆?票要提前买!", "items": ["fr.et", "fr.musee", "fr.de", "fr.du", "fr.acheter", "fr.billet", "fr.a_lavance"] },
+    { "speaker": "chloe", "text": "Et mange une glace tous les jours !", "zh": "还有,每天都要吃冰淇淋!", "items": ["fr.et", "fr.manger", "fr.une", "fr.glace", "fr.tous_les_jours"] },
+    { "speaker": "hao", "text": "Une glace ? En décembre ? Il fait froid !", "zh": "冰淇淋?十二月?天这么冷!", "items": ["fr.une", "fr.glace", "fr.en", "fr.decembre", "fr.il", "fr.faire", "fr.froid"] },
+    { "speaker": "serveur", "text": "Une glace en hiver ? Pourquoi pas ! Voilà les chocolats chauds.", "zh": "(卡里姆端来两杯热巧克力)冬天吃冰淇淋?有何不可!你们的热巧克力来了。", "items": ["fr.une", "fr.glace", "fr.en", "fr.hiver", "fr.pourquoi_pas", "fr.voila", "fr.chocolat_chaud"] },
+    { "speaker": "hao", "text": "D'accord ! Le Colisée, la fontaine et une glace tous les jours !", "zh": "好吧!斗兽场、喷泉,还有每天一个冰淇淋!", "items": ["fr.d_accord", "fr.fontaine", "fr.et", "fr.une", "fr.glace", "fr.tous_les_jours"] }
+  ],
+  "questions": [
+    { "prompt": "克洛艾说在特雷维喷泉要做什么?", "options": ["喝一杯咖啡", "买博物馆的票", "往喷泉里扔一枚硬币"], "answer": 2, "explainZh": "Jette une pièce dans la fontaine !(往喷泉里扔一枚硬币!)" },
+    { "prompt": "去梵蒂冈博物馆,克洛艾提醒浩什么?", "options": ["要提前买票", "要早上去", "要带雨伞"], "answer": 0, "explainZh": "Achète les billets à l'avance !——à l'avance 是“提前”。" },
+    { "prompt": "卡里姆觉得冬天吃冰淇淋怎么样?", "options": ["太冷了,不行", "没问题,有何不可", "只能在罗马吃"], "answer": 1, "explainZh": "卡里姆说:Une glace en hiver ? Pourquoi pas !(冬天吃冰淇淋?有何不可!)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.conseils", "titleZh": "给建议:il faut + 动词原形 和 tu 的命令式",
+      "bodyZh": "推荐别人做什么,常用两种说法:① Il faut + 动词原形(一定要……):Il faut voir le Colisée !——第 7 单元学过,这里用来推荐;② 直接用命令式,对朋友用 tu 的形式:Va voir la fontaine !(去看喷泉吧!)Mange une glace !(吃个冰淇淋!)Achète les billets à l'avance !(票要提前买!)。tu 的命令式就是去掉 tu 的现在时:tu manges → Mange !。-er 动词和 aller 要去掉词尾的 s:tu vas → Va !,tu achètes → Achète !,tu jettes → Jette !;其他动词保留 s:tu prends → Prends !,tu mets → Mets !。中文“一定要去看看”“你去看嘛”语气比较软;法语朋友之间用命令式推荐很自然,不算不礼貌。",
+      "examples": [
+        { "text": "Il faut voir le Colisée !", "zh": "一定要去看斗兽场!" },
+        { "text": "Va voir la fontaine de Trevi !", "zh": "去看看特雷维喷泉吧!" },
+        { "text": "Achète les billets à l'avance !", "zh": "票要提前买!" }
+      ] },
+    { "id": "fr.g.pourquoi_pas", "titleZh": "Pourquoi ? / Parce que… / Pourquoi pas !",
+      "bodyZh": "第 8 单元学了 Pourquoi … ?(为什么)和 Parce que …(因为)。parce que 在元音前省音成 parce qu':Parce qu'après, tu vas voir Rome une deuxième fois !。Pourquoi pas ! 意思不一样:不是问原因,而是“为什么不呢”——可以啊、不妨试试,用来同意一个有点出人意料的主意:Une glace en hiver ? Pourquoi pas !。这里只说 pas,不加 ne,口语里很常见。罗马的习俗:背对特雷维喷泉,往里扔一枚硬币,据说以后还会再来罗马。",
+      "examples": [
+        { "text": "Pourquoi une pièce ?", "zh": "为什么扔硬币?" },
+        { "text": "Parce qu'après, tu vas voir Rome une deuxième fois.", "zh": "因为这样以后你还会再来罗马。" },
+        { "text": "Une glace en hiver ? Pourquoi pas !", "zh": "冬天吃冰淇淋?有何不可!" }
+      ] }
+  ],
+  "review": "draft"
+}

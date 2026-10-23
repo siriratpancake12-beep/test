@@ -1,0 +1,48 @@
+{
+  "id": "en.a1u17.l02", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-17 Let's cook", "order": 117020,
+  "titleZh": "去亚洲超市", "goalZh": "会说常见的中餐食材,在超市问店员东西在哪儿", "canDoZh": "能在超市找到要买的食材,问店员东西在哪儿,并向朋友解释这些食材",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.tofu", "kind": "word", "pos": "noun", "text": "tofu", "zh": "豆腐", "features": { "ipa": "ˈtoʊfuː" }, "noteZh": "不可数,不加 a;重音在前 TO-fu。美国超市里很常见,很多素食者爱吃。" },
+    { "id": "en.soy_sauce", "kind": "phrase", "pos": "noun", "text": "soy sauce", "zh": "酱油", "features": { "ipa": "ˌsɔɪ ˈsɑːs" }, "noteZh": "不可数:a bottle of soy sauce 一瓶酱油;sauce 读 /sɑːs/。" },
+    { "id": "en.dumpling", "kind": "word", "pos": "noun", "text": "dumpling", "zh": "饺子", "features": { "ipa": "ˈdʌmplɪŋ" }, "noteZh": "u 读 /ʌ/,结尾 -ling 是后鼻音 /ŋ/;饺子、包子、馄饨在英语里都可以叫 dumpling。" },
+    { "id": "en.green_onion", "kind": "phrase", "pos": "noun", "text": "green onion", "zh": "葱", "features": { "ipa": "ˌɡriːn ˈʌnjən" }, "noteZh": "onion 单独说是洋葱,葱要说 green onion;onion 的 o 读 /ʌ/。" },
+    { "id": "en.ginger", "kind": "word", "pos": "noun", "text": "ginger", "zh": "姜", "features": { "ipa": "ˈdʒɪndʒɚ" }, "noteZh": "两个 g 都读 /dʒ/,结尾卷舌 /ɚ/;做调料时不可数。" },
+    { "id": "en.garlic", "kind": "word", "pos": "noun", "text": "garlic", "zh": "蒜", "features": { "ipa": "ˈɡɑːrlɪk" }, "noteZh": "ar 要卷舌,别读成\"嘎里克\";不可数。" },
+    { "id": "en.sichuan_pepper", "kind": "phrase", "pos": "noun", "text": "Sichuan pepper", "zh": "花椒", "features": { "ipa": "ˈsetʃwɑːn ˌpepɚ" }, "noteZh": "美国人读 Sichuan 常读成 \"SETCH-wahn\";花椒的\"麻\"英语里没有对应的词,可以说 It makes your mouth numb.。" },
+    { "id": "en.strong", "kind": "word", "pos": "adj", "text": "strong", "zh": "(味道)浓的;冲的;强壮的", "features": { "ipa": "strɑːŋ" }, "noteZh": "It's so strong! 味儿真冲!;str 中间不加元音,结尾是后鼻音 /ŋ/。" },
+    { "id": "en.dumpling_wrapper", "kind": "phrase", "pos": "noun", "text": "dumpling wrapper", "zh": "饺子皮", "features": { "ipa": "ˈdʌmplɪŋ ˌræpɚ" }, "noteZh": "wrapper 开头的 w 不发音;美国的亚洲超市一般放在冷冻柜里。" },
+    { "id": "en.freezer", "kind": "word", "pos": "noun", "text": "freezer", "zh": "冷冻柜;冰箱冷冻室", "features": { "ipa": "ˈfriːzɚ" }, "noteZh": "in the freezer 在冷冻柜里;冰箱是 fridge(第 16 单元),冷冻的那一格是 freezer。" }
+  ],
+  "reviewItems": ["en.store", "en.bottle", "en.find", "en.aisle", "en.pack", "en.try"],
+  "lines": [
+    { "speaker": "amy", "text": "Wow, this store is so big! What's this?", "zh": "(国际区的一家亚洲超市)哇,这家店好大!这是什么?", "items": ["en.store", "en.so", "en.big"] },
+    { "speaker": "lei", "text": "That's tofu. It's very good in spicy food.", "zh": "那是豆腐。放在辣菜里特别好吃。", "items": ["en.tofu", "en.spicy", "en.food"] },
+    { "speaker": "amy", "text": "And this black bottle?", "zh": "那这个黑色的瓶子呢?", "items": ["en.black", "en.bottle"] },
+    { "speaker": "lei", "text": "Soy sauce. We need soy sauce for the dumplings.", "zh": "酱油。做饺子要用酱油。", "items": ["en.soy_sauce", "en.need", "en.dumpling"] },
+    { "speaker": "lei", "text": "We need green onions, ginger, and garlic, too.", "zh": "还要买葱、姜、蒜。", "items": ["en.need", "en.green_onion", "en.ginger", "en.garlic"] },
+    { "speaker": "sofia", "text": "What's in this small bag?", "zh": "这个小袋子里是什么?", "items": ["en.small", "en.bag"] },
+    { "speaker": "lei", "text": "Sichuan pepper! Try it, Amy.", "zh": "花椒!艾米,你尝一颗。", "items": ["en.sichuan_pepper", "en.try"] },
+    { "speaker": "amy", "text": "Wow! It's so strong!", "zh": "哇!味儿好冲!", "items": ["en.so", "en.strong"] },
+    { "speaker": "lei", "text": "Now, dumpling wrappers... I can't find them.", "zh": "现在要找饺子皮……我找不到。", "items": ["en.dumpling_wrapper", "en.cant", "en.find"] },
+    { "speaker": "lei", "text": "Excuse me. Where can I find dumpling wrappers?", "zh": "打扰一下,请问饺子皮在哪儿?", "items": ["en.excuse_me", "en.can", "en.find", "en.dumpling_wrapper"] },
+    { "speaker": "clerk", "text": "Aisle 7, in the freezer.", "zh": "7 号过道,在冷冻柜里。", "items": ["en.aisle", "en.freezer"] },
+    { "speaker": "lei", "text": "Thank you! Let's buy two packs.", "zh": "谢谢!我们买两包吧。", "items": ["en.thank_you", "en.lets", "en.buy", "en.pack"] }
+  ],
+  "questions": [
+    { "prompt": "他们买酱油做什么?", "options": ["炒菜用", "包饺子用", "做汤用"], "answer": 1, "explainZh": "We need soy sauce for the dumplings.——做饺子要用酱油。" },
+    { "prompt": "艾米尝了花椒以后觉得怎么样?", "options": ["很甜", "没什么味道", "味道很冲"], "answer": 2, "explainZh": "Wow! It's so strong!——strong 在这里是味道\"很冲、很浓\"。" },
+    { "prompt": "饺子皮在哪儿?", "options": ["7 号过道的冷冻柜里", "收银台旁边", "这家店没有卖"], "answer": 0, "explainZh": "Aisle 7, in the freezer.——7 号过道,冷冻柜里。" }
+  ],
+  "grammar": [
+    { "id": "en.g.shopping_food_review", "titleZh": "买食材:可数、不可数、量词和 Where can I find…?",
+      "bodyZh": "可数的东西直接用数字或复数:two green onions、some dumpling wrappers;不可数的(tofu、soy sauce、ginger、garlic)不能直接加数字和 -s,要用量词:a bottle of soy sauce(一瓶酱油)、two packs of dumpling wrappers(两包饺子皮)——第 6 单元学过 a bottle of、a pack of。some 用在肯定句,any 用在否定句和疑问句(第 4 单元):Do we have any soy sauce? — No, we need some.。在超市找不到东西就问店员:Where can I find…?,店员常回答过道号:Aisle 7.。\n发音:garlic /ˈɡɑːrlɪk/ 的 ar 要卷舌;ginger /ˈdʒɪndʒɚ/ 的两个 g 都读 /dʒ/;Sichuan 美国人常读成 \"SETCH-wahn\"。",
+      "examples": [
+        { "text": "We need green onions, ginger, and garlic, too.", "zh": "还要买葱、姜、蒜。" },
+        { "text": "Do we have any soy sauce? — No, we need some.", "zh": "我们还有酱油吗?——没了,要买一些。" },
+        { "text": "Excuse me. Where can I find dumpling wrappers?", "zh": "打扰一下,请问饺子皮在哪儿?" }
+      ] }
+  ],
+  "review": "draft"
+}

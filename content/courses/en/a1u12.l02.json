@@ -28,7 +28,7 @@
   ],
   "questions": [
     { "prompt": "磊打电话给前台要什么?", "options": ["一个枕头", "两条毛巾", "两个枕头"], "answer": 2, "explainZh": "磊说 Could I get two more pillows, please?:two more pillows 是“再要两个枕头”。" },
-    { "prompt": "磊为什么问 Wi-Fi 的事?", "options": ["Wi-Fi 太慢了", "他找不到密码", "他想换房间"], "answer": 1, "explainZh": "磊说 I can't find the password.(我找不到密码)。" },
+    { "prompt": "磊为什么问 Wi-Fi 的事?", "options": ["他找不到密码", "Wi-Fi 太慢了", "他想换房间"], "answer": 0, "explainZh": "磊说 I can't find the password.(我找不到密码)。" },
     { "prompt": "前台说 Wi-Fi 密码还能在哪儿找到?", "options": ["房卡上", "大堂的墙上", "房间的书桌上"], "answer": 0, "explainZh": "前台说 It's on your key card, too.(房卡上也印着)。" }
   ],
   "grammar": [

@@ -30,8 +30,8 @@
   ],
   "questions": [
     { "prompt": "磊第一次去前台是因为什么?", "options": ["房间没有热水", "房卡刷不开门", "空调坏了"], "answer": 1, "explainZh": "磊说 My key doesn't work.(我的房卡刷不开),前台给了他一张新的。" },
-    { "prompt": "后来磊的房间又出了什么问题?", "options": ["没有热水,空调也不工作", "电视坏了", "隔壁太吵"], "answer": 0, "explainZh": "磊说 There's no hot water in the shower.,索菲亚说 his AC isn't working.。" },
-    { "prompt": "前台是怎么解决的?", "options": ["今晚就派人修好", "退一晚的房费", "给磊换到 604 房间,还送了两份免费早餐"], "answer": 2, "explainZh": "前台说 We can't fix it tonight.(今晚修不好),接着说 Can I move you to Room 604? 和 here are two free breakfasts.。" }
+    { "prompt": "后来磊的房间又出了什么问题?", "options": ["电视坏了", "隔壁太吵", "没有热水,空调也不工作"], "answer": 2, "explainZh": "磊说 There's no hot water in the shower.,索菲亚说 his AC isn't working.。" },
+    { "prompt": "前台是怎么解决的?", "options": ["给磊换到 604 房间,还送了两份免费早餐", "今晚就派人修好", "退一晚的房费"], "answer": 0, "explainZh": "前台说 We can't fix it tonight.(今晚修不好),接着说 Can I move you to Room 604? 和 here are two free breakfasts.。" }
   ],
   "grammar": [
     { "id": "en.g.u12_doesnt_work", "titleZh": "说故障:doesn't work / isn't working / There's no…",

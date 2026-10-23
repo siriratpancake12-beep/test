@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u17.l01", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-17 Let's cook", "order": 117010,
+  "titleZh": "厨房里有什么?", "goalZh": "会说常用的厨具和做饭的动作,用 have / don't have 说厨房里有什么", "canDoZh": "能说出常用的厨具和做饭的动作,看看厨房里缺什么",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.pan", "kind": "word", "pos": "noun", "text": "pan", "zh": "平底锅", "features": { "ipa": "pæn" }, "noteZh": "煎鸡蛋用 pan,煮汤用 pot;a 读 /æ/,和 pen(笔)要分清。" },
+    { "id": "en.wok", "kind": "word", "pos": "noun", "text": "wok", "zh": "炒锅", "features": { "ipa": "wɑːk" }, "noteZh": "来自粤语\"镬\",英语里专指中式炒锅;美式读 /wɑːk/,和 walk 很像。" },
+    { "id": "en.knife", "kind": "word", "pos": "noun", "text": "knife", "zh": "刀", "features": { "ipa": "naɪf" }, "noteZh": "开头的 k 不发音;复数 knives(f 变 v 加 es)。" },
+    { "id": "en.cutting_board", "kind": "phrase", "pos": "noun", "text": "cutting board", "zh": "砧板;切菜板", "features": { "ipa": "ˈkʌt̬ɪŋ ˌbɔːrd" }, "noteZh": "cutting 的 tt 读闪音;复合词重音在前 CUT-ting board。" },
+    { "id": "en.bowl", "kind": "word", "pos": "noun", "text": "bowl", "zh": "碗", "features": { "ipa": "boʊl" }, "noteZh": "ow 读 /oʊ/,结尾 l 舌尖抬起;a bowl of rice 一碗饭。" },
+    { "id": "en.plate", "kind": "word", "pos": "noun", "text": "plate", "zh": "盘子", "features": { "ipa": "pleɪt" }, "noteZh": "装菜、吃饭的平盘子;词尾 t 轻轻收住。" },
+    { "id": "en.spoon", "kind": "word", "pos": "noun", "text": "spoon", "zh": "勺子", "features": { "ipa": "spuːn" }, "noteZh": "oo 是长音 /uː/,嘴唇收圆往前,别读成短促的 \"spun\"。" },
+    { "id": "en.chopsticks", "kind": "word", "pos": "noun", "text": "chopsticks", "zh": "筷子", "features": { "ipa": "ˈtʃɑːpstɪks" }, "noteZh": "一般用复数;一双筷子:a pair of chopsticks(第 6 单元学过 a pair of)。" },
+    { "id": "en.boil", "kind": "word", "pos": "verb", "text": "boil", "zh": "煮;(水)烧开", "features": { "ipa": "bɔɪl" }, "noteZh": "boil water 烧水,boil dumplings 煮饺子;oi 读 /ɔɪ/。" },
+    { "id": "en.fry", "kind": "word", "pos": "verb", "text": "fry", "zh": "炒;煎;炸", "features": { "ipa": "fraɪ" }, "noteZh": "中文的炒、煎、炸,英语常都用 fry;炒菜也可以说 stir-fry。fries(薯条)就是\"炸过的\"。" }
+  ],
+  "reviewItems": ["en.chinese_new_year", "en.kitchen", "en.pot", "en.cut", "en.mix", "en.vegetable"],
+  "lines": [
+    { "speaker": "lei", "text": "Chinese New Year is next week. I want to cook a big dinner!", "zh": "下周就是春节了。我想做一顿大餐!", "items": ["en.chinese_new_year", "en.next", "en.week", "en.want", "en.cook", "en.big", "en.dinner"] },
+    { "speaker": "sofia", "text": "Cool! What's in our kitchen?", "zh": "太好了!我们厨房里都有什么?", "items": ["en.cool", "en.kitchen"] },
+    { "speaker": "lei", "text": "We have a pot, a pan, and a knife.", "zh": "有一口锅、一个平底锅,还有一把刀。", "items": ["en.have", "en.pot", "en.pan", "en.knife"] },
+    { "speaker": "sofia", "text": "And a cutting board, bowls, and plates.", "zh": "还有砧板、碗和盘子。", "items": ["en.cutting_board", "en.bowl", "en.plate"] },
+    { "speaker": "lei", "text": "Spoons? Yes. Chopsticks? No, but I have chopsticks in my room.", "zh": "勺子?有。筷子?没有,不过我房间里有。", "items": ["en.spoon", "en.chopsticks", "en.have", "en.room"] },
+    { "speaker": "sofia", "text": "Do we have a wok?", "zh": "有炒锅吗?", "items": ["en.have", "en.wok"] },
+    { "speaker": "lei", "text": "No! But Chinese food needs a wok. I fry everything in a wok!", "zh": "没有!可中国菜离不开炒锅。我什么都用炒锅炒!", "items": ["en.food", "en.need", "en.wok", "en.fry"] },
+    { "speaker": "sofia", "text": "I have a wok in my room. You can use it.", "zh": "我房间里有一个炒锅,你可以用。", "items": ["en.have", "en.wok", "en.room", "en.can", "en.use"] },
+    { "speaker": "lei", "text": "Great! I can boil water in the pot and fry chicken in the wok.", "zh": "太好了!我可以用锅烧水,用炒锅炒鸡肉。", "items": ["en.great", "en.can", "en.boil", "en.water", "en.pot", "en.fry", "en.chicken", "en.wok"] },
+    { "speaker": "sofia", "text": "And we can cut vegetables and mix them in a bowl.", "zh": "我们还可以切菜,在碗里拌。", "items": ["en.can", "en.cut", "en.vegetable", "en.mix", "en.bowl"] }
+  ],
+  "questions": [
+    { "prompt": "磊为什么要看看厨房里有什么?", "options": ["春节快到了,他想做一顿大餐", "他要上一门做饭课", "伊森要过生日了"], "answer": 0, "explainZh": "Chinese New Year is next week. I want to cook a big dinner!——春节快到了。" },
+    { "prompt": "公共厨房里缺什么?", "options": ["刀", "炒锅", "盘子"], "answer": 1, "explainZh": "Do we have a wok? —— No!——刀和盘子都有,就是没有炒锅。" },
+    { "prompt": "谁有炒锅?", "options": ["磊", "公共厨房里有", "索菲亚"], "answer": 2, "explainZh": "I have a wok in my room. You can use it.——索菲亚房间里有;磊房间里有的是筷子。" }
+  ],
+  "grammar": [
+    { "id": "en.g.kitchen_have", "titleZh": "厨房里有什么:have / don't have 和厨具的复数",
+      "bodyZh": "说有什么、没有什么用 have / don't have:We have a pot, a pan, and a knife. / We don't have a wok.;问:Do we have a wok?。厨具都是可数名词,一个用 a / an,几个加 -s:a bowl → bowls、a plate → plates、a spoon → spoons;knife 的复数是 knives(f 变 v 加 es)。chopsticks(筷子)一般用复数,一双筷子是 a pair of chopsticks。\n做饭的动词:cut(切)、boil(煮、烧开)、fry(炒、煎、炸)、mix(拌、混合)——I can boil water in the pot.。",
+      "examples": [
+        { "text": "We have a pot, a pan, and a knife.", "zh": "有一口锅、一个平底锅,还有一把刀。" },
+        { "text": "Do we have a wok?", "zh": "有炒锅吗?" },
+        { "text": "I can boil water in the pot.", "zh": "我可以用锅烧水。" }
+      ] },
+    { "id": "en.g.short_long_u", "titleZh": "发音:cook 的 /ʊ/ 和 food 的 /uː/",
+      "bodyZh": "这两个音中文听起来都像\"乌\",英语要分清:/ʊ/ 短而松,嘴唇微微收圆(cook、good、sugar);/uː/ 长而紧,嘴唇更圆、更往前突(food、spoon、cool、noodles)。对比着读:good food、cook noodles;spoon 不要读成短促的 \"spun\"。",
+      "examples": [
+        { "text": "I want to cook good food.", "zh": "我想做好吃的。(cook、good 是 /ʊ/,food 是 /uː/)" },
+        { "text": "Spoons? Yes.", "zh": "勺子?有。(spoon 是长音 /uː/)" }
+      ] }
+  ],
+  "review": "draft"
+}

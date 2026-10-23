@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u13.l07", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113070,
+  "titleZh": "到底发生了什么?", "goalZh": "会用 What happened? 问经过,用不规则过去式和 First… / After that… / Finally… 按顺序讲一件事", "canDoZh": "能按顺序讲清楚一件出了状况的事:丢了什么、怎么找到的、后来怎样",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "en.happen", "kind": "word", "pos": "verb", "text": "happen", "zh": "发生", "features": { "ipa": "ˈhæpən" }, "noteZh": "What happened? 发生什么事了?;what 在这里作主语,不用 did(不说 What did happen?)。过去式 happened。" },
+    { "id": "en.after_that", "kind": "phrase", "pos": "adv", "text": "after that", "zh": "在那之后;后来", "features": { "ipa": "ˌæftɚ ˈðæt" }, "noteZh": "讲故事时接在 First… 后面:First…, then…, after that…, finally…;after 第 3 单元学过。" },
+    { "id": "en.luckily", "kind": "word", "pos": "adv", "text": "luckily", "zh": "幸好;幸运的是", "features": { "ipa": "ˈlʌkəli" }, "noteZh": "放在句首:Luckily, the driver found it.;lucky 去掉 y 加 -ily。" },
+    { "id": "en.spend", "kind": "word", "pos": "verb", "text": "spend", "zh": "度过;花(时间、钱)", "features": { "ipa": "spend" }, "noteZh": "We spent one more night in LA. 我们在洛杉矶多待了一晚;过去式 spent。" },
+    { "id": "en.sit", "kind": "word", "pos": "verb", "text": "sit", "zh": "坐", "features": { "ipa": "sɪt" }, "noteZh": "sit next to… 坐在……旁边;过去式 sat。i 是短音 /ɪ/,别读成 seat(座位)/siːt/。" },
+    { "id": "en.lady", "kind": "word", "pos": "noun", "text": "lady", "zh": "女士", "features": { "ipa": "ˈleɪdi" }, "noteZh": "比 woman 更礼貌:a nice lady 一位和善的女士;复数 ladies。" },
+    { "id": "en.believe", "kind": "word", "pos": "verb", "text": "believe", "zh": "相信", "features": { "ipa": "bɪˈliːv" }, "noteZh": "I can't believe it! 真不敢相信!;重音在后 be-LIEVE,结尾 v 要带声。" },
+    { "id": "en.story", "kind": "word", "pos": "noun", "text": "story", "zh": "故事;经历", "features": { "ipa": "ˈstɔːri" }, "noteZh": "That's a great story! 真是个精彩的故事!;讲自己的经历也叫 story。" }
+  ],
+  "reviewItems": ["en.lose", "en.find", "en.give", "en.storm", "en.first", "en.finally"],
+  "lines": [
+    { "speaker": "amy", "text": "Welcome home, you guys! So, what happened?", "zh": "(周五中午,艾米到西雅图机场接他们)欢迎回家,你们俩!说说,到底发生了什么?", "items": ["en.welcome", "en.home", "en.you_guys", "en.happen"] },
+    { "speaker": "lei", "text": "First, I lost my phone in a car.", "zh": "先是我把手机丢在了一辆车上。", "items": ["en.first", "en.lose", "en.phone", "en.car"] },
+    { "speaker": "sofia", "text": "Luckily, the driver found it. He called me the next morning.", "zh": "幸好司机发现了。第二天早上他给我打了电话。", "items": ["en.luckily", "en.driver", "en.find", "en.call", "en.next", "en.morning"] },
+    { "speaker": "lei", "text": "He came to us with my phone, and I gave him a tip.", "zh": "他把手机给我们送了过来,我给了他小费。", "items": ["en.come", "en.phone", "en.give", "en.tip"] },
+    { "speaker": "sofia", "text": "After that, there was a big storm in Seattle.", "zh": "后来,西雅图来了一场大暴风雪。", "items": ["en.after_that", "en.big", "en.storm"] },
+    { "speaker": "lei", "text": "So we spent one more night in LA, at Ethan's house.", "zh": "所以我们在洛杉矶多待了一晚,住在伊森家。", "items": ["en.spend", "en.more", "en.night", "en.house"] },
+    { "speaker": "amy", "text": "No way! And what happened today?", "zh": "不会吧!那今天又发生了什么?", "items": ["en.no_way", "en.happen", "en.today"] },
+    { "speaker": "lei", "text": "Today I sat next to a nice lady. I helped her with her bag.", "zh": "今天在飞机上,我坐在一位很和善的女士旁边,还帮她拿了行李。", "items": ["en.today", "en.sit", "en.next_to", "en.nice", "en.lady", "en.help", "en.bag"] },
+    { "speaker": "amy", "text": "Wow, Lei! I can't believe it!", "zh": "哇,磊!真不敢相信!", "items": ["en.cant", "en.believe"] },
+    { "speaker": "lei", "text": "And finally, here we are! That's our story.", "zh": "最后,我们就回来啦!这就是我们的经历。", "items": ["en.finally", "en.story"] }
+  ],
+  "questions": [
+    { "prompt": "司机是怎么把手机还给磊的?", "options": ["第二天早上打电话给索菲亚,然后把手机送了过来", "寄到了酒店", "送到了失物招领处"], "answer": 0, "explainZh": "索菲亚说 He called me the next morning.,磊说 He came to us with my phone.。" },
+    { "prompt": "他们为什么在洛杉矶多待了一晚?", "options": ["他们想多玩一天", "伊森请他们留下", "西雅图有一场大暴风雪"], "answer": 2, "explainZh": "After that, there was a big storm in Seattle. So we spent one more night in LA.。" },
+    { "prompt": "今天在飞机上磊做了什么?", "options": ["把座位让给了别人", "帮一位女士拿行李", "帮司机找路"], "answer": 1, "explainZh": "磊说 Today I sat next to a nice lady. I helped her with her bag.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_irregular_past", "titleZh": "不规则过去式扩充:lost、found、gave、spent、sat",
+      "bodyZh": "讲已经发生的事要用过去式。这几个常用动词的过去式不加 -ed,要单独记:lose → lost(丢)、find → found(找到)、give → gave(给)、spend → spent(度过;花)、sit → sat(坐);以前学过的还有 come → came、take → took、have → had、see → saw、make → made。规则动词照样加 -ed:help → helped、call → called、drop → dropped(双写 p)。否定句和问句里动词变回原形:I didn't find it. / Did you find it?(不说 Did you found it?)。发音:found 的 ou 读 /aʊ/,lost 的 o 美式读 /ɑː/,spent 结尾的 nt 要收住。",
+      "examples": [
+        { "text": "I lost my phone, but the driver found it.", "zh": "我把手机丢了,不过司机找到了。" },
+        { "text": "I gave him a tip.", "zh": "我给了他小费。" },
+        { "text": "We spent one more night in LA.", "zh": "我们在洛杉矶多待了一晚。" },
+        { "text": "Did you find it? — Yes, I did.", "zh": "你找到了吗?——找到了。" }
+      ] },
+    { "id": "en.g.u13_what_happened", "titleZh": "What happened? 和讲经过的顺序词",
+      "bodyZh": "问“发生了什么事”用 What happened?——这里 what 自己就是主语,不用 did,不说 What did happen?。讲经过时按顺序用这些词把句子串起来:First,(首先)→ Then, / After that,(然后、后来)→ Finally,(最后)。Luckily,(幸好)放在句首,说事情往好的方向发展了。听别人讲时可以回应:No way!(不会吧!)、I can't believe it!(真不敢相信!)、That's a great story!。",
+      "examples": [
+        { "text": "What happened? — First, I lost my phone.", "zh": "发生什么事了?——先是我把手机丢了。" },
+        { "text": "After that, there was a big storm.", "zh": "后来,来了一场大暴风雪。" },
+        { "text": "Luckily, the driver found it.", "zh": "幸好司机找到了。" }
+      ] }
+  ],
+  "review": "draft"
+}

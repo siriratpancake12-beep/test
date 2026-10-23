@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u20.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-20 旅途与回顾", "order": 120010,
+  "titleZh": "入住青年旅舍", "goalZh": "会在旅馆前台办入住:报预订的名字、出示证件、付钱,问房间在哪儿和早饭时间", "canDoZh": "能在旅馆前台办入住,报出预订的名字,问房间和早餐时间",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.schluesselkarte", "kind": "word", "pos": "noun", "text": "die Schlüsselkarte", "zh": "房卡", "features": { "gender": "f", "plural": "die Schlüsselkarten", "ipa": "ˈʃlʏsl̩ˌkaʁtə" }, "noteZh": "der Schlüssel(钥匙)+ die Karte(卡),性跟最后一个词;旅馆常用房卡开门。复数 die Schlüsselkarten;ü 撮圆嘴唇。" },
+    { "id": "de.oben", "kind": "word", "pos": "adv", "text": "oben", "zh": "在上面;楼上", "features": { "ipa": "ˈoːbn̩" }, "noteZh": "Die Zimmer sind oben.(房间在楼上。)反义词 unten(在下面、楼下,第 15 单元);o 读长音。" },
+    { "id": "de.treppe", "kind": "word", "pos": "noun", "text": "die Treppe", "zh": "楼梯", "features": { "gender": "f", "plural": "die Treppen", "ipa": "ˈtʁɛpə" }, "noteZh": "Die Treppe ist links.(楼梯在左边。)die Treppe nehmen = 走楼梯;复数 die Treppen。" },
+    { "id": "de.schliessfach", "kind": "word", "pos": "noun", "text": "das Schließfach", "zh": "(带锁的)储物柜", "features": { "gender": "n", "plural": "die Schließfächer", "ipa": "ˈʃliːsˌfax" }, "noteZh": "schließen(关上、锁上,第 17 单元)+ das Fach(格子);青年旅舍、火车站常有,用来锁好行李和贵重东西。复数变音 die Schließfächer。" },
+    { "id": "de.umziehen", "kind": "word", "pos": "verb", "text": "umziehen", "zh": "搬家;搬到(别的房间)", "features": { "ipa": "ˈʊmˌt͡siːən" }, "noteZh": "可分动词:Morgen ziehen Sie ins Vierbettzimmer um.(明天您搬进四人间。)完成时用 sein:Im Oktober bin ich umgezogen.(我十月搬的家。)" },
+    { "id": "de.nachtruhe", "kind": "word", "pos": "noun", "text": "die Nachtruhe", "zh": "夜间安静时间", "features": { "gender": "f", "plural": "-", "ipa": "ˈnaxtˌʁuːə" }, "noteZh": "die Nacht + die Ruhe(安静);德国的宿舍、青年旅舍一般 22 点以后是 Nachtruhe,走廊里要小声。只用单数。" },
+    { "id": "de.mitternacht", "kind": "word", "pos": "noun", "text": "die Mitternacht", "zh": "半夜十二点;午夜", "features": { "gender": "f", "plural": "-", "ipa": "ˈmɪtɐˌnaxt" }, "noteZh": "um Mitternacht(半夜十二点的时候);只用单数,重音在前面的 Mit-。" },
+    { "id": "de.snack", "kind": "word", "pos": "noun", "text": "der Snack", "zh": "零食;小吃", "features": { "gender": "m", "plural": "die Snacks", "ipa": "snɛk" }, "noteZh": "从英语来,读 [snɛk];ein Automat mit Snacks(零食售货机)。复数 die Snacks。" }
+  ],
+  "reviewItems": ["de.reservieren", "de.doppelzimmer", "de.gepaeck", "de.personalausweis", "de.bettwaesche", "de.rezeption"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Tag! Wir haben zwei Doppelzimmer reserviert. Mein Name ist Wang.", "zh": "(7 月 25 日下午三点,四个人从海滩回到青年旅舍的前台)您好!我们订了两个双人间。我姓王。", "items": ["de.guten_tag", "de.wir", "de.haben", "de.zwei", "de.doppelzimmer", "de.reservieren", "de.mein", "de.name", "de.sein"] },
+    { "speaker": "mitarbeiterin", "text": "Herzlich willkommen, Herr Wang! Ihr Gepäck ist noch hier. Kann ich bitte Ihre Pässe sehen?", "zh": "欢迎欢迎,王先生!你们的行李还在这儿。请让我看一下护照,好吗?", "items": ["de.herzlich_willkommen", "de.herr", "de.ihr_hoeflich", "de.gepaeck", "de.sein", "de.noch", "de.hier", "de.koennen", "de.ich", "de.bitte", "de.pass", "de.sehen"] },
+    { "speaker": "lena", "text": "Hier, bitte. Wei hat einen Pass, wir haben Personalausweise.", "zh": "给您。王伟用的是护照,我们几个是身份证。", "items": ["de.hier", "de.bitte", "de.haben", "de.ein", "de.pass", "de.wir", "de.personalausweis"] },
+    { "speaker": "mitarbeiterin", "text": "Danke. Die Bettwäsche kostet sechs Euro für eine Person, zusammen 24 Euro.", "zh": "谢谢。床单被套每人 6 欧元,一共 24 欧元。", "items": ["de.danke", "de.bettwaesche", "de.kosten", "de.sechs", "de.euro", "de.fuer", "de.ein", "de.person", "de.zusammen", "de.vier", "de.zwanzig"] },
+    { "speaker": "wei", "text": "Kann ich mit Karte bezahlen?", "zh": "我能刷卡吗?", "items": ["de.koennen", "de.ich", "de.mit", "de.karte", "de.bezahlen"] },
+    { "speaker": "mitarbeiterin", "text": "Ja, gern. Hier sind Ihre Schlüsselkarten. Die Zimmer sind oben, die Treppe ist links.", "zh": "可以。这是你们的房卡。房间在楼上,楼梯在左边。", "items": ["de.ja", "de.gern", "de.hier", "de.sein", "de.ihr_hoeflich", "de.schluesselkarte", "de.zimmer", "de.oben", "de.treppe", "de.links"] },
+    { "speaker": "mitarbeiterin", "text": "Für Ihr Gepäck gibt es im Zimmer auch Schließfächer.", "zh": "房间里还有储物柜,可以锁行李。", "items": ["de.fuer", "de.ihr_hoeflich", "de.gepaeck", "de.es_gibt", "de.in", "de.zimmer", "de.auch", "de.schliessfach"] },
+    { "speaker": "lena", "text": "Und morgen haben wir das Vierbettzimmer, oder?", "zh": "明天我们就住四人间了,对吧?", "items": ["de.und", "de.morgen", "de.haben", "de.wir", "de.vier", "de.bett", "de.zimmer", "de.oder"] },
+    { "speaker": "mitarbeiterin", "text": "Genau, morgen ziehen Sie um. Frühstück gibt es von 7 bis 10 Uhr.", "zh": "对,明天你们搬过去。早饭是 7 点到 10 点。", "items": ["de.genau", "de.morgen", "de.umziehen", "de.sie_hoeflich", "de.fruehstueck", "de.es_gibt", "de.von", "de.sieben", "de.bis", "de.zehn", "de.uhr"] },
+    { "speaker": "paul", "text": "Und um Mitternacht? Gibt es da auch Frühstück?", "zh": "那半夜十二点呢?那时候也有早饭吗?", "items": ["de.und", "de.um", "de.mitternacht", "de.es_gibt", "de.da", "de.auch", "de.fruehstueck"] },
+    { "speaker": "mitarbeiterin", "text": "Nein! Um Mitternacht ist Nachtruhe. Aber an der Rezeption gibt es einen Automaten mit Snacks.", "zh": "(工作人员笑了)没有!半夜要保持安静。不过前台这儿有个零食售货机。", "items": ["de.nein", "de.um", "de.mitternacht", "de.sein", "de.nachtruhe", "de.aber", "de.an", "de.rezeption", "de.es_gibt", "de.ein", "de.automat", "de.mit", "de.snack"] },
+    { "speaker": "lena", "text": "Paul hat immer Hunger!", "zh": "(莉娜笑着说)保罗总是饿!", "items": ["de.haben", "de.immer", "de.hunger"] }
+  ],
+  "questions": [
+    { "prompt": "床单被套一共付了多少钱?", "options": ["6 欧元", "24 欧元", "32 欧元"], "answer": 1, "explainZh": "Die Bettwäsche kostet sechs Euro für eine Person, zusammen 24 Euro.(每人 6 欧元,四个人一共 24 欧元。)" },
+    { "prompt": "他们的房间在哪儿?", "options": ["在楼上,楼梯在左边", "在楼下,前台旁边", "在楼上,要坐电梯"], "answer": 0, "explainZh": "Die Zimmer sind oben, die Treppe ist links.(房间在楼上,楼梯在左边。)" },
+    { "prompt": "保罗问半夜有没有早饭,工作人员怎么说?", "options": ["半夜也有早饭", "22 点以后不能出房间", "没有,不过前台有零食售货机"], "answer": 2, "explainZh": "Nein! … Aber an der Rezeption gibt es einen Automaten mit Snacks.(没有!不过前台有零食售货机。)半夜是夜间安静时间:Um Mitternacht ist Nachtruhe.,并不是不能出房间。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u20_einchecken", "titleZh": "在前台办入住:Wir haben … reserviert / Kann ich mit Karte bezahlen?",
+      "bodyZh": "办入住先说订了什么、用谁的名字:Wir haben zwei Doppelzimmer reserviert.(现在完成时,分词放句末)/ Mein Name ist Wang.。\n前台常说:Kann ich bitte Ihre Pässe sehen?(要看证件)/ Hier sind Ihre Schlüsselkarten.(这是房卡)/ Die Zimmer sind oben.(房间在楼上)。\n问时间、付钱:Wann gibt es Frühstück? – Von 7 bis 10 Uhr. / Kann ich mit Karte bezahlen? – Ja, gern.\n可分动词 umziehen:Morgen ziehen Sie um.(明天您搬过去。)\n生活常识:德国的青年旅舍一般 22 点以后是 Nachtruhe(夜间安静时间),走廊和房间里要小声;床单费常常另算。",
+      "examples": [
+        { "text": "Wir haben zwei Doppelzimmer reserviert.", "zh": "我们订了两个双人间。" },
+        { "text": "Kann ich mit Karte bezahlen?", "zh": "我能刷卡吗?" },
+        { "text": "Frühstück gibt es von 7 bis 10 Uhr.", "zh": "早饭是 7 点到 10 点。" },
+        { "text": "Morgen ziehen Sie um.", "zh": "明天您搬过去。" }
+      ] }
+  ],
+  "review": "draft"
+}

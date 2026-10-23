@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u16.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116030,
+  "titleZh": "订个室友公约", "goalZh": "会用 Please… / Don't… / No + 名词 订规矩,和室友商量出公平的办法", "canDoZh": "能和室友商量几条共同遵守的规矩,用 Please… / Don't… 写下来",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.agreement", "kind": "word", "pos": "noun", "text": "agreement", "zh": "协议;约定", "features": { "ipa": "əˈɡriːmənt" }, "noteZh": "roommate agreement 室友公约,很多美国大学宿舍都让室友一起订;重音在中间 a-GREE-ment。" },
+    { "id": "en.quiet_hours", "kind": "phrase", "pos": "noun", "text": "quiet hours", "zh": "安静时间(宿舍规定要保持安静的时段)", "features": { "ipa": "ˈkwaɪət ˌaʊrz" }, "noteZh": "美国宿舍一般规定晚上某个时段是 quiet hours;quiet 是两个音节 QUI-et,别读成 quite。" },
+    { "id": "en.guest", "kind": "word", "pos": "noun", "text": "guest", "zh": "客人", "features": { "ipa": "ɡest" }, "noteZh": "u 不发音,读 /ɡest/;有客人来:have guests。" },
+    { "id": "en.weeknight", "kind": "word", "pos": "noun", "text": "weeknight", "zh": "工作日的晚上", "features": { "ipa": "ˈwiːknaɪt" }, "noteZh": "on weeknights 在工作日的晚上(第二天要上课的晚上);gh 不发音。" },
+    { "id": "en.take_turns", "kind": "phrase", "pos": "verb", "text": "take turns", "zh": "轮流", "features": { "ipa": "ˌteɪk ˈtɝːnz" }, "noteZh": "We take turns. 我们轮流来;take turns with the chores 轮流做家务;turns 要用复数。" },
+    { "id": "en.borrow", "kind": "word", "pos": "verb", "text": "borrow", "zh": "借(别人的东西来用)", "features": { "ipa": "ˈbɑːroʊ" }, "noteZh": "borrow 是\"借进来\":Can I borrow your book?;\"借给别人\"是 lend,不要混。" },
+    { "id": "en.fair", "kind": "word", "pos": "adj", "text": "fair", "zh": "公平的;合理的", "features": { "ipa": "fer" }, "noteZh": "That's fair. 这很公平(同意对方合理的要求);和 fare(车费)读音一样。" },
+    { "id": "en.agree", "kind": "word", "pos": "verb", "text": "agree", "zh": "同意", "features": { "ipa": "əˈɡriː" }, "noteZh": "I agree. 我同意;不说 I am agree(agree 本身就是动词);重音在后 a-GREE。" }
+  ],
+  "reviewItems": ["en.noodles", "en.loud", "en.rule", "en.ask", "en.before", "en.midnight"],
+  "lines": [
+    { "speaker": "lei", "text": "Ethan! Did you eat my noodles?", "zh": "伊森!你是不是吃了我的面条?", "items": ["en.eat", "en.noodles"] },
+    { "speaker": "ethan", "text": "Sorry! They were so good. And so spicy!", "zh": "对不起!太好吃了。还特别辣!", "items": ["en.sorry", "en.so", "en.spicy"] },
+    { "speaker": "lei", "text": "They're from my mom! Please don't eat my food.", "zh": "那是我妈妈寄来的!请别吃我的东西。", "items": ["en.mom", "en.eat", "en.food"] },
+    { "speaker": "ethan", "text": "OK, OK. But please don't play loud music at 7 a.m.!", "zh": "好好好。那你也别早上七点就放那么吵的音乐!", "items": ["en.play", "en.loud", "en.music", "en.am"] },
+    { "speaker": "lei", "text": "Fine. Let's write a roommate agreement.", "zh": "行。我们来写个室友公约吧。", "items": ["en.fine", "en.lets", "en.write", "en.roommate", "en.agreement"] },
+    { "speaker": "ethan", "text": "Rule one: quiet hours after eleven on weeknights.", "zh": "第一条:工作日晚上十一点以后要安静。", "items": ["en.rule", "en.quiet_hours", "en.after", "en.weeknight"] },
+    { "speaker": "lei", "text": "Rule two: no guests after midnight.", "zh": "第二条:午夜以后不带客人。", "items": ["en.rule", "en.guest", "en.after", "en.midnight"] },
+    { "speaker": "lei", "text": "Rule three: ask before you eat my food!", "zh": "第三条:吃我的东西之前要先问!", "items": ["en.rule", "en.ask", "en.before", "en.eat", "en.food"] },
+    { "speaker": "ethan", "text": "And ask before you borrow my things.", "zh": "借我的东西也要先问。", "items": ["en.ask", "en.before", "en.borrow"] },
+    { "speaker": "ethan", "text": "Rule four: we take turns with the chores.", "zh": "第四条:家务轮流做。", "items": ["en.rule", "en.take_turns", "en.chore"] },
+    { "speaker": "lei", "text": "I agree. That's fair. Let's sign it.", "zh": "同意。这很公平。我们签字吧。", "items": ["en.agree", "en.fair", "en.lets", "en.sign"] },
+    { "speaker": "ethan", "text": "OK! Friends again? Sorry about your noodles, man.", "zh": "好!和好了?面条的事对不起啊,哥们儿。", "items": ["en.friend", "en.again", "en.sorry", "en.noodles"] }
+  ],
+  "questions": [
+    { "prompt": "磊和伊森为什么吵起来?", "options": ["伊森吃了磊的面条", "磊早上起得太早", "伊森带朋友回来"], "answer": 0, "explainZh": "Ethan! Did you eat my noodles?——伊森吃了磊妈妈寄来的面条;伊森又抱怨磊早上七点放很吵的音乐。" },
+    { "prompt": "公约里说,工作日晚上几点以后要安静?", "options": ["十点", "十一点", "十二点"], "answer": 1, "explainZh": "Rule one: quiet hours after eleven on weeknights.——十一点;午夜(十二点)以后是不带客人。" },
+    { "prompt": "公约里关于借东西是怎么说的?", "options": ["不能借东西", "借了要马上还", "借东西之前要先问"], "answer": 2, "explainZh": "And ask before you borrow my things.——借之前要先问。" }
+  ],
+  "grammar": [
+    { "id": "en.g.imperative_rules", "titleZh": "订规矩:Please… / Don't… / No + 名词",
+      "bodyZh": "订规矩、提要求常用祈使句:Please don't eat my food.(请别吃我的东西)/ Ask before you borrow my things.(借东西之前先问)。前面加 Please 更客气。一起做的事用 Let's…:Let's write a roommate agreement.。\n规定\"不许有……\"最简单的说法是 No + 名词:No guests after midnight.(午夜以后不许带客人)。\"轮流\"用 take turns:We take turns with the chores.。对方的要求合理,就说 I agree. / That's fair.;注意 agree 是动词,不说 I'm agree。",
+      "examples": [
+        { "text": "Please don't eat my food.", "zh": "请别吃我的东西。" },
+        { "text": "No guests after midnight.", "zh": "午夜以后不带客人。" },
+        { "text": "We take turns with the chores.", "zh": "家务我们轮流做。" }
+      ] },
+    { "id": "en.g.list_intonation", "titleZh": "发音:列举时前面升调、最后降调,and 弱读",
+      "bodyZh": "一口气列举几样东西时,前面几项用升调(↗),告诉对方\"还没说完\",最后一项用降调(↘)表示说完了:Quiet hours ↗, guests ↗, and food ↘.。最后一项前面的 and 弱读成 /ən/,甚至只剩一个 /n/,和后面的词连读:and food 听起来像 \"n-FOOD\"。中国学生常把每一项都读成降调,听起来像说了好几句话。",
+      "examples": [
+        { "text": "Quiet hours, guests, and food.", "zh": "安静时间、客人,还有吃的。(前两项升调,最后一项降调)" },
+        { "text": "We do the dishes, take out the trash, and clean the bathroom.", "zh": "我们洗碗、倒垃圾、打扫浴室。" }
+      ] }
+  ],
+  "review": "draft"
+}

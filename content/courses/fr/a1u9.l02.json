@@ -1,0 +1,47 @@
+{
+  "id": "fr.a1u9.l02", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109020,
+  "titleZh": "天气预报——明天几度?", "goalZh": "会看天气预报,用 il y a du soleil / du vent、il fait … degrés 分别说两个城市的天气", "canDoZh": "能听懂天气预报里的晴、阴、有风、几度,说出两个城市的天气",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.meteo", "kind": "word", "pos": "noun", "text": "la météo", "zh": "天气预报", "features": { "gender": "f", "ipa": "la me.te.o" }, "noteZh": "两个 é 都读 [e];口语里 la météo 就是天气预报:Tu regardes la météo ?" },
+    { "id": "fr.soleil", "kind": "word", "pos": "noun", "text": "le soleil", "zh": "太阳;阳光", "features": { "gender": "m", "ipa": "lə sɔ.lɛj" }, "noteZh": "eil 读 [ɛj],词尾的 l 不读成 [l];Il y a du soleil. 出太阳了(晴天)。" },
+    { "id": "fr.vent", "kind": "word", "pos": "noun", "text": "le vent", "zh": "风", "features": { "gender": "m", "ipa": "lə vɑ̃" }, "noteZh": "en 读鼻化元音 [ɑ̃],t 不发音;Il y a du vent. 有风(刮风)。" },
+    { "id": "fr.nuage", "kind": "word", "pos": "noun", "text": "le nuage", "zh": "云", "features": { "gender": "m", "ipa": "lə nɥaʒ" }, "noteZh": "nua 读 [nɥa],只有一个音节;-age 结尾,阳性;Il y a des nuages. 多云。" },
+    { "id": "fr.ciel", "kind": "word", "pos": "noun", "text": "le ciel", "zh": "天空", "features": { "gender": "m", "ipa": "lə sjɛl" }, "noteZh": "c 在 i 前读 [s];Le ciel est gris. 天阴阴的。" },
+    { "id": "fr.gris", "kind": "word", "pos": "adj", "text": "gris", "zh": "灰色的(阳性)", "features": { "ipa": "gʁi" }, "noteZh": "s 不发音;阴性 grise [gʁiz],s 要读出来;g 是浊音,声带要振动。" },
+    { "id": "fr.degre", "kind": "word", "pos": "noun", "text": "le degré", "zh": "度(温度)", "features": { "gender": "m", "ipa": "lə də.gʁe" }, "noteZh": "Il fait quatorze degrés. 十四度;d、g 都是浊辅音,声带要振动,比中文拼音的 d、g 更“浊”。" },
+    { "id": "fr.moins", "kind": "word", "pos": "adv", "text": "moins", "zh": "零下(温度);减;差(几分)", "features": { "ipa": "mwɛ̃" }, "noteZh": "oin 读 [wɛ̃],s 不发音;Il fait moins deux. 零下两度;钟点里的 moins le quart(差一刻)也是这个词。" },
+    { "id": "fr.peut_etre", "kind": "word", "pos": "adv", "text": "peut-être", "zh": "也许;可能", "features": { "ipa": "pø.tɛtʁ" }, "noteZh": "中间有连字符;t 和 ê 连起来读 [pø.tɛtʁ];常放在动词后面:Il pleut peut-être." },
+    { "id": "fr.avoir_de_la_chance", "kind": "phrase", "pos": "phrase", "text": "avoir de la chance", "zh": "运气好", "features": { "ipa": "a.vwaʁ də la ʃɑ̃s" }, "noteZh": "Tu as de la chance ! 你运气真好!和 avoir faim 一样用 avoir;la chance 是阴性。" }
+  ],
+  "reviewItems": ["fr.temps", "fr.froid", "fr.il_pleut", "fr.demain", "fr.week_end"],
+  "lines": [
+    { "speaker": "lucas", "text": "Hao, tu regardes la météo ?", "zh": "(晚上,宿舍的公共厨房)浩,你在看天气预报?", "items": ["fr.tu", "fr.regarder", "fr.meteo"] },
+    { "speaker": "hao", "text": "Oui. Demain, à Lyon, le ciel est gris. Il y a des nuages.", "zh": "对。明天里昂阴天,多云。", "items": ["fr.oui", "fr.demain", "fr.a", "fr.ciel", "fr.etre", "fr.gris", "fr.il_y_a", "fr.des", "fr.nuage"] },
+    { "speaker": "hao", "text": "Et il y a du vent. Le matin, il fait moins deux !", "zh": "还有风。早上零下两度!", "items": ["fr.et", "fr.il_y_a", "fr.du", "fr.vent", "fr.matin", "fr.il", "fr.faire", "fr.moins", "fr.deux"] },
+    { "speaker": "lucas", "text": "Moins deux ? Il fait très froid ! Et à Rome ?", "zh": "零下两度?太冷了!那罗马呢?", "items": ["fr.moins", "fr.deux", "fr.il", "fr.faire", "fr.tres", "fr.froid", "fr.et", "fr.a"] },
+    { "speaker": "hao", "text": "À Rome, il y a du soleil. L'après-midi, il fait quatorze degrés.", "zh": "罗马出太阳。下午十四度。", "items": ["fr.a", "fr.il_y_a", "fr.du", "fr.soleil", "fr.apres_midi", "fr.il", "fr.faire", "fr.quatorze", "fr.degre"] },
+    { "speaker": "lucas", "text": "Quatorze degrés ? Tu as de la chance !", "zh": "十四度?你运气真好!", "items": ["fr.quatorze", "fr.degre", "fr.tu", "fr.avoir", "fr.avoir_de_la_chance"] },
+    { "speaker": "hao", "text": "Mais ce week-end, il pleut peut-être à Rome.", "zh": "不过这个周末,罗马可能下雨。", "items": ["fr.mais", "fr.ce", "fr.week_end", "fr.il_pleut", "fr.peut_etre", "fr.a"] },
+    { "speaker": "lucas", "text": "Ce n'est pas grave. À Rome, il y a des musées !", "zh": "没关系。罗马有好多博物馆呢!", "items": ["fr.cest", "fr.ne_pas", "fr.grave", "fr.a", "fr.il_y_a", "fr.des", "fr.musee"] },
+    { "speaker": "hao", "text": "Et toi ? Quel temps fait-il à Marseille ?", "zh": "你呢?马赛天气怎么样?", "items": ["fr.et_toi", "fr.quel", "fr.temps", "fr.faire", "fr.il", "fr.a"] },
+    { "speaker": "lucas", "text": "Il y a du vent, mais il y a du soleil. Douze degrés !", "zh": "(卢卡要回马赛的爸妈家)有风,不过出太阳。十二度!", "items": ["fr.il_y_a", "fr.du", "fr.vent", "fr.mais", "fr.soleil", "fr.douze", "fr.degre"] }
+  ],
+  "questions": [
+    { "prompt": "明天里昂的天气怎么样?", "options": ["晴天,十四度", "下雨,十二度", "阴天,有风,早上零下两度"], "answer": 2, "explainZh": "浩说:le ciel est gris. Il y a des nuages. Et il y a du vent. Le matin, il fait moins deux !(阴天,多云,有风,早上零下两度)" },
+    { "prompt": "卢卡为什么说浩运气好?", "options": ["罗马出太阳,下午有十四度", "罗马有很多博物馆", "马赛不冷"], "answer": 0, "explainZh": "浩说罗马 il y a du soleil … il fait quatorze degrés,卢卡就说:Tu as de la chance !" },
+    { "prompt": "这个周末罗马的天气可能怎么样?", "options": ["下雪", "下雨", "刮大风"], "answer": 1, "explainZh": "Mais ce week-end, il pleut peut-être à Rome.——peut-être 是“可能、也许”。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.meteo_plus", "titleZh": "天气的更多说法:il y a du soleil、il fait moins deux",
+      "bodyZh": "第 8 单元学了 Il fait beau / froid / chaud 和 Il pleut / Il neige。看天气预报还要会这几种:① Il y a + 部分冠词 + 名词:Il y a du soleil.(出太阳)Il y a du vent.(有风)Il y a des nuages.(多云)——中文也说“有风”,法语同样用“有”(il y a);soleil、vent 前面用 du,nuages 是复数,用 des。② 温度:Il fait quatorze degrés.(十四度)零下用 moins:Il fait moins deux.(零下两度),口语里 degrés 常常省掉。③ 天空的样子:Le ciel est gris.(天阴阴的)。“可能下雨”用 peut-être:Il pleut peut-être.。说明天的天气,口语里用现在时就可以:Demain, il pleut.。两个城市分开说:À Lyon, il fait moins deux. À Rome, il fait quatorze degrés.(“比……冷”是比较级,A2 再学)。",
+      "examples": [
+        { "text": "Il y a du soleil et il fait quatorze degrés.", "zh": "出太阳,十四度。" },
+        { "text": "Le ciel est gris. Il y a des nuages.", "zh": "天阴阴的,多云。" },
+        { "text": "Le matin, il fait moins deux.", "zh": "早上零下两度。" },
+        { "text": "Ce week-end, il pleut peut-être.", "zh": "这个周末可能下雨。" }
+      ] }
+  ],
+  "review": "draft"
+}

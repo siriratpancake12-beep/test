@@ -28,8 +28,8 @@
     { "speaker": "receptionist", "text": "Sure. You can keep it here, at the front desk.", "zh": "可以。寄存在这儿就行,就在前台。", "items": ["en.sure", "en.can", "en.keep", "en.front_desk"] }
   ],
   "questions": [
-    { "prompt": "游泳池在哪儿?", "options": ["地下室", "顶楼,健身房旁边", "大堂旁边"], "answer": 1, "explainZh": "前台说 it's on the top floor, next to the gym.(在顶楼,健身房旁边)。" },
-    { "prompt": "洗衣房在哪儿?", "options": ["顶楼", "五楼", "地下室"], "answer": 2, "explainZh": "前台说 it's in the basement.(在地下室)。" },
+    { "prompt": "游泳池在哪儿?", "options": ["地下室", "大堂旁边", "顶楼,健身房旁边"], "answer": 2, "explainZh": "前台说 it's on the top floor, next to the gym.(在顶楼,健身房旁边)。" },
+    { "prompt": "洗衣房在哪儿?", "options": ["顶楼", "地下室", "五楼"], "answer": 1, "explainZh": "前台说 it's in the basement.(在地下室)。" },
     { "prompt": "周四退房以后,他们的行李可以放在哪儿?", "options": ["前台", "房间里", "伊森的车上"], "answer": 0, "explainZh": "前台说 You can keep it here, at the front desk.(可以寄存在前台)。" }
   ],
   "grammar": [

@@ -27,9 +27,9 @@
     { "speaker": "receptionist", "text": "Sure, that's no problem.", "zh": "可以,没问题。", "items": ["en.sure", "en.no_problem"] }
   ],
   "questions": [
-    { "prompt": "多住一晚,每间房含税大约多少钱?", "options": ["189 美元", "212 美元", "424 美元"], "answer": 1, "explainZh": "前台说 189 dollars per night, plus tax,含税 about 212 dollars for each room;424 美元是两间房加起来的总数。" },
-    { "prompt": "房价包括早餐吗?", "options": ["包括", "只包括周末的早餐", "不包括"], "answer": 2, "explainZh": "磊问 Does that include breakfast?,前台说 No, it doesn't.。" },
-    { "prompt": "最后他们决定怎么办?", "options": ["不多住了,周四十二点退房", "多住一晚", "换到顶楼的套房"], "answer": 0, "explainZh": "磊说 that's too expensive,又问 Could we check out at twelve on Thursday?,前台说可以。" }
+    { "prompt": "多住一晚,每间房含税大约多少钱?", "options": ["189 美元", "424 美元", "212 美元"], "answer": 2, "explainZh": "前台说 189 dollars per night, plus tax,含税 about 212 dollars for each room;424 美元是两间房加起来的总数。" },
+    { "prompt": "房价包括早餐吗?", "options": ["不包括", "包括", "只包括周末的早餐"], "answer": 0, "explainZh": "磊问 Does that include breakfast?,前台说 No, it doesn't.。" },
+    { "prompt": "最后他们决定怎么办?", "options": ["多住一晚", "不多住了,周四十二点退房", "换到顶楼的套房"], "answer": 1, "explainZh": "磊说 that's too expensive,又问 Could we check out at twelve on Thursday?,前台说可以。" }
   ],
   "grammar": [
     { "id": "en.g.u12_big_numbers", "titleZh": "三位数、四位数怎么读:189、424、1,250",

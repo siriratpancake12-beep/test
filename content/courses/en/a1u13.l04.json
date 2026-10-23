@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u13.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113040,
+  "titleZh": "司机打来电话", "goalZh": "会在电话里确认东西是不是自己的,约好在哪儿、什么时候取,真诚地表示感谢", "canDoZh": "能在电话里确认东西是不是自己的,并约好时间地点去拿,真诚地表示感谢",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.just_a_minute", "kind": "phrase", "pos": "phrase", "text": "Just a minute", "zh": "稍等一下", "features": { "ipa": "ˌdʒʌst ə ˈmɪnɪt" }, "noteZh": "让对方稍等、或者要把电话交给别人时说;也常说 Just a second.。" },
+    { "id": "en.hold_on", "kind": "phrase", "pos": "phrase", "text": "Hold on", "zh": "(电话里)等一下;别挂", "features": { "ipa": "ˌhoʊld ˈɑːn" }, "noteZh": "Hold on, please. 请稍等,别挂;连读成“hol-don”。" },
+    { "id": "en.thank_you_so_much", "kind": "phrase", "pos": "phrase", "text": "Thank you so much", "zh": "太感谢了", "features": { "ipa": "ˈθæŋk ju ˌsoʊ ˈmʌtʃ" }, "noteZh": "比 Thank you 更热情;重音落在 so 和 much 上,语调起伏要大。th 是清音 /θ/。" },
+    { "id": "en.kind", "kind": "word", "pos": "adj", "text": "kind", "zh": "好心的;友好的", "features": { "ipa": "kaɪnd" }, "noteZh": "You're so kind. 你人真好;和第 7 单元 What kind of…? 里的 kind(种类)意思不同。i 读 /aɪ/,结尾 nd 收住。" },
+    { "id": "en.lucky", "kind": "word", "pos": "adj", "text": "lucky", "zh": "幸运的", "features": { "ipa": "ˈlʌki" }, "noteZh": "I'm so lucky! 我真走运!;u 读 /ʌ/。" },
+    { "id": "en.pick_up", "kind": "phrase", "pos": "verb", "text": "pick up", "zh": "取;拿(东西)", "features": { "ipa": "ˌpɪk ˈʌp" }, "noteZh": "Can I pick it up? 我能过去拿吗?;代词放中间:pick it up,不说 pick up it(第 14 单元还会讲这类词组)。" },
+    { "id": "en.downstairs", "kind": "word", "pos": "adv", "text": "downstairs", "zh": "在楼下;到楼下", "features": { "ipa": "ˌdaʊnˈsterz" }, "noteZh": "Come downstairs. 下楼来;前面不加 to。ow 读 /aʊ/,结尾 s 读 /z/。" },
+    { "id": "en.give", "kind": "word", "pos": "verb", "text": "give", "zh": "给", "features": { "ipa": "ɡɪv" }, "noteZh": "give + 人 + 东西:I want to give you a tip.;过去式 gave。结尾 v 要带声。" }
+  ],
+  "reviewItems": ["en.phone", "en.case", "en.sticker", "en.mine", "en.tip"],
+  "lines": [
+    { "speaker": "driver", "text": "Hi, Sofia? This is your driver from last night.", "zh": "(第二天上午,索菲亚的手机响了)你好,是索菲亚吗?我是昨晚给你们开车的司机。", "items": ["en.hi", "en.this_is", "en.driver", "en.last", "en.night"] },
+    { "speaker": "driver", "text": "I have a phone in my car. Is it your friend's?", "zh": "我车里有一部手机,是你朋友的吗?", "items": ["en.have", "en.phone", "en.car", "en.friend"] },
+    { "speaker": "sofia", "text": "Oh! Just a minute. Lei, it's for you!", "zh": "哦!稍等一下。磊,找你的!", "items": ["en.just_a_minute"] },
+    { "speaker": "lei", "text": "Hi! Is it a black phone with a blue case?", "zh": "你好!是一部黑色手机、套着蓝色手机壳吗?", "items": ["en.hi", "en.black", "en.phone", "en.blue", "en.case"] },
+    { "speaker": "driver", "text": "Yes, with a panda sticker on it.", "zh": "对,上面还有一张熊猫贴纸。", "items": ["en.panda", "en.sticker"] },
+    { "speaker": "lei", "text": "That's mine! Thank you so much! Can I pick it up?", "zh": "那是我的!太感谢了!我能过去拿吗?", "items": ["en.mine", "en.thank_you_so_much", "en.can", "en.pick_up"] },
+    { "speaker": "driver", "text": "No problem. I can come to you. Where are you?", "zh": "没问题,我开车过去找你们。你们在哪儿?", "items": ["en.no_problem", "en.can", "en.come"] },
+    { "speaker": "lei", "text": "Hold on… We're on Ocean Avenue, at the corner of 2nd Street.", "zh": "等一下……我们在海洋大道,和第二街的路口。", "items": ["en.hold_on", "en.corner", "en.street"] },
+    { "speaker": "driver", "text": "OK. Come downstairs in thirty minutes.", "zh": "好。三十分钟后下楼来。", "items": ["en.come", "en.downstairs", "en.minute"] },
+    { "speaker": "driver", "text": "Here's your phone.", "zh": "(三十分钟后,在路口)给,你的手机。", "items": ["en.phone"] },
+    { "speaker": "lei", "text": "You're so kind! I'm so lucky.", "zh": "您人真好!我太走运了。", "items": ["en.so", "en.kind", "en.lucky"] },
+    { "speaker": "lei", "text": "I want to give you a tip. Thank you!", "zh": "这点小费请您收下。谢谢您!", "items": ["en.want", "en.give", "en.tip", "en.thank_you"] }
+  ],
+  "questions": [
+    { "prompt": "司机为什么打电话给索菲亚?", "options": ["他在车里发现了一部手机", "他想再接他们一次", "索菲亚忘了付车费"], "answer": 0, "explainZh": "司机说 I have a phone in my car. Is it your friend's?;车是索菲亚用手机叫的,所以司机打给她。" },
+    { "prompt": "他们约在哪儿见面?", "options": ["圣莫尼卡码头", "失物招领处", "海洋大道和第二街的路口"], "answer": 2, "explainZh": "磊说 We're on Ocean Avenue, at the corner of 2nd Street.,司机说 Come downstairs in thirty minutes.。" },
+    { "prompt": "拿到手机后,磊做了什么?", "options": ["请司机吃饭", "给了司机小费", "送给司机一张熊猫贴纸"], "answer": 1, "explainZh": "磊说 I want to give you a tip. Thank you!" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_phone_pick_up", "titleZh": "电话里确认和约见:Is it your friend's? / Can I pick it up?",
+      "bodyZh": "接电话时要把电话交给别人,先说 Just a minute.(稍等),再喊 Lei, it's for you!(磊,找你的);需要对方别挂、自己去查点什么,就说 Hold on.(等一下)。确认东西是谁的:Is it your friend's?(是你朋友的吗?),friend's 后面省掉了 phone;认出来就说 That's mine!。约着去拿东西:Can I pick it up?(我能过去拿吗?),pick up 的宾语是代词时放中间:pick it up。说地点:at the corner of 2nd Street(在第二街的路口);说时间:in thirty minutes(三十分钟后)。",
+      "examples": [
+        { "text": "Just a minute. Lei, it's for you!", "zh": "稍等一下。磊,找你的!" },
+        { "text": "That's mine! Can I pick it up?", "zh": "那是我的!我能过去拿吗?" },
+        { "text": "We're at the corner of Ocean Avenue and 2nd Street.", "zh": "我们在海洋大道和第二街的路口。" }
+      ] },
+    { "id": "en.g.u13_thank_you_so_much", "titleZh": "真诚地道谢:Thank you so much! You're so kind.",
+      "bodyZh": "别人帮了大忙,只说 Thanks 不够热情。可以说 Thank you so much!(太感谢了!),再夸一句对方:You're so kind!(您人真好!),或者说说自己的感受:I'm so lucky!(我太走运了!)。这里的 so 加强语气(第 8 单元学过)。语调很重要:重音落在 so 和 much 上,声音起伏要大,听起来才真诚;平平地说会显得很敷衍。美国人受了别人的帮助,常会给一点小费或者买个小礼物表示感谢。",
+      "examples": [
+        { "text": "Thank you so much! You're so kind.", "zh": "太感谢了!您人真好。" },
+        { "text": "I'm so lucky!", "zh": "我太走运了!" }
+      ] }
+  ],
+  "review": "draft"
+}

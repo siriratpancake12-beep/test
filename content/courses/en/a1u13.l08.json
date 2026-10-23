@@ -1,0 +1,45 @@
+{
+  "id": "en.a1u13.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113080,
+  "titleZh": "单元复习:旅行中的麻烦事", "goalZh": "综合用物主代词、描述物品、不规则过去式和帮忙的说法,完整讲一次旅途中的麻烦并回应别人的故事", "canDoZh": "能完整地讲一次旅途中的麻烦和别人的帮助,并回应别人的故事",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "en.welcome_back", "kind": "phrase", "pos": "phrase", "text": "Welcome back", "zh": "欢迎回来", "features": { "ipa": "ˌwelkəm ˈbæk" }, "noteZh": "朋友、同事出门回来时说;回答 Thanks! It's good to be back.。" },
+    { "id": "en.adventure", "kind": "word", "pos": "noun", "text": "adventure", "zh": "冒险;奇遇", "features": { "ipa": "ədˈventʃɚ" }, "noteZh": "It was a real adventure! 真是一次冒险!;重音在中间 ad-VEN-ture,结尾 -ture 读 /tʃɚ/。" }
+  ],
+  "reviewItems": ["en.lose", "en.find", "en.cap", "en.storm", "en.spend", "en.keep"],
+  "lines": [
+    { "speaker": "marcus", "text": "Lei! Welcome back! We love your postcard.", "zh": "(开学前一周,咖啡馆重新开门的第一天,墙上贴着磊寄来的明信片)磊!欢迎回来!你的明信片我们太喜欢了。", "items": ["en.welcome_back", "en.love", "en.postcard"] },
+    { "speaker": "laura", "text": "Yes, thank you! So, how was LA?", "zh": "是啊,谢谢你!那么,洛杉矶怎么样?", "items": ["en.thank_you"] },
+    { "speaker": "lei", "text": "It was great, but I lost my phone!", "zh": "挺好的,就是我把手机弄丢了!", "items": ["en.great", "en.lose", "en.phone"] },
+    { "speaker": "marcus", "text": "Oh no! Did you find it?", "zh": "不是吧!找到了吗?", "items": ["en.find"] },
+    { "speaker": "sofia", "text": "Yes! The driver found it in his car and called me.", "zh": "找到了!司机在车里发现了,给我打了电话。", "items": ["en.driver", "en.find", "en.car", "en.call"] },
+    { "speaker": "lei", "text": "And at the lost and found, Sofia found her cap!", "zh": "还有,在失物招领处,索菲亚找到了她自己的帽子!", "items": ["en.lost_and_found", "en.find", "en.cap"] },
+    { "speaker": "sofia", "text": "It was mine, but I didn't see it was gone!", "zh": "那是我的,可我都没发现它丢了!", "items": ["en.mine", "en.see", "en.gone"] },
+    { "speaker": "laura", "text": "Ha! And how was your trip home?", "zh": "哈!那回来的路上顺利吗?", "items": ["en.trip", "en.home"] },
+    { "speaker": "lei", "text": "There was a big storm, so we spent one more night in LA.", "zh": "西雅图来了一场大暴风雪,所以我们在洛杉矶多待了一晚。", "items": ["en.big", "en.storm", "en.spend", "en.more", "en.night"] },
+    { "speaker": "sofia", "text": "And Lei helped a lady with her heavy bag.", "zh": "磊还帮一位女士拿了很重的行李。", "items": ["en.help", "en.lady", "en.heavy", "en.bag"] },
+    { "speaker": "marcus", "text": "Nice! I lost my guitar on a bus one time.", "zh": "不错嘛!我有一次把吉他落在公交车上了。", "items": ["en.nice", "en.lose", "en.guitar", "en.bus"] },
+    { "speaker": "lei", "text": "No way! Did you find it?", "zh": "不会吧!找回来了吗?", "items": ["en.no_way", "en.find"] },
+    { "speaker": "marcus", "text": "Yes. The bus driver kept it for me.", "zh": "找回来了。公交司机帮我收着呢。", "items": ["en.bus", "en.driver", "en.keep"] },
+    { "speaker": "laura", "text": "So it was a real adventure!", "zh": "看来这真是一次冒险啊!", "items": ["en.real", "en.adventure"] },
+    { "speaker": "lei", "text": "Yes! But it's good to be home.", "zh": "是啊!不过回到家真好。", "items": ["en.home"] }
+  ],
+  "questions": [
+    { "prompt": "磊的手机最后是怎么找回来的?", "options": ["在失物招领处找到的", "司机在车里发现后联系了索菲亚", "在酒店房间里找到的"], "answer": 1, "explainZh": "索菲亚说 The driver found it in his car and called me.。" },
+    { "prompt": "在失物招领处找到了谁的东西?", "options": ["磊的手机", "马库斯的吉他", "索菲亚的帽子"], "answer": 2, "explainZh": "磊说 at the lost and found, Sofia found her cap!,索菲亚说 It was mine。" },
+    { "prompt": "马库斯丢过什么?", "options": ["吉他", "钱包", "手机"], "answer": 0, "explainZh": "马库斯说 I lost my guitar on a bus one time.,后来是公交司机帮他收着的。" },
+    { "prompt": "劳拉怎么评价他们的这趟旅行?", "options": ["太累了", "真是一次冒险!", "太贵了"], "answer": 1, "explainZh": "劳拉说 So it was a real adventure!" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_review", "titleZh": "单元小结:讲一次旅途中的麻烦",
+      "bodyZh": "这个单元讲旅途中的麻烦和帮助,几种说法常一起用:① 丢东西、找东西:I lost my phone. / I can't find it anywhere. / When did you last have it?;② 说东西是谁的:Is this yours? — Yes, it's mine!(mine、yours、hers、ours、theirs 后面不跟名词),Whose cap is this?;③ 描述东西:a black phone with a blue plastic case、a small brown leather bag(大小 → 颜色 → 材质);④ 讲经过用过去式:lost、found、gave、spent、sat,用 First… / After that… / Finally… 串起来;⑤ 主动帮忙:Can I help you with that? / Let me carry it.。听别人讲故事时记得回应:No way! / Did you find it? / I can't believe it!。发音:lost、last 的 l 和 not、no 的 n 再练一遍。",
+      "examples": [
+        { "text": "I lost my phone, but the driver found it.", "zh": "我把手机丢了,不过司机找到了。" },
+        { "text": "It was mine, but I didn't see it was gone!", "zh": "那是我的,可我都没发现它丢了!" },
+        { "text": "There was a big storm, so we spent one more night in LA.", "zh": "来了一场大暴风雪,所以我们在洛杉矶多待了一晚。" },
+        { "text": "No way! Did you find it?", "zh": "不会吧!找回来了吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

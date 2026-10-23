@@ -1,0 +1,40 @@
+{
+  "id": "en.a1u16.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116085,
+  "titleZh": "磊的日记:我和伊森的\"家务战争\"", "goalZh": "读懂一篇按时间顺序写的幽默日记,说出事情的起因、经过和结果", "canDoZh": "能读懂一篇带点幽默的日记,说出事情的起因、经过和结果",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
+  "newItems": [
+    { "id": "en.fight", "kind": "word", "pos": "noun", "text": "fight", "zh": "吵架;打架", "features": { "ipa": "faɪt" }, "noteZh": "have a fight 吵了一架;gh 不发音,读 /faɪt/。" }
+  ],
+  "reviewItems": ["en.agreement", "en.pink", "en.fire_alarm", "en.heater", "en.inspection", "en.neat"],
+  "lines": [
+    { "speaker": "lei", "text": "Friday night. This week was crazy!", "zh": "(磊的日记)周五晚上。这一周太疯狂了!", "items": ["en.friday", "en.night", "en.week", "en.crazy"] },
+    { "speaker": "lei", "text": "First, Ethan ate my spicy noodles from Mom.", "zh": "先是伊森吃了妈妈寄来的辣面条。", "items": ["en.first", "en.eat", "en.spicy", "en.noodles", "en.mom"] },
+    { "speaker": "lei", "text": "We had a big fight.", "zh": "我们大吵了一架。", "items": ["en.have", "en.big", "en.fight"] },
+    { "speaker": "lei", "text": "Then we wrote a roommate agreement, and we signed it.", "zh": "后来我们写了一份室友公约,两个人都签了名。", "items": ["en.then", "en.write", "en.roommate", "en.agreement", "en.sign"] },
+    { "speaker": "lei", "text": "On Tuesday, I washed my white T-shirts with Ethan's red sock.", "zh": "周二,我把白 T 恤和伊森的红袜子一起洗了。", "items": ["en.tuesday", "en.wash", "en.white", "en.t_shirt", "en.red", "en.socks"] },
+    { "speaker": "lei", "text": "Now they're pink. Ethan loves his new pink T-shirt.", "zh": "现在它们都是粉色的了。伊森很喜欢他那件\"新\"粉 T 恤。", "items": ["en.pink", "en.love", "en.new", "en.t_shirt"] },
+    { "speaker": "lei", "text": "On Wednesday, my spicy chicken made a lot of smoke.", "zh": "周三,我炒辣子鸡冒了好多烟。", "items": ["en.wednesday", "en.spicy", "en.chicken", "en.make", "en.a_lot_of", "en.smoke"] },
+    { "speaker": "lei", "text": "The fire alarm was so loud!", "zh": "火警响得特别吵!", "items": ["en.fire_alarm", "en.so", "en.loud"] },
+    { "speaker": "lei", "text": "That night, our heater made a strange noise.", "zh": "那天夜里,我们的暖气又发出怪声。", "items": ["en.night", "en.heater", "en.make", "en.strange", "en.noise"] },
+    { "speaker": "lei", "text": "Finally, today was the inspection, and we passed!", "zh": "最后,今天查房,我们通过了!", "items": ["en.finally", "en.today", "en.inspection", "en.pass"] },
+    { "speaker": "lei", "text": "Ethan isn't very neat, and he plays video games all night.", "zh": "伊森不太爱整洁,还整晚打游戏。", "items": ["en.neat", "en.play", "en.video_game", "en.night"] },
+    { "speaker": "lei", "text": "But he's a great roommate, and now we're good friends.", "zh": "不过他是个很好的室友,现在我们是好朋友。", "items": ["en.great", "en.roommate", "en.friend"] }
+  ],
+  "questions": [
+    { "prompt": "这一周的\"家务战争\"是怎么开始的?", "options": ["磊弄坏了暖气", "伊森不倒垃圾", "伊森吃了磊的面条"], "answer": 2, "explainZh": "First, Ethan ate my spicy noodles from Mom. We had a big fight.——伊森吃了磊妈妈寄来的辣面条。" },
+    { "prompt": "磊的白 T 恤为什么变成了粉色?", "options": ["用了热水洗", "和伊森的红袜子一起洗了", "被索菲亚弄脏了"], "answer": 1, "explainZh": "I washed my white T-shirts with Ethan's red sock.——和红袜子一起洗了。" },
+    { "prompt": "周三发生了什么?", "options": ["伊森做饭着了火", "水池堵了", "宿舍查房", "磊炒辣子鸡烟太大,火警响了"], "answer": 3, "explainZh": "On Wednesday, my spicy chicken made a lot of smoke. The fire alarm was so loud!——查房是周五(today)。" },
+    { "prompt": "最后磊觉得伊森怎么样?", "options": ["不太整洁,但是个很好的室友", "非常整洁", "不想再和他住了"], "answer": 0, "explainZh": "Ethan isn't very neat… But he's a great roommate, and now we're good friends.——but 后面是磊真正想说的。" }
+  ],
+  "grammar": [
+    { "id": "en.g.diary_sequence", "titleZh": "日记:按时间顺序讲一周的事",
+      "bodyZh": "日记讲这一周发生的事,用一般过去时,再用顺序词和时间串起来:First…(先是)、Then…(然后)、On Tuesday… / On Wednesday… / That night…(那天夜里)、Finally…(最后)。说现在的情况、对人的看法,换回一般现在时:Ethan isn't very neat, but he's a great roommate.。复习不规则过去式:eat → ate、have → had、write → wrote、make → made。",
+      "examples": [
+        { "text": "First, Ethan ate my spicy noodles.", "zh": "先是伊森吃了我的辣面条。" },
+        { "text": "Then we wrote a roommate agreement.", "zh": "后来我们写了一份室友公约。" },
+        { "text": "Finally, today was the inspection, and we passed!", "zh": "最后,今天查房,我们通过了!" }
+      ] }
+  ],
+  "review": "draft"
+}

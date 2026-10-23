@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u11.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111050,
+  "titleZh": "登机口广播", "goalZh": "会听登机口广播里的换登机口、晚点和按组登机,没听清时会确认", "canDoZh": "能听懂登机口的广播(换登机口、延误、按组登机),没听清时会找工作人员确认",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.attention_please", "kind": "phrase", "pos": "phrase", "text": "Attention, please", "zh": "请注意", "features": { "ipa": "əˈtenʃən pliːz" }, "noteZh": "广播开头的固定说法;重音在 -TEN-,tion 读 /ʃən/。" },
+    { "id": "en.passenger", "kind": "word", "pos": "noun", "text": "passenger", "zh": "乘客;旅客", "features": { "ipa": "ˈpæsəndʒɚ" }, "noteZh": "重音在前 PAS-sen-ger,g 读 /dʒ/;广播里常说 Passengers to Los Angeles…(去洛杉矶的旅客……)" },
+    { "id": "en.change", "kind": "word", "pos": "noun", "text": "change", "zh": "改变;变更", "features": { "ipa": "tʃeɪndʒ" }, "noteZh": "a gate change(登机口变更);也能当动词“改、换”;ch 读 /tʃ/,结尾 ge 读 /dʒ/。" },
+    { "id": "en.announcement", "kind": "word", "pos": "noun", "text": "announcement", "zh": "广播;通知", "features": { "ipa": "əˈnaʊnsmənt" }, "noteZh": "重音在 -NOUNCE-,ou 读 /aʊ/;an announcement for our flight(我们航班的广播)。" },
+    { "id": "en.noisy", "kind": "word", "pos": "adj", "text": "noisy", "zh": "吵的;嘈杂的", "features": { "ipa": "ˈnɔɪzi" }, "noteZh": "noise(噪音)+ y,s 读 /z/;It's so noisy here!(这儿太吵了!)" },
+    { "id": "en.number", "kind": "word", "pos": "noun", "text": "number", "zh": "数字;号码", "features": { "ipa": "ˈnʌmbɚ" }, "noteZh": "What number?(几号?)u 读 /ʌ/;第 1 单元学过 phone number(电话号码)。" },
+    { "id": "en.repeat", "kind": "word", "pos": "verb", "text": "repeat", "zh": "重复;再说一遍", "features": { "ipa": "rɪˈpiːt" }, "noteZh": "Can you repeat that, please?(请您再说一遍好吗?)和第 1 单元的 Could you say that again? 意思一样;重音在后 re-PEAT。" },
+    { "id": "en.clear", "kind": "word", "pos": "adj", "text": "clear", "zh": "清楚的;清晰的", "features": { "ipa": "klɪr" }, "noteZh": "The announcement isn't clear.(广播听不清楚。)cl 连读,ear 读 /ɪr/,要卷舌。" }
+  ],
+  "reviewItems": ["en.excuse_me", "en.sorry", "en.wait", "en.delayed", "en.gate"],
+  "lines": [
+    { "speaker": "staff", "text": "Attention, please. There's a gate change for Flight 207.", "zh": "(B12 登机口,广播)各位旅客请注意,207 航班更换登机口。", "items": ["en.attention_please", "en.gate", "en.change", "en.flight"] },
+    { "speaker": "staff", "text": "Passengers to Los Angeles, please go to Gate B15.", "zh": "前往洛杉矶的旅客,请到 B15 登机口。", "items": ["en.passenger", "en.go", "en.gate"] },
+    { "speaker": "sofia", "text": "Was that an announcement for our flight? It's so noisy!", "zh": "那是我们航班的广播吗?这儿太吵了!", "items": ["en.announcement", "en.flight", "en.so", "en.noisy"] },
+    { "speaker": "lei", "text": "Yes, a gate change. But the number isn't clear. B15 or B50?", "zh": "是,换登机口了。可是没听清是几号。B15 还是 B50?", "items": ["en.gate", "en.change", "en.number", "en.clear"] },
+    { "speaker": "lei", "text": "Excuse me. Is our flight at Gate B15 or B50?", "zh": "(磊去问工作人员)打扰一下。我们的航班是在 B15 还是 B50 登机?", "items": ["en.excuse_me", "en.flight", "en.gate"] },
+    { "speaker": "staff", "text": "B15. One, five. And the flight is delayed twenty minutes.", "zh": "B15,一、五。还有,航班晚点二十分钟。", "items": ["en.flight", "en.delayed", "en.minute"] },
+    { "speaker": "lei", "text": "Sorry? Can you repeat that, please?", "zh": "不好意思?您能再说一遍吗?", "items": ["en.sorry", "en.can", "en.repeat"] },
+    { "speaker": "staff", "text": "Sure. Twenty minutes late. We board at 6:55.", "zh": "好的。晚二十分钟,6:55 登机。", "items": ["en.sure", "en.minute", "en.late", "en.board"] },
+    { "speaker": "staff", "text": "Now boarding Group 1. Group 1 only, please.", "zh": "(B15 登机口)现在请第 1 组登机。只限第 1 组。", "items": ["en.board", "en.group", "en.only"] },
+    { "speaker": "sofia", "text": "We're Group 3. Let's wait here.", "zh": "我们是第 3 组。在这儿等吧。", "items": ["en.group", "en.lets", "en.wait"] },
+    { "speaker": "staff", "text": "Now boarding Group 3. Thank you for waiting.", "zh": "现在请第 3 组登机。感谢您的耐心等待。", "items": ["en.board", "en.group", "en.thank_you", "en.wait"] },
+    { "speaker": "lei", "text": "That's us! Let's go!", "zh": "到我们了!走吧!", "items": ["en.lets", "en.go"] }
+  ],
+  "questions": [
+    { "prompt": "第一条广播说了什么?", "options": ["航班取消了", "207 航班换到 B15 登机口", "开始登机了"], "answer": 1, "explainZh": "There's a gate change for Flight 207. …… please go to Gate B15." },
+    { "prompt": "工作人员说航班怎么了?", "options": ["准点起飞", "提前起飞", "晚点二十分钟"], "answer": 2, "explainZh": "And the flight is delayed twenty minutes.(所以 6:55 才登机。)" },
+    { "prompt": "磊和索菲亚是第几组登机?", "options": ["第三组", "第一组", "第二组"], "answer": 0, "explainZh": "We're Group 3. Let's wait here." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.airport_announcements",
+      "titleZh": "机场广播的固定说法",
+      "bodyZh": "Attention, please.(请注意。)There's a gate change.(登机口有变更。)Now boarding Group 1.(现在请第 1 组登机。)The flight is delayed twenty minutes.(航班晚点二十分钟。)Thank you for waiting.(感谢您的耐心等待。)没听清时:Sorry? Can you repeat that, please?(第 1 单元的 Could you say that again? 也可以)。字母 B、D、E、G 读音很像;数字 15(fif-TEEN,重音在后)和 50(FIF-ty,重音在前)也容易听错,不确定就问一句 B15 or B50?。",
+      "examples": [
+        { "text": "Attention, please. There's a gate change.", "zh": "请注意,登机口有变更。" },
+        { "text": "Now boarding Group 3.", "zh": "现在请第 3 组登机。" },
+        { "text": "Sorry? Can you repeat that, please?", "zh": "不好意思?您能再说一遍吗?" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

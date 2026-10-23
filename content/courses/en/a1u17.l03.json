@@ -1,0 +1,54 @@
+{
+  "id": "en.a1u17.l03", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-17 Let's cook", "order": 117030,
+  "titleZh": "要多少面粉?", "goalZh": "会用 How much / How many 问用量,用 a cup of、a spoonful of、a pound of 说用量", "canDoZh": "能问清楚做菜要用多少、用几个,把中文菜谱的用量换成美国常用的单位",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "en.much", "kind": "word", "pos": "det", "text": "much", "zh": "多;很多(用于不可数名词)", "features": { "ipa": "mʌtʃ" }, "noteZh": "How much flour? 要多少面粉?;Not much. 不多;肯定句说\"很多\"一般用 a lot of。u 读 /ʌ/。" },
+    { "id": "en.many", "kind": "word", "pos": "det", "text": "many", "zh": "很多(用于可数名词)", "features": { "ipa": "ˈmeni" }, "noteZh": "How many green onions? 要几根葱?;Not many. 不多;a 读 /e/,不读 /æ/。" },
+    { "id": "en.flour", "kind": "word", "pos": "noun", "text": "flour", "zh": "面粉", "features": { "ipa": "ˈflaʊɚ" }, "noteZh": "和 flower(花)读音一样;不可数:four cups of flour。" },
+    { "id": "en.cup", "kind": "word", "pos": "noun", "text": "cup", "zh": "杯;一杯的量", "features": { "ipa": "kʌp" }, "noteZh": "美国菜谱用 cup 量东西(1 cup 约 240 毫升);a cup of flour 一杯面粉;u 读 /ʌ/。" },
+    { "id": "en.pound", "kind": "word", "pos": "noun", "text": "pound", "zh": "磅(约 450 克)", "features": { "ipa": "paʊnd" }, "noteZh": "美国买肉、称体重用 pound;a pound of pork 一磅猪肉;ou 读 /aʊ/。" },
+    { "id": "en.gram", "kind": "word", "pos": "noun", "text": "gram", "zh": "克", "features": { "ipa": "ɡræm" }, "noteZh": "美国日常很少用克,菜谱多用杯、勺、磅;a 读 /æ/。" },
+    { "id": "en.pork", "kind": "word", "pos": "noun", "text": "pork", "zh": "猪肉", "features": { "ipa": "pɔːrk" }, "noteZh": "猪是 pig,猪肉是 pork;不可数。or 要卷舌。" },
+    { "id": "en.cabbage", "kind": "word", "pos": "noun", "text": "cabbage", "zh": "白菜;卷心菜", "features": { "ipa": "ˈkæbɪdʒ" }, "noteZh": "中国的大白菜英语常叫 Chinese cabbage 或 napa cabbage;-age 读 /ɪdʒ/。" },
+    { "id": "en.spoonful", "kind": "word", "pos": "noun", "text": "spoonful", "zh": "一勺(的量)", "features": { "ipa": "ˈspuːnfʊl" }, "noteZh": "two spoonfuls of soy sauce 两勺酱油;菜谱里也常写 tablespoon(大勺)、teaspoon(小勺)。" },
+    { "id": "en.recipe", "kind": "word", "pos": "noun", "text": "recipe", "zh": "菜谱;食谱", "features": { "ipa": "ˈresəpi" }, "noteZh": "三个音节 RE-ci-pe,结尾的 e 要读出来 /i/,不读成 \"re-sai-p\"。" }
+  ],
+  "reviewItems": ["en.video_call", "en.grandma", "en.say", "en.half", "en.only", "en.use"],
+  "lines": [
+    { "speaker": "sofia", "text": "Is that your grandma on the video call?", "zh": "视频里的是你奶奶吗?", "items": ["en.grandma", "en.video_call"] },
+    { "speaker": "lei", "text": "Yes! She's telling me her dumpling recipe.", "zh": "对!她在教我她的饺子菜谱。", "items": ["en.tell", "en.dumpling", "en.recipe"] },
+    { "speaker": "sofia", "text": "How much flour do we need?", "zh": "我们要多少面粉?", "items": ["en.much", "en.flour", "en.need"] },
+    { "speaker": "lei", "text": "About four cups of flour.", "zh": "大约四杯面粉。", "items": ["en.cup", "en.flour"] },
+    { "speaker": "sofia", "text": "And how much pork?", "zh": "猪肉要多少?", "items": ["en.much", "en.pork"] },
+    { "speaker": "lei", "text": "One pound of pork. In China, we use grams, not pounds!", "zh": "一磅猪肉。在中国我们用克,不用磅!", "items": ["en.pound", "en.pork", "en.use", "en.gram"] },
+    { "speaker": "sofia", "text": "How many green onions?", "zh": "要几根葱?", "items": ["en.many", "en.green_onion"] },
+    { "speaker": "lei", "text": "Not many. Only three.", "zh": "不多,三根就够了。", "items": ["en.many", "en.only"] },
+    { "speaker": "sofia", "text": "And cabbage? And soy sauce?", "zh": "白菜呢?酱油呢?", "items": ["en.cabbage", "en.soy_sauce"] },
+    { "speaker": "lei", "text": "Half a cabbage, and two spoonfuls of soy sauce.", "zh": "半棵白菜,两勺酱油。", "items": ["en.half", "en.cabbage", "en.spoonful", "en.soy_sauce"] },
+    { "speaker": "lei", "text": "Grandma says we need a lot of love, too!", "zh": "奶奶说,还要加很多很多爱!", "items": ["en.grandma", "en.say", "en.need", "en.a_lot_of", "en.love"] }
+  ],
+  "questions": [
+    { "prompt": "做饺子要多少面粉?", "options": ["两杯", "大约四杯", "一磅"], "answer": 1, "explainZh": "How much flour do we need? —— About four cups of flour.——一磅是猪肉的量。" },
+    { "prompt": "要几根葱?", "options": ["三根", "很多", "半根"], "answer": 0, "explainZh": "How many green onions? —— Not many. Only three.——半棵是白菜。" },
+    { "prompt": "磊说在中国做菜一般用什么单位?", "options": ["杯", "磅", "克"], "answer": 2, "explainZh": "In China, we use grams, not pounds!——中国用克,美国菜谱多用杯和磅。" }
+  ],
+  "grammar": [
+    { "id": "en.g.much_many", "titleZh": "How much 还是 How many?",
+      "bodyZh": "问\"多少\":不可数名词用 How much…?(How much flour? / How much pork?),可数名词复数用 How many…?(How many green onions?)。回答\"不多\":Not much. / Not many.。much 和 many 主要用在疑问句和否定句里;肯定句说\"很多\"一般用 a lot of(第 7 单元):We need a lot of flour.(很少说 We need much flour.)。\n注意:第 4 单元的 How much is it? 问的是价钱;这里 How much flour? 问的是数量,后面跟着名词。",
+      "examples": [
+        { "text": "How much flour do we need?", "zh": "我们要多少面粉?" },
+        { "text": "How many green onions? — Not many. Only three.", "zh": "要几根葱?——不多,三根。" },
+        { "text": "We need a lot of flour.", "zh": "我们要很多面粉。" }
+      ] },
+    { "id": "en.g.measure_words", "titleZh": "量词:a cup of、a spoonful of、a pound of",
+      "bodyZh": "不可数的东西靠量词来数:a cup of flour(一杯面粉)、two spoonfuls of soy sauce(两勺酱油)、a pound of pork(一磅猪肉)、half a cabbage(半棵白菜)。量词本身可数,几个就加 -s:four cups of flour(不说 four cup of flour)。美国菜谱常用杯(cup)、勺(spoon)、磅(pound),很少用克(gram):1 磅大约 450 克,1 杯面粉大约 120 克。\n发音:much /mʌtʃ/、cup /kʌp/ 的 /ʌ/ 短而放松;pound /paʊnd/ 的双元音要从 a 滑到 u,滑完整;recipe 读 /ˈresəpi/,三个音节。",
+      "examples": [
+        { "text": "About four cups of flour.", "zh": "大约四杯面粉。" },
+        { "text": "Two spoonfuls of soy sauce.", "zh": "两勺酱油。" },
+        { "text": "One pound of pork.", "zh": "一磅猪肉。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "fr.a1u1.r01", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-1 Bonjour !", "order": 101045,
+  "titleZh": "欢迎墙上的自我介绍(卡片)", "goalZh": "读懂同学的自我介绍卡片,认识四个新国籍和它们的阴阳性",
+  "canDoZh": "能读懂几张简短的自我介绍卡片,说出每个人叫什么、是哪国人、来自哪个城市",
+  "skills": ["read", "write"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "fr.japonais", "kind": "word", "pos": "adj", "text": "japonais", "zh": "日本的(阳性);日语", "features": { "ipa": "ʒa.pɔ.nɛ" }, "noteZh": "阴性 japonaise [ʒa.pɔ.nɛz]:加 e 以后,词尾的 s 要读出来,读 [z]。国籍形容词小写;le japonais 是“日语”。" },
+    { "id": "fr.allemand", "kind": "word", "pos": "adj", "text": "allemand", "zh": "德国的(阳性);德语", "features": { "ipa": "al.mɑ̃" }, "noteZh": "中间的 e 不发音:[al.mɑ̃];阳性词尾 d 不发音,阴性 allemande [al.mɑ̃d] 的 d 要读出来。" },
+    { "id": "fr.italien", "kind": "word", "pos": "adj", "text": "italien", "zh": "意大利的(阳性);意大利语", "features": { "ipa": "i.ta.ljɛ̃" }, "noteZh": "和 canadien 一样:阴性 italienne [i.ta.ljɛn],双写 n 再加 e,鼻化音 [ɛ̃] 变成 [ɛn]。" },
+    { "id": "fr.bresilien", "kind": "word", "pos": "adj", "text": "brésilien", "zh": "巴西的(阳性)", "features": { "ipa": "bʁe.zi.ljɛ̃" }, "noteZh": "两个元音之间的 s 读 [z];阴性 brésilienne [bʁe.zi.ljɛn]。é 上的重音符号不能漏。" }
+  ],
+  "reviewItems": ["fr.je_mappelle", "fr.je_suis", "fr.de", "fr.chinois", "fr.salut"],
+  "lines": [
+    { "speaker": "narrator", "text": "Bonjour ! Je m'appelle Yuki.", "zh": "(语言中心走廊的“欢迎墙”上贴满了新同学手写的卡片。第一张:)你好!我叫由纪(Yuki)。", "items": ["fr.bonjour", "fr.je_mappelle"] },
+    { "speaker": "narrator", "text": "Je suis japonaise, de Tokyo.", "zh": "我是日本人,来自东京。", "items": ["fr.je_suis", "fr.je", "fr.etre", "fr.japonais", "fr.de"] },
+    { "speaker": "narrator", "text": "Salut ! Je suis Jonas. Je suis allemand, de Berlin.", "zh": "(第二张)嗨!我是约纳斯(Jonas)。我是德国人,来自柏林。", "items": ["fr.salut", "fr.je_suis", "fr.je", "fr.etre", "fr.allemand", "fr.de"] },
+    { "speaker": "narrator", "text": "Bonjour ! C'est Anna. Je suis allemande, de Munich.", "zh": "(第三张)你好!我是安娜(Anna)。我是德国人,来自慕尼黑。", "items": ["fr.bonjour", "fr.cest", "fr.je_suis", "fr.je", "fr.etre", "fr.allemand", "fr.de"] },
+    { "speaker": "narrator", "text": "Salut, ça va ? Je m'appelle Giulia.", "zh": "(第四张)嗨,大家好吗?我叫朱莉娅(Giulia)。", "items": ["fr.salut", "fr.ca_va", "fr.je_mappelle"] },
+    { "speaker": "narrator", "text": "Je suis italienne, de Milan. Et toi ?", "zh": "我是意大利人,来自米兰。你呢?", "items": ["fr.je_suis", "fr.je", "fr.etre", "fr.italien", "fr.de", "fr.et_toi"] },
+    { "speaker": "narrator", "text": "Bonjour ! Je suis Pedro, de São Paulo.", "zh": "(第五张)你好!我是佩德罗(Pedro),来自圣保罗。", "items": ["fr.bonjour", "fr.je_suis", "fr.je", "fr.etre", "fr.de"] },
+    { "speaker": "narrator", "text": "Je suis brésilien : le café, c'est le Brésil !", "zh": "我是巴西人:说到咖啡,就得是巴西的!", "items": ["fr.je_suis", "fr.je", "fr.etre", "fr.bresilien", "fr.cafe", "fr.cest"] },
+    { "speaker": "hao", "text": "Bonjour ! Je m'appelle Hao. Je suis chinois, de Chengdu.", "zh": "(最后一张是浩写的)你好!我叫浩。我是中国人,来自成都。", "items": ["fr.bonjour", "fr.je_mappelle", "fr.je_suis", "fr.je", "fr.etre", "fr.chinois", "fr.de"] },
+    { "speaker": "hao", "text": "Et vous ? Vous êtes de… ?", "zh": "你们呢?你们是哪里人?", "items": ["fr.et", "fr.vous", "fr.etre", "fr.de"] }
+  ],
+  "questions": [
+    { "prompt": "Yuki 是哪国人?", "options": ["德国人", "日本人", "意大利人"], "answer": 1, "explainZh": "第一张卡片:Je suis japonaise, de Tokyo.(我是日本人,来自东京。)Yuki 是女生,所以用阴性 japonaise。" },
+    { "prompt": "Jonas 和 Anna 有什么共同点?", "options": ["都来自柏林", "都喜欢喝咖啡", "都是德国人"], "answer": 2, "explainZh": "Jonas 写 Je suis allemand,Anna 写 Je suis allemande:两个人都是德国人。男生用 allemand,女生用 allemande(d 要读出来)。Jonas 来自柏林,Anna 来自慕尼黑。" },
+    { "prompt": "Pedro 是哪国人?", "options": ["巴西人", "意大利人", "中国人"], "answer": 0, "explainZh": "Je suis brésilien.(我是巴西人。)他还开玩笑说 le café, c'est le Brésil !(说到咖啡,就得是巴西的!)" },
+    { "prompt": "Giulia 写的是 italienne,不是 italien。为什么?", "options": ["因为她来自米兰", "因为 Giulia 是女生", "因为她不是意大利人"], "answer": 1, "explainZh": "国籍形容词要跟人的性别配合:女生用阴性 italienne(-ien → -ienne),男生用 italien。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.nationalites", "titleZh": "国籍形容词:加 e 变阴性,读音也跟着变",
+      "bodyZh": "法语的国籍形容词要跟人的性别配合:男生用阳性,女生用阴性。规律主要有两种:\n1. 大多数直接加 -e:japonais → japonaise,chinois → chinoise,français → française,allemand → allemande。阳性词尾的辅音不发音,加了 e 以后要读出来:japonais [ʒa.pɔ.nɛ] → japonaise [ʒa.pɔ.nɛz](s 读 [z]),allemand [al.mɑ̃] → allemande [al.mɑ̃d]。所以听的时候,词尾有没有辅音,就是男女的区别。\n2. -ien 变成 -ienne:italien → italienne,canadien → canadienne,brésilien → brésilienne,鼻化音 [ɛ̃] 变成 [ɛn]。\n和英语不同,法语的国籍形容词首字母小写(je suis japonaise),城市和国家的名字才大写。说来自哪个城市,用 de + 城市:de Tokyo、de Berlin。",
+      "examples": [
+        { "text": "Yuki est japonaise, de Tokyo.", "zh": "由纪是日本人,来自东京。" },
+        { "text": "Jonas est allemand, et Anna est allemande.", "zh": "约纳斯是德国人,安娜也是德国人。" },
+        { "text": "Giulia est italienne.", "zh": "朱莉娅是意大利人。" },
+        { "text": "Pedro est brésilien.", "zh": "佩德罗是巴西人。" }
+      ] }
+  ],
+  "review": "draft"
+}

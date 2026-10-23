@@ -22,7 +22,7 @@
     { "speaker": "lei", "text": "I love snow!", "zh": "我爱下雪!", "items": ["en.love", "en.snow"] }
   ],
   "questions": [
-    { "prompt": "早上发生了什么?", "options": ["磊自己很早就醒了", "伊森叫醒了磊,课取消了", "索菲亚打电话叫磊出去"], "answer": 1, "explainZh": "In the morning, Ethan woke me up. Classes were canceled!(早上伊森把我叫醒,课取消了。)" },
+    { "prompt": "早上发生了什么?", "options": ["伊森叫醒了磊,课取消了", "磊自己很早就醒了", "索菲亚打电话叫磊出去"], "answer": 0, "explainZh": "In the morning, Ethan woke me up. Classes were canceled!(早上伊森把我叫醒,课取消了。)" },
     { "prompt": "雪人戴着谁的帽子?", "options": ["伊森的", "磊的", "索菲亚的"], "answer": 0, "explainZh": "Our snowman … He had Ethan's hat!(这里的 He 指雪人。)" },
     { "prompt": "晚上磊感觉怎么样?", "options": ["很暖和,也很开心", "又冷又累,不开心", "很冷,但是很开心"], "answer": 2, "explainZh": "At night, it was really cold, but I was happy.(晚上特别冷,可我很开心。)" },
     { "prompt": "磊为什么拍了很多照片发给奶奶?", "options": ["成都不常下雪", "奶奶想看西雅图的校园", "这是写作课的作业"], "answer": 0, "explainZh": "In Chengdu, it doesn't snow a lot. So I took a lot of pictures and texted them to Grandma." }

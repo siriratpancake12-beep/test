@@ -1,0 +1,37 @@
+{
+  "id": "en.a1u13.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113085,
+  "titleZh": "给司机的感谢留言", "goalZh": "读懂一段写给司机的感谢留言,学会用 Thank you for… 和过去时写感谢", "canDoZh": "能读懂并写一段简短的感谢留言:谢什么、当时的情况、对方哪里好",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 12.5,
+  "newItems": [
+    { "id": "en.honest", "kind": "word", "pos": "adj", "text": "honest", "zh": "诚实的", "features": { "ipa": "ˈɑːnɪst" }, "noteZh": "h 不发音,读 /ˈɑːnɪst/,所以前面用 an:an honest driver;重音在前。" }
+  ],
+  "reviewItems": ["en.lose", "en.find", "en.drive", "en.kind", "en.nervous"],
+  "lines": [
+    { "speaker": "lei", "text": "Thank you, Carlos!", "zh": "(回到西雅图后,磊在叫车应用里给那位司机打了五星,还写了感谢留言)谢谢你,卡洛斯!", "items": ["en.thank_you"] },
+    { "speaker": "lei", "text": "Last week, I lost my phone in your car.", "zh": "上周,我把手机丢在了你的车上。", "items": ["en.last", "en.week", "en.lose", "en.phone", "en.car"] },
+    { "speaker": "lei", "text": "I was so nervous.", "zh": "我当时特别紧张。", "items": ["en.so", "en.nervous"] },
+    { "speaker": "lei", "text": "But you found it and called my friend the next morning.", "zh": "可是你发现了手机,第二天一早就打电话给我朋友。", "items": ["en.find", "en.call", "en.friend", "en.next", "en.morning"] },
+    { "speaker": "lei", "text": "Then you drove to us with my phone.", "zh": "然后你开车把手机给我们送了过来。", "items": ["en.then", "en.drive", "en.phone"] },
+    { "speaker": "lei", "text": "My phone has photos of my family in China.", "zh": "我的手机里有我在中国的家人的照片。", "items": ["en.phone", "en.have", "en.photo", "en.family"] },
+    { "speaker": "lei", "text": "I love those photos.", "zh": "那些照片对我来说太珍贵了。", "items": ["en.love", "en.photo"] },
+    { "speaker": "lei", "text": "You were so kind and honest.", "zh": "你人真好,又这么诚实。", "items": ["en.so", "en.kind", "en.honest"] },
+    { "speaker": "lei", "text": "Thank you for your help!", "zh": "谢谢你的帮助!", "items": ["en.thank_you", "en.help"] },
+    { "speaker": "lei", "text": "Lei", "zh": "磊", "items": [] }
+  ],
+  "questions": [
+    { "prompt": "这段留言是写给谁的?", "options": ["失物招领处", "索菲亚", "那位司机"], "answer": 2, "explainZh": "开头写 Thank you, Carlos!,接着写 I lost my phone in your car.——卡洛斯就是那位司机。" },
+    { "prompt": "为什么那部手机对磊很重要?", "options": ["手机是刚买的", "里面有他在中国的家人的照片", "里面有学校的作业"], "answer": 1, "explainZh": "My phone has photos of my family in China. I love those photos." },
+    { "prompt": "司机是什么时候联系的?", "options": ["第二天早上", "当天晚上", "一周以后"], "answer": 0, "explainZh": "you found it and called my friend the next morning.(第二天一早就打电话给我朋友)" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_thank_you_note", "titleZh": "写感谢留言:Thank you for… / You were so kind.",
+      "bodyZh": "感谢留言一般写三件事:① 发生了什么,用过去时:I lost my phone in your car. / You found it and called my friend.;② 这件事对你有多重要:My phone has photos of my family.;③ 夸对方、再说一遍谢谢:You were so kind and honest. Thank you for your help!。Thank you for + 名词,谢的是对方做的事(第 7 单元学过 Thanks for asking.)。写给不太熟的人,开头直接写对方的名字,结尾写自己的名字就行。",
+      "examples": [
+        { "text": "Thank you for your help!", "zh": "谢谢你的帮助!" },
+        { "text": "You were so kind and honest.", "zh": "你人真好,又这么诚实。" },
+        { "text": "You found it and called my friend the next morning.", "zh": "你发现了手机,第二天一早就打电话给我朋友。" }
+      ] }
+  ],
+  "review": "draft"
+}

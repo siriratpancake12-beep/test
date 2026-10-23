@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u13.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113020,
+  "titleZh": "这是你的吗?", "goalZh": "会用 mine / yours / hers / ours / theirs 说东西是谁的,用 Whose…? 提问", "canDoZh": "能在失物招领处辨认东西是谁的,用 mine / yours 回答,用 Whose…? 提问",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.whose", "kind": "word", "pos": "pron", "text": "Whose", "zh": "谁的", "features": { "ipa": "huːz" }, "noteZh": "Whose cap is this? 这是谁的帽子?;whose 和 who's(= who is)读音一样,都是 /huːz/,写的时候别混。" },
+    { "id": "en.mine", "kind": "word", "pos": "pron", "text": "mine", "zh": "我的(东西)", "features": { "ipa": "maɪn" }, "noteZh": "It's mine. = It's my cap.;mine 后面不再跟名词,不说 mine cap。" },
+    { "id": "en.yours", "kind": "word", "pos": "pron", "text": "yours", "zh": "你的;你们的(东西)", "features": { "ipa": "jʊrz" }, "noteZh": "Is this yours? 这是你的吗?;不加撇号,不写 your's。" },
+    { "id": "en.hers", "kind": "word", "pos": "pron", "text": "hers", "zh": "她的(东西)", "features": { "ipa": "hɝːz" }, "noteZh": "It's hers. 是她的;her 放在名词前(her cap),hers 单独用。他的不管放哪儿都是 his。" },
+    { "id": "en.ours", "kind": "word", "pos": "pron", "text": "ours", "zh": "我们的(东西)", "features": { "ipa": "aʊrz" }, "noteZh": "It's not ours. 不是我们的;读 /aʊrz/,和 hours 同音。" },
+    { "id": "en.theirs", "kind": "word", "pos": "pron", "text": "theirs", "zh": "他们的(东西)", "features": { "ipa": "ðerz" }, "noteZh": "These keys are theirs. 这些钥匙是他们的;th 是浊音 /ð/,不加撇号。" },
+    { "id": "en.cap", "kind": "word", "pos": "noun", "text": "cap", "zh": "棒球帽;鸭舌帽", "features": { "ipa": "kæp" }, "noteZh": "前面带帽檐的帽子;a 读 /æ/,嘴张大,词尾 p 收住。" },
+    { "id": "en.camera", "kind": "word", "pos": "noun", "text": "camera", "zh": "相机", "features": { "ipa": "ˈkæmrə" }, "noteZh": "美式常读成两个音节 CAM-ruh,重音在前。" }
+  ],
+  "reviewItems": ["en.lose", "en.phone", "en.key", "en.gone"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. I lost my phone here yesterday.", "zh": "(第二天一早,圣莫尼卡码头的失物招领处)打扰一下,我昨天在这儿丢了手机。", "items": ["en.excuse_me", "en.lose", "en.phone", "en.yesterday"] },
+    { "speaker": "staff", "text": "Let me see. We have a black phone. Is this yours?", "zh": "我看看。这儿有一部黑色的手机。是你的吗?", "items": ["en.let_me_see", "en.have", "en.black", "en.phone", "en.yours"] },
+    { "speaker": "lei", "text": "No, sorry. It's not mine.", "zh": "不是,不好意思,不是我的。", "items": ["en.sorry", "en.mine"] },
+    { "speaker": "staff", "text": "OK. Whose camera is this? Is it yours?", "zh": "好。这台相机是谁的?是你的吗?(问伊森)", "items": ["en.whose", "en.camera", "en.yours"] },
+    { "speaker": "ethan", "text": "No, it's not ours.", "zh": "不是,不是我们的。", "items": ["en.ours"] },
+    { "speaker": "staff", "text": "And these keys? Oh, they're theirs. That family lost them.", "zh": "还有这串钥匙?哦,是他们的。那家人刚才来说丢了。(指着旁边一家游客)", "items": ["en.key", "en.theirs", "en.family", "en.lose"] },
+    { "speaker": "staff", "text": "And whose cap is this? Is it hers?", "zh": "这顶帽子是谁的?是她的吗?(看着索菲亚)", "items": ["en.whose", "en.cap", "en.hers"] },
+    { "speaker": "lei", "text": "Sofia, is that yours?", "zh": "索菲亚,那是你的吗?", "items": ["en.yours"] },
+    { "speaker": "sofia", "text": "Yes! It's mine! I didn't see it was gone.", "zh": "是!是我的!我都没发现它丢了。", "items": ["en.mine", "en.see", "en.gone"] },
+    { "speaker": "lei", "text": "Ha! So yours is here, but mine isn't!", "zh": "哈!你的在这儿,我的却不在!", "items": ["en.yours", "en.mine"] }
+  ],
+  "questions": [
+    { "prompt": "工作人员拿出的那部黑色手机是磊的吗?", "options": ["不是", "是", "磊不确定"], "answer": 0, "explainZh": "工作人员问 Is this yours?,磊说 No, sorry. It's not mine.。" },
+    { "prompt": "那顶帽子是谁的?", "options": ["伊森的", "那家游客的", "索菲亚的"], "answer": 2, "explainZh": "索菲亚说 Yes! It's mine!;钥匙才是那家游客的(they're theirs)。" },
+    { "prompt": "Is this yours? — No, it's not mine. 里的 mine 指什么?", "options": ["我", "我的(东西)", "我们的"], "answer": 1, "explainZh": "mine 就是 my phone(我的手机),后面不用再加名词。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_mine_yours", "titleZh": "mine / yours / his / hers / ours / theirs:“……的(东西)”",
+      "bodyZh": "my、your、her 这些后面一定要跟名词(my phone、her cap);mine、yours、his、hers、ours、theirs 自己就代表“……的东西”,后面不再跟名词:This is my phone. = This phone is mine.。对照着记:my → mine,your → yours,his → his(不变),her → hers,our → ours,their → theirs。中国学生常见的错:说成 This is mine phone,或者写成 your's、her's——这些词都不加撇号。失物招领时最常用的一问一答:Is this yours? — Yes, it's mine! / No, it's not mine.。",
+      "examples": [
+        { "text": "This phone is mine. = This is my phone.", "zh": "这部手机是我的。" },
+        { "text": "Is this yours? — No, it's not mine.", "zh": "这是你的吗?——不,不是我的。" },
+        { "text": "These keys are theirs.", "zh": "这些钥匙是他们的。" }
+      ] },
+    { "id": "en.g.u13_whose", "titleZh": "Whose…?:问“谁的”",
+      "bodyZh": "问东西是谁的,用 Whose + 名词 + is this?:Whose cap is this?(这是谁的帽子?);东西就在眼前、大家都知道说的是哪样时,也可以只说 Whose is this?。复数用 are these:Whose keys are these?。回答用上面的 mine、hers、theirs,或者“名字 + 's”:It's Sofia's.。发音:whose 和 who's(= who is)读音一样,都是 /huːz/,只能靠意思区分:Whose cap is this?(谁的)/ Who's that?(那是谁)。",
+      "examples": [
+        { "text": "Whose cap is this? — It's Sofia's.", "zh": "这是谁的帽子?——是索菲亚的。" },
+        { "text": "Whose keys are these?", "zh": "这些是谁的钥匙?" },
+        { "text": "Who's that? — That's Ethan.", "zh": "那是谁?——那是伊森。" }
+      ] }
+  ],
+  "review": "draft"
+}

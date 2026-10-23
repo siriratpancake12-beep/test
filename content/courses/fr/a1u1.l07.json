@@ -1,0 +1,53 @@
+{
+  "id": "fr.a1u1.l07", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 Bonjour !", "order": 101070,
+  "titleZh": "第一条短信——Coucou、À plus 和 Bisous", "goalZh": "会给朋友发问候短信,看懂 Coucou、À plus、Bisous,分清对朋友和对老师的写法",
+  "canDoZh": "能给新认识的朋友发几句问候短信(我是谁、你好吗、谢谢),看懂朋友回复里的 Coucou、À plus、Bisous",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "fr.coucou", "kind": "word", "pos": "interj", "text": "Coucou", "zh": "嗨(很熟的朋友、家人之间)", "features": { "ipa": "ku.ku" }, "noteZh": "比 Salut 更亲热,常用在短信开头;只对好朋友、家人说,对老师、店员不说。ou 读 [u]。" },
+    { "id": "fr.a_plus", "kind": "phrase", "pos": "phrase", "text": "À plus !", "zh": "回头见;回头聊(朋友之间)", "features": { "ipa": "a plys" }, "noteZh": "这里 plus 的 s 要读出来:[plys];短信里常写成 A+。是 À plus tard 的简称,只对朋友说。" },
+    { "id": "fr.bisous", "kind": "word", "pos": "interj", "text": "Bisous", "zh": "亲亲(朋友、家人之间,常写在短信结尾)", "features": { "ipa": "bi.zu" }, "noteZh": "两个元音之间的 s 读 [z];来自贴面礼 la bise。朋友、家人之间常这样结尾,不只是恋人才用;对老师、长辈不用。" },
+    { "id": "fr.bise", "kind": "word", "pos": "noun", "text": "la bise", "zh": "贴面礼(脸颊轻碰的问候)", "features": { "gender": "f", "ipa": "la biz" }, "noteZh": "阴性;朋友、家人见面和告别时左右脸颊轻碰。贴几下各地不一样,里昂一般两下。s 读 [z]。" },
+    { "id": "fr.message", "kind": "word", "pos": "noun", "text": "le message", "zh": "消息;短信", "features": { "gender": "m", "ipa": "lə me.saʒ" }, "noteZh": "阳性(-age 结尾的名词多数是阳性);ss 读 [s],ge 读 [ʒ]。手机短信也常说 un SMS、un texto。" },
+    { "id": "fr.bonne_nuit", "kind": "phrase", "pos": "phrase", "text": "Bonne nuit !", "zh": "晚安", "features": { "ipa": "bɔn nɥi" }, "noteZh": "睡前或很晚告别时说;傍晚分开时说 Bonne soirée !。nuit 里的 ui 读 [ɥi]:嘴唇先撮圆,再滑到 [i]。" },
+    { "id": "fr.quest_ce_que_ca_veut_dire", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que ça veut dire ?", "zh": "这是什么意思?", "features": { "ipa": "kɛs.kə sa vø diʁ" }, "noteZh": "听到、看到不懂的词就这样问,先整句记;对朋友、对老师都能用。veut 的 t 不发音。" },
+    { "id": "fr.ca_veut_dire", "kind": "phrase", "pos": "phrase", "text": "Ça veut dire…", "zh": "意思是……", "features": { "ipa": "sa vø diʁ" }, "noteZh": "解释意思时用:« Bisous », ça veut dire « la bise ».;dire 的 r 要发出来。" }
+  ],
+  "reviewItems": ["fr.bonsoir", "fr.ca_va", "fr.et_toi", "fr.salut", "fr.madame"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonsoir, Chloé ! C'est Hao.", "zh": "(开学第一周的一个晚上,浩给克洛艾发了第一条短信)晚上好,克洛艾!我是浩。", "items": ["fr.bonsoir", "fr.cest"] },
+    { "speaker": "hao", "text": "Ça va ? Et merci, merci !", "zh": "你好吗?还有,太谢谢你了!(谢谢她今天带他认路)", "items": ["fr.ca_va", "fr.et", "fr.merci"] },
+    { "speaker": "chloe", "text": "Coucou, Hao ! Ça va très bien ! Et toi ?", "zh": "嗨,浩!我很好!你呢?", "items": ["fr.coucou", "fr.ca_va", "fr.tres", "fr.bien", "fr.et_toi"] },
+    { "speaker": "hao", "text": "Très bien. Bonne nuit, Chloé !", "zh": "很好。晚安,克洛艾!", "items": ["fr.tres", "fr.bien", "fr.bonne_nuit"] },
+    { "speaker": "chloe", "text": "Bonne nuit ! À plus ! Bisous !", "zh": "晚安!回头聊!Bisous(亲亲)!", "items": ["fr.bonne_nuit", "fr.a_plus", "fr.bisous"] },
+    { "speaker": "hao", "text": "Salut, Lucas ! Un message de Chloé : « Bisous ! »", "zh": "(第二天早上,宿舍门口)嗨,卢卡!你看克洛艾的消息,最后写着 « Bisous ! »。", "items": ["fr.salut", "fr.un", "fr.message", "fr.de", "fr.bisous"] },
+    { "speaker": "hao", "text": "Qu'est-ce que ça veut dire ?", "zh": "这是什么意思?", "items": ["fr.quest_ce_que_ca_veut_dire"] },
+    { "speaker": "lucas", "text": "« Bisous » ? Ça veut dire « la bise » !", "zh": "« Bisous »?意思就是“贴面礼”!", "items": ["fr.bisous", "fr.ca_veut_dire", "fr.bise"] },
+    { "speaker": "hao", "text": "La bise ?", "zh": "贴面礼?", "items": ["fr.bise"] },
+    { "speaker": "lucas", "text": "Oui ! Un, deux : c'est la bise !", "zh": "对!左边一下,右边一下——这就是贴面礼!(卢卡笑着在浩脸旁比画)", "items": ["fr.oui", "fr.un", "fr.deux", "fr.cest", "fr.bise"] },
+    { "speaker": "hao", "text": "Et madame Moreau ? « Bisous » ?", "zh": "那给莫罗老师发消息呢?也写 « Bisous »?", "items": ["fr.et", "fr.madame", "fr.bisous"] },
+    { "speaker": "lucas", "text": "Non, non ! « Bonsoir, madame » et « Merci » !", "zh": "不不不!给老师要写 « Bonsoir, madame »,还有 « Merci »!", "items": ["fr.non", "fr.bonsoir", "fr.madame", "fr.et", "fr.merci"] }
+  ],
+  "questions": [
+    { "prompt": "克洛艾的回信最后写了什么?", "options": ["Bonsoir, madame.", "À plus ! Bisous !", "Merci, merci !"], "answer": 1, "explainZh": "克洛艾写的是 Bonne nuit ! À plus ! Bisous !——À plus = 回头聊,Bisous = 亲亲,都是朋友之间的说法。" },
+    { "prompt": "第二天早上,浩问卢卡哪个词是什么意思?", "options": ["Coucou", "Bonne nuit", "Bisous"], "answer": 2, "explainZh": "浩说 Un message de Chloé : « Bisous ! » Qu'est-ce que ça veut dire ?;卢卡解释:Ça veut dire « la bise »(意思就是贴面礼)。" },
+    { "prompt": "卢卡说给莫罗老师发消息应该怎么写?", "options": ["Bonsoir, madame … Merci", "Coucou ! … Bisous !", "Salut ! … À plus !"], "answer": 0, "explainZh": "卢卡说 Non, non ! « Bonsoir, madame » et « Merci » !——对老师要用礼貌的说法,Coucou、À plus、Bisous 只对朋友。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.sms", "titleZh": "短信里的口语:Coucou、À plus、Bisous;对朋友和对老师不一样",
+      "bodyZh": "朋友、家人之间的短信很口语:开头常写 Coucou(比 Salut 更亲热),结尾写 À plus(回头聊,常缩写成 A+)、Bisous(亲亲)。Bisous 来自贴面礼 la bise:法国的朋友、家人见面和告别时左右脸颊轻碰,短信里就用 Bisous 代替。\n这些说法只用在 tu 的关系里。给老师、宿舍管理员这些用 vous 的人发消息,用 Bonjour / Bonsoir, madame(monsieur)开头,用 Merci 或 Au revoir 结尾,不写 Coucou、À plus 和 Bisous。中国学生容易把给朋友的写法用在老师身上,会显得太随便。",
+      "examples": [
+        { "text": "Coucou, Hao ! Ça va ?", "zh": "嗨,浩!还好吗?(对朋友)" },
+        { "text": "Bonne nuit ! À plus ! Bisous !", "zh": "晚安!回头聊!亲亲!(对朋友)" },
+        { "text": "Bonsoir, madame. Merci !", "zh": "老师晚上好。谢谢您!(对老师)" }
+      ] },
+    { "id": "fr.g.veut_dire", "titleZh": "不懂就问:Qu'est-ce que ça veut dire ?;法语标点前的空格",
+      "bodyZh": "听到、看到不懂的词,整句问 Qu'est-ce que ça veut dire ?(这是什么意思?),回答用 Ça veut dire…(意思是……)。两句都先当固定说法记,里面的动词以后再学。\n法语书写时,问号 ?、感叹号 !、冒号 :、分号 ; 前面都要空一格:Ça va ?、Bisous !;引号用 « »,里面的字前后也空一格:« Bisous »。中文、英语都不空格,写法语时要特别注意。",
+      "examples": [
+        { "text": "Qu'est-ce que ça veut dire ?", "zh": "这是什么意思?" },
+        { "text": "« Bisous », ça veut dire « la bise ».", "zh": "Bisous 的意思是“贴面礼”。" }
+      ] }
+  ],
+  "review": "draft"
+}

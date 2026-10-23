@@ -2,7 +2,7 @@
   "id": "en.a1u18.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
   "unit": "A1-18 Game on", "order": 118070,
   "titleZh": "看超级碗", "goalZh": "会问比赛谁领先、读比分、说谁赢了,用 Come on! / Nice catch! 给球队加油", "canDoZh": "能看比赛时问比分、说谁赢了,用常见的话给球队加油",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
   "newItems": [
     { "id": "en.super_bowl", "kind": "phrase", "pos": "propn", "text": "Super Bowl", "zh": "超级碗(美式橄榄球总决赛)", "features": { "ipa": "ˌsuːpɚ ˈboʊl" }, "noteZh": "每年二月初的一个星期天,很多美国人聚在一起边吃边看;bowl 读 /boʊl/(碗),别和 ball /bɑːl/(球)混。" },
     { "id": "en.win", "kind": "word", "pos": "verb", "text": "win", "zh": "赢;获胜", "features": { "ipa": "wɪn" }, "noteZh": "过去式 won,读 /wʌn/,和 one 一样;Who's winning? 现在谁领先?" },

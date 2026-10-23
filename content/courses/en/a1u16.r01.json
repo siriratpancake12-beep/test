@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u16.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116045,
+  "titleZh": "宿舍查房通知", "goalZh": "读懂一则查房通知:时间、要做的准备和不许有的东西", "canDoZh": "能看懂查房通知:什么时间、要做哪些准备、哪些东西不允许",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 16,
+  "newItems": [
+    { "id": "en.space_heater", "kind": "phrase", "pos": "noun", "text": "space heater", "zh": "(移动式)电暖器", "features": { "ipa": "ˈspeɪs ˌhiːt̬ɚ" }, "noteZh": "很多美国宿舍不许用电暖器,怕着火;heater 的 t 读闪音。" },
+    { "id": "en.allowed", "kind": "word", "pos": "adj", "text": "allowed", "zh": "允许的", "features": { "ipa": "əˈlaʊd" }, "noteZh": "be allowed:Pets aren't allowed. 不许养宠物;读音和 aloud(大声地)一样。" },
+    { "id": "en.kitchen", "kind": "word", "pos": "noun", "text": "kitchen", "zh": "厨房", "features": { "ipa": "ˈkɪtʃən" }, "noteZh": "tch 读 /tʃ/;宿舍每层的公共厨房常叫 the kitchen 或 the shared kitchen。" }
+  ],
+  "reviewItems": ["en.inspection", "en.take_out_the_trash", "en.fridge", "en.knock", "en.pet", "en.dorm"],
+  "lines": [
+    { "speaker": "narrator", "text": "Room Inspection: Friday, 10 a.m. to 4 p.m.", "zh": "(宿舍办公室贴在每层楼的通知)查房:周五上午 10 点到下午 4 点", "items": ["en.room", "en.inspection", "en.friday", "en.am", "en.pm"] },
+    { "speaker": "narrator", "text": "We knock first, and then we come in.", "zh": "我们会先敲门,再进房间。", "items": ["en.knock", "en.first", "en.then", "en.come_in"] },
+    { "speaker": "narrator", "text": "Before Friday, please:", "zh": "周五之前,请:", "items": ["en.before", "en.friday"] },
+    { "speaker": "narrator", "text": "Take out the trash.", "zh": "倒掉垃圾。", "items": ["en.take_out_the_trash"] },
+    { "speaker": "narrator", "text": "Clean the fridge. No old food, please!", "zh": "清理冰箱,别留旧的食物!", "items": ["en.clean", "en.fridge", "en.old", "en.food"] },
+    { "speaker": "narrator", "text": "Clean the bathroom, and vacuum the room.", "zh": "打扫浴室,给房间吸尘。", "items": ["en.clean", "en.bathroom", "en.vacuum", "en.room"] },
+    { "speaker": "narrator", "text": "Don't put boxes in front of your door.", "zh": "门口不要堆箱子。", "items": ["en.put", "en.box", "en.in_front_of", "en.door"] },
+    { "speaker": "narrator", "text": "Not allowed in rooms: pets, candles, and space heaters", "zh": "房间里不允许有:宠物、蜡烛、电暖器", "items": ["en.allowed", "en.room", "en.pet", "en.candle", "en.space_heater"] },
+    { "speaker": "narrator", "text": "No cooking in your room. Please cook in the kitchen.", "zh": "不能在房间里做饭,请去厨房做。", "items": ["en.cook", "en.room", "en.kitchen"] },
+    { "speaker": "narrator", "text": "Is something broken? Please tell us.", "zh": "有东西坏了?请告诉我们。", "items": ["en.broken", "en.tell"] },
+    { "speaker": "narrator", "text": "You pay for broken things.", "zh": "弄坏的东西要照价赔偿。", "items": ["en.pay", "en.broken"] },
+    { "speaker": "narrator", "text": "Thank you! — Dorm Office", "zh": "谢谢!——宿舍办公室", "items": ["en.thank_you", "en.dorm", "en.office"] }
+  ],
+  "questions": [
+    { "prompt": "查房是什么时候?", "options": ["周四全天", "周五晚上", "周六上午", "周五上午 10 点到下午 4 点"], "answer": 3, "explainZh": "Room Inspection: Friday, 10 a.m. to 4 p.m.——周五上午 10 点到下午 4 点。" },
+    { "prompt": "下面哪样东西不能放在宿舍房间里?", "options": ["冰箱", "电暖器", "衣服", "书桌"], "answer": 1, "explainZh": "Not allowed in rooms: pets, candles, and space heaters——宠物、蜡烛、电暖器都不允许;冰箱要清理干净。" },
+    { "prompt": "门口不能放什么?", "options": ["鞋", "自行车", "箱子"], "answer": 2, "explainZh": "Don't put boxes in front of your door.——门口不要堆箱子(挡路,也不安全)。" },
+    { "prompt": "房间里的东西坏了,应该怎么办?", "options": ["告诉宿舍办公室", "自己修", "换一间房"], "answer": 0, "explainZh": "Is something broken? Please tell us.——告诉宿舍办公室;自己弄坏的要赔(You pay for broken things.)。" }
+  ],
+  "grammar": [
+    { "id": "en.g.notice_rules", "titleZh": "告示的写法:祈使句、No + 名词、Not allowed",
+      "bodyZh": "告示、通知常用很短的句子:要做的事用祈使句(Take out the trash. Clean the fridge.);不许做的事用 Don't… 或 No + 名词 / 动词-ing(No cooking in your room.);列出不许有的东西用 Not allowed: …。allowed 是\"被允许的\",在句子里前面要有 be:Pets aren't allowed.(不许养宠物)。读告示先找时间(Friday, 10 a.m. to 4 p.m.),再找要做的事和不许做的事。",
+      "examples": [
+        { "text": "No cooking in your room.", "zh": "房间里不能做饭。" },
+        { "text": "Pets and space heaters aren't allowed.", "zh": "不允许养宠物、用电暖器。" },
+        { "text": "Don't put boxes in front of your door.", "zh": "门口不要堆箱子。" }
+      ] }
+  ],
+  "review": "draft"
+}

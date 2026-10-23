@@ -2,7 +2,7 @@
  "lang": "en",
  "levels": ["A1"],
  "units": [
-  { "unit": "A1-18 Game on", "cefr": "A1", "themeZh": "运动和身体:上健身课认识身体部位、说哪儿疼、跟伊森学游泳、加入校内篮球队、绕湖跑步、第一次滑雪、看超级碗,打第一场校内比赛" }
+  {"unit":"A1-18 Game on","cefr":"A1","themeZh":"运动和身体:上健身课认识身体部位、说哪儿疼、跟伊森学游泳、加入校内篮球队、绕湖跑步、第一次滑雪、看超级碗,打第一场校内比赛"}
  ],
  "lessons": [
   {
@@ -12,20 +12,20 @@
    "canDoZh": "能说出主要的身体部位,听懂健身课上老师的动作指令",
    "scenarioZh": "索菲亚说自己从来不去健身房,可这节课免费,就拉磊去学校健身房上健身课。教练(staff)一边示范一边喊:Hands on your head. Touch your knees. Touch your toes.;磊身体很硬,碰不到脚趾,索菲亚在旁边笑。下课后两人对着人体海报认身体部位,索菲亚把 teeth 说成 tooths,磊纠正她。",
    "grammarFocusZh": "身体部位 body、head、arm、hand、leg、knee、foot、toe、tooth;不规则复数 foot → feet、tooth → teeth;复习祈使句(Touch your toes.),身体部位前要加 my / your。发音:knee 的 k 不发音 /niː/。",
-   "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+   "skills": ["listen","read","write"], "estimatedMinutes": 27.5,
    "newItems": [
-    { "id": "en.body", "kind": "word", "pos": "noun", "text": "body", "zh": "身体", "features": { "ipa": "ˈbɑːdi" }, "noteZh": "o 读 /ɑː/,嘴张大,别读成“波迪”;身体部位叫 body parts。" },
-    { "id": "en.head", "kind": "word", "pos": "noun", "text": "head", "zh": "头", "features": { "ipa": "hed" }, "noteZh": "ea 在这里读短音 /e/(和 bread 一样),不读 /iː/;词尾 d 轻轻收住。Hands on your head! 双手放在头上!" },
-    { "id": "en.arm", "kind": "word", "pos": "noun", "text": "arm", "zh": "胳膊;手臂", "features": { "ipa": "ɑːrm" }, "noteZh": "中文的“手”有时指整条胳膊,英语分得清:arm 是胳膊,hand 是手;美式 ar 要卷舌。" },
-    { "id": "en.hand", "kind": "word", "pos": "noun", "text": "hand", "zh": "手", "features": { "ipa": "hænd" }, "noteZh": "a 读 /æ/,嘴张大、嘴角往两边拉;词尾 nd 收住,不加元音。" },
-    { "id": "en.leg", "kind": "word", "pos": "noun", "text": "leg", "zh": "腿", "features": { "ipa": "leɡ" }, "noteZh": "leg 是整条腿,脚是 foot;词尾 g 轻轻收住,不要读成“莱格”。" },
-    { "id": "en.knee", "kind": "word", "pos": "noun", "text": "knee", "zh": "膝盖", "features": { "ipa": "niː" }, "noteZh": "开头的 k 不发音,读 /niː/(know 的 k 也不发音);Bend your knees. 屈膝。" },
-    { "id": "en.foot", "kind": "word", "pos": "noun", "text": "foot", "zh": "脚(复数 feet)", "features": { "ipa": "fʊt" }, "noteZh": "复数不加 s,是 feet /fiːt/;foot 的 oo 读短音 /ʊ/,feet 的 ee 读长音 /iː/。" },
-    { "id": "en.toe", "kind": "word", "pos": "noun", "text": "toe", "zh": "脚趾", "features": { "ipa": "toʊ" }, "noteZh": "手指是 finger,脚趾是 toe;oe 读双元音 /oʊ/,要滑完整。Touch your toes. 弯腰摸脚趾。" },
-    { "id": "en.tooth", "kind": "word", "pos": "noun", "text": "tooth", "zh": "牙齿(复数 teeth)", "features": { "ipa": "tuːθ" }, "noteZh": "复数是 teeth /tiːθ/,不说 tooths;结尾的 th 舌尖放在上下齿之间吹气,不要读成 s。" },
-    { "id": "en.touch", "kind": "word", "pos": "verb", "text": "touch", "zh": "摸;碰", "features": { "ipa": "tʌtʃ" }, "noteZh": "ou 读 /ʌ/(和 much 的元音一样),ch 读 /tʃ/;Touch your toes. 摸脚趾。" }
+    {"id":"en.body","kind":"word","pos":"noun","text":"body","zh":"身体","features":{"ipa":"ˈbɑːdi"},"noteZh":"o 读 /ɑː/,嘴张大,别读成“波迪”;身体部位叫 body parts。"},
+    {"id":"en.head","kind":"word","pos":"noun","text":"head","zh":"头","features":{"ipa":"hed"},"noteZh":"ea 在这里读短音 /e/(和 bread 一样),不读 /iː/;词尾 d 轻轻收住。Hands on your head! 双手放在头上!"},
+    {"id":"en.arm","kind":"word","pos":"noun","text":"arm","zh":"胳膊;手臂","features":{"ipa":"ɑːrm"},"noteZh":"中文的“手”有时指整条胳膊,英语分得清:arm 是胳膊,hand 是手;美式 ar 要卷舌。"},
+    {"id":"en.hand","kind":"word","pos":"noun","text":"hand","zh":"手","features":{"ipa":"hænd"},"noteZh":"a 读 /æ/,嘴张大、嘴角往两边拉;词尾 nd 收住,不加元音。"},
+    {"id":"en.leg","kind":"word","pos":"noun","text":"leg","zh":"腿","features":{"ipa":"leɡ"},"noteZh":"leg 是整条腿,脚是 foot;词尾 g 轻轻收住,不要读成“莱格”。"},
+    {"id":"en.knee","kind":"word","pos":"noun","text":"knee","zh":"膝盖","features":{"ipa":"niː"},"noteZh":"开头的 k 不发音,读 /niː/(know 的 k 也不发音);Bend your knees. 屈膝。"},
+    {"id":"en.foot","kind":"word","pos":"noun","text":"foot","zh":"脚(复数 feet)","features":{"ipa":"fʊt"},"noteZh":"复数不加 s,是 feet /fiːt/;foot 的 oo 读短音 /ʊ/,feet 的 ee 读长音 /iː/。"},
+    {"id":"en.toe","kind":"word","pos":"noun","text":"toe","zh":"脚趾","features":{"ipa":"toʊ"},"noteZh":"手指是 finger,脚趾是 toe;oe 读双元音 /oʊ/,要滑完整。Touch your toes. 弯腰摸脚趾。"},
+    {"id":"en.tooth","kind":"word","pos":"noun","text":"tooth","zh":"牙齿(复数 teeth)","features":{"ipa":"tuːθ"},"noteZh":"复数是 teeth /tiːθ/,不说 tooths;结尾的 th 舌尖放在上下齿之间吹气,不要读成 s。"},
+    {"id":"en.touch","kind":"word","pos":"verb","text":"touch","zh":"摸;碰","features":{"ipa":"tʌtʃ"},"noteZh":"ou 读 /ʌ/(和 much 的元音一样),ch 读 /tʃ/;Touch your toes. 摸脚趾。"}
    ],
-   "reviewItems": ["en.gym", "en.free", "en.how_do_you_say", "en.crazy", "en.tired"]
+   "reviewItems": ["en.gym","en.free","en.never","en.how_do_you_say","en.crazy"]
   },
   {
    "id": "en.a1u18.l02", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-18 Game on", "order": 118020,
@@ -34,60 +34,60 @@
    "canDoZh": "能说出自己哪儿疼、怎么弄的,听懂别人的简单建议",
    "scenarioZh": "健身课第二天早上,磊下楼梯都困难。伊森笑着问 What's wrong?,磊说 My legs hurt. My back hurts. Everything hurts!;伊森说第一次上课都这样,很正常,运动前后要拉伸,周五再去上课就好多了。磊说他再也不去那个健身房了——周五他还是去了。",
    "grammarFocusZh": "… hurts / … hurt(主语单数用 hurts,复数用 hurt:My back hurts. My legs hurt.;Everything hurts. 当单数);sore 说肌肉酸痛(复习 sore throat):My arms are sore.;复习 What's wrong?。发音:hurt /hɝːt/ 和 heart /hɑːrt/ 要分清。",
-   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+   "skills": ["listen","speak","read"], "estimatedMinutes": 29,
    "newItems": [
-    { "id": "en.hurt", "kind": "word", "pos": "verb", "text": "hurt", "zh": "疼;弄疼", "features": { "ipa": "hɝːt" }, "noteZh": "主语是疼的部位:My leg hurts.(我腿疼);复数用 hurt:My legs hurt.;过去式也是 hurt。hurt /hɝːt/ 要卷舌,别和 heart /hɑːrt/(心脏)混。" },
-    { "id": "en.sore", "kind": "word", "pos": "adj", "text": "sore", "zh": "(肌肉)酸痛的", "features": { "ipa": "sɔːr" }, "noteZh": "运动后肌肉酸痛说 My arms are sore.;第 8 单元的 sore throat(嗓子疼)也是这个词。" },
-    { "id": "en.back_noun", "kind": "word", "pos": "noun", "text": "back", "zh": "背;后背", "features": { "ipa": "bæk" }, "noteZh": "身体部位的 back 是名词:My back hurts.(我背疼);a 读 /æ/,词尾 ck 收住。" },
-    { "id": "en.neck", "kind": "word", "pos": "noun", "text": "neck", "zh": "脖子", "features": { "ipa": "nek" }, "noteZh": "e 读 /e/,嘴别张太大;词尾 ck 读 /k/ 收住,不加元音。" },
-    { "id": "en.shoulder", "kind": "word", "pos": "noun", "text": "shoulder", "zh": "肩膀", "features": { "ipa": "ˈʃoʊldɚ" }, "noteZh": "sh 读 /ʃ/,ou 读 /oʊ/;重音在前 SHOUL-der,美式结尾卷舌。" },
-    { "id": "en.stomach", "kind": "word", "pos": "noun", "text": "stomach", "zh": "肚子;胃", "features": { "ipa": "ˈstʌmək" }, "noteZh": "ch 读 /k/;重音在前 STOM-ach,o 读 /ʌ/;肚子疼可以说 My stomach hurts.。" },
-    { "id": "en.finger", "kind": "word", "pos": "noun", "text": "finger", "zh": "手指", "features": { "ipa": "ˈfɪŋɡɚ" }, "noteZh": "ng 读 /ŋɡ/,g 要发出来:FIN-ger;手指是 finger,脚趾是 toe。" },
-    { "id": "en.stretch", "kind": "word", "pos": "verb", "text": "stretch", "zh": "拉伸;伸展", "features": { "ipa": "stretʃ" }, "noteZh": "运动前后都要拉伸:Stretch first.;str 三个辅音连在一起,中间不加元音,结尾 tch 读 /tʃ/。" },
-    { "id": "en.normal", "kind": "word", "pos": "adj", "text": "normal", "zh": "正常的", "features": { "ipa": "ˈnɔːrməl" }, "noteZh": "That's normal. 这很正常;重音在前 NOR-mal,美式 or 卷舌,结尾的 l 舌尖顶住上齿龈。" }
+    {"id":"en.hurt","kind":"word","pos":"verb","text":"hurt","zh":"疼;弄疼","features":{"ipa":"hɝːt"},"noteZh":"主语是疼的部位:My leg hurts.(我腿疼);复数用 hurt:My legs hurt.;过去式也是 hurt。hurt /hɝːt/ 要卷舌,别和 heart /hɑːrt/(心脏)混。"},
+    {"id":"en.sore","kind":"word","pos":"adj","text":"sore","zh":"(肌肉)酸痛的","features":{"ipa":"sɔːr"},"noteZh":"运动后肌肉酸痛说 My arms are sore.;第 8 单元的 sore throat(嗓子疼)也是这个词。"},
+    {"id":"en.back_noun","kind":"word","pos":"noun","text":"back","zh":"背;后背","features":{"ipa":"bæk"},"noteZh":"身体部位的 back 是名词:My back hurts.(我背疼);a 读 /æ/,词尾 ck 收住。"},
+    {"id":"en.neck","kind":"word","pos":"noun","text":"neck","zh":"脖子","features":{"ipa":"nek"},"noteZh":"e 读 /e/,嘴别张太大;词尾 ck 读 /k/ 收住,不加元音。"},
+    {"id":"en.shoulder","kind":"word","pos":"noun","text":"shoulder","zh":"肩膀","features":{"ipa":"ˈʃoʊldɚ"},"noteZh":"sh 读 /ʃ/,ou 读 /oʊ/;重音在前 SHOUL-der,美式结尾卷舌。"},
+    {"id":"en.stomach","kind":"word","pos":"noun","text":"stomach","zh":"肚子;胃","features":{"ipa":"ˈstʌmək"},"noteZh":"ch 读 /k/;重音在前 STOM-ach,o 读 /ʌ/;肚子疼可以说 My stomach hurts.。"},
+    {"id":"en.finger","kind":"word","pos":"noun","text":"finger","zh":"手指","features":{"ipa":"ˈfɪŋɡɚ"},"noteZh":"ng 读 /ŋɡ/,g 要发出来:FIN-ger;手指是 finger,脚趾是 toe。"},
+    {"id":"en.stretch","kind":"word","pos":"verb","text":"stretch","zh":"拉伸;伸展","features":{"ipa":"stretʃ"},"noteZh":"运动前后都要拉伸:Stretch first.;str 三个辅音连在一起,中间不加元音,结尾 tch 读 /tʃ/。"},
+    {"id":"en.normal","kind":"word","pos":"adj","text":"normal","zh":"正常的","features":{"ipa":"ˈnɔːrməl"},"noteZh":"That's normal. 这很正常;重音在前 NOR-mal,美式 or 卷舌,结尾的 l 舌尖顶住上齿龈。"}
    ],
-   "reviewItems": ["en.whats_wrong_with_it", "en.after", "en.friday", "en.get_better", "en.no_way", "en.work_out"]
+   "reviewItems": ["en.whats_wrong_with_it","en.after","en.friday","en.get_better","en.no_way","en.work_out"]
   },
   {
    "id": "en.a1u18.l03", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-18 Game on", "order": 118030,
    "titleZh": "慢慢地踢腿",
    "goalZh": "会用方式副词说一件事做得怎么样(快、慢、认真、好),听懂别人对动作的指导",
    "canDoZh": "能说出别人做某件事做得怎么样(快、慢、认真、好),听懂别人对自己动作的指导",
-   "scenarioZh": "伊森兑现上学期的承诺,在学校健身房的室内泳池教磊游泳(课文里不出现 pool 一词):Kick your legs slowly. Breathe slowly, too. Don't kick so quickly.;磊问 Is this OK? I'm so slow!,伊森说 Slow is OK! You're doing really well. You learn fast.;伊森说自己游得快是因为练得很努力。一个小时后,磊能从这头游到那头了。",
+   "scenarioZh": "伊森兑现上学期的承诺,在学校健身房的室内泳池教磊游泳(课文里不出现 pool 一词):Kick your legs slowly. And breathe slowly. Don't kick so quickly!;磊问 Is this OK? I'm so slow!,伊森说 Slow is OK! You're doing really well. You learn fast.;伊森说自己游得快是因为练得很努力。一个小时后,磊能从这头游到那头了。",
    "grammarFocusZh": "方式副词:形容词 + -ly(slow → slowly、quick → quickly、careful → carefully);特殊的 good → well、fast → fast、hard → hard(work hard);副词放在动词或宾语后面(He swims well. Sofia speaks English slowly.);形容词和副词对比(I'm slow. / Kick slowly.)。发音:-ly 副词的重音留在词根上(QUICKly、CAREfully)。",
-   "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+   "skills": ["listen","speak","write"], "estimatedMinutes": 26.5,
    "newItems": [
-    { "id": "en.lesson", "kind": "word", "pos": "noun", "text": "lesson", "zh": "(一节)课;课程", "features": { "ipa": "ˈlesən" }, "noteZh": "a swimming lesson 一节游泳课;class 多指学校的课,lesson 常指学一门技能的课;读 /ˈlesən/,o 弱读。" },
-    { "id": "en.kick", "kind": "word", "pos": "verb", "text": "kick", "zh": "踢;(游泳)打腿", "features": { "ipa": "kɪk" }, "noteZh": "i 读短音 /ɪ/;词尾 ck 收住,不要读成“kick-ke”。" },
-    { "id": "en.slow", "kind": "word", "pos": "adj", "text": "slow", "zh": "慢的", "features": { "ipa": "sloʊ" }, "noteZh": "形容词,说人或东西“慢”:I'm so slow!;说“慢慢地做”要用副词 slowly。" },
-    { "id": "en.slowly", "kind": "word", "pos": "adv", "text": "slowly", "zh": "慢慢地", "features": { "ipa": "ˈsloʊli" }, "noteZh": "slow + -ly,修饰动词:Kick slowly.;重音留在词根 SLOW-ly。" },
-    { "id": "en.breathe", "kind": "word", "pos": "verb", "text": "breathe", "zh": "呼吸", "features": { "ipa": "briːð" }, "noteZh": "动词 breathe /briːð/ 结尾是浊音 th,舌尖放在齿间、声带振动;名词 breath /breθ/(一口气)读音不一样。" },
-    { "id": "en.quickly", "kind": "word", "pos": "adv", "text": "quickly", "zh": "快速地;很快地", "features": { "ipa": "ˈkwɪkli" }, "noteZh": "quick + -ly;qu 读 /kw/,嘴唇先收圆;重音在 QUICK-ly。" },
-    { "id": "en.fast", "kind": "word", "pos": "adj", "text": "fast", "zh": "快的;快地", "features": { "ipa": "fæst" }, "noteZh": "fast 既是形容词也是副词,不说 fastly:Ethan is fast. He swims fast.;美式 a 读 /æ/。" },
-    { "id": "en.work_hard", "kind": "phrase", "pos": "verb", "text": "work hard", "zh": "努力;用功;拼命练", "features": { "ipa": "ˌwɝːk ˈhɑːrd" }, "noteZh": "这里的 hard 是副词“努力地”,不加 -ly(hardly 是“几乎不”,意思完全不同):I work hard.。" },
-    { "id": "en.carefully", "kind": "word", "pos": "adv", "text": "carefully", "zh": "仔细地;小心地", "features": { "ipa": "ˈkerfəli" }, "noteZh": "careful + -ly;重音在 CARE-ful-ly,中间的 ful 弱读,很快带过。" }
+    {"id":"en.lesson","kind":"word","pos":"noun","text":"lesson","zh":"(一节)课;课程","features":{"ipa":"ˈlesən"},"noteZh":"a swimming lesson 一节游泳课;class 多指学校的课,lesson 常指学一门技能的课;读 /ˈlesən/,o 弱读。"},
+    {"id":"en.kick","kind":"word","pos":"verb","text":"kick","zh":"踢;(游泳)打腿","features":{"ipa":"kɪk"},"noteZh":"i 读短音 /ɪ/;词尾 ck 收住,不要读成“kick-ke”。"},
+    {"id":"en.slow","kind":"word","pos":"adj","text":"slow","zh":"慢的","features":{"ipa":"sloʊ"},"noteZh":"形容词,说人或东西“慢”:I'm so slow!;说“慢慢地做”要用副词 slowly。"},
+    {"id":"en.slowly","kind":"word","pos":"adv","text":"slowly","zh":"慢慢地","features":{"ipa":"ˈsloʊli"},"noteZh":"slow + -ly,修饰动词:Kick slowly.;重音留在词根 SLOW-ly。"},
+    {"id":"en.breathe","kind":"word","pos":"verb","text":"breathe","zh":"呼吸","features":{"ipa":"briːð"},"noteZh":"动词 breathe /briːð/ 结尾是浊音 th,舌尖放在齿间、声带振动;名词 breath /breθ/(一口气)读音不一样。"},
+    {"id":"en.quickly","kind":"word","pos":"adv","text":"quickly","zh":"快速地;很快地","features":{"ipa":"ˈkwɪkli"},"noteZh":"quick + -ly;qu 读 /kw/,嘴唇先收圆;重音在 QUICK-ly。"},
+    {"id":"en.fast","kind":"word","pos":"adj","text":"fast","zh":"快的;快地","features":{"ipa":"fæst"},"noteZh":"fast 既是形容词也是副词,不说 fastly:Ethan is fast. He swims fast.;美式 a 读 /æ/。"},
+    {"id":"en.work_hard","kind":"phrase","pos":"verb","text":"work hard","zh":"努力;用功;拼命练","features":{"ipa":"ˌwɝːk ˈhɑːrd"},"noteZh":"这里的 hard 是副词“努力地”,不加 -ly(hardly 是“几乎不”,意思完全不同):I work hard.。"},
+    {"id":"en.carefully","kind":"word","pos":"adv","text":"carefully","zh":"仔细地;小心地","features":{"ipa":"ˈkerfəli"},"noteZh":"careful + -ly;重音在 CARE-ful-ly,中间的 ful 弱读,很快带过。"}
    ],
-   "reviewItems": ["en.swim", "en.well", "en.learn", "en.so", "en.good_job"]
+   "reviewItems": ["en.swim","en.well","en.learn","en.so","en.good_job"]
   },
   {
    "id": "en.a1u18.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-18 Game on", "order": 118040,
    "titleZh": "加入校内篮球队",
-   "goalZh": "会报名参加一项运动,问清楚比赛和训练时间、要带什么,用 play / go / do 说自己做什么运动",
+   "goalZh": "会报名参加一项运动,问清楚比赛时间、要带什么,用 play / go / do 说自己做什么运动",
    "canDoZh": "能报名参加一项运动,问清楚比赛时间和要带什么",
-   "scenarioZh": "伊森和磊去学校健身房报名校内篮球赛。工作人员(staff)说每队要五个人,周六比赛,周二、周四晚上 8 点可以在这个球场打;要带篮球鞋,全队穿同一种颜色的 T 恤。工作人员问 How often do you play?,磊说每周两三次,还爱跑步;他们还差人,伊森马上想到马库斯;最后伊森给队伍起名 International Dragons。",
+   "scenarioZh": "伊森和磊去学校健身房报名校内篮球赛。工作人员(staff)解释校内赛就是学生自己组队、在这个球场打,周六比赛,每队要五个人;他们只有两个人,伊森马上想到马库斯和宿舍楼的两个哥们儿。磊问要带什么——篮球鞋和全队同一种颜色的 T 恤,球健身房有。工作人员问 What sports do you play? How often?,磊说每周打两三次篮球,还去跑步,伊森踢足球、和磊一起游泳;最后伊森给队伍起名 International Dragons。",
    "grammarFocusZh": "运动的搭配:play + 球类(play basketball / soccer),go + -ing(go swimming / go running),do + 其他(do yoga);复习 How often…?。发音:basketball 重音在第一个音节 BAS-ket-ball,词尾 ball 的 l 是“暗 L”,舌尖抬起。",
-   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+   "skills": ["listen","speak","read"], "estimatedMinutes": 28,
    "newItems": [
-    { "id": "en.team", "kind": "word", "pos": "noun", "text": "team", "zh": "队;团队", "features": { "ipa": "tiːm" }, "noteZh": "ea 读长音 /iː/;a basketball team 一支篮球队;Our team needs five players.。" },
-    { "id": "en.player", "kind": "word", "pos": "noun", "text": "player", "zh": "队员;选手", "features": { "ipa": "ˈpleɪɚ" }, "noteZh": "play + -er = 打球的人;a basketball player 篮球运动员;美式结尾卷舌。" },
-    { "id": "en.sport", "kind": "word", "pos": "noun", "text": "sport", "zh": "体育运动;运动项目", "features": { "ipa": "spɔːrt" }, "noteZh": "What sports do you play? 你做什么运动?;sp 之间不加元音,美式 or 卷舌。" },
-    { "id": "en.ball", "kind": "word", "pos": "noun", "text": "ball", "zh": "球", "features": { "ipa": "bɑːl" }, "noteZh": "美式读 /bɑːl/,嘴张大;结尾是“暗 L”,舌尖抬起顶住上齿龈,不要读成“波”。" },
-    { "id": "en.court", "kind": "word", "pos": "noun", "text": "court", "zh": "(篮球、网球等的)场地", "features": { "ipa": "kɔːrt" }, "noteZh": "a basketball court 篮球场;足球场说 field;ou 读 /ɔːr/,美式要卷舌。" },
-    { "id": "en.dragon", "kind": "word", "pos": "noun", "text": "dragon", "zh": "龙", "features": { "ipa": "ˈdræɡən" }, "noteZh": "中国的龙是吉祥的象征,西方传说里的 dragon 常是会喷火的怪兽;dr 连在一起,像“拽”的声母。" },
-    { "id": "en.do_yoga", "kind": "phrase", "pos": "verb", "text": "do yoga", "zh": "做瑜伽", "features": { "ipa": "ˌduː ˈjoʊɡə" }, "noteZh": "瑜伽用 do,不用 play:I do yoga.;yoga 读 /ˈjoʊɡə/,开头是 /j/。" },
-    { "id": "en.intramural", "kind": "word", "pos": "adj", "text": "intramural", "zh": "校内(各队之间)的", "features": { "ipa": "ˌɪntrəˈmjʊrəl" }, "noteZh": "美国大学里学生自己组队、在校内比赛,叫 intramural sports(常简称 IM);重音在 -MU-:in-tra-MU-ral。" }
+    {"id":"en.team","kind":"word","pos":"noun","text":"team","zh":"队;团队","features":{"ipa":"tiːm"},"noteZh":"ea 读长音 /iː/;a basketball team 一支篮球队;Our team needs five players.。"},
+    {"id":"en.player","kind":"word","pos":"noun","text":"player","zh":"队员;选手","features":{"ipa":"ˈpleɪɚ"},"noteZh":"play + -er = 打球的人;a basketball player 篮球运动员;美式结尾卷舌。"},
+    {"id":"en.sport","kind":"word","pos":"noun","text":"sport","zh":"体育运动;运动项目","features":{"ipa":"spɔːrt"},"noteZh":"What sports do you play? 你做什么运动?;sp 之间不加元音,美式 or 卷舌。"},
+    {"id":"en.ball","kind":"word","pos":"noun","text":"ball","zh":"球","features":{"ipa":"bɑːl"},"noteZh":"美式读 /bɑːl/,嘴张大;结尾是“暗 L”,舌尖抬起顶住上齿龈,不要读成“波”。"},
+    {"id":"en.court","kind":"word","pos":"noun","text":"court","zh":"(篮球、网球等的)场地","features":{"ipa":"kɔːrt"},"noteZh":"a basketball court 篮球场;足球场说 field;ou 读 /ɔːr/,美式要卷舌。"},
+    {"id":"en.dragon","kind":"word","pos":"noun","text":"dragon","zh":"龙","features":{"ipa":"ˈdræɡən"},"noteZh":"中国的龙是吉祥的象征,西方传说里的 dragon 常是会喷火的怪兽;dr 连在一起,像“拽”的声母。"},
+    {"id":"en.do_yoga","kind":"phrase","pos":"verb","text":"do yoga","zh":"做瑜伽","features":{"ipa":"ˌduː ˈjoʊɡə"},"noteZh":"瑜伽用 do,不用 play:I do yoga.;yoga 读 /ˈjoʊɡə/,开头是 /j/。"},
+    {"id":"en.intramural","kind":"word","pos":"adj","text":"intramural","zh":"校内(各队之间)的","features":{"ipa":"ˌɪntrəˈmjʊrəl"},"noteZh":"美国大学里学生自己组队、在校内比赛,叫 intramural sports(常简称 IM);重音在 -MU-:in-tra-MU-ral。"}
    ],
-   "reviewItems": ["en.sign_up", "en.basketball", "en.how_often", "en.bring", "en.soccer"]
+   "reviewItems": ["en.sign_up","en.basketball","en.how_often","en.bring","en.soccer"]
   },
   {
    "id": "en.a1u18.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-18 Game on", "order": 118045,
@@ -96,13 +96,13 @@
    "canDoZh": "能看懂健身中心的课程表和游泳须知,选一节合适的课",
    "scenarioZh": "体裁:课程表 + 须知(贴在学校健身房门口)。说话人 narrator。课程表:周一早上 7 点瑜伽,周二、周四晚上 6–7 点初级游泳课,周三中午跑步俱乐部(在健身房门口集合),周五下午打篮球;所有课对学生免费,游泳课在健身房办公室报名。游泳须知:先冲澡,不准跑、不准跳,没有救生员不能下水,不能把吃的喝的带进水里。12 行。",
    "grammarFocusZh": "复习 play / go / do + 运动、时间的读法和告示里的祈使句(No running. Take a shower first.);理解题考“磊周四晚上能上什么课”。",
-   "skills": ["read", "listen", "speak"], "estimatedMinutes": 15,
+   "skills": ["read","listen","speak"], "estimatedMinutes": 16,
    "newItems": [
-    { "id": "en.beginner", "kind": "word", "pos": "noun", "text": "beginner", "zh": "初学者;新手", "features": { "ipa": "bɪˈɡɪnɚ" }, "noteZh": "begin(开始)+ -ner,n 要双写;重音在第二个音节 be-GIN-ner;for beginners 给初学者的。" },
-    { "id": "en.lifeguard", "kind": "word", "pos": "noun", "text": "lifeguard", "zh": "救生员", "features": { "ipa": "ˈlaɪfɡɑːrd" }, "noteZh": "life(生命)+ guard(守卫),复合词重音在前 LIFE-guard;gu 读 /ɡ/,u 不发音。" },
-    { "id": "en.jump", "kind": "word", "pos": "verb", "text": "jump", "zh": "跳", "features": { "ipa": "dʒʌmp" }, "noteZh": "u 读 /ʌ/;告示上的 No jumping. 是“禁止跳(水)”,用 No + 动词-ing。" }
+    {"id":"en.beginner","kind":"word","pos":"noun","text":"beginner","zh":"初学者;新手","features":{"ipa":"bɪˈɡɪnɚ"},"noteZh":"begin(开始)+ -ner,n 要双写;重音在第二个音节 be-GIN-ner;for beginners 给初学者的。"},
+    {"id":"en.lifeguard","kind":"word","pos":"noun","text":"lifeguard","zh":"救生员","features":{"ipa":"ˈlaɪfɡɑːrd"},"noteZh":"life(生命)+ guard(守卫),复合词重音在前 LIFE-guard;gu 读 /ɡ/,u 不发音。"},
+    {"id":"en.jump","kind":"word","pos":"verb","text":"jump","zh":"跳","features":{"ipa":"dʒʌmp"},"noteZh":"u 读 /ʌ/;告示上的 No jumping. 是“禁止跳(水)”,用 No + 动词-ing。"}
    ],
-   "reviewItems": ["en.gym", "en.club", "en.take_a_shower", "en.office", "en.bring"]
+   "reviewItems": ["en.gym","en.club","en.take_a_shower","en.office","en.bring"]
   },
   {
    "id": "en.a1u18.l05", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-18 Game on", "order": 118050,
@@ -111,20 +111,20 @@
    "canDoZh": "能说清楚一条跑步或散步的路线:沿着哪儿、穿过哪儿、上坡还是下坡",
    "scenarioZh": "索菲亚约磊周日早上去跑步(她每个周日都绕着湖跑)。她说路线:First, we run along the lake. Then we go across the bridge and through the trees. Then we run up the hill, past the bus stop, and down the hill into the cafe.;磊在上坡时跑不动了,索菲亚在坡上等他,两人最后走进咖啡店喝咖啡。",
    "grammarFocusZh": "运动方向介词:along、across、through、around、up、down、past、into;go / run / walk + 方向介词;和第 5 单元的方位介词(next to、across from、in front of)区分:一个说位置,一个说路线。发音:through /θruː/ 开头的 thr,先咬舌再卷舌。",
-   "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+   "skills": ["listen","speak","write"], "estimatedMinutes": 27.5,
    "newItems": [
-    { "id": "en.along", "kind": "word", "pos": "prep", "text": "along", "zh": "沿着", "features": { "ipa": "əˈlɑːŋ" }, "noteZh": "run along the lake 沿着湖跑;重音在后 a-LONG,美式 o 读 /ɑː/,结尾 ng 读 /ŋ/。" },
-    { "id": "en.across", "kind": "word", "pos": "prep", "text": "across", "zh": "横过;从一边到另一边", "features": { "ipa": "əˈkrɑːs" }, "noteZh": "go across the bridge 过桥;第 5 单元的 across from(在……对面)说位置,across 说路线。" },
-    { "id": "en.through", "kind": "word", "pos": "prep", "text": "through", "zh": "穿过;从……中间过", "features": { "ipa": "θruː" }, "noteZh": "through the trees 从树林中间穿过去;thr 先咬舌发 /θ/,马上卷舌发 r;gh 不发音。" },
-    { "id": "en.around", "kind": "word", "pos": "prep", "text": "around", "zh": "绕着;围着", "features": { "ipa": "əˈraʊnd" }, "noteZh": "run around the lake 绕着湖跑一圈;重音在后 a-ROUND,ou 读 /aʊ/。" },
-    { "id": "en.up", "kind": "word", "pos": "prep", "text": "up", "zh": "向上;往……上", "features": { "ipa": "ʌp" }, "noteZh": "run up the hill 跑上坡;u 读 /ʌ/,短而轻;和 down 是一对。" },
-    { "id": "en.down", "kind": "word", "pos": "prep", "text": "down", "zh": "向下;往……下", "features": { "ipa": "daʊn" }, "noteZh": "walk down the hill 走下坡;ow 读 /aʊ/,从 a 滑到 u,不要读成“当”。" },
-    { "id": "en.into", "kind": "word", "pos": "prep", "text": "into", "zh": "进入;到……里面", "features": { "ipa": "ˈɪntuː" }, "noteZh": "go into the cafe 走进咖啡店;in 说“在里面”(位置),into 说“进到里面”(动作)。" },
-    { "id": "en.bridge", "kind": "word", "pos": "noun", "text": "bridge", "zh": "桥", "features": { "ipa": "brɪdʒ" }, "noteZh": "西雅图湖多、桥也多;dge 读 /dʒ/,词尾不要加元音。" },
-    { "id": "en.hill", "kind": "word", "pos": "noun", "text": "hill", "zh": "小山;山坡", "features": { "ipa": "hɪl" }, "noteZh": "比 mountain 小;up the hill 上坡、down the hill 下坡;结尾是“暗 L”,舌尖抬起。" },
-    { "id": "en.tree", "kind": "word", "pos": "noun", "text": "tree", "zh": "树", "features": { "ipa": "triː" }, "noteZh": "tr 连在一起,像“戳”的声母再加卷舌;ee 读长音 /iː/。" }
+    {"id":"en.along","kind":"word","pos":"prep","text":"along","zh":"沿着","features":{"ipa":"əˈlɑːŋ"},"noteZh":"run along the lake 沿着湖跑;重音在后 a-LONG,美式 o 读 /ɑː/,结尾 ng 读 /ŋ/。"},
+    {"id":"en.across","kind":"word","pos":"prep","text":"across","zh":"横过;从一边到另一边","features":{"ipa":"əˈkrɑːs"},"noteZh":"go across the bridge 过桥;第 5 单元的 across from(在……对面)说位置,across 说路线。"},
+    {"id":"en.through","kind":"word","pos":"prep","text":"through","zh":"穿过;从……中间过","features":{"ipa":"θruː"},"noteZh":"through the trees 从树林中间穿过去;thr 先咬舌发 /θ/,马上卷舌发 r;gh 不发音。"},
+    {"id":"en.around","kind":"word","pos":"prep","text":"around","zh":"绕着;围着","features":{"ipa":"əˈraʊnd"},"noteZh":"run around the lake 绕着湖跑一圈;重音在后 a-ROUND,ou 读 /aʊ/。"},
+    {"id":"en.up","kind":"word","pos":"prep","text":"up","zh":"向上;往……上","features":{"ipa":"ʌp"},"noteZh":"run up the hill 跑上坡;u 读 /ʌ/,短而轻;和 down 是一对。"},
+    {"id":"en.down","kind":"word","pos":"prep","text":"down","zh":"向下;往……下","features":{"ipa":"daʊn"},"noteZh":"walk down the hill 走下坡;ow 读 /aʊ/,从 a 滑到 u,不要读成“当”。"},
+    {"id":"en.into","kind":"word","pos":"prep","text":"into","zh":"进入;到……里面","features":{"ipa":"ˈɪntuː"},"noteZh":"go into the cafe 走进咖啡店;in 说“在里面”(位置),into 说“进到里面”(动作)。"},
+    {"id":"en.bridge","kind":"word","pos":"noun","text":"bridge","zh":"桥","features":{"ipa":"brɪdʒ"},"noteZh":"西雅图湖多、桥也多;dge 读 /dʒ/,词尾不要加元音。"},
+    {"id":"en.hill","kind":"word","pos":"noun","text":"hill","zh":"小山;山坡","features":{"ipa":"hɪl"},"noteZh":"比 mountain 小;up the hill 上坡、down the hill 下坡;结尾是“暗 L”,舌尖抬起。"},
+    {"id":"en.tree","kind":"word","pos":"noun","text":"tree","zh":"树","features":{"ipa":"triː"},"noteZh":"tr 连在一起,像“戳”的声母再加卷舌;ee 读长音 /iː/。"}
    ],
-   "reviewItems": ["en.run", "en.lake", "en.past", "en.cafe", "en.wait"]
+   "reviewItems": ["en.run","en.lake","en.past","en.cafe","en.wait"]
   },
   {
    "id": "en.a1u18.l06", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-18 Game on", "order": 118060,
@@ -133,18 +133,18 @@
    "canDoZh": "能在雪场租装备、报尺码和身高,听懂教练的指令",
    "scenarioZh": "周六,马库斯开车带大家去山里滑雪。租装备时店员(clerk)问 Skis or a snowboard? What size shoes do you wear? How tall are you?,磊先说了 one seventy-five(厘米),马上改口 five nine(5 英尺 9 英寸);初学者课上教练(staff)喊:Bend your knees and lean forward. Ski slowly!。磊很害怕,摔了十次,最后慢慢滑到了坡底;伊森的单板滑得又快又好。",
    "grammarFocusZh": "复习方式副词(slowly、fast、well)和祈使句;美国用英尺和英寸说身高(5'9\" = five foot nine / five nine,约 175 厘米);What size shoes do you wear?(美国鞋码,中国 42 码约等于美国 9 码)。发音:身高的读法 five nine 中间不要加 and。",
-   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+   "skills": ["listen","speak","read"], "estimatedMinutes": 28,
    "newItems": [
-    { "id": "en.ski", "kind": "word", "pos": "verb", "text": "ski", "zh": "滑雪;(名词)滑雪板", "features": { "ipa": "skiː" }, "noteZh": "go skiing 去滑雪;租的雪板说 skis(一对);sk 之间不加元音,读 /skiː/。" },
-    { "id": "en.snowboard", "kind": "word", "pos": "noun", "text": "snowboard", "zh": "单板(滑雪板);滑单板", "features": { "ipa": "ˈsnoʊbɔːrd" }, "noteZh": "snow + board 复合词,重音在前 SNOW-board;也能当动词:He snowboards well.。" },
-    { "id": "en.lean", "kind": "word", "pos": "verb", "text": "lean", "zh": "(身体)倾斜;靠", "features": { "ipa": "liːn" }, "noteZh": "Lean forward. 身体往前倾;ea 读长音 /iː/,结尾 n 是前鼻音。" },
-    { "id": "en.forward", "kind": "word", "pos": "adv", "text": "forward", "zh": "向前", "features": { "ipa": "ˈfɔːrwɚd" }, "noteZh": "重音在前 FOR-ward,美式两个 r 都卷舌,第二个音节弱读。" },
-    { "id": "en.bend", "kind": "word", "pos": "verb", "text": "bend", "zh": "弯;弯曲(腰、膝)", "features": { "ipa": "bend" }, "noteZh": "Bend your knees. 屈膝;词尾 nd 收住,不要读成“本德”。" },
-    { "id": "en.fall_down", "kind": "phrase", "pos": "verb", "text": "fall down", "zh": "摔倒;跌倒", "features": { "ipa": "ˌfɑːl ˈdaʊn" }, "noteZh": "过去式是 fell down /fel/:I fell down ten times.;fall 美式读 /fɑːl/。" },
-    { "id": "en.bottom", "kind": "word", "pos": "noun", "text": "bottom", "zh": "底部;(坡)底", "features": { "ipa": "ˈbɑːt̬əm" }, "noteZh": "at the bottom of the hill 在坡底;美式两个元音之间的 t 读闪音,像轻轻的 d。" },
-    { "id": "en.scared", "kind": "word", "pos": "adj", "text": "scared", "zh": "害怕的", "features": { "ipa": "skerd" }, "noteZh": "scared 说人“害怕”,scary 说东西“吓人”(第 7 单元);-ed 不单独成音节,读 /skerd/。" }
+    {"id":"en.ski","kind":"word","pos":"verb","text":"ski","zh":"滑雪;(名词)滑雪板","features":{"ipa":"skiː"},"noteZh":"go skiing 去滑雪;租的雪板说 skis(一对);sk 之间不加元音,读 /skiː/。"},
+    {"id":"en.snowboard","kind":"word","pos":"noun","text":"snowboard","zh":"单板(滑雪板);滑单板","features":{"ipa":"ˈsnoʊbɔːrd"},"noteZh":"snow + board 复合词,重音在前 SNOW-board;也能当动词:He snowboards well.。"},
+    {"id":"en.lean","kind":"word","pos":"verb","text":"lean","zh":"(身体)倾斜;靠","features":{"ipa":"liːn"},"noteZh":"Lean forward. 身体往前倾;ea 读长音 /iː/,结尾 n 是前鼻音。"},
+    {"id":"en.forward","kind":"word","pos":"adv","text":"forward","zh":"向前","features":{"ipa":"ˈfɔːrwɚd"},"noteZh":"重音在前 FOR-ward,美式两个 r 都卷舌,第二个音节弱读。"},
+    {"id":"en.bend","kind":"word","pos":"verb","text":"bend","zh":"弯;弯曲(腰、膝)","features":{"ipa":"bend"},"noteZh":"Bend your knees. 屈膝;词尾 nd 收住,不要读成“本德”。"},
+    {"id":"en.fall_down","kind":"phrase","pos":"verb","text":"fall down","zh":"摔倒;跌倒","features":{"ipa":"ˌfɑːl ˈdaʊn"},"noteZh":"过去式是 fell down /fel/:I fell down ten times.;fall 美式读 /fɑːl/。"},
+    {"id":"en.bottom","kind":"word","pos":"noun","text":"bottom","zh":"底部;(坡)底","features":{"ipa":"ˈbɑːt̬əm"},"noteZh":"at the bottom of the hill 在坡底;美式两个元音之间的 t 读闪音,像轻轻的 d。"},
+    {"id":"en.scared","kind":"word","pos":"adj","text":"scared","zh":"害怕的","features":{"ipa":"skerd"},"noteZh":"scared 说人“害怕”,scary 说东西“吓人”(第 7 单元);-ed 不单独成音节,读 /skerd/。"}
    ],
-   "reviewItems": ["en.size", "en.shoes", "en.wear", "en.tall", "en.beginner", "en.mountain"]
+   "reviewItems": ["en.mountain","en.size","en.shoes","en.wear","en.tall","en.beginner"]
   },
   {
    "id": "en.a1u18.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-18 Game on", "order": 118070,
@@ -153,19 +153,19 @@
    "canDoZh": "能看比赛时问比分、说谁赢了,用常见的话给球队加油",
    "scenarioZh": "二月的一个周日是超级碗,宿舍休息室的大电视前挤满了人。伊森用最简单的话给磊和索菲亚讲美式橄榄球:一队扔球、跑,接住球一直跑到头就得六分;大家边吃披萨和炸鸡边看,磊问 Who's winning? — It's 24 to 21.;最后一分钟磊比伊森还激动,喊着 Come on!。比赛结束,伊森支持的队赢了。",
    "grammarFocusZh": "比分读法 24–21 = twenty-four to twenty-one;Who's winning?(现在进行时);win–won、beat–beat(We won! We beat them.),输是 lose–lost;加油用语 Come on! / Nice catch!。发音:won /wʌn/ 和 one 读音相同。",
-   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+   "skills": ["listen","speak","read"], "estimatedMinutes": 29.5,
    "newItems": [
-    { "id": "en.super_bowl", "kind": "phrase", "pos": "propn", "text": "Super Bowl", "zh": "超级碗(美式橄榄球总决赛)", "features": { "ipa": "ˌsuːpɚ ˈboʊl" }, "noteZh": "每年二月初的一个星期天,很多美国人聚在一起边吃边看;bowl 读 /boʊl/(碗),别和 ball /bɑːl/(球)混。" },
-    { "id": "en.win", "kind": "word", "pos": "verb", "text": "win", "zh": "赢;获胜", "features": { "ipa": "wɪn" }, "noteZh": "过去式 won,读 /wʌn/,和 one 一样;Who's winning? 现在谁领先?" },
-    { "id": "en.beat", "kind": "word", "pos": "verb", "text": "beat", "zh": "打败;赢(对手)", "features": { "ipa": "biːt" }, "noteZh": "win 后面跟比赛(win the game),beat 后面跟对手(beat them);过去式还是 beat。" },
-    { "id": "en.fan", "kind": "word", "pos": "noun", "text": "fan", "zh": "球迷;粉丝", "features": { "ipa": "fæn" }, "noteZh": "a big fan 铁杆粉丝;a 读 /æ/,嘴张大,别读成“饭”。" },
-    { "id": "en.catch", "kind": "word", "pos": "verb", "text": "catch", "zh": "接住;抓住", "features": { "ipa": "kætʃ" }, "noteZh": "过去式 caught /kɑːt/;Nice catch! 接得好!;a 读 /æ/,tch 读 /tʃ/。" },
-    { "id": "en.throw", "kind": "word", "pos": "verb", "text": "throw", "zh": "扔;投", "features": { "ipa": "θroʊ" }, "noteZh": "过去式 threw /θruː/;thr 先咬舌再卷舌,ow 读 /oʊ/。" },
-    { "id": "en.point", "kind": "word", "pos": "noun", "text": "point", "zh": "分;得分", "features": { "ipa": "pɔɪnt" }, "noteZh": "比赛的分数:six points 六分;oi 读 /ɔɪ/,结尾 nt 收住。" },
-    { "id": "en.come_on", "kind": "phrase", "pos": "interj", "text": "Come on", "zh": "快点!;加油!", "features": { "ipa": "ˌkʌm ˈɑːn" }, "noteZh": "看比赛给队伍加油、催别人快点都说 Come on!;重音在 on 上。中文的“加油”不要直译成 Add oil。" },
-    { "id": "en.tv", "kind": "word", "pos": "noun", "text": "TV", "zh": "电视", "features": { "ipa": "ˌtiːˈviː" }, "noteZh": "读两个字母 T-V,重音在后;watch TV 看电视(不加 the),on TV 在电视上。" }
+    {"id":"en.super_bowl","kind":"phrase","pos":"propn","text":"Super Bowl","zh":"超级碗(美式橄榄球总决赛)","features":{"ipa":"ˌsuːpɚ ˈboʊl"},"noteZh":"每年二月初的一个星期天,很多美国人聚在一起边吃边看;bowl 读 /boʊl/(碗),别和 ball /bɑːl/(球)混。"},
+    {"id":"en.win","kind":"word","pos":"verb","text":"win","zh":"赢;获胜","features":{"ipa":"wɪn"},"noteZh":"过去式 won,读 /wʌn/,和 one 一样;Who's winning? 现在谁领先?"},
+    {"id":"en.beat","kind":"word","pos":"verb","text":"beat","zh":"打败;赢(对手)","features":{"ipa":"biːt"},"noteZh":"win 后面跟比赛(win the game),beat 后面跟对手(beat them);过去式还是 beat。"},
+    {"id":"en.fan","kind":"word","pos":"noun","text":"fan","zh":"球迷;粉丝","features":{"ipa":"fæn"},"noteZh":"a big fan 铁杆粉丝;a 读 /æ/,嘴张大,别读成“饭”。"},
+    {"id":"en.catch","kind":"word","pos":"verb","text":"catch","zh":"接住;抓住","features":{"ipa":"kætʃ"},"noteZh":"过去式 caught /kɑːt/;Nice catch! 接得好!(这里是名词);a 读 /æ/,tch 读 /tʃ/。"},
+    {"id":"en.throw","kind":"word","pos":"verb","text":"throw","zh":"扔;投","features":{"ipa":"θroʊ"},"noteZh":"过去式 threw /θruː/;thr 先咬舌再卷舌,ow 读 /oʊ/。"},
+    {"id":"en.point","kind":"word","pos":"noun","text":"point","zh":"分;得分","features":{"ipa":"pɔɪnt"},"noteZh":"比赛的分数:six points 六分;oi 读 /ɔɪ/,结尾 nt 收住。"},
+    {"id":"en.come_on","kind":"phrase","pos":"interj","text":"Come on","zh":"快点!;加油!","features":{"ipa":"ˌkʌm ˈɑːn"},"noteZh":"看比赛给队伍加油、催别人快点都说 Come on!;重音在 on 上。中文的“加油”不要直译成 Add oil。"},
+    {"id":"en.tv","kind":"word","pos":"noun","text":"TV","zh":"电视","features":{"ipa":"ˌtiːˈviː"},"noteZh":"读两个字母 T-V,重音在后;watch TV 看电视(不加 the),on TV 在电视上。"}
    ],
-   "reviewItems": ["en.football", "en.watch", "en.game", "en.team", "en.ball", "en.minute"]
+   "reviewItems": ["en.football","en.watch","en.game","en.team","en.ball","en.minute"]
   },
   {
    "id": "en.a1u18.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-18 Game on", "order": 118080,
@@ -174,13 +174,13 @@
    "canDoZh": "能和队友交流比赛中的情况,赛后说说谁打得怎么样、自己哪儿受了点小伤",
    "scenarioZh": "International Dragons 的第一场比赛。赛前马库斯带大家拉伸;比赛中伊森喊 Throw it to me! Quickly!,马库斯投篮很准,磊防守很认真;中场磊的膝盖撞了一下,说 My knee hurts a little.,休息一会儿又上场;最后他们以 42 比 38 赢了,索菲亚和艾米在场边欢呼。14 句。",
    "grammarFocusZh": "复习方式副词、play / go / do、身体部位和 … hurts、比分读法和 won。发音:knee 的不发音字母,-ly 副词的重音。",
-   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+   "skills": ["listen","speak","read"], "estimatedMinutes": 24,
    "newItems": [
-    { "id": "en.shot", "kind": "word", "pos": "noun", "text": "shot", "zh": "(投篮、射门的)一投;一球", "features": { "ipa": "ʃɑːt" }, "noteZh": "Nice shot! 投得好!;美式 o 读 /ɑː/,词尾 t 收住。" },
-    { "id": "en.defense", "kind": "word", "pos": "noun", "text": "defense", "zh": "防守", "features": { "ipa": "dɪˈfens" }, "noteZh": "play defense 打防守;美式拼写 defense(英式 defence);球迷喊口号时常把重音放在前面:DEE-fense!" },
-    { "id": "en.teammate", "kind": "word", "pos": "noun", "text": "teammate", "zh": "队友", "features": { "ipa": "ˈtiːmmeɪt" }, "noteZh": "team + mate(伙伴);两个 m 连在一起,只发一个稍长的 /m/。" }
+    {"id":"en.shot","kind":"word","pos":"noun","text":"shot","zh":"(投篮、射门的)一投;一球","features":{"ipa":"ʃɑːt"},"noteZh":"Nice shot! 投得好!;美式 o 读 /ɑː/,词尾 t 收住。"},
+    {"id":"en.defense","kind":"word","pos":"noun","text":"defense","zh":"防守","features":{"ipa":"dɪˈfens"},"noteZh":"play defense 打防守;美式拼写 defense(英式 defence);球迷喊口号时常把重音放在前面:DEE-fense!"},
+    {"id":"en.teammate","kind":"word","pos":"noun","text":"teammate","zh":"队友","features":{"ipa":"ˈtiːmmeɪt"},"noteZh":"team + mate(伙伴);两个 m 连在一起,只发一个稍长的 /m/。"}
    ],
-   "reviewItems": ["en.stretch", "en.nervous", "en.knee", "en.win", "en.relax", "en.slowly"]
+   "reviewItems": ["en.stretch","en.nervous","en.knee","en.win","en.relax","en.slowly"]
   },
   {
    "id": "en.a1u18.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-18 Game on", "order": 118085,
@@ -189,11 +189,11 @@
    "canDoZh": "能读懂一篇简短的体育新闻,找出比分、谁表现最好、球员说了什么",
    "scenarioZh": "体裁:校报体育新闻。说话人 narrator。标题之后写:上周六,由国际学生和美国学生组成的 International Dragons 以 42 比 38 赢下第一场校内比赛;大一新生磊得了 12 分,防守也很好;伊森传球又快又好,大四的马库斯投进很多好球;赛后伊森和磊各说一句话;最后是下一场比赛的时间和地点(周六下午 3 点,学校健身房,免费观看)。12 句。",
    "grammarFocusZh": "一般过去时写比赛经过(They won 42 to 38.),方式副词描述表现(He played defense really well.);新闻里的引语用冒号和引号标出(Ethan: “We worked really hard.”)。",
-   "skills": ["read", "listen", "speak"], "estimatedMinutes": 15,
+   "skills": ["read","listen","speak"], "estimatedMinutes": 13.5,
    "newItems": [
-    { "id": "en.news", "kind": "word", "pos": "noun", "text": "news", "zh": "新闻;消息", "features": { "ipa": "nuːz" }, "noteZh": "news 是不可数名词,虽然有 s 也当单数用:The news is great.;美式读 /nuːz/,结尾 s 读 /z/。" }
+    {"id":"en.news","kind":"word","pos":"noun","text":"news","zh":"新闻;消息","features":{"ipa":"nuːz"},"noteZh":"news 是不可数名词,虽然有 s 也当单数用:The news is great.;美式读 /nuːz/,结尾 s 读 /z/。"}
    ],
-   "reviewItems": ["en.intramural", "en.point", "en.defense", "en.shot", "en.international_student", "en.senior"]
+   "reviewItems": ["en.intramural","en.point","en.defense","en.shot","en.international_student","en.senior"]
   }
  ]
 }

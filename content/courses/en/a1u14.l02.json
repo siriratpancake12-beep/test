@@ -1,0 +1,50 @@
+{
+  "id": "en.a1u14.l02", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-14 Phones & the internet", "order": 114020,
+  "titleZh": "手机里的英语", "goalZh": "会说手机和应用里常见的英文词,说出手机没电、该更新这类小问题", "canDoZh": "能看懂手机和应用里常见的英文提示,说出手机出了什么小问题",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.language", "kind": "word", "pos": "noun", "text": "language", "zh": "语言", "features": { "ipa": "ˈlæŋɡwɪdʒ" }, "noteZh": "My phone's language is English now. 我的手机语言是英文了;ng 后面还有 g 的音 /ŋɡw/,重音在前。" },
+    { "id": "en.settings", "kind": "word", "pos": "noun", "text": "Settings", "zh": "(手机、应用的)设置", "features": { "ipa": "ˈset̬ɪŋz" }, "noteZh": "手机里的“设置”一般用复数 Settings;t 读闪音,结尾 -ings 读 /ɪŋz/。" },
+    { "id": "en.update", "kind": "word", "pos": "noun", "text": "update", "zh": "更新", "features": { "ipa": "ˈʌpdeɪt" }, "noteZh": "There's a new update. 有新的更新;当名词重音在前 UP-date,当动词常读 up-DATE。" },
+    { "id": "en.download", "kind": "word", "pos": "verb", "text": "download", "zh": "下载", "features": { "ipa": "ˈdaʊnloʊd" }, "noteZh": "download the app 下载应用;ow 读 /aʊ/,oa 读 /oʊ/。上传是 upload。" },
+    { "id": "en.dead", "kind": "word", "pos": "adj", "text": "dead", "zh": "(手机)没电了;死的", "features": { "ipa": "ded" }, "noteZh": "My phone is dead. 我手机没电了(不是坏了),美国人口语天天说;ea 在这里读短音 /e/。" },
+    { "id": "en.charge", "kind": "word", "pos": "verb", "text": "charge", "zh": "充电", "features": { "ipa": "tʃɑːrdʒ" }, "noteZh": "charge my phone 给手机充电;It needs a charge. 该充电了(这里当名词)。ar 要卷舌,结尾 /dʒ/。" },
+    { "id": "en.app", "kind": "word", "pos": "noun", "text": "app", "zh": "应用;App", "features": { "ipa": "æp" }, "noteZh": "application 的简称,读成一个词 /æp/,不要读成 A-P-P;a 是 /æ/,嘴张大。" },
+    { "id": "en.selfie", "kind": "word", "pos": "noun", "text": "selfie", "zh": "自拍(照)", "features": { "ipa": "ˈselfi" }, "noteZh": "take a selfie 自拍一张;重音在前 SEL-fie。" }
+  ],
+  "reviewItems": ["en.phone", "en.screen", "en.charger", "en.video_call", "en.broken"],
+  "lines": [
+    { "speaker": "lei", "text": "Marcus, my phone's language is English now!", "zh": "(咖啡馆休息的时候)马库斯,我的手机现在是英文的了!", "items": ["en.phone", "en.language"] },
+    { "speaker": "marcus", "text": "Cool! Do you understand everything on the screen?", "zh": "酷!屏幕上的字你都看得懂吗?", "items": ["en.cool", "en.understand", "en.screen"] },
+    { "speaker": "lei", "text": "I did it in Settings. But what's this \"Update\"?", "zh": "我是在“设置”里改的。可这个 Update 是什么?", "items": ["en.settings", "en.update"] },
+    { "speaker": "marcus", "text": "There's a new update for your apps. Download it tonight.", "zh": "你的应用有新的更新。今晚下载吧。", "items": ["en.new", "en.update", "en.app", "en.download", "en.tonight"] },
+    { "speaker": "lei", "text": "OK… Oh no, my phone is dead!", "zh": "好……哎呀,我手机没电了!", "items": ["en.phone", "en.dead"] },
+    { "speaker": "marcus", "text": "Ha! It's not broken. It needs a charge.", "zh": "哈!又不是坏了,该充电了。", "items": ["en.broken", "en.need", "en.charge"] },
+    { "speaker": "lei", "text": "Can I charge it here?", "zh": "我能在这儿充电吗?", "items": ["en.can", "en.charge"] },
+    { "speaker": "marcus", "text": "Sure. Do you have your charger?", "zh": "可以。你带充电器了吗?", "items": ["en.sure", "en.have", "en.charger"] },
+    { "speaker": "lei", "text": "Yes, here it is. Let's take a selfie!", "zh": "带了,在这儿。我们来自拍一张吧!", "items": ["en.here_it_is", "en.lets", "en.take_pictures", "en.selfie"] },
+    { "speaker": "marcus", "text": "Ha! Your screen is so big. It's great for video calls.", "zh": "哈!你的屏幕真大,打视频肯定很爽。", "items": ["en.screen", "en.so", "en.big", "en.great", "en.video_call"] }
+  ],
+  "questions": [
+    { "prompt": "磊是在哪儿把手机语言改成英文的?", "options": ["Update(更新)", "Settings(设置)", "App(应用)"], "answer": 1, "explainZh": "磊说 I did it in Settings.(我是在“设置”里改的)。" },
+    { "prompt": "My phone is dead. 在这里是什么意思?", "options": ["手机没电了", "手机坏了", "手机太旧了"], "answer": 0, "explainZh": "马库斯说 It's not broken. It needs a charge.(不是坏了,是该充电了)。" },
+    { "prompt": "马库斯让磊什么时候下载更新?", "options": ["现在", "明天早上", "今晚"], "answer": 2, "explainZh": "马库斯说 There's a new update for your apps. Download it tonight.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u14_phone_words", "titleZh": "手机里的英语:Settings、update、download、app",
+      "bodyZh": "把手机语言改成英文,天天看就能记住这些词:Settings(设置,一般用复数)、update(更新:There's a new update.)、download(下载:Download it tonight.)、app(应用,读 /æp/,不要读成 A-P-P)、screen(屏幕)。英语里动词和名词常常同形:update 既是“更新”(名词),也能当动词;charge 是动词“充电”(charge my phone),在 It needs a charge. 里当名词;充电器是 charger。Wi-Fi 读 /ˈwaɪfaɪ/,两个 i 都读 /aɪ/。",
+      "examples": [
+        { "text": "There's a new update. Download it tonight.", "zh": "有新的更新,今晚下载吧。" },
+        { "text": "Can I charge my phone here?", "zh": "我能在这儿给手机充电吗?" },
+        { "text": "Do you have your charger?", "zh": "你带充电器了吗?" }
+      ] },
+    { "id": "en.g.u14_dead", "titleZh": "My phone is dead.:手机“死”了是没电了",
+      "bodyZh": "美国人说 My phone is dead. 意思是“我手机没电了”,不是手机坏了;坏了说 It's broken. 或 It doesn't work.(第 12 单元学过)。快没电了也可以说 My phone is dying.。别人常接一句 It needs a charge.(该充电了),或者问 Do you have a charger?。中文说的“死机”是另一回事,屏幕卡住不动英语说 frozen(这个单元第 5 课会学)。",
+      "examples": [
+        { "text": "My phone is dead. — It needs a charge.", "zh": "我手机没电了。——该充电了。" },
+        { "text": "It's not broken.", "zh": "它没坏。" }
+      ] }
+  ],
+  "review": "draft"
+}

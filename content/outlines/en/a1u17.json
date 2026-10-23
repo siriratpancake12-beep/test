@@ -1,0 +1,190 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-17 Let's cook", "cefr": "A1", "themeZh": "春节前后学做饭:认识厨房用品、去亚洲超市买食材、按奶奶的菜谱算用量、包饺子、吃年夜饭、描述味道、参加百家宴,和索菲亚拍做饭节目" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u17.l01", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117010,
+      "titleZh": "厨房里有什么?", "goalZh": "会说常用的厨具和做饭的动作,用 have / don't have 说厨房里有什么",
+      "canDoZh": "能说出常用的厨具和做饭的动作,看看厨房里缺什么",
+      "scenarioZh": "春节快到了,磊想给朋友们做一顿年夜饭。他和索菲亚去楼层的公共厨房清点东西:有锅、平底锅、刀、砧板、碗、盘子、勺子,筷子磊房间里有;就是没有炒锅——磊说中国菜离不开它,索菲亚说她房间里有一个。两人顺便说好要做的事:用锅烧水,用炒锅炒菜,在砧板上切菜,在碗里拌。",
+      "grammarFocusZh": "厨具词 pot(复习)、pan、wok、knife、cutting board、bowl、plate、spoon、chopsticks;做饭动词 boil、fry,复习 cut、mix;复习 have / don't have 和可数名词复数(knife → knives)。发音:/ʊ/ 和 /uː/——cook、good 短而松,food、spoon 长而紧,嘴唇更圆。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.pan", "kind": "word", "pos": "noun", "text": "pan", "zh": "平底锅", "features": { "ipa": "pæn" }, "noteZh": "煎鸡蛋用 pan,煮汤用 pot;a 读 /æ/,和 pen(笔)要分清。" },
+        { "id": "en.wok", "kind": "word", "pos": "noun", "text": "wok", "zh": "炒锅", "features": { "ipa": "wɑːk" }, "noteZh": "来自粤语\"镬\",英语里专指中式炒锅;美式读 /wɑːk/,和 walk 很像。" },
+        { "id": "en.knife", "kind": "word", "pos": "noun", "text": "knife", "zh": "刀", "features": { "ipa": "naɪf" }, "noteZh": "开头的 k 不发音;复数 knives(f 变 v 加 es)。" },
+        { "id": "en.cutting_board", "kind": "phrase", "pos": "noun", "text": "cutting board", "zh": "砧板;切菜板", "features": { "ipa": "ˈkʌt̬ɪŋ ˌbɔːrd" }, "noteZh": "cutting 的 tt 读闪音;复合词重音在前 CUT-ting board。" },
+        { "id": "en.bowl", "kind": "word", "pos": "noun", "text": "bowl", "zh": "碗", "features": { "ipa": "boʊl" }, "noteZh": "ow 读 /oʊ/,结尾 l 舌尖抬起;a bowl of rice 一碗饭。" },
+        { "id": "en.plate", "kind": "word", "pos": "noun", "text": "plate", "zh": "盘子", "features": { "ipa": "pleɪt" }, "noteZh": "装菜、吃饭的平盘子;词尾 t 轻轻收住。" },
+        { "id": "en.spoon", "kind": "word", "pos": "noun", "text": "spoon", "zh": "勺子", "features": { "ipa": "spuːn" }, "noteZh": "oo 是长音 /uː/,嘴唇收圆往前,别读成短促的 \"spun\"。" },
+        { "id": "en.chopsticks", "kind": "word", "pos": "noun", "text": "chopsticks", "zh": "筷子", "features": { "ipa": "ˈtʃɑːpstɪks" }, "noteZh": "一般用复数;一双筷子:a pair of chopsticks(第 6 单元学过 a pair of)。" },
+        { "id": "en.boil", "kind": "word", "pos": "verb", "text": "boil", "zh": "煮;(水)烧开", "features": { "ipa": "bɔɪl" }, "noteZh": "boil water 烧水,boil dumplings 煮饺子;oi 读 /ɔɪ/。" },
+        { "id": "en.fry", "kind": "word", "pos": "verb", "text": "fry", "zh": "炒;煎;炸", "features": { "ipa": "fraɪ" }, "noteZh": "中文的炒、煎、炸,英语常都用 fry;炒菜也可以说 stir-fry。fries(薯条)就是\"炸过的\"。" }
+      ],
+      "reviewItems": ["en.chinese_new_year", "en.kitchen", "en.pot", "en.cut", "en.mix", "en.vegetable"]
+    },
+    {
+      "id": "en.a1u17.l02", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117020,
+      "titleZh": "去亚洲超市", "goalZh": "会说常见的中餐食材,在超市问店员东西在哪儿",
+      "canDoZh": "能在超市找到要买的食材,问店员东西在哪儿,并向朋友解释这些食材",
+      "scenarioZh": "磊、索菲亚和艾米去国际区的一家亚洲超市。磊一边买一边给艾米解释:豆腐、酱油、葱、姜、蒜、花椒;艾米尝了一粒花椒:It's so strong!。饺子皮找不到,磊问店员(clerk)Where can I find dumpling wrappers?,店员说在 7 号过道的冷冻柜里,他们买了两包。",
+      "grammarFocusZh": "复习可数和不可数名词(some tofu、two packs of dumpling wrappers、some green onions)和 some / any;Where can I find…?(find 第 12 单元);复习第 6 单元的量词。发音:garlic /ˈɡɑːrlɪk/ 要卷舌;ginger 开头和中间都是 /dʒ/。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.tofu", "kind": "word", "pos": "noun", "text": "tofu", "zh": "豆腐", "features": { "ipa": "ˈtoʊfuː" }, "noteZh": "不可数,不加 a;重音在前 TO-fu。美国超市里很常见,很多素食者爱吃。" },
+        { "id": "en.soy_sauce", "kind": "phrase", "pos": "noun", "text": "soy sauce", "zh": "酱油", "features": { "ipa": "ˌsɔɪ ˈsɑːs" }, "noteZh": "不可数:a bottle of soy sauce 一瓶酱油;sauce 读 /sɑːs/。" },
+        { "id": "en.dumpling", "kind": "word", "pos": "noun", "text": "dumpling", "zh": "饺子", "features": { "ipa": "ˈdʌmplɪŋ" }, "noteZh": "u 读 /ʌ/,结尾 -ling 是后鼻音 /ŋ/;饺子、包子、馄饨在英语里都可以叫 dumpling。" },
+        { "id": "en.green_onion", "kind": "phrase", "pos": "noun", "text": "green onion", "zh": "葱", "features": { "ipa": "ˌɡriːn ˈʌnjən" }, "noteZh": "onion 单独说是洋葱,葱要说 green onion;onion 的 o 读 /ʌ/。" },
+        { "id": "en.ginger", "kind": "word", "pos": "noun", "text": "ginger", "zh": "姜", "features": { "ipa": "ˈdʒɪndʒɚ" }, "noteZh": "两个 g 都读 /dʒ/,结尾卷舌 /ɚ/;做调料时不可数。" },
+        { "id": "en.garlic", "kind": "word", "pos": "noun", "text": "garlic", "zh": "蒜", "features": { "ipa": "ˈɡɑːrlɪk" }, "noteZh": "ar 要卷舌,别读成\"嘎里克\";不可数。" },
+        { "id": "en.sichuan_pepper", "kind": "phrase", "pos": "noun", "text": "Sichuan pepper", "zh": "花椒", "features": { "ipa": "ˈsetʃwɑːn ˌpepɚ" }, "noteZh": "美国人读 Sichuan 常读成 \"SETCH-wahn\";花椒的\"麻\"英语里没有对应的词,可以说 It makes your mouth numb.。" },
+        { "id": "en.strong", "kind": "word", "pos": "adj", "text": "strong", "zh": "(味道)浓的;冲的;强壮的", "features": { "ipa": "strɑːŋ" }, "noteZh": "It's so strong! 味儿真冲!;str 中间不加元音,结尾是后鼻音 /ŋ/。" },
+        { "id": "en.dumpling_wrapper", "kind": "phrase", "pos": "noun", "text": "dumpling wrapper", "zh": "饺子皮", "features": { "ipa": "ˈdʌmplɪŋ ˌræpɚ" }, "noteZh": "wrapper 开头的 w 不发音;美国的亚洲超市一般放在冷冻柜里。" },
+        { "id": "en.freezer", "kind": "word", "pos": "noun", "text": "freezer", "zh": "冷冻柜;冰箱冷冻室", "features": { "ipa": "ˈfriːzɚ" }, "noteZh": "in the freezer 在冷冻柜里;冰箱是 fridge(第 16 单元),冷冻的那一格是 freezer。" }
+      ],
+      "reviewItems": ["en.store", "en.bottle", "en.find", "en.aisle", "en.pack", "en.try"]
+    },
+    {
+      "id": "en.a1u17.l03", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117030,
+      "titleZh": "要多少面粉?", "goalZh": "会用 How much / How many 问用量,用 a cup of、a spoonful of、a pound of 说用量",
+      "canDoZh": "能问清楚做菜要用多少、用几个,把中文菜谱的用量换成美国常用的单位",
+      "scenarioZh": "奶奶在视频通话里教磊做饺子馅(奶奶说中文,不安排台词),磊一边听一边翻译给索菲亚。索菲亚问 How much flour do we need?,磊说大约四杯;How much pork? — 一磅;How many green onions? — Not many. Only three.;还有半棵白菜和两勺酱油。磊说中国用克不用磅,最后笑着转述奶奶的话:还要加很多爱。",
+      "grammarFocusZh": "much 用于不可数名词,many 用于可数名词,多用在否定和疑问里(not much、How many…?);肯定句常用 a lot of;量词 a cup of、a spoonful of、a pound of。How much is it? 问价钱(第 4 单元),How much flour? 问数量。发音:much /mʌtʃ/ 的 /ʌ/;pound /paʊnd/ 的双元音要滑完整;recipe 读 /ˈresəpi/,有三个音节。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 28.5,
+      "newItems": [
+        { "id": "en.much", "kind": "word", "pos": "det", "text": "much", "zh": "多;很多(用于不可数名词)", "features": { "ipa": "mʌtʃ" }, "noteZh": "How much flour? 要多少面粉?;Not much. 不多;肯定句说\"很多\"一般用 a lot of。u 读 /ʌ/。" },
+        { "id": "en.many", "kind": "word", "pos": "det", "text": "many", "zh": "很多(用于可数名词)", "features": { "ipa": "ˈmeni" }, "noteZh": "How many green onions? 要几根葱?;Not many. 不多;a 读 /e/,不读 /æ/。" },
+        { "id": "en.flour", "kind": "word", "pos": "noun", "text": "flour", "zh": "面粉", "features": { "ipa": "ˈflaʊɚ" }, "noteZh": "和 flower(花)读音一样;不可数:four cups of flour。" },
+        { "id": "en.cup", "kind": "word", "pos": "noun", "text": "cup", "zh": "杯;一杯的量", "features": { "ipa": "kʌp" }, "noteZh": "美国菜谱用 cup 量东西(1 cup 约 240 毫升);a cup of flour 一杯面粉;u 读 /ʌ/。" },
+        { "id": "en.pound", "kind": "word", "pos": "noun", "text": "pound", "zh": "磅(约 450 克)", "features": { "ipa": "paʊnd" }, "noteZh": "美国买肉、称体重用 pound;a pound of pork 一磅猪肉;ou 读 /aʊ/。" },
+        { "id": "en.gram", "kind": "word", "pos": "noun", "text": "gram", "zh": "克", "features": { "ipa": "ɡræm" }, "noteZh": "美国日常很少用克,菜谱多用杯、勺、磅;a 读 /æ/。" },
+        { "id": "en.pork", "kind": "word", "pos": "noun", "text": "pork", "zh": "猪肉", "features": { "ipa": "pɔːrk" }, "noteZh": "猪是 pig,猪肉是 pork;不可数。or 要卷舌。" },
+        { "id": "en.cabbage", "kind": "word", "pos": "noun", "text": "cabbage", "zh": "白菜;卷心菜", "features": { "ipa": "ˈkæbɪdʒ" }, "noteZh": "中国的大白菜英语常叫 Chinese cabbage 或 napa cabbage;-age 读 /ɪdʒ/。" },
+        { "id": "en.spoonful", "kind": "word", "pos": "noun", "text": "spoonful", "zh": "一勺(的量)", "features": { "ipa": "ˈspuːnfʊl" }, "noteZh": "two spoonfuls of soy sauce 两勺酱油;菜谱里也常写 tablespoon(大勺)、teaspoon(小勺)。" },
+        { "id": "en.recipe", "kind": "word", "pos": "noun", "text": "recipe", "zh": "菜谱;食谱", "features": { "ipa": "ˈresəpi" }, "noteZh": "三个音节 RE-ci-pe,结尾的 e 要读出来 /i/,不读成 \"re-sai-p\"。" }
+      ],
+      "reviewItems": ["en.video_call", "en.grandma", "en.say", "en.half", "en.only", "en.use"]
+    },
+    {
+      "id": "en.a1u17.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117040,
+      "titleZh": "包饺子", "goalZh": "会用祈使句和 like this 一步步示范怎么做,纠正对方的做法",
+      "canDoZh": "能一步步教别人做一样东西,用\"像这样\"示范,纠正对方的做法",
+      "scenarioZh": "除夕下午,磊跟劳拉请了假(这天是周一),在宿舍教艾米、索菲亚和马库斯包饺子:First, put a little filling in the middle. Then fold it, and close the edges.;艾米问 Like this?,磊说 Not like that! 再示范一遍;马库斯包的饺子像小船,大家笑他。磊讲了包硬币的习俗:把一枚洗干净的硬币包进一个饺子里,吃到的人一整年都有好运。",
+      "grammarFocusZh": "复习祈使句和 First / Then;like this 表示\"像这样\",Not like that! 纠正别人;day off 休息日。发音:dumpling /ˈdʌmplɪŋ/ 的 /ʌ/ 和词尾的 /ŋ/。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.day_off", "kind": "phrase", "pos": "noun", "text": "day off", "zh": "休息日;(请假)不上班的一天", "features": { "ipa": "ˌdeɪ ˈɑːf" }, "noteZh": "ask for the day off 请一天假;I have a day off. 我今天休息;off 重读。" },
+        { "id": "en.wrap", "kind": "word", "pos": "verb", "text": "wrap", "zh": "包;裹", "features": { "ipa": "ræp" }, "noteZh": "wrap dumplings 包饺子(也常说 make dumplings);开头的 w 不发音,读 /ræp/。" },
+        { "id": "en.filling", "kind": "word", "pos": "noun", "text": "filling", "zh": "馅", "features": { "ipa": "ˈfɪlɪŋ" }, "noteZh": "饺子馅、派的馅都叫 filling;结尾 -ing 是后鼻音。" },
+        { "id": "en.fold", "kind": "word", "pos": "verb", "text": "fold", "zh": "折;叠", "features": { "ipa": "foʊld" }, "noteZh": "fold it in half 对折;o 读 /oʊ/,l 很轻,别丢掉词尾 d。" },
+        { "id": "en.edge", "kind": "word", "pos": "noun", "text": "edge", "zh": "边;边缘", "features": { "ipa": "edʒ" }, "noteZh": "close the edges 把边捏紧;dge 读 /dʒ/,词尾不加元音。" },
+        { "id": "en.like_this", "kind": "phrase", "pos": "phrase", "text": "like this", "zh": "像这样", "alt": ["like that"], "features": { "ipa": "ˈlaɪk ðɪs" }, "noteZh": "一边做一边说 Like this. 是\"像这样\";纠正别人说 Not like that!(不是那样)。这里的 like 是\"像\",不是\"喜欢\"。" },
+        { "id": "en.coin", "kind": "word", "pos": "noun", "text": "coin", "zh": "硬币", "features": { "ipa": "kɔɪn" }, "noteZh": "oi 读 /ɔɪ/;chocolate coins 巧克力金币。包进饺子的硬币要先洗干净,吃的时候小心别咬到。" },
+        { "id": "en.boat", "kind": "word", "pos": "noun", "text": "boat", "zh": "船;小船", "features": { "ipa": "boʊt" }, "noteZh": "oa 读 /oʊ/,嘴唇从半开滑到收圆;词尾 t 轻轻收住。" }
+      ],
+      "reviewItems": ["en.chinese_new_year", "en.dumpling", "en.middle", "en.close_verb", "en.lucky", "en.look"]
+    },
+    {
+      "id": "en.a1u17.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117045,
+      "titleZh": "奶奶的饺子菜谱", "goalZh": "读懂一份英文菜谱的材料和步骤,说出用量和先后顺序",
+      "canDoZh": "能看懂一份菜谱:要哪些材料、各用多少、按什么步骤做",
+      "scenarioZh": "体裁:菜谱。说话人 narrator。磊把奶奶的菜谱整理成英文:标题和人数(4 个人),材料(面粉、水、猪肉、白菜、葱、姜、酱油、盐,各写清用量;没时间就买现成的饺子皮),步骤(切碎、拌馅、包、折、煮,水开后加一杯凉水,这样做两次),最后一条小提示:饺子浮到水面上就熟了。至少 10 行。",
+      "grammarFocusZh": "复习量词和 much / many、祈使句说步骤;菜谱的格式:Ingredients / Steps,用 First、Next、Then 连起来;理解题考用量和顺序。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 18,
+      "newItems": [
+        { "id": "en.ingredient", "kind": "word", "pos": "noun", "text": "ingredient", "zh": "(做菜的)材料;配料", "features": { "ipa": "ɪnˈɡriːdiənt" }, "noteZh": "菜谱第一部分叫 Ingredients(材料);重音在第二个音节 in-GRE-di-ent。" },
+        { "id": "en.step", "kind": "word", "pos": "noun", "text": "step", "zh": "步骤;一步", "features": { "ipa": "step" }, "noteZh": "菜谱第二部分叫 Steps(步骤);step by step 一步一步地;st 中间不加元音。" },
+        { "id": "en.chop", "kind": "word", "pos": "verb", "text": "chop", "zh": "剁;切碎", "features": { "ipa": "tʃɑːp" }, "noteZh": "chop 是切成小块、剁碎,比 cut 更具体;o 读 /ɑː/。" },
+        { "id": "en.add", "kind": "word", "pos": "verb", "text": "add", "zh": "加;添加", "features": { "ipa": "æd" }, "noteZh": "add salt 加盐;第 6 单元学过 add to cart(加入购物车);a 读 /æ/。" }
+      ],
+      "reviewItems": ["en.flour", "en.pound", "en.spoonful", "en.filling", "en.fold", "en.boil"]
+    },
+    {
+      "id": "en.a1u17.l05", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117050,
+      "titleZh": "年夜饭", "goalZh": "会请客人吃饭,用 … means… 介绍菜的寓意,招呼大家多吃",
+      "canDoZh": "能请客人吃饭,介绍每道菜和它的寓意,招呼大家多吃一点",
+      "scenarioZh": "除夕晚上,磊在宿舍休息室请艾米、索菲亚、伊森和马库斯吃年夜饭。他介绍每道菜:鱼代表\"年年有余\",饺子代表钱(吃了会发财),长面条代表长寿、不能切断;他问马库斯 Do you want some more fish?,马库斯说 I'm full!;最后给大家发红包,里面是巧克力金币,大家举杯:Happy New Year! Cheers!(饮料是茶和果汁。)",
+      "grammarFocusZh": "解释寓意 … means… / It's a tradition.;劝客人多吃 Do you want some more…?(更客气的 Would you like some more? 是第 11 单元的说法),吃饱了说 I'm full.;red envelope 红包。发音:luck /lʌk/ 的 /ʌ/ 和 lock /lɑːk/ 的 /ɑː/ 区分。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.fish", "kind": "word", "pos": "noun", "text": "fish", "zh": "鱼;鱼肉", "features": { "ipa": "fɪʃ" }, "noteZh": "复数一般也是 fish;作\"鱼肉\"讲不可数:some fish。sh 读 /ʃ/。" },
+        { "id": "en.tradition", "kind": "word", "pos": "noun", "text": "tradition", "zh": "传统", "features": { "ipa": "trəˈdɪʃən" }, "noteZh": "It's a tradition. 这是传统;-tion 前面的音节重读 tra-DI-tion。" },
+        { "id": "en.rich", "kind": "word", "pos": "adj", "text": "rich", "zh": "有钱的;富有的", "features": { "ipa": "rɪtʃ" }, "noteZh": "You're going to be rich! 你要发财了!;r 开头嘴唇先收圆。" },
+        { "id": "en.life", "kind": "word", "pos": "noun", "text": "life", "zh": "生命;生活;一辈子", "features": { "ipa": "laɪf" }, "noteZh": "a long life 长寿;复数 lives。" },
+        { "id": "en.im_full", "kind": "phrase", "pos": "phrase", "text": "I'm full", "zh": "我吃饱了", "alt": ["I am full"], "features": { "ipa": "aɪm ˈfʊl" }, "noteZh": "主人劝你多吃,吃不下了就说 No, thanks. I'm full!;不说 I'm eat full。" },
+        { "id": "en.red_envelope", "kind": "phrase", "pos": "noun", "text": "red envelope", "zh": "红包", "features": { "ipa": "ˌred ˈenvəloʊp" }, "noteZh": "envelope 是信封,重音在前 EN-ve-lope;也有人说 red packet。" },
+        { "id": "en.gold", "kind": "word", "pos": "adj", "text": "gold", "zh": "金色的;金的", "features": { "ipa": "ɡoʊld" }, "noteZh": "gold coins 金币;o 读 /oʊ/,结尾 ld 都要读出来。" },
+        { "id": "en.cheers", "kind": "word", "pos": "interj", "text": "Cheers", "zh": "干杯", "features": { "ipa": "tʃɪrz" }, "noteZh": "举杯时说 Cheers!;用茶、果汁干杯也可以说。eer 读 /ɪr/。" }
+      ],
+      "reviewItems": ["en.dumpling", "en.noodles", "en.coin", "en.would_you_like", "en.chocolate", "en.happy_new_year"]
+    },
+    {
+      "id": "en.a1u17.l06", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117060,
+      "titleZh": "闻起来好香!", "goalZh": "会用 look / smell / taste + 形容词描述食物,会说酸甜苦辣咸",
+      "canDoZh": "能用 look / smell / taste 描述食物看起来、闻起来、吃起来怎么样",
+      "scenarioZh": "第二个周末轮到索菲亚下厨,她做了妈妈菜谱里的墨西哥巧克力辣酱鸡(chicken mole)。大家一进门就说 The kitchen smells amazing!;磊尝了一口:It tastes great! It's a little sweet.;索菲亚说她不吃辣,所以鸡不辣,另外给磊做了一小碗辣的莎莎酱——又辣又有点酸。马库斯说只有他的咖啡是苦的,伊森说不太咸也不太甜,刚刚好。(索菲亚不吃辣,规划里\"有点辣\"改成了配辣酱。)",
+      "grammarFocusZh": "look / smell / taste + 形容词(It tastes good.,不说 tastes well——这些动词后面跟形容词,不跟副词);味道词 sour、salty、bitter(复习 sweet、spicy、delicious)。look + 形容词\"看起来\"和第 9 单元的 look(看)是不同的义项,另立词条。发音:tastes /teɪsts/ 词尾 sts 不要加元音。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.look_adj", "kind": "word", "pos": "verb", "text": "look", "zh": "显得……(look + 形容词)", "features": { "ipa": "lʊk" }, "noteZh": "look + 形容词 = 看起来……:It looks delicious!(看起来很好吃);第 9 单元的 look 是\"看、瞧\"(look at…),意思不一样。oo 读短音 /ʊ/。" },
+        { "id": "en.smell", "kind": "word", "pos": "verb", "text": "smell", "zh": "闻起来;闻", "features": { "ipa": "smel" }, "noteZh": "It smells amazing! 闻起来好香!;smell + 形容词,不跟副词;词尾 l 舌尖抬起。" },
+        { "id": "en.taste", "kind": "word", "pos": "verb", "text": "taste", "zh": "尝起来;尝", "features": { "ipa": "teɪst" }, "noteZh": "It tastes great. 很好吃(不说 tastes well);tastes /teɪsts/ 词尾三个辅音,别加元音。" },
+        { "id": "en.sour", "kind": "word", "pos": "adj", "text": "sour", "zh": "酸的", "features": { "ipa": "ˈsaʊɚ" }, "noteZh": "柠檬、醋是 sour;our 读 /aʊɚ/,和 hour 押韵。" },
+        { "id": "en.salty", "kind": "word", "pos": "adj", "text": "salty", "zh": "咸的", "features": { "ipa": "ˈsɑːlti" }, "noteZh": "salt(盐)+ y;too salty 太咸了;美式 a 读 /ɑː/。" },
+        { "id": "en.bitter", "kind": "word", "pos": "adj", "text": "bitter", "zh": "苦的", "features": { "ipa": "ˈbɪt̬ɚ" }, "noteZh": "黑咖啡、苦瓜是 bitter;tt 读闪音,像轻快的 d。" },
+        { "id": "en.salsa", "kind": "word", "pos": "noun", "text": "salsa", "zh": "莎莎酱(墨西哥辣酱)", "features": { "ipa": "ˈsɑːlsə" }, "noteZh": "墨西哥菜常配的番茄辣酱,美国超市里到处都有;salsa 也是一种舞蹈。" },
+        { "id": "en.mole", "kind": "word", "pos": "noun", "text": "mole", "zh": "墨西哥巧克力辣酱(mole)", "features": { "ipa": "ˈmoʊleɪ" }, "noteZh": "墨西哥的传统酱汁,用辣椒、巧克力和很多香料做成;读 MO-lay,两个音节,和英语的 mole(痣)读音不同。" }
+      ],
+      "reviewItems": ["en.recipe", "en.chocolate", "en.sweet", "en.amazing", "en.spicy", "en.delicious"]
+    },
+    {
+      "id": "en.a1u17.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117070,
+      "titleZh": "百家宴", "goalZh": "会介绍自己带的菜,问别人的菜里有什么,说出自己能不能吃",
+      "canDoZh": "能在百家宴上介绍自己带的菜,问别人的菜里有什么,说出自己能不能吃",
+      "scenarioZh": "国际学生社团办百家宴(potluck),每人带一道家乡菜。艾米给大家解释什么是 potluck;磊带了少放辣的麻婆豆腐(I brought mapo tofu. It's mild.),伊森很惊讶;索菲亚问菜里有什么、有没有坚果,磊说 There's tofu, beef, and Sichuan pepper in it. There are no nuts.;艾米请大家尝她的苹果派,最后大家投票,磊的麻婆豆腐赢了。",
+      "grammarFocusZh": "What's in it? — There's / There are… in it.;复习 Is there any…? / Are there any…? 和过敏的说法(第 4 单元新增课);bring–brought(I brought mapo tofu.)。发音:potluck /ˈpɑːtlʌk/ 前一个元音是 /ɑː/,后一个是 /ʌ/。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "en.potluck", "kind": "word", "pos": "noun", "text": "potluck", "zh": "百家宴(每人带一道菜的聚餐)", "features": { "ipa": "ˈpɑːtlʌk" }, "noteZh": "美国很常见的聚餐方式,每人带一道菜大家分享;重音在前 POT-luck。" },
+        { "id": "en.mild", "kind": "word", "pos": "adj", "text": "mild", "zh": "(味道)不辣的;温和的", "features": { "ipa": "maɪld" }, "noteZh": "点菜时 mild 是\"不辣、微辣\",和 spicy、hot 相对;i 读 /aɪ/。" },
+        { "id": "en.beef", "kind": "word", "pos": "noun", "text": "beef", "zh": "牛肉", "features": { "ipa": "biːf" }, "noteZh": "牛是 cow,牛肉是 beef;不可数;ee 是长音。" },
+        { "id": "en.fork", "kind": "word", "pos": "noun", "text": "fork", "zh": "叉子", "features": { "ipa": "fɔːrk" }, "noteZh": "or 卷舌;西餐用 fork 和 knife(刀叉)。" },
+        { "id": "en.apple", "kind": "word", "pos": "noun", "text": "apple", "zh": "苹果", "features": { "ipa": "ˈæpəl" }, "noteZh": "apple pie 苹果派,美国最有代表性的甜点之一;a 读 /æ/,an apple。" },
+        { "id": "en.dessert", "kind": "word", "pos": "noun", "text": "dessert", "zh": "甜点", "features": { "ipa": "dɪˈzɝːt" }, "noteZh": "重音在后 de-SSERT,ss 读 /z/;别和 desert(沙漠,重音在前)混。for dessert 饭后甜点。" },
+        { "id": "en.vote", "kind": "word", "pos": "verb", "text": "vote", "zh": "投票", "features": { "ipa": "voʊt" }, "noteZh": "vote for… 投票给……;v 上齿轻碰下唇,不读成 w。" },
+        { "id": "en.winner", "kind": "word", "pos": "noun", "text": "winner", "zh": "获胜者;赢家", "features": { "ipa": "ˈwɪnɚ" }, "noteZh": "And the winner is… 获胜的是……(宣布结果时的固定说法)。" }
+      ],
+      "reviewItems": ["en.dish", "en.bring", "en.nuts", "en.allergic", "en.favorite", "en.tofu"]
+    },
+    {
+      "id": "en.a1u17.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117080,
+      "titleZh": "单元复习:拍一期做饭节目", "goalZh": "综合运用本单元的说法,介绍一道菜的材料、用量、做法和味道",
+      "canDoZh": "能用英语介绍一道菜:要什么材料、用多少、怎么做、味道怎么样",
+      "scenarioZh": "社团请磊和索菲亚拍一期做饭节目放在社团的主页上,艾米负责拍。两人轮流当主持人,做中国家常菜番茄炒蛋:先介绍这道菜,再说材料和用量(How many eggs do we need? — Three eggs, two tomatoes, and a little salt.),一步步做;拍到一半磊把一个鸡蛋掉在了地上,艾米喊停重拍;最后试吃:It looks great, and it tastes great, too!。对话至少 12 句。(规划里的\"视频\",video 第 14 单元才定,这里说 cooking show;even better 是比较级,A1 不用。)",
+      "grammarFocusZh": "复习 much / many、量词、look / smell / taste + 形容词和说步骤的祈使句。发音:/ʊ/ 和 /uː/ 在 cook、good、food、spoon 里集中练一遍。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+      "newItems": [
+        { "id": "en.tomato", "kind": "word", "pos": "noun", "text": "tomato", "zh": "番茄;西红柿", "features": { "ipa": "təˈmeɪt̬oʊ" }, "noteZh": "美式读 to-MAY-to,英式读 to-MAH-to;复数 tomatoes 加 -es。" },
+        { "id": "en.oil", "kind": "word", "pos": "noun", "text": "oil", "zh": "油", "features": { "ipa": "ɔɪl" }, "noteZh": "不可数:some oil、a little oil;oi 读 /ɔɪ/,结尾 l 舌尖抬起。" },
+        { "id": "en.stir", "kind": "word", "pos": "verb", "text": "stir", "zh": "搅拌;翻炒", "features": { "ipa": "stɝː" }, "noteZh": "炒菜时不停地翻动就是 stir;炒菜也叫 stir-fry;ir 卷舌 /ɝː/。" }
+      ],
+      "reviewItems": ["en.many", "en.wok", "en.add", "en.drop", "en.taste", "en.look_adj"]
+    },
+    {
+      "id": "en.a1u17.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-17 Let's cook", "order": 117085,
+      "titleZh": "社团通讯:我们的春节", "goalZh": "读懂一篇介绍节日活动的短文,分清写经过的过去时和讲习俗的现在时",
+      "canDoZh": "能读懂一篇介绍节日活动的短文,说出人们做了什么、这些习俗是什么意思",
+      "scenarioZh": "体裁:社团通讯里的文章。说话人 narrator。写国际学生社团这次春节活动:今年春节是 2 月 17 日;前一天磊教大家包饺子,马库斯的饺子像小船;年夜饭上有鱼、饺子和长面条(鱼代表年年有余,长面条代表长寿);磊给每人一个装着巧克力金币的红包;第二周的百家宴上有十二个国家的菜,磊的麻婆豆腐赢了;最后解释春节的日子每年都不一样,因为按月亮(农历)算。至少 10 句。",
+      "grammarFocusZh": "一般过去时写活动经过,一般现在时解释习俗(Fish means extra money every year.);Why…? — Because…;复习本单元的厨房和食物词。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "en.follow", "kind": "word", "pos": "verb", "text": "follow", "zh": "跟着;按照", "features": { "ipa": "ˈfɑːloʊ" }, "noteZh": "follow the moon 按月亮(的变化)来算;follow me 跟我来;重音在前 FOL-low。" },
+        { "id": "en.moon", "kind": "word", "pos": "noun", "text": "moon", "zh": "月亮", "features": { "ipa": "muːn" }, "noteZh": "the moon 前面要加 the;农历英语叫 the lunar calendar(lunar = 月亮的);oo 是长音 /uː/。" }
+      ],
+      "reviewItems": ["en.chinese_new_year", "en.potluck", "en.red_envelope", "en.tradition", "en.different", "en.winner"]
+    }
+  ]
+}

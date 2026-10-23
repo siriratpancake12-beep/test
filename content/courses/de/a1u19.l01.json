@@ -25,9 +25,9 @@
     { "speaker": "lena", "text": "Wir übernachten in einer Jugendherberge. Das kostet nicht viel.", "zh": "我们住青年旅舍,花不了多少钱。", "items": ["de.wir", "de.uebernachten", "de.in", "de.ein", "de.jugendherberge", "de.kosten", "de.nicht", "de.viel"] },
     { "speaker": "sofia", "text": "Toll! Wie lange dauert die Fahrt?", "zh": "太好了!路上要多长时间?", "items": ["de.toll", "de.wie_lange", "de.dauern", "de.fahrt"] },
     { "speaker": "lena", "text": "Mit dem Zug ungefähr drei Stunden.", "zh": "坐火车大概三个小时。", "items": ["de.mit", "de.zug", "de.ungefaehr", "de.drei", "de.stunde"] },
-    { "speaker": "wei", "text": "Super! Ich reise gern mit euch. Aber im Juli muss ich auch arbeiten.", "zh": "太棒了!我很想跟你们一起去旅行。不过七月我也得打工。", "items": ["de.toll", "de.ich", "de.reisen", "de.gern", "de.mit", "de.ihr", "de.aber", "de.in", "de.juli", "de.muessen", "de.auch", "de.arbeiten"] },
+    { "speaker": "wei", "text": "Super! Ich reise gern mit euch. Aber im Juli muss ich auch arbeiten.", "zh": "太棒了!我很想跟你们一起去旅行。不过七月我也得打工。", "items": ["de.toll", "de.ich", "de.reisen", "de.gern", "de.mit", "de.euch", "de.aber", "de.in", "de.juli", "de.muessen", "de.auch", "de.arbeiten"] },
     { "speaker": "sofia", "text": "Vom 25. bis zum 28. Juli? Da habe ich frei.", "zh": "7 月 25 号到 28 号怎么样?那几天我也不上班。", "items": ["de.von", "de.fuenf", "de.zwanzig", "de.bis", "de.zu", "de.acht", "de.juli", "de.da", "de.haben", "de.ich", "de.frei"] },
-    { "speaker": "lena", "text": "Gut! Paul will auch mit uns fahren. Aber er muss noch unsere Eltern fragen.", "zh": "好!保罗也想跟我们一起去,不过他还得问问我们爸妈。", "items": ["de.gut", "de.wollen", "de.auch", "de.mit", "de.wir", "de.fahren", "de.aber", "de.er", "de.muessen", "de.noch", "de.unser", "de.eltern", "de.fragen"] }
+    { "speaker": "lena", "text": "Gut! Paul will auch mit uns fahren. Aber er muss noch unsere Eltern fragen.", "zh": "好!保罗也想跟我们一起去,不过他还得问问我们爸妈。", "items": ["de.gut", "de.wollen", "de.auch", "de.mit", "de.uns", "de.fahren", "de.aber", "de.er", "de.muessen", "de.noch", "de.unser", "de.eltern", "de.fragen"] }
   ],
   "questions": [
     { "prompt": "索菲娅本来想去哪儿?", "options": ["德累斯顿", "波罗的海", "汉堡"], "answer": 0, "explainZh": "索菲娅说:Ich möchte nach Dresden. Da gibt es viele Museen und viel Kunst.(我想去德累斯顿,那儿博物馆多。)想去波罗的海的是莉娜。" },

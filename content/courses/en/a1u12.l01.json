@@ -29,9 +29,9 @@
     { "speaker": "receptionist", "text": "Please call the front desk that morning.", "zh": "那天早上请打电话到前台问一下。", "items": ["en.call", "en.front_desk", "en.morning"] }
   ],
   "questions": [
-    { "prompt": "磊的预订是用哪个名字登记的?", "options": ["索菲亚的名字", "磊的姓 Zhang", "伊森的名字"], "answer": 1, "explainZh": "磊说 I have a reservation under the name Zhang.,还拼了一遍 Z-H-A-N-G。" },
+    { "prompt": "磊的预订是用哪个名字登记的?", "options": ["磊的姓 Zhang", "索菲亚的名字", "伊森的名字"], "answer": 0, "explainZh": "磊说 I have a reservation under the name Zhang.,还拼了一遍 Z-H-A-N-G。" },
     { "prompt": "他们的房间在几楼?", "options": ["十二楼", "一楼", "五楼"], "answer": 2, "explainZh": "前台说 You're in Rooms 512 and 514, on the fifth floor.:512 读 five twelve,第一个数字 5 就是楼层。" },
-    { "prompt": "索菲亚问周四能不能晚点退房,前台怎么说?", "options": ["那天早上打电话到前台再说", "可以,下午两点前退房就行", "不行,必须 11 点前退房"], "answer": 0, "explainZh": "前台说 Please call the front desk that morning.(那天早上请打电话到前台问一下),没有马上答应。" }
+    { "prompt": "索菲亚问周四能不能晚点退房,前台怎么说?", "options": ["可以,下午两点前退房就行", "那天早上打电话到前台再说", "不行,必须 11 点前退房"], "answer": 1, "explainZh": "前台说 Please call the front desk that morning.(那天早上请打电话到前台问一下),没有马上答应。" }
   ],
   "grammar": [
     { "id": "en.g.u12_checkin", "titleZh": "办入住:I have a reservation under the name…",

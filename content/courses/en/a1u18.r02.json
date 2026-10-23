@@ -1,0 +1,40 @@
+{
+  "id": "en.a1u18.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118085,
+  "titleZh": "校报:国际学生队首战告捷", "goalZh": "读懂一篇简短的体育新闻,找出比分、谁表现最好、球员说了什么、下一场在什么时候", "canDoZh": "能读懂一篇简短的体育新闻,找出比分、谁表现最好、球员说了什么",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
+  "newItems": [
+    { "id": "en.news", "kind": "word", "pos": "noun", "text": "news", "zh": "新闻;消息", "features": { "ipa": "nuːz" }, "noteZh": "news 是不可数名词,虽然有 s 也当单数用:The news is great.;美式读 /nuːz/,结尾 s 读 /z/。" }
+  ],
+  "reviewItems": ["en.intramural", "en.point", "en.defense", "en.shot", "en.international_student", "en.senior"],
+  "lines": [
+    { "speaker": "narrator", "text": "Sports News: The Dragons Win Their First Game!", "zh": "(校报体育版)体育新闻:飞龙队首战告捷!", "items": ["en.sport", "en.news", "en.dragon", "en.win", "en.first", "en.game"] },
+    { "speaker": "narrator", "text": "Last Saturday, the International Dragons played their first intramural game.", "zh": "上周六,International Dragons(国际飞龙队)打了第一场校内比赛。", "items": ["en.last", "en.saturday", "en.dragon", "en.play", "en.first", "en.intramural", "en.game"] },
+    { "speaker": "narrator", "text": "The team has international students and American students.", "zh": "队里有国际学生,也有美国学生。", "items": ["en.team", "en.have", "en.international_student", "en.student"] },
+    { "speaker": "narrator", "text": "They won 42 to 38!", "zh": "他们以 42 比 38 获胜!", "items": ["en.win"] },
+    { "speaker": "narrator", "text": "Lei Zhang, a freshman from China, had 12 points.", "zh": "来自中国的大一新生张磊得了 12 分。", "items": ["en.freshman", "en.have", "en.point"] },
+    { "speaker": "narrator", "text": "He played defense really well, too.", "zh": "他的防守也打得非常好。", "items": ["en.play", "en.defense", "en.really", "en.well"] },
+    { "speaker": "narrator", "text": "Ethan threw the ball quickly and well.", "zh": "伊森传球又快又好。", "items": ["en.throw", "en.ball", "en.quickly", "en.well"] },
+    { "speaker": "narrator", "text": "Marcus, a senior, had a lot of great shots.", "zh": "大四的马库斯投进了很多漂亮的球。", "items": ["en.senior", "en.have", "en.a_lot_of", "en.great", "en.shot"] },
+    { "speaker": "narrator", "text": "After the game, we talked to two players.", "zh": "赛后,我们采访了两位球员。", "items": ["en.after", "en.game", "en.talk", "en.player"] },
+    { "speaker": "narrator", "text": "Ethan: “We worked really hard. Now we're a family!”", "zh": "伊森:“我们练得非常努力。现在我们就像一家人!”", "items": ["en.work_hard", "en.really", "en.family"] },
+    { "speaker": "narrator", "text": "Lei: “I was nervous, but basketball is really fun!”", "zh": "磊:“我当时很紧张,不过打篮球真的太好玩了!”", "items": ["en.nervous", "en.basketball", "en.really", "en.fun"] },
+    { "speaker": "narrator", "text": "Next game: Saturday, 3 p.m., at the gym. Come and watch, fans!", "zh": "下一场比赛:周六下午 3 点,学校健身房。球迷们,快来看吧!", "items": ["en.next", "en.game", "en.saturday", "en.pm", "en.gym", "en.come", "en.watch", "en.fan"] }
+  ],
+  "questions": [
+    { "prompt": "比赛结果怎么样?", "options": ["38 比 42 输了", "42 比 38 赢了", "打平了"], "answer": 1, "explainZh": "They won 42 to 38!(他们以 42 比 38 获胜!)" },
+    { "prompt": "磊在比赛里得了几分?", "options": ["12 分", "42 分", "38 分"], "answer": 0, "explainZh": "Lei Zhang, a freshman from China, had 12 points.——had 12 points 就是“得了 12 分”。" },
+    { "prompt": "飞龙队里都是什么人?", "options": ["只有中国学生", "只有美国学生", "国际学生和美国学生"], "answer": 2, "explainZh": "The team has international students and American students." },
+    { "prompt": "下一场比赛在什么时候、什么地方?", "options": ["周日上午,在湖边", "周六下午 3 点,在学校健身房", "周五晚上,在宿舍"], "answer": 1, "explainZh": "Next game: Saturday, 3 p.m., at the gym." }
+  ],
+  "grammar": [
+    { "id": "en.g.sports_news", "titleZh": "读体育新闻:过去时写经过,冒号和引号标出球员的话",
+      "bodyZh": "新闻写已经发生的比赛,用一般过去时:played、won、had、threw、talked。说谁表现得怎么样,用方式副词:He played defense really well. Ethan threw the ball quickly and well.。had 12 points 是“得了 12 分”。球员的原话放在引号里,前面用名字加冒号标出是谁说的:Ethan: “We worked really hard.”;引号里是球员自己的话,所以也可以用现在时:Now we're a family!。读新闻先看标题找结果(谁赢了),再找数字(比分、得分、下一场的时间)。",
+      "examples": [
+        { "text": "They won 42 to 38!", "zh": "他们以 42 比 38 获胜!" },
+        { "text": "Lei had 12 points.", "zh": "磊得了 12 分。" },
+        { "text": "He played defense really well.", "zh": "他的防守打得非常好。" }
+      ] }
+  ],
+  "review": "draft"
+}

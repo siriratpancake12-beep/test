@@ -1,0 +1,55 @@
+{
+  "id": "en.a1u11.l03", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111030,
+  "titleZh": "别忘了登机牌!", "goalZh": "会用 need to + 动词和 Don't + 动词提醒别人", "canDoZh": "能提醒别人出门前要做什么、别忘了什么,也能听懂这样的提醒",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "en.seatbelt", "kind": "word", "pos": "noun", "text": "seatbelt", "zh": "安全带", "features": { "ipa": "ˈsiːtbelt" }, "noteZh": "也写作 seat belt;Put on your seatbelt.(系好安全带。)复合词重音在前。" },
+    { "id": "en.ride", "kind": "word", "pos": "noun", "text": "ride", "zh": "搭车;(动词)骑、乘坐", "features": { "ipa": "raɪd" }, "noteZh": "Thanks for the ride!(谢谢你送我!)也能当动词:ride a bike(骑自行车),过去式 rode;词尾 d 要带声。" },
+    { "id": "en.traffic", "kind": "word", "pos": "noun", "text": "traffic", "zh": "交通;路上的车", "features": { "ipa": "ˈtræfɪk" }, "noteZh": "No traffic this early!(这么早不堵车!)堵车也可以说 a traffic jam;a 读 /æ/。" },
+    { "id": "en.worry", "kind": "word", "pos": "verb", "text": "worry", "zh": "担心", "features": { "ipa": "ˈwɝːi" }, "noteZh": "Don't worry.(别担心。)o 读 /ɝː/,要卷舌;过去式 worried。" },
+    { "id": "en.forget", "kind": "word", "pos": "verb", "text": "forget", "zh": "忘记", "features": { "ipa": "fɚˈɡet" }, "noteZh": "Don't forget…(别忘了……);过去式 forgot;重音在后 for-GET。" },
+    { "id": "en.boarding_pass", "kind": "phrase", "pos": "noun", "text": "boarding pass", "zh": "登机牌", "features": { "ipa": "ˈbɔːrdɪŋ pæs" }, "noteZh": "复合词重音在前 BOAR-ding pass;oar 美式卷舌;电子登机牌常在手机或邮箱里。" },
+    { "id": "en.print", "kind": "word", "pos": "verb", "text": "print", "zh": "打印", "features": { "ipa": "prɪnt" }, "noteZh": "I don't need to print it.(不用打印。)pr 连读,结尾 nt 收住不加元音。" },
+    { "id": "en.laptop", "kind": "word", "pos": "noun", "text": "laptop", "zh": "笔记本电脑", "features": { "ipa": "ˈlæptɑːp" }, "noteZh": "lap + top,重音在前;a 读 /æ/,o 读 /ɑː/。" }
+  ],
+  "reviewItems": ["en.put_on", "en.email", "en.no_problem", "en.got_it", "en.early"],
+  "lines": [
+    { "speaker": "amy", "text": "Good morning, you guys! Put on your seatbelts.", "zh": "(1 月 4 日凌晨五点,艾米开车送两人去机场)早上好!系好安全带。", "items": ["en.morning", "en.you_guys", "en.put_on", "en.seatbelt"] },
+    { "speaker": "lei", "text": "Thanks for the ride, Amy. It's so early!", "zh": "谢谢你送我们,艾米。这么早!", "items": ["en.thank_you", "en.ride", "en.so", "en.early"] },
+    { "speaker": "amy", "text": "No problem. No traffic this early!", "zh": "没事。这么早不堵车!", "items": ["en.no_problem", "en.traffic", "en.early"] },
+    { "speaker": "amy", "text": "You need to be at the airport two hours early.", "zh": "你们得提前两个小时到机场。", "items": ["en.need", "en.airport", "en.hour", "en.early"] },
+    { "speaker": "lei", "text": "Don't worry. We need to be there at 5:15. We have time.", "zh": "别担心。我们 5:15 到就行,时间来得及。", "items": ["en.worry", "en.need", "en.have"] },
+    { "speaker": "amy", "text": "Don't forget your boarding passes!", "zh": "别忘了登机牌!", "items": ["en.forget", "en.boarding_pass"] },
+    { "speaker": "sofia", "text": "My boarding pass is in my email. I don't need to print it.", "zh": "我的登机牌在邮箱里,不用打印。", "items": ["en.boarding_pass", "en.email", "en.need", "en.print"] },
+    { "speaker": "amy", "text": "Good. And Lei, no water in your bag, OK?", "zh": "好。还有磊,包里别放水,记住了吗?", "items": ["en.water", "en.bag"] },
+    { "speaker": "lei", "text": "Got it. My laptop, my boarding pass, no water!", "zh": "(磊在手机上一条条记下来)知道了。电脑,登机牌,不带水!", "items": ["en.got_it", "en.laptop", "en.boarding_pass", "en.water"] },
+    { "speaker": "amy", "text": "Perfect. Don't worry, and have fun in LA!", "zh": "很好。别担心,在洛杉矶玩得开心!", "items": ["en.perfect", "en.worry", "en.have", "en.fun"] }
+  ],
+  "questions": [
+    { "prompt": "艾米提醒他们要提前多久到机场?", "options": ["两个小时", "一个小时", "三十分钟"], "answer": 0, "explainZh": "You need to be at the airport two hours early." },
+    { "prompt": "索菲亚为什么不用打印登机牌?", "options": ["她不坐这班飞机", "她已经打印好了", "登机牌在她的邮箱里"], "answer": 2, "explainZh": "My boarding pass is in my email. I don't need to print it." },
+    { "prompt": "艾米特别提醒磊什么?", "options": ["别忘了带电脑", "包里别放水", "多穿件衣服"], "answer": 1, "explainZh": "And Lei, no water in your bag, OK?(电脑是磊自己记下要带的。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.need_to",
+      "titleZh": "need to + 动词:需要做某事",
+      "bodyZh": "need 后面可以跟名词,也可以跟 to + 动词原形:I need a towel.(需要一样东西)/ You need to be at the airport two hours early.(需要做一件事)。否定:I don't need to print it.(不用打印。)问:Do I need to print it?。中国学生常漏掉 to(说成 You need be…),或者在名词前多加 to(说成 I need to a towel),要先看后面是名词还是动词。",
+      "examples": [
+        { "text": "You need to be at the airport two hours early.", "zh": "你们得提前两个小时到机场。" },
+        { "text": "I don't need to print it.", "zh": "我不用打印。" }
+      ]
+    },
+    {
+      "id": "en.g.dont_imperative",
+      "titleZh": "Don't + 动词:叫别人别做某事",
+      "bodyZh": "让别人别做某事,用 Don't + 动词原形:Don't forget your boarding pass!(别忘了登机牌!)Don't worry.(别担心。)don't 后面的动词不加 -s、不加 -ing。想客气一点可以加 please,放在句首或句尾都行:Please don't forget. / Don't forget, please.。发音:don't 的 t 在辅音前常常不爆破,Don't forget 听起来像 “don' forget”。",
+      "examples": [
+        { "text": "Don't forget your boarding pass!", "zh": "别忘了登机牌!" },
+        { "text": "Don't worry. We have time.", "zh": "别担心,时间来得及。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

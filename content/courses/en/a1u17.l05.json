@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u17.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-17 Let's cook", "order": 117050,
+  "titleZh": "年夜饭", "goalZh": "会请客人吃饭,用 … means… 介绍菜的寓意,招呼大家多吃", "canDoZh": "能请客人吃饭,介绍每道菜和它的寓意,招呼大家多吃一点",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.fish", "kind": "word", "pos": "noun", "text": "fish", "zh": "鱼;鱼肉", "features": { "ipa": "fɪʃ" }, "noteZh": "复数一般也是 fish;作\"鱼肉\"讲不可数:some fish。sh 读 /ʃ/。" },
+    { "id": "en.tradition", "kind": "word", "pos": "noun", "text": "tradition", "zh": "传统", "features": { "ipa": "trəˈdɪʃən" }, "noteZh": "It's a tradition. 这是传统;-tion 前面的音节重读 tra-DI-tion。" },
+    { "id": "en.rich", "kind": "word", "pos": "adj", "text": "rich", "zh": "有钱的;富有的", "features": { "ipa": "rɪtʃ" }, "noteZh": "You're going to be rich! 你要发财了!;r 开头嘴唇先收圆。" },
+    { "id": "en.life", "kind": "word", "pos": "noun", "text": "life", "zh": "生命;生活;一辈子", "features": { "ipa": "laɪf" }, "noteZh": "a long life 长寿;复数 lives。" },
+    { "id": "en.im_full", "kind": "phrase", "pos": "phrase", "text": "I'm full", "zh": "我吃饱了", "alt": ["I am full"], "features": { "ipa": "aɪm ˈfʊl" }, "noteZh": "主人劝你多吃,吃不下了就说 No, thanks. I'm full!;不说 I'm eat full。" },
+    { "id": "en.red_envelope", "kind": "phrase", "pos": "noun", "text": "red envelope", "zh": "红包", "features": { "ipa": "ˌred ˈenvəloʊp" }, "noteZh": "envelope 是信封,重音在前 EN-ve-lope;也有人说 red packet。" },
+    { "id": "en.gold", "kind": "word", "pos": "adj", "text": "gold", "zh": "金色的;金的", "features": { "ipa": "ɡoʊld" }, "noteZh": "gold coins 金币;o 读 /oʊ/,结尾 ld 都要读出来。" },
+    { "id": "en.cheers", "kind": "word", "pos": "interj", "text": "Cheers", "zh": "干杯", "features": { "ipa": "tʃɪrz" }, "noteZh": "举杯时说 Cheers!;用茶、果汁干杯也可以说。eer 读 /ɪr/。" }
+  ],
+  "reviewItems": ["en.dumpling", "en.noodles", "en.coin", "en.would_you_like", "en.chocolate", "en.happy_new_year"],
+  "lines": [
+    { "speaker": "lei", "text": "Dinner is ready! Welcome to my Chinese New Year dinner!", "zh": "(除夕晚上,宿舍休息室)饭好了!欢迎来吃我的年夜饭!", "items": ["en.dinner", "en.ready", "en.welcome", "en.chinese_new_year"] },
+    { "speaker": "amy", "text": "Wow! What's this fish for?", "zh": "哇!这条鱼有什么讲究?", "items": ["en.fish"] },
+    { "speaker": "lei", "text": "Fish means extra money every year. It's a tradition.", "zh": "鱼代表\"年年有余\",每年都有多余的钱。这是传统。", "items": ["en.fish", "en.mean", "en.extra", "en.money", "en.year", "en.tradition"] },
+    { "speaker": "sofia", "text": "And the dumplings?", "zh": "那饺子呢?", "items": ["en.dumpling"] },
+    { "speaker": "lei", "text": "Dumplings mean money, too. Eat ten, and you're going to be rich!", "zh": "饺子也代表钱。吃十个,你就要发财啦!", "items": ["en.dumpling", "en.mean", "en.money", "en.eat", "en.going_to", "en.rich"] },
+    { "speaker": "ethan", "text": "Ten? Easy! And these long noodles?", "zh": "十个?小意思!那这些长面条呢?", "items": ["en.easy", "en.long", "en.noodles"] },
+    { "speaker": "lei", "text": "Long noodles mean a long life. Don't cut them!", "zh": "长面条代表长寿。别把它切断!", "items": ["en.long", "en.noodles", "en.mean", "en.life", "en.cut"] },
+    { "speaker": "lei", "text": "Would you like some more fish, Marcus?", "zh": "马库斯,再来点鱼吗?", "items": ["en.would_you_like", "en.some_more", "en.fish"] },
+    { "speaker": "marcus", "text": "No, thanks. I'm full!", "zh": "不用了,谢谢。我吃饱了!", "items": ["en.no_thanks", "en.im_full"] },
+    { "speaker": "lei", "text": "OK! Then here are red envelopes for you guys.", "zh": "好!那给大家发红包。", "items": ["en.then", "en.red_envelope", "en.you_guys"] },
+    { "speaker": "sofia", "text": "Chocolate gold coins! So sweet!", "zh": "巧克力金币!太贴心了!", "items": ["en.chocolate", "en.gold", "en.coin", "en.so", "en.sweet"] },
+    { "speaker": "lei", "text": "Happy New Year, you guys! Cheers!", "zh": "(大家举起茶和果汁)新年快乐,大家!干杯!", "items": ["en.happy_new_year", "en.you_guys", "en.cheers"] }
+  ],
+  "questions": [
+    { "prompt": "磊说鱼代表什么?", "options": ["长寿", "每年都有多余的钱", "好朋友"], "answer": 1, "explainZh": "Fish means extra money every year.——就是\"年年有余\";代表长寿的是长面条。" },
+    { "prompt": "为什么不能把长面条切断?", "options": ["长面条代表长寿", "切断了不好吃", "伊森不喜欢短面条"], "answer": 0, "explainZh": "Long noodles mean a long life. Don't cut them!——长面条代表长寿。" },
+    { "prompt": "红包里装的是什么?", "options": ["钱", "饺子", "巧克力金币"], "answer": 2, "explainZh": "Chocolate gold coins! So sweet!——红包里是巧克力金币。" }
+  ],
+  "grammar": [
+    { "id": "en.g.it_means", "titleZh": "说寓意:… means… / It's a tradition.",
+      "bodyZh": "介绍一道菜的寓意,用 mean(意思是;代表):Fish means extra money every year.(鱼代表年年有余)/ Long noodles mean a long life.(长面条代表长寿)。主语是单数用 means,复数用 mean。也可以说 It's a tradition.(这是传统)/ It's for good luck.(图个吉利)。中文\"年年有余\"靠\"鱼\"和\"余\"同音,英语里没有这个谐音,所以要用 means 把意思说出来。\n当主人劝客人多吃:Would you like some more fish?(第 11 单元的礼貌说法);客人吃饱了说 No, thanks. I'm full!。",
+      "examples": [
+        { "text": "Fish means extra money every year.", "zh": "鱼代表\"年年有余\"。" },
+        { "text": "Long noodles mean a long life.", "zh": "长面条代表长寿。" },
+        { "text": "Would you like some more fish? — No, thanks. I'm full!", "zh": "再来点鱼吗?——不用了,谢谢。我吃饱了!" }
+      ] },
+    { "id": "en.g.luck_lock", "titleZh": "发音:luck 的 /ʌ/ 和 lock 的 /ɑː/",
+      "bodyZh": "luck /lʌk/(运气)的 u 读 /ʌ/:嘴巴放松、短促,舌头在中间;lock /lɑːk/(锁)的 o 读 /ɑː/:嘴张大、舌头往后。中国学生容易把两个都读成\"拉克\"。对比练习:luck / lock、cup / cop、fun / fan(fan 是 /æ/)。祝酒的 Cheers! 读 /tʃɪrz/,结尾 rs 要卷舌再带声。",
+      "examples": [
+        { "text": "It's for good luck.", "zh": "图个好运。(luck 读 /ʌ/)" },
+        { "text": "Happy New Year, you guys! Cheers!", "zh": "新年快乐,大家!干杯!" }
+      ] }
+  ],
+  "review": "draft"
+}

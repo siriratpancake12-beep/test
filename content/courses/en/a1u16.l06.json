@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u16.l06", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116060,
+  "titleZh": "公共厨房的规矩", "goalZh": "会读懂并说出公共厨房的规矩,出了状况会道歉", "canDoZh": "能看懂并遵守公共厨房的规矩,出了小状况时会道歉和处理",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "en.smoke", "kind": "word", "pos": "noun", "text": "smoke", "zh": "烟", "features": { "ipa": "smoʊk" }, "noteZh": "炒菜冒烟、着火冒烟都是 smoke;o 读 /oʊ/。" },
+    { "id": "en.fire_alarm", "kind": "phrase", "pos": "noun", "text": "fire alarm", "zh": "火警报警器", "features": { "ipa": "ˈfaɪɚ əˌlɑːrm" }, "noteZh": "美国宿舍的烟雾报警器很灵敏;复合词重音在前 FIRE alarm,alarm 本身重音在后 a-LARM。" },
+    { "id": "en.wall", "kind": "word", "pos": "noun", "text": "wall", "zh": "墙", "features": { "ipa": "wɑːl" }, "noteZh": "on the wall 在墙上;a 在 l 前读 /ɑː/,词尾 l 舌尖抬起。" },
+    { "id": "en.clean_up", "kind": "phrase", "pos": "verb", "text": "clean up", "zh": "收拾干净;打扫", "features": { "ipa": "ˌkliːn ˈʌp" }, "noteZh": "Clean up after you cook. 做完饭要收拾干净;连读 \"klee-nup\"。" },
+    { "id": "en.label", "kind": "word", "pos": "verb", "text": "label", "zh": "贴标签;标签", "features": { "ipa": "ˈleɪbəl" }, "noteZh": "作动词:Label your food.(给食物贴上名字);作名词:a label 标签;重音在前 LA-bel。" },
+    { "id": "en.dish", "kind": "word", "pos": "noun", "text": "dish", "zh": "盘子;碗碟;(一道)菜", "features": { "ipa": "dɪʃ" }, "noteZh": "dirty dishes 脏碗盘;a Chinese dish 一道中国菜;洗碗是 do the dishes(本单元第 1 课)。" },
+    { "id": "en.sink", "kind": "word", "pos": "noun", "text": "sink", "zh": "水池;洗碗池", "features": { "ipa": "sɪŋk" }, "noteZh": "in the sink 在水池里;nk 读 /ŋk/。" },
+    { "id": "en.pot", "kind": "word", "pos": "noun", "text": "pot", "zh": "锅(深的,煮东西用)", "features": { "ipa": "pɑːt" }, "noteZh": "煮汤、煮面用 pot;美式 o 读 /ɑː/。" }
+  ],
+  "reviewItems": ["en.kitchen", "en.rule", "en.dirty", "en.fridge", "en.open", "en.door"],
+  "lines": [
+    { "speaker": "ethan", "text": "Lei! Is that smoke?", "zh": "(楼层的公共厨房里)磊!那是烟吗?", "items": ["en.smoke"] },
+    { "speaker": "lei", "text": "Yes! My spicy chicken... Oh no, the fire alarm!", "zh": "是!我的辣子鸡……糟了,火警响了!", "items": ["en.spicy", "en.chicken", "en.fire_alarm"] },
+    { "speaker": "ethan", "text": "Open the door! Hurry up!", "zh": "快开门!快点!", "items": ["en.open", "en.door", "en.hurry_up"] },
+    { "speaker": "lei", "text": "Sorry, you guys! Sorry! It's OK!", "zh": "对不起,大家!对不起!没事了!", "items": ["en.sorry", "en.you_guys"] },
+    { "speaker": "ethan", "text": "Read the kitchen rules on the wall, Lei.", "zh": "磊,看看墙上的厨房规定吧。", "items": ["en.read", "en.kitchen", "en.rule", "en.wall"] },
+    { "speaker": "lei", "text": "Rule one: clean up after you cook.", "zh": "第一条:做完饭要收拾干净。", "items": ["en.rule", "en.clean_up", "en.after", "en.cook"] },
+    { "speaker": "lei", "text": "Rule two: label your food in the fridge.", "zh": "第二条:冰箱里的食物要贴上名字。", "items": ["en.rule", "en.label", "en.food", "en.fridge"] },
+    { "speaker": "ethan", "text": "And rule three: no dirty dishes in the sink.", "zh": "第三条:水池里不许留脏碗。", "items": ["en.rule", "en.dirty", "en.dish", "en.sink"] },
+    { "speaker": "lei", "text": "Hey, there's a dirty pot here. Is it yours?", "zh": "嘿,这儿有一口脏锅。是你的吗?", "items": ["en.hey", "en.dirty", "en.pot", "en.yours"] },
+    { "speaker": "ethan", "text": "Not mine! There's a name on it: Mike.", "zh": "不是我的!上面贴着名字:Mike。", "items": ["en.mine", "en.name"] },
+    { "speaker": "lei", "text": "Mike's pot? Then it's his job. Let's clean up!", "zh": "Mike 的锅?那就让他自己洗吧。我们收拾我们的!", "items": ["en.pot", "en.then", "en.job", "en.lets", "en.clean_up"] }
+  ],
+  "questions": [
+    { "prompt": "厨房里为什么响起了火警?", "options": ["微波炉坏了", "磊炒辣子鸡,烟太大", "伊森在做饭"], "answer": 1, "explainZh": "Is that smoke? —— Yes! My spicy chicken... Oh no, the fire alarm!——磊炒辣子鸡冒的烟。" },
+    { "prompt": "墙上的规定里没有哪一条?", "options": ["做完饭要收拾干净", "冰箱里的食物要贴名字", "晚上十点以后不能做饭", "水池里不许留脏碗"], "answer": 2, "explainZh": "三条规定是 clean up after you cook、label your food in the fridge、no dirty dishes in the sink,没有说几点以后不能做饭。" },
+    { "prompt": "那口脏锅是谁的?", "options": ["邻居 Mike 的", "伊森的", "磊的"], "answer": 0, "explainZh": "Not mine! There's a name on it: Mike.——锅上贴着 Mike 的名字。" }
+  ],
+  "grammar": [
+    { "id": "en.g.kitchen_rules", "titleZh": "公共厨房的规矩:祈使句、No + 名词、Is it yours?",
+      "bodyZh": "公共区域的规矩常用祈使句和 No + 名词:Clean up after you cook.(做完饭要收拾干净)/ Label your food.(给食物贴上名字)/ No dirty dishes in the sink.(水池里不许留脏碗)。label 可以当动词(贴标签:Label your food.),也可以当名词(标签:a label)。\n问东西是谁的:Is it yours?(是你的吗?)—— Not mine!(不是我的);mine、yours 后面不再跟名词,不说 Is it your?。出了状况先道歉:Sorry, you guys!。",
+      "examples": [
+        { "text": "Clean up after you cook.", "zh": "做完饭要收拾干净。" },
+        { "text": "Label your food in the fridge.", "zh": "冰箱里的食物要贴上名字。" },
+        { "text": "There's a dirty pot here. Is it yours? — Not mine!", "zh": "这儿有口脏锅,是你的吗?——不是我的!" }
+      ] },
+    { "id": "en.g.alarm_stress", "titleZh": "发音:alarm 重音在后,fire alarm 重音在前",
+      "bodyZh": "alarm 读 /əˈlɑːrm/,重音在后 a-LARM,第一个音节是弱元音 /ə/;两个名词组成的复合词重音一般在第一个词上:FIRE alarm(就像 BUS stop、TRAFFIC light)。label 重音在前 LA-bel,读 /ˈleɪbəl/,别读成 \"拉贝尔\"。",
+      "examples": [
+        { "text": "Oh no, the fire alarm!", "zh": "糟了,火警响了!" },
+        { "text": "Label your food.", "zh": "给你的食物贴上名字。" }
+      ] }
+  ],
+  "review": "draft"
+}

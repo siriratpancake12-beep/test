@@ -2,7 +2,7 @@
   "id": "en.a1u18.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
   "unit": "A1-18 Game on", "order": 118040,
   "titleZh": "加入校内篮球队", "goalZh": "会报名参加一项运动,问清楚比赛时间、要带什么,用 play / go / do 说自己做什么运动", "canDoZh": "能报名参加一项运动,问清楚比赛时间和要带什么",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
   "newItems": [
     { "id": "en.team", "kind": "word", "pos": "noun", "text": "team", "zh": "队;团队", "features": { "ipa": "tiːm" }, "noteZh": "ea 读长音 /iː/;a basketball team 一支篮球队;Our team needs five players.。" },
     { "id": "en.player", "kind": "word", "pos": "noun", "text": "player", "zh": "队员;选手", "features": { "ipa": "ˈpleɪɚ" }, "noteZh": "play + -er = 打球的人;a basketball player 篮球运动员;美式结尾卷舌。" },

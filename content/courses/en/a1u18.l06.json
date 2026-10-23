@@ -2,7 +2,7 @@
   "id": "en.a1u18.l06", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
   "unit": "A1-18 Game on", "order": 118060,
   "titleZh": "第一次滑雪", "goalZh": "会在雪场租装备时报鞋码和身高,听懂教练的动作指令", "canDoZh": "能在雪场租装备、报尺码和身高,听懂教练的指令",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
   "newItems": [
     { "id": "en.ski", "kind": "word", "pos": "verb", "text": "ski", "zh": "滑雪;(名词)滑雪板", "features": { "ipa": "skiː" }, "noteZh": "go skiing 去滑雪;租的雪板说 skis(一对);sk 之间不加元音,读 /skiː/。" },
     { "id": "en.snowboard", "kind": "word", "pos": "noun", "text": "snowboard", "zh": "单板(滑雪板);滑单板", "features": { "ipa": "ˈsnoʊbɔːrd" }, "noteZh": "snow + board 复合词,重音在前 SNOW-board;也能当动词:He snowboards well.。" },

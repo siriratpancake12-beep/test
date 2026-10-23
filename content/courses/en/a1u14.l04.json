@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u14.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-14 Phones & the internet", "order": 114040,
+  "titleZh": "Wi-Fi 密码是多少?", "goalZh": "会在咖啡店问 Wi-Fi 密码,听懂大小写、数字和符号,连不上时说清楚问题", "canDoZh": "能在咖啡店问 Wi-Fi 密码,听懂大小写、数字和符号,连不上时说清楚问题",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.capital", "kind": "word", "pos": "noun", "text": "capital", "zh": "大写字母", "alt": ["uppercase"], "features": { "ipa": "ˈkæpət̬əl" }, "noteZh": "capital B 大写的 B,也说 uppercase B;t 读闪音。" },
+    { "id": "en.lowercase", "kind": "word", "pos": "adj", "text": "lowercase", "zh": "小写的", "features": { "ipa": "ˌloʊɚˈkeɪs" }, "noteZh": "all lowercase 全部小写;大写是 capital 或 uppercase。" },
+    { "id": "en.symbol", "kind": "word", "pos": "noun", "text": "symbol", "zh": "符号", "features": { "ipa": "ˈsɪmbəl" }, "noteZh": "密码里的 @、#、! 这些都叫 symbols;重音在前 SYM-bol。" },
+    { "id": "en.space", "kind": "word", "pos": "noun", "text": "space", "zh": "空格;空间", "features": { "ipa": "speɪs" }, "noteZh": "No spaces. 中间没有空格;sp 之间不加元音。" },
+    { "id": "en.dash", "kind": "word", "pos": "noun", "text": "dash", "zh": "短横线(-)", "features": { "ipa": "dæʃ" }, "noteZh": "邮箱、密码里的 - 读 dash,下划线 _ 读 underscore;a 读 /æ/,结尾 sh 是 /ʃ/。" },
+    { "id": "en.spell", "kind": "word", "pos": "verb", "text": "spell", "zh": "拼写", "features": { "ipa": "spel" }, "noteZh": "Could you spell it, please? 能拼一下吗?;第 1 单元学过 How do you spell…?。结尾 l 要收住。" },
+    { "id": "en.connect", "kind": "word", "pos": "verb", "text": "connect", "zh": "连接;连上(网)", "features": { "ipa": "kəˈnekt" }, "noteZh": "It isn't connecting. 连不上;connect to the Wi-Fi 连 Wi-Fi。结尾 ct 两个辅音都要收住。" },
+    { "id": "en.network", "kind": "word", "pos": "noun", "text": "network", "zh": "网络(名称)", "features": { "ipa": "ˈnetwɝːk" }, "noteZh": "Which network are you on? 你连的是哪个网络?;复合词重音在前 NET-work。" }
+  ],
+  "reviewItems": ["en.wi_fi", "en.password", "en.type", "en.doesnt_work", "en.oh_zero"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. What's the Wi-Fi password?", "zh": "(磊和索菲亚在市中心的一家咖啡店写作业)打扰一下,Wi-Fi 密码是多少?", "items": ["en.excuse_me", "en.wi_fi", "en.password"] },
+    { "speaker": "barista", "text": "Capital B, e-a-n-s, two-oh-two-six. No spaces, no dashes.", "zh": "(咖啡师说得飞快)大写 B,e-a-n-s,2-0-2-6。没有空格,没有横线。", "items": ["en.capital", "en.oh_zero", "en.space", "en.dash"] },
+    { "speaker": "lei", "text": "Sorry, could you spell it, please?", "zh": "不好意思,能拼一下吗?", "items": ["en.sorry", "en.could", "en.spell"] },
+    { "speaker": "barista", "text": "Sure. Capital B, then lowercase e-a-n-s, then two-oh-two-six.", "zh": "好。大写 B,然后小写 e-a-n-s,再是 2-0-2-6。", "items": ["en.sure", "en.capital", "en.then", "en.lowercase", "en.oh_zero"] },
+    { "speaker": "lei", "text": "Thanks! … Hmm, it isn't connecting.", "zh": "谢谢!……嗯,连不上。", "items": ["en.thank_you", "en.connect"] },
+    { "speaker": "sofia", "text": "Let me try. … No, it isn't working.", "zh": "我来试试。……不行,还是连不上。", "items": ["en.let_me", "en.try", "en.doesnt_work"] },
+    { "speaker": "lei", "text": "Excuse me. The Wi-Fi isn't working.", "zh": "打扰一下,Wi-Fi 连不上。", "items": ["en.excuse_me", "en.wi_fi", "en.doesnt_work"] },
+    { "speaker": "barista", "text": "Which network are you on?", "zh": "你连的是哪个网络?", "items": ["en.which", "en.network"] },
+    { "speaker": "lei", "text": "Pine Cafe. I typed B, e-a-n-s, two, O, two, six.", "zh": "Pine Cafe。我输的是 B,e-a-n-s,2,字母 O,2,6。", "items": ["en.cafe", "en.type"] },
+    { "speaker": "barista", "text": "Oh, sorry! It's a zero, not an O.", "zh": "哦,不好意思!那是数字零,不是字母 O。", "items": ["en.sorry"] },
+    { "speaker": "lei", "text": "Ha! In English, zero is “oh,” too. Now it's working!", "zh": "哈!英语里零也读 oh。现在连上了!", "items": ["en.oh_zero", "en.doesnt_work"] },
+    { "speaker": "sofia", "text": "Great! Now let's do our homework.", "zh": "太好了!现在开始写作业吧。", "items": ["en.great", "en.lets", "en.homework"] }
+  ],
+  "questions": [
+    { "prompt": "Wi-Fi 密码的第一个字母是什么?", "options": ["小写的 b", "大写的 B", "数字 8"], "answer": 1, "explainZh": "咖啡师说 Capital B(大写 B),后面才是小写的 e-a-n-s。" },
+    { "prompt": "为什么一开始连不上?", "options": ["网络选错了", "咖啡店的网坏了", "磊把数字 0 输成了字母 O"], "answer": 2, "explainZh": "咖啡师说 two-oh-two-six,磊输成了 two, O, two, six;咖啡师说 It's a zero, not an O.。" },
+    { "prompt": "No spaces 是什么意思?", "options": ["没有空格", "没有符号", "没有大写字母"], "answer": 0, "explainZh": "space 是空格,No spaces. 就是密码中间没有空格。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u14_spell_password", "titleZh": "听密码、拼密码:capital B / lowercase / No spaces.",
+      "bodyZh": "别人报密码时常这样说:capital B(大写 B,也说 uppercase B)、lowercase e-a-n-s(小写的 e-a-n-s)、No spaces.(中间没有空格)、No dashes.(没有横线 -),@、# 这些符号叫 symbols。数字常一个一个地读,0 在口语里常读成 oh(第 1 单元学过),所以容易和字母 O 搞混——没听清就请对方拼出来:Could you spell it, please?,或者直接确认:Is that a zero or an O?。同样容易混的还有字母 I、小写 l 和数字 1。",
+      "examples": [
+        { "text": "Capital B, then lowercase e-a-n-s.", "zh": "大写 B,然后是小写的 e-a-n-s。" },
+        { "text": "No spaces, no dashes.", "zh": "没有空格,没有横线。" },
+        { "text": "Is that a zero or an O?", "zh": "那是数字零还是字母 O?" }
+      ] },
+    { "id": "en.g.u14_isnt_connecting", "titleZh": "现在进行时说故障:It isn't connecting. / It isn't working.",
+      "bodyZh": "眼前的东西出了问题,美国人常用现在进行时:It isn't connecting.(连不上)、It isn't working.(不好使)。它和第 12 单元的 It doesn't work. 意思差不多,进行时更强调“现在这会儿”。修好了就说 Now it's working!。问别人连的是哪个网络:Which network are you on?(复习第 5 单元的 which)。",
+      "examples": [
+        { "text": "It isn't connecting.", "zh": "连不上。" },
+        { "text": "Now it's working!", "zh": "现在好了!" }
+      ] }
+  ],
+  "review": "draft"
+}

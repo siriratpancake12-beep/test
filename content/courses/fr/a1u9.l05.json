@@ -1,0 +1,53 @@
+{
+  "id": "fr.a1u9.l05", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109050,
+  "titleZh": "我要出门几天——告诉宿舍管理员", "goalZh": "会告诉别人自己从哪天到哪天不在,用 Vous pouvez… ? 礼貌地请人帮忙", "canDoZh": "能告诉宿舍管理员自己哪天走、哪天回来,请他帮忙代收包裹",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "fr.colis", "kind": "word", "pos": "noun", "text": "le colis", "zh": "包裹", "features": { "gender": "m", "ipa": "lə kɔ.li" }, "noteZh": "阳性;词尾 s 不发音,单复数同形;邮寄的包裹。" },
+    { "id": "fr.courrier", "kind": "word", "pos": "noun", "text": "le courrier", "zh": "信件(总称)", "features": { "gender": "m", "ipa": "lə ku.ʁje" }, "noteZh": "收到的信、明信片等纸质邮件,不可数,用单数;ou 读 [u],ier 读 [je]。" },
+    { "id": "fr.garder", "kind": "word", "pos": "verb", "text": "garder", "zh": "保管;留着", "features": { "ipa": "gaʁ.de" }, "noteZh": "-er 规则动词;Vous pouvez garder mon colis ? 您能替我保管包裹吗?;g 是浊音。" },
+    { "id": "fr.la_lieu", "kind": "word", "pos": "adv", "text": "là", "zh": "那里;在场", "features": { "ipa": "la" }, "noteZh": "带重音符号的 à,和冠词 la 读音一样;être là = 在(这儿);Je ne suis pas là. 我不在。" },
+    { "id": "fr.avec_plaisir", "kind": "phrase", "pos": "phrase", "text": "Avec plaisir !", "zh": "很乐意!(答应请求或邀请)", "features": { "ipa": "a.vɛk plɛ.ziʁ" }, "noteZh": "答应别人的请求、接受邀请都可以用,比 Oui 更热情;两个元音之间的 s 读 [z]。" },
+    { "id": "fr.accueil", "kind": "word", "pos": "noun", "text": "l'accueil", "zh": "前台;接待处", "features": { "gender": "m", "ipa": "la.kœj" }, "noteZh": "元音开头,阳性;ueil 读 [œj];宿舍、学校、公司的前台都叫 l'accueil(酒店多说 la réception)。" },
+    { "id": "fr.absent", "kind": "word", "pos": "adj", "text": "absent", "zh": "不在的;缺席的(阳性)", "features": { "ipa": "ap.sɑ̃" }, "noteZh": "b 在 s 前读成清音 [p]:[ap.sɑ̃];阴性 absente [ap.sɑ̃t]。" },
+    { "id": "fr.noel", "kind": "word", "pos": "propn", "text": "Noël", "zh": "圣诞节", "features": { "ipa": "nɔ.ɛl" }, "noteZh": "ë 上的两点表示 o 和 e 分开读:[nɔ.ɛl];一般不加冠词:à Noël(在圣诞节)、pour Noël(为圣诞节)。" }
+  ],
+  "reviewItems": ["fr.partir", "fr.mere", "fr.signer", "fr.pouvoir", "fr.numero", "fr.voyage"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour, monsieur ! Samedi, je vais partir pour Rome.", "zh": "(12 月 17 日星期四,宿舍前台)您好!星期六我要去罗马。", "items": ["fr.bonjour", "fr.monsieur", "fr.samedi", "fr.je", "fr.aller", "fr.partir", "fr.pour"] },
+    { "speaker": "gardien", "text": "Très bien ! Vous partez combien de temps ?", "zh": "好啊!您走多长时间?", "items": ["fr.tres", "fr.bien", "fr.vous", "fr.partir", "fr.combien_de_temps"] },
+    { "speaker": "hao", "text": "Je ne suis pas là du 19 au 23 décembre.", "zh": "12 月 19 日到 23 日我不在。", "items": ["fr.je", "fr.ne_pas", "fr.etre", "fr.la_lieu", "fr.de", "fr.du", "fr.dix_neuf", "fr.a", "fr.au", "fr.vingt", "fr.trois", "fr.decembre"] },
+    { "speaker": "gardien", "text": "D'accord : chambre huit, absent du 19 au 23.", "zh": "好的,我记一下:8 号房,19 日到 23 日不在。", "items": ["fr.d_accord", "fr.chambre", "fr.huit", "fr.absent", "fr.de", "fr.du", "fr.dix_neuf", "fr.a", "fr.au", "fr.vingt", "fr.trois"] },
+    { "speaker": "hao", "text": "Vous pouvez garder mon courrier, s'il vous plaît ?", "zh": "您能替我保管一下信件吗?", "items": ["fr.vous", "fr.pouvoir", "fr.garder", "fr.mon", "fr.courrier", "fr.sil_vous_plait"] },
+    { "speaker": "gardien", "text": "Avec plaisir ! Je garde votre courrier ici, à l'accueil.", "zh": "很乐意!您的信件我收在这儿,放在前台。", "items": ["fr.avec_plaisir", "fr.je", "fr.garder", "fr.votre", "fr.courrier", "fr.ici", "fr.a", "fr.accueil"] },
+    { "speaker": "hao", "text": "Il y a peut-être aussi un colis de ma mère, pour Noël.", "zh": "可能还会有一个包裹,是我妈妈寄来的圣诞礼物。", "items": ["fr.il_y_a", "fr.peut_etre", "fr.aussi", "fr.un", "fr.colis", "fr.de", "fr.ma", "fr.mere", "fr.pour", "fr.noel"] },
+    { "speaker": "gardien", "text": "Un colis de Chine ? D'accord, je signe pour vous.", "zh": "从中国寄来的包裹?好的,我替您签收。", "items": ["fr.un", "fr.colis", "fr.de", "fr.chine", "fr.d_accord", "fr.je", "fr.signer", "fr.pour", "fr.vous"] },
+    { "speaker": "gardien", "text": "Et votre numéro de portable ? C'est pour le colis.", "zh": "再留个手机号吧?包裹的事要用。", "items": ["fr.et", "fr.votre", "fr.numero", "fr.de", "fr.portable", "fr.cest", "fr.pour", "fr.colis"] },
+    { "speaker": "hao", "text": "C'est le zéro six, soixante et onze, quatre-vingt-quatre, quatre-vingt-dix-huit, vingt.", "zh": "06 71 84 98 20。", "items": ["fr.cest", "fr.zero", "fr.six", "fr.soixante", "fr.et", "fr.onze", "fr.quatre_vingts", "fr.quatre", "fr.quatre_vingt_dix", "fr.huit", "fr.vingt"] },
+    { "speaker": "gardien", "text": "Merci, Hao. Bon voyage !", "zh": "谢谢,浩。一路顺风!", "items": ["fr.merci", "fr.bon", "fr.voyage"] },
+    { "speaker": "hao", "text": "Merci beaucoup, monsieur. À bientôt !", "zh": "太感谢您了。回头见!", "items": ["fr.merci", "fr.beaucoup", "fr.monsieur", "fr.a_bientot"] }
+  ],
+  "questions": [
+    { "prompt": "浩哪几天不在宿舍?", "options": ["12 月 17 日到 19 日", "12 月 23 日到 24 日", "12 月 19 日到 23 日"], "answer": 2, "explainZh": "Je ne suis pas là du 19 au 23 décembre.——du … au … 是“从……到……”。" },
+    { "prompt": "管理员为什么要浩的手机号?", "options": ["包裹的事要用", "办入住手续要用", "圣诞节给他打电话"], "answer": 0, "explainZh": "管理员说:Et votre numéro de portable ? C'est pour le colis.(包裹的事要用。)" },
+    { "prompt": "包裹是谁寄来的?", "options": ["克洛艾", "浩的妈妈", "卢卡的妈妈"], "answer": 1, "explainZh": "Il y a peut-être aussi un colis de ma mère, pour Noël.——是妈妈从中国寄来的圣诞礼物。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.du_au_dates", "titleZh": "从……到……:du … au … 和 de … à …",
+      "bodyZh": "说“从哪天到哪天”,用 du + 日期 + au + 日期:du 19 au 23 décembre(12 月 19 日到 23 日)。日期前面本来有冠词 le(le 19 décembre),de + le 缩合成 du,à + le 缩合成 au,和第 6 单元的 au supermarché、du Canada 是同一个规律。钟点、城市前面没有冠词,就用 de … à …:de sept heures à dix heures(7 点到 10 点)、de Lyon à Turin(从里昂到都灵)。月份放在最后,只说一次:du 19 au 23 décembre;中文“12 月 19 日到 23 日”是月份在前。",
+      "examples": [
+        { "text": "Je ne suis pas là du 19 au 23 décembre.", "zh": "12 月 19 日到 23 日我不在。" },
+        { "text": "Le petit-déjeuner, c'est de sept heures à dix heures.", "zh": "早餐是 7 点到 10 点。" },
+        { "text": "Le train va de Lyon à Turin.", "zh": "这趟火车从里昂开到都灵。" }
+      ] },
+    { "id": "fr.g.vous_pouvez", "titleZh": "礼貌地请人帮忙:Vous pouvez… ?",
+      "bodyZh": "请别人帮忙,最常用 pouvoir 的问句:Vous pouvez + 动词原形 … ?(您能……吗?)句末加 s'il vous plaît 更客气;对朋友说 Tu peux … ?。对方答应:Oui, d'accord. / Avec plaisir !(很乐意!);不行就说 Désolé…。中文说“麻烦您帮我保管一下”,法语不用“帮”这个词,直接说要对方做的事:Vous pouvez garder mon courrier ?。说自己接下来的安排,用近将来时 aller + 动词原形:Samedi, je vais partir pour Rome.(partir pour + 城市:动身去某地)。",
+      "examples": [
+        { "text": "Vous pouvez garder mon courrier, s'il vous plaît ?", "zh": "您能替我保管一下信件吗?" },
+        { "text": "Tu peux garder mon colis ?", "zh": "你能帮我收着包裹吗?" },
+        { "text": "Avec plaisir !", "zh": "很乐意!" }
+      ] }
+  ],
+  "review": "draft"
+}

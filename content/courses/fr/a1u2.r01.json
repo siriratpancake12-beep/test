@@ -1,0 +1,41 @@
+{
+  "id": "fr.a1u2.r01", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102045,
+  "titleZh": "卡里姆咖啡馆的黑板菜单(菜单)", "goalZh": "看懂咖啡馆的黑板菜单和价格写法,会算两样东西一共多少钱",
+  "canDoZh": "能看懂咖啡馆的饮料和小吃菜单,找到价格,算出两样东西一共多少钱(20 欧以内)",
+  "skills": ["read", "write"], "estimatedMinutes": 16.5,
+  "newItems": [
+    { "id": "fr.boisson", "kind": "word", "pos": "noun", "text": "la boisson", "zh": "饮料", "features": { "gender": "f", "ipa": "la bwa.sɔ̃" }, "noteZh": "阴性;ss 读 [s]。菜单上饮料常单列一栏:Les boissons。b 和 p 要分清,别说成 poisson(鱼)。" },
+    { "id": "fr.prix", "kind": "word", "pos": "noun", "text": "le prix", "zh": "价格", "features": { "gender": "m", "ipa": "lə pʁi" }, "noteZh": "阳性;x 不发音,单复数同形:les prix。问价格还是用 C'est combien ?" },
+    { "id": "fr.croque_monsieur", "kind": "word", "pos": "noun", "text": "le croque-monsieur", "zh": "火腿奶酪热三明治", "features": { "gender": "m", "ipa": "lə kʁɔk.mə.sjø" }, "noteZh": "法国咖啡馆的经典小吃:两片面包夹火腿和奶酪,烤热了吃。monsieur 读 [mə.sjø],r 不发音。" },
+    { "id": "fr.seulement", "kind": "word", "pos": "adv", "text": "seulement", "zh": "只;仅仅", "features": { "ipa": "sœl.mɑ̃" }, "noteZh": "中间的 e 不发音:[sœl.mɑ̃];说便宜:un euro seulement(只要一欧)。" }
+  ],
+  "reviewItems": ["fr.chocolat_chaud", "fr.croissant", "fr.euro", "fr.adorer", "fr.vingt", "fr.cest_combien"],
+  "lines": [
+    { "speaker": "narrator", "text": "Les boissons : le café, un euro vingt ; le thé, deux euros vingt.", "zh": "(大学旁边那家咖啡馆门口的黑板菜单)饮料:咖啡 1.20 欧;茶 2.20 欧。", "items": ["fr.boisson", "fr.cafe", "fr.un", "fr.euro", "fr.vingt", "fr.the", "fr.deux"] },
+    { "speaker": "narrator", "text": "Le chocolat chaud : trois euros. Le jus d'orange : quatre euros.", "zh": "热巧克力:3 欧。橙汁:4 欧。", "items": ["fr.chocolat_chaud", "fr.trois", "fr.euro", "fr.jus_dorange", "fr.quatre"] },
+    { "speaker": "narrator", "text": "Le croissant : un euro. Le pain au chocolat : un euro vingt.", "zh": "可颂:1 欧。巧克力面包:1.20 欧。", "items": ["fr.croissant", "fr.un", "fr.euro", "fr.pain_au_chocolat", "fr.vingt"] },
+    { "speaker": "narrator", "text": "Le sandwich : cinq euros. Le croque-monsieur : six euros vingt.", "zh": "三明治:5 欧。火腿奶酪热三明治:6.20 欧。", "items": ["fr.sandwich", "fr.cinq", "fr.euro", "fr.croque_monsieur", "fr.six", "fr.vingt"] },
+    { "speaker": "narrator", "text": "Le croissant ? Un euro seulement : c'est un très bon prix !", "zh": "(黑板下面还有几句说明)可颂呢?只要一欧,价格很实惠!", "items": ["fr.croissant", "fr.un", "fr.euro", "fr.seulement", "fr.cest", "fr.tres", "fr.bon", "fr.prix"] },
+    { "speaker": "narrator", "text": "Le jus d'orange ? Quatre euros : c'est beaucoup !", "zh": "橙汁呢?4 欧,有点贵!", "items": ["fr.jus_dorange", "fr.quatre", "fr.euro", "fr.cest", "fr.beaucoup"] },
+    { "speaker": "narrator", "text": "Vous aimez le thé ? Il est très bon, avec ou sans lait.", "zh": "您喜欢喝茶吗?这里的茶很好喝,加不加牛奶都行。", "items": ["fr.vous", "fr.aimer", "fr.the", "fr.il", "fr.etre", "fr.tres", "fr.bon", "fr.avec", "fr.ou", "fr.sans", "fr.lait"] },
+    { "speaker": "narrator", "text": "Et Karim adore le croque-monsieur !", "zh": "卡里姆最爱的是火腿奶酪热三明治!", "items": ["fr.et", "fr.adorer", "fr.croque_monsieur"] },
+    { "speaker": "narrator", "text": "Un thé et un croissant ? C'est combien ?", "zh": "一杯茶加一个可颂?一共多少钱?", "items": ["fr.un", "fr.the", "fr.et", "fr.croissant", "fr.cest_combien"] }
+  ],
+  "questions": [
+    { "prompt": "一杯茶和一个可颂一共多少钱?", "options": ["2.20 欧", "3.20 欧", "4 欧"], "answer": 1, "explainZh": "黑板上写着 le thé, deux euros vingt(2.20 欧)和 le croissant : un euro(1 欧),加起来是 3.20 欧,法语说 trois euros vingt。" },
+    { "prompt": "菜单上哪样最便宜?", "options": ["可颂", "咖啡", "三明治"], "answer": 0, "explainZh": "Le croissant ? Un euro seulement : c'est un très bon prix !(可颂只要一欧,价格很实惠!)咖啡是 1.20 欧,三明治是 5 欧。" },
+    { "prompt": "热巧克力多少钱?", "options": ["4 欧", "1.20 欧", "3 欧"], "answer": 2, "explainZh": "Le chocolat chaud : trois euros.(热巧克力:3 欧。)4 欧的是橙汁。" },
+    { "prompt": "卡里姆最爱菜单上的什么?", "options": ["橙汁", "火腿奶酪热三明治", "加牛奶的茶"], "answer": 1, "explainZh": "最后一句说明写着 Karim adore le croque-monsieur !" }
+  ],
+  "grammar": [
+    { "id": "fr.g.prix_carte", "titleZh": "菜单上的价格:逗号是小数点",
+      "bodyZh": "法国菜单上的价格写成 1,20 €:法语用逗号当小数点,欧元符号常写在数字后面。读的时候先说欧元,再直接说分:1,20 € = un euro vingt,2,20 € = deux euros vingt;整数就说 trois euros。两欧以上 euros 要加 s,但 s 不发音,和前面的数字联诵:deux‿euros [dø.zø.ʁo]。\n菜单上的句子常常省掉动词,用冒号连起来:Le café : un euro vingt.(冒号前空一格。)问价钱用 C'est combien ?,说总数用 Ça fait…;说便宜可以加 seulement(只要),觉得贵可以说 C'est beaucoup !(太多了!)",
+      "examples": [
+        { "text": "Le café : un euro vingt.", "zh": "咖啡:1.20 欧。" },
+        { "text": "Le croissant, c'est un euro seulement !", "zh": "可颂只要一欧!" },
+        { "text": "Un café et un croissant ? Ça fait deux euros vingt.", "zh": "一杯咖啡加一个可颂?一共 2.20 欧。" }
+      ] }
+  ],
+  "review": "draft"
+}

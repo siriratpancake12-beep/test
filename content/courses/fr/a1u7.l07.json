@@ -1,0 +1,53 @@
+{
+  "id": "fr.a1u7.l07", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107070,
+  "titleZh": "在超市——一包、一盒、一升", "goalZh": "会用包装量词 + de 说要买的东西和数量,看着清单在超市买东西、付钱", "canDoZh": "能看着购物清单在超市买东西,说出一包、一盒、一升、一打、一罐",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "fr.liste", "kind": "word", "pos": "noun", "text": "la liste", "zh": "清单;单子", "features": { "gender": "f", "ipa": "la list" }, "noteZh": "la liste de courses = 购物清单;词尾 st 都要读出来。" },
+    { "id": "fr.paquet", "kind": "word", "pos": "noun", "text": "le paquet", "zh": "包;袋(包装)", "features": { "gender": "m", "ipa": "lə pa.kɛ" }, "noteZh": "qu 读 [k],t 不发音;un paquet de pâtes(一包意大利面),后面用 de,不加冠词。" },
+    { "id": "fr.pates", "kind": "word", "pos": "noun", "text": "les pâtes", "zh": "意大利面;面食", "features": { "gender": "f", "ipa": "le pɑt" }, "noteZh": "总是用复数,阴性;意大利面、通心粉都叫 les pâtes;â 上的符号不能漏,s 不发音。" },
+    { "id": "fr.boite", "kind": "word", "pos": "noun", "text": "la boîte", "zh": "盒子;一盒", "features": { "gender": "f", "ipa": "la bwat" }, "noteZh": "î 上的符号不能漏,oî 读 [wa];une boîte de thé(一盒茶)。" },
+    { "id": "fr.litre", "kind": "word", "pos": "noun", "text": "le litre", "zh": "升", "features": { "gender": "m", "ipa": "lə litʁ" }, "noteZh": "deux litres de lait(两升牛奶);词尾 tre 里的 r 要轻轻带出来。" },
+    { "id": "fr.douzaine", "kind": "word", "pos": "noun", "text": "la douzaine", "zh": "一打(十二个)", "features": { "gender": "f", "ipa": "la du.zɛn" }, "noteZh": "来自 douze(十二);une douzaine d'œufs(一打鸡蛋),元音前 de 变 d'。" },
+    { "id": "fr.pot", "kind": "word", "pos": "noun", "text": "le pot", "zh": "罐;罐子", "features": { "gender": "m", "ipa": "lə po" }, "noteZh": "t 不发音;un pot de confiture(一罐果酱);pot 是广口带盖的罐子,细口的瓶子是 la bouteille。" },
+    { "id": "fr.chips", "kind": "word", "pos": "noun", "text": "les chips", "zh": "薯片", "features": { "gender": "f", "ipa": "le ʃips" }, "noteZh": "从英语来,总是用复数,阴性;ch 读 [ʃ],ps 都读出来 [ʃips];薯条是 les frites。" }
+  ],
+  "reviewItems": ["fr.lait", "fr.oeuf", "fr.confiture", "fr.trop", "fr.courses"],
+  "lines": [
+    { "speaker": "lucas", "text": "Voilà notre liste de courses !", "zh": "(星期六下午,在超市)这是我们的购物清单!", "items": ["fr.voila", "fr.notre", "fr.liste", "fr.de", "fr.courses"] },
+    { "speaker": "hao", "text": "D'abord, un paquet de pâtes et une boîte de thé.", "zh": "先拿一包意大利面和一盒茶。", "items": ["fr.dabord", "fr.un", "fr.paquet", "fr.de", "fr.pates", "fr.et", "fr.une", "fr.boite", "fr.the"] },
+    { "speaker": "lucas", "text": "Et deux litres de lait, et une douzaine d'œufs.", "zh": "还有两升牛奶、一打鸡蛋。", "items": ["fr.et", "fr.deux", "fr.litre", "fr.de", "fr.lait", "fr.une", "fr.douzaine", "fr.oeuf"] },
+    { "speaker": "hao", "text": "Un pot de confiture aussi : tu adores la confiture !", "zh": "再来一罐果酱:你最爱吃果酱了!", "items": ["fr.un", "fr.pot", "fr.de", "fr.confiture", "fr.aussi", "fr.tu", "fr.adorer"] },
+    { "speaker": "lucas", "text": "Oui ! Et trois paquets de chips !", "zh": "对!再来三包薯片!", "items": ["fr.oui", "fr.et", "fr.trois", "fr.paquet", "fr.de", "fr.chips"] },
+    { "speaker": "hao", "text": "Trois paquets ? C'est trop, Lucas ! Un paquet, c'est bien.", "zh": "三包?太多了,卢卡!一包就够了。", "items": ["fr.trois", "fr.paquet", "fr.cest", "fr.trop", "fr.un", "fr.bien"] },
+    { "speaker": "lucas", "text": "D'accord, deux paquets ! Ça fait combien ?", "zh": "好吧,两包!一共多少钱?", "items": ["fr.d_accord", "fr.deux", "fr.paquet", "fr.ca_fait", "fr.cest_combien"] },
+    { "speaker": "hao", "text": "Ça fait dix-sept euros. On paie par carte, ici ?", "zh": "(在自助收银台扫完码)一共十七欧。我们在这儿刷卡付吧?", "items": ["fr.ca_fait", "fr.dix_sept", "fr.euro", "fr.on", "fr.payer", "fr.par", "fr.carte", "fr.ici"] },
+    { "speaker": "lucas", "text": "Oui, et aujourd'hui, c'est moi : je paie !", "zh": "好,今天我来付!", "items": ["fr.oui", "fr.et", "fr.aujourd_hui", "fr.cest", "fr.moi", "fr.je", "fr.payer"] },
+    { "speaker": "hao", "text": "Merci ! Et la semaine prochaine, c'est moi !", "zh": "谢谢!下个星期我来付!", "items": ["fr.merci", "fr.et", "fr.semaine", "fr.prochain", "fr.cest", "fr.moi"] }
+  ],
+  "questions": [
+    { "prompt": "他们买了几升牛奶?", "options": ["一升", "两升", "十二升"], "answer": 1, "explainZh": "Et deux litres de lait…——deux litres = 两升。" },
+    { "prompt": "une douzaine d'œufs 是多少个鸡蛋?", "options": ["十二个", "十个", "二十个"], "answer": 0, "explainZh": "douzaine 来自 douze(十二),une douzaine = 一打,十二个。" },
+    { "prompt": "卢卡最后买了几包薯片?", "options": ["一包", "三包", "两包"], "answer": 2, "explainZh": "卢卡想要三包,浩说 C'est trop !,最后卢卡说 D'accord, deux paquets !" },
+    { "prompt": "这次谁付的钱?", "options": ["浩", "卢卡", "两个人各付一半"], "answer": 1, "explainZh": "Oui, et aujourd'hui, c'est moi : je paie !——卢卡付;浩说下个星期他来付。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.packaging_de", "titleZh": "包装量词 + de:un paquet de、une boîte de、un litre de",
+      "bodyZh": "说“一包、一盒、一升……”和第 1 课的 un kilo de pommes 一样:量词 + de + 名词,de 后面不加冠词:un paquet de pâtes(一包意大利面)、une boîte de thé(一盒茶)、deux litres de lait(两升牛奶)、un pot de confiture(一罐果酱)、trois paquets de chips(三包薯片)。✗ un paquet des pâtes、✗ un litre du lait。\n元音前 de 省音成 d':une douzaine d'œufs(一打鸡蛋)。\nde 后面的名词:能数的用复数(pâtes、œufs、chips),数不清的用单数(lait、thé、confiture)。量词本身也分阴阳性,要连冠词一起记:le paquet、le pot、le litre,la boîte、la douzaine。\n中文的“一包、一盒”是量词,放在名词前面;法语的 paquet、boîte 是名词,所以中间要加 de。",
+      "examples": [
+        { "text": "Je voudrais un paquet de pâtes.", "zh": "我要一包意大利面。" },
+        { "text": "On prend deux litres de lait.", "zh": "我们买两升牛奶。" },
+        { "text": "Il y a une douzaine d'œufs.", "zh": "有一打鸡蛋。" },
+        { "text": "Trois paquets de chips ? C'est trop !", "zh": "三包薯片?太多了!" }
+      ] },
+    { "id": "fr.g.supermarket_phrases", "titleZh": "买东西时的几句口语:C'est trop ! / Ça fait combien ? / c'est moi",
+      "bodyZh": "C'est trop !(太多了!)trop 单独用,意思是“太多、太过分了”;后面接形容词是“太……”:trop cher(第 3 课)。\n问总价:Ça fait combien ?(一共多少钱?)回答:Ça fait dix-sept euros.(第 2 单元的 Ça fait… 是店员算账的说法,顾客也可以用来问。)\n朋友之间轮流付钱:Aujourd'hui, c'est moi !(今天我来付!)La semaine prochaine, c'est moi !(下个星期我来!)这个 c'est moi 就是第 5 单元读物里的“X, c'est moi”(X 我来)。",
+      "examples": [
+        { "text": "Voilà notre liste de courses.", "zh": "这是我们的购物清单。" },
+        { "text": "Ça fait combien ?", "zh": "一共多少钱?" },
+        { "text": "La semaine prochaine, c'est moi !", "zh": "下个星期我来付!" }
+      ] }
+  ],
+  "review": "draft"
+}

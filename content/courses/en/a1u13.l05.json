@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u13.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113050,
+  "titleZh": "航班取消了", "goalZh": "会在机场柜台说清楚航班取消了,问还有没有别的航班、能不能改签和安排住处", "canDoZh": "能在机场问清楚航班取消后怎么办:改签、等多久、能不能安排住处",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.counter", "kind": "word", "pos": "noun", "text": "counter", "zh": "柜台", "features": { "ipa": "ˈkaʊnt̬ɚ" }, "noteZh": "机场、银行、商店的柜台;ou 读 /aʊ/,t 读闪音,结尾卷舌。" },
+    { "id": "en.storm", "kind": "word", "pos": "noun", "text": "storm", "zh": "暴风雨;暴风雪", "features": { "ipa": "stɔːrm" }, "noteZh": "a big storm 一场大暴风雨(冬天也可能是暴风雪);st 之间不加元音,or 要卷舌。" },
+    { "id": "en.what_can_we_do", "kind": "phrase", "pos": "phrase", "text": "What can we do", "zh": "我们该怎么办?", "features": { "ipa": "ˌwʌt kən wi ˈduː" }, "noteZh": "遇到麻烦时向工作人员求助:What can we do?;can 弱读成 /kən/,重音落在 do 上。" },
+    { "id": "en.another", "kind": "word", "pos": "det", "text": "another", "zh": "另一个;再一个", "features": { "ipa": "əˈnʌðɚ" }, "noteZh": "Is there another one tomorrow? 明天还有别的班次吗?;another 后面跟单数名词或 one。th 是浊音 /ð/。" },
+    { "id": "en.full", "kind": "word", "pos": "adj", "text": "full", "zh": "满的", "features": { "ipa": "fʊl" }, "noteZh": "It's full. 满了(没有位子了);吃饱了也说 I'm full.。u 读短的 /ʊ/,结尾 l 要收住。" },
+    { "id": "en.because_of", "kind": "phrase", "pos": "prep", "text": "because of", "zh": "因为(后面接名词)", "features": { "ipa": "bɪˈkʌz əv" }, "noteZh": "because of the weather 因为天气;because 后面接句子(because it's raining),because of 后面接名词。口语常读成“b-cuz of”。" },
+    { "id": "en.awful", "kind": "word", "pos": "adj", "text": "awful", "zh": "糟糕的;很差的", "features": { "ipa": "ˈɑːfəl" }, "noteZh": "This is awful! 太糟了!;aw 美式读 /ɑː/,和 off 的元音一样。" },
+    { "id": "en.house", "kind": "word", "pos": "noun", "text": "house", "zh": "房子;家", "features": { "ipa": "haʊs" }, "noteZh": "Come to my house. 来我家吧;house 是房子本身,home 是“家”的感觉。ou 读 /aʊ/,结尾是清音 s。" }
+  ],
+  "reviewItems": ["en.canceled", "en.weather", "en.ticket", "en.get_on", "en.tomorrow"],
+  "lines": [
+    { "speaker": "sofia", "text": "Oh no! Our 7:15 to Seattle is canceled! Let's go to the counter.", "zh": "(周四傍晚,洛杉矶机场的大屏幕上显示航班取消)天哪!我们七点一刻飞西雅图的航班取消了!我们去柜台问问吧。", "items": ["en.canceled", "en.lets", "en.go", "en.counter"] },
+    { "speaker": "lei", "text": "Excuse me. Our 7:15 is canceled. What can we do?", "zh": "打扰一下,我们七点一刻的航班取消了。我们该怎么办?", "items": ["en.excuse_me", "en.canceled", "en.what_can_we_do"] },
+    { "speaker": "staff", "text": "I'm sorry. There's a big storm in Seattle.", "zh": "很抱歉。西雅图有一场大暴风雪。", "items": ["en.sorry", "en.big", "en.storm"] },
+    { "speaker": "staff", "text": "Nothing is going there today, because of the weather.", "zh": "因为天气原因,今天去西雅图的航班都走不了。", "items": ["en.go", "en.today", "en.because_of", "en.weather"] },
+    { "speaker": "lei", "text": "Is there another one tomorrow?", "zh": "明天还有别的班次吗?", "items": ["en.another", "en.tomorrow"] },
+    { "speaker": "staff", "text": "Yes, tomorrow morning at 9:10. It isn't full.", "zh": "有,明天早上九点十分,还没满。", "items": ["en.tomorrow", "en.morning", "en.full"] },
+    { "speaker": "lei", "text": "Great. Can we get on that one?", "zh": "太好了。我们能改到那一班吗?", "items": ["en.great", "en.can", "en.get_on"] },
+    { "speaker": "staff", "text": "Sure. Here are your new tickets.", "zh": "可以。这是你们的新机票。", "items": ["en.sure", "en.new", "en.ticket"] },
+    { "speaker": "sofia", "text": "This is awful! Can you give us a room for tonight?", "zh": "太糟了!今晚能给我们安排个房间吗?", "items": ["en.awful", "en.can", "en.give", "en.room", "en.tonight"] },
+    { "speaker": "staff", "text": "Sorry. Because of the weather, we can't pay for rooms.", "zh": "抱歉。因为是天气原因,我们不能负责住宿。", "items": ["en.sorry", "en.because_of", "en.weather", "en.cant", "en.pay", "en.room"] },
+    { "speaker": "lei", "text": "OK… Let's call Ethan.", "zh": "好吧……我们给伊森打个电话。", "items": ["en.lets", "en.call"] },
+    { "speaker": "ethan", "text": "Relax, guys! Come to my house tonight.", "zh": "(电话里)别急,你们俩!今晚来我家住吧。", "items": ["en.relax", "en.you_guys", "en.come", "en.house", "en.tonight"] }
+  ],
+  "questions": [
+    { "prompt": "他们的航班为什么取消了?", "options": ["飞机坏了", "西雅图有一场大暴风雪", "机场没有工作人员"], "answer": 1, "explainZh": "工作人员说 There's a big storm in Seattle. Nothing is going there today, because of the weather.。" },
+    { "prompt": "他们改到了哪一班?", "options": ["今天晚上九点十分", "明天晚上七点一刻", "明天早上九点十分"], "answer": 2, "explainZh": "工作人员说 tomorrow morning at 9:10,磊问 Can we get on that one?,对方说 Sure.。" },
+    { "prompt": "今晚他们住在哪儿?", "options": ["伊森家", "航空公司安排的酒店", "机场"], "answer": 0, "explainZh": "工作人员说 we can't pay for rooms,伊森在电话里说 Come to my house tonight.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_what_can_we_do", "titleZh": "遇到麻烦去柜台:What can we do? / Is there another one? / Can we get on…?",
+      "bodyZh": "航班取消了(canceled,第 9 单元学过 Classes are canceled.),到柜台先说清楚情况:Our 7:15 is canceled.(我们七点一刻的航班取消了)——机场里常用起飞时间来指航班。然后问怎么办:What can we do?(我们该怎么办?)。问有没有别的:Is there another one tomorrow?,another one 指“另一班”。想改到某一班:Can we get on that one?(get on 第 5 单元说上公交,上飞机也用它)。要住处:Can you give us a room for tonight?。听到 It isn't full.(没满)就是还有位子,It's full. 就是满了。",
+      "examples": [
+        { "text": "Our 7:15 is canceled. What can we do?", "zh": "我们七点一刻的航班取消了。我们该怎么办?" },
+        { "text": "Is there another one tomorrow?", "zh": "明天还有别的班次吗?" },
+        { "text": "Can we get on that one?", "zh": "我们能改到那一班吗?" }
+      ] },
+    { "id": "en.g.u13_because_of", "titleZh": "because of + 名词;Excuse me 的升调和降调",
+      "bodyZh": "说原因:because 后面接一个完整的句子(because it's raining),because of 后面只接名词(because of the weather、because of the storm)。中国学生常说成 because the weather——别漏了 of。发音:在柜台前叫住工作人员,Excuse me? 用升调 ↗,意思是“打扰一下,请问……”;不小心碰到人、要借过时,Excuse me. 用降调 ↘,意思是“不好意思”。",
+      "examples": [
+        { "text": "Nothing is going there, because of the weather.", "zh": "因为天气原因,什么航班都去不了那儿。" },
+        { "text": "We can't go home because of the storm.", "zh": "因为暴风雪,我们回不了家。" }
+      ] }
+  ],
+  "review": "draft"
+}

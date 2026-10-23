@@ -1,0 +1,179 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-11 Getting ready to go", "cefr": "A1", "themeZh": "去洛杉矶找伊森:订机票、选座位、收拾行李、值机和安检、听登机广播、在飞机上点饮料、到达后叫车去酒店" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u11.l01", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111010,
+      "titleZh": "订机票", "goalZh": "会说航班几点出发、几点到,选靠窗还是靠过道,看懂托运行李的价钱",
+      "canDoZh": "能和朋友一起在网上订往返机票:比较时间和价格、选座位、看行李规定",
+      "scenarioZh": "磊和索菲亚在图书馆的电脑上订票:1 月 4 日西雅图飞洛杉矶,早上 7:15 那班 129 美元、9:55 到,下午 2:40 那班 159 美元,两人选了便宜的早班,8 日晚上飞回(和第 12 单元周四下午四点叫车去机场一致)。网站问要靠窗还是靠过道,磊选靠窗(喜欢看风景)、索菲亚选靠过道;托运一件行李要另付 35 美元,两人决定只带登机箱。",
+      "grammarFocusZh": "航班信息:The flight leaves at… / arrives at…;Window or aisle?(完整说法 a window seat、an aisle seat;aisle 以元音开头,用 an,复习 a / an 和第 4 单元的 aisle);复习 round-trip 和价格。发音:an aisle 连读成 “a-naisle”。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+      "newItems": [
+        { "id": "en.flight", "kind": "word", "pos": "noun", "text": "flight", "zh": "航班;飞行", "features": { "ipa": "flaɪt" }, "noteZh": "Flight 207(207 航班);gh 不发音,读 /flaɪt/;fl 连在一起读,中间不加元音。" },
+        { "id": "en.leave", "kind": "word", "pos": "verb", "text": "leave", "zh": "离开;(车、飞机)出发", "features": { "ipa": "liːv" }, "noteZh": "The flight leaves at 7:15.(航班 7:15 起飞。)过去式 left,和“左”是同一个拼写;ea 读长音 /iː/,词尾 v 要带声。" },
+        { "id": "en.arrive", "kind": "word", "pos": "verb", "text": "arrive", "zh": "到达", "features": { "ipa": "əˈraɪv" }, "noteZh": "arrive in + 城市、arrive at + 具体地点:arrive in LA / arrive at the airport,不说 arrive LA;重音在后 a-RRIVE。" },
+        { "id": "en.choose", "kind": "word", "pos": "verb", "text": "choose", "zh": "选;选择", "features": { "ipa": "tʃuːz" }, "noteZh": "过去式 chose;Let's choose the 7:15.(就选 7:15 那班吧。)oo 读长音 /uː/,词尾 s 读 /z/。" },
+        { "id": "en.window", "kind": "word", "pos": "noun", "text": "window", "zh": "窗户;靠窗的位子", "features": { "ipa": "ˈwɪndoʊ" }, "noteZh": "Window or aisle?(靠窗还是靠过道?)w 开头双唇收圆;ow 读 /oʊ/。" },
+        { "id": "en.plane", "kind": "word", "pos": "noun", "text": "plane", "zh": "飞机", "features": { "ipa": "pleɪn" }, "noteZh": "on the plane(在飞机上),介词用 on;正式一点说 airplane;a 读 /eɪ/。" },
+        { "id": "en.check_a_bag", "kind": "phrase", "pos": "verb", "text": "check a bag", "zh": "托运行李", "features": { "ipa": "ˌtʃek ə ˈbæɡ" }, "noteZh": "It's $35 to check a bag.(托运一件行李 35 美元。)机场会问 Are you checking any bags?;这里的 check 是“托运”,和第 4 单元的 check(账单)意思不同。" },
+        { "id": "en.carry_on", "kind": "word", "pos": "noun", "text": "carry-on", "zh": "登机箱;随身行李", "features": { "ipa": "ˈkeri ɑːn" }, "noteZh": "能带上飞机的小行李箱;复合词重音在前 CA-rry-on;Only carry-ons.(只带登机箱。)" }
+      ],
+      "reviewItems": ["en.round_trip", "en.ticket", "en.aisle", "en.cheap", "en.expensive"]
+    },
+    {
+      "id": "en.a1u11.l02", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111020,
+      "titleZh": "收拾行李", "goalZh": "会说旅行要带的东西,用 need + 名词问要不要带",
+      "canDoZh": "能列出旅行要带的东西,问朋友自己需不需要带某样东西",
+      "scenarioZh": "出发前一晚,磊一边收拾登机箱一边和伊森(ethan)视频。伊森看到他往箱子里塞厚外套,大笑:You don't need a coat! It's 75 degrees here!;他让磊带太阳镜、短裤、防晒霜和去海边穿的泳衣(泳池是第 12 单元的词,这里改成海边)。磊说自己不会游泳,又问 Do I need a towel?,伊森说酒店有,这是度假,东西带少一点。",
+      "grammarFocusZh": "need + 名词:I need sunglasses. / You don't need a coat. / Do I need…?;行李词 suitcase、carry-on、sunglasses、swimsuit、sunscreen、shorts、towel。发音:sunscreen、sunglasses、suitcase、swimsuit 是复合词,重音在前。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 24.5,
+      "newItems": [
+        { "id": "en.suitcase", "kind": "word", "pos": "noun", "text": "suitcase", "zh": "行李箱", "features": { "ipa": "ˈsuːtkeɪs" }, "noteZh": "suit + case,复合词重音在前 SUIT-case;ui 读 /uː/。" },
+        { "id": "en.sunglasses", "kind": "word", "pos": "noun", "text": "sunglasses", "zh": "太阳镜;墨镜", "features": { "ipa": "ˈsʌnɡlæsɪz" }, "noteZh": "一般用复数,和 glasses 一样;复合词重音在前 SUN-glasses。" },
+        { "id": "en.shorts", "kind": "word", "pos": "noun", "text": "shorts", "zh": "短裤", "features": { "ipa": "ʃɔːrts" }, "noteZh": "一般用复数,和 pants、jeans 一样;sh 读 /ʃ/,嘴唇往前突,不要读成 s。" },
+        { "id": "en.sunscreen", "kind": "word", "pos": "noun", "text": "sunscreen", "zh": "防晒霜", "features": { "ipa": "ˈsʌnskriːn" }, "noteZh": "sun + screen,重音在前;scr 三个辅音连读,中间不加元音。" },
+        { "id": "en.swimsuit", "kind": "word", "pos": "noun", "text": "swimsuit", "zh": "泳衣", "features": { "ipa": "ˈswɪmsuːt" }, "noteZh": "swim + suit,重音在前 SWIM-suit;男生的泳裤也可以叫 swimsuit。" },
+        { "id": "en.hotel", "kind": "word", "pos": "noun", "text": "hotel", "zh": "酒店;旅馆", "features": { "ipa": "hoʊˈtel" }, "noteZh": "重音在后 ho-TEL,和中文“酒店”的节奏不同;at the hotel(在酒店)。" },
+        { "id": "en.towel", "kind": "word", "pos": "noun", "text": "towel", "zh": "毛巾", "features": { "ipa": "ˈtaʊəl" }, "noteZh": "ow 读 /aʊ/,后面的 el 很轻;复数 towels。" },
+        { "id": "en.vacation", "kind": "word", "pos": "noun", "text": "vacation", "zh": "假期;度假", "features": { "ipa": "veɪˈkeɪʃən" }, "noteZh": "美式说 vacation,英式多说 holiday;v 上齿轻咬下唇;重音在 -CA-。" }
+      ],
+      "reviewItems": ["en.need", "en.coat", "en.beach", "en.take_pictures", "en.cant"]
+    },
+    {
+      "id": "en.a1u11.l03", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111030,
+      "titleZh": "别忘了登机牌!", "goalZh": "会用 need to + 动词和 Don't + 动词提醒别人",
+      "canDoZh": "能提醒别人出门前要做什么、别忘了什么,也能听懂这样的提醒",
+      "scenarioZh": "1 月 4 日凌晨五点,艾米(amy)开车送磊和索菲亚去机场。上车先让大家系好安全带;路上她一样样提醒:这么早不堵车,不过要提前两个小时到机场;别忘了登机牌;磊的包里别放水。索菲亚说登机牌在她的邮箱里,不用打印。磊把要带的东西念了一遍:电脑、登机牌、包里不放水。(规划里的 ID 和 phone 是第 1–8 单元新增课的词,这课不用;证件改成登机牌。)",
+      "grammarFocusZh": "need to + 动词原形(You need to be at the airport two hours early.),和 need + 名词对比;祈使句的否定 Don't + 动词原形(Don't forget… / Don't worry.);please 放在句首或句尾都可以。发音:don't 的 t 在辅音前常常不爆破(don't forget 听起来像 “don' forget”)。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+      "newItems": [
+        { "id": "en.seatbelt", "kind": "word", "pos": "noun", "text": "seatbelt", "zh": "安全带", "features": { "ipa": "ˈsiːtbelt" }, "noteZh": "也写作 seat belt;Put on your seatbelt.(系好安全带。)复合词重音在前。" },
+        { "id": "en.ride", "kind": "word", "pos": "noun", "text": "ride", "zh": "搭车;(动词)骑、乘坐", "features": { "ipa": "raɪd" }, "noteZh": "Thanks for the ride!(谢谢你送我!)也能当动词:ride a bike(骑自行车),过去式 rode;词尾 d 要带声。" },
+        { "id": "en.traffic", "kind": "word", "pos": "noun", "text": "traffic", "zh": "交通;路上的车", "features": { "ipa": "ˈtræfɪk" }, "noteZh": "No traffic this early!(这么早不堵车!)堵车也可以说 a traffic jam;a 读 /æ/。" },
+        { "id": "en.worry", "kind": "word", "pos": "verb", "text": "worry", "zh": "担心", "features": { "ipa": "ˈwɝːi" }, "noteZh": "Don't worry.(别担心。)o 读 /ɝː/,要卷舌;过去式 worried。" },
+        { "id": "en.forget", "kind": "word", "pos": "verb", "text": "forget", "zh": "忘记", "features": { "ipa": "fɚˈɡet" }, "noteZh": "Don't forget…(别忘了……);过去式 forgot;重音在后 for-GET。" },
+        { "id": "en.boarding_pass", "kind": "phrase", "pos": "noun", "text": "boarding pass", "zh": "登机牌", "features": { "ipa": "ˈbɔːrdɪŋ pæs" }, "noteZh": "复合词重音在前 BOAR-ding pass;oar 美式卷舌;电子登机牌常在手机或邮箱里。" },
+        { "id": "en.print", "kind": "word", "pos": "verb", "text": "print", "zh": "打印", "features": { "ipa": "prɪnt" }, "noteZh": "I don't need to print it.(不用打印。)pr 连读,结尾 nt 收住不加元音。" },
+        { "id": "en.laptop", "kind": "word", "pos": "noun", "text": "laptop", "zh": "笔记本电脑", "features": { "ipa": "ˈlæptɑːp" }, "noteZh": "lap + top,重音在前;a 读 /æ/,o 读 /ɑː/。" }
+      ],
+      "reviewItems": ["en.put_on", "en.email", "en.no_problem", "en.got_it", "en.early"]
+    },
+    {
+      "id": "en.a1u11.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111040,
+      "titleZh": "值机和安检", "goalZh": "会值机、回答托运问题,听懂安检指令和 can / can't 说的规定",
+      "canDoZh": "能在机场办值机,听懂安检人员的指令,知道哪些东西不能带",
+      "scenarioZh": "磊在自助值机机器前卡住了,航空公司的工作人员(staff)来帮忙:Are you checking any bags? — No, just a carry-on.,拿到登机牌。到了安检口,工作人员说 Laptops in a bin, please. And remove your shoes and jacket.;磊包里有一瓶水——艾米早上刚提醒过——工作人员说 Sorry, you can't have water after security.,可以在这儿喝掉或者扔进垃圾桶,他一口气喝完,索菲亚在旁边笑;喝完磊就急着找洗手间。",
+      "grammarFocusZh": "机场常用的指令(Laptops in a bin. / Remove your shoes.);can / can't 表示规定允许不允许(You can't have water after security. / You can drink it here.),和第 7 单元“会不会”的用法区分;Are you checking any bags?。发音:airport、boarding 里元音后的 r 美式要卷舌。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.machine", "kind": "word", "pos": "noun", "text": "machine", "zh": "机器", "features": { "ipa": "məˈʃiːn" }, "noteZh": "重音在后 ma-CHINE,ch 读 /ʃ/,i 读 /iː/;机场的自助值机机器也叫 kiosk。" },
+        { "id": "en.check_in", "kind": "phrase", "pos": "verb", "text": "check in", "zh": "值机;办理入住", "features": { "ipa": "ˌtʃek ˈɪn" }, "noteZh": "在机场是“值机”,在酒店是“办理入住”;连读成 “che-kin”。" },
+        { "id": "en.just", "kind": "word", "pos": "adv", "text": "just", "zh": "只;就", "features": { "ipa": "dʒʌst" }, "noteZh": "No, just a carry-on.(不用,就一个登机箱。)u 读 /ʌ/,结尾 st 不加元音。" },
+        { "id": "en.bin", "kind": "word", "pos": "noun", "text": "bin", "zh": "(安检用的)筐;箱子", "features": { "ipa": "bɪn" }, "noteZh": "Laptops in a bin, please.(电脑放进筐里。)i 读短音 /ɪ/。" },
+        { "id": "en.remove", "kind": "word", "pos": "verb", "text": "remove", "zh": "去掉;脱下", "features": { "ipa": "rɪˈmuːv" }, "noteZh": "Remove your shoes.(把鞋脱了。)是比较正式的说法,机场、告示常用;重音在后 re-MOVE,词尾 v 要带声。" },
+        { "id": "en.security", "kind": "word", "pos": "noun", "text": "security", "zh": "安检;安全", "features": { "ipa": "sɪˈkjʊrət̬i" }, "noteZh": "at security(在安检处);重音在 -CU-,美式 t 读闪音。" },
+        { "id": "en.trash", "kind": "word", "pos": "noun", "text": "trash", "zh": "垃圾;垃圾桶", "features": { "ipa": "træʃ" }, "noteZh": "美式说 trash,英式说 rubbish;the trash 也常指垃圾桶;a 读 /æ/,结尾 sh 是 /ʃ/。" },
+        { "id": "en.restroom", "kind": "word", "pos": "noun", "text": "restroom", "zh": "洗手间", "features": { "ipa": "ˈrestruːm" }, "noteZh": "美国公共场所的洗手间常叫 restroom,家里说 bathroom;toilet 在美国多指马桶本身,问洗手间时说 restroom 更自然。" }
+      ],
+      "reviewItems": ["en.excuse_me", "en.shoes", "en.over_there", "en.boarding_pass", "en.laptop"]
+    },
+    {
+      "id": "en.a1u11.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111045,
+      "titleZh": "登机牌和航班信息屏", "goalZh": "会看登机牌和航班信息屏上的登机口、登机时间和航班状态",
+      "canDoZh": "能看懂登机牌和机场的航班信息屏,找到登机口、登机时间和航班状态",
+      "scenarioZh": "体裁:登机牌 + 航班信息屏。说话人 narrator。磊的登机牌:姓名、航班号 207、日期 1 月 4 日、西雅图到洛杉矶、7:15 起飞、登机口 B12、6:35 开始登机、座位 23A(靠窗)、第 3 组;旁边是出发信息屏的几行:磊的航班显示 On time,去旧金山和芝加哥的航班显示 Delayed 和新的时间;最后提醒第 1 组先登机、6:35 前到登机口。共 12 行。",
+      "grammarFocusZh": "复习日期、时间和字母数字的读法;读表格先找自己的那一行;Gate / Boarding / Group / On time / Delayed 这些栏目词。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
+      "newItems": [
+        { "id": "en.gate", "kind": "word", "pos": "noun", "text": "gate", "zh": "登机口;大门", "features": { "ipa": "ɡeɪt" }, "noteZh": "Gate B12(B12 登机口);a 读 /eɪ/,词尾 t 收住。" },
+        { "id": "en.board", "kind": "word", "pos": "verb", "text": "board", "zh": "登机;上(飞机、船)", "features": { "ipa": "bɔːrd" }, "noteZh": "Boarding at 6:35.(6:35 开始登机。)广播里常说 Now boarding.;oar 美式要卷舌。" },
+        { "id": "en.group", "kind": "word", "pos": "noun", "text": "group", "zh": "组;群", "features": { "ipa": "ɡruːp" }, "noteZh": "按组登机:Group 3(第 3 组);ou 读 /uː/;第 1 单元的 group chat 是“群聊”。" },
+        { "id": "en.delayed", "kind": "word", "pos": "adj", "text": "delayed", "zh": "延误的;晚点的", "features": { "ipa": "dɪˈleɪd" }, "noteZh": "The flight is delayed.(航班晚点了。)-ed 读 /d/;重音在后 de-LAYED。" }
+      ],
+      "reviewItems": ["en.on_time", "en.get_on", "en.first", "en.window", "en.boarding_pass"]
+    },
+    {
+      "id": "en.a1u11.l05", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111050,
+      "titleZh": "登机口广播", "goalZh": "会听登机口广播里的换登机口、晚点和按组登机,没听清时会确认",
+      "canDoZh": "能听懂登机口的广播(换登机口、延误、按组登机),没听清时会找工作人员确认",
+      "scenarioZh": "在 B12 登机口,广播说 207 航班换到 B15 登机。周围太吵,磊和索菲亚没听清,磊去问工作人员(staff):Is our flight at Gate B15 or B50?;工作人员确认是 B15,还说航班晚 20 分钟,磊没听清又请她重复一遍,原来 6:55 开始登机。到了 B15,广播开始按组登机:Now boarding Group 1.,两人等到 Group 3 才上飞机。",
+      "grammarFocusZh": "广播的固定说法 Attention, please.、gate change、delayed、Now boarding Group 3.;没听清时 Sorry? Can you repeat that, please?(复习第 1 单元的 Sorry? / Could you say that again?)。发音:听辨字母 B / D / E / G 和数字 15 / 50(复习 -teen 和 -ty)。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.attention_please", "kind": "phrase", "pos": "phrase", "text": "Attention, please", "zh": "请注意", "features": { "ipa": "əˈtenʃən pliːz" }, "noteZh": "广播开头的固定说法;重音在 -TEN-,tion 读 /ʃən/。" },
+        { "id": "en.passenger", "kind": "word", "pos": "noun", "text": "passenger", "zh": "乘客;旅客", "features": { "ipa": "ˈpæsəndʒɚ" }, "noteZh": "重音在前 PAS-sen-ger,g 读 /dʒ/;广播里常说 Passengers to Los Angeles…(去洛杉矶的旅客……)" },
+        { "id": "en.change", "kind": "word", "pos": "noun", "text": "change", "zh": "改变;变更", "features": { "ipa": "tʃeɪndʒ" }, "noteZh": "a gate change(登机口变更);也能当动词“改、换”;ch 读 /tʃ/,结尾 ge 读 /dʒ/。" },
+        { "id": "en.announcement", "kind": "word", "pos": "noun", "text": "announcement", "zh": "广播;通知", "features": { "ipa": "əˈnaʊnsmənt" }, "noteZh": "重音在 -NOUNCE-,ou 读 /aʊ/;an announcement for our flight(我们航班的广播)。" },
+        { "id": "en.noisy", "kind": "word", "pos": "adj", "text": "noisy", "zh": "吵的;嘈杂的", "features": { "ipa": "ˈnɔɪzi" }, "noteZh": "noise(噪音)+ y,s 读 /z/;It's so noisy here!(这儿太吵了!)" },
+        { "id": "en.number", "kind": "word", "pos": "noun", "text": "number", "zh": "数字;号码", "features": { "ipa": "ˈnʌmbɚ" }, "noteZh": "What number?(几号?)u 读 /ʌ/;第 1 单元学过 phone number(电话号码)。" },
+        { "id": "en.repeat", "kind": "word", "pos": "verb", "text": "repeat", "zh": "重复;再说一遍", "features": { "ipa": "rɪˈpiːt" }, "noteZh": "Can you repeat that, please?(请您再说一遍好吗?)和第 1 单元的 Could you say that again? 意思一样;重音在后 re-PEAT。" },
+        { "id": "en.clear", "kind": "word", "pos": "adj", "text": "clear", "zh": "清楚的;清晰的", "features": { "ipa": "klɪr" }, "noteZh": "The announcement isn't clear.(广播听不清楚。)cl 连读,ear 读 /ɪr/,要卷舌。" }
+      ],
+      "reviewItems": ["en.excuse_me", "en.sorry", "en.wait", "en.delayed", "en.gate"]
+    },
+    {
+      "id": "en.a1u11.l06", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111060,
+      "titleZh": "在飞机上", "goalZh": "会用 Would you like…? / I'd like… 礼貌地问和要,用 Can I…? 问能不能做某事",
+      "canDoZh": "能在飞机上听懂空乘的询问,礼貌地点饮料、要东西,问可不可以做某事",
+      "scenarioZh": "飞机起飞后,空乘(staff)推着餐车过来:Would you like something to drink?;磊说 I'd like some water, please. I'm thirsty.——刚在安检喝完一瓶水的他让索菲亚哭笑不得;索菲亚要了一杯橙汁和一条毯子,两人还要了薯片当零食。磊想去洗手间,问 Can I get up now?,空乘说现在要系好安全带,不行;过了一会儿才可以,空乘又问他 Would you like some more water?,磊赶紧说 No, thank you!。",
+      "grammarFocusZh": "Would you like…? 礼貌地问对方要不要(回答 Yes, please. / No, thank you.);I'd like + 名词 礼貌地说想要(第 6 单元学过 I'd like to + 动词);Would you like some more…?(第 17 单元会复习);Can I…? 问可不可以。发音:Would you 连读成 /ˈwʊdʒə/(d 和 y 合成 /dʒ/)。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.flight_attendant", "kind": "phrase", "pos": "noun", "text": "flight attendant", "zh": "空乘;空服员", "features": { "ipa": "ˈflaɪt əˌtendənt" }, "noteZh": "不分男女都这么叫;重音在 FLIGHT 上。" },
+        { "id": "en.would_you_like", "kind": "phrase", "pos": "phrase", "text": "Would you like", "zh": "你想要……吗?(礼貌)", "features": { "ipa": "ˈwʊdʒə ˈlaɪk" }, "noteZh": "比 Do you want…? 客气,服务员、空乘常这么问;回答 Yes, please. / No, thank you.;Would you 连读成 /ˈwʊdʒə/。" },
+        { "id": "en.id_like", "kind": "phrase", "pos": "phrase", "text": "I'd like", "zh": "我想要……(礼貌)", "features": { "ipa": "aɪd ˈlaɪk" }, "noteZh": "I'd = I would;I'd like some water, please.;后面接动词时要加 to:I'd like to…(第 6 单元)。" },
+        { "id": "en.thirsty", "kind": "word", "pos": "adj", "text": "thirsty", "zh": "渴的", "features": { "ipa": "ˈθɝːsti" }, "noteZh": "th 是清音 /θ/,舌尖轻咬;ir 读 /ɝː/,要卷舌;别和 thirty(三十)搞混。" },
+        { "id": "en.orange", "kind": "word", "pos": "noun", "text": "orange", "zh": "橙子;橙色", "features": { "ipa": "ˈɔːrɪndʒ" }, "noteZh": "orange juice(橙汁);结尾 ge 读 /dʒ/;以元音开头,说 an orange。" },
+        { "id": "en.blanket", "kind": "word", "pos": "noun", "text": "blanket", "zh": "毯子", "features": { "ipa": "ˈblæŋkɪt" }, "noteZh": "bl 连读,an 读 /æŋ/;a blanket(一条毯子)。" },
+        { "id": "en.chips", "kind": "word", "pos": "noun", "text": "chips", "zh": "薯片", "features": { "ipa": "tʃɪps" }, "noteZh": "美式 chips 是薯片,英式 chips 是薯条(美式叫 fries,第 4 单元学过);ch 读 /tʃ/。" },
+        { "id": "en.some_more", "kind": "phrase", "pos": "phrase", "text": "some more", "zh": "再来一些;再多一点", "features": { "ipa": "səm ˈmɔːr" }, "noteZh": "Would you like some more water?(要再来点水吗?)some 弱读成 /səm/,more 美式卷舌。" }
+      ],
+      "reviewItems": ["en.juice", "en.snack", "en.cookie", "en.get_up", "en.restroom", "en.seatbelt"]
+    },
+    {
+      "id": "en.a1u11.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111070,
+      "titleZh": "叫车去酒店", "goalZh": "会告诉司机去哪儿,用 How far…? / How long…? 问距离和时间",
+      "canDoZh": "能在机场叫车去酒店:告诉司机去哪儿,问多远、要多久,和司机简单聊几句",
+      "scenarioZh": "到了洛杉矶,伊森白天有事,让他们自己去酒店。两人用手机叫了一辆网约车,司机(driver)问 Where are you going?,磊说去圣莫尼卡海边那家酒店;两人只有登机箱,不用放后备箱。磊问 How far is it? How long does it take?,司机说大约 15 英里、30 分钟,走高速,洛杉矶堵车很厉害。司机问他们是不是第一次来洛杉矶,推荐他们去海边的码头看日落;到了酒店门口,磊说 You can stop here. Thanks for the ride!。",
+      "grammarFocusZh": "How far is it? — It's about 15 miles.(美国用英里)和 How long does it take?(复习)的区别;打车用语 Can you take us to…? / You can stop here.。发音:five、drive、ride 词尾的浊辅音要带声,别读成 “fife”“drife”。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.can_you_take_us_to", "kind": "phrase", "pos": "phrase", "text": "Can you take us to", "zh": "能送我们去……吗?", "features": { "ipa": "kən juː ˈteɪk ʌs tə" }, "noteZh": "打车时说目的地的常用问法;take + 人 + to + 地方 = 送某人去某地;一个人就说 Can you take me to…?。" },
+        { "id": "en.near", "kind": "word", "pos": "prep", "text": "near", "zh": "在……附近", "features": { "ipa": "nɪr" }, "noteZh": "near the beach(在海边附近);第 5 单元学过 near here(这附近);ear 读 /ɪr/,要卷舌。" },
+        { "id": "en.trunk", "kind": "word", "pos": "noun", "text": "trunk", "zh": "(汽车)后备箱", "features": { "ipa": "trʌŋk" }, "noteZh": "美式说 trunk,英式说 boot;tr 像“戳”的声母再加卷舌;结尾 nk 读 /ŋk/。" },
+        { "id": "en.mile", "kind": "word", "pos": "noun", "text": "mile", "zh": "英里", "features": { "ipa": "maɪl" }, "noteZh": "美国用英里算距离,1 英里约 1.6 公里;i 读 /aɪ/,词尾 l 舌尖顶住上齿龈。" },
+        { "id": "en.highway", "kind": "word", "pos": "noun", "text": "highway", "zh": "高速公路;公路", "features": { "ipa": "ˈhaɪweɪ" }, "noteZh": "gh 不发音;复合词重音在前 HIGH-way;洛杉矶人也常说 freeway。" },
+        { "id": "en.pier", "kind": "word", "pos": "noun", "text": "pier", "zh": "码头;栈桥", "features": { "ipa": "pɪr" }, "noteZh": "和 near 押韵 /ɪr/;海边伸进海里的长栈桥,上面常有餐厅和游乐设施;at the pier(在码头)。" },
+        { "id": "en.famous", "kind": "word", "pos": "adj", "text": "famous", "zh": "有名的", "features": { "ipa": "ˈfeɪməs" }, "noteZh": "重音在前 FA-mous,a 读 /eɪ/;It's famous.(那儿很有名。)" },
+        { "id": "en.sunset", "kind": "word", "pos": "noun", "text": "sunset", "zh": "日落", "features": { "ipa": "ˈsʌnset" }, "noteZh": "sun + set,复合词重音在前;the sunset at the pier(码头的日落)。" }
+      ],
+      "reviewItems": ["en.how_long", "en.take", "en.no_thanks", "en.traffic", "en.ride", "en.terrible"]
+    },
+    {
+      "id": "en.a1u11.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111080,
+      "titleZh": "单元复习:到了!", "goalZh": "综合运用本单元的出行用语,用过去时讲一路上的经过",
+      "canDoZh": "能和朋友讲一路上的经过:订票、值机、安检、延误和打车,并说出回程要注意什么",
+      "scenarioZh": "在酒店大堂等着办入住时,磊和索菲亚跟艾米视频报平安。艾米问一路怎么样:磊讲安检时一口气喝光一瓶水;索菲亚讲换了登机口、飞机晚了 20 分钟;磊说他坐靠窗、风景很美;索菲亚说司机人很好,两人下午要去码头;艾米提醒他们回程那天(1 月 8 日)也要提前两个小时到机场、别忘了登机牌(规划里的充电器是第 14 单元的词)。对话 14 句。",
+      "grammarFocusZh": "复习 need to / Don't…、can / can't 表示规定、Would you like…? 和用过去时讲经过(There was a gate change. We took a car.)。发音:讲经过时每件事之间稍作停顿。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 19.5,
+      "newItems": [],
+      "reviewItems": ["en.security", "en.forget", "en.gate", "en.change", "en.pier", "en.boarding_pass"]
+    },
+    {
+      "id": "en.a1u11.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-11 Getting ready to go", "order": 111085,
+      "titleZh": "伊森写的行程单", "goalZh": "会读一份几天的行程单,补全里面的省略句",
+      "canDoZh": "能看懂一份几天的旅行行程单,说出每天几点去哪儿、做什么",
+      "scenarioZh": "体裁:行程单(伊森发在群聊里的计划)。说话人 ethan(他自己写的第一人称消息)。1 月 4 日到 8 日每天一段:周日下午 2 点码头见、去海边;周一伊森开车带他们去看洛杉矶全景,晚上吃墨西哥菜;周二自由活动,也许去海边(后来三人租了自行车,见第 12 单元);周三上午博物馆,中午在伊森家吃饭,晚上在他家附近打篮球;周四中午在码头吃饭,4 点去机场,航班在晚上。共 11 句。(规划里“第三天博物馆、第四天自由活动”和第 12、13 单元“第三天租自行车、第三天晚上在码头丢手机”对不上,这里对调成第三天自由活动、第四天博物馆。)",
+      "grammarFocusZh": "复习日期、时间介词和 be going to(Sofia, you're going to love it!);行程单常用省略句(Free day! / The museum in the morning.),读的时候补全。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 12.5,
+      "newItems": [
+        { "id": "en.maybe", "kind": "word", "pos": "adv", "text": "maybe", "zh": "也许;可能", "features": { "ipa": "ˈmeɪbi" }, "noteZh": "放在句首、句尾都行:Maybe the beach? / The beach, maybe?;一个词,和 may be(可能是)写法不同。" }
+      ],
+      "reviewItems": ["en.meet", "en.pier", "en.view", "en.museum", "en.basketball"]
+    }
+  ]
+}

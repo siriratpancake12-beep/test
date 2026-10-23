@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u20.l02", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-20 旅途与回顾", "order": 120020,
+  "titleZh": "房间出了问题", "goalZh": "会礼貌地向前台说明房间里的问题,请他们帮忙,听懂对方的解决办法", "canDoZh": "能礼貌地向前台说明房间的问题,请他们帮忙解决",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.dusche", "kind": "word", "pos": "noun", "text": "die Dusche", "zh": "淋浴;淋浴间", "features": { "gender": "f", "plural": "die Duschen", "ipa": "ˈduːʃə" }, "noteZh": "Die Dusche ist kalt.(淋浴是凉的。)动词是 duschen(冲澡,第 17 单元);复数 die Duschen。" },
+    { "id": "de.zugehen", "kind": "word", "pos": "verb", "text": "zugehen", "zh": "(门、窗)关得上", "features": { "ipa": "ˈt͡suːˌɡeːən" }, "noteZh": "Das Fenster geht nicht zu.(窗户关不上。)可分动词,zu 放句末;主语是门、窗这些东西。" },
+    { "id": "de.aergerlich", "kind": "word", "pos": "adj", "text": "ärgerlich", "zh": "让人恼火的;气人", "features": { "ipa": "ˈɛʁɡɐlɪç" }, "noteZh": "Das ist wirklich ärgerlich.(这真让人恼火。)听别人讲倒霉事时也这样说,表示理解;-lich 读 [lɪç]。" },
+    { "id": "de.entschuldigen_sie", "kind": "phrase", "pos": "phrase", "text": "Entschuldigen Sie!", "zh": "对不起!/打扰一下!(对用 Sie 的人)", "features": { "ipa": "ɛntˈʃʊldɪɡn̩ ziː" }, "noteZh": "比 Entschuldigung 正式,对用 Sie 称呼的人说;工作人员道歉常说 Entschuldigen Sie bitte!" },
+    { "id": "de.steckdose", "kind": "word", "pos": "noun", "text": "die Steckdose", "zh": "插座", "features": { "gender": "f", "plural": "die Steckdosen", "ipa": "ˈʃtɛkˌdoːzə" }, "noteZh": "Die Steckdose funktioniert nicht.(插座不能用。)德国的插座和中国的不一样,带中国电器要用转换插头;复数 die Steckdosen。" },
+    { "id": "de.wechseln", "kind": "word", "pos": "verb", "text": "wechseln", "zh": "换;更换", "features": { "ipa": "ˈvɛksl̩n" }, "noteZh": "das Zimmer wechseln(换房间)、Geld wechseln(换钱);chs 读 [ks],w 读 [v]。" },
+    { "id": "de.hoffentlich", "kind": "word", "pos": "adv", "text": "hoffentlich", "zh": "但愿;希望", "features": { "ipa": "ˈhɔfn̩tlɪç" }, "noteZh": "Hoffentlich ist die Dusche da warm.(但愿那边的淋浴有热水。)放句首时,变位动词紧跟在第二位。" },
+    { "id": "de.foehn", "kind": "word", "pos": "noun", "text": "der Föhn", "zh": "吹风机", "features": { "gender": "m", "plural": "die Föhne", "ipa": "føːn" }, "noteZh": "Können wir einen Föhn haben?(能借个吹风机吗?)也写作 der Fön;ö 撮圆嘴唇读长音,h 不发音。复数 die Föhne。" }
+  ],
+  "reviewItems": ["de.umziehen", "de.badetuch", "de.bescheid_sagen", "de.reparieren", "de.funktionieren", "de.hausmeister"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Morgen! Entschuldigung, wir haben ein Problem mit unserem Zimmer.", "zh": "(7 月 26 日早上,王伟去前台)早上好!打扰一下,我们的房间有点问题。", "items": ["de.guten_morgen", "de.entschuldigung", "de.wir", "de.haben", "de.ein", "de.problem", "de.mit", "de.unser", "de.zimmer"] },
+    { "speaker": "mitarbeiter", "text": "Guten Morgen! Was ist das Problem?", "zh": "早上好!什么问题?", "items": ["de.guten_morgen", "de.was", "de.sein", "de.problem"] },
+    { "speaker": "wei", "text": "Die Dusche ist kalt. Es gibt kein warmes Wasser.", "zh": "淋浴是凉的,没有热水。", "items": ["de.dusche", "de.sein", "de.kalt", "de.es_gibt", "de.kein", "de.warm", "de.wasser"] },
+    { "speaker": "wei", "text": "Und das Fenster geht nicht zu. Der Wind kommt ins Zimmer!", "zh": "还有窗户关不上,风都吹进房间里来了!", "items": ["de.und", "de.fenster", "de.zugehen", "de.nicht", "de.wind", "de.ich_komme_aus", "de.in", "de.zimmer"] },
+    { "speaker": "mitarbeiter", "text": "Das ist wirklich ärgerlich. Entschuldigen Sie bitte!", "zh": "这真让人恼火。实在对不起!", "items": ["de.sein", "de.wirklich", "de.aergerlich", "de.entschuldigen_sie", "de.bitte"] },
+    { "speaker": "wei", "text": "Und die Steckdose am Bett funktioniert nicht. Mein Ladegerät geht nicht.", "zh": "还有床边的插座不能用,我的充电器插上没反应。", "items": ["de.und", "de.steckdose", "de.am", "de.bett", "de.funktionieren", "de.nicht", "de.mein", "de.ladegeraet", "de.gehen"] },
+    { "speaker": "mitarbeiter", "text": "Unser Hausmeister repariert das heute Vormittag.", "zh": "我们的维修工今天上午就来修。", "items": ["de.unser", "de.hausmeister", "de.reparieren", "de.heute", "de.vormittag"] },
+    { "speaker": "mitarbeiter", "text": "Aber heute ziehen Sie ins Vierbettzimmer um. Möchten Sie jetzt schon wechseln?", "zh": "不过你们今天本来就要搬进四人间。要不要现在就换过去?", "items": ["de.aber", "de.heute", "de.umziehen", "de.sie_hoeflich", "de.in", "de.vier", "de.bett", "de.zimmer", "de.moechten", "de.jetzt", "de.schon", "de.wechseln"] },
+    { "speaker": "wei", "text": "Ja, gern! Hoffentlich ist die Dusche da warm.", "zh": "好啊!但愿那边的淋浴有热水。", "items": ["de.ja", "de.gern", "de.hoffentlich", "de.sein", "de.dusche", "de.da", "de.warm"] },
+    { "speaker": "sofia", "text": "Und können wir bitte noch ein Badetuch und einen Föhn haben?", "zh": "还有,能再给我们一条浴巾和一个吹风机吗?", "items": ["de.und", "de.koennen", "de.wir", "de.bitte", "de.noch", "de.ein", "de.badetuch", "de.foehn", "de.haben"] },
+    { "speaker": "mitarbeiter", "text": "Gern. Hier, bitte. Gibt es noch ein Problem? Dann sagen Sie bitte Bescheid!", "zh": "好的,给您。还有什么问题的话,请告诉我们一声!", "items": ["de.gern", "de.hier", "de.bitte", "de.es_gibt", "de.noch", "de.ein", "de.problem", "de.dann", "de.bescheid_sagen", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Danke, Sie sind sehr nett!", "zh": "谢谢,您人真好!", "items": ["de.danke", "de.sie_hoeflich", "de.sein", "de.sehr", "de.nett"] }
+  ],
+  "questions": [
+    { "prompt": "王伟说房间里有哪些问题?", "options": ["淋浴没有热水,窗户关不上,插座不能用", "房间太小,床太硬", "楼梯太窄,没有电梯"], "answer": 0, "explainZh": "Die Dusche ist kalt. … Das Fenster geht nicht zu. … Die Steckdose am Bett funktioniert nicht.(淋浴是凉的,窗户关不上,床边的插座不能用。)" },
+    { "prompt": "工作人员给了什么办法?", "options": ["马上给他们退钱", "晚上再请维修工来", "现在就可以搬进四人间"], "answer": 2, "explainZh": "Aber heute ziehen Sie ins Vierbettzimmer um. Möchten Sie jetzt schon wechseln?(你们今天本来就要搬进四人间,要不要现在就换?)维修工是上午来:heute Vormittag。" },
+    { "prompt": "索菲娅要了什么?", "options": ["一张新房卡", "一条浴巾和一个吹风机", "一杯咖啡"], "answer": 1, "explainZh": "Können wir bitte noch ein Badetuch und einen Föhn haben?(能再给我们一条浴巾和一个吹风机吗?)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u20_problem_sagen", "titleZh": "说明问题:… ist kalt / geht nicht zu / funktioniert nicht",
+      "bodyZh": "先礼貌地开头:Entschuldigung, wir haben ein Problem mit unserem Zimmer.(mit + 第三格:mit unserem Zimmer)\n然后一件一件说:Die Dusche ist kalt. / Es gibt kein warmes Wasser. / Das Fenster geht nicht zu.(zugehen 可分,zu 放句末)/ Die Steckdose funktioniert nicht. / Mein Ladegerät geht nicht.(geht nicht = 不好使)/ … ist kaputt.\n请求:Können wir bitte noch ein Badetuch haben?;对方道歉:Entschuldigen Sie bitte!(比 Entschuldigung 正式)/ Das ist wirklich ärgerlich.(真让人恼火——表示理解)。\nhoffentlich(但愿)放句首,动词在第二位:Hoffentlich ist die Dusche da warm.",
+      "examples": [
+        { "text": "Wir haben ein Problem mit unserem Zimmer.", "zh": "我们的房间有点问题。" },
+        { "text": "Das Fenster geht nicht zu.", "zh": "窗户关不上。" },
+        { "text": "Die Steckdose funktioniert nicht.", "zh": "插座不能用。" },
+        { "text": "Hoffentlich ist die Dusche da warm.", "zh": "但愿那边的淋浴有热水。" }
+      ] }
+  ],
+  "review": "draft"
+}

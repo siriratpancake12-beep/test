@@ -9,18 +9,18 @@
   "reviewItems": ["de.fundbuero", "de.fahrgast", "de.abgeben", "de.weg", "de.mitbringen", "de.nachricht"],
   "lines": [
     { "speaker": "narrator", "text": "Guten Tag, Herr Wang,", "zh": "(星期二,失物招领处的邮件)王先生,您好:", "items": ["de.guten_tag", "de.herr"] },
-    { "speaker": "narrator", "text": "Sie haben am Montag bei uns angerufen.", "zh": "您星期一给我们打过电话。", "items": ["de.sie_hoeflich", "de.haben", "de.am", "de.montag", "de.bei", "de.wir", "de.anrufen"] },
+    { "speaker": "narrator", "text": "Sie haben am Montag bei uns angerufen.", "zh": "您星期一给我们打过电话。", "items": ["de.sie_hoeflich", "de.haben", "de.am", "de.montag", "de.bei", "de.uns", "de.anrufen"] },
     { "speaker": "narrator", "text": "Wir haben eine gute Nachricht: Ein Fahrgast hat Ihren Geldbeutel abgegeben.", "zh": "告诉您一个好消息:一位乘客把您的钱包交来了。", "items": ["de.wir", "de.haben", "de.ein", "de.gut", "de.nachricht", "de.fahrgast", "de.ihr_hoeflich", "de.geldbeutel", "de.abgeben"] },
     { "speaker": "narrator", "text": "Im Geldbeutel sind Ihre Karten, ein Foto und dreißig Euro.", "zh": "钱包里有您的几张卡、一张照片和三十欧元。", "items": ["de.in", "de.geldbeutel", "de.sein", "de.ihr_hoeflich", "de.karte", "de.ein", "de.foto", "de.und", "de.dreissig", "de.euro"] },
-    { "speaker": "narrator", "text": "Bitte kommen Sie in den nächsten sieben Tagen zu uns.", "zh": "请您在七天之内到我们这儿来取。", "items": ["de.bitte", "de.ich_komme_aus", "de.sie_hoeflich", "de.in", "de.naechste", "de.sieben", "de.tag", "de.zu", "de.wir"] },
+    { "speaker": "narrator", "text": "Bitte kommen Sie in den nächsten sieben Tagen zu uns.", "zh": "请您在七天之内到我们这儿来取。", "items": ["de.bitte", "de.ich_komme_aus", "de.sie_hoeflich", "de.in", "de.naechste", "de.sieben", "de.tag", "de.zu", "de.uns"] },
     { "speaker": "narrator", "text": "Bringen Sie bitte Ihren Pass mit.", "zh": "请带上您的护照。", "items": ["de.mitbringen", "de.sie_hoeflich", "de.bitte", "de.ihr_hoeflich", "de.pass"] },
-    { "speaker": "narrator", "text": "Sie bezahlen bei uns fünf Euro.", "zh": "取的时候要付五欧元。", "items": ["de.sie_hoeflich", "de.bezahlen", "de.bei", "de.wir", "de.fuenf", "de.euro"] },
+    { "speaker": "narrator", "text": "Sie bezahlen bei uns fünf Euro.", "zh": "取的时候要付五欧元。", "items": ["de.sie_hoeflich", "de.bezahlen", "de.bei", "de.uns", "de.fuenf", "de.euro"] },
     { "speaker": "narrator", "text": "Viele Grüße, Ihr Fundbüro", "zh": "祝好!失物招领处", "items": ["de.viele_gruesse", "de.ihr_hoeflich", "de.fundbuero"] },
     { "speaker": "narrator", "text": "Fundbüro: Adresse und Öffnungszeiten", "zh": "(网页)失物招领处:地址和开放时间", "items": ["de.fundbuero", "de.adresse", "de.und", "de.oeffnungszeit"] },
     { "speaker": "narrator", "text": "Musterplatz 3, am U-Bahnhof.", "zh": "Musterplatz 3 号,在地铁站旁边。", "items": ["de.am", "de.u_bahn", "de.bahnhof"] },
     { "speaker": "narrator", "text": "Montag bis Freitag: 9 bis 18 Uhr, Donnerstag: 9 bis 20 Uhr.", "zh": "星期一到星期五:9 点到 18 点;星期四:9 点到 20 点。", "items": ["de.montag", "de.bis", "de.freitag", "de.neun", "de.acht", "de.zehn", "de.uhr", "de.donnerstag", "de.zwanzig"] },
     { "speaker": "narrator", "text": "Ihre Tasche ist weg? Füllen Sie unser Formular aus.", "zh": "您的包不见了?请填写我们的失物登记表。", "items": ["de.ihr_hoeflich", "de.tasche", "de.sein", "de.weg", "de.ausfuellen", "de.sie_hoeflich", "de.unser", "de.formular"] },
-    { "speaker": "narrator", "text": "Ist Ihre Tasche bei uns? Dann schreiben wir Ihnen.", "zh": "您的包在我们这儿的话,我们就写信告诉您。", "items": ["de.sein", "de.ihr_hoeflich", "de.tasche", "de.bei", "de.wir", "de.dann", "de.schreiben", "de.sie_hoeflich"] }
+    { "speaker": "narrator", "text": "Ist Ihre Tasche bei uns? Dann schreiben wir Ihnen.", "zh": "您的包在我们这儿的话,我们就写信告诉您。", "items": ["de.sein", "de.ihr_hoeflich", "de.tasche", "de.bei", "de.uns", "de.wir", "de.dann", "de.schreiben", "de.sie_hoeflich"] }
   ],
   "questions": [
     { "prompt": "王伟要在多长时间内去取钱包?", "options": ["今天之内", "七天之内", "一个月之内", "明天上午"], "answer": 1, "explainZh": "Bitte kommen Sie in den nächsten sieben Tagen zu uns.(请您在七天之内到我们这儿来。)" },

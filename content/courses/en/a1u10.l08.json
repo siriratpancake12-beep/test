@@ -1,0 +1,44 @@
+{
+  "id": "en.a1u10.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110080,
+  "titleZh": "单元复习:新年第一天的电话", "goalZh": "综合运用月份、日期、过去时和 be going to,在电话里讲节日、定出行日期", "canDoZh": "能在电话里回顾节日里做过的事,并和朋友定下一次出行的日期",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 21,
+  "newItems": [
+    { "id": "en.fly", "kind": "word", "pos": "verb", "text": "fly", "zh": "坐飞机去;飞", "features": { "ipa": "flaɪ" }, "noteZh": "过去式 flew;fly to LA(飞去洛杉矶);fl 连在一起读,中间不加元音。" }
+  ],
+  "reviewItems": ["en.secret_santa", "en.surprise", "en.new_years_eve", "en.fireworks", "en.cry", "en.come_back"],
+  "lines": [
+    { "speaker": "ethan", "text": "Hey, Lei! Happy New Year!", "zh": "(1 月 1 日,伊森从洛杉矶打来电话)嘿,磊!新年快乐!", "items": ["en.hey", "en.happy_new_year"] },
+    { "speaker": "lei", "text": "Ethan! Happy New Year! How's LA?", "zh": "伊森!新年快乐!洛杉矶怎么样?", "items": ["en.happy_new_year"] },
+    { "speaker": "ethan", "text": "Sunny and warm, man! How was Christmas?", "zh": "又晴又暖和,兄弟!圣诞节过得怎么样?", "items": ["en.sunny", "en.warm", "en.christmas"] },
+    { "speaker": "lei", "text": "Great! We had Secret Santa. Marcus loved my gift.", "zh": "很棒!我们玩了秘密圣诞老人,马库斯很喜欢我送的礼物。", "items": ["en.great", "en.have", "en.secret_santa", "en.love", "en.gift"] },
+    { "speaker": "ethan", "text": "Cool! And Sofia's birthday?", "zh": "酷!那索菲亚的生日呢?", "items": ["en.cool", "en.birthday"] },
+    { "speaker": "lei", "text": "We had a surprise party. Sofia cried, but she was happy!", "zh": "我们给她办了个惊喜派对。索菲亚都哭了,不过她特别开心!", "items": ["en.have", "en.surprise", "en.party", "en.cry", "en.happy"] },
+    { "speaker": "ethan", "text": "That's so sweet! And New Year's Eve?", "zh": "太暖心了!跨年夜呢?", "items": ["en.so", "en.sweet", "en.new_years_eve"] },
+    { "speaker": "lei", "text": "We saw the fireworks downtown. They were so loud!", "zh": "我们在市中心看了烟花,声音可响了!", "items": ["en.see", "en.fireworks", "en.downtown", "en.so", "en.loud"] },
+    { "speaker": "ethan", "text": "Awesome! So, do you and Sofia want to come to LA?", "zh": "太棒了!那你和索菲亚想来洛杉矶吗?", "items": ["en.awesome", "en.want", "en.come"] },
+    { "speaker": "lei", "text": "Yes! Sofia is here, too. Can we fly on January 4th?", "zh": "想!索菲亚也在我这儿。我们 1 月 4 日飞过去行吗?", "items": ["en.can", "en.fly", "en.january"] },
+    { "speaker": "ethan", "text": "Sure! And you can come back on the 8th.", "zh": "当然!8 号再回来。", "items": ["en.sure", "en.can", "en.come_back"] },
+    { "speaker": "sofia", "text": "Hi, Ethan! From January 4th to the 8th? Great!", "zh": "嗨,伊森!1 月 4 号到 8 号?太好了!", "items": ["en.hi", "en.january", "en.great"] },
+    { "speaker": "ethan", "text": "Hi, Sofia! It's going to be sunny, about 75 degrees!", "zh": "嗨,索菲亚!那几天都是晴天,七十五度左右!", "items": ["en.hi", "en.going_to", "en.sunny", "en.degree"] },
+    { "speaker": "lei", "text": "Perfect! I can't wait!", "zh": "完美!我等不及了!", "items": ["en.perfect", "en.cant_wait"] }
+  ],
+  "questions": [
+    { "prompt": "伊森在电话里问了哪些事?", "options": ["圣诞节、索菲亚的生日和跨年夜过得怎么样", "磊的新年计划", "咖啡馆什么时候重新开门"], "answer": 0, "explainZh": "How was Christmas? …… And Sofia's birthday? …… And New Year's Eve?" },
+    { "prompt": "他们定的是哪几天去洛杉矶?", "options": ["1 月 1 日到 4 日", "1 月 8 日到 12 日", "1 月 4 日到 8 日"], "answer": 2, "explainZh": "Can we fly on January 4th? —— Sure! And you can come back on the 8th.(4 号去,8 号回来。)" },
+    { "prompt": "伊森说那几天洛杉矶天气怎么样?", "options": ["会下雨", "晴天,七十五度左右", "很冷"], "answer": 1, "explainZh": "It's going to be sunny, about 75 degrees!" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.u10_review",
+      "titleZh": "第 10 单元小结:月份、日期、出生和计划",
+      "bodyZh": "① 月份首字母大写,在几月用 in:in January。② 日期用序数词,前面用 on:on January 4th(读 January fourth)。③ 年份两位两位地读:2026 = twenty twenty-six;2006 = two thousand six。④ 出生用 be born:I was born in 2006 / on April 18th。⑤ 讲过去的事用一般过去时:How was Christmas? — Great! We had Secret Santa.;说计划用 be going to。⑥ 约日期:from January 4th to the 8th(从 4 号到 8 号)。发音:电话里报日期要放慢,把数字说清楚、重读。",
+      "examples": [
+        { "text": "Can we fly on January 4th?", "zh": "我们 1 月 4 日飞过去行吗?" },
+        { "text": "From January 4th to the 8th.", "zh": "从 1 月 4 日到 8 日。" },
+        { "text": "How was Christmas? — Great! Marcus loved my gift.", "zh": "圣诞节过得怎么样?——很棒!马库斯很喜欢我送的礼物。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

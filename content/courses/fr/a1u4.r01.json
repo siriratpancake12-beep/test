@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u4.r01", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-4 我的住处", "order": 104045,
+  "titleZh": "宿舍门厅的入住须知(通知)", "goalZh": "看懂宿舍的入住须知:设施在哪儿、房间里有什么、有哪些规定",
+  "canDoZh": "能看懂宿舍门厅贴的通知:厨房、浴室在几楼,房间里有什么,有什么规定",
+  "skills": ["read", "write"], "estimatedMinutes": 16.5,
+  "newItems": [
+    { "id": "fr.residence", "kind": "word", "pos": "noun", "text": "la résidence", "zh": "(学生)宿舍楼;住宅楼", "features": { "gender": "f", "ipa": "la ʁe.zi.dɑ̃s" }, "noteZh": "阴性;学生宿舍全称 la résidence universitaire,平时说 la résidence。两个元音之间的 s 读 [z]。" },
+    { "id": "fr.porte", "kind": "word", "pos": "noun", "text": "la porte", "zh": "门", "features": { "gender": "f", "ipa": "la pɔʁt" }, "noteZh": "阴性;词尾 te 读 [t]。在门后面:derrière la porte。" },
+    { "id": "fr.poubelle", "kind": "word", "pos": "noun", "text": "la poubelle", "zh": "垃圾桶", "features": { "gender": "f", "ipa": "la pu.bɛl" }, "noteZh": "阴性;ou 读 [u],-elle 读 [ɛl]。" },
+    { "id": "fr.gardien", "kind": "word", "pos": "noun", "text": "le gardien", "zh": "(楼、宿舍的)管理员;看门人", "features": { "gender": "m", "ipa": "lə gaʁ.djɛ̃" }, "noteZh": "阳性;女管理员是 la gardienne [gaʁ.djɛn]。当面不叫 gardien,叫 Monsieur 或 Madame。" }
+  ],
+  "reviewItems": ["fr.cuisine", "fr.rez_de_chaussee", "fr.ascenseur", "fr.en_face_de", "fr.il_y_a", "fr.chambre"],
+  "lines": [
+    { "speaker": "narrator", "text": "Bienvenue à la résidence !", "zh": "(宿舍门厅的布告栏上贴着管理员写的《欢迎入住》)欢迎入住本宿舍!", "items": ["fr.bienvenue", "fr.a", "fr.residence"] },
+    { "speaker": "narrator", "text": "La cuisine est au rez-de-chaussée, à côté de l'ascenseur.", "zh": "厨房在一楼(地面层),电梯旁边。", "items": ["fr.cuisine", "fr.etre", "fr.a", "fr.rez_de_chaussee", "fr.a_cote_de", "fr.ascenseur"] },
+    { "speaker": "narrator", "text": "Dans la cuisine, il y a des tables et des chaises.", "zh": "厨房里有桌子和椅子。", "items": ["fr.dans", "fr.cuisine", "fr.il_y_a", "fr.des", "fr.table", "fr.et", "fr.chaise"] },
+    { "speaker": "narrator", "text": "Les salles de bains et les toilettes sont en face de l'ascenseur.", "zh": "各层的浴室和厕所都在电梯对面。", "items": ["fr.salle_de_bains", "fr.et", "fr.toilettes", "fr.etre", "fr.en_face_de", "fr.ascenseur"] },
+    { "speaker": "narrator", "text": "Dans la chambre, il y a un lit, un bureau et une armoire.", "zh": "每个房间里有一张床、一张书桌和一个衣柜。", "items": ["fr.dans", "fr.chambre", "fr.il_y_a", "fr.un", "fr.lit", "fr.bureau", "fr.et", "fr.une", "fr.armoire"] },
+    { "speaker": "narrator", "text": "Pas de cuisine dans la chambre !", "zh": "房间里不能做饭!", "items": ["fr.pas_de", "fr.cuisine", "fr.dans", "fr.chambre"] },
+    { "speaker": "narrator", "text": "Pas de chat, pas de chien !", "zh": "不能养猫,也不能养狗!", "items": ["fr.pas_de", "fr.chat", "fr.chien"] },
+    { "speaker": "narrator", "text": "La poubelle est derrière la porte de la cuisine.", "zh": "垃圾桶在厨房门后面。", "items": ["fr.poubelle", "fr.etre", "fr.derriere", "fr.porte", "fr.de", "fr.cuisine"] },
+    { "speaker": "narrator", "text": "Le gardien est au rez-de-chaussée, en face de la porte.", "zh": "管理员在一楼(地面层),正对着大门。", "items": ["fr.gardien", "fr.etre", "fr.a", "fr.rez_de_chaussee", "fr.en_face_de", "fr.porte"] },
+    { "speaker": "narrator", "text": "Merci et bonne journée ! Le gardien", "zh": "谢谢大家,祝大家愉快!——宿舍管理员", "items": ["fr.merci", "fr.et", "fr.bonne_journee", "fr.gardien"] }
+  ],
+  "questions": [
+    { "prompt": "公共厨房在哪儿?", "options": ["premier étage,电梯对面", "地面层,电梯旁边", "每个房间里"], "answer": 1, "explainZh": "La cuisine est au rez-de-chaussée, à côté de l'ascenseur.(厨房在地面层,电梯旁边。)在电梯对面的是浴室和厕所。" },
+    { "prompt": "通知里禁止什么?", "options": ["在厨房吃饭", "在房间里做饭,养猫养狗", "坐电梯"], "answer": 1, "explainZh": "Pas de cuisine dans la chambre ! Pas de chat, pas de chien !——Pas de + 名词 + ! 就是“不许……”。" },
+    { "prompt": "垃圾桶在哪儿?", "options": ["电梯对面", "管理员那里", "厨房门后面"], "answer": 2, "explainZh": "La poubelle est derrière la porte de la cuisine.(垃圾桶在厨房门后面。)" },
+    { "prompt": "有事找管理员,要去哪儿?", "options": ["地面层,大门对面", "premier étage,浴室旁边", "厨房里"], "answer": 0, "explainZh": "Le gardien est au rez-de-chaussée, en face de la porte.(管理员在地面层,正对着大门。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.avis", "titleZh": "通知的写法:短句,Pas de… !",
+      "bodyZh": "公告、须知常用很短的句子,一条一条写清楚:\n- 有什么、在哪儿:Il y a… / … est au rez-de-chaussée / … est en face de l'ascenseur.\n- 不许做什么:最简单的写法是 Pas de + 名词 + !(Pas de cuisine dans la chambre ! = 房间里不能做饭)。正式的说法 Il est interdit de…(禁止……)以后会在告示上见到,先认得就行。\n复习楼层:le rez-de-chaussée 是地面层(中国说的一楼),le premier étage 是中国说的二楼。复习地点介词:à côté de(旁边)、en face de(对面)、derrière(后面)、dans(里面)。de + la 不变:derrière la porte de la cuisine。",
+      "examples": [
+        { "text": "Pas de cuisine dans la chambre !", "zh": "房间里不能做饭!" },
+        { "text": "La cuisine est au rez-de-chaussée.", "zh": "厨房在一楼(地面层)。" },
+        { "text": "La poubelle est derrière la porte.", "zh": "垃圾桶在门后面。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u13.l06", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113060,
+  "titleZh": "我来帮你", "goalZh": "会主动提出帮忙(Can I help you with that? / Let me…),也能礼貌地接受或谢绝别人的帮助", "canDoZh": "能主动提出帮助别人,也能礼貌地接受或谢绝别人的帮助",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.let_me", "kind": "phrase", "pos": "phrase", "text": "Let me", "zh": "让我来……;我来……", "features": { "ipa": "ˈlet mi" }, "noteZh": "Let me + 动词原形,主动提出帮忙:Let me help. / Let me carry it.;第 5 单元学过 Let me see.(我看看)。" },
+    { "id": "en.carry", "kind": "word", "pos": "verb", "text": "carry", "zh": "拿;提;搬", "features": { "ipa": "ˈkeri" }, "noteZh": "Let me carry it for you. 我来帮你拿;美式读 /ˈkeri/,a 读 /e/。" },
+    { "id": "en.heavy", "kind": "word", "pos": "adj", "text": "heavy", "zh": "重的", "features": { "ipa": "ˈhevi" }, "noteZh": "This bag is so heavy. 这个包好重;ea 在这里读短的 /e/。" },
+    { "id": "en.do_you_need_help", "kind": "phrase", "pos": "phrase", "text": "Do you need help", "zh": "需要帮忙吗?", "features": { "ipa": "də jə ˌniːd ˈhelp" }, "noteZh": "看到别人需要帮助时主动问:Do you need help with your bag?;回答 Yes, please. / Thanks, but I'm OK.。用升调,听起来友好。" },
+    { "id": "en.thats_very_kind_of_you", "kind": "phrase", "pos": "phrase", "text": "That's very kind of you", "zh": "您真好(感谢别人的好意)", "alt": ["That's so kind of you"], "features": { "ipa": "ðæts ˌveri ˈkaɪnd əv ju" }, "noteZh": "别人主动帮你时说,比 Thank you 更有礼貌;口语也说 That's so nice of you.。of 弱读成 /əv/。" },
+    { "id": "en.what_was_that", "kind": "phrase", "pos": "phrase", "text": "What was that", "zh": "刚才说的是什么?(没听清)", "features": { "ipa": "ˌwʌt ˈwʌz ðæt" }, "noteZh": "没听清广播或别人的话时说 Sorry, what was that?,用升调;比只说 What? 礼貌。" },
+    { "id": "en.take_care", "kind": "phrase", "pos": "phrase", "text": "Take care", "zh": "保重", "features": { "ipa": "ˌteɪk ˈker" }, "noteZh": "道别时说,意思是“保重、多注意”;回应 You too!。" },
+    { "id": "en.glad", "kind": "word", "pos": "adj", "text": "glad", "zh": "高兴的", "features": { "ipa": "ɡlæd" }, "noteZh": "I'm glad I can help. 能帮上忙我很高兴;glad 一般放在 be 后面,不说 a glad man。a 读 /æ/。" }
+  ],
+  "reviewItems": ["en.help", "en.bag", "en.late", "en.sorry_about_that", "en.you_too"],
+  "lines": [
+    { "speaker": "tourist", "text": "Oh, this bag is so heavy.", "zh": "(周五早上飞回西雅图的飞机上,一位老奶奶模样的乘客提不动行李)哎呀,这个包真重。", "items": ["en.bag", "en.so", "en.heavy"] },
+    { "speaker": "lei", "text": "Can I help you with that?", "zh": "我来帮您吧?", "items": ["en.can", "en.help"] },
+    { "speaker": "tourist", "text": "Oh, yes, please. Thank you.", "zh": "哦,好的,谢谢你。", "items": ["en.thank_you"] },
+    { "speaker": "lei", "text": "Let me carry it for you.", "zh": "我来帮您拿。", "items": ["en.let_me", "en.carry"] },
+    { "speaker": "tourist", "text": "That's very kind of you.", "zh": "你真好。", "items": ["en.thats_very_kind_of_you"] },
+    { "speaker": "staff", "text": "Hi, everyone. We're about ten minutes late today. Sorry about that!", "zh": "(广播里,空乘)大家好,今天我们会晚十分钟左右起飞,很抱歉!", "items": ["en.hi", "en.minute", "en.late", "en.today", "en.sorry_about_that"] },
+    { "speaker": "tourist", "text": "Sorry, what was that?", "zh": "不好意思,刚才说的是什么?", "items": ["en.sorry", "en.what_was_that"] },
+    { "speaker": "lei", "text": "We're ten minutes late, that's all.", "zh": "飞机要晚十分钟,没别的事。", "items": ["en.minute", "en.late"] },
+    { "speaker": "lei", "text": "Do you need help with your bag?", "zh": "(飞机落地后)需要我帮您拿包吗?", "items": ["en.do_you_need_help", "en.bag"] },
+    { "speaker": "tourist", "text": "Thanks, but I'm OK. Take care!", "zh": "谢谢,不用了,我自己可以。保重啊!", "items": ["en.thank_you", "en.take_care"] },
+    { "speaker": "lei", "text": "You too! I'm glad I can help.", "zh": "您也是!能帮上忙我很高兴。", "items": ["en.you_too", "en.glad", "en.can", "en.help"] },
+    { "speaker": "sofia", "text": "Lei, you're so kind!", "zh": "磊,你人真好!", "items": ["en.so", "en.kind"] }
+  ],
+  "questions": [
+    { "prompt": "那位乘客遇到了什么麻烦?", "options": ["找不到座位", "听不懂英语", "包太重了"], "answer": 2, "explainZh": "她说 Oh, this bag is so heavy.,磊说 Let me carry it for you.。" },
+    { "prompt": "广播说了什么?", "options": ["飞机要晚十分钟", "飞机要改去别的机场", "还要等一个小时"], "answer": 0, "explainZh": "广播说 We're about ten minutes late today.,磊也告诉她 We're ten minutes late, that's all.。" },
+    { "prompt": "下飞机时磊问她要不要帮忙,她怎么说?", "options": ["好的,谢谢", "谢谢,不用了,她自己可以", "请帮我叫一辆车"], "answer": 1, "explainZh": "她说 Thanks, but I'm OK. Take care!(谢谢,不用了。保重!)" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_offer_help", "titleZh": "主动帮忙:Can I help you with that? / Let me… / Do you need help?",
+      "bodyZh": "看到别人需要帮忙,可以主动问:Can I help you with that?(我来帮您吧?)、Do you need help with your bag?(需要帮您拿包吗?);直接动手时说 Let me + 动词原形:Let me carry it for you.(我来帮您拿)、Let me help.。别人帮你时,接受说 Yes, please. Thank you. 或 That's very kind of you.(您真好);不需要就礼貌地谢绝:Thanks, but I'm OK.(谢谢,不用了)。被人谢的时候可以说 I'm glad I can help.(能帮上忙我很高兴)或 No problem.。发音:主动帮忙的问句用升调 ↗,语气轻松友好。",
+      "examples": [
+        { "text": "Can I help you with that? — Yes, please.", "zh": "我来帮您吧?——好的,谢谢。" },
+        { "text": "Let me carry it for you.", "zh": "我来帮您拿。" },
+        { "text": "Do you need help? — Thanks, but I'm OK.", "zh": "需要帮忙吗?——谢谢,不用了。" }
+      ] },
+    { "id": "en.g.u13_what_was_that", "titleZh": "没听清:Sorry, what was that?",
+      "bodyZh": "没听清广播或别人刚说的话,可以说 Sorry, what was that?(不好意思,刚才说的是什么?),用升调;比只说 What? 礼貌得多。第 1 单元学过的 Could you say that again? 也可以用。替别人解释广播时,把关键信息说清楚就行:We're ten minutes late, that's all.(晚十分钟,没别的事)。",
+      "examples": [
+        { "text": "Sorry, what was that?", "zh": "不好意思,刚才说的是什么?" },
+        { "text": "We're ten minutes late, that's all.", "zh": "晚十分钟,没别的事。" }
+      ] }
+  ],
+  "review": "draft"
+}

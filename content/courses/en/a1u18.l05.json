@@ -2,7 +2,7 @@
   "id": "en.a1u18.l05", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
   "unit": "A1-18 Game on", "order": 118050,
   "titleZh": "绕着湖跑一圈", "goalZh": "会用 along、across、through、up、down 等介词说一条跑步或散步的路线", "canDoZh": "能说清楚一条跑步或散步的路线:沿着哪儿、穿过哪儿、上坡还是下坡",
-  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 27.5,
   "newItems": [
     { "id": "en.along", "kind": "word", "pos": "prep", "text": "along", "zh": "沿着", "features": { "ipa": "əˈlɑːŋ" }, "noteZh": "run along the lake 沿着湖跑;重音在后 a-LONG,美式 o 读 /ɑː/,结尾 ng 读 /ŋ/。" },
     { "id": "en.across", "kind": "word", "pos": "prep", "text": "across", "zh": "横过;从一边到另一边", "features": { "ipa": "əˈkrɑːs" }, "noteZh": "go across the bridge 过桥;第 5 单元的 across from(在……对面)说位置,across 说路线。" },

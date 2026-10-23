@@ -1,0 +1,56 @@
+{
+  "id": "en.a1u11.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111010,
+  "titleZh": "订机票", "goalZh": "会说航班几点出发、几点到,选靠窗还是靠过道,看懂托运行李的价钱", "canDoZh": "能和朋友一起在网上订往返机票:比较时间和价格、选座位、看行李规定",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "en.flight", "kind": "word", "pos": "noun", "text": "flight", "zh": "航班;飞行", "features": { "ipa": "flaɪt" }, "noteZh": "Flight 207(207 航班);gh 不发音,读 /flaɪt/;fl 连在一起读,中间不加元音。" },
+    { "id": "en.leave", "kind": "word", "pos": "verb", "text": "leave", "zh": "离开;(车、飞机)出发", "features": { "ipa": "liːv" }, "noteZh": "The flight leaves at 7:15.(航班 7:15 起飞。)过去式 left,和“左”是同一个拼写;ea 读长音 /iː/,词尾 v 要带声。" },
+    { "id": "en.arrive", "kind": "word", "pos": "verb", "text": "arrive", "zh": "到达", "features": { "ipa": "əˈraɪv" }, "noteZh": "arrive in + 城市、arrive at + 具体地点:arrive in LA / arrive at the airport,不说 arrive LA;重音在后 a-RRIVE。" },
+    { "id": "en.choose", "kind": "word", "pos": "verb", "text": "choose", "zh": "选;选择", "features": { "ipa": "tʃuːz" }, "noteZh": "过去式 chose;Let's choose the 7:15.(就选 7:15 那班吧。)oo 读长音 /uː/,词尾 s 读 /z/。" },
+    { "id": "en.window", "kind": "word", "pos": "noun", "text": "window", "zh": "窗户;靠窗的位子", "features": { "ipa": "ˈwɪndoʊ" }, "noteZh": "Window or aisle?(靠窗还是靠过道?)w 开头双唇收圆;ow 读 /oʊ/。" },
+    { "id": "en.plane", "kind": "word", "pos": "noun", "text": "plane", "zh": "飞机", "features": { "ipa": "pleɪn" }, "noteZh": "on the plane(在飞机上),介词用 on;正式一点说 airplane;a 读 /eɪ/。" },
+    { "id": "en.check_a_bag", "kind": "phrase", "pos": "verb", "text": "check a bag", "zh": "托运行李", "features": { "ipa": "ˌtʃek ə ˈbæɡ" }, "noteZh": "It's $35 to check a bag.(托运一件行李 35 美元。)机场会问 Are you checking any bags?;这里的 check 是“托运”,和第 4 单元的 check(账单)意思不同。" },
+    { "id": "en.carry_on", "kind": "word", "pos": "noun", "text": "carry-on", "zh": "登机箱;随身行李", "features": { "ipa": "ˈkeri ɑːn" }, "noteZh": "能带上飞机的小行李箱;复合词重音在前 CA-rry-on;Only carry-ons.(只带登机箱。)" }
+  ],
+  "reviewItems": ["en.round_trip", "en.ticket", "en.aisle", "en.cheap", "en.expensive"],
+  "lines": [
+    { "speaker": "sofia", "text": "OK, Seattle to LA, January 4th. Look at these flights.", "zh": "(图书馆的电脑前)好,西雅图飞洛杉矶,1 月 4 日。看看这些航班。", "items": ["en.january", "en.look", "en.flight"] },
+    { "speaker": "lei", "text": "The first flight leaves at 7:15. It's $129.", "zh": "第一班 7:15 起飞,129 美元。", "items": ["en.first", "en.flight", "en.leave"] },
+    { "speaker": "sofia", "text": "And there's a flight at 2:40. That's $159.", "zh": "还有一班下午 2:40 的,159 美元。", "items": ["en.flight"] },
+    { "speaker": "lei", "text": "The 7:15 is cheap. When does it arrive?", "zh": "7:15 那班便宜。几点到?", "items": ["en.cheap", "en.arrive"] },
+    { "speaker": "sofia", "text": "It arrives in LA at 9:55. That's early, but OK!", "zh": "9:55 到洛杉矶。是早了点,不过行!", "items": ["en.arrive", "en.early"] },
+    { "speaker": "lei", "text": "Let's choose the 7:15. And we come back on the 8th, in the evening.", "zh": "就选 7:15 那班吧。8 号晚上再飞回来。", "items": ["en.lets", "en.choose", "en.come_back", "en.evening"] },
+    { "speaker": "sofia", "text": "OK. Two round-trip tickets. Window or aisle?", "zh": "好。两张往返票。靠窗还是靠过道?", "items": ["en.round_trip", "en.ticket", "en.window", "en.aisle"] },
+    { "speaker": "lei", "text": "Window, please! I love the view from the plane.", "zh": "靠窗!我喜欢从飞机上看风景。", "items": ["en.window", "en.love", "en.view", "en.plane"] },
+    { "speaker": "sofia", "text": "I like the aisle. Oh, it's $35 to check a bag.", "zh": "我喜欢靠过道。哦,托运一件行李要 35 美元。", "items": ["en.like", "en.aisle", "en.check_a_bag"] },
+    { "speaker": "lei", "text": "Thirty-five dollars? That's expensive. No checked bags, then!", "zh": "35 美元?太贵了。那就不托运了!", "items": ["en.dollar", "en.expensive", "en.check_a_bag", "en.then"] },
+    { "speaker": "sofia", "text": "OK. Only carry-ons. Done!", "zh": "好。只带登机箱。订好了!", "items": ["en.only", "en.carry_on"] }
+  ],
+  "questions": [
+    { "prompt": "他们选了几点的航班?为什么?", "options": ["2:40 的,因为不用早起", "7:15 的,因为便宜", "7:15 的,因为能看日出"], "answer": 1, "explainZh": "The 7:15 is cheap.(7:15 那班 129 美元,2:40 那班 159 美元。)" },
+    { "prompt": "磊为什么要靠窗?", "options": ["他喜欢从飞机上看风景", "靠窗的票便宜", "他想在飞机上睡觉"], "answer": 0, "explainZh": "Window, please! I love the view from the plane." },
+    { "prompt": "他们为什么不托运行李?", "options": ["行李太重了", "托运要排很久的队", "托运一件要 35 美元,太贵了"], "answer": 2, "explainZh": "Oh, it's $35 to check a bag. —— Thirty-five dollars? That's expensive. No checked bags, then!" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.flight_times",
+      "titleZh": "航班时间:The flight leaves at… / arrives at…",
+      "bodyZh": "说航班、火车几点出发、几点到,用一般现在时(时刻表上定好的事,哪怕是下个月的):The flight leaves at 7:15. / It arrives at 9:55.。问:When does it leave? / When does it arrive?。arrive 后面接地点要加介词:arrive in LA(城市)、arrive at the airport(具体地点),不说 arrive LA。时刻读法:7:15 = seven fifteen,9:55 = nine fifty-five。leave 的过去式是 left,和“左”的拼写一样。",
+      "examples": [
+        { "text": "The first flight leaves at 7:15.", "zh": "第一班 7:15 起飞。" },
+        { "text": "When does it arrive? — At 9:55.", "zh": "几点到?——9:55。" }
+      ]
+    },
+    {
+      "id": "en.g.window_aisle",
+      "titleZh": "Window or aisle?:选位子、托运行李",
+      "bodyZh": "订票时常听到 Window or aisle?(要靠窗还是靠过道?),回答 Window, please. 就行;完整的说法是 a window seat / an aisle seat。aisle 的 s 不发音,读 /aɪl/,以元音开头,所以前面用 an(第 4 单元学过 aisle);连读时 an aisle 听起来像 “a-naisle”。托运行李说 check a bag:It's $35 to check a bag.(托运一件行李 35 美元。)只带登机箱就说 Only carry-ons.。",
+      "examples": [
+        { "text": "Window or aisle? — Window, please.", "zh": "靠窗还是靠过道?——靠窗,谢谢。" },
+        { "text": "It's $35 to check a bag.", "zh": "托运一件行李要 35 美元。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

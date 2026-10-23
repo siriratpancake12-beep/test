@@ -1,0 +1,50 @@
+{
+  "id": "en.a1u13.l03", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113030,
+  "titleZh": "描述丢失的东西", "goalZh": "会用颜色、材质和特别的记号描述丢失的东西,按“大小—颜色—材质”的顺序说,并留下联系方式", "canDoZh": "能把丢失的东西描述清楚:大小、颜色、材质和特别的记号,并留下联系方式",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.describe", "kind": "word", "pos": "verb", "text": "describe", "zh": "描述;形容", "features": { "ipa": "dɪˈskraɪb" }, "noteZh": "Can you describe it? 能描述一下吗?;重音在后 de-SCRIBE,词尾 b 轻轻收住。" },
+    { "id": "en.case", "kind": "word", "pos": "noun", "text": "case", "zh": "手机壳;盒子", "features": { "ipa": "keɪs" }, "noteZh": "phone case 手机壳;a 读 /eɪ/,结尾是清音 s。" },
+    { "id": "en.sticker", "kind": "word", "pos": "noun", "text": "sticker", "zh": "贴纸", "features": { "ipa": "ˈstɪkɚ" }, "noteZh": "a panda sticker 熊猫贴纸;st 之间不加元音,结尾卷舌。" },
+    { "id": "en.plastic", "kind": "word", "pos": "adj", "text": "plastic", "zh": "塑料的", "features": { "ipa": "ˈplæstɪk" }, "noteZh": "a plastic case 塑料手机壳;材质词放在名词前面当形容词用;重音在前 PLAS-tic。" },
+    { "id": "en.leather", "kind": "word", "pos": "adj", "text": "leather", "zh": "皮的;皮革的", "features": { "ipa": "ˈleðɚ" }, "noteZh": "a leather bag 皮包;th 是浊音 /ð/,舌尖轻放在齿间振动声带,别读成 z 或 d。" },
+    { "id": "en.metal", "kind": "word", "pos": "adj", "text": "metal", "zh": "金属的", "features": { "ipa": "ˈmet̬əl" }, "noteZh": "a metal case 金属壳;美式 t 读闪音,听起来像“MED-l”。" },
+    { "id": "en.screen", "kind": "word", "pos": "noun", "text": "screen", "zh": "屏幕", "features": { "ipa": "skriːn" }, "noteZh": "phone screen 手机屏幕;scr 三个辅音连在一起读,中间不加元音。" },
+    { "id": "en.charger", "kind": "word", "pos": "noun", "text": "charger", "zh": "充电器", "features": { "ipa": "ˈtʃɑːrdʒɚ" }, "noteZh": "phone charger 手机充电器;动词 charge 是“充电”(第 14 单元学)。ar 和结尾的 er 都要卷舌。" }
+  ],
+  "reviewItems": ["en.phone", "en.black", "en.blue", "en.panda", "en.phone_number"],
+  "lines": [
+    { "speaker": "staff", "text": "Can you describe your phone? What does it look like?", "zh": "(工作人员帮磊做失物登记)能描述一下你的手机吗?它是什么样的?", "items": ["en.can", "en.describe", "en.phone", "en.what_does_he_look_like"] },
+    { "speaker": "lei", "text": "It's a black phone with a blue plastic case.", "zh": "是一部黑色的手机,套着蓝色的塑料手机壳。", "items": ["en.black", "en.phone", "en.blue", "en.plastic", "en.case"] },
+    { "speaker": "staff", "text": "Plastic? Not leather or metal?", "zh": "塑料的?不是皮的,也不是金属的?", "items": ["en.plastic", "en.leather", "en.metal"] },
+    { "speaker": "lei", "text": "No, plastic. And there's a panda sticker on it.", "zh": "不是,是塑料的。上面还贴着一张熊猫贴纸。", "items": ["en.plastic", "en.panda", "en.sticker"] },
+    { "speaker": "staff", "text": "OK. What's on the screen?", "zh": "好。屏幕上是什么图?", "items": ["en.screen"] },
+    { "speaker": "lei", "text": "A photo of my family.", "zh": "我家人的照片。", "items": ["en.photo", "en.family"] },
+    { "speaker": "staff", "text": "Can I have a phone number?", "zh": "能留个电话号码吗?", "items": ["en.can", "en.have", "en.phone_number"] },
+    { "speaker": "lei", "text": "Sure. It's my friend's number: 206-555-0147.", "zh": "好的,留我朋友的吧:206-555-0147。", "items": ["en.sure", "en.friend", "en.phone_number"] },
+    { "speaker": "staff", "text": "Thanks. Oh, is this small brown leather bag yours? Or this white charger?", "zh": "谢谢。哦,这个棕色的小皮包是你们的吗?还有这个白色的充电器?", "items": ["en.thank_you", "en.small", "en.brown", "en.leather", "en.bag", "en.yours", "en.white", "en.charger"] },
+    { "speaker": "ethan", "text": "No, they're not ours.", "zh": "不是,都不是我们的。", "items": ["en.ours"] }
+  ],
+  "questions": [
+    { "prompt": "磊的手机是什么样的?", "options": ["白色手机,蓝色手机壳", "黑色手机,蓝色塑料手机壳", "黑色手机,皮手机壳"], "answer": 1, "explainZh": "磊说 It's a black phone with a blue plastic case.。" },
+    { "prompt": "手机屏幕上是什么?", "options": ["一只熊猫", "磊自己的照片", "家人的照片"], "answer": 2, "explainZh": "What's on the screen? — A photo of my family.(熊猫是手机壳上的贴纸)" },
+    { "prompt": "磊留了谁的电话号码?", "options": ["伊森的", "失物招领处的", "索菲亚的"], "answer": 2, "explainZh": "磊说 It's my friend's number: 206-555-0147.——这是索菲亚的号码,磊自己的手机丢了。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_describe_things", "titleZh": "描述东西:What does it look like? / a … with …",
+      "bodyZh": "第 2 单元用 What does he look like? 问人的长相,问东西也一样:What does it look like?(它是什么样的?)。描述时先说是什么、什么颜色,再用 with 加上特别的地方:a black phone with a blue case(一部套着蓝色手机壳的黑手机)。说材质,把 plastic(塑料的)、leather(皮的)、metal(金属的)直接放在名词前面:a plastic case、a leather bag。还可以说上面有什么:There's a panda sticker on it. / There's a photo of my family on the screen.。丢了东西,工作人员一般还会要电话号码:Can I have a phone number?。",
+      "examples": [
+        { "text": "What does it look like? — It's a black phone with a blue case.", "zh": "它是什么样的?——是一部套着蓝色手机壳的黑色手机。" },
+        { "text": "There's a panda sticker on it.", "zh": "上面贴着一张熊猫贴纸。" },
+        { "text": "Is the case plastic or metal?", "zh": "手机壳是塑料的还是金属的?" }
+      ] },
+    { "id": "en.g.u13_adjective_order", "titleZh": "形容词的顺序:大小 → 颜色 → 材质",
+      "bodyZh": "好几个形容词一起修饰一个名词时,英语有比较固定的顺序:大小 → 颜色 → 材质 → 名词:a small brown leather bag(一个棕色的小皮包),不说 a leather brown small bag。中文“棕色的小皮包”顺序不一样,要专门记。再比如 a big black plastic case。说话时一般最多用两三个,太多反而听不清。发音:leather 的 th 是浊音 /ð/,舌尖轻放在上下齿之间振动声带,别读成“lezer”或“ledder”;metal 美式的 t 读闪音,听起来像“MED-l”。",
+      "examples": [
+        { "text": "Is this small brown leather bag yours?", "zh": "这个棕色的小皮包是你的吗?" },
+        { "text": "It's a big black plastic case.", "zh": "是一个黑色的大塑料壳。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "en.a1u10.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-10 Happy holidays", "order": 110085,
+  "titleZh": "磊的新年计划", "goalZh": "会读一份计划清单,说出每条计划和理由", "canDoZh": "能读懂一份新年计划清单,说出每条计划和理由,并写出自己的三条",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 12.5,
+  "newItems": [
+    { "id": "en.important", "kind": "word", "pos": "adj", "text": "important", "zh": "重要的", "features": { "ipa": "ɪmˈpɔːrtənt" }, "noteZh": "重音在第二个音节 im-POR-tant;美式口语里 -tant 的 t 常常很轻。" }
+  ],
+  "reviewItems": ["en.video_call", "en.miss", "en.take_pictures", "en.weekend", "en.run"],
+  "lines": [
+    { "speaker": "lei", "text": "My New Year's Resolutions", "zh": "(写在新笔记本的第一页)我的新年计划", "items": ["en.new_years_resolution"] },
+    { "speaker": "lei", "text": "1. Speak English with people every day. It's important!", "zh": "1. 每天和别人说英语。这很重要!", "items": ["en.speak", "en.people", "en.every_day", "en.important"] },
+    { "speaker": "lei", "text": "2. Go running every weekend. Running is fun!", "zh": "2. 每个周末去跑步。跑步很好玩!", "items": ["en.go", "en.run", "en.weekend", "en.fun"] },
+    { "speaker": "lei", "text": "3. Learn to swim. Ethan is going to be my teacher.", "zh": "3. 学会游泳。伊森要当我的老师。", "items": ["en.learn", "en.swim", "en.going_to", "en.teacher"] },
+    { "speaker": "lei", "text": "4. Have a video call with Mom and Dad every Sunday.", "zh": "4. 每个星期天和爸妈视频。", "items": ["en.have", "en.video_call", "en.mom", "en.dad", "en.sunday"] },
+    { "speaker": "lei", "text": "I miss them, and they miss me!", "zh": "我想他们,他们也想我!", "items": ["en.miss"] },
+    { "speaker": "lei", "text": "5. Be Amy's Chinese teacher every week.", "zh": "5. 每周给艾米当中文老师。", "items": ["en.teacher", "en.week"] },
+    { "speaker": "lei", "text": "And she can be my English teacher!", "zh": "她也可以当我的英语老师!", "items": ["en.can", "en.teacher"] },
+    { "speaker": "lei", "text": "6. Only one coffee a day. (Really? I love coffee!)", "zh": "6. 一天只喝一杯咖啡。(真的吗?我那么爱喝咖啡!)", "items": ["en.only", "en.coffee", "en.really", "en.love"] },
+    { "speaker": "lei", "text": "7. Take a lot of pictures of Seattle.", "zh": "7. 多拍拍西雅图。", "items": ["en.take_pictures", "en.a_lot_of"] },
+    { "speaker": "lei", "text": "This is going to be a great year!", "zh": "今年一定会很棒!", "items": ["en.going_to", "en.great", "en.year"] }
+  ],
+  "questions": [
+    { "prompt": "磊打算多久和爸妈视频一次?", "options": ["每天", "每个星期天", "每个周末两次"], "answer": 1, "explainZh": "4. Have a video call with Mom and Dad every Sunday.(每个星期天。)" },
+    { "prompt": "关于咖啡,磊的计划是什么?", "options": ["一天只喝一杯", "再也不喝咖啡", "每天喝两杯"], "answer": 0, "explainZh": "6. Only one coffee a day. (Really? I love coffee!)——他自己都不太相信能做到。" },
+    { "prompt": "谁要当磊的游泳老师?", "options": ["艾米", "索菲亚", "伊森"], "answer": 2, "explainZh": "3. Learn to swim. Ethan is going to be my teacher.(艾米是要跟磊学中文。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.resolution_list",
+      "titleZh": "计划清单的写法",
+      "bodyZh": "计划清单常用“序号 + 动词原形”开头,省掉 I'm going to:1. Speak English every day. = I'm going to speak English every day.。后面用一句话说理由:It's important! / Running is fun!。表示频率的说法放在句末:every day、every week、every Sunday、every weekend。a day 表示“每天”:one coffee a day(一天一杯)。",
+      "examples": [
+        { "text": "Go running every weekend.", "zh": "每个周末去跑步。" },
+        { "text": "Only one coffee a day.", "zh": "一天只喝一杯咖啡。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u14.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-14 Phones & the internet", "order": 114010,
+  "titleZh": "换个手机套餐", "goalZh": "会在手机店问清楚套餐的价格、流量和国际电话,选一个合适的套餐", "canDoZh": "能在手机店问清楚套餐的价格、流量和打国际电话的费用,选一个合适的套餐",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.phone_plan", "kind": "phrase", "pos": "noun", "text": "phone plan", "zh": "手机套餐", "features": { "ipa": "ˈfoʊn ˌplæn" }, "noteZh": "美国的手机一般按月付套餐费;第 7 单元的 plan 是“计划”,phone plan 是“套餐”。phone、plan 结尾都是前鼻音 /n/,舌尖顶住上齿龈。" },
+    { "id": "en.data", "kind": "word", "pos": "noun", "text": "data", "zh": "(手机)流量;数据", "features": { "ipa": "ˈdeɪt̬ə" }, "noteZh": "手机流量就叫 data:10 gigs of data 10G 流量;美式常读 /ˈdeɪt̬ə/,t 是闪音。data 不可数,不加 s。" },
+    { "id": "en.gig", "kind": "word", "pos": "noun", "text": "gig", "zh": "(口语)G(流量单位)", "features": { "ipa": "ɡɪɡ" }, "noteZh": "gigabyte 的口语简称:10 gigs = 10G 流量;两个 g 都是浊音 /ɡ/。" },
+    { "id": "en.unlimited", "kind": "word", "pos": "adj", "text": "unlimited", "zh": "不限量的", "features": { "ipa": "ʌnˈlɪmɪt̬ɪd" }, "noteZh": "unlimited data 不限流量;un- 表示“不”,重音在第二个音节 un-LIM-it-ed。" },
+    { "id": "en.sim_card", "kind": "phrase", "pos": "noun", "text": "SIM card", "zh": "手机卡;SIM 卡", "features": { "ipa": "ˈsɪm ˌkɑːrd" }, "noteZh": "SIM 读成一个词 /sɪm/,不一个字母一个字母地读;换运营商一般要换一张新的 SIM card。" },
+    { "id": "en.international", "kind": "word", "pos": "adj", "text": "international", "zh": "国际的", "features": { "ipa": "ˌɪnt̬ɚˈnæʃənəl" }, "noteZh": "international calls 国际电话;第 1 单元学过 international student;重音在 -NA-,t 读闪音。" },
+    { "id": "en.save", "kind": "word", "pos": "verb", "text": "save", "zh": "省(钱);节省", "features": { "ipa": "seɪv" }, "noteZh": "You can save money. 你能省钱;结尾 v 要带声,别读成 safe(安全的)。" },
+    { "id": "en.signal", "kind": "word", "pos": "noun", "text": "signal", "zh": "(手机)信号", "features": { "ipa": "ˈsɪɡnəl" }, "noteZh": "The signal is good. 信号很好;这里的 g 要发音(和 sign 不一样),重音在前 SIG-nal。" }
+  ],
+  "reviewItems": ["en.phone", "en.month", "en.bill", "en.include", "en.per"],
+  "lines": [
+    { "speaker": "clerk", "text": "Hi! How can I help you today?", "zh": "(开学前,艾米陪磊去手机店)你好!今天需要什么帮助?", "items": ["en.hi", "en.can_i_help_you", "en.today"] },
+    { "speaker": "lei", "text": "Hi. My phone bill is 80 dollars a month. It's too expensive.", "zh": "你好。我的手机话费一个月 80 美元,太贵了。", "items": ["en.hi", "en.phone", "en.bill", "en.dollar", "en.month", "en.too", "en.expensive"] },
+    { "speaker": "clerk", "text": "We have two phone plans. You can save money!", "zh": "我们有两种套餐,你能省不少钱!", "items": ["en.have", "en.phone_plan", "en.can", "en.save", "en.money"] },
+    { "speaker": "clerk", "text": "This one is 30 dollars a month, with 10 gigs of data.", "zh": "这个每月 30 美元,有 10G 流量。", "items": ["en.this_one", "en.dollar", "en.month", "en.gig", "en.data"] },
+    { "speaker": "clerk", "text": "That one is 50 dollars per month, with unlimited data.", "zh": "那个每月 50 美元,流量不限。", "items": ["en.this_one", "en.dollar", "en.per", "en.month", "en.unlimited", "en.data"] },
+    { "speaker": "lei", "text": "Can I call China? Do the plans include that?", "zh": "能打电话到中国吗?套餐里包括吗?", "items": ["en.can", "en.call", "en.phone_plan", "en.include"] },
+    { "speaker": "clerk", "text": "No. International calls are five dollars more a month.", "zh": "不包括。国际电话每月另加 5 美元。", "items": ["en.international", "en.dollar", "en.more", "en.month"] },
+    { "speaker": "amy", "text": "That's a good deal! You can call your parents every day.", "zh": "很划算啊!这样你就能每天给爸妈打电话了。", "items": ["en.good_deal", "en.can", "en.call", "en.parents", "en.every_day"] },
+    { "speaker": "lei", "text": "And is the signal good in Seattle?", "zh": "还有,在西雅图信号好吗?", "items": ["en.signal"] },
+    { "speaker": "clerk", "text": "Yes, it's great all over Seattle.", "zh": "很好,整个西雅图信号都不错。", "items": ["en.great"] },
+    { "speaker": "lei", "text": "OK. Can I get the 30-dollar one, with international calls?", "zh": "好。我要 30 美元的那个,再加上国际电话。", "items": ["en.can_i_get", "en.dollar", "en.international"] },
+    { "speaker": "clerk", "text": "Sure. Here's your new SIM card. You can keep your phone number.", "zh": "好的。这是你的新 SIM 卡。电话号码不用换。", "items": ["en.sure", "en.new", "en.sim_card", "en.can", "en.keep", "en.phone_number"] }
+  ],
+  "questions": [
+    { "prompt": "30 美元的套餐有多少流量?", "options": ["不限流量", "5G", "10G"], "answer": 2, "explainZh": "店员说 This one is 30 dollars a month, with 10 gigs of data.(10 gigs = 10G);不限流量的是 50 美元那个。" },
+    { "prompt": "打国际电话每月要多付多少钱?", "options": ["5 美元", "30 美元", "不用多付"], "answer": 0, "explainZh": "店员说 International calls are five dollars more a month.。" },
+    { "prompt": "磊最后选了哪个套餐?", "options": ["50 美元不限流量的", "30 美元的,再加国际电话", "30 美元的,不能打国际电话"], "answer": 1, "explainZh": "磊说 Can I get the 30-dollar one, with international calls?,一共每月 35 美元。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u14_phone_plan", "titleZh": "选手机套餐:a month / per month、data、unlimited、Does it include…?",
+      "bodyZh": "美国的手机套餐按月收费:30 dollars a month = 30 dollars per month(每月 30 美元),口语多用 a month。流量叫 data(不可数),口语用 gigs 说多少:10 gigs of data(10G 流量);不限流量是 unlimited data。问包不包括某项服务,用第 12 单元学过的 include:Do the plans include international calls?;回答 No. International calls are five dollars more a month.(国际电话每月另加 5 美元)。挑好了就说 Can I get the 30-dollar one?——30-dollar 中间加连字符,dollar 不加 s,和 a ten-minute walk 是一个道理。换套餐一般会换一张新的 SIM card,号码可以不变:You can keep your phone number.。",
+      "examples": [
+        { "text": "This one is 30 dollars a month, with 10 gigs of data.", "zh": "这个每月 30 美元,有 10G 流量。" },
+        { "text": "Do the plans include international calls?", "zh": "套餐包括国际电话吗?" },
+        { "text": "Can I get the 30-dollar one?", "zh": "我要 30 美元的那个。" }
+      ] },
+    { "id": "en.g.u14_n_ng", "titleZh": "前后鼻音:phone、plan 的 /n/ 和 long、thing 的 /ŋ/",
+      "bodyZh": "英语的前鼻音 /n/ 和后鼻音 /ŋ/ 要分清:发 /n/ 时舌尖顶住上齿龈(phone、plan、unlimited、international);发 /ŋ/ 时舌尖放下,舌根抬起顶住软腭(long、thing、calling)。南方口音的同学常把 phone 读成“fong”,把 thing 读成 thin。可以成对练习:thin / thing、win / wing、ran / rang。注意 -ing 结尾也是 /ŋ/,后面不要再加一个 g 的音。",
+      "examples": [
+        { "text": "My phone plan is too expensive.", "zh": "我的手机套餐太贵了。(phone、plan:/n/)" },
+        { "text": "I'm calling China.", "zh": "我在给中国打电话。(calling:/ŋ/)" }
+      ] }
+  ],
+  "review": "draft"
+}

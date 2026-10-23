@@ -1,0 +1,53 @@
+{
+  "id": "fr.a1u7.l06", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107060,
+  "titleZh": "在理发店——剪短一点", "goalZh": "会跟理发师说想怎么剪、要不要洗头,剪完确认满意并付钱", "canDoZh": "能跟理发师说想怎么剪(短一点、不要太短),听懂理发师的问题,剪完付钱",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "fr.coupe", "kind": "word", "pos": "noun", "text": "la coupe", "zh": "(头发的)剪法;发型", "features": { "gender": "f", "ipa": "la kup" }, "noteZh": "Vous voulez quelle coupe ?(您想怎么剪?)ou 读 [u];和动词 couper 是一家。" },
+    { "id": "fr.court", "kind": "word", "pos": "adj", "text": "court", "zh": "短的(阳性)", "features": { "ipa": "kuʁ" }, "noteZh": "t 不发音;阴性 courte 的 t 要读出来 [kuʁt];说头发用复数:les cheveux courts。" },
+    { "id": "fr.long", "kind": "word", "pos": "adj", "text": "long", "zh": "长的(阳性)", "features": { "ipa": "lɔ̃" }, "noteZh": "g 不发音,on 读鼻化元音 [ɔ̃];les cheveux longs(长头发);阴性形式不规则,第 11 单元再学。" },
+    { "id": "fr.shampooing", "kind": "word", "pos": "noun", "text": "le shampooing", "zh": "洗头;洗发水", "features": { "gender": "m", "ipa": "lə ʃɑ̃.pwɛ̃" }, "noteZh": "拼写特别:sh 读 [ʃ],am 读 [ɑ̃],ooing 读 [wɛ̃];理发店问 Un shampooing ?(要洗头吗?)" },
+    { "id": "fr.couper", "kind": "word", "pos": "verb", "text": "couper", "zh": "剪;切", "features": { "ipa": "ku.pe" }, "noteZh": "规则的 -er 动词;couper les cheveux(剪头发);Vous pouvez couper un peu ici ?(这儿能剪一点吗?)" },
+    { "id": "fr.comme_ca", "kind": "phrase", "pos": "phrase", "text": "comme ça", "zh": "这样;像这样", "features": { "ipa": "kɔm sa" }, "noteZh": "C'est bien comme ça ?(这样可以吗?)理发、试衣服、做事时都常用;ça 下面的小尾巴不能漏,写成 ca 就读 [ka] 了。" },
+    { "id": "fr.miroir", "kind": "word", "pos": "noun", "text": "le miroir", "zh": "镜子", "features": { "gender": "m", "ipa": "lə mi.ʁwaʁ" }, "noteZh": "oir 读 [waʁ],和 le soir 押韵;Regardez dans le miroir.(照照镜子。)" }
+  ],
+  "reviewItems": ["fr.cheveux", "fr.rendez_vous", "fr.trop", "fr.payer", "fr.pouvoir"],
+  "lines": [
+    { "speaker": "coiffeuse", "text": "Bonjour, monsieur ! Vous avez rendez-vous à dix-sept heures trente ?", "zh": "(星期二下午)您好,先生!您约的是 17:30 吗?", "items": ["fr.bonjour", "fr.monsieur", "fr.vous", "fr.avoir", "fr.rendez_vous", "fr.a", "fr.dix_sept", "fr.heure", "fr.trente"] },
+    { "speaker": "hao", "text": "Oui, c'est moi : Hao Zhang.", "zh": "对,是我:Hao Zhang(张浩)。", "items": ["fr.oui", "fr.cest", "fr.moi"] },
+    { "speaker": "coiffeuse", "text": "Très bien, venez ici. Vous voulez quelle coupe ?", "zh": "好的,请到这边来。您想怎么剪?", "items": ["fr.tres", "fr.bien", "fr.venir", "fr.ici", "fr.vous", "fr.vouloir", "fr.quel", "fr.coupe"] },
+    { "speaker": "hao", "text": "Courts, s'il vous plaît… mais pas trop courts !", "zh": "剪短一点……不过别太短!", "items": ["fr.court", "fr.sil_vous_plait", "fr.mais", "fr.ne_pas", "fr.trop"] },
+    { "speaker": "coiffeuse", "text": "Un peu courts devant ? Et derrière ?", "zh": "前面剪短一点?后面呢?", "items": ["fr.un_peu", "fr.court", "fr.devant", "fr.et", "fr.derriere"] },
+    { "speaker": "hao", "text": "Derrière aussi : mes cheveux sont trop longs !", "zh": "后面也剪:我的头发太长了!", "items": ["fr.derriere", "fr.aussi", "fr.mes", "fr.cheveux", "fr.etre", "fr.trop", "fr.long"] },
+    { "speaker": "coiffeuse", "text": "D'accord. Je fais un shampooing d'abord ?", "zh": "好的。先给您洗个头吧?", "items": ["fr.d_accord", "fr.je", "fr.faire", "fr.un", "fr.shampooing", "fr.dabord"] },
+    { "speaker": "hao", "text": "Oui, je veux bien. Et vous pouvez couper un peu ici ?", "zh": "好啊。还有,这儿能帮我剪一点吗?", "items": ["fr.oui", "fr.je", "fr.vouloir", "fr.bien", "fr.et", "fr.vous", "fr.pouvoir", "fr.couper", "fr.un_peu", "fr.ici"] },
+    { "speaker": "coiffeuse", "text": "Voilà ! Regardez dans le miroir. C'est bien comme ça ?", "zh": "(剪完了)好了!您照照镜子。这样可以吗?", "items": ["fr.voila", "fr.regarder", "fr.dans", "fr.miroir", "fr.cest", "fr.bien", "fr.comme_ca"] },
+    { "speaker": "hao", "text": "Oui, très bien ! Ce n'est pas trop court. C'est combien ?", "zh": "可以,很好!不算太短。多少钱?", "items": ["fr.oui", "fr.tres", "fr.bien", "fr.cest", "fr.ne_pas", "fr.trop", "fr.court", "fr.cest_combien"] },
+    { "speaker": "coiffeuse", "text": "Avec le shampooing, ça fait vingt-cinq euros. Vous payez par carte ?", "zh": "加上洗头,一共二十五欧。您刷卡吗?", "items": ["fr.avec", "fr.shampooing", "fr.ca_fait", "fr.vingt", "fr.cinq", "fr.euro", "fr.vous", "fr.payer", "fr.par", "fr.carte"] },
+    { "speaker": "hao", "text": "Oui, par carte. Merci, madame, au revoir !", "zh": "对,刷卡。谢谢您,再见!", "items": ["fr.oui", "fr.par", "fr.carte", "fr.merci", "fr.madame", "fr.au_revoir"] }
+  ],
+  "questions": [
+    { "prompt": "浩约的是几点?", "options": ["17:30", "15:30", "18:00"], "answer": 0, "explainZh": "Vous avez rendez-vous à dix-sept heures trente ?——dix-sept heures trente = 17:30,也就是下午五点半。" },
+    { "prompt": "浩想怎么剪?", "options": ["剪得越短越好", "短一点,但不要太短", "只洗头,不剪"], "answer": 1, "explainZh": "Courts, s'il vous plaît… mais pas trop courts !" },
+    { "prompt": "剪发加洗头一共多少钱?", "options": ["二十欧", "三十五欧", "二十五欧"], "answer": 2, "explainZh": "Avec le shampooing, ça fait vingt-cinq euros." },
+    { "prompt": "浩怎么付的钱?", "options": ["付现金", "刷卡", "让卢卡付"], "answer": 1, "explainZh": "Vous payez par carte ? — Oui, par carte.——par carte = 用卡付。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.court_long_trop", "titleZh": "court / long 和 trop、un peu、pas trop",
+      "bodyZh": "court(短的)、long(长的)是形容词,要和说的东西配合。说头发用 les cheveux(阳性复数),所以是 courts、longs:Mes cheveux sont trop longs.(我的头发太长了。)对理发师只说剪法时,省掉的也是 les cheveux,所以说 Courts, s'il vous plaît.;用 c'est 说整体感觉时用阳性单数:Ce n'est pas trop court.\ntrop(太)、un peu(有点儿)放在形容词前面:trop longs(太长)、un peu courts(短一点)、pas trop courts(不要太短)。中文说“剪短一点”是在比较(比现在短),法语的比较级(plus court)A2 才学,现在用 Courts, mais pas trop courts ! 就够了。\nlong 的 g、court 的 t 都不发音;复数的 s 也不发音:courts 和 court 读音一样。",
+      "examples": [
+        { "text": "Mes cheveux sont trop longs.", "zh": "我的头发太长了。" },
+        { "text": "Courts, mais pas trop courts !", "zh": "短一点,但别太短!" },
+        { "text": "Ce n'est pas trop court.", "zh": "不算太短。" }
+      ] },
+    { "id": "fr.g.hairdresser", "titleZh": "理发店用语;用 Vous pouvez… ? 提要求",
+      "bodyZh": "理发师常问:Vous voulez quelle coupe ?(您想怎么剪?)Un shampooing ?(要洗头吗?)C'est bien comme ça ?(这样可以吗?)Vous payez par carte ?(您刷卡吗?)\n提要求用 Vous pouvez + 动词原形 ?(第 3 课):Vous pouvez couper un peu ici ?(这儿能帮我剪一点吗?)比直接用命令式客气;同意别人的提议说 Oui, je veux bien.(好啊。)\n对理发师、店员一直用 vous,开头说 Bonjour,走的时候说 Merci, au revoir !。在法国理发一般要先打电话预约(第 5 课),给不给小费都可以。",
+      "examples": [
+        { "text": "Vous pouvez couper un peu ici ?", "zh": "这儿能帮我剪一点吗?" },
+        { "text": "C'est bien comme ça ?", "zh": "这样可以吗?" },
+        { "text": "Oui, je veux bien, merci.", "zh": "好啊,谢谢。" }
+      ] }
+  ],
+  "review": "draft"
+}

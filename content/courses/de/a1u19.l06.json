@@ -20,16 +20,16 @@
     { "speaker": "lena", "text": "Ja. Am Strand gibt es viel Sand und Dünen.", "zh": "对。海滩上有很多沙子,还有沙丘。", "items": ["de.ja", "de.am", "de.strand", "de.es_gibt", "de.viel", "de.sand", "de.und", "de.duene"] },
     { "speaker": "sofia", "text": "Und das Wetter? An der See gibt es oft Wind.", "zh": "那天气呢?海边常常有风。", "items": ["de.und", "de.wetter", "de.an", "de.see_meer", "de.es_gibt", "de.oft", "de.wind"] },
     { "speaker": "lena", "text": "Ja, viel Wind. Mein Handy sagt: 18 bis 25 Grad, manchmal bewölkt.", "zh": "对,风很大。手机上说:18 到 25 度,有时多云。", "items": ["de.ja", "de.viel", "de.wind", "de.mein", "de.handy", "de.sagen", "de.acht", "de.zehn", "de.bis", "de.fuenf", "de.zwanzig", "de.grad", "de.manchmal", "de.bewoelkt"] },
-    { "speaker": "wei", "text": "Kann ich im Meer gut schwimmen? Ich schwimme nicht sehr gut.", "zh": "在海里好游泳吗?我游得不太好。", "items": ["de.koennen", "de.ich", "de.in", "de.meer", "de.gut", "de.schwimmen", "de.nicht", "de.sehr"] },
+    { "speaker": "wei", "text": "Ich schwimme jetzt gut, aber nur im See. Und im Meer?", "zh": "我现在游得不错了,不过只在湖里游过。在海里呢?", "items": ["de.ich", "de.schwimmen", "de.jetzt", "de.gut", "de.aber", "de.nur", "de.in", "de.see", "de.und", "de.meer"] },
     { "speaker": "lena", "text": "Eine rote Flagge am Strand heißt: nicht schwimmen!", "zh": "海滩上插着红旗,意思是:不能游泳!", "items": ["de.ein", "de.rot", "de.flagge", "de.am", "de.strand", "de.ich_heisse", "de.nicht", "de.schwimmen"] },
     { "speaker": "sofia", "text": "Bei Wind sind die Wellen groß. Dann ist das Meer gefährlich.", "zh": "有风的时候浪很大,那时候下海就危险了。", "items": ["de.bei", "de.wind", "de.sein", "de.welle", "de.gross", "de.dann", "de.meer", "de.gefaehrlich"] },
-    { "speaker": "wei", "text": "Keine Sorge, ich bleibe am Strand. Aber ich möchte das Meer sehen!", "zh": "放心,我就待在海滩上。不过我一定要看看海!", "items": ["de.keine_sorge", "de.ich", "de.bleiben", "de.am", "de.strand", "de.aber", "de.moechten", "de.meer", "de.sehen"] },
+    { "speaker": "wei", "text": "Keine Sorge, bei Wind bleibe ich am Strand. Aber ich will unbedingt im Meer schwimmen!", "zh": "放心,有风我就待在海滩上。不过我一定要在海里游一次!", "items": ["de.keine_sorge", "de.bei", "de.wind", "de.bleiben", "de.ich", "de.am", "de.strand", "de.aber", "de.wollen", "de.unbedingt", "de.in", "de.meer", "de.schwimmen"] },
     { "speaker": "sofia", "text": "Gut. Aber vergiss deinen Hut und deine Sonnenbrille nicht!", "zh": "好。不过别忘了帽子和太阳镜!", "items": ["de.gut", "de.aber", "de.vergessen", "de.dein", "de.hut", "de.und", "de.sonnenbrille", "de.nicht"] }
   ],
   "questions": [
     { "prompt": "莉娜的手机上说那几天天气怎么样?", "options": ["一直下雨,很冷", "30 多度,没有风", "18 到 25 度,有时多云"], "answer": 2, "explainZh": "Mein Handy sagt: 18 bis 25 Grad, manchmal bewölkt.(手机上说 18 到 25 度,有时多云。)索菲娅还说海边常常有风:An der See gibt es oft Wind." },
     { "prompt": "海滩上的红旗是什么意思?", "options": ["不能游泳", "这儿可以租自行车", "前面是港口"], "answer": 0, "explainZh": "Eine rote Flagge am Strand heißt: nicht schwimmen!(海滩上插着红旗,意思是不能游泳。)" },
-    { "prompt": "王伟打算在海边做什么?", "options": ["每天在海里游泳", "待在海滩上,看看海", "去港口坐船"], "answer": 1, "explainZh": "王伟游得不好:Ich schwimme nicht sehr gut.,所以他说:Ich bleibe am Strand. Aber ich möchte das Meer sehen!(我就待在海滩上,不过一定要看看海。)" }
+    { "prompt": "王伟游泳游得怎么样?", "options": ["游得很好,在海里也游过", "现在游得不错,不过只在湖里游过", "一点儿也不会游"], "answer": 1, "explainZh": "Ich schwimme jetzt gut, aber nur im See.(我现在游得不错,不过只在湖里游过。)注意:im See 是“在湖里”(der See),an der See 是“在海边”(die See)。" }
   ],
   "grammar": [
     { "id": "de.g.u19_die_see_der_see", "titleZh": "die See(海)和 der See(湖);海边的说法",
@@ -37,7 +37,7 @@
       "examples": [
         { "text": "An der See gibt es oft Wind.", "zh": "海边常常有风。" },
         { "text": "Am Strand gibt es viel Sand.", "zh": "海滩上有很多沙子。" },
-        { "text": "Bei Wind sind die Wellen groß.", "zh": "有风的时候浪很大。" }
+        { "text": "Ich schwimme jetzt gut, aber nur im See.", "zh": "我现在游得不错,不过只在湖里游过。" }
       ] },
     { "id": "de.g.u19_wetter_heisst", "titleZh": "说天气:Es ist bewölkt / viel Wind;heißt = 意思是",
       "bodyZh": "问天气:Wie ist das Wetter?;回答:Es ist warm / kalt / bewölkt.(暖和/冷/多云)、Es regnet.(下雨)、Es gibt viel Wind.(风很大)。温度:18 bis 25 Grad(读作 achtzehn bis fünfundzwanzig Grad)。手机、天气预报上常省略动词:18 bis 25 Grad, manchmal bewölkt.。\nheißen 除了“叫……名字”,还可以表示“意思是”:Was heißt das?(这是什么意思?)Eine rote Flagge heißt: nicht schwimmen!(红旗的意思是:不能游泳!)\n生活常识:德国海滩上常用旗子提示能不能游泳,红旗表示危险,不能下水。",

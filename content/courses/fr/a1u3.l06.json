@@ -1,0 +1,51 @@
+{
+  "id": "fr.a1u3.l06", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 家人与朋友", "order": 103060,
+  "titleZh": "克洛艾家的猫——宠物", "goalZh": "会说常见的宠物,用几个形容词描述它们,认识 -al → -aux、-eau → -eaux 的复数",
+  "canDoZh": "能说自己或朋友家养什么宠物,用几个形容词描述它们",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "fr.animal", "kind": "word", "pos": "noun", "text": "l'animal", "zh": "动物;宠物", "features": { "gender": "m", "ipa": "la.ni.mal" }, "noteZh": "元音开头,要记住是阳性;复数 animaux [a.ni.mo](-al → -aux)。问“你养宠物吗”可以说 Tu as un animal ?" },
+    { "id": "fr.chat", "kind": "word", "pos": "noun", "text": "le chat", "zh": "猫", "features": { "gender": "m", "ipa": "lə ʃa" }, "noteZh": "阳性;ch 读 [ʃ],词尾 t 不发音。" },
+    { "id": "fr.chien", "kind": "word", "pos": "noun", "text": "le chien", "zh": "狗", "features": { "gender": "m", "ipa": "lə ʃjɛ̃" }, "noteZh": "阳性;ch 读 [ʃ],ien 读 [jɛ̃],n 不单独发音。" },
+    { "id": "fr.oiseau", "kind": "word", "pos": "noun", "text": "l'oiseau", "zh": "鸟", "features": { "gender": "m", "ipa": "lwa.zo" }, "noteZh": "元音开头,要记住是阳性;复数加 x:oiseaux,x 不发音。oi 读 [wa],s 读 [z],eau 读 [o]。" },
+    { "id": "fr.gros", "kind": "word", "pos": "adj", "text": "gros", "zh": "胖的;大的(阳性)", "features": { "ipa": "gʁo" }, "noteZh": "阴性 grosse [gʁos];阳性的 s 不发音。说动物胖、大常用 gros,当面说人胖不礼貌。" },
+    { "id": "fr.mignon", "kind": "word", "pos": "adj", "text": "mignon", "zh": "可爱的(阳性)", "features": { "ipa": "mi.ɲɔ̃" }, "noteZh": "gn 读 [ɲ],像汉语“尼”的声母;阴性 mignonne [mi.ɲɔn],鼻化音消失。" },
+    { "id": "fr.couleur", "kind": "word", "pos": "noun", "text": "la couleur", "zh": "颜色", "features": { "gender": "f", "ipa": "la ku.lœʁ" }, "noteZh": "阴性(英语 colour 长得像,但别按英语读);ou 读 [u],eu 读 [œ]。各种颜色第 7 单元学。" }
+  ],
+  "reviewItems": ["fr.poisson", "fr.soeur", "fr.sa", "fr.grand_pere", "fr.grand_mere", "fr.adorer"],
+  "lines": [
+    { "speaker": "chloe", "text": "Voilà Caramel ! C'est mon chat.", "zh": "(课后在咖啡馆,克洛艾给浩和卢卡看手机里的照片)看,这是 Caramel!是我家的猫。", "items": ["fr.voila", "fr.cest", "fr.mon", "fr.chat"] },
+    { "speaker": "hao", "text": "Il est très gros !", "zh": "它好胖啊!", "items": ["fr.il", "fr.etre", "fr.tres", "fr.gros"] },
+    { "speaker": "chloe", "text": "Oui, il mange beaucoup ! Mais il est très gentil.", "zh": "是啊,它特别能吃!不过它脾气很好。", "items": ["fr.oui", "fr.il", "fr.manger", "fr.beaucoup", "fr.mais", "fr.etre", "fr.tres", "fr.gentil"] },
+    { "speaker": "lucas", "text": "Caramel ? C'est sa couleur !", "zh": "叫“焦糖”?是因为它的毛色吧!", "items": ["fr.cest", "fr.sa", "fr.couleur"] },
+    { "speaker": "chloe", "text": "Oui ! Et ma sœur a deux poissons.", "zh": "对!我妹妹还养了两条鱼。", "items": ["fr.oui", "fr.et", "fr.ma", "fr.soeur", "fr.avoir", "fr.deux", "fr.poisson"] },
+    { "speaker": "lucas", "text": "Moi, j'adore les chiens ! Mais je n'ai pas d'animal.", "zh": "我超爱狗!可是我没养宠物(宿舍里不能养)。", "items": ["fr.moi", "fr.je", "fr.adorer", "fr.chien", "fr.mais", "fr.ne_pas", "fr.avoir", "fr.pas_de", "fr.animal"] },
+    { "speaker": "chloe", "text": "Et toi, Hao ? Tu as un animal ?", "zh": "那你呢,浩?你养宠物吗?", "items": ["fr.et_toi", "fr.tu", "fr.avoir", "fr.un", "fr.animal"] },
+    { "speaker": "hao", "text": "Non. Mais mon grand-père et ma grand-mère ont un petit chien.", "zh": "没有。不过我爷爷奶奶养了一只小狗。", "items": ["fr.non", "fr.mais", "fr.mon", "fr.grand_pere", "fr.et", "fr.ma", "fr.grand_mere", "fr.avoir", "fr.un", "fr.petit", "fr.chien"] },
+    { "speaker": "hao", "text": "Il est petit et très mignon.", "zh": "它小小的,特别可爱。", "items": ["fr.il", "fr.etre", "fr.petit", "fr.et", "fr.tres", "fr.mignon"] },
+    { "speaker": "chloe", "text": "Les chats, les chiens, les oiseaux… J'adore les animaux !", "zh": "猫啊、狗啊、鸟啊……我太爱动物了!", "items": ["fr.chat", "fr.chien", "fr.oiseau", "fr.je", "fr.adorer", "fr.animal"] }
+  ],
+  "questions": [
+    { "prompt": "Caramel 是什么动物?", "options": ["狗", "猫", "鸟"], "answer": 1, "explainZh": "克洛艾说 Voilà Caramel ! C'est mon chat.(这是 Caramel,是我家的猫。)卢卡猜它叫“焦糖”是因为毛色:C'est sa couleur !" },
+    { "prompt": "克洛艾的妹妹养了什么?", "options": ["两条鱼", "一只小狗", "一只猫"], "answer": 0, "explainZh": "Et ma sœur a deux poissons.(我妹妹还养了两条鱼。)" },
+    { "prompt": "谁养了一只小狗?", "options": ["卢卡", "克洛艾", "浩的爷爷奶奶"], "answer": 2, "explainZh": "浩说 Mon grand-père et ma grand-mère ont un petit chien.;卢卡很爱狗,但他说 je n'ai pas d'animal(我没养宠物)。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.pluriel_aux", "titleZh": "特殊的复数:-al → -aux,-eau → -eaux",
+      "bodyZh": "名词复数一般加 -s,s 不发音:un chat → deux chats。有两类要特别记:\n1. -al 结尾变成 -aux:un animal → deux animaux [a.ni.mo],读音也变了;第 3 单元学过的 l'hôpital → les hôpitaux 也是这样。\n2. -eau 结尾加 -x:un oiseau → deux oiseaux,x 不发音,读音不变;以后会学到的 le couteau(刀)也是这样。\n以 s 结尾的词复数不变:un gros chat → deux gros chats。说“没养宠物”复习否定:Je n'ai pas d'animal.(否定以后 un animal 变成 d'animal)",
+      "examples": [
+        { "text": "J'adore les animaux !", "zh": "我太爱动物了!" },
+        { "text": "Les oiseaux sont petits.", "zh": "鸟都很小。" },
+        { "text": "Je n'ai pas d'animal.", "zh": "我没养宠物。" }
+      ] },
+    { "id": "fr.g.adj_animaux", "titleZh": "形容动物:代词 il / elle 和形容词的配合",
+      "bodyZh": "法语里动物也分阴阳性:le chat、le chien 是阳性,代词用 il:Caramel ? Il est très gros !(它好胖!)形容词要跟名词配合:阳性 petit、gros、mignon,阴性加 e:petite、grosse(s 双写)、mignonne(n 双写)。加了 e 以后词尾辅音要读出来:petit [pə.ti] → petite [pə.tit],gros [gʁo] → grosse [gʁos];mignon [mi.ɲɔ̃] → mignonne [mi.ɲɔn],鼻化音消失。\n大多数形容词放在名词后面,但 petit、grand、gros 常放在名词前面:un petit chien、un gros chat。",
+      "examples": [
+        { "text": "Il est très gros !", "zh": "它好胖啊!" },
+        { "text": "Mon grand-père a un petit chien.", "zh": "我爷爷有一只小狗。" },
+        { "text": "Il est petit et très mignon.", "zh": "它小小的,特别可爱。" }
+      ] }
+  ],
+  "review": "draft"
+}

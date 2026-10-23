@@ -1,0 +1,50 @@
+{
+  "id": "fr.a1u9.l08", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109080,
+  "titleZh": "单元复习与应用:出发那天", "goalZh": "把本单元的车票、天气、衣物和随身物品用在出发那天的车站和车上", "canDoZh": "能在车站看懂出发信息、听懂车上的广播,用短信告诉朋友自己到了哪儿",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "fr.a_lheure", "kind": "phrase", "pos": "phrase", "text": "à l'heure", "zh": "准时;准点", "features": { "ipa": "a lœʁ" }, "noteZh": "Le train est à l'heure. 火车准点;反义是 en retard(晚点,第 5 单元学过)。" },
+    { "id": "fr.ecran", "kind": "word", "pos": "noun", "text": "l'écran", "zh": "屏幕;显示屏", "features": { "gender": "m", "ipa": "le.kʁɑ̃" }, "noteZh": "元音开头,阳性:un écran;an 读 [ɑ̃];车站的显示屏、手机屏幕都叫 l'écran。" }
+  ],
+  "reviewItems": ["fr.depart", "fr.soleil", "fr.glace", "fr.passeport", "fr.changer", "fr.mettre"],
+  "lines": [
+    { "speaker": "narrator", "text": "Train pour Turin : départ à six heures cinquante-huit.", "zh": "(12 月 19 日早上 6 点半,Part-Dieu 火车站的广播)开往都灵的列车:6 点 58 分发车。", "items": ["fr.train", "fr.pour", "fr.depart", "fr.a", "fr.six", "fr.heure", "fr.cinquante", "fr.huit"] },
+    { "speaker": "hao", "text": "Chloé, je suis à la gare ! Je regarde l'écran : le train est à l'heure.", "zh": "(浩给克洛艾发短信)克洛艾,我到火车站了!我看了显示屏:火车准点。", "items": ["fr.je", "fr.etre", "fr.a", "fr.gare", "fr.regarder", "fr.ecran", "fr.train", "fr.a_lheure"] },
+    { "speaker": "chloe", "text": "Super ! Tu as ton passeport et ton billet ?", "zh": "太好了!护照和车票都带了吧?", "items": ["fr.super", "fr.tu", "fr.avoir", "fr.ton", "fr.passeport", "fr.et", "fr.billet"] },
+    { "speaker": "hao", "text": "Oui ! Et je mets l'écharpe de Lucas : il fait moins deux !", "zh": "带了!我还围上了卢卡的围巾:零下两度呢!", "items": ["fr.oui", "fr.et", "fr.je", "fr.mettre", "fr.echarpe", "fr.de", "fr.il", "fr.faire", "fr.moins", "fr.deux"] },
+    { "speaker": "narrator", "text": "Prochain arrêt : Chambéry.", "zh": "(火车上的广播)下一站:尚贝里。", "items": ["fr.prochain", "fr.arret"] },
+    { "speaker": "hao", "text": "Je suis dans le train. Il y a du soleil !", "zh": "我在火车上了。出太阳了!", "items": ["fr.je", "fr.etre", "fr.dans", "fr.train", "fr.il_y_a", "fr.du", "fr.soleil"] },
+    { "speaker": "hao", "text": "Je regarde les montagnes. Elles sont blanches, c'est magnifique !", "zh": "我在看窗外的山。山都是白的,美极了!", "items": ["fr.je", "fr.regarder", "fr.montagne", "fr.elles", "fr.etre", "fr.blanc", "fr.cest", "fr.magnifique"] },
+    { "speaker": "chloe", "text": "Et dans le train, c'est calme ?", "zh": "车上安静吗?", "items": ["fr.et", "fr.dans", "fr.train", "fr.cest", "fr.calme"] },
+    { "speaker": "hao", "text": "Oui, très calme. À côté de moi, un monsieur regarde un film.", "zh": "很安静。我旁边有位先生在看电影。", "items": ["fr.oui", "fr.tres", "fr.calme", "fr.a_cote_de", "fr.moi", "fr.un", "fr.monsieur", "fr.regarder", "fr.film"] },
+    { "speaker": "narrator", "text": "Pour Rome, changez de train à Turin.", "zh": "(广播)去罗马的旅客请在都灵换车。", "items": ["fr.pour", "fr.changer", "fr.de", "fr.train", "fr.a"] },
+    { "speaker": "hao", "text": "Je change de train à Turin, et vers dix-sept heures : Rome !", "zh": "我在都灵换车,17 点左右就到罗马啦!", "items": ["fr.je", "fr.changer", "fr.de", "fr.train", "fr.a", "fr.et", "fr.vers", "fr.dix_sept", "fr.heure"] },
+    { "speaker": "chloe", "text": "Bon voyage, Hao ! Et mange une glace !", "zh": "一路顺风,浩!记得吃冰淇淋!", "items": ["fr.bon", "fr.voyage", "fr.et", "fr.manger", "fr.une", "fr.glace"] },
+    { "speaker": "hao", "text": "D'accord ! Et toi, mets ton bonnet !", "zh": "好!你也是,戴好你的帽子!", "items": ["fr.d_accord", "fr.et_toi", "fr.mettre", "fr.ton", "fr.bonnet"] }
+  ],
+  "questions": [
+    { "prompt": "浩到车站的时候,火车怎么样?", "options": ["准点", "晚点了", "已经开走了"], "answer": 0, "explainZh": "Je regarde l'écran : le train est à l'heure.——à l'heure 是“准点”,反义是 en retard(晚点)。" },
+    { "prompt": "浩在火车上看到了什么?", "options": ["下雨的城市", "白白的雪山", "大海"], "answer": 1, "explainZh": "Je regarde les montagnes. Elles sont blanches, c'est magnifique !" },
+    { "prompt": "广播说去罗马的旅客要怎么做?", "options": ["在尚贝里下车", "在罗马换车", "在都灵换车"], "answer": 2, "explainZh": "Pour Rome, changez de train à Turin.(去罗马请在都灵换车。)" },
+    { "prompt": "克洛艾最后提醒浩做什么?", "options": ["别忘了护照", "吃冰淇淋", "戴帽子"], "answer": 1, "explainZh": "克洛艾说 Et mange une glace !;Mets ton bonnet ! 是浩开玩笑回她的。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.u9_bilan", "titleZh": "第 9 单元小结:mettre、avoir 的固定搭配、il faut、百位数",
+      "bodyZh": "这一单元的几个要点:① mettre(穿、戴、放):je mets, tu mets, il met, nous mettons, vous mettez, ils mettent;命令式 Mets ton bonnet !。② avoir 的固定搭配:J'ai froid / chaud / faim / soif,J'ai besoin d'un sac à dos(不说 Je suis froid)。③ il faut + 名词或动词原形:Il faut un passeport. Il faut voir le Colisée.。④ 百位数:deux cents(整百加 s),deux cent trente-six(后面还有数,不加 s)。⑤ 天气:Il y a du soleil / du vent / des nuages,Il fait moins deux。⑥ 从……到……:du 19 au 23 décembre,de sept heures à dix heures。",
+      "examples": [
+        { "text": "Il fait moins deux : je mets l'écharpe de Lucas.", "zh": "零下两度:我围上卢卡的围巾。" },
+        { "text": "J'ai besoin d'un billet pour Rome.", "zh": "我需要一张去罗马的票。" },
+        { "text": "Il faut un passeport et un titre de séjour.", "zh": "得带护照和居留证。" },
+        { "text": "Ça fait deux cent trente-six euros.", "zh": "一共 236 欧。" }
+      ] },
+    { "id": "fr.g.annonces_train", "titleZh": "听懂车站和车上的广播",
+      "bodyZh": "车站和车上的广播句子短、结构固定,抓住几个词就能听懂:Train pour Turin : départ à six heures cinquante-huit.(开往都灵的列车 6:58 发车)Prochain arrêt : Chambéry.(下一站:尚贝里)Pour Rome, changez de train à Turin.(去罗马的旅客在都灵换车;changez 是 vous 的命令式)。显示屏(l'écran)上看 à l'heure(准点)还是 en retard(晚点)。广播里的时间都是 24 小时制:先听“几点”,再听“去哪儿”。",
+      "examples": [
+        { "text": "Le train est à l'heure.", "zh": "火车准点。" },
+        { "text": "Prochain arrêt : Chambéry.", "zh": "下一站:尚贝里。" },
+        { "text": "Pour Rome, changez de train à Turin.", "zh": "去罗马请在都灵换车。" }
+      ] }
+  ],
+  "review": "draft"
+}

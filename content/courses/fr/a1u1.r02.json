@@ -1,0 +1,39 @@
+{
+  "id": "fr.a1u1.r02", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-1 Bonjour !", "order": 101085,
+  "titleZh": "浩在里昂的第一天(日记)", "goalZh": "读懂一篇用现在时写的短日记,复习本单元的问候、国籍、身份和数字",
+  "canDoZh": "能读懂一篇几句话的日记,说出浩第一天认识了谁、在哪儿喝了什么、住几号房",
+  "skills": ["read", "write"], "estimatedMinutes": 14,
+  "newItems": [
+    { "id": "fr.fatigue", "kind": "word", "pos": "adj", "text": "fatigué", "zh": "累的;疲倦的(阳性)", "features": { "ipa": "fa.ti.ge" }, "noteZh": "女生写 fatiguée,读音一样;gu 读 [g],u 不发音。说“我累了”要用 être:Je suis fatigué。" },
+    { "id": "fr.content", "kind": "word", "pos": "adj", "text": "content", "zh": "高兴的;满意的(阳性)", "features": { "ipa": "kɔ̃.tɑ̃" }, "noteZh": "阴性 contente [kɔ̃.tɑ̃t],t 要读出来;两个鼻化元音 [ɔ̃]、[ɑ̃] 里的 n 都不单独发音。" }
+  ],
+  "reviewItems": ["fr.etudiant", "fr.chambre", "fr.huit", "fr.je_ne_comprends_pas", "fr.bonne_nuit", "fr.canadien"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonsoir ! Je suis Hao.", "zh": "(到里昂第一天的晚上,浩用刚学的法语写了一篇日记)晚上好!我是浩。", "items": ["fr.bonsoir", "fr.je_suis", "fr.je", "fr.etre"] },
+    { "speaker": "hao", "text": "Je suis chinois, de Chengdu, et je suis étudiant.", "zh": "我是中国人,来自成都,是个大学生。", "items": ["fr.je_suis", "fr.je", "fr.etre", "fr.chinois", "fr.de", "fr.et", "fr.etudiant"] },
+    { "speaker": "hao", "text": "Lyon, c'est très bien !", "zh": "里昂真不错!", "items": ["fr.cest", "fr.tres", "fr.bien"] },
+    { "speaker": "hao", "text": "Chloé est française, de Lyon.", "zh": "克洛艾是法国人,里昂本地人。", "items": ["fr.etre", "fr.francais", "fr.de"] },
+    { "speaker": "hao", "text": "Lucas est français, et Émilie est canadienne, de Montréal.", "zh": "卢卡是法国人;艾米莉是加拿大人,来自蒙特利尔。", "items": ["fr.etre", "fr.francais", "fr.et", "fr.canadien", "fr.de"] },
+    { "speaker": "hao", "text": "Un café, s'il vous plaît !", "zh": "(下午在咖啡馆,我会用法语点咖啡了:)“请来一杯咖啡!”", "items": ["fr.un", "fr.cafe", "fr.sil_vous_plait"] },
+    { "speaker": "hao", "text": "La chambre ? C'est la chambre huit.", "zh": "宿舍房间呢?是八号房。", "items": ["fr.chambre", "fr.cest", "fr.huit"] },
+    { "speaker": "hao", "text": "Le français ? Je ne comprends pas !", "zh": "法语呢?我还听不懂!", "items": ["fr.francais", "fr.je_ne_comprends_pas"] },
+    { "speaker": "hao", "text": "Je suis très fatigué, et très content !", "zh": "我很累,也很开心!", "items": ["fr.je_suis", "fr.je", "fr.etre", "fr.tres", "fr.fatigue", "fr.et", "fr.content"] },
+    { "speaker": "hao", "text": "Bonne nuit !", "zh": "晚安!", "items": ["fr.bonne_nuit"] }
+  ],
+  "questions": [
+    { "prompt": "浩住几号房?", "options": ["六号", "十号", "八号"], "answer": 2, "explainZh": "C'est la chambre huit.(是八号房。)huit 单独读时 t 要读出来:[ɥit]。" },
+    { "prompt": "艾米莉是哪国人?来自哪里?", "options": ["加拿大人,来自蒙特利尔", "法国人,来自里昂", "中国人,来自成都"], "answer": 0, "explainZh": "Émilie est canadienne, de Montréal.——canadienne 是 canadien 的阴性,因为艾米莉是女生。" },
+    { "prompt": "浩写日记的时候感觉怎么样?", "options": ["不太好", "又累又开心", "很饿"], "answer": 1, "explainZh": "Je suis très fatigué, et très content !(我很累,也很开心!)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.journal", "titleZh": "用短句写日记;说感受用 être + 形容词",
+      "bodyZh": "刚开始用法语写日记,用现在时和短句就够了:Je suis… / C'est… / X est…。说自己的感受用 être + 形容词:Je suis fatigué(我累了)、Je suis content(我很开心)。和中文“我很累”不一样,法语不能省掉 être,不说 Je fatigué。\n形容词跟写日记的人配合:男生写 fatigué、content,女生写 fatiguée、contente。content 加 e 以后 t 要读出来 [kɔ̃.tɑ̃t];fatiguée 只是多一个 e,读音不变。介绍别人的国籍也一样:Chloé est française,Lucas est français。\n过去时第 8 单元才学,现在先用现在时写:Lyon, c'est très bien !",
+      "examples": [
+        { "text": "Je suis très fatigué.", "zh": "我很累。" },
+        { "text": "Je suis content !", "zh": "我很开心!" },
+        { "text": "Chloé est française, de Lyon.", "zh": "克洛艾是法国人,里昂本地人。" }
+      ] }
+  ],
+  "review": "draft"
+}

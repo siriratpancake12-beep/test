@@ -1,0 +1,40 @@
+{
+  "id": "en.a1u11.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111085,
+  "titleZh": "伊森写的行程单", "goalZh": "会读一份几天的行程单,补全里面的省略句", "canDoZh": "能看懂一份几天的旅行行程单,说出每天几点去哪儿、做什么",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 12.5,
+  "newItems": [
+    { "id": "en.maybe", "kind": "word", "pos": "adv", "text": "maybe", "zh": "也许;可能", "features": { "ipa": "ˈmeɪbi" }, "noteZh": "放在句首、句尾都行:Maybe the beach? / The beach, maybe?;一个词,和 may be(可能是)写法不同。" }
+  ],
+  "reviewItems": ["en.meet", "en.pier", "en.view", "en.museum", "en.basketball"],
+  "lines": [
+    { "speaker": "ethan", "text": "Hey, guys! Here's our plan for LA!", "zh": "(伊森发在群聊里)嘿,两位!这是我们的洛杉矶行程!", "items": ["en.hey", "en.guy", "en.plan"] },
+    { "speaker": "ethan", "text": "Sunday, January 4th: Meet at the pier at 2:00. Beach time!", "zh": "1 月 4 日星期天:下午 2 点码头见。去海边!", "items": ["en.sunday", "en.january", "en.meet", "en.pier", "en.beach"] },
+    { "speaker": "ethan", "text": "Monday, January 5th: I can drive you to a great view of LA.", "zh": "1 月 5 日星期一:我开车带你们去看洛杉矶全景。", "items": ["en.monday", "en.january", "en.can", "en.drive", "en.great", "en.view"] },
+    { "speaker": "ethan", "text": "At night, Mexican food. Sofia, you're going to love it!", "zh": "晚上吃墨西哥菜。索菲亚,你肯定喜欢!", "items": ["en.night", "en.food", "en.going_to", "en.love"] },
+    { "speaker": "ethan", "text": "Tuesday, January 6th: Free day! The beach, maybe?", "zh": "1 月 6 日星期二:自由活动!也许去海边?", "items": ["en.tuesday", "en.january", "en.free", "en.beach", "en.maybe"] },
+    { "speaker": "ethan", "text": "Wednesday, January 7th: The museum in the morning.", "zh": "1 月 7 日星期三:上午去博物馆。", "items": ["en.wednesday", "en.january", "en.museum", "en.morning"] },
+    { "speaker": "ethan", "text": "Then lunch at home with my family.", "zh": "然后到我家和我家人一起吃午饭。", "items": ["en.then", "en.lunch", "en.home", "en.family"] },
+    { "speaker": "ethan", "text": "Basketball near my home at night!", "zh": "晚上在我家附近打篮球!", "items": ["en.basketball", "en.near", "en.home", "en.night"] },
+    { "speaker": "ethan", "text": "Thursday, January 8th: Your flight is in the evening.", "zh": "1 月 8 日星期四:你们的航班在晚上。", "items": ["en.thursday", "en.january", "en.flight", "en.evening"] },
+    { "speaker": "ethan", "text": "Let's have lunch at the pier. Then the airport at 4:00.", "zh": "中午在码头吃饭,下午 4 点去机场。", "items": ["en.lets", "en.have", "en.lunch", "en.pier", "en.then", "en.airport"] },
+    { "speaker": "ethan", "text": "It's going to be awesome. See you on Sunday!", "zh": "一定超棒。星期天见!", "items": ["en.going_to", "en.awesome", "en.see", "en.sunday"] }
+  ],
+  "questions": [
+    { "prompt": "第一天他们几点在哪儿见面?", "options": ["9 点在酒店", "4 点在机场", "2 点在码头"], "answer": 2, "explainZh": "Sunday, January 4th: Meet at the pier at 2:00." },
+    { "prompt": "1 月 6 日有什么安排?", "options": ["自由活动,也许去海边", "去博物馆", "去伊森家吃午饭"], "answer": 0, "explainZh": "Tuesday, January 6th: Free day! The beach, maybe?(博物馆和伊森家的午饭是 1 月 7 日。)" },
+    { "prompt": "最后一天几点去机场?", "options": ["中午 12 点", "下午 4 点", "晚上 8 点"], "answer": 1, "explainZh": "Let's have lunch at the pier. Then the airport at 4:00.(航班在晚上。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.itinerary_shortcuts",
+      "titleZh": "行程单里的省略句",
+      "bodyZh": "行程单、群聊里常用省略句,读的时候自己补全:Free day! = Tuesday is a free day.;The museum in the morning. = We're going to go to the museum in the morning.;Then the airport at 4:00. = Then we're going to go to the airport at 4:00.。日期的写法:Monday, January 5th(星期在前,日期在后,中间用逗号)。maybe 放在句首、句尾都行:Maybe the beach? / The beach, maybe?。",
+      "examples": [
+        { "text": "Tuesday, January 6th: Free day!", "zh": "1 月 6 日星期二:自由活动!" },
+        { "text": "The beach, maybe?", "zh": "也许去海边?" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

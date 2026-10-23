@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u16.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116070,
+  "titleZh": "暖气坏了", "goalZh": "会打电话报修:说明来意、描述问题、报房间号、约维修时间", "canDoZh": "能打电话报修:说清楚哪里出了问题,约好维修的时间",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.heater", "kind": "word", "pos": "noun", "text": "heater", "zh": "暖气;取暖器", "features": { "ipa": "ˈhiːt̬ɚ" }, "noteZh": "ea 是长元音 /iː/,t 读闪音:\"HEE-der\";space heater 是电暖器。" },
+    { "id": "en.noise", "kind": "word", "pos": "noun", "text": "noise", "zh": "响声;噪音", "features": { "ipa": "nɔɪz" }, "noteZh": "make a noise 发出响声(不说 do a noise);结尾 se 读 /z/,要带声。" },
+    { "id": "en.strange", "kind": "word", "pos": "adj", "text": "strange", "zh": "奇怪的", "features": { "ipa": "streɪndʒ" }, "noteZh": "str 中间不加元音(复习第 5 单元);a 读 /eɪ/,结尾 ge 读 /dʒ/。" },
+    { "id": "en.middle", "kind": "word", "pos": "noun", "text": "middle", "zh": "中间", "features": { "ipa": "ˈmɪdəl" }, "noteZh": "in the middle of the night 半夜里;in the middle 在中间;结尾的 le 读成音节 /əl/。" },
+    { "id": "en.maintenance", "kind": "word", "pos": "noun", "text": "maintenance", "zh": "维修(部门)", "features": { "ipa": "ˈmeɪntənəns" }, "noteZh": "宿舍、公寓的维修部门就叫 Maintenance;重音在前 MAIN-te-nance。" },
+    { "id": "en.room_number", "kind": "phrase", "pos": "noun", "text": "room number", "zh": "房间号", "features": { "ipa": "ˈruːm ˌnʌmbɚ" }, "noteZh": "What's your room number? 你房间号是多少?;312 读 three twelve。" },
+    { "id": "en.worker", "kind": "word", "pos": "noun", "text": "worker", "zh": "工人", "features": { "ipa": "ˈwɝːkɚ" }, "noteZh": "a worker 一个(维修)工人;wor 读 /wɝː/,卷舌。" },
+    { "id": "en.come_by", "kind": "phrase", "pos": "verb", "text": "come by", "zh": "过来一趟;顺路来", "features": { "ipa": "ˌkʌm ˈbaɪ" }, "noteZh": "A worker can come by tomorrow. 明天会有工人过来;by 重读。" }
+  ],
+  "reviewItems": ["en.awake", "en.listen_to", "en.problem", "en.loud", "en.answer", "en.hello"],
+  "lines": [
+    { "speaker": "lei", "text": "Ethan, are you awake? Listen to the heater!", "zh": "(查房前两天的半夜)伊森,你醒着吗?听听这暖气!", "items": ["en.awake", "en.listen_to", "en.heater"] },
+    { "speaker": "ethan", "text": "I know! It makes a strange noise in the middle of the night.", "zh": "我知道!一到半夜它就发出怪声。", "items": ["en.know", "en.make", "en.strange", "en.noise", "en.middle", "en.night"] },
+    { "speaker": "ethan", "text": "Call maintenance. They answer at night.", "zh": "给维修部打电话吧,晚上也有人接。", "items": ["en.call", "en.maintenance", "en.answer", "en.night"] },
+    { "speaker": "staff", "text": "Hello, Dorm Maintenance.", "zh": "您好,宿舍维修部。", "items": ["en.hello", "en.dorm", "en.maintenance"] },
+    { "speaker": "lei", "text": "Hi. I'm calling about my heater. There's a problem with it.", "zh": "您好。我打电话是为了暖气的事,它出了点问题。", "items": ["en.hi", "en.call", "en.heater", "en.problem"] },
+    { "speaker": "staff", "text": "OK. What's the problem?", "zh": "好的。什么问题?", "items": ["en.problem"] },
+    { "speaker": "lei", "text": "It makes a loud noise, and the room is really cold.", "zh": "它响声很大,而且房间里特别冷。", "items": ["en.make", "en.loud", "en.noise", "en.room", "en.really", "en.cold"] },
+    { "speaker": "staff", "text": "I'm sorry. What's your room number?", "zh": "真抱歉。你的房间号是多少?", "items": ["en.sorry", "en.room_number"] },
+    { "speaker": "lei", "text": "Room 312.", "zh": "312 房间。", "items": ["en.room"] },
+    { "speaker": "staff", "text": "A worker can come by tomorrow morning. Is that OK?", "zh": "明天上午会有工人过去,可以吗?", "items": ["en.worker", "en.can", "en.come_by", "en.tomorrow", "en.morning"] },
+    { "speaker": "lei", "text": "Yes. I'm at home tomorrow morning.", "zh": "可以。我明天上午在。", "items": ["en.at_home", "en.tomorrow", "en.morning"] },
+    { "speaker": "staff", "text": "Great. For tonight, wear a warm sweater!", "zh": "好的。今晚先穿件暖和的毛衣吧!", "items": ["en.great", "en.tonight", "en.wear", "en.warm", "en.sweater"] }
+  ],
+  "questions": [
+    { "prompt": "暖气出了什么问题?", "options": ["响声很大,房间也很冷", "窗户关不上", "房间里太热了"], "answer": 0, "explainZh": "It makes a loud noise, and the room is really cold.——响声很大,屋里也很冷。" },
+    { "prompt": "磊的房间号是多少?", "options": ["213", "312", "321"], "answer": 1, "explainZh": "What's your room number? —— Room 312.——312 读 three twelve。" },
+    { "prompt": "维修工人什么时候来?", "options": ["今天晚上", "明天下午", "明天上午"], "answer": 2, "explainZh": "A worker can come by tomorrow morning.——明天上午,磊说他那时在家。" }
+  ],
+  "grammar": [
+    { "id": "en.g.reporting_problems", "titleZh": "打电话报修:说清楚哪儿出了问题",
+      "bodyZh": "报修先说来意:I'm calling about my heater.(我打电话是为了暖气的事);再说问题:There's a problem with it. / It makes a loud noise. / It's broken.(第 6 单元)/ The room is really cold.。对方常问 What's the problem? 和 What's your room number?;约时间时对方会问 Is that OK?,方便就说 Yes. I'm at home tomorrow morning.。make a noise 是固定搭配(发出响声),不说 do a noise。",
+      "examples": [
+        { "text": "I'm calling about my heater.", "zh": "我打电话是为了暖气的事。" },
+        { "text": "There's a problem with it. It makes a loud noise.", "zh": "它出了点问题,响声很大。" },
+        { "text": "A worker can come by tomorrow morning. Is that OK?", "zh": "明天上午会有工人过去,可以吗?" }
+      ] },
+    { "id": "en.g.heater_flap", "titleZh": "发音:heater 的长元音和闪音 t",
+      "bodyZh": "heater 读 /ˈhiːt̬ɚ/:ea 是长元音 /iː/,嘴角往两边拉;中间的 t 在两个元音之间读成闪音,像轻快的 d:\"HEE-der\",和 water、tutor 一样。别和 hitter /ˈhɪt̬ɚ/ 混——那是短元音 /ɪ/。noise /nɔɪz/ 的结尾是浊音 /z/,要带声。",
+      "examples": [
+        { "text": "Listen to the heater!", "zh": "听听这暖气!" },
+        { "text": "It makes a strange noise.", "zh": "它发出奇怪的响声。" }
+      ] }
+  ],
+  "review": "draft"
+}

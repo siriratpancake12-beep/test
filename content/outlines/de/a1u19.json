@@ -94,14 +94,14 @@
       "goalZh": "读懂旅馆网页上的房型、价格、早餐、入住和退房时间、规定和服务",
       "canDoZh": "能读懂旅馆网页上的房间、价格、早餐和入住规定",
       "scenarioZh": "体裁:旅馆网页(青年旅舍,名字虚构为 Jugendherberge „Am Leuchtturm“)。王伟看 Warnemünde 一家青年旅舍的网页:双人间(das Doppelzimmer)和四人间,四人间一个床位一晚 32 欧元,双人间一晚 80 欧元,含早餐(inklusive);床单被套(die Bettwäsche)另外付钱;15 点以后能进房间,最后一天 10 点以前退房;走路五分钟到海滩;不能带宠物;可以租旅舍的自行车。最后是王伟看完的一句话。说话人:narrator(网页)、wei(最后一句)。",
-      "grammarFocusZh": "复习:价格(32 Euro für eine Nacht)、钟点、nach / bis、können / müssen 说规定,sein + erlaubt;网页上的省略写法(Frühstück inklusive)",
+      "grammarFocusZh": "复习:价格(32 Euro für eine Nacht)、钟点、nach / bis、können / müssen 说规定,nicht erlaubt(第 16 单元);网页上的省略写法(Frühstück inklusive)",
       "skills": ["read"], "estimatedMinutes": 16,
       "newItems": [
         { "id": "de.doppelzimmer", "kind": "word", "pos": "noun", "text": "das Doppelzimmer", "zh": "双人间", "features": { "gender": "n", "plural": "die Doppelzimmer", "ipa": "ˈdɔpl̩ˌtsɪmɐ" }, "noteZh": "doppel(双)+ das Zimmer;单人间是 das Einzelzimmer,四人间说 das Vierbettzimmer(vier + das Bett + das Zimmer)。复数不变。" },
         { "id": "de.inklusive", "kind": "word", "pos": "adv", "text": "inklusive", "zh": "包括在内;含", "features": { "ipa": "ɪnkluˈziːvə" }, "noteZh": "Das Frühstück ist inklusive.(含早餐。)反过来 nicht inklusive / extra(另外收费);旅馆、车票上常见。重音在 si 上。" },
         { "id": "de.bettwaesche", "kind": "word", "pos": "noun", "text": "die Bettwäsche", "zh": "床单被套", "features": { "gender": "f", "plural": "-", "ipa": "ˈbɛtˌvɛʃə" }, "noteZh": "das Bett + die Wäsche(要洗的布类);只有单数。青年旅舍常要另外付钱租,或者自己带。" }
       ],
-      "reviewItems": ["de.jugendherberge", "de.leuchtturm", "de.strand", "de.haustier", "de.erlauben", "de.frage"]
+      "reviewItems": ["de.jugendherberge", "de.leuchtturm", "de.strand", "de.haustier", "de.erlaubt", "de.frage"]
     },
     {
       "id": "de.a1u19.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119050,
@@ -128,7 +128,7 @@
       "titleZh": "海边:海滩、灯塔和风",
       "goalZh": "会说海边常见的地方和天气,看懂海滩上旗子的意思",
       "canDoZh": "能说出海边常见的地方和天气,看懂海滩上的提示",
-      "scenarioZh": "出发前几天,莉娜来 WG,在手机上给大家看 Warnemünde 的照片和天气:海滩、海(das Meer / die See)、灯塔、港口、沙丘(die Düne);沙滩上有很多沙子(der Sand),海边常常有风(der Wind),手机上说 18 到 25 度,有时多云(bewölkt);海滩上有旗子(die Flagge),红旗表示不能游泳;索菲娅说有风的时候浪(die Welle)很大,海就危险(gefährlich);王伟游得不好,说他就在海滩上待着,不过一定要看看海;索菲娅提醒他别忘了帽子和太阳镜。说话人:lena、wei、sofia。",
+      "scenarioZh": "出发前几天,莉娜来 WG,在手机上给大家看 Warnemünde 的照片和天气:海滩、海(das Meer / die See)、灯塔、港口、沙丘(die Düne);沙滩上有很多沙子(der Sand),海边常常有风(der Wind),手机上说 18 到 25 度,有时多云(bewölkt);王伟七月初在湖里学会了游泳,现在游得不错,可还没在海里游过;莉娜说海滩上有旗子(die Flagge),红旗表示不能游泳;索菲娅说有风的时候浪(die Welle)很大,海就危险(gefährlich);王伟说有风就待在海滩上,不过一定要在海里游一次;索菲娅提醒他别忘了帽子和太阳镜。说话人:lena、wei、sofia。",
       "grammarFocusZh": "die See(海)和 der See(湖)性不同、意思不同;天气的说法复习(Es gibt viel Wind / Es ist bewölkt / Es sind 18 bis 25 Grad);an der See / am Meer(先当固定说法)",
       "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
@@ -184,7 +184,7 @@
       "titleZh": "四天的旅行计划",
       "goalZh": "读懂一份几天的旅行计划,说出每天做什么、几点、在哪儿、大概花多少钱",
       "canDoZh": "能读懂一份几天的旅行计划,说出每天做什么、几点、在哪儿",
-      "scenarioZh": "体裁:旅行计划(王伟写在大家共享的文档里,火车晚点后在车上改了到达时间)。第一天十点半到,先把行李放在前台,去海滩,15 点办入住;第二天骑青年旅舍的自行车去灯塔,下午莉娜和保罗下海游泳,王伟在海滩上待着;第三天坐船(das Schiff)去 Rostock,老城(die Altstadt)里有很多老房子和集市,晚上在港口吃鱼面包;第四天 10 点前退房,买礼物,14:10 从 Rostock 坐火车回柏林;下雨的话去博物馆或室内游泳馆(das Hallenbad);每人大概花 200 欧元(火车 39 欧元、青年旅舍 110 欧元、自行车、坐船和鱼面包约 50 欧元)。说话人:wei(计划)。",
+      "scenarioZh": "体裁:旅行计划(王伟写在大家共享的文档里,火车晚点后在车上改了到达时间)。第一天十点半到,先把行李放在前台,去海滩,15 点办入住;第二天骑青年旅舍的自行车去灯塔,下午大家下海游泳(插红旗就不下水);第三天坐船(das Schiff)去 Rostock,老城(die Altstadt)里有很多老房子和集市,晚上在港口吃鱼面包;第四天 10 点前退房,买礼物,14:10 从 Rostock 坐火车回柏林;下雨的话去博物馆或室内游泳馆(das Hallenbad);每人大概花 200 欧元(火车 39 欧元、青年旅舍 110 欧元、自行车、坐船和鱼面包约 50 欧元)。说话人:wei(计划)。",
       "grammarFocusZh": "复习:am + 日期、um + 钟点、时间放句首动词第二位;计划里常用省略的短句(Tag 1: Ankunft um 10:30 Uhr);bei Regen;zusammen 说总数",
       "skills": ["read", "write"], "estimatedMinutes": 16.5,
       "newItems": [

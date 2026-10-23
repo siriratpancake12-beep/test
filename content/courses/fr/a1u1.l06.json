@@ -1,0 +1,52 @@
+{
+  "id": "fr.a1u1.l06", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 Bonjour !", "order": 101060,
+  "titleZh": "Comment ça s'écrit ?——字母和重音符号", "goalZh": "会用法语字母拼出名字,说出四个常用符号的名称",
+  "canDoZh": "能用法语字母拼出自己的姓、名和家乡的名字,听懂别人拼写的名字并写下来",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "fr.comment_ca_secrit", "kind": "phrase", "pos": "phrase", "text": "Comment ça s'écrit ?", "zh": "怎么写?怎么拼?", "features": { "ipa": "kɔ.mɑ̃ sa se.kʁi" }, "noteZh": "问名字、单词怎么拼时整句说,对谁都能用;s'écrit 的 t 不发音。" },
+    { "id": "fr.ca_secrit", "kind": "phrase", "pos": "phrase", "text": "Ça s'écrit…", "zh": "写作……;拼作……", "features": { "ipa": "sa se.kʁi" }, "noteZh": "回答怎么拼:Ça s'écrit Z-H-A-N-G.,后面一个字母一个字母地说。" },
+    { "id": "fr.lettre", "kind": "word", "pos": "noun", "text": "la lettre", "zh": "字母;信", "features": { "gender": "f", "ipa": "la lɛtʁ" }, "noteZh": "阴性;既是“字母”,也是“信(书信)”。词尾 tre 只读 [tʁ],后面不要加元音。" },
+    { "id": "fr.accent_aigu", "kind": "word", "pos": "noun", "text": "l'accent aigu", "zh": "闭音符(é 上的 ´)", "features": { "gender": "m", "ipa": "lak.sɑ̃.te.gy" }, "noteZh": "元音开头,要记住是阳性;只出现在 e 上,é 读闭口的 [e]:Chloé、étudiant。accent 和 aigu 常联诵:[ak.sɑ̃.te.gy]。" },
+    { "id": "fr.accent_grave", "kind": "word", "pos": "noun", "text": "l'accent grave", "zh": "开音符(è 上的 `)", "features": { "gender": "m", "ipa": "lak.sɑ̃ gʁav" }, "noteZh": "元音开头,要记住是阳性;è 读开口的 [ɛ]:très。à、où 上也有,但不改读音,只用来区分意思。" },
+    { "id": "fr.accent_circonflexe", "kind": "word", "pos": "noun", "text": "l'accent circonflexe", "zh": "长音符(ê 上的 ^)", "features": { "gender": "m", "ipa": "lak.sɑ̃ siʁ.kɔ̃.flɛks" }, "noteZh": "元音开头,要记住是阳性;像一顶小帽子,a、e、i、o、u 上都可能有;être 里的 ê 读开口的 [ɛ]。" },
+    { "id": "fr.cedille", "kind": "word", "pos": "noun", "text": "la cédille", "zh": "软音符(ç 下面的小尾巴)", "features": { "gender": "f", "ipa": "la se.dij" }, "noteZh": "阴性;c 加 cédille 写成 ç,在 a、o、u 前读 [s]:français、ça。-ille 读 [ij],不发 [l] 的音。" }
+  ],
+  "reviewItems": ["fr.monsieur", "fr.madame", "fr.je_suis", "fr.trois", "fr.tres", "fr.etre"],
+  "lines": [
+    { "speaker": "mme_moreau", "text": "Monsieur Zhang ? Zhang Hao ?", "zh": "(开学第一天的第一节法语课,莫罗老师点名)张……浩?", "items": ["fr.monsieur"] },
+    { "speaker": "hao", "text": "Oui, madame ! Je suis Zhang Hao.", "zh": "到,老师!我是张浩。", "items": ["fr.oui", "fr.madame", "fr.je_suis", "fr.je", "fr.etre"] },
+    { "speaker": "mme_moreau", "text": "Zhang… Comment ça s'écrit ?", "zh": "Zhang……怎么拼?", "items": ["fr.comment_ca_secrit"] },
+    { "speaker": "hao", "text": "Ça s'écrit Z-H-A-N-G. Et Hao : H-A-O.", "zh": "拼作 Z-H-A-N-G。Hao 是 H-A-O。", "items": ["fr.ca_secrit", "fr.et"] },
+    { "speaker": "mme_moreau", "text": "Trois lettres, très bien. Et Chengdu ?", "zh": "三个字母,很好。那 Chengdu 呢?", "items": ["fr.trois", "fr.lettre", "fr.tres", "fr.bien", "fr.et"] },
+    { "speaker": "hao", "text": "C-H-E-N-G-D-U.", "zh": "C-H-E-N-G-D-U。(老师一个字母一个字母地写在黑板上)", "items": [] },
+    { "speaker": "hao", "text": "Madame, et Chloé ? Comment ça s'écrit ?", "zh": "老师,那 Chloé 呢?怎么写?(浩想在本子上记下语伴克洛艾的名字)", "items": ["fr.madame", "fr.et", "fr.comment_ca_secrit"] },
+    { "speaker": "mme_moreau", "text": "C-H-L-O, E accent aigu. Et « très » : E accent grave.", "zh": "C-H-L-O,最后是 E accent aigu(é)。très 里是 E accent grave(è)。", "items": ["fr.accent_aigu", "fr.et", "fr.tres", "fr.accent_grave"] },
+    { "speaker": "hao", "text": "Et « être » ? E accent circonflexe ?", "zh": "那 être 呢?是 E accent circonflexe(ê)吗?", "items": ["fr.et", "fr.etre", "fr.accent_circonflexe"] },
+    { "speaker": "mme_moreau", "text": "Oui ! Et « français » : F-R-A-N, C cédille, A-I-S.", "zh": "对!还有 français:F-R-A-N,C cédille(ç),A-I-S。", "items": ["fr.oui", "fr.et", "fr.francais", "fr.cedille"] }
+  ],
+  "questions": [
+    { "prompt": "浩的姓 Zhang 怎么拼?", "options": ["Z-A-N-G", "J-H-A-N-G", "Z-H-A-N-G"], "answer": 2, "explainZh": "浩说 Ça s'écrit Z-H-A-N-G.;法语字母 G 读 [ʒe](像“热”),J 读 [ʒi](像“日”),听的时候别弄混。" },
+    { "prompt": "Chloé 里的 é 上面是哪个符号?", "options": ["accent aigu", "accent grave", "accent circonflexe", "cédille"], "answer": 0, "explainZh": "老师说 C-H-L-O, E accent aigu:é 上面向右上方的一撇叫 accent aigu,读闭口的 [e]。" },
+    { "prompt": "老师拼 français 时说的 C cédille 是哪个字母?", "options": ["é", "ç", "è"], "answer": 1, "explainZh": "« français » : F-R-A-N, C cédille, A-I-S —— c 下面带小尾巴就是 ç,读 [s]。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.alphabet", "titleZh": "法语字母怎么读;怎么拼写名字",
+      "bodyZh": "法语和英语用同样的 26 个字母,但很多字母读法不一样。拼名字时最容易听错的几组:\n- E [ə]、I [i]、U [y]:E 像轻声“的”里的元音,I 像“衣”,U 是撮圆嘴唇发“衣”(像拼音 ü)。\n- G [ʒe] 和 J [ʒi]:正好和英语反过来。G 像“热”加 e,J 像“日”加 i,一定要分清。\n- 另外 H 读 [aʃ],R 读 [ɛʁ],W 读 [du.blə.ve](“两个 V”),Y 读 [i.gʁɛk]。\n问怎么拼,整句说 Comment ça s'écrit ?;回答说 Ça s'écrit…,再一个字母一个字母地报。两个相同的字母可以说 deux L、deux S。点名、填表时法国人常先说姓:Monsieur Zhang。",
+      "examples": [
+        { "text": "Comment ça s'écrit ?", "zh": "怎么拼?" },
+        { "text": "Ça s'écrit Z-H-A-N-G.", "zh": "拼作 Z-H-A-N-G。" },
+        { "text": "Hao : H-A-O, trois lettres.", "zh": "Hao:H-A-O,三个字母。" }
+      ] },
+    { "id": "fr.g.accents", "titleZh": "四个符号:accent aigu、accent grave、accent circonflexe、cédille",
+      "bodyZh": "法语字母上下的小符号会改变读音,写名字、写单词时都不能漏:\n- accent aigu(´)只在 e 上:é 读闭口的 [e],如 Chloé、étudiant。\n- accent grave(`):è 读开口的 [ɛ],如 très;à、où 上也有,但不改读音,只用来区分意思。\n- accent circonflexe(^):a、e、i、o、u 上都可能有,ê 读开口的 [ɛ],如 être。\n- cédille(¸):只加在 c 下面,ç 在 a、o、u 前读 [s],如 français、ça。\n拼写时先说字母,再说符号:E accent aigu、C cédille。手机键盘上长按 e、c 就能选出带符号的字母。",
+      "examples": [
+        { "text": "Chloé : C-H-L-O, E accent aigu.", "zh": "Chloé:C-H-L-O,再加 é。" },
+        { "text": "« Très » : E accent grave.", "zh": "très 里是 è。" },
+        { "text": "« Être » : E accent circonflexe.", "zh": "être 里是 ê。" },
+        { "text": "« Français » : C cédille.", "zh": "français 里是 ç。" }
+      ] }
+  ],
+  "review": "draft"
+}

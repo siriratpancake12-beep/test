@@ -1,0 +1,45 @@
+{
+  "id": "en.a1u11.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111045,
+  "titleZh": "登机牌和航班信息屏", "goalZh": "会看登机牌和航班信息屏上的登机口、登机时间和航班状态", "canDoZh": "能看懂登机牌和机场的航班信息屏,找到登机口、登机时间和航班状态",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "en.gate", "kind": "word", "pos": "noun", "text": "gate", "zh": "登机口;大门", "features": { "ipa": "ɡeɪt" }, "noteZh": "Gate B12(B12 登机口);a 读 /eɪ/,词尾 t 收住。" },
+    { "id": "en.board", "kind": "word", "pos": "verb", "text": "board", "zh": "登机;上(飞机、船)", "features": { "ipa": "bɔːrd" }, "noteZh": "Boarding at 6:35.(6:35 开始登机。)广播里常说 Now boarding.;oar 美式要卷舌。" },
+    { "id": "en.group", "kind": "word", "pos": "noun", "text": "group", "zh": "组;群", "features": { "ipa": "ɡruːp" }, "noteZh": "按组登机:Group 3(第 3 组);ou 读 /uː/;第 1 单元的 group chat 是“群聊”。" },
+    { "id": "en.delayed", "kind": "word", "pos": "adj", "text": "delayed", "zh": "延误的;晚点的", "features": { "ipa": "dɪˈleɪd" }, "noteZh": "The flight is delayed.(航班晚点了。)-ed 读 /d/;重音在后 de-LAYED。" }
+  ],
+  "reviewItems": ["en.on_time", "en.get_on", "en.first", "en.window", "en.boarding_pass"],
+  "lines": [
+    { "speaker": "narrator", "text": "Boarding pass", "zh": "(磊的登机牌)登机牌", "items": ["en.boarding_pass"] },
+    { "speaker": "narrator", "text": "ZHANG / LEI", "zh": "姓名:张 / 磊(登机牌上姓在前)", "items": [] },
+    { "speaker": "narrator", "text": "Flight 207: Seattle to Los Angeles", "zh": "207 航班:西雅图—洛杉矶", "items": ["en.flight"] },
+    { "speaker": "narrator", "text": "Date: January 4th. The flight leaves at 7:15.", "zh": "日期:1 月 4 日。7:15 起飞。", "items": ["en.date", "en.january", "en.flight", "en.leave"] },
+    { "speaker": "narrator", "text": "Gate B12. Boarding at 6:35.", "zh": "登机口 B12。6:35 开始登机。", "items": ["en.gate", "en.board"] },
+    { "speaker": "narrator", "text": "23A (window). Group 3.", "zh": "座位 23A(靠窗)。第 3 组登机。", "items": ["en.window", "en.group"] },
+    { "speaker": "narrator", "text": "7:15 Los Angeles, Flight 207, Gate B12: On time", "zh": "(出发信息屏)7:15 洛杉矶,207 航班,B12 登机口:准点", "items": ["en.flight", "en.gate", "en.on_time"] },
+    { "speaker": "narrator", "text": "7:30 San Francisco, Flight 315, Gate B4: Delayed, now 8:45", "zh": "7:30 旧金山,315 航班,B4 登机口:延误,改为 8:45", "items": ["en.flight", "en.gate", "en.delayed"] },
+    { "speaker": "narrator", "text": "7:40 Denver, Flight 118, Gate C2: On time", "zh": "7:40 丹佛,118 航班,C2 登机口:准点", "items": ["en.flight", "en.gate", "en.on_time"] },
+    { "speaker": "narrator", "text": "8:00 Chicago, Flight 422, Gate A9: Delayed, now 9:30", "zh": "8:00 芝加哥,422 航班,A9 登机口:延误,改为 9:30", "items": ["en.flight", "en.gate", "en.delayed"] },
+    { "speaker": "narrator", "text": "Group 1 gets on first. Lei is in Group 3.", "zh": "第 1 组先登机。磊在第 3 组。", "items": ["en.group", "en.get_on", "en.first"] },
+    { "speaker": "narrator", "text": "Be at the gate at 6:35!", "zh": "6:35 要到登机口!", "items": ["en.gate"] }
+  ],
+  "questions": [
+    { "prompt": "磊在几号登机口登机?", "options": ["B12", "B4", "C2"], "answer": 0, "explainZh": "Gate B12. Boarding at 6:35.(B4 是去旧金山的,C2 是去丹佛的。)" },
+    { "prompt": "几点开始登机?", "options": ["6:35", "7:15", "8:45"], "answer": 0, "explainZh": "Boarding at 6:35.(7:15 是起飞时间。)" },
+    { "prompt": "去旧金山的航班怎么了?", "options": ["准点", "取消了", "晚点了,改到 8:45"], "answer": 2, "explainZh": "7:30 San Francisco … Delayed, now 8:45" },
+    { "prompt": "磊是第几组登机?", "options": ["第一组", "第三组", "第二组"], "answer": 1, "explainZh": "Group 1 gets on first. Lei is in Group 3." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.read_boarding_pass",
+      "titleZh": "看登机牌和航班信息屏",
+      "bodyZh": "登机牌和信息屏上都是省略的写法:Gate B12(登机口 B12)、Boarding at 6:35(6:35 开始登机)、Group 3(第 3 组登机)、On time(准点)、Delayed(晚点)、now 8:45(现在改到 8:45)。先找自己的航班号和目的地那一行,再看登机口和状态。字母和数字分开读:B12 读 B twelve,23A 读 twenty-three A。英文的登机牌一般姓在前、名在后,中间用斜线隔开:ZHANG / LEI。",
+      "examples": [
+        { "text": "Flight 207 leaves at 7:15.", "zh": "207 航班 7:15 起飞。" },
+        { "text": "The flight to San Francisco is delayed.", "zh": "去旧金山的航班晚点了。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

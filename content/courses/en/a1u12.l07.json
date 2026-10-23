@@ -29,8 +29,8 @@
     { "speaker": "sofia", "text": "It's next to the ocean! Let's go to Venice Beach!", "zh": "车道就在海边!我们骑去威尼斯海滩吧!", "items": ["en.next_to", "en.ocean", "en.lets", "en.go"] }
   ],
   "questions": [
-    { "prompt": "他们租了几辆车、租多久?", "options": ["两辆,三个小时", "三辆,两个小时", "三辆,一整天"], "answer": 1, "explainZh": "磊说 We'd like to rent three bikes,店员问 For how long?,磊说 For two hours.。" },
-    { "prompt": "租车要多少钱?", "options": ["每辆每小时 15 美元", "每辆每小时 50 美元", "每辆一天 15 美元"], "answer": 0, "explainZh": "店员说 It's 15 dollars an hour for each bike.;fifteen(15)和 fifty(50)要分清。" },
+    { "prompt": "他们租了几辆车、租多久?", "options": ["三辆,两个小时", "两辆,三个小时", "三辆,一整天"], "answer": 0, "explainZh": "磊说 We'd like to rent three bikes,店员问 For how long?,磊说 For two hours.。" },
+    { "prompt": "租车要多少钱?", "options": ["每辆每小时 50 美元", "每辆每小时 15 美元", "每辆一天 15 美元"], "answer": 1, "explainZh": "店员说 It's 15 dollars an hour for each bike.;fifteen(15)和 fifty(50)要分清。" },
     { "prompt": "磊的车有什么问题?", "options": ["车锁坏了", "车太小了", "车太大了"], "answer": 2, "explainZh": "磊说 This bike is too big for me.,店员说 I can fix that.(我给你调一下)。" }
   ],
   "grammar": [

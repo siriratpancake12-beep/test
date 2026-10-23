@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u14.l03", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-14 Phones & the internet", "order": 114030,
+  "titleZh": "先把它插上电", "goalZh": "会用 turn it on、plug it in 这类短语动词一步步说怎么开机、连网、登录", "canDoZh": "能一步步告诉别人怎么开机、连网和登录,用对 turn it on 这类说法",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.computer", "kind": "word", "pos": "noun", "text": "computer", "zh": "电脑", "features": { "ipa": "kəmˈpjuːt̬ɚ" }, "noteZh": "第 1 单元学过 computer science;笔记本电脑口语也常说 computer。重音在中间 com-PU-ter,t 读闪音。" },
+    { "id": "en.plug_in", "kind": "phrase", "pos": "verb", "text": "plug in", "zh": "插上电源", "features": { "ipa": "ˌplʌɡ ˈɪn" }, "noteZh": "Is it plugged in? 插上电了吗?;代词放中间:plug it in,连读成“plu-gi-tin”。" },
+    { "id": "en.turn_on", "kind": "phrase", "pos": "verb", "text": "turn on", "zh": "打开(电器、开关)", "features": { "ipa": "ˌtɝːn ˈɑːn" }, "noteZh": "turn on the computer = turn the computer on;代词只能放中间:turn it on,不说 turn on it。" },
+    { "id": "en.turn_off", "kind": "phrase", "pos": "verb", "text": "turn off", "zh": "关掉(电器、开关)", "features": { "ipa": "ˌtɝːn ˈɑːf" }, "noteZh": "和 turn on 相反;turn it off 连读成“tur-ni-toff”。" },
+    { "id": "en.log_in", "kind": "phrase", "pos": "verb", "text": "log in", "zh": "登录", "alt": ["login"], "features": { "ipa": "ˌlɑːɡ ˈɪn" }, "noteZh": "log in with your email 用邮箱登录;登录某个网站说 log in to…;名词写成一个词 login。" },
+    { "id": "en.log_out", "kind": "phrase", "pos": "verb", "text": "log out", "zh": "退出登录", "features": { "ipa": "ˌlɑːɡ ˈaʊt" }, "noteZh": "用完公用电脑一定要 log out;连读成“lo-gout”。" },
+    { "id": "en.set_up", "kind": "phrase", "pos": "verb", "text": "set up", "zh": "设置;装好", "features": { "ipa": "ˌset ˈʌp" }, "noteZh": "set up a new computer 把新电脑设置好;代词放中间:set it up,t 在元音前读闪音“se-dup”。" },
+    { "id": "en.type", "kind": "word", "pos": "verb", "text": "type", "zh": "打字;输入", "features": { "ipa": "taɪp" }, "noteZh": "type your password 输入密码;y 读 /aɪ/,词尾 p 收住。" }
+  ],
+  "reviewItems": ["en.help", "en.doesnt_work", "en.wi_fi", "en.password", "en.email"],
+  "lines": [
+    { "speaker": "sofia", "text": "Lei, can you help me? My new computer doesn't work.", "zh": "(索菲亚抱着新买的电脑来找学计算机的磊)磊,能帮帮我吗?我的新电脑开不了机。", "items": ["en.can", "en.help", "en.new", "en.computer", "en.doesnt_work"] },
+    { "speaker": "lei", "text": "Hmm. Is it plugged in?", "zh": "嗯……插上电了吗?", "items": ["en.plug_in"] },
+    { "speaker": "sofia", "text": "Plugged in? Oh… no, it isn't.", "zh": "插电?哦……没插。", "items": ["en.plug_in"] },
+    { "speaker": "lei", "text": "OK. Plug it in. Now turn it on.", "zh": "好,插上电。现在开机。", "items": ["en.plug_in", "en.turn_on"] },
+    { "speaker": "sofia", "text": "It's on! Now what?", "zh": "开了!然后呢?", "items": [] },
+    { "speaker": "lei", "text": "Let's set it up. First, turn on the Wi-Fi.", "zh": "我们先把它设置好。第一步,打开 Wi-Fi。", "items": ["en.lets", "en.set_up", "en.first", "en.turn_on", "en.wi_fi"] },
+    { "speaker": "lei", "text": "Then log in with your student email.", "zh": "然后用你的学生邮箱登录。", "items": ["en.then", "en.log_in", "en.student", "en.email"] },
+    { "speaker": "sofia", "text": "OK. I'm typing my password… I'm in! You're a good teacher!", "zh": "好。我在输密码……登进去了!你真是个好老师!", "items": ["en.type", "en.password", "en.teacher"] },
+    { "speaker": "sofia", "text": "Do I turn it off at night?", "zh": "晚上要关机吗?", "items": ["en.turn_off", "en.night"] },
+    { "speaker": "lei", "text": "Yes, turn it off. And log out on library computers, OK?", "zh": "(磊有点不好意思)要,关掉吧。还有,在图书馆的电脑上用完要退出登录,好吗?", "items": ["en.turn_off", "en.log_out", "en.library", "en.computer"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚的电脑为什么开不了机?", "options": ["电脑坏了", "没有 Wi-Fi", "没插电"], "answer": 2, "explainZh": "磊问 Is it plugged in?,索菲亚说 no, it isn't.(没插电)。" },
+    { "prompt": "磊让她用什么登录?", "options": ["学生邮箱", "手机号", "银行卡"], "answer": 0, "explainZh": "磊说 Then log in with your student email.。" },
+    { "prompt": "磊提醒她在图书馆的电脑上要做什么?", "options": ["关掉 Wi-Fi", "用完退出登录", "插上电"], "answer": 1, "explainZh": "磊说 And log out on library computers, OK?" }
+  ],
+  "grammar": [
+    { "id": "en.g.u14_phrasal_verbs", "titleZh": "短语动词:turn it on,不说 turn on it",
+      "bodyZh": "turn on(打开)、turn off(关掉)、plug in(插上电)、set up(设置好)都是“动词 + 小词”组成的短语动词。宾语是名词时,放中间或后面都可以:turn on the computer = turn the computer on;宾语是代词(it、them)时,只能放中间:turn it on、plug it in、set it up,不说 turn on it。这和第 6 单元的 try it on 是同一个规则。log in / log out(登录 / 退出)后面一般不直接跟宾语:登录某处用 log in to…,用什么登录用 with:log in with your student email。发音:代词放中间时连读,turn it on 读成“tur-ni-ton”,plug it in 读成“plu-gi-tin”。",
+      "examples": [
+        { "text": "Plug it in. Now turn it on.", "zh": "插上电。现在开机。" },
+        { "text": "Turn on the Wi-Fi. = Turn the Wi-Fi on.", "zh": "打开 Wi-Fi。" },
+        { "text": "Log in with your student email.", "zh": "用你的学生邮箱登录。" }
+      ] },
+    { "id": "en.g.u14_steps", "titleZh": "教别人操作:祈使句 + First / Then",
+      "bodyZh": "教别人一步步操作,直接用动词原形开头的祈使句:Plug it in. Turn it on. Log in.;用 First,(第一步)、Then,(然后)把步骤串起来(第 8 单元学过)。确认对方做到哪一步,可以问 Is it plugged in? / Is it on?;对方做好了常说 It's on!(开了!)、I'm in!(我登进去了!)。提醒别人注意的事也用祈使句:Turn it off at night. / Log out on library computers.。",
+      "examples": [
+        { "text": "First, turn on the Wi-Fi. Then log in.", "zh": "先打开 Wi-Fi,然后登录。" },
+        { "text": "Is it plugged in? — No, it isn't.", "zh": "插上电了吗?——没插。" },
+        { "text": "I'm in!", "zh": "我登进去了!" }
+      ] }
+  ],
+  "review": "draft"
+}

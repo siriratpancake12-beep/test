@@ -1,0 +1,45 @@
+{
+  "id": "en.a1u18.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118080,
+  "titleZh": "单元复习:第一场校内比赛", "goalZh": "把身体部位、… hurts、方式副词、比分和 won 串起来,在比赛中和队友交流、赛后说说大家打得怎么样", "canDoZh": "能和队友交流比赛中的情况,赛后说说谁打得怎么样、自己哪儿受了点小伤",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "en.shot", "kind": "word", "pos": "noun", "text": "shot", "zh": "(投篮、射门的)一投;一球", "features": { "ipa": "ʃɑːt" }, "noteZh": "Nice shot! 投得好!;美式 o 读 /ɑː/,词尾 t 收住。" },
+    { "id": "en.defense", "kind": "word", "pos": "noun", "text": "defense", "zh": "防守", "features": { "ipa": "dɪˈfens" }, "noteZh": "play defense 打防守;美式拼写 defense(英式 defence);球迷喊口号时常把重音放在前面:DEE-fense!" },
+    { "id": "en.teammate", "kind": "word", "pos": "noun", "text": "teammate", "zh": "队友", "features": { "ipa": "ˈtiːmmeɪt" }, "noteZh": "team + mate(伙伴);两个 m 连在一起,只发一个稍长的 /m/。" }
+  ],
+  "reviewItems": ["en.stretch", "en.nervous", "en.knee", "en.win", "en.relax", "en.slowly"],
+  "lines": [
+    { "speaker": "marcus", "text": "OK, Dragons! Let's stretch first.", "zh": "(周六下午,International Dragons 的第一场比赛。赛前,马库斯带大家热身)好了,飞龙们!先拉伸。", "items": ["en.dragon", "en.lets", "en.stretch", "en.first"] },
+    { "speaker": "ethan", "text": "Arms up! Now touch your toes. Slowly!", "zh": "胳膊举起来!现在摸脚趾。慢一点!", "items": ["en.arm", "en.up", "en.touch", "en.toe", "en.slowly"] },
+    { "speaker": "lei", "text": "I'm nervous. It's our first game.", "zh": "我好紧张。这是我们的第一场比赛。", "items": ["en.nervous", "en.first", "en.game"] },
+    { "speaker": "ethan", "text": "Relax, man. We work hard. We can win!", "zh": "放松,哥们儿。我们练得很努力。我们能赢!", "items": ["en.relax", "en.work_hard", "en.can", "en.win"] },
+    { "speaker": "ethan", "text": "Lei! Throw it to me! Quickly!", "zh": "(比赛开始了)磊!传给我!快!", "items": ["en.throw", "en.quickly"] },
+    { "speaker": "amy", "text": "Nice shot, Marcus!", "zh": "(场边,艾米大喊)投得好,马库斯!", "items": ["en.nice", "en.shot"] },
+    { "speaker": "sofia", "text": "Marcus is a great player! And Lei plays really good defense.", "zh": "马库斯打得真好!磊的防守也特别好。", "items": ["en.great", "en.player", "en.play", "en.really", "en.defense"] },
+    { "speaker": "lei", "text": "Oh… my knee. It hurts a little.", "zh": "(上半场快结束时,磊的膝盖被撞了一下)哎……我的膝盖。有点疼。", "items": ["en.knee", "en.hurt", "en.a_little"] },
+    { "speaker": "marcus", "text": "What's wrong? Can you walk?", "zh": "怎么了?还能走吗?", "items": ["en.whats_wrong_with_it", "en.can", "en.walk"] },
+    { "speaker": "lei", "text": "Yes, I can walk. I'm OK.", "zh": "能走。我没事。", "items": ["en.can", "en.walk"] },
+    { "speaker": "marcus", "text": "Rest for a minute. Then you can play again.", "zh": "休息一会儿,然后再上场。", "items": ["en.rest", "en.minute", "en.then", "en.can", "en.play", "en.again"] },
+    { "speaker": "amy", "text": "42 to 38! You guys won! Great job, Dragons!", "zh": "(比赛结束)42 比 38!你们赢了!飞龙队,太棒了!", "items": ["en.you_guys", "en.win", "en.good_job", "en.dragon"] },
+    { "speaker": "sofia", "text": "Lei, you played really well! How's your knee?", "zh": "磊,你打得真好!膝盖怎么样了?", "items": ["en.play", "en.really", "en.well", "en.knee"] },
+    { "speaker": "lei", "text": "It doesn't hurt now. Thanks, guys! Great teammates, great team!", "zh": "现在不疼了。谢谢大家!好队友,好球队!", "items": ["en.hurt", "en.thank_you", "en.guy", "en.great", "en.teammate", "en.team"] }
+  ],
+  "questions": [
+    { "prompt": "比赛前大家先做什么?", "options": ["拉伸", "吃披萨", "看超级碗"], "answer": 0, "explainZh": "马库斯说 OK, Dragons! Let's stretch first.(先拉伸。)" },
+    { "prompt": "比赛中磊怎么了?", "options": ["投进了最后一个球", "膝盖撞了一下,有点疼,休息一会儿又上场", "鞋子坏了,不能上场"], "answer": 1, "explainZh": "磊说 My knee. It hurts a little.,马库斯让他 Rest for a minute. Then you can play again.。" },
+    { "prompt": "比赛结果怎么样?", "options": ["38 比 42 输了", "打平了", "42 比 38 赢了"], "answer": 2, "explainZh": "艾米喊 42 to 38! You guys won!" },
+    { "prompt": "索菲亚怎么夸马库斯和磊?", "options": ["磊投篮很准", "马库斯打得真好,磊的防守特别好", "马库斯跑得最快"], "answer": 1, "explainZh": "索菲亚说 Marcus is a great player! And Lei plays really good defense.;投得好(Nice shot)是艾米夸马库斯的。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u18_review", "titleZh": "单元小结:身体部位、… hurts、方式副词、play / go / do、比分",
+      "bodyZh": "这个单元的几种说法,打一场比赛就能全用上:① 身体部位 + 祈使句:Touch your toes. Bend your knees.,不规则复数 foot → feet、tooth → teeth;② 哪儿疼:单数主语 + hurts(My knee hurts a little.),复数主语 + hurt(My legs hurt.),肌肉酸说 sore;③ 方式副词放在动词后面:Throw it quickly. You played really well.(good → well,fast 和 hard 不变:run fast、work hard);④ 运动的动词:play basketball、go running、do yoga;⑤ 路线介词:run along the lake、up the hill;⑥ 比分和输赢:42 to 38,We won! We beat them!。发音:knee 的 k 不发音;-ly 副词的重音留在词根上:QUICK-ly、SLOW-ly。",
+      "examples": [
+        { "text": "My knee hurts a little.", "zh": "我的膝盖有点疼。" },
+        { "text": "Throw it to me! Quickly!", "zh": "传给我!快!" },
+        { "text": "You played really well!", "zh": "你打得真好!" },
+        { "text": "42 to 38! You guys won!", "zh": "42 比 38!你们赢了!" }
+      ] }
+  ],
+  "review": "draft"
+}

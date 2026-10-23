@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u17.l06", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-17 Let's cook", "order": 117060,
+  "titleZh": "闻起来好香!", "goalZh": "会用 look / smell / taste + 形容词描述食物,会说酸甜苦辣咸", "canDoZh": "能用 look / smell / taste 描述食物看起来、闻起来、吃起来怎么样",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.look_adj", "kind": "word", "pos": "verb", "text": "look", "zh": "显得……(look + 形容词)", "features": { "ipa": "lʊk" }, "noteZh": "look + 形容词 = 看起来……:It looks delicious!(看起来很好吃);第 9 单元的 look 是\"看、瞧\"(look at…),意思不一样。oo 读短音 /ʊ/。" },
+    { "id": "en.smell", "kind": "word", "pos": "verb", "text": "smell", "zh": "闻起来;闻", "features": { "ipa": "smel" }, "noteZh": "It smells amazing! 闻起来好香!;smell + 形容词,不跟副词;词尾 l 舌尖抬起。" },
+    { "id": "en.taste", "kind": "word", "pos": "verb", "text": "taste", "zh": "尝起来;尝", "features": { "ipa": "teɪst" }, "noteZh": "It tastes great. 很好吃(不说 tastes well);tastes /teɪsts/ 词尾三个辅音,别加元音。" },
+    { "id": "en.sour", "kind": "word", "pos": "adj", "text": "sour", "zh": "酸的", "features": { "ipa": "ˈsaʊɚ" }, "noteZh": "柠檬、醋是 sour;our 读 /aʊɚ/,和 hour 押韵。" },
+    { "id": "en.salty", "kind": "word", "pos": "adj", "text": "salty", "zh": "咸的", "features": { "ipa": "ˈsɑːlti" }, "noteZh": "salt(盐)+ y;too salty 太咸了;美式 a 读 /ɑː/。" },
+    { "id": "en.bitter", "kind": "word", "pos": "adj", "text": "bitter", "zh": "苦的", "features": { "ipa": "ˈbɪt̬ɚ" }, "noteZh": "黑咖啡、苦瓜是 bitter;tt 读闪音,像轻快的 d。" },
+    { "id": "en.salsa", "kind": "word", "pos": "noun", "text": "salsa", "zh": "莎莎酱(墨西哥辣酱)", "features": { "ipa": "ˈsɑːlsə" }, "noteZh": "墨西哥菜常配的番茄辣酱,美国超市里到处都有;salsa 也是一种舞蹈。" },
+    { "id": "en.mole", "kind": "word", "pos": "noun", "text": "mole", "zh": "墨西哥巧克力辣酱(mole)", "features": { "ipa": "ˈmoʊleɪ" }, "noteZh": "墨西哥的传统酱汁,用辣椒、巧克力和很多香料做成;读 MO-lay,两个音节,和英语的 mole(痣)读音不同。" }
+  ],
+  "reviewItems": ["en.recipe", "en.chocolate", "en.sweet", "en.amazing", "en.spicy", "en.delicious"],
+  "lines": [
+    { "speaker": "ethan", "text": "Wow, Sofia! The kitchen smells amazing!", "zh": "(第二个周末,轮到索菲亚下厨)哇,索菲亚!厨房里好香啊!", "items": ["en.kitchen", "en.smell", "en.amazing"] },
+    { "speaker": "sofia", "text": "It's chicken mole. It's my mom's recipe.", "zh": "这是墨西哥巧克力辣酱鸡,我妈妈的菜谱。", "items": ["en.chicken", "en.mole", "en.mom", "en.recipe"] },
+    { "speaker": "amy", "text": "It looks delicious! What's in it?", "zh": "看起来好好吃!里面有什么?", "items": ["en.look_adj", "en.delicious"] },
+    { "speaker": "sofia", "text": "Chicken, chocolate, and a lot of other things!", "zh": "鸡肉、巧克力,还有好多别的东西!", "items": ["en.chicken", "en.chocolate", "en.a_lot_of", "en.other"] },
+    { "speaker": "lei", "text": "Chocolate? It tastes great! It's a little sweet.", "zh": "巧克力?好吃!有一点甜。", "items": ["en.chocolate", "en.taste", "en.great", "en.a_little", "en.sweet"] },
+    { "speaker": "sofia", "text": "And it isn't spicy. I don't eat spicy food!", "zh": "而且不辣。我自己不吃辣!", "items": ["en.spicy", "en.eat", "en.food"] },
+    { "speaker": "sofia", "text": "But this salsa is spicy. It's for you, Lei!", "zh": "不过这碗莎莎酱是辣的。是给你的,磊!", "items": ["en.salsa", "en.spicy"] },
+    { "speaker": "lei", "text": "It's spicy and a little sour. Perfect!", "zh": "又辣又有点酸。太棒了!", "items": ["en.spicy", "en.a_little", "en.sour", "en.perfect"] },
+    { "speaker": "marcus", "text": "Everything tastes great, but my coffee is bitter!", "zh": "什么都好吃,就是我的咖啡有点苦!", "items": ["en.taste", "en.great", "en.coffee", "en.bitter"] },
+    { "speaker": "ethan", "text": "It isn't too salty, and it isn't too sweet. It's perfect!", "zh": "不太咸,也不太甜,刚刚好!", "items": ["en.too", "en.salty", "en.sweet", "en.perfect"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚做的鸡里有什么特别的东西?", "options": ["巧克力", "花椒", "坚果"], "answer": 0, "explainZh": "Chicken, chocolate, and a lot of other things!——墨西哥的 mole 酱里有巧克力,所以磊说 It's a little sweet.。" },
+    { "prompt": "为什么索菲亚做的鸡不辣?", "options": ["她忘了放辣椒", "伊森不吃辣", "她自己不吃辣"], "answer": 2, "explainZh": "And it isn't spicy. I don't eat spicy food!——辣的莎莎酱是专门给磊做的。" },
+    { "prompt": "谁说自己的东西是苦的?", "options": ["磊", "马库斯", "艾米"], "answer": 1, "explainZh": "马库斯说 Everything tastes great, but my coffee is bitter!——苦的是他的咖啡。" }
+  ],
+  "grammar": [
+    { "id": "en.g.look_smell_taste", "titleZh": "look / smell / taste + 形容词",
+      "bodyZh": "说吃的看起来、闻起来、吃起来怎么样:It looks delicious.(看起来很好吃)/ It smells amazing.(闻起来好香)/ It tastes great.(吃起来很棒)。这三个动词后面直接跟形容词,不跟副词:It tastes good.(不说 tastes well)。主语是 it、the kitchen 这类单数时,动词加 -s:It smells… / It tastes…。中文说\"好香啊\",英语说 It smells good! / It smells amazing!。\n第 9 单元学过 look 是\"看\"(look at…),这里 look + 形容词是\"看起来……\",是另一个意思。",
+      "examples": [
+        { "text": "The kitchen smells amazing!", "zh": "厨房里好香啊!" },
+        { "text": "It looks delicious!", "zh": "看起来好好吃!" },
+        { "text": "It tastes great. It's a little sweet.", "zh": "很好吃,有一点甜。" },
+        { "text": "It isn't too salty.", "zh": "不太咸。" }
+      ] },
+    { "id": "en.g.taste_words", "titleZh": "酸甜苦辣咸:sweet、sour、bitter、spicy、salty",
+      "bodyZh": "五种味道:sweet(甜)、sour(酸)、bitter(苦)、spicy(辣)、salty(咸)。程度用 a little(有点儿)、very / so(很)、too(太,吃着不舒服):It's a little sour. / It's too salty.。四川菜的\"麻\"英语里没有固定的词,可以说 It makes your mouth numb.(让嘴发麻)。\n发音:tastes /teɪsts/ 词尾 sts 三个辅音连在一起,不要加元音读成 \"tei-si-te-si\";salty 的 a 美式读 /ɑː/;bitter 中间的 tt 读闪音。",
+      "examples": [
+        { "text": "It's spicy and a little sour.", "zh": "又辣又有点酸。" },
+        { "text": "My coffee is bitter!", "zh": "我的咖啡好苦!" }
+      ] }
+  ],
+  "review": "draft"
+}

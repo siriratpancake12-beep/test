@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u16.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116020,
+  "titleZh": "你能去倒垃圾吗?", "goalZh": "会用 Can you…? 请人做事,会答应、推迟或说明为什么不行", "canDoZh": "能请室友帮忙做事,也能答应、推迟或说明为什么不行",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "en.in_a_minute", "kind": "phrase", "pos": "adv", "text": "in a minute", "zh": "马上;等一下", "features": { "ipa": "ɪn ə ˈmɪnɪt" }, "noteZh": "别人请你做事,说 In a minute. 表示\"一会儿就做\",不一定真的是一分钟。" },
+    { "id": "en.its_your_turn", "kind": "phrase", "pos": "phrase", "text": "It's your turn", "zh": "轮到你了", "alt": ["It's my turn"], "features": { "ipa": "ɪts ˈjʊr ˌtɝːn" }, "noteZh": "这里的 turn 是\"轮到的机会\",和 turn left(转弯)意思不同;轮到我了:It's my turn.。" },
+    { "id": "en.later", "kind": "word", "pos": "adv", "text": "later", "zh": "以后;待会儿", "features": { "ipa": "ˈleɪt̬ɚ" }, "noteZh": "I'm going to do it later. 我待会儿做;See you later 里学过;t 读闪音。" },
+    { "id": "en.whiteboard", "kind": "word", "pos": "noun", "text": "whiteboard", "zh": "白板", "features": { "ipa": "ˈwaɪtbɔːrd" }, "noteZh": "white + board;美国宿舍门上、冰箱上常挂小白板留言;复合词重音在前 WHITE-board。" },
+    { "id": "en.fridge", "kind": "word", "pos": "noun", "text": "fridge", "zh": "冰箱", "features": { "ipa": "frɪdʒ" }, "noteZh": "refrigerator 的口语说法;dge 读 /dʒ/,词尾不加元音。" },
+    { "id": "en.deal", "kind": "word", "pos": "interj", "text": "Deal", "zh": "一言为定;就这么定了", "features": { "ipa": "diːl" }, "noteZh": "商量好以后说 Deal! 表示同意;第 6 单元 good deal(划算)里的 deal 是\"买卖\"。" },
+    { "id": "en.favor", "kind": "word", "pos": "noun", "text": "favor", "zh": "帮忙;人情", "features": { "ipa": "ˈfeɪvɚ" }, "noteZh": "Can you do me a favor? 能帮我个忙吗?(请人帮忙前先问这一句);美式拼写 favor,英式 favour。" },
+    { "id": "en.trash_can", "kind": "phrase", "pos": "noun", "text": "trash can", "zh": "垃圾桶", "features": { "ipa": "ˈtræʃ ˌkæn" }, "noteZh": "美式说 trash can,英式说 bin;两个 a 都读 /æ/。" }
+  ],
+  "reviewItems": ["en.take_out_the_trash", "en.do_the_dishes", "en.promise", "en.list", "en.full", "en.no_way"],
+  "lines": [
+    { "speaker": "lei", "text": "Ethan, can you do me a favor? Can you take out the trash?", "zh": "伊森,能帮我个忙吗?你能去倒一下垃圾吗?", "items": ["en.can", "en.favor", "en.take_out_the_trash"] },
+    { "speaker": "ethan", "text": "Sure, in a minute.", "zh": "行,等一下。", "items": ["en.sure", "en.in_a_minute"] },
+    { "speaker": "lei", "text": "Ethan! The trash can is full. Can you take it out now?", "zh": "(一个小时以后)伊森!垃圾桶都满了。你现在能拿出去吗?", "items": ["en.trash_can", "en.full", "en.can", "en.take_out_the_trash"] },
+    { "speaker": "ethan", "text": "Sorry, I can't right now. Can you do the dishes?", "zh": "不好意思,我现在走不开。你能洗一下碗吗?", "items": ["en.sorry", "en.cant", "en.right_now", "en.can", "en.do_the_dishes"] },
+    { "speaker": "lei", "text": "No way! It's your turn. I did the dishes yesterday.", "zh": "不行!轮到你了。昨天是我洗的碗。", "items": ["en.no_way", "en.its_your_turn", "en.do_the_dishes", "en.yesterday"] },
+    { "speaker": "ethan", "text": "OK, OK. I'm going to do the dishes later. I promise!", "zh": "好好好。我待会儿就洗。我保证!", "items": ["en.going_to", "en.do_the_dishes", "en.later", "en.promise"] },
+    { "speaker": "lei", "text": "Let's make a chore list on the whiteboard on the fridge.", "zh": "我们在冰箱上的白板上列个家务清单吧。", "items": ["en.lets", "en.make", "en.chore", "en.list", "en.whiteboard", "en.fridge"] },
+    { "speaker": "lei", "text": "Monday, you take out the trash. Tuesday, I do the dishes.", "zh": "周一你倒垃圾,周二我洗碗。", "items": ["en.monday", "en.take_out_the_trash", "en.tuesday", "en.do_the_dishes"] },
+    { "speaker": "ethan", "text": "Deal! And on Friday, it's the inspection.", "zh": "一言为定!周五就查房了。", "items": ["en.deal", "en.friday", "en.inspection"] }
+  ],
+  "questions": [
+    { "prompt": "磊第一次让伊森倒垃圾,伊森怎么回答?", "options": ["马上就去倒了", "说等一下", "说不行"], "answer": 1, "explainZh": "Sure, in a minute.——伊森说\"等一下\",可一个小时以后垃圾还在,垃圾桶都满了。" },
+    { "prompt": "为什么磊说这次该伊森洗碗?", "options": ["磊昨天洗过碗了", "伊森今天没课", "磊今天要上班"], "answer": 0, "explainZh": "It's your turn. I did the dishes yesterday.——昨天是磊洗的,今天轮到伊森。" },
+    { "prompt": "他们把家务分工写在哪儿?", "options": ["手机里", "门上", "冰箱上的白板上"], "answer": 2, "explainZh": "Let's make a chore list on the whiteboard on the fridge.——写在冰箱上的白板上。" }
+  ],
+  "grammar": [
+    { "id": "en.g.requests_can_you", "titleZh": "请人做事:Can you…? 和几种回答",
+      "bodyZh": "请室友、朋友做事最常用 Can you + 动词原形?:Can you take out the trash?;开口前可以先问一句 Can you do me a favor?(能帮我个忙吗?)。回答有几种:答应——Sure. / OK.;等一会儿——In a minute.;不行——Sorry, I can't right now.(最好再说什么时候做:I'm going to do the dishes later.)。\n轮流做的事说 It's your turn.(轮到你了)/ It's my turn.;这里的 turn 是\"轮到的机会\",和 turn left 的\"转弯\"不是一回事。商量好了说 Deal!(一言为定)。",
+      "examples": [
+        { "text": "Can you take out the trash? — Sure, in a minute.", "zh": "你能去倒垃圾吗?——行,等一下。" },
+        { "text": "Sorry, I can't right now.", "zh": "不好意思,我现在不行。" },
+        { "text": "It's your turn. I did the dishes yesterday.", "zh": "轮到你了。昨天是我洗的碗。" }
+      ] },
+    { "id": "en.g.take_it_out", "titleZh": "take out the trash → take it out",
+      "bodyZh": "take out 这样的短语动词,宾语是名词时放中间或后面都行:take out the trash / take the trash out;宾语是代词(it、them)时只能放中间:Take it out.(不说 take out it)——和第 6 单元的 try it on 是同一个规则。\n发音:句首的 Can you 弱读成 /kənjə/,听起来像 \"kən-yə\";take it out 连读成 \"tay-ki-dout\",t 在两个元音之间读得像轻快的 d。",
+      "examples": [
+        { "text": "Can you take the trash out?", "zh": "你能把垃圾拿出去吗?" },
+        { "text": "The trash can is full. Can you take it out now?", "zh": "垃圾桶满了。你现在能拿出去吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

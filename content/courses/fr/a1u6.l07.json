@@ -1,0 +1,52 @@
+{
+  "id": "fr.a1u6.l07", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106070,
+  "titleZh": "你在哪儿?——告诉朋友自己的位置", "goalZh": "会用地点介词说自己在哪儿、问朋友在哪儿,约好碰头的地点,听懂 J'arrive !", "canDoZh": "能用地点介词告诉朋友自己在什么地方,约好碰头的地点",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "fr.arriver", "kind": "word", "pos": "verb", "text": "arriver", "zh": "到;到达", "features": { "ipa": "a.ʁi.ve" }, "noteZh": "规则的 -er 动词:j'arrive, tu arrives, il arrive;J'arrive ! = 我马上到(正在路上),不是“我已经到了”;arriver à + 地点 = 到达某地。" },
+    { "id": "fr.statue", "kind": "word", "pos": "noun", "text": "la statue", "zh": "雕像", "features": { "gender": "f", "ipa": "la sta.ty" }, "noteZh": "阴性,词尾 e 不发音,u 读 [y];Bellecour 广场中间有一座国王骑马的雕像,是里昂人常约的见面地点。" },
+    { "id": "fr.au_milieu_de", "kind": "phrase", "pos": "phrase", "text": "au milieu de", "zh": "在……中间", "features": { "ipa": "o mi.ljø də" }, "noteZh": "au milieu de la place(广场中间);au 是 à + le;milieu 的 ieu 读 [jø]。" },
+    { "id": "fr.de_lautre_cote_de", "kind": "phrase", "pos": "phrase", "text": "de l'autre côté de", "zh": "在……的另一边", "features": { "ipa": "də lotʁ ko.te də" }, "noteZh": "de l'autre côté de la statue(雕像的另一边);autre 读 [otʁ],côté 的 ô 读闭口 [o]。" },
+    { "id": "fr.monde", "kind": "word", "pos": "noun", "text": "le monde", "zh": "世界;人(泛指)", "features": { "gender": "m", "ipa": "lə mɔ̃d" }, "noteZh": "本义是“世界”;Il y a beaucoup de monde !(人好多!)说地方很挤,非常常用;on 读鼻化元音 [ɔ̃]。" },
+    { "id": "fr.coin", "kind": "word", "pos": "noun", "text": "le coin", "zh": "角;拐角", "features": { "gender": "m", "ipa": "lə kwɛ̃" }, "noteZh": "au coin de la rue(在街角)、au coin de la place(在广场的一角);oin 读 [wɛ̃]。" }
+  ],
+  "reviewItems": ["fr.devant", "fr.derriere", "fr.en_face_de", "fr.a_cote_de", "fr.pres"],
+  "lines": [
+    { "speaker": "chloe", "text": "Hao, tu es où ? Je suis place Bellecour.", "zh": "(短信)浩,你在哪儿?我到 Bellecour 广场了。", "items": ["fr.tu", "fr.etre", "fr.ou_lieu", "fr.je", "fr.place"] },
+    { "speaker": "hao", "text": "Moi aussi ! Je suis au coin de la place, devant une pharmacie.", "zh": "(短信)我也到了!我在广场的一角,一家药店前面。", "items": ["fr.moi", "fr.aussi", "fr.je", "fr.etre", "fr.au", "fr.coin", "fr.de", "fr.place", "fr.devant", "fr.une", "fr.pharmacie"] },
+    { "speaker": "chloe", "text": "Une pharmacie ? La place est très grande, Hao !", "zh": "(克洛艾打来电话)一家药店?广场这么大,浩!", "items": ["fr.une", "fr.pharmacie", "fr.place", "fr.etre", "fr.tres", "fr.grand"] },
+    { "speaker": "hao", "text": "Il y a aussi une banque, en face. Et toi, tu es où ?", "zh": "对面还有一家银行。那你在哪儿?", "items": ["fr.il_y_a", "fr.aussi", "fr.une", "fr.banque", "fr.en_face_de", "fr.et_toi", "fr.tu", "fr.etre", "fr.ou_lieu"] },
+    { "speaker": "chloe", "text": "Je suis à côté de la sortie du métro, près de la poste.", "zh": "我在地铁站出口旁边,邮局附近。", "items": ["fr.je", "fr.etre", "fr.a_cote_de", "fr.sortie", "fr.de", "fr.du", "fr.metro", "fr.pres", "fr.poste"] },
+    { "speaker": "hao", "text": "La poste ? C'est loin ! On va au milieu de la place ?", "zh": "邮局?那离我挺远的!我们到广场中间去吧?", "items": ["fr.poste", "fr.cest", "fr.loin", "fr.on", "fr.aller", "fr.au_milieu_de", "fr.place"] },
+    { "speaker": "chloe", "text": "D'accord ! À la statue, au milieu de la place.", "zh": "好!就在广场中间的雕像那儿。", "items": ["fr.d_accord", "fr.a", "fr.statue", "fr.au_milieu_de", "fr.place"] },
+    { "speaker": "hao", "text": "Voilà, je suis devant la statue ! Tu arrives ?", "zh": "(过了一会儿)好了,我到雕像前面了!你快到了吗?", "items": ["fr.voila", "fr.je", "fr.etre", "fr.devant", "fr.statue", "fr.tu", "fr.arriver"] },
+    { "speaker": "chloe", "text": "Oui, j'arrive ! Je suis à deux minutes.", "zh": "嗯,马上到!还有两分钟。", "items": ["fr.oui", "fr.je", "fr.arriver", "fr.etre", "fr.a", "fr.deux", "fr.minute"] },
+    { "speaker": "hao", "text": "Chloé ? Tu es où ? Il y a beaucoup de monde !", "zh": "(五分钟以后)克洛艾?你在哪儿?人太多了!", "items": ["fr.tu", "fr.etre", "fr.ou_lieu", "fr.il_y_a", "fr.beaucoup", "fr.de", "fr.monde"] },
+    { "speaker": "chloe", "text": "Hao ! Je suis de l'autre côté de la statue !", "zh": "浩!我在雕像的另一边呢!", "items": ["fr.je", "fr.etre", "fr.de_lautre_cote_de", "fr.statue"] },
+    { "speaker": "hao", "text": "Chloé ! Moi, je suis devant, et tu es derrière !", "zh": "(两个人终于见到了)克洛艾!原来我在前面,你在后面!", "items": ["fr.moi", "fr.je", "fr.etre", "fr.devant", "fr.et", "fr.tu", "fr.derriere"] }
+  ],
+  "questions": [
+    { "prompt": "浩一开始在哪儿?", "options": ["地铁站出口旁边", "广场一角的一家药店前面", "邮局附近"], "answer": 1, "explainZh": "Je suis au coin de la place, devant une pharmacie.——对面还有一家银行(une banque, en face)。" },
+    { "prompt": "克洛艾一开始在哪儿?", "options": ["地铁站出口旁边,邮局附近", "雕像后面", "药店对面"], "answer": 0, "explainZh": "Je suis à côté de la sortie du métro, près de la poste." },
+    { "prompt": "他们约在哪儿碰头?", "options": ["地铁站出口", "邮局门口", "广场中间的雕像那儿"], "answer": 2, "explainZh": "À la statue, au milieu de la place.——au milieu de = 在……中间。" },
+    { "prompt": "克洛艾说 J'arrive ! 是什么意思?", "options": ["我已经到了", "我马上就到", "我不去了"], "answer": 1, "explainZh": "J'arrive ! 是“我在路上,马上到”;所以浩又等了几分钟。“我到了”要说 Je suis arrivée(第 8 单元)。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.where_are_you", "titleZh": "说自己在哪儿:Je suis devant… / à côté du…",
+      "bodyZh": "问对方在哪儿:Tu es où ?(口语,où 放在句末)。回答用 Je suis + 地点介词 + 地方:devant(前面)、derrière(后面)、en face de(对面)、à côté de(旁边)、près de(附近)、au coin de(在……一角)、au milieu de(在……中间)、de l'autre côté de(在……另一边)。\nde、à 碰到 le 要缩合(第 2 课):à côté du métro(de + le)、au coin de la place(à + le);碰到 la、l' 不变:près de la poste;元音前 de 变 d'。en face 后面不说东西的时候,de 也一起省掉:Il y a une banque, en face.(对面有家银行。)\n说广场的名字时,口语常常不加介词和冠词:Je suis place Bellecour.(我在 Bellecour 广场。)\n先说大的地方,再说小的参照物,对方最容易找到:Je suis place Bellecour, au coin, devant une pharmacie.",
+      "examples": [
+        { "text": "Je suis devant la pharmacie, en face de la banque.", "zh": "我在药店前面,银行对面。" },
+        { "text": "Elle est à côté du métro.", "zh": "她在地铁站旁边。" },
+        { "text": "La statue est au milieu de la place.", "zh": "雕像在广场中间。" }
+      ] },
+    { "id": "fr.g.arriver", "titleZh": "arriver 的变位;J'arrive ! 不是“我到了”",
+      "bodyZh": "arriver(到达)是规则的 -er 动词:j'arrive, tu arrives, il / elle / on arrive, nous arrivons, vous arrivez, ils / elles arrivent。单数和第三人称复数读音一样 [a.ʁiv];元音开头,je 要省音成 j'。\n朋友问 Tu arrives ?(你快到了吗?),回答 J'arrive !(我马上到!)——意思是“我在路上了,马上就到”,不是“我已经到了”;“我到了”要用复合过去时 Je suis arrivé(e)(第 8 单元)。还可以说还要多久:Je suis à deux minutes.(我还有两分钟就到。)\narriver à + 地点 / 钟点:Le train arrive à Lyon à dix heures.(火车十点到里昂。)",
+      "examples": [
+        { "text": "J'arrive ! Je suis à cinq minutes.", "zh": "我马上到!还有五分钟。" },
+        { "text": "Tu arrives à quelle heure ?", "zh": "你几点到?" },
+        { "text": "Le train arrive à Lyon à dix heures.", "zh": "火车十点到里昂。" }
+      ] }
+  ],
+  "review": "draft"
+}

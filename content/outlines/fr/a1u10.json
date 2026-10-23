@@ -1,0 +1,105 @@
+{
+  "lang": "fr",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-10 圣诞节和新年", "cefr": "A1", "themeZh": "从罗马回来讲旅行,在克洛艾家过平安夜、送礼物和回礼,和朋友跨年,一月里吃国王饼、给老师和朋友写新年祝福。语法:重读人称代词 moi / toi / lui / elle / nous / vous / eux / elles、offrir、书信的称呼和结尾、tutoyer / vouvoyer,复习复合过去时;发音:半元音 [j]、[ɥ]、[w] 和 Noël 的 ë" }
+  ],
+  "lessons": [
+    {
+      "id": "fr.a1u10.l01", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-10 圣诞节和新年", "order": 110010,
+      "titleZh": "罗马怎么样?——讲旅行",
+      "goalZh": "会用复合过去时讲几件旅行中做的事,说说地方怎么样、天气怎么样",
+      "canDoZh": "能用复合过去时讲几件旅行中做的事,说出最喜欢的地方和天气",
+      "scenarioZh": "12 月 24 日下午,浩回到里昂的第二天,在卡里姆的咖啡馆见克洛艾:她问罗马怎么样;浩说第一天参观了斗兽场(很大,游客很多),第二天去了梵蒂冈的博物馆,每天都吃冰淇淋,有一天下雨,他下午待在酒店里;他给大家买了纪念品。卡里姆端来两杯热巧克力:Alors, Rome ? C'était bien ?,还说这两杯他请客。",
+      "grammarFocusZh": "复习复合过去时(avoir + 过去分词;aller / rester 用 être);il a plu(pleuvoir 的过去分词 plu);C'était + 形容词;时间词 le premier jour, le deuxième jour, un jour;Alors… ? / Raconte ! 追问别人的经历",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "fr.alors", "kind": "word", "pos": "adv", "text": "alors", "zh": "那么;那(接话、追问)", "features": { "ipa": "a.lɔʁ" }, "noteZh": "口语里常放在句首接话、追问:Alors, Rome ?(那罗马怎么样?);词尾 s 不发音。" },
+        { "id": "fr.raconter", "kind": "word", "pos": "verb", "text": "raconter", "zh": "讲(经过);讲述", "features": { "ipa": "ʁa.kɔ̃.te" }, "noteZh": "-er 规则动词;Raconte !(快讲讲!)是 tu 的命令式;on 读 [ɔ̃]。" },
+        { "id": "fr.pleuvoir", "kind": "word", "pos": "verb", "text": "pleuvoir", "zh": "下雨", "features": { "ipa": "plø.vwaʁ" }, "noteZh": "只用 il:il pleut(在下雨)、il a plu(下过雨)、il va pleuvoir(要下雨);过去分词 plu 要单独记。" },
+        { "id": "fr.enorme", "kind": "word", "pos": "adj", "text": "énorme", "zh": "巨大的;特别大", "features": { "ipa": "e.nɔʁm" }, "noteZh": "阴阳性同形;比 très grand 语气更强:C'est énorme !(好大!)" },
+        { "id": "fr.touriste", "kind": "word", "pos": "noun", "text": "le touriste", "zh": "游客", "features": { "gender": "m", "ipa": "lə tu.ʁist" }, "noteZh": "阴阳同形,女游客是 la touriste;ou 读 [u],st 要读出来。" },
+        { "id": "fr.interessant", "kind": "word", "pos": "adj", "text": "intéressant", "zh": "有意思的(阳性)", "features": { "ipa": "ɛ̃.te.ʁɛ.sɑ̃" }, "noteZh": "开头的 in 读鼻化元音 [ɛ̃],词尾 t 不发音;阴性 intéressante [ɛ̃.te.ʁɛ.sɑ̃t]。" },
+        { "id": "fr.dommage", "kind": "word", "pos": "interj", "text": "Dommage !", "zh": "真可惜!", "features": { "ipa": "dɔ.maʒ" }, "noteZh": "口语里单独用,完整说法是 C'est dommage !;mm 读一个 [m]。" },
+        { "id": "fr.souvenir", "kind": "word", "pos": "noun", "text": "le souvenir", "zh": "纪念品;回忆", "features": { "gender": "m", "ipa": "lə su.və.niʁ" }, "noteZh": "阳性;旅行带回来的小东西叫 un souvenir;也有“回忆”的意思。" }
+      ],
+      "reviewItems": ["fr.visiter", "fr.rester", "fr.cetait", "fr.glace", "fr.chocolat_chaud", "fr.magnifique"]
+    },
+    {
+      "id": "fr.a1u10.l02", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-10 圣诞节和新年", "order": 110020,
+      "titleZh": "平安夜的晚餐——圣诞节的说法",
+      "goalZh": "会说法国圣诞节的食物和习俗,用 Joyeux Noël ! 祝福,知道什么时候改用 tu",
+      "canDoZh": "能说出法国圣诞节的食物和习俗(圣诞树、圣诞老人、礼物、树根蛋糕),用 Joyeux Noël ! 祝福",
+      "scenarioZh": "12 月 24 日晚上,伊莎贝尔请浩到家里过平安夜。一进门,克洛艾带浩看圣诞树和树下的礼物;伊莎贝尔介绍今晚的菜:先吃生蚝,然后是烤火鸡,最后是圣诞树根蛋糕(la bûche de Noël);浩第一次吃生蚝。克洛艾说她爸爸今晚要扮圣诞老人,十五岁的妹妹还“相信”圣诞老人——为了礼物!浩一直对伊莎贝尔用 vous,今晚她笑着问:On se tutoie ?——从这天起浩也对她用 tu。",
+      "grammarFocusZh": "节日词汇的阴阳性:le sapin, le Père Noël, la bûche, les huîtres f., la dinde;Joyeux Noël ! / Bon réveillon !;d'abord / puis / après 介绍上菜的顺序;tutoyer / vouvoyer(什么时候可以改用 tu:一般由长辈或主人先提出);发音:半元音 [j]、[w] 和 Noël 的 ë",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "fr.sapin", "kind": "word", "pos": "noun", "text": "le sapin", "zh": "圣诞树;冷杉", "features": { "gender": "m", "ipa": "lə sa.pɛ̃" }, "noteZh": "阳性;le sapin de Noël 圣诞树;in 读鼻化元音 [ɛ̃]。" },
+        { "id": "fr.joyeux_noel", "kind": "phrase", "pos": "phrase", "text": "Joyeux Noël !", "zh": "圣诞快乐!", "features": { "ipa": "ʒwa.jø nɔ.ɛl" }, "noteZh": "oy 读 [waj]:joyeux [ʒwa.jø];Noël 的 ë 表示 o 和 e 分开读,不读成 [nœl]。" },
+        { "id": "fr.reveillon", "kind": "word", "pos": "noun", "text": "le réveillon", "zh": "(平安夜、除夕夜的)大餐", "features": { "gender": "m", "ipa": "lə ʁe.vɛ.jɔ̃" }, "noteZh": "阳性;12 月 24 日晚上和 12 月 31 日晚上的大餐都叫 le réveillon;ill 读 [j];Bon réveillon !" },
+        { "id": "fr.huitres", "kind": "word", "pos": "noun", "text": "les huîtres", "zh": "生蚝;牡蛎", "features": { "gender": "f", "ipa": "le.zɥitʁ" }, "noteZh": "阴性,常用复数;h 不发音,les‿huîtres 要联诵 [z];uî 读 [ɥi]。" },
+        { "id": "fr.dinde", "kind": "word", "pos": "noun", "text": "la dinde", "zh": "火鸡;火鸡肉", "features": { "gender": "f", "ipa": "la dɛ̃d" }, "noteZh": "阴性;法国的圣诞大餐常有烤火鸡;in 读 [ɛ̃],词尾的 d 要读出来。" },
+        { "id": "fr.buche_de_noel", "kind": "word", "pos": "noun", "text": "la bûche de Noël", "zh": "圣诞树根蛋糕", "features": { "gender": "f", "ipa": "la byʃ də nɔ.ɛl" }, "noteZh": "阴性;做成木柴形状的蛋糕卷,是圣诞节的甜点;û 读 [y]。" },
+        { "id": "fr.pere_noel", "kind": "word", "pos": "noun", "text": "le Père Noël", "zh": "圣诞老人", "features": { "gender": "m", "ipa": "lə pɛʁ nɔ.ɛl" }, "noteZh": "阳性,两个词都大写;faire le Père Noël 扮圣诞老人;croire au Père Noël 相信有圣诞老人。" },
+        { "id": "fr.croire", "kind": "word", "pos": "verb", "text": "croire", "zh": "相信;认为", "features": { "ipa": "kʁwaʁ" }, "noteZh": "不规则:je crois, tu crois, il croit, nous croyons, vous croyez, ils croient;croire à + 东西:croire au Père Noël。" },
+        { "id": "fr.on_se_tutoie", "kind": "phrase", "pos": "phrase", "text": "On se tutoie ?", "zh": "我们用 tu 称呼吧?(改口说“你”)", "features": { "ipa": "ɔ̃ sə ty.twa" }, "noteZh": "tutoyer = 用 tu 称呼,vouvoyer = 用 vous 称呼;一般由长辈、主人或上级先提出改用 tu。" },
+        { "id": "fr.toi", "kind": "word", "pos": "pron", "text": "toi", "zh": "你(重读形式)", "features": { "ipa": "twa" }, "noteZh": "oi 读 [wa];用在介词后(à toi、pour toi)、c'est 后(C'est toi !)或单独用;不能代替主语 tu 放在动词前。" }
+      ],
+      "reviewItems": ["fr.cadeau", "fr.noel", "fr.dabord", "fr.puis", "fr.soeur", "fr.pere"]
+    },
+    {
+      "id": "fr.a1u10.l03", "lang": "fr", "type": "grammar", "cefr": "A1", "unit": "A1-10 圣诞节和新年", "order": 110030,
+      "titleZh": "这是给你的!——重读人称代词",
+      "goalZh": "会用 pour moi / pour toi / pour lui… 送礼物、收礼物,用 Moi aussi / Moi non plus 附和",
+      "canDoZh": "能在送礼物、收礼物时说“这是给你的”“谢谢你”,用 moi / toi 说“我也是”“我也不”",
+      "scenarioZh": "午夜十二点,大家拆礼物:浩送伊莎贝尔一套中国茶具,送克洛艾一本中文漫画;克洛艾送他一顶毛线帽:C'est une surprise !;伊莎贝尔说:Pour moi ? Merci, Hao !;浩还给克洛艾的哥哥和妹妹准备了礼物:C'est pour eux. Le livre, c'est pour elle…;伊莎贝尔说她不喜欢冬天,可是很爱圣诞节,浩说:Moi non plus ! Et moi aussi, j'adore Noël !",
+      "grammarFocusZh": "重读人称代词 moi, toi, lui, elle, nous, vous, eux, elles:放在介词后(pour toi, avec eux, chez elle)、c'est 后(C'est moi)、单独用(Moi aussi. / Moi non plus.);和主语代词 je / tu / il 的区别",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "fr.minuit", "kind": "word", "pos": "propn", "text": "minuit", "zh": "午夜十二点;半夜", "features": { "ipa": "mi.nɥi" }, "noteZh": "前面一般不加冠词:Il est minuit.(现在是半夜十二点)à minuit(在半夜十二点);ui 读 [ɥi],t 不发音。" },
+        { "id": "fr.lui", "kind": "word", "pos": "pron", "text": "lui", "zh": "他(重读形式)", "features": { "ipa": "lɥi" }, "noteZh": "ui 读 [ɥi],一个音节;pour lui(给他)、avec lui(和他一起)、C'est lui !(是他!);“她”的重读形式还是 elle。" },
+        { "id": "fr.eux", "kind": "word", "pos": "pron", "text": "eux", "zh": "他们(重读形式)", "features": { "ipa": "ø" }, "noteZh": "eu 读 [ø],x 不发音;pour eux(给他们);全是女性就用 elles。" },
+        { "id": "fr.moi_non_plus", "kind": "phrase", "pos": "phrase", "text": "Moi non plus.", "zh": "我也不。", "features": { "ipa": "mwa nɔ̃ ply" }, "noteZh": "附和否定句用 non plus,附和肯定句用 aussi:Je n'aime pas l'hiver. — Moi non plus.;这里 plus 的 s 不发音。" },
+        { "id": "fr.service_a_the", "kind": "word", "pos": "noun", "text": "le service à thé", "zh": "(一套)茶具", "features": { "gender": "m", "ipa": "lə sɛʁ.vis a te" }, "noteZh": "阳性;service 在这里是“一套餐具”,à thé = 喝茶用的。" },
+        { "id": "fr.bande_dessinee", "kind": "word", "pos": "noun", "text": "la bande dessinée", "zh": "漫画(书)", "features": { "gender": "f", "ipa": "la bɑ̃d de.si.ne" }, "noteZh": "阴性;口语里常说 la BD [be.de];法国和比利时的漫画很有名。" },
+        { "id": "fr.joli", "kind": "word", "pos": "adj", "text": "joli", "zh": "好看的;漂亮的(阳性)", "features": { "ipa": "ʒɔ.li" }, "noteZh": "阴性 jolie,读音一样;常放在名词前:un joli bonnet。" },
+        { "id": "fr.surprise", "kind": "word", "pos": "noun", "text": "la surprise", "zh": "惊喜;意外", "features": { "gender": "f", "ipa": "la syʁ.pʁiz" }, "noteZh": "阴性;两个元音之间的 s 读 [z];Surprise ! 惊喜!" }
+      ],
+      "reviewItems": ["fr.cadeau", "fr.ouvrir", "fr.bonnet", "fr.toi", "fr.aussi"]
+    },
+    {
+      "id": "fr.a1u10.l04", "lang": "fr", "type": "grammar", "cefr": "A1", "unit": "A1-10 圣诞节和新年", "order": 110040,
+      "titleZh": "送礼物——offrir",
+      "goalZh": "会用 offrir + 东西 + à + 人说送谁什么礼物,用 un cadeau de… 说收到了谁的礼物",
+      "canDoZh": "能说送谁什么礼物、收到了什么礼物",
+      "scenarioZh": "12 月 30 日,卢卡从马赛回来了,在公共厨房碰到浩。卢卡说他送妈妈一瓶香水、送爸爸一块手表,自己收到爸爸送的一双新球鞋,还有奶奶送的袜子;浩说他送伊莎贝尔茶具,克洛艾送他一顶帽子——他马上戴上给卢卡看;浩讲中国平安夜送苹果的习俗。两人约好新年夜和克洛艾一起去富维耶山看城市的灯。",
+      "grammarFocusZh": "offrir 的现在时(变位像 ouvrir):j'offre, tu offres, il offre, nous offrons, vous offrez, ils offrent;offrir + 东西 + à + 人(J'offre une écharpe à ma mère),顺序和中文“送妈妈一条围巾”不同;复合过去时 J'ai offert…(offert 先当词汇记);un cadeau de… / pour…;une paire de + 名词",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "fr.offrir", "kind": "word", "pos": "verb", "text": "offrir", "zh": "送(礼物);赠送", "features": { "ipa": "ɔ.fʁiʁ" }, "noteZh": "变位像 ouvrir:j'offre, tu offres, il offre, nous offrons, vous offrez, ils offrent;过去分词 offert:J'ai offert…" },
+        { "id": "fr.parfum", "kind": "word", "pos": "noun", "text": "le parfum", "zh": "香水", "features": { "gender": "m", "ipa": "lə paʁ.fœ̃" }, "noteZh": "阳性;um 读鼻化元音 [œ̃],很多法国人读得和 [ɛ̃] 一样;也指冰淇淋的口味。" },
+        { "id": "fr.montre", "kind": "word", "pos": "noun", "text": "la montre", "zh": "手表", "features": { "gender": "f", "ipa": "la mɔ̃tʁ" }, "noteZh": "阴性;on 读鼻化元音 [ɔ̃],词尾的 tre 读 [tʁ]。" },
+        { "id": "fr.paire", "kind": "word", "pos": "noun", "text": "la paire", "zh": "一双;一副", "features": { "gender": "f", "ipa": "la pɛʁ" }, "noteZh": "une paire de + 名词:une paire de chaussures(一双鞋)、une paire de gants(一副手套),de 后面不加冠词。" },
+        { "id": "fr.chaussettes", "kind": "word", "pos": "noun", "text": "les chaussettes", "zh": "袜子", "features": { "gender": "f", "ipa": "le ʃo.sɛt" }, "noteZh": "阴性,常用复数;别和 la chaussure(鞋)混:chaussette 是袜子;au 读 [o]。" },
+        { "id": "fr.remercier", "kind": "word", "pos": "verb", "text": "remercier", "zh": "感谢;道谢", "features": { "ipa": "ʁə.mɛʁ.sje" }, "noteZh": "-er 规则动词;remercier + 人:Tu as remercié Chloé ?,后面直接跟人,不加 à。" },
+        { "id": "fr.tradition", "kind": "word", "pos": "noun", "text": "la tradition", "zh": "传统;习俗", "features": { "gender": "f", "ipa": "la tʁa.di.sjɔ̃" }, "noteZh": "-tion 结尾,阴性,读 [sjɔ̃];C'est la tradition ! 这是传统!" },
+        { "id": "fr.lumiere", "kind": "word", "pos": "noun", "text": "la lumière", "zh": "灯光;光", "features": { "gender": "f", "ipa": "la ly.mjɛʁ" }, "noteZh": "阴性;u 读 [y],iè 读 [jɛ];la fête des Lumières 里昂的灯光节(12 月 8 日)。" }
+      ],
+      "reviewItems": ["fr.rentrer", "fr.cadeau", "fr.bonnet", "fr.pomme", "fr.minuit", "fr.service_a_the"]
+    },
+    {
+      "id": "fr.a1u10.r01", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-10 圣诞节和新年", "order": 110045,
+      "titleZh": "法国人怎么过圣诞节(杂志短文)",
+      "goalZh": "会读一篇介绍节日习俗的短文,找出时间、吃什么、做什么",
+      "canDoZh": "能读懂一篇介绍节日习俗的短文,说出法国圣诞节和中国春节有什么相同和不同",
+      "scenarioZh": "体裁:学法语杂志上的文化短文,约 12 句,旁白朗读。在法国,12 月 24 日晚上全家人一起吃大餐(le réveillon):生蚝、火鸡和树根蛋糕;客厅里有圣诞树,孩子们 25 日早上在圣诞树下拆礼物;很多城市有圣诞市集;里昂 12 月 8 日还有灯光节,家家户户在窗台上点蜡烛。文章最后问读者:在你的国家,冬天最大的节日是哪一个?",
+      "grammarFocusZh": "复习现在时、on 的用法(On mange…, On met…)、日期;文化词 le marché de Noël, la fête des Lumières;ce soir-là(那天晚上)",
+      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "fr.enfant", "kind": "word", "pos": "noun", "text": "l'enfant", "zh": "孩子;儿童", "features": { "gender": "m", "ipa": "lɑ̃.fɑ̃" }, "noteZh": "元音开头,这里按阳性记(说女孩也可以用 une enfant);两个 en 都读 [ɑ̃];les‿enfants 要联诵 [z]。" },
+        { "id": "fr.bougie", "kind": "word", "pos": "noun", "text": "la bougie", "zh": "蜡烛", "features": { "gender": "f", "ipa": "la bu.ʒi" }, "noteZh": "阴性;ou 读 [u],g 在 i 前读 [ʒ];灯光节的晚上,里昂人在窗台上点蜡烛。" }
+      ],
+      "reviewItems": ["fr.reveillon", "fr.sapin", "fr.huitres", "fr.lumiere", "fr.mettre"]
+    }
+  ]
+}

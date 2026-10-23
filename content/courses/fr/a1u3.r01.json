@@ -1,0 +1,43 @@
+{
+  "id": "fr.a1u3.r01", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 家人与朋友", "order": 103045,
+  "titleZh": "浩的大家庭(家谱)", "goalZh": "读懂一段介绍大家庭的文字,认识 oncle、tante、cousin、cousine",
+  "canDoZh": "能读懂一段介绍大家庭的文字,说出每个亲戚是谁、几岁、住在哪儿、做什么工作",
+  "skills": ["read", "write"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "fr.oncle", "kind": "word", "pos": "noun", "text": "l'oncle", "zh": "叔叔;伯伯;舅舅(父母的兄弟)", "features": { "gender": "m", "ipa": "lɔ̃kl" }, "noteZh": "元音开头,要记住是阳性;中文分叔叔、伯伯、舅舅、姑父、姨父,法语都叫 oncle。mon oncle 要联诵:[mɔ̃.nɔ̃kl]。" },
+    { "id": "fr.tante", "kind": "word", "pos": "noun", "text": "la tante", "zh": "姑姑;姨妈;婶婶;舅妈", "features": { "gender": "f", "ipa": "la tɑ̃t" }, "noteZh": "阴性;父母的姐妹、叔叔舅舅的妻子都叫 tante;词尾 te 读 [t]。" },
+    { "id": "fr.cousin", "kind": "word", "pos": "noun", "text": "le cousin", "zh": "堂兄弟;表兄弟", "features": { "gender": "m", "ipa": "lə ku.zɛ̃" }, "noteZh": "法语不分堂、表,也不分比自己大还是小;两个元音之间的 s 读 [z]。" },
+    { "id": "fr.cousine", "kind": "word", "pos": "noun", "text": "la cousine", "zh": "堂姐妹;表姐妹", "features": { "gender": "f", "ipa": "la ku.zin" }, "noteZh": "cousin 的阴性:加 e 以后鼻化音消失,读 [ku.zin],n 要读出来。" }
+  ],
+  "reviewItems": ["fr.grand_pere", "fr.grand_mere", "fr.a_la_retraite", "fr.ingenieur", "fr.medecin", "fr.habiter"],
+  "lines": [
+    { "speaker": "hao", "text": "Voilà mon grand-père et ma grand-mère.", "zh": "(浩给语伴网站做了一张家谱,图下面写着说明)这是我爷爷和奶奶。", "items": ["fr.voila", "fr.mon", "fr.grand_pere", "fr.et", "fr.ma", "fr.grand_mere"] },
+    { "speaker": "hao", "text": "Ils sont à la retraite et ils habitent à Chengdu.", "zh": "他们退休了,住在成都。", "items": ["fr.ils", "fr.etre", "fr.a_la_retraite", "fr.et", "fr.habiter", "fr.a"] },
+    { "speaker": "hao", "text": "Mon père a cinquante ans. Il est ingénieur.", "zh": "我爸爸五十岁,是工程师。", "items": ["fr.mon", "fr.pere", "fr.avoir", "fr.cinquante", "fr.an", "fr.il", "fr.etre", "fr.ingenieur"] },
+    { "speaker": "hao", "text": "Ma mère a quarante-huit ans. Elle est médecin.", "zh": "我妈妈四十八岁,是医生。", "items": ["fr.ma", "fr.mere", "fr.avoir", "fr.quarante", "fr.huit", "fr.an", "fr.elle", "fr.etre", "fr.medecin"] },
+    { "speaker": "hao", "text": "Ma mère a un frère et une sœur.", "zh": "我妈妈有一个哥哥(或弟弟)和一个姐姐(或妹妹)。", "items": ["fr.ma", "fr.mere", "fr.avoir", "fr.un", "fr.frere", "fr.et", "fr.une", "fr.soeur"] },
+    { "speaker": "hao", "text": "Mon oncle est professeur à Chengdu.", "zh": "我舅舅在成都当老师。", "items": ["fr.mon", "fr.oncle", "fr.etre", "fr.professeur", "fr.a"] },
+    { "speaker": "hao", "text": "Mon cousin a seize ans. Il habite à Chengdu aussi.", "zh": "我表弟十六岁(舅舅的儿子,在上高中),也住在成都。", "items": ["fr.mon", "fr.cousin", "fr.avoir", "fr.seize", "fr.an", "fr.il", "fr.habiter", "fr.a", "fr.aussi"] },
+    { "speaker": "hao", "text": "Ma tante habite à Shanghai : elle travaille beaucoup !", "zh": "我姨妈住在上海,工作很忙!", "items": ["fr.ma", "fr.tante", "fr.habiter", "fr.a", "fr.elle", "fr.travailler", "fr.beaucoup"] },
+    { "speaker": "hao", "text": "Ma cousine a vingt-deux ans. Elle est étudiante à Shanghai.", "zh": "我表姐(姨妈的女儿)二十二岁,在上海读大学。", "items": ["fr.ma", "fr.cousine", "fr.avoir", "fr.vingt", "fr.deux", "fr.an", "fr.elle", "fr.etre", "fr.etudiant", "fr.a"] },
+    { "speaker": "hao", "text": "Et moi ? J'ai vingt ans, et j'habite à Lyon !", "zh": "我呢?我二十岁,住在里昂!", "items": ["fr.et", "fr.moi", "fr.je", "fr.avoir", "fr.vingt", "fr.an", "fr.habiter", "fr.a"] }
+  ],
+  "questions": [
+    { "prompt": "浩的舅舅(mon oncle)是做什么的?", "options": ["医生", "老师", "工程师"], "answer": 1, "explainZh": "Mon oncle est professeur à Chengdu.(我舅舅在成都当老师。)这里的 oncle 是妈妈的兄弟,中文叫舅舅。" },
+    { "prompt": "浩的表弟几岁?住在哪儿?", "options": ["二十二岁,住在上海", "二十岁,住在里昂", "十六岁,住在成都"], "answer": 2, "explainZh": "Mon cousin a seize ans. Il habite à Chengdu aussi.(我表弟十六岁,也住在成都。)二十二岁、住在上海的是表姐 ma cousine。" },
+    { "prompt": "家谱里的 ma tante 是谁?", "options": ["妈妈的姐妹(姨妈)", "爸爸的妈妈(奶奶)", "浩的姐姐"], "answer": 0, "explainZh": "Ma mère a un frère et une sœur.——妈妈的姐妹就是 ma tante(姨妈);奶奶是 ma grand-mère。" },
+    { "prompt": "浩的爷爷奶奶现在怎么样?", "options": ["在医院工作", "退休了,住在成都", "住在上海"], "answer": 1, "explainZh": "Ils sont à la retraite et ils habitent à Chengdu.(他们退休了,住在成都。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.parente", "titleZh": "亲戚的叫法:法语不分父系母系",
+      "bodyZh": "中文的亲戚称呼分得很细,法语简单得多:\n- l'oncle:叔叔、伯伯、舅舅、姑父、姨父都叫 oncle;la tante:姑姑、姨妈、婶婶、舅妈都叫 tante。\n- le cousin / la cousine:堂兄弟、表兄弟都叫 cousin,堂姐妹、表姐妹都叫 cousine,也不分比自己大还是小。想说清楚是哪一边的亲戚,就多说一句:Ma mère a un frère et une sœur.\n- 阴阳性:l'oncle 元音开头,冠词省成 l',要记住是阳性;cousin [ku.zɛ̃] 加 e 变成 cousine [ku.zin],鼻化音消失,n 要读出来。元音开头的名词前,mon 要联诵:mon oncle [mɔ̃.nɔ̃kl]。\n复习:年龄用 avoir … ans(Mon cousin a seize ans),说职业不加冠词(Mon oncle est professeur)。",
+      "examples": [
+        { "text": "Mon oncle est professeur.", "zh": "我舅舅是老师。" },
+        { "text": "Ma tante habite à Shanghai.", "zh": "我姨妈住在上海。" },
+        { "text": "Mon cousin a seize ans.", "zh": "我表弟十六岁。" },
+        { "text": "Ma cousine est étudiante.", "zh": "我表姐是大学生。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "fr.a1u4.l06", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 我的住处", "order": 104060,
+  "titleZh": "台灯不亮了——找管理员报修", "goalZh": "会向宿舍管理员报修:说清房间号、楼层和什么东西坏了",
+  "canDoZh": "能向宿舍管理员说房间里什么东西坏了、不能用,并说清房间号和楼层",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "fr.probleme", "kind": "word", "pos": "noun", "text": "le problème", "zh": "问题;毛病", "features": { "gender": "m", "ipa": "lə pʁɔ.blɛm" }, "noteZh": "以 -e 结尾,却是阳性:un problème;è 读开口的 [ɛ]。报修开口第一句:Il y a un problème.(这里指“麻烦、毛病”;提问的“问题”是 la question)" },
+    { "id": "fr.marcher", "kind": "word", "pos": "verb", "text": "marcher", "zh": "(机器、东西)好使;运转;走路", "features": { "ipa": "maʁ.ʃe" }, "noteZh": "本义是“走路”,口语里也指东西能用:La lampe marche.;坏了:… ne marche pas。" },
+    { "id": "fr.ca_ne_marche_pas", "kind": "phrase", "pos": "phrase", "text": "Ça ne marche pas.", "zh": "坏了;不好使", "features": { "ipa": "sa nə maʁʃ pa" }, "noteZh": "东西坏了、不能用时整句说;口语里 ne 常省掉:Ça marche pas。" },
+    { "id": "fr.chauffage", "kind": "word", "pos": "noun", "text": "le chauffage", "zh": "暖气;供暖", "features": { "gender": "m", "ipa": "lə ʃo.faʒ" }, "noteZh": "阳性(-age 结尾);au 读 [o],ff 读 [f],ge 读 [ʒ]。" },
+    { "id": "fr.brancher", "kind": "word", "pos": "verb", "text": "brancher", "zh": "插上(电源);接通", "features": { "ipa": "bʁɑ̃.ʃe" }, "noteZh": "规则的 -er 动词;没插电:La lampe n'est pas branchée.(branchée 跟着阴性的 lampe 加 e)" },
+    { "id": "fr.reparer", "kind": "word", "pos": "verb", "text": "réparer", "zh": "修理;修好", "features": { "ipa": "ʁe.pa.ʁe" }, "noteZh": "规则的 -er 动词;两个 r 都是小舌音,舌尖抵住下齿。" },
+    { "id": "fr.telephoner", "kind": "word", "pos": "verb", "text": "téléphoner", "zh": "打电话", "features": { "ipa": "te.le.fɔ.ne" }, "noteZh": "téléphoner à + 人:Je téléphone au technicien(au = à + le);ph 读 [f]。" },
+    { "id": "fr.technicien", "kind": "word", "pos": "noun", "text": "le technicien", "zh": "技术员;维修工", "features": { "gender": "m", "ipa": "lə tɛk.ni.sjɛ̃" }, "noteZh": "阳性;ch 读 [k],-cien 读 [sjɛ̃];女技术员是 la technicienne。" }
+  ],
+  "reviewItems": ["fr.il_y_a", "fr.premier", "fr.etage", "fr.lampe", "fr.ne_pas", "fr.chambre"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonsoir, monsieur. Il y a un problème dans la chambre huit.", "zh": "(晚上,浩房间的台灯不亮了,暖气也不热。他到前台找宿舍管理员)晚上好,先生。八号房出了点问题。", "items": ["fr.bonsoir", "fr.monsieur", "fr.il_y_a", "fr.un", "fr.probleme", "fr.dans", "fr.chambre", "fr.huit"] },
+    { "speaker": "gardien", "text": "Bonsoir. La chambre huit, au premier étage ?", "zh": "晚上好。八号房,在 premier étage(中国说的二楼)?", "items": ["fr.bonsoir", "fr.chambre", "fr.huit", "fr.a", "fr.premier", "fr.etage"] },
+    { "speaker": "hao", "text": "Oui. La lampe ne marche pas.", "zh": "对。台灯不亮了。", "items": ["fr.oui", "fr.lampe", "fr.ne_pas", "fr.marcher"] },
+    { "speaker": "hao", "text": "Et le chauffage aussi : ça ne marche pas.", "zh": "暖气也是,不热了。", "items": ["fr.et", "fr.chauffage", "fr.aussi", "fr.ca_ne_marche_pas"] },
+    { "speaker": "gardien", "text": "Chambre huit : la lampe et le chauffage. Très bien.", "zh": "(管理员一边说一边记下来)八号房:台灯和暖气。好的。", "items": ["fr.chambre", "fr.huit", "fr.lampe", "fr.et", "fr.chauffage", "fr.tres", "fr.bien"] },
+    { "speaker": "gardien", "text": "Ah ! La lampe n'est pas branchée !", "zh": "(两人一起上楼,进了八号房)啊!台灯没插电!", "items": ["fr.lampe", "fr.ne_pas", "fr.etre", "fr.brancher"] },
+    { "speaker": "hao", "text": "Oh… Merci, monsieur !", "zh": "(浩不好意思地笑了)哦……谢谢您!", "items": ["fr.merci", "fr.monsieur"] },
+    { "speaker": "gardien", "text": "Voilà : la lampe marche !", "zh": "好了,台灯亮了!", "items": ["fr.voila", "fr.lampe", "fr.marcher"] },
+    { "speaker": "hao", "text": "Et le chauffage ? Vous réparez le chauffage, s'il vous plaît ?", "zh": "那暖气呢?您能修一下暖气吗?", "items": ["fr.et", "fr.chauffage", "fr.vous", "fr.reparer", "fr.sil_vous_plait"] },
+    { "speaker": "gardien", "text": "Moi, non : je téléphone au technicien.", "zh": "我修不了,我给技术员打电话。", "items": ["fr.moi", "fr.non", "fr.je", "fr.telephoner", "fr.a", "fr.technicien"] },
+    { "speaker": "hao", "text": "Merci beaucoup, monsieur. Bonsoir !", "zh": "太感谢您了。再见!", "items": ["fr.merci", "fr.beaucoup", "fr.monsieur", "fr.bonsoir"] }
+  ],
+  "questions": [
+    { "prompt": "浩的房间里什么东西有问题?", "options": ["台灯和暖气", "电脑和台灯", "窗户和暖气"], "answer": 0, "explainZh": "La lampe ne marche pas. Et le chauffage aussi.——管理员也记下来:Chambre huit : la lampe et le chauffage." },
+    { "prompt": "台灯为什么不亮?", "options": ["灯泡坏了", "没插电", "管理员把电关了"], "answer": 1, "explainZh": "管理员一看就说:La lampe n'est pas branchée !(台灯没插电!)插上以后:Voilà : la lampe marche !" },
+    { "prompt": "暖气怎么办?", "options": ["管理员自己修", "浩自己修", "管理员给技术员打电话"], "answer": 2, "explainZh": "Moi, non : je téléphone au technicien.(我修不了,我给技术员打电话。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.marcher", "titleZh": "东西坏了:… ne marche pas",
+      "bodyZh": "说东西坏了、不好使,最常用 marcher(本义“走路”):La lampe ne marche pas.(台灯不亮了。)Le chauffage ne marche pas.(暖气坏了。)指着东西说,或者对方已经知道是什么,就用整句 Ça ne marche pas.。修好了说 La lampe marche !(台灯亮了!)\n否定复习:ne 和 pas 夹住变位的动词:ne marche pas;元音前 ne 变成 n':La lampe n'est pas branchée.(台灯没插电。)branchée 是从 brancher 来的形容词,跟着阴性的 lampe 加 e。\n中文都说“坏了”;法语里机器、电器不工作,用 ne marche pas 最自然,cassé(坏了、碎了)多指东西摔坏、打碎。",
+      "examples": [
+        { "text": "La lampe ne marche pas.", "zh": "台灯不亮了。" },
+        { "text": "Le chauffage ne marche pas.", "zh": "暖气坏了。" },
+        { "text": "Voilà : la lampe marche !", "zh": "好了,台灯亮了!" }
+      ] },
+    { "id": "fr.g.signaler", "titleZh": "报修分三步;对管理员用 vous",
+      "bodyZh": "找管理员、前台报修,按三步说:\n1. 打招呼,说有问题:Bonsoir, monsieur. Il y a un problème.\n2. 说在哪儿:dans la chambre huit, au premier étage(房间号 + 楼层)。\n3. 说什么坏了:La lampe ne marche pas. Le chauffage aussi.\n请对方帮忙时用 vous,再加上 s'il vous plaît:Vous réparez le chauffage, s'il vous plaît ?(更客气的 Vous pouvez… ? 第 7 单元学。)最后别忘了说 Merci beaucoup, monsieur.。",
+      "examples": [
+        { "text": "Il y a un problème dans la chambre huit.", "zh": "八号房出了点问题。" },
+        { "text": "Vous réparez le chauffage, s'il vous plaît ?", "zh": "您能修一下暖气吗?" },
+        { "text": "Merci beaucoup, monsieur.", "zh": "太感谢您了,先生。" }
+      ] }
+  ],
+  "review": "draft"
+}

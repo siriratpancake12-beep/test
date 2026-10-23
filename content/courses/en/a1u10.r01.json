@@ -1,7 +1,7 @@
 {
   "id": "en.a1u10.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
   "unit": "A1-10 Happy holidays", "order": 110045,
-  "titleZh": "美国节日日历", "goalZh": "会看节日日历上的日期,读懂'某月的第几个星期几'", "canDoZh": "能看懂一张节日日历,说出每个节日的日期,读懂'十一月的第四个星期四'这类说法",
+  "titleZh": "美国节日日历", "goalZh": "会看节日日历上的日期,读懂“某月的第几个星期几”", "canDoZh": "能看懂一张节日日历,说出每个节日的日期,读懂“十一月的第四个星期四”这类说法",
   "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
   "newItems": [
     { "id": "en.new_years_day", "kind": "phrase", "pos": "propn", "text": "New Year's Day", "zh": "元旦(1 月 1 日)", "features": { "ipa": "ˌnuː jɪrz ˈdeɪ" }, "noteZh": "New Year's 里的 's 不能漏;美国这天放假。" },
@@ -25,7 +25,7 @@
     { "speaker": "narrator", "text": "Happy holidays, and see you at our parties!", "zh": "节日快乐,派对上见!", "items": ["en.happy", "en.holiday", "en.see", "en.party"] }
   ],
   "questions": [
-    { "prompt": "2026 年的感恩节是哪一天?", "options": ["11 月 4 日", "11 月 26 日,十一月的第四个星期四", "11 月的最后一个星期五"], "answer": 1, "explainZh": "Thanksgiving is the fourth Thursday in November. In 2026, that's November 26th." },
+    { "prompt": "2026 年的感恩节是哪一天?", "options": ["11 月 26 日,十一月的第四个星期四", "11 月 4 日", "11 月的最后一个星期五"], "answer": 0, "explainZh": "Thanksgiving is the fourth Thursday in November. In 2026, that's November 26th." },
     { "prompt": "2026 年的春节是几月几号?", "options": ["1 月 19 日", "2 月 14 日", "2 月 17 日"], "answer": 2, "explainZh": "February 17th: Chinese New Year.(1 月 19 日是马丁·路德·金纪念日,2 月 14 日是情人节。)" },
     { "prompt": "美国国庆日晚上有什么?", "options": ["放烟花", "化装派对", "吃火鸡"], "answer": 0, "explainZh": "July 4th: Independence Day. There are fireworks at night!(化装是万圣节,吃火鸡是感恩节。)" },
     { "prompt": "圣诞节那天学校是什么情况?", "options": ["要上课", "在寒假里", "只上半天课"], "answer": 1, "explainZh": "December 25th: Christmas. It's in winter break.(那天在寒假里。)" }

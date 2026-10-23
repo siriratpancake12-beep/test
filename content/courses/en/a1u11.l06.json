@@ -1,0 +1,56 @@
+{
+  "id": "en.a1u11.l06", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111060,
+  "titleZh": "在飞机上", "goalZh": "会用 Would you like…? / I'd like… 礼貌地问和要,用 Can I…? 问能不能做某事", "canDoZh": "能在飞机上听懂空乘的询问,礼貌地点饮料、要东西,问可不可以做某事",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.flight_attendant", "kind": "phrase", "pos": "noun", "text": "flight attendant", "zh": "空乘;空服员", "features": { "ipa": "ˈflaɪt əˌtendənt" }, "noteZh": "不分男女都这么叫;重音在 FLIGHT 上。" },
+    { "id": "en.would_you_like", "kind": "phrase", "pos": "phrase", "text": "Would you like", "zh": "你想要……吗?(礼貌)", "features": { "ipa": "ˈwʊdʒə ˈlaɪk" }, "noteZh": "比 Do you want…? 客气,服务员、空乘常这么问;回答 Yes, please. / No, thank you.;Would you 连读成 /ˈwʊdʒə/。" },
+    { "id": "en.id_like", "kind": "phrase", "pos": "phrase", "text": "I'd like", "zh": "我想要……(礼貌)", "features": { "ipa": "aɪd ˈlaɪk" }, "noteZh": "I'd = I would;I'd like some water, please.;后面接动词时要加 to:I'd like to…(第 6 单元)。" },
+    { "id": "en.thirsty", "kind": "word", "pos": "adj", "text": "thirsty", "zh": "渴的", "features": { "ipa": "ˈθɝːsti" }, "noteZh": "th 是清音 /θ/,舌尖轻咬;ir 读 /ɝː/,要卷舌;别和 thirty(三十)搞混。" },
+    { "id": "en.orange", "kind": "word", "pos": "noun", "text": "orange", "zh": "橙子;橙色", "features": { "ipa": "ˈɔːrɪndʒ" }, "noteZh": "orange juice(橙汁);结尾 ge 读 /dʒ/;以元音开头,说 an orange。" },
+    { "id": "en.blanket", "kind": "word", "pos": "noun", "text": "blanket", "zh": "毯子", "features": { "ipa": "ˈblæŋkɪt" }, "noteZh": "bl 连读,an 读 /æŋ/;a blanket(一条毯子)。" },
+    { "id": "en.chips", "kind": "word", "pos": "noun", "text": "chips", "zh": "薯片", "features": { "ipa": "tʃɪps" }, "noteZh": "美式 chips 是薯片,英式 chips 是薯条(美式叫 fries,第 4 单元学过);ch 读 /tʃ/。" },
+    { "id": "en.some_more", "kind": "phrase", "pos": "phrase", "text": "some more", "zh": "再来一些;再多一点", "features": { "ipa": "səm ˈmɔːr" }, "noteZh": "Would you like some more water?(要再来点水吗?)some 弱读成 /səm/,more 美式卷舌。" }
+  ],
+  "reviewItems": ["en.juice", "en.snack", "en.cookie", "en.get_up", "en.restroom", "en.seatbelt"],
+  "lines": [
+    { "speaker": "sofia", "text": "Lei, look! The flight attendant is coming.", "zh": "(飞机起飞后)磊,你看!空乘推着车过来了。", "items": ["en.look", "en.flight_attendant", "en.come"] },
+    { "speaker": "staff", "text": "Hi! Would you like something to drink?", "zh": "你们好!想喝点什么吗?", "items": ["en.hi", "en.would_you_like", "en.drink"] },
+    { "speaker": "lei", "text": "Yes, please. I'd like some water. I'm thirsty.", "zh": "好的,谢谢。我要一杯水。我渴了。", "items": ["en.id_like", "en.water", "en.thirsty"] },
+    { "speaker": "sofia", "text": "Water? Lei, really? I'd like orange juice and a blanket, please.", "zh": "还喝水?磊,真的吗?我要一杯橙汁和一条毯子,谢谢。", "items": ["en.water", "en.really", "en.id_like", "en.orange", "en.juice", "en.blanket"] },
+    { "speaker": "staff", "text": "Sure. Would you like a snack? We have cookies or chips.", "zh": "好的。要来点零食吗?有饼干,也有薯片。", "items": ["en.sure", "en.would_you_like", "en.snack", "en.have", "en.cookie", "en.chips"] },
+    { "speaker": "lei", "text": "Chips, please! And can I get up now?", "zh": "薯片,谢谢!还有,我现在能起来吗?", "items": ["en.chips", "en.can", "en.get_up"] },
+    { "speaker": "staff", "text": "Sorry, not right now. Please wear your seatbelt.", "zh": "抱歉,现在还不行。请系好安全带。", "items": ["en.sorry", "en.right_now", "en.wear", "en.seatbelt"] },
+    { "speaker": "lei", "text": "OK... Sofia, I really need the restroom!", "zh": "好吧……索菲亚,我真的很想去洗手间!", "items": ["en.really", "en.need", "en.restroom"] },
+    { "speaker": "staff", "text": "OK, you can get up now. Would you like some more water?", "zh": "(二十分钟后)好了,现在可以起身了。还要再来点水吗?", "items": ["en.can", "en.get_up", "en.would_you_like", "en.some_more", "en.water"] },
+    { "speaker": "lei", "text": "No, thank you!", "zh": "不用了,谢谢!", "items": ["en.thank_you"] }
+  ],
+  "questions": [
+    { "prompt": "磊要了什么喝的?", "options": ["橙汁", "咖啡", "水"], "answer": 2, "explainZh": "I'd like some water. I'm thirsty.(橙汁是索菲亚要的。)" },
+    { "prompt": "磊想起身去洗手间,空乘一开始怎么说?", "options": ["现在不行,请系好安全带", "可以,洗手间在后面", "请等飞机落地"], "answer": 0, "explainZh": "Sorry, not right now. Please wear your seatbelt.(过了一会儿才可以起身。)" },
+    { "prompt": "空乘最后问磊还要不要水,磊怎么回答?", "options": ["再来一杯", "不用了,谢谢", "要一杯咖啡"], "answer": 1, "explainZh": "Would you like some more water? —— No, thank you!(他正急着去洗手间呢。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.would_you_like",
+      "titleZh": "Would you like…? / I'd like…:礼貌地问和要",
+      "bodyZh": "Would you like…?(您要……吗?)是礼貌地问对方要不要某样东西,比 Do you want…? 客气,空乘、服务员常这么问。回答:Yes, please. / No, thank you.。说自己想要什么,礼貌的说法是 I'd like + 名词(I'd = I would):I'd like some water, please.;第 6 单元学过 I'd like to + 动词(I'd like to return this.)。问要不要再来一些:Would you like some more water?。发音:Would you 连读成 /ˈwʊdʒə/,d 和 y 合成 /dʒ/;would 的 l 不发音。",
+      "examples": [
+        { "text": "Would you like something to drink? — Yes, please.", "zh": "想喝点什么吗?——好的,谢谢。" },
+        { "text": "I'd like orange juice, please.", "zh": "我要一杯橙汁,谢谢。" },
+        { "text": "Would you like some more water? — No, thank you.", "zh": "还要再来点水吗?——不用了,谢谢。" }
+      ]
+    },
+    {
+      "id": "en.g.can_i_permission",
+      "titleZh": "Can I…?:问能不能做某事",
+      "bodyZh": "问自己能不能做某事,用 Can I…?:Can I get up now?(我现在能起来吗?)。回答:Sure. / Sorry, not right now.。这里的 can 表示“允许”,和上一课 You can't have water after security. 是同一个意思。要东西时也常说 Can I get…?(第 4 单元学过),比 I want… 礼貌得多。",
+      "examples": [
+        { "text": "Can I get up now? — Sorry, not right now.", "zh": "我现在能起来吗?——抱歉,现在不行。" },
+        { "text": "Can I get a blanket? — Sure.", "zh": "能给我一条毯子吗?——当然。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

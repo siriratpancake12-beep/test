@@ -1,0 +1,53 @@
+{
+  "id": "fr.a1u9.l01", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109010,
+  "titleZh": "买去罗马的火车票——在都灵换车", "goalZh": "会在火车站窗口买国际往返票,听懂换车、发车时间和百位数的票价", "canDoZh": "能在火车站窗口买一张国际往返火车票,说清日期和座位,听懂换乘、发车时间和票价",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "fr.direct", "kind": "word", "pos": "adj", "text": "direct", "zh": "直达的;直接的(阳性)", "features": { "ipa": "di.ʁɛkt" }, "noteZh": "词尾的 ct 要读出来 [kt];un train direct 直达车;阴性 directe 读音一样。" },
+    { "id": "fr.deuxieme", "kind": "word", "pos": "adj", "text": "deuxième", "zh": "第二的", "features": { "ipa": "dø.zjɛm" }, "noteZh": "序数词 = 数字 + -ième:deux → deuxième(x 读 [z]),trois → troisième;“第一”是特殊的 premier / première。" },
+    { "id": "fr.classe", "kind": "word", "pos": "noun", "text": "la classe", "zh": "(座位的)等;班级", "features": { "gender": "f", "ipa": "la klas" }, "noteZh": "en première classe 一等座,en deuxième classe 二等座;也指班级(la classe de français)。词尾 e 不发音,读 [klas]。" },
+    { "id": "fr.reserver", "kind": "word", "pos": "verb", "text": "réserver", "zh": "预订;订(座位、房间)", "features": { "ipa": "ʁe.zɛʁ.ve" }, "noteZh": "两个元音之间的 s 读 [z];-er 规则动词;réserver une place 订座位。" },
+    { "id": "fr.obligatoire", "kind": "word", "pos": "adj", "text": "obligatoire", "zh": "必须的;规定要做的", "features": { "ipa": "ɔ.bli.ga.twaʁ" }, "noteZh": "阴阳性同形;oi 读 [wa];C'est obligatoire. 这是必须的。" },
+    { "id": "fr.retour", "kind": "word", "pos": "noun", "text": "le retour", "zh": "返程;回来", "features": { "gender": "m", "ipa": "lə ʁə.tuʁ" }, "noteZh": "l'aller-retour 是往返票,le retour 单说回程;ou 读 [u],两个 r 都是小舌音。" },
+    { "id": "fr.vers", "kind": "word", "pos": "prep", "text": "vers", "zh": "(时间)……左右;朝……", "features": { "ipa": "vɛʁ" }, "noteZh": "vers dix-sept heures = 17 点左右;词尾 s 不发音。" },
+    { "id": "fr.depart", "kind": "word", "pos": "noun", "text": "le départ", "zh": "出发;发车", "features": { "gender": "m", "ipa": "lə de.paʁ" }, "noteZh": "和 partir(出发)是一家;词尾 t 不发音;车站显示屏上的 Départs 是“出发”。" }
+  ],
+  "reviewItems": ["fr.aller_retour", "fr.billet", "fr.train", "fr.changer", "fr.partir", "fr.payer"],
+  "lines": [
+    { "speaker": "hao", "text": "Bonjour, monsieur. Je voudrais un aller-retour pour Rome, s'il vous plaît.", "zh": "(12 月 14 日星期一下午,Part-Dieu 火车站的售票窗口)您好,先生。我想买一张去罗马的往返票。", "items": ["fr.bonjour", "fr.monsieur", "fr.je_voudrais", "fr.un", "fr.aller_retour", "fr.pour", "fr.sil_vous_plait"] },
+    { "speaker": "guichetier", "text": "Bonjour. Vous partez quel jour ?", "zh": "您好。您哪天出发?", "items": ["fr.bonjour", "fr.vous", "fr.partir", "fr.quel", "fr.jour"] },
+    { "speaker": "hao", "text": "Le samedi 19 décembre. Et le retour, le mercredi 23.", "zh": "12 月 19 日星期六。回程是 23 号,星期三。", "items": ["fr.samedi", "fr.dix_neuf", "fr.decembre", "fr.et", "fr.retour", "fr.mercredi", "fr.vingt", "fr.trois"] },
+    { "speaker": "guichetier", "text": "Il n'y a pas de train direct. Vous changez à Turin.", "zh": "没有直达车。您要在都灵换车。", "items": ["fr.il_y_a", "fr.ne_pas", "fr.pas_de", "fr.train", "fr.direct", "fr.vous", "fr.changer", "fr.a"] },
+    { "speaker": "hao", "text": "Pardon ? Je change de train à Turin ?", "zh": "什么?我要在都灵换车?", "items": ["fr.pardon", "fr.je", "fr.changer", "fr.de", "fr.train", "fr.a"] },
+    { "speaker": "guichetier", "text": "Oui. Le départ est à six heures cinquante-huit, le matin.", "zh": "对。早上 6 点 58 分发车。", "items": ["fr.oui", "fr.depart", "fr.etre", "fr.a", "fr.six", "fr.heure", "fr.cinquante", "fr.huit", "fr.matin"] },
+    { "speaker": "hao", "text": "C'est tôt ! Et je suis à Rome vers quelle heure ?", "zh": "真早啊!那我大概几点到罗马?", "items": ["fr.cest", "fr.tot", "fr.et", "fr.je", "fr.etre", "fr.a", "fr.vers", "fr.quel", "fr.heure"] },
+    { "speaker": "guichetier", "text": "Vers dix-sept heures. En première ou en deuxième classe ?", "zh": "17 点左右。您坐一等座还是二等座?", "items": ["fr.vers", "fr.dix_sept", "fr.heure", "fr.en", "fr.premier", "fr.ou", "fr.deuxieme", "fr.classe"] },
+    { "speaker": "hao", "text": "En deuxième classe. Il faut réserver une place ?", "zh": "二等座。要订座吗?", "items": ["fr.en", "fr.deuxieme", "fr.classe", "fr.il_faut", "fr.reserver", "fr.une", "fr.place"] },
+    { "speaker": "guichetier", "text": "Oui, c'est obligatoire. Ça fait deux cent trente-six euros.", "zh": "要,这趟车必须订座。一共 236 欧。", "items": ["fr.oui", "fr.cest", "fr.obligatoire", "fr.ca_fait", "fr.deux", "fr.cent", "fr.trente", "fr.six", "fr.euro"] },
+    { "speaker": "hao", "text": "Deux cent trente-six euros… Je peux payer par carte ?", "zh": "236 欧……我可以刷卡吗?", "items": ["fr.deux", "fr.cent", "fr.trente", "fr.six", "fr.euro", "fr.je", "fr.pouvoir", "fr.payer", "fr.par", "fr.carte"] },
+    { "speaker": "guichetier", "text": "Oui. Voilà les billets. Bon voyage !", "zh": "可以。这是您的票。一路顺风!", "items": ["fr.oui", "fr.voila", "fr.billet", "fr.bon", "fr.voyage"] }
+  ],
+  "questions": [
+    { "prompt": "浩为什么要在都灵换车?", "options": ["他想在都灵玩一天", "没有去罗马的直达车", "去都灵的票便宜"], "answer": 1, "explainZh": "售票员说:Il n'y a pas de train direct. Vous changez à Turin.(没有直达车,您在都灵换车。)" },
+    { "prompt": "浩哪天从罗马回来?", "options": ["12 月 19 日星期六", "12 月 14 日星期一", "12 月 23 日星期三"], "answer": 2, "explainZh": "浩说 Et le retour, le mercredi 23.(回程是 23 号星期三);19 日是出发的日子,14 日是买票的这一天。" },
+    { "prompt": "往返票一共多少钱?", "options": ["236 欧", "226 欧", "263 欧", "336 欧"], "answer": 0, "explainZh": "售票员说 Ça fait deux cent trente-six euros.:deux cent = 200,trente-six = 36;后面还有数,cent 不加 s。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.cent_pluriel", "titleZh": "两百、三百……:cent 什么时候加 s",
+      "bodyZh": "100 说 cent,前面不加 un(不说 un cent)。整百的时候 cent 加 s:deux cents(200)、trois cents(300)、cinq cents(500);后面还有别的数,就不加 s:deux cent trente-six(236)、trois cent cinquante(350)。这和第 4 单元的 quatre-vingts 是同一条规则:quatre-vingts(80)有 s,quatre-vingt-quatre(84)就没有。这个 s 平时不发音,只在元音前联诵:deux cents‿euros。中文“一百零五”要说“零”,法语直接说 cent cinq,中间不加 zéro,也不加 et。mille(一千)永远不加 s:deux mille six(2006)。",
+      "examples": [
+        { "text": "Ça fait deux cent trente-six euros.", "zh": "一共 236 欧。(后面还有数,cent 不加 s)" },
+        { "text": "Le loyer est de trois cents euros par mois.", "zh": "房租每月 300 欧。(整百,cent 加 s)" },
+        { "text": "Il y a cent chambres.", "zh": "有一百个房间。(100 前面不加 un)" }
+      ] },
+    { "id": "fr.g.billet_train", "titleZh": "买火车票:直达、换车、几等座",
+      "bodyZh": "买票时常听到:Il n'y a pas de train direct.(没有直达车)Vous changez à Turin.(您在都灵换车)——在哪儿换车用 changer à + 地名;“换车”本身说 changer de train,changer de 后面的名词不加冠词。坐几等座用 en:en première classe(一等座)、en deuxième classe(二等座)。序数词一般是数字加 -ième:deux → deuxième,trois → troisième,只有“第一”是 premier / première。坐法国的高速列车一般要订座,售票员会说 C'est obligatoire.(必须的)。火车时刻用 24 小时制:six heures cinquante-huit 是早上 6:58,dix-sept heures 是下午 5 点;问大概的时间用 vers:vers quelle heure ?(大概几点?)",
+      "examples": [
+        { "text": "Il n'y a pas de train direct pour Rome.", "zh": "没有去罗马的直达车。" },
+        { "text": "Je change de train à Turin.", "zh": "我在都灵换车。" },
+        { "text": "Je voudrais un aller-retour en deuxième classe.", "zh": "我想要一张二等座的往返票。" }
+      ] }
+  ],
+  "review": "draft"
+}

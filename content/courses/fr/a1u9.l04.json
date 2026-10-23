@@ -1,0 +1,52 @@
+{
+  "id": "fr.a1u9.l04", "schemaVersion": 1, "lang": "fr", "type": "grammar", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109040,
+  "titleZh": "我需要……——avoir 的固定搭配", "goalZh": "会用 avoir chaud / froid / besoin de 说感觉和需要,用 il faut + 名词说出门必须带什么", "canDoZh": "能说自己冷了、热了、需要什么东西,也能问别人需要什么",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "fr.avoir_besoin_de", "kind": "phrase", "pos": "phrase", "text": "avoir besoin de", "zh": "需要", "features": { "ipa": "a.vwaʁ bə.zwɛ̃ də" }, "noteZh": "J'ai besoin d'un sac. 我需要一个包;de 在元音前写成 d';用 avoir,不说 Je suis besoin。" },
+    { "id": "fr.passeport", "kind": "word", "pos": "noun", "text": "le passeport", "zh": "护照", "features": { "gender": "m", "ipa": "lə pas.pɔʁ" }, "noteZh": "词尾 t 不发音;法语的 p 不送气,听起来接近中文拼音的 b,别读成送气的“趴”。" },
+    { "id": "fr.titre_de_sejour", "kind": "word", "pos": "noun", "text": "le titre de séjour", "zh": "居留证", "features": { "gender": "m", "ipa": "lə titʁ də se.ʒuʁ" }, "noteZh": "外国学生在法国的居留证件,口语里也叫 la carte de séjour;去别的欧洲国家,要带护照和居留证。" },
+    { "id": "fr.dentifrice", "kind": "word", "pos": "noun", "text": "le dentifrice", "zh": "牙膏", "features": { "gender": "m", "ipa": "lə dɑ̃.ti.fʁis" }, "noteZh": "阳性;开头的 dent 就是“牙齿”(第 8 单元学过),en 读 [ɑ̃]。" },
+    { "id": "fr.brosse_a_dents", "kind": "word", "pos": "noun", "text": "la brosse à dents", "zh": "牙刷", "features": { "gender": "f", "ipa": "la bʁɔs a dɑ̃" }, "noteZh": "brosse(刷子)+ à + dents(牙):刷牙用的刷子;dents 用复数,s 不发音。" },
+    { "id": "fr.sac_a_dos", "kind": "word", "pos": "noun", "text": "le sac à dos", "zh": "双肩包;背包", "features": { "gender": "m", "ipa": "lə sak a do" }, "noteZh": "sac(包)+ à + dos(背):背在背上的包;dos 的 s 不发音。" },
+    { "id": "fr.dehors", "kind": "word", "pos": "adv", "text": "dehors", "zh": "外面;在外面", "features": { "ipa": "də.ɔʁ" }, "noteZh": "h 不发音,s 也不发音:[də.ɔʁ];Il fait froid dehors. 外面很冷。" },
+    { "id": "fr.biscuit", "kind": "word", "pos": "noun", "text": "le biscuit", "zh": "饼干", "features": { "gender": "m", "ipa": "lə bis.kɥi" }, "noteZh": "阳性;ui 读 [ɥi],词尾 t 不发音。" }
+  ],
+  "reviewItems": ["fr.supermarche", "fr.froid", "fr.chaud", "fr.il_faut", "fr.jai_faim"],
+  "lines": [
+    { "speaker": "hao", "text": "Il y a du vent dehors ! J'ai très froid.", "zh": "(12 月 17 日星期四傍晚,浩和卢卡去超市)外面风好大!我好冷。", "items": ["fr.il_y_a", "fr.du", "fr.vent", "fr.dehors", "fr.je", "fr.avoir", "fr.tres", "fr.froid"] },
+    { "speaker": "lucas", "text": "Et ici, au supermarché, j'ai chaud !", "zh": "可在超市里面,我觉得好热!", "items": ["fr.et", "fr.ici", "fr.au", "fr.supermarche", "fr.je", "fr.avoir", "fr.chaud"] },
+    { "speaker": "hao", "text": "J'ai besoin d'un dentifrice et d'une brosse à dents.", "zh": "我需要一支牙膏和一把牙刷。", "items": ["fr.je", "fr.avoir", "fr.avoir_besoin_de", "fr.de", "fr.un", "fr.dentifrice", "fr.et", "fr.une", "fr.brosse_a_dents"] },
+    { "speaker": "lucas", "text": "C'est ici. Et tu as besoin d'un sac à dos ?", "zh": "在这儿。你还需要背包吗?", "items": ["fr.cest", "fr.ici", "fr.et", "fr.tu", "fr.avoir", "fr.avoir_besoin_de", "fr.de", "fr.un", "fr.sac_a_dos"] },
+    { "speaker": "hao", "text": "Oui, d'un petit sac à dos pour le train.", "zh": "要,要一个小背包,坐火车的时候用。", "items": ["fr.oui", "fr.de", "fr.un", "fr.petit", "fr.sac_a_dos", "fr.pour", "fr.train"] },
+    { "speaker": "lucas", "text": "Et pour l'Italie, il faut un passeport ?", "zh": "去意大利得带护照吗?", "items": ["fr.et", "fr.pour", "fr.il_faut", "fr.un", "fr.passeport"] },
+    { "speaker": "hao", "text": "Oui ! Il faut un passeport et un titre de séjour.", "zh": "得带!要带护照和居留证。", "items": ["fr.oui", "fr.il_faut", "fr.un", "fr.passeport", "fr.et", "fr.titre_de_sejour"] },
+    { "speaker": "hao", "text": "Et toi, tu as besoin d'un passeport pour Marseille ?", "zh": "(开玩笑)那你呢,回马赛要护照吗?", "items": ["fr.et_toi", "fr.tu", "fr.avoir", "fr.avoir_besoin_de", "fr.de", "fr.un", "fr.passeport", "fr.pour"] },
+    { "speaker": "lucas", "text": "Mais non ! Moi, j'ai besoin de biscuits pour le train. J'ai faim !", "zh": "当然不要!我嘛,我需要火车上吃的饼干。我饿了!", "items": ["fr.mais", "fr.non", "fr.moi", "fr.je", "fr.avoir", "fr.avoir_besoin_de", "fr.biscuit", "fr.pour", "fr.train", "fr.jai_faim"] },
+    { "speaker": "hao", "text": "Tu as faim tous les jours, Lucas !", "zh": "卢卡,你天天都喊饿!", "items": ["fr.tu", "fr.avoir", "fr.jai_faim", "fr.tous_les_jours"] }
+  ],
+  "questions": [
+    { "prompt": "卢卡为什么说 J'ai chaud ?", "options": ["他在超市里面,觉得热", "他刚跑完步", "外面出太阳了"], "answer": 0, "explainZh": "浩在外面说 J'ai très froid,进了超市,卢卡说:Et ici, au supermarché, j'ai chaud !(在超市里面,我觉得好热!)" },
+    { "prompt": "浩在超市要买什么?", "options": ["饼干和背包", "护照和居留证", "牙膏、牙刷和一个小背包"], "answer": 2, "explainZh": "J'ai besoin d'un dentifrice et d'une brosse à dents.,卢卡问要不要背包,浩说:Oui, d'un petit sac à dos.;饼干是卢卡要的。" },
+    { "prompt": "去意大利,浩说一定要带什么?", "options": ["学生证", "护照和居留证", "饼干和牙膏"], "answer": 1, "explainZh": "Il faut un passeport et un titre de séjour.(要带护照和居留证。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.avoir_expressions", "titleZh": "我冷、我热、我需要:都用 avoir",
+      "bodyZh": "说身体的感觉,法语用 avoir + 名词,中文和英语却用“是 / be”:J'ai froid.(我冷)J'ai chaud.(我热)J'ai faim.(我饿)J'ai soif.(我渴)。不能说 Je suis froid——那是“我这个人很冷淡”。要说“很冷”,在中间加 très:J'ai très froid.。“需要”也用 avoir:avoir besoin de + 名词,de 在元音前写成 d':J'ai besoin d'un sac à dos. Tu as besoin d'une brosse à dents ?。后面是复数、不说具体数量的东西,des 要去掉,只留 de:J'ai besoin de biscuits.(和否定后的 pas de 一样)。这些说法里的 avoir 照常变位:j'ai, tu as, il a, nous avons, vous avez, ils ont。",
+      "examples": [
+        { "text": "J'ai très froid. Et toi ?", "zh": "我好冷。你呢?" },
+        { "text": "Lucas a chaud au supermarché.", "zh": "卢卡在超市里觉得热。" },
+        { "text": "J'ai besoin d'un sac à dos.", "zh": "我需要一个背包。" },
+        { "text": "Tu as besoin de biscuits ?", "zh": "你需要饼干吗?" }
+      ] },
+    { "id": "fr.g.il_faut_nom", "titleZh": "il faut + 名词:得有……、要带……",
+      "bodyZh": "第 7 单元学过 il faut + 动词原形(Il faut aller chez le coiffeur.)。il faut 后面也可以直接跟名词,意思是“得有……、要带……”:Il faut un passeport.(要带护照。)Il faut un parapluie.(得带把伞。)il faut 只有这一个形式,不随人称变,说的是一般的要求;说“我需要”用 J'ai besoin de…。问别人用升调:Il faut un passeport pour l'Italie ?(去意大利要护照吗?)出行提醒:中国留学生从法国去意大利、西班牙这些国家旅行,要带护照和法国的居留证(le titre de séjour)。",
+      "examples": [
+        { "text": "Il faut un passeport et un titre de séjour.", "zh": "得带护照和居留证。" },
+        { "text": "Il faut un parapluie à Rome !", "zh": "在罗马得带把伞!" },
+        { "text": "Il faut des biscuits pour le train.", "zh": "火车上得有饼干。" }
+      ] }
+  ],
+  "review": "draft"
+}

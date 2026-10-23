@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u17.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-17 Let's cook", "order": 117040,
+  "titleZh": "包饺子", "goalZh": "会用祈使句和 like this 一步步示范怎么做,纠正对方的做法", "canDoZh": "能一步步教别人做一样东西,用\"像这样\"示范,纠正对方的做法",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.day_off", "kind": "phrase", "pos": "noun", "text": "day off", "zh": "休息日;(请假)不上班的一天", "features": { "ipa": "ˌdeɪ ˈɑːf" }, "noteZh": "ask for the day off 请一天假;I have a day off. 我今天休息;off 重读。" },
+    { "id": "en.wrap", "kind": "word", "pos": "verb", "text": "wrap", "zh": "包;裹", "features": { "ipa": "ræp" }, "noteZh": "wrap dumplings 包饺子(也常说 make dumplings);开头的 w 不发音,读 /ræp/。" },
+    { "id": "en.filling", "kind": "word", "pos": "noun", "text": "filling", "zh": "馅", "features": { "ipa": "ˈfɪlɪŋ" }, "noteZh": "饺子馅、派的馅都叫 filling;结尾 -ing 是后鼻音。" },
+    { "id": "en.fold", "kind": "word", "pos": "verb", "text": "fold", "zh": "折;叠", "features": { "ipa": "foʊld" }, "noteZh": "fold it in half 对折;o 读 /oʊ/,l 很轻,别丢掉词尾 d。" },
+    { "id": "en.edge", "kind": "word", "pos": "noun", "text": "edge", "zh": "边;边缘", "features": { "ipa": "edʒ" }, "noteZh": "close the edges 把边捏紧;dge 读 /dʒ/,词尾不加元音。" },
+    { "id": "en.like_this", "kind": "phrase", "pos": "phrase", "text": "like this", "zh": "像这样", "alt": ["like that"], "features": { "ipa": "ˈlaɪk ðɪs" }, "noteZh": "一边做一边说 Like this. 是\"像这样\";纠正别人说 Not like that!(不是那样)。这里的 like 是\"像\",不是\"喜欢\"。" },
+    { "id": "en.coin", "kind": "word", "pos": "noun", "text": "coin", "zh": "硬币", "features": { "ipa": "kɔɪn" }, "noteZh": "oi 读 /ɔɪ/;chocolate coins 巧克力金币。包进饺子的硬币要先洗干净,吃的时候小心别咬到。" },
+    { "id": "en.boat", "kind": "word", "pos": "noun", "text": "boat", "zh": "船;小船", "features": { "ipa": "boʊt" }, "noteZh": "oa 读 /oʊ/,嘴唇从半开滑到收圆;词尾 t 轻轻收住。" }
+  ],
+  "reviewItems": ["en.chinese_new_year", "en.dumpling", "en.middle", "en.close_verb", "en.lucky", "en.look"],
+  "lines": [
+    { "speaker": "marcus", "text": "Lei, no work today?", "zh": "(除夕下午,宿舍里)磊,你今天不上班?", "items": ["en.work", "en.today"] },
+    { "speaker": "lei", "text": "No. I asked Laura for the day off.", "zh": "不上。我跟劳拉请了一天假。", "items": ["en.ask", "en.day_off"] },
+    { "speaker": "lei", "text": "Tomorrow is Chinese New Year! Let's wrap dumplings.", "zh": "明天就是春节了!我们来包饺子。", "items": ["en.tomorrow", "en.chinese_new_year", "en.lets", "en.wrap", "en.dumpling"] },
+    { "speaker": "lei", "text": "First, put a little filling in the middle. Like this.", "zh": "先在中间放一点馅,像这样。", "items": ["en.first", "en.put", "en.a_little", "en.filling", "en.middle", "en.like_this"] },
+    { "speaker": "lei", "text": "Then fold it, and close the edges.", "zh": "然后对折,把边捏紧。", "items": ["en.then", "en.fold", "en.close_verb", "en.edge"] },
+    { "speaker": "amy", "text": "Like this? Is it OK?", "zh": "像这样吗?行吗?", "items": ["en.like_this"] },
+    { "speaker": "lei", "text": "Not like that! Close the edges, like this.", "zh": "不是那样!要把边捏紧,像这样。", "items": ["en.like_this", "en.close_verb", "en.edge"] },
+    { "speaker": "sofia", "text": "Hey, look at Marcus's dumplings!", "zh": "嘿,快看马库斯包的饺子!", "items": ["en.hey", "en.look", "en.dumpling"] },
+    { "speaker": "amy", "text": "Marcus, your dumplings are boats!", "zh": "马库斯,你包的饺子是小船吧!", "items": ["en.dumpling", "en.boat"] },
+    { "speaker": "marcus", "text": "Boats are cool! Lei, what's this coin for?", "zh": "小船多酷啊!磊,这枚硬币是干什么用的?", "items": ["en.boat", "en.cool", "en.coin"] },
+    { "speaker": "lei", "text": "We wash a coin and put it in one dumpling.", "zh": "我们把一枚硬币洗干净,包进一个饺子里。", "items": ["en.wash", "en.coin", "en.put", "en.dumpling"] },
+    { "speaker": "lei", "text": "Find the coin, and you're lucky all year!", "zh": "谁吃到这枚硬币,一整年都有好运!", "items": ["en.find", "en.coin", "en.lucky", "en.year"] }
+  ],
+  "questions": [
+    { "prompt": "磊今天为什么没去上班?", "options": ["咖啡馆关门了", "他跟劳拉请了一天假", "他生病了"], "answer": 1, "explainZh": "I asked Laura for the day off.——今天是周一,本来要上班,磊请了一天假。" },
+    { "prompt": "包饺子的第一步是什么?", "options": ["把边捏紧", "对折", "在中间放一点馅"], "answer": 2, "explainZh": "First, put a little filling in the middle. … Then fold it, and close the edges.——先放馅,再对折,最后捏边。" },
+    { "prompt": "包着硬币的饺子是什么意思?", "options": ["吃到的人一整年都有好运", "吃到的人要洗碗", "那是马库斯包的"], "answer": 0, "explainZh": "Find the coin, and you're lucky all year!——吃到硬币,一整年好运。" }
+  ],
+  "grammar": [
+    { "id": "en.g.show_how_like_this", "titleZh": "一步步示范:First / Then + 祈使句,like this",
+      "bodyZh": "教别人做东西,用祈使句一步一步说,用 First、Then 串起来:First, put a little filling in the middle. Then fold it, and close the edges.。一边做一边说 Like this.(像这样),对方做得不对就说 Not like that!(不是那样),再示范一遍:Close the edges, like this.。这里的 like 是\"像\",和 I like dumplings 的\"喜欢\"不是一个意思。\n\"Find the coin, and you're lucky all year!\" 这种\"祈使句 + and + 结果\"的说法很口语,意思是\"要是……就……\"。",
+      "examples": [
+        { "text": "First, put a little filling in the middle. Like this.", "zh": "先在中间放一点馅,像这样。" },
+        { "text": "Then fold it, and close the edges.", "zh": "然后对折,把边捏紧。" },
+        { "text": "Not like that! Close the edges, like this.", "zh": "不是那样!要把边捏紧,像这样。" }
+      ] },
+    { "id": "en.g.dumpling_sounds", "titleZh": "发音:dumpling 的 /ʌ/ 和结尾的 /ŋ/",
+      "bodyZh": "dumpling /ˈdʌmplɪŋ/:u 读 /ʌ/,嘴巴放松、短促,不读成\"当\";mpl 三个辅音连着读,中间不加元音;结尾 -ing 是后鼻音 /ŋ/(舌根抬起,像\"嗯\"),不要读成前鼻音 \"-lin\"。filling 的结尾也一样。wrap 的 w 不发音,读 /ræp/。",
+      "examples": [
+        { "text": "Let's wrap dumplings.", "zh": "我们来包饺子。" },
+        { "text": "Put a little filling in the middle.", "zh": "在中间放一点馅。" }
+      ] }
+  ],
+  "review": "draft"
+}

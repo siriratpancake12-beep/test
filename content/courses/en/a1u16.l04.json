@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u16.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116040,
+  "titleZh": "白 T 恤变粉了", "goalZh": "会用祈使句听懂和复述用洗衣机的步骤", "canDoZh": "能用洗衣房的机器洗衣服,问清楚步骤,知道深色浅色要分开洗",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.wash", "kind": "word", "pos": "verb", "text": "wash", "zh": "洗", "features": { "ipa": "wɑːʃ" }, "noteZh": "美式读 /wɑːʃ/:w 双唇收圆,a 读 /ɑː/;洗衣服、洗手、洗车都用 wash。" },
+    { "id": "en.washer", "kind": "word", "pos": "noun", "text": "washer", "zh": "洗衣机", "features": { "ipa": "ˈwɑːʃɚ" }, "noteZh": "口语里 washer 就是 washing machine;烘干机叫 dryer。" },
+    { "id": "en.dryer", "kind": "word", "pos": "noun", "text": "dryer", "zh": "烘干机", "features": { "ipa": "ˈdraɪɚ" }, "noteZh": "美国人洗完衣服一般用烘干机,很少晾;dr 中间不加元音。" },
+    { "id": "en.separate", "kind": "word", "pos": "verb", "text": "separate", "zh": "分开", "features": { "ipa": "ˈsepəreɪt" }, "noteZh": "动词读 /ˈsepəreɪt/,结尾 -ate 读 /eɪt/;第 4 单元 Together or separate? 里的 separate 是形容词,读 /ˈsepɚət/。" },
+    { "id": "en.whites_and_colors", "kind": "phrase", "pos": "noun", "text": "whites and colors", "zh": "浅色衣物和深色衣物", "features": { "ipa": "ˌwaɪts ən ˈkʌlɚz" }, "noteZh": "洗衣服要分开的两堆:whites 是白色、浅色的,colors 是彩色、深色的;and 弱读 /ən/。" },
+    { "id": "en.pink", "kind": "word", "pos": "adj", "text": "pink", "zh": "粉色的", "features": { "ipa": "pɪŋk" }, "noteZh": "nk 读 /ŋk/,后鼻音;a pink T-shirt 一件粉色 T 恤。" },
+    { "id": "en.soap", "kind": "word", "pos": "noun", "text": "soap", "zh": "肥皂;洗衣液", "features": { "ipa": "soʊp" }, "noteZh": "洗衣服用的口语也叫 laundry soap,瓶子上一般写 detergent;oa 读 /oʊ/。" },
+    { "id": "en.mix", "kind": "word", "pos": "verb", "text": "mix", "zh": "混在一起;搅拌", "features": { "ipa": "mɪks" }, "noteZh": "Don't mix whites and colors! 别把白的和深色的混在一起;做饭\"拌\"也用 mix;x 读 /ks/。" }
+  ],
+  "reviewItems": ["en.socks", "en.put", "en.push", "en.button", "en.t_shirt", "en.know"],
+  "lines": [
+    { "speaker": "sofia", "text": "Lei, what's wrong with your T-shirts?", "zh": "(宿舍楼的洗衣房门口)磊,你的 T 恤怎么了?", "items": ["en.whats_wrong_with_it", "en.t_shirt"] },
+    { "speaker": "lei", "text": "They're pink! My white T-shirts are all pink!", "zh": "变粉了!我的白 T 恤全成粉色的了!", "items": ["en.pink", "en.white", "en.t_shirt"] },
+    { "speaker": "sofia", "text": "Oh no! Was there a red sock in the washer?", "zh": "哎呀!洗衣机里是不是有一只红袜子?", "items": ["en.red", "en.socks", "en.washer"] },
+    { "speaker": "lei", "text": "Yes. Ethan's red sock!", "zh": "对。伊森的红袜子!", "items": ["en.red", "en.socks"] },
+    { "speaker": "sofia", "text": "Don't mix whites and colors! Separate them first.", "zh": "浅色和深色的衣服别混在一起!先分开。", "items": ["en.mix", "en.whites_and_colors", "en.separate", "en.first"] },
+    { "speaker": "sofia", "text": "Put your whites in this washer.", "zh": "白的放进这台洗衣机。", "items": ["en.put", "en.whites_and_colors", "en.washer"] },
+    { "speaker": "sofia", "text": "Wash them in cold water, and put the soap in here.", "zh": "用冷水洗,洗衣液放在这儿。", "items": ["en.wash", "en.cold", "en.water", "en.put", "en.soap"] },
+    { "speaker": "sofia", "text": "Then pay with your card and push the start button.", "zh": "然后刷卡付钱,按开始键。", "items": ["en.then", "en.pay", "en.card", "en.push", "en.start", "en.button"] },
+    { "speaker": "lei", "text": "And the dryer?", "zh": "那烘干机呢?", "items": ["en.dryer"] },
+    { "speaker": "sofia", "text": "Not too hot, or your clothes are going to be small!", "zh": "别开太热,不然衣服会缩小!", "items": ["en.too", "en.hot", "en.clothes", "en.going_to", "en.small"] },
+    { "speaker": "lei", "text": "Separate, cold water, soap, card, and start. Now I know!", "zh": "分开、冷水、洗衣液、刷卡、开始。这下我会了!", "items": ["en.separate", "en.cold", "en.water", "en.soap", "en.card", "en.start", "en.know"] },
+    { "speaker": "lei", "text": "And this pink T-shirt is a gift for Ethan!", "zh": "这件粉 T 恤就送给伊森吧!", "items": ["en.pink", "en.t_shirt", "en.gift"] }
+  ],
+  "questions": [
+    { "prompt": "磊的白 T 恤为什么变成了粉色?", "options": ["洗衣液放多了", "和伊森的红袜子一起洗了", "烘干机太热了"], "answer": 1, "explainZh": "Was there a red sock in the washer? —— Yes. Ethan's red sock!——白衣服和红袜子一起洗了。" },
+    { "prompt": "索菲亚说洗衣服要用什么水?", "options": ["热水", "什么水都行", "冷水"], "answer": 2, "explainZh": "Wash them in cold water.——用冷水洗。" },
+    { "prompt": "磊最后怎么处理那件粉 T 恤?", "options": ["送给伊森", "拿去退货", "扔掉"], "answer": 0, "explainZh": "And this pink T-shirt is a gift for Ethan!——送给伊森,红袜子就是他的。" }
+  ],
+  "grammar": [
+    { "id": "en.g.imperative_steps", "titleZh": "用祈使句说步骤:Separate… Put… Wash… Push…",
+      "bodyZh": "教别人用机器、做一件事,一步一步用祈使句(动词原形开头):Separate your clothes first. Put your whites in this washer. Wash them in cold water. Push the start button.。不要做的事用 Don't…:Don't mix whites and colors!。步骤之间用 first、then 连起来(第 8 单元)。听别人讲完步骤,像磊一样按顺序复述一遍关键词(Separate, cold water, soap…),对方就知道你听懂了。\n美国洗衣房里说的 whites 是白色、浅色的衣服,colors 是彩色、深色的衣服,一般要分开洗。",
+      "examples": [
+        { "text": "Separate your clothes first.", "zh": "先把衣服分开。" },
+        { "text": "Don't mix whites and colors!", "zh": "浅色和深色的衣服别混在一起!" },
+        { "text": "Wash them in cold water.", "zh": "用冷水洗。" }
+      ] },
+    { "id": "en.g.wash_w", "titleZh": "发音:wash 的 w 和 /ɑː/",
+      "bodyZh": "wash 美式读 /wɑːʃ/:w 双唇先收圆、往前送,然后张大嘴发 /ɑː/,最后是 /ʃ/(舌尖往后收、嘴唇向前突,别读成 s)。w 和 v 要分清:w 嘴唇不碰牙齿(washer、water),v 上齿轻碰下唇(very)。washer 重音在前 WASH-er,dryer 读 /ˈdraɪɚ/。",
+      "examples": [
+        { "text": "Wash them in cold water.", "zh": "用冷水洗。(wash、water 都是 w 开头)" },
+        { "text": "Put your whites in this washer.", "zh": "白的放进这台洗衣机。" }
+      ] }
+  ],
+  "review": "draft"
+}

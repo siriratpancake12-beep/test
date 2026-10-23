@@ -28,7 +28,7 @@
     { "speaker": "sofia", "text": "A snowman? I'm coming! It's my first snow!", "zh": "(磊打电话叫上索菲亚)堆雪人?我马上来!这是我第一次见到雪!", "items": ["en.snowman", "en.come", "en.first", "en.snow"] }
   ],
   "questions": [
-    { "prompt": "艾米为什么觉得明天要下雪?", "options": ["西雅图冬天天天下雪", "天气预报说的,天看起来也要下雪", "伊森告诉她的"], "answer": 1, "explainZh": "Look at the forecast. Snow tomorrow! …… But look at the sky!(天气预报说明天下雪,天色也像要下雪。)" },
+    { "prompt": "艾米为什么觉得明天要下雪?", "options": ["天气预报说的,天看起来也要下雪", "西雅图冬天天天下雪", "伊森告诉她的"], "answer": 0, "explainZh": "Look at the forecast. Snow tomorrow! …… But look at the sky!(天气预报说明天下雪,天色也像要下雪。)" },
     { "prompt": "第二天早上学校通知了什么?", "options": ["上午的课取消了", "全天停课", "下午提前放学"], "answer": 0, "explainZh": "伊森说 And morning classes are canceled. It's a snow day!(上午的课取消了。)" },
     { "prompt": "伊森为什么特别兴奋?", "options": ["艾米要来找他玩", "他买了新靴子", "洛杉矶从来不下雪"], "answer": 2, "explainZh": "It never snows in LA. I'm so excited!(洛杉矶从来不下雪,所以他特别兴奋。)" }
   ],

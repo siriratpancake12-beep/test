@@ -30,8 +30,8 @@
       "id": "en.a1u10.l02", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110020,
       "titleZh": "你的生日是几月几号?", "goalZh": "会用序数词说日期,问别人的生日,看懂美式日期",
       "canDoZh": "能问别人的生日,说出完整的日期,看懂美式日期的写法",
-      "scenarioZh": "艾米(amy)在手机日历上做朋友们的生日清单,问 When's your birthday?:磊是 4 月 18 日,他又问索菲亚,索菲亚是 12 月 28 日——就在这个假期!索菲亚先走了,艾米和磊马上商量悄悄给她办个惊喜派对。磊看到清单上写着 4/18,艾米解释美国写日期是'月/日/年',磊说中国是年在最前面。",
-      "grammarFocusZh": "序数词 first、second、third、fourth… thirty-first;日期读法 April 18th = April eighteenth;on + 日期(on December 28th);美式写法'月/日/年',和中文'年/月/日'的顺序不同。发音:fourth、fifth、sixth、twelfth 词尾的 /θ/ 要咬舌,fifth、twelfth 里的辅音连缀不能吞。",
+      "scenarioZh": "艾米(amy)在手机日历上做朋友们的生日清单,问 When's your birthday?:磊是 4 月 18 日,他又问索菲亚,索菲亚是 12 月 28 日——就在这个假期!索菲亚先走了,艾米和磊马上商量悄悄给她办个惊喜派对。磊看到清单上写着 4/18,艾米解释美国写日期是“月/日/年”,磊说中国是年在最前面。",
+      "grammarFocusZh": "序数词 first、second、third、fourth… thirty-first;日期读法 April 18th = April eighteenth;on + 日期(on December 28th);美式写法“月/日/年”,和中文“年/月/日”的顺序不同。发音:fourth、fifth、sixth、twelfth 词尾的 /θ/ 要咬舌,fifth、twelfth 里的辅音连缀不能吞。",
       "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "en.list", "kind": "word", "pos": "noun", "text": "list", "zh": "清单", "features": { "ipa": "lɪst" }, "noteZh": "make a list(列个清单);i 读短音 /ɪ/,结尾 st 不加元音。" },
@@ -49,9 +49,9 @@
       "id": "en.a1u10.l03", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110030,
       "titleZh": "圣诞节交换礼物", "goalZh": "会用 This is for you. / You didn't have to! 送礼物、收礼物",
       "canDoZh": "能参加一次交换礼物活动:抽签、打听对方喜欢什么、送礼物和道谢",
-      "scenarioZh": "留在西雅图过节的磊、索菲亚、艾米和马库斯,在艾米的提议下玩'秘密圣诞老人'(Secret Santa):抽签决定给谁买礼物,每份不超过 20 美元。磊抽到马库斯,偷偷问艾米他喜欢什么;平安夜大家在宿舍休息室的圣诞树下吃饼干、喝热巧克力、交换礼物,马库斯拆开磊送的巧克力和一件印着他乐队名字 The Rainy Days 的 T 恤,说 You didn't have to!,然后弹吉他,大家唱圣诞歌。",
+      "scenarioZh": "留在西雅图过节的磊、索菲亚、艾米和马库斯,在艾米的提议下玩“秘密圣诞老人”(Secret Santa):抽签决定给谁买礼物,每份不超过 20 美元。磊抽到马库斯,偷偷问艾米他喜欢什么;平安夜大家在宿舍休息室的圣诞树下吃饼干、喝热巧克力、交换礼物,马库斯拆开磊送的巧克力和一件印着他乐队名字 The Rainy Days 的 T 恤,说 You didn't have to!,然后弹吉他,大家唱圣诞歌。",
       "grammarFocusZh": "送礼和收礼的说法:This is for you. / I got this for you. / Thank you, I love it!;Merry Christmas! / Happy holidays!(美国人常说后者,照顾不过圣诞节的人);get + 东西 + for + 人。发音:Christmas 的 t 不发音 /ˈkrɪsməs/。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
       "newItems": [
         { "id": "en.secret_santa", "kind": "phrase", "pos": "noun", "text": "Secret Santa", "zh": "秘密圣诞老人(抽签互送礼物)", "features": { "ipa": "ˌsiːkrət ˈsæntə" }, "noteZh": "朋友、同事之间抽签,给抽到的人偷偷准备一份小礼物,一般定一个价钱上限;I have Marcus for Secret Santa.(我抽到了马库斯。)" },
         { "id": "en.christmas_eve", "kind": "phrase", "pos": "propn", "text": "Christmas Eve", "zh": "平安夜", "features": { "ipa": "ˌkrɪsməs ˈiːv" }, "noteZh": "12 月 24 日晚上;Eve /iːv/ 指节日的前一天晚上,New Year's Eve 就是除夕夜。" },
@@ -85,10 +85,10 @@
     },
     {
       "id": "en.a1u10.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110045,
-      "titleZh": "美国节日日历", "goalZh": "会看节日日历上的日期,读懂'某月的第几个星期几'",
-      "canDoZh": "能看懂一张节日日历,说出每个节日的日期,读懂'十一月的第四个星期四'这类说法",
-      "scenarioZh": "体裁:日历(国际学生办公室发的'2026 年美国节日一览')。说话人 narrator。按月份列出:新年 1 月 1 日、马丁·路德·金纪念日(一月的第三个星期一,2026 年是 1 月 19 日)、情人节 2 月 14 日(这年是星期六)、春节 2 月 17 日(晚上有派对)、国庆 7 月 4 日(晚上放烟花)、万圣节 10 月 31 日、感恩节(十一月的第四个星期四,2026 年是 11 月 26 日,周四周五不上课)、圣诞节 12 月 25 日(在寒假里)。共 12 行。",
-      "grammarFocusZh": "复习月份、序数词和日期读法;the fourth Thursday in November 这类说法;理解题考日期和'哪天不上课'。",
+      "titleZh": "美国节日日历", "goalZh": "会看节日日历上的日期,读懂“某月的第几个星期几”",
+      "canDoZh": "能看懂一张节日日历,说出每个节日的日期,读懂“十一月的第四个星期四”这类说法",
+      "scenarioZh": "体裁:日历(国际学生办公室发的“2026 年美国节日一览”)。说话人 narrator。按月份列出:新年 1 月 1 日、马丁·路德·金纪念日(一月的第三个星期一,2026 年是 1 月 19 日)、情人节 2 月 14 日(这年是星期六)、春节 2 月 17 日(晚上有派对)、国庆 7 月 4 日(晚上放烟花)、万圣节 10 月 31 日、感恩节(十一月的第四个星期四,2026 年是 11 月 26 日,周四周五不上课)、圣诞节 12 月 25 日(在寒假里)。共 12 行。",
+      "grammarFocusZh": "复习月份、序数词和日期读法;the fourth Thursday in November 这类说法;理解题考日期和“哪天不上课”。",
       "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
       "newItems": [
         { "id": "en.new_years_day", "kind": "phrase", "pos": "propn", "text": "New Year's Day", "zh": "元旦(1 月 1 日)", "features": { "ipa": "ˌnuː jɪrz ˈdeɪ" }, "noteZh": "New Year's 里的 's 不能漏;美国这天放假。" },
@@ -102,7 +102,7 @@
       "id": "en.a1u10.l05", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110050,
       "titleZh": "给索菲亚的生日惊喜", "goalZh": "会用 I can… / Can you…? 分工,说清楚活动的日期和时间",
       "canDoZh": "能和朋友一起计划一次活动:定日期和时间、分工、保密",
-      "scenarioZh": "(规划里这是 10-6;因为生日在 12 月 28 日、跨年在 31 日,按时间顺序挪到 10-5。)索菲亚 12 月 28 日过生日,家人都在墨西哥。12 月 26 日,艾米、磊和马库斯悄悄商量在索菲亚那栋楼的休息室给她办惊喜派对:28 号星期天晚上 7 点,艾米烤蛋糕,马库斯弹吉他,磊买零食、果汁和 20 根蜡烛,还负责约索菲亚来休息室'看电影';大家先藏起来。几个人一再互相提醒:It's a secret!。",
+      "scenarioZh": "(规划里这是 10-6;因为生日在 12 月 28 日、跨年在 31 日,按时间顺序挪到 10-5。)索菲亚 12 月 28 日过生日,家人都在墨西哥。12 月 26 日,艾米、磊和马库斯悄悄商量在索菲亚那栋楼的休息室给她办惊喜派对:28 号星期天晚上 7 点,艾米烤蛋糕,马库斯弹吉他,磊买零食、果汁和 20 根蜡烛,还负责约索菲亚来休息室“看电影”;大家先藏起来。几个人一再互相提醒:It's a secret!。",
       "grammarFocusZh": "用 can 分工(I can bake a cake. Can you get snacks?);日期和时间一起说:on Sunday, the 28th, at seven;复习 Let's… 和邀请。发音:surprise 重音在后 sur-PRISE,词尾是 /z/。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
       "newItems": [
@@ -121,7 +121,7 @@
       "id": "en.a1u10.l06", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-10 Happy holidays", "order": 110060,
       "titleZh": "生日派对上", "goalZh": "会说生日派对上的祝福和固定说法,用感叹句的语调",
       "canDoZh": "能在生日派对上说祝福、唱生日歌、送卡片,回应过生日的朋友",
-      "scenarioZh": "(规划里这是 10-7,按时间顺序挪到 10-6。)28 号晚上,索菲亚推门进来,大家喊 Surprise!,她激动得快哭了,马库斯给她一个大大的拥抱。马库斯弹吉他,大家唱生日歌,她许愿、吹灭 20 根蜡烛;艾米切蛋糕;磊送上一张卡片,上面用刚学的西班牙语写着'生日快乐',索菲亚笑着教他读。",
+      "scenarioZh": "(规划里这是 10-7,按时间顺序挪到 10-6。)28 号晚上,索菲亚推门进来,大家喊 Surprise!,她激动得快哭了,马库斯给她一个大大的拥抱。马库斯弹吉他,大家唱生日歌,她许愿、吹灭 20 根蜡烛;艾米切蛋糕;磊送上一张卡片,上面用刚学的西班牙语写着“生日快乐”,索菲亚笑着教他读。",
       "grammarFocusZh": "派对用语 Surprise! / Make a wish! / Blow out the candles! / Happy birthday!;蛋糕、蜡烛、卡片等派对词;so 加强语气(That's so sweet!)。发音:感叹句起音高、句末降调(Happy BIRTHday! ↘)。",
       "skills": ["listen", "read", "write"], "estimatedMinutes": 24.5,
       "newItems": [

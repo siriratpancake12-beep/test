@@ -2,7 +2,7 @@
   "id": "en.a1u18.l02", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
   "unit": "A1-18 Game on", "order": 118020,
   "titleZh": "我浑身都疼", "goalZh": "会用 … hurts / … hurt 和 sore 说自己哪儿疼,听懂朋友的简单建议", "canDoZh": "能说出自己哪儿疼、怎么弄的,听懂别人的简单建议",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
   "newItems": [
     { "id": "en.hurt", "kind": "word", "pos": "verb", "text": "hurt", "zh": "疼;弄疼", "features": { "ipa": "hɝːt" }, "noteZh": "主语是疼的部位:My leg hurts.(我腿疼);复数用 hurt:My legs hurt.;过去式也是 hurt。hurt /hɝːt/ 要卷舌,别和 heart /hɑːrt/(心脏)混。" },
     { "id": "en.sore", "kind": "word", "pos": "adj", "text": "sore", "zh": "(肌肉)酸痛的", "features": { "ipa": "sɔːr" }, "noteZh": "运动后肌肉酸痛说 My arms are sore.;第 8 单元的 sore throat(嗓子疼)也是这个词。" },

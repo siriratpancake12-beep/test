@@ -1,0 +1,40 @@
+{
+  "id": "fr.a1u2.r02", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102085,
+  "titleZh": "法国早餐和中国早餐(博客)", "goalZh": "读懂一篇比较中法早餐的短博客,复习部分冠词和说喜好的句子",
+  "canDoZh": "能读懂一篇比较早餐习惯的短文,说出法国人和中国人早餐常吃什么、喝什么",
+  "skills": ["read", "write"], "estimatedMinutes": 14,
+  "newItems": [
+    { "id": "fr.nouilles", "kind": "word", "pos": "noun", "text": "les nouilles", "zh": "面条", "features": { "gender": "f", "ipa": "le nuj" }, "noteZh": "平时用复数(阴性);ou 读 [u],-ille 读 [j]:[nuj]。" },
+    { "id": "fr.baozi", "kind": "word", "pos": "noun", "text": "le baozi", "zh": "包子", "features": { "gender": "m", "ipa": "lə ba.o.zi" }, "noteZh": "来自中文的外来词,法语里常说复数 les baozi。向法国朋友解释:un pain chinois avec de la viande(中国的肉馅面食)。" }
+  ],
+  "reviewItems": ["fr.petit_dejeuner", "fr.beurre", "fr.confiture", "fr.boire", "fr.pas_de", "fr.preferer"],
+  "lines": [
+    { "speaker": "hao", "text": "Petit-déjeuner français, petit-déjeuner chinois", "zh": "(浩在语伴网站上写了第一篇法语博客)标题:法式早餐和中式早餐", "items": ["fr.petit_dejeuner", "fr.francais", "fr.chinois"] },
+    { "speaker": "hao", "text": "Le petit-déjeuner français, c'est du pain avec du beurre et de la confiture.", "zh": "法式早餐是面包抹黄油和果酱。", "items": ["fr.petit_dejeuner", "fr.francais", "fr.cest", "fr.du", "fr.pain", "fr.avec", "fr.beurre", "fr.et", "fr.de_la", "fr.confiture"] },
+    { "speaker": "hao", "text": "Et vous, vous buvez du café ou du chocolat chaud.", "zh": "法国的朋友们喝咖啡或者热巧克力。", "items": ["fr.et", "fr.vous", "fr.boire", "fr.du", "fr.cafe", "fr.ou", "fr.chocolat_chaud"] },
+    { "speaker": "hao", "text": "Et le petit-déjeuner de Chengdu ? Moi, j'adore les nouilles et les baozi !", "zh": "那成都的早餐呢?我最爱吃面条和包子!", "items": ["fr.et", "fr.petit_dejeuner", "fr.de", "fr.moi", "fr.je", "fr.adorer", "fr.nouilles", "fr.baozi"] },
+    { "speaker": "hao", "text": "Les baozi, c'est un pain chinois avec de la viande.", "zh": "包子是一种中国面食,里面有肉。", "items": ["fr.baozi", "fr.cest", "fr.un", "fr.pain", "fr.chinois", "fr.avec", "fr.de_la", "fr.viande"] },
+    { "speaker": "hao", "text": "Avec les baozi, je bois du lait.", "zh": "吃包子的时候,我喝牛奶。", "items": ["fr.avec", "fr.baozi", "fr.je", "fr.boire", "fr.du", "fr.lait"] },
+    { "speaker": "hao", "text": "Je ne bois pas de café avec le petit-déjeuner.", "zh": "早餐时我不喝咖啡。", "items": ["fr.je", "fr.ne_pas", "fr.boire", "fr.pas_de", "fr.cafe", "fr.avec", "fr.petit_dejeuner"] },
+    { "speaker": "hao", "text": "Mais j'aime beaucoup les croissants. C'est délicieux !", "zh": "不过我很喜欢可颂,太好吃了!", "items": ["fr.mais", "fr.je", "fr.aimer", "fr.beaucoup", "fr.croissant", "fr.cest", "fr.delicieux"] },
+    { "speaker": "hao", "text": "Le petit-déjeuner français ou chinois ? J'aime les deux !", "zh": "法式早餐还是中式早餐?两种我都喜欢!", "items": ["fr.petit_dejeuner", "fr.francais", "fr.ou", "fr.chinois", "fr.je", "fr.aimer", "fr.deux"] },
+    { "speaker": "hao", "text": "Et vous ? Vous préférez le petit-déjeuner français ou chinois ?", "zh": "你们呢?你们更喜欢法式早餐还是中式早餐?", "items": ["fr.et", "fr.vous", "fr.preferer", "fr.petit_dejeuner", "fr.francais", "fr.ou", "fr.chinois"] },
+    { "speaker": "chloe", "text": "J'adore les baozi ! Bisous, Chloé", "zh": "(克洛艾在下面留言)我超爱吃包子!亲亲,克洛艾", "items": ["fr.je", "fr.adorer", "fr.baozi", "fr.bisous"] }
+  ],
+  "questions": [
+    { "prompt": "浩说法式早餐一般吃什么?", "options": ["面条和包子", "面包、黄油和果酱", "鸡蛋和米饭"], "answer": 1, "explainZh": "Le petit-déjeuner français, c'est du pain avec du beurre et de la confiture.(法式早餐是面包抹黄油和果酱。)" },
+    { "prompt": "浩吃包子的时候喝什么?", "options": ["咖啡", "热巧克力", "牛奶"], "answer": 2, "explainZh": "Avec les baozi, je bois du lait.(吃包子的时候,我喝牛奶。)他还说早餐时不喝咖啡。" },
+    { "prompt": "克洛艾在博客下面留言说了什么?", "options": ["她超爱吃包子", "她不喜欢面条", "她早餐喝茶"], "answer": 0, "explainZh": "克洛艾写的是 J'adore les baozi !(我超爱吃包子!)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.u2_articles_review", "titleZh": "复习:吃什么用 du / de la,喜欢什么用 le / la / les",
+      "bodyZh": "写早餐时两种冠词都会用到:\n1. 说吃、喝了一些(数不清的东西),用部分冠词:du pain、du café、de la confiture、de l'eau;否定以后都变成 de:Je ne bois pas de café.\n2. 说喜欢、更喜欢,用定冠词表示泛指:J'aime les croissants.、J'adore les baozi.、Je préfère le thé.\n再用 et(和)、mais(但是)、aussi(也)把短句连起来:J'aime le café, mais je ne bois pas de café avec le petit-déjeuner.\n博客里的 vous 指读者“大家”,翻译成“你们”或“大家”都可以。",
+      "examples": [
+        { "text": "Je bois du lait avec les baozi.", "zh": "我吃包子时喝牛奶。" },
+        { "text": "Je ne bois pas de café avec le petit-déjeuner.", "zh": "早餐时我不喝咖啡。" },
+        { "text": "J'aime beaucoup les croissants.", "zh": "我很喜欢可颂。" }
+      ] }
+  ],
+  "review": "draft"
+}

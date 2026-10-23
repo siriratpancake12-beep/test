@@ -1,0 +1,41 @@
+{
+  "id": "fr.a1u6.r02", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106085,
+  "titleZh": "里昂一日游(旅游攻略)", "goalZh": "读懂一份按时间顺序写的城市一日游攻略,说出先去哪儿、怎么去、坐哪条线", "canDoZh": "能看懂一份简单的城市一日游攻略(先去哪儿、怎么去、坐哪条线),给朋友推荐一条路线",
+  "skills": ["read", "speak"], "estimatedMinutes": 16,
+  "newItems": [
+    { "id": "fr.monter", "kind": "word", "pos": "verb", "text": "monter", "zh": "上去;登上;上(车)", "features": { "ipa": "mɔ̃.te" }, "noteZh": "规则的 -er 动词,和 descendre(下去;下车)相反;monter à Fourvière = 上富维耶山;on 读鼻化元音 [ɔ̃]。" },
+    { "id": "fr.funiculaire", "kind": "word", "pos": "noun", "text": "le funiculaire", "zh": "缆车(地面缆索铁路)", "features": { "gender": "m", "ipa": "lə fy.ni.ky.lɛʁ" }, "noteZh": "阳性;两个 u 都读 [y];坐缆车说 en funiculaire;里昂老城到富维耶山有缆车,用地铁票就能坐。" },
+    { "id": "fr.restaurant", "kind": "word", "pos": "noun", "text": "le restaurant", "zh": "餐馆;饭店", "features": { "gender": "m", "ipa": "lə ʁɛs.to.ʁɑ̃" }, "noteZh": "au 读 [o],an 读鼻化元音 [ɑ̃],词尾 t 不发音;在餐馆吃饭说 manger au restaurant。" }
+  ],
+  "reviewItems": ["fr.prendre", "fr.descendre", "fr.a_pied", "fr.metro", "fr.aller"],
+  "lines": [
+    { "speaker": "narrator", "text": "Lyon, de neuf heures à dix-huit heures !", "zh": "(语言中心发给新生的小册子)里昂一日游:从早上九点玩到傍晚六点!", "items": ["fr.de", "fr.neuf", "fr.heure", "fr.a", "fr.dix_huit"] },
+    { "speaker": "narrator", "text": "Le matin, prenez le métro, ligne D, et descendez à Vieux Lyon.", "zh": "上午坐地铁 D 线,在 Vieux Lyon(老城)站下车。", "items": ["fr.matin", "fr.prendre", "fr.metro", "fr.ligne", "fr.et", "fr.descendre", "fr.a"] },
+    { "speaker": "narrator", "text": "Après, montez à Fourvière, à pied ou en funiculaire.", "zh": "然后上富维耶山:走路上去,或者坐缆车。", "items": ["fr.apres", "fr.monter", "fr.a", "fr.a_pied", "fr.ou", "fr.en", "fr.funiculaire"] },
+    { "speaker": "narrator", "text": "À pied, c'est vingt minutes ; en funiculaire, trois minutes !", "zh": "走路要二十分钟,坐缆车只要三分钟!", "items": ["fr.a_pied", "fr.cest", "fr.vingt", "fr.minute", "fr.en", "fr.funiculaire", "fr.trois"] },
+    { "speaker": "narrator", "text": "À Fourvière, vous allez regarder la ville : c'est très beau !", "zh": "在富维耶山上,你们可以看整个城市,特别美!", "items": ["fr.a", "fr.vous", "fr.aller", "fr.regarder", "fr.ville", "fr.cest", "fr.tres", "fr.beau"] },
+    { "speaker": "narrator", "text": "À midi, descendez et mangez dans un restaurant du Vieux Lyon.", "zh": "中午下山,在老城的餐馆吃饭。", "items": ["fr.a", "fr.midi", "fr.descendre", "fr.et", "fr.manger", "fr.dans", "fr.un", "fr.restaurant", "fr.de", "fr.du"] },
+    { "speaker": "narrator", "text": "Les restaurants sont souvent petits, mais très bons !", "zh": "那里的餐馆一般都不大,可是很好吃!", "items": ["fr.restaurant", "fr.etre", "fr.souvent", "fr.petit", "fr.mais", "fr.tres", "fr.bon"] },
+    { "speaker": "narrator", "text": "L'après-midi, prenez le métro et allez à la Croix-Rousse.", "zh": "下午坐地铁去红十字区。", "items": ["fr.apres_midi", "fr.prendre", "fr.metro", "fr.et", "fr.aller", "fr.a"] },
+    { "speaker": "narrator", "text": "À la Croix-Rousse, il y a beaucoup de petites rues.", "zh": "红十字区有很多小街。", "items": ["fr.a", "fr.il_y_a", "fr.beaucoup", "fr.de", "fr.petit", "fr.rue"] },
+    { "speaker": "narrator", "text": "Montez et descendez les petites rues à pied : c'est très sympa !", "zh": "走路在小街上上下下,很有意思!", "items": ["fr.monter", "fr.et", "fr.descendre", "fr.petit", "fr.rue", "fr.a_pied", "fr.cest", "fr.tres", "fr.sympa"] },
+    { "speaker": "narrator", "text": "Le soir ? Vous allez bien dormir !", "zh": "晚上呢?你们一定会睡得很香!", "items": ["fr.soir", "fr.vous", "fr.aller", "fr.bien", "fr.dormir"] }
+  ],
+  "questions": [
+    { "prompt": "上午先去哪儿?", "options": ["红十字区", "老城(Vieux Lyon)", "Part-Dieu 火车站"], "answer": 1, "explainZh": "Le matin, prenez le métro, ligne D, et descendez à Vieux Lyon." },
+    { "prompt": "从老城上富维耶山,坐缆车要多久?", "options": ["二十分钟", "三分钟", "五分钟"], "answer": 1, "explainZh": "À pied, c'est vingt minutes ; en funiculaire, trois minutes !——走路二十分钟,坐缆车三分钟。" },
+    { "prompt": "小册子建议中午做什么?", "options": ["在红十字区逛小街", "在富维耶山上看城市", "在老城的餐馆吃饭"], "answer": 2, "explainZh": "À midi, descendez et mangez dans un restaurant du Vieux Lyon." },
+    { "prompt": "下午怎么去红十字区?", "options": ["坐地铁", "走路", "坐缆车", "坐公交"], "answer": 0, "explainZh": "L'après-midi, prenez le métro et allez à la Croix-Rousse.——到了以后再走路逛小街。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.guide_imperative_future", "titleZh": "旅游攻略:命令式和近将来时",
+      "bodyZh": "攻略用两种方式给建议:① vous 的命令式,直接告诉读者做什么:Prenez le métro. Descendez à Vieux Lyon. Montez à Fourvière.;② 近将来时 vous allez + 动词原形,告诉读者“到时候会……”:Vous allez regarder la ville.(你们会看到整个城市。)Vous allez bien dormir !(你们会睡得很香!)\n交通方式:自己走用 à(à pied),坐车用 en(en métro、en funiculaire)。\nde + le 要缩合成 du:un restaurant du Vieux Lyon(老城的一家餐馆)。\n写路线按时间顺序:le matin… après… à midi… l'après-midi… le soir…。读完试着用这些句子给刚到里昂的朋友排一条路线。",
+      "examples": [
+        { "text": "Prenez le métro, ligne D.", "zh": "坐地铁 D 线。" },
+        { "text": "Montez à Fourvière à pied.", "zh": "走路上富维耶山。" },
+        { "text": "Vous allez regarder la ville.", "zh": "你们会看到整个城市。" }
+      ] }
+  ],
+  "review": "draft"
+}

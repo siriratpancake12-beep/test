@@ -1,0 +1,191 @@
+{
+ "lang": "en",
+ "levels": ["A1"],
+ "units": [
+  { "unit": "A1-19 How are you feeling?", "cefr": "A1", "themeZh": "外貌、性格和心情:说自己和别人的感受、关心想家的朋友、描述性格、聊新发型和外貌细节、安慰和鼓励朋友、分享好消息,用 with / in 认出照片里的人" }
+ ],
+ "lessons": [
+  {
+   "id": "en.a1u19.l01", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119010,
+   "titleZh": "你看起来很累",
+   "goalZh": "会用 be / feel + 形容词说自己现在的心情,注意到别人不对劲时关心一句",
+   "canDoZh": "能说出自己现在的心情,注意到朋友不对劲时会关心地问一句",
+   "scenarioZh": "期中考试周,磊在咖啡馆上班时一直打哈欠。马库斯问 Lei, you're so quiet today. Are you OK?;磊说 I'm tired. And I'm really stressed. I have three exams this week.;马库斯拉他一起猜店里顾客的心情:那个男生很担心,那个女生很无聊,那个男顾客在生气——他的咖啡还没好。劳拉今天心情很好,因为店里生意最好;马库斯说自己很紧张,因为周六乐队有大演出。",
+   "grammarFocusZh": "心情词 stressed、worried、bored、angry、calm 和 mood(复习 tired、nervous、quiet);I'm + 形容词 / I feel + 形容词,How do you feel?;-ed 形容词说人的感受,和第 8 单元的 boring 对比。发音:worried /ˈwɝːid/ 的卷舌元音;stressed 的 -ed 读 /t/。",
+   "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+   "newItems": [
+    { "id": "en.feel", "kind": "word", "pos": "verb", "text": "feel", "zh": "感觉;觉得", "features": { "ipa": "fiːl" }, "noteZh": "feel + 形容词说感受:I feel nervous.;问别人 How do you feel?;第 8 单元的 I don't feel well 也是这个词。ee 读长音,结尾是“暗 L”。" },
+    { "id": "en.stressed", "kind": "word", "pos": "adj", "text": "stressed", "zh": "压力大的;紧张焦虑的", "features": { "ipa": "strest" }, "noteZh": "中文说“我压力好大”,英语说 I'm stressed.;-ed 读 /t/,整个词只有一个音节。" },
+    { "id": "en.exam", "kind": "word", "pos": "noun", "text": "exam", "zh": "考试", "features": { "ipa": "ɪɡˈzæm" }, "noteZh": "重音在后 ex-AM,x 读 /ɡz/;I have an exam. 我有考试。" },
+    { "id": "en.worried", "kind": "word", "pos": "adj", "text": "worried", "zh": "担心的", "features": { "ipa": "ˈwɝːid" }, "noteZh": "worried about…(为……担心);or 读卷舌的 /ɝː/,-ied 读 /id/,一共两个音节。" },
+    { "id": "en.bored", "kind": "word", "pos": "adj", "text": "bored", "zh": "(人)感到无聊的", "features": { "ipa": "bɔːrd" }, "noteZh": "人觉得没意思说 I'm bored.;东西没意思用 boring(第 8 单元):The class is boring.;说 I'm boring 是“我这个人很无聊”。" },
+    { "id": "en.angry", "kind": "word", "pos": "adj", "text": "angry", "zh": "生气的", "features": { "ipa": "ˈæŋɡri" }, "noteZh": "ang 读 /æŋ/,后面的 g 要发出来;He's angry. 他在生气。" },
+    { "id": "en.mood", "kind": "word", "pos": "noun", "text": "mood", "zh": "心情;情绪", "features": { "ipa": "muːd" }, "noteZh": "be in a good mood 心情好,in a bad mood 心情不好;oo 读长音 /uː/。" },
+    { "id": "en.calm", "kind": "word", "pos": "adj", "text": "calm", "zh": "冷静的;平静的", "features": { "ipa": "kɑːm" }, "noteZh": "l 不发音,读 /kɑːm/;She's always calm. 她总是很冷静。" }
+   ],
+   "reviewItems": ["en.tired", "en.quiet", "en.guess", "en.nervous", "en.concert"]
+  },
+  {
+   "id": "en.a1u19.l02", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119020,
+   "titleZh": "你现在感觉怎么样?",
+   "goalZh": "会用 How are you feeling? 关心别人,用 I'm feeling… / I feel better. 说自己这几天的感受",
+   "canDoZh": "能用 How are you feeling? 关心别人,说出自己这几天的感受",
+   "scenarioZh": "索菲亚这个星期话很少。磊问 Sofia, how are you feeling? You're so quiet this week.;她说双胞胎妹妹昨天过 14 岁生日,全家开了个大派对,只有她不在,她很想家、有点孤单,家乡太远了。磊说他有时候也想家,那时就给妈妈打电话或者做川菜;最后磊说 Cheer up! Let's go for ice cream.,索菲亚说她感觉好多了,笑了。",
+   "grammarFocusZh": "How are you feeling?(关心对方此刻、这几天的状态)和打招呼的 How are you? 不同;feel 可以用现在进行时说暂时的感受(I'm feeling homesick.);feel better(复习第 8 单元 get better)。发音:feeling 的长元音 /iː/ 和结尾前的“暗 L”。",
+   "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+   "newItems": [
+    { "id": "en.homesick", "kind": "word", "pos": "adj", "text": "homesick", "zh": "想家的", "features": { "ipa": "ˈhoʊmsɪk" }, "noteZh": "home + sick,想家想得难受;复合词重音在前 HOME-sick:I'm homesick. / I feel homesick.。" },
+    { "id": "en.lonely", "kind": "word", "pos": "adj", "text": "lonely", "zh": "孤独的;寂寞的", "features": { "ipa": "ˈloʊnli" }, "noteZh": "lonely 说心里孤单;一个人待着不一定 lonely(alone 只是“独自”);o 读 /oʊ/。" },
+    { "id": "en.feel_better", "kind": "phrase", "pos": "verb", "text": "feel better", "zh": "感觉好些了", "features": { "ipa": "ˌfiːl ˈbet̬ɚ" }, "noteZh": "I feel better now. 我现在好多了;better 中间的 tt 读闪音,像轻轻的 d。" },
+    { "id": "en.ice_cream", "kind": "phrase", "pos": "noun", "text": "ice cream", "zh": "冰淇淋", "features": { "ipa": "ˈaɪs ˌkriːm" }, "noteZh": "一般不可数:some ice cream;两个词,重音在前 ICE cream。" },
+    { "id": "en.without", "kind": "word", "pos": "prep", "text": "without", "zh": "没有;不带", "features": { "ipa": "wɪˈðaʊt" }, "noteZh": "without me 没有我(我不在);th 读浊音 /ð/,重音在后 with-OUT。" },
+    { "id": "en.cheer_up", "kind": "phrase", "pos": "phrase", "text": "Cheer up", "zh": "振作点!;开心点!", "features": { "ipa": "ˌtʃɪr ˈʌp" }, "noteZh": "朋友不开心时说 Cheer up!;ch 读 /tʃ/,eer 读 /ɪr/,和 up 连读。" },
+    { "id": "en.away", "kind": "word", "pos": "adv", "text": "away", "zh": "在远处;离开", "features": { "ipa": "əˈweɪ" }, "noteZh": "far away 很远;重音在后 a-WAY,开头的 a 弱读。" },
+    { "id": "en.hometown", "kind": "word", "pos": "noun", "text": "hometown", "zh": "家乡", "features": { "ipa": "ˈhoʊmtaʊn" }, "noteZh": "my hometown 我的家乡;复合词,重音在前 HOME-town。" }
+   ],
+   "reviewItems": ["en.twins", "en.sister", "en.miss", "en.far", "en.laugh"]
+  },
+  {
+   "id": "en.a1u19.l03", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119030,
+   "titleZh": "她是个什么样的人?",
+   "goalZh": "会用几个性格词描述一个人,并用 always / never 举一个例子说明",
+   "canDoZh": "能用几个性格词描述一个人,并举一个例子说明",
+   "scenarioZh": "写作课上,教授(professor)让大家两人一组,说说家里的一个人。磊说奶奶:很有耐心,从来不生气,每天给全家做饭,很勤劳,还很幽默;索菲亚说妈妈:当护士工作很努力,做事很有条理,有礼貌又外向,医院里大家都喜欢她。磊问索菲亚自己是不是也有条理,她说自己很有创意,但特别乱。",
+   "grammarFocusZh": "性格词 patient、hard-working、organized、outgoing、polite、creative、messy(复习第 2 单元的 nice、friendly、shy、funny 和本单元的 calm、angry);用 always / never 加例子(She's never angry.),For example?;复习 What's she like? 和 What does she look like? 的区别。发音:patient /ˈpeɪʃənt/ 的 /ʃ/ 和弱元音。",
+   "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+   "newItems": [
+    { "id": "en.patient", "kind": "word", "pos": "adj", "text": "patient", "zh": "有耐心的", "features": { "ipa": "ˈpeɪʃənt" }, "noteZh": "ti 读 /ʃ/,后面是弱元音,别读成“佩提恩特”;patient 当名词还有“病人”的意思。" },
+    { "id": "en.for_example", "kind": "phrase", "pos": "phrase", "text": "For example", "zh": "比如;例如", "features": { "ipa": "fɚ ɪɡˈzæmpəl" }, "noteZh": "举例子时说 For example,…;老师追问 For example? 就是“能举个例子吗?”;example 重音在 -XAM-。" },
+    { "id": "en.hard_working", "kind": "word", "pos": "adj", "text": "hard-working", "zh": "勤劳的;努力的", "alt": ["hardworking", "hard working"], "features": { "ipa": "ˌhɑːrdˈwɝːkɪŋ" }, "noteZh": "形容词,中间常加连字符;She's hard-working. 和 She works hard.(第 18 单元)意思一样。" },
+    { "id": "en.organized", "kind": "word", "pos": "adj", "text": "organized", "zh": "有条理的;井井有条的", "features": { "ipa": "ˈɔːrɡənaɪzd" }, "noteZh": "美式拼写 -ized(英式 organised);重音在前 OR-ga-nized,-ed 读 /d/。" },
+    { "id": "en.outgoing", "kind": "word", "pos": "adj", "text": "outgoing", "zh": "外向的;爱交际的", "features": { "ipa": "ˈaʊtˌɡoʊɪŋ" }, "noteZh": "和 shy(害羞)相反;重音在前 OUT-going。" },
+    { "id": "en.polite", "kind": "word", "pos": "adj", "text": "polite", "zh": "有礼貌的", "features": { "ipa": "pəˈlaɪt" }, "noteZh": "重音在后 po-LITE,前面的 o 弱读;没礼貌是 rude。" },
+    { "id": "en.creative", "kind": "word", "pos": "adj", "text": "creative", "zh": "有创意的;有创造力的", "features": { "ipa": "kriˈeɪt̬ɪv" }, "noteZh": "重音在第二个音节 cre-A-tive,t 读闪音;creative 的人点子多、爱动手做东西。" },
+    { "id": "en.messy", "kind": "word", "pos": "adj", "text": "messy", "zh": "乱的;不爱收拾的", "features": { "ipa": "ˈmesi" }, "noteZh": "My room is messy. 房间很乱;说人 messy 是“不爱收拾”,常带开玩笑的口气。" }
+   ],
+   "reviewItems": ["en.grandma", "en.funny", "en.nurse", "en.whats_he_like", "en.angry"]
+  },
+  {
+   "id": "en.a1u19.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119040,
+   "titleZh": "你剪头发了?",
+   "goalZh": "会注意到朋友外貌上的变化并夸一句,用更多的词描述头发和胡子",
+   "canDoZh": "能注意到朋友外貌上的变化并夸一句,用更多的词描述一个人的长相",
+   "scenarioZh": "磊剪了一个很短的发型回到宿舍。伊森一眼看出来:Lei! Is that a new haircut? It looks good on you, man!;艾米翻出马库斯大一时的照片——长长的卷发、还留着大胡子,现在是长直发、没有胡子;伊森说他也想留胡子和小胡子,磊说 Please don't!;艾米说她十岁时是金发,伊森不信。最后磊说伊森很帅,用不着留胡子。",
+   "grammarFocusZh": "外貌描述扩充:curly / straight / blond hair、a beard、a mustache、grow a beard;has + 外貌,wears + 衣物(Diego wears glasses.);描述头发的顺序:长短 → 卷直 → 颜色;复习 It looks good on you!。发音:beard /bɪrd/ 和 bird /bɝːd/ 要分清。",
+   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+   "newItems": [
+    { "id": "en.haircut", "kind": "word", "pos": "noun", "text": "haircut", "zh": "理发;发型", "features": { "ipa": "ˈherkʌt" }, "noteZh": "New haircut? 剪头发了?;get a haircut 去理发;复合词重音在前 HAIR-cut。" },
+    { "id": "en.curly", "kind": "word", "pos": "adj", "text": "curly", "zh": "卷曲的(头发)", "features": { "ipa": "ˈkɝːli" }, "noteZh": "curly hair 卷发;ur 读卷舌的 /ɝː/。" },
+    { "id": "en.straight", "kind": "word", "pos": "adj", "text": "straight", "zh": "直的(头发)", "features": { "ipa": "streɪt" }, "noteZh": "straight hair 直发;gh 不发音,读 /streɪt/;第 5 单元 go straight(直走)里也是这个词。" },
+    { "id": "en.blond", "kind": "word", "pos": "adj", "text": "blond", "zh": "金色的(头发)", "alt": ["blonde"], "features": { "ipa": "blɑːnd" }, "noteZh": "blond hair 金发;说女生时也常拼成 blonde,读音一样。" },
+    { "id": "en.beard", "kind": "word", "pos": "noun", "text": "beard", "zh": "(下巴和脸颊上的)胡子", "features": { "ipa": "bɪrd" }, "noteZh": "读 /bɪrd/,别和 bird /bɝːd/(鸟)混;上唇的小胡子是 mustache。" },
+    { "id": "en.mustache", "kind": "word", "pos": "noun", "text": "mustache", "zh": "(上唇的)小胡子", "features": { "ipa": "ˈmʌstæʃ" }, "noteZh": "美式拼写 mustache(英式 moustache);重音在前,u 读 /ʌ/。" },
+    { "id": "en.grow", "kind": "word", "pos": "verb", "text": "grow", "zh": "留(胡子、头发);长", "features": { "ipa": "ɡroʊ" }, "noteZh": "grow a beard 留胡子;ow 读 /oʊ/,过去式 grew /ɡruː/。" },
+    { "id": "en.handsome", "kind": "word", "pos": "adj", "text": "handsome", "zh": "帅的;英俊的", "features": { "ipa": "ˈhænsəm" }, "noteZh": "d 不发音,读 /ˈhænsəm/;一般夸男生,夸女生用 beautiful 或 pretty。" }
+   ],
+   "reviewItems": ["en.hair", "en.short", "en.long", "en.looks_good_on_you", "en.photo", "en.freshman"]
+  },
+  {
+   "id": "en.a1u19.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119045,
+   "titleZh": "性格小测验",
+   "goalZh": "读懂一份杂志式的性格小测验,按题目选答案,看懂结果说明里的性格词",
+   "canDoZh": "能读懂一份杂志式的性格小测验,按题目选答案,看懂结果说明",
+   "scenarioZh": "体裁:小测验(学生杂志上的《Which Friend Are You?》)。说话人 narrator。六道题,每题三个很短的选项(周五晚上做什么、朋友担心时你会怎么做、你的房间、你在群聊里、你是什么性格、朋友迟到时你的感受),最后按选 a、b、c 多少给出三种结果:a 多是“贴心的倾听者”,b 多是“有趣的开心果”,c 多是“靠谱的组织者”。12 行。",
+   "grammarFocusZh": "复习性格词和心情词;小测验里的省略写法(a) listen = I listen.);读结果说明时找 be + 形容词(You're patient and calm.)。",
+   "skills": ["read", "listen", "speak"], "estimatedMinutes": 15,
+   "newItems": [
+    { "id": "en.mostly", "kind": "word", "pos": "adv", "text": "mostly", "zh": "大部分;主要", "features": { "ipa": "ˈmoʊstli" }, "noteZh": "Mostly a's? 大部分选了 a?;st 后面接 l,t 常常读得很轻。" },
+    { "id": "en.listener", "kind": "word", "pos": "noun", "text": "listener", "zh": "听的人;倾听者", "features": { "ipa": "ˈlɪsənɚ" }, "noteZh": "a good listener 会倾听的人;t 不发音,和 listen 一样。" }
+   ],
+   "reviewItems": ["en.patient", "en.outgoing", "en.organized", "en.calm", "en.bored", "en.worried"]
+  },
+  {
+   "id": "en.a1u19.l05", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119050,
+   "titleZh": "别难过",
+   "goalZh": "会安慰遇到挫折的朋友:表示同情、讲自己的经历、鼓励对方",
+   "canDoZh": "能安慰遇到挫折的朋友:表示同情、分享自己的经历、鼓励对方",
+   "scenarioZh": "索菲亚的生物考试只拿了 D,坐在图书馆门口的台阶上,眼睛红红的。磊说 I'm sorry to hear that. Do you want to talk?;她说自己学了一整个星期,可题太难了;磊说 That's too bad. Take a deep breath.,讲自己第一份英语作业只拿了 C,后来去找教授、问了很多问题,现在学得很好;他说 Nobody's perfect. You can do it!,约她当学习伙伴,周五带笔记一起复习。索菲亚说谢谢他的建议,她感觉好多了;磊又拉她去吃冰淇淋。",
+   "grammarFocusZh": "安慰和鼓励:I'm sorry to hear that. / That's too bad. / Take a deep breath. / You can do it! / Cheer up!;用过去时讲自己的经历,再用 now 说现在;advice 不可数。发音:同情时语速放慢、音调放低(I'm sorry to hear that ↘)。",
+   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+   "newItems": [
+    { "id": "en.upset", "kind": "word", "pos": "adj", "text": "upset", "zh": "难过的;心烦的", "features": { "ipa": "ʌpˈset" }, "noteZh": "I'm upset. 我很难过、心里很乱;重音在后 up-SET。" },
+    { "id": "en.sorry_to_hear_that", "kind": "phrase", "pos": "phrase", "text": "I'm sorry to hear that", "zh": "听到这个消息我很难过", "alt": ["Sorry to hear that", "I am sorry to hear that"], "features": { "ipa": "aɪm ˈsɑːri tə ˈhɪr ðæt" }, "noteZh": "听到别人的坏消息时表示同情,这里的 sorry 不是道歉;说的时候语速放慢、音调放低。" },
+    { "id": "en.thats_too_bad", "kind": "phrase", "pos": "phrase", "text": "That's too bad", "zh": "太遗憾了;真糟糕", "alt": ["That is too bad"], "features": { "ipa": "ðæts ˌtuː ˈbæd" }, "noteZh": "表示同情的固定说法,这里的 too bad 不是“太坏”;bad 的 a 读 /æ/。" },
+    { "id": "en.difficult", "kind": "word", "pos": "adj", "text": "difficult", "zh": "难的;困难的", "features": { "ipa": "ˈdɪfɪkəlt" }, "noteZh": "重音在前 DIF-fi-cult;和 hard 意思差不多,difficult 稍微正式一点。" },
+    { "id": "en.take_a_deep_breath", "kind": "phrase", "pos": "phrase", "text": "Take a deep breath", "zh": "深呼吸", "features": { "ipa": "ˌteɪk ə ˌdiːp ˈbreθ" }, "noteZh": "breath /breθ/ 是名词“一口气”,结尾是清音 th;动词 breathe /briːð/(第 18 单元)读音不同。" },
+    { "id": "en.study_buddy", "kind": "phrase", "pos": "noun", "text": "study buddy", "zh": "学习伙伴", "features": { "ipa": "ˈstʌdi ˌbʌdi" }, "noteZh": "buddy 是口语的“伙伴、哥们儿”;Let's be study buddies! 我们一起学习吧!" },
+    { "id": "en.note", "kind": "word", "pos": "noun", "text": "note", "zh": "笔记", "features": { "ipa": "noʊt" }, "noteZh": "上课的笔记一般用复数 notes:take notes 记笔记;o 读双元音 /oʊ/。" },
+    { "id": "en.advice", "kind": "word", "pos": "noun", "text": "advice", "zh": "建议;忠告", "features": { "ipa": "ədˈvaɪs" }, "noteZh": "不可数,不说 an advice、advices:Thanks for the advice.;结尾读 /s/,动词 advise 结尾读 /z/。" }
+   ],
+   "reviewItems": ["en.exam", "en.homework", "en.professor", "en.cheer_up", "en.feel_better", "en.ice_cream"]
+  },
+  {
+   "id": "en.a1u19.l06", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119060,
+   "titleZh": "太棒了!",
+   "goalZh": "会用 What a…! / How…! 和 Congratulations! 回应好消息,也能分享自己的好消息",
+   "canDoZh": "能听到好消息时用感叹句真心地回应,也能和别人分享自己的好消息",
+   "scenarioZh": "这一周好消息不断:马库斯的乐队要去一个大型音乐节演出,磊的大考试拿了 A,索菲亚和磊一起复习后,新的生物考试拿了 B。大家互相祝贺:Congratulations! What great news! / How exciting! / What a great week!;劳拉说 Excellent work, everyone! Let's celebrate. It's on me!,请大家喝咖啡。",
+   "grammarFocusZh": "感叹句:What + a / an + 形容词 + 名词!(What a great week!)/ How + 形容词!(How exciting!);不可数名词前不加 a(What great news!);Congratulations! 后面接 on…;I'm so proud of you.;It's on me.(我请客)。发音:Congratulations 重音在 -LA-;感叹句起音高、句末降调。",
+   "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+   "newItems": [
+    { "id": "en.congratulations", "kind": "word", "pos": "interj", "text": "Congratulations", "zh": "恭喜;祝贺", "alt": ["Congrats"], "features": { "ipa": "kənˌɡrætʃəˈleɪʃənz" }, "noteZh": "一般用复数;祝贺具体的事加 on:Congratulations on your A!;口语简写 Congrats!;重音在 -LA-。" },
+    { "id": "en.festival", "kind": "word", "pos": "noun", "text": "festival", "zh": "节日;(音乐、文化)节", "features": { "ipa": "ˈfestəvəl" }, "noteZh": "a music festival 音乐节;重音在前 FES-ti-val。" },
+    { "id": "en.exciting", "kind": "word", "pos": "adj", "text": "exciting", "zh": "令人兴奋的;激动人心的", "features": { "ipa": "ɪkˈsaɪt̬ɪŋ" }, "noteZh": "How exciting! 太让人激动了!;说事情用 exciting,说人的心情用 excited。" },
+    { "id": "en.proud", "kind": "word", "pos": "adj", "text": "proud", "zh": "骄傲的;自豪的", "features": { "ipa": "praʊd" }, "noteZh": "be proud of… 为……骄傲:I'm proud of you!;ou 读 /aʊ/。" },
+    { "id": "en.fantastic", "kind": "word", "pos": "adj", "text": "fantastic", "zh": "太棒了;极好的", "features": { "ipa": "fænˈtæstɪk" }, "noteZh": "That's fantastic! 太棒了!;重音在第二个音节 fan-TAS-tic。" },
+    { "id": "en.excellent", "kind": "word", "pos": "adj", "text": "excellent", "zh": "优秀的;极好的", "features": { "ipa": "ˈeksələnt" }, "noteZh": "Excellent work! 干得非常好!;重音在前 EX-cel-lent。" },
+    { "id": "en.celebrate", "kind": "word", "pos": "verb", "text": "celebrate", "zh": "庆祝", "features": { "ipa": "ˈseləbreɪt" }, "noteZh": "Let's celebrate! 咱们庆祝一下!;重音在前 CEL-e-brate。" },
+    { "id": "en.its_on_me", "kind": "phrase", "pos": "phrase", "text": "It's on me", "zh": "我请客", "alt": ["It is on me", "This is on me"], "features": { "ipa": "ɪts ˈɑːn mi" }, "noteZh": "请朋友喝东西、吃饭时说;不要说 I invite you,英语里那像正式邀请。" }
+   ],
+   "reviewItems": ["en.news", "en.band", "en.exam", "en.biology", "en.cant_wait"]
+  },
+  {
+   "id": "en.a1u19.l07", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119070,
+   "titleZh": "戴眼镜的那个人是谁?",
+   "goalZh": "会用 with / in 描述照片里的人,让别人一下子认出是谁",
+   "canDoZh": "能用 with / in 描述照片里的人,让别人一下子认出是谁",
+   "scenarioZh": "店里不忙,磊给劳拉看手机里滑雪和感恩节的照片,劳拉一个个问:Who's the girl in the yellow hoodie? — That's Sofia. And the guy in the purple jacket is Ethan.;And the guy with the beard? — That's Marcus's friend from the band.;Who's the woman with long curly hair and big earrings? — That's Amy's mom. The man in the suit and tie is her dad.;穿蓝裙子、笑得最开心的是艾米。",
+   "grammarFocusZh": "用 with 和 in 描述人:with + 长相、胡子、首饰(the guy with the beard),in + 衣服、颜色(the girl in the yellow hoodie);放在名词后面,中文要放前面(“戴眼镜的那个人”);复习 Who's…? — That's…。发音:with /wɪð/ 的浊音 th(复习第 2 单元)。",
+   "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+   "newItems": [
+    { "id": "en.yellow", "kind": "word", "pos": "adj", "text": "yellow", "zh": "黄色的", "features": { "ipa": "ˈjeloʊ" }, "noteZh": "开头是 /j/,舌面先抬高;结尾 ow 读 /oʊ/,别读成“也楼”。" },
+    { "id": "en.hoodie", "kind": "word", "pos": "noun", "text": "hoodie", "zh": "连帽衫;卫衣", "features": { "ipa": "ˈhʊdi" }, "noteZh": "美国大学生最常穿的衣服之一;oo 读短音 /ʊ/。" },
+    { "id": "en.purple", "kind": "word", "pos": "adj", "text": "purple", "zh": "紫色的", "features": { "ipa": "ˈpɝːpəl" }, "noteZh": "ur 读卷舌的 /ɝː/,结尾 ple 读 /pəl/。" },
+    { "id": "en.earring", "kind": "word", "pos": "noun", "text": "earring", "zh": "耳环;耳钉", "features": { "ipa": "ˈɪrɪŋ" }, "noteZh": "ear(耳朵)+ ring(环),一般说复数 earrings(一对)。" },
+    { "id": "en.suit", "kind": "word", "pos": "noun", "text": "suit", "zh": "西装;套装", "features": { "ipa": "suːt" }, "noteZh": "a suit and tie 西装加领带;ui 读长音 /uː/。" },
+    { "id": "en.tie", "kind": "word", "pos": "noun", "text": "tie", "zh": "领带", "features": { "ipa": "taɪ" }, "noteZh": "wear a tie 打领带;ie 读 /aɪ/。" },
+    { "id": "en.dress", "kind": "word", "pos": "noun", "text": "dress", "zh": "连衣裙", "features": { "ipa": "dres" }, "noteZh": "a blue dress 一条蓝色连衣裙;dr 连在一起,像“拽”的声母。" },
+    { "id": "en.smile", "kind": "word", "pos": "noun", "text": "smile", "zh": "微笑;笑容", "features": { "ipa": "smaɪl" }, "noteZh": "微笑是 smile,笑出声是 laugh(第 3 单元);a big smile 灿烂的笑容;也能当动词:Smile!" }
+   ],
+   "reviewItems": ["en.beard", "en.curly", "en.snowboard", "en.thanksgiving", "en.jacket"]
+  },
+  {
+   "id": "en.a1u19.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119080,
+   "titleZh": "单元复习:给索菲亚加油",
+   "goalZh": "把心情词、feel、感叹句和鼓励的话串起来,在朋友上台前打气、结束后说出大家的感受",
+   "canDoZh": "能在朋友上台前给她打气,结束后说出大家的感受和对表演的评价",
+   "scenarioZh": "学校的文化节上索菲亚要跳墨西哥舞。上台前她紧张得手发抖,磊、艾米和马库斯轮流给她打气:Take a deep breath. You're going to be awesome! / Your dress is so beautiful! / That's normal. I feel nervous at every concert, too.;表演结束,大家冲上去:What a show! How do you feel now? — I feel awesome!;索菲亚说她在台上看到了人群里的磊,就不害怕了。14 句。",
+   "grammarFocusZh": "复习心情词、feel + 形容词、感叹句、安慰和鼓励的说法。发音:用语调表达情绪——安慰时放慢、放低,兴奋时音调起伏大。",
+   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+   "newItems": [
+    { "id": "en.shake", "kind": "word", "pos": "verb", "text": "shake", "zh": "发抖;摇", "features": { "ipa": "ʃeɪk" }, "noteZh": "My hands are shaking. 我的手在发抖;shake hands 握手;a 读 /eɪ/。" },
+    { "id": "en.stage", "kind": "word", "pos": "noun", "text": "stage", "zh": "舞台", "features": { "ipa": "steɪdʒ" }, "noteZh": "on the stage 在台上;a 读 /eɪ/,结尾 ge 读 /dʒ/。" },
+    { "id": "en.crowd", "kind": "word", "pos": "noun", "text": "crowd", "zh": "人群", "features": { "ipa": "kraʊd" }, "noteZh": "in the crowd 在人群里;ow 读 /aʊ/,结尾 d 轻轻收住。" }
+   ],
+   "reviewItems": ["en.nervous", "en.scared", "en.take_a_deep_breath", "en.proud", "en.feel", "en.dress"]
+  },
+  {
+   "id": "en.a1u19.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-19 How are you feeling?", "order": 119085,
+   "titleZh": "磊的日记:糟糕的一天,温暖的晚上",
+   "goalZh": "读懂一篇写心情变化的日记,说出作者为什么难过、后来为什么开心",
+   "canDoZh": "能读懂一篇写心情变化的日记,说出作者为什么难过、后来为什么开心",
+   "scenarioZh": "体裁:日记。说话人 lei(第一人称)。磊写这一天:起晚了,作业落在宿舍,路上下雨只好跑着去上课,上班时把热咖啡洒在了自己的 T 恤上,压力很大、很难过;可是晚上很好:伊森给他煮了面(用的还是磊的面),索菲亚发消息说 Cheer up! You can do it!,艾米打电话来聊了一个小时;最后写:有朋友真好。11 句。",
+   "grammarFocusZh": "复习一般过去时和心情词;用 but、then、now 写出心情的转折。",
+   "skills": ["read", "listen", "speak"], "estimatedMinutes": 15,
+   "newItems": [
+    { "id": "en.spill", "kind": "word", "pos": "verb", "text": "spill", "zh": "洒;泼", "features": { "ipa": "spɪl" }, "noteZh": "I spilled coffee on my T-shirt. 我把咖啡洒在 T 恤上了;美式过去式 spilled。" }
+   ],
+   "reviewItems": ["en.stressed", "en.upset", "en.cheer_up", "en.feel_better", "en.noodles", "en.text"]
+  }
+ ]
+}

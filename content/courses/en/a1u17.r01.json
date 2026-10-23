@@ -1,0 +1,45 @@
+{
+  "id": "en.a1u17.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-17 Let's cook", "order": 117045,
+  "titleZh": "奶奶的饺子菜谱", "goalZh": "读懂一份英文菜谱的材料和步骤,说出用量和先后顺序", "canDoZh": "能看懂一份菜谱:要哪些材料、各用多少、按什么步骤做",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 18,
+  "newItems": [
+    { "id": "en.ingredient", "kind": "word", "pos": "noun", "text": "ingredient", "zh": "(做菜的)材料;配料", "features": { "ipa": "ɪnˈɡriːdiənt" }, "noteZh": "菜谱第一部分叫 Ingredients(材料);重音在第二个音节 in-GRE-di-ent。" },
+    { "id": "en.step", "kind": "word", "pos": "noun", "text": "step", "zh": "步骤;一步", "features": { "ipa": "step" }, "noteZh": "菜谱第二部分叫 Steps(步骤);step by step 一步一步地;st 中间不加元音。" },
+    { "id": "en.chop", "kind": "word", "pos": "verb", "text": "chop", "zh": "剁;切碎", "features": { "ipa": "tʃɑːp" }, "noteZh": "chop 是切成小块、剁碎,比 cut 更具体;o 读 /ɑː/。" },
+    { "id": "en.add", "kind": "word", "pos": "verb", "text": "add", "zh": "加;添加", "features": { "ipa": "æd" }, "noteZh": "add salt 加盐;第 6 单元学过 add to cart(加入购物车);a 读 /æ/。" }
+  ],
+  "reviewItems": ["en.flour", "en.pound", "en.spoonful", "en.filling", "en.fold", "en.boil"],
+  "lines": [
+    { "speaker": "narrator", "text": "Grandma's Pork Dumplings (for 4 people)", "zh": "(磊把奶奶的菜谱整理成了英文)奶奶的猪肉饺子(4 人份)", "items": ["en.grandma", "en.pork", "en.dumpling", "en.people"] },
+    { "speaker": "narrator", "text": "Ingredients: 4 cups of flour, 2 cups of water, and 1 pound of pork", "zh": "材料:面粉 4 杯,水 2 杯,猪肉 1 磅", "items": ["en.ingredient", "en.cup", "en.flour", "en.water", "en.pound", "en.pork"] },
+    { "speaker": "narrator", "text": "Half a cabbage, 3 green onions, and a little ginger", "zh": "白菜半棵,葱 3 根,姜一点", "items": ["en.half", "en.cabbage", "en.green_onion", "en.a_little", "en.ginger"] },
+    { "speaker": "narrator", "text": "2 spoonfuls of soy sauce and a little salt", "zh": "酱油 2 勺,盐少许", "items": ["en.spoonful", "en.soy_sauce", "en.a_little", "en.salt"] },
+    { "speaker": "narrator", "text": "No time? Buy dumpling wrappers, not flour!", "zh": "没时间?直接买饺子皮,不用买面粉!", "items": ["en.buy", "en.dumpling_wrapper", "en.flour"] },
+    { "speaker": "narrator", "text": "Steps", "zh": "步骤", "items": ["en.step"] },
+    { "speaker": "narrator", "text": "First, chop the cabbage, green onions, and ginger.", "zh": "第一步,把白菜、葱和姜切碎。", "items": ["en.first", "en.chop", "en.cabbage", "en.green_onion", "en.ginger"] },
+    { "speaker": "narrator", "text": "Next, mix them with the pork, soy sauce, and salt.", "zh": "接着,和猪肉、酱油、盐拌在一起。", "items": ["en.next", "en.mix", "en.pork", "en.soy_sauce", "en.salt"] },
+    { "speaker": "narrator", "text": "Then put a little filling in the middle of a wrapper.", "zh": "然后在饺子皮中间放一点馅。", "items": ["en.then", "en.put", "en.a_little", "en.filling", "en.middle", "en.dumpling_wrapper"] },
+    { "speaker": "narrator", "text": "Fold it and close the edges.", "zh": "对折,把边捏紧。", "items": ["en.fold", "en.close_verb", "en.edge"] },
+    { "speaker": "narrator", "text": "Boil water in a big pot, and add the dumplings.", "zh": "大锅里烧水,水开后下饺子。", "items": ["en.boil", "en.water", "en.big", "en.pot", "en.add", "en.dumpling"] },
+    { "speaker": "narrator", "text": "When the water boils again, add a cup of cold water.", "zh": "水再开的时候,加一杯凉水。", "items": ["en.water", "en.boil", "en.again", "en.add", "en.cup", "en.cold"] },
+    { "speaker": "narrator", "text": "Do this two times. Then the dumplings are ready!", "zh": "这样做两次,饺子就好了!", "items": ["en.then", "en.dumpling", "en.ready"] },
+    { "speaker": "narrator", "text": "Remember: ready dumplings come to the top of the water.", "zh": "记住:煮好的饺子会浮到水面上。", "items": ["en.remember", "en.ready", "en.dumpling", "en.come", "en.top", "en.water"] }
+  ],
+  "questions": [
+    { "prompt": "4 个人的饺子要几杯面粉?", "options": ["两杯", "一杯", "四杯"], "answer": 2, "explainZh": "Ingredients: 4 cups of flour, 2 cups of water…——面粉 4 杯,2 杯是水。" },
+    { "prompt": "要多少猪肉?", "options": ["半磅", "一磅", "两磅", "四磅"], "answer": 1, "explainZh": "…and 1 pound of pork——猪肉 1 磅;\"半\"说的是白菜(Half a cabbage)。" },
+    { "prompt": "第一步做什么?", "options": ["把白菜、葱和姜切碎", "烧水", "包饺子"], "answer": 0, "explainZh": "First, chop the cabbage, green onions, and ginger.——先切碎,再拌馅、包、煮。" },
+    { "prompt": "怎么知道饺子煮好了?", "options": ["煮够十分钟", "水变成白色", "加了三次凉水", "饺子浮到水面上"], "answer": 3, "explainZh": "Remember: ready dumplings come to the top of the water.——煮好的饺子会浮起来;凉水是加两次(Do this two times.)。" }
+  ],
+  "grammar": [
+    { "id": "en.g.recipe_format", "titleZh": "菜谱的格式:Ingredients 和 Steps",
+      "bodyZh": "英文菜谱一般分两块:Ingredients(材料)写清每样东西的用量(4 cups of flour、1 pound of pork、a little salt);Steps(步骤)用祈使句一步一步写(Chop… Mix… Fold… Boil…),常用 First、Next、Then 连起来。When the water boils again, … 意思是\"等水再开的时候……\",when 后面说时间、条件,逗号后面说要做的事。菜谱里的 a little(一点儿、少许)很常见,意思是\"别放太多\"。",
+      "examples": [
+        { "text": "First, chop the cabbage, green onions, and ginger.", "zh": "第一步,把白菜、葱和姜切碎。" },
+        { "text": "Next, mix them with the pork.", "zh": "接着,和猪肉拌在一起。" },
+        { "text": "When the water boils again, add a cup of cold water.", "zh": "水再开的时候,加一杯凉水。" }
+      ] }
+  ],
+  "review": "draft"
+}

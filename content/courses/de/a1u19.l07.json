@@ -18,7 +18,7 @@
   "lines": [
     { "speaker": "lena", "text": "Hallo Wei! Morgen geht's los! Hast du schon gepackt?", "zh": "(出发前一天晚上,莉娜给王伟打电话)喂,王伟!明天就出发啦!你收拾好行李了吗?", "items": ["de.hallo", "de.morgen", "de.losgehen", "de.es", "de.haben", "de.du", "de.schon", "de.packen"] },
     { "speaker": "wei", "text": "Ja, fast. Ich bin ein bisschen aufgeregt!", "zh": "嗯,差不多了。我有点激动!", "items": ["de.ja", "de.fast", "de.ich", "de.sein", "de.ein_bisschen", "de.aufgeregt"] },
-    { "speaker": "lena", "text": "Ich auch! Wir treffen uns um Viertel vor sieben am Hauptbahnhof.", "zh": "我也是!我们六点三刻在中央火车站见。", "items": ["de.ich", "de.auch", "de.wir", "de.treffen", "de.um", "de.viertel", "de.vor", "de.sieben", "de.am", "de.hauptbahnhof"] },
+    { "speaker": "lena", "text": "Ich auch! Wir treffen uns um Viertel vor sieben am Hauptbahnhof.", "zh": "我也是!我们六点三刻在中央火车站见。", "items": ["de.ich", "de.auch", "de.uns", "de.wir", "de.treffen", "de.um", "de.viertel", "de.vor", "de.sieben", "de.am", "de.hauptbahnhof"] },
     { "speaker": "wei", "text": "Ja. Die Abfahrt ist um 7:12 Uhr, oder?", "zh": "好。火车是 7:12 开,对吧?", "items": ["de.ja", "de.abfahrt", "de.sein", "de.um", "de.sieben", "de.zwoelf", "de.uhr", "de.oder"] },
     { "speaker": "lena", "text": "Genau. Und du hast die Tickets, oder?", "zh": "对。车票在你那儿,对吧?", "items": ["de.genau", "de.und", "de.du", "de.haben", "de.ticket", "de.oder"] },
     { "speaker": "wei", "text": "Ja, die sind in meinem Rucksack. Hast du deinen Personalausweis?", "zh": "对,在我的双肩包里。你带身份证了吗?", "items": ["de.ja", "de.sein", "de.in", "de.mein", "de.rucksack", "de.haben", "de.du", "de.dein", "de.personalausweis"] },
@@ -26,7 +26,7 @@
     { "speaker": "wei", "text": "Das ist auch schon im Rucksack.", "zh": "也已经放进双肩包了。", "items": ["de.sein", "de.auch", "de.schon", "de.in", "de.rucksack"] },
     { "speaker": "lena", "text": "Aber Paul hat noch nicht gepackt. Er schläft schon!", "zh": "可是保罗还没收拾行李,他已经睡了!", "items": ["de.aber", "de.haben", "de.noch", "de.nicht", "de.packen", "de.er", "de.schlafen", "de.schon"] },
     { "speaker": "wei", "text": "Was? Er muss schnell packen, sonst verpassen wir den Zug!", "zh": "什么?他得赶快收拾,不然我们就赶不上火车了!", "items": ["de.was", "de.er", "de.muessen", "de.schnell", "de.packen", "de.sonst", "de.verpassen", "de.wir", "de.zug"] },
-    { "speaker": "lena", "text": "Keine Sorge. Ich wecke ihn um fünf. Dann packt er.", "zh": "别担心。我五点叫醒他,让他那时候收拾。", "items": ["de.keine_sorge", "de.ich", "de.wecken", "de.er", "de.um", "de.fuenf", "de.dann", "de.packen"] },
+    { "speaker": "lena", "text": "Keine Sorge. Ich wecke ihn um fünf. Dann packt er.", "zh": "别担心。我五点叫醒他,让他那时候收拾。", "items": ["de.keine_sorge", "de.ich", "de.wecken", "de.ihn", "de.er", "de.um", "de.fuenf", "de.dann", "de.packen"] },
     { "speaker": "wei", "text": "Um fünf? Das ist aber früh! Bis morgen, Lena. Gute Nacht!", "zh": "五点?那也太早了!明天见,莉娜。晚安!", "items": ["de.um", "de.fuenf", "de.sein", "de.aber", "de.frueh", "de.bis", "de.morgen", "de.gut", "de.nacht"] }
   ],
   "questions": [

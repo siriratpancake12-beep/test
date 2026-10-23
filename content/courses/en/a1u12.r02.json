@@ -22,9 +22,9 @@
     { "speaker": "lei", "text": "Lei", "zh": "磊", "items": [] }
   ],
   "questions": [
-    { "prompt": "这张明信片是写给谁的?", "options": ["劳拉和马库斯", "艾米和伊森", "磊的爸爸妈妈"], "answer": 0, "explainZh": "开头写着 Hi, Laura and Marcus!" },
-    { "prompt": "洛杉矶的天气怎么样?", "options": ["天天下雨", "每天都很暖和,阳光很好", "很冷,还下雪"], "answer": 1, "explainZh": "This postcard is from sunny LA. It's warm here every day." },
-    { "prompt": "下面哪件事明信片里没有提到?", "options": ["租自行车去了威尼斯海滩", "伊森开车带他们上山", "在酒店的泳池游泳"], "answer": 2, "explainZh": "明信片写了 We rented bikes and went to Venice Beach. 和 Ethan drove us to the mountains.,没有写游泳。" }
+    { "prompt": "这张明信片是写给谁的?", "options": ["艾米和伊森", "劳拉和马库斯", "磊的爸爸妈妈"], "answer": 1, "explainZh": "开头写着 Hi, Laura and Marcus!" },
+    { "prompt": "洛杉矶的天气怎么样?", "options": ["天天下雨", "很冷,还下雪", "每天都很暖和,阳光很好"], "answer": 2, "explainZh": "This postcard is from sunny LA. It's warm here every day." },
+    { "prompt": "下面哪件事明信片里没有提到?", "options": ["在酒店的泳池游泳", "租自行车去了威尼斯海滩", "伊森开车带他们上山"], "answer": 0, "explainZh": "明信片写了 We rented bikes and went to Venice Beach. 和 Ethan drove us to the mountains.,没有写游泳。" }
   ],
   "grammar": [
     { "id": "en.g.u12_postcard", "titleZh": "写明信片:现在的情况用一般现在时,做过的事用一般过去时",

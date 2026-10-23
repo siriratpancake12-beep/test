@@ -2,7 +2,7 @@
   "id": "en.a1u18.l03", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
   "unit": "A1-18 Game on", "order": 118030,
   "titleZh": "慢慢地踢腿", "goalZh": "会用方式副词说一件事做得怎么样(快、慢、认真、好),听懂别人对动作的指导", "canDoZh": "能说出别人做某件事做得怎么样(快、慢、认真、好),听懂别人对自己动作的指导",
-  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 26.5,
   "newItems": [
     { "id": "en.lesson", "kind": "word", "pos": "noun", "text": "lesson", "zh": "(一节)课;课程", "features": { "ipa": "ˈlesən" }, "noteZh": "a swimming lesson 一节游泳课;class 多指学校的课,lesson 常指学一门技能的课;读 /ˈlesən/,o 弱读。" },
     { "id": "en.kick", "kind": "word", "pos": "verb", "text": "kick", "zh": "踢;(游泳)打腿", "features": { "ipa": "kɪk" }, "noteZh": "i 读短音 /ɪ/;词尾 ck 收住,不要读成“kick-ke”。" },

@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u9.r01", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109045,
+  "titleZh": "罗马酒店的预订确认(邮件)", "goalZh": "会读酒店的预订确认邮件,找出日期、房型、价格和入住退房时间", "canDoZh": "能看懂一封酒店预订确认邮件:日期、几晚、房型、价格、早餐和入住退房时间",
+  "skills": ["read", "write"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "fr.hotel", "kind": "word", "pos": "noun", "text": "l'hôtel", "zh": "酒店;旅馆", "features": { "gender": "m", "ipa": "lo.tɛl" }, "noteZh": "元音开头(h 不发音),阳性:un hôtel;l'hôtel 要省音,un‿hôtel 要联诵。" },
+    { "id": "fr.nuit", "kind": "word", "pos": "noun", "text": "la nuit", "zh": "夜;(住宿的)一晚", "features": { "gender": "f", "ipa": "la nɥi" }, "noteZh": "ui 读 [ɥi],t 不发音;quatre nuits 四晚;Bonne nuit ! 晚安!" },
+    { "id": "fr.reservation", "kind": "word", "pos": "noun", "text": "la réservation", "zh": "预订", "features": { "gender": "f", "ipa": "la ʁe.zɛʁ.va.sjɔ̃" }, "noteZh": "-tion 结尾的名词都是阴性,-tion 读 [sjɔ̃];来自 réserver(预订)。" },
+    { "id": "fr.personne", "kind": "word", "pos": "noun", "text": "la personne", "zh": "人;(一)个人", "features": { "gender": "f", "ipa": "la pɛʁ.sɔn" }, "noteZh": "总是阴性,说男人也是 une personne;une chambre pour une personne 单人间。" }
+  ],
+  "reviewItems": ["fr.chambre", "fr.petit_dejeuner", "fr.gare", "fr.a_pied", "fr.payer"],
+  "lines": [
+    { "speaker": "narrator", "text": "Bonjour Monsieur Zhang,", "zh": "(浩订了罗马火车站旁边的一家小酒店,收到一封法语邮件)张先生您好:", "items": ["fr.bonjour", "fr.monsieur"] },
+    { "speaker": "narrator", "text": "Merci pour votre réservation !", "zh": "感谢您的预订!", "items": ["fr.merci", "fr.pour", "fr.votre", "fr.reservation"] },
+    { "speaker": "narrator", "text": "Vous avez une chambre pour une personne, pour quatre nuits.", "zh": "您订的是一间单人房,住四晚。", "items": ["fr.vous", "fr.avoir", "fr.une", "fr.chambre", "fr.pour", "fr.personne", "fr.quatre", "fr.nuit"] },
+    { "speaker": "narrator", "text": "Du samedi 19 au mercredi 23 décembre.", "zh": "从 12 月 19 日星期六到 23 日星期三。", "items": ["fr.de", "fr.du", "fr.samedi", "fr.dix_neuf", "fr.a", "fr.au", "fr.mercredi", "fr.vingt", "fr.trois", "fr.decembre"] },
+    { "speaker": "narrator", "text": "Avec le petit-déjeuner, c'est deux cent quatre-vingts euros.", "zh": "含早餐,一共 280 欧。", "items": ["fr.avec", "fr.petit_dejeuner", "fr.cest", "fr.deux", "fr.cent", "fr.quatre_vingts", "fr.euro"] },
+    { "speaker": "narrator", "text": "Le petit-déjeuner, c'est de sept heures à dix heures.", "zh": "早餐时间是 7 点到 10 点。", "items": ["fr.petit_dejeuner", "fr.cest", "fr.de", "fr.sept", "fr.heure", "fr.a", "fr.dix"] },
+    { "speaker": "narrator", "text": "Vous pouvez venir à l'hôtel après quatorze heures.", "zh": "14 点以后可以入住。", "items": ["fr.vous", "fr.pouvoir", "fr.venir", "fr.a", "fr.hotel", "fr.apres", "fr.quatorze", "fr.heure"] },
+    { "speaker": "narrator", "text": "Le mercredi 23, le départ est à onze heures.", "zh": "23 日星期三,11 点退房。", "items": ["fr.mercredi", "fr.vingt", "fr.trois", "fr.depart", "fr.etre", "fr.a", "fr.onze", "fr.heure"] },
+    { "speaker": "narrator", "text": "L'hôtel est à cinq minutes à pied de la gare.", "zh": "酒店离火车站步行五分钟。", "items": ["fr.hotel", "fr.etre", "fr.a", "fr.cinq", "fr.minute", "fr.a_pied", "fr.de", "fr.gare"] },
+    { "speaker": "narrator", "text": "Vous pouvez payer à l'hôtel, par carte.", "zh": "您可以到了酒店再付款,刷卡就行。", "items": ["fr.vous", "fr.pouvoir", "fr.payer", "fr.a", "fr.hotel", "fr.par", "fr.carte"] },
+    { "speaker": "narrator", "text": "Bon voyage, et à bientôt à Rome !", "zh": "祝您旅途愉快,罗马见!", "items": ["fr.bon", "fr.voyage", "fr.et", "fr.a_bientot", "fr.a"] }
+  ],
+  "questions": [
+    { "prompt": "浩在这家酒店住几晚?", "options": ["三晚", "五晚", "四晚"], "answer": 2, "explainZh": "邮件里写:une chambre pour une personne, pour quatre nuits,从 19 日住到 23 日。" },
+    { "prompt": "房费一共多少钱?", "options": ["280 欧,含早餐", "280 欧,不含早餐", "236 欧,含早餐"], "answer": 0, "explainZh": "Avec le petit-déjeuner, c'est deux cent quatre-vingts euros.——deux cent quatre-vingts = 280;236 欧是火车票的价钱。" },
+    { "prompt": "23 日那天,浩几点要退房?", "options": ["10 点", "11 点", "14 点"], "answer": 1, "explainZh": "Le mercredi 23, le départ est à onze heures.;7 点到 10 点是早餐时间,14 点以后可以入住。" },
+    { "prompt": "从火车站去酒店怎么走、要多久?", "options": ["走路五分钟", "坐地铁五分钟", "走路十五分钟"], "answer": 0, "explainZh": "L'hôtel est à cinq minutes à pied de la gare.(离火车站步行五分钟)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.mail_hotel", "titleZh": "读预订邮件:日期、钟点和价格在哪儿",
+      "bodyZh": "酒店的确认邮件一般按这个顺序写:称呼 Bonjour Monsieur Zhang,(正式邮件常用 Monsieur / Madame + 姓)→ 感谢 Merci pour votre réservation ! → 房型和晚数 une chambre pour une personne(单人间)、pour quatre nuits(住四晚),pour 后面跟人数或时长 → 日期 du 19 au 23 décembre → 价格 → 入住和退房时间。几个关键说法:après quatorze heures(14 点以后);de sept heures à dix heures(7 点到 10 点);à cinq minutes à pied de la gare(离火车站步行五分钟,à 表示距离)。280 读 deux cent quatre-vingts:cent 后面还有数,不加 s;quatre-vingts 在最后,保留 s。读这种邮件,先找数字和日期,再看它们前面的词。",
+      "examples": [
+        { "text": "Une chambre pour une personne, pour quatre nuits.", "zh": "一间单人房,住四晚。" },
+        { "text": "Vous pouvez venir après quatorze heures.", "zh": "您 14 点以后可以来。" },
+        { "text": "L'hôtel est à cinq minutes à pied de la gare.", "zh": "酒店离火车站步行五分钟。" }
+      ] }
+  ],
+  "review": "draft"
+}

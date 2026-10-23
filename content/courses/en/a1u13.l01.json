@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u13.l01", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-13 Can you help me?", "order": 113010,
+  "titleZh": "我的手机不见了!", "goalZh": "会说自己丢了什么、哪儿都找不到,用 When did you last…? 和朋友一起回想", "canDoZh": "能说出自己丢了什么,并和朋友一起回想最后一次在哪儿用过它",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.lose", "kind": "word", "pos": "verb", "text": "lose", "zh": "丢;丢失", "features": { "ipa": "luːz" }, "noteZh": "I lost my phone. 我的手机丢了;过去式 lost /lɑːst/。lose 读 /luːz/,结尾是浊音 z,和 loose(松的)不一样。" },
+    { "id": "en.gone", "kind": "word", "pos": "adj", "text": "gone", "zh": "不见了;没了", "features": { "ipa": "ɡɑːn" }, "noteZh": "My phone is gone! 我的手机不见了!(东西突然找不到时说);美式读 /ɡɑːn/。" },
+    { "id": "en.pocket", "kind": "word", "pos": "noun", "text": "pocket", "zh": "口袋;兜", "features": { "ipa": "ˈpɑːkɪt" }, "noteZh": "in my pocket 在我兜里;美式 o 读 /ɑː/,重音在前 POCK-et。" },
+    { "id": "en.when_did_you_last", "kind": "phrase", "pos": "phrase", "text": "When did you last", "zh": "你最后一次……是什么时候?", "features": { "ipa": "ˌwen dɪd jə ˈlæst" }, "noteZh": "When did you last have it? 你最后一次拿着它是什么时候?;last 放在动词前面表示“最后一次”,和第 8 单元 last weekend(上周末)里的 last 意思不同。" },
+    { "id": "en.ring", "kind": "word", "pos": "verb", "text": "ring", "zh": "(电话、铃)响", "features": { "ipa": "rɪŋ" }, "noteZh": "It's ringing. 电话在响;过去式 rang。结尾是后鼻音 /ŋ/,舌根抬起,别读成 rin。" },
+    { "id": "en.lost_and_found", "kind": "phrase", "pos": "noun", "text": "lost and found", "zh": "失物招领处", "features": { "ipa": "ˌlɑːst ən ˈfaʊnd" }, "noteZh": "字面是“丢了的和找到的”;机场、车站、景点都有,丢了东西先去 the lost and found 问问。and 弱读成 /ən/。" },
+    { "id": "en.anywhere", "kind": "word", "pos": "adv", "text": "anywhere", "zh": "(否定、疑问句里)任何地方", "features": { "ipa": "ˈeniwer" }, "noteZh": "I can't find it anywhere. 哪儿都找不到;否定句里用 anywhere。any 读 /ˈeni/。" },
+    { "id": "en.drop", "kind": "word", "pos": "verb", "text": "drop", "zh": "掉;(不小心)弄掉", "features": { "ipa": "drɑːp" }, "noteZh": "Did you drop it in the car? 是不是掉在车上了?;过去式 dropped(双写 p)。dr 两个辅音连读,中间不加元音。" }
+  ],
+  "reviewItems": ["en.phone", "en.find", "en.take_pictures", "en.relax", "en.call"],
+  "lines": [
+    { "speaker": "lei", "text": "Oh no! My phone is gone!", "zh": "(第三天晚上回到酒店)糟了!我的手机不见了!", "items": ["en.phone", "en.gone"] },
+    { "speaker": "sofia", "text": "Is it in your pocket?", "zh": "在你兜里吗?", "items": ["en.pocket"] },
+    { "speaker": "lei", "text": "No. And it's not in my bag. I can't find it anywhere!", "zh": "不在。包里也没有。哪儿都找不到!", "items": ["en.bag", "en.cant", "en.find", "en.anywhere"] },
+    { "speaker": "ethan", "text": "Relax, man. When did you last have it?", "zh": "别急,哥们。你最后一次拿着它是什么时候?", "items": ["en.relax", "en.when_did_you_last", "en.have"] },
+    { "speaker": "lei", "text": "I took pictures at Santa Monica Pier.", "zh": "我在圣莫尼卡码头拍过照。", "items": ["en.take_pictures"] },
+    { "speaker": "sofia", "text": "Then we took a car here. Did you drop it in the car?", "zh": "然后我们是叫车回来的。是不是掉在车上了?", "items": ["en.then", "en.take", "en.car", "en.drop"] },
+    { "speaker": "lei", "text": "Oh no… I lost my phone!", "zh": "天哪……我把手机弄丢了!", "items": ["en.lose", "en.phone"] },
+    { "speaker": "ethan", "text": "Sofia, can you call his phone?", "zh": "索菲亚,你能打一下他的手机吗?", "items": ["en.can", "en.call", "en.phone"] },
+    { "speaker": "sofia", "text": "OK… It's ringing… It's ringing… Nothing.", "zh": "好……通了……一直在响……没人接。", "items": ["en.ring"] },
+    { "speaker": "lei", "text": "My photos, my cards… everything is on that phone!", "zh": "我的照片、我的卡……全都在那部手机里!", "items": ["en.photo", "en.card", "en.phone"] },
+    { "speaker": "ethan", "text": "OK. Let's try the lost and found at Santa Monica Pier tomorrow.", "zh": "好吧。明天我们去圣莫尼卡码头的失物招领处问问。", "items": ["en.lets", "en.try", "en.lost_and_found", "en.tomorrow"] },
+    { "speaker": "lei", "text": "OK. Thanks, you guys.", "zh": "好。谢谢你们。", "items": ["en.thank_you", "en.you_guys"] }
+  ],
+  "questions": [
+    { "prompt": "磊发现什么不见了?", "options": ["钱包", "房卡", "手机"], "answer": 2, "explainZh": "磊说 My phone is gone!(我的手机不见了!)" },
+    { "prompt": "磊最后一次用手机是在哪儿?", "options": ["在车上打电话的时候", "在圣莫尼卡码头拍照的时候", "在餐厅吃饭的时候"], "answer": 1, "explainZh": "伊森问 When did you last have it?,磊说 I took pictures at Santa Monica Pier.。" },
+    { "prompt": "伊森建议怎么办?", "options": ["明天去码头的失物招领处问问", "马上报警", "买一部新手机"], "answer": 0, "explainZh": "伊森说 Let's try the lost and found at Santa Monica Pier tomorrow.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u13_when_did_you_last", "titleZh": "找东西时的问答:When did you last…? / Did you drop it…?",
+      "bodyZh": "东西突然找不到,可以说 My phone is gone!(手机不见了!)或 I can't find my phone.;确定丢了就说 I lost my phone.(lose 的过去式是 lost)。朋友帮你回想,问的是过去的事,用 did + 动词原形:When did you last have it?(你最后一次拿着它是什么时候?)/ Did you drop it in the car?(是不是掉在车上了?)。回答用过去式:I took pictures at the pier.(take → took)。last 放在动词前面是“最后一次”,和 last weekend(上周末)不一样。否定句里“哪儿都……”用 anywhere:I can't find it anywhere.。",
+      "examples": [
+        { "text": "When did you last have it? — At the pier.", "zh": "你最后一次拿着它是什么时候?——在码头。" },
+        { "text": "Did you drop it in the car?", "zh": "是不是掉在车上了?" },
+        { "text": "I lost my phone. I can't find it anywhere.", "zh": "我的手机丢了,哪儿都找不到。" }
+      ] },
+    { "id": "en.g.u13_n_l", "titleZh": "n 和 l 要分清:lost / not、last / no",
+      "bodyZh": "四川话和一些南方口音里 n、l 不分,说英语时容易把 lost 说成“nost”、把 no 说成“lo”。发 l 时舌尖顶住上齿龈,气从舌头两边出来,鼻子里不出气;发 n 时舌尖也顶住上齿龈,但气从鼻子出来——捏住鼻子就发不出 n。这课的 lost、last、lost and found 开头都是 l,not、no、nothing 开头都是 n。练的时候可以捏着鼻子读 l 开头的词,检查自己有没有带出鼻音。",
+      "examples": [
+        { "text": "I lost my phone.", "zh": "我的手机丢了。(lost 开头是 l)" },
+        { "text": "No, it's not in my bag.", "zh": "不在,不在我包里。(no、not 开头是 n)" }
+      ] }
+  ],
+  "review": "draft"
+}

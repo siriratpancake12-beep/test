@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u6.r01", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106045,
+  "titleZh": "地铁站里的牌子和乘车须知(标识)", "goalZh": "读懂地铁站里的指示牌和《乘车须知》,知道怎么检票、认方向、换乘和出站", "canDoZh": "能看懂地铁站里的标识和乘车须知:入口、出口、方向、换乘、检票",
+  "skills": ["read"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "fr.panneau", "kind": "word", "pos": "noun", "text": "le panneau", "zh": "指示牌;牌子", "features": { "gender": "m", "ipa": "lə pa.no" }, "noteZh": "eau 读 [o];复数加 x:les panneaux;车站、路上的指示牌、显示牌都叫 panneau。" },
+    { "id": "fr.sortie", "kind": "word", "pos": "noun", "text": "la sortie", "zh": "出口", "features": { "gender": "f", "ipa": "la sɔʁ.ti" }, "noteZh": "阴性;t 读 [t];地铁、商场的出口都写 Sortie;prendre la sortie = 从出口出去。" },
+    { "id": "fr.correspondance", "kind": "word", "pos": "noun", "text": "la correspondance", "zh": "换乘;换乘通道", "features": { "gender": "f", "ipa": "la kɔ.ʁɛs.pɔ̃.dɑ̃s" }, "noteZh": "地铁里写 Correspondance ligne B = 换乘 B 线;prendre la correspondance = 换乘;ance 读鼻化元音 [ɑ̃s]。" },
+    { "id": "fr.valider", "kind": "word", "pos": "verb", "text": "valider", "zh": "检(票);使生效", "features": { "ipa": "va.li.de" }, "noteZh": "规则的 -er 动词;Validez votre ticket !(请检票!)里昂的地铁、公交每次上车都要检票,换乘也要。" }
+  ],
+  "reviewItems": ["fr.ticket", "fr.ligne", "fr.direction", "fr.changer", "fr.descendre"],
+  "lines": [
+    { "speaker": "narrator", "text": "Vous prenez le métro à Lyon ? Regardez bien les panneaux !", "zh": "(Bellecour 地铁站里贴着的《乘车须知》)在里昂坐地铁?请看清楚指示牌!", "items": ["fr.vous", "fr.prendre", "fr.metro", "fr.a", "fr.regarder", "fr.bien", "fr.panneau"] },
+    { "speaker": "narrator", "text": "D'abord, prenez un ticket. Puis, validez toujours votre ticket !", "zh": "先买票,然后一定要检票!", "items": ["fr.dabord", "fr.prendre", "fr.un", "fr.ticket", "fr.puis", "fr.valider", "fr.toujours", "fr.votre"] },
+    { "speaker": "narrator", "text": "Regardez la ligne et la direction.", "zh": "看清楚是哪条线、往哪个方向。", "items": ["fr.regarder", "fr.ligne", "fr.et", "fr.direction"] },
+    { "speaker": "narrator", "text": "Direction Charpennes ? Le métro va à Charpennes.", "zh": "牌子上写 Direction Charpennes?就是说地铁开往 Charpennes(这条线的终点站)。", "items": ["fr.direction", "fr.metro", "fr.aller", "fr.a"] },
+    { "speaker": "narrator", "text": "D'abord, on descend du métro ; après, on va dans le métro.", "zh": "先下后上:车上的人先下来,站台上的人再上车。", "items": ["fr.dabord", "fr.on", "fr.descendre", "fr.de", "fr.du", "fr.metro", "fr.apres", "fr.aller", "fr.dans"] },
+    { "speaker": "narrator", "text": "Vous changez de ligne ? Prenez la correspondance.", "zh": "要换线?走写着 Correspondance 的换乘通道。", "items": ["fr.vous", "fr.changer", "fr.de", "fr.ligne", "fr.prendre", "fr.correspondance"] },
+    { "speaker": "narrator", "text": "Vous descendez ? Prenez la sortie.", "zh": "到站下车了?从写着 Sortie 的出口出站。", "items": ["fr.vous", "fr.descendre", "fr.prendre", "fr.sortie"] },
+    { "speaker": "narrator", "text": "Vous allez à la gare Part-Dieu ? Prenez la ligne D, direction Gare de Vénissieux.", "zh": "去 Part-Dieu 火车站?坐 D 线,往 Gare de Vénissieux 方向。", "items": ["fr.vous", "fr.aller", "fr.a", "fr.gare", "fr.prendre", "fr.ligne", "fr.direction", "fr.de"] },
+    { "speaker": "narrator", "text": "Puis, prenez la correspondance à Saxe-Gambetta : ligne B, direction Charpennes.", "zh": "然后在 Saxe-Gambetta 站换乘 B 线,往 Charpennes 方向。", "items": ["fr.puis", "fr.prendre", "fr.correspondance", "fr.a", "fr.ligne", "fr.direction"] },
+    { "speaker": "narrator", "text": "Descendez à la station Part-Dieu : la gare est à côté.", "zh": "在 Part-Dieu 站下车,火车站就在旁边。", "items": ["fr.descendre", "fr.a", "fr.station", "fr.gare", "fr.etre", "fr.a_cote_de"] },
+    { "speaker": "narrator", "text": "Prenez la sortie, et voilà la gare !", "zh": "从出口出去,火车站就到了!", "items": ["fr.prendre", "fr.sortie", "fr.et", "fr.voila", "fr.gare"] }
+  ],
+  "questions": [
+    { "prompt": "从 Bellecour 站去 Part-Dieu 火车站,要在哪儿换乘?", "options": ["Part-Dieu", "Charpennes", "Saxe-Gambetta", "Gare de Vénissieux"], "answer": 2, "explainZh": "Prenez la ligne D… Puis, prenez la correspondance à Saxe-Gambetta : ligne B.——在 Saxe-Gambetta 换 B 线。" },
+    { "prompt": "牌子上的 Correspondance 是什么意思?", "options": ["换乘(通道)", "出口", "售票处"], "answer": 0, "explainZh": "Vous changez de ligne ? Prenez la correspondance.——换线的时候走 correspondance。出口是 sortie。" },
+    { "prompt": "坐地铁以前要做什么?", "options": ["先找出口", "先买票,再检票", "先换乘"], "answer": 1, "explainZh": "D'abord, prenez un ticket. Puis, validez toujours votre ticket !" },
+    { "prompt": "« Direction Charpennes » 是什么意思?", "options": ["在 Charpennes 换乘", "地铁开往 Charpennes", "Charpennes 站的出口"], "answer": 1, "explainZh": "Direction Charpennes ? Le métro va à Charpennes.——地铁按终点站认方向。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.notice_imperative", "titleZh": "须知里的命令式;prendre 的几种用法;按终点站认方向",
+      "bodyZh": "须知、指示牌上常用 vous 的命令式(第 3 课学过):去掉主语 vous,剩下的动词就是命令。vous validez → Validez votre ticket !(请检票!)vous prenez → Prenez la sortie.(从出口出去。)\nprendre 的用处很多:prendre un ticket(买票)、prendre la ligne D(坐 D 线)、prendre la correspondance(换乘)、prendre la sortie(走出口)。中文要换好几个动词,法语都用 prendre。\n地铁按终点站认方向:direction Charpennes 就是“开往 Charpennes”,Charpennes 是这条线的终点站。先在线路图上找到要去的站,再看它在哪个终点站那一头。\n先下后上:D'abord, on descend du métro ; après, on va dans le métro.(这里的 on 指“大家”。)",
+      "examples": [
+        { "text": "Validez votre ticket !", "zh": "请检票!" },
+        { "text": "Prenez la ligne B, direction Charpennes.", "zh": "坐 B 线,往 Charpennes 方向。" },
+        { "text": "Vous descendez ? Prenez la sortie.", "zh": "下车了?走出口。" }
+      ] }
+  ],
+  "review": "draft"
+}

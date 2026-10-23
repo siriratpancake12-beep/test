@@ -75,6 +75,139 @@
         { "id": "fr.gateau", "kind": "word", "pos": "noun", "text": "le gâteau", "zh": "蛋糕;糕点", "features": { "gender": "m", "ipa": "lə ga.to" }, "noteZh": "eau 读 [o];复数加 x:les gâteaux;生日蛋糕是 le gâteau d'anniversaire。" }
       ],
       "reviewItems": ["fr.anniversaire", "fr.fete", "fr.libre", "fr.desole", "fr.d_accord"]
+    },
+    {
+      "id": "fr.a1u6.r01", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106045,
+      "titleZh": "地铁站里的牌子和乘车须知(标识)",
+      "goalZh": "读懂地铁站里的指示牌和《乘车须知》,知道怎么检票、认方向、换乘和出站",
+      "canDoZh": "能看懂地铁站里的标识和乘车须知:入口、出口、方向、换乘、检票",
+      "scenarioZh": "体裁:标识 + 须知,8–10 句,旁白朗读。地铁站里的几块牌子(Entrée、Sortie、Correspondance、Direction …)和一张《乘车须知》:上车前先买票并检票(Validez votre ticket);换乘时看终点站名认方向;下车的人先下。读完回答“想去火车站,要在哪儿换乘”。(写课时:l'entrée 已经在第 2 单元第 6 课登记为“前菜;入口”,这一篇先不用;须知贴在 Bellecour 站,去 Part-Dieu 火车站的路线和第 4 课一致。)",
+      "grammarFocusZh": "命令式(vous 形式)在须知里的用法:Validez…, Prenez…, Descendez…;复习 prendre la ligne A、changer、la direction;标识上的名词 l'entrée, la sortie, la correspondance",
+      "skills": ["read"], "estimatedMinutes": 17,
+      "newItems": [
+        { "id": "fr.panneau", "kind": "word", "pos": "noun", "text": "le panneau", "zh": "指示牌;牌子", "features": { "gender": "m", "ipa": "lə pa.no" }, "noteZh": "eau 读 [o];复数加 x:les panneaux;车站、路上的指示牌、显示牌都叫 panneau。" },
+        { "id": "fr.sortie", "kind": "word", "pos": "noun", "text": "la sortie", "zh": "出口", "features": { "gender": "f", "ipa": "la sɔʁ.ti" }, "noteZh": "阴性;t 读 [t];地铁、商场的出口都写 Sortie;prendre la sortie = 从出口出去。" },
+        { "id": "fr.correspondance", "kind": "word", "pos": "noun", "text": "la correspondance", "zh": "换乘;换乘通道", "features": { "gender": "f", "ipa": "la kɔ.ʁɛs.pɔ̃.dɑ̃s" }, "noteZh": "地铁里写 Correspondance ligne B = 换乘 B 线;prendre la correspondance = 换乘;ance 读鼻化元音 [ɑ̃s]。" },
+        { "id": "fr.valider", "kind": "word", "pos": "verb", "text": "valider", "zh": "检(票);使生效", "features": { "ipa": "va.li.de" }, "noteZh": "规则的 -er 动词;Validez votre ticket !(请检票!)里昂的地铁、公交每次上车都要检票,换乘也要。" }
+      ],
+      "reviewItems": ["fr.ticket", "fr.ligne", "fr.direction", "fr.changer", "fr.descendre"]
+    },
+    {
+      "id": "fr.a1u6.l06", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106060,
+      "titleZh": "火车晚点了——听懂车站广播",
+      "goalZh": "听懂车站广播里的去向、站台、晚点和进站,并把信息转告朋友",
+      "canDoZh": "能听懂火车站广播里的车次去向、站台和晚点时间,并转告朋友",
+      "scenarioZh": "星期五下午,浩送卢卡去 Part-Dieu 火车站,卢卡周末回马赛看爸妈。广播(narrator)说开往马赛的火车晚点二十分钟,在 G 站台(voie G)发车;卢卡在看手机没听清,浩复述一遍。两人在车站等车,卢卡说他七月或八月想去巴黎玩。广播再次通知:火车马上进站。",
+      "grammarFocusZh": "广播的固定结构用现在时和近将来时:Le train à destination de Marseille part voie G / a vingt minutes de retard / va entrer en gare;复习 24 小时制时刻和 en retard",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+      "newItems": [
+        { "id": "fr.mesdames_et_messieurs", "kind": "phrase", "pos": "phrase", "text": "Mesdames et messieurs", "zh": "女士们、先生们", "features": { "ipa": "me.dam e me.sjø" }, "noteZh": "广播、讲话开头的固定说法,是 madame、monsieur 的复数;messieurs 读 [me.sjø],r 和 s 都不发音。" },
+        { "id": "fr.a_destination_de", "kind": "phrase", "pos": "phrase", "text": "à destination de", "zh": "开往……", "features": { "ipa": "a dɛs.ti.na.sjɔ̃ də" }, "noteZh": "广播和车票上的正式说法:le train à destination de Marseille(开往马赛的列车);口语说 le train pour Marseille。" },
+        { "id": "fr.voie", "kind": "word", "pos": "noun", "text": "la voie", "zh": "(火车站的)站台;轨道", "features": { "gender": "f", "ipa": "la vwa" }, "noteZh": "oie 读 [wa];后面直接加字母或数字,不加冠词:Le train part voie G.(火车在 G 站台发车。)" },
+        { "id": "fr.retard", "kind": "word", "pos": "noun", "text": "le retard", "zh": "晚点;迟到", "features": { "gender": "m", "ipa": "lə ʁə.taʁ" }, "noteZh": "说晚了多久用 avoir:Le train a vingt minutes de retard.(晚点二十分钟。)只说“晚了”用 être en retard(第 5 单元);d 不发音。" },
+        { "id": "fr.entrer", "kind": "word", "pos": "verb", "text": "entrer", "zh": "进;进入", "features": { "ipa": "ɑ̃.tʁe" }, "noteZh": "规则的 -er 动词;进哪儿用 entrer dans:J'entre dans la station.;火车进站说 entrer en gare;en 读鼻化元音 [ɑ̃]。" },
+        { "id": "fr.attention", "kind": "word", "pos": "interj", "text": "Attention !", "zh": "注意!小心!", "features": { "ipa": "a.tɑ̃.sjɔ̃" }, "noteZh": "广播、提醒时最常用:Attention, s'il vous plaît !;tion 读 [sjɔ̃],和英语 attention 读法不同。" }
+      ],
+      "reviewItems": ["fr.train", "fr.partir", "fr.gare", "fr.sortie", "fr.juillet"]
+    },
+    {
+      "id": "fr.a1u6.l07", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106070,
+      "titleZh": "你在哪儿?——告诉朋友自己的位置",
+      "goalZh": "会用地点介词说自己在哪儿、问朋友在哪儿,约好碰头的地点,听懂 J'arrive !",
+      "canDoZh": "能用地点介词告诉朋友自己在什么地方,约好碰头的地点",
+      "scenarioZh": "星期六,浩和克洛艾约在 Bellecour 广场见面,可是找不到对方。两人发短信、打电话:浩说他在药店前面、银行对面;克洛艾说她在地铁站出口旁边;最后克洛艾说 J'arrive !,两人在广场中间的雕像下面见了面。(写课时:là、ici 都还没学,见面时克洛艾说她在雕像的另一边。)",
+      "grammarFocusZh": "复习地点介词和缩合:à côté du métro, en face de la banque, près de la pharmacie;Tu es où ? / Je suis devant…;arriver 的变位(j'arrive, tu arrives, il arrive)和 J'arrive ! 的意思(我马上到)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+      "newItems": [
+        { "id": "fr.arriver", "kind": "word", "pos": "verb", "text": "arriver", "zh": "到;到达", "features": { "ipa": "a.ʁi.ve" }, "noteZh": "规则的 -er 动词:j'arrive, tu arrives, il arrive;J'arrive ! = 我马上到(正在路上),不是“我已经到了”;arriver à + 地点 = 到达某地。" },
+        { "id": "fr.statue", "kind": "word", "pos": "noun", "text": "la statue", "zh": "雕像", "features": { "gender": "f", "ipa": "la sta.ty" }, "noteZh": "阴性,词尾 e 不发音,u 读 [y];Bellecour 广场中间有一座国王骑马的雕像,是里昂人常约的见面地点。" },
+        { "id": "fr.au_milieu_de", "kind": "phrase", "pos": "phrase", "text": "au milieu de", "zh": "在……中间", "features": { "ipa": "o mi.ljø də" }, "noteZh": "au milieu de la place(广场中间);au 是 à + le;milieu 的 ieu 读 [jø]。" },
+        { "id": "fr.de_lautre_cote_de", "kind": "phrase", "pos": "phrase", "text": "de l'autre côté de", "zh": "在……的另一边", "features": { "ipa": "də lotʁ ko.te də" }, "noteZh": "de l'autre côté de la statue(雕像的另一边);autre 读 [otʁ],côté 的 ô 读闭口 [o]。" },
+        { "id": "fr.monde", "kind": "word", "pos": "noun", "text": "le monde", "zh": "世界;人(泛指)", "features": { "gender": "m", "ipa": "lə mɔ̃d" }, "noteZh": "本义是“世界”;Il y a beaucoup de monde !(人好多!)说地方很挤,非常常用;on 读鼻化元音 [ɔ̃]。" },
+        { "id": "fr.coin", "kind": "word", "pos": "noun", "text": "le coin", "zh": "角;拐角", "features": { "gender": "m", "ipa": "lə kwɛ̃" }, "noteZh": "au coin de la rue(在街角)、au coin de la place(在广场的一角);oin 读 [wɛ̃]。" }
+      ],
+      "reviewItems": ["fr.devant", "fr.derriere", "fr.en_face_de", "fr.a_cote_de", "fr.pres"]
+    },
+    {
+      "id": "fr.a1u6.r02", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106085,
+      "titleZh": "里昂一日游(旅游攻略)",
+      "goalZh": "读懂一份按时间顺序写的城市一日游攻略,说出先去哪儿、怎么去、坐哪条线",
+      "canDoZh": "能看懂一份简单的城市一日游攻略(先去哪儿、怎么去、坐哪条线),给朋友推荐一条路线",
+      "scenarioZh": "体裁:旅游小册子,10–12 句,旁白朗读。语言中心发给新生的《里昂一日游》:上午坐地铁 D 线到老城(Vieux Lyon),坐缆车或走路上富维耶山看全城;中午在老城吃饭;下午坐地铁去红十字区,逛市场和小街。用命令式和近将来时写。读完给刚到里昂的朋友排一条路线。(写课时:le marché 第 7 单元才学、voir 第 8 单元才学,下午只写逛小街,“看全城”用 regarder la ville。)",
+      "grammarFocusZh": "复习命令式(Prenez la ligne D…)、近将来时(Vous allez voir…)、à / en + 交通工具、冠词缩合",
+      "skills": ["read", "speak"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "fr.monter", "kind": "word", "pos": "verb", "text": "monter", "zh": "上去;登上;上(车)", "features": { "ipa": "mɔ̃.te" }, "noteZh": "规则的 -er 动词,和 descendre(下去;下车)相反;monter à Fourvière = 上富维耶山;on 读鼻化元音 [ɔ̃]。" },
+        { "id": "fr.funiculaire", "kind": "word", "pos": "noun", "text": "le funiculaire", "zh": "缆车(地面缆索铁路)", "features": { "gender": "m", "ipa": "lə fy.ni.ky.lɛʁ" }, "noteZh": "阳性;两个 u 都读 [y];坐缆车说 en funiculaire;里昂老城到富维耶山有缆车,用地铁票就能坐。" },
+        { "id": "fr.restaurant", "kind": "word", "pos": "noun", "text": "le restaurant", "zh": "餐馆;饭店", "features": { "gender": "m", "ipa": "lə ʁɛs.to.ʁɑ̃" }, "noteZh": "au 读 [o],an 读鼻化元音 [ɑ̃],词尾 t 不发音;在餐馆吃饭说 manger au restaurant。" }
+      ],
+      "reviewItems": ["fr.prendre", "fr.descendre", "fr.a_pied", "fr.metro", "fr.aller"]
+    },
+    {
+      "id": "fr.a1u7.r01", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107045,
+      "titleZh": "服装店的冬季传单(广告)",
+      "goalZh": "读懂服装店的广告传单,找出衣服的颜色、价格、促销日期和营业时间",
+      "canDoZh": "能看懂服装店的广告传单:有什么衣服、什么颜色、多少钱、哪几天",
+      "scenarioZh": "体裁:广告传单,约 10 句,旁白朗读。浩和克洛艾逛街时拿到一张传单:冬季新款,黑色大衣 89 欧、蓝色毛衣 35 欧、白色鞋子 60 欧……;11 月 2 日到 15 日,所有毛衣 30 欧。读完回答:想买一件黑色大衣和一件绿色毛衣一共多少钱。在第 4 课之后读,价格在 100 以内。(写课时:l'hiver 第 8 单元才学,传单写 Nouveau en novembre;le prix 已经在第 2 单元的读物登记,先不用;传单是另一家店的,和第 3 课浩买毛衣的店不是同一家。)",
+      "grammarFocusZh": "复习颜色的配合、ce / cette / ces、trop cher、价格;传单上的常见词 nouveau、le prix",
+      "skills": ["read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "fr.promotion", "kind": "word", "pos": "noun", "text": "la promotion", "zh": "促销;打折", "features": { "gender": "f", "ipa": "la pʁɔ.mɔ.sjɔ̃" }, "noteZh": "口语常说 la promo;en promotion = 在促销;tion 读 [sjɔ̃]。" },
+        { "id": "fr.paire", "kind": "word", "pos": "noun", "text": "la paire", "zh": "一双;一对", "features": { "gender": "f", "ipa": "la pɛʁ" }, "noteZh": "une paire de chaussures(一双鞋);和 le père(爸爸)读音一样,靠冠词和上下文区分。" }
+      ],
+      "reviewItems": ["fr.manteau", "fr.pull", "fr.chaussure", "fr.ces", "fr.cher"]
+    },
+    {
+      "id": "fr.a1u7.l06", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107060,
+      "titleZh": "在理发店——剪短一点",
+      "goalZh": "会跟理发师说想怎么剪、要不要洗头,剪完确认满意并付钱",
+      "canDoZh": "能跟理发师说想怎么剪(短一点、不要太短),听懂理发师的问题,剪完付钱",
+      "scenarioZh": "星期二下午五点半,浩准时到理发店(第 5 课打电话约好的)。理发师问他想怎么剪,浩说要短,但不要太短;理发师问要不要洗头,浩说要;剪完理发师拿镜子给他看:C'est bien comme ça ?;浩很满意,问多少钱,刷卡付款。",
+      "grammarFocusZh": "court / long 和 trop、un peu 的搭配(Courts, mais pas trop courts ! 比较级 A2 才学,不说 plus court);复习 pouvoir(Vous pouvez couper ici ?)和 payer par carte;理发店用语 la coupe, le shampooing",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "newItems": [
+        { "id": "fr.coupe", "kind": "word", "pos": "noun", "text": "la coupe", "zh": "(头发的)剪法;发型", "features": { "gender": "f", "ipa": "la kup" }, "noteZh": "Vous voulez quelle coupe ?(您想怎么剪?)ou 读 [u];和动词 couper 是一家。" },
+        { "id": "fr.court", "kind": "word", "pos": "adj", "text": "court", "zh": "短的(阳性)", "features": { "ipa": "kuʁ" }, "noteZh": "t 不发音;阴性 courte 的 t 要读出来 [kuʁt];说头发用复数:les cheveux courts。" },
+        { "id": "fr.long", "kind": "word", "pos": "adj", "text": "long", "zh": "长的(阳性)", "features": { "ipa": "lɔ̃" }, "noteZh": "g 不发音,on 读鼻化元音 [ɔ̃];les cheveux longs(长头发);阴性形式不规则,第 11 单元再学。" },
+        { "id": "fr.shampooing", "kind": "word", "pos": "noun", "text": "le shampooing", "zh": "洗头;洗发水", "features": { "gender": "m", "ipa": "lə ʃɑ̃.pwɛ̃" }, "noteZh": "拼写特别:sh 读 [ʃ],am 读 [ɑ̃],ooing 读 [wɛ̃];理发店问 Un shampooing ?(要洗头吗?)" },
+        { "id": "fr.couper", "kind": "word", "pos": "verb", "text": "couper", "zh": "剪;切", "features": { "ipa": "ku.pe" }, "noteZh": "规则的 -er 动词;couper les cheveux(剪头发);Vous pouvez couper un peu ici ?(这儿能剪一点吗?)" },
+        { "id": "fr.comme_ca", "kind": "phrase", "pos": "phrase", "text": "comme ça", "zh": "这样;像这样", "features": { "ipa": "kɔm sa" }, "noteZh": "C'est bien comme ça ?(这样可以吗?)理发、试衣服、做事时都常用;ça 下面的小尾巴不能漏,写成 ca 就读 [ka] 了。" },
+        { "id": "fr.miroir", "kind": "word", "pos": "noun", "text": "le miroir", "zh": "镜子", "features": { "gender": "m", "ipa": "lə mi.ʁwaʁ" }, "noteZh": "oir 读 [waʁ],和 le soir 押韵;Regardez dans le miroir.(照照镜子。)" }
+      ],
+      "reviewItems": ["fr.cheveux", "fr.rendez_vous", "fr.trop", "fr.payer", "fr.pouvoir"]
+    },
+    {
+      "id": "fr.a1u7.l07", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107070,
+      "titleZh": "在超市——一包、一盒、一升",
+      "goalZh": "会用包装量词 + de 说要买的东西和数量,看着清单在超市买东西、付钱",
+      "canDoZh": "能看着购物清单在超市买东西,说出一包、一盒、一升、一打、一罐",
+      "scenarioZh": "星期六下午,浩和卢卡拿着购物清单去超市买下一周的东西:一包意大利面、一盒茶叶、两升牛奶、一打鸡蛋、一罐果酱;卢卡还想买三包薯片,浩说太多了;最后两人在自助收银台扫码付钱。(写课时:la caisse 规划在第 14 单元,这一课付钱只说 On paie par carte, ici ?;不是第 8 课 11 月 7 日的那个星期六。)",
+      "grammarFocusZh": "包装量词 + de:un paquet de pâtes, une boîte de thé, un litre de lait, une douzaine d'œufs, un pot de confiture(第 1 课“数量词 + de”的扩展,后面不加冠词);复习 trop、combien",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 26,
+      "newItems": [
+        { "id": "fr.liste", "kind": "word", "pos": "noun", "text": "la liste", "zh": "清单;单子", "features": { "gender": "f", "ipa": "la list" }, "noteZh": "la liste de courses = 购物清单;词尾 st 都要读出来。" },
+        { "id": "fr.paquet", "kind": "word", "pos": "noun", "text": "le paquet", "zh": "包;袋(包装)", "features": { "gender": "m", "ipa": "lə pa.kɛ" }, "noteZh": "qu 读 [k],t 不发音;un paquet de pâtes(一包意大利面),后面用 de,不加冠词。" },
+        { "id": "fr.pates", "kind": "word", "pos": "noun", "text": "les pâtes", "zh": "意大利面;面食", "features": { "gender": "f", "ipa": "le pɑt" }, "noteZh": "总是用复数,阴性;意大利面、通心粉都叫 les pâtes;â 上的符号不能漏,s 不发音。" },
+        { "id": "fr.boite", "kind": "word", "pos": "noun", "text": "la boîte", "zh": "盒子;一盒", "features": { "gender": "f", "ipa": "la bwat" }, "noteZh": "î 上的符号不能漏,oî 读 [wa];une boîte de thé(一盒茶)。" },
+        { "id": "fr.litre", "kind": "word", "pos": "noun", "text": "le litre", "zh": "升", "features": { "gender": "m", "ipa": "lə litʁ" }, "noteZh": "deux litres de lait(两升牛奶);词尾 tre 里的 r 要轻轻带出来。" },
+        { "id": "fr.douzaine", "kind": "word", "pos": "noun", "text": "la douzaine", "zh": "一打(十二个)", "features": { "gender": "f", "ipa": "la du.zɛn" }, "noteZh": "来自 douze(十二);une douzaine d'œufs(一打鸡蛋),元音前 de 变 d'。" },
+        { "id": "fr.pot", "kind": "word", "pos": "noun", "text": "le pot", "zh": "罐;罐子", "features": { "gender": "m", "ipa": "lə po" }, "noteZh": "t 不发音;un pot de confiture(一罐果酱);pot 是广口带盖的罐子,细口的瓶子是 la bouteille。" },
+        { "id": "fr.chips", "kind": "word", "pos": "noun", "text": "les chips", "zh": "薯片", "features": { "gender": "f", "ipa": "le ʃips" }, "noteZh": "从英语来,总是用复数,阴性;ch 读 [ʃ],ps 都读出来 [ʃips];薯条是 les frites。" }
+      ],
+      "reviewItems": ["fr.lait", "fr.oeuf", "fr.confiture", "fr.trop", "fr.courses"]
+    },
+    {
+      "id": "fr.a1u7.r02", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107085,
+      "titleZh": "写给克洛艾的生日卡片(贺卡)",
+      "goalZh": "读懂一张生日贺卡和一条感谢短信,学会贺卡的祝福、感谢和落款",
+      "canDoZh": "能读懂并写一张简短的生日贺卡(祝福、礼物、一起做的事)",
+      "scenarioZh": "体裁:贺卡 + 感谢短信,8–10 句。聚会前,浩在红色的包里放了一张卡片:Joyeux anniversaire, Chloé !……卢卡也在卡片上写了一句(他晚上没空来,但一起出了钱)。第二天上午克洛艾发来短信,谢谢两人,说包很漂亮,下午四点一起喝咖啡。(写课时:卡片和短信是写的人自己说,说话人用 hao、lucas、chloe;克洛艾在第 2 课说过喜欢白色、不要红色,卡片里浩拿这件事开了个玩笑。)",
+      "grammarFocusZh": "Joyeux anniversaire ! 和贺卡的常用祝福;复习 pour + 人、ce / cette、颜色配合;感谢的说法 Merci pour…",
+      "skills": ["read", "write"], "estimatedMinutes": 13,
+      "newItems": [
+        { "id": "fr.joyeux_anniversaire", "kind": "phrase", "pos": "phrase", "text": "Joyeux anniversaire !", "zh": "生日快乐!", "features": { "ipa": "ʒwa.jø.za.ni.vɛʁ.sɛʁ" }, "noteZh": "joyeux 和 anniversaire 要联诵,x 读 [z];也可以说 Bon anniversaire !;后面加名字:Joyeux anniversaire, Chloé !" }
+      ],
+      "reviewItems": ["fr.cadeau", "fr.pour", "fr.sac", "fr.rouge", "fr.ce"]
     }
   ]
 }

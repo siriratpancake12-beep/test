@@ -1,0 +1,42 @@
+{
+  "id": "fr.a1u3.r02", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 家人与朋友", "order": 103085,
+  "titleZh": "克洛艾的语伴档案(个人主页)", "goalZh": "读懂语伴网站上的个人主页,并能照着写自己的主页",
+  "canDoZh": "能读懂语伴网站上的个人主页(年龄、家人、职业、爱好),并照着写自己的主页",
+  "skills": ["read", "write"], "estimatedMinutes": 15.5,
+  "newItems": [
+    { "id": "fr.chercher", "kind": "word", "pos": "verb", "text": "chercher", "zh": "找;寻找", "features": { "ipa": "ʃɛʁ.ʃe" }, "noteZh": "规则的 -er 动词;后面直接接要找的东西,不加介词:Je cherche un ami.(英语要说 look for)" },
+    { "id": "fr.blague", "kind": "word", "pos": "noun", "text": "la blague", "zh": "笑话;玩笑", "features": { "gender": "f", "ipa": "la blag" }, "noteZh": "阴性;gue 读 [g],u 不发音。爱开玩笑可以说 adorer les blagues。" },
+    { "id": "fr.langue", "kind": "word", "pos": "noun", "text": "la langue", "zh": "语言;舌头", "features": { "gender": "f", "ipa": "la lɑ̃g" }, "noteZh": "阴性;gue 读 [g]。说某种语言不加冠词(parler chinois),但说“语言”这个名词要带冠词:J'adore les langues。" }
+  ],
+  "reviewItems": ["fr.frere", "fr.soeur", "fr.professeur", "fr.chat", "fr.gros", "fr.ami"],
+  "lines": [
+    { "speaker": "chloe", "text": "Bonjour ! Je m'appelle Chloé et j'ai vingt ans.", "zh": "(克洛艾在语伴网站上的个人主页)大家好!我叫克洛艾,今年二十岁。", "items": ["fr.bonjour", "fr.je_mappelle", "fr.et", "fr.je", "fr.avoir", "fr.vingt", "fr.an"] },
+    { "speaker": "chloe", "text": "J'habite à Lyon, à la Croix-Rousse.", "zh": "我住在里昂的红十字区。", "items": ["fr.je", "fr.habiter", "fr.a"] },
+    { "speaker": "chloe", "text": "Je suis française et je parle un peu chinois.", "zh": "我是法国人,会说一点中文。", "items": ["fr.je_suis", "fr.je", "fr.etre", "fr.francais", "fr.et", "fr.parler", "fr.un_peu", "fr.chinois"] },
+    { "speaker": "chloe", "text": "J'adore les langues !", "zh": "我特别喜欢学语言!", "items": ["fr.je", "fr.adorer", "fr.langue"] },
+    { "speaker": "chloe", "text": "J'ai un grand frère et une petite sœur.", "zh": "我有一个哥哥和一个妹妹。", "items": ["fr.je", "fr.avoir", "fr.un", "fr.grand", "fr.frere", "fr.et", "fr.une", "fr.petit", "fr.soeur"] },
+    { "speaker": "chloe", "text": "Mon frère a vingt-trois ans, et ma sœur a quinze ans.", "zh": "我哥哥二十三岁,我妹妹十五岁。", "items": ["fr.mon", "fr.frere", "fr.avoir", "fr.vingt", "fr.trois", "fr.an", "fr.et", "fr.ma", "fr.soeur", "fr.quinze"] },
+    { "speaker": "chloe", "text": "Ma mère est professeure. Mon père adore les blagues !", "zh": "我妈妈是老师。我爸爸特别爱开玩笑!", "items": ["fr.ma", "fr.mere", "fr.etre", "fr.professeur", "fr.mon", "fr.pere", "fr.adorer", "fr.blague"] },
+    { "speaker": "chloe", "text": "Nous avons un gros chat : Caramel !", "zh": "我们家有一只胖胖的猫,叫 Caramel!", "items": ["fr.nous", "fr.avoir", "fr.un", "fr.gros", "fr.chat"] },
+    { "speaker": "chloe", "text": "J'aime aussi les animaux et le chocolat.", "zh": "我还喜欢动物和巧克力。", "items": ["fr.je", "fr.aimer", "fr.aussi", "fr.animal", "fr.et", "fr.chocolat"] },
+    { "speaker": "chloe", "text": "Je cherche un ami chinois ou une amie chinoise.", "zh": "我想找一位中国朋友,男生女生都可以。", "items": ["fr.je", "fr.chercher", "fr.un", "fr.ami", "fr.chinois", "fr.ou", "fr.une"] },
+    { "speaker": "chloe", "text": "Nous parlons français et chinois ensemble ?", "zh": "我们一起说法语和中文,好吗?", "items": ["fr.nous", "fr.parler", "fr.francais", "fr.et", "fr.chinois", "fr.ensemble"] },
+    { "speaker": "chloe", "text": "À bientôt ! Chloé", "zh": "回头聊!克洛艾", "items": ["fr.a_bientot"] }
+  ],
+  "questions": [
+    { "prompt": "克洛艾的妹妹几岁?", "options": ["二十三岁", "十五岁", "二十岁"], "answer": 1, "explainZh": "Mon frère a vingt-trois ans, et ma sœur a quinze ans.(哥哥二十三岁,妹妹十五岁。)二十岁的是克洛艾自己。" },
+    { "prompt": "克洛艾的爸爸是什么样的人?", "options": ["很爱开玩笑", "是老师", "不喜欢猫"], "answer": 0, "explainZh": "Mon père adore les blagues !(我爸爸特别爱开玩笑!)是老师的是她妈妈:Ma mère est professeure。" },
+    { "prompt": "克洛艾在网站上想找什么样的人?", "options": ["法国朋友", "英语老师", "中国朋友,一起说法语和中文"], "answer": 2, "explainZh": "Je cherche un ami chinois ou une amie chinoise. Nous parlons français et chinois ensemble ?" }
+  ],
+  "grammar": [
+    { "id": "fr.g.profil", "titleZh": "照着写个人主页",
+      "bodyZh": "个人主页的句子都很短,用学过的句型就能写:\n- 名字和年龄:Je m'appelle… et j'ai … ans.(年龄用 avoir,不用 être)\n- 住在哪儿:J'habite à + 城市。\n- 国籍和语言:Je suis chinois(e). Je parle chinois et un peu français.(说某种语言不加冠词)\n- 家人:J'ai un grand frère / une petite sœur.;没有兄弟姐妹:Je suis fils unique.(女生说 fille unique)\n- 喜好:J'adore les langues / les animaux.(用定冠词)\n- 想找什么样的人:Je cherche un ami français ou une amie française.\n主有形容词跟后面名词的性数走:mon père、ma mère、mes parents;介绍别人的主页时用 son / sa / ses:Sa mère est professeure.",
+      "examples": [
+        { "text": "Je m'appelle Hao et j'ai vingt ans.", "zh": "我叫浩,今年二十岁。" },
+        { "text": "J'habite à Lyon.", "zh": "我住在里昂。" },
+        { "text": "Je cherche un ami français.", "zh": "我想找一位法国朋友。" }
+      ] }
+  ],
+  "review": "draft"
+}

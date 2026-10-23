@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u19.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-19 How are you feeling?", "order": 119020,
+  "titleZh": "你现在感觉怎么样?", "goalZh": "会用 How are you feeling? 关心别人,用 I'm feeling… / I feel better. 说自己这几天的感受", "canDoZh": "能用 How are you feeling? 关心别人,说出自己这几天的感受",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.homesick", "kind": "word", "pos": "adj", "text": "homesick", "zh": "想家的", "features": { "ipa": "ˈhoʊmsɪk" }, "noteZh": "home + sick,想家想得难受;复合词重音在前 HOME-sick:I'm homesick. / I feel homesick.。" },
+    { "id": "en.lonely", "kind": "word", "pos": "adj", "text": "lonely", "zh": "孤独的;寂寞的", "features": { "ipa": "ˈloʊnli" }, "noteZh": "lonely 说心里孤单;一个人待着不一定 lonely(alone 只是“独自”);o 读 /oʊ/。" },
+    { "id": "en.feel_better", "kind": "phrase", "pos": "verb", "text": "feel better", "zh": "感觉好些了", "features": { "ipa": "ˌfiːl ˈbet̬ɚ" }, "noteZh": "I feel better now. 我现在好多了;better 中间的 tt 读闪音,像轻轻的 d。" },
+    { "id": "en.ice_cream", "kind": "phrase", "pos": "noun", "text": "ice cream", "zh": "冰淇淋", "features": { "ipa": "ˈaɪs ˌkriːm" }, "noteZh": "一般不可数:some ice cream;两个词,重音在前 ICE cream。" },
+    { "id": "en.without", "kind": "word", "pos": "prep", "text": "without", "zh": "没有;不带", "features": { "ipa": "wɪˈðaʊt" }, "noteZh": "without me 没有我(我不在);th 读浊音 /ð/,重音在后 with-OUT。" },
+    { "id": "en.cheer_up", "kind": "phrase", "pos": "phrase", "text": "Cheer up", "zh": "振作点!;开心点!", "features": { "ipa": "ˌtʃɪr ˈʌp" }, "noteZh": "朋友不开心时说 Cheer up!;ch 读 /tʃ/,eer 读 /ɪr/,和 up 连读。" },
+    { "id": "en.away", "kind": "word", "pos": "adv", "text": "away", "zh": "在远处;离开", "features": { "ipa": "əˈweɪ" }, "noteZh": "far away 很远;重音在后 a-WAY,开头的 a 弱读。" },
+    { "id": "en.hometown", "kind": "word", "pos": "noun", "text": "hometown", "zh": "家乡", "features": { "ipa": "ˈhoʊmtaʊn" }, "noteZh": "my hometown 我的家乡;复合词,重音在前 HOME-town。" }
+  ],
+  "reviewItems": ["en.twins", "en.sister", "en.miss", "en.far", "en.laugh"],
+  "lines": [
+    { "speaker": "lei", "text": "Sofia, how are you feeling? You're so quiet this week.", "zh": "(周五下午,图书馆门口)索菲亚,你现在感觉怎么样?你这个星期话好少。", "items": ["en.feel", "en.so", "en.quiet", "en.week"] },
+    { "speaker": "sofia", "text": "I'm feeling homesick. My twin sisters were 14 yesterday.", "zh": "我有点想家。我的双胞胎妹妹昨天满 14 岁了。", "items": ["en.feel", "en.homesick", "en.twins", "en.sister", "en.yesterday"] },
+    { "speaker": "sofia", "text": "My family had a big party without me.", "zh": "全家给她们开了个大派对,就我不在。", "items": ["en.family", "en.have", "en.big", "en.party", "en.without"] },
+    { "speaker": "lei", "text": "Oh, Sofia. Do you feel lonely?", "zh": "哦,索菲亚。你觉得孤单吗?", "items": ["en.feel", "en.lonely"] },
+    { "speaker": "sofia", "text": "A little. I miss my hometown. It's so far away.", "zh": "有一点。我想我的家乡。它离这儿太远了。", "items": ["en.a_little", "en.miss", "en.hometown", "en.so", "en.far", "en.away"] },
+    { "speaker": "lei", "text": "I know. I'm homesick sometimes, too.", "zh": "我懂。我有时候也想家。", "items": ["en.know", "en.homesick", "en.sometimes"] },
+    { "speaker": "lei", "text": "Then I call my mom, or I cook Sichuan food.", "zh": "想家的时候,我就给妈妈打电话,或者做川菜吃。", "items": ["en.then", "en.call", "en.mom", "en.cook", "en.food"] },
+    { "speaker": "lei", "text": "Cheer up! Let's go for ice cream.", "zh": "开心点!咱们去吃冰淇淋吧。", "items": ["en.cheer_up", "en.lets", "en.go", "en.ice_cream"] },
+    { "speaker": "sofia", "text": "Ice cream? OK! I feel better now.", "zh": "冰淇淋?好!我现在感觉好多了。", "items": ["en.ice_cream", "en.feel_better"] },
+    { "speaker": "lei", "text": "Good! You're laughing!", "zh": "太好了!你笑了!", "items": ["en.laugh"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚为什么想家?", "options": ["她生病了", "双胞胎妹妹过生日,全家开派对,只有她不在", "她考试没考好"], "answer": 1, "explainZh": "索菲亚说 My twin sisters were 14 yesterday. My family had a big party without me.(全家开了派对,就她不在。)" },
+    { "prompt": "磊想家的时候会做什么?", "options": ["给妈妈打电话,或者做川菜", "去跑步", "去看电影"], "answer": 0, "explainZh": "磊说 Then I call my mom, or I cook Sichuan food.。" },
+    { "prompt": "最后磊拉索菲亚去做什么?", "options": ["去图书馆学习", "回宿舍睡觉", "去吃冰淇淋"], "answer": 2, "explainZh": "磊说 Cheer up! Let's go for ice cream.(开心点!咱们去吃冰淇淋吧。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.how_are_you_feeling", "titleZh": "How are you? 和 How are you feeling?",
+      "bodyZh": "How are you? 是见面打招呼,对方一般随口答 Good, thanks.;How are you feeling? 是真的关心对方现在的状态,常用在朋友生病、难过、压力大的时候,问的是“你现在感觉怎么样”。feel 说心情和身体的感受,可以用一般现在时(I feel lonely.),也常用现在进行时说“这几天、现在”的暂时感受(I'm feeling homesick.),两种都对。注意 feeling 后面跟形容词:I'm feeling homesick.,不说 I'm feeling homesickly.。",
+      "examples": [
+        { "text": "How are you feeling?", "zh": "你现在感觉怎么样?" },
+        { "text": "I'm feeling homesick.", "zh": "我有点想家。" },
+        { "text": "Do you feel lonely?", "zh": "你觉得孤单吗?" }
+      ] },
+    { "id": "en.g.feel_better", "titleZh": "feel better:感觉好些了;怎样安慰想家的朋友",
+      "bodyZh": "第 8 单元学过 get better(病好起来);心情或身体“感觉好些了”说 feel better:I feel better now.。朋友想家、不开心,可以先表示理解(I know.),再说自己的经历(I'm homesick sometimes, too.),最后给个主意:Cheer up! Let's go for ice cream.。想家、心情低落一直缓不过来,也可以去学校的心理咨询中心(counseling center)找人聊一聊。发音:feeling /ˈfiːlɪŋ/ 的 ee 是长元音,l 是“暗 L”,舌尖抬起再滑到 -ing。",
+      "examples": [
+        { "text": "I feel better now.", "zh": "我现在感觉好多了。" },
+        { "text": "I'm homesick sometimes, too.", "zh": "我有时候也想家。" },
+        { "text": "Cheer up! Let's go for ice cream.", "zh": "开心点!咱们去吃冰淇淋吧。" }
+      ] }
+  ],
+  "review": "draft"
+}

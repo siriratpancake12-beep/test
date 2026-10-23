@@ -8,7 +8,7 @@
     { "id": "de.inklusive", "kind": "word", "pos": "adv", "text": "inklusive", "zh": "包括在内;含", "features": { "ipa": "ɪnkluˈziːvə" }, "noteZh": "Das Frühstück ist inklusive.(含早餐。)反过来 nicht inklusive / extra(另外收费);旅馆、车票上常见。重音在 si 上。" },
     { "id": "de.bettwaesche", "kind": "word", "pos": "noun", "text": "die Bettwäsche", "zh": "床单被套", "features": { "gender": "f", "plural": "-", "ipa": "ˈbɛtˌvɛʃə" }, "noteZh": "das Bett + die Wäsche(要洗的布类);只有单数。青年旅舍常要另外付钱租,或者自己带。" }
   ],
-  "reviewItems": ["de.jugendherberge", "de.leuchtturm", "de.strand", "de.haustier", "de.erlauben", "de.frage"],
+  "reviewItems": ["de.jugendherberge", "de.leuchtturm", "de.strand", "de.haustier", "de.erlaubt", "de.frage"],
   "lines": [
     { "speaker": "narrator", "text": "Jugendherberge „Am Leuchtturm“ – fünf Minuten zum Strand!", "zh": "(青年旅舍的网页)“灯塔边”青年旅舍——走五分钟就到海滩!", "items": ["de.jugendherberge", "de.am", "de.leuchtturm", "de.fuenf", "de.minute", "de.zu", "de.strand"] },
     { "speaker": "narrator", "text": "Unsere Zimmer: Doppelzimmer und Vierbettzimmer.", "zh": "我们的房间:双人间和四人间。", "items": ["de.unser", "de.zimmer", "de.doppelzimmer", "de.und", "de.vier", "de.bett"] },
@@ -18,9 +18,9 @@
     { "speaker": "narrator", "text": "Die Bettwäsche ist nicht inklusive. Sie kostet 6 Euro.", "zh": "床单被套不含在房费里,要另付 6 欧元。", "items": ["de.bettwaesche", "de.sein", "de.nicht", "de.inklusive", "de.sie_sg", "de.kosten", "de.sechs", "de.euro"] },
     { "speaker": "narrator", "text": "Die Zimmer sind nach 15 Uhr frei.", "zh": "15 点以后可以进房间。", "items": ["de.zimmer", "de.sein", "de.nach", "de.fuenf", "de.zehn", "de.uhr", "de.frei"] },
     { "speaker": "narrator", "text": "Am letzten Tag müssen Sie das Zimmer bis 10 Uhr frei machen.", "zh": "最后一天请在 10 点以前退房。", "items": ["de.am", "de.letzte", "de.tag", "de.muessen", "de.sie_hoeflich", "de.zimmer", "de.bis", "de.zehn", "de.uhr", "de.frei", "de.machen"] },
-    { "speaker": "narrator", "text": "Bei uns gibt es Fahrräder: 10 Euro für einen Tag.", "zh": "我们这儿可以租自行车:一天 10 欧元。", "items": ["de.bei", "de.wir", "de.es_gibt", "de.fahrrad", "de.zehn", "de.euro", "de.fuer", "de.ein", "de.tag"] },
-    { "speaker": "narrator", "text": "Haustiere sind bei uns leider nicht erlaubt.", "zh": "很抱歉,本店不能带宠物。", "items": ["de.haustier", "de.sein", "de.bei", "de.wir", "de.leider", "de.nicht", "de.erlauben"] },
-    { "speaker": "narrator", "text": "Fragen? Rufen Sie uns an!", "zh": "有问题?请给我们打电话!", "items": ["de.frage", "de.anrufen", "de.sie_hoeflich", "de.wir"] },
+    { "speaker": "narrator", "text": "Bei uns gibt es Fahrräder: 10 Euro für einen Tag.", "zh": "我们这儿可以租自行车:一天 10 欧元。", "items": ["de.bei", "de.uns", "de.es_gibt", "de.fahrrad", "de.zehn", "de.euro", "de.fuer", "de.ein", "de.tag"] },
+    { "speaker": "narrator", "text": "Haustiere sind bei uns leider nicht erlaubt.", "zh": "很抱歉,本店不能带宠物。", "items": ["de.haustier", "de.sein", "de.bei", "de.uns", "de.leider", "de.nicht", "de.erlaubt"] },
+    { "speaker": "narrator", "text": "Fragen? Rufen Sie uns an!", "zh": "有问题?请给我们打电话!", "items": ["de.frage", "de.anrufen", "de.sie_hoeflich", "de.uns"] },
     { "speaker": "wei", "text": "Frühstück inklusive und fünf Minuten zum Strand – toll!", "zh": "(王伟看完网页)含早餐,走五分钟到海滩——太好了!", "items": ["de.fruehstueck", "de.inklusive", "de.und", "de.fuenf", "de.minute", "de.zu", "de.strand", "de.toll"] }
   ],
   "questions": [

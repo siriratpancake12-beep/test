@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u11.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111080,
+  "titleZh": "单元复习:到了!", "goalZh": "综合运用本单元的出行用语,用过去时讲一路上的经过", "canDoZh": "能和朋友讲一路上的经过:订票、值机、安检、延误和打车,并说出回程要注意什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 19.5,
+  "newItems": [],
+  "reviewItems": ["en.security", "en.forget", "en.gate", "en.change", "en.pier", "en.boarding_pass"],
+  "lines": [
+    { "speaker": "amy", "text": "Hey, you guys! You're in LA! How was the trip?", "zh": "(酒店大堂里,两人等着办入住,和艾米视频)嘿,你们到洛杉矶啦!路上怎么样?", "items": ["en.hey", "en.you_guys", "en.trip"] },
+    { "speaker": "lei", "text": "Great! But listen to this.", "zh": "挺好!不过你听我说。", "items": ["en.great", "en.listen_to"] },
+    { "speaker": "lei", "text": "At security, I had water in my bag.", "zh": "过安检的时候,我包里有水。", "items": ["en.security", "en.have", "en.water", "en.bag"] },
+    { "speaker": "amy", "text": "Oh no! Lei! No water in your bag!", "zh": "哎呀!磊!不是说了包里别放水嘛!", "items": ["en.water", "en.bag"] },
+    { "speaker": "lei", "text": "I forgot! So I drank it all.", "zh": "我忘了!所以我一口气全喝了。", "items": ["en.forget", "en.drink"] },
+    { "speaker": "sofia", "text": "All of it! It was so funny.", "zh": "一整瓶!笑死我了。", "items": ["en.so", "en.funny"] },
+    { "speaker": "amy", "text": "And how was the flight?", "zh": "那飞机上怎么样?", "items": ["en.flight"] },
+    { "speaker": "sofia", "text": "There was a gate change, and the flight was twenty minutes late.", "zh": "换了登机口,飞机还晚了二十分钟。", "items": ["en.gate", "en.change", "en.flight", "en.minute", "en.late"] },
+    { "speaker": "lei", "text": "But I had the window. The view was beautiful!", "zh": "不过我坐靠窗,风景太美了!", "items": ["en.have", "en.window", "en.view", "en.beautiful"] },
+    { "speaker": "sofia", "text": "Then we took a car here. The driver was really nice.", "zh": "然后我们叫车来的酒店,司机人特别好。", "items": ["en.then", "en.take", "en.car", "en.driver", "en.really", "en.nice"] },
+    { "speaker": "lei", "text": "We're going to see the pier this afternoon!", "zh": "我们今天下午去码头看看!", "items": ["en.going_to", "en.see", "en.pier", "en.afternoon"] },
+    { "speaker": "amy", "text": "Cool! On January 8th, be at the airport two hours early.", "zh": "不错!1 月 8 号回来那天,也要提前两个小时到机场。", "items": ["en.cool", "en.january", "en.airport", "en.hour", "en.early"] },
+    { "speaker": "amy", "text": "And don't forget your boarding passes!", "zh": "还有,别忘了登机牌!", "items": ["en.forget", "en.boarding_pass"] },
+    { "speaker": "lei", "text": "Don't worry, Amy. See you on Thursday!", "zh": "别担心,艾米。星期四见!", "items": ["en.worry", "en.see", "en.thursday"] }
+  ],
+  "questions": [
+    { "prompt": "磊说的那件好笑的事是什么?", "options": ["安检时包里有水,他一口气喝完了", "他在飞机上睡着了", "他差点坐错飞机"], "answer": 0, "explainZh": "At security, I had water in my bag. …… I forgot! So I drank it all." },
+    { "prompt": "飞机上怎么样?", "options": ["换了登机口,晚了二十分钟", "准点到达", "航班取消了"], "answer": 0, "explainZh": "There was a gate change, and the flight was twenty minutes late." },
+    { "prompt": "艾米提醒他们回程那天要注意什么?", "options": ["多带一件外套", "别忘了给大家买礼物", "提前两小时到机场,别忘了登机牌"], "answer": 2, "explainZh": "On January 8th, be at the airport two hours early. And don't forget your boarding passes!" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.u11_review",
+      "titleZh": "第 11 单元小结:出行用语",
+      "bodyZh": "① need + 名词 / need to + 动词:I need sunglasses. / You need to be at the airport two hours early.。② 否定祈使句 Don't…:Don't forget your boarding pass! / Don't worry.。③ can / can't 表示规定:You can't have water after security. / You can get up now.。④ 礼貌地问和要:Would you like…? — I'd like…, please.。⑤ How far is it?(多远)和 How long does it take?(多久)。⑥ 讲路上的经过用过去时:There was a gate change. / We took a car.。发音:讲经过时,每件事之间稍微停一下,再用 And… / But… / Then… 接下去。",
+      "examples": [
+        { "text": "There was a gate change, and the flight was late.", "zh": "换了登机口,飞机还晚点了。" },
+        { "text": "Don't forget your boarding passes!", "zh": "别忘了登机牌!" },
+        { "text": "Then we took a car here. The driver was really nice.", "zh": "然后我们叫车来的,司机人特别好。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

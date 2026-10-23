@@ -1,0 +1,195 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-20 旅途与回顾", "cefr": "A1", "themeZh": "七月底,在波罗的海边的四天:入住青年旅舍、房间出问题、讲前一天做了什么、向当地人问推荐、写明信片、买纪念品、退房回家、讲旅行;最后和大家告别,写《我在德国的第一年》,八月回成都。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u20.l01", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120010,
+      "titleZh": "入住青年旅舍",
+      "goalZh": "会在旅馆前台办入住:报预订的名字、出示证件、付钱,问房间在哪儿和早饭时间",
+      "canDoZh": "能在旅馆前台办入住,报出预订的名字,问房间和早餐时间",
+      "scenarioZh": "7 月 25 日下午三点,四个人从海滩回到青年旅舍办入住(上午到的时候行李先放在了前台,15 点以后才能入住,见第 19 单元)。女前台欢迎王先生,要看护照和身份证,收床单费(每人 6 欧元,一共 24 欧元),王伟刷卡付钱;她给了房卡(die Schlüsselkarte),说房间在楼上(oben),楼梯(die Treppe)在左边,房间里有储物柜(das Schließfach);今晚住两个双人间,明天搬(umziehen)进四人间;早饭 7 到 10 点,22 点到 7 点是夜间安静时间(die Nachtruhe);保罗问半夜(um Mitternacht)有没有早饭,前台笑了,说前台有零食(der Snack)售货机。规划原来写“晚上十点到”,和上午到达对不上,改成下午三点入住;WLAN、Passwort 是第 10 单元的词,还没定,没写进课文。说话人:mitarbeiterin、wei、paul、lena。",
+      "grammarFocusZh": "复习:Wir haben … reserviert(完成时)、Kann ich mit Karte bezahlen?、Wann gibt es Frühstück? – Von 7 bis 10 Uhr;可分动词 umziehen(Morgen ziehen Sie um)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "de.schluesselkarte", "kind": "word", "pos": "noun", "text": "die Schlüsselkarte", "zh": "房卡", "features": { "gender": "f", "plural": "die Schlüsselkarten", "ipa": "ˈʃlʏsl̩ˌkaʁtə" }, "noteZh": "der Schlüssel(钥匙)+ die Karte(卡),性跟最后一个词;旅馆常用房卡开门。复数 die Schlüsselkarten;ü 撮圆嘴唇。" },
+        { "id": "de.oben", "kind": "word", "pos": "adv", "text": "oben", "zh": "在上面;楼上", "features": { "ipa": "ˈoːbn̩" }, "noteZh": "Die Zimmer sind oben.(房间在楼上。)反义词 unten(在下面、楼下,第 15 单元);o 读长音。" },
+        { "id": "de.treppe", "kind": "word", "pos": "noun", "text": "die Treppe", "zh": "楼梯", "features": { "gender": "f", "plural": "die Treppen", "ipa": "ˈtʁɛpə" }, "noteZh": "Die Treppe ist links.(楼梯在左边。)die Treppe nehmen = 走楼梯;复数 die Treppen。" },
+        { "id": "de.schliessfach", "kind": "word", "pos": "noun", "text": "das Schließfach", "zh": "(带锁的)储物柜", "features": { "gender": "n", "plural": "die Schließfächer", "ipa": "ˈʃliːsˌfax" }, "noteZh": "schließen(关上、锁上,第 17 单元)+ das Fach(格子);青年旅舍、火车站常有,用来锁好行李和贵重东西。复数变音 die Schließfächer。" },
+        { "id": "de.umziehen", "kind": "word", "pos": "verb", "text": "umziehen", "zh": "搬家;搬到(别的房间)", "features": { "ipa": "ˈʊmˌt͡siːən" }, "noteZh": "可分动词:Morgen ziehen Sie ins Vierbettzimmer um.(明天您搬进四人间。)完成时用 sein:Im Oktober bin ich umgezogen.(我十月搬的家。)" },
+        { "id": "de.nachtruhe", "kind": "word", "pos": "noun", "text": "die Nachtruhe", "zh": "夜间安静时间", "features": { "gender": "f", "plural": "-", "ipa": "ˈnaxtˌʁuːə" }, "noteZh": "die Nacht + die Ruhe(安静);德国的宿舍、青年旅舍一般 22 点以后是 Nachtruhe,走廊里要小声。只用单数。" },
+        { "id": "de.mitternacht", "kind": "word", "pos": "noun", "text": "die Mitternacht", "zh": "半夜十二点;午夜", "features": { "gender": "f", "plural": "-", "ipa": "ˈmɪtɐˌnaxt" }, "noteZh": "um Mitternacht(半夜十二点的时候);只用单数,重音在前面的 Mit-。" },
+        { "id": "de.snack", "kind": "word", "pos": "noun", "text": "der Snack", "zh": "零食;小吃", "features": { "gender": "m", "plural": "die Snacks", "ipa": "snɛk" }, "noteZh": "从英语来,读 [snɛk];ein Automat mit Snacks(零食售货机)。复数 die Snacks。" }
+      ],
+      "reviewItems": ["de.reservieren", "de.doppelzimmer", "de.gepaeck", "de.personalausweis", "de.bettwaesche", "de.rezeption"]
+    },
+    {
+      "id": "de.a1u20.l02", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120020,
+      "titleZh": "房间出了问题",
+      "goalZh": "会礼貌地向前台说明房间里的问题,请他们帮忙,听懂对方的解决办法",
+      "canDoZh": "能礼貌地向前台说明房间的问题,请他们帮忙解决",
+      "scenarioZh": "7 月 26 日早上(第一个晚上住在双人间),王伟去前台说房间的问题:淋浴(die Dusche)没有热水,窗户关不上(zugehen),风都吹进来了,床边的插座(die Steckdose)不能用,充电器插不上;男工作人员道歉(Entschuldigen Sie bitte!),说真让人恼火(ärgerlich),维修工上午来修;他们今天本来就要搬进四人间,工作人员问要不要现在就换(wechseln);王伟说好,但愿(hoffentlich)那边的淋浴有热水;索菲娅顺便要了一条浴巾和一个吹风机(der Föhn);工作人员说还有问题就说一声。规划原来写“中午以前修好,不行就换一间”,因为当天本来就要搬进四人间,改成提前换房;多要毛巾用第 19 单元的 Badetuch(Handtuch 是第 11 单元的词,还没定)。说话人:wei、mitarbeiter、sofia。",
+      "grammarFocusZh": "说明问题:Die Dusche ist kalt / Das Fenster geht nicht zu / Die Steckdose funktioniert nicht;请求:Können wir bitte … haben?;道歉和回应:Entschuldigen Sie bitte! / Das ist wirklich ärgerlich.",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "de.dusche", "kind": "word", "pos": "noun", "text": "die Dusche", "zh": "淋浴;淋浴间", "features": { "gender": "f", "plural": "die Duschen", "ipa": "ˈduːʃə" }, "noteZh": "Die Dusche ist kalt.(淋浴是凉的。)动词是 duschen(冲澡,第 17 单元);复数 die Duschen。" },
+        { "id": "de.zugehen", "kind": "word", "pos": "verb", "text": "zugehen", "zh": "(门、窗)关得上", "features": { "ipa": "ˈt͡suːˌɡeːən" }, "noteZh": "Das Fenster geht nicht zu.(窗户关不上。)可分动词,zu 放句末;主语是门、窗这些东西。" },
+        { "id": "de.aergerlich", "kind": "word", "pos": "adj", "text": "ärgerlich", "zh": "让人恼火的;气人", "features": { "ipa": "ˈɛʁɡɐlɪç" }, "noteZh": "Das ist wirklich ärgerlich.(这真让人恼火。)听别人讲倒霉事时也这样说,表示理解;-lich 读 [lɪç]。" },
+        { "id": "de.entschuldigen_sie", "kind": "phrase", "pos": "phrase", "text": "Entschuldigen Sie!", "zh": "对不起!/打扰一下!(对用 Sie 的人)", "features": { "ipa": "ɛntˈʃʊldɪɡn̩ ziː" }, "noteZh": "比 Entschuldigung 正式,对用 Sie 称呼的人说;工作人员道歉常说 Entschuldigen Sie bitte!" },
+        { "id": "de.steckdose", "kind": "word", "pos": "noun", "text": "die Steckdose", "zh": "插座", "features": { "gender": "f", "plural": "die Steckdosen", "ipa": "ˈʃtɛkˌdoːzə" }, "noteZh": "Die Steckdose funktioniert nicht.(插座不能用。)德国的插座和中国的不一样,带中国电器要用转换插头;复数 die Steckdosen。" },
+        { "id": "de.wechseln", "kind": "word", "pos": "verb", "text": "wechseln", "zh": "换;更换", "features": { "ipa": "ˈvɛksl̩n" }, "noteZh": "das Zimmer wechseln(换房间)、Geld wechseln(换钱);chs 读 [ks],w 读 [v]。" },
+        { "id": "de.hoffentlich", "kind": "word", "pos": "adv", "text": "hoffentlich", "zh": "但愿;希望", "features": { "ipa": "ˈhɔfn̩tlɪç" }, "noteZh": "Hoffentlich ist die Dusche da warm.(但愿那边的淋浴有热水。)放句首时,变位动词紧跟在第二位。" },
+        { "id": "de.foehn", "kind": "word", "pos": "noun", "text": "der Föhn", "zh": "吹风机", "features": { "gender": "m", "plural": "die Föhne", "ipa": "føːn" }, "noteZh": "Können wir einen Föhn haben?(能借个吹风机吗?)也写作 der Fön;ö 撮圆嘴唇读长音,h 不发音。复数 die Föhne。" }
+      ],
+      "reviewItems": ["de.umziehen", "de.badetuch", "de.bescheid_sagen", "de.reparieren", "de.funktionieren", "de.hausmeister"]
+    },
+    {
+      "id": "de.a1u20.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120030,
+      "titleZh": "昨天我们……:完成时和 war / hatte 总复习",
+      "goalZh": "会用完成时和 war / hatte 连贯地讲前一天去了哪儿、做了什么、怎么样",
+      "canDoZh": "能用完成时和 war / hatte 连贯地讲前一天做了什么、怎么样",
+      "scenarioZh": "7 月 27 日吃早饭时,莉娜和爸妈(der Papa、die Mama)视频,爸妈的话听不到。保罗抢着汇报昨天:骑车(die Radtour)去了灯塔,爬到上面——135 级台阶(die Stufe),景色(die Aussicht)很棒;莉娜说下午大家下海游泳,天晴,但风大(windig);王伟说他第一次(zum ersten Mal)在海里游泳,水冷极了(eiskalt),保罗说他真勇敢(mutig);晚上在港口吃鱼面包,保罗一共(insgesamt)吃了三个;妈妈问保罗昨天为什么没打电话(第 19 单元说好每天晚上打),保罗说忘了。说话人:lena、paul、wei。",
+      "grammarFocusZh": "完成时总复习:haben 还是 sein(位置移动用 sein:Wir sind im Meer geschwommen);分词放句末;war / hatte 说状态和感受(Das Wasser war eiskalt / Du warst mutig);Es war sonnig, aber windig",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.papa", "kind": "word", "pos": "noun", "text": "der Papa", "zh": "爸爸(口语)", "features": { "gender": "m", "plural": "die Papas", "ipa": "ˈpapa" }, "noteZh": "和 die Mama(第 19 单元)一样是口语,正式说 der Vater;复数 die Papas。" },
+        { "id": "de.radtour", "kind": "word", "pos": "noun", "text": "die Radtour", "zh": "骑车出游", "features": { "gender": "f", "plural": "die Radtouren", "ipa": "ˈʁaːtˌtuːɐ̯" }, "noteZh": "das Rad(自行车,第 17 单元)+ die Tour,性跟后面的词;eine Radtour machen(骑车出去玩)。复数 die Radtouren。" },
+        { "id": "de.stufe", "kind": "word", "pos": "noun", "text": "die Stufe", "zh": "台阶;(楼梯的)一级", "features": { "gender": "f", "plural": "die Stufen", "ipa": "ˈʃtuːfə" }, "noteZh": "Der Leuchtturm hat 135 Stufen.(灯塔有 135 级台阶。)词首的 st 读 [ʃt];复数 die Stufen。" },
+        { "id": "de.aussicht", "kind": "word", "pos": "noun", "text": "die Aussicht", "zh": "景色;视野", "features": { "gender": "f", "plural": "die Aussichten", "ipa": "ˈaʊ̯sˌzɪçt" }, "noteZh": "Von oben ist die Aussicht toll.(从上面看,景色很棒。)ich 里的 ch 读 [ç];复数 die Aussichten。" },
+        { "id": "de.windig", "kind": "word", "pos": "adj", "text": "windig", "zh": "有风的;风大的", "features": { "ipa": "ˈvɪndɪç" }, "noteZh": "Es ist windig.(风大。)der Wind(第 19 单元)+ -ig,和 sonnig(晴朗的)一样;词尾 -ig 读 [ɪç]。" },
+        { "id": "de.zum_ersten_mal", "kind": "phrase", "pos": "phrase", "text": "zum ersten Mal", "zh": "第一次", "features": { "ipa": "t͡sʊm ˈeːɐ̯stn̩ maːl" }, "noteZh": "Ich bin zum ersten Mal im Meer geschwommen.(我第一次在海里游泳。)先当固定说法记;第二次是 zum zweiten Mal。" },
+        { "id": "de.eiskalt", "kind": "word", "pos": "adj", "text": "eiskalt", "zh": "冰冷的;冷极了", "features": { "ipa": "ˈaɪ̯sˈkalt" }, "noteZh": "Das Wasser war eiskalt!(水冷极了!)意思是 sehr kalt,口语里爱这样夸张;ei 读 [aɪ̯]。" },
+        { "id": "de.mutig", "kind": "word", "pos": "adj", "text": "mutig", "zh": "勇敢的;有胆量的", "features": { "ipa": "ˈmuːtɪç" }, "noteZh": "Du warst mutig!(你真勇敢!)u 读长音,词尾 -ig 读 [ɪç]。" },
+        { "id": "de.insgesamt", "kind": "word", "pos": "adv", "text": "insgesamt", "zh": "一共;总共", "features": { "ipa": "ɪnsɡəˈzamt" }, "noteZh": "Ich habe insgesamt drei Fischbrötchen gegessen.(我一共吃了三个鱼面包。)和 zusammen(一共)差不多;重音在 -samt。" }
+      ],
+      "reviewItems": ["de.leuchtturm", "de.oben", "de.fischbroetchen", "de.vergessen", "de.mama", "de.hafen"]
+    },
+    {
+      "id": "de.a1u20.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120040,
+      "titleZh": "问当地人推荐",
+      "goalZh": "会向当地人打听哪儿吃得好、怎么走、船从哪儿开,听懂简单的推荐和指路",
+      "canDoZh": "能向当地人问推荐的饭馆和地方,听懂简单的说明和方向",
+      "scenarioZh": "7 月 27 日上午,在 Warnemünde 的港口,王伟和索菲娅向一位男路人打听:哪儿能吃到好吃的鱼(Was empfehlen Sie?);路人让他们过桥(über die Brücke),那儿的渔民(der Fischer)在小船(das Boot)上卖鱼面包,推荐尝尝鲱鱼(der Hering)的,很新鲜;不远(nah),走五分钟;索菲娅问去 Rostock 的船从哪儿开——在火车站后面(hinter dem Bahnhof),每半小时一班;路人问他们上过灯塔没有,王伟说昨天上去了,135 级台阶;路人说那他们现在一定(bestimmt)饿了。规划写“路人说灯塔可以上去、要买票”,因为第 3 课他们已经上过灯塔,改成路人问起、王伟回答;Wo kann man …? 里的 man 是第 9 单元的词,还没定,说成 Wo können wir …?。说话人:wei、passant、sofia。",
+      "grammarFocusZh": "复习:Können Sie uns helfen? / Wo können wir hier gut Fisch essen? / Was empfehlen Sie? / Ist das weit?;听懂 Sie 的命令式指路(Gehen Sie über die Brücke);über + 第四格、hinter + 第三格先当固定说法",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.empfehlen", "kind": "word", "pos": "verb", "text": "empfehlen", "zh": "推荐;建议", "features": { "ipa": "ɛmˈpfeːlən" }, "noteZh": "Was empfehlen Sie?(您推荐什么?)不规则:du empfiehlst, er empfiehlt;完成时 empfohlen。" },
+        { "id": "de.bruecke", "kind": "word", "pos": "noun", "text": "die Brücke", "zh": "桥", "features": { "gender": "f", "plural": "die Brücken", "ipa": "ˈbʁʏkə" }, "noteZh": "über die Brücke gehen(过桥);ü 撮圆嘴唇,读短音;复数 die Brücken。" },
+        { "id": "de.ueber", "kind": "word", "pos": "prep", "text": "über", "zh": "越过;经过;在……上方", "features": { "ipa": "ˈyːbɐ" }, "noteZh": "Gehen Sie über die Brücke.(过桥。)表示“从上面过去”时后面用第四格:über die Brücke, über die Straße。" },
+        { "id": "de.fischer", "kind": "word", "pos": "noun", "text": "der Fischer", "zh": "渔民", "features": { "gender": "m", "plural": "die Fischer", "ipa": "ˈfɪʃɐ" }, "noteZh": "der Fisch + -er;Warnemünde 港口的渔民常在船上直接卖鱼和鱼面包。复数不变。" },
+        { "id": "de.boot", "kind": "word", "pos": "noun", "text": "das Boot", "zh": "小船", "features": { "gender": "n", "plural": "die Boote", "ipa": "boːt" }, "noteZh": "小船叫 das Boot,大船叫 das Schiff(第 19 单元);oo 读长音 [oː];复数 die Boote。" },
+        { "id": "de.hering", "kind": "word", "pos": "noun", "text": "der Hering", "zh": "鲱鱼", "features": { "gender": "m", "plural": "die Heringe", "ipa": "ˈheːʁɪŋ" }, "noteZh": "波罗的海边最常见的鱼,北德人爱吃 ein Fischbrötchen mit Hering(鲱鱼面包);复数 die Heringe。" },
+        { "id": "de.nah", "kind": "word", "pos": "adj", "text": "nah", "zh": "近", "features": { "ipa": "naː" }, "noteZh": "Das ist nah.(很近。)反义词 weit(远);h 不发音,a 读长音。" },
+        { "id": "de.hinter", "kind": "word", "pos": "prep", "text": "hinter", "zh": "在……后面", "features": { "ipa": "ˈhɪntɐ" }, "noteZh": "Hinter dem Bahnhof.(在火车站后面。)说在哪儿时后面用第三格:hinter dem Bahnhof, hinter dem Haus;反义 vor(在……前面)。" },
+        { "id": "de.bestimmt", "kind": "word", "pos": "adv", "text": "bestimmt", "zh": "一定;肯定", "features": { "ipa": "bəˈʃtɪmt" }, "noteZh": "Dann haben Sie jetzt bestimmt Hunger.(那你们现在一定饿了。)表示很有把握的猜测;be- 不重读。" }
+      ],
+      "reviewItems": ["de.fischbroetchen", "de.schiff", "de.leuchtturm", "de.aussicht", "de.stufe", "de.frisch"]
+    },
+    {
+      "id": "de.a1u20.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120045,
+      "titleZh": "从海边寄出的明信片",
+      "goalZh": "读懂、也能写一张度假明信片:在哪儿、天气怎么样、住在哪儿、做了什么、感觉如何",
+      "canDoZh": "能读懂、也能写一张度假明信片:在哪儿、天气怎么样、做了什么、感觉如何",
+      "scenarioZh": "体裁:明信片(两张)。7 月 27 日晚上,王伟给霍夫曼先生写明信片:Lieber Herr Hoffmann, 问候(对他用 Sie:Wie geht es Ihnen?)、天气和海、住在哪儿、昨天骑车去灯塔、今天坐船去 Rostock;这儿的老火车站让他想起(erinnern)霍夫曼先生讲的火车故事;两人说好旅行回来一起去博物馆看老火车头(第 15 单元);Viele Grüße, Ihr Wei。下面是索菲娅写给约纳斯的明信片:海很棒但水凉,保罗天天吃鱼面包,给约纳斯准备了惊喜(下一课买的鱼罐头,第 7 课送给他),星期一见。规划写“下面附了索菲娅写给约纳斯的几句”,按第 15 单元的审稿意见,说话人用写的人。说话人:wei(明信片)、sofia(她的明信片)。",
+      "grammarFocusZh": "明信片的格式:Lieber … / Liebe …,称呼后面用逗号、正文小写开头,结尾 Viele Grüße, Ihr Wei / Deine Sofia;现在的情况用现在时,做过的事用完成时;对霍夫曼先生用 Sie(Wie geht es Ihnen? / Ihre Geschichten)",
+      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.erinnern", "kind": "word", "pos": "verb", "text": "erinnern", "zh": "使想起;提醒", "features": { "ipa": "ɛɐ̯ˈʔɪnɐn" }, "noteZh": "Das erinnert mich an …(这让我想起……):erinnern + 第四格(谁)+ an + 第四格(什么);“我记得、我想起”说 Ich erinnere mich an …,A2 再细学。" }
+      ],
+      "reviewItems": ["de.jugendherberge", "de.strand", "de.schiff", "de.lok", "de.ich_freue_mich", "de.ueberraschung"]
+    },
+    {
+      "id": "de.a1u20.l05", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120050,
+      "titleZh": "买纪念品",
+      "goalZh": "会说出常见的纪念品,在小店里给家人朋友挑礼物、问价钱",
+      "canDoZh": "能说出常见的纪念品,在小店里给别人挑礼物",
+      "scenarioZh": "7 月 27 日下午,从 Rostock 坐船回到 Warnemünde,大家在海边的小店买纪念品(das Andenken):索菲娅给在意大利的弟弟 Marco(18 岁)买了一个带灯塔的钥匙扣(der Schlüsselanhänger),四欧元;王伟想给约纳斯带礼物,女店员听说他是厨师,推荐一罐(die Dose)波罗的海的鱼;王伟给成都的奶奶挑了一条贝壳(die Muschel)项链(die Kette);保罗想要一只风筝(der Drachen);店员说买两件纪念品优惠百分之十(der Rabatt);索菲娅又买了一个 WG 冰箱用的冰箱贴(der Magnet)。规划写“最后一天上午”买,和 10 点退房、赶替代公交的情节挤在一起,改到第三天下午;印着灯塔的 T 恤用的 T-Shirt 是第 13 单元的词,还没定,换成钥匙扣和冰箱贴。说话人:verkaeuferin、sofia、wei、paul。",
+      "grammarFocusZh": "复习:Was kostet …? / Den nehme ich!(der / die / das 当代词用);für + 第四格说送给谁(für meinen Bruder / für meine Oma / für Jonas);dieser 复习;Bei zwei Andenken gibt es zehn Prozent Rabatt.",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.andenken", "kind": "word", "pos": "noun", "text": "das Andenken", "zh": "纪念品", "features": { "gender": "n", "plural": "die Andenken", "ipa": "ˈanˌdɛŋkn̩" }, "noteZh": "ein Andenken an Warnemünde(瓦尔内明德的纪念品,an + 第四格);口语也说 das Souvenir;复数不变。" },
+        { "id": "de.schluesselanhaenger", "kind": "word", "pos": "noun", "text": "der Schlüsselanhänger", "zh": "钥匙扣", "features": { "gender": "m", "plural": "die Schlüsselanhänger", "ipa": "ˈʃlʏsl̩ˌʔanhɛŋɐ" }, "noteZh": "der Schlüssel + der Anhänger(挂件),性跟后面的词;复数不变。" },
+        { "id": "de.dose", "kind": "word", "pos": "noun", "text": "die Dose", "zh": "罐头;(带盖的)罐、盒", "features": { "gender": "f", "plural": "die Dosen", "ipa": "ˈdoːzə" }, "noteZh": "eine Dose Fisch(一罐鱼),量词后面直接跟名词,不加 von;s 在元音之间读 [z];复数 die Dosen。" },
+        { "id": "de.kette", "kind": "word", "pos": "noun", "text": "die Kette", "zh": "链子;项链", "features": { "gender": "f", "plural": "die Ketten", "ipa": "ˈkɛtə" }, "noteZh": "eine Kette mit Muscheln(贝壳项链);e 是短元音;复数 die Ketten。" },
+        { "id": "de.muschel", "kind": "word", "pos": "noun", "text": "die Muschel", "zh": "贝壳", "features": { "gender": "f", "plural": "die Muscheln", "ipa": "ˈmʊʃl̩" }, "noteZh": "海滩上能捡到很多 Muscheln;sch 读 [ʃ];复数 die Muscheln。" },
+        { "id": "de.drachen", "kind": "word", "pos": "noun", "text": "der Drachen", "zh": "风筝", "features": { "gender": "m", "plural": "die Drachen", "ipa": "ˈdʁaxn̩" }, "noteZh": "海边风大,很多人放风筝;der Drache(没有 -n)是“龙”,第 15 单元的 das Drachenboot 就是龙舟。复数不变。" },
+        { "id": "de.rabatt", "kind": "word", "pos": "noun", "text": "der Rabatt", "zh": "折扣;优惠", "features": { "gender": "m", "plural": "die Rabatte", "ipa": "ʁaˈbat" }, "noteZh": "zehn Prozent Rabatt = 便宜百分之十,也就是中国说的“打九折”;重音在后面;复数 die Rabatte。" },
+        { "id": "de.magnet", "kind": "word", "pos": "noun", "text": "der Magnet", "zh": "磁铁;冰箱贴", "features": { "gender": "m", "plural": "die Magnete", "ipa": "maˈɡneːt" }, "noteZh": "ein Magnet für den Kühlschrank(冰箱贴);重音在后面;复数 die Magnete。" }
+      ],
+      "reviewItems": ["de.leuchtturm", "de.ostsee", "de.geschenk", "de.dieser", "de.prozent", "de.so"]
+    },
+    {
+      "id": "de.a1u20.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120060,
+      "titleZh": "退房回家",
+      "goalZh": "会办退房、付余款、请旅馆寄存行李,听懂交通停运和替代交通的广播",
+      "canDoZh": "能办退房、付钱、寄存行李,听懂交通变动的广播",
+      "scenarioZh": "7 月 28 日上午 10 点,王伟去前台退房(auschecken):前台问房卡和床单交了没有;王伟刷卡付剩下的房费(der Rest)416 欧元(25 日两个双人间 160 欧元,26、27 日四人间 256 欧元,床单费入住时已经付了);他问能不能把行李放到下午一点,前台说没问题,祝他们旅途愉快(Gute Reise!)。中午十二点三刻,大家拿着行李在 Warnemünde 火车站,广播说因为施工(wegen Bauarbeiten)今天没有去 Rostock 的城铁,请坐替代公交(der Ersatzverkehr),要 40 分钟;火车 14:10 从 Rostock 开,莉娜说坐 12:50 的公交能及时(rechtzeitig)赶到,但得马上走;王伟说还好礼物昨天就买了。规划写“行李放到下午两点”,可 14:10 的火车从 Rostock 开,去 Rostock 还要二三十分钟,改成一点;Durchsage(广播)是第 12 单元的词,课文没用。说话人:wei、mitarbeiterin、durchsage、lena。",
+      "grammarFocusZh": "复习:Wir möchten auschecken / Haben Sie … schon abgegeben? / Können wir das Gepäck bis 13 Uhr hier lassen?;钟点(14:10 Uhr, 12:50 Uhr);广播的听法(Achtung! Wegen Bauarbeiten fährt heute keine S-Bahn …)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.auschecken", "kind": "word", "pos": "verb", "text": "auschecken", "zh": "退房;办离店手续", "features": { "ipa": "ˈaʊ̯sˌtʃɛkn̩" }, "noteZh": "Wir möchten auschecken.(我们要退房。)和 einchecken(入住,第 19 单元)成对记;可分动词:Wir checken um zehn aus.。" },
+        { "id": "de.rest", "kind": "word", "pos": "noun", "text": "der Rest", "zh": "剩下的部分;余款", "features": { "gender": "m", "plural": "die Reste", "ipa": "ʁɛst" }, "noteZh": "den Rest bezahlen(付剩下的钱);复数 die Reste。" },
+        { "id": "de.gute_reise", "kind": "phrase", "pos": "phrase", "text": "Gute Reise!", "zh": "旅途愉快!/一路平安!", "features": { "ipa": "ˈɡuːtə ˈʁaɪ̯zə" }, "noteZh": "对要出远门的人说;Gute Fahrt!(第 6 单元)多对坐车、开车的人说。" },
+        { "id": "de.achtung", "kind": "word", "pos": "interj", "text": "Achtung!", "zh": "注意!", "features": { "ipa": "ˈaxtʊŋ" }, "noteZh": "广播、提示牌开头常用:Achtung! / Achtung, bitte!;ch 读 [x]。" },
+        { "id": "de.wegen", "kind": "word", "pos": "prep", "text": "wegen", "zh": "因为;由于(后面接名词)", "features": { "ipa": "ˈveːɡn̩" }, "noteZh": "Wegen Bauarbeiten fährt heute keine S-Bahn.(因为施工,今天城铁停运。)广播里常见;w 读 [v]。" },
+        { "id": "de.bauarbeiten", "kind": "word", "pos": "noun", "text": "die Bauarbeiten", "zh": "施工;工程", "features": { "gender": "pl", "ipa": "ˈbaʊ̯ˌʔaʁbaɪ̯tn̩" }, "noteZh": "bauen(建造)+ die Arbeit,这里一般只用复数;wegen Bauarbeiten(因为施工)是广播里的固定说法。" },
+        { "id": "de.ersatzverkehr", "kind": "word", "pos": "noun", "text": "der Ersatzverkehr", "zh": "(停运时的)替代交通", "features": { "gender": "m", "plural": "-", "ipa": "ɛɐ̯ˈzat͡sfɛɐ̯ˌkeːɐ̯" }, "noteZh": "火车、城铁停运时用公交车代替,叫 Ersatzverkehr,车站上常写 SEV(Schienenersatzverkehr);只用单数。" },
+        { "id": "de.rechtzeitig", "kind": "word", "pos": "adj", "text": "rechtzeitig", "zh": "及时(不晚)", "features": { "ipa": "ˈʁɛçtˌt͡saɪ̯tɪç" }, "noteZh": "Wir sind rechtzeitig in Rostock.(我们能及时到罗斯托克。)意思是“来得及、不晚”;-ig 读 [ɪç]。" }
+      ],
+      "reviewItems": ["de.schluesselkarte", "de.abgeben", "de.bettwaesche", "de.gepaeck", "de.lassen", "de.zum_glueck"]
+    },
+    {
+      "id": "de.a1u20.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120070,
+      "titleZh": "回到 WG:讲讲这次旅行",
+      "goalZh": "会连贯地讲一次旅行:住的地方、做了什么、出了什么事、感觉怎么样",
+      "canDoZh": "能连贯地讲一次旅行:去了哪儿、住在哪儿、做了什么、天气和感受",
+      "scenarioZh": "7 月 28 日晚上回到 WG,约纳斯已经做好了晚饭(das Abendessen)。他很好奇(neugierig):Wie war die Reise?;王伟说美极了(unglaublich schön),经历(erleben)了好多事;索菲娅说也挺累人(anstrengend),第一个晚上淋浴凉得要命(furchtbar kalt);王伟讲骑车去灯塔、下海游泳,很刺激(aufregend),水冷极了;索菲娅说保罗一共吃了十个鱼面包,约纳斯说他一定吃饱了;王伟把鱼罐头送给约纳斯,约纳斯说明天用这些鱼做一道新菜(das Gericht)。规划里的 zuerst / danach 是第 10 单元的词,还没定,课文用 in der ersten Nacht、dann 讲顺序。说话人:jonas、wei、sofia。",
+      "grammarFocusZh": "用完成时连贯地讲(Wir sind … gefahren und … geschwommen);war 说感受(Das war aufregend!);in der ersten Nacht / dann 讲顺序;unglaublich / furchtbar 加强语气;aufregend 和 aufgeregt",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.abendessen", "kind": "word", "pos": "noun", "text": "das Abendessen", "zh": "晚饭", "features": { "gender": "n", "plural": "die Abendessen", "ipa": "ˈaːbn̩tˌʔɛsn̩" }, "noteZh": "der Abend + das Essen,性跟后面的词;Das Abendessen ist fertig!(晚饭好了!)很多德国人晚上吃面包和冷菜,叫 das Abendbrot(第 16 单元)。复数不变。" },
+        { "id": "de.neugierig", "kind": "word", "pos": "adj", "text": "neugierig", "zh": "好奇的;很想知道", "features": { "ipa": "ˈnɔʏ̯ˌɡiːʁɪç" }, "noteZh": "Ich bin so neugierig!(我太想知道了!)eu 读 [ɔʏ̯],词尾 -ig 读 [ɪç]。" },
+        { "id": "de.unglaublich", "kind": "word", "pos": "adj", "text": "unglaublich", "zh": "难以置信的;(口语)特别、极其", "features": { "ipa": "ʊnˈɡlaʊ̯plɪç" }, "noteZh": "Zehn? Unglaublich!(十个?真不敢相信!)也放在形容词前面加强语气:unglaublich schön(美极了)。" },
+        { "id": "de.erleben", "kind": "word", "pos": "verb", "text": "erleben", "zh": "经历;体验", "features": { "ipa": "ɛɐ̯ˈleːbn̩" }, "noteZh": "Wir haben so viel erlebt.(我们经历了好多事。)er- 不可分,完成时 erlebt,不加 ge-。" },
+        { "id": "de.anstrengend", "kind": "word", "pos": "adj", "text": "anstrengend", "zh": "累人的;费劲的", "features": { "ipa": "ˈanˌʃtʁɛŋənt" }, "noteZh": "Die Reise war auch anstrengend.(旅行也挺累人的。)说事情让人累;人累了说 müde。" },
+        { "id": "de.furchtbar", "kind": "word", "pos": "adj", "text": "furchtbar", "zh": "可怕的;(口语)……得要命", "features": { "ipa": "ˈfʊʁçtbaːɐ̯" }, "noteZh": "Die Dusche war furchtbar kalt!(淋浴凉得要命!)口语里常放在形容词前面加强语气,多用于不好的事。" },
+        { "id": "de.aufregend", "kind": "word", "pos": "adj", "text": "aufregend", "zh": "令人激动的;刺激的", "features": { "ipa": "ˈaʊ̯fˌʁeːɡn̩t" }, "noteZh": "Das war aufregend!(那真刺激!)说事情;aufgeregt(第 19 单元)说人激动、紧张。" },
+        { "id": "de.gericht", "kind": "word", "pos": "noun", "text": "das Gericht", "zh": "(一道)菜", "features": { "gender": "n", "plural": "die Gerichte", "ipa": "ɡəˈʁɪçt" }, "noteZh": "ein neues Gericht kochen(做一道新菜);das Gericht 还有“法院”的意思,以后再学。复数 die Gerichte。" }
+      ],
+      "reviewItems": ["de.rad", "de.eiskalt", "de.insgesamt", "de.dose", "de.bestimmt", "de.dusche"]
+    },
+    {
+      "id": "de.a1u20.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120080,
+      "titleZh": "单元复习与应用:回成都之前",
+      "goalZh": "会和朋友告别,说自己的假期计划和回来的时间,请人带东西",
+      "canDoZh": "能和朋友告别,说自己的假期计划,约好再见",
+      "scenarioZh": "7 月 31 日晚上,王伟 8 月 3 日要飞回成都,十月再回来上 A2 班。WG 请莉娜、保罗和霍夫曼先生一起吃告别饭(zum Abschied):大家问他哪天飞、航班(der Flug)几点、回家做什么、什么时候回来(zurückkommen);霍夫曼先生送给王伟的奶奶一张印着老火车头的明信片——前一天两人按第 15 单元的约定一起去了火车博物馆;莉娜请他带几本中文书回来;索菲娅说现在就开始想他了(vermissen),王伟说 Ich vermisse euch auch! Danke für alles!;约纳斯祝他一路平安,保罗说别忘了我们。说话人:jonas、lena、wei、paul、hoffmann、sofia。",
+      "grammarFocusZh": "复习:情态动词说计划(Ich will …)、日期(am 3. August)、第四格代词(Wir vermissen dich / Ich vermisse euch / Vergiss uns nicht!);可分动词 zurückkommen、mitbringen;单元小结",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.abschied", "kind": "word", "pos": "noun", "text": "der Abschied", "zh": "告别;分别", "features": { "gender": "m", "plural": "die Abschiede", "ipa": "ˈapˌʃiːt" }, "noteZh": "zum Abschied(临别时、为了告别);ab 的 b 读 [p],词尾 d 读 [t];复数 die Abschiede。" },
+        { "id": "de.flug", "kind": "word", "pos": "noun", "text": "der Flug", "zh": "航班;飞行", "features": { "gender": "m", "plural": "die Flüge", "ipa": "fluːk" }, "noteZh": "Mein Flug ist um elf Uhr.(我的航班十一点。)来自 fliegen;词尾 g 读 [k];复数变音 die Flüge。" },
+        { "id": "de.zurueckkommen", "kind": "word", "pos": "verb", "text": "zurückkommen", "zh": "回来", "features": { "ipa": "t͡suˈʁʏkˌkɔmən" }, "noteZh": "Wann kommen Sie zurück?(您什么时候回来?)可分动词,zurück 放句末;完成时 ist zurückgekommen。" },
+        { "id": "de.vermissen", "kind": "word", "pos": "verb", "text": "vermissen", "zh": "想念", "features": { "ipa": "fɛɐ̯ˈmɪsn̩" }, "noteZh": "Ich vermisse euch!(我会想你们的!)vermissen + 第四格:Ich vermisse dich / meine Familie;ver- 不可分,完成时 vermisst。" }
+      ],
+      "reviewItems": ["de.gute_reise", "de.postkarte", "de.lok", "de.bestimmt", "de.mitbringen", "de.vergessen"]
+    },
+    {
+      "id": "de.a1u20.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-20 旅途与回顾", "order": 120085,
+      "titleZh": "我在德国的第一年",
+      "goalZh": "读懂、也能写一篇十来句的短文,讲自己这一年做了什么、学会了什么、以后的计划",
+      "canDoZh": "能读懂、也能写一篇 10–12 句的短文,讲自己这一年做了什么、学会了什么、以后的计划",
+      "scenarioZh": "体裁:博客(德语课博客,A1 的最后一篇)。七月底,王伟写《我在德国的第一年》:九月来柏林,一开始(am Anfang)听不太懂,但很快交到了朋友;十月搬进 WG,邻居是霍夫曼先生;冬天第一次去汉堡;春天病了一个星期;五月考了 A1,通过了(六月中拿到成绩);六月开始打工;运动多了:踢球、打羽毛球、游泳;七月去了波罗的海;现在能用德语买东西、打电话、看医生;他很自豪(stolz),有时也想家(das Heimweh);八月飞回成都,十月回来上 A2 班。在冰淇淋店打工要用的 Eisdiele、Job 是第 13 单元的词,还没定,只说 Seit Juni arbeite ich auch。说话人:wei(博客)。",
+      "grammarFocusZh": "A1 总复习:完成时和 war(Im September bin ich nach Berlin gekommen / Das war schlimm);时间放句首,动词仍在第二位(im September, im Winter, im Mai);现在时说现在和计划(Jetzt kann ich … / Im August fliege ich nach Chengdu)",
+      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.anfang", "kind": "word", "pos": "noun", "text": "der Anfang", "zh": "开始;开头", "features": { "gender": "m", "plural": "die Anfänge", "ipa": "ˈanfaŋ" }, "noteZh": "am Anfang(一开始、刚开始的时候);复数变音 die Anfänge;动词是 anfangen(开始)。" },
+        { "id": "de.stolz", "kind": "word", "pos": "adj", "text": "stolz", "zh": "自豪的;骄傲的", "features": { "ipa": "ʃtɔlt͡s" }, "noteZh": "Ich bin stolz!(我很自豪!)“为……自豪”说 stolz auf + 第四格,A2 再学;st 读 [ʃt]。" },
+        { "id": "de.heimweh", "kind": "word", "pos": "noun", "text": "das Heimweh", "zh": "想家;思乡", "features": { "gender": "n", "plural": "-", "ipa": "ˈhaɪ̯mˌveː" }, "noteZh": "Ich habe Heimweh.(我想家了。)动词用 haben;只用单数;das Heim(家)+ das Weh(痛)。" }
+      ],
+      "reviewItems": ["de.umziehen", "de.zum_ersten_mal", "de.zurueckkommen", "de.bestehen", "de.pruefung", "de.wunderbar"]
+    }
+  ]
+}

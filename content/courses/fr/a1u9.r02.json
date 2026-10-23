@@ -1,0 +1,40 @@
+{
+  "id": "fr.a1u9.r02", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109085,
+  "titleZh": "罗马第一天(旅行日记)", "goalZh": "会读一篇用复合过去时写的旅行日记,按顺序说出一天做了什么", "canDoZh": "能读懂一篇用复合过去时写的旅行日记,按顺序说出浩第一天做了什么",
+  "skills": ["read", "write"], "estimatedMinutes": 13.5,
+  "newItems": [
+    { "id": "fr.journee", "kind": "word", "pos": "noun", "text": "la journée", "zh": "一天;白天(从早到晚)", "features": { "gender": "f", "ipa": "la ʒuʁ.ne" }, "noteZh": "阴性;le jour 是“一天、日子”,la journée 强调从早到晚这一整天:Bonne journée ! 里的就是它;Quelle journée ! 这一天可真够呛!" }
+  ],
+  "reviewItems": ["fr.hotel", "fr.fontaine", "fr.jeter", "fr.glace", "fr.changer", "fr.mettre"],
+  "lines": [
+    { "speaker": "hao", "text": "Samedi 19 décembre, le soir, à l'hôtel.", "zh": "(浩的旅行日记)12 月 19 日,星期六,晚上,在酒店。", "items": ["fr.samedi", "fr.dix_neuf", "fr.decembre", "fr.soir", "fr.a", "fr.hotel"] },
+    { "speaker": "hao", "text": "Ce matin, je suis parti de Lyon à six heures cinquante-huit.", "zh": "今天早上 6 点 58 分,我从里昂出发。", "items": ["fr.ce", "fr.matin", "fr.je", "fr.etre", "fr.partir", "fr.de", "fr.a", "fr.six", "fr.heure", "fr.cinquante", "fr.huit"] },
+    { "speaker": "hao", "text": "D'abord, j'ai vu les montagnes. C'était magnifique !", "zh": "一开始,我看到了山。美极了!", "items": ["fr.dabord", "fr.je", "fr.avoir", "fr.voir", "fr.montagne", "fr.cetait", "fr.magnifique"] },
+    { "speaker": "hao", "text": "Puis, à Turin, j'ai changé de train.", "zh": "然后在都灵换了车。", "items": ["fr.puis", "fr.a", "fr.je", "fr.avoir", "fr.changer", "fr.de", "fr.train"] },
+    { "speaker": "hao", "text": "Et à dix-sept heures : Rome !", "zh": "下午五点:罗马到了!", "items": ["fr.et", "fr.a", "fr.dix_sept", "fr.heure"] },
+    { "speaker": "hao", "text": "Je suis allé à l'hôtel à pied. C'est près de la gare.", "zh": "我走路去了酒店,就在火车站附近。", "items": ["fr.je", "fr.etre", "fr.aller", "fr.a", "fr.hotel", "fr.a_pied", "fr.cest", "fr.pres", "fr.de", "fr.gare"] },
+    { "speaker": "hao", "text": "J'ai mis ma valise dans la chambre.", "zh": "我把行李箱放进了房间。", "items": ["fr.je", "fr.avoir", "fr.mettre", "fr.ma", "fr.valise", "fr.dans", "fr.chambre"] },
+    { "speaker": "hao", "text": "Le soir, je suis allé voir la fontaine de Trevi.", "zh": "晚上,我去看了特雷维喷泉。", "items": ["fr.soir", "fr.je", "fr.etre", "fr.aller", "fr.voir", "fr.fontaine", "fr.de"] },
+    { "speaker": "hao", "text": "J'ai jeté une pièce dans la fontaine.", "zh": "我往喷泉里扔了一枚硬币。", "items": ["fr.je", "fr.avoir", "fr.jeter", "fr.une", "fr.piece_de_monnaie", "fr.dans", "fr.fontaine"] },
+    { "speaker": "hao", "text": "Après, j'ai mangé une glace. En décembre ! Mais c'était délicieux.", "zh": "然后我吃了一个冰淇淋。十二月吃冰淇淋!不过很好吃。", "items": ["fr.apres", "fr.je", "fr.avoir", "fr.manger", "fr.une", "fr.glace", "fr.en", "fr.decembre", "fr.mais", "fr.cetait", "fr.delicieux"] },
+    { "speaker": "hao", "text": "Ce soir, j'ai mal aux jambes.", "zh": "今天晚上,我的腿好疼。", "items": ["fr.ce", "fr.soir", "fr.je", "fr.avoir", "fr.avoir_mal_a", "fr.aux", "fr.jambe"] },
+    { "speaker": "hao", "text": "Mais quelle journée ! C'était super.", "zh": "可是今天真是太棒了!", "items": ["fr.mais", "fr.quel", "fr.journee", "fr.cetait", "fr.super"] },
+    { "speaker": "hao", "text": "Demain, je vais visiter le Colisée !", "zh": "明天我要去参观斗兽场!", "items": ["fr.demain", "fr.je", "fr.aller", "fr.visiter"] }
+  ],
+  "questions": [
+    { "prompt": "浩在哪儿换的车?", "options": ["都灵", "尚贝里", "罗马"], "answer": 0, "explainZh": "Puis, à Turin, j'ai changé de train.(然后在都灵换了车。)" },
+    { "prompt": "浩这天晚上做了什么?", "options": ["参观斗兽场", "看喷泉、扔硬币、吃冰淇淋", "在酒店看电影"], "answer": 1, "explainZh": "Le soir, je suis allé voir la fontaine de Trevi. J'ai jeté une pièce… Après, j'ai mangé une glace.;斗兽场是明天的计划。" },
+    { "prompt": "写日记的时候,浩觉得怎么样?", "options": ["很冷,不开心", "嗓子疼", "腿疼,可是很开心"], "answer": 2, "explainZh": "Ce soir, j'ai mal aux jambes. Mais quelle journée ! C'était super.(腿疼,可是今天太棒了。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.journal_passe", "titleZh": "日记里的复合过去时:avoir 还是 être?",
+      "bodyZh": "写一天做过的事,用复合过去时(第 8 单元学过)。大多数动词用 avoir:j'ai changé, j'ai mangé, j'ai jeté(-er 动词的过去分词把 -er 换成 -é),j'ai vu(voir → vu),j'ai mis(mettre → mis,要单独记)。表示“去、来、出发、待着、回来”的动词用 être:je suis parti(partir)、je suis allé(aller);浩是男生,过去分词不加 e,克洛艾写就是 je suis partie、je suis allée。按时间顺序串起来:D'abord…(首先)→ Puis…(然后)→ Après…(之后)。评价用 C'était + 形容词:C'était magnifique / délicieux / super。日记里“今晚腿疼”说的是现在的状态,用现在时:Ce soir, j'ai mal aux jambes.",
+      "examples": [
+        { "text": "Je suis parti de Lyon à six heures cinquante-huit.", "zh": "我 6 点 58 分从里昂出发。" },
+        { "text": "J'ai mis ma valise dans la chambre.", "zh": "我把箱子放进了房间。" },
+        { "text": "D'abord, j'ai vu les montagnes. Puis, j'ai changé de train.", "zh": "先看到了山,然后换了车。" }
+      ] }
+  ],
+  "review": "draft"
+}

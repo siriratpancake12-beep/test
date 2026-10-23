@@ -1,0 +1,180 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-13 Can you help me?", "cefr": "A1", "themeZh": "旅途中的麻烦和帮助:手机丢了、去失物招领处、描述丢失的东西、司机把手机送回来、航班取消改签,也主动帮助别人,回来后把经过讲给朋友听" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u13.l01", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113010,
+      "titleZh": "我的手机不见了!", "goalZh": "会说自己丢了什么、哪儿都找不到,用 When did you last…? 和朋友一起回想",
+      "canDoZh": "能说出自己丢了什么,并和朋友一起回想最后一次在哪儿用过它",
+      "scenarioZh": "第三天晚上回到酒店,磊怎么也找不到手机,兜里、包里都没有。伊森问 When did you last have it?,磊说在圣莫尼卡码头拍过照;索菲亚想起他们是叫车回的酒店,问他是不是掉在车上了。索菲亚打磊的号码,一直在响,没人接。磊越来越着急:照片、卡都在手机里;伊森说明天先去码头的失物招领处问问。",
+      "grammarFocusZh": "复习过去时的特殊疑问句 Where did you…? / When did you last…? / Did you drop it…?;I lost my phone. / I can't find it anywhere.(lose → lost)。发音:n 和 l 不能混——lost、last 开头是 l,not、nobody 开头是 n,四川口音的同学要特别注意。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.lose", "kind": "word", "pos": "verb", "text": "lose", "zh": "丢;丢失", "features": {"ipa": "luːz"}, "noteZh": "I lost my phone. 我的手机丢了;过去式 lost /lɑːst/。lose 读 /luːz/,结尾是浊音 z,和 loose(松的)不一样。" },
+        { "id": "en.gone", "kind": "word", "pos": "adj", "text": "gone", "zh": "不见了;没了", "features": {"ipa": "ɡɑːn"}, "noteZh": "My phone is gone! 我的手机不见了!(东西突然找不到时说);美式读 /ɡɑːn/。" },
+        { "id": "en.pocket", "kind": "word", "pos": "noun", "text": "pocket", "zh": "口袋;兜", "features": {"ipa": "ˈpɑːkɪt"}, "noteZh": "in my pocket 在我兜里;美式 o 读 /ɑː/,重音在前 POCK-et。" },
+        { "id": "en.when_did_you_last", "kind": "phrase", "pos": "phrase", "text": "When did you last", "zh": "你最后一次……是什么时候?", "features": {"ipa": "ˌwen dɪd jə ˈlæst"}, "noteZh": "When did you last have it? 你最后一次拿着它是什么时候?;last 放在动词前面表示“最后一次”,和第 8 单元 last weekend(上周末)里的 last 意思不同。" },
+        { "id": "en.ring", "kind": "word", "pos": "verb", "text": "ring", "zh": "(电话、铃)响", "features": {"ipa": "rɪŋ"}, "noteZh": "It's ringing. 电话在响;过去式 rang。结尾是后鼻音 /ŋ/,舌根抬起,别读成 rin。" },
+        { "id": "en.lost_and_found", "kind": "phrase", "pos": "noun", "text": "lost and found", "zh": "失物招领处", "features": {"ipa": "ˌlɑːst ən ˈfaʊnd"}, "noteZh": "字面是“丢了的和找到的”;机场、车站、景点都有,丢了东西先去 the lost and found 问问。and 弱读成 /ən/。" },
+        { "id": "en.anywhere", "kind": "word", "pos": "adv", "text": "anywhere", "zh": "(否定、疑问句里)任何地方", "features": {"ipa": "ˈeniwer"}, "noteZh": "I can't find it anywhere. 哪儿都找不到;否定句里用 anywhere。any 读 /ˈeni/。" },
+        { "id": "en.drop", "kind": "word", "pos": "verb", "text": "drop", "zh": "掉;(不小心)弄掉", "features": {"ipa": "drɑːp"}, "noteZh": "Did you drop it in the car? 是不是掉在车上了?;过去式 dropped(双写 p)。dr 两个辅音连读,中间不加元音。" }
+      ],
+      "reviewItems": ["en.phone", "en.find", "en.take_pictures", "en.relax", "en.call"]
+    },
+    {
+      "id": "en.a1u13.l02", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113020,
+      "titleZh": "这是你的吗?", "goalZh": "会用 mine / yours / hers / ours / theirs 说东西是谁的,用 Whose…? 提问",
+      "canDoZh": "能在失物招领处辨认东西是谁的,用 mine / yours 回答,用 Whose…? 提问",
+      "scenarioZh": "第二天一早,三人去圣莫尼卡码头的失物招领处(lost and found)。工作人员(staff)拿出一部黑色手机问 Is this yours?,磊说 No, it's not mine.;又问 Whose camera is this?,伊森说不是他们的;再拿出一顶帽子问是谁的,索菲亚一眼认出:That's mine!——她自己都没发现帽子丢了。磊说 Yours is here, but mine isn't!。工作人员说那串钥匙是另一家游客的。(规划里的太阳镜 sunglasses 在 11-2,按要求不用,换成棒球帽。)",
+      "grammarFocusZh": "名词性物主代词 mine、yours、his、hers、ours、theirs,后面不再跟名词(This is my phone. = This phone is mine.);Whose + 名词 + is this? / Whose is this?。发音:whose /huːz/ 和 who's 读音相同,靠意思区分。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.whose", "kind": "word", "pos": "pron", "text": "Whose", "zh": "谁的", "features": {"ipa": "huːz"}, "noteZh": "Whose cap is this? 这是谁的帽子?;whose 和 who's(= who is)读音一样,都是 /huːz/,写的时候别混。" },
+        { "id": "en.mine", "kind": "word", "pos": "pron", "text": "mine", "zh": "我的(东西)", "features": {"ipa": "maɪn"}, "noteZh": "It's mine. = It's my cap.;mine 后面不再跟名词,不说 mine cap。" },
+        { "id": "en.yours", "kind": "word", "pos": "pron", "text": "yours", "zh": "你的;你们的(东西)", "features": {"ipa": "jʊrz"}, "noteZh": "Is this yours? 这是你的吗?;不加撇号,不写 your's。" },
+        { "id": "en.hers", "kind": "word", "pos": "pron", "text": "hers", "zh": "她的(东西)", "features": {"ipa": "hɝːz"}, "noteZh": "It's hers. 是她的;her 放在名词前(her cap),hers 单独用。他的不管放哪儿都是 his。" },
+        { "id": "en.ours", "kind": "word", "pos": "pron", "text": "ours", "zh": "我们的(东西)", "features": {"ipa": "aʊrz"}, "noteZh": "It's not ours. 不是我们的;读 /aʊrz/,和 hours 同音。" },
+        { "id": "en.theirs", "kind": "word", "pos": "pron", "text": "theirs", "zh": "他们的(东西)", "features": {"ipa": "ðerz"}, "noteZh": "These keys are theirs. 这些钥匙是他们的;th 是浊音 /ð/,不加撇号。" },
+        { "id": "en.cap", "kind": "word", "pos": "noun", "text": "cap", "zh": "棒球帽;鸭舌帽", "features": {"ipa": "kæp"}, "noteZh": "前面带帽檐的帽子;a 读 /æ/,嘴张大,词尾 p 收住。" },
+        { "id": "en.camera", "kind": "word", "pos": "noun", "text": "camera", "zh": "相机", "features": {"ipa": "ˈkæmrə"}, "noteZh": "美式常读成两个音节 CAM-ruh,重音在前。" }
+      ],
+      "reviewItems": ["en.lose", "en.phone", "en.key", "en.gone"]
+    },
+    {
+      "id": "en.a1u13.l03", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113030,
+      "titleZh": "描述丢失的东西", "goalZh": "会用颜色、材质和特别的记号描述丢失的东西,按“大小—颜色—材质”的顺序说,并留下联系方式",
+      "canDoZh": "能把丢失的东西描述清楚:大小、颜色、材质和特别的记号,并留下联系方式",
+      "scenarioZh": "工作人员(staff)帮磊填失物登记:Can you describe your phone? What does it look like? — It's a black phone with a blue plastic case.;手机壳上有一张熊猫贴纸,锁屏是全家福;工作人员说箱子里有一个白色的充电器,不是磊的;磊的手机找不到,只好留索菲亚的号码。工作人员又拿出一个小小的棕色皮包,问是不是他们的,伊森说 No, it's not ours.。(规划里的钱包 wallet 是 8-6 别人登记的词,换成包。)",
+      "grammarFocusZh": "What does it look like? 不光问人,也能问东西;材质词 leather、plastic、metal;形容词顺序:大小 → 颜色 → 材质(a small brown leather bag)。发音:leather 的 th 是浊音 /ð/;metal 美式读 /ˈmet̬əl/,t 是闪音。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.describe", "kind": "word", "pos": "verb", "text": "describe", "zh": "描述;形容", "features": {"ipa": "dɪˈskraɪb"}, "noteZh": "Can you describe it? 能描述一下吗?;重音在后 de-SCRIBE,词尾 b 轻轻收住。" },
+        { "id": "en.case", "kind": "word", "pos": "noun", "text": "case", "zh": "手机壳;盒子", "features": {"ipa": "keɪs"}, "noteZh": "phone case 手机壳;a 读 /eɪ/,结尾是清音 s。" },
+        { "id": "en.sticker", "kind": "word", "pos": "noun", "text": "sticker", "zh": "贴纸", "features": {"ipa": "ˈstɪkɚ"}, "noteZh": "a panda sticker 熊猫贴纸;st 之间不加元音,结尾卷舌。" },
+        { "id": "en.plastic", "kind": "word", "pos": "adj", "text": "plastic", "zh": "塑料的", "features": {"ipa": "ˈplæstɪk"}, "noteZh": "a plastic case 塑料手机壳;材质词放在名词前面当形容词用;重音在前 PLAS-tic。" },
+        { "id": "en.leather", "kind": "word", "pos": "adj", "text": "leather", "zh": "皮的;皮革的", "features": {"ipa": "ˈleðɚ"}, "noteZh": "a leather bag 皮包;th 是浊音 /ð/,舌尖轻放在齿间振动声带,别读成 z 或 d。" },
+        { "id": "en.metal", "kind": "word", "pos": "adj", "text": "metal", "zh": "金属的", "features": {"ipa": "ˈmet̬əl"}, "noteZh": "a metal case 金属壳;美式 t 读闪音,听起来像“MED-l”。" },
+        { "id": "en.screen", "kind": "word", "pos": "noun", "text": "screen", "zh": "屏幕", "features": {"ipa": "skriːn"}, "noteZh": "phone screen 手机屏幕;scr 三个辅音连在一起读,中间不加元音。" },
+        { "id": "en.charger", "kind": "word", "pos": "noun", "text": "charger", "zh": "充电器", "features": {"ipa": "ˈtʃɑːrdʒɚ"}, "noteZh": "phone charger 手机充电器;动词 charge 是“充电”(第 14 单元学)。ar 和结尾的 er 都要卷舌。" }
+      ],
+      "reviewItems": ["en.phone", "en.black", "en.blue", "en.panda", "en.phone_number"]
+    },
+    {
+      "id": "en.a1u13.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113040,
+      "titleZh": "司机打来电话", "goalZh": "会在电话里确认东西是不是自己的,约好在哪儿、什么时候取,真诚地表示感谢",
+      "canDoZh": "能在电话里确认东西是不是自己的,并约好时间地点去拿,真诚地表示感谢",
+      "scenarioZh": "第二天上午,索菲亚的手机响了,是昨晚的网约车司机(driver)——车是索菲亚用手机叫的:I have a phone in my car. Is it your friend's?;索菲亚说 Just a minute.,把电话交给磊。磊描述蓝色手机壳和熊猫贴纸,司机说对;磊问 Can I pick it up?,司机说他开车过来,三十分钟后在海洋大道和第二街的路口见,让他们到时下楼。拿到手机后,磊说 You're so kind! I'm so lucky.,还给了司机小费。",
+      "grammarFocusZh": "电话用语(This is… / Just a minute. / Hold on.)和 Is it your friend's? / That's mine!;约时间地点 in thirty minutes / at the corner of…;感谢 Thank you so much! You're so kind.。发音:Thank you so much! 重音落在 so 和 much 上,语调起伏要大。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.just_a_minute", "kind": "phrase", "pos": "phrase", "text": "Just a minute", "zh": "稍等一下", "features": {"ipa": "ˌdʒʌst ə ˈmɪnɪt"}, "noteZh": "让对方稍等、或者要把电话交给别人时说;也常说 Just a second.。" },
+        { "id": "en.hold_on", "kind": "phrase", "pos": "phrase", "text": "Hold on", "zh": "(电话里)等一下;别挂", "features": {"ipa": "ˌhoʊld ˈɑːn"}, "noteZh": "Hold on, please. 请稍等,别挂;连读成“hol-don”。" },
+        { "id": "en.thank_you_so_much", "kind": "phrase", "pos": "phrase", "text": "Thank you so much", "zh": "太感谢了", "features": {"ipa": "ˈθæŋk ju ˌsoʊ ˈmʌtʃ"}, "noteZh": "比 Thank you 更热情;重音落在 so 和 much 上,语调起伏要大。th 是清音 /θ/。" },
+        { "id": "en.kind", "kind": "word", "pos": "adj", "text": "kind", "zh": "好心的;友好的", "features": {"ipa": "kaɪnd"}, "noteZh": "You're so kind. 你人真好;和第 7 单元 What kind of…? 里的 kind(种类)意思不同。i 读 /aɪ/,结尾 nd 收住。" },
+        { "id": "en.lucky", "kind": "word", "pos": "adj", "text": "lucky", "zh": "幸运的", "features": {"ipa": "ˈlʌki"}, "noteZh": "I'm so lucky! 我真走运!;u 读 /ʌ/。" },
+        { "id": "en.pick_up", "kind": "phrase", "pos": "verb", "text": "pick up", "zh": "取;拿(东西)", "features": {"ipa": "ˌpɪk ˈʌp"}, "noteZh": "Can I pick it up? 我能过去拿吗?;代词放中间:pick it up,不说 pick up it(第 14 单元还会讲这类词组)。" },
+        { "id": "en.downstairs", "kind": "word", "pos": "adv", "text": "downstairs", "zh": "在楼下;到楼下", "features": {"ipa": "ˌdaʊnˈsterz"}, "noteZh": "Come downstairs. 下楼来;前面不加 to。ow 读 /aʊ/,结尾 s 读 /z/。" },
+        { "id": "en.give", "kind": "word", "pos": "verb", "text": "give", "zh": "给", "features": {"ipa": "ɡɪv"}, "noteZh": "give + 人 + 东西:I want to give you a tip.;过去式 gave。结尾 v 要带声。" }
+      ],
+      "reviewItems": ["en.phone", "en.case", "en.sticker", "en.mine", "en.tip"]
+    },
+    {
+      "id": "en.a1u13.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113045,
+      "titleZh": "失物招领告示", "goalZh": "读懂几条寻物和招领告示,找到丢了什么、在哪儿丢的、怎么联系",
+      "canDoZh": "能看懂失物招领和寻物启事,找到东西是什么、在哪儿丢的、怎么联系",
+      "scenarioZh": "体裁:告示(码头附近公告栏上的几条)。说话人 narrator。FOUND:周一下午 44 路公交上捡到一个黑色双肩包;LOST:周六晚上在第三街的剧院丢了一条绿色围巾,是妈妈送的礼物,有酬谢;LOST:一个红色的小包,里面有学生证;最后是码头失物招领处的时间和电话(555-01xx)。至少 8 行。(规划里的小狗 dog 和钱包 wallet 都是别人登记的词,换成围巾和小包。)",
+      "grammarFocusZh": "告示里的省略写法(FOUND: a black backpack on Bus 44);复习形容词顺序和过去时(It was a gift from my mom.);理解题考“谁丢了什么、怎么联系”。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "en.backpack", "kind": "word", "pos": "noun", "text": "backpack", "zh": "双肩包", "features": {"ipa": "ˈbækpæk"}, "noteZh": "back(背)+ pack,复合词重音在前 BACK-pack;两个 a 都读 /æ/。" },
+        { "id": "en.reward", "kind": "word", "pos": "noun", "text": "reward", "zh": "酬谢;奖励", "features": {"ipa": "rɪˈwɔːrd"}, "noteZh": "寻物启事上写 Reward! 表示找到的人有酬谢;重音在后 re-WARD,war 读 /wɔːr/。" }
+      ],
+      "reviewItems": ["en.lost_and_found", "en.find", "en.lose", "en.scarf", "en.gift"]
+    },
+    {
+      "id": "en.a1u13.l05", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113050,
+      "titleZh": "航班取消了", "goalZh": "会在机场柜台说清楚航班取消了,问还有没有别的航班、能不能改签和安排住处",
+      "canDoZh": "能在机场问清楚航班取消后怎么办:改签、等多久、能不能安排住处",
+      "scenarioZh": "回程那天(周四)傍晚,西雅图有一场大暴风雪,他们晚上 7:15 飞西雅图的航班取消了。磊和索菲亚去柜台找工作人员(staff):Our 7:15 is canceled. What can we do?;工作人员说今天去西雅图的都走不了,最早是明天上午 9:10,那班还没满;磊问 Can we get on that one?,改签成功;索菲亚问能不能安排今晚的房间,工作人员说因为是天气原因,航空公司不负责住宿。伊森在电话里说今晚住他家。(canceled 是 9-4 别人登记的词,这课离不开,作为复习词用;flight 在 11-1 的规划里,课文用 the 7:15 指航班;snow 是 9-2 的词,用 storm。)",
+      "grammarFocusZh": "求助和商量:What can we do? / Is there another one…? / Can we get on…?;because of + 名词说原因(because of the weather)和日期时间。发音:Excuse me 用升调是叫住对方,用降调是道歉或借过,柜台前要用升调。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.counter", "kind": "word", "pos": "noun", "text": "counter", "zh": "柜台", "features": {"ipa": "ˈkaʊnt̬ɚ"}, "noteZh": "机场、银行、商店的柜台;ou 读 /aʊ/,t 读闪音,结尾卷舌。" },
+        { "id": "en.storm", "kind": "word", "pos": "noun", "text": "storm", "zh": "暴风雨;暴风雪", "features": {"ipa": "stɔːrm"}, "noteZh": "a big storm 一场大暴风雨(冬天也可能是暴风雪);st 之间不加元音,or 要卷舌。" },
+        { "id": "en.what_can_we_do", "kind": "phrase", "pos": "phrase", "text": "What can we do", "zh": "我们该怎么办?", "features": {"ipa": "ˌwʌt kən wi ˈduː"}, "noteZh": "遇到麻烦时向工作人员求助:What can we do?;can 弱读成 /kən/,重音落在 do 上。" },
+        { "id": "en.another", "kind": "word", "pos": "det", "text": "another", "zh": "另一个;再一个", "features": {"ipa": "əˈnʌðɚ"}, "noteZh": "Is there another one tomorrow? 明天还有别的班次吗?;another 后面跟单数名词或 one。th 是浊音 /ð/。" },
+        { "id": "en.full", "kind": "word", "pos": "adj", "text": "full", "zh": "满的", "features": {"ipa": "fʊl"}, "noteZh": "It's full. 满了(没有位子了);吃饱了也说 I'm full.。u 读短的 /ʊ/,结尾 l 要收住。" },
+        { "id": "en.because_of", "kind": "phrase", "pos": "prep", "text": "because of", "zh": "因为(后面接名词)", "features": {"ipa": "bɪˈkʌz əv"}, "noteZh": "because of the weather 因为天气;because 后面接句子(because it's raining),because of 后面接名词。口语常读成“b-cuz of”。" },
+        { "id": "en.awful", "kind": "word", "pos": "adj", "text": "awful", "zh": "糟糕的;很差的", "features": {"ipa": "ˈɑːfəl"}, "noteZh": "This is awful! 太糟了!;aw 美式读 /ɑː/,和 off 的元音一样。" },
+        { "id": "en.house", "kind": "word", "pos": "noun", "text": "house", "zh": "房子;家", "features": {"ipa": "haʊs"}, "noteZh": "Come to my house. 来我家吧;house 是房子本身,home 是“家”的感觉。ou 读 /aʊ/,结尾是清音 s。" }
+      ],
+      "reviewItems": ["en.canceled", "en.weather", "en.ticket", "en.get_on", "en.tomorrow"]
+    },
+    {
+      "id": "en.a1u13.l06", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113060,
+      "titleZh": "我来帮你", "goalZh": "会主动提出帮忙(Can I help you with that? / Let me…),也能礼貌地接受或谢绝别人的帮助",
+      "canDoZh": "能主动提出帮助别人,也能礼貌地接受或谢绝别人的帮助",
+      "scenarioZh": "第二天(周五)早上的航班上,一位老奶奶模样的游客(tourist)提不动行李,磊站起来说 Can I help you with that? Let me carry it.,帮她放好;广播说飞机要晚十分钟,她没听清:Sorry, what was that?,磊告诉她只是晚十分钟。她说 That's very kind of you.;下飞机时磊问 Do you need help with your bag?,她说 Thanks, but I'm OK. Take care!,磊说 I'm glad I can help.——他发现自己已经能帮别人了。(规划里的转述 They said… 用了 8-7 别人登记的 say,这课改成磊直接告诉她内容。)",
+      "grammarFocusZh": "主动帮忙:Can I help you with that? / Let me carry it. / Do you need help?;回应 That's very kind of you. / Thanks, but I'm OK.;没听清时问 Sorry, what was that?。发音:主动帮忙的问句用升调,语气友好。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.let_me", "kind": "phrase", "pos": "phrase", "text": "Let me", "zh": "让我来……;我来……", "features": {"ipa": "ˈlet mi"}, "noteZh": "Let me + 动词原形,主动提出帮忙:Let me help. / Let me carry it.;第 5 单元学过 Let me see.(我看看)。" },
+        { "id": "en.carry", "kind": "word", "pos": "verb", "text": "carry", "zh": "拿;提;搬", "features": {"ipa": "ˈkeri"}, "noteZh": "Let me carry it for you. 我来帮你拿;美式读 /ˈkeri/,a 读 /e/。" },
+        { "id": "en.heavy", "kind": "word", "pos": "adj", "text": "heavy", "zh": "重的", "features": {"ipa": "ˈhevi"}, "noteZh": "This bag is so heavy. 这个包好重;ea 在这里读短的 /e/。" },
+        { "id": "en.do_you_need_help", "kind": "phrase", "pos": "phrase", "text": "Do you need help", "zh": "需要帮忙吗?", "features": {"ipa": "də jə ˌniːd ˈhelp"}, "noteZh": "看到别人需要帮助时主动问:Do you need help with your bag?;回答 Yes, please. / Thanks, but I'm OK.。用升调,听起来友好。" },
+        { "id": "en.thats_very_kind_of_you", "kind": "phrase", "pos": "phrase", "text": "That's very kind of you", "zh": "您真好(感谢别人的好意)", "alt": ["That's so kind of you"], "features": {"ipa": "ðæts ˌveri ˈkaɪnd əv ju"}, "noteZh": "别人主动帮你时说,比 Thank you 更有礼貌;口语也说 That's so nice of you.。of 弱读成 /əv/。" },
+        { "id": "en.what_was_that", "kind": "phrase", "pos": "phrase", "text": "What was that", "zh": "刚才说的是什么?(没听清)", "features": {"ipa": "ˌwʌt ˈwʌz ðæt"}, "noteZh": "没听清广播或别人的话时说 Sorry, what was that?,用升调;比只说 What? 礼貌。" },
+        { "id": "en.take_care", "kind": "phrase", "pos": "phrase", "text": "Take care", "zh": "保重", "features": {"ipa": "ˌteɪk ˈker"}, "noteZh": "道别时说,意思是“保重、多注意”;回应 You too!。" },
+        { "id": "en.glad", "kind": "word", "pos": "adj", "text": "glad", "zh": "高兴的", "features": {"ipa": "ɡlæd"}, "noteZh": "I'm glad I can help. 能帮上忙我很高兴;glad 一般放在 be 后面,不说 a glad man。a 读 /æ/。" }
+      ],
+      "reviewItems": ["en.help", "en.bag", "en.late", "en.sorry_about_that", "en.you_too"]
+    },
+    {
+      "id": "en.a1u13.l07", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113070,
+      "titleZh": "到底发生了什么?", "goalZh": "会用 What happened? 问经过,用不规则过去式和 First… / After that… / Finally… 按顺序讲一件事",
+      "canDoZh": "能按顺序讲清楚一件出了状况的事:丢了什么、怎么找到的、后来怎样",
+      "scenarioZh": "周五中午,艾米到西雅图机场接磊和索菲亚,一上车就问 So, what happened?。两人你一句我一句地讲:磊把手机丢在车上;幸好司机第二天早上打电话来、把手机送回来,磊给了他小费;后来西雅图有大暴风雪,他们在洛杉矶多待了一晚;今天在飞机上磊坐在一位女士旁边,还帮她拿了行李。艾米听得直说 No way! I can't believe it!。",
+      "grammarFocusZh": "常用不规则动词扩充:lose–lost、find–found、give–gave、spend–spent、sit–sat(复习 come–came、take–took);What happened? 是固定问法(what 作主语,不用 did);复习 First…, then…, finally…,加上 after that。发音:found /aʊ/、lost /ɑː/ 的元音要到位。(规划里的 left、forgot、told 分别是 11 单元和 8-7 的词,这课没用。)",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25.5,
+      "newItems": [
+        { "id": "en.happen", "kind": "word", "pos": "verb", "text": "happen", "zh": "发生", "features": {"ipa": "ˈhæpən"}, "noteZh": "What happened? 发生什么事了?;what 在这里作主语,不用 did(不说 What did happen?)。过去式 happened。" },
+        { "id": "en.after_that", "kind": "phrase", "pos": "adv", "text": "after that", "zh": "在那之后;后来", "features": {"ipa": "ˌæftɚ ˈðæt"}, "noteZh": "讲故事时接在 First… 后面:First…, then…, after that…, finally…;after 第 3 单元学过。" },
+        { "id": "en.luckily", "kind": "word", "pos": "adv", "text": "luckily", "zh": "幸好;幸运的是", "features": {"ipa": "ˈlʌkəli"}, "noteZh": "放在句首:Luckily, the driver found it.;lucky 去掉 y 加 -ily。" },
+        { "id": "en.spend", "kind": "word", "pos": "verb", "text": "spend", "zh": "度过;花(时间、钱)", "features": {"ipa": "spend"}, "noteZh": "We spent one more night in LA. 我们在洛杉矶多待了一晚;过去式 spent。" },
+        { "id": "en.sit", "kind": "word", "pos": "verb", "text": "sit", "zh": "坐", "features": {"ipa": "sɪt"}, "noteZh": "sit next to… 坐在……旁边;过去式 sat。i 是短音 /ɪ/,别读成 seat(座位)/siːt/。" },
+        { "id": "en.lady", "kind": "word", "pos": "noun", "text": "lady", "zh": "女士", "features": {"ipa": "ˈleɪdi"}, "noteZh": "比 woman 更礼貌:a nice lady 一位和善的女士;复数 ladies。" },
+        { "id": "en.believe", "kind": "word", "pos": "verb", "text": "believe", "zh": "相信", "features": {"ipa": "bɪˈliːv"}, "noteZh": "I can't believe it! 真不敢相信!;重音在后 be-LIEVE,结尾 v 要带声。" },
+        { "id": "en.story", "kind": "word", "pos": "noun", "text": "story", "zh": "故事;经历", "features": {"ipa": "ˈstɔːri"}, "noteZh": "That's a great story! 真是个精彩的故事!;讲自己的经历也叫 story。" }
+      ],
+      "reviewItems": ["en.lose", "en.find", "en.give", "en.storm", "en.first", "en.finally"]
+    },
+    {
+      "id": "en.a1u13.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113080,
+      "titleZh": "单元复习:旅行中的麻烦事", "goalZh": "综合用物主代词、描述物品、不规则过去式和帮忙的说法,完整讲一次旅途中的麻烦并回应别人的故事",
+      "canDoZh": "能完整地讲一次旅途中的麻烦和别人的帮助,并回应别人的故事",
+      "scenarioZh": "开学前一周,咖啡馆重新开门的第一天,墙上贴着磊寄来的明信片。马库斯说 Welcome back!,劳拉问洛杉矶怎么样。磊和索菲亚讲了丢手机、司机还手机、在失物招领处找到的帽子原来是索菲亚的、因为暴风雪多待一晚、在飞机上帮一位女士拿行李;马库斯也讲了自己有一次把吉他落在公交车上,是司机帮他收着的。劳拉笑着说 So it was a real adventure!。对话至少 12 句。(规划里马库斯丢的是钱包,wallet 是 8-6 别人登记的词,改成吉他。)",
+      "grammarFocusZh": "复习名词性物主代词、描述物品、不规则过去式和主动提供帮助的说法。发音:n / l 的区分在 lost、last、not、no 里集中练一遍。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
+      "newItems": [
+        { "id": "en.welcome_back", "kind": "phrase", "pos": "phrase", "text": "Welcome back", "zh": "欢迎回来", "features": {"ipa": "ˌwelkəm ˈbæk"}, "noteZh": "朋友、同事出门回来时说;回答 Thanks! It's good to be back.。" },
+        { "id": "en.adventure", "kind": "word", "pos": "noun", "text": "adventure", "zh": "冒险;奇遇", "features": {"ipa": "ədˈventʃɚ"}, "noteZh": "It was a real adventure! 真是一次冒险!;重音在中间 ad-VEN-ture,结尾 -ture 读 /tʃɚ/。" }
+      ],
+      "reviewItems": ["en.lose", "en.find", "en.cap", "en.storm", "en.spend", "en.keep"]
+    },
+    {
+      "id": "en.a1u13.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-13 Can you help me?", "order": 113085,
+      "titleZh": "给司机的感谢留言", "goalZh": "读懂一段写给司机的感谢留言,学会用 Thank you for… 和过去时写感谢",
+      "canDoZh": "能读懂并写一段简短的感谢留言:谢什么、当时的情况、对方哪里好",
+      "scenarioZh": "体裁:应用里的评价和感谢留言。说话人 lei(第一人称)。回到西雅图后,磊在叫车应用里给那位司机写留言:上周我把手机丢在您的车上,特别紧张;您找到了手机,第二天一早给我朋友打电话,还开车送了过来;手机里有我在中国的家人的照片;您又好心又诚实,谢谢您的帮助。至少 8 句。(规划里的“打五星”star 是 4-r02 别人登记的词,这课没写。)",
+      "grammarFocusZh": "复习一般过去时和不规则动词(lost、found、drove);感谢的说法 Thank you for… / You were very kind.(第 7 单元学过 Thanks for asking)。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 12.5,
+      "newItems": [
+        { "id": "en.honest", "kind": "word", "pos": "adj", "text": "honest", "zh": "诚实的", "features": {"ipa": "ˈɑːnɪst"}, "noteZh": "h 不发音,读 /ˈɑːnɪst/,所以前面用 an:an honest driver;重音在前。" }
+      ],
+      "reviewItems": ["en.lose", "en.find", "en.drive", "en.kind", "en.nervous"]
+    }
+  ]
+}

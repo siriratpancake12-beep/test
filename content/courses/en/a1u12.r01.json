@@ -24,9 +24,9 @@
     { "speaker": "narrator", "text": "Enjoy your time in Santa Monica!", "zh": "祝您在圣莫尼卡玩得愉快!", "items": ["en.enjoy"] }
   ],
   "questions": [
-    { "prompt": "最晚几点要退房?", "options": ["上午 10 点", "上午 11 点", "中午 12 点"], "answer": 1, "explainZh": "Check-out is at 11:00 in the morning.(退房时间是上午 11 点)" },
-    { "prompt": "下面哪一条是泳池的规定?", "options": ["不能带玻璃杯,不能奔跑", "晚上 11 点关门", "只有大人能去"], "answer": 0, "explainZh": "No glass at the pool, please. 和 No running, please.;泳池晚上 10 点关,孩子有家长陪着就能去。" },
-    { "prompt": "在房间里需要帮助,应该怎么办?", "options": ["去健身房找人", "发邮件给酒店", "在房间里拨 0"], "answer": 2, "explainZh": "Need help? Call 0 from your room.(需要帮助?请在房间里拨 0)" }
+    { "prompt": "最晚几点要退房?", "options": ["上午 11 点", "上午 10 点", "中午 12 点"], "answer": 0, "explainZh": "Check-out is at 11:00 in the morning.(退房时间是上午 11 点)" },
+    { "prompt": "下面哪一条是泳池的规定?", "options": ["晚上 11 点关门", "只有大人能去", "不能带玻璃杯,不能奔跑"], "answer": 2, "explainZh": "No glass at the pool, please. 和 No running, please.;泳池晚上 10 点关,孩子有家长陪着就能去。" },
+    { "prompt": "在房间里需要帮助,应该怎么办?", "options": ["去健身房找人", "在房间里拨 0", "发邮件给酒店"], "answer": 1, "explainZh": "Need help? Call 0 from your room.(需要帮助?请在房间里拨 0)" }
   ],
   "grammar": [
     { "id": "en.g.u12_notice", "titleZh": "读须知和告示:No + 名词 / 动词-ing 和省略句",

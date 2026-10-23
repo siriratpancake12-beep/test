@@ -1,0 +1,55 @@
+{
+  "id": "en.a1u11.l02", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111020,
+  "titleZh": "收拾行李", "goalZh": "会说旅行要带的东西,用 need + 名词问要不要带", "canDoZh": "能列出旅行要带的东西,问朋友自己需不需要带某样东西",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "en.suitcase", "kind": "word", "pos": "noun", "text": "suitcase", "zh": "行李箱", "features": { "ipa": "ˈsuːtkeɪs" }, "noteZh": "suit + case,复合词重音在前 SUIT-case;ui 读 /uː/。" },
+    { "id": "en.sunglasses", "kind": "word", "pos": "noun", "text": "sunglasses", "zh": "太阳镜;墨镜", "features": { "ipa": "ˈsʌnɡlæsɪz" }, "noteZh": "一般用复数,和 glasses 一样;复合词重音在前 SUN-glasses。" },
+    { "id": "en.shorts", "kind": "word", "pos": "noun", "text": "shorts", "zh": "短裤", "features": { "ipa": "ʃɔːrts" }, "noteZh": "一般用复数,和 pants、jeans 一样;sh 读 /ʃ/,嘴唇往前突,不要读成 s。" },
+    { "id": "en.sunscreen", "kind": "word", "pos": "noun", "text": "sunscreen", "zh": "防晒霜", "features": { "ipa": "ˈsʌnskriːn" }, "noteZh": "sun + screen,重音在前;scr 三个辅音连读,中间不加元音。" },
+    { "id": "en.swimsuit", "kind": "word", "pos": "noun", "text": "swimsuit", "zh": "泳衣", "features": { "ipa": "ˈswɪmsuːt" }, "noteZh": "swim + suit,重音在前 SWIM-suit;男生的泳裤也可以叫 swimsuit。" },
+    { "id": "en.hotel", "kind": "word", "pos": "noun", "text": "hotel", "zh": "酒店;旅馆", "features": { "ipa": "hoʊˈtel" }, "noteZh": "重音在后 ho-TEL,和中文“酒店”的节奏不同;at the hotel(在酒店)。" },
+    { "id": "en.towel", "kind": "word", "pos": "noun", "text": "towel", "zh": "毛巾", "features": { "ipa": "ˈtaʊəl" }, "noteZh": "ow 读 /aʊ/,后面的 el 很轻;复数 towels。" },
+    { "id": "en.vacation", "kind": "word", "pos": "noun", "text": "vacation", "zh": "假期;度假", "features": { "ipa": "veɪˈkeɪʃən" }, "noteZh": "美式说 vacation,英式多说 holiday;v 上齿轻咬下唇;重音在 -CA-。" }
+  ],
+  "reviewItems": ["en.need", "en.coat", "en.beach", "en.take_pictures", "en.cant"],
+  "lines": [
+    { "speaker": "ethan", "text": "Hey, Lei! Are you ready for LA?", "zh": "(出发前一晚,伊森和磊视频)嘿,磊!去洛杉矶准备好了吗?", "items": ["en.hey", "en.ready"] },
+    { "speaker": "lei", "text": "Yes! Look, this is my suitcase. It's a carry-on.", "zh": "好了!你看,这是我的行李箱,一个登机箱。", "items": ["en.look", "en.suitcase", "en.carry_on"] },
+    { "speaker": "ethan", "text": "Is that a coat? You don't need a coat! It's 75 degrees here.", "zh": "那是厚外套吗?你不用带外套!这儿七十五度。", "items": ["en.coat", "en.need", "en.degree"] },
+    { "speaker": "lei", "text": "OK, no coat. So what do I need?", "zh": "好吧,不带外套。那我要带什么?", "items": ["en.coat", "en.need"] },
+    { "speaker": "ethan", "text": "Sunglasses, shorts, and sunscreen. It's really sunny.", "zh": "太阳镜、短裤和防晒霜。太阳很大。", "items": ["en.sunglasses", "en.shorts", "en.sunscreen", "en.really", "en.sunny"] },
+    { "speaker": "ethan", "text": "And a swimsuit for the beach!", "zh": "还有去海边穿的泳衣!", "items": ["en.swimsuit", "en.beach"] },
+    { "speaker": "lei", "text": "But I can't swim! Do I need a towel, too?", "zh": "可我不会游泳!还要带毛巾吗?", "items": ["en.cant", "en.swim", "en.need", "en.towel"] },
+    { "speaker": "ethan", "text": "No, the hotel has towels. It's a vacation, man!", "zh": "不用,酒店有毛巾。这是度假,兄弟!", "items": ["en.hotel", "en.have", "en.towel", "en.vacation"] },
+    { "speaker": "lei", "text": "OK. Sunglasses, shorts, sunscreen, and a swimsuit. That's it!", "zh": "好。太阳镜、短裤、防晒霜,还有泳衣。就这些!", "items": ["en.sunglasses", "en.shorts", "en.sunscreen", "en.swimsuit", "en.thats_it"] },
+    { "speaker": "ethan", "text": "Cool. And take a lot of pictures! See you in LA!", "zh": "酷。记得多拍照!洛杉矶见!", "items": ["en.cool", "en.take_pictures", "en.a_lot_of", "en.see"] }
+  ],
+  "questions": [
+    { "prompt": "伊森为什么说磊不用带厚外套?", "options": ["他可以穿伊森的", "外套太占地方", "洛杉矶现在七十五度"], "answer": 2, "explainZh": "You don't need a coat! It's 75 degrees here.(这儿七十五度。)" },
+    { "prompt": "磊为什么不用带毛巾?", "options": ["他不游泳", "酒店有毛巾", "伊森会借给他"], "answer": 1, "explainZh": "No, the hotel has towels.(酒店有毛巾。)" },
+    { "prompt": "磊最后决定带哪些东西?", "options": ["太阳镜、短裤、防晒霜和泳衣", "厚外套和毛巾", "毛衣和伞"], "answer": 0, "explainZh": "Sunglasses, shorts, sunscreen, and a swimsuit. That's it!" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.need_noun_review",
+      "titleZh": "need + 名词:I need… / You don't need… / Do I need…?",
+      "bodyZh": "说需要什么,用 need + 名词(第 4 单元学过):I need sunglasses.;不需要:You don't need a coat.;问别人:Do I need a towel? — No, you don't. / Yes, you do.。need 后面直接跟名词,中间不加 to;need to + 动词原形(需要做某事)下一课学。",
+      "examples": [
+        { "text": "You don't need a coat. It's 75 degrees here!", "zh": "你不用带外套。这儿七十五度!" },
+        { "text": "Do I need a towel? — No, the hotel has towels.", "zh": "要带毛巾吗?——不用,酒店有。" }
+      ]
+    },
+    {
+      "id": "en.g.compound_stress",
+      "titleZh": "复合词的重音在前",
+      "bodyZh": "两个词合成一个词时,重音一般落在前一个词上:SUNglasses、SUNscreen、SUITcase、SWIMsuit,和第 7 单元的 MOvie theater 一样。重音放错(说成 sun-GLASS-es),美国人可能一下听不懂。carry-on 也是重音在前:CA-rry-on。sunglasses、shorts 和 glasses、jeans 一样,一般用复数。",
+      "examples": [
+        { "text": "Sunglasses, shorts, and sunscreen.", "zh": "太阳镜、短裤和防晒霜。" },
+        { "text": "This is my suitcase. It's a carry-on.", "zh": "这是我的行李箱,一个登机箱。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,185 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-14 Phones & the internet", "cefr": "A1", "themeZh": "手机和网络:换手机套餐、把手机设成英文、帮朋友设置电脑、问 Wi-Fi 密码、视频卡顿、学校账号登不上,开学前夜宿舍断网" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u14.l01", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114010,
+      "titleZh": "换个手机套餐", "goalZh": "会在手机店问清楚套餐的价格、流量和国际电话,选一个合适的套餐",
+      "canDoZh": "能在手机店问清楚套餐的价格、流量和打国际电话的费用,选一个合适的套餐",
+      "scenarioZh": "磊刚来时在机场随便办的手机套餐太贵,每月八十美元。开学前艾米陪他去手机店(伊森还在洛杉矶,规划里写伊森陪着去,和 14-5 冲突,改成艾米),店员(clerk)介绍两种套餐:每月 30 美元 10G 流量,或者 50 美元不限流量;磊问 Can I call China? How much is it?,店员说每月加 5 美元可以打国际电话;磊还问了校园里信号好不好。磊选了 30 美元的套餐加国际电话,换了一张新的 SIM 卡,号码不变。(磊第 1 单元就有美国号码,规划里的“一直用国内号码漫游”改掉了;month 是 9-7 别人登记的词,这课离不开,作为复习词用。)",
+      "grammarFocusZh": "a month / per month、unlimited、data(流量,口语说 10 gigs);How much is it a month? / Does it include…?;复习 Can I…? 和价格读法。发音:前后鼻音——phone、plan 是 /n/,long、thing 是 /ŋ/,南方口音容易混。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.phone_plan", "kind": "phrase", "pos": "noun", "text": "phone plan", "zh": "手机套餐", "features": { "ipa": "ˈfoʊn ˌplæn" }, "noteZh": "美国的手机一般按月付套餐费;第 7 单元的 plan 是“计划”,phone plan 是“套餐”。phone、plan 结尾都是前鼻音 /n/,舌尖顶住上齿龈。" },
+        { "id": "en.data", "kind": "word", "pos": "noun", "text": "data", "zh": "(手机)流量;数据", "features": { "ipa": "ˈdeɪt̬ə" }, "noteZh": "手机流量就叫 data:10 gigs of data 10G 流量;美式常读 /ˈdeɪt̬ə/,t 是闪音。data 不可数,不加 s。" },
+        { "id": "en.gig", "kind": "word", "pos": "noun", "text": "gig", "zh": "(口语)G(流量单位)", "features": { "ipa": "ɡɪɡ" }, "noteZh": "gigabyte 的口语简称:10 gigs = 10G 流量;两个 g 都是浊音 /ɡ/。" },
+        { "id": "en.unlimited", "kind": "word", "pos": "adj", "text": "unlimited", "zh": "不限量的", "features": { "ipa": "ʌnˈlɪmɪt̬ɪd" }, "noteZh": "unlimited data 不限流量;un- 表示“不”,重音在第二个音节 un-LIM-it-ed。" },
+        { "id": "en.sim_card", "kind": "phrase", "pos": "noun", "text": "SIM card", "zh": "手机卡;SIM 卡", "features": { "ipa": "ˈsɪm ˌkɑːrd" }, "noteZh": "SIM 读成一个词 /sɪm/,不一个字母一个字母地读;换运营商一般要换一张新的 SIM card。" },
+        { "id": "en.international", "kind": "word", "pos": "adj", "text": "international", "zh": "国际的", "features": { "ipa": "ˌɪnt̬ɚˈnæʃənəl" }, "noteZh": "international calls 国际电话;第 1 单元学过 international student;重音在 -NA-,t 读闪音。" },
+        { "id": "en.save", "kind": "word", "pos": "verb", "text": "save", "zh": "省(钱);节省", "features": { "ipa": "seɪv" }, "noteZh": "You can save money. 你能省钱;结尾 v 要带声,别读成 safe(安全的)。" },
+        { "id": "en.signal", "kind": "word", "pos": "noun", "text": "signal", "zh": "(手机)信号", "features": { "ipa": "ˈsɪɡnəl" }, "noteZh": "The signal is good. 信号很好;这里的 g 要发音(和 sign 不一样),重音在前 SIG-nal。" }
+      ],
+      "reviewItems": ["en.phone", "en.month", "en.bill", "en.include", "en.per"]
+    },
+    {
+      "id": "en.a1u14.l02", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114020,
+      "titleZh": "手机里的英语", "goalZh": "会说手机和应用里常见的英文词,说出手机没电、该更新这类小问题",
+      "canDoZh": "能看懂手机和应用里常见的英文提示,说出手机出了什么小问题",
+      "scenarioZh": "为了多练英语,磊在 Settings 里把手机的语言改成了英文。咖啡馆休息时,马库斯帮他认屏幕上的词:Settings、Update、Download;磊的手机快没电了,马库斯说美国人说 My phone is dead.,是“没电了”,不是坏了,It needs a charge.;磊借给他充电器,马库斯又夸他的屏幕大,两人用新手机自拍了一张。(规划里是伊森帮他认词,伊森这时还在洛杉矶,改成马库斯;battery 是 6-7 别人登记的词,这课用 My phone is dead.。)",
+      "grammarFocusZh": "手机词 charge(充电,动词)和 charger(充电器,13-3 学过)、screen、app、download、update、Settings;My phone is dead. / It needs a charge.。发音:app 读 /æp/,不要一个字母一个字母读;Wi-Fi 读 /ˈwaɪfaɪ/。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 26,
+      "newItems": [
+        { "id": "en.language", "kind": "word", "pos": "noun", "text": "language", "zh": "语言", "features": { "ipa": "ˈlæŋɡwɪdʒ" }, "noteZh": "My phone's language is English now. 我的手机语言是英文了;ng 后面还有 g 的音 /ŋɡw/,重音在前。" },
+        { "id": "en.settings", "kind": "word", "pos": "noun", "text": "Settings", "zh": "(手机、应用的)设置", "features": { "ipa": "ˈset̬ɪŋz" }, "noteZh": "手机里的“设置”一般用复数 Settings;t 读闪音,结尾 -ings 读 /ɪŋz/。" },
+        { "id": "en.update", "kind": "word", "pos": "noun", "text": "update", "zh": "更新", "features": { "ipa": "ˈʌpdeɪt" }, "noteZh": "There's a new update. 有新的更新;当名词重音在前 UP-date,当动词常读 up-DATE。" },
+        { "id": "en.download", "kind": "word", "pos": "verb", "text": "download", "zh": "下载", "features": { "ipa": "ˈdaʊnloʊd" }, "noteZh": "download the app 下载应用;ow 读 /aʊ/,oa 读 /oʊ/。上传是 upload。" },
+        { "id": "en.dead", "kind": "word", "pos": "adj", "text": "dead", "zh": "(手机)没电了;死的", "features": { "ipa": "ded" }, "noteZh": "My phone is dead. 我手机没电了(不是坏了),美国人口语天天说;ea 在这里读短音 /e/。" },
+        { "id": "en.charge", "kind": "word", "pos": "verb", "text": "charge", "zh": "充电", "features": { "ipa": "tʃɑːrdʒ" }, "noteZh": "charge my phone 给手机充电;It needs a charge. 该充电了(这里当名词)。ar 要卷舌,结尾 /dʒ/。" },
+        { "id": "en.app", "kind": "word", "pos": "noun", "text": "app", "zh": "应用;App", "features": { "ipa": "æp" }, "noteZh": "application 的简称,读成一个词 /æp/,不要读成 A-P-P;a 是 /æ/,嘴张大。" },
+        { "id": "en.selfie", "kind": "word", "pos": "noun", "text": "selfie", "zh": "自拍(照)", "features": { "ipa": "ˈselfi" }, "noteZh": "take a selfie 自拍一张;重音在前 SEL-fie。" }
+      ],
+      "reviewItems": ["en.phone", "en.screen", "en.charger", "en.video_call", "en.broken"]
+    },
+    {
+      "id": "en.a1u14.l03", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114030,
+      "titleZh": "先把它插上电", "goalZh": "会用 turn it on、plug it in 这类短语动词一步步说怎么开机、连网、登录",
+      "canDoZh": "能一步步告诉别人怎么开机、连网和登录,用对 turn it on 这类说法",
+      "scenarioZh": "索菲亚买了一台新电脑,怎么也开不了机,来找学计算机的磊。磊问 Is it plugged in?,让她 Plug it in. Now turn it on.;开机后再教她把电脑设置好、打开 Wi-Fi、用学生邮箱登录,输入密码。索菲亚说 You're a good teacher!,磊有点不好意思,又提醒她晚上关机、在图书馆的电脑上用完要退出登录。(sign up 是 1-6 别人登记的词,这课没用。)",
+      "grammarFocusZh": "可分短语动词:turn on / off、plug in、set up;代词宾语只能放在中间(turn it on,不说 turn on it),名词放中间或后面都行(turn on the computer / turn the computer on)——是第 6 单元 try it on 的同一个规则;log in / log out。发音:连读 turn it on 读成 'tur-ni-ton',plug it in 读成 'plu-gi-tin'。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.computer", "kind": "word", "pos": "noun", "text": "computer", "zh": "电脑", "features": { "ipa": "kəmˈpjuːt̬ɚ" }, "noteZh": "第 1 单元学过 computer science;笔记本电脑口语也常说 computer。重音在中间 com-PU-ter,t 读闪音。" },
+        { "id": "en.plug_in", "kind": "phrase", "pos": "verb", "text": "plug in", "zh": "插上电源", "features": { "ipa": "ˌplʌɡ ˈɪn" }, "noteZh": "Is it plugged in? 插上电了吗?;代词放中间:plug it in,连读成“plu-gi-tin”。" },
+        { "id": "en.turn_on", "kind": "phrase", "pos": "verb", "text": "turn on", "zh": "打开(电器、开关)", "features": { "ipa": "ˌtɝːn ˈɑːn" }, "noteZh": "turn on the computer = turn the computer on;代词只能放中间:turn it on,不说 turn on it。" },
+        { "id": "en.turn_off", "kind": "phrase", "pos": "verb", "text": "turn off", "zh": "关掉(电器、开关)", "features": { "ipa": "ˌtɝːn ˈɑːf" }, "noteZh": "和 turn on 相反;turn it off 连读成“tur-ni-toff”。" },
+        { "id": "en.log_in", "kind": "phrase", "pos": "verb", "text": "log in", "zh": "登录", "alt": ["login"], "features": { "ipa": "ˌlɑːɡ ˈɪn" }, "noteZh": "log in with your email 用邮箱登录;登录某个网站说 log in to…;名词写成一个词 login。" },
+        { "id": "en.log_out", "kind": "phrase", "pos": "verb", "text": "log out", "zh": "退出登录", "features": { "ipa": "ˌlɑːɡ ˈaʊt" }, "noteZh": "用完公用电脑一定要 log out;连读成“lo-gout”。" },
+        { "id": "en.set_up", "kind": "phrase", "pos": "verb", "text": "set up", "zh": "设置;装好", "features": { "ipa": "ˌset ˈʌp" }, "noteZh": "set up a new computer 把新电脑设置好;代词放中间:set it up,t 在元音前读闪音“se-dup”。" },
+        { "id": "en.type", "kind": "word", "pos": "verb", "text": "type", "zh": "打字;输入", "features": { "ipa": "taɪp" }, "noteZh": "type your password 输入密码;y 读 /aɪ/,词尾 p 收住。" }
+      ],
+      "reviewItems": ["en.help", "en.doesnt_work", "en.wi_fi", "en.password", "en.email"]
+    },
+    {
+      "id": "en.a1u14.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114040,
+      "titleZh": "Wi-Fi 密码是多少?", "goalZh": "会在咖啡店问 Wi-Fi 密码,听懂大小写、数字和符号,连不上时说清楚问题",
+      "canDoZh": "能在咖啡店问 Wi-Fi 密码,听懂大小写、数字和符号,连不上时说清楚问题",
+      "scenarioZh": "磊和索菲亚在市中心一家咖啡店写作业。磊问咖啡师(barista)What's the Wi-Fi password?,咖啡师很快地说了一串带大写字母和数字的密码:capital B, e-a-n-s, 2-0-2-6, no spaces;磊请他拼一遍,连了两次都连不上:It isn't connecting.;咖啡师问他连的是哪个网络,一看说 Oh, sorry! It's a zero, not an O.——磊想起第 1 单元学过 0 也读 oh,忍不住笑了。",
+      "grammarFocusZh": "拼密码的说法:capital B、lowercase、number、no spaces、no dashes;现在进行时说故障 It isn't connecting. / It isn't working.;复习字母读音。发音:分清字母 O 和数字 0(zero)、字母 I 和数字 1。(规划里的 all one word,word 是 2-6 别人登记的词,这课用 no spaces。)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.capital", "kind": "word", "pos": "noun", "text": "capital", "zh": "大写字母", "alt": ["uppercase"], "features": { "ipa": "ˈkæpət̬əl" }, "noteZh": "capital B 大写的 B,也说 uppercase B;t 读闪音。" },
+        { "id": "en.lowercase", "kind": "word", "pos": "adj", "text": "lowercase", "zh": "小写的", "features": { "ipa": "ˌloʊɚˈkeɪs" }, "noteZh": "all lowercase 全部小写;大写是 capital 或 uppercase。" },
+        { "id": "en.symbol", "kind": "word", "pos": "noun", "text": "symbol", "zh": "符号", "features": { "ipa": "ˈsɪmbəl" }, "noteZh": "密码里的 @、#、! 这些都叫 symbols;重音在前 SYM-bol。" },
+        { "id": "en.space", "kind": "word", "pos": "noun", "text": "space", "zh": "空格;空间", "features": { "ipa": "speɪs" }, "noteZh": "No spaces. 中间没有空格;sp 之间不加元音。" },
+        { "id": "en.dash", "kind": "word", "pos": "noun", "text": "dash", "zh": "短横线(-)", "features": { "ipa": "dæʃ" }, "noteZh": "邮箱、密码里的 - 读 dash,下划线 _ 读 underscore;a 读 /æ/,结尾 sh 是 /ʃ/。" },
+        { "id": "en.spell", "kind": "word", "pos": "verb", "text": "spell", "zh": "拼写", "features": { "ipa": "spel" }, "noteZh": "Could you spell it, please? 能拼一下吗?;第 1 单元学过 How do you spell…?。结尾 l 要收住。" },
+        { "id": "en.connect", "kind": "word", "pos": "verb", "text": "connect", "zh": "连接;连上(网)", "features": { "ipa": "kəˈnekt" }, "noteZh": "It isn't connecting. 连不上;connect to the Wi-Fi 连 Wi-Fi。结尾 ct 两个辅音都要收住。" },
+        { "id": "en.network", "kind": "word", "pos": "noun", "text": "network", "zh": "网络(名称)", "features": { "ipa": "ˈnetwɝːk" }, "noteZh": "Which network are you on? 你连的是哪个网络?;复合词重音在前 NET-work。" }
+      ],
+      "reviewItems": ["en.wi_fi", "en.password", "en.type", "en.doesnt_work", "en.oh_zero"]
+    },
+    {
+      "id": "en.a1u14.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114045,
+      "titleZh": "群聊里的缩写", "goalZh": "读懂英文群聊里常见的缩写,知道哪些说法只能在朋友之间用",
+      "canDoZh": "能读懂英文短信和群聊里常见的缩写,知道哪些只能在朋友之间用",
+      "scenarioZh": "体裁:群聊记录。每条消息的说话人用发消息的人(amy、sofia、lei、ethan),结尾的小词表用 narrator。周五晚上,艾米在群里约大家看电影:消息里有 u = you、r = are、thx、omw(on my way)、lol、btw、brb 等缩写;磊一开始看不懂 u,问了一句;还在洛杉矶的伊森发错了一条给妈妈的消息;最后磊自己也用上了 omw。至少 8 条消息,结尾附一个缩写小词表,提醒这些只用在和朋友聊天,不用在给老师的邮件里。(规划写说话人 narrator,按“消息的说话人用写的人”改了。)",
+      "grammarFocusZh": "认识常见的聊天缩写,知道它们只用在和朋友聊天,不用在给老师和老板的邮件里;复习 I'm on my way 等第 5 单元的说法。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 15.5,
+      "newItems": [
+        { "id": "en.lol", "kind": "word", "pos": "interj", "text": "lol", "zh": "哈哈(大笑)", "features": { "ipa": "lɑːl" }, "noteZh": "laughing out loud 的缩写,聊天时表示“哈哈”;口语里有人读 /lɑːl/,也有人读 L-O-L。只在朋友之间用。" },
+        { "id": "en.btw", "kind": "phrase", "pos": "phrase", "text": "btw", "zh": "顺便说一下", "features": { "ipa": "ˌbiː tiː ˈdʌbəljuː" }, "noteZh": "by the way 的缩写,聊天时用来换个话题或补充一句:btw, tickets r 12 dollars.。" },
+        { "id": "en.brb", "kind": "phrase", "pos": "phrase", "text": "brb", "zh": "马上回来", "features": { "ipa": "ˌbiː ɑːr ˈbiː" }, "noteZh": "be right back 的缩写,临时走开一下时发;第 5 单元学过 I'll be right there(我马上到)。" }
+      ],
+      "reviewItems": ["en.on_my_way", "en.group_chat", "en.movie", "en.you_guys"]
+    },
+    {
+      "id": "en.a1u14.l05", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114050,
+      "titleZh": "视频卡住了", "goalZh": "会在视频或电话信号不好时说清楚问题(听不见、卡住了),并换个地方再打",
+      "canDoZh": "能在视频或电话信号不好时说清楚问题,并约好过会儿再打",
+      "scenarioZh": "开学前伊森还在洛杉矶。磊在宿舍楼地下室的洗衣房和他视频,信号很差:Can you hear me? — You're breaking up! — The video is frozen.;磊说 I'm going upstairs. Let me call you from my room.,回到房间重新打过去,画面清楚了;伊森说他周六回西雅图,磊约他周日打篮球。(hear 是 7-r02 别人登记的词,这课离不开,作为复习词用;规划里的 Let me call you back. 用了 7-7 别人登记的 call back,这课改成 Let me call you from my room.。)",
+      "grammarFocusZh": "信号问题的说法 I can't hear you. / You're breaking up. / The video is frozen. / The connection is bad.;复习现在进行时说正在发生的问题。发音:frozen /ˈfroʊzən/ 的 /oʊ/ 和 /z/;breaking up 连读。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.can_you_hear_me", "kind": "phrase", "pos": "phrase", "text": "Can you hear me", "zh": "你能听到我说话吗?", "features": { "ipa": "kən ju ˈhɪr mi" }, "noteZh": "视频、电话信号不好时先问这句;hear 和 here 读音一样。听不清对方就说 I can't hear you.。" },
+        { "id": "en.breaking_up", "kind": "phrase", "pos": "phrase", "text": "You're breaking up", "zh": "你那边声音断断续续的", "features": { "ipa": "jʊr ˌbreɪkɪŋ ˈʌp" }, "noteZh": "电话、视频信号不好、声音一卡一卡时说;breaking up 连读成“brei-kin-gup”。" },
+        { "id": "en.frozen", "kind": "word", "pos": "adj", "text": "frozen", "zh": "(画面)卡住了;冻住的", "features": { "ipa": "ˈfroʊzən" }, "noteZh": "The video is frozen. 视频卡住了;o 读 /oʊ/,z 要带声。" },
+        { "id": "en.video", "kind": "word", "pos": "noun", "text": "video", "zh": "视频", "features": { "ipa": "ˈvɪdioʊ" }, "noteZh": "第 8 单元学过 video call;v 要上齿轻碰下唇,别读成 w。" },
+        { "id": "en.connection", "kind": "word", "pos": "noun", "text": "connection", "zh": "连接;网络信号", "features": { "ipa": "kəˈnekʃən" }, "noteZh": "The connection is bad. 网不好;-tion 读 /ʃən/,重音在 -NEC-。" },
+        { "id": "en.internet", "kind": "word", "pos": "noun", "text": "internet", "zh": "互联网;网", "features": { "ipa": "ˈɪnt̬ɚnet" }, "noteZh": "The internet is bad here. 这儿网不好;美式 t 常读闪音,有时几乎听不见:“IN-er-net”。" },
+        { "id": "en.upstairs", "kind": "word", "pos": "adv", "text": "upstairs", "zh": "在楼上;到楼上", "features": { "ipa": "ˌʌpˈsterz" }, "noteZh": "I'm going upstairs. 我上楼去;和 downstairs(楼下)相对,前面不加 to。" },
+        { "id": "en.voice", "kind": "word", "pos": "noun", "text": "voice", "zh": "声音;嗓音", "features": { "ipa": "vɔɪs" }, "noteZh": "Your voice is so quiet. 你的声音好小;v 要咬唇,别读成 w;oi 读 /ɔɪ/。" }
+      ],
+      "reviewItems": ["en.hear", "en.basement", "en.laundry_room", "en.sorry_about_that", "en.come_back"]
+    },
+    {
+      "id": "en.a1u14.l06", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114060,
+      "titleZh": "教艾米装中文聊天软件", "goalZh": "会用 First / Then / After that / Finally 一步一步教别人下载和使用一个应用",
+      "canDoZh": "能一步一步教别人下载、注册和使用一个应用",
+      "scenarioZh": "艾米为了学中文,想装磊用的中文聊天软件,问 How do I download your Chinese chat app?。磊教她:First, download the app. Then enter your phone number.;软件发来验证码,艾米输错了顺序,磊让她 Try one more time.;最后扫磊的二维码加好友。艾米给磊发了第一条中文消息“你好”,磊回了一个熊猫表情。(sign up 是 1-6 别人登记的词,“注册”这一步用 enter your phone number 说;“再试一次”的 again 是 1-7 的词,用 one more time。)",
+      "grammarFocusZh": "用祈使句加 First / Then / After that / Finally 说步骤(复习第 8 单元的顺序词);How do I…? 问怎么做(复习第 5 单元)。发音:QR 读 /ˌkjuː ˈɑːr/,ID 读 /ˌaɪ ˈdiː/,字母缩写的重音在最后一个字母。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.chat", "kind": "word", "pos": "noun", "text": "chat", "zh": "聊天", "features": { "ipa": "tʃæt" }, "noteZh": "a chat app 聊天软件;第 1 单元学过 group chat(群聊)。a 读 /æ/。" },
+        { "id": "en.simple", "kind": "word", "pos": "adj", "text": "simple", "zh": "简单的", "features": { "ipa": "ˈsɪmpəl" }, "noteZh": "It's simple! 很简单!;结尾 -ple 的 l 自成一个音节,读 /pəl/。" },
+        { "id": "en.done", "kind": "word", "pos": "adj", "text": "done", "zh": "做完了;好了", "features": { "ipa": "dʌn" }, "noteZh": "OK, done! 好了,弄完了!;o 读 /ʌ/,和 fun 押韵。" },
+        { "id": "en.enter", "kind": "word", "pos": "verb", "text": "enter", "zh": "输入;进入", "features": { "ipa": "ˈent̬ɚ" }, "noteZh": "enter your phone number 输入手机号;键盘上的回车键也叫 Enter。t 读闪音。" },
+        { "id": "en.code", "kind": "word", "pos": "noun", "text": "code", "zh": "验证码;代码", "features": { "ipa": "koʊd" }, "noteZh": "a code 验证码(完整说法是 verification code);o 读 /oʊ/。code 和 cold(冷的)只差一个 l。" },
+        { "id": "en.scan", "kind": "word", "pos": "verb", "text": "scan", "zh": "扫描;扫(码)", "features": { "ipa": "skæn" }, "noteZh": "scan my QR code 扫我的二维码;sc 之间不加元音,a 读 /æ/。" },
+        { "id": "en.qr_code", "kind": "phrase", "pos": "noun", "text": "QR code", "zh": "二维码", "features": { "ipa": "ˌkjuː ˈɑːr ˌkoʊd" }, "noteZh": "QR 读两个字母 Q-R,重音在 R 上;美国人扫码没有中国那么普遍,不过越来越多。" },
+        { "id": "en.emoji", "kind": "word", "pos": "noun", "text": "emoji", "zh": "表情符号", "features": { "ipa": "ɪˈmoʊdʒi" }, "noteZh": "a panda emoji 熊猫表情;这个词来自日语,重音在中间 e-MO-ji。" }
+      ],
+      "reviewItems": ["en.download", "en.app", "en.phone_number", "en.send", "en.try"]
+    },
+    {
+      "id": "en.a1u14.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114070,
+      "titleZh": "学校账号登不上", "goalZh": "会到电脑服务台说清楚登不上的问题,跟着工作人员一步步重设密码",
+      "canDoZh": "能到服务台说清楚账号的问题,跟着工作人员一步步重设密码",
+      "scenarioZh": "开学前一天,磊怎么也登录不了课程网站。他去学校的电脑服务台(help desk),工作人员(staff)问他的用户名;磊说假期里设了新密码,现在怎么也想不起来;工作人员让他点 Forgot password 的链接,输入发到手机上的验证码,再设一个有大写字母、数字和符号的新密码。学计算机的磊有点不好意思:This is so embarrassing!,工作人员说 It happens to everyone.。(规划里的 forgot 是 11-3 别人登记的 forget 的过去式,这里只把登录页上的 Forgot password 当成一个固定说法教;choose 是 11-1 的词,改成 Make a new one.。)",
+      "grammarFocusZh": "can't + 动词说问题(I can't log in. / I can't find it.);过去式 sent(send–sent)、made;跟着指令操作:Click… / Enter the code… / Make a new password.。发音:code /koʊd/ 和 cold /koʊld/ 的区别在 l。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.help_desk", "kind": "phrase", "pos": "noun", "text": "help desk", "zh": "(电脑)服务台;帮助台", "features": { "ipa": "ˈhelp ˌdesk" }, "noteZh": "学校的电脑服务台叫 the help desk;复合词重音在前 HELP desk。" },
+        { "id": "en.website", "kind": "word", "pos": "noun", "text": "website", "zh": "网站", "features": { "ipa": "ˈwebsaɪt" }, "noteZh": "class website 课程网站;w 开头双唇收圆,别读成 v。" },
+        { "id": "en.username", "kind": "word", "pos": "noun", "text": "username", "zh": "用户名", "features": { "ipa": "ˈjuːzɚneɪm" }, "noteZh": "user(用户)+ name,重音在前 U-ser-name;登录时先输入 username 和 password。" },
+        { "id": "en.click", "kind": "word", "pos": "verb", "text": "click", "zh": "点击", "features": { "ipa": "klɪk" }, "noteZh": "click the link 点链接;cl 之间不加元音,词尾 k 收住。" },
+        { "id": "en.link", "kind": "word", "pos": "noun", "text": "link", "zh": "链接", "features": { "ipa": "lɪŋk" }, "noteZh": "Click this link. 点这个链接;结尾 nk 读 /ŋk/,舌根抬起。" },
+        { "id": "en.forgot_password", "kind": "phrase", "pos": "phrase", "text": "Forgot password", "zh": "忘记密码(登录页上的链接)", "features": { "ipa": "fɚˌɡɑːt ˈpæswɝːd" }, "noteZh": "几乎每个登录页面都有这个链接,点了就能重设密码;forgot 是 forget(忘记)的过去式。" },
+        { "id": "en.reset", "kind": "word", "pos": "verb", "text": "reset", "zh": "重新设置;重设", "features": { "ipa": "ˌriːˈset" }, "noteZh": "reset your password 重设密码;re- 表示“重新”,重音在后 re-SET。" },
+        { "id": "en.embarrassing", "kind": "word", "pos": "adj", "text": "embarrassing", "zh": "让人尴尬的", "features": { "ipa": "ɪmˈberəsɪŋ" }, "noteZh": "This is so embarrassing! 太尴尬了!;拼写有两个 r、两个 s,重音在 -BAR-。" }
+      ],
+      "reviewItems": ["en.log_in", "en.code", "en.enter", "en.capital", "en.symbol", "en.happen"]
+    },
+    {
+      "id": "en.a1u14.l08", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114080,
+      "titleZh": "单元复习:开学前夜断网了", "goalZh": "综合用 turn it off and on、现在进行时说故障和说步骤的祈使句,和朋友一起排查网络问题并打电话求助",
+      "canDoZh": "能和别人一起排查网络问题,一步步试办法,并打电话求助",
+      "scenarioZh": "开学前一晚,宿舍突然断网,磊必须在今晚十二点前在网上再选一门课(截止时间 deadline)。磊、刚回来的伊森和索菲亚一起想办法:先把路由器关掉再打开,不行;再用手机开热点,太慢;最后打电话给电脑服务台,工作人员(staff)说他们正在修,请等十分钟。11:58,网好了,磊点了提交。对话至少 12 句。(规划里的“整栋楼”building 是 9-4 别人登记的词,改成 The internet isn't working here.。)",
+      "grammarFocusZh": "复习 turn it off and on、现在进行时说故障、can't + 动词和说步骤的祈使句。发音:前后鼻音在 phone、internet、connecting 里集中练一遍。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "en.register", "kind": "word", "pos": "verb", "text": "register", "zh": "注册;选(课)", "features": { "ipa": "ˈredʒɪstɚ" }, "noteZh": "register for a class 选课、报名上课;重音在前 RE-gis-ter,g 读 /dʒ/。" },
+        { "id": "en.deadline", "kind": "word", "pos": "noun", "text": "deadline", "zh": "截止时间", "features": { "ipa": "ˈdedlaɪn" }, "noteZh": "The deadline is twelve tonight. 截止时间是今晚十二点;dead + line,重音在前。" },
+        { "id": "en.router", "kind": "word", "pos": "noun", "text": "router", "zh": "路由器", "features": { "ipa": "ˈraʊt̬ɚ" }, "noteZh": "美式读 /ˈraʊt̬ɚ/(像“劳特”);断网时先把 router 关掉再打开。" },
+        { "id": "en.hotspot", "kind": "word", "pos": "noun", "text": "hotspot", "zh": "(手机)热点", "features": { "ipa": "ˈhɑːtspɑːt" }, "noteZh": "turn on your hotspot 打开手机热点;hot + spot,重音在前。" }
+      ],
+      "reviewItems": ["en.internet", "en.turn_on", "en.turn_off", "en.help_desk", "en.connect", "en.click"]
+    },
+    {
+      "id": "en.a1u14.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-14 Phones & the internet", "order": 114085,
+      "titleZh": "网络安全小贴士", "goalZh": "读懂一张网络安全海报,知道怎样保护自己的账号和密码",
+      "canDoZh": "能读懂一份网络安全提示,知道怎样保护自己的账号和密码",
+      "scenarioZh": "体裁:海报(学校电脑服务台贴在图书馆的)。说话人 narrator。几条提示:不要把密码告诉别人(朋友和家人也不行);好密码要长,有大写字母、数字和符号;生日不是好密码;不要点陌生人邮件里的链接;在图书馆的公用电脑上用完要退出登录;给邮箱开启两步登录。最后写服务台的位置和电话。至少 8 句。(“奇怪的”strange 是 16-7 别人登记的词,这课用 emails from strangers。)",
+      "grammarFocusZh": "复习祈使句和否定 Don't…;never 和 always 在提示里的用法(Never share your password.)。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "en.share", "kind": "word", "pos": "verb", "text": "share", "zh": "分享;(把东西)给别人用", "features": { "ipa": "ʃer" }, "noteZh": "Never share your password. 不要把密码告诉别人;sh 是 /ʃ/,结尾卷舌。" },
+        { "id": "en.public", "kind": "word", "pos": "adj", "text": "public", "zh": "公共的;公用的", "features": { "ipa": "ˈpʌblɪk" }, "noteZh": "public computers 公用电脑;u 读 /ʌ/,重音在前 PUB-lic。" },
+        { "id": "en.stranger", "kind": "word", "pos": "noun", "text": "stranger", "zh": "陌生人", "features": { "ipa": "ˈstreɪndʒɚ" }, "noteZh": "emails from strangers 陌生人发来的邮件;str 三个辅音连读,a 读 /eɪ/,g 读 /dʒ/。" }
+      ],
+      "reviewItems": ["en.password", "en.capital", "en.symbol", "en.link", "en.log_out", "en.help_desk"]
+    }
+  ]
+}

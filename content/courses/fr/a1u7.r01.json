@@ -1,0 +1,41 @@
+{
+  "id": "fr.a1u7.r01", "schemaVersion": 1, "lang": "fr", "type": "reading", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107045,
+  "titleZh": "服装店的冬季传单(广告)", "goalZh": "读懂服装店的广告传单,找出衣服的颜色、价格、促销日期和营业时间", "canDoZh": "能看懂服装店的广告传单:有什么衣服、什么颜色、多少钱、哪几天",
+  "skills": ["read"], "estimatedMinutes": 15,
+  "newItems": [
+    { "id": "fr.promotion", "kind": "word", "pos": "noun", "text": "la promotion", "zh": "促销;打折", "features": { "gender": "f", "ipa": "la pʁɔ.mɔ.sjɔ̃" }, "noteZh": "口语常说 la promo;en promotion = 在促销;tion 读 [sjɔ̃]。" },
+    { "id": "fr.paire", "kind": "word", "pos": "noun", "text": "la paire", "zh": "一双;一对", "features": { "gender": "f", "ipa": "la pɛʁ" }, "noteZh": "une paire de chaussures(一双鞋);和 le père(爸爸)读音一样,靠冠词和上下文区分。" }
+  ],
+  "reviewItems": ["fr.manteau", "fr.pull", "fr.chaussure", "fr.ces", "fr.cher"],
+  "lines": [
+    { "speaker": "narrator", "text": "Nouveau en novembre : des manteaux, des pulls et des chaussures !", "zh": "(浩和克洛艾在街上拿到的一张服装店传单)十一月新品:大衣、毛衣和鞋!", "items": ["fr.nouveau", "fr.en", "fr.novembre", "fr.des", "fr.manteau", "fr.pull", "fr.et", "fr.chaussure"] },
+    { "speaker": "narrator", "text": "Ce manteau noir est à quatre-vingt-neuf euros.", "zh": "这件黑大衣 89 欧。", "items": ["fr.ce", "fr.manteau", "fr.noir", "fr.etre", "fr.a", "fr.quatre_vingts", "fr.neuf", "fr.euro"] },
+    { "speaker": "narrator", "text": "Il est aussi en bleu et en vert.", "zh": "这款也有蓝色和绿色的。", "items": ["fr.il", "fr.etre", "fr.aussi", "fr.en", "fr.bleu", "fr.et", "fr.vert"] },
+    { "speaker": "narrator", "text": "Ces pulls bleus sont à trente-cinq euros.", "zh": "这些蓝毛衣 35 欧。", "items": ["fr.ces", "fr.pull", "fr.bleu", "fr.etre", "fr.a", "fr.trente", "fr.cinq", "fr.euro"] },
+    { "speaker": "narrator", "text": "Et ces chaussures blanches ? Soixante euros la paire !", "zh": "这双白鞋呢?一双 60 欧!", "items": ["fr.et", "fr.ces", "fr.chaussure", "fr.blanc", "fr.soixante", "fr.euro", "fr.paire"] },
+    { "speaker": "narrator", "text": "Promotion : du 2 au 15 novembre, les pulls sont à trente euros !", "zh": "促销:11 月 2 日到 15 日,毛衣一律 30 欧!", "items": ["fr.promotion", "fr.de", "fr.du", "fr.deux", "fr.au", "fr.quinze", "fr.novembre", "fr.pull", "fr.etre", "fr.a", "fr.trente", "fr.euro"] },
+    { "speaker": "narrator", "text": "Les pulls verts, rouges, noirs… trente euros !", "zh": "绿的、红的、黑的……都是 30 欧!", "items": ["fr.pull", "fr.vert", "fr.rouge", "fr.noir", "fr.trente", "fr.euro"] },
+    { "speaker": "narrator", "text": "Ce n'est pas trop cher !", "zh": "一点都不贵!", "items": ["fr.cest", "fr.ne_pas", "fr.trop", "fr.cher"] },
+    { "speaker": "narrator", "text": "Vous voulez essayer ? Les tailles : S, M, L et XL.", "zh": "想试穿吗?尺码有 S、M、L 和 XL。", "items": ["fr.vous", "fr.vouloir", "fr.essayer", "fr.taille", "fr.et"] },
+    { "speaker": "narrator", "text": "Vous pouvez payer par carte.", "zh": "可以刷卡。", "items": ["fr.vous", "fr.pouvoir", "fr.payer", "fr.par", "fr.carte"] },
+    { "speaker": "narrator", "text": "Le magasin est ouvert du lundi au samedi, de dix heures à dix-neuf heures.", "zh": "营业时间:星期一到星期六,10:00–19:00。", "items": ["fr.magasin", "fr.etre", "fr.ouvert", "fr.de", "fr.du", "fr.lundi", "fr.au", "fr.samedi", "fr.dix", "fr.heure", "fr.a", "fr.dix_neuf"] },
+    { "speaker": "narrator", "text": "Le dimanche, il est fermé.", "zh": "星期天不营业。", "items": ["fr.dimanche", "fr.il", "fr.etre", "fr.ferme"] }
+  ],
+  "questions": [
+    { "prompt": "11 月 10 日在这家店买一件黑色大衣和一件绿色毛衣,一共多少钱?", "options": ["124 欧", "119 欧", "164 欧"], "answer": 1, "explainZh": "黑大衣 89 欧;11 月 2 日到 15 日毛衣都是 30 欧,绿的也一样(Les pulls verts, rouges, noirs… trente euros !):89 + 30 = 119 欧。" },
+    { "prompt": "这家店星期天开门吗?", "options": ["不开", "上午开", "开到十九点"], "answer": 0, "explainZh": "Le dimanche, il est fermé.——星期一到星期六 10 点到 19 点营业。" },
+    { "prompt": "白鞋一双多少钱?", "options": ["35 欧", "89 欧", "60 欧"], "answer": 2, "explainZh": "Et ces chaussures blanches ? Soixante euros la paire !——la paire = 一双。" },
+    { "prompt": "那款大衣除了黑色,还有什么颜色?", "options": ["只有黑色", "蓝色和绿色", "白色和红色"], "answer": 1, "explainZh": "Il est aussi en bleu et en vert.——en + 颜色 = 有……颜色的。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.reading_ads", "titleZh": "读广告:价格、日期段和颜色",
+      "bodyZh": "广告里说价格常用 être à + 价钱:Ce manteau est à quatre-vingt-neuf euros.(这件大衣 89 欧。)论双的东西后面加 la paire:soixante euros la paire(一双 60 欧)。\n日期段用 du … au …:du 2 au 15 novembre(11 月 2 日到 15 日),du、au 是 de + le、à + le 缩合成的(第 6 单元);钟点段用 de … à …(第 5 单元):de dix heures à dix-neuf heures。\n颜色放在名词后面,还要配合(第 2 课):des pulls bleus、des chaussures blanches;说“有……颜色的”用 en:Il est aussi en bleu et en vert.\n算一算:89 + 30 = 119,法语说 cent dix-neuf;一百以上的数第 9 单元再系统学。",
+      "examples": [
+        { "text": "Ce pull est à trente euros.", "zh": "这件毛衣 30 欧。" },
+        { "text": "Du 2 au 15 novembre, les pulls sont à trente euros.", "zh": "11 月 2 日到 15 日,毛衣都是 30 欧。" },
+        { "text": "Il est aussi en bleu et en vert.", "zh": "也有蓝色和绿色的。" }
+      ] }
+  ],
+  "review": "draft"
+}

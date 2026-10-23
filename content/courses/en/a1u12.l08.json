@@ -25,10 +25,10 @@
     { "speaker": "sofia", "text": "Thanks! Have a nice day!", "zh": "谢谢!祝您今天愉快!", "items": ["en.thank_you", "en.have_a_nice_day"] }
   ],
   "questions": [
-    { "prompt": "磊对这几天的住宿有什么意见?", "options": ["房间太小", "第一晚没有热水", "早餐不好吃"], "answer": 1, "explainZh": "磊说 The rooms were great. But there was no hot water the first night.(房间很好,不过第一晚没有热水)。" },
+    { "prompt": "磊对这几天的住宿有什么意见?", "options": ["房间太小", "早餐不好吃", "第一晚没有热水"], "answer": 2, "explainZh": "磊说 The rooms were great. But there was no hot water the first night.(房间很好,不过第一晚没有热水)。" },
     { "prompt": "账单哪里错了?", "options": ["多算了 40 美元停车费", "多算了一晚房费", "少算了税"], "answer": 0, "explainZh": "磊说 Parking, 40 dollars?,索菲亚说 We don't have a car. We didn't drive here.(我们没有车)。" },
-    { "prompt": "下午四点以前,他们的行李放在哪儿?", "options": ["伊森的车上", "机场", "酒店前台"], "answer": 2, "explainZh": "磊问 Could you keep our bags? We're coming back at four.,前台说 Of course.。" },
-    { "prompt": "四点他们要去哪儿?", "options": ["码头", "机场", "伊森家"], "answer": 1, "explainZh": "索菲亚说 Could you call a car for us at four? We're going to the airport.。" }
+    { "prompt": "下午四点以前,他们的行李放在哪儿?", "options": ["伊森的车上", "酒店前台", "机场"], "answer": 1, "explainZh": "磊问 Could you keep our bags? We're coming back at four.,前台说 Of course.。" },
+    { "prompt": "四点他们要去哪儿?", "options": ["机场", "码头", "伊森家"], "answer": 0, "explainZh": "索菲亚说 Could you call a car for us at four? We're going to the airport.。" }
   ],
   "grammar": [
     { "id": "en.g.u12_review", "titleZh": "单元小结:住酒店的几种说法",

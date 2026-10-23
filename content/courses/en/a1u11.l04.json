@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u11.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111040,
+  "titleZh": "值机和安检", "goalZh": "会值机、回答托运问题,听懂安检指令和 can / can't 说的规定", "canDoZh": "能在机场办值机,听懂安检人员的指令,知道哪些东西不能带",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.machine", "kind": "word", "pos": "noun", "text": "machine", "zh": "机器", "features": { "ipa": "məˈʃiːn" }, "noteZh": "重音在后 ma-CHINE,ch 读 /ʃ/,i 读 /iː/;机场的自助值机机器也叫 kiosk。" },
+    { "id": "en.check_in", "kind": "phrase", "pos": "verb", "text": "check in", "zh": "值机;办理入住", "features": { "ipa": "ˌtʃek ˈɪn" }, "noteZh": "在机场是“值机”,在酒店是“办理入住”;连读成 “che-kin”。" },
+    { "id": "en.just", "kind": "word", "pos": "adv", "text": "just", "zh": "只;就", "features": { "ipa": "dʒʌst" }, "noteZh": "No, just a carry-on.(不用,就一个登机箱。)u 读 /ʌ/,结尾 st 不加元音。" },
+    { "id": "en.bin", "kind": "word", "pos": "noun", "text": "bin", "zh": "(安检用的)筐;箱子", "features": { "ipa": "bɪn" }, "noteZh": "Laptops in a bin, please.(电脑放进筐里。)i 读短音 /ɪ/。" },
+    { "id": "en.remove", "kind": "word", "pos": "verb", "text": "remove", "zh": "去掉;脱下", "features": { "ipa": "rɪˈmuːv" }, "noteZh": "Remove your shoes.(把鞋脱了。)是比较正式的说法,机场、告示常用;重音在后 re-MOVE,词尾 v 要带声。" },
+    { "id": "en.security", "kind": "word", "pos": "noun", "text": "security", "zh": "安检;安全", "features": { "ipa": "sɪˈkjʊrət̬i" }, "noteZh": "at security(在安检处);重音在 -CU-,美式 t 读闪音。" },
+    { "id": "en.trash", "kind": "word", "pos": "noun", "text": "trash", "zh": "垃圾;垃圾桶", "features": { "ipa": "træʃ" }, "noteZh": "美式说 trash,英式说 rubbish;the trash 也常指垃圾桶;a 读 /æ/,结尾 sh 是 /ʃ/。" },
+    { "id": "en.restroom", "kind": "word", "pos": "noun", "text": "restroom", "zh": "洗手间", "features": { "ipa": "ˈrestruːm" }, "noteZh": "美国公共场所的洗手间常叫 restroom,家里说 bathroom;toilet 在美国多指马桶本身,问洗手间时说 restroom 更自然。" }
+  ],
+  "reviewItems": ["en.excuse_me", "en.shoes", "en.over_there", "en.boarding_pass", "en.laptop"],
+  "lines": [
+    { "speaker": "lei", "text": "Excuse me. How do I check in on this machine?", "zh": "(机场的自助值机机器前,磊卡住了)打扰一下,这台机器怎么值机?", "items": ["en.excuse_me", "en.check_in", "en.machine"] },
+    { "speaker": "staff", "text": "Sure. Are you checking any bags?", "zh": "(航空公司的工作人员过来帮忙)好的。您要托运行李吗?", "items": ["en.sure", "en.check_a_bag"] },
+    { "speaker": "lei", "text": "No, just a carry-on.", "zh": "不用,就一个登机箱。", "items": ["en.just", "en.carry_on"] },
+    { "speaker": "staff", "text": "OK. Here's your boarding pass. Have a good flight!", "zh": "好了。这是您的登机牌。旅途愉快!", "items": ["en.boarding_pass", "en.have", "en.flight"] },
+    { "speaker": "staff", "text": "Laptops in a bin, please. And remove your shoes and jacket.", "zh": "(安检口)电脑放进筐里。鞋和外套也脱下来。", "items": ["en.laptop", "en.bin", "en.remove", "en.shoes", "en.jacket"] },
+    { "speaker": "staff", "text": "Is that water in your bag?", "zh": "您包里那是水吗?", "items": ["en.water", "en.bag"] },
+    { "speaker": "lei", "text": "Oh no! Yes. I forgot!", "zh": "糟了!是的。我忘了!", "items": ["en.forget"] },
+    { "speaker": "staff", "text": "Sorry, you can't have water after security.", "zh": "抱歉,过了安检不能带水。", "items": ["en.sorry", "en.cant", "en.have", "en.water", "en.after", "en.security"] },
+    { "speaker": "staff", "text": "You can drink it here, or the trash is over there.", "zh": "您可以在这儿喝掉,不然垃圾桶在那边。", "items": ["en.can", "en.drink", "en.trash", "en.over_there"] },
+    { "speaker": "lei", "text": "I'm going to drink it!", "zh": "我喝掉!", "items": ["en.going_to", "en.drink"] },
+    { "speaker": "sofia", "text": "Lei! You drank it all!", "zh": "(索菲亚在旁边笑)磊!你全喝光了!", "items": ["en.drink"] },
+    { "speaker": "lei", "text": "Yes... and now I need a restroom!", "zh": "是啊……现在我得找洗手间了!", "items": ["en.need", "en.restroom"] }
+  ],
+  "questions": [
+    { "prompt": "工作人员问要不要托运,磊怎么说的?", "options": ["托运一件", "托运两件", "不托运,只有一个登机箱"], "answer": 2, "explainZh": "Are you checking any bags? —— No, just a carry-on." },
+    { "prompt": "安检时,磊的包有什么问题?", "options": ["包里有一瓶水", "包太大了", "电脑没拿出来"], "answer": 0, "explainZh": "Is that water in your bag? …… Sorry, you can't have water after security." },
+    { "prompt": "磊最后怎么处理那瓶水?", "options": ["扔进了垃圾桶", "一口气喝完了", "交给了索菲亚"], "answer": 1, "explainZh": "I'm going to drink it! —— Lei! You drank it all!" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.can_rules",
+      "titleZh": "can / can't 表示规定:You can't have water.",
+      "bodyZh": "第 7 单元学过 can / can't 表示“会不会”(I can't swim.)。can / can't 还常表示规定上“可以 / 不可以”:You can't have water after security.(过了安检不能带水。)You can drink it here.(你可以在这儿喝掉。)机场、车站的工作人员常用简短的指令:Laptops in a bin, please. / Remove your shoes.。值机说 check in,托运行李说 check a bag:Are you checking any bags? — No, just a carry-on.。发音:airport、boarding 里元音后的 r 美式要卷舌。",
+      "examples": [
+        { "text": "Sorry, you can't have water after security.", "zh": "抱歉,过了安检不能带水。" },
+        { "text": "You can drink it here.", "zh": "你可以在这儿喝掉。" },
+        { "text": "Are you checking any bags? — No, just a carry-on.", "zh": "要托运行李吗?——不用,就一个登机箱。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

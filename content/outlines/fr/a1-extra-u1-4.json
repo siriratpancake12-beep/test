@@ -1,0 +1,295 @@
+{
+  "lang": "fr",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-1 Bonjour !", "cefr": "A1", "themeZh": "问候和告别、tu 和 vous、介绍自己和朋友(名字、国籍、身份)、数字 1–10;第 2 课先体验在咖啡馆点一杯喝的。语法:主语人称代词、être、语调疑问句、国籍形容词的阴阳性" },
+    { "unit": "A1-2 在咖啡馆和面包店", "cefr": "A1", "themeZh": "面包店买早餐、数字 11–20 和价格、咖啡馆看菜单点餐和买单、说喜欢和不喜欢、法式早餐。语法:不定冠词 un/une、je voudrais / je prends、aimer + 定冠词、否定 ne…pas、部分冠词 du/de la 和否定后的 de" },
+    { "unit": "A1-3 家人与朋友", "cefr": "A1", "themeZh": "家庭成员、年龄、家人住在哪里和做什么工作、描述朋友的外貌和性格、在朋友家做客。语法:avoir、主有形容词 mon/ton/son…、-er 动词全部人称和复数主语、职业前不加冠词、形容词的性数配合、数字 30–60" },
+    { "unit": "A1-4 我的住处", "cefr": "A1", "themeZh": "宿舍房间和家具、东西放在哪儿、宿舍楼的楼层和设施、朋友家的公寓、地址和电话号码。语法:il y a / il n'y a pas de、复数不定冠词 des、地点介词、疑问句(où、est-ce que、quel)、形容词位置(beau、nouveau)、notre / votre、数字 0 和 70–100" }
+  ],
+  "lessons": [
+    {
+      "id": "fr.a1u1.r01", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-1 Bonjour !", "order": 101045,
+      "titleZh": "欢迎墙上的自我介绍(卡片)",
+      "goalZh": "读懂同学的自我介绍卡片,认识四个新国籍和它们的阴阳性",
+      "canDoZh": "能读懂几张简短的自我介绍卡片,说出每个人叫什么、是哪国人、来自哪个城市",
+      "scenarioZh": "体裁:卡片,8–10 句,旁白朗读。语言中心走廊的“欢迎墙”上贴着新同学手写的卡片:Bonjour ! Je suis Yuki, je suis japonaise, de Tokyo.……还有德国、意大利、巴西来的同学,最后一张是浩写的。卡片里的人只出现在文字里。在第 4 课之后读,只用第 1–4 课的词,几个新国籍(japonais、allemand、italien、brésilien)是本篇的新词。",
+      "grammarFocusZh": "复习 être 和 c'est;国籍形容词阴阳性的规律:+e 以后词尾辅音要读出来(japonais → japonaise,s 读 [z];allemand → allemande),-ien → -ienne;卡片里的问候和告别",
+      "skills": ["read", "write"], "estimatedMinutes": 17,
+      "newItems": [
+        { "id": "fr.japonais", "kind": "word", "pos": "adj", "text": "japonais", "zh": "日本的(阳性);日语", "features": { "ipa": "ʒa.pɔ.nɛ" }, "noteZh": "阴性 japonaise [ʒa.pɔ.nɛz]:加 e 以后,词尾的 s 要读出来,读 [z]。国籍形容词小写;le japonais 是“日语”。" },
+        { "id": "fr.allemand", "kind": "word", "pos": "adj", "text": "allemand", "zh": "德国的(阳性);德语", "features": { "ipa": "al.mɑ̃" }, "noteZh": "中间的 e 不发音:[al.mɑ̃];阳性词尾 d 不发音,阴性 allemande [al.mɑ̃d] 的 d 要读出来。" },
+        { "id": "fr.italien", "kind": "word", "pos": "adj", "text": "italien", "zh": "意大利的(阳性);意大利语", "features": { "ipa": "i.ta.ljɛ̃" }, "noteZh": "和 canadien 一样:阴性 italienne [i.ta.ljɛn],双写 n 再加 e,鼻化音 [ɛ̃] 变成 [ɛn]。" },
+        { "id": "fr.bresilien", "kind": "word", "pos": "adj", "text": "brésilien", "zh": "巴西的(阳性)", "features": { "ipa": "bʁe.zi.ljɛ̃" }, "noteZh": "两个元音之间的 s 读 [z];阴性 brésilienne [bʁe.zi.ljɛn]。é 上的重音符号不能漏。" }
+      ],
+      "reviewItems": ["fr.je_mappelle", "fr.je_suis", "fr.de", "fr.chinois", "fr.salut"]
+    },
+    {
+      "id": "fr.a1u1.l06", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-1 Bonjour !", "order": 101060,
+      "titleZh": "Comment ça s'écrit ?——字母和重音符号",
+      "goalZh": "会用法语字母拼出名字,说出四个常用符号的名称",
+      "canDoZh": "能用法语字母拼出自己的姓、名和家乡的名字,听懂别人拼写的名字并写下来",
+      "scenarioZh": "第一节法语课,莫罗老师点名,请每个学生拼出自己的姓和名。浩拼 Z-H-A-N-G 和 H-A-O;老师问 Chengdu 怎么拼,浩一个字母一个字母地说,老师写在黑板上。浩说他的语伴叫 Chloé,老师写出来,讲 é 上的 accent aigu。",
+      "grammarFocusZh": "字母表的读法,最容易混的是 E [ə] / I [i] / U [y] 和 G [ʒe] / J [ʒi];重音符号 accent aigu(é)、accent grave(è)、accent circonflexe(ê)和 cédille(ç)的名称,写名字时不能漏;Comment ça s'écrit ? / Ça s'écrit… 先当固定说法整句记",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+      "newItems": [
+        { "id": "fr.comment_ca_secrit", "kind": "phrase", "pos": "phrase", "text": "Comment ça s'écrit ?", "zh": "怎么写?怎么拼?", "features": { "ipa": "kɔ.mɑ̃ sa se.kʁi" }, "noteZh": "问名字、单词怎么拼时整句说,对谁都能用;s'écrit 的 t 不发音。" },
+        { "id": "fr.ca_secrit", "kind": "phrase", "pos": "phrase", "text": "Ça s'écrit…", "zh": "写作……;拼作……", "features": { "ipa": "sa se.kʁi" }, "noteZh": "回答怎么拼:Ça s'écrit Z-H-A-N-G.,后面一个字母一个字母地说。" },
+        { "id": "fr.lettre", "kind": "word", "pos": "noun", "text": "la lettre", "zh": "字母;信", "features": { "gender": "f", "ipa": "la lɛtʁ" }, "noteZh": "阴性;既是“字母”,也是“信(书信)”。词尾 tre 只读 [tʁ],后面不要加元音。" },
+        { "id": "fr.accent_aigu", "kind": "word", "pos": "noun", "text": "l'accent aigu", "zh": "闭音符(é 上的 ´)", "features": { "gender": "m", "ipa": "lak.sɑ̃.te.gy" }, "noteZh": "元音开头,要记住是阳性;只出现在 e 上,é 读闭口的 [e]:Chloé、étudiant。accent 和 aigu 常联诵:[ak.sɑ̃.te.gy]。" },
+        { "id": "fr.accent_grave", "kind": "word", "pos": "noun", "text": "l'accent grave", "zh": "开音符(è 上的 `)", "features": { "gender": "m", "ipa": "lak.sɑ̃ gʁav" }, "noteZh": "元音开头,要记住是阳性;è 读开口的 [ɛ]:très。à、où 上也有,但不改读音,只用来区分意思。" },
+        { "id": "fr.accent_circonflexe", "kind": "word", "pos": "noun", "text": "l'accent circonflexe", "zh": "长音符(ê 上的 ^)", "features": { "gender": "m", "ipa": "lak.sɑ̃ siʁ.kɔ̃.flɛks" }, "noteZh": "元音开头,要记住是阳性;像一顶小帽子,a、e、i、o、u 上都可能有;être 里的 ê 读开口的 [ɛ]。" },
+        { "id": "fr.cedille", "kind": "word", "pos": "noun", "text": "la cédille", "zh": "软音符(ç 下面的小尾巴)", "features": { "gender": "f", "ipa": "la se.dij" }, "noteZh": "阴性;c 加 cédille 写成 ç,在 a、o、u 前读 [s]:français、ça。-ille 读 [ij],不发 [l] 的音。" }
+      ],
+      "reviewItems": ["fr.monsieur", "fr.madame", "fr.je_suis", "fr.trois", "fr.tres", "fr.etre"]
+    },
+    {
+      "id": "fr.a1u1.l07", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-1 Bonjour !", "order": 101070,
+      "titleZh": "第一条短信——Coucou、À plus 和 Bisous",
+      "goalZh": "会给朋友发问候短信,看懂 Coucou、À plus、Bisous,分清对朋友和对老师的写法",
+      "canDoZh": "能给新认识的朋友发几句问候短信(我是谁、你好吗、谢谢),看懂朋友回复里的 Coucou、À plus、Bisous",
+      "scenarioZh": "晚上浩给克洛艾发第一条短信:Bonsoir Chloé ! C'est Hao.,问她好不好,谢谢她今天带他认路;克洛艾回 Coucou Hao ! Ça va très bien !,最后写 À plus ! Bisous !。浩看不懂 bisous,第二天早上在宿舍门口问卢卡,卢卡笑着解释朋友之间的贴面礼和短信里的 bisous。课文由两人的短信和浩、卢卡的一段对话组成。",
+      "grammarFocusZh": "短信里的口语:Coucou(朋友之间的“嗨”)、À plus(常写成 A+)、Bisous(朋友、家人之间);复习 tu 和 vous:给老师发消息不用 Coucou 和 Bisous;法语的问号、感叹号前空一格",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "fr.coucou", "kind": "word", "pos": "interj", "text": "Coucou", "zh": "嗨(很熟的朋友、家人之间)", "features": { "ipa": "ku.ku" }, "noteZh": "比 Salut 更亲热,常用在短信开头;只对好朋友、家人说,对老师、店员不说。ou 读 [u]。" },
+        { "id": "fr.a_plus", "kind": "phrase", "pos": "phrase", "text": "À plus !", "zh": "回头见;回头聊(朋友之间)", "features": { "ipa": "a plys" }, "noteZh": "这里 plus 的 s 要读出来:[plys];短信里常写成 A+。是 À plus tard 的简称,只对朋友说。" },
+        { "id": "fr.bisous", "kind": "word", "pos": "interj", "text": "Bisous", "zh": "亲亲(朋友、家人之间,常写在短信结尾)", "features": { "ipa": "bi.zu" }, "noteZh": "两个元音之间的 s 读 [z];来自贴面礼 la bise。朋友、家人之间常这样结尾,不只是恋人才用;对老师、长辈不用。" },
+        { "id": "fr.bise", "kind": "word", "pos": "noun", "text": "la bise", "zh": "贴面礼(脸颊轻碰的问候)", "features": { "gender": "f", "ipa": "la biz" }, "noteZh": "阴性;朋友、家人见面和告别时左右脸颊轻碰。贴几下各地不一样,里昂一般两下。s 读 [z]。" },
+        { "id": "fr.message", "kind": "word", "pos": "noun", "text": "le message", "zh": "消息;短信", "features": { "gender": "m", "ipa": "lə me.saʒ" }, "noteZh": "阳性(-age 结尾的名词多数是阳性);ss 读 [s],ge 读 [ʒ]。手机短信也常说 un SMS、un texto。" },
+        { "id": "fr.bonne_nuit", "kind": "phrase", "pos": "phrase", "text": "Bonne nuit !", "zh": "晚安", "features": { "ipa": "bɔn nɥi" }, "noteZh": "睡前或很晚告别时说;傍晚分开时说 Bonne soirée !。nuit 里的 ui 读 [ɥi]:嘴唇先撮圆,再滑到 [i]。" },
+        { "id": "fr.quest_ce_que_ca_veut_dire", "kind": "phrase", "pos": "phrase", "text": "Qu'est-ce que ça veut dire ?", "zh": "这是什么意思?", "features": { "ipa": "kɛs.kə sa vø diʁ" }, "noteZh": "听到、看到不懂的词就这样问,先整句记;对朋友、对老师都能用。veut 的 t 不发音。" },
+        { "id": "fr.ca_veut_dire", "kind": "phrase", "pos": "phrase", "text": "Ça veut dire…", "zh": "意思是……", "features": { "ipa": "sa vø diʁ" }, "noteZh": "解释意思时用:« Bisous », ça veut dire « la bise ».;dire 的 r 要发出来。" }
+      ],
+      "reviewItems": ["fr.bonsoir", "fr.ca_va", "fr.et_toi", "fr.salut", "fr.madame"]
+    },
+    {
+      "id": "fr.a1u1.r02", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-1 Bonjour !", "order": 101085,
+      "titleZh": "浩在里昂的第一天(日记)",
+      "goalZh": "读懂一篇用现在时写的短日记,复习本单元的问候、国籍、身份和数字",
+      "canDoZh": "能读懂一篇几句话的日记,说出浩第一天认识了谁、在哪儿喝了什么、住几号房",
+      "scenarioZh": "体裁:日记,8–10 句,旁白朗读。浩用刚学的法语写第一天:Bonsoir ! Je suis Hao. Je suis chinois, de Chengdu. Je suis étudiant.……他认识了法国女生克洛艾、住在隔壁的卢卡和加拿大女生艾米莉;在咖啡馆喝了一杯咖啡;宿舍是八号房。全篇用现在时和本单元的词(过去时第 8 单元才学,日期第 5 单元才学,所以不写日期)。",
+      "grammarFocusZh": "复习 être、c'est、国籍和数字 1–10;日记的写法:用现在时、短句;Je ne comprends pas 这类固定说法照原样用",
+      "skills": ["read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "fr.fatigue", "kind": "word", "pos": "adj", "text": "fatigué", "zh": "累的;疲倦的(阳性)", "features": { "ipa": "fa.ti.ge" }, "noteZh": "女生写 fatiguée,读音一样;gu 读 [g],u 不发音。说“我累了”要用 être:Je suis fatigué。" },
+        { "id": "fr.content", "kind": "word", "pos": "adj", "text": "content", "zh": "高兴的;满意的(阳性)", "features": { "ipa": "kɔ̃.tɑ̃" }, "noteZh": "阴性 contente [kɔ̃.tɑ̃t],t 要读出来;两个鼻化元音 [ɔ̃]、[ɑ̃] 里的 n 都不单独发音。" }
+      ],
+      "reviewItems": ["fr.etudiant", "fr.chambre", "fr.huit", "fr.je_ne_comprends_pas", "fr.bonne_nuit", "fr.canadien"]
+    },
+    {
+      "id": "fr.a1u2.r01", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-2 在咖啡馆和面包店", "order": 102045,
+      "titleZh": "卡里姆咖啡馆的黑板菜单(菜单)",
+      "goalZh": "看懂咖啡馆的黑板菜单和价格写法,会算两样东西一共多少钱",
+      "canDoZh": "能看懂咖啡馆的饮料和小吃菜单,找到价格,算出两样东西一共多少钱(20 欧以内)",
+      "scenarioZh": "体裁:菜单 + 一段说明,约 8 句,旁白朗读。咖啡馆门口的黑板上写着今天的饮料、三明治和可颂的价格;旁白介绍哪样最便宜、热巧克力多少钱、卡里姆推荐什么。读完回答“一杯茶和一个可颂一共多少钱”。在第 4 课之后读,只用第 1–4 课的词:部分冠词第 5 课才学,菜单里不出现 du / de la。",
+      "grammarFocusZh": "复习 un / une、avec / sans、ou、aimer;菜单上的价格写法 1,20 €:法语用逗号作小数点,读 un euro vingt",
+      "skills": ["read", "write"], "estimatedMinutes": 16.5,
+      "newItems": [
+        { "id": "fr.boisson", "kind": "word", "pos": "noun", "text": "la boisson", "zh": "饮料", "features": { "gender": "f", "ipa": "la bwa.sɔ̃" }, "noteZh": "阴性;ss 读 [s]。菜单上饮料常单列一栏:Les boissons。b 和 p 要分清,别说成 poisson(鱼)。" },
+        { "id": "fr.prix", "kind": "word", "pos": "noun", "text": "le prix", "zh": "价格", "features": { "gender": "m", "ipa": "lə pʁi" }, "noteZh": "阳性;x 不发音,单复数同形:les prix。问价格还是用 C'est combien ?" },
+        { "id": "fr.croque_monsieur", "kind": "word", "pos": "noun", "text": "le croque-monsieur", "zh": "火腿奶酪热三明治", "features": { "gender": "m", "ipa": "lə kʁɔk.mə.sjø" }, "noteZh": "法国咖啡馆的经典小吃:两片面包夹火腿和奶酪,烤热了吃。monsieur 读 [mə.sjø],r 不发音。" },
+        { "id": "fr.seulement", "kind": "word", "pos": "adv", "text": "seulement", "zh": "只;仅仅", "features": { "ipa": "sœl.mɑ̃" }, "noteZh": "中间的 e 不发音:[sœl.mɑ̃];说便宜:un euro seulement(只要一欧)。" }
+      ],
+      "reviewItems": ["fr.chocolat_chaud", "fr.croissant", "fr.euro", "fr.adorer", "fr.vingt", "fr.cest_combien"]
+    },
+    {
+      "id": "fr.a1u2.l06", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-2 在咖啡馆和面包店", "order": 102060,
+      "titleZh": "学生食堂——前菜、主菜和甜点",
+      "goalZh": "会在学生食堂选前菜、主菜和甜点,用 préférer 说更喜欢什么",
+      "canDoZh": "能在学生食堂选前菜、主菜和甜点,说出常见的肉、鱼和主食,并说自己更喜欢什么",
+      "scenarioZh": "中午,卢卡第一次带浩去学生食堂(le resto U)。卢卡解释法国的一餐分 entrée、plat、dessert——entrée 是前菜,不是主菜;浩拿了胡萝卜沙拉、鸡肉配米饭和一个酸奶,卢卡拿了两份薯条和一大块面包;卢卡问浩喜欢鱼还是肉,浩说他更喜欢鱼。",
+      "grammarFocusZh": "préférer 的变位:je préfère, tu préfères, il préfère, vous préférez(é 变成 è,读音也从 [e] 变成 [ɛ];nous 形式第 3 单元学);复习部分冠词和 pas de(Je ne mange pas de viande);法国一餐的顺序",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 28,
+      "newItems": [
+        { "id": "fr.preferer", "kind": "word", "pos": "verb", "text": "préférer", "zh": "更喜欢;宁愿", "features": { "ipa": "pʁe.fe.ʁe" }, "noteZh": "je préfère, tu préfères, il préfère 里第二个 é 变成 è,读开口的 [ɛ];vous préférez 不变。后面接定冠词:Je préfère le poisson。" },
+        { "id": "fr.entree", "kind": "word", "pos": "noun", "text": "l'entrée", "zh": "前菜(第一道菜);入口", "features": { "gender": "f", "ipa": "lɑ̃.tʁe" }, "noteZh": "元音开头,要记住是阴性;法餐的 entrée 是前菜,不是主菜(美式英语的 entree 才指主菜)。门上写的 Entrée 是“入口”。" },
+        { "id": "fr.plat", "kind": "word", "pos": "noun", "text": "le plat", "zh": "主菜;一道菜", "features": { "gender": "m", "ipa": "lə pla" }, "noteZh": "阳性;t 不发音。菜单上的 plat 就是主菜(也说 le plat principal)。" },
+        { "id": "fr.dessert", "kind": "word", "pos": "noun", "text": "le dessert", "zh": "甜点", "features": { "gender": "m", "ipa": "lə de.sɛʁ" }, "noteZh": "阳性;ss 读 [s],词尾 t 不发音。法国人吃完主菜,常在奶酪和甜点里选一样。" },
+        { "id": "fr.viande", "kind": "word", "pos": "noun", "text": "la viande", "zh": "肉", "features": { "gender": "f", "ipa": "la vjɑ̃d" }, "noteZh": "阴性;词尾 de 读 [d]。吃肉:manger de la viande;不吃肉:Je ne mange pas de viande。" },
+        { "id": "fr.poisson", "kind": "word", "pos": "noun", "text": "le poisson", "zh": "鱼;鱼肉", "features": { "gender": "m", "ipa": "lə pwa.sɔ̃" }, "noteZh": "阳性;ss 读 [s]。别读成 poison [pwa.zɔ̃](毒药):元音之间只有一个 s 时读 [z]。" },
+        { "id": "fr.poulet", "kind": "word", "pos": "noun", "text": "le poulet", "zh": "鸡肉;鸡", "features": { "gender": "m", "ipa": "lə pu.lɛ" }, "noteZh": "阳性;ou 读 [u],词尾 t 不发音。" },
+        { "id": "fr.riz", "kind": "word", "pos": "noun", "text": "le riz", "zh": "米饭;大米", "features": { "gender": "m", "ipa": "lə ʁi" }, "noteZh": "阳性;z 不发音,只读 [ʁi]。吃米饭:manger du riz。" },
+        { "id": "fr.salade", "kind": "word", "pos": "noun", "text": "la salade", "zh": "沙拉;生菜", "features": { "gender": "f", "ipa": "la sa.lad" }, "noteZh": "阴性;既指沙拉,也指生菜;法餐里沙拉常当前菜。" },
+        { "id": "fr.frites", "kind": "word", "pos": "noun", "text": "les frites", "zh": "薯条", "features": { "gender": "f", "ipa": "le fʁit" }, "noteZh": "平时用复数(阴性);s 不发音。鸡肉配薯条常说 poulet-frites。" }
+      ],
+      "reviewItems": ["fr.je_prends", "fr.de_la", "fr.du", "fr.pain", "fr.fromage", "fr.aimer"]
+    },
+    {
+      "id": "fr.a1u2.l07", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-2 在咖啡馆和面包店", "order": 102070,
+      "titleZh": "帮卢卡买早餐——s'il te plaît",
+      "goalZh": "会替朋友买东西并和朋友算钱,分清 s'il te plaît 和 s'il vous plaît",
+      "canDoZh": "能看懂朋友托你买东西的短信,在面包店替两个人点单、付钱,回去和朋友算钱",
+      "scenarioZh": "星期六早上卢卡还没起床,给正在面包店排队的浩发短信:请他带一个可颂和一根长棍面包,s'il te plaît;浩回短信问他要不要巧克力面包。到了柜台,浩用 Je voudrais… 点两个人的早餐,店员报价(20 欧以内),浩付钱。回到宿舍,卢卡说 Merci ! C'est combien ?,把钱还给浩。",
+      "grammarFocusZh": "s'il te plaît(对朋友)和 s'il vous plaît(对店员、老师)的区别;复习 un / une、Je voudrais、C'est combien ? / Ça fait…;短信里常省掉动词的短句(Un croissant, s'il te plaît !)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+      "newItems": [
+        { "id": "fr.sil_te_plait", "kind": "phrase", "pos": "phrase", "text": "s'il te plaît", "zh": "请;拜托(对朋友、家人)", "features": { "ipa": "sil tə plɛ" }, "noteZh": "对用 tu 的人说;对老师、店员和陌生人说 s'il vous plaît。短信里常缩写成 stp。" },
+        { "id": "fr.encore", "kind": "word", "pos": "adv", "text": "encore", "zh": "还;又;再", "features": { "ipa": "ɑ̃.kɔʁ" }, "noteZh": "Je suis encore fatigué.(我还困着呢。)Encore un croissant ?(再来一个可颂?)en 读鼻化的 [ɑ̃]。" },
+        { "id": "fr.tiens", "kind": "word", "pos": "interj", "text": "Tiens !", "zh": "给你;拿着(对朋友)", "features": { "ipa": "tjɛ̃" }, "noteZh": "把东西递给朋友时说;对店员、长辈说 Voilà 或 Tenez。词尾 s 不发音。" },
+        { "id": "fr.genial", "kind": "word", "pos": "adj", "text": "génial", "zh": "太棒了;特别好的", "features": { "ipa": "ʒe.njal" }, "noteZh": "年轻人很常用的感叹:Génial !;g 在 e 前读 [ʒ],ni 读 [nj]。复数是 géniaux(-al → -aux)。" },
+        { "id": "fr.de_rien", "kind": "phrase", "pos": "phrase", "text": "De rien !", "zh": "不客气", "features": { "ipa": "də ʁjɛ̃" }, "noteZh": "回答 Merci 最常用的说法,对谁都可以;rien 读 [ʁjɛ̃],是鼻化元音。" },
+        { "id": "fr.centime", "kind": "word", "pos": "noun", "text": "le centime", "zh": "分(欧分,1 欧 = 100 分)", "features": { "gender": "m", "ipa": "lə sɑ̃.tim" }, "noteZh": "阳性;cen 读 [sɑ̃]。说价格时常省掉:deux euros vingt = 2 欧 20 分。" }
+      ],
+      "reviewItems": ["fr.je_voudrais", "fr.cest_combien", "fr.ca_fait", "fr.sil_vous_plait", "fr.fatigue", "fr.coucou"]
+    },
+    {
+      "id": "fr.a1u2.r02", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-2 在咖啡馆和面包店", "order": 102085,
+      "titleZh": "法国早餐和中国早餐(博客)",
+      "goalZh": "读懂一篇比较中法早餐的短博客,复习部分冠词和说喜好的句子",
+      "canDoZh": "能读懂一篇比较早餐习惯的短文,说出法国人和中国人早餐常吃什么、喝什么",
+      "scenarioZh": "体裁:博客短文,约 10 句,旁白朗读。浩在语伴网站上写了第一篇法语博客:在法国,早上吃面包、黄油和果酱,喝咖啡或热巧克力;在成都,他早上吃面条和包子(两个新词),喝牛奶;现在他两种早餐都喜欢,但还是不喝咖啡。克洛艾在下面留言:J'adore les baozi !。第三人称复数第 3 单元才学,文章用 je、vous 和“在法国:……”这样的短句。",
+      "grammarFocusZh": "复习部分冠词 du / de la / de l' 和否定后的 de、aimer / adorer + 定冠词;用 mais、aussi、et 连接句子",
+      "skills": ["read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "fr.nouilles", "kind": "word", "pos": "noun", "text": "les nouilles", "zh": "面条", "features": { "gender": "f", "ipa": "le nuj" }, "noteZh": "平时用复数(阴性);ou 读 [u],-ille 读 [j]:[nuj]。" },
+        { "id": "fr.baozi", "kind": "word", "pos": "noun", "text": "le baozi", "zh": "包子", "features": { "gender": "m", "ipa": "lə ba.o.zi" }, "noteZh": "来自中文的外来词,法语里常说复数 les baozi。向法国朋友解释:un pain chinois avec de la viande(中国的肉馅面食)。" }
+      ],
+      "reviewItems": ["fr.petit_dejeuner", "fr.beurre", "fr.confiture", "fr.boire", "fr.pas_de", "fr.preferer"]
+    },
+    {
+      "id": "fr.a1u3.r01", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-3 家人与朋友", "order": 103045,
+      "titleZh": "浩的大家庭(家谱)",
+      "goalZh": "读懂一段介绍大家庭的文字,认识 oncle、tante、cousin、cousine",
+      "canDoZh": "能读懂一段介绍大家庭的文字,说出每个亲戚是谁、几岁、住在哪儿、做什么工作",
+      "scenarioZh": "体裁:家谱图 + 说明文字,约 10 句,旁白朗读。浩给语伴网站做了一张家谱:爷爷奶奶退休了,住在成都;爸爸 50 岁,是工程师;妈妈 48 岁,是医生;他还有一个舅舅(老师)、一个姨妈和一个上高中的表弟(第 5 课录语音给他的那个表弟)。旁白顺便说明:法语的 oncle、tante、cousin 不分父系母系,中文分得很细。在第 4 课之后读,son / sa / ses 第 5 课才学,不要用。",
+      "grammarFocusZh": "复习 avoir … ans、-er 动词(habiter, travailler)、职业不加冠词;新词 l'oncle、la tante、le cousin、la cousine 的阴阳性",
+      "skills": ["read", "write"], "estimatedMinutes": 17,
+      "newItems": [
+        { "id": "fr.oncle", "kind": "word", "pos": "noun", "text": "l'oncle", "zh": "叔叔;伯伯;舅舅(父母的兄弟)", "features": { "gender": "m", "ipa": "lɔ̃kl" }, "noteZh": "元音开头,要记住是阳性;中文分叔叔、伯伯、舅舅、姑父、姨父,法语都叫 oncle。mon oncle 要联诵:[mɔ̃.nɔ̃kl]。" },
+        { "id": "fr.tante", "kind": "word", "pos": "noun", "text": "la tante", "zh": "姑姑;姨妈;婶婶;舅妈", "features": { "gender": "f", "ipa": "la tɑ̃t" }, "noteZh": "阴性;父母的姐妹、叔叔舅舅的妻子都叫 tante;词尾 te 读 [t]。" },
+        { "id": "fr.cousin", "kind": "word", "pos": "noun", "text": "le cousin", "zh": "堂兄弟;表兄弟", "features": { "gender": "m", "ipa": "lə ku.zɛ̃" }, "noteZh": "法语不分堂、表,也不分比自己大还是小;两个元音之间的 s 读 [z]。" },
+        { "id": "fr.cousine", "kind": "word", "pos": "noun", "text": "la cousine", "zh": "堂姐妹;表姐妹", "features": { "gender": "f", "ipa": "la ku.zin" }, "noteZh": "cousin 的阴性:加 e 以后鼻化音消失,读 [ku.zin],n 要读出来。" }
+      ],
+      "reviewItems": ["fr.grand_pere", "fr.grand_mere", "fr.a_la_retraite", "fr.ingenieur", "fr.medecin", "fr.habiter"]
+    },
+    {
+      "id": "fr.a1u3.l06", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-3 家人与朋友", "order": 103060,
+      "titleZh": "克洛艾家的猫——宠物",
+      "goalZh": "会说常见的宠物,用几个形容词描述它们,认识 -al → -aux、-eau → -eaux 的复数",
+      "canDoZh": "能说自己或朋友家养什么宠物,用几个形容词描述它们",
+      "scenarioZh": "课后在咖啡馆,克洛艾给浩和卢卡看手机里的照片:她家有一只叫 Caramel 的大猫,妹妹还养了两条鱼;卢卡说他特别喜欢狗,可是宿舍里不能养;浩说在成都很多人养狗,他自己没有宠物,但爷爷奶奶有一只小狗。",
+      "grammarFocusZh": "名词复数的特殊形式:-al → -aux(un animal → des animaux)、-eau → -eaux(un oiseau → des oiseaux,x 不发音);复习 avoir + un / une 和否定 pas de(Je n'ai pas d'animal);形容词配合(il est petit / elle est petite)",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
+      "newItems": [
+        { "id": "fr.animal", "kind": "word", "pos": "noun", "text": "l'animal", "zh": "动物;宠物", "features": { "gender": "m", "ipa": "la.ni.mal" }, "noteZh": "元音开头,要记住是阳性;复数 animaux [a.ni.mo](-al → -aux)。问“你养宠物吗”可以说 Tu as un animal ?" },
+        { "id": "fr.chat", "kind": "word", "pos": "noun", "text": "le chat", "zh": "猫", "features": { "gender": "m", "ipa": "lə ʃa" }, "noteZh": "阳性;ch 读 [ʃ],词尾 t 不发音。" },
+        { "id": "fr.chien", "kind": "word", "pos": "noun", "text": "le chien", "zh": "狗", "features": { "gender": "m", "ipa": "lə ʃjɛ̃" }, "noteZh": "阳性;ch 读 [ʃ],ien 读 [jɛ̃],n 不单独发音。" },
+        { "id": "fr.oiseau", "kind": "word", "pos": "noun", "text": "l'oiseau", "zh": "鸟", "features": { "gender": "m", "ipa": "lwa.zo" }, "noteZh": "元音开头,要记住是阳性;复数加 x:oiseaux,x 不发音。oi 读 [wa],s 读 [z],eau 读 [o]。" },
+        { "id": "fr.gros", "kind": "word", "pos": "adj", "text": "gros", "zh": "胖的;大的(阳性)", "features": { "ipa": "gʁo" }, "noteZh": "阴性 grosse [gʁos];阳性的 s 不发音。说动物胖、大常用 gros,当面说人胖不礼貌。" },
+        { "id": "fr.mignon", "kind": "word", "pos": "adj", "text": "mignon", "zh": "可爱的(阳性)", "features": { "ipa": "mi.ɲɔ̃" }, "noteZh": "gn 读 [ɲ],像汉语“尼”的声母;阴性 mignonne [mi.ɲɔn],鼻化音消失。" },
+        { "id": "fr.couleur", "kind": "word", "pos": "noun", "text": "la couleur", "zh": "颜色", "features": { "gender": "f", "ipa": "la ku.lœʁ" }, "noteZh": "阴性(英语 colour 长得像,但别按英语读);ou 读 [u],eu 读 [œ]。各种颜色第 7 单元学。" }
+      ],
+      "reviewItems": ["fr.poisson", "fr.soeur", "fr.sa", "fr.grand_pere", "fr.grand_mere", "fr.adorer"]
+    },
+    {
+      "id": "fr.a1u3.l07", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-3 家人与朋友", "order": 103070,
+      "titleZh": "去做客带什么?——礼物和礼节",
+      "goalZh": "会问去朋友家做客带什么,说出常见的小礼物,在门口礼貌地送出礼物",
+      "canDoZh": "能问朋友去别人家做客该带什么,说出常见的小礼物,并在门口礼貌地送出礼物",
+      "scenarioZh": "克洛艾邀请浩星期天去她家吃午饭(下一课)。浩在公共厨房问卢卡要带什么:卢卡说可以带花或巧克力,千万别送菊花(在法国是扫墓用的),也不用太贵;浩决定带一盒从成都带来的茶。最后卢卡扮演伊莎贝尔,浩练习在门口问好、送茶。",
+      "grammarFocusZh": "复习 -er 动词(apporter, aimer)和 un / une;复数不定冠词 des 第 4 单元才学,这里用 les fleurs、le chocolat 泛指;文化:法国做客的礼仪(带花或巧克力、不送菊花、可以晚到十分钟,但不要早到)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "fr.apporter", "kind": "word", "pos": "verb", "text": "apporter", "zh": "带来;带去(东西)", "features": { "ipa": "a.pɔʁ.te" }, "noteZh": "规则的 -er 动词:j'apporte, tu apportes, vous apportez;元音开头,je 要省音成 j'。" },
+        { "id": "fr.fleur", "kind": "word", "pos": "noun", "text": "la fleur", "zh": "花", "features": { "gender": "f", "ipa": "la flœʁ" }, "noteZh": "阴性;eu 读 [œ],嘴张开一点。泛指“花”用复数 les fleurs。" },
+        { "id": "fr.chocolat", "kind": "word", "pos": "noun", "text": "le chocolat", "zh": "巧克力", "features": { "gender": "m", "ipa": "lə ʃɔ.kɔ.la" }, "noteZh": "阳性;词尾 t 不发音。第 2 单元的 le pain au chocolat、le chocolat chaud 里都有这个词。" },
+        { "id": "fr.chrysantheme", "kind": "word", "pos": "noun", "text": "le chrysanthème", "zh": "菊花", "features": { "gender": "m", "ipa": "lə kʁi.zɑ̃.tɛm" }, "noteZh": "阳性;ch 读 [k],th 读 [t],s 读 [z]。在法国,菊花是 11 月 1 日扫墓时放在墓前的花,做客不送。" },
+        { "id": "fr.ah_bon", "kind": "phrase", "pos": "phrase", "text": "Ah bon ?", "zh": "是吗?真的吗?", "features": { "ipa": "a bɔ̃" }, "noteZh": "听到意外的消息时说,句末升调;bon 读鼻化的 [ɔ̃],n 不单独发音。" },
+        { "id": "fr.parfait", "kind": "word", "pos": "adj", "text": "parfait", "zh": "完美的;好极了", "features": { "ipa": "paʁ.fɛ" }, "noteZh": "单独说就是“太好了!”:Parfait !;阴性 parfaite [paʁ.fɛt]。" },
+        { "id": "fr.bienvenue", "kind": "word", "pos": "interj", "text": "Bienvenue !", "zh": "欢迎!", "features": { "ipa": "bjɛ̃v.ny" }, "noteZh": "欢迎客人进门时说;中间的 e 不发音:[bjɛ̃v.ny],最后的 u 读 [y]。" },
+        { "id": "fr.triste", "kind": "word", "pos": "adj", "text": "triste", "zh": "难过的;让人伤心的", "features": { "ipa": "tʁist" }, "noteZh": "阴阳性同形;词尾 st 都要读出来:[tʁist]。Je suis triste.(我很难过。)" }
+      ],
+      "reviewItems": ["fr.quest_ce_que", "fr.ses", "fr.mere", "fr.the", "fr.du", "fr.gentil"]
+    },
+    {
+      "id": "fr.a1u3.r02", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-3 家人与朋友", "order": 103085,
+      "titleZh": "克洛艾的语伴档案(个人主页)",
+      "goalZh": "读懂语伴网站上的个人主页,并能照着写自己的主页",
+      "canDoZh": "能读懂语伴网站上的个人主页(年龄、家人、职业、爱好),并照着写自己的主页",
+      "scenarioZh": "体裁:网站个人主页,约 10 句,旁白朗读。克洛艾给浩看她在语伴网站上的主页:她 20 岁,住在里昂,学中文;她有一个 23 岁的哥哥和一个 15 岁的妹妹,妈妈是小学老师,爸爸很幽默;家里有一只猫 Caramel;她想找一个说中文的语伴。读完回答问题,再照着写浩自己的主页。",
+      "grammarFocusZh": "复习 avoir 和年龄、mon / ma / mes 和 son / sa / ses、职业不加冠词、形容词配合;个人主页常用的短句写法",
+      "skills": ["read", "write"], "estimatedMinutes": 15.5,
+      "newItems": [
+        { "id": "fr.chercher", "kind": "word", "pos": "verb", "text": "chercher", "zh": "找;寻找", "features": { "ipa": "ʃɛʁ.ʃe" }, "noteZh": "规则的 -er 动词;后面直接接要找的东西,不加介词:Je cherche un ami.(英语要说 look for)" },
+        { "id": "fr.blague", "kind": "word", "pos": "noun", "text": "la blague", "zh": "笑话;玩笑", "features": { "gender": "f", "ipa": "la blag" }, "noteZh": "阴性;gue 读 [g],u 不发音。爱开玩笑可以说 adorer les blagues。" },
+        { "id": "fr.langue", "kind": "word", "pos": "noun", "text": "la langue", "zh": "语言;舌头", "features": { "gender": "f", "ipa": "la lɑ̃g" }, "noteZh": "阴性;gue 读 [g]。说某种语言不加冠词(parler chinois),但说“语言”这个名词要带冠词:J'adore les langues。" }
+      ],
+      "reviewItems": ["fr.frere", "fr.soeur", "fr.professeur", "fr.chat", "fr.gros", "fr.ami"]
+    },
+    {
+      "id": "fr.a1u4.r01", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-4 我的住处", "order": 104045,
+      "titleZh": "宿舍门厅的入住须知(通知)",
+      "goalZh": "看懂宿舍的入住须知:设施在哪儿、房间里有什么、有哪些规定",
+      "canDoZh": "能看懂宿舍门厅贴的通知:厨房、浴室在几楼,房间里有什么,有什么规定",
+      "scenarioZh": "体裁:通知,8–10 句,旁白朗读。宿舍管理员写的《欢迎入住》:公共厨房在地面层,每层有浴室和厕所,在电梯对面;房间里有床、书桌和衣柜;房间里不能做饭(Pas de cuisine dans la chambre);垃圾桶在厨房门后面。在第 4 课之后读,只用第 1–4 课的词;钟点第 5 单元才学,通知里不写时间。",
+      "grammarFocusZh": "复习 il y a / il n'y a pas de、地点介词、楼层的说法;通知的写法:标题 + 短句;禁止的意思先用 pas de + 名词表达",
+      "skills": ["read", "write"], "estimatedMinutes": 16.5,
+      "newItems": [
+        { "id": "fr.residence", "kind": "word", "pos": "noun", "text": "la résidence", "zh": "(学生)宿舍楼;住宅楼", "features": { "gender": "f", "ipa": "la ʁe.zi.dɑ̃s" }, "noteZh": "阴性;学生宿舍全称 la résidence universitaire,平时说 la résidence。两个元音之间的 s 读 [z]。" },
+        { "id": "fr.porte", "kind": "word", "pos": "noun", "text": "la porte", "zh": "门", "features": { "gender": "f", "ipa": "la pɔʁt" }, "noteZh": "阴性;词尾 te 读 [t]。在门后面:derrière la porte。" },
+        { "id": "fr.poubelle", "kind": "word", "pos": "noun", "text": "la poubelle", "zh": "垃圾桶", "features": { "gender": "f", "ipa": "la pu.bɛl" }, "noteZh": "阴性;ou 读 [u],-elle 读 [ɛl]。" },
+        { "id": "fr.gardien", "kind": "word", "pos": "noun", "text": "le gardien", "zh": "(楼、宿舍的)管理员;看门人", "features": { "gender": "m", "ipa": "lə gaʁ.djɛ̃" }, "noteZh": "阳性;女管理员是 la gardienne [gaʁ.djɛn]。当面不叫 gardien,叫 Monsieur 或 Madame。" }
+      ],
+      "reviewItems": ["fr.cuisine", "fr.rez_de_chaussee", "fr.ascenseur", "fr.en_face_de", "fr.il_y_a", "fr.chambre"]
+    },
+    {
+      "id": "fr.a1u4.l06", "lang": "fr", "type": "dialogue", "cefr": "A1", "unit": "A1-4 我的住处", "order": 104060,
+      "titleZh": "台灯不亮了——找管理员报修",
+      "goalZh": "会向宿舍管理员报修:说清房间号、楼层和什么东西坏了",
+      "canDoZh": "能向宿舍管理员说房间里什么东西坏了、不能用,并说清房间号和楼层",
+      "scenarioZh": "晚上浩房间的台灯不亮了,暖气也不热。他到前台找宿舍管理员:Bonsoir, monsieur. Il y a un problème dans la chambre 8.;管理员问在几楼、什么东西坏了,一样一样记下来,和浩一起上楼看;原来台灯只是没插好,暖气要等工人来修。浩不好意思地笑了。",
+      "grammarFocusZh": "Ça ne marche pas. / Le chauffage ne marche pas.(复习 ne…pas);Il y a un problème;复习 premier étage 和房间号;对管理员用 vous",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+      "newItems": [
+        { "id": "fr.probleme", "kind": "word", "pos": "noun", "text": "le problème", "zh": "问题;毛病", "features": { "gender": "m", "ipa": "lə pʁɔ.blɛm" }, "noteZh": "以 -e 结尾,却是阳性:un problème;è 读开口的 [ɛ]。报修开口第一句:Il y a un problème.(这里指“麻烦、毛病”;提问的“问题”是 la question)" },
+        { "id": "fr.marcher", "kind": "word", "pos": "verb", "text": "marcher", "zh": "(机器、东西)好使;运转;走路", "features": { "ipa": "maʁ.ʃe" }, "noteZh": "本义是“走路”,口语里也指东西能用:La lampe marche.;坏了:… ne marche pas。" },
+        { "id": "fr.ca_ne_marche_pas", "kind": "phrase", "pos": "phrase", "text": "Ça ne marche pas.", "zh": "坏了;不好使", "features": { "ipa": "sa nə maʁʃ pa" }, "noteZh": "东西坏了、不能用时整句说;口语里 ne 常省掉:Ça marche pas。" },
+        { "id": "fr.chauffage", "kind": "word", "pos": "noun", "text": "le chauffage", "zh": "暖气;供暖", "features": { "gender": "m", "ipa": "lə ʃo.faʒ" }, "noteZh": "阳性(-age 结尾);au 读 [o],ff 读 [f],ge 读 [ʒ]。" },
+        { "id": "fr.brancher", "kind": "word", "pos": "verb", "text": "brancher", "zh": "插上(电源);接通", "features": { "ipa": "bʁɑ̃.ʃe" }, "noteZh": "规则的 -er 动词;没插电:La lampe n'est pas branchée.(branchée 跟着阴性的 lampe 加 e)" },
+        { "id": "fr.reparer", "kind": "word", "pos": "verb", "text": "réparer", "zh": "修理;修好", "features": { "ipa": "ʁe.pa.ʁe" }, "noteZh": "规则的 -er 动词;两个 r 都是小舌音,舌尖抵住下齿。" },
+        { "id": "fr.telephoner", "kind": "word", "pos": "verb", "text": "téléphoner", "zh": "打电话", "features": { "ipa": "te.le.fɔ.ne" }, "noteZh": "téléphoner à + 人:Je téléphone au technicien(au = à + le);ph 读 [f]。" },
+        { "id": "fr.technicien", "kind": "word", "pos": "noun", "text": "le technicien", "zh": "技术员;维修工", "features": { "gender": "m", "ipa": "lə tɛk.ni.sjɛ̃" }, "noteZh": "阳性;ch 读 [k],-cien 读 [sjɛ̃];女技术员是 la technicienne。" }
+      ],
+      "reviewItems": ["fr.il_y_a", "fr.premier", "fr.etage", "fr.lampe", "fr.ne_pas", "fr.chambre"]
+    },
+    {
+      "id": "fr.a1u4.l07", "lang": "fr", "type": "vocab", "cefr": "A1", "unit": "A1-4 我的住处", "order": 104070,
+      "titleZh": "公共厨房里有什么?——厨房用品",
+      "goalZh": "连冠词记住常用的厨房用品,会问、会说东西放在哪儿",
+      "canDoZh": "能说出厨房里常用的东西(锅、盘子、杯子、刀叉),问朋友某样东西在哪儿",
+      "scenarioZh": "周末,浩和卢卡第一次在地面层的公共厨房一起做饭。卢卡找不到平底锅,浩说在冰箱旁边的柜子里;盘子和杯子在桌子上,刀叉在抽屉里;浩带来了自己的电饭锅,卢卡第一次见,觉得很神奇。",
+      "grammarFocusZh": "厨房用品的阴阳性(la poêle, l'assiette f., le verre, la fourchette, le couteau, la cuillère, le frigo);复习 Où est… ? / Où sont… ? 和地点介词 dans / sur / à côté de",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 28,
+      "newItems": [
+        { "id": "fr.poele", "kind": "word", "pos": "noun", "text": "la poêle", "zh": "平底锅", "features": { "gender": "f", "ipa": "la pwal" }, "noteZh": "阴性;拼写特别,读 [pwal],和 oi 开头的音一样;ê 上的 ^ 不能漏。" },
+        { "id": "fr.placard", "kind": "word", "pos": "noun", "text": "le placard", "zh": "壁橱;柜子", "features": { "gender": "m", "ipa": "lə pla.kaʁ" }, "noteZh": "阳性;词尾 d 不发音。厨房墙上、水池下面的柜子都叫 placard。" },
+        { "id": "fr.frigo", "kind": "word", "pos": "noun", "text": "le frigo", "zh": "冰箱", "features": { "gender": "m", "ipa": "lə fʁi.go" }, "noteZh": "阳性;口语说法,完整的词是 le réfrigérateur。" },
+        { "id": "fr.assiette", "kind": "word", "pos": "noun", "text": "l'assiette", "zh": "盘子", "features": { "gender": "f", "ipa": "la.sjɛt" }, "noteZh": "元音开头,要记住是阴性;-ette 结尾的名词多数是阴性(la fourchette 也是)。" },
+        { "id": "fr.verre", "kind": "word", "pos": "noun", "text": "le verre", "zh": "玻璃杯;一杯", "features": { "gender": "m", "ipa": "lə vɛʁ" }, "noteZh": "阳性;词尾 e 不发音。un verre d'eau = 一杯水;喝咖啡、茶的杯子另有名字(la tasse)。" },
+        { "id": "fr.fourchette", "kind": "word", "pos": "noun", "text": "la fourchette", "zh": "叉子", "features": { "gender": "f", "ipa": "la fuʁ.ʃɛt" }, "noteZh": "阴性(-ette);ou 读 [u],ch 读 [ʃ]。" },
+        { "id": "fr.couteau", "kind": "word", "pos": "noun", "text": "le couteau", "zh": "刀", "features": { "gender": "m", "ipa": "lə ku.to" }, "noteZh": "阳性;复数加 x:couteaux,x 不发音(和 oiseau → oiseaux 一样)。" },
+        { "id": "fr.tiroir", "kind": "word", "pos": "noun", "text": "le tiroir", "zh": "抽屉", "features": { "gender": "m", "ipa": "lə ti.ʁwaʁ" }, "noteZh": "阳性;oir 读 [waʁ],r 是小舌音。" },
+        { "id": "fr.cuillere", "kind": "word", "pos": "noun", "text": "la cuillère", "zh": "勺子", "alt": ["la cuiller"], "features": { "gender": "f", "ipa": "la kɥi.jɛʁ" }, "noteZh": "阴性;cui 读 [kɥi],ill 读 [j];也可以写 cuiller,读音一样。" },
+        { "id": "fr.cuiseur_a_riz", "kind": "word", "pos": "noun", "text": "le cuiseur à riz", "zh": "电饭锅", "features": { "gender": "m", "ipa": "lə kɥi.zœʁ a ʁi" }, "noteZh": "阳性;cuiseur 是“煮东西的锅”,à riz 是“煮米饭用的”;法国人家里不一定有。" }
+      ],
+      "reviewItems": ["fr.ou_lieu", "fr.dans", "fr.sur", "fr.a_cote_de", "fr.riz", "fr.marcher"]
+    },
+    {
+      "id": "fr.a1u4.r02", "lang": "fr", "type": "reading", "cefr": "A1", "unit": "A1-4 我的住处", "order": 104085,
+      "titleZh": "三则合租广告(广告)",
+      "goalZh": "看懂简单的租房广告,比较几套房子,说出哪一则最适合自己",
+      "canDoZh": "能看懂简单的租房广告(几个房间、在几楼、有什么家具、房租多少),说出哪一则最适合自己",
+      "scenarioZh": "体裁:租房广告,3 则共约 10 句,旁白朗读。克洛艾给浩看网上的三则合租广告(colocation):一套在红十字区四楼、没有电梯的大公寓;一套在地面层、带花园的小房子;一套新公寓,有家具,但房间很小。房租写整百的数(300、400、500 欧,cent 的复数规则第 9 单元再讲)。浩说他的宿舍 300 欧,还是宿舍好——为 A2 的搬家做铺垫。",
+      "grammarFocusZh": "复习 il y a、楼层、beau / nouveau 的位置、70–100;广告里的缩写 m²(mètres carrés)和 colocation 的意思",
+      "skills": ["read", "write"], "estimatedMinutes": 17,
+      "newItems": [
+        { "id": "fr.annonce", "kind": "word", "pos": "noun", "text": "l'annonce", "zh": "广告;启事", "features": { "gender": "f", "ipa": "la.nɔ̃s" }, "noteZh": "元音开头,要记住是阴性;租房、招聘、卖东西的小广告都叫 annonce。" },
+        { "id": "fr.colocation", "kind": "word", "pos": "noun", "text": "la colocation", "zh": "合租", "features": { "gender": "f", "ipa": "la kɔ.lɔ.ka.sjɔ̃" }, "noteZh": "阴性;-tion 读 [sjɔ̃]。口语常说 la coloc;合租的室友叫 le / la colocataire。" },
+        { "id": "fr.meuble", "kind": "word", "pos": "noun", "text": "le meuble", "zh": "家具(一件)", "features": { "gender": "m", "ipa": "lə mœbl" }, "noteZh": "阳性;eu 读 [œ];说“家具”一般用复数 les meubles。广告里“带家具”写 meublé。" },
+        { "id": "fr.quartier", "kind": "word", "pos": "noun", "text": "le quartier", "zh": "街区;(城市的)区", "features": { "gender": "m", "ipa": "lə kaʁ.tje" }, "noteZh": "阳性;qu 读 [k],词尾 r 不发音。le quartier de la Croix-Rousse = 红十字区。" }
+      ],
+      "reviewItems": ["fr.appartement", "fr.maison", "fr.jardin", "fr.nouveau", "fr.cent", "fr.loyer"]
+    }
+  ]
+}

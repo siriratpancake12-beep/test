@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u11.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 Getting ready to go", "order": 111070,
+  "titleZh": "叫车去酒店", "goalZh": "会告诉司机去哪儿,用 How far…? / How long…? 问距离和时间", "canDoZh": "能在机场叫车去酒店:告诉司机去哪儿,问多远、要多久,和司机简单聊几句",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.can_you_take_us_to", "kind": "phrase", "pos": "phrase", "text": "Can you take us to", "zh": "能送我们去……吗?", "features": { "ipa": "kən juː ˈteɪk ʌs tə" }, "noteZh": "打车时说目的地的常用问法;take + 人 + to + 地方 = 送某人去某地;一个人就说 Can you take me to…?。" },
+    { "id": "en.near", "kind": "word", "pos": "prep", "text": "near", "zh": "在……附近", "features": { "ipa": "nɪr" }, "noteZh": "near the beach(在海边附近);第 5 单元学过 near here(这附近);ear 读 /ɪr/,要卷舌。" },
+    { "id": "en.trunk", "kind": "word", "pos": "noun", "text": "trunk", "zh": "(汽车)后备箱", "features": { "ipa": "trʌŋk" }, "noteZh": "美式说 trunk,英式说 boot;tr 像“戳”的声母再加卷舌;结尾 nk 读 /ŋk/。" },
+    { "id": "en.mile", "kind": "word", "pos": "noun", "text": "mile", "zh": "英里", "features": { "ipa": "maɪl" }, "noteZh": "美国用英里算距离,1 英里约 1.6 公里;i 读 /aɪ/,词尾 l 舌尖顶住上齿龈。" },
+    { "id": "en.highway", "kind": "word", "pos": "noun", "text": "highway", "zh": "高速公路;公路", "features": { "ipa": "ˈhaɪweɪ" }, "noteZh": "gh 不发音;复合词重音在前 HIGH-way;洛杉矶人也常说 freeway。" },
+    { "id": "en.pier", "kind": "word", "pos": "noun", "text": "pier", "zh": "码头;栈桥", "features": { "ipa": "pɪr" }, "noteZh": "和 near 押韵 /ɪr/;海边伸进海里的长栈桥,上面常有餐厅和游乐设施;at the pier(在码头)。" },
+    { "id": "en.famous", "kind": "word", "pos": "adj", "text": "famous", "zh": "有名的", "features": { "ipa": "ˈfeɪməs" }, "noteZh": "重音在前 FA-mous,a 读 /eɪ/;It's famous.(那儿很有名。)" },
+    { "id": "en.sunset", "kind": "word", "pos": "noun", "text": "sunset", "zh": "日落", "features": { "ipa": "ˈsʌnset" }, "noteZh": "sun + set,复合词重音在前;the sunset at the pier(码头的日落)。" }
+  ],
+  "reviewItems": ["en.how_long", "en.take", "en.no_thanks", "en.traffic", "en.ride", "en.terrible"],
+  "lines": [
+    { "speaker": "driver", "text": "Hi! Lei? Where are you going?", "zh": "(洛杉矶机场,两人叫的网约车到了)你好!是磊吗?去哪儿?", "items": ["en.hi", "en.go"] },
+    { "speaker": "lei", "text": "Hi! Can you take us to this hotel? It's near the beach.", "zh": "你好!能送我们去这家酒店吗?在海边附近。", "items": ["en.hi", "en.can_you_take_us_to", "en.hotel", "en.near", "en.beach"] },
+    { "speaker": "driver", "text": "Sure. Bags in the trunk?", "zh": "好。行李放后备箱吗?", "items": ["en.sure", "en.bag", "en.trunk"] },
+    { "speaker": "sofia", "text": "No, thanks. They're just carry-ons.", "zh": "不用了,谢谢。就两个登机箱。", "items": ["en.no_thanks", "en.just", "en.carry_on"] },
+    { "speaker": "lei", "text": "How far is it?", "zh": "有多远?", "items": ["en.far"] },
+    { "speaker": "driver", "text": "It's about 15 miles.", "zh": "大概 15 英里。", "items": ["en.mile"] },
+    { "speaker": "lei", "text": "How long does it take?", "zh": "要多久?", "items": ["en.how_long", "en.take"] },
+    { "speaker": "driver", "text": "About 30 minutes. We take the highway, but LA traffic is terrible!", "zh": "30 分钟左右。我们走高速,不过洛杉矶堵车很厉害!", "items": ["en.minute", "en.take", "en.highway", "en.traffic", "en.terrible"] },
+    { "speaker": "driver", "text": "Is this your first time in LA?", "zh": "你们是第一次来洛杉矶吗?", "items": ["en.first"] },
+    { "speaker": "sofia", "text": "Yes! Our friend lives here. We're going to see him this afternoon.", "zh": "是的!我们的朋友住在这儿,今天下午去见他。", "items": ["en.friend", "en.live", "en.going_to", "en.see", "en.afternoon"] },
+    { "speaker": "driver", "text": "Cool. Go to the pier. It's famous, and the sunset is beautiful!", "zh": "不错。去码头看看吧,那儿很有名,日落特别美!", "items": ["en.cool", "en.go", "en.pier", "en.famous", "en.sunset", "en.beautiful"] },
+    { "speaker": "lei", "text": "You can stop here. Thanks for the ride!", "zh": "(到了圣莫尼卡的酒店门口)停这儿就行。谢谢你送我们!", "items": ["en.can", "en.stop", "en.thank_you", "en.ride"] }
+  ],
+  "questions": [
+    { "prompt": "酒店离机场多远?要多久?", "options": ["大约 15 英里,30 分钟", "大约 30 英里,15 分钟", "大约 15 英里,1 个小时"], "answer": 0, "explainZh": "It's about 15 miles. …… About 30 minutes." },
+    { "prompt": "司机推荐他们做什么?", "options": ["去吃一家墨西哥餐厅", "去看篮球比赛", "去码头看日落"], "answer": 2, "explainZh": "Go to the pier. It's famous, and the sunset is beautiful!" },
+    { "prompt": "他们为什么不把行李放进后备箱?", "options": ["后备箱满了", "只有两个登机箱", "司机不让放"], "answer": 1, "explainZh": "No, thanks. They're just carry-ons." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.how_far_how_long",
+      "titleZh": "How far is it? 和 How long does it take?",
+      "bodyZh": "问距离用 How far is it?(有多远?),回答 It's about 15 miles.(美国用英里,1 英里约 1.6 公里,15 英里约 24 公里);问花多长时间用 How long does it take?(要多久?),回答 About 30 minutes.(第 5 单元学过)。一个问远近,一个问时间,别混用。打车的说法:Can you take us to this hotel?(能送我们去这家酒店吗?)到了说 You can stop here.(停这儿就行),下车说 Thanks for the ride!。发音:five、drive、ride 词尾的 v、d 要带声,别读成 fife、drife。",
+      "examples": [
+        { "text": "How far is it? — It's about 15 miles.", "zh": "有多远?——大概 15 英里。" },
+        { "text": "How long does it take? — About 30 minutes.", "zh": "要多久?——30 分钟左右。" },
+        { "text": "You can stop here. Thanks for the ride!", "zh": "停这儿就行。谢谢你送我们!" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

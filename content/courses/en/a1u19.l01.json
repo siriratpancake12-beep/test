@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u19.l01", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-19 How are you feeling?", "order": 119010,
+  "titleZh": "你看起来很累", "goalZh": "会用 be / feel + 形容词说自己现在的心情,注意到别人不对劲时关心一句", "canDoZh": "能说出自己现在的心情,注意到朋友不对劲时会关心地问一句",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.feel", "kind": "word", "pos": "verb", "text": "feel", "zh": "感觉;觉得", "features": { "ipa": "fiːl" }, "noteZh": "feel + 形容词说感受:I feel nervous.;问别人 How do you feel?;第 8 单元的 I don't feel well 也是这个词。ee 读长音,结尾是“暗 L”。" },
+    { "id": "en.stressed", "kind": "word", "pos": "adj", "text": "stressed", "zh": "压力大的;紧张焦虑的", "features": { "ipa": "strest" }, "noteZh": "中文说“我压力好大”,英语说 I'm stressed.;-ed 读 /t/,整个词只有一个音节。" },
+    { "id": "en.exam", "kind": "word", "pos": "noun", "text": "exam", "zh": "考试", "features": { "ipa": "ɪɡˈzæm" }, "noteZh": "重音在后 ex-AM,x 读 /ɡz/;I have an exam. 我有考试。" },
+    { "id": "en.worried", "kind": "word", "pos": "adj", "text": "worried", "zh": "担心的", "features": { "ipa": "ˈwɝːid" }, "noteZh": "worried about…(为……担心);or 读卷舌的 /ɝː/,-ied 读 /id/,一共两个音节。" },
+    { "id": "en.bored", "kind": "word", "pos": "adj", "text": "bored", "zh": "(人)感到无聊的", "features": { "ipa": "bɔːrd" }, "noteZh": "人觉得没意思说 I'm bored.;东西没意思用 boring(第 8 单元):The class is boring.;说 I'm boring 是“我这个人很无聊”。" },
+    { "id": "en.angry", "kind": "word", "pos": "adj", "text": "angry", "zh": "生气的", "features": { "ipa": "ˈæŋɡri" }, "noteZh": "ang 读 /æŋ/,后面的 g 要发出来;He's angry. 他在生气。" },
+    { "id": "en.mood", "kind": "word", "pos": "noun", "text": "mood", "zh": "心情;情绪", "features": { "ipa": "muːd" }, "noteZh": "be in a good mood 心情好,in a bad mood 心情不好;oo 读长音 /uː/。" },
+    { "id": "en.calm", "kind": "word", "pos": "adj", "text": "calm", "zh": "冷静的;平静的", "features": { "ipa": "kɑːm" }, "noteZh": "l 不发音,读 /kɑːm/;She's always calm. 她总是很冷静。" }
+  ],
+  "reviewItems": ["en.tired", "en.quiet", "en.guess", "en.nervous", "en.concert"],
+  "lines": [
+    { "speaker": "marcus", "text": "Lei, you're so quiet today. Are you OK?", "zh": "(期中考试周的一个下午,咖啡馆里,磊一边擦杯子一边打哈欠)磊,你今天话好少。你没事吧?", "items": ["en.so", "en.quiet", "en.today"] },
+    { "speaker": "lei", "text": "I'm tired. And I'm really stressed. I have three exams this week.", "zh": "我好累。压力也特别大。这周我有三门考试。", "items": ["en.tired", "en.really", "en.stressed", "en.have", "en.exam", "en.week"] },
+    { "speaker": "marcus", "text": "Exam week! Everyone feels stressed now.", "zh": "考试周啊!这时候谁都压力大。", "items": ["en.exam", "en.week", "en.feel", "en.stressed"] },
+    { "speaker": "marcus", "text": "Let's guess. How does that guy feel?", "zh": "(马库斯朝店里的顾客努努嘴)咱们来猜猜。那个男生现在什么心情?", "items": ["en.lets", "en.guess", "en.feel", "en.guy"] },
+    { "speaker": "lei", "text": "He's worried. He's studying all day.", "zh": "他很担心。他一整天都在学习。", "items": ["en.worried", "en.study", "en.all_day"] },
+    { "speaker": "marcus", "text": "And that girl is bored. And that man is angry. His coffee is late!", "zh": "那个女生很无聊。那个男的在生气——他的咖啡还没好!", "items": ["en.bored", "en.angry", "en.coffee", "en.late"] },
+    { "speaker": "lei", "text": "Oh no! Sorry, here's your coffee!", "zh": "(磊赶紧把咖啡递过去)哎呀!对不起,您的咖啡!", "items": ["en.sorry", "en.coffee"] },
+    { "speaker": "laura", "text": "Hi, guys! Today is our best day. We had a lot of customers!", "zh": "(劳拉笑着走过来)嗨,伙计们!今天是我们生意最好的一天。来了好多顾客!", "items": ["en.hi", "en.guy", "en.today", "en.best", "en.have", "en.a_lot_of", "en.customer"] },
+    { "speaker": "lei", "text": "Laura is in a really good mood. She's always calm!", "zh": "(磊小声对马库斯说)劳拉今天心情特别好。她总是那么冷静!", "items": ["en.really", "en.mood", "en.always", "en.calm"] },
+    { "speaker": "marcus", "text": "And I feel nervous. My band has a big concert on Saturday!", "zh": "我倒是挺紧张的。周六我们乐队有一场大演出!", "items": ["en.feel", "en.nervous", "en.band", "en.have", "en.big", "en.concert", "en.saturday"] }
+  ],
+  "questions": [
+    { "prompt": "磊这几天为什么压力大?", "options": ["这周他有三门考试", "他要多上几个班", "他做错了咖啡"], "answer": 0, "explainZh": "磊说 I'm really stressed. I have three exams this week.(这周我有三门考试。)" },
+    { "prompt": "马库斯说那个男顾客为什么生气?", "options": ["店里太吵", "他的咖啡还没好", "他考试没考好"], "answer": 1, "explainZh": "马库斯说 And that man is angry. His coffee is late!(他的咖啡还没好!)" },
+    { "prompt": "劳拉今天心情怎么样?为什么?", "options": ["很紧张,因为周六有演出", "很生气,因为顾客太多", "心情很好,因为今天是店里生意最好的一天"], "answer": 2, "explainZh": "劳拉说 Today is our best day. We had a lot of customers!,磊说她 in a really good mood;周六有演出、很紧张的是马库斯。" },
+    { "prompt": "马库斯这周是什么心情?", "options": ["很紧张,因为周六乐队有大演出", "很无聊", "很生气"], "answer": 0, "explainZh": "马库斯说 I feel nervous. My band has a big concert on Saturday!" }
+  ],
+  "grammar": [
+    { "id": "en.g.feel_adj", "titleZh": "说心情:be / feel + 形容词",
+      "bodyZh": "说自己现在的心情,用 be 或 feel 加形容词:I'm stressed. / I feel nervous.;问别人用 How do you feel?(你感觉怎么样?)。feel 后面直接跟形容词,不跟副词:I feel bad.(不说 I feel badly.)。说别人的心情,第三人称 feel 要加 s:Everyone feels stressed.;问句用 does:How does that guy feel?。说一个人当天的心情还可以用 in a good mood(心情好)、in a bad mood(心情不好):Laura is in a good mood.。",
+      "examples": [
+        { "text": "I'm really stressed.", "zh": "我压力特别大。" },
+        { "text": "How does that guy feel?", "zh": "那个男生现在什么心情?" },
+        { "text": "Laura is in a really good mood.", "zh": "劳拉今天心情特别好。" }
+      ] },
+    { "id": "en.g.ed_adjectives", "titleZh": "stressed、worried、bored:-ed 形容词说人的感受",
+      "bodyZh": "很多说心情的词以 -ed 结尾:stressed(压力大的)、worried(担心的)、bored(觉得无聊的),第 18 单元的 scared(害怕的)也是。它们说的是“人的感受”;第 8 单元的 boring 说的是“东西让人没意思”:The class is boring. I'm bored.(这课没意思,我觉得很无聊)。说 I'm boring. 是“我这个人很无趣”,意思差很远。发音:stressed 的 -ed 读 /t/(/strest/),worried、bored 的 -ed 读 /d/;worried /ˈwɝːid/ 中间是卷舌的 /ɝː/,嘴别张太大。",
+      "examples": [
+        { "text": "He's worried.", "zh": "他很担心。" },
+        { "text": "That girl is bored.", "zh": "那个女生很无聊。" },
+        { "text": "Everyone feels stressed now.", "zh": "这时候谁都压力大。" }
+      ] }
+  ],
+  "review": "draft"
+}

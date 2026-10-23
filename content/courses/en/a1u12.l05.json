@@ -30,8 +30,8 @@
   ],
   "questions": [
     { "prompt": "前台推荐了一家什么样的餐厅?", "options": ["一家中餐馆", "一家墨西哥餐厅", "码头上的汉堡店"], "answer": 1, "explainZh": "前台先问 Do you like Mexican food?,再推荐 Maria's:They have real burritos and tacos.(那儿有正宗的墨西哥卷饼和塔可)。" },
-    { "prompt": "那家餐厅有多远?", "options": ["开车五分钟", "走路三十分钟", "走路十分钟"], "answer": 2, "explainZh": "前台说 it's a ten-minute walk(走路十分钟),就在码头旁边。" },
-    { "prompt": "伊森见到他们时说了什么?", "options": ["欢迎来洛杉矶!", "对不起,我迟到了", "我们去吃汉堡吧"], "answer": 0, "explainZh": "伊森说 Hey, guys! Welcome to LA!(嘿,你们俩!欢迎来洛杉矶!)" }
+    { "prompt": "那家餐厅有多远?", "options": ["走路十分钟", "开车五分钟", "走路三十分钟"], "answer": 0, "explainZh": "前台说 it's a ten-minute walk(走路十分钟),就在码头旁边。" },
+    { "prompt": "伊森见到他们时说了什么?", "options": ["对不起,我迟到了", "我们去吃汉堡吧", "欢迎来洛杉矶!"], "answer": 2, "explainZh": "伊森说 Hey, guys! Welcome to LA!(嘿,你们俩!欢迎来洛杉矶!)" }
   ],
   "grammar": [
     { "id": "en.g.u12_recommend", "titleZh": "请人推荐:Can you recommend…? / Is it far?",

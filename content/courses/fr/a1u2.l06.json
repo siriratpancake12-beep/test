@@ -1,0 +1,55 @@
+{
+  "id": "fr.a1u2.l06", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 在咖啡馆和面包店", "order": 102060,
+  "titleZh": "学生食堂——前菜、主菜和甜点", "goalZh": "会在学生食堂选前菜、主菜和甜点,用 préférer 说更喜欢什么",
+  "canDoZh": "能在学生食堂选前菜、主菜和甜点,说出常见的肉、鱼和主食,并说自己更喜欢什么",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "fr.preferer", "kind": "word", "pos": "verb", "text": "préférer", "zh": "更喜欢;宁愿", "features": { "ipa": "pʁe.fe.ʁe" }, "noteZh": "je préfère, tu préfères, il préfère 里第二个 é 变成 è,读开口的 [ɛ];vous préférez 不变。后面接定冠词:Je préfère le poisson。" },
+    { "id": "fr.entree", "kind": "word", "pos": "noun", "text": "l'entrée", "zh": "前菜(第一道菜);入口", "features": { "gender": "f", "ipa": "lɑ̃.tʁe" }, "noteZh": "元音开头,要记住是阴性;法餐的 entrée 是前菜,不是主菜(美式英语的 entree 才指主菜)。门上写的 Entrée 是“入口”。" },
+    { "id": "fr.plat", "kind": "word", "pos": "noun", "text": "le plat", "zh": "主菜;一道菜", "features": { "gender": "m", "ipa": "lə pla" }, "noteZh": "阳性;t 不发音。菜单上的 plat 就是主菜(也说 le plat principal)。" },
+    { "id": "fr.dessert", "kind": "word", "pos": "noun", "text": "le dessert", "zh": "甜点", "features": { "gender": "m", "ipa": "lə de.sɛʁ" }, "noteZh": "阳性;ss 读 [s],词尾 t 不发音。法国人吃完主菜,常在奶酪和甜点里选一样。" },
+    { "id": "fr.viande", "kind": "word", "pos": "noun", "text": "la viande", "zh": "肉", "features": { "gender": "f", "ipa": "la vjɑ̃d" }, "noteZh": "阴性;词尾 de 读 [d]。吃肉:manger de la viande;不吃肉:Je ne mange pas de viande。" },
+    { "id": "fr.poisson", "kind": "word", "pos": "noun", "text": "le poisson", "zh": "鱼;鱼肉", "features": { "gender": "m", "ipa": "lə pwa.sɔ̃" }, "noteZh": "阳性;ss 读 [s]。别读成 poison [pwa.zɔ̃](毒药):元音之间只有一个 s 时读 [z]。" },
+    { "id": "fr.poulet", "kind": "word", "pos": "noun", "text": "le poulet", "zh": "鸡肉;鸡", "features": { "gender": "m", "ipa": "lə pu.lɛ" }, "noteZh": "阳性;ou 读 [u],词尾 t 不发音。" },
+    { "id": "fr.riz", "kind": "word", "pos": "noun", "text": "le riz", "zh": "米饭;大米", "features": { "gender": "m", "ipa": "lə ʁi" }, "noteZh": "阳性;z 不发音,只读 [ʁi]。吃米饭:manger du riz。" },
+    { "id": "fr.salade", "kind": "word", "pos": "noun", "text": "la salade", "zh": "沙拉;生菜", "features": { "gender": "f", "ipa": "la sa.lad" }, "noteZh": "阴性;既指沙拉,也指生菜;法餐里沙拉常当前菜。" },
+    { "id": "fr.frites", "kind": "word", "pos": "noun", "text": "les frites", "zh": "薯条", "features": { "gender": "f", "ipa": "le fʁit" }, "noteZh": "平时用复数(阴性);s 不发音。鸡肉配薯条常说 poulet-frites。" }
+  ],
+  "reviewItems": ["fr.je_prends", "fr.de_la", "fr.du", "fr.pain", "fr.fromage", "fr.aimer"],
+  "lines": [
+    { "speaker": "lucas", "text": "Voilà : l'entrée, le plat et le dessert !", "zh": "(中午,卢卡第一次带浩去学生食堂,指着取餐台)看:前菜、主菜、甜点!", "items": ["fr.voila", "fr.entree", "fr.plat", "fr.et", "fr.dessert"] },
+    { "speaker": "hao", "text": "L'entrée ? C'est le plat ?", "zh": "entrée?是主菜吗?(英语里的 entree 常指主菜)", "items": ["fr.entree", "fr.cest", "fr.plat"] },
+    { "speaker": "lucas", "text": "Non ! L'entrée, c'est une salade.", "zh": "不是!entrée 是前菜,比如一份沙拉。", "items": ["fr.non", "fr.entree", "fr.cest", "fr.une", "fr.salade"] },
+    { "speaker": "lucas", "text": "Et le plat, c'est de la viande ou du poisson.", "zh": "主菜才是肉或者鱼。", "items": ["fr.et", "fr.plat", "fr.cest", "fr.de_la", "fr.viande", "fr.ou", "fr.du", "fr.poisson"] },
+    { "speaker": "lucas", "text": "Tu préfères la viande ou le poisson ?", "zh": "你更喜欢肉还是鱼?", "items": ["fr.tu", "fr.preferer", "fr.viande", "fr.ou", "fr.poisson"] },
+    { "speaker": "hao", "text": "Je préfère le poisson… mais je prends le poulet avec du riz.", "zh": "我更喜欢鱼……不过今天我要鸡肉配米饭。(鸡肉饭看起来很香,他又拿了一份沙拉)", "items": ["fr.je", "fr.preferer", "fr.poisson", "fr.mais", "fr.je_prends", "fr.poulet", "fr.avec", "fr.du", "fr.riz"] },
+    { "speaker": "lucas", "text": "Moi, je prends le poulet avec les frites… et du pain !", "zh": "我要鸡肉配薯条……再来点面包!(卢卡拿了一大块面包)", "items": ["fr.moi", "fr.je_prends", "fr.poulet", "fr.avec", "fr.frites", "fr.et", "fr.du", "fr.pain"] },
+    { "speaker": "hao", "text": "Et le dessert ?", "zh": "那甜点呢?", "items": ["fr.et", "fr.dessert"] },
+    { "speaker": "lucas", "text": "Le dessert ou le fromage. Tu préfères le fromage ?", "zh": "甜点和奶酪选一样。你更喜欢奶酪吗?", "items": ["fr.dessert", "fr.ou", "fr.fromage", "fr.tu", "fr.preferer"] },
+    { "speaker": "hao", "text": "Non, je préfère le dessert ! Je n'aime pas le fromage.", "zh": "不,我更喜欢甜点!我不喜欢奶酪。", "items": ["fr.non", "fr.je", "fr.preferer", "fr.dessert", "fr.ne_pas", "fr.aimer", "fr.fromage"] }
+  ],
+  "questions": [
+    { "prompt": "在法国的一餐里,entrée 是什么?", "options": ["主菜", "前菜,比如沙拉", "甜点"], "answer": 1, "explainZh": "卢卡说 Non ! L'entrée, c'est une salade.;主菜叫 le plat。英语里的 entree 常指主菜,别弄混。" },
+    { "prompt": "浩更喜欢鱼还是肉?", "options": ["鱼", "肉", "都不喜欢"], "answer": 0, "explainZh": "Je préfère le poisson.(我更喜欢鱼。)不过这次他拿的是鸡肉配米饭。" },
+    { "prompt": "卢卡拿了什么?", "options": ["鱼配米饭", "鸡肉配米饭和沙拉", "鸡肉配薯条,还有面包"], "answer": 2, "explainZh": "Moi, je prends le poulet avec les frites… et du pain !(我要鸡肉配薯条……再来点面包!)" },
+    { "prompt": "最后浩为什么不要奶酪?", "options": ["奶酪太贵", "他不喜欢奶酪", "他已经吃饱了"], "answer": 1, "explainZh": "Non, je préfère le dessert ! Je n'aime pas le fromage.(我更喜欢甜点!我不喜欢奶酪。)" }
+  ],
+  "grammar": [
+    { "id": "fr.g.preferer", "titleZh": "préférer:é 有时要变成 è",
+      "bodyZh": "préférer(更喜欢)是规则的 -er 动词,但单数(je、tu、il / elle)形式里,第二个 é 要变成 è:je préfère、tu préfères、il préfère,读开口的 [ɛ];vous préférez 不变,还是两个 é。nous 的形式第 3 单元学。记法:词尾不发音(-e、-es)时写 è,词尾发音(-ez)时写 é。\n和 aimer 一样,后面接定冠词 le / la / les,表示泛指的喜好:Je préfère le poisson.;二选一用 ou:Tu préfères la viande ou le poisson ?(你更喜欢肉还是鱼?)中国学生常漏掉冠词,说成 Je préfère poisson,要注意。",
+      "examples": [
+        { "text": "Je préfère le poisson.", "zh": "我更喜欢鱼。" },
+        { "text": "Tu préfères la viande ou le poisson ?", "zh": "你更喜欢肉还是鱼?" },
+        { "text": "Vous préférez le thé ou le café ?", "zh": "您更喜欢茶还是咖啡?" }
+      ] },
+    { "id": "fr.g.repas", "titleZh": "法国的一餐:entrée → plat → fromage / dessert",
+      "bodyZh": "法国人吃正餐有固定的顺序:先吃前菜 l'entrée(沙拉、汤等),再吃主菜 le plat(肉或鱼,配米饭、薯条或蔬菜),最后在奶酪 le fromage 和甜点 le dessert 里选一样(也可以都要)。学生食堂一般也这样配餐。注意:entrée 在法国是前菜,美式英语的 entree 才是主菜。\n说吃什么时复习部分冠词:de la viande、du poisson、du riz;否定以后变成 de:Je ne mange pas de viande.(我不吃肉。)说喜好用定冠词:Je préfère le poisson.",
+      "examples": [
+        { "text": "L'entrée, c'est une salade.", "zh": "前菜是一份沙拉。" },
+        { "text": "Le plat, c'est de la viande ou du poisson.", "zh": "主菜是肉或者鱼。" },
+        { "text": "Je ne mange pas de viande.", "zh": "我不吃肉。" }
+      ] }
+  ],
+  "review": "draft"
+}

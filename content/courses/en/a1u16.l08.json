@@ -1,0 +1,46 @@
+{
+  "id": "en.a1u16.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116080,
+  "titleZh": "单元复习:查房日", "goalZh": "综合运用本单元的说法,在查房时回答问题、说明家务安排", "canDoZh": "能在查房时回答工作人员的问题,说明房间里东西的位置和平时的家务安排",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.neat", "kind": "word", "pos": "adj", "text": "neat", "zh": "整洁的;干净整齐的", "features": { "ipa": "niːt" }, "noteZh": "Your room is really neat! 你们房间真整洁!;口语里 neat 还有\"真棒\"的意思。" },
+    { "id": "en.take_away", "kind": "phrase", "pos": "verb", "text": "take away", "zh": "拿走;带走", "features": { "ipa": "ˌteɪk əˈweɪ" }, "noteZh": "代词放中间:take it away;away 重音在后 a-WAY。" },
+    { "id": "en.high_five", "kind": "phrase", "pos": "noun", "text": "high five", "zh": "击掌(庆祝)", "features": { "ipa": "ˌhaɪ ˈfaɪv" }, "noteZh": "高兴时举手互相拍一下:High five!;也可以说 Give me five!。" }
+  ],
+  "reviewItems": ["en.inspection", "en.take_turns", "en.whiteboard", "en.space_heater", "en.allowed", "en.closet"],
+  "lines": [
+    { "speaker": "staff", "text": "Hi! Dorm inspection. Can I come in?", "zh": "(周五上午,宿舍办公室的工作人员来查房)你们好!查房。我能进来吗?", "items": ["en.hi", "en.dorm", "en.inspection", "en.can", "en.come_in"] },
+    { "speaker": "lei", "text": "Sure! Come in.", "zh": "当然!请进。", "items": ["en.sure", "en.come_in"] },
+    { "speaker": "staff", "text": "Wow, your room is really neat!", "zh": "哇,你们房间真整洁!", "items": ["en.room", "en.really", "en.neat"] },
+    { "speaker": "ethan", "text": "Thanks! We cleaned all day yesterday.", "zh": "谢谢!我们昨天打扫了一整天。", "items": ["en.thank_you", "en.clean", "en.all_day", "en.yesterday"] },
+    { "speaker": "staff", "text": "Who does the chores here?", "zh": "这儿的家务谁做?", "items": ["en.chore"] },
+    { "speaker": "lei", "text": "We take turns. Our chore list is on the whiteboard.", "zh": "我们轮流做。家务清单写在白板上。", "items": ["en.take_turns", "en.chore", "en.list", "en.whiteboard"] },
+    { "speaker": "lei", "text": "Monday, Ethan takes out the trash. Tuesday, I do the dishes.", "zh": "周一伊森倒垃圾,周二我洗碗。", "items": ["en.monday", "en.take_out_the_trash", "en.tuesday", "en.do_the_dishes"] },
+    { "speaker": "staff", "text": "Great idea! Now, can I see your closet?", "zh": "好主意!现在我能看看你们的衣柜吗?", "items": ["en.great", "en.idea", "en.can", "en.see", "en.closet"] },
+    { "speaker": "staff", "text": "Oh. Is that a space heater?", "zh": "哦,那是电暖器吗?", "items": ["en.space_heater"] },
+    { "speaker": "ethan", "text": "Yes. It's mine. Our heater was broken!", "zh": "是,是我的。我们的暖气之前坏了!", "items": ["en.mine", "en.heater", "en.broken"] },
+    { "speaker": "lei", "text": "But a worker came by yesterday. It's OK now.", "zh": "不过昨天工人来过了,现在好了。", "items": ["en.worker", "en.come_by", "en.yesterday"] },
+    { "speaker": "staff", "text": "Good. But space heaters aren't allowed. Sorry, I have to take it away.", "zh": "那就好。不过电暖器是不允许的。抱歉,我得把它拿走。", "items": ["en.space_heater", "en.allowed", "en.sorry", "en.have_to", "en.take_away"] },
+    { "speaker": "ethan", "text": "OK. That's fair.", "zh": "好吧,这也合理。", "items": ["en.fair"] },
+    { "speaker": "staff", "text": "Your room is perfect. You passed!", "zh": "你们的房间很完美。通过了!", "items": ["en.room", "en.perfect", "en.pass"] },
+    { "speaker": "lei", "text": "Yes! Ethan, high five!", "zh": "太好了!伊森,击个掌!", "items": ["en.high_five"] }
+  ],
+  "questions": [
+    { "prompt": "工作人员觉得他们的房间怎么样?", "options": ["很整洁", "很乱", "太小了"], "answer": 0, "explainZh": "Wow, your room is really neat!——neat 是\"整洁\";他们昨天打扫了一整天。" },
+    { "prompt": "他们平时怎么分家务?", "options": ["伊森一个人做", "请别人来做", "磊一个人做", "两人轮流,清单写在白板上"], "answer": 3, "explainZh": "We take turns. Our chore list is on the whiteboard.——两人轮流,周一伊森倒垃圾,周二磊洗碗。" },
+    { "prompt": "工作人员为什么拿走了电暖器?", "options": ["它坏了", "它太旧了", "宿舍不允许用电暖器"], "answer": 2, "explainZh": "But space heaters aren't allowed. Sorry, I have to take it away.——宿舍规定不许用电暖器(查房通知里也写了)。" },
+    { "prompt": "查房的结果怎么样?", "options": ["没通过,下周再查", "通过了", "要赔钱"], "answer": 1, "explainZh": "Your room is perfect. You passed!——顺利通过,磊和伊森击掌庆祝。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u16_review", "titleZh": "单元小结:家务、请求、位置和规矩",
+      "bodyZh": "① 家务搭配整块记:do the dishes、do laundry、make the bed、take out the trash(代词放中间:take it out、take it away);② 请人做事:Can you…? —— Sure. / In a minute. / Sorry, I can't right now.;轮流:We take turns. / It's your turn.;③ 东西的位置:under、behind、between、above、inside + 名词;④ 规矩和告示:Please… / Don't… / No + 名词 / … aren't allowed.;⑤ 报修:I'm calling about… / There's a problem with… / It makes a loud noise.。\n发音:列举家务时前几项升调、最后一项降调:Monday, Ethan takes out the trash ↗; Tuesday, I do the dishes ↘.",
+      "examples": [
+        { "text": "Can you take out the trash? — Sure, in a minute.", "zh": "你能去倒垃圾吗?——行,等一下。" },
+        { "text": "We take turns. Our chore list is on the whiteboard.", "zh": "我们轮流做。家务清单写在白板上。" },
+        { "text": "Space heaters aren't allowed.", "zh": "不允许用电暖器。" },
+        { "text": "Your wallet is under your bed.", "zh": "你的钱包在你床底下。" }
+      ] }
+  ],
+  "review": "draft"
+}

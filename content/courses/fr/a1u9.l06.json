@@ -1,0 +1,51 @@
+{
+  "id": "fr.a1u9.l06", "schemaVersion": 1, "lang": "fr", "type": "vocab", "cefr": "A1",
+  "unit": "A1-9 去罗马之前", "order": 109060,
+  "titleZh": "背包里有什么?——证件和随身物品", "goalZh": "会说出出门要带的证件和随身物品,一样一样检查", "canDoZh": "能说出出门要带的证件和随身物品,检查自己有没有带齐",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "fr.carte_detudiant", "kind": "word", "pos": "noun", "text": "la carte d'étudiant", "zh": "学生证", "features": { "gender": "f", "ipa": "la kaʁt de.ty.djɑ̃" }, "noteZh": "carte(卡)+ d'étudiant(学生的):中心词在前;la carte 第 2 单元学过“菜单、卡片”的意思。" },
+    { "id": "fr.chargeur", "kind": "word", "pos": "noun", "text": "le chargeur", "zh": "充电器", "features": { "gender": "m", "ipa": "lə ʃaʁ.ʒœʁ" }, "noteZh": "-eur 结尾,阳性;ch 读 [ʃ],g 在 e 前读 [ʒ]。" },
+    { "id": "fr.ecouteurs", "kind": "word", "pos": "noun", "text": "les écouteurs", "zh": "耳机", "features": { "gender": "m", "ipa": "le.ze.ku.tœʁ" }, "noteZh": "阳性;来自 écouter(听);平时用复数;les‿écouteurs 要联诵,s 读 [z]。" },
+    { "id": "fr.portefeuille", "kind": "word", "pos": "noun", "text": "le portefeuille", "zh": "钱包(放卡和纸币的)", "features": { "gender": "m", "ipa": "lə pɔʁ.tə.fœj" }, "noteZh": "阳性;porte(带)+ feuille(纸页);euille 读 [œj]。" },
+    { "id": "fr.lunettes", "kind": "word", "pos": "noun", "text": "les lunettes", "zh": "眼镜", "features": { "gender": "f", "ipa": "le ly.nɛt" }, "noteZh": "阴性,总是用复数(一副眼镜也是 des lunettes);les lunettes de soleil 太阳镜;u 读 [y]。" },
+    { "id": "fr.verifier", "kind": "word", "pos": "verb", "text": "vérifier", "zh": "检查;核对", "features": { "ipa": "ve.ʁi.fje" }, "noteZh": "-er 规则动词;On vérifie ? 我们检查一下吧?" },
+    { "id": "fr.poche", "kind": "word", "pos": "noun", "text": "la poche", "zh": "口袋;(包上的)小袋", "features": { "gender": "f", "ipa": "la pɔʃ" }, "noteZh": "阴性;ch 读 [ʃ];dans la poche 在口袋里。" },
+    { "id": "fr.pret", "kind": "word", "pos": "adj", "text": "prêt", "zh": "准备好的(阳性)", "features": { "ipa": "pʁɛ" }, "noteZh": "t 不发音;阴性 prête [pʁɛt];男生说 Je suis prêt !,女生说 Je suis prête !" }
+  ],
+  "reviewItems": ["fr.passeport", "fr.titre_de_sejour", "fr.billet", "fr.lit", "fr.sac_a_dos", "fr.parapluie"],
+  "lines": [
+    { "speaker": "lucas", "text": "Hao, tu es prêt ? On vérifie ton sac à dos ?", "zh": "(12 月 18 日晚上,出发前一晚)浩,准备好了吗?我们检查一下你的背包?", "items": ["fr.tu", "fr.etre", "fr.pret", "fr.on", "fr.verifier", "fr.ton", "fr.sac_a_dos"] },
+    { "speaker": "hao", "text": "Oui ! Voilà mon passeport et mon titre de séjour.", "zh": "好!这是我的护照和居留证。", "items": ["fr.oui", "fr.voila", "fr.mon", "fr.passeport", "fr.et", "fr.titre_de_sejour"] },
+    { "speaker": "lucas", "text": "Et ta carte d'étudiant ? Et ton billet de train ?", "zh": "学生证呢?火车票呢?", "items": ["fr.et", "fr.ta", "fr.carte_detudiant", "fr.ton", "fr.billet", "fr.de", "fr.train"] },
+    { "speaker": "hao", "text": "Ils sont dans mon portefeuille, dans la poche du sac.", "zh": "都在我的钱包里,钱包在背包的小袋里。", "items": ["fr.ils", "fr.etre", "fr.dans", "fr.mon", "fr.portefeuille", "fr.poche", "fr.de", "fr.du", "fr.sac"] },
+    { "speaker": "lucas", "text": "Ton portable, tes écouteurs, tes lunettes de soleil…", "zh": "手机、耳机、太阳镜……", "items": ["fr.ton", "fr.portable", "fr.tes", "fr.ecouteurs", "fr.lunettes", "fr.de", "fr.soleil"] },
+    { "speaker": "lucas", "text": "Et ton chargeur ? Tu as besoin de ton chargeur !", "zh": "充电器呢?充电器可不能少!", "items": ["fr.et", "fr.ton", "fr.chargeur", "fr.tu", "fr.avoir", "fr.avoir_besoin_de"] },
+    { "speaker": "hao", "text": "Mon chargeur ? Il n'est pas dans le sac… Il est où ?", "zh": "我的充电器?不在包里……在哪儿呢?", "items": ["fr.mon", "fr.chargeur", "fr.il", "fr.ne_pas", "fr.etre", "fr.dans", "fr.sac", "fr.ou_lieu"] },
+    { "speaker": "lucas", "text": "Il est sur ton lit, Hao !", "zh": "在你床上呢,浩!", "items": ["fr.il", "fr.etre", "fr.sur", "fr.ton", "fr.lit"] },
+    { "speaker": "lucas", "text": "Et le parapluie ? Il faut un parapluie à Rome !", "zh": "(开玩笑)那雨伞呢?在罗马得带伞!", "items": ["fr.et", "fr.parapluie", "fr.il_faut", "fr.un", "fr.a"] },
+    { "speaker": "hao", "text": "Il est dans ma valise ! Je suis prêt !", "zh": "在箱子里呢!我准备好了!", "items": ["fr.il", "fr.etre", "fr.dans", "fr.ma", "fr.valise", "fr.je", "fr.pret"] }
+  ],
+  "questions": [
+    { "prompt": "浩的学生证和火车票放在哪儿?", "options": ["钱包里", "床上", "箱子里"], "answer": 0, "explainZh": "浩说:Ils sont dans mon portefeuille, dans la poche du sac.(都在钱包里,钱包在背包的小袋里。)" },
+    { "prompt": "浩的充电器最后在哪儿找到的?", "options": ["背包的小袋里", "箱子里", "床上"], "answer": 2, "explainZh": "浩说 Il n'est pas dans le sac…,卢卡看见了:Il est sur ton lit, Hao !" },
+    { "prompt": "卢卡为什么问起雨伞?", "options": ["他想借浩的伞", "他开玩笑说在罗马得带伞", "里昂正在下雨"], "answer": 1, "explainZh": "Et le parapluie ? Il faut un parapluie à Rome !——前两天的天气预报说周末罗马可能下雨。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.nom_de_nom", "titleZh": "学生证、火车票、太阳镜:名词 + de + 名词",
+      "bodyZh": "法语的复合名词常用“名词 + de + 名词”:中心词在前,说明的词在后,和中文的顺序正好相反。la carte d'étudiant(学生的卡 → 学生证)、le billet de train(火车的票 → 火车票)、les lunettes de soleil(太阳的眼镜 → 太阳镜)、le numéro de portable(手机号)。de 后面的名词一般不加冠词,元音前 de 写成 d'。整个词的性看前面的中心词:carte 是阴性,所以说 ta carte d'étudiant。另外,les lunettes(眼镜)一副也用复数,les écouteurs(耳机)平时也常用复数。",
+      "examples": [
+        { "text": "Voilà ma carte d'étudiant.", "zh": "这是我的学生证。" },
+        { "text": "Il faut un billet de train.", "zh": "得有一张火车票。" },
+        { "text": "Tu as tes lunettes de soleil ?", "zh": "你带太阳镜了吗?" }
+      ] },
+    { "id": "fr.g.pret", "titleZh": "Je suis prêt ! / Je suis prête !",
+      "bodyZh": "prêt(准备好的)是形容词,要和主语配合:男生说 Je suis prêt !,女生说 Je suis prête !(多了 e,t 要读出来 [pʁɛt]);复数是 prêts / prêtes。absent / absente、grand / grande 也是这样。问朋友:Tu es prêt ?(问男生)/ Tu es prête ?(问女生)。“我们检查一下吧”口语里常说 On vérifie ?:on 后面的动词和 il 一样用第三人称单数。",
+      "examples": [
+        { "text": "Hao est prêt.", "zh": "浩准备好了。" },
+        { "text": "Chloé est prête.", "zh": "克洛艾准备好了。" },
+        { "text": "On vérifie le sac à dos ?", "zh": "我们检查一下背包吧?" }
+      ] }
+  ],
+  "review": "draft"
+}

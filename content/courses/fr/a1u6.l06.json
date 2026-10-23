@@ -1,0 +1,52 @@
+{
+  "id": "fr.a1u6.l06", "schemaVersion": 1, "lang": "fr", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106060,
+  "titleZh": "火车晚点了——听懂车站广播", "goalZh": "听懂车站广播里的去向、站台、晚点和进站,并把信息转告朋友", "canDoZh": "能听懂火车站广播里的车次去向、站台和晚点时间,并转告朋友",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "fr.mesdames_et_messieurs", "kind": "phrase", "pos": "phrase", "text": "Mesdames et messieurs", "zh": "女士们、先生们", "features": { "ipa": "me.dam e me.sjø" }, "noteZh": "广播、讲话开头的固定说法,是 madame、monsieur 的复数;messieurs 读 [me.sjø],r 和 s 都不发音。" },
+    { "id": "fr.a_destination_de", "kind": "phrase", "pos": "phrase", "text": "à destination de", "zh": "开往……", "features": { "ipa": "a dɛs.ti.na.sjɔ̃ də" }, "noteZh": "广播和车票上的正式说法:le train à destination de Marseille(开往马赛的列车);口语说 le train pour Marseille。" },
+    { "id": "fr.voie", "kind": "word", "pos": "noun", "text": "la voie", "zh": "(火车站的)站台;轨道", "features": { "gender": "f", "ipa": "la vwa" }, "noteZh": "oie 读 [wa];后面直接加字母或数字,不加冠词:Le train part voie G.(火车在 G 站台发车。)" },
+    { "id": "fr.retard", "kind": "word", "pos": "noun", "text": "le retard", "zh": "晚点;迟到", "features": { "gender": "m", "ipa": "lə ʁə.taʁ" }, "noteZh": "说晚了多久用 avoir:Le train a vingt minutes de retard.(晚点二十分钟。)只说“晚了”用 être en retard(第 5 单元);d 不发音。" },
+    { "id": "fr.entrer", "kind": "word", "pos": "verb", "text": "entrer", "zh": "进;进入", "features": { "ipa": "ɑ̃.tʁe" }, "noteZh": "规则的 -er 动词;进哪儿用 entrer dans:J'entre dans la station.;火车进站说 entrer en gare;en 读鼻化元音 [ɑ̃]。" },
+    { "id": "fr.attention", "kind": "word", "pos": "interj", "text": "Attention !", "zh": "注意!小心!", "features": { "ipa": "a.tɑ̃.sjɔ̃" }, "noteZh": "广播、提醒时最常用:Attention, s'il vous plaît !;tion 读 [sjɔ̃],和英语 attention 读法不同。" }
+  ],
+  "reviewItems": ["fr.train", "fr.partir", "fr.gare", "fr.sortie", "fr.juillet"],
+  "lines": [
+    { "speaker": "narrator", "text": "Le train de seize heures douze, à destination de Marseille, part voie G.", "zh": "(火车站广播)16:12 开往马赛的列车,在 G 站台发车。", "items": ["fr.train", "fr.de", "fr.seize", "fr.heure", "fr.douze", "fr.a_destination_de", "fr.partir", "fr.voie"] },
+    { "speaker": "narrator", "text": "Attention : le train a vingt minutes de retard.", "zh": "请注意:该次列车晚点二十分钟。", "items": ["fr.attention", "fr.train", "fr.avoir", "fr.vingt", "fr.minute", "fr.de", "fr.retard"] },
+    { "speaker": "lucas", "text": "Pardon ? C'est mon train ? Quelle voie ?", "zh": "(卢卡一直在看手机)什么?是我的车吗?哪个站台?", "items": ["fr.pardon", "fr.cest", "fr.mon", "fr.train", "fr.quel", "fr.voie"] },
+    { "speaker": "hao", "text": "Voie G. Mais il a vingt minutes de retard. Regarde le panneau !", "zh": "G 站台。不过晚点二十分钟。你看显示牌!", "items": ["fr.voie", "fr.mais", "fr.il", "fr.avoir", "fr.vingt", "fr.minute", "fr.de", "fr.retard", "fr.regarder", "fr.panneau"] },
+    { "speaker": "lucas", "text": "Seize heures trente-deux… On mange un sandwich ? J'ai faim !", "zh": "16:32……我们吃个三明治吧?我饿了!", "items": ["fr.seize", "fr.heure", "fr.trente", "fr.deux", "fr.on", "fr.manger", "fr.un", "fr.sandwich", "fr.jai_faim"] },
+    { "speaker": "hao", "text": "Tu as toujours faim, Lucas !", "zh": "卢卡,你怎么总是饿!", "items": ["fr.tu", "fr.avoir", "fr.toujours", "fr.jai_faim"] },
+    { "speaker": "lucas", "text": "Et toi, tu pars à Paris le 18 avril, non ?", "zh": "对了,你 4 月 18 日去巴黎,对吧?", "items": ["fr.et_toi", "fr.tu", "fr.partir", "fr.a", "fr.dix_huit", "fr.avril", "fr.non"] },
+    { "speaker": "hao", "text": "Oui, en train ! Et toi ? Tu vas aller à Paris ?", "zh": "对,坐火车去!你呢?你也要去巴黎吗?", "items": ["fr.oui", "fr.en", "fr.train", "fr.et_toi", "fr.tu", "fr.aller", "fr.a"] },
+    { "speaker": "lucas", "text": "Oui, en juillet ou en août ! Mais maintenant, Marseille et mes parents !", "zh": "要去,七月或者八月!不过现在,先回马赛看爸妈!", "items": ["fr.oui", "fr.en", "fr.juillet", "fr.ou", "fr.aout", "fr.mais", "fr.maintenant", "fr.et", "fr.mes", "fr.parents"] },
+    { "speaker": "narrator", "text": "Mesdames et messieurs, le train à destination de Marseille va entrer en gare.", "zh": "(广播)女士们、先生们,开往马赛的列车即将进站。", "items": ["fr.mesdames_et_messieurs", "fr.train", "fr.a_destination_de", "fr.aller", "fr.entrer", "fr.en", "fr.gare"] },
+    { "speaker": "lucas", "text": "C'est mon train ! La voie G, c'est où ?", "zh": "我的车来了!G 站台在哪儿?", "items": ["fr.cest", "fr.mon", "fr.train", "fr.voie", "fr.ou_lieu"] },
+    { "speaker": "hao", "text": "À droite, à côté de la sortie. À lundi, Lucas !", "zh": "右边,出口旁边。星期一见,卢卡!", "items": ["fr.a_droite", "fr.a_cote_de", "fr.sortie", "fr.a", "fr.lundi"] }
+  ],
+  "questions": [
+    { "prompt": "开往马赛的火车晚点多久?", "options": ["二十分钟", "十二分钟", "三十二分钟"], "answer": 0, "explainZh": "Attention : le train a vingt minutes de retard.——avoir vingt minutes de retard = 晚点二十分钟。" },
+    { "prompt": "火车在哪个站台发车?", "options": ["D 站台", "G 站台", "B 站台"], "answer": 1, "explainZh": "Le train… à destination de Marseille, part voie G.——voie G 就是 G 站台。" },
+    { "prompt": "火车晚点以后,几点开?", "options": ["16:12", "16:20", "16:32", "17:12"], "answer": 2, "explainZh": "原来是 seize heures douze(16:12),晚点二十分钟,卢卡算出来是 seize heures trente-deux(16:32)。" },
+    { "prompt": "卢卡打算什么时候去巴黎?", "options": ["七月或者八月", "4 月 18 日", "这个周末"], "answer": 0, "explainZh": "Oui, en juillet ou en août !——4 月 18 日去巴黎的是浩;这个周末卢卡回马赛。" }
+  ],
+  "grammar": [
+    { "id": "fr.g.station_announcement", "titleZh": "车站广播的固定结构",
+      "bodyZh": "火车站的广播句子很固定,抓住几个关键词就能听懂:\n① Mesdames et messieurs(女士们、先生们)——广播的开头;\n② le train de seize heures douze(16:12 的那班车)——用 24 小时制报时间;\n③ à destination de Marseille(开往马赛)——正式说法,口语说 le train pour Marseille(pour 第 7 单元学);\n④ part voie G(在 G 站台发车)——voie 后面直接加字母或数字,不加冠词;\n⑤ a vingt minutes de retard(晚点二十分钟);\n⑥ va entrer en gare(即将进站)——近将来时 aller + 动词原形(第 5 课),表示马上要发生的事。\n广播前面常有 Attention(请注意),同样的内容一般说两遍。没听清就问旁边的人:Pardon ? Quelle voie ?",
+      "examples": [
+        { "text": "Le train à destination de Paris part voie B.", "zh": "开往巴黎的列车在 B 站台发车。" },
+        { "text": "Attention : le train a dix minutes de retard.", "zh": "请注意:列车晚点十分钟。" },
+        { "text": "Le train va entrer en gare.", "zh": "列车即将进站。" }
+      ] },
+    { "id": "fr.g.retard_entrer", "titleZh": "avoir … de retard 和 être en retard;entrer",
+      "bodyZh": "说“晚了多久”用 avoir + 时间 + de retard:Le train a vingt minutes de retard.(火车晚点二十分钟。)只说“晚了”用 être en retard(第 5 单元第 1 课):Le train est en retard. 第一种用 avoir,不用 être:✗ Le train est vingt minutes de retard;英语说 The train is twenty minutes late,中国学生容易照着英语说错。人也一样:Je suis en retard ! / J'ai cinq minutes de retard.\n算一算:16 h 12 晚点 20 分钟,就是 16 h 32(seize heures trente-deux)。\nentrer(进入)是规则的 -er 动词:j'entre, tu entres, il entre, nous entrons, vous entrez, ils entrent;进哪里用 entrer dans:J'entre dans la station.;火车“进站”是固定说法 entrer en gare。",
+      "examples": [
+        { "text": "Le train est en retard.", "zh": "火车晚点了。" },
+        { "text": "J'ai cinq minutes de retard.", "zh": "我晚了五分钟。" },
+        { "text": "J'entre dans la station.", "zh": "我走进地铁站。" }
+      ] }
+  ],
+  "review": "draft"
+}

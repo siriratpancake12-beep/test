@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u16.l05", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-16 Home sweet home", "order": 116050,
+  "titleZh": "我的钱包在哪儿?", "goalZh": "会用 under、behind、between、above、inside 说东西的位置", "canDoZh": "能用方位介词说出东西在哪儿,帮别人找东西、把东西放回原处",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "en.under", "kind": "word", "pos": "prep", "text": "under", "zh": "在……下面", "features": { "ipa": "ˈʌndɚ" }, "noteZh": "under the bed 在床底下;重音在前 UN-der。" },
+    { "id": "en.behind", "kind": "word", "pos": "prep", "text": "behind", "zh": "在……后面", "features": { "ipa": "bɪˈhaɪnd" }, "noteZh": "behind the desk 在书桌后面;重音在后 be-HIND。" },
+    { "id": "en.between", "kind": "word", "pos": "prep", "text": "between", "zh": "在……中间(两者之间)", "features": { "ipa": "bɪˈtwiːn" }, "noteZh": "between A and B 在 A 和 B 之间;重音在后 be-TWEEN,ee 是长音。" },
+    { "id": "en.above", "kind": "word", "pos": "prep", "text": "above", "zh": "在……上方", "features": { "ipa": "əˈbʌv" }, "noteZh": "above 是\"在上方、不挨着\",on 是\"挨着放在上面\";重音在后 a-BOVE。" },
+    { "id": "en.inside", "kind": "word", "pos": "prep", "text": "inside", "zh": "在……里面", "features": { "ipa": "ˌɪnˈsaɪd" }, "noteZh": "inside the drawer 在抽屉里;和 in 意思差不多,更强调\"在里头\"。" },
+    { "id": "en.closet", "kind": "word", "pos": "noun", "text": "closet", "zh": "衣柜;壁橱", "features": { "ipa": "ˈklɑːzɪt" }, "noteZh": "美式说 closet(墙里的壁橱),英式多说 wardrobe;s 读 /z/。" },
+    { "id": "en.bed", "kind": "word", "pos": "noun", "text": "bed", "zh": "床", "features": { "ipa": "bed" }, "noteZh": "under the bed 床底下;第 3 单元学过 go to bed(去睡觉);词尾 d 轻轻收住。" },
+    { "id": "en.shelf", "kind": "word", "pos": "noun", "text": "shelf", "zh": "架子;搁板", "features": { "ipa": "ʃelf" }, "noteZh": "on the shelf 在架子上;复数 shelves。" },
+    { "id": "en.drawer", "kind": "word", "pos": "noun", "text": "drawer", "zh": "抽屉", "features": { "ipa": "drɔːr" }, "noteZh": "美式读 /drɔːr/,一个音节;in the drawer 在抽屉里。" }
+  ],
+  "reviewItems": ["en.wallet", "en.id", "en.phone", "en.headphones", "en.box", "en.next_to"],
+  "lines": [
+    { "speaker": "ethan", "text": "Lei! Where's my wallet? And my ID?", "zh": "(查房前两天的中午,伊森刚起床)磊!我的钱包呢?还有我的学生证?", "items": ["en.wallet", "en.id"] },
+    { "speaker": "lei", "text": "Your wallet is under your bed.", "zh": "你的钱包在你床底下。", "items": ["en.wallet", "en.under", "en.bed"] },
+    { "speaker": "lei", "text": "And your ID is inside the drawer.", "zh": "学生证在抽屉里。", "items": ["en.id", "en.inside", "en.drawer"] },
+    { "speaker": "ethan", "text": "Thanks! And my phone?", "zh": "谢啦!那我的手机呢?", "items": ["en.thank_you", "en.phone"] },
+    { "speaker": "lei", "text": "It's behind the desk.", "zh": "在书桌后面。", "items": ["en.behind", "en.desk"] },
+    { "speaker": "ethan", "text": "Where are my headphones?", "zh": "我的耳机在哪儿?", "items": ["en.headphones"] },
+    { "speaker": "lei", "text": "On the shelf, above my bed.", "zh": "在架子上,我床的上方。", "items": ["en.shelf", "en.above", "en.bed"] },
+    { "speaker": "ethan", "text": "And my other sock?", "zh": "那我的另一只袜子呢?", "items": ["en.other", "en.socks"] },
+    { "speaker": "lei", "text": "It's between the two boxes, next to the closet.", "zh": "在两个箱子中间,衣柜旁边。", "items": ["en.between", "en.box", "en.next_to", "en.closet"] },
+    { "speaker": "lei", "text": "And please put your shoes in the closet!", "zh": "还有,请把你的鞋放进衣柜里!", "items": ["en.put", "en.shoes", "en.closet"] }
+  ],
+  "questions": [
+    { "prompt": "伊森的钱包在哪儿?", "options": ["他的床底下", "书桌后面", "抽屉里"], "answer": 0, "explainZh": "Your wallet is under your bed.——under 是\"在……下面\";抽屉里的是学生证。" },
+    { "prompt": "伊森的手机在哪儿?", "options": ["抽屉里", "书桌后面", "架子上"], "answer": 1, "explainZh": "It's behind the desk.——behind 是\"在……后面\";架子上的是耳机。" },
+    { "prompt": "磊让伊森把鞋放到哪儿?", "options": ["床底下", "门口", "衣柜里"], "answer": 2, "explainZh": "And please put your shoes in the closet!——放进衣柜里。" }
+  ],
+  "grammar": [
+    { "id": "en.g.prepositions_in_room", "titleZh": "东西在哪儿:under、behind、between、above、inside",
+      "bodyZh": "第 5 单元学过说街上的位置(next to、across from、in front of),说房间里的东西再加几个:under(在……下面)、behind(在……后面)、between A and B(在 A 和 B 中间)、above(在……上方)、inside(在……里面)。\n英语介词放在名词前面:under the bed(床底下)、behind the desk(书桌后面)——中文的\"下面、后面\"在名词后头,英语正好反过来。above 和 on 不一样:on the desk 是挨着桌面放着,above the desk 是在上方、不挨着(比如墙上的架子)。between 后面常说两样东西:between the two boxes / between the bed and the closet。\n放东西用 put + 东西 + 介词:Put your shoes in the closet.。",
+      "examples": [
+        { "text": "Your wallet is under your bed.", "zh": "你的钱包在你床底下。" },
+        { "text": "It's between the two boxes, next to the closet.", "zh": "在两个箱子中间,衣柜旁边。" },
+        { "text": "Your headphones are on the shelf, above my bed.", "zh": "你的耳机在架子上,我床的上方。" },
+        { "text": "Please put your shoes in the closet!", "zh": "请把你的鞋放进衣柜里!" }
+      ] },
+    { "id": "en.g.preposition_stress", "titleZh": "发音:between、behind、above 重音在后",
+      "bodyZh": "这几个两个音节的介词重音都在后:be-TWEEN、be-HIND、a-BOVE、in-SIDE;第一个音节又轻又短(be 读 /bɪ/,a 读 /ə/)。under 是例外,重音在前 UN-der。在句子里,介词一般读得轻,重音落在后面的名词上:It's behind the DESK.。",
+      "examples": [
+        { "text": "It's behind the desk.", "zh": "在书桌后面。" },
+        { "text": "Your ID is inside the drawer.", "zh": "你的学生证在抽屉里。" }
+      ] }
+  ],
+  "review": "draft"
+}
