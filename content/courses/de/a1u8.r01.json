@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u8.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-8 健康与周末", "order": 108045,
+  "titleZh": "给老师的请假邮件", "goalZh": "读懂、也会写一封简短的请假邮件:原因、请几天假、问作业", "canDoZh": "能读懂、也能写一封简短的请假邮件:说明原因、请几天假、问作业",
+  "skills": ["read", "write"], "estimatedMinutes": 15,
+  "newItems": [
+    { "id": "de.hausaufgabe", "kind": "word", "pos": "noun", "text": "die Hausaufgabe", "zh": "家庭作业", "features": { "gender": "f", "plural": "die Hausaufgaben", "ipa": "ˈhaʊ̯sˌʔaʊ̯fɡaːbə" }, "noteZh": "常用复数:die Hausaufgaben machen(做作业);das Haus + die Aufgabe(任务)。" },
+    { "id": "de.uebermorgen", "kind": "word", "pos": "adv", "text": "übermorgen", "zh": "后天", "features": { "ipa": "ˈyːbɐˌmɔʁɡn̩" }, "noteZh": "heute(今天)– morgen(明天)– übermorgen(后天);重音在 ü 上,嘴唇撅圆。" },
+    { "id": "de.bleiben", "kind": "word", "pos": "verb", "text": "bleiben", "zh": "待;留", "features": { "ipa": "ˈblaɪ̯bn̩" }, "noteZh": "zu Hause bleiben(待在家里):Ich bleibe heute zu Hause.;ei 读 [aɪ]。小心:bleiben 是“留下”,不是“离开”。" }
+  ],
+  "reviewItems": ["de.krank", "de.erkaeltung", "de.fieber", "de.muede", "de.mitbringen"],
+  "lines": [
+    { "speaker": "wei", "text": "Liebe Frau Wagner,", "zh": "亲爱的瓦格纳老师:", "items": ["de.liebe", "de.frau"] },
+    { "speaker": "wei", "text": "leider bin ich krank: Ich habe eine Erkältung und Fieber.", "zh": "很遗憾,我病了:我感冒了,还发烧。", "items": ["de.leider", "de.sein", "de.ich", "de.krank", "de.haben", "de.ein", "de.erkaeltung", "de.und", "de.fieber"] },
+    { "speaker": "wei", "text": "Mein Kopf tut weh, und ich bin sehr müde.", "zh": "我头疼,也很累。", "items": ["de.mein", "de.kopf", "de.wehtun", "de.und", "de.ich", "de.sein", "de.sehr", "de.muede"] },
+    { "speaker": "wei", "text": "Die Ärztin sagt, ich muss zu Hause bleiben.", "zh": "医生说我得待在家里休息。", "items": ["de.aerztin", "de.sagen", "de.ich", "de.muessen", "de.zu_hause", "de.bleiben"] },
+    { "speaker": "wei", "text": "Ich kann morgen und übermorgen nicht in den Kurs kommen.", "zh": "明天和后天我不能来上课了。", "items": ["de.ich", "de.koennen", "de.morgen", "de.und", "de.uebermorgen", "de.nicht", "de.in", "de.kurs", "de.ich_komme_aus"] },
+    { "speaker": "wei", "text": "Was sind die Hausaufgaben?", "zh": "这两天的作业是什么?", "items": ["de.was", "de.sein", "de.hausaufgabe"] },
+    { "speaker": "wei", "text": "Kann Sofia mir die Hausaufgaben mitbringen? Sie wohnt auch in meiner WG.", "zh": "能请索菲娅把作业带给我吗?她也住在我们 WG。", "items": ["de.koennen", "de.ich", "de.hausaufgabe", "de.mitbringen", "de.sie_sg", "de.wohnen", "de.auch", "de.in", "de.mein", "de.wg"] },
+    { "speaker": "wei", "text": "Am Donnerstag komme ich dann in den Kurs.", "zh": "星期四我再来上课。", "items": ["de.am", "de.donnerstag", "de.ich_komme_aus", "de.ich", "de.dann", "de.in", "de.kurs"] },
+    { "speaker": "wei", "text": "Vielen Dank und viele Grüße", "zh": "非常感谢!祝好", "items": ["de.vielen_dank", "de.und", "de.viele_gruesse"] },
+    { "speaker": "wei", "text": "Ihr Wei Wang", "zh": "您的学生 王伟", "items": ["de.ihr_hoeflich"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么给瓦格纳老师写邮件?", "options": ["他想问考试的日期", "他病了,要请假", "他想换一个德语班"], "answer": 1, "explainZh": "leider bin ich krank … Ich kann morgen und übermorgen nicht in den Kurs kommen.(我病了,明天和后天不能来上课。)" },
+    { "prompt": "王伟哪几天不能去上课?", "options": ["今天和明天", "星期四和星期五", "明天和后天"], "answer": 2, "explainZh": "morgen und übermorgen = 明天和后天;星期四他再来上课(Am Donnerstag komme ich dann in den Kurs)。" },
+    { "prompt": "王伟请谁把作业带给他?为什么?", "options": ["索菲娅,因为她也住在他的 WG", "莉娜,因为她是他的学伴", "约纳斯,因为他有车"], "answer": 0, "explainZh": "Kann Sofia mir die Hausaufgaben mitbringen? Sie wohnt auch in meiner WG.(索菲娅也住在他的 WG。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u8_entschuldigung_mail", "titleZh": "写请假邮件:称呼、原因、请几天假、请求",
+      "bodyZh": "请假邮件照这个顺序写(和歌德 A1 写作第二部分一样):称呼 → 原因(leider bin ich krank …)→ 哪几天不能来(Ich kann morgen und übermorgen nicht …)→ 问作业、提请求(Kann Sofia mir die Hausaufgaben mitbringen?)→ 结尾(Vielen Dank und viele Grüße)→ 名字。\n称呼:熟悉的老师可以写 Liebe Frau Wagner, / Lieber Herr …,;更正式写 Sehr geehrte Frau Wagner,。不管哪种称呼,正文里一直用 Sie(您)。结尾写 Ihr Wei Wang(男)/ Ihre …(女),意思是“您的学生……”。\n转述别人的话可以用 sagen + 逗号,后面的句子动词还在第二位:Die Ärztin sagt, ich muss zu Hause bleiben.\n情态动词复习:Ich kann … nicht kommen.(不能来)/ Ich muss zu Hause bleiben.(必须待在家)——变位的情态动词在第二位,另一个动词原形放句末。",
+      "examples": [
+        { "text": "Liebe Frau Wagner,", "zh": "亲爱的瓦格纳老师:" },
+        { "text": "Ich kann morgen nicht in den Kurs kommen.", "zh": "我明天不能来上课。" },
+        { "text": "Die Ärztin sagt, ich muss zu Hause bleiben.", "zh": "医生说我得待在家里。" }
+      ] }
+  ],
+  "review": "draft"
+}

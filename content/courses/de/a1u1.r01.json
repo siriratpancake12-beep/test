@@ -1,0 +1,36 @@
+{
+  "id": "de.a1u1.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-1 你好,我是……", "order": 101045,
+  "titleZh": "迎新周的新生墙", "goalZh": "读懂新生墙上的自我介绍卡片,复习 ich 的动词形式、sein 和 Student / Studentin", "canDoZh": "能读懂简短的自我介绍卡片,找出每个人叫什么、来自哪里、住在哪里、是不是学生",
+  "skills": ["read", "write"], "estimatedMinutes": 13.5,
+  "newItems": [
+    { "id": "de.herzlich_willkommen", "kind": "phrase", "pos": "phrase", "text": "Herzlich willkommen!", "zh": "热烈欢迎!/欢迎!", "features": { "ipa": "ˈhɛʁtslɪç vɪlˈkɔmən" }, "noteZh": "欢迎别人来到某地:Herzlich willkommen in Berlin!;只说 Willkommen! 也可以。willkommen 的 w 读 [v],重音在 kom 上。" }
+  ],
+  "reviewItems": ["de.ich_heisse", "de.ich_komme_aus", "de.wohnen", "de.student", "de.studentin"],
+  "lines": [
+    { "speaker": "narrator", "text": "Herzlich willkommen in Berlin!", "zh": "热烈欢迎来到柏林!", "items": ["de.herzlich_willkommen", "de.in"] },
+    { "speaker": "narrator", "text": "Wie heißt du? Woher kommst du? Wo wohnst du?", "zh": "你叫什么?你从哪里来?你住在哪里?", "items": ["de.wie", "de.ich_heisse", "de.du", "de.woher", "de.ich_komme_aus", "de.wo", "de.wohnen"] },
+    { "speaker": "lena", "text": "Hallo! Ich heiße Lena.", "zh": "你好!我叫莉娜。", "items": ["de.hallo", "de.ich_heisse", "de.ich"] },
+    { "speaker": "lena", "text": "Ich komme aus Berlin und wohne in Kreuzberg.", "zh": "我是柏林人,住在克罗伊茨贝格区。", "items": ["de.ich_komme_aus", "de.ich", "de.und", "de.wohnen", "de.in"] },
+    { "speaker": "lena", "text": "Ich bin Studentin.", "zh": "我是大学生。", "items": ["de.ich", "de.sein", "de.studentin"] },
+    { "speaker": "wei", "text": "Guten Tag! Ich heiße Wei Wang.", "zh": "大家好!我叫王伟。", "items": ["de.guten_tag", "de.ich_heisse", "de.ich"] },
+    { "speaker": "wei", "text": "Ich komme aus Chengdu in China.", "zh": "我来自中国成都。", "items": ["de.ich_komme_aus", "de.ich", "de.in", "de.china"] },
+    { "speaker": "wei", "text": "Ich wohne in Neukölln. Ich bin Student.", "zh": "我住在新克尔恩区。我是大学生。", "items": ["de.ich", "de.wohnen", "de.in", "de.sein", "de.student"] },
+    { "speaker": "narrator", "text": "Hallo! Ich bin Mia und komme aus Hamburg.", "zh": "你好!我是米娅,来自汉堡。", "items": ["de.hallo", "de.ich", "de.sein", "de.und", "de.ich_komme_aus"] },
+    { "speaker": "narrator", "text": "Ich wohne in Kreuzberg. Ich bin Studentin.", "zh": "我住在克罗伊茨贝格区。我是大学生。", "items": ["de.ich", "de.wohnen", "de.in", "de.sein", "de.studentin"] },
+    { "speaker": "narrator", "text": "Ich heiße Tom und komme aus Köln.", "zh": "我叫汤姆,来自科隆。", "items": ["de.ich_heisse", "de.ich", "de.und", "de.ich_komme_aus"] },
+    { "speaker": "narrator", "text": "Ich wohne in Neukölln und bin Student. Und du?", "zh": "我住在新克尔恩区,是大学生。你呢?", "items": ["de.ich", "de.wohnen", "de.in", "de.und", "de.sein", "de.student", "de.du"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜住在柏林的哪个区?", "options": ["新克尔恩(Neukölln)", "克罗伊茨贝格(Kreuzberg)", "汉堡(Hamburg)"], "answer": 1, "explainZh": "莉娜的卡片上写着:Ich komme aus Berlin und wohne in Kreuzberg.(我是柏林人,住在克罗伊茨贝格。)汉堡是米娅的家乡,不是柏林的区。" },
+    { "prompt": "米娅(Mia)来自哪里?", "options": ["汉堡", "科隆", "柏林"], "answer": 0, "explainZh": "米娅写的是 Ich komme aus Hamburg.;来自科隆的是汤姆:Ich heiße Tom und komme aus Köln.。" },
+    { "prompt": "卡片上哪两个人住在新克尔恩?", "options": ["莉娜和米娅", "王伟和莉娜", "王伟和汤姆"], "answer": 2, "explainZh": "王伟写 Ich wohne in Neukölln.,汤姆写 Ich wohne in Neukölln und bin Student.;莉娜和米娅都住在克罗伊茨贝格。" },
+    { "prompt": "米娅为什么写 Ich bin Studentin,不写 Ich bin Student?", "options": ["因为她来自汉堡", "因为她是女生,女大学生是 Studentin", "因为她住在克罗伊茨贝格"], "answer": 1, "explainZh": "说身份分男女:男大学生 Student,女大学生 Studentin。王伟和汤姆写 Ich bin Student.,莉娜和米娅写 Ich bin Studentin.。" }
+  ],
+  "grammar": [
+    { "id": "de.g.ich_karte", "titleZh": "复习:自我介绍的四句话",
+      "bodyZh": "新生墙上的卡片都用 ich 的形式写:Ich heiße …(名字)/ Ich komme aus …(来自哪个城市、国家)/ Ich wohne in …(住在哪儿)/ Ich bin …(身份)。ich 后面的动词一般以 -e 结尾:heiße、komme、wohne;sein 是例外:ich bin。说名字也可以用 sein:Ich bin Mia. 和 Ich heiße Mia. 意思一样。说身份不加冠词,而且分男女:Ich bin Student.(男)/ Ich bin Studentin.(女)——中文都说“大学生”,德语女生要加 -in。卡片最后的 Und du? 是在问读卡片的人。",
+      "examples": [ { "text": "Ich heiße Lena.", "zh": "我叫莉娜。" }, { "text": "Ich komme aus Chengdu in China.", "zh": "我来自中国成都。" }, { "text": "Ich bin Student. Ich bin Studentin.", "zh": "我是(男)大学生。我是(女)大学生。" } ] }
+  ],
+  "review": "draft"
+}

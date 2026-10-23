@@ -19,7 +19,7 @@
     { "speaker": "kontrolleurin", "text": "Guten Tag, Fahrkartenkontrolle! Die Fahrkarten, bitte.", "zh": "大家好,查票了!请出示车票。", "items": ["de.guten_tag", "de.fahrkarte", "de.kontrolle", "de.bitte"] },
     { "speaker": "jonas", "text": "Wei, du hast die Fahrkarten, oder?", "zh": "王伟,票在你那儿,对吧?", "items": ["de.du", "de.haben", "de.fahrkarte", "de.oder"] },
     { "speaker": "wei", "text": "Ja, Moment, bitte … Wo sind die Fahrkarten?", "zh": "对,请稍等……票呢?", "items": ["de.ja", "de.moment", "de.bitte", "de.wo", "de.sein", "de.fahrkarte"] },
-    { "speaker": "kontrolleurin", "text": "Ich warte, ich habe Zeit.", "zh": "我等您,不着急。", "items": ["de.ich", "de.warten", "de.haben", "de.zeit"] },
+    { "speaker": "kontrolleurin", "text": "Kein Problem, ich warte.", "zh": "没关系,我等您。", "items": ["de.kein", "de.problem", "de.ich", "de.warten"] },
     { "speaker": "wei", "text": "Hier, in meiner Tasche! Ich zeige Ihnen die Fahrkarten.", "zh": "在这儿,在我包里!我给您看车票。", "items": ["de.hier", "de.in", "de.mein", "de.tasche", "de.ich", "de.zeigen", "de.sie_hoeflich", "de.fahrkarte"] },
     { "speaker": "kontrolleurin", "text": "Danke. Zwei Fahrkarten nach Hamburg, hin und zurück. Gut!", "zh": "谢谢。两张去汉堡的往返票。没问题!", "items": ["de.danke", "de.zwei", "de.fahrkarte", "de.nach", "de.hin_und_zurueck", "de.gut"] },
     { "speaker": "wei", "text": "Entschuldigung, wann kommen wir in Hamburg an?", "zh": "请问,我们几点到汉堡?", "items": ["de.entschuldigung", "de.wann", "de.ankommen", "de.wir", "de.in"] },

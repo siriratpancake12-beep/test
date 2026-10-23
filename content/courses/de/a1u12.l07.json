@@ -1,0 +1,46 @@
+{
+  "id": "de.a1u12.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 考试周", "order": 112070,
+  "titleZh": "考试那天", "goalZh": "听懂考场上的说明,能按提示词做自我介绍,拼读名字、报电话号码", "canDoZh": "能在考场听懂监考的说明,在口语考试里自我介绍、拼读名字、报电话号码",
+  "skills": ["listen", "speak"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.alter", "kind": "word", "pos": "noun", "text": "das Alter", "zh": "年龄", "features": { "gender": "n", "plural": "-", "ipa": "ˈaltɐ" }, "noteZh": "alt(……岁)的名词;中性:das Alter;表格和口语考试的提示词 Alter? 回答:Ich bin … Jahre alt.。" },
+    { "id": "de.raum", "kind": "word", "pos": "noun", "text": "der Raum", "zh": "房间;教室(公共场所的)", "features": { "gender": "m", "plural": "die Räume", "ipa": "ʁaʊ̯m" }, "noteZh": "学校、公司、考场里的房间常说 Raum:Raum drei(3 号教室);家里的房间一般说 das Zimmer;复数变元音:die Räume。" },
+    { "id": "de.wohnort", "kind": "word", "pos": "noun", "text": "der Wohnort", "zh": "居住地", "features": { "gender": "m", "plural": "die Wohnorte", "ipa": "ˈvoːnˌʔɔʁt" }, "noteZh": "wohnen(住)+ der Ort(地方)→ der Wohnort;回答:Ich wohne in …;w 读 [v]。" },
+    { "id": "de.telefonnummer", "kind": "word", "pos": "noun", "text": "die Telefonnummer", "zh": "电话号码", "features": { "gender": "f", "plural": "die Telefonnummern", "ipa": "teleˈfoːnˌnʊmɐ" }, "noteZh": "das Telefon + die Nummer → die Telefonnummer(性跟 Nummer 走);重音在 fon 上;报号码一位一位地说,2 常说成 zwo。" },
+    { "id": "de.nervoes", "kind": "word", "pos": "adj", "text": "nervös", "zh": "紧张", "features": { "ipa": "nɛʁˈvøːs" }, "noteZh": "外来词,v 在这里读 [v];重音在 vös 上,ö 是长音;Ich bin sehr nervös.(我很紧张。)" },
+    { "id": "de.angst", "kind": "word", "pos": "noun", "text": "die Angst", "zh": "害怕;担心", "features": { "gender": "f", "plural": "die Ängste", "ipa": "aŋst" }, "noteZh": "德语说“害怕”用 haben:Ich habe Angst.(不说 Ich bin Angst);Keine Angst!(别怕!/ 别担心!);Angst vor … = 害怕……;ng 读 [ŋ]。" },
+    { "id": "de.viel_glueck", "kind": "phrase", "pos": "phrase", "text": "Viel Glück!", "zh": "祝你好运!", "features": { "ipa": "fiːl ˈɡlʏk" }, "noteZh": "考试、面试之前常说;das Glück = 运气、幸福;v 读 [f],ü 是短音 [ʏ]。" },
+    { "id": "de.erzaehlen", "kind": "word", "pos": "verb", "text": "erzählen", "zh": "讲;讲述", "features": { "ipa": "ɛɐ̯ˈtsɛːlən" }, "noteZh": "er- 不可分、不重读,重音在 zäh 上;ä 是长音,z 读 [ts];Erzählen Sie bitte!(请您讲讲!)对朋友说 Erzähl!" }
+  ],
+  "reviewItems": ["de.pass", "de.buchstabieren", "de.hobby", "de.geben", "de.bekommen", "de.platz"],
+  "lines": [
+    { "speaker": "mitarbeiterin", "text": "Guten Morgen! Ihren Pass, bitte.", "zh": "早上好!请出示护照。", "items": ["de.guten_morgen", "de.ihr_hoeflich", "de.pass", "de.bitte"] },
+    { "speaker": "wei", "text": "Guten Morgen! Hier ist mein Pass. Ich bin sehr nervös.", "zh": "早上好!这是我的护照。我好紧张。", "items": ["de.guten_morgen", "de.hier", "de.sein", "de.mein", "de.pass", "de.ich", "de.sehr", "de.nervoes"] },
+    { "speaker": "mitarbeiterin", "text": "Keine Angst! Ihr Platz ist in Raum drei.", "zh": "别紧张!您的座位在 3 号教室。", "items": ["de.kein", "de.angst", "de.ihr_hoeflich", "de.platz", "de.sein", "de.in", "de.raum", "de.drei"] },
+    { "speaker": "mitarbeiterin", "text": "Geben Sie mir bitte auch Ihr Handy.", "zh": "请把您的手机也交给我。", "items": ["de.geben", "de.sie_hoeflich", "de.ich", "de.bitte", "de.auch", "de.ihr_hoeflich", "de.handy"] },
+    { "speaker": "mitarbeiterin", "text": "Sie bekommen es um zwölf Uhr zurück. Viel Glück!", "zh": "12 点还给您。祝您好运!", "items": ["de.sie_hoeflich", "de.bekommen", "de.es", "de.um", "de.zwoelf", "de.uhr", "de.zurueck", "de.viel_glueck"] },
+    { "speaker": "mitarbeiterin", "text": "Herr Wang, erzählen Sie bitte: Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby.", "zh": "(下午,口语考试)王先生,请您讲一讲:姓名、年龄、国家、居住地、语言、职业、爱好。", "items": ["de.herr", "de.erzaehlen", "de.sie_hoeflich", "de.bitte", "de.name", "de.alter", "de.land", "de.wohnort", "de.sprache", "de.beruf", "de.hobby"] },
+    { "speaker": "wei", "text": "Ich heiße Wei Wang und bin einundzwanzig Jahre alt.", "zh": "我叫王伟,今年二十一岁。", "items": ["de.ich_heisse", "de.und", "de.sein", "de.eins", "de.zwanzig", "de.jahr", "de.alt"] },
+    { "speaker": "wei", "text": "Ich komme aus China und wohne in Berlin, in Neukölln.", "zh": "我来自中国,住在柏林的新克尔恩区。", "items": ["de.ich_komme_aus", "de.china", "de.und", "de.wohnen", "de.in"] },
+    { "speaker": "wei", "text": "Ich spreche Chinesisch, Englisch und Deutsch. Ich bin Student.", "zh": "我会说中文、英语和德语。我是大学生。", "items": ["de.ich", "de.sprechen", "de.chinesisch", "de.englisch", "de.und", "de.deutsch", "de.sein", "de.student"] },
+    { "speaker": "wei", "text": "Mein Hobby ist Kochen, und ich spiele gern Fußball.", "zh": "我的爱好是做饭,我还喜欢踢足球。", "items": ["de.mein", "de.hobby", "de.sein", "de.kochen", "de.und", "de.ich", "de.spielen", "de.gern", "de.fussball"] },
+    { "speaker": "mitarbeiterin", "text": "Danke! Buchstabieren Sie bitte Ihren Namen. Und Ihre Telefonnummer?", "zh": "谢谢!请拼一下您的姓。还有您的电话号码?", "items": ["de.danke", "de.buchstabieren", "de.sie_hoeflich", "de.bitte", "de.ihr_hoeflich", "de.name", "de.und", "de.telefonnummer"] },
+    { "speaker": "wei", "text": "W-A-N-G. Null, eins, fünf, zwo, fünf, vier, fünf, neun, neun, drei, sieben, eins.", "zh": "W-A-N-G。0152 54599371。", "items": ["de.null", "de.eins", "de.fuenf", "de.zwei", "de.vier", "de.neun", "de.drei", "de.sieben"] }
+  ],
+  "questions": [
+    { "prompt": "早上进考场时,工作人员让王伟交出什么?", "options": ["手机和笔", "护照和词典", "护照和手机"], "answer": 2, "explainZh": "工作人员说:Ihren Pass, bitte.(请出示护照。)又说:Geben Sie mir bitte auch Ihr Handy.(请把手机也交给我。)" },
+    { "prompt": "王伟在哪个教室考试?", "options": ["3 号教室", "2 号教室", "12 号教室"], "answer": 0, "explainZh": "工作人员说:Ihr Platz ist in Raum drei.(您的座位在 3 号教室。)" },
+    { "prompt": "王伟什么时候能拿回手机?", "options": ["下午两点", "12 点", "考完口语以后"], "answer": 1, "explainZh": "工作人员说:Sie bekommen es um zwölf Uhr zurück.(12 点还给您。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u12_vorstellen", "titleZh": "口语第一部分:看提示词做自我介绍",
+      "bodyZh": "考官给一张提示词卡片,每个词说一句:Name → Ich heiße …;Alter → Ich bin … Jahre alt.;Land → Ich komme aus …;Wohnort → Ich wohne in …;Sprachen → Ich spreche …;Beruf → Ich bin Student.(说职业不加冠词);Hobby → Mein Hobby ist … / Ich … gern.。接着考官常请你拼读名字(W-A-N-G),再说一个号码:电话号码一位一位地说,2 常说成 zwo,不容易和 drei 混。\n考场上还会听到:Ihren Pass, bitte.(请出示护照)/ Geben Sie mir bitte …(请把……给我)/ Sie bekommen es … zurück.(……还给您,zurückbekommen 是可分动词)/ Keine Angst!(别紧张)/ Viel Glück!(祝您好运)。",
+      "examples": [
+        { "text": "Ich bin einundzwanzig Jahre alt.", "zh": "我二十一岁。" },
+        { "text": "Ich wohne in Berlin, in Neukölln.", "zh": "我住在柏林的新克尔恩区。" },
+        { "text": "Mein Hobby ist Kochen.", "zh": "我的爱好是做饭。" }
+      ] }
+  ],
+  "review": "draft"
+}

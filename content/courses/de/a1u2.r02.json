@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u2.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-2 我的家人和朋友", "order": 102085,
+  "titleZh": "我奶奶也学德语", "goalZh": "读懂一篇讲家人的小故事,复习第三人称变位、物主冠词和职业的说法", "canDoZh": "能读懂一篇讲家人的小故事,说出故事里每个人是谁、做什么工作、会说什么语言",
+  "skills": ["read", "write"], "estimatedMinutes": 18,
+  "newItems": [
+    { "id": "de.telefonieren", "kind": "word", "pos": "verb", "text": "telefonieren", "zh": "打电话;通话", "features": { "ipa": "teləfoˈniːʁən" }, "noteZh": "规则动词:ich telefoniere, wir telefonieren;视频通话也可以说 telefonieren。-ieren 结尾的动词重音都在 ie 上。" },
+    { "id": "de.lachen", "kind": "word", "pos": "verb", "text": "lachen", "zh": "笑", "features": { "ipa": "ˈlaxn̩" }, "noteZh": "规则动词:ich lache, wir lachen;a 后面的 ch 读 [x]。" },
+    { "id": "de.fremdsprache", "kind": "word", "pos": "noun", "text": "die Fremdsprache", "zh": "外语", "features": { "gender": "f", "plural": "die Fremdsprachen", "ipa": "ˈfʁɛmtˌʃpʁaːxə" }, "noteZh": "fremd(外来的)+ Sprache(语言),性跟着 die Sprache;fremd 的 d 读 [t],Sprache 的 sp 读 [ʃp]。" },
+    { "id": "de.schuelerin", "kind": "word", "pos": "noun", "text": "die Schülerin", "zh": "女中小学生", "features": { "gender": "f", "plural": "die Schülerinnen", "ipa": "ˈʃyːləʁɪn" }, "noteZh": "der Schüler 加 -in;复数 die Schülerinnen。ü:舌头放在发 i 的位置,嘴唇撮圆。" }
+  ],
+  "reviewItems": ["de.koch", "de.lehrerin", "de.aerztin", "de.ihr_poss", "de.freund"],
+  "lines": [
+    { "speaker": "wei", "text": "Meine Familie wohnt in Chengdu in China.", "zh": "我家在中国成都。", "items": ["de.mein", "de.familie", "de.wohnen", "de.in", "de.china"] },
+    { "speaker": "wei", "text": "Mein Vater ist Koch, und meine Mutter ist Lehrerin.", "zh": "我爸爸是厨师,我妈妈是老师。", "items": ["de.mein", "de.vater", "de.sein", "de.koch", "de.und", "de.mutter", "de.lehrerin"] },
+    { "speaker": "wei", "text": "Sie spricht gut Englisch.", "zh": "她英语说得很好。", "items": ["de.sie_sg", "de.sprechen", "de.gut", "de.englisch"] },
+    { "speaker": "wei", "text": "Meine Schwester Jing ist Ärztin. Sie arbeitet in Shanghai.", "zh": "我姐姐王静是医生,她在上海工作。", "items": ["de.mein", "de.schwester", "de.sein", "de.aerztin", "de.sie_sg", "de.arbeiten", "de.in"] },
+    { "speaker": "wei", "text": "Meine Oma wohnt auch in Chengdu.", "zh": "我奶奶也住在成都。", "items": ["de.mein", "de.oma", "de.wohnen", "de.auch", "de.in"] },
+    { "speaker": "wei", "text": "Ich lerne Deutsch in Berlin. Meine Oma lernt auch Deutsch!", "zh": "我在柏林学德语。我奶奶也在学德语!", "items": ["de.ich", "de.lernen", "de.deutsch", "de.in", "de.mein", "de.oma", "de.auch"] },
+    { "speaker": "wei", "text": "Meine Mutter ist ihre Lehrerin.", "zh": "我妈妈是她的老师。", "items": ["de.mein", "de.mutter", "de.sein", "de.ihr_poss", "de.lehrerin"] },
+    { "speaker": "wei", "text": "Und Oma? Sie ist Schülerin!", "zh": "那奶奶呢?她成了学生!", "items": ["de.und", "de.oma", "de.sie_sg", "de.sein", "de.schuelerin"] },
+    { "speaker": "wei", "text": "Oma lernt „Hallo“, „Danke“ und „Tschüss“.", "zh": "奶奶学会了“Hallo”“Danke”和“Tschüss”。", "items": ["de.oma", "de.lernen", "de.hallo", "de.danke", "de.und", "de.tschuess"] },
+    { "speaker": "wei", "text": "Wir telefonieren: Lena, Sofia, Oma und ich.", "zh": "我们视频通话:莉娜、索菲娅、奶奶和我。", "items": ["de.wir", "de.telefonieren", "de.oma", "de.und", "de.ich"] },
+    { "speaker": "wei", "text": "Lena sagt: „Nǐ hǎo, Oma!“", "zh": "莉娜说:“你好,奶奶!”", "items": ["de.sagen", "de.oma"] },
+    { "speaker": "wei", "text": "Und Oma sagt: „Hallo, Lena! Hallo, Sofia! Danke!“", "zh": "奶奶说:“你好,莉娜!你好,索菲娅!谢谢!”", "items": ["de.und", "de.oma", "de.sagen", "de.hallo", "de.danke"] },
+    { "speaker": "wei", "text": "Lena und Sofia lachen, und Oma lacht auch.", "zh": "莉娜和索菲娅都笑了,奶奶也笑了。", "items": ["de.und", "de.lachen", "de.oma", "de.auch"] },
+    { "speaker": "wei", "text": "Meine Familie und meine Freunde lernen Fremdsprachen!", "zh": "我的家人和朋友都在学外语!", "items": ["de.mein", "de.familie", "de.und", "de.freund", "de.lernen", "de.fremdsprache"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的妈妈是做什么的?", "options": ["医生", "厨师", "老师"], "answer": 2, "explainZh": "Mein Vater ist Koch, und meine Mutter ist Lehrerin.(爸爸是厨师,妈妈是老师。)当医生的是姐姐王静。" },
+    { "prompt": "谁教奶奶德语?", "options": ["王伟的妈妈", "王伟的姐姐", "莉娜"], "answer": 0, "explainZh": "Meine Mutter ist ihre Lehrerin.(我妈妈是她的老师。)这里的 ihre 指奶奶:妈妈是奶奶的老师。" },
+    { "prompt": "视频的时候,奶奶对莉娜和索菲娅说了什么?", "options": ["Nǐ hǎo!", "Hallo! 和 Danke!", "Tschüss!"], "answer": 1, "explainZh": "Und Oma sagt: „Hallo, Lena! Hallo, Sofia! Danke!“;说 Nǐ hǎo 的是在学中文的莉娜。" },
+    { "prompt": "最后一句说的是什么?", "options": ["王伟的家人和朋友都在学外语", "奶奶会说很多德语", "王伟的家人都住在柏林"], "answer": 0, "explainZh": "Meine Familie und meine Freunde lernen Fremdsprachen!——Fremdsprache 是“外语”;奶奶只会几个词,家人住在成都。" }
+  ],
+  "grammar": [
+    { "id": "de.g.familie_geschichte", "titleZh": "复习:第三人称、物主冠词和职业",
+      "bodyZh": "讲家里人离不开第三人称:一个人的动词加 -t(Oma lernt Deutsch. / Oma lacht.),sprechen 变成 spricht(Sie spricht gut Englisch.);几个人用 -en(Lena und Sofia lachen.)。ihr 当物主冠词是“她的”:Meine Mutter ist ihre Lehrerin.——ihre 指奶奶。说职业不加冠词,而且分男女:Mein Vater ist Koch. / Meine Mutter ist Lehrerin. / Oma ist Schülerin.。meine Freunde 是“我的朋友们”;单说 meine Freundin(一个女性朋友)时,常被理解成“我的女朋友”。",
+      "examples": [ { "text": "Mein Vater ist Koch, und meine Mutter ist Lehrerin.", "zh": "我爸爸是厨师,我妈妈是老师。" }, { "text": "Meine Mutter ist ihre Lehrerin.", "zh": "我妈妈是她的老师。" }, { "text": "Lena und Sofia lachen, und Oma lacht auch.", "zh": "莉娜和索菲娅都笑了,奶奶也笑了。" } ] }
+  ],
+  "review": "draft"
+}

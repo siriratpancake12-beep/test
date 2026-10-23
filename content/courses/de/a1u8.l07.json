@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u8.l07", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 健康与周末", "order": 108070,
+  "titleZh": "你多久运动一次?——保罗的健康问卷", "goalZh": "会用 immer / oft / manchmal / nie 和 jeden Tag 说自己多久做一次某件事", "canDoZh": "能说自己多久做一次某件事(每天、常常、有时、从不),回答简单的生活习惯问卷",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.immer", "kind": "word", "pos": "adv", "text": "immer", "zh": "总是;一直", "features": { "ipa": "ˈɪmɐ" }, "noteZh": "频率从高到低:immer(总是)– oft(常常)– manchmal(有时)– nie(从不);放在变位动词后面:Ich trinke immer Tee." },
+    { "id": "de.manchmal", "kind": "word", "pos": "adv", "text": "manchmal", "zh": "有时候", "features": { "ipa": "ˈmançmaːl" }, "noteZh": "ch 在 n 后面读 [ç];Ich spiele manchmal Fußball.(我有时候踢足球。)" },
+    { "id": "de.nie", "kind": "word", "pos": "adv", "text": "nie", "zh": "从不", "features": { "ipa": "niː" }, "noteZh": "nie 本身就是否定,后面不再加 nicht:Ich stehe nie früh auf.(我从来不早起。)ie 读长音 [iː]。" },
+    { "id": "de.jeder", "kind": "word", "pos": "det", "text": "jeder", "zh": "每个;每", "features": { "ipa": "ˈjeːdɐ" }, "noteZh": "词尾跟着名词变:jeden Tag(每天)、jede Woche(每周)、jedes Jahr(每年);j 读 [j],像汉语的“耶”。" },
+    { "id": "de.sport", "kind": "word", "pos": "noun", "text": "der Sport", "zh": "体育运动", "features": { "gender": "m", "plural": "-", "ipa": "ʃpɔʁt" }, "noteZh": "Sport machen(做运动)——不说 Sport spielen;sp 在词首读 [ʃp];一般不用复数。" },
+    { "id": "de.gesund", "kind": "word", "pos": "adj", "text": "gesund", "zh": "健康", "features": { "ipa": "ɡəˈzʊnt" }, "noteZh": "重音在 sund 上,词尾 d 读 [t];反义词 krank。Obst ist gesund!" },
+    { "id": "de.frage", "kind": "word", "pos": "noun", "text": "die Frage", "zh": "问题(提问)", "features": { "gender": "f", "plural": "die Fragen", "ipa": "ˈfʁaːɡə" }, "noteZh": "Ich habe eine Frage.(我有个问题。)这是“提问”的问题;“麻烦、毛病”是另一个词 das Problem。" }
+  ],
+  "reviewItems": ["de.oft", "de.fussball", "de.obst", "de.wasser", "de.schlafen", "de.wie_lange"],
+  "lines": [
+    { "speaker": "paul", "text": "Hallo! Ich habe ein paar Fragen für die Schule.", "zh": "(保罗来 WG 做生物课的问卷)大家好!我有几个问题,是学校的作业。", "items": ["de.hallo", "de.ich", "de.haben", "de.ein_paar", "de.frage", "de.fuer", "de.schule"] },
+    { "speaker": "paul", "text": "Wie oft macht ihr Sport?", "zh": "你们多久运动一次?", "items": ["de.wie", "de.oft", "de.machen", "de.ihr", "de.sport"] },
+    { "speaker": "wei", "text": "Ich spiele manchmal Fußball, am Samstag mit Jonas.", "zh": "我有时候踢足球,星期六和约纳斯一起踢。", "items": ["de.ich", "de.spielen", "de.manchmal", "de.fussball", "de.am", "de.samstag", "de.mit"] },
+    { "speaker": "jonas", "text": "Ich spiele jede Woche Fußball. Aber ich stehe nie früh auf!", "zh": "我每个星期都踢球。不过我从来不早起!", "items": ["de.ich", "de.spielen", "de.jeder", "de.woche", "de.fussball", "de.aber", "de.aufstehen", "de.nie", "de.frueh"] },
+    { "speaker": "paul", "text": "Und wie viel Wasser trinkst du, Sofia?", "zh": "索菲娅,你喝多少水?", "items": ["de.und", "de.wie_viel", "de.wasser", "de.trinken", "de.du"] },
+    { "speaker": "sofia", "text": "Ich trinke viel Wasser, und ich esse jeden Tag Obst.", "zh": "我喝很多水,而且每天吃水果。", "items": ["de.ich", "de.trinken", "de.viel", "de.wasser", "de.und", "de.essen", "de.jeder", "de.tag", "de.obst"] },
+    { "speaker": "paul", "text": "Wie lange schläfst du, Wei?", "zh": "王伟,你睡多长时间?", "items": ["de.wie_lange", "de.schlafen", "de.du"] },
+    { "speaker": "wei", "text": "Immer acht Stunden. Und ich trinke oft Tee.", "zh": "总是睡八个小时。我还常常喝茶。", "items": ["de.immer", "de.acht", "de.stunde", "de.und", "de.ich", "de.trinken", "de.oft", "de.tee"] },
+    { "speaker": "jonas", "text": "Und du, Paul? Machst du auch Sport?", "zh": "那你呢,保罗?你也运动吗?", "items": ["de.und", "de.du", "de.machen", "de.auch", "de.sport"] },
+    { "speaker": "paul", "text": "Ja, ich spiele jeden Tag Fußball! Ihr drei seid auch gesund.", "zh": "当然,我每天踢足球!你们三个也都挺健康的。", "items": ["de.ja", "de.ich", "de.spielen", "de.jeder", "de.tag", "de.fussball", "de.ihr", "de.drei", "de.sein", "de.auch", "de.gesund"] }
+  ],
+  "questions": [
+    { "prompt": "王伟多久踢一次足球?", "options": ["每天", "有时候,星期六踢", "从来不踢"], "answer": 1, "explainZh": "Ich spiele manchmal Fußball, am Samstag mit Jonas.——manchmal = 有时候;每天踢球的是保罗。" },
+    { "prompt": "约纳斯说他从来不做什么?", "options": ["早起", "踢足球", "喝水"], "answer": 0, "explainZh": "Aber ich stehe nie früh auf!(不过我从来不早起!)nie = 从不;足球他每个星期都踢。" },
+    { "prompt": "索菲娅每天吃什么?", "options": ["蛋糕", "肉", "水果"], "answer": 2, "explainZh": "Ich esse jeden Tag Obst.(我每天吃水果。)jeden Tag = 每天。" },
+    { "prompt": "王伟一般睡多长时间?", "options": ["六个小时", "八个小时", "十个小时"], "answer": 1, "explainZh": "Wie lange schläfst du? – Immer acht Stunden.(总是睡八个小时。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u8_haeufigkeit", "titleZh": "频率副词 immer / oft / manchmal / nie:放在变位动词后面",
+      "bodyZh": "说多久做一次:immer(总是)– oft(常常)– manchmal(有时候)– nie(从不)。\n位置:放在变位动词后面:Ich trinke oft Tee.;可分动词的前缀照样放句末:Ich stehe nie früh auf.\n也可以放在句首强调,这时动词要紧跟在后面(动词第二位):Manchmal spiele ich Fußball.(不说 Manchmal ich spiele …。)\nnie 自己就是否定,不再加 nicht:Ich stehe nie früh auf.(不说 nie nicht)。\n“每天、每周、每年”用 jeder 加时间:jeden Tag(der Tag)、jede Woche(die Woche)、jedes Jahr(das Jahr);说时间时 der 词要变成 jeden。\n对比英语:英语的 always / often 放在动词前(I often drink tea),德语放在动词后(Ich trinke oft Tee),中国学生最容易照英语的顺序说错。",
+      "examples": [
+        { "text": "Ich trinke oft Tee.", "zh": "我常常喝茶。" },
+        { "text": "Ich stehe nie früh auf.", "zh": "我从来不早起。" },
+        { "text": "Manchmal spiele ich Fußball.", "zh": "有时候我踢足球。" },
+        { "text": "Sofia isst jeden Tag Obst.", "zh": "索菲娅每天吃水果。" }
+      ] },
+    { "id": "de.g.u8_wie_oft", "titleZh": "Wie oft? / Wie lange? / Wie viel?:三种“多……”",
+      "bodyZh": "Wie oft …?(多久一次、多常)问频率:Wie oft machst du Sport? – Manchmal. / Jeden Tag.\nWie lange …?(多长时间)问持续多久:Wie lange schläfst du? – Acht Stunden.\nWie viel …?(多少)问数量,后面接不可数的东西:Wie viel Wasser trinkst du? – Viel.\n中文都说“多……”,德语要分清:问“多常”用 oft,问“多久”用 lange,问“多少”用 viel。\n易错:Sport machen(做运动),不说 Sport spielen;具体的球类才用 spielen:Fußball spielen。",
+      "examples": [
+        { "text": "Wie oft machst du Sport?", "zh": "你多久运动一次?" },
+        { "text": "Wie lange schläfst du?", "zh": "你睡多长时间?" },
+        { "text": "Wie viel Wasser trinkst du?", "zh": "你喝多少水?" }
+      ] }
+  ],
+  "review": "draft"
+}

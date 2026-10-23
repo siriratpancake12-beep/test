@@ -1,0 +1,45 @@
+{
+  "id": "de.a1u9.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-9 大学与课程", "order": 109045,
+  "titleZh": "系里的学期通知", "goalZh": "读懂系里的学期通知,找出日期,记进自己的日历", "canDoZh": "能读懂系里的通知,找出课程开始、选课截止和活动的日期",
+  "skills": ["read", "write"], "estimatedMinutes": 18,
+  "newItems": [
+    { "id": "de.information", "kind": "word", "pos": "noun", "text": "die Information", "zh": "信息;通知", "features": { "gender": "f", "plural": "die Informationen", "ipa": "ɪnfɔʁmaˈtsi̯oːn" }, "noteZh": "-tion 读 [tsi̯oːn],重音总在最后:In-for-ma-TION;-tion 结尾的名词都是阴性;常用复数:die Informationen。" },
+    { "id": "de.online", "kind": "word", "pos": "adv", "text": "online", "zh": "在网上;线上", "features": { "ipa": "ˈɔnlaɪ̯n" }, "noteZh": "英语外来词,按英语读;online anmelden / online bezahlen(网上报名 / 网上付款);不变形。" },
+    { "id": "de.anmelden", "kind": "phrase", "pos": "verb", "text": "sich anmelden", "zh": "报名;注册;登录", "features": { "ipa": "zɪç ˈanˌmɛldn̩" }, "noteZh": "可分动词,sich 跟着人变(ich melde mich an, Sie melden sich an),现在先当固定说法用:Sie müssen sich online anmelden.;报名课程、注册账号、登录网站都用它。" },
+    { "id": "de.kalender", "kind": "word", "pos": "noun", "text": "der Kalender", "zh": "日历", "features": { "gender": "m", "plural": "die Kalender", "ipa": "kaˈlɛndɐ" }, "noteZh": "重音在 len;复数不变;Ich schreibe den Termin in meinen Kalender.(我把约好的时间记进日历。)" }
+  ],
+  "reviewItems": ["de.vorlesung", "de.seminar", "de.termin", "de.geoeffnet", "de.erdgeschoss"],
+  "lines": [
+    { "speaker": "narrator", "text": "Liebe Studentinnen und Studenten,", "zh": "亲爱的同学们:", "items": ["de.liebe", "de.studentin", "de.und", "de.student"] },
+    { "speaker": "narrator", "text": "hier sind die Informationen für das Sommersemester.", "zh": "下面是夏季学期的通知。", "items": ["de.hier", "de.sein", "de.information", "de.fuer", "de.sommer", "de.semester"] },
+    { "speaker": "narrator", "text": "Die Vorlesungen fangen am 14. April an.", "zh": "讲座课 4 月 14 日开始。", "items": ["de.vorlesung", "de.anfangen", "de.am", "de.vier", "de.zehn", "de.april"] },
+    { "speaker": "narrator", "text": "Für die Seminare müssen Sie sich online anmelden.", "zh": "讨论课要在网上报名。", "items": ["de.fuer", "de.seminar", "de.muessen", "de.sie_hoeflich", "de.anmelden", "de.online"] },
+    { "speaker": "narrator", "text": "Sie können sich bis zum 25. April anmelden.", "zh": "报名截止到 4 月 25 日。", "items": ["de.sie_hoeflich", "de.koennen", "de.anmelden", "de.bis", "de.zu", "de.fuenf", "de.zwanzig", "de.april"] },
+    { "speaker": "narrator", "text": "Ein Seminar hat nur 25 Studenten.", "zh": "每门讨论课最多 25 个学生。", "items": ["de.ein", "de.seminar", "de.haben", "de.nur", "de.fuenf", "de.zwanzig", "de.student"] },
+    { "speaker": "narrator", "text": "Am 22. April gibt es um 19 Uhr eine Party.", "zh": "4 月 22 日晚上 7 点有一个聚会。", "items": ["de.am", "de.zwei", "de.zwanzig", "de.april", "de.es_gibt", "de.um", "de.neun", "de.zehn", "de.uhr", "de.ein", "de.party"] },
+    { "speaker": "narrator", "text": "Die Party ist im Café im Erdgeschoss.", "zh": "聚会在一楼的咖啡馆。", "items": ["de.party", "de.sein", "de.in", "de.cafe", "de.erdgeschoss"] },
+    { "speaker": "narrator", "text": "Vor den Prüfungen im Juli ist die Bibliothek bis 22 Uhr geöffnet.", "zh": "七月考试前,图书馆开到晚上 10 点。", "items": ["de.vor", "de.pruefung", "de.in", "de.juli", "de.sein", "de.bibliothek", "de.bis", "de.zwei", "de.zwanzig", "de.uhr", "de.geoeffnet"] },
+    { "speaker": "narrator", "text": "Viele Grüße, Maria Lorenz", "zh": "祝好!玛丽亚·洛伦茨", "items": ["de.viele_gruesse"] },
+    { "speaker": "wei", "text": "Ich schreibe drei Termine in meinen Kalender.", "zh": "我在日历上记了三件事。", "items": ["de.ich", "de.schreiben", "de.drei", "de.termin", "de.in", "de.mein", "de.kalender"] },
+    { "speaker": "wei", "text": "Bis 25. April: Seminare online anmelden!", "zh": "4 月 25 日前:上网报名讨论课!", "items": ["de.bis", "de.fuenf", "de.zwanzig", "de.april", "de.seminar", "de.online", "de.anmelden"] },
+    { "speaker": "wei", "text": "22. April, 19 Uhr: Party im Café.", "zh": "4 月 22 日晚上 7 点:咖啡馆的聚会。", "items": ["de.zwei", "de.zwanzig", "de.april", "de.neun", "de.zehn", "de.uhr", "de.party", "de.in", "de.cafe"] },
+    { "speaker": "wei", "text": "Juli: Die Bibliothek ist bis 22 Uhr geöffnet. Toll!", "zh": "七月:图书馆开到晚上 10 点。太好了!", "items": ["de.juli", "de.bibliothek", "de.sein", "de.bis", "de.zwei", "de.zwanzig", "de.uhr", "de.geoeffnet", "de.toll"] }
+  ],
+  "questions": [
+    { "prompt": "讨论课最晚哪天报名?", "options": ["4 月 14 日", "4 月 22 日", "4 月 25 日"], "answer": 2, "explainZh": "通知写:Sie können sich bis zum 25. April anmelden.(报名截止到 4 月 25 日。)4 月 14 日是讲座课开始,4 月 22 日是聚会。" },
+    { "prompt": "讨论课怎么报名?", "options": ["在网上报名", "去系办公室报名", "给教授打电话"], "answer": 0, "explainZh": "通知写:Für die Seminare müssen Sie sich online anmelden.(讨论课要在网上报名。)" },
+    { "prompt": "聚会在哪儿?", "options": ["图书馆", "一楼的咖啡馆", "B 楼的讨论课教室"], "answer": 1, "explainZh": "通知写:Die Party ist im Café im Erdgeschoss.(聚会在一楼的咖啡馆。)Erdgeschoss 是中国的一楼。" },
+    { "prompt": "七月考试前,图书馆开到几点?", "options": ["晚上 10 点", "晚上 7 点", "下午 4 点"], "answer": 0, "explainZh": "通知写:Vor den Prüfungen im Juli ist die Bibliothek bis 22 Uhr geöffnet.(22 Uhr 就是晚上 10 点。)晚上 7 点是聚会的时间。" }
+  ],
+  "grammar": [
+    { "id": "de.g.komposita_semester", "titleZh": "长词拆开读:das Sommersemester",
+      "bodyZh": "德语喜欢把几个词连成一个长词,中文的“夏季学期”德语写成一个词:das Sommersemester = der Sommer + das Semester。读长词先拆成认识的部分,意思就出来了:die Sprechstunde = sprechen + die Stunde(答疑时间),der Hörsaal = hören + der Saal(阶梯教室)。\n两条规律:① 性和复数看最后一个词:der Sommer + das Semester → das Sommersemester;② 重音一般在第一个部分:SOM-mer-se-mes-ter。\n通知、正式邮件对读者用 Sie:Sie müssen sich online anmelden.;sich anmelden(报名、注册)里的 sich 先当固定说法记,它会跟着主语变(ich melde mich an),以后再讲。",
+      "examples": [
+        { "text": "Das Sommersemester fängt im April an.", "zh": "夏季学期四月开始。" },
+        { "text": "Das Wintersemester fängt im Oktober an.", "zh": "冬季学期十月开始。" },
+        { "text": "Frau Wagner hat am Mittwoch Sprechstunde.", "zh": "瓦格纳老师星期三有答疑时间。" }
+      ] }
+  ],
+  "review": "draft"
+}

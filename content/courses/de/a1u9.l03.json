@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u9.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-9 大学与课程", "order": 109030,
+  "titleZh": "图书馆里可以吃东西吗?——dürfen 和 man", "goalZh": "会用 dürfen 请求许可,用 man 说公共场所的规定", "canDoZh": "能看懂、也能说公共场所的规定:哪里可以做什么、不可以做什么",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.duerfen", "kind": "word", "pos": "verb", "text": "dürfen", "zh": "可以(被允许);许可", "features": { "ipa": "ˈdʏʁfn̩" }, "noteZh": "情态动词,单数变 a:ich darf, du darfst, er darf(ich 和 er 没有词尾);Darf ich …?(我可以……吗?);nicht dürfen = 不许,不是“不必”(不必是 nicht müssen);ü 是短音 [ʏ]。" },
+    { "id": "de.man", "kind": "word", "pos": "pron", "text": "man", "zh": "人们;大家(泛指)", "features": { "ipa": "man" }, "noteZh": "泛指任何人,动词用 er 的形式:man darf, man muss;只有一个 n,和 der Mann(男人)不同;中文常常不翻出来:Hier darf man nicht essen.(这里不许吃东西。)" },
+    { "id": "de.benutzen", "kind": "word", "pos": "verb", "text": "benutzen", "zh": "使用;用", "features": { "ipa": "bəˈnʊtsn̩" }, "noteZh": "be- 不可分、不重读:be-NUT-zen;tz 读 [ts];Darf ich das benutzen?(我可以用这个吗?)" },
+    { "id": "de.laut", "kind": "word", "pos": "adj", "text": "laut", "zh": "大声;吵", "features": { "ipa": "laʊ̯t" }, "noteZh": "反义词 leise(小声):Bitte leise! Hier darf man nicht laut sein.;au 读 [aʊ̯],和汉语的 ao 差不多。" },
+    { "id": "de.ausleihen", "kind": "word", "pos": "verb", "text": "ausleihen", "zh": "借;(从图书馆)借出", "features": { "ipa": "ˈaʊ̯sˌlaɪ̯ən" }, "noteZh": "可分动词:Ich leihe das Buch aus.;和情态动词一起用时不分开、放句末:Sie dürfen die Bücher vier Wochen ausleihen.;h 不发音。" },
+    { "id": "de.ausweis", "kind": "word", "pos": "noun", "text": "der Ausweis", "zh": "证件;卡证(借书证、学生证等)", "features": { "gender": "m", "plural": "die Ausweise", "ipa": "ˈaʊ̯sˌvaɪ̯s" }, "noteZh": "各种证件、卡证都可以叫 Ausweis:ein Ausweis für die Bibliothek(借书证);w 读 [v],词尾 s 读 [s]。" },
+    { "id": "de.laptop", "kind": "word", "pos": "noun", "text": "der Laptop", "zh": "笔记本电脑", "features": { "gender": "m", "plural": "die Laptops", "ipa": "ˈlɛptɔp" }, "noteZh": "英语外来词,德国人读 [ˈlɛptɔp],a 读得像 e;阳性,复数加 -s。" },
+    { "id": "de.leise", "kind": "word", "pos": "adj", "text": "leise", "zh": "小声;安静", "features": { "ipa": "ˈlaɪ̯zə" }, "noteZh": "Bitte leise!(请小声!);ei 读 [aɪ̯](像“爱”),别读成 ie 的 [iː];两个元音之间的 s 读 [z]。" },
+    { "id": "de.verboten", "kind": "word", "pos": "adj", "text": "verboten", "zh": "禁止的;不许", "features": { "ipa": "fɛɐ̯ˈboːtn̩" }, "noteZh": "牌子上常见:Essen verboten!(禁止吃东西!);意思和 Man darf … nicht … 一样;v 读 [f],重音在 bo。" }
+  ],
+  "reviewItems": ["de.bibliothek", "de.buch", "de.wasser", "de.essen", "de.kaffee"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Tag! Ich möchte einen Ausweis für die Bibliothek.", "zh": "您好!我想办一张图书馆的借书证。", "items": ["de.guten_tag", "de.ich", "de.moechten", "de.ein", "de.ausweis", "de.fuer", "de.bibliothek"] },
+    { "speaker": "mitarbeiterin", "text": "Gern. Hier, bitte. Sie dürfen die Bücher vier Wochen ausleihen.", "zh": "好的,给您。书可以借四个星期。", "items": ["de.gern", "de.hier", "de.bitte", "de.sie_hoeflich", "de.duerfen", "de.buch", "de.vier", "de.woche", "de.ausleihen"] },
+    { "speaker": "wei", "text": "Danke! Darf ich in der Bibliothek Wasser trinken?", "zh": "谢谢!在图书馆里可以喝水吗?", "items": ["de.danke", "de.duerfen", "de.ich", "de.in", "de.bibliothek", "de.wasser", "de.trinken"] },
+    { "speaker": "mitarbeiterin", "text": "Ja, Wasser dürfen Sie trinken. Aber essen darf man hier nicht.", "zh": "可以,水可以喝。不过这里不许吃东西。", "items": ["de.ja", "de.wasser", "de.duerfen", "de.sie_hoeflich", "de.trinken", "de.aber", "de.essen", "de.man", "de.hier", "de.nicht"] },
+    { "speaker": "wei", "text": "Darf ich hier meinen Laptop benutzen?", "zh": "我可以在这儿用笔记本电脑吗?", "items": ["de.duerfen", "de.ich", "de.hier", "de.mein", "de.laptop", "de.benutzen"] },
+    { "speaker": "mitarbeiterin", "text": "Ja. Aber bitte leise! Hier darf man nicht laut sein.", "zh": "可以。不过请小声!这里不许大声说话。", "items": ["de.ja", "de.aber", "de.bitte", "de.leise", "de.hier", "de.duerfen", "de.man", "de.nicht", "de.laut", "de.sein"] },
+    { "speaker": "lena", "text": "Hallo, Wei! Hast du jetzt einen Ausweis?", "zh": "嗨,王伟!借书证办好了吗?", "items": ["de.hallo", "de.haben", "de.du", "de.jetzt", "de.ein", "de.ausweis"] },
+    { "speaker": "wei", "text": "Ja! Aber man darf in der Bibliothek nicht essen.", "zh": "办好了!不过图书馆里不许吃东西。", "items": ["de.ja", "de.aber", "de.man", "de.duerfen", "de.in", "de.bibliothek", "de.nicht", "de.essen"] },
+    { "speaker": "lena", "text": "Ja, Essen und Kaffee sind hier verboten.", "zh": "对,这里禁止吃东西,咖啡也不行。", "items": ["de.ja", "de.essen", "de.und", "de.kaffee", "de.sein", "de.hier", "de.verboten"] },
+    { "speaker": "wei", "text": "Gut, dann trinke ich nur Wasser.", "zh": "好吧,那我就只喝水。", "items": ["de.gut", "de.dann", "de.trinken", "de.ich", "de.nur", "de.wasser"] }
+  ],
+  "questions": [
+    { "prompt": "在这个图书馆里可以喝什么?", "options": ["水", "咖啡", "什么都不能喝"], "answer": 0, "explainZh": "工作人员说:Wasser dürfen Sie trinken.(水可以喝。)莉娜说:Essen und Kaffee sind hier verboten.(吃东西和喝咖啡都不行。)" },
+    { "prompt": "书可以借多长时间?", "options": ["两个星期", "四天", "四个星期"], "answer": 2, "explainZh": "工作人员说:Sie dürfen die Bücher vier Wochen ausleihen.(书可以借四个星期。)" },
+    { "prompt": "王伟可以在图书馆里用笔记本电脑吗?", "options": ["不可以", "可以,但是要小声", "只能用一个小时"], "answer": 1, "explainZh": "工作人员说:Ja. Aber bitte leise! Hier darf man nicht laut sein.(可以,不过请小声,这里不许大声说话。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.duerfen", "titleZh": "dürfen:可以(被允许)",
+      "bodyZh": "dürfen 表示“被允许、可以”,是情态动词,用法和 können、müssen 一样:dürfen 变位放第二位,动词原形放句末:Sie dürfen hier Wasser trinken.。\n变位:ich darf、du darfst、er / sie / es darf、wir dürfen、ihr dürft、sie / Sie dürfen——单数里 ü 变成 a,ich 和 er 都没有词尾。\n请求许可:Darf ich …?(我可以……吗?)——Darf ich hier meinen Laptop benutzen?\n否定:nicht dürfen = 不许、禁止:Sie dürfen hier nicht laut sein.;“不必”要说 nicht müssen(第 5 单元学过),两个意思差很远:Du darfst heute nicht kommen.(你今天不许来)≠ Du musst heute nicht kommen.(你今天不必来)。",
+      "examples": [
+        { "text": "Darf ich hier meinen Laptop benutzen?", "zh": "我可以在这儿用笔记本电脑吗?" },
+        { "text": "Wasser dürfen Sie trinken.", "zh": "水是可以喝的。" },
+        { "text": "Du musst heute nicht kommen.", "zh": "你今天不必来。" }
+      ] },
+    { "id": "de.g.man", "titleZh": "man:说规定和习惯",
+      "bodyZh": "man 指“人们、大家、任何人”,不指具体哪一个人,中文常常不翻出来:Hier darf man nicht essen.(这里不许吃东西。)\nman 后面的动词用第三人称单数,和 er / sie 一样:man darf、man muss、man kann、man trinkt。规定、说明最爱用 man:Man darf Bücher vier Wochen ausleihen.。\n注意:man 只有一个 n,和 der Mann(男人)不一样;一句话里说了 man,后面也不能换成 er。\n牌子上常常更短,只写“名词 + verboten”:Essen verboten!(禁止吃东西!)。",
+      "examples": [
+        { "text": "Hier darf man nicht essen.", "zh": "这里不许吃东西。" },
+        { "text": "Man darf Bücher vier Wochen ausleihen.", "zh": "书可以借四个星期。" },
+        { "text": "In der Bibliothek muss man leise sein.", "zh": "在图书馆里要保持安静。" }
+      ] }
+  ],
+  "review": "draft"
+}

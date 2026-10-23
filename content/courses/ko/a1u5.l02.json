@@ -1,0 +1,45 @@
+{
+  "id": "ko.a1u5.l02", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105020,
+  "titleZh": "留个电话吧", "goalZh": "会说、会听手机号码,会用 몇 问号码,听不清时请对方说慢一点",
+  "canDoZh": "能把自己的手机号告诉别人,准确记下别人的号码",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ko.gong", "kind": "word", "pos": "num", "text": "공", "zh": "零(读号码时)", "features": { "roman": "gong" }, "noteZh": "汉字词 空;读电话号码、房间号时 0 读 공:010 = 공일공;温度、比分里的 0 读 영(零)。" },
+    { "id": "ko.baek", "kind": "word", "pos": "num", "text": "백", "zh": "百", "features": { "roman": "baek" }, "noteZh": "汉字词 百;一百就说 백,不说 일백:이백(200)、삼백오(305);收音 ㄱ 不爆破。" },
+    { "id": "ko.cheon", "kind": "word", "pos": "num", "text": "천", "zh": "千", "features": { "roman": "cheon" }, "noteZh": "汉字词 千;一千说 천,不说 일천。1004 读 천사,和“天使”(천사)同音,韩国人很喜欢这个数;第 7 单元说价格常用:천 원(一千韩元)。" },
+    { "id": "ko.jeonhwabeonho", "kind": "word", "pos": "noun", "text": "전화번호", "zh": "电话号码", "features": { "roman": "jeonhwabeonho" }, "noteZh": "汉字词 电话番号;口语里 ㅎ 弱化,听起来像 [저놔버노]。问号码:전화번호가 뭐예요? / 전화번호가 몇 번이에요?" },
+    { "id": "ko.myeot", "kind": "word", "pos": "det", "text": "몇", "zh": "几;多少", "features": { "roman": "myeot" }, "noteZh": "后面接量词:몇 번(几号)、몇 살(几岁)、몇 시(几点);收音 ㅊ 读 [t]:[멷];몇 명 读 [면명](鼻音化)。" },
+    { "id": "ko.beon", "kind": "word", "pos": "noun", "text": "번", "zh": "号;次", "features": { "roman": "beon" }, "noteZh": "汉字词 番;汉字数词 + 번 = 几号:몇 번이에요?(几号?)、육 번 출구(6 号出口,第 6 单元);固有数词 + 번 = 几次:한 번(一次)、두 번(两次)。" },
+    { "id": "ko.cheoncheonhi_malhae_juseyo", "kind": "phrase", "pos": "phrase", "text": "천천히 말해 주세요", "zh": "请说慢一点", "features": { "roman": "cheoncheonhi malhae juseyo" }, "noteZh": "천천히 = 慢慢地(ㅎ 弱化,听起来像 [천처니]);对方说得太快时说,和 다시 말해 주세요(请再说一遍)一起反复用。" }
+  ],
+  "reviewItems": ["ko.il", "ko.gu", "ko.hyudaepon", "ko.majayo"],
+  "lines": [
+    { "speaker": "nam", "text": "천징 씨, 저도 한국 휴대폰 있어요! 전화번호가 뭐예요?", "zh": "(下课后,刚办好韩国手机卡的南拿出手机)陈静,我也有韩国手机啦!你的电话号码是多少?", "roman": "cheonjing ssi, jeodo hanguk hyudaepon isseoyo! jeonhwabeonhoga mwoyeyo?", "items": ["ko.ssi", "ko.jeo", "ko.hanguk", "ko.hyudaepon", "ko.isseoyo", "ko.jeonhwabeonho", "ko.mwo"] },
+    { "speaker": "jing", "text": "공일공, 일이삼사, 오육칠팔이에요.", "zh": "010-1234-5678。", "roman": "gongilgong, irisamsa, oyukchilparieyo.", "items": ["ko.gong", "ko.il", "ko.i", "ko.sam", "ko.sa", "ko.o", "ko.yuk", "ko.chil", "ko.pal"] },
+    { "speaker": "nam", "text": "공일공, 일이삼사, 오육칠팔. 맞아요?", "zh": "(南一边输一边念)010-1234-5678,对吗?", "roman": "gongilgong, irisamsa, oyukchilpal. majayo?", "items": ["ko.gong", "ko.il", "ko.i", "ko.sam", "ko.sa", "ko.o", "ko.yuk", "ko.chil", "ko.pal", "ko.majayo"] },
+    { "speaker": "jing", "text": "네, 맞아요. 남 씨는 전화번호가 몇 번이에요?", "zh": "对。你的电话号码是多少?", "roman": "ne, majayo. nam ssineun jeonhwabeonhoga myeot beonieyo?", "items": ["ko.ne", "ko.majayo", "ko.ssi", "ko.jeonhwabeonho", "ko.myeot", "ko.beon"] },
+    { "speaker": "nam", "text": "공일공 일공공사 삼오칠구예요!", "zh": "(南说得飞快)010-1004-3579!", "roman": "gongilgong ilgonggongsa samochilguyeyo!", "items": ["ko.gong", "ko.il", "ko.sa", "ko.sam", "ko.o", "ko.chil", "ko.gu"] },
+    { "speaker": "jing", "text": "죄송합니다. 천천히 말해 주세요.", "zh": "不好意思,请说慢一点。", "roman": "joesonghamnida. cheoncheonhi malhae juseyo.", "items": ["ko.joesonghamnida", "ko.cheoncheonhi_malhae_juseyo"] },
+    { "speaker": "nam", "text": "네. 공일공… 일공공사… 삼오칠구.", "zh": "(南一个数一个数地慢慢说)好。010……1004……3579。", "roman": "ne. gongilgong… ilgonggongsa… samochilgu.", "items": ["ko.ne", "ko.gong", "ko.il", "ko.sa", "ko.sam", "ko.o", "ko.chil", "ko.gu"] },
+    { "speaker": "jing", "text": "일공공사요?", "zh": "中间是 1004?", "roman": "ilgonggongsayo?", "items": ["ko.il", "ko.gong", "ko.sa"] },
+    { "speaker": "nam", "text": "네, 일공공사! 천사예요, 천사!", "zh": "对,1004!就是“천사”(一千零四)!(韩国人爱把 1004 读成 천사,和“天使”同音)", "roman": "ne, ilgonggongsa! cheonsayeyo, cheonsa!", "items": ["ko.ne", "ko.il", "ko.gong", "ko.sa", "ko.cheon"] },
+    { "speaker": "jing", "text": "아, 천사! 공일공 일공공사 삼오칠구. 맞아요?", "zh": "啊,天使!010-1004-3579,对吗?", "roman": "a, cheonsa! gongilgong ilgonggongsa samochilgu. majayo?", "items": ["ko.cheon", "ko.sa", "ko.gong", "ko.il", "ko.sam", "ko.o", "ko.chil", "ko.gu", "ko.majayo"] },
+    { "speaker": "nam", "text": "네, 맞아요! 고마워요, 천징 씨.", "zh": "对,没错!谢谢你,陈静。", "roman": "ne, majayo! gomawoyo, cheonjing ssi.", "items": ["ko.ne", "ko.majayo", "ko.gomawoyo", "ko.ssi"] },
+    { "speaker": "jing", "text": "저도 고마워요. 또 만나요!", "zh": "我也谢谢你。回头见!", "roman": "jeodo gomawoyo. tto mannayo!", "items": ["ko.jeo", "ko.gomawoyo", "ko.tto_mannayo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静的手机号是多少?", "options": ["010-1004-3579", "010-1234-5678", "010-5678-1234"], "answer": 1, "explainZh": "第 2 句:공일공, 일이삼사, 오육칠팔 = 010-1234-5678。0 读 공,数字一个一个地读。010-1004-3579 是南的号码。" },
+    { "prompt": "陈静为什么说“천천히 말해 주세요”?", "options": ["南说错了号码", "南的声音太小", "南说得太快"], "answer": 2, "explainZh": "第 5、6 句:南一口气把号码说得飞快,陈静请他说慢一点:천천히 말해 주세요。只是没听清,也可以说 다시 말해 주세요(请再说一遍)。" },
+    { "prompt": "南号码中间的 1004,他还读成了什么?", "options": ["천사", "일천사", "십사"], "answer": 0, "explainZh": "第 9 句:1004 当成一个数读是 천사(一千零四),“一千”不说 일천;천사 又和“天使”同音。读电话号码时还是一个一个地读:일공공사。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u5_phone_numbers", "titleZh": "读电话号码:一个数字一个数字地读",
+      "bodyZh": "电话号码用汉字数词,一个数字一个数字地读,0 读 공:010-1234-5678 → 공일공, 일이삼사, 오육칠팔。横杠的地方停一下;口语里也常把横杠读成 에:공일공에 일이삼사에 오육칠팔。\n每一组数字连着读,音变照常:일이삼사 读 [이리삼사],오육칠팔이에요 读 [오육칠파리에요]。听的时候抓住每组的数字个数(3 个、4 个、4 个),比一个音一个音地抠容易。\n问号码有两种说法:전화번호가 뭐예요?(电话号码是什么?)/ 전화번호가 몇 번이에요?(电话号码是几号?)。听不清就说 천천히 말해 주세요(请说慢一点)或 다시 말해 주세요(请再说一遍),对方说完再复述一遍、问 맞아요?",
+      "examples": [ { "text": "공일공, 일이삼사, 오육칠팔", "zh": "010-1234-5678" }, { "text": "공일공에 일이삼사에 오육칠팔", "zh": "同一个号码,横杠读成 에" }, { "text": "전화번호가 몇 번이에요?", "zh": "你的电话号码是多少?" } ] },
+    { "id": "ko.g.u5_baek_cheon", "titleZh": "百和千:前面的“一”不说",
+      "bodyZh": "百是 백,千是 천。和汉语说“一百、一千”不同,韩语的 100、1000 前面不加 일:100 = 백,1000 = 천;200、3000 才加数字:이백、삼천。中间的零不读出来:305 = 삼백오,1004 = 천사(一千零四——和“天使”천사 同音,所以韩国人很喜欢这个数)。\n这些整数读法以后说价格、年份时天天用(第 7 单元:천 원、만 원);读电话号码时还是一个数字一个数字地读,1004 读 일공공사。",
+      "examples": [ { "text": "백, 이백, 삼백오", "zh": "100、200、305" }, { "text": "천, 삼천, 천사", "zh": "1000、3000、1004" } ] }
+  ],
+  "review": "draft"
+}

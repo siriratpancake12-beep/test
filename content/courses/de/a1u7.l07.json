@@ -24,7 +24,7 @@
     { "speaker": "verkaeufer", "text": "Ja, in Blau gibt es sie noch. Hier, bitte!", "zh": "有,蓝色的还有。给您!", "items": ["de.ja", "de.in", "de.blau", "de.es_gibt", "de.sie_sg", "de.noch", "de.hier", "de.bitte"] },
     { "speaker": "wei", "text": "Sie ist nicht zu kurz und nicht zu lang. Ich nehme sie!", "zh": "(王伟试了一下)不短也不长。就要这条了!", "items": ["de.sie_sg", "de.sein", "de.nicht", "de.zu_adv", "de.kurz", "de.und", "de.lang", "de.ich", "de.nehmen"] },
     { "speaker": "verkaeufer", "text": "Gut! Im Januar können Sie nur umtauschen. Geld bekommen Sie nicht.", "zh": "好的!一月打折的东西只能换,不能退钱。", "items": ["de.gut", "de.in", "de.januar", "de.koennen", "de.sie_hoeflich", "de.nur", "de.umtauschen", "de.geld", "de.bekommen", "de.nicht"] },
-    { "speaker": "wei", "text": "Das ist gut. Danke, auf Wiedersehen!", "zh": "没问题。谢谢,再见!", "items": ["de.das_ist", "de.gut", "de.danke", "de.auf_wiedersehen"] }
+    { "speaker": "wei", "text": "Kein Problem. Danke, auf Wiedersehen!", "zh": "没问题。谢谢,再见!", "items": ["de.kein", "de.problem", "de.danke", "de.auf_wiedersehen"] }
   ],
   "questions": [
     { "prompt": "王伟为什么要换裤子?", "options": ["颜色不好看", "裤子太短了", "裤子太长了"], "answer": 2, "explainZh": "Ich möchte die Hose umtauschen. Sie ist zu lang.(我想换这条裤子,它太长了。)zu lang = 太长。" },
@@ -34,7 +34,7 @@
   ],
   "grammar": [
     { "id": "de.g.u7_umtauschen", "titleZh": "换货的说法:umtauschen、zu lang / zu kurz、eine Nummer kleiner",
-      "bodyZh": "说要换货:Ich möchte die Hose umtauschen.(möchte 在第二位,umtauschen 用原形放句末。)不用 möchte 时,um 放句末:Wir tauschen die Hose um.\n说哪里不合适,用 zu + 形容词(太……):zu lang(太长)、zu kurz(太短)、zu groß(太大)、zu klein(太小)。\n要换尺码:eine Nummer kleiner(小一号)、eine Nummer größer(大一号),这里的 kleiner / größer 是“更小 / 更大”,先当固定说法记。\n东西没有了:Die Hose ist ausverkauft.(卖完了)/ Wir haben sie nicht mehr.(没有了)。\n易错:umtauschen 是换货,不是退钱;德国很多商店打折的东西只能换(或者换成购物券),不退钱,买之前可以先问清楚。",
+      "bodyZh": "说要换货:Ich möchte die Hose umtauschen.(möchte 在第二位,umtauschen 用原形放句末。)不用 möchte 时,um 放句末:Wir tauschen die Hose um.\n说哪里不合适,用 zu + 形容词(太……):zu lang(太长)、zu kurz(太短)、zu groß(太大)、zu klein(太小)。\n要换尺码:eine Nummer kleiner(小一号)、eine Nummer größer(大一号),这里的 kleiner / größer 是“更小 / 更大”,先当固定说法记。\n东西没有了:Die Hose ist ausverkauft.(卖完了)/ Wir haben sie nicht mehr.(没有了)。\n易错:umtauschen 是换货,不是退钱。在德国的实体店,东西没有质量问题时商店不一定退钱;很多商店打折的东西只能换货或换成购物券,有的甚至不能换,买之前可以先问清楚。",
       "examples": [
         { "text": "Ich möchte die Hose umtauschen.", "zh": "我想换一下这条裤子。" },
         { "text": "Die Hose ist zu lang.", "zh": "这条裤子太长了。" },

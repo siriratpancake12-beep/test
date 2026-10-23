@@ -1,0 +1,44 @@
+{
+  "id": "de.a1u3.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103060,
+  "titleZh": "暖气不热,灯也不亮:报修", "goalZh": "会说什么东西坏了,打电话给物业说清楚自己是谁、住在哪儿、出了什么问题", "canDoZh": "能说出家里什么东西坏了,打电话向物业说清楚是谁、住在哪一套房子、什么问题",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.heizung", "kind": "word", "pos": "noun", "text": "die Heizung", "zh": "暖气", "features": { "gender": "f", "plural": "die Heizungen", "ipa": "ˈhaɪ̯tsʊŋ" }, "noteZh": "-ung 结尾的名词都是阴性;z 读 [ts]。德国的房子冬天大多靠暖气片取暖。" },
+    { "id": "de.funktionieren", "kind": "word", "pos": "verb", "text": "funktionieren", "zh": "(机器、设备)运转;好使", "features": { "ipa": "fʊŋktsi̯oˈniːʁən" }, "noteZh": "说东西坏了:Die Heizung funktioniert nicht.;-tion 里的 t 读 [ts],重音在 nie 上。" },
+    { "id": "de.kaputt", "kind": "word", "pos": "adj", "text": "kaputt", "zh": "坏了", "features": { "ipa": "kaˈpʊt" }, "noteZh": "和 sein 连用:Die Lampe ist kaputt.(灯坏了。);重音在后:ka-PUTT。" },
+    { "id": "de.problem", "kind": "word", "pos": "noun", "text": "das Problem", "zh": "问题;麻烦", "features": { "gender": "n", "plural": "die Probleme", "ipa": "pʁoˈbleːm" }, "noteZh": "Kein Problem! = 没问题!;问出了什么事:Was ist das Problem?。重音在 blem 上。" },
+    { "id": "de.hausmeister", "kind": "word", "pos": "noun", "text": "der Hausmeister", "zh": "(楼房的)管理员;维修工", "features": { "gender": "m", "plural": "die Hausmeister", "ipa": "ˈhaʊ̯sˌmaɪ̯stɐ" }, "noteZh": "负责楼里修修补补的人;复数不变。复合词重音在第一部分 Haus 上。" },
+    { "id": "de.hausverwaltung", "kind": "word", "pos": "noun", "text": "die Hausverwaltung", "zh": "物业(房屋管理公司)", "features": { "gender": "f", "plural": "die Hausverwaltungen", "ipa": "ˈhaʊ̯sfɛɐ̯ˌvaltʊŋ" }, "noteZh": "租的房子里东西坏了,一般先打电话给 Hausverwaltung;-ung 结尾是阴性。" },
+    { "id": "de.reparieren", "kind": "word", "pos": "verb", "text": "reparieren", "zh": "修理", "features": { "ipa": "ʁepaˈʁiːʁən" }, "noteZh": "规则动词:Der Hausmeister repariert die Heizung.;-ieren 结尾的动词重音在 ie 上。" }
+  ],
+  "reviewItems": ["de.lampe", "de.bad", "de.hier", "de.kein", "de.schreiben", "de.telefonieren"],
+  "lines": [
+    { "speaker": "wei", "text": "Jonas, die Heizung funktioniert nicht!", "zh": "约纳斯,暖气不工作了!", "items": ["de.heizung", "de.funktionieren", "de.nicht"] },
+    { "speaker": "jonas", "text": "Wirklich? Und die Lampe im Bad?", "zh": "真的?那浴室的灯呢?", "items": ["de.wirklich", "de.und", "de.lampe", "de.in", "de.bad"] },
+    { "speaker": "wei", "text": "Die Lampe? Sie ist auch kaputt.", "zh": "灯?也坏了。", "items": ["de.lampe", "de.sie_sg", "de.sein", "de.auch", "de.kaputt"] },
+    { "speaker": "jonas", "text": "Kein Problem, das ist Berlin! Du telefonierst – auf Deutsch!", "zh": "没问题,这就是柏林!你来打电话——用德语!", "items": ["de.kein", "de.problem", "de.das_ist", "de.du", "de.telefonieren", "de.auf_deutsch"] },
+    { "speaker": "mitarbeiterin", "text": "Hausverwaltung, guten Tag!", "zh": "物业,您好!", "items": ["de.hausverwaltung", "de.guten_tag"] },
+    { "speaker": "wei", "text": "Guten Tag, hier ist Wei Wang. Ich habe ein Problem.", "zh": "您好,我是王伟。我这儿出了点问题。", "items": ["de.guten_tag", "de.hier", "de.sein", "de.ich", "de.haben", "de.ein", "de.problem"] },
+    { "speaker": "mitarbeiterin", "text": "Wie bitte? Wie heißen Sie?", "zh": "您说什么?您叫什么名字?", "items": ["de.wie_bitte", "de.wie", "de.ich_heisse", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Wang, Wei Wang. Ich wohne in der Musterstraße 12, in der WG.", "zh": "王,王伟。我住在 Musterstraße 12 号的合租公寓。", "items": ["de.ich", "de.wohnen", "de.in", "de.zwoelf", "de.wg"] },
+    { "speaker": "mitarbeiterin", "text": "Gut, Herr Wang. Und was ist kaputt?", "zh": "好的,王先生。哪儿坏了?", "items": ["de.gut", "de.herr", "de.und", "de.was", "de.sein", "de.kaputt"] },
+    { "speaker": "wei", "text": "Die Heizung funktioniert nicht, und die Lampe im Bad ist kaputt.", "zh": "暖气不工作了,浴室的灯也坏了。", "items": ["de.heizung", "de.funktionieren", "de.nicht", "de.und", "de.lampe", "de.in", "de.bad", "de.sein", "de.kaputt"] },
+    { "speaker": "mitarbeiterin", "text": "Ich schreibe das. Der Hausmeister kommt und repariert die Heizung und die Lampe.", "zh": "我记下了。管理员会来修暖气和灯。", "items": ["de.ich", "de.schreiben", "de.das_ist", "de.hausmeister", "de.ich_komme_aus", "de.und", "de.reparieren", "de.heizung", "de.lampe"] },
+    { "speaker": "jonas", "text": "Der Hausmeister kommt? In Berlin? Wirklich?", "zh": "管理员会来?在柏林?真的假的?", "items": ["de.hausmeister", "de.ich_komme_aus", "de.in", "de.wirklich"] }
+  ],
+  "questions": [
+    { "prompt": "家里什么东西坏了?", "options": ["冰箱和门", "暖气和浴室的灯", "窗户和灯"], "answer": 1, "explainZh": "王伟在电话里说:Die Heizung funktioniert nicht, und die Lampe im Bad ist kaputt.(暖气不工作了,浴室的灯也坏了。)" },
+    { "prompt": "约纳斯为什么让王伟自己打电话?", "options": ["想让王伟用德语打电话,练练德语", "他没有物业的电话", "他不会说德语"], "answer": 0, "explainZh": "约纳斯说:Kein Problem, das ist Berlin! Du telefonierst – auf Deutsch!(你来打电话——用德语!)" },
+    { "prompt": "物业的工作人员最后说什么?", "options": ["王伟要自己修", "管理员不会来", "管理员会来修暖气和灯"], "answer": 2, "explainZh": "Der Hausmeister kommt und repariert die Heizung und die Lampe.;不相信管理员会马上来的是约纳斯,他在开柏林的玩笑。" }
+  ],
+  "grammar": [
+    { "id": "de.g.nicht_kaputt", "titleZh": "东西坏了:funktioniert nicht 和 ist kaputt",
+      "bodyZh": "说东西坏了有两种常用说法:① 动词 + nicht:Die Heizung funktioniert nicht.(暖气不工作了。)nicht 放在变位动词后面,短句里就在句末;② sein + kaputt:Die Lampe ist kaputt.(灯坏了。)。复习第 3 课:否定名词用 kein(Kein Problem!),否定动词、形容词用 nicht。别照中文的语序说成 ✗ Die Heizung nicht funktioniert——变位动词要在第二位,nicht 放在它后面。",
+      "examples": [ { "text": "Die Heizung funktioniert nicht.", "zh": "暖气不工作了。" }, { "text": "Die Lampe im Bad ist kaputt.", "zh": "浴室的灯坏了。" }, { "text": "Kein Problem!", "zh": "没问题!" } ] },
+    { "id": "de.g.telefon_anfang", "titleZh": "打电话怎么开头;er / sie 指东西",
+      "bodyZh": "接电话的一方先报单位:Hausverwaltung, guten Tag!;打电话的人报名字,最常用 Hier ist …:Guten Tag, hier ist Wei Wang.(您好,我是王伟。),也可以说 Guten Tag, ich heiße Wei Wang.。对方没听清,会问 Wie bitte? Wie heißen Sie?,中文名字可以先单说一遍姓:Wang, Wei Wang.。说东西时,代词跟着名词的性走:Die Lampe? Sie ist auch kaputt. / Der Hausmeister? Er kommt.。",
+      "examples": [ { "text": "Hausverwaltung, guten Tag!", "zh": "物业,您好!" }, { "text": "Guten Tag, hier ist Wei Wang.", "zh": "您好,我是王伟。" }, { "text": "Die Lampe? Sie ist auch kaputt.", "zh": "灯?也坏了。" } ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u9.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 大学与课程", "order": 109040,
+  "titleZh": "去老师的答疑时间", "goalZh": "会在答疑时间礼貌地请老师帮忙,分清 dürfen 和 können", "canDoZh": "能在答疑时间礼貌地向老师提问:考试、作业和学习方法",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.sprechstunde", "kind": "word", "pos": "noun", "text": "die Sprechstunde", "zh": "(老师的)答疑时间;(医生的)门诊时间", "features": { "gender": "f", "plural": "die Sprechstunden", "ipa": "ˈʃpʁɛçˌʃtʊndə" }, "noteZh": "sprechen + die Stunde;老师、医生固定接待的时间:Frau Wagner hat am Mittwoch Sprechstunde.;sp、st 在词首都读 [ʃp]、[ʃt]。" },
+    { "id": "de.herein", "kind": "word", "pos": "adv", "text": "herein", "zh": "进来(请进)", "alt": ["rein"], "features": { "ipa": "hɛˈʁaɪ̯n" }, "noteZh": "敲门后对方说 Herein!(请进!);Kommen Sie herein!;口语常缩成 rein:Darf ich reinkommen? / Darf ich da rein?;重音在后。" },
+    { "id": "de.etwas", "kind": "word", "pos": "pron", "text": "etwas", "zh": "一些;某样东西;一点儿", "features": { "ipa": "ˈɛtvas" }, "noteZh": "Ich habe etwas für Sie.(我有样东西给您);etwas Wasser(一点水);w 读 [v]。" },
+    { "id": "de.beispiel", "kind": "word", "pos": "noun", "text": "das Beispiel", "zh": "例子", "features": { "gender": "n", "plural": "die Beispiele", "ipa": "ˈbaɪ̯ʃpiːl" }, "noteZh": "zum Beispiel = 比如(书面缩写 z. B.);一个词里 ei [aɪ̯] 和 ie [iː] 都有,正好练区别;第二部分 Spiel 开头的 sp 读 [ʃp]。" },
+    { "id": "de.radio", "kind": "word", "pos": "noun", "text": "das Radio", "zh": "收音机;广播", "features": { "gender": "n", "plural": "die Radios", "ipa": "ˈʁaːdi̯o" }, "noteZh": "Radio hören(听广播);中性;r 是小舌音,开头的 a 是长音。" },
+    { "id": "de.normal", "kind": "word", "pos": "adj", "text": "normal", "zh": "正常的;平常的", "features": { "ipa": "nɔʁˈmaːl" }, "noteZh": "Das ist normal!(这很正常!);重音在后:nor-MAL,和英语 normal 不一样。" },
+    { "id": "de.test", "kind": "word", "pos": "noun", "text": "der Test", "zh": "测试;测验", "features": { "gender": "m", "plural": "die Tests", "ipa": "tɛst" }, "noteZh": "阳性,复数加 -s;考试前做的模拟题常叫 der Modelltest;s 读清音 [s]。" },
+    { "id": "de.hilfe", "kind": "word", "pos": "noun", "text": "die Hilfe", "zh": "帮助", "features": { "gender": "f", "plural": "-", "ipa": "ˈhɪlfə" }, "noteZh": "动词是 helfen:Vielen Dank für die Hilfe!(谢谢您的帮助!);遇到危险喊 Hilfe!(救命!)。" }
+  ],
+  "reviewItems": ["de.duerfen", "de.pruefung", "de.helfen", "de.ausleihen", "de.langsam"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Tag, Frau Wagner! Darf ich reinkommen?", "zh": "您好,瓦格纳老师!我可以进来吗?", "items": ["de.guten_tag", "de.frau", "de.duerfen", "de.ich", "de.herein", "de.ich_komme_aus"] },
+    { "speaker": "wagner", "text": "Ja, bitte! Ich habe jetzt Sprechstunde.", "zh": "请进!现在正是我的答疑时间。", "items": ["de.ja", "de.bitte", "de.ich", "de.haben", "de.jetzt", "de.sprechstunde"] },
+    { "speaker": "wei", "text": "Am 17. Mai ist meine Prüfung. Können Sie mir helfen?", "zh": "5 月 17 日我要考试了。您能帮帮我吗?", "items": ["de.am", "de.siebzehn", "de.mai", "de.sein", "de.mein", "de.pruefung", "de.koennen", "de.sie_hoeflich", "de.ich", "de.helfen"] },
+    { "speaker": "wagner", "text": "Gern! Was ist für Sie schwer?", "zh": "当然可以!您觉得哪方面难?", "items": ["de.gern", "de.was", "de.sein", "de.fuer", "de.sie_hoeflich", "de.schwer"] },
+    { "speaker": "wei", "text": "Das Sprechen. Ich spreche sehr langsam und nicht gut.", "zh": "口语。我说得很慢,也说不好。", "items": ["de.sprechen", "de.ich", "de.sehr", "de.langsam", "de.und", "de.nicht", "de.gut"] },
+    { "speaker": "wagner", "text": "Das ist normal! Sprechen Sie viel Deutsch, zum Beispiel mit Lena.", "zh": "这很正常!多说德语,比如和莉娜说。", "items": ["de.das_ist", "de.normal", "de.sprechen", "de.sie_hoeflich", "de.viel", "de.deutsch", "de.zu", "de.beispiel", "de.mit"] },
+    { "speaker": "wei", "text": "Und das Hören? Was kann ich da machen?", "zh": "那听力呢?我能做些什么?", "items": ["de.und", "de.hoeren", "de.was", "de.koennen", "de.ich", "de.da", "de.machen"] },
+    { "speaker": "wagner", "text": "Hören Sie oft Radio, zehn Minuten am Morgen.", "zh": "常听广播,早上听十分钟。", "items": ["de.hoeren", "de.sie_hoeflich", "de.oft", "de.radio", "de.zehn", "de.minute", "de.am", "de.morgen_tageszeit"] },
+    { "speaker": "wei", "text": "Zehn Minuten Radio? Das kann ich machen!", "zh": "十分钟广播?这我做得到!", "items": ["de.zehn", "de.minute", "de.radio", "de.koennen", "de.ich", "de.machen"] },
+    { "speaker": "wagner", "text": "Und hier habe ich noch etwas: ein Buch mit Tests für die Prüfung.", "zh": "还有,我这儿有样东西:一本考试模拟题。", "items": ["de.und", "de.hier", "de.haben", "de.ich", "de.noch", "de.etwas", "de.ein", "de.buch", "de.mit", "de.test", "de.fuer", "de.pruefung"] },
+    { "speaker": "wei", "text": "Darf ich es ausleihen? Vielen Dank für die Hilfe!", "zh": "我可以借回去吗?非常感谢您的帮助!", "items": ["de.duerfen", "de.ich", "de.es", "de.ausleihen", "de.vielen_dank", "de.fuer", "de.hilfe"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么去找瓦格纳老师?", "options": ["请两天假", "问讨论课在哪个教室", "请她帮忙准备 5 月 17 日的考试"], "answer": 2, "explainZh": "王伟说:Am 17. Mai ist meine Prüfung. Können Sie mir helfen?(5 月 17 日我要考试了,您能帮帮我吗?)" },
+    { "prompt": "老师建议王伟怎么练听力?", "options": ["和莉娜去看电影", "常听广播,早上听十分钟", "每天读一本书"], "answer": 1, "explainZh": "老师说:Hören Sie oft Radio, zehn Minuten am Morgen.(常听广播,早上听十分钟。)" },
+    { "prompt": "王伟觉得自己的口语有什么问题?", "options": ["说得很慢,说得不好", "没有时间练", "不喜欢和别人说话"], "answer": 0, "explainZh": "王伟说:Ich spreche sehr langsam und nicht gut.(我说得很慢,也说不好。)老师说这很正常(Das ist normal!)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.sprechstunde_hoeflich", "titleZh": "去答疑时间:礼貌地开口和请求",
+      "bodyZh": "去老师的答疑时间(die Sprechstunde)先敲门,可以问:Darf ich reinkommen?(我可以进来吗?reinkommen 是 hereinkommen 的口语说法);老师常回答 Herein!(请进!)或 Ja, bitte!。\n请老师帮忙:Können Sie mir helfen?(您能帮帮我吗?)——mir 是 ich 的第三格,helfen 后面要用它,现在先当固定说法记。\n和老师说话从头到尾都用 Sie。老师提建议常用 Sie 的命令式(第 6 单元学过):Sprechen Sie viel Deutsch! / Hören Sie oft Radio!;举例子用 zum Beispiel(比如)。\n最后别忘了道谢:Vielen Dank für die Hilfe!",
+      "examples": [
+        { "text": "Darf ich reinkommen?", "zh": "我可以进来吗?" },
+        { "text": "Können Sie mir helfen?", "zh": "您能帮帮我吗?" },
+        { "text": "Vielen Dank für die Hilfe!", "zh": "谢谢您的帮助!" }
+      ] },
+    { "id": "de.g.duerfen_koennen", "titleZh": "dürfen 还是 können?",
+      "bodyZh": "两个都能译成“可以”,意思却不一样:dürfen 是“被允许”(规定允许、别人同意):Darf ich es ausleihen?(我可以借吗?);können 是“能、会、做得到”:Das kann ich machen!(这我做得到!)。\n请求时:Darf ich …? 是问对方许不许可(我可以……吗?);Können Sie …? 是请对方帮忙做事(您能……吗?)。\n两个都是情态动词:变位的放第二位,动词原形放句末;单数 ich 和 er 都没有词尾:ich darf、er darf,ich kann、er kann。",
+      "examples": [
+        { "text": "Darf ich das Buch ausleihen?", "zh": "我可以借这本书吗?" },
+        { "text": "Zehn Minuten Radio? Das kann ich machen!", "zh": "十分钟广播?这我做得到!" }
+      ] }
+  ],
+  "review": "draft"
+}

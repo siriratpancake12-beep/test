@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u2.l07", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 我的家人和朋友", "order": 102070,
+  "titleZh": "保罗家的狗:宠物也是家人", "goalZh": "记住常见宠物的名称,会用 er / sie 指动物,问宠物叫什么、几岁、怎么样", "canDoZh": "能说出常见的宠物,说说宠物叫什么、多大、怎么样",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 23,
+  "newItems": [
+    { "id": "de.hund", "kind": "word", "pos": "noun", "text": "der Hund", "zh": "狗", "features": { "gender": "m", "plural": "die Hunde", "ipa": "hʊnt" }, "noteZh": "词尾的 d 读 [t],复数 Hunde 里的 d 读回 [d];指狗用 er:Der Hund? Er ist zwei.。" },
+    { "id": "de.katze", "kind": "word", "pos": "noun", "text": "die Katze", "zh": "猫", "features": { "gender": "f", "plural": "die Katzen", "ipa": "ˈkatsə" }, "noteZh": "tz 读 [ts];指猫用 sie:Die Katze? Sie ist alt.。" },
+    { "id": "de.vogel", "kind": "word", "pos": "noun", "text": "der Vogel", "zh": "鸟", "features": { "gender": "m", "plural": "die Vögel", "ipa": "ˈfoːɡl̩" }, "noteZh": "v 读 [f];复数 o 变 ö:die Vögel。" },
+    { "id": "de.tier", "kind": "word", "pos": "noun", "text": "das Tier", "zh": "动物", "features": { "gender": "n", "plural": "die Tiere", "ipa": "tiːɐ̯" }, "noteZh": "复数 die Tiere;ie 读长音 [iː],词尾的 r 轻轻带过,读成 [ɐ]。" },
+    { "id": "de.haustier", "kind": "word", "pos": "noun", "text": "das Haustier", "zh": "宠物", "features": { "gender": "n", "plural": "die Haustiere", "ipa": "ˈhaʊ̯sˌtiːɐ̯" }, "noteZh": "Haus(家、房子)+ Tier(动物)= 家里养的动物,性跟着 das Tier;复合词重音在第一部分:HAUS-tier。" },
+    { "id": "de.lieb", "kind": "word", "pos": "adj", "text": "lieb", "zh": "乖;可爱;亲切", "features": { "ipa": "liːp" }, "noteZh": "说人或动物性格好、招人喜欢:Bruno ist lieb.;词尾的 b 读 [p]。" }
+  ],
+  "reviewItems": ["de.familie", "de.oma", "de.alt", "de.ihr_poss", "de.foto", "de.jung"],
+  "lines": [
+    { "speaker": "paul", "text": "Hallo, Wei! Das ist Bruno, mein Hund.", "zh": "你好,王伟!这是布鲁诺,我的狗。", "items": ["de.hallo", "de.das_ist", "de.mein", "de.hund"] },
+    { "speaker": "wei", "text": "Hallo, Bruno! Du bist lieb! Wie alt ist er?", "zh": "你好,布鲁诺!你真乖!它几岁了?", "items": ["de.hallo", "de.du", "de.sein", "de.lieb", "de.wie", "de.alt", "de.er"] },
+    { "speaker": "paul", "text": "Er ist zwei Jahre alt. Bruno ist auch Familie!", "zh": "它两岁。布鲁诺也是家里的一员!", "items": ["de.er", "de.sein", "de.zwei", "de.jahr", "de.alt", "de.auch", "de.familie"] },
+    { "speaker": "paul", "text": "Wir haben auch eine Katze, Mimi. Ich habe ein Foto!", "zh": "我们还有一只猫,叫咪咪。我有照片!", "items": ["de.wir", "de.haben", "de.auch", "de.eins", "de.katze", "de.ich", "de.foto"] },
+    { "speaker": "wei", "text": "Und wie alt ist die Katze?", "zh": "那猫几岁了?", "items": ["de.und", "de.wie", "de.alt", "de.sein", "de.katze"] },
+    { "speaker": "paul", "text": "Sie ist alt: sechzehn! Und ich bin auch sechzehn.", "zh": "它年纪大了:十六岁!我也十六岁。", "items": ["de.sie_sg", "de.sein", "de.alt", "de.sechzehn", "de.und", "de.ich", "de.auch"] },
+    { "speaker": "wei", "text": "Meine Oma in Chengdu hat auch ein Haustier: einen Hund.", "zh": "我成都的奶奶也养了一只宠物:一只狗。", "items": ["de.mein", "de.oma", "de.in", "de.haben", "de.auch", "de.eins", "de.haustier", "de.hund"] },
+    { "speaker": "paul", "text": "Wirklich? Wie heißt ihr Hund?", "zh": "真的?她的狗叫什么?", "items": ["de.wirklich", "de.wie", "de.ich_heisse", "de.ihr_poss", "de.hund"] },
+    { "speaker": "wei", "text": "Er heißt Huanhuan und ist drei. Er ist jung und lieb.", "zh": "它叫欢欢,三岁。它还小,很乖。", "items": ["de.er", "de.ich_heisse", "de.und", "de.sein", "de.drei", "de.jung", "de.lieb"] },
+    { "speaker": "paul", "text": "Hunde, Katzen, Vögel – Tiere sind auch Familie!", "zh": "狗、猫、鸟——动物也是家人!", "items": ["de.hund", "de.katze", "de.vogel", "de.tier", "de.sein", "de.auch", "de.familie"] }
+  ],
+  "questions": [
+    { "prompt": "布鲁诺几岁?", "options": ["两岁", "三岁", "十六岁"], "answer": 0, "explainZh": "保罗说:Er ist zwei Jahre alt.。三岁的是王伟奶奶的狗欢欢,十六岁的是猫咪咪——和保罗一样大。" },
+    { "prompt": "咪咪是谁?", "options": ["保罗家的狗", "王伟奶奶的狗", "保罗家的老猫"], "answer": 2, "explainZh": "Wir haben auch eine Katze, Mimi.……Sie ist alt: sechzehn!(我们还有一只猫,叫咪咪。……它十六岁了!)" },
+    { "prompt": "王伟的奶奶养了什么宠物?", "options": ["一只猫", "一只狗", "一只鸟"], "answer": 1, "explainZh": "王伟说:Meine Oma in Chengdu hat auch ein Haustier: einen Hund.——那只狗叫欢欢,三岁。保罗最后说的 Vögel 只是在列举动物。" }
+  ],
+  "grammar": [
+    { "id": "de.g.er_sie_tiere", "titleZh": "er / sie 指动物:跟着名词的性走",
+      "bodyZh": "第 2 课学过:er 指阳性名词,sie 指阴性名词。说动物也一样,看的是名词的性,不是动物的公母:der Hund → er,die Katze → sie,der Vogel → er。就算是一只公猫,说 die Katze 的时候也用 sie:Die Katze? Sie ist alt.。中文的“它”不分性别,说德语时要先想名词是 der 还是 die。das Tier、das Haustier 是中性,中性的代词 es 下个单元才学,现在先重复名词。",
+      "examples": [ { "text": "Der Hund? Er ist zwei Jahre alt.", "zh": "那只狗?它两岁。" }, { "text": "Die Katze? Sie ist alt.", "zh": "那只猫?它年纪大了。" }, { "text": "Wie heißt ihr Hund? – Er heißt Huanhuan.", "zh": "她的狗叫什么?——它叫欢欢。" } ] },
+    { "id": "de.g.haustier_fragen", "titleZh": "问宠物:Wie heißt …? Wie alt ist …?",
+      "bodyZh": "问人的名字和年龄的句型,问动物也能用:Wie heißt dein Hund? / Wie alt ist er? – Er ist zwei Jahre alt.(也可以只说 Er ist zwei.)。说“谁的”用物主冠词:mein Hund(我的)、dein Hund(你的)、sein Hund(他的,说保罗的狗)、ihr Hund(她的,说奶奶的狗)。动物的复数要单独记:die Hunde, die Katzen, die Vögel(o 变 ö), die Tiere。",
+      "examples": [ { "text": "Wie heißt dein Hund?", "zh": "你的狗叫什么?" }, { "text": "Sein Hund heißt Bruno.", "zh": "他的狗叫布鲁诺。" }, { "text": "Hunde, Katzen, Vögel – Tiere sind auch Familie!", "zh": "狗、猫、鸟——动物也是家人!" } ] }
+  ],
+  "review": "draft"
+}

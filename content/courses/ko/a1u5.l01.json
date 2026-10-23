@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u5.l01", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105010,
+  "titleZh": "一二三:汉字数词", "goalZh": "会读、会写汉字数词 1–10,会组合 11–99",
+  "canDoZh": "能用汉字数词从 1 数到 99,听懂老师说的数字",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "ko.il", "kind": "word", "pos": "num", "text": "일", "zh": "一(汉字数词)", "features": { "roman": "il" }, "noteZh": "汉字词 一;收音 ㄹ 舌尖顶住上齿龈,不要读成“衣儿”。日期里的“日”也读 일(사월 십이 일 = 4 月 12 日)。" },
+    { "id": "ko.i", "kind": "word", "pos": "num", "text": "이", "zh": "二(汉字数词)", "features": { "roman": "i" }, "noteZh": "汉字词 二;和指示词 이(这:이 수업 = 这节课)、主语助词 이(수업이)写法一样,靠上下文分。" },
+    { "id": "ko.sam", "kind": "word", "pos": "num", "text": "삼", "zh": "三(汉字数词)", "features": { "roman": "sam" }, "noteZh": "汉字词 三;收音 ㅁ 最后要闭上嘴,和粤语“三”(saam)一样以 m 收尾,不读成普通话的 sān。" },
+    { "id": "ko.sa", "kind": "word", "pos": "num", "text": "사", "zh": "四(汉字数词)", "features": { "roman": "sa" }, "noteZh": "汉字词 四;和“死”(사)同音,有的楼的电梯把 4 楼写成 F。" },
+    { "id": "ko.o", "kind": "word", "pos": "num", "text": "오", "zh": "五(汉字数词)", "features": { "roman": "o" }, "noteZh": "汉字词 五;是圆唇的 o,不读普通话的 wǔ。" },
+    { "id": "ko.yuk", "kind": "word", "pos": "num", "text": "육", "zh": "六(汉字数词)", "features": { "roman": "yuk" }, "noteZh": "汉字词 六(粤语 luk);收音 ㄱ 不爆破。在数字后面读音会变:십육 [심뉵](16)、이십육 [이심뉵](26)。" },
+    { "id": "ko.chil", "kind": "word", "pos": "num", "text": "칠", "zh": "七(汉字数词)", "features": { "roman": "chil" }, "noteZh": "汉字词 七;ㅊ 要送气,像“七”的声母;收音 ㄹ。" },
+    { "id": "ko.pal", "kind": "word", "pos": "num", "text": "팔", "zh": "八(汉字数词)", "features": { "roman": "pal" }, "noteZh": "汉字词 八;ㅍ 要送气。팔 也是“胳膊”(固有词,同形)。" },
+    { "id": "ko.gu", "kind": "word", "pos": "num", "text": "구", "zh": "九(汉字数词)", "features": { "roman": "gu" }, "noteZh": "汉字词 九;ㄱ 是不送气的松音,不要读成送气的“哭”。" },
+    { "id": "ko.sip", "kind": "word", "pos": "num", "text": "십", "zh": "十(汉字数词)", "features": { "roman": "sip" }, "noteZh": "汉字词 十(粤语 sap);收音 ㅂ 双唇闭住不爆破。组合和汉语一样:십일(11)、이십(20)、삼십오(35);“十”前面不说“一”。" }
+  ],
+  "reviewItems": ["ko.seonsaengnim", "ko.sueop", "ko.dasi_malhae_juseyo"],
+  "lines": [
+    { "speaker": "park", "text": "여러분, 안녕하세요? 일, 이, 삼, 사, 오!", "zh": "(语学堂的数字课,朴老师举起数字卡)大家好!一、二、三、四、五!", "roman": "yeoreobun, annyeonghaseyo? il, i, sam, sa, o!", "items": ["ko.yeoreobun", "ko.annyeonghaseyo", "ko.il", "ko.i", "ko.sam", "ko.sa", "ko.o"] },
+    { "speaker": "jing", "text": "일, 이, 삼, 사, 오!", "zh": "(陈静和同学们一起跟读)一、二、三、四、五!", "roman": "il, i, sam, sa, o!", "items": ["ko.il", "ko.i", "ko.sam", "ko.sa", "ko.o"] },
+    { "speaker": "park", "text": "육, 칠, 팔, 구, 십!", "zh": "六、七、八、九、十!", "roman": "yuk, chil, pal, gu, sip!", "items": ["ko.yuk", "ko.chil", "ko.pal", "ko.gu", "ko.sip"] },
+    { "speaker": "jing", "text": "선생님, 삼은 중국어로 '싼'이에요. 육은 '류'예요!", "zh": "老师,삼 在中文里是“三(sān)”,육 是“六(liù)”!(陈静发现读音很像)", "roman": "seonsaengnim, sameun junggugeoro 'ssan'ieyo. yugeun 'ryu'yeyo!", "items": ["ko.seonsaengnim", "ko.sam", "ko.junggugeo", "ko.yuk"] },
+    { "speaker": "park", "text": "맞아요. 그럼 천징 씨, 남 씨! 칠!", "zh": "对。那么陈静、阮文南!(老师说一个数,两人比赛谁先在小白板上写好举起来)七!", "roman": "majayo. geureom cheonjing ssi, nam ssi! chil!", "items": ["ko.majayo", "ko.geureom", "ko.ssi", "ko.chil"] },
+    { "speaker": "jing", "text": "여기요!", "zh": "(陈静第一个举起写着 칠 的白板)这儿!", "roman": "yeogiyo!", "items": ["ko.yeogiyo"] },
+    { "speaker": "park", "text": "좋아요! 이십삼!", "zh": "很好!二十三!", "roman": "joayo! isipsam!", "items": ["ko.joayo", "ko.i", "ko.sip", "ko.sam"] },
+    { "speaker": "nam", "text": "죄송합니다. 다시 말해 주세요.", "zh": "对不起,请再说一遍。", "roman": "joesonghamnida. dasi malhae juseyo.", "items": ["ko.joesonghamnida", "ko.dasi_malhae_juseyo"] },
+    { "speaker": "park", "text": "이십삼! 그리고 구십구!", "zh": "二十三!还有九十九!", "roman": "isipsam! geurigo gusipgu!", "items": ["ko.i", "ko.sip", "ko.sam", "ko.geurigo", "ko.gu"] },
+    { "speaker": "nam", "text": "이십삼, 구십구… 여기요! 이 수업 진짜 좋아요!", "zh": "(这回南抢先了)二十三、九十九……这儿!这节课太好玩了!", "roman": "isipsam, gusipgu… yeogiyo! i sueop jinjja joayo!", "items": ["ko.i", "ko.sip", "ko.sam", "ko.gu", "ko.yeogiyo", "ko.sueop", "ko.jinjja", "ko.joayo"] }
+  ],
+  "questions": [
+    { "prompt": "朴老师说“칠”,陈静写出来的是哪个数?", "options": ["一", "八", "七"], "answer": 2, "explainZh": "第 5、6 句:老师说 칠(七),陈静第一个举起白板说 여기요。일 是一,팔 是八。" },
+    { "prompt": "陈静说 삼、육 在中文里是哪两个数?", "options": ["三和六", "四和九", "三和十"], "answer": 0, "explainZh": "第 4 句:삼 是“三”,육 是“六”。汉字数词的读音和汉语很像,可以借汉语来记;“十”是 십。" },
+    { "prompt": "老师最后说的两个数是多少?", "options": ["32 和 99", "23 和 99", "23 和 90", "203 和 909"], "answer": 1, "explainZh": "第 9 句:이십삼 = 이(二)+ 십(十)+ 삼(三)= 23;구십구 = 99。组合方式和汉语“二十三、九十九”一样。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u5_sino_numbers", "titleZh": "汉字数词 1–10:跟汉语对着记",
+      "bodyZh": "韩语有两套数字。本课学的是汉字数词:일 一、이 二、삼 三、사 四、오 五、육 六、칠 七、팔 八、구 九、십 十。它们来自汉字的古音,不少和汉语(特别是粤语)的读音很接近:三 삼(粤语 saam)、六 육(粤语 luk)、十 십(粤语 sap)。汉字数词用在电话号码、日期、分钟、价格、楼层、页码上,这个单元会一个个学到;另一套固有数词 하나、둘、셋……(第 3 课)用来数东西、说年龄和几点。\n容易错的地方:① 收音要读到位、不爆破:삼 闭嘴收 m,육 舌根堵住收 k,칠、팔 舌尖顶住收 l,십 双唇闭住收 p,不要读成“萨姆、西普”;② 칠、팔 是送气音,구 是不送气的松音;③ 이(二)和“这”(이 수업 = 这节课)、主语助词 이(수업이)写法一样,要看上下文。",
+      "examples": [ { "text": "일, 이, 삼, 사, 오", "zh": "一、二、三、四、五" }, { "text": "육, 칠, 팔, 구, 십", "zh": "六、七、八、九、十" }, { "text": "이 수업", "zh": "这节课(这里的 이 是“这”,不是“二”)" } ] },
+    { "id": "ko.g.u5_sino_11_99", "titleZh": "11–99 怎么组合;十六读 [심뉵]",
+      "bodyZh": "11–99 的组合方法和汉语一样:십일(十一)、십이(十二)、이십(二十)、이십삼(二十三)、구십구(九十九)。“十”前面的“一”不说:11 是 십일,不是“일십일”。\n数字连着写、不空格,读的时候照常音变:십일 连音读 [시빌],이십삼 读 [이십쌈](ㅂ 后面的 ㅅ 读成紧音)。最特别的是 16:십육 不读 [시뷱],而是读 [심뉵]——中间加进一个 ㄴ,前面的 ㅂ 再被它同化成 ㅁ;26、36……也一样,이십육 读 [이심뉵]。",
+      "examples": [ { "text": "십일, 십이, 이십", "zh": "十一、十二、二十" }, { "text": "이십삼, 구십구", "zh": "二十三、九十九" }, { "text": "십육", "zh": "十六,读 [심뉵]" } ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "ko.a1u7.l02", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107020,
+  "titleZh": "你喜欢什么颜色?", "goalZh": "会说常见的衣服和颜色,用“颜色 + 衣服”描述想要的东西",
+  "canDoZh": "能说出自己想买什么颜色的什么衣服,问朋友喜欢什么颜色",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "ko.tisyeocheu", "kind": "word", "pos": "noun", "text": "티셔츠", "zh": "T 恤", "features": { "roman": "tisyeocheu" }, "noteZh": "外来词 T-shirt;셔 = ㅅ + ㅕ;英语 t 后面没有元音,韩语用 ㅡ 补成一个音节:츠。" },
+    { "id": "ko.baji", "kind": "word", "pos": "noun", "text": "바지", "zh": "裤子", "features": { "roman": "baji" }, "noteZh": "청바지 = 牛仔裤(청 = 青)。" },
+    { "id": "ko.chima", "kind": "word", "pos": "noun", "text": "치마", "zh": "裙子", "features": { "roman": "chima" }, "noteZh": "치 要送气;韩服的裙子也叫 치마。" },
+    { "id": "ko.sinbal", "kind": "word", "pos": "noun", "text": "신발", "zh": "鞋", "features": { "roman": "sinbal" }, "noteZh": "鞋子的统称;进韩国人家里、一些饭馆要脱鞋。" },
+    { "id": "ko.saekkkal", "kind": "word", "pos": "noun", "text": "색깔", "zh": "颜色", "features": { "roman": "saekkkal" }, "noteZh": "색(色)+ 깔;收音 ㄱ 后面紧跟紧音 ㄲ,读 [색깔];다른 색깔 있어요?= 有别的颜色吗?(下一课)" },
+    { "id": "ko.geomeunsaek", "kind": "word", "pos": "noun", "text": "검은색", "zh": "黑色", "alt": ["검정색"], "features": { "roman": "geomeunsaek" }, "noteZh": "也说 검정색;连音读 [거믄색]。" },
+    { "id": "ko.huinsaek", "kind": "word", "pos": "noun", "text": "흰색", "zh": "白色", "alt": ["하얀색"], "features": { "roman": "huinsaek" }, "noteZh": "ㅢ 在辅音后读 [이]:[힌색];也说 하얀색。" },
+    { "id": "ko.ppalgansaek", "kind": "word", "pos": "noun", "text": "빨간색", "zh": "红色", "features": { "roman": "ppalgansaek" }, "noteZh": "紧音 ㅃ;也说 빨강;口语修饰名词也常说 빨간 치마。" },
+    { "id": "ko.paransaek", "kind": "word", "pos": "noun", "text": "파란색", "zh": "蓝色", "features": { "roman": "paransaek" }, "noteZh": "送气 ㅍ;也说 파랑。파란불 是“绿灯”:韩语的 파랗다 有时也包括绿色。" }
+  ],
+  "reviewItems": ["ko.ot", "ko.joahaeyo", "ko.igeo", "ko.mwo"],
+  "lines": [
+    { "speaker": "jing", "text": "수아 씨, 저는 옷이 많이 없어요.", "zh": "(四月,天一下子暖和了,陈静带来的几乎都是厚衣服)秀雅,我衣服不多。", "roman": "sua ssi, jeoneun osi mani eopseoyo.", "items": ["ko.ssi", "ko.jeo", "ko.ot", "ko.mani", "ko.eopseoyo"] },
+    { "speaker": "sua", "text": "그래요? 이거 제 빨간색 치마예요. 그리고 검은색 바지!", "zh": "是吗?(秀雅打开衣柜)这是我的红裙子,还有黑裤子!", "roman": "geuraeyo? igeo je ppalgansaek chimayeyo. geurigo geomeunsaek baji!", "items": ["ko.geuraeyo", "ko.igeo", "ko.ppalgansaek", "ko.chima", "ko.geurigo", "ko.geomeunsaek", "ko.baji"] },
+    { "speaker": "jing", "text": "이 색깔은 한국어로 뭐예요?", "zh": "这个颜色用韩语怎么说?(陈静指着一件蓝 T 恤)", "roman": "i saekkkareun hangugeoro mwoyeyo?", "items": ["ko.saekkkal", "ko.hangugeo", "ko.mwo"] },
+    { "speaker": "sua", "text": "파란색이에요. 징 씨는 색깔 뭐 좋아해요?", "zh": "蓝色。陈静,你喜欢什么颜色?", "roman": "paransaegieyo. jing ssineun saekkkal mwo joahaeyo?", "items": ["ko.paransaek", "ko.ssi", "ko.saekkkal", "ko.mwo", "ko.joahaeyo"] },
+    { "speaker": "jing", "text": "저는 파란색하고 흰색을 좋아해요. 빨간색은 안 좋아해요.", "zh": "我喜欢蓝色和白色。红色我不喜欢。", "roman": "jeoneun paransaekago huinsaegeul joahaeyo. ppalgansaegeun an joahaeyo.", "items": ["ko.jeo", "ko.paransaek", "ko.huinsaek", "ko.joahaeyo", "ko.ppalgansaek", "ko.an"] },
+    { "speaker": "sua", "text": "그럼 뭐가 필요해요?", "zh": "那你需要什么?", "roman": "geureom mwoga piryohaeyo?", "items": ["ko.geureom", "ko.mwo", "ko.piryohaeyo"] },
+    { "speaker": "jing", "text": "검은색 바지하고 흰색 티셔츠가 필요해요.", "zh": "我需要黑裤子和白 T 恤。", "roman": "geomeunsaek bajihago huinsaek tisyeocheuga piryohaeyo.", "items": ["ko.geomeunsaek", "ko.baji", "ko.huinsaek", "ko.tisyeocheu", "ko.piryohaeyo"] },
+    { "speaker": "sua", "text": "그럼 내일 같이 동대문에 가요! 옷이 싸요.", "zh": "那明天一起去东大门吧!那儿的衣服便宜。", "roman": "geureom naeil gachi dongdaemune gayo! osi ssayo.", "items": ["ko.geureom", "ko.naeil", "ko.gachi", "ko.gayo", "ko.ot", "ko.ssayo"] },
+    { "speaker": "jing", "text": "좋아요! 신발도 구경하고 싶어요.", "zh": "好啊!我还想看看鞋。", "roman": "joayo! sinbaldo gugyeonghago sipeoyo.", "items": ["ko.joayo", "ko.sinbal", "ko.gugyeong", "ko.haeyo"] },
+    { "speaker": "sua", "text": "네, 동대문에 신발도 많이 있어요.", "zh": "嗯,东大门鞋也很多。", "roman": "ne, dongdaemune sinbaldo mani isseoyo.", "items": ["ko.ne", "ko.sinbal", "ko.mani", "ko.isseoyo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静喜欢什么颜色?", "options": ["红色和黑色", "蓝色和白色", "黄色和白色", "蓝色和红色"], "answer": 1, "explainZh": "第 5 句:파란색하고 흰색을 좋아해요(喜欢蓝色和白色);빨간색은 안 좋아해요(红色不喜欢)。" },
+    { "prompt": "陈静说她需要什么?", "options": ["红裙子和黑裤子", "白 T 恤和鞋", "黑裤子和白 T 恤"], "answer": 2, "explainZh": "第 7 句:검은색 바지하고 흰색 티셔츠가 필요해요。红裙子和黑裤子是秀雅的衣服;鞋她只是想去看看(구경하고 싶어요)。" },
+    { "prompt": "秀雅为什么建议去东大门?", "options": ["那儿的衣服便宜", "那儿离宿舍很近", "那儿有她的朋友"], "answer": 0, "explainZh": "第 8 句:동대문에 가요! 옷이 싸요.——东大门的衣服便宜。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.color_noun", "titleZh": "颜色 + 名词:빨간색 치마",
+      "bodyZh": "说“红裙子、黑裤子”,韩语把颜色词直接放在名词前面:빨간색 치마、검은색 바지、흰색 티셔츠,中间不加“的”。中国学生容易照着“红色的裙子”说成 빨간색의 치마,韩国人听着很别扭。本课的五个颜色词都是“形容词的修饰形 + 색(色)”:빨간색(红)、파란색(蓝)、검은색(黑)、흰색(白),下一单元复习课还会学 노란색(黄);口语里也常去掉 색 直接说 빨간 치마、검은 바지。색깔 是“颜色”的总称:이 색깔(这个颜色)。发音注意连音和 ㅢ:검은색 读 [거믄색],흰색 读 [힌색]。",
+      "examples": [ { "text": "빨간색 치마", "zh": "红裙子(中间不加 의)" }, { "text": "검은색 바지", "zh": "黑裤子" }, { "text": "흰색 티셔츠", "zh": "白 T 恤" } ] },
+    { "id": "ko.g.like_contrast", "titleZh": "喜欢什么:N을/를 좋아해요,对比用 은/는",
+      "bodyZh": "“喜欢 N”说 N을/를 좋아해요:有收音用 을(흰색을 좋아해요),没有收音用 를(커피를 좋아해요),动词放在最后。说“A 喜欢、B 不喜欢”时,B 后面换成 은/는 表示对比:빨간색은 안 좋아해요(红色嘛,不喜欢)。只想问一句“那 N 呢?”,就说 N은요? / N는요?:빨간색은요?。口语里助词常常省掉:색깔 뭐 좋아해요?(喜欢什么颜色?),语序还是“宾语 + 动词”,不要照中文把 뭐 放到 좋아해요 后面。",
+      "examples": [ { "text": "저는 파란색을 좋아해요.", "zh": "我喜欢蓝色。" }, { "text": "빨간색은 안 좋아해요.", "zh": "红色我不喜欢(은/는 表示对比)。" }, { "text": "징 씨는 색깔 뭐 좋아해요?", "zh": "陈静,你喜欢什么颜色?" } ] }
+  ],
+  "review": "draft"
+}

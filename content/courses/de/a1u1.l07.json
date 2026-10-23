@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u1.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-1 你好,我是……", "order": 101070,
+  "titleZh": "破冰游戏:你住在 Neukölln 吗?", "goalZh": "会把变位动词放在句首连续提问,并用 Ja / Nein 加完整的句子回答", "canDoZh": "能用是非问句连续问别人的情况(住在哪里、来自哪里、说什么语言),并用 Ja / Nein 加完整的句子回答",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.fragen", "kind": "word", "pos": "verb", "text": "fragen", "zh": "问", "features": { "ipa": "ˈfʁaːɡn̩" }, "noteZh": "规则动词:ich frage, du fragst, er fragt;问某人直接跟人:Ich frage Sofia.(不加介词)。" },
+    { "id": "de.antworten", "kind": "word", "pos": "verb", "text": "antworten", "zh": "回答", "features": { "ipa": "ˈantˌvɔʁtn̩" }, "noteZh": "词干以 t 结尾,du、er 前面先加 e:du antwortest, er antwortet;重音在 ant 上。" },
+    { "id": "de.zettel", "kind": "word", "pos": "noun", "text": "der Zettel", "zh": "纸条;小纸片", "features": { "gender": "m", "plural": "die Zettel", "ipa": "ˈtsɛtl̩" }, "noteZh": "写问题、留言、购物清单的小纸条都叫 Zettel;复数不变。z 读 [ts](像“次”的声母)。" },
+    { "id": "de.genau", "kind": "word", "pos": "adv", "text": "genau", "zh": "对,就是;准确", "features": { "ipa": "ɡəˈnaʊ̯" }, "noteZh": "Ja, genau! = 对,就是这样!(确认对方说的话或猜的事)。ge 里的 e 读得很轻,重音在 nau 上。" },
+    { "id": "de.fertig", "kind": "word", "pos": "adj", "text": "fertig", "zh": "做完了;完成的", "features": { "ipa": "ˈfɛʁtɪç" }, "noteZh": "Ich bin fertig.(我做完了。)用 sein,不说 ✗ Ich habe fertig;词尾 -ig 读 [ɪç]。" },
+    { "id": "de.wirklich", "kind": "word", "pos": "adv", "text": "wirklich", "zh": "真的;确实", "features": { "ipa": "ˈvɪʁklɪç" }, "noteZh": "听到意外的消息时说 Wirklich?(真的?);w 读 [v],-lich 读 [lɪç]。" },
+    { "id": "de.italienisch", "kind": "word", "pos": "propn", "text": "Italienisch", "zh": "意大利语", "features": { "gender": "n", "ipa": "itaˈli̯eːnɪʃ" }, "noteZh": "Italien(意大利)加 -isch,重音移到 lie 上;语言名首字母大写、不加冠词:Ich spreche Italienisch.。" }
+  ],
+  "reviewItems": ["de.wohnen", "de.sprechen", "de.ich_komme_aus", "de.englisch", "de.sie_hoeflich"],
+  "lines": [
+    { "speaker": "wagner", "text": "Das sind die Zettel. Sie fragen, und Sie antworten – auf Deutsch, bitte!", "zh": "这些是纸条。大家互相提问、互相回答——请说德语!", "items": ["de.das_ist", "de.sein", "de.zettel", "de.sie_hoeflich", "de.fragen", "de.und", "de.antworten", "de.auf_deutsch", "de.bitte"] },
+    { "speaker": "wei", "text": "Sofia, ich frage: Wohnst du in Kreuzberg?", "zh": "索菲娅,我来问:你住在克罗伊茨贝格吗?", "items": ["de.ich", "de.fragen", "de.wohnen", "de.du", "de.in"] },
+    { "speaker": "sofia", "text": "Nein, ich wohne in Neukölln.", "zh": "不,我住在新克尔恩。", "items": ["de.nein", "de.ich", "de.wohnen", "de.in"] },
+    { "speaker": "wei", "text": "Wirklich? Ich wohne in Neukölln!", "zh": "真的?我就住在新克尔恩!", "items": ["de.wirklich", "de.ich", "de.wohnen", "de.in"] },
+    { "speaker": "sofia", "text": "Und du, Wei? Sprichst du Italienisch?", "zh": "那你呢,王伟?你会说意大利语吗?", "items": ["de.und", "de.du", "de.sprechen", "de.italienisch"] },
+    { "speaker": "wei", "text": "Nein, ich spreche Chinesisch und Englisch. Sprichst du Chinesisch?", "zh": "不会,我会说中文和英语。你会说中文吗?", "items": ["de.nein", "de.ich", "de.sprechen", "de.chinesisch", "de.und", "de.englisch", "de.du"] },
+    { "speaker": "sofia", "text": "Nein! Ich spreche Italienisch, Englisch und Deutsch.", "zh": "不会!我会说意大利语、英语和德语。", "items": ["de.nein", "de.ich", "de.sprechen", "de.italienisch", "de.englisch", "de.und", "de.deutsch"] },
+    { "speaker": "wei", "text": "Kommst du aus Italien?", "zh": "你是意大利人吗?", "items": ["de.ich_komme_aus", "de.du", "de.italien"] },
+    { "speaker": "sofia", "text": "Ja, genau! Ich komme aus Italien.", "zh": "对,没错!我来自意大利。", "items": ["de.ja", "de.genau", "de.ich", "de.ich_komme_aus", "de.italien"] },
+    { "speaker": "wagner", "text": "Herr Wang, sind Sie fertig?", "zh": "王先生,您做完了吗?", "items": ["de.herr", "de.sein", "de.sie_hoeflich", "de.fertig"] },
+    { "speaker": "wei", "text": "Ja, ich bin fertig. Danke, Sofia!", "zh": "做完了。谢谢你,索菲娅!", "items": ["de.ja", "de.ich", "de.sein", "de.fertig", "de.danke"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅住在哪里?", "options": ["克罗伊茨贝格", "新克尔恩", "意大利"], "answer": 1, "explainZh": "王伟问 Wohnst du in Kreuzberg?,索菲娅回答 Nein, ich wohne in Neukölln.;意大利是她的家乡,她现在住在柏林的新克尔恩。" },
+    { "prompt": "王伟会说意大利语吗?", "options": ["会,说得很好", "会一点", "不会,他会说中文和英语"], "answer": 2, "explainZh": "索菲娅问 Sprichst du Italienisch?,王伟说:Nein, ich spreche Chinesisch und Englisch.。" },
+    { "prompt": "老师问 Herr Wang, sind Sie fertig?,是什么意思?", "options": ["王先生,您做完了吗?", "王先生,您是大学生吗?", "王先生,您住在哪儿?"], "answer": 0, "explainZh": "fertig 是“做完了”。王伟回答 Ja, ich bin fertig.(我做完了。)老师对学生用 Sie,同学之间用 du。" }
+  ],
+  "grammar": [
+    { "id": "de.g.ja_nein_frage", "titleZh": "是非问句:变位动词放在句首",
+      "bodyZh": "第 4 课的 Bist du …? / Sind Sie …? 是把 sein 放到句首;别的动词也一样,把变好的动词放在第一位,主语紧跟在后面:Wohnst du in Kreuzberg? / Sprichst du Italienisch? / Kommst du aus Italien?。中文在句末加“吗”,德语靠调换语序,句末语调上扬。回答先说 Ja 或 Nein,最好再说一个完整的句子:Nein, ich wohne in Neukölln.;对方猜对了可以说 Ja, genau!。同学之间用 du:Wohnst du …?;对老师用 Sie:Wohnen Sie …?;老师对学生也说 Sie:Herr Wang, sind Sie fertig?。",
+      "examples": [ { "text": "Wohnst du in Kreuzberg? – Nein, ich wohne in Neukölln.", "zh": "你住在克罗伊茨贝格吗?——不,我住在新克尔恩。" }, { "text": "Kommst du aus Italien? – Ja, genau!", "zh": "你是意大利人吗?——对,没错!" }, { "text": "Herr Wang, sind Sie fertig? – Ja, ich bin fertig.", "zh": "王先生,您做完了吗?——做完了。" } ] },
+    { "id": "de.g.fragen_antworten", "titleZh": "fragen 和 antworten 的变位",
+      "bodyZh": "fragen(问)是规则动词:ich frage, du fragst, Sie fragen。antworten(回答)的词干以 t 结尾,和 du 搭配时要先加 e 再加 -st,不然读不出来:du antwortest(不说 ✗ du antwortst)。和 Sie 搭配时形式和不定式一样:Sie fragen, Sie antworten。fragen 后面直接跟被问的人,不加介词:Ich frage Sofia.(我问索菲娅。)",
+      "examples": [ { "text": "Ich frage, und du antwortest.", "zh": "我问,你答。" }, { "text": "Sie fragen, und Sie antworten.", "zh": "你们提问,你们回答。" } ] }
+  ],
+  "review": "draft"
+}

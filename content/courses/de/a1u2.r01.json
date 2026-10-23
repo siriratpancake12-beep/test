@@ -1,0 +1,37 @@
+{
+  "id": "de.a1u2.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-2 我的家人和朋友", "order": 102045,
+  "titleZh": "保罗的笔友自我介绍", "goalZh": "读懂一篇交笔友的自我介绍,复习动词变位、物主冠词和年龄的说法", "canDoZh": "能读懂一篇交笔友的自我介绍,找出年龄、家人、住在哪里、在学什么",
+  "skills": ["read", "write"], "estimatedMinutes": 16,
+  "newItems": [
+    { "id": "de.suchen", "kind": "word", "pos": "verb", "text": "suchen", "zh": "找;寻找", "features": { "ipa": "ˈzuːxn̩" }, "noteZh": "规则动词:ich suche, du suchst, er sucht;后面直接跟要找的人或东西:Ich suche einen Brieffreund.。u 后面的 ch 读 [x]。" },
+    { "id": "de.brieffreund", "kind": "word", "pos": "noun", "text": "der Brieffreund", "zh": "笔友", "features": { "gender": "m", "plural": "die Brieffreunde", "ipa": "ˈbʁiːfˌfʁɔʏ̯nt" }, "noteZh": "Brief(信)+ Freund(朋友);女笔友是 die Brieffreundin。词尾的 d 读 [t]。" },
+    { "id": "de.schule", "kind": "word", "pos": "noun", "text": "die Schule", "zh": "学校(中小学)", "features": { "gender": "f", "plural": "die Schulen", "ipa": "ˈʃuːlə" }, "noteZh": "中小学叫 die Schule,大学叫 die Uni;“在学校”是 in der Schule。sch 读 [ʃ]。" }
+  ],
+  "reviewItems": ["de.familie", "de.lernen", "de.machen", "de.geschwister", "de.wie_alt", "de.zwanzig"],
+  "lines": [
+    { "speaker": "paul", "text": "Hallo! Ich heiße Paul und bin sechzehn Jahre alt.", "zh": "你好!我叫保罗,今年十六岁。", "items": ["de.hallo", "de.ich_heisse", "de.ich", "de.und", "de.sein", "de.sechzehn", "de.jahr", "de.alt"] },
+    { "speaker": "paul", "text": "Ich wohne in Berlin, in Kreuzberg.", "zh": "我住在柏林的克罗伊茨贝格区。", "items": ["de.ich", "de.wohnen", "de.in"] },
+    { "speaker": "paul", "text": "Meine Familie: mein Vater, meine Mutter und meine Schwester Lena.", "zh": "我的家人:我爸爸、我妈妈和我姐姐莉娜。", "items": ["de.mein", "de.familie", "de.vater", "de.mutter", "de.und", "de.schwester"] },
+    { "speaker": "paul", "text": "Lena ist zwanzig. Sie ist Studentin.", "zh": "莉娜二十岁,是大学生。", "items": ["de.sein", "de.zwanzig", "de.sie_sg", "de.studentin"] },
+    { "speaker": "paul", "text": "Ich spreche Deutsch und Englisch.", "zh": "我会说德语和英语。", "items": ["de.ich", "de.sprechen", "de.deutsch", "de.und", "de.englisch"] },
+    { "speaker": "paul", "text": "Ich lerne Englisch in der Schule.", "zh": "我在学校学英语。", "items": ["de.ich", "de.lernen", "de.englisch", "de.in", "de.schule"] },
+    { "speaker": "paul", "text": "Lena lernt Chinesisch, und ich lerne auch ein bisschen Chinesisch.", "zh": "莉娜在学中文,我也学一点中文。", "items": ["de.lernen", "de.chinesisch", "de.und", "de.ich", "de.auch", "de.ein_bisschen"] },
+    { "speaker": "paul", "text": "Ich suche einen Brieffreund in China.", "zh": "我想找一个中国的笔友。", "items": ["de.ich", "de.suchen", "de.eins", "de.brieffreund", "de.in", "de.china"] },
+    { "speaker": "paul", "text": "Hast du Geschwister? Wie alt bist du?", "zh": "你有兄弟姐妹吗?你多大了?", "items": ["de.haben", "de.du", "de.geschwister", "de.wie_alt"] },
+    { "speaker": "paul", "text": "Und du? Was machst du?", "zh": "你呢?你平时做什么?", "items": ["de.und", "de.du", "de.was", "de.machen"] },
+    { "speaker": "paul", "text": "Tschüss! Dein Paul", "zh": "拜拜!保罗", "items": ["de.tschuess", "de.dein"] }
+  ],
+  "questions": [
+    { "prompt": "保罗多大?", "options": ["十六岁", "十七岁", "二十岁"], "answer": 0, "explainZh": "Ich heiße Paul und bin sechzehn Jahre alt.(我十六岁。)二十岁的是他姐姐莉娜:Lena ist zwanzig.。" },
+    { "prompt": "保罗在学校学什么?", "options": ["中文", "英语", "德语"], "answer": 1, "explainZh": "Ich lerne Englisch in der Schule.;中文是跟着姐姐学一点:Lena lernt Chinesisch, und ich lerne auch ein bisschen Chinesisch.。" },
+    { "prompt": "保罗想找什么样的笔友?", "options": ["柏林的笔友", "意大利的笔友", "中国的笔友"], "answer": 2, "explainZh": "Ich suche einen Brieffreund in China.(我想找一个中国的笔友。)" },
+    { "prompt": "保罗的姐姐莉娜是做什么的?", "options": ["中学生", "大学生", "老师"], "answer": 1, "explainZh": "Lena ist zwanzig. Sie ist Studentin.(莉娜二十岁,是大学生。)在学校上学的中学生是保罗自己。" }
+  ],
+  "grammar": [
+    { "id": "de.g.profil_wiederholung", "titleZh": "复习:自我介绍里的年龄、变位和物主冠词",
+      "bodyZh": "保罗的介绍把第 2 单元的语法都用上了。年龄用 sein:Ich bin sechzehn Jahre alt.,熟了以后只说数字也行:Lena ist zwanzig.。动词跟着主语变:ich lerne, du lernst, Lena lernt。物主冠词跟着名词的性:mein Vater(阳性),meine Mutter、meine Schwester(阴性),meine Eltern(复数)。Ich suche einen Brieffreund. 里的 einen 先当固定说法记,ein 的变化下个单元再讲。网上交笔友,对同龄人一律用 du。",
+      "examples": [ { "text": "Ich bin sechzehn Jahre alt.", "zh": "我十六岁。" }, { "text": "Meine Familie: mein Vater, meine Mutter und meine Schwester.", "zh": "我的家人:我爸爸、我妈妈和我姐姐。" }, { "text": "Ich suche einen Brieffreund.", "zh": "我想找一个笔友。" } ] }
+  ],
+  "review": "draft"
+}

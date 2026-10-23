@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u1.l06", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 你好,我是……", "order": 101060,
+  "titleZh": "这个用德语怎么说?", "goalZh": "会问“这个用德语 / 中文怎么说?”,连冠词记住几样课堂用品的名称", "canDoZh": "能问“这个用德语 / 中文怎么说?”,说出几样课堂用品的德语名称(连冠词)",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.wie_sagt_man", "kind": "phrase", "pos": "phrase", "text": "Wie sagt man …?", "zh": "……怎么说?", "features": { "ipa": "viː ˈzaːkt man" }, "noteZh": "问一个词怎么说:Wie sagt man „Heft“ auf Chinesisch?。man 是“人们、大家”(泛指),动词用 sagt;别和 der Mann(男人)搞混。sagt 里的 g 在 t 前读 [k]。" },
+    { "id": "de.sagen", "kind": "word", "pos": "verb", "text": "sagen", "zh": "说", "features": { "ipa": "ˈzaːɡn̩" }, "noteZh": "规则动词:ich sage, du sagst, er sagt。sagen 是“说(一句话、一个词)”,sprechen 是“讲(一种语言)”:Ich sage „Danke“. / Ich spreche Deutsch.。s 在元音前读浊音 [z]。" },
+    { "id": "de.auf_deutsch", "kind": "phrase", "pos": "phrase", "text": "auf Deutsch", "zh": "用德语", "features": { "ipa": "aʊ̯f ˈdɔʏ̯tʃ" }, "noteZh": "auf + 语言名 = 用某种语言:auf Deutsch / auf Chinesisch / auf Englisch。别照英语 in English 说成 ✗ in Deutsch。" },
+    { "id": "de.kuli", "kind": "word", "pos": "noun", "text": "der Kuli", "zh": "圆珠笔", "features": { "gender": "m", "plural": "die Kulis", "ipa": "ˈkuːli" }, "noteZh": "口语,全称 der Kugelschreiber,平时都说 Kuli;复数加 -s。" },
+    { "id": "de.bleistift", "kind": "word", "pos": "noun", "text": "der Bleistift", "zh": "铅笔", "features": { "gender": "m", "plural": "die Bleistifte", "ipa": "ˈblaɪ̯ˌʃtɪft" }, "noteZh": "Blei(铅)+ Stift(笔),复合词的性跟着最后一部分 der Stift 走;Stift 开头的 st 读 [ʃt]。" },
+    { "id": "de.heft", "kind": "word", "pos": "noun", "text": "das Heft", "zh": "本子;练习本", "features": { "gender": "n", "plural": "die Hefte", "ipa": "hɛft" }, "noteZh": "上课记笔记、写作业用的本子;复数 die Hefte。开头的 h 要送气发出来。" },
+    { "id": "de.woerterbuch", "kind": "word", "pos": "noun", "text": "das Wörterbuch", "zh": "词典", "features": { "gender": "n", "plural": "die Wörterbücher", "ipa": "ˈvœʁtɐˌbuːx" }, "noteZh": "Wörter(词,复数)+ Buch(书,第 8 单元学),性跟着 das Buch;复数 die Wörterbücher(u 变 ü)。ö:舌头放在发 e 的位置,嘴唇撮圆。" },
+    { "id": "de.tafel", "kind": "word", "pos": "noun", "text": "die Tafel", "zh": "黑板;白板", "features": { "gender": "f", "plural": "die Tafeln", "ipa": "ˈtaːfl̩" }, "noteZh": "教室前面写字的板子,黑板、白板都叫 Tafel;a 是长音。" }
+  ],
+  "reviewItems": ["de.ich_heisse", "de.das_ist", "de.chinesisch", "de.noch_einmal", "de.langsam"],
+  "lines": [
+    { "speaker": "lena", "text": "Wei, wie heißt das auf Chinesisch?", "zh": "王伟,这个用中文怎么说?", "items": ["de.wie", "de.ich_heisse", "de.das_ist", "de.auf_deutsch", "de.chinesisch"] },
+    { "speaker": "wei", "text": "Das ist mein Kuli. Auf Chinesisch: „bǐ“.", "zh": "这是我的圆珠笔。中文叫“笔”。", "items": ["de.das_ist", "de.mein", "de.kuli", "de.auf_deutsch", "de.chinesisch"] },
+    { "speaker": "lena", "text": "„Bǐ“. Gut?", "zh": "“笔”。我说得对吗?", "items": ["de.gut"] },
+    { "speaker": "wei", "text": "Ja, gut! Und wie sagt man das auf Deutsch?", "zh": "对,很好!那这个用德语怎么说?", "items": ["de.ja", "de.gut", "de.und", "de.wie_sagt_man", "de.das_ist", "de.auf_deutsch"] },
+    { "speaker": "lena", "text": "Das ist das Heft. Und das ist der Bleistift.", "zh": "这是本子。这是铅笔。", "items": ["de.das_ist", "de.heft", "de.und", "de.bleistift"] },
+    { "speaker": "wei", "text": "Und das? Wie heißt das auf Deutsch?", "zh": "那这个呢?用德语怎么说?", "items": ["de.und", "de.das_ist", "de.wie", "de.ich_heisse", "de.auf_deutsch"] },
+    { "speaker": "lena", "text": "Das ist das Wörterbuch.", "zh": "这是词典。", "items": ["de.das_ist", "de.woerterbuch"] },
+    { "speaker": "wei", "text": "Wie bitte? Noch einmal, langsam, bitte!", "zh": "什么?请再慢慢说一遍!", "items": ["de.wie_bitte", "de.noch_einmal", "de.langsam", "de.bitte"] },
+    { "speaker": "lena", "text": "Das Wör-ter-buch. Und wie sagst du „die Tafel“ auf Chinesisch?", "zh": "词——典。那“黑板”你用中文怎么说?", "items": ["de.woerterbuch", "de.und", "de.wie", "de.sagen", "de.du", "de.tafel", "de.auf_deutsch", "de.chinesisch"] },
+    { "speaker": "wei", "text": "Ich sage „hēibǎn“. Langsam: „hēi-bǎn“.", "zh": "我说“黑板”。慢一点:hēi——bǎn。", "items": ["de.ich", "de.sagen", "de.langsam"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜先问王伟什么?", "options": ["本子用德语怎么说", "圆珠笔用中文怎么说", "黑板用德语怎么说"], "answer": 1, "explainZh": "莉娜指着王伟的圆珠笔问:Wie heißt das auf Chinesisch?(这个用中文怎么说?)王伟说:Das ist mein Kuli. Auf Chinesisch: „bǐ“.。" },
+    { "prompt": "王伟没听清 Wörterbuch 的时候说了什么?", "options": ["Noch einmal, langsam, bitte!", "Wie heißt das auf Chinesisch?", "Das ist das Heft."], "answer": 0, "explainZh": "王伟先说 Wie bitte?,再请莉娜 Noch einmal, langsam, bitte!(请再慢慢说一遍!),莉娜就一个音节一个音节地说:Wör-ter-buch。" },
+    { "prompt": "“黑板”用德语怎么说?", "options": ["das Heft", "der Bleistift", "die Tafel"], "answer": 2, "explainZh": "莉娜问:Wie sagst du „die Tafel“ auf Chinesisch?——die Tafel 就是黑板,王伟说中文是 hēibǎn。das Heft 是本子,der Bleistift 是铅笔。" }
+  ],
+  "grammar": [
+    { "id": "de.g.wie_heisst_das", "titleZh": "Wie heißt das auf Deutsch?——问东西用德语怎么说",
+      "bodyZh": "问人叫什么、问东西叫什么,都可以用 heißen:Wie heißt du? – Ich heiße Wei.(人)/ Wie heißt das auf Deutsch? – Das ist der Bleistift.(东西)。也可以用 sagen(说):Wie sagt man das auf Deutsch?;man 是“人们、大家”,泛指,不是 der Mann(男人);当面问对方就说 Wie sagst du …?。“用德语 / 用中文”是 auf Deutsch / auf Chinesisch,别照英语 in English 说成 ✗ in Deutsch。听不清的时候接着说 Wie bitte? / Noch einmal, langsam, bitte!——这几句是课堂上最有用的话。",
+      "examples": [ { "text": "Wie heißt das auf Deutsch?", "zh": "这个用德语怎么说?" }, { "text": "Wie sagt man das auf Chinesisch?", "zh": "这个用中文怎么说?" }, { "text": "Wie sagst du „die Tafel“ auf Chinesisch?", "zh": "“黑板”你用中文怎么说?" } ] },
+    { "id": "de.g.nomen_artikel_klasse", "titleZh": "名词连冠词一起记:der Kuli, die Tafel, das Heft",
+      "bodyZh": "第 2 课学过,德语名词分阳性 der、阴性 die、中性 das,性要和名词一起记:光记 Kuli 不够,要记 der Kuli。教室里的东西:der Kuli、der Bleistift(阳性),die Tafel(阴性),das Heft、das Wörterbuch(中性)。复合词的性跟着最后一部分走:Bleistift 跟着 der Stift,Wörterbuch 跟着 das Buch。中文用量词(一支笔、一本书),德语用冠词,性没有规律可猜,中国学生最容易只记名词、忘了冠词。指着东西说“这是……”:Das ist der Kuli.——这里的 das 是“这”,不管后面的名词是什么性都用 das。",
+      "examples": [ { "text": "Das ist der Kuli. Das ist der Bleistift.", "zh": "这是圆珠笔。这是铅笔。" }, { "text": "Das ist die Tafel.", "zh": "这是黑板。" }, { "text": "Das ist das Heft. Das ist das Wörterbuch.", "zh": "这是本子。这是词典。" } ] }
+  ],
+  "review": "draft"
+}

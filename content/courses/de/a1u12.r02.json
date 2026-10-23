@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u12.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-12 考试周", "order": 112085,
+  "titleZh": "我的考试经验", "goalZh": "读懂一篇考试经验帖,找出备考方法和考试当天要注意的事;学会用 man + 情态动词给建议", "canDoZh": "能读懂一篇分享考试经验的短文,找出备考的方法和考试当天要注意的事",
+  "skills": ["read"], "estimatedMinutes": 14,
+  "newItems": [
+    { "id": "de.tipp", "kind": "word", "pos": "noun", "text": "der Tipp", "zh": "建议;小窍门", "features": { "gender": "m", "plural": "die Tipps", "ipa": "tɪp" }, "noteZh": "阳性:der Tipp,复数 die Tipps;Hast du einen Tipp für mich?(你有什么建议给我吗?)" }
+  ],
+  "reviewItems": ["de.man", "de.radio", "de.ueben", "de.angst", "de.fehler", "de.ergebnis"],
+  "lines": [
+    { "speaker": "wei", "text": "Meine Tipps für die A1-Prüfung", "zh": "我的 A1 考试小建议", "items": ["de.mein", "de.tipp", "de.fuer", "de.pruefung"] },
+    { "speaker": "wei", "text": "Einen Monat vor der Prüfung habe ich viel geübt.", "zh": "考试前一个月,我练了很多。", "items": ["de.ein", "de.monat", "de.vor", "de.pruefung", "de.haben", "de.ich", "de.viel", "de.ueben"] },
+    { "speaker": "wei", "text": "Ich habe jeden Tag fünfzehn Minuten Radio gehört.", "zh": "我每天听十五分钟德语广播。", "items": ["de.ich", "de.haben", "de.jeder", "de.tag", "de.fuenf", "de.zehn", "de.minute", "de.radio", "de.hoeren"] },
+    { "speaker": "wei", "text": "Mit Lena habe ich oft Deutsch gesprochen.", "zh": "我常常和莉娜说德语。", "items": ["de.mit", "de.haben", "de.ich", "de.oft", "de.deutsch", "de.sprechen"] },
+    { "speaker": "wei", "text": "Sie lernt Chinesisch, und ich lerne Deutsch.", "zh": "她学中文,我学德语。", "items": ["de.sie_sg", "de.lernen", "de.chinesisch", "de.und", "de.ich", "de.deutsch"] },
+    { "speaker": "wei", "text": "Ich habe auch viele Prüfungen zum Üben gemacht.", "zh": "我还做了好多套模拟题。", "items": ["de.ich", "de.haben", "de.auch", "de.viel", "de.pruefung", "de.zu", "de.ueben", "de.machen"] },
+    { "speaker": "wei", "text": "Am Prüfungstag muss man früh da sein.", "zh": "考试那天要早点到。", "items": ["de.am", "de.pruefung", "de.tag", "de.muessen", "de.man", "de.frueh", "de.da", "de.sein"] },
+    { "speaker": "wei", "text": "Das Handy darf man nicht benutzen.", "zh": "手机是不许用的。", "items": ["de.handy", "de.duerfen", "de.man", "de.nicht", "de.benutzen"] },
+    { "speaker": "wei", "text": "Beim Sprechen: Keine Angst vor Fehlern!", "zh": "口语考试:别怕说错!", "items": ["de.bei", "de.sprechen", "de.kein", "de.angst", "de.vor", "de.fehler"] },
+    { "speaker": "wei", "text": "Man kann auch fragen: „Wie bitte?“ oder „Noch einmal, bitte!“", "zh": "没听懂也可以问:“您说什么?”或者“请再说一遍!”", "items": ["de.man", "de.koennen", "de.auch", "de.fragen", "de.wie_bitte", "de.oder", "de.noch_einmal", "de.bitte"] },
+    { "speaker": "wei", "text": "Ich war sehr nervös, aber das hat mir geholfen.", "zh": "我当时非常紧张,不过这样问一下很有用。", "items": ["de.ich", "de.sein", "de.sehr", "de.nervoes", "de.aber", "de.haben", "de.helfen"] },
+    { "speaker": "wei", "text": "Das Ergebnis kommt in drei Wochen.", "zh": "成绩三个星期以后出来。", "items": ["de.ergebnis", "de.ich_komme_aus", "de.in", "de.drei", "de.woche"] },
+    { "speaker": "wei", "text": "Viel Glück! Viele Grüße, Wei", "zh": "祝大家好运!伟", "items": ["de.viel_glueck", "de.viele_gruesse"] }
+  ],
+  "questions": [
+    { "prompt": "考试前一个月,王伟每天做什么?", "options": ["听十五分钟广播", "看一部德语电影", "写一篇日记"], "answer": 0, "explainZh": "Ich habe jeden Tag fünfzehn Minuten Radio gehört.(我每天听十五分钟德语广播。)" },
+    { "prompt": "王伟常和谁一起说德语?", "options": ["瓦格纳老师", "约纳斯", "莉娜"], "answer": 2, "explainZh": "Mit Lena habe ich oft Deutsch gesprochen.(我常常和莉娜说德语。)莉娜学中文,两人互相练习。" },
+    { "prompt": "口语考试时没听懂,王伟建议怎么做?", "options": ["什么也不说", "问 „Wie bitte?“ 或 „Noch einmal, bitte!“", "用手机查词典"], "answer": 1, "explainZh": "Man kann auch fragen: „Wie bitte?“ oder „Noch einmal, bitte!“——考试时手机不许用(Das Handy darf man nicht benutzen)。" },
+    { "prompt": "王伟写这篇文章时,考试成绩还要等多久?", "options": ["三个星期", "一个星期", "四天"], "answer": 0, "explainZh": "Das Ergebnis kommt in drei Wochen.(成绩三个星期以后出来。)考完以后大约四个星期出成绩,王伟是考完一周后写的。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u12_man_tipps", "titleZh": "给建议:man + 情态动词",
+      "bodyZh": "写经验、给建议时常用 man(人们、大家):Man muss früh da sein.(要早点到。)/ Man darf das Handy nicht benutzen.(不许用手机。)/ Man kann fragen: „Wie bitte?“(可以问……)。man 后面的动词用 er / sie 的形式:man muss, man kann, man darf;中文这类句子常常不说主语,德语不能省。\n讲自己做过的事用完成时:Ich habe jeden Tag Radio gehört.。本课的过去分词:geübt(üben)、gehört(hören)、gesprochen(sprechen)、gemacht(machen)、geholfen(helfen)。",
+      "examples": [
+        { "text": "Man muss früh da sein.", "zh": "要早点到。" },
+        { "text": "Man darf das Handy nicht benutzen.", "zh": "不许用手机。" },
+        { "text": "Ich habe jeden Tag Radio gehört.", "zh": "我每天都听广播。" }
+      ] }
+  ],
+  "review": "draft"
+}

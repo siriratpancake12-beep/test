@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u9.l06", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-9 大学与课程", "order": 109060,
+  "titleZh": "学生证、学期票和注册费", "goalZh": "会说注册费、学生证、学期票这些词,问清截止日期、开始日期和费用", "canDoZh": "能说出大学里办手续常用的词,问清楚在哪儿办、什么时候截止、要交多少钱",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.semesterbeitrag", "kind": "word", "pos": "noun", "text": "der Semesterbeitrag", "zh": "(每学期的)注册费", "features": { "gender": "m", "plural": "die Semesterbeiträge", "ipa": "zeˈmɛstɐbaɪ̯ˌtʁaːk" }, "noteZh": "das Semester + der Beitrag(费用、份子钱),性看最后一个词:der;德国公立大学一般不收学费,每学期只交注册费,里面包括学期票;词尾 g 读 [k]。" },
+    { "id": "de.semesterticket", "kind": "word", "pos": "noun", "text": "das Semesterticket", "zh": "学期票(学生的公共交通票)", "features": { "gender": "n", "plural": "die Semestertickets", "ipa": "zeˈmɛstɐˌtɪkət" }, "noteZh": "das Ticket(票,英语外来词)→ das Semesterticket;有了它,整个学期坐本地的公交、地铁、城铁都不用另买票。" },
+    { "id": "de.studentenausweis", "kind": "word", "pos": "noun", "text": "der Studentenausweis", "zh": "学生证", "features": { "gender": "m", "plural": "die Studentenausweise", "ipa": "ʃtuˈdɛntn̩ˌʔaʊ̯svaɪ̯s" }, "noteZh": "der Student + -en- + der Ausweis,中间的 -en- 是连接音;去图书馆、买学生票都要出示。" },
+    { "id": "de.ueberweisen", "kind": "word", "pos": "verb", "text": "überweisen", "zh": "(银行)转账;汇款", "features": { "ipa": "yːbɐˈvaɪ̯zn̩" }, "noteZh": "über- 在这里不可分、不重读:ich überweise, er überweist;在德国交房租、交注册费常用银行转账;w 读 [v]。" },
+    { "id": "de.verlieren", "kind": "word", "pos": "verb", "text": "verlieren", "zh": "丢失;输", "features": { "ipa": "fɛɐ̯ˈliːʁən" }, "noteZh": "完成时 verloren 不规则,先当整体记:Ich habe meinen Ausweis verloren.(我的证件丢了。);ver- 不可分、不重读;v 读 [f]。" },
+    { "id": "de.passbild", "kind": "word", "pos": "noun", "text": "das Passbild", "zh": "证件照", "features": { "gender": "n", "plural": "die Passbilder", "ipa": "ˈpasˌbɪlt" }, "noteZh": "der Pass(护照)+ das Bild(图片、照片),办各种证件都要用;复数 Passbilder;词尾 d 读 [t]。" },
+    { "id": "de.gueltig", "kind": "word", "pos": "adj", "text": "gültig", "zh": "有效的", "features": { "ipa": "ˈɡʏltɪç" }, "noteZh": "Das Semesterticket ist ab Oktober gültig.(学期票从十月起有效。);词尾 -ig 读 [ɪç](南部也读 [ɪk]);ü 是短音 [ʏ]。" },
+    { "id": "de.ab", "kind": "word", "pos": "prep", "text": "ab", "zh": "从……起", "features": { "ipa": "ap" }, "noteZh": "表示从某个时间开始:ab Oktober(从十月起)、ab Montag(从星期一起);和 bis(到)成对:ab Montag bis Freitag;词尾 b 读 [p]。" },
+    { "id": "de.gebuehr", "kind": "word", "pos": "noun", "text": "die Gebühr", "zh": "费用;手续费", "features": { "gender": "f", "plural": "die Gebühren", "ipa": "ɡəˈbyːɐ̯" }, "noteZh": "办证、补卡这类手续要交的钱:Die Gebühr ist zehn Euro.;h 不发音,ü 是长音;重音在 bühr。" }
+  ],
+  "reviewItems": ["de.bezahlen", "de.geld", "de.schicken", "de.juli", "de.oktober"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Tag! Ich möchte den Semesterbeitrag bezahlen.", "zh": "您好!我想交注册费。", "items": ["de.guten_tag", "de.ich", "de.moechten", "de.semesterbeitrag", "de.bezahlen"] },
+    { "speaker": "mitarbeiter", "text": "Den müssen Sie überweisen. Das sind 320 Euro, mit Semesterticket.", "zh": "注册费要转账。一共 320 欧元,包括学期票。", "items": ["de.muessen", "de.sie_hoeflich", "de.ueberweisen", "de.das_ist", "de.drei", "de.hundert", "de.zwanzig", "de.euro", "de.mit", "de.semesterticket"] },
+    { "speaker": "wei", "text": "Und bis wann muss ich das Geld überweisen?", "zh": "最晚什么时候要转账?", "items": ["de.und", "de.bis", "de.wann", "de.muessen", "de.ich", "de.geld", "de.ueberweisen"] },
+    { "speaker": "mitarbeiter", "text": "Bis zum 15. Juli. Dann schicken wir Ihnen einen neuen Studentenausweis.", "zh": "7 月 15 日之前。然后我们把新的学生证寄给您。", "items": ["de.bis", "de.zu", "de.fuenf", "de.zehn", "de.juli", "de.dann", "de.schicken", "de.wir", "de.sie_hoeflich", "de.ein", "de.neu", "de.studentenausweis"] },
+    { "speaker": "wei", "text": "Ist das Semesterticket ab Oktober gültig?", "zh": "学期票是从十月开始能用吗?", "items": ["de.sein", "de.semesterticket", "de.ab", "de.oktober", "de.gueltig"] },
+    { "speaker": "mitarbeiter", "text": "Ja, ab 1. Oktober. Dann fahren Sie mit Bus und U-Bahn.", "zh": "对,从 10 月 1 日起。到时候坐公交、坐地铁都用它。", "items": ["de.ja", "de.ab", "de.eins", "de.oktober", "de.dann", "de.fahren", "de.sie_hoeflich", "de.mit", "de.bus", "de.und", "de.u_bahn"] },
+    { "speaker": "sofia", "text": "Ich habe meinen Studentenausweis verloren! Was muss ich machen?", "zh": "我的学生证丢了!我该怎么办?", "items": ["de.ich", "de.haben", "de.mein", "de.studentenausweis", "de.verlieren", "de.was", "de.muessen", "de.machen"] },
+    { "speaker": "mitarbeiter", "text": "Hier gibt es einen neuen. Sie brauchen nur ein Passbild.", "zh": "在这儿就能补办新的。您只需要一张证件照。", "items": ["de.hier", "de.es_gibt", "de.ein", "de.neu", "de.sie_hoeflich", "de.brauchen", "de.nur", "de.passbild"] },
+    { "speaker": "sofia", "text": "Ein Passbild habe ich hier. Kostet das etwas?", "zh": "证件照我这儿就有。要交钱吗?", "items": ["de.ein", "de.passbild", "de.haben", "de.ich", "de.hier", "de.kosten", "de.etwas"] },
+    { "speaker": "mitarbeiter", "text": "Ja, die Gebühr ist zehn Euro.", "zh": "要,手续费是 10 欧元。", "items": ["de.ja", "de.gebuehr", "de.sein", "de.zehn", "de.euro"] }
+  ],
+  "questions": [
+    { "prompt": "注册费最晚什么时候交?", "options": ["10 月 1 日", "7 月 15 日", "5 月 17 日"], "answer": 1, "explainZh": "工作人员说:Bis zum 15. Juli.(7 月 15 日之前。)10 月 1 日是学期票开始有效的日子。" },
+    { "prompt": "学期票从什么时候开始能用?", "options": ["从 10 月 1 日", "从 7 月 15 日", "从今天"], "answer": 0, "explainZh": "工作人员说:Ja, ab 1. Oktober.(对,从 10 月 1 日起。)" },
+    { "prompt": "索菲娅补办学生证需要什么?", "options": ["320 欧元", "护照和两张照片", "一张证件照和 10 欧元手续费"], "answer": 2, "explainZh": "工作人员说:Sie brauchen nur ein Passbild.(只需要一张证件照。)/ Die Gebühr ist zehn Euro.(手续费 10 欧元。)320 欧元是注册费。" }
+  ],
+  "grammar": [
+    { "id": "de.g.komposita_uni", "titleZh": "大学里的复合词:Studentenausweis、Semesterticket",
+      "bodyZh": "大学里办手续的名词差不多都是复合词,拆开就懂:der Studentenausweis = der Student(学生)+ der Ausweis(证件)→ 学生证;das Semesterticket = das Semester + das Ticket(票)→ 学期票;der Semesterbeitrag = das Semester + der Beitrag(费用)→ 每学期交的注册费;das Passbild = der Pass + das Bild → 证件照。\n记住两条:① 性和复数看最后一个词:der Ausweis → der Studentenausweis,das Ticket → das Semesterticket;② 中间有时多一个连接音:Student + en + Ausweis。\n学期票是德国大学生的福利:交了注册费,整个学期在本地坐公交、地铁、城铁都不用另买票。",
+      "examples": [
+        { "text": "Der Studentenausweis ist neu.", "zh": "学生证是新的。" },
+        { "text": "Das Semesterticket ist ab Oktober gültig.", "zh": "学期票从十月起有效。" },
+        { "text": "Der Semesterbeitrag ist 320 Euro.", "zh": "注册费是 320 欧元。" }
+      ] },
+    { "id": "de.g.bis_ab", "titleZh": "bis 和 ab:截止日期和开始日期",
+      "bodyZh": "bis zum 15. Juli = 到 7 月 15 日为止(截止日期),读作 bis zum fünfzehnten Juli(zum = zu dem);ab 1. Oktober / ab Oktober = 从 10 月 1 日起 / 从十月起(开始日期)。\n问截止日期:Bis wann muss ich bezahlen?(最晚什么时候交?)——Bis zum 15. Juli.;问从什么时候开始:Ab wann ist das Semesterticket gültig?——Ab Oktober.。\n复习 müssen:办手续的规定常用 müssen:Sie müssen das Geld überweisen.(钱要转账。)überweisen 是银行转账,不可分:ich überweise, er überweist。",
+      "examples": [
+        { "text": "Bis wann muss ich bezahlen?", "zh": "最晚什么时候要交钱?" },
+        { "text": "Sie müssen das Geld bis zum 15. Juli überweisen.", "zh": "您要在 7 月 15 日之前转账。" },
+        { "text": "Ab Oktober fahren Sie mit Bus und U-Bahn.", "zh": "从十月起您就可以坐公交和地铁了。" }
+      ] }
+  ],
+  "review": "draft"
+}

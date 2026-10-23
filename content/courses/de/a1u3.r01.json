@@ -1,0 +1,38 @@
+{
+  "id": "de.a1u3.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103045,
+  "titleZh": "二手家具广告", "goalZh": "读懂二手家具广告,找出东西新不新、贵不贵、多少钱", "canDoZh": "能读懂二手家具广告,找出东西新不新、贵不贵、多少钱",
+  "skills": ["read", "write"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "de.moebel", "kind": "word", "pos": "noun", "text": "die Möbel", "zh": "家具", "features": { "gender": "pl", "ipa": "ˈmøːbl̩" }, "noteZh": "一般只用复数,die 在这里是复数冠词(不是阴性);ö 是长音:舌头放在发 e 的位置,嘴唇撮圆。" },
+    { "id": "de.regal", "kind": "word", "pos": "noun", "text": "das Regal", "zh": "架子;书架", "features": { "gender": "n", "plural": "die Regale", "ipa": "ʁeˈɡaːl" }, "noteZh": "放书、放东西的架子都叫 Regal;重音在后:re-GAL。" },
+    { "id": "de.verkaufen", "kind": "word", "pos": "verb", "text": "verkaufen", "zh": "卖;出售", "features": { "ipa": "fɛɐ̯ˈkaʊ̯fn̩" }, "noteZh": "kaufen(买,下个单元学)加上 ver- 就是“卖”;ver- 不分开、不重读:Ich verkaufe mein Sofa.。v 读 [f]。" },
+    { "id": "de.preis", "kind": "word", "pos": "noun", "text": "der Preis", "zh": "价格", "features": { "gender": "m", "plural": "die Preise", "ipa": "pʁaɪ̯s" }, "noteZh": "广告上常写 Preis: 40 Euro;别和 der Reis(米饭,下个单元学)听混,Preis 前面有 p。" }
+  ],
+  "reviewItems": ["de.sofa", "de.bett", "de.stuhl", "de.kein", "de.billig", "de.suchen"],
+  "lines": [
+    { "speaker": "narrator", "text": "Möbel in Neukölln – billig und schön!", "zh": "新克尔恩的家具——便宜又好看!", "items": ["de.moebel", "de.in", "de.billig", "de.und", "de.schoen"] },
+    { "speaker": "narrator", "text": "Ich verkaufe mein Sofa. Es ist alt, aber sehr schön.", "zh": "我卖我的沙发。它旧了,但是很漂亮。", "items": ["de.ich", "de.verkaufen", "de.mein", "de.sofa", "de.es", "de.sein", "de.alt", "de.aber", "de.sehr", "de.schoen"] },
+    { "speaker": "narrator", "text": "Preis: 40 Euro.", "zh": "价格:40 欧元。", "items": ["de.preis", "de.vierzig", "de.euro"] },
+    { "speaker": "narrator", "text": "Bett, neu und sehr schön. Preis: 120 Euro.", "zh": "床,新的,很漂亮。价格:120 欧元。", "items": ["de.bett", "de.neu", "de.und", "de.sehr", "de.schoen", "de.preis", "de.hundert", "de.zwanzig", "de.euro"] },
+    { "speaker": "narrator", "text": "Das Bett ist neu, aber mein Zimmer ist klein.", "zh": "床是新的,可是我的房间很小。", "items": ["de.bett", "de.sein", "de.neu", "de.aber", "de.mein", "de.zimmer", "de.klein"] },
+    { "speaker": "narrator", "text": "Stuhl, alt, aber sehr billig: 15 Euro!", "zh": "椅子,旧的,但是很便宜:15 欧元!", "items": ["de.stuhl", "de.alt", "de.aber", "de.sehr", "de.billig", "de.fuenf", "de.zehn", "de.euro"] },
+    { "speaker": "narrator", "text": "Tisch, groß und sehr billig: 25 Euro.", "zh": "桌子,很大,非常便宜:25 欧元。", "items": ["de.tisch", "de.gross", "de.und", "de.sehr", "de.billig", "de.fuenf", "de.zwanzig", "de.euro"] },
+    { "speaker": "wei", "text": "Jonas lacht: „Das ist kein Tisch, das ist ein Regal!“", "zh": "约纳斯笑了:“这哪是桌子,这是个书架!”", "items": ["de.lachen", "de.das_ist", "de.kein", "de.tisch", "de.ein", "de.regal"] },
+    { "speaker": "wei", "text": "Ich suche einen Stuhl und eine Lampe.", "zh": "我在找一把椅子和一盏灯。", "items": ["de.ich", "de.suchen", "de.ein", "de.stuhl", "de.und", "de.lampe"] },
+    { "speaker": "wei", "text": "Der Stuhl kostet fünfzehn Euro. Das ist billig!", "zh": "这把椅子 15 欧元。真便宜!", "items": ["de.stuhl", "de.kosten", "de.fuenf", "de.zehn", "de.euro", "de.das_ist", "de.billig"] },
+    { "speaker": "wei", "text": "Aber ist er schön? Ich frage Jonas.", "zh": "可是它好看吗?我问问约纳斯。", "items": ["de.aber", "de.sein", "de.er", "de.schoen", "de.ich", "de.fragen"] }
+  ],
+  "questions": [
+    { "prompt": "卖沙发的人说沙发怎么样?", "options": ["很新,也很贵", "旧了,但是很漂亮", "很大,但是很便宜"], "answer": 1, "explainZh": "广告上写:Ich verkaufe mein Sofa. Es ist alt, aber sehr schön.(它旧了,但是很漂亮。)价格是 40 欧元。" },
+    { "prompt": "卖床的人为什么要卖一张新床?", "options": ["床太旧了", "床太贵了", "床是新的,可是卖家的房间很小"], "answer": 2, "explainZh": "Das Bett ist neu, aber mein Zimmer ist klein.(床是新的,可是我的房间很小。)" },
+    { "prompt": "哪件家具最便宜?", "options": ["椅子,15 欧元", "沙发,40 欧元", "桌子,25 欧元"], "answer": 0, "explainZh": "椅子 15 欧元(fünfzehn Euro),桌子 25 欧元(fünfundzwanzig Euro),沙发 40 欧元,床 120 欧元。" },
+    { "prompt": "约纳斯为什么笑?", "options": ["桌子太贵了", "广告上说是桌子,其实是一个书架", "沙发太大了"], "answer": 1, "explainZh": "Jonas lacht: „Das ist kein Tisch, das ist ein Regal!“——广告写的是 Tisch(桌子),东西其实是 Regal(书架)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.anzeigen", "titleZh": "广告里的德语:短、常常省掉动词",
+      "bodyZh": "分类广告要省字,常常只写名词和形容词,不写冠词和动词:Bett, neu und sehr schön.(= Das Bett ist neu und sehr schön.)/ Preis: 40 Euro.。也有完整的句子:Ich verkaufe mein Sofa.(我卖我的沙发。)复习第 3 课:否定名词用 kein(Das ist kein Tisch, das ist ein Regal!),否定形容词用 nicht(Das Bett ist nicht teuer.)。价格的读法:40 Euro = vierzig Euro,120 Euro = hundertzwanzig Euro,15 Euro = fünfzehn Euro,25 Euro = fünfundzwanzig Euro——两位数个位在前。",
+      "examples": [ { "text": "Bett, neu und sehr schön. Preis: 120 Euro.", "zh": "床,新的,很漂亮。价格:120 欧元。" }, { "text": "Ich verkaufe mein Sofa.", "zh": "我卖我的沙发。" }, { "text": "Das ist kein Tisch, das ist ein Regal!", "zh": "这不是桌子,这是书架!" } ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,264 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-1 你好,我是……", "cefr": "A1", "themeZh": "初到柏林的第一周:打招呼、介绍自己(名字、来自哪里、住在哪里)、说会什么语言、听不懂时请对方重复;分清 du 和 Sie,学会 sein。" },
+    { "unit": "A1-2 我的家人和朋友", "cefr": "A1", "themeZh": "数字 0–20、手机号码和年龄;介绍家人、朋友和他们的职业;haben、规则动词现在时的完整变位、人称代词 er / sie / wir / ihr / sie、物主冠词 mein / dein / sein / ihr。" },
+    { "unit": "A1-3 我的新家", "cefr": "A1", "themeZh": "搬进合租公寓(WG):房间和家具、描述房子、数字 20–1000 和房租、认识邻居、写邮件介绍新家;不定冠词 ein、否定 nicht / kein、名词复数、第四格入门(brauchen / es gibt + einen)。" },
+    { "unit": "A1-4 吃喝", "cefr": "A1", "themeZh": "超市、咖啡馆、面包店、餐厅:买食物、点饮料和饭菜、问价格、付钱、说喜好;möchten、第四格(den / einen)、nehmen / essen 的不规则变位、gern。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u1.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-1 你好,我是……", "order": 101045,
+      "titleZh": "迎新周的新生墙", "goalZh": "读懂新生墙上的自我介绍卡片,复习 ich 的动词形式、sein 和 Student / Studentin",
+      "canDoZh": "能读懂简短的自我介绍卡片,找出每个人叫什么、来自哪里、住在哪里、是不是学生",
+      "scenarioZh": "体裁:自我介绍卡片(留言墙)。迎新周第三天,国际处在大厅里设了一面“新生墙”,新生把自我介绍卡片贴上去。王伟读了几张:莉娜的(学伴,柏林人,住在 Kreuzberg)、他自己的,还有两位同学的(只写名字、城市和是不是学生,这两人不出场说话)。每张卡片 2–3 句,都用 ich 的形式。本篇排在 l05 之前,不用 Deutsch、Englisch、Italien 这些 l05 的词;er / sie 第 2 单元才教,提到别人时直接用名字。说话人:narrator(卡片上的文字)。",
+      "grammarFocusZh": "复习:sein 和规则动词的 ich 形式(Ich heiße … / Ich komme aus … / Ich wohne in … / Ich bin Studentin);身份词分男女(Student / Studentin),说身份不加冠词",
+      "skills": ["read", "write"], "estimatedMinutes": 13.5,
+      "newItems": [
+        { "id": "de.herzlich_willkommen", "kind": "phrase", "pos": "phrase", "text": "Herzlich willkommen!", "zh": "热烈欢迎!/欢迎!", "features": { "ipa": "ˈhɛʁtslɪç vɪlˈkɔmən" }, "noteZh": "欢迎别人来到某地:Herzlich willkommen in Berlin!;只说 Willkommen! 也可以。willkommen 的 w 读 [v],重音在 kom 上。" }
+      ],
+      "reviewItems": ["de.ich_heisse", "de.ich_komme_aus", "de.wohnen", "de.student", "de.studentin"]
+    },
+    {
+      "id": "de.a1u1.l06", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-1 你好,我是……", "order": 101060,
+      "titleZh": "这个用德语怎么说?", "goalZh": "会问“这个用德语 / 中文怎么说?”,连冠词记住几样课堂用品的名称",
+      "canDoZh": "能问“这个用德语 / 中文怎么说?”,说出几样课堂用品的德语名称(连冠词)",
+      "scenarioZh": "德语课后,学伴莉娜来教室找王伟做第一次语伴练习(她在学中文)。她拿起王伟的笔和本子问 Wie heißt das auf Chinesisch?,王伟教她“笔”“本子”,她认真模仿声调;王伟反过来问德语怎么说:der Kuli、das Heft、das Wörterbuch、der Bleistift……听不清时用上一课的 Noch einmal, bitte!。本课在 l08 之前,不用 Guten Morgen、Auf Wiedersehen、Deutschland、auch;Tisch、Buch 是后面单元的词,不要用。说话人:lena、wei。",
+      "grammarFocusZh": "Wie heißt das auf Deutsch? / Wie sagt man … auf Chinesisch?(sagen 作新词)– Das ist der / die / das …(heißen 问东西叫什么,和 Ich heiße … 问名字对比);名词连冠词一起记(复习第 2 课的 der / die / das);auf Deutsch / auf Chinesisch 当固定说法",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.wie_sagt_man", "kind": "phrase", "pos": "phrase", "text": "Wie sagt man …?", "zh": "……怎么说?", "features": { "ipa": "viː ˈzaːkt man" }, "noteZh": "问一个词怎么说:Wie sagt man „Heft“ auf Chinesisch?。man 是“人们、大家”(泛指),动词用 sagt;别和 der Mann(男人)搞混。sagt 里的 g 在 t 前读 [k]。" },
+        { "id": "de.sagen", "kind": "word", "pos": "verb", "text": "sagen", "zh": "说", "features": { "ipa": "ˈzaːɡn̩" }, "noteZh": "规则动词:ich sage, du sagst, er sagt。sagen 是“说(一句话、一个词)”,sprechen 是“讲(一种语言)”:Ich sage „Danke“. / Ich spreche Deutsch.。s 在元音前读浊音 [z]。" },
+        { "id": "de.auf_deutsch", "kind": "phrase", "pos": "phrase", "text": "auf Deutsch", "zh": "用德语", "features": { "ipa": "aʊ̯f ˈdɔʏ̯tʃ" }, "noteZh": "auf + 语言名 = 用某种语言:auf Deutsch / auf Chinesisch / auf Englisch。别照英语 in English 说成 ✗ in Deutsch。" },
+        { "id": "de.kuli", "kind": "word", "pos": "noun", "text": "der Kuli", "zh": "圆珠笔", "features": { "gender": "m", "plural": "die Kulis", "ipa": "ˈkuːli" }, "noteZh": "口语,全称 der Kugelschreiber,平时都说 Kuli;复数加 -s。" },
+        { "id": "de.bleistift", "kind": "word", "pos": "noun", "text": "der Bleistift", "zh": "铅笔", "features": { "gender": "m", "plural": "die Bleistifte", "ipa": "ˈblaɪ̯ˌʃtɪft" }, "noteZh": "Blei(铅)+ Stift(笔),复合词的性跟着最后一部分 der Stift 走;Stift 开头的 st 读 [ʃt]。" },
+        { "id": "de.heft", "kind": "word", "pos": "noun", "text": "das Heft", "zh": "本子;练习本", "features": { "gender": "n", "plural": "die Hefte", "ipa": "hɛft" }, "noteZh": "上课记笔记、写作业用的本子;复数 die Hefte。开头的 h 要送气发出来。" },
+        { "id": "de.woerterbuch", "kind": "word", "pos": "noun", "text": "das Wörterbuch", "zh": "词典", "features": { "gender": "n", "plural": "die Wörterbücher", "ipa": "ˈvœʁtɐˌbuːx" }, "noteZh": "Wörter(词,复数)+ Buch(书,第 8 单元学),性跟着 das Buch;复数 die Wörterbücher(u 变 ü)。ö:舌头放在发 e 的位置,嘴唇撮圆。" },
+        { "id": "de.tafel", "kind": "word", "pos": "noun", "text": "die Tafel", "zh": "黑板;白板", "features": { "gender": "f", "plural": "die Tafeln", "ipa": "ˈtaːfl̩" }, "noteZh": "教室前面写字的板子,黑板、白板都叫 Tafel;a 是长音。" }
+      ],
+      "reviewItems": ["de.ich_heisse", "de.das_ist", "de.chinesisch", "de.noch_einmal", "de.langsam"]
+    },
+    {
+      "id": "de.a1u1.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-1 你好,我是……", "order": 101070,
+      "titleZh": "破冰游戏:你住在 Neukölln 吗?", "goalZh": "会把变位动词放在句首连续提问,并用 Ja / Nein 加完整的句子回答",
+      "canDoZh": "能用是非问句连续问别人的情况(住在哪里、来自哪里、说什么语言),并用 Ja / Nein 加完整的句子回答",
+      "scenarioZh": "周四的德语课上,瓦格纳老师组织破冰游戏:每人拿一张小纸条(der Zettel 可作新词),上面有几个问题,要在教室里走动,找到回答 Ja 的同学。王伟问索菲娅 Wohnst du in Neukölln? Sprichst du Chinesisch?,索菲娅也反过来问他;回答有时是 Ja, genau!,有时是 Nein, ich wohne in …;最后老师用 Sie 问王伟找到了几个人、是不是做完了(fertig)。说话人:wagner、wei、sofia。",
+      "grammarFocusZh": "是非问句:变位动词放句首(Wohnst du …? Kommst du aus …? Sprichst du …?),把 l04 的 sein 问句扩展到别的动词;回答 Ja, … / Nein, … 后面说完整的句子;同学之间用 du、对老师用 Sie;fragen / antworten 作新词(Ich frage, du antwortest)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "de.fragen", "kind": "word", "pos": "verb", "text": "fragen", "zh": "问", "features": { "ipa": "ˈfʁaːɡn̩" }, "noteZh": "规则动词:ich frage, du fragst, er fragt;问某人直接跟人:Ich frage Sofia.(不加介词)。" },
+        { "id": "de.antworten", "kind": "word", "pos": "verb", "text": "antworten", "zh": "回答", "features": { "ipa": "ˈantˌvɔʁtn̩" }, "noteZh": "词干以 t 结尾,du、er 前面先加 e:du antwortest, er antwortet;重音在 ant 上。" },
+        { "id": "de.zettel", "kind": "word", "pos": "noun", "text": "der Zettel", "zh": "纸条;小纸片", "features": { "gender": "m", "plural": "die Zettel", "ipa": "ˈtsɛtl̩" }, "noteZh": "写问题、留言、购物清单的小纸条都叫 Zettel;复数不变。z 读 [ts](像“次”的声母)。" },
+        { "id": "de.genau", "kind": "word", "pos": "adv", "text": "genau", "zh": "对,就是;准确", "features": { "ipa": "ɡəˈnaʊ̯" }, "noteZh": "Ja, genau! = 对,就是这样!(确认对方说的话或猜的事)。ge 里的 e 读得很轻,重音在 nau 上。" },
+        { "id": "de.fertig", "kind": "word", "pos": "adj", "text": "fertig", "zh": "做完了;完成的", "features": { "ipa": "ˈfɛʁtɪç" }, "noteZh": "Ich bin fertig.(我做完了。)用 sein,不说 ✗ Ich habe fertig;词尾 -ig 读 [ɪç]。" },
+        { "id": "de.wirklich", "kind": "word", "pos": "adv", "text": "wirklich", "zh": "真的;确实", "features": { "ipa": "ˈvɪʁklɪç" }, "noteZh": "听到意外的消息时说 Wirklich?(真的?);w 读 [v],-lich 读 [lɪç]。" },
+        { "id": "de.italienisch", "kind": "word", "pos": "propn", "text": "Italienisch", "zh": "意大利语", "features": { "gender": "n", "ipa": "itaˈli̯eːnɪʃ" }, "noteZh": "Italien(意大利)加 -isch,重音移到 lie 上;语言名首字母大写、不加冠词:Ich spreche Italienisch.。" }
+      ],
+      "reviewItems": ["de.wohnen", "de.sprechen", "de.ich_komme_aus", "de.englisch", "de.sie_hoeflich"]
+    },
+    {
+      "id": "de.a1u1.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-1 你好,我是……", "order": 101085,
+      "titleZh": "我的新朋友", "goalZh": "读懂并会写一段介绍朋友的短文,认识第三人称单数的动词词尾 -t",
+      "canDoZh": "能读懂、也能写一段介绍朋友的短文:名字、国家、城市、会说的语言",
+      "scenarioZh": "体裁:德语课的小作文。第一周结束时,瓦格纳老师布置作业《我的新朋友》。王伟写莉娜(柏林人,学伴,说德语、英语和一点中文)、索菲娅(意大利人,德语班同学,说意大利语和英语)和瓦格纳老师(来自德国科隆),最后写自己也住在柏林、在学德语。er / sie 下个单元才教,本篇用名字加第三人称动词形式(Lena wohnt / Sofia spricht)。说话人:wei(第一人称短文)。",
+      "grammarFocusZh": "认识第三人称单数的动词词尾 -t(Lena wohnt, Sofia kommt aus Italien)和 sprechen 的 er 形式 spricht;复习 auch 的位置(Sofia spricht auch Englisch);语言名首字母大写、不加冠词",
+      "skills": ["read", "write"], "estimatedMinutes": 15.5,
+      "newItems": [],
+      "reviewItems": ["de.sprechen", "de.auch", "de.studentin", "de.deutschland", "de.wie_sagt_man", "de.fragen"]
+    },
+    {
+      "id": "de.a1u2.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-2 我的家人和朋友", "order": 102045,
+      "titleZh": "保罗的笔友自我介绍", "goalZh": "读懂一篇交笔友的自我介绍,复习动词变位、物主冠词和年龄的说法",
+      "canDoZh": "能读懂一篇交笔友的自我介绍,找出年龄、家人、住在哪里、在学什么",
+      "scenarioZh": "体裁:学校笔友网站上的自我介绍(网站不写真实名称)。保罗想找一个中国笔友练中文(suchen 作新词:Ich suche eine Brieffreundin oder einen Brieffreund 当固定说法),把写好的介绍发给王伟看:他 16 岁,住在柏林 Kreuzberg,家里有爸爸、妈妈和姐姐莉娜(20 岁);他在学校(die Schule)学英语,也跟姐姐学一点中文;最后问对方 Und du? Was machst du?。本篇在 l05 之前,不写职业;数字只到 20。说话人:narrator(保罗写的介绍)。",
+      "grammarFocusZh": "复习:动词变位全表和物主冠词(meine Schwester, mein Vater, meine Eltern);年龄的说法(Ich bin sechzehn Jahre alt / Lena ist zwanzig)",
+      "skills": ["read", "write"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "de.suchen", "kind": "word", "pos": "verb", "text": "suchen", "zh": "找;寻找", "features": { "ipa": "ˈzuːxn̩" }, "noteZh": "规则动词:ich suche, du suchst, er sucht;后面直接跟要找的人或东西:Ich suche einen Brieffreund.。u 后面的 ch 读 [x]。" },
+        { "id": "de.brieffreund", "kind": "word", "pos": "noun", "text": "der Brieffreund", "zh": "笔友", "features": { "gender": "m", "plural": "die Brieffreunde", "ipa": "ˈbʁiːfˌfʁɔʏ̯nt" }, "noteZh": "Brief(信)+ Freund(朋友);女笔友是 die Brieffreundin。词尾的 d 读 [t]。" },
+        { "id": "de.schule", "kind": "word", "pos": "noun", "text": "die Schule", "zh": "学校(中小学)", "features": { "gender": "f", "plural": "die Schulen", "ipa": "ˈʃuːlə" }, "noteZh": "中小学叫 die Schule,大学叫 die Uni;“在学校”是 in der Schule。sch 读 [ʃ]。" }
+      ],
+      "reviewItems": ["de.familie", "de.lernen", "de.machen", "de.geschwister", "de.wie_alt", "de.zwanzig"]
+    },
+    {
+      "id": "de.a1u2.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-2 我的家人和朋友", "order": 102060,
+      "titleZh": "Lena, das ist Sofia:介绍朋友互相认识", "goalZh": "会给两个朋友互相介绍,用 er / sie 说第三个人的情况,问问对方的家人",
+      "canDoZh": "能给两个朋友互相介绍,并问问对方家里的情况",
+      "scenarioZh": "下课后莉娜来学校找王伟,正好索菲娅也在。王伟给两人互相介绍:Lena, das ist Sofia. Sofia, das ist Lena.,两人说 Freut mich!;接着聊家里:莉娜说保罗是她弟弟、爸爸妈妈做什么;索菲娅说她有一个弟弟 Marco,在意大利上高中。莉娜说得快,王伟请她慢一点。本课在 l08 之前,Freund / Freundin 还没教,介绍时用名字和 Studentin 这类身份词。说话人:wei、lena、sofia。",
+      "grammarFocusZh": "介绍第三个人:Das ist … + er / sie 的动词变位(Sie wohnt in Kreuzberg / Er ist Lehrer);Freut mich! 当固定说法;复习 haben 和物主冠词(ihr Bruder, seine Eltern)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "de.freut_mich", "kind": "phrase", "pos": "phrase", "text": "Freut mich!", "zh": "很高兴认识你 / 您!", "features": { "ipa": "ˈfʁɔʏ̯t mɪç" }, "noteZh": "第一次见面时说,对 du 和 Sie 都能用;对方回答 Freut mich auch!。eu 读 [ɔʏ̯](像“奥伊”)。" },
+        { "id": "de.ach_so", "kind": "phrase", "pos": "phrase", "text": "Ach so!", "zh": "哦,原来是这样!", "features": { "ipa": "ax ˈzoː" }, "noteZh": "听到新情况、明白过来的时候说;a 后面的 ch 读 [x],so 的 s 读浊音 [z]。" },
+        { "id": "de.foto", "kind": "word", "pos": "noun", "text": "das Foto", "zh": "照片", "features": { "gender": "n", "plural": "die Fotos", "ipa": "ˈfoːto" }, "noteZh": "手机里的照片也叫 Foto;复数加 -s:die Fotos;重音在前。" },
+        { "id": "de.jung", "kind": "word", "pos": "adj", "text": "jung", "zh": "年轻", "features": { "ipa": "jʊŋ" }, "noteZh": "反义词是 alt;j 读 [j](像“耶”的开头),不读英语 j 的音。" },
+        { "id": "de.krankenhaus", "kind": "word", "pos": "noun", "text": "das Krankenhaus", "zh": "医院", "features": { "gender": "n", "plural": "die Krankenhäuser", "ipa": "ˈkʁaŋkn̩ˌhaʊ̯s" }, "noteZh": "Kranken(病人)+ Haus(楼房),性跟着 das Haus;“在医院”是 im Krankenhaus(im = in dem)。复数 au 变 äu。" },
+        { "id": "de.schnell", "kind": "word", "pos": "adj", "text": "schnell", "zh": "快", "features": { "ipa": "ʃnɛl" }, "noteZh": "反义词是 langsam;对方说得太快可以说 Langsam, bitte!。schn 读 [ʃn]。" }
+      ],
+      "reviewItems": ["de.familie", "de.studieren", "de.schueler", "de.eltern", "de.langsam", "de.fragen"]
+    },
+    {
+      "id": "de.a1u2.l07", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-2 我的家人和朋友", "order": 102070,
+      "titleZh": "保罗家的狗:宠物也是家人", "goalZh": "记住常见宠物的名称,会用 er / sie 指动物,问宠物叫什么、几岁、怎么样",
+      "canDoZh": "能说出常见的宠物,说说宠物叫什么、多大、怎么样",
+      "scenarioZh": "周末王伟在莉娜家楼下等她,保罗牵着家里的狗 Bruno 下来了。保罗给王伟看手机里的照片:家里还有一只老猫;王伟说成都的奶奶养了一只小狗。两人互相问 Wie heißt dein Hund? Wie alt ist er?;保罗说 Bruno ist auch Familie!。“公园”第 6 单元才教,不要用;es 下个单元才教,中性名词 das Tier 不用代词指代。说话人:paul、wei。",
+      "grammarFocusZh": "er / sie 跟着名词的性走,指动物也一样(der Hund → er,die Katze → sie);复习年龄问句 Wie alt ist …? 和物主冠词 mein / dein / sein / ihr",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 23,
+      "newItems": [
+        { "id": "de.hund", "kind": "word", "pos": "noun", "text": "der Hund", "zh": "狗", "features": { "gender": "m", "plural": "die Hunde", "ipa": "hʊnt" }, "noteZh": "词尾的 d 读 [t],复数 Hunde 里的 d 读回 [d];指狗用 er:Der Hund? Er ist zwei.。" },
+        { "id": "de.katze", "kind": "word", "pos": "noun", "text": "die Katze", "zh": "猫", "features": { "gender": "f", "plural": "die Katzen", "ipa": "ˈkatsə" }, "noteZh": "tz 读 [ts];指猫用 sie:Die Katze? Sie ist alt.。" },
+        { "id": "de.vogel", "kind": "word", "pos": "noun", "text": "der Vogel", "zh": "鸟", "features": { "gender": "m", "plural": "die Vögel", "ipa": "ˈfoːɡl̩" }, "noteZh": "v 读 [f];复数 o 变 ö:die Vögel。" },
+        { "id": "de.tier", "kind": "word", "pos": "noun", "text": "das Tier", "zh": "动物", "features": { "gender": "n", "plural": "die Tiere", "ipa": "tiːɐ̯" }, "noteZh": "复数 die Tiere;ie 读长音 [iː],词尾的 r 轻轻带过,读成 [ɐ]。" },
+        { "id": "de.haustier", "kind": "word", "pos": "noun", "text": "das Haustier", "zh": "宠物", "features": { "gender": "n", "plural": "die Haustiere", "ipa": "ˈhaʊ̯sˌtiːɐ̯" }, "noteZh": "Haus(家、房子)+ Tier(动物)= 家里养的动物,性跟着 das Tier;复合词重音在第一部分:HAUS-tier。" },
+        { "id": "de.lieb", "kind": "word", "pos": "adj", "text": "lieb", "zh": "乖;可爱;亲切", "features": { "ipa": "liːp" }, "noteZh": "说人或动物性格好、招人喜欢:Bruno ist lieb.;词尾的 b 读 [p]。" }
+      ],
+      "reviewItems": ["de.familie", "de.oma", "de.alt", "de.ihr_poss", "de.foto", "de.jung"]
+    },
+    {
+      "id": "de.a1u2.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-2 我的家人和朋友", "order": 102085,
+      "titleZh": "我奶奶也学德语", "goalZh": "读懂一篇讲家人的小故事,复习第三人称变位、物主冠词和职业的说法",
+      "canDoZh": "能读懂一篇讲家人的小故事,说出故事里每个人是谁、做什么工作、会说什么语言",
+      "scenarioZh": "体裁:小故事(王伟写给德语课的短文)。王伟讲成都的家:爸爸是川菜厨师,妈妈是中学英语老师,奶奶和父母住在一起,姐姐王静在上海当医生。奶奶知道他在柏林学德语,也想学几句:每天晚上妈妈教她;视频时她对莉娜和索菲娅说 Hallo! 和 Danke!,大家都笑了。结尾:我的家人和我的朋友都在学外语。说话人:wei(第一人称短文)。",
+      "grammarFocusZh": "复习:第三人称变位(sie lernt, sie spricht)和物主冠词(meine Oma, meine Mutter);说职业不加冠词(Mein Vater ist Koch);Freund / Freundin 在句子里的用法",
+      "skills": ["read", "write"], "estimatedMinutes": 18,
+      "newItems": [
+        { "id": "de.telefonieren", "kind": "word", "pos": "verb", "text": "telefonieren", "zh": "打电话;通话", "features": { "ipa": "teləfoˈniːʁən" }, "noteZh": "规则动词:ich telefoniere, wir telefonieren;视频通话也可以说 telefonieren。-ieren 结尾的动词重音都在 ie 上。" },
+        { "id": "de.lachen", "kind": "word", "pos": "verb", "text": "lachen", "zh": "笑", "features": { "ipa": "ˈlaxn̩" }, "noteZh": "规则动词:ich lache, wir lachen;a 后面的 ch 读 [x]。" },
+        { "id": "de.fremdsprache", "kind": "word", "pos": "noun", "text": "die Fremdsprache", "zh": "外语", "features": { "gender": "f", "plural": "die Fremdsprachen", "ipa": "ˈfʁɛmtˌʃpʁaːxə" }, "noteZh": "fremd(外来的)+ Sprache(语言),性跟着 die Sprache;fremd 的 d 读 [t],Sprache 的 sp 读 [ʃp]。" },
+        { "id": "de.schuelerin", "kind": "word", "pos": "noun", "text": "die Schülerin", "zh": "女中小学生", "features": { "gender": "f", "plural": "die Schülerinnen", "ipa": "ˈʃyːləʁɪn" }, "noteZh": "der Schüler 加 -in;复数 die Schülerinnen。ü:舌头放在发 i 的位置,嘴唇撮圆。" }
+      ],
+      "reviewItems": ["de.koch", "de.lehrerin", "de.aerztin", "de.ihr_poss", "de.freund"]
+    },
+    {
+      "id": "de.a1u3.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-3 我的新家", "order": 103045,
+      "titleZh": "二手家具广告", "goalZh": "读懂二手家具广告,找出东西新不新、贵不贵、多少钱",
+      "canDoZh": "能读懂二手家具广告,找出东西新不新、贵不贵、多少钱",
+      "scenarioZh": "体裁:二手平台上的分类广告(平台不写真实名称)。王伟要给新房间买家具,和约纳斯一起在手机上看附近的广告:一张旧沙发 40 欧元、一张很新的床 120 欧元、一把便宜的椅子 15 欧元,还有一则约纳斯觉得好笑的广告(“这不是桌子,这是书架!”,das Regal 可作新词)。每则广告 1–2 句,最后是王伟看完的一句想法。颜色第 7 单元才教,不要用。说话人:narrator(广告文字)、wei(最后一句)。",
+      "grammarFocusZh": "复习:ein / kein / nicht(Das Sofa ist nicht neu, aber schön)、复数和价格(vierzig Euro, hundertzwanzig Euro);广告里常省略动词(Bett, sehr neu, 120 Euro)",
+      "skills": ["read", "write"], "estimatedMinutes": 17,
+      "newItems": [
+        { "id": "de.moebel", "kind": "word", "pos": "noun", "text": "die Möbel", "zh": "家具", "features": { "gender": "pl", "ipa": "ˈmøːbl̩" }, "noteZh": "一般只用复数,die 在这里是复数冠词(不是阴性);ö 是长音:舌头放在发 e 的位置,嘴唇撮圆。" },
+        { "id": "de.regal", "kind": "word", "pos": "noun", "text": "das Regal", "zh": "架子;书架", "features": { "gender": "n", "plural": "die Regale", "ipa": "ʁeˈɡaːl" }, "noteZh": "放书、放东西的架子都叫 Regal;重音在后:re-GAL。" },
+        { "id": "de.verkaufen", "kind": "word", "pos": "verb", "text": "verkaufen", "zh": "卖;出售", "features": { "ipa": "fɛɐ̯ˈkaʊ̯fn̩" }, "noteZh": "kaufen(买,下个单元学)加上 ver- 就是“卖”;ver- 不分开、不重读:Ich verkaufe mein Sofa.。v 读 [f]。" },
+        { "id": "de.preis", "kind": "word", "pos": "noun", "text": "der Preis", "zh": "价格", "features": { "gender": "m", "plural": "die Preise", "ipa": "pʁaɪ̯s" }, "noteZh": "广告上常写 Preis: 40 Euro;别和 der Reis(米饭,下个单元学)听混,Preis 前面有 p。" }
+      ],
+      "reviewItems": ["de.sofa", "de.bett", "de.stuhl", "de.kein", "de.billig", "de.suchen"]
+    },
+    {
+      "id": "de.a1u3.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-3 我的新家", "order": 103060,
+      "titleZh": "暖气不热,灯也不亮:报修", "goalZh": "会说什么东西坏了,打电话给物业说清楚自己是谁、住在哪儿、出了什么问题",
+      "canDoZh": "能说出家里什么东西坏了,打电话向物业说清楚是谁、住在哪一套房子、什么问题",
+      "scenarioZh": "搬进来的第二天晚上,王伟发现房间的暖气不热、浴室的灯不亮。他先告诉约纳斯;约纳斯开玩笑说 Kein Problem, das ist Berlin!,让王伟自己给物业打电话练德语。电话里物业的女工作人员问他叫什么、住在哪儿、什么坏了,最后说管理员(der Hausmeister)会来。钟点和 morgen 第 5 单元才教,不约具体时间。说话人:wei、jonas、mitarbeiterin。",
+      "grammarFocusZh": "nicht 否定动词(Die Heizung funktioniert nicht)和 kaputt;er / sie / es 指物复习(Die Lampe? Sie ist kaputt.);打电话的开头 Hallo, hier ist … / Guten Tag, ich heiße …",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "de.heizung", "kind": "word", "pos": "noun", "text": "die Heizung", "zh": "暖气", "features": { "gender": "f", "plural": "die Heizungen", "ipa": "ˈhaɪ̯tsʊŋ" }, "noteZh": "-ung 结尾的名词都是阴性;z 读 [ts]。德国的房子冬天大多靠暖气片取暖。" },
+        { "id": "de.funktionieren", "kind": "word", "pos": "verb", "text": "funktionieren", "zh": "(机器、设备)运转;好使", "features": { "ipa": "fʊŋktsi̯oˈniːʁən" }, "noteZh": "说东西坏了:Die Heizung funktioniert nicht.;-tion 里的 t 读 [ts],重音在 nie 上。" },
+        { "id": "de.kaputt", "kind": "word", "pos": "adj", "text": "kaputt", "zh": "坏了", "features": { "ipa": "kaˈpʊt" }, "noteZh": "和 sein 连用:Die Lampe ist kaputt.(灯坏了。);重音在后:ka-PUTT。" },
+        { "id": "de.problem", "kind": "word", "pos": "noun", "text": "das Problem", "zh": "问题;麻烦", "features": { "gender": "n", "plural": "die Probleme", "ipa": "pʁoˈbleːm" }, "noteZh": "Kein Problem! = 没问题!;问出了什么事:Was ist das Problem?。重音在 blem 上。" },
+        { "id": "de.hausmeister", "kind": "word", "pos": "noun", "text": "der Hausmeister", "zh": "(楼房的)管理员;维修工", "features": { "gender": "m", "plural": "die Hausmeister", "ipa": "ˈhaʊ̯sˌmaɪ̯stɐ" }, "noteZh": "负责楼里修修补补的人;复数不变。复合词重音在第一部分 Haus 上。" },
+        { "id": "de.hausverwaltung", "kind": "word", "pos": "noun", "text": "die Hausverwaltung", "zh": "物业(房屋管理公司)", "features": { "gender": "f", "plural": "die Hausverwaltungen", "ipa": "ˈhaʊ̯sfɛɐ̯ˌvaltʊŋ" }, "noteZh": "租的房子里东西坏了,一般先打电话给 Hausverwaltung;-ung 结尾是阴性。" },
+        { "id": "de.reparieren", "kind": "word", "pos": "verb", "text": "reparieren", "zh": "修理", "features": { "ipa": "ʁepaˈʁiːʁən" }, "noteZh": "规则动词:Der Hausmeister repariert die Heizung.;-ieren 结尾的动词重音在 ie 上。" }
+      ],
+      "reviewItems": ["de.lampe", "de.bad", "de.hier", "de.kein", "de.schreiben", "de.telefonieren"]
+    },
+    {
+      "id": "de.a1u3.l07", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-3 我的新家", "order": 103070,
+      "titleZh": "这是谁的锅?——WG 的厨房用品", "goalZh": "连冠词和复数记住常用的厨房用品,用 unser / sein 和 kein 说东西是谁的、还缺什么",
+      "canDoZh": "能说出常用的厨房用品,分清哪些是自己的、哪些是大家一起用的",
+      "scenarioZh": "索菲娅带王伟看厨房的柜子:哪些锅、盘子、刀叉是 WG 一起用的(unser),哪些是约纳斯自己的——他是厨师,他的刀谁也不碰;王伟说他还缺一个炒锅(der Wok)和筷子,打算周末去买。Tasse、Glas 第 4 单元才教,本课不用。说话人:sofia、wei。",
+      "grammarFocusZh": "物主冠词复习(unser Topf, sein Messer, meine Teller);复数复习(die Teller, die Messer, die Gabeln, die Löffel);kein + 复数(Wir haben keine Stäbchen)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.topf", "kind": "word", "pos": "noun", "text": "der Topf", "zh": "锅(煮东西的深锅)", "features": { "gender": "m", "plural": "die Töpfe", "ipa": "tɔpf" }, "noteZh": "pf 两个音都要发:先闭上嘴唇发 p,马上接 f;复数 o 变 ö:die Töpfe。" },
+        { "id": "de.teller", "kind": "word", "pos": "noun", "text": "der Teller", "zh": "盘子", "features": { "gender": "m", "plural": "die Teller", "ipa": "ˈtɛlɐ" }, "noteZh": "复数不变:die Teller;词尾 -er 读成轻轻的 [ɐ]。" },
+        { "id": "de.schuessel", "kind": "word", "pos": "noun", "text": "die Schüssel", "zh": "碗;盆", "features": { "gender": "f", "plural": "die Schüsseln", "ipa": "ˈʃʏsl̩" }, "noteZh": "吃米饭的碗、装沙拉的大碗都叫 Schüssel;别和 der Schlüssel(钥匙)搞混,钥匙多一个 l。" },
+        { "id": "de.messer", "kind": "word", "pos": "noun", "text": "das Messer", "zh": "刀", "features": { "gender": "n", "plural": "die Messer", "ipa": "ˈmɛsɐ" }, "noteZh": "刀、叉、勺的性各不一样:das Messer, die Gabel, der Löffel,最好连冠词一起记;复数不变。" },
+        { "id": "de.gabel", "kind": "word", "pos": "noun", "text": "die Gabel", "zh": "叉子", "features": { "gender": "f", "plural": "die Gabeln", "ipa": "ˈɡaːbl̩" }, "noteZh": "复数加 -n:die Gabeln;a 是长音。" },
+        { "id": "de.loeffel", "kind": "word", "pos": "noun", "text": "der Löffel", "zh": "勺子", "features": { "gender": "m", "plural": "die Löffel", "ipa": "ˈlœfl̩" }, "noteZh": "ö 是短音 [œ]:舌头放在发 e 的位置,嘴唇撮圆;复数不变。" },
+        { "id": "de.wok", "kind": "word", "pos": "noun", "text": "der Wok", "zh": "炒锅", "features": { "gender": "m", "plural": "die Woks", "ipa": "vɔk" }, "noteZh": "从中文(粤语)来的外来词,德国的商店也买得到;w 读 [v],复数加 -s。" },
+        { "id": "de.staebchen", "kind": "word", "pos": "noun", "text": "das Stäbchen", "zh": "筷子", "features": { "gender": "n", "plural": "die Stäbchen", "ipa": "ˈʃtɛːpçən" }, "noteZh": "一根是 das Stäbchen,平时说复数 die Stäbchen(也叫 Essstäbchen);-chen 结尾的名词都是中性。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u3.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-3 我的新家", "order": 103085,
+      "titleZh": "柏林的 WG 生活", "goalZh": "读懂一篇介绍柏林学生住房的说明文,复习 es gibt、复数、价格和地点放句首的语序",
+      "canDoZh": "能读懂一篇介绍柏林学生住房的短文,说出 WG 是什么、一个房间大概多少钱",
+      "scenarioZh": "体裁:大学国际处网页上给新生的介绍短文。短文讲:柏林的房子不便宜,很多学生住 WG;一个房间每月四五百欧元;每个人有自己的房间,厨房和浴室大家一起用;也有学生住学生宿舍(das Studentenwohnheim 可作新词)。最后一句是王伟的感想:我的 WG 很好,我的室友也很好。von … bis 第 7 单元才教,价格用 vierhundert oder fünfhundert Euro 这样的说法。说话人:narrator(介绍短文)、wei(最后一句)。",
+      "grammarFocusZh": "复习:es gibt + 第四格、复数、数字和价格;说明文里时间、地点放句首时动词仍在第二位(In Berlin gibt es …)",
+      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.studentenwohnheim", "kind": "word", "pos": "noun", "text": "das Studentenwohnheim", "zh": "学生宿舍", "features": { "gender": "n", "plural": "die Studentenwohnheime", "ipa": "ʃtuˈdɛntn̩ˌvoːnhaɪ̯m" }, "noteZh": "Studenten(大学生)+ Wohnheim(宿舍),性跟着 das Wohnheim;口语常简称 das Wohnheim。" },
+        { "id": "de.teilen", "kind": "word", "pos": "verb", "text": "teilen", "zh": "合用;分享", "features": { "ipa": "ˈtaɪ̯lən" }, "noteZh": "规则动词:Wir teilen die Küche.(我们合用厨房。);ei 读 [aɪ̯]。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u4.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104045,
+      "titleZh": "超市的特价传单", "goalZh": "看懂超市传单上的商品、数量和价格,会说 ein Kilo / eine Packung / eine Flasche + 名词",
+      "canDoZh": "能看懂超市传单上的商品、数量和价格,决定买什么",
+      "scenarioZh": "体裁:超市广告传单(超市不写真实名称)。周六早上索菲娅把信箱里的传单拿给王伟:本周特价的苹果(一公斤)、一包面条、一瓶水、十个鸡蛋、奶酪……每样写着数量和价格;最后是两人根据传单写的 WG 购物计划。说话人:narrator(传单文字)、wei(购物计划)。",
+      "grammarFocusZh": "数量和包装:ein Kilo Äpfel, eine Packung Nudeln, eine Flasche Wasser(量词后面直接跟名词);价格读法复习(1,99 € = ein Euro neunundneunzig)",
+      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.kilo", "kind": "word", "pos": "noun", "text": "das Kilo", "zh": "公斤", "features": { "gender": "n", "plural": "die Kilos", "ipa": "ˈkiːlo" }, "noteZh": "数字后面不变:zwei Kilo Äpfel(不说 ✗ zwei Kilos Äpfel);量词后面直接跟名词,中间没有“的”。" },
+        { "id": "de.packung", "kind": "word", "pos": "noun", "text": "die Packung", "zh": "包;盒", "features": { "gender": "f", "plural": "die Packungen", "ipa": "ˈpakʊŋ" }, "noteZh": "eine Packung Nudeln(一包面条)、eine Packung Milch(一盒牛奶);-ung 结尾是阴性。" },
+        { "id": "de.flasche", "kind": "word", "pos": "noun", "text": "die Flasche", "zh": "瓶子;一瓶", "features": { "gender": "f", "plural": "die Flaschen", "ipa": "ˈflaʃə" }, "noteZh": "eine Flasche Wasser(一瓶水),sechs Flaschen Wasser(六瓶水);sch 读 [ʃ]。" },
+        { "id": "de.angebot", "kind": "word", "pos": "noun", "text": "das Angebot", "zh": "特价商品;优惠", "features": { "gender": "n", "plural": "die Angebote", "ipa": "ˈanɡəˌboːt" }, "noteZh": "超市传单、菜单上常见:Unsere Angebote(本店特价);重音在第一个音节 an 上。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u4.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104060,
+      "titleZh": "在小吃摊:一个烤肉卷,不要洋葱", "goalZh": "会在小吃摊点餐,用 mit / ohne 说要什么、不要什么,回答在这儿吃还是带走",
+      "canDoZh": "能在小吃摊点餐,说要什么、不要什么,回答在这儿吃还是带走",
+      "scenarioZh": "周五晚上王伟去约纳斯工作的餐馆接他下晚班,两人在地铁站旁的小吃摊吃宵夜。王伟点 einen Döner ohne Zwiebeln,约纳斯要 Currywurst mit Pommes;摊主问要不要辣、在这儿吃还是带走(Zum Mitnehmen?);约纳斯说这两样是柏林最有名的小吃,还开玩笑说他做的菜没有烤肉卷受欢迎。说话人:verkaeufer、wei、jonas。",
+      "grammarFocusZh": "ohne 和 mit 成对记(ohne Zwiebeln / mit Pommes,先只用不带冠词的说法);Ich möchte / Ich nehme + 第四格复习(einen Döner);Zum Mitnehmen? 当固定说法",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.imbiss", "kind": "word", "pos": "noun", "text": "der Imbiss", "zh": "小吃摊;快餐店", "features": { "gender": "m", "plural": "die Imbisse", "ipa": "ˈɪmbɪs" }, "noteZh": "卖烤肉卷、香肠、薯条的小摊或小店,常在地铁站旁边;复数 die Imbisse。" },
+        { "id": "de.doener", "kind": "word", "pos": "noun", "text": "der Döner", "zh": "(土耳其)烤肉卷", "features": { "gender": "m", "plural": "die Döner", "ipa": "ˈdøːnɐ" }, "noteZh": "点一个:Einen Döner, bitte!(阳性第四格 einen);ö 是长音:舌头放在发 e 的位置,嘴唇撮圆。" },
+        { "id": "de.currywurst", "kind": "word", "pos": "noun", "text": "die Currywurst", "zh": "咖喱香肠", "features": { "gender": "f", "plural": "die Currywürste", "ipa": "ˈkœʁiˌvʊʁst" }, "noteZh": "Curry + Wurst(香肠,本单元复习课学),性跟着 die Wurst;常配薯条:Currywurst mit Pommes。" },
+        { "id": "de.pommes", "kind": "word", "pos": "noun", "text": "die Pommes", "zh": "炸薯条", "features": { "gender": "pl", "ipa": "ˈpɔməs" }, "noteZh": "Pommes frites 的简称,只用复数,die 在这里是复数冠词;口语里也常读成 [pɔms]。" },
+        { "id": "de.zwiebel", "kind": "word", "pos": "noun", "text": "die Zwiebel", "zh": "洋葱", "features": { "gender": "f", "plural": "die Zwiebeln", "ipa": "ˈtsviːbl̩" }, "noteZh": "zw 读 [tsv];说“不要洋葱”用复数:ohne Zwiebeln。" },
+        { "id": "de.ohne", "kind": "word", "pos": "prep", "text": "ohne", "zh": "不要;没有;不带", "features": { "ipa": "ˈoːnə" }, "noteZh": "和 mit(加、带)正好相反:mit Pommes / ohne Zwiebeln;h 不发音,只表示 o 读长音。" },
+        { "id": "de.zum_mitnehmen", "kind": "phrase", "pos": "phrase", "text": "zum Mitnehmen", "zh": "带走;外带", "features": { "ipa": "tsʊm ˈmɪtˌneːmən" }, "noteZh": "店员问 Hier essen oder zum Mitnehmen?(在这儿吃还是带走?);回答 Zum Mitnehmen, bitte. 或 Hier essen, bitte.。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u4.l07", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104070,
+      "titleZh": "大学食堂:吃什么?", "goalZh": "看懂食堂菜单牌上的素食、纯素和肉菜,会说“我要……”,用卡付钱",
+      "canDoZh": "能看懂大学食堂的菜单牌,选素食或肉菜,用食堂卡付钱",
+      "scenarioZh": "开学前,莉娜带王伟第一次去大学食堂(die Mensa):菜单牌上有素食(vegetarisch)、纯素(vegan)、肉菜和沙拉,学生价和客人价不一样;王伟问 vegan 是什么意思,莉娜解释;两人选好菜,在收银台用食堂卡付钱,王伟觉得很便宜。heute 第 5 单元才教,问菜单用 Was gibt es?。说话人:lena、wei、kassiererin。",
+      "grammarFocusZh": "es gibt + 第四格复习(Es gibt Suppe und einen Salat);Was nimmst du? – Ich nehme …;形容词放在 sein 后面不变(Die Suppe ist vegan)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.mensa", "kind": "word", "pos": "noun", "text": "die Mensa", "zh": "大学食堂", "features": { "gender": "f", "plural": "die Mensen", "ipa": "ˈmɛnza" }, "noteZh": "大学生吃饭的地方,学生价比客人价便宜;复数 die Mensen。s 在元音前读 [z]。" },
+        { "id": "de.vegetarisch", "kind": "word", "pos": "adj", "text": "vegetarisch", "zh": "素的(不含肉和鱼)", "features": { "ipa": "veɡeˈtaːʁɪʃ" }, "noteZh": "外来词里的 v 读 [v];重音在 ta 上。Ich esse vegetarisch.(我吃素。)" },
+        { "id": "de.vegan", "kind": "word", "pos": "adj", "text": "vegan", "zh": "纯素的(不含任何动物产品)", "features": { "ipa": "veˈɡaːn" }, "noteZh": "比 vegetarisch 更严格:没有肉和鱼,也没有牛奶、鸡蛋和奶酪;重音在 gan 上。" },
+        { "id": "de.salat", "kind": "word", "pos": "noun", "text": "der Salat", "zh": "沙拉;生菜", "features": { "gender": "m", "plural": "die Salate", "ipa": "zaˈlaːt" }, "noteZh": "重音在后:sa-LAT;点一份沙拉:Ich nehme einen Salat.(阳性第四格)。" },
+        { "id": "de.haehnchen", "kind": "word", "pos": "noun", "text": "das Hähnchen", "zh": "鸡肉;烤鸡", "features": { "gender": "n", "plural": "die Hähnchen", "ipa": "ˈhɛːnçən" }, "noteZh": "菜单上的鸡肉菜常写 Hähnchen;-chen 结尾的名词都是中性。äh 读长音 [ɛː],这个 h 不发音。" },
+        { "id": "de.gast", "kind": "word", "pos": "noun", "text": "der Gast", "zh": "客人", "features": { "gender": "m", "plural": "die Gäste", "ipa": "ɡast" }, "noteZh": "复数 a 变 ä:die Gäste;食堂里不是本校学生的人按 Gäste 的价格付钱。" }
+      ],
+      "reviewItems": []
+    },
+    {
+      "id": "de.a1u4.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104085,
+      "titleZh": "约纳斯餐馆的新菜单", "goalZh": "读懂一份餐馆菜单的前菜、主菜、甜点、饮料和价格,认识菜单上的复合词",
+      "canDoZh": "能读懂一份餐馆菜单(前菜、主菜、甜点、饮料和价格),为自己和朋友选菜",
+      "scenarioZh": "体裁:餐馆菜单(餐馆不写真实名称)。约纳斯把他工作的餐馆的新菜单拍照发到 WG 群:汤、沙拉、鱼配土豆、素食面条、苹果蛋糕、咖啡和茶……每道菜有一句简短的说明和价格;最后一段是约纳斯推荐的特价菜(用 das Angebot)。说话人:narrator(菜单文字)。",
+      "grammarFocusZh": "菜单上的常见结构:名词 + mit / ohne(Fisch mit Kartoffeln / Salat ohne Fleisch);复合词(Apfelkuchen = Apfel + Kuchen);复习价格、gern 和 möchten",
+      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.vorspeise", "kind": "word", "pos": "noun", "text": "die Vorspeise", "zh": "前菜;头盘", "features": { "gender": "f", "plural": "die Vorspeisen", "ipa": "ˈfoːɐ̯ˌʃpaɪ̯zə" }, "noteZh": "vor(在……之前)+ Speise(菜):正餐前的汤、沙拉;v 读 [f],sp 读 [ʃp]。" },
+        { "id": "de.hauptgericht", "kind": "word", "pos": "noun", "text": "das Hauptgericht", "zh": "主菜", "features": { "gender": "n", "plural": "die Hauptgerichte", "ipa": "ˈhaʊ̯ptɡəˌʁɪçt" }, "noteZh": "Haupt(主要的)+ Gericht(一道菜),性跟着 das Gericht;复合词重音在第一部分。" },
+        { "id": "de.nachspeise", "kind": "word", "pos": "noun", "text": "die Nachspeise", "zh": "(饭后的)甜点", "features": { "gender": "f", "plural": "die Nachspeisen", "ipa": "ˈnaːxˌʃpaɪ̯zə" }, "noteZh": "nach(在……之后)+ Speise,和 die Vorspeise 成对记;也说 der Nachtisch、das Dessert。" },
+        { "id": "de.getraenk", "kind": "word", "pos": "noun", "text": "das Getränk", "zh": "饮料", "features": { "gender": "n", "plural": "die Getränke", "ipa": "ɡəˈtʁɛŋk" }, "noteZh": "和 trinken(喝)是一家;词尾 nk 读 [ŋk]。菜单上写复数 Getränke。" }
+      ],
+      "reviewItems": []
+    }
+  ]
+}

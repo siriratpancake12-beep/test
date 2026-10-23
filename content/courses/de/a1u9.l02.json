@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u9.l02", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-9 大学与课程", "order": 109020,
+  "titleZh": "看懂课表", "goalZh": "认识课表上的讲座、讨论课、练习课,会说楼层和在哪栋楼", "canDoZh": "能看懂大学课表,说出讲座、讨论课、练习课在星期几、几点、哪栋楼哪个教室",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.stundenplan", "kind": "word", "pos": "noun", "text": "der Stundenplan", "zh": "课表", "features": { "gender": "m", "plural": "die Stundenpläne", "ipa": "ˈʃtʊndn̩ˌplaːn" }, "noteZh": "die Stunde(课时)+ der Plan(计划);复合词的性看最后一个词,所以是 der;复数变音:Stundenpläne;词首 st 读 [ʃt]。" },
+    { "id": "de.vorlesung", "kind": "word", "pos": "noun", "text": "die Vorlesung", "zh": "讲座课;(大学的)大课", "features": { "gender": "f", "plural": "die Vorlesungen", "ipa": "ˈfoːɐ̯ˌleːzʊŋ" }, "noteZh": "vor(在前面)+ lesen(读):教授在前面讲,学生听、记笔记;-ung 结尾的名词都是阴性;v 读 [f]。" },
+    { "id": "de.hoersaal", "kind": "word", "pos": "noun", "text": "der Hörsaal", "zh": "阶梯教室;大教室", "features": { "gender": "m", "plural": "die Hörsäle", "ipa": "ˈhøːɐ̯ˌzaːl" }, "noteZh": "hören(听)+ der Saal(大厅);ö 的发法:先说 e,嘴唇再收圆;复数变音:Hörsäle。" },
+    { "id": "de.seminar", "kind": "word", "pos": "noun", "text": "das Seminar", "zh": "讨论课;研讨课", "features": { "gender": "n", "plural": "die Seminare", "ipa": "zemiˈnaːɐ̯" }, "noteZh": "人少,要读文章、发言、做报告;重音在最后:se-mi-NAR;中性:das Seminar。" },
+    { "id": "de.uebung", "kind": "word", "pos": "noun", "text": "die Übung", "zh": "练习;练习课", "features": { "gender": "f", "plural": "die Übungen", "ipa": "ˈyːbʊŋ" }, "noteZh": "大学里配合讲座的练习课,学生自己做题;也指一般的练习:ein Buch mit Übungen;ü 读 [yː],嘴唇圆、舌头位置像发 i。" },
+    { "id": "de.gebaeude", "kind": "word", "pos": "noun", "text": "das Gebäude", "zh": "楼;建筑物", "features": { "gender": "n", "plural": "die Gebäude", "ipa": "ɡəˈbɔɪ̯də" }, "noteZh": "大学的教学楼常用字母或数字编号:im Gebäude B(在 B 楼);äu 读 [ɔɪ̯],和 eu 一样;复数不变。" },
+    { "id": "de.stock", "kind": "word", "pos": "noun", "text": "der Stock", "zh": "(楼的)层", "features": { "gender": "m", "plural": "die Stockwerke", "ipa": "ʃtɔk" }, "noteZh": "im ersten Stock = 中国的二楼(地面那层叫 Erdgeschoss,不算在内);表示楼层时复数常说 Stockwerke(die Stöcke 是“棍子”的复数);o 是短音。" },
+    { "id": "de.erdgeschoss", "kind": "word", "pos": "noun", "text": "das Erdgeschoss", "zh": "(楼的)底层;中国说的一楼", "features": { "gender": "n", "plural": "die Erdgeschosse", "ipa": "ˈeːɐ̯tɡəˌʃɔs" }, "noteZh": "die Erde(地面)+ das Geschoss(楼层);电梯上写 E 或 0;Erd- 的 d 读 [t]。" },
+    { "id": "de.professor", "kind": "word", "pos": "noun", "text": "der Professor", "zh": "教授", "features": { "gender": "m", "plural": "die Professoren", "ipa": "pʁoˈfɛsoːɐ̯" }, "noteZh": "重音在 fes,复数重音挪到 so:Pro-fes-SO-ren;女教授:die Professorin;称呼:Herr Professor Schmidt。" }
+  ],
+  "reviewItems": ["de.dienstag", "de.freitag", "de.viertel", "de.muessen"],
+  "lines": [
+    { "speaker": "wei", "text": "Lena, hier ist mein Stundenplan. Was ist eine Vorlesung?", "zh": "莉娜,这是我的课表。Vorlesung 是什么?", "items": ["de.hier", "de.sein", "de.mein", "de.stundenplan", "de.was", "de.ein", "de.vorlesung"] },
+    { "speaker": "lena", "text": "Eine Vorlesung ist im Hörsaal. Der Professor spricht, die Studenten schreiben.", "zh": "Vorlesung 是讲座课,在阶梯教室上。教授讲,学生记笔记。", "items": ["de.ein", "de.vorlesung", "de.sein", "de.in", "de.hoersaal", "de.professor", "de.sprechen", "de.student", "de.schreiben"] },
+    { "speaker": "wei", "text": "Und am Dienstag um zwei habe ich ein Seminar.", "zh": "星期二两点我还有一门讨论课。", "items": ["de.und", "de.am", "de.dienstag", "de.um", "de.zwei", "de.haben", "de.ich", "de.ein", "de.seminar"] },
+    { "speaker": "lena", "text": "Ein Seminar ist klein. Da musst du viel sprechen!", "zh": "讨论课人少,在那儿你得多发言!", "items": ["de.ein", "de.seminar", "de.sein", "de.klein", "de.da", "de.muessen", "de.du", "de.viel", "de.sprechen"] },
+    { "speaker": "wei", "text": "Das Seminar ist im Gebäude B, im ersten Stock. Ist das hier?", "zh": "讨论课在 B 楼的“第一层”(erster Stock)。是我们这一层吗?", "items": ["de.seminar", "de.sein", "de.in", "de.gebaeude", "de.eins", "de.stock", "de.hier"] },
+    { "speaker": "lena", "text": "Nein, hier ist das Erdgeschoss. Der erste Stock ist in China der zweite!", "zh": "不是,这儿是底层(Erdgeschoss)。德国的“第一层”是中国的二楼!", "items": ["de.nein", "de.hier", "de.sein", "de.erdgeschoss", "de.eins", "de.stock", "de.in", "de.china", "de.zwei"] },
+    { "speaker": "wei", "text": "Und was heißt „c.t.“? Die Vorlesung ist um zehn Uhr c.t.", "zh": "那 c.t. 是什么意思?讲座课是十点 c.t.。", "items": ["de.und", "de.was", "de.ich_heisse", "de.vorlesung", "de.sein", "de.um", "de.zehn", "de.uhr"] },
+    { "speaker": "lena", "text": "Das heißt: Sie fängt um Viertel nach zehn an.", "zh": "意思是:它十点一刻才开始。", "items": ["de.ich_heisse", "de.sie_sg", "de.anfangen", "de.um", "de.viertel", "de.nach", "de.zehn"] },
+    { "speaker": "wei", "text": "Und was ist die Übung am Freitag?", "zh": "那星期五的 Übung 是什么?", "items": ["de.und", "de.was", "de.sein", "de.uebung", "de.am", "de.freitag"] },
+    { "speaker": "lena", "text": "In der Übung machst du Mathe, nicht der Professor!", "zh": "练习课上是你自己做数学题,不是教授做!", "items": ["de.in", "de.uebung", "de.machen", "de.du", "de.mathematik", "de.nicht", "de.professor"] }
+  ],
+  "questions": [
+    { "prompt": "按中国的说法,王伟的讨论课在几楼?", "options": ["一楼", "二楼", "三楼"], "answer": 1, "explainZh": "讨论课 im ersten Stock(德国的“第一层”)。莉娜说:Der erste Stock ist in China der zweite!(德国的“第一层”是中国的二楼。)" },
+    { "prompt": "课表上写着 10 Uhr c.t.,讲座课几点开始?", "options": ["10:15", "10:00", "9:45"], "answer": 0, "explainZh": "莉娜说:Sie fängt um Viertel nach zehn an.(十点一刻开始。)c.t. 表示晚 15 分钟开始。" },
+    { "prompt": "哪种课学生要多发言?", "options": ["讲座课 Vorlesung", "练习课 Übung", "讨论课 Seminar"], "answer": 2, "explainZh": "莉娜说:Ein Seminar ist klein. Da musst du viel sprechen!(讨论课人少,要多发言。)讲座课是教授讲、学生记。" }
+  ],
+  "grammar": [
+    { "id": "de.g.stockwerk", "titleZh": "楼层:im Erdgeschoss、im ersten Stock",
+      "bodyZh": "德国的楼层从地面那一层的上一层开始数:地面那一层叫 das Erdgeschoss(中国的一楼),上面一层才是 der erste Stock(中国的二楼),再上面是 der zweite Stock(中国的三楼)。电梯按钮上 Erdgeschoss 写成 E 或 0。\n说“在几楼”:im Erdgeschoss、im ersten Stock、im zweiten Stock(im = in dem,序数词加 -en,和 am ersten Januar 一样)。\n大学的教室号常写成 1.104 这样:点前面是楼层,点后面是房间号。和德国人约在“二楼”见面时,一定要说清楚是哪种说法!",
+      "examples": [
+        { "text": "Das Seminar ist im ersten Stock.", "zh": "讨论课在二楼(德国的“第一层”)。" },
+        { "text": "Der Hörsaal ist im Erdgeschoss.", "zh": "阶梯教室在一楼(底层)。" },
+        { "text": "Die Übung ist im zweiten Stock.", "zh": "练习课在三楼(德国的“第二层”)。" }
+      ] },
+    { "id": "de.g.stundenplan_zeit", "titleZh": "课表上的时间和 c.t.",
+      "bodyZh": "看课表复习第 5 单元的时间说法:am Dienstag(星期二)、um zehn Uhr(十点)、von zehn bis zwölf Uhr(十点到十二点)。课表上常写 10–12 Uhr,读作 von zehn bis zwölf Uhr。\n德国大学的老规矩:c.t.(拉丁文 cum tempore,“带着时间”)表示晚 15 分钟开始:10 Uhr c.t. = 10:15,叫“学术一刻钟”;s.t.(sine tempore)表示准点开始。\n课的名称记住性:die Vorlesung、die Übung(-ung 结尾都是阴性),das Seminar。",
+      "examples": [
+        { "text": "Die Vorlesung ist am Dienstag von zehn bis zwölf Uhr.", "zh": "讲座课在星期二十点到十二点。" },
+        { "text": "Am Freitag habe ich eine Übung.", "zh": "星期五我有一节练习课。" },
+        { "text": "Das Seminar fängt um Viertel nach zwei an.", "zh": "讨论课两点一刻开始。" }
+      ] }
+  ],
+  "review": "draft"
+}

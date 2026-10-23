@@ -1,0 +1,40 @@
+{
+  "id": "de.a1u8.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-8 健康与周末", "order": 108085,
+  "titleZh": "王伟的新学期计划", "goalZh": "读懂、也会写一份简单的计划:什么时候做什么、必须做什么、想做什么", "canDoZh": "能读懂、也能写一份简单的计划:什么时候做什么、必须做什么、想做什么",
+  "skills": ["read", "write"], "estimatedMinutes": 13.5,
+  "newItems": [
+    { "id": "de.ueben", "kind": "word", "pos": "verb", "text": "üben", "zh": "练习", "features": { "ipa": "ˈyːbn̩" }, "noteZh": "ü 读长音 [yː];Ich übe jeden Tag.(我每天练习。)学语言离不开它:Hören und Sprechen üben。" }
+  ],
+  "reviewItems": ["de.pruefung", "de.ferien", "de.wieder", "de.muessen", "de.wollen", "de.jeder"],
+  "lines": [
+    { "speaker": "wei", "text": "Heute ist mein letzter Ferientag.", "zh": "(王伟的日记)今天是我假期的最后一天。", "items": ["de.heute", "de.sein", "de.mein", "de.letzte", "de.ferien", "de.tag"] },
+    { "speaker": "wei", "text": "Im April fängt die Uni wieder an.", "zh": "四月大学又开学了。", "items": ["de.in", "de.april", "de.anfangen", "de.uni", "de.wieder"] },
+    { "speaker": "wei", "text": "Dann suche ich neue Kurse.", "zh": "到时候我要选新的课。", "items": ["de.dann", "de.suchen", "de.ich", "de.neu", "de.kurs"] },
+    { "speaker": "wei", "text": "Lena und ich lernen wieder zusammen: Sie lernt Chinesisch, ich lerne Deutsch.", "zh": "我和莉娜还一起学习:她学中文,我学德语。", "items": ["de.und", "de.ich", "de.lernen", "de.wieder", "de.zusammen", "de.sie_sg", "de.chinesisch", "de.deutsch"] },
+    { "speaker": "wei", "text": "Am 17. Mai mache ich die A1-Prüfung.", "zh": "5 月 17 日我考德语 A1。", "items": ["de.am", "de.siebzehn", "de.mai", "de.machen", "de.ich", "de.pruefung"] },
+    { "speaker": "wei", "text": "Ich muss jeden Tag Hören und Sprechen üben.", "zh": "我每天都得练听力和口语。", "items": ["de.ich", "de.muessen", "de.jeder", "de.tag", "de.hoeren", "de.und", "de.sprechen", "de.ueben"] },
+    { "speaker": "wei", "text": "Ich lese auch jeden Tag ein bisschen Deutsch.", "zh": "我还要每天读一点儿德语。", "items": ["de.ich", "de.lesen", "de.auch", "de.jeder", "de.tag", "de.ein_bisschen", "de.deutsch"] },
+    { "speaker": "wei", "text": "Im Sommer will ich arbeiten.", "zh": "夏天我想去打工。", "items": ["de.in", "de.sommer", "de.wollen", "de.ich", "de.arbeiten"] },
+    { "speaker": "wei", "text": "Im Juli habe ich Ferien.", "zh": "七月我放假。", "items": ["de.in", "de.juli", "de.haben", "de.ich", "de.ferien"] },
+    { "speaker": "wei", "text": "Dann möchte ich mit Lena, Sofia und Paul an die Ostsee fahren.", "zh": "到时候我想和莉娜、索菲娅、保罗去波罗的海边。", "items": ["de.dann", "de.moechten", "de.ich", "de.mit", "de.und", "de.an", "de.fahren"] },
+    { "speaker": "wei", "text": "Im August fliege ich nach Chengdu, zu meiner Familie.", "zh": "八月我坐飞机回成都,回家看看。", "items": ["de.in", "de.august", "de.fliegen", "de.ich", "de.nach", "de.zu", "de.mein", "de.familie"] },
+    { "speaker": "wei", "text": "Viel lernen, viel üben und viel Spaß!", "zh": "多学习,多练习,也要多开心!", "items": ["de.viel", "de.lernen", "de.ueben", "de.und", "de.spass"] }
+  ],
+  "questions": [
+    { "prompt": "王伟写这篇日记那天是什么日子?", "options": ["夏季学期第一天", "他假期的最后一天", "考试那天"], "answer": 1, "explainZh": "Heute ist mein letzter Ferientag.(今天是我假期的最后一天。)四月大学才开学。" },
+    { "prompt": "为了考试,王伟每天要练什么?", "options": ["听和说", "写汉字", "做饭"], "answer": 0, "explainZh": "Ich muss jeden Tag Hören und Sprechen üben.(我每天都得练听力和口语。)" },
+    { "prompt": "七月王伟想做什么?", "options": ["回成都", "去汉堡", "和朋友去波罗的海边"], "answer": 2, "explainZh": "Im Juli habe ich Ferien. Dann möchte ich mit Lena, Sofia und Paul an die Ostsee fahren.(七月放假,想和朋友去波罗的海边。)" },
+    { "prompt": "八月王伟要去哪儿?", "options": ["去意大利", "回成都看家人", "去波罗的海边"], "answer": 1, "explainZh": "Im August fliege ich nach Chengdu, zu meiner Familie.(八月坐飞机回成都看家人。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u8_plan", "titleZh": "写计划:时间放句首 + 情态动词 müssen / wollen / möchten",
+      "bodyZh": "写计划时,常把时间放在句首,后面紧跟变位动词:Im April fängt die Uni wieder an. / Im Juli habe ich Ferien.\n“必须做的事”用 müssen,“打算做的事”用 wollen,“想做的事”用 möchten(更客气、更柔和);情态动词在第二位,另一个动词原形放句末:Ich muss jeden Tag Hören und Sprechen üben. / Im Sommer will ich arbeiten. / Dann möchte ich an die Ostsee fahren.\n将来的事德语一般直接用现在时加时间词,不用专门的将来时:Im August fliege ich nach Chengdu.(八月我要回成都。)\n日期复习:am 17. Mai(读作 am siebzehnten Mai)、im Juli、im August。",
+      "examples": [
+        { "text": "Im April fängt die Uni wieder an.", "zh": "四月大学又开学了。" },
+        { "text": "Ich muss jeden Tag Hören und Sprechen üben.", "zh": "我每天都得练听力和口语。" },
+        { "text": "Im Juli möchte ich an die Ostsee fahren.", "zh": "七月我想去波罗的海边。" }
+      ] }
+  ],
+  "review": "draft"
+}

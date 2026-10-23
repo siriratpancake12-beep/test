@@ -10,7 +10,7 @@
   "reviewItems": ["de.geburtstag", "de.einladen", "de.kuchen", "de.party", "de.geschenk", "de.nudel"],
   "lines": [
     { "speaker": "narrator", "text": "Geburtstag in Deutschland", "zh": "在德国过生日", "items": ["de.geburtstag", "de.in", "de.deutschland"] },
-    { "speaker": "narrator", "text": "In Deutschland lädt das Geburtstagskind die Freunde ein.", "zh": "在德国,过生日的人(das Geburtstagskind,“寿星”)请朋友们来。", "items": ["de.in", "de.deutschland", "de.einladen", "de.geburtstag", "de.kind", "de.freund"] },
+    { "speaker": "narrator", "text": "In Deutschland lädt das Geburtstagskind seine Freunde ein.", "zh": "在德国,过生日的人(das Geburtstagskind,“寿星”)自己请朋友们来。", "items": ["de.in", "de.deutschland", "de.einladen", "de.geburtstag", "de.kind", "de.sein_poss", "de.freund"] },
     { "speaker": "narrator", "text": "Das Geburtstagskind bringt auch den Kuchen mit.", "zh": "蛋糕也是寿星自己带来。", "items": ["de.geburtstag", "de.kind", "de.mitbringen", "de.auch", "de.kuchen"] },
     { "speaker": "narrator", "text": "Im Kurs gibt es dann Kuchen, und wir essen zusammen.", "zh": "这时班上就有蛋糕了,大家一起吃。", "items": ["de.in", "de.kurs", "de.es_gibt", "de.dann", "de.kuchen", "de.und", "de.wir", "de.essen", "de.zusammen"] },
     { "speaker": "narrator", "text": "Vor dem Geburtstag gibt es keine Party.", "zh": "生日之前不开派对(德国人觉得提前庆祝不吉利)。", "items": ["de.vor", "de.geburtstag", "de.es_gibt", "de.kein", "de.party"] },

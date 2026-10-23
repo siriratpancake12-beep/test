@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u12.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 考试周", "order": 112050,
+  "titleZh": "模拟口语:请求和回答", "goalZh": "会用 Können Sie bitte …? / Kannst du bitte …? 提请求,会答应和有礼貌地拒绝(说明理由)", "canDoZh": "能根据图片卡片提出请求,并回答别人的请求(考试口语第三部分)",
+  "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.bitte_nomen", "kind": "word", "pos": "noun", "text": "die Bitte", "zh": "请求", "features": { "gender": "f", "plural": "die Bitten", "ipa": "ˈbɪtə" }, "noteZh": "和 bitte(请)写法一样,但名词首字母大写、带冠词:Ich habe eine Bitte.(我有个请求。)口语考试第三部分就是“提出请求、回应请求”。" },
+    { "id": "de.aufmachen", "kind": "word", "pos": "verb", "text": "aufmachen", "zh": "打开", "features": { "ipa": "ˈaʊ̯fˌmaxn̩" }, "noteZh": "可分动词,重音在 auf 上:Ich mache das Fenster auf.;和情态动词连用时连在一起放句末:Können Sie bitte das Fenster aufmachen?;反义词 zumachen。" },
+    { "id": "de.zumachen", "kind": "word", "pos": "verb", "text": "zumachen", "zh": "关上", "features": { "ipa": "ˈtsuːˌmaxn̩" }, "noteZh": "可分动词,重音在 zu 上:Ich mache die Tür zu.;和 aufmachen 成对记;zu 读 [tsuː]。" },
+    { "id": "de.geben", "kind": "word", "pos": "verb", "text": "geben", "zh": "给", "features": { "ipa": "ˈɡeːbn̩" }, "noteZh": "不规则:ich gebe, du gibst, er gibt(e 变 i);Kannst du mir bitte den Zucker geben?(mir = 给我,先当固定说法记)。es gibt(有)也是从 geben 来的。" },
+    { "id": "de.zucker", "kind": "word", "pos": "noun", "text": "der Zucker", "zh": "糖", "features": { "gender": "m", "plural": "-", "ipa": "ˈtsʊkɐ" }, "noteZh": "z 读 [ts],ck 读 [k],词尾 -er 读 [ɐ];不可数,不用复数:Kaffee mit Milch und Zucker。" },
+    { "id": "de.das_geht", "kind": "phrase", "pos": "phrase", "text": "Das geht", "zh": "行;可以(安排得开)", "features": { "ipa": "das ˈɡeːt" }, "noteZh": "问安排、回应请求时说行不行:Geht das?(行吗?)– Ja, das geht.(行。)/ Nein, das geht leider nicht.(恐怕不行。)这里的 gehen 不是“走”,而是“行得通”。" },
+    { "id": "de.gerade", "kind": "word", "pos": "adv", "text": "gerade", "zh": "正在;刚好", "features": { "ipa": "ɡəˈʁaːdə" }, "noteZh": "Ich schreibe gerade.(我正在写。)德语没有专门的“进行时”,用现在时 + gerade 表示“正在”;重音在 ra 上。" },
+    { "id": "de.luft", "kind": "word", "pos": "noun", "text": "die Luft", "zh": "空气", "features": { "gender": "f", "plural": "-", "ipa": "lʊft" }, "noteZh": "不可数,不用复数;Die Luft ist hier nicht gut.(这里空气不好 / 屋里很闷。)德国人很习惯开窗通风,教室、办公室里常听到这句。" }
+  ],
+  "reviewItems": ["de.fenster", "de.tuer", "de.natuerlich", "de.denn", "de.karte", "de.kuli"],
+  "lines": [
+    { "speaker": "wagner", "text": "Aufgabe drei: Bitten. Herr Wang, nehmen Sie bitte eine Karte.", "zh": "第三题:提请求。王先生,请抽一张卡片。", "items": ["de.aufgabe", "de.drei", "de.bitte_nomen", "de.herr", "de.nehmen", "de.sie_hoeflich", "de.bitte", "de.ein", "de.karte"] },
+    { "speaker": "wei", "text": "Ein Fenster. Können Sie bitte das Fenster aufmachen?", "zh": "一扇窗户。您能把窗户打开吗?", "items": ["de.ein", "de.fenster", "de.koennen", "de.sie_hoeflich", "de.bitte", "de.aufmachen"] },
+    { "speaker": "sofia", "text": "Ja, gern. Die Luft ist hier nicht gut.", "zh": "好的。这里空气不太好。", "items": ["de.ja", "de.gern", "de.luft", "de.sein", "de.hier", "de.nicht", "de.gut"] },
+    { "speaker": "wagner", "text": "Gut, aber „aufmachen“ bitte noch einmal!", "zh": "好,不过 aufmachen 请再说一遍!(重音要放在 auf 上)", "items": ["de.gut", "de.aber", "de.aufmachen", "de.bitte", "de.noch_einmal"] },
+    { "speaker": "wei", "text": "Aufmachen. Können Sie bitte das Fenster aufmachen?", "zh": "aufmachen。您能把窗户打开吗?", "items": ["de.aufmachen", "de.koennen", "de.sie_hoeflich", "de.bitte", "de.fenster"] },
+    { "speaker": "sofia", "text": "Meine Karte: Zucker. Kannst du mir bitte den Zucker geben?", "zh": "我的卡片:糖。你能把糖递给我吗?", "items": ["de.mein", "de.karte", "de.zucker", "de.koennen", "de.du", "de.ich", "de.bitte", "de.geben"] },
+    { "speaker": "wei", "text": "Natürlich! Hier ist der Zucker.", "zh": "当然!糖给你。", "items": ["de.natuerlich", "de.hier", "de.sein", "de.zucker"] },
+    { "speaker": "wagner", "text": "Mit „du“ ist das auch richtig. Und jetzt Sie, Herr Wang!", "zh": "用 du 也对。现在轮到您了,王先生!", "items": ["de.mit", "de.du", "de.sein", "de.auch", "de.richtig", "de.und", "de.jetzt", "de.sie_hoeflich", "de.herr"] },
+    { "speaker": "wei", "text": "Meine Karte: ein Kuli. Kannst du mir bitte deinen Kuli geben?", "zh": "我的卡片:圆珠笔。你能把你的圆珠笔给我吗?", "items": ["de.mein", "de.karte", "de.ein", "de.kuli", "de.koennen", "de.du", "de.ich", "de.bitte", "de.dein", "de.geben"] },
+    { "speaker": "sofia", "text": "Nein, das geht leider nicht, denn ich schreibe gerade.", "zh": "不行,真不好意思,因为我正在写字。", "items": ["de.nein", "de.das_geht", "de.leider", "de.nicht", "de.denn", "de.ich", "de.schreiben", "de.gerade"] },
+    { "speaker": "sofia", "text": "Meine Karte: eine Tür. Kannst du bitte die Tür zumachen?", "zh": "我的卡片:门。你能把门关上吗?", "items": ["de.mein", "de.karte", "de.ein", "de.tuer", "de.koennen", "de.du", "de.bitte", "de.zumachen"] },
+    { "speaker": "wei", "text": "Ja, gern. Ich mache die Tür zu.", "zh": "好的,我来关门。", "items": ["de.ja", "de.gern", "de.ich", "de.zumachen", "de.tuer"] }
+  ],
+  "questions": [
+    { "prompt": "王伟抽到的第一张卡片上画的是什么?", "options": ["糖", "门", "窗户"], "answer": 2, "explainZh": "王伟说:Ein Fenster. Können Sie bitte das Fenster aufmachen?(一扇窗户。您能把窗户打开吗?)" },
+    { "prompt": "索菲娅为什么不把笔给王伟?", "options": ["她正在写字,自己要用", "她没有笔", "笔是老师的"], "answer": 0, "explainZh": "索菲娅说:Nein, das geht leider nicht, denn ich schreibe gerade.(不行,因为我正在写字。)" },
+    { "prompt": "最后索菲娅请王伟做什么?", "options": ["把窗户关上", "把门关上", "给她一杯咖啡"], "answer": 1, "explainZh": "索菲娅说:Kannst du bitte die Tür zumachen?(你能把门关上吗?)王伟回答:Ja, gern. Ich mache die Tür zu." }
+  ],
+  "grammar": [
+    { "id": "de.g.u12_bitten", "titleZh": "提请求:Können Sie bitte …? / Kannst du bitte …?",
+      "bodyZh": "请别人做事,最常用 können 的问句再加 bitte:Können Sie bitte das Fenster aufmachen?(对陌生人、考官、店员)/ Kannst du bitte die Tür zumachen?(对朋友、同学)。要东西:Kannst du mir bitte den Zucker geben?(mir = 给我,先当固定说法记);简短一点也可以说“名词 + bitte”:Den Zucker, bitte!\n可分动词 aufmachen / zumachen 跟情态动词一起用时,整个原形放句末(… aufmachen?);自己说“我来关”时,前缀放句末:Ich mache die Tür zu.。重音都在前缀上:AUFmachen、ZUmachen。\n口语考试第三部分的搭档一般是不认识的考生,用 Sie 最稳妥;用 du 也算对。",
+      "examples": [
+        { "text": "Können Sie bitte das Fenster aufmachen?", "zh": "您能把窗户打开吗?" },
+        { "text": "Kannst du mir bitte den Kuli geben?", "zh": "你能把圆珠笔给我吗?" }
+      ] },
+    { "id": "de.g.u12_reaktion", "titleZh": "回应请求:答应和拒绝",
+      "bodyZh": "答应:Ja, gern. / Natürlich! / Hier, bitte.(把东西递过去时说)。拒绝要客气:先说 leider,再用 denn 说理由:Nein, das geht leider nicht, denn ich schreibe gerade.。Das geht(行、可以)里的 gehen 不是“走”;问对方行不行可以说 Geht das?。gerade 表示“正在”:Ich schreibe gerade.——德语没有专门的进行时,用现在时 + gerade。",
+      "examples": [
+        { "text": "Nein, das geht leider nicht.", "zh": "不行,真不好意思。" },
+        { "text": "Ja, gern. Ich mache die Tür zu.", "zh": "好的,我来关门。" }
+      ] }
+  ],
+  "review": "draft"
+}

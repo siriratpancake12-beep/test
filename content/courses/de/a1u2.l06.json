@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u2.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 我的家人和朋友", "order": 102060,
+  "titleZh": "Lena, das ist Sofia:介绍朋友互相认识", "goalZh": "会给两个朋友互相介绍,用 er / sie 说第三个人的情况,问问对方的家人", "canDoZh": "能给两个朋友互相介绍,并问问对方家里的情况",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.freut_mich", "kind": "phrase", "pos": "phrase", "text": "Freut mich!", "zh": "很高兴认识你 / 您!", "features": { "ipa": "ˈfʁɔʏ̯t mɪç" }, "noteZh": "第一次见面时说,对 du 和 Sie 都能用;对方回答 Freut mich auch!。eu 读 [ɔʏ̯](像“奥伊”)。" },
+    { "id": "de.ach_so", "kind": "phrase", "pos": "phrase", "text": "Ach so!", "zh": "哦,原来是这样!", "features": { "ipa": "ax ˈzoː" }, "noteZh": "听到新情况、明白过来的时候说;a 后面的 ch 读 [x],so 的 s 读浊音 [z]。" },
+    { "id": "de.foto", "kind": "word", "pos": "noun", "text": "das Foto", "zh": "照片", "features": { "gender": "n", "plural": "die Fotos", "ipa": "ˈfoːto" }, "noteZh": "手机里的照片也叫 Foto;复数加 -s:die Fotos;重音在前。" },
+    { "id": "de.jung", "kind": "word", "pos": "adj", "text": "jung", "zh": "年轻", "features": { "ipa": "jʊŋ" }, "noteZh": "反义词是 alt;j 读 [j](像“耶”的开头),不读英语 j 的音。" },
+    { "id": "de.krankenhaus", "kind": "word", "pos": "noun", "text": "das Krankenhaus", "zh": "医院", "features": { "gender": "n", "plural": "die Krankenhäuser", "ipa": "ˈkʁaŋkn̩ˌhaʊ̯s" }, "noteZh": "Kranken(病人)+ Haus(楼房),性跟着 das Haus;“在医院”是 im Krankenhaus(im = in dem)。复数 au 变 äu。" },
+    { "id": "de.schnell", "kind": "word", "pos": "adj", "text": "schnell", "zh": "快", "features": { "ipa": "ʃnɛl" }, "noteZh": "反义词是 langsam;对方说得太快可以说 Langsam, bitte!。schn 读 [ʃn]。" }
+  ],
+  "reviewItems": ["de.familie", "de.studieren", "de.schueler", "de.eltern", "de.langsam", "de.fragen"],
+  "lines": [
+    { "speaker": "wei", "text": "Lena, das ist Sofia. Sie kommt aus Italien.", "zh": "莉娜,这是索菲娅。她是意大利人。", "items": ["de.das_ist", "de.sie_sg", "de.ich_komme_aus", "de.italien"] },
+    { "speaker": "wei", "text": "Sofia, das ist Lena. Sie wohnt in Kreuzberg und studiert Englisch.", "zh": "索菲娅,这是莉娜。她住在克罗伊茨贝格,大学学的是英语。", "items": ["de.das_ist", "de.sie_sg", "de.wohnen", "de.in", "de.und", "de.studieren", "de.englisch"] },
+    { "speaker": "sofia", "text": "Hallo, Lena! Freut mich!", "zh": "你好,莉娜!很高兴认识你!", "items": ["de.hallo", "de.freut_mich"] },
+    { "speaker": "lena", "text": "Freut mich auch! Wohnt deine Familie in Berlin?", "zh": "我也很高兴认识你!你家住在柏林吗?", "items": ["de.freut_mich", "de.auch", "de.wohnen", "de.dein", "de.familie", "de.in"] },
+    { "speaker": "sofia", "text": "Nein, in Italien. Mein Bruder Marco ist siebzehn und Schüler.", "zh": "不,在意大利。我弟弟马可十七岁,还在上中学。", "items": ["de.nein", "de.in", "de.italien", "de.mein", "de.bruder", "de.sein", "de.siebzehn", "de.und", "de.schueler"] },
+    { "speaker": "lena", "text": "Ach so! Mein Bruder Paul ist auch Schüler. Er ist sechzehn.", "zh": "是吗!我弟弟保罗也是中学生,他十六岁。", "items": ["de.ach_so", "de.mein", "de.bruder", "de.sein", "de.auch", "de.schueler", "de.er", "de.sechzehn"] },
+    { "speaker": "wei", "text": "Paul fragt und fragt!", "zh": "保罗问题可多了!", "items": ["de.fragen", "de.und"] },
+    { "speaker": "lena", "text": "Genau! Ich habe ein Foto. Das sind meine Eltern und Paul.", "zh": "没错!我有张照片。这是我爸妈和保罗。", "items": ["de.genau", "de.ich", "de.haben", "de.eins", "de.foto", "de.das_ist", "de.sein", "de.mein", "de.eltern", "de.und"] },
+    { "speaker": "sofia", "text": "Deine Eltern sind jung! Was machen sie?", "zh": "你爸妈好年轻!他们是做什么的?", "items": ["de.dein", "de.eltern", "de.sein", "de.jung", "de.was", "de.machen", "de.sie_pl"] },
+    { "speaker": "lena", "text": "Mein Vater ist Lehrer, und meine Mutter ist Ärztin im Krankenhaus.", "zh": "我爸爸是老师,我妈妈是医院的医生。", "items": ["de.mein", "de.vater", "de.sein", "de.lehrer", "de.und", "de.mutter", "de.aerztin", "de.in", "de.krankenhaus"] },
+    { "speaker": "wei", "text": "Lena, du sprichst schnell! Langsam, bitte!", "zh": "莉娜,你说得太快了!请慢一点!", "items": ["de.du", "de.sprechen", "de.schnell", "de.langsam", "de.bitte"] },
+    { "speaker": "lena", "text": "Mein Vater ist Lehrer. Meine Mutter arbeitet im Krankenhaus.", "zh": "我爸爸是老师。我妈妈在医院工作。", "items": ["de.mein", "de.vater", "de.sein", "de.lehrer", "de.mutter", "de.arbeiten", "de.in", "de.krankenhaus"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅的弟弟马可多大?", "options": ["十六岁", "十七岁", "二十岁"], "answer": 1, "explainZh": "索菲娅说:Mein Bruder Marco ist siebzehn und Schüler.(我弟弟马可十七岁,还在上中学。)十六岁的是莉娜的弟弟保罗。" },
+    { "prompt": "莉娜的妈妈在哪儿工作?", "options": ["在学校", "在咖啡馆", "在医院"], "answer": 2, "explainZh": "莉娜第二次慢慢地说:Meine Mutter arbeitet im Krankenhaus.(我妈妈在医院工作。)当老师的是她爸爸。" },
+    { "prompt": "王伟为什么说 Langsam, bitte!?", "options": ["莉娜说得太快了", "他没听见索菲娅的话", "莉娜说的是英语"], "answer": 0, "explainZh": "王伟说:Lena, du sprichst schnell!(莉娜,你说得太快了!)所以请她 Langsam, bitte!,莉娜就把句子拆短又说了一遍。" }
+  ],
+  "grammar": [
+    { "id": "de.g.vorstellen_er_sie", "titleZh": "介绍别人:Das ist … + er / sie 的动词形式",
+      "bodyZh": "给朋友互相介绍,先说 Das ist + 名字,再用 er(他)/ sie(她)说这个人的情况,动词用加 -t 的形式:Das ist Lena. Sie wohnt in Kreuzberg und studiert Englisch.;Er ist sechzehn.。词干以 t 结尾的动词加 -et:Meine Mutter arbeitet im Krankenhaus.。介绍两个人的顺序一般是:先对 A 介绍 B,再对 B 介绍 A。两个人互相说 Freut mich!,回答 Freut mich auch!,对 du 和 Sie 都能用。中文说“这是莉娜,她……”,德语也一样先说名字、再用代词,不要每句都重复名字。",
+      "examples": [ { "text": "Lena, das ist Sofia. Sie kommt aus Italien.", "zh": "莉娜,这是索菲娅。她是意大利人。" }, { "text": "Mein Bruder Paul ist Schüler. Er ist sechzehn.", "zh": "我弟弟保罗是中学生,他十六岁。" }, { "text": "Meine Mutter arbeitet im Krankenhaus.", "zh": "我妈妈在医院工作。" } ] },
+    { "id": "de.g.ach_so_poss", "titleZh": "Ach so! 和物主冠词复习",
+      "bodyZh": "听到新情况、明白过来的时候说 Ach so!(哦,原来是这样!),聊天时用得很多。说家人离不开物主冠词:mein Bruder / meine Mutter / meine Eltern;问对方用 dein:Wohnt deine Familie in Berlin? / Deine Eltern sind jung!。物主冠词跟着后面名词的性和数变:阳性、中性不加 -e,阴性和复数加 -e。说职业不加冠词:Mein Vater ist Lehrer.,“在医院”是 im Krankenhaus(im = in dem)。",
+      "examples": [ { "text": "Wohnt deine Familie in Berlin?", "zh": "你家住在柏林吗?" }, { "text": "Ach so! Mein Bruder ist auch Schüler.", "zh": "是吗!我弟弟也是中学生。" } ] }
+  ],
+  "review": "draft"
+}

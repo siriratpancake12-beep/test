@@ -1,0 +1,38 @@
+{
+  "id": "de.a1u1.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-1 你好,我是……", "order": 101085,
+  "titleZh": "我的新朋友", "goalZh": "读懂并会写一段介绍朋友的短文,认识第三人称单数的动词词尾 -t", "canDoZh": "能读懂、也能写一段介绍朋友的短文:名字、国家、城市、会说的语言",
+  "skills": ["read", "write"], "estimatedMinutes": 15.5,
+  "newItems": [],
+  "reviewItems": ["de.sprechen", "de.auch", "de.studentin", "de.deutschland", "de.wie_sagt_man", "de.fragen"],
+  "lines": [
+    { "speaker": "wei", "text": "Ich heiße Wei Wang und komme aus Chengdu in China.", "zh": "我叫王伟,来自中国成都。", "items": ["de.ich_heisse", "de.ich", "de.und", "de.ich_komme_aus", "de.in", "de.china"] },
+    { "speaker": "wei", "text": "Ich wohne in Berlin, in Neukölln.", "zh": "我住在柏林的新克尔恩区。", "items": ["de.ich", "de.wohnen", "de.in"] },
+    { "speaker": "wei", "text": "Lena kommt aus Berlin und wohnt in Kreuzberg.", "zh": "莉娜是柏林人,住在克罗伊茨贝格区。", "items": ["de.ich_komme_aus", "de.und", "de.wohnen", "de.in"] },
+    { "speaker": "wei", "text": "Lena ist Studentin.", "zh": "莉娜是大学生。", "items": ["de.sein", "de.studentin"] },
+    { "speaker": "wei", "text": "Lena spricht Deutsch, Englisch und ein bisschen Chinesisch.", "zh": "莉娜会说德语、英语和一点中文。", "items": ["de.sprechen", "de.deutsch", "de.englisch", "de.und", "de.ein_bisschen", "de.chinesisch"] },
+    { "speaker": "wei", "text": "Sofia kommt aus Italien und wohnt auch in Neukölln.", "zh": "索菲娅来自意大利,也住在新克尔恩。", "items": ["de.ich_komme_aus", "de.italien", "de.und", "de.wohnen", "de.auch", "de.in"] },
+    { "speaker": "wei", "text": "Sofia ist auch Studentin.", "zh": "索菲娅也是大学生。", "items": ["de.sein", "de.auch", "de.studentin"] },
+    { "speaker": "wei", "text": "Sofia spricht Italienisch, Englisch und Deutsch.", "zh": "索菲娅会说意大利语、英语和德语。", "items": ["de.sprechen", "de.italienisch", "de.englisch", "de.und", "de.deutsch"] },
+    { "speaker": "wei", "text": "Frau Wagner kommt aus Köln in Deutschland.", "zh": "瓦格纳老师来自德国科隆。", "items": ["de.frau", "de.ich_komme_aus", "de.in", "de.deutschland"] },
+    { "speaker": "wei", "text": "Frau Wagner spricht Deutsch und Englisch.", "zh": "瓦格纳老师会说德语和英语。", "items": ["de.frau", "de.sprechen", "de.deutsch", "de.und", "de.englisch"] },
+    { "speaker": "wei", "text": "Frau Wagner spricht langsam. Das ist gut!", "zh": "瓦格纳老师说话很慢。这样很好!", "items": ["de.frau", "de.sprechen", "de.langsam", "de.das_ist", "de.gut"] },
+    { "speaker": "wei", "text": "Ich spreche Chinesisch, Englisch und ein bisschen Deutsch.", "zh": "我会说中文、英语和一点德语。", "items": ["de.ich", "de.sprechen", "de.chinesisch", "de.englisch", "de.und", "de.ein_bisschen", "de.deutsch"] },
+    { "speaker": "wei", "text": "Wie sagt man das auf Deutsch? Ich frage Lena, und Lena antwortet.", "zh": "这个用德语怎么说?我就问莉娜,莉娜会回答我。", "items": ["de.wie_sagt_man", "de.das_ist", "de.auf_deutsch", "de.ich", "de.fragen", "de.und", "de.antworten"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜会说哪些语言?", "options": ["德语和意大利语", "德语、英语和一点中文", "只会说德语"], "answer": 1, "explainZh": "作文里写:Lena spricht Deutsch, Englisch und ein bisschen Chinesisch.。" },
+    { "prompt": "索菲娅住在哪里?", "options": ["新克尔恩", "克罗伊茨贝格", "科隆"], "answer": 0, "explainZh": "Sofia kommt aus Italien und wohnt auch in Neukölln.——auch 说明她和王伟一样住在新克尔恩;科隆是瓦格纳老师的家乡。" },
+    { "prompt": "王伟觉得瓦格纳老师哪一点好?", "options": ["她来自科隆", "她会说英语", "她说话慢"], "answer": 2, "explainZh": "Frau Wagner spricht langsam. Das ist gut!(瓦格纳老师说话很慢。这样很好!)" },
+    { "prompt": "王伟不知道一个词用德语怎么说的时候,怎么办?", "options": ["查词典", "问莉娜", "问瓦格纳老师"], "answer": 1, "explainZh": "最后一句:Wie sagt man das auf Deutsch? Ich frage Lena, und Lena antwortet.(我就问莉娜,莉娜会回答我。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.name_verb_t", "titleZh": "说别人:动词加 -t",
+      "bodyZh": "说自己用 ich + 动词 -e(ich wohne, ich komme);说别人时,名字后面的动词加 -t:Lena wohnt in Kreuzberg. / Sofia kommt aus Italien.。词干以 t 结尾的动词加 -et:Lena antwortet.。sprechen 不规则,e 变成 i:ich spreche → Lena spricht。sein 要单独记:ich bin → Lena ist。中文“我住、她住”动词不变,德语换一个人动词就要变,写作文时最容易漏掉这个 -t。“他 / 她”(er / sie)下个单元才学,现在先用名字。",
+      "examples": [ { "text": "Ich wohne in Neukölln. Lena wohnt in Kreuzberg.", "zh": "我住在新克尔恩。莉娜住在克罗伊茨贝格。" }, { "text": "Ich spreche Chinesisch. Sofia spricht Italienisch.", "zh": "我会说中文。索菲娅会说意大利语。" }, { "text": "Ich bin Student. Lena ist Studentin.", "zh": "我是大学生。莉娜是大学生。" } ] },
+    { "id": "de.g.auch_sprachen", "titleZh": "auch 放在哪儿?语言名不加冠词",
+      "bodyZh": "auch(也)一般放在动词后面、要说“也”的那部分前面:Sofia wohnt auch in Neukölln.(索菲娅也住在新克尔恩。)/ Sofia ist auch Studentin.。不要照中文把“也”放在动词前面:✗ Sofia auch wohnt in Neukölln——德语的变位动词要在第二位。语言名首字母大写,不加冠词:Lena spricht Deutsch und Englisch.;“一点德语”是 ein bisschen Deutsch。",
+      "examples": [ { "text": "Sofia wohnt auch in Neukölln.", "zh": "索菲娅也住在新克尔恩。" }, { "text": "Lena spricht ein bisschen Chinesisch.", "zh": "莉娜会说一点中文。" } ] }
+  ],
+  "review": "draft"
+}

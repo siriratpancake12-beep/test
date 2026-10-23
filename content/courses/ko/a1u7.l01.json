@@ -1,0 +1,44 @@
+{
+  "id": "ko.a1u7.l01", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107010,
+  "titleZh": "苹果多少钱?", "goalZh": "会问价钱、听懂用汉字数词说的价格,会算总价、讲价",
+  "canDoZh": "能在传统市场问价、听懂“一个一千韩元”,问一共多少钱并试着讲价",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ko.eolmayeyo", "kind": "phrase", "pos": "phrase", "text": "얼마예요", "zh": "多少钱?", "features": { "roman": "eolmayeyo" }, "noteZh": "얼마(多少钱)+ 예요;이거 얼마예요?= 这个多少钱?;问一共多少钱说 다 얼마예요?" },
+    { "id": "ko.won", "kind": "word", "pos": "noun", "text": "원", "zh": "韩元(货币单位)", "features": { "roman": "won" }, "noteZh": "前面用汉字数词:천 원、오천 원;韩元面额大,一杯咖啡常要四五千韩元。" },
+    { "id": "ko.man", "kind": "word", "pos": "num", "text": "만", "zh": "万", "features": { "roman": "man" }, "noteZh": "汉字词 万;韩语和汉语一样四位一进。一万一般说 만,不说 일만:만 원、이만 오천 원(25,000)。" },
+    { "id": "ko.bissayo", "kind": "word", "pos": "adj", "text": "비싸요", "zh": "贵", "features": { "roman": "bissayo" }, "noteZh": "原形 비싸다;싸 是紧音 ㅆ;너무 비싸요!= 太贵了!" },
+    { "id": "ko.ssayo", "kind": "word", "pos": "adj", "text": "싸요", "zh": "便宜", "features": { "roman": "ssayo" }, "noteZh": "原形 싸다;紧音 ㅆ 喉咙绷紧、不送气:싸요(便宜)和 사요(买,本单元第 4 课)只差松紧音。" },
+    { "id": "ko.kkakka_juseyo", "kind": "phrase", "pos": "phrase", "text": "깎아 주세요", "zh": "便宜一点吧", "features": { "roman": "kkakka juseyo" }, "noteZh": "깎다(削)+ -아 주세요,字面“请削一点”;收音 ㄲ 移到下一个字,读 [까까 주세요]。传统市场可以讲价,超市、商场一般不讲价。" },
+    { "id": "ko.sijang", "kind": "word", "pos": "noun", "text": "시장", "zh": "市场", "features": { "roman": "sijang" }, "noteZh": "汉字词 市场;传统市场的东西常常比超市便宜,还能讲价。" },
+    { "id": "ko.gwail", "kind": "word", "pos": "noun", "text": "과일", "zh": "水果", "features": { "roman": "gwail" }, "noteZh": "과 和汉字“果”读音一样,好记;韩国水果偏贵,常按个或按盒卖。" },
+    { "id": "ko.da", "kind": "word", "pos": "adv", "text": "다", "zh": "都;全部", "features": { "roman": "da" }, "noteZh": "다 얼마예요?= 一共多少钱?;放在动词、形容词前:다 맛있어요(都好吃)。" }
+  ],
+  "reviewItems": ["ko.sagwa", "ko.cheon", "ko.gae", "ko.jogeum"],
+  "lines": [
+    { "speaker": "vendor", "text": "학생, 사과 싸요! 진짜 맛있어요!", "zh": "(星期六上午,陈静和秀雅逛传统市场,水果摊的阿姨吆喝)同学,苹果便宜啦!可好吃了!", "roman": "haksaeng, sagwa ssayo! jinjja masisseoyo!", "items": ["ko.haksaeng", "ko.sagwa", "ko.ssayo", "ko.jinjja", "ko.masisseoyo"] },
+    { "speaker": "jing", "text": "사과 얼마예요?", "zh": "苹果多少钱?", "roman": "sagwa eolmayeyo?", "items": ["ko.sagwa", "ko.eolmayeyo"] },
+    { "speaker": "vendor", "text": "한 개에 천 원이에요.", "zh": "一个一千韩元。", "roman": "han gaee cheon wonieyo.", "items": ["ko.hana", "ko.gae", "ko.cheon", "ko.won"] },
+    { "speaker": "sua", "text": "징 씨, 시장 과일은 싸요. 편의점은 비싸요.", "zh": "陈静,市场的水果便宜,便利店的贵。", "roman": "jing ssi, sijang gwaireun ssayo. pyeonuijeomeun bissayo.", "items": ["ko.ssi", "ko.sijang", "ko.gwail", "ko.ssayo", "ko.pyeonuijeom", "ko.bissayo"] },
+    { "speaker": "jing", "text": "그럼 다섯 개 주세요. 다 얼마예요?", "zh": "那给我五个。一共多少钱?", "roman": "geureom daseot gae juseyo. da eolmayeyo?", "items": ["ko.geureom", "ko.daseot", "ko.gae", "ko.juseyo", "ko.da", "ko.eolmayeyo"] },
+    { "speaker": "vendor", "text": "오천 원이에요.", "zh": "五千韩元。", "roman": "ocheon wonieyo.", "items": ["ko.o", "ko.cheon", "ko.won"] },
+    { "speaker": "jing", "text": "사장님, 조금 깎아 주세요!", "zh": "老板,便宜一点吧!", "roman": "sajangnim, jogeum kkakka juseyo!", "items": ["ko.sajangnim", "ko.jogeum", "ko.kkakka_juseyo"] },
+    { "speaker": "vendor", "text": "그럼 사천오백 원!", "zh": "(阿姨笑了)那就四千五!", "roman": "geureom sacheonobaek won!", "items": ["ko.geureom", "ko.sa", "ko.cheon", "ko.o", "ko.baek", "ko.won"] },
+    { "speaker": "jing", "text": "감사합니다! 그리고 저거는 얼마예요?", "zh": "谢谢!还有,那个多少钱?(她指着一盒草莓)", "roman": "gamsahamnida! geurigo jeogeoneun eolmayeyo?", "items": ["ko.gamsahamnida", "ko.geurigo", "ko.jeogeo", "ko.eolmayeyo"] },
+    { "speaker": "vendor", "text": "이거요? 만 원이에요.", "zh": "这个?一万韩元。", "roman": "igeoyo? man wonieyo.", "items": ["ko.igeo", "ko.man", "ko.won"] },
+    { "speaker": "jing", "text": "만 원이요? 너무 비싸요!", "zh": "一万?太贵了!", "roman": "man woniyo? neomu bissayo!", "items": ["ko.man", "ko.won", "ko.neomu", "ko.bissayo"] },
+    { "speaker": "sua", "text": "괜찮아요. 사과도 진짜 맛있어요!", "zh": "没事,苹果也特别好吃!", "roman": "gwaenchanayo. sagwado jinjja masisseoyo!", "items": ["ko.gwaenchanayo", "ko.sagwa", "ko.jinjja", "ko.masisseoyo"] }
+  ],
+  "questions": [
+    { "prompt": "苹果一个多少钱?", "options": ["五百韩元", "五千韩元", "一千韩元", "一万韩元"], "answer": 2, "explainZh": "第 3 句:한 개에 천 원이에요(一个一千韩元)。오천 원 是五个苹果的价钱,만 원 是那盒草莓的价钱。" },
+    { "prompt": "陈静讲价以后,五个苹果一共多少钱?", "options": ["4,500 韩元", "5,000 韩元", "10,000 韩元"], "answer": 0, "explainZh": "第 6 句阿姨先说 오천 원(5,000);陈静说 조금 깎아 주세요 以后,第 8 句阿姨说 사천오백 원(4,500)。" },
+    { "prompt": "秀雅说哪儿的水果贵?", "options": ["传统市场", "便利店", "咖啡店"], "answer": 1, "explainZh": "第 4 句:시장 과일은 싸요. 편의점은 비싸요.——市场的水果便宜,便利店的贵。은/는 在这里表示对比。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.price_won", "titleZh": "问价、说价格:汉字数词 + 원",
+      "bodyZh": "韩国的价钱用汉字数词(일、이、삼……)加 원(韩元)说:천 원(1,000)、오천 원(5,000)、만 원(10,000)。韩语和汉语一样“四位一进”:만 就是“万”,所以 25,000 说 이만 오천 원(两万五千),不要照英语想成“二十五个千”。百、千、万前面的“一”一般不说:백 원、천 원、만 원。书写时数字按“万”分开空格:이만 오천 원,一万以内连写:사천오백 원。说单价用 에:한 개에 천 원(一个一千)——数个数用固有数词(한 개),说钱用汉字数词(천 원),一句话里两套数字都有。问价:이거 얼마예요?(这个多少钱?)、다 얼마예요?(一共多少钱?)。在传统市场可以说 조금 깎아 주세요(便宜一点吧)。听的时候注意 싸요(便宜,紧音)和第 4 课的 사요(买,松音)只差一个松紧音。",
+      "examples": [ { "text": "한 개에 천 원이에요.", "zh": "一个一千韩元(单价用 에)" }, { "text": "만 원이에요.", "zh": "一万韩元(一般不说 일만 원)" }, { "text": "이만 오천 원이에요.", "zh": "两万五千韩元(25,000)" }, { "text": "다 얼마예요?", "zh": "一共多少钱?" } ] }
+  ],
+  "review": "draft"
+}

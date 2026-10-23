@@ -14,7 +14,7 @@
     { "id": "de.bis_spaeter", "kind": "phrase", "pos": "phrase", "text": "Bis später!", "zh": "回头见!/待会儿见!", "features": { "ipa": "bɪs ˈʃpɛːtɐ" }, "noteZh": "当天还要再见面时说;bis 是“到……为止”,第 7 单元再单独学。说“明天见”是 Bis morgen!" },
     { "id": "de.warten", "kind": "word", "pos": "verb", "text": "warten", "zh": "等;等候", "features": { "ipa": "ˈvaʁtn̩" }, "noteZh": "w 读 [v];词干以 t 结尾,du / er 前要加 e:du wartest, er wartet。Ich warte vor dem Kino.(我在电影院门口等。)" }
   ],
-  "reviewItems": ["de.kinokarte", "de.kino", "de.leider", "de.halb", "de.bezahlen"],
+  "reviewItems": ["de.kinokarte", "de.kino", "de.leider", "de.halb", "de.bezahlen", "de.problem"],
   "lines": [
     { "speaker": "lena", "text": "Hallo Wei, hier ist Lena. Am Mittag habe ich ein bisschen Zeit.", "zh": "(语音留言)嗨,王伟,我是莉娜。中午我有一会儿空。", "items": ["de.hallo", "de.hier", "de.sein", "de.am", "de.mittag", "de.haben", "de.ich", "de.ein_bisschen", "de.zeit"] },
     { "speaker": "lena", "text": "Heute arbeite ich am Vormittag und am Nachmittag.", "zh": "今天我上午和下午都要上班。", "items": ["de.heute", "de.arbeiten", "de.ich", "de.am", "de.vormittag", "de.und", "de.nachmittag"] },
@@ -22,7 +22,7 @@
     { "speaker": "lena", "text": "Den Film gibt es auch um sechs.", "zh": "那部电影六点也有一场。", "items": ["de.film", "de.es_gibt", "de.auch", "de.um", "de.sechs"] },
     { "speaker": "lena", "text": "Treffen wir uns um halb sechs vor dem Kino?", "zh": "我们五点半在电影院门口见,好吗?", "items": ["de.treffen", "de.wir", "de.um", "de.halb", "de.sechs", "de.vor", "de.kino"] },
     { "speaker": "lena", "text": "Die Kinokarten bringe ich mit. Bis später!", "zh": "电影票我带来。回头见!", "items": ["de.kinokarte", "de.mitbringen", "de.ich", "de.bis_spaeter"] },
-    { "speaker": "wei", "text": "Hallo Lena! Ja, wir treffen uns um halb sechs.", "zh": "(王伟听了两遍,回了一条语音)嗨,莉娜!好,我们五点半见。", "items": ["de.hallo", "de.ja", "de.wir", "de.treffen", "de.um", "de.halb", "de.sechs"] },
+    { "speaker": "wei", "text": "Hallo Lena! Kein Problem, wir treffen uns um halb sechs.", "zh": "(王伟听了两遍,回了一条语音)嗨,莉娜!没问题,我们五点半见。", "items": ["de.hallo", "de.kein", "de.problem", "de.wir", "de.treffen", "de.um", "de.halb", "de.sechs"] },
     { "speaker": "wei", "text": "Am Nachmittag lerne ich, und dann warte ich vor dem Kino.", "zh": "下午我学习,然后去电影院门口等你。", "items": ["de.am", "de.nachmittag", "de.lernen", "de.ich", "de.und", "de.dann", "de.warten", "de.vor", "de.kino"] },
     { "speaker": "wei", "text": "Danke, Lena! Bis später!", "zh": "谢谢你,莉娜!回头见!", "items": ["de.danke", "de.bis_spaeter"] },
     { "speaker": "wei", "text": "Lena, noch eine Nachricht: Ich bringe Sofia mit!", "zh": "(过了一会儿,王伟又发了一条)莉娜,再说一件事:我把索菲娅也带去!", "items": ["de.noch", "de.ein", "de.nachricht", "de.ich", "de.mitbringen"] },
@@ -31,7 +31,7 @@
   ],
   "questions": [
     { "prompt": "莉娜为什么下午四点来不了?", "options": ["她今天下午也要上班", "她要学习", "她没有电影票"], "answer": 0, "explainZh": "莉娜说:Heute arbeite ich am Vormittag und am Nachmittag.(今天我上午和下午都要上班。)所以 Um vier kann ich leider nicht." },
-    { "prompt": "他们最后约在几点、在哪儿见面?", "options": ["四点,在电影院门口", "六点,在书店门口", "五点半,在电影院门口", "五点半,在 WG"], "answer": 2, "explainZh": "莉娜问:Treffen wir uns um halb sechs vor dem Kino?——halb sechs 是五点半(六点前半小时);电影六点开始,王伟回答 Ja, wir treffen uns um halb sechs." },
+    { "prompt": "他们最后约在几点、在哪儿见面?", "options": ["四点,在电影院门口", "六点,在书店门口", "五点半,在电影院门口", "五点半,在 WG"], "answer": 2, "explainZh": "莉娜问:Treffen wir uns um halb sechs vor dem Kino?——halb sechs 是五点半(六点前半小时);电影六点开始,王伟回答 Kein Problem, wir treffen uns um halb sechs." },
     { "prompt": "王伟的第二条留言说了什么?", "options": ["他今天去不了电影院", "他要带索菲娅一起去,请莉娜再买一张票", "电影票由他来买"], "answer": 1, "explainZh": "Ich bringe Sofia mit! Kannst du noch eine Kinokarte kaufen?(我把索菲娅也带去!你能再买一张票吗?)" }
   ],
   "grammar": [

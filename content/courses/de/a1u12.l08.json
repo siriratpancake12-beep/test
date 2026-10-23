@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u12.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 考试周", "order": 112080,
+  "titleZh": "单元复习与应用:考完了!", "goalZh": "会用完成时和 war 讲考试考得怎么样:哪部分难、哪部分容易、自己做了什么,复习本单元的句型", "canDoZh": "能讲考试考得怎么样:哪部分容易、哪部分难、自己做了什么",
+  "skills": ["listen", "speak"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "de.endlich", "kind": "word", "pos": "adv", "text": "endlich", "zh": "终于", "features": { "ipa": "ˈɛntlɪç" }, "noteZh": "Endlich!(终于来了!/ 终于好了!)d 在 l 前读 [t],词尾 -lich 读 [lɪç];和 das Ende(结尾)是一家。" },
+    { "id": "de.leicht", "kind": "word", "pos": "adj", "text": "leicht", "zh": "容易;轻", "features": { "ipa": "laɪ̯çt" }, "noteZh": "反义词 schwer(难;重):Das Lesen war leicht, das Hören war schwer.;ei 读 [aɪ],ch 在 ei 后面读 [ç]。" },
+    { "id": "de.ergebnis", "kind": "word", "pos": "noun", "text": "das Ergebnis", "zh": "结果;成绩", "features": { "gender": "n", "plural": "die Ergebnisse", "ipa": "ɛɐ̯ˈɡeːpnɪs" }, "noteZh": "-nis 结尾的名词复数要双写 s:die Ergebnisse;重音在 ge 上,b 在 n 前读 [p];考试的成绩、比赛的比分都叫 Ergebnis。" },
+    { "id": "de.eis", "kind": "word", "pos": "noun", "text": "das Eis", "zh": "冰淇淋;冰", "features": { "gender": "n", "plural": "-", "ipa": "aɪ̯s" }, "noteZh": "中性:das Eis;“吃冰淇淋”用 essen:ein Eis essen;ei 读 [aɪ]。" }
+  ],
+  "reviewItems": ["de.durchsage", "de.nachricht", "de.nervoes", "de.ueben", "de.denn", "de.feiern"],
+  "lines": [
+    { "speaker": "lena", "text": "Da ist Wei! Endlich! Und, wie war die Prüfung?", "zh": "王伟来了!终于来了!怎么样,考得好吗?", "items": ["de.da", "de.sein", "de.endlich", "de.und", "de.wie", "de.pruefung"] },
+    { "speaker": "wei", "text": "Hallo! Ich bin sehr müde.", "zh": "你们好!我好累。", "items": ["de.hallo", "de.ich", "de.sein", "de.sehr", "de.muede"] },
+    { "speaker": "sofia", "text": "Erzähl! Wie war das Hören?", "zh": "快说说!听力怎么样?", "items": ["de.erzaehlen", "de.wie", "de.sein", "de.hoeren"] },
+    { "speaker": "wei", "text": "Das Hören war ein bisschen schwer.", "zh": "听力有点难。", "items": ["de.hoeren", "de.sein", "de.ein_bisschen", "de.schwer"] },
+    { "speaker": "wei", "text": "Eine Durchsage am Bahnhof habe ich nicht verstanden.", "zh": "有一段火车站的广播我没听懂。", "items": ["de.ein", "de.durchsage", "de.am", "de.bahnhof", "de.haben", "de.ich", "de.nicht", "de.verstehen"] },
+    { "speaker": "jonas", "text": "Die Durchsagen am Bahnhof verstehe ich auch nicht!", "zh": "火车站的广播我也听不懂!", "items": ["de.durchsage", "de.am", "de.bahnhof", "de.verstehen", "de.ich", "de.auch", "de.nicht"] },
+    { "speaker": "lena", "text": "Und das Lesen?", "zh": "那阅读呢?", "items": ["de.und", "de.lesen"] },
+    { "speaker": "wei", "text": "Das Lesen war leicht, und das Schreiben auch.", "zh": "阅读很容易,写作也不难。", "items": ["de.lesen", "de.sein", "de.leicht", "de.und", "de.schreiben", "de.auch"] },
+    { "speaker": "wei", "text": "Ich habe einer Freundin eine Nachricht geschrieben.", "zh": "我给一个朋友写了一条消息。", "items": ["de.ich", "de.haben", "de.ein", "de.freundin", "de.nachricht", "de.schreiben"] },
+    { "speaker": "sofia", "text": "Und das Sprechen? Warst du nervös?", "zh": "那口语呢?你紧张吗?", "items": ["de.und", "de.sprechen", "de.sein", "de.du", "de.nervoes"] },
+    { "speaker": "wei", "text": "Ja, sehr! Aber es war gut, denn ich habe viel geübt.", "zh": "紧张极了!不过考得不错,因为我练得多。", "items": ["de.ja", "de.sehr", "de.aber", "de.es", "de.sein", "de.gut", "de.denn", "de.ich", "de.haben", "de.viel", "de.ueben"] },
+    { "speaker": "lena", "text": "Toll! Dann feiern wir jetzt!", "zh": "太棒了!那我们现在就庆祝!", "items": ["de.toll", "de.dann", "de.feiern", "de.wir", "de.jetzt"] },
+    { "speaker": "jonas", "text": "Langsam! Das Ergebnis kommt in vier Wochen.", "zh": "别急!成绩四个星期以后才出来呢。", "items": ["de.langsam", "de.ergebnis", "de.ich_komme_aus", "de.in", "de.vier", "de.woche"] },
+    { "speaker": "sofia", "text": "Feiern können wir dann. Jetzt essen wir ein Eis!", "zh": "庆祝等那时候再说。现在我们去吃冰淇淋!", "items": ["de.feiern", "de.koennen", "de.wir", "de.dann", "de.jetzt", "de.essen", "de.ein", "de.eis"] },
+    { "speaker": "wei", "text": "Ja, gern! Ich habe Hunger.", "zh": "好啊!我饿了。", "items": ["de.ja", "de.gern", "de.ich", "de.haben", "de.hunger"] }
+  ],
+  "questions": [
+    { "prompt": "王伟觉得哪一部分有点难?", "options": ["阅读", "听力", "口语"], "answer": 1, "explainZh": "王伟说:Das Hören war ein bisschen schwer.(听力有点难。)他说阅读和写作都很容易(leicht)。" },
+    { "prompt": "写作部分王伟写了什么?", "options": ["一封给老师的邮件", "一张明信片", "一条给朋友的消息"], "answer": 2, "explainZh": "王伟说:Ich habe einer Freundin eine Nachricht geschrieben.(我给一个朋友写了一条消息。)" },
+    { "prompt": "约纳斯为什么说 Langsam!?", "options": ["成绩四个星期以后才出来,现在庆祝还太早", "他觉得王伟说得太快", "他还要去上班"], "answer": 0, "explainZh": "约纳斯说:Langsam! Das Ergebnis kommt in vier Wochen.(别急!成绩四个星期以后才出来。)他在开玩笑。" },
+    { "prompt": "最后大家去做什么?", "options": ["去看电影", "去吃冰淇淋", "回家睡觉"], "answer": 1, "explainZh": "索菲娅说:Jetzt essen wir ein Eis!(现在我们去吃冰淇淋!)王伟也说:Ja, gern! Ich habe Hunger." }
+  ],
+  "grammar": [
+    { "id": "de.g.u12_perfekt_war", "titleZh": "讲考试:现在完成时和 war(复习)",
+      "bodyZh": "说已经做完的事用现在完成时:haben 的变位放第二位,过去分词放句末:Ich habe eine Nachricht geschrieben. / Ich habe viel geübt.;否定时 nicht 放在分词前面:Ich habe die Durchsage nicht verstanden.。说“怎么样”用 sein 的过去式 war:Das Hören war schwer. / Das Lesen war leicht.;问别人:Warst du nervös?(du warst)。\n本课的过去分词:geschrieben(schreiben)、geübt(üben)、verstanden(verstehen,ver- 开头不加 ge-)。",
+      "examples": [
+        { "text": "Ich habe viel geübt.", "zh": "我练了很多。" },
+        { "text": "Das Lesen war leicht.", "zh": "阅读很容易。" },
+        { "text": "Warst du nervös?", "zh": "你紧张吗?" }
+      ] },
+    { "id": "de.g.u12_review", "titleZh": "第 12 单元小结:考试里用得上的句型",
+      "bodyZh": "① 说理由:…, denn ich habe viel geübt.(denn 后面语序不变)\n② nicht 的位置:Ich habe das nicht verstanden. / nicht am Freitag, sondern am Samstag\n③ 提请求:Können Sie bitte das Fenster aufmachen? / Kannst du mir bitte den Kuli geben?\n④ 看懂指令:Kreuzen Sie an! / Ergänzen Sie das Formular! / Schreiben Sie eine Nachricht!\n⑤ 自我介绍:Ich heiße … / Ich bin … Jahre alt. / Ich komme aus … / Ich wohne in …",
+      "examples": [
+        { "text": "Es war gut, denn ich habe viel geübt.", "zh": "考得不错,因为我练得多。" },
+        { "text": "Ich habe die Durchsage nicht verstanden.", "zh": "那段广播我没听懂。" },
+        { "text": "Können Sie bitte das Fenster aufmachen?", "zh": "您能把窗户打开吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

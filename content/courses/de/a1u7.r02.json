@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u7.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107085,
+  "titleZh": "考试报名确认邮件", "goalZh": "读懂正式的考试确认邮件,找出日期、时间、地点、要带的东西和费用", "canDoZh": "能读懂考试报名确认邮件,找出考试日期、时间、地点、要带的东西和费用",
+  "skills": ["read"], "estimatedMinutes": 16.5,
+  "newItems": [
+    { "id": "de.sehr_geehrte", "kind": "phrase", "pos": "phrase", "text": "Sehr geehrte …", "zh": "尊敬的……(正式信件的开头)", "alt": ["Sehr geehrter …"], "features": { "ipa": "zeːɐ̯ ɡəˈʔeːɐ̯tə" }, "noteZh": "给男士写 Sehr geehrter Herr Wang,给女士写 Sehr geehrte Frau Wagner,后面加逗号,正文第一个词小写;熟人之间用 Liebe … / Lieber …。" },
+    { "id": "de.mit_freundlichen_gruessen", "kind": "phrase", "pos": "phrase", "text": "Mit freundlichen Grüßen", "zh": "此致;敬上(正式信件的结尾)", "features": { "ipa": "mɪt ˈfʁɔɪ̯ntlɪçn̩ ˈɡʁyːsn̩" }, "noteZh": "和 Sehr geehrte … 配套用;熟人之间写 Viele Grüße。eu 读 [ɔʏ],ü 嘴唇撅圆。" },
+    { "id": "de.im_ersten_stock", "kind": "phrase", "pos": "phrase", "text": "im ersten Stock", "zh": "在二楼", "features": { "ipa": "ɪm ˈeːɐ̯stn̩ ʃtɔk" }, "noteZh": "德国的楼层从 das Erdgeschoss(地面这一层,中国说的一楼)开始数,der erste Stock 是中国的二楼!楼层的说法第 9 单元再系统学。" }
+  ],
+  "reviewItems": ["de.pruefung", "de.mai", "de.maerz", "de.mitbringen", "de.bezahlen", "de.anmeldung"],
+  "lines": [
+    { "speaker": "narrator", "text": "Sehr geehrter Herr Wang,", "zh": "尊敬的王先生:", "items": ["de.sehr_geehrte", "de.herr"] },
+    { "speaker": "narrator", "text": "vielen Dank für Ihre Anmeldung zur A1-Prüfung.", "zh": "感谢您报名参加 A1 考试。", "items": ["de.vielen_dank", "de.fuer", "de.ihr_hoeflich", "de.anmeldung", "de.zu", "de.pruefung"] },
+    { "speaker": "narrator", "text": "Ihre Prüfung ist am 17. Mai.", "zh": "您的考试在 5 月 17 日。", "items": ["de.ihr_hoeflich", "de.pruefung", "de.sein", "de.am", "de.siebzehn", "de.mai"] },
+    { "speaker": "narrator", "text": "Bitte kommen Sie um 8:30 Uhr.", "zh": "请您 8:30 到。", "items": ["de.bitte", "de.ich_komme_aus", "de.sie_hoeflich", "de.um", "de.acht", "de.dreissig", "de.uhr"] },
+    { "speaker": "narrator", "text": "Die Prüfung ist im ersten Stock, Zimmer 3.", "zh": "考场在二楼 3 号教室。", "items": ["de.pruefung", "de.sein", "de.im_ersten_stock", "de.zimmer", "de.drei"] },
+    { "speaker": "narrator", "text": "Am Vormittag schreiben Sie, am Nachmittag sprechen Sie.", "zh": "上午是笔试,下午是口试。", "items": ["de.am", "de.vormittag", "de.schreiben", "de.sie_hoeflich", "de.nachmittag", "de.sprechen"] },
+    { "speaker": "narrator", "text": "Bringen Sie bitte Ihren Pass mit.", "zh": "请带上您的护照。", "items": ["de.mitbringen", "de.sie_hoeflich", "de.bitte", "de.ihr_hoeflich", "de.pass"] },
+    { "speaker": "narrator", "text": "Die Prüfung kostet 150 Euro.", "zh": "考试费是 150 欧元。", "items": ["de.pruefung", "de.kosten", "de.hundert", "de.fuenfzig", "de.euro"] },
+    { "speaker": "narrator", "text": "Bitte bezahlen Sie bis zum 31. März.", "zh": "请在 3 月 31 日以前交费。", "items": ["de.bitte", "de.bezahlen", "de.sie_hoeflich", "de.bis", "de.zu", "de.eins", "de.und", "de.dreissig", "de.maerz"] },
+    { "speaker": "narrator", "text": "Rufen Sie uns gern an.", "zh": "有问题欢迎来电。", "items": ["de.anrufen", "de.sie_hoeflich", "de.wir", "de.gern"] },
+    { "speaker": "narrator", "text": "Mit freundlichen Grüßen, Monika Schulz", "zh": "此致敬礼!莫妮卡·舒尔茨(语言学校考试处)", "items": ["de.mit_freundlichen_gruessen"] },
+    { "speaker": "wei", "text": "17. Mai: Prüfung! 8:30 Uhr, im ersten Stock, Zimmer 3. Pass mitbringen!", "zh": "(王伟在日历上记下)5 月 17 日:考试!8:30,二楼 3 号教室。带护照!", "items": ["de.siebzehn", "de.mai", "de.pruefung", "de.acht", "de.dreissig", "de.uhr", "de.im_ersten_stock", "de.zimmer", "de.drei", "de.pass", "de.mitbringen"] },
+    { "speaker": "wei", "text": "Und bis zum 31. März bezahlen!", "zh": "还有,3 月 31 日以前交钱!", "items": ["de.und", "de.bis", "de.zu", "de.eins", "de.dreissig", "de.maerz", "de.bezahlen"] }
+  ],
+  "questions": [
+    { "prompt": "王伟哪天考试?几点要到?", "options": ["3 月 31 日,8:30", "5 月 17 日,8:30", "5 月 7 日,9:30"], "answer": 1, "explainZh": "Ihre Prüfung ist am 17. Mai. Bitte kommen Sie um 8:30 Uhr.(考试在 5 月 17 日,8:30 到。)3 月 31 日是交费的截止日期。" },
+    { "prompt": "考场在哪儿?", "options": ["二楼 3 号教室", "一楼 3 号教室", "三楼 1 号教室"], "answer": 0, "explainZh": "Die Prüfung ist im ersten Stock, Zimmer 3.——德国的 erster Stock 是中国说的二楼。" },
+    { "prompt": "考试那天要带什么?", "options": ["笔和本子", "银行卡", "护照"], "answer": 2, "explainZh": "Bringen Sie bitte Ihren Pass mit.(请带上您的护照。)" },
+    { "prompt": "考试费最晚什么时候交?", "options": ["5 月 17 日", "3 月 31 日以前", "考试当天"], "answer": 1, "explainZh": "Bitte bezahlen Sie bis zum 31. März.(请在 3 月 31 日以前交费。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u7_formelle_mail", "titleZh": "正式邮件:Sehr geehrter … / Mit freundlichen Grüßen 和 Sie 的命令式",
+      "bodyZh": "正式邮件(学校、公司、政府部门)这样开头:Sehr geehrter Herr Wang,(给男士)/ Sehr geehrte Frau Wagner,(给女士);不知道收信人是谁时写 Sehr geehrte Damen und Herren,。称呼后面加逗号,正文第一个词小写:vielen Dank für …\n结尾写 Mit freundlichen Grüßen,下一行写名字。熟人之间才用 Liebe … / Viele Grüße。\n通知里的要求常用 Sie 的命令式,动词放第一位:Bringen Sie bitte Ihren Pass mit.(可分动词的 mit 放句末)/ Bitte bezahlen Sie bis zum 31. März.\n给自己记事时常用动词原形:Pass mitbringen!(带护照!)",
+      "examples": [
+        { "text": "Sehr geehrter Herr Wang,", "zh": "尊敬的王先生:" },
+        { "text": "Bringen Sie bitte Ihren Pass mit.", "zh": "请带上您的护照。" },
+        { "text": "Bitte bezahlen Sie bis zum 31. März.", "zh": "请在 3 月 31 日以前交费。" }
+      ] }
+  ],
+  "review": "draft"
+}

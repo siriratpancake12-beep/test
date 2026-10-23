@@ -1,0 +1,46 @@
+{
+  "id": "de.a1u12.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 考试周", "order": 112040,
+  "titleZh": "模拟口语:用卡片提问", "goalZh": "会根据卡片上的词提问(W-问句、是非问句),回答时说完整的句子、再多说一句", "canDoZh": "能根据卡片上的话题词提问和回答(考试口语第二部分)",
+  "skills": ["listen", "speak"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.thema", "kind": "word", "pos": "noun", "text": "das Thema", "zh": "话题;主题", "features": { "gender": "n", "plural": "die Themen", "ipa": "ˈteːma" }, "noteZh": "th 读 [t],h 不发音;中性:das Thema,复数 die Themen。口语考试第二部分每组抽一个 Thema,比如“周末”“吃喝”。" },
+    { "id": "de.freizeit", "kind": "word", "pos": "noun", "text": "die Freizeit", "zh": "业余时间;空闲时间", "features": { "gender": "f", "plural": "-", "ipa": "ˈfʁaɪ̯ˌtsaɪ̯t" }, "noteZh": "frei(空闲)+ die Zeit → die Freizeit;in meiner Freizeit(在我的业余时间);两个 ei 都读 [aɪ],z 读 [ts]。" },
+    { "id": "de.fernsehen", "kind": "word", "pos": "verb", "text": "fernsehen", "zh": "看电视", "features": { "ipa": "ˈfɛʁnˌzeːən" }, "noteZh": "可分动词,fern 放句末:Ich sehe am Abend fern.;sehen 不规则:du siehst fern, er sieht fern。名词 das Fernsehen(电视节目)、der Fernseher(电视机)。" },
+    { "id": "de.tanzen", "kind": "word", "pos": "verb", "text": "tanzen", "zh": "跳舞", "features": { "ipa": "ˈtantsn̩" }, "noteZh": "z 读 [ts];词干以 z 结尾,du 只加 -t:du tanzt;去跳舞:tanzen gehen(Ich gehe tanzen,和 schwimmen gehen 一样)。" },
+    { "id": "de.konzert", "kind": "word", "pos": "noun", "text": "das Konzert", "zh": "音乐会;演唱会", "features": { "gender": "n", "plural": "die Konzerte", "ipa": "kɔnˈtsɛʁt" }, "noteZh": "重音在后:kon-ZERT,z 读 [ts];去听音乐会:ins Konzert gehen(ins = in das)。" },
+    { "id": "de.allein", "kind": "word", "pos": "adv", "text": "allein", "zh": "一个人;单独", "features": { "ipa": "aˈlaɪ̯n" }, "noteZh": "重音在 lein 上;Ich wohne allein.(我一个人住。)相反:zusammen / mit Freunden。" },
+    { "id": "de.natuerlich", "kind": "word", "pos": "adv", "text": "natürlich", "zh": "当然", "features": { "ipa": "naˈtyːɐ̯lɪç" }, "noteZh": "答应请求、回答问题时说 Natürlich!(当然!);重音在 tür 上,ü 是长音,词尾 -lich 读 [lɪç]。" },
+    { "id": "de.lust", "kind": "word", "pos": "noun", "text": "die Lust", "zh": "兴致;想做某事的心情", "features": { "gender": "f", "plural": "-", "ipa": "lʊst" }, "noteZh": "约人时常问:Hast du Lust?(你想去吗?)Hast du Lust auf Kino?(想去看电影吗?)回答:Ja, gern! / Leider habe ich keine Zeit.;这个意思不用复数。" }
+  ],
+  "reviewItems": ["de.karte", "de.kino", "de.sport", "de.satz", "de.fussball", "de.fragen"],
+  "lines": [
+    { "speaker": "lena", "text": "Hier sind meine Karten. Das Thema ist „Wochenende“.", "zh": "这是我做的卡片。话题是“周末”。", "items": ["de.hier", "de.sein", "de.mein", "de.karte", "de.thema", "de.wochenende"] },
+    { "speaker": "wei", "text": "Ich nehme eine Karte: „Kino“. Gehst du am Wochenende gern ins Kino?", "zh": "我抽一张:“电影院”。你周末喜欢去看电影吗?", "items": ["de.ich", "de.nehmen", "de.ein", "de.karte", "de.kino", "de.gehen", "de.du", "de.am", "de.wochenende", "de.gern", "de.in"] },
+    { "speaker": "lena", "text": "Ja, sehr gern! Ich gehe oft am Sonntag ins Kino.", "zh": "很喜欢!我常常星期天去看电影。", "items": ["de.ja", "de.sehr", "de.gern", "de.ich", "de.gehen", "de.oft", "de.am", "de.sonntag", "de.in", "de.kino"] },
+    { "speaker": "lena", "text": "Jetzt frage ich. Meine Karte ist „Sport“: Machst du gern Sport?", "zh": "现在我来问。我的卡片是“运动”:你喜欢运动吗?", "items": ["de.jetzt", "de.fragen", "de.ich", "de.mein", "de.karte", "de.sein", "de.sport", "de.machen", "de.du", "de.gern"] },
+    { "speaker": "wei", "text": "Ja.", "zh": "喜欢。", "items": ["de.ja"] },
+    { "speaker": "lena", "text": "Nur „Ja“? In der Prüfung bitte noch einen Satz!", "zh": "就一个“Ja”?考试的时候请再多说一句!", "items": ["de.nur", "de.ja", "de.in", "de.pruefung", "de.bitte", "de.noch", "de.ein", "de.satz"] },
+    { "speaker": "wei", "text": "Ja, in meiner Freizeit spiele ich oft Fußball.", "zh": "喜欢,我业余时间常踢足球。", "items": ["de.ja", "de.in", "de.mein", "de.freizeit", "de.spielen", "de.ich", "de.oft", "de.fussball"] },
+    { "speaker": "wei", "text": "Meine Karte ist „Freunde“. Was machst du am Wochenende mit Freunden?", "zh": "我的卡片是“朋友”。你周末和朋友一起做什么?", "items": ["de.mein", "de.karte", "de.sein", "de.freund", "de.was", "de.machen", "de.du", "de.am", "de.wochenende", "de.mit"] },
+    { "speaker": "lena", "text": "Wir sehen nicht oft fern. Wir gehen tanzen oder ins Konzert.", "zh": "我们不常看电视,我们去跳舞或者听音乐会。", "items": ["de.wir", "de.fernsehen", "de.nicht", "de.oft", "de.gehen", "de.tanzen", "de.oder", "de.in", "de.konzert"] },
+    { "speaker": "wei", "text": "Gehst du auch allein ins Konzert?", "zh": "你也会一个人去听音乐会吗?", "items": ["de.gehen", "de.du", "de.auch", "de.allein", "de.in", "de.konzert"] },
+    { "speaker": "lena", "text": "Nein, allein nicht. Hast du am Samstagabend auch Lust?", "zh": "不,一个人不去。星期六晚上你也想一起去吗?", "items": ["de.nein", "de.allein", "de.nicht", "de.haben", "de.du", "de.am", "de.samstag", "de.abend", "de.auch", "de.lust"] },
+    { "speaker": "wei", "text": "Natürlich! Aber vor der Prüfung muss ich viel lernen.", "zh": "当然想!不过考试之前我得好好复习。", "items": ["de.natuerlich", "de.aber", "de.vor", "de.pruefung", "de.muessen", "de.ich", "de.viel", "de.lernen"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜一般什么时候去看电影?", "options": ["星期天", "星期六晚上", "星期五"], "answer": 0, "explainZh": "莉娜说:Ich gehe oft am Sonntag ins Kino.(我常常星期天去看电影。)星期六晚上她和朋友去跳舞或听音乐会。" },
+    { "prompt": "王伟只回答了 Ja,莉娜提醒他什么?", "options": ["要说得慢一点", "问题要用 Sie", "考试时要再多说一句"], "answer": 2, "explainZh": "莉娜说:Nur „Ja“? In der Prüfung bitte noch einen Satz!(就一个 Ja?考试时请再多说一句!)" },
+    { "prompt": "莉娜周末常和朋友做什么?", "options": ["在家看电视", "去跳舞或者听音乐会", "一起做饭"], "answer": 1, "explainZh": "莉娜说:Wir sehen nicht oft fern. Wir gehen tanzen oder ins Konzert.(我们不常看电视,我们去跳舞或者听音乐会。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u12_kartenfragen", "titleZh": "看卡片提问,回答要说完整的句子",
+      "bodyZh": "口语第二部分:每组一个话题(Thema,比如 Wochenende),每人抽一张写着词的卡片,用这个词问搭档一个问题,搭档回答,再交换。两种问句都可以:W-问句——疑问词在句首、动词在第二位:Was machst du am Wochenende mit Freunden?;是非问句——动词放句首:Gehst du gern ins Kino?\n卡片上的词不一定原样用:Sport → Machst du gern Sport?(Sport 用 machen,不说 Sport spielen);Fernsehen → Siehst du am Wochenende fern?(可分动词,fern 放句末)。\n回答别只说 Ja / Nein,再加一句:Ja, in meiner Freizeit spiele ich oft Fußball.。ins Kino / ins Konzert gehen(去看电影 / 去听音乐会)当固定说法记;tanzen gehen 和 schwimmen gehen 一样,第二个动词用原形、放在句末。",
+      "examples": [
+        { "text": "Gehst du am Wochenende gern ins Kino?", "zh": "你周末喜欢去看电影吗?" },
+        { "text": "Machst du gern Sport?", "zh": "你喜欢运动吗?" },
+        { "text": "Wir gehen tanzen oder ins Konzert.", "zh": "我们去跳舞或者听音乐会。" }
+      ] }
+  ],
+  "review": "draft"
+}

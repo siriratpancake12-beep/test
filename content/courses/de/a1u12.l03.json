@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u12.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-12 考试周", "order": 112030,
+  "titleZh": "我去不了,因为……:denn", "goalZh": "会用 denn 说理由,能写一条短消息拒绝邀请并说明原因", "canDoZh": "能用 denn 说明理由,写短消息时说清楚为什么不能来、为什么要改时间",
+  "skills": ["read", "write", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.denn", "kind": "word", "pos": "conj", "text": "denn", "zh": "因为(连接两个句子,说理由)", "features": { "ipa": "dɛn" }, "noteZh": "放在第二个句子开头,前面加逗号;denn 本身不占位置,后面照常是“主语 + 动词”:…, denn ich habe eine Prüfung.。问句里的 denn(Wo bist du denn?)是语气词,意思不一样。" },
+    { "id": "de.einladung", "kind": "word", "pos": "noun", "text": "die Einladung", "zh": "邀请;请柬", "features": { "gender": "f", "plural": "die Einladungen", "ipa": "ˈaɪ̯nˌlaːdʊŋ" }, "noteZh": "einladen(邀请)的名词;-ung 结尾的名词都是阴性;回复邀请常这样开头:Vielen Dank für die Einladung!" },
+    { "id": "de.grund", "kind": "word", "pos": "noun", "text": "der Grund", "zh": "原因;理由", "features": { "gender": "m", "plural": "die Gründe", "ipa": "ɡʁʊnt" }, "noteZh": "词尾 d 读 [t];复数变元音:die Gründe。拒绝邀请时要说明 Grund。" },
+    { "id": "de.satz", "kind": "word", "pos": "noun", "text": "der Satz", "zh": "句子", "features": { "gender": "m", "plural": "die Sätze", "ipa": "zats" }, "noteZh": "s 在元音前读 [z],tz 读 [ts];复数 die Sätze(a 变 ä)。" },
+    { "id": "de.arbeit", "kind": "word", "pos": "noun", "text": "die Arbeit", "zh": "工作;活儿", "features": { "gender": "f", "plural": "die Arbeiten", "ipa": "ˈaʁbaɪ̯t" }, "noteZh": "arbeiten(工作)的名词;Ich habe viel Arbeit.(我活儿很多。)不加冠词。" },
+    { "id": "de.besuch", "kind": "word", "pos": "noun", "text": "der Besuch", "zh": "拜访;来访的客人", "features": { "gender": "m", "plural": "die Besuche", "ipa": "bəˈzuːx" }, "noteZh": "besuchen(拜访)的名词;Ich habe Besuch.(我家里有客人。)这里不加冠词;重音在 such 上,ch 在 u 后面读 [x]。" },
+    { "id": "de.schade", "kind": "word", "pos": "adj", "text": "schade", "zh": "可惜", "features": { "ipa": "ˈʃaːdə" }, "noteZh": "Schade!(真可惜!)/ Das ist schade.(这太可惜了。)对比:leider 放在句子里(Ich kann leider nicht),schade 常单独说,或用在 Das ist … 里。" },
+    { "id": "de.bald", "kind": "word", "pos": "adv", "text": "bald", "zh": "很快;不久", "features": { "ipa": "balt" }, "noteZh": "词尾 d 读 [t];消息结尾常写 Bis bald!(回头见!)" }
+  ],
+  "reviewItems": ["de.leider", "de.party", "de.warum", "de.vielleicht", "de.naechste"],
+  "lines": [
+    { "speaker": "wagner", "text": "Ihre Freundin macht am Samstag eine Party. Sie können nicht kommen.", "zh": "(写作题)您的朋友星期六开派对,您去不了。", "items": ["de.ihr_hoeflich", "de.freundin", "de.machen", "de.am", "de.samstag", "de.ein", "de.party", "de.sie_hoeflich", "de.koennen", "de.nicht", "de.ich_komme_aus"] },
+    { "speaker": "wagner", "text": "Schreiben Sie: Warum können Sie nicht kommen? Was ist der Grund?", "zh": "请写出:您为什么去不了?原因是什么?", "items": ["de.schreiben", "de.sie_hoeflich", "de.warum", "de.koennen", "de.nicht", "de.ich_komme_aus", "de.was", "de.sein", "de.grund"] },
+    { "speaker": "sofia", "text": "Wir schreiben: Liebe Anna, vielen Dank für die Einladung!", "zh": "我们这样写:亲爱的安娜,非常感谢你的邀请!", "items": ["de.wir", "de.schreiben", "de.liebe", "de.vielen_dank", "de.fuer", "de.einladung"] },
+    { "speaker": "wei", "text": "Leider kann ich am Samstag nicht kommen, denn ich muss lernen.", "zh": "可惜星期六我去不了,因为我得复习。", "items": ["de.leider", "de.koennen", "de.ich", "de.am", "de.samstag", "de.nicht", "de.ich_komme_aus", "de.denn", "de.muessen", "de.lernen"] },
+    { "speaker": "wagner", "text": "Richtig! Und jetzt einen Satz mit „müssen“, bitte.", "zh": "对!现在请用 müssen 说一个句子。", "items": ["de.richtig", "de.und", "de.jetzt", "de.ein", "de.satz", "de.mit", "de.muessen", "de.bitte"] },
+    { "speaker": "sofia", "text": "Ich kann nicht kommen, denn ich muss am Samstag arbeiten.", "zh": "我去不了,因为星期六我得打工。", "items": ["de.ich", "de.koennen", "de.nicht", "de.ich_komme_aus", "de.denn", "de.muessen", "de.am", "de.samstag", "de.arbeiten"] },
+    { "speaker": "wei", "text": "Oder: Ich kann nicht kommen, denn ich habe Besuch.", "zh": "或者:我去不了,因为家里有客人。", "items": ["de.oder", "de.ich", "de.koennen", "de.nicht", "de.ich_komme_aus", "de.denn", "de.haben", "de.besuch"] },
+    { "speaker": "sofia", "text": "Und dann: Schade! Vielleicht nächste Woche? Bis bald!", "zh": "然后再写:真可惜!也许下个星期?回头见!", "items": ["de.und", "de.dann", "de.schade", "de.vielleicht", "de.naechste", "de.woche", "de.bis", "de.bald"] },
+    { "speaker": "wagner", "text": "Herr Wang, Sie sind heute müde. Warum?", "zh": "王先生,您今天很累。为什么?", "items": ["de.herr", "de.sie_hoeflich", "de.sein", "de.heute", "de.muede", "de.warum"] },
+    { "speaker": "wei", "text": "Ich bin müde, denn ich habe viel Arbeit für die Prüfung.", "zh": "我很累,因为为了考试有好多事要做。", "items": ["de.ich", "de.sein", "de.muede", "de.denn", "de.haben", "de.viel", "de.arbeit", "de.fuer", "de.pruefung"] }
+  ],
+  "questions": [
+    { "prompt": "这道写作题要大家写什么?", "options": ["答应朋友的邀请", "邀请朋友来参加派对", "告诉朋友自己去不了,并写出原因"], "answer": 2, "explainZh": "老师说:Sie können nicht kommen. Schreiben Sie: Warum können Sie nicht kommen? Was ist der Grund?(您去不了。请写出为什么、原因是什么。)" },
+    { "prompt": "王伟在消息里写的理由是什么?", "options": ["星期六要打工", "要复习", "家里有客人"], "answer": 1, "explainZh": "王伟写:Leider kann ich am Samstag nicht kommen, denn ich muss lernen.(因为我得复习。)要打工的是索菲娅;“家里有客人”是王伟想出的另一个例句。" },
+    { "prompt": "王伟今天为什么很累?", "options": ["为了考试有好多事要做", "他生病了", "他昨天去了派对"], "answer": 0, "explainZh": "王伟说:Ich bin müde, denn ich habe viel Arbeit für die Prüfung.(因为为了考试有好多事要做。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u12_denn", "titleZh": "denn:说理由,后面的语序不变",
+      "bodyZh": "denn(因为)把两个句子连起来,放在第二个句子开头,前面加逗号。denn 本身不占位置,和 und / aber / oder 一样,后面照常是“主语 + 变位动词 ……”:Ich kann nicht kommen, denn ich habe Besuch.;有情态动词时,原形照样放句末:…, denn ich muss lernen.\n中文可以先说原因(“因为……,所以……”),denn 却只能放在后一句:先说结果,再用 denn 说原因,不能用 denn 开头放在前面。\n回答 Warum? 时,最好把整句说完:Ich bin müde, denn ich habe viel Arbeit.;只用 Denn … 开头单独回答不规范。还有一个 weil 也表示“因为”,但 weil 后面动词要放到句末,A2 再学,现在先用 denn。",
+      "examples": [
+        { "text": "Ich kann nicht kommen, denn ich habe Besuch.", "zh": "我去不了,因为家里有客人。" },
+        { "text": "Ich komme nicht, denn ich muss arbeiten.", "zh": "我不来了,因为我得打工。" },
+        { "text": "Ich bin müde, denn ich habe viel Arbeit.", "zh": "我很累,因为活儿很多。" }
+      ] },
+    { "id": "de.g.u12_absage", "titleZh": "回复邀请:写一条短消息(写作第二部分)",
+      "bodyZh": "按这个顺序写:① 称呼:Liebe Anna, / Lieber Jonas,;② 感谢:Vielen Dank für die Einladung!;③ 不能来 + 理由:Leider kann ich am Samstag nicht kommen, denn …;④ 表示遗憾、提议别的时间:Schade! Vielleicht nächste Woche?;⑤ 结尾:Bis bald! / Viele Grüße + 名字。考试要求写 30 个词左右,题目里提到的每一点都要写到。Schade 和 leider 都表示遗憾:leider 放在句子里(Leider kann ich nicht kommen),schade 常单独说(Schade!)。",
+      "examples": [
+        { "text": "Vielen Dank für die Einladung!", "zh": "非常感谢你的邀请!" },
+        { "text": "Schade! Vielleicht nächste Woche?", "zh": "真可惜!也许下个星期?" },
+        { "text": "Bis bald! Viele Grüße, Wei", "zh": "回头见!祝好,伟" }
+      ] }
+  ],
+  "review": "draft"
+}

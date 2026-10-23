@@ -1,0 +1,49 @@
+{
+  "id": "de.a1u12.l02", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-12 考试周", "order": 112020,
+  "titleZh": "试卷上的指令和表格", "goalZh": "看懂试卷上的指令(读、画叉、写、填表),会按德国的格式填日期和个人信息", "canDoZh": "能看懂试卷上的常用指令,填好考试用的个人信息表",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "de.aufgabe", "kind": "word", "pos": "noun", "text": "die Aufgabe", "zh": "题;任务", "features": { "gender": "f", "plural": "die Aufgaben", "ipa": "ˈaʊ̯fˌɡaːbə" }, "noteZh": "试卷上的“第几题”常写 Aufgabe 1、Aufgabe 2;au 读 [aʊ],重音在 auf 上。家庭作业是 die Hausaufgabe(Haus + Aufgabe)。" },
+    { "id": "de.text", "kind": "word", "pos": "noun", "text": "der Text", "zh": "短文;课文;文字", "features": { "gender": "m", "plural": "die Texte", "ipa": "tɛkst" }, "noteZh": "阳性:der Text;x 读 [ks];试卷指令:Lesen Sie den Text!(请读短文!)" },
+    { "id": "de.ankreuzen", "kind": "word", "pos": "verb", "text": "ankreuzen", "zh": "画叉选出(答案)", "features": { "ipa": "ˈanˌkʁɔʏ̯tsn̩" }, "noteZh": "可分动词,重音在 an 上:Kreuzen Sie an!(请画叉选出答案!)Ich kreuze b an.;das Kreuz 是“叉、十字”。德国的试卷、表格上常用画叉(X)来选,中国学生习惯打勾,要注意。eu 读 [ɔʏ]。" },
+    { "id": "de.ergaenzen", "kind": "word", "pos": "verb", "text": "ergänzen", "zh": "补充;填完整", "features": { "ipa": "ɛɐ̯ˈɡɛntsn̩" }, "noteZh": "er- 是不可分前缀、不重读,重音在 gän 上:Ergänzen Sie das Formular!(把表格填完整!)ä 读 [ɛ],z 读 [ts]。" },
+    { "id": "de.datum", "kind": "word", "pos": "noun", "text": "das Datum", "zh": "日期", "features": { "gender": "n", "plural": "die Daten", "ipa": "ˈdaːtʊm" }, "noteZh": "中性:das Datum;德国的日期按“日.月.年”写:12.05. = 5 月 12 日。复数 die Daten 也有“数据、个人信息”的意思。" },
+    { "id": "de.geburtsdatum", "kind": "word", "pos": "noun", "text": "das Geburtsdatum", "zh": "出生日期", "features": { "gender": "n", "plural": "die Geburtsdaten", "ipa": "ɡəˈbuːɐ̯tsˌdaːtʊm" }, "noteZh": "die Geburt(出生)+ s + das Datum;复合词的性跟最后一个词走:das Geburtsdatum。表格上也常写 geboren am。" },
+    { "id": "de.geburtsort", "kind": "word", "pos": "noun", "text": "der Geburtsort", "zh": "出生地", "features": { "gender": "m", "plural": "die Geburtsorte", "ipa": "ɡəˈbuːɐ̯tsˌʔɔʁt" }, "noteZh": "die Geburt + s + der Ort(地方)→ der Geburtsort,性跟 Ort 走;填表:Geburtsort: Chengdu。" },
+    { "id": "de.unterschrift", "kind": "word", "pos": "noun", "text": "die Unterschrift", "zh": "签名", "features": { "gender": "f", "plural": "die Unterschriften", "ipa": "ˈʊntɐˌʃʁɪft" }, "noteZh": "unterschreiben(签字)的名词;名词重音在 un 上,动词 unterschreiben 的重音在 schrei 上。表格最后一栏常是 Datum, Unterschrift。" }
+  ],
+  "reviewItems": ["de.formular", "de.name", "de.vorname", "de.ueben", "de.richtig", "de.nachricht"],
+  "lines": [
+    { "speaker": "wagner", "text": "Das ist eine Prüfung zum Üben. Lesen Sie bitte die Aufgaben.", "zh": "这是一套模拟题。请先读一读题目。", "items": ["de.das_ist", "de.ein", "de.pruefung", "de.zu", "de.ueben", "de.lesen", "de.sie_hoeflich", "de.bitte", "de.aufgabe"] },
+    { "speaker": "wagner", "text": "Aufgabe eins: Lesen Sie den Text und kreuzen Sie an.", "zh": "第一题:请读短文,然后画叉选出答案。", "items": ["de.aufgabe", "de.eins", "de.lesen", "de.sie_hoeflich", "de.text", "de.und", "de.ankreuzen"] },
+    { "speaker": "wei", "text": "Entschuldigung, was heißt „ankreuzen“?", "zh": "对不起,“ankreuzen”是什么意思?", "items": ["de.entschuldigung", "de.was", "de.ich_heisse", "de.ankreuzen"] },
+    { "speaker": "sofia", "text": "Du machst ein X: Ist das richtig oder falsch?", "zh": "就是画一个 X:这句话对还是错?", "items": ["de.du", "de.machen", "de.ein", "de.sein", "de.richtig", "de.oder", "de.falsch"] },
+    { "speaker": "wagner", "text": "Aufgabe zwei: Schreiben Sie Ihrer Freundin eine Nachricht.", "zh": "第二题:请给您的朋友写一条消息。", "items": ["de.aufgabe", "de.zwei", "de.schreiben", "de.sie_hoeflich", "de.ihr_hoeflich", "de.freundin", "de.ein", "de.nachricht"] },
+    { "speaker": "wagner", "text": "Und Aufgabe drei: Ergänzen Sie das Formular.", "zh": "还有第三题:请把表格填完整。", "items": ["de.und", "de.aufgabe", "de.drei", "de.ergaenzen", "de.sie_hoeflich", "de.formular"] },
+    { "speaker": "wei", "text": "Name, Vorname, Geburtsdatum, Geburtsort: Das kenne ich!", "zh": "姓、名、出生日期、出生地:这些我认识!", "items": ["de.name", "de.vorname", "de.geburtsdatum", "de.geburtsort", "de.kennen", "de.ich"] },
+    { "speaker": "wei", "text": "Und das Datum? Kommt der Monat vor dem Tag?", "zh": "那日期呢?月份写在日子前面吗?", "items": ["de.und", "de.datum", "de.ich_komme_aus", "de.monat", "de.vor", "de.tag"] },
+    { "speaker": "sofia", "text": "Nein, der Tag kommt vor dem Monat: 12.05.", "zh": "不,日子在月份前面:12.05.(5 月 12 日)。", "items": ["de.nein", "de.tag", "de.ich_komme_aus", "de.vor", "de.monat", "de.zwoelf", "de.fuenf"] },
+    { "speaker": "wagner", "text": "Richtig! Und dann kommt Ihre Unterschrift.", "zh": "对!最后是您的签名。", "items": ["de.richtig", "de.und", "de.dann", "de.ich_komme_aus", "de.ihr_hoeflich", "de.unterschrift"] }
+  ],
+  "questions": [
+    { "prompt": "从索菲娅的解释看,“ankreuzen”是什么意思?", "options": ["画一个 X,选出答案", "在表格上签名", "把表格填完整"], "answer": 0, "explainZh": "索菲娅说:Du machst ein X: Ist das richtig oder falsch?(画一个 X:这句话对还是错?)把表格填完整是 ergänzen,签名是 Unterschrift。" },
+    { "prompt": "第二题要做什么?", "options": ["读一篇短文", "给朋友写一条消息", "填一张表"], "answer": 1, "explainZh": "老师说:Aufgabe zwei: Schreiben Sie Ihrer Freundin eine Nachricht.(第二题:给朋友写一条消息。)读短文是第一题,填表是第三题。" },
+    { "prompt": "德国的日期怎么写?", "options": ["月在前、日在后:05.12.", "先写年:年.月.日", "日在前、月在后:12.05."], "answer": 2, "explainZh": "索菲娅说:Der Tag kommt vor dem Monat: 12.05.(日子在月份前面。)写成 05.12. 就成了 12 月 5 日。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u12_anweisungen", "titleZh": "试卷上的指令:Sie 的命令式",
+      "bodyZh": "试卷上的要求都用 Sie 的命令式:动词放句首,后面紧跟 Sie,句末用句号或感叹号:Lesen Sie den Text! / Schreiben Sie eine Nachricht! / Ergänzen Sie das Formular!。它和问句 Lesen Sie den Text?(您读这篇短文吗?)词序一样,靠语调和标点区分。\n可分动词的前缀照样放到最后:ankreuzen → Kreuzen Sie an!(画叉选出答案)。ergänzen 的 er- 是不可分前缀:Ergänzen Sie …!,不能拆。\n看不懂指令就问:Was heißt „ankreuzen“?(这里的 heißen 是“意思是”)。",
+      "examples": [
+        { "text": "Kreuzen Sie an: richtig oder falsch?", "zh": "请画叉:对还是错?" },
+        { "text": "Ergänzen Sie bitte das Formular.", "zh": "请把表格填完整。" }
+      ] },
+    { "id": "de.g.u12_datum", "titleZh": "日期:日.月.年;表格上的栏目",
+      "bodyZh": "德国的日期按“日.月.年”的顺序写,数字后面加点:12.05. = 5 月 12 日,17.05. = 5 月 17 日。中文是月在前,别写成 05.12.(那是 12 月 5 日)。读的时候用序数词:der zwölfte Mai,口语里也说 der zwölfte Fünfte;“在某一天”用 am:am siebzehnten Mai(见 u7.l05)。\n表格上常见的栏目:Name(姓)、Vorname(名)、Geburtsdatum(出生日期)、Geburtsort(出生地)、Adresse(地址)、Datum(填表日期)、Unterschrift(签名)。中文名字分开写:Name: Wang, Vorname: Wei。",
+      "examples": [
+        { "text": "Heute ist der 12. Mai.", "zh": "今天是 5 月 12 日。" },
+        { "text": "Die Prüfung ist am 17. Mai.", "zh": "考试在 5 月 17 日。" }
+      ] }
+  ],
+  "review": "draft"
+}

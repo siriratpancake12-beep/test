@@ -1,0 +1,198 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-9 大学与课程", "cefr": "A1", "themeZh": "四月中,夏季学期开学:专业和学期、看懂课表、讲座和讨论课、图书馆规定、去老师的答疑时间、选课和注册费,给教授写邮件。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u9.l01", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109010,
+      "titleZh": "你学什么专业?",
+      "goalZh": "会问和说专业、第几学期,用 sondern 纠正别人的猜测,说自己来柏林多久了",
+      "canDoZh": "能问别人学什么专业、第几学期,说出自己的专业和这学期的课",
+      "scenarioZh": "夏季学期第一天(4 月 14 日),王伟和莉娜在大学门口碰到索菲娅,三人聊这学期:索菲娅学设计、第二学期,还在语言中心上德语课;莉娜学英语、第四学期,以后想当老师;索菲娅猜王伟学数学,王伟用 sondern 纠正:学的是计算机(第二学期,编程很好玩,数学很难);莉娜问他来柏林多久了。规划里的 seit 已由 u7.l06 登记,本课改用 Wie lange … schon …?。说话人:sofia、lena、wei。",
+      "grammarFocusZh": "Was studierst du? – Ich studiere Informatik, im zweiten Semester;sondern 纠正别人的猜测(Ich studiere nicht Mathe, sondern Informatik),和 aber 对比;Wie lange bist du schon in Berlin? – Sieben Monate.(现在时 + schon 表示“已经……了”);复习 studieren 和 lernen",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "de.semester", "kind": "word", "pos": "noun", "text": "das Semester", "zh": "学期", "features": { "gender": "n", "plural": "die Semester", "ipa": "zeˈmɛstɐ" }, "noteZh": "重音在 mes;词尾 -er 读得很轻,近似 [ɐ];复数不变:zwei Semester。第几学期:im zweiten Semester。德国大学一年两个学期:冬季学期(Wintersemester,10 月到 3 月)和夏季学期(Sommersemester,4 月到 9 月)。" },
+        { "id": "de.informatik", "kind": "word", "pos": "noun", "text": "die Informatik", "zh": "计算机科学;信息学", "features": { "gender": "f", "plural": "-", "ipa": "ɪnfɔʁˈmaːtɪk" }, "noteZh": "重音在 ma:In-for-MA-tik;说专业不加冠词:Ich studiere Informatik.;-ik 结尾的学科多是阴性,和 die Musik 一样。" },
+        { "id": "de.mathematik", "kind": "word", "pos": "noun", "text": "die Mathematik", "zh": "数学", "alt": ["Mathe"], "features": { "gender": "f", "plural": "-", "ipa": "matemaˈtiːk" }, "noteZh": "口语里几乎都说 Mathe [ˈmatə];th 读 [t],不是英语的 th;全称重音在最后:Ma-the-ma-TIK。" },
+        { "id": "de.sondern", "kind": "word", "pos": "conj", "text": "sondern", "zh": "而是(用在否定后面)", "features": { "ipa": "ˈzɔndɐn" }, "noteZh": "只跟在 nicht / kein 后面,把错的换成对的:nicht Mathe, sondern Informatik;只是转折用 aber。s 在元音前读 [z]。" },
+        { "id": "de.eigentlich", "kind": "word", "pos": "adv", "text": "eigentlich", "zh": "说起来;到底;其实", "features": { "ipa": "ˈaɪ̯ɡn̩tlɪç" }, "noteZh": "放在问句里,语气更随意、更好奇:Was studierst du eigentlich?(说起来你学什么专业?);陈述句里是“其实”。ei 读 [aɪ̯],词尾 -lich 的 ch 读 [ç]。" },
+        { "id": "de.werden", "kind": "word", "pos": "verb", "text": "werden", "zh": "成为;变得", "features": { "ipa": "ˈveːɐ̯dn̩" }, "noteZh": "不规则:ich werde, du wirst, er / sie wird;说以后想做的职业:Ich möchte Lehrerin werden.(职业前不加冠词,werden 放句末);w 读 [v]。" },
+        { "id": "de.programmieren", "kind": "word", "pos": "verb", "text": "programmieren", "zh": "编程;写程序", "features": { "ipa": "pʁoɡʁaˈmiːʁən" }, "noteZh": "-ieren 结尾的动词重音都在 ie 上:pro-gram-MIE-ren;当课程名称用时首字母大写:Programmieren ist toll!" },
+        { "id": "de.design", "kind": "word", "pos": "noun", "text": "das Design", "zh": "设计(专业)", "features": { "gender": "n", "plural": "die Designs", "ipa": "diˈzaɪ̯n" }, "noteZh": "英语外来词,按英语的音读:di-ZAIN;中性;说专业不加冠词:Sofia studiert Design." },
+        { "id": "de.studium", "kind": "word", "pos": "noun", "text": "das Studium", "zh": "(大学的)学业", "features": { "gender": "n", "plural": "die Studien", "ipa": "ˈʃtuːdi̯ʊm" }, "noteZh": "和 studieren 是一家:Wie ist dein Studium?(你的学业怎么样?);复数 Studien 不常用;词首 st 读 [ʃt]。" }
+      ],
+      "reviewItems": ["de.studieren", "de.lehrerin", "de.wie_lange", "de.september", "de.monat"]
+    },
+    {
+      "id": "de.a1u9.l02", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109020,
+      "titleZh": "看懂课表",
+      "goalZh": "认识课表上的讲座、讨论课、练习课,会说楼层和在哪栋楼",
+      "canDoZh": "能看懂大学课表,说出讲座、讨论课、练习课在星期几、几点、哪栋楼哪个教室",
+      "scenarioZh": "开学第一天下午,王伟在计算机系的楼里打开手机上的课表,莉娜帮他看懂:讲座(die Vorlesung)在阶梯教室(der Hörsaal),教授讲、学生记;讨论课(das Seminar)人少、要发言;练习课(die Übung)学生自己做题。讨论课在 B 楼(das Gebäude)的 erster Stock,王伟以为就是他们站的这一层(中国的一楼),莉娜告诉他德国的 erster Stock 是中国的二楼;课表上的 c.t. 表示晚 15 分钟开始。der Raum 已由 u12.l07 登记,本课说 im Gebäude B。说话人:wei、lena。",
+      "grammarFocusZh": "楼层:im Erdgeschoss / im ersten Stock(德国的 Erdgeschoss 是中国的一楼,erster Stock 是二楼);复习 am + 星期、um + 钟点、von … bis …;c.t. 表示晚 15 分钟",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.stundenplan", "kind": "word", "pos": "noun", "text": "der Stundenplan", "zh": "课表", "features": { "gender": "m", "plural": "die Stundenpläne", "ipa": "ˈʃtʊndn̩ˌplaːn" }, "noteZh": "die Stunde(课时)+ der Plan(计划);复合词的性看最后一个词,所以是 der;复数变音:Stundenpläne;词首 st 读 [ʃt]。" },
+        { "id": "de.vorlesung", "kind": "word", "pos": "noun", "text": "die Vorlesung", "zh": "讲座课;(大学的)大课", "features": { "gender": "f", "plural": "die Vorlesungen", "ipa": "ˈfoːɐ̯ˌleːzʊŋ" }, "noteZh": "vor(在前面)+ lesen(读):教授在前面讲,学生听、记笔记;-ung 结尾的名词都是阴性;v 读 [f]。" },
+        { "id": "de.hoersaal", "kind": "word", "pos": "noun", "text": "der Hörsaal", "zh": "阶梯教室;大教室", "features": { "gender": "m", "plural": "die Hörsäle", "ipa": "ˈhøːɐ̯ˌzaːl" }, "noteZh": "hören(听)+ der Saal(大厅);ö 的发法:先说 e,嘴唇再收圆;复数变音:Hörsäle。" },
+        { "id": "de.seminar", "kind": "word", "pos": "noun", "text": "das Seminar", "zh": "讨论课;研讨课", "features": { "gender": "n", "plural": "die Seminare", "ipa": "zemiˈnaːɐ̯" }, "noteZh": "人少,要读文章、发言、做报告;重音在最后:se-mi-NAR;中性:das Seminar。" },
+        { "id": "de.uebung", "kind": "word", "pos": "noun", "text": "die Übung", "zh": "练习;练习课", "features": { "gender": "f", "plural": "die Übungen", "ipa": "ˈyːbʊŋ" }, "noteZh": "大学里配合讲座的练习课,学生自己做题;也指一般的练习:ein Buch mit Übungen;ü 读 [yː],嘴唇圆、舌头位置像发 i。" },
+        { "id": "de.gebaeude", "kind": "word", "pos": "noun", "text": "das Gebäude", "zh": "楼;建筑物", "features": { "gender": "n", "plural": "die Gebäude", "ipa": "ɡəˈbɔɪ̯də" }, "noteZh": "大学的教学楼常用字母或数字编号:im Gebäude B(在 B 楼);äu 读 [ɔɪ̯],和 eu 一样;复数不变。" },
+        { "id": "de.stock", "kind": "word", "pos": "noun", "text": "der Stock", "zh": "(楼的)层", "features": { "gender": "m", "plural": "die Stockwerke", "ipa": "ʃtɔk" }, "noteZh": "im ersten Stock = 中国的二楼(地面那层叫 Erdgeschoss,不算在内);表示楼层时复数常说 Stockwerke(die Stöcke 是“棍子”的复数);o 是短音。" },
+        { "id": "de.erdgeschoss", "kind": "word", "pos": "noun", "text": "das Erdgeschoss", "zh": "(楼的)底层;中国说的一楼", "features": { "gender": "n", "plural": "die Erdgeschosse", "ipa": "ˈeːɐ̯tɡəˌʃɔs" }, "noteZh": "die Erde(地面)+ das Geschoss(楼层);电梯上写 E 或 0;Erd- 的 d 读 [t]。" },
+        { "id": "de.professor", "kind": "word", "pos": "noun", "text": "der Professor", "zh": "教授", "features": { "gender": "m", "plural": "die Professoren", "ipa": "pʁoˈfɛsoːɐ̯" }, "noteZh": "重音在 fes,复数重音挪到 so:Pro-fes-SO-ren;女教授:die Professorin;称呼:Herr Professor Schmidt。" }
+      ],
+      "reviewItems": ["de.dienstag", "de.freitag", "de.viertel", "de.muessen"]
+    },
+    {
+      "id": "de.a1u9.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109030,
+      "titleZh": "图书馆里可以吃东西吗?——dürfen 和 man",
+      "goalZh": "会用 dürfen 请求许可,用 man 说公共场所的规定",
+      "canDoZh": "能看懂、也能说公共场所的规定:哪里可以做什么、不可以做什么",
+      "scenarioZh": "王伟第一次去大学图书馆办借书证。女工作人员给他讲规定:书可以借四个星期;可以喝水,但不能吃东西;可以用笔记本电脑,但要小声、不能大声说话;王伟用 Darf ich …? 一条条问。出来后莉娜问他办好了没有,两人对着门口的规定牌用 man 说规定(Essen und Kaffee sind hier verboten)。telefonieren 已由 u2.r02 登记,本课不用。说话人:wei、mitarbeiterin、lena。",
+      "grammarFocusZh": "dürfen 的变位(ich darf, du darfst, er darf)和不定代词 man(Hier darf man nicht essen);Darf ich …? 请求许可;nicht dürfen(禁止)和 nicht müssen(不必)的区别;牌子上的 … verboten",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.duerfen", "kind": "word", "pos": "verb", "text": "dürfen", "zh": "可以(被允许);许可", "features": { "ipa": "ˈdʏʁfn̩" }, "noteZh": "情态动词,单数变 a:ich darf, du darfst, er darf(ich 和 er 没有词尾);Darf ich …?(我可以……吗?);nicht dürfen = 不许,不是“不必”(不必是 nicht müssen);ü 是短音 [ʏ]。" },
+        { "id": "de.man", "kind": "word", "pos": "pron", "text": "man", "zh": "人们;大家(泛指)", "features": { "ipa": "man" }, "noteZh": "泛指任何人,动词用 er 的形式:man darf, man muss;只有一个 n,和 der Mann(男人)不同;中文常常不翻出来:Hier darf man nicht essen.(这里不许吃东西。)" },
+        { "id": "de.benutzen", "kind": "word", "pos": "verb", "text": "benutzen", "zh": "使用;用", "features": { "ipa": "bəˈnʊtsn̩" }, "noteZh": "be- 不可分、不重读:be-NUT-zen;tz 读 [ts];Darf ich das benutzen?(我可以用这个吗?)" },
+        { "id": "de.laut", "kind": "word", "pos": "adj", "text": "laut", "zh": "大声;吵", "features": { "ipa": "laʊ̯t" }, "noteZh": "反义词 leise(小声):Bitte leise! Hier darf man nicht laut sein.;au 读 [aʊ̯],和汉语的 ao 差不多。" },
+        { "id": "de.ausleihen", "kind": "word", "pos": "verb", "text": "ausleihen", "zh": "借;(从图书馆)借出", "features": { "ipa": "ˈaʊ̯sˌlaɪ̯ən" }, "noteZh": "可分动词:Ich leihe das Buch aus.;和情态动词一起用时不分开、放句末:Sie dürfen die Bücher vier Wochen ausleihen.;h 不发音。" },
+        { "id": "de.ausweis", "kind": "word", "pos": "noun", "text": "der Ausweis", "zh": "证件;卡证(借书证、学生证等)", "features": { "gender": "m", "plural": "die Ausweise", "ipa": "ˈaʊ̯sˌvaɪ̯s" }, "noteZh": "各种证件、卡证都可以叫 Ausweis:ein Ausweis für die Bibliothek(借书证);w 读 [v],词尾 s 读 [s]。" },
+        { "id": "de.laptop", "kind": "word", "pos": "noun", "text": "der Laptop", "zh": "笔记本电脑", "features": { "gender": "m", "plural": "die Laptops", "ipa": "ˈlɛptɔp" }, "noteZh": "英语外来词,德国人读 [ˈlɛptɔp],a 读得像 e;阳性,复数加 -s。" },
+        { "id": "de.leise", "kind": "word", "pos": "adj", "text": "leise", "zh": "小声;安静", "features": { "ipa": "ˈlaɪ̯zə" }, "noteZh": "Bitte leise!(请小声!);ei 读 [aɪ̯](像“爱”),别读成 ie 的 [iː];两个元音之间的 s 读 [z]。" },
+        { "id": "de.verboten", "kind": "word", "pos": "adj", "text": "verboten", "zh": "禁止的;不许", "features": { "ipa": "fɛɐ̯ˈboːtn̩" }, "noteZh": "牌子上常见:Essen verboten!(禁止吃东西!);意思和 Man darf … nicht … 一样;v 读 [f],重音在 bo。" }
+      ],
+      "reviewItems": ["de.bibliothek", "de.buch", "de.wasser", "de.essen", "de.kaffee"]
+    },
+    {
+      "id": "de.a1u9.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109040,
+      "titleZh": "去老师的答疑时间",
+      "goalZh": "会在答疑时间礼貌地请老师帮忙,分清 dürfen 和 können",
+      "canDoZh": "能在答疑时间礼貌地向老师提问:考试、作业和学习方法",
+      "scenarioZh": "瓦格纳老师每周三下午有答疑时间(die Sprechstunde)。王伟敲门问 Darf ich reinkommen?,说 5 月 17 日要考 A1,请老师帮忙:他觉得口语最难,说得又慢又不好;老师说这很正常,建议他多说德语(比如和莉娜说)、常听广播(早上听十分钟),还借给他一本模拟题(ein Buch mit Tests)。fragen 已由 u12.l04 登记(规划里也给 u1.l07 留了),Tipp、nervös、Fehler 已由 u12 登记,本课都不用。说话人:wei、wagner。",
+      "grammarFocusZh": "礼貌地开口和请求:Darf ich reinkommen? / Können Sie mir helfen?(mir 先当固定说法);和老师说话一直用 Sie,老师用 Sie 的命令式提建议;dürfen 和 können 的区别;zum Beispiel",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "de.sprechstunde", "kind": "word", "pos": "noun", "text": "die Sprechstunde", "zh": "(老师的)答疑时间;(医生的)门诊时间", "features": { "gender": "f", "plural": "die Sprechstunden", "ipa": "ˈʃpʁɛçˌʃtʊndə" }, "noteZh": "sprechen + die Stunde;老师、医生固定接待的时间:Frau Wagner hat am Mittwoch Sprechstunde.;sp、st 在词首都读 [ʃp]、[ʃt]。" },
+        { "id": "de.herein", "kind": "word", "pos": "adv", "text": "herein", "zh": "进来(请进)", "alt": ["rein"], "features": { "ipa": "hɛˈʁaɪ̯n" }, "noteZh": "敲门后对方说 Herein!(请进!);Kommen Sie herein!;口语常缩成 rein:Darf ich reinkommen? / Darf ich da rein?;重音在后。" },
+        { "id": "de.etwas", "kind": "word", "pos": "pron", "text": "etwas", "zh": "一些;某样东西;一点儿", "features": { "ipa": "ˈɛtvas" }, "noteZh": "Ich habe etwas für Sie.(我有样东西给您);etwas Wasser(一点水);w 读 [v]。" },
+        { "id": "de.beispiel", "kind": "word", "pos": "noun", "text": "das Beispiel", "zh": "例子", "features": { "gender": "n", "plural": "die Beispiele", "ipa": "ˈbaɪ̯ʃpiːl" }, "noteZh": "zum Beispiel = 比如(书面缩写 z. B.);一个词里 ei [aɪ̯] 和 ie [iː] 都有,正好练区别;第二部分 Spiel 开头的 sp 读 [ʃp]。" },
+        { "id": "de.radio", "kind": "word", "pos": "noun", "text": "das Radio", "zh": "收音机;广播", "features": { "gender": "n", "plural": "die Radios", "ipa": "ˈʁaːdi̯o" }, "noteZh": "Radio hören(听广播);中性;r 是小舌音,开头的 a 是长音。" },
+        { "id": "de.normal", "kind": "word", "pos": "adj", "text": "normal", "zh": "正常的;平常的", "features": { "ipa": "nɔʁˈmaːl" }, "noteZh": "Das ist normal!(这很正常!);重音在后:nor-MAL,和英语 normal 不一样。" },
+        { "id": "de.test", "kind": "word", "pos": "noun", "text": "der Test", "zh": "测试;测验", "features": { "gender": "m", "plural": "die Tests", "ipa": "tɛst" }, "noteZh": "阳性,复数加 -s;考试前做的模拟题常叫 der Modelltest;s 读清音 [s]。" },
+        { "id": "de.hilfe", "kind": "word", "pos": "noun", "text": "die Hilfe", "zh": "帮助", "features": { "gender": "f", "plural": "-", "ipa": "ˈhɪlfə" }, "noteZh": "动词是 helfen:Vielen Dank für die Hilfe!(谢谢您的帮助!);遇到危险喊 Hilfe!(救命!)。" }
+      ],
+      "reviewItems": ["de.duerfen", "de.pruefung", "de.helfen", "de.ausleihen", "de.langsam"]
+    },
+    {
+      "id": "de.a1u9.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109045,
+      "titleZh": "系里的学期通知",
+      "goalZh": "读懂系里的学期通知,找出日期,记进自己的日历",
+      "canDoZh": "能读懂系里的通知,找出课程开始、选课截止和活动的日期",
+      "scenarioZh": "体裁:系里的通知(邮件)。开学第一周,计算机系办公室的玛丽亚·洛伦茨(Maria Lorenz,l05 接电话的也是她)给学生发了夏季学期的通知:4 月 14 日开始上讲座课;讨论课要在网上报名,截止到 4 月 25 日;每门讨论课最多 25 个学生;4 月 22 日晚上 7 点在一楼的咖啡馆有聚会;七月考试前图书馆开到晚上 10 点。读完后王伟在日历上记了三条。按 plan.md,日期不和星期几搭配。说话人:narrator(通知)、wei(最后四句)。",
+      "grammarFocusZh": "复习:日期和 bis、müssen / können 在通知里的用法;复合词(das Sommersemester = der Sommer + das Semester);sich anmelden 先当固定说法",
+      "skills": ["read", "write"], "estimatedMinutes": 18,
+      "newItems": [
+        { "id": "de.information", "kind": "word", "pos": "noun", "text": "die Information", "zh": "信息;通知", "features": { "gender": "f", "plural": "die Informationen", "ipa": "ɪnfɔʁmaˈtsi̯oːn" }, "noteZh": "-tion 读 [tsi̯oːn],重音总在最后:In-for-ma-TION;-tion 结尾的名词都是阴性;常用复数:die Informationen。" },
+        { "id": "de.online", "kind": "word", "pos": "adv", "text": "online", "zh": "在网上;线上", "features": { "ipa": "ˈɔnlaɪ̯n" }, "noteZh": "英语外来词,按英语读;online anmelden / online bezahlen(网上报名 / 网上付款);不变形。" },
+        { "id": "de.anmelden", "kind": "phrase", "pos": "verb", "text": "sich anmelden", "zh": "报名;注册;登录", "features": { "ipa": "zɪç ˈanˌmɛldn̩" }, "noteZh": "可分动词,sich 跟着人变(ich melde mich an, Sie melden sich an),现在先当固定说法用:Sie müssen sich online anmelden.;报名课程、注册账号、登录网站都用它。" },
+        { "id": "de.kalender", "kind": "word", "pos": "noun", "text": "der Kalender", "zh": "日历", "features": { "gender": "m", "plural": "die Kalender", "ipa": "kaˈlɛndɐ" }, "noteZh": "重音在 len;复数不变;Ich schreibe den Termin in meinen Kalender.(我把约好的时间记进日历。)" }
+      ],
+      "reviewItems": ["de.vorlesung", "de.seminar", "de.termin", "de.geoeffnet", "de.erdgeschoss"]
+    },
+    {
+      "id": "de.a1u9.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109050,
+      "titleZh": "选课:还有位子吗?",
+      "goalZh": "会打电话问课程还有没有名额,听懂建议,再选一门备选",
+      "canDoZh": "能问课程还有没有名额,和同学商量换一门课",
+      "scenarioZh": "王伟在网上报名时,施密特教授星期二的讨论课已经满了(ausgebucht)。他给系办公室打电话,接电话的是发通知的洛伦茨女士:她查了一下(Einen Augenblick, bitte),讨论课确实满了,建议他直接给施密特教授写邮件试试;王伟又和莉娜商量,莉娜说星期四还有一门讨论课有空位,王伟决定也选上当备选(Sicher ist sicher!)。der Platz、voll、der Moment 已由 u5–8 新增课登记,schade 已由 u12 登记,本课不用。说话人:mitarbeiterin、wei、lena。",
+      "grammarFocusZh": "frei / ausgebucht 和 noch(Da ist noch etwas frei);打电话问事情的开头和结尾(Informatik, Lorenz, guten Tag! / Einen Augenblick, bitte. / Vielen Dank! Auf Wiedersehen!);第四格复习(Ich nehme den Kurs am Donnerstag)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "newItems": [
+        { "id": "de.ausgebucht", "kind": "word", "pos": "adj", "text": "ausgebucht", "zh": "(报名、预订)满了", "features": { "ipa": "ˈaʊ̯sɡəˌbuːxt" }, "noteZh": "课程、酒店、航班订满了都说 ausgebucht:Das Seminar ist ausgebucht.;u 后面的 ch 读 [x],从喉咙里擦出来。" },
+        { "id": "de.augenblick", "kind": "word", "pos": "noun", "text": "der Augenblick", "zh": "片刻;一会儿", "features": { "gender": "m", "plural": "die Augenblicke", "ipa": "ˈaʊ̯ɡn̩ˌblɪk" }, "noteZh": "Einen Augenblick, bitte!(请稍等!)电话里、柜台前很常用;das Auge(眼睛)+ der Blick(一瞥)——“一眨眼的工夫”。" },
+        { "id": "de.e_mail", "kind": "word", "pos": "noun", "text": "die E-Mail", "zh": "电子邮件", "features": { "gender": "f", "plural": "die E-Mails", "ipa": "ˈiːmeɪ̯l" }, "noteZh": "阴性,按英语读;写邮件:eine E-Mail schreiben;给谁写直接加人名:Schreiben Sie Professor Schmidt eine E-Mail.(给施密特教授写封邮件。)" },
+        { "id": "de.versuchen", "kind": "word", "pos": "verb", "text": "versuchen", "zh": "试;尝试", "features": { "ipa": "fɛɐ̯ˈzuːxn̩" }, "noteZh": "Versuchen Sie es!(试试看!);ver- 不可分、不重读;v 读 [f],s 读 [z]。" },
+        { "id": "de.direkt", "kind": "word", "pos": "adv", "text": "direkt", "zh": "直接", "features": { "ipa": "diˈʁɛkt" }, "noteZh": "Schreiben Sie ihm direkt.(直接给他写);也表示“就在”:direkt am Bahnhof(就在火车站旁边);重音在后:di-REKT。" },
+        { "id": "de.idee", "kind": "word", "pos": "noun", "text": "die Idee", "zh": "主意;想法", "features": { "gender": "f", "plural": "die Ideen", "ipa": "iˈdeː" }, "noteZh": "Gute Idee!(好主意!);重音在后:i-DEE;复数 Ideen 读 [iˈdeːən]。" },
+        { "id": "de.buero", "kind": "word", "pos": "noun", "text": "das Büro", "zh": "办公室", "features": { "gender": "n", "plural": "die Büros", "ipa": "byˈʁoː" }, "noteZh": "重音在后:bü-RO;中性,复数加 -s;给办公室打电话,对方常先报部门和自己的姓。" },
+        { "id": "de.sicher", "kind": "word", "pos": "adj", "text": "sicher", "zh": "肯定;安全;保险", "features": { "ipa": "ˈzɪçɐ" }, "noteZh": "Sicher ist sicher!(保险起见!);Bist du sicher?(你确定吗?);也是“安全”:Das ist sicher.;s 读 [z],ch 读 [ç]。" }
+      ],
+      "reviewItems": ["de.professor", "de.seminar", "de.kurs", "de.etwas", "de.helfen"]
+    },
+    {
+      "id": "de.a1u9.l06", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109060,
+      "titleZh": "学生证、学期票和注册费",
+      "goalZh": "会说注册费、学生证、学期票这些词,问清截止日期、开始日期和费用",
+      "canDoZh": "能说出大学里办手续常用的词,问清楚在哪儿办、什么时候截止、要交多少钱",
+      "scenarioZh": "王伟要交下学期的注册费(der Semesterbeitrag),才能拿到新的学生证(der Studentenausweis)和学期票(das Semesterticket)。他和索菲娅去学生服务中心问男工作人员:注册费多少钱(320 欧元,包括学期票)、怎么交(转账)、截止到什么时候(7 月 15 日)、学期票从什么时候起有效(10 月 1 日);索菲娅的学生证丢了,问怎么补办:带一张证件照,手续费 10 欧元。bekommen 已由 u7.l07 登记、das Foto 已由 u2.l06 登记,本课不用。说话人:wei、mitarbeiter、sofia。",
+      "grammarFocusZh": "复合词:Studentenausweis = Student + Ausweis、Semesterticket、Semesterbeitrag(性看最后一个词);bis zum 15. Juli / ab 1. Oktober;复习 müssen",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.semesterbeitrag", "kind": "word", "pos": "noun", "text": "der Semesterbeitrag", "zh": "(每学期的)注册费", "features": { "gender": "m", "plural": "die Semesterbeiträge", "ipa": "zeˈmɛstɐbaɪ̯ˌtʁaːk" }, "noteZh": "das Semester + der Beitrag(费用、份子钱),性看最后一个词:der;德国公立大学一般不收学费,每学期只交注册费,里面包括学期票;词尾 g 读 [k]。" },
+        { "id": "de.semesterticket", "kind": "word", "pos": "noun", "text": "das Semesterticket", "zh": "学期票(学生的公共交通票)", "features": { "gender": "n", "plural": "die Semestertickets", "ipa": "zeˈmɛstɐˌtɪkət" }, "noteZh": "das Ticket(票,英语外来词)→ das Semesterticket;有了它,整个学期坐本地的公交、地铁、城铁都不用另买票。" },
+        { "id": "de.studentenausweis", "kind": "word", "pos": "noun", "text": "der Studentenausweis", "zh": "学生证", "features": { "gender": "m", "plural": "die Studentenausweise", "ipa": "ʃtuˈdɛntn̩ˌʔaʊ̯svaɪ̯s" }, "noteZh": "der Student + -en- + der Ausweis,中间的 -en- 是连接音;去图书馆、买学生票都要出示。" },
+        { "id": "de.ueberweisen", "kind": "word", "pos": "verb", "text": "überweisen", "zh": "(银行)转账;汇款", "features": { "ipa": "yːbɐˈvaɪ̯zn̩" }, "noteZh": "über- 在这里不可分、不重读:ich überweise, er überweist;在德国交房租、交注册费常用银行转账;w 读 [v]。" },
+        { "id": "de.verlieren", "kind": "word", "pos": "verb", "text": "verlieren", "zh": "丢失;输", "features": { "ipa": "fɛɐ̯ˈliːʁən" }, "noteZh": "完成时 verloren 不规则,先当整体记:Ich habe meinen Ausweis verloren.(我的证件丢了。);ver- 不可分、不重读;v 读 [f]。" },
+        { "id": "de.passbild", "kind": "word", "pos": "noun", "text": "das Passbild", "zh": "证件照", "features": { "gender": "n", "plural": "die Passbilder", "ipa": "ˈpasˌbɪlt" }, "noteZh": "der Pass(护照)+ das Bild(图片、照片),办各种证件都要用;复数 Passbilder;词尾 d 读 [t]。" },
+        { "id": "de.gueltig", "kind": "word", "pos": "adj", "text": "gültig", "zh": "有效的", "features": { "ipa": "ˈɡʏltɪç" }, "noteZh": "Das Semesterticket ist ab Oktober gültig.(学期票从十月起有效。);词尾 -ig 读 [ɪç](南部也读 [ɪk]);ü 是短音 [ʏ]。" },
+        { "id": "de.ab", "kind": "word", "pos": "prep", "text": "ab", "zh": "从……起", "features": { "ipa": "ap" }, "noteZh": "表示从某个时间开始:ab Oktober(从十月起)、ab Montag(从星期一起);和 bis(到)成对:ab Montag bis Freitag;词尾 b 读 [p]。" },
+        { "id": "de.gebuehr", "kind": "word", "pos": "noun", "text": "die Gebühr", "zh": "费用;手续费", "features": { "gender": "f", "plural": "die Gebühren", "ipa": "ɡəˈbyːɐ̯" }, "noteZh": "办证、补卡这类手续要交的钱:Die Gebühr ist zehn Euro.;h 不发音,ü 是长音;重音在 bühr。" }
+      ],
+      "reviewItems": ["de.bezahlen", "de.geld", "de.schicken", "de.juli", "de.oktober"]
+    },
+    {
+      "id": "de.a1u9.l07", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109070,
+      "titleZh": "知道还是认识?——wissen 和 kennen",
+      "goalZh": "分清 wissen 和 kennen,会说自己知道什么事、认识什么人和地方",
+      "canDoZh": "能分清 wissen 和 kennen,说自己知道什么事、认识什么人或地方",
+      "scenarioZh": "瓦格纳老师的德语课上做“柏林知识问答”:她问 Kennen Sie den Alexanderplatz? Kennen Sie den Bezirk Pankow?,也出“知道吗”的题(柏林有几个区?中央火车站旁边的河叫什么?);索菲娅认识亚历山大广场(电视塔就在那儿),却不知道柏林有几个区(Das weiß ich leider nicht.);王伟不知道潘科区,但知道柏林有 12 个区、河叫 Spree,最后赢了。Antwort、richtig、falsch 已由 u12.l01 登记,本课不用。说话人:wagner、sofia、wei。",
+      "grammarFocusZh": "wissen 的变位(ich weiß, du weißt, er weiß——单数第一、三人称没有词尾);kennen + 人、地方、东西(Ich kenne den Alexanderplatz),wissen + 事实、答案(Das weiß ich / Ich weiß es nicht);间接问句(Weißt du, wo …?)A2 才讲",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.wissen", "kind": "word", "pos": "verb", "text": "wissen", "zh": "知道", "features": { "ipa": "ˈvɪsn̩" }, "noteZh": "单数不规则:ich weiß, du weißt, er weiß(ich 和 er 没有词尾);后面接事情、答案:Das weiß ich nicht.;认识人、熟悉地方用 kennen;w 读 [v]。" },
+        { "id": "de.quiz", "kind": "word", "pos": "noun", "text": "das Quiz", "zh": "知识问答;小测验", "features": { "gender": "n", "plural": "die Quiz", "ipa": "kvɪs" }, "noteZh": "英语外来词,德国人读 [kvɪs](qu 读 [kv]);中性,复数不变;ein Quiz machen(做知识问答)。" },
+        { "id": "de.hauptstadt", "kind": "word", "pos": "noun", "text": "die Hauptstadt", "zh": "首都", "features": { "gender": "f", "plural": "die Hauptstädte", "ipa": "ˈhaʊ̯ptˌʃtat" }, "noteZh": "Haupt-(主要的)+ die Stadt;Berlin ist die Hauptstadt von Deutschland.;复数变音:Hauptstädte;st 读 [ʃt]。" },
+        { "id": "de.fernsehturm", "kind": "word", "pos": "noun", "text": "der Fernsehturm", "zh": "电视塔", "features": { "gender": "m", "plural": "die Fernsehtürme", "ipa": "ˈfɛʁnzeːˌtʊʁm" }, "noteZh": "fernsehen(看电视)+ der Turm(塔);柏林的电视塔就在亚历山大广场边上,是城市的标志;复数变音:Fernsehtürme。" },
+        { "id": "de.punkt", "kind": "word", "pos": "noun", "text": "der Punkt", "zh": "分(得分);点;句号", "features": { "gender": "m", "plural": "die Punkte", "ipa": "pʊŋkt" }, "noteZh": "比赛、考试的得分:ein Punkt für Sofia(索菲娅得一分);也是标点里的句号和网址里的“点”;nk 读 [ŋk]。" },
+        { "id": "de.bezirk", "kind": "word", "pos": "noun", "text": "der Bezirk", "zh": "(城市的)区", "features": { "gender": "m", "plural": "die Bezirke", "ipa": "bəˈtsɪʁk" }, "noteZh": "柏林有 12 个区,Neukölln、Pankow 都是区名;一个区里有好几个城区(das Viertel);重音在 zirk,z 读 [ts]。" },
+        { "id": "de.norden", "kind": "word", "pos": "noun", "text": "der Norden", "zh": "北方;北部", "features": { "gender": "m", "plural": "-", "ipa": "ˈnɔʁdn̩" }, "noteZh": "im Norden(在北部):Hamburg ist im Norden.;四个方向都是阳性:der Norden, der Süden, der Osten, der Westen。" },
+        { "id": "de.fluss", "kind": "word", "pos": "noun", "text": "der Fluss", "zh": "河;河流", "features": { "gender": "m", "plural": "die Flüsse", "ipa": "flʊs" }, "noteZh": "柏林市中心的河叫 die Spree;复数变音:die Flüsse;u 是短音,ss 读 [s]。" },
+        { "id": "de.gewinnen", "kind": "word", "pos": "verb", "text": "gewinnen", "zh": "赢;获胜", "features": { "ipa": "ɡəˈvɪnən" }, "noteZh": "Wer gewinnt?(谁赢了?);反义词 verlieren(输);ge- 是词的一部分,不可分;w 读 [v]。" }
+      ],
+      "reviewItems": ["de.kennen", "de.leider", "de.sondern", "de.wie_viel"]
+    },
+    {
+      "id": "de.a1u9.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109080,
+      "titleZh": "单元复习与应用:带保罗参观大学",
+      "goalZh": "综合运用本单元的词和语法,带朋友参观大学、说明规定",
+      "canDoZh": "能带别人参观大学,介绍教学楼、图书馆和食堂,说明那里的规定",
+      "scenarioZh": "保罗想知道大学是什么样。周四下午王伟带他参观:阶梯教室在一楼(Erdgeschoss),讨论课在 erster Stock(中国的二楼),旁边有电梯;讲座和讨论课有什么不同;图书馆能不能进(Darf ich da rein?——中学生也能进,但不能大声说话);饿了在哪儿吃东西(楼里的咖啡馆,学生便宜,保罗不是学生要贵一点,王伟请客;食堂 die Mensa、der Gast 已由 u4.l07 登记,本课不用);保罗还问王伟认不认识有名的教授。说话人:paul、wei。",
+      "grammarFocusZh": "复习:dürfen + man、楼层、wissen / kennen、sondern",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.beruehmt", "kind": "word", "pos": "adj", "text": "berühmt", "zh": "有名的;著名的", "features": { "ipa": "bəˈʁyːmt" }, "noteZh": "放在名词前要加词尾:einen berühmten Professor(形容词词尾 A2 再系统学);h 不发音,ü 是长音;重音在 rühmt。" },
+        { "id": "de.aufzug", "kind": "word", "pos": "noun", "text": "der Aufzug", "zh": "电梯", "features": { "gender": "m", "plural": "die Aufzüge", "ipa": "ˈaʊ̯fˌtsuːk" }, "noteZh": "也叫 der Lift / der Fahrstuhl;复数变音:Aufzüge;z 读 [ts],词尾 g 读 [k]。" }
+      ],
+      "reviewItems": ["de.erdgeschoss", "de.stock", "de.sondern", "de.duerfen", "de.man", "de.wissen"]
+    },
+    {
+      "id": "de.a1u9.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109085,
+      "titleZh": "给教授的邮件",
+      "goalZh": "读懂并会写一封给教授的礼貌邮件",
+      "canDoZh": "能读懂、也能写一封给大学老师的礼貌邮件:说明自己是谁,问一个具体的问题",
+      "scenarioZh": "体裁:给老师的邮件。满了的那门讨论课,系办公室让王伟直接问教授。他给施密特教授(虚构,不出场)写邮件:先写主题(Betreff),称呼 Guten Tag, Herr Professor Schmidt,,介绍自己(专业、学期),问还能不能参加讨论课,说星期二一定准时去;结尾 Vielen Dank und viele Grüße。下面附上教授的回信:可以参加,讨论课在 B 楼 erster Stock。Sehr geehrte … / Mit freundlichen Grüßen 已由 u7.r02 登记,本课不用。说话人:wei(邮件)、narrator(回信)。",
+      "grammarFocusZh": "给老师写邮件的格式:Betreff、称呼(Guten Tag, Herr Professor …,)、介绍自己、提问、结尾;teilnehmen 是可分动词,和 möchten / können / dürfen 连用时放句末",
+      "skills": ["read", "write"], "estimatedMinutes": 15.5,
+      "newItems": [
+        { "id": "de.teilnehmen", "kind": "word", "pos": "verb", "text": "teilnehmen", "zh": "参加", "features": { "ipa": "ˈtaɪ̯lˌneːmən" }, "noteZh": "可分:Ich nehme am Seminar teil.;参加什么用 an + 第三格:an dem Seminar = am Seminar(先当固定搭配记);nehmen 的变化照旧:du nimmst teil。" },
+        { "id": "de.betreff", "kind": "word", "pos": "noun", "text": "der Betreff", "zh": "(邮件、信的)主题;事由", "features": { "gender": "m", "plural": "die Betreffe", "ipa": "bəˈtʁɛf" }, "noteZh": "写邮件先写一行主题:Betreff: Seminar am Dienstag;重音在 treff。" }
+      ],
+      "reviewItems": ["de.professor", "de.ausgebucht", "de.e_mail", "de.gebaeude", "de.puenktlich"]
+    }
+  ]
+}

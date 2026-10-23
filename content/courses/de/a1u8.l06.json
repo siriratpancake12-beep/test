@@ -1,0 +1,48 @@
+{
+  "id": "de.a1u8.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 健康与周末", "order": 108060,
+  "titleZh": "和霍夫曼先生过复活节", "goalZh": "会聊复活节习俗,用现在完成时问别人做了什么、讲自己做了什么", "canDoZh": "能聊德国的复活节习俗,问别人假期做了什么,也讲自己做了什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "de.ostern", "kind": "word", "pos": "propn", "text": "Ostern", "zh": "复活节", "features": { "ipa": "ˈoːstɐn" }, "noteZh": "一般不加冠词;在三月底到四月,日子每年不一样;an Ostern(在复活节)先当固定说法记。o 读长音。" },
+    { "id": "de.frohe_ostern", "kind": "phrase", "pos": "phrase", "text": "Frohe Ostern!", "zh": "复活节快乐!", "features": { "ipa": "ˈfʁoːə ˈoːstɐn" }, "noteZh": "和 Frohe Weihnachten! 一样用 frohe;h 不发音,只表示 o 读长音。" },
+    { "id": "de.osterhase", "kind": "word", "pos": "noun", "text": "der Osterhase", "zh": "复活节兔子", "features": { "gender": "m", "plural": "die Osterhasen", "ipa": "ˈoːstɐˌhaːzə" }, "noteZh": "der Hase 是“兔子”;德国的说法是复活节兔子把彩蛋藏起来,孩子们去找;商店里有很多巧克力做的复活节兔子。" },
+    { "id": "de.bunt", "kind": "word", "pos": "adj", "text": "bunt", "zh": "彩色的;五颜六色的", "features": { "ipa": "bʊnt" }, "noteZh": "u 是短音;bunte Eier(彩蛋)。" },
+    { "id": "de.garten", "kind": "word", "pos": "noun", "text": "der Garten", "zh": "花园;院子", "features": { "gender": "m", "plural": "die Gärten", "ipa": "ˈɡaʁtn̩" }, "noteZh": "复数变元音:die Gärten;im Garten(在花园里);幼儿园 der Kindergarten 就是“孩子们的花园”。" },
+    { "id": "de.schokolade", "kind": "word", "pos": "noun", "text": "die Schokolade", "zh": "巧克力", "features": { "gender": "f", "plural": "die Schokoladen", "ipa": "ʃokoˈlaːdə" }, "noteZh": "重音在 la 上;sch 读 [ʃ];aus Schokolade(巧克力做的)。" },
+    { "id": "de.ausstellung", "kind": "word", "pos": "noun", "text": "die Ausstellung", "zh": "展览", "features": { "gender": "f", "plural": "die Ausstellungen", "ipa": "ˈaʊ̯sˌʃtɛlʊŋ" }, "noteZh": "-ung 结尾都是阴性;eine Ausstellung besuchen(看展览);st 在词根开头读 [ʃt]。" },
+    { "id": "de.ein_paar", "kind": "phrase", "pos": "phrase", "text": "ein paar", "zh": "几个;一些", "features": { "ipa": "aɪ̯n ˈpaːɐ̯" }, "noteZh": "小写的 ein paar = 几个(不多):ein paar Tage(几天);大写的 ein Paar = 一双、一对:ein Paar Schuhe。" }
+  ],
+  "reviewItems": ["de.ei", "de.kuchen", "de.besuchen", "de.fliegen", "de.ausflug", "de.letzte"],
+  "lines": [
+    { "speaker": "hoffmann", "text": "Guten Morgen und frohe Ostern! Das ist mein Osterfrühstück.", "zh": "(复活节星期天,霍夫曼先生家)早上好,复活节快乐!这是我准备的复活节早餐。", "items": ["de.guten_morgen", "de.und", "de.frohe_ostern", "de.das_ist", "de.mein", "de.ostern", "de.fruehstueck"] },
+    { "speaker": "wei", "text": "Frohe Ostern, Herr Hoffmann! Die Eier sind sehr bunt und schön!", "zh": "复活节快乐,霍夫曼先生!这些彩蛋五颜六色的,真漂亮!", "items": ["de.frohe_ostern", "de.herr", "de.ei", "de.sein", "de.sehr", "de.bunt", "de.und", "de.schoen"] },
+    { "speaker": "sofia", "text": "Und der Osterhase hier ist Schokolade. Lecker!", "zh": "这只复活节兔子是巧克力做的。好吃!", "items": ["de.und", "de.osterhase", "de.hier", "de.sein", "de.schokolade", "de.lecker"] },
+    { "speaker": "hoffmann", "text": "An Ostern suchen die Kinder die Eier im Garten.", "zh": "复活节的时候,孩子们在花园里找彩蛋。", "items": ["de.an", "de.ostern", "de.suchen", "de.kind", "de.ei", "de.in", "de.garten"] },
+    { "speaker": "hoffmann", "text": "Und was haben Sie letzte Woche gemacht?", "zh": "那你们上个星期都做了什么?", "items": ["de.und", "de.was", "de.haben", "de.sie_hoeflich", "de.letzte", "de.woche", "de.machen"] },
+    { "speaker": "sofia", "text": "Ich bin für ein paar Tage nach Italien geflogen.", "zh": "我飞回意大利待了几天。", "items": ["de.ich", "de.sein", "de.fuer", "de.ein_paar", "de.tag", "de.nach", "de.italien", "de.fliegen"] },
+    { "speaker": "jonas", "text": "Und ich habe viel gearbeitet. Heute Abend arbeite ich auch.", "zh": "我呢,一直在上班。今天晚上我也要上班。", "items": ["de.und", "de.ich", "de.haben", "de.viel", "de.arbeiten", "de.heute", "de.abend", "de.auch"] },
+    { "speaker": "hoffmann", "text": "Und Sie, Herr Wang?", "zh": "您呢,王先生?", "items": ["de.und", "de.sie_hoeflich", "de.herr"] },
+    { "speaker": "wei", "text": "Lena und ich haben eine Ausstellung besucht. Sie war toll!", "zh": "我和莉娜去看了一个展览。展览特别棒!", "items": ["de.und", "de.ich", "de.haben", "de.ein", "de.ausstellung", "de.besuchen", "de.sie_sg", "de.sein", "de.toll"] },
+    { "speaker": "wei", "text": "Im April gibt es in China das Qingming-Fest.", "zh": "四月在中国有清明节。", "items": ["de.in", "de.april", "de.es_gibt", "de.china"] },
+    { "speaker": "wei", "text": "Dann machen wir mit der Familie einen Ausflug.", "zh": "那时候我们常和家人一起去郊外踏青(也去扫墓)。", "items": ["de.dann", "de.machen", "de.wir", "de.mit", "de.familie", "de.ein", "de.ausflug"] },
+    { "speaker": "hoffmann", "text": "Ein Ausflug im Frühling ist sehr schön. Möchten Sie noch Kuchen?", "zh": "春天出去郊游真好。你们还要来点儿蛋糕吗?", "items": ["de.ein", "de.ausflug", "de.in", "de.fruehling", "de.sein", "de.sehr", "de.schoen", "de.moechten", "de.sie_hoeflich", "de.noch", "de.kuchen"] }
+  ],
+  "questions": [
+    { "prompt": "霍夫曼先生说,复活节的时候孩子们在花园里做什么?", "options": ["种花", "找彩蛋", "吃蛋糕"], "answer": 1, "explainZh": "An Ostern suchen die Kinder die Eier im Garten.(复活节孩子们在花园里找彩蛋。)" },
+    { "prompt": "索菲娅上个星期做了什么?", "options": ["一直在上班", "和王伟去看了展览", "飞回意大利待了几天"], "answer": 2, "explainZh": "Ich bin für ein paar Tage nach Italien geflogen.(我飞回意大利待了几天。)一直上班的是约纳斯。" },
+    { "prompt": "王伟上个星期做了什么?", "options": ["和莉娜去看了一个展览", "回中国过清明节", "在餐馆上班"], "answer": 0, "explainZh": "Lena und ich haben eine Ausstellung besucht.(我和莉娜去看了一个展览。)清明节是他讲的中国习俗。" },
+    { "prompt": "约纳斯今天晚上要做什么?", "options": ["和大家一起吃饭", "去上班", "去看展览"], "answer": 1, "explainZh": "Heute Abend arbeite ich auch.(今天晚上我也要上班。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u8_perfekt_ostern", "titleZh": "用完成时聊天:Was haben Sie gemacht? / Ich bin nach Italien geflogen",
+      "bodyZh": "聊“做了什么”时,德语口语用现在完成时:haben / sein 的变位放在第二位,过去分词放句末。\n大多数动词用 haben:Was haben Sie letzte Woche gemacht?(machen → gemacht)/ Ich habe viel gearbeitet.(arbeiten → gearbeitet)/ An Ostern haben die Kinder Eier gesucht.(suchen → gesucht)。be- 开头的动词分词不加 ge-:besuchen → besucht:Wir haben eine Ausstellung besucht.\n表示“从一个地方到另一个地方”的动词用 sein:Ich bin nach Italien geflogen.(fliegen → geflogen)\n问朋友们时用 ihr:Was habt ihr gemacht? / Seid ihr nach Hamburg gefahren?;霍夫曼先生对年轻人也用 Sie:Was haben Sie gemacht?\n“是”的过去用 war:Die Ausstellung war toll!\n节日小知识:Ostern(复活节)在三月底或四月,日子每年不一样;祝福说 Frohe Ostern!;an Ostern(在复活节)先当固定说法记。",
+      "examples": [
+        { "text": "Was haben Sie letzte Woche gemacht?", "zh": "您上个星期做了什么?" },
+        { "text": "Ich bin nach Italien geflogen.", "zh": "我坐飞机去了意大利。" },
+        { "text": "Wir haben eine Ausstellung besucht.", "zh": "我们去看了一个展览。" },
+        { "text": "Was habt ihr gemacht?", "zh": "你们做了什么?" }
+      ] }
+  ],
+  "review": "draft"
+}

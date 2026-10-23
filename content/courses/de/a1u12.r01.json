@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u12.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-12 考试周", "order": 112045,
+  "titleZh": "考试须知", "goalZh": "读懂考试须知:几点到、带什么、不许用什么、考试的顺序和时长", "canDoZh": "能读懂考试当天的须知:几点到、带什么、不能带什么、考试的顺序",
+  "skills": ["read"], "estimatedMinutes": 15,
+  "newItems": [
+    { "id": "de.gruppe", "kind": "word", "pos": "noun", "text": "die Gruppe", "zh": "小组;组", "features": { "gender": "f", "plural": "die Gruppen", "ipa": "ˈɡʁʊpə" }, "noteZh": "u 是短音;in der Gruppe(在小组里)、in kleinen Gruppen(分成小组)。" },
+    { "id": "de.pause", "kind": "word", "pos": "noun", "text": "die Pause", "zh": "休息;课间", "features": { "gender": "f", "plural": "die Pausen", "ipa": "ˈpaʊ̯zə" }, "noteZh": "au 读 [aʊ],s 在元音前读 [z];eine Pause machen(休息一下);学校的课间休息也叫 Pause。" }
+  ],
+  "reviewItems": ["de.duerfen", "de.benutzen", "de.woerterbuch", "de.mitbringen", "de.puenktlich", "de.nachmittag"],
+  "lines": [
+    { "speaker": "narrator", "text": "Prüfung A1 am 17. Mai: Bitte lesen!", "zh": "5 月 17 日 A1 考试:请仔细阅读!", "items": ["de.pruefung", "de.am", "de.siebzehn", "de.mai", "de.bitte", "de.lesen"] },
+    { "speaker": "narrator", "text": "Bitte kommen Sie pünktlich um 8:30 Uhr.", "zh": "请准时在 8:30 到达。", "items": ["de.bitte", "de.ich_komme_aus", "de.sie_hoeflich", "de.puenktlich", "de.um", "de.acht", "de.dreissig", "de.uhr"] },
+    { "speaker": "narrator", "text": "Bringen Sie bitte Ihren Pass mit.", "zh": "请带上您的护照。", "items": ["de.mitbringen", "de.sie_hoeflich", "de.bitte", "de.ihr_hoeflich", "de.pass"] },
+    { "speaker": "narrator", "text": "Ihr Handy dürfen Sie in der Prüfung nicht benutzen.", "zh": "考试时不许用手机。", "items": ["de.ihr_hoeflich", "de.handy", "de.duerfen", "de.sie_hoeflich", "de.in", "de.pruefung", "de.nicht", "de.benutzen"] },
+    { "speaker": "narrator", "text": "Ein Wörterbuch dürfen Sie auch nicht benutzen.", "zh": "词典也不许用。", "items": ["de.ein", "de.woerterbuch", "de.duerfen", "de.sie_hoeflich", "de.auch", "de.nicht", "de.benutzen"] },
+    { "speaker": "narrator", "text": "Um 9 Uhr fängt die Prüfung mit dem Hören an.", "zh": "9 点开始考试,先考听力。", "items": ["de.um", "de.neun", "de.uhr", "de.anfangen", "de.pruefung", "de.mit", "de.hoeren"] },
+    { "speaker": "narrator", "text": "Das Hören dauert 20 Minuten.", "zh": "听力考 20 分钟。", "items": ["de.hoeren", "de.dauern", "de.zwanzig", "de.minute"] },
+    { "speaker": "narrator", "text": "Dann kommen das Lesen und das Schreiben.", "zh": "接着是阅读和写作。", "items": ["de.dann", "de.ich_komme_aus", "de.lesen", "de.und", "de.schreiben"] },
+    { "speaker": "narrator", "text": "Das Lesen dauert 25 Minuten, das Schreiben 20 Minuten.", "zh": "阅读 25 分钟,写作 20 分钟。", "items": ["de.lesen", "de.dauern", "de.fuenf", "de.und", "de.zwanzig", "de.minute", "de.schreiben"] },
+    { "speaker": "narrator", "text": "Dann haben Sie eine Pause.", "zh": "然后休息。", "items": ["de.dann", "de.haben", "de.sie_hoeflich", "de.ein", "de.pause"] },
+    { "speaker": "narrator", "text": "Am Nachmittag ist das Sprechen, in kleinen Gruppen.", "zh": "下午考口语,分成小组考。", "items": ["de.am", "de.nachmittag", "de.sein", "de.sprechen", "de.in", "de.klein", "de.gruppe"] },
+    { "speaker": "narrator", "text": "Das Sprechen dauert 15 Minuten.", "zh": "口语考 15 分钟。", "items": ["de.sprechen", "de.dauern", "de.fuenf", "de.zehn", "de.minute"] },
+    { "speaker": "narrator", "text": "In vier Wochen schicken wir Ihnen einen Brief.", "zh": "四个星期以后,我们会给您寄信。", "items": ["de.in", "de.vier", "de.woche", "de.schicken", "de.wir", "de.sie_hoeflich", "de.ein", "de.brief"] }
+  ],
+  "questions": [
+    { "prompt": "考试那天几点要到?", "options": ["9:00", "8:30", "8:00"], "answer": 1, "explainZh": "须知写着:Bitte kommen Sie pünktlich um 8:30 Uhr.(请准时在 8:30 到达。)9 点是开始考试的时间。" },
+    { "prompt": "考试先考哪一部分?", "options": ["阅读", "口语", "听力"], "answer": 2, "explainZh": "Um 9 Uhr fängt die Prüfung mit dem Hören an.(9 点开始,先考听力。)接着是阅读和写作,口语在下午。" },
+    { "prompt": "须知里说哪些东西考试时不许用?", "options": ["手机和词典", "护照", "笔"], "answer": 0, "explainZh": "Ihr Handy dürfen Sie … nicht benutzen. / Ein Wörterbuch dürfen Sie auch nicht benutzen.(手机和词典都不许用。)护照是要带的:Bringen Sie bitte Ihren Pass mit." },
+    { "prompt": "口语考试怎么考?", "options": ["上午一个人考", "下午分成小组考", "第二天再考"], "answer": 1, "explainZh": "Am Nachmittag ist das Sprechen, in kleinen Gruppen.(下午考口语,分成小组考。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u12_hinweise", "titleZh": "看须知:Sie 的命令式、dürfen … nicht、dauern",
+      "bodyZh": "考试须知、规定这类文字常用三种说法:① 要求:Sie 的命令式,常加 bitte:Bitte kommen Sie pünktlich! / Bringen Sie bitte Ihren Pass mit!(mitbringen 可分,mit 放句末);② 不许:Sie dürfen … nicht + 原形(Sie dürfen das Handy nicht benutzen.),否定名词用 kein:Sie dürfen kein Wörterbuch benutzen.;③ 多长时间:… dauert 20 Minuten。\n考试的四个部分 das Hören、das Lesen、das Schreiben、das Sprechen 是把动词原形大写、当名词用,都是中性:mit dem Hören(从听力开始)。",
+      "examples": [
+        { "text": "Bringen Sie bitte Ihren Pass mit!", "zh": "请带上您的护照!" },
+        { "text": "Sie dürfen kein Wörterbuch benutzen.", "zh": "您不许用词典。" },
+        { "text": "Das Hören dauert 20 Minuten.", "zh": "听力考 20 分钟。" }
+      ] }
+  ],
+  "review": "draft"
+}
