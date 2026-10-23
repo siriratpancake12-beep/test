@@ -9,7 +9,7 @@
     { "id": "en.exchange", "kind": "word", "pos": "noun", "text": "exchange", "zh": "换货;交换", "features": { "ipa": "ɪksˈtʃeɪndʒ" }, "noteZh": "Can I get an exchange? 能换一件吗?;exchange student 交换生。" },
     { "id": "en.refund", "kind": "word", "pos": "noun", "text": "refund", "zh": "退款", "features": { "ipa": "ˈriːfʌnd" }, "noteZh": "作名词重音在前 RE-fund;get a refund 拿到退款。" },
     { "id": "en.receipt", "kind": "word", "pos": "noun", "text": "receipt", "zh": "收据;小票", "features": { "ipa": "rɪˈsiːt" }, "noteZh": "p 不发音,读作 \"ri-SEET\";退货一般都要小票。" },
-    { "id": "en.whats_wrong_with_it", "kind": "phrase", "pos": "phrase", "text": "What's wrong with it", "zh": "它有什么问题?", "alt": ["What is wrong with it"], "features": { "ipa": "ˌwʌts ˈrɑːŋ wɪð ɪt" }, "noteZh": "wrong 的 w 不发音,读 /rɑːŋ/;问人\"你怎么了\"说 What's wrong?" },
+    { "id": "en.whats_wrong_with_it", "kind": "phrase", "pos": "phrase", "text": "What's wrong with it", "zh": "它有什么问题?;(问人)怎么了?", "alt": ["What is wrong with it"], "features": { "ipa": "ˌwʌts ˈrɑːŋ wɪð ɪt" }, "noteZh": "wrong 的 w 不发音,读 /rɑːŋ/;问人\"你怎么了\"说 What's wrong?" },
     { "id": "en.broken", "kind": "word", "pos": "adj", "text": "broken", "zh": "坏了的", "features": { "ipa": "ˈbroʊkən" }, "noteZh": "It's broken. 坏了;不说 It's bad。" },
     { "id": "en.here_it_is", "kind": "phrase", "pos": "phrase", "text": "Here it is", "zh": "在这儿;给你", "alt": ["Here you are", "Here you go"], "features": { "ipa": "ˈhɪr ɪt ˌɪz" }, "noteZh": "递东西时说;连读成 \"hi-ri-tiz\"。" },
     { "id": "en.new", "kind": "word", "pos": "adj", "text": "new", "zh": "新的", "features": { "ipa": "nuː" }, "noteZh": "美式读 /nuː/,英式读 /njuː/。" }
@@ -39,5 +39,5 @@
         { "text": "What's wrong with it? — It's broken.", "zh": "它有什么问题?——坏了。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

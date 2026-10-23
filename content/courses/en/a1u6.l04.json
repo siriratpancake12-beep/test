@@ -32,12 +32,12 @@
   ],
   "grammar": [
     { "id": "en.g.how_much_is_are", "titleZh": "How much is this? / How much are these?",
-      "bodyZh": "问价格:单数用 How much is this (T-shirt)?,复数用 How much are these (jeans)?,回答 It's… / They're…。jeans、pants、shoes 这些“成双”的东西在英语里永远是复数:These jeans are nice.——中文说“这条牛仔裤”,很容易说成 This jeans is…;代词也用 they / them。价格的读法:$15 读 fifteen dollars;$89.99 口语里常读成 eighty-nine ninety-nine,dollars 和 cents 都省掉。打折:20% off 是减掉 20%,也就是打八折(不是打二折!);50% off 是半价。发音:fifteen、thirteen 重音在后(fif-TEEN),fifty、thirty 重音在前(FIF-ty),听价格时抓住重音就不会听错。",
+      "bodyZh": "问价格:单数用 How much is this (T-shirt)?,复数用 How much are these (jeans)?,回答 It's… / They're…。jeans、pants 这种“成双”的东西在英语里永远是复数(shoes 一般也说复数):These jeans are nice.——中文说“这条牛仔裤”,很容易说成 This jeans is…;代词也用 they / them。价格的读法:$15 读 fifteen dollars;$89.99 口语里常读成 eighty-nine ninety-nine,dollars 和 cents 都省掉。打折:20% off 是减掉 20%,也就是打八折(不是打二折!);50% off 是半价。发音:fifteen、thirteen 重音在后(fif-TEEN),fifty、thirty 重音在前(FIF-ty),听价格时抓住重音就不会听错。",
       "examples": [
         { "text": "How much is this T-shirt? — It's fifteen dollars.", "zh": "这件 T 恤多少钱?——15 美元。" },
         { "text": "How much are these jeans? — They're sixty dollars.", "zh": "这条牛仔裤多少钱?——60 美元。" },
         { "text": "The jacket is eighty-nine ninety-nine.", "zh": "这件外套 89.99 美元。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

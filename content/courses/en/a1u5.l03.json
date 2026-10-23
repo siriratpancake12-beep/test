@@ -9,7 +9,7 @@
     { "id": "en.downtown", "kind": "word", "pos": "adv", "text": "downtown", "zh": "市中心;去市中心", "features": { "ipa": "ˌdaʊnˈtaʊn" }, "noteZh": "美国人说\"市中心\"最常用 downtown;作副词时前面不加 to:go downtown。" },
     { "id": "en.get_on", "kind": "phrase", "pos": "verb", "text": "get on", "zh": "上(公交、火车)", "features": { "ipa": "ˌɡet̬ ˈɑːn" }, "noteZh": "连读成 \"ge-don\";上出租车、小汽车用 get in。" },
     { "id": "en.get_off", "kind": "phrase", "pos": "verb", "text": "get off", "zh": "下(公交、火车)", "features": { "ipa": "ˌɡet̬ ˈɑːf" }, "noteZh": "连读成 \"ge-doff\";Where do I get off? 我在哪儿下车?" },
-    { "id": "en.take", "kind": "word", "pos": "verb", "text": "take", "zh": "乘坐;花(时间)", "features": { "ipa": "teɪk" }, "noteZh": "take the bus 坐公交;It takes 20 minutes. 要花 20 分钟。" },
+    { "id": "en.take", "kind": "word", "pos": "verb", "text": "take", "zh": "乘坐;花(时间);吃(药)", "features": { "ipa": "teɪk" }, "noteZh": "take the bus 坐公交;It takes 20 minutes. 要花 20 分钟。" },
     { "id": "en.how_long", "kind": "phrase", "pos": "phrase", "text": "How long", "zh": "多久;多长时间", "features": { "ipa": "ˌhaʊ ˈlɑːŋ" }, "noteZh": "How long does it take? 要多长时间?" },
     { "id": "en.next", "kind": "word", "pos": "adj", "text": "next", "zh": "下一个", "features": { "ipa": "nekst" }, "noteZh": "the next stop 下一站;next week 下周;词尾 xt /kst/ 三个辅音都要读。" },
     { "id": "en.driver", "kind": "word", "pos": "noun", "text": "driver", "zh": "司机", "features": { "ipa": "ˈdraɪvɚ" }, "noteZh": "dr 读得像“拽”的声母再加卷舌;结尾是 v + 卷舌的 er。在美国,下公交时跟司机说一声 Thank you! 很常见。" }
@@ -39,5 +39,5 @@
         { "text": "Get off at the next stop.", "zh": "在下一站下车。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

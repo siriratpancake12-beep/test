@@ -5,7 +5,7 @@
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
   "newItems": [
     { "id": "en.ticket", "kind": "word", "pos": "noun", "text": "ticket", "zh": "票", "features": { "ipa": "ˈtɪkɪt" }, "noteZh": "buy a ticket 买票;词尾 t 轻轻收住。" },
-    { "id": "en.train", "kind": "word", "pos": "noun", "text": "train", "zh": "火车;列车", "features": { "ipa": "treɪn" }, "noteZh": "tr 读得像\"缺\"的声母,别读成 \"te-rain\";轻轨、地铁的车也叫 train。" },
+    { "id": "en.train", "kind": "word", "pos": "noun", "text": "train", "zh": "火车;列车", "features": { "ipa": "treɪn" }, "noteZh": "tr 读得像\"戳\"的声母再加卷舌,别读成 \"te-rain\";轻轨、地铁的车也叫 train。" },
     { "id": "en.station", "kind": "word", "pos": "noun", "text": "station", "zh": "车站", "features": { "ipa": "ˈsteɪʃən" }, "noteZh": "train station 火车站;公交车站用 bus stop。" },
     { "id": "en.airport", "kind": "word", "pos": "noun", "text": "airport", "zh": "机场", "features": { "ipa": "ˈerpɔːrt" }, "noteZh": "两个卷舌音,重音在前 AIR-port。" },
     { "id": "en.one_way", "kind": "word", "pos": "adj", "text": "one-way", "zh": "单程的", "alt": ["one way"], "features": { "ipa": "ˌwʌn ˈweɪ" }, "noteZh": "a one-way ticket 单程票;one 读 /wʌn/,以 w 音开头,所以前面用 a。" },
@@ -39,5 +39,5 @@
         { "text": "There's a train every ten minutes.", "zh": "每十分钟有一班车。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

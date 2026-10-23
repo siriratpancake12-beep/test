@@ -6,7 +6,7 @@
   "newItems": [
     { "id": "en.brother", "kind": "word", "pos": "noun", "text": "brother", "zh": "兄弟(哥哥或弟弟)", "features": { "ipa": "ˈbrʌðɚ" }, "noteZh": "th 是浊音 /ð/,别读成 /z/ 或 /d/;英语不分哥哥弟弟,要说清楚用 older brother / younger brother。" },
     { "id": "en.sister", "kind": "word", "pos": "noun", "text": "sister", "zh": "姐妹(姐姐或妹妹)", "features": { "ipa": "ˈsɪstɚ" }, "noteZh": "同样不分姐姐妹妹:older sister 姐姐,younger sister 妹妹。" },
-    { "id": "en.have", "kind": "word", "pos": "verb", "text": "have", "zh": "有", "features": { "ipa": "hæv" }, "noteZh": "I have two brothers.;第三人称用 has:She has a sister.;词尾 v 要上齿轻碰下唇,别读成“hæf”。" },
+    { "id": "en.have", "kind": "word", "pos": "verb", "text": "have", "zh": "有;吃(饭);过(节)", "features": { "ipa": "hæv" }, "noteZh": "I have two brothers.;第三人称用 has:She has a sister.;词尾 v 要上齿轻碰下唇,别读成“hæf”。" },
     { "id": "en.older", "kind": "word", "pos": "adj", "text": "older", "zh": "年纪大一些的(哥哥、姐姐)", "features": { "ipa": "ˈoʊldɚ" }, "noteZh": "older brother 哥哥,older sister 姐姐;口语也说 big brother / big sister。" },
     { "id": "en.younger", "kind": "word", "pos": "adj", "text": "younger", "zh": "年纪小一些的(弟弟、妹妹)", "features": { "ipa": "ˈjʌŋɡɚ" }, "noteZh": "younger sister 妹妹;口语也说 little sister / little brother;注意 /ŋɡ/,g 要读出来。" },
     { "id": "en.twins", "kind": "word", "pos": "noun", "text": "twins", "zh": "双胞胎", "features": { "ipa": "twɪnz" }, "noteZh": "一对双胞胎用复数 twins;其中一个是 a twin。" },

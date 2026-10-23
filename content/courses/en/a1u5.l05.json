@@ -8,10 +8,10 @@
     { "id": "en.right_now", "kind": "phrase", "pos": "adv", "text": "right now", "zh": "现在;此刻", "features": { "ipa": "ˌraɪt ˈnaʊ" }, "noteZh": "比 now 更强调\"就在这会儿\",常和现在进行时一起用。" },
     { "id": "en.wait", "kind": "word", "pos": "verb", "text": "wait", "zh": "等", "features": { "ipa": "weɪt" }, "noteZh": "等某人要加 for:I'm waiting for you.(不说 wait you)。" },
     { "id": "en.stand", "kind": "word", "pos": "verb", "text": "stand", "zh": "站;站着", "features": { "ipa": "stænd" }, "noteZh": "I'm standing in front of the museum. 我正站在博物馆门口。" },
-    { "id": "en.in_front_of", "kind": "phrase", "pos": "prep", "text": "in front of", "zh": "在……前面;在……门口", "features": { "ipa": "ɪn ˈfrʌnt əv" }, "noteZh": "连读成“in-fron-tov”;front 的 o 读 /ʌ/。英语没有“门口”这个词,“在博物馆门口”就说 in front of the museum。" },
+    { "id": "en.in_front_of", "kind": "phrase", "pos": "prep", "text": "in front of", "zh": "在……前面;在……门口", "features": { "ipa": "ɪn ˈfrʌnt əv" }, "noteZh": "连读成“in-fron-tov”;front 的 o 读 /ʌ/。中文说“在博物馆门口”,英语一般就说 in front of the museum。" },
     { "id": "en.museum", "kind": "word", "pos": "noun", "text": "museum", "zh": "博物馆", "features": { "ipa": "mjuːˈziːəm" }, "noteZh": "重音在中间 mu-SE-um,中国人常读成 MU-seum。" },
     { "id": "en.come", "kind": "word", "pos": "verb", "text": "come", "zh": "来", "features": { "ipa": "kʌm" }, "noteZh": "I'm coming! 我这就来;朝对方所在的地方去,英语用 come,不用 go。" },
-    { "id": "en.see", "kind": "word", "pos": "verb", "text": "see", "zh": "看见", "features": { "ipa": "siː" }, "noteZh": "I see you! 我看见你了;I see. 还表示\"我明白了\"。" },
+    { "id": "en.see", "kind": "word", "pos": "verb", "text": "see", "zh": "看见;看(电影、医生)", "features": { "ipa": "siː" }, "noteZh": "I see you! 我看见你了;I see. 还表示\"我明白了\"。" },
     { "id": "en.be_right_there", "kind": "phrase", "pos": "phrase", "text": "I'll be right there", "zh": "我马上到", "alt": ["I will be right there", "Be right there"], "features": { "ipa": "aɪl bi ˌraɪt ˈðer" }, "noteZh": "right 在这里是\"马上、立刻\";there 的 th 是浊音 /ð/。" }
   ],
   "reviewItems": ["en.bus", "en.downtown", "en.walk", "en.text"],
@@ -44,5 +44,5 @@
         { "text": "I'm taking the bus right now.", "zh": "我现在正在坐公交。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

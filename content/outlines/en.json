@@ -157,7 +157,7 @@
       "newItems": [
         { "id": "en.brother", "kind": "word", "pos": "noun", "text": "brother", "zh": "兄弟(哥哥或弟弟)", "features": { "ipa": "ˈbrʌðɚ" }, "noteZh": "th 是浊音 /ð/,别读成 /z/ 或 /d/;英语不分哥哥弟弟,要说清楚用 older brother / younger brother。" },
         { "id": "en.sister", "kind": "word", "pos": "noun", "text": "sister", "zh": "姐妹(姐姐或妹妹)", "features": { "ipa": "ˈsɪstɚ" }, "noteZh": "同样不分姐姐妹妹:older sister 姐姐,younger sister 妹妹。" },
-        { "id": "en.have", "kind": "word", "pos": "verb", "text": "have", "zh": "有", "features": { "ipa": "hæv" }, "noteZh": "I have two brothers.;第三人称用 has:She has a sister.;词尾 v 要上齿轻碰下唇,别读成 \"hæf\"。" },
+        { "id": "en.have", "kind": "word", "pos": "verb", "text": "have", "zh": "有;吃(饭);过(节)", "features": { "ipa": "hæv" }, "noteZh": "I have two brothers.;第三人称用 has:She has a sister.;词尾 v 要上齿轻碰下唇,别读成 \"hæf\"。" },
         { "id": "en.older", "kind": "word", "pos": "adj", "text": "older", "zh": "年纪大一些的(哥哥、姐姐)", "features": { "ipa": "ˈoʊldɚ" }, "noteZh": "older brother 哥哥,older sister 姐姐;口语也说 big brother / big sister。" },
         { "id": "en.younger", "kind": "word", "pos": "adj", "text": "younger", "zh": "年纪小一些的(弟弟、妹妹)", "features": { "ipa": "ˈjʌŋɡɚ" }, "noteZh": "younger sister 妹妹;口语也说 little sister / little brother;注意 /ŋɡ/,g 要读出来。" },
         { "id": "en.twins", "kind": "word", "pos": "noun", "text": "twins", "zh": "双胞胎", "features": { "ipa": "twɪnz" }, "noteZh": "一对双胞胎用复数 twins;其中一个是 a twin。" },
@@ -296,7 +296,7 @@
         { "id": "en.wake_up", "kind": "phrase", "pos": "verb", "text": "wake up", "zh": "醒来", "features": { "ipa": "ˌweɪk ˈʌp" }, "noteZh": "wake up 是醒,get up 是起床:I wake up at seven, but I get up at 7:30.;连读 \"way-kup\"。" },
         { "id": "en.sleep", "kind": "word", "pos": "verb", "text": "sleep", "zh": "睡觉", "features": { "ipa": "sliːp" }, "noteZh": "ee 是长音 /iː/;词尾 p 双唇闭上就好,不要读成 \"slee-pu\"。" },
         { "id": "en.noon", "kind": "word", "pos": "noun", "text": "noon", "zh": "中午(12 点)", "features": { "ipa": "nuːn" }, "noteZh": "at noon 在中午。" },
-        { "id": "en.play", "kind": "word", "pos": "verb", "text": "play", "zh": "玩;打(球)", "features": { "ipa": "pleɪ" }, "noteZh": "play video games 打游戏,play basketball 打篮球;第三人称 plays 读 /pleɪz/。" },
+        { "id": "en.play", "kind": "word", "pos": "verb", "text": "play", "zh": "玩;打(球);弹(乐器)", "features": { "ipa": "pleɪ" }, "noteZh": "play video games 打游戏,play basketball 打篮球;第三人称 plays 读 /pleɪz/。" },
         { "id": "en.video_game", "kind": "phrase", "pos": "noun", "text": "video game", "zh": "电子游戏", "features": { "ipa": "ˈvɪdioʊ ˌɡeɪm" }, "noteZh": "v 要上齿轻咬下唇,别读成 w;一般用复数:play video games。" },
         { "id": "en.watch", "kind": "word", "pos": "verb", "text": "watch", "zh": "看(电视、比赛、视频)", "features": { "ipa": "wɑːtʃ" }, "noteZh": "看电视、看节目用 watch,看书用 read;第三人称 watches 读 /ˈwɑːtʃɪz/。" },
         { "id": "en.show", "kind": "word", "pos": "noun", "text": "show", "zh": "(电视、网络)节目;剧", "features": { "ipa": "ʃoʊ" }, "noteZh": "watch a show 看剧、看节目。" },
@@ -358,7 +358,7 @@
       "newItems": [
         { "id": "en.busy", "kind": "word", "pos": "adj", "text": "busy", "zh": "忙的", "features": { "ipa": "ˈbɪzi" }, "noteZh": "u 读 /ɪ/、s 读 /z/:\"bi-zee\"。" },
         { "id": "en.tired", "kind": "word", "pos": "adj", "text": "tired", "zh": "累的", "features": { "ipa": "ˈtaɪɚd" }, "noteZh": "ir 要卷舌,词尾 d 轻轻收住;I'm tired. 我累了。" },
-        { "id": "en.then", "kind": "word", "pos": "adv", "text": "then", "zh": "然后", "features": { "ipa": "ðen" }, "noteZh": "th 是浊音 /ð/;讲顺序:I have lunch, then I go to the library。" },
+        { "id": "en.then", "kind": "word", "pos": "adv", "text": "then", "zh": "然后;那就", "features": { "ipa": "ðen" }, "noteZh": "th 是浊音 /ð/;讲顺序:I have lunch, then I go to the library。" },
         { "id": "en.after", "kind": "word", "pos": "prep", "text": "after", "zh": "在……之后", "features": { "ipa": "ˈæftɚ" }, "noteZh": "after class 下课后,after work 下班后。" }
       ],
       "reviewItems": ["en.usually", "en.part_time", "en.weekend", "en.every_day"]
@@ -492,13 +492,13 @@
       "newItems": [
         { "id": "en.near_here", "kind": "phrase", "pos": "adv", "text": "near here", "zh": "这附近", "alt": ["around here", "nearby"], "features": { "ipa": "ˌnɪr ˈhɪr" }, "noteZh": "Is there a … near here? 这附近有……吗?;两个词都有卷舌的 r。" },
         { "id": "en.bank", "kind": "word", "pos": "noun", "text": "bank", "zh": "银行", "features": { "ipa": "bæŋk" }, "noteZh": "n 在 k 前读 /ŋ/;留学生到美国一般要先开个银行账户。" },
-        { "id": "en.pharmacy", "kind": "word", "pos": "noun", "text": "pharmacy", "zh": "药店", "alt": ["drugstore"], "features": { "ipa": "ˈfɑːrməsi" }, "noteZh": "美国药店也卖零食和日用品;也叫 drugstore。" },
+        { "id": "en.pharmacy", "kind": "word", "pos": "noun", "text": "pharmacy", "zh": "药店", "alt": ["drugstore"], "features": { "ipa": "ˈfɑːrməsi" }, "noteZh": "ph 读 /f/,重音在前 PHAR-ma-cy;美国药店除了药,也卖零食和日用品,也叫 drugstore。" },
         { "id": "en.far", "kind": "word", "pos": "adj", "text": "far", "zh": "远的", "features": { "ipa": "fɑːr" }, "noteZh": "Is it far? 远吗?— No, it's close.;ar 卷舌 /ɑːr/。" },
-        { "id": "en.close", "kind": "word", "pos": "adj", "text": "close", "zh": "近的", "features": { "ipa": "kloʊs" }, "noteZh": "作\"近\"讲读 /kloʊs/(s 是清音);作动词\"关上\"读 /kloʊz/。" },
+        { "id": "en.close", "kind": "word", "pos": "adj", "text": "close", "zh": "近的", "features": { "ipa": "kloʊs" }, "noteZh": "作“近”讲读 /kloʊs/(s 是清音),close to the bank 离银行很近;作动词“关上”读 /kloʊz/。" },
         { "id": "en.street", "kind": "word", "pos": "noun", "text": "street", "zh": "街道", "features": { "ipa": "striːt" }, "noteZh": "str 三个辅音连在一起,不要读成 \"si-te-ri-te\";地址里常缩写 St.。" },
-        { "id": "en.block", "kind": "word", "pos": "noun", "text": "block", "zh": "街区(两个路口之间的一段)", "features": { "ipa": "blɑːk" }, "noteZh": "美国人指路常说 It's two blocks away.(过两个路口就到)。" },
+        { "id": "en.block", "kind": "word", "pos": "noun", "text": "block", "zh": "街区(两个路口之间的一段)", "features": { "ipa": "blɑːk" }, "noteZh": "bl 连着读,中间不加元音,别读成“be-lock”;美国人指路常说 It's two blocks away.(再过两个路口就到)。" },
         { "id": "en.minute", "kind": "word", "pos": "noun", "text": "minute", "zh": "分钟", "features": { "ipa": "ˈmɪnɪt" }, "noteZh": "It's five minutes away. 五分钟的路程;Just a minute. 稍等一下。" },
-        { "id": "en.walk", "kind": "word", "pos": "verb", "text": "walk", "zh": "走路;步行", "features": { "ipa": "wɑːk" }, "noteZh": "l 不发音;walk /wɑːk/ 和 work /wɝːk/ 要分清。" }
+        { "id": "en.walk", "kind": "word", "pos": "verb", "text": "walk", "zh": "走路;步行", "features": { "ipa": "wɑːk" }, "noteZh": "l 不发音;walk /wɑːk/ 和 work /wɝːk/ 要分清。也能当名词:It's a five-minute walk.(走路五分钟)。" }
       ],
       "reviewItems": ["en.excuse_me", "en.thank_you", "en.say_that_again"]
     },
@@ -513,8 +513,8 @@
         { "id": "en.how_do_i_get_to", "kind": "phrase", "pos": "phrase", "text": "How do I get to", "zh": "……怎么走?;怎么去……?", "features": { "ipa": "ˌhaʊ də aɪ ˈɡet tə" }, "noteZh": "最常用的问路句:How do I get to the post office?" },
         { "id": "en.go_straight", "kind": "phrase", "pos": "verb", "text": "go straight", "zh": "直走", "alt": ["go straight ahead"], "features": { "ipa": "ˌɡoʊ ˈstreɪt" }, "noteZh": "也说 Keep going.;straight 的 str 中间不加元音。" },
         { "id": "en.turn", "kind": "word", "pos": "verb", "text": "turn", "zh": "转弯", "features": { "ipa": "tɝːn" }, "noteZh": "turn left 左转,turn right 右转;ur 卷舌 /ɝː/。" },
-        { "id": "en.left", "kind": "word", "pos": "adv", "text": "left", "zh": "左;向左", "features": { "ipa": "left" }, "noteZh": "on the left 在左边;l 舌尖顶住上齿龈。" },
-        { "id": "en.right", "kind": "word", "pos": "adv", "text": "right", "zh": "右;向右", "features": { "ipa": "raɪt" }, "noteZh": "r 开头:嘴唇先收圆,舌尖不碰上颚;读成 light 就变成了\"灯\"。" },
+        { "id": "en.left", "kind": "word", "pos": "adv", "text": "left", "zh": "左;向左", "features": { "ipa": "left" }, "noteZh": "on the left 在左手边;l 舌尖顶住上齿龈,和 right 的 r 不一样。" },
+        { "id": "en.right", "kind": "word", "pos": "adv", "text": "right", "zh": "右;向右", "features": { "ipa": "raɪt" }, "noteZh": "r 开头:嘴唇先收圆,舌尖不碰上颚;读成 light 就变成了“灯”。That's right 里的 right 是“对的”,和“右”是同一个词。" },
         { "id": "en.corner", "kind": "word", "pos": "noun", "text": "corner", "zh": "拐角;街角", "features": { "ipa": "ˈkɔːrnɚ" }, "noteZh": "on the corner 在街角;两个卷舌音。" },
         { "id": "en.next_to", "kind": "phrase", "pos": "prep", "text": "next to", "zh": "在……旁边", "features": { "ipa": "ˈnekst tə" }, "noteZh": "next 的 t 和 to 的 t 只读一个。" },
         { "id": "en.across_from", "kind": "phrase", "pos": "prep", "text": "across from", "zh": "在……对面", "features": { "ipa": "əˈkrɑːs frəm" }, "noteZh": "美式常用 across from,英式多说 opposite。" },
@@ -532,14 +532,14 @@
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
       "newItems": [
         { "id": "en.bus", "kind": "word", "pos": "noun", "text": "bus", "zh": "公交车", "features": { "ipa": "bʌs" }, "noteZh": "take the bus 坐公交;复数 buses 读 /ˈbʌsɪz/。" },
-        { "id": "en.bus_stop", "kind": "phrase", "pos": "noun", "text": "bus stop", "zh": "公交车站", "features": { "ipa": "ˈbʌs ˌstɑːp" }, "noteZh": "车站大一点的(火车站、轻轨站)叫 station。" },
+        { "id": "en.bus_stop", "kind": "phrase", "pos": "noun", "text": "bus stop", "zh": "公交车站", "features": { "ipa": "ˈbʌs ˌstɑːp" }, "noteZh": "stop 单说也指“一站”:the next stop 下一站,five stops 五站;大一点的车站(火车站、轻轨站)叫 station。" },
         { "id": "en.downtown", "kind": "word", "pos": "adv", "text": "downtown", "zh": "市中心;去市中心", "features": { "ipa": "ˌdaʊnˈtaʊn" }, "noteZh": "美国人说\"市中心\"最常用 downtown;作副词时前面不加 to:go downtown。" },
         { "id": "en.get_on", "kind": "phrase", "pos": "verb", "text": "get on", "zh": "上(公交、火车)", "features": { "ipa": "ˌɡet̬ ˈɑːn" }, "noteZh": "连读成 \"ge-don\";上出租车、小汽车用 get in。" },
         { "id": "en.get_off", "kind": "phrase", "pos": "verb", "text": "get off", "zh": "下(公交、火车)", "features": { "ipa": "ˌɡet̬ ˈɑːf" }, "noteZh": "连读成 \"ge-doff\";Where do I get off? 我在哪儿下车?" },
-        { "id": "en.take", "kind": "word", "pos": "verb", "text": "take", "zh": "乘坐;花(时间)", "features": { "ipa": "teɪk" }, "noteZh": "take the bus 坐公交;It takes 20 minutes. 要花 20 分钟。" },
+        { "id": "en.take", "kind": "word", "pos": "verb", "text": "take", "zh": "乘坐;花(时间);吃(药)", "features": { "ipa": "teɪk" }, "noteZh": "take the bus 坐公交;It takes 20 minutes. 要花 20 分钟。" },
         { "id": "en.how_long", "kind": "phrase", "pos": "phrase", "text": "How long", "zh": "多久;多长时间", "features": { "ipa": "ˌhaʊ ˈlɑːŋ" }, "noteZh": "How long does it take? 要多长时间?" },
         { "id": "en.next", "kind": "word", "pos": "adj", "text": "next", "zh": "下一个", "features": { "ipa": "nekst" }, "noteZh": "the next stop 下一站;next week 下周;词尾 xt /kst/ 三个辅音都要读。" },
-        { "id": "en.driver", "kind": "word", "pos": "noun", "text": "driver", "zh": "司机", "features": { "ipa": "ˈdraɪvɚ" }, "noteZh": "dr 读得像\"拽\"的声母再加卷舌;结尾是 v + 卷舌的 er。" }
+        { "id": "en.driver", "kind": "word", "pos": "noun", "text": "driver", "zh": "司机", "features": { "ipa": "ˈdraɪvɚ" }, "noteZh": "dr 读得像“拽”的声母再加卷舌;结尾是 v + 卷舌的 er。在美国,下公交时跟司机说一声 Thank you! 很常见。" }
       ],
       "reviewItems": ["en.how_much", "en.card", "en.minute", "en.far"]
     },
@@ -552,12 +552,12 @@
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
       "newItems": [
         { "id": "en.ticket", "kind": "word", "pos": "noun", "text": "ticket", "zh": "票", "features": { "ipa": "ˈtɪkɪt" }, "noteZh": "buy a ticket 买票;词尾 t 轻轻收住。" },
-        { "id": "en.train", "kind": "word", "pos": "noun", "text": "train", "zh": "火车;列车", "features": { "ipa": "treɪn" }, "noteZh": "tr 读得像\"缺\"的声母,别读成 \"te-rain\";轻轨、地铁的车也叫 train。" },
+        { "id": "en.train", "kind": "word", "pos": "noun", "text": "train", "zh": "火车;列车", "features": { "ipa": "treɪn" }, "noteZh": "tr 读得像\"戳\"的声母再加卷舌,别读成 \"te-rain\";轻轨、地铁的车也叫 train。" },
         { "id": "en.station", "kind": "word", "pos": "noun", "text": "station", "zh": "车站", "features": { "ipa": "ˈsteɪʃən" }, "noteZh": "train station 火车站;公交车站用 bus stop。" },
         { "id": "en.airport", "kind": "word", "pos": "noun", "text": "airport", "zh": "机场", "features": { "ipa": "ˈerpɔːrt" }, "noteZh": "两个卷舌音,重音在前 AIR-port。" },
         { "id": "en.one_way", "kind": "word", "pos": "adj", "text": "one-way", "zh": "单程的", "alt": ["one way"], "features": { "ipa": "ˌwʌn ˈweɪ" }, "noteZh": "a one-way ticket 单程票;one 读 /wʌn/,以 w 音开头,所以前面用 a。" },
         { "id": "en.round_trip", "kind": "word", "pos": "adj", "text": "round-trip", "zh": "往返的", "alt": ["round trip"], "features": { "ipa": "ˌraʊnd ˈtrɪp" }, "noteZh": "美式说 round-trip ticket,英式说 return ticket。" },
-        { "id": "en.which", "kind": "word", "pos": "det", "text": "which", "zh": "哪个;哪一", "features": { "ipa": "wɪtʃ" }, "noteZh": "在几个里选一个用 which:Which train? 哪趟车?" },
+        { "id": "en.which", "kind": "word", "pos": "det", "text": "which", "zh": "哪个;哪一", "features": { "ipa": "wɪtʃ" }, "noteZh": "在几个里选一个用 which:Which train? 哪趟车?;which 做主语时直接接动词:Which train goes to the airport?(不加 does)。" },
         { "id": "en.platform", "kind": "word", "pos": "noun", "text": "platform", "zh": "站台", "features": { "ipa": "ˈplætfɔːrm" }, "noteZh": "Platform 2 读作 platform two;重音在前。" },
         { "id": "en.buy", "kind": "word", "pos": "verb", "text": "buy", "zh": "买", "features": { "ipa": "baɪ" }, "noteZh": "buy 和 by、bye 读音一样;过去式 bought(第 8 单元)。" }
       ],
@@ -575,10 +575,10 @@
         { "id": "en.right_now", "kind": "phrase", "pos": "adv", "text": "right now", "zh": "现在;此刻", "features": { "ipa": "ˌraɪt ˈnaʊ" }, "noteZh": "比 now 更强调\"就在这会儿\",常和现在进行时一起用。" },
         { "id": "en.wait", "kind": "word", "pos": "verb", "text": "wait", "zh": "等", "features": { "ipa": "weɪt" }, "noteZh": "等某人要加 for:I'm waiting for you.(不说 wait you)。" },
         { "id": "en.stand", "kind": "word", "pos": "verb", "text": "stand", "zh": "站;站着", "features": { "ipa": "stænd" }, "noteZh": "I'm standing in front of the museum. 我正站在博物馆门口。" },
-        { "id": "en.in_front_of", "kind": "phrase", "pos": "prep", "text": "in front of", "zh": "在……前面;在……门口", "features": { "ipa": "ɪn ˈfrʌnt əv" }, "noteZh": "连读成 \"in-fron-tov\";front 的 o 读 /ʌ/。" },
-        { "id": "en.museum", "kind": "word", "pos": "noun", "text": "museum", "zh": "博物馆", "features": { "ipa": "mjuˈziːəm" }, "noteZh": "重音在中间 mu-SE-um,中国人常读成 MU-seum。" },
+        { "id": "en.in_front_of", "kind": "phrase", "pos": "prep", "text": "in front of", "zh": "在……前面;在……门口", "features": { "ipa": "ɪn ˈfrʌnt əv" }, "noteZh": "连读成“in-fron-tov”;front 的 o 读 /ʌ/。中文说“在博物馆门口”,英语一般就说 in front of the museum。" },
+        { "id": "en.museum", "kind": "word", "pos": "noun", "text": "museum", "zh": "博物馆", "features": { "ipa": "mjuːˈziːəm" }, "noteZh": "重音在中间 mu-SE-um,中国人常读成 MU-seum。" },
         { "id": "en.come", "kind": "word", "pos": "verb", "text": "come", "zh": "来", "features": { "ipa": "kʌm" }, "noteZh": "I'm coming! 我这就来;朝对方所在的地方去,英语用 come,不用 go。" },
-        { "id": "en.see", "kind": "word", "pos": "verb", "text": "see", "zh": "看见", "features": { "ipa": "siː" }, "noteZh": "I see you! 我看见你了;I see. 还表示\"我明白了\"。" },
+        { "id": "en.see", "kind": "word", "pos": "verb", "text": "see", "zh": "看见;看(电影、医生)", "features": { "ipa": "siː" }, "noteZh": "I see you! 我看见你了;I see. 还表示\"我明白了\"。" },
         { "id": "en.be_right_there", "kind": "phrase", "pos": "phrase", "text": "I'll be right there", "zh": "我马上到", "alt": ["I will be right there", "Be right there"], "features": { "ipa": "aɪl bi ˌraɪt ˈðer" }, "noteZh": "right 在这里是\"马上、立刻\";there 的 th 是浊音 /ð/。" }
       ],
       "reviewItems": ["en.bus", "en.downtown", "en.walk", "en.text"]
@@ -591,7 +591,7 @@
       "grammarFocusZh": "复习 There is / are、祈使句、方位介词、How long does it take?、现在进行时(I'm waiting for the bus, too.)。发音:指路时把关键信息(left / right、数字、街名)重读,句子之间稍作停顿。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
       "newItems": [
-        { "id": "en.tourist", "kind": "word", "pos": "noun", "text": "tourist", "zh": "游客", "features": { "ipa": "ˈtʊrɪst" }, "noteZh": "重音在前 TOUR-ist;our 读卷舌的 /ʊr/。" },
+        { "id": "en.tourist", "kind": "word", "pos": "noun", "text": "tourist", "zh": "游客", "features": { "ipa": "ˈtʊrɪst" }, "noteZh": "重音在前 TOUR-ist;our 读卷舌的 /ʊr/。问路时先说一句 Sorry, I'm a tourist.(不好意思,我是外地来的),对方往往会说得慢一点。" },
         { "id": "en.map", "kind": "word", "pos": "noun", "text": "map", "zh": "地图", "features": { "ipa": "mæp" }, "noteZh": "a 读 /æ/;Can you show me on the map? 能在地图上指给我看吗?" },
         { "id": "en.let_me_see", "kind": "phrase", "pos": "phrase", "text": "Let me see", "zh": "我想想;让我看看", "features": { "ipa": "ˌlet mi ˈsiː" }, "noteZh": "需要时间想一想时说,比沉默或者一直\"嗯……\"自然得多。" },
         { "id": "en.no_problem", "kind": "phrase", "pos": "phrase", "text": "No problem", "zh": "没问题", "features": { "ipa": "ˌnoʊ ˈprɑːbləm" }, "noteZh": "回应 Thanks 时也很常用,意思接近\"不客气\",比 You're welcome 更随意。" }
@@ -615,7 +615,7 @@
         { "id": "en.sweater", "kind": "word", "pos": "noun", "text": "sweater", "zh": "毛衣", "features": { "ipa": "ˈswet̬ɚ" }, "noteZh": "ea 读 /e/,t 读成轻快的 d:\"SWE-der\"。" },
         { "id": "en.warm", "kind": "word", "pos": "adj", "text": "warm", "zh": "暖和的", "features": { "ipa": "wɔːrm" }, "noteZh": "warm /wɔːrm/ 和 worm(虫子)/wɝːm/ 发音不同。" },
         { "id": "en.cold", "kind": "word", "pos": "adj", "text": "cold", "zh": "冷的", "features": { "ipa": "koʊld" }, "noteZh": "It's cold today. 今天很冷;cold 作名词是\"感冒\":I have a cold。" },
-        { "id": "en.rain", "kind": "word", "pos": "verb", "text": "rain", "zh": "下雨;雨", "features": { "ipa": "reɪn" }, "noteZh": "It rains a lot in Seattle. 西雅图常下雨;r 开头嘴唇先收圆。" }
+        { "id": "en.rain", "kind": "word", "pos": "verb", "text": "rain", "zh": "下雨;雨", "features": { "ipa": "reɪn" }, "noteZh": "It rains a lot in Seattle. 西雅图常下雨;也能当名词“雨”:a jacket for the rain(挡雨的外套)。r 开头嘴唇先收圆。" }
       ],
       "reviewItems": ["en.need", "en.really", "en.excuse_me"]
     },
@@ -651,11 +651,11 @@
         { "id": "en.try_on", "kind": "phrase", "pos": "verb", "text": "try on", "zh": "试穿", "features": { "ipa": "ˌtraɪ ˈɑːn" }, "noteZh": "Can I try it on?;代词要放中间:try it on,不说 try on it。" },
         { "id": "en.fitting_room", "kind": "phrase", "pos": "noun", "text": "fitting room", "zh": "试衣间", "alt": ["dressing room"], "features": { "ipa": "ˈfɪt̬ɪŋ ˌruːm" }, "noteZh": "美国店员常说 The fitting room is over there.;tt 读成轻快的 d。" },
         { "id": "en.size", "kind": "word", "pos": "noun", "text": "size", "zh": "尺码;大小", "features": { "ipa": "saɪz" }, "noteZh": "What size do you wear? 你穿什么码?;美国尺码和中国不同,最好试穿。" },
-        { "id": "en.wear", "kind": "word", "pos": "verb", "text": "wear", "zh": "穿;戴", "features": { "ipa": "wer" }, "noteZh": "穿衣服、戴眼镜、戴帽子都用 wear:wear glasses。" },
+        { "id": "en.wear", "kind": "word", "pos": "verb", "text": "wear", "zh": "穿;戴", "features": { "ipa": "wer" }, "noteZh": "穿衣服、戴眼镜、戴帽子都用 wear:wear glasses;wear 和 where 读音一样,都是 /wer/。" },
         { "id": "en.too", "kind": "word", "pos": "adv", "text": "too", "zh": "太(过分)", "features": { "ipa": "tuː" }, "noteZh": "too small 太小(不合适);very small 只是\"很小\"。too 的另一个意思\"也\"在 Me too 里学过。" },
         { "id": "en.fit", "kind": "word", "pos": "verb", "text": "fit", "zh": "(大小)合身", "features": { "ipa": "fɪt" }, "noteZh": "It fits! 正合身;fit 只说大小,颜色款式好看用 look good on you。" },
         { "id": "en.over_there", "kind": "phrase", "pos": "adv", "text": "over there", "zh": "在那边", "features": { "ipa": "ˌoʊvɚ ˈðer" }, "noteZh": "there 的 th 是浊音 /ð/。" },
-        { "id": "en.perfect", "kind": "word", "pos": "adj", "text": "perfect", "zh": "完美的;正合适", "features": { "ipa": "ˈpɝːfɪkt" }, "noteZh": "词尾 ct 两个辅音都要轻轻收住;单说 Perfect! 也常用来表示\"太好了\"。" },
+        { "id": "en.perfect", "kind": "word", "pos": "adj", "text": "perfect", "zh": "完美的;正合适", "features": { "ipa": "ˈpɝːfekt" }, "noteZh": "词尾 ct 两个辅音都要轻轻收住;单说 Perfect! 也常用来表示\"太好了\"。" },
         { "id": "en.looks_good_on_you", "kind": "phrase", "pos": "phrase", "text": "It looks good on you", "zh": "你穿着很好看", "alt": ["It looks great on you", "Looks good on you"], "features": { "ipa": "ɪt ˌlʊks ˈɡʊd ɑːn juː" }, "noteZh": "夸别人衣服好看的地道说法;looks 的 -s 别漏。" }
       ],
       "reviewItems": ["en.small", "en.large", "en.medium", "en.big"]
@@ -693,7 +693,7 @@
         { "id": "en.exchange", "kind": "word", "pos": "noun", "text": "exchange", "zh": "换货;交换", "features": { "ipa": "ɪksˈtʃeɪndʒ" }, "noteZh": "Can I get an exchange? 能换一件吗?;exchange student 交换生。" },
         { "id": "en.refund", "kind": "word", "pos": "noun", "text": "refund", "zh": "退款", "features": { "ipa": "ˈriːfʌnd" }, "noteZh": "作名词重音在前 RE-fund;get a refund 拿到退款。" },
         { "id": "en.receipt", "kind": "word", "pos": "noun", "text": "receipt", "zh": "收据;小票", "features": { "ipa": "rɪˈsiːt" }, "noteZh": "p 不发音,读作 \"ri-SEET\";退货一般都要小票。" },
-        { "id": "en.whats_wrong_with_it", "kind": "phrase", "pos": "phrase", "text": "What's wrong with it", "zh": "它有什么问题?", "alt": ["What is wrong with it"], "features": { "ipa": "ˌwʌts ˈrɑːŋ wɪð ɪt" }, "noteZh": "wrong 的 w 不发音,读 /rɑːŋ/;问人\"你怎么了\"说 What's wrong?" },
+        { "id": "en.whats_wrong_with_it", "kind": "phrase", "pos": "phrase", "text": "What's wrong with it", "zh": "它有什么问题?;(问人)怎么了?", "alt": ["What is wrong with it"], "features": { "ipa": "ˌwʌts ˈrɑːŋ wɪð ɪt" }, "noteZh": "wrong 的 w 不发音,读 /rɑːŋ/;问人\"你怎么了\"说 What's wrong?" },
         { "id": "en.broken", "kind": "word", "pos": "adj", "text": "broken", "zh": "坏了的", "features": { "ipa": "ˈbroʊkən" }, "noteZh": "It's broken. 坏了;不说 It's bad。" },
         { "id": "en.here_it_is", "kind": "phrase", "pos": "phrase", "text": "Here it is", "zh": "在这儿;给你", "alt": ["Here you are", "Here you go"], "features": { "ipa": "ˈhɪr ɪt ˌɪz" }, "noteZh": "递东西时说;连读成 \"hi-ri-tiz\"。" },
         { "id": "en.new", "kind": "word", "pos": "adj", "text": "new", "zh": "新的", "features": { "ipa": "nuː" }, "noteZh": "美式读 /nuː/,英式读 /njuː/。" }
@@ -711,7 +711,7 @@
         { "id": "en.gift", "kind": "word", "pos": "noun", "text": "gift", "zh": "礼物", "alt": ["present"], "features": { "ipa": "ɡɪft" }, "noteZh": "也常说 present;店员问 Is it a gift? 常会帮你包装。" },
         { "id": "en.birthday", "kind": "word", "pos": "noun", "text": "birthday", "zh": "生日", "features": { "ipa": "ˈbɝːθdeɪ" }, "noteZh": "th 是清音 /θ/,舌尖放在齿间送气;Happy birthday!" },
         { "id": "en.scarf", "kind": "word", "pos": "noun", "text": "scarf", "zh": "围巾", "features": { "ipa": "skɑːrf" }, "noteZh": "复数 scarves 或 scarfs。" },
-        { "id": "en.beautiful", "kind": "word", "pos": "adj", "text": "beautiful", "zh": "漂亮的;美丽的", "features": { "ipa": "ˈbjuːt̬ɪfəl" }, "noteZh": "三个音节 BEAU-ti-ful,t 读成轻快的 d。" }
+        { "id": "en.beautiful", "kind": "word", "pos": "adj", "text": "beautiful", "zh": "漂亮的;美丽的", "features": { "ipa": "ˈbjuːt̬əfəl" }, "noteZh": "三个音节 BEAU-ti-ful,t 读成轻快的 d。" }
       ],
       "reviewItems": ["en.this_one", "en.light", "en.on_sale", "en.mom"]
     },
@@ -883,7 +883,7 @@
         { "id": "en.car", "kind": "word", "pos": "noun", "text": "car", "zh": "汽车", "features": { "ipa": "kɑːr" }, "noteZh": "美式卷舌 /kɑːr/;坐车去 by car、in his car。" },
         { "id": "en.drive", "kind": "word", "pos": "verb", "text": "drive", "zh": "开车", "features": { "ipa": "draɪv" }, "noteZh": "过去式 drove;美国很多地方不开车很难出门。" },
         { "id": "en.hour", "kind": "word", "pos": "noun", "text": "hour", "zh": "小时", "features": { "ipa": "aʊr" }, "noteZh": "h 不发音,所以说 an hour(用 an)。" },
-        { "id": "en.make", "kind": "word", "pos": "verb", "text": "make", "zh": "做;制作", "features": { "ipa": "meɪk" }, "noteZh": "过去式 made;make sandwiches 做三明治;但\"做作业\"说 do homework。" },
+        { "id": "en.make", "kind": "word", "pos": "verb", "text": "make", "zh": "做;制作;交(朋友)", "features": { "ipa": "meɪk" }, "noteZh": "过去式 made;make sandwiches 做三明治;但\"做作业\"说 do homework。" },
         { "id": "en.sandwich", "kind": "word", "pos": "noun", "text": "sandwich", "zh": "三明治", "features": { "ipa": "ˈsænwɪtʃ" }, "noteZh": "d 通常不发音:\"SAN-wich\"。" },
         { "id": "en.view", "kind": "word", "pos": "noun", "text": "view", "zh": "景色;风景", "features": { "ipa": "vjuː" }, "noteZh": "v 开头,上齿轻咬下唇;The view was awesome! 风景太美了!" },
         { "id": "en.come_back", "kind": "phrase", "pos": "verb", "text": "come back", "zh": "回来", "features": { "ipa": "ˌkʌm ˈbæk" }, "noteZh": "过去式 came back;We came back at nine.。" }
@@ -903,6 +903,7 @@
         { "id": "en.headache", "kind": "word", "pos": "noun", "text": "headache", "zh": "头疼", "features": { "ipa": "ˈhedeɪk" }, "noteZh": "I have a headache. 我头疼;ache 读 /eɪk/,ch 读 /k/。" },
         { "id": "en.fever", "kind": "word", "pos": "noun", "text": "fever", "zh": "发烧", "features": { "ipa": "ˈfiːvɚ" }, "noteZh": "have a fever 发烧;美国体温用华氏度,100°F 约等于 37.8°C。" },
         { "id": "en.sore_throat", "kind": "phrase", "pos": "noun", "text": "sore throat", "zh": "嗓子疼", "features": { "ipa": "ˌsɔːr ˈθroʊt" }, "noteZh": "throat 是清音 th /θ/ 再接 r,舌尖从齿间迅速往后卷。" },
+        { "id": "en.have_a_cold", "kind": "phrase", "pos": "verb", "text": "have a cold", "zh": "感冒", "features": { "ipa": "ˌhæv ə ˈkoʊld" }, "noteZh": "这里的 cold 是名词“感冒”,要带 a:I have a cold. / You have a cold.(不说 I have cold);形容词 cold 是“冷的”。" },
         { "id": "en.doctor", "kind": "word", "pos": "noun", "text": "doctor", "zh": "医生", "features": { "ipa": "ˈdɑːktɚ" }, "noteZh": "看医生 see a doctor;称呼医生 Dr. + 姓。" },
         { "id": "en.medicine", "kind": "word", "pos": "noun", "text": "medicine", "zh": "药", "features": { "ipa": "ˈmedɪsən" }, "noteZh": "吃药说 take medicine,不说 eat medicine!" },
         { "id": "en.rest", "kind": "word", "pos": "noun", "text": "rest", "zh": "休息", "features": { "ipa": "rest" }, "noteZh": "Get some rest. 好好休息;r 开头嘴唇先收圆。" },

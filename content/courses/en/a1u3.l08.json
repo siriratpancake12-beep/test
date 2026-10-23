@@ -6,7 +6,7 @@
   "newItems": [
     { "id": "en.busy", "kind": "word", "pos": "adj", "text": "busy", "zh": "忙的", "features": { "ipa": "ˈbɪzi" }, "noteZh": "u 读 /ɪ/、s 读 /z/:\"bi-zee\"。" },
     { "id": "en.tired", "kind": "word", "pos": "adj", "text": "tired", "zh": "累的", "features": { "ipa": "ˈtaɪɚd" }, "noteZh": "ir 要卷舌,词尾 d 轻轻收住;I'm tired. 我累了。" },
-    { "id": "en.then", "kind": "word", "pos": "adv", "text": "then", "zh": "然后", "features": { "ipa": "ðen" }, "noteZh": "th 是浊音 /ð/;讲顺序:I have lunch, then I go to the library。" },
+    { "id": "en.then", "kind": "word", "pos": "adv", "text": "then", "zh": "然后;那就", "features": { "ipa": "ðen" }, "noteZh": "th 是浊音 /ð/;讲顺序:I have lunch, then I go to the library。" },
     { "id": "en.after", "kind": "word", "pos": "prep", "text": "after", "zh": "在……之后", "features": { "ipa": "ˈæftɚ" }, "noteZh": "after class 下课后,after work 下班后。" }
   ],
   "reviewItems": ["en.usually", "en.part_time", "en.weekend", "en.every_day"],

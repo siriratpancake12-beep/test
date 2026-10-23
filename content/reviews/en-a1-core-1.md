@@ -56,3 +56,35 @@
 3. **一词多义的词条,将来点词查义可能显示错的意思。** `en.right` 只登记了"右",`en.take` 是"乘坐;花(时间)",`en.cold` 是"冷的"。App 现在还没做点词查义(schema 里说 `line.items` 会用于这个功能)。如果做的时候按词形去匹配,在 That's right、right now、take medicine、a cold 里就会显示错的意思。建议按 `line.items` 匹配,并把常用义项补进词条的 zh。
 4. **索菲亚的年级没定。** 1-3 艾米问"你们是大一新生吗?",回答只交代了磊和伊森。建议在 facts 里定下。
 5. **留给母语老师再看的一句。** 4-4 `So you pay about three dollars.` 意思清楚,但更地道的说法是 leave a tip;受 A1 词汇限制,这次先保留。
+
+## 五、补审:第 5、6 单元,以及第四节问题的处理(2026-10-22)
+
+**第 5、6 单元 12 课**,`review` 都改为 `ai`,`npm run validate -- --lang en` 0 个问题。这两个单元质量好:英语、音标、理解题(答案位置也分散)、items、人物都没发现问题,只改了 3 处说明:
+- 5-5 in front of 的 noteZh 说"英语没有'门口'这个词",太绝对 → "英语一般就说 in front of the museum"。
+- 5-4 train 的提示说"tr 像'缺'的声母",不准(q 不卷舌)→ "像'戳'的声母再加卷舌",和 driver 的"拽"对应。
+- 6-4 语法说"jeans、pants、shoes 永远是复数" → shoes 只是"一般说复数"(a shoe 也能说)。
+
+**大纲同步**:这两个单元的课文件里改过 3 个音标(museum、perfect、beautiful,课文件的写法和剑桥美音一致)和 13 条 noteZh,加上这次改的 train,都同步进了 `en.json`(只改这些词条所在的行)。现在第 5、6 单元的词条和大纲完全一致。全部 48 课的 text、zh、音标也和大纲一致。
+
+**8-4 have a cold**:加了新词 `en.have_a_cold`(感冒),课文件和大纲都加了。医生那句改成 `You have a cold.`,语法说明也跟着改。`en.cold` 不再出现在表示"感冒"的句子里。8-4 现在 11 个新词,26.5 分钟。
+
+**一词多义**:逐个词条核对了 48 课里的每一处标注。补了 7 个词条的义项(课文件和大纲都改),删了 1 处错标:
+
+| 词条 | zh 改成 | 原来对不上的句子 |
+|---|---|---|
+| have | 有;吃(饭);过(节) | have lunch、I had three!、I had my first Halloween |
+| play | 玩;打(球);弹(乐器) | I play the guitar every night. |
+| then | 然后;那就 | Saturday, then. / Food is your job, then. |
+| see | 看见;看(电影、医生) | see a movie、see a doctor |
+| take | 乘坐;花(时间);吃(药) | Take this medicine twice a day. |
+| make | 做;制作;交(朋友) | Then I made friends. |
+| What's wrong with it | 它有什么问题?;(问人)怎么了? | 8-4 医生问 What's wrong? |
+| 删掉 en.go | — | 4-8 Here you go.(固定说法,不是"去";对应的 Here it is 6-5 才教) |
+
+`en.right` 没有错标:That's right、right now、I'll be right there 都标的是各自的词组。5-8 `I'm waiting for Bus 10, too.` 里的 too 是"也",en.too(太)6-3 才教,所以这句不标;句末 too 表示"也"在 1-3 Me too 的 noteZh 里讲过。
+
+**新定下的细节**(建议补进 en.facts.md):索菲亚回墨西哥后坐飞机回西雅图,磊坐轻轨去机场接她(5-4);博物馆在市中心,坐 10 路公交到派恩街约 20 分钟,下车右转走一个街区,在左手边,旁边是银行、对面是一个大图书馆(5-3、5-8);磊在中国穿 L 号,在美国试 M 太小、L 合身(6-3);磊买了外套和 T 恤,外套坏了换了一件新的(6-4、6-5);磊妈妈喜欢红色,生日在那次买围巾的下一周(6-8)。
+
+**还要负责人处理的**
+1. en.md 的数字要跟着改:词条现在是 406 个(不是 405);第 8 单元新词 49 个;8-4 有 11 个新词,超出"每课 8–10 个"。
+2. 第 1–4、7–8 单元还有 85 条 noteZh 课文件写得比大纲详细(多数只是加了例句或换了引号,之前就有),这次没同步。要统一的话,用同一个脚本一次就能同步。
