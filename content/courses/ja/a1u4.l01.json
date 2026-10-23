@@ -23,10 +23,10 @@
     { "speaker": "tenin_m", "text": "お弁当は 温めますか。", "reading": "おべんとうは あたためますか。", "zh": "(放慢速度)便当,要加热吗?", "tokens": ["お弁当", "は", "温めますか。"], "items": ["ja.obentou", "ja.wa_p", "ja.atatameru", "ja.ka_p"] },
     { "speaker": "rin", "text": "はい、おねがいします。", "zh": "好的,麻烦您了。", "tokens": ["はい、", "おねがいします。"], "items": ["ja.hai", "ja.onegaishimasu"] },
     { "speaker": "tenin_m", "text": "袋は いりますか。", "reading": "ふくろは いりますか。", "zh": "要袋子吗?", "tokens": ["袋", "は", "いりますか。"], "items": ["ja.fukuro", "ja.wa_p", "ja.iru_need", "ja.ka_p"] },
-    { "speaker": "rin", "text": "いいえ、大丈夫です。", "reading": "いいえ、だいじょうぶです。", "zh": "不用了。", "tokens": ["いいえ、", "大丈夫", "です。"], "items": ["ja.iie", "ja.daijoubu", "ja.desu"] },
+    { "speaker": "rin", "text": "いいえ、大丈夫です。", "reading": "いいえ、だいじょうぶです。", "zh": "不用了。", "tokens": ["いいえ、", "大丈夫です。"], "items": ["ja.iie", "ja.daijoubu", "ja.desu"] },
     { "speaker": "tenin_m", "text": "ありがとうございました。", "zh": "(把热好的便当递给林雨)谢谢惠顾。", "tokens": ["ありがとうございました。"], "items": ["ja.arigatou_gozaimasu"] },
-    { "speaker": "jiu", "text": "リンさん、それは コンビニの お弁当ですか。", "reading": "リンさん、それは コンビニの おべんとうですか。", "zh": "(回到教室)林雨,那是便利店的便当吗?", "tokens": ["リン", "さん、", "それ", "は", "コンビニ", "の", "お弁当", "ですか。"], "items": ["ja.san", "ja.sore", "ja.wa_p", "ja.konbini", "ja.no_p", "ja.obentou", "ja.desu", "ja.ka_p"] },
-    { "speaker": "rin", "text": "はい。コンビニは 大丈夫です!", "reading": "はい。コンビニは だいじょうぶです!", "zh": "对。便利店已经难不倒我啦!", "tokens": ["はい。", "コンビニ", "は", "大丈夫", "です!"], "items": ["ja.hai", "ja.konbini", "ja.wa_p", "ja.daijoubu", "ja.desu"] }
+    { "speaker": "jiu", "text": "リンさん、それは コンビニの お弁当ですか。", "reading": "リンさん、それは コンビニの おべんとうですか。", "zh": "(回到教室)林雨,那是便利店的便当吗?", "tokens": ["リンさん、", "それ", "は", "コンビニ", "の", "お弁当", "ですか。"], "items": ["ja.san", "ja.sore", "ja.wa_p", "ja.konbini", "ja.no_p", "ja.obentou", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "はい。コンビニは 大丈夫です!", "reading": "はい。コンビニは だいじょうぶです!", "zh": "对。便利店已经难不倒我啦!", "tokens": ["はい。", "コンビニ", "は", "大丈夫です!"], "items": ["ja.hai", "ja.konbini", "ja.wa_p", "ja.daijoubu", "ja.desu"] }
   ],
   "questions": [
     { "prompt": "店员问了什么,林雨一开始没听清?", "options": ["要不要袋子", "便当要不要加热", "要不要筷子"], "answer": 1, "explainZh": "店员说 お弁当、温めますか(便当要加热吗?),林雨说 すみません、もう一度 おねがいします(请再说一遍),店员就放慢了速度又问一次。" },

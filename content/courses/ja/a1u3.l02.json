@@ -25,7 +25,7 @@
     { "speaker": "rin", "text": "これは だれですか。お姉さんですか。", "reading": "これは だれですか。おねえさんですか。", "zh": "(指着一位很年轻的女士)这位是谁?是你姐姐吗?", "tokens": ["これ", "は", "だれ", "ですか。", "お姉さん", "ですか。"], "items": ["ja.kore", "ja.wa_p", "ja.dare", "ja.desu", "ja.ka_p", "ja.oneesan"] },
     { "speaker": "saki", "text": "いいえ、姉では ありません。母です!", "reading": "いいえ、あねでは ありません。ははです!", "zh": "(笑)不是,不是我姐姐。是我妈妈!", "tokens": ["いいえ、", "姉", "では", "ありません。", "母", "です!"], "items": ["ja.iie", "ja.ane", "ja.dewa_arimasen", "ja.haha", "ja.desu"] },
     { "speaker": "rin", "text": "お母さんですか!そうですか……。", "reading": "おかあさんですか!そうですか……。", "zh": "是你妈妈?!原来是这样……", "tokens": ["お母さん", "ですか!", "そう", "ですか……。"], "items": ["ja.okaasan", "ja.desu", "ja.ka_p", "ja.sou"] },
-    { "speaker": "saki", "text": "リンさん、それは 弟さんですか。それは 妹さんですか。", "reading": "リンさん、それは おとうとさんですか。それは いもうとさんですか。", "zh": "(看到林雨的手机屏保:一个男孩和一个女孩)林雨,这是你弟弟吗?这个是你妹妹吗?", "tokens": ["リン", "さん、", "それ", "は", "弟さん", "ですか。", "それ", "は", "妹さん", "ですか。"], "items": ["ja.san", "ja.sore", "ja.wa_p", "ja.otoutosan", "ja.desu", "ja.ka_p", "ja.imoutosan"] },
+    { "speaker": "saki", "text": "リンさん、それは 弟さんですか。それは 妹さんですか。", "reading": "リンさん、それは おとうとさんですか。それは いもうとさんですか。", "zh": "(看到林雨的手机屏保:一个男孩和一个女孩)林雨,这是你弟弟吗?这个是你妹妹吗?", "tokens": ["リンさん、", "それ", "は", "弟さん", "ですか。", "それ", "は", "妹さん", "ですか。"], "items": ["ja.san", "ja.sore", "ja.wa_p", "ja.otoutosan", "ja.desu", "ja.ka_p", "ja.imoutosan"] },
     { "speaker": "rin", "text": "はい、弟です。これは 妹では ありません。わたしです!", "reading": "はい、おとうとです。これは いもうとでは ありません。わたしです!", "zh": "对,是我弟弟。这个不是我妹妹,是我!", "tokens": ["はい、", "弟", "です。", "これ", "は", "妹", "では", "ありません。", "わたし", "です!"], "items": ["ja.hai", "ja.otouto", "ja.desu", "ja.kore", "ja.wa_p", "ja.imouto", "ja.dewa_arimasen", "ja.watashi"] }
   ],
   "questions": [

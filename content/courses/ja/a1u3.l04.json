@@ -16,13 +16,13 @@
   ],
   "reviewItems": ["ja.nani", "ja.kazoku", "ja.otouto", "ja.ani"],
   "lines": [
-    { "speaker": "rin", "text": "ジウさんは 何歳ですか。", "reading": "ジウさんは なんさいですか。", "zh": "(厨房里,两个人边做饭边聊)智友,你多大了?", "tokens": ["ジウ", "さん", "は", "何歳", "ですか。"], "items": ["ja.san", "ja.wa_p", "ja.nani", "ja.sai", "ja.desu", "ja.ka_p"] },
-    { "speaker": "jiu", "text": "21歳です。リンさんは?", "reading": "にじゅういっさいです。リンさんは?", "zh": "21 岁。你呢?", "tokens": ["21歳", "です。", "リン", "さん", "は?"], "items": ["ja.ni", "ja.juu", "ja.ichi", "ja.sai", "ja.desu", "ja.san", "ja.wa_p"] },
+    { "speaker": "rin", "text": "ジウさんは 何歳ですか。", "reading": "ジウさんは なんさいですか。", "zh": "(厨房里,两个人边做饭边聊)智友,你多大了?", "tokens": ["ジウさん", "は", "何歳", "ですか。"], "items": ["ja.san", "ja.wa_p", "ja.nani", "ja.sai", "ja.desu", "ja.ka_p"] },
+    { "speaker": "jiu", "text": "21歳です。リンさんは?", "reading": "にじゅういっさいです。リンさんは?", "zh": "21 岁。你呢?", "tokens": ["21歳", "です。", "リンさん", "は?"], "items": ["ja.ni", "ja.juu", "ja.ichi", "ja.sai", "ja.desu", "ja.san", "ja.wa_p"] },
     { "speaker": "rin", "text": "はたちです。", "zh": "20 岁。", "tokens": ["はたち", "です。"], "items": ["ja.hatachi", "ja.desu"] },
-    { "speaker": "jiu", "text": "リンさんの 家族は 何人ですか。", "reading": "リンさんの かぞくは なんにんですか。", "zh": "你家有几口人?", "tokens": ["リン", "さん", "の", "家族", "は", "何人", "ですか。"], "items": ["ja.san", "ja.no_p", "ja.kazoku", "ja.wa_p", "ja.nani", "ja.nin", "ja.desu", "ja.ka_p"] },
+    { "speaker": "jiu", "text": "リンさんの 家族は 何人ですか。", "reading": "リンさんの かぞくは なんにんですか。", "zh": "你家有几口人?", "tokens": ["リンさん", "の", "家族", "は", "何人", "ですか。"], "items": ["ja.san", "ja.no_p", "ja.kazoku", "ja.wa_p", "ja.nani", "ja.nin", "ja.desu", "ja.ka_p"] },
     { "speaker": "rin", "text": "4人です。父と 母と 弟が います。", "reading": "よにんです。ちちと ははと おとうとが います。", "zh": "4 口人。有爸爸、妈妈和弟弟。", "tokens": ["4人", "です。", "父", "と", "母", "と", "弟", "が", "います。"], "items": ["ja.yon", "ja.nin", "ja.desu", "ja.chichi", "ja.to_p", "ja.haha", "ja.otouto", "ja.ga_p", "ja.iru"] },
     { "speaker": "jiu", "text": "弟さんは 何歳ですか。", "reading": "おとうとさんは なんさいですか。", "zh": "你弟弟几岁?", "tokens": ["弟さん", "は", "何歳", "ですか。"], "items": ["ja.otoutosan", "ja.wa_p", "ja.nani", "ja.sai", "ja.desu", "ja.ka_p"] },
-    { "speaker": "rin", "text": "9歳です。ジウさんは?", "reading": "きゅうさいです。ジウさんは?", "zh": "9 岁。你呢?", "tokens": ["9歳", "です。", "ジウ", "さん", "は?"], "items": ["ja.kyuu", "ja.sai", "ja.desu", "ja.san", "ja.wa_p"] },
+    { "speaker": "rin", "text": "9歳です。ジウさんは?", "reading": "きゅうさいです。ジウさんは?", "zh": "9 岁。你呢?", "tokens": ["9歳", "です。", "ジウさん", "は?"], "items": ["ja.kyuu", "ja.sai", "ja.desu", "ja.san", "ja.wa_p"] },
     { "speaker": "jiu", "text": "わたしは 兄が ひとり います。", "reading": "わたしは あにが ひとり います。", "zh": "我有一个哥哥。", "tokens": ["わたし", "は", "兄", "が", "ひとり", "います。"], "items": ["ja.watashi", "ja.wa_p", "ja.ani", "ja.ga_p", "ja.hitori", "ja.iru"] },
     { "speaker": "rin", "text": "お兄さんは 何歳ですか。", "reading": "おにいさんは なんさいですか。", "zh": "你哥哥多大了?", "tokens": ["お兄さん", "は", "何歳", "ですか。"], "items": ["ja.oniisan", "ja.wa_p", "ja.nani", "ja.sai", "ja.desu", "ja.ka_p"] },
     { "speaker": "jiu", "text": "24歳です。", "reading": "にじゅうよんさいです。", "zh": "24 岁。", "tokens": ["24歳", "です。"], "items": ["ja.ni", "ja.juu", "ja.yon", "ja.sai", "ja.desu"] }

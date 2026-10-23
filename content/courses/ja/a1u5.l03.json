@@ -14,14 +14,14 @@
     { "id": "ja.nichiyoubi", "kind": "word", "pos": "noun", "text": "日曜日", "zh": "星期日", "features": { "reading": "にちようび", "pitch": 3 }, "noteZh": "日 在这里读 にち。星期日不能像中文那样说成“星期天”,只有 日曜日 一种说法。" },
     { "id": "ja.kyou", "kind": "word", "pos": "noun", "text": "今日", "zh": "今天", "features": { "reading": "きょう", "pitch": 1 }, "noteZh": "熟字训:两个字合起来读 きょう(きょ 是拗音,う 是长音),不能拆开读。今日 后面不加 に。" },
     { "id": "ja.youbi", "kind": "word", "pos": "noun", "text": "曜日", "zh": "星期(……曜日)", "features": { "reading": "ようび" }, "noteZh": "何曜日(なんようび)= 星期几;曜日 前面加“月火水木金土日”。" },
-    { "id": "ja.tenchou", "kind": "word", "pos": "noun", "text": "店長", "zh": "店长", "features": { "reading": "てんちょう", "pitch": 1 }, "noteZh": "称呼店长直接说 店長 就可以,不用加 さん。自我介绍说 店長の森です(我是店长森)。ちょう 是拗音 + 长音。" }
+    { "id": "ja.tenchou", "kind": "word", "pos": "noun", "text": "店長", "zh": "店长", "features": { "reading": "てんちょう", "pitch": 1 }, "noteZh": "称呼店长直接说 店長 就可以,不用加 さん。自我介绍说 店長のもりです(我是店长,姓森)。ちょう 是拗音 + 长音。" }
   ],
   "reviewItems": ["ja.kara_p", "ja.made_p", "ja.nani", "ja.ryuugakusei"],
   "lines": [
     { "speaker": "tanaka", "text": "リンさん、今日は何曜日ですか。", "zh": "(上午的课上)林雨,今天星期几?", "reading": "リンさん、きょうはなんようびですか。", "tokens": ["リン", "さん、", "今日", "は", "何曜日", "ですか。"], "items": ["ja.san", "ja.kyou", "ja.wa_p", "ja.nani", "ja.youbi", "ja.desu", "ja.ka_p"] },
     { "speaker": "rin", "text": "今日は水曜日です。", "zh": "今天星期三。", "reading": "きょうはすいようびです。", "tokens": ["今日", "は", "水曜日", "です。"], "items": ["ja.kyou", "ja.wa_p", "ja.suiyoubi", "ja.desu"] },
     { "speaker": "rin", "text": "はじめまして。留学生のリン・ユーです。よろしくおねがいします。", "zh": "(下午,在车站旁的咖啡馆面试)初次见面,我是留学生林雨。请多关照。", "reading": "はじめまして。りゅうがくせいのリン・ユーです。よろしくおねがいします。", "tokens": ["はじめまして。", "留学生", "の", "リン・ユー", "です。", "よろしくおねがいします。"], "items": ["ja.hajimemashite", "ja.ryuugakusei", "ja.no_p", "ja.desu", "ja.yoroshiku_onegaishimasu"] },
-    { "speaker": "mori", "text": "店長の森です。授業は何曜日ですか。", "zh": "我是店长,姓森。你星期几有课?", "reading": "てんちょうのもりです。じゅぎょうはなんようびですか。", "tokens": ["店長", "の", "森", "です。", "授業", "は", "何曜日", "ですか。"], "items": ["ja.tenchou", "ja.no_p", "ja.desu", "ja.jugyou", "ja.wa_p", "ja.nani", "ja.youbi", "ja.ka_p"] },
+    { "speaker": "mori", "text": "店長のもりです。授業は何曜日ですか。", "zh": "我是店长,姓森。你星期几有课?", "reading": "てんちょうのもりです。じゅぎょうはなんようびですか。", "tokens": ["店長", "の", "もり", "です。", "授業", "は", "何曜日", "ですか。"], "items": ["ja.tenchou", "ja.no_p", "ja.desu", "ja.jugyou", "ja.wa_p", "ja.nani", "ja.youbi", "ja.ka_p"] },
     { "speaker": "rin", "text": "月曜日から金曜日まで、9時から12時半までです。", "zh": "星期一到星期五,9 点到 12 点半。", "reading": "げつようびからきんようびまで、くじからじゅうにじはんまでです。", "tokens": ["月曜日", "から", "金曜日", "まで、", "9時", "から", "12時半", "まで", "です。"], "items": ["ja.getsuyoubi", "ja.kara_p", "ja.kinyoubi", "ja.made_p", "ja.kyuu", "ja.ji", "ja.juu", "ja.ni", "ja.han", "ja.desu"] },
     { "speaker": "mori", "text": "火曜日と木曜日の午後は大丈夫ですか。", "zh": "星期二和星期四的下午可以吗?", "reading": "かようびともくようびのごごはだいじょうぶですか。", "tokens": ["火曜日", "と", "木曜日", "の", "午後", "は", "大丈夫ですか。"], "items": ["ja.kayoubi", "ja.to_p", "ja.mokuyoubi", "ja.no_p", "ja.gogo", "ja.wa_p", "ja.daijoubu", "ja.desu", "ja.ka_p"] },
     { "speaker": "rin", "text": "すみません。土曜日と日曜日は大丈夫です。", "zh": "不好意思……星期六和星期日可以。", "reading": "すみません。どようびとにちようびはだいじょうぶです。", "tokens": ["すみません。", "土曜日", "と", "日曜日", "は", "大丈夫です。"], "items": ["ja.sumimasen", "ja.doyoubi", "ja.to_p", "ja.nichiyoubi", "ja.wa_p", "ja.daijoubu", "ja.desu"] },
