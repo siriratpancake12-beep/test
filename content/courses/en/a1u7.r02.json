@@ -1,0 +1,43 @@
+{
+  "id": "en.a1u7.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107085,
+  "titleZh": "万圣节小故事", "goalZh": "读懂一个简单的小故事,说出人物、发生了什么和结局", "canDoZh": "能读懂一个简单的小故事,说出人物、发生了什么、结局是什么",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "en.hear", "kind": "word", "pos": "verb", "text": "hear", "zh": "听见", "features": { "ipa": "hɪr" }, "noteZh": "hear 是“听见”(声音自己传进耳朵),listen to 是“(主动去)听”;hear 和 here 读音一样。" },
+    { "id": "en.sound", "kind": "word", "pos": "noun", "text": "sound", "zh": "声音", "features": { "ipa": "saʊnd" }, "noteZh": "a sound at the door 门口有声音;第 3 课的 Sounds good! 是“听起来不错”。ou 读 /aʊ/,词尾 nd 轻轻收住。" },
+    { "id": "en.door", "kind": "word", "pos": "noun", "text": "door", "zh": "门", "features": { "ipa": "dɔːr" }, "noteZh": "at the door 在门口;oo 在这里读 /ɔː/,结尾要卷舌,别读成“多”。" },
+    { "id": "en.knock", "kind": "word", "pos": "verb", "text": "knock", "zh": "敲(门)", "features": { "ipa": "nɑːk" }, "noteZh": "开头的 k 不发音,读 /nɑːk/;敲门声英语写成 Knock, knock!" }
+  ],
+  "reviewItems": ["en.costume", "en.scary", "en.panda", "en.video_game", "en.answer"],
+  "lines": [
+    { "speaker": "narrator", "text": "It's Halloween night. It's dark, and it's raining.", "zh": "(派对前,艾米在群里发了一个“吓人”的小故事)万圣节的晚上。天很黑,还下着雨。", "items": ["en.halloween", "en.night", "en.dark", "en.rain"] },
+    { "speaker": "narrator", "text": "Ethan is home, in his scary costume.", "zh": "伊森在宿舍,穿着他那身吓人的服装。", "items": ["en.home", "en.scary", "en.costume"] },
+    { "speaker": "narrator", "text": "He's playing a video game. Lei isn't home tonight.", "zh": "他正在打游戏。磊今晚不在。", "items": ["en.play", "en.video_game", "en.home", "en.tonight"] },
+    { "speaker": "narrator", "text": "Then Ethan hears a sound at the door.", "zh": "这时,伊森听见门口有动静。", "items": ["en.then", "en.hear", "en.sound", "en.door"] },
+    { "speaker": "narrator", "text": "Knock, knock!", "zh": "咚咚!", "items": ["en.knock"] },
+    { "speaker": "narrator", "text": "Ethan listens. The sound is really close.", "zh": "伊森竖起耳朵听。声音就在门外。", "items": ["en.listen_to", "en.sound", "en.really", "en.close"] },
+    { "speaker": "narrator", "text": "\"Who's there?\" No answer.", "zh": "“谁啊?”没人回答。", "items": ["en.answer"] },
+    { "speaker": "narrator", "text": "Knock, knock, knock!", "zh": "咚、咚、咚!", "items": ["en.knock"] },
+    { "speaker": "narrator", "text": "It's really scary! Ethan goes to the door.", "zh": "太吓人了!伊森走到门口。", "items": ["en.really", "en.scary", "en.go", "en.door"] },
+    { "speaker": "narrator", "text": "There's a big black and white thing... It's a panda!", "zh": "门外有一个黑白相间的大家伙……是一只大熊猫!", "items": ["en.big", "en.black", "en.white", "en.panda"] },
+    { "speaker": "narrator", "text": "No, it's Lei in his panda costume!", "zh": "不对,是穿着熊猫服装的磊!", "items": ["en.panda", "en.costume"] },
+    { "speaker": "narrator", "text": "Then Lei sees Ethan's scary costume and runs!", "zh": "接着,磊看见伊森那身吓人的服装,吓得扭头就跑!", "items": ["en.then", "en.see", "en.scary", "en.costume", "en.run"] },
+    { "speaker": "narrator", "text": "Now who's scary?", "zh": "现在,谁更吓人呢?", "items": ["en.scary"] }
+  ],
+  "questions": [
+    { "prompt": "故事一开始,伊森在做什么?", "options": ["在睡觉", "穿着吓人的服装打游戏", "在门口等磊"], "answer": 1, "explainZh": "Ethan is home, in his scary costume. He's playing a video game.(伊森在宿舍,穿着吓人的服装,正在打游戏。)" },
+    { "prompt": "门外的“大熊猫”是谁?", "options": ["艾米", "索菲亚", "穿着熊猫服装的磊"], "answer": 2, "explainZh": "No, it's Lei in his panda costume!(不对,是穿着熊猫服装的磊!)" },
+    { "prompt": "故事的结尾发生了什么?", "options": ["磊看见伊森吓人的服装,吓得跑了", "伊森吓得跑了", "大熊猫走进了门"], "answer": 0, "explainZh": "Then Lei sees Ethan's scary costume and runs!(磊看见伊森那身吓人的服装,扭头就跑!)这就是故事的小反转。" }
+  ],
+  "grammar": [
+    { "id": "en.g.story_present", "titleZh": "讲故事:一般现在时讲经过,现在进行时写场景",
+      "bodyZh": "讲小故事、讲笑话时,英语常用一般现在时,让人觉得事情就发生在眼前:Ethan hears a sound.(伊森听见一个声音。)Ethan goes to the door.(伊森走到门口。)主语是 he、she 或一个人名时,动词别忘了加 -s:hears、listens、goes、runs。描写当时的场景,用现在进行时:It's raining.(正下着雨。)He's playing a video game.(他正在打游戏。)读的时候分一分:哪些是“背景”(进行时),哪些是“一件接一件发生的事”(一般现在时)。",
+      "examples": [
+        { "text": "It's dark, and it's raining.", "zh": "天很黑,还下着雨。" },
+        { "text": "He's playing a video game.", "zh": "他正在打游戏。" },
+        { "text": "Ethan hears a sound. Then he goes to the door.", "zh": "伊森听见一个声音,接着走到门口。" }
+      ] }
+  ],
+  "review": "draft"
+}

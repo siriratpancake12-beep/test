@@ -145,8 +145,8 @@
       "grammarFocusZh": "复习 can(You can try food from 20 countries.)和时间地点介词;海报上常用省略句(Free! Food from 20 countries!),读的时候补全意思。",
       "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
       "newItems": [
-        { "id": "en.country", "kind": "word", "pos": "noun", "text": "country", "zh": "国家", "features": { "ipa": "ˈkʌntri" } },
-        { "id": "en.together", "kind": "word", "pos": "adv", "text": "together", "zh": "一起", "features": { "ipa": "təˈɡeðɚ" } }
+        { "id": "en.country", "kind": "word", "pos": "noun", "text": "country", "zh": "国家", "features": { "ipa": "ˈkʌntri" }, "noteZh": "food from twenty countries 二十个国家的美食;ou 读 /ʌ/,和 cup 的元音一样;复数 countries。" },
+        { "id": "en.together", "kind": "word", "pos": "adv", "text": "together", "zh": "一起", "features": { "ipa": "təˈɡeðɚ" }, "noteZh": "sing together 一起唱;th 是浊音 /ð/,重音在中间 to-GE-ther。第 4 单元结账时的 Together or separate? 里也是它。" }
       ],
       "reviewItems": ["en.can", "en.dance", "en.sing", "en.listen_to", "en.join"]
     },
@@ -158,13 +158,13 @@
       "grammarFocusZh": "What kind of…? 问种类;电影类型 action movie、comedy、horror movie、sci-fi movie;复习场次时间的读法。发音:复合名词的重音落在第一个词上——ACtion movie、HORror movie、MOvie theater。",
       "skills": ["listen", "read", "write"], "estimatedMinutes": 24,
       "newItems": [
-        { "id": "en.what_kind_of", "kind": "phrase", "pos": "phrase", "text": "What kind of", "zh": "什么类型的;哪种", "features": { "ipa": "ˌwʌt ˈkaɪnd əv" } },
-        { "id": "en.action_movie", "kind": "phrase", "pos": "noun", "text": "action movie", "zh": "动作片", "features": { "ipa": "ˈækʃən ˌmuːvi" } },
-        { "id": "en.comedy", "kind": "word", "pos": "noun", "text": "comedy", "zh": "喜剧(片)", "features": { "ipa": "ˈkɑːmədi" } },
-        { "id": "en.horror_movie", "kind": "phrase", "pos": "noun", "text": "horror movie", "zh": "恐怖片", "features": { "ipa": "ˈhɔːrɚ ˌmuːvi" } },
-        { "id": "en.sci_fi_movie", "kind": "phrase", "pos": "noun", "text": "sci-fi movie", "zh": "科幻片", "alt": ["science fiction movie"], "features": { "ipa": "ˈsaɪ ˌfaɪ ˌmuːvi" } },
-        { "id": "en.seat", "kind": "word", "pos": "noun", "text": "seat", "zh": "座位", "features": { "ipa": "siːt" } },
-        { "id": "en.popcorn", "kind": "word", "pos": "noun", "text": "popcorn", "zh": "爆米花", "features": { "ipa": "ˈpɑːpkɔːrn" } }
+        { "id": "en.what_kind_of", "kind": "phrase", "pos": "phrase", "text": "What kind of", "zh": "什么类型的;哪种", "features": { "ipa": "ˌwʌt ˈkaɪnd əv" }, "noteZh": "What kind of movies do you like? 你喜欢什么类型的电影?口语里 kind of 常连读成“kin-da”。" },
+        { "id": "en.action_movie", "kind": "phrase", "pos": "noun", "text": "action movie", "zh": "动作片", "features": { "ipa": "ˈækʃən ˌmuːvi" }, "noteZh": "复合名词重音在前:AC-tion movie;-tion 读 /ʃən/。" },
+        { "id": "en.comedy", "kind": "word", "pos": "noun", "text": "comedy", "zh": "喜剧(片)", "features": { "ipa": "ˈkɑːmədi" }, "noteZh": "重音在前 CO-me-dy,美式 o 读 /ɑː/;复数 comedies。" },
+        { "id": "en.horror_movie", "kind": "phrase", "pos": "noun", "text": "horror movie", "zh": "恐怖片", "features": { "ipa": "ˈhɔːrɚ ˌmuːvi" }, "noteZh": "重音在 HOR-ror 上;h 只是轻轻呼气,嘴唇不碰牙齿,别读成 f。" },
+        { "id": "en.sci_fi_movie", "kind": "phrase", "pos": "noun", "text": "sci-fi movie", "zh": "科幻片", "alt": ["science fiction movie"], "features": { "ipa": "ˈsaɪ ˌfaɪ ˌmuːvi" }, "noteZh": "sci-fi 读“sigh-fie”,是 science fiction(科幻)的缩写;重音在 sci 上。" },
+        { "id": "en.seat", "kind": "word", "pos": "noun", "text": "seat", "zh": "座位", "features": { "ipa": "siːt" }, "noteZh": "长元音 /iː/,别读成 sit(坐,/sɪt/);three seats together 三个连在一起的座位。" },
+        { "id": "en.popcorn", "kind": "word", "pos": "noun", "text": "popcorn", "zh": "爆米花", "features": { "ipa": "ˈpɑːpkɔːrn" }, "noteZh": "重音在前 POP-corn;在美国看电影买一桶爆米花很常见。" }
       ],
       "reviewItems": ["en.movie", "en.funny", "en.lets", "en.online", "en.together"]
     },
@@ -176,13 +176,13 @@
       "grammarFocusZh": "语音留言的结构:问候 → 我是谁(It's Lei.)→ 什么事 → 请回电(Call me back.);改约:Can we play on Sunday instead? / Is Sunday OK?;复习 can't、have to。发音:h 和 f——have、hope、half 对 fun、free、five,四川口音容易把两者混读,h 只是轻轻呼气、嘴唇不碰牙齿。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
-        { "id": "en.answer", "kind": "word", "pos": "verb", "text": "answer", "zh": "接(电话);回答", "features": { "ipa": "ˈænsɚ" } },
-        { "id": "en.voicemail", "kind": "word", "pos": "noun", "text": "voicemail", "zh": "语音信箱;语音留言", "features": { "ipa": "ˈvɔɪsmeɪl" } },
-        { "id": "en.message", "kind": "word", "pos": "noun", "text": "message", "zh": "消息;留言", "features": { "ipa": "ˈmesɪdʒ" } },
-        { "id": "en.leave_a_message", "kind": "phrase", "pos": "phrase", "text": "leave a message", "zh": "留言", "features": { "ipa": "ˌliːv ə ˈmesɪdʒ" } },
-        { "id": "en.call_back", "kind": "phrase", "pos": "verb", "text": "call back", "zh": "回电话", "features": { "ipa": "ˌkɑːl ˈbæk" } },
-        { "id": "en.instead", "kind": "word", "pos": "adv", "text": "instead", "zh": "改为;代替", "features": { "ipa": "ɪnˈsted" } },
-        { "id": "en.hope", "kind": "word", "pos": "verb", "text": "hope", "zh": "希望", "features": { "ipa": "hoʊp" } }
+        { "id": "en.answer", "kind": "word", "pos": "verb", "text": "answer", "zh": "接(电话);回答", "features": { "ipa": "ˈænsɚ" }, "noteZh": "w 不发音,读 /ˈænsɚ/;He isn't answering. 他没接电话。" },
+        { "id": "en.voicemail", "kind": "word", "pos": "noun", "text": "voicemail", "zh": "语音信箱;语音留言", "features": { "ipa": "ˈvɔɪsmeɪl" }, "noteZh": "v 是上齿轻碰下唇,别读成 w;It goes to voicemail. 转到语音信箱了。" },
+        { "id": "en.message", "kind": "word", "pos": "noun", "text": "message", "zh": "消息;留言", "features": { "ipa": "ˈmesɪdʒ" }, "noteZh": "重音在前 MES-sage,ss 读 /s/,ge 读 /dʒ/;a text message 一条短信。" },
+        { "id": "en.leave_a_message", "kind": "phrase", "pos": "phrase", "text": "leave a message", "zh": "留言", "features": { "ipa": "ˌliːv ə ˈmesɪdʒ" }, "noteZh": "Please leave a message. 请留言;leave 是长元音 /iː/,别读成 live /lɪv/。" },
+        { "id": "en.call_back", "kind": "phrase", "pos": "verb", "text": "call back", "zh": "回电话", "features": { "ipa": "ˌkɑːl ˈbæk" }, "noteZh": "Call me back. 给我回电话;宾语是代词时放中间:call me back,不说 call back me。" },
+        { "id": "en.instead", "kind": "word", "pos": "adv", "text": "instead", "zh": "改为;代替", "features": { "ipa": "ɪnˈsted" }, "noteZh": "Can we play on Sunday instead? 改到周日行吗?instead 一般放在句末;重音在后 in-STEAD,ea 读 /e/。" },
+        { "id": "en.hope", "kind": "word", "pos": "verb", "text": "hope", "zh": "希望", "features": { "ipa": "hoʊp" }, "noteZh": "I hope it's OK. 希望没问题;h 只是从喉咙轻轻呼气,嘴唇不碰牙齿,别读成 f。" }
       ],
       "reviewItems": ["en.cant", "en.have_to", "en.how_about", "en.early", "en.study"]
     },
@@ -194,10 +194,10 @@
       "grammarFocusZh": "用一般现在时讲故事(He hears a sound. The door opens.),用现在进行时描写场景(It's raining. Ethan is playing a video game.);复习本单元的 scary、costume、panda。",
       "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
       "newItems": [
-        { "id": "en.hear", "kind": "word", "pos": "verb", "text": "hear", "zh": "听见", "features": { "ipa": "hɪr" } },
-        { "id": "en.sound", "kind": "word", "pos": "noun", "text": "sound", "zh": "声音", "features": { "ipa": "saʊnd" } },
-        { "id": "en.door", "kind": "word", "pos": "noun", "text": "door", "zh": "门", "features": { "ipa": "dɔːr" } },
-        { "id": "en.knock", "kind": "word", "pos": "verb", "text": "knock", "zh": "敲(门)", "features": { "ipa": "nɑːk" } }
+        { "id": "en.hear", "kind": "word", "pos": "verb", "text": "hear", "zh": "听见", "features": { "ipa": "hɪr" }, "noteZh": "hear 是“听见”(声音自己传进耳朵),listen to 是“(主动去)听”;hear 和 here 读音一样。" },
+        { "id": "en.sound", "kind": "word", "pos": "noun", "text": "sound", "zh": "声音", "features": { "ipa": "saʊnd" }, "noteZh": "a sound at the door 门口有声音;第 3 课的 Sounds good! 是“听起来不错”。ou 读 /aʊ/,词尾 nd 轻轻收住。" },
+        { "id": "en.door", "kind": "word", "pos": "noun", "text": "door", "zh": "门", "features": { "ipa": "dɔːr" }, "noteZh": "at the door 在门口;oo 在这里读 /ɔː/,结尾要卷舌,别读成“多”。" },
+        { "id": "en.knock", "kind": "word", "pos": "verb", "text": "knock", "zh": "敲(门)", "features": { "ipa": "nɑːk" }, "noteZh": "开头的 k 不发音,读 /nɑːk/;敲门声英语写成 Knock, knock!" }
       ],
       "reviewItems": ["en.costume", "en.scary", "en.panda", "en.video_game", "en.answer"]
     },

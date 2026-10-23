@@ -1,0 +1,55 @@
+{
+  "id": "ko.a1u4.l08", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104080,
+  "titleZh": "单元复习:夜宵吃辣炒年糕", "goalZh": "把本单元的点餐、问辣不辣、说味道、刷卡结账串起来,完成一次完整的用餐",
+  "canDoZh": "能和朋友一起去小吃店:点菜、问辣不辣、评价味道,最后自己结账",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "ko.baegopayo", "kind": "word", "pos": "adj", "text": "배고파요", "zh": "饿", "features": { "roman": "baegopayo" }, "noteZh": "배(肚子)+ 고파요;原形 배고프다,ㅡ 脱落:고프 + 아요 → 고파요。" },
+    { "id": "ko.gachi", "kind": "word", "pos": "adv", "text": "같이", "zh": "一起", "features": { "roman": "gachi" }, "noteZh": "腭化:ㅌ 碰上 이 读成 ㅊ,读 [가치],不读 [가티];같이 먹어요 = 一起吃吧。" },
+    { "id": "ko.tteokbokki", "kind": "word", "pos": "noun", "text": "떡볶이", "zh": "辣炒年糕", "features": { "roman": "tteokbokki" }, "noteZh": "떡(年糕)+ 볶이(炒);两个紧音 ㄸ、ㄲ,读 [떡뽀끼]。" },
+    { "id": "ko.gyesan", "kind": "word", "pos": "noun", "text": "계산", "zh": "结账;计算", "features": { "roman": "gyesan" }, "noteZh": "汉字词 计算;结账说 계산해 주세요;韩国饭馆一般吃完到门口的收银台结账。계 读 [게]。" }
+  ],
+  "reviewItems": ["ko.gimbap", "ko.dwaeyo", "ko.jal_meogeotseumnida", "ko.jinjja"],
+  "lines": [
+    { "speaker": "sua", "text": "천징 씨, 배고파요!", "zh": "(晚上十点,宿舍里,秀雅放下手机)陈静,我饿了!", "roman": "Cheonjing ssi, baegopayo!", "items": ["ko.ssi", "ko.baegopayo"] },
+    { "speaker": "jing", "text": "저도 배고파요. 같이 먹어요!", "zh": "我也饿了。我们一起去吃吧!(今天陈静第一次请室友吃饭)", "roman": "Jeodo baegopayo. Gachi meogeoyo!", "items": ["ko.jeo", "ko.baegopayo", "ko.gachi", "ko.meogeoyo"] },
+    { "speaker": "server", "text": "어서 오세요!", "zh": "(两人来到宿舍旁边的一家小吃店,服务员阿姨热情地招呼)欢迎光临!", "roman": "Eoseo oseyo!", "items": ["ko.eoseo_oseyo"] },
+    { "speaker": "jing", "text": "저기요, 떡볶이 매워요?", "zh": "(两人坐下,陈静看着墙上的菜单问)请问,辣炒年糕辣吗?", "roman": "Jeogiyo, tteokbokki maewoyo?", "items": ["ko.jeogiyo", "ko.tteokbokki", "ko.maewoyo"] },
+    { "speaker": "server", "text": "네, 조금 매워요.", "zh": "嗯,有点辣。", "roman": "Ne, jogeum maewoyo.", "items": ["ko.ne", "ko.jogeum", "ko.maewoyo"] },
+    { "speaker": "jing", "text": "괜찮아요. 떡볶이하고 김밥 주세요.", "zh": "没关系。请给我们辣炒年糕和紫菜包饭。", "roman": "Gwaenchanayo. Tteokbokkihago gimbap juseyo.", "items": ["ko.gwaenchanayo", "ko.tteokbokki", "ko.gimbap", "ko.juseyo"] },
+    { "speaker": "sua", "text": "그리고 물도 주세요!", "zh": "还有,请给我们水!", "roman": "Geurigo muldo juseyo!", "items": ["ko.geurigo", "ko.mul", "ko.juseyo"] },
+    { "speaker": "server", "text": "네, 알겠습니다.", "zh": "好嘞。", "roman": "Ne, algetseumnida.", "items": ["ko.ne", "ko.algetseumnida"] },
+    { "speaker": "sua", "text": "천징 씨, 잘 먹겠습니다!", "zh": "(菜上来了,秀雅对请客的陈静说)陈静,那我开动啦!", "roman": "Cheonjing ssi, jal meokgetseumnida!", "items": ["ko.ssi", "ko.jal_meokgetseumnida"] },
+    { "speaker": "sua", "text": "아, 너무 매워요!", "zh": "(秀雅吃了一口辣炒年糕)啊,太辣了!", "roman": "A, neomu maewoyo!", "items": ["ko.neomu", "ko.maewoyo"] },
+    { "speaker": "jing", "text": "그래요? 진짜 맛있어요!", "zh": "是吗?真好吃啊!(陈静最爱吃辣炒年糕)", "roman": "Geuraeyo? Jinjja masisseoyo!", "items": ["ko.geuraeyo", "ko.jinjja", "ko.masisseoyo"] },
+    { "speaker": "jing", "text": "수아 씨, 물 마셔요. 김밥도 먹어요.", "zh": "(陈静把水和紫菜包饭推到秀雅面前)秀雅,喝点水,也吃点紫菜包饭。", "roman": "Sua ssi, mul masyeoyo. Gimbapdo meogeoyo.", "items": ["ko.ssi", "ko.mul", "ko.masyeoyo", "ko.gimbap", "ko.meogeoyo"] },
+    { "speaker": "sua", "text": "천징 씨, 잘 먹었습니다!", "zh": "(吃完了)陈静,我吃好了,谢谢你请客!", "roman": "Cheonjing ssi, jal meogeotseumnida!", "items": ["ko.ssi", "ko.jal_meogeotseumnida"] },
+    { "speaker": "jing", "text": "계산해 주세요. 카드 돼요?", "zh": "(陈静走到门口的收银台)请帮我结账。可以刷卡吗?", "roman": "Gyesanhae juseyo. Kadeu dwaeyo?", "items": ["ko.gyesan", "ko.kadeu", "ko.dwaeyo"] },
+    { "speaker": "server", "text": "네, 돼요. 감사합니다!", "zh": "可以。谢谢!", "roman": "Ne, dwaeyo. Gamsahamnida!", "items": ["ko.ne", "ko.dwaeyo", "ko.gamsahamnida"] },
+    { "speaker": "jing", "text": "잘 먹었습니다. 안녕히 계세요!", "zh": "(出门时陈静对阿姨说)很好吃,谢谢!再见!", "roman": "Jal meogeotseumnida. Annyeonghi gyeseyo!", "items": ["ko.jal_meogeotseumnida", "ko.annyeonghi_gyeseyo"] }
+  ],
+  "questions": [
+    { "prompt": "两个人为什么晚上出去吃东西?", "options": ["秀雅过生日", "陈静打工刚结束", "两个人都饿了"], "answer": 2, "explainZh": "第 1、2 句:秀雅说 배고파요!(我饿了),陈静说 저도 배고파요. 같이 먹어요!(我也饿了,一起去吃吧!)" },
+    { "prompt": "她们点了什么?", "options": ["辣炒年糕、紫菜包饭和水", "辣炒年糕和方便面", "拌饭和紫菜包饭"], "answer": 0, "explainZh": "第 6、7 句:떡볶이하고 김밥 주세요……그리고 물도 주세요。" },
+    { "prompt": "吃辣炒年糕时,两个人的感觉一样吗?", "options": ["一样,都觉得太辣", "不一样:秀雅觉得太辣,陈静觉得真好吃", "不一样:陈静觉得太辣,秀雅觉得真好吃"], "answer": 1, "explainZh": "第 10 句秀雅说 너무 매워요!(太辣了!);第 11 句陈静说 진짜 맛있어요!(真好吃!)" },
+    { "prompt": "陈静在收银台说“계산해 주세요”,是什么意思?", "options": ["请给我菜单", "请再给我一点水", "请帮我打包", "请帮我结账"], "answer": 3, "explainZh": "第 14 句:계산 = 结账,계산해 주세요 = 请帮我结账。카드 돼요? 是问能不能刷卡。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.gachi_suggest", "titleZh": "같이 + 动词:一起……;해요体也能表示提议",
+      "bodyZh": "같이 放在动词前面,表示“一起”:같이 먹어요。这句可以是陈述(“我们一起吃”),也可以是提议(“一起吃吧!”),靠语气和场合分辨——해요体的同一个形式能当陈述、疑问、提议甚至劝告用:물 마셔요(喝点水吧)、많이 먹어요(多吃点)。对长辈、陌生人提要求时,第 6 单元会学更客气的 -(으)세요。\n发音:같이 读 [가치]——收音 ㅌ 碰上 이,变成 ㅊ(腭化),中国学生照着写法读成 [가티] 是常见的错。배고파요 来自 배고프다:고프 + 아요,ㅡ 脱落变成 고파요,先整个记住。“我也……”还是用 도:저도 배고파요。",
+      "examples": [
+        { "text": "같이 먹어요!", "zh": "一起吃吧!" },
+        { "text": "수아 씨, 물 마셔요.", "zh": "秀雅,喝点水吧。" },
+        { "text": "저도 배고파요.", "zh": "我也饿了。" }
+      ] },
+    { "id": "ko.g.restaurant_flow", "titleZh": "复习:在韩国饭馆吃一顿饭",
+      "bodyZh": "把这一单元学的话按吃饭的顺序串起来:进门时店员说 어서 오세요 → 坐下叫人 저기요! → 问 떡볶이 매워요? → 点菜 떡볶이하고 김밥 주세요、물도 주세요 → 开吃前 잘 먹겠습니다 → 边吃边说 진짜 맛있어요!、너무 매워요! → 吃完 잘 먹었습니다 → 到门口的收银台说 계산해 주세요. 카드 돼요? → 出门 안녕히 계세요。\n韩国的小吃店、饭馆一般不在桌上结账,吃完自己到门口的收银台付钱。계산해 주세요 先整句记(“해 주세요”是“请帮我做……”,第 6 单元学)。别人请客时,饭前、饭后要对请客的人说 잘 먹겠습니다、잘 먹었습니다;离开饭馆时对店里的人说 잘 먹었습니다 也很自然。",
+      "examples": [
+        { "text": "떡볶이하고 김밥 주세요.", "zh": "请给我们辣炒年糕和紫菜包饭。" },
+        { "text": "계산해 주세요. 카드 돼요?", "zh": "请帮我结账。可以刷卡吗?" },
+        { "text": "잘 먹었습니다. 안녕히 계세요!", "zh": "很好吃,谢谢!再见!" }
+      ] }
+  ],
+  "review": "draft"
+}

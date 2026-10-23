@@ -1,0 +1,35 @@
+{
+  "id": "en.a1u8.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-8 Last weekend", "order": 108045,
+  "titleZh": "请假邮件", "goalZh": "读懂一封简短的请假邮件:哪天没去、为什么、作业怎么补", "canDoZh": "能读懂并写一封简短的请假邮件:说明哪天没去、为什么、作业怎么补",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 11.5,
+  "newItems": [],
+  "reviewItems": ["en.sick", "en.fever", "en.doctor", "en.rest", "en.get_better"],
+  "lines": [
+    { "speaker": "lei", "text": "Hi, this is Lei Zhang from your class.", "zh": "(看完医生的第二天,磊给写作课的教授发邮件)您好,我是您班上的张磊。", "items": ["en.hi", "en.this_is", "en.class"] },
+    { "speaker": "lei", "text": "I'm sorry. I wasn't in class yesterday.", "zh": "很抱歉,我昨天没去上课。", "items": ["en.sorry", "en.class", "en.yesterday"] },
+    { "speaker": "lei", "text": "I was sick. I had a cold and a fever.", "zh": "我病了,感冒发烧。", "items": ["en.sick", "en.have_a_cold", "en.fever"] },
+    { "speaker": "lei", "text": "I went to see a doctor yesterday afternoon.", "zh": "昨天下午我去看了医生。", "items": ["en.go", "en.see", "en.doctor", "en.yesterday", "en.afternoon"] },
+    { "speaker": "lei", "text": "Now I have to stay home for two days and get some rest.", "zh": "现在我得在宿舍待两天,好好休息。", "items": ["en.have_to", "en.stay_home", "en.rest"] },
+    { "speaker": "lei", "text": "I'm getting better, but I'm really tired.", "zh": "我在慢慢好起来,不过还是很累。", "items": ["en.get_better", "en.really", "en.tired"] },
+    { "speaker": "lei", "text": "Can I finish the homework next week?", "zh": "作业我可以下周再交吗?", "items": ["en.can", "en.finish", "en.homework", "en.next", "en.week"] },
+    { "speaker": "lei", "text": "I'm going to be in class next Monday.", "zh": "下周一我会来上课。", "items": ["en.going_to", "en.class", "en.next", "en.monday"] },
+    { "speaker": "lei", "text": "Thank you very much!", "zh": "非常感谢!", "items": ["en.thank_you"] },
+    { "speaker": "lei", "text": "Lei Zhang", "zh": "张磊", "items": [] }
+  ],
+  "questions": [
+    { "prompt": "磊为什么没去上课?", "options": ["他要去咖啡馆上班", "他感冒发烧了", "他忘了"], "answer": 1, "explainZh": "I was sick. I had a cold and a fever.(我病了,感冒发烧。)" },
+    { "prompt": "看完医生以后,磊要怎么做?", "options": ["在宿舍待两天,好好休息", "第二天就去上课", "去咖啡馆上班"], "answer": 0, "explainZh": "Now I have to stay home for two days and get some rest.(现在我得在宿舍待两天,好好休息。)" },
+    { "prompt": "磊在邮件里请教授答应什么?", "options": ["下周一不来上课", "帮他请一位医生", "让他下周再交作业"], "answer": 2, "explainZh": "Can I finish the homework next week?(作业我可以下周再交吗?)他还说下周一会来上课。" }
+  ],
+  "grammar": [
+    { "id": "en.g.sick_email", "titleZh": "请假邮件怎么写",
+      "bodyZh": "给老师写请假邮件,按这个顺序写:① 问候、说明自己是谁:Hi, this is Lei Zhang from your class.;② 发生了什么,用过去时:I wasn't in class yesterday. I was sick. I went to see a doctor.;③ 现在的情况和请求,用现在时:I'm getting better. Can I finish the homework next week?;④ 道谢、署名:Thank you very much! Lei Zhang。提出请求用 Can I…? 比 I want to… 客气。说“昨天”的事都用过去时(was、had、went),说现在的情况别忘了换回现在时。",
+      "examples": [
+        { "text": "I wasn't in class yesterday. I was sick.", "zh": "我昨天没去上课,我病了。" },
+        { "text": "I went to see a doctor.", "zh": "我去看了医生。" },
+        { "text": "Can I finish the homework next week?", "zh": "作业我可以下周再交吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

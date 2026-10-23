@@ -1,0 +1,48 @@
+{
+  "id": "de.a1u11.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111040,
+  "titleZh": "垃圾怎么分?", "goalZh": "听懂垃圾分类的说明,会问、会说哪种垃圾扔进哪个桶", "canDoZh": "能听懂垃圾分类的说明,说出哪种垃圾扔进哪个桶",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.tonne", "kind": "word", "pos": "noun", "text": "die Tonne", "zh": "(大)垃圾桶", "features": { "gender": "f", "plural": "die Tonnen", "ipa": "ˈtɔnə" }, "noteZh": "院子里的大垃圾桶:die gelbe / blaue / schwarze Tonne;die Biotonne(厨余桶)、die Glastonne(玻璃桶)都是复合词。" },
+    { "id": "de.gelb", "kind": "word", "pos": "adj", "text": "gelb", "zh": "黄色的", "features": { "ipa": "ɡɛlp" }, "noteZh": "die gelbe Tonne(黄桶:塑料包装);词尾 b 读 [p]。" },
+    { "id": "de.trennen", "kind": "word", "pos": "verb", "text": "trennen", "zh": "分开;分类", "features": { "ipa": "ˈtʁɛnən" }, "noteZh": "den Müll trennen(垃圾分类);和第 4 单元的 getrennt(分开付钱)是一家;双写 nn 前面的 e 是短音。" },
+    { "id": "de.zeitung", "kind": "word", "pos": "noun", "text": "die Zeitung", "zh": "报纸", "features": { "gender": "f", "plural": "die Zeitungen", "ipa": "ˈtsaɪ̯tʊŋ" }, "noteZh": "旧报纸、纸盒都扔进蓝色的桶:Zeitungen kommen in die blaue Tonne.;z 读 [ts];-ung 结尾都是阴性。" },
+    { "id": "de.plastik", "kind": "word", "pos": "noun", "text": "das Plastik", "zh": "塑料", "features": { "gender": "n", "plural": "-", "ipa": "ˈplastɪk" }, "noteZh": "中性;塑料包装扔进黄色的桶;重音在前:PLAS-tik。" },
+    { "id": "de.biomuell", "kind": "word", "pos": "noun", "text": "der Biomüll", "zh": "厨余垃圾;有机垃圾", "features": { "gender": "m", "plural": "-", "ipa": "ˈbiːoˌmʏl" }, "noteZh": "Bio(有机)+ der Müll;果皮、菜叶、剩饭扔进 die Biotonne(厨余桶)。" },
+    { "id": "de.restmuell", "kind": "word", "pos": "noun", "text": "der Restmüll", "zh": "其他垃圾", "features": { "gender": "m", "plural": "-", "ipa": "ˈʁɛstˌmʏl" }, "noteZh": "der Rest(剩下的)+ der Müll:不能回收的垃圾,扔进黑色的桶。" },
+    { "id": "de.pfand", "kind": "word", "pos": "noun", "text": "das Pfand", "zh": "押金", "features": { "gender": "n", "plural": "die Pfänder", "ipa": "pfant" }, "noteZh": "德国很多瓶子收押金:Das hat Pfand.;把瓶子拿回超市就能退钱;pf 两个音都要读出来,词尾 d 读 [t]。" },
+    { "id": "de.hof", "kind": "word", "pos": "noun", "text": "der Hof", "zh": "院子", "features": { "gender": "m", "plural": "die Höfe", "ipa": "hoːf" }, "noteZh": "柏林的老楼常有院子:im Hof(在院子里),垃圾桶、自行车都放在那儿;复数变音:Höfe。" }
+  ],
+  "reviewItems": ["de.glas", "de.blau", "de.schwarz", "de.bekommen", "de.moment", "de.muell"],
+  "lines": [
+    { "speaker": "hoffmann", "text": "Moment, Herr Wang! Das ist Glas. Das muss in die Glastonne.", "zh": "等一下,王先生!这是玻璃,得扔进玻璃桶。", "items": ["de.moment", "de.herr", "de.das_ist", "de.glas", "de.muessen", "de.in", "de.tonne"] },
+    { "speaker": "wei", "text": "Entschuldigung! Ist die gelbe Tonne nicht für alles?", "zh": "对不起!黄色的桶不是什么都能扔吗?", "items": ["de.entschuldigung", "de.sein", "de.gelb", "de.tonne", "de.nicht", "de.fuer", "de.alles"] },
+    { "speaker": "hoffmann", "text": "Nein. Wir trennen den Müll. Hier im Hof haben wir fünf Tonnen.", "zh": "不是。我们要把垃圾分类。院子里有五种桶。", "items": ["de.nein", "de.wir", "de.trennen", "de.muell", "de.hier", "de.in", "de.hof", "de.haben", "de.fuenf", "de.tonne"] },
+    { "speaker": "wei", "text": "Fünf Tonnen! Und was muss in die gelbe Tonne?", "zh": "五种桶!那黄色的桶扔什么?", "items": ["de.fuenf", "de.tonne", "de.und", "de.was", "de.muessen", "de.in", "de.gelb"] },
+    { "speaker": "hoffmann", "text": "Plastik. Und alte Zeitungen müssen in die blaue Tonne.", "zh": "塑料。旧报纸要扔进蓝色的桶。", "items": ["de.plastik", "de.und", "de.alt", "de.zeitung", "de.muessen", "de.in", "de.blau", "de.tonne"] },
+    { "speaker": "wei", "text": "Und Obst und Gemüse? Ist das Biomüll?", "zh": "那水果和蔬菜呢?算厨余垃圾吗?", "items": ["de.und", "de.obst", "de.gemuese", "de.sein", "de.biomuell"] },
+    { "speaker": "hoffmann", "text": "Ja, Biomüll muss in die Biotonne. Und der Restmüll muss in die schwarze Tonne.", "zh": "对,厨余垃圾要扔进厨余桶。其他垃圾扔进黑色的桶。", "items": ["de.ja", "de.biomuell", "de.muessen", "de.in", "de.tonne", "de.und", "de.restmuell", "de.schwarz"] },
+    { "speaker": "wei", "text": "Und das hier ist Plastik. Das muss in die gelbe Tonne, ja?", "zh": "这个是塑料,得扔进黄色的桶,对吧?", "items": ["de.und", "de.hier", "de.sein", "de.plastik", "de.muessen", "de.in", "de.gelb", "de.tonne", "de.ja"] },
+    { "speaker": "hoffmann", "text": "Nein, sehen Sie hier: Das hat Pfand.", "zh": "不对,您看这儿:这个有押金。", "items": ["de.nein", "de.sehen", "de.sie_hoeflich", "de.hier", "de.haben", "de.pfand"] },
+    { "speaker": "hoffmann", "text": "Im Supermarkt bekommen Sie Geld zurück.", "zh": "拿到超市,您能拿回钱。", "items": ["de.in", "de.supermarkt", "de.bekommen", "de.sie_hoeflich", "de.geld", "de.zurueck"] },
+    { "speaker": "wei", "text": "Danke, Herr Hoffmann! Ab jetzt trenne ich den Müll.", "zh": "谢谢您,霍夫曼先生!从现在起我会把垃圾分好类。", "items": ["de.danke", "de.herr", "de.ab", "de.jetzt", "de.trennen", "de.ich", "de.muell"] },
+    { "speaker": "hoffmann", "text": "Gern! Das ist nicht schwer.", "zh": "不客气!这不难。", "items": ["de.gern", "de.das_ist", "de.nicht", "de.schwer"] }
+  ],
+  "questions": [
+    { "prompt": "王伟一开始把什么扔进了黄色的桶?", "options": ["塑料", "玻璃", "旧报纸"], "answer": 1, "explainZh": "霍夫曼先生说:Das ist Glas. Das muss in die Glastonne.(这是玻璃,得扔进玻璃桶。)王伟以为黄色的桶什么都能扔。" },
+    { "prompt": "旧报纸扔进哪个桶?", "options": ["黄色的桶", "黑色的桶", "蓝色的桶"], "answer": 2, "explainZh": "霍夫曼先生说:Alte Zeitungen müssen in die blaue Tonne.(旧报纸要扔进蓝色的桶。)黄色的桶扔塑料,黑色的桶扔其他垃圾。" },
+    { "prompt": "有押金的塑料瓶怎么办?", "options": ["拿到超市,能拿回钱", "扔进黄色的桶", "扔进黑色的桶"], "answer": 0, "explainZh": "霍夫曼先生说:Das hat Pfand. Im Supermarkt bekommen Sie Geld zurück.(这个有押金,拿到超市能拿回钱。)" },
+    { "prompt": "院子里一共有几种垃圾桶?", "options": ["三种", "五种", "四种"], "answer": 1, "explainZh": "霍夫曼先生说:Hier im Hof haben wir fünf Tonnen.(院子里有五种桶:玻璃桶、黄桶、蓝桶、厨余桶、黑桶。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.muell_in_die_tonne", "titleZh": "垃圾分类的说法:… muss in die … Tonne",
+      "bodyZh": "说哪种垃圾扔进哪个桶:Glas muss in die Glastonne.(玻璃得扔进玻璃桶。)/ Plastik muss in die gelbe Tonne.——muss 后面“扔”的动词省掉了,口语里很常见。问:Was muss in die gelbe Tonne?(黄色的桶扔什么?)\nin die … Tonne 先当固定说法记,表示“扔进去”;颜色放在 die 和 Tonne 中间要加 -e:die gelbe / blaue / schwarze Tonne。为什么这里是 in die 而不是 in der,A2 学双向介词时再细讲。\n对邻居、长辈用 Sie 的命令式:Sehen Sie hier!(您看这儿!)",
+      "examples": [
+        { "text": "Glas muss in die Glastonne.", "zh": "玻璃得扔进玻璃桶。" },
+        { "text": "Was muss in die gelbe Tonne?", "zh": "黄色的桶扔什么?" },
+        { "text": "Alte Zeitungen müssen in die blaue Tonne.", "zh": "旧报纸要扔进蓝色的桶。" }
+      ] }
+  ],
+  "review": "draft"
+}

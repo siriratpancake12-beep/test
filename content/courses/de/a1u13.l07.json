@@ -21,7 +21,7 @@
     { "speaker": "chefin", "text": "Du bekommst auch viel Trinkgeld. Das machst du gut!", "zh": "你得的小费也很多。你干得不错!", "items": ["de.du", "de.bekommen", "de.auch", "de.viel", "de.trinkgeld", "de.machen", "de.gut"] },
     { "speaker": "wei", "text": "Danke! Und was muss ich noch üben?", "zh": "谢谢!那我还要练什么?", "items": ["de.danke", "de.und", "de.was", "de.muessen", "de.ich", "de.noch", "de.ueben"] },
     { "speaker": "chefin", "text": "Beim Wechselgeld bist du noch zu langsam.", "zh": "找零钱的时候你还太慢。", "items": ["de.bei", "de.wechselgeld", "de.sein", "de.du", "de.noch", "de.zu_adv", "de.langsam"] },
-    { "speaker": "chefin", "text": "Gestern hat eine Kundin lange gewartet. Du musst noch rechnen üben.", "zh": "昨天有位女顾客等了好久。你还得练练算钱。", "items": ["de.gestern", "de.haben", "de.ein", "de.kundin", "de.lang", "de.warten", "de.du", "de.muessen", "de.noch", "de.rechnen", "de.ueben"] },
+    { "speaker": "chefin", "text": "Gestern hat eine Kundin lange gewartet. Du musst das Rechnen noch üben.", "zh": "昨天有位女顾客等了好久。算钱你还得多练练。", "items": ["de.gestern", "de.haben", "de.ein", "de.kundin", "de.lang", "de.warten", "de.du", "de.muessen", "de.noch", "de.rechnen", "de.ueben"] },
     { "speaker": "wei", "text": "Soll ich zu Hause üben?", "zh": "要我在家里练吗?", "items": ["de.sollen", "de.ich", "de.zu_hause", "de.ueben"] },
     { "speaker": "chefin", "text": "Ja, gern. Und noch eine Frage: Kannst du im Juli mehr arbeiten?", "zh": "好啊。还有个问题:七月你能多上几天班吗?", "items": ["de.ja", "de.gern", "de.und", "de.noch", "de.ein", "de.frage", "de.koennen", "de.du", "de.in", "de.juli", "de.mehr", "de.arbeiten"] },
     { "speaker": "wei", "text": "Ab Mitte Juli, ja. Dann sind Semesterferien.", "zh": "七月中旬以后可以,那时候放暑假了。", "items": ["de.ab", "de.mitte", "de.juli", "de.ja", "de.dann", "de.sein", "de.semester", "de.ferien"] },
@@ -30,12 +30,12 @@
   ],
   "questions": [
     { "prompt": "老板觉得王伟哪里做得好?", "options": ["找零钱很快", "会说意大利语", "对顾客很友好,干活也快"], "answer": 2, "explainZh": "老板说:Die Kunden finden dich sehr freundlich, und du arbeitest schnell.(顾客觉得你很友好,你干活也快。)找零钱反而是他还要练的。" },
-    { "prompt": "王伟还要多练什么?", "options": ["说德语", "算钱、找零钱", "做冰淇淋"], "answer": 1, "explainZh": "老板说:Beim Wechselgeld bist du noch zu langsam. … Du musst noch rechnen üben.(找零钱还太慢,得练练算钱。)" },
+    { "prompt": "王伟还要多练什么?", "options": ["说德语", "算钱、找零钱", "做冰淇淋"], "answer": 1, "explainZh": "老板说:Beim Wechselgeld bist du noch zu langsam. … Du musst das Rechnen noch üben.(找零钱还太慢,算钱还得多练练。)" },
     { "prompt": "七月王伟什么时候可以多上班?", "options": ["七月中旬以后", "七月初", "七月底"], "answer": 0, "explainZh": "王伟说:Ab Mitte Juli, ja. Dann sind Semesterferien.(七月中旬以后可以,那时放暑假。)七月底他要去旅行。" }
   ],
   "grammar": [
     { "id": "de.g.u13_feedback", "titleZh": "评价工作:夸奖和建议",
-      "bodyZh": "夸奖:Ich bin sehr zufrieden mit dir.(我对你很满意。zufrieden mit + 人)/ Das machst du gut!(你干得好!)/ Die Kunden finden dich freundlich.(finden + 人 + 形容词)。指出问题:Beim Wechselgeld bist du noch zu langsam.(beim = bei dem,“在……方面”)/ Du musst noch rechnen üben.。自己问怎么改进:Was muss ich noch üben? / Soll ich zu Hause üben?(Soll ich …? 复习)。听到批评可以先说 Danke!,再问怎么做。",
+      "bodyZh": "夸奖:Ich bin sehr zufrieden mit dir.(我对你很满意。zufrieden mit + 人)/ Das machst du gut!(你干得好!)/ Die Kunden finden dich freundlich.(finden + 人 + 形容词)。指出问题:Beim Wechselgeld bist du noch zu langsam.(beim = bei dem,“在……方面”)/ Du musst das Rechnen noch üben.(动词前面加 das 就当名词用,首字母大写:das Rechnen,像 das Hören、das Lesen)。自己问怎么改进:Was muss ich noch üben? / Soll ich zu Hause üben?(Soll ich …? 复习)。听到批评可以先说 Danke!,再问怎么做。",
       "examples": [
         { "text": "Ich bin sehr zufrieden mit dir!", "zh": "我对你很满意!" },
         { "text": "Was muss ich noch üben?", "zh": "我还要练什么?" }

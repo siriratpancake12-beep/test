@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u16.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116085,
+  "titleZh": "德国人怎么吃饭", "goalZh": "读懂一篇介绍德国饮食习惯的短文,能和中国的习惯对比", "canDoZh": "能读懂一篇介绍德国饮食习惯的短文,和中国的习惯对比",
+  "skills": ["read", "write"], "estimatedMinutes": 14,
+  "newItems": [
+    { "id": "de.abendbrot", "kind": "word", "pos": "noun", "text": "das Abendbrot", "zh": "(德国式的)晚饭:面包配冷菜", "features": { "gender": "n", "plural": "-", "ipa": "ˈaːbn̩tˌbʁoːt" }, "noteZh": "der Abend + das Brot:很多德国家庭晚上只吃面包、奶酪、香肠和生菜,不开火;也泛指晚饭。" },
+    { "id": "de.sorte", "kind": "word", "pos": "noun", "text": "die Sorte", "zh": "种类;品种", "features": { "gender": "f", "plural": "die Sorten", "ipa": "ˈzɔʁtə" }, "noteZh": "viele Sorten Brot(很多种面包)——Sorte 后面直接跟名词;s 读 [z]。" }
+  ],
+  "reviewItems": ["de.vegetarisch", "de.garten", "de.jung", "de.nachmittag", "de.grillen"],
+  "lines": [
+    { "speaker": "narrator", "text": "Wie essen die Leute in Deutschland?", "zh": "(德语课的阅读材料)德国人怎么吃饭?", "items": ["de.wie", "de.essen", "de.leute", "de.in", "de.deutschland"] },
+    { "speaker": "narrator", "text": "Viele essen am Mittag warm: Fleisch oder Fisch mit Kartoffeln und Gemüse.", "zh": "很多人中午吃热饭:肉或者鱼,配土豆和蔬菜。", "items": ["de.viel", "de.essen", "de.am", "de.mittag", "de.warm", "de.fleisch", "de.oder", "de.fisch", "de.mit", "de.kartoffel", "de.und", "de.gemuese"] },
+    { "speaker": "narrator", "text": "Am Abend gibt es oft Abendbrot.", "zh": "晚上常常吃“面包晚饭”(Abendbrot)。", "items": ["de.am", "de.abend", "de.es_gibt", "de.oft", "de.abendbrot"] },
+    { "speaker": "narrator", "text": "Das ist Brot mit Käse oder Wurst, und es ist kalt.", "zh": "就是面包配奶酪或者香肠,是冷的。", "items": ["de.das_ist", "de.brot", "de.mit", "de.kaese", "de.oder", "de.wurst", "de.und", "de.es", "de.sein", "de.kalt"] },
+    { "speaker": "narrator", "text": "In Deutschland gibt es sehr viele Sorten Brot.", "zh": "德国的面包种类非常多。", "items": ["de.in", "de.deutschland", "de.es_gibt", "de.sehr", "de.viel", "de.sorte", "de.brot"] },
+    { "speaker": "narrator", "text": "Am Sonntagnachmittag gibt es oft Kaffee und Kuchen.", "zh": "星期天下午常常喝咖啡、吃蛋糕。", "items": ["de.am", "de.sonntag", "de.nachmittag", "de.es_gibt", "de.oft", "de.kaffee", "de.und", "de.kuchen"] },
+    { "speaker": "narrator", "text": "Viele junge Leute essen kein Fleisch. Sie essen vegetarisch.", "zh": "很多年轻人不吃肉,他们吃素。", "items": ["de.viel", "de.jung", "de.leute", "de.essen", "de.kein", "de.fleisch", "de.sie_pl", "de.vegetarisch"] },
+    { "speaker": "narrator", "text": "Im Sommer grillen die Leute gern im Garten oder im Park.", "zh": "夏天,大家喜欢在院子里或者公园里烧烤。", "items": ["de.in", "de.sommer", "de.grillen", "de.leute", "de.gern", "de.garten", "de.oder", "de.park"] },
+    { "speaker": "wei", "text": "In China essen wir am Abend warm, oft mit der Familie.", "zh": "(王伟写的感想)在中国,我们晚上吃热菜,常常和家人一起吃。", "items": ["de.in", "de.china", "de.essen", "de.wir", "de.am", "de.abend", "de.warm", "de.oft", "de.mit", "de.familie"] },
+    { "speaker": "wei", "text": "Ein kaltes Abendbrot? Das kenne ich aus China nicht.", "zh": "冷的晚饭?这在中国我可没见过。", "items": ["de.ein", "de.kalt", "de.abendbrot", "de.kennen", "de.ich", "de.ich_komme_aus", "de.china", "de.nicht"] },
+    { "speaker": "wei", "text": "Aber Kaffee und Kuchen am Sonntag finde ich toll!", "zh": "不过星期天喝咖啡、吃蛋糕,我觉得特别好!", "items": ["de.aber", "de.kaffee", "de.und", "de.kuchen", "de.am", "de.sonntag", "de.finden", "de.ich", "de.toll"] }
+  ],
+  "questions": [
+    { "prompt": "很多德国人晚上吃什么?", "options": ["热的饭菜", "面条", "面包配奶酪或香肠"], "answer": 2, "explainZh": "Am Abend gibt es oft Abendbrot. Das ist Brot mit Käse oder Wurst, und es ist kalt.(晚上常吃 Abendbrot:面包配奶酪或香肠,是冷的。)" },
+    { "prompt": "星期天下午德国人常做什么?", "options": ["喝咖啡、吃蛋糕", "去餐馆吃饭", "烧烤"], "answer": 0, "explainZh": "Am Sonntagnachmittag gibt es oft Kaffee und Kuchen.(星期天下午常常喝咖啡、吃蛋糕。)" },
+    { "prompt": "王伟觉得哪一点很好?", "options": ["冷的晚饭", "星期天喝咖啡、吃蛋糕", "德国的面包很便宜"], "answer": 1, "explainZh": "王伟写:Aber Kaffee und Kuchen am Sonntag finde ich toll!;冷的晚饭他说 Das kenne ich aus China nicht.(在中国没见过)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_vergleich_schreiben", "titleZh": "对照着写:In Deutschland … In China …",
+      "bodyZh": "写文化对比的小短文,可以这样安排:\n先写德国:In Deutschland gibt es sehr viele Sorten Brot.(德国有很多种面包。)/ Am Abend gibt es oft Abendbrot.\n再写中国:In China essen wir am Abend warm.(在中国我们晚上吃热菜。)\n地点、时间放在句首(In Deutschland / Am Abend / Im Sommer),动词还在第二位,主语放到动词后面:Im Sommer grillen die Leute gern.(✗ Im Sommer die Leute grillen)\n说“很多人”用 viele 或 viele Leute;viele junge Leute(很多年轻人)——形容词在名词前要加词尾,先整个记住。\n最后写自己的看法:Das kenne ich aus China nicht.(这在中国没见过。)/ … finde ich toll!",
+      "examples": [
+        { "text": "In Deutschland gibt es sehr viele Sorten Brot.", "zh": "德国的面包种类非常多。" },
+        { "text": "In China essen wir am Abend warm.", "zh": "在中国,我们晚上吃热菜。" },
+        { "text": "Im Sommer grillen die Leute gern.", "zh": "夏天大家喜欢烧烤。" }
+      ] }
+  ],
+  "review": "draft"
+}

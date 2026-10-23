@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u16.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116080,
+  "titleZh": "单元复习与应用:请老师来吃饭", "goalZh": "复习本单元的做饭说法,会招待客人、介绍菜、回应称赞", "canDoZh": "能邀请客人吃饭,招待客人、介绍菜、回应称赞",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "de.bestehen", "kind": "word", "pos": "verb", "text": "bestehen", "zh": "通过(考试)", "features": { "ipa": "bəˈʃteːən" }, "noteZh": "eine Prüfung bestehen(考试通过);完成时 Ich habe die Prüfung bestanden!——be- 开头不加 ge-,分词不规则;st 在词根开头读 [ʃt]。" },
+    { "id": "de.gratulieren", "kind": "word", "pos": "verb", "text": "gratulieren", "zh": "祝贺", "features": { "ipa": "ɡʁatuˈliːʁən" }, "noteZh": "Ich gratuliere Ihnen!(祝贺您!)对朋友:Ich gratuliere dir!;Ihnen / dir 是第三格,先整句记;-ieren 动词重音在 lie 上。" },
+    { "id": "de.satt", "kind": "word", "pos": "adj", "text": "satt", "zh": "饱的", "features": { "ipa": "zat" }, "noteZh": "主人让你再吃时:Nein, danke. Ich bin satt.(不了,谢谢,我吃饱了。)不说 ✗ Ich bin voll;s 读 [z]。" }
+  ],
+  "reviewItems": ["de.feiern", "de.nachspeise", "de.teigtasche", "de.fuellung", "de.einladen"],
+  "lines": [
+    { "speaker": "wei", "text": "Sofia! Ich habe die Prüfung bestanden!", "zh": "(王伟刚收到 A1 成绩)索菲娅!我考试通过了!", "items": ["de.ich", "de.haben", "de.pruefung", "de.bestehen"] },
+    { "speaker": "sofia", "text": "Toll, Wei! Herzlichen Glückwunsch! Das feiern wir!", "zh": "太棒了,王伟!祝贺你!我们得庆祝一下!", "items": ["de.toll", "de.herzlichen_glueckwunsch", "de.feiern", "de.wir"] },
+    { "speaker": "wei", "text": "Ja! Und wir laden Frau Wagner ein. Sie hat mir viel geholfen.", "zh": "对!我们请瓦格纳老师来吃饭吧。她帮了我很多。", "items": ["de.ja", "de.und", "de.wir", "de.einladen", "de.frau", "de.sie_sg", "de.haben", "de.ich", "de.viel", "de.helfen"] },
+    { "speaker": "wagner", "text": "Guten Abend! Ich gratuliere Ihnen, Herr Wang!", "zh": "(那天晚上)晚上好!祝贺你,王伟!", "items": ["de.gut", "de.abend", "de.ich", "de.gratulieren", "de.sie_hoeflich", "de.herr"] },
+    { "speaker": "wei", "text": "Vielen Dank, Frau Wagner! Bitte, kommen Sie!", "zh": "太谢谢您了,瓦格纳老师!请进!", "items": ["de.vielen_dank", "de.frau", "de.bitte", "de.ich_komme_aus", "de.sie_hoeflich"] },
+    { "speaker": "sofia", "text": "Heute gibt es Nudeln aus Italien und Jiaozi aus China.", "zh": "今天有意大利面,还有中国的饺子。", "items": ["de.heute", "de.es_gibt", "de.nudel", "de.ich_komme_aus", "de.italien", "de.und", "de.china"] },
+    { "speaker": "jonas", "text": "Und die Nachspeise ist von mir!", "zh": "甜点是我做的!", "items": ["de.und", "de.nachspeise", "de.sein", "de.von", "de.ich"] },
+    { "speaker": "wagner", "text": "Das schmeckt sehr gut! Wie machen Sie die Teigtaschen, Herr Wang?", "zh": "真好吃!王伟,你这饺子是怎么做的?", "items": ["de.schmecken", "de.sehr", "de.gut", "de.wie", "de.machen", "de.sie_hoeflich", "de.teigtasche", "de.herr"] },
+    { "speaker": "wei", "text": "Ich mische Fleisch und Gemüse für die Füllung.", "zh": "我把肉和菜拌在一起做馅。", "items": ["de.ich", "de.mischen", "de.fleisch", "de.und", "de.gemuese", "de.fuer", "de.fuellung"] },
+    { "speaker": "wei", "text": "Dann falte ich den Teig und koche die Teigtaschen im Topf.", "zh": "然后把面皮对折包好,放锅里煮。", "items": ["de.dann", "de.falten", "de.ich", "de.teig", "de.und", "de.kochen", "de.teigtasche", "de.in", "de.topf"] },
+    { "speaker": "wagner", "text": "Toll! Und Sie sprechen schon sehr gut Deutsch.", "zh": "真棒!而且你的德语已经说得很好了。", "items": ["de.toll", "de.und", "de.sie_hoeflich", "de.sprechen", "de.schon", "de.sehr", "de.gut", "de.deutsch"] },
+    { "speaker": "sofia", "text": "Möchten Sie noch Nudeln? Nehmen Sie noch ein bisschen!", "zh": "您再来点面吗?再吃一点吧!", "items": ["de.moechten", "de.sie_hoeflich", "de.noch", "de.nudel", "de.nehmen", "de.ein_bisschen"] },
+    { "speaker": "wagner", "text": "Nein, danke. Ich bin satt!", "zh": "不了,谢谢。我吃饱了!", "items": ["de.nein", "de.danke", "de.ich", "de.sein", "de.satt"] },
+    { "speaker": "jonas", "text": "Und die Nachspeise, Frau Wagner? Nur ein kleines Stück!", "zh": "那甜点呢,瓦格纳老师?就一小块!", "items": ["de.und", "de.nachspeise", "de.frau", "de.nur", "de.ein", "de.klein", "de.stueck"] },
+    { "speaker": "wagner", "text": "Gut, ein kleines Stück. Herr Wang, im Oktober können Sie den A2-Kurs machen!", "zh": "好,一小块。王伟,十月你就可以上 A2 的课了!", "items": ["de.gut", "de.ein", "de.klein", "de.stueck", "de.herr", "de.in", "de.oktober", "de.koennen", "de.sie_hoeflich", "de.kurs", "de.machen"] },
+    { "speaker": "wei", "text": "Wirklich? Danke, Frau Wagner! Ich freue mich!", "zh": "真的吗?谢谢您,瓦格纳老师!我太高兴了!", "items": ["de.wirklich", "de.danke", "de.frau", "de.ich_freue_mich"] }
+  ],
+  "questions": [
+    { "prompt": "为什么要请瓦格纳老师来吃饭?", "options": ["老师要回科隆了", "王伟考试通过了,想谢谢老师", "今天是老师的生日"], "answer": 1, "explainZh": "王伟说:Ich habe die Prüfung bestanden!(我考试通过了!)又说:Sie hat mir viel geholfen.(她帮了我很多。)" },
+    { "prompt": "晚饭有什么?", "options": ["意大利面、饺子和约纳斯做的甜点", "土豆沙拉和肉饼", "包子和蛋糕"], "answer": 0, "explainZh": "索菲娅说:Heute gibt es Nudeln aus Italien und Jiaozi aus China.;约纳斯说:Und die Nachspeise ist von mir!" },
+    { "prompt": "老师为什么不再吃面了?", "options": ["她不喜欢吃面", "面太辣了", "她吃饱了"], "answer": 2, "explainZh": "老师说:Nein, danke. Ich bin satt!(不了,谢谢。我吃饱了!)" },
+    { "prompt": "老师说王伟十月可以做什么?", "options": ["回成都", "上 A2 的课", "当德语老师"], "answer": 1, "explainZh": "老师说:Herr Wang, im Oktober können Sie den A2-Kurs machen!(十月你就可以上 A2 的课了!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_gaeste", "titleZh": "招待客人和回应称赞",
+      "bodyZh": "招待客人(对老师用 Sie):Bitte, kommen Sie!(请进!)/ Heute gibt es …(今天有……)/ Möchten Sie noch Nudeln?(您再来点面吗?)/ Nehmen Sie noch ein bisschen!(再吃一点吧!)\n客人常说:Das schmeckt sehr gut!(真好吃!)/ Nein, danke. Ich bin satt.(不了,谢谢,我吃饱了。)——不说 ✗ Ich bin voll。\n德国人说“不用了”一般就是真的不要,主人问一两次就够了,不用像中国那样再三地劝。\n别人祝贺你:Herzlichen Glückwunsch! / Ich gratuliere Ihnen!——回答 Vielen Dank!\n注意:瓦格纳老师对学生一直用 Sie(Herr Wang);王伟对室友用 du。",
+      "examples": [
+        { "text": "Möchten Sie noch Nudeln?", "zh": "您再来点面吗?" },
+        { "text": "Nehmen Sie noch ein bisschen!", "zh": "再吃一点吧!" },
+        { "text": "Nein, danke. Ich bin satt.", "zh": "不了,谢谢。我吃饱了。" }
+      ] },
+    { "id": "de.g.u16_review", "titleZh": "本单元小结:数量、kein … mehr 和做法",
+      "bodyZh": "数量:ein Kilo Tomaten、ein Pfund Kirschen、fünfhundert Gramm、zwei Esslöffel Öl、ein bisschen Salz——量词后面直接跟名词。\n还有和没有了:Wir haben noch zwei Eier. / Wir haben keine Zwiebeln mehr.;问:Wie viele Kartoffeln?(能数)/ Wie viel Senf?(不能数)\n说做法:菜谱写 Die Kartoffeln zwanzig Minuten kochen. 或 Kochen Sie …;自己讲做法用陈述句:Ich mische Fleisch und Gemüse. Dann falte ich den Teig.\n完成时:Ich habe die Prüfung bestanden!(bestehen → bestanden,不加 ge-)",
+      "examples": [
+        { "text": "Wir haben keine Zwiebeln mehr.", "zh": "洋葱没有了。" },
+        { "text": "Dann falte ich den Teig.", "zh": "然后我把面皮对折。" },
+        { "text": "Ich habe die Prüfung bestanden!", "zh": "我考试通过了!" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -72,8 +72,8 @@
       "goalZh": "听懂垃圾分类的说明,会问、会说哪种垃圾扔进哪个桶",
       "canDoZh": "能听懂垃圾分类的说明,说出哪种垃圾扔进哪个桶",
       "scenarioZh": "王伟倒垃圾时把一个玻璃瓶扔进了黄色的桶,霍夫曼先生正好在院子里(der Hof),很客气地告诉他:德国要垃圾分类,院子里有五种桶;玻璃扔进玻璃桶,塑料进黄色的桶,旧报纸进蓝色的桶,剩饭、果皮这些厨余进 Biotonne,其他的进黑色的桶(Restmüll);有押金(das Pfand)的瓶子拿回超市,能退钱。braun 已由 u14、Papier 已由 u12、die Flasche 由第 4 单元新增课登记,本课都不用,说 die Biotonne、Zeitungen、das hier hat Pfand。说话人:hoffmann、wei。",
-      "grammarFocusZh": "颜色复习(gelb 新学);in die gelbe Tonne 当固定说法(方向用第四格,A2 讲双向介词时细讲);Sie 的命令式复习(Bringen Sie es in den Supermarkt!)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+      "grammarFocusZh": "颜色复习(gelb 新学);in die gelbe Tonne 当固定说法(方向用第四格,A2 讲双向介词时细讲);Sie 的命令式复习(Sehen Sie hier!);muss in die … Tonne(省掉“扔”的动词)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
         { "id": "de.tonne", "kind": "word", "pos": "noun", "text": "die Tonne", "zh": "(大)垃圾桶", "features": { "gender": "f", "plural": "die Tonnen", "ipa": "ˈtɔnə" }, "noteZh": "院子里的大垃圾桶:die gelbe / blaue / schwarze Tonne;die Biotonne(厨余桶)、die Glastonne(玻璃桶)都是复合词。" },
         { "id": "de.gelb", "kind": "word", "pos": "adj", "text": "gelb", "zh": "黄色的", "features": { "ipa": "ɡɛlp" }, "noteZh": "die gelbe Tonne(黄桶:塑料包装);词尾 b 读 [p]。" },

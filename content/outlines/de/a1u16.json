@@ -12,7 +12,7 @@
       "canDoZh": "能在集市上买菜:说要多少、问新不新鲜、问价格",
       "scenarioZh": "周六上午,索菲娅带王伟去附近的每周集市(der Wochenmarkt):买西红柿、黄瓜、草莓、土豆、鸡蛋和新鲜香草;男摊主大声招呼,让他们尝草莓;索菲娅说要 ein Kilo、ein halbes Kilo、500 Gramm,王伟问 Sind die Erdbeeren frisch? Was kosten 100 Gramm?。说话人:verkaeufer、sofia、wei。(课文:Erdbeere 是第 13 单元的词,还没定,换成六月正当季的樱桃 Kirschen;王伟第一次听到 ein Pfund,索菲娅解释是半公斤;Cent 也是第 13 单元的词,价格说整数欧元。)",
       "grammarFocusZh": "数量:ein Kilo / ein halbes Kilo / ein Pfund / 500 Gramm / eine Gurke(量词后面直接跟名词);Was kostet … / Was kosten …? 复习",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
       "newItems": [
         { "id": "de.wochenmarkt", "kind": "word", "pos": "noun", "text": "der Wochenmarkt", "zh": "(每周的)集市;农贸市场", "features": { "gender": "m", "plural": "die Wochenmärkte", "ipa": "ˈvɔxn̩ˌmaʁkt" }, "noteZh": "die Woche(星期)+ der Markt(市场):一周开一两次的露天集市,卖菜、水果、面包、奶酪;auf dem Wochenmarkt(在集市上)。" },
         { "id": "de.frisch", "kind": "word", "pos": "adj", "text": "frisch", "zh": "新鲜的", "features": { "ipa": "fʁɪʃ" }, "noteZh": "Das Gemüse ist frisch.(蔬菜很新鲜。)名词前要加词尾:frische Tomaten(新鲜的西红柿);sch 读 [ʃ]。" },
@@ -33,7 +33,7 @@
       "canDoZh": "能和朋友商量做什么菜、需要什么材料、家里还有什么",
       "scenarioZh": "约纳斯答应过给大家做饭赔罪,周日他要做德国菜:土豆沙拉和肉饼(die Frikadelle)。他和王伟检查冰箱:还有什么、缺什么(Haben wir noch Zwiebeln? – Nein, wir haben keine Zwiebeln mehr.);王伟去楼下超市补买。说话人:jonas、wei。(课文:约纳斯做的是他奶奶的菜谱;王伟去拐角的超市——楼下是面包店;第 11 单元的情节还没定,课文没写为什么请客。)",
       "grammarFocusZh": "kein … mehr / noch(Wir haben keine Zwiebeln mehr / noch zwei Eier);wie viele + 复数和 wie viel + 不可数名词(Wie viele Kartoffeln? Wie viel Senf?)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
         { "id": "de.kartoffelsalat", "kind": "word", "pos": "noun", "text": "der Kartoffelsalat", "zh": "土豆沙拉", "features": { "gender": "m", "plural": "die Kartoffelsalate", "ipa": "kaˈtɔfl̩zaˌlaːt" }, "noteZh": "die Kartoffel + der Salat,性看最后一部分:der Kartoffelsalat;德国人聚会、烧烤最常见的菜,各家做法都不一样。" },
         { "id": "de.frikadelle", "kind": "word", "pos": "noun", "text": "die Frikadelle", "zh": "(煎)肉饼", "features": { "gender": "f", "plural": "die Frikadellen", "ipa": "fʁikaˈdɛlə" }, "noteZh": "用肉馅、鸡蛋、洋葱和面包做的小肉饼,柏林叫 die Bulette;重音在 del 上。" },
@@ -93,7 +93,7 @@
       "canDoZh": "能读懂一份完整的菜谱:材料、数量和步骤",
       "scenarioZh": "体裁:菜谱(约纳斯手写的卡片)。土豆沙拉(4 人份):材料和数量(1 Kilo Kartoffeln, 2 Zwiebeln, 1 Gurke, Essig, Öl, Salz, Pfeffer …)和六七个步骤;最后一句小提示:柏林人和汉堡人的做法不一样——当然是我的最好吃!说话人:narrator(菜谱)。(课文:卡片是约纳斯写的,说话人按审稿意见用 jonas;最后两句:In Berlin machen die Leute Kartoffelsalat anders. Aber mein Rezept ist von meiner Oma aus Hamburg!——“我的最好吃”要用物主代词和最高级,A2 才学。)",
       "grammarFocusZh": "菜谱里的不定式和数量表达复习;复合词(der Kartoffelsalat, der Esslöffel)",
-      "skills": ["read", "write"], "estimatedMinutes": 14.5,
+      "skills": ["read", "write"], "estimatedMinutes": 16,
       "newItems": [
         { "id": "de.portion", "kind": "word", "pos": "noun", "text": "die Portion", "zh": "(一)份", "features": { "gender": "f", "plural": "die Portionen", "ipa": "pɔʁˈtsi̯oːn" }, "noteZh": "菜谱上的“几人份”:für vier Portionen;-tion 读 [tsi̯oːn],重音在最后。" },
         { "id": "de.zutat", "kind": "word", "pos": "noun", "text": "die Zutat", "zh": "(做菜的)材料;配料", "features": { "gender": "f", "plural": "die Zutaten", "ipa": "ˈtsuːtaːt" }, "noteZh": "菜谱开头常写 Zutaten:(材料:);一般用复数;z 读 [ts]。" },
@@ -129,7 +129,7 @@
       "canDoZh": "能一步一步教别人做一道菜,回答别人的问题",
       "scenarioZh": "周五晚上,王伟在 WG 办“包饺子之夜”,霍夫曼先生、莉娜和保罗都来了。王伟边做边教:Zuerst mischen wir das Fleisch und das Gemüse. Dann nehmt ihr ein Stück Teig …;霍夫曼先生包得很认真,保罗的饺子一下锅就破了;吃饭时王伟讲饺子在中国的意思(过年、团圆)。说话人:wei、hoffmann、lena、paul。(课文:zuerst 是第 10 单元的词,王伟说 Ihr nehmt … Dann faltet ihr …;保罗包得像球;王伟讲过年吃饺子,有时包一枚硬币,表示好运。)",
       "grammarFocusZh": "说步骤:ihr 的陈述句(Ihr nehmt ein Stück Teig / Dann faltet ihr den Teig);对霍夫曼先生用 Sie;dann 复习;es / er 指物复习(Mit Wasser klebt er gut)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
         { "id": "de.falten", "kind": "word", "pos": "verb", "text": "falten", "zh": "折;叠", "features": { "ipa": "ˈfaltn̩" }, "noteZh": "den Teig falten(把面皮对折);词干以 t 结尾,ihr / er 前加 e:ihr faltet, er faltet。" },
         { "id": "de.kleben", "kind": "word", "pos": "verb", "text": "kleben", "zh": "粘;粘住", "features": { "ipa": "ˈkleːbn̩" }, "noteZh": "Mit Wasser klebt der Teig.(蘸点水面皮就粘住了。)胶水是 der Kleber;e 是长音。" },
@@ -170,7 +170,7 @@
       "canDoZh": "能邀请客人吃饭,招待客人、介绍菜、回应称赞",
       "scenarioZh": "王伟刚收到 A1 考试成绩:通过了(bestanden)!为了庆祝,也为了感谢老师,索菲娅和王伟请瓦格纳老师来 WG 吃晚饭。他们介绍菜:意大利面、中国菜和约纳斯做的甜点;老师称赞 Das schmeckt sehr gut!,问是怎么做的;王伟用学过的说法讲做法;老师说下学期王伟可以上 A2 班了。说话人:sofia、wei、wagner、jonas。(课文:中国菜是饺子;doch 是第 11 单元的词,还没定,索菲娅说 Nehmen Sie noch ein bisschen!;Semester 是第 9 单元的词,老师说 Im Oktober können Sie den A2-Kurs machen!)",
       "grammarFocusZh": "招待客人:Möchten Sie noch …? / Nehmen Sie noch ein bisschen! / Guten Appetit! / Ich bin satt.;对老师用 Sie、对室友用 du;复习本单元的数量、kein … mehr 和做法",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
       "newItems": [
         { "id": "de.bestehen", "kind": "word", "pos": "verb", "text": "bestehen", "zh": "通过(考试)", "features": { "ipa": "bəˈʃteːən" }, "noteZh": "eine Prüfung bestehen(考试通过);完成时 Ich habe die Prüfung bestanden!——be- 开头不加 ge-,分词不规则;st 在词根开头读 [ʃt]。" },
         { "id": "de.gratulieren", "kind": "word", "pos": "verb", "text": "gratulieren", "zh": "祝贺", "features": { "ipa": "ɡʁatuˈliːʁən" }, "noteZh": "Ich gratuliere Ihnen!(祝贺您!)对朋友:Ich gratuliere dir!;Ihnen / dir 是第三格,先整句记;-ieren 动词重音在 lie 上。" },

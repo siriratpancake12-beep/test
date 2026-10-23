@@ -1,0 +1,50 @@
+{
+  "id": "de.a1u11.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111030,
+  "titleZh": "帮我一下!——du 的命令式", "goalZh": "会用 du 的命令式请朋友做事、提醒别人,会用 bitte / mal 说得客气", "canDoZh": "能用 du 的命令式请朋友做事、提醒别人,也能答应或拒绝",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.aufmachen", "kind": "word", "pos": "verb", "text": "aufmachen", "zh": "打开", "features": { "ipa": "ˈaʊ̯fˌmaxn̩" }, "noteZh": "可分:Mach bitte das Fenster auf!(请把窗户打开!);窗、门、瓶子、包都能用;反义词 zumachen(关上)。" },
+    { "id": "de.mal", "kind": "word", "pos": "particle", "text": "mal", "zh": "(语气词,让请求听起来随意、客气)", "features": { "ipa": "maːl" }, "noteZh": "放在命令句里让语气轻松:Nimm mal den Staubsauger!;常和 bitte 一起用:Hilf mir bitte mal!;这里不是“次”的意思。" },
+    { "id": "de.staubsauger", "kind": "word", "pos": "noun", "text": "der Staubsauger", "zh": "吸尘器", "features": { "gender": "m", "plural": "die Staubsauger", "ipa": "ˈʃtaʊ̯pˌzaʊ̯ɡɐ" }, "noteZh": "staubsaugen 用的工具;复数不变;Nimm den Staubsauger!;词首 st 读 [ʃt]。" },
+    { "id": "de.geben", "kind": "word", "pos": "verb", "text": "geben", "zh": "给", "features": { "ipa": "ˈɡeːbn̩" }, "noteZh": "e → i 不规则:ich gebe, du gibst, er gibt;命令式 Gib!:Gib mir bitte den Lappen.;es gibt(有)也是它。" },
+    { "id": "de.lappen", "kind": "word", "pos": "noun", "text": "der Lappen", "zh": "抹布", "features": { "gender": "m", "plural": "die Lappen", "ipa": "ˈlapn̩" }, "noteZh": "擦桌子、擦窗户用的布;复数不变;pp 前面的 a 是短音。" },
+    { "id": "de.eimer", "kind": "word", "pos": "noun", "text": "der Eimer", "zh": "水桶", "features": { "gender": "m", "plural": "die Eimer", "ipa": "ˈaɪ̯mɐ" }, "noteZh": "ein Eimer Wasser(一桶水);复数不变;ei 读 [aɪ̯]。" },
+    { "id": "de.spiegel", "kind": "word", "pos": "noun", "text": "der Spiegel", "zh": "镜子", "features": { "gender": "m", "plural": "die Spiegel", "ipa": "ˈʃpiːɡl̩" }, "noteZh": "den Spiegel putzen(擦镜子);sp 读 [ʃp],ie 读长音 [iː];复数不变。" },
+    { "id": "de.los", "kind": "word", "pos": "adv", "text": "los", "zh": "开始吧!;快!", "features": { "ipa": "loːs" }, "noteZh": "Los!(开始!/ 快点!);Los geht's!(我们开始吧!);o 是长音。" }
+  ],
+  "reviewItems": ["de.rausbringen", "de.putzen", "de.helfen", "de.anmachen", "de.nehmen", "de.dran"],
+  "lines": [
+    { "speaker": "sofia", "text": "Heute ist Samstag. Los, wir putzen die Wohnung!", "zh": "今天星期六。开始吧,我们来打扫房子!", "items": ["de.heute", "de.sein", "de.samstag", "de.los", "de.wir", "de.putzen", "de.wohnung"] },
+    { "speaker": "sofia", "text": "Wei, mach bitte das Fenster auf! Jonas, bring bitte den Müll raus!", "zh": "王伟,请把窗户打开!约纳斯,请把垃圾拿出去!", "items": ["de.aufmachen", "de.bitte", "de.fenster", "de.rausbringen", "de.muell"] },
+    { "speaker": "jonas", "text": "Moment! Ich trinke zuerst meinen Kaffee.", "zh": "等一下!我先把咖啡喝了。", "items": ["de.moment", "de.ich", "de.trinken", "de.zuerst", "de.mein", "de.kaffee"] },
+    { "speaker": "sofia", "text": "Jonas! Nimm mal den Staubsauger und hilf uns!", "zh": "约纳斯!拿上吸尘器,来帮我们!", "items": ["de.nehmen", "de.mal", "de.staubsauger", "de.und", "de.helfen", "de.wir"] },
+    { "speaker": "wei", "text": "Sofia, gib mir bitte den Lappen und den Eimer.", "zh": "索菲娅,请把抹布和水桶递给我。", "items": ["de.geben", "de.ich", "de.bitte", "de.lappen", "de.und", "de.eimer"] },
+    { "speaker": "sofia", "text": "Hier, bitte! Und putz bitte auch den Spiegel im Bad.", "zh": "给你!还有,也请把浴室的镜子擦一擦。", "items": ["de.hier", "de.bitte", "de.und", "de.putzen", "de.auch", "de.spiegel", "de.in", "de.bad"] },
+    { "speaker": "jonas", "text": "Wei, mach mal Musik an! Mit Musik putze ich gern.", "zh": "王伟,放点音乐!有音乐我就爱打扫。", "items": ["de.anmachen", "de.mal", "de.musik", "de.mit", "de.putzen", "de.ich", "de.gern"] },
+    { "speaker": "wei", "text": "Mache ich! Und jetzt los, Jonas, du bist dran!", "zh": "好嘞!现在快点,约纳斯,轮到你了!", "items": ["de.machen", "de.ich", "de.und", "de.jetzt", "de.los", "de.du", "de.sein", "de.dran"] },
+    { "speaker": "jonas", "text": "Gut, gut! Gib mir den Staubsauger.", "zh": "好好好!把吸尘器给我吧。", "items": ["de.gut", "de.geben", "de.ich", "de.staubsauger"] },
+    { "speaker": "sofia", "text": "Toll! Jetzt putzen wir zusammen.", "zh": "太好了!现在我们一起打扫。", "items": ["de.toll", "de.jetzt", "de.putzen", "de.wir", "de.zusammen"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅让约纳斯倒垃圾,约纳斯先做什么?", "options": ["先把咖啡喝了", "马上去倒垃圾", "去拿吸尘器"], "answer": 0, "explainZh": "约纳斯说:Moment! Ich trinke zuerst meinen Kaffee.(等一下!我先把咖啡喝了。)" },
+    { "prompt": "王伟请索菲娅把什么递给他?", "options": ["吸尘器", "一杯咖啡", "抹布和水桶"], "answer": 2, "explainZh": "王伟说:Sofia, gib mir bitte den Lappen und den Eimer.(索菲娅,请把抹布和水桶递给我。)" },
+    { "prompt": "约纳斯打扫的时候想要什么?", "options": ["一杯咖啡", "音乐", "新的吸尘器"], "answer": 1, "explainZh": "约纳斯说:Wei, mach mal Musik an! Mit Musik putze ich gern.(王伟,放点音乐!有音乐我就爱打扫。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.imperativ_du", "titleZh": "du 的命令式",
+      "bodyZh": "对朋友、家人说“请你做……”,用 du 的命令式:去掉 du 和动词词尾 -st,动词放句首:du machst → Mach!;du bringst → Bring!;du putzt → Putz!。\ne → i 的动词保留 i:du nimmst → Nimm!;du gibst → Gib!;du hilfst → Hilf!。a → ä 的动词不保留变音:du wäschst → Wasch!。\n可分动词的前缀照样放句末:Mach bitte das Fenster auf! / Bring bitte den Müll raus! / Mach mal Musik an!。",
+      "examples": [
+        { "text": "Mach bitte das Fenster auf!", "zh": "请把窗户打开!" },
+        { "text": "Nimm den Staubsauger!", "zh": "拿上吸尘器!" },
+        { "text": "Gib mir bitte den Lappen.", "zh": "请把抹布递给我。" }
+      ] },
+    { "id": "de.g.imperativ_bitte_mal", "titleZh": "bitte、mal 和 Sie 的命令式",
+      "bodyZh": "命令式加 bitte 更客气:Bring bitte den Müll raus!;加 mal 听起来更随意、更轻松:Nimm mal den Staubsauger!;两个也能一起用:Hilf mir bitte mal!。bitte 和 mal 一般放在动词后面。\n对不熟的人、对长辈用 Sie 的命令式(第 10 单元学过):动词 + Sie:Machen Sie bitte das Fenster auf!;du 的命令式不说 du。\n答应别人:Mache ich!(好嘞,我来!);想等一下:Moment!(等一下!)",
+      "examples": [
+        { "text": "Hilf mir bitte mal!", "zh": "请帮我一下!" },
+        { "text": "Machen Sie bitte das Fenster auf!", "zh": "请您把窗户打开!" }
+      ] }
+  ],
+  "review": "draft"
+}

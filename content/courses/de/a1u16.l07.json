@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u16.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116070,
+  "titleZh": "在公园烧烤", "goalZh": "会和朋友约烧烤、商量谁带什么,知道公园里在哪儿可以烤", "canDoZh": "能和朋友约烧烤、商量谁带什么,在公园里注意规定",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.gewuerz", "kind": "word", "pos": "noun", "text": "das Gewürz", "zh": "调料;香料", "features": { "gender": "n", "plural": "die Gewürze", "ipa": "ɡəˈvʏʁts" }, "noteZh": "Gewürze aus China(中国的调料,比如孜然、花椒);动词是 würzen;ge- 开头的名词很多是中性。" },
+    { "id": "de.spiess", "kind": "word", "pos": "noun", "text": "der Spieß", "zh": "烤串;签子", "features": { "gender": "m", "plural": "die Spieße", "ipa": "ʃpiːs" }, "noteZh": "烤串在德国也常见:Fleisch am Spieß;sp 在词首读 [ʃp],ß 读 [s]。" },
+    { "id": "de.decke", "kind": "word", "pos": "noun", "text": "die Decke", "zh": "毯子;被子;天花板", "features": { "gender": "f", "plural": "die Decken", "ipa": "ˈdɛkə" }, "noteZh": "野餐、去公园坐在草地上带一条 Decke;屋子的天花板也叫 die Decke。" },
+    { "id": "de.schatten", "kind": "word", "pos": "noun", "text": "der Schatten", "zh": "阴凉处;影子", "features": { "gender": "m", "plural": "die Schatten", "ipa": "ˈʃatn̩" }, "noteZh": "im Schatten(在阴凉处);夏天太热时德国人找 Schatten;单复数同形。" },
+    { "id": "de.wiese", "kind": "word", "pos": "noun", "text": "die Wiese", "zh": "草地", "features": { "gender": "f", "plural": "die Wiesen", "ipa": "ˈviːzə" }, "noteZh": "auf der Wiese(在草地上);柏林的公园里有很多大草坪,夏天大家都坐在上面;w 读 [v],s 读 [z]。" },
+    { "id": "de.drueben", "kind": "word", "pos": "adv", "text": "drüben", "zh": "那边;对面", "features": { "ipa": "ˈdʁyːbn̩" }, "noteZh": "常说 da drüben(在那边):Nur da drüben!(只有那边可以!)ü 是长音。" },
+    { "id": "de.erlaubt", "kind": "word", "pos": "adj", "text": "erlaubt", "zh": "允许的;可以的", "features": { "ipa": "ɛɐ̯ˈlaʊ̯pt" }, "noteZh": "牌子上常见:Grillen erlaubt(可以烧烤)、Grillen nicht erlaubt(禁止烧烤);b 在 t 前读 [p]。" },
+    { "id": "de.marshmallow", "kind": "word", "pos": "noun", "text": "das Marshmallow", "zh": "棉花糖", "features": { "gender": "n", "plural": "die Marshmallows", "ipa": "ˈmaːɐ̯ʃˌmɛlo" }, "noteZh": "英语借来的词,中性;烧烤时很多年轻人爱把 Marshmallows 串在签子上烤。" }
+  ],
+  "reviewItems": ["de.mitbringen", "de.grillen", "de.getraenk", "de.nichts", "de.laune"],
+  "lines": [
+    { "speaker": "jonas", "text": "Es ist so heiß! Heute grillen wir im Park.", "zh": "(星期天)天这么热!今天我们去公园烧烤。", "items": ["de.es", "de.sein", "de.so", "de.heiss", "de.heute", "de.grillen", "de.wir", "de.in", "de.park"] },
+    { "speaker": "sofia", "text": "Super! Wer bringt was mit?", "zh": "太好了!谁带什么?", "items": ["de.toll", "de.wer", "de.mitbringen", "de.was"] },
+    { "speaker": "jonas", "text": "Ich bringe den Grill und das Fleisch mit.", "zh": "烤架和肉我带。", "items": ["de.ich", "de.mitbringen", "de.grill", "de.und", "de.fleisch"] },
+    { "speaker": "sofia", "text": "Ich mache einen Salat. Und du, Wei?", "zh": "我做个沙拉。你呢,王伟?", "items": ["de.ich", "de.machen", "de.ein", "de.salat", "de.und", "de.du"] },
+    { "speaker": "wei", "text": "Getränke und Gewürze aus China für die Spieße!", "zh": "饮料,还有烤串用的中国调料!", "items": ["de.getraenk", "de.und", "de.gewuerz", "de.ich_komme_aus", "de.china", "de.fuer", "de.spiess"] },
+    { "speaker": "paul", "text": "Und ich? Ich bringe nichts mit?", "zh": "那我呢?我什么都不用带?", "items": ["de.und", "de.ich", "de.mitbringen", "de.nichts"] },
+    { "speaker": "jonas", "text": "Du bringst gute Laune mit, Paul! Und eine Decke.", "zh": "你带上好心情,保罗!再带一条毯子。", "items": ["de.du", "de.mitbringen", "de.gut", "de.laune", "de.und", "de.ein", "de.decke"] },
+    { "speaker": "wei", "text": "Hier ist Schatten. Können wir hier auf der Wiese grillen?", "zh": "(到了公园)这儿有树荫。我们能在这片草地上烤吗?", "items": ["de.hier", "de.sein", "de.schatten", "de.koennen", "de.wir", "de.auf", "de.wiese", "de.grillen"] },
+    { "speaker": "sofia", "text": "Nein, nur da drüben. Da ist Grillen erlaubt.", "zh": "不行,只能在那边。那边可以烧烤。", "items": ["de.nein", "de.nur", "de.da", "de.drueben", "de.sein", "de.grillen", "de.erlaubt"] },
+    { "speaker": "paul", "text": "Kann ich auch Marshmallows grillen?", "zh": "我也能烤棉花糖吗?", "items": ["de.koennen", "de.ich", "de.auch", "de.marshmallow", "de.grillen"] },
+    { "speaker": "jonas", "text": "Ja, aber nachher. Jetzt grille ich das Fleisch.", "zh": "能,不过待会儿。现在我先烤肉。", "items": ["de.ja", "de.aber", "de.nachher", "de.jetzt", "de.grillen", "de.ich", "de.fleisch"] },
+    { "speaker": "sofia", "text": "Und dann nehmen wir alles wieder mit nach Hause!", "zh": "然后我们把东西都带回家!", "items": ["de.und", "de.dann", "de.mitnehmen", "de.wir", "de.alles", "de.wieder", "de.nach_hause"] }
+  ],
+  "questions": [
+    { "prompt": "王伟带什么去烧烤?", "options": ["肉和烤架", "饮料和中国的调料", "沙拉"], "answer": 1, "explainZh": "王伟说:Getränke und Gewürze aus China für die Spieße!(饮料,还有烤串用的中国调料!)" },
+    { "prompt": "为什么不能在树荫下的草地上烤?", "options": ["那儿太晒了", "那儿人太多", "只有那边可以烧烤"], "answer": 2, "explainZh": "索菲娅说:Nein, nur da drüben. Da ist Grillen erlaubt.(只能在那边,那边可以烧烤。)" },
+    { "prompt": "保罗什么时候可以烤棉花糖?", "options": ["约纳斯烤完肉以后", "马上", "不可以烤"], "answer": 0, "explainZh": "约纳斯说:Ja, aber nachher. Jetzt grille ich das Fleisch.(能,不过待会儿,现在我先烤肉。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_mitbringen_nichts", "titleZh": "Wer bringt was mit?——nichts、alles 和 mitbringen / mitnehmen",
+      "bodyZh": "约好一起吃饭、烧烤,先分工:Wer bringt was mit?(谁带什么?)——Ich bringe den Grill mit.(烤架我带。)\nnichts(什么也不)和 alles(所有东西)可以直接当宾语用:Ich bringe nichts mit?(我什么都不用带?)/ Wir nehmen alles wieder mit.(我们把东西都带走。)\nmitbringen 是“带来”(带到要去的地方),mitnehmen 是“带走;带上”(从一个地方带出去);两个都是可分动词,mit 放在句末。\n公园里的规定:Grillen erlaubt(可以烧烤)。在柏林,很多公园只能在指定的地方烤,走的时候要把东西和垃圾都带走。",
+      "examples": [
+        { "text": "Wer bringt was mit?", "zh": "谁带什么?" },
+        { "text": "Ich bringe nichts mit?", "zh": "我什么都不用带?" },
+        { "text": "Wir nehmen alles wieder mit.", "zh": "我们把东西都带走。" },
+        { "text": "Da ist Grillen erlaubt.", "zh": "那边可以烧烤。" }
+      ] }
+  ],
+  "review": "draft"
+}

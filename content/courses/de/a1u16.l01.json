@@ -2,7 +2,7 @@
   "id": "de.a1u16.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
   "unit": "A1-16 做饭与请客", "order": 116010,
   "titleZh": "在每周集市", "goalZh": "会在集市上买菜:说要多少(一公斤、一磅、五百克)、问价格、看新不新鲜", "canDoZh": "能在集市上买菜:说要多少、问新不新鲜、问价格",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
   "newItems": [
     { "id": "de.wochenmarkt", "kind": "word", "pos": "noun", "text": "der Wochenmarkt", "zh": "(每周的)集市;农贸市场", "features": { "gender": "m", "plural": "die Wochenmärkte", "ipa": "ˈvɔxn̩ˌmaʁkt" }, "noteZh": "die Woche(星期)+ der Markt(市场):一周开一两次的露天集市,卖菜、水果、面包、奶酪;auf dem Wochenmarkt(在集市上)。" },
     { "id": "de.frisch", "kind": "word", "pos": "adj", "text": "frisch", "zh": "新鲜的", "features": { "ipa": "fʁɪʃ" }, "noteZh": "Das Gemüse ist frisch.(蔬菜很新鲜。)名词前要加词尾:frische Tomaten(新鲜的西红柿);sch 读 [ʃ]。" },

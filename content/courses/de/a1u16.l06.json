@@ -1,0 +1,48 @@
+{
+  "id": "de.a1u16.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116060,
+  "titleZh": "包饺子之夜", "goalZh": "会一步一步教别人做一道菜,用 ihr 说步骤,回答关于中国习俗的问题", "canDoZh": "能一步一步教别人做一道菜,回答别人的问题",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.falten", "kind": "word", "pos": "verb", "text": "falten", "zh": "折;叠", "features": { "ipa": "ˈfaltn̩" }, "noteZh": "den Teig falten(把面皮对折);词干以 t 结尾,ihr / er 前加 e:ihr faltet, er faltet。" },
+    { "id": "de.kleben", "kind": "word", "pos": "verb", "text": "kleben", "zh": "粘;粘住", "features": { "ipa": "ˈkleːbn̩" }, "noteZh": "Mit Wasser klebt der Teig.(蘸点水面皮就粘住了。)胶水是 der Kleber;e 是长音。" },
+    { "id": "de.wunderbar", "kind": "word", "pos": "adj", "text": "wunderbar", "zh": "好极了;太棒了", "features": { "ipa": "ˈvʊndɐbaːɐ̯" }, "noteZh": "比 gut、toll 更热情、更正式一点,长辈爱用:Wunderbar!(太好了!)w 读 [v]。" },
+    { "id": "de.rund", "kind": "word", "pos": "adj", "text": "rund", "zh": "圆的", "features": { "ipa": "ʁʊnt" }, "noteZh": "Die Teigtaschen sind rund.(这些饺子是圆的。)词尾 d 读 [t];rund um …(在……周围)。" },
+    { "id": "de.ball", "kind": "word", "pos": "noun", "text": "der Ball", "zh": "球", "features": { "gender": "m", "plural": "die Bälle", "ipa": "bal" }, "noteZh": "复数变音:die Bälle;der Fußball(足球)、der Basketball(篮球)都带 Ball。" },
+    { "id": "de.muenze", "kind": "word", "pos": "noun", "text": "die Münze", "zh": "硬币", "features": { "gender": "f", "plural": "die Münzen", "ipa": "ˈmʏntsə" }, "noteZh": "eine Münze(一枚硬币);纸币是 der Schein;ü 是短音,z 读 [ts]。" },
+    { "id": "de.drin", "kind": "word", "pos": "adv", "text": "drin", "zh": "在里面(口语)", "features": { "ipa": "dʁɪn" }, "noteZh": "口语:Da ist eine Münze drin.(里面有一枚硬币。)是 darin 的口语说法。" },
+    { "id": "de.bedeuten", "kind": "word", "pos": "verb", "text": "bedeuten", "zh": "意思是;代表", "features": { "ipa": "bəˈdɔʏ̯tn̩" }, "noteZh": "Was bedeutet das?(这是什么意思?)Die Münze bedeutet Glück.(硬币代表好运。)be- 不可分;词干以 t 结尾:es bedeutet。" },
+    { "id": "de.glueck", "kind": "word", "pos": "noun", "text": "das Glück", "zh": "幸运;运气;幸福", "features": { "gender": "n", "plural": "-", "ipa": "ɡlʏk" }, "noteZh": "Das bedeutet Glück.(这代表好运。)反义是 das Pech(倒霉,第 15 单元);ü 是短音;不可数。" }
+  ],
+  "reviewItems": ["de.teig", "de.fuellung", "de.teigtasche", "de.kaputt", "de.fruehlingsfest", "de.herzlich_willkommen"],
+  "lines": [
+    { "speaker": "wei", "text": "Herzlich willkommen! Heute machen wir zusammen Jiaozi.", "zh": "(星期五晚上,WG 的包饺子之夜)欢迎大家!今天我们一起包饺子。", "items": ["de.herzlich_willkommen", "de.heute", "de.machen", "de.wir", "de.zusammen"] },
+    { "speaker": "wei", "text": "Ihr nehmt ein Stück Teig und ein bisschen Füllung.", "zh": "你们拿一张面皮、一点馅。", "items": ["de.ihr", "de.nehmen", "de.ein", "de.stueck", "de.teig", "de.und", "de.ein_bisschen", "de.fuellung"] },
+    { "speaker": "wei", "text": "Dann faltet ihr den Teig. Mit Wasser klebt er gut.", "zh": "然后把面皮对折。蘸点水,面皮就粘住了。", "items": ["de.dann", "de.falten", "de.ihr", "de.teig", "de.mit", "de.wasser", "de.kleben", "de.er", "de.gut"] },
+    { "speaker": "hoffmann", "text": "Herr Wang, ist das so gut?", "zh": "王先生,这样包可以吗?", "items": ["de.herr", "de.das_ist", "de.so", "de.gut"] },
+    { "speaker": "wei", "text": "Wunderbar, Herr Hoffmann! Ihre Teigtaschen sind sehr schön.", "zh": "太棒了,霍夫曼先生!您包的饺子真漂亮。", "items": ["de.wunderbar", "de.herr", "de.ihr_hoeflich", "de.teigtasche", "de.sein", "de.sehr", "de.schoen"] },
+    { "speaker": "paul", "text": "Und meine? Sind meine auch schön?", "zh": "那我的呢?我的也漂亮吗?", "items": ["de.und", "de.mein", "de.sein", "de.auch", "de.schoen"] },
+    { "speaker": "lena", "text": "Paul, deine Teigtaschen sind rund. Das sind Bälle!", "zh": "保罗,你包的饺子是圆的。这是球吧!", "items": ["de.dein", "de.teigtasche", "de.sein", "de.rund", "de.das_ist", "de.ball"] },
+    { "speaker": "paul", "text": "Nein! Meine Teigtasche ist im Topf kaputt!", "zh": "(下锅以后)不会吧!我的饺子在锅里破了!", "items": ["de.nein", "de.mein", "de.teigtasche", "de.sein", "de.in", "de.topf", "de.kaputt"] },
+    { "speaker": "wei", "text": "Das macht nichts, Paul. Sie schmeckt auch so!", "zh": "没关系,保罗。破了也好吃!", "items": ["de.machen", "de.nichts", "de.sie_sg", "de.schmecken", "de.auch", "de.so"] },
+    { "speaker": "hoffmann", "text": "Und wann essen Sie Jiaozi in China, Herr Wang?", "zh": "王先生,在中国你们什么时候吃饺子?", "items": ["de.und", "de.wann", "de.essen", "de.sie_hoeflich", "de.in", "de.china", "de.herr"] },
+    { "speaker": "wei", "text": "Zum Frühlingsfest, mit der Familie. Manchmal ist eine Münze drin.", "zh": "过春节的时候,和家人一起吃。有时候饺子里还包着一枚硬币。", "items": ["de.zu", "de.fruehlingsfest", "de.mit", "de.familie", "de.manchmal", "de.sein", "de.ein", "de.muenze", "de.drin"] },
+    { "speaker": "wei", "text": "Die Münze bedeutet Glück und Geld!", "zh": "这枚硬币代表好运和财运!", "items": ["de.muenze", "de.bedeuten", "de.glueck", "de.und", "de.geld"] }
+  ],
+  "questions": [
+    { "prompt": "包饺子时,水有什么用?", "options": ["让面皮粘住", "让饺子变大", "让饺子更好吃"], "answer": 0, "explainZh": "王伟说:Mit Wasser klebt er gut.(蘸点水,面皮就粘住了。)er 指 der Teig(面皮)。" },
+    { "prompt": "保罗的饺子怎么了?", "options": ["包得特别好看", "掉到地上了", "在锅里破了"], "answer": 2, "explainZh": "保罗说:Meine Teigtasche ist im Topf kaputt!(我的饺子在锅里破了!)" },
+    { "prompt": "饺子里包着一枚硬币是什么意思?", "options": ["要再包一个", "代表好运和财运", "这个饺子不能吃"], "answer": 1, "explainZh": "王伟说:Die Münze bedeutet Glück und Geld!(这枚硬币代表好运和财运!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_ihr_schritte", "titleZh": "教一群人做菜:用 ihr 说步骤",
+      "bodyZh": "王伟同时教好几个朋友,用 ihr(你们)说步骤最自然:Ihr nehmt ein Stück Teig … Dann faltet ihr den Teig.\nihr 的动词词尾是 -t:ihr nehmt, ihr macht;词干以 t、d 结尾的要加 -et:falten → ihr faltet。dann 放在句首时,动词紧跟在 dann 后面,主语 ihr 在动词后面。\n只对霍夫曼先生说话时,用 Sie 和 Ihr(您的):Ihre Teigtaschen sind sehr schön.(您包的饺子真漂亮。)\n指前面说过的东西用 er / sie / es:der Teig → Mit Wasser klebt er gut.;die Teigtasche → Sie schmeckt auch so.(破了也好吃。)",
+      "examples": [
+        { "text": "Ihr nehmt ein Stück Teig.", "zh": "你们拿一张面皮。" },
+        { "text": "Dann faltet ihr den Teig.", "zh": "然后你们把面皮对折。" },
+        { "text": "Mit Wasser klebt er gut.", "zh": "蘸点水,它就粘住了。" },
+        { "text": "Ihre Teigtaschen sind sehr schön.", "zh": "您包的饺子真漂亮。" }
+      ] }
+  ],
+  "review": "draft"
+}

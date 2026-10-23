@@ -21,14 +21,14 @@
     { "speaker": "wagner", "text": "Ja, das stimmt: „nicht“ steht vor „kommen“.", "zh": "对:nicht 放在 kommen 前面。", "items": ["de.ja", "de.stimmen", "de.nicht", "de.stehen", "de.vor", "de.ich_komme_aus"] },
     { "speaker": "sofia", "text": "Ich habe geschrieben: „Ich komme am Samstag nicht mit.“ Richtig?", "zh": "我写的是:“我星期六不一起去。”对吗?", "items": ["de.ich", "de.haben", "de.schreiben", "de.mitkommen", "de.am", "de.samstag", "de.nicht", "de.richtig"] },
     { "speaker": "wagner", "text": "Ja! „Mit“ steht ganz am Ende, und „nicht“ steht vor „mit“.", "zh": "对!mit 放在最后面,nicht 放在 mit 前面。", "items": ["de.ja", "de.mitkommen", "de.stehen", "de.ganz", "de.am", "de.ende", "de.und", "de.nicht", "de.vor"] },
-    { "speaker": "wagner", "text": "Herr Wang, ist die Prüfung am Freitag?", "zh": "王先生,考试是星期五吗?", "items": ["de.herr", "de.sein", "de.pruefung", "de.am", "de.freitag"] },
-    { "speaker": "wei", "text": "Nein, nicht am Freitag, sondern am Samstag.", "zh": "不,不是星期五,而是星期六。", "items": ["de.nein", "de.nicht", "de.am", "de.freitag", "de.sondern", "de.samstag"] },
+    { "speaker": "wagner", "text": "Herr Wang, ist die Prüfung im Juni?", "zh": "王先生,考试是在六月吗?", "items": ["de.herr", "de.sein", "de.pruefung", "de.in", "de.juni"] },
+    { "speaker": "wei", "text": "Nein, nicht im Juni, sondern im Mai.", "zh": "不,不是六月,而是五月。", "items": ["de.nein", "de.nicht", "de.in", "de.juni", "de.sondern", "de.mai"] },
     { "speaker": "sofia", "text": "Und „Ich habe keine Zeit“? Ich glaube, das ist richtig.", "zh": "那“我没有时间”呢?我觉得这句是对的。", "items": ["de.und", "de.ich", "de.haben", "de.kein", "de.zeit", "de.glauben", "de.das_ist", "de.richtig"] },
     { "speaker": "wagner", "text": "Ja, das ist kein Fehler. Sehr gut, Sofia!", "zh": "对,这句没有错。很好,索菲娅!", "items": ["de.ja", "de.das_ist", "de.kein", "de.fehler", "de.sehr", "de.gut"] }
   ],
   "questions": [
     { "prompt": "瓦格纳老师说,大家的作文里哪方面错得多?", "options": ["nicht 的用法", "日期的写法", "名词的性"], "answer": 0, "explainZh": "老师说:In Ihren Texten gibt es viele Fehler mit „nicht“.(大家的作文里有很多 nicht 的错误。)" },
-    { "prompt": "德语考试是哪天?", "options": ["星期五", "星期天", "星期六"], "answer": 2, "explainZh": "王伟说:Nein, nicht am Freitag, sondern am Samstag.(不是星期五,而是星期六。)" },
+    { "prompt": "德语考试在几月?", "options": ["六月", "四月", "五月"], "answer": 2, "explainZh": "王伟说:Nein, nicht im Juni, sondern im Mai.(不是六月,而是五月。)考试在 5 月 17 日。" },
     { "prompt": "Ich komme am Samstag nicht mit 里,nicht 为什么放在 mit 前面?", "options": ["nicht 总是放在句子最后", "mit 是 mitkommen 的前缀,放在句末,nicht 放在它前面", "mit 是介词,所以要放在最后"], "answer": 1, "explainZh": "老师说:„Mit“ steht ganz am Ende, und „nicht“ steht vor „mit“.——mitkommen 是可分动词,前缀 mit 跑到句末,nicht 放在前缀前面。" }
   ],
   "grammar": [
@@ -40,7 +40,7 @@
         { "text": "Ich komme am Samstag nicht mit.", "zh": "我星期六不一起去。" }
       ] },
     { "id": "de.g.u12_nicht_teil", "titleZh": "nicht 的位置(二):否定一部分;nicht 还是 kein",
-      "bodyZh": "只否定句子里的某一部分时,nicht 放在这一部分前面,后面常接 sondern(而是):nicht am Freitag, sondern am Samstag;Ich kann nicht gut schwimmen.(否定的是 gut,“游得不好”)。sondern 只用在前面有 nicht / kein 的句子里;“但是”是 aber:Das ist nicht teuer, aber gut.\n否定名词:不带冠词或带 ein 的名词用 kein:Ich habe keine Zeit. / Das ist kein Fehler.;前面有 der / mein 这类词的名词用 nicht:Das ist nicht mein Buch.",
+      "bodyZh": "只否定句子里的某一部分时,nicht 放在这一部分前面,后面常接 sondern(而是):nicht im Juni, sondern im Mai;Ich kann nicht gut schwimmen.(否定的是 gut,“游得不好”)。sondern 只用在前面有 nicht / kein 的句子里;“但是”是 aber:Das ist nicht teuer, aber gut.\n否定名词:不带冠词或带 ein 的名词用 kein:Ich habe keine Zeit. / Das ist kein Fehler.;前面有 der / mein 这类词的名词用 nicht:Das ist nicht mein Buch.",
       "examples": [
         { "text": "Nicht am Freitag, sondern am Samstag.", "zh": "不是星期五,而是星期六。" },
         { "text": "Ich kann nicht gut schwimmen.", "zh": "我游泳游得不好。" },

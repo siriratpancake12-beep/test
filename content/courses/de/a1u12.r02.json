@@ -19,14 +19,14 @@
     { "speaker": "wei", "text": "Beim Sprechen: Keine Angst vor Fehlern!", "zh": "口语考试:别怕说错!", "items": ["de.bei", "de.sprechen", "de.kein", "de.angst", "de.vor", "de.fehler"] },
     { "speaker": "wei", "text": "Man kann auch fragen: „Wie bitte?“ oder „Noch einmal, bitte!“", "zh": "没听懂也可以问:“您说什么?”或者“请再说一遍!”", "items": ["de.man", "de.koennen", "de.auch", "de.fragen", "de.wie_bitte", "de.oder", "de.noch_einmal", "de.bitte"] },
     { "speaker": "wei", "text": "Ich war sehr nervös, aber das hat mir geholfen.", "zh": "我当时非常紧张,不过这样问一下很有用。", "items": ["de.ich", "de.sein", "de.sehr", "de.nervoes", "de.aber", "de.haben", "de.helfen"] },
-    { "speaker": "wei", "text": "Das Ergebnis kommt in drei Wochen.", "zh": "成绩三个星期以后出来。", "items": ["de.ergebnis", "de.ich_komme_aus", "de.in", "de.drei", "de.woche"] },
+    { "speaker": "wei", "text": "Die Prüfung war vor einer Woche. Das Ergebnis kommt in drei Wochen.", "zh": "考试是一个星期以前的事了。成绩三个星期以后出来。", "items": ["de.pruefung", "de.sein", "de.vor", "de.ein", "de.woche", "de.ergebnis", "de.ich_komme_aus", "de.in", "de.drei", "de.woche"] },
     { "speaker": "wei", "text": "Viel Glück! Viele Grüße, Wei", "zh": "祝大家好运!伟", "items": ["de.viel_glueck", "de.viele_gruesse"] }
   ],
   "questions": [
     { "prompt": "考试前一个月,王伟每天做什么?", "options": ["听十五分钟广播", "看一部德语电影", "写一篇日记"], "answer": 0, "explainZh": "Ich habe jeden Tag fünfzehn Minuten Radio gehört.(我每天听十五分钟德语广播。)" },
     { "prompt": "王伟常和谁一起说德语?", "options": ["瓦格纳老师", "约纳斯", "莉娜"], "answer": 2, "explainZh": "Mit Lena habe ich oft Deutsch gesprochen.(我常常和莉娜说德语。)莉娜学中文,两人互相练习。" },
     { "prompt": "口语考试时没听懂,王伟建议怎么做?", "options": ["什么也不说", "问 „Wie bitte?“ 或 „Noch einmal, bitte!“", "用手机查词典"], "answer": 1, "explainZh": "Man kann auch fragen: „Wie bitte?“ oder „Noch einmal, bitte!“——考试时手机不许用(Das Handy darf man nicht benutzen)。" },
-    { "prompt": "王伟写这篇文章时,考试成绩还要等多久?", "options": ["三个星期", "一个星期", "四天"], "answer": 0, "explainZh": "Das Ergebnis kommt in drei Wochen.(成绩三个星期以后出来。)考完以后大约四个星期出成绩,王伟是考完一周后写的。" }
+    { "prompt": "王伟写这篇文章时,考试成绩还要等多久?", "options": ["三个星期", "一个星期", "四天"], "answer": 0, "explainZh": "Die Prüfung war vor einer Woche. Das Ergebnis kommt in drei Wochen.(考试是一个星期以前,成绩三个星期以后出来。)vor einer Woche 是“一个星期以前”;考完大约四个星期出成绩。" }
   ],
   "grammar": [
     { "id": "de.g.u12_man_tipps", "titleZh": "给建议:man + 情态动词",

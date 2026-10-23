@@ -1,0 +1,50 @@
+{
+  "id": "en.a1u8.l06", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 Last weekend", "order": 108060,
+  "titleZh": "黑色星期五", "goalZh": "会用 there was / there were 描述过去某个场景里有什么、人多不多", "canDoZh": "能用 there was / there were 描述过去某个场景里有什么、人多不多",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 23,
+  "newItems": [
+    { "id": "en.black_friday", "kind": "phrase", "pos": "propn", "text": "Black Friday", "zh": "黑色星期五(感恩节后的大促销日)", "features": { "ipa": "ˌblæk ˈfraɪdeɪ" }, "noteZh": "感恩节后的那个星期五,美国很多商店一大早就开始大减价,人特别多;两个词首字母都大写。" },
+    { "id": "en.mall", "kind": "word", "pos": "noun", "text": "mall", "zh": "商场;购物中心", "features": { "ipa": "mɑːl" }, "noteZh": "美式 a 读 /ɑː/,和 ball 押韵;at the mall 在商场。" },
+    { "id": "en.line", "kind": "word", "pos": "noun", "text": "line", "zh": "队;排队的队伍", "features": { "ipa": "laɪn" }, "noteZh": "a long line 长队,wait in line 排队;英式英语说 queue。l 舌尖顶住上齿龈,别读成 n。" },
+    { "id": "en.crowded", "kind": "word", "pos": "adj", "text": "crowded", "zh": "拥挤的;人多的", "features": { "ipa": "ˈkraʊdɪd" }, "noteZh": "The mall was really crowded. 商场里特别挤;-ed 跟在 d 后面读 /ɪd/:“CROW-did”。" },
+    { "id": "en.wallet", "kind": "word", "pos": "noun", "text": "wallet", "zh": "钱包", "features": { "ipa": "ˈwɑːlɪt" }, "noteZh": "w 双唇收圆往前送,别读成 v;a 读 /ɑː/:“WAH-lit”。" },
+    { "id": "en.shirt", "kind": "word", "pos": "noun", "text": "shirt", "zh": "衬衫", "features": { "ipa": "ʃɝːt" }, "noteZh": "ir 读 /ɝː/,舌头卷起来;shirt 一般指有领子、有扣子的衬衫,T-shirt 是 T 恤。" }
+  ],
+  "reviewItems": ["en.store", "en.good_deal", "en.percent_off", "en.medium", "en.thats_it"],
+  "lines": [
+    { "speaker": "sofia", "text": "Hi, Lei! How was Black Friday?", "zh": "(感恩节后的周一,没去商场的索菲亚问磊)嗨,磊!黑色星期五怎么样?", "items": ["en.hi", "en.black_friday"] },
+    { "speaker": "lei", "text": "It was really crowded! There were a lot of people at the mall.", "zh": "特别挤!商场里人山人海。", "items": ["en.really", "en.crowded", "en.a_lot_of", "en.people", "en.mall"] },
+    { "speaker": "sofia", "text": "Were there long lines?", "zh": "排长队了吗?", "items": ["en.long", "en.line"] },
+    { "speaker": "lei", "text": "Yes, there was a long line at every store.", "zh": "排了,每家店门口都排着长队。", "items": ["en.long", "en.line", "en.store"] },
+    { "speaker": "sofia", "text": "Were there any good deals?", "zh": "有划算的东西吗?", "items": ["en.good_deal"] },
+    { "speaker": "lei", "text": "Yes! Shirts were fifty percent off.", "zh": "有!衬衫打五折。", "items": ["en.shirt", "en.percent_off"] },
+    { "speaker": "lei", "text": "I wanted a jacket, but there weren't any mediums.", "zh": "我想买一件外套,可是中号的都没有了。", "items": ["en.want", "en.jacket", "en.medium"] },
+    { "speaker": "sofia", "text": "Oh no! So what did you buy? Was it fun?", "zh": "哎呀!那你买了什么?好玩吗?", "items": ["en.buy", "en.fun"] },
+    { "speaker": "lei", "text": "A wallet for my dad. That's it!", "zh": "给我爸买了一个钱包。就这些!", "items": ["en.wallet", "en.dad", "en.thats_it"] },
+    { "speaker": "lei", "text": "I was so tired, but it was fun!", "zh": "累死了,不过挺好玩的!", "items": ["en.so", "en.tired", "en.fun"] }
+  ],
+  "questions": [
+    { "prompt": "黑色星期五那天,商场里怎么样?", "options": ["人很少,很安静", "特别挤,每家店都排着长队", "很多店没开门"], "answer": 1, "explainZh": "磊说 It was really crowded!(特别挤!)和 there was a long line at every store(每家店门口都排着长队)。" },
+    { "prompt": "磊为什么没买外套?", "options": ["太贵了", "颜色不好看", "没有中号的了"], "answer": 2, "explainZh": "I wanted a jacket, but there weren't any mediums.(我想买外套,可是中号的都没有了。)" },
+    { "prompt": "磊最后买了什么?", "options": ["给爸爸买了一个钱包", "给自己买了一件衬衫", "什么也没买"], "answer": 0, "explainZh": "A wallet for my dad. That's it!(给我爸买了一个钱包,就这些!)衬衫打五折,但他没说买了。" }
+  ],
+  "grammar": [
+    { "id": "en.g.there_was_were", "titleZh": "There was / There were:过去某处有……",
+      "bodyZh": "第 5 单元的 There is / There are 说“现在某处有……”;说过去,就把 is 换成 was,are 换成 were:There was a long line at every store.(每家店门口都排着长队。)There were a lot of people at the mall.(商场里人很多。)用 was 还是 were,看 there 后面的名词:单数、不可数用 was,复数用 were。否定:There wasn't… / There weren't any…(There weren't any mediums. 中号的都没有了)。问句把 was / were 放到 there 前面:Was there…? / Were there any good deals?,回答 Yes, there was. / No, there weren't.。中文说“商场里有很多人”,别照着语序说成 At the mall had a lot of people.。",
+      "examples": [
+        { "text": "There was a long line at every store.", "zh": "每家店门口都排着长队。" },
+        { "text": "There were a lot of people at the mall.", "zh": "商场里人很多。" },
+        { "text": "There weren't any jackets in a medium.", "zh": "外套没有中号的了。" },
+        { "text": "Were there any good deals? — Yes, there were.", "zh": "有划算的东西吗?——有。" }
+      ] },
+    { "id": "en.g.er_sound", "titleZh": "发音:/ɝː/;was 和 were 的强弱",
+      "bodyZh": "were、first、shirt、Thursday 里的 er、ir、ur 都读 /ɝː/:舌头卷起来往后收,舌尖不碰上颚,嘴不要张大,别读成“窝”或“沃”。在句子中间,were 常弱读成 /wɚ/,was 弱读成 /wəz/;放在简短回答的句末就要读重:Yes, there were. / Yes, there was.。黑色星期五是感恩节(11 月第四个星期四)后的那个星期五,很多商店一大早就开始大减价。",
+      "examples": [
+        { "text": "It was my first Black Friday.", "zh": "那是我第一次过黑色星期五。" },
+        { "text": "Shirts were fifty percent off.", "zh": "衬衫打五折。" },
+        { "text": "Were there long lines? — Yes, there were.", "zh": "排长队了吗?——排了。" }
+      ] }
+  ],
+  "review": "draft"
+}
