@@ -2,12 +2,12 @@ import { Redirect, router, useFocusEffect } from "expo-router";
 import { useCallback, useEffect, useState } from "react";
 import { ActivityIndicator, Linking, Pressable, ScrollView, Text, View } from "react-native";
 import {
-  canAccessLesson, dailyPlan, isDone, isUnlocked, levelProgress, nextLesson, projection, renewalReminder, streak, todayMinutes,
+  canAccessLesson, dailyPlan, levelProgress, nextLesson, projection, renewalReminder, streak, todayMinutes,
   type Block,
 } from "@lingo/core";
 import { serverEnabled } from "../api";
-import { estimateLessonMinutes } from "@lingo/core/src/hours";
 import { Button } from "../components/Button";
+import { CourseList } from "../components/CourseList";
 import { GoalReachedCard, UnitCheckpointCard } from "../components/UnitCards";
 import { getLesson, getLessons, getPack } from "../content";
 import { issueLabel, zhDate, zhMonth } from "../labels";
@@ -114,19 +114,8 @@ export default function Home() {
       <Pressable onPress={() => setShowAll(!showAll)}>
         <Text style={s.h2}>全部课程 {showAll ? "▲" : "▼"}</Text>
       </Pressable>
-      {showAll && lessons.map((l) => {
-        const done = isDone(progress, l.id);
-        const open = isUnlocked(lessons, progress, l.id);
-        const locked = !canAccessLesson(l, lessons, premium, progress.freeUnit);
-        return (
-          <Pressable key={l.id} disabled={!open} onPress={() => router.push(locked ? "/paywall?reason=lesson" : `/lesson/${l.id}`)}
-            style={[s.card, { opacity: open ? 1 : 0.45 }]}>
-            <Text style={s.sub}>{l.cefr} · {l.unit}</Text>
-            <Text style={s.h2}>{done ? "✅ " : locked ? "🔒 " : !open ? "⏳ " : ""}{l.titleZh}</Text>
-            <Text style={s.sub}>{l.canDoZh} · 约 {Math.round(estimateLessonMinutes(l))} 分钟</Text>
-          </Pressable>
-        );
-      })}
+      {/* 课多了以后不能一次全渲染出来:按单元折叠,只展开一个单元(见 CourseList) */}
+      {showAll && <CourseList lessons={lessons} progress={progress} premium={premium} current={upNext?.unit} />}
 
       <View style={{ gap: 8, marginTop: 8 }}>
         <Text style={s.sub}>

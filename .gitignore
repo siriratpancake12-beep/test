@@ -14,4 +14,6 @@ dist-web/
 tests/e2e/shots/
 .claude/worktrees/
 apps/mobile/.metro-cache/
+# App 内置课程:由 tools/gen-content-index.ts 生成(打包、App 类型检查前自动生成),全量时十几 MB,不提交
+apps/mobile/src/content/*.generated.ts
 services/api/data/
