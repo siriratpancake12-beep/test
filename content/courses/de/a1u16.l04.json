@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u16.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116040,
+  "titleZh": "在厨房帮忙", "goalZh": "会在厨房里问能帮什么忙、请别人做事、提醒别人小心", "canDoZh": "能在厨房里问要做什么、请别人递东西、提醒别人小心",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.decken", "kind": "word", "pos": "verb", "text": "decken", "zh": "铺;摆(桌子)", "features": { "ipa": "ˈdɛkn̩" }, "noteZh": "den Tisch decken(摆桌子:放盘子、刀叉)是固定搭配;Deck bitte den Tisch!(请摆一下桌子!)ck 读 [k]。" },
+    { "id": "de.weinen", "kind": "word", "pos": "verb", "text": "weinen", "zh": "哭", "features": { "ipa": "ˈvaɪ̯nən" }, "noteZh": "Warum weinst du?(你为什么哭?)切洋葱会让人流泪;w 读 [v],ei 读 [aɪ̯]。" },
+    { "id": "de.pfanne", "kind": "word", "pos": "noun", "text": "die Pfanne", "zh": "平底锅;煎锅", "features": { "gender": "f", "plural": "die Pfannen", "ipa": "ˈpfanə" }, "noteZh": "in der Pfanne braten(在平底锅里煎);煮东西的深锅是 der Topf;pf 两个音都要读。" },
+    { "id": "de.herd", "kind": "word", "pos": "noun", "text": "der Herd", "zh": "灶;炉灶", "features": { "gender": "m", "plural": "die Herde", "ipa": "heːɐ̯t" }, "noteZh": "auf dem Herd(在灶上);德国家里多半是电灶;词尾 d 读 [t]。" },
+    { "id": "de.aufpassen", "kind": "word", "pos": "verb", "text": "aufpassen", "zh": "小心;注意", "features": { "ipa": "ˈaʊ̯fˌpasn̩" }, "noteZh": "可分动词:Pass auf!(小心!)提醒别人时很常用;Pass auf, das ist heiß!(小心,烫!)" },
+    { "id": "de.riechen", "kind": "word", "pos": "verb", "text": "riechen", "zh": "闻;闻起来", "features": { "ipa": "ˈʁiːçn̩" }, "noteZh": "Das riecht gut!(好香!)和 schmecken(尝起来)一样,主语是东西;ie 后面的 ch 读 [ç]。" },
+    { "id": "de.nachher", "kind": "word", "pos": "adv", "text": "nachher", "zh": "待会儿;之后", "features": { "ipa": "naːxˈheːɐ̯" }, "noteZh": "Probieren kannst du nachher.(待会儿再尝。)反义 vorher(之前);ch 读 [x]。" },
+    { "id": "de.serviette", "kind": "word", "pos": "noun", "text": "die Serviette", "zh": "餐巾;餐巾纸", "features": { "gender": "f", "plural": "die Servietten", "ipa": "zɛʁˈvi̯ɛtə" }, "noteZh": "摆桌子时放在盘子旁边;法语来的词,重音在 vie 上;复数 die Servietten。" }
+  ],
+  "reviewItems": ["de.messer", "de.teller", "de.gabel", "de.gast", "de.probieren"],
+  "lines": [
+    { "speaker": "lena", "text": "Hallo! Paul und ich sind da. Können wir helfen?", "zh": "(星期天下午)嗨!保罗和我来了。我们能帮忙吗?", "items": ["de.hallo", "de.und", "de.ich", "de.sein", "de.da", "de.koennen", "de.wir", "de.helfen"] },
+    { "speaker": "jonas", "text": "Super! Lena, deck bitte den Tisch: Teller, Gabeln und Servietten.", "zh": "太好了!莉娜,请摆一下桌子:盘子、叉子和餐巾纸。", "items": ["de.toll", "de.decken", "de.bitte", "de.tisch", "de.teller", "de.gabel", "de.und", "de.serviette"] },
+    { "speaker": "sofia", "text": "Und ich mache den Salat. Wei schneidet die Zwiebeln.", "zh": "我做沙拉。王伟切洋葱。", "items": ["de.und", "de.ich", "de.machen", "de.salat", "de.schneiden", "de.zwiebel"] },
+    { "speaker": "paul", "text": "Wei, warum weinst du?", "zh": "王伟,你哭什么?", "items": ["de.warum", "de.weinen", "de.du"] },
+    { "speaker": "wei", "text": "Die Zwiebeln! Meine Augen tun weh.", "zh": "是洋葱!我眼睛好难受。", "items": ["de.zwiebel", "de.mein", "de.auge", "de.wehtun"] },
+    { "speaker": "jonas", "text": "Pass auf, Wei! Die Pfanne auf dem Herd ist heiß.", "zh": "小心,王伟!灶上的平底锅很烫。", "items": ["de.aufpassen", "de.pfanne", "de.auf", "de.herd", "de.sein", "de.heiss"] },
+    { "speaker": "paul", "text": "Das riecht gut! Kann ich probieren?", "zh": "好香啊!我能尝尝吗?", "items": ["de.riechen", "de.gut", "de.koennen", "de.ich", "de.probieren"] },
+    { "speaker": "jonas", "text": "Nein, Paul. Probieren kannst du nachher.", "zh": "不行,保罗。待会儿再尝。", "items": ["de.nein", "de.probieren", "de.koennen", "de.du", "de.nachher"] },
+    { "speaker": "paul", "text": "Aber ich bin Gast! Gäste arbeiten nicht.", "zh": "可我是客人!客人不干活。", "items": ["de.aber", "de.ich", "de.sein", "de.gast", "de.arbeiten", "de.nicht"] },
+    { "speaker": "lena", "text": "Paul, du bist kein Gast, du bist mein Bruder! Hilf Sofia!", "zh": "保罗,你不是客人,你是我弟弟!去帮索菲娅!", "items": ["de.du", "de.sein", "de.kein", "de.gast", "de.mein", "de.bruder", "de.helfen"] },
+    { "speaker": "sofia", "text": "Paul, hier ist ein Messer. Schneid die Gurke, aber langsam!", "zh": "保罗,给你一把刀。切黄瓜,慢一点!", "items": ["de.hier", "de.sein", "de.ein", "de.messer", "de.schneiden", "de.gurke", "de.aber", "de.langsam"] },
+    { "speaker": "jonas", "text": "Fertig! Alle an den Tisch! Guten Appetit!", "zh": "好了!大家上桌!开动吧!", "items": ["de.fertig", "de.alle", "de.an", "de.tisch", "de.guten_appetit"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么流眼泪?", "options": ["他切到手了", "他在切洋葱", "保罗说了一个笑话"], "answer": 1, "explainZh": "王伟说:Die Zwiebeln! Meine Augen tun weh.(是洋葱!我眼睛好难受。)" },
+    { "prompt": "约纳斯提醒王伟小心什么?", "options": ["刀很快", "盘子很贵", "灶上的平底锅很烫"], "answer": 2, "explainZh": "约纳斯说:Pass auf, Wei! Die Pfanne auf dem Herd ist heiß.(小心,王伟!灶上的平底锅很烫。)" },
+    { "prompt": "保罗为什么说自己不用干活?", "options": ["他说自己是客人", "他说他太累了", "他说他要写作业"], "answer": 0, "explainZh": "保罗说:Aber ich bin Gast! Gäste arbeiten nicht.(可我是客人!客人不干活。)莉娜马上说他是弟弟,不是客人。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_imperativ_kueche", "titleZh": "厨房里请人做事:du 的命令式复习",
+      "bodyZh": "在厨房里请朋友做事,用 du 的命令式:去掉 du 和动词词尾 -st——du deckst → Deck den Tisch!;du schneidest → Schneid die Gurke!\nhelfen 这类 e → i 的动词,命令式也保留 i:du hilfst → Hilf Sofia!\n可分动词的前缀放在句末:du passt auf → Pass auf!(小心!)\n加 bitte 更客气:Lena, deck bitte den Tisch.\n想让别人等一等:Probieren kannst du nachher.(待会儿再尝。)——把 probieren 放到句首强调,情态动词 kannst 还在第二位。",
+      "examples": [
+        { "text": "Deck bitte den Tisch!", "zh": "请摆一下桌子!" },
+        { "text": "Pass auf, die Pfanne ist heiß!", "zh": "小心,平底锅很烫!" },
+        { "text": "Hilf Sofia!", "zh": "去帮索菲娅!" },
+        { "text": "Probieren kannst du nachher.", "zh": "待会儿再尝。" }
+      ] }
+  ],
+  "review": "draft"
+}

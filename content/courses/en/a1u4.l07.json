@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u4.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 Food & drinks", "order": 104070,
+  "titleZh": "打电话订披萨", "goalZh": "会打电话订外卖:说清要什么、送到哪儿、留电话,问价钱和送达时间", "canDoZh": "能打电话订外卖:说清楚要什么、要多大、送到哪儿,留下电话,并问大概多久送到",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "en.pizza", "kind": "word", "pos": "noun", "text": "pizza", "zh": "披萨;比萨饼", "features": { "ipa": "ˈpiːtsə" }, "noteZh": "zz 读 /ts/,读 PEET-sa;一整个是 a pizza,一块是 a slice of pizza。" },
+    { "id": "en.pickup", "kind": "word", "pos": "noun", "text": "pickup", "zh": "(到店)自取", "features": { "ipa": "ˈpɪkʌp" }, "noteZh": "点外卖时店员常问 Pickup or delivery?(自取还是外送?);动词说法是 pick up(去拿)。" },
+    { "id": "en.delivery", "kind": "word", "pos": "noun", "text": "delivery", "zh": "外送;送货", "features": { "ipa": "dɪˈlɪvɚi" }, "noteZh": "重音在第二个音节 de-LIV-er-y;v 要上齿碰下唇。在美国叫外送,一般要给送餐的人小费。" },
+    { "id": "en.pepperoni", "kind": "word", "pos": "noun", "text": "pepperoni", "zh": "意式辣香肠", "features": { "ipa": "ˌpepəˈroʊni" }, "noteZh": "美国人最常点的披萨口味之一;重音在 ro:pep-per-O-ni。" },
+    { "id": "en.address", "kind": "word", "pos": "noun", "text": "address", "zh": "地址", "features": { "ipa": "ˈædres" }, "noteZh": "美式重音多在前 AD-dress;报地址先说门牌号再说街名,四位门牌号两位两位地读:1420 = fourteen twenty。" },
+    { "id": "en.order", "kind": "word", "pos": "noun", "text": "order", "zh": "点的餐;订单;点(餐)", "features": { "ipa": "ˈɔːrdɚ" }, "noteZh": "Your order is… 您点的是……;也可以当动词“点餐”,第 3 课的 Are you ready to order? 就是它。结尾卷舌 /ɚ/。" }
+  ],
+  "reviewItems": ["en.can_i_get", "en.half", "en.vegetable", "en.anything_else", "en.thats_it", "en.tip"],
+  "lines": [
+    { "speaker": "clerk", "text": "Hi! Pickup or delivery?", "zh": "(周五晚上,伊森想边打游戏边吃披萨,让磊打电话订,顺便练英语。披萨店的店员接起电话)您好!自取还是外送?", "items": ["en.hi", "en.pickup", "en.delivery"] },
+    { "speaker": "lei", "text": "Delivery, please. Can I get a large pizza?", "zh": "外送,谢谢。我要一个大号披萨。", "items": ["en.delivery", "en.can_i_get", "en.large", "en.pizza"] },
+    { "speaker": "clerk", "text": "Sure. Pepperoni, vegetable, or cheese?", "zh": "好的。意式辣香肠、蔬菜,还是奶酪的?", "items": ["en.sure", "en.pepperoni", "en.vegetable", "en.cheese"] },
+    { "speaker": "lei", "text": "Half pepperoni, half vegetable, please.", "zh": "一半意式辣香肠,一半蔬菜,谢谢。", "items": ["en.half", "en.pepperoni", "en.vegetable"] },
+    { "speaker": "clerk", "text": "Got it. What's the address?", "zh": "好的。地址是哪里?", "items": ["en.got_it", "en.address"] },
+    { "speaker": "lei", "text": "Fourteen twenty Broadway. It's a dorm.", "zh": "百老汇大街 1420 号。是一栋宿舍楼。", "items": ["en.dorm"] },
+    { "speaker": "clerk", "text": "And your phone number?", "zh": "您的电话号码呢?", "items": ["en.phone_number"] },
+    { "speaker": "lei", "text": "Two oh six, five five five, oh one nine three.", "zh": "206-555-0193。", "items": ["en.oh_zero"] },
+    { "speaker": "clerk", "text": "Your order is one large pizza, half and half. Anything else?", "zh": "您点的是一个大号披萨,一半一半。还要别的吗?", "items": ["en.order", "en.large", "en.pizza", "en.half", "en.anything_else"] },
+    { "speaker": "lei", "text": "No, that's it. How much is it? And what time is the delivery?", "zh": "不用了,就这些。多少钱?大概几点送到?", "items": ["en.thats_it", "en.how_much", "en.delivery"] },
+    { "speaker": "clerk", "text": "Twenty-four fifty. We're there at about seven thirty.", "zh": "24.50 美元。我们大约七点半送到。", "items": [] },
+    { "speaker": "ethan", "text": "Pizza's here! Lei, the tip, man!", "zh": "(七点半,送餐的司机到了楼下)披萨到了!磊,别忘了小费,哥们儿!", "items": ["en.pizza", "en.tip"] }
+  ],
+  "questions": [
+    { "prompt": "磊点的是什么披萨?", "options": ["一个大号披萨,一半意式辣香肠、一半蔬菜", "两个中号披萨", "一个大号奶酪披萨"], "answer": 0, "explainZh": "磊说 Can I get a large pizza? 和 Half pepperoni, half vegetable, please.;店员复述 one large pizza, half and half。" },
+    { "prompt": "一共多少钱?", "options": ["14.20 美元", "7.30 美元", "24.50 美元"], "answer": 2, "explainZh": "店员说 Twenty-four fifty.,就是 24.50 美元;1420 是门牌号,七点半是送到的时间。" },
+    { "prompt": "披萨大概什么时候送到?", "options": ["六点半", "七点半左右", "八点"], "answer": 1, "explainZh": "店员说 We're there at about seven thirty.(我们大约七点半送到。)" },
+    { "prompt": "披萨送到了,伊森提醒磊做什么?", "options": ["付现金", "再点一份薯条", "再打一次电话", "给送餐的人小费"], "answer": 3, "explainZh": "伊森说 Lei, the tip, man!——在美国叫外送,一般要给送餐的人小费。" }
+  ],
+  "grammar": [
+    { "id": "en.g.phone_order", "titleZh": "电话订餐的流程:Pickup or delivery? → 点餐 → 地址和电话 → 确认",
+      "bodyZh": "电话订外卖,店员一般按这个顺序问:Pickup or delivery?(自取还是外送?)→ 点什么 → What's the address?(地址?)→ And your phone number?(电话?)→ 复述订单 Your order is…,问 Anything else?→ 说价钱和大概几点送到。自己点餐用第 1 课学的 Can I get…?;店员复述时一定要听清,有错马上纠正。披萨可以一半一种口味:half pepperoni, half vegetable,也叫 half and half。外送到了,别忘了给送餐的人小费。",
+      "examples": [
+        { "text": "Pickup or delivery? — Delivery, please.", "zh": "自取还是外送?——外送,谢谢。" },
+        { "text": "Can I get a large pizza, half pepperoni, half vegetable?", "zh": "我要一个大号披萨,一半意式辣香肠,一半蔬菜。" },
+        { "text": "Your order is one large pizza. Anything else?", "zh": "您点的是一个大号披萨。还要别的吗?" }
+      ] },
+    { "id": "en.g.address_numbers", "titleZh": "门牌号的读法:1420 读 fourteen twenty",
+      "bodyZh": "美国地址先说门牌号,再说街名:1420 Broadway。四位门牌号一般两位两位地读:1420 = fourteen twenty,2650 = twenty-six fifty;中间的 0 常读 oh:1405 = fourteen oh five。三位数先读第一位,再读后两位:315 = three fifteen。读完门牌号稍停一下,再说街名(街名里常见的 Street 第 5 单元学)。电话号码还是一个数字一个数字地读:two oh six…。另外,pizza 的 zz 读 /ts/:PEET-sa。",
+      "examples": [
+        { "text": "Fourteen twenty Broadway.", "zh": "百老汇大街 1420 号。" },
+        { "text": "Fourteen oh five Broadway.", "zh": "百老汇大街 1405 号。" }
+      ] }
+  ],
+  "review": "draft"
+}

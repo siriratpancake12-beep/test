@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u14.l02", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114020,
+  "titleZh": "在车站接人", "goalZh": "会在车站按描述找人:打电话问对方穿什么、在哪儿,认错人时会道歉", "canDoZh": "能在车站根据描述找人,打电话问清楚对方在哪儿、穿什么",
+  "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.busbahnhof", "kind": "word", "pos": "noun", "text": "der Busbahnhof", "zh": "长途汽车站", "features": { "gender": "m", "plural": "die Busbahnhöfe", "ipa": "ˈbʊsbaːnˌhoːf" }, "noteZh": "der Bus + der Bahnhof,性跟 Bahnhof 走;长途大巴进出的车站;复数 die Busbahnhöfe(o 变 ö)。" },
+    { "id": "de.mensch", "kind": "word", "pos": "noun", "text": "der Mensch", "zh": "人", "features": { "gender": "m", "plural": "die Menschen", "ipa": "mɛnʃ" }, "noteZh": "Hier sind viele Menschen.(这儿人很多。)der Mensch 除了第一格都加 -en:den Menschen;nsch 读 [nʃ]。" },
+    { "id": "de.koffer", "kind": "word", "pos": "noun", "text": "der Koffer", "zh": "行李箱", "features": { "gender": "m", "plural": "die Koffer", "ipa": "ˈkɔfɐ" }, "noteZh": "复数和单数一样:die Koffer;o 是短音,ff 读 [f]。" },
+    { "id": "de.dort", "kind": "word", "pos": "adv", "text": "dort", "zh": "那里", "features": { "ipa": "dɔʁt" }, "noteZh": "和 da 差不多,dort 一般指更远一点的地方:dort hinten(那边后面);反义词 hier。" },
+    { "id": "de.hinten", "kind": "word", "pos": "adv", "text": "hinten", "zh": "在后面", "features": { "ipa": "ˈhɪntn̩" }, "noteZh": "dort hinten(那边后面)、hinten im Bus(车的后部);反义词 vorne。" },
+    { "id": "de.vorne", "kind": "word", "pos": "adv", "text": "vorne", "zh": "在前面", "features": { "ipa": "ˈfɔʁnə" }, "noteZh": "v 读 [f];da vorne(那前面);口语也说 vorn;反义词 hinten。" },
+    { "id": "de.ausgang", "kind": "word", "pos": "noun", "text": "der Ausgang", "zh": "出口", "features": { "gender": "m", "plural": "die Ausgänge", "ipa": "ˈaʊ̯sˌɡaŋ" }, "noteZh": "aus + der Gang,性跟 Gang 走;am Ausgang(在出口);复数 die Ausgänge;车站、商场里到处都有 Ausgang 的牌子。" },
+    { "id": "de.neben", "kind": "word", "pos": "prep", "text": "neben", "zh": "在……旁边", "features": { "ipa": "ˈneːbn̩" }, "noteZh": "说在哪儿时后面用第三格:neben dem Café(在咖啡馆旁边),先当固定说法记,A2 再系统讲。" }
+  ],
+  "reviewItems": ["de.tragen", "de.verwechseln", "de.warten", "de.herzlich_willkommen", "de.jacke", "de.moment"],
+  "lines": [
+    { "speaker": "wei", "text": "Hallo, Sofia! Ich bin jetzt am Busbahnhof.", "zh": "(打电话)喂,索菲娅!我已经到长途汽车站了。", "items": ["de.hallo", "de.ich", "de.sein", "de.jetzt", "de.am", "de.busbahnhof"] },
+    { "speaker": "wei", "text": "Der Bus ist da, aber hier sind sehr viele Menschen.", "zh": "车到了,可是这儿人好多。", "items": ["de.bus", "de.sein", "de.da", "de.aber", "de.hier", "de.sehr", "de.viel", "de.mensch"] },
+    { "speaker": "wei", "text": "Was trägt Marco heute?", "zh": "马可今天穿什么?", "items": ["de.was", "de.tragen", "de.heute"] },
+    { "speaker": "sofia", "text": "Er trägt eine Jacke in Rot und hat einen Koffer.", "zh": "他穿一件红外套,还拿着一个行李箱。", "items": ["de.er", "de.tragen", "de.ein", "de.jacke", "de.in", "de.rot", "de.und", "de.haben", "de.koffer"] },
+    { "speaker": "sofia", "text": "Der Koffer ist sehr groß und blau.", "zh": "箱子很大,是蓝色的。", "items": ["de.koffer", "de.sein", "de.sehr", "de.gross", "de.und", "de.blau"] },
+    { "speaker": "wei", "text": "Moment … Dort hinten steht ein Mann mit einer Jacke in Rot!", "zh": "等等……那边后面站着一个穿红外套的男人!", "items": ["de.moment", "de.dort", "de.hinten", "de.stehen", "de.ein", "de.mann", "de.mit", "de.jacke", "de.in", "de.rot"] },
+    { "speaker": "wei", "text": "Entschuldigung, sind Sie Marco?", "zh": "打扰一下,您是马可吗?", "items": ["de.entschuldigung", "de.sein", "de.sie_hoeflich"] },
+    { "speaker": "passant", "text": "Nein, ich bin nicht Marco. Ich heiße Thomas.", "zh": "不,我不是马可。我叫托马斯。", "items": ["de.nein", "de.ich", "de.sein", "de.nicht", "de.ich_heisse"] },
+    { "speaker": "wei", "text": "Entschuldigung! Ich habe Sie verwechselt.", "zh": "对不起!我认错人了。", "items": ["de.entschuldigung", "de.ich", "de.haben", "de.sie_hoeflich", "de.verwechseln"] },
+    { "speaker": "sofia", "text": "Marco schreibt gerade: Er wartet am Ausgang, neben dem Café.", "zh": "马可刚发消息说:他在出口等,就在咖啡馆旁边。", "items": ["de.schreiben", "de.gerade", "de.er", "de.warten", "de.am", "de.ausgang", "de.neben", "de.cafe"] },
+    { "speaker": "wei", "text": "Am Ausgang? Da vorne! Ich sehe ihn!", "zh": "在出口?就在前面!我看见他了!", "items": ["de.am", "de.ausgang", "de.da", "de.vorne", "de.ich", "de.sehen", "de.ihn"] },
+    { "speaker": "wei", "text": "Hallo, Marco! Herzlich willkommen in Berlin!", "zh": "你好,马可!欢迎来柏林!", "items": ["de.hallo", "de.herzlich_willkommen", "de.in"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅说马可今天穿什么?", "options": ["蓝外套", "红外套", "黑衬衫"], "answer": 1, "explainZh": "索菲娅说:Er trägt eine Jacke in Rot und hat einen Koffer.(他穿一件红外套,还拿着行李箱。)蓝色的是他的箱子。" },
+    { "prompt": "王伟上前问的那位男士是谁?", "options": ["马可的朋友", "大巴司机", "一个叫托马斯的陌生人"], "answer": 2, "explainZh": "那位男士说:Nein, ich bin nicht Marco. Ich heiße Thomas.;王伟道歉:Ich habe Sie verwechselt.(我认错人了。)" },
+    { "prompt": "马可在哪儿等王伟?", "options": ["出口,咖啡馆旁边", "大巴上", "售票处"], "answer": 0, "explainZh": "索菲娅说:Er wartet am Ausgang, neben dem Café.(他在出口等,在咖啡馆旁边。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_tragen", "titleZh": "tragen:穿着、戴着、拿着",
+      "bodyZh": "tragen 是不规则动词,du 和 er / sie 的 a 变 ä:ich trage · du trägst · er / sie trägt · wir tragen · ihr tragt · sie / Sie tragen。穿衣服、戴眼镜、拿着包都可以用 tragen。说颜色可以用“衣服 + in + 颜色”,不用给形容词加词尾:eine Jacke in Rot(红外套)、ein Koffer in Blau。问别人穿什么:Was trägt Marco heute?",
+      "examples": [
+        { "text": "Er trägt eine Jacke in Rot.", "zh": "他穿一件红外套。" },
+        { "text": "Was trägst du heute?", "zh": "你今天穿什么?" }
+      ] },
+    { "id": "de.g.u14_bahnhof_suchen", "titleZh": "在车站找人:说位置、认错人时道歉",
+      "bodyZh": "说位置:hier(这儿)/ da(那儿)/ dort(那里,更远一点);vorne(前面)/ hinten(后面),常连在一起说:da vorne、dort hinten;am Ausgang(在出口)、neben dem Café(在咖啡馆旁边,neben + 第三格先当固定说法)。打电话问:Wo bist du? – Ich bin am Ausgang.\n认错人:先问 Entschuldigung, sind Sie …?(对陌生人用 Sie);认错了就说 Entschuldigung! Ich habe Sie verwechselt.(verwechseln 的完成时,不加 ge-)。",
+      "examples": [
+        { "text": "Wo bist du? – Ich bin am Ausgang.", "zh": "你在哪儿?——我在出口。" },
+        { "text": "Entschuldigung, ich habe Sie verwechselt.", "zh": "对不起,我认错人了。" }
+      ] }
+  ],
+  "review": "draft"
+}

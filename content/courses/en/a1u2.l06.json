@@ -26,9 +26,9 @@
     { "speaker": "sofia", "text": "My family is big too. I have twenty cousins!", "zh": "我家也是个大家族。我有二十个表兄弟姐妹!", "items": ["en.family", "en.big", "en.have", "en.cousin"] }
   ],
   "questions": [
-    { "prompt": "群聊里“那个男的”是谁?", "options": ["磊的爸爸", "磊的姨父(姨妈的丈夫)", "磊的表哥"], "answer": 1, "explainZh": "索菲亚问 Is he your aunt's husband?,磊说 Yes, that's my uncle.(对,那是我姨父。)" },
-    { "prompt": "磊的表姐是谁的女儿?", "options": ["姨妈和姨父的女儿", "奶奶的女儿", "爸爸的姐姐的女儿"], "answer": 0, "explainZh": "磊先介绍了姨妈和姨父,接着说 Their daughter is my cousin.,their 指的就是他们俩。" },
-    { "prompt": "索菲亚觉得英语的亲戚称呼和中文比怎么样?", "options": ["和中文一样多", "比中文复杂", "比中文简单,五种都叫 aunt"], "answer": 2, "explainZh": "磊说中文里 aunt 有五种叫法,索菲亚说 In English, they're all “aunt.”(英语里都叫 aunt。)" }
+    { "prompt": "群聊里“那个男的”是谁?", "options": ["磊的姨父(姨妈的丈夫)", "磊的爸爸", "磊的表哥"], "answer": 0, "explainZh": "索菲亚问 Is he your aunt's husband?,磊说 Yes, that's my uncle.(对,那是我姨父。)" },
+    { "prompt": "磊的表姐是谁的女儿?", "options": ["奶奶的女儿", "爸爸的姐姐的女儿", "姨妈和姨父的女儿"], "answer": 2, "explainZh": "磊先介绍了姨妈和姨父,接着说 Their daughter is my cousin.,their 指的就是他们俩。" },
+    { "prompt": "索菲亚觉得英语的亲戚称呼和中文比怎么样?", "options": ["和中文一样多", "比中文简单,五种都叫 aunt", "比中文复杂"], "answer": 1, "explainZh": "磊说中文里 aunt 有五种叫法,索菲亚说 In English, they're all “aunt.”(英语里都叫 aunt。)" }
   ],
   "grammar": [
     { "id": "en.g.possessive_s", "titleZh": "名词所有格 's:my mom's sister(我妈妈的姐姐)",

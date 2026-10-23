@@ -28,9 +28,9 @@
     { "speaker": "lei", "text": "That's right. Thank you! Bye!", "zh": "没错。谢谢您!再见!", "items": ["en.thats_right", "en.thank_you", "en.bye"] }
   ],
   "questions": [
-    { "prompt": "第一个电话是怎么回事?", "options": ["国际学生办公室打来问邮箱", "对方找迈克,打错了", "艾米打来约磊见面"], "answer": 1, "explainZh": "对方问 Is this Mike?(请问是迈克吗?),磊说 No, sorry. Wrong number.(不是,您打错了。)" },
+    { "prompt": "第一个电话是怎么回事?", "options": ["对方找迈克,打错了", "国际学生办公室打来问邮箱", "艾米打来约磊见面"], "answer": 0, "explainZh": "对方问 Is this Mike?(请问是迈克吗?),磊说 No, sorry. Wrong number.(不是,您打错了。)" },
     { "prompt": "磊的邮箱是哪一个?", "options": ["lee_zhang@example.com", "lei.zhang@example.com", "leizhang@example.com", "lei_zhang@example.com"], "answer": 3, "explainZh": "磊说 L-E-I underscore Z-H-A-N-G at example dot com:underscore 是下划线 _,at 是 @,dot 是点。" },
-    { "prompt": "顾问复述邮箱时哪里错了?", "options": ["把 I 听成了 E", "把下划线听成了点", "把 Zhang 拼错了"], "answer": 0, "explainZh": "顾问说成 L-E-E,磊纠正:L-E-I. I, not E.(是 I,不是 E。)" }
+    { "prompt": "顾问复述邮箱时哪里错了?", "options": ["把下划线听成了点", "把 Zhang 拼错了", "把 I 听成了 E"], "answer": 2, "explainZh": "顾问说成 L-E-E,磊纠正:L-E-I. I, not E.(是 I,不是 E。)" }
   ],
   "grammar": [
     { "id": "en.g.phone_this_is", "titleZh": "电话用语:Hello? / Is this…? / This is…",

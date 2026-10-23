@@ -1,0 +1,39 @@
+{
+  "id": "en.a1u6.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106045,
+  "titleZh": "秋季促销广告", "goalZh": "看懂商场打折广告里的折扣、原价和现价,算出打折后多少钱", "canDoZh": "能看懂商场的打折广告:哪些东西打几折、原价和现价、活动到哪天",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
+  "newItems": [
+    { "id": "en.sale", "kind": "word", "pos": "noun", "text": "sale", "zh": "促销;大减价", "features": { "ipa": "seɪl" }, "noteZh": "on sale 是“在打折”(第 4 课学过);广告上大大的 SALE 是“大减价、促销”。s 读 /s/,别读成 sh。" }
+  ],
+  "reviewItems": ["en.on_sale", "en.percent_off", "en.try_on", "en.fitting_room", "en.jeans"],
+  "lines": [
+    { "speaker": "narrator", "text": "Big Sale This Week!", "zh": "(商场门口发的秋季促销传单,最上面一行大字)本周大减价!", "items": ["en.big", "en.sale", "en.week"] },
+    { "speaker": "narrator", "text": "All jackets: 30% off!", "zh": "所有外套:减 30%(七折)!", "items": ["en.jacket", "en.percent_off"] },
+    { "speaker": "narrator", "text": "A warm jacket for the rain: $80. Now $56!", "zh": "挡雨的暖和外套:原价 80 美元,现在 56 美元!", "items": ["en.warm", "en.jacket", "en.rain"] },
+    { "speaker": "narrator", "text": "Sweaters: $49.99. Now $29.99!", "zh": "毛衣:原价 49.99 美元,现在 29.99 美元!", "items": ["en.sweater"] },
+    { "speaker": "narrator", "text": "Jeans: one for $40, two for $60!", "zh": "牛仔裤:一条 40 美元,两条 60 美元!", "items": ["en.jeans"] },
+    { "speaker": "narrator", "text": "T-shirts in all colors: $12.", "zh": "各种颜色的 T 恤:12 美元。", "items": ["en.t_shirt", "en.color"] },
+    { "speaker": "narrator", "text": "Sorry, shoes are not on sale.", "zh": "抱歉,鞋子不打折。", "items": ["en.sorry", "en.shoes", "en.on_sale"] },
+    { "speaker": "narrator", "text": "Come in and try them on! The fitting rooms are on the left.", "zh": "欢迎进店试穿!试衣间在左边。", "items": ["en.come_in", "en.try_on", "en.fitting_room", "en.left"] },
+    { "speaker": "narrator", "text": "Too big? Too small? We have all sizes.", "zh": "太大?太小?各种尺码都有。", "items": ["en.too", "en.big", "en.small", "en.have", "en.size"] },
+    { "speaker": "narrator", "text": "The sale is from Monday to Sunday.", "zh": "(最下面的小字)活动时间:本周一到周日。", "items": ["en.sale", "en.monday", "en.sunday"] },
+    { "speaker": "narrator", "text": "With a store card: 10% off, too!", "zh": "持本店会员卡:再减 10%!", "items": ["en.store", "en.card", "en.percent_off"] }
+  ],
+  "questions": [
+    { "prompt": "一件原价 80 美元的外套,现在多少钱?", "options": ["24 美元", "56 美元", "50 美元"], "answer": 1, "explainZh": "All jackets: 30% off!(所有外套减 30%。)80 美元减 30% 是 56 美元,也就是打七折。" },
+    { "prompt": "买两条牛仔裤一共多少钱?", "options": ["80 美元", "40 美元", "60 美元"], "answer": 2, "explainZh": "Jeans: one for $40, two for $60!(一条 40 美元,两条 60 美元,第二条相当于半价。)" },
+    { "prompt": "哪样东西不打折?", "options": ["鞋", "毛衣", "外套"], "answer": 0, "explainZh": "Sorry, shoes are not on sale.(抱歉,鞋子不打折。)" },
+    { "prompt": "传单最下面的小字说了什么?", "options": ["活动只有周末两天", "办会员卡要 10 美元", "鞋子周日打折", "活动是周一到周日,有本店会员卡再减 10%"], "answer": 3, "explainZh": "The sale is from Monday to Sunday.(活动是周一到周日。)With a store card: 10% off, too!(持本店会员卡再减 10%。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.ad_prices", "titleZh": "读广告:价格和折扣",
+      "bodyZh": "广告上的价格这样读:$49.99 读 forty-nine ninety-nine(美元和美分各读一个数,dollars 常常省掉),$12 读 twelve dollars。30% off 读 thirty percent off,意思是减掉 30%,也就是中文说的“七折”,别按字面理解成“三折”。two for $60 是“两件 60 美元”。广告的大字写优惠,小字常写条件:活动到哪天、要不要会员卡。读广告时先看大字,再仔细看小字。",
+      "examples": [
+        { "text": "Sweaters: $49.99. Now $29.99!", "zh": "毛衣:原价 49.99 美元,现在 29.99 美元!" },
+        { "text": "All jackets: 30% off!", "zh": "所有外套:减 30%(七折)!" },
+        { "text": "Jeans: one for $40, two for $60!", "zh": "牛仔裤:一条 40 美元,两条 60 美元!" }
+      ] }
+  ],
+  "review": "draft"
+}

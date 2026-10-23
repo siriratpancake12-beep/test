@@ -1,0 +1,49 @@
+{
+  "id": "ko.a1u4.l03", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104030,
+  "titleZh": "打工第一天:欢迎光临!", "goalZh": "会用咖啡店柜台的固定说法接待顾客:欢迎、确认冷热和是否外带、请对方稍等",
+  "canDoZh": "能在咖啡店柜台接待一位顾客:说欢迎光临,问要冰的还是热的、是否打包,请对方稍等",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ko.eoseo_oseyo", "kind": "phrase", "pos": "phrase", "text": "어서 오세요", "zh": "欢迎光临", "features": { "roman": "eoseo oseyo" }, "noteZh": "店员对进门的客人说;客人不用回答,点头或说 안녕하세요 就行。" },
+    { "id": "ko.sajangnim", "kind": "word", "pos": "noun", "text": "사장님", "zh": "老板", "features": { "roman": "sajangnim" }, "noteZh": "汉字词 社长 + 님;店主、公司老板都这样称呼,小店里的客人也常这样叫店主。" },
+    { "id": "ko.areubaiteu", "kind": "word", "pos": "noun", "text": "아르바이트", "zh": "打工;兼职", "alt": ["알바"], "features": { "roman": "areubaiteu" }, "noteZh": "来自德语 Arbeit;口语缩成 알바:카페 알바 = 咖啡店兼职。" },
+    { "id": "ko.sonnim", "kind": "word", "pos": "noun", "text": "손님", "zh": "客人;顾客", "features": { "roman": "sonnim" }, "noteZh": "店员称呼客人就说 손님:손님, 여기 있어요。" },
+    { "id": "ko.aiseu", "kind": "word", "pos": "noun", "text": "아이스", "zh": "冰的(饮料)", "features": { "roman": "aiseu" }, "noteZh": "点冰饮:아이스 아메리카노 주세요;冰美式口语叫 아아。" },
+    { "id": "ko.ttatteutan", "kind": "word", "pos": "adj", "text": "따뜻한", "zh": "热的(饮料);温暖的", "features": { "roman": "ttatteutan" }, "noteZh": "原形 따뜻하다,这是修饰名词的形式:따뜻한 카페라테、따뜻한 거(热的)。뜻 的收音 ㅅ 读 [t],碰上 ㅎ 变成送气的 ㅌ,读 [따뜨탄]。" },
+    { "id": "ko.pojang", "kind": "word", "pos": "noun", "text": "포장", "zh": "打包;外带", "features": { "roman": "pojang" }, "noteZh": "汉字词 包装;店员问 포장이에요?(带走吗?),回答 포장이요 或 여기서 마셔요(在这儿喝)。" },
+    { "id": "ko.jamkkanmanyo", "kind": "phrase", "pos": "phrase", "text": "잠깐만요", "zh": "请稍等;借过一下", "features": { "roman": "jamkkanmanyo" }, "noteZh": "让对方等一下、在人群里请别人让路都用;连音读 [잠깐마뇨]。" },
+    { "id": "ko.algetseumnida", "kind": "phrase", "pos": "phrase", "text": "알겠습니다", "zh": "知道了;好的(正式)", "alt": ["알겠어요"], "features": { "roman": "algetseumnida" }, "noteZh": "接受指示、订单时说,比 네 郑重;读 [알겓씀니다]。口语说 알겠어요。" }
+  ],
+  "reviewItems": ["ko.kape", "ko.amerikano", "ko.kaperate", "ko.yeogi"],
+  "lines": [
+    { "speaker": "jing", "text": "사장님, 안녕하세요! 잘 부탁드립니다.", "zh": "(看到告示以后,陈静去应聘,被录用了。星期一下午,她第一天来崔老板的咖啡店上班)老板好!请多关照。", "roman": "Sajangnim, annyeonghaseyo! Jal butakdeurimnida.", "items": ["ko.sajangnim", "ko.annyeonghaseyo", "ko.jal_butakdeurimnida"] },
+    { "speaker": "choi", "text": "어서 오세요, 잠깐만요, 손님, 여기 있어요.", "zh": "(老板慢慢地教她柜台上最常用的几句话,陈静记在小本子上)“欢迎光临”“请稍等”“您好,给您”。", "roman": "Eoseo oseyo, jamkkanmanyo, sonnim, yeogi isseoyo.", "items": ["ko.eoseo_oseyo", "ko.jamkkanmanyo", "ko.sonnim", "ko.yeogi", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "어서 오세요!", "zh": "(门开了,第一位顾客进来)欢迎光临!", "roman": "Eoseo oseyo!", "items": ["ko.eoseo_oseyo"] },
+    { "speaker": "customer", "text": "아이스 아메리카노 주세요.", "zh": "请给我一杯冰美式。", "roman": "Aiseu amerikano juseyo.", "items": ["ko.aiseu", "ko.amerikano", "ko.juseyo"] },
+    { "speaker": "jing", "text": "포장이에요?", "zh": "带走吗?", "roman": "Pojangieyo?", "items": ["ko.pojang"] },
+    { "speaker": "customer", "text": "네, 포장이요.", "zh": "对,带走。", "roman": "Ne, pojangiyo.", "items": ["ko.ne", "ko.pojang"] },
+    { "speaker": "customer", "text": "카페라테 주세요.", "zh": "(又进来一位顾客)请给我一杯拿铁。", "roman": "Kaperate juseyo.", "items": ["ko.kaperate", "ko.juseyo"] },
+    { "speaker": "jing", "text": "따뜻한 거요, 아이스요?", "zh": "要热的还是冰的?", "roman": "Ttatteutan geoyo, aiseuyo?", "items": ["ko.ttatteutan", "ko.aiseu"] },
+    { "speaker": "customer", "text": "따뜻한 거요. 여기서 마셔요.", "zh": "热的。在这儿喝。", "roman": "Ttatteutan geoyo. Yeogiseo masyeoyo.", "items": ["ko.ttatteutan", "ko.yeogi", "ko.masyeoyo"] },
+    { "speaker": "jing", "text": "네, 알겠습니다. 잠깐만요.", "zh": "好的,请稍等。", "roman": "Ne, algetseumnida. Jamkkanmanyo.", "items": ["ko.ne", "ko.algetseumnida", "ko.jamkkanmanyo"] },
+    { "speaker": "choi", "text": "천징 씨, 고마워요. 카페 아르바이트, 괜찮아요?", "zh": "(下班的时候,老板笑着说)陈静,谢谢你。在咖啡店打工,还行吧?", "roman": "Cheonjing ssi, gomawoyo. Kape areubaiteu, gwaenchanayo?", "items": ["ko.ssi", "ko.gomawoyo", "ko.kape", "ko.areubaiteu", "ko.gwaenchanayo"] },
+    { "speaker": "jing", "text": "네, 괜찮아요! 감사합니다, 사장님.", "zh": "嗯,挺好的!谢谢老板。", "roman": "Ne, gwaenchanayo! Gamsahamnida, sajangnim.", "items": ["ko.ne", "ko.gwaenchanayo", "ko.gamsahamnida", "ko.sajangnim"] }
+  ],
+  "questions": [
+    { "prompt": "第一位顾客点了什么?", "options": ["热拿铁,在店里喝", "冰美式,带走", "冰美式,在店里喝"], "answer": 1, "explainZh": "第 4、6 句:아이스 아메리카노 주세요……네, 포장이요(冰美式,带走)。" },
+    { "prompt": "陈静问第二位顾客“따뜻한 거요, 아이스요?”,是在问什么?", "options": ["要不要带走", "要大杯还是小杯", "要热的还是冰的"], "answer": 2, "explainZh": "第 8 句:따뜻한 거 = 热的,아이스 = 冰的。顾客回答 따뜻한 거요(要热的,第 9 句)。" },
+    { "prompt": "第二位顾客说“여기서 마셔요”,意思是?", "options": ["在这儿喝,不带走", "请稍等", "这里是咖啡店"], "answer": 0, "explainZh": "第 9 句:여기서 = 在这儿,마셔요 = 喝。和第一位顾客的 포장이요(带走)正好相反。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.counter_phrases", "titleZh": "柜台用语:固定说法、短答加 요、따뜻한 + 名词",
+      "bodyZh": "① 先整句记的固定说法:어서 오세요(欢迎光临)——店员对进门的客人说,客人不用回答;잠깐만요(请稍等);알겠습니다(好的、明白了),接订单时比 네 郑重;递东西时说 손님, 여기 있어요(您好,给您)。어서 오세요 里的 -세요 是对客人用的敬语,第 6 单元系统学。\n② 短答加 요 更礼貌:只回答一个词时,在后面加 요——有收音加 이요(포장이요),没有收音加 요(아이스요、따뜻한 거요)。不加 요 只说 포장,听起来像对朋友说话,在店里显得生硬。\n③ 따뜻한 是“热的、暖和的”修饰名词的形式,放在名词前面:따뜻한 카페라테、따뜻한 거(热的,거 = 东西)。冰的饮料直接在前面加 아이스:아이스 아메리카노。问顾客要热的还是冰的:따뜻한 거요, 아이스요?\n④ 问带不带走:포장이에요?(字面是“是打包吗?”);顾客回答 포장이요(带走)或 여기서 마셔요(在这儿喝)。",
+      "examples": [
+        { "text": "어서 오세요!", "zh": "欢迎光临!" },
+        { "text": "포장이에요? — 네, 포장이요.", "zh": "带走吗?——对,带走。" },
+        { "text": "따뜻한 거요, 아이스요?", "zh": "要热的还是冰的?" },
+        { "text": "네, 알겠습니다. 잠깐만요.", "zh": "好的,请稍等。" }
+      ] }
+  ],
+  "review": "draft"
+}

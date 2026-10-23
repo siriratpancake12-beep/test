@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u6.l06", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106060,
+  "titleZh": "网上买鞋", "goalZh": "会和朋友一起网购:选颜色和尺码、问运费和到货时间、加入购物车、结账", "canDoZh": "能和朋友一起在网上买东西:选颜色和尺码、看运费和到货时间、下单付款",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.online", "kind": "word", "pos": "adv", "text": "online", "zh": "在网上;网上的", "features": { "ipa": "ˌɑːnˈlaɪn" }, "noteZh": "buy them online 在网上买;on 美式读 /ɑːn/。也能放在名词前:an online store 网店。" },
+    { "id": "en.same", "kind": "word", "pos": "adj", "text": "same", "zh": "同样的;同一个", "features": { "ipa": "seɪm" }, "noteZh": "the same shoes 同一双鞋;same 前面一般加 the。a 读 /eɪ/,结尾 m 要闭上嘴。" },
+    { "id": "en.shipping", "kind": "word", "pos": "noun", "text": "shipping", "zh": "运费;运送", "features": { "ipa": "ˈʃɪpɪŋ" }, "noteZh": "free shipping 免运费;sh 是 /ʃ/,舌尖往后收、嘴唇向前突——读成 sipping 就成了“小口喝”。" },
+    { "id": "en.out_of_stock", "kind": "phrase", "pos": "adj", "text": "out of stock", "zh": "缺货;卖完了", "features": { "ipa": "ˌaʊt̬ əv ˈstɑːk" }, "noteZh": "Black is out of stock. 黑色缺货了;三个词连起来读,out of 的 t 读成轻快的 d:“ou-də-stock”。" },
+    { "id": "en.add_to_cart", "kind": "phrase", "pos": "phrase", "text": "add to cart", "zh": "加入购物车", "features": { "ipa": "ˌæd tə ˈkɑːrt" }, "noteZh": "网页按钮上的 Add to Cart;cart 是购物车,超市的手推车也叫 cart;ar 要卷舌。" },
+    { "id": "en.checkout", "kind": "word", "pos": "noun", "text": "checkout", "zh": "结账;结算", "features": { "ipa": "ˈtʃekaʊt" }, "noteZh": "go to checkout 去结账;重音在前 CHECK-out。超市的收银台也叫 checkout。" }
+  ],
+  "reviewItems": ["en.shoes", "en.percent_off", "en.good_deal", "en.size", "en.return"],
+  "lines": [
+    { "speaker": "lei", "text": "I really like these shoes, but they're fifty dollars.", "zh": "(回到宿舍,磊又想起第 4 课那双运动鞋)我真的很喜欢这双鞋,可是要 50 美元。", "items": ["en.really", "en.like", "en.shoes", "en.dollar"] },
+    { "speaker": "ethan", "text": "Fifty? Buy them online, man. The same shoes are thirty percent off.", "zh": "50?在网上买呀,哥们儿。同一双鞋网上减 30%。", "items": ["en.buy", "en.online", "en.same", "en.shoes", "en.percent_off"] },
+    { "speaker": "lei", "text": "Wow, that's a good deal! How much is shipping?", "zh": "哇,真划算!运费多少?", "items": ["en.good_deal", "en.how_much", "en.shipping"] },
+    { "speaker": "ethan", "text": "It's free shipping. They come in three days.", "zh": "免运费。三天就到。", "items": ["en.free", "en.shipping", "en.come"] },
+    { "speaker": "lei", "text": "Great. Do they have them in black?", "zh": "太好了。有黑色的吗?", "items": ["en.great", "en.have", "en.black"] },
+    { "speaker": "ethan", "text": "No, black is out of stock. Gray or white?", "zh": "没有,黑色的缺货了。要灰色还是白色?", "items": ["en.black", "en.out_of_stock", "en.gray", "en.white"] },
+    { "speaker": "lei", "text": "Gray, please. In China, I wear a 42.", "zh": "灰色吧。在中国我穿 42 码。", "items": ["en.gray", "en.wear"] },
+    { "speaker": "ethan", "text": "In the US, that's a size nine.", "zh": "在美国就是 9 码。", "items": ["en.size"] },
+    { "speaker": "lei", "text": "OK, size nine. Add to cart, then checkout.", "zh": "好,9 码。加入购物车,然后结账。", "items": ["en.size", "en.add_to_cart", "en.then", "en.checkout"] },
+    { "speaker": "ethan", "text": "Wait! Are returns free? Shoes don't always fit.", "zh": "等等!退货免费吗?鞋子不一定合脚。", "items": ["en.wait", "en.return", "en.free", "en.shoes", "en.always", "en.fit"] },
+    { "speaker": "lei", "text": "Let me see... Yes, free returns for thirty days.", "zh": "我看看……免费,三十天内都能退。", "items": ["en.let_me_see", "en.free", "en.return"] },
+    { "speaker": "ethan", "text": "Cool. Now pay with your new bank card, man!", "zh": "好嘞。现在用你新办的银行卡付钱吧,哥们儿!", "items": ["en.cool", "en.pay", "en.new", "en.bank", "en.card"] }
+  ],
+  "questions": [
+    { "prompt": "网上的同一双鞋怎么卖?", "options": ["便宜 30 美元", "打七折(减 30%)", "便宜一半"], "answer": 1, "explainZh": "伊森说 The same shoes are thirty percent off.(同一双鞋减 30%,也就是七折。)是 30%,不是 30 美元。" },
+    { "prompt": "磊最后选了什么颜色、多大的鞋?", "options": ["黑色,中国 42 码", "白色,美国 9 码", "灰色,美国 9 码"], "answer": 2, "explainZh": "黑色缺货了(black is out of stock),磊说 Gray, please.;他在中国穿 42 码,伊森说 In the US, that's a size nine.(在美国是 9 码。)" },
+    { "prompt": "付款前,伊森提醒磊注意什么?为什么?", "options": ["退货免不免费,因为鞋子不一定合脚", "运费多少,因为运费很贵", "什么时候到货,因为周末要穿"], "answer": 0, "explainZh": "伊森说 Are returns free? Shoes don't always fit.(退货免费吗?鞋子不一定合脚。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.online_shopping", "titleZh": "网购常用词;/ʃ/ 和 /s/",
+      "bodyZh": "网购页面上最常见的几个词:add to cart(加入购物车)、checkout(结账)、free shipping(免运费)、out of stock(缺货)、free returns(免费退货)。问运费说 How much is shipping?。问有没有某个颜色时,鞋是复数,要说 Do they have them in black?;一件外套就说 Do they have it in black?。发音:/ʃ/(shipping、shoes、T-shirt)和 /s/(sale、size、same)要分清。四川口音常把 sh 读成 s,发 /ʃ/ 时舌尖往后收、嘴唇向前突。",
+      "examples": [
+        { "text": "How much is shipping? — It's free shipping.", "zh": "运费多少?——免运费。" },
+        { "text": "Sorry, black is out of stock.", "zh": "抱歉,黑色缺货了。" },
+        { "text": "Add to cart, then go to checkout.", "zh": "加入购物车,然后去结账。" }
+      ] },
+    { "id": "en.g.in_time", "titleZh": "in + 一段时间:多久以后",
+      "bodyZh": "说“多久以后”,用 in + 一段时间:They come in three days.(三天后到。)第 5 单元银行职员也说过 Your card comes in about a week.(你的卡大约一周后到)。in three days 是从现在算起“三天以后”。问“要花多长时间”用 How long does it take?,回答 It takes three days.。中文说“三天后”,时间在前;英语的 in 放在时间前面,不说 three days in。",
+      "examples": [
+        { "text": "They come in three days.", "zh": "三天后到。" },
+        { "text": "The next bus comes in ten minutes.", "zh": "下一班公交十分钟后来。" },
+        { "text": "How long does it take? — It takes three days.", "zh": "要多长时间?——三天。" }
+      ] }
+  ],
+  "review": "draft"
+}

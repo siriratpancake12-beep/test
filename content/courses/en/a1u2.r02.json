@@ -20,13 +20,13 @@
     { "speaker": "narrator", "text": "He's a senior, and he's Lei's friend.", "zh": "(第四段)他读大四,是磊的朋友。", "items": ["en.senior", "en.friend"] },
     { "speaker": "narrator", "text": "He has long black hair, and he's really funny. Who is he?", "zh": "他留着黑色长发,特别幽默。他是谁?", "items": ["en.have", "en.long", "en.black", "en.hair", "en.really", "en.funny"] },
     { "speaker": "narrator", "text": "And you? What do you look like? What are you like?", "zh": "(最后一段)那你呢?你长什么样?你是什么样的人?", "items": ["en.and_you", "en.what_does_he_look_like", "en.whats_he_like"] },
-    { "speaker": "narrator", "text": "Write about you here!", "zh": "把你自己写在这里吧!", "items": ["en.write"] }
+    { "speaker": "narrator", "text": "Write it here!", "zh": "把你的回答写在这里吧!", "items": ["en.write"] }
   ],
   "questions": [
-    { "prompt": "第一段写的是谁?", "options": ["索菲亚", "艾米", "马库斯", "伊森"], "answer": 1, "explainZh": "西雅图人、读大二(sophomore)、家里的狗有点疯——是艾米。" },
-    { "prompt": "第二段写的是谁?", "options": ["伊森", "磊", "马库斯", "迭戈"], "answer": 0, "explainZh": "个子很高、棕色短发、不太安静、来自加州——是伊森。" },
-    { "prompt": "第三段写的是谁?", "options": ["艾米", "马库斯", "索菲亚"], "answer": 2, "explainZh": "来自墨西哥、黑色长发、两个妹妹是双胞胎——是索菲亚。" },
-    { "prompt": "第四段写的是谁?", "options": ["伊森", "迭戈", "磊", "马库斯"], "answer": 3, "explainZh": "读大四(senior)、是磊的朋友、特别幽默——是马库斯。" }
+    { "prompt": "第一段写的是谁?", "options": ["索菲亚", "马库斯", "伊森", "艾米"], "answer": 3, "explainZh": "西雅图人、读大二(sophomore)、家里的狗有点疯——是艾米。" },
+    { "prompt": "第二段写的是谁?", "options": ["磊", "伊森", "马库斯", "迭戈"], "answer": 1, "explainZh": "个子很高、棕色短发、不太安静、来自加州——是伊森。" },
+    { "prompt": "第三段写的是谁?", "options": ["索菲亚", "艾米", "马库斯"], "answer": 0, "explainZh": "来自墨西哥、黑色长发、两个妹妹是双胞胎——是索菲亚。" },
+    { "prompt": "第四段写的是谁?", "options": ["伊森", "迭戈", "马库斯", "磊"], "answer": 2, "explainZh": "读大四(senior)、是磊的朋友、特别幽默——是马库斯。" }
   ],
   "grammar": [
     { "id": "en.g.describe_people", "titleZh": "描述一个人:has + 长相,is + 性格;long black hair 的词序",

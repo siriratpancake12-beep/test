@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u14.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114080,
+  "titleZh": "单元复习与应用:猜猜他是谁", "goalZh": "会用外貌、性格的词描述大家都认识的人,会用是非问句一步步猜出是谁;复习 aussehen、mögen 和性格形容词", "canDoZh": "能用外貌和性格描述一个人,也能通过提问猜出是谁",
+  "skills": ["listen", "speak"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "de.geduldig", "kind": "word", "pos": "adj", "text": "geduldig", "zh": "有耐心", "features": { "ipa": "ɡəˈdʊldɪç" }, "noteZh": "die Geduld(耐心)+ -ig;-ig 读 [ɪç];反义词 ungeduldig。" },
+    { "id": "de.klug", "kind": "word", "pos": "adj", "text": "klug", "zh": "聪明", "features": { "ipa": "kluːk" }, "noteZh": "u 是长音,词尾 g 读 [k];同义词 intelligent。" },
+    { "id": "de.raten", "kind": "word", "pos": "verb", "text": "raten", "zh": "猜", "features": { "ipa": "ˈʁaːtn̩" }, "noteZh": "不规则:du rätst, er rät;Rate mal!(猜猜看!)Du kannst gut raten.(你很会猜。)" }
+  ],
+  "reviewItems": ["de.aussehen", "de.lustig", "de.faul", "de.hoeflich", "de.moegen", "de.sportlich"],
+  "lines": [
+    { "speaker": "sofia", "text": "Wir spielen „Wer ist das?“. Ich fange an!", "zh": "我们来玩“猜猜他是谁”。我先来!", "items": ["de.wir", "de.spielen", "de.wer", "de.sein", "de.ich", "de.anfangen"] },
+    { "speaker": "sofia", "text": "Sie ist sehr geduldig und spricht immer langsam.", "zh": "她很有耐心,说话总是慢慢的。", "items": ["de.sie_sg", "de.sein", "de.sehr", "de.geduldig", "de.und", "de.sprechen", "de.immer", "de.langsam"] },
+    { "speaker": "wei", "text": "Ist sie Lehrerin?", "zh": "她是老师吗?", "items": ["de.sein", "de.sie_sg", "de.lehrerin"] },
+    { "speaker": "sofia", "text": "Ja! Und sie kommt aus Köln.", "zh": "对!而且她是科隆人。", "items": ["de.ja", "de.und", "de.sie_sg", "de.ich_komme_aus"] },
+    { "speaker": "wei", "text": "Das ist Frau Wagner!", "zh": "是瓦格纳老师!", "items": ["de.das_ist", "de.frau"] },
+    { "speaker": "wei", "text": "Jetzt ich. Er ist alt und sehr höflich. Er erzählt gern von Zügen.", "zh": "现在轮到我。他年纪大了,很有礼貌,爱讲火车的事。", "items": ["de.jetzt", "de.ich", "de.er", "de.sein", "de.alt", "de.und", "de.sehr", "de.hoeflich", "de.erzaehlen", "de.gern", "de.von", "de.zug"] },
+    { "speaker": "jonas", "text": "Wohnt er in unserem Haus?", "zh": "他住在我们这栋楼吗?", "items": ["de.wohnen", "de.er", "de.in", "de.unser", "de.haus"] },
+    { "speaker": "wei", "text": "Ja, er ist unser Nachbar.", "zh": "对,他是我们的邻居。", "items": ["de.ja", "de.er", "de.sein", "de.unser", "de.nachbar"] },
+    { "speaker": "sofia", "text": "Herr Hoffmann! Ich mag ihn sehr.", "zh": "霍夫曼先生!我很喜欢他。", "items": ["de.herr", "de.ich", "de.moegen", "de.ihn", "de.sehr"] },
+    { "speaker": "jonas", "text": "Jetzt ich! Er sieht sehr gut aus und ist sportlich.", "zh": "该我了!他长得很帅,还爱运动。", "items": ["de.jetzt", "de.ich", "de.er", "de.aussehen", "de.sehr", "de.gut", "de.und", "de.sein", "de.sportlich"] },
+    { "speaker": "sofia", "text": "Ist er lustig? Ist er klug?", "zh": "他风趣吗?聪明吗?", "items": ["de.sein", "de.er", "de.lustig", "de.klug"] },
+    { "speaker": "jonas", "text": "Ja, sehr klug. Und er kocht sehr gut!", "zh": "对,特别聪明。而且他做饭特别好吃!", "items": ["de.ja", "de.sehr", "de.klug", "de.und", "de.er", "de.kochen", "de.gut"] },
+    { "speaker": "wei", "text": "Ist er Koch? Arbeitet er in einem Restaurant?", "zh": "他是厨师吗?在餐馆上班?", "items": ["de.sein", "de.er", "de.koch", "de.arbeiten", "de.in", "de.ein", "de.restaurant"] },
+    { "speaker": "jonas", "text": "Ja! Und er ist auch ein bisschen faul …", "zh": "对!而且他还有点懒……", "items": ["de.ja", "de.und", "de.er", "de.sein", "de.auch", "de.ein_bisschen", "de.faul"] },
+    { "speaker": "sofia", "text": "Jonas! Das bist du!", "zh": "约纳斯!说的就是你!", "items": ["de.sein", "de.du"] },
+    { "speaker": "jonas", "text": "Richtig! Du kannst gut raten, Sofia.", "zh": "答对了!你真会猜,索菲娅。", "items": ["de.richtig", "de.du", "de.koennen", "de.gut", "de.raten"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅描述的是谁?", "options": ["莉娜", "瓦格纳老师", "保罗"], "answer": 1, "explainZh": "索菲娅说她很有耐心、说话慢,是老师,来自科隆;王伟猜:Das ist Frau Wagner!" },
+    { "prompt": "王伟描述的人有什么特点?", "options": ["个子很高、很帅", "有点懒", "年纪大、很有礼貌、爱讲火车"], "answer": 2, "explainZh": "王伟说:Er ist alt und sehr höflich. Er erzählt gern von Zügen.——是邻居霍夫曼先生。" },
+    { "prompt": "约纳斯描述的是谁?", "options": ["王伟", "约纳斯自己", "霍夫曼先生"], "answer": 1, "explainZh": "约纳斯说那个人是厨师、在餐馆上班,还有点懒;索菲娅说:Jonas! Das bist du!(说的就是你!)" },
+    { "prompt": "约纳斯说那个人有什么缺点?", "options": ["有点懒", "说话太快", "做饭不好吃"], "answer": 0, "explainZh": "约纳斯说:Und er ist auch ein bisschen faul …(而且他还有点懒……)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_review_beschreiben", "titleZh": "第 14 单元小结(一):描述一个人",
+      "bodyZh": "外貌:sein + 形容词(Er ist groß / schlank)、haben + 名词(Sie hat kurze Haare)、tragen(Er trägt eine Brille)、aussehen(Er sieht sportlich aus / Sie sieht aus wie Sofia)。性格:Sie ist geduldig / höflich / lustig / ein bisschen faul.。说以前:Als Kind hatte ich kurze Haare. / Ich war ein bisschen dick.。说喜欢:Ich mag ihn sehr.(mögen + 人)。",
+      "examples": [
+        { "text": "Er sieht sehr gut aus und ist sportlich.", "zh": "他长得很帅,还爱运动。" },
+        { "text": "Sie ist sehr geduldig.", "zh": "她很有耐心。" },
+        { "text": "Ich mag ihn sehr.", "zh": "我很喜欢他。" }
+      ] },
+    { "id": "de.g.u14_review_fragen", "titleZh": "第 14 单元小结(二):用是非问句猜人",
+      "bodyZh": "猜人时用是非问句,变位动词放在句首:Ist sie Lehrerin? / Wohnt er in unserem Haus? / Arbeitet er in einem Restaurant? / Trägt er eine Brille?。回答 Ja / Nein,再多说一句:Ja, er ist unser Nachbar.。猜出来了:Das ist Frau Wagner! / Das bist du!(动词跟着后面的人走:das bin ich, das bist du, das ist er)。",
+      "examples": [
+        { "text": "Ist sie Lehrerin?", "zh": "她是老师吗?" },
+        { "text": "Wohnt er in unserem Haus?", "zh": "他住在我们楼里吗?" },
+        { "text": "Das bist du!", "zh": "说的就是你!" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,7 +1,7 @@
 {
   "id": "en.a1u3.l06", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
   "unit": "A1-3 Daily life", "order": 103060,
-  "titleZh": "图书馆几点关门?", "goalZh": "会问、会说一个地方几点开门和关门,听懂 a.m. / p.m.、half past、a quarter to 这些时间说法", "canDoZh": "能问清楚一个地方几点开门、几点关门,并听懂'还有 15 分钟关门'这类广播通知",
+  "titleZh": "图书馆几点关门?", "goalZh": "会问、会说一个地方几点开门和关门,听懂 a.m. / p.m.、half past、a quarter to 这些时间说法", "canDoZh": "能问清楚一个地方几点开门、几点关门,并听懂关门时间的广播通知",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
   "newItems": [
     { "id": "en.open", "kind": "word", "pos": "verb", "text": "open", "zh": "开门;打开", "features": { "ipa": "ˈoʊpən" }, "noteZh": "The library opens at 10 a.m. 图书馆上午 10 点开门;说“开着(营业中)”用 It's open.。重音在前 O-pen。" },
@@ -28,9 +28,9 @@
     { "speaker": "lei", "text": "Half past ten is early for me on Saturdays!", "zh": "周六十点半,对我来说可够早的!", "items": ["en.half", "en.past", "en.early", "en.saturday"] }
   ],
   "questions": [
-    { "prompt": "广播说图书馆几点关门?", "options": ["晚上 11 点", "午夜 12 点", "下午 6 点"], "answer": 1, "explainZh": "广播说 The library closes at midnight.,midnight 是夜里 12 点;磊说现在是 a quarter to twelve(11:45)。" },
+    { "prompt": "广播说图书馆几点关门?", "options": ["午夜 12 点", "晚上 11 点", "下午 6 点"], "answer": 0, "explainZh": "广播说 The library closes at midnight.,midnight 是夜里 12 点;磊说现在是 a quarter to twelve(11:45)。" },
     { "prompt": "图书馆周六几点开门、几点关门?", "options": ["中午 12 点开,午夜 12 点关", "上午 10 点半开,下午 6 点关", "上午 10 点开,下午 6 点关"], "answer": 2, "explainZh": "磊说 It opens at 10 a.m. and closes at 6 p.m.;中午开门的是周日,十点半是两人约好的时间。" },
-    { "prompt": "两人约在什么时候一起学习?", "options": ["周六上午十点半", "周日中午十二点", "周六下午两点"], "answer": 0, "explainZh": "索菲亚问 Study here on Saturday morning?,磊说 At half past ten?;索菲亚周六下午要打工。" }
+    { "prompt": "两人约在什么时候一起学习?", "options": ["周日中午十二点", "周六上午十点半", "周六下午两点"], "answer": 1, "explainZh": "索菲亚问 Study here on Saturday morning?,磊说 At half past ten?;索菲亚周六下午要打工。" }
   ],
   "grammar": [
     { "id": "en.g.open_close", "titleZh": "开放时间:open / close + at 钟点;a.m. 和 p.m.",

@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u4.l06", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-4 Food & drinks", "order": 104060,
+  "titleZh": "中式早餐和美式早餐", "goalZh": "会说常见的中式、美式早餐,告诉别人自己不吃什么、对什么过敏", "canDoZh": "能说出常见的早餐食物,告诉别人自己早上吃什么、不吃什么、对什么过敏",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.cereal", "kind": "word", "pos": "noun", "text": "cereal", "zh": "麦片(早餐谷物)", "features": { "ipa": "ˈsɪriəl" }, "noteZh": "美国人早饭常吃 cereal,倒上牛奶吃;和 serial(连续的)读音一样。" },
+    { "id": "en.yogurt", "kind": "word", "pos": "noun", "text": "yogurt", "zh": "酸奶", "features": { "ipa": "ˈjoʊɡɚt" }, "noteZh": "美式读 YO-gurt,开头是 /j/;一般不可数:some yogurt,一杯一杯卖的也可以说 a yogurt。" },
+    { "id": "en.toast", "kind": "word", "pos": "noun", "text": "toast", "zh": "烤面包片;吐司", "features": { "ipa": "toʊst" }, "noteZh": "不可数:some toast、a piece of toast;oa 读 /oʊ/,词尾 st 收住,别读成“吐司”。" },
+    { "id": "en.pancakes", "kind": "word", "pos": "noun", "text": "pancakes", "zh": "(美式)松饼;煎饼", "features": { "ipa": "ˈpænkeɪks" }, "noteZh": "美式早餐的圆松饼,一般说复数 pancakes,单数是 pancake;常淋上枫糖浆吃。" },
+    { "id": "en.noodles", "kind": "word", "pos": "noun", "text": "noodles", "zh": "面条", "features": { "ipa": "ˈnuːdəlz" }, "noteZh": "一般用复数 noodles;oo 读长音 /uː/,结尾的 dles 舌尖顶住上齿龈,别读成“努斗斯”。" },
+    { "id": "en.soy_milk", "kind": "phrase", "pos": "noun", "text": "soy milk", "zh": "豆浆", "features": { "ipa": "ˈsɔɪ ˌmɪlk" }, "noteZh": "美国超市卖的 soy milk 多是冷的、带甜味,和中国早餐的热豆浆不太一样;oy 读 /ɔɪ/。" },
+    { "id": "en.beans", "kind": "word", "pos": "noun", "text": "beans", "zh": "豆子", "features": { "ipa": "biːnz" }, "noteZh": "一般用复数 beans;墨西哥菜里常见煮软的黑豆、花豆;ea 读长音 /iː/。" },
+    { "id": "en.tortilla", "kind": "word", "pos": "noun", "text": "tortilla", "zh": "(墨西哥)玉米饼;薄饼", "features": { "ipa": "tɔːrˈtiːə" }, "noteZh": "来自西班牙语,ll 不读 /l/,读 tor-TEE-ya;墨西哥菜里很常见,在美国也到处能买到。" },
+    { "id": "en.nuts", "kind": "word", "pos": "noun", "text": "nuts", "zh": "坚果", "features": { "ipa": "nʌts" }, "noteZh": "u 读 /ʌ/,嘴巴放松、短促,别读成“纳茨”;说过敏一般用复数:I'm allergic to nuts.。" },
+    { "id": "en.allergic", "kind": "word", "pos": "adj", "text": "allergic", "zh": "过敏的", "features": { "ipa": "əˈlɝːdʒɪk" }, "noteZh": "对……过敏:I'm allergic to nuts.,to 不能漏;重音在第二个音节 a-LER-gic,g 读 /dʒ/。" }
+  ],
+  "reviewItems": ["en.breakfast", "en.egg", "en.miss", "en.want", "en.delicious", "en.eat"],
+  "lines": [
+    { "speaker": "sofia", "text": "Good morning, Lei! Eggs and toast for breakfast?", "zh": "(早上在学校食堂,索菲亚端着麦片和酸奶)早上好,磊!早饭吃鸡蛋和吐司?", "items": ["en.morning", "en.egg", "en.toast", "en.breakfast"] },
+    { "speaker": "lei", "text": "Yes. And you have cereal and yogurt.", "zh": "对。你吃的是麦片和酸奶。", "items": ["en.have", "en.cereal", "en.yogurt"] },
+    { "speaker": "lei", "text": "But I miss Chinese breakfast: noodles and soy milk!", "zh": "不过我想念中国的早饭:面条和豆浆!", "items": ["en.miss", "en.breakfast", "en.noodles", "en.soy_milk"] },
+    { "speaker": "sofia", "text": "In Mexico, we eat beans and tortillas for breakfast.", "zh": "在墨西哥,我们早饭吃豆子和玉米饼。", "items": ["en.eat", "en.beans", "en.tortilla", "en.breakfast"] },
+    { "speaker": "lei", "text": "Beans for breakfast? Cool!", "zh": "早饭吃豆子?挺有意思!", "items": ["en.beans", "en.breakfast", "en.cool"] },
+    { "speaker": "lei", "text": "Do you want some pancakes? They have nuts, but they're delicious.", "zh": "(松饼旁边贴着“含坚果”的标签)你要来点松饼吗?里面有坚果,不过很好吃。", "items": ["en.want", "en.pancakes", "en.have", "en.nuts", "en.delicious"] },
+    { "speaker": "sofia", "text": "No, thanks. I'm allergic to nuts.", "zh": "不用了,谢谢。我对坚果过敏。", "items": ["en.no_thanks", "en.allergic", "en.nuts"] },
+    { "speaker": "lei", "text": "Allergic? What does that mean?", "zh": "过敏?那是什么意思?", "items": ["en.allergic", "en.what_does_that_mean"] },
+    { "speaker": "sofia", "text": "Nuts are bad for me. I don't eat them.", "zh": "坚果对我身体不好,我不能吃。", "items": ["en.nuts", "en.eat"] },
+    { "speaker": "lei", "text": "Got it. You're allergic to nuts. No pancakes for you!", "zh": "明白了。你对坚果过敏。那你就别吃松饼了!", "items": ["en.got_it", "en.allergic", "en.nuts", "en.pancakes"] }
+  ],
+  "questions": [
+    { "prompt": "索菲亚早饭吃什么?", "options": ["鸡蛋和吐司", "面条和豆浆", "麦片和酸奶"], "answer": 2, "explainZh": "磊说 And you have cereal and yogurt.(你吃的是麦片和酸奶。)鸡蛋和吐司是磊的早饭,面条和豆浆是他想念的中国早饭。" },
+    { "prompt": "磊想念什么样的早饭?", "options": ["豆子和玉米饼", "面条和豆浆", "松饼"], "answer": 1, "explainZh": "磊说 I miss Chinese breakfast: noodles and soy milk!;豆子和玉米饼是索菲亚说的墨西哥早饭。" },
+    { "prompt": "索菲亚为什么不吃松饼?", "options": ["松饼里有坚果,她对坚果过敏", "她不喜欢甜的", "她已经吃饱了"], "answer": 0, "explainZh": "磊说松饼 They have nuts,索菲亚说 I'm allergic to nuts.(我对坚果过敏。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.allergic_dont_eat", "titleZh": "说忌口和过敏:I don't eat… / I'm allergic to…",
+      "bodyZh": "说自己不吃某样东西:I don't eat spicy food.(我不吃辣)、I don't eat nuts.。说过敏:I'm allergic to nuts.(我对坚果过敏),结构是 be allergic to + 东西,to 不能漏,也不说 I allergic nuts。过敏比“不爱吃”严重得多,在餐厅、食堂要主动说清楚,还可以加一句 Nuts are bad for me.(坚果我不能吃)。美国的食品包装、面包店常常标出坚果、牛奶、鸡蛋这类容易过敏的东西,买之前看一眼标签。",
+      "examples": [
+        { "text": "I'm allergic to nuts.", "zh": "我对坚果过敏。" },
+        { "text": "I don't eat spicy food.", "zh": "我不吃辣。" },
+        { "text": "Nuts are bad for me.", "zh": "坚果我不能吃。" }
+      ] },
+    { "id": "en.g.breakfast_some_any", "titleZh": "复习 some / any:Do you want some toast?",
+      "bodyZh": "复习第 5 课:请别人吃东西、问要不要,用 some:Do you want some toast?(要不要来点吐司?);一般的疑问句和否定句用 any:Do the pancakes have any nuts?(松饼里有坚果吗?)。早餐词里 toast、cereal、yogurt、milk 一般不可数,不加 a、不加 s;eggs、pancakes、beans、nuts、noodles 可数,常用复数。发音:nuts、lunch、Sunday 里的 u 读 /ʌ/,嘴巴放松、短促,不要读成“啊”。",
+      "examples": [
+        { "text": "Do you want some toast?", "zh": "要不要来点吐司?" },
+        { "text": "Do the pancakes have any nuts?", "zh": "这些松饼里有坚果吗?" },
+        { "text": "I have cereal and yogurt for breakfast.", "zh": "我早饭吃麦片和酸奶。" }
+      ] }
+  ],
+  "review": "draft"
+}

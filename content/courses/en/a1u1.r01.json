@@ -24,9 +24,9 @@
     { "speaker": "amy", "text": "Nice to meet you, and see you later!", "zh": "很高兴认识你们,回头见!", "items": ["en.nice_to_meet_you", "en.see_you_later"] }
   ],
   "questions": [
-    { "prompt": "海报上的艾米是谁?", "options": ["来自中国的国际学生", "国际学生办公室的志愿者", "国际学生办公室的老师"], "answer": 1, "explainZh": "艾米说 I'm from Seattle, and I'm a student here.(我是西雅图人,在这里上学)和 I'm a volunteer at the International Student Office.(我是国际学生办公室的志愿者)。" },
+    { "prompt": "海报上的艾米是谁?", "options": ["国际学生办公室的志愿者", "来自中国的国际学生", "国际学生办公室的老师"], "answer": 0, "explainZh": "艾米说 I'm from Seattle, and I'm a student here.(我是西雅图人,在这里上学)和 I'm a volunteer at the International Student Office.(我是国际学生办公室的志愿者)。" },
     { "prompt": "想请对方说慢一点,要用海报上的哪一句?", "options": ["What does that mean?", "How do you say this in English?", "Could you say that again?", "A little slower, please."], "answer": 3, "explainZh": "A little slower, please. 是“请说慢一点”;Could you say that again? 是请对方再说一遍,What does that mean? 是问意思。" },
-    { "prompt": "听不懂别人说的话时,海报让你怎么做?", "options": ["别担心,用海报上的话开口问", "先回宿舍查词典", "不说话,等对方再说一遍"], "answer": 0, "explainZh": "海报写 Don't understand? That's OK!(听不懂?没关系!),下面列出了几句求助的话,艾米还说 Ask me!(来问我吧!)。" }
+    { "prompt": "听不懂别人说的话时,海报让你怎么做?", "options": ["先回宿舍查词典", "别担心,用海报上的话开口问", "不说话,等对方再说一遍"], "answer": 1, "explainZh": "海报写 Don't understand? That's OK!(听不懂?没关系!),下面列出了几句求助的话,艾米还说 Ask me!(来问我吧!)。" }
   ],
   "grammar": [
     { "id": "en.g.read_poster", "titleZh": "读海报:先看大标题,再找名字和地点",

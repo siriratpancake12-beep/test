@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u16.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116030,
+  "titleZh": "先煮土豆:菜谱的说法", "goalZh": "看懂菜谱里的不定式和 Sie 的命令式,会说放多少、按顺序说做法", "canDoZh": "能看懂菜谱里的步骤,也能按顺序说出一道菜的做法",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.schaelen", "kind": "word", "pos": "verb", "text": "schälen", "zh": "削皮;剥皮", "features": { "ipa": "ˈʃɛːlən" }, "noteZh": "Kartoffeln schälen(给土豆削皮);ä 是长音 [ɛː];规则动词:ich schäle, du schälst。" },
+    { "id": "de.schneiden", "kind": "word", "pos": "verb", "text": "schneiden", "zh": "切", "features": { "ipa": "ˈʃnaɪ̯dn̩" }, "noteZh": "in Scheiben schneiden(切成片)、klein schneiden(切碎);完成时不规则:geschnitten;du schneidest, er schneidet。" },
+    { "id": "de.scheibe", "kind": "word", "pos": "noun", "text": "die Scheibe", "zh": "片", "features": { "gender": "f", "plural": "die Scheiben", "ipa": "ˈʃaɪ̯bə" }, "noteZh": "in Scheiben(切成片);eine Scheibe Brot / Käse(一片面包、奶酪)——量词后面直接跟名词。" },
+    { "id": "de.salz", "kind": "word", "pos": "noun", "text": "das Salz", "zh": "盐", "features": { "gender": "n", "plural": "-", "ipa": "zalts" }, "noteZh": "ein bisschen Salz(一点盐);词首 s 读 [z],词尾 z 读 [ts];不可数。" },
+    { "id": "de.pfeffer", "kind": "word", "pos": "noun", "text": "der Pfeffer", "zh": "胡椒", "features": { "gender": "m", "plural": "-", "ipa": "ˈpfɛfɐ" }, "noteZh": "Salz und Pfeffer(盐和胡椒)常一起说;pf 先闭嘴唇再送气,别读成 f;不可数。" },
+    { "id": "de.kochbuch", "kind": "word", "pos": "noun", "text": "das Kochbuch", "zh": "菜谱书", "features": { "gender": "n", "plural": "die Kochbücher", "ipa": "ˈkɔxˌbuːx" }, "noteZh": "kochen + das Buch;复数变音 die Kochbücher;两个 ch 都在后元音后面,读 [x]。" },
+    { "id": "de.essloeffel", "kind": "word", "pos": "noun", "text": "der Esslöffel", "zh": "汤匙;一大勺(菜谱的量)", "features": { "gender": "m", "plural": "die Esslöffel", "ipa": "ˈɛsˌlœfl̩" }, "noteZh": "essen + der Löffel(勺子);菜谱写 EL:zwei Esslöffel Öl(两大勺油);单复数同形。" },
+    { "id": "de.mischen", "kind": "word", "pos": "verb", "text": "mischen", "zh": "混合;拌", "features": { "ipa": "ˈmɪʃn̩" }, "noteZh": "Wir mischen alles.(我们把所有东西拌在一起。)规则动词:du mischst, er mischt。" }
+  ],
+  "reviewItems": ["de.kartoffelsalat", "de.minute", "de.ein_bisschen", "de.fertig", "de.sagen"],
+  "lines": [
+    { "speaker": "jonas", "text": "Gut, Wei. Jetzt machen wir den Kartoffelsalat.", "zh": "(星期天,厨房里)好了,王伟。现在我们做土豆沙拉。", "items": ["de.gut", "de.jetzt", "de.machen", "de.wir", "de.kartoffelsalat"] },
+    { "speaker": "jonas", "text": "Die Kartoffeln zwanzig Minuten kochen. Dann schälen.", "zh": "土豆煮二十分钟。然后去皮。", "items": ["de.kartoffel", "de.zwanzig", "de.minute", "de.kochen", "de.dann", "de.schaelen"] },
+    { "speaker": "wei", "text": "Und dann schneide ich sie, oder?", "zh": "然后我把它们切了,对吧?", "items": ["de.und", "de.dann", "de.schneiden", "de.ich", "de.sie_pl", "de.oder"] },
+    { "speaker": "jonas", "text": "Genau. Schneid sie in Scheiben, und die Zwiebeln auch.", "zh": "对。切成片,洋葱也切了。", "items": ["de.genau", "de.schneiden", "de.sie_pl", "de.in", "de.scheibe", "de.und", "de.zwiebel", "de.auch"] },
+    { "speaker": "wei", "text": "Wie viel Salz? Einen Esslöffel?", "zh": "放多少盐?一大勺?", "items": ["de.wie_viel", "de.salz", "de.ein", "de.essloeffel"] },
+    { "speaker": "jonas", "text": "Nein! Nur ein bisschen Salz und ein bisschen Pfeffer.", "zh": "不行!只要一点盐、一点胡椒。", "items": ["de.nein", "de.nur", "de.ein_bisschen", "de.salz", "de.und", "de.pfeffer"] },
+    { "speaker": "wei", "text": "Mein Kochbuch sagt: „Kochen Sie die Kartoffeln zwanzig Minuten.“", "zh": "我的菜谱书上写着:“请将土豆煮二十分钟。”", "items": ["de.mein", "de.kochbuch", "de.sagen", "de.kochen", "de.sie_hoeflich", "de.kartoffel", "de.zwanzig", "de.minute"] },
+    { "speaker": "jonas", "text": "Ja, so schreiben Kochbücher. Ich sage nur: Kartoffeln kochen!", "zh": "对,菜谱书就是这么写的。我就说:煮土豆!", "items": ["de.ja", "de.so", "de.schreiben", "de.kochbuch", "de.ich", "de.sagen", "de.nur", "de.kartoffel", "de.kochen"] },
+    { "speaker": "wei", "text": "Und jetzt mischen wir alles?", "zh": "现在把所有东西拌在一起?", "items": ["de.und", "de.jetzt", "de.mischen", "de.wir", "de.alles"] },
+    { "speaker": "jonas", "text": "Ja: Kartoffeln, Zwiebeln, Essig, Öl und Senf. Fertig!", "zh": "对:土豆、洋葱、醋、油和芥末酱。好了!", "items": ["de.ja", "de.kartoffel", "de.zwiebel", "de.essig", "de.oel", "de.und", "de.senf", "de.fertig"] }
+  ],
+  "questions": [
+    { "prompt": "土豆要煮多久?", "options": ["二十分钟", "十分钟", "一个小时"], "answer": 0, "explainZh": "约纳斯说:Die Kartoffeln zwanzig Minuten kochen.(土豆煮二十分钟。)菜谱书上也这么写。" },
+    { "prompt": "盐要放多少?", "options": ["一大勺", "很多", "一点儿"], "answer": 2, "explainZh": "王伟问 Einen Esslöffel?(一大勺?),约纳斯说:Nein! Nur ein bisschen Salz …(不行!只要一点盐……)" },
+    { "prompt": "约纳斯怎么说菜谱书的写法?", "options": ["菜谱书写错了", "菜谱书就是这么写的,他自己说得更简单", "他从来不看菜谱书"], "answer": 1, "explainZh": "约纳斯说:Ja, so schreiben Kochbücher. Ich sage nur: Kartoffeln kochen!(菜谱书就是这么写的。我就说:煮土豆!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_rezept_infinitiv", "titleZh": "菜谱的两种写法:不定式和 Sie 的命令式",
+      "bodyZh": "菜谱(das Rezept)和菜谱书(das Kochbuch)里的步骤常见两种写法:\n① 不写主语,不定式放在句末:Die Kartoffeln zwanzig Minuten kochen.(土豆煮二十分钟。)/ Dann schälen.(然后去皮。)——最常见,写在卡片上很简洁。\n② Sie 的命令式,动词放在句首:Kochen Sie die Kartoffeln zwanzig Minuten.(请把土豆煮二十分钟。)\n在厨房里跟朋友说话,用 du 的命令式或者陈述句:Schneid sie in Scheiben!(把它们切成片!)/ Dann schneide ich sie.(然后我把它们切了。)\n约纳斯说话就像在念菜谱:Kartoffeln kochen!——这是厨房里很常见的说法,不算不礼貌。",
+      "examples": [
+        { "text": "Die Kartoffeln zwanzig Minuten kochen.", "zh": "土豆煮二十分钟。" },
+        { "text": "Kochen Sie die Kartoffeln zwanzig Minuten.", "zh": "请将土豆煮二十分钟。" },
+        { "text": "Schneid sie in Scheiben!", "zh": "把它们切成片!" }
+      ] },
+    { "id": "de.g.u16_wie_viel_salz", "titleZh": "放多少,按什么顺序",
+      "bodyZh": "放多少:ein bisschen Salz(一点盐)、viel Öl(很多油)、zwei Esslöffel Essig(两大勺醋)——和集市上的 ein Kilo Tomaten 一样,量词后面直接跟名词。注意:zu wenig Salz = 盐太少。\n按顺序说:Dann schälen.(然后去皮。)/ Und jetzt mischen wir alles.(现在把所有东西拌在一起。)/ Fertig!(好了!)——dann、jetzt 放在句首时,动词紧跟在后面:Jetzt mischen wir …(✗ Jetzt wir mischen)。",
+      "examples": [
+        { "text": "Nur ein bisschen Salz!", "zh": "只要一点盐!" },
+        { "text": "Zwei Esslöffel Essig, bitte.", "zh": "请放两大勺醋。" },
+        { "text": "Und jetzt mischen wir alles.", "zh": "现在把所有东西拌在一起。" }
+      ] }
+  ],
+  "review": "draft"
+}

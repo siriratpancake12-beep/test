@@ -150,7 +150,7 @@
     {
       "id": "en.a1u3.l06", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-3 Daily life", "order": 103060,
       "titleZh": "图书馆几点关门?", "goalZh": "会问、会说一个地方几点开门和关门,听懂 a.m. / p.m.、half past、a quarter to 这些时间说法",
-      "canDoZh": "能问清楚一个地方几点开门、几点关门,并听懂'还有 15 分钟关门'这类广播通知",
+      "canDoZh": "能问清楚一个地方几点开门、几点关门,并听懂关门时间的广播通知",
       "scenarioZh": "晚上磊和索菲亚在图书馆学习,11:45 响起广播:The library closes at midnight.(minute 第 5 单元才教,广播不说 in fifteen minutes,in + 一段时间放在语法讲解里)。两人吃了一惊,一边收拾一边查周末的开放时间:周六上午 10 点开、下午 6 点关,周日中午 12 点开。两人约好周六上午十点半在图书馆见(索菲亚周六下午打工)。",
       "grammarFocusZh": "open / close 说开放时间(The library opens at 8 a.m. and closes at midnight.);in + 一段时间表示'……之后'(in fifteen minutes);a.m. / p.m.、midnight;half past ten、quarter to twelve 也要听得懂。发音:动词 close 读 /kloʊz/,词尾是浊音;听广播先抓数字和动词。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
@@ -199,7 +199,7 @@
       "id": "en.a1u4.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-4 Food & drinks", "order": 104045,
       "titleZh": "餐厅菜单", "goalZh": "看懂美式餐厅的菜单:菜名、配菜、价格,知道哪道菜辣、什么另外收钱、价格含不含税",
       "canDoZh": "能看懂美式餐厅的菜单:菜名、配菜和价格,知道哪些菜是辣的、哪些另外收钱",
-      "scenarioZh": "体裁:菜单。说话人 narrator。第 3 课那家美式餐厅的菜单:汉堡、沙拉、配菜、饮料几个栏目,每道菜一行描述和价格(Spicy Burger with fries: $12.99。chicken 是第 5 课的词,菜单不用),辣的菜标着 It's really spicy!,加奶酪另收 1 美元,水免费,底部写着价格不含税和小费。至少 8 行。",
+      "scenarioZh": "体裁:菜单。说话人 narrator。第 3 课那家美式餐厅的菜单:汉堡、沙拉、配菜、饮料几个栏目,每道菜一行描述和价格(Spicy Burger with fries: $12.50——和第 4 课磊的账单 16.50 美元对得上:12.50 + 茶 2.50 + 约 10% 的税;chicken 是第 5 课的词,菜单不用),辣的菜标着 It's really spicy!,加奶酪另收 1 美元,水免费,底部写着价格不含税和小费。至少 8 行。",
       "grammarFocusZh": "复习 How much is…?、a 和 the、价格读法($12.99 = twelve ninety-nine);菜单里常用 with… 表示'配……'。",
       "skills": ["read", "listen", "speak"], "estimatedMinutes": 17.5,
       "newItems": [
@@ -237,7 +237,7 @@
       "canDoZh": "能打电话订外卖:说清楚要什么、要多大、送到哪儿,留下电话,并问大概多久送到",
       "scenarioZh": "周五晚上,伊森想边打游戏边吃披萨,让磊打电话练英语。披萨店店员(clerk)问 Pickup or delivery?;磊点了一个大号披萨,一半辣香肠一半蔬菜,报出宿舍地址(四位门牌号加街名,用 Broadway——street 是第 5 单元的词)和电话;店员复述订单,说一共 24.50 美元、大约七点半送到(minute 第 5 单元才教,不说 30 minutes)。送餐的司机到了,伊森提醒磊给小费。",
       "grammarFocusZh": "电话订餐的流程:Pickup or delivery? / What's the address? / Anything else?(复习);地址读法:门牌号两位两位地读(1420 = fourteen twenty),再说街名和房间号;复习 Can I get…? 和 How much…?。发音:四位门牌号中间稍停;pizza 的 zz 读 /ts/。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
       "newItems": [
         { "id": "en.pizza", "kind": "word", "pos": "noun", "text": "pizza", "zh": "披萨;比萨饼", "features": { "ipa": "ˈpiːtsə" }, "noteZh": "zz 读 /ts/,读 PEET-sa;一整个是 a pizza,一块是 a slice of pizza。" },
         { "id": "en.pickup", "kind": "word", "pos": "noun", "text": "pickup", "zh": "(到店)自取", "features": { "ipa": "ˈpɪkʌp" }, "noteZh": "点外卖时店员常问 Pickup or delivery?(自取还是外送?);动词说法是 pick up(去拿)。" },

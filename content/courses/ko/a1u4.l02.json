@@ -1,0 +1,52 @@
+{
+  "id": "ko.a1u4.l02", "schemaVersion": 1, "lang": "ko", "type": "grammar", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104020,
+  "titleZh": "你喝什么?", "goalZh": "会用 N을/를 + 动词 说“吃什么、喝什么、喜欢什么”,认识 해요体现在时的变化规则",
+  "canDoZh": "能在咖啡店问朋友喝什么、说自己想喝什么、喜欢吃什么",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "ko.masyeoyo", "kind": "word", "pos": "verb", "text": "마셔요", "zh": "喝", "features": { "roman": "masyeoyo" }, "noteZh": "原形 마시다:마시 + 어요,ㅣ 和 ㅓ 缩成 ㅕ;N을/를 마셔요:커피를 마셔요。" },
+    { "id": "ko.meogeoyo", "kind": "word", "pos": "verb", "text": "먹어요", "zh": "吃", "features": { "roman": "meogeoyo" }, "noteZh": "原形 먹다;连音读 [머거요]。" },
+    { "id": "ko.joahaeyo", "kind": "word", "pos": "verb", "text": "좋아해요", "zh": "喜欢", "features": { "roman": "joahaeyo" }, "noteZh": "原形 좋아하다;N을/를 좋아해요 = 喜欢 N。和 좋아요(好)不同:커피를 좋아해요 = 我喜欢咖啡。ㅎ 脱落读 [조아해요]。" },
+    { "id": "ko.kape", "kind": "word", "pos": "noun", "text": "카페", "zh": "咖啡店", "features": { "roman": "kape" }, "noteZh": "外来词 café;韩国大学周边咖啡店特别多,学生常在 카페 里学习。" },
+    { "id": "ko.amerikano", "kind": "word", "pos": "noun", "text": "아메리카노", "zh": "美式咖啡", "features": { "roman": "amerikano" }, "noteZh": "韩国最受欢迎的咖啡,一年四季都有很多人喝冰的。" },
+    { "id": "ko.kaperate", "kind": "word", "pos": "noun", "text": "카페라테", "zh": "拿铁", "alt": ["라테", "카페라떼"], "features": { "roman": "kaperate" }, "noteZh": "菜单上常写 카페라떼,标准写法是 카페라테;口语常说 라테。" },
+    { "id": "ko.nokcha", "kind": "word", "pos": "noun", "text": "녹차", "zh": "绿茶", "features": { "roman": "nokcha" }, "noteZh": "汉字词 绿茶;녹 的收音 ㄱ 不爆破。" },
+    { "id": "ko.ppang", "kind": "word", "pos": "noun", "text": "빵", "zh": "面包", "features": { "roman": "ppang" }, "noteZh": "紧音 ㅃ,不要读成送气的 팡;빵집 = 面包店。" }
+  ],
+  "reviewItems": ["ko.keopi", "ko.uyu", "ko.mwo", "ko.cha"],
+  "lines": [
+    { "speaker": "jing", "text": "아, 이 카페! 저는 이 카페를 좋아해요.", "zh": "(第二次语言交换。敏俊带陈静来到学校旁边的咖啡店——原来就是宿舍楼下那家)啊,是这家咖啡店!我喜欢这家店。", "roman": "A, i kape! Jeoneun i kapereul joahaeyo.", "items": ["ko.kape", "ko.jeo", "ko.joahaeyo"] },
+    { "speaker": "minjun", "text": "아, 그래요? 천징 씨, 뭐 마셔요?", "zh": "啊,是吗?陈静,你喝什么?(他又用不太标准的中文说了一遍:“你,喝,什么?”)", "roman": "A, geuraeyo? Cheonjing ssi, mwo masyeoyo?", "items": ["ko.geuraeyo", "ko.ssi", "ko.mwo", "ko.masyeoyo"] },
+    { "speaker": "jing", "text": "저는 녹차를 마셔요.", "zh": "我喝绿茶。", "roman": "Jeoneun nokchareul masyeoyo.", "items": ["ko.jeo", "ko.nokcha", "ko.masyeoyo"] },
+    { "speaker": "minjun", "text": "녹차요? 커피는요?", "zh": "绿茶?不喝咖啡吗?", "roman": "Nokchayo? Keopineunyo?", "items": ["ko.nokcha", "ko.keopi"] },
+    { "speaker": "jing", "text": "커피도 좋아해요. 차도 좋아해요.", "zh": "咖啡我也喜欢,茶也喜欢。", "roman": "Keopido joahaeyo. Chado joahaeyo.", "items": ["ko.keopi", "ko.joahaeyo", "ko.cha"] },
+    { "speaker": "minjun", "text": "저는 아메리카노를 좋아해요.", "zh": "我喜欢美式。(敏俊一年四季都喝冰美式)", "roman": "Jeoneun amerikanoreul joahaeyo.", "items": ["ko.jeo", "ko.amerikano", "ko.joahaeyo"] },
+    { "speaker": "jing", "text": "저는 카페라테도 좋아해요. 우유를 좋아해요.", "zh": "我还喜欢拿铁。我爱喝牛奶。", "roman": "Jeoneun kaperatedo joahaeyo. Uyureul joahaeyo.", "items": ["ko.jeo", "ko.kaperate", "ko.joahaeyo", "ko.uyu"] },
+    { "speaker": "minjun", "text": "빵도 먹어요?", "zh": "(柜台的玻璃柜里摆着面包)你吃面包吗?", "roman": "Ppangdo meogeoyo?", "items": ["ko.ppang", "ko.meogeoyo"] },
+    { "speaker": "jing", "text": "네, 먹어요! 빵을 좋아해요.", "zh": "嗯,吃!我喜欢面包。", "roman": "Ne, meogeoyo! Ppangeul joahaeyo.", "items": ["ko.ne", "ko.meogeoyo", "ko.ppang", "ko.joahaeyo"] },
+    { "speaker": "jing", "text": "민준 씨, 저거 뭐예요?", "zh": "(这时,陈静看到店门口贴着一张告示,上面有个她不认识的词)敏俊,那是什么?", "roman": "Minjun ssi, jeogeo mwoyeyo?", "items": ["ko.ssi", "ko.jeogeo", "ko.mwo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静喝什么?", "options": ["绿茶", "美式咖啡", "拿铁"], "answer": 0, "explainZh": "第 3 句:저는 녹차를 마셔요(我喝绿茶)。美式是敏俊喜欢的(第 6 句);拿铁陈静也喜欢,但这次没点(第 7 句)。" },
+    { "prompt": "敏俊喜欢喝什么?", "options": ["绿茶", "牛奶", "美式咖啡"], "answer": 2, "explainZh": "第 6 句:저는 아메리카노를 좋아해요(我喜欢美式)。爱喝牛奶的是陈静(第 7 句)。" },
+    { "prompt": "“빵을 좋아해요”里为什么用 을?", "options": ["因为 빵 是吃的东西", "빵 最后一个字有收音 ㅇ", "后面是 좋아해요,要用 이/가"], "answer": 1, "explainZh": "을/를 是宾语助词:有收音用 을(빵을),没有收音用 를(녹차를、커피를)。좋아해요 前面用 을/를;上一单元的 있어요 前面才用 이/가。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.eul_reul", "titleZh": "N을/를 + 动词:喝什么、吃什么、喜欢什么",
+      "bodyZh": "을/를 是宾语助词,标出动作的对象:有收音用 을(빵을),没有收音用 를(녹차를、커피를、카페를)。韩语的语序是“主语—宾语—动词”,动词永远在句末:저는 녹차를 마셔요(我 + 绿茶 + 喝)。中国学生常按中文语序说成 저는 마셔요 녹차 ✗。\n“喜欢”在韩语里也是动词,对象用 을/를:커피를 좋아해요(我喜欢咖啡)。注意和上一单元分开:있어요 / 없어요 前面用 이/가(동생이 있어요),좋아해요、마셔요、먹어요 前面用 을/를。\n口语里助词常常省掉:뭐 마셔요?(喝什么?)、빵 먹어요?;回答时说完整一点更清楚。“也”还是把助词换成 도:커피도 좋아해요、빵도 먹어요?",
+      "examples": [
+        { "text": "저는 녹차를 마셔요.", "zh": "我喝绿茶。(녹차 没有收音 → 를)" },
+        { "text": "빵을 좋아해요.", "zh": "我喜欢面包。(빵 有收音 → 을)" },
+        { "text": "뭐 마셔요?", "zh": "喝什么?(口语省掉了 를)" }
+      ] },
+    { "id": "ko.g.haeyo_present", "titleZh": "해요体现在时:-아요 / -어요 / 해요",
+      "bodyZh": "词典里的动词、形容词都以 다 结尾(먹다、마시다、좋아하다),去掉 다 剩下的叫词干。变成 해요体:词干最后一个元音是 ㅏ 或 ㅗ,加 -아요(좋다 → 좋아요);是别的元音,加 -어요(먹다 → 먹어요);以 하다 结尾的,하다 变成 해요(좋아하다 → 좋아해요)。词干以元音结尾时常常缩合:마시 + 어요 → 마셔요(ㅣ 和 ㅓ 缩成 ㅕ)。\n韩语动词不跟着“我、你、他”变,变的是礼貌程度和时态,所以 마셔요 可以是“我喝、你喝、他喝”,问句、陈述句也是同一个形式,只看语调。本课程的词条都写成 해요体(마셔요、먹어요、좋아해요),提示里注了原形。",
+      "examples": [
+        { "text": "먹다 → 먹어요", "zh": "吃:元音 ㅓ → 加 -어요" },
+        { "text": "마시다 → 마셔요", "zh": "喝:마시 + 어요,ㅣ + ㅓ 缩成 ㅕ" },
+        { "text": "좋아하다 → 좋아해요", "zh": "喜欢:하다 → 해요" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -8,9 +8,9 @@
     {
       "id": "de.a1u14.l01", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114010,
       "titleZh": "她长什么样?",
-      "goalZh": "能说出一个人的身高、身材、头发和眼睛",
+      "goalZh": "会说一个人的身高、身材、头发、眼睛和戴不戴眼镜",
       "canDoZh": "能说出一个人的身高、身材、头发和眼睛",
-      "scenarioZh": "索菲娅的弟弟 Marco(18 岁,不出场说话)周五坐长途汽车来柏林玩一周。索菲娅那天要上班,请王伟去长途汽车站接他。王伟没见过 Marco,索菲娅给他看照片、描述:个子很高、很瘦、黑色的卷发、棕色的眼睛、戴眼镜。说话人:sofia、wei。",
+      "scenarioZh": "索菲娅的弟弟 Marco(18 岁,不出场说话)周五坐长途汽车来柏林玩一周。索菲娅那天要上班,请王伟去长途汽车站接他。王伟没见过 Marco,索菲娅给他看照片、描述:个子很高、很瘦、黑色的卷发、棕色的眼睛、戴眼镜。说话人:sofia、wei。(课文:不写 Marco 的年龄和他在意大利做什么;die Brille 第 10 单元学过,本课复习;abholen 也是第 10 单元的词。)",
       "grammarFocusZh": "描述外貌:Er ist groß / klein / schlank;Er hat lockige Haare / braune Augen(复数名词前的形容词加 -e 先当固定说法,形容词词尾 A2 讲);eine Brille tragen",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
@@ -23,16 +23,16 @@
         { "id": "de.braun", "kind": "word", "pos": "adj", "text": "braun", "zh": "棕色的", "features": { "ipa": "bʁaʊ̯n" }, "noteZh": "au 读 [aʊ];braune Augen(棕色的眼睛)、braune Haare(棕色头发)。" },
         { "id": "de.huebsch", "kind": "word", "pos": "adj", "text": "hübsch", "zh": "好看;漂亮", "features": { "ipa": "hʏpʃ" }, "noteZh": "ü 是短音 [ʏ]:嘴唇撅圆发 i,和 Brille 里的 i 不一样;b 在 sch 前读 [p];说人、说东西都可以:Das Kleid ist hübsch.。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.abholen", "de.foto", "de.brille", "de.tragen", "de.sicher", "de.auge"]
     },
     {
       "id": "de.a1u14.l02", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114020,
       "titleZh": "在车站接人",
-      "goalZh": "能在车站根据描述找人,打电话问清楚对方在哪儿、穿什么",
+      "goalZh": "会在车站按描述找人:打电话问对方穿什么、在哪儿,认错人时会道歉",
       "canDoZh": "能在车站根据描述找人,打电话问清楚对方在哪儿、穿什么",
-      "scenarioZh": "周五晚上,王伟在长途汽车站(der Busbahnhof)等 Marco。车到了,人很多。他给索菲娅打电话问 Marco 今天穿什么,索菲娅说红色外套、一个大箱子(der Koffer);王伟走上前问一位男士 Entschuldigung, sind Sie Marco?——认错人了!他道歉,最后在出口(am Ausgang)找到了 Marco。Marco 只会一点德语,不出场说话。说话人:wei、sofia、passant。",
+      "scenarioZh": "周五晚上,王伟在长途汽车站(der Busbahnhof)等 Marco。车到了,人很多。他给索菲娅打电话问 Marco 今天穿什么,索菲娅说红色外套、一个大箱子(der Koffer);王伟走上前问一位男士 Entschuldigung, sind Sie Marco?——认错人了!他道歉,最后在出口(am Ausgang)找到了 Marco。Marco 只会一点德语,不出场说话。说话人:wei、sofia、passant。(课文:被认错的男士叫 Thomas,说话人用 passant;马可在出口旁边的咖啡馆等,不出场说话。)",
       "grammarFocusZh": "tragen 的变位(er trägt)和衣服、颜色复习;Wo bist du? – Ich bin am Ausgang(固定说法);道歉 Entschuldigung! / Tut mir leid!",
-      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
       "newItems": [
         { "id": "de.busbahnhof", "kind": "word", "pos": "noun", "text": "der Busbahnhof", "zh": "长途汽车站", "features": { "gender": "m", "plural": "die Busbahnhöfe", "ipa": "ˈbʊsbaːnˌhoːf" }, "noteZh": "der Bus + der Bahnhof,性跟 Bahnhof 走;长途大巴进出的车站;复数 die Busbahnhöfe(o 变 ö)。" },
         { "id": "de.mensch", "kind": "word", "pos": "noun", "text": "der Mensch", "zh": "人", "features": { "gender": "m", "plural": "die Menschen", "ipa": "mɛnʃ" }, "noteZh": "Hier sind viele Menschen.(这儿人很多。)der Mensch 除了第一格都加 -en:den Menschen;nsch 读 [nʃ]。" },
@@ -43,14 +43,14 @@
         { "id": "de.ausgang", "kind": "word", "pos": "noun", "text": "der Ausgang", "zh": "出口", "features": { "gender": "m", "plural": "die Ausgänge", "ipa": "ˈaʊ̯sˌɡaŋ" }, "noteZh": "aus + der Gang,性跟 Gang 走;am Ausgang(在出口);复数 die Ausgänge;车站、商场里到处都有 Ausgang 的牌子。" },
         { "id": "de.neben", "kind": "word", "pos": "prep", "text": "neben", "zh": "在……旁边", "features": { "ipa": "ˈneːbn̩" }, "noteZh": "说在哪儿时后面用第三格:neben dem Café(在咖啡馆旁边),先当固定说法记,A2 再系统讲。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.tragen", "de.verwechseln", "de.warten", "de.herzlich_willkommen", "de.jacke", "de.moment"]
     },
     {
       "id": "de.a1u14.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114030,
       "titleZh": "他看起来很友好:aussehen",
-      "goalZh": "能说一个人看起来怎么样,问别人觉得某人怎么样",
+      "goalZh": "会用 aussehen 说一个人看起来怎么样(Er sieht müde aus),会用 war / hatte 说一个人小时候的样子",
       "canDoZh": "能说一个人看起来怎么样,问别人觉得某人怎么样",
-      "scenarioZh": "周六 WG 一起看 Marco 手机里的照片:他的朋友们、他的足球队,还有索菲娅小时候的照片。约纳斯问 Wie sieht er aus?,王伟说 Er sieht nett / sportlich / müde aus;索菲娅说小时候她是短头发、有点胖(war / hatte),大家都笑了。说话人:jonas、wei、sofia。",
+      "scenarioZh": "周六 WG 一起看 Marco 手机里的照片:他的朋友们、他的足球队,还有索菲娅小时候的照片。约纳斯问 Wie sieht er aus?,王伟说 Er sieht nett / sportlich / müde aus;索菲娅说小时候她是短头发、有点胖(war / hatte),大家都笑了。说话人:jonas、wei、sofia。(课文:约纳斯上晚班,还没见过马可,所以问 Wie sieht er aus?;马可坐了很久的大巴,还在睡觉。)",
       "grammarFocusZh": "aussehen 是可分动词:Er sieht nett aus / Wie sieht sie aus?;aussehen + 形容词和 sein + 形容词的区别;war / hatte 复习(Ich hatte kurze Haare)",
       "skills": ["read", "write", "speak"], "estimatedMinutes": 25,
       "newItems": [
@@ -63,14 +63,14 @@
         { "id": "de.gluecklich", "kind": "word", "pos": "adj", "text": "glücklich", "zh": "幸福;开心", "features": { "ipa": "ˈɡlʏklɪç" }, "noteZh": "das Glück + -lich;ü 是短音,-lich 读 [lɪç];Sie sieht glücklich aus.(她看上去很开心。)" },
         { "id": "de.traurig", "kind": "word", "pos": "adj", "text": "traurig", "zh": "难过;伤心", "features": { "ipa": "ˈtʁaʊ̯ʁɪç" }, "noteZh": "au 读 [aʊ],词尾 -ig 读 [ɪç];反义词 glücklich。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.foto", "de.haar", "de.kurz", "de.muede", "de.reise", "de.als"]
     },
     {
       "id": "de.a1u14.l04", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114040,
       "titleZh": "他是什么样的人?——性格",
-      "goalZh": "能用几个形容词说一个人的性格,也能说说自己",
+      "goalZh": "会用几个性格形容词说别人和自己(lustig、ruhig、fleißig、faul……),会用 sehr / ein bisschen 说程度",
       "canDoZh": "能用几个形容词说一个人的性格,也能说说自己",
-      "scenarioZh": "保罗要在学校做演讲《我最好的朋友》,来问王伟和莉娜怎么用德语说性格:lustig、ruhig、freundlich、ehrlich、fleißig、faul、hilfsbereit、schüchtern……他们拿 WG 的人练习:约纳斯 lustig,但有点 faul(他自己不同意);索菲娅 offen und hilfsbereit;王伟 fleißig,有点 schüchtern。说话人:paul、wei、lena。",
+      "scenarioZh": "保罗要在学校做演讲《我最好的朋友》,来问王伟和莉娜怎么用德语说性格:lustig、ruhig、freundlich、ehrlich、fleißig、faul、hilfsbereit、schüchtern……他们拿 WG 的人练习:约纳斯 lustig,但有点 faul(他自己不同意);索菲娅 offen und hilfsbereit;王伟 fleißig,有点 schüchtern。说话人:paul、wei、lena。(课文:保罗是德国人,不用问德语怎么说;改成王伟问词的意思、大家拿 WG 的人练习。freundlich 在 u13.l07 已经学过。)",
       "grammarFocusZh": "性格形容词和反义词成对记(fleißig / faul, ruhig / laut);sehr / ein bisschen / nicht so + 形容词",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
@@ -83,32 +83,32 @@
         { "id": "de.ruhig", "kind": "word", "pos": "adj", "text": "ruhig", "zh": "安静;文静", "features": { "ipa": "ˈʁuːɪç" }, "noteZh": "h 不发音,-ig 读 [ɪç];说人:Er ist ruhig.(他很文静。)说地方:Die Straße ist ruhig.;反义词 laut。" },
         { "id": "de.schuechtern", "kind": "word", "pos": "adj", "text": "schüchtern", "zh": "害羞;腼腆", "features": { "ipa": "ˈʃʏçtɐn" }, "noteZh": "sch 读 [ʃ],ü 是短音,ch 读 [ç];反义词 offen。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.referat", "de.schule", "de.freundlich", "de.mehr", "de.aufstehen", "de.helfen"]
     },
     {
       "id": "de.a1u14.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114045,
       "titleZh": "找短期室友:广告和回信",
-      "goalZh": "能读懂找人的广告和几段自我描述,判断谁最合适",
+      "goalZh": "读懂一则短期转租广告和三段自我介绍,找出每个人的特点,判断谁最合适",
       "canDoZh": "能读懂找人的广告和几段自我描述,判断谁最合适",
-      "scenarioZh": "体裁:合租广告和三封回信。索菲娅八月回意大利一个月,想把房间短期转租(die Zwischenmiete)。她写了广告:房间、价格、日期,希望找安静、友好、不抽烟的人;收到三封回信,三个人分别介绍自己的年龄、职业、性格和爱好(这些人不出场)。下一课 WG 一起讨论选谁。说话人:narrator(广告和回信)。",
+      "scenarioZh": "体裁:合租广告和三封回信。索菲娅八月回意大利一个月,想把房间短期转租(die Zwischenmiete)。她写了广告:房间、价格、日期,希望找安静、友好、不抽烟的人;收到三封回信,三个人分别介绍自己的年龄、职业、性格和爱好(这些人不出场)。下一课 WG 一起讨论选谁。说话人:narrator(广告和回信)。(课文:广告是索菲娅自己写的,说话人用 sofia;三封回信的人不在 cast 里,用 narrator。规划里的“不抽烟(Nichtraucher)”和“内容不出现烟草”的规定冲突,改成“不要宠物、不开派对”;索菲娅的房租定为 450 欧元。)",
       "grammarFocusZh": "性格、外貌形容词复习;日期和 von … bis …;规定的说法(Nichtraucher, keine Haustiere)",
       "skills": ["read"], "estimatedMinutes": 15,
       "newItems": [
         { "id": "de.zwischenmiete", "kind": "word", "pos": "noun", "text": "die Zwischenmiete", "zh": "短期转租", "features": { "gender": "f", "plural": "die Zwischenmieten", "ipa": "ˈtsvɪʃn̩ˌmiːtə" }, "noteZh": "zwischen(在……之间)+ die Miete;房客一段时间不住,把房间短期租给别人,德国学生很常见;zw 读 [tsv]。" },
         { "id": "de.gitarre", "kind": "word", "pos": "noun", "text": "die Gitarre", "zh": "吉他", "features": { "gender": "f", "plural": "die Gitarren", "ipa": "ɡiˈtaʁə" }, "noteZh": "重音在 tar 上;弹吉他:Gitarre spielen(不加冠词,和 Fußball spielen 一样)。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.design", "de.haustier", "de.ruhig", "de.lustig", "de.freundlich", "de.sportlich"]
     },
     {
       "id": "de.a1u14.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114050,
       "titleZh": "选哪一个?",
-      "goalZh": "能根据别人的介绍说出自己喜欢谁、为什么,和别人一起做决定",
+      "goalZh": "会用 mögen 说喜欢谁、喜欢什么,用 denn 说理由,和别人一起做决定",
       "canDoZh": "能根据别人的介绍说出自己喜欢谁、为什么,和别人一起做决定",
       "scenarioZh": "WG 一起讨论三封回信:约纳斯喜欢那个也踢足球的学生,索菲娅觉得那个说话很礼貌的女学生好,王伟觉得第三个人太吵,晚上还要弹吉他;最后大家决定先和前两个人视频聊一聊。说话人:jonas、sofia、wei。",
       "grammarFocusZh": "mögen 的变位(ich mag, du magst, er mag)和用法:Ich mag ihn / Ich mag Fußball;mögen + 名词,gern + 动词(Ich spiele gern Fußball);denn 说理由",
-      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
       "newItems": [
-        { "id": "de.moegen", "kind": "word", "pos": "verb", "text": "mögen", "zh": "喜欢", "features": { "ipa": "ˈmøːɡn̩" }, "noteZh": "变位像情态动词:ich mag, du magst, er mag, wir mögen, ihr mögt;mögen + 名词 / 人:Ich mag Musik. / Ich mag Mia.;喜欢做什么用动词 + gern:Ich koche gern.;möchte(想要)也是从 mögen 来的,意思不一样。" },
+        { "id": "de.moegen", "kind": "word", "pos": "verb", "text": "mögen", "zh": "喜欢", "features": { "ipa": "ˈmøːɡn̩" }, "noteZh": "变位像情态动词:ich mag, du magst, er mag, wir mögen, ihr mögt;mögen + 名词 / 人:Ich mag Musik. / Ich mag Emma.;喜欢做什么用动词 + gern:Ich koche gern.;möchte(想要)也是从 mögen 来的,意思不一样。" },
         { "id": "de.hoeflich", "kind": "word", "pos": "adj", "text": "höflich", "zh": "有礼貌", "features": { "ipa": "ˈhøːflɪç" }, "noteZh": "ö 是长音,-lich 读 [lɪç];Sie ist sehr höflich.(她很有礼貌。)反义词 unhöflich。" },
         { "id": "de.sympathisch", "kind": "word", "pos": "adj", "text": "sympathisch", "zh": "讨人喜欢;给人好感", "features": { "ipa": "zʏmˈpaːtɪʃ" }, "noteZh": "不是“同情”!sympathisch 是“让人有好感”:Er ist sympathisch.;y 读 [ʏ],th 读 [t],重音在 pa 上。" },
         { "id": "de.egal", "kind": "word", "pos": "adj", "text": "egal", "zh": "无所谓;都一样", "features": { "ipa": "eˈɡaːl" }, "noteZh": "Das ist mir egal.(我无所谓。)语气不好时会显得不客气;重音在 gal 上。" },
@@ -117,16 +117,16 @@
         { "id": "de.kennenlernen", "kind": "word", "pos": "verb", "text": "kennenlernen", "zh": "认识;结识", "features": { "ipa": "ˈkɛnənˌlɛʁnən" }, "noteZh": "lernen 变位,kennen 放句末:Wir lernen sie kennen.(我们去认识一下她。)kennen 是“已经认识”,kennenlernen 是“第一次见、去认识”。" },
         { "id": "de.perfekt", "kind": "word", "pos": "adj", "text": "perfekt", "zh": "完美;太好了", "features": { "ipa": "pɛʁˈfɛkt" }, "noteZh": "重音在后:per-FEKT;Perfekt!(太好了!)“现在完成时”也叫 das Perfekt。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.gitarre", "de.laut", "de.denn", "de.online", "de.idee", "de.passen"]
     },
     {
       "id": "de.a1u14.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114060,
       "titleZh": "霍夫曼先生的老照片",
-      "goalZh": "能看着照片说一个人以前的样子,听懂和说出年份和年代",
+      "goalZh": "会看着老照片说一个人以前的样子(war / hatte、aussehen),听懂和读出年份、年代",
       "canDoZh": "能看着照片说一个人以前的样子,听懂和说出年份和年代",
-      "scenarioZh": "周日王伟和索菲娅带 Marco 去霍夫曼先生家喝咖啡。霍夫曼先生拿出老相册:七十年代他二十出头,刚开始开火车,头发很长,还有胡子;后来他结婚了(heiraten),照片里他的太太笑得很开心(她已经去世,只简单说 Sie war sehr lieb.);还有一张老火车站的照片,背面写着拍照的年份。大家说 Sie sehen hier sehr jung aus!。课文不写霍夫曼先生哪一年做了什么(de.facts.md:课文里不写年份),年份练习用照片背面的年份和历史年份。说话人:hoffmann、wei、sofia。",
+      "scenarioZh": "周日王伟和索菲娅带 Marco 去霍夫曼先生家喝咖啡。霍夫曼先生拿出老相册:七十年代他二十出头,刚开始开火车,头发很长,还有胡子;后来他结婚了(heiraten),照片里他的太太笑得很开心(她已经去世,只简单说 Sie war sehr lieb.);还有一张老火车站的照片,背面写着拍照的年份。大家说 Sie sehen hier sehr jung aus!。课文不写霍夫曼先生哪一年做了什么(de.facts.md:课文里不写年份),年份练习用照片背面的年份和历史年份。说话人:hoffmann、wei、sofia。(课文:不写霍夫曼先生哪一年做了什么;读的年份是火车站照片背面的 1978。霍夫曼先生和太太结婚 40 年,太太已经去世,课文只说 Sie war sehr lieb.;他有外孙女,自称 Opa。)",
       "grammarFocusZh": "年份的读法(1989 = neunzehnhundertneunundachtzig,2000 年以后读 zweitausend …)和年代(in den Siebzigerjahren);年份前不加 in(1989 war …);war / hatte 和 aussehen 复习",
-      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
       "newItems": [
         { "id": "de.album", "kind": "word", "pos": "noun", "text": "das Album", "zh": "相册", "features": { "gender": "n", "plural": "die Alben", "ipa": "ˈalbʊm" }, "noteZh": "中性:das Album,复数 die Alben;相册也叫 das Fotoalbum(Foto + Album)。" },
         { "id": "de.siebzigerjahre", "kind": "word", "pos": "noun", "text": "die Siebzigerjahre", "zh": "七十年代", "features": { "gender": "pl", "ipa": "ˈziːptsɪɡɐˌjaːʁə" }, "noteZh": "只用复数:in den Siebzigerjahren(在七十年代);也写成 70er-Jahre;同样的说法:die Achtzigerjahre(八十年代)。" },
@@ -137,16 +137,16 @@
         { "id": "de.modern", "kind": "word", "pos": "adj", "text": "modern", "zh": "现代;时髦", "features": { "ipa": "moˈdɛʁn" }, "noteZh": "重音在后:mo-DERN;Der Bahnhof ist heute sehr modern.;反义词 altmodisch(老式的)。" },
         { "id": "de.opa", "kind": "word", "pos": "noun", "text": "der Opa", "zh": "爷爷;外公", "features": { "gender": "m", "plural": "die Opas", "ipa": "ˈoːpa" }, "noteZh": "口语:der Opa / die Oma;正式一点说 der Großvater;复数加 -s:die Opas。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.aussehen", "de.jung", "de.lieb", "de.lang", "de.gluecklich", "de.zeigen"]
     },
     {
       "id": "de.a1u14.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114070,
       "titleZh": "他不是我们的新室友!",
-      "goalZh": "能澄清误会,说明一个人和自己是什么关系",
+      "goalZh": "会用 nicht …, sondern … 澄清误会,说清楚一个人和自己、和朋友是什么关系(Sofias Bruder)",
       "canDoZh": "能澄清误会,说明一个人和自己是什么关系",
-      "scenarioZh": "Marco 在柏林的最后一天,王伟带他逛 Kreuzberg,碰到了保罗。保罗以为 Marco 是 WG 的新室友,问个不停;王伟解释 Er ist nicht unser neuer Mitbewohner, sondern Sofias Bruder!;保罗和 Marco 都爱足球,王伟帮着翻译;最后保罗说他下周六过 17 岁生日,邀请大家来(可惜 Marco 那天已经回意大利了)。说话人:paul、wei。",
+      "scenarioZh": "Marco 在柏林的最后一天,王伟带他逛 Kreuzberg,碰到了保罗。保罗以为 Marco 是 WG 的新室友,问个不停;王伟解释 Er ist nicht unser neuer Mitbewohner, sondern Sofias Bruder!;保罗和 Marco 都爱足球,王伟帮着翻译;最后保罗说他下周六过 17 岁生日,邀请大家来(可惜 Marco 那天已经回意大利了)。说话人:paul、wei。(课文:保罗以为马可是来住索菲娅房间的新室友;保罗的生日是下周六(de 规划:6 月 14 日,课文不写日期);那时马可已经回意大利了。)",
       "grammarFocusZh": "nicht …, sondern … 复习;名字加 -s 表示“谁的”(Sofias Bruder);der Mitbewohner / die Mitbewohnerin",
-      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
       "newItems": [
         { "id": "de.vorstellen", "kind": "word", "pos": "verb", "text": "vorstellen", "zh": "介绍", "features": { "ipa": "ˈfoːɐ̯ˌʃtɛlən" }, "noteZh": "可分动词,vor 放句末:Ich stelle dir Marco vor.(我给你介绍一下马可。)介绍别人前常说:Darf ich vorstellen? Das ist …;v 读 [f]。" },
         { "id": "de.mitbewohner", "kind": "word", "pos": "noun", "text": "der Mitbewohner", "zh": "(男)室友", "features": { "gender": "m", "plural": "die Mitbewohner", "ipa": "ˈmɪtbəˌvoːnɐ" }, "noteZh": "mit(一起)+ wohnen + -er:合租公寓里一起住的人;复数不变:die Mitbewohner。" },
@@ -157,36 +157,36 @@
         { "id": "de.verein", "kind": "word", "pos": "noun", "text": "der Verein", "zh": "俱乐部;协会", "features": { "gender": "m", "plural": "die Vereine", "ipa": "fɛɐ̯ˈʔaɪ̯n" }, "noteZh": "很多德国人参加 Verein:der Fußballverein(足球俱乐部);in einem Verein spielen;v 读 [f]。" },
         { "id": "de.uebrigens", "kind": "word", "pos": "adv", "text": "übrigens", "zh": "对了;顺便说一下", "features": { "ipa": "ˈyːbʁɪɡn̩s" }, "noteZh": "换个话题时说:Übrigens, …(对了,……);重音在前,ü 是长音。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.sondern", "de.aussehen", "de.werden", "de.ach_so", "de.bei", "de.als"]
     },
     {
       "id": "de.a1u14.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114080,
       "titleZh": "单元复习与应用:猜猜他是谁",
-      "goalZh": "能用外貌和性格描述一个人,也能通过提问猜出是谁",
+      "goalZh": "会用外貌、性格的词描述大家都认识的人,会用是非问句一步步猜出是谁;复习 aussehen、mögen 和性格形容词",
       "canDoZh": "能用外貌和性格描述一个人,也能通过提问猜出是谁",
-      "scenarioZh": "Marco 走后的晚上,WG 玩猜人游戏:一个人描述大家都认识的人(瓦格纳老师、霍夫曼先生、保罗……),别人用是非问句猜(Ist sie groß? Trägt er eine Brille?);约纳斯描述了一个“很帅、很聪明、做饭特别好吃”的人——原来是他自己。说话人:jonas、sofia、wei。",
+      "scenarioZh": "Marco 走后的晚上,WG 玩猜人游戏:一个人描述大家都认识的人(瓦格纳老师、霍夫曼先生、保罗……),别人用是非问句猜(Ist sie groß? Trägt er eine Brille?);约纳斯描述了一个“很帅、很聪明、做饭特别好吃”的人——原来是他自己。说话人:jonas、sofia、wei。(课文:描述的是瓦格纳老师(有耐心、说话慢、来自科隆)、霍夫曼先生(年纪大、很有礼貌、爱讲火车)和约纳斯自己,都和 cast 的设定一致。)",
       "grammarFocusZh": "复习:aussehen、mögen、外貌和性格形容词、是非问句",
-      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak"], "estimatedMinutes": 28.5,
       "newItems": [
         { "id": "de.geduldig", "kind": "word", "pos": "adj", "text": "geduldig", "zh": "有耐心", "features": { "ipa": "ɡəˈdʊldɪç" }, "noteZh": "die Geduld(耐心)+ -ig;-ig 读 [ɪç];反义词 ungeduldig。" },
         { "id": "de.klug", "kind": "word", "pos": "adj", "text": "klug", "zh": "聪明", "features": { "ipa": "kluːk" }, "noteZh": "u 是长音,词尾 g 读 [k];同义词 intelligent。" },
         { "id": "de.raten", "kind": "word", "pos": "verb", "text": "raten", "zh": "猜", "features": { "ipa": "ˈʁaːtn̩" }, "noteZh": "不规则:du rätst, er rät;Rate mal!(猜猜看!)Du kannst gut raten.(你很会猜。)" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.aussehen", "de.lustig", "de.faul", "de.hoeflich", "de.moegen", "de.sportlich"]
     },
     {
       "id": "de.a1u14.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-14 外貌与性格", "order": 114085,
       "titleZh": "我最好的朋友(保罗的演讲稿)",
-      "goalZh": "能读懂一篇描述朋友的短文,说出这个人的样子、性格和两人一起做什么",
+      "goalZh": "读懂一篇描述朋友的短文:他长什么样、性格怎么样、两个人一起做什么;复习外貌和性格的词、mögen、denn",
       "canDoZh": "能读懂一篇描述朋友的短文,说出这个人的样子、性格和两人一起做什么",
-      "scenarioZh": "体裁:演讲稿(保罗在学校做的 Referat)。保罗写他最好的朋友 Max(不出场):两人小学就认识;Max 个子很高、有点瘦、总是笑;他很聪明、很有耐心,但有时候很乱;两人一起踢足球、打游戏;最近 Max 也开始学中文,因为保罗的姐姐有一个中国朋友。“因为”用 denn 表达。说话人:narrator(保罗的演讲稿)。",
+      "scenarioZh": "体裁:演讲稿(保罗在学校做的 Referat)。保罗写他最好的朋友 Max(不出场):两人小学就认识;Max 个子很高、有点瘦、总是笑;他很聪明、很有耐心,但有时候很乱;两人一起踢足球、打游戏;最近 Max 也开始学中文,因为保罗的姐姐有一个中国朋友。“因为”用 denn 表达。说话人:narrator(保罗的演讲稿)。(课文:演讲稿是保罗第一人称写的,按 de.md 第 4 条说话人用 paul,规划里写的是 narrator;“最好的朋友”要用最高级,A1 先不用,题目写成 „Mein Freund Max“。)",
       "grammarFocusZh": "复习:外貌和性格形容词、mögen、sondern、denn",
-      "skills": ["read"], "estimatedMinutes": 15,
+      "skills": ["read"], "estimatedMinutes": 14.5,
       "newItems": [
         { "id": "de.grundschule", "kind": "word", "pos": "noun", "text": "die Grundschule", "zh": "小学", "features": { "gender": "f", "plural": "die Grundschulen", "ipa": "ˈɡʁʊntˌʃuːlə" }, "noteZh": "der Grund(基础)+ die Schule,性跟 Schule 走;德国的小学一般是一到四年级。" },
         { "id": "de.unordentlich", "kind": "word", "pos": "adj", "text": "unordentlich", "zh": "乱;不整齐", "features": { "ipa": "ˈʊnʔɔʁdn̩tlɪç" }, "noteZh": "un-(不)+ ordentlich(整齐);说人、说房间都可以:Sein Zimmer ist unordentlich.;-lich 读 [lɪç]。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.klug", "de.geduldig", "de.moegen", "de.seit", "de.laptop", "de.denn"]
     }
   ]
 }

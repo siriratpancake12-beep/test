@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u11.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111010,
+  "titleZh": "家务活", "goalZh": "会说常见的家务活,说自己多常做、喜欢不喜欢做", "canDoZh": "能说出常见的家务活,说自己常做什么、不爱做什么",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.hausarbeit", "kind": "word", "pos": "noun", "text": "die Hausarbeit", "zh": "家务活", "features": { "gender": "f", "plural": "die Hausarbeiten", "ipa": "ˈhaʊ̯sʔaʁˌbaɪ̯t" }, "noteZh": "das Haus + die Arbeit(工作),性看最后一个词:die;口语也说 der Haushalt:Wer macht den Haushalt?" },
+    { "id": "de.abwaschen", "kind": "word", "pos": "verb", "text": "abwaschen", "zh": "洗碗;洗餐具", "features": { "ipa": "ˈapˌvaʃn̩" }, "noteZh": "可分、不规则(和 waschen 一样):Ich wasche ab. / Er wäscht ab.;也说 spülen 或 den Abwasch machen。" },
+    { "id": "de.putzen", "kind": "word", "pos": "verb", "text": "putzen", "zh": "擦洗;打扫", "features": { "ipa": "ˈpʊtsn̩" }, "noteZh": "das Bad / die Küche / die Fenster putzen;刷牙也是 putzen:die Zähne putzen;tz 读 [ts]。" },
+    { "id": "de.staubsaugen", "kind": "word", "pos": "verb", "text": "staubsaugen", "zh": "用吸尘器打扫", "features": { "ipa": "ˈʃtaʊ̯pˌzaʊ̯ɡn̩" }, "noteZh": "der Staub(灰尘)+ saugen(吸);一般按规则变:ich staubsauge, du staubsaugst;也有人说 Ich sauge Staub.。" },
+    { "id": "de.aufraeumen", "kind": "word", "pos": "verb", "text": "aufräumen", "zh": "收拾;整理", "features": { "ipa": "ˈaʊ̯fˌʁɔɪ̯mən" }, "noteZh": "可分:Ich räume mein Zimmer auf.;äu 读 [ɔɪ̯],和 eu 一样。" },
+    { "id": "de.rausbringen", "kind": "word", "pos": "verb", "text": "rausbringen", "zh": "拿出去", "features": { "ipa": "ˈʁaʊ̯sˌbʁɪŋən" }, "noteZh": "可分:Ich bringe den Müll raus.(我去倒垃圾);raus 是 heraus(出去)的口语说法;完成时 rausgebracht。" },
+    { "id": "de.muell", "kind": "word", "pos": "noun", "text": "der Müll", "zh": "垃圾", "features": { "gender": "m", "plural": "-", "ipa": "mʏl" }, "noteZh": "den Müll rausbringen(倒垃圾);德国要把垃圾分类:den Müll trennen(第 4 课);ü 是短音。" },
+    { "id": "de.waesche", "kind": "word", "pos": "noun", "text": "die Wäsche", "zh": "要洗的衣物;洗好的衣物", "features": { "gender": "f", "plural": "-", "ipa": "ˈvɛʃə" }, "noteZh": "die Wäsche waschen(洗衣服);和 waschen 是一家;ä 读 [ɛ]。" },
+    { "id": "de.waschen", "kind": "word", "pos": "verb", "text": "waschen", "zh": "洗", "features": { "ipa": "ˈvaʃn̩" }, "noteZh": "a → ä 不规则:ich wasche, du wäschst, er wäscht;洗手、洗衣服都用它;w 读 [v],sch 读 [ʃ]。" }
+  ],
+  "reviewItems": ["de.nie", "de.manchmal", "de.immer", "de.oma", "de.zusammen"],
+  "lines": [
+    { "speaker": "sofia", "text": "Unsere Küche! Wer macht hier die Hausarbeit?", "zh": "看看我们的厨房!这里的家务都谁做啊?", "items": ["de.unser", "de.kueche", "de.wer", "de.machen", "de.hier", "de.hausarbeit"] },
+    { "speaker": "wei", "text": "In Chengdu putze ich nie. Meine Oma macht alles.", "zh": "在成都我从来不打扫。都是我奶奶做。", "items": ["de.in", "de.putzen", "de.ich", "de.nie", "de.mein", "de.oma", "de.machen", "de.alles"] },
+    { "speaker": "sofia", "text": "Und hier? Hier musst du auch putzen!", "zh": "那这儿呢?在这儿你也得打扫!", "items": ["de.und", "de.hier", "de.muessen", "de.du", "de.auch", "de.putzen"] },
+    { "speaker": "wei", "text": "Ja, ja. Ich räume manchmal mein Zimmer auf.", "zh": "知道,知道。我有时候收拾自己的房间。", "items": ["de.ja", "de.ich", "de.aufraeumen", "de.manchmal", "de.mein", "de.zimmer"] },
+    { "speaker": "sofia", "text": "Ich koche gern, aber ich wasche nicht gern ab.", "zh": "我喜欢做饭,可是不喜欢洗碗。", "items": ["de.ich", "de.kochen", "de.gern", "de.aber", "de.abwaschen", "de.nicht"] },
+    { "speaker": "jonas", "text": "Ich putze jeden Tag im Restaurant. Zu Hause putze ich nie!", "zh": "我在餐馆天天打扫。在家我可从来不打扫!", "items": ["de.ich", "de.putzen", "de.jeder", "de.tag", "de.in", "de.restaurant", "de.zu_hause", "de.nie"] },
+    { "speaker": "sofia", "text": "Und wer bringt den Müll raus?", "zh": "那谁去倒垃圾?", "items": ["de.und", "de.wer", "de.rausbringen", "de.muell"] },
+    { "speaker": "jonas", "text": "Wei bringt ihn immer raus. Danke, Wei!", "zh": "王伟一直都会去倒。谢谢你,王伟!", "items": ["de.rausbringen", "de.ihn", "de.immer", "de.danke"] },
+    { "speaker": "wei", "text": "Und ich wasche am Samstag die Wäsche. Staubsaugen kann ich auch!", "zh": "我星期六还洗衣服。吸尘我也会!", "items": ["de.und", "de.ich", "de.waschen", "de.am", "de.samstag", "de.waesche", "de.staubsaugen", "de.koennen", "de.auch"] },
+    { "speaker": "sofia", "text": "Gut! Dann machen wir die Hausarbeit zusammen.", "zh": "好!那家务我们一起做。", "items": ["de.gut", "de.dann", "de.machen", "de.wir", "de.hausarbeit", "de.zusammen"] }
+  ],
+  "questions": [
+    { "prompt": "在成都家里,谁做家务?", "options": ["王伟", "王伟的奶奶", "王伟的爸爸"], "answer": 1, "explainZh": "王伟说:In Chengdu putze ich nie. Meine Oma macht alles.(在成都我从来不打扫,都是我奶奶做。)" },
+    { "prompt": "索菲娅不喜欢做什么家务?", "options": ["洗碗", "做饭", "洗衣服"], "answer": 0, "explainZh": "索菲娅说:Ich koche gern, aber ich wasche nicht gern ab.(我喜欢做饭,可是不喜欢洗碗。)" },
+    { "prompt": "约纳斯为什么在家从来不打扫?", "options": ["他不喜欢 WG", "他太忙,没有时间", "他每天在餐馆打扫"], "answer": 2, "explainZh": "约纳斯说:Ich putze jeden Tag im Restaurant. Zu Hause putze ich nie!(我在餐馆天天打扫,在家从来不打扫!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.hausarbeit_verben", "titleZh": "家务活的说法",
+      "bodyZh": "家务活很多是可分动词,前缀放句末:abwaschen(洗碗):Ich wasche ab.;aufräumen(收拾):Ich räume mein Zimmer auf.;rausbringen(拿出去):Wer bringt den Müll raus?。\nstaubsaugen(用吸尘器打扫)一般按规则变:ich staubsauge;waschen 不规则:ich wasche, du wäschst, er wäscht,die Wäsche waschen = 洗衣服;putzen = 擦洗、打扫:das Bad putzen, die Küche putzen。\n中文一个“打扫”,德语分得很细:擦洗用 putzen,吸尘用 staubsaugen,收拾东西用 aufräumen。",
+      "examples": [
+        { "text": "Ich wasche nicht gern ab.", "zh": "我不喜欢洗碗。" },
+        { "text": "Wer bringt den Müll raus?", "zh": "谁去倒垃圾?" },
+        { "text": "Ich räume mein Zimmer auf.", "zh": "我收拾我的房间。" }
+      ] },
+    { "id": "de.g.haeufigkeit_haushalt", "titleZh": "多常做?——nie、manchmal、oft、immer",
+      "bodyZh": "说多常做一件事,用第 8 单元的频率副词:nie(从不)→ manchmal(有时)→ oft(常常)→ immer(总是);还有 jeden Tag(每天)、am Samstag(星期六)。\n一般放在变位动词后面:Ich putze nie. / Ich räume manchmal mein Zimmer auf. / Wei bringt den Müll immer raus.。\n也可以把地点、时间放句首强调,动词仍在第二位:Zu Hause putze ich nie! / In Chengdu putze ich nie.。",
+      "examples": [
+        { "text": "In Chengdu putze ich nie.", "zh": "在成都我从来不打扫。" },
+        { "text": "Ich putze jeden Tag im Restaurant.", "zh": "我在餐馆天天打扫。" },
+        { "text": "Zu Hause putze ich nie!", "zh": "在家我可从来不打扫!" }
+      ] }
+  ],
+  "review": "draft"
+}

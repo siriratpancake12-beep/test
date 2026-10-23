@@ -14,12 +14,12 @@
       "canDoZh": "能读懂公交和轻轨的乘车须知:在哪儿上车、怎么付钱、怎么下车",
       "scenarioZh": "体裁:指南(国际学生办公室发给新生的一页纸)。说话人 narrator。分几步写:找到公交站和线路号、从前门上车、刷卡或付现金、下车前按铃、从后门下车、跟司机说 Thank you;坐轻轨要先在车站的售票机买票。只用第 1–4 课的词,至少 8 句。",
       "grammarFocusZh": "祈使句(Get on at the front. Pay with your card.)和 take the bus、get on / off 复习;读指南时注意编号和 then 这类表示先后的词。",
-      "skills": ["read", "listen", "speak"], "estimatedMinutes": 16.5,
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
       "newItems": [
-        { "id": "en.front", "kind": "word", "pos": "noun", "text": "front", "zh": "前面;前部", "features": { "ipa": "frʌnt" } },
-        { "id": "en.back", "kind": "word", "pos": "adv", "text": "back", "zh": "后面;回(原处)", "features": { "ipa": "bæk" } },
-        { "id": "en.push", "kind": "word", "pos": "verb", "text": "push", "zh": "按;推", "features": { "ipa": "pʊʃ" } },
-        { "id": "en.button", "kind": "word", "pos": "noun", "text": "button", "zh": "按钮;按键", "features": { "ipa": "ˈbʌtn̩" } }
+        { "id": "en.front", "kind": "word", "pos": "noun", "text": "front", "zh": "前面;前部", "features": { "ipa": "frʌnt" }, "noteZh": "Get on at the front. 从前门上车;o 在这里读 /ʌ/,和 fun 的元音一样,别读成“方特”。in front of(在……前面)里也是这个词。" },
+        { "id": "en.back", "kind": "word", "pos": "adv", "text": "back", "zh": "后面;回(原处)", "features": { "ipa": "bæk" }, "noteZh": "Get off at the back. 从后门下车;go back 回去。a 是 /æ/,嘴张大、嘴角往两边拉;词尾 k 轻轻收住,不要加元音读成“拜克”。" },
+        { "id": "en.push", "kind": "word", "pos": "verb", "text": "push", "zh": "按;推", "features": { "ipa": "pʊʃ" }, "noteZh": "Push the button. 按一下按钮;门上写 PUSH 是“推”,PULL 是“拉”。u 读短的 /ʊ/,结尾 sh 是 /ʃ/,嘴唇向前突。" },
+        { "id": "en.button", "kind": "word", "pos": "noun", "text": "button", "zh": "按钮;按键", "features": { "ipa": "ˈbʌtn̩" }, "noteZh": "美式发音里 tt 常常只是喉咙里轻轻一顿,后面的 n 自己成一个音节,听起来像“BUH-n”;衣服的扣子也叫 button。" }
       ],
       "reviewItems": ["en.bus_stop", "en.get_on", "en.get_off", "en.pay", "en.ticket"]
     },
@@ -29,15 +29,15 @@
       "canDoZh": "能在银行开一个账户:说明来意、出示证件、填好表格并签名",
       "scenarioZh": "磊找到了第 1 课打听的那家银行。银行职员(staff)招呼他 Hi! Next, please.,磊说想开一个账户;职员要看护照和学生证,递给他一张表:姓名、地址、电话、邮箱。磊不懂 Sign here 和 signature,用 What does that mean? 问清楚。最后职员告诉他银行卡一周后寄到宿舍。",
       "grammarFocusZh": "说明来意(I want a bank account.,want + 名词复习)和出示证件(Here's my passport.);填表的说法 fill out this form / sign here / signature;复习地址和电话号码的读法。发音:sign /saɪn/ 的 g 不发音,signature /ˈsɪɡnətʃɚ/ 里的 g 要发音。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
       "newItems": [
-        { "id": "en.account", "kind": "word", "pos": "noun", "text": "account", "zh": "账户;账号", "features": { "ipa": "əˈkaʊnt" } },
-        { "id": "en.form", "kind": "word", "pos": "noun", "text": "form", "zh": "表格", "features": { "ipa": "fɔːrm" } },
-        { "id": "en.fill_out", "kind": "phrase", "pos": "verb", "text": "fill out", "zh": "填写(表格)", "alt": ["fill in"], "features": { "ipa": "ˌfɪl ˈaʊt" } },
-        { "id": "en.sign", "kind": "word", "pos": "verb", "text": "sign", "zh": "签名;签字", "features": { "ipa": "saɪn" } },
-        { "id": "en.signature", "kind": "word", "pos": "noun", "text": "signature", "zh": "签名(名词)", "features": { "ipa": "ˈsɪɡnətʃɚ" } },
-        { "id": "en.id", "kind": "word", "pos": "noun", "text": "ID", "zh": "证件;身份证明", "alt": ["I.D."], "features": { "ipa": "ˌaɪ ˈdiː" } },
-        { "id": "en.mail", "kind": "word", "pos": "noun", "text": "mail", "zh": "邮件;邮寄", "features": { "ipa": "meɪl" } }
+        { "id": "en.account", "kind": "word", "pos": "noun", "text": "account", "zh": "账户;账号", "features": { "ipa": "əˈkaʊnt" }, "noteZh": "a bank account 一个银行账户;重音在后 ac-COUNT,ou 读 /aʊ/。网上注册的“账号”也叫 account。" },
+        { "id": "en.form", "kind": "word", "pos": "noun", "text": "form", "zh": "表格", "features": { "ipa": "fɔːrm" }, "noteZh": "fill out a form 填表;or 要卷舌 /ɔːr/,词尾 m 双唇合上,别读成“佛么”。" },
+        { "id": "en.fill_out", "kind": "phrase", "pos": "verb", "text": "fill out", "zh": "填写(表格)", "alt": ["fill in"], "features": { "ipa": "ˌfɪl ˈaʊt" }, "noteZh": "Please fill out this form. 请填一下这张表;两个词连读成“fi-lout”。英式英语多说 fill in。" },
+        { "id": "en.sign", "kind": "word", "pos": "verb", "text": "sign", "zh": "签名;签字", "features": { "ipa": "saɪn" }, "noteZh": "g 不发音,读 /saɪn/;Sign here, please. 请在这儿签名。名词“签名”是 signature,a sign 是“标志、牌子”。" },
+        { "id": "en.signature", "kind": "word", "pos": "noun", "text": "signature", "zh": "签名(名词)", "features": { "ipa": "ˈsɪɡnətʃɚ" }, "noteZh": "这里的 g 要发音:SIG-na-ture,重音在前;sign 是动词“签”,signature 是名词“签名”。" },
+        { "id": "en.id", "kind": "word", "pos": "noun", "text": "ID", "zh": "证件;身份证明", "alt": ["I.D."], "features": { "ipa": "ˌaɪ ˈdiː" }, "noteZh": "读两个字母 I-D;student ID 学生证。办事时常被问 Do you have an ID?——I 的读音以元音开头,所以用 an。" },
+        { "id": "en.mail", "kind": "word", "pos": "noun", "text": "mail", "zh": "邮件;邮寄", "features": { "ipa": "meɪl" }, "noteZh": "Your card comes in the mail. 卡会寄给你;mail 是寄来的信和包裹,email 是电子邮件。" }
       ],
       "reviewItems": ["en.bank", "en.want", "en.phone_number", "en.what_does_that_mean", "en.thats_right"]
     },
@@ -49,14 +49,14 @@
       "grammarFocusZh": "报站的固定说法 The next stop is… / This is…;求助:I missed my stop. / How do I go back? / on the other side of the street;复习 get off、across from。发音:next stop、last stop 里第一个 t 常被吞掉,听的时候不要等那个 t。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
-        { "id": "en.the_next_stop_is", "kind": "phrase", "pos": "phrase", "text": "The next stop is", "zh": "下一站是……(报站)", "features": { "ipa": "ðə ˌnekst ˈstɑːp ɪz" } },
-        { "id": "en.i_missed_my_stop", "kind": "phrase", "pos": "phrase", "text": "I missed my stop", "zh": "我坐过站了", "features": { "ipa": "aɪ ˌmɪst maɪ ˈstɑːp" } },
-        { "id": "en.other", "kind": "word", "pos": "adj", "text": "other", "zh": "另外的;其他的", "features": { "ipa": "ˈʌðɚ" } },
-        { "id": "en.side", "kind": "word", "pos": "noun", "text": "side", "zh": "边;侧", "features": { "ipa": "saɪd" } },
-        { "id": "en.park", "kind": "word", "pos": "noun", "text": "park", "zh": "公园", "features": { "ipa": "pɑːrk" } },
-        { "id": "en.before", "kind": "word", "pos": "prep", "text": "before", "zh": "在……之前", "features": { "ipa": "bɪˈfɔːr" } },
-        { "id": "en.headphones", "kind": "word", "pos": "noun", "text": "headphones", "zh": "耳机", "features": { "ipa": "ˈhedfoʊnz" } },
-        { "id": "en.take_off", "kind": "phrase", "pos": "verb", "text": "take off", "zh": "摘下;脱下", "features": { "ipa": "ˌteɪk ˈɑːf" } }
+        { "id": "en.the_next_stop_is", "kind": "phrase", "pos": "phrase", "text": "The next stop is", "zh": "下一站是……(报站)", "features": { "ipa": "ðə ˌnekst ˈstɑːp ɪz" }, "noteZh": "车上报站的固定说法:The next stop is Pine Street.(下一站:派恩街。)next 词尾的 t 常被吞掉,听起来像“nex-stop”。" },
+        { "id": "en.i_missed_my_stop", "kind": "phrase", "pos": "phrase", "text": "I missed my stop", "zh": "我坐过站了", "features": { "ipa": "aɪ ˌmɪst maɪ ˈstɑːp" }, "noteZh": "坐过站了就对司机说这句。这里的 miss 是“错过”(I miss you 里是“想念”);missed 是过去式,第 8 单元学过去时,现在整句记住。missed 结尾读 /st/,别读成“米斯得”。" },
+        { "id": "en.other", "kind": "word", "pos": "adj", "text": "other", "zh": "另外的;其他的", "features": { "ipa": "ˈʌðɚ" }, "noteZh": "the other side 另一边;th 是浊音 /ð/,舌尖轻放在上下齿之间;开头的 o 读 /ʌ/。" },
+        { "id": "en.side", "kind": "word", "pos": "noun", "text": "side", "zh": "边;侧", "features": { "ipa": "saɪd" }, "noteZh": "on the other side of the street 在马路对面;词尾 d 轻轻收住,不加元音。" },
+        { "id": "en.park", "kind": "word", "pos": "noun", "text": "park", "zh": "公园", "features": { "ipa": "pɑːrk" }, "noteZh": "Green Lake Park 格林湖公园(西雅图北边围着一个湖的大公园);ar 要卷舌 /ɑːr/。" },
+        { "id": "en.before", "kind": "word", "pos": "prep", "text": "before", "zh": "在……之前", "features": { "ipa": "bɪˈfɔːr" }, "noteZh": "before your stop 到站之前;和第 3 单元的 after(在……之后)意思相反。重音在后 be-FORE。" },
+        { "id": "en.headphones", "kind": "word", "pos": "noun", "text": "headphones", "zh": "耳机", "features": { "ipa": "ˈhedfoʊnz" }, "noteZh": "两只耳朵各一个,一般用复数;ph 读 /f/,重音在前 HEAD-phones。" },
+        { "id": "en.take_off", "kind": "phrase", "pos": "verb", "text": "take off", "zh": "摘下;脱下", "features": { "ipa": "ˌteɪk ˈɑːf" }, "noteZh": "take off your headphones 摘下耳机,take off your glasses 摘下眼镜;宾语是代词时放中间:take them off。" }
       ],
       "reviewItems": ["en.get_off", "en.across_from", "en.back", "en.push", "en.button"]
     },
@@ -66,12 +66,12 @@
       "canDoZh": "能读懂一篇推荐地点的小博客,说出去哪儿、怎么去、在那儿能做什么",
       "scenarioZh": "体裁:博客。说话人 lei(第一人称)。磊给国内想来留学的同学写的第一篇英文博客:推荐市中心的三个地方(博物馆、海边、一家旧书店,不写真实店名),每个地方都写坐哪路车、在哪站下、下车后怎么走、在什么旁边、要多久;结尾说迷路也没关系,问路人就好。至少 10 句。",
       "grammarFocusZh": "复习 there is / are、方位介词和 How long does it take?;用 Take the bus… Then… 写路线;读的时候试着画出每个地方的路线。",
-      "skills": ["read", "listen", "speak"], "estimatedMinutes": 17.5,
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 18,
       "newItems": [
-        { "id": "en.place", "kind": "word", "pos": "noun", "text": "place", "zh": "地方", "features": { "ipa": "pleɪs" } },
-        { "id": "en.old", "kind": "word", "pos": "adj", "text": "old", "zh": "旧的;老的", "features": { "ipa": "oʊld" } },
-        { "id": "en.book", "kind": "word", "pos": "noun", "text": "book", "zh": "书", "features": { "ipa": "bʊk" } },
-        { "id": "en.bookstore", "kind": "word", "pos": "noun", "text": "bookstore", "zh": "书店", "features": { "ipa": "ˈbʊkstɔːr" } }
+        { "id": "en.place", "kind": "word", "pos": "noun", "text": "place", "zh": "地方", "features": { "ipa": "pleɪs" }, "noteZh": "a cool place 一个好玩的地方;pl 连在一起读,中间不加元音;复数 places 读 /ˈpleɪsɪz/。" },
+        { "id": "en.old", "kind": "word", "pos": "adj", "text": "old", "zh": "旧的;老的", "features": { "ipa": "oʊld" }, "noteZh": "old 说东西旧、人老,问年龄的 How old 里也是它;an old bookstore 一家老书店(old 以元音开头,用 an)。词尾 ld 轻轻带出。" },
+        { "id": "en.book", "kind": "word", "pos": "noun", "text": "book", "zh": "书", "features": { "ipa": "bʊk" }, "noteZh": "oo 在这里读短的 /ʊ/,和 look 一样,别拖成长音;books in Chinese 中文书。" },
+        { "id": "en.bookstore", "kind": "word", "pos": "noun", "text": "bookstore", "zh": "书店", "features": { "ipa": "ˈbʊkstɔːr" }, "noteZh": "book + store(商店)合成的词,重音在前 BOOK-store;美式说 bookstore,英式多说 bookshop。" }
       ],
       "reviewItems": ["en.museum", "en.get_off", "en.across_from", "en.map", "en.no_problem"]
     },
@@ -83,7 +83,7 @@
       "grammarFocusZh": "复习 percent off、on sale 和价格读法;注意广告里的大字和小字(小字常写着限制条件)。理解题考'打完折多少钱'。",
       "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
       "newItems": [
-        { "id": "en.sale", "kind": "word", "pos": "noun", "text": "sale", "zh": "促销;大减价", "features": { "ipa": "seɪl" } }
+        { "id": "en.sale", "kind": "word", "pos": "noun", "text": "sale", "zh": "促销;大减价", "features": { "ipa": "seɪl" }, "noteZh": "on sale 是“在打折”(第 4 课学过);广告上大大的 SALE 是“大减价、促销”。s 读 /s/,别读成 sh。" }
       ],
       "reviewItems": ["en.on_sale", "en.percent_off", "en.try_on", "en.fitting_room", "en.jeans"]
     },
@@ -95,12 +95,12 @@
       "grammarFocusZh": "网购常用词 add to cart、free shipping、out of stock、checkout;in + 时间表示'多久以后'(It comes in three days.);复习 size、color、How much…?。发音:/ʃ/(shipping、shoes、shirt)和 /s/(sale、size)——四川口音容易把 sh 读成 s,发 /ʃ/ 时舌尖往后收、嘴唇向前突。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
       "newItems": [
-        { "id": "en.online", "kind": "word", "pos": "adv", "text": "online", "zh": "在网上;网上的", "features": { "ipa": "ˌɑːnˈlaɪn" } },
-        { "id": "en.same", "kind": "word", "pos": "adj", "text": "same", "zh": "同样的;同一个", "features": { "ipa": "seɪm" } },
-        { "id": "en.shipping", "kind": "word", "pos": "noun", "text": "shipping", "zh": "运费;运送", "features": { "ipa": "ˈʃɪpɪŋ" } },
-        { "id": "en.out_of_stock", "kind": "phrase", "pos": "adj", "text": "out of stock", "zh": "缺货;卖完了", "features": { "ipa": "ˌaʊt̬ əv ˈstɑːk" } },
-        { "id": "en.add_to_cart", "kind": "phrase", "pos": "phrase", "text": "add to cart", "zh": "加入购物车", "features": { "ipa": "ˌæd tə ˈkɑːrt" } },
-        { "id": "en.checkout", "kind": "word", "pos": "noun", "text": "checkout", "zh": "结账;结算", "features": { "ipa": "ˈtʃekaʊt" } }
+        { "id": "en.online", "kind": "word", "pos": "adv", "text": "online", "zh": "在网上;网上的", "features": { "ipa": "ˌɑːnˈlaɪn" }, "noteZh": "buy them online 在网上买;on 美式读 /ɑːn/。也能放在名词前:an online store 网店。" },
+        { "id": "en.same", "kind": "word", "pos": "adj", "text": "same", "zh": "同样的;同一个", "features": { "ipa": "seɪm" }, "noteZh": "the same shoes 同一双鞋;same 前面一般加 the。a 读 /eɪ/,结尾 m 要闭上嘴。" },
+        { "id": "en.shipping", "kind": "word", "pos": "noun", "text": "shipping", "zh": "运费;运送", "features": { "ipa": "ˈʃɪpɪŋ" }, "noteZh": "free shipping 免运费;sh 是 /ʃ/,舌尖往后收、嘴唇向前突——读成 sipping 就成了“小口喝”。" },
+        { "id": "en.out_of_stock", "kind": "phrase", "pos": "adj", "text": "out of stock", "zh": "缺货;卖完了", "features": { "ipa": "ˌaʊt̬ əv ˈstɑːk" }, "noteZh": "Black is out of stock. 黑色缺货了;三个词连起来读,out of 的 t 读成轻快的 d:“ou-də-stock”。" },
+        { "id": "en.add_to_cart", "kind": "phrase", "pos": "phrase", "text": "add to cart", "zh": "加入购物车", "features": { "ipa": "ˌæd tə ˈkɑːrt" }, "noteZh": "网页按钮上的 Add to Cart;cart 是购物车,超市的手推车也叫 cart;ar 要卷舌。" },
+        { "id": "en.checkout", "kind": "word", "pos": "noun", "text": "checkout", "zh": "结账;结算", "features": { "ipa": "ˈtʃekaʊt" }, "noteZh": "go to checkout 去结账;重音在前 CHECK-out。超市的收银台也叫 checkout。" }
       ],
       "reviewItems": ["en.shoes", "en.percent_off", "en.good_deal", "en.size", "en.return"]
     },
@@ -112,15 +112,15 @@
       "grammarFocusZh": "量词:a pair of socks、a bottle of shampoo、a box of tissues、a pack of batteries、a tube of toothpaste;不可数名词要靠量词来数(two bottles of water)。发音:of 在中间弱读成 /əv/,快读时像 'a bottle-uh';bottle 的 tt 是闪音,结尾的 l 自成一个音节。",
       "skills": ["listen", "read", "write"], "estimatedMinutes": 26.5,
       "newItems": [
-        { "id": "en.pair", "kind": "word", "pos": "noun", "text": "pair", "zh": "双;对;副", "features": { "ipa": "per" } },
-        { "id": "en.socks", "kind": "word", "pos": "noun", "text": "socks", "zh": "袜子", "features": { "ipa": "sɑːks" } },
-        { "id": "en.bottle", "kind": "word", "pos": "noun", "text": "bottle", "zh": "瓶;瓶子", "features": { "ipa": "ˈbɑːt̬l̩" } },
-        { "id": "en.shampoo", "kind": "word", "pos": "noun", "text": "shampoo", "zh": "洗发水", "features": { "ipa": "ʃæmˈpuː" } },
-        { "id": "en.box", "kind": "word", "pos": "noun", "text": "box", "zh": "盒;盒子;箱子", "features": { "ipa": "bɑːks" } },
-        { "id": "en.tissue", "kind": "word", "pos": "noun", "text": "tissue", "zh": "纸巾", "features": { "ipa": "ˈtɪʃuː" } },
-        { "id": "en.toothpaste", "kind": "word", "pos": "noun", "text": "toothpaste", "zh": "牙膏", "features": { "ipa": "ˈtuːθpeɪst" } },
-        { "id": "en.pack", "kind": "word", "pos": "noun", "text": "pack", "zh": "包;盒(一包东西)", "features": { "ipa": "pæk" } },
-        { "id": "en.battery", "kind": "word", "pos": "noun", "text": "battery", "zh": "电池", "features": { "ipa": "ˈbæt̬ɚi" } }
+        { "id": "en.pair", "kind": "word", "pos": "noun", "text": "pair", "zh": "双;对;副", "features": { "ipa": "per" }, "noteZh": "a pair of socks 一双袜子,two pairs of shoes 两双鞋;pair 和 pear(梨)读音一样,air 要卷舌。" },
+        { "id": "en.socks", "kind": "word", "pos": "noun", "text": "socks", "zh": "袜子", "features": { "ipa": "sɑːks" }, "noteZh": "袜子一般用复数;o 美式读 /ɑː/,词尾 cks 读 /ks/,别加元音。" },
+        { "id": "en.bottle", "kind": "word", "pos": "noun", "text": "bottle", "zh": "瓶;瓶子", "features": { "ipa": "ˈbɑːt̬l̩" }, "noteZh": "a bottle of water 一瓶水;美式 tt 读成轻快的 d,结尾的 l 自己成一个音节:“BAH-dl”。" },
+        { "id": "en.shampoo", "kind": "word", "pos": "noun", "text": "shampoo", "zh": "洗发水", "features": { "ipa": "ʃæmˈpuː" }, "noteZh": "重音在后 sham-POO;sh 是 /ʃ/,别读成 s。不能直接数,一瓶是 a bottle of shampoo。" },
+        { "id": "en.box", "kind": "word", "pos": "noun", "text": "box", "zh": "盒;盒子;箱子", "features": { "ipa": "bɑːks" }, "noteZh": "a box of tissues 一盒纸巾;复数 boxes 读 /ˈbɑːksɪz/。" },
+        { "id": "en.tissue", "kind": "word", "pos": "noun", "text": "tissue", "zh": "纸巾", "features": { "ipa": "ˈtɪʃuː" }, "noteZh": "ss 读 /ʃ/:“TI-shoo”;一盒纸巾 a box of tissues。吃饭擦嘴的餐巾纸,美国人一般叫 napkin。" },
+        { "id": "en.toothpaste", "kind": "word", "pos": "noun", "text": "toothpaste", "zh": "牙膏", "features": { "ipa": "ˈtuːθpeɪst" }, "noteZh": "不能直接数:I need toothpaste.,一管是 a tube of toothpaste;th 是清音 /θ/,舌尖放在上下齿之间送气。" },
+        { "id": "en.pack", "kind": "word", "pos": "noun", "text": "pack", "zh": "包;盒(一包东西)", "features": { "ipa": "pæk" }, "noteZh": "a pack of batteries 一包电池;a 是 /æ/,嘴张大;词尾 ck 轻轻收住。" },
+        { "id": "en.battery", "kind": "word", "pos": "noun", "text": "battery", "zh": "电池", "features": { "ipa": "ˈbæt̬ɚi" }, "noteZh": "复数 batteries(y 变 i 加 -es);美式 tt 读成轻快的 d:“BA-der-ee”,重音在前。" }
       ],
       "reviewItems": ["en.pharmacy", "en.aisle", "en.bag", "en.warm", "en.no_thanks"]
     },
@@ -130,10 +130,10 @@
       "canDoZh": "能读懂并写一张简短的生日贺卡:祝福、说说礼物、表达想念",
       "scenarioZh": "体裁:贺卡。说话人 lei(第一人称)。磊在送给妈妈的围巾里夹了一张英文生日卡:祝妈妈生日快乐;说这条浅灰色的围巾是和朋友一起挑的,正好在打折;西雅图的秋天又冷又爱下雨,但他买了一件暖和的外套;最后说想家、爱她。磊在背面写了中文翻译。至少 8 句。",
       "grammarFocusZh": "复习本单元的颜色、价格和购物说法;贺卡格式 Dear Mom… / Love, Lei;用 I miss you. / I love you.(第 2 单元学过)收尾。",
-      "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 14.5,
       "newItems": [
-        { "id": "en.happy_birthday", "kind": "phrase", "pos": "phrase", "text": "Happy birthday", "zh": "生日快乐", "features": { "ipa": "ˌhæpi ˈbɝːθdeɪ" } },
-        { "id": "en.dear", "kind": "word", "pos": "adj", "text": "dear", "zh": "亲爱的(信的开头)", "features": { "ipa": "dɪr" } }
+        { "id": "en.happy_birthday", "kind": "phrase", "pos": "phrase", "text": "Happy birthday", "zh": "生日快乐", "features": { "ipa": "ˌhæpi ˈbɝːθdeɪ" }, "noteZh": "也可以说 Happy birthday to you!;happy 的 a 是 /æ/,嘴张大;birthday 的 th 是清音 /θ/。" },
+        { "id": "en.dear", "kind": "word", "pos": "adj", "text": "dear", "zh": "亲爱的(信的开头)", "features": { "ipa": "dɪr" }, "noteZh": "写信、贺卡的开头:Dear Mom,——后面用逗号,不用冒号;ear 读 /ɪr/,要卷舌。" }
       ],
       "reviewItems": ["en.scarf", "en.gift", "en.on_sale", "en.new", "en.miss"]
     },

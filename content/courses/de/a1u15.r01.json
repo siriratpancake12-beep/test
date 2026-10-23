@@ -17,13 +17,13 @@
     { "speaker": "paul", "text": "Ich habe das Trikot gleich angezogen und Fußball gespielt.", "zh": "我马上就穿上球衣去踢球了。", "items": ["de.ich", "de.haben", "de.trikot", "de.gleich", "de.anziehen", "de.und", "de.fussball", "de.spielen"] },
     { "speaker": "paul", "text": "Meine Freunde finden es toll!", "zh": "我的朋友们都觉得它特别帅!", "items": ["de.mein", "de.freund", "de.finden", "de.es", "de.toll"] },
     { "speaker": "paul", "text": "Und die Baozi von Wei waren sehr lecker.", "zh": "王伟做的包子也特别好吃。", "items": ["de.und", "de.von", "de.sein", "de.sehr", "de.lecker"] },
-    { "speaker": "paul", "text": "Wei, nächstes Mal machen wir sie zusammen!", "zh": "王伟,下次我们一起做包子吧!", "items": ["de.naechste", "de.mal", "de.machen", "de.wir", "de.sie_pl", "de.zusammen"] },
+    { "speaker": "paul", "text": "Wei, machen wir die Baozi mal zusammen?", "zh": "王伟,哪天我们一起做包子吧?", "items": ["de.machen", "de.wir", "de.mal", "de.zusammen"] },
     { "speaker": "paul", "text": "Ich danke euch für alles! Viele Grüße, Paul", "zh": "谢谢你们为我做的一切!保罗", "items": ["de.ich", "de.danken", "de.euch", "de.fuer", "de.alles", "de.viele_gruesse"] }
   ],
   "questions": [
     { "prompt": "莉娜在贺卡里写了什么?", "options": ["她明天去看保罗", "保罗 17 岁了,可她还是他的姐姐", "她送了保罗一本书"], "answer": 1, "explainZh": "莉娜写:Jetzt bist du siebzehn! Aber ich bin noch deine große Schwester.(你十七岁啦!不过我还是你姐姐。)" },
     { "prompt": "保罗穿上新球衣做了什么?", "options": ["踢足球", "去游泳", "去上学"], "answer": 0, "explainZh": "保罗写:Ich habe das Trikot gleich angezogen und Fußball gespielt.(我马上就穿上球衣去踢球了。)" },
-    { "prompt": "保罗下次想和王伟一起做什么?", "options": ["踢足球", "去买球衣", "做包子"], "answer": 2, "explainZh": "保罗写:Wei, nächstes Mal machen wir sie zusammen!——sie 指上一句的 die Baozi(包子)。" }
+    { "prompt": "保罗想和王伟一起做什么?", "options": ["踢足球", "去买球衣", "做包子"], "answer": 2, "explainZh": "保罗写:Wei, machen wir die Baozi mal zusammen?(王伟,哪天我们一起做包子吧?)mal 让建议听起来随意、客气。" }
   ],
   "grammar": [
     { "id": "de.g.u15_karte_dank", "titleZh": "贺卡和感谢消息",

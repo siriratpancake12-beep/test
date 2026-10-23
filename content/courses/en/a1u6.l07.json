@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u6.l07", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106070,
+  "titleZh": "买日用品", "goalZh": "会用 a pair of、a bottle of、a box of 这类量词买日用品", "canDoZh": "能在药妆店买日用品,说清楚要几瓶、几盒、几双",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "en.pair", "kind": "word", "pos": "noun", "text": "pair", "zh": "双;对;副", "features": { "ipa": "per" }, "noteZh": "a pair of socks 一双袜子,two pairs of shoes 两双鞋;pair 和 pear(梨)读音一样,air 要卷舌。" },
+    { "id": "en.socks", "kind": "word", "pos": "noun", "text": "socks", "zh": "袜子", "features": { "ipa": "sɑːks" }, "noteZh": "袜子一般用复数;o 美式读 /ɑː/,词尾 cks 读 /ks/,别加元音。" },
+    { "id": "en.bottle", "kind": "word", "pos": "noun", "text": "bottle", "zh": "瓶;瓶子", "features": { "ipa": "ˈbɑːt̬l̩" }, "noteZh": "a bottle of water 一瓶水;美式 tt 读成轻快的 d,结尾的 l 自己成一个音节:“BAH-dl”。" },
+    { "id": "en.shampoo", "kind": "word", "pos": "noun", "text": "shampoo", "zh": "洗发水", "features": { "ipa": "ʃæmˈpuː" }, "noteZh": "重音在后 sham-POO;sh 是 /ʃ/,别读成 s。不能直接数,一瓶是 a bottle of shampoo。" },
+    { "id": "en.box", "kind": "word", "pos": "noun", "text": "box", "zh": "盒;盒子;箱子", "features": { "ipa": "bɑːks" }, "noteZh": "a box of tissues 一盒纸巾;复数 boxes 读 /ˈbɑːksɪz/。" },
+    { "id": "en.tissue", "kind": "word", "pos": "noun", "text": "tissue", "zh": "纸巾", "features": { "ipa": "ˈtɪʃuː" }, "noteZh": "ss 读 /ʃ/:“TI-shoo”;一盒纸巾 a box of tissues。吃饭擦嘴的餐巾纸,美国人一般叫 napkin。" },
+    { "id": "en.toothpaste", "kind": "word", "pos": "noun", "text": "toothpaste", "zh": "牙膏", "features": { "ipa": "ˈtuːθpeɪst" }, "noteZh": "不能直接数:I need toothpaste.,一管是 a tube of toothpaste;th 是清音 /θ/,舌尖放在上下齿之间送气。" },
+    { "id": "en.pack", "kind": "word", "pos": "noun", "text": "pack", "zh": "包;盒(一包东西)", "features": { "ipa": "pæk" }, "noteZh": "a pack of batteries 一包电池;a 是 /æ/,嘴张大;词尾 ck 轻轻收住。" },
+    { "id": "en.battery", "kind": "word", "pos": "noun", "text": "battery", "zh": "电池", "features": { "ipa": "ˈbæt̬ɚi" }, "noteZh": "复数 batteries(y 变 i 加 -es);美式 tt 读成轻快的 d:“BA-der-ee”,重音在前。" }
+  ],
+  "reviewItems": ["en.pharmacy", "en.aisle", "en.bag", "en.warm", "en.no_thanks"],
+  "lines": [
+    { "speaker": "sofia", "text": "It's really cold now. I need warm socks.", "zh": "(天冷了,磊和索菲亚去学校附近的药妆店)现在真冷。我得买双暖和的袜子。", "items": ["en.really", "en.cold", "en.need", "en.warm", "en.socks"] },
+    { "speaker": "lei", "text": "Me too. Two pairs of socks for me.", "zh": "我也是。我要两双袜子。", "items": ["en.me_too", "en.pair", "en.socks"] },
+    { "speaker": "lei", "text": "And a bottle of shampoo and a box of tissues.", "zh": "还要一瓶洗发水和一盒纸巾。", "items": ["en.bottle", "en.shampoo", "en.box", "en.tissue"] },
+    { "speaker": "sofia", "text": "I need toothpaste and a pack of batteries.", "zh": "我要买牙膏和一包电池。", "items": ["en.need", "en.toothpaste", "en.pack", "en.battery"] },
+    { "speaker": "sofia", "text": "Excuse me. Where's the toothpaste?", "zh": "(找了一圈没找到)打扰一下,牙膏在哪儿?", "items": ["en.excuse_me", "en.toothpaste"] },
+    { "speaker": "clerk", "text": "It's in aisle 4, next to the shampoo.", "zh": "在 4 号过道,洗发水旁边。", "items": ["en.aisle", "en.next_to", "en.shampoo"] },
+    { "speaker": "cashier", "text": "Hi there! Do you need a bag?", "zh": "(结账时)你好!需要袋子吗?", "items": ["en.hi", "en.need", "en.bag"] },
+    { "speaker": "lei", "text": "No, thanks. I have my bag.", "zh": "不用了,谢谢。我带了袋子。", "items": ["en.no_thanks", "en.have", "en.bag"] },
+    { "speaker": "cashier", "text": "OK. Two pairs of socks, shampoo, and tissues. That's twenty dollars.", "zh": "好的。两双袜子、洗发水和纸巾,一共 20 美元。", "items": ["en.pair", "en.socks", "en.shampoo", "en.tissue", "en.dollar"] },
+    { "speaker": "lei", "text": "Here's my card. I love this pharmacy!", "zh": "刷我的卡吧。我真喜欢这家药妆店!", "items": ["en.card", "en.love", "en.pharmacy"] }
+  ],
+  "questions": [
+    { "prompt": "磊买了几双袜子?", "options": ["一双", "三双", "两双"], "answer": 2, "explainZh": "磊说 Two pairs of socks for me.(我要两双袜子。)a pair of 是“一双”。" },
+    { "prompt": "牙膏在哪儿?", "options": ["在 4 号过道,洗发水旁边", "在收银台旁边", "和电池放在一起"], "answer": 0, "explainZh": "店员说 It's in aisle 4, next to the shampoo.(在 4 号过道,洗发水旁边。)" },
+    { "prompt": "收银员问要不要袋子,磊怎么回答?", "options": ["要一个大袋子", "不用,他带了自己的袋子", "要两个袋子"], "answer": 1, "explainZh": "磊说 No, thanks. I have my bag.(不用了,谢谢。我带了袋子。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.quantity_words", "titleZh": "量词:a pair of、a bottle of、a box of、a pack of",
+      "bodyZh": "英语数东西,有的直接加数字(two bags),有的要先用一个“量词”:a pair of socks(一双袜子)、a bottle of shampoo(一瓶洗发水)、a box of tissues(一盒纸巾)、a pack of batteries(一包电池)。和中文的“一双、一瓶、一盒”一样放在名词前面,只是中间要加 of,不能漏。water、shampoo、toothpaste 这类不能直接数的东西(不可数名词),要数瓶数就说 two bottles of water;只说“买点牙膏”,用 some:I need some toothpaste.。发音:of 夹在中间弱读成 /əv/,说快了只剩一个轻轻的 /ə/:“a bottle-uh water”。",
+      "examples": [
+        { "text": "I need two pairs of socks.", "zh": "我要两双袜子。" },
+        { "text": "Can I get a bottle of water?", "zh": "请给我一瓶水。" },
+        { "text": "I need a box of tissues and a pack of batteries.", "zh": "我要一盒纸巾和一包电池。" }
+      ] },
+    { "id": "en.g.plural_quantity", "titleZh": "“两双、三瓶”:量词变复数",
+      "bodyZh": "数量多于一,是量词变复数:two pairs of socks、three bottles of water、two boxes of tissues。box 以 x 结尾,复数加 -es,读 /ˈbɑːksɪz/;battery 的复数是 batteries(y 变 i 再加 -es)。of 后面的名词不跟着变:socks、tissues 本来就是复数,water、shampoo 一直是原形。发音:bottle 的 tt 读成轻快的 d,结尾的 l 自己成一个音节,“BAH-dl”。",
+      "examples": [
+        { "text": "Two pairs of socks, please.", "zh": "请给我两双袜子。" },
+        { "text": "We need two boxes of tissues.", "zh": "我们需要两盒纸巾。" },
+        { "text": "I have three bottles of water.", "zh": "我有三瓶水。" }
+      ] }
+  ],
+  "review": "draft"
+}

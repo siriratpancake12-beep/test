@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u11.l02", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111020,
+  "titleZh": "WG 的值日表", "goalZh": "会和室友商量家务分工,说清楚谁在什么时候做什么", "canDoZh": "能和室友商量家务分工,说清楚谁在什么时候做什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.putzplan", "kind": "word", "pos": "noun", "text": "der Putzplan", "zh": "(合租公寓的)值日表", "features": { "gender": "m", "plural": "die Putzpläne", "ipa": "ˈpʊtsˌplaːn" }, "noteZh": "putzen + der Plan(计划);德国很多 WG 都有:哪一周谁打扫厨房、浴室,写得清清楚楚;复数变音:Putzpläne。" },
+    { "id": "de.sauber", "kind": "word", "pos": "adj", "text": "sauber", "zh": "干净的", "features": { "ipa": "ˈzaʊ̯bɐ" }, "noteZh": "Die Küche ist sauber.(厨房很干净。);反义词 schmutzig(脏);s 读 [z],au 读 [aʊ̯]。" },
+    { "id": "de.toilette", "kind": "word", "pos": "noun", "text": "die Toilette", "zh": "厕所;马桶", "features": { "gender": "f", "plural": "die Toiletten", "ipa": "toaˈlɛtə" }, "noteZh": "法语外来词,读 [toaˈlɛtə];问厕所:Wo ist die Toilette?;口语也说 das Klo。" },
+    { "id": "de.wischen", "kind": "word", "pos": "verb", "text": "wischen", "zh": "擦;拖(地)", "features": { "ipa": "ˈvɪʃn̩" }, "noteZh": "den Boden wischen(拖地);den Tisch wischen(擦桌子);w 读 [v],sch 读 [ʃ]。" },
+    { "id": "de.boden", "kind": "word", "pos": "noun", "text": "der Boden", "zh": "地面;地板", "features": { "gender": "m", "plural": "die Böden", "ipa": "ˈboːdn̩" }, "noteZh": "den Boden wischen(拖地);复数变音:Böden;o 是长音。" },
+    { "id": "de.dran", "kind": "word", "pos": "adv", "text": "dran", "zh": "轮到(某人)", "features": { "ipa": "dʁan" }, "noteZh": "dran sein = 轮到:Wer ist dran?(轮到谁了?)/ Du bist dran!(轮到你了!);是 daran 的口语说法。" },
+    { "id": "de.fair", "kind": "word", "pos": "adj", "text": "fair", "zh": "公平的", "features": { "ipa": "fɛːɐ̯" }, "noteZh": "英语外来词,读 [fɛːɐ̯];Das ist fair.(这很公平。)/ Das ist nicht fair!(这不公平!)" },
+    { "id": "de.haengen", "kind": "word", "pos": "verb", "text": "hängen", "zh": "挂着;悬挂", "features": { "ipa": "ˈhɛŋən" }, "noteZh": "表示东西挂在那儿:Der Putzplan hängt am Kühlschrank.(值日表贴在冰箱上。);把东西挂上去用 aufhängen(第 7 课);ng 读 [ŋ]。" }
+  ],
+  "reviewItems": ["de.idee", "de.kuehlschrank", "de.naechste", "de.vor", "de.rausbringen"],
+  "lines": [
+    { "speaker": "sofia", "text": "Ich habe eine Idee: Wir machen einen Putzplan!", "zh": "我有个主意:我们做一张值日表!", "items": ["de.ich", "de.haben", "de.ein", "de.idee", "de.wir", "de.machen", "de.putzplan"] },
+    { "speaker": "jonas", "text": "Einen Putzplan? Brauchen wir das?", "zh": "值日表?我们需要这个吗?", "items": ["de.ein", "de.putzplan", "de.brauchen", "de.wir"] },
+    { "speaker": "sofia", "text": "Ja! Die Küche ist nie sauber.", "zh": "需要!厨房从来没干净过。", "items": ["de.ja", "de.kueche", "de.sein", "de.nie", "de.sauber"] },
+    { "speaker": "wei", "text": "Gut. Wer macht was?", "zh": "好。谁做什么?", "items": ["de.gut", "de.wer", "de.machen", "de.was"] },
+    { "speaker": "sofia", "text": "Ich putze am Samstag das Bad und die Toilette.", "zh": "我星期六打扫浴室和厕所。", "items": ["de.ich", "de.putzen", "de.am", "de.samstag", "de.bad", "de.und", "de.toilette"] },
+    { "speaker": "jonas", "text": "Ich arbeite am Abend. Am Montag und Dienstag putze ich die Küche.", "zh": "我晚上上班。星期一和星期二我打扫厨房。", "items": ["de.ich", "de.arbeiten", "de.am", "de.abend", "de.montag", "de.und", "de.dienstag", "de.putzen", "de.kueche"] },
+    { "speaker": "wei", "text": "Und ich wische den Boden und bringe den Müll raus.", "zh": "我来拖地、倒垃圾。", "items": ["de.und", "de.ich", "de.wischen", "de.boden", "de.rausbringen", "de.muell"] },
+    { "speaker": "sofia", "text": "Und das Abwaschen? Nächste Woche ist Wei dran, dann Jonas, dann ich.", "zh": "那洗碗呢?下周轮到王伟,然后是约纳斯,再是我。", "items": ["de.und", "de.abwaschen", "de.naechste", "de.woche", "de.sein", "de.dran", "de.dann", "de.ich"] },
+    { "speaker": "wei", "text": "In der Woche vor der Prüfung habe ich aber keine Zeit.", "zh": "不过考试前那个星期我没时间。", "items": ["de.in", "de.woche", "de.vor", "de.pruefung", "de.haben", "de.ich", "de.aber", "de.kein", "de.zeit"] },
+    { "speaker": "jonas", "text": "Dann wasche ich in der Woche für dich ab.", "zh": "那个星期我替你洗碗。", "items": ["de.dann", "de.abwaschen", "de.ich", "de.in", "de.woche", "de.fuer", "de.du"] },
+    { "speaker": "wei", "text": "Danke, Jonas! Das ist fair.", "zh": "谢谢你,约纳斯!这很公平。", "items": ["de.danke", "de.das_ist", "de.fair"] },
+    { "speaker": "sofia", "text": "Super! Der Putzplan hängt jetzt am Kühlschrank.", "zh": "太好了!值日表现在贴在冰箱上了。", "items": ["de.toll", "de.putzplan", "de.haengen", "de.jetzt", "de.an", "de.kuehlschrank"] }
+  ],
+  "questions": [
+    { "prompt": "谁提议做值日表?", "options": ["约纳斯", "王伟", "索菲娅"], "answer": 2, "explainZh": "索菲娅说:Ich habe eine Idee: Wir machen einen Putzplan!(我有个主意:我们做一张值日表!)" },
+    { "prompt": "约纳斯哪两天打扫厨房?", "options": ["星期一和星期二", "星期六和星期天", "星期三和星期四"], "answer": 0, "explainZh": "约纳斯说:Am Montag und Dienstag putze ich die Küche.(星期一和星期二我打扫厨房。)他晚上要上班。" },
+    { "prompt": "考试前那个星期,谁替王伟洗碗?", "options": ["索菲娅", "约纳斯", "没有人"], "answer": 1, "explainZh": "约纳斯说:Dann wasche ich in der Woche für dich ab.(那个星期我替你洗碗。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.wer_macht_was", "titleZh": "分工:Wer macht was?",
+      "bodyZh": "商量分工:Wer macht was?(谁做什么?)回答:Ich putze am Samstag das Bad. / Am Montag und Dienstag putze ich die Küche.——时间放句首时动词还在第二位。\n轮流做用 dran sein:Wer ist dran?(轮到谁了?)/ Nächste Woche ist Wei dran.(下周轮到王伟。)/ Ich bin dran.。\n说没空:In der Woche vor der Prüfung habe ich keine Zeit.;同意、道谢:Danke! Das ist fair.(这很公平。)",
+      "examples": [
+        { "text": "Wer macht was?", "zh": "谁做什么?" },
+        { "text": "Nächste Woche ist Wei dran.", "zh": "下周轮到王伟。" }
+      ] },
+    { "id": "de.g.wochentag_modal", "titleZh": "复习:am + 星期、können / müssen",
+      "bodyZh": "复习第 5 单元:星期前面用 am:am Montag、am Samstag;两天连着说:am Montag und Dienstag(第二个 am 可以省)。\n情态动词放第二位,原形放句末:Am Abend muss ich arbeiten. / Am Montag kann ich putzen.。\nvor + 名词 = 在……之前(第 5 单元):vor der Prüfung(考试之前)、vor neun Uhr(九点以前)。",
+      "examples": [
+        { "text": "Am Abend muss ich arbeiten.", "zh": "晚上我得上班。" },
+        { "text": "Am Montag und Dienstag putze ich die Küche.", "zh": "星期一和星期二我打扫厨房。" }
+      ] }
+  ],
+  "review": "draft"
+}

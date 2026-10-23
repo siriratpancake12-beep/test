@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u16.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116045,
+  "titleZh": "约纳斯的土豆沙拉菜谱", "goalZh": "读懂一份完整的菜谱:几人份、材料和数量、做法步骤", "canDoZh": "能读懂一份完整的菜谱:材料、数量和步骤",
+  "skills": ["read", "write"], "estimatedMinutes": 16,
+  "newItems": [
+    { "id": "de.portion", "kind": "word", "pos": "noun", "text": "die Portion", "zh": "(一)份", "features": { "gender": "f", "plural": "die Portionen", "ipa": "pɔʁˈtsi̯oːn" }, "noteZh": "菜谱上的“几人份”:für vier Portionen;-tion 读 [tsi̯oːn],重音在最后。" },
+    { "id": "de.zutat", "kind": "word", "pos": "noun", "text": "die Zutat", "zh": "(做菜的)材料;配料", "features": { "gender": "f", "plural": "die Zutaten", "ipa": "ˈtsuːtaːt" }, "noteZh": "菜谱开头常写 Zutaten:(材料:);一般用复数;z 读 [ts]。" },
+    { "id": "de.anders", "kind": "word", "pos": "adv", "text": "anders", "zh": "不一样;用别的方式", "features": { "ipa": "ˈandɐs" }, "noteZh": "In Berlin machen die Leute Kartoffelsalat anders.(柏林人做土豆沙拉的方法不一样。)也说 ganz anders(完全不同)。" }
+  ],
+  "reviewItems": ["de.kartoffelsalat", "de.essloeffel", "de.schneiden", "de.schaelen", "de.schuessel"],
+  "lines": [
+    { "speaker": "jonas", "text": "Kartoffelsalat – das Rezept von meiner Oma", "zh": "(约纳斯手写的菜谱卡片)土豆沙拉——我奶奶的菜谱", "items": ["de.kartoffelsalat", "de.rezept", "de.von", "de.mein", "de.oma"] },
+    { "speaker": "jonas", "text": "Zutaten für vier Portionen:", "zh": "材料(四人份):", "items": ["de.zutat", "de.fuer", "de.vier", "de.portion"] },
+    { "speaker": "jonas", "text": "ein Kilo Kartoffeln, zwei Zwiebeln und eine Gurke,", "zh": "一公斤土豆、两个洋葱、一根黄瓜,", "items": ["de.ein", "de.kilo", "de.kartoffel", "de.zwei", "de.zwiebel", "de.und", "de.gurke"] },
+    { "speaker": "jonas", "text": "vier Esslöffel Essig, drei Esslöffel Öl, ein Esslöffel Senf,", "zh": "四大勺醋、三大勺油、一大勺芥末酱,", "items": ["de.vier", "de.essloeffel", "de.essig", "de.drei", "de.oel", "de.ein", "de.senf"] },
+    { "speaker": "jonas", "text": "Salz und Pfeffer.", "zh": "盐和胡椒。", "items": ["de.salz", "de.und", "de.pfeffer"] },
+    { "speaker": "jonas", "text": "Die Kartoffeln zwanzig Minuten kochen.", "zh": "土豆煮二十分钟。", "items": ["de.kartoffel", "de.zwanzig", "de.minute", "de.kochen"] },
+    { "speaker": "jonas", "text": "Dann schälen und in Scheiben schneiden.", "zh": "然后去皮,切成片。", "items": ["de.dann", "de.schaelen", "de.und", "de.in", "de.scheibe", "de.schneiden"] },
+    { "speaker": "jonas", "text": "Die Zwiebeln und die Gurke klein schneiden.", "zh": "洋葱和黄瓜切碎。", "items": ["de.zwiebel", "de.und", "de.gurke", "de.klein", "de.schneiden"] },
+    { "speaker": "jonas", "text": "Essig, Öl, Senf, Salz und Pfeffer mischen.", "zh": "把醋、油、芥末酱、盐和胡椒调匀。", "items": ["de.essig", "de.oel", "de.senf", "de.salz", "de.und", "de.pfeffer", "de.mischen"] },
+    { "speaker": "jonas", "text": "Alles in einer Schüssel mischen und eine Stunde warten.", "zh": "所有东西放进一个大碗里拌匀,等一个小时。", "items": ["de.alles", "de.in", "de.ein", "de.schuessel", "de.mischen", "de.und", "de.stunde", "de.warten"] },
+    { "speaker": "jonas", "text": "Fertig! Guten Appetit!", "zh": "好了!请慢用!", "items": ["de.fertig", "de.guten_appetit"] },
+    { "speaker": "jonas", "text": "In Berlin machen die Leute Kartoffelsalat anders.", "zh": "柏林人做土豆沙拉的方法不一样。", "items": ["de.in", "de.machen", "de.leute", "de.kartoffelsalat", "de.anders"] },
+    { "speaker": "jonas", "text": "Aber mein Rezept ist von meiner Oma aus Hamburg!", "zh": "不过我的菜谱可是我那位汉堡奶奶传下来的!", "items": ["de.aber", "de.mein", "de.rezept", "de.sein", "de.von", "de.oma", "de.ich_komme_aus"] }
+  ],
+  "questions": [
+    { "prompt": "这份菜谱是几人份的?", "options": ["两人份", "四人份", "六人份"], "answer": 1, "explainZh": "卡片上写着:Zutaten für vier Portionen(材料:四人份)。" },
+    { "prompt": "土豆煮好以后要做什么?", "options": ["马上和醋拌在一起", "放进冰箱", "去皮,切成片"], "answer": 2, "explainZh": "Die Kartoffeln zwanzig Minuten kochen. Dann schälen und in Scheiben schneiden.(土豆煮二十分钟,然后去皮,切成片。)" },
+    { "prompt": "所有东西拌好以后要等多久?", "options": ["一个小时", "二十分钟", "不用等"], "answer": 0, "explainZh": "Alles in einer Schüssel mischen und eine Stunde warten.(所有东西放进碗里拌匀,等一个小时。)二十分钟是煮土豆的时间。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_rezept_lesen", "titleZh": "读一份菜谱",
+      "bodyZh": "菜谱一般分两部分:\n① Zutaten(材料):数量 + 名词,ein Kilo Kartoffeln、vier Esslöffel Essig、zwei Zwiebeln——数字后面的名词用复数,Kilo、Esslöffel 不变。\n② 做法:一步一句,不写主语,不定式放在句末:… zwanzig Minuten kochen / schälen / in Scheiben schneiden / mischen;klein schneiden = 切碎。\n复合词的性看最后一个词:der Kartoffelsalat = die Kartoffel + der Salat;der Esslöffel = essen + der Löffel。\n德国的土豆沙拉做好后常放一会儿再吃,让土豆吸收调料的味道。",
+      "examples": [
+        { "text": "Zutaten für vier Portionen", "zh": "材料(四人份)" },
+        { "text": "Die Kartoffeln zwanzig Minuten kochen.", "zh": "土豆煮二十分钟。" },
+        { "text": "Die Zwiebeln klein schneiden.", "zh": "洋葱切碎。" }
+      ] }
+  ],
+  "review": "draft"
+}

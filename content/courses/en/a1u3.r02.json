@@ -11,7 +11,7 @@
     { "speaker": "laura", "text": "Subject: Welcome to the cafe!", "zh": "(面试第二天,咖啡馆经理劳拉发来邮件)主题:欢迎来咖啡馆!", "items": ["en.subject", "en.welcome", "en.cafe"] },
     { "speaker": "laura", "text": "Hi Lei, welcome to our cafe!", "zh": "磊你好,欢迎加入我们咖啡馆!", "items": ["en.hi", "en.welcome", "en.cafe"] },
     { "speaker": "laura", "text": "You start on Monday at 2 p.m.", "zh": "你下周一下午两点开始上班。", "items": ["en.start", "en.monday", "en.pm"] },
-    { "speaker": "laura", "text": "On Monday, Marcus is your teacher.", "zh": "周一由马库斯带你。", "items": ["en.monday", "en.teacher"] },
+    { "speaker": "laura", "text": "On Monday, Marcus works with you. He's a great teacher!", "zh": "周一马库斯带你。他很会教人!", "items": ["en.monday", "en.work", "en.great", "en.teacher"] },
     { "speaker": "laura", "text": "He's a senior, and he's really friendly.", "zh": "他读大四,人特别好相处。", "items": ["en.senior", "en.really", "en.friendly"] },
     { "speaker": "laura", "text": "After Monday, your shifts are on Tuesdays and Thursdays.", "zh": "周一以后,你每周二、周四上班。", "items": ["en.after", "en.monday", "en.shift", "en.tuesday", "en.thursday"] },
     { "speaker": "laura", "text": "Every shift is from 2 to 6 p.m.", "zh": "每次都是下午两点到六点。", "items": ["en.shift", "en.pm"] },
@@ -22,10 +22,10 @@
     { "speaker": "laura", "text": "Best, Laura, Cafe Manager", "zh": "祝好!咖啡馆经理 劳拉", "items": ["en.best", "en.cafe", "en.manager"] }
   ],
   "questions": [
-    { "prompt": "磊什么时候开始上班?", "options": ["下周一下午两点", "下周二下午两点", "下周四上午"], "answer": 0, "explainZh": "劳拉写 You start on Monday at 2 p.m.(你周一下午两点开始。)" },
-    { "prompt": "劳拉让磊几点到?", "options": ["两点整", "一点五十", "六点"], "answer": 1, "explainZh": "劳拉写 Please be here at 1:50.,比两点开工早十分钟。" },
-    { "prompt": "周一谁带磊?", "options": ["劳拉", "老顾客", "马库斯"], "answer": 2, "explainZh": "劳拉写 On Monday, Marcus is your teacher.(周一由马库斯带你。)" },
-    { "prompt": "周一以后,磊每周什么时候上班?", "options": ["周一和周三", "周末全天", "每天下午", "周二和周四,两点到六点"], "answer": 3, "explainZh": "劳拉写 your shifts are on Tuesdays and Thursdays 和 Every shift is from 2 to 6 p.m.。" }
+    { "prompt": "磊什么时候开始上班?", "options": ["下周二下午两点", "下周四上午", "下周一上午", "下周一下午两点"], "answer": 3, "explainZh": "劳拉写 You start on Monday at 2 p.m.(你周一下午两点开始。)" },
+    { "prompt": "劳拉让磊几点到?", "options": ["一点五十", "两点整", "六点"], "answer": 0, "explainZh": "劳拉写 Please be here at 1:50.,比两点开工早十分钟。" },
+    { "prompt": "周一谁带磊?", "options": ["劳拉", "老顾客", "马库斯"], "answer": 2, "explainZh": "劳拉写 On Monday, Marcus works with you. He's a great teacher!(周一马库斯带你,他很会教人!)" },
+    { "prompt": "周一以后,磊每周什么时候上班?", "options": ["周一和周三", "周二和周四,两点到六点", "周末全天", "每天下午"], "answer": 1, "explainZh": "劳拉写 your shifts are on Tuesdays and Thursdays 和 Every shift is from 2 to 6 p.m.。" }
   ],
   "grammar": [
     { "id": "en.g.schedule_present", "titleZh": "读工作邮件:先找日期和钟点;一般现在时说定好的安排",

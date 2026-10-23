@@ -17,13 +17,13 @@
     { "speaker": "ethan", "text": "It's five o'clock. Video games at eight? You and me, man!", "zh": "(17:00)五点了。八点打游戏?就咱俩,哥们儿!", "items": ["en.oclock", "en.video_game"] },
     { "speaker": "lei", "text": "Sure! But I go to bed at eleven.", "zh": "(磊回复)行啊!不过我十一点就睡觉。", "items": ["en.sure", "en.go_to_bed"] },
     { "speaker": "ethan", "text": "Eleven? That's early! I go to bed at three!", "zh": "十一点?那也太早了!我三点才睡!", "items": ["en.early", "en.go_to_bed"] },
-    { "speaker": "ethan", "text": "Seven o'clock! Dinner time, Lei! Hurry up!", "zh": "(19:00)七点了!该吃晚饭了,磊!快点!", "items": ["en.oclock", "en.dinner", "en.hurry_up"] },
+    { "speaker": "ethan", "text": "Six o'clock! Dinner time, Lei! Hurry up!", "zh": "(18:00)六点了!该吃晚饭了,磊!快点!", "items": ["en.oclock", "en.dinner", "en.hurry_up"] },
     { "speaker": "narrator", "text": "Lei laughs. His roommate is really funny!", "zh": "磊看着一条条消息,笑了。他这个室友真逗!", "items": ["en.laugh", "en.roommate", "en.really", "en.funny"] }
   ],
   "questions": [
-    { "prompt": "伊森几点发来第一条消息?", "options": ["中午十二点", "十一点半", "早上七点"], "answer": 1, "explainZh": "伊森说 It's 11:30. That's early for me!(现在十一点半,对我来说这算早的!)" },
-    { "prompt": "伊森一周去几次健身房?", "options": ["五次", "两次", "每天都去"], "answer": 0, "explainZh": "伊森在健身房发消息说 I work out five times a week!(我一周练五次!)" },
-    { "prompt": "伊森一般几点睡觉?", "options": ["晚上十一点", "晚上八点", "凌晨三点"], "answer": 2, "explainZh": "磊说自己十一点睡,伊森说 Eleven? That's early! I go to bed at three!(我三点才睡!)" }
+    { "prompt": "伊森几点发来第一条消息?", "options": ["中午十二点", "早上七点", "十一点半"], "answer": 2, "explainZh": "伊森说 It's 11:30. That's early for me!(现在十一点半,对我来说这算早的!)" },
+    { "prompt": "伊森一周去几次健身房?", "options": ["两次", "五次", "每天都去"], "answer": 1, "explainZh": "伊森在健身房发消息说 I work out five times a week!(我一周练五次!)" },
+    { "prompt": "伊森一般几点睡觉?", "options": ["凌晨三点", "晚上十一点", "晚上八点"], "answer": 0, "explainZh": "磊说自己十一点睡,伊森说 Eleven? That's early! I go to bed at three!(我三点才睡!)" }
   ],
   "grammar": [
     { "id": "en.g.text_messages", "titleZh": "读短信:补全省略的部分;一般现在时说习惯",

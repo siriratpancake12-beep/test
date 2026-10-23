@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u16.l02", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116020,
+  "titleZh": "今天做什么菜?", "goalZh": "会和朋友商量做什么菜、需要什么材料,说家里还有什么、什么已经没有了", "canDoZh": "能和朋友商量做什么菜、需要什么材料、家里还有什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "de.kartoffelsalat", "kind": "word", "pos": "noun", "text": "der Kartoffelsalat", "zh": "土豆沙拉", "features": { "gender": "m", "plural": "die Kartoffelsalate", "ipa": "kaˈtɔfl̩zaˌlaːt" }, "noteZh": "die Kartoffel + der Salat,性看最后一部分:der Kartoffelsalat;德国人聚会、烧烤最常见的菜,各家做法都不一样。" },
+    { "id": "de.frikadelle", "kind": "word", "pos": "noun", "text": "die Frikadelle", "zh": "(煎)肉饼", "features": { "gender": "f", "plural": "die Frikadellen", "ipa": "fʁikaˈdɛlə" }, "noteZh": "用肉馅、鸡蛋、洋葱和面包做的小肉饼,柏林叫 die Bulette;重音在 del 上。" },
+    { "id": "de.rezept", "kind": "word", "pos": "noun", "text": "das Rezept", "zh": "菜谱;(医生开的)处方", "features": { "gender": "n", "plural": "die Rezepte", "ipa": "ʁeˈtsɛpt" }, "noteZh": "Das ist ein Rezept von meiner Oma.(这是我奶奶的菜谱。)重音在 zept 上,z 读 [ts];看病时医生开的处方也叫 Rezept。" },
+    { "id": "de.hackfleisch", "kind": "word", "pos": "noun", "text": "das Hackfleisch", "zh": "肉馅;绞肉", "features": { "gender": "n", "plural": "-", "ipa": "ˈhakˌflaɪ̯ʃ" }, "noteZh": "hacken(剁)+ das Fleisch;做肉饼、包饺子都用;不可数:ein Pfund Hackfleisch。" },
+    { "id": "de.senf", "kind": "word", "pos": "noun", "text": "der Senf", "zh": "芥末酱(黄芥末)", "features": { "gender": "m", "plural": "-", "ipa": "zɛnf" }, "noteZh": "德国人吃香肠、肉饼常配 Senf,比中国的绿芥末温和得多;不可数。" },
+    { "id": "de.wenig", "kind": "word", "pos": "adj", "text": "wenig", "zh": "少;不多", "features": { "ipa": "ˈveːnɪç" }, "noteZh": "zu wenig(太少)、ein wenig(一点儿);反义 viel;词尾 -ig 读 [ɪç]。" },
+    { "id": "de.oel", "kind": "word", "pos": "noun", "text": "das Öl", "zh": "油", "features": { "gender": "n", "plural": "die Öle", "ipa": "øːl" }, "noteZh": "eine Flasche Öl(一瓶油);ö 是长音 [øː]:先发 e,嘴唇再撮圆。" },
+    { "id": "de.essig", "kind": "word", "pos": "noun", "text": "der Essig", "zh": "醋", "features": { "gender": "m", "plural": "-", "ipa": "ˈɛsɪç" }, "noteZh": "德国的土豆沙拉常用醋和油拌;词尾 -ig 读 [ɪç];和 essen 没关系。" }
+  ],
+  "reviewItems": ["de.zwiebel", "de.mehr", "de.kilo", "de.flasche", "de.ecke"],
+  "lines": [
+    { "speaker": "jonas", "text": "Am Sonntag koche ich für euch: Kartoffelsalat und Frikadellen!", "zh": "星期天我给你们做饭:土豆沙拉和肉饼!", "items": ["de.am", "de.sonntag", "de.kochen", "de.ich", "de.fuer", "de.euch", "de.kartoffelsalat", "de.und", "de.frikadelle"] },
+    { "speaker": "wei", "text": "Lecker! Hast du ein Rezept?", "zh": "好吃的!你有菜谱吗?", "items": ["de.lecker", "de.haben", "de.du", "de.ein", "de.rezept"] },
+    { "speaker": "jonas", "text": "Ja, von meiner Oma. Es ist hier, im Kopf!", "zh": "有,我奶奶的。在这儿,在我脑子里!", "items": ["de.ja", "de.von", "de.mein", "de.oma", "de.es", "de.sein", "de.hier", "de.in", "de.kopf"] },
+    { "speaker": "jonas", "text": "Für die Frikadellen brauche ich Hackfleisch, Eier, Zwiebeln und Senf.", "zh": "做肉饼我要肉馅、鸡蛋、洋葱和芥末酱。", "items": ["de.fuer", "de.frikadelle", "de.brauchen", "de.ich", "de.hackfleisch", "de.ei", "de.zwiebel", "de.und", "de.senf"] },
+    { "speaker": "wei", "text": "Wir haben noch zwei Eier. Aber wir haben keine Zwiebeln mehr.", "zh": "鸡蛋还有两个。不过洋葱没有了。", "items": ["de.wir", "de.haben", "de.noch", "de.zwei", "de.ei", "de.aber", "de.kein", "de.zwiebel", "de.mehr"] },
+    { "speaker": "jonas", "text": "Keine Zwiebeln mehr? Und wie viele Kartoffeln haben wir?", "zh": "洋葱没了?那土豆还有几个?", "items": ["de.kein", "de.zwiebel", "de.mehr", "de.und", "de.wie_viel", "de.kartoffel", "de.haben", "de.wir"] },
+    { "speaker": "wei", "text": "Nur drei. Das ist zu wenig, oder?", "zh": "只有三个。太少了吧?", "items": ["de.nur", "de.drei", "de.das_ist", "de.zu_adv", "de.wenig", "de.oder"] },
+    { "speaker": "jonas", "text": "Ja, wir brauchen zwei Kilo. Und haben wir noch Öl und Essig?", "zh": "对,我们要两公斤。油和醋还有吗?", "items": ["de.ja", "de.wir", "de.brauchen", "de.zwei", "de.kilo", "de.und", "de.haben", "de.noch", "de.oel", "de.essig"] },
+    { "speaker": "wei", "text": "Noch eine Flasche Öl. Aber Essig haben wir keinen mehr.", "zh": "油还有一瓶。可是醋已经没有了。", "items": ["de.noch", "de.ein", "de.flasche", "de.oel", "de.aber", "de.essig", "de.haben", "de.wir", "de.kein", "de.mehr"] },
+    { "speaker": "jonas", "text": "Und wie viel Senf haben wir noch?", "zh": "芥末酱还有多少?", "items": ["de.und", "de.wie_viel", "de.senf", "de.haben", "de.wir", "de.noch"] },
+    { "speaker": "wei", "text": "Senf? Auch keinen mehr. Ich gehe schnell zum Supermarkt an der Ecke.", "zh": "芥末酱?也没了。我赶快去拐角那家超市。", "items": ["de.senf", "de.auch", "de.kein", "de.mehr", "de.ich", "de.gehen", "de.schnell", "de.zu", "de.supermarkt", "de.an", "de.ecke"] },
+    { "speaker": "jonas", "text": "Danke! Kauf Kartoffeln, Zwiebeln, Essig und Senf. Das Hackfleisch kaufe ich.", "zh": "谢谢!买土豆、洋葱、醋和芥末酱。肉馅我来买。", "items": ["de.danke", "de.kaufen", "de.kartoffel", "de.zwiebel", "de.essig", "de.und", "de.senf", "de.hackfleisch", "de.ich"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯星期天要做什么菜?", "options": ["意大利面", "饺子", "土豆沙拉和肉饼"], "answer": 2, "explainZh": "约纳斯说:Am Sonntag koche ich für euch: Kartoffelsalat und Frikadellen!" },
+    { "prompt": "家里还有什么?", "options": ["两个鸡蛋和一瓶油", "洋葱和芥末酱", "两公斤土豆"], "answer": 0, "explainZh": "王伟说:Wir haben noch zwei Eier.(鸡蛋还有两个。)和 Noch eine Flasche Öl.(油还有一瓶。)洋葱、醋、芥末酱都 kein … mehr(没有了),土豆只剩三个。" },
+    { "prompt": "王伟要去超市买什么?", "options": ["鸡蛋和油", "土豆、洋葱、醋和芥末酱", "肉馅和土豆"], "answer": 1, "explainZh": "约纳斯说:Kauf Kartoffeln, Zwiebeln, Essig und Senf. Das Hackfleisch kaufe ich.(肉馅他自己买。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_kein_mehr_noch", "titleZh": "还有和没有了:noch 和 kein … mehr",
+      "bodyZh": "说家里还有什么、什么已经没有了:\nnoch(还有):Wir haben noch zwei Eier.(鸡蛋还有两个。)/ Noch eine Flasche Öl.(油还有一瓶。)\nkein … mehr(……没有了):Wir haben keine Zwiebeln mehr.(洋葱没有了。)——kein 放在名词前,mehr 放在后面。问:Haben wir noch Zwiebeln?(还有洋葱吗?)回答:Nein, keine mehr.\n名词提到句首时,kein 单独用,词尾跟着名词变:Essig haben wir keinen mehr.(der Essig → keinen)/ Senf? Auch keinen mehr.\n中文说“没有了”,德语要加 mehr;只说 Wir haben keine Zwiebeln 是“我们(本来就)没有洋葱”。",
+      "examples": [
+        { "text": "Wir haben noch zwei Eier.", "zh": "鸡蛋还有两个。" },
+        { "text": "Wir haben keine Zwiebeln mehr.", "zh": "洋葱没有了。" },
+        { "text": "Essig haben wir keinen mehr.", "zh": "醋已经没有了。" }
+      ] },
+    { "id": "de.g.u16_wie_viel_viele", "titleZh": "wie viele 和 wie viel",
+      "bodyZh": "问能数的东西(用复数)用 wie viele:Wie viele Kartoffeln haben wir?(我们有几个土豆?)\n问不能数的东西用 wie viel:Wie viel Senf haben wir noch?(芥末酱还有多少?)问价钱也是 wie viel:Wie viel kostet das?\n不能数的:Senf、Öl、Essig、Milch、Geld;能数的:Kartoffeln、Eier、Zwiebeln、Frikadellen。",
+      "examples": [
+        { "text": "Wie viele Kartoffeln haben wir?", "zh": "我们有几个土豆?" },
+        { "text": "Wie viel Senf haben wir noch?", "zh": "芥末酱还有多少?" }
+      ] }
+  ],
+  "review": "draft"
+}

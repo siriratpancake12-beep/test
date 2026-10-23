@@ -1,0 +1,41 @@
+{
+  "id": "en.a1u4.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-4 Food & drinks", "order": 104085,
+  "titleZh": "顾客点评", "goalZh": "读懂网上的短点评,分清好评和差评,找出顾客喜欢和不满意的地方", "canDoZh": "能读懂网上的短点评,分清好评和差评,找出顾客喜欢和不喜欢什么",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 16,
+  "newItems": [
+    { "id": "en.review", "kind": "word", "pos": "noun", "text": "review", "zh": "点评;评论", "features": { "ipa": "rɪˈvjuː" }, "noteZh": "重音在后 re-VIEW;网上的 customer reviews 是顾客点评。" },
+    { "id": "en.star", "kind": "word", "pos": "noun", "text": "star", "zh": "星;星级", "features": { "ipa": "stɑːr" }, "noteZh": "点评的星级:five stars 五颗星;st 之间不要加元音,结尾卷舌。" },
+    { "id": "en.favorite", "kind": "word", "pos": "adj", "text": "favorite", "zh": "最喜欢的", "features": { "ipa": "ˈfeɪvɚət" }, "noteZh": "美式拼写 favorite(英式 favourite);它本身就是“最喜欢的”,不说 most favorite。My favorite drink is… 我最喜欢的饮料是……" }
+  ],
+  "reviewItems": ["en.customer", "en.latte", "en.busy", "en.oat_milk", "en.vanilla", "en.good_job"],
+  "lines": [
+    { "speaker": "narrator", "text": "Our Cafe: Customer Reviews", "zh": "(磊第一次独立当班后,马库斯给他看顾客在网上写的点评)我们咖啡馆:顾客点评", "items": ["en.cafe", "en.customer", "en.review"] },
+    { "speaker": "customer", "text": "Five stars! The latte is delicious.", "zh": "(第一条)五颗星!拿铁很好喝。", "items": ["en.star", "en.latte", "en.delicious"] },
+    { "speaker": "customer", "text": "And Lei is really friendly. Thanks, Lei!", "zh": "磊特别友好。谢谢你,磊!(磊的胸牌上写着名字)", "items": ["en.really", "en.friendly", "en.thank_you"] },
+    { "speaker": "regular", "text": "Four stars. Great coffee, but at noon it's really busy.", "zh": "(第二条,老顾客写的)四颗星。咖啡很棒,但中午人特别多。", "items": ["en.star", "en.great", "en.coffee", "en.noon", "en.really", "en.busy"] },
+    { "speaker": "regular", "text": "Now I'm here every afternoon: large hot coffee, no sugar!", "zh": "所以我现在每天下午来:大杯热咖啡,不加糖!", "items": ["en.afternoon", "en.large", "en.hot", "en.coffee", "en.sugar"] },
+    { "speaker": "customer", "text": "Three stars. The coffee is OK, but my tea isn't hot.", "zh": "(第三条)三颗星。咖啡还行,但我的茶不够热。", "items": ["en.star", "en.coffee", "en.tea", "en.hot"] },
+    { "speaker": "customer", "text": "The cafe is small, and it's always busy.", "zh": "店里很小,而且总是很挤。", "items": ["en.cafe", "en.small", "en.always", "en.busy"] },
+    { "speaker": "customer", "text": "Five stars! My favorite drink is the oat milk latte.", "zh": "(第四条)五颗星!我最喜欢的饮料是燕麦奶拿铁。", "items": ["en.star", "en.favorite", "en.drink", "en.oat_milk", "en.latte"] },
+    { "speaker": "customer", "text": "With vanilla and no sugar. Delicious!", "zh": "加香草,不加糖。太好喝了!", "items": ["en.vanilla", "en.sugar", "en.delicious"] },
+    { "speaker": "customer", "text": "Good job, you guys!", "zh": "你们干得好!", "items": ["en.good_job", "en.you_guys"] },
+    { "speaker": "lei", "text": "“Really friendly”? Me? Cool!", "zh": "(磊看完,有点不好意思)“特别友好”?说的是我?太好了!", "items": ["en.really", "en.friendly", "en.cool"] }
+  ],
+  "questions": [
+    { "prompt": "第一条点评夸了什么?", "options": ["店里很安静", "拿铁好喝,磊很友好", "茶很热"], "answer": 1, "explainZh": "第一条写 The latte is delicious. 和 Lei is really friendly.(拿铁很好喝,磊特别友好。)" },
+    { "prompt": "老顾客为什么只给了四颗星?", "options": ["咖啡不好喝", "店员不友好", "价格太贵", "中午人特别多"], "answer": 3, "explainZh": "他写 Great coffee, but at noon it's really busy.——but 前面是优点,后面是缺点:中午人特别多。" },
+    { "prompt": "给三颗星的顾客不满意什么?", "options": ["茶不够热,店里又小又挤", "拿铁太甜", "价格太贵"], "answer": 0, "explainZh": "第三条写 my tea isn't hot(我的茶不够热)和 The cafe is small, and it's always busy.(店里很小,总是很挤。)" },
+    { "prompt": "第四条点评的顾客最喜欢什么饮料?", "options": ["大杯热咖啡,不加糖", "热茶", "燕麦奶拿铁,加香草、不加糖"], "answer": 2, "explainZh": "第四条写 My favorite drink is the oat milk latte. With vanilla and no sugar.;大杯热咖啡是老顾客每天点的。" }
+  ],
+  "grammar": [
+    { "id": "en.g.read_reviews", "titleZh": "读点评:先看星级,再看 but 后面",
+      "bodyZh": "网上的点评先看星级:five stars 最好,one star 最差。再看文字里的 but:but 前面多是优点,后面是缺点。Great coffee, but at noon it's really busy.(咖啡很棒,但中午人特别多)——but 后面的缺点,就是没给五颗星的原因。复习 be + 形容词:The latte is delicious.、Lei is really friendly.、It's always busy.。读的时候留意星级和文字对不对得上:五颗星的点评一般全是好话,三四颗星的常常有一个 but。",
+      "examples": [
+        { "text": "Five stars! The latte is delicious.", "zh": "五颗星!拿铁很好喝。" },
+        { "text": "Great coffee, but at noon it's really busy.", "zh": "咖啡很棒,但中午人特别多。" },
+        { "text": "My favorite drink is the oat milk latte.", "zh": "我最喜欢的饮料是燕麦奶拿铁。" }
+      ] }
+  ],
+  "review": "draft"
+}

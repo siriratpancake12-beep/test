@@ -28,8 +28,8 @@
   ],
   "questions": [
     { "prompt": "顾问第一次提的时间,磊为什么不行?", "options": ["那时他要上班", "那时他有课", "那时他在睡觉"], "answer": 1, "explainZh": "顾问问 On Wednesday at ten?,磊说 Sorry, I have class on Wednesday mornings.(我周三上午有课。)周四下午才是他上班的时间。" },
-    { "prompt": "磊的预约是什么时候?", "options": ["周三上午十点", "周四下午三点", "周五下午两点一刻"], "answer": 2, "explainZh": "顾问说 Your appointment is Friday at a quarter past two.,磊复述 Friday at two fifteen?——a quarter past two 就是 2:15。" },
-    { "prompt": "磊要带什么去?", "options": ["护照和经理写的信", "护照和照片", "电话号码和邮箱地址"], "answer": 0, "explainZh": "顾问说 Your passport and a letter from your manager.(你的护照,还有经理写的一封信。)" }
+    { "prompt": "磊的预约是什么时候?", "options": ["周五下午两点一刻", "周三上午十点", "周四下午三点"], "answer": 0, "explainZh": "顾问说 Your appointment is Friday at a quarter past two.,磊复述 Friday at two fifteen?——a quarter past two 就是 2:15。" },
+    { "prompt": "磊要带什么去?", "options": ["护照和照片", "电话号码和邮箱地址", "护照和经理写的信"], "answer": 2, "explainZh": "顾问说 Your passport and a letter from your manager.(你的护照,还有经理写的一封信。)" }
   ],
   "grammar": [
     { "id": "en.g.make_appointment", "titleZh": "约时间:Are you free on…? / Is … OK? / What time is good for you?",

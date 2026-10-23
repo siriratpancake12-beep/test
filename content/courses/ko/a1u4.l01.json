@@ -1,0 +1,49 @@
+{
+  "id": "ko.a1u4.l01", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104010,
+  "titleZh": "便利店里有紫菜包饭吗?", "goalZh": "会在便利店问有没有某样东西、买东西、回答店员的问题、问能不能刷卡",
+  "canDoZh": "能独自在便利店买晚饭:问“有……吗?”,回答要不要袋子,问能不能刷卡",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ko.pyeonuijeom", "kind": "word", "pos": "noun", "text": "편의점", "zh": "便利店", "features": { "roman": "pyeonuijeom" }, "noteZh": "汉字词 便宜店(“方便”的意思,不是便宜);读 [펴니점]:ㅢ 在辅音后读 [이]。" },
+    { "id": "ko.mul", "kind": "word", "pos": "noun", "text": "물", "zh": "水", "features": { "roman": "mul" }, "noteZh": "收音 ㄹ 读 l;韩国餐厅的水一般免费,常常要自己去拿。" },
+    { "id": "ko.ramyeon", "kind": "word", "pos": "noun", "text": "라면", "zh": "方便面", "features": { "roman": "ramyeon" }, "noteZh": "韩国的 라면 一般指方便面;便利店里有热水,可以当场泡着吃。" },
+    { "id": "ko.gimbap", "kind": "word", "pos": "noun", "text": "김밥", "zh": "紫菜包饭", "features": { "roman": "gimbap" }, "noteZh": "김(紫菜)+ 밥(米饭,本单元第 4 课);口语常读 [김빱]。" },
+    { "id": "ko.kadeu", "kind": "word", "pos": "noun", "text": "카드", "zh": "卡;银行卡", "features": { "roman": "kadeu" }, "noteZh": "外来词 card;韩国几乎所有店都能刷卡,交通卡也叫 카드。" },
+    { "id": "ko.bongtu", "kind": "word", "pos": "noun", "text": "봉투", "zh": "袋子;信封", "features": { "roman": "bongtu" }, "noteZh": "汉字词 封套;便利店的袋子要另付钱,店员常问 봉투 필요하세요?" },
+    { "id": "ko.piryohaeyo", "kind": "word", "pos": "adj", "text": "필요해요", "zh": "需要", "features": { "roman": "piryohaeyo" }, "noteZh": "原形 필요하다(汉字词 必要);N이/가 필요해요 = 需要 N。店员问客人用敬语 필요하세요?,自己回答说 필요해요。" },
+    { "id": "ko.yeogi", "kind": "word", "pos": "pron", "text": "여기", "zh": "这里", "features": { "roman": "yeogi" }, "noteZh": "여기 있어요 = 在这儿;递东西时也说“给您”。第 6 单元学 거기、저기。" },
+    { "id": "ko.dwaeyo", "kind": "word", "pos": "verb", "text": "돼요", "zh": "可以;行", "features": { "roman": "dwaeyo" }, "noteZh": "原形 되다;카드 돼요?= 能刷卡吗?回答 네, 돼요 或 안 돼요(不行,안 第 4 课学)。ㅙ 读 we。" }
+  ],
+  "reviewItems": ["ko.juseyo", "ko.isseoyo", "ko.gwaenchanayo", "ko.annyeonghi_gyeseyo"],
+  "lines": [
+    { "speaker": "jing", "text": "수아 씨, 편의점에 김밥 있어요?", "zh": "(晚上,陈静在宿舍里饿了)秀雅,便利店有紫菜包饭吗?", "roman": "Sua ssi, pyeonuijeome gimbap isseoyo?", "items": ["ko.ssi", "ko.pyeonuijeom", "ko.gimbap", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "네, 있어요. 라면도 있어요!", "zh": "有啊。方便面也有!", "roman": "Ne, isseoyo. Ramyeondo isseoyo!", "items": ["ko.ne", "ko.isseoyo", "ko.ramyeon"] },
+    { "speaker": "jing", "text": "저기요, 김밥 있어요? 물도 필요해요.", "zh": "(陈静下楼,走进咖啡店旁边的便利店)请问,有紫菜包饭吗?我还要买水。", "roman": "Jeogiyo, gimbap isseoyo? Muldo piryohaeyo.", "items": ["ko.jeogiyo", "ko.gimbap", "ko.isseoyo", "ko.mul", "ko.piryohaeyo"] },
+    { "speaker": "clerk", "text": "네, 여기 있어요.", "zh": "有,都在这儿。(店员指了指门口的冷柜)", "roman": "Ne, yeogi isseoyo.", "items": ["ko.ne", "ko.yeogi", "ko.isseoyo"] },
+    { "speaker": "clerk", "text": "김밥, 라면, 물…… 봉투 필요하세요?", "zh": "(陈静又拿了一碗方便面,到柜台结账。店员一样一样地扫码)紫菜包饭、方便面、水……需要袋子吗?", "roman": "Gimbap, ramyeon, mul…… bongtu piryohaseyo?", "items": ["ko.gimbap", "ko.ramyeon", "ko.mul", "ko.bongtu", "ko.piryohaeyo"] },
+    { "speaker": "jing", "text": "아니요, 괜찮아요.", "zh": "不用了,谢谢。(她想把东西都放进自己的包里)", "roman": "Aniyo, gwaenchanayo.", "items": ["ko.aniyo", "ko.gwaenchanayo"] },
+    { "speaker": "jing", "text": "아, 죄송합니다. 봉투 주세요.", "zh": "(可是包太小,放不下)啊,不好意思,还是给我一个袋子吧。", "roman": "A, joesonghamnida. Bongtu juseyo.", "items": ["ko.joesonghamnida", "ko.bongtu", "ko.juseyo"] },
+    { "speaker": "clerk", "text": "네, 여기요.", "zh": "好的,给您。", "roman": "Ne, yeogiyo.", "items": ["ko.ne", "ko.yeogiyo"] },
+    { "speaker": "jing", "text": "카드 돼요?", "zh": "可以刷卡吗?", "roman": "Kadeu dwaeyo?", "items": ["ko.kadeu", "ko.dwaeyo"] },
+    { "speaker": "clerk", "text": "네, 돼요.", "zh": "可以。", "roman": "Ne, dwaeyo.", "items": ["ko.ne", "ko.dwaeyo"] },
+    { "speaker": "jing", "text": "감사합니다. 안녕히 계세요.", "zh": "(刷完卡,陈静拎起袋子)谢谢,再见。", "roman": "Gamsahamnida. Annyeonghi gyeseyo.", "items": ["ko.gamsahamnida", "ko.annyeonghi_gyeseyo"] },
+    { "speaker": "clerk", "text": "안녕히 가세요.", "zh": "慢走。", "roman": "Annyeonghi gaseyo.", "items": ["ko.annyeonghi_gaseyo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静在便利店买了什么?", "options": ["方便面和咖啡", "紫菜包饭、牛奶和纸巾", "紫菜包饭、方便面和水"], "answer": 2, "explainZh": "第 5 句:店员扫码时念了 김밥, 라면, 물(紫菜包饭、方便面、水)。" },
+    { "prompt": "店员问“봉투 필요하세요?”,陈静最后要袋子了吗?", "options": ["没要,她说 괜찮아요", "要了,东西放不下,她说 봉투 주세요", "没要,因为袋子要另付钱"], "answer": 1, "explainZh": "第 6 句她先说 아니요, 괜찮아요(不用了);第 7 句发现包里放不下,改口说 죄송합니다. 봉투 주세요(不好意思,请给我袋子)。" },
+    { "prompt": "陈静问“카드 돼요?”是什么意思?", "options": ["可以刷卡吗?", "有卡吗?", "卡在哪儿?"], "answer": 0, "explainZh": "第 9 句:N 돼요?= 可以用 N 吗?카드 돼요?= 能刷卡吗?店员回答 네, 돼요(可以,第 10 句)。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.shop_phrases", "titleZh": "在店里的三句话:N 있어요? / N 주세요 / N 돼요?;听懂店员的 -(으)세요",
+      "bodyZh": "买东西最常用的三句:① N 있어요?(有 N 吗?)——김밥 있어요?;② N 주세요(请给我 N)——봉투 주세요;③ N 돼요?(可以用 N 吗?)——카드 돼요?。口语里这几句的助词一般都省掉。韩语问句不用加“吗”这样的字,把句末语调扬上去就行。\n店员对客人说话用敬语 -(으)세요:필요하세요?(您需要吗?)。敬语是用来抬高对方的,自己回答时要去掉:네, 필요해요 / 아니요, 괜찮아요。中国学生常照着问句回答成 네, 필요하세요 ✗——这等于在用敬语说自己。\n拒绝店员的好意,说 아니요, 괜찮아요(不用了,谢谢)比只说 아니요 礼貌。改主意也没关系,先说一句 죄송합니다 再说要什么。另外,여기 있어요 有两个意思:回答“有吗”时是“在这儿”,递东西时是“给您”。",
+      "examples": [
+        { "text": "김밥 있어요?", "zh": "有紫菜包饭吗?" },
+        { "text": "봉투 필요하세요?", "zh": "(店员)需要袋子吗?——用了敬语 -세요" },
+        { "text": "아니요, 괜찮아요.", "zh": "不用了,谢谢。(自己回答不用敬语)" },
+        { "text": "카드 돼요?", "zh": "可以刷卡吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

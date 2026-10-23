@@ -24,9 +24,9 @@
     { "speaker": "lei", "text": "Best, Lei", "zh": "祝好!磊", "items": ["en.best"] }
   ],
   "questions": [
-    { "prompt": "这封邮件是写给谁的?", "options": ["室友伊森", "教授", "艾米"], "answer": 1, "explainZh": "邮件开头是 Hi, Professor,(教授您好)。" },
-    { "prompt": "关于索菲亚,邮件里说了什么?", "options": ["她是磊的室友", "她来自加州", "她来自墨西哥,专业是生物"], "answer": 2, "explainZh": "磊写 She's from Mexico, and her major is biology.;磊的室友是伊森,来自加州的也是伊森。" },
-    { "prompt": "邮件最后的 Best, Lei 是什么意思?", "options": ["祝好!磊(落款)", "磊是最好的学生", "磊最好的朋友"], "answer": 0, "explainZh": "Best, 是邮件结尾常用的落款,意思是“祝好”,下一行写自己的名字。" }
+    { "prompt": "这封邮件是写给谁的?", "options": ["室友伊森", "艾米", "教授"], "answer": 2, "explainZh": "邮件开头是 Hi, Professor,(教授您好)。" },
+    { "prompt": "关于索菲亚,邮件里说了什么?", "options": ["她来自墨西哥,专业是生物", "她是磊的室友", "她来自加州"], "answer": 0, "explainZh": "磊写 She's from Mexico, and her major is biology.;磊的室友是伊森,来自加州的也是伊森。" },
+    { "prompt": "邮件最后的 Best, Lei 是什么意思?", "options": ["磊是最好的学生", "祝好!磊(落款)", "磊最好的朋友"], "answer": 1, "explainZh": "Best, 是邮件结尾常用的落款,意思是“祝好”,下一行写自己的名字。" }
   ],
   "grammar": [
     { "id": "en.g.email_format", "titleZh": "邮件的格式:Subject、Hi…,、Best,",

@@ -11,13 +11,13 @@
     { "id": "en.park", "kind": "word", "pos": "noun", "text": "park", "zh": "公园", "features": { "ipa": "pɑːrk" }, "noteZh": "Green Lake Park 格林湖公园(西雅图北边围着一个湖的大公园);ar 要卷舌 /ɑːr/。" },
     { "id": "en.before", "kind": "word", "pos": "prep", "text": "before", "zh": "在……之前", "features": { "ipa": "bɪˈfɔːr" }, "noteZh": "before your stop 到站之前;和第 3 单元的 after(在……之后)意思相反。重音在后 be-FORE。" },
     { "id": "en.headphones", "kind": "word", "pos": "noun", "text": "headphones", "zh": "耳机", "features": { "ipa": "ˈhedfoʊnz" }, "noteZh": "两只耳朵各一个,一般用复数;ph 读 /f/,重音在前 HEAD-phones。" },
-    { "id": "en.take_off", "kind": "phrase", "pos": "verb", "text": "take off", "zh": "摘下;脱下", "features": { "ipa": "ˌteɪk ˈɑːf" }, "noteZh": "take off your headphones 摘下耳机,take off your jacket 脱下外套;宾语是代词时放中间:take them off。" }
+    { "id": "en.take_off", "kind": "phrase", "pos": "verb", "text": "take off", "zh": "摘下;脱下", "features": { "ipa": "ˌteɪk ˈɑːf" }, "noteZh": "take off your headphones 摘下耳机,take off your glasses 摘下眼镜;宾语是代词时放中间:take them off。" }
   ],
   "reviewItems": ["en.get_off", "en.across_from", "en.back", "en.push", "en.button"],
   "lines": [
     { "speaker": "driver", "text": "The next stop is Green Lake Park.", "zh": "(周日下午,磊一个人坐公交去格林湖公园。车上广播)下一站:格林湖公园。(磊戴着耳机听歌,没听见。)", "items": ["en.the_next_stop_is", "en.park"] },
     { "speaker": "driver", "text": "This is Oak Street. The next stop is Maple Street.", "zh": "(过了两站)奥克街到了。下一站:枫树街。", "items": ["en.this_is", "en.street", "en.the_next_stop_is"] },
-    { "speaker": "lei", "text": "Oak Street? Oh no!", "zh": "(磊这才抬头看窗外)奥克街?糟了!", "items": ["en.street"] },
+    { "speaker": "lei", "text": "Oh no!", "zh": "(磊这才抬头看窗外:已经到奥克街了)糟了!", "items": [] },
     { "speaker": "lei", "text": "Excuse me. I missed my stop.", "zh": "(他走到车头)打扰一下,我坐过站了。", "items": ["en.excuse_me", "en.i_missed_my_stop"] },
     { "speaker": "driver", "text": "Where are you going?", "zh": "你要去哪儿?", "items": ["en.go"] },
     { "speaker": "lei", "text": "Green Lake Park. How do I go back?", "zh": "格林湖公园。我怎么坐回去?", "items": ["en.park", "en.go", "en.back"] },

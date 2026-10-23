@@ -1,0 +1,45 @@
+{
+  "id": "en.a1u5.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105085,
+  "titleZh": "磊的博客:市中心三个好去处", "goalZh": "读懂一篇推荐市中心好去处的博客,说出每个地方怎么去、在什么旁边、要多久", "canDoZh": "能读懂一篇推荐地点的小博客,说出去哪儿、怎么去、在那儿能做什么",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 18,
+  "newItems": [
+    { "id": "en.place", "kind": "word", "pos": "noun", "text": "place", "zh": "地方", "features": { "ipa": "pleɪs" }, "noteZh": "a cool place 一个好玩的地方;pl 连在一起读,中间不加元音;复数 places 读 /ˈpleɪsɪz/。" },
+    { "id": "en.old", "kind": "word", "pos": "adj", "text": "old", "zh": "旧的;老的", "features": { "ipa": "oʊld" }, "noteZh": "old 说东西旧、人老,问年龄的 How old 里也是它;an old bookstore 一家老书店(old 以元音开头,用 an)。词尾 ld 轻轻带出。" },
+    { "id": "en.book", "kind": "word", "pos": "noun", "text": "book", "zh": "书", "features": { "ipa": "bʊk" }, "noteZh": "oo 在这里读短的 /ʊ/,和 look 一样,别拖成长音;books in Chinese 中文书。" },
+    { "id": "en.bookstore", "kind": "word", "pos": "noun", "text": "bookstore", "zh": "书店", "features": { "ipa": "ˈbʊkstɔːr" }, "noteZh": "book + store(商店)合成的词,重音在前 BOOK-store;美式说 bookstore,英式多说 bookshop。" }
+  ],
+  "reviewItems": ["en.museum", "en.get_off", "en.across_from", "en.map", "en.no_problem"],
+  "lines": [
+    { "speaker": "lei", "text": "Hi, you guys! Here are three cool places downtown.", "zh": "(磊的第一篇英文博客,写给国内想来留学的同学)大家好!给你们推荐市中心三个好玩的地方。", "items": ["en.hi", "en.you_guys", "en.cool", "en.place", "en.downtown"] },
+    { "speaker": "lei", "text": "1. The museum. Take Bus 10 and get off at Pine Street.", "zh": "1. 博物馆。坐 10 路公交,在派恩街下车。", "items": ["en.museum", "en.take", "en.bus", "en.get_off", "en.street"] },
+    { "speaker": "lei", "text": "It takes about twenty minutes.", "zh": "坐车大约二十分钟。", "items": ["en.take", "en.minute"] },
+    { "speaker": "lei", "text": "Turn right and walk one block. The museum is on the left.", "zh": "下车后右转,走一个街区,博物馆就在左手边。", "items": ["en.turn", "en.right", "en.walk", "en.block", "en.museum", "en.left"] },
+    { "speaker": "lei", "text": "It's next to a bank, across from a big library.", "zh": "它旁边是一家银行,对面是一个很大的图书馆。", "items": ["en.next_to", "en.bank", "en.across_from", "en.big", "en.library"] },
+    { "speaker": "lei", "text": "2. Waterfront Park. It's a ten-minute walk from the museum.", "zh": "2. 海滨公园。从博物馆走过去十分钟。", "items": ["en.park", "en.minute", "en.walk", "en.museum"] },
+    { "speaker": "lei", "text": "Go straight on Pine Street. The park is on the water.", "zh": "沿着派恩街一直走,公园就在海边。", "items": ["en.go_straight", "en.street", "en.park", "en.water"] },
+    { "speaker": "lei", "text": "It's really nice, and it's free!", "zh": "那儿特别舒服,而且不要钱!", "items": ["en.really", "en.nice", "en.free"] },
+    { "speaker": "lei", "text": "3. An old bookstore. It's on the corner, next to the post office.", "zh": "3. 一家老书店。在街角,邮局旁边。", "items": ["en.old", "en.bookstore", "en.corner", "en.next_to", "en.post_office"] },
+    { "speaker": "lei", "text": "From the park, it's about a five-minute walk.", "zh": "从公园走过去大约五分钟。", "items": ["en.park", "en.minute", "en.walk"] },
+    { "speaker": "lei", "text": "It's quiet, and there are books in Chinese, too!", "zh": "店里很安静,还有中文书呢!", "items": ["en.quiet", "en.book"] },
+    { "speaker": "lei", "text": "I study there on Sundays.", "zh": "我周日常在那儿学习。", "items": ["en.study", "en.sunday"] },
+    { "speaker": "lei", "text": "No map? No problem! People here are really friendly.", "zh": "没带地图?没关系!这里的人都特别友好。", "items": ["en.map", "en.no_problem", "en.people", "en.really", "en.friendly"] },
+    { "speaker": "lei", "text": "See you in Seattle!", "zh": "西雅图见!", "items": ["en.see_you_later"] }
+  ],
+  "questions": [
+    { "prompt": "去博物馆要坐几路车、在哪儿下?", "options": ["10 路,在派恩街下", "12 路,在派恩街下", "10 路,在邮局下"], "answer": 0, "explainZh": "Take Bus 10 and get off at Pine Street.(坐 10 路公交,在派恩街下车。)" },
+    { "prompt": "从博物馆走到海滨公园要多久?", "options": ["五分钟", "二十分钟", "十分钟"], "answer": 2, "explainZh": "It's a ten-minute walk from the museum.(从博物馆走过去十分钟。)五分钟是从公园走到书店,二十分钟是坐公交到博物馆。" },
+    { "prompt": "那家老书店在哪儿?", "options": ["在银行对面", "在街角,邮局旁边", "在图书馆里面"], "answer": 1, "explainZh": "It's on the corner, next to the post office.(在街角,邮局旁边。)银行和图书馆是博物馆旁边和对面的建筑。" },
+    { "prompt": "磊说,没带地图怎么办?", "options": ["回家查好再来", "给磊打电话", "坐出租车", "没关系,这里的人很友好,可以问路"], "answer": 3, "explainZh": "No map? No problem! People here are really friendly.(没带地图?没关系!这里的人都特别友好。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.describe_route", "titleZh": "写路线:坐车 → 下车 → 怎么走 → 在什么旁边",
+      "bodyZh": "推荐一个地方,按这个顺序写最清楚:坐什么车(Take Bus 10.)→ 在哪儿下(Get off at Pine Street.)→ 要多久(It takes about twenty minutes.)→ 下车后怎么走(Turn right and walk one block.)→ 在什么旁边(It's next to a bank, across from a big library.)。说走路要几分钟,可以用 It's a ten-minute walk.:ten-minute 用连字符连起来放在名词前面,minute 不加 -s(不说 a ten-minutes walk)。读的时候拿一张纸,试着把每个地方的路线画出来。",
+      "examples": [
+        { "text": "Take Bus 10 and get off at Pine Street.", "zh": "坐 10 路公交,在派恩街下车。" },
+        { "text": "It's a ten-minute walk from the museum.", "zh": "从博物馆走过去十分钟。" },
+        { "text": "The bookstore is on the corner, next to the post office.", "zh": "书店在街角,邮局旁边。" }
+      ] }
+  ],
+  "review": "draft"
+}

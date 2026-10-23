@@ -1,0 +1,50 @@
+{
+  "id": "en.a1u7.l06", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107060,
+  "titleZh": "看什么电影?", "goalZh": "会用 What kind of…? 问喜欢什么类型的电影,商量场次和座位", "canDoZh": "能和朋友商量看什么类型的电影,看懂影院的场次表并选好场次",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "en.what_kind_of", "kind": "phrase", "pos": "phrase", "text": "What kind of", "zh": "什么类型的;哪种", "features": { "ipa": "ˌwʌt ˈkaɪnd əv" }, "noteZh": "What kind of movies do you like? 你喜欢什么类型的电影?口语里 kind of 常连读成“kin-da”。" },
+    { "id": "en.action_movie", "kind": "phrase", "pos": "noun", "text": "action movie", "zh": "动作片", "features": { "ipa": "ˈækʃən ˌmuːvi" }, "noteZh": "复合名词重音在前:AC-tion movie;-tion 读 /ʃən/。" },
+    { "id": "en.comedy", "kind": "word", "pos": "noun", "text": "comedy", "zh": "喜剧(片)", "features": { "ipa": "ˈkɑːmədi" }, "noteZh": "重音在前 CO-me-dy,美式 o 读 /ɑː/;复数 comedies。" },
+    { "id": "en.horror_movie", "kind": "phrase", "pos": "noun", "text": "horror movie", "zh": "恐怖片", "features": { "ipa": "ˈhɔːrɚ ˌmuːvi" }, "noteZh": "重音在 HOR-ror 上;h 只是轻轻呼气,嘴唇不碰牙齿,别读成 f。" },
+    { "id": "en.sci_fi_movie", "kind": "phrase", "pos": "noun", "text": "sci-fi movie", "zh": "科幻片", "alt": ["science fiction movie"], "features": { "ipa": "ˈsaɪ ˌfaɪ ˌmuːvi" }, "noteZh": "sci-fi 读“sigh-fie”,是 science fiction(科幻)的缩写;重音在 sci 上。" },
+    { "id": "en.seat", "kind": "word", "pos": "noun", "text": "seat", "zh": "座位", "features": { "ipa": "siːt" }, "noteZh": "长元音 /iː/,别读成 sit(坐,/sɪt/);three seats together 三个连在一起的座位。" },
+    { "id": "en.popcorn", "kind": "word", "pos": "noun", "text": "popcorn", "zh": "爆米花", "features": { "ipa": "ˈpɑːpkɔːrn" }, "noteZh": "重音在前 POP-corn;在美国看电影买一桶爆米花很常见。" }
+  ],
+  "reviewItems": ["en.movie", "en.funny", "en.lets", "en.online", "en.together"],
+  "lines": [
+    { "speaker": "amy", "text": "So, what kind of movies do you guys like?", "zh": "(第 3 课没看成电影,这个周末艾米、磊和索菲亚约着补上)那么,你们喜欢看什么类型的电影?", "items": ["en.what_kind_of", "en.movie", "en.you_guys", "en.like"] },
+    { "speaker": "lei", "text": "I like action movies and sci-fi movies.", "zh": "我喜欢动作片和科幻片。", "items": ["en.like", "en.action_movie", "en.sci_fi_movie"] },
+    { "speaker": "sofia", "text": "I love comedies! They're really funny.", "zh": "我超爱喜剧!特别好笑。", "items": ["en.love", "en.comedy", "en.really", "en.funny"] },
+    { "speaker": "lei", "text": "And you, Amy? What kind of movies do you like?", "zh": "你呢,艾米?你喜欢什么类型的电影?", "items": ["en.and_you", "en.what_kind_of", "en.movie", "en.like"] },
+    { "speaker": "amy", "text": "Horror movies! I love them.", "zh": "恐怖片!我超喜欢。", "items": ["en.horror_movie", "en.love"] },
+    { "speaker": "lei", "text": "Horror movies? No, thanks!", "zh": "(磊连连摇头)恐怖片?还是算了吧!", "items": ["en.horror_movie", "en.no_thanks"] },
+    { "speaker": "amy", "text": "OK, a comedy, then. There's one at 7:15 and one at 9:40.", "zh": "好吧,那就看喜剧。(看着手机上的场次表)有 7:15 和 9:40 两场。", "items": ["en.comedy", "en.then"] },
+    { "speaker": "lei", "text": "Let's go at 7:15. 9:40 is too late for me.", "zh": "我们看 7:15 那场吧。9:40 对我来说太晚了。", "items": ["en.lets", "en.go", "en.too", "en.late"] },
+    { "speaker": "amy", "text": "Great. Three tickets online... Which seats?", "zh": "好。在网上买三张票……选哪儿的座位?", "items": ["en.great", "en.ticket", "en.online", "en.which", "en.seat"] },
+    { "speaker": "sofia", "text": "Three seats together! And let's buy popcorn before the movie.", "zh": "三个连着的座位!还有,开场前我们买爆米花吧。", "items": ["en.seat", "en.together", "en.lets", "en.buy", "en.popcorn", "en.before", "en.movie"] }
+  ],
+  "questions": [
+    { "prompt": "磊喜欢什么类型的电影?", "options": ["喜剧和恐怖片", "动作片和科幻片", "动作片和喜剧"], "answer": 1, "explainZh": "磊说 I like action movies and sci-fi movies.(我喜欢动作片和科幻片。)" },
+    { "prompt": "他们最后看哪一场?为什么?", "options": ["9:40 那场,因为 7:15 太早了", "7:15 那场,因为票便宜", "7:15 那场,因为 9:40 对磊来说太晚了"], "answer": 2, "explainZh": "磊说 Let's go at 7:15. 9:40 is too late for me.(看 7:15 那场吧,9:40 对我来说太晚了。)" },
+    { "prompt": "谁喜欢恐怖片?", "options": ["艾米", "磊", "索菲亚"], "answer": 0, "explainZh": "艾米说 Horror movies! I love them.;磊说 No, thanks!,索菲亚喜欢喜剧。" }
+  ],
+  "grammar": [
+    { "id": "en.g.what_kind_of", "titleZh": "What kind of…? 问种类",
+      "bodyZh": "问喜欢哪一类东西:What kind of movies do you like?(你喜欢什么类型的电影?)What kind of 后面的名词,说一类东西时常用复数(movies、comedies);music 这种不可数名词就用原形:What kind of music do you like?。回答直接说类型:I like action movies. / I love comedies.。别和 Which…? 混:which 是在几个具体的选项里挑(Which seats? 选哪几个座位?)。场次时间这样读:7:15 读 seven fifteen,9:40 读 nine forty。",
+      "examples": [
+        { "text": "What kind of movies do you like? — I like comedies.", "zh": "你喜欢什么类型的电影?——我喜欢喜剧。" },
+        { "text": "What kind of music do you like?", "zh": "你喜欢什么类型的音乐?" },
+        { "text": "There's a comedy at 7:15 and one at 9:40.", "zh": "有一部喜剧,7:15 和 9:40 各一场。" }
+      ] },
+    { "id": "en.g.compound_stress", "titleZh": "复合名词的重音落在第一个词上",
+      "bodyZh": "两个词合成一个名词时,重音一般在第一个词上:ACtion movie、HORror movie、MOvie theater、VIdeo game、BUS stop。读成 action MOVIE,美国人也听得懂,但听起来像在特别强调“是电影,不是别的”。sci-fi 读“sigh-fie”,是 science fiction(科幻)的缩写。horror 的 h 只是轻轻呼气,别读成 f。",
+      "examples": [
+        { "text": "I like action movies.", "zh": "我喜欢动作片。" },
+        { "text": "Horror movies? No, thanks!", "zh": "恐怖片?还是算了吧!" },
+        { "text": "Let's meet at the movie theater.", "zh": "我们在电影院碰头吧。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -13,7 +13,7 @@
   "lines": [
     { "speaker": "narrator", "text": "Menu: burgers, salads, and drinks", "zh": "(第 3 课那家美式餐厅的菜单)菜单:汉堡、沙拉和饮料", "items": ["en.menu", "en.burger", "en.salad", "en.drink"] },
     { "speaker": "narrator", "text": "Burger with fries: $10.99", "zh": "汉堡配薯条:10.99 美元", "items": ["en.burger", "en.fries"] },
-    { "speaker": "narrator", "text": "Spicy Burger with fries: $12.99. It's really spicy!", "zh": "辣味汉堡配薯条:12.99 美元。真的很辣!(旁边画着一个辣椒)", "items": ["en.spicy", "en.burger", "en.fries", "en.really"] },
+    { "speaker": "narrator", "text": "Spicy Burger with fries: $12.50. It's really spicy!", "zh": "辣味汉堡配薯条:12.50 美元。真的很辣!(旁边画着一个辣椒)", "items": ["en.spicy", "en.burger", "en.fries", "en.really"] },
     { "speaker": "narrator", "text": "Cheese on your burger: $1", "zh": "汉堡加奶酪:1 美元", "items": ["en.cheese", "en.burger"] },
     { "speaker": "narrator", "text": "Salad: small $5.99, large $8.99", "zh": "沙拉:小份 5.99 美元,大份 8.99 美元", "items": ["en.salad", "en.small", "en.large"] },
     { "speaker": "narrator", "text": "Fries: $3.99", "zh": "薯条:3.99 美元", "items": ["en.fries"] },
@@ -25,16 +25,16 @@
     { "speaker": "narrator", "text": "Card and cash are OK. Thank you!", "zh": "刷卡、现金都可以。谢谢光临!", "items": ["en.card", "en.cash", "en.thank_you"] }
   ],
   "questions": [
-    { "prompt": "菜单上哪道菜特别辣?", "options": ["Burger with fries", "Spicy Burger with fries", "Salad"], "answer": 1, "explainZh": "菜单上写 Spicy Burger with fries: $12.99. It's really spicy!(真的很辣!)" },
-    { "prompt": "汉堡加奶酪要另付多少钱?", "options": ["1 美元", "10.99 美元", "3.99 美元"], "answer": 0, "explainZh": "Cheese on your burger: $1(汉堡加奶酪:1 美元)。10.99 美元是汉堡配薯条,3.99 美元是一份薯条。" },
-    { "prompt": "在这家餐厅喝水要多少钱?", "options": ["2.50 美元", "2.99 美元", "不要钱"], "answer": 2, "explainZh": "菜单上写 Drinks: water is free!(饮料:水免费!)" },
-    { "prompt": "菜单上的价格包括税和小费吗?", "options": ["包括税,不包括小费", "都不包括", "都包括"], "answer": 1, "explainZh": "菜单最后写 Tax and tip are not in the prices.(以上价格不含税和小费。)" }
+    { "prompt": "菜单上哪道菜特别辣?", "options": ["Spicy Burger with fries", "Burger with fries", "Salad"], "answer": 0, "explainZh": "菜单上写 Spicy Burger with fries: $12.50. It's really spicy!(真的很辣!)" },
+    { "prompt": "汉堡加奶酪要另付多少钱?", "options": ["10.99 美元", "3.99 美元", "1 美元"], "answer": 2, "explainZh": "Cheese on your burger: $1(汉堡加奶酪:1 美元)。10.99 美元是汉堡配薯条,3.99 美元是一份薯条。" },
+    { "prompt": "在这家餐厅喝水要多少钱?", "options": ["2.50 美元", "不要钱", "2.99 美元"], "answer": 1, "explainZh": "菜单上写 Drinks: water is free!(饮料:水免费!)" },
+    { "prompt": "菜单上的价格包括税和小费吗?", "options": ["包括税,不包括小费", "都包括", "都不包括"], "answer": 2, "explainZh": "菜单最后写 Tax and tip are not in the prices.(以上价格不含税和小费。)" }
   ],
   "grammar": [
     { "id": "en.g.read_menu", "titleZh": "读菜单:价格怎么读;with… 是“配……”",
-      "bodyZh": "美国菜单上的价格,口语里一般省掉 dollars 和 cents,直接读两段数字:$12.99 读 twelve ninety-nine,$2.50 读 two fifty;整数说 one dollar、five dollars。with… 表示“配……、加……”:Burger with fries(汉堡配薯条)、With oat milk: $5.00(换燕麦奶 5 美元)。美国的菜单价格一般不含税,吃完还要另给小费,所以最后付的钱比菜单上的数字多。问价钱:How much is the spicy burger? — It's twelve ninety-nine.。",
+      "bodyZh": "美国菜单上的价格,口语里一般省掉 dollars 和 cents,直接读两段数字:$10.99 读 ten ninety-nine,$12.50 读 twelve fifty;整数说 one dollar、five dollars。with… 表示“配……、加……”:Burger with fries(汉堡配薯条)、With oat milk: $5.00(换燕麦奶 5 美元)。美国的菜单价格一般不含税,吃完还要另给小费,所以最后付的钱比菜单上的数字多。问价钱:How much is the spicy burger? — It's twelve fifty.。",
       "examples": [
-        { "text": "How much is the spicy burger? — It's twelve ninety-nine.", "zh": "辣味汉堡多少钱?——12.99 美元。" },
+        { "text": "How much is the spicy burger? — It's twelve fifty.", "zh": "辣味汉堡多少钱?——12.50 美元。" },
         { "text": "A burger with fries, please.", "zh": "请给我一份汉堡配薯条。" },
         { "text": "Tax and tip are not in the prices.", "zh": "价格里不含税和小费。" }
       ] }

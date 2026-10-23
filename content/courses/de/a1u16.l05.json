@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u16.l05", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116050,
+  "titleZh": "切、炒、煮、烤", "goalZh": "会说做饭常用的动作和厨具:在锅里煮、在平底锅里煎、在烤箱里烤", "canDoZh": "能说出做饭常用的动作和厨具",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.teigtasche", "kind": "word", "pos": "noun", "text": "die Teigtasche", "zh": "(包馅的)面食;饺子", "features": { "gender": "f", "plural": "die Teigtaschen", "ipa": "ˈtaɪ̯kˌtaʃə" }, "noteZh": "der Teig(面团)+ die Tasche(口袋)=“面做的小口袋”:德国人这样叫饺子,也说 Jiaozi 或 Dumplings。" },
+    { "id": "de.teig", "kind": "word", "pos": "noun", "text": "der Teig", "zh": "面团;面糊", "features": { "gender": "m", "plural": "die Teige", "ipa": "taɪ̯k" }, "noteZh": "做面包、蛋糕、饺子皮的面团都叫 Teig;词尾 g 读 [k]。" },
+    { "id": "de.mehl", "kind": "word", "pos": "noun", "text": "das Mehl", "zh": "面粉", "features": { "gender": "n", "plural": "-", "ipa": "meːl" }, "noteZh": "Mehl und Wasser(面粉和水);eh 读长音 [eː],和 Messer 的短 e 对比;不可数。" },
+    { "id": "de.fuellung", "kind": "word", "pos": "noun", "text": "die Füllung", "zh": "馅", "features": { "gender": "f", "plural": "die Füllungen", "ipa": "ˈfʏlʊŋ" }, "noteZh": "füllen(装满、填)的名词;die Füllung aus Fleisch und Gemüse(肉和菜的馅);ü 是短音。" },
+    { "id": "de.wuerzen", "kind": "word", "pos": "verb", "text": "würzen", "zh": "调味", "features": { "ipa": "ˈvʏʁtsn̩" }, "noteZh": "mit Salz und Pfeffer würzen(用盐和胡椒调味);名词是 das Gewürz(调料);z 读 [ts]。" },
+    { "id": "de.umruehren", "kind": "word", "pos": "verb", "text": "umrühren", "zh": "搅拌;拌匀", "features": { "ipa": "ˈʊmˌʁyːʁən" }, "noteZh": "可分动词:Ich rühre die Füllung um.(我把馅拌匀。)菜谱里常写 gut umrühren(搅拌均匀)。" },
+    { "id": "de.braten", "kind": "word", "pos": "verb", "text": "braten", "zh": "煎;炒;烤(肉)", "features": { "ipa": "ˈbʁaːtn̩" }, "noteZh": "不规则:du brätst, er brät(a 变 ä);in der Pfanne braten(在平底锅里煎);烤香肠 die Bratwurst 就是从它来的。" },
+    { "id": "de.backen", "kind": "word", "pos": "verb", "text": "backen", "zh": "(在烤箱里)烤", "features": { "ipa": "ˈbakn̩" }, "noteZh": "烤面包、蛋糕用 backen:Ich backe einen Kuchen.;现在一般按规则变:du backst, er backt;面包店 die Bäckerei 就是从它来的。" },
+    { "id": "de.ofen", "kind": "word", "pos": "noun", "text": "der Ofen", "zh": "烤箱;炉子", "features": { "gender": "m", "plural": "die Öfen", "ipa": "ˈoːfn̩" }, "noteZh": "im Ofen backen(在烤箱里烤);o 是长音,和 offen(开着的)的短 o 对比;复数变音 die Öfen。" }
+  ],
+  "reviewItems": ["de.wie_sagt_man", "de.topf", "de.pfanne", "de.salz", "de.pfeffer"],
+  "lines": [
+    { "speaker": "wei", "text": "Sofia, am Freitag mache ich Jiaozi. Wie sagt man das auf Deutsch?", "zh": "索菲娅,星期五我要做饺子。德语怎么说?", "items": ["de.am", "de.freitag", "de.machen", "de.ich", "de.wie_sagt_man", "de.auf_deutsch"] },
+    { "speaker": "sofia", "text": "Jiaozi? Das sind Teigtaschen. In Italien haben wir Ravioli!", "zh": "饺子?德语叫 Teigtaschen。我们意大利有 Ravioli(意式饺子)!", "items": ["de.das_ist", "de.teigtasche", "de.in", "de.italien", "de.haben", "de.wir"] },
+    { "speaker": "wei", "text": "Für den Teig brauche ich nur Mehl und Wasser.", "zh": "做面皮我只要面粉和水。", "items": ["de.fuer", "de.teig", "de.brauchen", "de.ich", "de.nur", "de.mehl", "de.und", "de.wasser"] },
+    { "speaker": "sofia", "text": "Und was ist in den Teigtaschen?", "zh": "饺子里面包什么?", "items": ["de.und", "de.was", "de.sein", "de.in", "de.teigtasche"] },
+    { "speaker": "wei", "text": "Die Füllung: Fleisch und Gemüse. Ich würze sie mit Salz und Pfeffer.", "zh": "馅是肉和菜。我用盐和胡椒调味。", "items": ["de.fuellung", "de.fleisch", "de.und", "de.gemuese", "de.ich", "de.wuerzen", "de.sie_sg", "de.mit", "de.salz", "de.pfeffer"] },
+    { "speaker": "sofia", "text": "Und dann gut umrühren! Kochst du sie im Topf?", "zh": "然后好好拌匀!你把饺子放锅里煮吗?", "items": ["de.und", "de.dann", "de.gut", "de.umruehren", "de.kochen", "de.du", "de.sie_pl", "de.in", "de.topf"] },
+    { "speaker": "wei", "text": "Ja, im Topf mit Wasser. Oder ich brate sie in der Pfanne.", "zh": "对,放锅里用水煮。或者放平底锅里煎。", "items": ["de.ja", "de.in", "de.topf", "de.mit", "de.wasser", "de.oder", "de.ich", "de.braten", "de.sie_pl", "de.pfanne"] },
+    { "speaker": "sofia", "text": "Lecker! Und backst du sie auch im Ofen?", "zh": "好吃!那你也用烤箱烤吗?", "items": ["de.lecker", "de.und", "de.backen", "de.du", "de.sie_pl", "de.auch", "de.in", "de.ofen"] },
+    { "speaker": "wei", "text": "Nein. In China backen wir zu Hause nicht viel.", "zh": "不。在中国,我们在家不怎么用烤箱。", "items": ["de.nein", "de.in", "de.china", "de.backen", "de.wir", "de.zu_hause", "de.nicht", "de.viel"] },
+    { "speaker": "sofia", "text": "Ich backe gern! Am Freitag mache ich einen Kuchen.", "zh": "我喜欢烤东西!星期五我烤个蛋糕。", "items": ["de.ich", "de.backen", "de.gern", "de.am", "de.freitag", "de.machen", "de.ein", "de.kuchen"] }
+  ],
+  "questions": [
+    { "prompt": "德语怎么说“饺子”?", "options": ["Ravioli", "Teigtaschen", "Kuchen"], "answer": 1, "explainZh": "索菲娅说:Jiaozi? Das sind Teigtaschen.;Ravioli 是意大利的饺子。" },
+    { "prompt": "王伟用什么给馅调味?", "options": ["盐和胡椒", "糖", "醋和油"], "answer": 0, "explainZh": "王伟说:Ich würze sie mit Salz und Pfeffer.(我用盐和胡椒调味。)" },
+    { "prompt": "索菲娅星期五要做什么?", "options": ["包饺子", "煎饺子", "烤一个蛋糕"], "answer": 2, "explainZh": "索菲娅说:Ich backe gern! Am Freitag mache ich einen Kuchen.(我喜欢烤东西!星期五我烤个蛋糕。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_kochverben", "titleZh": "做饭的动词和厨具搭配",
+      "bodyZh": "常用搭配:im Topf kochen(在锅里煮)、in der Pfanne braten(在平底锅里煎)、im Ofen backen(在烤箱里烤)——in + dem / der 说“在哪儿”(im = in dem),先当固定搭配记,A2 再讲双向介词。\nmit Salz würzen(用盐调味)、gut umrühren(搅拌均匀,可分动词:Ich rühre die Füllung um.)。\n中文的“炒”“煎”德语都常说 braten;“烤”要分开:烤肉用 grillen 或 braten,烤面包、蛋糕用 backen。\n发音:Ofen 的 o 是长音,offen(开着的)的 o 是短音;Mehl 的 e 长,Messer 的 e 短。",
+      "examples": [
+        { "text": "Ich koche sie im Topf.", "zh": "我把它们放锅里煮。" },
+        { "text": "Ich brate sie in der Pfanne.", "zh": "我把它们放平底锅里煎。" },
+        { "text": "Im Ofen backe ich Kuchen.", "zh": "我用烤箱烤蛋糕。" }
+      ] },
+    { "id": "de.g.u16_braten", "titleZh": "braten 的 a → ä;问德语怎么说",
+      "bodyZh": "braten 是不规则动词,只有 du 和 er / sie / es 的形式 a 变 ä:ich brate, du brätst, er brät, wir braten。第 17 单元会把这类动词放在一起总结(fahren → er fährt,schlafen → er schläft)。backen 现在大多按规则变:du backst, er backt。\n不知道一个东西德语叫什么,就问:Wie sagt man das auf Deutsch?(这个德语怎么说?)中国菜名可以说拼音,再用德语解释:Jiaozi? Das sind Teigtaschen.",
+      "examples": [
+        { "text": "Du brätst sie in der Pfanne.", "zh": "你把它们放平底锅里煎。" },
+        { "text": "Er brät das Fleisch.", "zh": "他在煎肉。" },
+        { "text": "Wie sagt man das auf Deutsch?", "zh": "这个德语怎么说?" }
+      ] }
+  ],
+  "review": "draft"
+}

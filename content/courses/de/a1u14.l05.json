@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u14.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114050,
+  "titleZh": "选哪一个?", "goalZh": "会用 mögen 说喜欢谁、喜欢什么,用 denn 说理由,和别人一起做决定", "canDoZh": "能根据别人的介绍说出自己喜欢谁、为什么,和别人一起做决定",
+  "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.moegen", "kind": "word", "pos": "verb", "text": "mögen", "zh": "喜欢", "features": { "ipa": "ˈmøːɡn̩" }, "noteZh": "变位像情态动词:ich mag, du magst, er mag, wir mögen, ihr mögt;mögen + 名词 / 人:Ich mag Musik. / Ich mag Emma.;喜欢做什么用动词 + gern:Ich koche gern.;möchte(想要)也是从 mögen 来的,意思不一样。" },
+    { "id": "de.hoeflich", "kind": "word", "pos": "adj", "text": "höflich", "zh": "有礼貌", "features": { "ipa": "ˈhøːflɪç" }, "noteZh": "ö 是长音,-lich 读 [lɪç];Sie ist sehr höflich.(她很有礼貌。)反义词 unhöflich。" },
+    { "id": "de.sympathisch", "kind": "word", "pos": "adj", "text": "sympathisch", "zh": "讨人喜欢;给人好感", "features": { "ipa": "zʏmˈpaːtɪʃ" }, "noteZh": "不是“同情”!sympathisch 是“让人有好感”:Er ist sympathisch.;y 读 [ʏ],th 读 [t],重音在 pa 上。" },
+    { "id": "de.egal", "kind": "word", "pos": "adj", "text": "egal", "zh": "无所谓;都一样", "features": { "ipa": "eˈɡaːl" }, "noteZh": "Das ist mir egal.(我无所谓。)语气不好时会显得不客气;重音在 gal 上。" },
+    { "id": "de.stoeren", "kind": "word", "pos": "verb", "text": "stören", "zh": "打扰;妨碍", "features": { "ipa": "ˈʃtøːʁən" }, "noteZh": "Das stört mich.(这让我受不了 / 打扰我。)st 读 [ʃt],ö 是长音;客气地问:Störe ich?(我打扰你了吗?)" },
+    { "id": "de.beide", "kind": "word", "pos": "pron", "text": "beide", "zh": "两个都;两者", "features": { "ipa": "ˈbaɪ̯də" }, "noteZh": "Beide sind nett.(两个都很好。)mit beiden(和两个人一起);ei 读 [aɪ]。" },
+    { "id": "de.kennenlernen", "kind": "word", "pos": "verb", "text": "kennenlernen", "zh": "认识;结识", "features": { "ipa": "ˈkɛnənˌlɛʁnən" }, "noteZh": "lernen 变位,kennen 放句末:Wir lernen sie kennen.(我们去认识一下她。)kennen 是“已经认识”,kennenlernen 是“第一次见、去认识”。" },
+    { "id": "de.perfekt", "kind": "word", "pos": "adj", "text": "perfekt", "zh": "完美;太好了", "features": { "ipa": "pɛʁˈfɛkt" }, "noteZh": "重音在后:per-FEKT;Perfekt!(太好了!)“现在完成时”也叫 das Perfekt。" }
+  ],
+  "reviewItems": ["de.gitarre", "de.laut", "de.denn", "de.online", "de.idee", "de.passen"],
+  "lines": [
+    { "speaker": "jonas", "text": "Ich mag Lukas. Er spielt auch Fußball!", "zh": "我喜欢 Lukas。他也踢足球!", "items": ["de.ich", "de.moegen", "de.er", "de.spielen", "de.auch", "de.fussball"] },
+    { "speaker": "sofia", "text": "Lukas ist nett. Aber ich mag Emma, denn sie ist sehr höflich.", "zh": "Lukas 人不错。不过我喜欢 Emma,因为她很有礼貌。", "items": ["de.sein", "de.nett", "de.aber", "de.ich", "de.moegen", "de.denn", "de.sie_sg", "de.sehr", "de.hoeflich"] },
+    { "speaker": "wei", "text": "Ja, Emma ist sympathisch. Sie ist ruhig und liest gern.", "zh": "对,Emma 让人很有好感。她很安静,喜欢看书。", "items": ["de.ja", "de.sein", "de.sympathisch", "de.sie_sg", "de.ruhig", "de.und", "de.lesen", "de.gern"] },
+    { "speaker": "jonas", "text": "Mir ist das egal. Spielt sie auch Fußball?", "zh": "我无所谓。她也踢足球吗?", "items": ["de.ich", "de.sein", "de.egal", "de.spielen", "de.sie_sg", "de.auch", "de.fussball"] },
+    { "speaker": "sofia", "text": "Und Ben? Magst du Ben, Wei?", "zh": "那 Ben 呢?伟,你喜欢 Ben 吗?", "items": ["de.und", "de.moegen", "de.du"] },
+    { "speaker": "wei", "text": "Nein. Ich mag Musik, aber er spielt jeden Abend Gitarre.", "zh": "不喜欢。我喜欢音乐,可是他每天晚上都弹吉他。", "items": ["de.nein", "de.ich", "de.moegen", "de.musik", "de.aber", "de.er", "de.spielen", "de.jeder", "de.abend", "de.gitarre"] },
+    { "speaker": "wei", "text": "Das stört mich, denn ich lerne am Abend.", "zh": "这会打扰我,因为我晚上要学习。", "items": ["de.stoeren", "de.ich", "de.denn", "de.lernen", "de.am", "de.abend"] },
+    { "speaker": "jonas", "text": "Und er ist sehr laut. Partys mag ich nur am Samstag!", "zh": "而且他很吵。派对我只在星期六才喜欢!", "items": ["de.und", "de.er", "de.sein", "de.sehr", "de.laut", "de.party", "de.moegen", "de.ich", "de.nur", "de.am", "de.samstag"] },
+    { "speaker": "sofia", "text": "Gut, Ben passt nicht zu uns. Und Lukas oder Emma?", "zh": "好,Ben 跟我们合不来。那 Lukas 还是 Emma?", "items": ["de.gut", "de.passen", "de.nicht", "de.zu", "de.wir", "de.und", "de.oder"] },
+    { "speaker": "wei", "text": "Beide sind sympathisch. Wir können mit beiden online sprechen.", "zh": "两个人都挺好。我们可以先和他们俩在网上聊聊。", "items": ["de.beide", "de.sein", "de.sympathisch", "de.wir", "de.koennen", "de.mit", "de.online", "de.sprechen"] },
+    { "speaker": "jonas", "text": "Gute Idee! Dann lernen wir beide kennen.", "zh": "好主意!那我们先认识一下他们俩。", "items": ["de.gut", "de.idee", "de.dann", "de.kennenlernen", "de.wir", "de.beide"] },
+    { "speaker": "sofia", "text": "Perfekt! Ich schreibe Lukas und Emma eine Nachricht.", "zh": "太好了!我给 Lukas 和 Emma 发消息。", "items": ["de.perfekt", "de.ich", "de.schreiben", "de.und", "de.ein", "de.nachricht"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯为什么喜欢 Lukas?", "options": ["Lukas 会做饭", "Lukas 也踢足球", "Lukas 很安静"], "answer": 1, "explainZh": "约纳斯说:Ich mag Lukas. Er spielt auch Fußball!(我喜欢 Lukas,他也踢足球!)" },
+    { "prompt": "王伟为什么不喜欢 Ben?", "options": ["Ben 每天晚上弹吉他,打扰他学习", "Ben 太懒", "Ben 不喜欢音乐"], "answer": 0, "explainZh": "王伟说:Er spielt jeden Abend Gitarre. Das stört mich, denn ich lerne am Abend.(他每天晚上弹吉他,这会打扰我,因为我晚上要学习。)" },
+    { "prompt": "最后大家决定怎么做?", "options": ["让 Ben 来住", "再登一次广告", "先在网上和 Lukas、Emma 聊一聊"], "answer": 2, "explainZh": "王伟说:Wir können mit beiden online sprechen.;约纳斯说:Dann lernen wir beide kennen.;索菲娅给两个人发消息。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_moegen", "titleZh": "mögen:喜欢一个人、一样东西",
+      "bodyZh": "mögen 的变位像情态动词,单数变元音、ich 和 er 没有词尾:ich mag · du magst · er / sie mag · wir mögen · ihr mögt · sie / Sie mögen。\nmögen 后面直接跟名词或人:Ich mag Emma. / Ich mag Musik. / Partys mag ich nur am Samstag.;“喜欢做某事”一般不用 mögen,而用“动词 + gern”:Ich lese gern. / Er spielt gern Fußball.。别和 möchte(想要)弄混:Ich möchte einen Kaffee. 是“我想要一杯咖啡”,Ich mag Kaffee. 是“我喜欢咖啡”。",
+      "examples": [
+        { "text": "Ich mag Emma, denn sie ist höflich.", "zh": "我喜欢 Emma,因为她有礼貌。" },
+        { "text": "Magst du Musik?", "zh": "你喜欢音乐吗?" }
+      ] },
+    { "id": "de.g.u14_entscheiden", "titleZh": "一起做决定:说看法、说理由、表示同意",
+      "bodyZh": "说看法:Ich mag …, denn … / Emma ist sympathisch. / Beide sind nett.;不在乎:Mir ist das egal.(语气重的时候会显得不客气);不喜欢的理由:Das stört mich, denn ich lerne am Abend.;同意别人的提议:Gute Idee! / Perfekt!。说“我们俩”“他们俩”用 beide:Beide sind sympathisch. / mit beiden(和他们俩)。",
+      "examples": [
+        { "text": "Beide sind sympathisch.", "zh": "两个人都挺好。" },
+        { "text": "Gute Idee! Dann lernen wir beide kennen.", "zh": "好主意!那我们认识一下他们俩。" }
+      ] }
+  ],
+  "review": "draft"
+}

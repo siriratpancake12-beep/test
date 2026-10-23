@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u14.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114010,
+  "titleZh": "她长什么样?", "goalZh": "会说一个人的身高、身材、头发、眼睛和戴不戴眼镜", "canDoZh": "能说出一个人的身高、身材、头发和眼睛",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.haar", "kind": "word", "pos": "noun", "text": "das Haar", "zh": "头发", "features": { "gender": "n", "plural": "die Haare", "ipa": "haːɐ̯" }, "noteZh": "说头发一般用复数 die Haare:Seine Haare sind schwarz.;Er hat schwarze Haare.(复数名词前的形容词加 -e,先当固定说法记)。aa 是长音。" },
+    { "id": "de.meter", "kind": "word", "pos": "noun", "text": "der Meter", "zh": "米", "features": { "gender": "m", "plural": "die Meter", "ipa": "ˈmeːtɐ" }, "noteZh": "说身高:Er ist ein Meter neunzig (groß).(他一米九。)复数和单数一样:zwei Meter。" },
+    { "id": "de.schlank", "kind": "word", "pos": "adj", "text": "schlank", "zh": "苗条;瘦(好看的那种)", "features": { "ipa": "ʃlaŋk" }, "noteZh": "schl 读 [ʃl],nk 读 [ŋk];schlank 是夸人的说法,dünn 是“瘦、单薄”,有时带一点“太瘦了”的意思。" },
+    { "id": "de.duenn", "kind": "word", "pos": "adj", "text": "dünn", "zh": "瘦;薄", "features": { "ipa": "dʏn" }, "noteZh": "ü 是短音 [ʏ];Er ist ein bisschen zu dünn.(他有点太瘦了。)反义词 dick(胖;厚)。" },
+    { "id": "de.lockig", "kind": "word", "pos": "adj", "text": "lockig", "zh": "卷曲的(头发)", "features": { "ipa": "ˈlɔkɪç" }, "noteZh": "die Locke(卷发)+ -ig;词尾 -ig 读 [ɪç];Seine Haare sind lockig.(他是卷发。)反义词 glatt。" },
+    { "id": "de.glatt", "kind": "word", "pos": "adj", "text": "glatt", "zh": "直的(头发);光滑的", "features": { "ipa": "ɡlat" }, "noteZh": "Meine Haare sind glatt.(我是直发。)a 是短音,tt 读 [t]。" },
+    { "id": "de.braun", "kind": "word", "pos": "adj", "text": "braun", "zh": "棕色的", "features": { "ipa": "bʁaʊ̯n" }, "noteZh": "au 读 [aʊ];braune Augen(棕色的眼睛)、braune Haare(棕色头发)。" },
+    { "id": "de.huebsch", "kind": "word", "pos": "adj", "text": "hübsch", "zh": "好看;漂亮", "features": { "ipa": "hʏpʃ" }, "noteZh": "ü 是短音 [ʏ]:嘴唇撅圆发 i,和 Brille 里的 i 不一样;b 在 sch 前读 [p];说人、说东西都可以:Das Kleid ist hübsch.。" }
+  ],
+  "reviewItems": ["de.abholen", "de.foto", "de.brille", "de.tragen", "de.sicher", "de.auge"],
+  "lines": [
+    { "speaker": "sofia", "text": "Wei, mein Bruder Marco kommt am Freitag mit dem Bus.", "zh": "伟,我弟弟马可星期五坐大巴来。", "items": ["de.mein", "de.bruder", "de.ich_komme_aus", "de.am", "de.freitag", "de.mit", "de.bus"] },
+    { "speaker": "sofia", "text": "Ich muss leider arbeiten. Kannst du ihn bitte abholen?", "zh": "可惜我得上班。你能去接他吗?", "items": ["de.ich", "de.muessen", "de.leider", "de.arbeiten", "de.koennen", "de.du", "de.ihn", "de.bitte", "de.abholen"] },
+    { "speaker": "wei", "text": "Gern, aber ich kenne Marco nicht. Hast du ein Foto?", "zh": "好啊,可是我不认识马可。你有照片吗?", "items": ["de.gern", "de.aber", "de.ich", "de.kennen", "de.nicht", "de.haben", "de.du", "de.ein", "de.foto"] },
+    { "speaker": "sofia", "text": "Ja, hier. Er ist sehr groß: ein Meter neunzig.", "zh": "有,你看。他个子很高:一米九。", "items": ["de.ja", "de.hier", "de.er", "de.sein", "de.sehr", "de.gross", "de.ein", "de.meter", "de.neun"] },
+    { "speaker": "wei", "text": "Und er ist sehr dünn!", "zh": "而且他好瘦啊!", "items": ["de.und", "de.er", "de.sein", "de.sehr", "de.duenn"] },
+    { "speaker": "sofia", "text": "Ja, er ist schlank, aber er isst sehr viel!", "zh": "是啊,他很苗条,可是吃得特别多!", "items": ["de.ja", "de.er", "de.sein", "de.schlank", "de.aber", "de.essen", "de.sehr", "de.viel"] },
+    { "speaker": "wei", "text": "Seine Haare sind schwarz und lockig, oder?", "zh": "他是黑色的卷发,对吧?", "items": ["de.sein_poss", "de.haar", "de.sein", "de.schwarz", "de.und", "de.lockig", "de.oder"] },
+    { "speaker": "sofia", "text": "Ja, und er hat braune Augen. Meine Haare sind glatt.", "zh": "对,他的眼睛是棕色的。我是直发。", "items": ["de.ja", "de.und", "de.er", "de.haben", "de.braun", "de.auge", "de.mein", "de.haar", "de.sein", "de.glatt"] },
+    { "speaker": "wei", "text": "Trägt er immer eine Brille?", "zh": "他总戴眼镜吗?", "items": ["de.tragen", "de.er", "de.immer", "de.ein", "de.brille"] },
+    { "speaker": "sofia", "text": "Ja. Mein Bruder ist hübsch, oder? Du findest ihn sicher!", "zh": "对。我弟弟挺帅的吧?你肯定能找到他!", "items": ["de.ja", "de.mein", "de.bruder", "de.sein", "de.huebsch", "de.oder", "de.du", "de.finden", "de.ihn", "de.sicher"] }
+  ],
+  "questions": [
+    { "prompt": "马可星期几到柏林?", "options": ["星期六", "星期五", "星期天"], "answer": 1, "explainZh": "索菲娅说:Mein Bruder Marco kommt am Freitag mit dem Bus.(马可星期五坐大巴来。)" },
+    { "prompt": "下面哪一项不是马可的样子?", "options": ["个子很高", "黑色卷发", "金色直发"], "answer": 2, "explainZh": "马可很高(ein Meter neunzig),是黑色卷发(schwarz und lockig),还戴眼镜;直发的是索菲娅:Meine Haare sind glatt." },
+    { "prompt": "为什么索菲娅不自己去接马可?", "options": ["她要上班", "她要考试", "她病了"], "answer": 0, "explainZh": "索菲娅说:Ich muss leider arbeiten.(可惜我得上班。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_aussehen_beschreiben", "titleZh": "描述外貌:sein、haben、tragen",
+      "bodyZh": "身材、身高用 sein:Er ist groß / klein / schlank / dünn.;Er ist ein Meter neunzig (groß).(1.90 米)。\n头发、眼睛可以用 haben:Er hat schwarze Haare und braune Augen.(复数名词前的形容词加 -e,先当固定说法记,形容词词尾 A2 再学);也可以用 sein,形容词放在后面不变:Seine Haare sind lockig. / Meine Haare sind glatt.\n戴眼镜、穿衣服用 tragen:Er trägt eine Brille.(du trägst, er trägt)。中文说“他长得高、眼睛是棕色的”,德语要选对动词:是 sein 还是 haben。",
+      "examples": [
+        { "text": "Er ist ein Meter neunzig groß.", "zh": "他一米九。" },
+        { "text": "Er hat schwarze Haare und braune Augen.", "zh": "他是黑头发、棕色眼睛。" },
+        { "text": "Er trägt eine Brille.", "zh": "他戴眼镜。" }
+      ] },
+    { "id": "de.g.u14_haare_ue", "titleZh": "Haare 用复数;ü 和 i 要分清",
+      "bodyZh": "中文的“头发”不分单复数,德语说一个人的头发一般用复数 die Haare:Seine Haare sind schwarz.;单数 das Haar 常指一根头发。\n发音:hübsch、dünn 里的 ü 是短音 [ʏ],嘴唇撅圆、舌头位置像发 i;Brille、bitte 里的 i 嘴唇不圆。把 ü 读成 i,德国人可能听不懂。",
+      "examples": [
+        { "text": "Mein Bruder ist hübsch.", "zh": "我弟弟挺帅的。" },
+        { "text": "Er ist nicht klein, sondern groß.", "zh": "他个子不矮,而是很高。" },
+        { "text": "Meine Haare sind glatt.", "zh": "我是直发。" }
+      ] }
+  ],
+  "review": "draft"
+}

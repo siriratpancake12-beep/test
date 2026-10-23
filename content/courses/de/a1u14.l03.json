@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u14.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114030,
+  "titleZh": "他看起来很友好:aussehen", "goalZh": "会用 aussehen 说一个人看起来怎么样(Er sieht müde aus),会用 war / hatte 说一个人小时候的样子", "canDoZh": "能说一个人看起来怎么样,问别人觉得某人怎么样",
+  "skills": ["read", "write", "speak"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.aussehen", "kind": "word", "pos": "verb", "text": "aussehen", "zh": "看起来;长得", "features": { "ipa": "ˈaʊ̯sˌzeːən" }, "noteZh": "可分动词,aus 放句末:Er sieht müde aus.(他看起来很累。)Wie sieht er aus?(他长什么样?)sehen 不规则:du siehst aus, er sieht aus。" },
+    { "id": "de.sportlich", "kind": "word", "pos": "adj", "text": "sportlich", "zh": "爱运动的;健壮的", "features": { "ipa": "ˈʃpɔʁtlɪç" }, "noteZh": "der Sport + -lich;sp 读 [ʃp],词尾 -lich 读 [lɪç];Er sieht sportlich aus.(他看上去很爱运动。)" },
+    { "id": "de.stark", "kind": "word", "pos": "adj", "text": "stark", "zh": "强壮;有力", "features": { "ipa": "ʃtaʁk" }, "noteZh": "st 读 [ʃt];反义词 schwach(弱)。" },
+    { "id": "de.dunkel", "kind": "word", "pos": "adj", "text": "dunkel", "zh": "暗;深(颜色)", "features": { "ipa": "ˈdʊŋkl̩" }, "noteZh": "反义词 hell(亮);Das Foto ist dunkel.(照片很暗。)nk 读 [ŋk]。" },
+    { "id": "de.maedchen", "kind": "word", "pos": "noun", "text": "das Mädchen", "zh": "女孩", "features": { "gender": "n", "plural": "die Mädchen", "ipa": "ˈmɛːtçən" }, "noteZh": "-chen 结尾的名词都是中性,所以是 das Mädchen,代词用 es:Das Mädchen? Es sieht glücklich aus.;复数不变;男孩是 der Junge。" },
+    { "id": "de.dick", "kind": "word", "pos": "adj", "text": "dick", "zh": "胖;厚", "features": { "ipa": "dɪk" }, "noteZh": "当面说别人胖不太礼貌,说自己时常说 ein bisschen dick;反义词 dünn。" },
+    { "id": "de.gluecklich", "kind": "word", "pos": "adj", "text": "glücklich", "zh": "幸福;开心", "features": { "ipa": "ˈɡlʏklɪç" }, "noteZh": "das Glück + -lich;ü 是短音,-lich 读 [lɪç];Sie sieht glücklich aus.(她看上去很开心。)" },
+    { "id": "de.traurig", "kind": "word", "pos": "adj", "text": "traurig", "zh": "难过;伤心", "features": { "ipa": "ˈtʁaʊ̯ʁɪç" }, "noteZh": "au 读 [aʊ],词尾 -ig 读 [ɪç];反义词 glücklich。" }
+  ],
+  "reviewItems": ["de.foto", "de.haar", "de.kurz", "de.muede", "de.reise", "de.als"],
+  "lines": [
+    { "speaker": "jonas", "text": "Ich habe Marco noch nicht gesehen. Wie sieht er aus?", "zh": "我还没见过马可。他长什么样?", "items": ["de.ich", "de.haben", "de.noch", "de.nicht", "de.sehen", "de.wie", "de.aussehen", "de.er"] },
+    { "speaker": "wei", "text": "Er sieht sehr nett aus. Aber heute sieht er müde aus.", "zh": "他看起来人很好。不过今天他看上去很累。", "items": ["de.er", "de.aussehen", "de.sehr", "de.nett", "de.aber", "de.heute", "de.muede"] },
+    { "speaker": "sofia", "text": "Die Reise mit dem Bus war lang. Er schläft noch!", "zh": "坐大巴路上时间很长。他还在睡呢!", "items": ["de.reise", "de.mit", "de.bus", "de.sein", "de.lang", "de.er", "de.schlafen", "de.noch"] },
+    { "speaker": "sofia", "text": "Hier ist ein Foto: Marco und seine Freunde vom Fußball.", "zh": "这儿有张照片:马可和他踢足球的朋友们。", "items": ["de.hier", "de.sein", "de.ein", "de.foto", "de.und", "de.sein_poss", "de.freund", "de.von", "de.fussball"] },
+    { "speaker": "jonas", "text": "Er sieht sportlich aus! Spielt er gut?", "zh": "他看起来很爱运动!他踢得好吗?", "items": ["de.er", "de.aussehen", "de.sportlich", "de.spielen", "de.gut"] },
+    { "speaker": "sofia", "text": "Ja, sehr gut. Er ist stark und schnell.", "zh": "踢得很好。他又壮又快。", "items": ["de.ja", "de.sehr", "de.gut", "de.er", "de.sein", "de.stark", "de.und", "de.schnell"] },
+    { "speaker": "wei", "text": "Das Foto ist sehr alt und dunkel. Wer ist das Mädchen hier?", "zh": "这张照片很旧,也很暗。这个小女孩是谁?", "items": ["de.foto", "de.sein", "de.sehr", "de.alt", "de.und", "de.dunkel", "de.wer", "de.maedchen", "de.hier"] },
+    { "speaker": "sofia", "text": "Das bin ich! Als Kind hatte ich kurze Haare.", "zh": "是我!我小时候是短头发。", "items": ["de.sein", "de.ich", "de.als", "de.kind", "de.haben", "de.kurz", "de.haar"] },
+    { "speaker": "sofia", "text": "Und ich war ein bisschen dick.", "zh": "而且有点胖。", "items": ["de.und", "de.ich", "de.sein", "de.ein_bisschen", "de.dick"] },
+    { "speaker": "jonas", "text": "Hier siehst du glücklich aus. Und heute siehst du traurig aus!", "zh": "照片上你看起来很开心。今天倒是一脸难过!", "items": ["de.hier", "de.du", "de.aussehen", "de.gluecklich", "de.und", "de.heute", "de.traurig"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯为什么问 Wie sieht er aus?", "options": ["照片看不清楚", "他还没见过马可", "他觉得马可病了"], "answer": 1, "explainZh": "约纳斯说:Ich habe Marco noch nicht gesehen. Wie sieht er aus?(我还没见过马可,他长什么样?)" },
+    { "prompt": "今天马可看起来怎么样?", "options": ["很累", "很难过", "很高兴"], "answer": 0, "explainZh": "王伟说:Aber heute sieht er müde aus.(不过今天他看上去很累。)索菲娅说他坐大巴坐了很久,还在睡觉。" },
+    { "prompt": "照片上的小女孩是谁?", "options": ["马可的朋友", "保罗的妹妹", "小时候的索菲娅"], "answer": 2, "explainZh": "索菲娅说:Das bin ich! Als Kind hatte ich kurze Haare.(是我!我小时候是短头发。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_aussehen", "titleZh": "aussehen + 形容词:看起来……",
+      "bodyZh": "aussehen 是可分动词,sehen 变位放第二位,aus 放句末:Er sieht müde aus.(他看上去很累。)/ Du siehst glücklich aus.;问长相:Wie sieht er aus?(他长什么样?)sehen 是不规则动词:du siehst aus, er sieht aus。\nsein + 形容词说的是“就是这样”:Er ist müde.(他确实累了);aussehen + 形容词说的是“看上去”:Er sieht müde aus.(他看起来累,不一定真累)。中文“看起来、显得、长得”都可以用 aussehen。",
+      "examples": [
+        { "text": "Wie sieht Marco aus?", "zh": "马可长什么样?" },
+        { "text": "Er sieht sportlich aus.", "zh": "他看起来很爱运动。" },
+        { "text": "Heute sieht er müde aus.", "zh": "今天他看上去很累。" }
+      ] },
+    { "id": "de.g.u14_als_kind", "titleZh": "说小时候:Als Kind hatte ich …(war / hatte 复习)",
+      "bodyZh": "说过去的样子用 sein 和 haben 的过去式:ich war / hatte,du warst / hattest,er war / hatte:Als Kind hatte ich kurze Haare. / Ich war ein bisschen dick.。als Kind(小时候)先当固定说法记,放句首时动词照样在第二位(Als Kind hatte ich …)。\ndas Mädchen(女孩)是中性名词,所以代词用 es:Wer ist das Mädchen? Es sieht glücklich aus.——-chen 结尾的名词都是中性。",
+      "examples": [
+        { "text": "Als Kind hatte ich kurze Haare.", "zh": "我小时候是短头发。" },
+        { "text": "Ich war ein bisschen dick.", "zh": "我那时有点胖。" },
+        { "text": "Das Mädchen sieht glücklich aus.", "zh": "那个女孩看起来很开心。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -26,8 +26,8 @@
   ],
   "questions": [
     { "prompt": "伊森家里有谁?", "options": ["爸爸、妈妈和两个哥哥", "爸爸、妈妈和一个妹妹", "爸爸、妈妈和一个姐姐"], "answer": 1, "explainZh": "伊森写的是 My mom, my dad, and my younger sister.,younger sister 是妹妹。" },
-    { "prompt": "伊森长什么样?", "options": ["个子很高,棕色短发", "个子不高,黑色短发", "个子很高,棕色长发"], "answer": 0, "explainZh": "伊森写 I'm tall, and I have short brown hair.(我个子很高,棕色短发。)" },
-    { "prompt": "伊森希望室友是什么样的人?", "options": ["很搞笑,不太安静", "个子高,头发短", "人好、友好,有点安静"], "answer": 2, "explainZh": "最后一栏伊森写 Nice, friendly, and a little quiet.(人好、友好,有点安静。)" },
+    { "prompt": "伊森长什么样?", "options": ["个子不高,黑色短发", "个子很高,棕色长发", "个子很高,棕色短发"], "answer": 2, "explainZh": "伊森写 I'm tall, and I have short brown hair.(我个子很高,棕色短发。)" },
+    { "prompt": "伊森希望室友是什么样的人?", "options": ["人好、友好,有点安静", "很搞笑,不太安静", "个子高,头发短"], "answer": 0, "explainZh": "最后一栏伊森写 Nice, friendly, and a little quiet.(人好、友好,有点安静。)" },
     { "prompt": "磊最后为什么说 That's right, Ethan!?", "options": ["伊森说自己个子很高", "伊森说自己不太安静,确实是这样", "伊森说自己来自洛杉矶"], "answer": 1, "explainZh": "伊森写自己 not very quiet(不太安静),磊和他住在一起,知道他说得一点没错。" }
   ],
   "grammar": [

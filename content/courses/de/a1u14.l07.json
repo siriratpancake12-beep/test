@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u14.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114070,
+  "titleZh": "他不是我们的新室友!", "goalZh": "会用 nicht …, sondern … 澄清误会,说清楚一个人和自己、和朋友是什么关系(Sofias Bruder)", "canDoZh": "能澄清误会,说明一个人和自己是什么关系",
+  "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.vorstellen", "kind": "word", "pos": "verb", "text": "vorstellen", "zh": "介绍", "features": { "ipa": "ˈfoːɐ̯ˌʃtɛlən" }, "noteZh": "可分动词,vor 放句末:Ich stelle dir Marco vor.(我给你介绍一下马可。)介绍别人前常说:Darf ich vorstellen? Das ist …;v 读 [f]。" },
+    { "id": "de.mitbewohner", "kind": "word", "pos": "noun", "text": "der Mitbewohner", "zh": "(男)室友", "features": { "gender": "m", "plural": "die Mitbewohner", "ipa": "ˈmɪtbəˌvoːnɐ" }, "noteZh": "mit(一起)+ wohnen + -er:合租公寓里一起住的人;复数不变:die Mitbewohner。" },
+    { "id": "de.tourist", "kind": "word", "pos": "noun", "text": "der Tourist", "zh": "游客", "features": { "gender": "m", "plural": "die Touristen", "ipa": "tuˈʁɪst" }, "noteZh": "重音在 rist 上,ou 读 [u];der Tourist 除了第一格都加 -en:den Touristen;女游客是 die Touristin。" },
+    { "id": "de.wie_vergleich", "kind": "word", "pos": "conj", "text": "wie", "zh": "像……一样(比较)", "features": { "ipa": "viː" }, "noteZh": "aussehen wie + 人:Er sieht aus wie Sofia.(他长得像索菲娅。)这个 wie 不是“怎么”,而是“像”。" },
+    { "id": "de.mitbewohnerin", "kind": "word", "pos": "noun", "text": "die Mitbewohnerin", "zh": "(女)室友", "features": { "gender": "f", "plural": "die Mitbewohnerinnen", "ipa": "ˈmɪtbəˌvoːnəʁɪn" }, "noteZh": "der Mitbewohner 的阴性,复数 die Mitbewohnerinnen。" },
+    { "id": "de.uebersetzen", "kind": "word", "pos": "verb", "text": "übersetzen", "zh": "翻译", "features": { "ipa": "yːbɐˈzɛtsn̩" }, "noteZh": "不可分动词,重音在 set 上:Ich übersetze für dich.(我给你翻译。)tz 读 [ts]。" },
+    { "id": "de.verein", "kind": "word", "pos": "noun", "text": "der Verein", "zh": "俱乐部;协会", "features": { "gender": "m", "plural": "die Vereine", "ipa": "fɛɐ̯ˈʔaɪ̯n" }, "noteZh": "很多德国人参加 Verein:der Fußballverein(足球俱乐部);in einem Verein spielen;v 读 [f]。" },
+    { "id": "de.uebrigens", "kind": "word", "pos": "adv", "text": "übrigens", "zh": "对了;顺便说一下", "features": { "ipa": "ˈyːbʁɪɡn̩s" }, "noteZh": "换个话题时说:Übrigens, …(对了,……);重音在前,ü 是长音。" }
+  ],
+  "reviewItems": ["de.sondern", "de.aussehen", "de.werden", "de.ach_so", "de.bei", "de.als"],
+  "lines": [
+    { "speaker": "paul", "text": "Hallo, Wei! Wer ist das? Wohnt er jetzt bei euch?", "zh": "嗨,伟!这是谁?他现在住在你们那儿吗?", "items": ["de.hallo", "de.wer", "de.sein", "de.wohnen", "de.er", "de.jetzt", "de.bei", "de.ihr"] },
+    { "speaker": "wei", "text": "Hallo, Paul! Darf ich vorstellen? Das ist Marco.", "zh": "嗨,保罗!我来介绍一下:这是马可。", "items": ["de.hallo", "de.duerfen", "de.ich", "de.vorstellen", "de.das_ist"] },
+    { "speaker": "paul", "text": "Ist Marco der Mitbewohner für Sofias Zimmer?", "zh": "马可就是要住索菲娅那间房的室友吗?", "items": ["de.sein", "de.mitbewohner", "de.fuer", "de.zimmer"] },
+    { "speaker": "wei", "text": "Nein! Er ist nicht unser Mitbewohner, sondern Sofias Bruder.", "zh": "不是!他不是我们的室友,而是索菲娅的弟弟。", "items": ["de.nein", "de.er", "de.sein", "de.nicht", "de.unser", "de.mitbewohner", "de.sondern", "de.bruder"] },
+    { "speaker": "wei", "text": "Er ist nur eine Woche hier, als Tourist.", "zh": "他只来一个星期,是来玩的。", "items": ["de.er", "de.sein", "de.nur", "de.ein", "de.woche", "de.hier", "de.als", "de.tourist"] },
+    { "speaker": "paul", "text": "Ach so! Ja, er sieht aus wie Sofia.", "zh": "原来如此!没错,他长得像索菲娅。", "items": ["de.ach_so", "de.ja", "de.er", "de.aussehen", "de.wie_vergleich"] },
+    { "speaker": "paul", "text": "Und wer kommt im August in Sofias Zimmer? Eine Mitbewohnerin?", "zh": "那八月谁住进索菲娅的房间?一个女室友?", "items": ["de.und", "de.wer", "de.ich_komme_aus", "de.in", "de.august", "de.zimmer", "de.ein", "de.mitbewohnerin"] },
+    { "speaker": "wei", "text": "Vielleicht. Morgen sprechen wir mit Lukas und Emma.", "zh": "也许吧。明天我们和 Lukas、Emma 聊聊。", "items": ["de.vielleicht", "de.morgen", "de.sprechen", "de.wir", "de.mit", "de.und"] },
+    { "speaker": "paul", "text": "Marco, spielst du Fußball? Ich spiele jeden Tag!", "zh": "马可,你踢足球吗?我天天踢!", "items": ["de.spielen", "de.du", "de.fussball", "de.ich", "de.jeder", "de.tag"] },
+    { "speaker": "wei", "text": "Er versteht nicht viel Deutsch. Ich übersetze: Er spielt in einem Verein.", "zh": "他德语懂得不多。我来翻译:他在一个俱乐部踢球。", "items": ["de.er", "de.verstehen", "de.nicht", "de.viel", "de.deutsch", "de.ich", "de.uebersetzen", "de.spielen", "de.in", "de.ein", "de.verein"] },
+    { "speaker": "paul", "text": "Toll! Übrigens: Nächsten Samstag werde ich siebzehn. Kommt ihr zu meiner Party?", "zh": "太棒了!对了:下周六我满十七岁。你们来参加我的派对吗?", "items": ["de.toll", "de.uebrigens", "de.naechste", "de.samstag", "de.werden", "de.ich", "de.siebzehn", "de.ich_komme_aus", "de.ihr", "de.zu", "de.mein", "de.party"] },
+    { "speaker": "wei", "text": "Gern! Aber Marco ist dann leider schon wieder in Italien.", "zh": "好啊!可惜那时马可已经回意大利了。", "items": ["de.gern", "de.aber", "de.sein", "de.dann", "de.leider", "de.schon", "de.wieder", "de.in", "de.italien"] }
+  ],
+  "questions": [
+    { "prompt": "保罗一开始以为马可是谁?", "options": ["王伟的同学", "WG 的新室友", "索菲娅的男朋友"], "answer": 1, "explainZh": "保罗问:Ist Marco der Mitbewohner für Sofias Zimmer?(马可就是要住索菲娅房间的室友吗?)王伟说:Er ist nicht unser Mitbewohner, sondern Sofias Bruder." },
+    { "prompt": "保罗觉得马可长得像谁?", "options": ["索菲娅", "王伟", "保罗自己"], "answer": 0, "explainZh": "保罗说:Ja, er sieht aus wie Sofia.(他长得像索菲娅。)" },
+    { "prompt": "保罗下周六要做什么?", "options": ["去意大利", "去踢足球比赛", "过十七岁生日,开派对"], "answer": 2, "explainZh": "保罗说:Nächsten Samstag werde ich siebzehn. Kommt ihr zu meiner Party?(下周六我满十七岁,你们来参加派对吗?)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_sondern_s", "titleZh": "澄清误会:nicht …, sondern …;Sofias Bruder",
+      "bodyZh": "纠正别人的猜测用 nicht …, sondern …(不是……,而是……):Er ist nicht unser Mitbewohner, sondern Sofias Bruder.(sondern 复习,前面一定有 nicht 或 kein)。\n说“某人的……”最简单的办法是在名字后面加 -s,直接放在名词前面,不加冠词、不加撇号:Sofias Bruder(索菲娅的弟弟)、Lenas Bruder(莉娜的弟弟)、Sofias Zimmer(索菲娅的房间)。中文说“索菲娅的”,德语只加一个 s。",
+      "examples": [
+        { "text": "Er ist nicht unser Mitbewohner, sondern Sofias Bruder.", "zh": "他不是我们的室友,而是索菲娅的弟弟。" },
+        { "text": "Paul ist Lenas Bruder.", "zh": "保罗是莉娜的弟弟。" }
+      ] },
+    { "id": "de.g.u14_vorstellen_wie", "titleZh": "介绍别人;aussehen wie …(长得像……)",
+      "bodyZh": "介绍别人前可以说:Darf ich vorstellen? Das ist Marco.(vorstellen 是可分动词:Ich stelle dir Marco vor.)。说“长得像谁”用 aussehen wie + 人:Er sieht aus wie Sofia.——这里的 wie 是“像”,不是“怎么”。室友:der Mitbewohner / die Mitbewohnerin(mit + wohnen,一起住的人)。",
+      "examples": [
+        { "text": "Darf ich vorstellen? Das ist Marco.", "zh": "我来介绍一下:这是马可。" },
+        { "text": "Er sieht aus wie Sofia.", "zh": "他长得像索菲娅。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u7.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107070,
+  "titleZh": "电话留言:改个时间", "goalZh": "会在语音信箱里留一条清楚的消息,并在回电时商量改时间", "canDoZh": "能在语音信箱里留一条清楚的消息,并在回电时商量改到另一个时间",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "en.answer", "kind": "word", "pos": "verb", "text": "answer", "zh": "接(电话);回答", "features": { "ipa": "ˈænsɚ" }, "noteZh": "w 不发音,读 /ˈænsɚ/;He isn't answering. 他没接电话。" },
+    { "id": "en.voicemail", "kind": "word", "pos": "noun", "text": "voicemail", "zh": "语音信箱;语音留言", "features": { "ipa": "ˈvɔɪsmeɪl" }, "noteZh": "v 是上齿轻碰下唇,别读成 w;It goes to voicemail. 转到语音信箱了。" },
+    { "id": "en.message", "kind": "word", "pos": "noun", "text": "message", "zh": "消息;留言", "features": { "ipa": "ˈmesɪdʒ" }, "noteZh": "重音在前 MES-sage,ss 读 /s/,ge 读 /dʒ/;a text message 一条短信。" },
+    { "id": "en.leave_a_message", "kind": "phrase", "pos": "phrase", "text": "leave a message", "zh": "留言", "features": { "ipa": "ˌliːv ə ˈmesɪdʒ" }, "noteZh": "Please leave a message. 请留言;leave 是长元音 /iː/,别读成 live /lɪv/。" },
+    { "id": "en.call_back", "kind": "phrase", "pos": "verb", "text": "call back", "zh": "回电话", "features": { "ipa": "ˌkɑːl ˈbæk" }, "noteZh": "Call me back. 给我回电话;宾语是代词时放中间:call me back,不说 call back me。" },
+    { "id": "en.instead", "kind": "word", "pos": "adv", "text": "instead", "zh": "改为;代替", "features": { "ipa": "ɪnˈsted" }, "noteZh": "Can we play on Sunday instead? 改到周日行吗?instead 一般放在句末;重音在后 in-STEAD,ea 读 /e/。" },
+    { "id": "en.hope", "kind": "word", "pos": "verb", "text": "hope", "zh": "希望", "features": { "ipa": "hoʊp" }, "noteZh": "I hope it's OK. 希望没问题;h 只是从喉咙轻轻呼气,嘴唇不碰牙齿,别读成 f。" }
+  ],
+  "reviewItems": ["en.cant", "en.have_to", "en.how_about", "en.early", "en.study"],
+  "lines": [
+    { "speaker": "lei", "text": "Oh, voicemail.", "zh": "(劳拉临时请磊周六去店里帮忙,磊赶紧给伊森打电话,响了半天没人接)哦,转到语音信箱了。", "items": ["en.voicemail"] },
+    { "speaker": "ethan", "text": "Hey, it's Ethan. Leave a message!", "zh": "(伊森的语音提示)嘿,我是伊森。请留言!", "items": ["en.hey", "en.leave_a_message"] },
+    { "speaker": "lei", "text": "Hi, Ethan. It's Lei. Sorry, I can't play on Saturday.", "zh": "嗨,伊森,我是磊。抱歉,周六我不能去打球了。", "items": ["en.hi", "en.sorry", "en.cant", "en.play", "en.saturday"] },
+    { "speaker": "lei", "text": "I have to work. Laura needs me at the cafe.", "zh": "我得上班,劳拉要我去店里帮忙。", "items": ["en.have_to", "en.work", "en.need", "en.cafe"] },
+    { "speaker": "lei", "text": "Can we play on Sunday instead? Call me back. Thanks!", "zh": "能不能改到周日打?给我回个电话。谢谢!", "items": ["en.can", "en.play", "en.sunday", "en.instead", "en.call_back", "en.thank_you"] },
+    { "speaker": "ethan", "text": "Hey, man! It's Ethan. Thanks for the message.", "zh": "(晚上伊森回电话)嘿,哥们儿!我是伊森。留言收到了,谢啦。", "items": ["en.hey", "en.thank_you", "en.message"] },
+    { "speaker": "ethan", "text": "No problem. Sunday is good. What time?", "zh": "没问题,周日可以。几点?", "items": ["en.no_problem", "en.sunday"] },
+    { "speaker": "lei", "text": "How about ten in the morning?", "zh": "上午十点怎么样?", "items": ["en.how_about", "en.morning"] },
+    { "speaker": "ethan", "text": "Ten? That's really early for me, man!", "zh": "十点?对我来说也太早了吧,哥们儿!", "items": ["en.really", "en.early"] },
+    { "speaker": "lei", "text": "Sorry! I hope it's OK. I have to study in the afternoon.", "zh": "不好意思!希望你能行。我下午得学习。", "items": ["en.sorry", "en.hope", "en.have_to", "en.study", "en.afternoon"] },
+    { "speaker": "ethan", "text": "OK, OK. Ten o'clock at the gym.", "zh": "好吧好吧。十点,健身房见。", "items": ["en.oclock", "en.gym"] },
+    { "speaker": "lei", "text": "Great! Sunday at ten is good. See you!", "zh": "太好了!周日十点没问题。回头见!", "items": ["en.great", "en.sunday", "en.see_you_later"] }
+  ],
+  "questions": [
+    { "prompt": "磊为什么周六不能去打球?", "options": ["他要写作业", "他要去咖啡馆上班", "他要去健身房"], "answer": 1, "explainZh": "磊在留言里说 I have to work. Laura needs me at the cafe.(我得上班,劳拉要我去店里帮忙。)" },
+    { "prompt": "磊在留言里请伊森做什么?", "options": ["给他回电话", "周六一起去上班", "给他发短信"], "answer": 0, "explainZh": "留言最后一句:Call me back. Thanks!(给我回个电话。谢谢!)" },
+    { "prompt": "他们最后约在什么时候?", "options": ["周日下午两点", "周六上午十点", "周日上午十点"], "answer": 2, "explainZh": "磊提议 How about ten in the morning?,伊森说 Ten o'clock at the gym.,磊确认 Sunday at ten is good.(周日十点没问题。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.voicemail_message", "titleZh": "语音留言怎么说",
+      "bodyZh": "打电话没人接,会转到语音信箱(voicemail)。听到 Leave a message!(请留言)以后,按这个顺序说:① 问候、自报姓名:Hi, Ethan. It's Lei.(电话里说“我是……”用 It's… 或 This is…,不说 I am Lei.)② 什么事:Sorry, I can't play on Saturday. I have to work. ③ 想怎么办:Can we play on Sunday instead? ④ 请对方回电:Call me back. Thanks!。留言要短,时间、地点说清楚。call back 的宾语是代词时放中间:call me back,不说 call back me。",
+      "examples": [
+        { "text": "Hi, Ethan. It's Lei.", "zh": "嗨,伊森,我是磊。" },
+        { "text": "Sorry, I can't come on Saturday. I have to work.", "zh": "抱歉,我周六来不了,我得上班。" },
+        { "text": "Call me back, OK? Thanks!", "zh": "给我回个电话,好吗?谢谢!" }
+      ] },
+    { "id": "en.g.instead_h_f", "titleZh": "改约:…instead? / Is … OK?;h 和 f 分清楚",
+      "bodyZh": "想换个时间,说 Can we … instead?(能不能改成……?),instead 放在句末:Can we play on Sunday instead?。也可以直接问 Is Sunday OK? 或 How about ten in the morning?。答应时说 Sunday at ten is good.(周日十点可以。)客气一点再加一句 I hope it's OK.(希望你没问题。)发音:have、hope、how 的 h 只是从喉咙轻轻呼气,嘴唇不碰牙齿;fun、free、five 的 f 是上齿轻碰下唇。四川口音容易把这两个音混读,读 hope 时注意别让嘴唇碰到牙齿。",
+      "examples": [
+        { "text": "Can we play on Sunday instead?", "zh": "能不能改到周日打?" },
+        { "text": "Is Sunday OK? — Sunday at ten is good.", "zh": "周日行吗?——周日十点可以。" },
+        { "text": "I hope it's OK. Have fun!", "zh": "希望没问题。玩得开心!" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "de.a1u14.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114085,
+  "titleZh": "我最好的朋友(保罗的演讲稿)", "goalZh": "读懂一篇描述朋友的短文:他长什么样、性格怎么样、两个人一起做什么;复习外貌和性格的词、mögen、denn", "canDoZh": "能读懂一篇描述朋友的短文,说出这个人的样子、性格和两人一起做什么",
+  "skills": ["read"], "estimatedMinutes": 14.5,
+  "newItems": [
+    { "id": "de.grundschule", "kind": "word", "pos": "noun", "text": "die Grundschule", "zh": "小学", "features": { "gender": "f", "plural": "die Grundschulen", "ipa": "ˈɡʁʊntˌʃuːlə" }, "noteZh": "der Grund(基础)+ die Schule,性跟 Schule 走;德国的小学一般是一到四年级。" },
+    { "id": "de.unordentlich", "kind": "word", "pos": "adj", "text": "unordentlich", "zh": "乱;不整齐", "features": { "ipa": "ˈʊnʔɔʁdn̩tlɪç" }, "noteZh": "un-(不)+ ordentlich(整齐);说人、说房间都可以:Sein Zimmer ist unordentlich.;-lich 读 [lɪç]。" }
+  ],
+  "reviewItems": ["de.klug", "de.geduldig", "de.moegen", "de.seit", "de.laptop", "de.denn"],
+  "lines": [
+    { "speaker": "paul", "text": "Mein Freund Max", "zh": "我的朋友 Max", "items": ["de.mein", "de.freund"] },
+    { "speaker": "paul", "text": "Ich kenne Max seit der Grundschule.", "zh": "我和 Max 从小学就认识了。", "items": ["de.ich", "de.kennen", "de.seit", "de.grundschule"] },
+    { "speaker": "paul", "text": "Er ist sehr groß und ein bisschen dünn.", "zh": "他个子很高,有点瘦。", "items": ["de.er", "de.sein", "de.sehr", "de.gross", "de.und", "de.ein_bisschen", "de.duenn"] },
+    { "speaker": "paul", "text": "Er hat kurze Haare und lacht immer.", "zh": "他是短头发,总是笑呵呵的。", "items": ["de.er", "de.haben", "de.kurz", "de.haar", "de.und", "de.lachen", "de.immer"] },
+    { "speaker": "paul", "text": "Max ist sehr klug und hilft mir oft.", "zh": "Max 很聪明,常常帮我。", "items": ["de.sein", "de.sehr", "de.klug", "de.und", "de.helfen", "de.ich", "de.oft"] },
+    { "speaker": "paul", "text": "Er ist auch sehr geduldig.", "zh": "他也很有耐心。", "items": ["de.er", "de.sein", "de.auch", "de.sehr", "de.geduldig"] },
+    { "speaker": "paul", "text": "Aber manchmal ist er sehr unordentlich.", "zh": "不过他有时候很乱。", "items": ["de.aber", "de.manchmal", "de.sein", "de.er", "de.sehr", "de.unordentlich"] },
+    { "speaker": "paul", "text": "Wir spielen zusammen Fußball, jeden Mittwoch.", "zh": "我们一起踢足球,每个星期三都踢。", "items": ["de.wir", "de.spielen", "de.zusammen", "de.fussball", "de.jeder", "de.mittwoch"] },
+    { "speaker": "paul", "text": "Am Wochenende spielen wir oft am Laptop.", "zh": "周末我们常在笔记本电脑上玩游戏。", "items": ["de.am", "de.wochenende", "de.spielen", "de.wir", "de.oft", "de.laptop"] },
+    { "speaker": "paul", "text": "Jetzt lernt Max auch Chinesisch, denn er hat Wei bei uns kennengelernt.", "zh": "现在 Max 也学中文了,因为他在我们家认识了王伟。", "items": ["de.jetzt", "de.lernen", "de.auch", "de.chinesisch", "de.denn", "de.er", "de.haben", "de.bei", "de.wir", "de.kennenlernen"] },
+    { "speaker": "paul", "text": "Max sagt: Chinesisch ist schwer, aber toll!", "zh": "Max 说:中文很难,可是很棒!", "items": ["de.sagen", "de.chinesisch", "de.sein", "de.schwer", "de.aber", "de.toll"] },
+    { "speaker": "paul", "text": "Ich mag Max sehr!", "zh": "我非常喜欢 Max!", "items": ["de.ich", "de.moegen", "de.sehr"] }
+  ],
+  "questions": [
+    { "prompt": "保罗和 Max 从什么时候认识的?", "options": ["中学", "小学", "去年"], "answer": 1, "explainZh": "Ich kenne Max seit der Grundschule.(我和 Max 从小学就认识了。)" },
+    { "prompt": "Max 有什么缺点?", "options": ["有时候很乱", "不爱帮助别人", "说话太快"], "answer": 0, "explainZh": "Aber manchmal ist er sehr unordentlich.(不过他有时候很乱。)他其实很爱帮忙:Er hilft mir oft." },
+    { "prompt": "Max 为什么开始学中文?", "options": ["他要去中国旅行", "他喜欢中国菜", "他在保罗家认识了王伟"], "answer": 2, "explainZh": "Jetzt lernt Max auch Chinesisch, denn er hat Wei bei uns kennengelernt.(现在 Max 也学中文了,因为他在我们家认识了王伟。)bei uns 是“在我们家”。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_freund_beschreiben", "titleZh": "写一个朋友:外貌、性格、一起做什么",
+      "bodyZh": "按顺序写:① 认识多久:Ich kenne Max seit der Grundschule.(seit + 时间,动词用现在时——中文说“认识了”,德语不用完成时;seit 后面的第三格先当固定说法);② 外貌:Er ist groß und ein bisschen dünn. / Er hat kurze Haare.;③ 性格:Er ist klug und geduldig, aber manchmal unordentlich.;④ 一起做什么:Wir spielen zusammen Fußball.;⑤ 感受:Ich mag Max sehr!。说理由用 denn,后面是正常语序:…, denn er hat Wei bei uns kennengelernt.。\n小心 Freund 有两个意思:“朋友”和“男朋友”。像 Mein Freund Max 这样的标题,一般理解成“朋友”;可是 Sie hat einen Freund. 通常是“她有男朋友了”。",
+      "examples": [
+        { "text": "Ich kenne Max seit der Grundschule.", "zh": "我从小学就认识 Max。" },
+        { "text": "Er ist klug, aber manchmal unordentlich.", "zh": "他很聪明,不过有时候很乱。" },
+        { "text": "Ich mag Max sehr!", "zh": "我非常喜欢 Max!" }
+      ] }
+  ],
+  "review": "draft"
+}

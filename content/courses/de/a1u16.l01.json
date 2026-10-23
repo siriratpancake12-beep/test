@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u16.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-16 做饭与请客", "order": 116010,
+  "titleZh": "在每周集市", "goalZh": "会在集市上买菜:说要多少(一公斤、一磅、五百克)、问价格、看新不新鲜", "canDoZh": "能在集市上买菜:说要多少、问新不新鲜、问价格",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "de.wochenmarkt", "kind": "word", "pos": "noun", "text": "der Wochenmarkt", "zh": "(每周的)集市;农贸市场", "features": { "gender": "m", "plural": "die Wochenmärkte", "ipa": "ˈvɔxn̩ˌmaʁkt" }, "noteZh": "die Woche(星期)+ der Markt(市场):一周开一两次的露天集市,卖菜、水果、面包、奶酪;auf dem Wochenmarkt(在集市上)。" },
+    { "id": "de.frisch", "kind": "word", "pos": "adj", "text": "frisch", "zh": "新鲜的", "features": { "ipa": "fʁɪʃ" }, "noteZh": "Das Gemüse ist frisch.(蔬菜很新鲜。)名词前要加词尾:frische Tomaten(新鲜的西红柿);sch 读 [ʃ]。" },
+    { "id": "de.tomate", "kind": "word", "pos": "noun", "text": "die Tomate", "zh": "西红柿", "features": { "gender": "f", "plural": "die Tomaten", "ipa": "toˈmaːtə" }, "noteZh": "重音在 ma 上:to-MA-te;复数 die Tomaten;买菜多半说复数:ein Kilo Tomaten。" },
+    { "id": "de.gurke", "kind": "word", "pos": "noun", "text": "die Gurke", "zh": "黄瓜", "features": { "gender": "f", "plural": "die Gurken", "ipa": "ˈɡʊʁkə" }, "noteZh": "eine Gurke(一根黄瓜);德国的黄瓜很大,常论根买;r 在元音后面读得很轻。" },
+    { "id": "de.kirsche", "kind": "word", "pos": "noun", "text": "die Kirsche", "zh": "樱桃", "features": { "gender": "f", "plural": "die Kirschen", "ipa": "ˈkɪʁʃə" }, "noteZh": "六七月是德国樱桃的季节;ein Pfund Kirschen(一磅樱桃);ir 后面的 sch 读 [ʃ]。" },
+    { "id": "de.reif", "kind": "word", "pos": "adj", "text": "reif", "zh": "熟的(水果)", "features": { "ipa": "ʁaɪ̯f" }, "noteZh": "Die Kirschen sind reif.(樱桃熟了。)反义 nicht reif;ei 读 [aɪ̯]。" },
+    { "id": "de.pfund", "kind": "word", "pos": "noun", "text": "das Pfund", "zh": "磅(500 克)", "features": { "gender": "n", "plural": "die Pfunde", "ipa": "pfʊnt" }, "noteZh": "德国集市上的一磅 = 半公斤 = 500 克;数字后面不变:zwei Pfund Kirschen;pf 两个音都要读出来,嘴唇先闭再送气。" },
+    { "id": "de.gramm", "kind": "word", "pos": "noun", "text": "das Gramm", "zh": "克", "features": { "gender": "n", "plural": "die Gramme", "ipa": "ɡʁam" }, "noteZh": "数字后面不用复数:fünfhundert Gramm(500 克)、hundert Gramm(100 克);写作 g:200 g。" },
+    { "id": "de.kraut", "kind": "word", "pos": "noun", "text": "das Kraut", "zh": "香草(调味的草叶);(南德)卷心菜", "features": { "gender": "n", "plural": "die Kräuter", "ipa": "kʁaʊ̯t" }, "noteZh": "做饭说的“香草”一般用复数:frische Kräuter(新鲜香草,比如香菜、欧芹);复数变音 Kräuter,äu 读 [ɔʏ̯]。" }
+  ],
+  "reviewItems": ["de.kilo", "de.probieren", "de.suess", "de.halb", "de.das_macht"],
+  "lines": [
+    { "speaker": "sofia", "text": "Hier ist der Wochenmarkt! Das Gemüse ist hier sehr frisch.", "zh": "(周六上午)这就是每周集市!这儿的菜特别新鲜。", "items": ["de.hier", "de.sein", "de.wochenmarkt", "de.gemuese", "de.sehr", "de.frisch"] },
+    { "speaker": "verkaeufer", "text": "Guten Morgen! Tomaten, Gurken, Kirschen! Probieren Sie!", "zh": "早上好!西红柿、黄瓜、樱桃!尝尝吧!", "items": ["de.guten_morgen", "de.tomate", "de.gurke", "de.kirsche", "de.probieren", "de.sie_hoeflich"] },
+    { "speaker": "sofia", "text": "Guten Morgen! Ein Kilo Tomaten und eine Gurke, bitte.", "zh": "早上好!要一公斤西红柿和一根黄瓜。", "items": ["de.guten_morgen", "de.ein", "de.kilo", "de.tomate", "de.und", "de.gurke", "de.bitte"] },
+    { "speaker": "verkaeufer", "text": "Gern. Und die Kirschen sind schön reif und süß.", "zh": "好嘞。这樱桃熟得正好,很甜。", "items": ["de.gern", "de.und", "de.kirsche", "de.sein", "de.schoen", "de.reif", "de.suess"] },
+    { "speaker": "wei", "text": "Was kosten die Kirschen?", "zh": "樱桃多少钱?", "items": ["de.was", "de.kosten", "de.kirsche"] },
+    { "speaker": "verkaeufer", "text": "Ein Pfund kostet drei Euro.", "zh": "一磅三欧元。", "items": ["de.ein", "de.pfund", "de.kosten", "de.drei", "de.euro"] },
+    { "speaker": "wei", "text": "Ein Pfund? Wie viel ist das?", "zh": "一磅?那是多少?", "items": ["de.ein", "de.pfund", "de.wie_viel", "de.das_ist"] },
+    { "speaker": "sofia", "text": "Ein Pfund ist ein halbes Kilo, fünfhundert Gramm.", "zh": "一磅就是半公斤,五百克。", "items": ["de.ein", "de.pfund", "de.sein", "de.halb", "de.kilo", "de.fuenf", "de.hundert", "de.gramm"] },
+    { "speaker": "wei", "text": "Dann ein Pfund Kirschen, bitte. Und frische Kräuter!", "zh": "那就要一磅樱桃。再来点新鲜香草!", "items": ["de.dann", "de.ein", "de.pfund", "de.kirsche", "de.bitte", "de.und", "de.frisch", "de.kraut"] },
+    { "speaker": "verkaeufer", "text": "Hier, bitte. Das macht neun Euro fünfzig.", "zh": "给您。一共九欧五十。", "items": ["de.hier", "de.bitte", "de.das_macht", "de.neun", "de.euro", "de.fuenfzig"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅买了多少西红柿?", "options": ["五百克", "一公斤", "一磅"], "answer": 1, "explainZh": "索菲娅说:Ein Kilo Tomaten und eine Gurke, bitte.(要一公斤西红柿和一根黄瓜。)" },
+    { "prompt": "一磅樱桃多少钱?", "options": ["九欧五十", "五欧元", "三欧元"], "answer": 2, "explainZh": "摊主说:Ein Pfund kostet drei Euro.(一磅三欧元。)九欧五十是最后一共的钱。" },
+    { "prompt": "一磅是多少?", "options": ["半公斤,五百克", "一公斤", "一百克"], "answer": 0, "explainZh": "索菲娅说:Ein Pfund ist ein halbes Kilo, fünfhundert Gramm.(一磅就是半公斤,五百克。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u16_mengen", "titleZh": "数量的说法:ein Kilo Tomaten、ein Pfund Kirschen",
+      "bodyZh": "说“多少 + 什么”,量词后面直接跟名词,不加“的”,也不像英语那样加 of:ein Kilo Tomaten(一公斤西红柿,英语 a kilo of tomatoes)、ein Pfund Kirschen(一磅樱桃)、fünfhundert Gramm Käse(500 克奶酪)。\n数字后面的 Kilo、Pfund、Gramm 不用复数:zwei Kilo、drei Pfund、hundert Gramm(✗ zwei Kilos)。\n“半公斤”说 ein halbes Kilo——halb 在中性名词前加 -es。德国集市上常说 ein Pfund = 500 Gramm。\n论个买的东西直接用数字:eine Gurke、zwei Gurken、zehn Eier。",
+      "examples": [
+        { "text": "Ein Kilo Tomaten, bitte.", "zh": "要一公斤西红柿。" },
+        { "text": "Ein Pfund ist ein halbes Kilo.", "zh": "一磅就是半公斤。" },
+        { "text": "Fünfhundert Gramm Kirschen, bitte.", "zh": "要五百克樱桃。" }
+      ] },
+    { "id": "de.g.u16_markt_fragen", "titleZh": "在集市上问价钱:Was kostet …? / Was kosten …?",
+      "bodyZh": "问一样东西用 kostet,问复数的东西用 kosten:Was kostet ein Pfund?(一磅多少钱?)/ Was kosten die Kirschen?(樱桃多少钱?)\n摊主常说:Probieren Sie!(尝尝吧!)——Sie 的命令式;Das macht neun Euro fünfzig.(一共九欧五十。)\n价格的读法:9,50 € 读 neun Euro fünfzig,不说 ✗ neun Komma fünfzig Euro。\n集市上很多摊位只收现金,出门前带点零钱。",
+      "examples": [
+        { "text": "Was kosten die Kirschen?", "zh": "樱桃多少钱?" },
+        { "text": "Ein Pfund kostet drei Euro.", "zh": "一磅三欧元。" },
+        { "text": "Das macht neun Euro fünfzig.", "zh": "一共九欧五十。" }
+      ] }
+  ],
+  "review": "draft"
+}

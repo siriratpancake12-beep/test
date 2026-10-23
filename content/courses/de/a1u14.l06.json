@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u14.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114060,
+  "titleZh": "霍夫曼先生的老照片", "goalZh": "会看着老照片说一个人以前的样子(war / hatte、aussehen),听懂和读出年份、年代", "canDoZh": "能看着照片说一个人以前的样子,听懂和说出年份和年代",
+  "skills": ["listen", "speak"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.album", "kind": "word", "pos": "noun", "text": "das Album", "zh": "相册", "features": { "gender": "n", "plural": "die Alben", "ipa": "ˈalbʊm" }, "noteZh": "中性:das Album,复数 die Alben;相册也叫 das Fotoalbum(Foto + Album)。" },
+    { "id": "de.siebzigerjahre", "kind": "word", "pos": "noun", "text": "die Siebzigerjahre", "zh": "七十年代", "features": { "gender": "pl", "ipa": "ˈziːptsɪɡɐˌjaːʁə" }, "noteZh": "只用复数:in den Siebzigerjahren(在七十年代);也写成 70er-Jahre;同样的说法:die Achtzigerjahre(八十年代)。" },
+    { "id": "de.bart", "kind": "word", "pos": "noun", "text": "der Bart", "zh": "胡子", "features": { "gender": "m", "plural": "die Bärte", "ipa": "baːɐ̯t" }, "noteZh": "einen Bart haben(留胡子);复数变元音 die Bärte;a 是长音。" },
+    { "id": "de.uniform", "kind": "word", "pos": "noun", "text": "die Uniform", "zh": "制服", "features": { "gender": "f", "plural": "die Uniformen", "ipa": "ˈʊnifɔʁm" }, "noteZh": "阴性:die Uniform;重音一般在前,也有人读成 uni-FORM;eine Uniform tragen(穿制服)。" },
+    { "id": "de.hochzeit", "kind": "word", "pos": "noun", "text": "die Hochzeit", "zh": "婚礼", "features": { "gender": "f", "plural": "die Hochzeiten", "ipa": "ˈhɔxˌtsaɪ̯t" }, "noteZh": "hoch + die Zeit,但这里的 o 读短音 [ɔ];性跟 Zeit 走;结婚这个动作是 heiraten。" },
+    { "id": "de.verheiratet", "kind": "word", "pos": "adj", "text": "verheiratet", "zh": "已婚的", "features": { "ipa": "fɛɐ̯ˈhaɪ̯ʁaːtət" }, "noteZh": "表格上常见:verheiratet(已婚)/ ledig(未婚);Wir waren 40 Jahre verheiratet.(我们结婚 40 年。)v 读 [f]。" },
+    { "id": "de.modern", "kind": "word", "pos": "adj", "text": "modern", "zh": "现代;时髦", "features": { "ipa": "moˈdɛʁn" }, "noteZh": "重音在后:mo-DERN;Der Bahnhof ist heute sehr modern.;反义词 altmodisch(老式的)。" },
+    { "id": "de.opa", "kind": "word", "pos": "noun", "text": "der Opa", "zh": "爷爷;外公", "features": { "gender": "m", "plural": "die Opas", "ipa": "ˈoːpa" }, "noteZh": "口语:der Opa / die Oma;正式一点说 der Großvater;复数加 -s:die Opas。" }
+  ],
+  "reviewItems": ["de.aussehen", "de.jung", "de.lieb", "de.lang", "de.gluecklich", "de.zeigen"],
+  "lines": [
+    { "speaker": "hoffmann", "text": "Kommen Sie, ich zeige Ihnen mein Album.", "zh": "来,我给你们看看我的相册。", "items": ["de.ich_komme_aus", "de.sie_hoeflich", "de.ich", "de.zeigen", "de.mein", "de.album"] },
+    { "speaker": "hoffmann", "text": "Das bin ich, in den Siebzigerjahren.", "zh": "这是我,七十年代的时候。", "items": ["de.sein", "de.ich", "de.in", "de.siebzigerjahre"] },
+    { "speaker": "sofia", "text": "Herr Hoffmann, Sie sehen hier sehr jung aus!", "zh": "霍夫曼先生,您这张看起来好年轻啊!", "items": ["de.herr", "de.sie_hoeflich", "de.aussehen", "de.hier", "de.sehr", "de.jung"] },
+    { "speaker": "wei", "text": "Und Sie hatten lange Haare und einen Bart!", "zh": "而且您那时留着长头发,还有胡子!", "items": ["de.und", "de.sie_hoeflich", "de.haben", "de.lang", "de.haar", "de.ein", "de.bart"] },
+    { "speaker": "hoffmann", "text": "Ja! Hier trage ich meine Uniform. Ich habe jeden Tag Züge gefahren.", "zh": "是啊!这张我穿着制服。那时我每天都开火车。", "items": ["de.ja", "de.hier", "de.tragen", "de.ich", "de.mein", "de.uniform", "de.haben", "de.jeder", "de.tag", "de.zug", "de.fahren"] },
+    { "speaker": "sofia", "text": "Und wer ist die Frau hier? Sie sieht sehr glücklich aus.", "zh": "这位女士是谁?她看起来好幸福。", "items": ["de.und", "de.wer", "de.sein", "de.frau", "de.hier", "de.sie_sg", "de.aussehen", "de.sehr", "de.gluecklich"] },
+    { "speaker": "hoffmann", "text": "Das ist meine Frau. Das Foto ist von unserer Hochzeit.", "zh": "这是我太太。这张是我们婚礼的照片。", "items": ["de.das_ist", "de.mein", "de.frau", "de.foto", "de.sein", "de.von", "de.unser", "de.hochzeit"] },
+    { "speaker": "hoffmann", "text": "Wir waren vierzig Jahre verheiratet. Sie war sehr lieb.", "zh": "我们结婚四十年。她人特别好。", "items": ["de.wir", "de.sein", "de.vierzig", "de.jahr", "de.verheiratet", "de.sie_sg", "de.sehr", "de.lieb"] },
+    { "speaker": "wei", "text": "Das Foto ist sehr schön. Und das hier ist ein Bahnhof, oder?", "zh": "这张照片真美。这张是一个火车站,对吧?", "items": ["de.foto", "de.sein", "de.sehr", "de.schoen", "de.und", "de.das_ist", "de.hier", "de.ein", "de.bahnhof", "de.oder"] },
+    { "speaker": "hoffmann", "text": "Ja. Hinten steht das Jahr.", "zh": "对。照片背面写着年份。", "items": ["de.ja", "de.hinten", "de.stehen", "de.jahr"] },
+    { "speaker": "wei", "text": "Neunzehnhundertachtundsiebzig! Gibt es den Bahnhof noch?", "zh": "1978 年!这个火车站现在还在吗?", "items": ["de.neun", "de.zehn", "de.hundert", "de.acht", "de.und", "de.siebzig", "de.es_gibt", "de.bahnhof", "de.noch"] },
+    { "speaker": "hoffmann", "text": "Ja, aber heute ist er sehr modern. Und ich bin jetzt Opa!", "zh": "在,不过现在很现代了。我呢,现在都当外公了!", "items": ["de.ja", "de.aber", "de.heute", "de.sein", "de.er", "de.sehr", "de.modern", "de.und", "de.ich", "de.jetzt", "de.opa"] }
+  ],
+  "questions": [
+    { "prompt": "七十年代的霍夫曼先生是什么样子?", "options": ["短头发,没有胡子", "长头发,还有胡子", "戴眼镜,有点胖"], "answer": 1, "explainZh": "王伟说:Und Sie hatten lange Haare und einen Bart!(您那时留着长头发,还有胡子!)" },
+    { "prompt": "霍夫曼先生和太太结婚多少年?", "options": ["四十年", "十四年", "二十年"], "answer": 0, "explainZh": "霍夫曼先生说:Wir waren vierzig Jahre verheiratet.(我们结婚四十年。)vierzig 是 40,vierzehn 才是 14。" },
+    { "prompt": "火车站照片背面写的是哪一年?", "options": ["1987", "1968", "1978"], "answer": 2, "explainZh": "王伟读:Neunzehnhundertachtundsiebzig(1978)。德语先说 neunzehnhundert(1900),再说 achtundsiebzig(78,个位在前)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_jahre", "titleZh": "年份和年代怎么读",
+      "bodyZh": "1100 到 1999 年按“几个一百”读:1978 = neunzehnhundertachtundsiebzig(19 个一百 + 78,78 还是个位在前:acht-und-siebzig)。2000 年以后按“几千”读:2008 = zweitausendacht。年份前面一般不加介词:1978 war …;要加就说 im Jahr 1978,不能只说 in 1978(那是英语的说法)。\n年代用复数:die Siebzigerjahre(七十年代),“在七十年代”说 in den Siebzigerjahren。",
+      "examples": [
+        { "text": "Neunzehnhundertachtundsiebzig.", "zh": "1978。" },
+        { "text": "Das bin ich, in den Siebzigerjahren.", "zh": "这是七十年代的我。" }
+      ] },
+    { "id": "de.g.u14_altes_foto", "titleZh": "看老照片:Das bin ich. / Sie sehen hier jung aus.",
+      "bodyZh": "指着照片说:Das bin ich.(这是我。注意动词跟着 ich 用 bin)/ Das ist meine Frau.。说照片上的人看起来怎么样:Sie sehen hier sehr jung aus.(aussehen 复习);说以前的样子用 war / hatte:Sie hatten lange Haare und einen Bart. / Wir waren vierzig Jahre verheiratet.。\n小提示:fahren 说“去哪儿”时完成时用 sein(Ich bin nach Hamburg gefahren),说“开(车、火车)”带宾语时用 haben:Ich habe jeden Tag Züge gefahren.。",
+      "examples": [
+        { "text": "Sie sehen hier sehr jung aus!", "zh": "您这张看起来好年轻!" },
+        { "text": "Sie hatten lange Haare und einen Bart.", "zh": "您那时留着长头发,还有胡子。" }
+      ] }
+  ],
+  "review": "draft"
+}

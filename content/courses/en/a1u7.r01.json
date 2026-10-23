@@ -1,0 +1,39 @@
+{
+  "id": "en.a1u7.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-7 Free time & plans", "order": 107045,
+  "titleZh": "国际学生之夜节目单", "goalZh": "看懂活动海报和节目单,找出时间、地点、节目和要不要买票", "canDoZh": "能看懂活动海报和节目单,找出时间、地点、有什么节目、要不要买票",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+  "newItems": [
+    { "id": "en.country", "kind": "word", "pos": "noun", "text": "country", "zh": "国家", "features": { "ipa": "ˈkʌntri" }, "noteZh": "food from twenty countries 二十个国家的美食;ou 读 /ʌ/,和 cup 的元音一样;复数 countries。" },
+    { "id": "en.together", "kind": "word", "pos": "adv", "text": "together", "zh": "一起", "features": { "ipa": "təˈɡeðɚ" }, "noteZh": "sing together 一起唱;th 是浊音 /ð/,重音在中间 to-GE-ther。第 4 单元结账时的 Together or separate? 里也是它。" }
+  ],
+  "reviewItems": ["en.can", "en.dance", "en.sing", "en.listen_to", "en.join"],
+  "lines": [
+    { "speaker": "narrator", "text": "International Student Night!", "zh": "(学生中心门口的海报,最上面一行大字)国际学生之夜!", "items": ["en.international_student", "en.night"] },
+    { "speaker": "narrator", "text": "Friday night, 6:00 to 9:00, at the Student Center.", "zh": "周五晚上 6 点到 9 点,在学生中心。", "items": ["en.friday", "en.night"] },
+    { "speaker": "narrator", "text": "It's free! All students are welcome.", "zh": "免费入场!欢迎所有学生。", "items": ["en.free", "en.student", "en.welcome"] },
+    { "speaker": "narrator", "text": "Eat food from twenty countries!", "zh": "尝尝二十个国家的美食!", "items": ["en.eat", "en.food", "en.country"] },
+    { "speaker": "narrator", "text": "From China: Lei's really spicy Sichuan food!", "zh": "中国摊位:磊做的川菜,超级辣!", "items": ["en.really", "en.spicy", "en.food"] },
+    { "speaker": "narrator", "text": "At 7:00, watch Sofia dance! She's from Mexico.", "zh": "7 点:来看索菲亚跳舞!她来自墨西哥。", "items": ["en.watch", "en.dance"] },
+    { "speaker": "narrator", "text": "At 7:30, listen to Marcus on the guitar.", "zh": "7 点半:来听马库斯弹吉他。", "items": ["en.listen_to", "en.guitar"] },
+    { "speaker": "narrator", "text": "At 8:30, we all sing together!", "zh": "8 点半:大家一起唱歌!", "items": ["en.sing", "en.together"] },
+    { "speaker": "narrator", "text": "Can you sing, dance, or cook? Join the show!", "zh": "你会唱歌、跳舞或者做饭吗?来参加演出吧!", "items": ["en.can", "en.sing", "en.dance", "en.cook", "en.join", "en.show"] },
+    { "speaker": "narrator", "text": "Do you want to join? Text Amy in the group chat.", "zh": "想参加吗?在群里给艾米发消息。", "items": ["en.do_you_want_to", "en.join", "en.text", "en.group_chat"] },
+    { "speaker": "narrator", "text": "Come and have fun with us!", "zh": "来和我们一起玩吧!", "items": ["en.come", "en.have", "en.fun"] }
+  ],
+  "questions": [
+    { "prompt": "国际学生之夜在什么时候、什么地方?", "options": ["周五晚上 6 点到 9 点,在学生中心", "周六晚上 6 点到 9 点,在学生中心", "周五晚上 8 点,在市中心的剧院"], "answer": 0, "explainZh": "Friday night, 6:00 to 9:00, at the Student Center.(周五晚上 6 点到 9 点,在学生中心。)" },
+    { "prompt": "去国际学生之夜要买票吗?", "options": ["要,10 美元一张", "不用,免费入场", "学生免费,其他人要买票"], "answer": 1, "explainZh": "It's free! All students are welcome.(免费入场!欢迎所有学生。)" },
+    { "prompt": "8 点半有什么节目?", "options": ["索菲亚跳舞", "马库斯弹吉他", "大家一起唱歌"], "answer": 2, "explainZh": "At 8:30, we all sing together!(8 点半大家一起唱歌!)索菲亚 7 点跳舞,马库斯 7 点半弹吉他。" }
+  ],
+  "grammar": [
+    { "id": "en.g.poster_reading", "titleZh": "读海报:省略句、时间和地点",
+      "bodyZh": "海报为了醒目,常常只写关键词,省掉主语和动词:Free!(= It's free!)、From China: Lei's spicy Sichuan food!、Friday night, 6:00 to 9:00(= It's on Friday night, from 6:00 to 9:00.)。读的时候自己把意思补全。复习时间和地点的介词:钟点前用 at(at 7:30),星期前用 on(on Friday),在某个地方用 at(at the Student Center)。海报上的 Can you sing, dance, or cook? 是在找人来表演,这里的 can 是“会”。",
+      "examples": [
+        { "text": "It's free! All students are welcome.", "zh": "免费入场!欢迎所有学生。" },
+        { "text": "At 7:30, listen to Marcus on the guitar.", "zh": "7 点半,来听马库斯弹吉他。" },
+        { "text": "Can you dance? Join the show!", "zh": "你会跳舞吗?来参加演出吧!" }
+      ] }
+  ],
+  "review": "draft"
+}

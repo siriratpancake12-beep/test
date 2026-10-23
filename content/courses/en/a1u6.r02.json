@@ -1,0 +1,40 @@
+{
+  "id": "en.a1u6.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-6 Shopping", "order": 106085,
+  "titleZh": "寄给妈妈的生日卡", "goalZh": "读懂并会写一张简短的生日贺卡:祝福、说说礼物、表达想念", "canDoZh": "能读懂并写一张简短的生日贺卡:祝福、说说礼物、表达想念",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 14.5,
+  "newItems": [
+    { "id": "en.happy_birthday", "kind": "phrase", "pos": "phrase", "text": "Happy birthday", "zh": "生日快乐", "features": { "ipa": "ˌhæpi ˈbɝːθdeɪ" }, "noteZh": "也可以说 Happy birthday to you!;happy 的 a 是 /æ/,嘴张大;birthday 的 th 是清音 /θ/。" },
+    { "id": "en.dear", "kind": "word", "pos": "adj", "text": "dear", "zh": "亲爱的(信的开头)", "features": { "ipa": "dɪr" }, "noteZh": "写信、贺卡的开头:Dear Mom,——后面用逗号,不用冒号;ear 读 /ɪr/,要卷舌。" }
+  ],
+  "reviewItems": ["en.scarf", "en.gift", "en.on_sale", "en.new", "en.miss"],
+  "lines": [
+    { "speaker": "lei", "text": "Dear Mom, happy birthday!", "zh": "(磊夹在围巾里的生日卡,背面写着中文翻译)亲爱的妈妈,生日快乐!", "items": ["en.dear", "en.mom", "en.happy_birthday"] },
+    { "speaker": "lei", "text": "This scarf is your birthday gift from Seattle.", "zh": "这条围巾是我从西雅图寄给你的生日礼物。", "items": ["en.scarf", "en.birthday", "en.gift"] },
+    { "speaker": "lei", "text": "You love red, but there's no red one.", "zh": "你喜欢红色,可是店里没有红色的。", "items": ["en.love", "en.red", "en.this_one"] },
+    { "speaker": "lei", "text": "My friend Sofia and I like this light gray one.", "zh": "我和朋友索菲亚都喜欢这条浅灰色的。", "items": ["en.friend", "en.like", "en.this_one", "en.light", "en.gray"] },
+    { "speaker": "lei", "text": "It's beautiful, and it's really warm.", "zh": "它很漂亮,也很暖和。", "items": ["en.beautiful", "en.really", "en.warm"] },
+    { "speaker": "lei", "text": "It's not expensive. It's on sale this week!", "zh": "也不贵,这周正在打折!", "items": ["en.expensive", "en.on_sale", "en.week"] },
+    { "speaker": "lei", "text": "Seattle is cold, and it rains really often.", "zh": "西雅图很冷,还经常下雨。", "items": ["en.cold", "en.rain", "en.really", "en.often"] },
+    { "speaker": "lei", "text": "But I have a new jacket, so I'm OK.", "zh": "不过我买了一件新外套,所以没事。", "items": ["en.have", "en.new", "en.jacket"] },
+    { "speaker": "lei", "text": "I'm good here, and I have great friends.", "zh": "我在这儿挺好的,还有几个很好的朋友。", "items": ["en.im_good", "en.have", "en.great", "en.friend"] },
+    { "speaker": "lei", "text": "But I miss you, Dad, and Grandma.", "zh": "可是我很想你,也想爸爸和奶奶。", "items": ["en.miss", "en.dad", "en.grandma"] },
+    { "speaker": "lei", "text": "I love you, Mom!", "zh": "妈妈,我爱你!", "items": ["en.love", "en.mom"] },
+    { "speaker": "lei", "text": "Love, Lei", "zh": "爱你的磊", "items": ["en.love"] }
+  ],
+  "questions": [
+    { "prompt": "磊送给妈妈的生日礼物是什么?", "options": ["一件外套", "一条围巾", "一件毛衣"], "answer": 1, "explainZh": "This scarf is your birthday gift from Seattle.(这条围巾是我从西雅图寄给你的生日礼物。)" },
+    { "prompt": "围巾是什么颜色?为什么不是红色?", "options": ["浅灰色,店里没有红色的", "深蓝色,妈妈不喜欢红色", "浅灰色,红色的太贵了"], "answer": 0, "explainZh": "You love red, but there's no red one.(你喜欢红色,可是没有红色的。)磊和索菲亚挑了 this light gray one(这条浅灰色的)。" },
+    { "prompt": "磊说他在西雅图过得怎么样?", "options": ["天气很好,一点也不想家", "很冷,想马上回家", "挺好的,有好朋友,但想念家人"], "answer": 2, "explainZh": "I'm good here, and I have great friends.(我在这儿挺好的,还有很好的朋友。)But I miss you, Dad, and Grandma.(可是我很想你们。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.card_format", "titleZh": "贺卡怎么写:Dear… / Love, …",
+      "bodyZh": "英文贺卡和信的开头写 Dear + 称呼:Dear Mom,(亲爱的妈妈:)——中文称呼后面用冒号,英文用逗号。接着写祝福 Happy birthday!,再用几句短句说说礼物和近况。结尾给家人、好朋友写 Love, + 名字:Love, Lei(爱你的磊),Love 后面也是逗号;给老师写邮件一般不用 Love。最后常用 I miss you. / I love you.(第 2 单元学过)表达想念。",
+      "examples": [
+        { "text": "Dear Mom, happy birthday!", "zh": "亲爱的妈妈,生日快乐!" },
+        { "text": "I miss you. I love you!", "zh": "我想你。我爱你!" },
+        { "text": "Love, Lei", "zh": "爱你的磊" }
+      ] }
+  ],
+  "review": "draft"
+}

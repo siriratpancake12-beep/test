@@ -1,0 +1,196 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-16 做饭与请客", "cefr": "A1", "themeZh": "六月,一起做饭和请客:在每周集市买菜、商量做什么菜、看菜谱、在厨房里帮忙、约纳斯教土豆沙拉、王伟教包饺子、公园烧烤,请瓦格纳老师来 WG 吃饭。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u16.l01", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116010,
+      "titleZh": "在每周集市",
+      "goalZh": "会在集市上买菜:说要多少(一公斤、一磅、五百克)、问价格、看新不新鲜",
+      "canDoZh": "能在集市上买菜:说要多少、问新不新鲜、问价格",
+      "scenarioZh": "周六上午,索菲娅带王伟去附近的每周集市(der Wochenmarkt):买西红柿、黄瓜、草莓、土豆、鸡蛋和新鲜香草;男摊主大声招呼,让他们尝草莓;索菲娅说要 ein Kilo、ein halbes Kilo、500 Gramm,王伟问 Sind die Erdbeeren frisch? Was kosten 100 Gramm?。说话人:verkaeufer、sofia、wei。(课文:Erdbeere 是第 13 单元的词,还没定,换成六月正当季的樱桃 Kirschen;王伟第一次听到 ein Pfund,索菲娅解释是半公斤;Cent 也是第 13 单元的词,价格说整数欧元。)",
+      "grammarFocusZh": "数量:ein Kilo / ein halbes Kilo / ein Pfund / 500 Gramm / eine Gurke(量词后面直接跟名词);Was kostet … / Was kosten …? 复习",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+      "newItems": [
+        { "id": "de.wochenmarkt", "kind": "word", "pos": "noun", "text": "der Wochenmarkt", "zh": "(每周的)集市;农贸市场", "features": { "gender": "m", "plural": "die Wochenmärkte", "ipa": "ˈvɔxn̩ˌmaʁkt" }, "noteZh": "die Woche(星期)+ der Markt(市场):一周开一两次的露天集市,卖菜、水果、面包、奶酪;auf dem Wochenmarkt(在集市上)。" },
+        { "id": "de.frisch", "kind": "word", "pos": "adj", "text": "frisch", "zh": "新鲜的", "features": { "ipa": "fʁɪʃ" }, "noteZh": "Das Gemüse ist frisch.(蔬菜很新鲜。)名词前要加词尾:frische Tomaten(新鲜的西红柿);sch 读 [ʃ]。" },
+        { "id": "de.tomate", "kind": "word", "pos": "noun", "text": "die Tomate", "zh": "西红柿", "features": { "gender": "f", "plural": "die Tomaten", "ipa": "toˈmaːtə" }, "noteZh": "重音在 ma 上:to-MA-te;复数 die Tomaten;买菜多半说复数:ein Kilo Tomaten。" },
+        { "id": "de.gurke", "kind": "word", "pos": "noun", "text": "die Gurke", "zh": "黄瓜", "features": { "gender": "f", "plural": "die Gurken", "ipa": "ˈɡʊʁkə" }, "noteZh": "eine Gurke(一根黄瓜);德国的黄瓜很大,常论根买;r 在元音后面读得很轻。" },
+        { "id": "de.kirsche", "kind": "word", "pos": "noun", "text": "die Kirsche", "zh": "樱桃", "features": { "gender": "f", "plural": "die Kirschen", "ipa": "ˈkɪʁʃə" }, "noteZh": "六七月是德国樱桃的季节;ein Pfund Kirschen(一磅樱桃);ir 后面的 sch 读 [ʃ]。" },
+        { "id": "de.reif", "kind": "word", "pos": "adj", "text": "reif", "zh": "熟的(水果)", "features": { "ipa": "ʁaɪ̯f" }, "noteZh": "Die Kirschen sind reif.(樱桃熟了。)反义 nicht reif;ei 读 [aɪ̯]。" },
+        { "id": "de.pfund", "kind": "word", "pos": "noun", "text": "das Pfund", "zh": "磅(500 克)", "features": { "gender": "n", "plural": "die Pfunde", "ipa": "pfʊnt" }, "noteZh": "德国集市上的一磅 = 半公斤 = 500 克;数字后面不变:zwei Pfund Kirschen;pf 两个音都要读出来,嘴唇先闭再送气。" },
+        { "id": "de.gramm", "kind": "word", "pos": "noun", "text": "das Gramm", "zh": "克", "features": { "gender": "n", "plural": "die Gramme", "ipa": "ɡʁam" }, "noteZh": "数字后面不用复数:fünfhundert Gramm(500 克)、hundert Gramm(100 克);写作 g:200 g。" },
+        { "id": "de.kraut", "kind": "word", "pos": "noun", "text": "das Kraut", "zh": "香草(调味的草叶);(南德)卷心菜", "features": { "gender": "n", "plural": "die Kräuter", "ipa": "kʁaʊ̯t" }, "noteZh": "做饭说的“香草”一般用复数:frische Kräuter(新鲜香草,比如香菜、欧芹);复数变音 Kräuter,äu 读 [ɔʏ̯]。" }
+      ],
+      "reviewItems": ["de.kilo", "de.probieren", "de.suess", "de.halb", "de.das_macht"]
+    },
+    {
+      "id": "de.a1u16.l02", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116020,
+      "titleZh": "今天做什么菜?",
+      "goalZh": "会和朋友商量做什么菜、需要什么材料,说家里还有什么、什么已经没有了",
+      "canDoZh": "能和朋友商量做什么菜、需要什么材料、家里还有什么",
+      "scenarioZh": "约纳斯答应过给大家做饭赔罪,周日他要做德国菜:土豆沙拉和肉饼(die Frikadelle)。他和王伟检查冰箱:还有什么、缺什么(Haben wir noch Zwiebeln? – Nein, wir haben keine Zwiebeln mehr.);王伟去楼下超市补买。说话人:jonas、wei。(课文:约纳斯做的是他奶奶的菜谱;王伟去拐角的超市——楼下是面包店;第 11 单元的情节还没定,课文没写为什么请客。)",
+      "grammarFocusZh": "kein … mehr / noch(Wir haben keine Zwiebeln mehr / noch zwei Eier);wie viele + 复数和 wie viel + 不可数名词(Wie viele Kartoffeln? Wie viel Senf?)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+      "newItems": [
+        { "id": "de.kartoffelsalat", "kind": "word", "pos": "noun", "text": "der Kartoffelsalat", "zh": "土豆沙拉", "features": { "gender": "m", "plural": "die Kartoffelsalate", "ipa": "kaˈtɔfl̩zaˌlaːt" }, "noteZh": "die Kartoffel + der Salat,性看最后一部分:der Kartoffelsalat;德国人聚会、烧烤最常见的菜,各家做法都不一样。" },
+        { "id": "de.frikadelle", "kind": "word", "pos": "noun", "text": "die Frikadelle", "zh": "(煎)肉饼", "features": { "gender": "f", "plural": "die Frikadellen", "ipa": "fʁikaˈdɛlə" }, "noteZh": "用肉馅、鸡蛋、洋葱和面包做的小肉饼,柏林叫 die Bulette;重音在 del 上。" },
+        { "id": "de.rezept", "kind": "word", "pos": "noun", "text": "das Rezept", "zh": "菜谱;(医生开的)处方", "features": { "gender": "n", "plural": "die Rezepte", "ipa": "ʁeˈtsɛpt" }, "noteZh": "Das ist ein Rezept von meiner Oma.(这是我奶奶的菜谱。)重音在 zept 上,z 读 [ts];看病时医生开的处方也叫 Rezept。" },
+        { "id": "de.hackfleisch", "kind": "word", "pos": "noun", "text": "das Hackfleisch", "zh": "肉馅;绞肉", "features": { "gender": "n", "plural": "-", "ipa": "ˈhakˌflaɪ̯ʃ" }, "noteZh": "hacken(剁)+ das Fleisch;做肉饼、包饺子都用;不可数:ein Pfund Hackfleisch。" },
+        { "id": "de.senf", "kind": "word", "pos": "noun", "text": "der Senf", "zh": "芥末酱(黄芥末)", "features": { "gender": "m", "plural": "-", "ipa": "zɛnf" }, "noteZh": "德国人吃香肠、肉饼常配 Senf,比中国的绿芥末温和得多;不可数。" },
+        { "id": "de.wenig", "kind": "word", "pos": "adj", "text": "wenig", "zh": "少;不多", "features": { "ipa": "ˈveːnɪç" }, "noteZh": "zu wenig(太少)、ein wenig(一点儿);反义 viel;词尾 -ig 读 [ɪç]。" },
+        { "id": "de.oel", "kind": "word", "pos": "noun", "text": "das Öl", "zh": "油", "features": { "gender": "n", "plural": "die Öle", "ipa": "øːl" }, "noteZh": "eine Flasche Öl(一瓶油);ö 是长音 [øː]:先发 e,嘴唇再撮圆。" },
+        { "id": "de.essig", "kind": "word", "pos": "noun", "text": "der Essig", "zh": "醋", "features": { "gender": "m", "plural": "-", "ipa": "ˈɛsɪç" }, "noteZh": "德国的土豆沙拉常用醋和油拌;词尾 -ig 读 [ɪç];和 essen 没关系。" }
+      ],
+      "reviewItems": ["de.zwiebel", "de.mehr", "de.kilo", "de.flasche", "de.ecke"]
+    },
+    {
+      "id": "de.a1u16.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116030,
+      "titleZh": "先煮土豆:菜谱的说法",
+      "goalZh": "看懂菜谱里的不定式和 Sie 的命令式,会说放多少、按顺序说做法",
+      "canDoZh": "能看懂菜谱里的步骤,也能按顺序说出一道菜的做法",
+      "scenarioZh": "约纳斯在厨房一边做一边教王伟做土豆沙拉:Zuerst die Kartoffeln kochen, dann schneiden …;王伟问 Wie viel Salz?,约纳斯说 Etwas Salz, nicht viel!;王伟翻开约纳斯的菜谱书,上面写的是 Kochen Sie die Kartoffeln …,约纳斯解释菜谱里常用不定式或者 Sie 的命令式。说话人:jonas、wei。(课文:zuerst、etwas 是第 9、10 单元的词,还没定,约纳斯说 Kartoffeln kochen, dann schälen …、Ein bisschen Salz, nicht viel!;菜谱书是王伟带来的。)",
+      "grammarFocusZh": "菜谱的两种写法:不定式放句末(Die Kartoffeln zwanzig Minuten kochen)和 Sie 的命令式(Kochen Sie die Kartoffeln!);ein bisschen / viel / ein Esslöffel + 名词;按顺序说:dann / jetzt / Fertig!",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.schaelen", "kind": "word", "pos": "verb", "text": "schälen", "zh": "削皮;剥皮", "features": { "ipa": "ˈʃɛːlən" }, "noteZh": "Kartoffeln schälen(给土豆削皮);ä 是长音 [ɛː];规则动词:ich schäle, du schälst。" },
+        { "id": "de.schneiden", "kind": "word", "pos": "verb", "text": "schneiden", "zh": "切", "features": { "ipa": "ˈʃnaɪ̯dn̩" }, "noteZh": "in Scheiben schneiden(切成片)、klein schneiden(切碎);完成时不规则:geschnitten;du schneidest, er schneidet。" },
+        { "id": "de.scheibe", "kind": "word", "pos": "noun", "text": "die Scheibe", "zh": "片", "features": { "gender": "f", "plural": "die Scheiben", "ipa": "ˈʃaɪ̯bə" }, "noteZh": "in Scheiben(切成片);eine Scheibe Brot / Käse(一片面包、奶酪)——量词后面直接跟名词。" },
+        { "id": "de.salz", "kind": "word", "pos": "noun", "text": "das Salz", "zh": "盐", "features": { "gender": "n", "plural": "-", "ipa": "zalts" }, "noteZh": "ein bisschen Salz(一点盐);词首 s 读 [z],词尾 z 读 [ts];不可数。" },
+        { "id": "de.pfeffer", "kind": "word", "pos": "noun", "text": "der Pfeffer", "zh": "胡椒", "features": { "gender": "m", "plural": "-", "ipa": "ˈpfɛfɐ" }, "noteZh": "Salz und Pfeffer(盐和胡椒)常一起说;pf 先闭嘴唇再送气,别读成 f;不可数。" },
+        { "id": "de.kochbuch", "kind": "word", "pos": "noun", "text": "das Kochbuch", "zh": "菜谱书", "features": { "gender": "n", "plural": "die Kochbücher", "ipa": "ˈkɔxˌbuːx" }, "noteZh": "kochen + das Buch;复数变音 die Kochbücher;两个 ch 都在后元音后面,读 [x]。" },
+        { "id": "de.essloeffel", "kind": "word", "pos": "noun", "text": "der Esslöffel", "zh": "汤匙;一大勺(菜谱的量)", "features": { "gender": "m", "plural": "die Esslöffel", "ipa": "ˈɛsˌlœfl̩" }, "noteZh": "essen + der Löffel(勺子);菜谱写 EL:zwei Esslöffel Öl(两大勺油);单复数同形。" },
+        { "id": "de.mischen", "kind": "word", "pos": "verb", "text": "mischen", "zh": "混合;拌", "features": { "ipa": "ˈmɪʃn̩" }, "noteZh": "Wir mischen alles.(我们把所有东西拌在一起。)规则动词:du mischst, er mischt。" }
+      ],
+      "reviewItems": ["de.kartoffelsalat", "de.minute", "de.ein_bisschen", "de.fertig", "de.sagen"]
+    },
+    {
+      "id": "de.a1u16.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116040,
+      "titleZh": "在厨房帮忙",
+      "goalZh": "会在厨房里问能帮什么忙、请别人做事、提醒别人小心",
+      "canDoZh": "能在厨房里问要做什么、请别人递东西、提醒别人小心",
+      "scenarioZh": "周日下午大家在厨房帮约纳斯:索菲娅洗菜,王伟切洋葱切得流眼泪;约纳斯说 Gib mir bitte das Messer! Pass auf, das ist heiß!(aufpassen);莉娜带着保罗来了,保罗只想尝、不想干活。说话人:jonas、sofia、wei、lena、paul。(课文:geben 是第 12 单元的词,还没定,约纳斯说 Pass auf, die Pfanne auf dem Herd ist heiß!;索菲娅做沙拉,让保罗切黄瓜;保罗说自己是客人、不干活。)",
+      "grammarFocusZh": "du 的命令式复习(Deck bitte den Tisch! / Pass auf! / Hilf Sofia!);Kann ich helfen? 主动帮忙;宾语放句首(Probieren kannst du nachher)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "de.decken", "kind": "word", "pos": "verb", "text": "decken", "zh": "铺;摆(桌子)", "features": { "ipa": "ˈdɛkn̩" }, "noteZh": "den Tisch decken(摆桌子:放盘子、刀叉)是固定搭配;Deck bitte den Tisch!(请摆一下桌子!)ck 读 [k]。" },
+        { "id": "de.weinen", "kind": "word", "pos": "verb", "text": "weinen", "zh": "哭", "features": { "ipa": "ˈvaɪ̯nən" }, "noteZh": "Warum weinst du?(你为什么哭?)切洋葱会让人流泪;w 读 [v],ei 读 [aɪ̯]。" },
+        { "id": "de.pfanne", "kind": "word", "pos": "noun", "text": "die Pfanne", "zh": "平底锅;煎锅", "features": { "gender": "f", "plural": "die Pfannen", "ipa": "ˈpfanə" }, "noteZh": "in der Pfanne braten(在平底锅里煎);煮东西的深锅是 der Topf;pf 两个音都要读。" },
+        { "id": "de.herd", "kind": "word", "pos": "noun", "text": "der Herd", "zh": "灶;炉灶", "features": { "gender": "m", "plural": "die Herde", "ipa": "heːɐ̯t" }, "noteZh": "auf dem Herd(在灶上);德国家里多半是电灶;词尾 d 读 [t]。" },
+        { "id": "de.aufpassen", "kind": "word", "pos": "verb", "text": "aufpassen", "zh": "小心;注意", "features": { "ipa": "ˈaʊ̯fˌpasn̩" }, "noteZh": "可分动词:Pass auf!(小心!)提醒别人时很常用;Pass auf, das ist heiß!(小心,烫!)" },
+        { "id": "de.riechen", "kind": "word", "pos": "verb", "text": "riechen", "zh": "闻;闻起来", "features": { "ipa": "ˈʁiːçn̩" }, "noteZh": "Das riecht gut!(好香!)和 schmecken(尝起来)一样,主语是东西;ie 后面的 ch 读 [ç]。" },
+        { "id": "de.nachher", "kind": "word", "pos": "adv", "text": "nachher", "zh": "待会儿;之后", "features": { "ipa": "naːxˈheːɐ̯" }, "noteZh": "Probieren kannst du nachher.(待会儿再尝。)反义 vorher(之前);ch 读 [x]。" },
+        { "id": "de.serviette", "kind": "word", "pos": "noun", "text": "die Serviette", "zh": "餐巾;餐巾纸", "features": { "gender": "f", "plural": "die Servietten", "ipa": "zɛʁˈvi̯ɛtə" }, "noteZh": "摆桌子时放在盘子旁边;法语来的词,重音在 vie 上;复数 die Servietten。" }
+      ],
+      "reviewItems": ["de.messer", "de.teller", "de.gabel", "de.gast", "de.probieren"]
+    },
+    {
+      "id": "de.a1u16.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116045,
+      "titleZh": "约纳斯的土豆沙拉菜谱",
+      "goalZh": "读懂一份完整的菜谱:几人份、材料和数量、做法步骤",
+      "canDoZh": "能读懂一份完整的菜谱:材料、数量和步骤",
+      "scenarioZh": "体裁:菜谱(约纳斯手写的卡片)。土豆沙拉(4 人份):材料和数量(1 Kilo Kartoffeln, 2 Zwiebeln, 1 Gurke, Essig, Öl, Salz, Pfeffer …)和六七个步骤;最后一句小提示:柏林人和汉堡人的做法不一样——当然是我的最好吃!说话人:narrator(菜谱)。(课文:卡片是约纳斯写的,说话人按审稿意见用 jonas;最后两句:In Berlin machen die Leute Kartoffelsalat anders. Aber mein Rezept ist von meiner Oma aus Hamburg!——“我的最好吃”要用物主代词和最高级,A2 才学。)",
+      "grammarFocusZh": "菜谱里的不定式和数量表达复习;复合词(der Kartoffelsalat, der Esslöffel)",
+      "skills": ["read", "write"], "estimatedMinutes": 14.5,
+      "newItems": [
+        { "id": "de.portion", "kind": "word", "pos": "noun", "text": "die Portion", "zh": "(一)份", "features": { "gender": "f", "plural": "die Portionen", "ipa": "pɔʁˈtsi̯oːn" }, "noteZh": "菜谱上的“几人份”:für vier Portionen;-tion 读 [tsi̯oːn],重音在最后。" },
+        { "id": "de.zutat", "kind": "word", "pos": "noun", "text": "die Zutat", "zh": "(做菜的)材料;配料", "features": { "gender": "f", "plural": "die Zutaten", "ipa": "ˈtsuːtaːt" }, "noteZh": "菜谱开头常写 Zutaten:(材料:);一般用复数;z 读 [ts]。" },
+        { "id": "de.anders", "kind": "word", "pos": "adv", "text": "anders", "zh": "不一样;用别的方式", "features": { "ipa": "ˈandɐs" }, "noteZh": "In Berlin machen die Leute Kartoffelsalat anders.(柏林人做土豆沙拉的方法不一样。)也说 ganz anders(完全不同)。" }
+      ],
+      "reviewItems": ["de.kartoffelsalat", "de.essloeffel", "de.schneiden", "de.schaelen", "de.schuessel"]
+    },
+    {
+      "id": "de.a1u16.l05", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116050,
+      "titleZh": "切、炒、煮、烤",
+      "goalZh": "会说做饭常用的动作和厨具:在锅里煮、在平底锅里煎、在烤箱里烤",
+      "canDoZh": "能说出做饭常用的动作和厨具",
+      "scenarioZh": "王伟周五要教大家包饺子,他先请索菲娅教他德语怎么说厨房里的动作:schneiden、mischen、braten、kochen、backen、rühren、würzen,还有 der Herd、der Ofen、die Pfanne、der Topf;索菲娅说意大利的 Ravioli 也是包起来的。说话人:wei、sofia。(课文:王伟先问饺子德语叫什么(Teigtaschen),再说和面、调馅、煮和煎;他说中国人家里不常用烤箱,索菲娅周五要烤蛋糕。)",
+      "grammarFocusZh": "动词和厨具的搭配(im Topf kochen, in der Pfanne braten, im Ofen backen 当固定说法);braten 的不规则变位(du brätst, er brät);可分动词 umrühren",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.teigtasche", "kind": "word", "pos": "noun", "text": "die Teigtasche", "zh": "(包馅的)面食;饺子", "features": { "gender": "f", "plural": "die Teigtaschen", "ipa": "ˈtaɪ̯kˌtaʃə" }, "noteZh": "der Teig(面团)+ die Tasche(口袋)=“面做的小口袋”:德国人这样叫饺子,也说 Jiaozi 或 Dumplings。" },
+        { "id": "de.teig", "kind": "word", "pos": "noun", "text": "der Teig", "zh": "面团;面糊", "features": { "gender": "m", "plural": "die Teige", "ipa": "taɪ̯k" }, "noteZh": "做面包、蛋糕、饺子皮的面团都叫 Teig;词尾 g 读 [k]。" },
+        { "id": "de.mehl", "kind": "word", "pos": "noun", "text": "das Mehl", "zh": "面粉", "features": { "gender": "n", "plural": "-", "ipa": "meːl" }, "noteZh": "Mehl und Wasser(面粉和水);eh 读长音 [eː],和 Messer 的短 e 对比;不可数。" },
+        { "id": "de.fuellung", "kind": "word", "pos": "noun", "text": "die Füllung", "zh": "馅", "features": { "gender": "f", "plural": "die Füllungen", "ipa": "ˈfʏlʊŋ" }, "noteZh": "füllen(装满、填)的名词;die Füllung aus Fleisch und Gemüse(肉和菜的馅);ü 是短音。" },
+        { "id": "de.wuerzen", "kind": "word", "pos": "verb", "text": "würzen", "zh": "调味", "features": { "ipa": "ˈvʏʁtsn̩" }, "noteZh": "mit Salz und Pfeffer würzen(用盐和胡椒调味);名词是 das Gewürz(调料);z 读 [ts]。" },
+        { "id": "de.umruehren", "kind": "word", "pos": "verb", "text": "umrühren", "zh": "搅拌;拌匀", "features": { "ipa": "ˈʊmˌʁyːʁən" }, "noteZh": "可分动词:Ich rühre die Füllung um.(我把馅拌匀。)菜谱里常写 gut umrühren(搅拌均匀)。" },
+        { "id": "de.braten", "kind": "word", "pos": "verb", "text": "braten", "zh": "煎;炒;烤(肉)", "features": { "ipa": "ˈbʁaːtn̩" }, "noteZh": "不规则:du brätst, er brät(a 变 ä);in der Pfanne braten(在平底锅里煎);烤香肠 die Bratwurst 就是从它来的。" },
+        { "id": "de.backen", "kind": "word", "pos": "verb", "text": "backen", "zh": "(在烤箱里)烤", "features": { "ipa": "ˈbakn̩" }, "noteZh": "烤面包、蛋糕用 backen:Ich backe einen Kuchen.;现在一般按规则变:du backst, er backt;面包店 die Bäckerei 就是从它来的。" },
+        { "id": "de.ofen", "kind": "word", "pos": "noun", "text": "der Ofen", "zh": "烤箱;炉子", "features": { "gender": "m", "plural": "die Öfen", "ipa": "ˈoːfn̩" }, "noteZh": "im Ofen backen(在烤箱里烤);o 是长音,和 offen(开着的)的短 o 对比;复数变音 die Öfen。" }
+      ],
+      "reviewItems": ["de.wie_sagt_man", "de.topf", "de.pfanne", "de.salz", "de.pfeffer"]
+    },
+    {
+      "id": "de.a1u16.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116060,
+      "titleZh": "包饺子之夜",
+      "goalZh": "会一步一步教别人做一道菜,用 ihr 说步骤,回答关于中国习俗的问题",
+      "canDoZh": "能一步一步教别人做一道菜,回答别人的问题",
+      "scenarioZh": "周五晚上,王伟在 WG 办“包饺子之夜”,霍夫曼先生、莉娜和保罗都来了。王伟边做边教:Zuerst mischen wir das Fleisch und das Gemüse. Dann nehmt ihr ein Stück Teig …;霍夫曼先生包得很认真,保罗的饺子一下锅就破了;吃饭时王伟讲饺子在中国的意思(过年、团圆)。说话人:wei、hoffmann、lena、paul。(课文:zuerst 是第 10 单元的词,王伟说 Ihr nehmt … Dann faltet ihr …;保罗包得像球;王伟讲过年吃饺子,有时包一枚硬币,表示好运。)",
+      "grammarFocusZh": "说步骤:ihr 的陈述句(Ihr nehmt ein Stück Teig / Dann faltet ihr den Teig);对霍夫曼先生用 Sie;dann 复习;es / er 指物复习(Mit Wasser klebt er gut)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+      "newItems": [
+        { "id": "de.falten", "kind": "word", "pos": "verb", "text": "falten", "zh": "折;叠", "features": { "ipa": "ˈfaltn̩" }, "noteZh": "den Teig falten(把面皮对折);词干以 t 结尾,ihr / er 前加 e:ihr faltet, er faltet。" },
+        { "id": "de.kleben", "kind": "word", "pos": "verb", "text": "kleben", "zh": "粘;粘住", "features": { "ipa": "ˈkleːbn̩" }, "noteZh": "Mit Wasser klebt der Teig.(蘸点水面皮就粘住了。)胶水是 der Kleber;e 是长音。" },
+        { "id": "de.wunderbar", "kind": "word", "pos": "adj", "text": "wunderbar", "zh": "好极了;太棒了", "features": { "ipa": "ˈvʊndɐbaːɐ̯" }, "noteZh": "比 gut、toll 更热情、更正式一点,长辈爱用:Wunderbar!(太好了!)w 读 [v]。" },
+        { "id": "de.rund", "kind": "word", "pos": "adj", "text": "rund", "zh": "圆的", "features": { "ipa": "ʁʊnt" }, "noteZh": "Die Teigtaschen sind rund.(这些饺子是圆的。)词尾 d 读 [t];rund um …(在……周围)。" },
+        { "id": "de.ball", "kind": "word", "pos": "noun", "text": "der Ball", "zh": "球", "features": { "gender": "m", "plural": "die Bälle", "ipa": "bal" }, "noteZh": "复数变音:die Bälle;der Fußball(足球)、der Basketball(篮球)都带 Ball。" },
+        { "id": "de.muenze", "kind": "word", "pos": "noun", "text": "die Münze", "zh": "硬币", "features": { "gender": "f", "plural": "die Münzen", "ipa": "ˈmʏntsə" }, "noteZh": "eine Münze(一枚硬币);纸币是 der Schein;ü 是短音,z 读 [ts]。" },
+        { "id": "de.drin", "kind": "word", "pos": "adv", "text": "drin", "zh": "在里面(口语)", "features": { "ipa": "dʁɪn" }, "noteZh": "口语:Da ist eine Münze drin.(里面有一枚硬币。)是 darin 的口语说法。" },
+        { "id": "de.bedeuten", "kind": "word", "pos": "verb", "text": "bedeuten", "zh": "意思是;代表", "features": { "ipa": "bəˈdɔʏ̯tn̩" }, "noteZh": "Was bedeutet das?(这是什么意思?)Die Münze bedeutet Glück.(硬币代表好运。)be- 不可分;词干以 t 结尾:es bedeutet。" },
+        { "id": "de.glueck", "kind": "word", "pos": "noun", "text": "das Glück", "zh": "幸运;运气;幸福", "features": { "gender": "n", "plural": "-", "ipa": "ɡlʏk" }, "noteZh": "Das bedeutet Glück.(这代表好运。)反义是 das Pech(倒霉,第 15 单元);ü 是短音;不可数。" }
+      ],
+      "reviewItems": ["de.teig", "de.fuellung", "de.teigtasche", "de.kaputt", "de.fruehlingsfest", "de.herzlich_willkommen"]
+    },
+    {
+      "id": "de.a1u16.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116070,
+      "titleZh": "在公园烧烤",
+      "goalZh": "会和朋友约烧烤、商量谁带什么,知道公园里在哪儿可以烤",
+      "canDoZh": "能和朋友约烧烤、商量谁带什么,在公园里注意规定",
+      "scenarioZh": "天热了,大家周日去公园烧烤(grillen)。约纳斯带烤架和肉,索菲娅带沙拉,王伟带饮料和中国烤串的调料;公园里只能在烧烤区烤(Hier darf man grillen),走的时候要把垃圾带走;保罗问能不能烤棉花糖。说话人:jonas、sofia、wei、paul。(课文:dürfen、man、etwas 是第 9 单元的词,还没定,索菲娅说 Nur da drüben. Da ist Grillen erlaubt.;最后说 Und dann nehmen wir alles wieder mit nach Hause!;Müll 留给第 11 单元。)",
+      "grammarFocusZh": "Wer bringt was mit?;nichts / alles 当词用(Ich bringe nichts mit? / Wir nehmen alles wieder mit);mitbringen 和 mitnehmen 的区别;Grillen erlaubt",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "de.gewuerz", "kind": "word", "pos": "noun", "text": "das Gewürz", "zh": "调料;香料", "features": { "gender": "n", "plural": "die Gewürze", "ipa": "ɡəˈvʏʁts" }, "noteZh": "Gewürze aus China(中国的调料,比如孜然、花椒);动词是 würzen;ge- 开头的名词很多是中性。" },
+        { "id": "de.spiess", "kind": "word", "pos": "noun", "text": "der Spieß", "zh": "烤串;签子", "features": { "gender": "m", "plural": "die Spieße", "ipa": "ʃpiːs" }, "noteZh": "烤串在德国也常见:Fleisch am Spieß;sp 在词首读 [ʃp],ß 读 [s]。" },
+        { "id": "de.decke", "kind": "word", "pos": "noun", "text": "die Decke", "zh": "毯子;被子;天花板", "features": { "gender": "f", "plural": "die Decken", "ipa": "ˈdɛkə" }, "noteZh": "野餐、去公园坐在草地上带一条 Decke;屋子的天花板也叫 die Decke。" },
+        { "id": "de.schatten", "kind": "word", "pos": "noun", "text": "der Schatten", "zh": "阴凉处;影子", "features": { "gender": "m", "plural": "die Schatten", "ipa": "ˈʃatn̩" }, "noteZh": "im Schatten(在阴凉处);夏天太热时德国人找 Schatten;单复数同形。" },
+        { "id": "de.wiese", "kind": "word", "pos": "noun", "text": "die Wiese", "zh": "草地", "features": { "gender": "f", "plural": "die Wiesen", "ipa": "ˈviːzə" }, "noteZh": "auf der Wiese(在草地上);柏林的公园里有很多大草坪,夏天大家都坐在上面;w 读 [v],s 读 [z]。" },
+        { "id": "de.drueben", "kind": "word", "pos": "adv", "text": "drüben", "zh": "那边;对面", "features": { "ipa": "ˈdʁyːbn̩" }, "noteZh": "常说 da drüben(在那边):Nur da drüben!(只有那边可以!)ü 是长音。" },
+        { "id": "de.erlaubt", "kind": "word", "pos": "adj", "text": "erlaubt", "zh": "允许的;可以的", "features": { "ipa": "ɛɐ̯ˈlaʊ̯pt" }, "noteZh": "牌子上常见:Grillen erlaubt(可以烧烤)、Grillen nicht erlaubt(禁止烧烤);b 在 t 前读 [p]。" },
+        { "id": "de.marshmallow", "kind": "word", "pos": "noun", "text": "das Marshmallow", "zh": "棉花糖", "features": { "gender": "n", "plural": "die Marshmallows", "ipa": "ˈmaːɐ̯ʃˌmɛlo" }, "noteZh": "英语借来的词,中性;烧烤时很多年轻人爱把 Marshmallows 串在签子上烤。" }
+      ],
+      "reviewItems": ["de.mitbringen", "de.grillen", "de.getraenk", "de.nichts", "de.laune"]
+    },
+    {
+      "id": "de.a1u16.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116080,
+      "titleZh": "单元复习与应用:请老师来吃饭",
+      "goalZh": "复习本单元的做饭说法,会招待客人、介绍菜、回应称赞",
+      "canDoZh": "能邀请客人吃饭,招待客人、介绍菜、回应称赞",
+      "scenarioZh": "王伟刚收到 A1 考试成绩:通过了(bestanden)!为了庆祝,也为了感谢老师,索菲娅和王伟请瓦格纳老师来 WG 吃晚饭。他们介绍菜:意大利面、中国菜和约纳斯做的甜点;老师称赞 Das schmeckt sehr gut!,问是怎么做的;王伟用学过的说法讲做法;老师说下学期王伟可以上 A2 班了。说话人:sofia、wei、wagner、jonas。(课文:中国菜是饺子;doch 是第 11 单元的词,还没定,索菲娅说 Nehmen Sie noch ein bisschen!;Semester 是第 9 单元的词,老师说 Im Oktober können Sie den A2-Kurs machen!)",
+      "grammarFocusZh": "招待客人:Möchten Sie noch …? / Nehmen Sie noch ein bisschen! / Guten Appetit! / Ich bin satt.;对老师用 Sie、对室友用 du;复习本单元的数量、kein … mehr 和做法",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "de.bestehen", "kind": "word", "pos": "verb", "text": "bestehen", "zh": "通过(考试)", "features": { "ipa": "bəˈʃteːən" }, "noteZh": "eine Prüfung bestehen(考试通过);完成时 Ich habe die Prüfung bestanden!——be- 开头不加 ge-,分词不规则;st 在词根开头读 [ʃt]。" },
+        { "id": "de.gratulieren", "kind": "word", "pos": "verb", "text": "gratulieren", "zh": "祝贺", "features": { "ipa": "ɡʁatuˈliːʁən" }, "noteZh": "Ich gratuliere Ihnen!(祝贺您!)对朋友:Ich gratuliere dir!;Ihnen / dir 是第三格,先整句记;-ieren 动词重音在 lie 上。" },
+        { "id": "de.satt", "kind": "word", "pos": "adj", "text": "satt", "zh": "饱的", "features": { "ipa": "zat" }, "noteZh": "主人让你再吃时:Nein, danke. Ich bin satt.(不了,谢谢,我吃饱了。)不说 ✗ Ich bin voll;s 读 [z]。" }
+      ],
+      "reviewItems": ["de.feiern", "de.nachspeise", "de.teigtasche", "de.fuellung", "de.einladen"]
+    },
+    {
+      "id": "de.a1u16.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-16 做饭与请客", "order": 116085,
+      "titleZh": "德国人怎么吃饭",
+      "goalZh": "读懂一篇介绍德国饮食习惯的短文,能和中国的习惯对比",
+      "canDoZh": "能读懂一篇介绍德国饮食习惯的短文,和中国的习惯对比",
+      "scenarioZh": "体裁:文化短文(德语课的阅读材料)。短文讲:很多德国人中午吃热饭,晚上吃面包和冷菜(das Abendbrot);面包的种类很多;周日下午常常喝咖啡、吃蛋糕(Kaffee und Kuchen);吃素的人越来越多;夏天大家爱烧烤。最后几句是王伟的感想:在中国,晚上一般吃热菜。说话人:narrator(短文)、wei(最后几句)。(课文:man 是第 9 单元的词,短文用 viele / die Leute in Deutschland。)",
+      "grammarFocusZh": "复习:es gibt、viele、oft;对照的写法(In Deutschland … In China …);时间放句首的语序",
+      "skills": ["read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "de.abendbrot", "kind": "word", "pos": "noun", "text": "das Abendbrot", "zh": "(德国式的)晚饭:面包配冷菜", "features": { "gender": "n", "plural": "-", "ipa": "ˈaːbn̩tˌbʁoːt" }, "noteZh": "der Abend + das Brot:很多德国家庭晚上只吃面包、奶酪、香肠和生菜,不开火;也泛指晚饭。" },
+        { "id": "de.sorte", "kind": "word", "pos": "noun", "text": "die Sorte", "zh": "种类;品种", "features": { "gender": "f", "plural": "die Sorten", "ipa": "ˈzɔʁtə" }, "noteZh": "viele Sorten Brot(很多种面包)——Sorte 后面直接跟名词;s 读 [z]。" }
+      ],
+      "reviewItems": ["de.vegetarisch", "de.garten", "de.jung", "de.nachmittag", "de.grillen"]
+    }
+  ]
+}

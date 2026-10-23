@@ -1,0 +1,198 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-11 家务与 WG 生活", "cefr": "A1", "themeZh": "五月初,WG 的家务:说家务活、排值日表、大扫除、垃圾分类、洗衣服,室友之间的请求、提醒和小矛盾,向邻居借东西,读楼里的住户规定。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u11.l01", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111010,
+      "titleZh": "家务活",
+      "goalZh": "会说常见的家务活,说自己多常做、喜欢不喜欢做",
+      "canDoZh": "能说出常见的家务活,说自己常做什么、不爱做什么",
+      "scenarioZh": "五月初的一个星期天早上,WG 的厨房一团乱。索菲娅、约纳斯和王伟聊各自做什么家务:王伟说在成都家里从来不打扫(奶奶什么都做),在这儿有时收拾自己的房间;索菲娅爱做饭但不爱洗碗;约纳斯说他在餐馆天天打扫,回家从来不打扫,还开玩笑说倒垃圾的总是王伟;王伟说他星期六洗衣服,也会用吸尘器;最后大家说家务一起做。说话人:sofia、jonas、wei。",
+      "grammarFocusZh": "家务的搭配:abwaschen / putzen / staubsaugen / aufräumen / den Müll rausbringen / die Wäsche waschen(可分动词的前缀放句末);waschen 的变位;频率副词复习(Ich putze nie … / Ich räume manchmal … auf)",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.hausarbeit", "kind": "word", "pos": "noun", "text": "die Hausarbeit", "zh": "家务活", "features": { "gender": "f", "plural": "die Hausarbeiten", "ipa": "ˈhaʊ̯sʔaʁˌbaɪ̯t" }, "noteZh": "das Haus + die Arbeit(工作),性看最后一个词:die;口语也说 der Haushalt:Wer macht den Haushalt?" },
+        { "id": "de.abwaschen", "kind": "word", "pos": "verb", "text": "abwaschen", "zh": "洗碗;洗餐具", "features": { "ipa": "ˈapˌvaʃn̩" }, "noteZh": "可分、不规则(和 waschen 一样):Ich wasche ab. / Er wäscht ab.;也说 spülen 或 den Abwasch machen。" },
+        { "id": "de.putzen", "kind": "word", "pos": "verb", "text": "putzen", "zh": "擦洗;打扫", "features": { "ipa": "ˈpʊtsn̩" }, "noteZh": "das Bad / die Küche / die Fenster putzen;刷牙也是 putzen:die Zähne putzen;tz 读 [ts]。" },
+        { "id": "de.staubsaugen", "kind": "word", "pos": "verb", "text": "staubsaugen", "zh": "用吸尘器打扫", "features": { "ipa": "ˈʃtaʊ̯pˌzaʊ̯ɡn̩" }, "noteZh": "der Staub(灰尘)+ saugen(吸);一般按规则变:ich staubsauge, du staubsaugst;也有人说 Ich sauge Staub.。" },
+        { "id": "de.aufraeumen", "kind": "word", "pos": "verb", "text": "aufräumen", "zh": "收拾;整理", "features": { "ipa": "ˈaʊ̯fˌʁɔɪ̯mən" }, "noteZh": "可分:Ich räume mein Zimmer auf.;äu 读 [ɔɪ̯],和 eu 一样。" },
+        { "id": "de.rausbringen", "kind": "word", "pos": "verb", "text": "rausbringen", "zh": "拿出去", "features": { "ipa": "ˈʁaʊ̯sˌbʁɪŋən" }, "noteZh": "可分:Ich bringe den Müll raus.(我去倒垃圾);raus 是 heraus(出去)的口语说法;完成时 rausgebracht。" },
+        { "id": "de.muell", "kind": "word", "pos": "noun", "text": "der Müll", "zh": "垃圾", "features": { "gender": "m", "plural": "-", "ipa": "mʏl" }, "noteZh": "den Müll rausbringen(倒垃圾);德国要把垃圾分类:den Müll trennen(第 4 课);ü 是短音。" },
+        { "id": "de.waesche", "kind": "word", "pos": "noun", "text": "die Wäsche", "zh": "要洗的衣物;洗好的衣物", "features": { "gender": "f", "plural": "-", "ipa": "ˈvɛʃə" }, "noteZh": "die Wäsche waschen(洗衣服);和 waschen 是一家;ä 读 [ɛ]。" },
+        { "id": "de.waschen", "kind": "word", "pos": "verb", "text": "waschen", "zh": "洗", "features": { "ipa": "ˈvaʃn̩" }, "noteZh": "a → ä 不规则:ich wasche, du wäschst, er wäscht;洗手、洗衣服都用它;w 读 [v],sch 读 [ʃ]。" }
+      ],
+      "reviewItems": ["de.nie", "de.manchmal", "de.immer", "de.oma", "de.zusammen"]
+    },
+    {
+      "id": "de.a1u11.l02", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111020,
+      "titleZh": "WG 的值日表",
+      "goalZh": "会和室友商量家务分工,说清楚谁在什么时候做什么",
+      "canDoZh": "能和室友商量家务分工,说清楚谁在什么时候做什么",
+      "scenarioZh": "索菲娅受不了厨房总是不干净,提议做一张值日表(der Putzplan):她星期六打扫浴室和厕所;约纳斯晚上上班,星期一、二打扫厨房;王伟拖地、倒垃圾;以后每周轮流(dran sein),下周先轮到王伟;王伟说考试前那一周他没时间,约纳斯说那周他替王伟打扫,大家觉得公平;值日表贴在冰箱上。说话人:sofia、jonas、wei。",
+      "grammarFocusZh": "Wer macht was? – Ich putze am Samstag das Bad;dran sein(Wer ist dran? / Nächste Woche ist Wei dran);复习 am + 星期、können / müssen",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "newItems": [
+        { "id": "de.putzplan", "kind": "word", "pos": "noun", "text": "der Putzplan", "zh": "(合租公寓的)值日表", "features": { "gender": "m", "plural": "die Putzpläne", "ipa": "ˈpʊtsˌplaːn" }, "noteZh": "putzen + der Plan(计划);德国很多 WG 都有:哪一周谁打扫厨房、浴室,写得清清楚楚;复数变音:Putzpläne。" },
+        { "id": "de.sauber", "kind": "word", "pos": "adj", "text": "sauber", "zh": "干净的", "features": { "ipa": "ˈzaʊ̯bɐ" }, "noteZh": "Die Küche ist sauber.(厨房很干净。);反义词 schmutzig(脏);s 读 [z],au 读 [aʊ̯]。" },
+        { "id": "de.toilette", "kind": "word", "pos": "noun", "text": "die Toilette", "zh": "厕所;马桶", "features": { "gender": "f", "plural": "die Toiletten", "ipa": "toaˈlɛtə" }, "noteZh": "法语外来词,读 [toaˈlɛtə];问厕所:Wo ist die Toilette?;口语也说 das Klo。" },
+        { "id": "de.wischen", "kind": "word", "pos": "verb", "text": "wischen", "zh": "擦;拖(地)", "features": { "ipa": "ˈvɪʃn̩" }, "noteZh": "den Boden wischen(拖地);den Tisch wischen(擦桌子);w 读 [v],sch 读 [ʃ]。" },
+        { "id": "de.boden", "kind": "word", "pos": "noun", "text": "der Boden", "zh": "地面;地板", "features": { "gender": "m", "plural": "die Böden", "ipa": "ˈboːdn̩" }, "noteZh": "den Boden wischen(拖地);复数变音:Böden;o 是长音。" },
+        { "id": "de.dran", "kind": "word", "pos": "adv", "text": "dran", "zh": "轮到(某人)", "features": { "ipa": "dʁan" }, "noteZh": "dran sein = 轮到:Wer ist dran?(轮到谁了?)/ Du bist dran!(轮到你了!);是 daran 的口语说法。" },
+        { "id": "de.fair", "kind": "word", "pos": "adj", "text": "fair", "zh": "公平的", "features": { "ipa": "fɛːɐ̯" }, "noteZh": "英语外来词,读 [fɛːɐ̯];Das ist fair.(这很公平。)/ Das ist nicht fair!(这不公平!)" },
+        { "id": "de.haengen", "kind": "word", "pos": "verb", "text": "hängen", "zh": "挂着;悬挂", "features": { "ipa": "ˈhɛŋən" }, "noteZh": "表示东西挂在那儿:Der Putzplan hängt am Kühlschrank.(值日表贴在冰箱上。);把东西挂上去用 aufhängen(第 7 课);ng 读 [ŋ]。" }
+      ],
+      "reviewItems": ["de.idee", "de.kuehlschrank", "de.naechste", "de.vor", "de.rausbringen"]
+    },
+    {
+      "id": "de.a1u11.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111030,
+      "titleZh": "帮我一下!——du 的命令式",
+      "goalZh": "会用 du 的命令式请朋友做事、提醒别人,会用 bitte / mal 说得客气",
+      "canDoZh": "能用 du 的命令式请朋友做事、提醒别人,也能答应或拒绝",
+      "scenarioZh": "周六 WG 大扫除。索菲娅指挥:Wei, mach bitte das Fenster auf! Jonas, bring bitte den Müll raus! Nimm mal den Staubsauger und hilf uns!;约纳斯故意慢吞吞,先要喝完咖啡;王伟也学着说命令句(Gib mir bitte den Lappen und den Eimer.),约纳斯让他放音乐,王伟说 Los, Jonas, du bist dran!,大家笑成一团。说话人:sofia、wei、jonas。",
+      "grammarFocusZh": "du 的命令式:去掉 du 和词尾 -st(du machst → Mach!);e → i 的动词保留变化(du nimmst → Nimm!,du gibst → Gib!),a → ä 的不保留;可分动词的前缀放句末(Mach das Fenster auf!);加 bitte / mal 更客气;和 Sie 的命令式对比。ihr 的命令式和 sein 的命令式 A2 才讲",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.aufmachen", "kind": "word", "pos": "verb", "text": "aufmachen", "zh": "打开", "features": { "ipa": "ˈaʊ̯fˌmaxn̩" }, "noteZh": "可分:Mach bitte das Fenster auf!(请把窗户打开!);窗、门、瓶子、包都能用;反义词 zumachen(关上)。" },
+        { "id": "de.mal", "kind": "word", "pos": "particle", "text": "mal", "zh": "(语气词,让请求听起来随意、客气)", "features": { "ipa": "maːl" }, "noteZh": "放在命令句里让语气轻松:Nimm mal den Staubsauger!;常和 bitte 一起用:Hilf mir bitte mal!;这里不是“次”的意思。" },
+        { "id": "de.staubsauger", "kind": "word", "pos": "noun", "text": "der Staubsauger", "zh": "吸尘器", "features": { "gender": "m", "plural": "die Staubsauger", "ipa": "ˈʃtaʊ̯pˌzaʊ̯ɡɐ" }, "noteZh": "staubsaugen 用的工具;复数不变;Nimm den Staubsauger!;词首 st 读 [ʃt]。" },
+        { "id": "de.geben", "kind": "word", "pos": "verb", "text": "geben", "zh": "给", "features": { "ipa": "ˈɡeːbn̩" }, "noteZh": "e → i 不规则:ich gebe, du gibst, er gibt;命令式 Gib!:Gib mir bitte den Lappen.;es gibt(有)也是它。" },
+        { "id": "de.lappen", "kind": "word", "pos": "noun", "text": "der Lappen", "zh": "抹布", "features": { "gender": "m", "plural": "die Lappen", "ipa": "ˈlapn̩" }, "noteZh": "擦桌子、擦窗户用的布;复数不变;pp 前面的 a 是短音。" },
+        { "id": "de.eimer", "kind": "word", "pos": "noun", "text": "der Eimer", "zh": "水桶", "features": { "gender": "m", "plural": "die Eimer", "ipa": "ˈaɪ̯mɐ" }, "noteZh": "ein Eimer Wasser(一桶水);复数不变;ei 读 [aɪ̯]。" },
+        { "id": "de.spiegel", "kind": "word", "pos": "noun", "text": "der Spiegel", "zh": "镜子", "features": { "gender": "m", "plural": "die Spiegel", "ipa": "ˈʃpiːɡl̩" }, "noteZh": "den Spiegel putzen(擦镜子);sp 读 [ʃp],ie 读长音 [iː];复数不变。" },
+        { "id": "de.los", "kind": "word", "pos": "adv", "text": "los", "zh": "开始吧!;快!", "features": { "ipa": "loːs" }, "noteZh": "Los!(开始!/ 快点!);Los geht's!(我们开始吧!);o 是长音。" }
+      ],
+      "reviewItems": ["de.rausbringen", "de.putzen", "de.helfen", "de.anmachen", "de.nehmen", "de.dran"]
+    },
+    {
+      "id": "de.a1u11.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111040,
+      "titleZh": "垃圾怎么分?",
+      "goalZh": "听懂垃圾分类的说明,会问、会说哪种垃圾扔进哪个桶",
+      "canDoZh": "能听懂垃圾分类的说明,说出哪种垃圾扔进哪个桶",
+      "scenarioZh": "王伟倒垃圾时把一个玻璃瓶扔进了黄色的桶,霍夫曼先生正好在院子里(der Hof),很客气地告诉他:德国要垃圾分类,院子里有五种桶;玻璃扔进玻璃桶,塑料进黄色的桶,旧报纸进蓝色的桶,剩饭、果皮这些厨余进 Biotonne,其他的进黑色的桶(Restmüll);有押金(das Pfand)的瓶子拿回超市,能退钱。braun 已由 u14、Papier 已由 u12、die Flasche 由第 4 单元新增课登记,本课都不用,说 die Biotonne、Zeitungen、das hier hat Pfand。说话人:hoffmann、wei。",
+      "grammarFocusZh": "颜色复习(gelb 新学);in die gelbe Tonne 当固定说法(方向用第四格,A2 讲双向介词时细讲);Sie 的命令式复习(Bringen Sie es in den Supermarkt!)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+      "newItems": [
+        { "id": "de.tonne", "kind": "word", "pos": "noun", "text": "die Tonne", "zh": "(大)垃圾桶", "features": { "gender": "f", "plural": "die Tonnen", "ipa": "ˈtɔnə" }, "noteZh": "院子里的大垃圾桶:die gelbe / blaue / schwarze Tonne;die Biotonne(厨余桶)、die Glastonne(玻璃桶)都是复合词。" },
+        { "id": "de.gelb", "kind": "word", "pos": "adj", "text": "gelb", "zh": "黄色的", "features": { "ipa": "ɡɛlp" }, "noteZh": "die gelbe Tonne(黄桶:塑料包装);词尾 b 读 [p]。" },
+        { "id": "de.trennen", "kind": "word", "pos": "verb", "text": "trennen", "zh": "分开;分类", "features": { "ipa": "ˈtʁɛnən" }, "noteZh": "den Müll trennen(垃圾分类);和第 4 单元的 getrennt(分开付钱)是一家;双写 nn 前面的 e 是短音。" },
+        { "id": "de.zeitung", "kind": "word", "pos": "noun", "text": "die Zeitung", "zh": "报纸", "features": { "gender": "f", "plural": "die Zeitungen", "ipa": "ˈtsaɪ̯tʊŋ" }, "noteZh": "旧报纸、纸盒都扔进蓝色的桶:Zeitungen kommen in die blaue Tonne.;z 读 [ts];-ung 结尾都是阴性。" },
+        { "id": "de.plastik", "kind": "word", "pos": "noun", "text": "das Plastik", "zh": "塑料", "features": { "gender": "n", "plural": "-", "ipa": "ˈplastɪk" }, "noteZh": "中性;塑料包装扔进黄色的桶;重音在前:PLAS-tik。" },
+        { "id": "de.biomuell", "kind": "word", "pos": "noun", "text": "der Biomüll", "zh": "厨余垃圾;有机垃圾", "features": { "gender": "m", "plural": "-", "ipa": "ˈbiːoˌmʏl" }, "noteZh": "Bio(有机)+ der Müll;果皮、菜叶、剩饭扔进 die Biotonne(厨余桶)。" },
+        { "id": "de.restmuell", "kind": "word", "pos": "noun", "text": "der Restmüll", "zh": "其他垃圾", "features": { "gender": "m", "plural": "-", "ipa": "ˈʁɛstˌmʏl" }, "noteZh": "der Rest(剩下的)+ der Müll:不能回收的垃圾,扔进黑色的桶。" },
+        { "id": "de.pfand", "kind": "word", "pos": "noun", "text": "das Pfand", "zh": "押金", "features": { "gender": "n", "plural": "die Pfänder", "ipa": "pfant" }, "noteZh": "德国很多瓶子收押金:Das hat Pfand.;把瓶子拿回超市就能退钱;pf 两个音都要读出来,词尾 d 读 [t]。" },
+        { "id": "de.hof", "kind": "word", "pos": "noun", "text": "der Hof", "zh": "院子", "features": { "gender": "m", "plural": "die Höfe", "ipa": "hoːf" }, "noteZh": "柏林的老楼常有院子:im Hof(在院子里),垃圾桶、自行车都放在那儿;复数变音:Höfe。" }
+      ],
+      "reviewItems": ["de.glas", "de.blau", "de.schwarz", "de.bekommen", "de.moment", "de.muell"]
+    },
+    {
+      "id": "de.a1u11.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111045,
+      "titleZh": "楼里的住户规定",
+      "goalZh": "读懂楼里的住户规定,找出安静时间、垃圾和自行车的规定",
+      "canDoZh": "能读懂楼道里贴的住户规定,找出安静时间、垃圾和自行车的规定",
+      "scenarioZh": "体裁:楼道里的通知(物业贴的 Hausordnung)。王伟在楼道里读住户规定:晚上 22 点到早上 6 点、星期天要保持安静(die Ruhezeit),那时不能放很响的音乐;垃圾要分类,垃圾桶在院子里;自行车不能放在楼道(der Hausflur),院子和地下室(der Keller)里有地方;有问题给物业办公室打电话。最后一句是霍夫曼先生用笔加上的:Vielen Dank! Ihr Nachbar Hoffmann。规划里的“管理员”der Hausmeister 是第 3 单元新增课的词(还没定),本课说 das Büro;电话号码不写。说话人:narrator(通知)。",
+      "grammarFocusZh": "复习:Bitte + Sie 的命令式、Bitte keine …!、dürfen / müssen;von … bis … 和钟点",
+      "skills": ["read", "write"], "estimatedMinutes": 17,
+      "newItems": [
+        { "id": "de.hausordnung", "kind": "word", "pos": "noun", "text": "die Hausordnung", "zh": "住户守则;楼里的规定", "features": { "gender": "f", "plural": "die Hausordnungen", "ipa": "ˈhaʊ̯sˌʔɔʁdnʊŋ" }, "noteZh": "das Haus + die Ordnung(秩序);德国的出租楼都有 Hausordnung,常贴在楼道里。" },
+        { "id": "de.ruhezeit", "kind": "word", "pos": "noun", "text": "die Ruhezeit", "zh": "安静时间", "features": { "gender": "f", "plural": "die Ruhezeiten", "ipa": "ˈʁuːəˌtsaɪ̯t" }, "noteZh": "die Ruhe(安静)+ die Zeit;一般是晚上 22 点到早上 6 点,还有星期天:不能大声放音乐、不能用吸尘器;Ruhe 里的 h 不发音。" },
+        { "id": "de.hausflur", "kind": "word", "pos": "noun", "text": "der Hausflur", "zh": "楼道;门厅", "features": { "gender": "m", "plural": "die Hausflure", "ipa": "ˈhaʊ̯sˌfluːɐ̯" }, "noteZh": "das Haus + der Flur(走廊);楼道里一般不许放自行车、鞋和垃圾;u 是长音。" },
+        { "id": "de.keller", "kind": "word", "pos": "noun", "text": "der Keller", "zh": "地下室", "features": { "gender": "m", "plural": "die Keller", "ipa": "ˈkɛlɐ" }, "noteZh": "很多楼在地下室给每户一个小隔间放东西:im Keller;复数不变。" }
+      ],
+      "reviewItems": ["de.trennen", "de.tonne", "de.hof", "de.laut", "de.fahrrad", "de.nachbar"]
+    },
+    {
+      "id": "de.a1u11.l05", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111050,
+      "titleZh": "第一次用洗衣机",
+      "goalZh": "会问洗衣机怎么用,说出洗衣服常用的词",
+      "canDoZh": "能问清楚洗衣机怎么用,说出洗衣服常用的词",
+      "scenarioZh": "王伟第一次用 WG 的洗衣机(die Waschmaschine),请索菲娅帮忙(Hilf mir bitte!):选什么模式、用多少度(毛巾 60 度,毛衣 30 度)、洗衣液放哪儿、按哪个按钮;结果他的白衬衫被一只红袜子(约纳斯的)染成了粉色(rosa),索菲娅笑着说 Wasch Weiß und Rot nicht zusammen!,还告诉他晾衣架在浴室里。规划里“洗多长时间”没写进课文;das T-Shirt 已由 u13 登记,本课用 das Hemd。说话人:wei、sofia。",
+      "grammarFocusZh": "du 的命令式复习(Hilf mir bitte! / Wasch Weiß und Rot nicht zusammen!);waschen 的变位(du wäschst, er wäscht),命令式不保留变音;Grad 和颜色复习",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.waschmaschine", "kind": "word", "pos": "noun", "text": "die Waschmaschine", "zh": "洗衣机", "features": { "gender": "f", "plural": "die Waschmaschinen", "ipa": "ˈvaʃmaˌʃiːnə" }, "noteZh": "waschen + die Maschine;WG 里常常几个人共用一台;重音在 wasch。" },
+        { "id": "de.programm", "kind": "word", "pos": "noun", "text": "das Programm", "zh": "程序;(洗衣机的)模式;节目", "features": { "gender": "n", "plural": "die Programme", "ipa": "pʁoˈɡʁam" }, "noteZh": "洗衣机、电脑、电视都有 Programm:Welches Programm?(选哪个模式?);重音在后:pro-GRAMM。" },
+        { "id": "de.waschmittel", "kind": "word", "pos": "noun", "text": "das Waschmittel", "zh": "洗衣液;洗衣粉", "features": { "gender": "n", "plural": "die Waschmittel", "ipa": "ˈvaʃˌmɪtl̩" }, "noteZh": "waschen + das Mittel(用品);复数不变;Wo kommt das Waschmittel rein?(洗衣液放哪儿?)" },
+        { "id": "de.handtuch", "kind": "word", "pos": "noun", "text": "das Handtuch", "zh": "毛巾", "features": { "gender": "n", "plural": "die Handtücher", "ipa": "ˈhantˌtuːx" }, "noteZh": "die Hand + das Tuch(布);复数变音:Handtücher;毛巾一般用 60 度洗。" },
+        { "id": "de.rosa", "kind": "word", "pos": "adj", "text": "rosa", "zh": "粉红色的", "features": { "ipa": "ˈʁoːza" }, "noteZh": "放在名词前也不变词尾:ein rosa Hemd(一件粉色衬衫);s 读 [z]。" },
+        { "id": "de.socke", "kind": "word", "pos": "noun", "text": "die Socke", "zh": "袜子", "features": { "gender": "f", "plural": "die Socken", "ipa": "ˈzɔkə" }, "noteZh": "常用复数 Socken;一只红袜子:eine rote Socke;ck 读 [k]。" },
+        { "id": "de.trocknen", "kind": "word", "pos": "verb", "text": "trocknen", "zh": "弄干;晾干", "features": { "ipa": "ˈtʁɔknən" }, "noteZh": "die Wäsche trocknen(晾衣服);du trocknest, er trocknet(词干以 n 结尾要加 e);形容词是 trocken(干的)。" },
+        { "id": "de.waeschestaender", "kind": "word", "pos": "noun", "text": "der Wäscheständer", "zh": "(可折叠的)晾衣架", "features": { "gender": "m", "plural": "die Wäscheständer", "ipa": "ˈvɛʃəˌʃtɛndɐ" }, "noteZh": "die Wäsche + der Ständer(架子);德国很多人不用烘干机,在房间或浴室里用晾衣架晾衣服。" }
+      ],
+      "reviewItems": ["de.waschen", "de.waesche", "de.grad", "de.bunt", "de.mehr", "de.knopf"]
+    },
+    {
+      "id": "de.a1u11.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111060,
+      "titleZh": "谁又没洗碗?",
+      "goalZh": "会在小矛盾里说明情况、道歉,会用 doch 回答否定问句",
+      "canDoZh": "能在小矛盾里说明情况、反驳和道歉,用 doch 回答否定问句",
+      "scenarioZh": "晚上水槽里又堆满了脏碗盘。这周轮到王伟洗碗,索菲娅问 Machst du heute nicht den Abwasch?,王伟说 Doch! Aber das ist nicht mein Geschirr.;他昨天晚上在图书馆,没做饭;约纳斯进来故意装傻问 Ist das euer Geschirr?,原来是他下晚班后半夜做了夜宵;他道歉(Tut mir leid!),答应明天洗(versprochen),还说下周给大家做饭赔罪(第 16 单元接着写)。规划里的 der Teller、der Topf 是第 3 单元新增课的词(还没定),本课用 das Geschirr。说话人:sofia、wei、jonas。",
+      "grammarFocusZh": "用 doch 回答否定问句(Machst du heute nicht den Abwasch? – Doch!),和 nein 对比;euer / eure(Ist das euer Geschirr?);Tut mir leid! 当固定说法",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "de.spuele", "kind": "word", "pos": "noun", "text": "die Spüle", "zh": "(厨房的)水槽;洗碗池", "features": { "gender": "f", "plural": "die Spülen", "ipa": "ˈʃpyːlə" }, "noteZh": "Die Spüle ist voll!(水槽里堆满了!);动词 spülen = 冲洗、洗碗;sp 读 [ʃp],ü 是长音。" },
+        { "id": "de.abwasch", "kind": "word", "pos": "noun", "text": "der Abwasch", "zh": "(要洗的)碗盘;洗碗", "features": { "gender": "m", "plural": "-", "ipa": "ˈapˌvaʃ" }, "noteZh": "den Abwasch machen = abwaschen(洗碗);阳性,没有复数。" },
+        { "id": "de.doch", "kind": "word", "pos": "particle", "text": "doch", "zh": "(回答否定问句)不,……是的 / 要的", "features": { "ipa": "dɔx" }, "noteZh": "回答带 nicht / kein 的问句,表示“不,是……的”:Hast du keine Zeit? – Doch!(不,我有时间!);o 后面的 ch 读 [x]。" },
+        { "id": "de.geschirr", "kind": "word", "pos": "noun", "text": "das Geschirr", "zh": "餐具;碗盘(统称)", "features": { "gender": "n", "plural": "-", "ipa": "ɡəˈʃɪʁ" }, "noteZh": "盘子、碗、杯子的统称,不可数:viel Geschirr;das Geschirr abwaschen(洗碗)。" },
+        { "id": "de.schmutzig", "kind": "word", "pos": "adj", "text": "schmutzig", "zh": "脏的", "features": { "ipa": "ˈʃmʊtsɪç" }, "noteZh": "反义词 sauber(干净);das schmutzige Geschirr(脏碗盘);词尾 -ig 读 [ɪç]。" },
+        { "id": "de.tut_mir_leid", "kind": "phrase", "pos": "phrase", "text": "Tut mir leid!", "zh": "对不起!;很抱歉!", "features": { "ipa": "ˈtuːt miːɐ̯ ˈlaɪ̯t" }, "noteZh": "做错了事、让人失望时说;撞到人、打扰别人说 Entschuldigung!;leid 小写,词尾 d 读 [t]。" },
+        { "id": "de.euer", "kind": "word", "pos": "det", "text": "euer", "zh": "你们的", "alt": ["eure", "euren", "eurem"], "features": { "ipa": "ˈɔɪ̯ɐ" }, "noteZh": "和 ihr(你们)对应:Ist das euer Geschirr?;加词尾时中间的 e 去掉:eure Tassen(不说 euere);eu 读 [ɔɪ̯]。" },
+        { "id": "de.versprechen", "kind": "word", "pos": "verb", "text": "versprechen", "zh": "答应;保证", "features": { "ipa": "fɛɐ̯ˈʃpʁɛçn̩" }, "noteZh": "和 sprechen 一样 e → i:du versprichst, er verspricht;Versprochen!(说定了!/ 我保证!);ver- 不可分。" }
+      ],
+      "reviewItems": ["de.abwaschen", "de.dran", "de.nacht", "de.idee", "de.voll"]
+    },
+    {
+      "id": "de.a1u11.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111070,
+      "titleZh": "向邻居借东西",
+      "goalZh": "会礼貌地向邻居借东西、还东西并道谢",
+      "canDoZh": "能礼貌地向邻居借东西、还东西并道谢",
+      "scenarioZh": "王伟要在房间里挂一幅画(das Bild),WG 里没有工具。他下楼问霍夫曼先生:Entschuldigung, haben Sie einen Hammer?;霍夫曼先生借给他锤子和钉子,还上楼帮他挂,一边说他开了四十年火车,工具一直很重要(war / hatte、完成时);画挂歪了,两人笑;第二天王伟带着中国茶去还锤子、道谢。规划里“以前什么都自己修”的 reparieren、früher、selbst 都是别的单元的词,本课不用。说话人:wei、hoffmann。",
+      "grammarFocusZh": "借东西的说法:Haben Sie …? / Können Sie mir … leihen?;第四格复习(einen Hammer, meinen Hammer);对邻居用 Sie;war / hatte 和完成时复习(Ich habe vierzig Jahre Züge gefahren);hängen 和 aufhängen",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "newItems": [
+        { "id": "de.hammer", "kind": "word", "pos": "noun", "text": "der Hammer", "zh": "锤子", "features": { "gender": "m", "plural": "die Hämmer", "ipa": "ˈhamɐ" }, "noteZh": "复数变音:Hämmer;Haben Sie einen Hammer?(第四格 einen)。" },
+        { "id": "de.werkzeug", "kind": "word", "pos": "noun", "text": "das Werkzeug", "zh": "工具", "features": { "gender": "n", "plural": "die Werkzeuge", "ipa": "ˈvɛʁkˌtsɔɪ̯k" }, "noteZh": "常当统称用单数:Wir haben kein Werkzeug.;w 读 [v],z 读 [ts],eu 读 [ɔɪ̯],词尾 g 读 [k]。" },
+        { "id": "de.aufhaengen", "kind": "word", "pos": "verb", "text": "aufhängen", "zh": "挂(上去)", "features": { "ipa": "ˈaʊ̯fˌhɛŋən" }, "noteZh": "可分:Ich hänge das Bild auf.(我把画挂起来);挂着的状态用 hängen:Das Bild hängt an der Wand.。" },
+        { "id": "de.leihen", "kind": "word", "pos": "verb", "text": "leihen", "zh": "借;借给", "features": { "ipa": "ˈlaɪ̯ən" }, "noteZh": "Ich leihe Ihnen meinen Hammer.(我把锤子借给您);从图书馆借书用 ausleihen;h 不发音,ei 读 [aɪ̯]。" },
+        { "id": "de.nagel", "kind": "word", "pos": "noun", "text": "der Nagel", "zh": "钉子", "features": { "gender": "m", "plural": "die Nägel", "ipa": "ˈnaːɡl̩" }, "noteZh": "复数变音:Nägel;也指指甲;a 是长音。" },
+        { "id": "de.hoch", "kind": "word", "pos": "adj", "text": "hoch", "zh": "高", "features": { "ipa": "hoːx" }, "noteZh": "Das Bild ist zu hoch.(画挂得太高了。);放在名词前变成 hoh-:ein hohes Haus;说人个子高用 groß;o 后面的 ch 读 [x]。" },
+        { "id": "de.schief", "kind": "word", "pos": "adj", "text": "schief", "zh": "歪的;斜的", "features": { "ipa": "ʃiːf" }, "noteZh": "Das Bild hängt schief.(画挂歪了。);ie 读长音 [iː],sch 读 [ʃ]。" },
+        { "id": "de.wand", "kind": "word", "pos": "noun", "text": "die Wand", "zh": "墙", "features": { "gender": "f", "plural": "die Wände", "ipa": "vant" }, "noteZh": "an der Wand(在墙上);复数变音:Wände;w 读 [v],词尾 d 读 [t]。" }
+      ],
+      "reviewItems": ["de.entschuldigung", "de.bild", "de.haengen", "de.sicher", "de.wichtig", "de.zug"]
+    },
+    {
+      "id": "de.a1u11.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111080,
+      "titleZh": "单元复习与应用:WG 再开会",
+      "goalZh": "综合运用本单元的词和语法,在室友会议上提问题、提建议,一起想办法",
+      "canDoZh": "能在室友会议上提出问题、提建议,一起想办法",
+      "scenarioZh": "一个星期以后 WG 再开会(规划写的是“一个月后”,那就到六月、晚于第 12 单元的考试了,所以改成一个星期以后):值日表有用,但浴室和厕所还是常常没人打扫。约纳斯建议请清洁工(die Putzhilfe,每小时 15 欧元,太贵);索菲娅建议每周轮流、谁轮到谁打扫;王伟建议用手机提醒(die Erinnerung);最后大家决定:谁忘了,就罚他给 WG 买蛋糕(规划里的冰淇淋 das Eis 已由 u12 登记,本课改成 Kuchen)。说话人:jonas、sofia、wei。",
+      "grammarFocusZh": "复习:du 的命令式(Vergiss das Bad nicht!)、doch、情态动词、频率副词;提建议的说法 Ich habe einen Vorschlag / eine Idee: … / Vielleicht …",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+      "newItems": [
+        { "id": "de.putzhilfe", "kind": "word", "pos": "noun", "text": "die Putzhilfe", "zh": "清洁工;保洁", "features": { "gender": "f", "plural": "die Putzhilfen", "ipa": "ˈpʊtsˌhɪlfə" }, "noteZh": "putzen + die Hilfe(帮助);请人来打扫一般按小时付钱:15 Euro pro Stunde。" },
+        { "id": "de.erinnerung", "kind": "word", "pos": "noun", "text": "die Erinnerung", "zh": "提醒;回忆", "features": { "gender": "f", "plural": "die Erinnerungen", "ipa": "ɛɐ̯ˈʔɪnəʁʊŋ" }, "noteZh": "手机上的提醒也叫 Erinnerung:Das Handy schickt uns eine Erinnerung.;也表示“回忆”;-ung 结尾是阴性。" },
+        { "id": "de.vergessen", "kind": "word", "pos": "verb", "text": "vergessen", "zh": "忘记", "features": { "ipa": "fɛɐ̯ˈɡɛsn̩" }, "noteZh": "e → i 不规则:du vergisst, er vergisst;命令式 Vergiss … nicht!(别忘了……!);完成时 vergessen(不加 ge-)。" },
+        { "id": "de.strafe", "kind": "word", "pos": "noun", "text": "die Strafe", "zh": "惩罚", "features": { "gender": "f", "plural": "die Strafen", "ipa": "ˈʃtʁaːfə" }, "noteZh": "开玩笑的“惩罚”也能说:Die Strafe: Kuchen für die WG!;str 读 [ʃtʁ]。" }
+      ],
+      "reviewItems": ["de.putzplan", "de.toilette", "de.doch", "de.vorschlag", "de.andere", "de.schmutzig"]
+    },
+    {
+      "id": "de.a1u11.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-11 家务与 WG 生活", "order": 111085,
+      "titleZh": "WG 群聊:霍夫曼先生要来",
+      "goalZh": "读懂室友之间的群聊消息,找出谁做什么、什么时候做",
+      "canDoZh": "能读懂室友之间的群聊消息,找出谁做什么、什么时候做",
+      "scenarioZh": "体裁:WG 群聊。周五晚上,索菲娅在群里说星期天下午三点霍夫曼先生要来喝咖啡(vorbeikommen),请大家星期六一起打扫;约纳斯回复星期六上午要睡懒觉(ausschlafen),下午可以打扫浴室;王伟说他负责厨房和倒垃圾,还去买蛋糕;约纳斯问索菲娅是不是不打扫,索菲娅说 Doch!,她擦窗户、吸尘;最后大家用短句互相提醒(Vergiss den Kuchen nicht! / Vergiss den Wecker nicht!)。说话人:sofia、jonas、wei(群消息,和 u5.l08 一样每条消息的说话人是发消息的人)。",
+      "grammarFocusZh": "复习:du 的命令式(Vergiss … nicht!)、doch、时间表达;消息里的口语短句(Mache ich! / Bis Samstag!)",
+      "skills": ["read", "write"], "estimatedMinutes": 16.5,
+      "newItems": [
+        { "id": "de.vorbeikommen", "kind": "word", "pos": "verb", "text": "vorbeikommen", "zh": "顺路来;过来坐坐", "features": { "ipa": "foːɐ̯ˈbaɪ̯ˌkɔmən" }, "noteZh": "可分:Herr Hoffmann kommt am Sonntag vorbei.(霍夫曼先生星期天过来坐坐);vorbei = 经过;重音在 bei。" },
+        { "id": "de.ausschlafen", "kind": "word", "pos": "verb", "text": "ausschlafen", "zh": "睡懒觉;睡个够", "features": { "ipa": "ˈaʊ̯sˌʃlaːfn̩" }, "noteZh": "可分、不规则:Am Samstag schlafe ich aus. / Er schläft aus.;周末睡懒觉就说 ausschlafen。" },
+        { "id": "de.wecker", "kind": "word", "pos": "noun", "text": "der Wecker", "zh": "闹钟", "features": { "gender": "m", "plural": "die Wecker", "ipa": "ˈvɛkɐ" }, "noteZh": "wecken(叫醒)+ -er;den Wecker stellen(定闹钟);复数不变。" }
+      ],
+      "reviewItems": ["de.vergessen", "de.doch", "de.rausbringen", "de.nachmittag", "de.staubsaugen"]
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "id": "de.a1u14.l04", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114040,
+  "titleZh": "他是什么样的人?——性格", "goalZh": "会用几个性格形容词说别人和自己(lustig、ruhig、fleißig、faul……),会用 sehr / ein bisschen 说程度", "canDoZh": "能用几个形容词说一个人的性格,也能说说自己",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.lustig", "kind": "word", "pos": "adj", "text": "lustig", "zh": "风趣;好笑", "features": { "ipa": "ˈlʊstɪç" }, "noteZh": "词尾 -ig 读 [ɪç];形容人爱开玩笑、让人发笑:Jonas ist lustig.;说事情:Das ist lustig!(真好笑!)" },
+    { "id": "de.ehrlich", "kind": "word", "pos": "adj", "text": "ehrlich", "zh": "诚实;坦率", "features": { "ipa": "ˈeːɐ̯lɪç" }, "noteZh": "h 不发音,e 是长音,-lich 读 [lɪç];口语里 Ehrlich?(真的吗?)也很常用。" },
+    { "id": "de.faul", "kind": "word", "pos": "adj", "text": "faul", "zh": "懒", "features": { "ipa": "faʊ̯l" }, "noteZh": "反义词 fleißig;说朋友时常加 ein bisschen,听起来没那么重:Er ist ein bisschen faul.。" },
+    { "id": "de.offen", "kind": "word", "pos": "adj", "text": "offen", "zh": "开朗;坦率;开着的", "features": { "ipa": "ˈɔfn̩" }, "noteZh": "说人:Sie ist offen.(她很开朗,容易接近);说门窗:Die Tür ist offen.(门开着。)反义词(说人)schüchtern。" },
+    { "id": "de.hilfsbereit", "kind": "word", "pos": "adj", "text": "hilfsbereit", "zh": "乐于助人", "features": { "ipa": "ˈhɪlfsbəˌʁaɪ̯t" }, "noteZh": "die Hilfe + s + bereit(准备好的)→ 随时愿意帮忙;重音在 hilfs 上。" },
+    { "id": "de.fleissig", "kind": "word", "pos": "adj", "text": "fleißig", "zh": "勤奋;用功", "features": { "ipa": "ˈflaɪ̯sɪç" }, "noteZh": "ß 读清音 [s],-ig 读 [ɪç];反义词 faul。" },
+    { "id": "de.ruhig", "kind": "word", "pos": "adj", "text": "ruhig", "zh": "安静;文静", "features": { "ipa": "ˈʁuːɪç" }, "noteZh": "h 不发音,-ig 读 [ɪç];说人:Er ist ruhig.(他很文静。)说地方:Die Straße ist ruhig.;反义词 laut。" },
+    { "id": "de.schuechtern", "kind": "word", "pos": "adj", "text": "schüchtern", "zh": "害羞;腼腆", "features": { "ipa": "ˈʃʏçtɐn" }, "noteZh": "sch 读 [ʃ],ü 是短音,ch 读 [ç];反义词 offen。" }
+  ],
+  "reviewItems": ["de.referat", "de.schule", "de.freundlich", "de.mehr", "de.aufstehen", "de.helfen"],
+  "lines": [
+    { "speaker": "paul", "text": "Ich schreibe ein Referat für die Schule: „Mein Freund Max“.", "zh": "我在给学校写一篇报告:《我的朋友 Max》。", "items": ["de.ich", "de.schreiben", "de.ein", "de.referat", "de.fuer", "de.schule", "de.mein", "de.freund"] },
+    { "speaker": "paul", "text": "Max ist lustig, ehrlich und sehr freundlich.", "zh": "Max 很风趣、很诚实,人也特别好。", "items": ["de.sein", "de.lustig", "de.ehrlich", "de.und", "de.sehr", "de.freundlich"] },
+    { "speaker": "paul", "text": "Und wie ist Jonas? Und Sofia?", "zh": "那约纳斯是什么样的人?索菲娅呢?", "items": ["de.und", "de.wie", "de.sein"] },
+    { "speaker": "wei", "text": "Jonas ist lustig, aber ein bisschen faul. Er steht nie früh auf!", "zh": "约纳斯很风趣,不过有点懒。他从来不早起!", "items": ["de.sein", "de.lustig", "de.aber", "de.ein_bisschen", "de.faul", "de.er", "de.aufstehen", "de.nie", "de.frueh"] },
+    { "speaker": "lena", "text": "Sofia ist offen und hilfsbereit.", "zh": "索菲娅很开朗,也乐于助人。", "items": ["de.sein", "de.offen", "de.und", "de.hilfsbereit"] },
+    { "speaker": "wei", "text": "Was heißt „hilfsbereit“?", "zh": "hilfsbereit 是什么意思?", "items": ["de.was", "de.ich_heisse", "de.hilfsbereit"] },
+    { "speaker": "lena", "text": "„Hilfsbereit“ heißt: Sie hilft gern.", "zh": "hilfsbereit 就是:她很愿意帮忙。", "items": ["de.hilfsbereit", "de.ich_heisse", "de.sie_sg", "de.helfen", "de.gern"] },
+    { "speaker": "paul", "text": "Und du, Wei? Wie bist du?", "zh": "那你呢,伟?你是什么样的人?", "items": ["de.und", "de.du", "de.wie", "de.sein"] },
+    { "speaker": "lena", "text": "Wei ist fleißig und ruhig, aber ein bisschen schüchtern.", "zh": "伟很勤奋,很文静,不过有点害羞。", "items": ["de.sein", "de.fleissig", "de.und", "de.ruhig", "de.aber", "de.ein_bisschen", "de.schuechtern"] },
+    { "speaker": "wei", "text": "Schüchtern? Ich? Nicht mehr! Jetzt spreche ich viel Deutsch!", "zh": "害羞?我?早就不了!现在我德语说得可多了!", "items": ["de.schuechtern", "de.ich", "de.nicht", "de.mehr", "de.jetzt", "de.sprechen", "de.viel", "de.deutsch"] }
+  ],
+  "questions": [
+    { "prompt": "保罗的报告写的是谁?", "options": ["他的老师", "他的朋友 Max", "他的姐姐莉娜"], "answer": 1, "explainZh": "保罗说:Ich schreibe ein Referat für die Schule: „Mein Freund Max“.(报告的题目是《我的朋友 Max》。)" },
+    { "prompt": "王伟说约纳斯是什么样的人?", "options": ["很风趣,但有点懒", "很勤奋", "很害羞"], "answer": 0, "explainZh": "王伟说:Jonas ist lustig, aber ein bisschen faul. Er steht nie früh auf!(约纳斯很风趣,不过有点懒,从来不早起!)" },
+    { "prompt": "hilfsbereit 是什么意思?", "options": ["很安静", "说话很直", "乐于助人"], "answer": 2, "explainZh": "莉娜解释:„Hilfsbereit“ heißt: Sie hilft gern.(就是很愿意帮忙。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_charakter", "titleZh": "说性格:形容词成对记,用 sehr / ein bisschen 说程度",
+      "bodyZh": "性格形容词成对记更牢:fleißig(勤奋)↔ faul(懒),ruhig(文静)↔ laut(吵),offen(开朗)↔ schüchtern(害羞);另外还有 lustig(风趣)、ehrlich(诚实)、freundlich(友好)、hilfsbereit(乐于助人,Hilfe + s + bereit)。\n说程度:sehr(很)、ein bisschen(有点儿)、nicht sehr(不太)。说缺点时德国人常用 ein bisschen,听起来客气一点:Er ist ein bisschen faul.。形容词放在 sein 后面不变:Sofia ist offen. / Wei ist ruhig.",
+      "examples": [
+        { "text": "Jonas ist lustig, aber ein bisschen faul.", "zh": "约纳斯很风趣,不过有点懒。" },
+        { "text": "Wei ist fleißig und ruhig.", "zh": "伟很勤奋、很文静。" },
+        { "text": "Sofia ist nicht sehr ruhig, sie ist offen.", "zh": "索菲娅不太文静,她很开朗。" }
+      ] },
+    { "id": "de.g.u14_ig_lich", "titleZh": "发音:-ig 和 -lich",
+      "bodyZh": "词尾 -ig 读 [ɪç],和 ich 的 ch 一样:lustig、ruhig、fleißig(不要读成 [ɪk] 或 [ɪɡ];德国南部、奥地利有人读 [ɪk],标准德语读 [ɪç])。词尾 -lich 读 [lɪç]:freundlich、ehrlich、glücklich。[ç] 和汉语拼音 x(“西”的声母)很像。",
+      "examples": [
+        { "text": "Max ist lustig und ehrlich.", "zh": "Max 很风趣、很诚实。" },
+        { "text": "Wei ist ruhig und fleißig.", "zh": "伟很文静、很勤奋。" }
+      ] }
+  ],
+  "review": "draft"
+}

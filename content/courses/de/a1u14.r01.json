@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u14.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-14 外貌与性格", "order": 114045,
+  "titleZh": "找短期室友:广告和回信", "goalZh": "读懂一则短期转租广告和三段自我介绍,找出每个人的特点,判断谁最合适", "canDoZh": "能读懂找人的广告和几段自我描述,判断谁最合适",
+  "skills": ["read"], "estimatedMinutes": 15,
+  "newItems": [
+    { "id": "de.zwischenmiete", "kind": "word", "pos": "noun", "text": "die Zwischenmiete", "zh": "短期转租", "features": { "gender": "f", "plural": "die Zwischenmieten", "ipa": "ˈtsvɪʃn̩ˌmiːtə" }, "noteZh": "zwischen(在……之间)+ die Miete;房客一段时间不住,把房间短期租给别人,德国学生很常见;zw 读 [tsv]。" },
+    { "id": "de.gitarre", "kind": "word", "pos": "noun", "text": "die Gitarre", "zh": "吉他", "features": { "gender": "f", "plural": "die Gitarren", "ipa": "ɡiˈtaʁə" }, "noteZh": "重音在 tar 上;弹吉他:Gitarre spielen(不加冠词,和 Fußball spielen 一样)。" }
+  ],
+  "reviewItems": ["de.design", "de.haustier", "de.ruhig", "de.lustig", "de.freundlich", "de.sportlich"],
+  "lines": [
+    { "speaker": "sofia", "text": "Zwischenmiete im August!", "zh": "八月短期转租!", "items": ["de.zwischenmiete", "de.in", "de.august"] },
+    { "speaker": "sofia", "text": "Ich bin Sofia und studiere Design in Berlin.", "zh": "我是索菲娅,在柏林读设计。", "items": ["de.ich", "de.sein", "de.und", "de.studieren", "de.design", "de.in"] },
+    { "speaker": "sofia", "text": "Im August bin ich in Italien, und mein Zimmer ist frei.", "zh": "八月我在意大利,我的房间空着。", "items": ["de.in", "de.august", "de.sein", "de.ich", "de.italien", "de.und", "de.mein", "de.zimmer", "de.frei"] },
+    { "speaker": "sofia", "text": "Das Zimmer ist groß und hell. Die Miete ist 450 Euro.", "zh": "房间又大又亮。房租 450 欧元。", "items": ["de.zimmer", "de.sein", "de.gross", "de.und", "de.hell", "de.miete", "de.vier", "de.hundert", "de.fuenfzig", "de.euro"] },
+    { "speaker": "sofia", "text": "Wir sind drei: Jonas, Wei und ich. Unsere WG ist ruhig.", "zh": "我们一共三个人:约纳斯、伟和我。我们的合租公寓很安静。", "items": ["de.wir", "de.sein", "de.drei", "de.und", "de.ich", "de.unser", "de.wg", "de.ruhig"] },
+    { "speaker": "sofia", "text": "Bitte keine Haustiere und keine Partys!", "zh": "请不要带宠物,也不要开派对!", "items": ["de.bitte", "de.kein", "de.haustier", "de.und", "de.party"] },
+    { "speaker": "narrator", "text": "Antwort 1: Hallo! Ich bin Lukas, 23, und spiele gern Fußball.", "zh": "回信 1:你好!我叫 Lukas,23 岁,喜欢踢足球。", "items": ["de.antwort", "de.eins", "de.hallo", "de.ich", "de.sein", "de.drei", "de.zwanzig", "de.und", "de.spielen", "de.gern", "de.fussball"] },
+    { "speaker": "narrator", "text": "Ich bin sportlich, freundlich und nicht sehr laut.", "zh": "我爱运动,人很友好,也不太吵。", "items": ["de.ich", "de.sein", "de.sportlich", "de.freundlich", "de.und", "de.nicht", "de.sehr", "de.laut"] },
+    { "speaker": "narrator", "text": "Antwort 2: Liebe Sofia, vielen Dank für die Anzeige!", "zh": "回信 2:亲爱的索菲娅,谢谢你的广告!", "items": ["de.antwort", "de.zwei", "de.liebe", "de.vielen_dank", "de.fuer", "de.anzeige"] },
+    { "speaker": "narrator", "text": "Ich heiße Emma und bin 21. Ich bin ruhig und lese gern.", "zh": "我叫 Emma,21 岁。我很安静,喜欢看书。", "items": ["de.ich_heisse", "de.und", "de.sein", "de.eins", "de.zwanzig", "de.ich", "de.ruhig", "de.lesen", "de.gern"] },
+    { "speaker": "narrator", "text": "Antwort 3: Hallo! Ich bin Ben und spiele jeden Abend Gitarre.", "zh": "回信 3:你好!我叫 Ben,每天晚上弹吉他。", "items": ["de.antwort", "de.drei", "de.hallo", "de.ich", "de.sein", "de.und", "de.spielen", "de.jeder", "de.abend", "de.gitarre"] },
+    { "speaker": "narrator", "text": "Ich bin sehr lustig und mache gern Partys!", "zh": "我很风趣,很喜欢开派对!", "items": ["de.ich", "de.sein", "de.sehr", "de.lustig", "de.und", "de.machen", "de.gern", "de.party"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅的房间什么时候空出来?", "options": ["七月", "八月", "九月"], "answer": 1, "explainZh": "Zwischenmiete im August! … Im August bin ich in Italien, und mein Zimmer ist frei.(八月她在意大利,房间空着。)" },
+    { "prompt": "索菲娅不希望新房客怎么样?", "options": ["会做饭", "说中文", "养宠物、开派对"], "answer": 2, "explainZh": "广告写着:Bitte keine Haustiere und keine Partys!(请不要带宠物,也不要开派对!)" },
+    { "prompt": "哪一位说自己很安静、喜欢看书?", "options": ["Lukas", "Emma", "Ben"], "answer": 1, "explainZh": "Emma 写:Ich bin ruhig und lese gern.(我很安静,喜欢看书。)" },
+    { "prompt": "为什么 Ben 可能不太合适?", "options": ["他每天晚上弹吉他,还爱开派对", "他不会说德语", "他想住一整年"], "answer": 0, "explainZh": "Ben 写:Ich … spiele jeden Abend Gitarre. / Ich … mache gern Partys!——可是索菲娅写了 keine Partys。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u14_anzeige", "titleZh": "看懂找人的广告和回信",
+      "bodyZh": "广告常省掉动词,只写要点:Zwischenmiete im August!(八月短期转租!)/ Bitte keine Haustiere!(请不要带宠物——kein + 名词表示“不要……”)。回信里的自我介绍一般按这个顺序:名字和年龄(Ich bin Lukas, 23 / Ich heiße Emma und bin 21)→ 做什么、爱好(Ich spiele gern Fußball / Ich lese gern)→ 性格(Ich bin ruhig und ehrlich)。读的时候把每个人的特点和广告的要求对一对,就知道谁合适。",
+      "examples": [
+        { "text": "Bitte keine Haustiere!", "zh": "请不要带宠物!" },
+        { "text": "Ich bin sportlich und nicht sehr laut.", "zh": "我爱运动,也不太吵。" },
+        { "text": "Ich heiße Emma und bin 21.", "zh": "我叫 Emma,21 岁。" }
+      ] }
+  ],
+  "review": "draft"
+}
