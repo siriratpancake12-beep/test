@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u4.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104050,
+  "titleZh": "在餐厅:点菜和买单", "goalZh": "会看菜单、点菜、说味道,最后买单(分开付)", "canDoZh": "能在餐厅点菜、回答服务员的问题,结账时说要一起付还是分开付",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.restaurant", "kind": "word", "pos": "noun", "text": "das Restaurant", "zh": "餐馆;饭店", "features": { "gender": "n", "plural": "die Restaurants", "ipa": "ʁɛstoˈʁɑ̃ː" }, "noteZh": "从法语来的词:词尾 t 不发音,an 读鼻音;复数加 -s。" },
+    { "id": "de.speisekarte", "kind": "word", "pos": "noun", "text": "die Speisekarte", "zh": "菜单", "features": { "gender": "f", "plural": "die Speisekarten", "ipa": "ˈʃpaɪ̯zəˌkaʁtə" }, "noteZh": "Die Speisekarte, bitte!(请给我菜单!)口语也说 die Karte。" },
+    { "id": "de.bestellen", "kind": "word", "pos": "verb", "text": "bestellen", "zh": "点(菜);订购", "features": { "ipa": "bəˈʃtɛlən" }, "noteZh": "Möchten Sie bestellen?(您要点菜吗?)be- 开头的动词不可分。" },
+    { "id": "de.suppe", "kind": "word", "pos": "noun", "text": "die Suppe", "zh": "汤", "features": { "gender": "f", "plural": "die Suppen", "ipa": "ˈzʊpə" }, "noteZh": "S 在元音前读 [z],u 是短音 [ʊ];复数 die Suppen。" },
+    { "id": "de.fisch", "kind": "word", "pos": "noun", "text": "der Fisch", "zh": "鱼", "features": { "gender": "m", "plural": "die Fische", "ipa": "fɪʃ" }, "noteZh": "sch 读 [ʃ](嘴唇撮圆,比拼音 sh 更圆)。" },
+    { "id": "de.kartoffel", "kind": "word", "pos": "noun", "text": "die Kartoffel", "zh": "土豆", "features": { "gender": "f", "plural": "die Kartoffeln", "ipa": "kaʁˈtɔfl̩" }, "noteZh": "重音在第二个音节 tof 上;德国菜里最常见的配菜。" },
+    { "id": "de.schmecken", "kind": "word", "pos": "verb", "text": "schmecken", "zh": "尝起来……;好吃", "features": { "ipa": "ˈʃmɛkn̩" }, "noteZh": "Schmeckt es?(好吃吗?)– Ja, es schmeckt sehr gut!;主语是饭菜,不是人。" },
+    { "id": "de.rechnung", "kind": "word", "pos": "noun", "text": "die Rechnung", "zh": "账单", "features": { "gender": "f", "plural": "die Rechnungen", "ipa": "ˈʁɛçnʊŋ" }, "noteZh": "买单:Die Rechnung, bitte! / Zahlen, bitte!" },
+    { "id": "de.bezahlen", "kind": "word", "pos": "verb", "text": "bezahlen", "zh": "付钱", "features": { "ipa": "bəˈtsaːlən" }, "noteZh": "Ich bezahle!(我来付!)be- 开头的动词不可分。德国习惯付钱时把零头凑个整数给服务员。" },
+    { "id": "de.getrennt", "kind": "word", "pos": "adv", "text": "getrennt", "zh": "分开(付钱)", "features": { "ipa": "ɡəˈtʁɛnt" }, "noteZh": "服务员问 Zusammen oder getrennt?;朋友之间各付各的很常见。" }
+  ],
+  "reviewItems": ["de.nehmen", "de.zusammen", "de.wasser"],
+  "lines": [
+    { "speaker": "lena", "text": "Das Restaurant ist schön! Und Jonas ist hier Koch.", "zh": "这家餐馆真不错!约纳斯就在这儿当厨师。", "items": ["de.restaurant", "de.sein", "de.schoen", "de.und", "de.hier", "de.koch"] },
+    { "speaker": "kellner", "text": "Hier ist die Speisekarte. Möchten Sie bestellen?", "zh": "这是菜单。几位要点菜吗?", "items": ["de.hier", "de.sein", "de.speisekarte", "de.moechten", "de.sie_hoeflich", "de.bestellen"] },
+    { "speaker": "wei", "text": "Ja. Ich nehme die Suppe und den Fisch mit Kartoffeln.", "zh": "要。我要汤和鱼配土豆。", "items": ["de.ja", "de.ich", "de.nehmen", "de.suppe", "de.und", "de.fisch", "de.mit", "de.kartoffel"] },
+    { "speaker": "sofia", "text": "Wir nehmen auch den Fisch. Und drei Wasser, bitte.", "zh": "我们也要鱼。再来三瓶水,谢谢。", "items": ["de.wir", "de.nehmen", "de.auch", "de.fisch", "de.und", "de.drei", "de.wasser", "de.bitte"] },
+    { "speaker": "kellner", "text": "Schmeckt es?", "zh": "好吃吗?", "items": ["de.schmecken", "de.es"] },
+    { "speaker": "wei", "text": "Ja, sehr gut! Die Rechnung, bitte.", "zh": "很好吃!请结账。", "items": ["de.ja", "de.sehr", "de.gut", "de.rechnung", "de.bitte"] },
+    { "speaker": "kellner", "text": "Zusammen oder getrennt?", "zh": "一起付还是分开付?", "items": ["de.zusammen", "de.oder", "de.getrennt"] },
+    { "speaker": "sofia", "text": "Getrennt, bitte. Ich bezahle den Fisch und das Wasser.", "zh": "分开付,谢谢。我付鱼和水的钱。", "items": ["de.getrennt", "de.bitte", "de.ich", "de.bezahlen", "de.fisch", "de.und", "de.wasser"] }
+  ],
+  "questions": [
+    { "prompt": "王伟点了什么?", "options": ["鱼和米饭", "只要了一份汤", "汤和鱼配土豆"], "answer": 2, "explainZh": "王伟说:Ich nehme die Suppe und den Fisch mit Kartoffeln.(我要汤和鱼配土豆。)" },
+    { "prompt": "他们怎么付钱?", "options": ["一起付", "分开付", "王伟请客"], "answer": 1, "explainZh": "服务员问 Zusammen oder getrennt?(一起付还是分开付?)索菲娅说:Getrennt, bitte.(分开付。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.restaurant", "titleZh": "在餐厅:点菜、Schmeckt es? 和买单",
+      "bodyZh": "点菜用 Ich nehme … 或 Ich möchte …,后面是第四格:阳性 der → den(den Fisch),阴性、中性不变(die Suppe, das Wasser)。schmecken(好吃、尝起来)的主语是饭菜,不是人:Schmeckt es?(好吃吗?)– Ja, sehr gut! / Der Fisch schmeckt gut.;中国学生常按中文“我吃着很好”说成 ✗ Ich schmecke gut,意思就成了“我很好吃”。买单说 Die Rechnung, bitte!(也常说 Zahlen, bitte!),服务员会问 Zusammen oder getrennt?(一起付还是分开付?),朋友之间各付各的很常见。德国习惯:付钱时把零头凑个整数给服务员,比如账单 17,80 欧元,就给 18 欧元,说 Achtzehn, bitte.(或 Stimmt so.,意思是“不用找了”)。",
+      "examples": [ { "text": "Ich nehme die Suppe und den Fisch.", "zh": "我要汤和鱼。" }, { "text": "Schmeckt es? Ja, sehr gut!", "zh": "好吃吗?很好吃!" } ] }
+  ],
+  "review": "draft"
+}

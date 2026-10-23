@@ -27,9 +27,9 @@
     { "speaker": "sofia", "text": "In der Küche. Der Tisch und die Stühle auch.", "zh": "在厨房。桌子和椅子也在那儿。", "items": ["de.in", "de.kueche", "de.tisch", "de.und", "de.stuhl", "de.auch"] }
   ],
   "questions": [
-    { "prompt": "王伟房间里的床和柜子怎么样?", "options": ["都是新的", "都是旧的", "床是新的,柜子是旧的"], "answer": 1, "explainZh": "王伟说:Das Bett ist alt. Der Schrank ist auch alt.(床是旧的,柜子也是旧的。)" },
+    { "prompt": "王伟房间里的床和柜子怎么样?", "options": ["都是旧的", "都是新的", "床是新的,柜子是旧的"], "answer": 0, "explainZh": "王伟说:Das Bett ist alt. Der Schrank ist auch alt.(床是旧的,柜子也是旧的。)" },
     { "prompt": "王伟问灯在哪儿,约纳斯怎么回答?", "options": ["灯在厨房里", "灯在约纳斯的房间里", "两扇窗户就是你的灯"], "answer": 2, "explainZh": "约纳斯开玩笑:Das Zimmer hat zwei Fenster. Das sind deine Lampen!——其实房间里没有灯。" },
-    { "prompt": "约纳斯的沙发为什么搬不进王伟的房间?", "options": ["沙发很大,门很小", "沙发太旧了", "王伟不喜欢沙发"], "answer": 0, "explainZh": "约纳斯说:Die Sofas sind groß, und die Tür ist klein!(沙发那么大,门那么小!)" }
+    { "prompt": "约纳斯的沙发为什么搬不进王伟的房间?", "options": ["沙发太旧了", "沙发很大,门很小", "王伟不喜欢沙发"], "answer": 1, "explainZh": "约纳斯说:Die Sofas sind groß, und die Tür ist klein!(沙发那么大,门那么小!)" }
   ],
   "grammar": [
     { "id": "de.g.plural", "titleZh": "名词的复数:几种变法,冠词都是 die",

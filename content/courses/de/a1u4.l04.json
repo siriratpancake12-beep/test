@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u4.l04", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104040,
+  "titleZh": "WG 中国菜之夜:我来做饭", "goalZh": "会说喜欢吃什么、不吃什么,会评价饭菜", "canDoZh": "能说出自己喜欢和不喜欢吃的东西,能请别人吃饭并说好不好吃",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.kochen", "kind": "word", "pos": "verb", "text": "kochen", "zh": "做饭;煮", "features": { "ipa": "ˈkɔxn̩" }, "noteZh": "ch 在 o 后面读 [x](像“喝”的声母,从喉咙出气);Ich koche gern.(我喜欢做饭。)厨师是 der Koch。" },
+    { "id": "de.essen", "kind": "word", "pos": "verb", "text": "essen", "zh": "吃", "features": { "ipa": "ˈɛsn̩" }, "noteZh": "不规则:du isst, er isst(e 变 i);名词 das Essen = 饭菜。" },
+    { "id": "de.gern", "kind": "word", "pos": "adv", "text": "gern", "zh": "喜欢(做某事);乐意", "alt": ["gerne"], "features": { "ipa": "ɡɛʁn" }, "noteZh": "放在动词后面表示喜欢做:Ich esse gern Reis. / Ich koche nicht gern.;回答邀请:Ja, gern!(好啊!)" },
+    { "id": "de.hunger", "kind": "word", "pos": "noun", "text": "der Hunger", "zh": "饿", "features": { "gender": "m", "plural": "-", "ipa": "ˈhʊŋɐ" }, "noteZh": "“我饿了”用 haben:Ich habe Hunger.;“渴”是 Durst:Ich habe Durst.。" },
+    { "id": "de.fleisch", "kind": "word", "pos": "noun", "text": "das Fleisch", "zh": "肉", "features": { "gender": "n", "plural": "-", "ipa": "flaɪ̯ʃ" }, "noteZh": "不可数,不加 ein:Kein Fleisch, danke.;ei 读 [aɪ̯],sch 读 [ʃ]。" },
+    { "id": "de.reis", "kind": "word", "pos": "noun", "text": "der Reis", "zh": "米饭;大米", "features": { "gender": "m", "plural": "-", "ipa": "ʁaɪ̯s" }, "noteZh": "别和 die Reise(旅行)搞混:Reis 词尾 s 读清音 [s]。" },
+    { "id": "de.nudel", "kind": "word", "pos": "noun", "text": "die Nudel", "zh": "面条", "alt": ["die Nudeln"], "features": { "gender": "f", "plural": "die Nudeln", "ipa": "ˈnuːdl̩" }, "noteZh": "吃的“面条”平时说复数:Ich esse gern Nudeln.。" },
+    { "id": "de.scharf", "kind": "word", "pos": "adj", "text": "scharf", "zh": "辣", "features": { "ipa": "ʃaʁf" }, "noteZh": "Das ist sehr scharf!(很辣!)很多德国人不太能吃辣;scharf 也有“锋利”的意思。" },
+    { "id": "de.lecker", "kind": "word", "pos": "adj", "text": "lecker", "zh": "好吃;可口", "features": { "ipa": "ˈlɛkɐ" }, "noteZh": "口语最常用:Das ist lecker! / Lecker!" },
+    { "id": "de.guten_appetit", "kind": "phrase", "pos": "phrase", "text": "Guten Appetit!", "zh": "请慢用!/开动吧!", "features": { "ipa": "ˈɡuːtn̩ apeˈtiːt" }, "noteZh": "德国人吃饭前互相说 Guten Appetit!;回答 Danke, gleichfalls!(谢谢,你也是!)或者也说 Guten Appetit!。" }
+  ],
+  "reviewItems": ["de.gemuese", "de.ei", "de.kein", "de.koch"],
+  "lines": [
+    { "speaker": "wei", "text": "Mein Vater ist Koch, und ich koche auch gern.", "zh": "我爸爸是厨师,我也喜欢做饭。", "items": ["de.mein", "de.vater", "de.sein", "de.koch", "de.und", "de.ich", "de.kochen", "de.auch", "de.gern"] },
+    { "speaker": "jonas", "text": "Sehr gut! Ich habe Hunger.", "zh": "太好了!我饿了。", "items": ["de.sehr", "de.gut", "de.ich", "de.haben", "de.hunger"] },
+    { "speaker": "wei", "text": "Was esst ihr gern? Fleisch? Nudeln?", "zh": "你们喜欢吃什么?肉?面条?", "items": ["de.was", "de.essen", "de.ihr", "de.gern", "de.fleisch", "de.nudel"] },
+    { "speaker": "jonas", "text": "Ich esse alles gern!", "zh": "我什么都爱吃!", "items": ["de.ich", "de.essen", "de.alles", "de.gern"] },
+    { "speaker": "sofia", "text": "Ich esse gern Nudeln mit Ei. Aber bitte nicht scharf!", "zh": "我喜欢吃鸡蛋面。不过请别做辣的!", "items": ["de.ich", "de.essen", "de.gern", "de.nudel", "de.mit", "de.ei", "de.aber", "de.bitte", "de.nicht", "de.scharf"] },
+    { "speaker": "wei", "text": "Gut! Reis mit Fleisch und Nudeln mit Ei und Gemüse.", "zh": "好!米饭配肉,还有鸡蛋蔬菜面。", "items": ["de.gut", "de.reis", "de.mit", "de.fleisch", "de.und", "de.nudel", "de.ei", "de.gemuese"] },
+    { "speaker": "sofia", "text": "Guten Appetit!", "zh": "开动吧!", "items": ["de.guten_appetit"] },
+    { "speaker": "jonas", "text": "Lecker! Aber das Fleisch ist sehr scharf!", "zh": "好吃!不过这肉真辣!", "items": ["de.lecker", "de.aber", "de.fleisch", "de.sein", "de.sehr", "de.scharf"] },
+    { "speaker": "wei", "text": "Sofia, möchtest du Fleisch?", "zh": "索菲娅,你要肉吗?", "items": ["de.moechten", "de.du", "de.fleisch"] },
+    { "speaker": "sofia", "text": "Nein, danke! Kein Fleisch. Die Nudeln sind sehr lecker!", "zh": "不了,谢谢!不要肉。面条很好吃!", "items": ["de.nein", "de.danke", "de.kein", "de.fleisch", "de.nudel", "de.sein", "de.sehr", "de.lecker"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯喜欢吃什么?", "options": ["什么都爱吃", "只吃肉", "只吃面条"], "answer": 0, "explainZh": "约纳斯说:Ich esse alles gern!(我什么都爱吃!)" },
+    { "prompt": "索菲娅对王伟提了什么要求?", "options": ["多放肉", "要米饭", "别做辣的"], "answer": 2, "explainZh": "索菲娅说:Aber bitte nicht scharf!(不过请别做辣的!)所以她后来也没要那盘辣的肉。" },
+    { "prompt": "约纳斯觉得肉怎么样?", "options": ["不好吃", "好吃,但是很辣", "一点也不辣"], "answer": 1, "explainZh": "约纳斯说:Lecker! Aber das Fleisch ist sehr scharf!(好吃!不过这肉真辣!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.gern", "titleZh": "Ich esse gern …:用 gern 说喜欢做什么",
+      "bodyZh": "德语说“喜欢吃、喜欢做饭”,一般不用“喜欢”这个动词,而是在动词后面加 gern:Ich esse gern Nudeln.(我喜欢吃面条。)Ich koche gern.(我喜欢做饭。)“不喜欢”就是 nicht gern:Sofia isst nicht gern scharf.。gern 放在变位的动词后面,别按中文语序说成 ✗ Ich gern esse Nudeln。essen 是不规则动词:ich esse, du isst, er / sie isst, wir essen, ihr esst。“我饿了”德语说 Ich habe Hunger(用 haben,好像说“我有饥饿”)。否定名词用 kein:Kein Fleisch, danke.;Hunger 是阳性,做第四格是 keinen:Ich habe keinen Hunger.。吃饭前大家互相说 Guten Appetit!。",
+      "examples": [ { "text": "Ich esse gern Nudeln.", "zh": "我喜欢吃面条。" }, { "text": "Ich koche auch gern.", "zh": "我也喜欢做饭。" }, { "text": "Sofia isst nicht gern scharf.", "zh": "索菲娅不喜欢吃辣。" }, { "text": "Ich habe Hunger.", "zh": "我饿了。" } ] }
+  ],
+  "review": "draft"
+}

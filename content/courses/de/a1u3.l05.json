@@ -22,13 +22,13 @@
     { "speaker": "jonas", "text": "Guten Tag, Herr Hoffmann! Wei, das ist unser Nachbar.", "zh": "您好,霍夫曼先生!王伟,这是我们的邻居。", "items": ["de.guten_tag", "de.herr", "de.das_ist", "de.unser", "de.nachbar"] },
     { "speaker": "wei", "text": "Guten Tag! Ich heiße Wei Wang.", "zh": "您好!我叫王伟。", "items": ["de.guten_tag", "de.ich_heisse"] },
     { "speaker": "hoffmann", "text": "Herr Wang, es gibt zwölf Wohnungen im Haus. Kennen Sie die Nachbarn?", "zh": "王先生,这栋楼里有十二套公寓。您认识邻居们吗?", "items": ["de.herr", "de.es_gibt", "de.zwoelf", "de.wohnung", "de.in", "de.haus", "de.kennen", "de.sie_hoeflich", "de.nachbar"] },
-    { "speaker": "wei", "text": "Nein, noch nicht.", "zh": "不认识,还没认识。", "items": ["de.nein", "de.noch", "de.nicht"] },
+    { "speaker": "wei", "text": "Nein, noch nicht.", "zh": "还不认识。", "items": ["de.nein", "de.noch", "de.nicht"] },
     { "speaker": "hoffmann", "text": "Ich habe noch einen Tisch. Brauchen Sie einen Tisch?", "zh": "我还有一张桌子。您需要桌子吗?", "items": ["de.ich", "de.haben", "de.noch", "de.ein", "de.tisch", "de.brauchen", "de.sie_hoeflich"] },
     { "speaker": "wei", "text": "Ja, bitte! Das ist sehr nett, Herr Hoffmann.", "zh": "要的,谢谢!您真好,霍夫曼先生。", "items": ["de.ja", "de.bitte", "de.das_ist", "de.sehr", "de.nett", "de.herr"] }
   ],
   "questions": [
-    { "prompt": "王伟说他还需要什么?", "options": ["一张床和一个柜子", "一张桌子、一把椅子和一盏灯", "一把钥匙"], "answer": 1, "explainZh": "王伟说:Ich brauche noch einen Tisch, einen Stuhl und eine Lampe.;钥匙约纳斯刚给了他:Hier ist dein Schlüssel!" },
-    { "prompt": "霍夫曼先生要给王伟什么?", "options": ["一盏灯", "一把椅子", "一张桌子"], "answer": 2, "explainZh": "霍夫曼先生说:Ich habe noch einen Tisch. Brauchen Sie einen Tisch?——王伟说:Das ist sehr nett!" }
+    { "prompt": "王伟说他还需要什么?", "options": ["一张桌子、一把椅子和一盏灯", "一张床和一个柜子", "一把钥匙"], "answer": 0, "explainZh": "王伟说:Ich brauche noch einen Tisch, einen Stuhl und eine Lampe.;钥匙约纳斯刚给了他:Hier ist dein Schlüssel!" },
+    { "prompt": "霍夫曼先生要给王伟什么?", "options": ["一盏灯", "一张桌子", "一把椅子"], "answer": 1, "explainZh": "霍夫曼先生说:Ich habe noch einen Tisch. Brauchen Sie einen Tisch?——王伟说:Das ist sehr nett!" }
   ],
   "grammar": [
     { "id": "de.g.akk_einen", "titleZh": "第四格入门:brauchen / haben / es gibt + einen",

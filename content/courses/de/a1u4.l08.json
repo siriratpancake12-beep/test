@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u4.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104080,
+  "titleZh": "单元复习:周日一起吃早午餐", "goalZh": "把本单元的食物、饮料、möchten 和 gern 串在一段长对话里", "canDoZh": "能在饭桌上问别人想吃什么、喝什么,递东西、道谢,说自己喜欢吃什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 23.5,
+  "newItems": [
+    { "id": "de.fruehstueck", "kind": "word", "pos": "noun", "text": "das Frühstück", "zh": "早饭", "features": { "gender": "n", "plural": "die Frühstücke", "ipa": "ˈfʁyːˌʃtʏk" }, "noteZh": "ü 是长音;复合词 früh(早)+ Stück(块),性跟着 Stück 走:das Frühstück。德式早餐常有小面包、黄油、奶酪、香肠、果酱和咖啡。" },
+    { "id": "de.butter", "kind": "word", "pos": "noun", "text": "die Butter", "zh": "黄油", "features": { "gender": "f", "plural": "-", "ipa": "ˈbʊtɐ" }, "noteZh": "不可数;u 读短音 [ʊ],和英语读法不同。" },
+    { "id": "de.wurst", "kind": "word", "pos": "noun", "text": "die Wurst", "zh": "香肠", "features": { "gender": "f", "plural": "die Würste", "ipa": "vʊʁst" }, "noteZh": "复数变音:die Würste;柏林有名的小吃是 Currywurst。" },
+    { "id": "de.vielen_dank", "kind": "phrase", "pos": "phrase", "text": "Vielen Dank!", "zh": "非常感谢!", "alt": ["Danke schön!"], "features": { "ipa": "ˈfiːlən ˈdaŋk" }, "noteZh": "比 danke 更客气;也说 Danke schön! / Danke sehr!。" }
+  ],
+  "reviewItems": ["de.broetchen", "de.kaffee", "de.moechten", "de.gern"],
+  "lines": [
+    { "speaker": "sofia", "text": "Herr Hoffmann, möchten Sie einen Kaffee?", "zh": "霍夫曼先生,您要来杯咖啡吗?", "items": ["de.herr", "de.moechten", "de.sie_hoeflich", "de.ein", "de.kaffee"] },
+    { "speaker": "hoffmann", "text": "Ja, gern! Mit Milch, bitte.", "zh": "好啊!加奶,谢谢。", "items": ["de.ja", "de.gern", "de.mit", "de.milch", "de.bitte"] },
+    { "speaker": "jonas", "text": "Wei, möchtest du ein Brötchen?", "zh": "王伟,你要个小面包吗?", "items": ["de.moechten", "de.du", "de.ein", "de.broetchen"] },
+    { "speaker": "wei", "text": "Ja, danke! Und die Butter, bitte.", "zh": "要,谢谢!请把黄油递给我。", "items": ["de.ja", "de.danke", "de.und", "de.butter", "de.bitte"] },
+    { "speaker": "hoffmann", "text": "Ich esse gern Brötchen mit Wurst. Und Sie, Herr Wang?", "zh": "我喜欢吃夹香肠的小面包。您呢,王先生?", "items": ["de.ich", "de.essen", "de.gern", "de.broetchen", "de.mit", "de.wurst", "de.und", "de.sie_hoeflich", "de.herr"] },
+    { "speaker": "wei", "text": "Mein Frühstück in China? Reis, Nudeln und Ei!", "zh": "我在中国的早饭?米饭、面条和鸡蛋!", "items": ["de.mein", "de.fruehstueck", "de.in", "de.china", "de.reis", "de.nudel", "de.und", "de.ei"] },
+    { "speaker": "jonas", "text": "Nudeln? Gut, du kochst, und ich esse!", "zh": "面条?好啊,你来做,我来吃!", "items": ["de.nudel", "de.gut", "de.du", "de.kochen", "de.und", "de.ich", "de.essen"] },
+    { "speaker": "sofia", "text": "Herr Hoffmann, möchten Sie noch eine Tasse Kaffee?", "zh": "霍夫曼先生,您要再来一杯咖啡吗?", "items": ["de.herr", "de.moechten", "de.sie_hoeflich", "de.noch", "de.ein", "de.tasse", "de.kaffee"] },
+    { "speaker": "hoffmann", "text": "Nein, danke. Aber das Frühstück ist sehr lecker!", "zh": "不用了,谢谢。不过早饭真好吃!", "items": ["de.nein", "de.danke", "de.aber", "de.fruehstueck", "de.sein", "de.sehr", "de.lecker"] },
+    { "speaker": "jonas", "text": "Wei, möchtest du noch Wurst?", "zh": "王伟,你还要香肠吗?", "items": ["de.moechten", "de.du", "de.noch", "de.wurst"] },
+    { "speaker": "wei", "text": "Ja, gern! Die Wurst ist lecker.", "zh": "好啊!香肠很好吃。", "items": ["de.ja", "de.gern", "de.wurst", "de.sein", "de.lecker"] },
+    { "speaker": "hoffmann", "text": "Vielen Dank! Sie sind sehr nett.", "zh": "非常感谢!你们人真好。", "items": ["de.vielen_dank", "de.sie_hoeflich", "de.sein", "de.sehr", "de.nett"] }
+  ],
+  "questions": [
+    { "prompt": "霍夫曼先生的咖啡要怎么喝?", "options": ["加奶", "加糖", "什么都不加"], "answer": 0, "explainZh": "霍夫曼先生说:Ja, gern! Mit Milch, bitte.(好啊!加奶,谢谢。)" },
+    { "prompt": "霍夫曼先生喜欢吃什么?", "options": ["米饭和鸡蛋", "夹香肠的小面包", "面条"], "answer": 1, "explainZh": "他说:Ich esse gern Brötchen mit Wurst.(我喜欢吃夹香肠的小面包。)" },
+    { "prompt": "王伟在中国早饭吃什么?", "options": ["小面包和黄油", "香肠和咖啡", "米饭、面条和鸡蛋"], "answer": 2, "explainZh": "王伟说:Mein Frühstück in China? Reis, Nudeln und Ei!" },
+    { "prompt": "索菲娅问霍夫曼先生要不要再来一杯咖啡,他怎么回答?", "options": ["好的,再来一杯", "不用了,谢谢", "他要一杯茶"], "answer": 1, "explainZh": "霍夫曼先生说:Nein, danke. Aber das Frühstück ist sehr lecker!(不用了,谢谢。不过早饭真好吃!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.anbieten", "titleZh": "单元复习:Möchten Sie …? 和 Möchtest du …?——请人吃喝",
+      "bodyZh": "请人吃喝最常用 möchten,称呼要分清:对霍夫曼先生这样的邻居、长辈用 Sie:Möchten Sie einen Kaffee?;对室友、朋友用 du:Möchtest du ein Brötchen?。动词词尾跟着人称变:Sie möchten,du möchtest。东西是第四格,只有阳性变:einen Kaffee;阴性、中性不变:eine Tasse Kaffee,ein Brötchen。“再来一点”加 noch:Möchten Sie noch eine Tasse Kaffee? / Möchtest du noch Wurst?(香肠、黄油这类论量的东西不加 ein)。回答:Ja, gern! / Ja, bitte! / Nein, danke.。说自己喜欢吃什么用 gern:Ich esse gern Brötchen mit Wurst.。道谢时 Vielen Dank! 比 Danke! 更客气。",
+      "examples": [ { "text": "Möchten Sie einen Kaffee?", "zh": "您要来杯咖啡吗?" }, { "text": "Möchtest du ein Brötchen?", "zh": "你要个小面包吗?" }, { "text": "Ja, gern! Mit Milch, bitte.", "zh": "好啊!加奶,谢谢。" }, { "text": "Ich esse gern Brötchen mit Wurst.", "zh": "我喜欢吃夹香肠的小面包。" } ] }
+  ],
+  "review": "draft"
+}

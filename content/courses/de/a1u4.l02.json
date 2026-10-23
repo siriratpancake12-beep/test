@@ -26,7 +26,7 @@
     { "speaker": "kellnerin", "text": "Einen Kaffee, einen Tee und ein Wasser. Danke!", "zh": "一杯咖啡、一杯茶和一杯水。谢谢!", "items": ["de.ein", "de.kaffee", "de.tee", "de.und", "de.wasser", "de.danke"] }
   ],
   "questions": [
-    { "prompt": "莉娜点了什么?", "options": ["一杯茶", "一杯加奶的咖啡", "一杯水"], "answer": 1, "explainZh": "莉娜说:Ich nehme einen Kaffee mit Milch, bitte.(我要一杯加奶的咖啡。)茶和水是王伟点的。" },
+    { "prompt": "莉娜点了什么?", "options": ["一杯加奶的咖啡", "一杯茶", "一杯水"], "answer": 0, "explainZh": "莉娜说:Ich nehme einen Kaffee mit Milch, bitte.(我要一杯加奶的咖啡。)茶和水是王伟点的。" },
     { "prompt": "莉娜请王伟去咖啡馆,王伟为什么先说 Nein, danke?", "options": ["他不喜欢咖啡馆", "他想回家", "他把 Café(咖啡馆)听成了 Kaffee(咖啡)"], "answer": 2, "explainZh": "王伟以为莉娜说的是 Kaffee(咖啡),就说 Nein, danke. Ich trinke Tee.;莉娜纠正:Das Café, nicht der Kaffee!" }
   ],
   "grammar": [

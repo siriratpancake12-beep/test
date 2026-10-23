@@ -28,9 +28,9 @@
     { "speaker": "wei", "text": "Hier, bitte. Danke! Auf Wiedersehen!", "zh": "给您。谢谢!再见!", "items": ["de.hier", "de.bitte", "de.danke", "de.auf_wiedersehen"] }
   ],
   "questions": [
-    { "prompt": "冰箱里还有什么?", "options": ["鸡蛋和面包", "奶酪和牛奶", "水果和蔬菜"], "answer": 1, "explainZh": "王伟说:Noch Käse und Milch, aber keine Eier.(还有奶酪和牛奶,但是没有鸡蛋了。)" },
-    { "prompt": "王伟要买什么水果?", "options": ["香蕉", "橙子", "苹果"], "answer": 2, "explainZh": "王伟说:Und Obst! Ich kaufe Äpfel.(还有水果!我买苹果。)" },
-    { "prompt": "在收银台一共付了多少钱?", "options": ["12 欧元", "20 欧元", "2 欧元"], "answer": 0, "explainZh": "收银员说:Zwölf Euro, bitte.——zwölf = 12。" }
+    { "prompt": "冰箱里还有什么?", "options": ["鸡蛋和面包", "水果和蔬菜", "奶酪和牛奶"], "answer": 2, "explainZh": "王伟说:Noch Käse und Milch, aber keine Eier.(还有奶酪和牛奶,但是没有鸡蛋了。)" },
+    { "prompt": "王伟要买什么水果?", "options": ["苹果", "香蕉", "橙子"], "answer": 0, "explainZh": "王伟说:Und Obst! Ich kaufe Äpfel.(还有水果!我买苹果。)" },
+    { "prompt": "在收银台一共付了多少钱?", "options": ["20 欧元", "12 欧元", "2 欧元"], "answer": 1, "explainZh": "收银员说:Zwölf Euro, bitte.——zwölf = 12。" }
   ],
   "grammar": [
     { "id": "de.g.unzaehlbar", "titleZh": "Wir brauchen Milch:不可数的东西不加 ein",

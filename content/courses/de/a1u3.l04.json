@@ -28,9 +28,9 @@
     { "speaker": "wei", "text": "Tausend? Das ist sehr teuer!", "zh": "1000?太贵了!", "items": ["de.tausend", "de.das_ist", "de.sehr", "de.teuer"] }
   ],
   "questions": [
-    { "prompt": "王伟的房间房租多少钱?", "options": ["540 欧元", "450 欧元", "520 欧元"], "answer": 1, "explainZh": "约纳斯说:Die Miete ist vierhundertfünfzig Euro.(450 欧元)王伟听成了 fünfhundertvierzig(540),约纳斯马上纠正。520 欧元是约纳斯自己的房间。" },
-    { "prompt": "店里最便宜的灯多少钱?", "options": ["13 欧元", "70 欧元", "30 欧元"], "answer": 2, "explainZh": "店员说:Dreißig, sechzig und siebzig Euro.(30、60、70 欧元)王伟把 dreißig 听成了 dreizehn(13),店员说:Nein, dreißig!" },
-    { "prompt": "那张桌子多少钱?", "options": ["1000 欧元", "100 欧元", "170 欧元"], "answer": 0, "explainZh": "店员说:Der Tisch kostet tausend Euro.(1000 欧元)所以王伟说:Das ist sehr teuer!" }
+    { "prompt": "王伟的房间房租多少钱?", "options": ["540 欧元", "520 欧元", "450 欧元"], "answer": 2, "explainZh": "约纳斯说:Die Miete ist vierhundertfünfzig Euro.(450 欧元)王伟听成了 fünfhundertvierzig(540),约纳斯马上纠正。520 欧元是约纳斯自己的房间。" },
+    { "prompt": "店里最便宜的灯多少钱?", "options": ["30 欧元", "13 欧元", "70 欧元"], "answer": 0, "explainZh": "店员说:Dreißig, sechzig und siebzig Euro.(30、60、70 欧元)王伟把 dreißig 听成了 dreizehn(13),店员说:Nein, dreißig!" },
+    { "prompt": "那张桌子多少钱?", "options": ["100 欧元", "1000 欧元", "170 欧元"], "answer": 1, "explainZh": "店员说:Der Tisch kostet tausend Euro.(1000 欧元)所以王伟说:Das ist sehr teuer!" }
   ],
   "grammar": [
     { "id": "de.g.zahlen_20_1000", "titleZh": "21–99 先说个位,再说十位;-zehn 和 -zig 别听混",

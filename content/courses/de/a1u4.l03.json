@@ -27,8 +27,8 @@
     { "speaker": "verkaeuferin", "text": "Danke! Auf Wiedersehen!", "zh": "谢谢!再见!", "items": ["de.danke", "de.auf_wiedersehen"] }
   ],
   "questions": [
-    { "prompt": "王伟买了什么?", "options": ["两个小面包和四块蛋糕", "四个小面包和两块蛋糕", "四个小面包和一杯咖啡"], "answer": 1, "explainZh": "王伟说:Vier Brötchen und zwei Stück Kuchen, bitte.(四个小面包和两块蛋糕。)" },
-    { "prompt": "一共多少钱?王伟怎么付的?", "options": ["2.20 欧元,付现金", "6.20 欧元,付现金", "6.20 欧元,刷卡"], "answer": 2, "explainZh": "店员说:Das macht zusammen sechs Euro zwanzig.(一共 6.20 欧元)王伟说 Mit Karte, bitte.——刷卡。" }
+    { "prompt": "王伟买了什么?", "options": ["两个小面包和四块蛋糕", "四个小面包和一杯咖啡", "四个小面包和两块蛋糕"], "answer": 2, "explainZh": "王伟说:Vier Brötchen und zwei Stück Kuchen, bitte.(四个小面包和两块蛋糕。)" },
+    { "prompt": "一共多少钱?王伟怎么付的?", "options": ["6.20 欧元,刷卡", "2.20 欧元,付现金", "6.20 欧元,付现金"], "answer": 0, "explainZh": "店员说:Das macht zusammen sechs Euro zwanzig.(一共 6.20 欧元)王伟说 Mit Karte, bitte.——刷卡。" }
   ],
   "grammar": [
     { "id": "de.g.preise", "titleZh": "价格怎么读:6,20 € = sechs Euro zwanzig",

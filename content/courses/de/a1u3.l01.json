@@ -2,7 +2,7 @@
   "id": "de.a1u3.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
   "unit": "A1-3 我的新家", "order": 103010,
   "titleZh": "看房:这是厨房", "goalZh": "会介绍和询问房子里的房间,用形容词简单描述", "canDoZh": "能在看房时问“这是什么房间”,并简单描述房间(大、小、亮、漂亮)",
-  "skills": ["listen","speak","read"], "estimatedMinutes": 24.5,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
   "newItems": [
     { "id": "de.wohnung", "kind": "word", "pos": "noun", "text": "die Wohnung", "zh": "公寓;住房", "features": { "gender": "f", "plural": "die Wohnungen", "ipa": "ˈvoːnʊŋ" }, "noteZh": "-ung 结尾的名词都是阴性:die Wohnung;来自动词 wohnen(住)。W 读 [v],o 是长音。Wohnung 是整套房子,里面的一间一间是 Zimmer。" },
     { "id": "de.wg", "kind": "word", "pos": "noun", "text": "die WG", "zh": "合租公寓", "alt": ["die Wohngemeinschaft"], "features": { "gender": "f", "plural": "die WGs", "ipa": "veːˈɡeː" }, "noteZh": "Wohngemeinschaft 的缩写,按字母读 W-G [veː ɡeː]。几个人合租一套房,各住各的房间,厨房和浴室共用,是德国大学生最常见的住法。" },
