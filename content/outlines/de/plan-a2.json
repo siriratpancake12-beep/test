@@ -1778,7 +1778,7 @@
           "type": "dialogue",
           "titleZh": "要不要搬家?",
           "canDoZh": "能和室友讨论一个大决定,说出理由、条件和担心",
-          "scenarioZh": "四月初,霍夫曼先生告诉 WG:他的老同事要搬去女儿那里住,隔壁街的房子要出租——四个房间、有阳台,平均下来每人的房租差不多。WG 开会:约纳斯说老房子明年要大修,房租也会涨;索菲娅喜欢阳台;王伟担心实习期间搬家太忙;最后大家决定先去看看。说话人:hoffmann、jonas、sofia、wei。",
+          "scenarioZh": "四月中,王伟面试完没几天,霍夫曼先生告诉 WG:他的老同事要搬去女儿那里住,隔壁街的房子要出租——四个房间、有阳台,平均下来每人的房租差不多。WG 开会:约纳斯说老房子明年要大修,房租也会涨;索菲娅喜欢阳台;王伟担心实习期间搬家太忙;最后大家决定先去看看。说话人:hoffmann、jonas、sofia、wei。",
           "grammarFocusZh": "第三格的形容词词尾初见(eine Wohnung mit großem Balkon / in einer ruhigen Straße);weil / wenn / dass 复习"
         },
         {
@@ -2211,7 +2211,7 @@
           "titleZh": "顾客和服务",
           "canDoZh": "能说出买卖和服务顾客时常用的词",
           "scenarioZh": "开张前,约纳斯在 WG 厨房试做菜,大家扮演顾客练习:der Kunde、die Bestellung、das Angebot、der Rabatt、bar oder mit Karte、die Quittung、ausverkauft;王伟练收钱,保罗扮演最挑剔的顾客。说话人:jonas、wei、paul。",
-          "grammarFocusZh": "deshalb / trotzdem 复习;der Kunde → den Kunden 先认识(n-变格第 26 单元讲)"
+          "grammarFocusZh": "deshalb / trotzdem 复习;der Kunde → den Kunden 先认识(n-变格下一单元讲)"
         },
         {
           "id": "de.a2u23.l06",
@@ -2257,99 +2257,99 @@
     },
     {
       "id": "a2u24",
-      "unit": "A2-24 霍夫曼先生住院了",
+      "unit": "A2-24 实习第一周",
       "cefr": "A2",
-      "themeZh": "六月下旬,霍夫曼先生在家摔倒、手腕骨折:王伟打 112 陪他去医院、在医院登记、去病房探望、读探望须知、朋友们排帮忙表、帮他做日常的事、教他用平板和女儿视频、读出院须知、听他讲往事,一周后他第一次自己下楼散步。",
-      "grammarZh": "zu + 不定式(Ich habe keine Zeit, … zu …;Es ist wichtig, … zu …;anfangen / vergessen / versuchen / versprechen / Lust haben … zu …),可分动词的 zu 放在中间(anzurufen);和情态动词后不加 zu 的不定式对比。",
-      "pronunciationZh": "长句的意群和停顿:zu + 不定式的句子在逗号处稍停;探望病人时安慰的语调(Gute Besserung! Das wird schon wieder!)。",
+      "themeZh": "六月中,王伟的实习开始了:第一天报到、认识导师和同事、了解办公室和工作工具、读实习生手册、第一次开会、写工作邮件、和同事吃午饭、请教问题、读导师的反馈,周末给朋友讲第一周。",
+      "grammarZh": "n-变格(弱变化阳性名词):der Praktikant / den Praktikanten / dem Praktikanten,der Kollege、der Kunde、der Herr、der Student、der Nachbar、der Junge、der Mensch;除单数第一格外都加 -(e)n。",
+      "pronunciationZh": "职场的礼貌语调(Hätten Sie kurz Zeit? / Darf ich kurz stören?);n-变格的词尾 -en 读得轻,但要读出来(den Kollegen、dem Praktikanten)。",
       "lessons": [
         {
           "id": "de.a2u24.l01",
           "type": "dialogue",
-          "titleZh": "霍夫曼先生摔倒了",
-          "canDoZh": "能在紧急情况下帮助别人,打电话求助",
-          "scenarioZh": "周日下午,王伟照常去霍夫曼先生家喝咖啡,发现他在厨房摔倒了,手腕很疼、不能动。王伟让他先别动,打 112;女接线员问问题,王伟一一回答;救护车来了,王伟陪他去医院。只练语言,不写医疗处理。说话人:wei、hoffmann、mitarbeiterin。",
-          "grammarFocusZh": "zu + 不定式初见(Versuchen Sie, ruhig zu bleiben!);命令式和急救电话的说法复习"
+          "titleZh": "第一天报到",
+          "canDoZh": "能在新单位报到、介绍自己,听懂第一天的安排",
+          "scenarioZh": "6 月 16 日早上 9 点,王伟到公司(不写真实名称)报到。前台的女工作人员给他工牌和电脑;他的导师(der Mentor,说话人用 mitarbeiter)带他参观办公室,向团队介绍:Das ist unser neuer Praktikant, Herr Wang.;王伟说 Ich freue mich, hier zu sein.;导师讲第一周的安排。说话人:mitarbeiterin、mitarbeiter、wei。",
+          "grammarFocusZh": "n-变格初见:der Praktikant → unseren neuen Praktikanten;der Kollege → mit dem Kollegen"
         },
         {
           "id": "de.a2u24.l02",
           "type": "vocab",
-          "titleZh": "在医院",
-          "canDoZh": "能说出医院里常见的地方、人员和用语",
-          "scenarioZh": "在医院急诊室,王伟陪着等:die Notaufnahme、die Station、die Krankenschwester / der Pfleger、röntgen、gebrochen、der Gips、die Besuchszeit;前台(说话人用 arzthelferin)问霍夫曼先生的医保卡和家属的电话;王伟给霍夫曼先生在慕尼黑的女儿打电话(女儿不出场)。说话人:arzthelferin、wei、hoffmann。",
-          "grammarFocusZh": "zu + 不定式(Es ist wichtig, seine Tochter anzurufen——可分动词的 zu 放在中间)"
+          "titleZh": "办公室和工作",
+          "canDoZh": "能说出办公室里的东西、工作工具和常见的任务",
+          "scenarioZh": "导师给王伟讲工作:der Arbeitsplatz、das Passwort、der Kalender、die Besprechung、die Aufgabe、die Frist、ein Programm testen、den Code überprüfen;王伟问 Wo finde ich …? An wen wende ich mich, wenn …?;导师说有问题随时问。说话人:mitarbeiter、wei。",
+          "grammarFocusZh": "n-变格复习(Fragen Sie den Kollegen!);带介词的动词复习(arbeiten an, sich kümmern um)"
         },
         {
           "id": "de.a2u24.l03",
           "type": "grammar",
-          "titleZh": "我答应您每天来看看:zu + 不定式",
-          "canDoZh": "能用 zu + 不定式说打算、承诺、建议和感受",
-          "scenarioZh": "第二天,莉娜和王伟去病房探望。霍夫曼先生的手腕打了石膏,要住两三天院;他担心地说 Ich habe vergessen, das Fenster zuzumachen. Und wer gießt meine Blumen?;王伟说 Ich verspreche Ihnen, jeden Tag nach Ihrer Wohnung zu sehen.;莉娜说 Es ist wichtig, viel zu schlafen.;霍夫曼先生说 Ich habe keine Lust, hier zu liegen!。说话人:hoffmann、wei、lena。",
-          "grammarFocusZh": "zu + 不定式放在句末;可分动词的 zu 在前缀和词干之间(zuzumachen, anzurufen);常见的结构:Zeit / Lust haben、vergessen、versuchen、versprechen、anfangen、aufhören、Es ist wichtig / schön / schwer …;情态动词后面不加 zu(Ich muss gehen)"
+          "titleZh": "我去问一下同事:n-变格",
+          "canDoZh": "能正确使用常见的 n-变格名词",
+          "scenarioZh": "第二天,王伟登录不了一个系统,不知道该问谁。导师说 Frag den Kollegen von der IT!;下午有客户来访,导师说 Begrüß bitte den Kunden!;晚上回家,王伟对索菲娅说 Ich habe heute mit einem Kollegen und einem Kunden gesprochen.;索菲娅说她实习时也常常说错。说话人:mitarbeiter、wei、sofia。",
+          "grammarFocusZh": "n-变格:弱变化阳性名词除单数第一格外都加 -(e)n(der Kollege / den Kollegen / dem Kollegen;der Praktikant / den Praktikanten);常见的有 -e 结尾的指人名词(der Kollege, der Kunde, der Junge)、-ant / -ent / -ist 结尾的(der Praktikant, der Student, der Polizist)和 der Herr、der Mensch、der Nachbar;公司里同事之间常用 du"
         },
         {
           "id": "de.a2u24.r01",
           "type": "reading",
-          "titleZh": "医院的探望须知",
-          "canDoZh": "能读懂医院的探望规定",
-          "scenarioZh": "体裁:医院的须知(不写真实医院名)。探望时间每天 14 到 19 点;每位病人同时最多两位客人;进病房前洗手;手机调成静音;不要坐在病床上;自己生病的时候请不要来探望;病人可以在一楼的咖啡馆和客人见面。说话人:narrator(须知)。",
-          "grammarFocusZh": "zu + 不定式(Wir bitten Sie, … zu …);命令式复习"
+          "titleZh": "实习生手册",
+          "canDoZh": "能读懂公司的实习生手册,找出工作时间、规定和联系人",
+          "scenarioZh": "体裁:公司的实习生手册(不写真实名称)。核心工作时间 10 到 15 点;在家工作的规定;病假怎么请、休假怎么申请;数据保护(不能把客户资料带回家);厨房的规矩;联系人列表(导师、人事、IT)。说话人:narrator(手册)。",
+          "grammarFocusZh": "n-变格(an den Kollegen, beim Praktikanten);müssen / dürfen 和 zu + 不定式复习"
         },
         {
           "id": "de.a2u24.l04",
           "type": "dialogue",
-          "titleZh": "排帮忙表",
-          "canDoZh": "能和朋友一起安排帮忙的时间和任务",
-          "scenarioZh": "霍夫曼先生出院了,可是右手几周都不能用。WG 和保罗一起排“帮忙表”:谁周一去买东西、谁周三帮他做饭、谁去药店取药、谁陪他散步;保罗说 Ich habe am Dienstag Zeit, für ihn einzukaufen.;约纳斯说他每天从小吃摊给他带一份饭。说话人:wei、lena、paul、jonas、sofia。",
-          "grammarFocusZh": "zu + 不定式复习(Ich habe Zeit, … zu … / Hast du Lust, … zu …?);时间表达复习"
+          "titleZh": "第一次开会",
+          "canDoZh": "能在会议上听懂主要内容,简单发言和提问",
+          "scenarioZh": "周三上午,团队开每周例会(一部分说德语,一部分说英语)。导师请王伟介绍自己、说说这周做什么;王伟紧张地说完,同事们鼓掌;会上讨论一个新功能,王伟有一个词没听懂,会后问导师 Was bedeutet …?。说话人:mitarbeiter、mitarbeiterin、wei。",
+          "grammarFocusZh": "开会用语(Ich hätte eine Frage / Darf ich kurz etwas sagen? / Können Sie das bitte wiederholen?);n-变格复习"
         },
         {
           "id": "de.a2u24.l05",
           "type": "vocab",
-          "titleZh": "日常小事",
-          "canDoZh": "能说出帮老人或病人做的日常事情",
-          "scenarioZh": "王伟第一次去霍夫曼先生家“值班”:买东西、取药、把垃圾拿下楼、帮他穿外套、开罐头、浇花、读信;霍夫曼先生很不好意思,一直说 Das ist mir peinlich.;王伟说 Kein Problem, das ist doch selbstverständlich.。说话人:wei、hoffmann。",
-          "grammarFocusZh": "zu + 不定式复习(Es ist schwer, mit einer Hand zu kochen);第三格动词复习(Ich helfe Ihnen gern)"
+          "titleZh": "写工作邮件",
+          "canDoZh": "能写简短的工作邮件:请求、确认和道歉",
+          "scenarioZh": "导师教王伟写工作邮件:称呼(Hallo Frau … / Liebe Kolleginnen und Kollegen)、der Betreff、im Anhang、Rückfragen、bis wann、Beste Grüße;王伟给 IT 部门写邮件申请权限,导师帮他改得更短、更客气。说话人:mitarbeiter、wei。",
+          "grammarFocusZh": "第二虚拟式和间接问句复习(Könnten Sie mir bitte … / Ich wollte fragen, ob …);n-变格复习"
         },
         {
           "id": "de.a2u24.l06",
           "type": "dialogue",
-          "titleZh": "教霍夫曼先生和女儿视频",
-          "canDoZh": "能一步一步教别人用电子设备",
-          "scenarioZh": "霍夫曼先生想每天和慕尼黑的女儿、外孙女视频,可是一只手很难操作。王伟和保罗教他用平板:Tippen Sie hier! Vergessen Sie nicht, den Ton anzumachen!;第一次视频,画面里只有天花板,大家都笑了;第二次成功了,外孙女(不出场)给他看她画的画。说话人:wei、paul、hoffmann。",
-          "grammarFocusZh": "zu + 不定式和命令式复习(Vergessen Sie nicht, … zu …);可分动词复习"
+          "titleZh": "和同事吃午饭",
+          "canDoZh": "能在午饭时和同事闲聊工作、周末和爱好",
+          "scenarioZh": "午饭时,王伟和一位女同事去附近的小餐馆。同事问他从哪儿来、在柏林住了多久、周末做什么;王伟讲 WG、约纳斯的小吃摊和足球俱乐部;同事说她也是外国人,刚来时也听不懂柏林话;他们约好周五一起去吃约纳斯的鱼面包。说话人:mitarbeiterin、wei。",
+          "grammarFocusZh": "seit / vor 复习(Seit wann wohnst du hier?);同事之间用 du 还是 Sie"
         },
         {
           "id": "de.a2u24.r02",
           "type": "reading",
-          "titleZh": "出院须知",
-          "canDoZh": "能读懂出院须知,找出要注意的事和复查时间",
-          "scenarioZh": "体裁:医院的出院说明(只写一般的提醒,不写药名和剂量)。石膏要保持干燥;手要抬高;如果疼得厉害或者手指发麻,马上联系医生;两周后去家庭医生那里复查;几周后拆石膏;需要的话可以申请上门帮忙的服务。说话人:narrator(说明)。",
-          "grammarFocusZh": "zu + 不定式(Versuchen Sie, den Arm hochzulegen);命令式复习"
+          "titleZh": "导师的反馈邮件",
+          "canDoZh": "能读懂工作反馈,找出做得好的地方和要改进的地方",
+          "scenarioZh": "体裁:邮件(导师写给王伟的)。第一周的反馈:做得好的地方(认真、会提问、代码很整齐);要改进的地方(遇到问题早点说、开会时多发言、邮件写短一点);下周的任务和一次单独谈话的时间。说话人:narrator(邮件)。",
+          "grammarFocusZh": "n-变格和带介词的动词(sich kümmern um, achten auf);第二虚拟式(Es wäre gut, wenn …)"
         },
         {
           "id": "de.a2u24.l07",
           "type": "dialogue",
-          "titleZh": "霍夫曼先生讲往事",
-          "canDoZh": "能听别人讲往事,回应和追问",
-          "scenarioZh": "一天晚上,王伟陪霍夫曼先生吃饭。他讲第一次开夜班火车的故事:那时他很紧张,想过不干了,是他太太一直支持他;他说 Es ist nie zu spät, etwas Neues anzufangen.,还鼓励王伟别怕马上开始的实习。说话人:hoffmann、wei。",
-          "grammarFocusZh": "zu + 不定式复习(anfangen … zu …, Angst haben … zu …);过去时 war / hatte / musste 复习"
+          "titleZh": "请教同事",
+          "canDoZh": "能礼貌地打扰别人、请教问题并表示感谢",
+          "scenarioZh": "王伟遇到一个程序错误,找了两个小时也没解决。他走到一位男同事的桌前:Entschuldigung, darf ich kurz stören? Hättest du kurz Zeit?;同事帮他看,五分钟就找到了问题;同事说 Frag ruhig früher!;王伟谢谢他,说 Ich wollte dich nicht stören.。说话人:wei、mitarbeiter。",
+          "grammarFocusZh": "第二虚拟式的礼貌用语复习;n-变格(den Kollegen fragen)"
         },
         {
           "id": "de.a2u24.l08",
           "type": "dialogue",
-          "titleZh": "单元复习与应用:第一次自己下楼",
-          "canDoZh": "能祝贺别人好转,回顾这段时间,表达感谢",
-          "scenarioZh": "一周后,霍夫曼先生第一次自己下楼散步,请大家在楼下的咖啡馆吃蛋糕。他谢谢每个人,说 Ich habe gelernt, Hilfe anzunehmen.;大家讲这段时间的趣事(保罗把盐当成糖放进了咖啡);王伟说:这就是邻居和朋友。说话人:hoffmann、wei、paul、lena、jonas、sofia。",
-          "grammarFocusZh": "复习:zu + 不定式、dass 从句(Danke, dass …)、过去时和完成时"
+          "titleZh": "单元复习与应用:第一周结束了",
+          "canDoZh": "能讲新工作的第一周:做了什么、认识了谁、感觉怎么样",
+          "scenarioZh": "周五晚上,WG 在阳台上问王伟第一周怎么样;王伟讲:认识了导师和同事,第一次开会很紧张,接待了一位客户,和同事去吃了约纳斯的鱼面包;他说最累的是一整天说德语和英语;霍夫曼先生说第一周总是最难的。说话人:wei、jonas、sofia、lena、hoffmann。",
+          "grammarFocusZh": "复习:n-变格、完成时、带介词的动词"
         },
         {
           "id": "de.a2u24.r03",
           "type": "reading",
-          "titleZh": "邻居帮邻居",
-          "canDoZh": "能读懂一篇关于邻里互助和志愿服务的短文",
-          "scenarioZh": "体裁:报纸短文。很多老人一个人住;城市里有“邻居帮邻居”的项目和志愿者(das Ehrenamt);年轻人帮老人买东西、教他们用手机,老人给年轻人讲故事、帮忙照看孩子;文章转述了一位年轻志愿者的话:帮别人,自己也很开心。说话人:narrator(短文)。",
-          "grammarFocusZh": "zu + 不定式(Es macht Spaß, anderen zu helfen);deshalb 复习"
+          "titleZh": "实习日记:第一周",
+          "canDoZh": "能读懂一篇工作日记,按天说出做了什么、学到了什么",
+          "scenarioZh": "体裁:日记(王伟)。周一报到、领电脑;周二熟悉系统,第一次请教同事;周三开会、自我介绍;周四第一次改代码;周五收到反馈、和同事吃午饭;最后写感受:累,可是很开心,第一次在真正的工作里用上了德语。说话人:wei(日记)。",
+          "grammarFocusZh": "n-变格、完成时和时间顺序的综合应用"
         }
       ]
     },
@@ -2453,99 +2453,99 @@
     },
     {
       "id": "a2u26",
-      "unit": "A2-26 实习第一周",
+      "unit": "A2-26 霍夫曼先生住院了",
       "cefr": "A2",
-      "themeZh": "六月中,王伟的实习开始了:第一天报到、认识导师和同事、了解办公室和工作工具、读实习生手册、第一次开会、写工作邮件、和同事吃午饭、请教问题、读导师的反馈,周末给朋友讲第一周。",
-      "grammarZh": "n-变格(弱变化阳性名词):der Praktikant / den Praktikanten / dem Praktikanten,der Kollege、der Kunde、der Herr、der Student、der Nachbar、der Junge、der Mensch;除单数第一格外都加 -(e)n。",
-      "pronunciationZh": "职场的礼貌语调(Hätten Sie kurz Zeit? / Darf ich kurz stören?);n-变格的词尾 -en 读得轻,但要读出来(den Kollegen、dem Praktikanten)。",
+      "themeZh": "六月底,霍夫曼先生在家摔倒、手腕骨折:王伟打 112 陪他去医院、在医院登记、去病房探望、读探望须知、朋友们排帮忙表、帮他做日常的事、教他用平板和女儿视频、读出院须知、听他讲往事,一周后他第一次自己下楼散步。",
+      "grammarZh": "zu + 不定式(Ich habe keine Zeit, … zu …;Es ist wichtig, … zu …;anfangen / vergessen / versuchen / versprechen / Lust haben … zu …),可分动词的 zu 放在中间(anzurufen);和情态动词后不加 zu 的不定式对比。",
+      "pronunciationZh": "长句的意群和停顿:zu + 不定式的句子在逗号处稍停;探望病人时安慰的语调(Gute Besserung! Das wird schon wieder!)。",
       "lessons": [
         {
           "id": "de.a2u26.l01",
           "type": "dialogue",
-          "titleZh": "第一天报到",
-          "canDoZh": "能在新单位报到、介绍自己,听懂第一天的安排",
-          "scenarioZh": "6 月 16 日早上 9 点,王伟到公司(不写真实名称)报到。前台的女工作人员给他工牌和电脑;他的导师(der Mentor,说话人用 mitarbeiter)带他参观办公室,向团队介绍:Das ist unser neuer Praktikant, Herr Wang.;王伟说 Ich freue mich, hier zu sein.;导师讲第一周的安排。说话人:mitarbeiterin、mitarbeiter、wei。",
-          "grammarFocusZh": "n-变格初见:der Praktikant → unseren neuen Praktikanten;der Kollege → mit dem Kollegen"
+          "titleZh": "霍夫曼先生摔倒了",
+          "canDoZh": "能在紧急情况下帮助别人,打电话求助",
+          "scenarioZh": "周日下午,王伟照常去霍夫曼先生家喝咖啡,发现他在厨房摔倒了,手腕很疼、不能动。王伟让他先别动,打 112;女接线员问问题,王伟一一回答;救护车来了,王伟陪他去医院。只练语言,不写医疗处理。说话人:wei、hoffmann、mitarbeiterin。",
+          "grammarFocusZh": "zu + 不定式初见(Versuchen Sie, ruhig zu bleiben!);命令式和急救电话的说法复习"
         },
         {
           "id": "de.a2u26.l02",
           "type": "vocab",
-          "titleZh": "办公室和工作",
-          "canDoZh": "能说出办公室里的东西、工作工具和常见的任务",
-          "scenarioZh": "导师给王伟讲工作:der Arbeitsplatz、das Passwort、der Kalender、die Besprechung、die Aufgabe、die Frist、ein Programm testen、den Code überprüfen;王伟问 Wo finde ich …? An wen wende ich mich, wenn …?;导师说有问题随时问。说话人:mitarbeiter、wei。",
-          "grammarFocusZh": "n-变格复习(Fragen Sie den Kollegen!);带介词的动词复习(arbeiten an, sich kümmern um)"
+          "titleZh": "在医院",
+          "canDoZh": "能说出医院里常见的地方、人员和用语",
+          "scenarioZh": "在医院急诊室,王伟陪着等:die Notaufnahme、die Station、die Krankenschwester / der Pfleger、röntgen、gebrochen、der Gips、die Besuchszeit;前台(说话人用 arzthelferin)问霍夫曼先生的医保卡和家属的电话;王伟给霍夫曼先生在慕尼黑的女儿打电话(女儿不出场)。说话人:arzthelferin、wei、hoffmann。",
+          "grammarFocusZh": "zu + 不定式(Es ist wichtig, seine Tochter anzurufen——可分动词的 zu 放在中间)"
         },
         {
           "id": "de.a2u26.l03",
           "type": "grammar",
-          "titleZh": "我去问一下同事:n-变格",
-          "canDoZh": "能正确使用常见的 n-变格名词",
-          "scenarioZh": "第二天,王伟登录不了一个系统,不知道该问谁。导师说 Frag den Kollegen von der IT!;下午有客户来访,导师说 Begrüß bitte den Kunden!;晚上回家,王伟对索菲娅说 Ich habe heute mit einem Kollegen und einem Kunden gesprochen.;索菲娅说她实习时也常常说错。说话人:mitarbeiter、wei、sofia。",
-          "grammarFocusZh": "n-变格:弱变化阳性名词除单数第一格外都加 -(e)n(der Kollege / den Kollegen / dem Kollegen;der Praktikant / den Praktikanten);常见的有 -e 结尾的指人名词(der Kollege, der Kunde, der Junge)、-ant / -ent / -ist 结尾的(der Praktikant, der Student, der Polizist)和 der Herr、der Mensch、der Nachbar;公司里同事之间常用 du"
+          "titleZh": "我答应您每天来看看:zu + 不定式",
+          "canDoZh": "能用 zu + 不定式说打算、承诺、建议和感受",
+          "scenarioZh": "第二天,莉娜和王伟去病房探望。霍夫曼先生的手腕打了石膏,要住两三天院;他担心地说 Ich habe vergessen, das Fenster zuzumachen. Und wer gießt meine Blumen?;王伟说 Ich verspreche Ihnen, jeden Tag nach Ihrer Wohnung zu sehen.;莉娜说 Es ist wichtig, viel zu schlafen.;霍夫曼先生说 Ich habe keine Lust, hier zu liegen!。说话人:hoffmann、wei、lena。",
+          "grammarFocusZh": "zu + 不定式放在句末;可分动词的 zu 在前缀和词干之间(zuzumachen, anzurufen);常见的结构:Zeit / Lust haben、vergessen、versuchen、versprechen、anfangen、aufhören、Es ist wichtig / schön / schwer …;情态动词后面不加 zu(Ich muss gehen)"
         },
         {
           "id": "de.a2u26.r01",
           "type": "reading",
-          "titleZh": "实习生手册",
-          "canDoZh": "能读懂公司的实习生手册,找出工作时间、规定和联系人",
-          "scenarioZh": "体裁:公司的实习生手册(不写真实名称)。核心工作时间 10 到 15 点;在家工作的规定;病假怎么请、休假怎么申请;数据保护(不能把客户资料带回家);厨房的规矩;联系人列表(导师、人事、IT)。说话人:narrator(手册)。",
-          "grammarFocusZh": "n-变格(an den Kollegen, beim Praktikanten);müssen / dürfen 和 zu + 不定式复习"
+          "titleZh": "医院的探望须知",
+          "canDoZh": "能读懂医院的探望规定",
+          "scenarioZh": "体裁:医院的须知(不写真实医院名)。探望时间每天 14 到 19 点;每位病人同时最多两位客人;进病房前洗手;手机调成静音;不要坐在病床上;自己生病的时候请不要来探望;病人可以在一楼的咖啡馆和客人见面。说话人:narrator(须知)。",
+          "grammarFocusZh": "zu + 不定式(Wir bitten Sie, … zu …);命令式复习"
         },
         {
           "id": "de.a2u26.l04",
           "type": "dialogue",
-          "titleZh": "第一次开会",
-          "canDoZh": "能在会议上听懂主要内容,简单发言和提问",
-          "scenarioZh": "周三上午,团队开每周例会(一部分说德语,一部分说英语)。导师请王伟介绍自己、说说这周做什么;王伟紧张地说完,同事们鼓掌;会上讨论一个新功能,王伟有一个词没听懂,会后问导师 Was bedeutet …?。说话人:mitarbeiter、mitarbeiterin、wei。",
-          "grammarFocusZh": "开会用语(Ich hätte eine Frage / Darf ich kurz etwas sagen? / Können Sie das bitte wiederholen?);n-变格复习"
+          "titleZh": "排帮忙表",
+          "canDoZh": "能和朋友一起安排帮忙的时间和任务",
+          "scenarioZh": "霍夫曼先生出院了,可是右手几周都不能用。WG 和保罗一起排“帮忙表”:谁周一去买东西、谁周三帮他做饭、谁去药店取药、谁陪他散步;保罗说 Ich habe am Dienstag Zeit, für ihn einzukaufen.;约纳斯说他每天从小吃摊给他带一份饭。说话人:wei、lena、paul、jonas、sofia。",
+          "grammarFocusZh": "zu + 不定式复习(Ich habe Zeit, … zu … / Hast du Lust, … zu …?);时间表达复习"
         },
         {
           "id": "de.a2u26.l05",
           "type": "vocab",
-          "titleZh": "写工作邮件",
-          "canDoZh": "能写简短的工作邮件:请求、确认和道歉",
-          "scenarioZh": "导师教王伟写工作邮件:称呼(Hallo Frau … / Liebe Kolleginnen und Kollegen)、der Betreff、im Anhang、Rückfragen、bis wann、Beste Grüße;王伟给 IT 部门写邮件申请权限,导师帮他改得更短、更客气。说话人:mitarbeiter、wei。",
-          "grammarFocusZh": "第二虚拟式和间接问句复习(Könnten Sie mir bitte … / Ich wollte fragen, ob …);n-变格复习"
+          "titleZh": "日常小事",
+          "canDoZh": "能说出帮老人或病人做的日常事情",
+          "scenarioZh": "王伟第一次去霍夫曼先生家“值班”:买东西、取药、把垃圾拿下楼、帮他穿外套、开罐头、浇花、读信;霍夫曼先生很不好意思,一直说 Das ist mir peinlich.;王伟说 Kein Problem, das ist doch selbstverständlich.。说话人:wei、hoffmann。",
+          "grammarFocusZh": "zu + 不定式复习(Es ist schwer, mit einer Hand zu kochen);第三格动词复习(Ich helfe Ihnen gern)"
         },
         {
           "id": "de.a2u26.l06",
           "type": "dialogue",
-          "titleZh": "和同事吃午饭",
-          "canDoZh": "能在午饭时和同事闲聊工作、周末和爱好",
-          "scenarioZh": "午饭时,王伟和一位女同事去附近的小餐馆。同事问他从哪儿来、在柏林住了多久、周末做什么;王伟讲 WG、约纳斯的小吃摊和足球俱乐部;同事说她也是外国人,刚来时也听不懂柏林话;他们约好周五一起去吃约纳斯的鱼面包。说话人:mitarbeiterin、wei。",
-          "grammarFocusZh": "seit / vor 复习(Seit wann wohnst du hier?);同事之间用 du 还是 Sie"
+          "titleZh": "教霍夫曼先生和女儿视频",
+          "canDoZh": "能一步一步教别人用电子设备",
+          "scenarioZh": "霍夫曼先生想每天和慕尼黑的女儿、外孙女视频,可是一只手很难操作。王伟和保罗教他用平板:Tippen Sie hier! Vergessen Sie nicht, den Ton anzumachen!;第一次视频,画面里只有天花板,大家都笑了;第二次成功了,外孙女(不出场)给他看她画的画。说话人:wei、paul、hoffmann。",
+          "grammarFocusZh": "zu + 不定式和命令式复习(Vergessen Sie nicht, … zu …);可分动词复习"
         },
         {
           "id": "de.a2u26.r02",
           "type": "reading",
-          "titleZh": "导师的反馈邮件",
-          "canDoZh": "能读懂工作反馈,找出做得好的地方和要改进的地方",
-          "scenarioZh": "体裁:邮件(导师写给王伟的)。第一周的反馈:做得好的地方(认真、会提问、代码很整齐);要改进的地方(遇到问题早点说、开会时多发言、邮件写短一点);下周的任务和一次单独谈话的时间。说话人:narrator(邮件)。",
-          "grammarFocusZh": "n-变格和带介词的动词(sich kümmern um, achten auf);第二虚拟式(Es wäre gut, wenn …)"
+          "titleZh": "出院须知",
+          "canDoZh": "能读懂出院须知,找出要注意的事和复查时间",
+          "scenarioZh": "体裁:医院的出院说明(只写一般的提醒,不写药名和剂量)。石膏要保持干燥;手要抬高;如果疼得厉害或者手指发麻,马上联系医生;两周后去家庭医生那里复查;几周后拆石膏;需要的话可以申请上门帮忙的服务。说话人:narrator(说明)。",
+          "grammarFocusZh": "zu + 不定式(Versuchen Sie, den Arm hochzulegen);命令式复习"
         },
         {
           "id": "de.a2u26.l07",
           "type": "dialogue",
-          "titleZh": "请教同事",
-          "canDoZh": "能礼貌地打扰别人、请教问题并表示感谢",
-          "scenarioZh": "王伟遇到一个程序错误,找了两个小时也没解决。他走到一位男同事的桌前:Entschuldigung, darf ich kurz stören? Hättest du kurz Zeit?;同事帮他看,五分钟就找到了问题;同事说 Frag ruhig früher!;王伟谢谢他,说 Ich wollte dich nicht stören.。说话人:wei、mitarbeiter。",
-          "grammarFocusZh": "第二虚拟式的礼貌用语复习;n-变格(den Kollegen fragen)"
+          "titleZh": "霍夫曼先生讲往事",
+          "canDoZh": "能听别人讲往事,回应和追问",
+          "scenarioZh": "一天晚上,王伟陪霍夫曼先生吃饭。他讲第一次开夜班火车的故事:那时他很紧张,想过不干了,是他太太一直支持他;他说 Es ist nie zu spät, etwas Neues anzufangen.,还鼓励王伟在实习里大胆说德语、别怕考试。说话人:hoffmann、wei。",
+          "grammarFocusZh": "zu + 不定式复习(anfangen … zu …, Angst haben … zu …);过去时 war / hatte / musste 复习"
         },
         {
           "id": "de.a2u26.l08",
           "type": "dialogue",
-          "titleZh": "单元复习与应用:第一周结束了",
-          "canDoZh": "能讲新工作的第一周:做了什么、认识了谁、感觉怎么样",
-          "scenarioZh": "周五晚上,WG 在阳台上问王伟第一周怎么样;王伟讲:认识了导师和同事,第一次开会很紧张,接待了一位客户,和同事去吃了约纳斯的鱼面包;他说最累的是一整天说德语和英语;霍夫曼先生说第一周总是最难的。说话人:wei、jonas、sofia、lena、hoffmann。",
-          "grammarFocusZh": "复习:n-变格、完成时、带介词的动词"
+          "titleZh": "单元复习与应用:第一次自己下楼",
+          "canDoZh": "能祝贺别人好转,回顾这段时间,表达感谢",
+          "scenarioZh": "一周后,霍夫曼先生第一次自己下楼散步,请大家在楼下的咖啡馆吃蛋糕。他谢谢每个人,说 Ich habe gelernt, Hilfe anzunehmen.;大家讲这段时间的趣事(保罗把盐当成糖放进了咖啡);王伟说:这就是邻居和朋友。说话人:hoffmann、wei、paul、lena、jonas、sofia。",
+          "grammarFocusZh": "复习:zu + 不定式、dass 从句(Danke, dass …)、过去时和完成时"
         },
         {
           "id": "de.a2u26.r03",
           "type": "reading",
-          "titleZh": "实习日记:第一周",
-          "canDoZh": "能读懂一篇工作日记,按天说出做了什么、学到了什么",
-          "scenarioZh": "体裁:日记(王伟)。周一报到、领电脑;周二熟悉系统,第一次请教同事;周三开会、自我介绍;周四第一次改代码;周五收到反馈、和同事吃午饭;最后写感受:累,可是很开心,第一次在真正的工作里用上了德语。说话人:wei(日记)。",
-          "grammarFocusZh": "n-变格、完成时和时间顺序的综合应用"
+          "titleZh": "邻居帮邻居",
+          "canDoZh": "能读懂一篇关于邻里互助和志愿服务的短文",
+          "scenarioZh": "体裁:报纸短文。很多老人一个人住;城市里有“邻居帮邻居”的项目和志愿者(das Ehrenamt);年轻人帮老人买东西、教他们用手机,老人给年轻人讲故事、帮忙照看孩子;文章转述了一位年轻志愿者的话:帮别人,自己也很开心。说话人:narrator(短文)。",
+          "grammarFocusZh": "zu + 不定式(Es macht Spaß, anderen zu helfen);deshalb 复习"
         }
       ]
     },

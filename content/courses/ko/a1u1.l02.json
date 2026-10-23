@@ -1,0 +1,47 @@
+{
+  "id": "ko.a1u1.l02", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 谚文:元音和辅音", "order": 101020,
+  "titleZh": "拼出 가나다:基本辅音", "goalZh": "会读、会写 8 个基本辅音,和元音拼成方块字",
+  "canDoZh": "能拼读 가나다라마바사자 这类音节,说出 저(我)、우리(我们)",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ko.jamo_g", "kind": "char", "pos": "char", "text": "ㄱ", "zh": "辅音 g/k,不送气,像“哥”的声母", "features": { "roman": "g/k" }, "noteZh": "词首读得像清一点的“哥”,两个元音之间变浊像 g。写在元音左边时拐弯(가),写在上面时直一些(고)。" },
+    { "id": "ko.jamo_n", "kind": "char", "pos": "char", "text": "ㄴ", "zh": "辅音 n,像“呢”的声母", "features": { "roman": "n" }, "noteZh": "先竖后横,一笔写成。" },
+    { "id": "ko.jamo_d", "kind": "char", "pos": "char", "text": "ㄷ", "zh": "辅音 d/t,不送气,像“得”的声母", "features": { "roman": "d/t" }, "noteZh": "词首读得清,两个元音之间变浊:바다(大海,第 8 单元)听起来像 bada。" },
+    { "id": "ko.jamo_r", "kind": "char", "pos": "char", "text": "ㄹ", "zh": "辅音 r/l:元音前轻弹舌,收音读 l", "features": { "roman": "r/l" }, "noteZh": "元音前舌尖轻轻弹一下上齿龈(우리 [uri]),不卷舌,不是汉语的 r;作收音时读 l(第 2 单元)。" },
+    { "id": "ko.jamo_m", "kind": "char", "pos": "char", "text": "ㅁ", "zh": "辅音 m,像“妈”的声母", "features": { "roman": "m" }, "noteZh": "写成一个小方框,三笔。" },
+    { "id": "ko.jamo_b", "kind": "char", "pos": "char", "text": "ㅂ", "zh": "辅音 b/p,不送气,像“波”的声母", "features": { "roman": "b/p" }, "noteZh": "词首读得清,两个元音之间变浊;四笔写成,和送气的 ㅍ(第 4 课)形状不同。" },
+    { "id": "ko.jamo_s", "kind": "char", "pos": "char", "text": "ㅅ", "zh": "辅音 s,像“丝”的声母", "features": { "roman": "s" }, "noteZh": "在 ㅣ、ㅑ、ㅕ、ㅛ、ㅠ 前读得像“西”的声母:시 [ɕi]。" },
+    { "id": "ko.jamo_j", "kind": "char", "pos": "char", "text": "ㅈ", "zh": "辅音 j,不送气,像“鸡”的声母", "features": { "roman": "j" }, "noteZh": "不要读成卷舌的 zh;印刷体写成 ㅈ,手写也常写成像“ス”的样子。" },
+    { "id": "ko.jeo", "kind": "word", "pos": "pron", "text": "저", "zh": "我(谦称,礼貌场合用)", "features": { "roman": "jeo" }, "noteZh": "对老师、长辈、店员、初次见面的人说“我”都用 저;和熟朋友之间用 나(以后学)。注意是 ㅓ:不读“揍”。" },
+    { "id": "ko.uri", "kind": "word", "pos": "pron", "text": "우리", "zh": "我们;我们的", "features": { "roman": "uri" }, "noteZh": "韩国人说“我家、我妈妈、我们国家”常用 우리:우리 엄마、우리 나라。ㄹ 在两个元音之间轻弹。" }
+  ],
+  "reviewItems": ["ko.jamo_a", "ko.jamo_eo", "ko.jamo_ng"],
+  "lines": [
+    { "speaker": "narrator", "text": "아 가, 어 거, 오 고", "zh": "把不发音的 ㅇ 换成 ㄱ:a → ga,eo → geo,o → go", "roman": "a ga, eo geo, o go", "items": ["ko.jamo_ng", "ko.jamo_g", "ko.jamo_a", "ko.jamo_eo", "ko.jamo_o"] },
+    { "speaker": "narrator", "text": "가 나 다 라 마 바 사 자", "zh": "八个基本辅音配 ㅏ:ga、na、da、ra、ma、ba、sa、ja", "roman": "ga na da ra ma ba sa ja", "items": ["ko.jamo_g", "ko.jamo_n", "ko.jamo_d", "ko.jamo_r", "ko.jamo_m", "ko.jamo_b", "ko.jamo_s", "ko.jamo_j", "ko.jamo_a"] },
+    { "speaker": "jing", "text": "가 나 다 라 마 바 사 자", "zh": "(去首尔的机场大巴上,陈静对着自己排的拼读表念)ga、na、da、ra、ma、ba、sa、ja", "roman": "ga na da ra ma ba sa ja", "items": ["ko.jamo_g", "ko.jamo_n", "ko.jamo_d", "ko.jamo_r", "ko.jamo_m", "ko.jamo_b", "ko.jamo_s", "ko.jamo_j", "ko.jamo_a"] },
+    { "speaker": "narrator", "text": "가 거 고 구 그 기", "zh": "ㄱ 配六个元音:ga、geo、go、gu、geu、gi", "roman": "ga geo go gu geu gi", "items": ["ko.jamo_g", "ko.jamo_a", "ko.jamo_eo", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu", "ko.jamo_i"] },
+    { "speaker": "jing", "text": "가 거 고 구 그 기", "zh": "(陈静一行一行地念)ga、geo、go、gu、geu、gi", "roman": "ga geo go gu geu gi", "items": ["ko.jamo_g", "ko.jamo_a", "ko.jamo_eo", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu", "ko.jamo_i"] },
+    { "speaker": "narrator", "text": "사 서 소 수 스 시", "zh": "ㅅ 这一行:sa、seo、so、su、seu、si(시 的 ㅅ 像“西”的声母)", "roman": "sa seo so su seu si", "items": ["ko.jamo_s", "ko.jamo_a", "ko.jamo_eo", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu", "ko.jamo_i"] },
+    { "speaker": "narrator", "text": "자 저 조 주 즈 지", "zh": "ㅈ 这一行:ja、jeo、jo、ju、jeu、ji(不送气,像“鸡”的声母)", "roman": "ja jeo jo ju jeu ji", "items": ["ko.jamo_j", "ko.jamo_a", "ko.jamo_eo", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu", "ko.jamo_i"] },
+    { "speaker": "narrator", "text": "저", "zh": "(拼读表上 ㅈ 那一行的第二个字)我(礼貌的说法)", "roman": "jeo", "items": ["ko.jeo"] },
+    { "speaker": "narrator", "text": "우리 아이", "zh": "我家孩子(说自己家的人,韩国人常用 우리“我们的”)", "roman": "uri ai", "items": ["ko.uri", "ko.ai"] },
+    { "speaker": "jing", "text": "저, 우리, 아이, 오이", "zh": "我、我们、孩子、黄瓜(陈静把学过的词念了一遍)", "roman": "jeo, uri, ai, oi", "items": ["ko.jeo", "ko.uri", "ko.ai", "ko.oi"] }
+  ],
+  "questions": [
+    { "prompt": "第 1 句“아 가,어 거,오 고”说明了什么?", "options": ["ㄱ 在词首不发音", "把占位的 ㅇ 换成 ㄱ,就拼出 가、거、고", "가 和 아 的读音一样"], "answer": 1, "explainZh": "아 里的 ㅇ 不发音,只是占位;换成辅音 ㄱ 就成了 가(ga)。元音的位置不变:ㅏ ㅓ 在右边,ㅗ 在下边。" },
+    { "prompt": "“我们”用韩语怎么说?", "options": ["저", "아이", "우리"], "answer": 2, "explainZh": "第 9、10 句:우리 是“我们;我们的”。저 是“我”,아이 是“孩子”。" },
+    { "prompt": "第 6 句里,시 的 ㅅ 读起来像汉语哪个字的声母?", "options": ["西", "丝", "日"], "answer": 0, "explainZh": "ㅅ 一般像“丝”的声母,在 ㅣ 前面读得像“西”的声母:사 / 시。" },
+    { "prompt": "对老师、店员说“我”,用哪个词?", "options": ["우리", "저", "오이"], "answer": 1, "explainZh": "第 8 句:저 是礼貌场合说的“我”。우리 是“我们”,오이 是“黄瓜”。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.consonant_vowel", "titleZh": "辅音 + 元音:拼出一个音节",
+      "bodyZh": "上一课的元音前面都有一个不发音的 ㅇ;把 ㅇ 换成别的辅音,就拼出新的音节:ㄱ + ㅏ = 가、ㄴ + ㅓ = 너、ㅈ + ㅓ = 저。位置规则和上一课一样:竖元音 ㅏ ㅓ ㅣ 放在辅音右边,横元音 ㅗ ㅜ ㅡ 放在辅音下边——가、고。ㄱ 的样子会跟着变:在竖元音左边时末笔向左下撇(가),在横元音上面时写得直一些(고)。把 8 个辅音和 6 个元音排成一张拼读表(每一行一个辅音、每一列一个元音),一行一行地念,是最快的认字方法:가 거 고 구 그 기、나 너 노 누 느 니……",
+      "examples": [ { "text": "가", "zh": "ㄱ + ㅏ:辅音在左,元音在右" }, { "text": "고", "zh": "ㄱ + ㅗ:辅音在上,元音在下" }, { "text": "저", "zh": "ㅈ + ㅓ:我(礼貌的说法)" }, { "text": "우리", "zh": "우 + 리:我们" } ] },
+    { "id": "ko.g.plain_consonants", "titleZh": "平音 ㄱ ㄷ ㅂ ㅈ、轻弹的 ㄹ、ㅅ 的两种读法",
+      "bodyZh": "ㄱ ㄷ ㅂ ㅈ 叫“平音”(松音):在词首读得轻、气流弱,介于汉语 g/k、d/t、b/p、j/q 之间,不要像汉语的 k、t、p、q 那样用力送气(送气音 ㅋ ㅌ ㅍ ㅊ 第 4 课学)。夹在两个元音中间时会自然变浊,听起来更像 g、d、b、j,比如本单元后面要学的 휴지(纸巾)里的 지。ㄹ 在元音前是舌尖在上齿龈轻轻弹一下,介于 l 和 d 之间,不卷舌,也不是汉语的 r:우리 [uri]。ㅅ 一般像“丝”的声母,在 ㅣ 前读得像“西”的声母:사 / 시。",
+      "examples": [ { "text": "가 다 바 자", "zh": "词首的平音:轻,不用力送气" }, { "text": "우리", "zh": "ㄹ 夹在元音中间:舌尖轻弹一下" }, { "text": "사 / 시", "zh": "sa / si:시 的 ㅅ 像“西”的声母" } ] }
+  ],
+  "review": "draft"
+}

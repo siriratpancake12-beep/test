@@ -3,7 +3,7 @@
   "unit": "A1-5 时间与日程", "order": 105080,
   "titleZh": "单元复习:第一天打工", "goalZh": "把钟点、星期、日期和 から / まで 串起来,听懂工作安排",
   "canDoZh": "能听懂打工的排班和工作时间,说出自己哪天上班、哪天休息",
-  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
   "newItems": [
     { "id": "ja.kissaten", "kind": "word", "pos": "noun", "text": "喫茶店", "zh": "咖啡馆(老式)", "features": { "reading": "きっさてん" }, "noteZh": "喫茶店 = 咖啡馆,多指老式的、卖咖啡和简餐的小店;“喫”是吃、喝的意思。有促音:き・っ・さ・て・ん 5 拍。" },
     { "id": "ja.yasumi", "kind": "word", "pos": "noun", "text": "休み", "zh": "休息;休息日;假期", "features": { "reading": "やすみ", "pitch": 3 }, "noteZh": "12時から1時までは休みです(12 点到 1 点休息);今日は休みです(今天休息 / 放假)。" },

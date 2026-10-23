@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u1.l01", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 谚文:元音和辅音", "order": 101010,
+  "titleZh": "第一个韩文字:基本元音", "goalZh": "认识谚文的方块结构,会读、会写 6 个基本元音和占位的 ㅇ",
+  "canDoZh": "能读出、写出 아 어 오 우 으 이,拼读 아이(孩子)、오이(黄瓜)",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "ko.jamo_a", "kind": "char", "pos": "char", "text": "ㅏ", "zh": "元音 a,像汉语“啊”", "features": { "roman": "a" }, "noteZh": "竖元音:一条竖线,短横朝右,写在辅音右边(아)。" },
+    { "id": "ko.jamo_eo", "kind": "char", "pos": "char", "text": "ㅓ", "zh": "元音 eo,张大嘴、不圆唇的“喔”", "features": { "roman": "eo" }, "noteZh": "中国学习者最容易和 ㅗ 混:ㅓ 嘴巴张开、嘴唇不圆,ㅗ 嘴唇收圆往前突。罗马音 eo 是一个音,不读“诶哦”。短横朝左。" },
+    { "id": "ko.jamo_o", "kind": "char", "pos": "char", "text": "ㅗ", "zh": "元音 o,圆唇的“哦”", "features": { "roman": "o" }, "noteZh": "横元音,写在辅音下边(오);短竖朝上。" },
+    { "id": "ko.jamo_u", "kind": "char", "pos": "char", "text": "ㅜ", "zh": "元音 u,像“乌”", "features": { "roman": "u" }, "noteZh": "横元音,短竖朝下(우),和 ㅗ 方向相反。" },
+    { "id": "ko.jamo_eu", "kind": "char", "pos": "char", "text": "ㅡ", "zh": "元音 eu,嘴唇扁平的“呃”", "features": { "roman": "eu" }, "noteZh": "汉语里没有完全一样的音:嘴角向两边拉开、嘴唇不圆,像“资”的韵母。外来词常用它补音:주스(果汁)。" },
+    { "id": "ko.jamo_i", "kind": "char", "pos": "char", "text": "ㅣ", "zh": "元音 i,像“衣”", "features": { "roman": "i" }, "noteZh": "一条竖线,写在辅音右边(이)。" },
+    { "id": "ko.jamo_ng", "kind": "char", "pos": "char", "text": "ㅇ", "zh": "初声不发音(占位);作收音读 ng", "features": { "roman": "-/ng" }, "noteZh": "元音前面要加 ㅇ 才能成字:아、오、이;写在字的下面(收音)读 ng,如 앙(第 2 单元)。从顶部起笔,逆时针一笔画圈。" },
+    { "id": "ko.ai", "kind": "word", "pos": "noun", "text": "아이", "zh": "孩子;小孩", "features": { "roman": "ai" }, "noteZh": "两个字 아 + 이,每个字都用 ㅇ 占位。" },
+    { "id": "ko.oi", "kind": "word", "pos": "noun", "text": "오이", "zh": "黄瓜", "features": { "roman": "oi" }, "noteZh": "오 嘴唇要圆;是 오、이 两个音节,不要连成一个“噢衣”。" }
+  ],
+  "reviewItems": [],
+  "lines": [
+    { "speaker": "narrator", "text": "아 어 오 우 으 이", "zh": "六个基本元音:a、eo、o、u、eu、i(前面的 ㅇ 不发音)", "roman": "a eo o u eu i", "items": ["ko.jamo_ng", "ko.jamo_a", "ko.jamo_eo", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu", "ko.jamo_i"] },
+    { "speaker": "jing", "text": "아 어 오 우 으 이", "zh": "(飞机上,陈静跟着语途念)a、eo、o、u、eu、i", "roman": "a eo o u eu i", "items": ["ko.jamo_ng", "ko.jamo_a", "ko.jamo_eo", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu", "ko.jamo_i"] },
+    { "speaker": "narrator", "text": "아 어 이", "zh": "竖元音 ㅏ ㅓ ㅣ:写在 ㅇ 的右边", "roman": "a eo i", "items": ["ko.jamo_ng", "ko.jamo_a", "ko.jamo_eo", "ko.jamo_i"] },
+    { "speaker": "narrator", "text": "오 우 으", "zh": "横元音 ㅗ ㅜ ㅡ:写在 ㅇ 的下边", "roman": "o u eu", "items": ["ko.jamo_ng", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu"] },
+    { "speaker": "narrator", "text": "어 오, 우 으", "zh": "两对容易读混的元音:어 不圆唇 / 오 圆唇,우 圆唇 / 으 扁唇", "roman": "eo o, u eu", "items": ["ko.jamo_ng", "ko.jamo_eo", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu"] },
+    { "speaker": "jing", "text": "어 오, 우 으", "zh": "(陈静对着手机前置镜头看口型)eo、o,u、eu", "roman": "eo o, u eu", "items": ["ko.jamo_ng", "ko.jamo_eo", "ko.jamo_o", "ko.jamo_u", "ko.jamo_eu"] },
+    { "speaker": "narrator", "text": "아이", "zh": "(邻座的韩国小朋友在画本上写下)孩子", "roman": "ai", "items": ["ko.ai"] },
+    { "speaker": "jing", "text": "아이", "zh": "(陈静小声跟着念)孩子", "roman": "ai", "items": ["ko.ai"] },
+    { "speaker": "narrator", "text": "오이", "zh": "(小朋友又画了一根黄瓜)黄瓜", "roman": "oi", "items": ["ko.oi"] },
+    { "speaker": "jing", "text": "아이, 오이!", "zh": "孩子,黄瓜!(陈静读出了画本上的两个词)", "roman": "ai, oi!", "items": ["ko.ai", "ko.oi"] }
+  ],
+  "questions": [
+    { "prompt": "邻座小朋友画了一根黄瓜,写下的是哪个词?", "options": ["아이", "우이", "오이"], "answer": 2, "explainZh": "第 9 句:小朋友画了黄瓜,写下 오이(黄瓜)。아이 是“孩子”;우이 不是词。" },
+    { "prompt": "下面哪一组里的元音都是“横元音”,写在 ㅇ 的下边?", "options": ["오 우 으", "아 어 이", "아 오 이"], "answer": 0, "explainZh": "第 4 句:오 우 으 里的 ㅗ ㅜ ㅡ 是横着写的,放在 ㅇ 下边;第 3 句的 아 어 이 是竖元音,放在 ㅇ 右边。" },
+    { "prompt": "第 5、6 句里,어 和 오 有什么不同?", "options": ["어 要圆唇,오 不圆唇", "어 嘴张开、不圆唇,오 嘴唇收圆", "读音一样,只是写法不同"], "answer": 1, "explainZh": "ㅓ 嘴巴张开、嘴唇放松不圆;ㅗ 嘴唇收圆往前突。陈静对着手机看口型,就是在练这个区别。" },
+    { "prompt": "아이(孩子)有几个音节?", "options": ["两个", "一个", "三个"], "answer": 0, "explainZh": "아이 = 아 + 이,两个方块字就是两个音节;每个字前面的 ㅇ 都不发音。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.hangul_block", "titleZh": "谚文的方块字:元音前面要有 ㅇ",
+      "bodyZh": "谚文是拼音文字,但不像汉语拼音那样排成一行,而是把字母拼成一个个方块:一个方块 = 一个音节 = 初声(辅音)+ 中声(元音)+ 收音(可以没有,第 2 单元学)。元音不能单独成字,前面要加一个不发音的 ㅇ 占位:ㅏ → 아、ㅗ → 오。元音按形状放:竖着的 ㅏ ㅓ ㅣ 写在 ㅇ 的右边(아 어 이),横着的 ㅗ ㅜ ㅡ 写在 ㅇ 的下边(오 우 으)。一个词里的几个方块连着写,词和词之间才空格:아이(孩子)是 아、이 两个方块。初学时最常见的错是把元音直接单写(只写 ㅏ 当“啊”),记住:单独的元音字母只出现在字母表里,写字一定要带 ㅇ。",
+      "examples": [ { "text": "아", "zh": "ㅇ + ㅏ:竖元音写在右边" }, { "text": "오", "zh": "ㅇ + ㅗ:横元音写在下边" }, { "text": "이", "zh": "ㅇ + ㅣ" }, { "text": "아이", "zh": "아 + 이:孩子(两个音节)" } ] },
+    { "id": "ko.g.vowels_eo_o", "titleZh": "易混元音:ㅓ / ㅗ,ㅜ / ㅡ",
+      "bodyZh": "这两对是中国学习者最容易读混的。ㅓ 和 ㅗ 听起来都像汉语的“哦”,区别在嘴唇:ㅓ 嘴巴张开、嘴唇放松不圆;ㅗ 嘴唇收圆、往前突。罗马音写成 eo 和 o,eo 是一个音,不要读成“诶—哦”。ㅜ 和 ㅡ:ㅜ 像“乌”,嘴唇圆;ㅡ 嘴唇扁平、嘴角往两边拉,汉语里没有完全对应的音,接近“资”的韵母。练的时候对着镜子或手机前置镜头看口型:圆唇的是 오、우,不圆唇的是 어、으。听不出来时先看嘴,再听音。",
+      "examples": [ { "text": "어 / 오", "zh": "eo / o:不圆唇 / 圆唇" }, { "text": "우 / 으", "zh": "u / eu:圆唇 / 扁唇" }, { "text": "오이", "zh": "黄瓜:오 嘴唇要圆" } ] }
+  ],
+  "review": "draft"
+}

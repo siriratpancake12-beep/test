@@ -3,7 +3,7 @@
   "unit": "A1-5 时间与日程", "order": 105040,
   "titleZh": "几月几号?生日", "goalZh": "会说月份和日期,能问、能说生日",
   "canDoZh": "能说今天几月几号,能问别人的生日,说自己的生日",
-  "skills": ["listen", "speak", "write"], "estimatedMinutes": 27.5,
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 28,
   "newItems": [
     { "id": "ja.gatsu", "kind": "word", "pos": "num", "text": "月", "zh": "……月(月份)", "features": { "reading": "がつ" }, "noteZh": "1月 いちがつ……12月 じゅうにがつ;4月 しがつ、7月 しちがつ、9月 くがつ 要单独记。“几月”的 月 读 がつ,月曜日 的 月 读 げつ。" },
     { "id": "ja.nichi", "kind": "word", "pos": "num", "text": "日", "zh": "……日 / 号", "features": { "reading": "にち" }, "noteZh": "11日 じゅういちにち……;但 14日 じゅうよっか、20日 はつか、24日 にじゅうよっか 特殊。问几号:何日(なんにち)ですか。" },

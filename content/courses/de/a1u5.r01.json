@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u5.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105045,
+  "titleZh": "电影院的放映表", "goalZh": "看懂一周的电影放映表:星期几、几点、片长和票价,选出合适的一场", "canDoZh": "能看懂电影院的一周放映表,找出哪天几点放哪部电影、多长时间、票价多少",
+  "skills": ["read"], "estimatedMinutes": 14.5,
+  "newItems": [
+    { "id": "de.kinokarte", "kind": "word", "pos": "noun", "text": "die Kinokarte", "zh": "电影票", "features": { "gender": "f", "plural": "die Kinokarten", "ipa": "ˈkiːnoˌkaʁtə" }, "noteZh": "das Kino(电影院)+ die Karte(卡、票);复合词的性跟着最后一个词走,所以是 die Kinokarte。口语里也常只说 die Karte:Ich habe zwei Karten." },
+    { "id": "de.lang", "kind": "word", "pos": "adj", "text": "lang", "zh": "长;(时间)长", "features": { "ipa": "laŋ" }, "noteZh": "ng 读 [ŋ],g 不单独发音;说片长、时长:Der Film ist zwei Stunden lang.(电影两个小时长。)" }
+  ],
+  "reviewItems": ["de.kino", "de.film", "de.stunde", "de.koennen", "de.kosten"],
+  "lines": [
+    { "speaker": "narrator", "text": "Kino in Neukölln: Unsere Filme", "zh": "Neukölln 的电影院:本周放映", "items": ["de.kino", "de.in", "de.unser", "de.film"] },
+    { "speaker": "narrator", "text": "„Ein Tag in Chengdu“ – ein Film aus China.", "zh": "《成都的一天》——一部中国电影。", "items": ["de.ein", "de.tag", "de.in", "de.film", "de.ich_komme_aus", "de.china"] },
+    { "speaker": "narrator", "text": "Der Film ist zwei Stunden lang.", "zh": "片长两个小时。", "items": ["de.film", "de.sein", "de.zwei", "de.stunde", "de.lang"] },
+    { "speaker": "narrator", "text": "Am Samstag um 16:15 Uhr und um 18 Uhr.", "zh": "星期六 16:15 和 18:00 放映。", "items": ["de.am", "de.samstag", "de.um", "de.sechzehn", "de.fuenf", "de.zehn", "de.uhr", "de.und", "de.acht"] },
+    { "speaker": "narrator", "text": "„Mein Freund, der Koch“ – ein Film aus Deutschland.", "zh": "《我的朋友是厨师》——一部德国电影。", "items": ["de.mein", "de.freund", "de.koch", "de.ein", "de.film", "de.ich_komme_aus", "de.deutschland"] },
+    { "speaker": "narrator", "text": "Er ist auch zwei Stunden lang. Am Freitag und am Samstag um 20:15 Uhr.", "zh": "这部也是两个小时。星期五和星期六 20:15 放映。", "items": ["de.er", "de.sein", "de.auch", "de.zwei", "de.stunde", "de.lang", "de.am", "de.freitag", "de.und", "de.samstag", "de.um", "de.zwanzig", "de.fuenf", "de.zehn", "de.uhr"] },
+    { "speaker": "narrator", "text": "„Hundert Jahre“ – ein Film aus Italien.", "zh": "《一百年》——一部意大利电影。", "items": ["de.hundert", "de.jahr", "de.ein", "de.film", "de.ich_komme_aus", "de.italien"] },
+    { "speaker": "narrator", "text": "Er ist drei Stunden lang! Am Sonntag um 15 Uhr.", "zh": "片长足足三个小时!星期天 15:00 放映。", "items": ["de.er", "de.sein", "de.drei", "de.stunde", "de.lang", "de.am", "de.sonntag", "de.um", "de.fuenf", "de.zehn", "de.uhr"] },
+    { "speaker": "narrator", "text": "Eine Kinokarte kostet neun Euro.", "zh": "电影票每张 9 欧元。", "items": ["de.ein", "de.kinokarte", "de.kosten", "de.neun", "de.euro"] },
+    { "speaker": "narrator", "text": "Am Dienstag ist Kinotag. Dann kostet die Karte sechs Euro.", "zh": "星期二是“电影日”,那天一张票 6 欧元。", "items": ["de.am", "de.dienstag", "de.sein", "de.kino", "de.tag", "de.dann", "de.kosten", "de.kinokarte", "de.sechs", "de.euro"] },
+    { "speaker": "wei", "text": "Lena, am Samstag um Viertel nach vier gibt es „Ein Tag in Chengdu“!", "zh": "莉娜,星期六四点一刻放《成都的一天》!", "items": ["de.am", "de.samstag", "de.um", "de.viertel", "de.nach", "de.vier", "de.es_gibt", "de.ein", "de.tag", "de.in"] },
+    { "speaker": "wei", "text": "Am Dienstag ist es billig, aber am Samstag können wir zusammen gehen.", "zh": "星期二便宜,不过星期六我们俩都有空,可以一起去。", "items": ["de.am", "de.dienstag", "de.sein", "de.es", "de.billig", "de.aber", "de.samstag", "de.koennen", "de.wir", "de.zusammen", "de.gehen"] }
+  ],
+  "questions": [
+    { "prompt": "《Ein Tag in Chengdu》这部电影有多长?", "options": ["一个小时", "两个小时", "三个小时"], "answer": 1, "explainZh": "放映表上写着:Der Film ist zwei Stunden lang.(片长两个小时。)三个小时的是意大利电影《Hundert Jahre》。" },
+    { "prompt": "哪天的电影票便宜?一张多少钱?", "options": ["星期六,9 欧元", "星期天,6 欧元", "星期二,6 欧元"], "answer": 2, "explainZh": "Am Dienstag ist Kinotag. Dann kostet die Karte sechs Euro.(星期二是电影日,一张票 6 欧元。)平时一张 9 欧元。" },
+    { "prompt": "三部电影里,星期天放的是哪一部?", "options": ["《Hundert Jahre》", "《Mein Freund, der Koch》", "《Ein Tag in Chengdu》"], "answer": 0, "explainZh": "《Hundert Jahre》:Am Sonntag um 15 Uhr.(星期天 15 点。)另外两部都在星期五或星期六放。" },
+    { "prompt": "王伟觉得哪一场最合适?", "options": ["星期二晚上 8:15", "星期六下午 4:15", "星期天下午 3 点", "星期五晚上 8:15"], "answer": 1, "explainZh": "王伟写道:am Samstag um Viertel nach vier(星期六四点一刻,就是放映表上的 16:15),星期二虽然便宜,但他们星期六一起有空。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u5_uhrzeit_offiziell", "titleZh": "放映表上的钟点:正式说法和日常说法",
+      "bodyZh": "放映表、车票、广播用 24 小时制,读的时候“几点”在前、“几分”在后,中间是 Uhr:16:15 Uhr = sechzehn Uhr fünfzehn,20:15 Uhr = zwanzig Uhr fünfzehn,18 Uhr = achtzehn Uhr。\n朋友之间聊天一般用 12 小时制和上一课学的 Viertel、halb:16:15 = Viertel nach vier,18:30 = halb sieben(七点前半小时!)。上午还是下午靠上下文,或者加 am Nachmittag、am Abend。\n“星期几”用 am,“几点”用 um:am Samstag um 16:15 Uhr。两样都有时,一般先说星期几,再说几点。\n易错:① 写成 16:15 Uhr 或 16.15 Uhr,读的时候冒号、点都不读。② 正式说法不要加 Viertel / halb:不说 sechzehn Uhr Viertel。③ 说片长用 lang:Der Film ist zwei Stunden lang.",
+      "examples": [
+        { "text": "Der Film ist am Samstag um 16:15 Uhr.", "zh": "电影星期六 16:15 放映。(读作 sechzehn Uhr fünfzehn)" },
+        { "text": "Wir gehen um Viertel nach vier ins Kino.", "zh": "我们四点一刻去看电影。" },
+        { "text": "Am Dienstag kostet die Karte sechs Euro.", "zh": "星期二一张票 6 欧元。" }
+      ] }
+  ],
+  "review": "draft"
+}

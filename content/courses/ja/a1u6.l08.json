@@ -1,0 +1,53 @@
+{
+  "id": "ja.a1u6.l08", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106080,
+  "titleZh": "单元复习:在车站等朋友", "goalZh": "把问路、位置、坐车、花多长时间串起来,在车站和朋友约见面",
+  "canDoZh": "能在车站和朋友约见面地点,打电话说自己在哪、还要多久,找不到时会问站务员",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "ja.deguchi", "kind": "word", "pos": "noun", "text": "出口", "zh": "出口", "features": { "reading": "でぐち", "pitch": 1 }, "noteZh": "A3 出口(地铁 A3 出口)。入口是 いりぐち。“口”在这里读 ぐち(浊音),不读 くち。" },
+    { "id": "ja.kaisatsu", "kind": "word", "pos": "noun", "text": "改札", "zh": "检票口", "features": { "reading": "かいさつ", "pitch": 0 }, "noteZh": "车站的检票口;约见面常说 改札の 前で(在检票口前)。" },
+    { "id": "ja.au", "kind": "word", "pos": "verb", "text": "会います", "zh": "见面", "features": { "reading": "あいます", "pitch": 3 }, "noteZh": "友だちに 会います:见面的对象用 に,不用 を;在哪儿见用 で:改札の前で 会います。辞书形 会う(一类动词)。" },
+    { "id": "ja.matsu", "kind": "word", "pos": "verb", "text": "待ちます", "zh": "等", "features": { "reading": "まちます", "pitch": 3 }, "noteZh": "友だちを 待ちます(等朋友):等谁用 を,和 会います 的 に 不一样。辞书形 待つ(一类动词)。" }
+  ],
+  "reviewItems": ["ja.doko", "ja.mae", "ja.densha", "ja.kakaru"],
+  "lines": [
+    { "speaker": "saki", "text": "リンさん、今どこですか。", "zh": "(一天下午下课后,咲约林雨在新宿站见面去看电影;咲打来电话)林雨,你现在在哪儿?", "reading": "リンさん、いまどこですか。", "tokens": ["リン", "さん、", "今", "どこ", "ですか。"], "items": ["ja.san", "ja.ima", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "すみません!今、電車です。", "zh": "(小声)不好意思!我现在在电车上。", "reading": "すみません!いま、でんしゃです。", "tokens": ["すみません!", "今、", "電車", "です。"], "items": ["ja.sumimasen", "ja.ima", "ja.densha", "ja.desu"] },
+    { "speaker": "saki", "text": "大丈夫ですよ。何分かかりますか。", "zh": "没关系。还要几分钟?", "reading": "だいじょうぶですよ。なんぷんかかりますか。", "tokens": ["大丈夫ですよ。", "何分", "かかりますか。"], "items": ["ja.daijoubu", "ja.desu", "ja.yo_p", "ja.nani", "ja.fun", "ja.kakaru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "新宿まで10分かかります。", "zh": "到新宿要 10 分钟。", "reading": "しんじゅくまでじゅっぷんかかります。", "tokens": ["新宿", "まで", "10分", "かかります。"], "items": ["ja.made_p", "ja.juu", "ja.fun", "ja.kakaru"] },
+    { "speaker": "saki", "text": "わかりました。改札の前で待ちますね。", "zh": "知道了。我在检票口前面等你。", "reading": "わかりました。かいさつのまえでまちますね。", "tokens": ["わかりました。", "改札", "の", "前", "で", "待ちますね。"], "items": ["ja.wakaru", "ja.kaisatsu", "ja.no_p", "ja.mae", "ja.de_p", "ja.matsu", "ja.ne_p"] },
+    { "speaker": "rin", "text": "はい。改札の前で会いましょう!", "zh": "好。检票口前面见!", "reading": "はい。かいさつのまえであいましょう!", "tokens": ["はい。", "改札", "の", "前", "で", "会いましょう!"], "items": ["ja.hai", "ja.kaisatsu", "ja.no_p", "ja.mae", "ja.de_p", "ja.au"] },
+    { "speaker": "rin", "text": "すみません。友だちに会います。改札はどこですか。", "zh": "(到了新宿站,找不到检票口)劳驾,我要跟朋友见面。检票口在哪儿?", "reading": "すみません。ともだちにあいます。かいさつはどこですか。", "tokens": ["すみません。", "友だち", "に", "会います。", "改札", "は", "どこ", "ですか。"], "items": ["ja.sumimasen", "ja.tomodachi", "ja.ni_p", "ja.au", "ja.kaisatsu", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "ekiin", "text": "改札はあそこです。", "zh": "检票口在那边。", "reading": "かいさつはあそこです。", "tokens": ["改札", "は", "あそこ", "です。"], "items": ["ja.kaisatsu", "ja.wa_p", "ja.asoko", "ja.desu"] },
+    { "speaker": "saki", "text": "リンさん!ここです!", "zh": "(在检票口前招手)林雨!这儿!", "tokens": ["リン", "さん!", "ここ", "です!"], "items": ["ja.san", "ja.koko", "ja.desu"] },
+    { "speaker": "rin", "text": "さきさん!すみません!", "zh": "咲!让你久等了!", "tokens": ["さき", "さん!", "すみません!"], "items": ["ja.san", "ja.sumimasen"] },
+    { "speaker": "saki", "text": "大丈夫ですよ。A3出口から行きましょう。近いですよ。", "zh": "没关系。我们从 A3 出口出去吧,(电影院)很近。", "reading": "だいじょうぶですよ。エーさんでぐちからいきましょう。ちかいですよ。", "tokens": ["大丈夫ですよ。", "A3出口", "から", "行きましょう。", "近いですよ。"], "items": ["ja.daijoubu", "ja.desu", "ja.yo_p", "ja.san_num", "ja.deguchi", "ja.kara_p", "ja.iku", "ja.chikai"] },
+    { "speaker": "rin", "text": "A3出口はどこですか。", "zh": "A3 出口在哪儿?", "reading": "エーさんでぐちはどこですか。", "tokens": ["A3出口", "は", "どこ", "ですか。"], "items": ["ja.san_num", "ja.deguchi", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "saki", "text": "あそこです。あの出口です。", "zh": "在那边,就是那个出口。", "reading": "あそこです。あのでぐちです。", "tokens": ["あそこ", "です。", "あの", "出口", "です。"], "items": ["ja.asoko", "ja.desu", "ja.ano", "ja.deguchi"] },
+    { "speaker": "rin", "text": "はい、行きましょう!", "zh": "好,走吧!", "reading": "はい、いきましょう!", "tokens": ["はい、", "行きましょう!"], "items": ["ja.hai", "ja.iku"] }
+  ],
+  "questions": [
+    { "prompt": "咲打电话来的时候,林雨在哪里?", "options": ["在电车上", "在检票口前面", "在家里"], "answer": 0, "explainZh": "林雨说:すみません!今、電車です。在检票口前面等的是咲。" },
+    { "prompt": "林雨到新宿还要多长时间?", "options": ["5 分钟", "10 分钟", "1 个小时"], "answer": 1, "explainZh": "林雨说:新宿まで10分かかります。" },
+    { "prompt": "咲在哪里等林雨?", "options": ["A3 出口", "邮局前面", "检票口前面"], "answer": 2, "explainZh": "咲说:改札の前で待ちますね。林雨也说:改札の前で会いましょう!A3 出口是两人见面以后要走的出口。" },
+    { "prompt": "见面以后,她们从哪个出口出去?", "options": ["A1 出口", "A3 出口", "B3 出口"], "answer": 1, "explainZh": "咲说:A3出口から行きましょう。近いですよ。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u6_fukushuu", "titleZh": "复习:问地方、说位置、坐车和花多长时间",
+      "bodyZh": "本单元的说法串起来:\n· 问地方:改札はどこですか。——あそこです。(ここ / そこ / あそこ / どこ)\n· 说位置:改札の前、駅の後ろ、A3出口の近く(N の 前 / 後ろ / 右 / 左 / となり / 近く)。\n· 坐车:電車に乗ります、新宿で降ります、上野で乗り換えです。\n· 花多长时间:新宿まで10分かかります。\n· 打电话说自己在哪儿:今、電車です(我在电车上)。在日本的电车里一般不打电话;接到电话时小声说 今、電車です,说完要点就挂,或者下车再回电话。",
+      "examples": [
+        { "text": "今、電車です。", "zh": "我现在在电车上。(いま、でんしゃです)" },
+        { "text": "新宿まで10分かかります。", "zh": "到新宿要 10 分钟。(しんじゅくまでじゅっぷんかかります)" },
+        { "text": "改札はどこですか。", "zh": "检票口在哪儿?(かいさつはどこですか)" }
+      ] },
+    { "id": "ja.g.u6_au_matsu", "titleZh": "地点 で 会います / 待ちます;人 に 会います",
+      "bodyZh": "在哪儿见面、在哪儿等:地点 + で + 会います / 待ちます。改札の前で待ちます(在检票口前面等)、改札の前で会いましょう(检票口前面见)。这是“做动作的地点”,所以用 で;に 是“在那儿存在”(改札の前にいます)。\n见谁:人 + に + 会います:友だちに会います(见朋友)。中文说“见朋友”,日语不用 を:✗ 友だちを会います。等谁却用 を:友だちを待ちます(等朋友)。会います 和 待ちます 的助词不一样,要分开记。",
+      "examples": [
+        { "text": "改札の前で待ちます。", "zh": "在检票口前面等。(かいさつのまえでまちます)" },
+        { "text": "友だちに会います。", "zh": "和朋友见面。(ともだちにあいます)" },
+        { "text": "友だちを待ちます。", "zh": "等朋友。(ともだちをまちます)" }
+      ] }
+  ],
+  "review": "draft"
+}
