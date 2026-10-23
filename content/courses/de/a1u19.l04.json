@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u19.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-19 旅行准备", "order": 119040,
+  "titleZh": "买火车票", "goalZh": "会在车站窗口买往返票,问清楚车次、换乘、订座和优惠", "canDoZh": "能在车站买往返票,问清楚车次、换乘、座位和优惠",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "de.regionalzug", "kind": "word", "pos": "noun", "text": "der Regionalzug", "zh": "区域火车(慢车)", "features": { "gender": "m", "plural": "die Regionalzüge", "ipa": "ʁeɡi̯oˈnaːlˌtsuːk" }, "noteZh": "站站停、比较慢,但便宜;德国大学生的学期票能免费坐区域火车,不能坐快车。复数变音 die Regionalzüge。" },
+    { "id": "de.fernzug", "kind": "word", "pos": "noun", "text": "der Fernzug", "zh": "(长途)快车", "features": { "gender": "m", "plural": "die Fernzüge", "ipa": "ˈfɛʁnˌtsuːk" }, "noteZh": "fern(远)+ der Zug;跑长途、站少、快,要另外买票,可以订座。复数变音 die Fernzüge。" },
+    { "id": "de.reservieren", "kind": "word", "pos": "verb", "text": "reservieren", "zh": "预订;订(座位、房间)", "features": { "ipa": "ʁezɛʁˈviːʁən" }, "noteZh": "einen Platz reservieren(订座)、ein Zimmer reservieren(订房);-ieren 结尾,完成时 reserviert,不加 ge-;v 在这里读 [v]。" },
+    { "id": "de.reservierung", "kind": "word", "pos": "noun", "text": "die Reservierung", "zh": "订座;预订", "features": { "gender": "f", "plural": "die Reservierungen", "ipa": "ʁezɛʁˈviːʁʊŋ" }, "noteZh": "mit Reservierung(含订座);-ung 结尾的名词都是阴性,复数加 -en:die Reservierungen。" },
+    { "id": "de.hinfahrt", "kind": "word", "pos": "noun", "text": "die Hinfahrt", "zh": "去程", "features": { "gender": "f", "plural": "die Hinfahrten", "ipa": "ˈhɪnˌfaːɐ̯t" }, "noteZh": "hin(去那儿)+ die Fahrt;和 die Rückfahrt(回程)成对记。hin und zurück = 往返。" },
+    { "id": "de.rueckfahrt", "kind": "word", "pos": "noun", "text": "die Rückfahrt", "zh": "回程", "features": { "gender": "f", "plural": "die Rückfahrten", "ipa": "ˈʁʏkˌfaːɐ̯t" }, "noteZh": "zurück(回)+ die Fahrt;Die Rückfahrt ist am 28. Juli.(28 号回来。)ü 撮圆嘴唇。" },
+    { "id": "de.ermaessigung", "kind": "word", "pos": "noun", "text": "die Ermäßigung", "zh": "优惠;折扣(票价)", "features": { "gender": "f", "plural": "die Ermäßigungen", "ipa": "ɛɐ̯ˈmɛːsɪɡʊŋ" }, "noteZh": "Gibt es eine Ermäßigung für Studenten?(学生有优惠吗?)博物馆、车票常有学生、儿童优惠;ß 读清音 [s],复数 die Ermäßigungen。" },
+    { "id": "de.ankunft", "kind": "word", "pos": "noun", "text": "die Ankunft", "zh": "到达", "features": { "gender": "f", "plural": "die Ankünfte", "ipa": "ˈanˌkʊnft" }, "noteZh": "来自 ankommen;时刻表上 Ankunft(到达)和 Abfahrt(出发)成对出现;复数变音 die Ankünfte。" }
+  ],
+  "reviewItems": ["de.hin_und_zurueck", "de.umsteigen", "de.fahrkarte", "de.person", "de.platz", "de.voll"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Tag! Wir möchten vom 25. bis zum 28. Juli nach Warnemünde.", "zh": "(王伟和索菲娅在火车站的售票窗口)您好!我们想 7 月 25 号到 28 号去瓦尔内明德。", "items": ["de.guten_tag", "de.wir", "de.moechten", "de.von", "de.fuenf", "de.zwanzig", "de.bis", "de.zu", "de.acht", "de.juli", "de.nach"] },
+    { "speaker": "fahrkartenverkaeufer", "text": "Gern. Für wie viele Personen? Hin und zurück?", "zh": "好的。几个人?要往返吗?", "items": ["de.gern", "de.fuer", "de.wie_viel", "de.person", "de.hin_und_zurueck"] },
+    { "speaker": "wei", "text": "Für vier Personen, hin und zurück, bitte.", "zh": "四个人,往返。", "items": ["de.fuer", "de.vier", "de.person", "de.hin_und_zurueck", "de.bitte"] },
+    { "speaker": "fahrkartenverkaeufer", "text": "Sind Sie Studenten? Dann brauchen Sie im Regionalzug keine Fahrkarte.", "zh": "你们是大学生吗?那坐区域火车不用买票。", "items": ["de.sein", "de.sie_hoeflich", "de.student", "de.dann", "de.brauchen", "de.in", "de.regionalzug", "de.kein", "de.fahrkarte"] },
+    { "speaker": "sofia", "text": "Ja, aber im Sommer ist der Regionalzug sehr voll. Wir möchten Plätze reservieren.", "zh": "是,可是夏天区域火车太挤了。我们想订座位。", "items": ["de.ja", "de.aber", "de.in", "de.sommer", "de.sein", "de.regionalzug", "de.sehr", "de.voll", "de.wir", "de.moechten", "de.platz", "de.reservieren"] },
+    { "speaker": "fahrkartenverkaeufer", "text": "Dann nehmen Sie den Fernzug. Die Hinfahrt ist am 25. um 7:12 Uhr.", "zh": "那就坐快车吧。去程是 25 号早上 7:12。", "items": ["de.dann", "de.nehmen", "de.sie_hoeflich", "de.fernzug", "de.hinfahrt", "de.sein", "de.am", "de.fuenf", "de.zwanzig", "de.um", "de.sieben", "de.zwoelf", "de.uhr"] },
+    { "speaker": "wei", "text": "Fährt der Zug bis Warnemünde?", "zh": "这趟车直接开到瓦尔内明德吗?", "items": ["de.fahren", "de.zug", "de.bis"] },
+    { "speaker": "fahrkartenverkaeufer", "text": "Nein, in Rostock steigen Sie in die S-Bahn um. Ankunft: 10 Uhr.", "zh": "不,在罗斯托克换城铁。10 点到。", "items": ["de.nein", "de.in", "de.umsteigen", "de.sie_hoeflich", "de.s_bahn", "de.ankunft", "de.zehn", "de.uhr"] },
+    { "speaker": "sofia", "text": "Und die Rückfahrt am 28.? Am Nachmittag, bitte.", "zh": "那 28 号回程呢?要下午的。", "items": ["de.und", "de.rueckfahrt", "de.am", "de.acht", "de.zwanzig", "de.nachmittag", "de.bitte"] },
+    { "speaker": "fahrkartenverkaeufer", "text": "Um 14:10 Uhr von Rostock. Mit Reservierung kostet das 39 Euro für eine Person.", "zh": "14:10 从罗斯托克开。含订座,每人 39 欧元。", "items": ["de.um", "de.vier", "de.zehn", "de.uhr", "de.von", "de.mit", "de.reservierung", "de.kosten", "de.neun", "de.dreissig", "de.euro", "de.fuer", "de.ein", "de.person"] },
+    { "speaker": "wei", "text": "Gibt es eine Ermäßigung für Studenten?", "zh": "学生有优惠吗?", "items": ["de.es_gibt", "de.ein", "de.ermaessigung", "de.fuer", "de.student"] },
+    { "speaker": "fahrkartenverkaeufer", "text": "Für den Fernzug leider nicht. Aber der Preis ist gut!", "zh": "坐快车可惜没有。不过这个价钱很划算!", "items": ["de.fuer", "de.fernzug", "de.leider", "de.nicht", "de.aber", "de.preis", "de.sein", "de.gut"] }
+  ],
+  "questions": [
+    { "prompt": "他们为什么不坐不用买票的区域火车?", "options": ["区域火车不到罗斯托克", "夏天区域火车很挤,他们想订座", "他们不是大学生"], "answer": 1, "explainZh": "索菲娅说:Im Sommer ist der Regionalzug sehr voll. Wir möchten Plätze reservieren.(夏天区域火车太挤,我们想订座。)区域火车不能订座。" },
+    { "prompt": "去程的火车几点开?", "options": ["7:12", "14:10", "10:00"], "answer": 0, "explainZh": "Die Hinfahrt ist am 25. um 7:12 Uhr.(去程是 25 号 7:12。)14:10 是回程,10 点是到达瓦尔内明德的时间。" },
+    { "prompt": "学生坐快车有没有优惠?", "options": ["有,打五折", "没有,不过价格不贵", "有,每人便宜十欧元"], "answer": 1, "explainZh": "Für den Fernzug leider nicht. Aber der Preis ist gut!(坐快车可惜没有优惠,不过价钱划算。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u19_vom_bis_zum", "titleZh": "日期区间:vom 25. bis zum 28. Juli;车票常用词",
+      "bodyZh": "说“从几号到几号”用 vom … bis zum …,先当固定说法记:vom 25. bis zum 28. Juli,读作 vom fünfundzwanzigsten bis zum achtundzwanzigsten Juli(vom = von dem,zum = zu dem,序数词后面加 -en)。单说某一天用 am:am 25. Juli(am fünfundzwanzigsten Juli)。\n火车票常用词:hin und zurück(往返)、die Hinfahrt(去程)、die Rückfahrt(回程)、die Ankunft(到达)、umsteigen(换乘)、Plätze reservieren(订座)、mit Reservierung(含订座)。\n生活常识:德国大学生的学期票能免费坐区域火车(der Regionalzug),但不能坐快车(der Fernzug);区域火车不能订座,夏天去海边常常很挤。",
+      "examples": [
+        { "text": "Wir möchten vom 25. bis zum 28. Juli nach Warnemünde.", "zh": "我们想 7 月 25 号到 28 号去瓦尔内明德。" },
+        { "text": "Die Hinfahrt ist am 25. um 7:12 Uhr.", "zh": "去程是 25 号 7:12。" },
+        { "text": "Wir möchten Plätze reservieren.", "zh": "我们想订座位。" }
+      ] },
+    { "id": "de.g.u19_fahrkarte_fragen", "titleZh": "买票时问清楚:Fährt der Zug bis …? / Gibt es eine Ermäßigung …?",
+      "bodyZh": "买票时常问:Fährt der Zug bis Warnemünde?(这趟车开到瓦尔内明德吗?)/ Wo muss ich umsteigen?(在哪儿换车?)/ Wie viel kostet das?(多少钱?)/ Gibt es eine Ermäßigung für Studenten?(学生有优惠吗?)。售票员会说:In Rostock steigen Sie in die S-Bahn um.(可分动词 umsteigen 的前缀 um 放句末)/ Mit Reservierung kostet das 39 Euro für eine Person.。\n钟点用 24 小时制读:7:12 Uhr = sieben Uhr zwölf,14:10 Uhr = vierzehn Uhr zehn。时刻表上常省略动词:Ankunft: 10 Uhr。",
+      "examples": [
+        { "text": "Fährt der Zug bis Warnemünde?", "zh": "这趟车开到瓦尔内明德吗?" },
+        { "text": "Gibt es eine Ermäßigung für Studenten?", "zh": "学生有优惠吗?" },
+        { "text": "In Rostock steigen Sie in die S-Bahn um.", "zh": "在罗斯托克换城铁。" }
+      ] }
+  ],
+  "review": "draft"
+}

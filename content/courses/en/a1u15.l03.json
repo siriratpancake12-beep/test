@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u15.l03", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115030,
+  "titleZh": "教学大纲上写着什么?", "goalZh": "听懂老师讲成绩怎么算,会用 due 问作业什么时候交", "canDoZh": "能听懂老师讲课程要求,问清楚作业什么时候交、成绩怎么算",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "en.syllabus", "kind": "word", "pos": "noun", "text": "syllabus", "zh": "教学大纲;课程说明", "features": { "ipa": "ˈsɪləbəs" }, "noteZh": "第一节课老师都会发 syllabus,写着成绩怎么算、作业什么时候交、有哪些规定;重音在前 SYL-la-bus。" },
+    { "id": "en.essay", "kind": "word", "pos": "noun", "text": "essay", "zh": "(课程)论文;文章", "features": { "ipa": "ˈeseɪ" }, "noteZh": "写作课的作业多半是 essay;重音在前 ES-say,第二个音节读 /eɪ/。" },
+    { "id": "en.due", "kind": "word", "pos": "adj", "text": "due", "zh": "到期的;应交的", "features": { "ipa": "duː" }, "noteZh": "The essay is due on Friday. 文章周五交;When is it due? 什么时候交?;美式读 /duː/,英式读 /djuː/。" },
+    { "id": "en.grade", "kind": "word", "pos": "noun", "text": "grade", "zh": "成绩;分数等级", "features": { "ipa": "ɡreɪd" }, "noteZh": "美国大学的课程成绩用字母 A、B、C、D、F 表示;grade 在美国中小学还指\"年级\"。" },
+    { "id": "en.percent", "kind": "word", "pos": "noun", "text": "percent", "zh": "百分之……", "features": { "ipa": "pɚˈsent" }, "noteZh": "40% 读 forty percent,percent 不加 s;重音在后 per-CENT。第 6 单元学过 percent off(减价百分之……)。" },
+    { "id": "en.midterm", "kind": "word", "pos": "noun", "text": "midterm", "zh": "期中考试", "features": { "ipa": "ˈmɪdtɝːm" }, "noteZh": "mid(中间)+ term(学期);期末考试叫 final;ter 卷舌 /ɝː/。" },
+    { "id": "en.final", "kind": "word", "pos": "noun", "text": "final", "zh": "期末考试", "features": { "ipa": "ˈfaɪnəl" }, "noteZh": "the final = the final exam;final 作形容词是\"最后的\"。词尾 l 舌尖抬起。" },
+    { "id": "en.participation", "kind": "word", "pos": "noun", "text": "participation", "zh": "课堂参与(出勤、发言、讨论)", "features": { "ipa": "pɑːrˌtɪsəˈpeɪʃən" }, "noteZh": "美国很多课的成绩里有一部分是 participation:来上课、发言、参加讨论;重音在 -PA- 上——以 -tion 结尾的词,重音落在 -tion 前面那个音节。" }
+  ],
+  "reviewItems": ["en.welcome", "en.write", "en.question", "en.what_does_that_mean", "en.percent_off", "en.late"],
+  "lines": [
+    { "speaker": "professor", "text": "Welcome to Writing 2! This is our syllabus.", "zh": "欢迎来上写作 2!这是我们这门课的教学大纲。", "items": ["en.welcome", "en.writing", "en.syllabus"] },
+    { "speaker": "professor", "text": "You're going to write three essays. They're 40 percent of your grade.", "zh": "你们要写三篇文章,占成绩的 40%。", "items": ["en.going_to", "en.write", "en.essay", "en.percent", "en.grade"] },
+    { "speaker": "professor", "text": "The midterm is 20 percent, and the final is 30 percent.", "zh": "期中考试占 20%,期末考试占 30%。", "items": ["en.midterm", "en.percent", "en.final"] },
+    { "speaker": "professor", "text": "Participation is 10 percent. Any questions?", "zh": "课堂参与占 10%。有问题吗?", "items": ["en.participation", "en.percent", "en.question"] },
+    { "speaker": "sofia", "text": "Yes. What does \"participation\" mean?", "zh": "有。participation 是什么意思?", "items": ["en.what_does_that_mean", "en.participation"] },
+    { "speaker": "professor", "text": "Good question! It means you come to class and talk in class.", "zh": "问得好!意思是你们每次都来上课,而且在课上发言。", "items": ["en.question", "en.mean", "en.come", "en.class", "en.talk"] },
+    { "speaker": "lei", "text": "I have a question, too. When is the first essay due?", "zh": "我也有个问题。第一篇文章什么时候交?", "items": ["en.have", "en.question", "en.first", "en.essay", "en.due"] },
+    { "speaker": "professor", "text": "It's due in three weeks, on Friday.", "zh": "三周以后,周五交。", "items": ["en.due", "en.week", "en.friday"] },
+    { "speaker": "professor", "text": "Please don't be late. It's 10 percent off for every day late.", "zh": "请不要晚交。每晚一天扣 10%。", "items": ["en.late", "en.percent_off"] },
+    { "speaker": "lei", "text": "Ten percent a day? Wow. I'm never late!", "zh": "一天扣 10%?哇。我可从来不晚交!", "items": ["en.percent", "en.never", "en.late"] }
+  ],
+  "questions": [
+    { "prompt": "三篇文章一共占成绩的百分之多少?", "options": ["30%", "40%", "20%", "10%"], "answer": 1, "explainZh": "You're going to write three essays. They're 40 percent of your grade.——三篇文章占 40%;期中 20%,期末 30%,课堂参与 10%。" },
+    { "prompt": "教授说的 participation 指的是什么?", "options": ["期末考试", "按时交文章", "来上课,在课上发言"], "answer": 2, "explainZh": "索菲亚问 What does \"participation\" mean?,教授回答 It means you come to class and talk in class.。" },
+    { "prompt": "第一篇文章什么时候交?", "options": ["三周以后的周五", "三天以后", "下周五"], "answer": 0, "explainZh": "It's due in three weeks, on Friday.——in three weeks 是\"三周以后\"。" },
+    { "prompt": "文章晚交一天会怎样?", "options": ["不扣分", "扣 20%", "不能再交了", "扣 10%"], "answer": 3, "explainZh": "It's 10 percent off for every day late.——每晚一天扣 10%,所以磊说 Ten percent a day?。" }
+  ],
+  "grammar": [
+    { "id": "en.g.due", "titleZh": "due:作业什么时候交",
+      "bodyZh": "due 是形容词,意思是\"到期的、应该交的\",和 be 动词一起用:The essay is due on Friday.(文章周五交)/ When is the essay due?(文章什么时候交?)。说\"多久以后交\"用 in + 一段时间:It's due in three weeks.(三周以后交)。中文说\"周五交作业\",英语很少说 We give the essay on Friday,一般说 It's due on Friday.。美国老师很看重截止时间,晚交常常要扣分,拿到大纲先找 due 这个词。",
+      "examples": [
+        { "text": "The first essay is due on Friday.", "zh": "第一篇文章周五交。" },
+        { "text": "When is the essay due?", "zh": "文章什么时候交?" },
+        { "text": "It's due in three weeks.", "zh": "三周以后交。" }
+      ] },
+    { "id": "en.g.percent_grades", "titleZh": "百分比和成绩:40 percent of your grade",
+      "bodyZh": "40% 读 forty percent,percent 不加 s(不说 forty percents)。说占成绩的多少:The essays are 40 percent of your grade.(文章占成绩的 40%)。晚交扣分可以说 10 percent off——第 6 单元学过打折的 percent off,这里是\"扣掉 10%\":It's 10 percent off for every day late.。课上有问题就说 I have a question.,老师常回一句 Good question!。\n发音:participation 有五个音节 par-ti-ci-PA-tion,重音落在 -tion 前面那个音节上;以 -tion 结尾的词都这样:STA-tion、in-ter-NA-tion-al。",
+      "examples": [
+        { "text": "Participation is 10 percent of your grade.", "zh": "课堂参与占成绩的 10%。" },
+        { "text": "The midterm is 20 percent, and the final is 30 percent.", "zh": "期中考试占 20%,期末考试占 30%。" },
+        { "text": "It's 10 percent off for every day late.", "zh": "每晚交一天扣 10%。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "en.a1u9.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 Rain or shine", "order": 109080,
+  "titleZh": "单元复习:放假前的最后一班", "goalZh": "综合运用本单元的天气、穿衣和假期计划,和顾客、同事闲聊", "canDoZh": "能和顾客、同事自然地聊天气、穿衣和假期计划,完成一段完整的闲聊",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 23,
+  "newItems": [
+    { "id": "en.slippery", "kind": "word", "pos": "adj", "text": "slippery", "zh": "滑的", "features": { "ipa": "ˈslɪpɚi" }, "noteZh": "The streets are slippery.(路很滑。)sl 连在一起读,重音在前 SLIP-。" },
+    { "id": "en.merry_christmas", "kind": "phrase", "pos": "phrase", "text": "Merry Christmas", "zh": "圣诞快乐", "features": { "ipa": "ˌmeri ˈkrɪsməs" }, "noteZh": "Christmas 的 t 不发音;不确定对方过不过圣诞时,美国人常说 Happy holidays!。" }
+  ],
+  "reviewItems": ["en.careful", "en.get", "en.stay", "en.holiday", "en.january"],
+  "lines": [
+    { "speaker": "regular", "text": "It's snowing! And the streets are really slippery.", "zh": "(寒假前磊的最后一班,老顾客进门)下雪了!路可滑了。", "items": ["en.snow", "en.street", "en.really", "en.slippery"] },
+    { "speaker": "lei", "text": "Oh no! Be careful.", "zh": "哎呀!你可小心点。", "items": ["en.careful"] },
+    { "speaker": "regular", "text": "Thanks. Is it going to snow all night?", "zh": "谢谢。雪会下一整夜吗?", "items": ["en.thank_you", "en.going_to", "en.snow", "en.night"] },
+    { "speaker": "lei", "text": "Let me see... No, it's going to stop at eight.", "zh": "我看看……不会,八点就停。", "items": ["en.let_me_see", "en.going_to", "en.stop"] },
+    { "speaker": "lei", "text": "But it's going to get really cold.", "zh": "不过会变得很冷。", "items": ["en.going_to", "en.get", "en.really", "en.cold"] },
+    { "speaker": "regular", "text": "Great. A large hot coffee, please!", "zh": "好吧。来一杯大杯热咖啡!", "items": ["en.great", "en.large", "en.hot", "en.coffee"] },
+    { "speaker": "customer", "text": "Hi! Are you going to go home for the holidays?", "zh": "你好!假期你回家吗?", "items": ["en.hi", "en.going_to", "en.go", "en.home", "en.holiday"] },
+    { "speaker": "lei", "text": "No, I'm going to stay here. In January, I'm going to go to LA.", "zh": "不回,我留在这儿。一月我要去洛杉矶。", "items": ["en.going_to", "en.stay", "en.january", "en.go"] },
+    { "speaker": "customer", "text": "Nice! It's warm and sunny there.", "zh": "真好!那儿又暖和又晴朗。", "items": ["en.nice", "en.warm", "en.sunny"] },
+    { "speaker": "laura", "text": "OK, guys. Today is our last day this semester.", "zh": "好了,各位。今天是这学期最后一天。", "items": ["en.guy", "en.today", "en.last", "en.semester"] },
+    { "speaker": "laura", "text": "No work for a month! See you in January.", "zh": "一个月不用上班!一月见。", "items": ["en.work", "en.month", "en.see", "en.january"] },
+    { "speaker": "laura", "text": "Put on your hats and gloves. The streets are slippery!", "zh": "戴好帽子和手套,路滑!", "items": ["en.put_on", "en.hat", "en.gloves", "en.street", "en.slippery"] },
+    { "speaker": "marcus", "text": "And come to my concerts! My band is going to play downtown.", "zh": "还有,来看我的演出!我的乐队要在市中心演几场。", "items": ["en.come", "en.concert", "en.band", "en.going_to", "en.play", "en.downtown"] },
+    { "speaker": "lei", "text": "Cool! Merry Christmas, Laura! Happy holidays, Marcus!", "zh": "酷!圣诞快乐,劳拉!节日快乐,马库斯!", "items": ["en.cool", "en.merry_christmas", "en.happy", "en.holiday"] },
+    { "speaker": "laura", "text": "Happy holidays, Lei! Good job this semester.", "zh": "节日快乐,磊!这学期干得不错。", "items": ["en.happy", "en.holiday", "en.good_job", "en.semester"] }
+  ],
+  "questions": [
+    { "prompt": "雪会下一整夜吗?", "options": ["会,明天才停", "不会,八点就停,但会变得很冷", "不会,马上就停"], "answer": 1, "explainZh": "Is it going to snow all night? —— No, it's going to stop at eight. But it's going to get really cold." },
+    { "prompt": "劳拉说大家什么时候再上班?", "options": ["下周", "下学期开学那天", "一个月以后,一月"], "answer": 2, "explainZh": "No work for a month! See you in January.(一个月不用上班,一月见。)" },
+    { "prompt": "马库斯寒假要做什么?", "options": ["和乐队在市中心演出", "回家过圣诞", "去洛杉矶"], "answer": 0, "explainZh": "My band is going to play downtown.(去洛杉矶的是磊。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.u9_review",
+      "titleZh": "第 9 单元小结:天气、穿衣和计划",
+      "bodyZh": "① 天气用 it:It's snowing. / It's cold and windy.;问天气 What's the weather like?。② 温度:It's 30 degrees. / It's below zero.;问程度 How cold is it?。③ be going to:说计划 I'm going to stay here.,也说“看样子要……”It's going to snow.。④ get + 形容词表示变化:It gets dark at 4:30. / It's going to get cold.。⑤ wear 是“穿着”,put on 是“穿上”:Put on your hat!。发音:闲聊时抱怨天气用降调(Terrible weather! ↘),一般疑问句用升调(Is it going to snow? ↗)。",
+      "examples": [
+        { "text": "It's snowing, and the streets are slippery.", "zh": "下雪了,路很滑。" },
+        { "text": "Is it going to snow all night? — No, it's going to stop at eight.", "zh": "雪会下一整夜吗?——不会,八点就停。" },
+        { "text": "Put on your hat and gloves. It's freezing!", "zh": "戴好帽子和手套,冷得要命!" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

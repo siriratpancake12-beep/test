@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u11.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111070,
+  "titleZh": "向邻居借东西", "goalZh": "会礼貌地向邻居借东西、还东西并道谢", "canDoZh": "能礼貌地向邻居借东西、还东西并道谢",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.hammer", "kind": "word", "pos": "noun", "text": "der Hammer", "zh": "锤子", "features": { "gender": "m", "plural": "die Hämmer", "ipa": "ˈhamɐ" }, "noteZh": "复数变音:Hämmer;Haben Sie einen Hammer?(第四格 einen)。" },
+    { "id": "de.werkzeug", "kind": "word", "pos": "noun", "text": "das Werkzeug", "zh": "工具", "features": { "gender": "n", "plural": "die Werkzeuge", "ipa": "ˈvɛʁkˌtsɔɪ̯k" }, "noteZh": "常当统称用单数:Wir haben kein Werkzeug.;w 读 [v],z 读 [ts],eu 读 [ɔɪ̯],词尾 g 读 [k]。" },
+    { "id": "de.aufhaengen", "kind": "word", "pos": "verb", "text": "aufhängen", "zh": "挂(上去)", "features": { "ipa": "ˈaʊ̯fˌhɛŋən" }, "noteZh": "可分:Ich hänge das Bild auf.(我把画挂起来);挂着的状态用 hängen:Das Bild hängt an der Wand.。" },
+    { "id": "de.leihen", "kind": "word", "pos": "verb", "text": "leihen", "zh": "借;借给", "features": { "ipa": "ˈlaɪ̯ən" }, "noteZh": "Ich leihe Ihnen meinen Hammer.(我把锤子借给您);从图书馆借书用 ausleihen;h 不发音,ei 读 [aɪ̯]。" },
+    { "id": "de.nagel", "kind": "word", "pos": "noun", "text": "der Nagel", "zh": "钉子", "features": { "gender": "m", "plural": "die Nägel", "ipa": "ˈnaːɡl̩" }, "noteZh": "复数变音:Nägel;也指指甲;a 是长音。" },
+    { "id": "de.hoch", "kind": "word", "pos": "adj", "text": "hoch", "zh": "高", "features": { "ipa": "hoːx" }, "noteZh": "Das Bild ist zu hoch.(画挂得太高了。);放在名词前变成 hoh-:ein hohes Haus;说人个子高用 groß;o 后面的 ch 读 [x]。" },
+    { "id": "de.schief", "kind": "word", "pos": "adj", "text": "schief", "zh": "歪的;斜的", "features": { "ipa": "ʃiːf" }, "noteZh": "Das Bild hängt schief.(画挂歪了。);ie 读长音 [iː],sch 读 [ʃ]。" },
+    { "id": "de.wand", "kind": "word", "pos": "noun", "text": "die Wand", "zh": "墙", "features": { "gender": "f", "plural": "die Wände", "ipa": "vant" }, "noteZh": "an der Wand(在墙上);复数变音:Wände;w 读 [v],词尾 d 读 [t]。" }
+  ],
+  "reviewItems": ["de.entschuldigung", "de.bild", "de.haengen", "de.sicher", "de.wichtig", "de.zug"],
+  "lines": [
+    { "speaker": "wei", "text": "Entschuldigung, Herr Hoffmann. Haben Sie einen Hammer?", "zh": "打扰一下,霍夫曼先生。您有锤子吗?", "items": ["de.entschuldigung", "de.herr", "de.haben", "de.sie_hoeflich", "de.ein", "de.hammer"] },
+    { "speaker": "hoffmann", "text": "Ja, sicher! Was möchten Sie machen?", "zh": "当然有!您要做什么?", "items": ["de.ja", "de.sicher", "de.was", "de.moechten", "de.sie_hoeflich", "de.machen"] },
+    { "speaker": "wei", "text": "Ich möchte ein Bild in meinem Zimmer aufhängen. Wir haben kein Werkzeug.", "zh": "我想在房间里挂一幅画。我们 WG 没有工具。", "items": ["de.ich", "de.moechten", "de.ein", "de.bild", "de.in", "de.mein", "de.zimmer", "de.aufhaengen", "de.wir", "de.haben", "de.kein", "de.werkzeug"] },
+    { "speaker": "hoffmann", "text": "Kein Werkzeug? Werkzeug ist wichtig! Ich habe vierzig Jahre lang Züge gefahren.", "zh": "没有工具?工具可重要了!我开了四十年火车。", "items": ["de.kein", "de.werkzeug", "de.sein", "de.wichtig", "de.ich", "de.haben", "de.vierzig", "de.jahr", "de.lang", "de.zug", "de.fahren"] },
+    { "speaker": "hoffmann", "text": "Im Zug hatte ich immer einen Hammer.", "zh": "在火车上我总带着一把锤子。", "items": ["de.in", "de.zug", "de.haben", "de.ich", "de.immer", "de.ein", "de.hammer"] },
+    { "speaker": "hoffmann", "text": "Ich leihe Ihnen meinen Hammer und helfe Ihnen auch gern.", "zh": "我把锤子借给您,也很乐意帮您挂。", "items": ["de.ich", "de.leihen", "de.sie_hoeflich", "de.mein", "de.hammer", "de.und", "de.helfen", "de.auch", "de.gern"] },
+    { "speaker": "hoffmann", "text": "Gut, hier ist ein Nagel. Wo möchten Sie das Bild haben?", "zh": "好,钉子在这儿。您想把画挂在哪儿?", "items": ["de.gut", "de.hier", "de.sein", "de.ein", "de.nagel", "de.wo", "de.moechten", "de.sie_hoeflich", "de.bild", "de.haben"] },
+    { "speaker": "wei", "text": "Hier an der Wand, bitte. Aber nicht zu hoch!", "zh": "挂在这面墙上吧。可是别太高!", "items": ["de.hier", "de.an", "de.wand", "de.bitte", "de.aber", "de.nicht", "de.zu_adv", "de.hoch"] },
+    { "speaker": "hoffmann", "text": "Ich hänge das Bild auf … Jetzt hängt es!", "zh": "我来把画挂上……好,挂好了!", "items": ["de.ich", "de.aufhaengen", "de.bild", "de.jetzt", "de.haengen", "de.es"] },
+    { "speaker": "wei", "text": "Danke! Aber … es hängt ein bisschen schief.", "zh": "谢谢!不过……画有点挂歪了。", "items": ["de.danke", "de.aber", "de.es", "de.haengen", "de.ein_bisschen", "de.schief"] },
+    { "speaker": "hoffmann", "text": "Schief? Ich brauche eine neue Brille!", "zh": "歪了?看来我得换副新眼镜了!", "items": ["de.schief", "de.ich", "de.brauchen", "de.ein", "de.neu", "de.brille"] },
+    { "speaker": "wei", "text": "Herr Hoffmann, hier ist Ihr Hammer. Vielen Dank! Der Tee ist für Sie.", "zh": "霍夫曼先生,这是您的锤子。太感谢您了!这包茶送给您。", "items": ["de.herr", "de.hier", "de.sein", "de.ihr_hoeflich", "de.hammer", "de.vielen_dank", "de.tee", "de.fuer", "de.sie_hoeflich"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么去找霍夫曼先生?", "options": ["想借锤子挂画", "想请他喝咖啡", "想问垃圾怎么分"], "answer": 0, "explainZh": "王伟说:Haben Sie einen Hammer? Ich möchte ein Bild in meinem Zimmer aufhängen.(您有锤子吗?我想在房间里挂一幅画。)" },
+    { "prompt": "霍夫曼先生以前做什么工作?", "options": ["厨师", "开火车", "老师"], "answer": 1, "explainZh": "霍夫曼先生说:Ich habe vierzig Jahre lang Züge gefahren.(我开了四十年火车。)" },
+    { "prompt": "画挂好以后怎么样?", "options": ["挂得太高了", "掉下来了", "有点歪"], "answer": 2, "explainZh": "王伟说:Es hängt ein bisschen schief.(画有点挂歪了。)霍夫曼先生开玩笑说自己得换副新眼镜。" }
+  ],
+  "grammar": [
+    { "id": "de.g.leihen_haben_sie", "titleZh": "借东西:Haben Sie …? / Ich leihe Ihnen …",
+      "bodyZh": "向邻居借东西,先说 Entschuldigung,再问 Haben Sie …?:Entschuldigung, haben Sie einen Hammer?(第四格 einen);也可以问 Können Sie mir … leihen?(您能借给我……吗?)。\n借给别人:Ich leihe Ihnen meinen Hammer.(我把锤子借给您。)——先说借给谁(Ihnen / dir / mir),再说借什么(第四格:einen / meinen Hammer)。\n对邻居、长辈用 Sie;还东西时说:Hier ist Ihr Hammer. Vielen Dank!",
+      "examples": [
+        { "text": "Haben Sie einen Hammer?", "zh": "您有锤子吗?" },
+        { "text": "Ich leihe Ihnen meinen Hammer.", "zh": "我把锤子借给您。" }
+      ] },
+    { "id": "de.g.haengen_aufhaengen", "titleZh": "aufhängen 和 hängen;复习过去的说法",
+      "bodyZh": "aufhängen(挂上去)是动作,可分:Ich hänge das Bild auf.(我把画挂起来。)/ Ich möchte ein Bild aufhängen.。\nhängen(挂着)是状态:Jetzt hängt es!(挂好了!)/ Es hängt schief.(挂歪了。)/ Der Putzplan hängt am Kühlschrank.(第 2 课)。\n说过去的事:hatte、war 是 haben、sein 的过去式:Im Zug hatte ich immer einen Hammer.;完成时(第 8 单元):fahren 带宾语(开火车)时用 haben:Ich habe Züge gefahren.;自己坐车去某地用 sein:Ich bin nach Hamburg gefahren.。",
+      "examples": [
+        { "text": "Ich hänge das Bild auf.", "zh": "我把画挂起来。" },
+        { "text": "Es hängt ein bisschen schief.", "zh": "画有点挂歪了。" }
+      ] }
+  ],
+  "review": "draft"
+}

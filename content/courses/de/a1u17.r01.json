@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u17.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117045,
+  "titleZh": "天气预报和高温提醒", "goalZh": "读懂天气预报和高温提醒,根据天气安排周末", "canDoZh": "能读懂天气预报和高温、雷雨提醒,决定周末做什么",
+  "skills": ["read", "write"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "de.sonnig", "kind": "word", "pos": "adj", "text": "sonnig", "zh": "晴朗的;阳光充足的", "features": { "ipa": "ˈzɔnɪç" }, "noteZh": "die Sonne + -ig;天气预报常用:sonnig und heiß(晴,很热);词尾 -ig 读 [ɪç]。" },
+    { "id": "de.gewitter", "kind": "word", "pos": "noun", "text": "das Gewitter", "zh": "雷雨", "features": { "gender": "n", "plural": "die Gewitter", "ipa": "ɡəˈvɪtɐ" }, "noteZh": "Es gibt ein Gewitter.(有雷雨。)夏天的柏林下午常有雷雨,湖边要早点离开水;单复数同形。" },
+    { "id": "de.hitze", "kind": "word", "pos": "noun", "text": "die Hitze", "zh": "炎热;高温", "features": { "gender": "f", "plural": "-", "ipa": "ˈhɪtsə" }, "noteZh": "heiß 的名词:Hitze in Berlin!(柏林高温!)天气 App 会发 Hitzewarnung(高温预警);不可数。" },
+    { "id": "de.warnung", "kind": "word", "pos": "noun", "text": "die Warnung", "zh": "警告;预警", "features": { "gender": "f", "plural": "die Warnungen", "ipa": "ˈvaʁnʊŋ" }, "noteZh": "die Hitzewarnung(高温预警)、die Gewitterwarnung(雷雨预警);天气 App 常发;-ung 结尾的名词都是阴性。" }
+  ],
+  "reviewItems": ["de.grad", "de.schatten", "de.bleiben", "de.wichtig", "de.rad"],
+  "lines": [
+    { "speaker": "narrator", "text": "Das Wetter in Berlin am Wochenende", "zh": "(周五,天气 App)柏林周末天气", "items": ["de.wetter", "de.in", "de.am", "de.wochenende"] },
+    { "speaker": "narrator", "text": "Samstag: sonnig und heiß, bis 35 Grad.", "zh": "星期六:晴,炎热,最高 35 度。", "items": ["de.samstag", "de.sonnig", "de.und", "de.heiss", "de.bis", "de.grad"] },
+    { "speaker": "narrator", "text": "Am Nachmittag gibt es vielleicht ein Gewitter.", "zh": "下午可能有雷雨。", "items": ["de.am", "de.nachmittag", "de.es_gibt", "de.vielleicht", "de.ein", "de.gewitter"] },
+    { "speaker": "narrator", "text": "Sonntag: 24 Grad, am Nachmittag Regen.", "zh": "星期天:24 度,下午有雨。", "items": ["de.sonntag", "de.grad", "de.am", "de.nachmittag", "de.regen"] },
+    { "speaker": "narrator", "text": "Hitzewarnung für Samstag! Das ist wichtig:", "zh": "星期六高温预警!请注意:", "items": ["de.hitze", "de.warnung", "de.fuer", "de.samstag", "de.das_ist", "de.wichtig"] },
+    { "speaker": "narrator", "text": "Trinken Sie viel Wasser.", "zh": "多喝水。", "items": ["de.trinken", "de.sie_hoeflich", "de.viel", "de.wasser"] },
+    { "speaker": "narrator", "text": "Bleiben Sie am Mittag im Schatten.", "zh": "中午待在阴凉处。", "items": ["de.bleiben", "de.sie_hoeflich", "de.am", "de.mittag", "de.in", "de.schatten"] },
+    { "speaker": "narrator", "text": "Machen Sie am Mittag keinen Sport in der Sonne.", "zh": "中午不要在太阳底下运动。", "items": ["de.machen", "de.sie_hoeflich", "de.am", "de.mittag", "de.kein", "de.sport", "de.in", "de.sonne"] },
+    { "speaker": "narrator", "text": "Bei Gewitter gehen Sie bitte nicht ins Wasser!", "zh": "打雷下雨时请不要下水!", "items": ["de.bei", "de.gewitter", "de.gehen", "de.sie_hoeflich", "de.bitte", "de.nicht", "de.in", "de.wasser"] },
+    { "speaker": "wei", "text": "Hallo zusammen! Am Samstag fahren wir früh zum See, um neun.", "zh": "(王伟在群里发消息)大家好!星期六我们早点去湖边,九点出发。", "items": ["de.hallo", "de.zusammen", "de.am", "de.samstag", "de.fahren", "de.wir", "de.frueh", "de.zu", "de.see", "de.um", "de.neun"] },
+    { "speaker": "wei", "text": "Am Nachmittag gibt es ein Gewitter. Dann sind wir schon zu Hause.", "zh": "下午有雷雨,那时候我们已经到家了。", "items": ["de.am", "de.nachmittag", "de.es_gibt", "de.ein", "de.gewitter", "de.dann", "de.sein", "de.wir", "de.schon", "de.zu_hause"] },
+    { "speaker": "wei", "text": "Und am Sonntag fahren wir Rad. Dann ist es nicht so heiß!", "zh": "星期天我们去骑车。那天没那么热!", "items": ["de.und", "de.am", "de.sonntag", "de.fahren", "de.wir", "de.rad", "de.dann", "de.sein", "de.es", "de.nicht", "de.so", "de.heiss"] }
+  ],
+  "questions": [
+    { "prompt": "星期六下午天气可能怎么样?", "options": ["下雪", "有雷雨", "刮大风"], "answer": 1, "explainZh": "预报写:Am Nachmittag gibt es vielleicht ein Gewitter.(下午可能有雷雨。)" },
+    { "prompt": "高温提醒说中午要怎么做?", "options": ["多吃肉", "去湖边游泳", "待在阴凉处,不要在太阳下运动"], "answer": 2, "explainZh": "Bleiben Sie am Mittag im Schatten. Machen Sie am Mittag keinen Sport in der Sonne.(中午待在阴凉处,不要在太阳底下运动。)" },
+    { "prompt": "王伟建议星期六怎么安排?", "options": ["早上九点去湖边,雷雨前回家", "下午去湖边", "星期六骑车"], "answer": 0, "explainZh": "王伟写:Am Samstag fahren wir früh zum See, um neun. … Dann sind wir schon zu Hause.;骑车是星期天。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_wetter_tipps", "titleZh": "天气预报和提醒",
+      "bodyZh": "天气预报的句子很短,常常没有动词:Samstag: sonnig und heiß, bis 35 Grad.(星期六:晴,炎热,最高 35 度。)\n天气形容词常由名词加 -ig 构成:die Sonne → sonnig(晴朗的)。也可以用 es gibt + 名词:Es gibt ein Gewitter / Regen.\n提醒、规定常用 Sie 的命令式,动词放在句首:Trinken Sie viel Wasser! / Bleiben Sie im Schatten! / Gehen Sie bitte nicht ins Wasser!\nbei + 名词表示“……的时候”:bei Gewitter(打雷下雨时)、bei Hitze(高温时)。",
+      "examples": [
+        { "text": "Samstag: sonnig und heiß.", "zh": "星期六:晴,炎热。" },
+        { "text": "Am Nachmittag gibt es vielleicht ein Gewitter.", "zh": "下午可能有雷雨。" },
+        { "text": "Trinken Sie viel Wasser!", "zh": "多喝水!" }
+      ] }
+  ],
+  "review": "draft"
+}

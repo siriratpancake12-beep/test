@@ -4,15 +4,15 @@
   "titleZh": "今天天气真糟糕", "goalZh": "会用 it 说天气,用 What's the weather like? 问天气", "canDoZh": "能和顾客、同学用天气开个头聊几句,说出现在是什么天气",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
   "newItems": [
-    { "id": "en.terrible", "kind": "word", "pos": "adj", "text": "terrible", "zh": "糟糕的;可怕的", "features": { "ipa": "ˈterəbəl" }, "noteZh": "Terrible weather!(天气真糟糕!)是抱怨天气的常用开场白,用降调;重音在第一个音节 TER-,结尾的 l 舌尖顶住上齿龈收住,不要读成'特瑞波'。" },
+    { "id": "en.terrible", "kind": "word", "pos": "adj", "text": "terrible", "zh": "糟糕的;可怕的", "features": { "ipa": "ˈterəbəl" }, "noteZh": "Terrible weather!(天气真糟糕!)是抱怨天气的常用开场白,用降调;重音在第一个音节 TER-,结尾的 l 舌尖顶住上齿龈收住,不要读成“特瑞波”。" },
     { "id": "en.wet", "kind": "word", "pos": "adj", "text": "wet", "zh": "湿的", "features": { "ipa": "wet" }, "noteZh": "You're wet!(你都湿了!)w 开头双唇先收圆再张开,不要读成 v;词尾 t 轻轻收住,不加元音。" },
-    { "id": "en.whats_the_weather_like", "kind": "phrase", "pos": "phrase", "text": "What's the weather like", "zh": "天气怎么样?", "features": { "ipa": "ˌwʌts ðə ˈweðɚ laɪk" }, "noteZh": "like 在这里是'像',不是'喜欢';回答直接说 It's cold. / It's raining.,不用 like。weather 的 th 是浊音 /ð/,舌尖轻放在上下齿之间。" },
-    { "id": "en.outside", "kind": "word", "pos": "adv", "text": "outside", "zh": "在外面;到外面", "features": { "ipa": "ˌaʊtˈsaɪd" }, "noteZh": "ou 读 /aʊ/,从'啊'滑到'乌';It's cold outside.(外面冷);go outside(出去),outside 前面不加 to。" },
-    { "id": "en.windy", "kind": "word", "pos": "adj", "text": "windy", "zh": "刮风的;风大的", "features": { "ipa": "ˈwɪndi" }, "noteZh": "名词 wind(风)加 -y 变成形容词,cloudy、sunny 也是这样构成的;说'风很大'是 It's windy.,不说 It's wind.。" },
+    { "id": "en.whats_the_weather_like", "kind": "phrase", "pos": "phrase", "text": "What's the weather like", "zh": "天气怎么样?", "features": { "ipa": "ˌwʌts ðə ˈweðɚ laɪk" }, "noteZh": "like 在这里是“像”,不是“喜欢”;回答直接说 It's cold. / It's raining.,不用 like。weather 的 th 是浊音 /ð/,舌尖轻放在上下齿之间。" },
+    { "id": "en.outside", "kind": "word", "pos": "adv", "text": "outside", "zh": "在外面;到外面", "features": { "ipa": "ˌaʊtˈsaɪd" }, "noteZh": "ou 读 /aʊ/,从“啊”滑到“乌”;It's cold outside.(外面冷);go outside(出去),outside 前面不加 to。" },
+    { "id": "en.windy", "kind": "word", "pos": "adj", "text": "windy", "zh": "刮风的;风大的", "features": { "ipa": "ˈwɪndi" }, "noteZh": "名词 wind(风)加 -y 变成形容词,cloudy、sunny 也是这样构成的;说“风很大”是 It's windy.,不说 It's wind.。" },
     { "id": "en.december", "kind": "word", "pos": "propn", "text": "December", "zh": "十二月", "features": { "ipa": "dɪˈsembɚ" }, "noteZh": "月份首字母永远大写;重音在第二个音节 de-CEM-ber,结尾 -ber 美式卷舌;in December(在十二月)。" },
-    { "id": "en.stop", "kind": "word", "pos": "verb", "text": "stop", "zh": "停;停止", "features": { "ipa": "stɑːp" }, "noteZh": "The rain is going to stop.(雨要停了);美式 o 读 /ɑː/,嘴张大;词尾 p 双唇闭上就收,不要加'普'。" },
+    { "id": "en.stop", "kind": "word", "pos": "verb", "text": "stop", "zh": "停;停止", "features": { "ipa": "stɑːp" }, "noteZh": "The rain is going to stop.(雨要停了);美式 o 读 /ɑː/,嘴张大;词尾 p 双唇闭上就收,不要加“普”。" },
     { "id": "en.evening", "kind": "word", "pos": "noun", "text": "evening", "zh": "傍晚;晚上", "features": { "ipa": "ˈiːvnɪŋ" }, "noteZh": "只有两个音节 EVE-ning,中间的 e 不读;this evening(今天傍晚);Good evening 是晚上见面时的问候,道别说 Good night。" },
-    { "id": "en.cloudy", "kind": "word", "pos": "adj", "text": "cloudy", "zh": "多云的;阴天的", "features": { "ipa": "ˈklaʊdi" }, "noteZh": "cloud(云)+ y;ou 读 /aʊ/ 要滑完整;美国天气预报里的 cloudy 常常就是中文说的'阴天'。" }
+    { "id": "en.cloudy", "kind": "word", "pos": "adj", "text": "cloudy", "zh": "多云的;阴天的", "features": { "ipa": "ˈklaʊdi" }, "noteZh": "cloud(云)+ y;ou 读 /aʊ/ 要滑完整;美国天气预报里的 cloudy 常常就是中文说的“阴天”。" }
   ],
   "reviewItems": ["en.weather", "en.rain", "en.cold", "en.sunny", "en.let_me_see"],
   "lines": [
@@ -36,7 +36,7 @@
     {
       "id": "en.g.it_weather",
       "titleZh": "说天气用 it:It's cold. / It's raining.",
-      "bodyZh": "中文说'今天很冷''下雨了',句子可以没有主语;英语说天气要用 it 当主语,这个 it 不指任何东西:It's cold.(天冷。)It's windy.(风很大。)It's cloudy.(多云。)正在下雨、下雪用现在进行时:It's raining.(在下雨。)说一个地方经常下雨,用一般现在时:It rains a lot in Seattle.。中国学生常见的错:漏掉 it(说成 Is raining.),或者把动词 rain 当形容词用(说成 It's rain.)。看天气预报时也可以拿日子当主语:Tomorrow is cloudy.(明天多云。)",
+      "bodyZh": "中文说“今天很冷”“下雨了”,句子可以没有主语;英语说天气要用 it 当主语,这个 it 不指任何东西:It's cold.(天冷。)It's windy.(风很大。)It's cloudy.(多云。)正在下雨、下雪用现在进行时:It's raining.(在下雨。)说一个地方经常下雨,用一般现在时:It rains a lot in Seattle.。中国学生常见的错:漏掉 it(说成 Is raining.),或者把动词 rain 当形容词用(说成 It's rain.)。看天气预报时也可以拿日子当主语:Tomorrow is cloudy.(明天多云。)",
       "examples": [
         { "text": "It's cold and windy today.", "zh": "今天又冷风又大。" },
         { "text": "It's raining. It rains a lot in December.", "zh": "在下雨呢。十二月经常下雨。" },
@@ -46,7 +46,7 @@
     {
       "id": "en.g.whats_the_weather_like",
       "titleZh": "问天气:What's the weather like?",
-      "bodyZh": "What's the weather like? 是问天气最常用的说法。这里的 like 是'像',不是'喜欢';回答时不用 like,直接说 It's cloudy. / It's raining.。后面可以加地点和时间:What's the weather like outside? / What's the weather like tomorrow?。第 2 单元的 What's he like?(他是个什么样的人?)是同一个结构。不要说成 How is the weather like?——how 和 like 只用一个,也可以说 How's the weather?。发音:cloudy、outside 里的 ou 读 /aʊ/,从'啊'滑到'乌',嘴形要动,不要读成'奥'。",
+      "bodyZh": "What's the weather like? 是问天气最常用的说法。这里的 like 是“像”,不是“喜欢”;回答时不用 like,直接说 It's cloudy. / It's raining.。后面可以加地点和时间:What's the weather like outside? / What's the weather like tomorrow?。第 2 单元的 What's he like?(他是个什么样的人?)是同一个结构。不要说成 How is the weather like?——how 和 like 只用一个,也可以说 How's the weather?。发音:cloudy、outside 里的 ou 读 /aʊ/,从“啊”滑到“乌”,嘴形要动,不要读成“奥”。",
       "examples": [
         { "text": "What's the weather like outside? — It's windy.", "zh": "外面天气怎么样?——风很大。" },
         { "text": "What's the weather like tomorrow? — It's cloudy.", "zh": "明天天气怎么样?——多云。" }

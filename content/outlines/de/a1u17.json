@@ -21,7 +21,7 @@
         { "id": "de.yoga", "kind": "word", "pos": "noun", "text": "das Yoga", "zh": "瑜伽", "features": { "gender": "n", "plural": "-", "ipa": "ˈjoːɡa" }, "noteZh": "Yoga machen(做瑜伽)——不用 spielen;y 在这里读 [j]。" },
         { "id": "de.tischtennis", "kind": "word", "pos": "noun", "text": "das Tischtennis", "zh": "乒乓球", "features": { "gender": "n", "plural": "-", "ipa": "ˈtɪʃˌtɛnɪs" }, "noteZh": "der Tisch + das Tennis =“桌上的网球”;Tischtennis spielen(打乒乓球);德国很多公园里有水泥的乒乓球台。" },
         { "id": "de.klettern", "kind": "word", "pos": "verb", "text": "klettern", "zh": "攀登;攀岩", "features": { "ipa": "ˈklɛtɐn" }, "noteZh": "ich klett(e)re, du kletterst, er klettert;运动名大写:das Klettern(攀岩);柏林有很多攀岩馆。" },
-        { "id": "de.schwimmbad", "kind": "word", "pos": "noun", "text": "das Schwimmbad", "zh": "游泳馆;游泳池", "features": { "gender": "n", "plural": "die Schwimmbäder", "ipa": "ˈʃvɪmˌbaːt" }, "noteZh": "schwimmen + das Bad;im Schwimmbad(在游泳馆);露天游泳池叫 das Freibad;复数变音:die Schwimmbäder。" },
+        { "id": "de.freibad", "kind": "word", "pos": "noun", "text": "das Freibad", "zh": "露天游泳池", "features": { "gender": "n", "plural": "die Freibäder", "ipa": "ˈfʁaɪ̯ˌbaːt" }, "noteZh": "frei + das Bad:夏天开的露天泳池,柏林有十几个;im Freibad(在露天泳池);室内的叫 die Schwimmhalle;复数变音:die Freibäder。" },
         { "id": "de.laufen", "kind": "word", "pos": "verb", "text": "laufen", "zh": "跑;跑步;(口语)走", "features": { "ipa": "ˈlaʊ̯fn̩" }, "noteZh": "不规则:du läufst, er läuft(au 变 äu);Am Sonntag laufe ich im Park.(星期天我在公园跑步。)完成时用 sein:Ich bin gelaufen。" }
       ],
       "reviewItems": ["de.sport", "de.oft", "de.jeder", "de.schwer", "de.interessant"]
@@ -71,19 +71,18 @@
       "titleZh": "去湖边游泳",
       "goalZh": "会约朋友去游泳,在湖边浴场买票、租东西、问水深不深,说自己很热",
       "canDoZh": "能约朋友去游泳,在湖边浴场买票、问规定、租东西",
-      "scenarioZh": "七月初一个很热的周六(34 度),莉娜、索菲娅和王伟骑车去湖边游泳(schwimmen gehen)。浴场要买门票,女工作人员说学生多少钱;他们租了一把遮阳伞(der Sonnenschirm);王伟游得不太好,只在浅水区游;莉娜提醒大家涂防晒霜(die Sonnencreme)。说话人:lena、sofia、wei、mitarbeiterin。(课文:不写星期几;dürfen 是第 9 单元的词,王伟问 Kann ich hier einen Sonnenschirm mieten?;工作人员说右边水浅、左边只给游得好的人。)",
-      "grammarFocusZh": "gehen + 不定式(Wir gehen schwimmen);热天的说法(Es sind 34 Grad / Mir ist heiß 当固定说法);können 问可不可以(Kann ich hier … mieten?)",
+      "scenarioZh": "七月初一个很热的周六(34 度),莉娜、索菲娅和王伟骑车去湖边游泳(schwimmen gehen)。浴场要买门票,女工作人员说学生多少钱;他们租了一把遮阳伞(der Sonnenschirm);王伟游得不太好,只在浅水区游;莉娜提醒大家涂防晒霜(die Sonnencreme)。说话人:lena、sofia、wei、mitarbeiterin。(课文:不写星期几;dürfen 是第 9 单元的词,王伟问 Gibt es hier Sonnenschirme?;工作人员说右边水浅、左边只给游得好的人;Sonnencreme、mieten 是第 19 单元登记的词,莉娜提醒的是别晒伤(der Sonnenbrand)。)",
+      "grammarFocusZh": "gehen + 不定式(Wir gehen schwimmen);热天的说法(Es sind 34 Grad / Mir ist heiß 当固定说法);können 问可不可以(Gibt es hier …?)",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
         { "id": "de.rad", "kind": "word", "pos": "noun", "text": "das Rad", "zh": "自行车(口语);轮子", "features": { "gender": "n", "plural": "die Räder", "ipa": "ʁaːt" }, "noteZh": "das Fahrrad 的口语说法:Rad fahren(骑车)、mit dem Rad(骑车去);词尾 d 读 [t],a 是长音;复数 die Räder。" },
         { "id": "de.mir_ist_heiss", "kind": "phrase", "pos": "phrase", "text": "Mir ist heiß.", "zh": "我(觉得)很热。", "alt": ["Mir ist kalt.", "Ist Ihnen heiß?"], "features": { "ipa": "miːɐ̯ ɪst ˈhaɪ̯s" }, "noteZh": "说自己觉得热、冷用 Mir ist heiß / kalt(mir 是第三格,先整句记);千万别说 ✗ Ich bin heiß,意思完全不一样!" },
         { "id": "de.strandbad", "kind": "word", "pos": "noun", "text": "das Strandbad", "zh": "(湖边、河边的)露天浴场", "features": { "gender": "n", "plural": "die Strandbäder", "ipa": "ˈʃtʁantˌbaːt" }, "noteZh": "der Strand(沙滩)+ das Bad:柏林有好几个湖边浴场,有沙滩、救生员,要买门票;复数 die Strandbäder。" },
         { "id": "de.sonnenschirm", "kind": "word", "pos": "noun", "text": "der Sonnenschirm", "zh": "遮阳伞", "features": { "gender": "m", "plural": "die Sonnenschirme", "ipa": "ˈzɔnənˌʃɪʁm" }, "noteZh": "die Sonne + der Schirm(伞);雨伞是 der Regenschirm。" },
-        { "id": "de.mieten", "kind": "word", "pos": "verb", "text": "mieten", "zh": "租;租用", "features": { "ipa": "ˈmiːtn̩" }, "noteZh": "Kann ich hier einen Sonnenschirm mieten?(这儿能租遮阳伞吗?)租房子也用 mieten;房租 die Miete(第 3 单元)。" },
         { "id": "de.tief", "kind": "word", "pos": "adj", "text": "tief", "zh": "深的", "features": { "ipa": "tiːf" }, "noteZh": "Ist das Wasser hier tief?(这儿水深吗?)反义 flach(浅);ie 读长音 [iː]。" },
         { "id": "de.flach", "kind": "word", "pos": "adj", "text": "flach", "zh": "浅的;平的", "features": { "ipa": "flax" }, "noteZh": "Das Wasser ist flach.(水浅。)也指地方平:Berlin ist flach.(柏林很平。)ch 在 a 后读 [x]。" },
         { "id": "de.schwimmer", "kind": "word", "pos": "noun", "text": "der Schwimmer", "zh": "游泳的人", "features": { "gender": "m", "plural": "die Schwimmer", "ipa": "ˈʃvɪmɐ" }, "noteZh": "浴场常分区:nur für Schwimmer(只限会游泳的人)、für Nichtschwimmer(给不会游泳的人);女的是 die Schwimmerin。" },
-        { "id": "de.sonnencreme", "kind": "word", "pos": "noun", "text": "die Sonnencreme", "zh": "防晒霜", "features": { "gender": "f", "plural": "die Sonnencremes", "ipa": "ˈzɔnənˌkʁeːm" }, "noteZh": "die Sonne + die Creme(霜,读 [kʁeːm]);夏天去湖边一定要带。" }
+        { "id": "de.sonnenbrand", "kind": "word", "pos": "noun", "text": "der Sonnenbrand", "zh": "晒伤", "features": { "gender": "m", "plural": "die Sonnenbrände", "ipa": "ˈzɔnənˌbʁant" }, "noteZh": "die Sonne + der Brand(烧):einen Sonnenbrand bekommen(被晒伤);夏天去湖边要在 Schatten 里待一会儿,别晒太久。" }
       ],
       "reviewItems": ["de.eintritt", "de.grad", "de.moment", "de.schwimmen", "de.see"]
     },
@@ -92,13 +91,13 @@
       "titleZh": "天气预报和高温提醒",
       "goalZh": "读懂天气预报和高温提醒,根据天气安排周末",
       "canDoZh": "能读懂天气预报和高温、雷雨提醒,决定周末做什么",
-      "scenarioZh": "体裁:天气 App 的预报和高温提醒。周五王伟看天气 App:周六晴、35 度,下午可能有雷雨(das Gewitter);周日 24 度、有风;App 上的高温提醒:多喝水,中午不要在太阳下运动,白天关好窗户……最后王伟在群里发:周六去湖边早点回来,周日去骑车。说话人:narrator(预报和提醒)、wei(最后的消息)。(课文:关窗留到第 7 课霍夫曼先生的“老办法”;提醒里是 Trinken Sie viel Wasser / Bleiben Sie am Mittag im Schatten / Machen Sie am Mittag keinen Sport in der Sonne。)",
-      "grammarFocusZh": "天气的说法复习(Es regnet / sonnig / windig / Es gibt ein Gewitter);温度和时间;提醒里的 Sie 的命令式(Trinken Sie viel Wasser!)",
+      "scenarioZh": "体裁:天气 App 的预报和高温提醒。周五王伟看天气 App:周六晴、35 度,下午可能有雷雨(das Gewitter);周日 24 度、有风;App 上的高温提醒:多喝水,中午不要在太阳下运动,白天关好窗户……最后王伟在群里发:周六去湖边早点回来,周日去骑车。说话人:narrator(预报和提醒)、wei(最后的消息)。(课文:关窗留到第 7 课霍夫曼先生的“老办法”;提醒里是 Trinken Sie viel Wasser / Bleiben Sie am Mittag im Schatten / Machen Sie am Mittag keinen Sport in der Sonne;windig、Wind 是第 19 单元登记的词,星期天说成 24 Grad, am Nachmittag Regen。)",
+      "grammarFocusZh": "天气的说法复习(sonnig / heiß / Regen / Es gibt ein Gewitter);温度和时间;提醒里的 Sie 的命令式(Trinken Sie viel Wasser!)",
       "skills": ["read", "write"], "estimatedMinutes": 17,
       "newItems": [
         { "id": "de.sonnig", "kind": "word", "pos": "adj", "text": "sonnig", "zh": "晴朗的;阳光充足的", "features": { "ipa": "ˈzɔnɪç" }, "noteZh": "die Sonne + -ig;天气预报常用:sonnig und heiß(晴,很热);词尾 -ig 读 [ɪç]。" },
         { "id": "de.gewitter", "kind": "word", "pos": "noun", "text": "das Gewitter", "zh": "雷雨", "features": { "gender": "n", "plural": "die Gewitter", "ipa": "ɡəˈvɪtɐ" }, "noteZh": "Es gibt ein Gewitter.(有雷雨。)夏天的柏林下午常有雷雨,湖边要早点离开水;单复数同形。" },
-        { "id": "de.windig", "kind": "word", "pos": "adj", "text": "windig", "zh": "有风的;风大的", "features": { "ipa": "ˈvɪndɪç" }, "noteZh": "der Wind + -ig:Es ist windig.(风很大。)w 读 [v]。" },
+        { "id": "de.warnung", "kind": "word", "pos": "noun", "text": "die Warnung", "zh": "警告;预警", "features": { "gender": "f", "plural": "die Warnungen", "ipa": "ˈvaʁnʊŋ" }, "noteZh": "die Hitzewarnung(高温预警)、die Gewitterwarnung(雷雨预警);天气 App 常发;-ung 结尾的名词都是阴性。" },
         { "id": "de.hitze", "kind": "word", "pos": "noun", "text": "die Hitze", "zh": "炎热;高温", "features": { "gender": "f", "plural": "-", "ipa": "ˈhɪtsə" }, "noteZh": "heiß 的名词:Hitze in Berlin!(柏林高温!)天气 App 会发 Hitzewarnung(高温警报);不可数。" }
       ],
       "reviewItems": ["de.grad", "de.schatten", "de.bleiben", "de.wichtig", "de.rad"]

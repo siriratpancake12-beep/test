@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u17.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117030,
+  "titleZh": "你跑得还不如我奶奶!——不规则动词小结", "goalZh": "总结常用不规则动词的 du / er 形式(a → ä、e → i / ie),讲别人在做什么", "canDoZh": "能说对常用不规则动词的 du / er 形式,讲别人在做什么",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.lauf", "kind": "word", "pos": "noun", "text": "der Lauf", "zh": "赛跑;跑步比赛", "features": { "gender": "m", "plural": "die Läufe", "ipa": "laʊ̯f" }, "noteZh": "laufen 的名词:ein Lauf an der Schule(学校的赛跑);复数变音:die Läufe。" },
+    { "id": "de.kilometer", "kind": "word", "pos": "noun", "text": "der Kilometer", "zh": "公里", "features": { "gender": "m", "plural": "die Kilometer", "ipa": "kiloˈmeːtɐ" }, "noteZh": "fünf Kilometer(五公里),写作 km;单复数同形;重音在 me 上。" },
+    { "id": "de.medaille", "kind": "word", "pos": "noun", "text": "die Medaille", "zh": "奖牌", "features": { "gender": "f", "plural": "die Medaillen", "ipa": "meˈdaljə" }, "noteZh": "法语来的词,读 [meˈdaljə],ill 读 [lj];eine Medaille gewinnen(得奖牌)。" },
+    { "id": "de.trainieren", "kind": "word", "pos": "verb", "text": "trainieren", "zh": "训练;锻炼", "features": { "ipa": "tʁɛˈniːʁən" }, "noteZh": "Trainierst du mit mir?(你陪我练吗?)-ieren 动词完成时不加 ge-:Ich habe trainiert.;ai 读 [ɛ]。" },
+    { "id": "de.laeufer", "kind": "word", "pos": "noun", "text": "der Läufer", "zh": "跑步的人;赛跑运动员", "features": { "gender": "m", "plural": "die Läufer", "ipa": "ˈlɔʏ̯fɐ" }, "noteZh": "女的是 die Läuferin;Ich bin Koch, kein Läufer!(我是厨师,不是跑步的!)äu 读 [ɔʏ̯]。" },
+    { "id": "de.runde", "kind": "word", "pos": "noun", "text": "die Runde", "zh": "一圈;一轮", "features": { "gender": "f", "plural": "die Runden", "ipa": "ˈʁʊndə" }, "noteZh": "Noch eine Runde!(再跑一圈!)也说 eine Runde Kaffee(请大家喝一轮咖啡)。" },
+    { "id": "de.schwitzen", "kind": "word", "pos": "verb", "text": "schwitzen", "zh": "出汗", "features": { "ipa": "ˈʃvɪtsn̩" }, "noteZh": "Ich schwitze!(我出汗了!)词干以 tz 结尾,du 的形式只加 -t:du schwitzt;tz 读 [ts]。" },
+    { "id": "de.fit", "kind": "word", "pos": "adj", "text": "fit", "zh": "身体好的;状态好的", "features": { "ipa": "fɪt" }, "noteZh": "英语借来的词:Bist du fit?(你身体状态好吗?)sich fit halten = 保持健康(以后学)。" }
+  ],
+  "reviewItems": ["de.laufen", "de.schule", "de.schnell", "de.gesund", "de.schlafen"],
+  "lines": [
+    { "speaker": "paul", "text": "Jonas, am Samstag ist ein Lauf an meiner Schule.", "zh": "约纳斯,星期六我们学校有赛跑。", "items": ["de.am", "de.samstag", "de.sein", "de.ein", "de.lauf", "de.an", "de.mein", "de.schule"] },
+    { "speaker": "paul", "text": "Fünf Kilometer! Ich möchte eine Medaille. Trainierst du mit mir?", "zh": "五公里!我想拿奖牌。你陪我练练吗?", "items": ["de.fuenf", "de.kilometer", "de.ich", "de.moechten", "de.ein", "de.medaille", "de.trainieren", "de.du", "de.mit"] },
+    { "speaker": "jonas", "text": "Ich? Ich bin Koch, kein Läufer! Aber gut.", "zh": "我?我是厨师,不是跑步的!不过好吧。", "items": ["de.ich", "de.sein", "de.koch", "de.kein", "de.laeufer", "de.aber", "de.gut"] },
+    { "speaker": "paul", "text": "Jonas, du läufst so langsam! Meine Oma läuft schnell, und du?", "zh": "(在公园里)约纳斯,你跑得也太慢了!我奶奶都跑得很快,你呢?", "items": ["de.du", "de.laufen", "de.so", "de.langsam", "de.mein", "de.oma", "de.schnell", "de.und"] },
+    { "speaker": "jonas", "text": "Ich schwitze! Noch eine Runde? Nein, ich nehme den Bus!", "zh": "我出汗了!还要跑一圈?不跑了,我坐公交车!", "items": ["de.ich", "de.schwitzen", "de.noch", "de.ein", "de.runde", "de.nein", "de.nehmen", "de.bus"] },
+    { "speaker": "paul", "text": "Der Bus fährt hier nicht, Jonas! Lauf!", "zh": "这儿可不通公交车,约纳斯!快跑!", "items": ["de.bus", "de.fahren", "de.hier", "de.nicht", "de.laufen"] },
+    { "speaker": "wei", "text": "Jonas, warum schläfst du um sieben Uhr?", "zh": "(晚上在 WG)约纳斯,你怎么七点就睡了?", "items": ["de.warum", "de.schlafen", "de.du", "de.um", "de.sieben", "de.uhr"] },
+    { "speaker": "jonas", "text": "Paul trainiert mit mir. Er läuft jeden Tag zehn Kilometer!", "zh": "保罗拉我陪他练。他每天跑十公里!", "items": ["de.trainieren", "de.mit", "de.ich", "de.er", "de.laufen", "de.jeder", "de.tag", "de.zehn", "de.kilometer"] },
+    { "speaker": "wei", "text": "Und du? Bist du jetzt fit? Isst du gesund?", "zh": "那你呢?现在身体棒了吧?吃得健康吗?", "items": ["de.und", "de.du", "de.sein", "de.jetzt", "de.fit", "de.essen", "de.gesund"] },
+    { "speaker": "jonas", "text": "Nein! Ich esse Kuchen und lese. Das ist mein Sport!", "zh": "才没有!我吃蛋糕、看书。这就是我的运动!", "items": ["de.nein", "de.ich", "de.essen", "de.kuchen", "de.und", "de.lesen", "de.das_ist", "de.mein", "de.sport"] }
+  ],
+  "questions": [
+    { "prompt": "保罗星期六要做什么?", "options": ["踢足球比赛", "参加学校的赛跑", "去游泳"], "answer": 1, "explainZh": "保罗说:Am Samstag ist ein Lauf an meiner Schule. Fünf Kilometer!(星期六学校有五公里赛跑。)" },
+    { "prompt": "跑步的时候约纳斯怎么样?", "options": ["他跑得很快", "他摔倒了", "他跑得很慢,一身汗"], "answer": 2, "explainZh": "保罗说:Du läufst so langsam!;约纳斯说:Ich schwitze!(我出汗了!)" },
+    { "prompt": "约纳斯说他的“运动”是什么?", "options": ["吃蛋糕、看书", "每天跑十公里", "踢足球"], "answer": 0, "explainZh": "约纳斯说:Ich esse Kuchen und lese. Das ist mein Sport!——每天跑十公里的是保罗。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_unregelmaessig_a", "titleZh": "不规则动词(一):a → ä、au → äu",
+      "bodyZh": "有些常用动词在 du 和 er / sie / es 的形式里元音要变,别的人称照常:\nfahren:du fährst, er fährt\nlaufen:du läufst, er läuft\nschlafen:du schläfst, er schläft\nbraten:du brätst, er brät(第 16 单元)\neinladen:du lädst ein, er lädt ein;anfangen:du fängst an, er fängt an\nich、wir、ihr、sie 不变:ich laufe, wir laufen, ihr lauft。\n常见错误:✗ er fahrt、✗ du schlafst。\ndu 的命令式不变音:Lauf! / Fahr! / Schlaf gut!",
+      "examples": [
+        { "text": "Du läufst so langsam!", "zh": "你跑得真慢!" },
+        { "text": "Der Bus fährt hier nicht.", "zh": "这儿不通公交车。" },
+        { "text": "Warum schläfst du schon?", "zh": "你怎么已经睡了?" }
+      ] },
+    { "id": "de.g.u17_unregelmaessig_e", "titleZh": "不规则动词(二):e → i、e → ie",
+      "bodyZh": "e → i:essen(du isst, er isst)、nehmen(du nimmst, er nimmt)、sprechen(du sprichst, er spricht)、helfen(du hilfst, er hilft)、treffen(du triffst, er trifft)\ne → ie:sehen(du siehst, er sieht)、lesen(du liest, er liest)\n这一组的 du 命令式也保留 i / ie:Nimm den Bus! / Hilf Sofia! / Lies das!\n怎么记:词典里会写出 er 的形式(nehmen: er nimmt),这样的动词要单独记;一般只要记住 du 和 er 两个形式。\nessen 和 lesen 的 du 形式和 er 形式一样:du isst / er isst,du liest / er liest。",
+      "examples": [
+        { "text": "Isst du gesund?", "zh": "你吃得健康吗?" },
+        { "text": "Nimmst du den Bus?", "zh": "你坐公交车吗?" },
+        { "text": "Er liest gern.", "zh": "他喜欢看书。" }
+      ] }
+  ],
+  "review": "draft"
+}

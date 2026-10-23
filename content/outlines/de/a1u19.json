@@ -1,0 +1,198 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-19 旅行准备", "cefr": "A1", "themeZh": "七月中,学期结束,四个人准备去波罗的海边的 Warnemünde 玩四天:商量去哪儿、列行李清单、开旅行会议、买火车票、读青年旅舍网页、打电话订房、看海边的天气、出发前最后检查,在火车上找座位。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u19.l01", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119010,
+      "titleZh": "去哪儿玩?",
+      "goalZh": "会和朋友商量去哪儿旅行、想做什么、住哪儿、花多少钱",
+      "canDoZh": "能和朋友商量假期去哪儿、做什么、大概花多少钱",
+      "scenarioZh": "学期最后一周,莉娜、索菲娅和王伟在大学食堂商量旅行:索菲娅想去德累斯顿看博物馆和艺术(die Kunst),莉娜想去波罗的海(die Ostsee)躺沙滩、下海游泳(baden),王伟说成都没有海,他也想去海边,但要便宜;莉娜提议去 Warnemünde(在 Rostock 旁边),住青年旅舍(übernachten in einer Jugendherberge),坐火车大约三个小时;索菲娅提议 7 月 25 日到 28 日;莉娜说保罗也想去,但还要问爸妈。说话人:lena、sofia、wei。",
+      "grammarFocusZh": "情态动词复习:Ich möchte … / Ich will … / Ich muss … / Die Reise muss billig sein;去哪儿:nach Dresden / an die Ostsee / ans Meer(先当固定说法);Wohin fahren wir? 复习",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "de.kunst", "kind": "word", "pos": "noun", "text": "die Kunst", "zh": "艺术;艺术品", "features": { "gender": "f", "plural": "die Künste", "ipa": "kʊnst" }, "noteZh": "Kunst 是不可数名词,复数 die Künste 很少用;博物馆、画展都和 Kunst 有关:Da gibt es viel Kunst.。u 是短元音。" },
+        { "id": "de.ostsee", "kind": "word", "pos": "noun", "text": "die Ostsee", "zh": "波罗的海", "features": { "gender": "f", "plural": "-", "ipa": "ˈɔstˌzeː" }, "noteZh": "德国北边的海:an die Ostsee fahren(去波罗的海),an der Ostsee(在波罗的海边);西北边的是北海 die Nordsee。Ost(东)+ die See(海),阴性。" },
+        { "id": "de.strand", "kind": "word", "pos": "noun", "text": "der Strand", "zh": "海滩;沙滩", "features": { "gender": "m", "plural": "die Strände", "ipa": "ʃtʁant" }, "noteZh": "am Strand liegen(躺在海滩上)、an den Strand gehen(去海滩);复数变音 die Strände;词尾 d 读 [t],st 在词首读 [ʃt]。" },
+        { "id": "de.baden", "kind": "word", "pos": "verb", "text": "baden", "zh": "(在海里、湖里)游泳;洗澡", "features": { "ipa": "ˈbaːdn̩" }, "noteZh": "夏天说 baden gehen 就是去海边、湖边游泳玩水;在家里 baden 是泡澡。a 是长音。" },
+        { "id": "de.meer", "kind": "word", "pos": "noun", "text": "das Meer", "zh": "海;大海", "features": { "gender": "n", "plural": "die Meere", "ipa": "meːɐ̯" }, "noteZh": "ans Meer fahren(去海边)、im Meer schwimmen(在海里游泳);复数 die Meere。ee 读长音 [eː]。也可以说 die See(北方常用)。" },
+        { "id": "de.uebernachten", "kind": "word", "pos": "verb", "text": "übernachten", "zh": "过夜;住(一晚)", "features": { "ipa": "ˌyːbɐˈnaxtn̩" }, "noteZh": "Wir übernachten in einer Jugendherberge.(我们住青年旅舍。)über- 在这里不可分、不重读,完成时 übernachtet;里面藏着 die Nacht(夜)。" },
+        { "id": "de.jugendherberge", "kind": "word", "pos": "noun", "text": "die Jugendherberge", "zh": "青年旅舍", "features": { "gender": "f", "plural": "die Jugendherbergen", "ipa": "ˈjuːɡn̩tˌhɛʁbɛʁɡə" }, "noteZh": "die Jugend(青年)+ die Herberge(旅店);德国到处都有,便宜、干净,常有多人间,学生和家庭都爱住。重音在 Ju 上。" },
+        { "id": "de.fahrt", "kind": "word", "pos": "noun", "text": "die Fahrt", "zh": "(乘车的)路程;旅程", "features": { "gender": "f", "plural": "die Fahrten", "ipa": "faːɐ̯t" }, "noteZh": "Wie lange dauert die Fahrt?(路上要多长时间?)来自 fahren;Gute Fahrt!(一路顺风!)里就是它。复数 die Fahrten。" },
+        { "id": "de.reisen", "kind": "word", "pos": "verb", "text": "reisen", "zh": "旅行", "features": { "ipa": "ˈʁaɪ̯zn̩" }, "noteZh": "Ich reise gern.(我喜欢旅行。)名词是 die Reise;完成时用 sein:Wir sind nach Hamburg gereist.。s 在元音之间读 [z]。" }
+      ],
+      "reviewItems": ["de.billig", "de.ungefaehr", "de.liegen", "de.fragen", "de.frei", "de.ferien"]
+    },
+    {
+      "id": "de.a1u19.l02", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119020,
+      "titleZh": "行李清单",
+      "goalZh": "会说海边旅行常带的东西,会问要不要带、提醒别人别忘了带",
+      "canDoZh": "能说出旅行常用的东西,列一张行李清单",
+      "scenarioZh": "这是王伟第一次去海边旅行,他问索菲娅要带什么(mitbringen):泳裤(die Badehose)、浴巾(das Badetuch)、遮阳帽(der Hut)、太阳镜(die Sonnenbrille)、雨衣(波罗的海边常下雨),雨伞(der Regenschirm)就不用了,海边风大一下就坏;别忘了充电器(das Ladegerät);青年旅舍要自己带拖鞋(die Hausschuhe);王伟的包太大太重,索菲娅建议带双肩包(der Rucksack),小而实用(praktisch)。说话人:wei、sofia。",
+      "grammarFocusZh": "第四格复习(Ich habe keine Sonnenbrille / Brauche ich eine? / Einen Regenschirm brauche ich nicht);可分动词 mitbringen(Was muss ich mitbringen?)和 du 的命令式(Nimm deinen Rucksack! / Vergiss dein Ladegerät nicht!);用复合词记东西(die Badehose = baden + die Hose)。规划里的 mitnehmen / einpacken 已由第 15 单元登记,本课先用 mitbringen 和 packen",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.badehose", "kind": "word", "pos": "noun", "text": "die Badehose", "zh": "(男式)泳裤", "features": { "gender": "f", "plural": "die Badehosen", "ipa": "ˈbaːdəˌhoːzə" }, "noteZh": "baden(游泳)+ die Hose(裤子);女式泳衣是 der Badeanzug。复数 die Badehosen。" },
+        { "id": "de.badetuch", "kind": "word", "pos": "noun", "text": "das Badetuch", "zh": "浴巾;沙滩巾", "features": { "gender": "n", "plural": "die Badetücher", "ipa": "ˈbaːdəˌtuːx" }, "noteZh": "baden + das Tuch(布);比普通毛巾大,去海边、游泳馆都要带。复数变音 die Badetücher。" },
+        { "id": "de.hut", "kind": "word", "pos": "noun", "text": "der Hut", "zh": "帽子(有帽檐的)", "features": { "gender": "m", "plural": "die Hüte", "ipa": "huːt" }, "noteZh": "海边、夏天戴的遮阳帽可以说 Hut 或 Sonnenhut;冬天的毛线帽是 die Mütze。复数变音 die Hüte;u 读长音。" },
+        { "id": "de.sonnenbrille", "kind": "word", "pos": "noun", "text": "die Sonnenbrille", "zh": "太阳镜;墨镜", "features": { "gender": "f", "plural": "die Sonnenbrillen", "ipa": "ˈzɔnənˌbʁɪlə" }, "noteZh": "die Sonne + die Brille(眼镜);复数 die Sonnenbrillen。中间的 -n- 是连接音。" },
+        { "id": "de.regenschirm", "kind": "word", "pos": "noun", "text": "der Regenschirm", "zh": "雨伞", "features": { "gender": "m", "plural": "die Regenschirme", "ipa": "ˈʁeːɡn̩ˌʃɪʁm" }, "noteZh": "der Regen + der Schirm(伞);复数 die Regenschirme。海边风大,伞容易被吹坏,很多人穿雨衣(die Regenjacke)。" },
+        { "id": "de.ladegeraet", "kind": "word", "pos": "noun", "text": "das Ladegerät", "zh": "充电器", "features": { "gender": "n", "plural": "die Ladegeräte", "ipa": "ˈlaːdəɡəˌʁɛːt" }, "noteZh": "laden(充电)+ das Gerät(器具);复数 die Ladegeräte。手机、相机都要带上。ä 读长音 [ɛː]。" },
+        { "id": "de.hausschuh", "kind": "word", "pos": "noun", "text": "der Hausschuh", "zh": "拖鞋;家里穿的鞋", "features": { "gender": "m", "plural": "die Hausschuhe", "ipa": "ˈhaʊ̯sˌʃuː" }, "noteZh": "das Haus + der Schuh;一般说复数 die Hausschuhe(一双拖鞋)。德国人进家门常换 Hausschuhe,青年旅舍也要自己带。" },
+        { "id": "de.packen", "kind": "word", "pos": "verb", "text": "packen", "zh": "收拾(行李);装", "features": { "ipa": "ˈpakn̩" }, "noteZh": "Ich packe heute Abend.(我今晚收拾行李。)Hast du schon gepackt?(你行李收拾好了吗?)规则变化;ck 前的 a 是短元音。" },
+        { "id": "de.praktisch", "kind": "word", "pos": "adj", "text": "praktisch", "zh": "实用的;方便的", "features": { "ipa": "ˈpʁaktɪʃ" }, "noteZh": "Der Rucksack ist klein und praktisch.(双肩包小,又方便。)重音在 prak 上;和英语 practical 是一家。" }
+      ],
+      "reviewItems": ["de.rucksack", "de.vergessen", "de.tasche", "de.mitbringen", "de.kaputt", "de.schnell"]
+    },
+    {
+      "id": "de.a1u19.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119030,
+      "titleZh": "必须、可以、应该:情态动词总复习",
+      "goalZh": "分清六个情态动词的意思,会说必须做、可以做、应该做、想做和不许做的事",
+      "canDoZh": "能用不同的情态动词说必须做、可以做、应该做、想做和不许做的事",
+      "scenarioZh": "出发前,四个人在 WG 开“旅行会议”:莉娜说爸妈同意(erlauben)保罗一起去(mitfahren),但他必须每天晚上给妈妈打电话,晚上只能跟大家一起出去(ausgehen);保罗说“知道了,我得一直跟着你们”;索菲娅说大家得早点订(buchen),不然(sonst)什么都贵,王伟主动说他来订青年旅舍;王伟一定要去看灯塔(der Leuchtturm);保罗说他想每天吃鱼面包(das Fischbrötchen)。说话人:lena、paul、sofia、wei。",
+      "grammarFocusZh": "六个情态动词的意思对比:können(能、可以)/ dürfen(允许)/ müssen(必须)/ sollen(别人的要求;Soll ich …? 主动帮忙)/ wollen(想要、打算)/ möchten(想要,更客气);nicht müssen 和 nicht dürfen 的区别复习;sonst(不然)。dürfen 和 sollen 是第 9、13 单元教的,本课当复习词",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "de.mitfahren", "kind": "word", "pos": "verb", "text": "mitfahren", "zh": "一起(坐车)去", "features": { "ipa": "ˈmɪtˌfaːʁən" }, "noteZh": "可分动词:Paul darf mitfahren.(保罗可以一起去。)/ Fährst du mit?;变位跟 fahren:du fährst mit。完成时用 sein。" },
+        { "id": "de.erlauben", "kind": "word", "pos": "verb", "text": "erlauben", "zh": "允许;同意", "features": { "ipa": "ɛɐ̯ˈlaʊ̯bn̩" }, "noteZh": "Unsere Eltern erlauben es.(爸妈同意了。)er- 不可分,完成时 erlaubt;Das ist nicht erlaubt.(这是不允许的。)意思和 dürfen 相对:A erlaubt es → B darf es。" },
+        { "id": "de.mama", "kind": "word", "pos": "noun", "text": "die Mama", "zh": "妈妈", "features": { "gender": "f", "plural": "die Mamas", "ipa": "ˈmama" }, "noteZh": "口语叫法,孩子和家人之间用;正式说 die Mutter。爸爸是 der Papa。复数 die Mamas。" },
+        { "id": "de.ausgehen", "kind": "word", "pos": "verb", "text": "ausgehen", "zh": "(晚上)出去玩", "features": { "ipa": "ˈaʊ̯sˌɡeːən" }, "noteZh": "可分动词:Am Abend gehen wir aus.(晚上我们出去玩。)完成时用 sein:Wir sind ausgegangen.。" },
+        { "id": "de.buchen", "kind": "word", "pos": "verb", "text": "buchen", "zh": "预订(房间、车票、旅行)", "features": { "ipa": "ˈbuːxn̩" }, "noteZh": "Wir müssen früh buchen.(我们得早点订。)比 reservieren 更常用于付钱的预订;完成时 gebucht。u 是长音,ch 在 u 后读 [x]。" },
+        { "id": "de.sonst", "kind": "word", "pos": "adv", "text": "sonst", "zh": "不然;否则", "features": { "ipa": "zɔnst" }, "noteZh": "连接两句话:Wir müssen früh buchen, sonst ist alles teuer.(得早点订,不然什么都贵。)sonst 占第一位,后面动词在第二位。" },
+        { "id": "de.unbedingt", "kind": "word", "pos": "adv", "text": "unbedingt", "zh": "一定;无论如何", "features": { "ipa": "ˈʊnbəˌdɪŋt" }, "noteZh": "表示非常想做、一定要做:Ich will unbedingt den Leuchtturm sehen!(我一定要去看灯塔!)重音在 un 上。" },
+        { "id": "de.leuchtturm", "kind": "word", "pos": "noun", "text": "der Leuchtturm", "zh": "灯塔", "features": { "gender": "m", "plural": "die Leuchttürme", "ipa": "ˈlɔɪ̯çtˌtʊʁm" }, "noteZh": "leuchten(发光)+ der Turm(塔);Warnemünde 的灯塔就在海边,可以爬上去看海。eu 读 [ɔɪ̯];复数变音 die Leuchttürme。" },
+        { "id": "de.fischbroetchen", "kind": "word", "pos": "noun", "text": "das Fischbrötchen", "zh": "鱼面包(夹鱼的小面包)", "features": { "gender": "n", "plural": "die Fischbrötchen", "ipa": "ˈfɪʃˌbʁøːtçən" }, "noteZh": "der Fisch + das Brötchen:德国北部海边最有名的小吃,面包里夹鲱鱼或熏鱼、洋葱和酱;复数不变。" }
+      ],
+      "reviewItems": ["de.duerfen", "de.sollen", "de.jeder", "de.bleiben", "de.immer", "de.nachricht"]
+    },
+    {
+      "id": "de.a1u19.l04", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119040,
+      "titleZh": "买火车票",
+      "goalZh": "会在车站窗口买往返票,问清楚车次、换乘、订座和优惠",
+      "canDoZh": "能在车站买往返票,问清楚车次、换乘、座位和优惠",
+      "scenarioZh": "王伟和索菲娅在火车站售票窗口买去 Warnemünde 的票:四个人、往返,7 月 25 日去、28 日回;售票员说学生坐区域火车(der Regionalzug)不用买票(学期票),索菲娅说夏天区域火车太挤,想订座,售票员就推荐快车(der Fernzug):去程(die Hinfahrt)25 日早上 7:12,在 Rostock 换 S-Bahn,10 点到;回程(die Rückfahrt)28 日 14:10 从 Rostock 开;含订座每人 39 欧元;王伟问有没有学生优惠(die Ermäßigung),快车没有。说话人:wei、sofia、fahrkartenverkaeufer。",
+      "grammarFocusZh": "日期区间 vom 25. bis zum 28. Juli(固定说法);复习:um + 钟点、umsteigen、Wie viel kostet …?;买票常问的问题(Fährt der Zug bis …? / Gibt es eine Ermäßigung für Studenten?)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "de.regionalzug", "kind": "word", "pos": "noun", "text": "der Regionalzug", "zh": "区域火车(慢车)", "features": { "gender": "m", "plural": "die Regionalzüge", "ipa": "ʁeɡi̯oˈnaːlˌtsuːk" }, "noteZh": "站站停、比较慢,但便宜;德国大学生的学期票能免费坐区域火车,不能坐快车。复数变音 die Regionalzüge。" },
+        { "id": "de.fernzug", "kind": "word", "pos": "noun", "text": "der Fernzug", "zh": "(长途)快车", "features": { "gender": "m", "plural": "die Fernzüge", "ipa": "ˈfɛʁnˌtsuːk" }, "noteZh": "fern(远)+ der Zug;跑长途、站少、快,要另外买票,可以订座。复数变音 die Fernzüge。" },
+        { "id": "de.reservieren", "kind": "word", "pos": "verb", "text": "reservieren", "zh": "预订;订(座位、房间)", "features": { "ipa": "ʁezɛʁˈviːʁən" }, "noteZh": "einen Platz reservieren(订座)、ein Zimmer reservieren(订房);-ieren 结尾,完成时 reserviert,不加 ge-;v 在这里读 [v]。" },
+        { "id": "de.reservierung", "kind": "word", "pos": "noun", "text": "die Reservierung", "zh": "订座;预订", "features": { "gender": "f", "plural": "die Reservierungen", "ipa": "ʁezɛʁˈviːʁʊŋ" }, "noteZh": "mit Reservierung(含订座);-ung 结尾的名词都是阴性,复数加 -en:die Reservierungen。" },
+        { "id": "de.hinfahrt", "kind": "word", "pos": "noun", "text": "die Hinfahrt", "zh": "去程", "features": { "gender": "f", "plural": "die Hinfahrten", "ipa": "ˈhɪnˌfaːɐ̯t" }, "noteZh": "hin(去那儿)+ die Fahrt;和 die Rückfahrt(回程)成对记。hin und zurück = 往返。" },
+        { "id": "de.rueckfahrt", "kind": "word", "pos": "noun", "text": "die Rückfahrt", "zh": "回程", "features": { "gender": "f", "plural": "die Rückfahrten", "ipa": "ˈʁʏkˌfaːɐ̯t" }, "noteZh": "zurück(回)+ die Fahrt;Die Rückfahrt ist am 28. Juli.(28 号回来。)ü 撮圆嘴唇。" },
+        { "id": "de.ermaessigung", "kind": "word", "pos": "noun", "text": "die Ermäßigung", "zh": "优惠;折扣(票价)", "features": { "gender": "f", "plural": "die Ermäßigungen", "ipa": "ɛɐ̯ˈmɛːsɪɡʊŋ" }, "noteZh": "Gibt es eine Ermäßigung für Studenten?(学生有优惠吗?)博物馆、车票常有学生、儿童优惠;ß 读清音 [s],复数 die Ermäßigungen。" },
+        { "id": "de.ankunft", "kind": "word", "pos": "noun", "text": "die Ankunft", "zh": "到达", "features": { "gender": "f", "plural": "die Ankünfte", "ipa": "ˈanˌkʊnft" }, "noteZh": "来自 ankommen;时刻表上 Ankunft(到达)和 Abfahrt(出发)成对出现;复数变音 die Ankünfte。" }
+      ],
+      "reviewItems": ["de.hin_und_zurueck", "de.umsteigen", "de.fahrkarte", "de.person", "de.platz", "de.voll"]
+    },
+    {
+      "id": "de.a1u19.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119045,
+      "titleZh": "青年旅舍的网页",
+      "goalZh": "读懂旅馆网页上的房型、价格、早餐、入住和退房时间、规定和服务",
+      "canDoZh": "能读懂旅馆网页上的房间、价格、早餐和入住规定",
+      "scenarioZh": "体裁:旅馆网页(青年旅舍,名字虚构为 Jugendherberge „Am Leuchtturm“)。王伟看 Warnemünde 一家青年旅舍的网页:双人间(das Doppelzimmer)和四人间,四人间一个床位一晚 32 欧元,双人间一晚 80 欧元,含早餐(inklusive);床单被套(die Bettwäsche)另外付钱;15 点以后能进房间,最后一天 10 点以前退房;走路五分钟到海滩;不能带宠物;可以租旅舍的自行车。最后是王伟看完的一句话。说话人:narrator(网页)、wei(最后一句)。",
+      "grammarFocusZh": "复习:价格(32 Euro für eine Nacht)、钟点、nach / bis、können / müssen 说规定,sein + erlaubt;网页上的省略写法(Frühstück inklusive)",
+      "skills": ["read"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "de.doppelzimmer", "kind": "word", "pos": "noun", "text": "das Doppelzimmer", "zh": "双人间", "features": { "gender": "n", "plural": "die Doppelzimmer", "ipa": "ˈdɔpl̩ˌtsɪmɐ" }, "noteZh": "doppel(双)+ das Zimmer;单人间是 das Einzelzimmer,四人间说 das Vierbettzimmer(vier + das Bett + das Zimmer)。复数不变。" },
+        { "id": "de.inklusive", "kind": "word", "pos": "adv", "text": "inklusive", "zh": "包括在内;含", "features": { "ipa": "ɪnkluˈziːvə" }, "noteZh": "Das Frühstück ist inklusive.(含早餐。)反过来 nicht inklusive / extra(另外收费);旅馆、车票上常见。重音在 si 上。" },
+        { "id": "de.bettwaesche", "kind": "word", "pos": "noun", "text": "die Bettwäsche", "zh": "床单被套", "features": { "gender": "f", "plural": "-", "ipa": "ˈbɛtˌvɛʃə" }, "noteZh": "das Bett + die Wäsche(要洗的布类);只有单数。青年旅舍常要另外付钱租,或者自己带。" }
+      ],
+      "reviewItems": ["de.jugendherberge", "de.leuchtturm", "de.strand", "de.haustier", "de.erlauben", "de.frage"]
+    },
+    {
+      "id": "de.a1u19.l05", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119050,
+      "titleZh": "打电话订房间",
+      "goalZh": "会打电话订房间,说清楚日期、人数和房型,问价格、早餐和入住时间",
+      "canDoZh": "能打电话订房间,说清楚日期、人数和房型,问价格和早餐",
+      "scenarioZh": "网页上四人间 25 日已经订满,王伟给青年旅舍打电话:女工作人员说四人间只有 26 到 28 日还有;王伟问 25 日有没有两个双人间,最后订了 25 日两个双人间、26 到 28 日一个四人间;他问床单被套含不含(不含,每人另付 6 欧元);他们上午就到,问能不能提前办入住(einchecken)——要 15 点以后,但行李(das Gepäck)可以先放在前台(die Rezeption);工作人员核对退房日期(die Abreise)和名字,说今天发确认(die Bestätigung)。规划原来写“晚上十点才到行不行”,和早上 7:12 的火车对不上,改成上午到、先寄存行李。说话人:wei、mitarbeiterin。",
+      "grammarFocusZh": "订房的说法:Ich möchte ein Zimmer reservieren / vom … bis zum … / Haben Sie noch … frei? / Ist die Bettwäsche inklusive?;lassen(Ihr Gepäck können Sie an der Rezeption lassen);宾语或不定式放句首时动词仍在第二位(Einchecken können Sie nach 15 Uhr)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.uebernachtung", "kind": "word", "pos": "noun", "text": "die Übernachtung", "zh": "(住)一晚;住宿", "features": { "gender": "f", "plural": "die Übernachtungen", "ipa": "ˌyːbɐˈnaxtʊŋ" }, "noteZh": "Eine Übernachtung kostet 80 Euro.(住一晚 80 欧元。)来自 übernachten;复数 die Übernachtungen。" },
+        { "id": "de.extra", "kind": "word", "pos": "adv", "text": "extra", "zh": "另外(收费);额外", "features": { "ipa": "ˈɛkstʁa" }, "noteZh": "Die Bettwäsche kostet extra.(床单另外收钱。)和 inklusive(含)相对;x 读 [ks]。" },
+        { "id": "de.einchecken", "kind": "word", "pos": "verb", "text": "einchecken", "zh": "办入住;(机场)办登机", "features": { "ipa": "ˈaɪ̯nˌtʃɛkn̩" }, "noteZh": "从英语 check in 来的可分动词:Wir checken um 15 Uhr ein. / Können wir schon einchecken?;退房是 auschecken。ch 在这里读 [tʃ]。" },
+        { "id": "de.gepaeck", "kind": "word", "pos": "noun", "text": "das Gepäck", "zh": "行李", "features": { "gender": "n", "plural": "-", "ipa": "ɡəˈpɛk" }, "noteZh": "不可数,只用单数:Ihr Gepäck können Sie hier lassen.(行李可以放这儿。)一件行李说 ein Gepäckstück。ge- 不重读。" },
+        { "id": "de.rezeption", "kind": "word", "pos": "noun", "text": "die Rezeption", "zh": "(旅馆的)前台", "features": { "gender": "f", "plural": "die Rezeptionen", "ipa": "ʁetsɛpˈtsi̯oːn" }, "noteZh": "an der Rezeption(在前台);-tion 读 [tsi̯oːn],重音在最后;复数 die Rezeptionen。" },
+        { "id": "de.lassen", "kind": "word", "pos": "verb", "text": "lassen", "zh": "留下;让……放在", "features": { "ipa": "ˈlasn̩" }, "noteZh": "Können wir das Gepäck hier lassen?(行李能放这儿吗?)不规则:du lässt, er lässt;完成时 gelassen。" },
+        { "id": "de.abreise", "kind": "word", "pos": "noun", "text": "die Abreise", "zh": "离开(旅馆、某地)那天;动身", "features": { "gender": "f", "plural": "die Abreisen", "ipa": "ˈapˌʁaɪ̯zə" }, "noteZh": "旅馆常问 Wann ist Ihre Abreise?(您哪天走?)来的那天是 die Anreise;ab 的 b 读 [p]。复数 die Abreisen。" },
+        { "id": "de.bestaetigung", "kind": "word", "pos": "noun", "text": "die Bestätigung", "zh": "确认(信、邮件)", "features": { "gender": "f", "plural": "die Bestätigungen", "ipa": "bəˈʃtɛːtɪɡʊŋ" }, "noteZh": "订房、订票以后会收到 eine Bestätigung(确认单);来自 bestätigen(确认);复数 die Bestätigungen。" }
+      ],
+      "reviewItems": ["de.reservieren", "de.doppelzimmer", "de.inklusive", "de.bettwaesche", "de.buchen", "de.moment"]
+    },
+    {
+      "id": "de.a1u19.l06", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119060,
+      "titleZh": "海边:海滩、灯塔和风",
+      "goalZh": "会说海边常见的地方和天气,看懂海滩上旗子的意思",
+      "canDoZh": "能说出海边常见的地方和天气,看懂海滩上的提示",
+      "scenarioZh": "出发前一天,莉娜在手机上给大家看 Warnemünde 的照片和天气:海滩、海(das Meer / die See)、灯塔、港口、沙丘(die Düne);沙滩上有很多沙子(der Sand),海边常常有风(der Wind),18 到 25 度,有时多云(bewölkt);海滩上有旗子(die Flagge),红旗表示危险、不能游泳;索菲娅说有风的时候浪(die Welle)很大,王伟游得不好可能有危险(gefährlich),王伟说他就在海滩上待着,不过一定要看看海。说话人:lena、wei、sofia。",
+      "grammarFocusZh": "die See(海)和 der See(湖)性不同、意思不同;天气的说法复习(Es gibt viel Wind / Es ist bewölkt / Es sind 18 bis 25 Grad);an der See / am Meer(先当固定说法)",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.see_meer", "kind": "word", "pos": "noun", "text": "die See", "zh": "海(北方常用)", "features": { "gender": "f", "plural": "die Seen", "ipa": "zeː" }, "noteZh": "die See = 海,der See = 湖(第 8 单元):性不同,意思不同!an der See(在海边)是固定说法;平时说海用 das Meer 最多。" },
+        { "id": "de.duene", "kind": "word", "pos": "noun", "text": "die Düne", "zh": "沙丘", "features": { "gender": "f", "plural": "die Dünen", "ipa": "ˈdyːnə" }, "noteZh": "海滩后面一道一道的沙丘;为了保护沙丘,很多地方不许走上去。ü 撮圆嘴唇,读长音;复数 die Dünen。" },
+        { "id": "de.wind", "kind": "word", "pos": "noun", "text": "der Wind", "zh": "风", "features": { "gender": "m", "plural": "die Winde", "ipa": "vɪnt" }, "noteZh": "Es gibt viel Wind.(风很大。)w 读 [v],词尾 d 读 [t];复数 die Winde。形容词 windig(有风的)。" },
+        { "id": "de.sand", "kind": "word", "pos": "noun", "text": "der Sand", "zh": "沙子", "features": { "gender": "m", "plural": "-", "ipa": "zant" }, "noteZh": "不可数,没有复数:Am Strand gibt es viel Sand.;s 在元音前读 [z],词尾 d 读 [t]。" },
+        { "id": "de.bewoelkt", "kind": "word", "pos": "adj", "text": "bewölkt", "zh": "多云的", "features": { "ipa": "bəˈvœlkt" }, "noteZh": "Es ist bewölkt.(多云。)来自 die Wolke(云);ö 撮圆嘴唇,be- 不重读。" },
+        { "id": "de.flagge", "kind": "word", "pos": "noun", "text": "die Flagge", "zh": "旗;旗子", "features": { "gender": "f", "plural": "die Flaggen", "ipa": "ˈflaɡə" }, "noteZh": "海滩上用不同颜色的旗子告诉大家能不能游泳,红旗(eine rote Flagge)= 危险,不能下水。复数 die Flaggen。" },
+        { "id": "de.gefaehrlich", "kind": "word", "pos": "adj", "text": "gefährlich", "zh": "危险的", "features": { "ipa": "ɡəˈfɛːɐ̯lɪç" }, "noteZh": "Das ist gefährlich!(这很危险!)来自 die Gefahr(危险);ä 读长音,-lich 读 [lɪç]。" },
+        { "id": "de.welle", "kind": "word", "pos": "noun", "text": "die Welle", "zh": "浪;波浪", "features": { "gender": "f", "plural": "die Wellen", "ipa": "ˈvɛlə" }, "noteZh": "Bei Wind sind die Wellen groß.(有风的时候浪大。)w 读 [v];复数 die Wellen。" }
+      ],
+      "reviewItems": ["de.strand", "de.meer", "de.leuchtturm", "de.hafen", "de.vergessen", "de.manchmal"]
+    },
+    {
+      "id": "de.a1u19.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119070,
+      "titleZh": "出发前的最后检查",
+      "goalZh": "会和朋友确认几点在哪儿见、谁带什么、证件和车票带了没有",
+      "canDoZh": "能和朋友确认出发前的事:几点见、谁带什么、证件和车票",
+      "scenarioZh": "24 日晚上,莉娜和王伟打电话做最后检查:明天要出发了(Morgen geht's los!),王伟有点激动(aufgeregt);6:45 在中央火车站(der Hauptbahnhof)见,7:12 发车(die Abfahrt);车票(die Tickets)在王伟手机里;王伟问莉娜带没带身份证(der Personalausweis),莉娜问他带没带充电器;保罗还没收拾行李,王伟怕误了火车(verpassen),莉娜说她五点叫醒(wecken)保罗;最后说 Bis morgen, gute Nacht!。说话人:lena、wei。",
+      "grammarFocusZh": "第四格物主冠词复习(Hast du deinen Personalausweis? / dein Ladegerät?);完成时和 schon / noch nicht(Hast du schon gepackt? – Ja, fast. / Paul hat noch nicht gepackt.);sonst 复习",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.losgehen", "kind": "word", "pos": "verb", "text": "losgehen", "zh": "开始;出发", "features": { "ipa": "ˈloːsˌɡeːən" }, "noteZh": "口语常说 Morgen geht's los!(明天就出发了!/明天开始了!)geht's = geht es;可分动词,完成时用 sein。" },
+        { "id": "de.fast", "kind": "word", "pos": "adv", "text": "fast", "zh": "差不多;几乎", "features": { "ipa": "fast" }, "noteZh": "Ja, fast.(嗯,差不多了。)Ich bin fast fertig.(我快好了。)a 是短元音;别和英语 fast(快)弄混。" },
+        { "id": "de.aufgeregt", "kind": "word", "pos": "adj", "text": "aufgeregt", "zh": "激动的;紧张的", "features": { "ipa": "ˈaʊ̯fɡəˌʁeːkt" }, "noteZh": "出发前、考试前心里激动或紧张都可以说:Ich bin ein bisschen aufgeregt.;词尾 gt 读 [kt]。" },
+        { "id": "de.hauptbahnhof", "kind": "word", "pos": "noun", "text": "der Hauptbahnhof", "zh": "中央火车站;总站", "features": { "gender": "m", "plural": "die Hauptbahnhöfe", "ipa": "ˈhaʊ̯ptbaːnˌhoːf" }, "noteZh": "haupt-(主要的)+ der Bahnhof;常缩写 Hbf;柏林的 Hauptbahnhof 很大,长途火车大多从这里开。复数变音 die Hauptbahnhöfe。" },
+        { "id": "de.abfahrt", "kind": "word", "pos": "noun", "text": "die Abfahrt", "zh": "出发;开车(时间)", "features": { "gender": "f", "plural": "die Abfahrten", "ipa": "ˈapˌfaːɐ̯t" }, "noteZh": "来自 abfahren;Abfahrt ist um 7:12 Uhr.(7:12 开车。)和 die Ankunft(到达)成对记;复数 die Abfahrten。" },
+        { "id": "de.ticket", "kind": "word", "pos": "noun", "text": "das Ticket", "zh": "票;车票", "features": { "gender": "n", "plural": "die Tickets", "ipa": "ˈtɪkət" }, "noteZh": "口语里车票、门票都可以说 Ticket,和 die Fahrkarte 意思一样;现在很多车票在手机里:Die Tickets habe ich im Handy.;复数 die Tickets。" },
+        { "id": "de.personalausweis", "kind": "word", "pos": "noun", "text": "der Personalausweis", "zh": "(德国人的)身份证", "features": { "gender": "m", "plural": "die Personalausweise", "ipa": "pɛʁzoˈnaːlˌʔaʊ̯svaɪ̯s" }, "noteZh": "德国人坐车、办事常带 Personalausweis,外国人用护照(der Pass);复数 die Personalausweise。ei 读 [aɪ̯]。" },
+        { "id": "de.verpassen", "kind": "word", "pos": "verb", "text": "verpassen", "zh": "错过;没赶上(车)", "features": { "ipa": "fɛɐ̯ˈpasn̩" }, "noteZh": "den Zug verpassen(误了火车)、den Anschluss verpassen(赶不上转车);ver- 不可分,完成时 verpasst。" },
+        { "id": "de.wecken", "kind": "word", "pos": "verb", "text": "wecken", "zh": "叫醒", "features": { "ipa": "ˈvɛkn̩" }, "noteZh": "Ich wecke ihn um fünf.(我五点叫醒他。)闹钟是 der Wecker;w 读 [v],ck 前的 e 是短元音。" }
+      ],
+      "reviewItems": ["de.packen", "de.ladegeraet", "de.treffen", "de.tasche", "de.sonst", "de.vergessen"]
+    },
+    {
+      "id": "de.a1u19.l08", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119080,
+      "titleZh": "单元复习与应用:在火车上",
+      "goalZh": "会在火车上找座位、礼貌地请别人让座,听懂车上的晚点和换乘广播",
+      "canDoZh": "能在火车上找座位、礼貌地请别人让座,听懂车上的晚点和换乘广播",
+      "scenarioZh": "25 日早上,四个人上了去 Rostock 的火车。7 号车厢(der Wagen)他们订的座位上坐着一位女士(besetzt),王伟礼貌地问:Entschuldigung, sind das nicht unsere Plätze?——原来她走错了车厢;车上广播说火车晚点 15 分钟,9:42 到 Rostock;索菲娅担心赶不上转车(der Anschluss),莉娜看手机:10:05 还有一班去 Warnemünde 的 S-Bahn,大家在 Rostock 等半小时;保罗一路都在吃东西。说话人:sofia、paul、wei、passantin、durchsage、lena。",
+      "grammarFocusZh": "复习:礼貌的说法(Entschuldigung, sind das nicht unsere Plätze? / Gute Fahrt!)、广播里的钟点和晚点、站台;情态动词和 sonst 复习;seit + 地点(seit Berlin)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "newItems": [
+        { "id": "de.wagen", "kind": "word", "pos": "noun", "text": "der Wagen", "zh": "(火车的)车厢;车", "features": { "gender": "m", "plural": "die Wagen", "ipa": "ˈvaːɡn̩" }, "noteZh": "火车票上写着 Wagen 7, Platz 61(7 号车厢 61 座);口语里 der Wagen 也指汽车。复数不变。" },
+        { "id": "de.besetzt", "kind": "word", "pos": "adj", "text": "besetzt", "zh": "(座位)有人;(电话)占线", "features": { "ipa": "bəˈzɛtst" }, "noteZh": "Der Platz ist besetzt.(这个座有人。)反义 frei;打电话占线也说 besetzt。" },
+        { "id": "de.anschluss", "kind": "word", "pos": "noun", "text": "der Anschluss", "zh": "(火车的)转车;衔接", "features": { "gender": "m", "plural": "die Anschlüsse", "ipa": "ˈanˌʃlʊs" }, "noteZh": "den Anschluss verpassen(赶不上转车);广播常说 Anschlusszüge(转乘的列车)。复数变音 die Anschlüsse。" }
+      ],
+      "reviewItems": ["de.platz", "de.reservieren", "de.ankunft", "de.verpassen", "de.seit", "de.sitzen"]
+    },
+    {
+      "id": "de.a1u19.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-19 旅行准备", "order": 119085,
+      "titleZh": "四天的旅行计划",
+      "goalZh": "读懂一份几天的旅行计划,说出每天做什么、几点、在哪儿、大概花多少钱",
+      "canDoZh": "能读懂一份几天的旅行计划,说出每天做什么、几点、在哪儿",
+      "scenarioZh": "体裁:旅行计划(王伟写在大家共享的文档里)。第一天 10:30 到,先把行李放在前台,去海滩,15 点办入住;第二天骑青年旅舍的自行车去灯塔,下午下海游泳;第三天坐船(das Schiff)去 Rostock 老城(die Altstadt),晚上在港口吃鱼;第四天 10 点退房,买礼物,14:10 从 Rostock 坐火车回柏林;下雨的话去博物馆或室内游泳馆(das Hallenbad);每人大概花 200 欧元(火车 39 欧元、青年旅舍约 110 欧元、吃饭和租自行车约 50 欧元)。说话人:wei(计划)。",
+      "grammarFocusZh": "复习:am + 日期、um + 钟点、时间放句首动词第二位;计划里常用省略的短句(Tag 1: Ankunft um 10:30 Uhr);bei Regen;zusammen 说总数",
+      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "de.schiff", "kind": "word", "pos": "noun", "text": "das Schiff", "zh": "船", "features": { "gender": "n", "plural": "die Schiffe", "ipa": "ʃɪf" }, "noteZh": "mit dem Schiff fahren(坐船);复数 die Schiffe。从 Warnemünde 可以坐船去 Rostock 市区。i 是短元音。" },
+        { "id": "de.altstadt", "kind": "word", "pos": "noun", "text": "die Altstadt", "zh": "老城;旧城区", "features": { "gender": "f", "plural": "die Altstädte", "ipa": "ˈaltˌʃtat" }, "noteZh": "alt + die Stadt;德国很多城市都有老城,教堂、市场和老房子都在那儿。复数变音 die Altstädte。" },
+        { "id": "de.hallenbad", "kind": "word", "pos": "noun", "text": "das Hallenbad", "zh": "室内游泳馆", "features": { "gender": "n", "plural": "die Hallenbäder", "ipa": "ˈhalənˌbaːt" }, "noteZh": "die Halle(大厅)+ das Bad;下雨天去室内的 Hallenbad,夏天也有露天的 Freibad。复数变音 die Hallenbäder;词尾 d 读 [t]。" }
+      ],
+      "reviewItems": ["de.ankunft", "de.einchecken", "de.gepaeck", "de.rezeption", "de.leuchtturm", "de.hafen"]
+    }
+  ]
+}

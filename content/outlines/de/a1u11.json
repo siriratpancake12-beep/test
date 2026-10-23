@@ -148,8 +148,8 @@
       "titleZh": "向邻居借东西",
       "goalZh": "会礼貌地向邻居借东西、还东西并道谢",
       "canDoZh": "能礼貌地向邻居借东西、还东西并道谢",
-      "scenarioZh": "王伟要在房间里挂一幅画(das Bild),WG 里没有工具。他下楼问霍夫曼先生:Entschuldigung, haben Sie einen Hammer?;霍夫曼先生借给他锤子和钉子,还上楼帮他挂,一边说他开了四十年火车,工具一直很重要(war / hatte、完成时);画挂歪了,两人笑;第二天王伟带着中国茶去还锤子、道谢。规划里“以前什么都自己修”的 reparieren、früher、selbst 都是别的单元的词,本课不用。说话人:wei、hoffmann。",
-      "grammarFocusZh": "借东西的说法:Haben Sie …? / Können Sie mir … leihen?;第四格复习(einen Hammer, meinen Hammer);对邻居用 Sie;war / hatte 和完成时复习(Ich habe vierzig Jahre Züge gefahren);hängen 和 aufhängen",
+      "scenarioZh": "王伟要在房间里挂一幅画(das Bild),WG 里没有工具。他下楼问霍夫曼先生:Entschuldigung, haben Sie einen Hammer?;霍夫曼先生借给他锤子和钉子,还上楼帮他挂,一边说工具很重要:他开了四十年火车,在火车上总带着一把锤子(hatte、完成时);画挂歪了,霍夫曼先生开玩笑说自己得换副新眼镜;最后王伟还锤子,送上一包茶道谢。规划里“以前什么都自己修”的 reparieren、früher、selbst 都是别的单元的词,本课不用。说话人:wei、hoffmann。",
+      "grammarFocusZh": "借东西的说法:Haben Sie …? / Können Sie mir … leihen?;第四格复习(einen Hammer, meinen Hammer);对邻居用 Sie;hatte 和完成时复习(Ich habe vierzig Jahre lang Züge gefahren / Im Zug hatte ich immer einen Hammer);hängen 和 aufhängen",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
       "newItems": [
         { "id": "de.hammer", "kind": "word", "pos": "noun", "text": "der Hammer", "zh": "锤子", "features": { "gender": "m", "plural": "die Hämmer", "ipa": "ˈhamɐ" }, "noteZh": "复数变音:Hämmer;Haben Sie einen Hammer?(第四格 einen)。" },
@@ -168,9 +168,9 @@
       "titleZh": "单元复习与应用:WG 再开会",
       "goalZh": "综合运用本单元的词和语法,在室友会议上提问题、提建议,一起想办法",
       "canDoZh": "能在室友会议上提出问题、提建议,一起想办法",
-      "scenarioZh": "一个星期以后 WG 再开会(规划写的是“一个月后”,那就到六月、晚于第 12 单元的考试了,所以改成一个星期以后):值日表有用,但浴室和厕所还是常常没人打扫。约纳斯建议请清洁工(die Putzhilfe,每小时 15 欧元,太贵);索菲娅建议每周轮流、谁轮到谁打扫;王伟建议用手机提醒(die Erinnerung);最后大家决定:谁忘了,就罚他给 WG 买蛋糕(规划里的冰淇淋 das Eis 已由 u12 登记,本课改成 Kuchen)。说话人:jonas、sofia、wei。",
+      "scenarioZh": "一个星期以后 WG 再开会(规划写的是“一个月后”,那就到六月、晚于第 12 单元的考试了,所以改成一个星期以后):值日表有用,厨房一直很干净,但浴室和厕所还是常常很脏:负责浴室的索菲娅星期六上班到 16 点,晚上很累,常常忘了。约纳斯建议请清洁工(die Putzhilfe,每小时大概 15 欧元,太贵);索菲娅建议浴室每周换一个人打扫(先是她,然后约纳斯,再是王伟);王伟建议用手机提醒(die Erinnerung);最后大家决定:谁忘了,就罚他给 WG 买蛋糕(规划里的冰淇淋 das Eis 已由 u12 登记,本课改成 Kuchen)。说话人:jonas、sofia、wei。",
       "grammarFocusZh": "复习:du 的命令式(Vergiss das Bad nicht!)、doch、情态动词、频率副词;提建议的说法 Ich habe einen Vorschlag / eine Idee: … / Vielleicht …",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
       "newItems": [
         { "id": "de.putzhilfe", "kind": "word", "pos": "noun", "text": "die Putzhilfe", "zh": "清洁工;保洁", "features": { "gender": "f", "plural": "die Putzhilfen", "ipa": "ˈpʊtsˌhɪlfə" }, "noteZh": "putzen + die Hilfe(帮助);请人来打扫一般按小时付钱:15 Euro pro Stunde。" },
         { "id": "de.erinnerung", "kind": "word", "pos": "noun", "text": "die Erinnerung", "zh": "提醒;回忆", "features": { "gender": "f", "plural": "die Erinnerungen", "ipa": "ɛɐ̯ˈʔɪnəʁʊŋ" }, "noteZh": "手机上的提醒也叫 Erinnerung:Das Handy schickt uns eine Erinnerung.;也表示“回忆”;-ung 结尾是阴性。" },
@@ -184,7 +184,7 @@
       "titleZh": "WG 群聊:霍夫曼先生要来",
       "goalZh": "读懂室友之间的群聊消息,找出谁做什么、什么时候做",
       "canDoZh": "能读懂室友之间的群聊消息,找出谁做什么、什么时候做",
-      "scenarioZh": "体裁:WG 群聊。周五晚上,索菲娅在群里说星期天下午三点霍夫曼先生要来喝咖啡(vorbeikommen),请大家星期六一起打扫;约纳斯回复星期六上午要睡懒觉(ausschlafen),下午可以打扫浴室;王伟说他负责厨房和倒垃圾,还去买蛋糕;约纳斯问索菲娅是不是不打扫,索菲娅说 Doch!,她擦窗户、吸尘;最后大家用短句互相提醒(Vergiss den Kuchen nicht! / Vergiss den Wecker nicht!)。说话人:sofia、jonas、wei(群消息,和 u5.l08 一样每条消息的说话人是发消息的人)。",
+      "scenarioZh": "体裁:WG 群聊。周五晚上,索菲娅在群里说星期天下午三点霍夫曼先生要来喝咖啡(vorbeikommen),请大家星期六一起打扫;约纳斯回复星期六上午要睡懒觉(ausschlafen),下午可以打扫浴室;王伟说他负责厨房和倒垃圾,星期天还去面包店买蛋糕,约纳斯开玩笑问这是不是他忘了打扫浴室的惩罚(接第 8 课);约纳斯问索菲娅是不是不打扫,索菲娅说 Doch!,她上班到 16 点,然后擦窗户、吸尘;最后大家用短句互相提醒(Vergiss den Kuchen nicht! / Vergiss den Wecker nicht!)。说话人:sofia、jonas、wei(群消息,和 u5.l08 一样每条消息的说话人是发消息的人)。",
       "grammarFocusZh": "复习:du 的命令式(Vergiss … nicht!)、doch、时间表达;消息里的口语短句(Mache ich! / Bis Samstag!)",
       "skills": ["read", "write"], "estimatedMinutes": 16.5,
       "newItems": [

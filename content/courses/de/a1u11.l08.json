@@ -1,0 +1,50 @@
+{
+  "id": "de.a1u11.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111080,
+  "titleZh": "单元复习与应用:WG 再开会", "goalZh": "综合运用本单元的词和语法,在室友会议上提问题、提建议,一起想办法", "canDoZh": "能在室友会议上提出问题、提建议,一起想办法",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.putzhilfe", "kind": "word", "pos": "noun", "text": "die Putzhilfe", "zh": "清洁工;保洁", "features": { "gender": "f", "plural": "die Putzhilfen", "ipa": "ˈpʊtsˌhɪlfə" }, "noteZh": "putzen + die Hilfe(帮助);请人来打扫一般按小时付钱:15 Euro pro Stunde。" },
+    { "id": "de.erinnerung", "kind": "word", "pos": "noun", "text": "die Erinnerung", "zh": "提醒;回忆", "features": { "gender": "f", "plural": "die Erinnerungen", "ipa": "ɛɐ̯ˈʔɪnəʁʊŋ" }, "noteZh": "手机上的提醒也叫 Erinnerung:Das Handy schickt uns eine Erinnerung.;也表示“回忆”;-ung 结尾是阴性。" },
+    { "id": "de.vergessen", "kind": "word", "pos": "verb", "text": "vergessen", "zh": "忘记", "features": { "ipa": "fɛɐ̯ˈɡɛsn̩" }, "noteZh": "e → i 不规则:du vergisst, er vergisst;命令式 Vergiss … nicht!(别忘了……!);完成时 vergessen(不加 ge-)。" },
+    { "id": "de.strafe", "kind": "word", "pos": "noun", "text": "die Strafe", "zh": "惩罚", "features": { "gender": "f", "plural": "die Strafen", "ipa": "ˈʃtʁaːfə" }, "noteZh": "开玩笑的“惩罚”也能说:Die Strafe: Kuchen für die WG!;str 读 [ʃtʁ]。" }
+  ],
+  "reviewItems": ["de.putzplan", "de.toilette", "de.doch", "de.vorschlag", "de.andere", "de.schmutzig"],
+  "lines": [
+    { "speaker": "jonas", "text": "Unser Putzplan ist gut. Die Küche ist jetzt immer sauber.", "zh": "我们的值日表挺管用。厨房现在一直很干净。", "items": ["de.unser", "de.putzplan", "de.sein", "de.gut", "de.kueche", "de.jetzt", "de.immer", "de.sauber"] },
+    { "speaker": "wei", "text": "Ja, aber das Bad und die Toilette sind oft schmutzig.", "zh": "对,可是浴室和厕所常常很脏。", "items": ["de.ja", "de.aber", "de.bad", "de.und", "de.toilette", "de.sein", "de.oft", "de.schmutzig"] },
+    { "speaker": "sofia", "text": "Ich weiß, ich vergesse das Bad oft. Am Samstag arbeite ich bis 16 Uhr.", "zh": "我知道,我常常忘了打扫浴室。星期六我要上班到 16 点。", "items": ["de.ich", "de.wissen", "de.vergessen", "de.bad", "de.oft", "de.am", "de.samstag", "de.arbeiten", "de.bis", "de.sechzehn", "de.uhr"] },
+    { "speaker": "wei", "text": "Und am Abend? Hast du am Abend keine Zeit?", "zh": "那晚上呢?你晚上没时间吗?", "items": ["de.und", "de.am", "de.abend", "de.haben", "de.du", "de.kein", "de.zeit"] },
+    { "speaker": "sofia", "text": "Doch, aber dann bin ich sehr müde.", "zh": "有啊,可是那时候我已经很累了。", "items": ["de.doch", "de.aber", "de.dann", "de.sein", "de.ich", "de.sehr", "de.muede"] },
+    { "speaker": "jonas", "text": "Ich habe einen Vorschlag: Wir nehmen eine Putzhilfe!", "zh": "我有个建议:我们请个清洁工吧!", "items": ["de.ich", "de.haben", "de.ein", "de.vorschlag", "de.wir", "de.nehmen", "de.putzhilfe"] },
+    { "speaker": "wei", "text": "Eine Putzhilfe? Wie viel kostet das?", "zh": "清洁工?那要多少钱?", "items": ["de.ein", "de.putzhilfe", "de.wie_viel", "de.kosten"] },
+    { "speaker": "jonas", "text": "Vielleicht 15 Euro pro Stunde.", "zh": "大概每小时 15 欧元。", "items": ["de.vielleicht", "de.fuenf", "de.zehn", "de.euro", "de.pro", "de.stunde"] },
+    { "speaker": "sofia", "text": "Das ist zu teuer! Ich habe eine andere Idee.", "zh": "太贵了!我有另一个主意。", "items": ["de.das_ist", "de.zu_adv", "de.teuer", "de.ich", "de.haben", "de.ein", "de.andere", "de.idee"] },
+    { "speaker": "sofia", "text": "Jede Woche putzt ein anderer das Bad: zuerst ich, dann Jonas, dann Wei.", "zh": "每周换一个人打扫浴室:先是我,然后是约纳斯,再是王伟。", "items": ["de.jeder", "de.woche", "de.putzen", "de.ein", "de.andere", "de.bad", "de.zuerst", "de.ich", "de.dann"] },
+    { "speaker": "wei", "text": "Gut! Und das Handy schickt uns jede Woche eine Erinnerung.", "zh": "好!再让手机每周给我们发个提醒。", "items": ["de.gut", "de.und", "de.handy", "de.schicken", "de.wir", "de.jeder", "de.woche", "de.ein", "de.erinnerung"] },
+    { "speaker": "jonas", "text": "Aber manchmal vergisst einer das Bad. Wir brauchen eine Strafe!", "zh": "可是总会有人忘了打扫浴室。我们得定个惩罚!", "items": ["de.aber", "de.manchmal", "de.vergessen", "de.ein", "de.bad", "de.wir", "de.brauchen", "de.strafe"] },
+    { "speaker": "wei", "text": "Dann kauft er einen Kuchen für die WG!", "zh": "那他就得给 WG 买个蛋糕!", "items": ["de.dann", "de.kaufen", "de.er", "de.ein", "de.kuchen", "de.fuer", "de.wg"] },
+    { "speaker": "jonas", "text": "Super! Sofia, vergiss das Bad nicht!", "zh": "太好了!索菲娅,别忘了浴室哦!", "items": ["de.toll", "de.vergessen", "de.bad", "de.nicht"] },
+    { "speaker": "sofia", "text": "Ich vergesse es nicht. Versprochen!", "zh": "我不会忘的。说定了!", "items": ["de.ich", "de.vergessen", "de.es", "de.nicht", "de.versprechen"] }
+  ],
+  "questions": [
+    { "prompt": "浴室为什么常常没人打扫?", "options": ["王伟没有时间", "约纳斯不喜欢打扫", "索菲娅星期六要上班,常常忘了"], "answer": 2, "explainZh": "索菲娅说:Ich weiß, ich vergesse das Bad oft. Am Samstag arbeite ich bis 16 Uhr.(我知道,我常常忘了打扫浴室。星期六我要上班到 16 点。)" },
+    { "prompt": "为什么不请清洁工?", "options": ["太贵了,每小时大概 15 欧元", "找不到清洁工", "霍夫曼先生不同意"], "answer": 0, "explainZh": "约纳斯说清洁工大概 15 Euro pro Stunde(每小时 15 欧元),索菲娅说:Das ist zu teuer!(太贵了!)" },
+    { "prompt": "谁要是忘了打扫浴室,会怎么样?", "options": ["要多打扫一周", "要给 WG 买个蛋糕", "要给大家做饭"], "answer": 1, "explainZh": "约纳斯说需要一个惩罚,王伟说:Dann kauft er einen Kuchen für die WG!(那他就得给 WG 买个蛋糕!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u11_review_vorschlag", "titleZh": "复习:提建议、说看法、排轮流",
+      "bodyZh": "开会提建议:Ich habe einen Vorschlag: …(我有个建议:……)/ Ich habe eine andere Idee.(我有另一个主意。)/ Wir nehmen eine Putzhilfe!(我们请个清洁工吧!)\n说看法:Das ist zu teuer!(太贵了!)/ Das ist fair.(这很公平。)\n排轮流:Jede Woche putzt ein anderer das Bad: zuerst ich, dann Jonas, dann Wei.——时间放句首,动词仍在第二位;ein anderer = 另一个人;也可以用 dran sein:Nächste Woche ist Wei dran.(第 2 课)",
+      "examples": [
+        { "text": "Ich habe eine andere Idee.", "zh": "我有另一个主意。" },
+        { "text": "Jede Woche putzt ein anderer das Bad.", "zh": "每周换一个人打扫浴室。" }
+      ] },
+    { "id": "de.g.u11_review_imperativ_doch", "titleZh": "复习:du 的命令式、doch 和 vergessen",
+      "bodyZh": "① du 的命令式(第 3 课):去掉 du 和 -st,e → i 的动词保留 i:du vergisst → Vergiss das Bad nicht!(别忘了浴室!)/ du nimmst → Nimm mal den Staubsauger!;a → ä 的不保留:Wasch …!\n② 用 doch 回答否定问句(第 6 课):Hast du am Abend keine Zeit? – Doch, aber dann bin ich sehr müde.\n③ vergessen(忘记)也是 e → i:ich vergesse, du vergisst, er vergisst;完成时 Ich habe … vergessen(不加 ge-)。\n④ 频率副词放在变位动词后面:Das Bad ist oft schmutzig. / Manchmal vergisst einer das Bad.(放句首时动词仍在第二位)",
+      "examples": [
+        { "text": "Vergiss das Bad nicht!", "zh": "别忘了打扫浴室!" },
+        { "text": "Hast du am Abend keine Zeit? – Doch!", "zh": "你晚上没时间吗?——有啊!" }
+      ] }
+  ],
+  "review": "draft"
+}

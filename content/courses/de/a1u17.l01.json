@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u17.l01", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117010,
+  "titleZh": "运动项目", "goalZh": "会说常见的运动,说自己做什么运动、多久做一次、在哪儿", "canDoZh": "能说出常见的运动,说自己做什么运动、多久一次、在哪儿",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.hochschulsport", "kind": "word", "pos": "noun", "text": "der Hochschulsport", "zh": "大学运动中心;大学体育课程", "features": { "gender": "m", "plural": "-", "ipa": "ˈhoːxʃuːlˌʃpɔʁt" }, "noteZh": "die Hochschule(高校)+ der Sport:德国大学给学生开的便宜运动课,每学期报名一次,名额常常很快报满。" },
+    { "id": "de.sportart", "kind": "word", "pos": "noun", "text": "die Sportart", "zh": "运动项目", "features": { "gender": "f", "plural": "die Sportarten", "ipa": "ˈʃpɔʁtˌʔaːɐ̯t" }, "noteZh": "der Sport + die Art(种类);Welche Sportarten gibt es?(有哪些运动项目?)性看最后一部分:die Art → die Sportart。" },
+    { "id": "de.badminton", "kind": "word", "pos": "noun", "text": "das Badminton", "zh": "羽毛球(运动)", "features": { "gender": "n", "plural": "-", "ipa": "ˈbɛtmɪntn̩" }, "noteZh": "Badminton spielen(打羽毛球),不加冠词;德语读 [ˈbɛtmɪntn̩],a 读得像 e。" },
+    { "id": "de.basketball", "kind": "word", "pos": "noun", "text": "der Basketball", "zh": "篮球", "features": { "gender": "m", "plural": "die Basketbälle", "ipa": "ˈbaːskətˌbal" }, "noteZh": "Basketball spielen(打篮球);和 der Fußball 一样是阳性,复数 die Basketbälle 指几个篮球。" },
+    { "id": "de.yoga", "kind": "word", "pos": "noun", "text": "das Yoga", "zh": "瑜伽", "features": { "gender": "n", "plural": "-", "ipa": "ˈjoːɡa" }, "noteZh": "Yoga machen(做瑜伽)——不用 spielen;y 在这里读 [j]。" },
+    { "id": "de.tischtennis", "kind": "word", "pos": "noun", "text": "das Tischtennis", "zh": "乒乓球", "features": { "gender": "n", "plural": "-", "ipa": "ˈtɪʃˌtɛnɪs" }, "noteZh": "der Tisch + das Tennis =“桌上的网球”;Tischtennis spielen(打乒乓球);德国很多公园里有水泥的乒乓球台。" },
+    { "id": "de.klettern", "kind": "word", "pos": "verb", "text": "klettern", "zh": "攀登;攀岩", "features": { "ipa": "ˈklɛtɐn" }, "noteZh": "ich klett(e)re, du kletterst, er klettert;运动名大写:das Klettern(攀岩);柏林有很多攀岩馆。" },
+    { "id": "de.freibad", "kind": "word", "pos": "noun", "text": "das Freibad", "zh": "露天游泳池", "features": { "gender": "n", "plural": "die Freibäder", "ipa": "ˈfʁaɪ̯ˌbaːt" }, "noteZh": "frei + das Bad:夏天开的露天泳池,柏林有十几个;im Freibad(在露天泳池);室内的叫 die Schwimmhalle;复数变音:die Freibäder。" },
+    { "id": "de.laufen", "kind": "word", "pos": "verb", "text": "laufen", "zh": "跑;跑步;(口语)走", "features": { "ipa": "ˈlaʊ̯fn̩" }, "noteZh": "不规则:du läufst, er läuft(au 变 äu);Am Sonntag laufe ich im Park.(星期天我在公园跑步。)完成时用 sein:Ich bin gelaufen。" }
+  ],
+  "reviewItems": ["de.sport", "de.oft", "de.jeder", "de.schwer", "de.interessant"],
+  "lines": [
+    { "speaker": "lena", "text": "Wei, hier sind die Kurse vom Hochschulsport!", "zh": "王伟,这是大学运动中心的课程!", "items": ["de.hier", "de.sein", "de.kurs", "de.von", "de.hochschulsport"] },
+    { "speaker": "wei", "text": "Toll! Welche Sportarten gibt es?", "zh": "太好了!都有哪些运动项目?", "items": ["de.toll", "de.welche", "de.sportart", "de.es_gibt"] },
+    { "speaker": "lena", "text": "Schwimmen, Basketball, Yoga, Tischtennis und Klettern.", "zh": "游泳、篮球、瑜伽、乒乓球,还有攀岩。", "items": ["de.schwimmen", "de.basketball", "de.yoga", "de.tischtennis", "de.und", "de.klettern"] },
+    { "speaker": "wei", "text": "Machst du Sport, Lena?", "zh": "莉娜,你运动吗?", "items": ["de.machen", "de.du", "de.sport"] },
+    { "speaker": "lena", "text": "Ja, ich schwimme am Dienstag und am Freitag im Freibad.", "zh": "运动,我星期二和星期五去露天泳池游泳。", "items": ["de.ja", "de.ich", "de.schwimmen", "de.am", "de.dienstag", "de.und", "de.freitag", "de.in", "de.freibad"] },
+    { "speaker": "lena", "text": "Und jeden Sonntag laufe ich im Park.", "zh": "每个星期天我在公园跑步。", "items": ["de.und", "de.jeder", "de.sonntag", "de.laufen", "de.ich", "de.in", "de.park"] },
+    { "speaker": "wei", "text": "In Chengdu habe ich oft Badminton gespielt.", "zh": "我在成都常打羽毛球。", "items": ["de.in", "de.haben", "de.ich", "de.oft", "de.badminton", "de.spielen"] },
+    { "speaker": "lena", "text": "Dann mach den Badmintonkurs! Er ist am Dienstagabend.", "zh": "那就报羽毛球课吧!星期二晚上上课。", "items": ["de.dann", "de.machen", "de.badminton", "de.kurs", "de.er", "de.sein", "de.am", "de.dienstag", "de.abend"] },
+    { "speaker": "wei", "text": "Und Klettern? Das finde ich auch interessant.", "zh": "那攀岩呢?我觉得也挺有意思。", "items": ["de.und", "de.klettern", "de.finden", "de.ich", "de.auch", "de.interessant"] },
+    { "speaker": "lena", "text": "Klettern ist schwer. Aber Yoga ist gut für den Rücken!", "zh": "攀岩很难。不过瑜伽对背很好!", "items": ["de.klettern", "de.sein", "de.schwer", "de.aber", "de.yoga", "de.gut", "de.fuer", "de.ruecken"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜星期几去游泳?", "options": ["星期一和星期四", "星期天", "星期二和星期五"], "answer": 2, "explainZh": "莉娜说:Ich schwimme am Dienstag und am Freitag im Freibad.;星期天她在公园跑步。" },
+    { "prompt": "王伟在成都常做什么运动?", "options": ["打羽毛球", "游泳", "攀岩"], "answer": 0, "explainZh": "王伟说:In Chengdu habe ich oft Badminton gespielt.(我在成都常打羽毛球。)" },
+    { "prompt": "莉娜说瑜伽怎么样?", "options": ["很难", "对背好", "很无聊"], "answer": 1, "explainZh": "莉娜说:Klettern ist schwer. Aber Yoga ist gut für den Rücken!——难的是攀岩。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_sport_verben", "titleZh": "运动怎么说:spielen、machen 还是动词本身",
+      "bodyZh": "球类运动用 spielen,不加冠词:Badminton / Basketball / Tischtennis / Fußball spielen。\n有自己动词的运动直接用动词:schwimmen(游泳)、laufen(跑步)、klettern(攀岩)、wandern(徒步)。\n其他的用 machen:Yoga machen、Sport machen(做运动)。\n动词首字母大写就成了运动的名称(中性):das Schwimmen、das Klettern——Klettern ist schwer.(攀岩很难。)\nlaufen 是不规则动词:du läufst, er läuft(au → äu),本单元第 3 课一起总结。",
+      "examples": [
+        { "text": "Ich spiele gern Badminton.", "zh": "我喜欢打羽毛球。" },
+        { "text": "Machst du Sport?", "zh": "你运动吗?" },
+        { "text": "Klettern ist schwer.", "zh": "攀岩很难。" }
+      ] },
+    { "id": "de.g.u17_wie_oft", "titleZh": "多久做一次:oft、jeden Sonntag、am Dienstag und am Freitag",
+      "bodyZh": "说频率可以用第 8 单元学的副词:immer(总是)> oft(经常)> manchmal(有时)> nie(从不),放在变位动词后面:Ich schwimme oft.\n说具体哪几天:am Dienstag und am Freitag(星期二和星期五);每次都:jeden Sonntag(每个星期天)——jeden 跟着阳性的 der Sonntag 变成第四格。\n时间放在句首,动词还在第二位:Jeden Sonntag laufe ich im Park.(✗ Jeden Sonntag ich laufe)\n以前的习惯用完成时:In Chengdu habe ich oft Badminton gespielt.",
+      "examples": [
+        { "text": "Ich schwimme oft.", "zh": "我经常游泳。" },
+        { "text": "Jeden Sonntag laufe ich im Park.", "zh": "每个星期天我在公园跑步。" },
+        { "text": "In Chengdu habe ich oft Badminton gespielt.", "zh": "我在成都常打羽毛球。" }
+      ] }
+  ],
+  "review": "draft"
+}

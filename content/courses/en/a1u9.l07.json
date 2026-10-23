@@ -1,0 +1,50 @@
+{
+  "id": "en.a1u9.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 Rain or shine", "order": 109070,
+  "titleZh": "寒假你回家吗?", "goalZh": "会用 be going to 说假期计划,问别人的安排", "canDoZh": "能说说自己假期打算做什么、去哪儿,也能问朋友的假期安排",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "en.holiday", "kind": "word", "pos": "noun", "text": "holiday", "zh": "节日;假日", "features": { "ipa": "ˈhɑːlədeɪ" }, "noteZh": "美国人说 the holidays,指 12 月底圣诞、新年这一段节日;英式 holiday 也指“度假”,美式度假多说 vacation。" },
+    { "id": "en.christmas", "kind": "word", "pos": "propn", "text": "Christmas", "zh": "圣诞节", "features": { "ipa": "ˈkrɪsməs" }, "noteZh": "t 不发音:“CHRIS-mas”;首字母大写;for Christmas(过圣诞节)。" },
+    { "id": "en.stay", "kind": "word", "pos": "verb", "text": "stay", "zh": "留;待", "features": { "ipa": "steɪ" }, "noteZh": "stay here(留在这儿)/ stay in Seattle;st 之间不加元音,ay 读 /eɪ/。第 7 单元的 stay home 是“待在家里”。" },
+    { "id": "en.wedding", "kind": "word", "pos": "noun", "text": "wedding", "zh": "婚礼", "features": { "ipa": "ˈwedɪŋ" }, "noteZh": "w 开头双唇先收圆;my brother's wedding(我哥哥的婚礼)。" },
+    { "id": "en.winter_break", "kind": "phrase", "pos": "noun", "text": "winter break", "zh": "寒假", "features": { "ipa": "ˈwɪnt̬ɚ breɪk" }, "noteZh": "美国大学说 winter break,暑假是 summer break;break 的 ea 读 /eɪ/。" },
+    { "id": "en.only", "kind": "word", "pos": "adv", "text": "only", "zh": "只;仅仅", "features": { "ipa": "ˈoʊnli" }, "noteZh": "only a month(只有一个月);o 读 /oʊ/;放在要限定的词前面。" },
+    { "id": "en.month", "kind": "word", "pos": "noun", "text": "month", "zh": "月;一个月", "features": { "ipa": "mʌnθ" }, "noteZh": "o 读 /ʌ/;结尾 th /θ/ 舌尖轻咬;复数 months 不好读,口语里可以读成 “munts”。" },
+    { "id": "en.january", "kind": "word", "pos": "propn", "text": "January", "zh": "一月", "features": { "ipa": "ˈdʒænjueri" }, "noteZh": "重音在第一个音节 JAN-u-ary;月份首字母大写;in January(在一月)。" },
+    { "id": "en.beach", "kind": "word", "pos": "noun", "text": "beach", "zh": "海滩;海边", "features": { "ipa": "biːtʃ" }, "noteZh": "ea 读长音 /iː/,一定要拉长,短了会变成别的词;go to the beach(去海边)。" },
+    { "id": "en.invite", "kind": "word", "pos": "verb", "text": "invite", "zh": "邀请", "features": { "ipa": "ɪnˈvaɪt" }, "noteZh": "重音在后 in-VITE;Thanks for inviting us!(谢谢你邀请我们!)" }
+  ],
+  "reviewItems": ["en.plan", "en.ticket", "en.expensive", "en.going_to", "en.sounds_good"],
+  "lines": [
+    { "speaker": "amy", "text": "So, what are your plans for the holidays, you guys?", "zh": "(学期最后一周,学生中心)那么,你们假期有什么打算?", "items": ["en.plan", "en.holiday", "en.you_guys"] },
+    { "speaker": "ethan", "text": "I'm going to go home to LA for Christmas.", "zh": "我要回洛杉矶过圣诞。", "items": ["en.going_to", "en.go", "en.home", "en.christmas"] },
+    { "speaker": "sofia", "text": "I'm going to stay here. I was in Mexico for my brother's wedding.", "zh": "我留在这儿。前阵子为了哥哥的婚礼回过墨西哥了。", "items": ["en.going_to", "en.stay", "en.brother", "en.wedding"] },
+    { "speaker": "sofia", "text": "And the tickets are really expensive now.", "zh": "而且现在机票特别贵。", "items": ["en.ticket", "en.really", "en.expensive"] },
+    { "speaker": "amy", "text": "Me too. I'm going to stay here with my family.", "zh": "我也留在这儿,和家人一起过。", "items": ["en.me_too", "en.going_to", "en.stay", "en.family"] },
+    { "speaker": "ethan", "text": "What about you, Lei? Are you going to go home to Chengdu?", "zh": "你呢,磊?你要回成都吗?", "items": ["en.going_to", "en.go", "en.home"] },
+    { "speaker": "lei", "text": "I wanted to, but winter break is only a month.", "zh": "我本来想回,可是寒假只有一个月。", "items": ["en.want", "en.winter_break", "en.only", "en.month"] },
+    { "speaker": "lei", "text": "And the tickets are too expensive. So I'm going to stay here, too.", "zh": "而且机票太贵了。所以我也留在这儿。", "items": ["en.ticket", "en.too", "en.expensive", "en.going_to", "en.stay"] },
+    { "speaker": "ethan", "text": "Then come to LA! It's sunny and warm there.", "zh": "那就来洛杉矶!那儿又晴又暖和。", "items": ["en.then", "en.come", "en.sunny", "en.warm"] },
+    { "speaker": "sofia", "text": "Really? How warm is it in winter?", "zh": "真的?冬天有多暖和?", "items": ["en.really", "en.warm", "en.winter"] },
+    { "speaker": "ethan", "text": "About 70 degrees! Come in January. We can go to the beach!", "zh": "七十度左右!一月来吧,我们可以去海边!", "items": ["en.degree", "en.come", "en.january", "en.can", "en.go", "en.beach"] },
+    { "speaker": "lei", "text": "Sounds good! Thanks for inviting us, Ethan!", "zh": "好啊!谢谢你邀请我们,伊森!", "items": ["en.sounds_good", "en.thank_you", "en.invite"] }
+  ],
+  "questions": [
+    { "prompt": "伊森寒假打算做什么?", "options": ["留在西雅图", "回墨西哥", "回洛杉矶过圣诞节"], "answer": 2, "explainZh": "I'm going to go home to LA for Christmas.(我要回洛杉矶过圣诞。)" },
+    { "prompt": "磊本来想回成都,为什么不回了?", "options": ["寒假只有一个月,机票又太贵", "他要在咖啡馆上班", "他要去墨西哥参加婚礼"], "answer": 0, "explainZh": "I wanted to, but winter break is only a month. And the tickets are too expensive.(去墨西哥参加婚礼的是索菲亚,而且是之前的事。)" },
+    { "prompt": "伊森邀请大家什么时候去洛杉矶?", "options": ["圣诞节", "一月", "夏天"], "answer": 1, "explainZh": "Come in January. We can go to the beach!(一月来吧,我们可以去海边!)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.holiday_plans",
+      "titleZh": "用 be going to 说假期计划",
+      "bodyZh": "说已经打算好的假期安排,用 be going to + 动词原形(第 7 单元学过):I'm going to stay here. / He's going to go home to LA.。问别人:What are your plans for the holidays? / Are you going to go home?。美国大学的寒假叫 winter break;12 月底的节日(圣诞、新年等)统称 the holidays。问假期多长:How long is winter break? — About a month.。I wanted to(我本来想……)是 I wanted to go home 的省略,后面的动词前面说过就不用重复。发音:break 里的 ea 读 /eɪ/,和 great 一样,不要读成 /iː/。",
+      "examples": [
+        { "text": "What are your plans for the holidays?", "zh": "你假期有什么打算?" },
+        { "text": "How long is winter break? — About a month.", "zh": "寒假放多久?——一个月左右。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

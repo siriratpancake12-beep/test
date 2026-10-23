@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u15.l06", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115060,
+  "titleZh": "go to class 还是 go to the class?", "goalZh": "会用 go to class、go home、at home 这类不加冠词的固定说法", "canDoZh": "能用对 go to class、go home 这类不加冠词的固定说法,说清楚自己一天去哪儿",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.go_to_class", "kind": "phrase", "pos": "verb", "text": "go to class", "zh": "去上课", "features": { "ipa": "ˌɡoʊ tə ˈklæs" }, "noteZh": "class 前面不加 the:I'm going to class.;说的是\"去上课\"这件事,不是去某一间教室。" },
+    { "id": "en.go_to_work", "kind": "phrase", "pos": "verb", "text": "go to work", "zh": "去上班", "features": { "ipa": "ˌɡoʊ tə ˈwɝːk" }, "noteZh": "work 前不加 the,也不加 my:I go to work at two.;下班后说 after work。" },
+    { "id": "en.go_to_school", "kind": "phrase", "pos": "verb", "text": "go to school", "zh": "上学;去上学", "features": { "ipa": "ˌɡoʊ tə ˈskuːl" }, "noteZh": "美国人说上大学也常用 school:I go to school in Seattle. 我在西雅图上学。" },
+    { "id": "en.go_home", "kind": "phrase", "pos": "verb", "text": "go home", "zh": "回家", "features": { "ipa": "ˌɡoʊ ˈhoʊm" }, "noteZh": "home 前不加 to,中国学生最常说错成 go to home;住校的学生回宿舍也常说 go home。" },
+    { "id": "en.at_home", "kind": "phrase", "pos": "adv", "text": "at home", "zh": "在家", "features": { "ipa": "ət ˈhoʊm" }, "noteZh": "Are you at home? 你在家吗?;美国人口语也常说 I'm home.(我在家 / 我回来了)。" },
+    { "id": "en.at_work", "kind": "phrase", "pos": "adv", "text": "at work", "zh": "在上班", "features": { "ipa": "ət ˈwɝːk" }, "noteZh": "I'm at work. 我在上班,不说 at the work。" },
+    { "id": "en.at_school", "kind": "phrase", "pos": "adv", "text": "at school", "zh": "在学校(上课)", "features": { "ipa": "ət ˈskuːl" }, "noteZh": "at school 说的是在学校上课、学习;at the school 一般指在那栋楼、那个地方。" },
+    { "id": "en.awake", "kind": "word", "pos": "adj", "text": "awake", "zh": "醒着的", "features": { "ipa": "əˈweɪk" }, "noteZh": "Are you awake? 你醒着吗?;wake up 是\"醒来\"这个动作,awake 是醒着的状态;重音在后 a-WAKE。" }
+  ],
+  "reviewItems": ["en.go_to_bed", "en.back", "en.book", "en.after", "en.library", "en.always"],
+  "lines": [
+    { "speaker": "ethan", "text": "Lei? You're awake? Why do you go to school so early?", "zh": "(周一一大早)磊?你醒了?你干吗这么早去学校?", "items": ["en.awake", "en.go_to_school", "en.so", "en.early"] },
+    { "speaker": "lei", "text": "I'm going to class at nine. After class, I'm going to work.", "zh": "我九点有课。下了课我要去上班。", "items": ["en.go_to_class", "en.after", "en.class", "en.go_to_work"] },
+    { "speaker": "lei", "text": "Then I'm going to the library, and then home.", "zh": "然后去图书馆,再回家。", "items": ["en.then", "en.go", "en.library", "en.go_home"] },
+    { "speaker": "ethan", "text": "Wow, you're so busy. I'm going back to bed!", "zh": "哇,你也太忙了。我回去接着睡了!", "items": ["en.so", "en.busy", "en.back", "en.go_to_bed"] },
+    { "speaker": "sofia", "text": "Lei, are you at home? Ethan has my calculus book.", "zh": "(晚上,索菲亚发来消息)磊,你在家吗?我的微积分书在伊森那儿。", "items": ["en.at_home", "en.have", "en.calculus", "en.book"] },
+    { "speaker": "lei", "text": "No, I'm not at home. I'm at the library.", "zh": "不在,我不在家,在图书馆。", "items": ["en.at_home", "en.library"] },
+    { "speaker": "lei", "text": "But Ethan is at home. He's always at home!", "zh": "不过伊森在家。他总在家!", "items": ["en.at_home", "en.always"] },
+    { "speaker": "marcus", "text": "Lei, are you at work tomorrow?", "zh": "(周一下午在咖啡馆)磊,你明天上班吗?", "items": ["en.at_work", "en.tomorrow"] },
+    { "speaker": "lei", "text": "No. On Tuesdays, I'm at school all day.", "zh": "不上。我每周二一整天都在学校。", "items": ["en.tuesday", "en.at_school", "en.all_day"] },
+    { "speaker": "marcus", "text": "OK. See you next Monday, then!", "zh": "好。那下周一见!", "items": ["en.see", "en.next", "en.monday", "en.then"] }
+  ],
+  "questions": [
+    { "prompt": "周一早上,磊先去哪儿?", "options": ["去上班", "去上课", "去图书馆"], "answer": 1, "explainZh": "I'm going to class at nine. After class, I'm going to work.——先去上课,下课后去上班,然后去图书馆,最后回家。" },
+    { "prompt": "索菲亚发消息的时候,磊在哪儿?", "options": ["在家", "在咖啡馆", "在图书馆"], "answer": 2, "explainZh": "No, I'm not at home. I'm at the library.——磊在图书馆,在家的是伊森。" },
+    { "prompt": "磊周二去不去咖啡馆上班?", "options": ["不去,周二他一整天都在学校", "去,下午两点到六点", "不去,他周二在家休息"], "answer": 0, "explainZh": "No. On Tuesdays, I'm at school all day.——周二不上班,一整天都在学校。" }
+  ],
+  "grammar": [
+    { "id": "en.g.no_article_places", "titleZh": "go to class、go home:这些说法不加 the",
+      "bodyZh": "有些说法表示\"去做那件事\",名词前面不加 a / the:go to class(去上课)、go to school(上学)、go to work(去上班)、go to bed(去睡觉);人在那儿就说 at school、at work、at home。home 更特别:go home(回家)前面连 to 都不加,中国学生最常说错成 go to home。\n对比:去一个具体的地方要加 the——go to the library、go to the gym、go to the cafe、at the library。小窍门:想说的是\"做那件事\"(上课、上班、睡觉)就不加 the,想说的是\"那个地方\"就加 the。",
+      "examples": [
+        { "text": "I'm going to class. After class, I'm going to work.", "zh": "我去上课。下了课去上班。" },
+        { "text": "Then I'm going to the library, and then home.", "zh": "然后去图书馆,再回家。" },
+        { "text": "I'm not at home. I'm at the library.", "zh": "我不在家,我在图书馆。" },
+        { "text": "On Tuesdays, I'm at school all day.", "zh": "我每周二一整天都在学校。" }
+      ] },
+    { "id": "en.g.weak_to_the", "titleZh": "发音:to 和 the 在句子里弱读",
+      "bodyZh": "句子里的 to、the 一般不重读,读得又轻又快:to 读 /tə/,the 读 /ðə/(舌尖轻轻放在齿间,别读成 \"z\" 或 \"d\");the 在元音前常读 /ði/(the afternoon)。I'm going to class. 听起来像 \"I'm GO-ing tə CLASS\",重音落在 going 和 class 上。go home 里没有 to,别多加一个音。",
+      "examples": [
+        { "text": "I'm going to the library.", "zh": "我要去图书馆。(to 读 /tə/,the 读 /ðə/)" },
+        { "text": "Lei, are you at work tomorrow?", "zh": "磊,你明天上班吗?(at 也弱读 /ət/)" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u19.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-19 旅行准备", "order": 119030,
+  "titleZh": "必须、可以、应该:情态动词总复习", "goalZh": "分清六个情态动词的意思,会说必须做、可以做、应该做、想做和不许做的事", "canDoZh": "能用不同的情态动词说必须做、可以做、应该做、想做和不许做的事",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.mitfahren", "kind": "word", "pos": "verb", "text": "mitfahren", "zh": "一起(坐车)去", "features": { "ipa": "ˈmɪtˌfaːʁən" }, "noteZh": "可分动词:Paul darf mitfahren.(保罗可以一起去。)/ Fährst du mit?;变位跟 fahren:du fährst mit。完成时用 sein。" },
+    { "id": "de.erlauben", "kind": "word", "pos": "verb", "text": "erlauben", "zh": "允许;同意", "features": { "ipa": "ɛɐ̯ˈlaʊ̯bn̩" }, "noteZh": "Unsere Eltern erlauben es.(爸妈同意了。)er- 不可分,完成时 erlaubt;Das ist nicht erlaubt.(这是不允许的。)意思和 dürfen 相对:A erlaubt es → B darf es。" },
+    { "id": "de.mama", "kind": "word", "pos": "noun", "text": "die Mama", "zh": "妈妈", "features": { "gender": "f", "plural": "die Mamas", "ipa": "ˈmama" }, "noteZh": "口语叫法,孩子和家人之间用;正式说 die Mutter。爸爸是 der Papa。复数 die Mamas。" },
+    { "id": "de.ausgehen", "kind": "word", "pos": "verb", "text": "ausgehen", "zh": "(晚上)出去玩", "features": { "ipa": "ˈaʊ̯sˌɡeːən" }, "noteZh": "可分动词:Am Abend gehen wir aus.(晚上我们出去玩。)完成时用 sein:Wir sind ausgegangen.。" },
+    { "id": "de.buchen", "kind": "word", "pos": "verb", "text": "buchen", "zh": "预订(房间、车票、旅行)", "features": { "ipa": "ˈbuːxn̩" }, "noteZh": "Wir müssen früh buchen.(我们得早点订。)比 reservieren 更常用于付钱的预订;完成时 gebucht。u 是长音,ch 在 u 后读 [x]。" },
+    { "id": "de.sonst", "kind": "word", "pos": "adv", "text": "sonst", "zh": "不然;否则", "features": { "ipa": "zɔnst" }, "noteZh": "连接两句话:Wir müssen früh buchen, sonst ist alles teuer.(得早点订,不然什么都贵。)sonst 占第一位,后面动词在第二位。" },
+    { "id": "de.unbedingt", "kind": "word", "pos": "adv", "text": "unbedingt", "zh": "一定;无论如何", "features": { "ipa": "ˈʊnbəˌdɪŋt" }, "noteZh": "表示非常想做、一定要做:Ich will unbedingt den Leuchtturm sehen!(我一定要去看灯塔!)重音在 un 上。" },
+    { "id": "de.leuchtturm", "kind": "word", "pos": "noun", "text": "der Leuchtturm", "zh": "灯塔", "features": { "gender": "m", "plural": "die Leuchttürme", "ipa": "ˈlɔɪ̯çtˌtʊʁm" }, "noteZh": "leuchten(发光)+ der Turm(塔);Warnemünde 的灯塔就在海边,可以爬上去看海。eu 读 [ɔɪ̯];复数变音 die Leuchttürme。" },
+    { "id": "de.fischbroetchen", "kind": "word", "pos": "noun", "text": "das Fischbrötchen", "zh": "鱼面包(夹鱼的小面包)", "features": { "gender": "n", "plural": "die Fischbrötchen", "ipa": "ˈfɪʃˌbʁøːtçən" }, "noteZh": "der Fisch + das Brötchen:德国北部海边最有名的小吃,面包里夹鲱鱼或熏鱼、洋葱和酱;复数不变。" }
+  ],
+  "reviewItems": ["de.duerfen", "de.sollen", "de.jeder", "de.bleiben", "de.immer", "de.nachricht"],
+  "lines": [
+    { "speaker": "lena", "text": "Gute Nachricht: Paul darf mitfahren! Unsere Eltern erlauben es.", "zh": "(WG 里开“旅行会议”)好消息:保罗可以一起去!爸妈同意了。", "items": ["de.gut", "de.nachricht", "de.duerfen", "de.mitfahren", "de.unser", "de.eltern", "de.erlauben", "de.es"] },
+    { "speaker": "paul", "text": "Aber ich muss Mama jeden Abend anrufen.", "zh": "可是我每天晚上都得给妈妈打电话。", "items": ["de.aber", "de.ich", "de.muessen", "de.mama", "de.jeder", "de.abend", "de.anrufen"] },
+    { "speaker": "lena", "text": "Und am Abend darfst du nur mit uns ausgehen.", "zh": "而且晚上你只能跟我们一起出去玩。", "items": ["de.und", "de.am", "de.abend", "de.duerfen", "de.du", "de.nur", "de.mit", "de.wir", "de.ausgehen"] },
+    { "speaker": "paul", "text": "Ja, ja. Ich soll immer bei euch bleiben.", "zh": "知道啦。妈妈说,我得一直跟着你们。", "items": ["de.ja", "de.ich", "de.sollen", "de.immer", "de.bei", "de.ihr", "de.bleiben"] },
+    { "speaker": "sofia", "text": "Wir müssen früh buchen, sonst ist alles teuer.", "zh": "我们得早点订,不然什么都贵。", "items": ["de.wir", "de.muessen", "de.frueh", "de.buchen", "de.sonst", "de.sein", "de.alles", "de.teuer"] },
+    { "speaker": "wei", "text": "Soll ich die Jugendherberge buchen? Ich kann heute anrufen.", "zh": "要我来订青年旅舍吗?我今天就可以打电话。", "items": ["de.sollen", "de.ich", "de.jugendherberge", "de.buchen", "de.koennen", "de.heute", "de.anrufen"] },
+    { "speaker": "sofia", "text": "Ja, gern! Und was möchtest du in Warnemünde machen?", "zh": "好啊!那你到了瓦尔内明德想做什么?", "items": ["de.ja", "de.gern", "de.und", "de.was", "de.moechten", "de.du", "de.in", "de.machen"] },
+    { "speaker": "wei", "text": "Ich will unbedingt den Leuchtturm sehen!", "zh": "我一定要去看灯塔!", "items": ["de.ich", "de.wollen", "de.unbedingt", "de.leuchtturm", "de.sehen"] },
+    { "speaker": "paul", "text": "Und ich will jeden Tag Fischbrötchen essen!", "zh": "我要每天都吃鱼面包!", "items": ["de.und", "de.ich", "de.wollen", "de.jeder", "de.tag", "de.fischbroetchen", "de.essen"] },
+    { "speaker": "lena", "text": "Fischbrötchen darfst du jeden Tag essen. Aber Mama musst du anrufen!", "zh": "鱼面包你天天吃都行,可是妈妈的电话一定要打!", "items": ["de.fischbroetchen", "de.duerfen", "de.du", "de.jeder", "de.tag", "de.essen", "de.aber", "de.mama", "de.muessen", "de.anrufen"] }
+  ],
+  "questions": [
+    { "prompt": "保罗去旅行有什么条件?", "options": ["每天给姐姐做饭", "自己付所有的钱", "每天晚上给妈妈打电话,晚上只能跟大家一起出去"], "answer": 2, "explainZh": "Ich muss Mama jeden Abend anrufen.(我每天晚上得给妈妈打电话。)Am Abend darfst du nur mit uns ausgehen.(晚上你只能跟我们一起出去。)" },
+    { "prompt": "谁来订青年旅舍?", "options": ["索菲娅", "王伟", "莉娜"], "answer": 1, "explainZh": "王伟主动说:Soll ich die Jugendherberge buchen?(要我来订青年旅舍吗?)索菲娅说 Ja, gern!" },
+    { "prompt": "王伟到了瓦尔内明德一定要做什么?", "options": ["去看灯塔", "每天吃鱼面包", "去博物馆"], "answer": 0, "explainZh": "Ich will unbedingt den Leuchtturm sehen!(我一定要去看灯塔!)每天吃鱼面包的是保罗。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u19_modalverben", "titleZh": "六个情态动词:können、dürfen、müssen、sollen、wollen、möchten",
+      "bodyZh": "können:能、会、可以(有能力、有可能)—— Ich kann heute anrufen.\ndürfen:可以(被允许)—— Paul darf mitfahren.;否定 nicht dürfen = 不许。\nmüssen:必须 —— Ich muss Mama anrufen.;否定 nicht müssen = 不必。\nsollen:别人要我做(转述别人的要求)—— Ich soll immer bei euch bleiben.(妈妈要我一直跟着你们);问句 Soll ich …? = 要我……吗?(主动帮忙)—— Soll ich die Jugendherberge buchen?\nwollen:想要、打算(语气坚决)—— Ich will den Leuchtturm sehen.\nmöchten:想要(客气)—— Was möchtest du machen?\n句型都一样:情态动词变位放第二位,另一个动词用不定式放句末。ich 和 er / sie / es 的形式一样,没有词尾:ich kann – er kann,ich darf – er darf,ich muss – er muss,ich soll – er soll,ich will – er will。",
+      "examples": [
+        { "text": "Paul darf mitfahren.", "zh": "保罗可以一起去。" },
+        { "text": "Ich soll immer bei euch bleiben.", "zh": "(妈妈说)我得一直跟着你们。" },
+        { "text": "Soll ich die Jugendherberge buchen?", "zh": "要我来订青年旅舍吗?" },
+        { "text": "Ich will den Leuchtturm sehen.", "zh": "我想去看灯塔。" }
+      ] },
+    { "id": "de.g.u19_nicht_muessen_duerfen", "titleZh": "nicht müssen 和 nicht dürfen;sonst(不然)",
+      "bodyZh": "中国学生最容易混的一对:nicht müssen = 不必、不用(可以做,也可以不做):Du musst nicht mitfahren.(你不一定要去。)nicht dürfen = 不许、禁止:Du darfst am Abend nicht ohne uns ausgehen.(晚上你不许不跟我们就自己出去。)英语里也一样容易错:must not = 不许(= nicht dürfen),don't have to = 不必(= nicht müssen)。\n说“不然、否则”用 sonst,sonst 占第一位,后面的动词在第二位:Wir müssen früh buchen, sonst ist alles teuer.(得早点订,不然什么都贵。)\n家长同意用 erlauben:Unsere Eltern erlauben es.(爸妈同意了。)= Paul darf mitfahren.(保罗可以去。)",
+      "examples": [
+        { "text": "Du musst nicht mitfahren.", "zh": "你不一定要去。" },
+        { "text": "Du darfst nicht ohne uns ausgehen.", "zh": "你不许不跟我们就自己出去玩。" },
+        { "text": "Wir müssen früh buchen, sonst ist alles teuer.", "zh": "我们得早点订,不然什么都贵。" }
+      ] }
+  ],
+  "review": "draft"
+}

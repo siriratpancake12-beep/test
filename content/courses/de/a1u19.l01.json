@@ -1,0 +1,48 @@
+{
+  "id": "de.a1u19.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-19 旅行准备", "order": 119010,
+  "titleZh": "去哪儿玩?", "goalZh": "会和朋友商量去哪儿旅行、想做什么、住哪儿、花多少钱", "canDoZh": "能和朋友商量假期去哪儿、做什么、大概花多少钱",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.kunst", "kind": "word", "pos": "noun", "text": "die Kunst", "zh": "艺术;艺术品", "features": { "gender": "f", "plural": "die Künste", "ipa": "kʊnst" }, "noteZh": "Kunst 是不可数名词,复数 die Künste 很少用;博物馆、画展都和 Kunst 有关:Da gibt es viel Kunst.。u 是短元音。" },
+    { "id": "de.ostsee", "kind": "word", "pos": "noun", "text": "die Ostsee", "zh": "波罗的海", "features": { "gender": "f", "plural": "-", "ipa": "ˈɔstˌzeː" }, "noteZh": "德国北边的海:an die Ostsee fahren(去波罗的海),an der Ostsee(在波罗的海边);西北边的是北海 die Nordsee。Ost(东)+ die See(海),阴性。" },
+    { "id": "de.strand", "kind": "word", "pos": "noun", "text": "der Strand", "zh": "海滩;沙滩", "features": { "gender": "m", "plural": "die Strände", "ipa": "ʃtʁant" }, "noteZh": "am Strand liegen(躺在海滩上)、an den Strand gehen(去海滩);复数变音 die Strände;词尾 d 读 [t],st 在词首读 [ʃt]。" },
+    { "id": "de.baden", "kind": "word", "pos": "verb", "text": "baden", "zh": "(在海里、湖里)游泳;洗澡", "features": { "ipa": "ˈbaːdn̩" }, "noteZh": "夏天说 baden gehen 就是去海边、湖边游泳玩水;在家里 baden 是泡澡。a 是长音。" },
+    { "id": "de.meer", "kind": "word", "pos": "noun", "text": "das Meer", "zh": "海;大海", "features": { "gender": "n", "plural": "die Meere", "ipa": "meːɐ̯" }, "noteZh": "ans Meer fahren(去海边)、im Meer schwimmen(在海里游泳);复数 die Meere。ee 读长音 [eː]。也可以说 die See(北方常用)。" },
+    { "id": "de.uebernachten", "kind": "word", "pos": "verb", "text": "übernachten", "zh": "过夜;住(一晚)", "features": { "ipa": "ˌyːbɐˈnaxtn̩" }, "noteZh": "Wir übernachten in einer Jugendherberge.(我们住青年旅舍。)über- 在这里不可分、不重读,完成时 übernachtet;里面藏着 die Nacht(夜)。" },
+    { "id": "de.jugendherberge", "kind": "word", "pos": "noun", "text": "die Jugendherberge", "zh": "青年旅舍", "features": { "gender": "f", "plural": "die Jugendherbergen", "ipa": "ˈjuːɡn̩tˌhɛʁbɛʁɡə" }, "noteZh": "die Jugend(青年)+ die Herberge(旅店);德国到处都有,便宜、干净,常有多人间,学生和家庭都爱住。重音在 Ju 上。" },
+    { "id": "de.fahrt", "kind": "word", "pos": "noun", "text": "die Fahrt", "zh": "(乘车的)路程;旅程", "features": { "gender": "f", "plural": "die Fahrten", "ipa": "faːɐ̯t" }, "noteZh": "Wie lange dauert die Fahrt?(路上要多长时间?)来自 fahren;Gute Fahrt!(一路顺风!)里就是它。复数 die Fahrten。" },
+    { "id": "de.reisen", "kind": "word", "pos": "verb", "text": "reisen", "zh": "旅行", "features": { "ipa": "ˈʁaɪ̯zn̩" }, "noteZh": "Ich reise gern.(我喜欢旅行。)名词是 die Reise;完成时用 sein:Wir sind nach Hamburg gereist.。s 在元音之间读 [z]。" }
+  ],
+  "reviewItems": ["de.billig", "de.ungefaehr", "de.liegen", "de.fragen", "de.frei", "de.ferien"],
+  "lines": [
+    { "speaker": "lena", "text": "Nächste Woche haben wir Ferien! Wohin fahren wir zusammen?", "zh": "(学期最后一周,在大学食堂)下个星期就放假了!我们一起去哪儿玩?", "items": ["de.naechste", "de.woche", "de.haben", "de.wir", "de.ferien", "de.wohin", "de.fahren", "de.zusammen"] },
+    { "speaker": "sofia", "text": "Ich möchte nach Dresden. Da gibt es viele Museen und viel Kunst.", "zh": "我想去德累斯顿。那儿博物馆多,艺术品也多。", "items": ["de.ich", "de.moechten", "de.nach", "de.da", "de.es_gibt", "de.viel", "de.museum", "de.und", "de.kunst"] },
+    { "speaker": "lena", "text": "Museen im Juli? Ich will an die Ostsee! Am Strand liegen und baden!", "zh": "七月去看博物馆?我想去波罗的海!躺在沙滩上,下海游泳!", "items": ["de.museum", "de.in", "de.juli", "de.ich", "de.wollen", "de.an", "de.ostsee", "de.am", "de.strand", "de.liegen", "de.und", "de.baden"] },
+    { "speaker": "wei", "text": "In Chengdu gibt es kein Meer. Ich möchte auch ans Meer!", "zh": "成都没有海。我也想去海边!", "items": ["de.in", "de.es_gibt", "de.kein", "de.meer", "de.ich", "de.moechten", "de.auch", "de.an"] },
+    { "speaker": "wei", "text": "Aber die Reise muss billig sein. Ich habe nicht viel Geld.", "zh": "不过旅行得便宜一点,我钱不多。", "items": ["de.aber", "de.reise", "de.muessen", "de.billig", "de.sein", "de.ich", "de.haben", "de.nicht", "de.viel", "de.geld"] },
+    { "speaker": "lena", "text": "Dann fahren wir nach Warnemünde. Das liegt bei Rostock.", "zh": "那我们去瓦尔内明德吧,就在罗斯托克旁边。", "items": ["de.dann", "de.fahren", "de.wir", "de.nach", "de.liegen", "de.bei"] },
+    { "speaker": "lena", "text": "Wir übernachten in einer Jugendherberge. Das kostet nicht viel.", "zh": "我们住青年旅舍,花不了多少钱。", "items": ["de.wir", "de.uebernachten", "de.in", "de.ein", "de.jugendherberge", "de.kosten", "de.nicht", "de.viel"] },
+    { "speaker": "sofia", "text": "Toll! Wie lange dauert die Fahrt?", "zh": "太好了!路上要多长时间?", "items": ["de.toll", "de.wie_lange", "de.dauern", "de.fahrt"] },
+    { "speaker": "lena", "text": "Mit dem Zug ungefähr drei Stunden.", "zh": "坐火车大概三个小时。", "items": ["de.mit", "de.zug", "de.ungefaehr", "de.drei", "de.stunde"] },
+    { "speaker": "wei", "text": "Super! Ich reise gern mit euch. Aber im Juli muss ich auch arbeiten.", "zh": "太棒了!我很想跟你们一起去旅行。不过七月我也得打工。", "items": ["de.toll", "de.ich", "de.reisen", "de.gern", "de.mit", "de.ihr", "de.aber", "de.in", "de.juli", "de.muessen", "de.auch", "de.arbeiten"] },
+    { "speaker": "sofia", "text": "Vom 25. bis zum 28. Juli? Da habe ich frei.", "zh": "7 月 25 号到 28 号怎么样?那几天我也不上班。", "items": ["de.von", "de.fuenf", "de.zwanzig", "de.bis", "de.zu", "de.acht", "de.juli", "de.da", "de.haben", "de.ich", "de.frei"] },
+    { "speaker": "lena", "text": "Gut! Paul will auch mit uns fahren. Aber er muss noch unsere Eltern fragen.", "zh": "好!保罗也想跟我们一起去,不过他还得问问我们爸妈。", "items": ["de.gut", "de.wollen", "de.auch", "de.mit", "de.wir", "de.fahren", "de.aber", "de.er", "de.muessen", "de.noch", "de.unser", "de.eltern", "de.fragen"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅本来想去哪儿?", "options": ["德累斯顿", "波罗的海", "汉堡"], "answer": 0, "explainZh": "索菲娅说:Ich möchte nach Dresden. Da gibt es viele Museen und viel Kunst.(我想去德累斯顿,那儿博物馆多。)想去波罗的海的是莉娜。" },
+    { "prompt": "他们打算住在哪儿?", "options": ["酒店", "朋友家", "青年旅舍"], "answer": 2, "explainZh": "莉娜说:Wir übernachten in einer Jugendherberge. Das kostet nicht viel.(我们住青年旅舍,花不了多少钱。)" },
+    { "prompt": "保罗能不能一起去?", "options": ["不能,他要上课", "他想去,但还要问爸妈", "可以,爸妈已经同意了"], "answer": 1, "explainZh": "Paul will auch mit uns fahren. Aber er muss noch unsere Eltern fragen.(保罗也想去,不过还得问爸妈。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u19_wohin_moechten", "titleZh": "商量去哪儿:Ich möchte nach Dresden / Ich will an die Ostsee!",
+      "bodyZh": "说想去哪儿、想做什么,用情态动词,另一个动词的不定式放句末:Ich möchte nach Dresden fahren.(我想去德累斯顿。)Ich will im Meer baden.(我想在海里游泳。)口语里“去”(fahren)常常省掉:Ich möchte nach Dresden. / Ich will an die Ostsee!\nmöchten 比 wollen 客气;wollen 语气更坚决(“我就是想”),朋友之间说没问题。说条件用 müssen:Die Reise muss billig sein.(旅行得便宜。)/ Im Juli muss ich arbeiten.(七月我得打工。)\n去哪儿用的介词:城市、国家用 nach(nach Dresden, nach Warnemünde);去海边用 an + 第四格,先当固定说法记:an die Ostsee, ans Meer(= an das Meer)。问“去哪儿”用 Wohin?;说某地在哪儿可以用 liegen:Warnemünde liegt bei Rostock.(在罗斯托克旁边。)",
+      "examples": [
+        { "text": "Ich möchte nach Dresden.", "zh": "我想去德累斯顿。" },
+        { "text": "Ich will an die Ostsee!", "zh": "我想去波罗的海!" },
+        { "text": "Die Reise muss billig sein.", "zh": "旅行得便宜一点。" },
+        { "text": "Wohin fahren wir zusammen?", "zh": "我们一起去哪儿?" }
+      ] }
+  ],
+  "review": "draft"
+}

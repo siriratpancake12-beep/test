@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u15.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115040,
+  "titleZh": "去教授的答疑时间", "goalZh": "会在答疑时间说明自己哪里不懂,请老师解释、问怎么改进", "canDoZh": "能在老师的答疑时间说明自己哪里不懂,请老师解释和给建议",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.office_hours", "kind": "phrase", "pos": "noun", "text": "office hours", "zh": "(老师的)答疑时间", "features": { "ipa": "ˈɑːfɪs ˌaʊrz" }, "noteZh": "教授每周固定在办公室等学生来问问题的时间,一般不用预约,直接去就行;hours 的 h 不发音。" },
+    { "id": "en.explain", "kind": "word", "pos": "verb", "text": "explain", "zh": "解释;讲解", "features": { "ipa": "ɪkˈspleɪn" }, "noteZh": "重音在后 ex-PLAIN;Can you explain it? 能解释一下吗?;不说 explain me,要说 explain it to me。" },
+    { "id": "en.idea", "kind": "word", "pos": "noun", "text": "idea", "zh": "想法;主意", "features": { "ipa": "aɪˈdiːə" }, "noteZh": "三个音节 i-DE-a,重音在中间;Good idea! 好主意!" },
+    { "id": "en.grammar", "kind": "word", "pos": "noun", "text": "grammar", "zh": "语法", "features": { "ipa": "ˈɡræmɚ" }, "noteZh": "拼写结尾是 -ar,不是 -er;重音在前 GRAM-mar。" },
+    { "id": "en.problem", "kind": "word", "pos": "noun", "text": "problem", "zh": "问题;(练习)题", "features": { "ipa": "ˈprɑːbləm" }, "noteZh": "a grammar problem 语法问题;math problems 数学题;第二个音节读弱元音 /ə/(No problem 里学过)。" },
+    { "id": "en.tutor", "kind": "word", "pos": "noun", "text": "tutor", "zh": "辅导老师", "features": { "ipa": "ˈtuːt̬ɚ" }, "noteZh": "美国大学的写作中心、学习中心有免费的 tutor,常是研究生或高年级学生;美式 t 读得像轻快的 d。" },
+    { "id": "en.writing_center", "kind": "phrase", "pos": "noun", "text": "Writing Center", "zh": "写作中心", "features": { "ipa": "ˈraɪt̬ɪŋ ˌsentɚ" }, "noteZh": "美国大学里帮学生看文章、改文章的地方,一般免费;center 是美式拼写(英式 centre)。" },
+    { "id": "en.sentence", "kind": "word", "pos": "noun", "text": "sentence", "zh": "句子", "features": { "ipa": "ˈsentəns" }, "noteZh": "重音在前 SEN-tence,第二个音节读弱元音 /ə/;This sentence needs \"the.\" 这个句子要加 the。" }
+  ],
+  "reviewItems": ["en.professor", "en.understand", "en.mistake", "en.come_in", "en.open", "en.a_lot_of"],
+  "lines": [
+    { "speaker": "lei", "text": "Hi, Professor! Is this a good time?", "zh": "教授您好!现在方便吗?", "items": ["en.hi", "en.professor"] },
+    { "speaker": "professor", "text": "Sure, Lei. Come in!", "zh": "当然,磊。进来吧!", "items": ["en.sure", "en.come_in"] },
+    { "speaker": "lei", "text": "I don't understand my grade. Can you explain it?", "zh": "我不明白我为什么得这个成绩。您能解释一下吗?", "items": ["en.understand", "en.grade", "en.can", "en.explain"] },
+    { "speaker": "professor", "text": "Your ideas are great, but there are a lot of small mistakes.", "zh": "你的想法很好,可是小错误太多了。", "items": ["en.idea", "en.great", "en.a_lot_of", "en.small", "en.mistake"] },
+    { "speaker": "professor", "text": "Here's the big problem: \"a\" and \"the.\"", "zh": "最大的问题在这儿:a 和 the。", "items": ["en.big", "en.problem"] },
+    { "speaker": "professor", "text": "And this sentence needs an \"s\": two friends, not two friend.", "zh": "还有这个句子要加 s:是 two friends,不是 two friend。", "items": ["en.sentence", "en.need", "en.friend"] },
+    { "speaker": "lei", "text": "Oh no. Chinese grammar doesn't have \"a\" or \"the.\"", "zh": "哎呀。中文语法里没有 a 和 the。", "items": ["en.grammar", "en.have"] },
+    { "speaker": "lei", "text": "What can I do?", "zh": "我该怎么办?", "items": ["en.can"] },
+    { "speaker": "professor", "text": "Go to the Writing Center. The tutors there are great.", "zh": "去写作中心吧。那儿的辅导老师很棒。", "items": ["en.go", "en.writing_center", "en.tutor", "en.great"] },
+    { "speaker": "lei", "text": "OK! When is it open?", "zh": "好!写作中心什么时候开门?", "items": ["en.open"] },
+    { "speaker": "professor", "text": "From nine to five, Monday to Friday. And come to my office hours!", "zh": "周一到周五,九点到五点。也欢迎常来我的答疑时间!", "items": ["en.monday", "en.friday", "en.come", "en.office_hours"] },
+    { "speaker": "lei", "text": "Got it. Thank you, Professor!", "zh": "记住了。谢谢您,教授!", "items": ["en.got_it", "en.thank_you", "en.professor"] }
+  ],
+  "questions": [
+    { "prompt": "磊为什么去找教授?", "options": ["想换一门课", "不明白自己的成绩", "想晚几天交文章"], "answer": 1, "explainZh": "I don't understand my grade. Can you explain it?——磊不明白文章为什么只得了这个成绩。" },
+    { "prompt": "教授觉得磊的文章怎么样?", "options": ["想法很好,但小错误很多", "想法一般,语法很好", "没有什么问题"], "answer": 0, "explainZh": "Your ideas are great, but there are a lot of small mistakes.——but 后面才是重点:a / the 和名词的 -s 错得多。" },
+    { "prompt": "写作中心什么时候开门?", "options": ["每天九点到五点", "周一到周五,两点到六点", "周一到周五,九点到五点"], "answer": 2, "explainZh": "From nine to five, Monday to Friday.——周一到周五,九点到五点;两点到六点是磊上班的时间。" }
+  ],
+  "grammar": [
+    { "id": "en.g.office_hours_requests", "titleZh": "去答疑时间:说清哪里不懂,请老师解释",
+      "bodyZh": "去老师的答疑时间(office hours)一般不用预约。进门先问一句 Is this a good time?(现在方便吗?),然后直接说哪里不懂:I don't understand my grade.,再请老师解释:Can you explain it?——explain 后面直接跟要解释的东西;\"给我解释\"要说 explain it to me,不说 explain me。最后问怎么改进:What can I do?。比 Can you…? 更客气的说法是 Could you…?(第 12 单元),和老师说话用哪个都可以。",
+      "examples": [
+        { "text": "Is this a good time?", "zh": "现在方便吗?" },
+        { "text": "I don't understand my grade. Can you explain it?", "zh": "我不明白我的成绩。您能解释一下吗?" },
+        { "text": "What can I do?", "zh": "我该怎么办?" }
+      ] },
+    { "id": "en.g.feedback_but", "titleZh": "听老师的反馈:but 后面才是重点",
+      "bodyZh": "美国老师给反馈,常常先说优点,再用 but 转到问题上:Your ideas are great, but there are a lot of small mistakes.。听的时候要特别留意 but 后面的话,那才是要你改的地方。中文\"想法很好,就是……\"也是这个思路。说错处常用 a mistake(错误)、a problem(问题)、a grammar problem(语法问题)。\n发音:explain 重音在后 ex-PLAIN;idea 三个音节 i-DE-a;office hours 里 hours 的 h 不发音,和 office 连起来读,听起来像 \"of-fi-sours\"。",
+      "examples": [
+        { "text": "Your ideas are great, but there are a lot of small mistakes.", "zh": "你的想法很好,可是小错误太多了。" },
+        { "text": "Here's the big problem: \"a\" and \"the.\"", "zh": "最大的问题在这儿:a 和 the。" },
+        { "text": "Come to my office hours!", "zh": "常来我的答疑时间吧!" }
+      ] }
+  ],
+  "review": "draft"
+}

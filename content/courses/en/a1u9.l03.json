@@ -1,0 +1,57 @@
+{
+  "id": "en.a1u9.l03", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-9 Rain or shine", "order": 109030,
+  "titleZh": "30 度?那是热还是冷?", "goalZh": "会说温度,用 How + 形容词? 问有多冷、多热", "canDoZh": "能看懂美国天气预报里的华氏温度,大致换算成摄氏度,说出今天有多冷",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "en.look", "kind": "word", "pos": "verb", "text": "look", "zh": "看;瞧", "features": { "ipa": "lʊk" }, "noteZh": "Look!(你看!)用来让人注意;看某样东西要加 at:Look at the sky.;oo 读短音 /ʊ/,不要拉长成 “luke”。" },
+    { "id": "en.degree", "kind": "word", "pos": "noun", "text": "degree", "zh": "度(温度)", "features": { "ipa": "dɪˈɡriː" }, "noteZh": "重音在后 de-GREE;除了 1 度,都用复数 degrees:30 degrees。" },
+    { "id": "en.fahrenheit", "kind": "word", "pos": "noun", "text": "Fahrenheit", "zh": "华氏度", "features": { "ipa": "ˈferənhaɪt" }, "noteZh": "美国的天气预报用华氏度,写作 °F;重音在第一个音节,h 不发音,首字母大写。" },
+    { "id": "en.celsius", "kind": "word", "pos": "noun", "text": "Celsius", "zh": "摄氏度", "features": { "ipa": "ˈselsiəs" }, "noteZh": "中国用的温度,写作 °C;开头的 C 读 /s/,不读 /k/;很多美国人对摄氏度不熟,说温度时可以两种都说。" },
+    { "id": "en.use", "kind": "word", "pos": "verb", "text": "use", "zh": "用;使用", "features": { "ipa": "juːz" }, "noteZh": "动词 use 词尾是浊音 /z/(名词 use 读 /juːs/);We use Celsius in China.(我们中国用摄氏度。)" },
+    { "id": "en.minus", "kind": "word", "pos": "prep", "text": "minus", "zh": "零下;减去", "features": { "ipa": "ˈmaɪnəs" }, "noteZh": "minus five = 零下 5 度,也可以说 five below zero;算数时 70 minus 30 = 70 减 30。i 读 /aɪ/。" },
+    { "id": "en.below_zero", "kind": "phrase", "pos": "adv", "text": "below zero", "zh": "零度以下", "features": { "ipa": "bɪˌloʊ ˈzɪroʊ" }, "noteZh": "It's below zero.(零下了。)below 的 ow 读 /oʊ/;zero 美式读 /ˈzɪroʊ/,z 要带声。" },
+    { "id": "en.freezing", "kind": "word", "pos": "adj", "text": "freezing", "zh": "冷极了;冰冷的", "features": { "ipa": "ˈfriːzɪŋ" }, "noteZh": "It's freezing!(冻死了!)比 It's cold. 冷得多,口语很常用;f 上齿轻咬下唇,zz 之后的 ing 要带鼻音 /ŋ/。" },
+    { "id": "en.temperature", "kind": "word", "pos": "noun", "text": "temperature", "zh": "温度;气温", "features": { "ipa": "ˈtempɚətʃɚ" }, "noteZh": "口语里常读成三个音节 “TEM-pra-cher”;What's the temperature?(现在多少度?)" }
+  ],
+  "reviewItems": ["en.warm", "en.jacket", "en.sweater", "en.no_way", "en.sometimes"],
+  "lines": [
+    { "speaker": "lei", "text": "Look, it's 30 degrees today. Great, it's warm!", "zh": "(磊看着手机,穿着薄外套就要出门)你看,今天 30 度。太好了,挺暖和!", "items": ["en.look", "en.degree", "en.today", "en.great", "en.warm"] },
+    { "speaker": "ethan", "text": "Warm? No way, man! That's 30 degrees Fahrenheit.", "zh": "暖和?开什么玩笑,哥们!那是华氏 30 度。", "items": ["en.warm", "en.no_way", "en.degree", "en.fahrenheit"] },
+    { "speaker": "lei", "text": "Fahrenheit? In China, we use Celsius. How cold is it?", "zh": "华氏?我们中国用摄氏度。那到底有多冷?", "items": ["en.fahrenheit", "en.use", "en.celsius", "en.cold"] },
+    { "speaker": "ethan", "text": "About minus one. It's below zero!", "zh": "零下一度左右。在零度以下!", "items": ["en.minus", "en.below_zero"] },
+    { "speaker": "lei", "text": "Minus one? Oh no! My jacket isn't very warm.", "zh": "零下一度?糟了!我这件外套不怎么暖和。", "items": ["en.minus", "en.jacket", "en.warm"] },
+    { "speaker": "ethan", "text": "Wear a sweater, too. It's freezing outside!", "zh": "再穿件毛衣。外面冻死了!", "items": ["en.wear", "en.sweater", "en.freezing", "en.outside"] },
+    { "speaker": "lei", "text": "OK. What's the temperature in LA right now?", "zh": "好吧。洛杉矶现在多少度?", "items": ["en.temperature", "en.right_now"] },
+    { "speaker": "ethan", "text": "It's 70 degrees at home today. Sunny and warm!", "zh": "我家那边今天 70 度。又晴又暖和!", "items": ["en.degree", "en.home", "en.today", "en.sunny", "en.warm"] },
+    { "speaker": "lei", "text": "So about 21 Celsius. How hot is it in summer?", "zh": "那就是摄氏 21 度左右。夏天有多热?", "items": ["en.celsius", "en.hot", "en.summer"] },
+    { "speaker": "ethan", "text": "About 85 degrees. Sometimes 100!", "zh": "85 度左右。有时候能到 100 度!", "items": ["en.degree", "en.sometimes"] }
+  ],
+  "questions": [
+    { "prompt": "伊森为什么说 30 度一点也不暖和?", "options": ["那是摄氏 30 度", "那是华氏 30 度,大约零下一度", "那是洛杉矶的温度"], "answer": 1, "explainZh": "That's 30 degrees Fahrenheit. —— About minus one. It's below zero!(华氏 30 度大约是零下一度。)" },
+    { "prompt": "伊森让磊怎么办?", "options": ["别出门了", "换一件外套", "再穿一件毛衣"], "answer": 2, "explainZh": "Wear a sweater, too. It's freezing outside!(再穿件毛衣,外面冻死了。)" },
+    { "prompt": "洛杉矶今天天气怎么样?", "options": ["华氏 70 度,又晴又暖和", "零下一度,很冷", "华氏 100 度,很热"], "answer": 0, "explainZh": "It's 70 degrees at home today. Sunny and warm!(100 度是伊森说的洛杉矶夏天有时会到的温度。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.temperature",
+      "titleZh": "温度的说法:degrees、minus、below zero",
+      "bodyZh": "美国天气预报用华氏度(Fahrenheit,°F),中国用摄氏度(Celsius,°C)。说温度:It's 30 degrees.,除了 1 度,degree 都用复数 degrees;零下用 minus:It's minus five.(零下 5 度),也可以说 It's five below zero.;零度以下统称 below zero。大致换算:华氏度减 30 再除以 2,约等于摄氏度(70 → 20 左右,30 → 0 左右,误差一两度)。几个好记的点:32 °F = 0 °C(结冰),50 °F = 10 °C,70 °F ≈ 21 °C(很舒服),100 °F ≈ 38 °C(很热)。发音:degree 重音在后 de-GREE;Fahrenheit 重音在前 /ˈferənhaɪt/。",
+      "examples": [
+        { "text": "It's minus one. It's below zero.", "zh": "零下一度,在零度以下。" },
+        { "text": "It's 70 degrees Fahrenheit. That's warm!", "zh": "华氏 70 度,挺暖和的!" },
+        { "text": "What's the temperature in LA? — It's 70 degrees.", "zh": "洛杉矶多少度?——70 度。" }
+      ]
+    },
+    {
+      "id": "en.g.how_adj",
+      "titleZh": "How + 形容词?:How cold is it?",
+      "bodyZh": "问“有多冷、多热”用 How + 形容词 + is it?:How cold is it? / How hot is it in summer?。回答直接说温度,常加 about(大约):It's about minus one.,口语里也可以只说 About minus one.。学过的 How old…?、How long…?、How much…? 都是这个结构:how 后面紧跟形容词或副词,中间不能拆开(不说 How is it cold?)。中文说“有多冷”,英语不用 have。",
+      "examples": [
+        { "text": "How cold is it? — About minus one.", "zh": "有多冷?——零下一度左右。" },
+        { "text": "How hot is it in Chengdu in summer?", "zh": "成都夏天有多热?" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

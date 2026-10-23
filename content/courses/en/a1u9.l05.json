@@ -1,0 +1,50 @@
+{
+  "id": "en.a1u9.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 Rain or shine", "order": 109050,
+  "titleZh": "穿暖和点!", "goalZh": "会说冬天的衣物,分清 wear(穿着)和 put on(穿上)", "canDoZh": "能根据天气说出门要穿什么、带什么,提醒朋友多穿一点",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "en.ready", "kind": "word", "pos": "adj", "text": "ready", "zh": "准备好的", "features": { "ipa": "ˈredi" }, "noteZh": "Ready to go?(准备好出门了吗?)是 Are you ready to go? 的口语省略;ea 读短音 /e/。" },
+    { "id": "en.thin", "kind": "word", "pos": "adj", "text": "thin", "zh": "薄的;瘦的", "features": { "ipa": "θɪn" }, "noteZh": "th 是清音 /θ/,舌尖轻轻咬住再送气,不要读成 sin 或 fin;a thin jacket(薄外套)。" },
+    { "id": "en.put_on", "kind": "phrase", "pos": "verb", "text": "put on", "zh": "穿上;戴上", "features": { "ipa": "ˌpʊt ˈɑːn" }, "noteZh": "说“穿上、戴上”这个动作;wear 是“穿着”的状态。连读成 “pu-ton”;代词要放中间:put it on。" },
+    { "id": "en.coat", "kind": "word", "pos": "noun", "text": "coat", "zh": "(厚)外套;大衣", "features": { "ipa": "koʊt" }, "noteZh": "比 jacket 长、厚,冬天穿;oa 读 /oʊ/,要滑完整;词尾 t 收住。" },
+    { "id": "en.hat", "kind": "word", "pos": "noun", "text": "hat", "zh": "帽子", "features": { "ipa": "hæt" }, "noteZh": "a 读 /æ/,嘴张大;冬天的毛线帽美国人也叫 hat。" },
+    { "id": "en.gloves", "kind": "word", "pos": "noun", "text": "gloves", "zh": "手套", "features": { "ipa": "ɡlʌvz" }, "noteZh": "手套一般说复数 gloves;o 读 /ʌ/;词尾 v 和 z 都要带声,不要读成“格拉夫斯”。" },
+    { "id": "en.boots", "kind": "word", "pos": "noun", "text": "boots", "zh": "靴子", "features": { "ipa": "buːts" }, "noteZh": "靴子一般说复数 boots;oo 读长音 /uː/;词尾 ts 像“次”但不带元音。" },
+    { "id": "en.umbrella", "kind": "word", "pos": "noun", "text": "umbrella", "zh": "伞", "features": { "ipa": "ʌmˈbrelə" }, "noteZh": "重音在中间 um-BREL-la;以元音开头,说 an umbrella;很多西雅图人下雨天不打伞,穿带帽兜的外套。" },
+    { "id": "en.hood", "kind": "word", "pos": "noun", "text": "hood", "zh": "(衣服上的)帽兜", "features": { "ipa": "hʊd" }, "noteZh": "oo 读短音 /ʊ/,和 good 押韵;a jacket with a hood(带帽兜的外套)。" }
+  ],
+  "reviewItems": ["en.jacket", "en.wear", "en.shoes", "en.need", "en.whats_wrong_with_it", "en.freezing"],
+  "lines": [
+    { "speaker": "amy", "text": "Ready to go? Wait, Lei! Is that your jacket?", "zh": "(雪后的周六,两人准备去市中心)准备好了吗?等等,磊!你就穿这件外套?", "items": ["en.ready", "en.go", "en.wait", "en.jacket"] },
+    { "speaker": "lei", "text": "Yes. What's wrong with it?", "zh": "对啊。它怎么了?", "items": ["en.whats_wrong_with_it"] },
+    { "speaker": "amy", "text": "It's so thin! It's freezing today.", "zh": "太薄了!今天冷得要命。", "items": ["en.so", "en.thin", "en.freezing", "en.today"] },
+    { "speaker": "amy", "text": "Put on your warm jacket. And where's your hat?", "zh": "把你那件暖和的外套穿上。还有,你的帽子呢?", "items": ["en.put_on", "en.warm", "en.jacket", "en.hat"] },
+    { "speaker": "lei", "text": "I don't have a hat. Or gloves.", "zh": "我没有帽子,也没有手套。", "items": ["en.have", "en.hat", "en.gloves"] },
+    { "speaker": "amy", "text": "No hat? No gloves? And you're wearing shoes. You need boots!", "zh": "没帽子?没手套?你还穿着普通的鞋。你得穿靴子!", "items": ["en.hat", "en.gloves", "en.wear", "en.shoes", "en.need", "en.boots"] },
+    { "speaker": "lei", "text": "I don't have boots. But I have an umbrella!", "zh": "我没有靴子。不过我有伞!", "items": ["en.have", "en.boots", "en.umbrella"] },
+    { "speaker": "amy", "text": "An umbrella? People here don't really use umbrellas.", "zh": "伞?这儿的人其实不怎么打伞。", "items": ["en.umbrella", "en.people", "en.really", "en.use"] },
+    { "speaker": "lei", "text": "Really? So what do people wear in the rain?", "zh": "真的?那下雨天大家穿什么?", "items": ["en.really", "en.people", "en.wear", "en.rain"] },
+    { "speaker": "amy", "text": "A rain jacket or a coat with a hood. Look at my coat!", "zh": "防雨外套,或者带帽兜的大衣。你看我这件!", "items": ["en.rain", "en.jacket", "en.coat", "en.hood", "en.look"] },
+    { "speaker": "lei", "text": "Cool! OK, I'm going to put on my warm jacket.", "zh": "酷!好吧,我去把那件暖和的外套穿上。", "items": ["en.cool", "en.going_to", "en.put_on", "en.warm", "en.jacket"] },
+    { "speaker": "amy", "text": "Good. And let's buy a hat and gloves first!", "zh": "好。我们先去买一顶帽子和一副手套!", "items": ["en.lets", "en.buy", "en.hat", "en.gloves", "en.first"] }
+  ],
+  "questions": [
+    { "prompt": "艾米为什么让磊换外套?", "options": ["这件颜色不好看", "这件太薄了,今天特别冷", "这件太大了"], "answer": 1, "explainZh": "It's so thin! It's freezing today.(太薄了,今天冷得要命。)" },
+    { "prompt": "艾米说西雅图人下雨天一般怎么做?", "options": ["打伞", "待在家里", "穿防雨外套或带帽兜的大衣"], "answer": 2, "explainZh": "People here don't really use umbrellas. …… A rain jacket or a coat with a hood.(这儿的人不怎么打伞,穿防雨外套或带帽兜的大衣。)" },
+    { "prompt": "两人出门后先做什么?", "options": ["去买帽子和手套", "去买靴子", "回宿舍拿伞"], "answer": 0, "explainZh": "let's buy a hat and gloves first!(先去买帽子和手套。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.wear_put_on",
+      "titleZh": "wear 和 put on:“穿着”和“穿上”",
+      "bodyZh": "wear 说的是状态——身上穿着、戴着:You're wearing shoes.(你穿的是普通的鞋。)put on 说的是动作——把衣服穿上、把帽子戴上:Put on your warm jacket!(把你那件暖和的外套穿上!)中文“穿”“戴”分得很细(穿外套、戴帽子、戴手套),英语不分,衣服、帽子、手套都用 wear / put on。put on 后面可以直接跟衣服(put on your hat),也可以把衣服放在中间(put your hat on);如果是代词,只能放中间:put it on(第 6 单元的 try it on 也是这样)。说“需要什么”复习第 4 单元的 need + 名词:You need boots.;umbrella 以元音开头,前面用 an。",
+      "examples": [
+        { "text": "Put on your warm jacket. It's freezing!", "zh": "把暖和的外套穿上,冷得要命!" },
+        { "text": "People here wear coats with hoods.", "zh": "这儿的人穿带帽兜的大衣。" },
+        { "text": "You're wearing shoes. You need boots!", "zh": "你穿的是普通的鞋,你得穿靴子!" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "en.a1u15.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115045,
+  "titleZh": "写作课教学大纲(节选)", "goalZh": "读懂课程大纲的几个固定栏目,找到时间、百分比和截止日期", "canDoZh": "能看懂一份课程大纲:老师的答疑时间、成绩组成、作业截止日期和课堂规定",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 16.5,
+  "newItems": [
+    { "id": "en.rule", "kind": "word", "pos": "noun", "text": "rule", "zh": "规定;规矩", "features": { "ipa": "ruːl" }, "noteZh": "class rules 课堂规定;r 开头嘴唇先收圆,结尾 l 舌尖抬起来。" },
+    { "id": "en.copy", "kind": "word", "pos": "verb", "text": "copy", "zh": "抄;抄袭;复制", "features": { "ipa": "ˈkɑːpi" }, "noteZh": "美国学校很看重学术诚信,抄同学的或网上的文章后果很严重;o 读 /ɑː/。" },
+    { "id": "en.read", "kind": "word", "pos": "verb", "text": "read", "zh": "读;看(书、文章)", "features": { "ipa": "riːd" }, "noteZh": "看书、看文章用 read,不用 see 或 watch;过去式也写 read,但读 /red/。" }
+  ],
+  "reviewItems": ["en.office_hours", "en.write", "en.on_time", "en.percent_off", "en.other", "en.welcome"],
+  "lines": [
+    { "speaker": "professor", "text": "Writing 2: Syllabus", "zh": "(写作 2 的教学大纲第一页,教授写的)写作 2:教学大纲", "items": ["en.writing", "en.syllabus"] },
+    { "speaker": "professor", "text": "Office hours: Thursdays, 2:00 to 4:00, Room 214", "zh": "答疑时间:每周四,两点到四点,214 室", "items": ["en.office_hours", "en.thursday", "en.room"] },
+    { "speaker": "professor", "text": "You can also write me an email any time.", "zh": "你们也可以随时给我写邮件。", "items": ["en.can", "en.write", "en.email"] },
+    { "speaker": "professor", "text": "Your grade: three essays, 40 percent; participation, 10 percent", "zh": "成绩组成:三篇文章,40%;课堂参与,10%", "items": ["en.grade", "en.essay", "en.percent", "en.participation"] },
+    { "speaker": "professor", "text": "Midterm, 20 percent; final, 30 percent", "zh": "期中考试,20%;期末考试,30%", "items": ["en.midterm", "en.percent", "en.final"] },
+    { "speaker": "professor", "text": "Essay 1 is due on Friday, Week 4.", "zh": "第一篇文章第 4 周的周五交。", "items": ["en.essay", "en.due", "en.friday", "en.week"] },
+    { "speaker": "professor", "text": "Essay 2 is due on Friday, Week 8.", "zh": "第二篇文章第 8 周的周五交。", "items": ["en.essay", "en.due", "en.friday", "en.week"] },
+    { "speaker": "professor", "text": "Essay 3 is due on Friday, Week 12.", "zh": "第三篇文章第 12 周的周五交。", "items": ["en.essay", "en.due", "en.friday", "en.week"] },
+    { "speaker": "professor", "text": "Class rules", "zh": "课堂规定", "items": ["en.class", "en.rule"] },
+    { "speaker": "professor", "text": "Please read the syllabus and come to every class on time.", "zh": "请读一遍大纲,每节课都按时来。", "items": ["en.read", "en.syllabus", "en.come", "en.class", "en.on_time"] },
+    { "speaker": "professor", "text": "Late essays: 10 percent off for every day late.", "zh": "晚交的文章:每晚一天扣 10%。", "items": ["en.late", "en.essay", "en.percent_off"] },
+    { "speaker": "professor", "text": "Don't copy other people's essays.", "zh": "不要抄别人的文章。", "items": ["en.copy", "en.other", "en.people", "en.essay"] },
+    { "speaker": "professor", "text": "Writing is hard, but you can do it. Welcome to the class!", "zh": "写作不容易,但你们能做到。欢迎来上这门课!", "items": ["en.writing", "en.hard", "en.can", "en.welcome", "en.class"] },
+    { "speaker": "professor", "text": "Questions? Come to my office hours. I want to meet you all!", "zh": "有问题?来我的答疑时间吧。我想认识你们每一个人!", "items": ["en.question", "en.come", "en.office_hours", "en.want", "en.meet"] }
+  ],
+  "questions": [
+    { "prompt": "教授的答疑时间是什么时候?", "options": ["每周三,两点到四点", "每周四,两点到四点", "每周四,四点到六点"], "answer": 1, "explainZh": "Office hours: Thursdays, 2:00 to 4:00, Room 214——每周四两点到四点,在 214 室。" },
+    { "prompt": "第二篇文章哪天交?", "options": ["第 4 周的周五", "第 12 周的周五", "第 8 周的周四", "第 8 周的周五"], "answer": 3, "explainZh": "Essay 2 is due on Friday, Week 8.——第 8 周的周五。" },
+    { "prompt": "一篇文章晚交两天,要扣多少?", "options": ["20%", "10%", "40%"], "answer": 0, "explainZh": "Late essays: 10 percent off for every day late.——每晚一天扣 10%,晚两天就扣 20%。" },
+    { "prompt": "下面哪一条是大纲里的课堂规定?", "options": ["晚交不扣分", "期中考试占 30%", "不能抄别人的文章", "只能在答疑时间问问题"], "answer": 2, "explainZh": "Don't copy other people's essays.——不能抄别人的文章。期中占 20%;有问题也可以随时写邮件(write me an email any time)。" }
+  ],
+  "grammar": [
+    { "id": "en.g.reading_a_syllabus", "titleZh": "读大纲:先看栏目,再找数字和星期",
+      "bodyZh": "教学大纲像一份说明书,按栏目排:Office hours(答疑时间)、Your grade(成绩组成)、due 后面的截止日期、Class rules(课堂规定)。先看栏目名,再找数字和星期。规定多用祈使句:Please come to every class on time. / Don't copy other people's essays.;允许做的事用 can:You can write me an email any time.。美国大学常按\"第几周\"安排作业:Essay 1 is due on Friday, Week 4.(第 4 周的周五交)。大纲用的是一般现在时,因为这些规定整个学期都不变。",
+      "examples": [
+        { "text": "Essay 2 is due on Friday, Week 8.", "zh": "第二篇文章第 8 周的周五交。" },
+        { "text": "Don't copy other people's essays.", "zh": "不要抄别人的文章。" },
+        { "text": "You can write me an email any time.", "zh": "你们可以随时给我写邮件。" }
+      ] }
+  ],
+  "review": "draft"
+}

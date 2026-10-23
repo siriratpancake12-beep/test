@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u19.l02", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-19 旅行准备", "order": 119020,
+  "titleZh": "行李清单", "goalZh": "会说海边旅行常带的东西,会问要不要带、提醒别人别忘了带", "canDoZh": "能说出旅行常用的东西,列一张行李清单",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.badehose", "kind": "word", "pos": "noun", "text": "die Badehose", "zh": "(男式)泳裤", "features": { "gender": "f", "plural": "die Badehosen", "ipa": "ˈbaːdəˌhoːzə" }, "noteZh": "baden(游泳)+ die Hose(裤子);女式泳衣是 der Badeanzug。复数 die Badehosen。" },
+    { "id": "de.badetuch", "kind": "word", "pos": "noun", "text": "das Badetuch", "zh": "浴巾;沙滩巾", "features": { "gender": "n", "plural": "die Badetücher", "ipa": "ˈbaːdəˌtuːx" }, "noteZh": "baden + das Tuch(布);比普通毛巾大,去海边、游泳馆都要带。复数变音 die Badetücher。" },
+    { "id": "de.hut", "kind": "word", "pos": "noun", "text": "der Hut", "zh": "帽子(有帽檐的)", "features": { "gender": "m", "plural": "die Hüte", "ipa": "huːt" }, "noteZh": "海边、夏天戴的遮阳帽可以说 Hut 或 Sonnenhut;冬天的毛线帽是 die Mütze。复数变音 die Hüte;u 读长音。" },
+    { "id": "de.sonnenbrille", "kind": "word", "pos": "noun", "text": "die Sonnenbrille", "zh": "太阳镜;墨镜", "features": { "gender": "f", "plural": "die Sonnenbrillen", "ipa": "ˈzɔnənˌbʁɪlə" }, "noteZh": "die Sonne + die Brille(眼镜);复数 die Sonnenbrillen。中间的 -n- 是连接音。" },
+    { "id": "de.regenschirm", "kind": "word", "pos": "noun", "text": "der Regenschirm", "zh": "雨伞", "features": { "gender": "m", "plural": "die Regenschirme", "ipa": "ˈʁeːɡn̩ˌʃɪʁm" }, "noteZh": "der Regen + der Schirm(伞);复数 die Regenschirme。海边风大,伞容易被吹坏,很多人穿雨衣(die Regenjacke)。" },
+    { "id": "de.ladegeraet", "kind": "word", "pos": "noun", "text": "das Ladegerät", "zh": "充电器", "features": { "gender": "n", "plural": "die Ladegeräte", "ipa": "ˈlaːdəɡəˌʁɛːt" }, "noteZh": "laden(充电)+ das Gerät(器具);复数 die Ladegeräte。手机、相机都要带上。ä 读长音 [ɛː]。" },
+    { "id": "de.hausschuh", "kind": "word", "pos": "noun", "text": "der Hausschuh", "zh": "拖鞋;家里穿的鞋", "features": { "gender": "m", "plural": "die Hausschuhe", "ipa": "ˈhaʊ̯sˌʃuː" }, "noteZh": "das Haus + der Schuh;一般说复数 die Hausschuhe(一双拖鞋)。德国人进家门常换 Hausschuhe,青年旅舍也要自己带。" },
+    { "id": "de.packen", "kind": "word", "pos": "verb", "text": "packen", "zh": "收拾(行李);装", "features": { "ipa": "ˈpakn̩" }, "noteZh": "Ich packe heute Abend.(我今晚收拾行李。)Hast du schon gepackt?(你行李收拾好了吗?)规则变化;ck 前的 a 是短元音。" },
+    { "id": "de.praktisch", "kind": "word", "pos": "adj", "text": "praktisch", "zh": "实用的;方便的", "features": { "ipa": "ˈpʁaktɪʃ" }, "noteZh": "Der Rucksack ist klein und praktisch.(双肩包小,又方便。)重音在 prak 上;和英语 practical 是一家。" }
+  ],
+  "reviewItems": ["de.rucksack", "de.vergessen", "de.tasche", "de.mitbringen", "de.kaputt", "de.schnell"],
+  "lines": [
+    { "speaker": "wei", "text": "Sofia, das ist meine erste Reise ans Meer in Deutschland. Was muss ich mitbringen?", "zh": "索菲娅,这是我在德国第一次去海边。我要带什么?", "items": ["de.das_ist", "de.mein", "de.eins", "de.reise", "de.an", "de.meer", "de.in", "de.deutschland", "de.was", "de.muessen", "de.ich", "de.mitbringen"] },
+    { "speaker": "sofia", "text": "Deine Badehose, ein Badetuch und einen Hut. Die Sonne am Meer ist sehr heiß.", "zh": "泳裤、浴巾,还有一顶帽子。海边的太阳很晒。", "items": ["de.dein", "de.badehose", "de.ein", "de.badetuch", "de.und", "de.hut", "de.sonne", "de.am", "de.meer", "de.sein", "de.sehr", "de.heiss"] },
+    { "speaker": "wei", "text": "Ich habe keine Sonnenbrille. Brauche ich eine?", "zh": "我没有太阳镜。需要带吗?", "items": ["de.ich", "de.haben", "de.kein", "de.sonnenbrille", "de.brauchen", "de.ein"] },
+    { "speaker": "sofia", "text": "Ja! Und deine Regenjacke. An der Ostsee regnet es oft.", "zh": "要!还有雨衣。波罗的海边常下雨。", "items": ["de.ja", "de.und", "de.dein", "de.regen", "de.jacke", "de.an", "de.ostsee", "de.regnen", "de.es", "de.oft"] },
+    { "speaker": "wei", "text": "Einen Regenschirm brauche ich nicht, oder?", "zh": "雨伞就不用带了吧?", "items": ["de.ein", "de.regenschirm", "de.brauchen", "de.ich", "de.nicht", "de.oder"] },
+    { "speaker": "sofia", "text": "Nein, am Meer ist der Regenschirm schnell kaputt!", "zh": "不用,在海边雨伞一下子就被吹坏了!", "items": ["de.nein", "de.am", "de.meer", "de.sein", "de.regenschirm", "de.schnell", "de.kaputt"] },
+    { "speaker": "sofia", "text": "Und vergiss dein Ladegerät nicht! In der Jugendherberge brauchst du auch Hausschuhe.", "zh": "别忘了充电器!在青年旅舍还要穿拖鞋。", "items": ["de.und", "de.vergessen", "de.dein", "de.ladegeraet", "de.nicht", "de.in", "de.jugendherberge", "de.brauchen", "de.du", "de.auch", "de.hausschuh"] },
+    { "speaker": "wei", "text": "Meine Tasche ist zu groß und zu schwer für vier Tage.", "zh": "我的包太大太重了,去四天用不着。", "items": ["de.mein", "de.tasche", "de.sein", "de.zu_adv", "de.gross", "de.und", "de.schwer", "de.fuer", "de.vier", "de.tag"] },
+    { "speaker": "sofia", "text": "Dann nimm deinen Rucksack. Der ist klein und praktisch.", "zh": "那就带你的双肩包吧,又小又方便。", "items": ["de.dann", "de.nehmen", "de.dein", "de.rucksack", "de.sein", "de.klein", "de.und", "de.praktisch"] },
+    { "speaker": "wei", "text": "Gut, ich packe heute Abend. Danke, Sofia!", "zh": "好,我今天晚上就收拾。谢谢你,索菲娅!", "items": ["de.gut", "de.ich", "de.packen", "de.heute", "de.abend", "de.danke"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅为什么让王伟带帽子?", "options": ["海边的太阳很晒", "青年旅舍要求戴帽子", "北边很冷"], "answer": 0, "explainZh": "Die Sonne am Meer ist sehr heiß.(海边的太阳很晒。)" },
+    { "prompt": "为什么不用带雨伞?", "options": ["波罗的海边从来不下雨", "在海边雨伞很快就会坏", "王伟有两把伞"], "answer": 1, "explainZh": "索菲娅说:Nein, am Meer ist der Regenschirm schnell kaputt!(在海边雨伞一下子就坏了。)所以要带雨衣。" },
+    { "prompt": "王伟最后用什么装行李?", "options": ["双肩包", "他的大包", "索菲娅的箱子"], "answer": 0, "explainZh": "王伟的包太大太重,索菲娅说:Dann nimm deinen Rucksack. Der ist klein und praktisch.(那就带双肩包,又小又方便。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u19_mitbringen_imperativ", "titleZh": "收拾行李:Was muss ich mitbringen? / Nimm deinen Rucksack! / Vergiss … nicht!",
+      "bodyZh": "问要带什么:Was muss ich mitbringen?——mitbringen 是可分动词,和情态动词一起用时不分开、放句末;单独用时前缀 mit 放句末:Ich bringe ein Badetuch mit.。\n给朋友提建议用 du 的命令式:nehmen → Nimm deinen Rucksack!(e 变 i 的动词,命令式也变)/ vergessen → Vergiss dein Ladegerät nicht!(nicht 放句末)/ packen → Pack heute Abend!。\n宾语用第四格:der Rucksack → deinen Rucksack,der Hut → einen Hut;das Ladegerät → dein Ladegerät(中性不变)。",
+      "examples": [
+        { "text": "Was muss ich mitbringen?", "zh": "我要带什么?" },
+        { "text": "Nimm deinen Rucksack!", "zh": "带上你的双肩包!" },
+        { "text": "Vergiss dein Ladegerät nicht!", "zh": "别忘了充电器!" }
+      ] },
+    { "id": "de.g.u19_brauchen_kein", "titleZh": "Brauche ich eine Sonnenbrille? – Ja, du brauchst eine. / Nein, keine.",
+      "bodyZh": "问要不要某样东西:brauchen + 第四格:Brauche ich eine Sonnenbrille?;回答时名词可以省掉,只说 eine / keine(阴性)、einen / keinen(阳性)、eins / keins(中性):Ja, du brauchst eine. / Nein, keinen.。\n否定名词用 kein:Ich habe keine Sonnenbrille.;把宾语放句首、用 nicht 否定整句也可以:Einen Regenschirm brauche ich nicht.(雨伞我不需要。)\n用复合词记东西:die Badehose = baden + die Hose,das Badetuch = baden + das Tuch,die Sonnenbrille = die Sonne + die Brille(眼镜),die Regenjacke = der Regen + die Jacke。性跟最后一个词。",
+      "examples": [
+        { "text": "Brauche ich eine Sonnenbrille?", "zh": "我需要太阳镜吗?" },
+        { "text": "Ich habe keine Sonnenbrille.", "zh": "我没有太阳镜。" },
+        { "text": "Einen Regenschirm brauche ich nicht.", "zh": "雨伞我不需要。" }
+      ] }
+  ],
+  "review": "draft"
+}

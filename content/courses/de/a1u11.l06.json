@@ -16,7 +16,7 @@
   "reviewItems": ["de.abwaschen", "de.dran", "de.nacht", "de.idee", "de.voll"],
   "lines": [
     { "speaker": "sofia", "text": "Die Spüle ist schon wieder voll! Alles ist schmutzig!", "zh": "水槽又堆满了!全都是脏的!", "items": ["de.spuele", "de.sein", "de.schon", "de.wieder", "de.voll", "de.alles", "de.schmutzig"] },
-    { "speaker": "sofia", "text": "Wei, du bist dran. Machst du heute nicht den Abwasch?", "zh": "王伟,这周轮到你了。你今天不洗碗吗?", "items": ["de.du", "de.sein", "de.dran", "de.machen", "de.heute", "de.nicht", "de.abwasch"] },
+    { "speaker": "sofia", "text": "Wei, du bist dran. Machst du heute nicht den Abwasch?", "zh": "王伟,轮到你了。你今天不洗碗吗?", "items": ["de.du", "de.sein", "de.dran", "de.machen", "de.heute", "de.nicht", "de.abwasch"] },
     { "speaker": "wei", "text": "Doch! Aber das ist nicht mein Geschirr.", "zh": "洗啊!可这不是我的碗盘。", "items": ["de.doch", "de.aber", "de.das_ist", "de.nicht", "de.mein", "de.geschirr"] },
     { "speaker": "sofia", "text": "Nicht dein Geschirr? Und wer hat gestern gekocht?", "zh": "不是你的?那昨天是谁做的饭?", "items": ["de.nicht", "de.dein", "de.geschirr", "de.und", "de.wer", "de.haben", "de.gestern", "de.kochen"] },
     { "speaker": "wei", "text": "Ich nicht! Ich war gestern bis zehn in der Bibliothek.", "zh": "不是我!我昨天在图书馆待到十点。", "items": ["de.ich", "de.nicht", "de.sein", "de.gestern", "de.bis", "de.zehn", "de.in", "de.bibliothek"] },

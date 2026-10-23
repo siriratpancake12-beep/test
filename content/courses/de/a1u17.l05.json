@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u17.l05", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117050,
+  "titleZh": "骑车游柏林", "goalZh": "会说自行车各部分和骑车常用的词,检查自行车、问还有多远", "canDoZh": "能说出自行车各部分和骑车常用的词,计划一条骑车路线",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.bremse", "kind": "word", "pos": "noun", "text": "die Bremse", "zh": "刹车;车闸", "features": { "gender": "f", "plural": "die Bremsen", "ipa": "ˈbʁɛmzə" }, "noteZh": "Die Bremsen funktionieren.(车闸好使。)动词是 bremsen(刹车)。" },
+    { "id": "de.reifen", "kind": "word", "pos": "noun", "text": "der Reifen", "zh": "轮胎;车胎", "features": { "gender": "m", "plural": "die Reifen", "ipa": "ˈʁaɪ̯fn̩" }, "noteZh": "Der Reifen ist platt.(车胎瘪了。)单复数同形;ei 读 [aɪ̯]。" },
+    { "id": "de.platt", "kind": "word", "pos": "adj", "text": "platt", "zh": "(车胎)瘪的;扁平的", "features": { "ipa": "plat" }, "noteZh": "车胎没气了说 Der Reifen ist platt.;口语里 platt 也指“累瘫了”。" },
+    { "id": "de.aufpumpen", "kind": "word", "pos": "verb", "text": "aufpumpen", "zh": "打气;充气", "features": { "ipa": "ˈaʊ̯fˌpʊmpn̩" }, "noteZh": "可分动词:Wir müssen den Reifen aufpumpen.(得给车胎打气。)/ Ich pumpe ihn auf.;打气筒是 die Pumpe。" },
+    { "id": "de.pumpe", "kind": "word", "pos": "noun", "text": "die Pumpe", "zh": "打气筒;泵", "features": { "gender": "f", "plural": "die Pumpen", "ipa": "ˈpʊmpə" }, "noteZh": "die Fahrradpumpe(自行车打气筒);u 是短音。" },
+    { "id": "de.helm", "kind": "word", "pos": "noun", "text": "der Helm", "zh": "头盔", "features": { "gender": "m", "plural": "die Helme", "ipa": "hɛlm" }, "noteZh": "der Fahrradhelm(自行车头盔);在德国骑车不强制戴头盔,但很多人都戴。" },
+    { "id": "de.radweg", "kind": "word", "pos": "noun", "text": "der Radweg", "zh": "自行车道", "features": { "gender": "m", "plural": "die Radwege", "ipa": "ˈʁaːtˌveːk" }, "noteZh": "das Rad + der Weg(路);在德国骑车要走 Radweg,不能走人行道;词尾 g 读 [k]。" },
+    { "id": "de.absteigen", "kind": "word", "pos": "verb", "text": "absteigen", "zh": "(从车上)下来", "features": { "ipa": "ˈapˌʃtaɪ̯ɡn̩" }, "noteZh": "可分动词:Hier steigen wir ab.(我们在这儿下车。)反义 aufsteigen(上车);下公交、地铁用 aussteigen(第 6 单元)。" },
+    { "id": "de.mauer", "kind": "word", "pos": "noun", "text": "die Mauer", "zh": "墙;围墙", "features": { "gender": "f", "plural": "die Mauern", "ipa": "ˈmaʊ̯ɐ" }, "noteZh": "die Mauer 常指柏林墙(1961–1989);der Mauerweg 是沿着柏林墙旧址修的骑车道;房间的墙一般说 die Wand。" },
+    { "id": "de.geschichte", "kind": "word", "pos": "noun", "text": "die Geschichte", "zh": "历史;故事", "features": { "gender": "f", "plural": "die Geschichten", "ipa": "ɡəˈʃɪçtə" }, "noteZh": "So viel Geschichte!(这么多历史!)也指“故事”:eine Geschichte erzählen;ch 在 i 后读 [ç]。" }
+  ],
+  "reviewItems": ["de.rad", "de.funktionieren", "de.kilometer", "de.frueher", "de.immer"],
+  "lines": [
+    { "speaker": "jonas", "text": "Heute ist es nicht so heiß. Wir fahren Rad, am Mauerweg!", "zh": "(星期天)今天没那么热。我们去骑车,沿着柏林墙骑车道!", "items": ["de.heute", "de.sein", "de.es", "de.nicht", "de.so", "de.heiss", "de.wir", "de.fahren", "de.rad", "de.am"] },
+    { "speaker": "wei", "text": "Gut! Aber mein Fahrrad ist alt.", "zh": "好!不过我的自行车很旧。", "items": ["de.gut", "de.aber", "de.mein", "de.fahrrad", "de.sein", "de.alt"] },
+    { "speaker": "jonas", "text": "Zeig mal! Die Bremsen funktionieren. Die Lampe auch.", "zh": "我看看!车闸好使,车灯也好使。", "items": ["de.zeigen", "de.mal", "de.bremse", "de.funktionieren", "de.lampe", "de.auch"] },
+    { "speaker": "jonas", "text": "Aber der Reifen ist platt. Wir müssen ihn aufpumpen.", "zh": "不过车胎瘪了,得打打气。", "items": ["de.aber", "de.reifen", "de.sein", "de.platt", "de.wir", "de.muessen", "de.ihn", "de.aufpumpen"] },
+    { "speaker": "wei", "text": "Haben wir eine Pumpe?", "zh": "我们有打气筒吗?", "items": ["de.haben", "de.wir", "de.ein", "de.pumpe"] },
+    { "speaker": "jonas", "text": "Ja, hier. Und hier ist ein Helm für dich.", "zh": "有,在这儿。还有个头盔给你。", "items": ["de.ja", "de.hier", "de.und", "de.sein", "de.ein", "de.helm", "de.fuer", "de.dich"] },
+    { "speaker": "wei", "text": "Entschuldigung, wie weit ist es noch bis zur Bernauer Straße?", "zh": "(路上)打扰一下,到伯瑙尔大街还有多远?", "items": ["de.entschuldigung", "de.wie", "de.weit", "de.sein", "de.es", "de.noch", "de.bis", "de.zu", "de.strasse"] },
+    { "speaker": "passant", "text": "Noch drei Kilometer. Fahren Sie immer geradeaus auf dem Radweg.", "zh": "还有三公里。沿着自行车道一直往前骑。", "items": ["de.noch", "de.drei", "de.kilometer", "de.fahren", "de.sie_hoeflich", "de.immer", "de.geradeaus", "de.auf", "de.radweg"] },
+    { "speaker": "jonas", "text": "Hier steigen wir ab. Hier war früher die Mauer.", "zh": "(在柏林墙纪念地)我们在这儿下车。以前柏林墙就在这儿。", "items": ["de.hier", "de.absteigen", "de.wir", "de.sein", "de.frueher", "de.mauer"] },
+    { "speaker": "wei", "text": "So viel Geschichte! Und heute fahren wir hier Rad.", "zh": "这么多历史!现在我们在这儿骑车。", "items": ["de.so", "de.viel", "de.geschichte", "de.und", "de.heute", "de.fahren", "de.wir", "de.hier", "de.rad"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的自行车有什么问题?", "options": ["车闸坏了", "车胎瘪了", "车灯不亮"], "answer": 1, "explainZh": "约纳斯说:Die Bremsen funktionieren. Die Lampe auch. Aber der Reifen ist platt.(车闸、车灯都好使,可是车胎瘪了。)" },
+    { "prompt": "到伯瑙尔大街还有多远?", "options": ["三公里", "十公里", "三百米"], "answer": 0, "explainZh": "路人说:Noch drei Kilometer.(还有三公里。)" },
+    { "prompt": "他们在哪儿下了车?", "options": ["在湖边", "在公园里", "以前柏林墙所在的地方"], "answer": 2, "explainZh": "约纳斯说:Hier steigen wir ab. Hier war früher die Mauer.(我们在这儿下车。以前柏林墙就在这儿。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_fahrrad", "titleZh": "检查自行车:funktionieren、kaputt、platt",
+      "bodyZh": "检查东西好不好用:Die Bremsen funktionieren.(车闸好使。)/ Die Lampe ist kaputt.(车灯坏了。)/ Der Reifen ist platt.(车胎瘪了。)——设备“好用”用 funktionieren,“坏了”用 kaputt(第 3 单元学过),车胎没气说 platt。\n复合词:das Fahrrad = fahren + das Rad,口语常说 das Rad:Rad fahren(骑车);der Radweg = das Rad + der Weg(自行车道)。\n在德国骑车要走自行车道,晚上要开车灯。",
+      "examples": [
+        { "text": "Die Bremsen funktionieren.", "zh": "车闸好使。" },
+        { "text": "Der Reifen ist platt.", "zh": "车胎瘪了。" },
+        { "text": "Wir fahren Rad.", "zh": "我们去骑车。" }
+      ] },
+    { "id": "de.g.u17_wie_weit", "titleZh": "可分动词 aufpumpen、absteigen;问还有多远",
+      "bodyZh": "aufpumpen(打气)和 absteigen(下车)是可分动词:Hier steigen wir ab.(前缀放句末)/ Wir müssen ihn aufpumpen.(和情态动词一起用时,原形放句末,不分开)。\n问还有多远:Wie weit ist es noch bis zur Bernauer Straße?(到伯瑙尔大街还有多远?)——bis zur = bis zu der。\n回答:Noch drei Kilometer.(还有三公里。)/ Fahren Sie immer geradeaus.(一直往前骑。)\n柏林墙(die Mauer)1961 年建起、1989 年倒下,Bernauer Straße 有柏林墙纪念地。",
+      "examples": [
+        { "text": "Wir müssen ihn aufpumpen.", "zh": "我们得给它打气。" },
+        { "text": "Hier steigen wir ab.", "zh": "我们在这儿下车。" },
+        { "text": "Wie weit ist es noch?", "zh": "还有多远?" }
+      ] }
+  ],
+  "review": "draft"
+}

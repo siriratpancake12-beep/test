@@ -1,0 +1,56 @@
+{
+  "id": "en.a1u9.l06", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-9 Rain or shine", "order": 109060,
+  "titleZh": "四点半天就黑了", "goalZh": "会用 get + 形容词说天色、天气和人的变化", "canDoZh": "能说天色和天气的变化,比如“天黑了”“天变冷了”,比较冬天和夏天白天的长短",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.get", "kind": "word", "pos": "verb", "text": "get", "zh": "变得;得到;买", "features": { "ipa": "ɡet" }, "noteZh": "get + 形容词表示变化:It gets dark.(天黑了)/ I get tired.(我会累);也常表示“得到、买”:I got this for you.;过去式 got。" },
+    { "id": "en.until", "kind": "word", "pos": "prep", "text": "until", "zh": "直到……(为止)", "features": { "ipa": "ənˈtɪl" }, "noteZh": "not … until 表示“直到……才”:It doesn't get dark until nine.(要到九点才天黑);重音在后 un-TIL。" },
+    { "id": "en.still", "kind": "word", "pos": "adv", "text": "still", "zh": "还;仍然", "features": { "ipa": "stɪl" }, "noteZh": "It's still dark.(天还黑着);st 之间不加元音,词尾 l 舌尖顶住上齿龈。" },
+    { "id": "en.sad", "kind": "word", "pos": "adj", "text": "sad", "zh": "难过的", "features": { "ipa": "sæd" }, "noteZh": "a 读 /æ/,嘴张大,和 said /sed/ 不同;get sad(难过起来、心情变差)。" },
+    { "id": "en.sleepy", "kind": "word", "pos": "adj", "text": "sleepy", "zh": "困的;想睡觉的", "features": { "ipa": "ˈsliːpi" }, "noteZh": "sleep + y;“困”说 sleepy,“累”说 tired;ee 读长音 /iː/。" },
+    { "id": "en.exercise", "kind": "word", "pos": "verb", "text": "exercise", "zh": "锻炼;运动", "features": { "ipa": "ˈeksɚsaɪz" }, "noteZh": "重音在第一个音节 EX-er-cise;意思和第 3 单元的 work out 差不多,exercise 用得更广。" },
+    { "id": "en.sun", "kind": "word", "pos": "noun", "text": "sun", "zh": "太阳;阳光", "features": { "ipa": "sʌn" }, "noteZh": "u 读 /ʌ/,和 son(儿子)同音;in the sun(在阳光下)。" },
+    { "id": "en.happy", "kind": "word", "pos": "adj", "text": "happy", "zh": "高兴的;快乐的", "features": { "ipa": "ˈhæpi" }, "noteZh": "a 读 /æ/,嘴张大;祝福语 Happy holidays! / Happy New Year! 里都有它。" }
+  ],
+  "reviewItems": ["en.dark", "en.oclock", "en.tired", "en.get_up", "en.after"],
+  "lines": [
+    { "speaker": "lei", "text": "It's six o'clock, and it's so dark!", "zh": "(六点下班,两人走出咖啡馆)才六点,天就这么黑了!", "items": ["en.oclock", "en.so", "en.dark"] },
+    { "speaker": "marcus", "text": "Yes. In winter, it gets dark at 4:30 here.", "zh": "是啊。这儿冬天四点半天就黑了。", "items": ["en.winter", "en.get", "en.dark"] },
+    { "speaker": "lei", "text": "Wow. In Chengdu, it gets dark after six.", "zh": "哇。成都要六点以后才天黑。", "items": ["en.get", "en.dark", "en.after"] },
+    { "speaker": "marcus", "text": "And in summer, it doesn't get dark until nine!", "zh": "夏天这儿要到九点才天黑!", "items": ["en.summer", "en.get", "en.dark", "en.until"] },
+    { "speaker": "lei", "text": "I get up at seven, and it's still dark!", "zh": "我七点起床,天还黑着呢!", "items": ["en.get_up", "en.still", "en.dark"] },
+    { "speaker": "marcus", "text": "It's getting cold, too. A lot of people get sad in winter.", "zh": "天也越来越冷了。很多人一到冬天心情就不好。", "items": ["en.get", "en.cold", "en.a_lot_of", "en.people", "en.sad", "en.winter"] },
+    { "speaker": "lei", "text": "Me too. I get tired and sleepy at eight!", "zh": "我也是。我晚上八点就又累又困!", "items": ["en.me_too", "en.get", "en.tired", "en.sleepy"] },
+    { "speaker": "marcus", "text": "So go outside and exercise. It's good for you.", "zh": "那就多出门、多运动。对你有好处。", "items": ["en.go", "en.outside", "en.exercise"] },
+    { "speaker": "lei", "text": "OK! Do you like winter here?", "zh": "好!你喜欢这儿的冬天吗?", "items": ["en.like", "en.winter"] },
+    { "speaker": "marcus", "text": "Not really. I love summer: sun every day, and people are happy!", "zh": "不太喜欢。我爱夏天:天天有太阳,大家都很开心!", "items": ["en.really", "en.love", "en.summer", "en.sun", "en.every_day", "en.people", "en.happy"] }
+  ],
+  "questions": [
+    { "prompt": "西雅图冬天几点天黑?", "options": ["六点以后", "九点", "四点半"], "answer": 2, "explainZh": "In winter, it gets dark at 4:30 here.(六点以后天黑的是成都;九点才黑的是西雅图的夏天。)" },
+    { "prompt": "马库斯说冬天很多人会怎么样?", "options": ["睡得更多", "心情变差", "不爱吃饭"], "answer": 1, "explainZh": "A lot of people get sad in winter.(很多人一到冬天心情就不好。)" },
+    { "prompt": "马库斯给磊什么建议?", "options": ["多出门运动", "早点睡觉", "多喝咖啡"], "answer": 0, "explainZh": "So go outside and exercise. It's good for you.(那就多出门、多运动,对你有好处。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.get_adj",
+      "titleZh": "get + 形容词:表示“变得……”",
+      "bodyZh": "get + 形容词表示状态的变化,相当于中文的“变得……”“……了”:It gets dark at 4:30.(四点半天就黑了。)I get tired.(我会累。)说“正在变”用现在进行时:It's getting cold.(天冷起来了。)说经常这样用一般现在时,第三人称别忘了加 -s:It gets dark. / People get sad.。也可以说 It becomes dark.,意思没错,但口语里 get 自然得多。第 8 单元学过的 get better(好起来)就是这个用法。",
+      "examples": [
+        { "text": "In winter, it gets dark at 4:30.", "zh": "冬天四点半天就黑了。" },
+        { "text": "It's getting cold.", "zh": "天冷起来了。" },
+        { "text": "I get tired and sleepy in winter.", "zh": "冬天我容易又累又困。" }
+      ]
+    },
+    {
+      "id": "en.g.it_uses",
+      "titleZh": "it 的几种用法:时间、天气天色、距离",
+      "bodyZh": "英语里很多句子用 it 当形式上的主语,这个 it 不指任何东西:说时间 It's six o'clock.;说天气、天色 It's cold. / It's dark.;说距离 It's far. / It's close.。中文这些句子常常没有主语(“六点了”“天黑了”“挺远的”),英语一定要补上 it。发音:dark /dɑːrk/ 美式要卷舌,不要读成“达克”。",
+      "examples": [
+        { "text": "It's six o'clock, and it's dark.", "zh": "六点了,天黑了。" },
+        { "text": "Is it far? — No, it's close.", "zh": "远吗?——不远,很近。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

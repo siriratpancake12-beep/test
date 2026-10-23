@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u11.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111085,
+  "titleZh": "WG 群聊:霍夫曼先生要来", "goalZh": "读懂室友之间的群聊消息,找出谁做什么、什么时候做", "canDoZh": "能读懂室友之间的群聊消息,找出谁做什么、什么时候做",
+  "skills": ["read", "write"], "estimatedMinutes": 16.5,
+  "newItems": [
+    { "id": "de.vorbeikommen", "kind": "word", "pos": "verb", "text": "vorbeikommen", "zh": "顺路来;过来坐坐", "features": { "ipa": "foːɐ̯ˈbaɪ̯ˌkɔmən" }, "noteZh": "可分:Herr Hoffmann kommt am Sonntag vorbei.(霍夫曼先生星期天过来坐坐);vorbei = 经过;重音在 bei。" },
+    { "id": "de.ausschlafen", "kind": "word", "pos": "verb", "text": "ausschlafen", "zh": "睡懒觉;睡个够", "features": { "ipa": "ˈaʊ̯sˌʃlaːfn̩" }, "noteZh": "可分、不规则:Am Samstag schlafe ich aus. / Er schläft aus.;周末睡懒觉就说 ausschlafen。" },
+    { "id": "de.wecker", "kind": "word", "pos": "noun", "text": "der Wecker", "zh": "闹钟", "features": { "gender": "m", "plural": "die Wecker", "ipa": "ˈvɛkɐ" }, "noteZh": "wecken(叫醒)+ -er;den Wecker stellen(定闹钟);复数不变。" }
+  ],
+  "reviewItems": ["de.vergessen", "de.doch", "de.rausbringen", "de.nachmittag", "de.staubsaugen"],
+  "lines": [
+    { "speaker": "sofia", "text": "Hallo, ihr zwei! Am Sonntag um 15 Uhr kommt Herr Hoffmann vorbei.", "zh": "嗨,你们俩!星期天下午 3 点霍夫曼先生要过来坐坐。", "items": ["de.hallo", "de.ihr", "de.zwei", "de.am", "de.sonntag", "de.um", "de.fuenf", "de.zehn", "de.uhr", "de.vorbeikommen", "de.herr"] },
+    { "speaker": "sofia", "text": "Wir trinken zusammen Kaffee. Können wir am Samstag zusammen putzen?", "zh": "我们一起喝咖啡。星期六我们能一起打扫一下吗?", "items": ["de.wir", "de.trinken", "de.zusammen", "de.kaffee", "de.koennen", "de.am", "de.samstag", "de.putzen"] },
+    { "speaker": "jonas", "text": "Samstag? Am Vormittag schlafe ich aus!", "zh": "星期六?上午我要睡懒觉!", "items": ["de.samstag", "de.am", "de.vormittag", "de.ausschlafen", "de.ich"] },
+    { "speaker": "jonas", "text": "Aber am Nachmittag kann ich das Bad putzen.", "zh": "不过下午我可以打扫浴室。", "items": ["de.aber", "de.am", "de.nachmittag", "de.koennen", "de.ich", "de.bad", "de.putzen"] },
+    { "speaker": "wei", "text": "Ich mache die Küche und bringe den Müll raus.", "zh": "我负责厨房,再把垃圾拿出去。", "items": ["de.ich", "de.machen", "de.kueche", "de.und", "de.rausbringen", "de.muell"] },
+    { "speaker": "wei", "text": "Und am Sonntag kaufe ich in der Bäckerei einen Kuchen.", "zh": "星期天我再去面包店买个蛋糕。", "items": ["de.und", "de.am", "de.sonntag", "de.kaufen", "de.ich", "de.in", "de.baeckerei", "de.ein", "de.kuchen"] },
+    { "speaker": "jonas", "text": "Kuchen? Hast du das Bad vergessen? Ist das deine Strafe?", "zh": "蛋糕?你忘了打扫浴室吗?这是你的惩罚?", "items": ["de.kuchen", "de.haben", "de.du", "de.bad", "de.vergessen", "de.sein", "de.dein", "de.strafe"] },
+    { "speaker": "wei", "text": "Nein! Der Kuchen ist für Herrn Hoffmann.", "zh": "才不是!蛋糕是给霍夫曼先生的。", "items": ["de.nein", "de.kuchen", "de.sein", "de.fuer", "de.herr"] },
+    { "speaker": "jonas", "text": "Und Sofia? Putzt du nicht?", "zh": "那索菲娅呢?你不打扫吗?", "items": ["de.und", "de.putzen", "de.du", "de.nicht"] },
+    { "speaker": "sofia", "text": "Doch! Ich arbeite bis 16 Uhr. Dann putze ich die Fenster und staubsauge.", "zh": "打扫啊!我上班到 16 点,然后擦窗户、吸尘。", "items": ["de.doch", "de.ich", "de.arbeiten", "de.bis", "de.sechzehn", "de.uhr", "de.dann", "de.putzen", "de.fenster", "de.und", "de.staubsaugen"] },
+    { "speaker": "sofia", "text": "Super, danke! Wei, vergiss den Kuchen nicht!", "zh": "太好了,谢谢!王伟,别忘了蛋糕!", "items": ["de.toll", "de.danke", "de.vergessen", "de.kuchen", "de.nicht"] },
+    { "speaker": "wei", "text": "Mache ich! Und Jonas, vergiss den Wecker nicht!", "zh": "好嘞!约纳斯,别忘了定闹钟!", "items": ["de.machen", "de.ich", "de.und", "de.vergessen", "de.wecker", "de.nicht"] },
+    { "speaker": "jonas", "text": "Ja, ja. Bis Samstag!", "zh": "知道啦。星期六见!", "items": ["de.ja", "de.bis", "de.samstag"] }
+  ],
+  "questions": [
+    { "prompt": "霍夫曼先生什么时候来?", "options": ["星期六上午", "星期天下午 3 点", "星期五晚上"], "answer": 1, "explainZh": "索菲娅写:Am Sonntag um 15 Uhr kommt Herr Hoffmann vorbei.(星期天下午 3 点霍夫曼先生要过来坐坐。)" },
+    { "prompt": "约纳斯星期六上午做什么?", "options": ["打扫浴室", "去面包店", "睡懒觉"], "answer": 2, "explainZh": "约纳斯写:Am Vormittag schlafe ich aus!(上午我要睡懒觉!)他下午打扫浴室。" },
+    { "prompt": "索菲娅星期六做什么?", "options": ["上班到 16 点,然后擦窗户、吸尘", "打扫厨房、倒垃圾", "去面包店买蛋糕"], "answer": 0, "explainZh": "索菲娅写:Ich arbeite bis 16 Uhr. Dann putze ich die Fenster und staubsauge.(我上班到 16 点,然后擦窗户、吸尘。)" },
+    { "prompt": "王伟买的蛋糕是给谁的?", "options": ["是王伟的惩罚", "给索菲娅过生日", "给霍夫曼先生"], "answer": 2, "explainZh": "王伟写:Der Kuchen ist für Herrn Hoffmann.(蛋糕是给霍夫曼先生的。)约纳斯开玩笑问是不是王伟忘了打扫浴室。" }
+  ],
+  "grammar": [
+    { "id": "de.g.chat_kurz", "titleZh": "群聊里的短句",
+      "bodyZh": "朋友之间的群聊句子很短,很口语:\n① 答应:Mache ich!(好嘞,我来!)/ Super, danke!\n② 提醒用 du 的命令式:Vergiss den Kuchen nicht!(别忘了蛋糕!)/ Vergiss den Wecker nicht!\n③ 告别:Bis Samstag!(星期六见!)/ Bis später!(回头见!)\n④ 时间放句首,动词仍在第二位:Am Vormittag schlafe ich aus. / Am Nachmittag kann ich das Bad putzen.;可分动词的前缀放句末:Herr Hoffmann kommt am Sonntag vorbei.。",
+      "examples": [
+        { "text": "Herr Hoffmann kommt am Sonntag vorbei.", "zh": "霍夫曼先生星期天过来坐坐。" },
+        { "text": "Am Vormittag schlafe ich aus!", "zh": "上午我要睡懒觉!" },
+        { "text": "Vergiss den Kuchen nicht!", "zh": "别忘了蛋糕!" }
+      ] }
+  ],
+  "review": "draft"
+}

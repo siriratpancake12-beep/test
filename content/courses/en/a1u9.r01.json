@@ -1,0 +1,43 @@
+{
+  "id": "en.a1u9.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-9 Rain or shine", "order": 109045,
+  "titleZh": "一周天气预报", "goalZh": "会看一周天气预报里的天气、最高最低气温和降雨概率", "canDoZh": "能看懂一周天气预报:每天的天气、最高和最低气温、下雨的可能性",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 16.5,
+  "newItems": [
+    { "id": "en.high", "kind": "word", "pos": "adj", "text": "high", "zh": "高的;(气温)最高", "features": { "ipa": "haɪ" }, "noteZh": "gh 不发音;天气预报里 High 45 = 最高 45 °F(约 7 °C)。" },
+    { "id": "en.low", "kind": "word", "pos": "adj", "text": "low", "zh": "低的;(气温)最低", "features": { "ipa": "loʊ" }, "noteZh": "Low 38 = 最低 38 °F(约 3 °C);ow 读 /oʊ/,和 snow 押韵;l 开头舌尖顶住上齿龈。" },
+    { "id": "en.chance", "kind": "word", "pos": "noun", "text": "chance", "zh": "可能性;机会", "features": { "ipa": "tʃæns" }, "noteZh": "80% chance of rain = 降雨概率 80%;ch 读 /tʃ/,a 读 /æ/,嘴张大。" },
+    { "id": "en.careful", "kind": "word", "pos": "adj", "text": "careful", "zh": "小心的", "features": { "ipa": "ˈkerfəl" }, "noteZh": "Be careful!(小心!)是提醒别人的固定说法;care + ful,重音在前。" }
+  ],
+  "reviewItems": ["en.street", "en.ice", "en.clothes", "en.walk"],
+  "lines": [
+    { "speaker": "narrator", "text": "Seattle weather: this week", "zh": "(手机天气应用)西雅图本周天气(温度都是华氏度)", "items": ["en.weather", "en.week"] },
+    { "speaker": "narrator", "text": "Monday: Rain. High 45, low 38. 80% chance of rain.", "zh": "周一:雨。最高 45 度,最低 38 度。降雨概率 80%。", "items": ["en.monday", "en.rain", "en.high", "en.low", "en.chance"] },
+    { "speaker": "narrator", "text": "Tuesday: Cloudy and windy. High 43, low 36.", "zh": "周二:多云,有风。最高 43 度,最低 36 度。", "items": ["en.tuesday", "en.cloudy", "en.windy", "en.high", "en.low"] },
+    { "speaker": "narrator", "text": "Wednesday: Cloudy. High 40, low 33. 40% chance of rain.", "zh": "周三:多云。最高 40 度,最低 33 度。降雨概率 40%。", "items": ["en.wednesday", "en.cloudy", "en.high", "en.low", "en.chance", "en.rain"] },
+    { "speaker": "narrator", "text": "Thursday: Very cold. High 34, low 27. 60% chance of snow.", "zh": "周四:很冷。最高 34 度,最低 27 度。降雪概率 60%。", "items": ["en.thursday", "en.cold", "en.high", "en.low", "en.chance", "en.snow"] },
+    { "speaker": "narrator", "text": "Friday: Sunny and cold. High 37, low 26.", "zh": "周五:晴,冷。最高 37 度,最低 26 度。", "items": ["en.friday", "en.sunny", "en.cold", "en.high", "en.low"] },
+    { "speaker": "narrator", "text": "Saturday: Sunny. High 41, low 29. A great day for a walk!", "zh": "周六:晴。最高 41 度,最低 29 度。适合出门走走!", "items": ["en.saturday", "en.sunny", "en.high", "en.low", "en.great", "en.walk"] },
+    { "speaker": "narrator", "text": "Sunday: Cloudy. High 44, low 35. 30% chance of rain.", "zh": "周日:多云。最高 44 度,最低 35 度。降雨概率 30%。", "items": ["en.sunday", "en.cloudy", "en.high", "en.low", "en.chance", "en.rain"] },
+    { "speaker": "narrator", "text": "Thursday morning: Ice on the streets. Be careful!", "zh": "周四早上:路面结冰,出门小心!", "items": ["en.thursday", "en.morning", "en.ice", "en.street", "en.careful"] },
+    { "speaker": "narrator", "text": "Snow on Thursday? Wear warm clothes!", "zh": "周四要下雪?多穿点!", "items": ["en.snow", "en.thursday", "en.wear", "en.warm", "en.clothes"] }
+  ],
+  "questions": [
+    { "prompt": "这一周哪天可能下雪?", "options": ["周一", "周三", "周四"], "answer": 2, "explainZh": "Thursday: Very cold. … 60% chance of snow.(周四下雪的可能性是 60%。)" },
+    { "prompt": "哪天最适合出门散步?", "options": ["周六", "周二", "周日"], "answer": 0, "explainZh": "Saturday: Sunny. … A great day for a walk!(周六晴天,适合出门走走。)" },
+    { "prompt": "周四早上出门要注意什么?", "options": ["风很大,别骑车", "路上结冰,要小心", "会下大雨,要带伞"], "answer": 1, "explainZh": "Thursday morning: Ice on the streets. Be careful!(周四早上路面结冰,出门小心。)" },
+    { "prompt": "周一最高 45 °F,大约是摄氏几度?", "options": ["45 度", "0 度左右", "7 度左右"], "answer": 2, "explainZh": "用第 3 课的办法估算:45 减 30 是 15,再除以 2 约等于 7 °C(准确值约 7.2 °C)。" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.read_forecast",
+      "titleZh": "看懂天气预报",
+      "bodyZh": "天气预报常用省略句,读的时候自己补全:Rain. = It's going to rain.;High 45, low 38. = 最高 45 °F(约 7 °C),最低 38 °F(约 3 °C);80% chance of rain = 降雨概率 80%,chance 是“可能性”,百分号读 percent:eighty percent。读一周预报,先找你关心的那一天,再看天气、气温和概率。Be careful!(小心!)是提醒别人的固定说法。",
+      "examples": [
+        { "text": "Monday: Rain. High 45, low 38.", "zh": "周一:雨。最高 45 度,最低 38 度。" },
+        { "text": "Thursday: 60% chance of snow. Be careful!", "zh": "周四:降雪概率 60%。出门小心!" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

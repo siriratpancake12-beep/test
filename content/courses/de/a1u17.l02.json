@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u17.l02", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117020,
+  "titleZh": "报名运动课", "goalZh": "会在服务台报名一门课,问清楚时间、地点、价格和要带什么", "canDoZh": "能在运动中心报名课程,问清楚时间、地点、价格和要带什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.anfaenger", "kind": "word", "pos": "noun", "text": "der Anfänger", "zh": "初学者", "features": { "gender": "m", "plural": "die Anfänger", "ipa": "ˈanˌfɛŋɐ" }, "noteZh": "anfangen(开始)来的;女的是 die Anfängerin;der Kurs für Anfänger(初级班);单复数同形。" },
+    { "id": "de.fortgeschritten", "kind": "word", "pos": "adj", "text": "fortgeschritten", "zh": "有基础的;进阶的", "features": { "ipa": "ˈfɔʁtɡəˌʃʁɪtn̩" }, "noteZh": "课程分级常说 für Anfänger / für Fortgeschrittene(初级 / 中级以上);当名词用时大写、加词尾:ein Fortgeschrittener。" },
+    { "id": "de.training", "kind": "word", "pos": "noun", "text": "das Training", "zh": "训练", "features": { "gender": "n", "plural": "die Trainings", "ipa": "ˈtʁɛːnɪŋ" }, "noteZh": "英语借来的词,读 [ˈtʁɛːnɪŋ];Das Training ist am Dienstag.(星期二训练。)动词是 trainieren。" },
+    { "id": "de.halle", "kind": "word", "pos": "noun", "text": "die Halle", "zh": "大厅;室内场馆", "features": { "gender": "f", "plural": "die Hallen", "ipa": "ˈhalə" }, "noteZh": "die Sporthalle(体育馆)、die Schwimmhalle(室内游泳馆);in der Halle(在馆里)。" },
+    { "id": "de.turnschuh", "kind": "word", "pos": "noun", "text": "der Turnschuh", "zh": "运动鞋", "features": { "gender": "m", "plural": "die Turnschuhe", "ipa": "ˈtʊʁnˌʃuː" }, "noteZh": "turnen(做体操)+ der Schuh;一般用复数:Bringen Sie Turnschuhe mit.;体育馆里要穿干净的室内运动鞋。" },
+    { "id": "de.schlaeger", "kind": "word", "pos": "noun", "text": "der Schläger", "zh": "球拍", "features": { "gender": "m", "plural": "die Schläger", "ipa": "ˈʃlɛːɡɐ" }, "noteZh": "羽毛球拍、网球拍、乒乓球拍都叫 Schläger;单复数同形。" },
+    { "id": "de.trainer", "kind": "word", "pos": "noun", "text": "der Trainer", "zh": "教练", "features": { "gender": "m", "plural": "die Trainer", "ipa": "ˈtʁɛːnɐ" }, "noteZh": "女教练是 die Trainerin;读 [ˈtʁɛːnɐ],ai 读得像 ä。" },
+    { "id": "de.eintragen", "kind": "word", "pos": "verb", "text": "eintragen", "zh": "登记;写上(名字)", "features": { "ipa": "ˈaɪ̯nˌtʁaːɡn̩" }, "noteZh": "可分、不规则:er trägt ein;工作人员常说 Ich trage Sie ein.(我给您登记上。)" }
+  ],
+  "reviewItems": ["de.badminton", "de.mitbringen", "de.platz", "de.glueck", "de.problem"],
+  "lines": [
+    { "speaker": "mitarbeiter", "text": "Guten Tag! Kann ich Ihnen helfen?", "zh": "(运动中心的服务台)您好!需要帮忙吗?", "items": ["de.guten_tag", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
+    { "speaker": "wei", "text": "Guten Tag! Ich möchte den Badmintonkurs machen.", "zh": "您好!我想报羽毛球课。", "items": ["de.guten_tag", "de.ich", "de.moechten", "de.badminton", "de.kurs", "de.machen"] },
+    { "speaker": "mitarbeiter", "text": "Gern. Sind Sie Anfänger oder Fortgeschrittener?", "zh": "好的。您是初学还是有基础?", "items": ["de.gern", "de.sein", "de.sie_hoeflich", "de.anfaenger", "de.oder", "de.fortgeschritten"] },
+    { "speaker": "wei", "text": "In China habe ich oft gespielt. Aber hier bin ich Anfänger.", "zh": "我在中国常打。不过在这儿我算初学者。", "items": ["de.in", "de.china", "de.haben", "de.ich", "de.oft", "de.spielen", "de.aber", "de.hier", "de.sein", "de.anfaenger"] },
+    { "speaker": "mitarbeiter", "text": "Gut. Der Kurs für Anfänger ist am Dienstag.", "zh": "好。初级班在星期二。", "items": ["de.gut", "de.kurs", "de.fuer", "de.anfaenger", "de.sein", "de.am", "de.dienstag"] },
+    { "speaker": "mitarbeiter", "text": "Das Training ist von 18 bis 20 Uhr in der Sporthalle.", "zh": "训练时间是 18 点到 20 点,在体育馆。", "items": ["de.training", "de.sein", "de.von", "de.bis", "de.uhr", "de.in", "de.sport", "de.halle"] },
+    { "speaker": "wei", "text": "Was kostet der Kurs? Und was muss ich mitbringen?", "zh": "这门课多少钱?我要带什么?", "items": ["de.was", "de.kosten", "de.kurs", "de.und", "de.muessen", "de.ich", "de.mitbringen"] },
+    { "speaker": "mitarbeiter", "text": "Für Studenten zwanzig Euro. Bringen Sie bitte Turnschuhe mit.", "zh": "学生二十欧元。请带上运动鞋。", "items": ["de.fuer", "de.student", "de.zwanzig", "de.euro", "de.mitbringen", "de.sie_hoeflich", "de.bitte", "de.turnschuh"] },
+    { "speaker": "wei", "text": "Und einen Schläger? Ich habe keinen.", "zh": "球拍呢?我没有。", "items": ["de.und", "de.ein", "de.schlaeger", "de.ich", "de.haben", "de.kein"] },
+    { "speaker": "mitarbeiter", "text": "Kein Problem, der Trainer hat Schläger.", "zh": "没问题,教练那儿有球拍。", "items": ["de.kein", "de.problem", "de.trainer", "de.haben", "de.schlaeger"] },
+    { "speaker": "mitarbeiter", "text": "Sie haben Glück! Das ist der letzte Platz. Ich trage Sie ein.", "zh": "您运气真好!这是最后一个名额。我给您登记上。", "items": ["de.sie_hoeflich", "de.haben", "de.glueck", "de.das_ist", "de.letzte", "de.platz", "de.ich", "de.eintragen"] },
+    { "speaker": "wei", "text": "Toll, vielen Dank! Bis Dienstag!", "zh": "太好了,非常感谢!星期二见!", "items": ["de.toll", "de.vielen_dank", "de.bis", "de.dienstag"] }
+  ],
+  "questions": [
+    { "prompt": "王伟报的是什么班?", "options": ["中级班", "初级班", "高级班"], "answer": 1, "explainZh": "王伟说 Aber hier bin ich Anfänger.(在这儿我算初学者),工作人员说:Der Kurs für Anfänger ist am Dienstag.(初级班在星期二。)" },
+    { "prompt": "羽毛球课什么时候上?", "options": ["星期五下午", "星期天上午", "星期二晚上六点到八点"], "answer": 2, "explainZh": "Der Kurs für Anfänger ist am Dienstag. Das Training ist von 18 bis 20 Uhr …(星期二 18 点到 20 点。)" },
+    { "prompt": "王伟没有球拍怎么办?", "options": ["没关系,教练那儿有", "要自己去买", "要花钱租"], "answer": 0, "explainZh": "工作人员说:Kein Problem, der Trainer hat Schläger.(没问题,教练那儿有球拍。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_kurs_anmelden", "titleZh": "报名和问课程信息",
+      "bodyZh": "报名一门课,常用这些句子:Ich möchte den Badmintonkurs machen.(我想报羽毛球课。)/ Was kostet der Kurs?(多少钱?)/ Was muss ich mitbringen?(要带什么?)\n听懂回答里的信息:am Dienstag(星期几)、von 18 bis 20 Uhr(几点到几点)、in der Sporthalle(在哪儿)、für Studenten zwanzig Euro(学生价)。\nAnfänger oder Fortgeschrittener?(初学还是有基础?)女的说 Anfängerin / Fortgeschrittene。\n工作人员帮你登记:Ich trage Sie ein.(我给您登记上。)——eintragen 是可分动词,不规则:er trägt ein。\n前面说过的名词可以用 keinen / keine / keins 代替:Einen Schläger? Ich habe keinen.(球拍?我没有。)",
+      "examples": [
+        { "text": "Was kostet der Kurs?", "zh": "这门课多少钱?" },
+        { "text": "Was muss ich mitbringen?", "zh": "我要带什么?" },
+        { "text": "Einen Schläger? Ich habe keinen.", "zh": "球拍?我没有。" },
+        { "text": "Ich trage Sie ein.", "zh": "我给您登记上。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "en.a1u9.l04", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 Rain or shine", "order": 109040,
+  "titleZh": "明天要下雪!", "goalZh": "会用 be going to 根据迹象说“要下雪了”,听懂停课的消息", "canDoZh": "能根据天气预报和眼前的迹象说“要下雪了”,听懂学校因下雪停课的通知",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "en.forecast", "kind": "word", "pos": "noun", "text": "forecast", "zh": "(天气)预报", "features": { "ipa": "ˈfɔːrkæst" }, "noteZh": "完整说法是 weather forecast;重音在前 FOR-cast;Look at the forecast.(看看天气预报。)" },
+    { "id": "en.sky", "kind": "word", "pos": "noun", "text": "sky", "zh": "天空", "features": { "ipa": "skaɪ" }, "noteZh": "sk 之间不加元音;Look at the sky.(看看天。)天阴得发灰可以说 The sky is gray.。" },
+    { "id": "en.canceled", "kind": "word", "pos": "adj", "text": "canceled", "zh": "取消了的", "features": { "ipa": "ˈkænsəld" }, "noteZh": "美式拼一个 l(英式 cancelled);Classes are canceled.(课取消了。)词尾 -ed 读 /d/。" },
+    { "id": "en.snow_day", "kind": "phrase", "pos": "noun", "text": "snow day", "zh": "(因下雪)停课的日子", "features": { "ipa": "ˈsnoʊ deɪ" }, "noteZh": "美国学校因为下雪停课的那一天叫 snow day,学生都很开心;复合词重音在前:SNOW day。" },
+    { "id": "en.excited", "kind": "word", "pos": "adj", "text": "excited", "zh": "兴奋的;激动的", "features": { "ipa": "ɪkˈsaɪt̬ɪd" }, "noteZh": "人感到兴奋说 I'm excited.,不说 I'm exciting(那是“我这个人让人兴奋”);t 在两个元音之间美式读闪音。" },
+    { "id": "en.build", "kind": "word", "pos": "verb", "text": "build", "zh": "建;堆(雪人)", "features": { "ipa": "bɪld" }, "noteZh": "ui 读短音 /ɪ/;过去式 built /bɪlt/;build a snowman(堆雪人)。" },
+    { "id": "en.snowman", "kind": "word", "pos": "noun", "text": "snowman", "zh": "雪人", "features": { "ipa": "ˈsnoʊmæn" }, "noteZh": "snow + man,重音在前;复数 snowmen。" },
+    { "id": "en.building", "kind": "word", "pos": "noun", "text": "building", "zh": "楼;建筑", "features": { "ipa": "ˈbɪldɪŋ" }, "noteZh": "build 的名词;宿舍楼、教学楼都可以叫 building:in front of our building(在我们楼前)。" },
+    { "id": "en.campus", "kind": "word", "pos": "noun", "text": "campus", "zh": "校园", "features": { "ipa": "ˈkæmpəs" }, "noteZh": "a 读 /æ/,嘴张大;“在校园里”说 on campus,用 on。" }
+  ],
+  "reviewItems": ["en.wake_up", "en.white", "en.cant_wait", "en.gray", "en.in_front_of"],
+  "lines": [
+    { "speaker": "amy", "text": "Lei! Look at the forecast. Snow tomorrow!", "zh": "(傍晚,艾米发来消息)磊!你看天气预报,明天下雪!", "items": ["en.look", "en.forecast", "en.snow", "en.tomorrow"] },
+    { "speaker": "lei", "text": "Snow? It doesn't snow a lot in Seattle.", "zh": "下雪?西雅图不常下雪啊。", "items": ["en.snow", "en.a_lot_of"] },
+    { "speaker": "amy", "text": "Not a lot. But look at the sky!", "zh": "是不常下。可你看看天!", "items": ["en.a_lot_of", "en.look", "en.sky"] },
+    { "speaker": "lei", "text": "Oh, it's really gray. It's going to snow!", "zh": "哦,天好灰。真要下雪了!", "items": ["en.really", "en.gray", "en.going_to", "en.snow"] },
+    { "speaker": "ethan", "text": "Lei, wake up! Look outside! The campus is all white!", "zh": "(第二天一早)磊,醒醒!快看外面!校园全白了!", "items": ["en.wake_up", "en.look", "en.outside", "en.campus", "en.white"] },
+    { "speaker": "ethan", "text": "And morning classes are canceled. It's a snow day!", "zh": "而且上午的课取消了,今天下雪停课!", "items": ["en.morning", "en.class", "en.canceled", "en.snow_day"] },
+    { "speaker": "lei", "text": "Really? I can't wait to go outside!", "zh": "真的?我等不及要出去了!", "items": ["en.really", "en.cant_wait", "en.go", "en.outside"] },
+    { "speaker": "ethan", "text": "Me too! It never snows in LA. I'm so excited!", "zh": "我也是!洛杉矶从来不下雪。我太兴奋了!", "items": ["en.me_too", "en.never", "en.snow", "en.so", "en.excited"] },
+    { "speaker": "lei", "text": "Let's build a snowman in front of our building!", "zh": "我们在楼前堆个雪人吧!", "items": ["en.lets", "en.build", "en.snowman", "en.in_front_of", "en.building"] },
+    { "speaker": "sofia", "text": "A snowman? I'm coming! It's my first snow!", "zh": "(磊打电话叫上索菲亚)堆雪人?我马上来!这是我第一次见到雪!", "items": ["en.snowman", "en.come", "en.first", "en.snow"] }
+  ],
+  "questions": [
+    { "prompt": "艾米为什么觉得明天要下雪?", "options": ["西雅图冬天天天下雪", "天气预报说的,天看起来也要下雪", "伊森告诉她的"], "answer": 1, "explainZh": "Look at the forecast. Snow tomorrow! …… But look at the sky!(天气预报说明天下雪,天色也像要下雪。)" },
+    { "prompt": "第二天早上学校通知了什么?", "options": ["上午的课取消了", "全天停课", "下午提前放学"], "answer": 0, "explainZh": "伊森说 And morning classes are canceled. It's a snow day!(上午的课取消了。)" },
+    { "prompt": "伊森为什么特别兴奋?", "options": ["艾米要来找他玩", "他买了新靴子", "洛杉矶从来不下雪"], "answer": 2, "explainZh": "It never snows in LA. I'm so excited!(洛杉矶从来不下雪,所以他特别兴奋。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.going_to_predict",
+      "titleZh": "be going to 表示“看样子要……”",
+      "bodyZh": "第 7 单元学过用 be going to 说计划(I'm going to go hiking.)。它还有一个用法:根据眼前的迹象,预测马上要发生的事。Look at the sky. It's going to snow.(看这天,要下雪了。)中文常说“要……了”“看样子会……”,英语就用 be going to + 动词原形。看天气预报、看手机上的预测也常这么说:It's going to rain tomorrow.。be 不能漏:不说 It going to snow.。",
+      "examples": [
+        { "text": "Look at the sky. It's going to snow!", "zh": "看这天,要下雪了!" },
+        { "text": "It's going to stop this evening.", "zh": "傍晚就会停。" },
+        { "text": "Is it going to rain all day?", "zh": "会下一整天雨吗?" }
+      ]
+    },
+    {
+      "id": "en.g.canceled",
+      "titleZh": "canceled 作形容词:Classes are canceled.",
+      "bodyZh": "canceled(取消了的)放在 be 动词后面,说某件事被取消了:Classes are canceled.(课取消了。)Morning classes are canceled.(上午的课取消了。)美国学校因为下雪停课,那一天叫 a snow day。美式拼写 canceled 只有一个 l(英式是 cancelled),读 /ˈkænsəld/,词尾 -ed 读 /d/。",
+      "examples": [
+        { "text": "Morning classes are canceled. It's a snow day!", "zh": "上午的课取消了。下雪停课啦!" },
+        { "text": "Are classes canceled tomorrow?", "zh": "明天停课吗?" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u9.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-9 Rain or shine", "order": 109085,
+  "titleZh": "磊的日记:第一个下雪天", "goalZh": "会读一篇按时间顺序写的日记,说出发生了什么和作者的感受", "canDoZh": "能读懂一篇写过去一天的日记,按时间顺序说出发生了什么、作者有什么感受",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
+  "newItems": [
+    { "id": "en.snowball_fight", "kind": "phrase", "pos": "noun", "text": "snowball fight", "zh": "打雪仗", "features": { "ipa": "ˈsnoʊbɑːl faɪt" }, "noteZh": "have a snowball fight(打雪仗);snowball 是“雪球”。" }
+  ],
+  "reviewItems": ["en.wake_up", "en.take_pictures", "en.text", "en.grandma", "en.big"],
+  "lines": [
+    { "speaker": "lei", "text": "Today was my first snow day in Seattle!", "zh": "(磊的日记)今天是我在西雅图第一次碰上下雪停课!", "items": ["en.today", "en.first", "en.snow_day"] },
+    { "speaker": "lei", "text": "In the morning, Ethan woke me up. Classes were canceled!", "zh": "早上伊森把我叫醒,课取消了!", "items": ["en.morning", "en.wake_up", "en.class", "en.canceled"] },
+    { "speaker": "lei", "text": "We went outside with Sofia and built a snowman.", "zh": "我们和索菲亚一起出去,堆了一个雪人。", "items": ["en.go", "en.outside", "en.build", "en.snowman"] },
+    { "speaker": "lei", "text": "Our snowman was in front of the building. He had Ethan's hat!", "zh": "我们的雪人就在楼前,还戴着伊森的帽子!", "items": ["en.snowman", "en.in_front_of", "en.building", "en.have", "en.hat"] },
+    { "speaker": "lei", "text": "In the afternoon, we had a big snowball fight on campus.", "zh": "下午我们在校园里打了一场大雪仗。", "items": ["en.afternoon", "en.have", "en.big", "en.snowball_fight", "en.campus"] },
+    { "speaker": "lei", "text": "Ethan is from LA. He was so excited!", "zh": "伊森是洛杉矶人,他兴奋极了!", "items": ["en.so", "en.excited"] },
+    { "speaker": "lei", "text": "Sofia is from Mexico. It was her first snow, too.", "zh": "索菲亚来自墨西哥,这也是她第一次见到雪。", "items": ["en.first", "en.snow"] },
+    { "speaker": "lei", "text": "At night, it was really cold, but I was happy.", "zh": "晚上特别冷,可我很开心。", "items": ["en.night", "en.really", "en.cold", "en.happy"] },
+    { "speaker": "lei", "text": "In Chengdu, it doesn't snow a lot.", "zh": "成都不常下雪。", "items": ["en.snow", "en.a_lot_of"] },
+    { "speaker": "lei", "text": "So I took a lot of pictures and texted them to Grandma.", "zh": "所以我拍了很多照片,发给了奶奶。", "items": ["en.take_pictures", "en.a_lot_of", "en.text", "en.grandma"] },
+    { "speaker": "lei", "text": "She texted me: 'So beautiful! Wear a hat!'", "zh": "她回我:“真美!戴上帽子!”", "items": ["en.text", "en.so", "en.beautiful", "en.wear", "en.hat"] },
+    { "speaker": "lei", "text": "I love snow!", "zh": "我爱下雪!", "items": ["en.love", "en.snow"] }
+  ],
+  "questions": [
+    { "prompt": "早上发生了什么?", "options": ["磊自己很早就醒了", "伊森叫醒了磊,课取消了", "索菲亚打电话叫磊出去"], "answer": 1, "explainZh": "In the morning, Ethan woke me up. Classes were canceled!(早上伊森把我叫醒,课取消了。)" },
+    { "prompt": "雪人戴着谁的帽子?", "options": ["伊森的", "磊的", "索菲亚的"], "answer": 0, "explainZh": "Our snowman … He had Ethan's hat!(这里的 He 指雪人。)" },
+    { "prompt": "晚上磊感觉怎么样?", "options": ["很暖和,也很开心", "又冷又累,不开心", "很冷,但是很开心"], "answer": 2, "explainZh": "At night, it was really cold, but I was happy.(晚上特别冷,可我很开心。)" },
+    { "prompt": "磊为什么拍了很多照片发给奶奶?", "options": ["成都不常下雪", "奶奶想看西雅图的校园", "这是写作课的作业"], "answer": 0, "explainZh": "In Chengdu, it doesn't snow a lot. So I took a lot of pictures and texted them to Grandma." }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.diary_time",
+      "titleZh": "日记:按时间顺序讲一天",
+      "bodyZh": "写日记、讲过去的一天,用一般过去时(第 8 单元):was / were,规则动词加 -ed(texted),不规则动词要单独记(wake → woke、go → went、build → built、have → had、take → took)。用 In the morning… / In the afternoon… / At night… 把一天串起来,读的人一下就能跟上。注意:现在也成立的事实还用一般现在时:Ethan is from LA. / In Chengdu, it doesn't snow a lot.。",
+      "examples": [
+        { "text": "In the morning, Ethan woke me up.", "zh": "早上伊森把我叫醒了。" },
+        { "text": "At night, it was really cold, but I was happy.", "zh": "晚上特别冷,可我很开心。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

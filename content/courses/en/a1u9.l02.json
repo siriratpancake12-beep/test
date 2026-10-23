@@ -4,15 +4,15 @@
   "titleZh": "四季", "goalZh": "会说四季,用 in + 季节和一般现在时说家乡的气候", "canDoZh": "能说出四季,说说自己家乡每个季节的天气和大家常做的事",
   "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
   "newItems": [
-    { "id": "en.season", "kind": "word", "pos": "noun", "text": "season", "zh": "季节", "features": { "ipa": "ˈsiːzən" }, "noteZh": "s 在两个元音之间读 /z/:'SEA-zn';four seasons(四季);Which season do you like?(你喜欢哪个季节?)" },
-    { "id": "en.spring", "kind": "word", "pos": "noun", "text": "spring", "zh": "春天", "features": { "ipa": "sprɪŋ" }, "noteZh": "spr 三个辅音连在一起,中间不加元音(不读'丝普林');结尾 -ng 是 /ŋ/,舌根抵住软腭。" },
+    { "id": "en.season", "kind": "word", "pos": "noun", "text": "season", "zh": "季节", "features": { "ipa": "ˈsiːzən" }, "noteZh": "s 在两个元音之间读 /z/:“SEA-zn”;four seasons(四季);Which season do you like?(你喜欢哪个季节?)" },
+    { "id": "en.spring", "kind": "word", "pos": "noun", "text": "spring", "zh": "春天", "features": { "ipa": "sprɪŋ" }, "noteZh": "spr 三个辅音连在一起,中间不加元音(不读“丝普林”);结尾 -ng 是 /ŋ/,舌根抵住软腭。" },
     { "id": "en.summer", "kind": "word", "pos": "noun", "text": "summer", "zh": "夏天", "features": { "ipa": "ˈsʌmɚ" }, "noteZh": "u 读 /ʌ/,短而放松;in summer、in the summer 都可以。" },
-    { "id": "en.fall", "kind": "word", "pos": "noun", "text": "fall", "zh": "秋天(美式)", "features": { "ipa": "fɑːl" }, "noteZh": "美国人说 fall,英国人说 autumn;fall 作动词是'落下、摔倒'(过去式 fell);词尾 l 舌尖要顶住上齿龈。" },
-    { "id": "en.winter", "kind": "word", "pos": "noun", "text": "winter", "zh": "冬天", "features": { "ipa": "ˈwɪnt̬ɚ" }, "noteZh": "美式口语里 nt 的 t 常被吞掉,听起来像 'win-er';in winter(在冬天)。" },
+    { "id": "en.fall", "kind": "word", "pos": "noun", "text": "fall", "zh": "秋天(美式)", "features": { "ipa": "fɑːl" }, "noteZh": "美国人说 fall,英国人说 autumn;fall 作动词是“落下、摔倒”(过去式 fell);词尾 l 舌尖要顶住上齿龈。" },
+    { "id": "en.winter", "kind": "word", "pos": "noun", "text": "winter", "zh": "冬天", "features": { "ipa": "ˈwɪnt̬ɚ" }, "noteZh": "美式口语里 nt 的 t 常被吞掉,听起来像 “win-er”;in winter(在冬天)。" },
     { "id": "en.snow", "kind": "word", "pos": "verb", "text": "snow", "zh": "下雪;雪", "features": { "ipa": "snoʊ" }, "noteZh": "和 rain 一样,既是动词也是名词:It's snowing.(在下雪)/ a lot of snow(很多雪);ow 读 /oʊ/,嘴唇从半开滑到收圆。" },
-    { "id": "en.humid", "kind": "word", "pos": "adj", "text": "humid", "zh": "潮湿的;闷热的", "features": { "ipa": "ˈhjuːmɪd" }, "noteZh": "hu 读 /hjuː/,像 'hyoo';hot and humid(又热又潮)正好形容成都、重庆的夏天。" },
-    { "id": "en.dry", "kind": "word", "pos": "adj", "text": "dry", "zh": "干燥的", "features": { "ipa": "draɪ" }, "noteZh": "dr 像'拽'的声母再加卷舌;和 humid 相反:Summer in Seattle is dry.。" },
-    { "id": "en.city", "kind": "word", "pos": "noun", "text": "city", "zh": "城市", "features": { "ipa": "ˈsɪt̬i" }, "noteZh": "美式 t 在两个元音之间读成轻快的 d,像 'si-dee';my city 可以指'我住的城市',也可以指'我家乡'。" },
+    { "id": "en.humid", "kind": "word", "pos": "adj", "text": "humid", "zh": "潮湿的;闷热的", "features": { "ipa": "ˈhjuːmɪd" }, "noteZh": "hu 读 /hjuː/,像 “hyoo”;hot and humid(又热又潮)正好形容成都、重庆的夏天。" },
+    { "id": "en.dry", "kind": "word", "pos": "adj", "text": "dry", "zh": "干燥的", "features": { "ipa": "draɪ" }, "noteZh": "dr 像“拽”的声母再加卷舌;和 humid 相反:Summer in Seattle is dry.。" },
+    { "id": "en.city", "kind": "word", "pos": "noun", "text": "city", "zh": "城市", "features": { "ipa": "ˈsɪt̬i" }, "noteZh": "美式 t 在两个元音之间读成轻快的 d,像 “si-dee”;my city 可以指“我住的城市”,也可以指“我家乡”。" },
     { "id": "en.flower", "kind": "word", "pos": "noun", "text": "flower", "zh": "花", "features": { "ipa": "ˈflaʊɚ" }, "noteZh": "ow 读 /aʊ/,后面再接卷舌的 ɚ,两个音节 FLOW-er;复数 flowers。" }
   ],
   "reviewItems": ["en.sunny", "en.gray", "en.spicy", "en.never", "en.warm"],
@@ -37,7 +37,7 @@
     {
       "id": "en.g.seasons_in",
       "titleZh": "四季和 in + 季节",
-      "bodyZh": "四季:spring(春)、summer(夏)、fall(秋,美式;英式说 autumn)、winter(冬)。季节名一般不大写,前面不加 a。说'在某个季节'用 in:in winter / in the summer(加不加 the 都行)。in winter 放在句首、句尾都可以:In winter, it rains a lot. = It rains a lot in winter.。问'喜欢哪个季节'可以说 Which season do you like?。发音:snow、cold 里的 /oʊ/ 是双元音,嘴唇从半开滑到收圆,不要读成短促的'欧'。",
+      "bodyZh": "四季:spring(春)、summer(夏)、fall(秋,美式;英式说 autumn)、winter(冬)。季节名一般不大写,前面不加 a。说“在某个季节”用 in:in winter / in the summer(加不加 the 都行)。in winter 放在句首、句尾都可以:In winter, it rains a lot. = It rains a lot in winter.。问“喜欢哪个季节”可以说 Which season do you like?。发音:snow、cold 里的 /oʊ/ 是双元音,嘴唇从半开滑到收圆,不要读成短促的“欧”。",
       "examples": [
         { "text": "It's hot and humid in summer.", "zh": "夏天又热又潮湿。" },
         { "text": "In winter, it rains a lot here.", "zh": "这儿冬天经常下雨。" },

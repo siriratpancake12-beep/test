@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u15.l05", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115050,
+  "titleZh": "组个学习小组", "goalZh": "会提议、商量一起学习的时间和地点,在图书馆预订学习室", "canDoZh": "能和同学约好一起学习的时间和地点,并在图书馆预订学习室",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.study_group", "kind": "phrase", "pos": "noun", "text": "study group", "zh": "学习小组", "features": { "ipa": "ˈstʌdi ˌɡruːp" }, "noteZh": "美国大学生常几个人组成 study group,一起做作业、复习考试;复合名词重音在前 STUD-y group。" },
+    { "id": "en.reserve", "kind": "word", "pos": "verb", "text": "reserve", "zh": "预订;预约(房间、座位)", "features": { "ipa": "rɪˈzɝːv" }, "noteZh": "reserve a room 订一个房间;s 读 /z/,重音在后 re-SERVE,ser 卷舌。" },
+    { "id": "en.study_room", "kind": "phrase", "pos": "noun", "text": "study room", "zh": "(图书馆的)小组学习室", "features": { "ipa": "ˈstʌdi ˌruːm" }, "noteZh": "美国大学图书馆的小组学习室一般要提前预订,有时间限制。" },
+    { "id": "en.teach", "kind": "word", "pos": "verb", "text": "teach", "zh": "教", "features": { "ipa": "tiːtʃ" }, "noteZh": "teach + 人:You can teach us!(不说 teach to us);过去式 taught /tɑːt/。" },
+    { "id": "en.good_at", "kind": "phrase", "pos": "adj", "text": "good at", "zh": "擅长", "features": { "ipa": "ˈɡʊd ət" }, "noteZh": "be good at + 名词:I'm good at math. 我数学好;at 弱读 /ət/,和 good 连读。" },
+    { "id": "en.page", "kind": "word", "pos": "noun", "text": "page", "zh": "页", "features": { "ipa": "peɪdʒ" }, "noteZh": "on page 20 在第 20 页;g 读 /dʒ/,a 读 /eɪ/。" },
+    { "id": "en.desk", "kind": "word", "pos": "noun", "text": "desk", "zh": "书桌;服务台", "features": { "ipa": "desk" }, "noteZh": "the library desk 图书馆服务台;词尾 sk 两个辅音都要读出来,别加元音读成 \"des-ke\"。" },
+    { "id": "en.stuck", "kind": "word", "pos": "adj", "text": "stuck", "zh": "卡住的;(题目)做不下去的", "features": { "ipa": "stʌk" }, "noteZh": "I'm stuck on problem 5. 我卡在第 5 题了;u 读 /ʌ/,短促放松。" }
+  ],
+  "reviewItems": ["en.homework", "en.problem", "en.lets", "en.how_about", "en.library", "en.id"],
+  "lines": [
+    { "speaker": "ethan", "text": "Man, this calculus homework is so hard!", "zh": "天哪,这次微积分作业太难了!", "items": ["en.calculus", "en.homework", "en.so", "en.hard"] },
+    { "speaker": "sofia", "text": "I know! I'm stuck on page 20, problem 5.", "zh": "就是!我卡在第 20 页的第 5 题了。", "items": ["en.know", "en.stuck", "en.page", "en.problem"] },
+    { "speaker": "lei", "text": "Let's start a study group!", "zh": "我们组个学习小组吧!", "items": ["en.lets", "en.start", "en.study_group"] },
+    { "speaker": "ethan", "text": "Good idea! You're good at math, Lei. You can teach us!", "zh": "好主意!磊,你数学好,你可以教我们!", "items": ["en.idea", "en.good_at", "en.math", "en.can", "en.teach"] },
+    { "speaker": "lei", "text": "OK! Let's meet on Tuesdays and Thursdays at four.", "zh": "行!我们每周二、周四四点见。", "items": ["en.lets", "en.meet", "en.tuesday", "en.thursday"] },
+    { "speaker": "ethan", "text": "Sorry, I have a class at four. How about five?", "zh": "不好意思,我四点有课。五点怎么样?", "items": ["en.sorry", "en.have", "en.class", "en.how_about"] },
+    { "speaker": "sofia", "text": "Five is good for me. But where?", "zh": "五点我可以。不过在哪儿?", "items": [] },
+    { "speaker": "lei", "text": "The library! We can reserve a study room at the desk.", "zh": "图书馆!可以在服务台订一间学习室。", "items": ["en.library", "en.can", "en.reserve", "en.study_room", "en.desk"] },
+    { "speaker": "lei", "text": "Hi! Can we reserve a study room on Tuesdays and Thursdays?", "zh": "(在图书馆服务台)您好!我们能订每周二、周四的学习室吗?", "items": ["en.hi", "en.can", "en.reserve", "en.study_room", "en.tuesday", "en.thursday"] },
+    { "speaker": "staff", "text": "Sure. You can reserve a room for two hours.", "zh": "可以。每次可以订两个小时。", "items": ["en.sure", "en.can", "en.reserve", "en.room", "en.hour"] },
+    { "speaker": "staff", "text": "Can I see your student ID, please?", "zh": "请出示一下学生证。", "items": ["en.can", "en.see", "en.student", "en.id"] },
+    { "speaker": "lei", "text": "Here it is. From five to seven, please.", "zh": "给您。从五点到七点,谢谢。", "items": ["en.here_it_is"] }
+  ],
+  "questions": [
+    { "prompt": "他们为什么要组学习小组?", "options": ["图书馆有了新的学习室", "要准备期中考试", "微积分作业太难了"], "answer": 2, "explainZh": "伊森说 Man, this calculus homework is so hard!,索菲亚也卡在第 5 题,磊就提议 Let's start a study group!。" },
+    { "prompt": "学习小组最后定在什么时候?", "options": ["每周二、周四五点", "每周二、周四四点", "每周一、周三五点"], "answer": 0, "explainZh": "磊先说四点,伊森四点有课,问 How about five?,索菲亚说 Five is good for me.;磊订的是周二、周四五点到七点。" },
+    { "prompt": "在图书馆订学习室,工作人员要看什么?", "options": ["作业", "学生证", "课表"], "answer": 1, "explainZh": "Can I see your student ID, please?——要看学生证。" }
+  ],
+  "grammar": [
+    { "id": "en.g.lets_how_about_review", "titleZh": "商量时间地点:Let's… / How about…?",
+      "bodyZh": "提议用 Let's + 动词原形:Let's start a study group! / Let's meet at four.。对方不方便时,先说原因,再给一个新建议:Sorry, I have a class at four. How about five?(How about 后面跟时间、地点或动词-ing)。答应可以说 Five is good for me. / Sounds good!。\n时间介词复习:at + 钟点(at five),on + 星期(on Tuesdays,星期加 -s 表示每周),from… to…(from five to seven)。说擅长什么用 be good at + 名词:You're good at math.(你数学好),介词用 at。",
+      "examples": [
+        { "text": "Let's start a study group!", "zh": "我们组个学习小组吧!" },
+        { "text": "Sorry, I have a class at four. How about five?", "zh": "不好意思,我四点有课。五点怎么样?" },
+        { "text": "You're good at math. You can teach us!", "zh": "你数学好,你可以教我们!" }
+      ] },
+    { "id": "en.g.can_permission", "titleZh": "can 说\"可以\":You can reserve a room.",
+      "bodyZh": "can 除了\"会、能\"(I can swim.),还常用来说规定允许做什么:You can reserve a room for two hours.(学习室一次可以订两个小时);问能不能做某事:Can we reserve a study room?;工作人员要看证件时常说 Can I see your student ID, please?。\n发音:library 读 /ˈlaɪbreri/,有两个 r,第一个 r 别吞掉(不要读成 \"lie-berry\");句子里的 can 不强调时弱读 /kən/,You can reserve… 听起来像 \"you-kən-re-SERVE\"。",
+      "examples": [
+        { "text": "You can reserve a room for two hours.", "zh": "学习室一次可以订两个小时。" },
+        { "text": "Can I see your student ID, please?", "zh": "请出示一下学生证。" }
+      ] }
+  ],
+  "review": "draft"
+}

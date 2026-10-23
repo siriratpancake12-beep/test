@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u17.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117060,
+  "titleZh": "一起看球赛", "goalZh": "会和朋友一起看比赛,说比分,表达激动、可惜,问不懂的规则", "canDoZh": "能和朋友一起看比赛,说比分、支持哪个队、表达高兴和失望",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.leinwand", "kind": "word", "pos": "noun", "text": "die Leinwand", "zh": "(大)屏幕;幕布", "features": { "gender": "f", "plural": "die Leinwände", "ipa": "ˈlaɪ̯nˌvant" }, "noteZh": "大型比赛时,很多餐馆、广场会在外面放 Leinwand 给大家一起看(das Public Viewing);复数变音。" },
+    { "id": "de.spieler", "kind": "word", "pos": "noun", "text": "der Spieler", "zh": "(运动)员;球员", "features": { "gender": "m", "plural": "die Spieler", "ipa": "ˈʃpiːlɐ" }, "noteZh": "spielen + -er;女的是 die Spielerin;der Fußballspieler(足球运动员)。" },
+    { "id": "de.schiessen", "kind": "word", "pos": "verb", "text": "schießen", "zh": "射(门);踢(球)", "features": { "ipa": "ˈʃiːsn̩" }, "noteZh": "ein Tor schießen(射进一球);du schießt, er schießt;完成时不规则:geschossen。" },
+    { "id": "de.tor", "kind": "word", "pos": "noun", "text": "das Tor", "zh": "球门;进球", "features": { "gender": "n", "plural": "die Tore", "ipa": "toːɐ̯" }, "noteZh": "进球了大家喊:Tor!;也指大门:das Brandenburger Tor(勃兰登堡门)。" },
+    { "id": "de.pfeifen", "kind": "word", "pos": "verb", "text": "pfeifen", "zh": "吹哨;吹口哨", "features": { "ipa": "ˈpfaɪ̯fn̩" }, "noteZh": "Der Schiedsrichter pfeift.(裁判吹哨。)完成时不规则:gepfiffen;pf 两个音都要读。" },
+    { "id": "de.schiedsrichter", "kind": "word", "pos": "noun", "text": "der Schiedsrichter", "zh": "裁判", "features": { "gender": "m", "plural": "die Schiedsrichter", "ipa": "ˈʃiːtsˌʁɪçtɐ" }, "noteZh": "长词分开读:Schieds-rich-ter;球迷常抱怨:Der Schiedsrichter ist schlecht!" },
+    { "id": "de.abseits", "kind": "word", "pos": "noun", "text": "das Abseits", "zh": "越位", "features": { "gender": "n", "plural": "-", "ipa": "ˈapzaɪ̯ts" }, "noteZh": "足球规则:Abseits!(越位了!)ab 读 [ap],ts 读 [ts]。" },
+    { "id": "de.spannend", "kind": "word", "pos": "adj", "text": "spannend", "zh": "紧张刺激的;扣人心弦的", "features": { "ipa": "ˈʃpanənt" }, "noteZh": "Das Spiel ist so spannend!(比赛太紧张了!)好看的电影、书也可以说 spannend;词尾 d 读 [t]。" }
+  ],
+  "reviewItems": ["de.spiel", "de.trikot", "de.draussen", "de.pech", "de.leute"],
+  "lines": [
+    { "speaker": "jonas", "text": "Heute spielt Deutschland! Wir sehen das Spiel draußen vor dem Restaurant.", "zh": "今天德国队比赛!我们在餐馆门口外面看。", "items": ["de.heute", "de.spielen", "de.deutschland", "de.wir", "de.sehen", "de.spiel", "de.draussen", "de.vor", "de.restaurant"] },
+    { "speaker": "paul", "text": "Seht ihr? Mein Trikot vom Geburtstag!", "zh": "你们看!我生日收到的球衣!", "items": ["de.sehen", "de.ihr", "de.mein", "de.trikot", "de.von", "de.geburtstag"] },
+    { "speaker": "wei", "text": "Die Leinwand ist so groß! Und so viele Leute!", "zh": "屏幕好大!人也好多!", "items": ["de.leinwand", "de.sein", "de.so", "de.gross", "de.und", "de.viel", "de.leute"] },
+    { "speaker": "jonas", "text": "Da! Der Spieler schießt … Tor! 1:0!", "zh": "看!那个球员射门……进了!一比零!", "items": ["de.da", "de.spieler", "de.schiessen", "de.tor"] },
+    { "speaker": "paul", "text": "Tor! Tor! Deutschland ist super!", "zh": "进球啦!德国队太棒了!", "items": ["de.tor", "de.deutschland", "de.sein", "de.toll"] },
+    { "speaker": "wei", "text": "Moment, warum pfeift der Schiedsrichter?", "zh": "等等,裁判为什么吹哨?", "items": ["de.moment", "de.warum", "de.pfeifen", "de.schiedsrichter"] },
+    { "speaker": "jonas", "text": "Abseits! Das ist kein Tor. So ein Pech!", "zh": "越位!这球不算。真倒霉!", "items": ["de.abseits", "de.das_ist", "de.kein", "de.tor", "de.so", "de.ein", "de.pech"] },
+    { "speaker": "wei", "text": "Was ist Abseits? Das verstehe ich nicht.", "zh": "越位是什么?我不懂。", "items": ["de.was", "de.sein", "de.abseits", "de.verstehen", "de.ich", "de.nicht"] },
+    { "speaker": "paul", "text": "Das ist schwer. Jonas, sag du es!", "zh": "这个可难说了。约纳斯,你来说!", "items": ["de.das_ist", "de.schwer", "de.sagen", "de.du", "de.es"] },
+    { "speaker": "jonas", "text": "Der Spieler ist zu früh vor dem Tor. Dann ist es kein Tor.", "zh": "那个球员太早跑到球门前面了。这样进球就不算。", "items": ["de.spieler", "de.sein", "de.zu_adv", "de.frueh", "de.vor", "de.tor", "de.dann", "de.es", "de.kein"] },
+    { "speaker": "paul", "text": "Noch zehn Minuten. Das Spiel ist so spannend!", "zh": "还有十分钟。比赛太紧张了!", "items": ["de.noch", "de.zehn", "de.minute", "de.spiel", "de.sein", "de.so", "de.spannend"] },
+    { "speaker": "jonas", "text": "Tor! 2:1 für Deutschland!", "zh": "进球了!二比一,德国队领先!", "items": ["de.tor", "de.fuer", "de.deutschland"] }
+  ],
+  "questions": [
+    { "prompt": "他们在哪儿看球?", "options": ["在 WG 里", "在体育场", "在约纳斯工作的餐馆门口"], "answer": 2, "explainZh": "约纳斯说:Wir sehen das Spiel draußen vor dem Restaurant.(我们在餐馆门口外面看。)" },
+    { "prompt": "裁判为什么吹哨?", "options": ["越位了,那个球不算", "有人受伤了", "比赛结束了"], "answer": 0, "explainZh": "约纳斯说:Abseits! Das ist kein Tor.(越位!这球不算。)" },
+    { "prompt": "最后比分是多少?", "options": ["1:0", "2:1", "0:1"], "answer": 1, "explainZh": "最后约纳斯喊:Tor! 2:1 für Deutschland!——第一个 1:0 的进球因为越位不算,后来又进了。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_fussball", "titleZh": "看球赛的说法:比分和情绪",
+      "bodyZh": "比分写成 1:0,读 eins zu null;2:1 读 zwei zu eins——“比”在德语里说 zu。2:1 für Deutschland(德国队 2:1 领先)。\n进球了大喊:Tor!;没进、很可惜:So ein Pech!(真倒霉!);比赛很紧张:Das Spiel ist so spannend!\n不懂就问:Was ist Abseits?(越位是什么?)/ Das verstehe ich nicht.(我不懂。)\n对一群人说“你们看!”:Seht ihr?——sehen 的 ihr 形式是 seht(du siehst,ihr 不变音)。\n文化:德国队比赛时,很多餐馆、广场在外面放大屏幕,大家一起看(Public Viewing)。",
+      "examples": [
+        { "text": "Tor! 2:1 für Deutschland!", "zh": "进球了!德国队二比一领先!" },
+        { "text": "So ein Pech!", "zh": "真倒霉!" },
+        { "text": "Das Spiel ist so spannend!", "zh": "比赛太紧张了!" },
+        { "text": "Was ist Abseits?", "zh": "越位是什么?" }
+      ] }
+  ],
+  "review": "draft"
+}

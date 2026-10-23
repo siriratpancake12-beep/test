@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u17.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-17 运动与夏天", "order": 117040,
+  "titleZh": "去湖边游泳", "goalZh": "会约朋友去游泳,在湖边浴场买票、租东西、问水深不深,说自己很热", "canDoZh": "能约朋友去游泳,在湖边浴场买票、问规定、租东西",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.rad", "kind": "word", "pos": "noun", "text": "das Rad", "zh": "自行车(口语);轮子", "features": { "gender": "n", "plural": "die Räder", "ipa": "ʁaːt" }, "noteZh": "das Fahrrad 的口语说法:Rad fahren(骑车)、mit dem Rad(骑车去);词尾 d 读 [t],a 是长音;复数 die Räder。" },
+    { "id": "de.mir_ist_heiss", "kind": "phrase", "pos": "phrase", "text": "Mir ist heiß.", "zh": "我(觉得)很热。", "alt": ["Mir ist kalt.", "Ist Ihnen heiß?"], "features": { "ipa": "miːɐ̯ ɪst ˈhaɪ̯s" }, "noteZh": "说自己觉得热、冷用 Mir ist heiß / kalt(mir 是第三格,先整句记);千万别说 ✗ Ich bin heiß,意思完全不一样!" },
+    { "id": "de.strandbad", "kind": "word", "pos": "noun", "text": "das Strandbad", "zh": "(湖边、河边的)露天浴场", "features": { "gender": "n", "plural": "die Strandbäder", "ipa": "ˈʃtʁantˌbaːt" }, "noteZh": "der Strand(沙滩)+ das Bad:柏林有好几个湖边浴场,有沙滩、救生员,要买门票;复数 die Strandbäder。" },
+    { "id": "de.sonnenschirm", "kind": "word", "pos": "noun", "text": "der Sonnenschirm", "zh": "遮阳伞", "features": { "gender": "m", "plural": "die Sonnenschirme", "ipa": "ˈzɔnənˌʃɪʁm" }, "noteZh": "die Sonne + der Schirm(伞);雨伞是 der Regenschirm。" },
+    { "id": "de.tief", "kind": "word", "pos": "adj", "text": "tief", "zh": "深的", "features": { "ipa": "tiːf" }, "noteZh": "Ist das Wasser hier tief?(这儿水深吗?)反义 flach(浅);ie 读长音 [iː]。" },
+    { "id": "de.flach", "kind": "word", "pos": "adj", "text": "flach", "zh": "浅的;平的", "features": { "ipa": "flax" }, "noteZh": "Das Wasser ist flach.(水浅。)也指地方平:Berlin ist flach.(柏林很平。)ch 在 a 后读 [x]。" },
+    { "id": "de.schwimmer", "kind": "word", "pos": "noun", "text": "der Schwimmer", "zh": "游泳的人", "features": { "gender": "m", "plural": "die Schwimmer", "ipa": "ˈʃvɪmɐ" }, "noteZh": "浴场常分区:nur für Schwimmer(只限会游泳的人)、für Nichtschwimmer(给不会游泳的人);女的是 die Schwimmerin。" },
+    { "id": "de.sonnenbrand", "kind": "word", "pos": "noun", "text": "der Sonnenbrand", "zh": "晒伤", "features": { "gender": "m", "plural": "die Sonnenbrände", "ipa": "ˈzɔnənˌbʁant" }, "noteZh": "die Sonne + der Brand(烧):einen Sonnenbrand bekommen(被晒伤);夏天去湖边要在 Schatten 里待一会儿,别晒太久。" }
+  ],
+  "reviewItems": ["de.eintritt", "de.grad", "de.moment", "de.schwimmen", "de.see"],
+  "lines": [
+    { "speaker": "lena", "text": "Heute sind es 34 Grad! Wir fahren mit dem Rad zum See.", "zh": "(七月初)今天 34 度!我们骑车去湖边吧。", "items": ["de.heute", "de.sein", "de.es", "de.grad", "de.wir", "de.fahren", "de.mit", "de.rad", "de.zu", "de.see"] },
+    { "speaker": "sofia", "text": "Super! Mir ist so heiß. Wir gehen schwimmen!", "zh": "太好了!我热死了。我们去游泳!", "items": ["de.toll", "de.mir_ist_heiss", "de.so", "de.wir", "de.gehen", "de.schwimmen"] },
+    { "speaker": "mitarbeiterin", "text": "Willkommen im Strandbad! Der Eintritt kostet sechs Euro, für Studenten vier.", "zh": "欢迎来到湖边浴场!门票六欧元,学生四欧元。", "items": ["de.herzlich_willkommen", "de.in", "de.strandbad", "de.eintritt", "de.kosten", "de.sechs", "de.euro", "de.fuer", "de.student", "de.vier"] },
+    { "speaker": "wei", "text": "Drei Studenten, bitte. Gibt es hier Sonnenschirme?", "zh": "三张学生票。这儿有遮阳伞吗?", "items": ["de.drei", "de.student", "de.bitte", "de.es_gibt", "de.hier", "de.sonnenschirm"] },
+    { "speaker": "mitarbeiterin", "text": "Ja, ein Sonnenschirm kostet fünf Euro am Tag.", "zh": "有,遮阳伞一天五欧元。", "items": ["de.ja", "de.ein", "de.sonnenschirm", "de.kosten", "de.fuenf", "de.euro", "de.am", "de.tag"] },
+    { "speaker": "lena", "text": "Wei, kannst du gut schwimmen?", "zh": "王伟,你游泳游得好吗?", "items": ["de.koennen", "de.du", "de.gut", "de.schwimmen"] },
+    { "speaker": "wei", "text": "Nicht so gut. Ist das Wasser hier tief?", "zh": "不太好。这儿的水深吗?", "items": ["de.nicht", "de.so", "de.gut", "de.sein", "de.wasser", "de.hier", "de.tief"] },
+    { "speaker": "mitarbeiterin", "text": "Rechts ist es flach. Da können Sie gut schwimmen.", "zh": "右边水浅。您可以在那儿游。", "items": ["de.rechts", "de.sein", "de.es", "de.flach", "de.da", "de.koennen", "de.sie_hoeflich", "de.gut", "de.schwimmen"] },
+    { "speaker": "sofia", "text": "Und links ist es tief, oder?", "zh": "左边水深,是吧?", "items": ["de.und", "de.links", "de.sein", "de.es", "de.tief", "de.oder"] },
+    { "speaker": "mitarbeiterin", "text": "Ja, links nur für gute Schwimmer!", "zh": "对,左边只给游得好的人!", "items": ["de.ja", "de.links", "de.nur", "de.fuer", "de.gut", "de.schwimmer"] },
+    { "speaker": "lena", "text": "Moment! Die Sonne ist sehr heiß. Ich will keinen Sonnenbrand!", "zh": "等一下!太阳太晒了。我可不想被晒伤!", "items": ["de.moment", "de.sonne", "de.sein", "de.sehr", "de.heiss", "de.ich", "de.wollen", "de.kein", "de.sonnenbrand"] },
+    { "speaker": "wei", "text": "Hier ist der Sonnenschirm. Und jetzt gehen wir schwimmen!", "zh": "遮阳伞在这儿。现在我们去游泳吧!", "items": ["de.hier", "de.sein", "de.sonnenschirm", "de.und", "de.jetzt", "de.gehen", "de.wir", "de.schwimmen"] }
+  ],
+  "questions": [
+    { "prompt": "学生的门票多少钱?", "options": ["六欧元", "五欧元", "四欧元"], "answer": 2, "explainZh": "工作人员说:Der Eintritt kostet sechs Euro, für Studenten vier.(门票六欧元,学生四欧元。)五欧元是遮阳伞一天的价钱。" },
+    { "prompt": "王伟为什么问水深不深?", "options": ["他游泳游得不太好", "他想去深水区", "他没带泳衣"], "answer": 0, "explainZh": "莉娜问他游得好不好,王伟说:Nicht so gut. Ist das Wasser hier tief?(不太好。这儿的水深吗?)" },
+    { "prompt": "莉娜为什么喊 “Moment!”?", "options": ["她的手机不见了", "太阳太晒,她不想被晒伤", "她想先吃东西"], "answer": 1, "explainZh": "莉娜说:Die Sonne ist sehr heiß. Ich will keinen Sonnenbrand!(太阳太晒了,我不想被晒伤!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u17_gehen_infinitiv", "titleZh": "gehen + 不定式;Mir ist heiß",
+      "bodyZh": "去做某事:gehen + 不定式,不定式放在句末:Wir gehen schwimmen.(我们去游泳。)/ Ich gehe einkaufen.(我去买东西。)完成时:Ich bin schwimmen gegangen.(第 8 单元)\n说自己热、冷:Mir ist heiß.(我很热。)/ Mir ist kalt.(我冷。)——德语的意思是“对我来说热”,mir 是第三格,先整句记;千万别说 ✗ Ich bin heiß,意思完全不同!\n说天气温度:Heute sind es 34 Grad.(今天 34 度。)——度数大于 1 时动词用 sind。\n问有没有:Gibt es hier Sonnenschirme?(这儿有遮阳伞吗?)",
+      "examples": [
+        { "text": "Wir gehen schwimmen!", "zh": "我们去游泳!" },
+        { "text": "Mir ist so heiß.", "zh": "我热死了。" },
+        { "text": "Heute sind es 34 Grad.", "zh": "今天 34 度。" },
+        { "text": "Gibt es hier Sonnenschirme?", "zh": "这儿有遮阳伞吗?" }
+      ] }
+  ],
+  "review": "draft"
+}
