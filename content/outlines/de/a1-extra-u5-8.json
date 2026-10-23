@@ -14,12 +14,12 @@
       "canDoZh": "能看懂电影院的一周放映表,找出哪天几点放哪部电影、多长时间、票价多少",
       "scenarioZh": "体裁:电影院网站上的放映表(影院不写真实名称)。约好看电影以后,王伟和莉娜在手机上查放映表:三部电影,每部写着星期几、几点开始(24 小时制,如 20:15)、片长几个小时和票价,周二票价便宜;最后是王伟发给莉娜的一句话:哪一场最合适。Minute 第 6 单元才教,片长用 zwei Stunden 这样的说法。说话人:narrator(放映表)、wei(最后一句)。",
       "grammarFocusZh": "复习:am + 星期、um + 钟点、正式的钟点说法(zwanzig Uhr fünfzehn)和价格;können 的用法(Am Dienstag können wir …)",
-      "skills": ["read"], "estimatedMinutes": 12,
+      "skills": ["read"], "estimatedMinutes": 15,
       "newItems": [
         { "id": "de.kinokarte", "kind": "word", "pos": "noun", "text": "die Kinokarte", "zh": "电影票", "features": { "gender": "f", "plural": "die Kinokarten", "ipa": "ˈkiːnoˌkaʁtə" }, "noteZh": "das Kino(电影院)+ die Karte(卡、票);复合词的性跟着最后一个词走,所以是 die Kinokarte。口语里也常只说 die Karte:Ich habe zwei Karten." },
         { "id": "de.lang", "kind": "word", "pos": "adj", "text": "lang", "zh": "长;(时间)长", "features": { "ipa": "laŋ" }, "noteZh": "ng 读 [ŋ],g 不单独发音;说片长、时长:Der Film ist zwei Stunden lang.(电影两个小时长。)" }
       ],
-      "reviewItems": ["de.kino", "de.film", "de.stunde", "de.koennen"]
+      "reviewItems": ["de.kino", "de.film", "de.stunde", "de.koennen", "de.kosten"]
     },
     {
       "id": "de.a1u5.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105060,
