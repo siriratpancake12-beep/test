@@ -1,0 +1,1421 @@
+{
+  "lang": "fr",
+  "units": [
+    {
+      "id": "a1u1",
+      "unit": "A1-1 Bonjour !",
+      "cefr": "A1",
+      "themeZh": "问候和告别、tu 和 vous、介绍自己和朋友的名字和国籍、数字 1–10,新增拼写名字、给新朋友发第一条短信和读同学的自我介绍卡。",
+      "grammarZh": "主语代词 je/tu/il/elle/vous 和 être、语调疑问句、国籍形容词的阴阳性、复数 -s 不发音,新增字母表和重音符号、短信里的口语问候。",
+      "pronunciationZh": "字母和重音符号的读法、词尾辅音和复数 -s 一般不发音、数字的联诵(deux‿euros)和 six / dix 的三种读法、问句句末升调。",
+      "lessons": [
+        {
+          "id": "fr.a1u1.r01",
+          "type": "reading",
+          "titleZh": "欢迎墙上的自我介绍(卡片)",
+          "canDoZh": "能读懂几张简短的自我介绍卡片,说出每个人叫什么、是哪国人、来自哪个城市",
+          "scenarioZh": "体裁:卡片,8–10 句,旁白朗读。语言中心走廊的“欢迎墙”上贴着新同学手写的卡片:Bonjour ! Je suis Yuki, je suis japonaise, de Tokyo.……还有德国、意大利、巴西来的同学,最后一张是浩写的。卡片里的人只出现在文字里。在第 4 课之后读,只用第 1–4 课的词,几个新国籍(japonais、allemand、italien、brésilien)是本篇的新词。",
+          "grammarFocusZh": "复习 être 和 c'est;国籍形容词阴阳性的规律:+e 以后词尾辅音要读出来(japonais → japonaise,s 读 [z];allemand → allemande),-ien → -ienne;卡片里的问候和告别"
+        },
+        {
+          "id": "fr.a1u1.l06",
+          "type": "vocab",
+          "titleZh": "Comment ça s'écrit ?——字母和重音符号",
+          "canDoZh": "能用法语字母拼出自己的姓、名和家乡的名字,听懂别人拼写的名字并写下来",
+          "scenarioZh": "第一节法语课,莫罗老师点名,请每个学生拼出自己的姓和名。浩拼 Z-H-A-N-G 和 H-A-O;老师问 Chengdu 怎么拼,浩一个字母一个字母地说,老师写在黑板上。浩说他的语伴叫 Chloé,老师写出来,讲 é 上的 accent aigu。",
+          "grammarFocusZh": "字母表的读法,最容易混的是 E [ə] / I [i] / U [y] 和 G [ʒe] / J [ʒi];重音符号 accent aigu(é)、accent grave(è)、accent circonflexe(ê)和 cédille(ç)的名称,写名字时不能漏;Comment ça s'écrit ? / Ça s'écrit… 先当固定说法整句记"
+        },
+        {
+          "id": "fr.a1u1.l07",
+          "type": "dialogue",
+          "titleZh": "第一条短信——Coucou、À plus 和 Bisous",
+          "canDoZh": "能给新认识的朋友发几句问候短信(我是谁、你好吗、谢谢),看懂朋友回复里的 Coucou、À plus、Bisous",
+          "scenarioZh": "晚上浩给克洛艾发第一条短信:Bonsoir Chloé ! C'est Hao.,问她好不好,谢谢她今天带他认路;克洛艾回 Coucou Hao ! Ça va très bien !,最后写 À plus ! Bisous !。浩看不懂 bisous,第二天早上在宿舍门口问卢卡,卢卡笑着解释朋友之间的贴面礼和短信里的 bisous。课文由两人的短信和浩、卢卡的一段对话组成。",
+          "grammarFocusZh": "短信里的口语:Coucou(朋友之间的“嗨”)、À plus(常写成 A+)、Bisous(朋友、家人之间);复习 tu 和 vous:给老师发消息不用 Coucou 和 Bisous;法语的问号、感叹号前空一格"
+        },
+        {
+          "id": "fr.a1u1.r02",
+          "type": "reading",
+          "titleZh": "浩在里昂的第一天(日记)",
+          "canDoZh": "能读懂一篇几句话的日记,说出浩第一天认识了谁、在哪儿喝了什么、住几号房",
+          "scenarioZh": "体裁:日记,8–10 句,旁白朗读。浩用刚学的法语写第一天:Bonsoir ! Je suis Hao. Je suis chinois, de Chengdu. Je suis étudiant.……他认识了法国女生克洛艾、住在隔壁的卢卡和加拿大女生艾米莉;在咖啡馆喝了一杯咖啡;宿舍是八号房。全篇用现在时和本单元的词(过去时第 8 单元才学,日期第 5 单元才学,所以不写日期)。",
+          "grammarFocusZh": "复习 être、c'est、国籍和数字 1–10;日记的写法:用现在时、短句;Je ne comprends pas 这类固定说法照原样用"
+        }
+      ]
+    },
+    {
+      "id": "a1u2",
+      "unit": "A1-2 在咖啡馆和面包店",
+      "cefr": "A1",
+      "themeZh": "在面包店和咖啡馆买吃的喝的、听懂 20 欧以内的价格、说喜欢和不喜欢、法式早餐,新增学生食堂的一餐、替朋友买早餐、看黑板菜单和写一篇早餐博客。",
+      "grammarZh": "不定冠词 un/une、Je voudrais / Je prends、aimer + 定冠词、ne…pas、部分冠词 du/de la 和否定后的 de,新增 préférer 的变位(é → è)和 s'il te plaît / s'il vous plaît 的区别。",
+      "pronunciationZh": "三个鼻化元音 [ɑ̃](croissant)、[ɔ̃](bon)、[ɛ̃](pain)和 un [œ̃],vingt、croissant 词尾的字母不发音。",
+      "lessons": [
+        {
+          "id": "fr.a1u2.r01",
+          "type": "reading",
+          "titleZh": "卡里姆咖啡馆的黑板菜单(菜单)",
+          "canDoZh": "能看懂咖啡馆的饮料和小吃菜单,找到价格,算出两样东西一共多少钱(20 欧以内)",
+          "scenarioZh": "体裁:菜单 + 一段说明,约 8 句,旁白朗读。咖啡馆门口的黑板上写着今天的饮料、三明治和可颂的价格;旁白介绍哪样最便宜、热巧克力多少钱、卡里姆推荐什么。读完回答“一杯茶和一个可颂一共多少钱”。在第 4 课之后读,只用第 1–4 课的词:部分冠词第 5 课才学,菜单里不出现 du / de la。",
+          "grammarFocusZh": "复习 un / une、avec / sans、ou、aimer;菜单上的价格写法 1,20 €:法语用逗号作小数点,读 un euro vingt"
+        },
+        {
+          "id": "fr.a1u2.l06",
+          "type": "vocab",
+          "titleZh": "学生食堂——前菜、主菜和甜点",
+          "canDoZh": "能在学生食堂选前菜、主菜和甜点,说出常见的肉、鱼和主食,并说自己更喜欢什么",
+          "scenarioZh": "中午,卢卡第一次带浩去学生食堂(le resto U)。卢卡解释法国的一餐分 entrée、plat、dessert——entrée 是前菜,不是主菜;浩拿了胡萝卜沙拉、鸡肉配米饭和一个酸奶,卢卡拿了两份薯条和一大块面包;卢卡问浩喜欢鱼还是肉,浩说他更喜欢鱼。",
+          "grammarFocusZh": "préférer 的变位:je préfère, tu préfères, il préfère, vous préférez(é 变成 è,读音也从 [e] 变成 [ɛ];nous 形式第 3 单元学);复习部分冠词和 pas de(Je ne mange pas de viande);法国一餐的顺序"
+        },
+        {
+          "id": "fr.a1u2.l07",
+          "type": "dialogue",
+          "titleZh": "帮卢卡买早餐——s'il te plaît",
+          "canDoZh": "能看懂朋友托你买东西的短信,在面包店替两个人点单、付钱,回去和朋友算钱",
+          "scenarioZh": "星期六早上卢卡还没起床,给正在面包店排队的浩发短信:请他带一个可颂和一根长棍面包,s'il te plaît;浩回短信问他要不要巧克力面包。到了柜台,浩用 Je voudrais… 点两个人的早餐,店员报价(20 欧以内),浩付钱。回到宿舍,卢卡说 Merci ! C'est combien ?,把钱还给浩。",
+          "grammarFocusZh": "s'il te plaît(对朋友)和 s'il vous plaît(对店员、老师)的区别;复习 un / une、Je voudrais、C'est combien ? / Ça fait…;短信里常省掉动词的短句(Un croissant, s'il te plaît !)"
+        },
+        {
+          "id": "fr.a1u2.r02",
+          "type": "reading",
+          "titleZh": "法国早餐和中国早餐(博客)",
+          "canDoZh": "能读懂一篇比较早餐习惯的短文,说出法国人和中国人早餐常吃什么、喝什么",
+          "scenarioZh": "体裁:博客短文,约 10 句,旁白朗读。浩在语伴网站上写了第一篇法语博客:在法国,早上吃面包、黄油和果酱,喝咖啡或热巧克力;在成都,他早上吃面条和包子(两个新词),喝牛奶;现在他两种早餐都喜欢,但还是不喝咖啡。克洛艾在下面留言:J'adore les baozi !。第三人称复数第 3 单元才学,文章用 je、vous 和“在法国:……”这样的短句。",
+          "grammarFocusZh": "复习部分冠词 du / de la / de l' 和否定后的 de、aimer / adorer + 定冠词;用 mais、aussi、et 连接句子"
+        }
+      ]
+    },
+    {
+      "id": "a1u3",
+      "unit": "A1-3 家人与朋友",
+      "cefr": "A1",
+      "themeZh": "家庭成员、年龄、家人住在哪儿和做什么工作、描述朋友、去朋友家做客,新增宠物、做客带什么礼物、读大家庭的家谱和语伴网站上的个人主页。",
+      "grammarZh": "avoir、主有形容词 mon/ton/son 系列、-er 动词全部人称、职业前不加冠词、形容词的性数配合、数字 21–69,新增名词复数的特殊形式 -al → -aux、-eau → -eaux。",
+      "pronunciationZh": "-er 动词词尾 -e/-es/-ent 不发音,ils sont [s] 和 ils ont [z] 要听辨,阴性形容词的词尾辅音要读出来(grand / grande)。",
+      "lessons": [
+        {
+          "id": "fr.a1u3.r01",
+          "type": "reading",
+          "titleZh": "浩的大家庭(家谱)",
+          "canDoZh": "能读懂一段介绍大家庭的文字,说出每个亲戚是谁、几岁、住在哪儿、做什么工作",
+          "scenarioZh": "体裁:家谱图 + 说明文字,约 10 句,旁白朗读。浩给语伴网站做了一张家谱:爷爷奶奶退休了,住在成都;爸爸 50 岁,是工程师;妈妈 48 岁,是医生;他还有一个舅舅(老师)、一个姨妈和一个上高中的表弟(第 5 课录语音给他的那个表弟)。旁白顺便说明:法语的 oncle、tante、cousin 不分父系母系,中文分得很细。在第 4 课之后读,son / sa / ses 第 5 课才学,不要用。",
+          "grammarFocusZh": "复习 avoir … ans、-er 动词(habiter, travailler)、职业不加冠词;新词 l'oncle、la tante、le cousin、la cousine 的阴阳性"
+        },
+        {
+          "id": "fr.a1u3.l06",
+          "type": "vocab",
+          "titleZh": "克洛艾家的猫——宠物",
+          "canDoZh": "能说自己或朋友家养什么宠物,用几个形容词描述它们",
+          "scenarioZh": "课后在咖啡馆,克洛艾给浩和卢卡看手机里的照片:她家有一只叫 Caramel 的大猫,妹妹还养了两条鱼;卢卡说他特别喜欢狗,可是宿舍里不能养;浩说在成都很多人养狗,他自己没有宠物,但爷爷奶奶有一只小狗。",
+          "grammarFocusZh": "名词复数的特殊形式:-al → -aux(un animal → des animaux)、-eau → -eaux(un oiseau → des oiseaux,x 不发音);复习 avoir + un / une 和否定 pas de(Je n'ai pas d'animal);形容词配合(il est petit / elle est petite)"
+        },
+        {
+          "id": "fr.a1u3.l07",
+          "type": "dialogue",
+          "titleZh": "去做客带什么?——礼物和礼节",
+          "canDoZh": "能问朋友去别人家做客该带什么,说出常见的小礼物,并在门口礼貌地送出礼物",
+          "scenarioZh": "克洛艾邀请浩星期天去她家吃午饭(下一课)。浩在公共厨房问卢卡要带什么:卢卡说可以带花或巧克力,千万别送菊花(在法国是扫墓用的),也不用太贵;浩决定带一盒从成都带来的茶。最后卢卡扮演伊莎贝尔,浩练习在门口问好、送茶。",
+          "grammarFocusZh": "复习 -er 动词(apporter, aimer)和 un / une;复数不定冠词 des 第 4 单元才学,这里用 les fleurs、le chocolat 泛指;文化:法国做客的礼仪(带花或巧克力、不送菊花、可以晚到十分钟,但不要早到)"
+        },
+        {
+          "id": "fr.a1u3.r02",
+          "type": "reading",
+          "titleZh": "克洛艾的语伴档案(个人主页)",
+          "canDoZh": "能读懂语伴网站上的个人主页(年龄、家人、职业、爱好),并照着写自己的主页",
+          "scenarioZh": "体裁:网站个人主页,约 10 句,旁白朗读。克洛艾给浩看她在语伴网站上的主页:她 20 岁,住在里昂,学中文;她有一个 23 岁的哥哥和一个 15 岁的妹妹,妈妈是小学老师,爸爸很幽默;家里有一只猫 Caramel;她想找一个说中文的语伴。读完回答问题,再照着写浩自己的主页。",
+          "grammarFocusZh": "复习 avoir 和年龄、mon / ma / mes 和 son / sa / ses、职业不加冠词、形容词配合;个人主页常用的短句写法"
+        }
+      ]
+    },
+    {
+      "id": "a1u4",
+      "unit": "A1-4 我的住处",
+      "cefr": "A1",
+      "themeZh": "宿舍房间和家具、东西放在哪儿、楼层和设施、朋友家的公寓、地址和电话,新增找管理员报修、公共厨房的用品、读宿舍入住须知和合租广告。",
+      "grammarZh": "il y a / il n'y a pas de、des、地点介词、三种疑问句、beau / nouveau 的位置和特殊形式、notre / votre、0 和 70–100,新增 Ça ne marche pas(东西坏了)和厨房用品的阴阳性。",
+      "pronunciationZh": "[y] 和 [u] 的对比(sur / sous、rue / roue),70–99 的连读,法国手机号两位一组的读法。",
+      "lessons": [
+        {
+          "id": "fr.a1u4.r01",
+          "type": "reading",
+          "titleZh": "宿舍门厅的入住须知(通知)",
+          "canDoZh": "能看懂宿舍门厅贴的通知:厨房、浴室在几楼,房间里有什么,有什么规定",
+          "scenarioZh": "体裁:通知,8–10 句,旁白朗读。宿舍管理员写的《欢迎入住》:公共厨房在地面层,每层有浴室和厕所,在电梯对面;房间里有床、书桌和衣柜;房间里不能做饭(Pas de cuisine dans la chambre);垃圾桶在厨房门后面。在第 4 课之后读,只用第 1–4 课的词;钟点第 5 单元才学,通知里不写时间。",
+          "grammarFocusZh": "复习 il y a / il n'y a pas de、地点介词、楼层的说法;通知的写法:标题 + 短句;禁止的意思先用 pas de + 名词表达"
+        },
+        {
+          "id": "fr.a1u4.l06",
+          "type": "dialogue",
+          "titleZh": "台灯不亮了——找管理员报修",
+          "canDoZh": "能向宿舍管理员说房间里什么东西坏了、不能用,并说清房间号和楼层",
+          "scenarioZh": "晚上浩房间的台灯不亮了,暖气也不热。他到前台找宿舍管理员:Bonsoir, monsieur. Il y a un problème dans la chambre 8.;管理员问在几楼、什么东西坏了,一样一样记下来,和浩一起上楼看;原来台灯只是没插好,暖气要等工人来修。浩不好意思地笑了。",
+          "grammarFocusZh": "Ça ne marche pas. / Le chauffage ne marche pas.(复习 ne…pas);Il y a un problème;复习 premier étage 和房间号;对管理员用 vous"
+        },
+        {
+          "id": "fr.a1u4.l07",
+          "type": "vocab",
+          "titleZh": "公共厨房里有什么?——厨房用品",
+          "canDoZh": "能说出厨房里常用的东西(锅、盘子、杯子、刀叉),问朋友某样东西在哪儿",
+          "scenarioZh": "周末,浩和卢卡第一次在地面层的公共厨房一起做饭。卢卡找不到平底锅,浩说在冰箱旁边的柜子里;盘子和杯子在桌子上,刀叉在抽屉里;浩带来了自己的电饭锅,卢卡第一次见,觉得很神奇。",
+          "grammarFocusZh": "厨房用品的阴阳性(la poêle, l'assiette f., le verre, la fourchette, le couteau, la cuillère, le frigo);复习 Où est… ? / Où sont… ? 和地点介词 dans / sur / à côté de"
+        },
+        {
+          "id": "fr.a1u4.r02",
+          "type": "reading",
+          "titleZh": "三则合租广告(广告)",
+          "canDoZh": "能看懂简单的租房广告(几个房间、在几楼、有什么家具、房租多少),说出哪一则最适合自己",
+          "scenarioZh": "体裁:租房广告,3 则共约 10 句,旁白朗读。克洛艾给浩看网上的三则合租广告(colocation):一套在红十字区四楼、没有电梯的大公寓;一套在地面层、带花园的小房子;一套新公寓,有家具,但房间很小。房租写整百的数(300、400、500 欧,cent 的复数规则第 9 单元再讲)。浩说他的宿舍 300 欧,还是宿舍好——为 A2 的搬家做铺垫。",
+          "grammarFocusZh": "复习 il y a、楼层、beau / nouveau 的位置、70–100;广告里的缩写 m²(mètres carrés)和 colocation 的意思"
+        }
+      ]
+    },
+    {
+      "id": "a1u5",
+      "unit": "A1-5 时间与日常",
+      "cefr": "A1",
+      "themeZh": "钟点、星期和课表、一天的作息、平时做什么、日期和生日、邀请和约时间,新增问营业时间、听懂老师的放假通知、做作息小测验和读生日邀请卡。",
+      "grammarZh": "钟点和 24 小时制、星期和日期、代词式动词 se lever、faire、on、quand,新增 de … à …(从……到……)和 ouvert / fermé 的配合。",
+      "pronunciationZh": "eu 的两种读音 [ø] / [œ](deux / heure),钟点里的联诵和变音(trois‿heures 读 [z],neuf heures 的 f 读 [v])。",
+      "lessons": [
+        {
+          "id": "fr.a1u5.r01",
+          "type": "reading",
+          "titleZh": "你是早起的鸟还是夜猫子?(小测验)",
+          "canDoZh": "能读懂杂志上关于作息的小测验,选出自己的答案并看懂结果",
+          "scenarioZh": "体裁:杂志小测验,5 道选择题 + 结果说明,旁白朗读。克洛艾在杂志上看到一个小测验,拿给浩和卢卡做:星期六你几点起床?晚上几点睡觉?早上先做什么?……多数选 A 是“早起的鸟”,多数选 C 是“夜猫子”。卢卡全选 C,浩全选 A。在第 4 课之后读,日期和月份第 5 课才学。",
+          "grammarFocusZh": "复习钟点、星期、se lever / se coucher、faire;选择题的格式 a) b) c);频率 tous les jours / souvent"
+        },
+        {
+          "id": "fr.a1u5.l06",
+          "type": "vocab",
+          "titleZh": "几点开门?——营业时间",
+          "canDoZh": "能问图书馆、商店几点开门、几点关门,看懂门口的营业时间牌",
+          "scenarioZh": "星期六中午十二点半,浩和克洛艾到大学图书馆想学习,门口的牌子写着:星期一到星期五 8 h 30 – 20 h,星期六 9 h – 13 h,星期天关门——只剩半个小时了!克洛艾说法国很多地方星期天不开门;浩问面包店星期天开不开,克洛艾说宿舍楼下的面包店星期天上午开。",
+          "grammarFocusZh": "de … à … 表示时间段(de 9 h à 13 h);ouvert / fermé 和名词配合(La bibliothèque est fermée le dimanche);复习 le dimanche(每个星期天)和 24 小时制;文化:星期天很多店关门"
+        },
+        {
+          "id": "fr.a1u5.l07",
+          "type": "dialogue",
+          "titleZh": "下星期放假!——听懂老师的通知",
+          "canDoZh": "能听懂老师关于放假和上课时间变动的口头通知,记下星期、日期和钟点",
+          "scenarioZh": "10 月 23 日星期五下课前,莫罗老师用 vous 通知大家:下星期是万圣节假期(les vacances de la Toussaint),没有课;11 月 2 日星期一开始上课,但那天十点才开始;星期四下午的课改到星期三下午。浩没听清日期,说 Je ne comprends pas…,老师放慢再说一遍;下课后浩把变动写进日程本。",
+          "grammarFocusZh": "日期、星期和钟点的综合听力;Il n'y a pas de cours(否定后的 de 复习);commencer à + 钟点(Le cours commence à dix heures);文化:法国学校的万圣节假期和 11 月 1 日 la Toussaint"
+        },
+        {
+          "id": "fr.a1u5.r02",
+          "type": "reading",
+          "titleZh": "克洛艾的生日聚会邀请卡(邀请卡)",
+          "canDoZh": "能读懂一张聚会邀请卡(日期、钟点、地点、要带什么、什么时候回复),并用一两句话回复",
+          "scenarioZh": "体裁:电子邀请卡 + 回复短信,约 10 句,旁白朗读。克洛艾发给朋友们的邀请卡:11 月 7 日星期六晚上八点半,在她家(红十字区);可以带一样吃的或喝的;11 月 4 日前回复。后面附三条回复:浩说一定来;卢卡说那天晚上没空,星期天下午可以一起喝咖啡;艾米莉说她带一个蛋糕。",
+          "grammarFocusZh": "复习日期、钟点、libre / désolé、faire une fête;邀请卡的格式;接受和婉拒的说法"
+        }
+      ]
+    },
+    {
+      "id": "a1u6",
+      "unit": "A1-6 城市与交通",
+      "cefr": "A1",
+      "themeZh": "城市里的地方、去哪儿和怎么去、问路、坐地铁、买火车票、说自己从哪儿来,新增听懂火车站广播、告诉朋友自己在哪儿、读地铁站的标识和里昂一日游攻略。",
+      "grammarZh": "aller、prendre、venir、à / de 和冠词的缩合、en / à + 交通工具、命令式、近将来时、国家前的介词,新增 arriver 的变位(J'arrive !)和广播里的固定结构。",
+      "pronunciationZh": "小舌音 [ʁ](train、droite、prendre)和 au / eau / o 读 [o],广播里 24 小时制时刻的读法。",
+      "lessons": [
+        {
+          "id": "fr.a1u6.r01",
+          "type": "reading",
+          "titleZh": "地铁站里的牌子和乘车须知(标识)",
+          "canDoZh": "能看懂地铁站里的标识和乘车须知:入口、出口、方向、换乘、检票",
+          "scenarioZh": "体裁:标识 + 须知,8–10 句,旁白朗读。地铁站里的几块牌子(Entrée、Sortie、Correspondance、Direction …)和一张《乘车须知》:上车前先买票并检票(Validez votre ticket);换乘时看终点站名认方向;下车的人先下。读完回答“想去火车站,要在哪儿换乘”。",
+          "grammarFocusZh": "命令式(vous 形式)在须知里的用法:Validez…, Prenez…, Descendez…;复习 prendre la ligne A、changer、la direction;标识上的名词 l'entrée, la sortie, la correspondance"
+        },
+        {
+          "id": "fr.a1u6.l06",
+          "type": "dialogue",
+          "titleZh": "火车晚点了——听懂车站广播",
+          "canDoZh": "能听懂火车站广播里的车次去向、站台和晚点时间,并转告朋友",
+          "scenarioZh": "星期五下午,浩送卢卡去 Part-Dieu 火车站,卢卡周末回马赛看爸妈。广播(narrator)说开往马赛的火车晚点二十分钟,在 G 站台(voie G)发车;卢卡在看手机没听清,浩复述一遍。两人在车站等车,卢卡说他七月或八月想去巴黎玩。广播再次通知:火车马上进站。",
+          "grammarFocusZh": "广播的固定结构用现在时和近将来时:Le train à destination de Marseille part voie G / a vingt minutes de retard / va entrer en gare;复习 24 小时制时刻和 en retard"
+        },
+        {
+          "id": "fr.a1u6.l07",
+          "type": "dialogue",
+          "titleZh": "你在哪儿?——告诉朋友自己的位置",
+          "canDoZh": "能用地点介词告诉朋友自己在什么地方,约好碰头的地点",
+          "scenarioZh": "星期六,浩和克洛艾约在 Bellecour 广场见面,可是找不到对方。两人发短信、打电话:浩说他在药店前面、银行对面;克洛艾说她在地铁站出口旁边;最后克洛艾说 J'arrive !,两人在广场中间的雕像下面见了面。",
+          "grammarFocusZh": "复习地点介词和缩合:à côté du métro, en face de la banque, près de la pharmacie;Tu es où ? / Je suis devant…;arriver 的变位(j'arrive, tu arrives, il arrive)和 J'arrive ! 的意思(我马上到)"
+        },
+        {
+          "id": "fr.a1u6.r02",
+          "type": "reading",
+          "titleZh": "里昂一日游(旅游攻略)",
+          "canDoZh": "能看懂一份简单的城市一日游攻略(先去哪儿、怎么去、坐哪条线),给朋友推荐一条路线",
+          "scenarioZh": "体裁:旅游小册子,10–12 句,旁白朗读。语言中心发给新生的《里昂一日游》:上午坐地铁 D 线到老城(Vieux Lyon),坐缆车或走路上富维耶山看全城;中午在老城吃饭;下午坐地铁去红十字区,逛市场和小街。用命令式和近将来时写。读完给刚到里昂的朋友排一条路线。",
+          "grammarFocusZh": "复习命令式(Prenez la ligne D…)、近将来时(Vous allez voir…)、à / en + 交通工具、冠词缩合"
+        }
+      ]
+    },
+    {
+      "id": "a1u7",
+      "unit": "A1-7 购物与办事",
+      "cefr": "A1",
+      "themeZh": "菜市场、衣服和颜色、试衣服和付款、银行开户、电话预约、挑礼物,新增去理发店剪头发、在超市按包装买东西、读服装店传单和写生日贺卡。",
+      "grammarZh": "数量词 + de、颜色的配合、ce/cet/cette/ces、trop、vouloir / pouvoir / devoir + 动词原形、il faut、年份,新增包装量词(un paquet de, une boîte de, un litre de)和 court / long。",
+      "pronunciationZh": "[ʃ] 和 [ʒ](chaussure / rouge),开口 [ɛ] 和闭口 [e](j'achète / acheter)。",
+      "lessons": [
+        {
+          "id": "fr.a1u7.r01",
+          "type": "reading",
+          "titleZh": "服装店的冬季传单(广告)",
+          "canDoZh": "能看懂服装店的广告传单:有什么衣服、什么颜色、多少钱、哪几天",
+          "scenarioZh": "体裁:广告传单,约 10 句,旁白朗读。浩和克洛艾逛街时拿到一张传单:冬季新款,黑色大衣 89 欧、蓝色毛衣 35 欧、白色鞋子 60 欧……;11 月 2 日到 15 日,所有毛衣 30 欧。读完回答:想买一件黑色大衣和一件绿色毛衣一共多少钱。在第 4 课之后读,价格在 100 以内。",
+          "grammarFocusZh": "复习颜色的配合、ce / cette / ces、trop cher、价格;传单上的常见词 nouveau、le prix"
+        },
+        {
+          "id": "fr.a1u7.l06",
+          "type": "dialogue",
+          "titleZh": "在理发店——剪短一点",
+          "canDoZh": "能跟理发师说想怎么剪(短一点、不要太短),听懂理发师的问题,剪完付钱",
+          "scenarioZh": "星期二下午五点半,浩准时到理发店(第 5 课打电话约好的)。理发师问他想怎么剪,浩说要短,但不要太短;理发师问要不要洗头,浩说要;剪完理发师拿镜子给他看:C'est bien comme ça ?;浩很满意,问多少钱,刷卡付款。",
+          "grammarFocusZh": "court / long 和 trop、un peu 的搭配(Courts, mais pas trop courts ! 比较级 A2 才学,不说 plus court);复习 pouvoir(Vous pouvez couper ici ?)和 payer par carte;理发店用语 la coupe, le shampooing"
+        },
+        {
+          "id": "fr.a1u7.l07",
+          "type": "vocab",
+          "titleZh": "在超市——一包、一盒、一升",
+          "canDoZh": "能看着购物清单在超市买东西,说出一包、一盒、一升、一打、一罐",
+          "scenarioZh": "星期六下午,浩和卢卡拿着购物清单去超市买下一周的东西:一包意大利面、一盒茶叶、两升牛奶、一打鸡蛋、一罐果酱;卢卡还想买三包薯片,浩说太多了;最后两人在自助收银台扫码付钱。",
+          "grammarFocusZh": "包装量词 + de:un paquet de pâtes, une boîte de thé, un litre de lait, une douzaine d'œufs, un pot de confiture(第 1 课“数量词 + de”的扩展,后面不加冠词);复习 trop、combien"
+        },
+        {
+          "id": "fr.a1u7.r02",
+          "type": "reading",
+          "titleZh": "写给克洛艾的生日卡片(贺卡)",
+          "canDoZh": "能读懂并写一张简短的生日贺卡(祝福、礼物、一起做的事)",
+          "scenarioZh": "体裁:贺卡 + 感谢短信,8–10 句,旁白朗读。聚会前,浩在红色的包里放了一张卡片:Joyeux anniversaire, Chloé !……卢卡也在卡片上写了一句(他晚上没空来,但一起出了钱)。第二天上午克洛艾发来短信,谢谢两人,说包很漂亮,下午四点一起喝咖啡。",
+          "grammarFocusZh": "Joyeux anniversaire ! 和贺卡的常用祝福;复习 pour + 人、ce / cette、颜色配合;感谢的说法 Merci pour…"
+        }
+      ]
+    },
+    {
+      "id": "a1u8",
+      "unit": "A1-8 健康、爱好与周末",
+      "cefr": "A1",
+      "themeZh": "身体部位、看医生、天气和季节、爱好、上周末做了什么、假期计划,新增在药店买药、讲一场球赛、读社团招新海报和朋友从山里寄来的明信片。",
+      "grammarZh": "avoir mal à + 缩合、医生用的命令式、depuis、il fait / il pleut、jouer à / jouer de、pourquoi / parce que、复合过去时入门,新增否定命令式(N'oubliez pas…)。",
+      "pronunciationZh": "je [ʒə] 和 j'ai [ʒe] 要听辨(je regarde / j'ai regardé),过去分词词尾 -é 读 [e]。",
+      "lessons": [
+        {
+          "id": "fr.a1u8.r01",
+          "type": "reading",
+          "titleZh": "大学社团的招新海报(海报)",
+          "canDoZh": "能看懂社团招新海报:什么活动、星期几、几点、在哪儿、多少钱",
+          "scenarioZh": "体裁:海报,3–4 张共约 10 句,旁白朗读。大学走廊里贴着几张招新海报:篮球队每周二、周四晚上训练;吉他社;电影社每周三晚上放电影;中文角每周五下午(克洛艾是组织者之一)。浩和卢卡读完各选一个。在第 4 课之后读,不用过去时。",
+          "grammarFocusZh": "复习 jouer à / jouer de、aimer + 动词原形、钟点和星期;海报上的命令式 Venez ! / Contactez…"
+        },
+        {
+          "id": "fr.a1u8.l06",
+          "type": "dialogue",
+          "titleZh": "在药店买药",
+          "canDoZh": "能在药店递处方买药,问清楚一天吃几次、饭前还是饭后,听懂药剂师的提醒",
+          "scenarioZh": "看完医生(第 2 课),浩拿着处方去药店。药剂师问他对什么药过敏,告诉他:这个药一天三次,饭后吃,不要空腹吃;晚上不要喝咖啡;又推荐了润喉糖。浩刷卡付钱,药剂师说 Bon rétablissement !(早日康复)。",
+          "grammarFocusZh": "否定命令式:Ne prenez pas ce médicament le matin. / N'oubliez pas…(ne…pas 夹住动词);复习 trois fois par jour、après / avant + 名词(après le repas);对药剂师用 vous"
+        },
+        {
+          "id": "fr.a1u8.l07",
+          "type": "dialogue",
+          "titleZh": "比赛怎么样?——讲一场球赛",
+          "canDoZh": "能用复合过去时简单讲一场比赛或一次活动的经过和结果(赢了还是输了、感觉怎么样)",
+          "scenarioZh": "星期一早上,卢卡兴奋地告诉浩和艾米莉:星期六他的足球队踢了一场比赛,他们三比二赢了,他进了一个球!赛后大家一起吃了比萨。浩说他星期天打了篮球,可是输了;艾米莉说她在网上看了一场蒙特利尔的冰球比赛,C'était génial !",
+          "grammarFocusZh": "复合过去时的应用:j'ai joué, on a gagné, nous avons perdu(perdre 的过去分词 perdu 先当词汇记,过去分词的规律 A2 再系统学);比分的说法 trois à deux;C'était + 形容词"
+        },
+        {
+          "id": "fr.a1u8.r02",
+          "type": "reading",
+          "titleZh": "艾米莉从山里寄来的明信片(明信片)",
+          "canDoZh": "能读懂一张度假明信片:在哪儿、天气怎么样、做了什么、打算做什么",
+          "scenarioZh": "体裁:明信片,8–10 句,旁白朗读。寒假第一周,艾米莉从阿尔卑斯山的滑雪场给浩、克洛艾和卢卡寄了一张明信片:这里每天下雪,很冷;昨天她滑了一整天雪,晚上喝了热巧克力;明天她要去山顶;她问浩罗马的天气怎么样。浩从罗马回来以后才在信箱里看到。",
+          "grammarFocusZh": "复习复合过去时、近将来时、天气(Il neige, il fait froid)、faire du ski;明信片的开头和结尾(Coucou ! / Bisous)"
+        }
+      ]
+    },
+    {
+      "id": "a1u9",
+      "unit": "A1-9 去罗马之前",
+      "cefr": "A1",
+      "themeZh": "寒假出发前的准备:买去罗马的国际火车票、看天气预报、按天气准备衣服和行李、告诉宿舍管理员要出门几天、听朋友推荐罗马好玩的地方,出发那天在车站和车上。",
+      "grammarZh": "mettre 的现在时、avoir chaud / froid / besoin de、il faut + 名词、天气的扩展说法(il y a du vent, il fait moins deux)、cent 的复数规则(deux cents / deux cent trente)。",
+      "pronunciationZh": "清辅音和浊辅音 [p]/[b]、[t]/[d]、[k]/[g](passeport / bonnet、temps / degré、gants):中文拼音的 b、d、g 其实是清音,法语的 b、d、g 声带要振动。",
+      "lessons": [
+        {
+          "id": "fr.a1u9.l01",
+          "type": "dialogue",
+          "titleZh": "买去罗马的火车票——在都灵换车",
+          "canDoZh": "能在火车站窗口买一张国际往返火车票,说清日期和座位,听懂换乘、发车时间和票价",
+          "scenarioZh": "12 月 14 日星期一上午,浩到 Part-Dieu 火车站的售票窗口:他想 12 月 19 日星期六去罗马,23 日星期三回来。售票员说没有直达车,要在都灵(Turin)换车;早上 6 点 58 分出发,下午 5 点左右到罗马;二等座往返一共 236 欧。浩问要不要订座,售票员说这趟车必须订座;浩用银行卡付钱。",
+          "grammarFocusZh": "复习火车站用语(un aller-retour, en deuxième classe, la voie)和 24 小时制;新词 la correspondance、changer à Turin(在都灵换车);cent 的复数规则:整百加 s(deux cents),后面还有数就不加(deux cent trente-six),和 quatre-vingts 的规则一样"
+        },
+        {
+          "id": "fr.a1u9.l02",
+          "type": "vocab",
+          "titleZh": "天气预报——明天几度?",
+          "canDoZh": "能听懂天气预报里的晴、阴、有风、几度,说出两个城市的天气",
+          "scenarioZh": "晚上,浩和卢卡在公共厨房用手机看天气预报:里昂明天阴天、有风,最低零下两度;罗马是晴天,白天十四度。卢卡说浩运气真好;浩又查了一周的天气:周末罗马可能下雨。",
+          "grammarFocusZh": "天气的扩展说法:Il y a du soleil / du vent / des nuages、Le ciel est gris、Il fait quatorze degrés / moins deux(零下);la météo、le degré、la température;复习 Il fait beau / froid、Il pleut;比较级 A2 才学,这里分别说两个城市的天气"
+        },
+        {
+          "id": "fr.a1u9.l03",
+          "type": "grammar",
+          "titleZh": "穿什么?——mettre 和冬天的衣服",
+          "canDoZh": "能根据天气说要穿什么、戴什么、带什么(围巾、手套、帽子、雨伞)",
+          "scenarioZh": "出发前三天,克洛艾来宿舍帮浩看要带的衣服:罗马不太冷,可以穿薄一点的外套,但一定要带雨伞;克洛艾说她冬天总是戴帽子和手套:Je mets toujours un bonnet !;浩找不到围巾,卢卡把自己的一条红围巾借给他。",
+          "grammarFocusZh": "mettre 的现在时:je mets, tu mets, il met, nous mettons, vous mettez, ils mettent(单数词尾 t 不发音);mettre + 衣物 = 穿、戴;新词 l'écharpe f., les gants, le bonnet, le parapluie;复习颜色配合;toujours"
+        },
+        {
+          "id": "fr.a1u9.l04",
+          "type": "grammar",
+          "titleZh": "我需要……——avoir 的固定搭配",
+          "canDoZh": "能说自己冷了、热了、需要什么东西,也能问别人需要什么",
+          "scenarioZh": "出发前两天,浩和卢卡去超市买旅行用品。外面刮大风,浩说好冷;超市里暖气很足,卢卡说好热。浩看着清单说他需要牙膏、洗发水和一个小背包;卢卡问他要不要转换插头——不用,意大利和法国的插头一样;浩还说出国一定要带护照和居留证:Il faut un passeport !",
+          "grammarFocusZh": "avoir chaud / avoir froid / avoir besoin de + 名词(J'ai besoin d'un sac);和 J'ai faim / J'ai soif 一样用 avoir,不能说 Je suis froid;il faut + 名词(Il faut un passeport);新词 le titre de séjour(居留证,A2 还会用到)"
+        },
+        {
+          "id": "fr.a1u9.r01",
+          "type": "reading",
+          "titleZh": "罗马酒店的预订确认(邮件)",
+          "canDoZh": "能看懂一封酒店预订确认邮件:日期、几晚、房型、价格、早餐和入住退房时间",
+          "scenarioZh": "体裁:邮件,约 10 句,旁白朗读。浩在网上订了罗马火车站旁边的一家小酒店,收到法语版的确认邮件:12 月 19 日到 23 日,四晚,单人房,含早餐,一共 280 欧;下午两点以后可以入住,上午十一点以前退房;酒店离火车站走路五分钟。读完回答几个问题。",
+          "grammarFocusZh": "复习日期、钟点、de … à …;pour + 时长(pour quatre nuits);百位数 deux cent quatre-vingts euros;邮件里的固定说法(Nous confirmons votre réservation)读懂即可"
+        },
+        {
+          "id": "fr.a1u9.l05",
+          "type": "dialogue",
+          "titleZh": "我要出门几天——告诉宿舍管理员",
+          "canDoZh": "能告诉宿舍管理员自己哪天走、哪天回来,请他帮忙代收包裹",
+          "scenarioZh": "12 月 17 日,浩到宿舍前台:他 19 日到 23 日不在,问管理员能不能替他收一个包裹(妈妈从成都寄来的);管理员说可以,包裹放在前台;他还提醒浩走之前关好窗户、把暖气关小,并祝他 Bon voyage !",
+          "grammarFocusZh": "du … au … + 日期(du 19 au 23 décembre,复习冠词缩合);pouvoir 的礼貌请求(Vous pouvez garder mon colis ?);复习近将来时(Je vais partir samedi);新词 le colis、le courrier"
+        },
+        {
+          "id": "fr.a1u9.l06",
+          "type": "vocab",
+          "titleZh": "背包里有什么?——证件和随身物品",
+          "canDoZh": "能说出出门要带的证件和随身物品,检查自己有没有带齐",
+          "scenarioZh": "出发前一晚,卢卡帮浩检查背包:护照、居留证、学生证、火车票(打印的)、手机和充电器、耳机、钱包、太阳镜;浩找不到充电器,卢卡在床上找到了。卢卡开玩笑说:Et le parapluie ? Il faut un parapluie à Rome !",
+          "grammarFocusZh": "新词 la carte d'étudiant, le chargeur, les écouteurs, le portefeuille, les lunettes de soleil;复习 il y a / il n'y a pas de、Où est… ?、avoir besoin de;清单的写法"
+        },
+        {
+          "id": "fr.a1u9.l07",
+          "type": "dialogue",
+          "titleZh": "罗马有什么好玩的?——克洛艾的建议",
+          "canDoZh": "能问朋友去一个城市玩什么,听懂朋友的推荐(一定要去看……、一定要吃……)",
+          "scenarioZh": "出发前一天下午,浩和克洛艾在卡里姆的咖啡馆喝热巧克力。克洛艾去过罗马,给浩推荐:一定要去看斗兽场和特雷维喷泉,在喷泉里扔一枚硬币;梵蒂冈的博物馆要提前买票;每天都要吃冰淇淋!卡里姆插话:Et les pâtes !",
+          "grammarFocusZh": "il faut + 动词原形表示推荐(Il faut voir le Colisée !,复习);tu 的命令式(Va voir…, Mange…);复习近将来时;新词 le monument, la fontaine, la glace, la pièce de monnaie"
+        },
+        {
+          "id": "fr.a1u9.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:出发那天",
+          "canDoZh": "能在车站看懂出发信息、听懂车上的广播,用短信告诉朋友自己到了哪儿",
+          "scenarioZh": "12 月 19 日早上 6 点 30 分,浩到 Part-Dieu 车站,看显示屏找到站台;广播(narrator)通知去都灵的火车准点出发。车上,浩给克洛艾发短信:天气、窗外的山、车上的人;广播报下一站和在都灵换车的站台;克洛艾回复:Bon voyage ! N'oublie pas la glace !。复现本单元的车票、天气、衣服和随身物品。",
+          "grammarFocusZh": "复习:百位数、天气、mettre、avoir froid / besoin de、近将来时;车上广播的说法 Prochain arrêt…, Correspondance pour Rome voie 4"
+        },
+        {
+          "id": "fr.a1u9.r02",
+          "type": "reading",
+          "titleZh": "罗马第一天(旅行日记)",
+          "canDoZh": "能读懂一篇用复合过去时写的旅行日记,按顺序说出浩第一天做了什么",
+          "scenarioZh": "体裁:旅行日记,约 12 句,旁白朗读。12 月 19 日晚上浩在酒店写日记:他早上 6 点 58 分出发,在都灵换了车,下午 5 点到了罗马;他走路去了酒店,放下行李,晚上看了特雷维喷泉,吃了一个冰淇淋(虽然很冷!),扔了一枚硬币;他很累,但很开心。",
+          "grammarFocusZh": "复合过去时的应用(j'ai pris, je suis arrivé, je suis allé, j'ai mangé);时间顺序 d'abord / puis / après;C'était + 形容词"
+        }
+      ]
+    },
+    {
+      "id": "a1u10",
+      "unit": "A1-10 圣诞节和新年",
+      "cefr": "A1",
+      "themeZh": "从罗马回来讲旅行,在克洛艾家过平安夜、送礼物和回礼,和朋友跨年,一月里吃国王饼、给老师和朋友写新年祝福。",
+      "grammarZh": "重读人称代词 moi / toi / lui / elle / nous / vous / eux / elles、offrir 的现在时、书信开头和结尾的写法(Cher / Chère、Cordialement),复习复合过去时。",
+      "pronunciationZh": "半元音 [j]、[ɥ]、[w](joyeux、minuit、moi),Noël 里的 ë 表示 o 和 e 分开读,oi 读 [wa]。",
+      "lessons": [
+        {
+          "id": "fr.a1u10.l01",
+          "type": "dialogue",
+          "titleZh": "罗马怎么样?——讲旅行",
+          "canDoZh": "能用复合过去时讲几件旅行中做的事,说出最喜欢的地方和天气",
+          "scenarioZh": "12 月 24 日下午,浩回到里昂第二天,在咖啡馆见克洛艾:她问罗马怎么样;浩说他参观了斗兽场和梵蒂冈,吃了很多冰淇淋,有一天下雨,他在酒店睡了一下午;卡里姆端来两杯热巧克力:Alors, Rome ? C'était bien ?",
+          "grammarFocusZh": "复习复合过去时(avoir + 过去分词;aller / partir / rentrer / rester 用 être);C'était + 形容词;时间词 le premier jour, le dernier jour, un jour"
+        },
+        {
+          "id": "fr.a1u10.l02",
+          "type": "vocab",
+          "titleZh": "平安夜的晚餐——圣诞节的说法",
+          "canDoZh": "能说出法国圣诞节的食物和习俗(圣诞树、圣诞老人、礼物、树根蛋糕),用 Joyeux Noël ! 祝福",
+          "scenarioZh": "12 月 24 日晚上,伊莎贝尔请浩到家里过平安夜。一进门,克洛艾带浩看圣诞树和树下的礼物;伊莎贝尔介绍今晚的菜:前菜是生蚝,主菜是烤鸡,甜点是圣诞树根蛋糕(la bûche de Noël);克洛艾说她爸爸每年都扮圣诞老人,妹妹十五岁了还假装相信。",
+          "grammarFocusZh": "节日词汇的阴阳性:le sapin, le Père Noël, la bûche, les huîtres f.;Joyeux Noël ! / Bon réveillon !;复习部分冠词(du poulet, de la bûche)和 il y a"
+        },
+        {
+          "id": "fr.a1u10.l03",
+          "type": "grammar",
+          "titleZh": "这是给你的!——重读人称代词",
+          "canDoZh": "能在送礼物、收礼物时说“这是给你的”“谢谢你”,用 moi / toi 说“我也是”“我也不”",
+          "scenarioZh": "快到午夜,大家拆礼物:浩送伊莎贝尔一套中国茶具,送克洛艾一本中文漫画;克洛艾送他一顶毛线帽:C'est pour toi !;伊莎贝尔说:Pour moi ? Merci, Hao !;浩说给克洛艾妹妹的礼物在他包里:C'est pour elle.;大家说 Moi aussi ! / Moi non plus !",
+          "grammarFocusZh": "重读人称代词 moi, toi, lui, elle, nous, vous, eux, elles:放在介词后(pour toi, avec eux, chez elle)、c'est 后(C'est moi)、单独用(Moi aussi. / Moi non plus.);和主语代词 je / tu / il 的区别"
+        },
+        {
+          "id": "fr.a1u10.l04",
+          "type": "grammar",
+          "titleZh": "送礼物——offrir",
+          "canDoZh": "能说送谁什么礼物、收到了什么礼物",
+          "scenarioZh": "12 月 30 日,卢卡从马赛回来了,在公共厨房碰到浩。卢卡说他送妈妈一条围巾,爸爸送他一双新球鞋;浩说他送伊莎贝尔茶具,克洛艾送他一顶帽子——他马上戴上给卢卡看;两人约好新年夜和克洛艾一起去富维耶山看城市的灯。",
+          "grammarFocusZh": "offrir 的现在时(变位像 ouvrir):j'offre, tu offres, il offre, nous offrons, vous offrez, ils offrent;offrir + 东西 + à + 人(J'offre une écharpe à ma mère);复合过去时 J'ai offert…(offert 先当词汇记)"
+        },
+        {
+          "id": "fr.a1u10.r01",
+          "type": "reading",
+          "titleZh": "法国人怎么过圣诞节(杂志短文)",
+          "canDoZh": "能读懂一篇介绍节日习俗的短文,说出法国圣诞节和中国春节有什么相同和不同",
+          "scenarioZh": "体裁:学法语杂志上的文化短文,约 12 句,旁白朗读。在法国,12 月 24 日晚上全家人一起吃大餐(le réveillon),孩子们 25 日早上在圣诞树下拆礼物;很多城市有圣诞市集;里昂 12 月 8 日还有灯光节,家家户户在窗台上点蜡烛。文章最后问读者:在你的国家,最重要的节日是哪一个?",
+          "grammarFocusZh": "复习现在时、on 的用法(On mange…, On offre…)、日期;文化词 le marché de Noël, la fête des Lumières"
+        },
+        {
+          "id": "fr.a1u10.l05",
+          "type": "dialogue",
+          "titleZh": "新年快乐!——跨年夜",
+          "canDoZh": "能在跨年夜说新年祝福(Bonne année ! Bonne santé !),和朋友约好在哪儿见、几点见",
+          "scenarioZh": "12 月 31 日晚上,浩、卢卡和克洛艾约在富维耶山上等午夜。大家一起倒数 dix, neuf, huit… zéro !,互相说 Bonne année ! Bonne santé !,行贴面礼;艾米莉从山里发来语音祝福;克洛艾问浩新年有什么愿望,浩说他想说好法语、交更多朋友。",
+          "grammarFocusZh": "新年的祝福:Bonne année ! Bonne santé ! Meilleurs vœux !;倒数复习数字;Je voudrais + 动词原形说愿望(复习);文化:一月底以前见面都可以说 Bonne année"
+        },
+        {
+          "id": "fr.a1u10.l06",
+          "type": "vocab",
+          "titleZh": "国王饼——la galette des rois",
+          "canDoZh": "能在面包店买国王饼,说出吃国王饼的规矩(小瓷人、纸王冠、国王和王后)",
+          "scenarioZh": "1 月 6 日,浩在宿舍楼下的面包店看到很多国王饼。店员解释:饼里藏着一个小瓷人(la fève),吃到的人当国王,戴上纸王冠;浩买了一个六人份的。晚上和卢卡、刚回来的艾米莉在公共厨房吃:按规矩,年纪最小的卢卡钻到桌子底下喊每一块给谁——艾米莉吃到了小瓷人:C'est moi la reine !",
+          "grammarFocusZh": "新词 la galette des rois, la fève, la couronne, le roi, la reine, la part;复习重读人称代词(C'est toi le roi ! C'est pour lui.)和 pour + 人数(une galette pour six personnes)"
+        },
+        {
+          "id": "fr.a1u10.l07",
+          "type": "dialogue",
+          "titleZh": "给莫罗老师写新年祝福——书面的 tu 和 vous",
+          "canDoZh": "能给老师和朋友分别写新年祝福,用对称呼、开头和结尾",
+          "scenarioZh": "1 月 3 日,开学前一天,浩想给莫罗老师发邮件祝新年,问克洛艾怎么写:给老师要写 Chère Madame Moreau,用 vous,结尾写 Cordialement;给朋友只要 Bonne année ! Bisous !。浩写好以后读给克洛艾听,她改了两个地方。第二天上课,莫罗老师夸他的邮件写得很好。",
+          "grammarFocusZh": "Je vous souhaite une bonne année / Je te souhaite…(souhaiter 先当固定说法);书信的开头 Cher + 男名 / Chère + 女名(阴阳性配合)、结尾 Cordialement / Bisous;tu 和 vous 在书面语里的区别"
+        },
+        {
+          "id": "fr.a1u10.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:伊莎贝尔家的新年午饭",
+          "canDoZh": "能在朋友家的节日聚餐上说祝福、送小礼物,讲自己的假期,也问别人的假期",
+          "scenarioZh": "1 月的第一个星期天,伊莎贝尔请浩、卢卡、艾米莉来家里吃新年午饭。大家进门互相说 Bonne année;艾米莉讲她在山上滑雪,卢卡讲马赛的家人,浩讲罗马和平安夜;卢卡第一次见伊莎贝尔,送她一盒马赛的饼干,伊莎贝尔说 C'est gentil !。复现本单元的祝福、重读代词和复合过去时。",
+          "grammarFocusZh": "复习:复合过去时讲假期、重读人称代词、offrir、节日祝福;对第一次见面的长辈用 vous(卢卡),熟了的用 tu(浩)"
+        },
+        {
+          "id": "fr.a1u10.r02",
+          "type": "reading",
+          "titleZh": "朋友们的新年祝福(贺卡和短信)",
+          "canDoZh": "能读懂不同的人写的新年祝福,分辨正式和随意的写法",
+          "scenarioZh": "体裁:新年贺卡和短信,6 条共约 12 句,旁白朗读。一月里浩收到的祝福:莫罗老师的正式邮件(Cher Hao, je vous souhaite…)、卡里姆带很多感叹号的短信、伊莎贝尔手写的贺卡、宿舍管理员贴在门厅的新年通知、艾米莉从山里发来的雪景照片和配文,还有克洛艾用中文和法语混着写的短信。读完回答:谁用 vous?谁写得最随意?",
+          "grammarFocusZh": "复习书信开头和结尾、tu / vous、新年祝福、重读人称代词"
+        }
+      ]
+    },
+    {
+      "id": "a1u11",
+      "unit": "A1-11 他长什么样?",
+      "cefr": "A1",
+      "themeZh": "描述人的外貌(身高、头发、眼睛、眼镜、穿着)和性格,在车站按描述认人,说一个人看起来怎么样,给朋友介绍爸妈的样子和脾气。",
+      "grammarZh": "形容词阴性的特殊变化(-eux → -euse, -if → -ive, -er → -ère, long → longue, roux → rousse)、c'est 和 il / elle est 的区别、porter + 衣物 / 眼镜、avoir l'air + 形容词、前缀 in- / im- 表示相反。",
+      "pronunciationZh": "阴阳性的读音差别:阴性词尾辅音要读出(grand / grande、roux / rousse),鼻化元音在阴性里去鼻化(brun / brune、bon / bonne、italien / italienne)。",
+      "lessons": [
+        {
+          "id": "fr.a1u11.l01",
+          "type": "vocab",
+          "titleZh": "头发和眼睛——外貌",
+          "canDoZh": "能说一个人的身高、头发(颜色、长短)和眼睛的颜色,戴不戴眼镜",
+          "scenarioZh": "开学第一周的法语课上,莫罗老师玩“猜猜他是谁”:她描述班上的一个同学——il est grand, il a les cheveux courts et noirs, il a les yeux marron——大家猜出是浩;接着浩描述老师:Elle a les cheveux courts et gris, elle porte des lunettes. 老师笑着说:C'est moi !",
+          "grammarFocusZh": "avoir les cheveux + 形容词(longs, courts, bruns, blonds, gris)、avoir les yeux + 颜色(bleus, verts, marron 不变);porter des lunettes / une barbe;复习 grand / petit 和颜色配合"
+        },
+        {
+          "id": "fr.a1u11.l02",
+          "type": "grammar",
+          "titleZh": "她很爱运动——性格形容词的阴性",
+          "canDoZh": "能用几个形容词描述朋友的性格,阴阳性用对",
+          "scenarioZh": "星期三的语伴练习,克洛艾和浩互相描述朋友:卢卡很有趣、很爱运动,但有点懒(早上起不来);艾米莉也很爱运动,好奇心很强;克洛艾说浩认真、有点害羞;浩说:Et toi, tu es bavarde… et très généreuse !",
+          "grammarFocusZh": "阴性的特殊变化:sportif → sportive, sérieux → sérieuse, paresseux → paresseuse, curieux → curieuse, généreux → généreuse, bavard → bavarde;timide、drôle 以 -e 结尾,阴阳同形;-eux 结尾的复数不变(ils sont sérieux)"
+        },
+        {
+          "id": "fr.a1u11.l03",
+          "type": "dialogue",
+          "titleZh": "在车站接人——按描述找人",
+          "canDoZh": "能用短信描述一个人的样子和穿着让朋友认出来,也能按描述在人群里找到人",
+          "scenarioZh": "艾米莉的表妹从巴黎坐火车来里昂玩,可是艾米莉的公交堵在路上,她请浩先去 Part-Dieu 接人。艾米莉发短信描述:她个子不高,长长的红头发,戴眼镜,穿一件黄色大衣,背一个大背包。浩在站台上看到两个红头发的女孩,发短信问:Elle porte un bonnet ?——最后认出了她。表妹只出现在叙述里,不说话;课文是浩和艾米莉的短信,加一句车站广播。",
+          "grammarFocusZh": "porter + 衣物(Elle porte un manteau jaune);描述的顺序:身高 → 头发 → 眼镜 → 衣服;roux → rousse(阴性),long → longue;新颜色 jaune、gris"
+        },
+        {
+          "id": "fr.a1u11.l04",
+          "type": "grammar",
+          "titleZh": "C'est 还是 Il est?",
+          "canDoZh": "能正确选用 c'est 和 il / elle est 介绍一个人、评价一个人",
+          "scenarioZh": "在卡里姆的咖啡馆,浩给卡里姆介绍艾米莉:C'est Émilie, une amie canadienne. Elle est très sportive.;卡里姆说:C'est une fille sympa !;浩又给艾米莉介绍卡里姆:Il est serveur, et il est étudiant aussi.;最后卡里姆端来热巧克力,大家说:C'est délicieux !",
+          "grammarFocusZh": "c'est + 冠词或主有形容词 + 名词(C'est une amie / C'est mon père)、c'est + 人名;il / elle est + 形容词或不加冠词的职业(Il est grand / Il est serveur);评价一件事用 c'est + 阳性形容词(C'est délicieux);第 3 单元讲过职业的情况,这里系统总结"
+        },
+        {
+          "id": "fr.a1u11.r01",
+          "type": "reading",
+          "titleZh": "寻狗启事(启事)",
+          "canDoZh": "能读懂寻人或寻宠物的启事(长什么样、在哪儿丢的、怎么联系)",
+          "scenarioZh": "体裁:启事,约 8 句,旁白朗读。宿舍旁边的路灯上贴着一张启事:小狗叫 Biscuit,很小,白色,耳朵是黑的,脾气很好,不怕人;1 月 8 日在公园旁边走丢;找到的人请打电话 06 …。下午浩和卢卡在公园看到一只很像的小狗,打了电话——真的是 Biscuit!",
+          "grammarFocusZh": "复习外貌描述、颜色和形容词配合、日期、电话号码的读法;启事的格式(标题、描述、联系方式)"
+        },
+        {
+          "id": "fr.a1u11.l05",
+          "type": "dialogue",
+          "titleZh": "爸妈要来里昂了——给克洛艾描述爸妈",
+          "canDoZh": "能介绍家人的样子和性格,说他们喜欢什么、不喜欢什么",
+          "scenarioZh": "浩告诉克洛艾:爸妈二月要来里昂过春节!克洛艾问他们是什么样的人:爸爸个子高,戴眼镜,话不多,但很幽默;妈妈短头发,很热情,很爱说话——和你一样!;他们都不会说法语。克洛艾说她要学几句中文欢迎他们,浩教她说“叔叔好、阿姨好”。",
+          "grammarFocusZh": "复习外貌和性格形容词、阴性变化、avoir / être、aimer + 定冠词;Ils ne parlent pas français(否定复习)"
+        },
+        {
+          "id": "fr.a1u11.l06",
+          "type": "grammar",
+          "titleZh": "有礼貌和没礼貌——前缀 in- / im- 和委婉的评价",
+          "canDoZh": "能用意思相反的形容词评价人,用 pas très / un peu 让评价更委婉",
+          "scenarioZh": "下午咖啡馆不忙,卡里姆给浩讲他遇到的各种顾客:有的很有礼貌、很有耐心,有的很没礼貌、很不耐烦;有一位老先生每天都来,话很少,可是很和善。浩说他自己有时候也很不耐烦——特别是等公交的时候。卡里姆笑着说:Toi, tu es un client très poli !",
+          "grammarFocusZh": "前缀 in- / im- 表示相反:patient → impatient, poli → impoli;pas très / un peu + 形容词让评价更委婉(Il n'est pas très patient);复习形容词配合"
+        },
+        {
+          "id": "fr.a1u11.l07",
+          "type": "dialogue",
+          "titleZh": "她看起来很严肃——第一印象",
+          "canDoZh": "能用 avoir l'air + 形容词说一个人看起来怎么样,说说第一印象和后来的看法",
+          "scenarioZh": "一月中,宿舍 10 号房搬来一位新同学(她只出现在叙述里)。卢卡和浩在厨房聊第一印象:她看起来很严肃,一直在看书,说话也很少;第二天,新邻居做了一个大苹果蛋糕请大家吃,卢卡说:Finalement, elle est très sympa !",
+          "grammarFocusZh": "avoir l'air + 形容词(Elle a l'air sérieuse);第一印象和后来的看法:d'abord… mais finalement…;复习形容词阴性和 c'est / il est"
+        },
+        {
+          "id": "fr.a1u11.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:谁是谁?——看班级合影",
+          "canDoZh": "能介绍一张合影里的人:他们的样子、穿着、性格",
+          "scenarioZh": "第一学期快结束了,语言中心给每个班拍了合影。浩给艾米莉看照片,一个一个介绍:戴眼镜、短头发的是莫罗老师;红头发、很爱说话的是来自爱尔兰的同学;后排那个高个子是浩自己(Le grand garçon au fond, c'est moi !——比较级 A2 才学);艾米莉发现卡里姆也在照片角落里——原来他那天来送咖啡。照片里的同学只出现在描述里。",
+          "grammarFocusZh": "复习外貌和性格形容词、阴性变化、c'est / il est、porter、avoir l'air;地点介词描述位置(à gauche, au fond, devant)"
+        },
+        {
+          "id": "fr.a1u11.r02",
+          "type": "reading",
+          "titleZh": "一样的脸,不一样的人(小故事)",
+          "canDoZh": "能读懂一个描写人物的小故事,说出两个人哪儿一样、哪儿不一样",
+          "scenarioZh": "体裁:小故事,约 12 句,旁白朗读。保罗和莱奥是双胞胎:两个人都很高,黑头发,蓝眼睛,穿一样的衣服;可是保罗很爱运动、很爱说话,莱奥很安静、爱看书。有一天,莱奥替保罗去踢足球……结果大家马上就认出来了。全篇用现在时,不用比较级。",
+          "grammarFocusZh": "复习外貌和性格形容词、mais 表示对比、ne…pas;人物描写的顺序"
+        }
+      ]
+    },
+    {
+      "id": "a1u12",
+      "unit": "A1-12 学校和考试",
+      "cefr": "A1",
+      "themeZh": "语言中心的课堂用语和学习用品、选第二学期的课、复习和学习方法、期末笔试和口试、看懂考试须知、成绩单和法国的 20 分制。",
+      "grammarZh": "lire / écrire / dire 的现在时、-re 动词 attendre / répondre / entendre(和 descendre 一样变)、pour + 动词原形表示目的、apprendre 的变位、课堂指令里的命令式。",
+      "pronunciationZh": "法语的节奏:按意群说话,重音落在每个意群的最后一个音节,口试朗读时不要每个字都一样重。",
+      "lessons": [
+        {
+          "id": "fr.a1u12.l01",
+          "type": "vocab",
+          "titleZh": "教室里有什么?——课堂用品和课堂用语",
+          "canDoZh": "能说出教室里的东西,听懂老师的课堂指令(打开书、看第 12 页、两人一组)",
+          "scenarioZh": "1 月 4 日开学第一天,莫罗老师带来新的练习册:Ouvrez le livre à la page 12. Travaillez à deux.;浩问 Comment on dit « 橡皮 » en français ?——C'est une gomme !;老师又发下考试日程:1 月 11 日笔试,12 日口试。",
+          "grammarFocusZh": "课堂用语里的命令式(Ouvrez, Écoutez, Répétez, Travaillez à deux);Comment on dit … en français ? / Qu'est-ce que ça veut dire ?(整句记);新词 la page, le cahier, le stylo, la gomme, le tableau, l'exercice"
+        },
+        {
+          "id": "fr.a1u12.l02",
+          "type": "grammar",
+          "titleZh": "你在读什么?——lire、écrire、dire",
+          "canDoZh": "能说自己在读什么、写什么,转述“老师说……”",
+          "scenarioZh": "课间,浩在读一本法语简易小说,克洛艾来找他做语伴练习:Qu'est-ce que tu lis ?;浩说他每天晚上读十页,还用法语写日记;克洛艾说她用中文写日记,可是汉字太难写;浩说莫罗老师说每天写五句就够了。",
+          "grammarFocusZh": "lire(je lis, nous lisons)、écrire(j'écris, nous écrivons)、dire(je dis, vous dites, ils disent)的现在时;dire que + 句子(Madame Moreau dit que…)先当说法记;复习 tous les jours"
+        },
+        {
+          "id": "fr.a1u12.l03",
+          "type": "dialogue",
+          "titleZh": "第二学期选什么课?",
+          "canDoZh": "能看懂选修课的介绍,说出想选什么课、为什么",
+          "scenarioZh": "莫罗老师介绍第二学期的选修课:语音课、法国文化课、口语课、写作课,还有准备 DELF 的课。浩想选语音课和口语课,为了说得更清楚、更敢开口;老师建议他也选写作课,为了准备年底的 DELF A2;浩说他星期三下午要和克洛艾练习,老师说写作课在星期四。",
+          "grammarFocusZh": "pour + 动词原形表示目的(pour bien parler, pour préparer le DELF);复习 parce que;课程名称的阴阳性(la phonétique, la culture, l'expression écrite f.)"
+        },
+        {
+          "id": "fr.a1u12.l04",
+          "type": "grammar",
+          "titleZh": "等一等,回答我!——-re 动词",
+          "canDoZh": "能用 attendre、répondre、entendre 说等人、回答、听见",
+          "scenarioZh": "考试前一天,浩在图书馆门口等克洛艾,她迟到了二十分钟;浩发短信她也不回;最后她跑来说:Je n'entends pas mon portable dans le bus !。两人进图书馆复习:克洛艾问问题,浩回答,答错了就重来。",
+          "grammarFocusZh": "attendre, répondre, entendre 和第 6 单元的 descendre 一样变(j'attends, il attend, nous attendons, ils attendent;单数的 d 不发音);répondre à + 人 / 问题;attendre 后面直接跟人(J'attends Chloé,不加介词)"
+        },
+        {
+          "id": "fr.a1u12.r01",
+          "type": "reading",
+          "titleZh": "期末考试须知(通知)",
+          "canDoZh": "能看懂考试须知:几点到、带什么、不能带什么、考几个部分",
+          "scenarioZh": "体裁:通知,约 10 句,旁白朗读。语言中心的《期末考试须知》:笔试 1 月 11 日星期一上午 9 点开始,请 8 点 45 分到;带学生证和黑色的笔;不能用手机和词典;笔试有听力、阅读、写作三部分;口试 1 月 12 日,每人十五分钟,时间贴在门上。",
+          "grammarFocusZh": "须知里的命令式和否定命令式(Apportez…, N'utilisez pas…);Il est interdit de…(先读懂,A2 再学这种结构);序数词(la première partie)复习"
+        },
+        {
+          "id": "fr.a1u12.l05",
+          "type": "vocab",
+          "titleZh": "考得怎么样?——考试和成绩",
+          "canDoZh": "能说考试考得好不好、得了多少分,听懂法国的 20 分制",
+          "scenarioZh": "考完笔试,浩、卢卡和克洛艾在咖啡馆聊考试:浩觉得听力很难,写作还可以;卢卡也在考大学的期末考试,他说解剖学太难了;1 月 15 日成绩出来,浩得了 15/20,克洛艾说在法国 15 分已经很好了,20 分几乎没有人能拿到。",
+          "grammarFocusZh": "20 分制的说法 quinze sur vingt;réussir / rater un examen(réussir 像 choisir 那样变);la note, l'examen, l'écrit, l'oral;C'était facile / difficile(复习 C'était)"
+        },
+        {
+          "id": "fr.a1u12.l06",
+          "type": "dialogue",
+          "titleZh": "口试——自我介绍和回答问题",
+          "canDoZh": "能在口试里做一分钟自我介绍,回答考官关于学习和生活的问题",
+          "scenarioZh": "1 月 12 日口试,莫罗老师当考官(用 vous):先请浩介绍自己,再问他为什么学法语、平时怎么学、周末做什么、以后想做什么;浩有点紧张,说得太快,老师说 Lentement, s'il vous plaît.;浩深呼吸,用 Alors… 和 Euh… 争取时间,最后答得不错。",
+          "grammarFocusZh": "复习自我介绍(名字、国籍、年龄、学习、爱好)和 pour + 动词原形;口试里争取时间的说法:Euh… / Alors… / Je réfléchis.;回答要用完整的句子"
+        },
+        {
+          "id": "fr.a1u12.l07",
+          "type": "vocab",
+          "titleZh": "怎样学好法语?——学习方法",
+          "canDoZh": "能说自己用什么方法学外语(背单词、听播客、看电影、和语伴聊天),问别人的方法",
+          "scenarioZh": "最后一周,莫罗老师问大家怎么学习;浩说他每天用 App 背单词、听法语播客,每周和克洛艾练习两个小时;克洛艾(来当语伴)说她学中文的方法:看中国电视剧、每天写汉字、和浩聊天;老师建议他们都要大声朗读。",
+          "grammarFocusZh": "apprendre 的变位(像 prendre:j'apprends, nous apprenons, ils apprennent);学习动词 réviser, répéter, lire à voix haute;频率 parfois(有时)和 souvent / tous les jours 复习;pour + 动词原形复习"
+        },
+        {
+          "id": "fr.a1u12.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:第二学期的计划",
+          "canDoZh": "能说上学期学了什么、考得怎么样,下学期要选什么课、做什么",
+          "scenarioZh": "1 月 15 日最后一节课后,浩和莫罗老师聊天:第一学期他学了很多,考试得了 15 分;第二学期 2 月 22 日开学,他选了语音课和写作课;老师问他假期做什么——很多同学回国过春节,浩留在里昂,爸妈二月来看他;老师建议他年底参加 DELF A2 考试。",
+          "grammarFocusZh": "复习复合过去时(J'ai appris…, J'ai eu quinze)和近将来时(Je vais choisir…)的对比、pour + 动词原形、-re 动词"
+        },
+        {
+          "id": "fr.a1u12.r02",
+          "type": "reading",
+          "titleZh": "浩的第一学期成绩单(成绩单和评语)",
+          "canDoZh": "能看懂成绩单上的科目、分数和老师的评语",
+          "scenarioZh": "体裁:成绩单 + 评语,约 10 句,旁白朗读。语言中心寄来的成绩单:听力 14/20、阅读 16/20、写作 15/20、口语 13/20,总分 14,5/20;莫罗老师的评语:浩很认真,进步很大,口语还要多练,要大胆一点(Continuez !)。浩把成绩单拍照发给爸妈。",
+          "grammarFocusZh": "复习 20 分制、小数的读法(quatorze virgule cinq)、性格形容词(sérieux, timide)、评语里的命令式"
+        }
+      ]
+    },
+    {
+      "id": "a1u13",
+      "unit": "A1-13 生日和电话",
+      "cefr": "A1",
+      "themeZh": "1 月 20 日浩 21 岁生日:一早接朋友的电话、听语音留言、回电话问打工的事、在电话里说自己正在做什么,晚上朋友们在公共厨房给他办惊喜派对,和成都的爸妈视频。",
+      "grammarZh": "venir de + 动词原形(刚刚)、être en train de + 动词原形(正在)、和 aller + 动词原形对比,appeler / rappeler 的变位(ll),电话用语(C'est de la part de qui ? / Je te rappelle / laisser un message)。",
+      "pronunciationZh": "打电话时的语调:问句升调、礼貌的语气,报电话号码两位一组的节奏,Allô 的 ô 读闭口 [o]。",
+      "lessons": [
+        {
+          "id": "fr.a1u13.l01",
+          "type": "dialogue",
+          "titleZh": "生日快乐!——一早接朋友的电话",
+          "canDoZh": "能接朋友的电话,说“我刚……”“我正在……”,约好晚点再打",
+          "scenarioZh": "1 月 20 日早上七点半,克洛艾打电话来给浩唱生日歌:Joyeux anniversaire, Hao ! Tu as vingt et un ans !;浩说他刚起床,正在吃早饭;克洛艾神秘地说今晚八点他一定要在宿舍;浩说他正在找钥匙,要去超市,回来再打给她。",
+          "grammarFocusZh": "venir de + 动词原形(Je viens de me lever,代词式动词的原形 me lever 复习)、être en train de + 动词原形(Je suis en train de manger);电话开头 Allô ? C'est Chloé !(复习第 7 单元);vingt et un ans 的联诵"
+        },
+        {
+          "id": "fr.a1u13.l02",
+          "type": "vocab",
+          "titleZh": "三条语音留言——听留言",
+          "canDoZh": "能听懂电话语音留言(谁打来的、什么事、怎么回电),记下要点",
+          "scenarioZh": "中午浩的手机静音,错过了三个电话。他听语音留言(信箱的提示音由 narrator 说):莫罗老师用 vous 说成绩单已经寄出;卢卡说今晚八点必须在宿舍,别问为什么;卡里姆说咖啡馆周末缺人,问浩有没有兴趣,请他回电:Rappelle-moi au 06…。",
+          "grammarFocusZh": "留言的结构:C'est… / Je t'appelle pour… / Rappelle-moi(先当固定说法);le message, le répondeur, rappeler;appeler 的变位:j'appelle, nous appelons(ll 和 l 的变化跟着读音走)"
+        },
+        {
+          "id": "fr.a1u13.l03",
+          "type": "dialogue",
+          "titleZh": "给卡里姆回电话——问打工的事",
+          "canDoZh": "能打电话回复留言,问清楚是什么事、什么时候、在哪儿,并约好见面时间",
+          "scenarioZh": "下午浩给卡里姆回电:Allô, Karim ? C'est Hao. J'ai ton message.;卡里姆说咖啡馆星期六、星期天上午需要一个人帮忙,老板同意让浩试一试;浩问几点到几点、要不要会做咖啡;信号不好,浩说 Ça coupe ! Tu peux répéter ?;两人约好星期五下午三点在咖啡馆见。",
+          "grammarFocusZh": "打电话的流程:说自己是谁 → 说明来意(Je t'appelle pour…)→ 约时间 → 告别;听不清时说 Ça coupe ! / Tu peux répéter ?(pouvoir 复习);复习近将来时"
+        },
+        {
+          "id": "fr.a1u13.l04",
+          "type": "grammar",
+          "titleZh": "刚刚、正在、马上——三个时间点",
+          "canDoZh": "能分清刚刚发生的事、正在做的事和马上要做的事,解释自己为什么不能接电话",
+          "scenarioZh": "傍晚,艾米莉打电话问浩在哪儿(她要拖住他,等大家布置好派对):浩说他刚从超市出来,正在等公交,马上就回宿舍;艾米莉说她正在做蛋糕——差点说漏嘴——赶紧改口说是在做作业;她让浩八点整再进厨房。",
+          "grammarFocusZh": "venir de / être en train de / aller + 动词原形 三个时间点对比(刚刚、正在、马上);时间词 tout de suite, bientôt;复习代词式动词的原形(Je viens de me lever)"
+        },
+        {
+          "id": "fr.a1u13.r01",
+          "type": "reading",
+          "titleZh": "生日这天的短信(短信)",
+          "canDoZh": "能读懂一组生日祝福短信,分辨是谁写的、写了什么、语气正式还是随意",
+          "scenarioZh": "体裁:短信,10 条左右,旁白朗读。浩的手机上一整天收到的短信:爸妈的(浩翻成了法语)、莫罗老师的 Bon anniversaire, Hao !、卡里姆带了很多表情的、伊莎贝尔的、宿舍管理员的,还有艾米莉的神秘短信 À 20 h, tu es où ?。读完回答问题。",
+          "grammarFocusZh": "复习 Joyeux / Bon anniversaire、tu 和 vous;短信缩写 bjr(bonjour)、stp(s'il te plaît)、slt(salut)、bisous"
+        },
+        {
+          "id": "fr.a1u13.l05",
+          "type": "vocab",
+          "titleZh": "生日惊喜——吹蜡烛和许愿",
+          "canDoZh": "能在生日聚会上吹蜡烛、许愿、拆礼物、感谢大家",
+          "scenarioZh": "晚上八点,浩一进公共厨房,灯一亮,大家喊 Surprise !——卢卡、克洛艾、艾米莉、卡里姆都在。蛋糕上插着 21 根蜡烛,大家唱 Joyeux anniversaire;浩吹蜡烛、许愿;礼物是一个篮球和一本法语菜谱,卢卡说:C'est pour toi, le chef !",
+          "grammarFocusZh": "新词 la surprise, la bougie, le gâteau, souffler, faire un vœu;复习 offrir、重读人称代词(C'est pour toi !)、C'était une surprise !"
+        },
+        {
+          "id": "fr.a1u13.l06",
+          "type": "dialogue",
+          "titleZh": "和成都视频——时差",
+          "canDoZh": "能算出中国和法国的时差,说“现在成都是……点”",
+          "scenarioZh": "派对上,浩的爸妈打来视频电话祝他生日快乐(他们说中文,浩翻译给朋友们听)。克洛艾问:现在成都几点?——凌晨三点!浩解释冬天中国比法国早七个小时,夏天早六个小时;爸妈特意定了闹钟起来。大家一起对着屏幕说 Bonjour !,浩的妈妈用中文说“谢谢你们”。",
+          "grammarFocusZh": "钟点复习;时差的说法 Il y a sept heures de décalage. / À Chengdu, il est trois heures du matin.;du matin / de l'après-midi / du soir;冬令时和夏令时(l'heure d'hiver / d'été)"
+        },
+        {
+          "id": "fr.a1u13.l07",
+          "type": "dialogue",
+          "titleZh": "太吵了!——宿舍管理员的电话",
+          "canDoZh": "能接正式的电话(对方用 vous),道歉并解释原因",
+          "scenarioZh": "晚上十一点,浩的手机响了,是宿舍管理员:Bonsoir, monsieur Zhang. Il y a beaucoup de bruit dans la cuisine…;浩连忙道歉,说今天是他的生日,大家马上收拾;管理员说 Bon anniversaire,但请大家小声一点,厨房十一点关门。",
+          "grammarFocusZh": "正式电话里的称呼 monsieur Zhang 和 vous;道歉 Excusez-nous / Je suis désolé;复习 il faut + 动词原形、venir de(On vient de finir le gâteau)"
+        },
+        {
+          "id": "fr.a1u13.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:第二天的电话——谢谢大家",
+          "canDoZh": "能打电话感谢朋友,讲昨天发生了什么,并约下次见面",
+          "scenarioZh": "第二天早上,浩给克洛艾打电话谢她组织派对。克洛艾问他喜不喜欢礼物、管理员有没有生气;浩说他刚开始看那本法语菜谱,正在想周末做什么菜请大家吃;克洛艾说假期里星期三的语伴练习照常,浩说好,星期五他还要去咖啡馆和卡里姆谈打工的事。",
+          "grammarFocusZh": "复习电话用语、venir de / être en train de / aller + 动词原形、复合过去时讲昨天的事"
+        },
+        {
+          "id": "fr.a1u13.r02",
+          "type": "reading",
+          "titleZh": "公共厨房的新规定(通知)",
+          "canDoZh": "能看懂宿舍贴出的新规定:几点以后不能用厨房、聚会要先说、用完要做什么",
+          "scenarioZh": "体裁:通知,约 10 句,旁白朗读。派对第二天,宿舍管理员在厨房门上贴了新规定:厨房晚上 11 点关门;要办聚会请提前两天告诉前台;用完厨房要洗碗、擦桌子;冰箱里的东西要写名字;不遵守规定的人一个星期不能用厨房。浩和卢卡读完相视一笑。",
+          "grammarFocusZh": "通知里的 il faut / devoir + 动词原形、否定命令式(Ne laissez pas…)、钟点;avant + 名词 / 时间(avant 23 h)"
+        }
+      ]
+    },
+    {
+      "id": "a1u14",
+      "unit": "A1-14 在咖啡馆打工",
+      "cefr": "A1",
+      "themeZh": "在卡里姆的咖啡馆周末打工:谈工作内容和时间、第一天学做咖啡和招呼客人、出错时道歉、看排班表、算工资,讲打工的感受,帮同事换班。",
+      "grammarZh": "savoir + 动词原形(会做)、savoir 和 connaître 的区别、servir 的现在时、时薪和工时的说法、工作中 tu 和 vous 的分寸。",
+      "pronunciationZh": "闭口 [e] 和开口 [ɛ](café、thé / crème、bière),点单和上菜时的礼貌语调。",
+      "lessons": [
+        {
+          "id": "fr.a1u14.l01",
+          "type": "dialogue",
+          "titleZh": "你会做咖啡吗?——和卡里姆谈工作",
+          "canDoZh": "能回答关于能力和时间的问题(会不会做、什么时候有空、能工作几个小时)",
+          "scenarioZh": "1 月 22 日星期五下午三点,浩到咖啡馆找卡里姆。卡里姆问他:你会做咖啡吗?会用收银机吗?周末早上几点能来?浩说他会泡中国茶,不会做咖啡,但学得很快;他星期六、星期天都有空。卡里姆说老板同意先让他试一个周末:明天早上七点半见!",
+          "grammarFocusZh": "savoir + 动词原形表示“会(学过的技能)”:Tu sais faire un café ? Je sais faire du thé.;savoir 的现在时 je sais, tu sais, il sait, nous savons, vous savez, ils savent;Je ne sais pas 以前当固定说法,现在知道它的变位"
+        },
+        {
+          "id": "fr.a1u14.l02",
+          "type": "vocab",
+          "titleZh": "咖啡馆里的工作——做咖啡、收拾桌子",
+          "canDoZh": "能说出咖啡馆里的工作和工具(咖啡机、托盘、收银台、收拾桌子)",
+          "scenarioZh": "1 月 23 日星期六早上七点半,卡里姆教浩上班:先打开咖啡机,把椅子摆好;un expresso、un crème、un noisette 怎么做;客人走了要收拾桌子、收杯子;托盘要这样拿。浩一边听一边在小本子上记。",
+          "grammarFocusZh": "新词 la machine à café, le plateau, la caisse, le client / la cliente, débarrasser la table;咖啡的种类;tu 的命令式复习(Prends le plateau comme ça !)"
+        },
+        {
+          "id": "fr.a1u14.l03",
+          "type": "grammar",
+          "titleZh": "您要点什么?——工作中的 tu 和 vous",
+          "canDoZh": "能用正确的礼貌用语招呼客人、点单、上菜,和同事之间用 tu",
+          "scenarioZh": "第一位客人进门,浩紧张地说:Bonjour, madame ! Vous désirez ?;后来克洛艾和卢卡来“捣乱”,浩还是用 vous 跟他们说话,大家都笑了;卡里姆提醒他:和同事、朋友用 tu,和客人永远用 vous。",
+          "grammarFocusZh": "服务用语 Vous désirez ? / Et pour vous ? / Je vous apporte ça tout de suite(Je vous apporte 先当固定说法);servir 的现在时 je sers, tu sers, il sert, nous servons, vous servez, ils servent(变位像 partir);tu / vous 的场合"
+        },
+        {
+          "id": "fr.a1u14.l04",
+          "type": "grammar",
+          "titleZh": "你认识这条街吗?——savoir 和 connaître",
+          "canDoZh": "能分清“认识(人、地方)”和“知道(事情)、会(技能)”",
+          "scenarioZh": "下午不忙,卡里姆考浩:你认识这条街上的人吗?你知道面包店几点关门吗?浩说他认识面包店的店员,也认识药店的药剂师,但不知道邮局几点关门;卡里姆说:在这里工作,要认识街区!一位客人问附近有没有银行,浩马上回答——他知道。",
+          "grammarFocusZh": "connaître + 人 / 地方(Je connais Chloé. Tu connais Lyon ?)、savoir + 事情 / 疑问词 / 动词原形(Je sais où est la banque. Je sais nager.);connaître 的现在时 je connais, il connaît, nous connaissons, ils connaissent"
+        },
+        {
+          "id": "fr.a1u14.r01",
+          "type": "reading",
+          "titleZh": "排班表和老板的便条(排班表)",
+          "canDoZh": "能看懂排班表和工作便条:哪天、几点到几点、时薪多少、什么时候发工资",
+          "scenarioZh": "体裁:排班表 + 便条,约 10 句,旁白朗读。卡里姆贴在后厨墙上的二月排班表:浩每个星期六、星期天 8 h – 14 h;卡里姆和另一位同事轮班;旁边是老板写的便条:时薪 12 欧,每月 25 号发工资,迟到要提前打电话;学生居留证一年最多可以工作 964 个小时——这一条卡里姆特意画了线。",
+          "grammarFocusZh": "复习钟点、星期、de … à …;时薪和工时的说法 douze euros de l'heure, douze heures par semaine;数字复习(964 = neuf cent soixante-quatre)"
+        },
+        {
+          "id": "fr.a1u14.l05",
+          "type": "dialogue",
+          "titleZh": "第一个周末——出错了!",
+          "canDoZh": "能在工作中出错时道歉、改正,向同事求助",
+          "scenarioZh": "星期天早上客人很多,浩把两桌的点单弄混了:要奶咖啡的客人拿到了浓缩咖啡;他赶紧道歉:Pardon, madame, c'est une erreur !,马上重新做;卡里姆过来帮忙,教他把点单写在小本子上。中午下班时卡里姆说:Pas mal pour un premier week-end !",
+          "grammarFocusZh": "道歉和改正:Excusez-moi / Pardon, c'est une erreur / Je vous apporte un autre café;复习 servir 和 tu 的命令式;Pas mal ! 的意思(不错)"
+        },
+        {
+          "id": "fr.a1u14.l06",
+          "type": "vocab",
+          "titleZh": "工资和工时——算一算",
+          "canDoZh": "能说一周工作几个小时、每小时挣多少钱、一个月大概挣多少",
+          "scenarioZh": "一月底,浩和卢卡在公共厨房算账:一个周末工作 12 个小时,一个月大约 48 个小时,时薪 12 欧……卢卡说他去年夏天在马赛的游泳池当救生员也挣过钱;浩说第一份工资要给爸妈买礼物,他们二月就来了。",
+          "grammarFocusZh": "计算的说法(douze fois quarante-huit, ça fait…);le salaire, la fiche de paie, gagner de l'argent;par semaine / par mois 复习;百位数复习(cinq cent soixante-seize euros)"
+        },
+        {
+          "id": "fr.a1u14.l07",
+          "type": "dialogue",
+          "titleZh": "累但开心——讲打工的感受",
+          "canDoZh": "能用复合过去时和 C'était… 讲打工的经历和感受(累、有意思、学到了什么)",
+          "scenarioZh": "星期一晚上,浩在公共厨房给卢卡和艾米莉讲周末:早上七点半就开始了,他做了几十杯咖啡,认识了几个常客——有一位老太太每天都点一样的;他说很累,但现在他不怕说法语了;艾米莉说她也想找一份周末的工作。",
+          "grammarFocusZh": "复合过去时复习(j'ai travaillé, j'ai servi, j'ai fait);C'était fatigant / intéressant;avoir peur de + 名词 / 动词原形(第 9 单元 avoir 搭配的扩展)"
+        },
+        {
+          "id": "fr.a1u14.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:帮卡里姆换班",
+          "canDoZh": "能和同事商量换班,说清哪天、几点、为什么",
+          "scenarioZh": "卡里姆二月要考试,问浩能不能 2 月 6 日星期六替他上下午的班;浩说那天是春节,他要和爸妈过年,不行;但 1 月 31 日星期天下午他可以替卡里姆;两人看排班表,最后说定,卡里姆说:Merci, tu es un vrai collègue !",
+          "grammarFocusZh": "复习 savoir / pouvoir / devoir、星期、日期和钟点、parce que;换班的说法 travailler à ma place(替我上班)、changer de jour"
+        },
+        {
+          "id": "fr.a1u14.r02",
+          "type": "reading",
+          "titleZh": "顾客的网上点评(网络点评)",
+          "canDoZh": "能读懂几条网上点评:好在哪儿、不好在哪儿、给几颗星",
+          "scenarioZh": "体裁:网络点评,4 条共约 10 句,旁白朗读。卡里姆给浩看咖啡馆在网上的新点评:一位顾客说咖啡很好喝,新来的年轻服务员很有礼貌;一位说周末人太多,要等很久;还有一条写:新服务员把我的咖啡弄错了,可是他道歉的样子很可爱——大家都猜就是浩。",
+          "grammarFocusZh": "点评常用的形容词和 C'était…;复习复合过去时;星级的说法 cinq étoiles"
+        }
+      ]
+    },
+    {
+      "id": "a1u15",
+      "unit": "A1-15 运动",
+      "cefr": "A1",
+      "themeZh": "假期里报名第二学期的大学体育课、和卢卡早上跑步、在游泳池学游泳、在咖啡馆和朋友看球赛,和艾米莉商量二月去滑雪要准备什么。",
+      "grammarZh": "faire du / de la / de l' + 运动 和 jouer à 的总结、代词式动词 s'entraîner / se promener / s'inscrire、courir 的变位、副词 bien / mal / vite / lentement 和 bon / bien 的区别。",
+      "pronunciationZh": "词尾辅音 c、r、f、l 一般要读(le golf、le basket 的 t 也读,le sport 的 t 不读),外来运动词的法语读法(le foot、le jogging、le rugby)。",
+      "lessons": [
+        {
+          "id": "fr.a1u15.l01",
+          "type": "vocab",
+          "titleZh": "做什么运动?——运动的说法",
+          "canDoZh": "能说出常见的运动,用 faire de / jouer à 说自己做什么运动、多久一次",
+          "scenarioZh": "一月底,卢卡在公共厨房用电脑给浩看大学体育中心第二学期的课程:游泳、跑步、篮球、羽毛球、乒乓球、攀岩、瑜伽。浩说他想打篮球,也想学游泳——他游得不太好;卢卡说他每周游三次泳,还每周踢两次足球。",
+          "grammarFocusZh": "faire du / de la / de l' + 运动(faire du vélo, de la natation, de l'escalade)和 jouer au / à la + 球类(第 8 单元)的总结;频率 trois fois par semaine 复习"
+        },
+        {
+          "id": "fr.a1u15.l02",
+          "type": "grammar",
+          "titleZh": "我在锻炼——s'entraîner 和 courir",
+          "canDoZh": "能说自己什么时候锻炼、在哪儿锻炼、锻炼多久",
+          "scenarioZh": "星期二早上七点,卢卡敲浩的门:On va courir ?;两人沿着罗讷河跑步。卢卡说他每天早上训练一个小时,下午在体育馆练足球;浩说他平时只在周末散散步;卢卡说:Il faut s'entraîner tous les jours !;跑了二十分钟,浩就跑不动了。",
+          "grammarFocusZh": "代词式动词 s'entraîner、se promener(je me promène:e → è,像 se lever)的现在时;代词式动词的原形跟着主语变(Je vais m'entraîner. Tu veux te promener ?);courir 的现在时 je cours, nous courons, ils courent"
+        },
+        {
+          "id": "fr.a1u15.l03",
+          "type": "dialogue",
+          "titleZh": "网上报名体育课——s'inscrire",
+          "canDoZh": "能在网上报名体育课,看懂报名表上的问题(水平、时间、证明)",
+          "scenarioZh": "浩和卢卡一起在网上给浩报名:篮球课星期二晚上,游泳初级班星期四中午;表格问水平——débutant, intermédiaire, avancé,浩游泳选 débutant;卢卡提醒他游泳课要一张医生证明,浩得先去看医生。",
+          "grammarFocusZh": "s'inscrire 的现在时(je m'inscris, nous nous inscrivons,变位像 écrire)和 s'inscrire à + 课程;复习第 7 单元的表格用语;水平的说法;il faut + 名词(Il faut un certificat médical)"
+        },
+        {
+          "id": "fr.a1u15.l04",
+          "type": "grammar",
+          "titleZh": "你游得不错!——副词 bien、mal、vite、lentement",
+          "canDoZh": "能用副词评价别人做得怎么样(好、不好、快、慢)",
+          "scenarioZh": "星期天下午,卢卡带浩去家附近的游泳池练习。浩说他游得很慢,还喝了好几口水;卢卡说其实浩游得不错,只是呼吸不对;卢卡自己游得很快,一口气游了十个来回。",
+          "grammarFocusZh": "副词放在动词后面:Tu nages bien / mal / vite / lentement;très bien / pas mal / pas très bien;形容词和副词的区别 bon / bien(C'est bon. Tu nages bien.)"
+        },
+        {
+          "id": "fr.a1u15.r01",
+          "type": "reading",
+          "titleZh": "法国人和运动(杂志短文)",
+          "canDoZh": "能读懂一篇介绍运动习惯的短文,说出几个事实和数字",
+          "scenarioZh": "体裁:杂志短文,约 12 句,旁白朗读。很多法国人周末跑步、骑车或者散步;最受欢迎的运动是足球、网球和游泳;七月有环法自行车赛;大学生可以在学校上便宜的体育课;冬天很多家庭去山里滑雪。文章最后问:你的国家最受欢迎的运动是什么?",
+          "grammarFocusZh": "复习 faire de / jouer à、on 的用法、频率;大数字的读法(deux millions de personnes)"
+        },
+        {
+          "id": "fr.a1u15.l05",
+          "type": "dialogue",
+          "titleZh": "看球赛——在咖啡馆的大屏幕前",
+          "canDoZh": "能和朋友一起看比赛时说比分、加油、评价球员",
+          "scenarioZh": "星期六晚上,卢卡带浩到卡里姆的咖啡馆看里昂队的足球比赛。卢卡一直喊 Allez ! Allez !;第六十分钟对方进了一个球,一比零;后来里昂队连进两个球,二比一赢了;卡里姆说:Ce soir, les chocolats chauds sont pour moi !",
+          "grammarFocusZh": "比赛用语 le match, l'équipe, le but, marquer, le score;复习 gagner / perdre 和比分 deux à un;加油 Allez !;现在时和复合过去时在解说里的不同"
+        },
+        {
+          "id": "fr.a1u15.l06",
+          "type": "vocab",
+          "titleZh": "滑雪要准备什么?——滑雪装备",
+          "canDoZh": "能说出滑雪需要的装备,问租一套要多少钱",
+          "scenarioZh": "艾米莉约浩和卢卡 2 月 13 日星期六去阿尔卑斯山滑雪一日游。她在网上给浩看租雪具的价格:雪板、雪鞋、头盔、雪杖,一天 35 欧;浩还要买一副手套和一副滑雪镜;卢卡说他滑得不好,但很想去。",
+          "grammarFocusZh": "新词 les skis, les chaussures de ski, le casque, les bâtons, les lunettes de ski, louer;复习 il faut / avoir besoin de、价格"
+        },
+        {
+          "id": "fr.a1u15.l07",
+          "type": "dialogue",
+          "titleZh": "你会滑雪吗?——savoir 和 pouvoir",
+          "canDoZh": "能说自己会不会做某项运动、那天能不能去,并解释原因",
+          "scenarioZh": "在咖啡馆,大家商量滑雪的事:艾米莉从小就会滑雪;浩不会,但很想学;卢卡会滑一点,可是那天他有一场比赛,不能去——后来比赛改了日期,他又能去了;克洛艾不想去,她怕冷,说她那天要陪妹妹。",
+          "grammarFocusZh": "savoir(会,技能)和 pouvoir(能,有条件或被允许)的对比(Je sais skier, mais samedi je ne peux pas);复习 avoir peur de、mais / parce que / alors"
+        },
+        {
+          "id": "fr.a1u15.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:第二学期的运动计划",
+          "canDoZh": "能说自己的运动计划:做什么、一周几次、在哪儿、和谁一起",
+          "scenarioZh": "卢卡和浩在公共厨房做“第二学期运动计划”:浩星期二打篮球,星期四游泳,星期天早上和卢卡跑步;卢卡说他要参加四月的里昂十公里跑,问浩要不要一起报名;浩说先学会游泳再说,两人约好每周检查一次。",
+          "grammarFocusZh": "复习 faire de / jouer à、代词式动词、副词、近将来时、频率"
+        },
+        {
+          "id": "fr.a1u15.r02",
+          "type": "reading",
+          "titleZh": "滑雪场的安全须知(须知)",
+          "canDoZh": "能看懂滑雪场的安全须知和雪道标志(雪道颜色、注意事项)",
+          "scenarioZh": "体裁:须知,约 10 句,旁白朗读。艾米莉把滑雪场网站上的须知发给大家,让他们出发前读:绿道最容易,然后是蓝道、红道,黑道最难;初学者请上滑雪课;一定要戴头盔;不要停在雪道中间;出了事故请打 112。",
+          "grammarFocusZh": "命令式和否定命令式复习、颜色配合(la piste verte)、il faut + 动词原形"
+        }
+      ]
+    },
+    {
+      "id": "a1u16",
+      "unit": "A1-16 手机、网络和网上办事",
+      "cefr": "A1",
+      "themeZh": "换便宜的手机套餐、发邮件和照片、宿舍的无线网连不上、念出邮箱地址,在网上申请住房补助、找管理员开住宿证明,给来访的爸妈准备电话卡。",
+      "grammarZh": "envoyer 等 -yer 动词的变位(y → i)、recevoir 的现在时、口语问句(Tu fais quoi ? C'est quoi, le code ?)、代词式动词 se connecter、网上表格的常用词。",
+      "pronunciationZh": "字母和缩写的读法(SMS、PDF、wifi),邮箱地址里的 arobase、point、tiret,英语外来词的法语读法(le mail、le week-end)。",
+      "lessons": [
+        {
+          "id": "fr.a1u16.l01",
+          "type": "vocab",
+          "titleZh": "我的手机——套餐和流量",
+          "canDoZh": "能说出手机套餐的内容(多少流量、能不能打国际电话、每月多少钱),选一个合适的",
+          "scenarioZh": "浩的手机套餐每月 30 欧,太贵了。卢卡在网上帮他找新套餐:每月 10 欧,100 G 流量,在欧洲也能用,但打中国的电话要另外付钱;浩问能不能保留原来的号码——可以。不提运营商的名字。",
+          "grammarFocusZh": "新词 le forfait, l'appel, l'internet mobile, garder;Ça coûte combien par mois ?;数字复习(100 Go 读 cent gigas)"
+        },
+        {
+          "id": "fr.a1u16.l02",
+          "type": "grammar",
+          "titleZh": "发给我!——envoyer 和 recevoir",
+          "canDoZh": "能说发了什么、收到了什么(短信、邮件、照片、包裹)",
+          "scenarioZh": "浩把爸妈的航班截图发给克洛艾(她要和浩一起去机场接人),克洛艾说没收到;浩又用邮件发了一次;克洛艾抱怨她每天收到一百封邮件;最后浩又收到妈妈寄来的包裹通知。",
+          "grammarFocusZh": "envoyer(j'envoie, nous envoyons, ils envoient:y 在不发音的词尾前变 i)和 recevoir(je reçois, nous recevons, ils reçoivent)的现在时;envoyer + 东西 + à + 人;la pièce jointe, la capture d'écran"
+        },
+        {
+          "id": "fr.a1u16.l03",
+          "type": "dialogue",
+          "titleZh": "Wi-Fi 连不上——找宿舍管理员",
+          "canDoZh": "能说网络出了什么问题,问清楚无线网的名字和密码,听懂对方读的密码",
+          "scenarioZh": "晚上宿舍的 Wi-Fi 连不上,浩去找管理员。管理员说网络换了,告诉他新的网络名和密码:R-E-S-I-D-8,后面是 2027,全部大写;浩一个字母一个字母地重复。回到房间还是不行,卢卡问:C'est quoi, ton mot de passe ? Tu as redémarré ton ordi ?",
+          "grammarFocusZh": "口语问句:C'est quoi, le mot de passe ? / Tu fais quoi ?(quoi 放在句末,只在口语里用;正式说法是 Qu'est-ce que…);复习第 1 单元的字母拼写、majuscule / minuscule;Ça ne marche pas(复习)"
+        },
+        {
+          "id": "fr.a1u16.l04",
+          "type": "vocab",
+          "titleZh": "我的邮箱是……——邮箱地址和账号",
+          "canDoZh": "能念出自己的邮箱地址,听懂并写下别人的邮箱",
+          "scenarioZh": "卡里姆要用邮件给浩发排班表,问他的邮箱。浩念:zhang point hao tiret lyon arobase exemple point fr;卡里姆写下来,念了一遍,写错了一个字母,浩纠正;卡里姆也把自己的邮箱告诉浩,中间有一个 tiret du bas。",
+          "grammarFocusZh": "邮箱的读法:arobase(@)、point(.)、tiret(-)、tiret du bas(_)、tout attaché;l'adresse mail(复习 l'adresse)、l'identifiant, le mot de passe;示例邮箱用 exemple.fr,不用真实的服务商"
+        },
+        {
+          "id": "fr.a1u16.r01",
+          "type": "reading",
+          "titleZh": "怎么申请住房补助(网站说明)",
+          "canDoZh": "能看懂网上办手续的步骤说明(先注册、再填表、上传文件、确认)",
+          "scenarioZh": "体裁:网站上的步骤说明,约 10 句,旁白朗读。克洛艾告诉浩:在法国租房的学生可以申请住房补助(l'aide au logement)。网站上写着:1. 创建账户(邮箱和密码);2. 填写个人信息;3. 上传护照、居留证和住宿证明;4. 确认,两周内会收到邮件。不写机构的真实名称。",
+          "grammarFocusZh": "步骤的写法:序数词 + 动词原形(Créer un compte. Remplir le formulaire.);网上表格的常用词 cliquer, télécharger, valider, le document"
+        },
+        {
+          "id": "fr.a1u16.l05",
+          "type": "dialogue",
+          "titleZh": "我需要一份证明——找管理员开住宿证明",
+          "canDoZh": "能向工作人员说明需要什么证明、做什么用,问清楚什么时候能拿",
+          "scenarioZh": "浩到宿舍前台:Bonjour, monsieur. J'ai besoin d'une attestation de logement, pour l'aide au logement.;管理员说要打印、签字,明天上午可以来拿;他还问浩要不要住宿合同的复印件——要。",
+          "grammarFocusZh": "avoir besoin de + 名词(复习)、pour + 名词 / 动词原形说明用途(复习);新词 l'attestation, la copie, le contrat, imprimer;复习 signer"
+        },
+        {
+          "id": "fr.a1u16.l06",
+          "type": "grammar",
+          "titleZh": "在网上建账户——se connecter",
+          "canDoZh": "能说自己在网上创建了账户、登录、填好了表",
+          "scenarioZh": "晚上浩在电脑上申请住房补助,克洛艾在视频里一步一步帮他:先创建账户,再登录(se connecter);浩问 né le 和 lieu de naissance 填什么;最后上传文件时网站说文件太大,克洛艾教他压缩。",
+          "grammarFocusZh": "se connecter 的现在时(je me connecte, vous vous connectez)和复习 s'inscrire;表格里的 né(e) le … à …、la nationalité、la situation familiale(célibataire);créer un compte"
+        },
+        {
+          "id": "fr.a1u16.l07",
+          "type": "dialogue",
+          "titleZh": "建个群吧!——分享照片和视频",
+          "canDoZh": "能和朋友聊在网上分享照片、建群、发动态",
+          "scenarioZh": "艾米莉给浩看她拍的雪景照片,提议建一个四个人的群,发照片、约时间;卢卡说他每天都发很多运动视频;浩说他在中国用的软件和法国的不一样,但现在两边都用;克洛艾给群起了名字:Les quatre mousquetaires !(不提软件的品牌名)",
+          "grammarFocusZh": "新词 le groupe, la photo, la vidéo, partager, poster, le réseau social;复习 envoyer / recevoir 和口语问句"
+        },
+        {
+          "id": "fr.a1u16.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:给爸妈准备电话卡",
+          "canDoZh": "能为来访的家人办好电话卡和网络,说清价格和用法",
+          "scenarioZh": "爸妈来之前,浩和卢卡在网上给爸妈选一张旅游电话卡:一个月 15 欧,50 G 流量;填写寄送地址,收到确认邮件。浩又去问宿舍管理员,爸妈来的时候能不能用宿舍的 Wi-Fi——不能,只给住在宿舍的人,不过酒店有 Wi-Fi。",
+          "grammarFocusZh": "复习本单元:套餐、envoyer / recevoir、邮箱和表格、口语问句和正式问句的场合"
+        },
+        {
+          "id": "fr.a1u16.r02",
+          "type": "reading",
+          "titleZh": "住房补助的回复(正式邮件)",
+          "canDoZh": "能看懂办事机构的回复邮件:申请收到了没有、还缺什么材料、什么时候有结果",
+          "scenarioZh": "体裁:正式邮件,约 10 句,旁白朗读。两个星期后浩收到邮件:申请已经收到(Votre demande a bien été reçue,被动语态读懂即可);还缺一份银行账户证明(RIB);补助大约每月 100 欧,从下个月开始发。浩马上在银行的手机应用里下载了 RIB。",
+          "grammarFocusZh": "正式邮件的固定说法(Madame, Monsieur, / Cordialement);il manque + 名词(还缺……)、le justificatif;复习 recevoir"
+        }
+      ]
+    },
+    {
+      "id": "a1u17",
+      "unit": "A1-17 家务",
+      "cefr": "A1",
+      "themeZh": "家务和打扫:公共厨房的值日表、洗碗扫地倒垃圾、垃圾分类入门、合用冰箱的小矛盾、在朋友家主动帮忙,爸妈来之前的大扫除。",
+      "grammarZh": "tout / toute / tous / toutes 和 tout le monde、s'occuper de、C'est à moi de… / C'est ton tour、nettoyer / essuyer / balayer(复习 -yer 变位)、propre / sale。",
+      "pronunciationZh": "[l] 和 [ʁ] 的区别(laver / rare、la salle / la rue):中国学习者容易把 r 发成 l 或者卷舌,舌尖要抵住下齿。",
+      "lessons": [
+        {
+          "id": "fr.a1u17.l01",
+          "type": "vocab",
+          "titleZh": "做家务——洗碗、扫地、倒垃圾",
+          "canDoZh": "能说出常见的家务,问别人在家里做什么家务",
+          "scenarioZh": "1 月 31 日星期天晚上,公共厨房的水槽里堆满了脏盘子。卢卡和浩看着厨房叹气:要洗碗、擦桌子、扫地、倒垃圾;卢卡说在马赛的家里他只负责倒垃圾;浩说他在成都也做饭、洗碗,妈妈说男孩子也要会做家务。",
+          "grammarFocusZh": "家务的说法 faire la vaisselle, passer l'aspirateur, balayer, sortir la poubelle, ranger, laver;复习 faire le ménage(第 5 单元)和 faire 的变位"
+        },
+        {
+          "id": "fr.a1u17.l02",
+          "type": "grammar",
+          "titleZh": "大家都要打扫!——tout 的变化",
+          "canDoZh": "能用 tout / toute / tous / toutes 说“所有的、整个、每个”",
+          "scenarioZh": "2 月 1 日晚上,宿舍管理员在公共厨房开会(住户们只听不说):Tout le monde doit nettoyer la cuisine !;所有的盘子都要洗,整个厨房每天晚上都要干净,每个星期每层楼轮流值日。浩和卢卡小声说:Toute la cuisine ? Tous les soirs ?",
+          "grammarFocusZh": "tout 跟后面名词的性数变:tout le gâteau, toute la cuisine, tous les jours(复习), toutes les assiettes;tout le monde + 第三人称单数(Tout le monde doit…);代词 tous 的 s 要读(Ils sont tous là [tus])只要求听懂"
+        },
+        {
+          "id": "fr.a1u17.l03",
+          "type": "dialogue",
+          "titleZh": "这周轮到谁?——排值日表",
+          "canDoZh": "能和室友商量谁做哪项家务、哪天做,接受或拒绝换班",
+          "scenarioZh": "卢卡和浩排一楼的值日表(同层的另一位同学只在叙述里出现):卢卡说星期一他训练到很晚,不能洗碗;浩说他星期六、星期天在咖啡馆打工;最后说定:浩星期一、星期三扫地,卢卡星期二、星期四倒垃圾,星期五一起擦冰箱。星期一晚上卢卡提醒:C'est ton tour, Hao !",
+          "grammarFocusZh": "C'est à moi de + 动词原形 / C'est mon tour / C'est ton tour;s'occuper de + 名词(Je m'occupe des poubelles,de + les 缩合复习);复习星期和 devoir"
+        },
+        {
+          "id": "fr.a1u17.l04",
+          "type": "grammar",
+          "titleZh": "擦干净!——nettoyer 和 essuyer",
+          "canDoZh": "能请别人清洁、擦干净东西,说自己已经打扫了哪里",
+          "scenarioZh": "爸妈来的前两天,克洛艾来帮浩打扫他的 8 号房:Tu nettoies la fenêtre ? Moi, j'essuie le bureau.;浩用借来的吸尘器吸地,克洛艾整理书架,在床下面发现一只一个月前的袜子,两人大笑。",
+          "grammarFocusZh": "nettoyer, essuyer, balayer 的变位(je nettoie, j'essuie, nous essuyons:和第 16 单元的 envoyer 一样,y 在不发音的词尾前变 i);propre / sale;复合过去时复习(J'ai nettoyé la fenêtre)"
+        },
+        {
+          "id": "fr.a1u17.r01",
+          "type": "reading",
+          "titleZh": "垃圾分类指南(海报)",
+          "canDoZh": "能看懂垃圾分类的说明:哪些东西放进哪个颜色的垃圾桶、哪天收垃圾",
+          "scenarioZh": "体裁:说明海报,约 10 句,旁白朗读。宿舍厨房墙上贴出新海报:黄色垃圾桶放纸、纸盒和塑料瓶;玻璃瓶放进街上的绿色回收箱;其他垃圾放进灰色垃圾桶;星期二和星期五早上收垃圾。浩发现和成都的分类方法不一样,拍照发给了爸妈。",
+          "grammarFocusZh": "复习颜色配合、命令式和否定命令式(Ne mettez pas le verre dans…);新词 le carton, le plastique, le verre(玻璃,和杯子同一个词), recycler"
+        },
+        {
+          "id": "fr.a1u17.l05",
+          "type": "vocab",
+          "titleZh": "买清洁用品——干什么用?",
+          "canDoZh": "能在超市买清洁用品,说出它们的用途",
+          "scenarioZh": "浩和卢卡去超市买厨房要用的东西:海绵、洗洁精、垃圾袋、一把扫帚;卢卡问吸尘器要不要买——不用,管理员那里可以借;浩还买了一束花放在自己房间,给妈妈一个惊喜。",
+          "grammarFocusZh": "pour + 动词原形说用途(une éponge pour faire la vaisselle,复习第 12 单元);包装量词复习(un paquet de sacs-poubelle, une bouteille de liquide vaisselle);复习 avoir besoin de"
+        },
+        {
+          "id": "fr.a1u17.l06",
+          "type": "dialogue",
+          "titleZh": "谁喝了我的牛奶?——合用冰箱的小矛盾",
+          "canDoZh": "能礼貌地提出不满、解释误会,一起想办法",
+          "scenarioZh": "浩打开公共冰箱,发现他的牛奶和鸡蛋不见了。他问卢卡,卢卡说不是他;晚上门上贴着 10 号房新邻居(第 11 单元)的纸条,浩念给卢卡听:她以为是大家的,明天还给他。卢卡建议:每个人的东西都写上名字——就像管理员的新规定说的那样。",
+          "grammarFocusZh": "礼貌地抱怨 Excuse-moi, c'est mon lait… / Ce n'est pas grave.;复合过去时的问句(Qui a pris mon lait ?——prendre 的过去分词 pris);建议的说法 On peut… / Il faut…"
+        },
+        {
+          "id": "fr.a1u17.l07",
+          "type": "dialogue",
+          "titleZh": "在伊莎贝尔家帮忙——摆桌子和收拾",
+          "canDoZh": "能在别人家主动帮忙(摆桌子、收拾盘子、洗碗),问东西放在哪儿",
+          "scenarioZh": "星期三晚上伊莎贝尔请浩来吃饭。浩一进门就问:Je peux t'aider ?;伊莎贝尔让他摆桌子:刀放在盘子右边,叉子放在左边,杯子放在前面;饭后克洛艾洗碗,浩擦干;伊莎贝尔说:Tu es vraiment gentil, Hao !",
+          "grammarFocusZh": "摆桌子的地点介词复习(à droite de l'assiette, à gauche, devant);Je peux t'aider ?(t' 是宾语代词,先当固定说法,A2 系统学);Où est-ce que je mets… ?(mettre 复习)"
+        },
+        {
+          "id": "fr.a1u17.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:爸妈来之前的大扫除",
+          "canDoZh": "能安排一次大扫除:分配任务,说做完了什么、还要做什么",
+          "scenarioZh": "2 月 2 日晚上,浩、卢卡和克洛艾一起打扫:房间、公共厨房和楼道。克洛艾分配任务:Toi, tu passes l'aspirateur. Moi, je m'occupe de la salle de bains.;卢卡负责倒垃圾,顺便检查分类;最后浩对着清单一项项检查:Tout est propre !",
+          "grammarFocusZh": "复习 tout、家务的说法、s'occuper de、nettoyer / essuyer、复合过去时(On a nettoyé…);任务分配 toi… / moi…(重读代词复习)"
+        },
+        {
+          "id": "fr.a1u17.r02",
+          "type": "reading",
+          "titleZh": "合租的烦恼(论坛帖子)",
+          "canDoZh": "能读懂网上论坛的提问和回复,说出问题是什么、大家给了什么建议",
+          "scenarioZh": "体裁:学生论坛的帖子和回复,约 12 句,旁白朗读。一个学生发帖:他的室友从来不洗碗,厨房总是很脏,怎么办?下面有四条回复:排一个值日表;和室友好好谈一谈;每个人用自己的盘子;还有一条开玩笑:换一个室友!浩读完,觉得自己和卢卡还算不错。",
+          "grammarFocusZh": "复习 il faut / devoir + 动词原形、tout、家务的说法;论坛里的口语(Salut à tous !)"
+        }
+      ]
+    },
+    {
+      "id": "a1u18",
+      "unit": "A1-18 爸妈来了",
+      "cefr": "A1",
+      "themeZh": "爸妈来里昂过春节:到艾米莉打工的小酒店订房、去机场接人、在前台办入住、房间出了问题找前台、用正式的问句问酒店的服务、在咖啡馆替爸妈点菜、带爸妈上富维耶山,当爸妈的翻译。",
+      "grammarZh": "倒装疑问句(Avez-vous… ? Y a-t-il… ?)和三种问句的场合、leur / leurs、pour + 夜数、Je vous présente…,复习 Est-ce que vous pouvez… ?。",
+      "pronunciationZh": "哑音 h 和嘘音 h:l'hôtel、les‿hôtels 要省音和联诵,le haut、les | haricots 不省音、不联诵。",
+      "lessons": [
+        {
+          "id": "fr.a1u18.l01",
+          "type": "dialogue",
+          "titleZh": "订一间双人房——艾米莉在酒店打工",
+          "canDoZh": "能问酒店有没有房间、多少钱、含不含早餐,订一间房",
+          "scenarioZh": "2 月 1 日星期一晚上,浩到 Perrache 火车站旁边一家小酒店——艾米莉一月开始在这里的前台打工(周末和星期一晚上)——给爸妈订房:2 月 3 日到 11 日,八晚,一间双人房。艾米莉用 vous 和标准的前台用语接待他,浩也用 vous,两人都忍不住笑;每晚 85 欧,含早餐。",
+          "grammarFocusZh": "订房用语 une chambre double / simple, pour huit nuits, du 3 au 11 février, le petit-déjeuner compris;艾米莉的正式问句(Avez-vous une pièce d'identité ?)先听懂,倒装疑问句第 5 课系统讲"
+        },
+        {
+          "id": "fr.a1u18.l02",
+          "type": "vocab",
+          "titleZh": "在机场接人——航班和到达",
+          "canDoZh": "能看懂机场的到达显示屏,问航班什么时候到、在哪个出口",
+          "scenarioZh": "2 月 3 日下午,浩和克洛艾去里昂机场接爸妈(他们从巴黎转机)。显示屏上写着航班晚点三十分钟;克洛艾问 Le vol arrive à quelle heure ?;广播(narrator)说乘客从 B 出口出来;爸妈终于出来了,浩说 Je vous présente Chloé !,克洛艾用刚学的中文说“叔叔好、阿姨好”。爸妈不说法语,只出现在叙述里。",
+          "grammarFocusZh": "新词 l'aéroport, le vol, l'arrivée, le terminal;复习 en retard、24 小时制和 la sortie;Je vous présente…(先当固定说法)"
+        },
+        {
+          "id": "fr.a1u18.l03",
+          "type": "grammar",
+          "titleZh": "他们的房间在几楼?——leur 和 leurs",
+          "canDoZh": "能用 leur / leurs 说“他们的”,替家人回答问题、做翻译",
+          "scenarioZh": "晚上在酒店前台,艾米莉给爸妈办入住,浩翻译:Leur chambre est au troisième étage. Voici leurs clés.;浩说爸妈的护照在他包里;艾米莉对浩眨眨眼:Et vous, monsieur, vous êtes leur fils ?",
+          "grammarFocusZh": "leur(后面是单数名词)/ leurs(后面是复数名词):leur chambre, leurs valises;和 notre / votre、nos / vos 对比(复习第 4 单元);楼层复习(au troisième étage 是中国的四楼)"
+        },
+        {
+          "id": "fr.a1u18.l04",
+          "type": "dialogue",
+          "titleZh": "房间太冷了——向前台反映问题",
+          "canDoZh": "能向前台说明房间出了什么问题(暖气不热、没有热水、太吵),请对方解决",
+          "scenarioZh": "当天晚上十点,妈妈说房间太冷,淋浴也没有热水。浩下楼找前台——还是艾米莉值班:Excusez-moi, il y a un problème dans la chambre 304… le chauffage ne marche pas et il n'y a pas d'eau chaude.;艾米莉说马上给他们换一间安静的房间,还送了一壶热茶。",
+          "grammarFocusZh": "复习 Ça ne marche pas / il n'y a pas de + 名词、avoir froid;请求的说法 Est-ce que vous pouvez… ?;道歉和解决 Je suis désolée, je vous donne une autre chambre"
+        },
+        {
+          "id": "fr.a1u18.r01",
+          "type": "reading",
+          "titleZh": "酒店房间里的入住须知(须知)",
+          "canDoZh": "能看懂酒店的入住须知:早餐时间、退房时间、Wi-Fi、注意事项",
+          "scenarioZh": "体裁:须知,约 10 句,旁白朗读。新房间桌上的《Bienvenue》:早餐 7 h – 10 h,在地面层;Wi-Fi 密码在背面;退房时间 11 h 以前;房间里不能吸烟;前台 24 小时有人;行李可以免费寄存到下午。浩一句一句翻译给爸妈听。",
+          "grammarFocusZh": "复习钟点、de … à …、否定命令式(Ne fumez pas);书面的正式说法 Veuillez…(读懂即可)"
+        },
+        {
+          "id": "fr.a1u18.l05",
+          "type": "grammar",
+          "titleZh": "请问……?——倒装疑问句",
+          "canDoZh": "能用正式的问句向酒店前台问服务(早餐、行李寄存、叫出租车、附近的中餐馆)",
+          "scenarioZh": "2 月 4 日早上,浩替爸妈去前台问问题(艾米莉这个星期多排了几个班):À quelle heure est le petit-déjeuner ? Pouvez-vous garder nos valises ce soir ? Y a-t-il un restaurant chinois près d'ici ?;艾米莉一一回答,还在地图上画了路线。",
+          "grammarFocusZh": "倒装疑问句:动词和主语代词倒过来,中间加连字符(Pouvez-vous… ?),两个元音之间加 -t-(Y a-t-il… ? A-t-elle… ?);三种问句的场合:语调(朋友之间)、est-ce que(都可以)、倒装(正式、书面),第 4 单元只要求听懂,这里学会用"
+        },
+        {
+          "id": "fr.a1u18.l06",
+          "type": "dialogue",
+          "titleZh": "在卡里姆的咖啡馆——替爸妈点菜",
+          "canDoZh": "能替家人点菜、问菜里有什么、说出谁不吃什么",
+          "scenarioZh": "中午,浩带爸妈到他打工的咖啡馆,卡里姆热情地说 Bonjour, madame, monsieur !;浩替爸妈点菜:爸爸不吃奶酪,妈妈不喝咖啡,要一壶茶;卡里姆问 Ce sont vos parents ? Ils sont très sympas !;买单时卡里姆说:C'est cadeau !",
+          "grammarFocusZh": "复习 Je voudrais / Je prends、部分冠词和否定后的 de(Mon père ne mange pas de fromage)、leur / leurs;C'est cadeau !(我请客)"
+        },
+        {
+          "id": "fr.a1u18.l07",
+          "type": "vocab",
+          "titleZh": "当导游——给爸妈介绍里昂",
+          "canDoZh": "能用简单的法语介绍城市的名胜,请路人帮忙拍照",
+          "scenarioZh": "下午浩带爸妈坐缆车上富维耶山,在山上给他们介绍里昂:两条河(le Rhône 和 la Saône)、老城、大教堂;一位热心的路人主动问要不要帮他们拍照,还问他们从哪儿来,听说是从成都来过春节的,说 Bonne année chinoise !",
+          "grammarFocusZh": "名胜的说法 le fleuve, la rivière, le pont, la basilique, la vue;复习国家前的介词和 venir(Nous venons de Chine);Vous pouvez nous prendre en photo ?(nous 先当固定说法)"
+        },
+        {
+          "id": "fr.a1u18.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:爸妈和伊莎贝尔见面",
+          "canDoZh": "能介绍两家人认识,替双方翻译,接受邀请",
+          "scenarioZh": "2 月 4 日晚上,伊莎贝尔请浩和爸妈去家里喝茶。浩给两边做介绍、翻译:伊莎贝尔说浩很有礼貌、很勤快;爸妈送她一盒四川的茶叶,伊莎贝尔送他们一瓶里昂的果酱。伊莎贝尔提议:明天是除夕,大家来我家一起包饺子!浩翻译,爸妈高兴地答应了。",
+          "grammarFocusZh": "复习 Je vous présente…、leur / leurs、倒装问句和 est-ce que、tu / vous(伊莎贝尔对浩用 tu,对浩的爸妈用 vous)"
+        },
+        {
+          "id": "fr.a1u18.r02",
+          "type": "reading",
+          "titleZh": "爸妈的里昂一周(行程表)",
+          "canDoZh": "能看懂一份一周的行程表:哪天、几点、去哪儿、怎么去",
+          "scenarioZh": "体裁:行程表 + 备注,约 12 句,旁白朗读。浩给爸妈做的《里昂一周》:2 月 5 日除夕,上午去菜市场,下午和晚上在伊莎贝尔家包饺子、吃年夜饭;2 月 6 日春节,看舞狮;2 月 7 日去老城和博物馆;2 月 8 日在伊莎贝尔家学做法国菜……11 日上午退房、下午的飞机。每一天都写了坐什么车、带什么东西。",
+          "grammarFocusZh": "复习日期和星期、钟点、交通方式、近将来时;行程表的简写(9 h : marché ; 14 h : chez Isabelle)"
+        }
+      ]
+    },
+    {
+      "id": "a1u19",
+      "unit": "A1-19 在里昂过春节",
+      "cefr": "A1",
+      "themeZh": "和爸妈、朋友们在里昂过春节:去菜市场买菜、在伊莎贝尔家包饺子、写菜谱、吃年夜饭时介绍春节习俗、说味道,大年初一给家人拜年,伊莎贝尔回教妈妈做法国菜,最后送爸妈回国。",
+      "grammarZh": "数量副词 + de(un peu de, beaucoup de, assez de, trop de)、菜谱里的动词原形和命令式、顺序词 d'abord / ensuite / puis / enfin、il faut + 名词 / 动词原形(复习)、faire cuire / faire bouillir(固定说法)。",
+      "pronunciationZh": "[s] 和 [z]:两个元音之间的 s 读 [z](cuisine、poison),ss、ç 和词首的 s 读 [s](poisson、ça、sel),做饭时最容易说错。",
+      "lessons": [
+        {
+          "id": "fr.a1u19.l01",
+          "type": "dialogue",
+          "titleZh": "去菜市场——包饺子要买什么?",
+          "canDoZh": "能在市场买菜时说要多少(一点、很多、够了、太多),问还要不要别的",
+          "scenarioZh": "2 月 5 日除夕上午,浩和妈妈跟着伊莎贝尔去红十字区的菜市场。在菜摊,摊主没见过大白菜,伊莎贝尔说那叫 le chou chinois;妈妈要很多葱、一点姜和一点香菜,浩翻译;摊主问 Et avec ceci ?,浩说 C'est assez, merci ! 猪肉馅之前已经在亚洲超市买好了。",
+          "grammarFocusZh": "数量副词 + de:un peu de gingembre, beaucoup de poireaux, assez de chou, trop de sel(后面不加冠词,和 un kilo de 一样,第 7 单元的扩展);复习 Et avec ceci ? / C'est tout;新词 le chou, l'oignon, l'ail, le gingembre, la coriandre"
+        },
+        {
+          "id": "fr.a1u19.l02",
+          "type": "vocab",
+          "titleZh": "厨房里的动作——洗、切、拌、煮",
+          "canDoZh": "能说出做饭的基本动作(洗、切、拌、加、煮、煎)",
+          "scenarioZh": "下午在伊莎贝尔家的厨房,浩的妈妈示范怎么包饺子,浩把每一步翻译成法语:先洗菜、切菜,再把肉和菜拌在一起,加一点盐和酱油;克洛艾和卢卡跟着学,卢卡包的饺子全都破了,大家笑成一团;艾米莉负责烧水。",
+          "grammarFocusZh": "做饭的动词 laver, couper, mélanger, ajouter, faire cuire, faire bouillir;复习 tu 的命令式(Coupe le chou ! Ajoute un peu de sel !)和数量副词 + de"
+        },
+        {
+          "id": "fr.a1u19.l03",
+          "type": "grammar",
+          "titleZh": "菜谱怎么写?——动词原形和命令式",
+          "canDoZh": "能看懂和写一个简单的菜谱:材料、数量、步骤",
+          "scenarioZh": "伊莎贝尔想以后自己做饺子,请浩把步骤写下来。浩边写边念:Pour quatre personnes : 500 g de porc, un chou… D'abord, couper le chou. Ensuite, mélanger…;伊莎贝尔说法国的菜谱也常用动词原形,和命令式的意思一样。",
+          "grammarFocusZh": "菜谱用动词原形表示步骤(Couper, Mélanger, Faire cuire dix minutes),也可以用 vous 的命令式;顺序词 d'abord, ensuite, puis, enfin;数量的写法 500 g(cinq cents grammes)、une cuillère de sel"
+        },
+        {
+          "id": "fr.a1u19.l04",
+          "type": "dialogue",
+          "titleZh": "年夜饭——介绍春节习俗",
+          "canDoZh": "能介绍春节的习俗(年夜饭、红包、鞭炮、守岁),回答朋友的问题",
+          "scenarioZh": "除夕晚上,大家在伊莎贝尔家吃年夜饭。伊莎贝尔、克洛艾、卢卡、艾米莉问浩:为什么吃饺子?红包里有什么?为什么都是红色?浩一一解释;爸妈给每个朋友一个红包,里面是浩提前准备的巧克力金币,大家很开心;卢卡说:Je veux le Nouvel An chinois tous les ans !",
+          "grammarFocusZh": "解释原因 parce que / pour + 动词原形(复习);新词 le Nouvel An chinois, l'enveloppe rouge, les pétards, la chance, la tradition;复习 le réveillon(第 10 单元)"
+        },
+        {
+          "id": "fr.a1u19.r01",
+          "type": "reading",
+          "titleZh": "浩写的饺子菜谱(菜谱)",
+          "canDoZh": "能读懂一份完整的菜谱(材料、数量、步骤、时间),照着做一次",
+          "scenarioZh": "体裁:菜谱,约 12 句,旁白朗读。浩整理好发给伊莎贝尔的《中国饺子(4 人份)》:材料和数量、8 个步骤、煮的时间,还有一个小窍门:水开了加一杯凉水,一共加三次;最后一句:Bon appétit… et bonne année !",
+          "grammarFocusZh": "复习菜谱的动词原形、数量(grammes、cuillères)、顺序词、faire cuire / faire bouillir"
+        },
+        {
+          "id": "fr.a1u19.l05",
+          "type": "vocab",
+          "titleZh": "味道怎么样?——酸甜苦辣",
+          "canDoZh": "能说菜的味道(咸、甜、辣、酸、苦),说自己喜欢什么口味",
+          "scenarioZh": "饺子出锅,大家蘸醋和辣椒油吃:艾米莉说太辣了,一直喝水;卢卡觉得有一点咸;伊莎贝尔说醋酸酸的,很好吃;浩的爸爸通过浩说,法国的奶酪对他来说太咸了,大家都笑了。",
+          "grammarFocusZh": "味道形容词 salé, sucré, épicé / piquant, acide, amer;trop / un peu / très + 形容词(复习);C'est bon ! / C'est délicieux !(复习)"
+        },
+        {
+          "id": "fr.a1u19.l06",
+          "type": "dialogue",
+          "titleZh": "大年初一——拜年和舞狮",
+          "canDoZh": "能用法语讲春节当天做了什么,给远方的人发新年祝福",
+          "scenarioZh": "2 月 6 日春节,浩一家早上在酒店和成都的爷爷奶奶视频拜年(说中文);浩给莫罗老师发短信祝新年;下午他带爸妈去看里昂华人社区的舞狮表演,克洛艾也来了,录了很多视频;晚上克洛艾问浩今天做了什么,浩用复合过去时一样一样讲。",
+          "grammarFocusZh": "复习复合过去时和近将来时;新年祝福 Bonne année de la Chèvre !(2027 年是羊年);新词 la danse du lion, le quartier chinois"
+        },
+        {
+          "id": "fr.a1u19.l07",
+          "type": "dialogue",
+          "titleZh": "伊莎贝尔回教妈妈做咸派",
+          "canDoZh": "能听懂别人口头讲的菜谱,问清楚要多少、要多久",
+          "scenarioZh": "2 月 8 日,伊莎贝尔回请浩一家,教浩的妈妈做咸派(la quiche):Il faut trois œufs, 200 g de lardons, de la crème…;浩翻译,妈妈问要烤多久——35 分钟,180 度;卢卡负责试吃,说:C'est parfait !",
+          "grammarFocusZh": "il faut + 名词 / 动词原形(复习)、combien de + 名词 / combien de temps(复习);烤箱的说法 le four, cuire au four, 180 degrés;数量副词 + de 复习"
+        },
+        {
+          "id": "fr.a1u19.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:送爸妈回国",
+          "canDoZh": "能办理退房、核对账单,在机场告别、说感谢和祝福",
+          "scenarioZh": "2 月 11 日上午,浩陪爸妈退房:艾米莉打印账单——八晚 680 欧,加两壶茶——浩核对后付款;爸妈送艾米莉一个熊猫钥匙扣,艾米莉用中文说“谢谢”。在机场,妈妈让浩好好吃饭,浩说:Ne vous inquiétez pas !,答应每个星期视频。",
+          "grammarFocusZh": "复习第 18 单元的倒装问句、leur / leurs、百位数(six cent quatre-vingts euros);否定命令式复习;告别 Bon voyage ! / Faites attention à vous !"
+        },
+        {
+          "id": "fr.a1u19.r02",
+          "type": "reading",
+          "titleZh": "爸妈给酒店的好评(网络点评)",
+          "canDoZh": "能读懂并写一条简短的酒店点评:房间、早餐、服务怎么样",
+          "scenarioZh": "体裁:网上点评,约 10 句,旁白朗读。爸妈回国后,浩帮他们用法语写了一条点评:酒店离火车站很近,房间干净安静,早餐很好吃;第一天晚上暖气坏了,但前台的年轻小姐马上给我们换了房间,还送了热茶;五颗星。艾米莉看到后给浩发短信:Merci, Hao !。",
+          "grammarFocusZh": "复合过去时讲住宿经历;点评的结构(总体评价 → 优点 → 问题 → 结论);形容词复习"
+        }
+      ]
+    },
+    {
+      "id": "a1u20",
+      "unit": "A1-20 意外和求助",
+      "cefr": "A1",
+      "themeZh": "第一次滑雪就摔了一跤:在雪道上求助、看医生说清怎么受的伤、在药店买护踝租拐杖、朋友们来帮忙、记住法国的紧急电话,最后和朋友们回顾来法国半年的路。",
+      "grammarZh": "求助和紧急情况的说法(Au secours ! Appelez le 112 !)、Je suis tombé(e) / Je me suis fait mal(先当固定说法,A2 第 1、3 单元系统学)、身体部位的扩展,A1 三种时间的总复习(现在时、复合过去时、近将来时)。",
+      "pronunciationZh": "A1 发音总复习:联诵、鼻化元音、小舌音 r、[y] 和 [u]、清浊辅音,紧急情况下也要把数字和地址说清楚。",
+      "lessons": [
+        {
+          "id": "fr.a1u20.l01",
+          "type": "vocab",
+          "titleZh": "第一次滑雪——缆车和雪道",
+          "canDoZh": "能在滑雪场买缆车票、问雪道,听懂朋友简单的滑雪指令",
+          "scenarioZh": "2 月 13 日星期六,艾米莉、浩和卢卡坐大巴去阿尔卑斯山。艾米莉帮浩买了一天的缆车票(le forfait,和手机套餐是同一个词),教他穿雪鞋、站起来、慢慢滑:Plie les genoux ! Regarde devant toi ! Freine !;浩摔了好几次,但很开心;卢卡滑得也不太好,总是摔在浩旁边。",
+          "grammarFocusZh": "tu 的命令式复习(Plie, Regarde, Freine);新词 le télésiège, la piste, le genou, freiner, tomber;位置 en haut / en bas"
+        },
+        {
+          "id": "fr.a1u20.l02",
+          "type": "dialogue",
+          "titleZh": "摔倒了!——在雪道上求助",
+          "canDoZh": "能在出事时求助、说出哪儿疼,回答“能不能站起来”",
+          "scenarioZh": "下午在蓝道上,浩摔倒了,左脚踝很疼,站不起来。卢卡滑过来:Ça va ? Tu as mal où ?;浩说 J'ai très mal à la cheville !;艾米莉打滑雪场的救援电话,课文里只出现她这一边的话:Allô ? Mon ami est tombé… sur la piste bleue, près du télésiège 3.;十分钟后救援人员用雪橇把浩送下了山。",
+          "grammarFocusZh": "求助的说法 Au secours ! / À l'aide ! / Appelez les secours !;Je suis tombé(e)(être + 过去分词,第 8 单元的规则,tomber 在 A2 第 1 单元系统学);avoir mal à 复习;报位置要说清楚"
+        },
+        {
+          "id": "fr.a1u20.l03",
+          "type": "dialogue",
+          "titleZh": "在医生那里——怎么受伤的?",
+          "canDoZh": "能向医生说明怎么受的伤、什么时候、哪儿疼,听懂诊断和医嘱",
+          "scenarioZh": "2 月 15 日星期一,浩拄着滑雪场借的拐杖去看全科医生(第 8 单元那位)。医生问:Qu'est-ce qui s'est passé ?(读懂即可);浩说星期六滑雪时摔倒了,脚踝很疼,有点肿;医生检查后说是扭伤,不严重,要休息一个星期,两个星期不能打篮球,还开了一张证明,下学期的体育课先停一停。",
+          "grammarFocusZh": "复习复合过去时讲经过(J'ai fait du ski, je suis tombé)、avoir mal à、depuis;新词 la cheville, l'épaule, le bras, gonflé, l'entorse, le certificat;医嘱的命令式和否定命令式复习"
+        },
+        {
+          "id": "fr.a1u20.l04",
+          "type": "vocab",
+          "titleZh": "在药店——护踝和拐杖",
+          "canDoZh": "能在药店买护具、冰袋,问清楚怎么用、能不能租拐杖",
+          "scenarioZh": "看完医生,浩去药店。药剂师给他一个护踝,教他怎么戴;建议冰敷,一天三次,每次十五分钟;浩问能不能租拐杖——可以,药店可以租,一个星期几欧;药剂师提醒他留好发票。",
+          "grammarFocusZh": "新词 la chevillère, la poche de glace, les béquilles, la facture;复习 louer、fois par jour、命令式;la glace 也是冰淇淋(第 9 单元)"
+        },
+        {
+          "id": "fr.a1u20.r01",
+          "type": "reading",
+          "titleZh": "群里的问候(群聊消息)",
+          "canDoZh": "能读懂朋友们在群里的关心和安排(谁来帮忙、什么时候、做什么)",
+          "scenarioZh": "体裁:群聊消息,约 12 条,旁白朗读。浩在“四个火枪手”群里发了一张脚踝的照片,大家马上回复:克洛艾说明天带妈妈做的汤来;卢卡说他去超市,让浩列清单;艾米莉说都怪她,还发了一个哭脸;卡里姆(浩把他也拉进了群)说这个周末他替浩上班。",
+          "grammarFocusZh": "复习口语问句、近将来时、重读代词(pour toi);群聊里的缩写和表情(mdr、stp、bisous)"
+        },
+        {
+          "id": "fr.a1u20.l05",
+          "type": "dialogue",
+          "titleZh": "我来帮你!——接受和婉拒帮助",
+          "canDoZh": "能主动提出帮忙,也能接受或婉拒别人的帮助",
+          "scenarioZh": "2 月 16 日,克洛艾带着伊莎贝尔做的汤来宿舍看浩;卢卡拿着清单问:Tu as besoin de quoi ? Du lait, du pain… et du chocolat ?;浩说不用买巧克力——可是卢卡还是买了;卡里姆打电话说周末他替浩上班,浩很感动:Vous êtes vraiment sympas !",
+          "grammarFocusZh": "提出帮忙 Je fais les courses pour toi. / Je peux t'aider ?(复习第 17 单元的固定说法);接受和婉拒 Oui, merci, c'est gentil ! / Non merci, ça va.;Tu as besoin de quoi ?(口语问句复习)"
+        },
+        {
+          "id": "fr.a1u20.l06",
+          "type": "vocab",
+          "titleZh": "紧急电话——15、17、18、112",
+          "canDoZh": "能记住法国的紧急电话,在电话里说清楚出了什么事、在哪儿",
+          "scenarioZh": "2 月 17 日,宿舍管理员听说了浩的事,在门厅贴了一张紧急电话表,他和拄着拐杖的浩聊:15 是急救,17 是警察,18 是消防,112 在整个欧洲都能打;要是晚上有人病了,打电话先说出了什么事,再说地址和房间号,不要挂电话。",
+          "grammarFocusZh": "紧急电话 le 15 (le SAMU), le 17 (la police), le 18 (les pompiers), le 112;打电话说清楚 Il y a un accident. / Mon ami est malade. / L'adresse, c'est…;复习数字、地址和 il faut + 动词原形"
+        },
+        {
+          "id": "fr.a1u20.l07",
+          "type": "grammar",
+          "titleZh": "现在、过去和将来——A1 的三种时间",
+          "canDoZh": "能在一段话里同时说过去做了什么、现在怎么样、接下来打算做什么",
+          "scenarioZh": "2 月 20 日星期六,伊莎贝尔来宿舍看浩。她问浩脚怎么样了:浩说上星期六他摔倒了(复合过去时),现在好多了,可以慢慢走路(现在时);星期一开学,他要去上课,四月还要去巴黎(近将来时);伊莎贝尔说:Et la prochaine fois, tu vas skier doucement !",
+          "grammarFocusZh": "A1 学过的三种时间:现在时、复合过去时(avoir / être + 过去分词)、近将来时(aller + 动词原形);时间词对照:hier / la semaine dernière ↔ aujourd'hui / maintenant ↔ demain / la semaine prochaine"
+        },
+        {
+          "id": "fr.a1u20.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:半年回顾——从 Bonjour 开始",
+          "canDoZh": "能用法语回顾自己来法国以后的经历:做过什么、现在能做什么、以后想做什么",
+          "scenarioZh": "2 月 21 日,第二学期开学前的星期天,浩、克洛艾、卢卡、艾米莉在第 1 单元那家咖啡馆见面,卡里姆端来四杯热巧克力。克洛艾问浩:还记得九月你只会说 Pardon ? 吗?大家一起回忆:宿舍登记、面包店、生日聚会、罗马、春节;浩说他现在能打电话、能在咖啡馆打工、能给爸妈当翻译;年底他要考 DELF A2。这一课是 A1 的收尾,复现二十个单元的高频词。",
+          "grammarFocusZh": "A1 总复习:三种时间、tu / vous、各种问句、否定、代词式动词;Tu te souviens ?(先当固定说法)"
+        },
+        {
+          "id": "fr.a1u20.r02",
+          "type": "reading",
+          "titleZh": "给九月的自己的一封信(信)",
+          "canDoZh": "能读懂一封回顾性的信,说出浩半年来的变化和打算",
+          "scenarioZh": "体裁:信,约 12 句,旁白朗读。第二学期第一天,莫罗老师让每个学生写一封“给九月的自己”的信。浩写道:Cher Hao de septembre, tu ne parles pas français, tu as peur…(用现在时对过去的自己说话);今天你会打电话、会做咖啡、有很多朋友;九月你会觉得一切都很难,可是 Courage !;最后:À bientôt, au niveau A2 !",
+          "grammarFocusZh": "复习现在时、复合过去时、近将来时;书信的开头和结尾;Courage !"
+        }
+      ]
+    }
+  ]
+}

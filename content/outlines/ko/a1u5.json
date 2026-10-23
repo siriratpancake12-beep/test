@@ -1,0 +1,128 @@
+{
+  "lang": "ko",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-5 时间与日程", "cefr": "A1", "themeZh": "数字和时间:两套数字(汉字数词、固有数词)、电话号码、量词和年龄、钟点、日期,最后和朋友约好时间给敏俊过生日(星期放在第 8 单元“我的一周”里学)" }
+  ],
+  "lessons": [
+    {
+      "id": "ko.a1u5.l01", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105010,
+      "titleZh": "一二三:汉字数词",
+      "goalZh": "会读、会写汉字数词 1–10,会组合 11–99",
+      "canDoZh": "能用汉字数词从 1 数到 99,听懂老师说的数字",
+      "scenarioZh": "语学堂的数字课。朴老师(park)用数字卡带读 일、이、삼……;陈静(jing)发现汉字数词和汉语发音很像(三 = 삼、六 = 육、十 = 십);老师说一个数字,陈静和南(nam)比赛谁先举对卡片,最后挑战 이십삼、구십구。课文 8–10 句。",
+      "grammarFocusZh": "韩语有两套数字:汉字数词(일、이、삼……)和固有数词(하나、둘、셋……,第 3 课)。汉字数词发音接近汉语,用于电话号码、日期、分钟、价格、楼层、页码。11–99 的组合方式和汉语一样:십일、이십、구십구;“一十”只说 십。音变:십육 读 [심뉵]。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 13,
+      "newItems": [
+        { "id": "ko.il", "kind": "word", "pos": "num", "text": "일", "zh": "一(汉字数词)", "features": { "roman": "il" }, "noteZh": "汉字词 一;日期里的“日”也读 일(사월 십이 일 = 4 月 12 日)。" },
+        { "id": "ko.i", "kind": "word", "pos": "num", "text": "이", "zh": "二(汉字数词)", "features": { "roman": "i" }, "noteZh": "汉字词 二;和指示词“这”(이 사람)同形。" },
+        { "id": "ko.sam", "kind": "word", "pos": "num", "text": "삼", "zh": "三(汉字数词)", "features": { "roman": "sam" }, "noteZh": "汉字词 三;收音 ㅁ 要闭嘴,和粤语“三”一样。" },
+        { "id": "ko.sa", "kind": "word", "pos": "num", "text": "사", "zh": "四(汉字数词)", "features": { "roman": "sa" }, "noteZh": "汉字词 四;和“死”同音,有的电梯把 4 楼写成 F。" },
+        { "id": "ko.o", "kind": "word", "pos": "num", "text": "오", "zh": "五(汉字数词)", "features": { "roman": "o" }, "noteZh": "汉字词 五;嘴唇要圆。" },
+        { "id": "ko.yuk", "kind": "word", "pos": "num", "text": "육", "zh": "六(汉字数词)", "features": { "roman": "yuk" }, "noteZh": "汉字词 六;在数字中间读音会变:십육 [심뉵](16)、이십육 [이심뉵]。" },
+        { "id": "ko.chil", "kind": "word", "pos": "num", "text": "칠", "zh": "七(汉字数词)", "features": { "roman": "chil" }, "noteZh": "汉字词 七;ㅊ 要送气。" },
+        { "id": "ko.pal", "kind": "word", "pos": "num", "text": "팔", "zh": "八(汉字数词)", "features": { "roman": "pal" }, "noteZh": "汉字词 八;ㅍ 要送气。팔 也是“胳膊”。" },
+        { "id": "ko.gu", "kind": "word", "pos": "num", "text": "구", "zh": "九(汉字数词)", "features": { "roman": "gu" }, "noteZh": "汉字词 九;ㄱ 不送气。" },
+        { "id": "ko.sip", "kind": "word", "pos": "num", "text": "십", "zh": "十(汉字数词)", "features": { "roman": "sip" }, "noteZh": "汉字词 十;십일(11)、이십(20)、삼십오(35);收音 ㅂ 不爆破。" }
+      ],
+      "reviewItems": ["ko.seonsaengnim", "ko.sueop", "ko.dasi_malhae_juseyo"]
+    },
+    {
+      "id": "ko.a1u5.l02", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105020,
+      "titleZh": "留个电话吧",
+      "goalZh": "会说、会听手机号码,会用 몇 问号码,听不清时请对方说慢一点",
+      "canDoZh": "能把自己的手机号告诉别人,准确记下别人的号码",
+      "scenarioZh": "下课后,南(nam)想和陈静交换电话号码:“전화번호가 뭐예요?”。陈静一个数字一个数字地念(공일공……);南念自己的号码时说得太快,陈静说“천천히 말해 주세요.”,南放慢速度;陈静复述一遍,南说“네, 맞아요!”。课文至少 10 句。号码用 010-1234-5678 这类明显的示例号码。",
+      "grammarFocusZh": "读电话号码:汉字数词一个一个读,0 读 공,横杠处停顿(口语里也常读成 에):010-1234 → 공일공(에) 일이삼사。百、千前面的“一”不读:백(100)、천(1000)。몇 + 量词问号码、数量:몇 번이에요?(几号?)。听不清:천천히 말해 주세요 / 다시 말해 주세요。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.gong", "kind": "word", "pos": "num", "text": "공", "zh": "零(读号码时)", "features": { "roman": "gong" }, "noteZh": "汉字词 空;读电话号码、房间号时 0 读 공:010 = 공일공;温度、比分里的 0 读 영。" },
+        { "id": "ko.baek", "kind": "word", "pos": "num", "text": "백", "zh": "百", "features": { "roman": "baek" }, "noteZh": "汉字词 百;一百就说 백,不说 일백:이백(200)、삼백오(305)。" },
+        { "id": "ko.cheon", "kind": "word", "pos": "num", "text": "천", "zh": "千", "features": { "roman": "cheon" }, "noteZh": "汉字词 千;一千说 천;第 7 单元说价格常用:천 원(一千韩元)。" },
+        { "id": "ko.jeonhwabeonho", "kind": "word", "pos": "noun", "text": "전화번호", "zh": "电话号码", "features": { "roman": "jeonhwabeonho" }, "noteZh": "汉字词 电话番号;口语里 ㅎ 弱化,听起来像 [저놔버노]。问号码:전화번호가 뭐예요?" },
+        { "id": "ko.myeot", "kind": "word", "pos": "det", "text": "몇", "zh": "几;多少", "features": { "roman": "myeot" }, "noteZh": "后面接量词:몇 번(几号)、몇 살(几岁)、몇 시(几点);收音 ㅊ 读 [t]:[멷]。" },
+        { "id": "ko.beon", "kind": "word", "pos": "noun", "text": "번", "zh": "号;次", "features": { "roman": "beon" }, "noteZh": "汉字词 番;몇 번(几号)、302번 버스(302 路公交,第 6 单元)、한 번(一次)。" },
+        { "id": "ko.cheoncheonhi_malhae_juseyo", "kind": "phrase", "pos": "phrase", "text": "천천히 말해 주세요", "zh": "请说慢一点", "features": { "roman": "cheoncheonhi malhae juseyo" }, "noteZh": "천천히 = 慢慢地;对方说得太快时说,和 다시 말해 주세요 一起反复用。" }
+      ],
+      "reviewItems": ["ko.il", "ko.gu", "ko.hyudaepon", "ko.majayo"]
+    },
+    {
+      "id": "ko.a1u5.l03", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105030,
+      "titleZh": "하나, 둘, 셋:固有数词",
+      "goalZh": "会读、会写固有数词 1–10,知道两套数字各用在哪儿",
+      "canDoZh": "能用固有数词数东西,从 하나 数到 열",
+      "scenarioZh": "咖啡店里刚到了一批杯子和面包,崔老板(choi)让陈静清点:“하나, 둘, 셋……”;陈静数到一半忘了 여섯 还是 여덟,老板笑着帮她一起数到 열,最后说“고마워요”。课文 8–10 句。",
+      "grammarFocusZh": "固有数词(하나~열)用于数个数、年龄、钟点的“点”;汉字数词用于号码、日期、分钟、价格。口诀:“点钟、个数、年龄用固有;分钟、号码、日期、钱用汉字”。下一课学:固有数词在量词前要变形(하나 → 한、둘 → 두)。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 13,
+      "newItems": [
+        { "id": "ko.hana", "kind": "word", "pos": "num", "text": "하나", "zh": "一(固有数词)", "features": { "roman": "hana" }, "noteZh": "在量词前变 한:한 개、한 명、한 잔。" },
+        { "id": "ko.dul", "kind": "word", "pos": "num", "text": "둘", "zh": "二(固有数词)", "features": { "roman": "dul" }, "noteZh": "在量词前变 두:두 잔(两杯)。" },
+        { "id": "ko.set", "kind": "word", "pos": "num", "text": "셋", "zh": "三(固有数词)", "features": { "roman": "set" }, "noteZh": "在量词前变 세:세 명(三个人);单读 [섿]。" },
+        { "id": "ko.net", "kind": "word", "pos": "num", "text": "넷", "zh": "四(固有数词)", "features": { "roman": "net" }, "noteZh": "在量词前变 네:네 개(四个);和应答的 네 同形。" },
+        { "id": "ko.daseot", "kind": "word", "pos": "num", "text": "다섯", "zh": "五(固有数词)", "features": { "roman": "daseot" }, "noteZh": "收音 ㅅ 读 [t]:[다섣]。" },
+        { "id": "ko.yeoseot", "kind": "word", "pos": "num", "text": "여섯", "zh": "六(固有数词)", "features": { "roman": "yeoseot" }, "noteZh": "[여섣];和 다섯 只差第一个字,多读几遍。" },
+        { "id": "ko.ilgop", "kind": "word", "pos": "num", "text": "일곱", "zh": "七(固有数词)", "features": { "roman": "ilgop" }, "noteZh": "收音 ㅂ 不爆破。" },
+        { "id": "ko.yeodeol", "kind": "word", "pos": "num", "text": "여덟", "zh": "八(固有数词)", "features": { "roman": "yeodeol" }, "noteZh": "双收音 ㄼ 读 ㄹ:[여덜]。" },
+        { "id": "ko.ahop", "kind": "word", "pos": "num", "text": "아홉", "zh": "九(固有数词)", "features": { "roman": "ahop" }, "noteZh": "ㅎ 很轻,听起来像 [아옵]。" },
+        { "id": "ko.yeol", "kind": "word", "pos": "num", "text": "열", "zh": "十(固有数词)", "features": { "roman": "yeol" }, "noteZh": "11–19:열하나、열둘……;20 是 스물(下一课)。" }
+      ],
+      "reviewItems": ["ko.ppang", "ko.sajangnim", "ko.algetseumnida"]
+    },
+    {
+      "id": "ko.a1u5.l04", "lang": "ko", "type": "grammar", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105040,
+      "titleZh": "两杯美式,三个人",
+      "goalZh": "会用“名词 + 数字 + 量词”说数量,会问答年龄",
+      "canDoZh": "能点“两杯咖啡、一瓶水”,告诉店员有几个人,说出自己几岁",
+      "scenarioZh": "咖啡店里,顾客(customer)点单:“아이스 아메리카노 두 잔하고 물 한 병 주세요.”,陈静确认“두 잔이요?”;敏俊(minjun)和两个朋友进来,陈静问“몇 명이에요?”——“세 명이요.”。下班后敏俊问陈静“몇 살이에요?”——“스무 살이에요.”;敏俊 21 岁,说“그럼 저는 오빠예요!”。课文至少 12 句。",
+      "grammarFocusZh": "名词 + 数字 + 量词:커피 두 잔、사람 세 명、사과 다섯 개。固有数词在量词前变形:하나 → 한、둘 → 두、셋 → 세、넷 → 네、스물 → 스무。年龄:固有数词 + 살(스무 살、스물한 살)。问数量:몇 개 / 몇 명 / 몇 잔 / 몇 살。文化:韩国人按年龄定称呼,比自己大一岁也要叫 오빠 / 언니 / 형 / 누나。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.gae", "kind": "word", "pos": "noun", "text": "개", "zh": "个(量词)", "features": { "roman": "gae" }, "noteZh": "数东西最常用的量词:사과 두 개(两个苹果);语序是 名词 + 数字 + 量词。" },
+        { "id": "ko.myeong", "kind": "word", "pos": "noun", "text": "명", "zh": "个人;位(数人)", "features": { "roman": "myeong" }, "noteZh": "汉字词 名;세 명(三个人);店员数客人更尊敬,说 분:두 분이세요?" },
+        { "id": "ko.jan", "kind": "word", "pos": "noun", "text": "잔", "zh": "杯(量词)", "features": { "roman": "jan" }, "noteZh": "汉字词 盏;커피 두 잔 주세요(请给我两杯咖啡)。" },
+        { "id": "ko.sal", "kind": "word", "pos": "noun", "text": "살", "zh": "岁", "features": { "roman": "sal" }, "noteZh": "用固有数词:스무 살(20 岁);问年龄 몇 살이에요? 只对同龄人和比自己小的人。" },
+        { "id": "ko.seumul", "kind": "word", "pos": "num", "text": "스물", "zh": "二十(固有数词)", "features": { "roman": "seumul" }, "noteZh": "量词前变 스무:스무 살;21 岁是 스물한 살。" },
+        { "id": "ko.nai", "kind": "word", "pos": "noun", "text": "나이", "zh": "年龄", "features": { "roman": "nai" }, "noteZh": "韩国人很在意年龄,它决定称呼和说话方式。" },
+        { "id": "ko.byeong", "kind": "word", "pos": "noun", "text": "병", "zh": "瓶(量词);瓶子", "features": { "roman": "byeong" }, "noteZh": "汉字词 瓶;물 한 병(一瓶水)、주스 두 병(两瓶果汁)。" }
+      ],
+      "reviewItems": ["ko.hana", "ko.dul", "ko.set", "ko.oppa"]
+    },
+    {
+      "id": "ko.a1u5.l05", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105050,
+      "titleZh": "现在几点?",
+      "goalZh": "会问答钟点,用 时间 + 에 说什么时候做什么",
+      "canDoZh": "能问现在几点,说清楚几点上课、明天几点打工",
+      "scenarioZh": "早上,陈静睡过头,秀雅(sua)叫醒她:“징 씨! 지금 아홉 시예요!”;陈静问“수업이 몇 시예요?”——“아홉 시 반이에요.”,陈静赶紧出门。下午崔老板(choi)打电话问“오늘 아르바이트 해요?”——“아니요, 내일 해요.”——“몇 시예요?”——“내일 오후 두 시예요.”。课文至少 12 句。",
+      "grammarFocusZh": "钟点:固有数词 + 시,汉字数词 + 분:세 시 이십 분(3:20)、두 시 반(2:30)。时间 + 에 = 在……时候:세 시에 수업이 있어요、내일 오후 두 시에 해요(오늘、내일、지금 后面不加 에)。뭐 해요?(做什么?)。时间从大到小:내일 오후 두 시,和汉语一样。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.si", "kind": "word", "pos": "noun", "text": "시", "zh": "……点(钟)", "features": { "roman": "si" }, "noteZh": "汉字词 时;前面用固有数词:한 시、두 시、열두 시;몇 시예요?= 几点?" },
+        { "id": "ko.bun", "kind": "word", "pos": "noun", "text": "분", "zh": "……分(钟)", "features": { "roman": "bun" }, "noteZh": "汉字词 分;前面用汉字数词:십 분、삼십 분。" },
+        { "id": "ko.ban", "kind": "word", "pos": "noun", "text": "반", "zh": "半;班", "features": { "roman": "ban" }, "noteZh": "汉字词 半 / 班 同音:두 시 반(两点半)、우리 반(我们班)。" },
+        { "id": "ko.jigeum", "kind": "word", "pos": "noun", "text": "지금", "zh": "现在", "features": { "roman": "jigeum" }, "noteZh": "汉字词 只今;지금 몇 시예요?= 现在几点?" },
+        { "id": "ko.ojeon", "kind": "word", "pos": "noun", "text": "오전", "zh": "上午", "features": { "roman": "ojeon" }, "noteZh": "汉字词 午前;오전 열 시 = 上午十点。" },
+        { "id": "ko.ohu", "kind": "word", "pos": "noun", "text": "오후", "zh": "下午", "features": { "roman": "ohu" }, "noteZh": "汉字词 午后;中午 12 点以后、包括晚上的时间都可以用 오후 说。" },
+        { "id": "ko.oneul", "kind": "word", "pos": "noun", "text": "오늘", "zh": "今天", "features": { "roman": "oneul" }, "noteZh": "오늘 오후 세 시(今天下午三点);오늘 后面不加 에。" },
+        { "id": "ko.naeil", "kind": "word", "pos": "noun", "text": "내일", "zh": "明天", "features": { "roman": "naeil" }, "noteZh": "汉字词 来日;내일 봐요 = 明天见。" },
+        { "id": "ko.haeyo", "kind": "word", "pos": "verb", "text": "해요", "zh": "做;干", "features": { "roman": "haeyo" }, "noteZh": "原形 하다;뭐 해요?= 做什么?。很多动词是 名词 + 하다:공부해요、일해요、계산해요。" }
+      ],
+      "reviewItems": ["ko.sueop", "ko.areubaiteu", "ko.ahop", "ko.yeol"]
+    },
+    {
+      "id": "ko.a1u5.l08", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105080,
+      "titleZh": "单元复习:几月几号过生日?",
+      "goalZh": "把本单元的数字、钟点、日期串起来,约好时间地点",
+      "canDoZh": "能问别人的生日是几月几号,约朋友“明天下午三点”见面",
+      "scenarioZh": "秀雅(sua)悄悄告诉陈静,敏俊的生日快到了。陈静问“민준 씨 생일이 몇 월 며칠이에요?”——“사월 십이 일이에요.”;“오늘이 며칠이에요?”——“사월 십 일이에요.”。两人决定给敏俊办个小惊喜,打电话约南(nam):“내일 시간 있어요?”——“몇 시예요?”——“오후 세 시, 카페!”;最后数一数要买几个面包、几杯饮料。课文至少 12 句。",
+      "grammarFocusZh": "日期:汉字数词 + 월 + 汉字数词 + 일:사월 십이 일(4 月 12 日);问日期:몇 월 며칠이에요?。注意 6 月 = 유월、10 月 = 시월(去掉收音)。约时间:시간 있어요?— 네, 있어요 / 아니요, 없어요。复习两套数字、量词、时间 + 에。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.wol", "kind": "word", "pos": "noun", "text": "월", "zh": "……月", "features": { "roman": "wol" }, "noteZh": "汉字词 月;用汉字数词:삼월(3 月)、십이월(12 月);6 月、10 月特殊:유월、시월。" },
+        { "id": "ko.myeochil", "kind": "word", "pos": "noun", "text": "며칠", "zh": "几号;几天", "features": { "roman": "myeochil" }, "noteZh": "问日期:오늘이 며칠이에요?、몇 월 며칠이에요?;拼写是 며칠,不写 몇일。" },
+        { "id": "ko.saengil", "kind": "word", "pos": "noun", "text": "생일", "zh": "生日", "features": { "roman": "saengil" }, "noteZh": "汉字词 生日;“生日快乐”是 생일 축하해요(以后学)。" },
+        { "id": "ko.sigan", "kind": "word", "pos": "noun", "text": "시간", "zh": "时间;空(闲);小时", "features": { "roman": "sigan" }, "noteZh": "汉字词 时间;시간 있어요?= 有空吗?;두 시간 = 两个小时(注意和 두 시“两点”区分)。" }
+      ],
+      "reviewItems": ["ko.oneul", "ko.naeil", "ko.si", "ko.myeot"]
+    }
+  ]
+}

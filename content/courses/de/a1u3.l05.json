@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u3.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103050,
+  "titleZh": "搬家那天:我们还需要一张桌子", "goalZh": "会用 brauchen / es gibt + 第四格说需要什么、有什么,会和邻居认识", "canDoZh": "能说“我们还需要一张桌子 / 一把椅子”,能问“这里有……吗?”,能用 Sie 和新邻居认识",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.brauchen", "kind": "word", "pos": "verb", "text": "brauchen", "zh": "需要", "features": { "ipa": "ˈbʁaʊ̯xn̩" }, "noteZh": "后面接第四格:Ich brauche einen Tisch / eine Lampe / ein Bett.。" },
+    { "id": "de.es_gibt", "kind": "phrase", "pos": "phrase", "text": "es gibt", "zh": "有(某处有某物)", "features": { "ipa": "ɛs ˈɡɪpt" }, "noteZh": "es gibt + 第四格:Es gibt einen Kühlschrank.;“某人有”用 haben,“某处有”用 es gibt。" },
+    { "id": "de.schluessel", "kind": "word", "pos": "noun", "text": "der Schlüssel", "zh": "钥匙", "features": { "gender": "m", "plural": "die Schlüssel", "ipa": "ˈʃlʏsl̩" }, "noteZh": "Schl 读 [ʃl],ü 嘴唇撮圆;复数不变:die Schlüssel。" },
+    { "id": "de.nachbar", "kind": "word", "pos": "noun", "text": "der Nachbar", "zh": "邻居(男)", "features": { "gender": "m", "plural": "die Nachbarn", "ipa": "ˈnaxbaːɐ̯" }, "noteZh": "女邻居 die Nachbarin;复数 die Nachbarn。" },
+    { "id": "de.kennen", "kind": "word", "pos": "verb", "text": "kennen", "zh": "认识;了解", "features": { "ipa": "ˈkɛnən" }, "noteZh": "认识人、熟悉地方用 kennen:Kennen Sie die Nachbarn? / Ich kenne Berlin.;“知道某件事”是另一个词 wissen,以后学。" },
+    { "id": "de.unser", "kind": "word", "pos": "det", "text": "unser", "zh": "我们的", "alt": ["unsere"], "features": { "ipa": "ˈʊnzɐ" }, "noteZh": "变法和 mein 一样:unser Nachbar, unser Haus, unsere Wohnung;“你们的”是 euer / eure。" },
+    { "id": "de.noch", "kind": "word", "pos": "adv", "text": "noch", "zh": "还;仍然", "features": { "ipa": "nɔx" }, "noteZh": "Wir brauchen noch einen Stuhl.(我们还需要一把椅子。)noch nicht = 还没有。" },
+    { "id": "de.hier", "kind": "word", "pos": "adv", "text": "hier", "zh": "这里", "features": { "ipa": "hiːɐ̯" }, "noteZh": "打电话时 Hier ist Wei. = 我是王伟。" },
+    { "id": "de.nett", "kind": "word", "pos": "adj", "text": "nett", "zh": "友好;和善", "features": { "ipa": "nɛt" }, "noteZh": "形容人:Herr Hoffmann ist sehr nett.;别人帮你时可以说 Das ist nett!(你真好!)" },
+    { "id": "de.haus", "kind": "word", "pos": "noun", "text": "das Haus", "zh": "房子;楼", "features": { "gender": "n", "plural": "die Häuser", "ipa": "haʊ̯s" }, "noteZh": "die Wohnung 是一套公寓,das Haus 是整栋楼或独栋房子。" }
+  ],
+  "reviewItems": ["de.tisch", "de.stuhl", "de.lampe", "de.haben"],
+  "lines": [
+    { "speaker": "jonas", "text": "Wei, hier ist dein Schlüssel!", "zh": "王伟,这是你的钥匙!", "items": ["de.hier", "de.sein", "de.dein", "de.schluessel"] },
+    { "speaker": "wei", "text": "Danke! Ich brauche noch einen Tisch, einen Stuhl und eine Lampe.", "zh": "谢谢!我还需要一张桌子、一把椅子和一盏灯。", "items": ["de.danke", "de.ich", "de.brauchen", "de.noch", "de.ein", "de.tisch", "de.stuhl", "de.und", "de.lampe"] },
+    { "speaker": "jonas", "text": "Guten Tag, Herr Hoffmann! Wei, das ist unser Nachbar.", "zh": "您好,霍夫曼先生!王伟,这是我们的邻居。", "items": ["de.guten_tag", "de.herr", "de.das_ist", "de.unser", "de.nachbar"] },
+    { "speaker": "wei", "text": "Guten Tag! Ich heiße Wei Wang.", "zh": "您好!我叫王伟。", "items": ["de.guten_tag", "de.ich_heisse"] },
+    { "speaker": "hoffmann", "text": "Herr Wang, es gibt zwölf Wohnungen im Haus. Kennen Sie die Nachbarn?", "zh": "王先生,这栋楼里有十二套公寓。您认识邻居们吗?", "items": ["de.herr", "de.es_gibt", "de.zwoelf", "de.wohnung", "de.in", "de.haus", "de.kennen", "de.sie_hoeflich", "de.nachbar"] },
+    { "speaker": "wei", "text": "Nein, noch nicht.", "zh": "不认识,还没认识。", "items": ["de.nein", "de.noch", "de.nicht"] },
+    { "speaker": "hoffmann", "text": "Ich habe noch einen Tisch. Brauchen Sie einen Tisch?", "zh": "我还有一张桌子。您需要桌子吗?", "items": ["de.ich", "de.haben", "de.noch", "de.ein", "de.tisch", "de.brauchen", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Ja, bitte! Das ist sehr nett, Herr Hoffmann.", "zh": "要的,谢谢!您真好,霍夫曼先生。", "items": ["de.ja", "de.bitte", "de.das_ist", "de.sehr", "de.nett", "de.herr"] }
+  ],
+  "questions": [
+    { "prompt": "王伟说他还需要什么?", "options": ["一张床和一个柜子", "一张桌子、一把椅子和一盏灯", "一把钥匙"], "answer": 1, "explainZh": "王伟说:Ich brauche noch einen Tisch, einen Stuhl und eine Lampe.;钥匙约纳斯刚给了他:Hier ist dein Schlüssel!" },
+    { "prompt": "霍夫曼先生要给王伟什么?", "options": ["一盏灯", "一把椅子", "一张桌子"], "answer": 2, "explainZh": "霍夫曼先生说:Ich habe noch einen Tisch. Brauchen Sie einen Tisch?——王伟说:Das ist sehr nett!" }
+  ],
+  "grammar": [
+    { "id": "de.g.akk_einen", "titleZh": "第四格入门:brauchen / haben / es gibt + einen",
+      "bodyZh": "brauchen(需要)、haben(有)、es gibt(某处有)后面的东西是宾语,德语叫“第四格”。好消息是:第四格只有阳性名词有变化——ein 变 einen,kein 变 keinen;阴性、中性和复数都不变:einen Tisch / eine Lampe / ein Bett / zwölf Wohnungen。中文和英语的“一张桌子 / a table”当主语、当宾语都一样,德语的阳性名词要变,记名词的性在这里就派上用场了。常见错误:✗ Ich brauche ein Tisch,要说 Ich brauche einen Tisch。“某人有”用 haben(Ich habe noch einen Tisch.),“某处有”用 es gibt(Es gibt zwölf Wohnungen im Haus.)。noch(还)放在动词后面:Ich brauche noch einen Stuhl.;Noch nicht. = 还没有。unser(我们的)的变法和 mein 一样:unser Nachbar, unser Haus, unsere Wohnung。",
+      "examples": [ { "text": "Ich brauche noch einen Tisch, einen Stuhl und eine Lampe.", "zh": "我还需要一张桌子、一把椅子和一盏灯。" }, { "text": "Es gibt hier keinen Stuhl.", "zh": "这里没有椅子。" } ] }
+  ],
+  "review": "draft"
+}

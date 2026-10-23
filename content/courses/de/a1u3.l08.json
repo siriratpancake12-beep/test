@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u3.l08", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103080,
+  "titleZh": "单元复习:给姐姐的邮件", "goalZh": "读懂并会写一封介绍新家的短邮件,学会邮件的开头和结尾", "canDoZh": "能写一封 6–8 句的短邮件介绍自己的新家(有几个房间、什么样、房租多少、还缺什么)",
+  "skills": ["read", "write"], "estimatedMinutes": 20.5,
+  "newItems": [
+    { "id": "de.liebe", "kind": "phrase", "pos": "phrase", "text": "Liebe …", "zh": "亲爱的……(信的开头)", "alt": ["Lieber …"], "features": { "ipa": "ˈliːbə" }, "noteZh": "写给女性:Liebe Jing,;写给男性:Lieber Jonas,。称呼后面加逗号,所以正文第一个词小写(wie geht's?)。ie 读长音 [iː]。" },
+    { "id": "de.viele_gruesse", "kind": "phrase", "pos": "phrase", "text": "Viele Grüße", "zh": "祝好(信的结尾)", "alt": ["Liebe Grüße"], "features": { "ipa": "ˈfiːlə ˈɡʁyːsə" }, "noteZh": "信、邮件的结尾,后面不加逗号,下一行写自己的名字;写给家人、好朋友可以写 Liebe Grüße,署名写 Dein Wei / Deine Lena。ü 是长音,ß 读 [s]。" },
+    { "id": "de.jetzt", "kind": "word", "pos": "adv", "text": "jetzt", "zh": "现在", "features": { "ipa": "jɛtst" }, "noteZh": "tzt 读 [tst]:Ich wohne jetzt in Berlin.。" },
+    { "id": "de.schreiben", "kind": "word", "pos": "verb", "text": "schreiben", "zh": "写", "features": { "ipa": "ˈʃʁaɪ̯bn̩" }, "noteZh": "sch 读 [ʃ],ei 读 [aɪ̯]:ich schreibe, du schreibst, er schreibt。Wie schreibt man das?(这个怎么写?)" }
+  ],
+  "reviewItems": ["de.wohnung", "de.wg", "de.miete", "de.brauchen"],
+  "lines": [
+    { "speaker": "narrator", "text": "Liebe Jing,", "zh": "亲爱的静:", "items": ["de.liebe"] },
+    { "speaker": "narrator", "text": "wie geht's? Meine WG in Neukölln ist sehr schön.", "zh": "你好吗?我在新克尔恩区的合租公寓很不错。", "items": ["de.wie_gehts", "de.mein", "de.wg", "de.in", "de.sein", "de.sehr", "de.schoen"] },
+    { "speaker": "narrator", "text": "Die Wohnung hat drei Zimmer, eine Küche und ein Bad.", "zh": "公寓有三个房间、一个厨房和一个浴室。", "items": ["de.wohnung", "de.haben", "de.drei", "de.zimmer", "de.ein", "de.kueche", "de.und", "de.bad"] },
+    { "speaker": "narrator", "text": "Mein Zimmer ist groß und hell. Die Küche ist ein bisschen klein.", "zh": "我的房间又大又亮。厨房有点小。", "items": ["de.mein", "de.zimmer", "de.sein", "de.gross", "de.und", "de.hell", "de.kueche", "de.ein_bisschen", "de.klein"] },
+    { "speaker": "narrator", "text": "Die Miete ist 450 Euro.", "zh": "房租是 450 欧元。", "items": ["de.miete", "de.sein", "de.vier", "de.hundert", "de.fuenfzig", "de.euro"] },
+    { "speaker": "narrator", "text": "Jonas und Sofia wohnen auch hier. Sie sind sehr nett.", "zh": "约纳斯和索菲娅也住在这里。他们人很好。", "items": ["de.und", "de.wohnen", "de.auch", "de.hier", "de.sie_pl", "de.sein", "de.sehr", "de.nett"] },
+    { "speaker": "narrator", "text": "Jonas ist Koch, und Sofia kommt aus Italien.", "zh": "约纳斯是厨师,索菲娅来自意大利。", "items": ["de.koch", "de.sein", "de.und", "de.ich_komme_aus", "de.italien"] },
+    { "speaker": "narrator", "text": "Unser Nachbar, Herr Hoffmann, ist 72.", "zh": "我们的邻居霍夫曼先生 72 岁了。", "items": ["de.unser", "de.nachbar", "de.herr", "de.sein", "de.zwei", "de.und", "de.siebzig"] },
+    { "speaker": "narrator", "text": "Ich brauche noch einen Stuhl und eine Lampe.", "zh": "我还需要一把椅子和一盏灯。", "items": ["de.ich", "de.brauchen", "de.noch", "de.ein", "de.stuhl", "de.und", "de.lampe"] },
+    { "speaker": "narrator", "text": "Ich schreibe jetzt ein bisschen Deutsch!", "zh": "我现在能写一点德语了!", "items": ["de.ich", "de.schreiben", "de.jetzt", "de.ein_bisschen", "de.deutsch"] },
+    { "speaker": "narrator", "text": "Viele Grüße aus Berlin", "zh": "来自柏林的问候", "items": ["de.viele_gruesse", "de.ich_komme_aus"] },
+    { "speaker": "narrator", "text": "Dein Wei", "zh": "你的伟", "items": ["de.dein"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的房间怎么样?", "options": ["又小又暗", "又大又亮", "很大,但是很暗"], "answer": 1, "explainZh": "邮件里写:Mein Zimmer ist groß und hell.(我的房间又大又亮。)有点小的是厨房。" },
+    { "prompt": "王伟每个月的房租是多少?", "options": ["540 欧元", "520 欧元", "450 欧元"], "answer": 2, "explainZh": "Die Miete ist 450 Euro.——450 读作 vierhundertfünfzig(先说百位,后两位先个位、后十位)。" },
+    { "prompt": "王伟还需要什么?", "options": ["一把椅子和一盏灯", "一张桌子和一张床", "一个冰箱"], "answer": 0, "explainZh": "Ich brauche noch einen Stuhl und eine Lampe.——桌子霍夫曼先生已经给了他。" },
+    { "prompt": "邮件里谁 72 岁?", "options": ["约纳斯", "霍夫曼先生", "索菲娅"], "answer": 1, "explainZh": "Unser Nachbar, Herr Hoffmann, ist 72.——72 读作 zweiundsiebzig(“二和七十”)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.email", "titleZh": "写德语邮件:Liebe … / Lieber …,结尾 Viele Grüße",
+      "bodyZh": "私人邮件和信的格式:① 称呼:写给女性用 Liebe + 名字,写给男性用 Lieber + 名字,后面加逗号(Liebe Jing, / Lieber Jonas,)。② 称呼后面是逗号,所以正文第一个词小写:Liebe Jing, wie geht's?;名词和 Sie 本来就大写,照样大写。③ 结尾写 Viele Grüße(后面不加逗号),下一行写自己的名字;写给家人、好朋友可以署名 Dein Wei / Deine Lena(“你的伟”)。和中文比:中文写“亲爱的静:”用冒号,德语用逗号;中文结尾写“祝好”,德语写 Viele Grüße。歌德 A1 写作第二部分就是写这样一封短邮件,题目要求的几点都要写到。",
+      "examples": [ { "text": "Liebe Jing,", "zh": "亲爱的静:" }, { "text": "Lieber Jonas,", "zh": "亲爱的约纳斯:" }, { "text": "Viele Grüße aus Berlin", "zh": "来自柏林的问候" }, { "text": "Dein Wei", "zh": "你的伟" } ] },
+    { "id": "de.g.u3_review", "titleZh": "单元复习:ein / kein / nicht 和 einen",
+      "bodyZh": "第 3 单元的语法都离不开名词的性:① 介绍东西:Das ist ein Tisch / eine Lampe / ein Bett;复数没有 ein,冠词一律是 die。② 否定:名词用 kein(Das ist kein Sofa.),形容词用 nicht(Die Küche ist nicht groß.)。③ “它”:der → er,die → sie,das → es。④ brauchen、haben、es gibt 后面是第四格,只有阳性变:einen / keinen(Ich brauche noch einen Stuhl.)。⑤ 21–99 先说个位、再说十位:vierhundertfünfzig = 450,zweiundsiebzig = 72。写邮件时把这些句型用上,就能介绍自己的新家。",
+      "examples": [ { "text": "Die Wohnung hat drei Zimmer, eine Küche und ein Bad.", "zh": "公寓有三个房间、一个厨房和一个浴室。" }, { "text": "Das ist kein Sofa. Das ist ein Bett.", "zh": "这不是沙发,是一张床。" }, { "text": "Die Küche ist nicht groß.", "zh": "厨房不大。" }, { "text": "Ich brauche noch einen Stuhl und eine Lampe.", "zh": "我还需要一把椅子和一盏灯。" } ] }
+  ],
+  "review": "draft"
+}

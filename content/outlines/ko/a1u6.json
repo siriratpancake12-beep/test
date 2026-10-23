@@ -1,0 +1,128 @@
+{
+  "lang": "ko",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-6 城市与交通", "cefr": "A1", "themeZh": "走进首尔:说去哪儿、东西在哪儿,问路和听懂指路,坐地铁换乘、找出口,坐公交和出租车,最后带第一次去明洞的同学走一趟" }
+  ],
+  "lessons": [
+    {
+      "id": "ko.a1u6.l01", "lang": "ko", "type": "grammar", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106010,
+      "titleZh": "你去哪儿?",
+      "goalZh": "会用 N에 가요 / 와요 说去哪儿,用 N이/가 어디에 있어요? 问地方在哪儿",
+      "canDoZh": "能问别人去哪儿、说自己要去哪儿,问清楚银行、药店、洗手间在哪儿",
+      "scenarioZh": "周一早上,陈静在宿舍门口碰到南(nam):“어디에 가요?”——“도서관에 가요.”;南说他要去医院(感冒了)。中午秀雅(sua)带陈静熟悉学校周边:陈静问“은행이 어디에 있어요?”“약국이 있어요?”,秀雅一一回答;陈静最后问“화장실이 어디에 있어요?”。课文至少 12 句。",
+      "grammarFocusZh": "助词 에 的两个用法:① 目的地——N에 가요 / 와요(학교에 가요、한국에 와요);② 存在的位置——N이/가 N에 있어요(은행이 학교 근처에 있어요)。问路的基本句:N이/가 어디에 있어요?、어디에 가요?。口语常省略:화장실 어디예요?",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.hakgyo", "kind": "word", "pos": "noun", "text": "학교", "zh": "学校", "features": { "roman": "hakgyo" }, "noteZh": "汉字词 学校;紧音化读 [학꾜]。" },
+        { "id": "ko.jip", "kind": "word", "pos": "noun", "text": "집", "zh": "家;房子", "features": { "roman": "jip" }, "noteZh": "집에 가요 = 回家;留学生说“回宿舍”也常说 집에 가요。" },
+        { "id": "ko.eunhaeng", "kind": "word", "pos": "noun", "text": "은행", "zh": "银行", "features": { "roman": "eunhaeng" }, "noteZh": "汉字词 银行;ㅎ 弱化,听起来像 [으냉]。" },
+        { "id": "ko.byeongwon", "kind": "word", "pos": "noun", "text": "병원", "zh": "医院", "features": { "roman": "byeongwon" }, "noteZh": "汉字词 病院;小诊所也叫 병원。" },
+        { "id": "ko.yakguk", "kind": "word", "pos": "noun", "text": "약국", "zh": "药店", "features": { "roman": "yakguk" }, "noteZh": "汉字词 药局;紧音化读 [약꾹]。" },
+        { "id": "ko.doseogwan", "kind": "word", "pos": "noun", "text": "도서관", "zh": "图书馆", "features": { "roman": "doseogwan" }, "noteZh": "汉字词 图书馆,发音和汉语很像。" },
+        { "id": "ko.hwajangsil", "kind": "word", "pos": "noun", "text": "화장실", "zh": "洗手间;厕所", "features": { "roman": "hwajangsil" }, "noteZh": "汉字词 化妆室;问路最常用:화장실이 어디에 있어요?" },
+        { "id": "ko.gayo", "kind": "word", "pos": "verb", "text": "가요", "zh": "去", "features": { "roman": "gayo" }, "noteZh": "原形 가다;N에 가요 = 去 N。" },
+        { "id": "ko.wayo", "kind": "word", "pos": "verb", "text": "와요", "zh": "来", "features": { "roman": "wayo" }, "noteZh": "原形 오다(ㅗ + ㅏ 缩成 ㅘ);한국에 와요 = 来韩国。" }
+      ],
+      "reviewItems": ["ko.eodi", "ko.isseoyo", "ko.pyeonuijeom", "ko.sueop"]
+    },
+    {
+      "id": "ko.a1u6.l02", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106020,
+      "titleZh": "便利店在银行旁边",
+      "goalZh": "会用方位词说东西、地方在哪儿,分清 여기 / 거기 / 저기",
+      "canDoZh": "能说出东西在哪里(包里、桌上、旁边),告诉别人店在哪栋楼旁边、后面",
+      "scenarioZh": "出门前陈静找不到手机,秀雅(sua)帮她找:“가방 안에 있어요?”——“아니요, 없어요.”——“책 위에 있어요?”——“아, 저기 있어요!”。路上秀雅指给她看:“편의점은 은행 옆에 있어요. 약국은 거기 뒤에 있어요.”;学校附近还有一家便宜的饭馆。课文至少 12 句。",
+      "grammarFocusZh": "N + 方位词 + 에 있어요:가방 안에、책 위에、은행 옆에、학교 앞에。方位词:앞 / 뒤、위 / 아래、안 / 밖、옆、근처。여기 / 거기 / 저기 和 이거 / 그거 / 저거 一样分三种:离我近 / 离你近或刚提到 / 离我们都远。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.dwi", "kind": "word", "pos": "noun", "text": "뒤", "zh": "后面", "features": { "roman": "dwi" }, "noteZh": "N 뒤에 있어요 = 在 N 后面;和 앞(前面)相对。" },
+        { "id": "ko.yeop", "kind": "word", "pos": "noun", "text": "옆", "zh": "旁边", "features": { "roman": "yeop" }, "noteZh": "收音 ㅍ 读 [p]:[엽];옆에 连音读 [여페]。" },
+        { "id": "ko.wi", "kind": "word", "pos": "noun", "text": "위", "zh": "上面", "features": { "roman": "wi" }, "noteZh": "책 위에(书上面);和 아래 相对。" },
+        { "id": "ko.arae", "kind": "word", "pos": "noun", "text": "아래", "zh": "下面", "features": { "roman": "arae" }, "noteZh": "口语也常说 밑;의자 아래(椅子下面)。" },
+        { "id": "ko.an_2", "kind": "word", "pos": "noun", "text": "안", "zh": "里面", "features": { "roman": "an" }, "noteZh": "가방 안에 있어요(在包里);和否定的 안(不)同形:名词 + 안에 是“在……里面”。" },
+        { "id": "ko.geogi", "kind": "word", "pos": "pron", "text": "거기", "zh": "那里(离你近或刚提到的)", "features": { "roman": "geogi" }, "noteZh": "和 그거 一样,指离对方近或刚提到的地方;打电话问“你那儿”也用 거기。" },
+        { "id": "ko.jeogi", "kind": "word", "pos": "pron", "text": "저기", "zh": "那里(远处)", "features": { "roman": "jeogi" }, "noteZh": "指远处看得见的地方:저기 있어요(在那儿);저기요 就是从这个词来的。" },
+        { "id": "ko.geuncheo", "kind": "word", "pos": "noun", "text": "근처", "zh": "附近", "features": { "roman": "geuncheo" }, "noteZh": "汉字词 近处;학교 근처(学校附近)。" }
+      ],
+      "reviewItems": ["ko.ap", "ko.bak", "ko.gabang", "ko.yeogi"]
+    },
+    {
+      "id": "ko.a1u6.l03", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106030,
+      "titleZh": "一直走,在红绿灯右转",
+      "goalZh": "会向路人问路,听懂“一直走、往左、往右”的指路说法",
+      "canDoZh": "能在街上礼貌地问路,听懂简单的路线并道谢",
+      "scenarioZh": "周六,陈静和南(nam)去找朋友推荐的一家辣炒年糕店。陈静拿着手机问第一位路人(passerby):“저기요, 이 식당 알아요?”——“죄송합니다, 잘 몰라요.”;第二位路人说“네, 쭉 가세요. 신호등에서 오른쪽으로 가세요. 은행 옆에 있어요.”;南没听清,陈静请对方再说一遍,最后两人说“감사합니다!”。课文至少 12 句。",
+      "grammarFocusZh": "-(으)세요:动词词干 + 세요(无收音)/ 으세요(有收音),表示尊敬的请求或指示:가세요(请走)、앉으세요(请坐);안녕히 가세요、어서 오세요 里也是它。方向:N(으)로 가세요(오른쪽으로、왼쪽으로)。在某处转弯:신호등에서 왼쪽으로 가세요(에서 下一课细讲)。不知道说 몰라요,不说 안 알아요。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.gil", "kind": "word", "pos": "noun", "text": "길", "zh": "路;道路", "features": { "roman": "gil" }, "noteZh": "收音 ㄹ 读 l;길 건너편 = 马路对面;“迷路了”是 길을 잃었어요(第 8 单元)。" },
+        { "id": "ko.jjuk", "kind": "word", "pos": "adv", "text": "쭉", "zh": "一直(往前)", "features": { "roman": "jjuk" }, "noteZh": "쭉 가세요 = 一直走;紧音 ㅉ。" },
+        { "id": "ko.oreunjjok", "kind": "word", "pos": "noun", "text": "오른쪽", "zh": "右边", "features": { "roman": "oreunjjok" }, "noteZh": "오른 + 쪽(边);오른쪽으로 가세요 = 往右走。" },
+        { "id": "ko.oenjjok", "kind": "word", "pos": "noun", "text": "왼쪽", "zh": "左边", "features": { "roman": "oenjjok" }, "noteZh": "ㅚ 读 we;왼쪽으로 가세요 = 往左走。" },
+        { "id": "ko.gaseyo", "kind": "word", "pos": "verb", "text": "가세요", "zh": "请走;请去", "features": { "roman": "gaseyo" }, "noteZh": "가다 + -(으)세요(尊敬的请求);指路时最常听到:쭉 가세요。" },
+        { "id": "ko.sinhodeung", "kind": "word", "pos": "noun", "text": "신호등", "zh": "红绿灯", "features": { "roman": "sinhodeung" }, "noteZh": "汉字词 信号灯;신호등에서 왼쪽으로 가세요(在红绿灯往左)。" },
+        { "id": "ko.arayo", "kind": "word", "pos": "verb", "text": "알아요", "zh": "知道;认识", "features": { "roman": "arayo" }, "noteZh": "原形 알다;이 식당 알아요?= 知道这家饭馆吗?;连音读 [아라요]。" },
+        { "id": "ko.mollayo", "kind": "word", "pos": "verb", "text": "몰라요", "zh": "不知道", "features": { "roman": "mollayo" }, "noteZh": "原形 모르다;잘 몰라요 = 不太清楚;否定“知道”不说 안 알아요。" },
+        { "id": "ko.jal", "kind": "word", "pos": "adv", "text": "잘", "zh": "好好地;很;(否定前)不太", "features": { "roman": "jal" }, "noteZh": "放在动词前:잘 몰라요(不太清楚)、잘 먹겠습니다、잘 부탁드립니다 里都是它。" }
+      ],
+      "reviewItems": ["ko.jeogiyo", "ko.joesonghamnida", "ko.yeop", "ko.dasi_malhae_juseyo"]
+    },
+    {
+      "id": "ko.a1u6.l04", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106040,
+      "titleZh": "坐地铁去明洞",
+      "goalZh": "会问怎么去某地,听懂坐几号线、在哪儿换乘、在哪儿下车、走几号出口",
+      "canDoZh": "能问清楚坐地铁的路线:坐几号线、在哪站换乘、在哪站下、走几号出口",
+      "scenarioZh": "陈静想周末去明洞,问秀雅(sua)“명동에 어떻게 가요?”。秀雅说:“지하철을 타요. 신촌역에서 이호선을 타요.”“동대문역사문화공원역에서 사호선으로 갈아타요.”“명동역에서 내려요. 육 번 출구예요.”(线路和现实一致)。陈静没有交通卡,秀雅说在便利店可以买。最后陈静复述一遍路线。课文至少 12 句。",
+      "grammarFocusZh": "N을/를 타요(坐……,不用 에);N에서:① 动作发生的地方(역에서 내려요、역에서 갈아타요)② 起点(신촌역에서 타요)。N(으)로:换乘的方向或手段(사호선으로 갈아타요、지하철로 가요)。어떻게 가요?= 怎么去?。线路、出口用汉字数词:이호선、육 번 출구。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.jihacheol", "kind": "word", "pos": "noun", "text": "지하철", "zh": "地铁", "features": { "roman": "jihacheol" }, "noteZh": "汉字词 地下铁;지하철을 타요 = 坐地铁。" },
+        { "id": "ko.yeok", "kind": "word", "pos": "noun", "text": "역", "zh": "站(地铁站、火车站)", "features": { "roman": "yeok" }, "noteZh": "汉字词 驿;站名 + 역:명동역;公交车站叫 정류장(下一课)。" },
+        { "id": "ko.hoseon", "kind": "word", "pos": "noun", "text": "호선", "zh": "号线", "features": { "roman": "hoseon" }, "noteZh": "汉字词 号线;用汉字数词:이호선(2 号线)、사호선(4 号线)。" },
+        { "id": "ko.tayo", "kind": "word", "pos": "verb", "text": "타요", "zh": "坐;乘(车)", "features": { "roman": "tayo" }, "noteZh": "原形 타다;N을/를 타요:지하철을 타요、버스를 타요。" },
+        { "id": "ko.naeryeoyo", "kind": "word", "pos": "verb", "text": "내려요", "zh": "下(车)", "features": { "roman": "naeryeoyo" }, "noteZh": "原形 내리다;N에서 내려요 = 在 N 下车。" },
+        { "id": "ko.garatayo", "kind": "word", "pos": "verb", "text": "갈아타요", "zh": "换乘", "features": { "roman": "garatayo" }, "noteZh": "原形 갈아타다;连音读 [가라타요]:N에서 N(으)로 갈아타요。" },
+        { "id": "ko.gyotongkadeu", "kind": "word", "pos": "noun", "text": "교통카드", "zh": "交通卡", "features": { "roman": "gyotongkadeu" }, "noteZh": "汉字词 交通 + card;地铁、公交通用,便利店可以买、可以充值。" },
+        { "id": "ko.chulgu", "kind": "word", "pos": "noun", "text": "출구", "zh": "出口", "features": { "roman": "chulgu" }, "noteZh": "汉字词 出口;约见面常说 명동역 육 번 출구(明洞站 6 号出口)。" },
+        { "id": "ko.eotteoke", "kind": "word", "pos": "adv", "text": "어떻게", "zh": "怎么;怎样", "features": { "roman": "eotteoke" }, "noteZh": "어떻게 가요?= 怎么去?;ㅎ 和 ㄱ 合成送气音,读 [어떠케]。" }
+      ],
+      "reviewItems": ["ko.kadeu", "ko.beon", "ko.gayo", "ko.i"]
+    },
+    {
+      "id": "ko.a1u6.l05", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106050,
+      "titleZh": "师傅,请在这儿停车",
+      "goalZh": "会用 -고 싶어요 说想去哪儿,坐公交和出租车时问时间、远近,让司机停车",
+      "canDoZh": "能坐出租车说清目的地、问要多久,并让司机在合适的地方停车",
+      "scenarioZh": "周日,南(nam)说“남산에 가고 싶어요.”,陈静和他在公交车站(정류장)等车,问路人(passerby)“여기에서 멀어요?”——“아니요, 가까워요.”。回来时下雨,两人打了出租车:“기사님, 신촌역으로 가 주세요.”;陈静问“얼마나 걸려요?”,司机(driver)说“이십 분 걸려요.”;到了说“여기서 세워 주세요. 감사합니다.”。公交线路号不写真实号码。课文至少 12 句。",
+      "grammarFocusZh": "-고 싶어요 = 想……:动词词干 + 고 싶어요(가다 → 가고 싶어요、타다 → 타고 싶어요),只说自己或问对方(가고 싶어요?)。-아/어 주세요 = 请(为我)……:세워 주세요、가 주세요(主语可省)。问时间:얼마나 걸려요?— 이십 분 걸려요。距离:여기에서 멀어요?/ 가까워요。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.beoseu", "kind": "word", "pos": "noun", "text": "버스", "zh": "公交车;巴士", "features": { "roman": "beoseu" }, "noteZh": "外来词 bus;몇 번 버스예요?= 几路车?;上下车都要刷交通卡。" },
+        { "id": "ko.jeongnyujang", "kind": "word", "pos": "noun", "text": "정류장", "zh": "(公交)车站", "features": { "roman": "jeongnyujang" }, "noteZh": "汉字词 停留场;鼻音化读 [정뉴장]。" },
+        { "id": "ko.taeksi", "kind": "word", "pos": "noun", "text": "택시", "zh": "出租车", "features": { "roman": "taeksi" }, "noteZh": "外来词 taxi;上车说 目的地 + (으)로 가 주세요。" },
+        { "id": "ko.gisanim", "kind": "word", "pos": "noun", "text": "기사님", "zh": "司机师傅", "features": { "roman": "gisanim" }, "noteZh": "汉字词 技士 + 님;称呼公交、出租车司机,下车时可以说 감사합니다。" },
+        { "id": "ko.eolmana_geollyeoyo", "kind": "phrase", "pos": "phrase", "text": "얼마나 걸려요", "zh": "要多长时间?", "features": { "roman": "eolmana geollyeoyo" }, "noteZh": "얼마나 = 多少、多久;걸려요 = 花(时间);回答 삼십 분 걸려요。" },
+        { "id": "ko.sewo_juseyo", "kind": "phrase", "pos": "phrase", "text": "세워 주세요", "zh": "请停车", "features": { "roman": "sewo juseyo" }, "noteZh": "坐出租车到地方时说:여기서 세워 주세요(请在这儿停)。" },
+        { "id": "ko.meoreoyo", "kind": "word", "pos": "adj", "text": "멀어요", "zh": "远", "features": { "roman": "meoreoyo" }, "noteZh": "原形 멀다;여기에서 멀어요?= 离这儿远吗?" },
+        { "id": "ko.gakkawoyo", "kind": "word", "pos": "adj", "text": "가까워요", "zh": "近", "features": { "roman": "gakkawoyo" }, "noteZh": "原形 가깝다,ㅂ 变 우(和 매워요 一样)。" }
+      ],
+      "reviewItems": ["ko.bun", "ko.gaseyo", "ko.tayo", "ko.myeot"]
+    },
+    {
+      "id": "ko.a1u6.l08", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106080,
+      "titleZh": "单元复习:我带你去明洞",
+      "goalZh": "把本单元的方位、指路、地铁说法串起来,自己给别人带路",
+      "canDoZh": "能给第一次去明洞的朋友讲清坐车路线,出站后看地图带路,迷路时向路人求助",
+      "scenarioZh": "南(nam)说“명동은 처음이에요. 구경하고 싶어요.”,这次轮到陈静带路(让学习者“站到另一边”)。她在地铁站告诉南坐 2 号线、在哪儿换 4 号线、在明洞站 6 号出口出来;出站后看手机地图找不到那家店,向路人(passerby)问路,对方说“쭉 가세요. 왼쪽에 있어요.”;最后找到了,南说“천징 씨, 고마워요!”。课文至少 14 句。",
+      "grammarFocusZh": "复习 에(目的地、位置)/ 에서(动作地点、起点)/ (으)로(方向、换乘)、-(으)세요、-고 싶어요。N은/는 처음이에요 = 第一次(来)……。给别人指路时也用 -(으)세요:이호선을 타세요、여기에서 내리세요。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.jido", "kind": "word", "pos": "noun", "text": "지도", "zh": "地图", "features": { "roman": "jido" }, "noteZh": "汉字词 地图;手机地图 App 也叫 지도。" },
+        { "id": "ko.sinae", "kind": "word", "pos": "noun", "text": "시내", "zh": "市中心;市区", "features": { "roman": "sinae" }, "noteZh": "汉字词 市内;시내에 가요 = 进城、去市中心。" },
+        { "id": "ko.gugyeong", "kind": "word", "pos": "noun", "text": "구경", "zh": "观光;逛;看热闹", "features": { "roman": "gugyeong" }, "noteZh": "구경해요 = 逛逛、看看:명동 구경(逛明洞)。" },
+        { "id": "ko.cheoeum", "kind": "word", "pos": "noun", "text": "처음", "zh": "第一次;最初", "features": { "roman": "cheoeum" }, "noteZh": "처음이에요 = 这是第一次;처음 뵙겠습니다 里的 처음 就是它。" }
+      ],
+      "reviewItems": ["ko.jihacheol", "ko.chulgu", "ko.garatayo", "ko.oenjjok"]
+    }
+  ]
+}

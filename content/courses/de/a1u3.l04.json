@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u3.l04", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103040,
+  "titleZh": "数字 20–1000:房租多少钱?", "goalZh": "会读整十、百、千,会说两位数和三位数", "canDoZh": "能听懂、说出房租和价格(比如 450 欧元),能问“……多少钱?”",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "de.dreissig", "kind": "word", "pos": "num", "text": "dreißig", "zh": "三十", "features": { "ipa": "ˈdʁaɪ̯sɪç" }, "noteZh": "30 是 -ßig,其他整十都是 -zig;别和 dreizehn(13)听混:-zehn 是“十几”,-ßig / -zig 是“几十”。" },
+    { "id": "de.vierzig", "kind": "word", "pos": "num", "text": "vierzig", "zh": "四十", "features": { "ipa": "ˈfɪʁtsɪç" }, "noteZh": "vier 是长音 [fiːɐ̯],vierzig 里的 i 读短音。" },
+    { "id": "de.fuenfzig", "kind": "word", "pos": "num", "text": "fünfzig", "zh": "五十", "features": { "ipa": "ˈfʏnftsɪç" }, "noteZh": "ü 嘴唇撮圆;450 = vierhundertfünfzig,百位在前,后两位先个位、后十位。" },
+    { "id": "de.sechzig", "kind": "word", "pos": "num", "text": "sechzig", "zh": "六十", "features": { "ipa": "ˈzɛçtsɪç" }, "noteZh": "和 sechzehn 一样去掉 s:sechzig;别和 sechzehn(16)听混。" },
+    { "id": "de.siebzig", "kind": "word", "pos": "num", "text": "siebzig", "zh": "七十", "features": { "ipa": "ˈziːptsɪç" }, "noteZh": "和 siebzehn 一样去掉 en;别和 siebzehn(17)听混。80 achtzig、90 neunzig 是规则的。" },
+    { "id": "de.hundert", "kind": "word", "pos": "num", "text": "hundert", "zh": "一百", "features": { "ipa": "ˈhʊndɐt" }, "noteZh": "也说 einhundert;450 = vierhundertfünfzig(百位和中文一样在前,后两位先个位、后十位)。" },
+    { "id": "de.tausend", "kind": "word", "pos": "num", "text": "tausend", "zh": "一千", "features": { "ipa": "ˈtaʊ̯zn̩t" }, "noteZh": "1200 = tausendzweihundert;年份另有读法:1999 = neunzehnhundertneunundneunzig。" },
+    { "id": "de.euro", "kind": "word", "pos": "noun", "text": "der Euro", "zh": "欧元", "features": { "gender": "m", "plural": "die Euros", "ipa": "ˈɔʏ̯ʁo" }, "noteZh": "eu 读 [ɔʏ̯];说价钱时不用复数:450 Euro。" },
+    { "id": "de.miete", "kind": "word", "pos": "noun", "text": "die Miete", "zh": "房租", "features": { "gender": "f", "plural": "die Mieten", "ipa": "ˈmiːtə" }, "noteZh": "房租常分 Kaltmiete(不含暖气等杂费)和 Warmmiete(含杂费),看房时要问清楚。" },
+    { "id": "de.kosten", "kind": "word", "pos": "verb", "text": "kosten", "zh": "值(多少钱);花费", "features": { "ipa": "ˈkɔstn̩" }, "noteZh": "主语是东西:Was kostet das Zimmer? – Es kostet 450 Euro.;问几样东西用复数:Was kosten die Lampen?" }
+  ],
+  "reviewItems": ["de.zwanzig", "de.zimmer", "de.teuer"],
+  "lines": [
+    { "speaker": "wei", "text": "Jonas, was kostet das Zimmer?", "zh": "约纳斯,这个房间多少钱?", "items": ["de.was", "de.kosten", "de.zimmer"] },
+    { "speaker": "jonas", "text": "Die Miete ist vierhundertfünfzig Euro.", "zh": "房租是 450 欧元。", "items": ["de.miete", "de.sein", "de.vier", "de.hundert", "de.fuenfzig", "de.euro"] },
+    { "speaker": "wei", "text": "Fünfhundertvierzig? Das ist teuer!", "zh": "540?好贵!", "items": ["de.fuenf", "de.hundert", "de.vierzig", "de.das_ist", "de.teuer"] },
+    { "speaker": "jonas", "text": "Nein, vierhundertfünfzig! Mein Zimmer kostet fünfhundertzwanzig.", "zh": "不对,是 450!我的房间才是 520。", "items": ["de.nein", "de.vier", "de.hundert", "de.fuenfzig", "de.mein", "de.zimmer", "de.kosten", "de.fuenf", "de.zwanzig"] },
+    { "speaker": "wei", "text": "Guten Tag! Was kosten die Lampen?", "zh": "您好!这些灯多少钱?", "items": ["de.guten_tag", "de.was", "de.kosten", "de.lampe"] },
+    { "speaker": "verkaeuferin", "text": "Dreißig, sechzig und siebzig Euro.", "zh": "30、60 和 70 欧元。", "items": ["de.dreissig", "de.sechzig", "de.und", "de.siebzig", "de.euro"] },
+    { "speaker": "wei", "text": "Dreizehn? Das ist billig! Und der Tisch?", "zh": "13?真便宜!那这张桌子呢?", "items": ["de.drei", "de.zehn", "de.das_ist", "de.billig", "de.und", "de.tisch"] },
+    { "speaker": "verkaeuferin", "text": "Nein, dreißig! Der Tisch kostet tausend Euro.", "zh": "不是,是 30!这张桌子 1000 欧元。", "items": ["de.nein", "de.dreissig", "de.tisch", "de.kosten", "de.tausend", "de.euro"] },
+    { "speaker": "wei", "text": "Tausend? Das ist sehr teuer!", "zh": "1000?太贵了!", "items": ["de.tausend", "de.das_ist", "de.sehr", "de.teuer"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的房间房租多少钱?", "options": ["540 欧元", "450 欧元", "520 欧元"], "answer": 1, "explainZh": "约纳斯说:Die Miete ist vierhundertfünfzig Euro.(450 欧元)王伟听成了 fünfhundertvierzig(540),约纳斯马上纠正。520 欧元是约纳斯自己的房间。" },
+    { "prompt": "店里最便宜的灯多少钱?", "options": ["13 欧元", "70 欧元", "30 欧元"], "answer": 2, "explainZh": "店员说:Dreißig, sechzig und siebzig Euro.(30、60、70 欧元)王伟把 dreißig 听成了 dreizehn(13),店员说:Nein, dreißig!" },
+    { "prompt": "那张桌子多少钱?", "options": ["1000 欧元", "100 欧元", "170 欧元"], "answer": 0, "explainZh": "店员说:Der Tisch kostet tausend Euro.(1000 欧元)所以王伟说:Das ist sehr teuer!" }
+  ],
+  "grammar": [
+    { "id": "de.g.zahlen_20_1000", "titleZh": "21–99 先说个位,再说十位;-zehn 和 -zig 别听混",
+      "bodyZh": "德语 21–99 的顺序和中文相反:先说个位,再用 und 连上十位。einundzwanzig = 21(“一和二十”),fünfundvierzig = 45(“五和四十”)。所以听到 fünfund… 要先记下 5,再等后面的十位——这是中国学生最容易听错的地方。百位和中文一样在前:vierhundertfünfzig = 450,fünfhundertvierzig = 540,fünfhundertzwanzig = 520。整十:zwanzig、dreißig(唯一用 -ßig 的)、vierzig、fünfzig、sechzig(去掉 s)、siebzig(去掉 en)、achtzig、neunzig。最容易混的是 -zehn(十几)和 -zig(几十):dreizehn 13 / dreißig 30,sechzehn 16 / sechzig 60,siebzehn 17 / siebzig 70。写成文字时整个数连成一个词。说价钱时 Euro 不加复数:450 Euro。问价钱用 Was kostet …?,问几样东西用复数 Was kosten …?。",
+      "examples": [ { "text": "fünfundvierzig, vierundfünfzig", "zh": "45,54" }, { "text": "vierhundertfünfzig, fünfhundertvierzig", "zh": "450,540" }, { "text": "dreizehn, dreißig", "zh": "13,30" }, { "text": "Herr Hoffmann ist zweiundsiebzig.", "zh": "霍夫曼先生 72 岁。" } ] }
+  ],
+  "review": "draft"
+}
