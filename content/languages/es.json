@@ -34,6 +34,10 @@
     "locutor": { "name": "Locutor", "nameZh": "电台播音员", "gender": "m", "bioZh": "收音机里的天气预报和新闻,语速比日常对话快。" },
     "medica": { "name": "Médica", "nameZh": "医生", "gender": "f", "bioZh": "社区医疗中心的家庭医生(以后'看病'单元用),说话温和、清楚。" },
     "farmaceutico": { "name": "Farmacéutico", "nameZh": "药剂师", "gender": "m", "bioZh": "街区药店的药剂师(以后'看病'单元用),会耐心说明药怎么吃。" },
-    "taxista": { "name": "Taxista", "nameZh": "出租车司机", "gender": "m", "bioZh": "出租车司机(以后'旅行'单元用),爱聊天、爱问乘客从哪儿来。" }
+    "taxista": { "name": "Taxista", "nameZh": "出租车司机", "gender": "m", "bioZh": "出租车司机(以后'旅行'单元用),爱聊天、爱问乘客从哪儿来。" },
+    "funcionaria": {"name": "Funcionaria", "nameZh": "窗口工作人员", "gender": "f", "bioZh": "政府部门、邮局等窗口的工作人员,用 usted,按规定办事。"},
+    "entrevistador": {"name": "Entrevistador", "nameZh": "面试官", "gender": "m", "bioZh": "实习和打工面试的面试官,说话正式、问题具体。"},
+    "examinadora": {"name": "Examinadora", "nameZh": "考官", "gender": "f", "bioZh": "DELE 口语考试的考官,说话慢而清楚。"},
+    "turista": {"name": "Turista", "nameZh": "游客", "gender": "m", "bioZh": "来马德里玩的游客,问路、问推荐,偶尔投诉。"}
   }
 }

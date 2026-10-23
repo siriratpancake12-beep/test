@@ -72,8 +72,8 @@
           "type": "grammar",
           "titleZh": "猜猜他做什么工作",
           "canDoZh": "能说出常见的职业,问别人做什么工作、在哪儿工作",
-          "scenarioZh": "西语课上,安德烈斯老师玩'猜职业':他用手势表演端盘子、开车、写新闻、指挥交通,李娜猜 ¿Es camarero? ¿Es taxista?;然后老师说几个人在哪儿工作(Trabaja en un restaurante / en un hospital),让李娜说出职业,最后李娜说爸爸妈妈的工作。说话人:andres、lina。",
-          "grammarFocusZh": "复习 2-5 的职业阴阳性(médico / médica、profesor / profesora),补充:-ista 和 -e 结尾男女同形(el / la periodista、el / la taxista、el / la estudiante),el policía / la policía;ser + 职业不加冠词(Es enfermera.);trabajar de + 职业 / trabajar en + 地点"
+          "scenarioZh": "西语课上,安德烈斯老师玩'猜职业':他用手势表演端盘子、开车、写新闻、指挥交通,李娜猜 ¿Es camarero? ¿Es taxista?;然后老师说几个人在哪儿工作(Trabaja en un hospital / en una oficina / en una escuela),让李娜说出职业,最后李娜说爸爸妈妈的工作。说话人:andres、lina。",
+          "grammarFocusZh": "复习 2-5 的职业阴阳性(médico / médica、profesor / profesora),补充:-ista 和 -e 结尾男女同形(el / la periodista、el / la taxista、el / la estudiante),el policía / la policía;ser + 职业不加冠词(Es enfermera.);trabajar de + 职业 / trabajar en + 地点(la oficina、la escuela 是新词;el restaurante、la tienda 6-1 才学,这课别用)"
         },
         {
           "id": "es.a1u2.r02",
@@ -174,7 +174,7 @@
       "unit": "A1-5 时间与日常",
       "cefr": "A1",
       "themeZh": "时间和日常:问几点、约时间、一周的安排、生日和日期、学年安排、一天的作息,还要算中国和西班牙的时差、打电话预约理发。",
-      "grammarZh": "钟点和 ¿a qué hora?、星期、日期和月份、empezar(e→ie)、反身动词入门、ir 和 ir a + 地点、por la mañana、la hora 和时差的说法、llamar a + 人(人称 a)、todos los + 名词、una vez / dos veces、预约的说法(una cita para el viernes)。",
+      "grammarZh": "钟点和 ¿a qué hora?、星期、日期和月份、empezar(e→ie)、反身动词入门、ir 和 ir a + 地点、por la mañana、la hora 和时差的说法、llamar a + 人(人称 a)、todos los + 名词、una vez / dos veces、打电话预约(¿Tienen cita el jueves?)。",
       "pronunciationZh": "钟点和日期里的连读:son_las_ocho、a_las_once、y_media,词尾的辅音和下一个词开头的元音连在一起读。",
       "lessons": [
         {
@@ -198,8 +198,8 @@
           "type": "dialogue",
           "titleZh": "打电话预约理发",
           "canDoZh": "能打电话预约服务,说清哪天、几点、自己的名字和电话",
-          "scenarioZh": "李娜的头发太长了,Marta 推荐街区的一家理发店。李娜打电话:Quiero una cita para el jueves, por favor。前台问她上午还是下午、几点合适;周四下午已经满了,改到周五上午十一点半;最后问她的名字(Li 怎么拼)和手机号,还问她多久剪一次头发,李娜说大概一个月一次。说话人:recepcionista、lina。",
-          "grammarFocusZh": "la cita(预约);una cita para + 星期 / 日期;¿Por la mañana o por la tarde?;¿Te va bien a las…? 先当固定说法记;cortarse el pelo(剪头发);la vez:una vez al mes、dos veces al mes(复数 veces,z 变 c;el año 在 5-8 才学,这里不用);复习钟点、星期和电话号码"
+          "scenarioZh": "李娜的头发太长了,Marta 推荐街区的一家理发店。李娜打电话:Quiero cortarme el pelo el jueves. ¿Tienen cita?。前台问她上午还是下午、几点合适;周四下午已经满了,改到周五上午十一点半;最后问她的名字(Li 怎么拼)和手机号,还问她多久剪一次头发,李娜说大概一个月一次。说话人:recepcionista、lina。",
+          "grammarFocusZh": "la cita(预约);星期前不加介词(el jueves,复习 5-2);para 6-4 才学,这课不说 una cita para…;¿Por la mañana o por la tarde?;¿Te va bien a las…? 先当固定说法记;cortarse el pelo(剪头发);la vez:una vez al mes、dos veces al mes(复数 veces,z 变 c;el año 在 5-8 才学,这里不用);复习钟点、星期和电话号码"
         },
         {
           "id": "es.a1u5.r02",
@@ -241,7 +241,7 @@
           "titleZh": "办一张交通月票",
           "canDoZh": "能办理交通月票:说明要什么票、需要带什么材料、以后怎么充值",
           "scenarioZh": "Javier 告诉李娜:年轻人办交通月票很划算,一个月里坐地铁、公交都不用另外买票。他陪李娜去地铁站的办理窗口,工作人员说要带护照和一张照片、填一张表,卡做好以后每个月在自动售票机上充值;李娜问一个月多少钱、能不能坐去托莱多的火车(不能)。窗口工作人员用 taquillera。说话人:javier、lina、taquillera。",
-          "grammarFocusZh": "necesitar + 名词 / 动词原形(Necesitas el pasaporte. Necesito recargar el abono.);para + 动词原形说目的(para viajar en metro);costar(o→ue)单独作动词:El abono cuesta … al mes / Los billetes cuestan …(6-4 只学了固定说法 ¿Cuánto cuesta?);el abono、la máquina、recargar、al mes、el pasaporte;tarjeta 7-4 才学,这课说 el abono"
+          "grammarFocusZh": "necesitar + 名词 / 动词原形(Necesitas el pasaporte. Necesito recargar el abono.);para + 动词原形说目的(para ir a la universidad;viajar 8-2 才学,别用);costar(o→ue)单独作动词:El abono cuesta … al mes / Los billetes cuestan …(6-4 只学了固定说法 ¿Cuánto cuesta?);el abono、la máquina、recargar、al mes、el pasaporte;tarjeta 7-4 才学,这课说 el abono"
         },
         {
           "id": "es.a1u6.r02",
