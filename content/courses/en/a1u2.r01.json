@@ -1,0 +1,43 @@
+{
+  "id": "en.a1u2.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-2 Family & friends", "order": 102045,
+  "titleZh": "伊森的室友匹配资料", "goalZh": "读懂一份室友匹配资料,按栏目找出一个人的家人、长相和性格", "canDoZh": "能读懂一份个人资料卡,找出一个人的家人、长相和性格信息",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 15.5,
+  "newItems": [
+    { "id": "en.profile", "kind": "word", "pos": "noun", "text": "profile", "zh": "个人资料;简介", "features": { "ipa": "ˈproʊfaɪl" }, "noteZh": "重音在前 PRO-file,i 读 /aɪ/;网站、社交软件上的个人主页也叫 profile。" },
+    { "id": "en.age", "kind": "word", "pos": "noun", "text": "age", "zh": "年龄", "features": { "ipa": "eɪdʒ" }, "noteZh": "表格上的 Age: 19 就是填年龄;口语里问年龄一般说 How old are you?。" }
+  ],
+  "reviewItems": ["en.years_old", "en.younger", "en.what_does_he_look_like", "en.whats_he_like", "en.a_little"],
+  "lines": [
+    { "speaker": "narrator", "text": "Roommate Profile", "zh": "(磊在宿舍网站上看到伊森入学前填的资料)室友匹配资料", "items": ["en.roommate", "en.profile"] },
+    { "speaker": "narrator", "text": "Name and age:", "zh": "姓名和年龄:", "items": ["en.name", "en.age"] },
+    { "speaker": "ethan", "text": "Ethan, nineteen years old", "zh": "伊森,19 岁", "items": ["en.years_old"] },
+    { "speaker": "narrator", "text": "Where are you from?", "zh": "你是哪里人?", "items": ["en.where_are_you_from"] },
+    { "speaker": "ethan", "text": "I'm from Los Angeles, California.", "zh": "我来自加州洛杉矶。", "items": ["en.im_from"] },
+    { "speaker": "narrator", "text": "Who's in your family?", "zh": "你家里有谁?", "items": ["en.family"] },
+    { "speaker": "ethan", "text": "My mom, my dad, and my younger sister.", "zh": "我妈妈、我爸爸,还有我妹妹。", "items": ["en.mom", "en.dad", "en.younger", "en.sister"] },
+    { "speaker": "narrator", "text": "What do you look like?", "zh": "你长什么样?", "items": ["en.what_does_he_look_like"] },
+    { "speaker": "ethan", "text": "I'm tall, and I have short brown hair.", "zh": "我个子很高,棕色短发。", "items": ["en.tall", "en.have", "en.short", "en.brown", "en.hair"] },
+    { "speaker": "narrator", "text": "What are you like?", "zh": "你是个什么样的人?", "items": ["en.whats_he_like"] },
+    { "speaker": "ethan", "text": "I'm really friendly and funny. But I'm not very quiet!", "zh": "我特别友好,也很搞笑。不过我不太安静!", "items": ["en.really", "en.friendly", "en.funny", "en.quiet"] },
+    { "speaker": "narrator", "text": "And a good roommate? What's he like?", "zh": "那你理想的室友是什么样的人?", "items": ["en.roommate", "en.whats_he_like"] },
+    { "speaker": "ethan", "text": "Nice, friendly, and a little quiet. Quiet is great!", "zh": "人好、友好,有点安静。安静就很好!", "items": ["en.nice", "en.friendly", "en.a_little", "en.quiet", "en.great"] },
+    { "speaker": "lei", "text": "“Not very quiet”? That's right, Ethan!", "zh": "(磊看着资料笑了)“不太安静”?一点没错,伊森!", "items": ["en.quiet", "en.thats_right"] }
+  ],
+  "questions": [
+    { "prompt": "伊森家里有谁?", "options": ["爸爸、妈妈和两个哥哥", "爸爸、妈妈和一个妹妹", "爸爸、妈妈和一个姐姐"], "answer": 1, "explainZh": "伊森写的是 My mom, my dad, and my younger sister.,younger sister 是妹妹。" },
+    { "prompt": "伊森长什么样?", "options": ["个子很高,棕色短发", "个子不高,黑色短发", "个子很高,棕色长发"], "answer": 0, "explainZh": "伊森写 I'm tall, and I have short brown hair.(我个子很高,棕色短发。)" },
+    { "prompt": "伊森希望室友是什么样的人?", "options": ["很搞笑,不太安静", "个子高,头发短", "人好、友好,有点安静"], "answer": 2, "explainZh": "最后一栏伊森写 Nice, friendly, and a little quiet.(人好、友好,有点安静。)" },
+    { "prompt": "磊最后为什么说 That's right, Ethan!?", "options": ["伊森说自己个子很高", "伊森说自己不太安静,确实是这样", "伊森说自己来自洛杉矶"], "answer": 1, "explainZh": "伊森写自己 not very quiet(不太安静),磊和他住在一起,知道他说得一点没错。" }
+  ],
+  "grammar": [
+    { "id": "en.g.read_profile", "titleZh": "读资料卡:按栏目找信息;长相用 have,性格用 be",
+      "bodyZh": "资料卡、问卷是一问一答的:先看栏目(Name and age、Where are you from?、Who's in your family?、What do you look like?、What are you like?),再看后面的回答,要找什么信息就去对应的栏目找。说长相用 have + 名词(I have short brown hair.)或 be + 形容词(I'm tall.);说性格用 be + 形容词(I'm friendly.),程度用 really(非常)、a little(有点儿)、not very(不太)。What do you look like? 问长相,What are you like? 问性格,一个有 look,一个没有,别混。",
+      "examples": [
+        { "text": "I'm tall, and I have short brown hair.", "zh": "我个子很高,棕色短发。" },
+        { "text": "He's really funny, but he isn't very quiet.", "zh": "他特别搞笑,但不太安静。" },
+        { "text": "What are you like? — I'm a little shy.", "zh": "你是什么样的人?——我有点害羞。" }
+      ] }
+  ],
+  "review": "draft"
+}

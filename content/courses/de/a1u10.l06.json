@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u10.l06", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110060,
+  "titleZh": "密码和网上安全", "goalZh": "认识网上安全的常用词,能说出保护密码的几条规则", "canDoZh": "能看懂网上的安全提示,说出密码、账号、登录这些词,知道个人信息不能随便给别人",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26,
+  "newItems": [
+    { "id": "de.passwort", "kind": "word", "pos": "noun", "text": "das Passwort", "zh": "密码", "features": { "gender": "n", "plural": "die Passwörter", "ipa": "ˈpasvɔʁt" }, "noteZh": "中性,复数变音:Passwörter;w 读 [v]:PASS-wort;Das Passwort ist geheim.(密码要保密。)" },
+    { "id": "de.gesperrt", "kind": "word", "pos": "adj", "text": "gesperrt", "zh": "被锁住的;被冻结的", "features": { "ipa": "ɡəˈʃpɛʁt" }, "noteZh": "Mein Konto ist gesperrt.(我的账户被冻结了。);银行卡、账号、马路都能用;sp 读 [ʃp]。" },
+    { "id": "de.betrug", "kind": "word", "pos": "noun", "text": "der Betrug", "zh": "诈骗;欺骗", "features": { "gender": "m", "plural": "-", "ipa": "bəˈtʁuːk" }, "noteZh": "Das ist Betrug!(这是骗人的!);网上骗密码的邮件也叫 Phishing;词尾 g 读 [k]。" },
+    { "id": "de.link", "kind": "word", "pos": "noun", "text": "der Link", "zh": "链接", "features": { "gender": "m", "plural": "die Links", "ipa": "lɪŋk" }, "noteZh": "英语外来词,阳性;不认识的人发来的链接不要点;别和 links(左边)弄混。" },
+    { "id": "de.loeschen", "kind": "word", "pos": "verb", "text": "löschen", "zh": "删除;熄灭", "features": { "ipa": "ˈlœʃn̩" }, "noteZh": "eine E-Mail löschen(删除邮件);ö 是短音 [œ],sch 读 [ʃ]。" },
+    { "id": "de.geheim", "kind": "word", "pos": "adj", "text": "geheim", "zh": "秘密的;保密的", "features": { "ipa": "ɡəˈhaɪ̯m" }, "noteZh": "Das Passwort ist geheim.;ei 读 [aɪ̯];重音在 heim。" },
+    { "id": "de.website", "kind": "word", "pos": "noun", "text": "die Website", "zh": "网站", "features": { "gender": "f", "plural": "die Websites", "ipa": "ˈvɛpsaɪ̯t" }, "noteZh": "英语外来词,德国人读 [ˈvɛpsaɪ̯t];阴性;也说 die Webseite / die Internetseite。" },
+    { "id": "de.andere", "kind": "word", "pos": "adj", "text": "andere", "zh": "别的;另一个;不同的", "alt": ["anderer", "anderes", "anderen"], "features": { "ipa": "ˈandəʁə" }, "noteZh": "放在名词前,词尾跟着名词变:ein anderes Passwort(另一个密码)、eine andere Website(另一个网站)。" },
+    { "id": "de.vorsichtig", "kind": "word", "pos": "adj", "text": "vorsichtig", "zh": "小心的;谨慎的", "features": { "ipa": "ˈfoːɐ̯ˌzɪçtɪç" }, "noteZh": "Man muss im Internet vorsichtig sein.(上网要小心。);v 读 [f];词尾 -ig 读 [ɪç]。" }
+  ],
+  "reviewItems": ["de.klicken", "de.duerfen", "de.sicher", "de.nie", "de.konto"],
+  "lines": [
+    { "speaker": "wei", "text": "Lena, hier ist eine E-Mail von meiner Bank. Mein Konto ist gesperrt!", "zh": "莉娜,这是我银行发来的邮件。我的账户被冻结了!", "items": ["de.hier", "de.sein", "de.ein", "de.e_mail", "de.von", "de.mein", "de.bank_geld", "de.konto", "de.gesperrt"] },
+    { "speaker": "lena", "text": "Was schreibt die Bank?", "zh": "银行写了什么?", "items": ["de.was", "de.schreiben", "de.bank_geld"] },
+    { "speaker": "wei", "text": "Ich muss hier klicken und mein Passwort schreiben.", "zh": "我得点这儿,再写上我的密码。", "items": ["de.ich", "de.muessen", "de.hier", "de.klicken", "de.und", "de.mein", "de.passwort", "de.schreiben"] },
+    { "speaker": "lena", "text": "Nein, das ist Betrug! Eine Bank will dein Passwort nie in einer E-Mail.", "zh": "别,这是骗人的!银行从来不会在邮件里要你的密码。", "items": ["de.nein", "de.das_ist", "de.betrug", "de.ein", "de.bank_geld", "de.wollen", "de.dein", "de.passwort", "de.nie", "de.in", "de.e_mail"] },
+    { "speaker": "wei", "text": "Betrug? Und was mache ich jetzt?", "zh": "骗人的?那我现在怎么办?", "items": ["de.betrug", "de.und", "de.was", "de.machen", "de.ich", "de.jetzt"] },
+    { "speaker": "lena", "text": "Du darfst den Link nicht klicken. Die E-Mail kannst du löschen.", "zh": "那个链接不能点。这封邮件你可以删掉。", "items": ["de.du", "de.duerfen", "de.link", "de.nicht", "de.klicken", "de.e_mail", "de.koennen", "de.loeschen"] },
+    { "speaker": "wei", "text": "Gut. Und wie ist ein Passwort sicher?", "zh": "好。那密码怎样才安全?", "items": ["de.gut", "de.und", "de.wie", "de.sein", "de.ein", "de.passwort", "de.sicher"] },
+    { "speaker": "lena", "text": "Ein Passwort muss lang sein. Und es ist geheim!", "zh": "密码要长。还要保密!", "items": ["de.ein", "de.passwort", "de.muessen", "de.lang", "de.sein", "de.und", "de.es", "de.geheim"] },
+    { "speaker": "wei", "text": "Darf man ein Passwort für zwei Websites benutzen?", "zh": "一个密码可以在两个网站上用吗?", "items": ["de.duerfen", "de.man", "de.ein", "de.passwort", "de.fuer", "de.zwei", "de.website", "de.benutzen"] },
+    { "speaker": "lena", "text": "Nein, jede Website braucht ein anderes Passwort. Man muss immer vorsichtig sein.", "zh": "不行,每个网站都要用不一样的密码。上网一定要小心。", "items": ["de.nein", "de.jeder", "de.website", "de.brauchen", "de.ein", "de.andere", "de.passwort", "de.man", "de.muessen", "de.immer", "de.vorsichtig", "de.sein"] }
+  ],
+  "questions": [
+    { "prompt": "那封奇怪的邮件说什么?", "options": ["王伟中奖了", "王伟的包裹到了", "王伟的银行账户被冻结了"], "answer": 2, "explainZh": "王伟说:Mein Konto ist gesperrt!(我的账户被冻结了!)邮件要他点链接、写密码。" },
+    { "prompt": "莉娜说这封邮件该怎么处理?", "options": ["不要点链接,把邮件删掉", "点链接,写上密码", "给银行回一封邮件"], "answer": 0, "explainZh": "莉娜说:Du darfst den Link nicht klicken. Die E-Mail kannst du löschen.(链接不能点,邮件可以删掉。)" },
+    { "prompt": "下面哪一条是莉娜说的密码规则?", "options": ["密码要短,好记", "每个网站用不一样的密码", "密码可以告诉好朋友"], "answer": 1, "explainZh": "莉娜说:Jede Website braucht ein anderes Passwort.(每个网站都要用不一样的密码。)她还说密码要长(lang)、要保密(geheim)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.regeln_internet", "titleZh": "说规则:müssen、dürfen、man",
+      "bodyZh": "说网上安全的规则,复习 müssen(第 5 单元)和 dürfen、man(第 9 单元):Ein Passwort muss lang sein.(密码必须长。)/ Du darfst den Link nicht klicken.(链接你不能点。)/ Darf man ein Passwort für zwei Websites benutzen?(一个密码能用在两个网站上吗?)/ Man muss immer vorsichtig sein.(上网一定要小心。)\n情态动词放第二位,动词原形放句末;对朋友说用 du(darfst / musst),说一般规则用 man(darf / muss)。nicht dürfen = 不许;nicht müssen = 不必。",
+      "examples": [
+        { "text": "Ein Passwort muss lang sein.", "zh": "密码要长。" },
+        { "text": "Du darfst den Link nicht klicken.", "zh": "那个链接你不能点。" },
+        { "text": "Man muss immer vorsichtig sein.", "zh": "一定要小心。" }
+      ] },
+    { "id": "de.g.nie_immer_jeder", "titleZh": "nie、immer 和 jede / jeder / jedes",
+      "bodyZh": "nie(从不)和 immer(总是)是第 8 单元的频率副词,一般放在变位动词后面:Eine Bank will dein Passwort nie in einer E-Mail.(银行从来不会在邮件里要你的密码。)/ Man muss immer vorsichtig sein.。nie 本身就是否定,后面不再加 nicht(✗ nie nicht)。\njede / jeder / jedes(每个)跟着名词的性变:jede Website(阴性)、jeder Tag(阳性)、jedes Passwort(中性)。",
+      "examples": [
+        { "text": "Eine Bank will dein Passwort nie in einer E-Mail.", "zh": "银行从来不会在邮件里要你的密码。" },
+        { "text": "Jede Website braucht ein anderes Passwort.", "zh": "每个网站都要用不一样的密码。" }
+      ] }
+  ],
+  "review": "draft"
+}

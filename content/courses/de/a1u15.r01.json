@@ -1,0 +1,38 @@
+{
+  "id": "de.a1u15.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-15 节日与生日", "order": 115045,
+  "titleZh": "生日贺卡和感谢消息", "goalZh": "读懂几张生日贺卡和一条感谢消息,学会贺卡和感谢消息的写法", "canDoZh": "能读懂生日贺卡和感谢消息,也能写一张简单的贺卡",
+  "skills": ["read", "write"], "estimatedMinutes": 13,
+  "newItems": [
+    { "id": "de.danken", "kind": "word", "pos": "verb", "text": "danken", "zh": "感谢", "features": { "ipa": "ˈdaŋkn̩" }, "noteZh": "比 danke 正式、完整:Ich danke euch für alles!(谢谢你们为我做的一切!)danken + 人 + für + 事;口语一般说 Danke! 就够了。" }
+  ],
+  "reviewItems": ["de.liebe", "de.viele_gruesse", "de.anziehen", "de.gleich", "de.mal"],
+  "lines": [
+    { "speaker": "lena", "text": "Lieber Paul, jetzt bist du siebzehn!", "zh": "(莉娜的贺卡)亲爱的保罗,你十七岁啦!", "items": ["de.liebe", "de.jetzt", "de.sein", "de.du", "de.siebzehn"] },
+    { "speaker": "lena", "text": "Aber ich bin noch deine große Schwester. Deine Lena", "zh": "不过我还是你姐姐。莉娜", "items": ["de.aber", "de.ich", "de.sein", "de.noch", "de.dein", "de.gross", "de.schwester"] },
+    { "speaker": "sofia", "text": "Lieber Paul, alles Gute zum Geburtstag!", "zh": "(索菲娅的贺卡)亲爱的保罗,生日快乐!", "items": ["de.liebe", "de.herzlichen_glueckwunsch", "de.geburtstag"] },
+    { "speaker": "sofia", "text": "Feier schön und viel Spaß mit dem Trikot! Deine Sofia", "zh": "好好庆祝,穿上球衣玩得开心!索菲娅", "items": ["de.feiern", "de.schoen", "de.und", "de.viel", "de.spass", "de.mit", "de.trikot", "de.dein"] },
+    { "speaker": "jonas", "text": "Paul, siebzehn Jahre! Jetzt bist du alt. Alles Gute! Jonas", "zh": "(约纳斯的贺卡)保罗,十七岁了!你现在是老人家了。祝一切都好!约纳斯", "items": ["de.siebzehn", "de.jahr", "de.jetzt", "de.sein", "de.du", "de.alt", "de.alles", "de.gut"] },
+    { "speaker": "paul", "text": "Hallo zusammen! Vielen Dank für die Karten und die Geschenke!", "zh": "(第二天,保罗在群里发消息)大家好!谢谢你们的贺卡和礼物!", "items": ["de.hallo", "de.zusammen", "de.vielen_dank", "de.fuer", "de.karte", "de.und", "de.geschenk"] },
+    { "speaker": "paul", "text": "Ich habe das Trikot gleich angezogen und Fußball gespielt.", "zh": "我马上就穿上球衣去踢球了。", "items": ["de.ich", "de.haben", "de.trikot", "de.gleich", "de.anziehen", "de.und", "de.fussball", "de.spielen"] },
+    { "speaker": "paul", "text": "Meine Freunde finden es toll!", "zh": "我的朋友们都觉得它特别帅!", "items": ["de.mein", "de.freund", "de.finden", "de.es", "de.toll"] },
+    { "speaker": "paul", "text": "Und die Baozi von Wei waren sehr lecker.", "zh": "王伟做的包子也特别好吃。", "items": ["de.und", "de.von", "de.sein", "de.sehr", "de.lecker"] },
+    { "speaker": "paul", "text": "Wei, nächstes Mal machen wir sie zusammen!", "zh": "王伟,下次我们一起做包子吧!", "items": ["de.naechste", "de.mal", "de.machen", "de.wir", "de.sie_pl", "de.zusammen"] },
+    { "speaker": "paul", "text": "Ich danke euch für alles! Viele Grüße, Paul", "zh": "谢谢你们为我做的一切!保罗", "items": ["de.ich", "de.danken", "de.euch", "de.fuer", "de.alles", "de.viele_gruesse"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜在贺卡里写了什么?", "options": ["她明天去看保罗", "保罗 17 岁了,可她还是他的姐姐", "她送了保罗一本书"], "answer": 1, "explainZh": "莉娜写:Jetzt bist du siebzehn! Aber ich bin noch deine große Schwester.(你十七岁啦!不过我还是你姐姐。)" },
+    { "prompt": "保罗穿上新球衣做了什么?", "options": ["踢足球", "去游泳", "去上学"], "answer": 0, "explainZh": "保罗写:Ich habe das Trikot gleich angezogen und Fußball gespielt.(我马上就穿上球衣去踢球了。)" },
+    { "prompt": "保罗下次想和王伟一起做什么?", "options": ["踢足球", "去买球衣", "做包子"], "answer": 2, "explainZh": "保罗写:Wei, nächstes Mal machen wir sie zusammen!——sie 指上一句的 die Baozi(包子)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u15_karte_dank", "titleZh": "贺卡和感谢消息",
+      "bodyZh": "生日贺卡一般就两三句:称呼(Lieber Paul, / Liebe Lena,)→ 祝福(Alles Gute zum Geburtstag! / Feier schön!)→ 落款(Deine Sofia / Dein Wei)。好朋友之间也可以开开玩笑:Jetzt bist du alt!\n感谢消息:Vielen Dank für die Karten und die Geschenke!(谢谢大家的贺卡和礼物!)→ 说说礼物怎么样(Ich habe das Trikot gleich angezogen.)→ 最后再谢一次:Ich danke euch für alles!(谢谢你们为我做的一切!)\nfür 后面是感谢的事情,用第四格:für die Geschenke、für alles;danken 后面直接跟感谢的人:Ich danke euch / dir / Ihnen。\n给一群人发消息,开头用 Hallo zusammen!(大家好!)",
+      "examples": [
+        { "text": "Vielen Dank für die Geschenke!", "zh": "谢谢大家的礼物!" },
+        { "text": "Ich danke euch für alles!", "zh": "谢谢你们为我做的一切!" },
+        { "text": "Feier schön!", "zh": "好好庆祝!" }
+      ] }
+  ],
+  "review": "draft"
+}

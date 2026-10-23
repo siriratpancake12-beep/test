@@ -73,6 +73,194 @@
         { "id": "en.best", "kind": "word", "pos": "adj", "text": "best", "zh": "最好的;(邮件落款)祝好", "features": { "ipa": "best" }, "noteZh": "邮件结尾常写 Best,(Best wishes 的简写),下一行写自己的名字;best 本身是 good 的最高级“最好的”。" }
       ],
       "reviewItems": ["en.first_name", "en.freshman", "en.computer_science", "en.roommate", "en.biology", "en.ask"]
+    },
+    {
+      "id": "en.a1u2.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-2 Family & friends", "order": 102045,
+      "titleZh": "伊森的室友匹配资料", "goalZh": "读懂一份室友匹配资料,按栏目找出一个人的家人、长相和性格",
+      "canDoZh": "能读懂一份个人资料卡,找出一个人的家人、长相和性格信息",
+      "scenarioZh": "体裁:个人资料(宿舍系统里的'室友匹配'问卷)。说话人:问卷栏目用 narrator,伊森填的回答用 ethan,最后磊的想法用 lei。磊在宿舍网站上看到伊森入学前填的资料:19 岁,来自加州,家里有爸妈和一个妹妹;个子高,棕色短发;说自己友好、有趣,'不太安静'。磊笑着想:他说得一点没错。只用第 1–4 课的词,至少 6 句。",
+      "grammarFocusZh": "复习 have / has、be + 形容词、a little / really;读资料卡时按栏目(Name、Family、Looks、Personality)找信息。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 15.5,
+      "newItems": [
+        { "id": "en.profile", "kind": "word", "pos": "noun", "text": "profile", "zh": "个人资料;简介", "features": { "ipa": "ˈproʊfaɪl" }, "noteZh": "重音在前 PRO-file,i 读 /aɪ/;网站、社交软件上的个人主页也叫 profile。" },
+        { "id": "en.age", "kind": "word", "pos": "noun", "text": "age", "zh": "年龄", "features": { "ipa": "eɪdʒ" }, "noteZh": "表格上的 Age: 19 就是填年龄;口语里问年龄一般说 How old are you?。" }
+      ],
+      "reviewItems": ["en.years_old", "en.younger", "en.what_does_he_look_like", "en.whats_he_like", "en.a_little"]
+    },
+    {
+      "id": "en.a1u2.l06", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-2 Family & friends", "order": 102060,
+      "titleZh": "我家的群聊", "goalZh": "会用 's 说清楚谁是谁的谁,能用 aunt、uncle、cousin 等词介绍亲戚",
+      "canDoZh": "能介绍自己的亲戚,用 's 说清楚谁是谁的谁(比如'我妈妈的姐姐')",
+      "scenarioZh": "晚饭时磊的手机响个不停,索菲亚问怎么了。磊说是家里的群聊:奶奶、爸妈、外公外婆、姨妈和姨父、表姐都在里面。他一个个介绍:My mom's sister is my aunt. Her husband is my uncle.;索菲亚很惊讶:中文里姨妈、姑姑、舅妈分得那么细,英语里都是 aunt,表姐、堂哥也都是 cousin。两人比较中国和墨西哥的大家庭。",
+      "grammarFocusZh": "名词所有格 's(my mom's sister、Sofia's brothers),以 s 结尾的复数名词只加 '(my parents' photo);亲戚词 aunt、uncle、husband、wife,外公外婆在英语里也是 grandpa、grandma。发音:'s 的读音规则和复数 -s 一样(mom's /z/、Mike's /s/、Luis's /ɪz/);aunt 美式读 /ænt/。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 24,
+      "newItems": [
+        { "id": "en.phone", "kind": "word", "pos": "noun", "text": "phone", "zh": "手机;电话", "features": { "ipa": "foʊn" }, "noteZh": "口语里 phone 常指手机(也说 cell phone);ph 读 /f/。on the phone 在打电话。" },
+        { "id": "en.aunt", "kind": "word", "pos": "noun", "text": "aunt", "zh": "姨妈;姑妈;舅妈;婶婶;伯母", "features": { "ipa": "ænt" }, "noteZh": "美式读 /ænt/,和 ant(蚂蚁)同音;中文的姨妈、姑妈、舅妈、婶婶、伯母,英语都叫 aunt。" },
+        { "id": "en.uncle", "kind": "word", "pos": "noun", "text": "uncle", "zh": "叔叔;伯伯;舅舅;姨父;姑父", "features": { "ipa": "ˈʌŋkəl" }, "noteZh": "英语不分父亲那边还是母亲那边,叔叔、舅舅、姨父、姑父都是 uncle;n 在 k 前读 /ŋ/。" },
+        { "id": "en.husband", "kind": "word", "pos": "noun", "text": "husband", "zh": "丈夫", "features": { "ipa": "ˈhʌzbənd" }, "noteZh": "s 读 /z/,u 读 /ʌ/;her husband 她的丈夫。" },
+        { "id": "en.wife", "kind": "word", "pos": "noun", "text": "wife", "zh": "妻子", "features": { "ipa": "waɪf" }, "noteZh": "复数是 wives;his wife 他的妻子。w 双唇收圆,别读成 v。" },
+        { "id": "en.daughter", "kind": "word", "pos": "noun", "text": "daughter", "zh": "女儿", "features": { "ipa": "ˈdɑːt̬ɚ" }, "noteZh": "gh 不发音;美式 t 读成轻快的 d,听起来像 \"DAH-der\"。儿子是 son。" },
+        { "id": "en.word", "kind": "word", "pos": "noun", "text": "word", "zh": "词;单词", "features": { "ipa": "wɝːd" }, "noteZh": "or 读 /ɝː/,要卷舌;问“……用英语怎么说”也可以说 What's the word for this?" }
+      ],
+      "reviewItems": ["en.group_chat", "en.whos_that", "en.grandma", "en.older", "en.cousin"]
+    },
+    {
+      "id": "en.a1u2.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-2 Family & friends", "order": 102070,
+      "titleZh": "你养宠物吗?", "goalZh": "会聊自己和家里的宠物,用 it / its 说它叫什么、几岁、什么样",
+      "canDoZh": "能聊自己或家里的宠物:叫什么、几岁、长什么样、性格怎么样",
+      "scenarioZh": "艾米给大家看手机锁屏上的狗:它叫 Mochi,是她家的狗,三岁,很友好但有点疯。磊说成都家里奶奶养了一只猫,很懒、很安静;索菲亚说墨西哥家里有两只狗,双胞胎妹妹天天和它们玩。艾米问 Do you have a pet?,磊说很想养,可宿舍里不能养。",
+      "grammarFocusZh": "it / its:动物和东西用 it,its 是'它的'(Its name is…),和 it's(= it is)读音相同、意思不同;美国人常用 he / she 称呼自家宠物;复习 have / has 和性格形容词。发音:/æ/(cat、have、family、black)嘴张大、嘴角往两边拉,和 /e/(pet、yes)区分。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "en.pet", "kind": "word", "pos": "noun", "text": "pet", "zh": "宠物", "features": { "ipa": "pet" }, "noteZh": "e 读 /e/,嘴别张太大;“养宠物”直接用 have:Do you have a pet?" },
+        { "id": "en.dog", "kind": "word", "pos": "noun", "text": "dog", "zh": "狗", "features": { "ipa": "dɑːɡ" }, "noteZh": "美式 o 读 /ɑː/;词尾 g 轻轻收住,不要读成 \"dog-ge\"。" },
+        { "id": "en.cat", "kind": "word", "pos": "noun", "text": "cat", "zh": "猫", "features": { "ipa": "kæt" }, "noteZh": "a 读 /æ/,嘴张大、嘴角往两边拉;词尾 t 收住,不加元音。" },
+        { "id": "en.cute", "kind": "word", "pos": "adj", "text": "cute", "zh": "可爱的", "features": { "ipa": "kjuːt" }, "noteZh": "美国人夸宠物、小孩、小东西最爱说 cute:He's really cute!;u 读 /juː/。" },
+        { "id": "en.crazy", "kind": "word", "pos": "adj", "text": "crazy", "zh": "疯的;疯狂的", "features": { "ipa": "ˈkreɪzi" }, "noteZh": "口语里常是开玩笑:a little crazy(有点疯、很闹腾),不一定是坏话;z 读 /z/,声带要振动。" },
+        { "id": "en.lazy", "kind": "word", "pos": "adj", "text": "lazy", "zh": "懒的", "features": { "ipa": "ˈleɪzi" }, "noteZh": "和 crazy 押韵;l 舌尖顶住上齿龈,z 要带声。" },
+        { "id": "en.dorm", "kind": "word", "pos": "noun", "text": "dorm", "zh": "宿舍", "features": { "ipa": "dɔːrm" }, "noteZh": "dormitory 的简称,美国大学生都说 dorm;in the dorm 在宿舍里。美国大学宿舍一般不让养宠物。" }
+      ],
+      "reviewItems": ["en.how_old", "en.have", "en.twins", "en.quiet", "en.and_you"]
+    },
+    {
+      "id": "en.a1u2.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-2 Family & friends", "order": 102085,
+      "titleZh": "猜猜他是谁", "goalZh": "读懂描述外貌和性格的短段落,根据线索猜出是谁,也会照着描述自己",
+      "canDoZh": "能根据外貌和性格的描述认出是谁,也能用几句话描述一个人让别人来猜",
+      "scenarioZh": "体裁:猜人游戏(国际学生社团通讯上的小栏目)。说话人 narrator。四段简短描述,每段 2–3 句,分别写艾米、伊森、索菲亚和马库斯的长相和性格(不写名字,结尾问 Who is she?),最后一段请读者描述自己。至少 10 句,答案放在理解题里。人物外貌和前面课里的设定一致。",
+      "grammarFocusZh": "综合复习 have / has 描述外貌、be + 形容词描述性格、's 所有格;形容词顺序:长短在前、颜色在后(long black hair)。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "en.guess", "kind": "word", "pos": "verb", "text": "guess", "zh": "猜", "features": { "ipa": "ɡes" }, "noteZh": "u 不发音,读 /ɡes/,和 yes 押韵;Guess who! 猜猜是谁!" }
+      ],
+      "reviewItems": ["en.sophomore", "en.crazy", "en.twins", "en.senior", "en.what_does_he_look_like", "en.whats_he_like"]
+    },
+    {
+      "id": "en.a1u3.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-3 Daily life", "order": 103045,
+      "titleZh": "伊森的一天(短信)", "goalZh": "读懂一串按时间排列的短信,说出发信人几点在做什么,学会补全短信里省略的部分",
+      "canDoZh": "能读懂一串按时间排列的短信,说出发信人一天里几点在做什么",
+      "scenarioZh": "体裁:短信记录。说话人:伊森发的消息用 ethan,磊的回复用 lei,开头和结尾的叙述用 narrator。周六伊森一整天断断续续给磊发消息,每条都带时间:11:30 说自己刚起床,下午说在健身房、一周练五次,傍晚问磊要不要一起打游戏……磊在图书馆一条条看,越看越想笑。只用第 1–4 课的词,至少 6 条。",
+      "grammarFocusZh": "复习时间读法和一般现在时(he gets up / he works out);短信里常省略主语(At the gym.),读的时候自己补全。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 13,
+      "newItems": [
+        { "id": "en.laugh", "kind": "word", "pos": "verb", "text": "laugh", "zh": "笑;大笑", "features": { "ipa": "læf" }, "noteZh": "gh 读 /f/,a 读 /æ/;笑出声用 laugh,微笑是 smile。" }
+      ],
+      "reviewItems": ["en.noon", "en.gym", "en.work_out", "en.video_game", "en.go_to_bed", "en.sometimes"]
+    },
+    {
+      "id": "en.a1u3.l06", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-3 Daily life", "order": 103060,
+      "titleZh": "图书馆几点关门?", "goalZh": "会问、会说一个地方几点开门和关门,听懂 a.m. / p.m.、half past、a quarter to 这些时间说法",
+      "canDoZh": "能问清楚一个地方几点开门、几点关门,并听懂'还有 15 分钟关门'这类广播通知",
+      "scenarioZh": "晚上磊和索菲亚在图书馆学习,11:45 响起广播:The library closes at midnight.(minute 第 5 单元才教,广播不说 in fifteen minutes,in + 一段时间放在语法讲解里)。两人吃了一惊,一边收拾一边查周末的开放时间:周六上午 10 点开、下午 6 点关,周日中午 12 点开。两人约好周六上午十点半在图书馆见(索菲亚周六下午打工)。",
+      "grammarFocusZh": "open / close 说开放时间(The library opens at 8 a.m. and closes at midnight.);in + 一段时间表示'……之后'(in fifteen minutes);a.m. / p.m.、midnight;half past ten、quarter to twelve 也要听得懂。发音:动词 close 读 /kloʊz/,词尾是浊音;听广播先抓数字和动词。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+      "newItems": [
+        { "id": "en.open", "kind": "word", "pos": "verb", "text": "open", "zh": "开门;打开", "features": { "ipa": "ˈoʊpən" }, "noteZh": "The library opens at 10 a.m. 图书馆上午 10 点开门;说“开着(营业中)”用 It's open.。重音在前 O-pen。" },
+        { "id": "en.close_verb", "kind": "word", "pos": "verb", "text": "close", "zh": "关门;关上", "features": { "ipa": "kloʊz" }, "noteZh": "作动词读 /kloʊz/,s 读浊音 /z/;作形容词“近的”(第 5 单元)读 /kloʊs/。The library closes at midnight. 图书馆午夜关门。" },
+        { "id": "en.midnight", "kind": "word", "pos": "noun", "text": "midnight", "zh": "午夜;夜里十二点", "features": { "ipa": "ˈmɪdnaɪt" }, "noteZh": "夜里 12 点说 midnight,中午 12 点说 noon;at midnight 在午夜。词尾 t 收住,不加元音。" },
+        { "id": "en.quarter", "kind": "word", "pos": "noun", "text": "quarter", "zh": "一刻钟(15 分钟);四分之一", "features": { "ipa": "ˈkwɔːrt̬ɚ" }, "noteZh": "a quarter past ten 十点一刻(10:15),a quarter to twelve 差一刻十二点(11:45);美式 t 读成轻快的 d。美国人也常直接说 ten fifteen、eleven forty-five。" },
+        { "id": "en.half", "kind": "word", "pos": "noun", "text": "half", "zh": "一半;半", "features": { "ipa": "hæf" }, "noteZh": "l 不发音,读 /hæf/;half past ten 十点半(10:30),美国人更常说 ten thirty,但 half past 要听得懂。" },
+        { "id": "en.past", "kind": "word", "pos": "prep", "text": "past", "zh": "(几点)过;经过", "features": { "ipa": "pæst" }, "noteZh": "报时间:a quarter past two 两点一刻,half past ten 十点半;past 是“过了”,to 是“差”。a 读 /æ/,词尾 st 收住。" },
+        { "id": "en.am", "kind": "word", "pos": "adv", "text": "a.m.", "zh": "上午(半夜到中午)", "features": { "ipa": "ˌeɪ ˈem" }, "noteZh": "放在钟点后面:10 a.m. 上午 10 点;读两个字母 A-M。有了 a.m. 就不再加 o'clock,不说 ten o'clock a.m.。" },
+        { "id": "en.pm", "kind": "word", "pos": "adv", "text": "p.m.", "zh": "下午;晚上(中午到半夜)", "features": { "ipa": "ˌpiː ˈem" }, "noteZh": "6 p.m. 下午 6 点,11 p.m. 晚上 11 点;读两个字母 P-M。中午 12 点常说 noon,夜里 12 点说 midnight。" }
+      ],
+      "reviewItems": ["en.library", "en.late", "en.saturday", "en.sunday", "en.noon", "en.early"]
+    },
+    {
+      "id": "en.a1u3.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-3 Daily life", "order": 103070,
+      "titleZh": "约个时间见顾问", "goalZh": "会打电话约时间:说自己什么时候有空、什么时候不行,并复述确认日期和钟点",
+      "canDoZh": "能打电话和办公室约时间:说自己什么时候有空、什么时候不行,最后确认日期和钟点",
+      "scenarioZh": "拿到咖啡馆的工作后,磊要去国际学生办公室办校内打工的登记,得先预约。他打电话给顾问(advisor):顾问问 Are you free this week? On Wednesday at ten?,磊说周三上午有课(磊周一、三、五上午有课);顾问又问周四下午三点,磊说周二、周四两点到六点要上班;顾问问 What time is good for you?,磊问 Is Friday afternoon OK?,定在周五下午两点一刻,磊复述确认(Friday at two fifteen?)。顾问提醒他带上护照和经理写的信。",
+      "grammarFocusZh": "约时间的说法:Are you free on…? / Is … OK? / What time is good for you?,不行时说 Sorry, I have class on…(then 是第 8 课的词条,本课不用 I have class then.);复习 on + 星期、at + 钟点。发音:for、to 在句中弱读成 /fɚ/、/tə/(from two to three)。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.appointment", "kind": "word", "pos": "noun", "text": "appointment", "zh": "预约;约好的见面", "features": { "ipa": "əˈpɔɪntmənt" }, "noteZh": "和医生、老师、办公室约时间叫 appointment;朋友之间约见面不用这个词。重音在第二个音节 ap-POINT-ment。" },
+        { "id": "en.bring", "kind": "word", "pos": "verb", "text": "bring", "zh": "带来;拿来", "features": { "ipa": "brɪŋ" }, "noteZh": "把东西带到说话人这边来用 bring:Please bring your passport.;词尾 ng 读 /ŋ/,不要再加一个 g 的音。" },
+        { "id": "en.passport", "kind": "word", "pos": "noun", "text": "passport", "zh": "护照", "features": { "ipa": "ˈpæspɔːrt" }, "noteZh": "重音在前 PASS-port;留学生办手续几乎都要带护照。" },
+        { "id": "en.letter", "kind": "word", "pos": "noun", "text": "letter", "zh": "信;字母", "features": { "ipa": "ˈlet̬ɚ" }, "noteZh": "美式 tt 读成轻快的 d,像 \"LED-der\";letter 也是“字母”:the letter E。" },
+        { "id": "en.question", "kind": "word", "pos": "noun", "text": "question", "zh": "问题", "features": { "ipa": "ˈkwestʃən" }, "noteZh": "qu 读 /kw/,-tion 在 s 后面读 /tʃən/;有问题说 I have a question.,提问是 ask a question。" },
+        { "id": "en.what_time_is_good_for_you", "kind": "phrase", "pos": "phrase", "text": "What time is good for you", "zh": "你什么时候方便?", "features": { "ipa": "ˌwʌt ˈtaɪm ɪz ˈɡʊd fɚ juː" }, "noteZh": "约时间时把选择权交给对方,很礼貌;回答 Friday afternoon is good for me.。for 在句中弱读成 /fɚ/。" }
+      ],
+      "reviewItems": ["en.free", "en.class", "en.wednesday", "en.thursday", "en.friday", "en.manager"]
+    },
+    {
+      "id": "en.a1u3.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-3 Daily life", "order": 103085,
+      "titleZh": "劳拉的欢迎邮件", "goalZh": "读懂一封工作安排邮件,找出上班的日期、钟点和要注意的事",
+      "canDoZh": "能读懂一封工作安排邮件,找出上班的日期、时间、地点和要准备的东西",
+      "scenarioZh": "体裁:邮件。说话人 laura(劳拉写的第一人称邮件)。面试第二天,咖啡馆经理劳拉(laura)发来邮件:欢迎加入;下周一下午 2 点第一次培训,马库斯是他的'师傅';以后每周二、周四下午 2 点到 6 点上班;请提前十分钟到(1:50 到)。结尾是劳拉的署名和咖啡馆的电话(555-01xx)。至少 8 句。",
+      "grammarFocusZh": "复习时间介词 at / on / from…to… 和一般现在时说固定安排(Your shift starts at 2.);读邮件先找日期和钟点,再看要做什么。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
+      "newItems": [
+        { "id": "en.shift", "kind": "word", "pos": "noun", "text": "shift", "zh": "(轮班的)一班;班次", "features": { "ipa": "ʃɪft" }, "noteZh": "打工的“一班”叫 shift:My shift starts at 2.(我的班两点开始);sh 读 /ʃ/,别读成 s。" }
+      ],
+      "reviewItems": ["en.start", "en.teacher", "en.senior", "en.manager", "en.busy", "en.question"]
+    },
+    {
+      "id": "en.a1u4.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-4 Food & drinks", "order": 104045,
+      "titleZh": "餐厅菜单", "goalZh": "看懂美式餐厅的菜单:菜名、配菜、价格,知道哪道菜辣、什么另外收钱、价格含不含税",
+      "canDoZh": "能看懂美式餐厅的菜单:菜名、配菜和价格,知道哪些菜是辣的、哪些另外收钱",
+      "scenarioZh": "体裁:菜单。说话人 narrator。第 3 课那家美式餐厅的菜单:汉堡、沙拉、配菜、饮料几个栏目,每道菜一行描述和价格(Spicy Burger with fries: $12.99。chicken 是第 5 课的词,菜单不用),辣的菜标着 It's really spicy!,加奶酪另收 1 美元,水免费,底部写着价格不含税和小费。至少 8 行。",
+      "grammarFocusZh": "复习 How much is…?、a 和 the、价格读法($12.99 = twelve ninety-nine);菜单里常用 with… 表示'配……'。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 17.5,
+      "newItems": [
+        { "id": "en.salad", "kind": "word", "pos": "noun", "text": "salad", "zh": "沙拉", "features": { "ipa": "ˈsæləd" }, "noteZh": "a 读 /æ/,重音在前 SAL-ad;美国餐厅的沙拉常常是一大盘,可以当正餐。" },
+        { "id": "en.cheese", "kind": "word", "pos": "noun", "text": "cheese", "zh": "奶酪;芝士", "features": { "ipa": "tʃiːz" }, "noteZh": "ee 读长音 /iː/,词尾 s 读 /z/;一般不可数:some cheese。拍照时美国人说 Say cheese!(笑一个)。" },
+        { "id": "en.tax", "kind": "word", "pos": "noun", "text": "tax", "zh": "税", "features": { "ipa": "tæks" }, "noteZh": "美国菜单和商品的标价一般不含销售税,结账时另外加;x 读 /ks/。" },
+        { "id": "en.price", "kind": "word", "pos": "noun", "text": "price", "zh": "价格", "features": { "ipa": "praɪs" }, "noteZh": "菜单、标签上的价格叫 price;口语问价钱一般说 How much is it?。" }
+      ],
+      "reviewItems": ["en.menu", "en.burger", "en.fries", "en.spicy", "en.oat_milk", "en.tip"]
+    },
+    {
+      "id": "en.a1u4.l06", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-4 Food & drinks", "order": 104060,
+      "titleZh": "中式早餐和美式早餐", "goalZh": "会说常见的中式、美式早餐,告诉别人自己不吃什么、对什么过敏",
+      "canDoZh": "能说出常见的早餐食物,告诉别人自己早上吃什么、不吃什么、对什么过敏",
+      "scenarioZh": "早上在学校食堂,索菲亚端着麦片和酸奶,磊端着煎蛋和吐司。磊说想念成都的包子、豆浆和面条;索菲亚说墨西哥的早餐常有玉米饼和豆子。食堂的松饼旁贴着'含坚果'的标签,索菲亚说她对坚果过敏,磊学会了 I'm allergic to…。(索菲亚对坚果过敏,后面的课保持一致。)",
+      "grammarFocusZh": "早餐词汇(cereal、toast、yogurt、pancakes 等);复习 some / any(Do you want some toast?);说忌口和过敏:I don't eat… / I'm allergic to nuts.。发音:/ʌ/(nuts、cup、butter)嘴巴放松、短促,不要读成'啊'。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.cereal", "kind": "word", "pos": "noun", "text": "cereal", "zh": "麦片(早餐谷物)", "features": { "ipa": "ˈsɪriəl" }, "noteZh": "美国人早饭常吃 cereal,倒上牛奶吃;和 serial(连续的)读音一样。" },
+        { "id": "en.yogurt", "kind": "word", "pos": "noun", "text": "yogurt", "zh": "酸奶", "features": { "ipa": "ˈjoʊɡɚt" }, "noteZh": "美式读 YO-gurt,开头是 /j/;一般不可数:some yogurt,一杯一杯卖的也可以说 a yogurt。" },
+        { "id": "en.toast", "kind": "word", "pos": "noun", "text": "toast", "zh": "烤面包片;吐司", "features": { "ipa": "toʊst" }, "noteZh": "不可数:some toast、a piece of toast;oa 读 /oʊ/,词尾 st 收住,别读成“吐司”。" },
+        { "id": "en.pancakes", "kind": "word", "pos": "noun", "text": "pancakes", "zh": "(美式)松饼;煎饼", "features": { "ipa": "ˈpænkeɪks" }, "noteZh": "美式早餐的圆松饼,一般说复数 pancakes,单数是 pancake;常淋上枫糖浆吃。" },
+        { "id": "en.noodles", "kind": "word", "pos": "noun", "text": "noodles", "zh": "面条", "features": { "ipa": "ˈnuːdəlz" }, "noteZh": "一般用复数 noodles;oo 读长音 /uː/,结尾的 dles 舌尖顶住上齿龈,别读成“努斗斯”。" },
+        { "id": "en.soy_milk", "kind": "phrase", "pos": "noun", "text": "soy milk", "zh": "豆浆", "features": { "ipa": "ˈsɔɪ ˌmɪlk" }, "noteZh": "美国超市卖的 soy milk 多是冷的、带甜味,和中国早餐的热豆浆不太一样;oy 读 /ɔɪ/。" },
+        { "id": "en.beans", "kind": "word", "pos": "noun", "text": "beans", "zh": "豆子", "features": { "ipa": "biːnz" }, "noteZh": "一般用复数 beans;墨西哥菜里常见煮软的黑豆、花豆;ea 读长音 /iː/。" },
+        { "id": "en.tortilla", "kind": "word", "pos": "noun", "text": "tortilla", "zh": "(墨西哥)玉米饼;薄饼", "features": { "ipa": "tɔːrˈtiːə" }, "noteZh": "来自西班牙语,ll 不读 /l/,读 tor-TEE-ya;墨西哥菜里很常见,在美国也到处能买到。" },
+        { "id": "en.nuts", "kind": "word", "pos": "noun", "text": "nuts", "zh": "坚果", "features": { "ipa": "nʌts" }, "noteZh": "u 读 /ʌ/,嘴巴放松、短促,别读成“纳茨”;说过敏一般用复数:I'm allergic to nuts.。" },
+        { "id": "en.allergic", "kind": "word", "pos": "adj", "text": "allergic", "zh": "过敏的", "features": { "ipa": "əˈlɝːdʒɪk" }, "noteZh": "对……过敏:I'm allergic to nuts.,to 不能漏;重音在第二个音节 a-LER-gic,g 读 /dʒ/。" }
+      ],
+      "reviewItems": ["en.breakfast", "en.egg", "en.miss", "en.want", "en.delicious", "en.eat"]
+    },
+    {
+      "id": "en.a1u4.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-4 Food & drinks", "order": 104070,
+      "titleZh": "打电话订披萨", "goalZh": "会打电话订外卖:说清要什么、送到哪儿、留电话,问价钱和送达时间",
+      "canDoZh": "能打电话订外卖:说清楚要什么、要多大、送到哪儿,留下电话,并问大概多久送到",
+      "scenarioZh": "周五晚上,伊森想边打游戏边吃披萨,让磊打电话练英语。披萨店店员(clerk)问 Pickup or delivery?;磊点了一个大号披萨,一半辣香肠一半蔬菜,报出宿舍地址(四位门牌号加街名,用 Broadway——street 是第 5 单元的词)和电话;店员复述订单,说一共 24.50 美元、大约七点半送到(minute 第 5 单元才教,不说 30 minutes)。送餐的司机到了,伊森提醒磊给小费。",
+      "grammarFocusZh": "电话订餐的流程:Pickup or delivery? / What's the address? / Anything else?(复习);地址读法:门牌号两位两位地读(1420 = fourteen twenty),再说街名和房间号;复习 Can I get…? 和 How much…?。发音:四位门牌号中间稍停;pizza 的 zz 读 /ts/。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.pizza", "kind": "word", "pos": "noun", "text": "pizza", "zh": "披萨;比萨饼", "features": { "ipa": "ˈpiːtsə" }, "noteZh": "zz 读 /ts/,读 PEET-sa;一整个是 a pizza,一块是 a slice of pizza。" },
+        { "id": "en.pickup", "kind": "word", "pos": "noun", "text": "pickup", "zh": "(到店)自取", "features": { "ipa": "ˈpɪkʌp" }, "noteZh": "点外卖时店员常问 Pickup or delivery?(自取还是外送?);动词说法是 pick up(去拿)。" },
+        { "id": "en.delivery", "kind": "word", "pos": "noun", "text": "delivery", "zh": "外送;送货", "features": { "ipa": "dɪˈlɪvɚi" }, "noteZh": "重音在第二个音节 de-LIV-er-y;v 要上齿碰下唇。在美国叫外送,一般要给送餐的人小费。" },
+        { "id": "en.pepperoni", "kind": "word", "pos": "noun", "text": "pepperoni", "zh": "意式辣香肠", "features": { "ipa": "ˌpepəˈroʊni" }, "noteZh": "美国人最常点的披萨口味之一;重音在 ro:pep-per-O-ni。" },
+        { "id": "en.address", "kind": "word", "pos": "noun", "text": "address", "zh": "地址", "features": { "ipa": "ˈædres" }, "noteZh": "美式重音多在前 AD-dress;报地址先说门牌号再说街名,四位门牌号两位两位地读:1420 = fourteen twenty。" },
+        { "id": "en.order", "kind": "word", "pos": "noun", "text": "order", "zh": "点的餐;订单;点(餐)", "features": { "ipa": "ˈɔːrdɚ" }, "noteZh": "Your order is… 您点的是……;也可以当动词“点餐”,第 3 课的 Are you ready to order? 就是它。结尾卷舌 /ɚ/。" }
+      ],
+      "reviewItems": ["en.can_i_get", "en.half", "en.vegetable", "en.anything_else", "en.thats_it", "en.tip"]
+    },
+    {
+      "id": "en.a1u4.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-4 Food & drinks", "order": 104085,
+      "titleZh": "顾客点评", "goalZh": "读懂网上的短点评,分清好评和差评,找出顾客喜欢和不满意的地方",
+      "canDoZh": "能读懂网上的短点评,分清好评和差评,找出顾客喜欢和不喜欢什么",
+      "scenarioZh": "体裁:网上点评。说话人:每条点评用写点评的人(顾客用 customer,老顾客那条用 regular),标题用 narrator,最后磊的反应用 lei。磊第一次独立当班后,马库斯给他看顾客在网上给校园咖啡馆写的几条点评(不出现店名):有人夸拿铁好喝、磊很友好,老顾客说中午人太多、现在改成下午来,有人说茶不够热、店里小,有人说燕麦奶拿铁是最爱。每条带星级。至少 8 句。",
+      "grammarFocusZh": "复习 be + 形容词(delicious、friendly、busy)和本单元的饮品词;点评里常用 but 表示转折;注意星级和文字是不是一致。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "en.review", "kind": "word", "pos": "noun", "text": "review", "zh": "点评;评论", "features": { "ipa": "rɪˈvjuː" }, "noteZh": "重音在后 re-VIEW;网上的 customer reviews 是顾客点评。" },
+        { "id": "en.star", "kind": "word", "pos": "noun", "text": "star", "zh": "星;星级", "features": { "ipa": "stɑːr" }, "noteZh": "点评的星级:five stars 五颗星;st 之间不要加元音,结尾卷舌。" },
+        { "id": "en.favorite", "kind": "word", "pos": "adj", "text": "favorite", "zh": "最喜欢的", "features": { "ipa": "ˈfeɪvɚət" }, "noteZh": "美式拼写 favorite(英式 favourite);它本身就是“最喜欢的”,不说 most favorite。My favorite drink is… 我最喜欢的饮料是……" }
+      ],
+      "reviewItems": ["en.customer", "en.latte", "en.busy", "en.oat_milk", "en.vanilla", "en.good_job"]
     }
   ]
 }

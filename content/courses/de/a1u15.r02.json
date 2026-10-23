@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u15.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-15 节日与生日", "order": 115085,
+  "titleZh": "七月的柏林活动日历", "goalZh": "读懂活动日历里的日期、钟点、地点、价格和适合谁,选出想去的活动", "canDoZh": "能读懂一份活动日历,找出活动的日期、时间、地点、价格和适合谁",
+  "skills": ["read", "write"], "estimatedMinutes": 13,
+  "newItems": [
+    { "id": "de.eintritt", "kind": "word", "pos": "noun", "text": "der Eintritt", "zh": "门票;入场(费)", "features": { "gender": "m", "plural": "die Eintritte", "ipa": "ˈaɪ̯nˌtʁɪt" }, "noteZh": "活动广告常见:Eintritt: 6 Euro(门票 6 欧元)、Eintritt frei!(免费入场!)" }
+  ],
+  "reviewItems": ["de.alle", "de.nacht", "de.museum", "de.see", "de.spiel"],
+  "lines": [
+    { "speaker": "narrator", "text": "Berlin im Juli: Was gibt es am Wochenende?", "zh": "(城市活动日历)七月的柏林:周末有什么活动?", "items": ["de.in", "de.juli", "de.was", "de.es_gibt", "de.am", "de.wochenende"] },
+    { "speaker": "narrator", "text": "Kino im Park: jeden Freitag um 21:30 Uhr.", "zh": "公园露天电影:每周五晚上 9:30。", "items": ["de.kino", "de.in", "de.park", "de.jeder", "de.freitag", "de.um", "de.uhr"] },
+    { "speaker": "narrator", "text": "Die Filme sind auf Deutsch oder auf Englisch.", "zh": "电影是德语或者英语的。", "items": ["de.film", "de.sein", "de.auf_deutsch", "de.oder", "de.englisch"] },
+    { "speaker": "narrator", "text": "Der Eintritt kostet 6 Euro, für Kinder 3 Euro.", "zh": "门票 6 欧元,儿童 3 欧元。", "items": ["de.eintritt", "de.kosten", "de.euro", "de.fuer", "de.kind"] },
+    { "speaker": "narrator", "text": "Sommerfest am See: am 12. Juli, von 14 bis 22 Uhr.", "zh": "湖边夏日节:7 月 12 日,14 点到 22 点。", "items": ["de.sommer", "de.fest", "de.am", "de.see", "de.zwoelf", "de.juli", "de.von", "de.bis", "de.uhr"] },
+    { "speaker": "narrator", "text": "Es gibt Musik, Würste und Spiele für Kinder.", "zh": "有音乐、香肠,还有给孩子们的游戏。", "items": ["de.es_gibt", "de.musik", "de.wurst", "de.und", "de.spiel", "de.fuer", "de.kind"] },
+    { "speaker": "narrator", "text": "Eintritt frei!", "zh": "免费入场!", "items": ["de.eintritt", "de.frei"] },
+    { "speaker": "narrator", "text": "Museumsnacht: Am 26. Juli sind 70 Museen bis 2 Uhr geöffnet.", "zh": "博物馆之夜:7 月 26 日,70 家博物馆开到夜里 2 点。", "items": ["de.museum", "de.nacht", "de.am", "de.juli", "de.sein", "de.bis", "de.uhr", "de.geoeffnet"] },
+    { "speaker": "narrator", "text": "Eintritt für alle Museen: 18 Euro, für Studenten 12 Euro.", "zh": "所有博物馆通票:18 欧元,学生 12 欧元。", "items": ["de.eintritt", "de.fuer", "de.alle", "de.museum", "de.euro", "de.student"] },
+    { "speaker": "narrator", "text": "Musik im Park: am 6. und am 20. Juli um 16 Uhr. Für alle!", "zh": "公园音乐会:7 月 6 日和 20 日下午 4 点。人人都可以来!", "items": ["de.musik", "de.in", "de.park", "de.am", "de.und", "de.juli", "de.um", "de.uhr", "de.fuer", "de.alle"] },
+    { "speaker": "wei", "text": "Lena, gehen wir am 26. zusammen in die Museen?", "zh": "(王伟给莉娜发消息)莉娜,26 号我们一起去博物馆吧?", "items": ["de.gehen", "de.wir", "de.am", "de.zusammen", "de.in", "de.museum"] },
+    { "speaker": "wei", "text": "Und jeden Freitag ins Kino im Park!", "zh": "还有每个星期五去公园看露天电影!", "items": ["de.und", "de.jeder", "de.freitag", "de.in", "de.kino", "de.park"] }
+  ],
+  "questions": [
+    { "prompt": "公园露天电影什么时候放?", "options": ["7 月 12 日下午", "7 月 26 日晚上", "每个星期五晚上九点半"], "answer": 2, "explainZh": "日历上写着:Kino im Park: jeden Freitag um 21:30 Uhr.(公园露天电影:每周五晚上 9:30。)" },
+    { "prompt": "湖边的夏日节要多少钱?", "options": ["6 欧元", "免费", "12 欧元"], "answer": 1, "explainZh": "夏日节下面写着:Eintritt frei!(免费入场!)6 欧元是露天电影的票价。" },
+    { "prompt": "学生去博物馆之夜要花多少钱?", "options": ["12 欧元", "18 欧元", "免费"], "answer": 0, "explainZh": "日历上写着:Eintritt für alle Museen: 18 Euro, für Studenten 12 Euro.——学生 12 欧元。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u15_kalender_lesen", "titleZh": "读活动日历",
+      "bodyZh": "活动日历的句子很短,常常没有动词,要学会抓信息:\n什么时候:jeden Freitag(每个星期五)/ am 12. Juli(7 月 12 日,读 am zwölften Juli)/ von 14 bis 22 Uhr(14 点到 22 点)/ um 21:30 Uhr(读 einundzwanzig Uhr dreißig)——日历和车站一样用 24 小时制。\n多少钱:Eintritt: 6 Euro(门票 6 欧元)/ Eintritt frei!(免费入场!)/ für Studenten 12 Euro(学生 12 欧元)\n适合谁:für Kinder(给孩子的)/ für alle(大家都可以来)——für 后面用第四格。\n复合词看最后一部分:das Sommerfest(夏日节)= der Sommer + das Fest;die Museumsnacht(博物馆之夜)= das Museum + -s- + die Nacht。",
+      "examples": [
+        { "text": "Kino im Park: jeden Freitag um 21:30 Uhr.", "zh": "公园露天电影:每周五晚上 9:30。" },
+        { "text": "Eintritt frei!", "zh": "免费入场!" },
+        { "text": "Für Kinder gibt es Spiele.", "zh": "有给孩子们的游戏。" }
+      ] }
+  ],
+  "review": "draft"
+}

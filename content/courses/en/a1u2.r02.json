@@ -1,0 +1,41 @@
+{
+  "id": "en.a1u2.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-2 Family & friends", "order": 102085,
+  "titleZh": "猜猜他是谁", "goalZh": "读懂描述外貌和性格的短段落,根据线索猜出是谁,也会照着描述自己", "canDoZh": "能根据外貌和性格的描述认出是谁,也能用几句话描述一个人让别人来猜",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+  "newItems": [
+    { "id": "en.guess", "kind": "word", "pos": "verb", "text": "guess", "zh": "猜", "features": { "ipa": "ɡes" }, "noteZh": "u 不发音,读 /ɡes/,和 yes 押韵;Guess who! 猜猜是谁!" }
+  ],
+  "reviewItems": ["en.sophomore", "en.crazy", "en.twins", "en.senior", "en.what_does_he_look_like", "en.whats_he_like"],
+  "lines": [
+    { "speaker": "narrator", "text": "Guess Who!", "zh": "(国际学生社团通讯上的小栏目)猜猜他是谁!", "items": ["en.guess"] },
+    { "speaker": "narrator", "text": "She's from Seattle, and she's a sophomore.", "zh": "(第一段)她是西雅图人,读大二。", "items": ["en.sophomore"] },
+    { "speaker": "narrator", "text": "She has long brown hair, and she's really nice and smart.", "zh": "她是棕色长发,人特别好,又聪明。", "items": ["en.have", "en.long", "en.brown", "en.hair", "en.really", "en.nice", "en.smart"] },
+    { "speaker": "narrator", "text": "Her dog is a little crazy. Who is she?", "zh": "她家的狗有点疯。她是谁?", "items": ["en.dog", "en.a_little", "en.crazy"] },
+    { "speaker": "narrator", "text": "He's tall, and he has short brown hair.", "zh": "(第二段)他个子很高,棕色短发。", "items": ["en.tall", "en.have", "en.short", "en.brown", "en.hair"] },
+    { "speaker": "narrator", "text": "He's really friendly, and he isn't very quiet!", "zh": "他特别友好,而且不太安静!", "items": ["en.really", "en.friendly", "en.quiet"] },
+    { "speaker": "narrator", "text": "He's from California. Who is he?", "zh": "他是加州人。他是谁?", "items": [] },
+    { "speaker": "narrator", "text": "She's from Mexico, and she has long black hair.", "zh": "(第三段)她来自墨西哥,黑色长发。", "items": ["en.have", "en.long", "en.black", "en.hair"] },
+    { "speaker": "narrator", "text": "Her younger sisters are twins. Who is she?", "zh": "她的两个妹妹是双胞胎。她是谁?", "items": ["en.younger", "en.sister", "en.twins"] },
+    { "speaker": "narrator", "text": "He's a senior, and he's Lei's friend.", "zh": "(第四段)他读大四,是磊的朋友。", "items": ["en.senior", "en.friend"] },
+    { "speaker": "narrator", "text": "He has long black hair, and he's really funny. Who is he?", "zh": "他留着黑色长发,特别幽默。他是谁?", "items": ["en.have", "en.long", "en.black", "en.hair", "en.really", "en.funny"] },
+    { "speaker": "narrator", "text": "And you? What do you look like? What are you like?", "zh": "(最后一段)那你呢?你长什么样?你是什么样的人?", "items": ["en.and_you", "en.what_does_he_look_like", "en.whats_he_like"] },
+    { "speaker": "narrator", "text": "Write about you here!", "zh": "把你自己写在这里吧!", "items": ["en.write"] }
+  ],
+  "questions": [
+    { "prompt": "第一段写的是谁?", "options": ["索菲亚", "艾米", "马库斯", "伊森"], "answer": 1, "explainZh": "西雅图人、读大二(sophomore)、家里的狗有点疯——是艾米。" },
+    { "prompt": "第二段写的是谁?", "options": ["伊森", "磊", "马库斯", "迭戈"], "answer": 0, "explainZh": "个子很高、棕色短发、不太安静、来自加州——是伊森。" },
+    { "prompt": "第三段写的是谁?", "options": ["艾米", "马库斯", "索菲亚"], "answer": 2, "explainZh": "来自墨西哥、黑色长发、两个妹妹是双胞胎——是索菲亚。" },
+    { "prompt": "第四段写的是谁?", "options": ["伊森", "迭戈", "磊", "马库斯"], "answer": 3, "explainZh": "读大四(senior)、是磊的朋友、特别幽默——是马库斯。" }
+  ],
+  "grammar": [
+    { "id": "en.g.describe_people", "titleZh": "描述一个人:has + 长相,is + 性格;long black hair 的词序",
+      "bodyZh": "描述别人用第三人称:长相用 has + 名词(She has long brown hair.)或 is + 形容词(He's tall.);性格用 is + 形容词(He's really funny.),程度用 really(非常)、a little(有点儿)、not very(不太)。两个形容词放在 hair 前面,长短在前、颜色在后:long black hair,不说 black long hair。's 表示“谁的”:Lei's friend(磊的朋友)。猜人的时候抓住最特别的线索:从哪儿来、读几年级、家里有谁、养什么宠物。",
+      "examples": [
+        { "text": "She has long brown hair.", "zh": "她是棕色长发。" },
+        { "text": "He isn't very quiet.", "zh": "他不太安静。" },
+        { "text": "He's Lei's friend, and he's a senior.", "zh": "他是磊的朋友,读大四。" }
+      ] }
+  ],
+  "review": "draft"
+}

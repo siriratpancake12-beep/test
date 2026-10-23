@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u10.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110080,
+  "titleZh": "单元复习与应用:WG 开会换网络套餐", "goalZh": "综合运用本单元的词和语法,在 WG 会上讨论网络套餐、说看法、一起做决定", "canDoZh": "能在 WG 里讨论网络和费用,说出价格、网速和自己的看法,一起做决定",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.firma", "kind": "word", "pos": "noun", "text": "die Firma", "zh": "公司", "features": { "gender": "f", "plural": "die Firmen", "ipa": "ˈfɪʁma" }, "noteZh": "复数是 Firmen(不是 Firmas);in einer Firma arbeiten(在公司工作);i 是短音。" },
+    { "id": "de.vorschlag", "kind": "word", "pos": "noun", "text": "der Vorschlag", "zh": "建议;提议", "features": { "gender": "m", "plural": "die Vorschläge", "ipa": "ˈfoːɐ̯ˌʃlaːk" }, "noteZh": "开会时说:Ich habe einen Vorschlag.(我有个建议。);复数变音:Vorschläge;v 读 [f],词尾 g 读 [k]。" }
+  ],
+  "reviewItems": ["de.tarif", "de.pro", "de.kuendigen", "de.vertrag", "de.wlan", "de.mehr"],
+  "lines": [
+    { "speaker": "jonas", "text": "Unser WLAN ist zu langsam. Ich möchte einen neuen Tarif.", "zh": "我们的网太慢了。我想换个新套餐。", "items": ["de.unser", "de.wlan", "de.sein", "de.zu_adv", "de.langsam", "de.ich", "de.moechten", "de.ein", "de.neu", "de.tarif"] },
+    { "speaker": "sofia", "text": "Wie teuer ist der neue Tarif?", "zh": "新套餐多少钱?", "items": ["de.wie", "de.teuer", "de.sein", "de.neu", "de.tarif"] },
+    { "speaker": "jonas", "text": "Zehn Euro mehr pro Monat.", "zh": "每月多 10 欧元。", "items": ["de.zehn", "de.euro", "de.mehr", "de.pro", "de.monat"] },
+    { "speaker": "sofia", "text": "Zehn Euro mehr? Das finde ich zu teuer!", "zh": "多 10 欧元?我觉得太贵了!", "items": ["de.zehn", "de.euro", "de.mehr", "de.finden", "de.ich", "de.zu_adv", "de.teuer"] },
+    { "speaker": "wei", "text": "Ich habe drei Firmen im Internet gefunden. Ich habe einen Vorschlag.", "zh": "我在网上查了三家公司。我有个建议。", "items": ["de.ich", "de.haben", "de.drei", "de.firma", "de.in", "de.internet", "de.finden", "de.ein", "de.vorschlag"] },
+    { "speaker": "jonas", "text": "Super, Wei! Wie teuer sind sie?", "zh": "太好了,王伟!它们多少钱?", "items": ["de.toll", "de.wie", "de.teuer", "de.sein", "de.sie_pl"] },
+    { "speaker": "wei", "text": "Die erste kostet 30 Euro pro Monat. Der Vertrag dauert zwei Jahre.", "zh": "第一家每月 30 欧元。合同要签两年。", "items": ["de.eins", "de.kosten", "de.dreissig", "de.euro", "de.pro", "de.monat", "de.vertrag", "de.dauern", "de.zwei", "de.jahr"] },
+    { "speaker": "sofia", "text": "Zwei Jahre? Das ist lang.", "zh": "两年?太长了。", "items": ["de.zwei", "de.jahr", "de.das_ist", "de.lang"] },
+    { "speaker": "wei", "text": "Die zweite kostet 35 Euro, und wir können jeden Monat kündigen.", "zh": "第二家 35 欧元,而且每个月都能退订。", "items": ["de.zwei", "de.kosten", "de.dreissig", "de.fuenf", "de.euro", "de.und", "de.wir", "de.koennen", "de.jeder", "de.monat", "de.kuendigen"] },
+    { "speaker": "jonas", "text": "Und die dritte?", "zh": "那第三家呢?", "items": ["de.und", "de.drei"] },
+    { "speaker": "wei", "text": "Die dritte kostet 45 Euro. Das ist zu teuer.", "zh": "第三家 45 欧元。太贵了。", "items": ["de.drei", "de.kosten", "de.vierzig", "de.fuenf", "de.euro", "de.das_ist", "de.zu_adv", "de.teuer"] },
+    { "speaker": "jonas", "text": "Dann nehmen wir die zweite. Ist das gut für euch?", "zh": "那我们选第二家。你们觉得行吗?", "items": ["de.dann", "de.nehmen", "de.wir", "de.zwei", "de.sein", "de.gut", "de.fuer", "de.ihr"] },
+    { "speaker": "sofia", "text": "Und wie viel bezahlt dann jeder?", "zh": "那每个人付多少钱?", "items": ["de.und", "de.wie_viel", "de.bezahlen", "de.dann", "de.jeder"] },
+    { "speaker": "wei", "text": "Jeder bezahlt pro Monat 3,33 Euro mehr.", "zh": "每人每月多付 3.33 欧元。", "items": ["de.jeder", "de.bezahlen", "de.pro", "de.monat", "de.drei", "de.dreissig", "de.euro", "de.mehr"] },
+    { "speaker": "sofia", "text": "Das ist nicht viel. Gut, dann nehmen wir die zweite!", "zh": "那不多。好,就选第二家!", "items": ["de.das_ist", "de.nicht", "de.viel", "de.gut", "de.dann", "de.nehmen", "de.wir", "de.zwei"] }
+  ],
+  "questions": [
+    { "prompt": "约纳斯为什么想换套餐?", "options": ["WG 的网太慢", "合同到期了", "路由器坏了"], "answer": 0, "explainZh": "约纳斯说:Unser WLAN ist zu langsam.(我们的网太慢了。)" },
+    { "prompt": "第二家公司的套餐怎么样?", "options": ["每月 30 欧元,合同两年", "每月 45 欧元", "每月 35 欧元,每个月都能退订"], "answer": 2, "explainZh": "王伟说:Die zweite kostet 35 Euro, und wir können jeden Monat kündigen.(第二家 35 欧元,每个月都能退订。)30 欧元、两年合同的是第一家。" },
+    { "prompt": "最后每个人每月多付多少钱?", "options": ["10 欧元", "3.33 欧元", "35 欧元"], "answer": 1, "explainZh": "王伟说:Jeder bezahlt pro Monat 3,33 Euro mehr.(每人每月多付 3.33 欧元。)10 欧元是三个人一共多付的钱。" },
+    { "prompt": "索菲娅一开始觉得每月多 10 欧元怎么样?", "options": ["太贵了", "很便宜", "不知道"], "answer": 0, "explainZh": "索菲娅说:Zehn Euro mehr? Das finde ich zu teuer!(多 10 欧元?我觉得太贵了!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u10_review_fragen", "titleZh": "复习:wie + 形容词、价格和看法",
+      "bodyZh": "第 10 单元的问法和说法:\n① wie + 形容词:Wie teuer ist der Tarif? / Wie lange dauert der Vertrag? / Wie viele Gigabyte …?\n② 价格和 pro:30 Euro pro Monat;3,33 Euro 读作 drei Euro dreiunddreißig;多付用 mehr:zehn Euro mehr pro Monat。\n③ 说看法:Das finde ich zu teuer.(我觉得太贵了。)/ Das ist nicht viel.(不多。)/ Das ist lang.(太长了。)——zu + 形容词 = 太……(第 7 单元)。\n④ 提建议、做决定:Ich habe einen Vorschlag.(我有个建议。)/ Dann nehmen wir die zweite.(那我们就选第二家。)序数词可以单独用:die erste / die zweite / die dritte (Firma)。",
+      "examples": [
+        { "text": "Wie teuer ist der neue Tarif?", "zh": "新套餐多少钱?" },
+        { "text": "Das finde ich zu teuer!", "zh": "我觉得太贵了!" },
+        { "text": "Ich habe einen Vorschlag.", "zh": "我有个建议。" }
+      ] },
+    { "id": "de.g.u10_review_verben", "titleZh": "复习:可分动词、步骤和 Sie 的命令式",
+      "bodyZh": "① 可分动词:陈述句里前缀放句末(Ich lade das Handy auf / Ich mache den Router aus);和情态动词连用时不分开(Du musst die App herunterladen / Wir können jeden Monat kündigen)。\n② 说步骤:zuerst → dann → danach → zum Schluss,放句首时动词还在第二位。\n③ 热线、通知里的 Sie 的命令式:Drücken Sie die Zwei! / Bitte bringen Sie Ihren Ausweis mit!\n④ 网上安全:Das Passwort ist geheim. / Du darfst den Link nicht klicken.",
+      "examples": [
+        { "text": "Wir können jeden Monat kündigen.", "zh": "我们每个月都能退订。" },
+        { "text": "Zuerst lädst du die App herunter.", "zh": "你先下载这个 App。" },
+        { "text": "Drücken Sie die Zwei!", "zh": "请按 2!" }
+      ] }
+  ],
+  "review": "draft"
+}

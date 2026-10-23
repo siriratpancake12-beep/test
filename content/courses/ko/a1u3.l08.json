@@ -1,0 +1,51 @@
+{
+  "id": "ko.a1u3.l08", "schemaVersion": 1, "lang": "ko", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 自我介绍与家人", "order": 103080,
+  "titleZh": "单元复习:我的自我介绍", "goalZh": "读懂并会讲一段 합니다体的自我介绍,复习本单元的名字、国家、家人",
+  "canDoZh": "能在全班面前用 합니다体做一段 1 分钟的自我介绍:名字、国家和家乡、家人、专业",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 20,
+  "newItems": [
+    { "id": "ko.jeongong", "kind": "word", "pos": "noun", "text": "전공", "zh": "专业", "features": { "roman": "jeongong" }, "noteZh": "汉字词 专攻;问专业:전공이 뭐예요?" },
+    { "id": "ko.gyeongyeonghak", "kind": "word", "pos": "noun", "text": "경영학", "zh": "工商管理;经营学", "features": { "roman": "gyeongyeonghak" }, "noteZh": "汉字词 经营学,相当于中国大学的工商管理;경영학과 = 经营学系。后面接元音时连音:경영학입니다 [경영하김니다]。" },
+    { "id": "ko.daehakgyo", "kind": "word", "pos": "noun", "text": "대학교", "zh": "大学", "features": { "roman": "daehakgyo" }, "noteZh": "汉字词 大学校;紧音化读 [대학꾜]。“大学生”说 대학생。" },
+    { "id": "ko.yeoreobun", "kind": "word", "pos": "pron", "text": "여러분", "zh": "大家;各位", "features": { "roman": "yeoreobun" }, "noteZh": "对很多人说话时的开头:여러분, 안녕하세요?;여러분도 = 大家也……。" }
+  ],
+  "reviewItems": ["ko.gohyang", "ko.yuhaksaeng", "ko.jal_butakdeurimnida", "ko.bumonim"],
+  "lines": [
+    { "speaker": "jing", "text": "여러분, 안녕하세요? 저는 천징입니다.", "zh": "(朴老师布置了“自我介绍”发言作业。陈静写好稿子,在课上朗读)大家好!我叫陈静。", "roman": "Yeoreobun, annyeonghaseyo? Jeoneun Cheonjingimnida.", "items": ["ko.yeoreobun", "ko.annyeonghaseyo", "ko.jeo"] },
+    { "speaker": "jing", "text": "중국 사람입니다. 고향은 항저우입니다.", "zh": "我是中国人,老家在杭州。", "roman": "Jungguk saramimnida. Gohyangeun Hangjeouimnida.", "items": ["ko.jungguk", "ko.saram", "ko.gohyang"] },
+    { "speaker": "jing", "text": "우리 가족은 부모님과 저입니다.", "zh": "我家有爸爸妈妈和我。", "roman": "Uri gajogeun bumonimgwa jeoimnida.", "items": ["ko.uri", "ko.gajok", "ko.bumonim", "ko.jeo"] },
+    { "speaker": "jing", "text": "동생은 없습니다. 언니도 오빠도 없습니다.", "zh": "我没有弟弟妹妹,也没有姐姐、哥哥。", "roman": "Dongsaengeun eopseumnida. Eonnido oppado eopseumnida.", "items": ["ko.dongsaeng", "ko.eopseoyo", "ko.eonni", "ko.oppa"] },
+    { "speaker": "jing", "text": "저는 유학생입니다. 대학교 전공은 경영학입니다.", "zh": "我是留学生。我在大学的专业是经营学(明年开始读)。", "roman": "Jeoneun yuhaksaengimnida. Daehakgyo jeongongeun gyeongyeonghagimnida.", "items": ["ko.jeo", "ko.yuhaksaeng", "ko.daehakgyo", "ko.jeongong", "ko.gyeongyeonghak"] },
+    { "speaker": "jing", "text": "한국에 친구가 있습니다.", "zh": "在韩国,我有朋友。", "roman": "Hanguge chinguga itseumnida.", "items": ["ko.hanguk", "ko.chingu", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "수아 씨는 한국 사람입니다. 고향은 부산입니다.", "zh": "秀雅是韩国人,老家在釜山。", "roman": "Sua ssineun hanguk saramimnida. Gohyangeun Busanimnida.", "items": ["ko.ssi", "ko.hanguk", "ko.saram", "ko.gohyang"] },
+    { "speaker": "jing", "text": "남 씨는 베트남 유학생입니다. 고향은 하노이입니다.", "zh": "(陈静看了一眼阿南)阿南是越南留学生,老家在河内。", "roman": "Nam ssineun beteunam yuhaksaengimnida. Gohyangeun Hanoiimnida.", "items": ["ko.ssi", "ko.beteunam", "ko.yuhaksaeng", "ko.gohyang"] },
+    { "speaker": "jing", "text": "민준 씨는 서울 사람입니다.", "zh": "敏俊是首尔人。", "roman": "Minjun ssineun Seoul saramimnida.", "items": ["ko.ssi", "ko.saram"] },
+    { "speaker": "jing", "text": "민준 씨 전공도 경영학입니다.", "zh": "敏俊的专业也是经营学。", "roman": "Minjun ssi jeongongdo gyeongyeonghagimnida.", "items": ["ko.ssi", "ko.jeongong", "ko.gyeongyeonghak"] },
+    { "speaker": "jing", "text": "여러분도 제 친구입니다!", "zh": "大家也都是我的朋友!", "roman": "Yeoreobundo je chinguimnida!", "items": ["ko.yeoreobun", "ko.chingu"] },
+    { "speaker": "jing", "text": "잘 부탁드립니다. 감사합니다.", "zh": "请多关照。谢谢大家。", "roman": "Jal butakdeurimnida. Gamsahamnida.", "items": ["ko.jal_butakdeurimnida", "ko.gamsahamnida"] }
+  ],
+  "questions": [
+    { "prompt": "陈静家里有谁?", "options": ["爸爸、妈妈、哥哥和她", "父母和她", "奶奶、父母和她"], "answer": 1, "explainZh": "第 3、4 句:우리 가족은 부모님과 저입니다(我家是父母和我);동생은 없습니다. 언니도 오빠도 없습니다(没有兄弟姐妹)。" },
+    { "prompt": "陈静在大学的专业是什么?", "options": ["韩语", "视觉设计", "经营学"], "answer": 2, "explainZh": "第 5 句:대학교 전공은 경영학입니다。第 10 句说敏俊的专业也是经营学(전공도 = 专业也是)。" },
+    { "prompt": "秀雅的老家在哪儿?", "options": ["釜山", "首尔", "河内"], "answer": 0, "explainZh": "第 7 句:수아 씨는 한국 사람입니다. 고향은 부산입니다。首尔是敏俊的家乡(第 9 句),河内是阿南的老家(第 8 句)。" },
+    { "prompt": "“저는 천징입니다”和“저는 천징이에요”有什么不同?", "options": ["意思不一样", "입니다 更正式,适合在全班面前发言", "이에요 更正式"], "answer": 1, "explainZh": "意思一样。입니다 是 합니다体,用在发言、面试这类正式场合;이에요/예요 是 해요体,平时说话用。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.imnida", "titleZh": "합니다体:N입니다 / N입니까?",
+      "bodyZh": "在全班面前发言、面试、广播这类正式场合,“是”用 입니다 代替 이에요/예요:저는 천징입니다 = 저는 천징이에요,意思一样,只是更正式。입니다 不看收音,前面是什么名词都一样:천징입니다、저입니다。问句是 입니까?(학생입니까?)。입니다 读 [임니다](鼻音化),前面的收音会连过来:경영학입니다 [경영하김니다]。\n同样,있어요 / 없어요 的 합니다体是 있습니다 [읻씀니다] / 없습니다 [업씀니다],本课认识就行。其实你已经会好几句 합니다体了:감사합니다、반갑습니다、처음 뵙겠습니다、잘 부탁드립니다。\n韩国人在课上做自我介绍,常用这个顺序:여러분, 안녕하세요? → 名字、国家、家乡 → 家人、专业 → 잘 부탁드립니다. 감사합니다. 朗读时在句号处稍停一下。",
+      "examples": [
+        { "text": "저는 천징입니다.", "zh": "我叫陈静。(= 저는 천징이에요,读 [천징임니다])" },
+        { "text": "고향은 항저우입니다.", "zh": "老家在杭州。" },
+        { "text": "한국에 친구가 있습니다.", "zh": "在韩国,我有朋友。(= 있어요,读 [읻씀니다])" }
+      ] },
+    { "id": "ko.g.u3_review", "titleZh": "复习:은/는、와/과、도",
+      "bodyZh": "这篇发言把本单元的助词都用上了。① 은/는 标出每句的话题,换一个人或换一件事就换一个话题:고향은 항저우입니다、수아 씨는 한국 사람입니다。② 와/과 = 和,书面、正式时用:有收音用 과(부모님과 저),没有收音用 와(아버지와 어머니)。③ 도 = 也,直接换掉 은/는 或 이/가:민준 씨 전공도 경영학입니다(专业也是)、여러분도 제 친구입니다(大家也是)。④ 제 = 저의(我的),제 친구 = 我的朋友。介绍几个人时,每句都用“人名 + 씨는”开头,听的人就知道你在说谁。",
+      "examples": [
+        { "text": "우리 가족은 부모님과 저입니다.", "zh": "我家是父母和我。(부모님 有收音 → 과)" },
+        { "text": "민준 씨 전공도 경영학입니다.", "zh": "敏俊的专业也是经营学。(도 = 也)" },
+        { "text": "여러분도 제 친구입니다!", "zh": "大家也都是我的朋友!" }
+      ] }
+  ],
+  "review": "draft"
+}

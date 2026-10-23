@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u10.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110050,
+  "titleZh": "你的邮箱是什么?", "goalZh": "会说、会拼读邮箱地址,听懂 Punkt、Bindestrich、Unterstrich、At-Zeichen", "canDoZh": "能拼读自己的邮箱地址和用户名,听写别人的邮箱",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.e_mail_adresse", "kind": "word", "pos": "noun", "text": "die E-Mail-Adresse", "zh": "电子邮箱地址", "features": { "gender": "f", "plural": "die E-Mail-Adressen", "ipa": "ˈiːmeɪ̯l ʔaˌdʁɛsə" }, "noteZh": "die E-Mail + die Adresse,性看 Adresse:die;Wie ist Ihre E-Mail-Adresse?(您的邮箱地址是什么?)——问地址、名字、电话号码都用 wie。" },
+    { "id": "de.liste", "kind": "word", "pos": "noun", "text": "die Liste", "zh": "名单;清单;列表", "features": { "gender": "f", "plural": "die Listen", "ipa": "ˈlɪstə" }, "noteZh": "eine Liste machen(列个单子);die E-Mail-Liste(邮件列表);阴性,i 是短音。" },
+    { "id": "de.buchstabe", "kind": "word", "pos": "noun", "text": "der Buchstabe", "zh": "字母", "features": { "gender": "m", "plural": "die Buchstaben", "ipa": "ˈbuːxˌʃtaːbə" }, "noteZh": "kleine / große Buchstaben(小写 / 大写字母);和 buchstabieren(拼读,第 7 单元)是一家;-e 结尾却是阳性。" },
+    { "id": "de.bindestrich", "kind": "word", "pos": "noun", "text": "der Bindestrich", "zh": "连字符;短横线(-)", "features": { "gender": "m", "plural": "die Bindestriche", "ipa": "ˈbɪndəˌʃtʁɪç" }, "noteZh": "binden(连起来)+ der Strich(线);邮箱、网址里的 - 读 Bindestrich;ch 读 [ç]。" },
+    { "id": "de.unterstrich", "kind": "word", "pos": "noun", "text": "der Unterstrich", "zh": "下划线(_)", "features": { "gender": "m", "plural": "die Unterstriche", "ipa": "ˈʊntɐˌʃtʁɪç" }, "noteZh": "unter(下面)+ der Strich(线);邮箱里的 _ 读 Unterstrich;重音在前。" },
+    { "id": "de.at_zeichen", "kind": "word", "pos": "noun", "text": "das At-Zeichen", "zh": "@ 符号(读作 ät)", "features": { "gender": "n", "plural": "die At-Zeichen", "ipa": "ˈɛtˌtsaɪ̯çn̩" }, "noteZh": "说邮箱时 @ 读 ät(按英语 at 读),也有人叫它 Klammeraffe(“抓着的猴子”);das Zeichen = 符号。" },
+    { "id": "de.doppelt", "kind": "word", "pos": "adj", "text": "doppelt", "zh": "双的;两个", "features": { "ipa": "ˈdɔpl̩t" }, "noteZh": "拼读时说双写字母:Das S ist doppelt.(两个 S),也常说 Doppel-S;pp 前面的 o 是短音。" },
+    { "id": "de.korrigieren", "kind": "word", "pos": "verb", "text": "korrigieren", "zh": "改正;纠正;批改", "features": { "ipa": "kɔʁiˈɡiːʁən" }, "noteZh": "Ich korrigiere das.(我改一下);老师批改作业也用它;-ieren 动词重音在 gie。" }
+  ],
+  "reviewItems": ["de.buchstabieren", "de.punkt", "de.adresse", "de.klein", "de.kurs"],
+  "lines": [
+    { "speaker": "wagner", "text": "Ich mache eine Liste für den Kurs. Wie ist Ihre E-Mail-Adresse, Herr Wang?", "zh": "我要给班上做一个邮件列表。王先生,您的邮箱地址是什么?", "items": ["de.ich", "de.machen", "de.ein", "de.liste", "de.fuer", "de.kurs", "de.wie", "de.sein", "de.ihr_hoeflich", "de.e_mail_adresse", "de.herr"] },
+    { "speaker": "wei", "text": "Meine Adresse ist wei.wang@example.org.", "zh": "我的地址是 wei.wang@example.org。", "items": ["de.mein", "de.adresse", "de.sein"] },
+    { "speaker": "wagner", "text": "Können Sie das bitte buchstabieren?", "zh": "您能拼一下吗?", "items": ["de.koennen", "de.sie_hoeflich", "de.bitte", "de.buchstabieren"] },
+    { "speaker": "wei", "text": "W-E-I, dann ein Punkt, dann W-A-N-G. Alles kleine Buchstaben.", "zh": "W-E-I,然后一个点,再是 W-A-N-G。全是小写字母。", "items": ["de.dann", "de.ein", "de.punkt", "de.alles", "de.klein", "de.buchstabe"] },
+    { "speaker": "wagner", "text": "Ein Punkt? Kein Bindestrich und kein Unterstrich?", "zh": "是点?不是横线,也不是下划线?", "items": ["de.ein", "de.punkt", "de.kein", "de.bindestrich", "de.und", "de.unterstrich"] },
+    { "speaker": "wei", "text": "Nein, nur ein Punkt. Dann kommt das At-Zeichen und example Punkt org.", "zh": "对,只有一个点。然后是 @,再是 example 点 org。", "items": ["de.nein", "de.nur", "de.ein", "de.punkt", "de.dann", "de.ich_komme_aus", "de.at_zeichen", "de.und"] },
+    { "speaker": "wagner", "text": "Danke! Und Sie, Frau Rossi?", "zh": "谢谢!您呢,罗西女士?", "items": ["de.danke", "de.und", "de.sie_hoeflich", "de.frau"] },
+    { "speaker": "sofia", "text": "sofia_rossi@example.org, mit Unterstrich.", "zh": "sofia_rossi@example.org,中间是下划线。", "items": ["de.mit", "de.unterstrich"] },
+    { "speaker": "wagner", "text": "Rossi mit einem S?", "zh": "Rossi 是一个 S 吗?", "items": ["de.mit", "de.eins"] },
+    { "speaker": "sofia", "text": "Nein, das S ist doppelt: R-O-S-S-I.", "zh": "不是,S 是双写的:R-O-S-S-I。", "items": ["de.nein", "de.sein", "de.doppelt"] },
+    { "speaker": "wagner", "text": "Zwei S, gut. Ich korrigiere das. Danke!", "zh": "两个 S,好的。我改一下。谢谢!", "items": ["de.zwei", "de.gut", "de.ich", "de.korrigieren", "de.danke"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的邮箱地址里,wei 和 wang 中间是什么?", "options": ["点", "下划线", "横线"], "answer": 0, "explainZh": "王伟说:Nein, nur ein Punkt.(只有一个点。)不是横线(Bindestrich),也不是下划线(Unterstrich)。" },
+    { "prompt": "索菲娅的邮箱地址里有什么符号?", "options": ["横线", "两个点", "下划线"], "answer": 2, "explainZh": "索菲娅说:sofia_rossi@example.org, mit Unterstrich.(中间是下划线。)" },
+    { "prompt": "老师一开始写错了什么?", "options": ["把 Sofia 写成了 Sophia", "Rossi 只写了一个 S", "忘了写 At-Zeichen"], "answer": 1, "explainZh": "老师问 Rossi mit einem S?,索菲娅说:Nein, das S ist doppelt: R-O-S-S-I.(S 是双写的。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.email_adresse", "titleZh": "说邮箱地址",
+      "bodyZh": "说邮箱地址时,符号这样读:. = Punkt,- = Bindestrich,_ = Unterstrich,@ = ät(写作 at,这个符号叫 das At-Zeichen)。wei.wang@example.org 读作:wei Punkt wang ät example Punkt org。\n小写字母叫 kleine Buchstaben,大写字母叫 große Buchstaben;邮箱一般全是小写:Alles kleine Buchstaben.。名字不常见时要拼读:W-E-I;双写字母说 Das S ist doppelt.(或者 zwei S)。\n问邮箱:Wie ist Ihre E-Mail-Adresse? / Wie ist deine E-Mail-Adresse?——和问名字、电话号码一样用 wie,不用 was。",
+      "examples": [
+        { "text": "Wie ist Ihre E-Mail-Adresse?", "zh": "您的邮箱地址是什么?" },
+        { "text": "Das S ist doppelt.", "zh": "S 是双写的。" },
+        { "text": "Alles kleine Buchstaben.", "zh": "全是小写字母。" }
+      ] },
+    { "id": "de.g.buchstabieren_review", "titleZh": "拼读复习:容易听错的字母",
+      "bodyZh": "第 7 单元学过德语字母表。拼读邮箱时最容易听错的几个:E [eː](像“诶”)和 I [iː](像“衣”)——中国学生常把 E 和 I 弄反;W 读 [veː],V 读 [faʊ̯],别按英语读;R 读 [ɛʁ];S 读 [ɛs];J 读 [jɔt]。所以 W-E-I 读作 we-e-i,W-A-N-G 读作 we-a-en-ge。\n听写时可以问:Mit Bindestrich oder mit Unterstrich? / Mit einem S oder mit zwei S?",
+      "examples": [
+        { "text": "W-E-I, dann ein Punkt, dann W-A-N-G.", "zh": "W-E-I,然后一个点,再是 W-A-N-G。" },
+        { "text": "Rossi mit einem S?", "zh": "Rossi 是一个 S 吗?" }
+      ] }
+  ],
+  "review": "draft"
+}

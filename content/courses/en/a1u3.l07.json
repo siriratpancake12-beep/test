@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u3.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 Daily life", "order": 103070,
+  "titleZh": "约个时间见顾问", "goalZh": "会打电话约时间:说自己什么时候有空、什么时候不行,并复述确认日期和钟点", "canDoZh": "能打电话和办公室约时间:说自己什么时候有空、什么时候不行,最后确认日期和钟点",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.appointment", "kind": "word", "pos": "noun", "text": "appointment", "zh": "预约;约好的见面", "features": { "ipa": "əˈpɔɪntmənt" }, "noteZh": "和医生、老师、办公室约时间叫 appointment;朋友之间约见面不用这个词。重音在第二个音节 ap-POINT-ment。" },
+    { "id": "en.bring", "kind": "word", "pos": "verb", "text": "bring", "zh": "带来;拿来", "features": { "ipa": "brɪŋ" }, "noteZh": "把东西带到说话人这边来用 bring:Please bring your passport.;词尾 ng 读 /ŋ/,不要再加一个 g 的音。" },
+    { "id": "en.passport", "kind": "word", "pos": "noun", "text": "passport", "zh": "护照", "features": { "ipa": "ˈpæspɔːrt" }, "noteZh": "重音在前 PASS-port;留学生办手续几乎都要带护照。" },
+    { "id": "en.letter", "kind": "word", "pos": "noun", "text": "letter", "zh": "信;字母", "features": { "ipa": "ˈlet̬ɚ" }, "noteZh": "美式 tt 读成轻快的 d,像 \"LED-der\";letter 也是“字母”:the letter E。" },
+    { "id": "en.question", "kind": "word", "pos": "noun", "text": "question", "zh": "问题", "features": { "ipa": "ˈkwestʃən" }, "noteZh": "qu 读 /kw/,-tion 在 s 后面读 /tʃən/;有问题说 I have a question.,提问是 ask a question。" },
+    { "id": "en.what_time_is_good_for_you", "kind": "phrase", "pos": "phrase", "text": "What time is good for you", "zh": "你什么时候方便?", "features": { "ipa": "ˌwʌt ˈtaɪm ɪz ˈɡʊd fɚ juː" }, "noteZh": "约时间时把选择权交给对方,很礼貌;回答 Friday afternoon is good for me.。for 在句中弱读成 /fɚ/。" }
+  ],
+  "reviewItems": ["en.free", "en.class", "en.wednesday", "en.thursday", "en.friday", "en.manager"],
+  "lines": [
+    { "speaker": "advisor", "text": "Hello, International Student Office.", "zh": "(留学生在校内打工要先到国际学生办公室登记。磊打电话去预约)你好,这里是国际学生办公室。", "items": ["en.hello", "en.international_student", "en.office"] },
+    { "speaker": "lei", "text": "Hi, this is Lei Zhang. I have a job at the cafe.", "zh": "您好,我是张磊。我在咖啡馆找到了一份工作。", "items": ["en.hi", "en.this_is", "en.have", "en.job", "en.cafe"] },
+    { "speaker": "advisor", "text": "Great! Are you free this week? On Wednesday at ten?", "zh": "太好了!你这周有空吗?周三上午十点?", "items": ["en.great", "en.free", "en.week", "en.wednesday"] },
+    { "speaker": "lei", "text": "Sorry, I have class on Wednesday mornings.", "zh": "不好意思,我周三上午有课。", "items": ["en.sorry", "en.have", "en.class", "en.wednesday", "en.morning"] },
+    { "speaker": "advisor", "text": "OK. Is Thursday at three OK?", "zh": "好的。周四下午三点可以吗?", "items": ["en.thursday"] },
+    { "speaker": "lei", "text": "Sorry, I work on Tuesdays and Thursdays, from two to six.", "zh": "不好意思,我每周二、周四两点到六点上班。", "items": ["en.sorry", "en.work", "en.tuesday", "en.thursday"] },
+    { "speaker": "advisor", "text": "What time is good for you?", "zh": "那你什么时候方便?", "items": ["en.what_time_is_good_for_you"] },
+    { "speaker": "lei", "text": "Is Friday afternoon OK?", "zh": "周五下午可以吗?", "items": ["en.friday", "en.afternoon"] },
+    { "speaker": "advisor", "text": "Sure. Your appointment is Friday at a quarter past two.", "zh": "可以。你的预约是周五两点一刻。", "items": ["en.sure", "en.appointment", "en.friday", "en.quarter", "en.past"] },
+    { "speaker": "lei", "text": "Friday at two fifteen? Great. And one question: what do I bring?", "zh": "周五两点十五?好的。还有一个问题:我要带什么?", "items": ["en.friday", "en.great", "en.question", "en.bring"] },
+    { "speaker": "advisor", "text": "Your passport and a letter from your manager.", "zh": "你的护照,还有你们经理写的一封信。", "items": ["en.passport", "en.letter", "en.manager"] },
+    { "speaker": "lei", "text": "Got it. Thank you! Bye!", "zh": "明白了。谢谢您!再见!", "items": ["en.got_it", "en.thank_you", "en.bye"] }
+  ],
+  "questions": [
+    { "prompt": "顾问第一次提的时间,磊为什么不行?", "options": ["那时他要上班", "那时他有课", "那时他在睡觉"], "answer": 1, "explainZh": "顾问问 On Wednesday at ten?,磊说 Sorry, I have class on Wednesday mornings.(我周三上午有课。)周四下午才是他上班的时间。" },
+    { "prompt": "磊的预约是什么时候?", "options": ["周三上午十点", "周四下午三点", "周五下午两点一刻"], "answer": 2, "explainZh": "顾问说 Your appointment is Friday at a quarter past two.,磊复述 Friday at two fifteen?——a quarter past two 就是 2:15。" },
+    { "prompt": "磊要带什么去?", "options": ["护照和经理写的信", "护照和照片", "电话号码和邮箱地址"], "answer": 0, "explainZh": "顾问说 Your passport and a letter from your manager.(你的护照,还有经理写的一封信。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.make_appointment", "titleZh": "约时间:Are you free on…? / Is … OK? / What time is good for you?",
+      "bodyZh": "约时间的几个常用问法:Are you free on Wednesday at ten?(你周三十点有空吗?)、Is Thursday at three OK?(周四三点可以吗?)、What time is good for you?(你什么时候方便?)。不行的时候先说 Sorry,再说原因:Sorry, I have class on Wednesday mornings. / I work on Thursdays.;可以的时候说 Sure. / Great.。最后把日期和钟点复述一遍:Friday at two fifteen?——打电话时这一步特别重要。复习时间介词:on + 星期(on Friday)、at + 钟点(at two fifteen)、from … to …(from two to six)。",
+      "examples": [
+        { "text": "Are you free on Friday afternoon?", "zh": "你周五下午有空吗?" },
+        { "text": "Is Thursday at three OK? — Sorry, I work on Thursdays.", "zh": "周四三点可以吗?——不好意思,我周四上班。" },
+        { "text": "What time is good for you? — Friday at two is good for me.", "zh": "你什么时候方便?——周五两点我可以。" }
+      ] },
+    { "id": "en.g.weak_for_to", "titleZh": "for、to、from 在句子里要弱读",
+      "bodyZh": "英语句子里的介词一般读得又轻又快,叫弱读:for 读 /fɚ/,to 读 /tə/,from 读 /frəm/。from two to six 听起来像 \"frəm TWO tə SIX\",重音落在数字上;What time is good for you? 里的 for 也很轻。中国学生常把每个词都读得一样重,听起来很生硬。反过来,听的时候也别指望每个 to、for 都听清,抓住重读的数字和星期就够了。",
+      "examples": [
+        { "text": "I work from two to six.", "zh": "我两点到六点上班。" },
+        { "text": "Is this time good for you?", "zh": "这个时间你方便吗?" },
+        { "text": "The library is open from ten to six.", "zh": "图书馆十点到六点开放。" }
+      ] }
+  ],
+  "review": "draft"
+}

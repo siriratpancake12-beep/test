@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u18.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-18 意外与求助", "order": 118030,
+  "titleZh": "你的钥匙呢?——第四格物主冠词", "goalZh": "掌握物主冠词的第四格(meinen / deinen / Ihren …),会问别人有没有看见自己的东西", "canDoZh": "能说对“我的 / 你的 / 您的……”的第四格形式,问别人有没有看见自己的东西",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "de.kopfhoerer", "kind": "word", "pos": "noun", "text": "der Kopfhörer", "zh": "耳机", "features": { "gender": "m", "plural": "die Kopfhörer", "ipa": "ˈkɔpfˌhøːʁɐ" }, "noteZh": "der Kopf(头)+ hören(听)+ -er;复数不变,一副耳机常说复数:Wo sind meine Kopfhörer?。pf 两个音都要发,ö 是撮圆嘴唇的 e。" },
+    { "id": "de.rucksack", "kind": "word", "pos": "noun", "text": "der Rucksack", "zh": "双肩背包", "features": { "gender": "m", "plural": "die Rucksäcke", "ipa": "ˈʁʊkˌzak" }, "noteZh": "der Rücken(背)+ der Sack(袋子);复数变音:die Rucksäcke。英语的 rucksack 就是从德语借的。s 在元音前读 [z]。" },
+    { "id": "de.liegen", "kind": "word", "pos": "verb", "text": "liegen", "zh": "躺;(平放着)在某处", "features": { "ipa": "ˈliːɡn̩" }, "noteZh": "说东西放在哪儿:Dein Schlüssel liegt im Kühlschrank!;人躺着也用它:Ich liege im Bett.。ie 读长音 [iː],和 ei [aɪ̯] 别混:liegen ≠ leihen。" },
+    { "id": "de.klingeln", "kind": "word", "pos": "verb", "text": "klingeln", "zh": "(铃、电话)响;按门铃", "features": { "ipa": "ˈklɪŋl̩n" }, "noteZh": "Das Handy klingelt.(手机响了。)按门铃也用它。-eln 结尾的动词 ich 形式常去掉 e:ich klingle;ng 读 [ŋ],g 不单独发音。" },
+    { "id": "de.vergessen", "kind": "word", "pos": "verb", "text": "vergessen", "zh": "忘记;忘带", "features": { "ipa": "fɛɐ̯ˈɡɛsn̩" }, "noteZh": "不规则:du vergisst, er vergisst;完成时 Ich habe … vergessen(ver- 开头不加 ge-)。后面直接跟第四格:Ich vergesse meinen Schlüssel.。" },
+    { "id": "de.dabei", "kind": "word", "pos": "adv", "text": "dabei", "zh": "带在身上(dabeihaben)", "features": { "ipa": "daˈbaɪ̯" }, "noteZh": "etwas dabeihaben = 身上带着某物:Hast du deinen Schlüssel dabei?(你带钥匙了吗?)dabei 放句末;重音在 bei 上,ei 读 [aɪ̯]。" },
+    { "id": "de.komisch", "kind": "word", "pos": "adj", "text": "komisch", "zh": "好笑;奇怪", "features": { "ipa": "ˈkoːmɪʃ" }, "noteZh": "两个意思:好笑(Das ist nicht komisch!这不好笑!)和奇怪(Das ist komisch, wo ist mein Handy?)。o 读长音,sch 读 [ʃ]。" },
+    { "id": "de.durcheinander", "kind": "word", "pos": "adj", "text": "durcheinander", "zh": "心里乱;(东西)乱七八糟", "features": { "ipa": "dʊʁçʔaɪ̯ˈnandɐ" }, "noteZh": "Du bist heute ganz durcheinander.(你今天心不在焉的。)也说房间乱:Mein Zimmer ist durcheinander.;重音在 nan 上,前面的 durch 里 ch 读 [ç]。" }
+  ],
+  "reviewItems": ["de.ueberall", "de.suchen", "de.schluessel", "de.handy", "de.kuehlschrank", "de.lachen"],
+  "lines": [
+    { "speaker": "wei", "text": "Jonas, hast du meine Kopfhörer gesehen? Ich suche sie überall!", "zh": "(那天晚上)约纳斯,你看见我的耳机了吗?我到处都找了!", "items": ["de.haben", "de.du", "de.mein", "de.kopfhoerer", "de.sehen", "de.ich", "de.suchen", "de.sie_pl", "de.ueberall"] },
+    { "speaker": "jonas", "text": "Deine Kopfhörer? Sie sind an deinem Hals, Wei!", "zh": "你的耳机?不就挂在你脖子上吗,王伟!", "items": ["de.dein", "de.kopfhoerer", "de.sie_pl", "de.sein", "de.an", "de.hals"] },
+    { "speaker": "wei", "text": "Ach so! Danke. Und wo ist mein Handy?", "zh": "哦,原来在这儿!谢谢。那我的手机呢?", "items": ["de.ach_so", "de.danke", "de.und", "de.wo", "de.sein", "de.mein", "de.handy"] },
+    { "speaker": "jonas", "text": "Ich rufe dein Handy an. Hörst du es?", "zh": "我给你的手机打个电话。你听见了吗?", "items": ["de.ich", "de.anrufen", "de.dein", "de.handy", "de.hoeren", "de.du", "de.es"] },
+    { "speaker": "wei", "text": "Ja, es klingelt! Es ist in meinem Rucksack.", "zh": "听见了,响了!在我的背包里。", "items": ["de.ja", "de.es", "de.klingeln", "de.sein", "de.in", "de.mein", "de.rucksack"] },
+    { "speaker": "jonas", "text": "Du bist heute ganz durcheinander. Hast du deinen Schlüssel dabei?", "zh": "你今天真是心不在焉。钥匙带在身上吗?", "items": ["de.du", "de.sein", "de.heute", "de.ganz", "de.durcheinander", "de.haben", "de.dein", "de.schluessel", "de.dabei"] },
+    { "speaker": "wei", "text": "Meinen Schlüssel? Nein! Ich vergesse heute wirklich alles.", "zh": "我的钥匙?不在身上!我今天真是什么都忘。", "items": ["de.mein", "de.schluessel", "de.nein", "de.ich", "de.vergessen", "de.heute", "de.wirklich", "de.alles"] },
+    { "speaker": "jonas", "text": "Du hast heute Abend Tee mit Milch gemacht, oder?", "zh": "你今天晚上泡了奶茶,对吧?", "items": ["de.du", "de.haben", "de.heute", "de.abend", "de.tee", "de.mit", "de.milch", "de.machen", "de.oder"] },
+    { "speaker": "jonas", "text": "Hier liegt dein Schlüssel – im Kühlschrank! Schön kalt im Sommer!", "zh": "(约纳斯打开冰箱)你的钥匙在这儿——在冰箱里!夏天正好凉快!", "items": ["de.hier", "de.liegen", "de.dein", "de.schluessel", "de.in", "de.kuehlschrank", "de.schoen", "de.kalt", "de.sommer"] },
+    { "speaker": "wei", "text": "Im Kühlschrank? Jonas, warum lachst du? Das ist nicht komisch!", "zh": "在冰箱里?约纳斯,你笑什么?这一点也不好笑!", "items": ["de.in", "de.kuehlschrank", "de.warum", "de.lachen", "de.du", "de.sein", "de.nicht", "de.komisch"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的耳机在哪儿?", "options": ["在他的背包里", "在厨房里", "挂在他的脖子上"], "answer": 2, "explainZh": "约纳斯说:Deine Kopfhörer? Sie sind an deinem Hals!(你的耳机?在你脖子上!)背包里的是手机。" },
+    { "prompt": "约纳斯是怎么帮王伟找到手机的?", "options": ["给王伟的手机打了个电话", "在冰箱里找到的", "问了索菲娅"], "answer": 0, "explainZh": "Ich rufe dein Handy an. Hörst du es?(我给你的手机打个电话,你听见了吗?)手机一响,王伟就发现它在背包里。" },
+    { "prompt": "钥匙最后在哪儿找到的?", "options": ["在背包里", "在冰箱里", "在浴室里"], "answer": 1, "explainZh": "约纳斯说:Hier liegt dein Schlüssel – im Kühlschrank!(你的钥匙在这儿——在冰箱里!)王伟晚上泡奶茶时把钥匙和牛奶一起放进去了。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u18_possessiv_akk", "titleZh": "第四格物主冠词:meinen / deinen / Ihren …",
+      "bodyZh": "物主冠词(mein、dein、sein、ihr、unser、Ihr……)的词尾和 ein / kein 完全一样。做 haben、sehen、finden、suchen、brauchen、vergessen 的宾语(第四格)时,只有阳性单数要变,加 -en:\n阳性 der Schlüssel:Das ist mein Schlüssel. → Hast du meinen Schlüssel gesehen?\n阴性 die Jacke:Das ist meine Jacke. → Ich suche meine Jacke.(不变)\n中性 das Handy:Das ist mein Handy. → Ich rufe dein Handy an.(不变)\n复数 die Kopfhörer:Das sind meine Kopfhörer. → Hast du meine Kopfhörer gesehen?(不变)\n阳性第四格全表:meinen(我的)、deinen(你的)、seinen(他的)、ihren(她的;他们的)、unseren(我们的)、Ihren(您的)。\n中国学生常错:① 不看名词的性,见宾语就加 -en(✗ meinen Jacke)。② 第一格、第四格混:Mein Schlüssel ist weg.(主语,第一格)/ Ich finde meinen Schlüssel nicht.(宾语,第四格)。所以名词一定要连冠词一起记,才知道该不该加 -en。",
+      "examples": [
+        { "text": "Hast du meinen Schlüssel gesehen?", "zh": "你看见我的钥匙了吗?" },
+        { "text": "Ich suche meine Kopfhörer.", "zh": "我在找我的耳机。" },
+        { "text": "Ich rufe dein Handy an.", "zh": "我给你的手机打电话。" },
+        { "text": "Hast du deinen Schlüssel dabei?", "zh": "你带钥匙了吗?" }
+      ] },
+    { "id": "de.g.u18_pronomen_ding", "titleZh": "代词指东西:er / ihn,sie,es",
+      "bodyZh": "前面说过的东西,再提的时候用代词,按名词的性来选:der Schlüssel → er(第一格)/ ihn(第四格);die Jacke → sie;das Handy → es;复数 die Kopfhörer → sie。只有阳性的第一格和第四格不一样(er / ihn),和物主冠词“只有阳性加 -en”是同一个规律。\nMein Schlüssel ist weg. Ich finde ihn nicht.(钥匙不见了,我找不着。)\nDein Handy klingelt. Hörst du es?(你的手机响了,听见了吗?)\n中文常把“它”省掉(“我找不着”),德语的宾语不能省:不能只说 Ich finde nicht.。还要注意,指东西的 sie、es 不翻成“她”,翻成“它”或者干脆不翻。",
+      "examples": [
+        { "text": "Mein Schlüssel ist weg. Ich finde ihn nicht.", "zh": "我的钥匙不见了,我找不着。" },
+        { "text": "Dein Handy klingelt. Hörst du es?", "zh": "你的手机响了,听见了吗?" },
+        { "text": "Deine Kopfhörer? Sie sind an deinem Hals!", "zh": "你的耳机?在你脖子上呢!" }
+      ] }
+  ],
+  "review": "draft"
+}

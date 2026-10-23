@@ -1,0 +1,261 @@
+{
+  "lang": "en",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-5 Around town", "cefr": "A1", "themeZh": "走进西雅图:打听附近的地方、问路和指路、坐公交和轻轨、买票,在路上打电话约见面" },
+    { "unit": "A1-6 Shopping", "cefr": "A1", "themeZh": "入秋买衣服:说要找什么、颜色、尺码和价格,试穿、看折扣、退换货,给妈妈挑生日礼物" },
+    { "unit": "A1-7 Free time & plans", "cefr": "A1", "themeZh": "课余生活:聊爱好、说会做什么、邀请和拒绝、说周末计划、约时间地点,准备第一次万圣节派对" },
+    { "unit": "A1-8 Last weekend", "cefr": "A1", "themeZh": "讲过去的事:周末过得怎么样、做了什么、去了哪儿,生病看医生,感恩节和第一学期的回顾" }
+  ],
+  "lessons": [
+    {
+      "id": "en.a1u5.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-5 Around town", "order": 105045,
+      "titleZh": "新生乘车指南", "goalZh": "读懂一页公交和轻轨乘车须知,按步骤说出怎么上车、付钱、下车",
+      "canDoZh": "能读懂公交和轻轨的乘车须知:在哪儿上车、怎么付钱、怎么下车",
+      "scenarioZh": "体裁:指南(国际学生办公室发给新生的一页纸)。说话人 narrator。分几步写:找到公交站和线路号、从前门上车、刷卡或付现金、下车前按铃、从后门下车、跟司机说 Thank you;坐轻轨要先在车站的售票机买票。只用第 1–4 课的词,至少 8 句。",
+      "grammarFocusZh": "祈使句(Get on at the front. Pay with your card.)和 take the bus、get on / off 复习;读指南时注意编号和 then 这类表示先后的词。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 16.5,
+      "newItems": [
+        { "id": "en.front", "kind": "word", "pos": "noun", "text": "front", "zh": "前面;前部", "features": { "ipa": "frʌnt" } },
+        { "id": "en.back", "kind": "word", "pos": "adv", "text": "back", "zh": "后面;回(原处)", "features": { "ipa": "bæk" } },
+        { "id": "en.push", "kind": "word", "pos": "verb", "text": "push", "zh": "按;推", "features": { "ipa": "pʊʃ" } },
+        { "id": "en.button", "kind": "word", "pos": "noun", "text": "button", "zh": "按钮;按键", "features": { "ipa": "ˈbʌtn̩" } }
+      ],
+      "reviewItems": ["en.bus_stop", "en.get_on", "en.get_off", "en.pay", "en.ticket"]
+    },
+    {
+      "id": "en.a1u5.l06", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-5 Around town", "order": 105060,
+      "titleZh": "在银行开户", "goalZh": "会在银行说明来意、出示证件,听懂填表和签名的说法",
+      "canDoZh": "能在银行开一个账户:说明来意、出示证件、填好表格并签名",
+      "scenarioZh": "磊找到了第 1 课打听的那家银行。银行职员(staff)招呼他 Hi! Next, please.,磊说想开一个账户;职员要看护照和学生证,递给他一张表:姓名、地址、电话、邮箱。磊不懂 Sign here 和 signature,用 What does that mean? 问清楚。最后职员告诉他银行卡一周后寄到宿舍。",
+      "grammarFocusZh": "说明来意(I want a bank account.,want + 名词复习)和出示证件(Here's my passport.);填表的说法 fill out this form / sign here / signature;复习地址和电话号码的读法。发音:sign /saɪn/ 的 g 不发音,signature /ˈsɪɡnətʃɚ/ 里的 g 要发音。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "en.account", "kind": "word", "pos": "noun", "text": "account", "zh": "账户;账号", "features": { "ipa": "əˈkaʊnt" } },
+        { "id": "en.form", "kind": "word", "pos": "noun", "text": "form", "zh": "表格", "features": { "ipa": "fɔːrm" } },
+        { "id": "en.fill_out", "kind": "phrase", "pos": "verb", "text": "fill out", "zh": "填写(表格)", "alt": ["fill in"], "features": { "ipa": "ˌfɪl ˈaʊt" } },
+        { "id": "en.sign", "kind": "word", "pos": "verb", "text": "sign", "zh": "签名;签字", "features": { "ipa": "saɪn" } },
+        { "id": "en.signature", "kind": "word", "pos": "noun", "text": "signature", "zh": "签名(名词)", "features": { "ipa": "ˈsɪɡnətʃɚ" } },
+        { "id": "en.id", "kind": "word", "pos": "noun", "text": "ID", "zh": "证件;身份证明", "alt": ["I.D."], "features": { "ipa": "ˌaɪ ˈdiː" } },
+        { "id": "en.mail", "kind": "word", "pos": "noun", "text": "mail", "zh": "邮件;邮寄", "features": { "ipa": "meɪl" } }
+      ],
+      "reviewItems": ["en.bank", "en.want", "en.phone_number", "en.what_does_that_mean", "en.thats_right"]
+    },
+    {
+      "id": "en.a1u5.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-5 Around town", "order": 105070,
+      "titleZh": "坐过站了", "goalZh": "会听车上的报站,坐过站时向司机求助、问清怎么坐回去",
+      "canDoZh": "能听懂车上的报站;坐过站时会向司机求助,问清楚怎么坐回去",
+      "scenarioZh": "周日磊一个人坐公交去湖边的一个公园。他戴着耳机听音乐,没听清报站(The next stop is…),坐过了两站。他走到前面问司机(driver):Excuse me, I missed my stop.;司机让他下一站下车,到马路对面坐反方向的车,还提醒他听报站或看车上的屏幕。回程磊摘下耳机认真听,按时下了车。",
+      "grammarFocusZh": "报站的固定说法 The next stop is… / This is…;求助:I missed my stop. / How do I go back? / on the other side of the street;复习 get off、across from。发音:next stop、last stop 里第一个 t 常被吞掉,听的时候不要等那个 t。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.the_next_stop_is", "kind": "phrase", "pos": "phrase", "text": "The next stop is", "zh": "下一站是……(报站)", "features": { "ipa": "ðə ˌnekst ˈstɑːp ɪz" } },
+        { "id": "en.i_missed_my_stop", "kind": "phrase", "pos": "phrase", "text": "I missed my stop", "zh": "我坐过站了", "features": { "ipa": "aɪ ˌmɪst maɪ ˈstɑːp" } },
+        { "id": "en.other", "kind": "word", "pos": "adj", "text": "other", "zh": "另外的;其他的", "features": { "ipa": "ˈʌðɚ" } },
+        { "id": "en.side", "kind": "word", "pos": "noun", "text": "side", "zh": "边;侧", "features": { "ipa": "saɪd" } },
+        { "id": "en.park", "kind": "word", "pos": "noun", "text": "park", "zh": "公园", "features": { "ipa": "pɑːrk" } },
+        { "id": "en.before", "kind": "word", "pos": "prep", "text": "before", "zh": "在……之前", "features": { "ipa": "bɪˈfɔːr" } },
+        { "id": "en.headphones", "kind": "word", "pos": "noun", "text": "headphones", "zh": "耳机", "features": { "ipa": "ˈhedfoʊnz" } },
+        { "id": "en.take_off", "kind": "phrase", "pos": "verb", "text": "take off", "zh": "摘下;脱下", "features": { "ipa": "ˌteɪk ˈɑːf" } }
+      ],
+      "reviewItems": ["en.get_off", "en.across_from", "en.back", "en.push", "en.button"]
+    },
+    {
+      "id": "en.a1u5.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-5 Around town", "order": 105085,
+      "titleZh": "磊的博客:市中心三个好去处", "goalZh": "读懂一篇推荐市中心好去处的博客,说出每个地方怎么去、在什么旁边、要多久",
+      "canDoZh": "能读懂一篇推荐地点的小博客,说出去哪儿、怎么去、在那儿能做什么",
+      "scenarioZh": "体裁:博客。说话人 lei(第一人称)。磊给国内想来留学的同学写的第一篇英文博客:推荐市中心的三个地方(博物馆、海边、一家旧书店,不写真实店名),每个地方都写坐哪路车、在哪站下、下车后怎么走、在什么旁边、要多久;结尾说迷路也没关系,问路人就好。至少 10 句。",
+      "grammarFocusZh": "复习 there is / are、方位介词和 How long does it take?;用 Take the bus… Then… 写路线;读的时候试着画出每个地方的路线。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 17.5,
+      "newItems": [
+        { "id": "en.place", "kind": "word", "pos": "noun", "text": "place", "zh": "地方", "features": { "ipa": "pleɪs" } },
+        { "id": "en.old", "kind": "word", "pos": "adj", "text": "old", "zh": "旧的;老的", "features": { "ipa": "oʊld" } },
+        { "id": "en.book", "kind": "word", "pos": "noun", "text": "book", "zh": "书", "features": { "ipa": "bʊk" } },
+        { "id": "en.bookstore", "kind": "word", "pos": "noun", "text": "bookstore", "zh": "书店", "features": { "ipa": "ˈbʊkstɔːr" } }
+      ],
+      "reviewItems": ["en.museum", "en.get_off", "en.across_from", "en.map", "en.no_problem"]
+    },
+    {
+      "id": "en.a1u6.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-6 Shopping", "order": 106045,
+      "titleZh": "秋季促销广告", "goalZh": "看懂商场打折广告里的折扣、原价和现价,算出打折后多少钱",
+      "canDoZh": "能看懂商场的打折广告:哪些东西打几折、原价和现价、活动到哪天",
+      "scenarioZh": "体裁:广告传单。说话人 narrator。商场里的秋季促销单:外套 30% off,毛衣原价 $49.99、现价 $29.99,牛仔裤第二条半价,运动鞋不打折;最下面一行小字写着活动到这个周日结束,办会员卡再减 10%。至少 8 行。",
+      "grammarFocusZh": "复习 percent off、on sale 和价格读法;注意广告里的大字和小字(小字常写着限制条件)。理解题考'打完折多少钱'。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
+      "newItems": [
+        { "id": "en.sale", "kind": "word", "pos": "noun", "text": "sale", "zh": "促销;大减价", "features": { "ipa": "seɪl" } }
+      ],
+      "reviewItems": ["en.on_sale", "en.percent_off", "en.try_on", "en.fitting_room", "en.jeans"]
+    },
+    {
+      "id": "en.a1u6.l06", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-6 Shopping", "order": 106060,
+      "titleZh": "网上买鞋", "goalZh": "会和朋友一起网购:选颜色和尺码、问运费和到货时间、加入购物车、结账",
+      "canDoZh": "能和朋友一起在网上买东西:选颜色和尺码、看运费和到货时间、下单付款",
+      "scenarioZh": "第 4 课那双运动鞋太贵,磊没买。回到宿舍,伊森说网上便宜:同一双打七折,免运费,三天到货。两人一起看网页:选颜色、看尺码表(美国鞋码和中国的不一样),加入购物车,用新办的银行卡付款;伊森提醒他先看退货规定。",
+      "grammarFocusZh": "网购常用词 add to cart、free shipping、out of stock、checkout;in + 时间表示'多久以后'(It comes in three days.);复习 size、color、How much…?。发音:/ʃ/(shipping、shoes、shirt)和 /s/(sale、size)——四川口音容易把 sh 读成 s,发 /ʃ/ 时舌尖往后收、嘴唇向前突。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+      "newItems": [
+        { "id": "en.online", "kind": "word", "pos": "adv", "text": "online", "zh": "在网上;网上的", "features": { "ipa": "ˌɑːnˈlaɪn" } },
+        { "id": "en.same", "kind": "word", "pos": "adj", "text": "same", "zh": "同样的;同一个", "features": { "ipa": "seɪm" } },
+        { "id": "en.shipping", "kind": "word", "pos": "noun", "text": "shipping", "zh": "运费;运送", "features": { "ipa": "ˈʃɪpɪŋ" } },
+        { "id": "en.out_of_stock", "kind": "phrase", "pos": "adj", "text": "out of stock", "zh": "缺货;卖完了", "features": { "ipa": "ˌaʊt̬ əv ˈstɑːk" } },
+        { "id": "en.add_to_cart", "kind": "phrase", "pos": "phrase", "text": "add to cart", "zh": "加入购物车", "features": { "ipa": "ˌæd tə ˈkɑːrt" } },
+        { "id": "en.checkout", "kind": "word", "pos": "noun", "text": "checkout", "zh": "结账;结算", "features": { "ipa": "ˈtʃekaʊt" } }
+      ],
+      "reviewItems": ["en.shoes", "en.percent_off", "en.good_deal", "en.size", "en.return"]
+    },
+    {
+      "id": "en.a1u6.l07", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-6 Shopping", "order": 106070,
+      "titleZh": "买日用品", "goalZh": "会用 a pair of、a bottle of、a box of 这类量词买日用品",
+      "canDoZh": "能在药妆店买日用品,说清楚要几瓶、几盒、几双",
+      "scenarioZh": "天冷了,磊和索菲亚去学校附近的药妆店(第 5 单元学过 pharmacy)买东西:两双厚袜子、一瓶洗发水、一管牙膏、一盒纸巾、一包电池。索菲亚找不到牙膏,去问店员(clerk);结账时收银员(cashier)问 Do you need a bag?,磊说不用,自己带了袋子。",
+      "grammarFocusZh": "量词:a pair of socks、a bottle of shampoo、a box of tissues、a pack of batteries、a tube of toothpaste;不可数名词要靠量词来数(two bottles of water)。发音:of 在中间弱读成 /əv/,快读时像 'a bottle-uh';bottle 的 tt 是闪音,结尾的 l 自成一个音节。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 26.5,
+      "newItems": [
+        { "id": "en.pair", "kind": "word", "pos": "noun", "text": "pair", "zh": "双;对;副", "features": { "ipa": "per" } },
+        { "id": "en.socks", "kind": "word", "pos": "noun", "text": "socks", "zh": "袜子", "features": { "ipa": "sɑːks" } },
+        { "id": "en.bottle", "kind": "word", "pos": "noun", "text": "bottle", "zh": "瓶;瓶子", "features": { "ipa": "ˈbɑːt̬l̩" } },
+        { "id": "en.shampoo", "kind": "word", "pos": "noun", "text": "shampoo", "zh": "洗发水", "features": { "ipa": "ʃæmˈpuː" } },
+        { "id": "en.box", "kind": "word", "pos": "noun", "text": "box", "zh": "盒;盒子;箱子", "features": { "ipa": "bɑːks" } },
+        { "id": "en.tissue", "kind": "word", "pos": "noun", "text": "tissue", "zh": "纸巾", "features": { "ipa": "ˈtɪʃuː" } },
+        { "id": "en.toothpaste", "kind": "word", "pos": "noun", "text": "toothpaste", "zh": "牙膏", "features": { "ipa": "ˈtuːθpeɪst" } },
+        { "id": "en.pack", "kind": "word", "pos": "noun", "text": "pack", "zh": "包;盒(一包东西)", "features": { "ipa": "pæk" } },
+        { "id": "en.battery", "kind": "word", "pos": "noun", "text": "battery", "zh": "电池", "features": { "ipa": "ˈbæt̬ɚi" } }
+      ],
+      "reviewItems": ["en.pharmacy", "en.aisle", "en.bag", "en.warm", "en.no_thanks"]
+    },
+    {
+      "id": "en.a1u6.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-6 Shopping", "order": 106085,
+      "titleZh": "寄给妈妈的生日卡", "goalZh": "读懂并会写一张简短的生日贺卡:祝福、说说礼物、表达想念",
+      "canDoZh": "能读懂并写一张简短的生日贺卡:祝福、说说礼物、表达想念",
+      "scenarioZh": "体裁:贺卡。说话人 lei(第一人称)。磊在送给妈妈的围巾里夹了一张英文生日卡:祝妈妈生日快乐;说这条浅灰色的围巾是和朋友一起挑的,正好在打折;西雅图的秋天又冷又爱下雨,但他买了一件暖和的外套;最后说想家、爱她。磊在背面写了中文翻译。至少 8 句。",
+      "grammarFocusZh": "复习本单元的颜色、价格和购物说法;贺卡格式 Dear Mom… / Love, Lei;用 I miss you. / I love you.(第 2 单元学过)收尾。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "en.happy_birthday", "kind": "phrase", "pos": "phrase", "text": "Happy birthday", "zh": "生日快乐", "features": { "ipa": "ˌhæpi ˈbɝːθdeɪ" } },
+        { "id": "en.dear", "kind": "word", "pos": "adj", "text": "dear", "zh": "亲爱的(信的开头)", "features": { "ipa": "dɪr" } }
+      ],
+      "reviewItems": ["en.scarf", "en.gift", "en.on_sale", "en.new", "en.miss"]
+    },
+    {
+      "id": "en.a1u7.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-7 Free time & plans", "order": 107045,
+      "titleZh": "国际学生之夜节目单", "goalZh": "看懂活动海报和节目单,找出时间、地点、节目和要不要买票",
+      "canDoZh": "能看懂活动海报和节目单,找出时间、地点、有什么节目、要不要买票",
+      "scenarioZh": "体裁:海报和节目单。说话人 narrator。第 2 课提到的'国际学生之夜'的海报:周五晚上 6 点到 9 点、在学生中心、免费入场;节目单列着各国美食摊(中国摊位是磊的川菜)、索菲亚的墨西哥舞蹈、马库斯的吉他演奏和最后的大合唱。至少 8 行。",
+      "grammarFocusZh": "复习 can(You can try food from 20 countries.)和时间地点介词;海报上常用省略句(Free! Food from 20 countries!),读的时候补全意思。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "en.country", "kind": "word", "pos": "noun", "text": "country", "zh": "国家", "features": { "ipa": "ˈkʌntri" } },
+        { "id": "en.together", "kind": "word", "pos": "adv", "text": "together", "zh": "一起", "features": { "ipa": "təˈɡeðɚ" } }
+      ],
+      "reviewItems": ["en.can", "en.dance", "en.sing", "en.listen_to", "en.join"]
+    },
+    {
+      "id": "en.a1u7.l06", "lang": "en", "type": "vocab", "cefr": "A1", "unit": "A1-7 Free time & plans", "order": 107060,
+      "titleZh": "看什么电影?", "goalZh": "会用 What kind of…? 问喜欢什么类型的电影,商量场次和座位",
+      "canDoZh": "能和朋友商量看什么类型的电影,看懂影院的场次表并选好场次",
+      "scenarioZh": "第 3 课磊没能和艾米去看电影,这个周末两人和索菲亚约着补上。艾米问 What kind of movies do you like?:磊喜欢动作片和科幻片,索菲亚爱看喜剧,艾米爱恐怖片(磊连连摇头)。三人看手机上的场次表,喜剧有 7:15 和 9:40 两场,选了 7:15 场,在网上买票、选座位。",
+      "grammarFocusZh": "What kind of…? 问种类;电影类型 action movie、comedy、horror movie、sci-fi movie;复习场次时间的读法。发音:复合名词的重音落在第一个词上——ACtion movie、HORror movie、MOvie theater。",
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 24,
+      "newItems": [
+        { "id": "en.what_kind_of", "kind": "phrase", "pos": "phrase", "text": "What kind of", "zh": "什么类型的;哪种", "features": { "ipa": "ˌwʌt ˈkaɪnd əv" } },
+        { "id": "en.action_movie", "kind": "phrase", "pos": "noun", "text": "action movie", "zh": "动作片", "features": { "ipa": "ˈækʃən ˌmuːvi" } },
+        { "id": "en.comedy", "kind": "word", "pos": "noun", "text": "comedy", "zh": "喜剧(片)", "features": { "ipa": "ˈkɑːmədi" } },
+        { "id": "en.horror_movie", "kind": "phrase", "pos": "noun", "text": "horror movie", "zh": "恐怖片", "features": { "ipa": "ˈhɔːrɚ ˌmuːvi" } },
+        { "id": "en.sci_fi_movie", "kind": "phrase", "pos": "noun", "text": "sci-fi movie", "zh": "科幻片", "alt": ["science fiction movie"], "features": { "ipa": "ˈsaɪ ˌfaɪ ˌmuːvi" } },
+        { "id": "en.seat", "kind": "word", "pos": "noun", "text": "seat", "zh": "座位", "features": { "ipa": "siːt" } },
+        { "id": "en.popcorn", "kind": "word", "pos": "noun", "text": "popcorn", "zh": "爆米花", "features": { "ipa": "ˈpɑːpkɔːrn" } }
+      ],
+      "reviewItems": ["en.movie", "en.funny", "en.lets", "en.online", "en.together"]
+    },
+    {
+      "id": "en.a1u7.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-7 Free time & plans", "order": 107070,
+      "titleZh": "电话留言:改个时间", "goalZh": "会在语音信箱里留一条清楚的消息,并在回电时商量改时间",
+      "canDoZh": "能在语音信箱里留一条清楚的消息,并在回电时商量改到另一个时间",
+      "scenarioZh": "磊和伊森约了周六下午打球,可劳拉临时请磊周六去店里帮忙。磊打给伊森,没人接,听到语音提示后留言:说自己是谁、周六去不了、要去上班、请他回电;晚上伊森回电,两人改到周日上午十点,磊说 Sunday at ten is good.。",
+      "grammarFocusZh": "语音留言的结构:问候 → 我是谁(It's Lei.)→ 什么事 → 请回电(Call me back.);改约:Can we play on Sunday instead? / Is Sunday OK?;复习 can't、have to。发音:h 和 f——have、hope、half 对 fun、free、five,四川口音容易把两者混读,h 只是轻轻呼气、嘴唇不碰牙齿。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "newItems": [
+        { "id": "en.answer", "kind": "word", "pos": "verb", "text": "answer", "zh": "接(电话);回答", "features": { "ipa": "ˈænsɚ" } },
+        { "id": "en.voicemail", "kind": "word", "pos": "noun", "text": "voicemail", "zh": "语音信箱;语音留言", "features": { "ipa": "ˈvɔɪsmeɪl" } },
+        { "id": "en.message", "kind": "word", "pos": "noun", "text": "message", "zh": "消息;留言", "features": { "ipa": "ˈmesɪdʒ" } },
+        { "id": "en.leave_a_message", "kind": "phrase", "pos": "phrase", "text": "leave a message", "zh": "留言", "features": { "ipa": "ˌliːv ə ˈmesɪdʒ" } },
+        { "id": "en.call_back", "kind": "phrase", "pos": "verb", "text": "call back", "zh": "回电话", "features": { "ipa": "ˌkɑːl ˈbæk" } },
+        { "id": "en.instead", "kind": "word", "pos": "adv", "text": "instead", "zh": "改为;代替", "features": { "ipa": "ɪnˈsted" } },
+        { "id": "en.hope", "kind": "word", "pos": "verb", "text": "hope", "zh": "希望", "features": { "ipa": "hoʊp" } }
+      ],
+      "reviewItems": ["en.cant", "en.have_to", "en.how_about", "en.early", "en.study"]
+    },
+    {
+      "id": "en.a1u7.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-7 Free time & plans", "order": 107085,
+      "titleZh": "万圣节小故事", "goalZh": "读懂一个简单的小故事,说出人物、发生了什么和结局",
+      "canDoZh": "能读懂一个简单的小故事,说出人物、发生了什么、结局是什么",
+      "scenarioZh": "体裁:小故事。说话人 narrator。万圣节派对前,艾米在群聊里发了一个'吓人'的小故事:一个很黑的晚上,伊森一个人在宿舍打游戏,听见门外有奇怪的声音,越来越近,门慢慢开了——是穿着熊猫服装的磊!故事用一般现在时和现在进行时讲,结尾有一个小反转,至少 10 句。",
+      "grammarFocusZh": "用一般现在时讲故事(He hears a sound. The door opens.),用现在进行时描写场景(It's raining. Ethan is playing a video game.);复习本单元的 scary、costume、panda。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
+      "newItems": [
+        { "id": "en.hear", "kind": "word", "pos": "verb", "text": "hear", "zh": "听见", "features": { "ipa": "hɪr" } },
+        { "id": "en.sound", "kind": "word", "pos": "noun", "text": "sound", "zh": "声音", "features": { "ipa": "saʊnd" } },
+        { "id": "en.door", "kind": "word", "pos": "noun", "text": "door", "zh": "门", "features": { "ipa": "dɔːr" } },
+        { "id": "en.knock", "kind": "word", "pos": "verb", "text": "knock", "zh": "敲(门)", "features": { "ipa": "nɑːk" } }
+      ],
+      "reviewItems": ["en.costume", "en.scary", "en.panda", "en.video_game", "en.answer"]
+    },
+    {
+      "id": "en.a1u8.r01", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-8 Last weekend", "order": 108045,
+      "titleZh": "请假邮件", "goalZh": "读懂一封简短的请假邮件:哪天没去、为什么、作业怎么补",
+      "canDoZh": "能读懂并写一封简短的请假邮件:说明哪天没去、为什么、作业怎么补",
+      "scenarioZh": "体裁:邮件。说话人 lei(第一人称)。看完医生的第二天,磊给写作课教授写邮件:昨天没去上课,因为感冒发烧,去了学校健康中心;医生让他在宿舍休息两天;问作业能不能下周再交。礼貌的开头和结尾,至少 8 句。",
+      "grammarFocusZh": "复习一般过去时(I was sick. I went to the health center.)和本单元的症状词;请假邮件的结构:为什么写 → 发生了什么 → 请求 → 感谢。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 11.5,
+      "newItems": [],
+      "reviewItems": ["en.sick", "en.fever", "en.doctor", "en.rest", "en.get_better"]
+    },
+    {
+      "id": "en.a1u8.l06", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-8 Last weekend", "order": 108060,
+      "titleZh": "黑色星期五", "goalZh": "会用 there was / there were 描述过去某个场景里有什么、人多不多",
+      "canDoZh": "能用 there was / there were 描述过去某个场景里有什么、人多不多",
+      "scenarioZh": "感恩节第二天,艾米带磊去商场体验'黑色星期五'。周一磊给没去的索菲亚讲:商场里人特别多,每家店门口都排着长队;很多东西打五折,可他想要的那件外套已经没有中号了;最后他只给爸爸买了一个钱包。索菲亚问 Was it fun?,磊说又累又好玩。",
+      "grammarFocusZh": "there was / there were(过去的 there is / are),否定 There wasn't / weren't any…,问句 Was there…? / Were there…?;复习 was / were 和购物词。发音:/ɝː/(were、first、shirt、Thursday)舌头卷起、不碰上颚,不要读成'窝'。",
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 23,
+      "newItems": [
+        { "id": "en.black_friday", "kind": "phrase", "pos": "propn", "text": "Black Friday", "zh": "黑色星期五(感恩节后的大促销日)", "features": { "ipa": "ˌblæk ˈfraɪdeɪ" } },
+        { "id": "en.mall", "kind": "word", "pos": "noun", "text": "mall", "zh": "商场;购物中心", "features": { "ipa": "mɑːl" } },
+        { "id": "en.line", "kind": "word", "pos": "noun", "text": "line", "zh": "队;排队的队伍", "features": { "ipa": "laɪn" } },
+        { "id": "en.crowded", "kind": "word", "pos": "adj", "text": "crowded", "zh": "拥挤的;人多的", "features": { "ipa": "ˈkraʊdɪd" } },
+        { "id": "en.wallet", "kind": "word", "pos": "noun", "text": "wallet", "zh": "钱包", "features": { "ipa": "ˈwɑːlɪt" } },
+        { "id": "en.shirt", "kind": "word", "pos": "noun", "text": "shirt", "zh": "衬衫", "features": { "ipa": "ʃɝːt" } }
+      ],
+      "reviewItems": ["en.store", "en.good_deal", "en.percent_off", "en.medium", "en.thats_it"]
+    },
+    {
+      "id": "en.a1u8.l07", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-8 Last weekend", "order": 108070,
+      "titleZh": "我闹过的笑话", "goalZh": "会用 said、thought、asked、told 讲一个自己闹过的小笑话,并回应别人的故事",
+      "canDoZh": "能讲一个自己闹过的小笑话:当时发生了什么、别人说了什么、我以为是什么意思",
+      "scenarioZh": "咖啡馆不忙的时候,马库斯讲他第一天上班把盐当成糖放进咖啡的事。磊也讲了刚来时的笑话:咖啡师问 How's it going?,他以为是问'怎么去',回答 By bus!;还有一次店员问 For here or to go?,他说 Yes.。大家笑成一团,劳拉(laura)说她刚工作时也闹过笑话,学语言就是这样。",
+      "grammarFocusZh": "用一般过去时讲故事:said(say)、thought(think)、asked、told;He asked me… / I thought it meant…;听故事时回应 That's so funny! / Oh no!。发音:said 读 /sed/,不读 /seɪd/;讲到笑点前稍停一下,重读关键词。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+      "newItems": [
+        { "id": "en.say", "kind": "word", "pos": "verb", "text": "say", "zh": "说", "features": { "ipa": "seɪ" } },
+        { "id": "en.think", "kind": "word", "pos": "verb", "text": "think", "zh": "想;认为;以为", "features": { "ipa": "θɪŋk" } },
+        { "id": "en.tell", "kind": "word", "pos": "verb", "text": "tell", "zh": "告诉;对……说", "features": { "ipa": "tel" } },
+        { "id": "en.mean", "kind": "word", "pos": "verb", "text": "mean", "zh": "意思是", "features": { "ipa": "miːn" } },
+        { "id": "en.mistake", "kind": "word", "pos": "noun", "text": "mistake", "zh": "错误", "features": { "ipa": "mɪˈsteɪk" } },
+        { "id": "en.salt", "kind": "word", "pos": "noun", "text": "salt", "zh": "盐", "features": { "ipa": "sɑːlt" } },
+        { "id": "en.put", "kind": "word", "pos": "verb", "text": "put", "zh": "放", "features": { "ipa": "pʊt" } },
+        { "id": "en.by", "kind": "word", "pos": "prep", "text": "by", "zh": "乘(交通工具)", "features": { "ipa": "baɪ" } }
+      ],
+      "reviewItems": ["en.customer", "en.sugar", "en.hows_it_going", "en.for_here_or_to_go", "en.first"]
+    },
+    {
+      "id": "en.a1u8.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-8 Last weekend", "order": 108085,
+      "titleZh": "劳拉的学期末邮件", "goalZh": "读懂一封学期总结和假期安排的通知邮件,找出时间、地点和要做的事",
+      "canDoZh": "能读懂一封学期总结和假期安排的邮件,找出放假安排和要做的事",
+      "scenarioZh": "体裁:邮件。说话人 narrator。学期最后一周,劳拉给所有员工发邮件:回顾这学期(很忙,但大家做得很好,新同事磊进步很快);寒假咖啡馆关门,下学期开学前一周重新开门;这周五下午 5 点在店里办一个小聚会,有吃有喝。结尾祝大家假期愉快。至少 8 句。",
+      "grammarFocusZh": "用一般过去时回顾(We were very busy. You did a great job.),用 be going to 说安排,两者对比;读通知类邮件先找时间、地点和要做的事。",
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 12.5,
+      "newItems": [],
+      "reviewItems": ["en.semester", "en.nervous", "en.confident", "en.customer", "en.party"]
+    }
+  ]
+}

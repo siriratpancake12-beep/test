@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u3.l06", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 Daily life", "order": 103060,
+  "titleZh": "图书馆几点关门?", "goalZh": "会问、会说一个地方几点开门和关门,听懂 a.m. / p.m.、half past、a quarter to 这些时间说法", "canDoZh": "能问清楚一个地方几点开门、几点关门,并听懂'还有 15 分钟关门'这类广播通知",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "en.open", "kind": "word", "pos": "verb", "text": "open", "zh": "开门;打开", "features": { "ipa": "ˈoʊpən" }, "noteZh": "The library opens at 10 a.m. 图书馆上午 10 点开门;说“开着(营业中)”用 It's open.。重音在前 O-pen。" },
+    { "id": "en.close_verb", "kind": "word", "pos": "verb", "text": "close", "zh": "关门;关上", "features": { "ipa": "kloʊz" }, "noteZh": "作动词读 /kloʊz/,s 读浊音 /z/;作形容词“近的”(第 5 单元)读 /kloʊs/。The library closes at midnight. 图书馆午夜关门。" },
+    { "id": "en.midnight", "kind": "word", "pos": "noun", "text": "midnight", "zh": "午夜;夜里十二点", "features": { "ipa": "ˈmɪdnaɪt" }, "noteZh": "夜里 12 点说 midnight,中午 12 点说 noon;at midnight 在午夜。词尾 t 收住,不加元音。" },
+    { "id": "en.quarter", "kind": "word", "pos": "noun", "text": "quarter", "zh": "一刻钟(15 分钟);四分之一", "features": { "ipa": "ˈkwɔːrt̬ɚ" }, "noteZh": "a quarter past ten 十点一刻(10:15),a quarter to twelve 差一刻十二点(11:45);美式 t 读成轻快的 d。美国人也常直接说 ten fifteen、eleven forty-five。" },
+    { "id": "en.half", "kind": "word", "pos": "noun", "text": "half", "zh": "一半;半", "features": { "ipa": "hæf" }, "noteZh": "l 不发音,读 /hæf/;half past ten 十点半(10:30),美国人更常说 ten thirty,但 half past 要听得懂。" },
+    { "id": "en.past", "kind": "word", "pos": "prep", "text": "past", "zh": "(几点)过;经过", "features": { "ipa": "pæst" }, "noteZh": "报时间:a quarter past two 两点一刻,half past ten 十点半;past 是“过了”,to 是“差”。a 读 /æ/,词尾 st 收住。" },
+    { "id": "en.am", "kind": "word", "pos": "adv", "text": "a.m.", "zh": "上午(半夜到中午)", "features": { "ipa": "ˌeɪ ˈem" }, "noteZh": "放在钟点后面:10 a.m. 上午 10 点;读两个字母 A-M。有了 a.m. 就不再加 o'clock,不说 ten o'clock a.m.。" },
+    { "id": "en.pm", "kind": "word", "pos": "adv", "text": "p.m.", "zh": "下午;晚上(中午到半夜)", "features": { "ipa": "ˌpiː ˈem" }, "noteZh": "6 p.m. 下午 6 点,11 p.m. 晚上 11 点;读两个字母 P-M。中午 12 点常说 noon,夜里 12 点说 midnight。" }
+  ],
+  "reviewItems": ["en.library", "en.late", "en.saturday", "en.sunday", "en.noon", "en.early"],
+  "lines": [
+    { "speaker": "staff", "text": "Hello! The library closes at midnight. Thank you.", "zh": "(晚上,磊和索菲亚在图书馆学习,广播响了)各位好!图书馆午夜十二点关门。谢谢。", "items": ["en.hello", "en.library", "en.close_verb", "en.midnight", "en.thank_you"] },
+    { "speaker": "sofia", "text": "Midnight? Lei, what time is it?", "zh": "十二点?磊,现在几点了?", "items": ["en.midnight", "en.what_time_is_it"] },
+    { "speaker": "lei", "text": "It's a quarter to twelve! It's late.", "zh": "差一刻十二点了!太晚了。", "items": ["en.quarter", "en.late"] },
+    { "speaker": "sofia", "text": "Oh no! When does the library open on Saturday?", "zh": "糟了!图书馆周六几点开门?", "items": ["en.library", "en.open", "en.saturday"] },
+    { "speaker": "lei", "text": "It opens at 10 a.m. and closes at 6 p.m.", "zh": "上午 10 点开门,下午 6 点关门。", "items": ["en.open", "en.am", "en.close_verb", "en.pm"] },
+    { "speaker": "sofia", "text": "And on Sunday?", "zh": "那周日呢?", "items": ["en.sunday"] },
+    { "speaker": "lei", "text": "On Sunday, it opens at noon.", "zh": "周日中午十二点开门。", "items": ["en.sunday", "en.open", "en.noon"] },
+    { "speaker": "sofia", "text": "Study here on Saturday morning?", "zh": "那周六上午来这儿学习?", "items": ["en.study", "en.saturday", "en.morning"] },
+    { "speaker": "lei", "text": "Sure! At half past ten?", "zh": "好啊!十点半?", "items": ["en.sure", "en.half", "en.past"] },
+    { "speaker": "sofia", "text": "Great. I work on Saturday afternoons.", "zh": "好。我周六下午要打工。", "items": ["en.great", "en.work", "en.saturday", "en.afternoon"] },
+    { "speaker": "lei", "text": "Half past ten is early for me on Saturdays!", "zh": "周六十点半,对我来说可够早的!", "items": ["en.half", "en.past", "en.early", "en.saturday"] }
+  ],
+  "questions": [
+    { "prompt": "广播说图书馆几点关门?", "options": ["晚上 11 点", "午夜 12 点", "下午 6 点"], "answer": 1, "explainZh": "广播说 The library closes at midnight.,midnight 是夜里 12 点;磊说现在是 a quarter to twelve(11:45)。" },
+    { "prompt": "图书馆周六几点开门、几点关门?", "options": ["中午 12 点开,午夜 12 点关", "上午 10 点半开,下午 6 点关", "上午 10 点开,下午 6 点关"], "answer": 2, "explainZh": "磊说 It opens at 10 a.m. and closes at 6 p.m.;中午开门的是周日,十点半是两人约好的时间。" },
+    { "prompt": "两人约在什么时候一起学习?", "options": ["周六上午十点半", "周日中午十二点", "周六下午两点"], "answer": 0, "explainZh": "索菲亚问 Study here on Saturday morning?,磊说 At half past ten?;索菲亚周六下午要打工。" }
+  ],
+  "grammar": [
+    { "id": "en.g.open_close", "titleZh": "开放时间:open / close + at 钟点;a.m. 和 p.m.",
+      "bodyZh": "说一个地方几点开门、几点关门用 open 和 close。主语是 the library、it 这种第三人称单数,动词要加 -s:The library opens at 10 a.m. and closes at 6 p.m.。问开放时间:When does the library open? / What time does it close?(有了 does,后面的动词不加 -s)。a.m. 是上午(半夜到中午),p.m. 是下午和晚上(中午到半夜),放在钟点后面;中午 12 点说 noon,夜里 12 点说 midnight。发音:动词 close 读 /kloʊz/,结尾是浊音 /z/,别读成 /kloʊs/。听广播时先抓动词(opens、closes)和数字。",
+      "examples": [
+        { "text": "The library opens at 10 a.m. and closes at 6 p.m.", "zh": "图书馆上午 10 点开门,下午 6 点关门。" },
+        { "text": "On Sunday, it opens at noon.", "zh": "周日中午 12 点开门。" },
+        { "text": "When does the library close? — At midnight.", "zh": "图书馆几点关门?——午夜十二点。" }
+      ] },
+    { "id": "en.g.half_quarter", "titleZh": "half past / a quarter to:另一种报钟点的说法;in + 一段时间",
+      "bodyZh": "美国人报时间最常见的是直接读数字:10:30 = ten thirty,11:45 = eleven forty-five。另一种说法也要听得懂:half past ten(十点半)、a quarter past two(两点一刻,2:15)、a quarter to twelve(差一刻十二点,11:45)。past 是“过了”,to 是“差”,quarter 是一刻钟(15 分钟)。in + 一段时间表示“……以后”:The weekend is in two days.(再过两天就是周末)。广播里常听到 The library closes in fifteen minutes.(十五分钟后关门),minute(分钟)第 5 单元学。",
+      "examples": [
+        { "text": "It's half past ten.", "zh": "十点半了。(10:30)" },
+        { "text": "It's a quarter to twelve.", "zh": "差一刻十二点了。(11:45)" },
+        { "text": "It's a quarter past two.", "zh": "两点一刻了。(2:15)" },
+        { "text": "The weekend is in two days.", "zh": "再过两天就是周末了。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "en.a1u3.r02", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 Daily life", "order": 103085,
+  "titleZh": "劳拉的欢迎邮件", "goalZh": "读懂一封工作安排邮件,找出上班的日期、钟点和要注意的事", "canDoZh": "能读懂一封工作安排邮件,找出上班的日期、时间、地点和要准备的东西",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 13.5,
+  "newItems": [
+    { "id": "en.shift", "kind": "word", "pos": "noun", "text": "shift", "zh": "(轮班的)一班;班次", "features": { "ipa": "ʃɪft" }, "noteZh": "打工的“一班”叫 shift:My shift starts at 2.(我的班两点开始);sh 读 /ʃ/,别读成 s。" }
+  ],
+  "reviewItems": ["en.start", "en.teacher", "en.senior", "en.manager", "en.busy", "en.question"],
+  "lines": [
+    { "speaker": "laura", "text": "Subject: Welcome to the cafe!", "zh": "(面试第二天,咖啡馆经理劳拉发来邮件)主题:欢迎来咖啡馆!", "items": ["en.subject", "en.welcome", "en.cafe"] },
+    { "speaker": "laura", "text": "Hi Lei, welcome to our cafe!", "zh": "磊你好,欢迎加入我们咖啡馆!", "items": ["en.hi", "en.welcome", "en.cafe"] },
+    { "speaker": "laura", "text": "You start on Monday at 2 p.m.", "zh": "你下周一下午两点开始上班。", "items": ["en.start", "en.monday", "en.pm"] },
+    { "speaker": "laura", "text": "On Monday, Marcus is your teacher.", "zh": "周一由马库斯带你。", "items": ["en.monday", "en.teacher"] },
+    { "speaker": "laura", "text": "He's a senior, and he's really friendly.", "zh": "他读大四,人特别好相处。", "items": ["en.senior", "en.really", "en.friendly"] },
+    { "speaker": "laura", "text": "After Monday, your shifts are on Tuesdays and Thursdays.", "zh": "周一以后,你每周二、周四上班。", "items": ["en.after", "en.monday", "en.shift", "en.tuesday", "en.thursday"] },
+    { "speaker": "laura", "text": "Every shift is from 2 to 6 p.m.", "zh": "每次都是下午两点到六点。", "items": ["en.shift", "en.pm"] },
+    { "speaker": "laura", "text": "Please be here at 1:50. Don't be late!", "zh": "请一点五十到。别迟到!", "items": ["en.late"] },
+    { "speaker": "laura", "text": "The cafe is busy, but it's a great job.", "zh": "咖啡馆挺忙的,不过这是一份很好的工作。", "items": ["en.cafe", "en.busy", "en.great", "en.job"] },
+    { "speaker": "laura", "text": "Questions? Call the cafe at 206-555-0168.", "zh": "有问题吗?打咖啡馆的电话 206-555-0168。", "items": ["en.question", "en.call", "en.cafe"] },
+    { "speaker": "laura", "text": "See you on Monday!", "zh": "周一见!", "items": ["en.see_you_later", "en.monday"] },
+    { "speaker": "laura", "text": "Best, Laura, Cafe Manager", "zh": "祝好!咖啡馆经理 劳拉", "items": ["en.best", "en.cafe", "en.manager"] }
+  ],
+  "questions": [
+    { "prompt": "磊什么时候开始上班?", "options": ["下周一下午两点", "下周二下午两点", "下周四上午"], "answer": 0, "explainZh": "劳拉写 You start on Monday at 2 p.m.(你周一下午两点开始。)" },
+    { "prompt": "劳拉让磊几点到?", "options": ["两点整", "一点五十", "六点"], "answer": 1, "explainZh": "劳拉写 Please be here at 1:50.,比两点开工早十分钟。" },
+    { "prompt": "周一谁带磊?", "options": ["劳拉", "老顾客", "马库斯"], "answer": 2, "explainZh": "劳拉写 On Monday, Marcus is your teacher.(周一由马库斯带你。)" },
+    { "prompt": "周一以后,磊每周什么时候上班?", "options": ["周一和周三", "周末全天", "每天下午", "周二和周四,两点到六点"], "answer": 3, "explainZh": "劳拉写 your shifts are on Tuesdays and Thursdays 和 Every shift is from 2 to 6 p.m.。" }
+  ],
+  "grammar": [
+    { "id": "en.g.schedule_present", "titleZh": "读工作邮件:先找日期和钟点;一般现在时说定好的安排",
+      "bodyZh": "读工作安排的邮件,先找日期和钟点(on Monday、at 2 p.m.、from 2 to 6 p.m.),再看要做什么(start、be here)和要注意什么(Don't be late!)。说日程、班表这种定好的安排,英语用一般现在时:You start on Monday.(你周一开始)、Your shift starts at 2 p.m.(你的班两点开始)——虽然是以后的事,也不用 will。复习时间介词:on + 星期,at + 钟点,from … to …。",
+      "examples": [
+        { "text": "You start on Monday at 2 p.m.", "zh": "你周一下午两点开始上班。" },
+        { "text": "Your shifts are on Tuesdays and Thursdays.", "zh": "你每周二、周四上班。" },
+        { "text": "Please be here at 1:50. Don't be late!", "zh": "请一点五十到。别迟到!" }
+      ] }
+  ],
+  "review": "draft"
+}

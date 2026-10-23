@@ -1,0 +1,50 @@
+{
+  "id": "en.a1u2.l06", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 Family & friends", "order": 102060,
+  "titleZh": "我家的群聊", "goalZh": "会用 's 说清楚谁是谁的谁,能用 aunt、uncle、cousin 等词介绍亲戚", "canDoZh": "能介绍自己的亲戚,用 's 说清楚谁是谁的谁(比如'我妈妈的姐姐')",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 24,
+  "newItems": [
+    { "id": "en.phone", "kind": "word", "pos": "noun", "text": "phone", "zh": "手机;电话", "features": { "ipa": "foʊn" }, "noteZh": "口语里 phone 常指手机(也说 cell phone);ph 读 /f/。on the phone 在打电话。" },
+    { "id": "en.aunt", "kind": "word", "pos": "noun", "text": "aunt", "zh": "姨妈;姑妈;舅妈;婶婶;伯母", "features": { "ipa": "ænt" }, "noteZh": "美式读 /ænt/,和 ant(蚂蚁)同音;中文的姨妈、姑妈、舅妈、婶婶、伯母,英语都叫 aunt。" },
+    { "id": "en.uncle", "kind": "word", "pos": "noun", "text": "uncle", "zh": "叔叔;伯伯;舅舅;姨父;姑父", "features": { "ipa": "ˈʌŋkəl" }, "noteZh": "英语不分父亲那边还是母亲那边,叔叔、舅舅、姨父、姑父都是 uncle;n 在 k 前读 /ŋ/。" },
+    { "id": "en.husband", "kind": "word", "pos": "noun", "text": "husband", "zh": "丈夫", "features": { "ipa": "ˈhʌzbənd" }, "noteZh": "s 读 /z/,u 读 /ʌ/;her husband 她的丈夫。" },
+    { "id": "en.wife", "kind": "word", "pos": "noun", "text": "wife", "zh": "妻子", "features": { "ipa": "waɪf" }, "noteZh": "复数是 wives;his wife 他的妻子。w 双唇收圆,别读成 v。" },
+    { "id": "en.daughter", "kind": "word", "pos": "noun", "text": "daughter", "zh": "女儿", "features": { "ipa": "ˈdɑːt̬ɚ" }, "noteZh": "gh 不发音;美式 t 读成轻快的 d,听起来像 \"DAH-der\"。儿子是 son。" },
+    { "id": "en.word", "kind": "word", "pos": "noun", "text": "word", "zh": "词;单词", "features": { "ipa": "wɝːd" }, "noteZh": "or 读 /ɝː/,要卷舌;问“……用英语怎么说”也可以说 What's the word for this?" }
+  ],
+  "reviewItems": ["en.group_chat", "en.whos_that", "en.grandma", "en.older", "en.cousin"],
+  "lines": [
+    { "speaker": "sofia", "text": "Lei, your phone! Who's that?", "zh": "(晚饭时,磊的手机响个不停)磊,你的手机!谁呀?", "items": ["en.phone", "en.whos_that"] },
+    { "speaker": "lei", "text": "It's my family group chat. This is my grandma.", "zh": "是我们家的群聊。这是我奶奶。", "items": ["en.family", "en.group_chat", "en.this_is", "en.grandma"] },
+    { "speaker": "sofia", "text": "Cool! And who's that? Your mom?", "zh": "真酷!那这位是谁?你妈妈?", "items": ["en.cool", "en.whos_that", "en.mom"] },
+    { "speaker": "lei", "text": "No, that's my aunt, my mom's older sister.", "zh": "不是,那是我姨妈,我妈妈的姐姐。", "items": ["en.aunt", "en.mom", "en.older", "en.sister"] },
+    { "speaker": "sofia", "text": "And that guy? Is he your aunt's husband?", "zh": "那这个男的呢?是你姨妈的丈夫吗?", "items": ["en.guy", "en.aunt", "en.husband"] },
+    { "speaker": "lei", "text": "Yes, that's my uncle. Their daughter is my cousin.", "zh": "对,那是我姨父。他们的女儿是我表姐。", "items": ["en.uncle", "en.daughter", "en.cousin"] },
+    { "speaker": "sofia", "text": "So your uncle's wife is your aunt. Got it!", "zh": "所以你姨父的妻子就是你姨妈。懂了!", "items": ["en.uncle", "en.wife", "en.aunt", "en.got_it"] },
+    { "speaker": "lei", "text": "Yes! In Chinese, there are five words for aunt.", "zh": "对!中文里 aunt 有五种叫法:姨妈、姑妈、舅妈、婶婶、伯母。", "items": ["en.word", "en.aunt"] },
+    { "speaker": "sofia", "text": "Five? Wow! In English, they're all “aunt.”", "zh": "五种?哇!英语里都叫 aunt。", "items": ["en.aunt"] },
+    { "speaker": "sofia", "text": "My family is big too. I have twenty cousins!", "zh": "我家也是个大家族。我有二十个表兄弟姐妹!", "items": ["en.family", "en.big", "en.have", "en.cousin"] }
+  ],
+  "questions": [
+    { "prompt": "群聊里“那个男的”是谁?", "options": ["磊的爸爸", "磊的姨父(姨妈的丈夫)", "磊的表哥"], "answer": 1, "explainZh": "索菲亚问 Is he your aunt's husband?,磊说 Yes, that's my uncle.(对,那是我姨父。)" },
+    { "prompt": "磊的表姐是谁的女儿?", "options": ["姨妈和姨父的女儿", "奶奶的女儿", "爸爸的姐姐的女儿"], "answer": 0, "explainZh": "磊先介绍了姨妈和姨父,接着说 Their daughter is my cousin.,their 指的就是他们俩。" },
+    { "prompt": "索菲亚觉得英语的亲戚称呼和中文比怎么样?", "options": ["和中文一样多", "比中文复杂", "比中文简单,五种都叫 aunt"], "answer": 2, "explainZh": "磊说中文里 aunt 有五种叫法,索菲亚说 In English, they're all “aunt.”(英语里都叫 aunt。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.possessive_s", "titleZh": "名词所有格 's:my mom's sister(我妈妈的姐姐)",
+      "bodyZh": "说“谁的”,在名词后面加 's:my mom's sister(我妈妈的姐姐)、Sofia's brothers(索菲亚的哥哥们)、my aunt's husband(我姨妈的丈夫)。以 s 结尾的复数名词只加撇号 ':my parents' photo(我父母的照片)。顺序和中文一样:我妈妈的姐姐 = my mom's sister,“的”就是 's。's 的读音和复数 -s 一样分三种:mom's 读 /z/,Mike's 读 /s/,Luis's 读 /ɪz/(人名以 s 结尾,写 Luis's 或 Luis' 都可以)。注意别和 he's(= he is)弄混:my aunt's husband 里的 's 是“的”。",
+      "examples": [
+        { "text": "My mom's sister is my aunt.", "zh": "我妈妈的姐姐是我的姨妈。" },
+        { "text": "Sofia's brothers are Diego and Luis.", "zh": "索菲亚的哥哥是迭戈和路易斯。" },
+        { "text": "This is my parents' photo.", "zh": "这是我父母的照片。" }
+      ] },
+    { "id": "en.g.relatives", "titleZh": "亲戚称谓:英语不分父亲那边、母亲那边",
+      "bodyZh": "中文的亲戚称呼分得很细:父亲那边还是母亲那边、比父母大还是小,叫法都不一样。英语简单得多:姨妈、姑妈、舅妈、婶婶、伯母都是 aunt;叔叔、伯伯、舅舅、姨父、姑父都是 uncle;堂兄弟姐妹、表兄弟姐妹都是 cousin;外公外婆和爷爷奶奶一样,都叫 grandpa、grandma。要说清楚是哪一边的,就用 's:my mom's sister(我妈妈的姐姐)、my mom's parents(我外公外婆)。husband 是丈夫,wife 是妻子,daughter 是女儿。",
+      "examples": [
+        { "text": "My mom's parents are my grandma and grandpa too.", "zh": "我妈妈的父母(外公外婆)也叫 grandma 和 grandpa。" },
+        { "text": "My uncle's wife is my aunt.", "zh": "我舅舅的妻子是我舅妈。" },
+        { "text": "My cousin is my aunt's daughter.", "zh": "我表姐是我姨妈的女儿。" }
+      ] }
+  ],
+  "review": "draft"
+}

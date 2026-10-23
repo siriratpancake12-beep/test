@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u18.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-18 意外与求助", "order": 118050,
+  "titleZh": "保罗扭伤了脚:打 112", "goalZh": "会打急救电话,按接线员的问题说清楚地点、出了什么事、几个人受伤", "canDoZh": "能打急救电话,说清楚在哪儿、出了什么事、有几个人受伤",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "de.knoechel", "kind": "word", "pos": "noun", "text": "der Knöchel", "zh": "脚踝", "features": { "gender": "m", "plural": "die Knöchel", "ipa": "ˈknœçl̩" }, "noteZh": "kn 两个音都要读出来,k 不能省;ö 撮圆嘴唇,ch 在 ö 后读 [ç]。踢球最容易伤的地方:Mein Knöchel tut weh.。" },
+    { "id": "de.krankenwagen", "kind": "word", "pos": "noun", "text": "der Krankenwagen", "zh": "救护车", "features": { "gender": "m", "plural": "die Krankenwagen", "ipa": "ˈkʁaŋkn̩ˌvaːɡn̩" }, "noteZh": "krank(病)+ der Wagen(车);复数不变。叫救护车打 112(免费)。正式说法是 der Rettungswagen,口语一般说 Krankenwagen。" },
+    { "id": "de.notruf", "kind": "word", "pos": "noun", "text": "der Notruf", "zh": "急救电话;紧急呼叫", "features": { "gender": "m", "plural": "die Notrufe", "ipa": "ˈnoːtˌʁuːf" }, "noteZh": "die Not(危急)+ der Ruf(呼叫)。德国的急救和消防是 112,警察是 110,手机没话费也能打。接线员按顺序问:在哪儿、出了什么事、几个人受伤,回答要短,别先挂电话。" },
+    { "id": "de.eingang", "kind": "word", "pos": "noun", "text": "der Eingang", "zh": "入口", "features": { "gender": "m", "plural": "die Eingänge", "ipa": "ˈaɪ̯nˌɡaŋ" }, "noteZh": "ein(进)+ der Gang(走);反义词 der Ausgang(出口)。打急救电话说清楚在哪个入口,救护车才找得到:am Eingang Parkstraße。" },
+    { "id": "de.hinfallen", "kind": "word", "pos": "verb", "text": "hinfallen", "zh": "摔倒;跌倒", "features": { "ipa": "ˈhɪnˌfalən" }, "noteZh": "可分动词,完成时用 sein:Er ist hingefallen.(他摔倒了。)先当固定说法记。现在时 a 变 ä:er fällt hin。重音在 hin 上。" },
+    { "id": "de.person", "kind": "word", "pos": "noun", "text": "die Person", "zh": "人;人数", "features": { "gender": "f", "plural": "die Personen", "ipa": "pɛʁˈzoːn" }, "noteZh": "数人数时常用:Wie viele Personen?(几个人?)订座、订房也这样问。阴性;重音在 son 上。" },
+    { "id": "de.verletzt", "kind": "word", "pos": "adj", "text": "verletzt", "zh": "受伤的", "features": { "ipa": "fɛɐ̯ˈlɛtst" }, "noteZh": "放在 sein 后面:Wie viele Personen sind verletzt?(几个人受伤?)Sein Knie ist verletzt.。来自动词 verletzen(弄伤);词尾 tzt 读 [tst]。" },
+    { "id": "de.bewegen", "kind": "word", "pos": "verb", "text": "bewegen", "zh": "移动;动", "features": { "ipa": "bəˈveːɡn̩" }, "noteZh": "Bewegen Sie seinen Fuß bitte nicht!(请别动他的脚!)be- 不可分、不重读;w 读 [v]。" }
+  ],
+  "reviewItems": ["de.passieren", "de.fuss", "de.wehtun", "de.park", "de.stehen", "de.genau"],
+  "lines": [
+    { "speaker": "paul", "text": "Mein Fuß! Mein Knöchel tut sehr weh!", "zh": "(星期六,公园里踢球)我的脚!我的脚踝好疼!", "items": ["de.mein", "de.fuss", "de.knoechel", "de.wehtun", "de.sehr"] },
+    { "speaker": "jonas", "text": "Paul, kannst du aufstehen?", "zh": "保罗,你能站起来吗?", "items": ["de.koennen", "de.du", "de.aufstehen"] },
+    { "speaker": "paul", "text": "Nein, ich kann nicht stehen. Es tut zu weh!", "zh": "不行,我站不住,太疼了!", "items": ["de.nein", "de.ich", "de.koennen", "de.nicht", "de.stehen", "de.es", "de.zu_adv", "de.wehtun"] },
+    { "speaker": "jonas", "text": "Wei, ruf bitte die 112 an! Wir brauchen einen Krankenwagen.", "zh": "王伟,快打 112!我们得叫救护车。", "items": ["de.anrufen", "de.bitte", "de.eins", "de.zwei", "de.wir", "de.brauchen", "de.ein", "de.krankenwagen"] },
+    { "speaker": "notruf", "text": "Notruf 112. Wo genau sind Sie?", "zh": "急救电话 112。您具体在什么地方?", "items": ["de.notruf", "de.eins", "de.zwei", "de.wo", "de.genau", "de.sein", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Im Park an der Parkstraße, am Eingang.", "zh": "在 Parkstraße 旁边的公园里,入口那儿。", "items": ["de.in", "de.park", "de.an", "de.am", "de.eingang"] },
+    { "speaker": "notruf", "text": "Was ist passiert?", "zh": "出什么事了?", "items": ["de.was", "de.sein", "de.passieren"] },
+    { "speaker": "wei", "text": "Mein Freund ist beim Fußball hingefallen. Sein Fuß tut sehr weh.", "zh": "我朋友踢球时摔倒了,他的脚很疼。", "items": ["de.mein", "de.freund", "de.sein", "de.bei", "de.fussball", "de.hinfallen", "de.sein_poss", "de.fuss", "de.wehtun", "de.sehr"] },
+    { "speaker": "notruf", "text": "Wie viele Personen sind verletzt?", "zh": "有几个人受伤?", "items": ["de.wie_viel", "de.person", "de.sein", "de.verletzt"] },
+    { "speaker": "wei", "text": "Nur eine Person. Er ist siebzehn Jahre alt.", "zh": "就一个人。他十七岁。", "items": ["de.nur", "de.ein", "de.person", "de.er", "de.sein", "de.siebzehn", "de.jahr", "de.alt"] },
+    { "speaker": "notruf", "text": "Der Krankenwagen kommt in zehn Minuten. Bewegen Sie seinen Fuß bitte nicht!", "zh": "救护车十分钟后到。请先别动他的脚!", "items": ["de.krankenwagen", "de.ich_komme_aus", "de.in", "de.zehn", "de.minute", "de.bewegen", "de.sie_hoeflich", "de.sein_poss", "de.fuss", "de.bitte", "de.nicht"] },
+    { "speaker": "wei", "text": "Danke! Paul, keine Angst! Der Krankenwagen kommt bald.", "zh": "谢谢!保罗,别怕!救护车很快就来。", "items": ["de.danke", "de.kein", "de.angst", "de.krankenwagen", "de.ich_komme_aus", "de.bald"] }
+  ],
+  "questions": [
+    { "prompt": "保罗怎么了?", "options": ["他头疼", "他发烧了", "他踢球时摔倒了,脚踝很疼"], "answer": 2, "explainZh": "保罗说 Mein Knöchel tut sehr weh!;王伟在电话里说:Mein Freund ist beim Fußball hingefallen.(我朋友踢球时摔倒了。)" },
+    { "prompt": "救护车多久能到?", "options": ["五分钟", "十分钟", "半个小时"], "answer": 1, "explainZh": "接线员说:Der Krankenwagen kommt in zehn Minuten.(救护车十分钟后到。)" },
+    { "prompt": "接线员让他们先做什么?", "options": ["别动保罗的脚", "给保罗吃药", "自己把保罗送到医院"], "answer": 0, "explainZh": "Bewegen Sie seinen Fuß bitte nicht!(请别动他的脚!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u18_notruf", "titleZh": "打 112:接线员问什么、怎么回答",
+      "bodyZh": "德国的急救和消防电话是 112,警察是 110,全国免费,手机没有话费也能打。接线员一般按顺序问:① Wo genau sind Sie?(您具体在哪儿?)——说城市、街名、门牌号或者好找的地方:Im Park an der Parkstraße, am Eingang.;② Was ist passiert?(出什么事了?)——一句话说清楚:Mein Freund ist hingefallen.;③ Wie viele Personen sind verletzt?(几个人受伤?)——Nur eine Person.。接线员还可能问您的名字和电话号码。\n要点:说话慢一点,一项一项回答;号码、门牌号一位一位地说;不要先挂电话,等接线员说完。听到 Bewegen Sie … nicht!(别动……)这类 Sie 的命令式,就是对方在告诉你现在该做什么。\nwie viele 后面跟复数名词(Wie viele Personen?),wie viel 后面跟不可数名词(Wie viel Geld?)。",
+      "examples": [
+        { "text": "Wo genau sind Sie?", "zh": "您具体在什么地方?" },
+        { "text": "Mein Freund ist hingefallen.", "zh": "我朋友摔倒了。" },
+        { "text": "Wie viele Personen sind verletzt?", "zh": "有几个人受伤?" }
+      ] },
+    { "id": "de.g.u18_hingefallen", "titleZh": "Er ist hingefallen:sein 的完成时;Bewegen Sie seinen Fuß nicht!",
+      "bodyZh": "hinfallen(摔倒)是可分动词,说的是位置的变化,完成时用 sein:Paul ist hingefallen.;过去分词是 hin + ge + fallen,ge 夹在前缀和词干中间。同样用 sein 的还有 passieren(Was ist passiert?)、gehen、fahren、kommen。\nSie 的命令式:动词放句首,后面跟 Sie,否定的 nicht 放句末:Bewegen Sie seinen Fuß bitte nicht!(请别动他的脚!)这里 seinen 是 sein(他的)的第四格——der Fuß 是阳性,做宾语要加 -en。\n朋友之间着急时用 du 的命令式:Ruf bitte die 112 an!(快打 112!)112 读作 eins-eins-zwei。",
+      "examples": [
+        { "text": "Paul ist hingefallen.", "zh": "保罗摔倒了。" },
+        { "text": "Bewegen Sie seinen Fuß bitte nicht!", "zh": "请别动他的脚!" },
+        { "text": "Ruf bitte die 112 an!", "zh": "快打 112!" }
+      ] }
+  ],
+  "review": "draft"
+}

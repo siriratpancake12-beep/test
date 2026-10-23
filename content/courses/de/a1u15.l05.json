@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u15.l05", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-15 节日与生日", "order": 115050,
+  "titleZh": "端午节和粽子", "goalZh": "会用简单的德语介绍端午节:什么时候、吃什么、有什么活动", "canDoZh": "能用简单的德语介绍一个中国节日:什么时候、吃什么、做什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.drachenbootfest", "kind": "word", "pos": "noun", "text": "das Drachenbootfest", "zh": "端午节", "features": { "gender": "n", "plural": "die Drachenbootfeste", "ipa": "ˈdʁaxn̩boːtˌfɛst" }, "noteZh": "der Drache(龙)+ das Boot(船)+ das Fest(节日);复合词的性看最后一部分,所以是 das;ch 在 a 后面读 [x]。" },
+    { "id": "de.blatt", "kind": "word", "pos": "noun", "text": "das Blatt", "zh": "叶子;(一张)纸", "features": { "gender": "n", "plural": "die Blätter", "ipa": "blat" }, "noteZh": "复数变音加 -er:die Blätter;in Blättern(包在叶子里)是第三格复数,再加 -n;ein Blatt Papier = 一张纸。" },
+    { "id": "de.feiertag", "kind": "word", "pos": "noun", "text": "der Feiertag", "zh": "节假日;法定假日", "features": { "gender": "m", "plural": "die Feiertage", "ipa": "ˈfaɪ̯ɐˌtaːk" }, "noteZh": "放假的节日:In China ist das ein Feiertag.;德国的法定假日商店一般都关门;词尾 g 读 [k]。" },
+    { "id": "de.mondkalender", "kind": "word", "pos": "noun", "text": "der Mondkalender", "zh": "农历;阴历", "features": { "gender": "m", "plural": "die Mondkalender", "ipa": "ˈmoːntkaˌlɛndɐ" }, "noteZh": "der Mond(月亮)+ der Kalender(日历);im Mondkalender(按农历);重音在 Mond 上,d 读 [t]。" },
+    { "id": "de.tradition", "kind": "word", "pos": "noun", "text": "die Tradition", "zh": "传统", "features": { "gender": "f", "plural": "die Traditionen", "ipa": "tʁadiˈtsi̯oːn" }, "noteZh": "-tion 读 [tsi̯oːn],重音在最后:tra-di-TION;-tion 结尾的名词都是阴性;Das ist Tradition.(这是传统。)" },
+    { "id": "de.leute", "kind": "word", "pos": "noun", "text": "die Leute", "zh": "人们;大家", "features": { "gender": "pl", "ipa": "ˈlɔʏ̯tə" }, "noteZh": "只有复数,die 是复数冠词:viele Leute(很多人);第三格加 -n:mit zwanzig Leuten;eu 读 [ɔʏ̯]。" },
+    { "id": "de.drachenboot", "kind": "word", "pos": "noun", "text": "das Drachenboot", "zh": "龙舟", "features": { "gender": "n", "plural": "die Drachenboote", "ipa": "ˈdʁaxn̩ˌboːt" }, "noteZh": "der Drache(龙)+ das Boot(船);复数 die Drachenboote;oo 读长音 [oː]。柏林夏天也有龙舟比赛。" },
+    { "id": "de.rennen", "kind": "word", "pos": "noun", "text": "das Rennen", "zh": "(速度)比赛", "features": { "gender": "n", "plural": "die Rennen", "ipa": "ˈʁɛnən" }, "noteZh": "das Drachenbootrennen(龙舟赛);单复数同形;词首 r 是小舌音 [ʁ],喉咙后面轻轻震动。" },
+    { "id": "de.typisch", "kind": "word", "pos": "adj", "text": "typisch", "zh": "典型的;……的作风", "features": { "ipa": "ˈtyːpɪʃ" }, "noteZh": "口语:Typisch Jonas!(约纳斯就是这样!)y 读 [yː],和 ü 一样;重音在 ty 上。" }
+  ],
+  "reviewItems": ["de.fest", "de.feiern", "de.reis", "de.fleisch", "de.kartoffel"],
+  "lines": [
+    { "speaker": "sofia", "text": "Wei, was machst du da?", "zh": "王伟,你在做什么呢?", "items": ["de.was", "de.machen", "de.du", "de.da"] },
+    { "speaker": "wei", "text": "Zongzi: Reis und Fleisch in Blättern. Morgen ist das Drachenbootfest!", "zh": "粽子:用叶子包着米和肉。明天就是端午节了!", "items": ["de.reis", "de.und", "de.fleisch", "de.in", "de.blatt", "de.morgen", "de.sein", "de.drachenbootfest"] },
+    { "speaker": "sofia", "text": "Ist das ein Feiertag in China?", "zh": "这在中国是放假的节日吗?", "items": ["de.das_ist", "de.ein", "de.feiertag", "de.in", "de.china"] },
+    { "speaker": "wei", "text": "Ja! Es ist am fünften Tag im fünften Monat, im Mondkalender.", "zh": "对!在农历五月初五。", "items": ["de.ja", "de.es", "de.sein", "de.am", "de.fuenf", "de.tag", "de.in", "de.monat", "de.mondkalender"] },
+    { "speaker": "jonas", "text": "Und wie feiert ihr das Fest?", "zh": "那你们怎么过这个节?", "items": ["de.und", "de.wie", "de.feiern", "de.ihr", "de.fest"] },
+    { "speaker": "wei", "text": "Wir essen Zongzi – das ist Tradition. Und viele Leute sehen die Drachenbootrennen.", "zh": "我们吃粽子,这是传统。很多人还去看龙舟赛。", "items": ["de.wir", "de.essen", "de.das_ist", "de.tradition", "de.und", "de.viel", "de.leute", "de.sehen", "de.drachenboot", "de.rennen"] },
+    { "speaker": "sofia", "text": "So ein Fest gibt es in Italien nicht. Schön!", "zh": "意大利没有这样的节日。真好!", "items": ["de.so", "de.ein", "de.fest", "de.es_gibt", "de.in", "de.italien", "de.nicht", "de.schoen"] },
+    { "speaker": "jonas", "text": "Kann ich auch Zongzi machen?", "zh": "我也能包粽子吗?", "items": ["de.koennen", "de.ich", "de.auch", "de.machen"] },
+    { "speaker": "wei", "text": "Gern! Du nimmst zwei Blätter, dann Reis und Fleisch.", "zh": "当然!你拿两片叶子,再放米和肉。", "items": ["de.gern", "de.du", "de.nehmen", "de.zwei", "de.blatt", "de.dann", "de.reis", "de.und", "de.fleisch"] },
+    { "speaker": "sofia", "text": "Typisch Jonas! Das ist kein Zongzi, das ist eine Kartoffel!", "zh": "约纳斯就是这样!这不是粽子,这是个土豆!", "items": ["de.typisch", "de.das_ist", "de.kein", "de.ein", "de.kartoffel"] }
+  ],
+  "questions": [
+    { "prompt": "粽子里面有什么?", "options": ["面和蔬菜", "米和肉", "鱼和土豆"], "answer": 1, "explainZh": "王伟说:Zongzi: Reis und Fleisch in Blättern.(粽子:用叶子包着米和肉。)" },
+    { "prompt": "端午节是哪一天?", "options": ["农历五月初五", "农历八月十五", "农历正月初一"], "answer": 0, "explainZh": "王伟说:Es ist am fünften Tag im fünften Monat, im Mondkalender.(在农历第五个月的第五天。)" },
+    { "prompt": "索菲娅为什么说 “Das ist eine Kartoffel”?", "options": ["约纳斯在煮土豆", "粽子里放了土豆", "约纳斯包的粽子不像粽子"], "answer": 2, "explainZh": "约纳斯第一次包粽子,包得歪歪扭扭。索菲娅开玩笑:Typisch Jonas! Das ist kein Zongzi, das ist eine Kartoffel!" }
+  ],
+  "grammar": [
+    { "id": "de.g.u15_fest_vorstellen", "titleZh": "介绍一个节日",
+      "bodyZh": "介绍节日,照这几个问题说:\n① 什么时候?Das Drachenbootfest ist im Juni.(在六月)/ Es ist am fünften Tag im fünften Monat, im Mondkalender.(农历五月初五)——日期用序数词:am fünften Tag(第五天)、im fünften Monat(第五个月)。\n② 放不放假?In China ist das ein Feiertag.\n③ 吃什么、做什么?Wir essen Zongzi.(我们吃粽子。)/ Es gibt Drachenbootrennen.(有龙舟赛。)/ Viele Leute sehen die Rennen.\n④ 为什么?Das ist Tradition.(这是传统。)\n给外国朋友介绍中国的节日,用 wir(我们)说最自然;第 5 单元学的 das Frühlingsfest(春节)、das Mondfest(中秋节)也可以这样介绍。中国菜名可以直接用拼音(Zongzi、Baozi),再用德语解释一句是什么。",
+      "examples": [
+        { "text": "Das Drachenbootfest ist im Juni.", "zh": "端午节在六月。" },
+        { "text": "In China ist das ein Feiertag.", "zh": "在中国这天放假。" },
+        { "text": "Wir essen Zongzi.", "zh": "我们吃粽子。" },
+        { "text": "Es gibt Drachenbootrennen.", "zh": "有龙舟赛。" }
+      ] },
+    { "id": "de.g.u15_kein_ein_dann", "titleZh": "Das ist kein …, das ist ein …;按顺序教别人做",
+      "bodyZh": "索菲娅爱用的句型:Das ist kein Zongzi, das ist eine Kartoffel!(这不是粽子,这是土豆!)——否定名词用 kein,后面用 ein / eine 说“其实是什么”;kein 的词尾和 ein 一样:kein Zongzi(das)、keine Kartoffel(die)。\n教别人做东西,按顺序说:Du nimmst zwei Blätter, dann Reis und Fleisch.;dann 放在句首时,动词紧跟在 dann 后面:Dann nimmst du Reis.(✗ Dann du nimmst Reis)。",
+      "examples": [
+        { "text": "Das ist kein Zongzi, das ist eine Kartoffel!", "zh": "这不是粽子,这是土豆!" },
+        { "text": "Du nimmst zwei Blätter.", "zh": "你拿两片叶子。" },
+        { "text": "Dann nimmst du Reis und Fleisch.", "zh": "然后放米和肉。" }
+      ] }
+  ],
+  "review": "draft"
+}

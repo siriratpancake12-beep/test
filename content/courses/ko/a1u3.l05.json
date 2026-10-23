@@ -1,0 +1,54 @@
+{
+  "id": "ko.a1u3.l05", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-3 自我介绍与家人", "order": 103050,
+  "titleZh": "我家有奶奶、爸爸妈妈和姐姐", "goalZh": "会用 하고 / 와·과 列举家人,用 그리고 连接句子",
+  "canDoZh": "能看着照片向朋友介绍自己的家人:有谁、谁是谁",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "ko.eomeoni", "kind": "word", "pos": "noun", "text": "어머니", "zh": "母亲;妈妈(正式)", "features": { "roman": "eomeoni" }, "noteZh": "比 엄마 正式;向别人介绍自己的母亲、写文章时用。" },
+    { "id": "ko.abeoji", "kind": "word", "pos": "noun", "text": "아버지", "zh": "父亲;爸爸(正式)", "features": { "roman": "abeoji" }, "noteZh": "比 아빠 正式;两个元音之间的 ㅂ、ㅈ 变浊,听起来像 a-beo-ji。" },
+    { "id": "ko.hyeong", "kind": "word", "pos": "noun", "text": "형", "zh": "哥哥(男生叫)", "features": { "roman": "hyeong" }, "noteZh": "汉字词 兄;男生称呼哥哥或亲近的年长男性,女生叫 오빠。" },
+    { "id": "ko.nuna", "kind": "word", "pos": "noun", "text": "누나", "zh": "姐姐(男生叫)", "features": { "roman": "nuna" }, "noteZh": "男生称呼姐姐或亲近的年长女性,女生叫 언니。" },
+    { "id": "ko.halmeoni", "kind": "word", "pos": "noun", "text": "할머니", "zh": "奶奶;外婆", "features": { "roman": "halmeoni" }, "noteZh": "韩语日常不分父系母系,奶奶、外婆都叫 할머니(要区分时外婆说 외할머니);街上的老奶奶也可以这样称呼。" },
+    { "id": "ko.harabeoji", "kind": "word", "pos": "noun", "text": "할아버지", "zh": "爷爷;外公", "features": { "roman": "harabeoji" }, "noteZh": "爷爷、外公都叫 할아버지;连音读 [하라버지]。" },
+    { "id": "ko.bumonim", "kind": "word", "pos": "noun", "text": "부모님", "zh": "父母(尊称)", "features": { "roman": "bumonim" }, "noteZh": "汉字词 父母 + 님;说起父母一般都加 님,自己的父母也一样。" },
+    { "id": "ko.geurigo", "kind": "word", "pos": "conj", "text": "그리고", "zh": "还有;而且;然后", "features": { "roman": "geurigo" }, "noteZh": "连接两个句子,放在第二句开头;列举时也可以放在最后一项前面:아버지와 어머니, 그리고 저。只连接两个名词用 하고 或 와/과。" }
+  ],
+  "reviewItems": ["ko.gajok", "ko.isseoyo", "ko.namdongsaeng", "ko.chingu"],
+  "lines": [
+    { "speaker": "minjun", "text": "안녕하세요! 이민준이에요. 반갑습니다.", "zh": "(第一次语言交换,在学校里的一家咖啡店。一个男生站起来打招呼)你好!我叫李敏俊,很高兴认识你。", "roman": "Annyeonghaseyo! Iminjunieyo. Bangapseumnida.", "items": ["ko.annyeonghaseyo", "ko.bangapseumnida"] },
+    { "speaker": "jing", "text": "안녕하세요. 저는 천징이에요. 잘 부탁드립니다.", "zh": "你好,我叫陈静。请多关照。", "roman": "Annyeonghaseyo. Jeoneun Cheonjingieyo. Jal butakdeurimnida.", "items": ["ko.annyeonghaseyo", "ko.jeo", "ko.jal_butakdeurimnida"] },
+    { "speaker": "jing", "text": "그리고 제 친구 남 씨예요.", "zh": "还有,这是我的朋友阿南。(阿南也跟着来了,在旁边笑着挥手)", "roman": "Geurigo je chingu Nam ssiyeyo.", "items": ["ko.geurigo", "ko.chingu", "ko.ssi"] },
+    { "speaker": "minjun", "text": "우리 가족 사진이에요.", "zh": "(大家说好今天用韩语聊家人,敏俊先拿出手机)这是我家人的照片。", "roman": "Uri gajok sajinieyo.", "items": ["ko.uri", "ko.gajok", "ko.sajin"] },
+    { "speaker": "minjun", "text": "할머니하고 부모님이에요. 그리고 누나예요.", "zh": "这是我奶奶和我爸妈。还有,这是我姐姐。(他又用不太标准的中文说了一遍:“我的……姐姐!”)", "roman": "Halmeonihago bumonimieyo. Geurigo nunayeyo.", "items": ["ko.halmeoni", "ko.bumonim", "ko.geurigo", "ko.nuna"] },
+    { "speaker": "nam", "text": "저는 형하고 남동생이 있어요.", "zh": "(阿南也凑过来)我有一个哥哥和一个弟弟。", "roman": "Jeoneun hyeonghago namdongsaengi isseoyo.", "items": ["ko.jeo", "ko.hyeong", "ko.namdongsaeng", "ko.isseoyo"] },
+    { "speaker": "nam", "text": "이거 우리 할아버지예요!", "zh": "(阿南马上翻出他给爷爷拍的短视频)这是我爷爷!", "roman": "Igeo uri harabeojiyeyo!", "items": ["ko.igeo", "ko.uri", "ko.harabeoji"] },
+    { "speaker": "minjun", "text": "천징 씨 가족은요?", "zh": "(敏俊笑着看完视频,转向陈静)陈静,你家呢?", "roman": "Cheonjing ssi gajogeunyo?", "items": ["ko.ssi", "ko.gajok"] },
+    { "speaker": "jing", "text": "우리 가족은 아버지와 어머니, 그리고 저예요.", "zh": "我家有爸爸、妈妈,还有我。", "roman": "Uri gajogeun abeojiwa eomeoni, geurigo jeoyeyo.", "items": ["ko.uri", "ko.gajok", "ko.abeoji", "ko.eomeoni", "ko.geurigo", "ko.jeo"] },
+    { "speaker": "minjun", "text": "아, 그래요? 동생 없어요?", "zh": "啊,是吗?没有弟弟妹妹?", "roman": "A, geuraeyo? Dongsaeng eopseoyo?", "items": ["ko.geuraeyo", "ko.dongsaeng", "ko.eopseoyo"] },
+    { "speaker": "jing", "text": "네, 없어요.", "zh": "嗯,没有。", "roman": "Ne, eopseoyo.", "items": ["ko.ne", "ko.eopseoyo"] },
+    { "speaker": "jing", "text": "그리고 친구가 있어요. 수아 씨, 남 씨, 민준 씨!", "zh": "(陈静笑着看看阿南和敏俊)不过我有朋友呀:秀雅、阿南,还有敏俊!", "roman": "Geurigo chinguga isseoyo. Sua ssi, Nam ssi, Minjun ssi!", "items": ["ko.geurigo", "ko.chingu", "ko.isseoyo", "ko.ssi"] }
+  ],
+  "questions": [
+    { "prompt": "敏俊家有谁?", "options": ["奶奶、父母和姐姐", "爷爷、奶奶和哥哥", "父母和妹妹"], "answer": 0, "explainZh": "第 5 句:할머니하고 부모님이에요. 그리고 누나예요.(这是奶奶和父母,还有姐姐。)누나 是男生叫的“姐姐”。" },
+    { "prompt": "阿南说“저는 형하고 남동생이 있어요”,他有什么兄弟?", "options": ["一个姐姐和一个妹妹", "一个哥哥和一个弟弟", "两个哥哥"], "answer": 1, "explainZh": "第 6 句:형 是男生叫的“哥哥”,남동생 是弟弟,하고 = 和。" },
+    { "prompt": "陈静介绍自己家时,为什么说 아버지와 어머니,不说 아빠하고 엄마?", "options": ["아빠、엄마 是男生用的", "아버지와 어머니 是她的爷爷奶奶", "向刚认识的人介绍家人,用正式一点的说法"], "answer": 2, "explainZh": "第 9 句:아버지、어머니 比 아빠、엄마 正式,和刚认识的人、在正式场合介绍家人时常用;와 也比 하고 正式。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.hago_wa_geurigo", "titleZh": "“和”:N하고 N / N와·과 N;句子之间用 그리고",
+      "bodyZh": "连接两个名词有两种说法:① N하고 N,口语最常用,前面有没有收音都一样:형하고 남동생、할머니하고 부모님。② N와/과 N,书面、正式一点:没有收音用 와(아버지와 어머니),有收音用 과(동생과 저)。最后一个名词后面不加 하고、와/과。\n连接两个句子用 그리고(还有、而且),放在第二句开头:할머니하고 부모님이에요. 그리고 누나예요。列举好几样时,也可以把 그리고 放在最后一项前面:아버지와 어머니, 그리고 저예요。\n中国学生常把中文的“和”直接换成 그리고 放在两个名词中间(형 그리고 남동생),这样说不算错,但听起来像在一项一项地补充;平时连接名词用 하고 更自然。反过来,하고、와/과 不能连接两个句子。",
+      "examples": [
+        { "text": "저는 형하고 남동생이 있어요.", "zh": "我有哥哥和弟弟。(口语用 하고)" },
+        { "text": "아버지와 어머니, 그리고 저예요.", "zh": "爸爸、妈妈,还有我。(아버지 没有收音 → 와)" },
+        { "text": "할머니하고 부모님이에요. 그리고 누나예요.", "zh": "这是奶奶和父母。还有,这是姐姐。(그리고 连接两个句子)" }
+      ] },
+    { "id": "ko.g.family_terms", "titleZh": "称呼家人:看说话人是男是女,也看场合",
+      "bodyZh": "哥哥、姐姐的叫法看说话人的性别:男生叫哥哥 형、姐姐 누나(敏俊说 우리 누나);女生叫哥哥 오빠、姐姐 언니。弟弟妹妹不分,都是 동생。\n场合不同,说法也不同:엄마、아빠 是口语,在家里叫、和熟人聊天时用;어머니、아버지 正式一点,向刚认识的人介绍、写自我介绍时常用。说“父母”一般用带尊称 님 的 부모님,说自己的父母也一样。中文分奶奶 / 外婆、爷爷 / 外公,韩语日常都叫 할머니、할아버지。\n顺便注意:说长辈“在、有”时,韩国人会换成敬语动词(以后学),所以介绍长辈时,本课先用 N이에요/예요 说“这是谁”:우리 할아버지예요。",
+      "examples": [
+        { "text": "우리 누나예요.", "zh": "这是我姐姐。(男生叫姐姐用 누나)" },
+        { "text": "부모님이에요.", "zh": "这是我父母。(说父母一般加 님)" },
+        { "text": "우리 할아버지예요!", "zh": "这是我爷爷!(爷爷、外公都叫 할아버지)" }
+      ] }
+  ],
+  "review": "draft"
+}

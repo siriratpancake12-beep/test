@@ -46,24 +46,24 @@
         { "id": "de.guenstig", "kind": "word", "pos": "adj", "text": "günstig", "zh": "便宜的;划算的", "features": { "ipa": "ˈɡʏnstɪç" }, "noteZh": "比 billig 好听:billig 有时带“便宜没好货”的意思,günstig 是“价钱划算”;词尾 -ig 读 [ɪç];ü 是短音。" },
         { "id": "de.kuendigen", "kind": "word", "pos": "verb", "text": "kündigen", "zh": "解约;退订(合同)", "features": { "ipa": "ˈkʏndɪɡn̩" }, "noteZh": "den Vertrag kündigen(解除合同);Sie können jeden Monat kündigen.(每个月都可以退订);也是“辞职、辞退”的意思;ü 是短音 [ʏ]。" }
       ],
-      "reviewItems": ["de.teuer", "de.wie_lange", "de.wie_viel", "de.monat", "de.pass"]
+      "reviewItems": ["de.teuer", "de.wie_lange", "de.wie_viel", "de.monat", "de.pass", "de.dauern"]
     },
     {
       "id": "de.a1u10.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110030,
       "titleZh": "先下载,再登录:说步骤",
       "goalZh": "会用 zuerst / dann / danach / zum Schluss 说步骤,会用可分动词加情态动词",
       "canDoZh": "能一步一步地说明怎么用手机做一件事,也能听懂别人的说明",
-      "scenarioZh": "王伟买了新手机。晚上索菲娅教他:先把旧手机的照片存好(speichern),再下载、安装 App,然后用邮箱登录(sich anmelden,第 9 单元学过)。王伟复述时把顺序说反了,索菲娅纠正:Zuerst musst du die Bilder speichern!;最后王伟打开 App,点一下,就能给莉娜发消息了。du 的命令式下个单元才教,本课用陈述句和情态动词说步骤。说话人:wei、sofia。",
+      "scenarioZh": "王伟买了新手机。晚上索菲娅教他:先把旧手机的照片存好(speichern),再下载、安装 App,然后用邮箱登录(sich anmelden,第 9 单元学过)。王伟复述时把顺序说反了,索菲娅纠正:Zuerst musst du die Bilder speichern!;最后王伟打开(starten)App,点一下,就能给莉娜发消息了。öffnen 已由 u12.l05 登记,本课不用。du 的命令式下个单元才教,本课用陈述句和情态动词说步骤。说话人:wei、sofia。",
       "grammarFocusZh": "可分动词和情态动词连用时前缀不分开、放句末(Du musst die App herunterladen);zuerst / dann / danach / zum Schluss 说步骤,放句首时动词仍在第二位",
       "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
       "newItems": [
         { "id": "de.herunterladen", "kind": "word", "pos": "verb", "text": "herunterladen", "zh": "下载", "features": { "ipa": "hɛˈʁʊntɐˌlaːdn̩" }, "noteZh": "可分:Ich lade die App herunter.;口语常说 runterladen;和情态动词连用时不分开:Du musst die App herunterladen.;du lädst … herunter。" },
         { "id": "de.zuerst", "kind": "word", "pos": "adv", "text": "zuerst", "zh": "首先;先", "features": { "ipa": "tsuˈʔeːɐ̯st" }, "noteZh": "说步骤的第一步:Zuerst speicherst du die Bilder.;放句首时动词还在第二位,主语挪到动词后面;重音在 erst。" },
         { "id": "de.danach", "kind": "word", "pos": "adv", "text": "danach", "zh": "之后;然后", "features": { "ipa": "daˈnaːx" }, "noteZh": "说下一步:Danach meldest du dich an.;意思和 dann 差不多;a 后面的 ch 读 [x]。" },
-        { "id": "de.zum_schluss", "kind": "phrase", "pos": "phrase", "text": "zum Schluss", "zh": "最后", "features": { "ipa": "tsʊm ˈʃlʊs" }, "noteZh": "说最后一步:Zum Schluss öffnest du die App.;der Schluss = 结尾;放句首时动词还在第二位。" },
+        { "id": "de.zum_schluss", "kind": "phrase", "pos": "phrase", "text": "zum Schluss", "zh": "最后", "features": { "ipa": "tsʊm ˈʃlʊs" }, "noteZh": "说最后一步:Zum Schluss startest du die App.;der Schluss = 结尾;放句首时动词还在第二位。" },
         { "id": "de.speichern", "kind": "word", "pos": "verb", "text": "speichern", "zh": "存储;保存", "features": { "ipa": "ˈʃpaɪ̯çɐn" }, "noteZh": "电脑、手机上的“保存”:die Bilder speichern;-ern 结尾的动词:ich speichere, du speicherst;sp 读 [ʃp],ei 读 [aɪ̯]。" },
         { "id": "de.installieren", "kind": "word", "pos": "verb", "text": "installieren", "zh": "安装", "features": { "ipa": "ɪnstaˈliːʁən" }, "noteZh": "eine App installieren(安装 App);-ieren 动词重音在 lie,完成时 installiert(不加 ge-)。" },
-        { "id": "de.oeffnen", "kind": "word", "pos": "verb", "text": "öffnen", "zh": "打开", "features": { "ipa": "ˈœfnən" }, "noteZh": "Wie öffne ich die App?(怎么打开 App?);门、窗、文件都能用;du öffnest, er öffnet(词干以 n 结尾要加 e);第 7 单元的 geöffnet 就是它的过去分词。" },
+        { "id": "de.starten", "kind": "word", "pos": "verb", "text": "starten", "zh": "启动;打开(程序)", "features": { "ipa": "ˈʃtaʁtn̩" }, "noteZh": "die App starten(打开 App)/ das Handy neu starten(重启手机);词首 st 读 [ʃt];du startest, er startet(词干以 t 结尾要加 e)。" },
         { "id": "de.klicken", "kind": "word", "pos": "verb", "text": "klicken", "zh": "点击", "features": { "ipa": "ˈklɪkn̩" }, "noteZh": "用鼠标或手指点一下:Ich klicke hier.;ck 读 [k]。" },
         { "id": "de.einfach", "kind": "word", "pos": "adj", "text": "einfach", "zh": "简单;容易", "features": { "ipa": "ˈaɪ̯nfax" }, "noteZh": "Das ist einfach!(这很简单!);反义词 schwer / kompliziert;a 后面的 ch 读 [x]。" }
       ],
@@ -131,7 +131,7 @@
       "goalZh": "认识网上安全的常用词,能说出保护密码的几条规则",
       "canDoZh": "能看懂网上的安全提示,说出密码、账号、登录这些词,知道个人信息不能随便给别人",
       "scenarioZh": "王伟收到一封奇怪的邮件,说他的银行账户被冻结了(gesperrt),要他点链接、写密码。他问莉娜;莉娜说这是骗人的(Betrug),银行从来不在邮件里要密码,链接不能点,邮件可以删掉;两人接着说密码的规则:要长、要保密、每个网站用不一样的密码,上网要小心。规划里“银行从来不问密码”的 fragen 是第 1 单元新增课的词,还没定,本课说 Eine Bank will dein Passwort nie in einer E-Mail.。说话人:wei、lena。",
-      "grammarFocusZh": "dürfen + man 复习(Den Link darfst du nicht öffnen / Darf man ein Passwort für zwei Websites benutzen?);nie / immer 复习(Eine Bank will dein Passwort nie …);müssen 说规则(Ein Passwort muss lang sein)",
+      "grammarFocusZh": "dürfen + man 复习(Du darfst den Link nicht klicken / Darf man ein Passwort für zwei Websites benutzen?);nie / immer 复习(Eine Bank will dein Passwort nie …);müssen 说规则(Ein Passwort muss lang sein)",
       "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26,
       "newItems": [
         { "id": "de.passwort", "kind": "word", "pos": "noun", "text": "das Passwort", "zh": "密码", "features": { "gender": "n", "plural": "die Passwörter", "ipa": "ˈpasvɔʁt" }, "noteZh": "中性,复数变音:Passwörter;w 读 [v]:PASS-wort;Das Passwort ist geheim.(密码要保密。)" },
@@ -144,7 +144,7 @@
         { "id": "de.andere", "kind": "word", "pos": "adj", "text": "andere", "zh": "别的;另一个;不同的", "alt": ["anderer", "anderes", "anderen"], "features": { "ipa": "ˈandəʁə" }, "noteZh": "放在名词前,词尾跟着名词变:ein anderes Passwort(另一个密码)、eine andere Website(另一个网站)。" },
         { "id": "de.vorsichtig", "kind": "word", "pos": "adj", "text": "vorsichtig", "zh": "小心的;谨慎的", "features": { "ipa": "ˈfoːɐ̯ˌzɪçtɪç" }, "noteZh": "Man muss im Internet vorsichtig sein.(上网要小心。);v 读 [f];词尾 -ig 读 [ɪç]。" }
       ],
-      "reviewItems": ["de.klicken", "de.oeffnen", "de.sicher", "de.nie", "de.konto"]
+      "reviewItems": ["de.klicken", "de.duerfen", "de.sicher", "de.nie", "de.konto"]
     },
     {
       "id": "de.a1u10.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-10 手机与网络", "order": 110070,

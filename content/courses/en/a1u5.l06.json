@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u5.l06", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105060,
+  "titleZh": "在银行开户", "goalZh": "会在银行说明来意、出示证件,听懂填表和签名的说法", "canDoZh": "能在银行开一个账户:说明来意、出示证件、填好表格并签名",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "en.account", "kind": "word", "pos": "noun", "text": "account", "zh": "账户;账号", "features": { "ipa": "əˈkaʊnt" }, "noteZh": "a bank account 一个银行账户;重音在后 ac-COUNT,ou 读 /aʊ/。网上注册的“账号”也叫 account。" },
+    { "id": "en.form", "kind": "word", "pos": "noun", "text": "form", "zh": "表格", "features": { "ipa": "fɔːrm" }, "noteZh": "fill out a form 填表;or 要卷舌 /ɔːr/,词尾 m 双唇合上,别读成“佛么”。" },
+    { "id": "en.fill_out", "kind": "phrase", "pos": "verb", "text": "fill out", "zh": "填写(表格)", "alt": ["fill in"], "features": { "ipa": "ˌfɪl ˈaʊt" }, "noteZh": "Please fill out this form. 请填一下这张表;两个词连读成“fi-lout”。英式英语多说 fill in。" },
+    { "id": "en.sign", "kind": "word", "pos": "verb", "text": "sign", "zh": "签名;签字", "features": { "ipa": "saɪn" }, "noteZh": "g 不发音,读 /saɪn/;Sign here, please. 请在这儿签名。名词“签名”是 signature,a sign 是“标志、牌子”。" },
+    { "id": "en.signature", "kind": "word", "pos": "noun", "text": "signature", "zh": "签名(名词)", "features": { "ipa": "ˈsɪɡnətʃɚ" }, "noteZh": "这里的 g 要发音:SIG-na-ture,重音在前;sign 是动词“签”,signature 是名词“签名”。" },
+    { "id": "en.id", "kind": "word", "pos": "noun", "text": "ID", "zh": "证件;身份证明", "alt": ["I.D."], "features": { "ipa": "ˌaɪ ˈdiː" }, "noteZh": "读两个字母 I-D;student ID 学生证。办事时常被问 Do you have an ID?——I 的读音以元音开头,所以用 an。" },
+    { "id": "en.mail", "kind": "word", "pos": "noun", "text": "mail", "zh": "邮件;邮寄", "features": { "ipa": "meɪl" }, "noteZh": "Your card comes in the mail. 卡会寄给你;mail 是寄来的信和包裹,email 是电子邮件。" }
+  ],
+  "reviewItems": ["en.bank", "en.want", "en.phone_number", "en.what_does_that_mean", "en.thats_right"],
+  "lines": [
+    { "speaker": "staff", "text": "Hi! Next, please.", "zh": "(派恩街上的那家银行,柜台的工作人员招呼他)你好!下一位。", "items": ["en.hi", "en.next"] },
+    { "speaker": "lei", "text": "Hi. I want a bank account, please.", "zh": "您好。我想开一个银行账户。", "items": ["en.hi", "en.want", "en.bank", "en.account"] },
+    { "speaker": "staff", "text": "Sure. Do you have an ID?", "zh": "好的。你带证件了吗?", "items": ["en.sure", "en.have", "en.id"] },
+    { "speaker": "lei", "text": "Yes. Here's my student ID.", "zh": "带了。这是我的学生证。", "items": ["en.student", "en.id"] },
+    { "speaker": "staff", "text": "Thanks. Please fill out this form.", "zh": "谢谢。请填一下这张表。", "items": ["en.thank_you", "en.fill_out", "en.form"] },
+    { "speaker": "staff", "text": "Is this your phone number? 206-555-0193?", "zh": "(磊填完了)这是你的电话号码吗?206-555-0193?", "items": ["en.phone_number"] },
+    { "speaker": "lei", "text": "That's right. My email is on the form, too.", "zh": "对。我的邮箱也写在表上了。", "items": ["en.thats_right", "en.email", "en.form"] },
+    { "speaker": "staff", "text": "Great. Now sign here, please.", "zh": "好。现在请在这儿签名。", "items": ["en.great", "en.sign"] },
+    { "speaker": "lei", "text": "Sorry? What does that mean?", "zh": "不好意思?那是什么意思?", "items": ["en.sorry", "en.what_does_that_mean"] },
+    { "speaker": "staff", "text": "Your signature. Here's my signature, see?", "zh": "就是你的签名。你看,这是我的签名。", "items": ["en.signature", "en.see"] },
+    { "speaker": "lei", "text": "Oh, I understand! So I sign here. Is Chinese OK?", "zh": "哦,我明白了!那我在这儿签名。用中文签可以吗?", "items": ["en.understand", "en.sign"] },
+    { "speaker": "staff", "text": "Sure. Your card comes in the mail in about a week.", "zh": "当然可以。你的银行卡大约一周后寄到。", "items": ["en.sure", "en.card", "en.come", "en.mail", "en.week"] }
+  ],
+  "questions": [
+    { "prompt": "磊来银行做什么?", "options": ["取钱", "开一个银行账户", "换外币"], "answer": 1, "explainZh": "磊说 I want a bank account, please.(我想开一个银行账户。)" },
+    { "prompt": "工作人员问 Do you have an ID? 时,磊拿出了什么?", "options": ["护照", "银行卡", "学生证"], "answer": 2, "explainZh": "磊说 Here's my student ID.(这是我的学生证。)ID 就是证件。" },
+    { "prompt": "签名可以用中文吗?", "options": ["可以", "不行,只能用英文", "要用中文和英文各签一次"], "answer": 0, "explainZh": "磊问 Is Chinese OK?(用中文签可以吗?),工作人员说 Sure.(当然可以。)" },
+    { "prompt": "银行卡什么时候能拿到?", "options": ["今天就能拿到", "一个月以后去银行取", "大约一周后寄来"], "answer": 2, "explainZh": "Your card comes in the mail in about a week.(你的卡大约一周后寄到。)in the mail 是“邮寄过来”。" }
+  ],
+  "grammar": [
+    { "id": "en.g.at_the_bank", "titleZh": "在柜台:说明来意、出示证件",
+      "bodyZh": "到柜台先说想办什么:I want a bank account, please.(我想开个银行账户。)want + 名词就能把意思说清楚,第 4 单元点饮料时用过;加上 please 更礼貌。递证件、递东西说 Here's my…:Here's my student ID.(这是我的学生证。)——中文习惯说“给你”,英语不说 Give you.。工作人员常问 Do you have an ID?(你带证件了吗?)ID 读两个字母 I-D,因为 I 的读音以元音开头,前面用 an。复习电话号码的读法:206-555-0193 一个数字一个数字地读,0 读 oh,三段之间稍微停一下。",
+      "examples": [
+        { "text": "I want a bank account, please.", "zh": "我想开一个银行账户。" },
+        { "text": "Do you have an ID? — Yes. Here's my student ID.", "zh": "你带证件了吗?——带了。这是我的学生证。" },
+        { "text": "Is this your phone number? — That's right.", "zh": "这是你的电话号码吗?——对。" }
+      ] },
+    { "id": "en.g.fill_out_sign", "titleZh": "填表的说法:fill out、sign、signature",
+      "bodyZh": "填表说 fill out a form:Please fill out this form.(请填一下这张表。)英式英语也常说 fill in。签名的动词是 sign:Sign here, please.(请在这儿签名。)名词是 signature:Your signature, please.(请签名。)听到不懂的词,就像磊一样问 What does that mean?。发音:sign 读 /saɪn/,g 不发音;signature 读 /ˈsɪɡnətʃɚ/,g 要发音,重音在前。在美国,签名用中文还是英文一般都可以,要紧的是以后每次签得一样。",
+      "examples": [
+        { "text": "Please fill out this form.", "zh": "请填一下这张表。" },
+        { "text": "Sign here, please. — OK.", "zh": "请在这儿签名。——好的。" },
+        { "text": "Is this your signature? — Yes, it is.", "zh": "这是你的签名吗?——是的。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u10.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110045,
+  "titleZh": "订单确认和取件通知", "goalZh": "读懂订单确认、快递短信和取件通知,知道什么时候、去哪儿、带什么取包裹", "canDoZh": "能读懂网购的订单确认和包裹通知,找出送货时间和取件地点",
+  "skills": ["read", "write"], "estimatedMinutes": 17.5,
+  "newItems": [
+    { "id": "de.bestellung", "kind": "word", "pos": "noun", "text": "die Bestellung", "zh": "订单;订购", "features": { "gender": "f", "plural": "die Bestellungen", "ipa": "bəˈʃtɛlʊŋ" }, "noteZh": "动词 bestellen(第 4 单元点菜学过)+ -ung 变成名词,阴性;Vielen Dank für Ihre Bestellung!——网店邮件的第一句。" },
+    { "id": "de.handyhuelle", "kind": "word", "pos": "noun", "text": "die Handyhülle", "zh": "手机壳", "features": { "gender": "f", "plural": "die Handyhüllen", "ipa": "ˈhɛndiˌhʏlə" }, "noteZh": "das Handy + die Hülle(套子),性看最后一个词:die;Handy 是德国人自己用的“英语词”,英语里不这么说。" },
+    { "id": "de.abholen", "kind": "word", "pos": "verb", "text": "abholen", "zh": "取;接", "features": { "ipa": "ˈapˌhoːlən" }, "noteZh": "可分:Ich hole das Paket ab.(我去取包裹);也表示接人:Ich hole dich am Bahnhof ab.;前缀 ab 重读。" },
+    { "id": "de.liefern", "kind": "word", "pos": "verb", "text": "liefern", "zh": "送货;交付", "features": { "ipa": "ˈliːfɐn" }, "noteZh": "Wir liefern Ihr Paket am 29. April.(我们 4 月 29 日给您送货);-ern 结尾:ich liefere, er liefert;ie 读长音 [iː]。" }
+  ],
+  "reviewItems": ["de.paket", "de.ladekabel", "de.ausweis", "de.mitbringen", "de.vormittag"],
+  "lines": [
+    { "speaker": "narrator", "text": "Vielen Dank für Ihre Bestellung!", "zh": "感谢您的订购!", "items": ["de.vielen_dank", "de.fuer", "de.ihr_hoeflich", "de.bestellung"] },
+    { "speaker": "narrator", "text": "Eine Handyhülle in Schwarz: 12,99 Euro.", "zh": "黑色手机壳一个:12.99 欧元。", "items": ["de.ein", "de.handyhuelle", "de.in", "de.schwarz", "de.zwoelf", "de.neun", "de.euro"] },
+    { "speaker": "narrator", "text": "Ein Ladekabel: 9,99 Euro. Zusammen: 22,98 Euro.", "zh": "充电线一根:9.99 欧元。合计:22.98 欧元。", "items": ["de.ein", "de.ladekabel", "de.neun", "de.euro", "de.zusammen", "de.zwei", "de.zwanzig", "de.acht"] },
+    { "speaker": "narrator", "text": "Wir liefern Ihr Paket am 29. April.", "zh": "我们将在 4 月 29 日给您送货。", "items": ["de.wir", "de.liefern", "de.ihr_hoeflich", "de.paket", "de.am", "de.neun", "de.zwanzig", "de.april"] },
+    { "speaker": "narrator", "text": "Hallo! Ihr Paket kommt morgen von 10 bis 14 Uhr.", "zh": "您好!您的包裹明天 10 点到 14 点送达。", "items": ["de.hallo", "de.ihr_hoeflich", "de.paket", "de.ich_komme_aus", "de.morgen", "de.von", "de.zehn", "de.bis", "de.vier", "de.uhr"] },
+    { "speaker": "narrator", "text": "Leider waren Sie nicht zu Hause.", "zh": "很遗憾,您不在家。", "items": ["de.leider", "de.sein", "de.sie_hoeflich", "de.nicht", "de.zu_hause"] },
+    { "speaker": "narrator", "text": "Ihr Paket ist jetzt in der Post in der Karl-Marx-Straße.", "zh": "您的包裹现在在 Karl-Marx-Straße 的邮局。", "items": ["de.ihr_hoeflich", "de.paket", "de.sein", "de.jetzt", "de.in", "de.post", "de.strasse"] },
+    { "speaker": "narrator", "text": "Sie können es ab morgen da abholen.", "zh": "您明天起可以去那儿取。", "items": ["de.sie_hoeflich", "de.koennen", "de.es", "de.ab", "de.morgen", "de.da", "de.abholen"] },
+    { "speaker": "narrator", "text": "Bitte bringen Sie Ihren Ausweis mit.", "zh": "请带上您的证件。", "items": ["de.bitte", "de.mitbringen", "de.sie_hoeflich", "de.ihr_hoeflich", "de.ausweis"] },
+    { "speaker": "narrator", "text": "Sie haben sieben Tage Zeit.", "zh": "包裹保留七天。", "items": ["de.sie_hoeflich", "de.haben", "de.sieben", "de.tag", "de.zeit"] },
+    { "speaker": "wei", "text": "Ich war am Vormittag in der Uni.", "zh": "我上午在学校。", "items": ["de.ich", "de.sein", "de.am", "de.vormittag", "de.in", "de.uni"] },
+    { "speaker": "wei", "text": "Morgen hole ich das Paket ab. Mein Ausweis ist schon in der Tasche.", "zh": "明天我去取包裹。证件已经放在包里了。", "items": ["de.morgen", "de.abholen", "de.ich", "de.paket", "de.mein", "de.ausweis", "de.sein", "de.schon", "de.in", "de.tasche"] }
+  ],
+  "questions": [
+    { "prompt": "王伟在网上买了什么?", "options": ["手机壳和充电线", "新手机和 SIM 卡", "笔记本电脑"], "answer": 0, "explainZh": "订单上写着:Eine Handyhülle in Schwarz … Ein Ladekabel …(一个黑色手机壳、一根充电线)。" },
+    { "prompt": "快递短信说什么时候送?", "options": ["上午 9 点以前", "晚上 6 点以后", "明天 10 点到 14 点"], "answer": 2, "explainZh": "短信写:Ihr Paket kommt morgen von 10 bis 14 Uhr.(您的包裹明天 10 点到 14 点送达。)" },
+    { "prompt": "王伟可以去哪儿取包裹?", "options": ["大学里", "Karl-Marx-Straße 的邮局", "楼下的面包店"], "answer": 1, "explainZh": "取件单写:Ihr Paket ist jetzt in der Post in der Karl-Marx-Straße.(您的包裹现在在 Karl-Marx-Straße 的邮局。)" },
+    { "prompt": "取包裹要带什么?", "options": ["证件", "订单邮件", "银行卡"], "answer": 0, "explainZh": "取件单写:Bitte bringen Sie Ihren Ausweis mit.(请带上您的证件。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.paket_notiz", "titleZh": "看懂快递通知",
+      "bodyZh": "网店、快递的通知对你用 Sie,请你做事用 Sie 的命令式,可分动词的前缀放句末:Bitte bringen Sie Ihren Ausweis mit!(请带上您的证件!)。\n看通知先找四样:什么时候(am 29. April、morgen、von 10 bis 14 Uhr)、在哪儿(in der Post in der Karl-Marx-Straße)、带什么(Ihren Ausweis)、期限多长(sieben Tage)。ab morgen = 从明天起。\n价格读法复习:12,99 Euro = zwölf Euro neunundneunzig;22,98 Euro = zweiundzwanzig Euro achtundneunzig。",
+      "examples": [
+        { "text": "Bitte bringen Sie Ihren Ausweis mit.", "zh": "请带上您的证件。" },
+        { "text": "Ihr Paket kommt morgen von 10 bis 14 Uhr.", "zh": "您的包裹明天 10 点到 14 点送达。" },
+        { "text": "Sie können es ab morgen abholen.", "zh": "您明天起可以去取。" }
+      ] }
+  ],
+  "review": "draft"
+}

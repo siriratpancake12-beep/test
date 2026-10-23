@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u10.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110040,
+  "titleZh": "网断了!——打客服热线", "goalZh": "听懂热线的语音菜单,按要求按键,向客服说清楚网络的情况", "canDoZh": "能听懂客服热线的语音菜单并按键选择,向客服说明网络问题",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.wlan", "kind": "word", "pos": "noun", "text": "das WLAN", "zh": "无线网络;Wi-Fi", "features": { "gender": "n", "plural": "die WLANs", "ipa": "ˈveːlaːn" }, "noteZh": "德国人读 [ˈveːlaːn](W 读 we,LAN 读 lan),一般不说 Wi-Fi;中性:Wir haben kein WLAN.(我们没网了。)" },
+    { "id": "de.router", "kind": "word", "pos": "noun", "text": "der Router", "zh": "路由器", "features": { "gender": "m", "plural": "die Router", "ipa": "ˈʁuːtɐ" }, "noteZh": "英语外来词,德国人一般读 [ˈʁuːtɐ](像 Ruter);阳性,复数不变。" },
+    { "id": "de.druecken", "kind": "word", "pos": "verb", "text": "drücken", "zh": "按;压", "features": { "ipa": "ˈdʁʏkn̩" }, "noteZh": "按按钮、按键:Drücken Sie die Eins.(请按 1。);ü 是短音 [ʏ];门上写 Drücken 是“推”。" },
+    { "id": "de.kundennummer", "kind": "word", "pos": "noun", "text": "die Kundennummer", "zh": "客户号码", "features": { "gender": "f", "plural": "die Kundennummern", "ipa": "ˈkʊndn̩ˌnʊmɐ" }, "noteZh": "der Kunde(客户)+ die Nummer(号码),性看 Nummer:die;客服电话里第一件事常常就是问它;号码要一位一位地读。" },
+    { "id": "de.licht", "kind": "word", "pos": "noun", "text": "das Licht", "zh": "灯光;光", "features": { "gender": "n", "plural": "die Lichter", "ipa": "lɪçt" }, "noteZh": "Das Licht ist grün.(灯是绿的);开灯、关灯:das Licht anmachen / ausmachen;ch 读 [ç]。" },
+    { "id": "de.gruen", "kind": "word", "pos": "adj", "text": "grün", "zh": "绿色的", "features": { "ipa": "ɡʁyːn" }, "noteZh": "ü 是长音 [yː];颜色放在 sein 后面不变:Das Licht ist grün.;复习颜色:rot, blau, schwarz, weiß。" },
+    { "id": "de.blinken", "kind": "word", "pos": "verb", "text": "blinken", "zh": "闪烁;闪", "features": { "ipa": "ˈblɪŋkn̩" }, "noteZh": "Das Licht blinkt rot.(灯闪着红光);nk 读 [ŋk]。" },
+    { "id": "de.hotline", "kind": "word", "pos": "noun", "text": "die Hotline", "zh": "热线;客服电话", "features": { "gender": "f", "plural": "die Hotlines", "ipa": "ˈhɔtlaɪ̯n" }, "noteZh": "英语外来词,阴性;德国的热线常先放语音菜单(按 1、按 2),再转人工。" }
+  ],
+  "reviewItems": ["de.internet", "de.ausmachen", "de.anmachen", "de.seit", "de.warten", "de.rechnung"],
+  "lines": [
+    { "speaker": "durchsage", "text": "Guten Tag, hier ist Ihre Internet-Hotline.", "zh": "您好,这里是您的网络服务热线。", "items": ["de.guten_tag", "de.hier", "de.sein", "de.ihr_hoeflich", "de.internet", "de.hotline"] },
+    { "speaker": "durchsage", "text": "Für die Rechnung drücken Sie die Eins. Kein Internet? Drücken Sie die Zwei.", "zh": "账单问题请按 1。没有网络?请按 2。", "items": ["de.fuer", "de.rechnung", "de.druecken", "de.sie_hoeflich", "de.eins", "de.kein", "de.internet", "de.zwei"] },
+    { "speaker": "wei", "text": "Kein Internet? Die Zwei!", "zh": "没有网络?按 2!", "items": ["de.kein", "de.internet", "de.zwei"] },
+    { "speaker": "durchsage", "text": "Bitte warten Sie einen Moment.", "zh": "请稍候。", "items": ["de.bitte", "de.warten", "de.sie_hoeflich", "de.ein", "de.moment"] },
+    { "speaker": "mitarbeiterin", "text": "Guten Tag! Wie ist Ihre Kundennummer, bitte?", "zh": "您好!请问您的客户号码是多少?", "items": ["de.guten_tag", "de.wie", "de.sein", "de.ihr_hoeflich", "de.kundennummer", "de.bitte"] },
+    { "speaker": "wei", "text": "Meine Kundennummer ist vier, sieben, eins, eins, zwei, null.", "zh": "我的客户号码是 471120。", "items": ["de.mein", "de.kundennummer", "de.sein", "de.vier", "de.sieben", "de.eins", "de.zwei", "de.null"] },
+    { "speaker": "mitarbeiterin", "text": "Danke. Und Ihre Adresse?", "zh": "谢谢。您的地址呢?", "items": ["de.danke", "de.und", "de.ihr_hoeflich", "de.adresse"] },
+    { "speaker": "wei", "text": "Musterstraße 12 in Berlin. Wir haben seit zwei Tagen kein WLAN.", "zh": "柏林 Musterstraße 12 号。我们两天没网了。", "items": ["de.zwoelf", "de.in", "de.wir", "de.haben", "de.seit", "de.zwei", "de.tag", "de.kein", "de.wlan"] },
+    { "speaker": "mitarbeiterin", "text": "Sehen Sie den Router? Welche Farbe hat das Licht?", "zh": "您看得到路由器吗?上面的灯是什么颜色?", "items": ["de.sehen", "de.sie_hoeflich", "de.router", "de.welche", "de.farbe", "de.haben", "de.licht"] },
+    { "speaker": "wei", "text": "Das Licht blinkt rot.", "zh": "灯闪着红光。", "items": ["de.licht", "de.blinken", "de.rot"] },
+    { "speaker": "mitarbeiterin", "text": "Machen Sie den Router bitte aus und nach einer Minute wieder an.", "zh": "请把路由器关掉,过一分钟再打开。", "items": ["de.ausmachen", "de.sie_hoeflich", "de.router", "de.bitte", "de.und", "de.nach", "de.ein", "de.minute", "de.wieder", "de.anmachen"] },
+    { "speaker": "wei", "text": "Jetzt ist das Licht grün. Wir haben wieder Internet. Vielen Dank!", "zh": "现在灯变绿了。网又有了。非常感谢!", "items": ["de.jetzt", "de.sein", "de.licht", "de.gruen", "de.wir", "de.haben", "de.wieder", "de.internet", "de.vielen_dank"] }
+  ],
+  "questions": [
+    { "prompt": "王伟按了几号键?", "options": ["0", "1", "2"], "answer": 2, "explainZh": "语音菜单说:Kein Internet? Drücken Sie die Zwei.(没有网络请按 2。)按 1 是账单问题。" },
+    { "prompt": "路由器的灯一开始是什么样的?", "options": ["红灯一闪一闪", "绿灯一直亮着", "灯不亮"], "answer": 0, "explainZh": "王伟说:Das Licht blinkt rot.(灯闪着红光。)最后灯才变绿(Jetzt ist das Licht grün.)。" },
+    { "prompt": "客服让王伟做什么?", "options": ["换一个新路由器", "把路由器关掉,一分钟后再打开", "明天再打电话"], "answer": 1, "explainZh": "客服说:Machen Sie den Router bitte aus und nach einer Minute wieder an.(请把路由器关掉,过一分钟再打开。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.sie_imperativ_hotline", "titleZh": "听懂热线:Sie 的命令式复习",
+      "bodyZh": "热线和客服常用 Sie 的命令式(第 6 单元学过):动词放句首,后面紧跟 Sie:Drücken Sie die Zwei!(请按 2!)/ Warten Sie bitte einen Moment!(请稍等!)。\n可分动词的前缀放句末:Machen Sie den Router aus!(把路由器关掉!)/ Machen Sie den Router wieder an!(再打开!)。\nbitte 可以放在 Sie 后面,也可以放句首:Machen Sie den Router bitte aus. / Bitte warten Sie.。按键的数字前面加 die:die Eins、die Zwei(“1 号键、2 号键”)。",
+      "examples": [
+        { "text": "Drücken Sie die Zwei.", "zh": "请按 2。" },
+        { "text": "Machen Sie den Router aus.", "zh": "请把路由器关掉。" }
+      ] },
+    { "id": "de.g.seit_kein", "titleZh": "说明情况:seit + kein",
+      "bodyZh": "向客服说明情况:Wir haben seit zwei Tagen kein Internet.(我们两天没网了。)seit + 时间段,动词用现在时(第 7 单元学过 seit,第 9 单元复习过);seit 后面用第三格:seit zwei Tagen(Tag 的复数 Tage 加 -n)、seit einer Woche。\n没有某样东西用 kein:kein WLAN、kein Internet。\n描述颜色:Das Licht blinkt rot. / Jetzt ist das Licht grün.——颜色放在动词后面,不变词尾。",
+      "examples": [
+        { "text": "Wir haben seit zwei Tagen kein Internet.", "zh": "我们两天没网了。" },
+        { "text": "Das Licht blinkt rot.", "zh": "灯闪着红光。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u15.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-15 节日与生日", "order": 115070,
+  "titleZh": "可惜我去不了", "goalZh": "会礼貌地拒绝邀请、说明原因,并约别的时间", "canDoZh": "能礼貌地拒绝邀请、说明理由,并提出别的时间",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.kollege", "kind": "word", "pos": "noun", "text": "der Kollege", "zh": "同事", "features": { "gender": "m", "plural": "die Kollegen", "ipa": "kɔˈleːɡə" }, "noteZh": "女同事是 die Kollegin;meine Kollegen von früher(我以前的同事);重音在 le 上。" },
+    { "id": "de.frueher", "kind": "word", "pos": "adv", "text": "früher", "zh": "以前;从前", "features": { "ipa": "ˈfʁyːɐ" }, "noteZh": "Früher bin ich Züge gefahren.(我以前开火车。)和 früh(早)是一家;讲过去的情况常用它。" },
+    { "id": "de.lokfuehrer", "kind": "word", "pos": "noun", "text": "der Lokführer", "zh": "火车司机", "features": { "gender": "m", "plural": "die Lokführer", "ipa": "ˈlɔkˌfyːʁɐ" }, "noteZh": "die Lok(火车头)+ der Führer(驾驶的人);女的是 die Lokführerin;单复数同形。" },
+    { "id": "de.absagen", "kind": "word", "pos": "verb", "text": "absagen", "zh": "推掉;取消(约好的事)", "features": { "ipa": "ˈapˌzaːɡn̩" }, "noteZh": "可分动词:Ich muss leider absagen.(我只好推掉了。)ab 读 [ap];反义是 zusagen(答应)。" },
+    { "id": "de.nichts", "kind": "word", "pos": "pron", "text": "nichts", "zh": "什么也没有;什么也不", "features": { "ipa": "nɪçts" }, "noteZh": "Das macht nichts.(没关系。)Ich brauche nichts.(我什么也不需要。)ch 读 [ç],后面的 ts 读 [ts]。" },
+    { "id": "de.rentner", "kind": "word", "pos": "noun", "text": "der Rentner", "zh": "退休的人", "features": { "gender": "m", "plural": "die Rentner", "ipa": "ˈʁɛntnɐ" }, "noteZh": "die Rente(退休金)来的;Wir sind jetzt alle Rentner.(我们现在都退休了。)女的是 die Rentnerin。" },
+    { "id": "de.interessant", "kind": "word", "pos": "adj", "text": "interessant", "zh": "有意思的;有趣的", "features": { "ipa": "ɪntəʁɛˈsant" }, "noteZh": "重音在最后:in-te-res-SANT;Ich finde Züge sehr interessant.;反义是 langweilig。" },
+    { "id": "de.lok", "kind": "word", "pos": "noun", "text": "die Lok", "zh": "火车头;机车", "features": { "gender": "f", "plural": "die Loks", "ipa": "lɔk" }, "noteZh": "die Lokomotive 的简称;alte Loks(老火车头);复数加 -s。" }
+  ],
+  "reviewItems": ["de.tut_mir_leid", "de.leider", "de.zug", "de.museum", "de.ferien", "de.anrufen"],
+  "lines": [
+    { "speaker": "hoffmann", "text": "Guten Tag, Herr Wang! Am Samstag kommen meine Kollegen von früher.", "zh": "(在楼道里)您好,王先生!星期六我以前的同事们要来。", "items": ["de.guten_tag", "de.herr", "de.am", "de.samstag", "de.ich_komme_aus", "de.mein", "de.kollege", "de.von", "de.frueher"] },
+    { "speaker": "hoffmann", "text": "Wir waren alle Lokführer. Kommen Sie auch?", "zh": "我们以前都是火车司机。您也来吗?", "items": ["de.wir", "de.sein", "de.alle", "de.lokfuehrer", "de.ich_komme_aus", "de.sie_hoeflich", "de.auch"] },
+    { "speaker": "wei", "text": "Vielen Dank, Herr Hoffmann! Aber das tut mir leid.", "zh": "太谢谢您了,霍夫曼先生!可是真抱歉。", "items": ["de.vielen_dank", "de.herr", "de.aber", "de.tut_mir_leid"] },
+    { "speaker": "wei", "text": "Am Samstag muss ich arbeiten. Ich muss leider absagen.", "zh": "星期六我得上班,只好推掉了。", "items": ["de.am", "de.samstag", "de.muessen", "de.ich", "de.arbeiten", "de.leider", "de.absagen"] },
+    { "speaker": "hoffmann", "text": "Das macht nichts, Herr Wang. Kein Problem!", "zh": "没关系,王先生。没问题!", "items": ["de.machen", "de.nichts", "de.herr", "de.kein", "de.problem"] },
+    { "speaker": "hoffmann", "text": "Wir sind jetzt alle Rentner und haben viel Zeit.", "zh": "我们现在都退休了,时间多得很。", "items": ["de.wir", "de.sein", "de.jetzt", "de.alle", "de.rentner", "de.und", "de.haben", "de.viel", "de.zeit"] },
+    { "speaker": "hoffmann", "text": "Fahren Sie auch gern Zug?", "zh": "您也喜欢坐火车吗?", "items": ["de.fahren", "de.sie_hoeflich", "de.auch", "de.gern", "de.zug"] },
+    { "speaker": "wei", "text": "Ja, sehr gern! Ich finde Züge sehr interessant.", "zh": "很喜欢!我觉得火车特别有意思。", "items": ["de.ja", "de.sehr", "de.gern", "de.ich", "de.finden", "de.zug", "de.interessant"] },
+    { "speaker": "hoffmann", "text": "Im Juli gehen wir zusammen ins Museum. Da gibt es alte Loks!", "zh": "七月我们一起去博物馆吧。那儿有老火车头!", "items": ["de.in", "de.juli", "de.gehen", "de.wir", "de.zusammen", "de.museum", "de.da", "de.es_gibt", "de.alt", "de.lok"] },
+    { "speaker": "wei", "text": "Super! Im Juli habe ich Ferien.", "zh": "太好了!七月我放假。", "items": ["de.toll", "de.in", "de.juli", "de.haben", "de.ich", "de.ferien"] },
+    { "speaker": "hoffmann", "text": "Gut. Dann rufe ich Sie nächste Woche an.", "zh": "好。那我下周给您打电话。", "items": ["de.gut", "de.dann", "de.anrufen", "de.ich", "de.sie_hoeflich", "de.naechste", "de.woche"] },
+    { "speaker": "wei", "text": "Gern! Und viel Spaß am Samstag!", "zh": "好的!祝您星期六玩得开心!", "items": ["de.gern", "de.und", "de.viel", "de.spass", "de.am", "de.samstag"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么不能去霍夫曼先生的聚会?", "options": ["他生病了", "他星期六要上班", "他要去保罗家"], "answer": 1, "explainZh": "王伟说:Am Samstag muss ich arbeiten. Ich muss leider absagen.(星期六我得上班,只好推掉了。)" },
+    { "prompt": "霍夫曼先生和他的老同事以前是做什么的?", "options": ["厨师", "老师", "火车司机"], "answer": 2, "explainZh": "霍夫曼先生说:Wir waren alle Lokführer.(我们以前都是火车司机。)" },
+    { "prompt": "他们约好七月做什么?", "options": ["一起去博物馆看老火车头", "星期六一起喝咖啡", "一起去汉堡"], "answer": 0, "explainZh": "霍夫曼先生说:Im Juli gehen wir zusammen ins Museum. Da gibt es alte Loks!(七月我们一起去博物馆吧。那儿有老火车头!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u15_absagen", "titleZh": "礼貌地拒绝邀请",
+      "bodyZh": "别人邀请你、你去不了的时候,可以这样说:\n① 先道谢:Vielen Dank!(太谢谢您了!)\n② 表示遗憾:Das tut mir leid.(真抱歉。)/ Leider kann ich nicht kommen.(可惜我去不了。)\n③ 说原因,单独说一句就行:Am Samstag muss ich arbeiten.(星期六我得上班。)\n④ 推掉:Ich muss leider absagen.(我只好推掉了。)——absagen 是可分动词,单独用时 ab 放句末(Ich sage ab.),和情态动词在一起时原形整个放句末。\n⑤ 可以提别的时间:Vielleicht im Juli?\n被拒绝的一方常回答:Das macht nichts.(没关系。)/ Kein Problem!(没问题!)\n对霍夫曼先生一直用 Sie;只说 Nein 太生硬,先说 Das tut mir leid 礼貌得多。",
+      "examples": [
+        { "text": "Das tut mir leid. Leider kann ich nicht kommen.", "zh": "真抱歉,可惜我去不了。" },
+        { "text": "Am Samstag muss ich arbeiten.", "zh": "星期六我得上班。" },
+        { "text": "Ich muss leider absagen.", "zh": "我只好推掉了。" },
+        { "text": "Das macht nichts.", "zh": "没关系。" }
+      ] }
+  ],
+  "review": "draft"
+}

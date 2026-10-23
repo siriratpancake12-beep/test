@@ -1,0 +1,48 @@
+{
+  "id": "de.a1u15.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-15 节日与生日", "order": 115040,
+  "titleZh": "生日烧烤", "goalZh": "会在生日聚会上祝贺、送礼物、表达惊喜和喜欢、请别人尝尝", "canDoZh": "能在生日聚会上祝贺、送礼物、道谢,和别人聊几句",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.echt", "kind": "word", "pos": "adj", "text": "echt", "zh": "真的;真正的", "features": { "ipa": "ɛçt" }, "noteZh": "口语:Echt?(真的吗?)表示惊讶,语调往上扬;Du kochst echt gut.(你做饭真好吃。)ch 在 e 后面读 [ç]。" },
+    { "id": "de.gleich", "kind": "word", "pos": "adv", "text": "gleich", "zh": "马上;一会儿就", "features": { "ipa": "ɡlaɪ̯ç" }, "noteZh": "Gleich!(马上!)Ich bin gleich da!(我马上到!)Bis gleich!(一会儿见!)ei 读 [aɪ̯],ch 读 [ç]。" },
+    { "id": "de.auspacken", "kind": "word", "pos": "verb", "text": "auspacken", "zh": "打开(包装);拆(礼物)", "features": { "ipa": "ˈaʊ̯sˌpakn̩" }, "noteZh": "可分动词:Pack es aus!(拆开看看!)德国人收到礼物一般当面拆开、当面道谢;反义 einpacken。" },
+    { "id": "de.das_gefaellt_mir", "kind": "phrase", "pos": "phrase", "text": "Das gefällt mir!", "zh": "我很喜欢(这个)!", "alt": ["Es gefällt mir.", "Gefällt dir das?"], "features": { "ipa": "das ɡəˈfɛlt miːɐ̯" }, "noteZh": "德语说“这个让我喜欢”:东西是主语,mir 是 ich 的第三格(A2 才讲),先整句记;问别人:Gefällt dir das Trikot?(你喜欢这件球衣吗?)" },
+    { "id": "de.anziehen", "kind": "word", "pos": "verb", "text": "anziehen", "zh": "穿上(衣服)", "features": { "ipa": "ˈanˌtsiːən" }, "noteZh": "可分动词:Zieh es an!(穿上吧!)完成时 Ich habe es angezogen.;z 读 [ts],ie 读长音。" },
+    { "id": "de.selbst", "kind": "word", "pos": "adv", "text": "selbst", "zh": "自己;亲自", "features": { "ipa": "zɛlpst" }, "noteZh": "Ich habe sie selbst gemacht.(是我自己做的。)口语也说 selber;b 在 s 前读 [p]。" },
+    { "id": "de.probieren", "kind": "word", "pos": "verb", "text": "probieren", "zh": "尝尝;试试", "features": { "ipa": "pʁoˈbiːʁən" }, "noteZh": "尝吃的:Probier auch!(你也尝尝!)试衣服是 anprobieren(第 7 单元);-ieren 结尾的动词完成时不加 ge-:Ich habe probiert.;重音在 bie 上。" },
+    { "id": "de.auf", "kind": "word", "pos": "prep", "text": "auf", "zh": "在……上面", "features": { "ipa": "aʊ̯f" }, "noteZh": "表示在表面上:auf dem Grill(在烤架上)、auf dem Tisch(在桌子上);这时后面用第三格(dem / der),先当固定搭配记;au 读 [aʊ̯]。" },
+    { "id": "de.grill", "kind": "word", "pos": "noun", "text": "der Grill", "zh": "烤架;烧烤炉", "features": { "gender": "m", "plural": "die Grills", "ipa": "ɡʁɪl" }, "noteZh": "auf dem Grill(在烤架上);动词是 grillen;复数 die Grills。" }
+  ],
+  "reviewItems": ["de.herzlichen_glueckwunsch", "de.trikot", "de.broetchen", "de.lecker", "de.wurst"],
+  "lines": [
+    { "speaker": "wei", "text": "Herzlichen Glückwunsch zum Geburtstag, Paul!", "zh": "生日快乐,保罗!", "items": ["de.herzlichen_glueckwunsch", "de.geburtstag"] },
+    { "speaker": "paul", "text": "Danke! Ist das für mich? Echt?", "zh": "谢谢!这是给我的?真的吗?", "items": ["de.danke", "de.das_ist", "de.fuer", "de.mich", "de.echt"] },
+    { "speaker": "sofia", "text": "Ja, das ist von uns allen. Pack es aus!", "zh": "对,是我们大家一起送的。快拆开看看!", "items": ["de.ja", "de.das_ist", "de.von", "de.uns", "de.alle", "de.auspacken", "de.es"] },
+    { "speaker": "paul", "text": "Ein Trikot mit meinem Namen! Das gefällt mir sehr!", "zh": "印着我名字的球衣!我太喜欢了!", "items": ["de.ein", "de.trikot", "de.mit", "de.mein", "de.name", "de.das_gefaellt_mir", "de.sehr"] },
+    { "speaker": "lena", "text": "Zieh es an, Paul!", "zh": "穿上试试,保罗!", "items": ["de.anziehen", "de.es"] },
+    { "speaker": "paul", "text": "Gleich! Und was ist das hier?", "zh": "马上!这个是什么?", "items": ["de.gleich", "de.und", "de.was", "de.das_ist", "de.hier"] },
+    { "speaker": "wei", "text": "Das sind Baozi, Brötchen mit Fleisch. Ich habe sie selbst gemacht.", "zh": "这是包子,包着肉的面点。是我自己做的。", "items": ["de.das_ist", "de.broetchen", "de.mit", "de.fleisch", "de.ich", "de.haben", "de.sie_pl", "de.selbst", "de.machen"] },
+    { "speaker": "paul", "text": "Lecker! Lena, probier auch!", "zh": "好吃!姐,你也尝尝!", "items": ["de.lecker", "de.probieren", "de.auch"] },
+    { "speaker": "lena", "text": "Sehr lecker, Wei! Du kochst echt gut.", "zh": "真好吃,王伟!你做饭真有一手。", "items": ["de.sehr", "de.lecker", "de.du", "de.kochen", "de.echt", "de.gut"] },
+    { "speaker": "jonas", "text": "Hallo zusammen! Entschuldigung, ich bin zu spät.", "zh": "大家好!不好意思,我来晚了。", "items": ["de.hallo", "de.zusammen", "de.entschuldigung", "de.ich", "de.sein", "de.zu_adv", "de.spaet"] },
+    { "speaker": "jonas", "text": "Wer grillt hier? Die Würste auf dem Grill sind schwarz!", "zh": "谁在烤?烤架上的香肠都黑了!", "items": ["de.wer", "de.grillen", "de.hier", "de.wurst", "de.auf", "de.grill", "de.sein", "de.schwarz"] },
+    { "speaker": "jonas", "text": "Ich mache das jetzt. Ich bin Koch!", "zh": "现在我来。我可是厨师!", "items": ["de.ich", "de.machen", "de.jetzt", "de.sein", "de.koch"] }
+  ],
+  "questions": [
+    { "prompt": "王伟带来了什么?", "options": ["一个蛋糕", "自己做的包子", "一件 T 恤"], "answer": 1, "explainZh": "王伟说:Das sind Baozi, Brötchen mit Fleisch. Ich habe sie selbst gemacht.(这是包子,包着肉的面点。是我自己做的。)" },
+    { "prompt": "约纳斯来了以后为什么马上去烤?", "options": ["烤架上的香肠都烤黑了,他是厨师", "保罗请他烤", "他很饿"], "answer": 0, "explainZh": "约纳斯说:Die Würste auf dem Grill sind schwarz! … Ich bin Koch!(烤架上的香肠都黑了!……我可是厨师!)" },
+    { "prompt": "保罗觉得礼物怎么样?", "options": ["不太喜欢", "太大了", "很喜欢"], "answer": 2, "explainZh": "保罗说:Ein Trikot mit meinem Namen! Das gefällt mir sehr!(印着我名字的球衣!我太喜欢了!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u15_gefallen_intonation", "titleZh": "Das gefällt mir! 和表达惊喜的语调",
+      "bodyZh": "说“我喜欢这个(东西)”有两种常用说法:\nDas gefällt mir!(这个我很喜欢!)——德语的意思是“这个让我喜欢”:东西做主语,mir 是 ich 的第三格。第三格 A2 才系统讲,现在整句记住;问别人:Gefällt dir das Trikot?(你喜欢这件球衣吗?)\nIch finde es toll!(我觉得它很棒!)——finden + 第四格(第 7 单元)。\n喜欢“做”什么事还是用 gern:Ich koche gern.\n语调:惊讶、不敢相信时句末往上扬:Echt? / Ist das für mich?;高兴、感谢时重音落在关键词上,句末往下:Danke! Das gefällt mir sehr!;祝贺时重音在 Glück 上:Herzlichen Glückwunsch!",
+      "examples": [
+        { "text": "Das gefällt mir sehr!", "zh": "我太喜欢了!" },
+        { "text": "Gefällt dir das Trikot?", "zh": "你喜欢这件球衣吗?" },
+        { "text": "Ist das für mich? Echt?", "zh": "这是给我的?真的吗?" },
+        { "text": "Ich finde es toll!", "zh": "我觉得它很棒!" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u5.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105070,
+  "titleZh": "坐过站了", "goalZh": "会听车上的报站,坐过站时向司机求助、问清怎么坐回去", "canDoZh": "能听懂车上的报站;坐过站时会向司机求助,问清楚怎么坐回去",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.the_next_stop_is", "kind": "phrase", "pos": "phrase", "text": "The next stop is", "zh": "下一站是……(报站)", "features": { "ipa": "ðə ˌnekst ˈstɑːp ɪz" }, "noteZh": "车上报站的固定说法:The next stop is Pine Street.(下一站:派恩街。)next 词尾的 t 常被吞掉,听起来像“nex-stop”。" },
+    { "id": "en.i_missed_my_stop", "kind": "phrase", "pos": "phrase", "text": "I missed my stop", "zh": "我坐过站了", "features": { "ipa": "aɪ ˌmɪst maɪ ˈstɑːp" }, "noteZh": "坐过站了就对司机说这句。这里的 miss 是“错过”(I miss you 里是“想念”);missed 是过去式,第 8 单元学过去时,现在整句记住。missed 结尾读 /st/,别读成“米斯得”。" },
+    { "id": "en.other", "kind": "word", "pos": "adj", "text": "other", "zh": "另外的;其他的", "features": { "ipa": "ˈʌðɚ" }, "noteZh": "the other side 另一边;th 是浊音 /ð/,舌尖轻放在上下齿之间;开头的 o 读 /ʌ/。" },
+    { "id": "en.side", "kind": "word", "pos": "noun", "text": "side", "zh": "边;侧", "features": { "ipa": "saɪd" }, "noteZh": "on the other side of the street 在马路对面;词尾 d 轻轻收住,不加元音。" },
+    { "id": "en.park", "kind": "word", "pos": "noun", "text": "park", "zh": "公园", "features": { "ipa": "pɑːrk" }, "noteZh": "Green Lake Park 格林湖公园(西雅图北边围着一个湖的大公园);ar 要卷舌 /ɑːr/。" },
+    { "id": "en.before", "kind": "word", "pos": "prep", "text": "before", "zh": "在……之前", "features": { "ipa": "bɪˈfɔːr" }, "noteZh": "before your stop 到站之前;和第 3 单元的 after(在……之后)意思相反。重音在后 be-FORE。" },
+    { "id": "en.headphones", "kind": "word", "pos": "noun", "text": "headphones", "zh": "耳机", "features": { "ipa": "ˈhedfoʊnz" }, "noteZh": "两只耳朵各一个,一般用复数;ph 读 /f/,重音在前 HEAD-phones。" },
+    { "id": "en.take_off", "kind": "phrase", "pos": "verb", "text": "take off", "zh": "摘下;脱下", "features": { "ipa": "ˌteɪk ˈɑːf" }, "noteZh": "take off your headphones 摘下耳机,take off your jacket 脱下外套;宾语是代词时放中间:take them off。" }
+  ],
+  "reviewItems": ["en.get_off", "en.across_from", "en.back", "en.push", "en.button"],
+  "lines": [
+    { "speaker": "driver", "text": "The next stop is Green Lake Park.", "zh": "(周日下午,磊一个人坐公交去格林湖公园。车上广播)下一站:格林湖公园。(磊戴着耳机听歌,没听见。)", "items": ["en.the_next_stop_is", "en.park"] },
+    { "speaker": "driver", "text": "This is Oak Street. The next stop is Maple Street.", "zh": "(过了两站)奥克街到了。下一站:枫树街。", "items": ["en.this_is", "en.street", "en.the_next_stop_is"] },
+    { "speaker": "lei", "text": "Oak Street? Oh no!", "zh": "(磊这才抬头看窗外)奥克街?糟了!", "items": ["en.street"] },
+    { "speaker": "lei", "text": "Excuse me. I missed my stop.", "zh": "(他走到车头)打扰一下,我坐过站了。", "items": ["en.excuse_me", "en.i_missed_my_stop"] },
+    { "speaker": "driver", "text": "Where are you going?", "zh": "你要去哪儿?", "items": ["en.go"] },
+    { "speaker": "lei", "text": "Green Lake Park. How do I go back?", "zh": "格林湖公园。我怎么坐回去?", "items": ["en.park", "en.go", "en.back"] },
+    { "speaker": "driver", "text": "It's two stops back. Get off at the next stop.", "zh": "往回两站就是。你下一站下车。", "items": ["en.bus_stop", "en.back", "en.get_off", "en.next"] },
+    { "speaker": "driver", "text": "Then take Bus 62 on the other side of the street.", "zh": "然后到马路对面坐 62 路。", "items": ["en.then", "en.take", "en.bus", "en.other", "en.side", "en.street"] },
+    { "speaker": "lei", "text": "The other side? Across from this bus stop?", "zh": "马路对面?就在这个车站对面?", "items": ["en.other", "en.side", "en.across_from", "en.bus_stop"] },
+    { "speaker": "driver", "text": "That's right. And take off your headphones!", "zh": "对。还有,把耳机摘了吧!", "items": ["en.thats_right", "en.take_off", "en.headphones"] },
+    { "speaker": "driver", "text": "Push the button before your stop.", "zh": "快到站之前按一下按钮。", "items": ["en.push", "en.button", "en.before", "en.bus_stop"] },
+    { "speaker": "lei", "text": "Got it. Thank you!", "zh": "明白了。谢谢您!", "items": ["en.got_it", "en.thank_you"] }
+  ],
+  "questions": [
+    { "prompt": "磊要去哪儿?", "options": ["奥克街", "枫树街", "格林湖公园"], "answer": 2, "explainZh": "磊说 Green Lake Park.(格林湖公园。)第一句广播 The next stop is Green Lake Park. 他戴着耳机没听见,所以坐过了站。" },
+    { "prompt": "司机让磊怎么坐回去?", "options": ["下一站下车,到马路对面坐 62 路", "这一站下车,走回去", "坐到终点站再坐回来"], "answer": 0, "explainZh": "司机说 Get off at the next stop. Then take Bus 62 on the other side of the street.(下一站下车,然后到马路对面坐 62 路。)" },
+    { "prompt": "司机最后提醒了磊什么?", "options": ["上车先买票", "摘下耳机,快到站之前按按钮", "从后门下车"], "answer": 1, "explainZh": "司机说 take off your headphones(把耳机摘了)和 Push the button before your stop.(快到站之前按一下按钮。)" }
+  ],
+  "grammar": [
+    { "id": "en.g.stop_announcements", "titleZh": "听报站:The next stop is… / This is…",
+      "bodyZh": "公交车和轻轨上的广播常用两句:The next stop is Green Lake Park.(下一站:格林湖公园。)This is Oak Street.(奥克街到了。)This is + 站名就是“这一站是……”,和介绍人时说的 This is my roommate. 是同一个 This is。听广播先抓站名,听到下一站就是自己要下的那站,就按按钮。发音:next stop、last stop 里第一个词词尾的 t 常常被吞掉,听起来像“nex-stop”,听的时候别等那个 t;stop 的 o 美式读 /ɑː/。",
+      "examples": [
+        { "text": "The next stop is Pine Street.", "zh": "下一站:派恩街。" },
+        { "text": "This is Pine Street.", "zh": "派恩街到了。" },
+        { "text": "This is my stop. Thank you!", "zh": "我在这站下。谢谢!" }
+      ] },
+    { "id": "en.g.missed_my_stop", "titleZh": "坐过站了:求助和听懂回答",
+      "bodyZh": "向司机求助:Excuse me. I missed my stop.(不好意思,我坐过站了。)missed 是过去式,第 8 单元再学,现在把整句当作一个固定说法。接着问 How do I go back?(我怎么回去?)。司机的回答多半是祈使句:Get off at the next stop.(下一站下车。)Take Bus 62 on the other side of the street.(到马路对面坐 62 路。)on the other side of the street 就是“在马路对面”;前面学的 across from 后面要接一个地方:across from the bus stop(在车站对面)。",
+      "examples": [
+        { "text": "Excuse me. I missed my stop.", "zh": "不好意思,我坐过站了。" },
+        { "text": "How do I go back? — Take Bus 62.", "zh": "我怎么回去?——坐 62 路。" },
+        { "text": "The bus stop is on the other side of the street.", "zh": "车站在马路对面。" }
+      ] }
+  ],
+  "review": "draft"
+}

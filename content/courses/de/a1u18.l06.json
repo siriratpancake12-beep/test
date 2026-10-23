@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u18.l06", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-18 意外与求助", "order": 118060,
+  "titleZh": "在急诊室", "goalZh": "会在急诊室登记,说出哪里疼、怎么受的伤,听懂“骨折 / 扭伤”和医嘱", "canDoZh": "能在急诊室登记,说出哪里疼、怎么发生的,听懂结果",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "de.notaufnahme", "kind": "word", "pos": "noun", "text": "die Notaufnahme", "zh": "(医院的)急诊室", "features": { "gender": "f", "plural": "die Notaufnahmen", "ipa": "ˈnoːtʔaʊ̯fˌnaːmə" }, "noteZh": "die Not(危急)+ die Aufnahme(接收);晚上、周末诊所关门,急事去医院的 Notaufnahme。不急的病要等很久,先看重病人。" },
+    { "id": "de.patient", "kind": "word", "pos": "noun", "text": "der Patient", "zh": "(男)病人;患者", "features": { "gender": "m", "plural": "die Patienten", "ipa": "paˈtsi̯ɛnt" }, "noteZh": "女病人 die Patientin;ti 在这里读 [tsi̯],和 Information 里的 -tion 一样;复数 die Patienten。" },
+    { "id": "de.knie", "kind": "word", "pos": "noun", "text": "das Knie", "zh": "膝盖", "features": { "gender": "n", "plural": "die Knie", "ipa": "kniː" }, "noteZh": "k 要读出来:[kniː];复数写法不变,读 [ˈkniːə]。和 Knöchel(脚踝)一样都是 kn 开头。" },
+    { "id": "de.pflaster", "kind": "word", "pos": "noun", "text": "das Pflaster", "zh": "创可贴;膏药", "features": { "gender": "n", "plural": "die Pflaster", "ipa": "ˈpflastɐ" }, "noteZh": "pf 两个音都要发:先闭嘴唇发 p,马上接 f;复数不变。药店、超市都能买到。" },
+    { "id": "de.untersuchen", "kind": "word", "pos": "verb", "text": "untersuchen", "zh": "检查(身体)", "features": { "ipa": "ˌʊntɐˈzuːxn̩" }, "noteZh": "Der Arzt untersucht den Fuß.(医生检查脚。)unter- 在这里不可分,完成时也不加 ge-:Er hat den Fuß untersucht.;重音在 su 上。" },
+    { "id": "de.gebrochen", "kind": "word", "pos": "adj", "text": "gebrochen", "zh": "骨折的;断了的", "features": { "ipa": "ɡəˈbʁɔxn̩" }, "noteZh": "Der Fuß ist gebrochen.(脚骨折了。)来自 brechen(折断)的过去分词;ch 在 o 后读 [x]。" },
+    { "id": "de.verstaucht", "kind": "word", "pos": "adj", "text": "verstaucht", "zh": "扭伤的", "features": { "ipa": "fɛɐ̯ˈʃtaʊ̯xt" }, "noteZh": "Der Fuß ist nicht gebrochen, nur verstaucht.(没骨折,只是扭伤。)常和 gebrochen 对比着说;au 读 [aʊ̯],ch 在 au 后读 [x]。" },
+    { "id": "de.kuehlen", "kind": "word", "pos": "verb", "text": "kühlen", "zh": "冷敷;使变凉", "features": { "ipa": "ˈkyːlən" }, "noteZh": "Den Fuß kühlen(给脚冷敷);和 kalt、der Kühlschrank 是一家:Kühlschrank 就是“让东西变凉的柜子”。ü 撮圆嘴唇,读长音。" }
+  ],
+  "reviewItems": ["de.versichertenkarte", "de.hinfallen", "de.knoechel", "de.verletzt", "de.krankenhaus", "de.warten"],
+  "lines": [
+    { "speaker": "arzthelferin", "text": "Guten Tag! Ihre Versichertenkarte, bitte. Was ist passiert?", "zh": "(医院急诊室的前台)您好!请出示医保卡。出什么事了?", "items": ["de.guten_tag", "de.ihr_hoeflich", "de.versichertenkarte", "de.bitte", "de.was", "de.sein", "de.passieren"] },
+    { "speaker": "wei", "text": "Wir haben Fußball gespielt, und Paul ist hingefallen.", "zh": "我们在踢足球,保罗摔倒了。", "items": ["de.wir", "de.haben", "de.fussball", "de.spielen", "de.und", "de.sein", "de.hinfallen"] },
+    { "speaker": "paul", "text": "Mein Knöchel tut sehr weh. Ich kann nicht gehen.", "zh": "我的脚踝很疼,走不了路。", "items": ["de.mein", "de.knoechel", "de.wehtun", "de.sehr", "de.ich", "de.koennen", "de.nicht", "de.gehen"] },
+    { "speaker": "arzthelferin", "text": "Ihr Knie ist auch verletzt. Hier ist ein Pflaster.", "zh": "您的膝盖也擦伤了。给您一个创可贴。", "items": ["de.ihr_hoeflich", "de.knie", "de.sein", "de.auch", "de.verletzt", "de.hier", "de.ein", "de.pflaster"] },
+    { "speaker": "arzthelferin", "text": "Heute haben wir viele Patienten. Sie müssen leider zwei Stunden warten.", "zh": "今天病人很多。很抱歉,您得等两个小时。", "items": ["de.heute", "de.haben", "de.wir", "de.viel", "de.patient", "de.sie_hoeflich", "de.muessen", "de.leider", "de.zwei", "de.stunde", "de.warten"] },
+    { "speaker": "lena", "text": "Paul! Wei! Ich bin sofort ins Krankenhaus gekommen.", "zh": "(两个小时后,莉娜下班赶来了)保罗!王伟!我马上就赶来医院了。", "items": ["de.ich", "de.sein", "de.sofort", "de.in", "de.krankenhaus", "de.ich_komme_aus"] },
+    { "speaker": "paul", "text": "Hallo Lena. Wir warten schon zwei Stunden in der Notaufnahme!", "zh": "嗨,莉娜。我们在急诊室已经等了两个小时了!", "items": ["de.hallo", "de.wir", "de.warten", "de.schon", "de.zwei", "de.stunde", "de.in", "de.notaufnahme"] },
+    { "speaker": "lena", "text": "Der Arzt hat den Fuß untersucht. Er ist nicht gebrochen, nur verstaucht.", "zh": "(医生看完以后,莉娜告诉王伟)医生检查了脚,没有骨折,只是扭伤。", "items": ["de.arzt", "de.haben", "de.fuss", "de.untersuchen", "de.er", "de.sein", "de.nicht", "de.gebrochen", "de.nur", "de.verstaucht"] },
+    { "speaker": "lena", "text": "Paul muss ihn oft kühlen und drei Wochen nicht Fußball spielen.", "zh": "保罗要经常冷敷,三个星期不能踢球。", "items": ["de.muessen", "de.ihn", "de.oft", "de.kuehlen", "de.und", "de.drei", "de.woche", "de.nicht", "de.fussball", "de.spielen"] },
+    { "speaker": "paul", "text": "Drei Wochen kein Fußball? Was für ein Pech!", "zh": "三个星期不能踢球?真倒霉!", "items": ["de.drei", "de.woche", "de.kein", "de.fussball", "de.was", "de.fuer", "de.ein", "de.pech"] }
+  ],
+  "questions": [
+    { "prompt": "前台说要等多久?", "options": ["半个小时", "两个小时", "十分钟"], "answer": 1, "explainZh": "Heute haben wir viele Patienten. Sie müssen leider zwei Stunden warten.(今天病人多,您得等两个小时。)" },
+    { "prompt": "医生检查的结果是什么?", "options": ["脚扭伤了,没有骨折", "脚骨折了", "膝盖骨折了"], "answer": 0, "explainZh": "莉娜说:Er ist nicht gebrochen, nur verstaucht.(没有骨折,只是扭伤。)膝盖只是擦伤,前台给了创可贴。" },
+    { "prompt": "保罗接下来要注意什么?", "options": ["经常冷敷,三个星期不踢球", "每天去医院", "马上回学校上课"], "answer": 0, "explainZh": "Paul muss ihn oft kühlen und drei Wochen nicht Fußball spielen.(要经常冷敷,三个星期不能踢球。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u18_verletzung", "titleZh": "说伤情:Mein Knöchel tut weh / Der Fuß ist nicht gebrochen, nur verstaucht",
+      "bodyZh": "说哪里疼,复习第 8 单元的 wehtun:Mein Knöchel tut sehr weh.(复数用 tun:Meine Füße tun weh.)说能不能动:Ich kann nicht gehen. / Ich kann nicht stehen.。\n说伤得怎么样,用 sein + 形容词,形容词放在后面,词尾不变:Ihr Knie ist verletzt.(膝盖受伤了)/ Der Fuß ist gebrochen.(脚骨折了)/ Der Fuß ist nicht gebrochen, nur verstaucht.(没骨折,只是扭伤)。nicht …, nur …(不是……,只是……)很常用。\n医嘱常用 müssen 来转述:Paul muss den Fuß kühlen.。本课只学听懂和转述,具体怎么治听医生的。\n生活常识:急诊室(die Notaufnahme)先看重病人,轻伤常要等很久;去的时候带上医保卡(die Versichertenkarte)。",
+      "examples": [
+        { "text": "Mein Knöchel tut sehr weh.", "zh": "我的脚踝很疼。" },
+        { "text": "Der Fuß ist nicht gebrochen, nur verstaucht.", "zh": "脚没骨折,只是扭伤。" },
+        { "text": "Er muss den Fuß oft kühlen.", "zh": "他得经常冷敷脚。" }
+      ] },
+    { "id": "de.g.u18_perfekt_schon", "titleZh": "完成时复习:haben 还是 sein?“已经等了两个小时”怎么说",
+      "bodyZh": "讲刚才发生的事用完成时。大多数动词用 haben:Wir haben Fußball gespielt. / Der Arzt hat den Fuß untersucht.(untersuchen 的 unter- 在这里不可分,不加 ge-);表示位置变化的动词用 sein:Paul ist hingefallen. / Ich bin sofort ins Krankenhaus gekommen.。\n注意:说“已经等了多久”,德语用现在时加 schon:Wir warten schon zwei Stunden.(我们已经等了两个小时了。)意思是“到现在还在等”。中文的“了”在这里不对应德语的完成时;说成 Wir haben zwei Stunden gewartet 就是“等过了、已经不等了”。",
+      "examples": [
+        { "text": "Wir haben Fußball gespielt.", "zh": "我们踢了足球。" },
+        { "text": "Paul ist hingefallen.", "zh": "保罗摔倒了。" },
+        { "text": "Wir warten schon zwei Stunden.", "zh": "我们已经等了两个小时了。" }
+      ] }
+  ],
+  "review": "draft"
+}

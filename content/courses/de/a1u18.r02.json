@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u18.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-18 意外与求助", "order": 118085,
+  "titleZh": "倒霉的一周(王伟的日记)", "goalZh": "读懂一篇讲意外经历的日记,按顺序说出每天发生了什么,也会用完成时写类似的日记", "canDoZh": "能读懂一篇讲意外经历的日记,按顺序说出发生了什么",
+  "skills": ["read", "write"], "estimatedMinutes": 14,
+  "newItems": [
+    { "id": "de.dieser", "kind": "word", "pos": "det", "text": "dieser", "zh": "这个;这", "alt": ["diese", "dieses", "diesen", "diesem"], "features": { "ipa": "ˈdiːzɐ" }, "noteZh": "词尾跟定冠词一样变:dieser Tag, diese Woche, dieses Jahr;diese Woche = 这个星期(不加介词)。ie 读长音 [iː]。" }
+  ],
+  "reviewItems": ["de.verlieren", "de.fundbuero", "de.notruf", "de.gebrochen", "de.tagebuch", "de.pech"],
+  "lines": [
+    { "speaker": "wei", "text": "Liebes Tagebuch, diese Woche hatte ich viel Pech!", "zh": "(星期天晚上,王伟躺在床上写日记)亲爱的日记:这个星期我真够倒霉的!", "items": ["de.liebe", "de.tagebuch", "de.dieser", "de.woche", "de.haben", "de.ich", "de.viel", "de.pech"] },
+    { "speaker": "wei", "text": "Am Montag habe ich meinen Geldbeutel in der U-Bahn verloren.", "zh": "星期一,我在地铁上把钱包丢了。", "items": ["de.am", "de.montag", "de.haben", "de.ich", "de.mein", "de.geldbeutel", "de.in", "de.u_bahn", "de.verlieren"] },
+    { "speaker": "wei", "text": "Ich habe sofort die Bank angerufen, und sie hat meine Karte gesperrt.", "zh": "我马上给银行打了电话,银行把我的卡冻结了。", "items": ["de.ich", "de.haben", "de.sofort", "de.bank_geld", "de.anrufen", "de.und", "de.sie_sg", "de.mein", "de.karte", "de.sperren"] },
+    { "speaker": "wei", "text": "Am Dienstag hat das Fundbüro geschrieben: Ein Fahrgast hat ihn abgegeben!", "zh": "星期二,失物招领处来信说:有位乘客把钱包交上去了!", "items": ["de.am", "de.dienstag", "de.haben", "de.fundbuero", "de.schreiben", "de.ein", "de.fahrgast", "de.ihn", "de.abgeben"] },
+    { "speaker": "wei", "text": "Im Geldbeutel war alles, auch das Foto von meiner Familie.", "zh": "钱包里的东西一样不少,家人的照片也在。", "items": ["de.in", "de.geldbeutel", "de.sein", "de.alles", "de.auch", "de.foto", "de.von", "de.mein", "de.familie"] },
+    { "speaker": "wei", "text": "Am Samstag haben wir im Park Fußball gespielt.", "zh": "星期六,我们在公园踢足球。", "items": ["de.am", "de.samstag", "de.haben", "de.wir", "de.in", "de.park", "de.fussball", "de.spielen"] },
+    { "speaker": "wei", "text": "Paul ist hingefallen, und ich habe die 112 angerufen.", "zh": "保罗摔倒了,是我打的 112。", "items": ["de.sein", "de.hinfallen", "de.und", "de.ich", "de.haben", "de.eins", "de.zwei", "de.anrufen"] },
+    { "speaker": "wei", "text": "Sein Knöchel ist zum Glück nicht gebrochen, nur verstaucht.", "zh": "还好他的脚踝没骨折,只是扭伤了。", "items": ["de.sein_poss", "de.knoechel", "de.sein", "de.zum_glueck", "de.nicht", "de.gebrochen", "de.nur", "de.verstaucht"] },
+    { "speaker": "wei", "text": "Am Abend ist die Tür zugefallen, und mein Schlüssel war in der Wohnung.", "zh": "晚上门又在我身后关上了,钥匙还在屋里。", "items": ["de.am", "de.abend", "de.die_tuer_ist_zugefallen", "de.und", "de.mein", "de.schluessel", "de.sein", "de.in", "de.wohnung"] },
+    { "speaker": "wei", "text": "Ich habe mit Herrn Hoffmann Tee getrunken und Zugfotos gesehen.", "zh": "我就在霍夫曼先生家喝茶、看火车的照片。", "items": ["de.ich", "de.haben", "de.mit", "de.herr", "de.tee", "de.trinken", "de.und", "de.zug", "de.foto", "de.sehen"] },
+    { "speaker": "wei", "text": "Und heute? Heute bin ich krank und liege im Bett.", "zh": "今天呢?今天我病了,躺在床上。", "items": ["de.und", "de.heute", "de.sein", "de.ich", "de.krank", "de.liegen", "de.in", "de.bett"] },
+    { "speaker": "wei", "text": "Was für eine Woche! Aber meine Freunde waren sehr lieb.", "zh": "这是什么一周啊!不过朋友们都对我很好。", "items": ["de.was", "de.fuer", "de.ein", "de.woche", "de.aber", "de.mein", "de.freund", "de.sein", "de.sehr", "de.lieb"] },
+    { "speaker": "wei", "text": "Und ich habe viele neue Wörter gelernt: Fundbüro, Notruf, Notaufnahme …", "zh": "而且我学会了好多新词:失物招领处、急救电话、急诊室……", "items": ["de.und", "de.ich", "de.haben", "de.viel", "de.neu", "de.wort", "de.lernen", "de.fundbuero", "de.notruf", "de.notaufnahme"] }
+  ],
+  "questions": [
+    { "prompt": "失物招领处是哪天给王伟来信的?", "options": ["星期一", "星期二", "星期六"], "answer": 1, "explainZh": "Am Dienstag hat das Fundbüro geschrieben.(星期二失物招领处来了信。)星期一是丢钱包的那天。" },
+    { "prompt": "星期六王伟做了什么?", "options": ["打了 112", "去失物招领处取钱包", "去冰淇淋店上班"], "answer": 0, "explainZh": "Paul ist hingefallen, und ich habe die 112 angerufen.(保罗摔倒了,我打了 112。)" },
+    { "prompt": "被关在门外的那天晚上,王伟在哪儿?", "options": ["在约纳斯工作的餐馆", "在莉娜家", "在霍夫曼先生家喝茶、看火车照片"], "answer": 2, "explainZh": "Ich habe mit Herrn Hoffmann Tee getrunken und Zugfotos gesehen.(我和霍夫曼先生喝茶、看火车照片。)" },
+    { "prompt": "王伟觉得这一周怎么样?", "options": ["很无聊", "很倒霉,可是朋友们都对他很好", "一切都很顺利"], "answer": 1, "explainZh": "开头写 Diese Woche hatte ich viel Pech!,结尾写 Aber meine Freunde waren sehr lieb.(不过朋友们都对我很好。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u18_tagebuch", "titleZh": "写日记:按时间顺序讲,完成时和 war / hatte",
+      "bodyZh": "写日记、讲经历,用时间把事情串起来:am Montag(星期一)、am Dienstag、am Samstag、am Abend(晚上)、heute(今天)。时间放句首,变位动词仍然在第二位,主语挪到动词后面:Am Montag habe ich meinen Geldbeutel verloren.(不说 Am Montag ich habe …)。\n做了什么用完成时(haben / sein 在第二位,过去分词放句末):Ich habe die 112 angerufen. / Paul ist hingefallen.;“是什么样、有什么”用 war / hatte:Im Geldbeutel war alles. / Diese Woche hatte ich viel Pech.;现在的情况用现在时:Heute bin ich krank und liege im Bett.。\n日记常用 Liebes Tagebuch,(亲爱的日记:)开头;diese Woche(这个星期)前面不加介词。",
+      "examples": [
+        { "text": "Am Montag habe ich meinen Geldbeutel verloren.", "zh": "星期一我把钱包丢了。" },
+        { "text": "Diese Woche hatte ich viel Pech.", "zh": "这个星期我很倒霉。" },
+        { "text": "Heute bin ich krank und liege im Bett.", "zh": "今天我病了,躺在床上。" }
+      ] }
+  ],
+  "review": "draft"
+}

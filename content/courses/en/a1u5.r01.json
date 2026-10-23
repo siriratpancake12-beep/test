@@ -1,0 +1,42 @@
+{
+  "id": "en.a1u5.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-5 Around town", "order": 105045,
+  "titleZh": "新生乘车指南", "goalZh": "读懂一页公交和轻轨乘车须知,按步骤说出怎么上车、付钱、下车", "canDoZh": "能读懂公交和轻轨的乘车须知:在哪儿上车、怎么付钱、怎么下车",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 17,
+  "newItems": [
+    { "id": "en.front", "kind": "word", "pos": "noun", "text": "front", "zh": "前面;前部", "features": { "ipa": "frʌnt" }, "noteZh": "Get on at the front. 从前门上车;o 在这里读 /ʌ/,和 fun 的元音一样,别读成“方特”。in front of(在……前面)里也是这个词。" },
+    { "id": "en.back", "kind": "word", "pos": "adv", "text": "back", "zh": "后面;回(原处)", "features": { "ipa": "bæk" }, "noteZh": "Get off at the back. 从后门下车;go back 回去。a 是 /æ/,嘴张大、嘴角往两边拉;词尾 k 轻轻收住,不要加元音读成“拜克”。" },
+    { "id": "en.push", "kind": "word", "pos": "verb", "text": "push", "zh": "按;推", "features": { "ipa": "pʊʃ" }, "noteZh": "Push the button. 按一下按钮;门上写 PUSH 是“推”,PULL 是“拉”。u 读短的 /ʊ/,结尾 sh 是 /ʃ/,嘴唇向前突。" },
+    { "id": "en.button", "kind": "word", "pos": "noun", "text": "button", "zh": "按钮;按键", "features": { "ipa": "ˈbʌtn̩" }, "noteZh": "美式发音里 tt 常常只是喉咙里轻轻一顿,后面的 n 自己成一个音节,听起来像“BUH-n”;衣服的扣子也叫 button。" }
+  ],
+  "reviewItems": ["en.bus_stop", "en.get_on", "en.get_off", "en.pay", "en.ticket"],
+  "lines": [
+    { "speaker": "narrator", "text": "Welcome to Seattle! Here's how to take the bus.", "zh": "(国际学生办公室发给新生的乘车指南)欢迎来到西雅图!下面教你怎么坐公交。", "items": ["en.welcome", "en.take", "en.bus"] },
+    { "speaker": "narrator", "text": "1. Walk to a bus stop near here.", "zh": "1. 走到附近的公交站。", "items": ["en.walk", "en.bus_stop", "en.near_here"] },
+    { "speaker": "narrator", "text": "Bus 10 goes downtown. It takes about twenty minutes.", "zh": "10 路公交去市中心,大约二十分钟。", "items": ["en.bus", "en.go", "en.downtown", "en.take", "en.minute"] },
+    { "speaker": "narrator", "text": "2. Get on at the front.", "zh": "2. 从前门上车。", "items": ["en.get_on", "en.front"] },
+    { "speaker": "narrator", "text": "3. Pay the driver. It's three dollars, card or cash.", "zh": "3. 付车费:三美元,刷卡、付现金都行。", "items": ["en.pay", "en.driver", "en.dollar", "en.card", "en.cash"] },
+    { "speaker": "narrator", "text": "4. Is your stop next? Push the button.", "zh": "4. 下一站就要下车了?按一下按钮。", "items": ["en.bus_stop", "en.next", "en.push", "en.button"] },
+    { "speaker": "narrator", "text": "5. Get off at the back.", "zh": "5. 从后门下车。", "items": ["en.get_off", "en.back"] },
+    { "speaker": "narrator", "text": "Drivers love a big \"Thank you!\"", "zh": "司机们很喜欢听到一句响亮的“谢谢!”", "items": ["en.driver", "en.love", "en.big", "en.thank_you"] },
+    { "speaker": "narrator", "text": "Train to the airport? Buy a ticket at the station.", "zh": "要坐轻轨去机场?在车站买好票。", "items": ["en.train", "en.airport", "en.buy", "en.ticket", "en.station"] },
+    { "speaker": "narrator", "text": "A round-trip ticket is about six dollars.", "zh": "往返票大约六美元。", "items": ["en.round_trip", "en.ticket", "en.dollar"] },
+    { "speaker": "narrator", "text": "Then go to the platform. There's a train every ten minutes.", "zh": "然后去站台。每十分钟有一班车。", "items": ["en.then", "en.go", "en.platform", "en.train", "en.minute"] },
+    { "speaker": "narrator", "text": "Don't be shy. Seattle drivers are really friendly!", "zh": "别不好意思。西雅图的司机都特别友好!", "items": ["en.shy", "en.driver", "en.really", "en.friendly"] }
+  ],
+  "questions": [
+    { "prompt": "坐公交时,从哪个门上车、哪个门下车?", "options": ["后门上车,前门下车", "前门上车,后门下车", "前门上车,也从前门下车"], "answer": 1, "explainZh": "第 2 步 Get on at the front.(从前门上车),第 5 步 Get off at the back.(从后门下车)。" },
+    { "prompt": "快到要下车的那一站时,要做什么?", "options": ["跟司机说一声", "什么都不用做,车每站都停", "按一下按钮"], "answer": 2, "explainZh": "第 4 步:Is your stop next? Push the button.(下一站要下车?按一下按钮。)" },
+    { "prompt": "坐轻轨去机场,票怎么买?", "options": ["在车站买", "上车以后跟司机买", "到了机场再买"], "answer": 0, "explainZh": "Train to the airport? Buy a ticket at the station.(要坐轻轨去机场?在车站买好票。)往返票大约六美元。" }
+  ],
+  "grammar": [
+    { "id": "en.g.guide_imperatives", "titleZh": "读指南:祈使句和表示先后的词",
+      "bodyZh": "指南、说明里最常用祈使句:动词原形开头,不说主语 you,直接告诉你做什么——Walk to a bus stop.(走到公交站。)Get on at the front.(从前门上车。)动词不加 -s,也不能省掉。中文说“从前门上车”,语序和英语一样;要提醒自己的是句子开头就是动词。不要做某事用 Don't + 动词原形:Don't be shy.(别不好意思。)读这类指南,先看编号 1、2、3 和 then(然后),步骤就清楚了。也复习一下:坐公交、坐火车用 take the bus / take the train,上车、下车是 get on / get off,读的时候连起来,像“ge-don”“ge-doff”。",
+      "examples": [
+        { "text": "Walk to a bus stop. Then get on at the front.", "zh": "走到公交站,然后从前门上车。" },
+        { "text": "Push the button and get off at the back.", "zh": "按一下按钮,从后门下车。" },
+        { "text": "Don't be shy. Take the bus!", "zh": "别不好意思,坐公交吧!" }
+      ] }
+  ],
+  "review": "draft"
+}

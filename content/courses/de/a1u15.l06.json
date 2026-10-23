@@ -1,0 +1,47 @@
+{
+  "id": "de.a1u15.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-15 节日与生日", "order": 115060,
+  "titleZh": "夏至音乐节:你们在哪儿?", "goalZh": "会在人多的地方打电话找人:问对方在哪儿、说自己听不清、说马上到", "canDoZh": "能在人多的户外活动里打电话找人,说清楚自己在哪儿",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.buehne", "kind": "word", "pos": "noun", "text": "die Bühne", "zh": "舞台", "features": { "gender": "f", "plural": "die Bühnen", "ipa": "ˈbyːnə" }, "noteZh": "an der Bühne(在舞台旁边)、rechts von der Bühne(舞台右边)先当固定说法;ü 是长音,h 不发音。" },
+    { "id": "de.band", "kind": "word", "pos": "noun", "text": "die Band", "zh": "乐队", "features": { "gender": "f", "plural": "die Bands", "ipa": "bɛnt" }, "noteZh": "英语借来的词,读 [bɛnt],阴性;Da spielt eine Band.(那儿有个乐队在演奏。)" },
+    { "id": "de.ecke", "kind": "word", "pos": "noun", "text": "die Ecke", "zh": "角落;拐角", "features": { "gender": "f", "plural": "die Ecken", "ipa": "ˈɛkə" }, "noteZh": "an der Ecke(在拐角那儿)、um die Ecke(拐过弯就到);约人见面时很有用;ck 读 [k]。" },
+    { "id": "de.ueberall", "kind": "word", "pos": "adv", "text": "überall", "zh": "到处", "features": { "ipa": "ˌyːbɐˈʔal" }, "noteZh": "Überall ist Musik!(到处都是音乐!)重音在最后的 all 上。" },
+    { "id": "de.draussen", "kind": "word", "pos": "adv", "text": "draußen", "zh": "在外面;在户外", "features": { "ipa": "ˈdʁaʊ̯sn̩" }, "noteZh": "draußen auf der Straße(外面街上);天气好时德国人爱 draußen sitzen(坐在外面);ß 读 [s]。" },
+    { "id": "de.umsonst", "kind": "word", "pos": "adv", "text": "umsonst", "zh": "免费;不要钱", "features": { "ipa": "ʊmˈzɔnst" }, "noteZh": "口语:Das ist alles umsonst!(这些都不要钱!)书面上常写 Eintritt frei(免费入场);重音在 sonst 上。" },
+    { "id": "de.durst", "kind": "word", "pos": "noun", "text": "der Durst", "zh": "渴", "features": { "gender": "m", "plural": "-", "ipa": "dʊʁst" }, "noteZh": "Ich habe Durst.(我渴了。)和 Ich habe Hunger.(我饿了。)一样用 haben;不可数。" },
+    { "id": "de.saft", "kind": "word", "pos": "noun", "text": "der Saft", "zh": "果汁", "features": { "gender": "m", "plural": "die Säfte", "ipa": "zaft" }, "noteZh": "der Apfelsaft(苹果汁)、der Orangensaft(橙汁);德国人也爱喝苹果汁兑气泡水;复数变音:die Säfte。" }
+  ],
+  "reviewItems": ["de.voll", "de.leute", "de.hoeren", "de.musik", "de.rechts", "de.gleich"],
+  "lines": [
+    { "speaker": "wei", "text": "Hallo Lena! Ich bin jetzt da. Wo seid ihr?", "zh": "(6 月 21 日夏至音乐节,王伟下班后打电话)喂,莉娜!我到了。你们在哪儿?", "items": ["de.hallo", "de.ich", "de.sein", "de.jetzt", "de.da", "de.wo", "de.ihr"] },
+    { "speaker": "lena", "text": "Wir sind an der Bühne, vor dem Café!", "zh": "我们在舞台旁边,咖啡馆前面!", "items": ["de.wir", "de.sein", "de.an", "de.buehne", "de.vor", "de.cafe"] },
+    { "speaker": "wei", "text": "Wie bitte? Hier ist überall Musik! Ich höre dich nicht.", "zh": "你说什么?这儿到处都是音乐!我听不清你说话。", "items": ["de.wie_bitte", "de.hier", "de.sein", "de.ueberall", "de.musik", "de.ich", "de.hoeren", "de.dich", "de.nicht"] },
+    { "speaker": "lena", "text": "An der Bühne! Siehst du uns?", "zh": "在舞台旁边!你看见我们了吗?", "items": ["de.an", "de.buehne", "de.sehen", "de.du", "de.uns"] },
+    { "speaker": "wei", "text": "Nein, hier ist es so voll! So viele Leute!", "zh": "没有,这儿太挤了!人真多!", "items": ["de.nein", "de.hier", "de.sein", "de.es", "de.so", "de.voll", "de.viel", "de.leute"] },
+    { "speaker": "sofia", "text": "Wei, hier ist Sofia. Wir sind rechts von der Bühne, an der Ecke.", "zh": "(索菲娅接过电话)王伟,我是索菲娅。我们在舞台右边,拐角那儿。", "items": ["de.hier", "de.sein", "de.wir", "de.rechts", "de.von", "de.buehne", "de.an", "de.ecke"] },
+    { "speaker": "sofia", "text": "Da spielt eine Band. Wir warten da.", "zh": "那儿有个乐队在演奏。我们在那儿等你。", "items": ["de.da", "de.spielen", "de.ein", "de.band", "de.wir", "de.warten"] },
+    { "speaker": "wei", "text": "Jetzt sehe ich euch! Ich bin gleich da.", "zh": "我看见你们了!马上到。", "items": ["de.jetzt", "de.sehen", "de.ich", "de.euch", "de.sein", "de.gleich", "de.da"] },
+    { "speaker": "lena", "text": "Da bist du! Die Band ist super, oder?", "zh": "你来啦!这个乐队很棒吧?", "items": ["de.da", "de.sein", "de.du", "de.band", "de.toll", "de.oder"] },
+    { "speaker": "wei", "text": "Toll! Musik draußen auf der Straße. Ist das alles umsonst?", "zh": "太棒了!在外面街上听音乐。这些都不要钱吗?", "items": ["de.toll", "de.musik", "de.draussen", "de.auf", "de.strasse", "de.das_ist", "de.alles", "de.umsonst"] },
+    { "speaker": "sofia", "text": "Ja! Die Fête de la Musique ist für alle umsonst.", "zh": "对!夏至音乐节对所有人都免费。", "items": ["de.ja", "de.sein", "de.fuer", "de.alle", "de.umsonst"] },
+    { "speaker": "lena", "text": "Ich habe Durst. Ich kaufe Saft für uns.", "zh": "我渴了。我去给大家买果汁。", "items": ["de.ich", "de.haben", "de.durst", "de.kaufen", "de.saft", "de.fuer", "de.uns"] }
+  ],
+  "questions": [
+    { "prompt": "莉娜和索菲娅在哪儿?", "options": ["咖啡馆里面", "地铁站门口", "舞台旁边,咖啡馆前面"], "answer": 2, "explainZh": "莉娜说:Wir sind an der Bühne, vor dem Café!(我们在舞台旁边,咖啡馆前面!)索菲娅又说得更清楚:rechts von der Bühne, an der Ecke(舞台右边,拐角那儿)。" },
+    { "prompt": "王伟为什么听不清莉娜的话?", "options": ["手机没电了", "到处都是音乐,人很多", "莉娜说得太快"], "answer": 1, "explainZh": "王伟说:Hier ist überall Musik! Ich höre dich nicht.(这儿到处都是音乐!我听不清。)还说:So viele Leute!(人真多!)" },
+    { "prompt": "夏至音乐节的音乐要花钱吗?", "options": ["不要钱", "要五欧元", "只有学生免费"], "answer": 0, "explainZh": "索菲娅说:Die Fête de la Musique ist für alle umsonst.(夏至音乐节对所有人都免费。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u15_telefon_wo", "titleZh": "打电话找人:Wo seid ihr? / Ich bin gleich da!",
+      "bodyZh": "在人多的地方打电话找人,常用这些句子:\n问:Wo seid ihr?(你们在哪儿?)/ Wo bist du?(你在哪儿?)——注意 ihr seid,不说 ✗ Wo sind ihr。\n说位置:Wir sind an der Bühne.(我们在舞台旁边。)/ vor dem Café(咖啡馆前面)/ rechts von der Bühne(舞台右边)/ an der Ecke(拐角那儿)。介词后面的 der / dem 是第三格(说“在哪儿”时用),A2 才系统讲,现在当固定说法整句记。\n听不清:Wie bitte? Ich höre dich nicht.(我听不清你说话。)——hören 后面也用第四格 dich。\n找到了:Jetzt sehe ich euch! Ich bin gleich da.(我看见你们了!马上到。)\n文化:6 月 21 日夏至这天,柏林很多街头、公园都有免费的音乐演出,叫 Fête de la Musique(法语“音乐节”)。",
+      "examples": [
+        { "text": "Wo seid ihr?", "zh": "你们在哪儿?" },
+        { "text": "Wir sind an der Bühne, vor dem Café.", "zh": "我们在舞台旁边,咖啡馆前面。" },
+        { "text": "Ich höre dich nicht.", "zh": "我听不清你说话。" },
+        { "text": "Ich bin gleich da!", "zh": "我马上到!" }
+      ] }
+  ],
+  "review": "draft"
+}

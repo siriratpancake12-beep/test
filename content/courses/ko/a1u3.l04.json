@@ -1,0 +1,53 @@
+{
+  "id": "ko.a1u3.l04", "schemaVersion": 1, "lang": "ko", "type": "grammar", "cefr": "A1",
+  "unit": "A1-3 自我介绍与家人", "order": 103040,
+  "titleZh": "你有兄弟姐妹吗?", "goalZh": "会用 N이/가 있어요 / 없어요 说“有 / 没有”,会说兄弟姐妹",
+  "canDoZh": "能问别人有没有兄弟姐妹,并介绍自己家有谁",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "ko.gajok", "kind": "word", "pos": "noun", "text": "가족", "zh": "家人;家庭", "features": { "roman": "gajok" }, "noteZh": "汉字词 家族;우리 가족 = 我的家人(韩国人说自己家常用 우리);가족 사진 = 全家福。" },
+    { "id": "ko.eomma", "kind": "word", "pos": "noun", "text": "엄마", "zh": "妈妈(口语)", "features": { "roman": "eomma" }, "noteZh": "和 아빠 相对;正式说 어머니(下一课)。" },
+    { "id": "ko.eonni", "kind": "word", "pos": "noun", "text": "언니", "zh": "姐姐(女生叫)", "features": { "roman": "eonni" }, "noteZh": "女生称呼姐姐或亲近的年长女性;男生叫姐姐用 누나(下一课)。" },
+    { "id": "ko.dongsaeng", "kind": "word", "pos": "noun", "text": "동생", "zh": "弟弟或妹妹", "features": { "roman": "dongsaeng" }, "noteZh": "汉字词 同生;不分男女,要说清楚用 남동생 / 여동생。" },
+    { "id": "ko.namdongsaeng", "kind": "word", "pos": "noun", "text": "남동생", "zh": "弟弟", "features": { "roman": "namdongsaeng" }, "noteZh": "남(男)+ 동생。" },
+    { "id": "ko.yeodongsaeng", "kind": "word", "pos": "noun", "text": "여동생", "zh": "妹妹", "features": { "roman": "yeodongsaeng" }, "noteZh": "여(女)+ 동생。" },
+    { "id": "ko.isseoyo", "kind": "word", "pos": "verb", "text": "있어요", "zh": "有;在", "features": { "roman": "isseoyo" }, "noteZh": "原形 있다;连音读 [이써요]。N이/가 있어요 = 有 N:“有”的东西用主语助词 이/가,不用 을/를;第 6 单元学“在哪儿”:학교에 있어요。" },
+    { "id": "ko.eopseoyo", "kind": "word", "pos": "verb", "text": "없어요", "zh": "没有;不在", "features": { "roman": "eopseoyo" }, "noteZh": "原形 없다;双收音 ㅄ 的 ㅅ 移到后面并变紧,读 [업써요]。和 있어요 相对。" }
+  ],
+  "reviewItems": ["ko.appa", "ko.oppa", "ko.sajin", "ko.uri"],
+  "lines": [
+    { "speaker": "sua", "text": "이거 우리 가족 사진이에요.", "zh": "(晚上,秀雅拿出手机,给陈静看她的全家福)这是我们家的全家福。", "roman": "Igeo uri gajok sajinieyo.", "items": ["ko.igeo", "ko.uri", "ko.gajok", "ko.sajin"] },
+    { "speaker": "sua", "text": "우리 아빠, 엄마, 오빠예요.", "zh": "这是我爸爸、妈妈,还有哥哥。(哥哥就是上次那张照片里穿军装的人)", "roman": "Uri appa, eomma, oppayeyo.", "items": ["ko.uri", "ko.appa", "ko.eomma", "ko.oppa"] },
+    { "speaker": "jing", "text": "이 사람은 언니예요?", "zh": "(陈静指着秀雅的妈妈,故意这么问)这位是你姐姐吗?", "roman": "I sarameun eonniyeyo?", "items": ["ko.saram", "ko.eonni"] },
+    { "speaker": "sua", "text": "아니요, 언니가 아니에요. 우리 엄마예요!", "zh": "(秀雅笑出了声)不是,不是姐姐。是我妈妈!", "roman": "Aniyo, eonniga anieyo. Uri eommayeyo!", "items": ["ko.aniyo", "ko.eonni", "ko.anieyo", "ko.uri", "ko.eomma"] },
+    { "speaker": "jing", "text": "수아 씨, 언니 있어요?", "zh": "(两人笑完,陈静认真地问)秀雅,你有姐姐吗?", "roman": "Sua ssi, eonni isseoyo?", "items": ["ko.ssi", "ko.eonni", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "아니요, 언니는 없어요. 오빠가 있어요.", "zh": "没有,姐姐没有。我有个哥哥。", "roman": "Aniyo, eonnineun eopseoyo. Oppaga isseoyo.", "items": ["ko.aniyo", "ko.eonni", "ko.eopseoyo", "ko.oppa", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "천징 씨는 동생 있어요? 남동생? 여동생?", "zh": "你呢,有弟弟妹妹吗?弟弟?妹妹?", "roman": "Cheonjing ssineun dongsaeng isseoyo? Namdongsaeng? Yeodongsaeng?", "items": ["ko.ssi", "ko.dongsaeng", "ko.isseoyo", "ko.namdongsaeng", "ko.yeodongsaeng"] },
+    { "speaker": "jing", "text": "아니요, 동생 없어요. 언니도 없어요.", "zh": "没有,我没有弟弟妹妹,也没有姐姐。", "roman": "Aniyo, dongsaeng eopseoyo. Eonnido eopseoyo.", "items": ["ko.aniyo", "ko.dongsaeng", "ko.eopseoyo", "ko.eonni"] },
+    { "speaker": "sua", "text": "오빠도 없어요?", "zh": "哥哥也没有?", "roman": "Oppado eopseoyo?", "items": ["ko.oppa", "ko.eopseoyo"] },
+    { "speaker": "jing", "text": "네, 없어요. 우리 가족은 아빠, 엄마, 저예요.", "zh": "嗯,没有。我们家就是爸爸、妈妈和我。", "roman": "Ne, eopseoyo. Uri gajogeun appa, eomma, jeoyeyo.", "items": ["ko.ne", "ko.eopseoyo", "ko.uri", "ko.gajok", "ko.appa", "ko.eomma", "ko.jeo"] }
+  ],
+  "questions": [
+    { "prompt": "秀雅家的全家福里有谁?", "options": ["爸爸、妈妈、姐姐", "爸爸、妈妈、弟弟", "爸爸、妈妈、哥哥"], "answer": 2, "explainZh": "第 2 句:우리 아빠, 엄마, 오빠예요。陈静开玩笑说的“姐姐”其实是秀雅的妈妈(第 3、4 句)。" },
+    { "prompt": "陈静问“언니 있어요?”,秀雅怎么回答?", "options": ["네, 언니가 있어요.", "아니요, 언니는 없어요. 오빠가 있어요.", "오빠도 없어요."], "answer": 1, "explainZh": "第 6 句:아니요, 언니는 없어요. 오빠가 있어요.(没有姐姐,有哥哥。)这里用 는 是在对比:姐姐没有,哥哥有。" },
+    { "prompt": "陈静家有几口人?", "options": ["三口:爸爸、妈妈和她", "四口:还有一个妹妹", "四口:还有一个哥哥"], "answer": 0, "explainZh": "第 8–10 句:동생 없어요. 언니도 없어요……우리 가족은 아빠, 엄마, 저예요(我们家就是爸爸、妈妈和我)。陈静是独生女。" },
+    { "prompt": "“오빠가 있어요”里为什么用 가?", "options": ["后面是 있어요,要用宾语助词", "因为 오빠 是男的", "오빠 最后一个字没有收音"], "answer": 2, "explainZh": "이/가 是主语助词:有收音用 이(동생이),没有收音用 가(오빠가)。韩语的“有”说 N이/가 있어요,不用宾语助词 을/를。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.isseoyo_eopseoyo", "titleZh": "N이/가 있어요 / 없어요:有 / 没有",
+      "bodyZh": "“有 N”说 N이/가 있어요,“没有 N”说 N이/가 없어요。이/가 是主语助词:名词最后一个字有收音用 이(동생이 있어요),没有收音用 가(오빠가 있어요、언니가 없어요)。\n中国学生最常见的错:中文“我有姐姐”里“姐姐”是宾语,就套用宾语助词 을/를,说成 언니를 있어요 ✗。韩语里“有”的东西是主语,要用 이/가。说话人“我”放在最前面,用 저는:저는 오빠가 없어요。\n口语里助词常常省掉:언니 있어요?、동생 없어요。回答:네, 있어요 / 아니요, 없어요。别人问“哥哥也没有?”(오빠도 없어요?),同意就说 네, 없어요——和中文“嗯,没有”一样,和英语的 No 不同。",
+      "examples": [
+        { "text": "언니 있어요?", "zh": "你有姐姐吗?(口语省掉了 가)" },
+        { "text": "오빠가 있어요.", "zh": "我有哥哥。(오빠 没有收音 → 가)" },
+        { "text": "동생이 없어요.", "zh": "我没有弟弟妹妹。(동생 有收音 → 이)" }
+      ] },
+    { "id": "ko.g.neun_vs_ga", "titleZh": "언니는 없어요, 오빠가 있어요:은/는 表示对比;도 = 也",
+      "bodyZh": "把 이/가 换成 은/는,意思就多了一层“对比”:언니는 없어요. 오빠가 있어요.(姐姐呢,没有;哥哥倒是有。)这时 는 把“姐姐”拿出来和别的家人比。只是陈述“有哥哥”这个新信息时用 이/가:오빠가 있어요。“也没有”把 이/가 换成 도:언니도 없어요、오빠도 없어요。\n说自己家的人,韩国人习惯用 우리(我们的)而不是 제(我的):우리 가족、우리 엄마、우리 아빠。叫兄弟姐妹要看说话人是男是女:女生叫哥哥 오빠、姐姐 언니;男生的叫法下一课学。弟弟妹妹不分男女都叫 동생,要分清时说 남동생 / 여동생。",
+      "examples": [
+        { "text": "언니는 없어요. 오빠가 있어요.", "zh": "姐姐没有,哥哥有。(는 表示对比)" },
+        { "text": "언니도 없어요.", "zh": "姐姐也没有。(도 = 也)" },
+        { "text": "우리 가족은 아빠, 엄마, 저예요.", "zh": "我们家就是爸爸、妈妈和我。" }
+      ] }
+  ],
+  "review": "draft"
+}

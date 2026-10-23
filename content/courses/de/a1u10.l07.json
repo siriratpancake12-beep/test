@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u10.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110070,
+  "titleZh": "教霍夫曼先生发照片", "goalZh": "会用 Sie 一步一步教长辈用手机,会说屏幕上的位置", "canDoZh": "能用简单的德语一步一步教别人用手机做一件事",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.smartphone", "kind": "word", "pos": "noun", "text": "das Smartphone", "zh": "智能手机", "features": { "gender": "n", "plural": "die Smartphones", "ipa": "ˈsmaːɐ̯tfoːn" }, "noteZh": "英语外来词,中性;日常说 das Handy 就行,Smartphone 强调是智能手机;sm 读 [sm],不读 [ʃm]。" },
+    { "id": "de.tochter", "kind": "word", "pos": "noun", "text": "die Tochter", "zh": "女儿", "features": { "gender": "f", "plural": "die Töchter", "ipa": "ˈtɔxtɐ" }, "noteZh": "复数变音:Töchter;o 后面的 ch 读 [x];儿子是 der Sohn。" },
+    { "id": "de.enkelin", "kind": "word", "pos": "noun", "text": "die Enkelin", "zh": "孙女;外孙女", "features": { "gender": "f", "plural": "die Enkelinnen", "ipa": "ˈɛŋkəlɪn" }, "noteZh": "der Enkel(孙子、外孙)+ -in;德语不分“孙”和“外孙”;复数 Enkelinnen;nk 读 [ŋk]。" },
+    { "id": "de.kamera", "kind": "word", "pos": "noun", "text": "die Kamera", "zh": "相机;摄像头", "features": { "gender": "f", "plural": "die Kameras", "ipa": "ˈkaməʁa" }, "noteZh": "手机上的相机也叫 die Kamera;重音在前:KA-me-ra;复数加 -s。" },
+    { "id": "de.knopf", "kind": "word", "pos": "noun", "text": "der Knopf", "zh": "按钮;纽扣", "features": { "gender": "m", "plural": "die Knöpfe", "ipa": "knɔpf" }, "noteZh": "开头的 k 和 pf 都要读出来:k-nopf;复数变音:Knöpfe;Drücken Sie den Knopf.(按这个按钮。)" },
+    { "id": "de.kompliziert", "kind": "word", "pos": "adj", "text": "kompliziert", "zh": "复杂的", "features": { "ipa": "kɔmpliˈtsiːɐ̯t" }, "noteZh": "Das ist kompliziert!(这太复杂了!);反义词 einfach;z 读 [ts],重音在 ziert。" },
+    { "id": "de.brille", "kind": "word", "pos": "noun", "text": "die Brille", "zh": "眼镜", "features": { "gender": "f", "plural": "die Brillen", "ipa": "ˈbʁɪlə" }, "noteZh": "一副眼镜就是 eine Brille(单数!);Wo ist meine Brille?;双写 ll 前面的 i 是短音。" },
+    { "id": "de.senden", "kind": "word", "pos": "verb", "text": "senden", "zh": "发送", "features": { "ipa": "ˈzɛndn̩" }, "noteZh": "手机上的发送键常写 Senden;意思和 schicken 一样;du sendest, er sendet(词干以 d 结尾要加 e)。" }
+  ],
+  "reviewItems": ["de.zuerst", "de.danach", "de.druecken", "de.anmachen", "de.bild", "de.moment"],
+  "lines": [
+    { "speaker": "hoffmann", "text": "Herr Wang, können Sie mir helfen? Mein Smartphone ist neu.", "zh": "王先生,您能帮我个忙吗?我的智能手机是新的。", "items": ["de.herr", "de.koennen", "de.sie_hoeflich", "de.ich", "de.helfen", "de.mein", "de.smartphone", "de.sein", "de.neu"] },
+    { "speaker": "wei", "text": "Gern, Herr Hoffmann! Was möchten Sie machen?", "zh": "乐意效劳,霍夫曼先生!您想做什么?", "items": ["de.gern", "de.herr", "de.was", "de.moechten", "de.sie_hoeflich", "de.machen"] },
+    { "speaker": "hoffmann", "text": "Meine Tochter und meine Enkelin wohnen in München. Ich möchte ihnen ein Bild schicken.", "zh": "我女儿和外孙女住在慕尼黑。我想给她们发一张照片。", "items": ["de.mein", "de.tochter", "de.und", "de.enkelin", "de.wohnen", "de.in", "de.ich", "de.moechten", "de.sie_pl", "de.ein", "de.bild", "de.schicken"] },
+    { "speaker": "wei", "text": "Das ist nicht schwer. Zuerst machen Sie die Kamera an.", "zh": "这不难。您先打开相机。", "items": ["de.das_ist", "de.nicht", "de.schwer", "de.zuerst", "de.anmachen", "de.sie_hoeflich", "de.kamera"] },
+    { "speaker": "hoffmann", "text": "Einen Moment, meine Brille! Und wo ist die Kamera?", "zh": "等一下,我的眼镜!相机在哪儿?", "items": ["de.ein", "de.moment", "de.mein", "de.brille", "de.und", "de.wo", "de.sein", "de.kamera"] },
+    { "speaker": "wei", "text": "Hier rechts. Dann drücken Sie den Knopf.", "zh": "在右边这儿。然后您按这个按钮。", "items": ["de.hier", "de.rechts", "de.dann", "de.druecken", "de.sie_hoeflich", "de.knopf"] },
+    { "speaker": "hoffmann", "text": "Gut, das Bild ist da. Und danach?", "zh": "好,照片拍好了。然后呢?", "items": ["de.gut", "de.bild", "de.sein", "de.da", "de.und", "de.danach"] },
+    { "speaker": "wei", "text": "Danach drücken Sie hier links und dann „Senden“.", "zh": "然后您点左边这儿,再点“发送”。", "items": ["de.danach", "de.druecken", "de.sie_hoeflich", "de.hier", "de.links", "de.und", "de.dann", "de.senden"] },
+    { "speaker": "hoffmann", "text": "Langsam, bitte! Das ist kompliziert. Noch einmal, bitte!", "zh": "请慢一点!这太复杂了。请再说一遍!", "items": ["de.langsam", "de.bitte", "de.das_ist", "de.kompliziert", "de.noch_einmal"] },
+    { "speaker": "wei", "text": "Hier links ist der Name von Ihrer Tochter. Den drücken Sie.", "zh": "左边这儿是您女儿的名字。您点它。", "items": ["de.hier", "de.links", "de.sein", "de.name", "de.von", "de.ihr_hoeflich", "de.tochter", "de.druecken", "de.sie_hoeflich"] },
+    { "speaker": "hoffmann", "text": "Toll, jetzt hat meine Tochter das Bild! Kommen Sie am Sonntag zum Kaffee?", "zh": "太好了,我女儿收到照片了!您星期天来喝咖啡吗?", "items": ["de.toll", "de.jetzt", "de.haben", "de.mein", "de.tochter", "de.bild", "de.ich_komme_aus", "de.sie_hoeflich", "de.am", "de.sonntag", "de.zu", "de.kaffee"] },
+    { "speaker": "wei", "text": "Sehr gern, Herr Hoffmann!", "zh": "非常乐意,霍夫曼先生!", "items": ["de.sehr", "de.gern", "de.herr"] }
+  ],
+  "questions": [
+    { "prompt": "霍夫曼先生想做什么?", "options": ["给女儿和外孙女发一张照片", "给女儿打电话", "买一部新手机"], "answer": 0, "explainZh": "霍夫曼先生说:Ich möchte ihnen ein Bild schicken.(我想给她们发一张照片。)他的女儿和外孙女住在慕尼黑。" },
+    { "prompt": "霍夫曼先生觉得发照片怎么样?", "options": ["很简单", "很好玩", "太复杂了"], "answer": 2, "explainZh": "霍夫曼先生说:Das ist kompliziert. Noch einmal, bitte!(这太复杂了,请再说一遍!)" },
+    { "prompt": "最后霍夫曼先生请王伟做什么?", "options": ["星期六一起去慕尼黑", "星期天来喝咖啡", "帮他买一副眼镜"], "answer": 1, "explainZh": "霍夫曼先生说:Kommen Sie am Sonntag zum Kaffee?(您星期天来喝咖啡吗?)" }
+  ],
+  "grammar": [
+    { "id": "de.g.anleitung_sie", "titleZh": "教长辈:用 Sie 说步骤",
+      "bodyZh": "教霍夫曼先生这样的长辈,从头到尾用 Sie。说步骤可以用陈述句,也可以用 Sie 的命令式,两种都礼貌,只是语序不同:Zuerst machen Sie die Kamera an.(陈述句:zuerst 在句首,动词第二位,Sie 跟在动词后面)/ Machen Sie zuerst die Kamera an!(命令式:动词在句首)。可分动词的前缀照样放句末。\n对方跟不上时,他会像王伟刚来德国时那样说:Langsam, bitte! Noch einmal, bitte!——这时就慢一点,一步一步来,再用 Dann … / Danach … 接下去。",
+      "examples": [
+        { "text": "Zuerst machen Sie die Kamera an.", "zh": "您先打开相机。" },
+        { "text": "Dann drücken Sie den Knopf.", "zh": "然后您按这个按钮。" }
+      ] },
+    { "id": "de.g.ihnen_tochter", "titleZh": "给谁发?——ihnen、Ihrer Tochter",
+      "bodyZh": "“给某人发 / 寄东西”:schicken + 人 + 东西,人用第三格:Ich möchte ihnen ein Bild schicken.(我想给她们发一张照片。)sie(她们)→ ihnen,Sie(您)→ Ihnen;meine Tochter → meiner Tochter,Ihre Tochter → Ihrer Tochter(der Name von Ihrer Tochter)。第三格 A2 才系统学,现在先把这几个当整块记住。\n家人的词:die Tochter(女儿)、die Enkelin(孙女 / 外孙女)、der Vater、die Mutter、die Oma。",
+      "examples": [
+        { "text": "Ich möchte ihnen ein Bild schicken.", "zh": "我想给她们发一张照片。" },
+        { "text": "Hier ist der Name von Ihrer Tochter.", "zh": "这儿是您女儿的名字。" }
+      ] }
+  ],
+  "review": "draft"
+}

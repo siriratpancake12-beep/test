@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u15.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-15 节日与生日", "order": 115080,
+  "titleZh": "单元复习与应用:给霍夫曼先生的惊喜", "goalZh": "复习本单元的第四格代词、命令式和日期,和朋友一起策划一个小聚会", "canDoZh": "能和朋友一起策划一个小聚会:定时间、分工、请人来",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "de.ueberraschung", "kind": "word", "pos": "noun", "text": "die Überraschung", "zh": "惊喜;意外", "features": { "gender": "f", "plural": "die Überraschungen", "ipa": "ˌyːbɐˈʁaʃʊŋ" }, "noteZh": "Überraschung!(惊喜!)给人惊喜时大家一起喊;-ung 结尾的名词都是阴性。" },
+    { "id": "de.unten", "kind": "word", "pos": "adv", "text": "unten", "zh": "在下面;楼下", "features": { "ipa": "ˈʊntn̩" }, "noteZh": "nach unten(往下;下楼)、unten im Haus(楼下);反义是 oben(上面)。" },
+    { "id": "de.ich_freue_mich", "kind": "phrase", "pos": "phrase", "text": "Ich freue mich!", "zh": "我很高兴!", "features": { "ipa": "ɪç ˈfʁɔʏ̯ə mɪç" }, "noteZh": "表达高兴、感动:Ich freue mich sehr!;这里的 mich 是“自己”(反身代词,A2 才讲),先整句记;eu 读 [ɔʏ̯]。" }
+  ],
+  "reviewItems": ["de.hinterhof", "de.mitbringen", "de.karte", "de.fruehstueck", "de.baeckerei"],
+  "lines": [
+    { "speaker": "sofia", "text": "Am 28. Juni hat Herr Hoffmann Geburtstag. Dann ist er dreiundsiebzig!", "zh": "(几天前,WG 厨房里)6 月 28 日是霍夫曼先生的生日。那天他就七十三岁了!", "items": ["de.am", "de.acht", "de.und", "de.zwanzig", "de.juni", "de.haben", "de.herr", "de.geburtstag", "de.dann", "de.sein", "de.er", "de.drei", "de.siebzig"] },
+    { "speaker": "wei", "text": "Seine Familie wohnt in München. Er hat hier keine Familie.", "zh": "他的家人住在慕尼黑。他在这儿没有家人。", "items": ["de.sein_poss", "de.familie", "de.wohnen", "de.in", "de.er", "de.haben", "de.hier", "de.kein"] },
+    { "speaker": "jonas", "text": "Dann machen wir eine Überraschung! Ein Frühstück im Hinterhof.", "zh": "那我们给他一个惊喜!在后院吃早饭。", "items": ["de.dann", "de.machen", "de.wir", "de.ein", "de.ueberraschung", "de.fruehstueck", "de.in", "de.hinterhof"] },
+    { "speaker": "sofia", "text": "Super! Um zehn Uhr am Vormittag – am Nachmittag arbeiten wir.", "zh": "好主意!上午十点——下午我们要打工。", "items": ["de.toll", "de.um", "de.zehn", "de.uhr", "de.am", "de.vormittag", "de.nachmittag", "de.arbeiten", "de.wir"] },
+    { "speaker": "wei", "text": "Wer kauft den Kuchen?", "zh": "谁去买蛋糕?", "items": ["de.wer", "de.kaufen", "de.kuchen"] },
+    { "speaker": "jonas", "text": "Ich! In der Bäckerei unten gibt es tollen Kuchen.", "zh": "我!楼下面包店的蛋糕很棒。", "items": ["de.ich", "de.in", "de.baeckerei", "de.unten", "de.es_gibt", "de.toll", "de.kuchen"] },
+    { "speaker": "wei", "text": "Und ich schreibe eine Karte. Lena und Paul kommen auch.", "zh": "我来写贺卡。莉娜和保罗也来。", "items": ["de.und", "de.ich", "de.schreiben", "de.ein", "de.karte", "de.ich_komme_aus", "de.auch"] },
+    { "speaker": "sofia", "text": "Gut! Lena bringt Saft mit. Und wer holt Herrn Hoffmann ab?", "zh": "好!莉娜带果汁来。那谁去请霍夫曼先生下来?", "items": ["de.gut", "de.mitbringen", "de.saft", "de.und", "de.wer", "de.abholen", "de.herr"] },
+    { "speaker": "jonas", "text": "Das mache ich. Ich rufe ihn um zehn an.", "zh": "我去。我十点给他打电话。", "items": ["de.machen", "de.ich", "de.anrufen", "de.ihn", "de.um", "de.zehn"] },
+    { "speaker": "jonas", "text": "Herr Hoffmann, kommen Sie bitte nach unten! Wir brauchen Sie.", "zh": "(6 月 28 日上午十点)霍夫曼先生,请您下楼来一下!我们需要您帮忙。", "items": ["de.herr", "de.ich_komme_aus", "de.sie_hoeflich", "de.bitte", "de.nach", "de.unten", "de.wir", "de.brauchen"] },
+    { "speaker": "sofia", "text": "Überraschung! Herzlichen Glückwunsch zum Geburtstag, Herr Hoffmann!", "zh": "惊喜!生日快乐,霍夫曼先生!", "items": ["de.ueberraschung", "de.herzlichen_glueckwunsch", "de.geburtstag", "de.herr"] },
+    { "speaker": "hoffmann", "text": "Was? Ein Frühstück für mich? Im Hinterhof?", "zh": "什么?给我准备的早饭?在后院?", "items": ["de.was", "de.ein", "de.fruehstueck", "de.fuer", "de.mich", "de.in", "de.hinterhof"] },
+    { "speaker": "wei", "text": "Ja, für Sie! Und hier ist eine Karte von uns allen.", "zh": "对,是给您的!这是我们大家写的贺卡。", "items": ["de.ja", "de.fuer", "de.sie_hoeflich", "de.und", "de.hier", "de.sein", "de.ein", "de.karte", "de.von", "de.uns", "de.alle"] },
+    { "speaker": "hoffmann", "text": "Vielen Dank! Das ist so schön. Ich freue mich sehr!", "zh": "太谢谢你们了!真好。我太高兴了!", "items": ["de.vielen_dank", "de.das_ist", "de.so", "de.schoen", "de.ich_freue_mich", "de.sehr"] },
+    { "speaker": "jonas", "text": "Und jetzt: Kaffee und Kuchen! Guten Appetit!", "zh": "现在开吃:咖啡和蛋糕!大家慢用!", "items": ["de.und", "de.jetzt", "de.kaffee", "de.kuchen", "de.guten_appetit"] }
+  ],
+  "questions": [
+    { "prompt": "霍夫曼先生要过几岁生日?", "options": ["72 岁", "73 岁", "83 岁"], "answer": 1, "explainZh": "索菲娅说:Dann ist er dreiundsiebzig!——dreiundsiebzig 是“三和七十”,73;德语 21–99 先说个位、再说十位。" },
+    { "prompt": "大家为什么要给他一个惊喜?", "options": ["他的家人住在慕尼黑,他在柏林没有家人", "他请大家喝过咖啡", "他要搬去慕尼黑了"], "answer": 0, "explainZh": "王伟说:Seine Familie wohnt in München. Er hat hier keine Familie.(他的家人住在慕尼黑,他在这儿没有家人。)" },
+    { "prompt": "谁去请霍夫曼先生下楼?", "options": ["王伟", "索菲娅", "约纳斯"], "answer": 2, "explainZh": "约纳斯说:Das mache ich. Ich rufe ihn um zehn an.(我去。我十点给他打电话。)后来也是他说:Herr Hoffmann, kommen Sie bitte nach unten!" },
+    { "prompt": "惊喜为什么安排在上午十点?", "options": ["霍夫曼先生下午要出门", "王伟和索菲娅下午要打工", "面包店十点才开门"], "answer": 1, "explainZh": "索菲娅说:Um zehn Uhr am Vormittag – am Nachmittag arbeiten wir.(上午十点——下午我们要打工。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u15_review_pronomen", "titleZh": "本单元小结(一):第四格人称代词",
+      "bodyZh": "做宾语的人称代词:mich、dich、ihn、sie、es、uns、euch、sie、Sie。\n动词后面:Ich rufe ihn um zehn an.(我十点给他打电话。)/ Wir brauchen Sie.(我们需要您。)/ Ich lade euch ein.\n介词 für 后面:Ein Frühstück für mich?(给我准备的早饭?)/ Ja, für Sie!\n问宾语用 wen:Wen laden wir noch ein?\n注意:von uns allen(我们大家的)里的 uns 是第三格,和第四格一样;mir、dir 也是第三格(Das gefällt mir、Wir wünschen dir …),A2 再系统讲。\n人名和名词做宾语时形式基本不变,只有 der Herr 要加 -n:Wer holt Herrn Hoffmann ab?",
+      "examples": [
+        { "text": "Ich rufe ihn um zehn an.", "zh": "我十点给他打电话。" },
+        { "text": "Wir brauchen Sie.", "zh": "我们需要您。" },
+        { "text": "Ein Frühstück für mich?", "zh": "给我准备的早饭?" }
+      ] },
+    { "id": "de.g.u15_review_planen", "titleZh": "本单元小结(二):策划聚会、日期和祝贺",
+      "bodyZh": "分工:Wer kauft den Kuchen? – Ich!(谁买蛋糕?——我!)/ Das mache ich.(这个我来。)——把 das 放句首强调,动词还在第二位。\n请人做事:对朋友用 du 的命令式(Ruf sie an! / Pack es aus! / Zieh es an!),对霍夫曼先生用 Sie 的命令式:Kommen Sie bitte nach unten!\n说日期和年龄:am 28. Juni(读 am achtundzwanzigsten Juni),Er ist dreiundsiebzig.(73 岁)。\n祝贺和回应:Überraschung! / Herzlichen Glückwunsch zum Geburtstag! / Vielen Dank! Ich freue mich sehr!(我太高兴了!)\n德国习俗提醒:生日祝福当天才说;蛋糕、咖啡是德国人过生日最常见的招待。",
+      "examples": [
+        { "text": "Wer kauft den Kuchen?", "zh": "谁去买蛋糕?" },
+        { "text": "Kommen Sie bitte nach unten!", "zh": "请您下楼来一下!" },
+        { "text": "Herzlichen Glückwunsch zum Geburtstag!", "zh": "生日快乐!" }
+      ] }
+  ],
+  "review": "draft"
+}

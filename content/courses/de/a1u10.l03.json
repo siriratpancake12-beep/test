@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u10.l03", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110030,
+  "titleZh": "先下载,再登录:说步骤", "goalZh": "会用 zuerst / dann / danach / zum Schluss 说步骤,会用可分动词加情态动词", "canDoZh": "能一步一步地说明怎么用手机做一件事,也能听懂别人的说明",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.herunterladen", "kind": "word", "pos": "verb", "text": "herunterladen", "zh": "下载", "features": { "ipa": "hɛˈʁʊntɐˌlaːdn̩" }, "noteZh": "可分:Ich lade die App herunter.;口语常说 runterladen;和情态动词连用时不分开:Du musst die App herunterladen.;du lädst … herunter。" },
+    { "id": "de.zuerst", "kind": "word", "pos": "adv", "text": "zuerst", "zh": "首先;先", "features": { "ipa": "tsuˈʔeːɐ̯st" }, "noteZh": "说步骤的第一步:Zuerst speicherst du die Bilder.;放句首时动词还在第二位,主语挪到动词后面;重音在 erst。" },
+    { "id": "de.danach", "kind": "word", "pos": "adv", "text": "danach", "zh": "之后;然后", "features": { "ipa": "daˈnaːx" }, "noteZh": "说下一步:Danach meldest du dich an.;意思和 dann 差不多;a 后面的 ch 读 [x]。" },
+    { "id": "de.zum_schluss", "kind": "phrase", "pos": "phrase", "text": "zum Schluss", "zh": "最后", "features": { "ipa": "tsʊm ˈʃlʊs" }, "noteZh": "说最后一步:Zum Schluss startest du die App.;der Schluss = 结尾;放句首时动词还在第二位。" },
+    { "id": "de.speichern", "kind": "word", "pos": "verb", "text": "speichern", "zh": "存储;保存", "features": { "ipa": "ˈʃpaɪ̯çɐn" }, "noteZh": "电脑、手机上的“保存”:die Bilder speichern;-ern 结尾的动词:ich speichere, du speicherst;sp 读 [ʃp],ei 读 [aɪ̯]。" },
+    { "id": "de.installieren", "kind": "word", "pos": "verb", "text": "installieren", "zh": "安装", "features": { "ipa": "ɪnstaˈliːʁən" }, "noteZh": "eine App installieren(安装 App);-ieren 动词重音在 lie,完成时 installiert(不加 ge-)。" },
+    { "id": "de.starten", "kind": "word", "pos": "verb", "text": "starten", "zh": "启动;打开(程序)", "features": { "ipa": "ˈʃtaʁtn̩" }, "noteZh": "die App starten(打开 App)/ das Handy neu starten(重启手机);词首 st 读 [ʃt];du startest, er startet(词干以 t 结尾要加 e)。" },
+    { "id": "de.klicken", "kind": "word", "pos": "verb", "text": "klicken", "zh": "点击", "features": { "ipa": "ˈklɪkn̩" }, "noteZh": "用鼠标或手指点一下:Ich klicke hier.;ck 读 [k]。" },
+    { "id": "de.einfach", "kind": "word", "pos": "adj", "text": "einfach", "zh": "简单;容易", "features": { "ipa": "ˈaɪ̯nfax" }, "noteZh": "Das ist einfach!(这很简单!);反义词 schwer / kompliziert;a 后面的 ch 读 [x]。" }
+  ],
+  "reviewItems": ["de.app", "de.bild", "de.anmelden", "de.e_mail", "de.nachricht"],
+  "lines": [
+    { "speaker": "wei", "text": "Sofia, ich habe ein neues Handy. Wie mache ich das alles?", "zh": "索菲娅,我有新手机了。这些都怎么弄啊?", "items": ["de.ich", "de.haben", "de.ein", "de.neu", "de.handy", "de.wie", "de.machen", "de.alles"] },
+    { "speaker": "sofia", "text": "Das ist einfach! Zuerst speicherst du die alten Bilder.", "zh": "很简单!你先把旧照片存好。", "items": ["de.das_ist", "de.einfach", "de.zuerst", "de.speichern", "de.du", "de.alt", "de.bild"] },
+    { "speaker": "wei", "text": "Und dann? Was mache ich dann?", "zh": "然后呢?然后我做什么?", "items": ["de.und", "de.dann", "de.was", "de.machen", "de.ich"] },
+    { "speaker": "sofia", "text": "Dann lädst du die Apps herunter und installierst sie.", "zh": "然后你下载 App,再安装。", "items": ["de.dann", "de.herunterladen", "de.du", "de.app", "de.und", "de.installieren", "de.sie_pl"] },
+    { "speaker": "wei", "text": "Und danach? Muss ich mich anmelden?", "zh": "再然后呢?我要登录吗?", "items": ["de.und", "de.danach", "de.muessen", "de.ich", "de.anmelden"] },
+    { "speaker": "sofia", "text": "Ja, danach musst du dich mit deiner E-Mail anmelden.", "zh": "对,接下来你要用邮箱登录。", "items": ["de.ja", "de.danach", "de.muessen", "de.du", "de.mit", "de.dein", "de.e_mail", "de.anmelden"] },
+    { "speaker": "wei", "text": "Zuerst lade ich die Apps herunter. Dann speichere ich die Bilder.", "zh": "先下载 App,然后存照片。", "items": ["de.zuerst", "de.herunterladen", "de.ich", "de.app", "de.dann", "de.speichern", "de.bild"] },
+    { "speaker": "sofia", "text": "Nein! Zuerst musst du die Bilder speichern, dann die Apps herunterladen.", "zh": "不对!你得先存照片,再下载 App。", "items": ["de.nein", "de.zuerst", "de.muessen", "de.du", "de.bild", "de.speichern", "de.dann", "de.app", "de.herunterladen"] },
+    { "speaker": "wei", "text": "Gut. Und zum Schluss starte ich die App und klicke hier?", "zh": "好。最后我打开 App,点这儿?", "items": ["de.gut", "de.und", "de.zum_schluss", "de.starten", "de.ich", "de.app", "de.klicken", "de.hier"] },
+    { "speaker": "sofia", "text": "Ja! Und jetzt kannst du Lena eine Nachricht schreiben.", "zh": "对!现在你就能给莉娜发消息了。", "items": ["de.ja", "de.und", "de.jetzt", "de.koennen", "de.du", "de.ein", "de.nachricht", "de.schreiben"] }
+  ],
+  "questions": [
+    { "prompt": "索菲娅说第一步要做什么?", "options": ["下载 App", "把旧照片存好", "给莉娜发消息"], "answer": 1, "explainZh": "索菲娅说:Zuerst speicherst du die alten Bilder.(你先把旧照片存好。)" },
+    { "prompt": "王伟复述的时候哪里说错了?", "options": ["他忘了登录", "他说要先关机", "他把存照片和下载 App 的顺序说反了"], "answer": 2, "explainZh": "王伟说 Zuerst lade ich die Apps herunter. Dann speichere ich die Bilder.,索菲娅纠正:Zuerst musst du die Bilder speichern, dann die Apps herunterladen." },
+    { "prompt": "最后王伟可以做什么了?", "options": ["给莉娜发消息", "给家里打电话", "去手机店"], "answer": 0, "explainZh": "索菲娅说:Und jetzt kannst du Lena eine Nachricht schreiben.(现在你就能给莉娜发消息了。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.schritte", "titleZh": "说步骤:zuerst、dann、danach、zum Schluss",
+      "bodyZh": "一步一步说明时,用这几个词开头:zuerst(首先)→ dann(然后)→ danach(之后)→ zum Schluss(最后)。\n它们放在句首时,动词仍然在第二位,主语挪到动词后面:Zuerst speicherst du die Bilder. / Dann lädst du die Apps herunter. / Danach meldest du dich an. / Zum Schluss startest du die App.(✗ Zuerst du speicherst …)。\n中文说“先……再……然后……最后……”,语序不变;德语句首换了词,动词还要紧跟在它后面。",
+      "examples": [
+        { "text": "Zuerst speicherst du die Bilder.", "zh": "你先把照片存好。" },
+        { "text": "Danach meldest du dich an.", "zh": "接着你登录。" },
+        { "text": "Zum Schluss startest du die App.", "zh": "最后你打开 App。" }
+      ] },
+    { "id": "de.g.modal_trennbar", "titleZh": "可分动词 + 情态动词:前缀不分开",
+      "bodyZh": "可分动词单独用时,前缀跑到句末:Du lädst die App herunter.。\n和情态动词(müssen、können、möchten、dürfen)一起用时,情态动词变位放第二位,可分动词用原形、整个放在句末,前缀不分开:Du musst die App herunterladen. / Kannst du die Apps installieren?。\n两个动作共用一个情态动词时,第二个可以省掉:Zuerst musst du die Bilder speichern, dann die Apps herunterladen.。sich anmelden 也一样:Du musst dich anmelden.(sich 跟着人变:ich → mich,du → dich)。",
+      "examples": [
+        { "text": "Du musst die App herunterladen.", "zh": "你得下载这个 App。" },
+        { "text": "Kannst du die Apps installieren?", "zh": "你能把这些 App 装上吗?" },
+        { "text": "Zuerst musst du die Bilder speichern.", "zh": "你得先把照片存好。" }
+      ] }
+  ],
+  "review": "draft"
+}

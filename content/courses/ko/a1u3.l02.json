@@ -1,0 +1,53 @@
+{
+  "id": "ko.a1u3.l02", "schemaVersion": 1, "lang": "ko", "type": "grammar", "cefr": "A1",
+  "unit": "A1-3 自我介绍与家人", "order": 103020,
+  "titleZh": "你是哪国人?", "goalZh": "会问答国籍和家乡,会用 N이/가 아니에요 否定",
+  "canDoZh": "能问别人是哪国人、老家在哪儿,并纠正别人的误会:“我不是日本人,是中国人”",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "ko.nara", "kind": "word", "pos": "noun", "text": "나라", "zh": "国家", "features": { "roman": "nara" }, "noteZh": "어느 나라 사람이에요?= 你是哪国人?;韩国人说“我国”(指韩国)写作 우리나라,连写。" },
+    { "id": "ko.eoneu", "kind": "word", "pos": "det", "text": "어느", "zh": "哪(个)", "features": { "roman": "eoneu" }, "noteZh": "后面必须接名词:어느 나라(哪国)、어느 거(哪个);单独问“哪里”用 어디。" },
+    { "id": "ko.ilbon", "kind": "word", "pos": "propn", "text": "일본", "zh": "日本", "features": { "roman": "ilbon" }, "noteZh": "汉字词 日本;일본 사람 = 日本人。" },
+    { "id": "ko.miguk", "kind": "word", "pos": "propn", "text": "미국", "zh": "美国", "features": { "roman": "miguk" }, "noteZh": "汉字词 美国(韩语用“美”字);收音 ㄱ 不爆破。" },
+    { "id": "ko.beteunam", "kind": "word", "pos": "propn", "text": "베트남", "zh": "越南", "features": { "roman": "beteunam" }, "noteZh": "外来词 Vietnam;트 用 ㅡ 补音,不读“特”;베트남 사람 = 越南人。" },
+    { "id": "ko.gohyang", "kind": "word", "pos": "noun", "text": "고향", "zh": "家乡;老家", "features": { "roman": "gohyang" }, "noteZh": "汉字词 故乡;问老家:고향이 어디예요?——收音 ㅇ 不连音,读 [고향이]。" },
+    { "id": "ko.eodi", "kind": "word", "pos": "pron", "text": "어디", "zh": "哪里", "features": { "roman": "eodi" }, "noteZh": "어디예요?= 是哪儿?;第 6 单元学 어디에 있어요?(在哪儿?)、어디에 가요?(去哪儿?)。" },
+    { "id": "ko.anieyo", "kind": "phrase", "pos": "phrase", "text": "아니에요", "zh": "不是;哪里,不用谢", "features": { "roman": "anieyo" }, "noteZh": "N이/가 아니에요 = 不是 N,放在句末;别和句首回答“不”的 아니요 混。别人道谢或夸奖时说 아니에요 = 哪里哪里、不客气,比 천만에요 更常用。" },
+    { "id": "ko.geuraeyo", "kind": "phrase", "pos": "phrase", "text": "그래요", "zh": "是吗;是啊;好的", "features": { "roman": "geuraeyo" }, "noteZh": "升调 그래요?= 是吗?(表示惊讶、感兴趣),常说 아, 그래요?;降调 그래요 = 是啊/好的。聊天时最常用的回应。" }
+  ],
+  "reviewItems": ["ko.hanguk", "ko.saram", "ko.aniyo", "ko.majayo"],
+  "lines": [
+    { "speaker": "park", "text": "천징 씨, 일본 사람이에요?", "zh": "(课上练习“不是……”的说法,朴老师故意问错)陈静,你是日本人吗?", "roman": "Cheonjing ssi, ilbon saramieyo?", "items": ["ko.ssi", "ko.ilbon", "ko.saram"] },
+    { "speaker": "jing", "text": "아니요, 일본 사람이 아니에요. 중국 사람이에요.", "zh": "不,我不是日本人。我是中国人。", "roman": "Aniyo, ilbon sarami anieyo. Jungguk saramieyo.", "items": ["ko.aniyo", "ko.ilbon", "ko.saram", "ko.anieyo", "ko.jungguk"] },
+    { "speaker": "park", "text": "맞아요. 남 씨는 미국 사람이에요?", "zh": "没错。(又转向南)阿南是美国人吗?", "roman": "Majayo. Nam ssineun miguk saramieyo?", "items": ["ko.majayo", "ko.ssi", "ko.miguk", "ko.saram"] },
+    { "speaker": "nam", "text": "아니요, 미국 사람이 아니에요. 한국 사람도 아니에요.", "zh": "(阿南笑着摆摆手)不,我不是美国人。也不是韩国人。", "roman": "Aniyo, miguk sarami anieyo. Hanguk saramdo anieyo.", "items": ["ko.aniyo", "ko.miguk", "ko.saram", "ko.anieyo", "ko.hanguk"] },
+    { "speaker": "jing", "text": "남 씨는 어느 나라 사람이에요?", "zh": "(课间,陈静好奇地问)阿南,你是哪国人?", "roman": "Nam ssineun eoneu nara saramieyo?", "items": ["ko.ssi", "ko.eoneu", "ko.nara", "ko.saram"] },
+    { "speaker": "nam", "text": "베트남 사람이에요.", "zh": "我是越南人。", "roman": "Beteunam saramieyo.", "items": ["ko.beteunam", "ko.saram"] },
+    { "speaker": "jing", "text": "아, 그래요? 고향이 어디예요?", "zh": "啊,是吗?你老家在哪儿?", "roman": "A, geuraeyo? Gohyangi eodiyeyo?", "items": ["ko.geuraeyo", "ko.gohyang", "ko.eodi"] },
+    { "speaker": "nam", "text": "하노이예요. 천징 씨 고향은 베이징이에요?", "zh": "河内。陈静的老家是北京吗?", "roman": "Hanoiyeyo. Cheonjing ssi gohyangeun Beijingieyo?", "items": ["ko.ssi", "ko.gohyang"] },
+    { "speaker": "jing", "text": "아니요, 베이징이 아니에요. 항저우예요.", "zh": "不是,不是北京,是杭州。", "roman": "Aniyo, Beijingi anieyo. Hangjeouyeyo.", "items": ["ko.aniyo", "ko.anieyo"] },
+    { "speaker": "nam", "text": "아, 그래요? 항저우 좋아요!", "zh": "啊,是吗?杭州很好啊!(阿南在短视频里看过西湖)", "roman": "A, geuraeyo? Hangjeou joayo!", "items": ["ko.geuraeyo", "ko.joayo"] }
+  ],
+  "questions": [
+    { "prompt": "阿南是哪国人?", "options": ["美国人", "越南人", "韩国人"], "answer": 1, "explainZh": "第 4 句阿南说 미국 사람이 아니에요. 한국 사람도 아니에요(不是美国人,也不是韩国人);第 6 句:베트남 사람이에요(我是越南人)。" },
+    { "prompt": "陈静的老家在哪儿?", "options": ["北京", "河内", "杭州"], "answer": 2, "explainZh": "第 9 句:베이징이 아니에요. 항저우예요(不是北京,是杭州)。하노이(河内)是阿南的老家(第 8 句)。" },
+    { "prompt": "“아니요, 베이징이 아니에요.”里为什么用 이,不用 가?", "options": ["베이징 的最后一个字 징 有收音", "因为 베이징 是地名", "因为前面有 아니요"], "answer": 0, "explainZh": "N이/가 아니에요:名词最后一个字有收音用 이,没有收音用 가。징 有收音 ㅇ,所以是 베이징이 아니에요;커피 没有收音,就说 커피가 아니에요。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.i_ga_anieyo", "titleZh": "N이/가 아니에요:不是 N;아니요 和 아니에요 别混",
+      "bodyZh": "上一课的 N이에요/예요(是 N)变成否定,要换成 N이/가 아니에요(不是 N):名词最后一个字有收音用 이(사람이 아니에요、베이징이 아니에요),没有收音用 가(커피가 아니에요)。注意 이/가 和 아니에요 之间空一格,而 이에요/예요 是连写的。\n中国学生最容易混的是两个“不”:아니요 是回答“不”,放在句首,相当于 No;아니에요 是“不是”,放在句末。所以纠正别人时两个都要说:아니요, 일본 사람이 아니에요.(不,我不是日本人。)不能说 일본 사람 아니요,也不能用第 4 单元要学的 안 来否定名词。\n“也不是”把 이/가 换成 도:한국 사람도 아니에요。另外,别人道谢或夸你时,也可以单说 아니에요,意思是“哪里哪里、不客气”。",
+      "examples": [
+        { "text": "아니요, 일본 사람이 아니에요.", "zh": "不,我不是日本人。(사람 有收音 → 이)" },
+        { "text": "커피가 아니에요. 차예요.", "zh": "不是咖啡,是茶。(커피 没有收音 → 가)" },
+        { "text": "한국 사람도 아니에요.", "zh": "也不是韩国人。(도 = 也)" }
+      ] },
+    { "id": "ko.g.where_which", "titleZh": "问国家和老家:어느 나라 / 어디",
+      "bodyZh": "问国籍:어느 나라 사람이에요?(哪国人?)。어느 是“哪(个)”,后面一定要接名词;单独问“哪儿”用 어디:고향이 어디예요?(老家在哪儿?字面是“老家是哪儿?”)。中文说“你是哪里人”,韩语要分开问:国家用 어느 나라 사람,老家用 고향이 어디예요。\n韩语的疑问词不用挪位置,放在要问的地方,句末语调上扬就是问句:천징 씨 고향은 어디예요?。别人告诉你新信息时,用升调的 아, 그래요?(啊,是吗?)回应,表示你在听、感兴趣;只说 네 听起来有点冷淡。",
+      "examples": [
+        { "text": "남 씨는 어느 나라 사람이에요?", "zh": "阿南是哪国人?" },
+        { "text": "고향이 어디예요?", "zh": "你老家在哪儿?" },
+        { "text": "아, 그래요?", "zh": "啊,是吗?(升调,表示感兴趣)" }
+      ] }
+  ],
+  "review": "draft"
+}

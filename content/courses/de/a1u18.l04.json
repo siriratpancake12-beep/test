@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u18.l04", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-18 意外与求助", "order": 118040,
+  "titleZh": "挂失银行卡", "goalZh": "会打银行电话挂失银行卡,回答核对身份的问题,听懂新卡和报警的说明", "canDoZh": "能打电话冻结银行卡,回答核对身份的问题",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "de.keine_sorge", "kind": "phrase", "pos": "phrase", "text": "Keine Sorge!", "zh": "别担心!", "features": { "ipa": "ˈkaɪ̯nə ˈzɔʁɡə" }, "noteZh": "安慰别人最常用;die Sorge 是“担心”,用 kein 否定。也说 Keine Angst!(别怕!)s 在元音前读 [z]。" },
+    { "id": "de.zuletzt", "kind": "word", "pos": "adv", "text": "zuletzt", "zh": "最后一次;上一次", "features": { "ipa": "tsuˈlɛtst" }, "noteZh": "Wann haben Sie die Karte zuletzt benutzt?(您最后一次用卡是什么时候?)丢了东西时常被问到。z 读 [ts],词尾 tzt 读 [tst]。" },
+    { "id": "de.ungefaehr", "kind": "word", "pos": "adv", "text": "ungefähr", "zh": "大约;大概", "features": { "ipa": "ˈʊnɡəfɛːɐ̯" }, "noteZh": "放在数字前:in ungefähr einer Woche(大约一周以后)、ungefähr zehn Minuten。重音在 un 上;ä 读长音 [ɛː]。" },
+    { "id": "de.pin", "kind": "word", "pos": "noun", "text": "die PIN", "zh": "(银行卡的)密码", "features": { "gender": "f", "plural": "die PINs", "ipa": "pɪn" }, "noteZh": "银行卡的数字密码,德语也叫 die Geheimzahl;银行一般把新卡和 PIN 分开寄。阴性:die PIN。" },
+    { "id": "de.dieb", "kind": "word", "pos": "noun", "text": "der Dieb", "zh": "小偷", "features": { "gender": "m", "plural": "die Diebe", "ipa": "diːp" }, "noteZh": "ie 读长音 [iː],和 ei 相反:Dieb [iː] / Polizei [aɪ̯];词尾 b 清化读 [p],复数 Diebe 里 b 又读 [b]。地铁里常听到广播提醒小心小偷。" },
+    { "id": "de.stehlen", "kind": "word", "pos": "verb", "text": "stehlen", "zh": "偷", "features": { "ipa": "ˈʃteːlən" }, "noteZh": "不规则:du stiehlst, er stiehlt;完成时 Er hat … gestohlen。st 在词首读 [ʃt];eh 是长音。" },
+    { "id": "de.eine_anzeige_machen", "kind": "phrase", "pos": "phrase", "text": "eine Anzeige machen", "zh": "(到警察局)报案", "features": { "ipa": "ˈaɪ̯nə ˈanˌtsaɪ̯ɡə ˈmaxn̩" }, "noteZh": "先当固定说法记:Machen Sie eine Anzeige bei der Polizei.(去警察局报案。)正式说法是 Anzeige erstatten。die Anzeige 另外还有“广告、启事”的意思(第 13 单元的招聘广告)。" },
+    { "id": "de.polizei", "kind": "word", "pos": "noun", "text": "die Polizei", "zh": "警察;警察局", "features": { "gender": "f", "plural": "-", "ipa": "poliˈtsaɪ̯" }, "noteZh": "zur Polizei gehen(去警察局);报警电话 110,急救和消防 112。重音在最后的 zei 上,ei 读 [aɪ̯];z 读 [ts]。" }
+  ],
+  "reviewItems": ["de.bankkarte", "de.sperren", "de.adresse", "de.geboren", "de.benutzen"],
+  "lines": [
+    { "speaker": "bankberaterin", "text": "Guten Tag! Wie kann ich Ihnen helfen?", "zh": "(银行的挂失电话)您好!有什么可以帮您?", "items": ["de.guten_tag", "de.wie", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
+    { "speaker": "wei", "text": "Guten Tag, hier ist Wei Wang. Ich habe meine Bankkarte verloren.", "zh": "您好,我是王伟。我的银行卡丢了。", "items": ["de.guten_tag", "de.hier", "de.sein", "de.ich", "de.haben", "de.mein", "de.bankkarte", "de.verlieren"] },
+    { "speaker": "bankberaterin", "text": "Keine Sorge, wir sperren die Karte sofort. Ihren Namen und Ihre Adresse, bitte.", "zh": "别担心,我们马上冻结这张卡。请说一下您的姓名和地址。", "items": ["de.keine_sorge", "de.wir", "de.sperren", "de.karte", "de.sofort", "de.ihr_hoeflich", "de.name", "de.und", "de.adresse", "de.bitte"] },
+    { "speaker": "wei", "text": "Wei Wang, Musterstraße 12 in Berlin.", "zh": "王伟,柏林 Musterstraße 12 号。", "items": ["de.in", "de.zwoelf"] },
+    { "speaker": "bankberaterin", "text": "Danke. Und wo sind Sie geboren, Herr Wang?", "zh": "谢谢。您是在哪儿出生的,王先生?", "items": ["de.danke", "de.und", "de.wo", "de.sein", "de.sie_hoeflich", "de.geboren", "de.herr"] },
+    { "speaker": "wei", "text": "In Chengdu, in China.", "zh": "在成都,中国。", "items": ["de.in", "de.china"] },
+    { "speaker": "bankberaterin", "text": "Wann haben Sie die Karte zuletzt benutzt?", "zh": "您最后一次用这张卡是什么时候?", "items": ["de.wann", "de.haben", "de.sie_hoeflich", "de.karte", "de.zuletzt", "de.benutzen"] },
+    { "speaker": "wei", "text": "Am Samstag, im Supermarkt.", "zh": "星期六,在超市。", "items": ["de.am", "de.samstag", "de.in", "de.supermarkt"] },
+    { "speaker": "bankberaterin", "text": "Gut, die Karte ist jetzt gesperrt. Die neue Karte kommt in ungefähr einer Woche.", "zh": "好,卡已经冻结了。新卡大约一周后寄到。", "items": ["de.gut", "de.karte", "de.sein", "de.jetzt", "de.sperren", "de.neu", "de.ich_komme_aus", "de.in", "de.ungefaehr", "de.ein", "de.woche"] },
+    { "speaker": "bankberaterin", "text": "Die PIN schicken wir Ihnen mit der Post.", "zh": "密码我们另外邮寄给您。", "items": ["de.pin", "de.schicken", "de.wir", "de.sie_hoeflich", "de.mit", "de.post"] },
+    { "speaker": "bankberaterin", "text": "Vielleicht hat ein Dieb Ihren Geldbeutel gestohlen. Machen Sie eine Anzeige bei der Polizei.", "zh": "也许钱包是被小偷偷了。请去警察局报个案。", "items": ["de.vielleicht", "de.haben", "de.ein", "de.dieb", "de.ihr_hoeflich", "de.geldbeutel", "de.stehlen", "de.eine_anzeige_machen", "de.sie_hoeflich", "de.bei", "de.polizei"] },
+    { "speaker": "wei", "text": "Gut, das mache ich morgen. Vielen Dank für Ihre Hilfe!", "zh": "好的,我明天就去。非常感谢您的帮助!", "items": ["de.gut", "de.machen", "de.ich", "de.morgen", "de.vielen_dank", "de.fuer", "de.ihr_hoeflich", "de.hilfe"] }
+  ],
+  "questions": [
+    { "prompt": "银行职员在电话里核对了王伟的哪些信息?", "options": ["姓名、地址和出生地", "姓名和电话号码", "生日和账户号码"], "answer": 0, "explainZh": "她问了 Ihren Namen und Ihre Adresse(姓名和地址),又问 Wo sind Sie geboren?(您在哪儿出生?),王伟说在成都。" },
+    { "prompt": "新的银行卡什么时候寄到?", "options": ["明天", "大约一个月以后", "大约一周以后"], "answer": 2, "explainZh": "Die neue Karte kommt in ungefähr einer Woche.(新卡大约一周后寄到。)密码(PIN)另外邮寄。" },
+    { "prompt": "银行职员为什么建议王伟去警察局?", "options": ["他的护照也丢了", "钱包可能是被小偷偷的", "他的卡还能用"], "answer": 1, "explainZh": "Vielleicht hat ein Dieb Ihren Geldbeutel gestohlen. Machen Sie eine Anzeige bei der Polizei.(也许钱包是被小偷偷了,请去警察局报案。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u18_telefon_daten", "titleZh": "电话里核对身份:Ihren Namen, bitte. / Wo sind Sie geboren?",
+      "bodyZh": "打银行、医保公司、物业的电话,对方先要核对你是谁。常听到的问题:Ihren Namen, bitte.(请说您的姓名。这是 Ich brauche Ihren Namen 的省略,所以用第四格 Ihren;Name 第四格还要加 -n)/ Wie ist Ihre Adresse?(您的地址?)/ Wo sind Sie geboren?(您在哪儿出生?)/ Wann haben Sie die Karte zuletzt benutzt?(您最后一次用卡是什么时候?)。\n回答不用说完整句子,短而清楚最好:Wei Wang, Musterstraße 12 in Berlin. / In Chengdu, in China. / Am Samstag, im Supermarkt.。门牌号、邮编、电话号码一位一位慢慢说,姓名不清楚时主动拼读:W-A-N-G。\n听到 Keine Sorge!(别担心!)就是对方在安慰你。对银行职员、对方是陌生人,一直用 Sie。",
+      "examples": [
+        { "text": "Ihren Namen und Ihre Adresse, bitte.", "zh": "请说一下您的姓名和地址。" },
+        { "text": "Wo sind Sie geboren?", "zh": "您在哪儿出生?" },
+        { "text": "Wann haben Sie die Karte zuletzt benutzt?", "zh": "您最后一次用卡是什么时候?" }
+      ] },
+    { "id": "de.g.u18_perfekt_karte", "titleZh": "完成时复习:verloren、gestohlen、benutzt;ist gesperrt 说状态",
+      "bodyZh": "说已经发生的事用完成时:haben 放第二位,过去分词放句末。本课的过去分词:verlieren → verloren、stehlen → gestohlen(都不规则,要单独记)、benutzen → benutzt、sperren → gesperrt(规则:ge- + 词干 + -t,但 benutzen 以 be- 开头,不加 ge-)。\nIch habe meine Bankkarte verloren.(我把银行卡丢了。)Vielleicht hat ein Dieb Ihren Geldbeutel gestohlen.(也许小偷偷了您的钱包。)\n另外,sein + 过去分词常用来说“现在是什么状态”:Die Karte ist jetzt gesperrt.(卡现在是冻结的。)这时 gesperrt 像形容词一样用,和完成时 Wir haben die Karte gesperrt(我们把卡冻结了)意思差不多,但说的是结果。",
+      "examples": [
+        { "text": "Ich habe meine Bankkarte verloren.", "zh": "我把银行卡丢了。" },
+        { "text": "Ein Dieb hat den Geldbeutel gestohlen.", "zh": "小偷偷走了钱包。" },
+        { "text": "Die Karte ist jetzt gesperrt.", "zh": "卡现在已经冻结了。" }
+      ] }
+  ],
+  "review": "draft"
+}

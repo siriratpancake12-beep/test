@@ -1,0 +1,38 @@
+{
+  "id": "en.a1u3.r01", "schemaVersion": 1, "lang": "en", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 Daily life", "order": 103045,
+  "titleZh": "伊森的一天(短信)", "goalZh": "读懂一串按时间排列的短信,说出发信人几点在做什么,学会补全短信里省略的部分", "canDoZh": "能读懂一串按时间排列的短信,说出发信人一天里几点在做什么",
+  "skills": ["read", "listen", "speak"], "estimatedMinutes": 13,
+  "newItems": [
+    { "id": "en.laugh", "kind": "word", "pos": "verb", "text": "laugh", "zh": "笑;大笑", "features": { "ipa": "læf" }, "noteZh": "gh 读 /f/,a 读 /æ/;笑出声用 laugh,微笑是 smile。" }
+  ],
+  "reviewItems": ["en.noon", "en.gym", "en.work_out", "en.video_game", "en.go_to_bed", "en.sometimes"],
+  "lines": [
+    { "speaker": "narrator", "text": "It's Saturday, and Lei is at the library.", "zh": "周六,磊在图书馆。他的手机一整天响个不停,都是伊森发来的消息。", "items": ["en.saturday", "en.library"] },
+    { "speaker": "ethan", "text": "Good morning, roommate! It's 11:30. That's early for me!", "zh": "(11:30)早上好,室友!现在十一点半。对我来说这算早的!", "items": ["en.morning", "en.roommate", "en.early"] },
+    { "speaker": "ethan", "text": "Breakfast at noon, and the gym at two.", "zh": "(11:45)中午吃早饭,两点去健身房。", "items": ["en.breakfast", "en.noon", "en.gym"] },
+    { "speaker": "ethan", "text": "At the gym now. I work out five times a week!", "zh": "(14:10)在健身房呢。我一周练五次!", "items": ["en.gym", "en.work_out", "en.week"] },
+    { "speaker": "ethan", "text": "Lei, where are you? At the library again?", "zh": "(16:30)磊,你在哪儿?又在图书馆?", "items": ["en.library", "en.again"] },
+    { "speaker": "lei", "text": "Yes, Ethan. I sometimes study here on Saturdays.", "zh": "(磊回复)是啊,伊森。我周六有时候在这儿学习。", "items": ["en.sometimes", "en.study", "en.saturday"] },
+    { "speaker": "ethan", "text": "It's five o'clock. Video games at eight? You and me, man!", "zh": "(17:00)五点了。八点打游戏?就咱俩,哥们儿!", "items": ["en.oclock", "en.video_game"] },
+    { "speaker": "lei", "text": "Sure! But I go to bed at eleven.", "zh": "(磊回复)行啊!不过我十一点就睡觉。", "items": ["en.sure", "en.go_to_bed"] },
+    { "speaker": "ethan", "text": "Eleven? That's early! I go to bed at three!", "zh": "十一点?那也太早了!我三点才睡!", "items": ["en.early", "en.go_to_bed"] },
+    { "speaker": "ethan", "text": "Seven o'clock! Dinner time, Lei! Hurry up!", "zh": "(19:00)七点了!该吃晚饭了,磊!快点!", "items": ["en.oclock", "en.dinner", "en.hurry_up"] },
+    { "speaker": "narrator", "text": "Lei laughs. His roommate is really funny!", "zh": "磊看着一条条消息,笑了。他这个室友真逗!", "items": ["en.laugh", "en.roommate", "en.really", "en.funny"] }
+  ],
+  "questions": [
+    { "prompt": "伊森几点发来第一条消息?", "options": ["中午十二点", "十一点半", "早上七点"], "answer": 1, "explainZh": "伊森说 It's 11:30. That's early for me!(现在十一点半,对我来说这算早的!)" },
+    { "prompt": "伊森一周去几次健身房?", "options": ["五次", "两次", "每天都去"], "answer": 0, "explainZh": "伊森在健身房发消息说 I work out five times a week!(我一周练五次!)" },
+    { "prompt": "伊森一般几点睡觉?", "options": ["晚上十一点", "晚上八点", "凌晨三点"], "answer": 2, "explainZh": "磊说自己十一点睡,伊森说 Eleven? That's early! I go to bed at three!(我三点才睡!)" }
+  ],
+  "grammar": [
+    { "id": "en.g.text_messages", "titleZh": "读短信:补全省略的部分;一般现在时说习惯",
+      "bodyZh": "短信、聊天消息常常把主语和动词省掉,读的时候自己补全:At the gym now. = I'm at the gym now.(我在健身房呢);Breakfast at noon. = I have breakfast at noon.(中午吃早饭);Video games at eight? = 八点打游戏吗?(是在邀请你)。说每天、每周都这样的习惯用一般现在时:I work out five times a week.、I go to bed at three.;说别人的习惯,动词加 -s:Ethan works out five times a week.。读一串消息时,先看每条的时间,再看他在做什么。",
+      "examples": [
+        { "text": "At the gym now.", "zh": "在健身房呢。(完整的句子是 I'm at the gym now.)" },
+        { "text": "I work out five times a week.", "zh": "我一周锻炼五次。" },
+        { "text": "Ethan goes to bed at three.", "zh": "伊森凌晨三点睡觉。" }
+      ] }
+  ],
+  "review": "draft"
+}

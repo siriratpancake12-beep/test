@@ -1,0 +1,45 @@
+{
+  "id": "de.a1u10.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110085,
+  "titleZh": "在德国上网和付钱:我的发现", "goalZh": "读懂王伟对照中德上网、付钱习惯的博客,说出几处不同", "canDoZh": "能读懂一篇对照中国和德国生活习惯的博客短文,说出几处不同",
+  "skills": ["read", "write"], "estimatedMinutes": 18,
+  "newItems": [
+    { "id": "de.bargeld", "kind": "word", "pos": "noun", "text": "das Bargeld", "zh": "现金", "features": { "gender": "n", "plural": "-", "ipa": "ˈbaːɐ̯ˌɡɛlt" }, "noteZh": "bar(用现金,第 4 单元)+ das Geld;德国很多小店、面包店只收现金:Hier nur Bargeld!;不可数。" },
+    { "id": "de.netz", "kind": "word", "pos": "noun", "text": "das Netz", "zh": "网络;(手机)信号;网", "features": { "gender": "n", "plural": "die Netze", "ipa": "nɛts" }, "noteZh": "Ich habe kein Netz.(我手机没信号。);tz 读 [ts];中性。" },
+    { "id": "de.sprachnachricht", "kind": "word", "pos": "noun", "text": "die Sprachnachricht", "zh": "语音消息", "features": { "gender": "f", "plural": "die Sprachnachrichten", "ipa": "ˈʃpʁaːxˌnaːxʁɪçt" }, "noteZh": "die Sprache + die Nachricht(消息,第 5 单元);两个 ch 都在 a 后面,读 [x];德国年轻人很爱发语音。" },
+    { "id": "de.privat", "kind": "word", "pos": "adj", "text": "privat", "zh": "私人的;私密的", "features": { "ipa": "pʁiˈvaːt" }, "noteZh": "Das ist privat.(这是私事。);v 在这里读 [v];重音在后:pri-VAT。" }
+  ],
+  "reviewItems": ["de.seit", "de.man", "de.nachricht", "de.vorsichtig", "de.einfach"],
+  "lines": [
+    { "speaker": "wei", "text": "Ich bin jetzt seit acht Monaten in Berlin.", "zh": "我来柏林已经八个月了。", "items": ["de.ich", "de.sein", "de.jetzt", "de.seit", "de.acht", "de.monat", "de.in"] },
+    { "speaker": "wei", "text": "In China bezahle ich alles mit dem Handy.", "zh": "在中国,我什么都用手机付钱。", "items": ["de.in", "de.china", "de.bezahlen", "de.ich", "de.alles", "de.mit", "de.handy"] },
+    { "speaker": "wei", "text": "Aber in Deutschland bezahlt man oft bar.", "zh": "可是在德国,大家常常付现金。", "items": ["de.aber", "de.in", "de.deutschland", "de.bezahlen", "de.man", "de.oft", "de.bar"] },
+    { "speaker": "wei", "text": "Die Bäckerei bei uns nimmt nur Bargeld!", "zh": "我们家附近的面包店只收现金!", "items": ["de.baeckerei", "de.bei", "de.wir", "de.nehmen", "de.nur", "de.bargeld"] },
+    { "speaker": "wei", "text": "In der U-Bahn habe ich manchmal kein Netz.", "zh": "在地铁里,我的手机有时候没信号。", "items": ["de.in", "de.u_bahn", "de.haben", "de.ich", "de.manchmal", "de.kein", "de.netz"] },
+    { "speaker": "wei", "text": "Dann kann ich keine Nachrichten schreiben.", "zh": "那时候我就发不了消息。", "items": ["de.dann", "de.koennen", "de.ich", "de.kein", "de.nachricht", "de.schreiben"] },
+    { "speaker": "wei", "text": "In Deutschland ist man im Internet sehr vorsichtig.", "zh": "在德国,大家上网都很小心。", "items": ["de.in", "de.deutschland", "de.sein", "de.man", "de.internet", "de.sehr", "de.vorsichtig"] },
+    { "speaker": "wei", "text": "Der Name und die Adresse sind privat.", "zh": "名字和地址是私事。", "items": ["de.name", "de.und", "de.adresse", "de.sein", "de.privat"] },
+    { "speaker": "wei", "text": "Man schreibt sie nicht gern ins Internet.", "zh": "大家不爱把它们写到网上。", "items": ["de.man", "de.schreiben", "de.sie_pl", "de.nicht", "de.gern", "de.in", "de.internet"] },
+    { "speaker": "wei", "text": "Und man schickt oft Sprachnachrichten.", "zh": "还有,大家常常发语音消息。", "items": ["de.und", "de.man", "de.schicken", "de.oft", "de.sprachnachricht"] },
+    { "speaker": "wei", "text": "Lena schickt mir jeden Tag eine Sprachnachricht.", "zh": "莉娜每天都给我发一条语音。", "items": ["de.schicken", "de.ich", "de.jeder", "de.tag", "de.ein", "de.sprachnachricht"] },
+    { "speaker": "wei", "text": "In China ist das Bezahlen sehr einfach.", "zh": "在中国,付钱很方便。", "items": ["de.in", "de.china", "de.sein", "de.bezahlen", "de.sehr", "de.einfach"] },
+    { "speaker": "wei", "text": "Aber in Deutschland ist man vorsichtig, und das finde ich auch gut.", "zh": "可是在德国大家很小心,这我也觉得好。", "items": ["de.aber", "de.in", "de.deutschland", "de.sein", "de.man", "de.vorsichtig", "de.und", "de.finden", "de.ich", "de.auch", "de.gut"] },
+    { "speaker": "wei", "text": "Ich finde China und Deutschland gut!", "zh": "中国和德国,我都喜欢!", "items": ["de.ich", "de.finden", "de.china", "de.und", "de.deutschland", "de.gut"] }
+  ],
+  "questions": [
+    { "prompt": "王伟在中国一般怎么付钱?", "options": ["用现金", "用手机", "用银行卡"], "answer": 1, "explainZh": "王伟写:In China bezahle ich alles mit dem Handy.(在中国,我什么都用手机付钱。)" },
+    { "prompt": "王伟家附近的面包店收什么?", "options": ["只收现金", "只能刷卡", "只能用手机付"], "answer": 0, "explainZh": "王伟写:Die Bäckerei bei uns nimmt nur Bargeld!(我们家附近的面包店只收现金!)" },
+    { "prompt": "在地铁里王伟有时候遇到什么问题?", "options": ["没有座位", "常常迟到", "手机没信号,发不了消息"], "answer": 2, "explainZh": "王伟写:In der U-Bahn habe ich manchmal kein Netz. Dann kann ich keine Nachrichten schreiben." },
+    { "prompt": "莉娜每天给王伟发什么?", "options": ["一张照片", "一条语音消息", "一封邮件"], "answer": 1, "explainZh": "王伟写:Lena schickt mir jeden Tag eine Sprachnachricht.(莉娜每天都给我发一条语音。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.vergleich_china_de", "titleZh": "对照着写:In China … Aber in Deutschland …",
+      "bodyZh": "写两个国家的不同,A1 不用比较级也能写清楚:先写一边,再用 aber 写另一边:In China bezahle ich alles mit dem Handy. Aber in Deutschland bezahlt man oft bar.。\n地点放句首时,动词仍然在第二位,主语挪到动词后面:In Deutschland ist man im Internet sehr vorsichtig.(✗ In Deutschland man ist …)。aber 本身不占位置,aber 后面的句子照常排:Aber in Deutschland ist man vorsichtig.。\n说“大家一般都这样”用 man:Man schickt oft Sprachnachrichten.;说自己用 ich。最后写自己的看法:Ich finde … gut.",
+      "examples": [
+        { "text": "In China bezahle ich alles mit dem Handy.", "zh": "在中国,我什么都用手机付钱。" },
+        { "text": "Aber in Deutschland bezahlt man oft bar.", "zh": "可是在德国,大家常常付现金。" },
+        { "text": "In der U-Bahn habe ich manchmal kein Netz.", "zh": "在地铁里,我的手机有时候没信号。" }
+      ] }
+  ],
+  "review": "draft"
+}

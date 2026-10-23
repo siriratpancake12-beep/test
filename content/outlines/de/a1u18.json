@@ -51,9 +51,9 @@
       "titleZh": "你的钥匙呢?——第四格物主冠词",
       "goalZh": "掌握物主冠词的第四格(meinen / deinen / Ihren …),会问别人有没有看见自己的东西",
       "canDoZh": "能说对“我的 / 你的 / 您的……”的第四格形式,问别人有没有看见自己的东西",
-      "scenarioZh": "钱包丢了以后,王伟一整天都心不在焉:找不到耳机(其实挂在脖子上)、手机(在背包里,约纳斯打电话才听见响)和钥匙。约纳斯帮他找,问 Hast du deinen Schlüssel dabei?;最后钥匙在冰箱里找到了——早上王伟买完牛奶,连钥匙一起放进去了,约纳斯笑得停不下来。说话人:wei、jonas。",
+      "scenarioZh": "钱包丢了的那天晚上,王伟一直心不在焉:到处找耳机(其实挂在脖子上),找手机(约纳斯给他打电话,才听见手机在背包里响),最后连钥匙也找不到。约纳斯问 Hast du deinen Schlüssel dabei?,想起王伟刚才泡过奶茶,打开冰箱一看——钥匙就在牛奶旁边,约纳斯笑个不停。说话人:wei、jonas。",
       "grammarFocusZh": "第四格物主冠词:阳性加 -en(meinen / deinen / seinen / ihren / unseren / Ihren),阴性和复数加 -e,中性不变,和 ein / kein 的变化一样;haben / suchen / finden / sehen / vergessen 后面用第四格;代词指物 ihn / sie / es",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
       "newItems": [
         { "id": "de.kopfhoerer", "kind": "word", "pos": "noun", "text": "der Kopfhörer", "zh": "耳机", "features": { "gender": "m", "plural": "die Kopfhörer", "ipa": "ˈkɔpfˌhøːʁɐ" }, "noteZh": "der Kopf(头)+ hören(听)+ -er;复数不变,一副耳机常说复数:Wo sind meine Kopfhörer?。pf 两个音都要发,ö 是撮圆嘴唇的 e。" },
         { "id": "de.rucksack", "kind": "word", "pos": "noun", "text": "der Rucksack", "zh": "双肩背包", "features": { "gender": "m", "plural": "die Rucksäcke", "ipa": "ˈʁʊkˌzak" }, "noteZh": "der Rücken(背)+ der Sack(袋子);复数变音:die Rucksäcke。英语的 rucksack 就是从德语借的。s 在元音前读 [z]。" },
@@ -73,7 +73,7 @@
       "canDoZh": "能打电话冻结银行卡,回答核对身份的问题",
       "scenarioZh": "周一晚上,王伟打银行的挂失电话。女银行职员核对他的名字、地址和出生地(示例地址 Musterstraße 12),问卡最后一次是什么时候用的,然后说卡已经冻结了(gesperrt),新卡大约一周后寄到,密码(die PIN)另外邮寄;她还建议他去警察局报案(eine Anzeige machen 当固定说法),也许钱包是被小偷偷的。说话人:wei、bankberaterin。",
       "grammarFocusZh": "电话里核对身份:Ihren Namen und Ihre Adresse, bitte / Wo sind Sie geboren?;完成时复习(Ich habe meine Bankkarte verloren / Wann haben Sie die Karte zuletzt benutzt? / Ein Dieb hat … gestohlen);第四格物主冠词复习",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
         { "id": "de.keine_sorge", "kind": "phrase", "pos": "phrase", "text": "Keine Sorge!", "zh": "别担心!", "features": { "ipa": "ˈkaɪ̯nə ˈzɔʁɡə" }, "noteZh": "安慰别人最常用;die Sorge 是“担心”,用 kein 否定。也说 Keine Angst!(别怕!)s 在元音前读 [z]。" },
         { "id": "de.zuletzt", "kind": "word", "pos": "adv", "text": "zuletzt", "zh": "最后一次;上一次", "features": { "ipa": "tsuˈlɛtst" }, "noteZh": "Wann haben Sie die Karte zuletzt benutzt?(您最后一次用卡是什么时候?)丢了东西时常被问到。z 读 [ts],词尾 tzt 读 [tst]。" },
@@ -93,7 +93,7 @@
       "canDoZh": "能读懂失物招领处的通知,找出去哪儿取、什么时间、要带什么",
       "scenarioZh": "体裁:邮件和网页说明(交通公司的失物招领处,不写真实名称)。周二,王伟收到失物招领处的邮件(他周一在网上填了失物登记表):有乘客把他的钱包交上来了,里面的东西都在;请他七天内带证件(比如护照)来取,手续费 5 欧元;下面是网页上的地址(示例地址)、开放时间(周一到周五 9–18 点,周四到 20 点)和怎么在网上登记丢失的东西。说话人:narrator(邮件和说明)。",
       "grammarFocusZh": "复习:日期、钟点、von … bis …、Sie 的命令式(Bitte bringen Sie … mit / Füllen Sie … aus)和 können;通知里常省略动词(Montag bis Freitag: 9 bis 18 Uhr)",
-      "skills": ["read"], "estimatedMinutes": 15,
+      "skills": ["read"], "estimatedMinutes": 14,
       "newItems": [
         { "id": "de.oeffnungszeit", "kind": "word", "pos": "noun", "text": "die Öffnungszeit", "zh": "营业时间;开放时间", "features": { "gender": "f", "plural": "die Öffnungszeiten", "ipa": "ˈœfnʊŋsˌtsaɪ̯t" }, "noteZh": "通知、网页上一般用复数:Öffnungszeiten: Mo–Fr 9–18 Uhr。öffnen(开)+ -ung + s + die Zeit;ö 撮圆嘴唇,z 读 [ts]。" }
       ],
@@ -106,7 +106,7 @@
       "canDoZh": "能打急救电话,说清楚在哪儿、出了什么事、有几个人受伤",
       "scenarioZh": "周六在公园踢球,保罗摔倒了,脚踝(der Knöchel)很疼,站不起来。约纳斯说要叫救护车(der Krankenwagen),让王伟打 112;女接线员问 Wo genau sind Sie? Was ist passiert? Wie viele Personen sind verletzt?,王伟一项一项回答,说清楚公园在哪条街、在入口那儿(示例街名 Parkstraße);接线员说救护车十分钟到,先别动保罗的脚。只练语言,不写医疗处理。说话人:paul、jonas、wei、notruf。",
       "grammarFocusZh": "急救电话的几个问题(Wo genau sind Sie? Was ist passiert? Wie viele Personen sind verletzt?)和简短的回答;Er ist hingefallen(sein 的完成时);Sie 的命令式 + 第四格物主冠词(Bewegen Sie seinen Fuß bitte nicht!);noteZh 写 112(急救、消防)和 110(警察)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
         { "id": "de.knoechel", "kind": "word", "pos": "noun", "text": "der Knöchel", "zh": "脚踝", "features": { "gender": "m", "plural": "die Knöchel", "ipa": "ˈknœçl̩" }, "noteZh": "kn 两个音都要读出来,k 不能省;ö 撮圆嘴唇,ch 在 ö 后读 [ç]。踢球最容易伤的地方:Mein Knöchel tut weh.。" },
         { "id": "de.krankenwagen", "kind": "word", "pos": "noun", "text": "der Krankenwagen", "zh": "救护车", "features": { "gender": "m", "plural": "die Krankenwagen", "ipa": "ˈkʁaŋkn̩ˌvaːɡn̩" }, "noteZh": "krank(病)+ der Wagen(车);复数不变。叫救护车打 112(免费)。正式说法是 der Rettungswagen,口语一般说 Krankenwagen。" },
@@ -146,7 +146,7 @@
       "canDoZh": "能在被锁在门外时向邻居求助,商量怎么办",
       "scenarioZh": "周六晚上王伟下楼倒垃圾,两分钟后回来,门在身后关上了——钥匙在屋里,他站在楼道里(das Treppenhaus)。约纳斯在餐馆上班,索菲娅出去了(unterwegs),电话也打不通。他按楼下霍夫曼先生的门铃,问有没有备用钥匙(der Ersatzschlüssel);霍夫曼先生说没有,晚上叫开锁公司(der Schlüsseldienst)很贵,这也不算急事(kein Notfall),先给约纳斯打电话;约纳斯说他 23 点下班,23 点半回来开门,还开玩笑问王伟今天是不是又倒霉了;霍夫曼先生请王伟进屋,屋里暖和又舒服(gemütlich),王伟问起他以前开火车的照片。说话人:wei、hoffmann、jonas。",
       "grammarFocusZh": "求助:Können Sie mir helfen? / Haben Sie vielleicht …?;第四格物主冠词复习(Ich habe meinen Schlüssel nicht dabei / Haben Sie Ihr Handy dabei?);Die Tür ist zugefallen 先当固定说法;对邻居用 Sie、对室友用 du",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
         { "id": "de.die_tuer_ist_zugefallen", "kind": "phrase", "pos": "phrase", "text": "Die Tür ist zugefallen.", "zh": "门(自己)关上了。(钥匙在里面)", "features": { "ipa": "diː tyːɐ̯ ɪst ˈtsuːɡəˌfalən" }, "noteZh": "德国的门很多从外面没有把手,一关上不用钥匙就打不开,先当固定说法记。zufallen 是可分动词,完成时用 sein。" },
         { "id": "de.ersatzschluessel", "kind": "word", "pos": "noun", "text": "der Ersatzschlüssel", "zh": "备用钥匙", "features": { "gender": "m", "plural": "die Ersatzschlüssel", "ipa": "ɛɐ̯ˈzatsˌʃlʏsl̩" }, "noteZh": "der Ersatz(替代品)+ der Schlüssel;复数不变。很多德国人把备用钥匙放在信得过的邻居或朋友那儿。tz 读 [ts],ü 撮圆嘴唇。" },
@@ -166,7 +166,7 @@
       "canDoZh": "能打电话请病假,说清楚哪里不舒服、多久不能来",
       "scenarioZh": "这一周倒霉事太多,周日早上王伟又发烧、嗓子疼,得了重感冒(和周日晚上写的日记接上:规划原来写周三,改成周日)。他给冰淇淋店的老板娘打电话:Ich bin krank, ich habe Fieber.;老板娘问他几天不能来,说到周三(第四天)还病着就要交医生开的病假条(die Krankmeldung),让他多睡觉、多喝茶;王伟又给索菲娅发消息,请她告诉同事(Bescheid sagen);索菲娅说晚上给他做汤。说话人:wei、chefin、sofia。",
       "grammarFocusZh": "复习:krank / Fieber / müssen、第四格物主冠词、完成时;请假的说法(Ich kann heute leider nicht kommen / Wie viele Tage kannst du nicht arbeiten?);老板娘对员工用 du,du 的命令式给建议(Schlaf viel und trink viel Tee!)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
       "newItems": [
         { "id": "de.krankmeldung", "kind": "word", "pos": "noun", "text": "die Krankmeldung", "zh": "病假条;请病假", "features": { "gender": "f", "plural": "die Krankmeldungen", "ipa": "ˈkʁaŋkˌmɛldʊŋ" }, "noteZh": "在德国,病假超过三天(从第四天起)要交医生开的病假证明,有的老板第一天就要;生病了要在上班前先打电话请假。krank + die Meldung(通知)。" },
         { "id": "de.bescheid_sagen", "kind": "phrase", "pos": "phrase", "text": "Bescheid sagen", "zh": "告诉一声;通知(某人)", "features": { "ipa": "bəˈʃaɪ̯t ˈzaːɡn̩" }, "noteZh": "jemandem Bescheid sagen = 告诉某人一声:Kannst du den Kollegen Bescheid sagen?(你能跟同事说一声吗?)口语非常常用;ei 读 [aɪ̯],词尾 d 读 [t]。" }
@@ -180,7 +180,7 @@
       "canDoZh": "能读懂一篇讲意外经历的日记,按顺序说出发生了什么",
       "scenarioZh": "体裁:日记。周日晚上,王伟躺在床上写这一周:周一在地铁上丢了钱包,马上打电话冻结了银行卡;周二失物招领处来信,钱包有人交上来了;周六踢球时保罗摔倒,他自己打了 112,幸好脚踝只是扭伤;晚上又把自己锁在门外,在霍夫曼先生家喝茶、看火车照片;今天自己也感冒了。结尾:这一周真倒霉,可是朋友们都很好,而且他学会了很多有用的德语词。用完成时写。说话人:wei(日记)。",
       "grammarFocusZh": "复习:完成时(haben / sein)、按时间顺序讲(am Montag, am Dienstag, am Samstag, am Abend, heute)、时间放句首动词第二位、第四格物主冠词",
-      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "skills": ["read", "write"], "estimatedMinutes": 14,
       "newItems": [
         { "id": "de.dieser", "kind": "word", "pos": "det", "text": "dieser", "zh": "这个;这", "alt": ["diese", "dieses", "diesen", "diesem"], "features": { "ipa": "ˈdiːzɐ" }, "noteZh": "词尾跟定冠词一样变:dieser Tag, diese Woche, dieses Jahr;diese Woche = 这个星期(不加介词)。ie 读长音 [iː]。" }
       ],

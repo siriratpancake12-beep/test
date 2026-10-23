@@ -1,0 +1,52 @@
+{
+  "id": "en.a1u2.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-2 Family & friends", "order": 102070,
+  "titleZh": "你养宠物吗?", "goalZh": "会聊自己和家里的宠物,用 it / its 说它叫什么、几岁、什么样", "canDoZh": "能聊自己或家里的宠物:叫什么、几岁、长什么样、性格怎么样",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "en.pet", "kind": "word", "pos": "noun", "text": "pet", "zh": "宠物", "features": { "ipa": "pet" }, "noteZh": "e 读 /e/,嘴别张太大;“养宠物”直接用 have:Do you have a pet?" },
+    { "id": "en.dog", "kind": "word", "pos": "noun", "text": "dog", "zh": "狗", "features": { "ipa": "dɑːɡ" }, "noteZh": "美式 o 读 /ɑː/;词尾 g 轻轻收住,不要读成 \"dog-ge\"。" },
+    { "id": "en.cat", "kind": "word", "pos": "noun", "text": "cat", "zh": "猫", "features": { "ipa": "kæt" }, "noteZh": "a 读 /æ/,嘴张大、嘴角往两边拉;词尾 t 收住,不加元音。" },
+    { "id": "en.cute", "kind": "word", "pos": "adj", "text": "cute", "zh": "可爱的", "features": { "ipa": "kjuːt" }, "noteZh": "美国人夸宠物、小孩、小东西最爱说 cute:He's really cute!;u 读 /juː/。" },
+    { "id": "en.crazy", "kind": "word", "pos": "adj", "text": "crazy", "zh": "疯的;疯狂的", "features": { "ipa": "ˈkreɪzi" }, "noteZh": "口语里常是开玩笑:a little crazy(有点疯、很闹腾),不一定是坏话;z 读 /z/,声带要振动。" },
+    { "id": "en.lazy", "kind": "word", "pos": "adj", "text": "lazy", "zh": "懒的", "features": { "ipa": "ˈleɪzi" }, "noteZh": "和 crazy 押韵;l 舌尖顶住上齿龈,z 要带声。" },
+    { "id": "en.dorm", "kind": "word", "pos": "noun", "text": "dorm", "zh": "宿舍", "features": { "ipa": "dɔːrm" }, "noteZh": "dormitory 的简称,美国大学生都说 dorm;in the dorm 在宿舍里。美国大学宿舍一般不让养宠物。" }
+  ],
+  "reviewItems": ["en.how_old", "en.have", "en.twins", "en.quiet", "en.and_you"],
+  "lines": [
+    { "speaker": "amy", "text": "Hey, you guys! This is my dog, Mochi.", "zh": "(艾米把手机锁屏给大家看)嘿,你们看!这是我家的狗,Mochi。", "items": ["en.hey", "en.you_guys", "en.this_is", "en.dog"] },
+    { "speaker": "sofia", "text": "He's really cute! How old is he?", "zh": "它好可爱!它几岁了?", "items": ["en.really", "en.cute", "en.how_old"] },
+    { "speaker": "amy", "text": "He's three. He's really friendly, but a little crazy!", "zh": "三岁。它特别友好,就是有点疯!", "items": ["en.really", "en.friendly", "en.a_little", "en.crazy"] },
+    { "speaker": "lei", "text": "Sofia, do you have a pet?", "zh": "索菲亚,你养宠物吗?", "items": ["en.have", "en.pet"] },
+    { "speaker": "sofia", "text": "My family has two dogs in Mexico.", "zh": "我家在墨西哥养了两只狗。", "items": ["en.family", "en.have", "en.dog"] },
+    { "speaker": "sofia", "text": "The twins and the dogs are good friends.", "zh": "我那对双胞胎妹妹和它们是好朋友。", "items": ["en.twins", "en.dog", "en.friend"] },
+    { "speaker": "amy", "text": "Cool! And you, Lei?", "zh": "真好!那你呢,磊?", "items": ["en.cool", "en.and_you"] },
+    { "speaker": "lei", "text": "My grandma has a cat in Chengdu.", "zh": "我奶奶在成都养了一只猫。", "items": ["en.grandma", "en.have", "en.cat"] },
+    { "speaker": "amy", "text": "A cat! What's its name?", "zh": "猫!它叫什么名字?", "items": ["en.cat", "en.name"] },
+    { "speaker": "lei", "text": "Its name is Huahua. It's really lazy and quiet.", "zh": "它叫花花。它特别懒,也特别安静。", "items": ["en.name", "en.really", "en.lazy", "en.quiet"] },
+    { "speaker": "amy", "text": "Do you have a pet here in Seattle?", "zh": "那你在西雅图养宠物吗?", "items": ["en.have", "en.pet"] },
+    { "speaker": "lei", "text": "No, I don't. Cats are great, but no pets in the dorm!", "zh": "没有。猫挺好的,可宿舍里不让养宠物!", "items": ["en.cat", "en.great", "en.pet", "en.dorm"] }
+  ],
+  "questions": [
+    { "prompt": "Mochi 是什么样的?", "options": ["特别懒,很安静", "有点害羞", "特别友好,就是有点疯"], "answer": 2, "explainZh": "艾米说 He's really friendly, but a little crazy!(它特别友好,就是有点疯!)懒、安静的是磊奶奶的猫。" },
+    { "prompt": "磊的奶奶养了什么?", "options": ["一只猫", "两只狗", "一只狗"], "answer": 0, "explainZh": "磊说 My grandma has a cat in Chengdu.;两只狗是索菲亚家在墨西哥养的。" },
+    { "prompt": "磊在西雅图为什么没养宠物?", "options": ["他不喜欢猫", "宿舍里不让养宠物", "他没有时间"], "answer": 1, "explainZh": "磊说 Cats are great, but no pets in the dorm!(猫挺好的,可宿舍里不让养宠物!)" }
+  ],
+  "grammar": [
+    { "id": "en.g.it_its", "titleZh": "it / its / it's:动物和东西用 it",
+      "bodyZh": "说动物和东西用 it(它):It's really lazy.;its 是“它的”:Its name is Huahua.(它的名字叫花花)。its 和 it's 读音一样,意思不同:it's = it is(它是),its = 它的,后面跟名词。分不清时看后面:跟名词用 its(its name),跟形容词等用 it's(it's lazy)。美国人说自己家的宠物常用 he / she,像说家里人一样:This is my dog, Mochi. He's three.;说别人家的、不知道公母的动物用 it。",
+      "examples": [
+        { "text": "What's its name? — Its name is Huahua.", "zh": "它叫什么名字?——它叫花花。" },
+        { "text": "It's really lazy and quiet.", "zh": "它特别懒,也特别安静。" },
+        { "text": "This is my dog, Mochi. He's three.", "zh": "这是我家的狗 Mochi,它三岁了。" }
+      ] },
+    { "id": "en.g.have_pet", "titleZh": "Do you have a pet?——养宠物用 have;/æ/ 和 /e/",
+      "bodyZh": "问别人养不养宠物:Do you have a pet?;回答 Yes, I do. / No, I don't.,再说养了什么。主语是第三人称单数时用 has:My grandma has a cat.、My family has two dogs.。中文说“养猫”“养狗”,英语直接用 have,不用 raise(raise 多指饲养牲畜、抚养孩子)。发音:cat、have、family 里的 a 读 /æ/,嘴张大、嘴角往两边拉;pet、yes 里的 e 读 /e/,嘴张得小一些。把 cat 和 pet 对比着读几遍。",
+      "examples": [
+        { "text": "Do you have a pet? — No, I don't.", "zh": "你养宠物吗?——不养。" },
+        { "text": "My grandma has a cat.", "zh": "我奶奶养了一只猫。" },
+        { "text": "Sofia's family has two dogs.", "zh": "索菲亚家养了两只狗。" }
+      ] }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "ko.a1u3.l03", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 自我介绍与家人", "order": 103030,
+  "titleZh": "这是谁的?", "goalZh": "会用 이거 / 그거 / 저거 指东西,问“这是什么”“是谁的”",
+  "canDoZh": "能指着身边的东西问“这是什么?”“是谁的?”,并回答",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "ko.igeo", "kind": "word", "pos": "pron", "text": "이거", "zh": "这个", "features": { "roman": "igeo" }, "noteZh": "离说话人近的东西;이거 뭐예요?= 这是什么?;书面写 이것。" },
+    { "id": "ko.geugeo", "kind": "word", "pos": "pron", "text": "그거", "zh": "那个(离你近的)", "features": { "roman": "geugeo" }, "noteZh": "指对方手边的东西,或者刚才提到的东西:그거요?= 你说那个?;书面写 그것。" },
+    { "id": "ko.jeogeo", "kind": "word", "pos": "pron", "text": "저거", "zh": "那个(离我们都远的)", "features": { "roman": "jeogeo" }, "noteZh": "离你我都远、但看得见的东西;书面写 저것。" },
+    { "id": "ko.nugu", "kind": "word", "pos": "pron", "text": "누구", "zh": "谁", "features": { "roman": "nugu" }, "noteZh": "누구예요?= 是谁?;누구 거예요?= 是谁的?;누구 휴대폰 = 谁的手机。" },
+    { "id": "ko.chaek", "kind": "word", "pos": "noun", "text": "책", "zh": "书", "features": { "roman": "chaek" }, "noteZh": "汉字词 册;收音 ㄱ 不爆破,后面接元音时连音:책이에요 [채기에요]。중국어 책 = 中文书。" },
+    { "id": "ko.gabang", "kind": "word", "pos": "noun", "text": "가방", "zh": "包;书包", "features": { "roman": "gabang" }, "noteZh": "书包、手提包、背包都叫 가방;收音 ㅇ 不连音:가방이에요 [가방이에요]。" },
+    { "id": "ko.hyudaepon", "kind": "word", "pos": "noun", "text": "휴대폰", "zh": "手机", "alt": ["핸드폰"], "features": { "roman": "hyudaepon" }, "noteZh": "携带 + phone;口语也常说 핸드폰。휴대폰이에요 连音读 [휴대포니에요]。" },
+    { "id": "ko.sajin", "kind": "word", "pos": "noun", "text": "사진", "zh": "照片", "features": { "roman": "sajin" }, "noteZh": "汉字词 写真,在韩语里就是“照片”,不是中文说的“写真”。" }
+  ],
+  "reviewItems": ["ko.mwo", "ko.junggugeo", "ko.ssi"],
+  "lines": [
+    { "speaker": "sua", "text": "천징 씨, 이거 뭐예요?", "zh": "(周末,陈静从杭州寄来的箱子到了,秀雅帮她一起拆。秀雅拿起一本书)陈静,这是什么?", "roman": "Cheonjing ssi, igeo mwoyeyo?", "items": ["ko.ssi", "ko.igeo", "ko.mwo"] },
+    { "speaker": "jing", "text": "그거요? 중국어 책이에요.", "zh": "你手里那个?是中文书。", "roman": "Geugeoyo? Junggugeo chaegieyo.", "items": ["ko.geugeo", "ko.junggugeo", "ko.chaek"] },
+    { "speaker": "jing", "text": "그거 수아 씨 가방이에요?", "zh": "(陈静指着秀雅脚边的一个包)那是秀雅你的包吗?", "roman": "Geugeo Sua ssi gabangieyo?", "items": ["ko.geugeo", "ko.ssi", "ko.gabang"] },
+    { "speaker": "sua", "text": "아니요, 제 가방이 아니에요. 천징 씨 거예요!", "zh": "(秀雅笑着把包举起来)不是,不是我的包。是你的!(包是从箱子里拿出来的)", "roman": "Aniyo, je gabangi anieyo. Cheonjing ssi geoyeyo!", "items": ["ko.aniyo", "ko.gabang", "ko.anieyo", "ko.ssi"] },
+    { "speaker": "jing", "text": "아, 그래요? 이거 제 가방이에요?", "zh": "(陈静把包接过来)啊,是吗?这是我的包?(原来是妈妈偷偷放进箱子里的新包)", "roman": "A, geuraeyo? Igeo je gabangieyo?", "items": ["ko.geuraeyo", "ko.igeo", "ko.gabang"] },
+    { "speaker": "jing", "text": "수아 씨, 저거 누구 휴대폰이에요?", "zh": "(陈静指着门口地上的一部手机)秀雅,那是谁的手机?", "roman": "Sua ssi, jeogeo nugu hyudaeponieyo?", "items": ["ko.ssi", "ko.jeogeo", "ko.nugu", "ko.hyudaepon"] },
+    { "speaker": "sua", "text": "저거요? 아, 제 휴대폰이에요!", "zh": "那个?啊,是我的手机!(秀雅找了一早上)", "roman": "Jeogeoyo? A, je hyudaeponieyo!", "items": ["ko.jeogeo", "ko.hyudaepon"] },
+    { "speaker": "sua", "text": "이 사진, 이 사람 누구예요?", "zh": "(秀雅又从箱子里拿出一张照片)这张照片……这个人是谁?", "roman": "I sajin, i saram nuguyeyo?", "items": ["ko.sajin", "ko.saram", "ko.nugu"] },
+    { "speaker": "jing", "text": "우리 아빠예요.", "zh": "是我爸爸。", "roman": "Uri appayeyo.", "items": ["ko.uri", "ko.appa"] },
+    { "speaker": "sua", "text": "아빠요? 오빠가 아니에요?", "zh": "是爸爸?不是哥哥吗?(照片上的爸爸看起来很年轻,陈静笑了)", "roman": "Appayo? Oppaga anieyo?", "items": ["ko.appa", "ko.oppa", "ko.anieyo"] }
+  ],
+  "questions": [
+    { "prompt": "秀雅从箱子里拿出的书是什么书?", "options": ["中文书", "韩语书", "秀雅的书"], "answer": 0, "explainZh": "第 2 句:중국어 책이에요(是中文书)。중국어 = 中文,책 = 书。" },
+    { "prompt": "秀雅脚边的包是谁的?", "options": ["秀雅的", "陈静的", "阿南的"], "answer": 1, "explainZh": "第 4 句:제 가방이 아니에요. 천징 씨 거예요!(不是我的包,是你的!)陈静接过来问 이거 제 가방이에요?(第 5 句)" },
+    { "prompt": "陈静问“저거 누구 휴대폰이에요?”,为什么用 저거?", "options": ["手机在秀雅手里", "手机在陈静手里", "手机离两个人都远"], "answer": 2, "explainZh": "第 6 句:手机在门口的地上,离两个人都远,所以用 저거。东西在对方手边用 그거(第 2、3 句),在自己手边用 이거(第 1、5 句)。" },
+    { "prompt": "照片上的人是谁?", "options": ["陈静的哥哥", "陈静的爸爸", "秀雅的爸爸"], "answer": 1, "explainZh": "第 9 句:우리 아빠예요(是我爸爸)。秀雅以为是哥哥,问 오빠가 아니에요?(不是哥哥吗?)" }
+  ],
+  "grammar": [
+    { "id": "ko.g.igeo_geugeo_jeogeo", "titleZh": "이거 / 그거 / 저거:韩语的“这个、那个”分三种",
+      "bodyZh": "中文只分“这个、那个”,韩语按东西离谁近分三种:이거 = 离我(说话的人)近;그거 = 离你(听话的人)近,或者刚才说过的那个;저거 = 离我们俩都远、但看得见。同一本书,在秀雅手里,秀雅说 이거,陈静说 그거;陈静把包接过来,包到了自己手边,就改说 이거。中国学生最常见的错是把对方手里的东西也叫 이거,或者把 그거 当成“远处的那个”。\n后面接名词时去掉 거:이 사람(这个人)、그 책(那本书)、저 가방(那个包)。这三个词是口语,书面语写 이것、그것、저것。",
+      "examples": [
+        { "text": "이거 뭐예요?", "zh": "这是什么?(东西在我手里)" },
+        { "text": "그거요? 중국어 책이에요.", "zh": "你手里那个?是中文书。" },
+        { "text": "저거 누구 휴대폰이에요?", "zh": "那是谁的手机?(离我们都远)" }
+      ] },
+    { "id": "ko.g.nugu_geo", "titleZh": "누구 / 누구 거:谁、谁的",
+      "bodyZh": "问人:누구예요?(是谁?)、이 사람 누구예요?(这个人是谁?)。问东西是谁的:누구 거예요?——거 是“……的东西”,名词 + 거 = 某人的东西:천징 씨 거예요(是陈静的)、제 거예요(是我的;제 是 저의 的缩略,“我的”)。\n名词修饰名词直接连着说,中间不用加什么:중국어 책(中文书)、수아 씨 가방(秀雅的包)、누구 휴대폰(谁的手机)。中文“秀雅的包”要说“的”,韩语口语一般不说;书面上的 의(的)以后再学。注意分清:누구예요?问“是谁”,누구 거예요?问“是谁的”。",
+      "examples": [
+        { "text": "이 사람 누구예요?", "zh": "这个人是谁?" },
+        { "text": "누구 거예요?", "zh": "是谁的?" },
+        { "text": "천징 씨 거예요.", "zh": "是陈静的。" }
+      ] }
+  ],
+  "review": "draft"
+}
