@@ -17,7 +17,8 @@
     "content:hours": "tsx tools/course-hours.ts",
     "content:sync-order": "tsx tools/sync-order.ts",
     "content:dedupe": "tsx tools/dedupe-outline.ts",
-    "content:sync-minutes": "tsx tools/sync-outline-minutes.ts"
+    "content:sync-minutes": "tsx tools/sync-outline-minutes.ts",
+    "content:status": "tsx tools/content-status.ts"
   },
   "devDependencies": {
     "tsx": "^4.23.15",
