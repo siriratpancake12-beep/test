@@ -2,7 +2,7 @@
   "id": "ja.a1u8.l05", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
   "unit": "A1-8 我的一天与周末", "order": 108050,
   "titleZh": "て形入门:去海边的一天", "goalZh": "认识动词的 て形,会用“V1て、V2ます”把两三个动作按先后连起来", "canDoZh": "能用“先……然后……”把两三个动作连起来,讲一讲周末去海边玩了什么",
-  "skills": ["read", "write", "speak"], "estimatedMinutes": 26,
+  "skills": ["read", "write", "speak"], "estimatedMinutes": 25.5,
   "newItems": [
     { "id": "ja.toru", "kind": "word", "pos": "verb", "text": "撮ります", "zh": "拍(照片)", "features": { "reading": "とります", "pitch": 3 }, "noteZh": "写真を 撮ります(拍照)。辞书形 撮る(一类动词),て形 撮って。" },
     { "id": "ja.asobu", "kind": "word", "pos": "verb", "text": "遊びます", "zh": "玩;(和朋友)出去玩", "features": { "reading": "あそびます", "pitch": 4 }, "noteZh": "成年人和朋友出去玩也说 遊びます。辞书形 遊ぶ(一类动词),て形 遊んで。" },
