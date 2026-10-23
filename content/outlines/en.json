@@ -18,7 +18,7 @@
       "canDoZh": "能用英语和新朋友互相介绍、说自己来自哪里",
       "scenarioZh": "开学迎新日,磊拖着行李走到宿舍楼前,迎新志愿者艾米(amy)主动打招呼。两人互相说名字、问来自哪里,磊说自己来自中国成都。(已写好的课)",
       "grammarFocusZh": "be 动词入门:I'm = I am;用 My name is… 说名字,用 Where are you from? — I'm from… 问答来自哪里。发音:th(thank you)、词重音(NICE to MEET you)。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 8,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 22,
       "newItems": [
         { "id": "en.hi", "kind": "word", "pos": "interj", "text": "Hi", "zh": "嗨;你好", "features": { "ipa": "haɪ" } },
         { "id": "en.my_name_is", "kind": "phrase", "pos": "phrase", "text": "My name is", "zh": "我的名字是……", "features": { "ipa": "maɪ ˈneɪm ɪz" } },
@@ -35,7 +35,7 @@
       "canDoZh": "能和新室友打招呼、互相问候,被问 How are you? 时自然地回答并回问",
       "scenarioZh": "磊找到自己的宿舍房间敲门,室友伊森(ethan)开门说 Come in!。两人确认身份(Are you Lei? — Yes, I am.),用 How's it going? 这类随意的说法问候;伊森要出门,临走说 See you later!。伊森说话很随意,爱用 Hey / Cool。",
       "grammarFocusZh": "be 动词的一般疑问句和简短回答:Are you Lei? — Yes, I am. / No, I'm not.;缩写 I'm、you're。发音:一般疑问句用升调 ↗(Are you Lei?),特殊疑问句用降调 ↘(How are you?)。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 9,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.hey", "kind": "word", "pos": "interj", "text": "Hey", "zh": "嘿(熟人、同龄人之间)", "features": { "ipa": "heɪ" }, "noteZh": "比 Hi 更随意,美国年轻人见面常说;对老师、上司用 Hi 或 Hello 更稳妥。" },
         { "id": "en.come_in", "kind": "phrase", "pos": "phrase", "text": "Come in", "zh": "请进", "features": { "ipa": "ˌkʌm ˈɪn" }, "noteZh": "连读:come 的 m 和 in 连在一起,听起来像 \"ca-min\"。" },
@@ -56,7 +56,7 @@
       "canDoZh": "能把朋友介绍给别人,并说出自己是几年级、学什么专业",
       "scenarioZh": "学生中心里,磊和伊森碰到艾米,艾米身边是来自墨西哥的留学生索菲亚(sofia)。大家互相介绍(Amy, this is my roommate, Ethan.),聊各自几年级、学什么专业:磊和伊森都是大一新生,磊学计算机。",
       "grammarFocusZh": "he / she + is;物主形容词 my / your / his / her;a 和 an:a student、an international student(元音音素前用 an)。中国学习者最常漏冠词:要说 I'm a student,不说 I'm student。",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.this_is", "kind": "phrase", "pos": "phrase", "text": "This is", "zh": "这是……(介绍别人)", "features": { "ipa": "ˈðɪs ɪz" }, "noteZh": "介绍别人说 This is…,不说 He is…;th 是浊音 /ð/:舌尖轻放在上下齿之间,同时声带振动。" },
         { "id": "en.friend", "kind": "word", "pos": "noun", "text": "friend", "zh": "朋友", "features": { "ipa": "frend" }, "noteZh": "ie 读 /e/;词尾 nd 收住就好,不要拖出一个\"德\"音。" },
@@ -76,7 +76,7 @@
       "canDoZh": "能在办手续时拼出自己的姓名,没听懂时礼貌地请对方再说一遍、说慢一点",
       "scenarioZh": "国际学生办公室,工作人员(advisor)帮磊登记信息:先问姓、再问名,请他拼写(Z-H-A-N-G)。她说得很快,磊用 Sorry? / Could you say that again? 请她重复,遇到不懂的词就问 What does that mean?。磊的英文全名是 Lei Zhang(名在前、姓在后)。",
       "grammarFocusZh": "特殊疑问句:What's your last name? How do you spell that?;英文姓名名在前、姓在后。发音:字母的读法——中国人容易混的 E /iː/ 和 I /aɪ/、G /dʒiː/ 和 J /dʒeɪ/、M 和 N、B 和 V;美式 Z 读 /ziː/。",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.first_name", "kind": "phrase", "pos": "noun", "text": "first name", "zh": "名(不是姓)", "features": { "ipa": "ˈfɝːst ˌneɪm" }, "noteZh": "英语名在前、姓在后:Lei Zhang。表格上 First name 填 Lei,Last name 填 Zhang。" },
         { "id": "en.last_name", "kind": "phrase", "pos": "noun", "text": "last name", "zh": "姓", "alt": ["family name"], "features": { "ipa": "ˈlæst ˌneɪm" }, "noteZh": "也叫 family name;美国人常有 middle name(中间名),中国学生一般没有,空着就行。" },
@@ -96,7 +96,7 @@
       "canDoZh": "能和同学互留电话号码和邮箱,并把听到的号码复述一遍确认",
       "scenarioZh": "第一节写作课下课,磊发现索菲亚和他同班,两人约好一起写作业,互留电话和邮箱。索菲亚报号码时把 0 读成 oh,磊复述确认(Is that 206-555-0147? — That's right.),她把磊拉进课程群聊。",
       "grammarFocusZh": "电话号码的读法:一个数字一个数字地读,按 3-3-4 分组停顿,0 常读作 oh;祈使句 Text me. / Call me.;What's = What is;确认信息:Is that…? — That's right.",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 9,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.phone_number", "kind": "phrase", "pos": "noun", "text": "phone number", "zh": "电话号码", "features": { "ipa": "ˈfoʊn ˌnʌmbɚ" }, "noteZh": "问号码:What's your phone number? 口语也常省成 What's your number?" },
         { "id": "en.oh_zero", "kind": "word", "pos": "num", "text": "oh", "zh": "零(报号码时)", "alt": ["zero"], "features": { "ipa": "oʊ" }, "noteZh": "美国人报电话号码、房间号时常把 0 读成 oh:555-0147 读作 five five five, oh one four seven。" },
@@ -117,7 +117,7 @@
       "canDoZh": "能在派对上主动认识一个新朋友:打招呼、介绍自己和专业,最后互留联系方式",
       "scenarioZh": "国际学生迎新派对。艾米把磊介绍给大四学长马库斯(marcus,学音乐、在校园咖啡馆打工);磊再把伊森、索菲亚介绍给马库斯。磊完整地介绍自己(名字、来自哪里、大一、学计算机),拼自己的名字,和马库斯互留号码。对话比前几课长,至少 12 句。",
       "grammarFocusZh": "复习 be 动词的全部人称(I am / you are / he is / she is / we are / they are)、a / an、物主形容词。发音:句子重音——实词重读、虚词轻读:I'm a STU-dent from CHI-na。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.party", "kind": "word", "pos": "noun", "text": "party", "zh": "派对;聚会", "features": { "ipa": "ˈpɑːrt̬i" }, "noteZh": "美式 t 在两个元音之间读得像轻快的 d:\"par-dee\"。" },
         { "id": "en.welcome", "kind": "word", "pos": "interj", "text": "Welcome", "zh": "欢迎", "features": { "ipa": "ˈwelkəm" }, "noteZh": "Welcome to the party! 欢迎来派对!注意和 You're welcome(不客气)区分。" },
@@ -132,7 +132,7 @@
       "canDoZh": "能拿着手机里的全家福,给朋友介绍照片里的家人",
       "scenarioZh": "周末晚上在宿舍,伊森看到磊手机里的全家福,一个个问 Who's that?。磊介绍爸爸、妈妈、和他们住在一起的奶奶,还有一个表姐;磊说自己是独生子女,伊森觉得很新鲜,也给磊看了自己家的照片。",
       "grammarFocusZh": "物主形容词 my / your / his / her / our / their;This is my… / These are my…(复数用 these)。发音:grandma 里的 d 通常不发音;parents 词尾 nts 要读完整。",
-      "skills": ["listen", "read", "write"], "estimatedMinutes": 9,
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.family", "kind": "word", "pos": "noun", "text": "family", "zh": "家人;家庭", "features": { "ipa": "ˈfæməli" }, "noteZh": "重音在第一个音节 FAM-;a 读 /æ/,嘴要张大。" },
         { "id": "en.photo", "kind": "word", "pos": "noun", "text": "photo", "zh": "照片", "alt": ["picture"], "features": { "ipa": "ˈfoʊt̬oʊ" }, "noteZh": "口语也常说 picture;美式 t 在两个元音之间读得像轻快的 d。" },
@@ -153,7 +153,7 @@
       "canDoZh": "能说出自己有几个兄弟姐妹、他们多大,也能问别人",
       "scenarioZh": "课间,索菲亚给磊看她家的照片:她有两个哥哥(25 岁的迭戈、22 岁的路易斯)和一对 13 岁的双胞胎妹妹。磊问每个人多大(How old is he?),索菲亚也问磊有没有兄弟姐妹;两人聊起\"大家庭\"和\"独生子女\"的不同。",
       "grammarFocusZh": "名词复数:brother → brothers,-s 有三种读音 /s/(parents)、/z/(brothers)、/ɪz/(glasses,下一课的词,这里只在讲解里预告;2-2 和 2-3 合起来覆盖三种读音);have 表示\"有\":I have two brothers.;How old is he? — He's 25 (years old).。发音:thirteen(重音在后 thir-TEEN)和 thirty(重音在前 THIR-ty)靠重音区分。",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.brother", "kind": "word", "pos": "noun", "text": "brother", "zh": "兄弟(哥哥或弟弟)", "features": { "ipa": "ˈbrʌðɚ" }, "noteZh": "th 是浊音 /ð/,别读成 /z/ 或 /d/;英语不分哥哥弟弟,要说清楚用 older brother / younger brother。" },
         { "id": "en.sister", "kind": "word", "pos": "noun", "text": "sister", "zh": "姐妹(姐姐或妹妹)", "features": { "ipa": "ˈsɪstɚ" }, "noteZh": "同样不分姐姐妹妹:older sister 姐姐,younger sister 妹妹。" },
@@ -173,7 +173,7 @@
       "canDoZh": "能用几句话描述一个人的长相,让没见过他的人也能认出来",
       "scenarioZh": "索菲亚的大哥迭戈来西雅图看她,可她下午还有课,拜托磊先去接。磊打电话问 What does he look like?,索菲亚说他个子很高、黑色短发、戴眼镜;磊也描述了自己的样子方便迭戈认人。到了约好的地方,磊看到两个高个子男生,靠\"戴眼镜\"认出了迭戈。迭戈不是固定角色,不安排台词,对话只在磊和索菲亚之间。",
       "grammarFocusZh": "have / has 描述外貌:He has short black hair.;几个形容词放在名词前,长短在前、颜色在后:long brown hair;What does he look like? 问长相。发音:hair 结尾卷舌;tall、long 里的 l 舌尖要顶住上齿龈。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.what_does_he_look_like", "kind": "phrase", "pos": "phrase", "text": "What does he look like", "zh": "他长什么样?", "alt": ["What does she look like"], "features": { "ipa": "ˌwʌt dəz hi ˈlʊk ˌlaɪk" }, "noteZh": "问长相用 look like;问性格用 What's he like?(下一课),两句很容易混。" },
         { "id": "en.guy", "kind": "word", "pos": "noun", "text": "guy", "zh": "家伙;男的(口语)", "features": { "ipa": "ɡaɪ" }, "noteZh": "美国口语里说\"那个男生\"常说 that guy;复数 guys 也可以泛指一群人。" },
@@ -193,7 +193,7 @@
       "canDoZh": "能用两三个词说说朋友是什么样的人,比如\"很友好、有点害羞\"",
       "scenarioZh": "去上课的路上,索菲亚问磊 What's Ethan like?;磊说伊森特别搞笑、很友好,艾米人很好又聪明。磊问迭戈是什么样的人,索菲亚说哥哥很安静、有点害羞。索菲亚说磊也有点害羞,磊笑着说\"在中国我可不害羞\"。",
       "grammarFocusZh": "be + 形容词描述性格:He's funny.;程度:really nice / very friendly / a little shy(a little 多用在不太好的特点前);What's he like? 问性格,和 What does he look like? 对比。发音:really 里 r 和 l 挨着——先圆唇发 r,舌尖不碰上颚,再把舌尖抬到上齿龈发 l。",
-      "skills": ["listen", "read", "write"], "estimatedMinutes": 9,
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 23.5,
       "newItems": [
         { "id": "en.whats_he_like", "kind": "phrase", "pos": "phrase", "text": "What's he like", "zh": "他是个什么样的人?", "alt": ["What is he like", "What's she like"], "features": { "ipa": "ˌwʌts hi ˈlaɪk" }, "noteZh": "问的是性格、为人,不是长相;这里的 like 是\"像\",不是\"喜欢\"。" },
         { "id": "en.nice", "kind": "word", "pos": "adj", "text": "nice", "zh": "人好的;令人愉快的", "features": { "ipa": "naɪs" }, "noteZh": "nice 很万能:人好、天气好、东西好都可以说 nice。" },
@@ -213,7 +213,7 @@
       "canDoZh": "能说出家里有几口人、父母做什么工作、住在哪里",
       "scenarioZh": "写作课上,教授(professor)让大家两人一组互相采访家庭情况。磊和索菲亚一问一答:How many people are there in your family? What does your dad do?;磊家四口人(爸爸、妈妈、奶奶和他),爸爸是工程师,妈妈是中学老师,住在成都;索菲亚的妈妈是医院的护士。",
       "grammarFocusZh": "There is / There are:There are four people in my family.;How many + 复数名词?;说职业要带 a / an:My mom is a teacher. My dad is an engineer.(最容易漏冠词的地方);live、work 的第三人称 lives、works 先认识,第 3 单元系统学。",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.how_many", "kind": "phrase", "pos": "phrase", "text": "How many", "zh": "多少(个)", "features": { "ipa": "ˌhaʊ ˈmeni" }, "noteZh": "后面跟复数名词:How many people…? How many brothers…?" },
         { "id": "en.people", "kind": "word", "pos": "noun", "text": "people", "zh": "人;人们", "features": { "ipa": "ˈpiːpəl" }, "noteZh": "people 本身就是复数,不加 s:four people。" },
@@ -234,7 +234,7 @@
       "canDoZh": "能用一小段话介绍自己的家人和新朋友:他们是谁、长什么样、是什么样的人",
       "scenarioZh": "磊为写作课写的短文《My Family and My New Friends》(说话人用 lei,第一人称):先介绍成都的家(爸爸、妈妈、奶奶,自己是独生子女),再介绍在西雅图认识的伊森、艾米、索菲亚的样子和性格;结尾说想家,但在这里也有了好朋友。至少 10 句。",
       "grammarFocusZh": "复习物主形容词、have / has、There are…、be + 形容词;用 and / but 把句子连起来。发音:朗读短文时在逗号、句号处停顿,陈述句句末降调。",
-      "skills": ["read", "listen", "speak"], "estimatedMinutes": 11,
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 20,
       "newItems": [
         { "id": "en.best_friend", "kind": "phrase", "pos": "noun", "text": "best friend", "zh": "最好的朋友", "features": { "ipa": "ˌbest ˈfrend" }, "noteZh": "best 结尾的 t 碰上 friend 的 f,常常轻到听不见:\"bes-friend\"。" },
         { "id": "en.miss", "kind": "word", "pos": "verb", "text": "miss", "zh": "想念", "features": { "ipa": "mɪs" }, "noteZh": "I miss my family. 我想家了;miss 还有\"错过\"的意思:miss the bus。" },
@@ -249,7 +249,7 @@
       "canDoZh": "能问别人现在几点,并说清楚自己几点有课",
       "scenarioZh": "开学第一天早上,磊睡过了头,问刚醒的伊森 What time is it?——已经 8:40,磊的第一节课 9 点开始。伊森催他 Hurry up!,还说自己今天下午才有课。磊一路小跑,8:58 冲进教室。",
       "grammarFocusZh": "时间的说法:It's eight forty.(8:40)/ It's nine o'clock.;at + 钟点(at nine);in the morning / in the afternoon,但 at night。发音:词尾辅音不加元音——late 读 /leɪt/,不读 \"lei-te\";eight、night 同理。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 9,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.what_time_is_it", "kind": "phrase", "pos": "phrase", "text": "What time is it", "zh": "现在几点?", "features": { "ipa": "ˌwʌt ˈtaɪm ɪz ɪt" }, "noteZh": "What 和 time 挨着的两个 t 只读一个;time is it 连读成 \"tai-mi-zit\"。" },
         { "id": "en.oclock", "kind": "word", "pos": "adv", "text": "o'clock", "zh": "……点钟(整点)", "alt": ["oclock", "o clock"], "features": { "ipa": "əˈklɑːk" }, "noteZh": "只用于整点:nine o'clock;9:30 直接说 nine thirty。" },
@@ -270,7 +270,7 @@
       "canDoZh": "能按时间顺序说出自己一天的安排:几点起床、上课、吃饭、学习、睡觉",
       "scenarioZh": "索菲亚和磊在食堂吃午饭,聊起各自的作息:磊每天 7 点起床、冲澡、吃早饭,9 点上课,下午在图书馆学习,晚上 11 点睡觉;索菲亚早上 6 点就起床。两人约好以后下午一起去图书馆。",
       "grammarFocusZh": "一般现在时表示习惯:I get up at seven.(主语是 I / you / we / they 时用动词原形);三餐前不加冠词:have breakfast(用 have 表示\"吃\")。发音:连读——get up 读成 \"ge-dup\"(t 夹在两个元音中间,读成轻快的 d)。",
-      "skills": ["listen", "read", "write"], "estimatedMinutes": 9,
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.get_up", "kind": "phrase", "pos": "verb", "text": "get up", "zh": "起床", "features": { "ipa": "ˌɡet̬ ˈʌp" }, "noteZh": "美式连读像 \"ge-dup\";get up 是\"起床\",wake up 是\"醒来\"(下一课)。" },
         { "id": "en.take_a_shower", "kind": "phrase", "pos": "verb", "text": "take a shower", "zh": "洗澡(淋浴)", "features": { "ipa": "ˌteɪk ə ˈʃaʊɚ" }, "noteZh": "美国人大多早上冲澡;take a 连读成 \"tay-ka\"。" },
@@ -291,7 +291,7 @@
       "canDoZh": "能说说室友或家人每天做什么,用对 he / she 后面动词的 -s",
       "scenarioZh": "艾米问磊和室友处得怎么样。磊说伊森的作息和自己完全相反:伊森 11 点才醒、中午起床,上午没课;下午去健身房锻炼,一周去五次;晚上打游戏、看剧到深夜。艾米笑着说美国大一新生很多都这样。",
       "grammarFocusZh": "第三人称单数:He gets up at noon. She works at a hospital.;-s 的三种读音:/s/(gets、works)、/z/(plays、goes)、/ɪz/(watches);否定 He doesn't…,疑问 Does he…?(后面的动词用原形)。",
-      "skills": ["listen", "read", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.wake_up", "kind": "phrase", "pos": "verb", "text": "wake up", "zh": "醒来", "features": { "ipa": "ˌweɪk ˈʌp" }, "noteZh": "wake up 是醒,get up 是起床:I wake up at seven, but I get up at 7:30.;连读 \"way-kup\"。" },
         { "id": "en.sleep", "kind": "word", "pos": "verb", "text": "sleep", "zh": "睡觉", "features": { "ipa": "sliːp" }, "noteZh": "ee 是长音 /iː/;词尾 p 双唇闭上就好,不要读成 \"slee-pu\"。" },
@@ -312,7 +312,7 @@
       "canDoZh": "能说说自己周末一般做什么、多久给家里打一次电话",
       "scenarioZh": "周五下课,索菲亚问磊周末一般做什么。磊说周六常睡懒觉、洗衣服,周日总是和爸妈视频(那时是中国的周一早上);索菲亚问 How often do you work out?,磊说有时候去;索菲亚说她从来不去健身房,但每天都跳舞。",
       "grammarFocusZh": "频率副词 always / usually / often / sometimes / never 的位置:行为动词前(I usually sleep late.),be 动词后(I'm always tired.);How often…? 问频率;on weekends / on Saturdays 表示每个周末、每周六。发音:often 的 t 通常不发音;usually 里的 s 读 /ʒ/。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.how_often", "kind": "phrase", "pos": "phrase", "text": "How often", "zh": "多久一次", "features": { "ipa": "ˌhaʊ ˈɑːfən" }, "noteZh": "How often do you call your parents? 回答可以用 every day / twice a week / sometimes。" },
         { "id": "en.always", "kind": "word", "pos": "adv", "text": "always", "zh": "总是", "features": { "ipa": "ˈɑːlweɪz" }, "noteZh": "重音在前 AL-ways。" },
@@ -333,7 +333,7 @@
       "canDoZh": "能在打工面试时说清楚自己哪几天、几点到几点有空",
       "scenarioZh": "马库斯告诉磊校园咖啡馆在招人。经理劳拉(laura)和磊简单面谈:问他哪几天有课、什么时候有空;磊说周一、三、五上午有课,周二、周四下午有空;劳拉安排他每周二、周四下午 2 点到 6 点上班,下周一先来培训。劳拉说话清楚,特别强调要准时。",
       "grammarFocusZh": "on + 星期:on Tuesday / on Tuesdays(每周二);from … to …:from two to six;时间介词小结:at + 钟点,on + 星期,in + the morning / the afternoon。发音:Wednesday 的第一个 d 不发音 /ˈwenzdeɪ/;Tuesday 美式读 /ˈtuːzdeɪ/;Thursday 开头是 th /θ/。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.monday", "kind": "word", "pos": "propn", "text": "Monday", "zh": "星期一", "features": { "ipa": "ˈmʌndeɪ" }, "noteZh": "o 读 /ʌ/,像 \"mun-day\"。" },
         { "id": "en.tuesday", "kind": "word", "pos": "propn", "text": "Tuesday", "zh": "星期二", "features": { "ipa": "ˈtuːzdeɪ" }, "noteZh": "美式读 /ˈtuːz-/,英式读 /ˈtjuːz-/。" },
@@ -354,7 +354,7 @@
       "canDoZh": "能用一段话讲讲自己普通的一周:上课、打工、运动和周末",
       "scenarioZh": "磊在国内高中同学群里分享的英文小短文《My Week in Seattle》(说话人用 lei):周一三五上午上课,周二周四下午在咖啡馆打工,晚上常在图书馆学习;室友伊森的作息和他相反;周末睡懒觉、洗衣服、和爸妈视频。他很忙、有时很累,但过得很开心。至少 10 句。",
       "grammarFocusZh": "复习一般现在时(含第三人称 -s)、频率副词、时间介词 at / on / in;用 then、after class 把事情按顺序串起来。发音:朗读时把每个第三人称动词的 -s 读清楚(Ethan sleeps / plays / watches)。",
-      "skills": ["read", "listen", "speak"], "estimatedMinutes": 11,
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 23,
       "newItems": [
         { "id": "en.busy", "kind": "word", "pos": "adj", "text": "busy", "zh": "忙的", "features": { "ipa": "ˈbɪzi" }, "noteZh": "u 读 /ɪ/、s 读 /z/:\"bi-zee\"。" },
         { "id": "en.tired", "kind": "word", "pos": "adj", "text": "tired", "zh": "累的", "features": { "ipa": "ˈtaɪɚd" }, "noteZh": "ir 要卷舌,词尾 d 轻轻收住;I'm tired. 我累了。" },
@@ -369,7 +369,7 @@
       "canDoZh": "能在美国的咖啡店点一杯咖啡:选大小和冷热,说清楚在这儿喝还是带走",
       "scenarioZh": "周六上午,艾米带磊去校门口一家很火的咖啡店。咖啡师(barista)语速很快:Hi! What can I get for you?;磊用 Can I get a medium iced coffee? 点单;咖啡师接着问 Anything else? For here or to go?,最后问名字写在杯子上,磊又拼了一次自己的名字。艾米点了大杯热咖啡。",
       "grammarFocusZh": "用 Can I get…? 点单(美国人最常用,比 I want… 礼貌);饮品点单时可以直接数:a coffee, two coffees;形容词顺序:a medium iced coffee(大小在前)。发音:连读 Can I get a… 读成 \"ca-nai-ge-da\"。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.coffee", "kind": "word", "pos": "noun", "text": "coffee", "zh": "咖啡", "features": { "ipa": "ˈkɑːfi" }, "noteZh": "美式 o 读 /ɑː/,嘴张大;重音在前 COF-fee。" },
         { "id": "en.can_i_get", "kind": "phrase", "pos": "phrase", "text": "Can I get", "zh": "请给我……(点单)", "alt": ["Could I get", "Can I have"], "features": { "ipa": "kən aɪ ˈɡet" }, "noteZh": "美国人点单最常用 Can I get a…, please?;直接说 I want… 会显得生硬。can 在这里弱读成 /kən/。" },
@@ -390,7 +390,7 @@
       "canDoZh": "能在咖啡店点一杯按自己口味定制的饮料,比如\"中杯热拿铁,换燕麦奶,不加糖\"",
       "scenarioZh": "又一个下午,磊和索菲亚来到同一家咖啡店。磊帮还不太会点单的索菲亚点:中杯热拿铁,换燕麦奶、加香草、不加糖;磊自己要一杯大杯热茶。咖啡师问茶里要不要加牛奶,磊说 No, thanks.;最后咖啡师把饮料递过来。",
       "grammarFocusZh": "可数和不可数:点饮料时可数(a latte, two teas),milk、sugar、ice、water 不可数;用 with / no 定制:with oat milk, no sugar;want + 名词:I want a tea.(want to + 动词的邀请用法第 7 单元学)。发音:v 和 w——vanilla 的 v 上齿碰下唇,want、with 的 w 双唇收圆、不碰牙齿。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.want", "kind": "word", "pos": "verb", "text": "want", "zh": "想要", "features": { "ipa": "wɑːnt" }, "noteZh": "w 双唇收圆、往前送,上齿不碰下唇;点单时 Can I get… 比 I want… 礼貌。" },
         { "id": "en.drink", "kind": "word", "pos": "verb", "text": "drink", "zh": "喝", "features": { "ipa": "drɪŋk" }, "noteZh": "Something to drink? 喝点什么?;也可作名词\"饮料\":a drink。" },
@@ -411,7 +411,7 @@
       "canDoZh": "能在美国餐厅看菜单点菜,问清楚一道菜辣不辣",
       "scenarioZh": "磊和索菲亚去学校附近的一家美式餐厅。服务员(server)先问喝什么,两人都要水;再问 Are you ready to order?。磊看到菜单上有辣味汉堡,问 Is it spicy?,服务员说 A little.;磊点辣味汉堡和薯条,索菲亚点普通汉堡。磊说自己是成都人,很爱吃辣。",
       "grammarFocusZh": "点菜用 I'll have…(I'll have the burger.);like + 名词表示喜欢:Do you like spicy food? — Yes, I love it.;a 和 the:泛指用 a(a burger),特指菜单上那一道用 the(the spicy burger)。发音:water 的 t 在美式里读成轻快的 d /ˈwɑːt̬ɚ/,读对了点水才听得懂。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.menu", "kind": "word", "pos": "noun", "text": "menu", "zh": "菜单", "features": { "ipa": "ˈmenjuː" }, "noteZh": "Can I see the menu? 能看一下菜单吗?" },
         { "id": "en.water", "kind": "word", "pos": "noun", "text": "water", "zh": "水", "features": { "ipa": "ˈwɑːt̬ɚ" }, "noteZh": "美式读 \"WAH-der\":t 读成轻快的 d,结尾卷舌;美国餐厅的冰水一般免费。" },
@@ -432,7 +432,7 @@
       "canDoZh": "能在美国餐厅叫服务员买单、分开付,并按习惯付小费",
       "scenarioZh": "吃完饭,服务员问 How was everything?,两人说很好吃。磊招手说 Can we get the check, please?;服务员问 Together or separate?,他们分开付:磊刷卡,索菲亚付现金。索菲亚教磊在小票上写小费(大约 18%),磊第一次知道美国餐厅的小费不包含在账单里。",
       "grammarFocusZh": "How much is it? — It's $24.50(读作 twenty-four fifty);美元的读法;pay by card / pay in cash;How was everything? 是固定问法(was 第 8 单元学)。文化:美国餐厅一般给税前金额 15%–20% 的小费,账单上不含。发音:How much is it? 连读成 \"how-mu-chi-zit\"。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.check", "kind": "word", "pos": "noun", "text": "check", "zh": "(餐厅的)账单", "alt": ["bill"], "features": { "ipa": "tʃek" }, "noteZh": "美国餐厅买单说 Can I get the check?(英式说 bill);服务员一般不会主动拿账单来,要自己叫。" },
         { "id": "en.pay", "kind": "word", "pos": "verb", "text": "pay", "zh": "付钱", "features": { "ipa": "peɪ" }, "noteZh": "pay by card 刷卡,pay in cash 付现金;为某物付钱:pay for…" },
@@ -452,7 +452,7 @@
       "canDoZh": "能在美国超市找到要买的东西,问店员\"鸡蛋在哪儿\",并应付收银员的提问",
       "scenarioZh": "磊想自己做饭,第一次去学校附近的超市。他找不到鸡蛋和大米,问店员(clerk)Excuse me, where are the eggs?,店员说在 5 号过道;他又买了鸡肉、蔬菜和水果。结账时收银员(cashier)问 Do you need a bag?,磊说自己带了袋子。",
       "grammarFocusZh": "some / any:We need some rice. Do you have any eggs?;可数名词复数(eggs、vegetables)和不可数名词(rice、fruit、chicken);Where is…? / Where are…? 跟着单复数变。发音:aisle 的 s 不发音,读作 /aɪl/。",
-      "skills": ["listen", "read", "write"], "estimatedMinutes": 9,
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.grocery_store", "kind": "phrase", "pos": "noun", "text": "grocery store", "zh": "超市;食品杂货店", "alt": ["supermarket"], "features": { "ipa": "ˈɡroʊsɚi ˌstɔːr" }, "noteZh": "美国人日常多说 grocery store;去买菜:go grocery shopping。" },
         { "id": "en.excuse_me", "kind": "phrase", "pos": "phrase", "text": "Excuse me", "zh": "打扰一下;劳驾", "features": { "ipa": "ɪkˈskjuːz mi" }, "noteZh": "向陌生人开口、借过时都用;它只是\"打扰一下\",真的道歉要说 Sorry。" },
@@ -473,7 +473,7 @@
       "canDoZh": "能在咖啡店柜台接待顾客:问要什么、确认大小和口味、收钱并说再见",
       "scenarioZh": "培训一周后,磊第一次独立当班。一位顾客(customer)一口气点了复杂的定制饮品,磊请她说慢一点,再复述确认;每天都来的老顾客(regular)点他\"老样子\"的那杯;马库斯在旁边帮忙做咖啡。下班时经理劳拉夸他 Good job!。对话至少 14 句。",
       "grammarFocusZh": "复习 Can I get…? / Anything else? / For here or to go? / How much…? / Card or cash?;店员的礼貌说法:What can I get for you?、Here you go.。发音:复述订单时把关键信息(大小、冷热、奶的种类)重读。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.customer", "kind": "word", "pos": "noun", "text": "customer", "zh": "顾客", "features": { "ipa": "ˈkʌstəmɚ" }, "noteZh": "重音在第一个音节 CUS-to-mer。" },
         { "id": "en.coming_right_up", "kind": "phrase", "pos": "phrase", "text": "Coming right up", "zh": "马上就好", "features": { "ipa": "ˌkʌmɪŋ ˌraɪt̬ ˈʌp" }, "noteZh": "店员、服务员的常用语,意思是\"这就给您做\";right up 连读成 \"rai-dup\"。" },
@@ -488,7 +488,7 @@
       "canDoZh": "能向路人打听附近有没有银行或药店、走过去要多久",
       "scenarioZh": "磊要去银行开户,在街上问路人(passerby):Excuse me, is there a bank near here?;路人说两个街区外就有一家,走路大概五分钟,不远;磊又问附近有没有药店,路人说同一条街上就有一家。",
       "grammarFocusZh": "There is / There are 的问句和回答:Is there a bank near here? — Yes, there is. / No, there isn't.;a 和 the:第一次提到用 a(There's a bank on Pine Street.),再说起它用 the(The bank is close.)。发音:street、block 里的辅音连缀 str、bl 中间不要加元音。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 9,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.near_here", "kind": "phrase", "pos": "adv", "text": "near here", "zh": "这附近", "alt": ["around here", "nearby"], "features": { "ipa": "ˌnɪr ˈhɪr" }, "noteZh": "Is there a … near here? 这附近有……吗?;两个词都有卷舌的 r。" },
         { "id": "en.bank", "kind": "word", "pos": "noun", "text": "bank", "zh": "银行", "features": { "ipa": "bæŋk" }, "noteZh": "n 在 k 前读 /ŋ/;留学生到美国一般要先开个银行账户。" },
@@ -508,7 +508,7 @@
       "canDoZh": "能听懂别人指的路线(直走、左转、在拐角),并复述一遍确认",
       "scenarioZh": "磊要去邮局给家里寄东西,问路人 How do I get to the post office?;路人说:直走两个街区,在红绿灯左转,邮局在右手边,在银行旁边、咖啡馆对面。磊把路线复述一遍确认(Go straight, turn left at the traffic light…),路人说 That's right!。",
       "grammarFocusZh": "祈使句(动词原形开头):Go straight. Turn left at the traffic light.;方位介词 next to / across from / on the corner;on the left / on the right。发音:r 和 l——right(右)、light(灯)、left(左):r 嘴唇收圆、舌尖不碰任何地方;l 舌尖顶住上齿龈。",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.how_do_i_get_to", "kind": "phrase", "pos": "phrase", "text": "How do I get to", "zh": "……怎么走?;怎么去……?", "features": { "ipa": "ˌhaʊ də aɪ ˈɡet tə" }, "noteZh": "最常用的问路句:How do I get to the post office?" },
         { "id": "en.go_straight", "kind": "phrase", "pos": "verb", "text": "go straight", "zh": "直走", "alt": ["go straight ahead"], "features": { "ipa": "ˌɡoʊ ˈstreɪt" }, "noteZh": "也说 Keep going.;straight 的 str 中间不加元音。" },
@@ -529,7 +529,7 @@
       "canDoZh": "能一个人坐公交去市中心:上车确认路线、问要多久、知道在哪站下车",
       "scenarioZh": "周六磊一个人坐公交去市中心找艾米。上车问司机(driver)Does this bus go downtown?,司机说去;磊问 How long does it take?,司机说大约 20 分钟;磊问在哪站下车,司机说 Get off at Pine Street,还有五站,到了会提醒他。下车时磊说了一句 Thank you!——在美国下公交跟司机道谢很常见。",
       "grammarFocusZh": "How long does it take? — It takes about 20 minutes.;take + 交通工具:take the bus;get on / get off(上车、下车);next 表示\"下一个\":the next stop。发音:连读 get on 读成 \"ge-don\",get off 读成 \"ge-doff\"(t 夹在元音中间变成轻快的 d)。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.bus", "kind": "word", "pos": "noun", "text": "bus", "zh": "公交车", "features": { "ipa": "bʌs" }, "noteZh": "take the bus 坐公交;复数 buses 读 /ˈbʌsɪz/。" },
         { "id": "en.bus_stop", "kind": "phrase", "pos": "noun", "text": "bus stop", "zh": "公交车站", "features": { "ipa": "ˈbʌs ˌstɑːp" }, "noteZh": "stop 单说也指“一站”:the next stop 下一站,five stops 五站;大一点的车站(火车站、轻轨站)叫 station。" },
@@ -549,7 +549,7 @@
       "canDoZh": "能在轻轨站买一张去机场的票,问清楚坐哪趟车、在哪个站台等",
       "scenarioZh": "索菲亚回墨西哥参加哥哥的婚礼,今天飞回来,磊坐轻轨去机场接她。他在售票机前不会操作,问车站工作人员(staff):How do I buy a ticket?;工作人员问单程还是往返,磊要往返票;磊又问 Which train goes to the airport?,工作人员说在 2 号站台,每 10 分钟一班。",
       "grammarFocusZh": "Which…? 问\"哪一个\":Which train goes to the airport? Which platform?;every 10 minutes 每 10 分钟一班;用一般现在时说线路和时刻:The train goes to the airport.。发音:单词重音在前——AIR-port、PLAT-form、TICK-et。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.ticket", "kind": "word", "pos": "noun", "text": "ticket", "zh": "票", "features": { "ipa": "ˈtɪkɪt" }, "noteZh": "buy a ticket 买票;词尾 t 轻轻收住。" },
         { "id": "en.train", "kind": "word", "pos": "noun", "text": "train", "zh": "火车;列车", "features": { "ipa": "treɪn" }, "noteZh": "tr 读得像\"戳\"的声母再加卷舌,别读成 \"te-rain\";轻轨、地铁的车也叫 train。" },
@@ -569,7 +569,7 @@
       "canDoZh": "能在电话里告诉朋友\"我在路上了\"\"我正在门口等你\",顺利碰头",
       "scenarioZh": "磊和索菲亚约好在市中心的博物馆门口见面。索菲亚打电话:Where are you? What are you doing?;磊说 I'm on my way. I'm on the bus right now.;到站后他说 I'm standing in front of the museum.;索菲亚说她正走过来,磊说 I see you!。",
       "grammarFocusZh": "现在进行时 am / is / are + 动词-ing:I'm waiting. She's coming. What are you doing?;和一般现在时对比:I take the bus every day.(习惯)/ I'm taking the bus right now.(正在)。发音:-ing 的 /ŋ/ 是后鼻音——舌根抬起,不要读成 -in,也不要在后面加 g。",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "en.on_my_way", "kind": "phrase", "pos": "phrase", "text": "I'm on my way", "zh": "我在路上了", "alt": ["I am on my way", "On my way"], "features": { "ipa": "aɪm ˌɑːn maɪ ˈweɪ" }, "noteZh": "已经出发、正在过去时说;发消息常缩成 OMW。" },
         { "id": "en.right_now", "kind": "phrase", "pos": "adv", "text": "right now", "zh": "现在;此刻", "features": { "ipa": "ˌraɪt ˈnaʊ" }, "noteZh": "比 now 更强调\"就在这会儿\",常和现在进行时一起用。" },
@@ -589,7 +589,7 @@
       "canDoZh": "能给问路的游客指路:怎么走、坐哪路车、在哪儿下、要多久",
       "scenarioZh": "磊在公交站等车,一位拿着地图的游客(tourist)问他博物馆怎么走。磊先想一想(Let me see…),告诉她坐哪路公交、在哪站下车、下车后怎么走、在什么旁边,大概要多久;游客道谢,磊说 No problem!。磊发现自己已经能用英语帮别人了。对话至少 12 句。",
       "grammarFocusZh": "复习 There is / are、祈使句、方位介词、How long does it take?、现在进行时(I'm waiting for the bus, too.)。发音:指路时把关键信息(left / right、数字、街名)重读,句子之间稍作停顿。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.tourist", "kind": "word", "pos": "noun", "text": "tourist", "zh": "游客", "features": { "ipa": "ˈtʊrɪst" }, "noteZh": "重音在前 TOUR-ist;our 读卷舌的 /ʊr/。问路时先说一句 Sorry, I'm a tourist.(不好意思,我是外地来的),对方往往会说得慢一点。" },
         { "id": "en.map", "kind": "word", "pos": "noun", "text": "map", "zh": "地图", "features": { "ipa": "mæp" }, "noteZh": "a 读 /æ/;Can you show me on the map? 能在地图上指给我看吗?" },
@@ -604,7 +604,7 @@
       "canDoZh": "能在服装店告诉店员自己在找什么,或者说\"我先随便看看\"",
       "scenarioZh": "十月的西雅图又冷又爱下雨,艾米陪磊去商场买厚外套。一进店店员(clerk)就问 Can I help you?,磊先说 I'm just looking, thanks.;看了一圈没找到,又去找店员说 I'm looking for a warm jacket.。艾米提醒他西雅图冬天经常下雨,要买防水的。",
       "grammarFocusZh": "现在进行时的固定说法:I'm looking for… / I'm just looking.;形容词的两种位置:It's cold.(在 be 后)/ a warm jacket(在名词前)。发音:clothes 只有一个音节 /kloʊz/,别读成 \"clo-thes\"。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.can_i_help_you", "kind": "phrase", "pos": "phrase", "text": "Can I help you", "zh": "需要帮忙吗?(店员)", "alt": ["How can I help you"], "features": { "ipa": "kən aɪ ˈhelp juː" }, "noteZh": "店员招呼客人的固定说法;要帮忙就说 Yes, I'm looking for…" },
         { "id": "en.im_looking_for", "kind": "phrase", "pos": "phrase", "text": "I'm looking for", "zh": "我在找……", "alt": ["I am looking for"], "features": { "ipa": "aɪm ˈlʊkɪŋ fɚ" }, "noteZh": "look for 是\"找\"(过程),find 是\"找到\"(结果)。" },
@@ -625,7 +625,7 @@
       "canDoZh": "能在店里指着商品问\"这件有黑色的吗?\",挑出自己要的颜色",
       "scenarioZh": "磊看中一件外套,但不喜欢红色。他问店员 Do you have this in black?,店员说黑色卖完了,有深蓝色和灰色;艾米指着另一件说 That one is nice!。磊对比 this one 和 that one,最后选了深灰色那件。",
       "grammarFocusZh": "this / that / these / those,以及用 one 代替前面说过的东西:this one, that one, the blue one;颜色形容词放在名词前:a gray jacket;dark / light + 颜色:dark blue 深蓝、light blue 浅蓝。发音:this /ðɪs/ 是短元音,these /ðiːz/ 是长元音,中国人常读混。",
-      "skills": ["listen", "read", "write"], "estimatedMinutes": 9,
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.color", "kind": "word", "pos": "noun", "text": "color", "zh": "颜色", "features": { "ipa": "ˈkʌlɚ" }, "noteZh": "美式拼写 color,英式 colour;What color is it? 什么颜色?" },
         { "id": "en.red", "kind": "word", "pos": "adj", "text": "red", "zh": "红色的", "features": { "ipa": "red" }, "noteZh": "r 开头:嘴唇收圆、舌尖不碰上颚,别读成 led。" },
@@ -646,7 +646,7 @@
       "canDoZh": "能在店里试穿衣服,说出\"太小了,有大一号的吗?\"",
       "scenarioZh": "磊问 Can I try it on?,店员指着试衣间说 Over there.。中号太小,磊请她拿大号;大号正合身,艾米说 It looks good on you!。店员问 What size do you wear?,磊说在中国穿 L,在美国不一定。",
       "grammarFocusZh": "too + 形容词(太……,带\"不合适\"的意思):It's too small.,和 very small 不同;代词放在 try 和 on 中间:try it on / try them on;look + 形容词:It looks good.。发音:连读 try it on 读成 \"try-i-ton\"。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.try_on", "kind": "phrase", "pos": "verb", "text": "try on", "zh": "试穿", "features": { "ipa": "ˌtraɪ ˈɑːn" }, "noteZh": "Can I try it on?;代词要放中间:try it on,不说 try on it。" },
         { "id": "en.fitting_room", "kind": "phrase", "pos": "noun", "text": "fitting room", "zh": "试衣间", "alt": ["dressing room"], "features": { "ipa": "ˈfɪt̬ɪŋ ˌruːm" }, "noteZh": "美国店员常说 The fitting room is over there.;tt 读成轻快的 d。" },
@@ -666,7 +666,7 @@
       "canDoZh": "能在店里问清楚价格和折扣,听懂\"打八折\"这类说法",
       "scenarioZh": "结账前,磊又看了牛仔裤、T 恤和运动鞋。他问 How much are these jeans?,店员说原价 60 美元,现在打折,20% off;外套 89.99 美元。艾米说 That's a good deal!;鞋太贵了,磊决定下次再买,只买了外套和一件 T 恤。",
       "grammarFocusZh": "How much is this? / How much are these?(单复数不同);jeans、pants、shoes 永远用复数,代词用 they / them;价格读法:$89.99 读作 eighty-nine ninety-nine;20% off = 减价 20% = 打八折。发音:fifteen 和 fifty、thirteen 和 thirty 靠重音区分——-teen 重音在后,-ty 重音在前。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "en.jeans", "kind": "word", "pos": "noun", "text": "jeans", "zh": "牛仔裤", "features": { "ipa": "dʒiːnz" }, "noteZh": "永远是复数:These jeans are nice.;一条牛仔裤 a pair of jeans。" },
         { "id": "en.pants", "kind": "word", "pos": "noun", "text": "pants", "zh": "裤子(长裤)", "features": { "ipa": "pænts" }, "noteZh": "美式 pants 是长裤,英式 pants 却是内裤!永远用复数。" },
@@ -686,7 +686,7 @@
       "canDoZh": "能拿着小票去商店,把有问题的东西退掉或换一件新的",
       "scenarioZh": "回到宿舍,磊发现外套的拉链坏了。第二天他带着小票回到店里:Hi, I'd like to return this jacket.;店员问 What's wrong with it?,磊说 It's broken.;店员问 Do you have the receipt?,磊说 Here it is.;店员问要退款还是换货,磊决定换一件新的。",
       "grammarFocusZh": "I'd like to + 动词原形(礼貌地说想做什么,比 I want to 客气);递东西时说 Here it is. / Here you go.;What's wrong with it? 问出了什么问题。发音:receipt 的 p 不发音 /rɪˈsiːt/;return 重音在后 re-TURN。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.id_like_to", "kind": "phrase", "pos": "phrase", "text": "I'd like to", "zh": "我想……(礼貌)", "alt": ["I would like to"], "features": { "ipa": "aɪd ˈlaɪk tə" }, "noteZh": "比 I want to 客气,在店里、办事时常用;后面跟动词原形:I'd like to return this.。" },
         { "id": "en.return", "kind": "word", "pos": "verb", "text": "return", "zh": "退货;归还", "features": { "ipa": "rɪˈtɝːn" }, "noteZh": "重音在后 re-TURN;美国很多商店一段时间内(常见 30 天)可以退货。" },
@@ -706,7 +706,7 @@
       "canDoZh": "能独立在商店里给家人挑礼物:问颜色和价格、比较、付款,并回答店员的问题",
       "scenarioZh": "下周是妈妈的生日,磊和索菲亚去商场给妈妈挑礼物。店员推荐围巾,他们比较了几条的颜色和价格;索菲亚说浅灰色那条很漂亮,磊问有没有打折,刷卡付款;店员问 Is it a gift?,磊说是给妈妈的生日礼物,要寄回中国。对话至少 12 句。",
       "grammarFocusZh": "复习 this one / that one、How much is…?、too + 形容词、I'd like to…、Do you have this in…?。发音:挑选时的选择疑问句前升后降——This one ↗ or that one ↘?",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.gift", "kind": "word", "pos": "noun", "text": "gift", "zh": "礼物", "alt": ["present"], "features": { "ipa": "ɡɪft" }, "noteZh": "也常说 present;店员问 Is it a gift? 常会帮你包装。" },
         { "id": "en.birthday", "kind": "word", "pos": "noun", "text": "birthday", "zh": "生日", "features": { "ipa": "ˈbɝːθdeɪ" }, "noteZh": "th 是清音 /θ/,舌尖放在齿间送气;Happy birthday!" },
@@ -721,7 +721,7 @@
       "canDoZh": "能和朋友聊爱好:说自己喜欢做什么、不喜欢做什么,再问回去",
       "scenarioZh": "咖啡馆不忙的时候,马库斯问磊 What do you do for fun?;磊说喜欢打篮球、拍照、听音乐;马库斯说他超爱弹吉他,有自己的乐队,还喜欢看老电影,但讨厌跑步。两人发现都爱听同一种音乐,马库斯说下次带他去看乐队演出。",
       "grammarFocusZh": "like / love / hate + 动词-ing:I like taking pictures. I hate running.;play + 球类(play basketball,不加 the),play the + 乐器(play the guitar)。发音:单词重音——gui-TAR(在后)、MU-sic、MO-vie(在前)。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.what_do_you_do_for_fun", "kind": "phrase", "pos": "phrase", "text": "What do you do for fun", "zh": "你平时喜欢做什么(消遣)?", "features": { "ipa": "ˌwʌt də jə ˌduː fɚ ˈfʌn" }, "noteZh": "美国人聊爱好最常这样问,比 What's your hobby? 自然得多。" },
         { "id": "en.fun", "kind": "word", "pos": "adj", "text": "fun", "zh": "好玩的;有意思的", "features": { "ipa": "fʌn" }, "noteZh": "fun 说活动好玩:Basketball is fun.;funny 是\"好笑的\",别混。" },
@@ -741,7 +741,7 @@
       "canDoZh": "能说出自己会什么、不会什么(比如\"我会做川菜,但不会游泳\"),也能问朋友会不会",
       "scenarioZh": "学校的\"国际学生之夜\"要办才艺表演和美食摊,艾米问大家会什么:索菲亚会跳舞也会唱歌,马库斯会弹吉他,磊不会唱也不会跳,但会做川菜,还会说中文和英语——他负责美食摊。伊森问磊会不会游泳,磊说不会,伊森约他去学校的室内游泳馆,说要教他。",
       "grammarFocusZh": "can / can't + 动词原形(能力):I can cook. I can't swim.;Can you…? — Yes, I can. / No, I can't.;well 修饰动词:She can dance very well.(不说 very good)。发音:美式 can 在句中弱读 /kən/,can't 重读 /kænt/(t 常常听不见),听的时候靠元音和重音分辨。",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.can", "kind": "word", "pos": "verb", "text": "can", "zh": "能;会", "features": { "ipa": "kæn" }, "noteZh": "句中通常弱读成 /kən/:I can swim 听起来像 \"I kn swim\";听到元音饱满、重读的,多半是 can't。" },
         { "id": "en.cant", "kind": "word", "pos": "verb", "text": "can't", "zh": "不能;不会", "alt": ["cannot", "can not", "cant"], "features": { "ipa": "kænt" }, "noteZh": "美式读 /kænt/,元音饱满、要重读;词尾 t 常常听不见。" },
@@ -762,7 +762,7 @@
       "canDoZh": "能约朋友一起做某事;没空时也能礼貌地拒绝,并改约下次",
       "scenarioZh": "伊森问磊今天下午要不要一起打篮球,磊说 Sounds good! I'm in.;接着艾米发消息问磊明天下午要不要一起去看电影,磊明天下午要打工,只好说 Sorry, I can't. I have to work. Thanks for asking! Maybe next time?;艾米说那就下个周末再约。",
       "grammarFocusZh": "Do you want to + 动词原形?(邀请);have to + 动词原形(说明必须做的事);宾语代词 me / you / him / her / us / them:Do you want to join us?。发音:want to 口语常读成 wanna,have to 读成 hafta(听得懂即可);邀请用升调,Sounds good! 用降调。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.do_you_want_to", "kind": "phrase", "pos": "phrase", "text": "Do you want to", "zh": "你想不想……?(邀请)", "features": { "ipa": "də jə ˈwɑːnt tə" }, "noteZh": "口语里常连读成 \"d'ya wanna\";后面接动词原形:Do you want to play basketball?" },
         { "id": "en.sounds_good", "kind": "phrase", "pos": "phrase", "text": "Sounds good", "zh": "好啊;听起来不错", "alt": ["Sounds great", "That sounds good"], "features": { "ipa": "ˌsaʊndz ˈɡʊd" }, "noteZh": "接受邀请、同意安排最常用的一句;sounds 词尾 /dz/ 要读出来。" },
@@ -782,7 +782,7 @@
       "canDoZh": "能说出自己这个周末的计划,比如\"我周六打算和朋友去爬山\"",
       "scenarioZh": "周四晚上,索菲亚问磊周末有什么计划。磊说周六打算和伊森、马库斯去山里徒步,看湖、拍照;周日待在宿舍休息、写作业,因为作业很多。索菲亚说她周六要打工,周日打算去湖边散步、拍照。",
       "grammarFocusZh": "be going to + 动词原形(已经打算好的事):I'm going to go hiking.;What are you going to do this weekend?;表示将来的时间:tomorrow、this weekend、next week。发音:going to 口语常读成 gonna(听懂即可,自己说 going to 也很好)。",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "en.going_to", "kind": "phrase", "pos": "verb", "text": "be going to", "zh": "打算;将要", "alt": ["going to", "gonna"], "features": { "ipa": "bi ˈɡoʊɪŋ tə" }, "noteZh": "be 要随人称变:I'm / she's / they're going to…;口语常读成 gonna。" },
         { "id": "en.plan", "kind": "word", "pos": "noun", "text": "plan", "zh": "计划;安排", "features": { "ipa": "plæn" }, "noteZh": "Do you have any plans this weekend? 这周末有什么安排?(常用复数 plans)" },
@@ -802,7 +802,7 @@
       "canDoZh": "能和朋友约好见面的时间和地点,比如\"周五七点半在剧院门口见\"",
       "scenarioZh": "马库斯的乐队周五晚上在市中心的一家剧院演出,送了磊几张票。磊在群聊里约艾米和索菲亚:演出 8 点开始,Let's meet at 7:30.;索菲亚问在哪儿见,艾米提议 How about in front of the theater?;大家确认后说 See you there!,磊提醒大家要准时,艾米说 I can't wait!",
       "grammarFocusZh": "Let's + 动词原形(提议一起做);How about + 名词 / 时间?(提建议);复习时间和地点介词:at 7:30、on Friday、in front of the theater。发音:句子语调——提建议的 How about seven? 用升调,确认的 See you there! 用降调。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.lets", "kind": "phrase", "pos": "phrase", "text": "Let's", "zh": "我们……吧", "features": { "ipa": "lets" }, "noteZh": "Let's + 动词原形:Let's meet at seven.;回应可以说 OK! / Sounds good!" },
         { "id": "en.meet", "kind": "word", "pos": "verb", "text": "meet", "zh": "见面;碰头", "features": { "ipa": "miːt" }, "noteZh": "Where do you want to meet? 在哪儿见?;meet 还有\"认识\"的意思(Nice to meet you)。" },
@@ -822,7 +822,7 @@
       "canDoZh": "能和朋友一起商量一次活动:谁去、穿什么、带什么、几点在哪儿集合",
       "scenarioZh": "艾米邀请大家周六去她家的万圣节派对。伊森问磊 What are you going to be?,磊说打算扮成大熊猫(成都特产);伊森要扮一个很吓人的角色,索菲亚会做墨西哥菜带过去,磊说他能带川菜;大家约好周六 7 点在宿舍楼前集合一起去。这是磊第一次过万圣节,又紧张又期待。对话至少 12 句。",
       "grammarFocusZh": "复习 like + -ing、can、Do you want to…?、be going to、Let's… / How about…?。发音:兴奋时语调起伏更大——It's going to be fun!(重音落在 fun 上)。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 23.5,
       "newItems": [
         { "id": "en.halloween", "kind": "word", "pos": "propn", "text": "Halloween", "zh": "万圣节", "features": { "ipa": "ˌhæloʊˈiːn" }, "noteZh": "10 月 31 日;重音在最后 Hal-lo-WEEN;常见活动是扮装(dress up)和要糖(trick-or-treat)。" },
         { "id": "en.costume", "kind": "word", "pos": "noun", "text": "costume", "zh": "(扮装用的)服装", "features": { "ipa": "ˈkɑːstuːm" }, "noteZh": "万圣节扮装:wear a costume;别和 custom(习俗)混。" },
@@ -837,7 +837,7 @@
       "canDoZh": "能回答\"你周末过得怎么样?\",说说当时在哪儿、天气和感受",
       "scenarioZh": "万圣节后的周一,劳拉在咖啡馆碰到来买咖啡的磊,问他 How was your weekend?;磊说派对棒极了,大家的服装都很吓人;马库斯说他的周末很无聊,一直在家,天气也不好;劳拉问 Where were you on Sunday?,磊说太累了,在宿舍睡了一整天。",
       "grammarFocusZh": "be 动词的过去式:I / he / she / it was,you / we / they were;否定 wasn't / weren't;How was…? 问感受;时间词 yesterday、last weekend。发音:was、were 在句中弱读 /wəz/、/wɚ/;回应别人时 Really? ↗ / That's great! ↘ 让对方知道你在认真听。",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "en.how_was_your_weekend", "kind": "phrase", "pos": "phrase", "text": "How was your weekend", "zh": "你周末过得怎么样?", "features": { "ipa": "ˌhaʊ wəz jɚ ˈwiːkend" }, "noteZh": "美国人周一见面几乎必问;回答 It was great! / Pretty good. / Not bad.。" },
         { "id": "en.last", "kind": "word", "pos": "adj", "text": "last", "zh": "上一个的;刚过去的", "features": { "ipa": "læst" }, "noteZh": "last weekend 上周末、last night 昨晚、last week 上周;前面不加 in / on。" },
@@ -857,7 +857,7 @@
       "canDoZh": "能说出自己上周末做了哪几件事,比如\"打扫了房间、和爸妈视频、看了一场比赛\"",
       "scenarioZh": "索菲亚和磊在图书馆门口碰到,互相问 What did you do last weekend?;磊说周六打扫了宿舍、和爸妈视频聊天,晚上和伊森看了一场篮球比赛;索菲亚说她参观了一个博物馆,还和妹妹们视频了;两人都说周日终于写完了作业。",
       "grammarFocusZh": "一般过去时(规则动词):动词 + -ed(cleaned、watched、visited、studied);问句 What did you do? / Did you…?,否定 didn't + 动词原形;时间词 two days ago、last weekend。发音:-ed 的三种读音——/t/(watched、talked)、/d/(cleaned、played)、/ɪd/(visited、wanted);中国人常把 -ed 读成单独的\"的\",或者干脆漏掉。",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.what_did_you_do", "kind": "phrase", "pos": "phrase", "text": "What did you do", "zh": "你(那时)做了什么?", "features": { "ipa": "ˌwʌt dɪdʒə ˈduː" }, "noteZh": "did you 连读成 \"di-ja\";What did you do last weekend? 你上周末干什么了?" },
         { "id": "en.clean", "kind": "word", "pos": "verb", "text": "clean", "zh": "打扫;清洁", "features": { "ipa": "kliːn" }, "noteZh": "clean my room 打扫房间;过去式 cleaned 读 /kliːnd/。" },
@@ -877,7 +877,7 @@
       "canDoZh": "能讲讲一次出游:去了哪儿、怎么去的、看到了什么、吃了什么",
       "scenarioZh": "第 7 单元计划的徒步因为下雨推迟,这个周六终于成行。周一艾米问磊徒步怎么样:磊说他们早上 6 点就起床,马库斯开车,开了两个小时到山里;走了 4 个小时,在湖边吃了自己做的三明治,景色美极了,拍了很多照片;回来的路上买了咖啡,晚上 9 点才回到学校。",
       "grammarFocusZh": "常用不规则动词的过去式:go → went、have → had、see → saw、take → took、get → got、make → made、buy → bought、drive → drove、come → came;Did you…? 后面用原形(Did you go?,不说 Did you went?)。发音:bought 的 gh 不发音 /bɑːt/。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.trip", "kind": "word", "pos": "noun", "text": "trip", "zh": "旅行;出行", "features": { "ipa": "trɪp" }, "noteZh": "a weekend trip 周末出游;去旅行 take a trip。" },
         { "id": "en.car", "kind": "word", "pos": "noun", "text": "car", "zh": "汽车", "features": { "ipa": "kɑːr" }, "noteZh": "美式卷舌 /kɑːr/;坐车去 by car、in his car。" },
@@ -896,7 +896,7 @@
       "canDoZh": "能在学校医务室告诉医生自己哪里不舒服、什么时候开始的,并听懂怎么吃药",
       "scenarioZh": "徒步淋了雨,磊感冒了。他去学校的健康中心,先在前台(receptionist)登记;医生(doctor)问 What's wrong? When did it start? Did you take any medicine?;磊说昨天开始头疼、嗓子疼,还有点发烧,还没吃药。医生说是感冒,让他多喝水、多休息,药一天吃两次。只写普通感冒这类轻症,不写具体药名和剂量。",
       "grammarFocusZh": "过去时的问句和简答:When did it start? Did you take any medicine? — No, I didn't.;说症状用 have a…:I have a headache / a fever / a sore throat;医嘱常用祈使句:Drink a lot of water. Get some rest.。发音:headache 重音在前 HEAD-ache,ache 读 /eɪk/;throat 开头是清音 th /θ/。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
       "newItems": [
         { "id": "en.dont_feel_well", "kind": "phrase", "pos": "phrase", "text": "I don't feel well", "zh": "我不太舒服", "alt": ["I do not feel well", "I don't feel good"], "features": { "ipa": "aɪ ˌdoʊnt ˌfiːl ˈwel" }, "noteZh": "比 I'm sick. 委婉;这里的 well 是\"身体好\"。" },
         { "id": "en.sick", "kind": "word", "pos": "adj", "text": "sick", "zh": "生病的", "features": { "ipa": "sɪk" }, "noteZh": "美式 I'm sick. 就是\"我病了\";英式的 sick 常指\"想吐\"。" },
@@ -918,7 +918,7 @@
       "canDoZh": "能按先后顺序讲一次难忘的经历;听别人讲时,会用 Really? / No way! 这类话回应",
       "scenarioZh": "感恩节假期后,伊森从加州回来,问磊感恩节过得怎么样。磊说艾米请他去她家:先帮艾米的家人做饭,然后一起吃火鸡和南瓜派;饭前每个人说自己感谢什么,磊说感谢在美国遇到的新朋友;最后大家一起看了橄榄球比赛。伊森边听边回应 Really? / No way!,还问磊吃了几块派。",
       "grammarFocusZh": "按顺序讲经历:First…, then…, after that…, finally…;复习规则和不规则动词的过去式(cooked、ate、said、watched)。发音:Thanksgiving 里的两个 th 都是清音 /θ/;听别人讲时用 Really? ↗ / No way! 表示你在认真听。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.thanksgiving", "kind": "word", "pos": "propn", "text": "Thanksgiving", "zh": "感恩节", "features": { "ipa": "ˌθæŋksˈɡɪvɪŋ" }, "noteZh": "11 月的第四个星期四,美国最重要的家庭节日之一;传统吃火鸡和南瓜派。" },
         { "id": "en.turkey", "kind": "word", "pos": "noun", "text": "turkey", "zh": "火鸡", "features": { "ipa": "ˈtɝːki" }, "noteZh": "首字母大写的 Turkey 是国名土耳其。" },
@@ -937,7 +937,7 @@
       "canDoZh": "能用一段话讲讲自己过去几个月的经历和变化:刚来时怎样、做了什么、现在怎样、接下来打算做什么",
       "scenarioZh": "学期末,磊在写作课上交的短文《My First Semester》(说话人用 lei):八月刚到西雅图时很紧张,不敢开口、听不懂别人说话;后来认识了艾米、伊森、索菲亚和马库斯,在咖啡馆打工,学会了点单、指路、买东西,还生过一次病;过了第一个万圣节和感恩节。最后写现在更自信了,下学期打算……(用 be going to)。至少 12 句,是整个 A1 的收尾。",
       "grammarFocusZh": "综合复习:一般过去时(was / were、规则和不规则动词)和一般现在时、be going to 对比使用;用 When I came here, I was… 把过去和现在连起来。发音:朗读整篇短文,注意 -ed 词尾、句子重音和停顿。",
-      "skills": ["read", "listen", "speak"], "estimatedMinutes": 12,
+      "skills": ["read", "listen", "speak"], "estimatedMinutes": 20.5,
       "newItems": [
         { "id": "en.semester", "kind": "word", "pos": "noun", "text": "semester", "zh": "学期", "features": { "ipa": "səˈmestɚ" }, "noteZh": "美国大学多数一年两个学期(秋季、春季);重音在中间 se-MES-ter。" },
         { "id": "en.nervous", "kind": "word", "pos": "adj", "text": "nervous", "zh": "紧张的", "features": { "ipa": "ˈnɝːvəs" }, "noteZh": "ner 卷舌,v 上齿碰下唇;I was nervous. 我当时很紧张。" },

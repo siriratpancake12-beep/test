@@ -263,7 +263,7 @@
       "canDoZh": "能给朋友看全家福,说出“这是我爸爸、我妈妈、我奶奶”",
       "scenarioZh": "午饭时浩在手机上给克洛艾看全家福。克洛艾指着照片问 C'est qui ?,浩一一介绍:爸爸、妈妈、爷爷、奶奶;克洛艾说她有一个哥哥和一个妹妹(法语不分哥哥弟弟)。",
       "grammarFocusZh": "主有形容词跟着后面名词的性和数变,和“我”是男是女无关:mon père, ma mère, mes frères;C'est qui ? / C'est + 人;le frère de Chloé(……的)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "fr.pere", "kind": "word", "pos": "noun", "text": "le père", "zh": "父亲;爸爸", "features": { "gender": "m", "ipa": "lə pɛʁ" }, "noteZh": "è 读开口的 [ɛ];口语叫爸爸是 papa。" },
         { "id": "fr.mere", "kind": "word", "pos": "noun", "text": "la mère", "zh": "母亲;妈妈", "features": { "gender": "f", "ipa": "la mɛʁ" }, "noteZh": "口语叫妈妈是 maman。" },
@@ -285,7 +285,7 @@
       "canDoZh": "能问别人几岁,说出自己和家人的年龄",
       "scenarioZh": "接着看照片,克洛艾问:Ton père a quel âge ?;浩说爸爸五十岁、妈妈四十八岁、自己二十岁;克洛艾说她哥哥二十三岁、妹妹十五岁。",
       "grammarFocusZh": "avoir 现在时:j'ai, tu as, il/elle a, nous avons, vous avez, ils ont(ils ont [il.zɔ̃] 和 ils sont [il.sɔ̃] 要分清);年龄用 avoir … ans,不用 être;21–69:vingt et un(21、31、41… 中间加 et),vingt-deux…;主有形容词 ton / ta / tes",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.avoir", "kind": "word", "pos": "verb", "text": "avoir", "zh": "有", "features": { "ipa": "a.vwaʁ" }, "noteZh": "不规则:j'ai, tu as, il a, nous avons, vous avez, ils ont;年龄、饿、渴都用 avoir:J'ai vingt ans." },
         { "id": "fr.an", "kind": "word", "pos": "noun", "text": "l'an", "zh": "年;岁", "features": { "gender": "m", "ipa": "lɑ̃" }, "noteZh": "元音开头,阳性;说年龄 ans 不能省:J'ai vingt ans;和数字联诵:deux ans [dø.zɑ̃]、vingt ans [vɛ̃.tɑ̃]。" },
@@ -307,7 +307,7 @@
       "canDoZh": "能说家人住在哪个城市、在不在工作、会说什么语言",
       "scenarioZh": "法语课上,莫罗老师让每个人介绍家人。浩说:我父母住在成都,他们都工作;我妈妈会说一点英语;我说中文和一点法语。克洛艾来课上当语伴,介绍她家:我们住在里昂。",
       "grammarFocusZh": "-er 动词现在时全部人称:je parle, tu parles, il parle, nous parlons, vous parlez, ils parlent(-e、-es、-ent 都不发音,六个形式只有三个读音);复数主语 nous、ils(男女混合也用 ils)、elles;habiter à + 城市;parler + 语言不加冠词(parler anglais)",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.habiter", "kind": "word", "pos": "verb", "text": "habiter", "zh": "住;居住", "features": { "ipa": "a.bi.te" }, "noteZh": "h 不发音,所以 je 要省音:j'habite;habiter à + 城市:J'habite à Lyon。" },
         { "id": "fr.travailler", "kind": "word", "pos": "verb", "text": "travailler", "zh": "工作", "features": { "ipa": "tʁa.va.je" }, "noteZh": "-ill- 读 [j]:je travaille [tʁa.vaj]。" },
@@ -329,7 +329,7 @@
       "canDoZh": "能说家人做什么工作,并问别人“你是做什么的?”",
       "scenarioZh": "浩和艾米莉在咖啡馆聊家人的工作:浩的爸爸是工程师,在成都的一家大公司;妈妈是医生,在医院工作;爷爷奶奶已经退休了。艾米莉的妈妈是老师。服务员卡里姆插话:Moi, je suis serveur… et étudiant !",
       "grammarFocusZh": "说职业不加冠词:Il est ingénieur.(不说 un ingénieur);用 c'est 时要加:C'est un ingénieur.;职业名词的阴阳性(professeur/professeure, serveur/serveuse);Qu'est-ce que tu fais dans la vie ?(整句记);国名带冠词:la Chine",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.ingenieur", "kind": "word", "pos": "noun", "text": "l'ingénieur", "zh": "工程师", "features": { "gender": "m", "ipa": "lɛ̃.ʒe.njœʁ" }, "noteZh": "元音开头,要记住是阳性;女工程师现在常写 l'ingénieure,读音一样。" },
         { "id": "fr.medecin", "kind": "word", "pos": "noun", "text": "le médecin", "zh": "医生", "features": { "gender": "m", "ipa": "lə med.sɛ̃" }, "noteZh": "中间的 e 几乎不读:[med.sɛ̃];女医生也可以说 le médecin(或 la médecin)。" },
@@ -351,7 +351,7 @@
       "canDoZh": "能用几个形容词描述朋友的样子和性格,比如“她个子高,人很好相处”",
       "scenarioZh": "周末浩给成都的表弟录了一段法语语音(练口语),介绍在里昂认识的新朋友:克洛艾个子高、人很好相处,她的哥哥很和善;卢卡个子不高,眼睛很大,很热心;艾米莉也很好,她的父母住在蒙特利尔。",
       "grammarFocusZh": "形容词跟名词的性数配合:阴性一般 +e(grand → grande,d 要读出来),复数 +s(不发音);大多数形容词放在名词后,grand、petit 放在名词前(un petit frère);son / sa / ses 跟后面名词的性数变:sa mère 既是“他的妈妈”也是“她的妈妈”",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.ami", "kind": "word", "pos": "noun", "text": "l'ami", "zh": "朋友(男)", "features": { "gender": "m", "ipa": "la.mi" }, "noteZh": "女性朋友是 l'amie,读音一样;“我的女性朋友”说 mon amie(元音前用 mon)。" },
         { "id": "fr.grand", "kind": "word", "pos": "adj", "text": "grand", "zh": "高的;大的(阳性)", "features": { "ipa": "gʁɑ̃" }, "noteZh": "阴性 grande [gʁɑ̃d],d 要读出来;un grand frère = 哥哥。" },
@@ -373,7 +373,7 @@
       "canDoZh": "能在朋友家做客:回答家人、年龄、职业的问题,礼貌地说“开动吧”“回头见”",
       "scenarioZh": "克洛艾请浩到家里吃周日午饭。克洛艾的妈妈伊莎贝尔用 vous 欢迎他,问他家里有几口人、有没有兄弟姐妹、父母做什么、几岁了;浩说自己是独生子。上菜时大家说 Bon appétit !;走的时候伊莎贝尔说 À bientôt, Hao !",
       "grammarFocusZh": "复习:avoir(年龄、兄弟姐妹)、主有形容词、职业不加冠词、形容词配合;Vous avez un frère ou une sœur ? 否定回答 Je n'ai pas de frère.(否定后 un/une → de)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 23.5,
       "newItems": [
         { "id": "fr.famille", "kind": "word", "pos": "noun", "text": "la famille", "zh": "家庭;家人", "features": { "gender": "f", "ipa": "la fa.mij" }, "noteZh": "-ille 读 [ij]。" },
         { "id": "fr.fils_unique", "kind": "phrase", "pos": "phrase", "text": "fils unique", "zh": "独生子", "features": { "ipa": "fis y.nik" }, "noteZh": "fils 的 l 不发音、s 要读:[fis];独生女是 fille unique。" },
@@ -389,7 +389,7 @@
       "canDoZh": "能给朋友介绍自己的宿舍房间里有什么家具、没有什么",
       "scenarioZh": "克洛艾第一次来宿舍找浩,浩带她看自己九平米的小房间:有一张床、一张书桌、一张桌子、一把椅子、一个衣柜、一扇窗户,书桌上有一台电脑和一盏台灯;克洛艾问“有没有沙发?”,浩笑着说房间太小,没有。",
       "grammarFocusZh": "il y a + un / une / des(单复数都用 il y a);复数不定冠词 des(des livres);否定 il n'y a pas de…(否定后 un/une/des 都变成 de)",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.il_y_a", "kind": "phrase", "pos": "phrase", "text": "il y a", "zh": "有(某处有某物)", "features": { "ipa": "il.ja" }, "noteZh": "表示存在,单复数都用 il y a:Il y a un lit. Il y a des livres.;否定 Il n'y a pas de…" },
         { "id": "fr.des", "kind": "word", "pos": "det", "text": "des", "zh": "一些(复数不定冠词)", "features": { "ipa": "de" }, "noteZh": "un/une 的复数;s 不发音,元音前联诵读 [z]:des amis [de.za.mi]。" },
@@ -411,7 +411,7 @@
       "canDoZh": "能问“我的钥匙在哪儿?”,并用“在桌子上/下面/旁边”回答",
       "scenarioZh": "早上快迟到了,浩找不到钥匙和包。卢卡在门口帮他找:Tes clés ? Sur le bureau ! Ton sac ? Sous la chaise !;浩的书在包里,包在床旁边。",
       "grammarFocusZh": "地点介词 sur, sous, dans, devant, derrière, à côté de;Où est… ? / Où sont… ?(单数 est,复数 sont);à côté de + le 要缩合成 du(à côté du lit),第 6 单元系统学",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.ou_lieu", "kind": "word", "pos": "adv", "text": "où", "zh": "哪里", "features": { "ipa": "u" }, "noteZh": "带重音符号的 où 是“哪里”;不带的 ou 是“或者”,读音一样。" },
         { "id": "fr.sur", "kind": "word", "pos": "prep", "text": "sur", "zh": "在……上面", "features": { "ipa": "syʁ" }, "noteZh": "u 读 [y]。" },
@@ -433,7 +433,7 @@
       "canDoZh": "能问宿舍的厨房、浴室、厕所在哪儿,听懂“在一楼、在二楼、在电梯对面”",
       "scenarioZh": "入住第二天,宿舍管理员带浩参观:公共厨房在地面层(rez-de-chaussée);浩的房间在 premier étage(中国说的二楼);每层都有浴室和厕所,在电梯对面。浩用 Est-ce qu'il y a… ? 问有没有电梯、厨房在哪儿。",
       "grammarFocusZh": "三种问句:语调(Il y a un ascenseur ?)、est-ce que(Est-ce qu'il y a un ascenseur ?)、倒装(只要求听懂);楼层:le rez-de-chaussée 是地面层(中国的一楼),le premier étage 是中国的二楼;序数词 premier/première,其他序数词 = 数字 + -ième",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.est_ce_que", "kind": "phrase", "pos": "phrase", "text": "Est-ce que… ?", "zh": "……吗?(一般疑问句开头)", "features": { "ipa": "ɛs.kə" }, "noteZh": "放在陈述句前面就变成问句,语序不变:Est-ce que tu es étudiant ?;元音前 est-ce qu'。" },
         { "id": "fr.cuisine", "kind": "word", "pos": "noun", "text": "la cuisine", "zh": "厨房;做饭", "features": { "gender": "f", "ipa": "la kɥi.zin" }, "noteZh": "两个意思:厨房,也指做饭、菜肴:faire la cuisine(做饭)。" },
@@ -454,7 +454,7 @@
       "canDoZh": "能介绍一套公寓有几个房间、各个房间怎么样,并夸主人的房子",
       "scenarioZh": "伊莎贝尔带浩参观她们家在红十字区的老公寓:一共四个房间,客厅很漂亮,厨房是新的,街区很安静;浩说 Votre appartement est très beau !;伊莎贝尔说:我们在乡下还有一栋带花园的房子。",
       "grammarFocusZh": "形容词位置:beau, nouveau, grand, petit 放在名词前,大多数形容词放在后面;beau / nouveau 的特殊形式:阴性 belle, nouvelle,元音开头的阳性名词前用 bel, nouvel(un bel appartement);主有形容词 notre / votre(复数 nos / vos;“他们的” leur 先认识)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.appartement", "kind": "word", "pos": "noun", "text": "l'appartement", "zh": "公寓;套房", "features": { "gender": "m", "ipa": "la.paʁ.tə.mɑ̃" }, "noteZh": "元音开头,要记住是阳性;两个 p。" },
         { "id": "fr.maison", "kind": "word", "pos": "noun", "text": "la maison", "zh": "房子;家", "features": { "gender": "f", "ipa": "la mɛ.zɔ̃" }, "noteZh": "两个元音之间的 s 读 [z];à la maison = 在家。" },
@@ -476,7 +476,7 @@
       "canDoZh": "能说出自己的地址和法国手机号,也能听懂别人报的号码并记下来",
       "scenarioZh": "艾米莉要把借的书送到宿舍,问浩的地址和手机号。浩说出宿舍的门牌号和街名,手机号 06 71 84 92 15 两位两位地读;艾米莉复述一遍,有一组听错了,浩纠正。",
       "grammarFocusZh": "70–99 的构成:70 = 60 + 10(soixante-dix),80 = 4 × 20(quatre-vingts),90 = 4 × 20 + 10(quatre-vingt-dix);法国电话号码两位一组地读(06 12… = zéro six, douze…);疑问形容词 quel / quelle(Quelle est ton adresse ?)",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.zero", "kind": "word", "pos": "num", "text": "zéro", "zh": "零", "features": { "ipa": "ze.ʁo" }, "noteZh": "电话号码开头的 0 要读出来:zéro six。" },
         { "id": "fr.soixante_dix", "kind": "word", "pos": "num", "text": "soixante-dix", "zh": "七十", "features": { "ipa": "swa.sɑ̃t.dis" }, "noteZh": "= 60 + 10;71 是 soixante et onze,72 是 soixante-douze。" },
@@ -498,7 +498,7 @@
       "canDoZh": "能写几句话介绍自己的住处:房间里有什么、在几楼、房租多少、邻居怎么样",
       "scenarioZh": "浩用法语给成都的爸妈写了一封邮件(爸妈用翻译软件看,他自己顺便练习):宿舍在哪条街,他的房间在 premier étage,房间里有什么,厨房在地面层;房租每月三百欧;邻居卢卡人很好;宿舍很安静。读完回答几个问题,再照着写自己的住处。",
       "grammarFocusZh": "复习:il y a / il n'y a pas de、地点介词、楼层、形容词的位置和配合;邮件用 Bonjour 开头、À bientôt 结尾",
-      "skills": ["read", "write"], "estimatedMinutes": 10,
+      "skills": ["read", "write"], "estimatedMinutes": 20.5,
       "newItems": [
         { "id": "fr.loyer", "kind": "word", "pos": "noun", "text": "le loyer", "zh": "房租", "features": { "gender": "m", "ipa": "lə lwa.je" }, "noteZh": "Le loyer est de trois cents euros par mois.(房租每月三百欧。)" },
         { "id": "fr.mois", "kind": "word", "pos": "noun", "text": "le mois", "zh": "月;月份", "features": { "gender": "m", "ipa": "lə mwa" }, "noteZh": "s 不发音,单复数同形;par mois = 每月。" },
@@ -514,7 +514,7 @@
       "canDoZh": "能问“现在几点?”,说出几点几分、几点半,知道课几点开始",
       "scenarioZh": "周一早上浩的手机没电了,在宿舍门口问卢卡:Il est quelle heure ?——Il est huit heures et quart.;法语课九点开始,浩一路跑过去,还是晚了五分钟,莫罗老师笑着说 Vous êtes en retard !",
       "grammarFocusZh": "说钟点:Il est + 数字 + heure(s);et quart(一刻)、et demie(半)、moins le quart(差一刻)、midi;正式场合用 24 小时制(14 h 30 = quatorze heures trente);在几点:à + 钟点(à neuf heures)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.heure", "kind": "word", "pos": "noun", "text": "l'heure", "zh": "小时;点钟", "features": { "gender": "f", "ipa": "lœʁ" }, "noteZh": "h 不发音,阴性:une heure;和数字联诵:deux heures [dø.zœʁ]、neuf heures [nœ.vœʁ]。" },
         { "id": "fr.quelle_heure", "kind": "phrase", "pos": "phrase", "text": "Il est quelle heure ?", "zh": "现在几点?", "features": { "ipa": "i.lɛ kɛ.lœʁ" }, "noteZh": "也说 Quelle heure est-il ?;回答 Il est … heure(s)。" },
@@ -536,7 +536,7 @@
       "canDoZh": "能看懂一周的课表,说出哪天、上午还是下午有课",
       "scenarioZh": "莫罗老师发下课表:周一到周五上午九点到十二点上法语课,周二和周四下午也有课,周三下午和周末没课。浩和克洛艾对着课表,找两人都有空的时间做语伴练习,最后定在每周三下午。",
       "grammarFocusZh": "星期都是阳性、小写;lundi(这个星期一)和 le lundi(每个星期一)的区别;le matin / l'après-midi / le soir;课表上常见 du lundi au vendredi(从周一到周五),只要求看懂、不放进课文(缩合第 6 单元学)",
-      "skills": ["listen", "read", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.lundi", "kind": "word", "pos": "noun", "text": "le lundi", "zh": "星期一;每周一", "features": { "gender": "m", "ipa": "lə lœ̃.di" }, "noteZh": "星期都是阳性、小写;只说 lundi = 这个星期一,le lundi = 每个星期一。" },
         { "id": "fr.mardi", "kind": "word", "pos": "noun", "text": "le mardi", "zh": "星期二;每周二", "features": { "gender": "m", "ipa": "lə maʁ.di" } },
@@ -558,7 +558,7 @@
       "canDoZh": "能按时间顺序说自己一天的安排:几点起床、吃饭、上课、睡觉",
       "scenarioZh": "卢卡和浩在公共厨房吃晚饭时聊作息:浩每天七点起床,先吃早饭,然后去上课,中午吃午饭,晚上十一点睡觉;卢卡每天起得很晚、睡得很晚,晚饭九点才吃。两人发现中国和法国吃饭的时间不一样。",
       "grammarFocusZh": "代词式动词 se lever / se coucher:je me lève, tu te lèves, il se lève, nous nous levons, vous vous levez, ils se lèvent(je m'appelle 也是这一类);按顺序说:d'abord… puis… après…;tous les jours、tard、tôt",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.se_lever", "kind": "word", "pos": "verb", "text": "se lever", "zh": "起床;站起来", "features": { "ipa": "sə lə.ve" }, "noteZh": "je me lève [lɛv]:后面的音节不发音时 e 变成 è;nous nous levons 不变。" },
         { "id": "fr.se_coucher", "kind": "word", "pos": "verb", "text": "se coucher", "zh": "上床睡觉", "features": { "ipa": "sə ku.ʃe" }, "noteZh": "je me couche;“睡着、睡觉的过程”是 dormir。" },
@@ -580,7 +580,7 @@
       "canDoZh": "能说自己平时在家做什么(做饭、采购、做作业、运动、打扫),多久做一次",
       "scenarioZh": "周六上午,卢卡敲门问浩今天做什么。浩说他先做作业,下午去采购,晚上做饭;卢卡说他周末经常运动、听音乐,打扫卫生总是拖到星期天晚上。最后两人约好:On fait la cuisine ensemble samedi soir ?",
       "grammarFocusZh": "faire 现在时:je fais, tu fais, il fait, nous faisons [fə.zɔ̃], vous faites, ils font;faire + 冠词:faire les courses, faire le ménage, faire du sport(du 是部分冠词);on = 我们(口语),动词用第三人称单数(on fait);频率副词 souvent 放在动词后",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.faire", "kind": "word", "pos": "verb", "text": "faire", "zh": "做;干", "features": { "ipa": "fɛʁ" }, "noteZh": "不规则:je fais, tu fais, il fait, nous faisons [fə.zɔ̃], vous faites, ils font。" },
         { "id": "fr.courses", "kind": "word", "pos": "noun", "text": "les courses", "zh": "采购;买东西", "features": { "gender": "f", "ipa": "le kuʁs" }, "noteZh": "faire les courses = 去买菜、买日用品;一般用复数(阴性)。" },
@@ -602,7 +602,7 @@
       "canDoZh": "能说出自己的生日,问和回答“今天几号?”",
       "scenarioZh": "语伴练习时,克洛艾问浩:C'est quand, ton anniversaire ?;浩的生日是 1 月 20 日,克洛艾的生日是 11 月 7 日,就在下个月!她又问 Quelle est la date aujourd'hui ?——10 月 23 日。两人在日历上数离克洛艾的生日还有几天。(其余六个月份第 6 单元学)",
       "grammarFocusZh": "日期:le + 数字 + 月份(le 20 janvier),每月一号用 le premier(le premier novembre);月份都是阳性、小写;en + 月份(en octobre);quand 问时间:C'est quand, ton anniversaire ?",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.septembre", "kind": "word", "pos": "propn", "text": "septembre", "zh": "九月", "features": { "ipa": "sɛp.tɑ̃bʁ" }, "noteZh": "p 要读出来;月份是阳性、小写,前面不加冠词:en septembre(在九月)。" },
         { "id": "fr.octobre", "kind": "word", "pos": "propn", "text": "octobre", "zh": "十月", "features": { "ipa": "ɔk.tɔbʁ" }, "noteZh": "月份是阳性、小写,前面不加冠词:en octobre,le 3 octobre。" },
@@ -624,7 +624,7 @@
       "canDoZh": "能邀请朋友、约好星期几和几点见面,也能接受或婉拒邀请",
       "scenarioZh": "下课后,克洛艾邀请浩和卢卡参加她 11 月 7 日星期六晚上八点半的生日聚会。浩问几点、在哪儿,说 D'accord !;卢卡那天晚上没空,说 Désolé, je ne suis pas libre…,但星期天可以;大家约好星期天下午一起喝咖啡。",
       "grammarFocusZh": "复习:日期、钟点、星期、on、faire;邀请和回答:Tu es libre samedi ? — Oui, d'accord ! / Désolé, je ne suis pas libre.(用 ne…pas 婉拒)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.libre", "kind": "word", "pos": "adj", "text": "libre", "zh": "有空的;自由的", "features": { "ipa": "libʁ" }, "noteZh": "Tu es libre samedi ?(你周六有空吗?)阴阳性同形。" },
         { "id": "fr.d_accord", "kind": "phrase", "pos": "phrase", "text": "D'accord !", "zh": "好的;同意", "features": { "ipa": "da.kɔʁ" }, "noteZh": "d 不发音;口语里也常简单说 OK。" },
@@ -640,7 +640,7 @@
       "canDoZh": "能说出城市里常去的地方,问“这一带有超市吗?”",
       "scenarioZh": "克洛艾带浩在宿舍周围转一圈:浩住的街上有一家超市,药店在超市旁边,银行在药店对面;邮局在广场上,旁边有一个小博物馆。浩问火车站在哪儿,克洛艾说就在大学旁边。浩一边走一边问 Est-ce qu'il y a… ?,最后说里昂是一座漂亮的城市。",
       "grammarFocusZh": "il y a + un / une + 地点(Il y a une pharmacie ?);名词的阴阳性:le musée(以 -ée 结尾却是阳性)、la place;为下一课的 à + 冠词缩合做准备",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "fr.ville", "kind": "word", "pos": "noun", "text": "la ville", "zh": "城市;市区", "features": { "gender": "f", "ipa": "la vil" }, "noteZh": "ll 在这里读 [l],不读 [j](和 famille 不同);en ville = 在市区。" },
         { "id": "fr.place", "kind": "word", "pos": "noun", "text": "la place", "zh": "广场;座位", "features": { "gender": "f", "ipa": "la plas" }, "noteZh": "两个意思:广场(la place Bellecour),也指座位。" },
@@ -661,7 +661,7 @@
       "canDoZh": "能说自己去哪儿、怎么去(步行、坐公交、坐地铁、骑车、开车)",
       "scenarioZh": "周六上午,浩在宿舍门口碰见卢卡和艾米莉:Tu vas où ?;浩去超市,走路去;卢卡去火车站,坐地铁;艾米莉去博物馆,骑自行车。卢卡问浩平时怎么去大学——坐公交。",
       "grammarFocusZh": "aller 现在时:je vais, tu vas, il va, nous allons, vous allez, ils vont;à + 定冠词的缩合:à + le → au(au supermarché),à + les → aux(aux toilettes),à la、à l' 不变;交通方式:en bus / en métro / en voiture,但 à pied / à vélo;comment 问方式",
-      "skills": ["listen", "speak", "write"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.aller", "kind": "word", "pos": "verb", "text": "aller", "zh": "去", "features": { "ipa": "a.le" }, "noteZh": "不规则:je vais, tu vas, il va, nous allons, vous allez, ils vont;Ça va 的 va 就是 aller。" },
         { "id": "fr.au", "kind": "word", "pos": "prep", "text": "au", "zh": "到;在(à + le)", "features": { "ipa": "o" }, "noteZh": "à + le 必须缩合成 au:Je vais au supermarché.(不能说 à le)" },
@@ -683,7 +683,7 @@
       "canDoZh": "能在街上向路人问路,听懂“一直走、在第一条街左转、穿过广场”这样的指路",
       "scenarioZh": "浩在市中心迷路了,想去博物馆。他说 Excusez-moi, madame…,问一位路人;路人告诉他:一直走,在第一条街左转,穿过广场,博物馆在银行对面。浩没听清,说 Pardon ?,路人再说一遍;浩问远不远,路人说不远,很近。",
       "grammarFocusZh": "命令式(vous 形式):直接用 vous 的变位、去掉 vous:Tournez à gauche. Continuez tout droit. Traversez la place.;tu 形式:-er 动词去掉 -s(Tourne à gauche !);loin de / près de;不要混淆 tout droit(直走)和 à droite(右转)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.excusez_moi", "kind": "phrase", "pos": "phrase", "text": "Excusez-moi.", "zh": "打扰一下;劳驾(礼貌)", "features": { "ipa": "ɛk.sky.ze.mwa" }, "noteZh": "问路、请人让路时的开头;熟人之间说 Excuse-moi。" },
         { "id": "fr.pardon", "kind": "word", "pos": "interj", "text": "Pardon ?", "zh": "什么?(没听清时);不好意思", "features": { "ipa": "paʁ.dɔ̃" }, "noteZh": "没听清时升调说 Pardon ?;不小心碰到别人时说 Pardon !" },
@@ -705,7 +705,7 @@
       "canDoZh": "能在地铁站买票,问清楚坐哪条线、往哪个方向、在哪站换乘、要坐多久",
       "scenarioZh": "艾米莉要去火车站,浩陪她坐地铁。在地铁站,他们先买两张票,然后看线路图:先坐 A 线,在某一站换 B 线,到火车站那站下车。艾米莉问要多长时间,浩说十五分钟。出站后她还要坐一段公交,浩告诉她车站就在旁边。",
       "grammarFocusZh": "prendre 现在时:je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent(单数三个读音一样,ils prennent 读 [pʁɛn]);prendre le métro / la ligne A;-re 动词 descendre:je descends, il descend(d 不发音);combien de temps 问多久",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.prendre", "kind": "word", "pos": "verb", "text": "prendre", "zh": "拿;乘坐;吃(点单)", "features": { "ipa": "pʁɑ̃dʁ" }, "noteZh": "不规则:je prends, tu prends, il prend, nous prenons, vous prenez, ils prennent [pʁɛn];prendre le métro = 坐地铁。" },
         { "id": "fr.ticket", "kind": "word", "pos": "noun", "text": "le ticket", "zh": "(地铁、公交)票", "features": { "gender": "m", "ipa": "lə ti.kɛ" }, "noteZh": "地铁、公交的票叫 ticket,火车票、机票叫 billet;t 不发音。" },
@@ -726,7 +726,7 @@
       "canDoZh": "能在火车站窗口买一张某天去巴黎的往返票,并说清出发和回来的日期、时间",
       "scenarioZh": "浩打算四月春假去巴黎玩几天,提前在火车站售票窗口买票:4 月 18 日上午出发,4 月 22 日回来;售票员问单程还是往返、要几点的火车,报出票价。回宿舍后浩告诉卢卡:Je vais partir le 18 avril !;卢卡说他七月也要去巴黎。",
       "grammarFocusZh": "近将来时 aller + 动词原形:Je vais partir le 18 avril. On va prendre le train.(马上要做或打算做的事);日期复习 + 三月到八月;partir 现在时:je pars, tu pars, il part, nous partons;火车时刻用 24 小时制",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.mars", "kind": "word", "pos": "propn", "text": "mars", "zh": "三月", "features": { "ipa": "maʁs" }, "noteZh": "s 要读出来;月份是阳性、小写:en mars,le 3 mars。" },
         { "id": "fr.avril", "kind": "word", "pos": "propn", "text": "avril", "zh": "四月", "features": { "ipa": "a.vʁil" }, "noteZh": "l 要读出来;月份是阳性、小写:en avril,le 18 avril。" },
@@ -748,7 +748,7 @@
       "canDoZh": "能带朋友逛城市:说要去哪儿、怎么去、坐几号线,并介绍自己从哪儿来",
       "scenarioZh": "周日,浩带艾米莉逛里昂老城。路上两人聊各自从哪儿来:艾米莉来自加拿大,浩来自中国,两人都觉得法国的面包很好吃。他们先坐地铁,下车后浩给她指路(左转、一直走、过广场),最后计划下午要去博物馆。三个月前还不会说 Bonjour 的浩,现在成了“里昂通”。",
       "grammarFocusZh": "venir 现在时:je viens, tu viens, il vient, nous venons, vous venez, ils viennent;venir de + 地方,和冠词缩合:de + le → du(Je viens du Canada),de + les → des,de la、de l' 不变;国家前的介词:阴性国家 en / de(en France, de Chine),阳性国家 au / du(au Canada, du Canada)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.venir", "kind": "word", "pos": "verb", "text": "venir", "zh": "来", "features": { "ipa": "və.niʁ" }, "noteZh": "不规则:je viens, tu viens, il vient, nous venons, vous venez, ils viennent;venir de = 从……来:Je viens de Chine。" },
         { "id": "fr.france", "kind": "word", "pos": "noun", "text": "la France", "zh": "法国", "features": { "gender": "f", "ipa": "la fʁɑ̃s" }, "noteZh": "国名大写、有阴阳性;在法国 en France,来自法国 de France。" },
@@ -764,7 +764,7 @@
       "canDoZh": "能在菜市场买一公斤苹果、两公斤土豆,听懂“还要别的吗?”并说“就这些”",
       "scenarioZh": "周日上午,伊莎贝尔带浩去红十字区的露天菜市场。浩向摊主买一公斤苹果、两公斤土豆;摊主问 Et avec ceci ?,浩又要了一瓶橙汁,然后说 C'est tout, merci.;一共七欧五十。伊莎贝尔说:这里的水果和蔬菜比超市好。从这一课起,伊莎贝尔和浩改用 tu。",
       "grammarFocusZh": "数量词 + de(元音前 d'),后面不加冠词:un kilo de pommes, une bouteille d'eau;和部分冠词对比:du jus(一些果汁)/ une bouteille de jus(一瓶果汁);acheter 的变位:j'achète, nous achetons",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.marche", "kind": "word", "pos": "noun", "text": "le marché", "zh": "市场;集市", "features": { "gender": "m", "ipa": "lə maʁ.ʃe" }, "noteZh": "法国城市每周固定几天有露天市场。" },
         { "id": "fr.fruit", "kind": "word", "pos": "noun", "text": "le fruit", "zh": "水果", "features": { "gender": "m", "ipa": "lə fʁɥi" }, "noteZh": "t 不发音;ui 读 [ɥi]。" },
@@ -786,7 +786,7 @@
       "canDoZh": "能说出常见的衣服和颜色,描述自己想买什么样的衣服",
       "scenarioZh": "十一月里昂冷了,浩只带了 T 恤,克洛艾陪他去买冬天的衣服。在商店里,浩说想要一件黑色的大衣、一件蓝色的毛衣和一条裤子;克洛艾喜欢一双白色的鞋,说红色的太显眼。",
       "grammarFocusZh": "颜色形容词放在名词后面,要和名词配合:un manteau noir, des chaussures noires, des chaussures blanches;blanc → blanche 不规则;rouge 这类以 -e 结尾的阴阳性同形;一条裤子用单数 un pantalon",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.vetement", "kind": "word", "pos": "noun", "text": "le vêtement", "zh": "衣服(一件)", "features": { "gender": "m", "ipa": "lə vɛt.mɑ̃" }, "noteZh": "说“衣服”一般用复数 les vêtements;ê 读 [ɛ]。" },
         { "id": "fr.manteau", "kind": "word", "pos": "noun", "text": "le manteau", "zh": "大衣;外套", "features": { "gender": "m", "ipa": "lə mɑ̃.to" }, "noteZh": "复数 manteaux。" },
@@ -808,7 +808,7 @@
       "canDoZh": "能在服装店说要试哪件、问有没有别的尺码、问价格,并用卡付钱",
       "scenarioZh": "接上一课。浩看中一件绿色的毛衣:Je peux essayer ce pull ?;店员带他去试,太小了,他问 Vous avez ce pull en L ?;L 号的绿色毛衣太贵,他最后买了蓝色的,问 Je peux payer par carte ?",
       "grammarFocusZh": "指示形容词:ce(阳性)、cet(元音开头的阳性:cet appartement)、cette(阴性)、ces(复数);trop + 形容词(trop petit, trop cher);pouvoir + 动词原形礼貌地请求:Je peux essayer ce pull ? Je peux payer par carte ?(je peux, tu peux, il peut, nous pouvons, vous pouvez, ils peuvent)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.ce", "kind": "word", "pos": "det", "text": "ce", "zh": "这个;那个(阳性)", "features": { "ipa": "sə" }, "noteZh": "元音开头的阳性名词前变成 cet:cet appartement。" },
         { "id": "fr.cette", "kind": "word", "pos": "det", "text": "cette", "zh": "这个;那个(阴性)", "features": { "ipa": "sɛt" }, "noteZh": "cet 和 cette 读音一样。" },
@@ -830,7 +830,7 @@
       "canDoZh": "能在银行说明来意(开户、办银行卡),并说出表格上的姓、名、出生日期和地址",
       "scenarioZh": "浩需要一个法国银行账户来付房租。他到银行说 Je voudrais ouvrir un compte.;银行顾问请他坐下填表:姓(nom)、名(prénom)、出生日期(2006 年 1 月 20 日)、地址、手机号;最后请他签字,说一周后可以来拿银行卡。",
       "grammarFocusZh": "vouloir:je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent(Je voudrais 更客气);复习 pouvoir(Vous pouvez… ? 请对方做事);两者后面都接动词原形:Je voudrais ouvrir un compte. Vous pouvez signer ici ?;年份:2006 = deux mille six;法国表格上 nom 是姓、prénom 是名,日期按 日/月/年 写",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "fr.vouloir", "kind": "word", "pos": "verb", "text": "vouloir", "zh": "想要", "features": { "ipa": "vu.lwaʁ" }, "noteZh": "je veux, tu veux, il veut, nous voulons, vous voulez, ils veulent;请别人做事时 Je voudrais 更礼貌。" },
         { "id": "fr.ouvrir", "kind": "word", "pos": "verb", "text": "ouvrir", "zh": "打开;开(账户、店门)", "features": { "ipa": "u.vʁiʁ" }, "noteZh": "以 -ir 结尾,但变位像 -er 动词:j'ouvre, tu ouvres, il ouvre。" },
@@ -851,7 +851,7 @@
       "canDoZh": "能打电话预约(理发、看医生等),说出想约的日子和时间,并确认",
       "scenarioZh": "卢卡看浩的头发长了,说 Il faut aller chez le coiffeur !浩给宿舍附近的理发店打电话:Allô, bonjour ! Je voudrais prendre rendez-vous.;理发师问明天行不行,浩说明天下午他得去上课(je dois aller en cours);最后约在下周二 17:30,浩确认:cinq heures et demie。",
       "grammarFocusZh": "devoir + 动词原形(必须;应该):je dois, tu dois, il doit, nous devons, vous devez, ils doivent;il faut + 动词原形(必须,不分人称);电话用语:Allô ? / Je voudrais prendre rendez-vous. / C'est possible ?;chez + 人(chez le coiffeur = 在理发店);la semaine prochaine, mardi prochain",
-      "skills": ["listen", "speak"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.allo", "kind": "word", "pos": "interj", "text": "Allô ?", "zh": "喂?(打电话)", "features": { "ipa": "a.lo" }, "noteZh": "只在电话里用;ô 上有长音符。" },
         { "id": "fr.rendez_vous", "kind": "word", "pos": "noun", "text": "le rendez-vous", "zh": "预约;约会", "features": { "gender": "m", "ipa": "lə ʁɑ̃.de.vu" }, "noteZh": "z 不发音;prendre rendez-vous = 预约。" },
@@ -873,7 +873,7 @@
       "canDoZh": "能读懂一段购物经历(在哪儿买、买了什么、什么颜色、多少钱),并照着写自己的",
       "scenarioZh": "今天是星期六,克洛艾的生日聚会就在今晚。短文用现在时讲浩的一天(复合过去时第 8 单元才学):上午他去银行拿银行卡;中午他和卢卡去商店给克洛艾挑礼物,黑色的包太贵,他们选了一个红色的,两人一起付钱;下午他去菜市场买水果。读完回答问题:礼物是什么、什么颜色、多少钱、谁付的钱。",
       "grammarFocusZh": "复习:ce / cette / ces、颜色配合、trop、vouloir / pouvoir、payer par carte、数量词 + de;pour + 人(un cadeau pour Chloé);-ir 动词 choisir:je choisis, nous choisissons",
-      "skills": ["read", "write"], "estimatedMinutes": 10,
+      "skills": ["read", "write"], "estimatedMinutes": 20.5,
       "newItems": [
         { "id": "fr.cadeau", "kind": "word", "pos": "noun", "text": "le cadeau", "zh": "礼物", "features": { "gender": "m", "ipa": "lə ka.do" }, "noteZh": "复数 cadeaux。" },
         { "id": "fr.pour", "kind": "word", "pos": "prep", "text": "pour", "zh": "为了;给", "features": { "ipa": "puʁ" }, "noteZh": "un cadeau pour Chloé(给克洛艾的礼物);pour + 动词原形 = 为了做……" },
@@ -889,7 +889,7 @@
       "canDoZh": "能说自己哪儿不舒服,比如“我头疼、嗓子疼、肚子疼”",
       "scenarioZh": "十二月,里昂又冷又湿,浩病了。早上卢卡来叫他吃早饭,浩说:Je suis malade. J'ai mal à la tête et à la gorge.;卢卡问他还有哪儿疼——背也疼,腿也没力气;卢卡说:Il faut aller chez le médecin !",
       "grammarFocusZh": "avoir mal à + 定冠词,注意缩合:à la tête, à la gorge, au ventre(à + le),au dos,aux dents(à + les);说身体部位用定冠词,不用 mon / ma:J'ai mal à la tête(不说 à ma tête)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24,
       "newItems": [
         { "id": "fr.avoir_mal_a", "kind": "phrase", "pos": "phrase", "text": "avoir mal à…", "zh": "……疼", "features": { "ipa": "a.vwaʁ mal a" }, "noteZh": "J'ai mal à la tête.(我头疼);à + le → au:J'ai mal au ventre.;à + les → aux:J'ai mal aux dents." },
         { "id": "fr.malade", "kind": "word", "pos": "adj", "text": "malade", "zh": "生病的", "features": { "ipa": "ma.lad" }, "noteZh": "阴阳性同形;Je suis malade.(我病了。)" },
@@ -910,7 +910,7 @@
       "canDoZh": "能向医生说清楚哪儿不舒服、发烧几天了,听懂“这个药一天吃三次”",
       "scenarioZh": "浩去宿舍附近的诊所看医生。医生问他哪儿不舒服、从什么时候开始;浩说他发烧、咳嗽,头疼两天了。医生说是感冒,不严重(Ce n'est pas grave.),开了处方:Prenez ce médicament trois fois par jour, buvez beaucoup d'eau et reposez-vous.;浩拿着处方去药店。",
       "grammarFocusZh": "医生用的命令式:Prenez…, Buvez…, Reposez-vous !(代词式动词的命令式,代词放在动词后面);depuis + 时间:J'ai de la fièvre depuis deux jours.(法语用现在时);次数:trois fois par jour",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.fievre", "kind": "word", "pos": "noun", "text": "la fièvre", "zh": "发烧", "features": { "gender": "f", "ipa": "la fjɛvʁ" }, "noteZh": "J'ai de la fièvre.(我发烧了)用部分冠词。" },
         { "id": "fr.rhume", "kind": "word", "pos": "noun", "text": "le rhume", "zh": "感冒", "features": { "gender": "m", "ipa": "lə ʁym" }, "noteZh": "h 不发音;J'ai un rhume.(我感冒了。)" },
@@ -932,7 +932,7 @@
       "canDoZh": "能说今天天气怎么样,比较里昂、蒙特利尔和自己家乡不同季节的天气",
       "scenarioZh": "病好以后,浩和艾米莉在咖啡馆聊天气:里昂今天下雨,很冷;艾米莉说蒙特利尔冬天常常下雪,特别冷,夏天却很热;浩说成都夏天很热,冬天不太冷,春天和秋天天气最好。",
       "grammarFocusZh": "天气用无人称的 il(这里的 il 不指人):Il fait beau / chaud / froid. Il pleut. Il neige.;Quel temps fait-il ?(天气怎么样?);季节:au printemps,但 en été, en automne, en hiver(元音开头用 en)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 10,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.temps", "kind": "word", "pos": "noun", "text": "le temps", "zh": "天气;时间", "features": { "gender": "m", "ipa": "lə tɑ̃" }, "noteZh": "p 和 s 都不发音;Quel temps fait-il ? 里的 temps 是天气,combien de temps 里的是时间。" },
         { "id": "fr.il_fait_beau", "kind": "phrase", "pos": "phrase", "text": "Il fait beau.", "zh": "天气很好", "features": { "ipa": "il fɛ bo" }, "noteZh": "天气用 il fait + 形容词:Il fait chaud. Il fait froid." },
@@ -954,7 +954,7 @@
       "canDoZh": "能说自己的爱好(运动、音乐、看书、看电影),并用 parce que 简单说为什么喜欢",
       "scenarioZh": "星期三下午,莫罗老师在语言中心组织语伴交流活动(tandem),法国学生卢卡和克洛艾来陪留学生练口语。老师请大家介绍自己的爱好:浩喜欢打篮球和做饭;克洛艾弹吉他,也爱看书;卢卡每周踢两次足球,也爱游泳。老师问 Pourquoi ?,卢卡用 parce que 回答,把大家逗笑了;最后克洛艾约大家晚上去看电影。",
       "grammarFocusZh": "jouer à + 球类(和冠词缩合):jouer au foot, jouer au basket;jouer de + 乐器:jouer de la guitare;aimer / adorer + 动词原形:J'aime nager.;Pourquoi ? — Parce que…",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 11,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.jouer", "kind": "word", "pos": "verb", "text": "jouer", "zh": "玩;打(球);弹(乐器)", "features": { "ipa": "ʒwe" }, "noteZh": "jouer au basket(打篮球),jouer de la guitare(弹吉他)。" },
         { "id": "fr.foot", "kind": "word", "pos": "noun", "text": "le foot", "zh": "足球", "features": { "gender": "m", "ipa": "lə fut" }, "noteZh": "football 的口语说法;oo 读 [u],t 要读出来。" },
@@ -976,7 +976,7 @@
       "canDoZh": "能用几句话说上周末做了什么、去了哪儿、怎么样",
       "scenarioZh": "星期一下午,莫罗老师组织的语伴活动上(这次来帮忙的是艾米莉),老师问大家周末做了什么。浩说:星期六我参观了一个博物馆,晚上和卢卡看了一部电影;星期天我待在家里,做了作业。艾米莉说她坐火车去了安纳西,昨天晚上很晚才回来。老师问 C'était bien ?——C'était super !",
       "grammarFocusZh": "复合过去时 = avoir 的现在时 + 过去分词:-er 动词的过去分词是 -é(j'ai visité, j'ai regardé);常见不规则过去分词:fait, pris, vu, lu, bu;少数表示移动、变化的动词用 être(aller, venir, partir, rester, rentrer):je suis allé(e),过去分词和主语配合;否定:Je n'ai pas vu le film.;时间词 hier、le week-end dernier",
-      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "fr.week_end", "kind": "word", "pos": "noun", "text": "le week-end", "zh": "周末", "features": { "gender": "m", "ipa": "lə wi.kɛnd" }, "noteZh": "有连字符;ce week-end(这个周末),le week-end dernier(上个周末)。" },
         { "id": "fr.hier", "kind": "word", "pos": "adv", "text": "hier", "zh": "昨天", "features": { "ipa": "jɛʁ" }, "noteZh": "h 不发音,读一个音节 [jɛʁ]。" },
@@ -998,7 +998,7 @@
       "canDoZh": "能和朋友聊上周末做了什么、接下来打算做什么,以及那边天气怎么样",
       "scenarioZh": "学期快结束了。星期五下午,浩、克洛艾、卢卡、艾米莉在第 2 课那家咖啡馆见面,卡里姆给他们点单。浩说上周末他病了,在家休息;克洛艾说她去看了一部电影;艾米莉说寒假要去山里滑雪,那里会下雪;卢卡要回家看父母;浩说寒假他要去旅行(Je vais faire un voyage.),艾米莉问他去哪个国家(Quel pays ?)。这一课是 A1 的收尾,对话复现八个单元的高频词。",
       "grammarFocusZh": "复习:复合过去时(上周末做了什么)和近将来时 aller + 动词原形(假期要做什么)对比;天气、爱好、faire du ski;时间词 hier / demain / le week-end dernier / ce week-end",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 12,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "fr.ski", "kind": "word", "pos": "noun", "text": "le ski", "zh": "滑雪", "features": { "gender": "m", "ipa": "lə ski" }, "noteZh": "faire du ski = 去滑雪。" },
         { "id": "fr.montagne", "kind": "word", "pos": "noun", "text": "la montagne", "zh": "山;山区", "features": { "gender": "f", "ipa": "la mɔ̃.taɲ" }, "noteZh": "gn 读 [ɲ];aller à la montagne = 去山里(度假)。" },
