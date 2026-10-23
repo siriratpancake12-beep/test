@@ -12,22 +12,22 @@
   "reviewItems": ["de.umsteigen", "de.fahren", "de.mit", "de.minute"],
   "lines": [
     { "speaker": "narrator", "text": "Sofia fliegt am Samstag nach Hause, nach Italien.", "zh": "星期六索菲娅要坐飞机回家——回意大利。", "items": ["de.fliegen", "de.am", "de.samstag", "de.nach_hause", "de.nach", "de.italien"] },
-    { "speaker": "narrator", "text": "Wei schreibt: Um halb zehn gehst du zu Fuß zur U-Bahn.", "zh": "王伟在群里写道:九点半你走路去地铁站。", "items": ["de.schreiben", "de.um", "de.halb", "de.zehn", "de.gehen", "de.du", "de.zu_fuss", "de.zu", "de.u_bahn"] },
-    { "speaker": "narrator", "text": "Du fährst mit der U-Bahn zum Bahnhof Neukölln.", "zh": "你坐地铁到 Neukölln 站。", "items": ["de.du", "de.fahren", "de.mit", "de.u_bahn", "de.zu", "de.bahnhof"] },
-    { "speaker": "narrator", "text": "Da steigst du in die S-Bahn zum Flughafen um.", "zh": "在那儿换乘去机场的城铁。", "items": ["de.da", "de.umsteigen", "de.du", "de.in", "de.s_bahn", "de.zu", "de.flughafen"] },
-    { "speaker": "narrator", "text": "Die S-Bahn braucht dreißig Minuten. Gute Reise!", "zh": "城铁要坐三十分钟。一路顺风!", "items": ["de.s_bahn", "de.brauchen", "de.dreissig", "de.minute", "de.gut", "de.reise"] },
-    { "speaker": "narrator", "text": "Jonas schreibt: Oder ich fahre dich mit dem Auto!", "zh": "约纳斯回复:要不我开车送你!", "items": ["de.schreiben", "de.oder", "de.ich", "de.fahren", "de.du", "de.mit", "de.auto"] },
-    { "speaker": "narrator", "text": "Sofia schreibt: Danke! Ich fahre gern mit Jonas.", "zh": "索菲娅回复:谢谢!我愿意坐约纳斯的车去。", "items": ["de.schreiben", "de.danke", "de.ich", "de.fahren", "de.gern", "de.mit"] },
-    { "speaker": "narrator", "text": "Am 6. Januar fliege ich nach Berlin.", "zh": "1 月 6 日我飞回柏林。", "items": ["de.am", "de.sechs", "de.januar", "de.fliegen", "de.ich", "de.nach"] },
-    { "speaker": "narrator", "text": "Und du, Wei? Fliegst du nach China?", "zh": "你呢,伟?你回中国吗?", "items": ["de.und", "de.du", "de.fliegen", "de.nach", "de.china"] },
-    { "speaker": "narrator", "text": "Wei schreibt: Nein, ich bin zu Hause in Berlin.", "zh": "王伟回复:不回,我就在柏林的家里过。", "items": ["de.schreiben", "de.nein", "de.ich", "de.sein", "de.zu_hause", "de.in"] },
-    { "speaker": "narrator", "text": "Am 24. Dezember lade ich Herrn Hoffmann ein.", "zh": "12 月 24 日(平安夜)我请霍夫曼先生来家里。", "items": ["de.am", "de.vier", "de.und", "de.zwanzig", "de.dezember", "de.einladen", "de.ich", "de.herr"] },
-    { "speaker": "narrator", "text": "Wir kochen und essen zusammen.", "zh": "我们一起做饭、一起吃饭。", "items": ["de.wir", "de.kochen", "de.und", "de.essen", "de.zusammen"] }
+    { "speaker": "wei", "text": "Hallo Sofia! Um halb zehn gehst du zu Fuß zur U-Bahn.", "zh": "索菲娅你好!九点半你走路去地铁站。", "items": ["de.hallo", "de.um", "de.halb", "de.zehn", "de.gehen", "de.du", "de.zu_fuss", "de.zu", "de.u_bahn"] },
+    { "speaker": "wei", "text": "Du fährst mit der U-Bahn zum Bahnhof Neukölln.", "zh": "你坐地铁到 Neukölln 站。", "items": ["de.du", "de.fahren", "de.mit", "de.u_bahn", "de.zu", "de.bahnhof"] },
+    { "speaker": "wei", "text": "Da steigst du in die S-Bahn zum Flughafen um.", "zh": "在那儿换乘去机场的城铁。", "items": ["de.da", "de.umsteigen", "de.du", "de.in", "de.s_bahn", "de.zu", "de.flughafen"] },
+    { "speaker": "wei", "text": "Die S-Bahn braucht dreißig Minuten. Gute Reise! Dein Wei", "zh": "城铁要坐三十分钟。一路顺风!王伟", "items": ["de.s_bahn", "de.brauchen", "de.dreissig", "de.minute", "de.gut", "de.reise", "de.dein"] },
+    { "speaker": "jonas", "text": "Oder ich fahre dich mit dem Auto, Sofia!", "zh": "要不我开车送你吧,索菲娅!", "items": ["de.oder", "de.ich", "de.fahren", "de.du", "de.mit", "de.auto"] },
+    { "speaker": "sofia", "text": "Danke, Jonas! Ich fahre gern mit dir.", "zh": "谢谢你,约纳斯!那我就坐你的车去。", "items": ["de.danke", "de.ich", "de.fahren", "de.gern", "de.mit", "de.du"] },
+    { "speaker": "sofia", "text": "Am 6. Januar fliege ich nach Berlin.", "zh": "1 月 6 日我飞回柏林。", "items": ["de.am", "de.sechs", "de.januar", "de.fliegen", "de.ich", "de.nach"] },
+    { "speaker": "sofia", "text": "Und du, Wei? Fliegst du nach China?", "zh": "你呢,王伟?你回中国吗?", "items": ["de.und", "de.du", "de.fliegen", "de.nach", "de.china"] },
+    { "speaker": "wei", "text": "Nein, ich bin zu Hause in Berlin.", "zh": "不回,我就在柏林的家里过。", "items": ["de.nein", "de.ich", "de.sein", "de.zu_hause", "de.in"] },
+    { "speaker": "wei", "text": "Am 24. Dezember lade ich Herrn Hoffmann ein.", "zh": "12 月 24 日(平安夜)我请霍夫曼先生来家里。", "items": ["de.am", "de.vier", "de.und", "de.zwanzig", "de.dezember", "de.einladen", "de.ich", "de.herr"] },
+    { "speaker": "wei", "text": "Wir kochen und essen zusammen.", "zh": "我们一起做饭、一起吃饭。", "items": ["de.wir", "de.kochen", "de.und", "de.essen", "de.zusammen"] }
   ],
   "questions": [
     { "prompt": "按王伟写的路线,索菲娅在哪儿换乘城铁?", "options": ["在机场", "在 Neukölln 火车站", "在大学"], "answer": 1, "explainZh": "王伟写:Du fährst mit der U-Bahn zum Bahnhof Neukölln. Da steigst du in die S-Bahn zum Flughafen um." },
     { "prompt": "坐城铁到机场要多长时间?", "options": ["三十分钟", "十三分钟", "一个小时"], "answer": 0, "explainZh": "Die S-Bahn braucht dreißig Minuten.(dreißig = 30,dreizehn 才是 13)" },
-    { "prompt": "最后索菲娅决定怎么去机场?", "options": ["坐地铁再换城铁", "走路去", "坐约纳斯的车"], "answer": 2, "explainZh": "约纳斯说可以开车送她(Oder ich fahre dich mit dem Auto!),索菲娅回复:Ich fahre gern mit Jonas." },
+    { "prompt": "最后索菲娅决定怎么去机场?", "options": ["坐地铁再换城铁", "走路去", "坐约纳斯的车"], "answer": 2, "explainZh": "约纳斯说可以开车送她(Oder ich fahre dich mit dem Auto, Sofia!),索菲娅回复:Danke, Jonas! Ich fahre gern mit dir.(那我就坐你的车去。)" },
     { "prompt": "12 月 24 日王伟做什么?", "options": ["坐飞机回中国", "请霍夫曼先生来,一起做饭、吃饭", "去意大利找索菲娅"], "answer": 1, "explainZh": "王伟写:Am 24. Dezember lade ich Herrn Hoffmann ein. Wir kochen und essen zusammen." }
   ],
   "grammar": [
@@ -53,5 +53,5 @@
         { "text": "Gehen Sie geradeaus und dann links.", "zh": "您一直往前走,然后往左拐。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

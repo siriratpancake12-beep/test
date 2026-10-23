@@ -1,0 +1,60 @@
+{
+  "id": "ja.a1u8.l02", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
+  "unit": "A1-8 我的一天与周末", "order": 108020,
+  "titleZh": "我的一天", "goalZh": "会按时间顺序说自己一天做什么,用 それから 连接、用 ごろ 说大概的时间", "canDoZh": "能按时间顺序说自己的一天:几点左右起床、上课、学习、打工、休息",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "ja.benkyousuru", "kind": "word", "pos": "verb", "text": "勉強します", "zh": "学习", "features": { "reading": "べんきょうします", "pitch": 6 }, "noteZh": "勉強 = 学习,不是中文“勉强”的意思:日本語を 勉強します。きょう 是长音。辞书形 勉強する(三类动词)。" },
+    { "id": "ja.hataraku", "kind": "word", "pos": "verb", "text": "働きます", "zh": "工作;打工", "features": { "reading": "はたらきます", "pitch": 5 }, "noteZh": "地点用 で:喫茶店で 働きます。辞书形 働く(一类动词)。" },
+    { "id": "ja.yasumu", "kind": "word", "pos": "verb", "text": "休みます", "zh": "休息;请假", "features": { "reading": "やすみます", "pitch": 4 }, "noteZh": "不去上课、请假也说 休みます:授業を 休みます。辞书形 休む(一类动词);名词 休み 第 5 单元学过。" },
+    { "id": "ja.hanasu", "kind": "word", "pos": "verb", "text": "話します", "zh": "说;谈", "features": { "reading": "はなします", "pitch": 4 }, "noteZh": "日本語で 話します(用日语说)、友だちと 話します(和朋友聊)。辞书形 話す(一类动词)。" },
+    { "id": "ja.shukudai", "kind": "word", "pos": "noun", "text": "宿題", "zh": "作业", "features": { "reading": "しゅくだい", "pitch": 0 }, "noteZh": "宿題を します(写作业)。しゅく 的 しゅ 是拗音,只占一拍。" },
+    { "id": "ja.toshokan", "kind": "word", "pos": "noun", "text": "図書館", "zh": "图书馆", "features": { "reading": "としょかん", "pitch": 2 }, "noteZh": "図書館で 勉強します。図書 = 图书;しょ 是拗音。" },
+    { "id": "ja.itsumo", "kind": "word", "pos": "adv", "text": "いつも", "zh": "总是;平时", "features": { "pitch": 1 }, "noteZh": "いつも 7時ごろ 起きます(平时 7 点左右起床)。" },
+    { "id": "ja.sorekara", "kind": "word", "pos": "conj", "text": "それから", "zh": "然后", "features": { "pitch": 0 }, "noteZh": "用在两个句子之间:朝ごはんを 食べます。それから 学校へ 行きます。" },
+    { "id": "ja.goro", "kind": "word", "pos": "noun", "text": "ごろ", "zh": "……左右(时间点)", "features": {}, "noteZh": "接在时间后面:7時ごろ(7 点左右)。只用于时间点;“大约多久”用 ぐらい(以后学)。" },
+    { "id": "ja.terebi", "kind": "word", "pos": "noun", "text": "テレビ", "zh": "电视", "features": { "pitch": 1 }, "noteZh": "テレビを 見ます(看电视)。" }
+  ],
+  "reviewItems": ["ja.okiru", "ja.mainichi", "ja.de_p", "ja.kissaten"],
+  "lines": [
+    { "speaker": "tanaka", "text": "リンさん、朝は何時ごろ起きますか。", "reading": "リンさん、あさはなんじごろおきますか。", "tokens": ["リンさん、", "朝", "は", "何時", "ごろ", "起きますか。"], "zh": "(课上)林雨,你早上一般几点起床?", "items": ["ja.san", "ja.asa", "ja.wa_p", "ja.nani", "ja.ji", "ja.goro", "ja.okiru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "いつも7時半ごろ起きます。それから朝ごはんを食べます。", "reading": "いつもしちじはんごろおきます。それからあさごはんをたべます。", "tokens": ["いつも", "7時半", "ごろ", "起きます。", "それから", "朝ごはん", "を", "食べます。"], "zh": "我平时 7 点半左右起床,然后吃早饭。", "items": ["ja.itsumo", "ja.nana", "ja.ji", "ja.han", "ja.goro", "ja.okiru", "ja.sorekara", "ja.asagohan", "ja.wo_p", "ja.taberu"] },
+    { "speaker": "tanaka", "text": "午後は何をしますか。", "reading": "ごごはなにをしますか。", "tokens": ["午後", "は", "何", "を", "しますか。"], "zh": "下午做什么?", "items": ["ja.gogo", "ja.wa_p", "ja.nani", "ja.wo_p", "ja.suru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "図書館で宿題をします。日本語を勉強します。", "reading": "としょかんでしゅくだいをします。にほんごをべんきょうします。", "tokens": ["図書館", "で", "宿題", "を", "します。", "日本語", "を", "勉強します。"], "zh": "在图书馆写作业,学日语。", "items": ["ja.toshokan", "ja.de_p", "ja.shukudai", "ja.wo_p", "ja.suru", "ja.nihongo", "ja.benkyousuru"] },
+    { "speaker": "rin", "text": "土曜日と日曜日は喫茶店で働きます。", "reading": "どようびとにちようびはきっさてんではたらきます。", "tokens": ["土曜日", "と", "日曜日", "は", "喫茶店", "で", "働きます。"], "zh": "星期六和星期天在咖啡馆打工。", "items": ["ja.doyoubi", "ja.to_p", "ja.nichiyoubi", "ja.wa_p", "ja.kissaten", "ja.de_p", "ja.hataraku"] },
+    { "speaker": "tanaka", "text": "そうですか。夜は何をしますか。", "reading": "そうですか。よるはなにをしますか。", "tokens": ["そう", "ですか。", "夜", "は", "何", "を", "しますか。"], "zh": "这样啊。晚上做什么?", "items": ["ja.sou", "ja.desu", "ja.ka_p", "ja.yoru", "ja.wa_p", "ja.nani", "ja.wo_p", "ja.suru"] },
+    { "speaker": "rin", "text": "夜はテレビを見ます。12時ごろ寝ます。", "reading": "よるはテレビをみます。じゅうにじごろねます。", "tokens": ["夜", "は", "テレビ", "を", "見ます。", "12時", "ごろ", "寝ます。"], "zh": "晚上看电视,12 点左右睡觉。", "items": ["ja.yoru", "ja.wa_p", "ja.terebi", "ja.wo_p", "ja.miru", "ja.juu", "ja.ni", "ja.ji", "ja.goro", "ja.neru"] },
+    { "speaker": "tanaka", "text": "ジウさんはどうですか。", "tokens": ["ジウさん", "は", "どうですか。"], "zh": "智友呢?", "items": ["ja.san", "ja.wa_p", "ja.dou", "ja.desu", "ja.ka_p"] },
+    { "speaker": "jiu", "text": "わたしは毎日友だちと日本語で話します。", "reading": "わたしはまいにちともだちとにほんごではなします。", "tokens": ["わたし", "は", "毎日", "友だち", "と", "日本語", "で", "話します。"], "zh": "我每天和朋友用日语聊天。", "items": ["ja.watashi", "ja.wa_p", "ja.mainichi", "ja.tomodachi", "ja.to_p", "ja.nihongo", "ja.de_p", "ja.hanasu"] },
+    { "speaker": "jiu", "text": "先生、明日は病院へ行きます。授業を休みます。", "reading": "せんせい、あしたはびょういんへいきます。じゅぎょうをやすみます。", "tokens": ["先生、", "明日", "は", "病院", "へ", "行きます。", "授業", "を", "休みます。"], "zh": "老师,我明天要去医院,得请一天假。", "items": ["ja.sensei", "ja.ashita", "ja.wa_p", "ja.byouin", "ja.e_p", "ja.iku", "ja.jugyou", "ja.wo_p", "ja.yasumu"] }
+  ],
+  "questions": [
+    { "prompt": "林雨下午做什么?", "options": ["在咖啡馆打工", "在图书馆写作业、学日语", "在家看电视"], "answer": 1, "explainZh": "林雨说:図書館で宿題をします。日本語を勉強します。" },
+    { "prompt": "林雨星期六、星期天做什么?", "options": ["在咖啡馆打工", "去图书馆", "在家休息"], "answer": 0, "explainZh": "林雨说:土曜日と日曜日は喫茶店で働きます。" },
+    { "prompt": "智友明天为什么不来上课?", "options": ["要打工", "要回国", "要去医院"], "answer": 2, "explainZh": "智友说:明日は病院へ行きます。授業を休みます。(明天去医院,上课请假)" }
+  ],
+  "grammar": [
+    {
+      "id": "ja.g.sorekara_goro",
+      "titleZh": "それから(然后)和 ごろ(……左右)",
+      "bodyZh": "按顺序说一天做的事,两句话之间用 それから(然后),放在第二句的开头:朝ごはんを 食べます。それから 学校へ 行きます。说大概的时间点,在时间后面加 ごろ:7時半ごろ 起きます(7 点半左右起床)。“7時に 起きます”的 に 和 ごろ 一起用时一般省掉,说 7時ごろ 起きます 就行(也有人说 7時ごろに)。ごろ 只用于时间点;“大约几个小时”是另一个词 ぐらい(以后学),不说 ×2時間ごろ。いつも(平时、总是)放在句首或动词前面:いつも 7時ごろ 起きます。",
+      "examples": [
+        { "text": "いつも7時ごろ起きます。", "zh": "我平时 7 点左右起床。(いつもしちじごろおきます)" },
+        { "text": "朝ごはんを食べます。それから学校へ行きます。", "zh": "吃早饭,然后去学校。(あさごはんをたべます。それからがっこうへいきます)" },
+        { "text": "12時ごろ寝ます。", "zh": "12 点左右睡觉。(じゅうにじごろねます)" }
+      ]
+    },
+    {
+      "id": "ja.g.de_to",
+      "titleZh": "で 和 と:在哪儿做、用什么语言、和谁",
+      "bodyZh": "复习“地点 で V”(在……做):図書館で 勉強します、喫茶店で 働きます。で 还能表示用什么语言:日本語で 話します(用日语说),和“電車で 行きます”(坐电车去)一样表示方式。“和谁一起”用 と:友だちと 話します(和朋友聊天)。日本語で 話します 是“用日语交谈”,日本語を 話します 是“说日语(这种语言)”,两种都对,意思不同。宿題を します 是“写作业”,动词用 します。休みます 除了“休息”,还有“请假、缺席”的意思:授業を 休みます(不去上课)。另外,勉強 = 学习,不是中文的“勉强”。",
+      "examples": [
+        { "text": "図書館で勉強します。", "zh": "在图书馆学习。(としょかんでべんきょうします)" },
+        { "text": "友だちと日本語で話します。", "zh": "和朋友用日语聊天。(ともだちとにほんごではなします)" },
+        { "text": "喫茶店で働きます。", "zh": "在咖啡馆打工。(きっさてんではたらきます)" },
+        { "text": "明日は授業を休みます。", "zh": "明天上课请假。(あしたはじゅぎょうをやすみます)" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "ja.a1u2.l04", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 片假名与自我介绍", "order": 102040,
+  "titleZh": "片假名④:マ行、ヤ行和长音符号 ー;我的名字", "goalZh": "认读、书写 マ行、ヤ行的 8 个片假名和长音符号 ー,学会说“我的名字是……”",
+  "canDoZh": "能认读、写出 マミムメモ ヤユヨ 和长音符号 ー;能用 の 说“我的名字”“日本人”,和新朋友互相介绍名字",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ja.kata_ma", "kind": "char", "pos": "char", "text": "マ", "zh": "ma(=ま)", "features": { "roman": "ma" }, "noteZh": "取自“末”。和 ム 区分:マ 是一个“フ”加一点。" },
+    { "id": "ja.kata_mi", "kind": "char", "pos": "char", "text": "ミ", "zh": "mi(=み)", "features": { "roman": "mi" }, "noteZh": "取自“三”,三笔斜点。" },
+    { "id": "ja.kata_mu", "kind": "char", "pos": "char", "text": "ム", "zh": "mu(=む)", "features": { "roman": "mu" }, "noteZh": "取自“牟”的上部。" },
+    { "id": "ja.kata_me", "kind": "char", "pos": "char", "text": "メ", "zh": "me(=め)", "features": { "roman": "me" }, "noteZh": "取自“女”。和 ナ 区分:メ 是一撇一点交叉。" },
+    { "id": "ja.kata_mo", "kind": "char", "pos": "char", "text": "モ", "zh": "mo(=も)", "features": { "roman": "mo" }, "noteZh": "取自“毛”。" },
+    { "id": "ja.kata_ya", "kind": "char", "pos": "char", "text": "ヤ", "zh": "ya(=や)", "features": { "roman": "ya" }, "noteZh": "取自“也”。和平假名 や 很像。" },
+    { "id": "ja.kata_yu", "kind": "char", "pos": "char", "text": "ユ", "zh": "yu(=ゆ)", "features": { "roman": "yu" }, "noteZh": "取自“由”。和 ヨ 区分:ユ 只有两笔、开口朝左。" },
+    { "id": "ja.kata_yo", "kind": "char", "pos": "char", "text": "ヨ", "zh": "yo(=よ)", "features": { "roman": "yo" }, "noteZh": "取自“与”。三横、开口朝左。" },
+    { "id": "ja.kata_choon", "kind": "char", "pos": "char", "text": "ー", "zh": "长音符号(拉长前一个音)", "features": { "roman": "-" }, "noteZh": "只用在片假名里,把前一个音拉长一拍:コーヒー、ケーキ、ユー。横着写是一横,竖着写是一竖。用输入法打减号 -。" },
+    { "id": "ja.namae", "kind": "word", "pos": "noun", "text": "名前", "zh": "名字", "features": { "reading": "なまえ", "roman": "namae", "pitch": 0 }, "noteZh": "训读。问别人的名字说 お名前は?(您叫什么名字),说自己的名字不加 お。" },
+    { "id": "ja.no_p", "kind": "word", "pos": "particle", "text": "の", "zh": "的(连接两个名词)", "features": { "roman": "no" }, "noteZh": "わたしの 名前(我的名字)、日本の 大学(日本的大学)。中文常省略“的”的地方(日语老师 → 日本語の 先生),日语也要加 の。" },
+    { "id": "ja.nihon", "kind": "word", "pos": "propn", "text": "日本", "zh": "日本", "features": { "reading": "にほん", "roman": "nihon", "pitch": 2 }, "noteZh": "也读 にっぽん(更正式,如体育比赛、纸币上)。日本人 = にほんじん。" }
+  ],
+  "reviewItems": ["ja.watashi", "ja.wa_p", "ja.gakusei", "ja.jin"],
+  "lines": [
+    { "speaker": "rin", "text": "はじめまして。わたしの 名前は リン・ユーです。", "zh": "初次见面,我叫林雨。", "reading": "はじめまして。わたしの なまえは リン・ユーです。", "roman": "Hajimemashite. Watashi no namae wa Rin Yuu desu.", "tokens": ["はじめまして。", "わたし", "の", "名前", "は", "リン・ユー", "です。"], "items": ["ja.hajimemashite", "ja.watashi", "ja.no_p", "ja.namae", "ja.wa_p", "ja.desu"] },
+    { "speaker": "rin", "text": "中国人です。よろしくおねがいします。", "zh": "我是中国人。请多关照。", "reading": "ちゅうごくじんです。よろしくおねがいします。", "roman": "Chuugokujin desu. Yoroshiku onegaishimasu.", "tokens": ["中国人", "です。", "よろしくおねがいします。"], "items": ["ja.chuugoku", "ja.jin", "ja.desu", "ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "kenta", "text": "はじめまして。わたしの 名前は たかはし けんたです。", "zh": "初次见面,我叫高桥健太。", "reading": "はじめまして。わたしの なまえは たかはし けんたです。", "roman": "Hajimemashite. Watashi no namae wa Takahashi Kenta desu.", "tokens": ["はじめまして。", "わたし", "の", "名前", "は", "たかはし", "けんた", "です。"], "items": ["ja.hajimemashite", "ja.watashi", "ja.no_p", "ja.namae", "ja.wa_p", "ja.desu"] },
+    { "speaker": "kenta", "text": "日本人です。よろしくおねがいします。", "zh": "我是日本人。请多关照。", "reading": "にほんじんです。よろしくおねがいします。", "roman": "Nihonjin desu. Yoroshiku onegaishimasu.", "tokens": ["日本人", "です。", "よろしくおねがいします。"], "items": ["ja.nihon", "ja.jin", "ja.desu", "ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "rin", "text": "けんたさんは 学生ですか。", "zh": "健太,你是学生吗?", "reading": "けんたさんは がくせいですか。", "roman": "Kenta-san wa gakusei desu ka.", "tokens": ["けんた", "さん", "は", "学生", "です", "か。"], "items": ["ja.san", "ja.wa_p", "ja.gakusei", "ja.desu", "ja.ka_p"] },
+    { "speaker": "kenta", "text": "はい、学生です。", "zh": "是的,我是学生。", "reading": "はい、がくせいです。", "roman": "Hai, gakusei desu.", "tokens": ["はい、", "学生", "です。"], "items": ["ja.hai", "ja.gakusei", "ja.desu"] },
+    { "speaker": "narrator", "text": "マ ミ ム メ モ ヤ ユ ヨ", "zh": "マ行和ヤ行:ma mi mu me mo ya yu yo", "roman": "ma mi mu me mo ya yu yo", "tokens": ["マ", "ミ", "ム", "メ", "モ", "ヤ", "ユ", "ヨ"], "items": ["ja.kata_ma", "ja.kata_mi", "ja.kata_mu", "ja.kata_me", "ja.kata_mo", "ja.kata_ya", "ja.kata_yu", "ja.kata_yo"] },
+    { "speaker": "narrator", "text": "リン・ユー", "zh": "林雨的名牌:Rin Yuu(ユー 的 ー 是长音)", "roman": "Rin Yuu", "tokens": ["リン・ユー"], "items": ["ja.kata_yu", "ja.kata_choon"] }
+  ],
+  "questions": [
+    { "prompt": "健太的全名是什么?", "options": ["さとう さき", "たかはし けんた", "リン・ユー"], "answer": 1, "explainZh": "健太说:わたしの 名前は たかはし けんたです。たかはし 是姓,けんた 是名。" },
+    { "prompt": "健太是哪国人?", "options": ["中国人", "韩国人", "日本人"], "answer": 2, "explainZh": "健太说:日本人です。日本人 读 にほんじん。" },
+    { "prompt": "林雨问了健太什么?他怎么回答?", "options": ["问他是不是学生,他说是", "问他是不是日本人,他说是", "问他叫什么名字"], "answer": 0, "explainZh": "林雨问:けんたさんは 学生ですか。健太回答:はい、学生です。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.no", "titleZh": "N1 の N2:……的……",
+      "bodyZh": "の 连接两个名词,前面的修饰后面的:わたしの 名前(我的名字)、さきさんの 名前(咲的名字)、日本の 学生(日本的学生)。中文常常省略“的”(我名字、日本学生),日语名词连名词几乎都要加 の:✗ わたし名前 → ○ わたしの 名前。本身已经是一个词的不用加,比如 中国人、日本人。自我介绍可以说 わたしの 名前は 〜です(我的名字是……),比 わたしは 〜です 稍微郑重一点。",
+      "examples": [ { "text": "わたしの 名前は リン・ユーです。", "zh": "我的名字是林雨。" }, { "text": "さきさんの 名前", "zh": "咲的名字" }, { "text": "日本の 学生", "zh": "日本的学生" } ] },
+    { "id": "ja.g.choon", "titleZh": "长音符号 ー",
+      "bodyZh": "片假名用 ー 表示长音,把前一个音拉长一拍:ユー(yū,两拍)、ケーキ(kēki,三拍)。横着写是一横,竖着写时是一竖。ー 只用在片假名里,平假名的长音直接写元音(おばあさん、せんせい)。长音会区分词义,一定要拉够长:ハト(鸽子,两拍)/ ハート(心形,三拍)。中国学生常把长音读短,可以用手打拍子:ハ・ー・ト。字形上注意:ミ 像“三”;ユ 两笔、开口朝左,ヨ 三横;マ 是“フ”加一点,ム 像“厶”。",
+      "examples": [ { "text": "ユー", "zh": "林雨名字里的“雨”(yū)" }, { "text": "ハト / ハート", "zh": "鸽子 / 心形(长音不同,意思不同)" }, { "text": "コーヒー", "zh": "咖啡(ko-o-hi-i,四拍)" } ] }
+  ],
+  "review": "draft"
+}

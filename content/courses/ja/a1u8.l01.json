@@ -1,0 +1,51 @@
+{
+  "id": "ja.a1u8.l01", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 我的一天与周末", "order": 108010,
+  "titleZh": "出门和回家", "goalZh": "会用出门、回家的固定说法,说一日三餐", "canDoZh": "能用出门、回家的固定说法和家里人打招呼,说早饭、午饭、晚饭吃什么",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ja.ittekimasu", "kind": "phrase", "pos": "phrase", "text": "いってきます", "zh": "我出门了", "alt": ["行ってきます"], "features": {}, "noteZh": "出门时对家里的人说(意思是“我走了,还会回来”);っ 是促音,停一拍。" },
+    { "id": "ja.itterasshai", "kind": "phrase", "pos": "phrase", "text": "いってらっしゃい", "zh": "路上小心;慢走", "alt": ["行ってらっしゃい"], "features": {}, "noteZh": "回应 いってきます;い・っ・て・ら・っ・しゃ・い,两个促音,しゃ 是拗音。" },
+    { "id": "ja.tadaima", "kind": "phrase", "pos": "phrase", "text": "ただいま", "zh": "我回来了", "features": {}, "noteZh": "回到家时说;和室友、房东之间也天天说。" },
+    { "id": "ja.okaerinasai", "kind": "phrase", "pos": "phrase", "text": "おかえりなさい", "zh": "你回来啦", "alt": ["おかえり"], "features": {}, "noteZh": "回应 ただいま;家人之间常简化成 おかえり。" },
+    { "id": "ja.asagohan", "kind": "word", "pos": "noun", "text": "朝ごはん", "zh": "早饭", "alt": ["朝ご飯"], "features": { "reading": "あさごはん", "pitch": 3 }, "noteZh": "也写作 朝ご飯。朝ごはんは?(早饭呢?/早饭吃什么?)" },
+    { "id": "ja.hirugohan", "kind": "word", "pos": "noun", "text": "昼ごはん", "zh": "午饭", "alt": ["昼ご飯"], "features": { "reading": "ひるごはん", "pitch": 3 }, "noteZh": "也写作 昼ご飯;昼(ひる)= 中午。" },
+    { "id": "ja.bangohan", "kind": "word", "pos": "noun", "text": "晩ごはん", "zh": "晚饭", "alt": ["晩ご飯"], "features": { "reading": "ばんごはん", "pitch": 3 }, "noteZh": "也写作 晩ご飯;也说 夕ごはん(ゆうごはん)。" },
+    { "id": "ja.shawaa", "kind": "word", "pos": "noun", "text": "シャワー", "zh": "淋浴", "features": { "pitch": 1 }, "noteZh": "シャワーを 浴びます(洗淋浴);泡澡说 お風呂に 入ります(以后学)。シャ 是拗音,ワー 是长音。" },
+    { "id": "ja.abiru", "kind": "word", "pos": "verb", "text": "浴びます", "zh": "淋(浴)", "features": { "reading": "あびます", "pitch": 3 }, "noteZh": "辞书形 浴びる(二类动词),一般和 シャワー 搭配:シャワーを 浴びます。" }
+  ],
+  "reviewItems": ["ja.ohayou_gozaimasu", "ja.oyasuminasai", "ja.gohan", "ja.koohii"],
+  "lines": [
+    { "speaker": "kobayashi", "text": "リンさん、おはようございます。朝ごはんは?", "reading": "リンさん、おはようございます。あさごはんは?", "tokens": ["リンさん、", "おはようございます。", "朝ごはん", "は?"], "zh": "林雨,早上好。早饭吃什么?", "items": ["ja.san", "ja.ohayou_gozaimasu", "ja.asagohan", "ja.wa_p"] },
+    { "speaker": "rin", "text": "おはようございます。パンとコーヒーです。", "tokens": ["おはようございます。", "パン", "と", "コーヒー", "です。"], "zh": "早上好。面包和咖啡。", "items": ["ja.ohayou_gozaimasu", "ja.pan", "ja.to_p", "ja.koohii", "ja.desu"] },
+    { "speaker": "kobayashi", "text": "昼ごはんはどこで食べますか。", "reading": "ひるごはんはどこでたべますか。", "tokens": ["昼ごはん", "は", "どこ", "で", "食べますか。"], "zh": "午饭在哪儿吃?", "items": ["ja.hirugohan", "ja.wa_p", "ja.doko", "ja.de_p", "ja.taberu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "大学で食べます。じゃあ、いってきます!", "reading": "だいがくでたべます。じゃあ、いってきます!", "tokens": ["大学", "で", "食べます。", "じゃあ、", "いってきます!"], "zh": "在学校吃。那我出门了!", "items": ["ja.daigaku", "ja.de_p", "ja.taberu", "ja.jaa", "ja.ittekimasu"] },
+    { "speaker": "kobayashi", "text": "いってらっしゃい。何時に帰りますか。", "reading": "いってらっしゃい。なんじにかえりますか。", "tokens": ["いってらっしゃい。", "何時", "に", "帰りますか。"], "zh": "路上小心。几点回来?", "items": ["ja.itterasshai", "ja.nani", "ja.ji", "ja.ni_p", "ja.kaeru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "6時に帰ります。", "reading": "ろくじにかえります。", "tokens": ["6時", "に", "帰ります。"], "zh": "6 点回来。", "items": ["ja.roku", "ja.ji", "ja.ni_p", "ja.kaeru"] },
+    { "speaker": "rin", "text": "ただいま。今日も雨ですね。", "reading": "ただいま。きょうもあめですね。", "tokens": ["ただいま。", "今日", "も", "雨", "ですね。"], "zh": "(傍晚)我回来了。今天也在下雨呢。", "items": ["ja.tadaima", "ja.kyou", "ja.mo_p", "ja.ame", "ja.desu", "ja.ne_p"] },
+    { "speaker": "kobayashi", "text": "おかえりなさい。晩ごはんを食べますか。", "reading": "おかえりなさい。ばんごはんをたべますか。", "tokens": ["おかえりなさい。", "晩ごはん", "を", "食べますか。"], "zh": "你回来啦。晚饭在家吃吗?", "items": ["ja.okaerinasai", "ja.bangohan", "ja.wo_p", "ja.taberu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "はい、食べます。ジウさんは?", "reading": "はい、たべます。ジウさんは?", "tokens": ["はい、", "食べます。", "ジウさん", "は?"], "zh": "嗯,吃。智友呢?", "items": ["ja.hai", "ja.taberu", "ja.san", "ja.wa_p"] },
+    { "speaker": "jiu", "text": "ただいま!わたしも食べます!", "reading": "ただいま!わたしもたべます!", "tokens": ["ただいま!", "わたし", "も", "食べます!"], "zh": "(正好进门)我回来了!我也要吃!", "items": ["ja.tadaima", "ja.watashi", "ja.mo_p", "ja.taberu"] },
+    { "speaker": "kobayashi", "text": "おかえりなさい。ご飯ですよ!今日は魚です。", "reading": "おかえりなさい。ごはんですよ!きょうはさかなです。", "tokens": ["おかえりなさい。", "ご飯", "ですよ!", "今日", "は", "魚", "です。"], "zh": "你回来啦。开饭喽!今天吃鱼。", "items": ["ja.okaerinasai", "ja.gohan", "ja.desu", "ja.yo_p", "ja.kyou", "ja.wa_p", "ja.sakana"] },
+    { "speaker": "rin", "text": "シャワーを浴びます。おやすみなさい。", "reading": "シャワーをあびます。おやすみなさい。", "tokens": ["シャワー", "を", "浴びます。", "おやすみなさい。"], "zh": "(吃完晚饭)我去冲个澡。晚安。", "items": ["ja.shawaa", "ja.wo_p", "ja.abiru", "ja.oyasuminasai"] }
+  ],
+  "questions": [
+    { "prompt": "林雨早饭吃什么?", "options": ["米饭和茶", "面包和咖啡", "面包和果汁"], "answer": 1, "explainZh": "林雨说:パンとコーヒーです。(面包和咖啡)" },
+    { "prompt": "林雨午饭在哪里吃?", "options": ["在家", "在便利店", "在大学"], "answer": 2, "explainZh": "林雨说:大学で食べます。(在学校吃)" },
+    { "prompt": "今天的晚饭是什么?", "options": ["鱼", "肉", "饺子"], "answer": 0, "explainZh": "大家さん说:ご飯ですよ!今日は魚です。(今天吃鱼)" }
+  ],
+  "grammar": [
+    {
+      "id": "ja.g.ittekimasu",
+      "titleZh": "出门、回家的问候;一日三餐",
+      "bodyZh": "日本人在家里每天说两组固定的话,一定成对用:出门的人说 いってきます(我走了),家里的人回答 いってらっしゃい(路上小心);回到家说 ただいま(我回来了),家里的人回答 おかえりなさい(你回来啦)。中文家里常常什么都不说,日语不说就显得冷淡,和室友、房东之间也天天说;家人之间常简化成 おかえり,对房东先用完整的说法。一日三餐:朝ごはん(早饭)、昼ごはん(午饭)、晩ごはん(晚饭);ご飯 既是“米饭”也是“饭”,ご飯ですよ! = 开饭了!洗淋浴说 シャワーを 浴びます,动词用 浴びます(淋),不用“洗”。睡前说 おやすみなさい。",
+      "examples": [
+        { "text": "いってきます!—いってらっしゃい!", "zh": "我出门了!——路上小心!" },
+        { "text": "ただいま。—おかえりなさい。", "zh": "我回来了。——你回来啦。" },
+        { "text": "ご飯ですよ!", "zh": "开饭喽!(ごはんですよ!)" },
+        { "text": "シャワーを浴びます。", "zh": "我去冲个澡。(シャワーをあびます)" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

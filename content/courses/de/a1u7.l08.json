@@ -4,25 +4,25 @@
   "titleZh": "单元复习:王伟的办事清单", "goalZh": "读懂营业时间、表格和办事清单,会写一条安排一周事情的消息", "canDoZh": "能看懂商店、银行、邮局的营业时间和简单表格,能写一条消息说一周要办哪些事",
   "skills": ["read", "write"], "estimatedMinutes": 20,
   "newItems": [
-    { "id": "de.geboren", "kind": "word", "pos": "adj", "text": "geboren", "zh": "出生(的)", "features": { "ipa": "ɡəˈboːʁən" }, "noteZh": "表格上:geboren am …(出生日期);说自己哪天出生用 sein:Ich bin am 3. Februar geboren.(不用 haben)。" },
+    { "id": "de.geboren", "kind": "word", "pos": "adj", "text": "geboren", "zh": "出生(的)", "features": { "ipa": "ɡəˈboːʁən" }, "noteZh": "表格上:geboren am …(出生日期);说哪天出生用 sein:Jonas ist am 15. November geboren.(不用 haben)。" },
     { "id": "de.unterschreiben", "kind": "word", "pos": "verb", "text": "unterschreiben", "zh": "签名;签字", "features": { "ipa": "ʊntɐˈʃʁaɪ̯bn̩" }, "noteZh": "不可分(重音在 schrei 上):Ich unterschreibe hier.;签名:die Unterschrift。" },
     { "id": "de.anprobieren", "kind": "word", "pos": "verb", "text": "anprobieren", "zh": "试穿", "features": { "ipa": "ˈanpʁoˌbiːʁən" }, "noteZh": "可分:Kann ich die Jacke anprobieren? / Ich probiere sie an.;试衣间叫 die Umkleidekabine。" },
     { "id": "de.geoeffnet", "kind": "word", "pos": "adj", "text": "geöffnet", "zh": "营业;开着(门)", "alt": ["offen"], "features": { "ipa": "ɡəˈʔœfnət" }, "noteZh": "门口的牌子:Geöffnet / Geschlossen(营业中 / 关门);Die Post ist bis 18 Uhr geöffnet.;口语也说 offen。" }
   ],
   "reviewItems": ["de.formular", "de.termin", "de.muessen", "de.bis"],
   "lines": [
-    { "speaker": "narrator", "text": "Hallo Lena! Am Montag um 10 Uhr habe ich einen Termin in der Bank.", "zh": "莉娜你好!星期一 10 点我在银行有个预约。", "items": ["de.hallo", "de.am", "de.montag", "de.um", "de.zehn", "de.uhr", "de.haben", "de.ich", "de.ein", "de.termin", "de.in", "de.bank_geld"] },
-    { "speaker": "narrator", "text": "Ich muss das Formular für mein Konto unterschreiben.", "zh": "我得在开户的表格上签字。", "items": ["de.ich", "de.muessen", "de.formular", "de.fuer", "de.mein", "de.konto", "de.unterschreiben"] },
-    { "speaker": "narrator", "text": "Die Bank ist nur von 9 bis 16 Uhr geöffnet.", "zh": "银行只在 9 点到 16 点营业。", "items": ["de.bank_geld", "de.sein", "de.nur", "de.von", "de.neun", "de.bis", "de.sechzehn", "de.uhr", "de.geoeffnet"] },
-    { "speaker": "narrator", "text": "Am Dienstag gehe ich zur Post, sie ist bis 18 Uhr geöffnet.", "zh": "星期二我去邮局,邮局营业到 18 点。", "items": ["de.am", "de.dienstag", "de.gehen", "de.ich", "de.zu", "de.post", "de.sie_sg", "de.sein", "de.bis", "de.acht", "de.zehn", "de.uhr", "de.geoeffnet"] },
-    { "speaker": "narrator", "text": "Am Mittwoch um 15 Uhr gehe ich ins Kaufhaus.", "zh": "星期三 15 点我去商场。", "items": ["de.am", "de.mittwoch", "de.um", "de.fuenf", "de.zehn", "de.uhr", "de.gehen", "de.ich", "de.in", "de.kaufhaus"] },
-    { "speaker": "narrator", "text": "Der Pullover in Rot ist jetzt billig. Ich probiere ihn an!", "zh": "那件红毛衣现在便宜了。我要去试穿一下!", "items": ["de.pullover", "de.in", "de.rot", "de.sein", "de.jetzt", "de.billig", "de.ich", "de.anprobieren", "de.ihn"] },
-    { "speaker": "narrator", "text": "Hast du am Mittwoch Zeit?", "zh": "你星期三有空吗?", "items": ["de.haben", "de.du", "de.am", "de.mittwoch", "de.zeit"] },
-    { "speaker": "narrator", "text": "Am Donnerstag fülle ich das Formular für die Prüfung aus.", "zh": "星期四我要填考试的报名表。", "items": ["de.am", "de.donnerstag", "de.ausfuellen", "de.ich", "de.formular", "de.fuer", "de.pruefung"] },
-    { "speaker": "narrator", "text": "Aber was heißt „geboren am“? Ich verstehe das nicht.", "zh": "可是“geboren am”是什么意思?我看不懂。", "items": ["de.aber", "de.was", "de.ich_heisse", "de.geboren", "de.am", "de.ich", "de.verstehen", "de.nicht"] },
-    { "speaker": "narrator", "text": "Viele Grüße, Wei", "zh": "祝好,伟", "items": ["de.viele_gruesse"] },
-    { "speaker": "narrator", "text": "Hallo Wei! „Geboren am“ ist dein Geburtstag.", "zh": "伟你好!“geboren am”就是你的出生日期。", "items": ["de.hallo", "de.geboren", "de.am", "de.sein", "de.dein", "de.geburtstag"] },
-    { "speaker": "narrator", "text": "Am Mittwoch habe ich Zeit. Bis Mittwoch! Deine Lena", "zh": "我星期三有空。星期三见!莉娜", "items": ["de.am", "de.mittwoch", "de.haben", "de.ich", "de.zeit", "de.bis", "de.dein"] }
+    { "speaker": "wei", "text": "Hallo Lena! Am Montag um 10 Uhr habe ich einen Termin in der Bank.", "zh": "莉娜你好!星期一 10 点我在银行有个预约。", "items": ["de.hallo", "de.am", "de.montag", "de.um", "de.zehn", "de.uhr", "de.haben", "de.ich", "de.ein", "de.termin", "de.in", "de.bank_geld"] },
+    { "speaker": "wei", "text": "Ich muss das Formular für mein Konto unterschreiben.", "zh": "我得在开户的表格上签字。", "items": ["de.ich", "de.muessen", "de.formular", "de.fuer", "de.mein", "de.konto", "de.unterschreiben"] },
+    { "speaker": "wei", "text": "Die Bank ist nur von 9 bis 16 Uhr geöffnet.", "zh": "银行只在 9 点到 16 点营业。", "items": ["de.bank_geld", "de.sein", "de.nur", "de.von", "de.neun", "de.bis", "de.sechzehn", "de.uhr", "de.geoeffnet"] },
+    { "speaker": "wei", "text": "Am Dienstag gehe ich zur Post, sie ist bis 18 Uhr geöffnet.", "zh": "星期二我去邮局,邮局营业到 18 点。", "items": ["de.am", "de.dienstag", "de.gehen", "de.ich", "de.zu", "de.post", "de.sie_sg", "de.sein", "de.bis", "de.acht", "de.zehn", "de.uhr", "de.geoeffnet"] },
+    { "speaker": "wei", "text": "Am Mittwoch um 15 Uhr gehe ich ins Kaufhaus.", "zh": "星期三 15 点我去商场。", "items": ["de.am", "de.mittwoch", "de.um", "de.fuenf", "de.zehn", "de.uhr", "de.gehen", "de.ich", "de.in", "de.kaufhaus"] },
+    { "speaker": "wei", "text": "Der Pullover in Rot ist jetzt billig. Ich probiere ihn an!", "zh": "那件红毛衣现在便宜了。我要去试穿一下!", "items": ["de.pullover", "de.in", "de.rot", "de.sein", "de.jetzt", "de.billig", "de.ich", "de.anprobieren", "de.ihn"] },
+    { "speaker": "wei", "text": "Hast du am Mittwoch Zeit?", "zh": "你星期三有空吗?", "items": ["de.haben", "de.du", "de.am", "de.mittwoch", "de.zeit"] },
+    { "speaker": "wei", "text": "Am Donnerstag fülle ich das Formular für die Prüfung aus.", "zh": "星期四我要填考试的报名表。", "items": ["de.am", "de.donnerstag", "de.ausfuellen", "de.ich", "de.formular", "de.fuer", "de.pruefung"] },
+    { "speaker": "wei", "text": "Aber was heißt „geboren am“? Ich verstehe das nicht.", "zh": "可是“geboren am”是什么意思?我看不懂。", "items": ["de.aber", "de.was", "de.ich_heisse", "de.geboren", "de.am", "de.ich", "de.verstehen", "de.nicht"] },
+    { "speaker": "wei", "text": "Viele Grüße, Wei", "zh": "祝好,王伟", "items": ["de.viele_gruesse"] },
+    { "speaker": "lena", "text": "Hallo Wei! „Geboren am“ ist dein Geburtstag.", "zh": "王伟你好!“geboren am”就是你的出生日期。", "items": ["de.hallo", "de.geboren", "de.am", "de.sein", "de.dein", "de.geburtstag"] },
+    { "speaker": "lena", "text": "Am Mittwoch habe ich Zeit. Bis Mittwoch! Deine Lena", "zh": "我星期三有空。星期三见!莉娜", "items": ["de.am", "de.mittwoch", "de.haben", "de.ich", "de.zeit", "de.bis", "de.dein"] }
   ],
   "questions": [
     { "prompt": "王伟星期一去银行做什么?", "options": ["取钱", "在表格上签字", "开一个新账户"], "answer": 1, "explainZh": "Ich muss das Formular für mein Konto unterschreiben.(我得在开户的表格上签字。)" },
@@ -46,5 +46,5 @@
         { "text": "Der Pullover? Ich finde ihn schön.", "zh": "这件毛衣?我觉得它很好看。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -17,7 +17,7 @@
   ],
   "reviewItems": ["de.brauchen", "de.kaufen", "de.billig"],
   "lines": [
-    { "speaker": "lena", "text": "Es ist sehr kalt, Wei. Deine Jacke ist nicht warm!", "zh": "天很冷,伟。你的外套不暖和!", "items": ["de.es", "de.sein", "de.sehr", "de.kalt", "de.dein", "de.jacke", "de.nicht", "de.warm"] },
+    { "speaker": "lena", "text": "Es ist sehr kalt, Wei. Deine Jacke ist nicht warm!", "zh": "天很冷,王伟。你这件外套不够暖和!", "items": ["de.es", "de.sein", "de.sehr", "de.kalt", "de.dein", "de.jacke", "de.nicht", "de.warm"] },
     { "speaker": "wei", "text": "Ja, ich brauche eine Jacke, einen Pullover und Schuhe.", "zh": "是啊,我需要一件外套、一件毛衣和一双鞋。", "items": ["de.ja", "de.ich", "de.brauchen", "de.ein", "de.jacke", "de.pullover", "de.und", "de.schuh"] },
     { "speaker": "lena", "text": "Dann gehen wir ins Kaufhaus. Im Januar ist Kleidung billig!", "zh": "那我们去商场吧。一月份衣服便宜!", "items": ["de.dann", "de.gehen", "de.wir", "de.in", "de.kaufhaus", "de.januar", "de.sein", "de.kleidung", "de.billig"] },
     { "speaker": "verkaeufer", "text": "Guten Tag! Kann ich Ihnen helfen?", "zh": "您好!需要帮忙吗?", "items": ["de.guten_tag", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
@@ -28,9 +28,9 @@
     { "speaker": "verkaeufer", "text": "Die Hosen und Hemden sind hier. Schuhe gibt es da rechts.", "zh": "裤子和衬衫在这儿,鞋在那边右手边。", "items": ["de.hose", "de.und", "de.hemd", "de.sein", "de.hier", "de.schuh", "de.es_gibt", "de.da", "de.rechts"] }
   ],
   "questions": [
-    { "prompt": "莉娜觉得王伟的外套怎么样?", "options": ["太贵了", "不够暖和", "太大了"], "answer": 1, "explainZh": "莉娜说:Deine Jacke ist nicht warm!(你的外套不暖和!)" },
-    { "prompt": "莉娜为什么说一月去商场买衣服好?", "options": ["一月衣服便宜", "商场离家很近", "一月有新款"], "answer": 0, "explainZh": "莉娜说:Im Januar ist Kleidung billig!(一月份衣服便宜!)德国一月有冬季打折。" },
-    { "prompt": "王伟要买几件衬衫?", "options": ["一件", "三件", "两件"], "answer": 2, "explainZh": "王伟说:eine Hose und zwei Hemden(一条裤子和两件衬衫)。Hemden 是 Hemd 的复数。" }
+    { "prompt": "莉娜觉得王伟的外套怎么样?", "options": ["不够暖和", "太贵了", "太大了"], "answer": 0, "explainZh": "莉娜说:Deine Jacke ist nicht warm!(你的外套不暖和!)" },
+    { "prompt": "莉娜为什么说一月去商场买衣服好?", "options": ["商场离家很近", "一月有新款", "一月衣服便宜"], "answer": 2, "explainZh": "莉娜说:Im Januar ist Kleidung billig!(一月份衣服便宜!)德国一月有冬季打折。" },
+    { "prompt": "王伟要买几件衬衫?", "options": ["一件", "两件", "三件"], "answer": 1, "explainZh": "王伟说:eine Hose und zwei Hemden(一条裤子和两件衬衫)。Hemden 是 Hemd 的复数。" }
   ],
   "grammar": [
     { "id": "de.g.kleidung_plural", "titleZh": "衣服的复数;一条裤子是 eine Hose",
@@ -41,5 +41,5 @@
         { "text": "Ich brauche einen Pullover und Schuhe.", "zh": "我需要一件毛衣和一双鞋。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

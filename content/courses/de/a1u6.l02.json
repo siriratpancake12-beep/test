@@ -16,7 +16,7 @@
   ],
   "reviewItems": ["de.mit", "de.nach", "de.gehen", "de.uni"],
   "lines": [
-    { "speaker": "sofia", "text": "Wei, wie fährst du zur Uni?", "zh": "伟,你怎么去学校?", "items": ["de.wie", "de.fahren", "de.du", "de.zu", "de.uni"] },
+    { "speaker": "sofia", "text": "Wei, wie fährst du zur Uni?", "zh": "王伟,你怎么去学校?", "items": ["de.wie", "de.fahren", "de.du", "de.zu", "de.uni"] },
     { "speaker": "wei", "text": "Ich fahre mit der U-Bahn. Und du?", "zh": "我坐地铁。你呢?", "items": ["de.ich", "de.fahren", "de.mit", "de.u_bahn", "de.und", "de.du"] },
     { "speaker": "sofia", "text": "Ich fahre mit dem Fahrrad. Das ist billig! Und du, Jonas?", "zh": "我骑自行车,便宜!约纳斯,你呢?", "items": ["de.ich", "de.fahren", "de.mit", "de.fahrrad", "de.das_ist", "de.billig", "de.und", "de.du"] },
     { "speaker": "jonas", "text": "Ich fahre mit dem Bus zum Restaurant.", "zh": "我坐公交车去餐馆。", "items": ["de.ich", "de.fahren", "de.mit", "de.bus", "de.zu", "de.restaurant"] },
@@ -32,7 +32,7 @@
   ],
   "grammar": [
     { "id": "de.g.u6_fahren_gehen", "titleZh": "fahren 还是 gehen?",
-      "bodyZh": "中文一个“去”字,德语要看怎么去:走路用 gehen,坐车、骑车、开车都用 fahren(坐飞机用 fliegen,本单元最后一课学)。\nfahren 是不规则动词,du 和 er / sie 的 a 变 ä:ich fahre / du fährst / er, sie fährt / wir fahren / ihr fahrt / sie, Sie fahren。\n坐什么车:mit + 交通工具:mit dem Bus、mit der U-Bahn、mit der S-Bahn、mit dem Auto、mit dem Fahrrad;走路说 zu Fuß gehen。\n骑自行车也用 fahren:Ich fahre mit dem Fahrrad.(英语说 ride a bike,德语没有专门的“骑”。)\n问别人怎么去:Wie fährst du zur Uni? / Wie fahren Sie zum Bahnhof?",
+      "bodyZh": "中文一个“去”字,德语要看怎么去:走路用 gehen,坐车、骑车、开车都用 fahren(坐飞机用 fliegen,本单元最后一课学)。不过只说“去做某事”、不强调怎么去时,常用 gehen:ins Kino gehen、in den Kurs gehen。\nfahren 是不规则动词,du 和 er / sie 的 a 变 ä:ich fahre / du fährst / er, sie fährt / wir fahren / ihr fahrt / sie, Sie fahren。\n坐什么车:mit + 交通工具:mit dem Bus、mit der U-Bahn、mit der S-Bahn、mit dem Auto、mit dem Fahrrad;走路说 zu Fuß gehen。\n骑自行车也用 fahren:Ich fahre mit dem Fahrrad.(英语说 ride a bike,德语骑车也说 fahren。)\n问别人怎么去:Wie fährst du zur Uni? / Wie fahren Sie zum Bahnhof?",
       "examples": [
         { "text": "Ich fahre mit der U-Bahn zur Uni.", "zh": "我坐地铁去大学。" },
         { "text": "Ich gehe gern zu Fuß.", "zh": "我喜欢走路。" }
@@ -45,5 +45,5 @@
         { "text": "Am Sonntag fahre ich nach Potsdam.", "zh": "星期天我去波茨坦。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

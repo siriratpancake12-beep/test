@@ -17,10 +17,10 @@
   ],
   "reviewItems": ["de.bank_geld", "de.strasse", "de.sie_hoeflich"],
   "lines": [
-    { "speaker": "wei", "text": "Guten Tag! Ich brauche ein Konto. Meine Bank ist in China.", "zh": "您好!我需要开一个账户。我的银行在中国。", "items": ["de.guten_tag", "de.ich", "de.brauchen", "de.ein", "de.konto", "de.mein", "de.bank_geld", "de.sein", "de.in", "de.china"] },
+    { "speaker": "wei", "text": "Guten Tag! Ich brauche ein Konto in Deutschland. Meine Bank ist in China.", "zh": "您好!我需要在德国开一个账户,我用的银行在中国。", "items": ["de.guten_tag", "de.ich", "de.brauchen", "de.ein", "de.konto", "de.in", "de.deutschland", "de.mein", "de.bank_geld", "de.sein", "de.china"] },
     { "speaker": "bankberaterin", "text": "Gern, dann füllen wir das Formular aus. Ihr Name, bitte?", "zh": "好的,那我们来填表。请问您的姓名?", "items": ["de.gern", "de.dann", "de.ausfuellen", "de.wir", "de.formular", "de.ihr_hoeflich", "de.name", "de.bitte"] },
     { "speaker": "wei", "text": "Mein Name ist Wang, mein Vorname ist Wei.", "zh": "我姓王,名字叫伟。", "items": ["de.mein", "de.name", "de.sein", "de.vorname"] },
-    { "speaker": "bankberaterin", "text": "Wie bitte? Können Sie Ihren Namen bitte buchstabieren?", "zh": "什么?您能拼一下您的姓吗?", "items": ["de.wie_bitte", "de.koennen", "de.sie_hoeflich", "de.ihr_hoeflich", "de.name", "de.bitte", "de.buchstabieren"] },
+    { "speaker": "bankberaterin", "text": "Wie bitte? Können Sie Ihren Namen bitte buchstabieren?", "zh": "您说什么?您能拼一下您的姓吗?", "items": ["de.wie_bitte", "de.koennen", "de.sie_hoeflich", "de.ihr_hoeflich", "de.name", "de.bitte", "de.buchstabieren"] },
     { "speaker": "wei", "text": "Ja, gern: W-A-N-G.", "zh": "好的:W-A-N-G(读作 we-a-en-ge)。", "items": ["de.ja", "de.gern"] },
     { "speaker": "bankberaterin", "text": "Danke. Und Ihre Adresse? In welcher Straße wohnen Sie?", "zh": "谢谢。您的地址呢?您住在哪条街?", "items": ["de.danke", "de.und", "de.ihr_hoeflich", "de.adresse", "de.in", "de.welche", "de.strasse", "de.wohnen", "de.sie_hoeflich"] },
     { "speaker": "wei", "text": "Musterstraße 12. Hier ist mein Pass. Kostet das Konto Geld?", "zh": "Musterstraße 12 号。这是我的护照。开这个账户要钱吗?", "items": ["de.strasse", "de.zwoelf", "de.hier", "de.sein", "de.mein", "de.pass", "de.kosten", "de.konto", "de.geld"] },
@@ -38,5 +38,5 @@
         { "text": "Wie ist Ihre Adresse?", "zh": "您的地址是什么?" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -16,18 +16,18 @@
   ],
   "reviewItems": ["de.bahnhof", "de.fahrkarte", "de.um", "de.nach"],
   "lines": [
-    { "speaker": "jonas", "text": "Wir sind sehr früh am Bahnhof, Wei! Kaufst du die Fahrkarten?", "zh": "伟,我们到火车站也太早了吧!你去买票?", "items": ["de.wir", "de.sein", "de.sehr", "de.frueh", "de.am", "de.bahnhof", "de.kaufen", "de.du", "de.fahrkarte"] },
+    { "speaker": "jonas", "text": "Wir sind sehr früh am Bahnhof, Wei! Kaufst du die Fahrkarten?", "zh": "王伟,我们到火车站也太早了吧!你去买票?", "items": ["de.wir", "de.sein", "de.sehr", "de.frueh", "de.am", "de.bahnhof", "de.kaufen", "de.du", "de.fahrkarte"] },
     { "speaker": "wei", "text": "Guten Tag! Zwei Fahrkarten nach Hamburg, hin und zurück, bitte.", "zh": "您好!两张去汉堡的往返票,谢谢。", "items": ["de.guten_tag", "de.zwei", "de.fahrkarte", "de.nach", "de.hin_und_zurueck", "de.bitte"] },
     { "speaker": "fahrkartenverkaeufer", "text": "Gern. Der nächste Zug fährt um vierzehn Uhr zweiunddreißig ab.", "zh": "好的。下一班火车 14:32 开。", "items": ["de.gern", "de.naechste", "de.zug", "de.abfahren", "de.um", "de.vier", "de.zehn", "de.uhr", "de.zwei", "de.und", "de.dreissig"] },
     { "speaker": "wei", "text": "Welches Gleis? Und wann kommen wir in Hamburg an?", "zh": "几号站台?我们几点到汉堡?", "items": ["de.welche", "de.gleis", "de.und", "de.wann", "de.ankommen", "de.wir", "de.in"] },
     { "speaker": "fahrkartenverkaeufer", "text": "Gleis sieben. Um sechzehn Uhr vierzig. Gute Reise!", "zh": "7 号站台。16:40 到。祝您旅途愉快!", "items": ["de.gleis", "de.sieben", "de.um", "de.sechzehn", "de.uhr", "de.vierzig", "de.gut", "de.reise"] },
-    { "speaker": "durchsage", "text": "Gleis sieben: Der Zug nach Hamburg hat zehn Minuten Verspätung.", "zh": "(车站广播)7 号站台:开往汉堡的火车晚点十分钟。", "items": ["de.gleis", "de.sieben", "de.zug", "de.nach", "de.haben", "de.zehn", "de.minute", "de.verspaetung"] },
+    { "speaker": "durchsage", "text": "Gleis sieben: Der Zug nach Hamburg um vierzehn Uhr zweiunddreißig hat zehn Minuten Verspätung.", "zh": "(车站广播)7 号站台:14:32 开往汉堡的火车晚点十分钟。", "items": ["de.gleis", "de.sieben", "de.zug", "de.nach", "de.um", "de.vier", "de.zehn", "de.uhr", "de.zwei", "de.und", "de.dreissig", "de.haben", "de.minute", "de.verspaetung"] },
     { "speaker": "wei", "text": "Welcher Zug hat Verspätung? Unser Zug?", "zh": "哪趟车晚点?我们这趟吗?", "items": ["de.welche", "de.zug", "de.haben", "de.verspaetung", "de.unser"] },
     { "speaker": "jonas", "text": "Ja. Nur zehn Minuten? Das ist pünktlich!", "zh": "对。才晚十分钟?那就算准时啦!", "items": ["de.ja", "de.nur", "de.zehn", "de.minute", "de.das_ist", "de.puenktlich"] }
   ],
   "questions": [
-    { "prompt": "去汉堡的火车几点开?", "options": ["14:23", "14:32", "16:40"], "answer": 1, "explainZh": "售票员说:Der nächste Zug fährt um vierzehn Uhr zweiunddreißig ab.(zweiunddreißig 先说个位“二”,再说十位“三十”= 32)" },
-    { "prompt": "火车从几号站台开?", "options": ["1 号", "17 号", "7 号"], "answer": 2, "explainZh": "售票员说 Gleis sieben(7 号站台);广播也说 Gleis sieben。17 是 siebzehn。" },
+    { "prompt": "去汉堡的火车几点开?", "options": ["14:23", "16:40", "14:32"], "answer": 2, "explainZh": "售票员说:Der nächste Zug fährt um vierzehn Uhr zweiunddreißig ab.(zweiunddreißig 先说个位“二”,再说十位“三十”= 32)" },
+    { "prompt": "火车从几号站台开?", "options": ["1 号", "7 号", "17 号"], "answer": 1, "explainZh": "售票员说 Gleis sieben(7 号站台);广播也说 Gleis sieben。17 是 siebzehn。" },
     { "prompt": "约纳斯对晚点十分钟怎么看?", "options": ["开玩笑说这就算准时了", "很生气,要去找工作人员", "想改坐汽车去汉堡"], "answer": 0, "explainZh": "约纳斯说:Nur zehn Minuten? Das ist pünktlich!——他在开玩笑:德国火车常常晚点,晚十分钟不算什么。" }
   ],
   "grammar": [
@@ -39,5 +39,5 @@
         { "text": "Der Zug hat zehn Minuten Verspätung.", "zh": "火车晚点十分钟。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

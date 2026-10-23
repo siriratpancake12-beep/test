@@ -13,7 +13,7 @@
     { "id": "de.finden", "kind": "word", "pos": "verb", "text": "finden", "zh": "觉得;找到", "features": { "ipa": "ˈfɪndn̩" }, "noteZh": "问看法:Wie findest du die Jacke? – Ich finde sie schön.;也表示“找到”:Ich finde den Schlüssel nicht.;du findest, er findet(要加 e)。" },
     { "id": "de.ihn", "kind": "word", "pos": "pron", "text": "ihn", "zh": "他;它(阳性第四格)", "features": { "ipa": "iːn" }, "noteZh": "阳性名词做宾语时用 ihn:Der Pullover? Ich nehme ihn.;阴性用 sie,中性用 es,复数用 sie;英语东西都用 it,德语要看名词的性。" },
     { "id": "de.passen", "kind": "word", "pos": "verb", "text": "passen", "zh": "合适;合身", "features": { "ipa": "ˈpasn̩" }, "noteZh": "主语是衣服:Die Jacke passt gut.(这件外套很合身。)约时间时 Das passt. = 这个时间可以。" },
-    { "id": "de.zu_adv", "kind": "word", "pos": "adv", "text": "zu", "zh": "太(过于)", "features": { "ipa": "tsuː" }, "noteZh": "zu + 形容词 = 太……(不好、不合适):zu klein、zu teuer;夸奖要用 sehr(Sehr schön!),不能用 zu;和介词 zu(到……去)同形。" }
+    { "id": "de.zu_adv", "kind": "word", "pos": "adv", "text": "zu", "zh": "太(过于)", "features": { "ipa": "tsuː" }, "noteZh": "zu + 形容词 = 太……(不好、不合适):zu klein、zu teuer;夸奖一般用 sehr(Sehr schön!),不用 zu;和介词 zu(到……去)同形。" }
   ],
   "reviewItems": ["de.jacke", "de.pullover", "de.schoen", "de.teuer"],
   "lines": [
@@ -38,12 +38,12 @@
         { "text": "Das Hemd ist billig. Ich kaufe es.", "zh": "这件衬衫很便宜,我买了。" }
       ] },
     { "id": "de.g.finden_zu_passen", "titleZh": "Wie findest du …?——finden、zu(太)和 passen",
-      "bodyZh": "问看法:Wie findest du die Jacke?(你觉得这件外套怎么样?)回答:Ich finde sie schön.——finden 后面先放东西(第四格),再放形容词,形容词不变。zu + 形容词表示“太……”,一定是不好、不合适的意思:zu klein(太小,穿不了)、zu teuer(太贵,不买)。中文说“太好看了”是夸奖,德语这时要说 sehr schön,说 zu schön 反而奇怪。合不合身用 passen,主语是衣服:Die Jacke passt gut.(这件外套很合身。)颜色当名词用时首字母大写:die Jacke in Blau(蓝色那件)。",
+      "bodyZh": "问看法:Wie findest du die Jacke?(你觉得这件外套怎么样?)回答:Ich finde sie schön.——finden 后面先放东西(第四格),再放形容词,形容词不变。zu + 形容词表示“太……”,一般是超过了合适的程度,所以不好、不合适:zu klein(太小,穿不了)、zu teuer(太贵,不买)。中文说“太好看了”是夸奖,德语夸奖一般说 sehr schön。合不合身用 passen,主语是衣服:Die Jacke passt gut.(这件外套很合身。)颜色当名词用时首字母大写:die Jacke in Blau(蓝色那件)。",
       "examples": [
         { "text": "Wie findest du den Pullover?", "zh": "你觉得这件毛衣怎么样?" },
         { "text": "Die Jacke ist zu klein.", "zh": "这件外套太小了。" },
         { "text": "Die Jacke in Blau passt sehr gut.", "zh": "蓝色那件很合身。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

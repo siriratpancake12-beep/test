@@ -17,7 +17,7 @@
   ],
   "reviewItems": ["de.wo", "de.hier", "de.es_gibt"],
   "lines": [
-    { "speaker": "lena", "text": "Das ist dein Viertel, Wei. Hier ist die Post.", "zh": "伟,这就是你住的街区。这儿是邮局。", "items": ["de.das_ist", "de.dein", "de.viertel", "de.hier", "de.sein", "de.post"] },
+    { "speaker": "lena", "text": "Das ist dein Viertel, Wei. Hier ist die Post.", "zh": "王伟,这就是你住的街区。这儿是邮局。", "items": ["de.das_ist", "de.dein", "de.viertel", "de.hier", "de.sein", "de.post"] },
     { "speaker": "wei", "text": "Und wo ist die Apotheke?", "zh": "那药店在哪儿?", "items": ["de.und", "de.wo", "de.sein", "de.apotheke"] },
     { "speaker": "lena", "text": "Hier, und das ist die Bank.", "zh": "就在这儿。这是银行。", "items": ["de.hier", "de.und", "de.das_ist", "de.bank_geld"] },
     { "speaker": "wei", "text": "Gibt es hier auch eine Haltestelle?", "zh": "这儿也有公交车站吗?", "items": ["de.es_gibt", "de.hier", "de.auch", "de.ein", "de.haltestelle"] },
@@ -42,5 +42,5 @@
         { "text": "Die Uni hat eine Bibliothek.", "zh": "大学里有图书馆。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

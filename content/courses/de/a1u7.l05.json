@@ -32,11 +32,11 @@
   ],
   "grammar": [
     { "id": "de.g.datum_telefon", "titleZh": "am 17. Mai:日期的说法和打电话",
-      "bodyZh": "“在几月”用 im:im März、im Mai;“在几号”用 am + 序数词:am 12. April 读作 am zwölften April,am 17. Mai 读作 am siebzehnten Mai(1–19 号加 -ten,20 号以后加 -sten,如 am zwanzigsten)。写的时候数字后面加点:12.。中文“5 月 17 日”月在前,德语日在前:17. Mai。打电话时先报自己的名字:Hier ist Wei Wang.(我是王伟。)anrufen(打电话)是可分动词,前缀 an 放句末:Ich rufe Sie an.;被叫的人直接用第四格(Sie、dich、Lena),不像中文要说“给您打”。",
+      "bodyZh": "“在几月”用 im:im März、im Mai;“在几号”用 am + 序数词:am 12. April 读作 am zwölften April,am 17. Mai 读作 am siebzehnten Mai(1–19 号加 -ten,20 号以后加 -sten,如 am zwanzigsten;特殊的是 am ersten、am dritten、am siebten、am achten)。写的时候数字后面加点:12.。中文“5 月 17 日”月在前,德语日在前:17. Mai。打电话时先报自己的名字:Hier ist Wei Wang.(我是王伟。)anrufen(打电话)是可分动词,前缀 an 放句末:Ich rufe Sie an.;被叫的人直接用第四格(Sie、dich、Lena),不像中文要说“给您打”。挂电话时德国人常说 Auf Wiederhören!(hören = 听),说 Auf Wiedersehen! 也可以。",
       "examples": [
         { "text": "Am 17. Mai ist ein Termin frei.", "zh": "5 月 17 日有一个空位。" },
         { "text": "Ich rufe Sie morgen an.", "zh": "我明天给您打电话。" }
       ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -1,0 +1,46 @@
+{
+  "id": "ja.a1u2.l03", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-2 片假名与自我介绍", "order": 102030,
+  "titleZh": "片假名③:ナ行、ハ行;你是学生吗?", "goalZh": "认读、书写 ナ行和ハ行的 10 个片假名,学会用“〜ですか”提问",
+  "canDoZh": "能认读、写出 ナニヌネノ ハヒフヘホ;能用“〜ですか”问别人的身份和国籍,用 はい / いいえ 回答",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ja.kata_na", "kind": "char", "pos": "char", "text": "ナ", "zh": "na(=な)", "features": { "roman": "na" }, "noteZh": "取自“奈”的左上部。和 メ 区分:ナ 是一横一撇。" },
+    { "id": "ja.kata_ni", "kind": "char", "pos": "char", "text": "ニ", "zh": "ni(=に)", "features": { "roman": "ni" }, "noteZh": "取自“仁”的右边,像汉字“二”。" },
+    { "id": "ja.kata_nu", "kind": "char", "pos": "char", "text": "ヌ", "zh": "nu(=ぬ)", "features": { "roman": "nu" }, "noteZh": "取自“奴”的右边,像汉字“又”。和 ス 区分:ヌ 中间多一点。" },
+    { "id": "ja.kata_ne", "kind": "char", "pos": "char", "text": "ネ", "zh": "ne(=ね)", "features": { "roman": "ne" }, "noteZh": "取自“祢”的左边,像偏旁“礻”。" },
+    { "id": "ja.kata_no", "kind": "char", "pos": "char", "text": "ノ", "zh": "no(=の)", "features": { "roman": "no" }, "noteZh": "取自“乃”,只有一撇。" },
+    { "id": "ja.kata_ha", "kind": "char", "pos": "char", "text": "ハ", "zh": "ha(=は)", "features": { "roman": "ha" }, "noteZh": "取自“八”,形状也像“八”。" },
+    { "id": "ja.kata_hi", "kind": "char", "pos": "char", "text": "ヒ", "zh": "hi(=ひ)", "features": { "roman": "hi" }, "noteZh": "取自“比”的右边。" },
+    { "id": "ja.kata_fu", "kind": "char", "pos": "char", "text": "フ", "zh": "fu(=ふ)", "features": { "roman": "fu" }, "noteZh": "取自“不”。和 ワ、ウ 区分:フ 只有一笔。" },
+    { "id": "ja.kata_he", "kind": "char", "pos": "char", "text": "ヘ", "zh": "he(=へ)", "features": { "roman": "he" }, "noteZh": "取自“部”的右边。和平假名 へ 几乎一样,写片假名时稍微直一点。" },
+    { "id": "ja.kata_ho", "kind": "char", "pos": "char", "text": "ホ", "zh": "ho(=ほ)", "features": { "roman": "ho" }, "noteZh": "取自“保”的右下,像汉字“木”。" },
+    { "id": "ja.gakusei", "kind": "word", "pos": "noun", "text": "学生", "zh": "学生", "features": { "reading": "がくせい", "roman": "gakusei", "pitch": 0 }, "noteZh": "音读:学 がく、生 せい。せい 的 い 读得像把 e 拉长(sē)。" },
+    { "id": "ja.ka_p", "kind": "word", "pos": "particle", "text": "か", "zh": "疑问助词(句末,相当于“吗”)", "features": { "roman": "ka" }, "noteZh": "放在句末表示疑问,语调上扬:学生ですか。日语书面上句末一般用“。”,不一定加问号。" }
+  ],
+  "reviewItems": ["ja.chuugoku", "ja.jin", "ja.hai", "ja.iie"],
+  "lines": [
+    { "speaker": "rin", "text": "キットさんは タイ人ですか。", "zh": "基特,你是泰国人吗?", "reading": "キットさんは タイじんですか。", "roman": "Kitto-san wa Taijin desu ka.", "tokens": ["キット", "さん", "は", "タイ人", "です", "か。"], "items": ["ja.san", "ja.wa_p", "ja.jin", "ja.desu", "ja.ka_p"] },
+    { "speaker": "kurasumeito", "text": "はい、タイ人です。", "zh": "是的,我是泰国人。", "reading": "はい、タイじんです。", "roman": "Hai, Taijin desu.", "tokens": ["はい、", "タイ人", "です。"], "items": ["ja.hai", "ja.jin", "ja.desu"] },
+    { "speaker": "kurasumeito", "text": "ジウさんは 中国人ですか。", "zh": "智友,你是中国人吗?", "reading": "ジウさんは ちゅうごくじんですか。", "roman": "Jiu-san wa Chuugokujin desu ka.", "tokens": ["ジウ", "さん", "は", "中国人", "です", "か。"], "items": ["ja.san", "ja.wa_p", "ja.chuugoku", "ja.jin", "ja.desu", "ja.ka_p"] },
+    { "speaker": "jiu", "text": "いいえ。韓国人です。", "zh": "不是。我是韩国人。", "reading": "いいえ。かんこくじんです。", "roman": "Iie. Kankokujin desu.", "tokens": ["いいえ。", "韓国人", "です。"], "items": ["ja.iie", "ja.jin", "ja.desu"] },
+    { "speaker": "jiu", "text": "リンさん、さきさんは 学生ですか。", "zh": "林雨,咲是学生吗?", "reading": "リンさん、さきさんは がくせいですか。", "roman": "Rin-san, Saki-san wa gakusei desu ka.", "tokens": ["リン", "さん、", "さき", "さん", "は", "学生", "です", "か。"], "items": ["ja.san", "ja.wa_p", "ja.gakusei", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "はい、学生です。", "zh": "是的,她是学生。", "reading": "はい、がくせいです。", "roman": "Hai, gakusei desu.", "tokens": ["はい、", "学生", "です。"], "items": ["ja.hai", "ja.gakusei", "ja.desu"] },
+    { "speaker": "narrator", "text": "ナ ニ ヌ ネ ノ", "zh": "ナ行:na ni nu ne no", "roman": "na ni nu ne no", "tokens": ["ナ", "ニ", "ヌ", "ネ", "ノ"], "items": ["ja.kata_na", "ja.kata_ni", "ja.kata_nu", "ja.kata_ne", "ja.kata_no"] },
+    { "speaker": "narrator", "text": "ハ ヒ フ ヘ ホ", "zh": "ハ行:ha hi fu he ho", "roman": "ha hi fu he ho", "tokens": ["ハ", "ヒ", "フ", "ヘ", "ホ"], "items": ["ja.kata_ha", "ja.kata_hi", "ja.kata_fu", "ja.kata_he", "ja.kata_ho"] }
+  ],
+  "questions": [
+    { "prompt": "林雨问基特什么?", "options": ["是不是学生", "是不是中国人", "是不是泰国人"], "answer": 2, "explainZh": "林雨问:キットさんは タイ人ですか。(基特,你是泰国人吗?)基特回答 はい、タイ人です。" },
+    { "prompt": "基特以为智友是哪国人?她其实是哪国人?", "options": ["以为是中国人,其实是韩国人", "以为是韩国人,其实是中国人", "以为是泰国人,其实是韩国人"], "answer": 0, "explainZh": "基特问:ジウさんは 中国人ですか。智友回答:いいえ。韓国人です。(不是。我是韩国人。)" },
+    { "prompt": "智友问林雨:さきさんは 学生ですか。林雨怎么回答?", "options": ["いいえ。", "はい、学生です。", "韓国人です。"], "answer": 1, "explainZh": "林雨说:はい、学生です。(是的,她是学生。)回答“是”用 はい,后面再重复一遍 学生です。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.desuka", "titleZh": "〜ですか:是……吗?",
+      "bodyZh": "把 です 换成 ですか,陈述句就变成疑问句,语序不变,句末语调上扬:学生です(是学生)→ 学生ですか(是学生吗?)。か 相当于中文的“吗”,也放在句末。回答“是”说 はい、学生です;回答“不是”先说 いいえ,再说出正确的情况:いいえ。韓国人です(不,是韩国人)。“不是……”的完整说法第 5 课学。日语书面上问句末尾一般用“。”,也可以用“?”。问对方的事也用“名字 + さんは 〜ですか”,不用“你”。",
+      "examples": [ { "text": "キットさんは タイ人ですか。", "zh": "基特,你是泰国人吗?" }, { "text": "はい、タイ人です。", "zh": "是的,是泰国人。" }, { "text": "ジウさんは 中国人ですか。—いいえ。韓国人です。", "zh": "智友,你是中国人吗?——不,我是韩国人。" } ] },
+    { "id": "ja.g.kata_na_ha", "titleZh": "ナ行、ハ行:借汉字记片假名",
+      "bodyZh": "这两行很多字可以借汉字记:ニ 像“二”,ハ 像“八”,ネ 像偏旁“礻”,ヌ 像“又”,ホ 像“木”。ノ 只有一撇。ヘ 和平假名 へ 几乎一样,写片假名时稍直一点。容易混的:ヌ / ス(ヌ 中间多一点)、ナ / メ(ナ 是一横一撇,メ 是一撇一点交叉,第 4 课学)、フ / ワ(フ 只有一笔,ワ 第 5 课学)。ハ行加 ゛゜ 的规则和平假名一样:バ(ba)、パ(pa)。",
+      "examples": [ { "text": "テニス", "zh": "网球(te-ni-su)" }, { "text": "ネクタイ", "zh": "领带(ne-ku-ta-i)" }, { "text": "ナイフ", "zh": "刀;餐刀(na-i-fu)" } ] }
+  ],
+  "review": "draft"
+}
