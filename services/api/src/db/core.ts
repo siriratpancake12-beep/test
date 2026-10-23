@@ -2,7 +2,7 @@ import { sql, type Kysely } from "kysely";
 
 /**
  * 账号、登录、进度、埋点的表。负责人:服务器主体(server-core)。
- * 其他模块的表在 billing.ts、ai.ts。迁移按 core → billing → ai 的顺序执行。
+ * 其他模块的表在 billing.ts、ai.ts、jobs.ts(定时任务)。迁移按 core → billing → ai → jobs 的顺序执行。
  *
  * 时间一律由服务器代码传入(deps.now()),不用数据库的 now():测试可以拨时钟,多台服务器也以同一种方式取时间。
  */
@@ -128,4 +128,6 @@ export async function migrateCore(db: Kysely<any>): Promise<void> {
   await db.schema.createIndex("events_name_at").ifNotExists().on("events").columns(["name", "at"]).execute();
   await db.schema.createIndex("events_user_at").ifNotExists().on("events").columns(["user_id", "at"]).execute();
   await db.schema.createIndex("events_anon").ifNotExists().on("events").column("anon_id").execute();
+  // 保存期限:使用统计自收集(服务器收到)之日起不超过 24 个月,每天按它删(jobs/retention.ts)
+  await db.schema.createIndex("events_received_at").ifNotExists().on("events").column("received_at").execute();
 }

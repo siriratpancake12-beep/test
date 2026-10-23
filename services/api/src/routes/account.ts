@@ -3,6 +3,7 @@ import { ROUTES, type User } from "@lingo/core";
 import type { Deps } from "../app";
 import { deleteAiUsage } from "../db/ai";
 import { forgetBillingUser } from "../db/billing";
+import { forgetRenewalSms } from "../db/jobs";
 import { unauthorized } from "../errors";
 import { requireUser } from "../auth/session";
 import { toUser } from "../auth/users";
@@ -16,9 +17,11 @@ import { toUser } from "../auth/users";
  * - 删除学习进度、这个手机号的验证码记录(含 IP)、AI 老师和发音评测的用量记录
  * - 订阅:删除订阅状态;交易流水保留(对账、退款、指标要用),但 user_id 置空,和这个人不再关联;
  *   订阅换绑记录里的这个 id 改成 "deleted"(见 db/billing.ts 的 forgetBillingUser)
- * - 埋点保留(用于统计),user_id 同样置空
+ * - 埋点保留(用于统计),user_id 同样置空;扣费前短信的记录(提醒过的凭据)也一样
  * - 之后这个账号不能再登录;同一个手机号、苹果账号、微信可以重新注册成一个新账号
  * 注销不等于取消苹果订阅(订阅在用户的 Apple ID 下),App 里注销前会提示。
+ * 注销那一刻正在进行的请求可能在注销之后又写进来,每天的清理任务会再扫一遍(jobs/retention.ts)。
+ * 埋点、交易流水之后按《隐私政策》的保存期限删除(同上)。
  */
 export function registerAccount(app: FastifyInstance, deps: Deps) {
   const { db, config } = deps;
@@ -61,6 +64,7 @@ export function registerAccount(app: FastifyInstance, deps: Deps) {
       if (row?.phone) await trx.deleteFrom("sms_codes").where("phone", "=", row.phone).execute();
       await deleteAiUsage(trx, userId);
       await forgetBillingUser(trx, userId);
+      await forgetRenewalSms(trx, userId);
     });
     req.log.info({ userId }, "账号已注销");
     return reply.status(204).send();

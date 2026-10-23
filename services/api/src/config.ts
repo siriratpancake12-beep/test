@@ -1,3 +1,5 @@
+import { Phone } from "@lingo/core";
+
 /**
  * 服务器配置,全部来自环境变量。密钥只放在服务器环境变量里,不进代码仓库、不下发给 App。
  * 没配的服务自动降级:没有数据库地址用内置 PGlite(本机文件);没有短信服务商就把验证码打在日志里(仅开发)。
@@ -20,7 +22,21 @@ export interface Config {
    * TRUST_PROXY:逗号分隔的 IP / 网段;true = 全信(只在服务器绝对不可能被直连时用);false = 不信;数字 = 信最近 N 跳。
    */
   trustProxy: boolean | number | string[];
-  sms: { provider: "dev" | "aliyun"; aliyunAccessKeyId?: string; aliyunAccessKeySecret?: string; signName?: string; templateCode?: string };
+  sms: {
+    provider: "dev" | "aliyun"; aliyunAccessKeyId?: string; aliyunAccessKeySecret?: string; signName?: string; templateCode?: string;
+    /** 扣费前提醒的短信模板 CODE(SMS_RENEWAL_TEMPLATE_CODE);不配就不发扣费前短信(见 jobs/renewal-sms.ts) */
+    renewalTemplateCode?: string;
+  };
+  /**
+   * 审核专用账号(App Store 和安卓商店审核时要能登录):这个手机号点"获取验证码"不发短信,验证码固定。
+   * REVIEW_PHONE、REVIEW_CODE 两个都配了才开,默认关闭。除了不发短信,有效期、错 5 次作废、限流都和普通手机号一样。
+   */
+  review: { phone: string; code: string } | null;
+  /**
+   * 服务器里的定时任务(按保存期限清理数据、扣费前短信提醒),默认开。多台服务器同时开也只有一台在跑(jobs/runner.ts)。
+   * JOBS_ENABLED=false:不在服务器里跑,改用 npm run purge / npm run renewal-sms 由外部定时调用。
+   */
+  jobs: { enabled: boolean };
   apple: {
     bundleId: string;
     appAppleId?: number;
@@ -55,6 +71,29 @@ export function parseTrustProxy(v: string | undefined): boolean | number | strin
   return s.split(",").map((x) => x.trim()).filter(Boolean);
 }
 
+/**
+ * 太容易猜的固定验证码(六位一样、顺子)不让用:审核手机号要写进提交给各家商店的审核备注,不算绝对保密,
+ * 知道号码的人会先试 000000、123456。
+ */
+export function weakCode(code: string): boolean {
+  return /^(\d)\1{5}$/.test(code) || "01234567890".includes(code) || "09876543210".includes(code);
+}
+
+/** 审核账号:两个变量都配了才开;只配了一个就不开并提醒;配了但格式不对直接启动失败(免得审核时才发现登录不了) */
+export function parseReviewAccount(phone: string | undefined, code: string | undefined, mode: Config["env"]): Config["review"] {
+  const p = phone?.trim() ?? "";
+  const c = code?.trim() ?? "";
+  if (!p && !c) return null;
+  if (!p || !c) {
+    if (mode !== "test") console.warn("[登录] 审核账号没有开启:REVIEW_PHONE 和 REVIEW_CODE 要一起配置");
+    return null;
+  }
+  if (!Phone.safeParse(p).success) throw new Error("REVIEW_PHONE 必须是 11 位中国大陆手机号");
+  if (!/^\d{6}$/.test(c)) throw new Error("REVIEW_CODE 必须是 6 位数字");
+  if (weakCode(c)) throw new Error("REVIEW_CODE 太容易猜(000000、123456 这类),请换一个随机的 6 位数");
+  return { phone: p, code: c };
+}
+
 export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
   const mode = env.NODE_ENV === "production" ? "production" : env.NODE_ENV === "test" ? "test" : "development";
   const cfg: Config = {
@@ -71,7 +110,10 @@ export function loadConfig(env: NodeJS.ProcessEnv = process.env): Config {
       aliyunAccessKeySecret: env.ALIYUN_ACCESS_KEY_SECRET,
       signName: env.SMS_SIGN_NAME,
       templateCode: env.SMS_TEMPLATE_CODE,
+      renewalTemplateCode: env.SMS_RENEWAL_TEMPLATE_CODE?.trim() || undefined,
     },
+    review: parseReviewAccount(env.REVIEW_PHONE, env.REVIEW_CODE, mode),
+    jobs: { enabled: !/^(false|no|off|0)$/i.test((env.JOBS_ENABLED ?? "").trim()) },
     apple: {
       bundleId: env.APPLE_BUNDLE_ID || "com.example.lingocn",
       appAppleId: env.APPLE_APP_ID ? Number(env.APPLE_APP_ID) : undefined,

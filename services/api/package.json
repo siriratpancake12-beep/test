@@ -6,6 +6,8 @@
   "scripts": {
     "dev": "node --import tsx --watch src/server.ts",
     "start": "node --import tsx src/server.ts",
+    "purge": "node --import tsx src/jobs/cli.ts purge",
+    "renewal-sms": "node --import tsx src/jobs/cli.ts renewal-sms",
     "test": "vitest run",
     "typecheck": "tsc --noEmit -p ."
   },

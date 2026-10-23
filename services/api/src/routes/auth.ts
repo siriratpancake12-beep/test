@@ -6,7 +6,7 @@ import type { Deps } from "../app";
 import type { Config } from "../config";
 import type { Database } from "../db";
 import { HttpError, badRequest, tooMany } from "../errors";
-import { createAliyunSmsSender } from "../auth/aliyun-sms";
+import { createAliyunSmsNotifier, createAliyunSmsSender } from "../auth/aliyun-sms";
 import { AppleUnavailableError, createAppleIdVerifier } from "../auth/apple";
 import { createAppleTokenClient } from "../auth/apple-tokens";
 import { installAccountCheck, signSession } from "../auth/session";
@@ -20,6 +20,10 @@ import { WechatError, createWechatClient } from "../auth/wechat";
  */
 export interface SmsSender {
   send(phone: string, code: string): Promise<void>;
+}
+/** 通知短信(扣费前提醒):模板 CODE 和模板变量由调用方给;签名、AccessKey 和验证码短信共用 */
+export interface SmsNotifier {
+  notify(phone: string, templateCode: string, params: Record<string, string>): Promise<void>;
 }
 export interface AppleIdVerifier {
   /** 校验 App 拿到的 identityToken(苹果签名的 JWT),返回苹果用户 id */
@@ -71,6 +75,19 @@ export function createSmsSender(config: Config): SmsSender {
   return createAliyunSmsSender({ accessKeyId: aliyunAccessKeyId!, accessKeySecret: aliyunAccessKeySecret!, signName: signName!, templateCode: templateCode! });
 }
 
+/** 开发用:通知短信也打在日志里(生产环境不允许 SMS_PROVIDER=dev) */
+const devNotifier: SmsNotifier = {
+  async notify(phone, templateCode, params) { console.log(`[开发短信] ${phone} 模板 ${templateCode} ${JSON.stringify(params)}`); },
+};
+
+/** 通知短信用验证码短信的 AccessKey 和签名;配置齐不齐由 createSmsSender 在启动时检查 */
+export function createSmsNotifier(config: Config): SmsNotifier {
+  if (config.sms.provider !== "aliyun") return devNotifier;
+  createSmsSender(config);
+  const { aliyunAccessKeyId, aliyunAccessKeySecret, signName } = config.sms;
+  return createAliyunSmsNotifier({ accessKeyId: aliyunAccessKeyId!, accessKeySecret: aliyunAccessKeySecret!, signName: signName! });
+}
+
 /** 从某个时间起发了几条。op 为 ">=" 时含这一刻(自然日从 0 点算起),">" 时不含(滑动窗口:正好一小时前的那条已经不算) */
 async function countSms(db: Kysely<Database>, col: "phone" | "ip", value: string, op: ">=" | ">", since: Date): Promise<number> {
   const r = await db
@@ -98,7 +115,10 @@ export function registerAuth(app: FastifyInstance, deps: Deps) {
     // 负载均衡后面的真实 IP 由 Fastify 按 trustProxy 从 X-Forwarded-For 取(见 config.trustProxy)
     const ip = req.ip || "unknown";
     const now = deps.now();
-    const code = newSmsCode();
+    // 审核专用手机号:验证码固定、不发短信;除此以外(只存哈希、5 分钟有效、错 5 次作废、限流)和普通手机号走同一套
+    const review = config.review?.phone === phone ? config.review : null;
+    const code = review ? review.code : newSmsCode();
+    const perDay = review ? SMS_RULES.reviewPhonePerDay : SMS_RULES.phonePerDay;
     const id = randomUUID();
     await db.transaction().execute(async (trx) => {
       // 同一手机号的请求排队检查,两个请求同时来也不会都通过"60 秒一次"
@@ -108,7 +128,7 @@ export function registerAuth(app: FastifyInstance, deps: Deps) {
         const wait = SMS_RULES.phoneCooldownMs - (now.getTime() - new Date(last.created_at).getTime());
         if (wait > 0) throw tooMany(`发送太频繁,请 ${Math.ceil(wait / 1000)} 秒后再试`);
       }
-      if ((await countSms(trx, "phone", phone, ">=", beijingDayStart(now))) >= SMS_RULES.phonePerDay) {
+      if ((await countSms(trx, "phone", phone, ">=", beijingDayStart(now))) >= perDay) {
         throw tooMany("今天获取验证码的次数太多了,请明天再试");
       }
       if ((await countSms(trx, "ip", ip, ">", new Date(now.getTime() - 3_600_000))) >= SMS_RULES.ipPerHour) {
@@ -127,6 +147,11 @@ export function registerAuth(app: FastifyInstance, deps: Deps) {
         })
         .execute();
     });
+    if (review) {
+      // 日志里不记手机号和验证码
+      req.log.info("审核账号获取验证码:不发短信,用固定验证码");
+      return { ok: true };
+    }
     // 发短信是网络调用,放在事务外面,不占着数据库连接等短信服务商
     try {
       await deps.sms.send(phone, code);
@@ -192,7 +217,12 @@ export function registerAuth(app: FastifyInstance, deps: Deps) {
             req.log.warn({ userId: user.id }, "授权码和登录的苹果账号不一致,不保存");
             return;
           }
-          await db.updateTable("users").set({ apple_refresh_token: got.refreshToken }).where("id", "=", user.id).execute();
+          const saved = await db.updateTable("users").set({ apple_refresh_token: got.refreshToken })
+            .where("id", "=", user.id).where("deleted_at", "is", null).executeTakeFirst();
+          // 换到令牌之前账号已经注销了(苹果慢、用户很快注销):不存,直接撤销,和注销时的处理一样
+          if (!Number(saved.numUpdatedRows)) {
+            await tokens.revoke(got.refreshToken).catch((err: unknown) => req.log.error({ err, userId: user.id }, "向苹果撤销授权失败"));
+          }
         } catch (err) {
           req.log.warn({ err, userId: user.id }, "用授权码换苹果刷新令牌失败(不影响登录)");
         }
