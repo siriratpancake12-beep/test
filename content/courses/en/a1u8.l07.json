@@ -1,0 +1,53 @@
+{
+  "id": "en.a1u8.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-8 Last weekend", "order": 108070,
+  "titleZh": "我闹过的笑话", "goalZh": "会用 said、thought、told 讲一个自己闹过的小笑话,并回应别人的故事", "canDoZh": "能讲一个自己闹过的小笑话:当时发生了什么、别人说了什么、我以为是什么意思",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "en.say", "kind": "word", "pos": "verb", "text": "say", "zh": "说", "features": { "ipa": "seɪ" }, "noteZh": "过去式 said 读 /sed/,不读 /seɪd/;say 后面直接接说的话:She said, \"Thank you!\"" },
+    { "id": "en.think", "kind": "word", "pos": "verb", "text": "think", "zh": "想;认为;以为", "features": { "ipa": "θɪŋk" }, "noteZh": "过去式 thought /θɑːt/;th 是清音 /θ/,舌尖放在上下齿之间,别读成 s 或 f。I thought… 我(当时)以为……" },
+    { "id": "en.tell", "kind": "word", "pos": "verb", "text": "tell", "zh": "告诉;对……说", "features": { "ipa": "tel" }, "noteZh": "过去式 told;tell 后面直接跟人:I told her…(不说 told to her);say 后面不直接跟人。" },
+    { "id": "en.mean", "kind": "word", "pos": "verb", "text": "mean", "zh": "意思是", "features": { "ipa": "miːn" }, "noteZh": "过去式 meant /ment/;第 1 单元的 What does that mean? 就是这个词。I thought it meant… 我以为它的意思是……" },
+    { "id": "en.mistake", "kind": "word", "pos": "noun", "text": "mistake", "zh": "错误", "features": { "ipa": "mɪˈsteɪk" }, "noteZh": "重音在后 mis-TAKE;Mistakes are OK. 犯错没关系。“犯错”英语说 make a mistake。" },
+    { "id": "en.salt", "kind": "word", "pos": "noun", "text": "salt", "zh": "盐", "features": { "ipa": "sɑːlt" }, "noteZh": "美式读 /sɑːlt/,l 要带出来,别读成“扫特”;salt and sugar 盐和糖。" },
+    { "id": "en.put", "kind": "word", "pos": "verb", "text": "put", "zh": "放", "features": { "ipa": "pʊt" }, "noteZh": "过去式还是 put;put salt in the coffee 往咖啡里放盐;u 读短的 /ʊ/。" },
+    { "id": "en.by", "kind": "word", "pos": "prep", "text": "by", "zh": "乘(交通工具)", "features": { "ipa": "baɪ" }, "noteZh": "by bus 坐公交、by train 坐火车,中间不加 the;By bus. 也可以单独用来回答“怎么去”。" }
+  ],
+  "reviewItems": ["en.customer", "en.sugar", "en.hows_it_going", "en.for_here_or_to_go", "en.first"],
+  "lines": [
+    { "speaker": "marcus", "text": "Hey, Lei. My first day here was so funny.", "zh": "(咖啡馆不忙的时候,马库斯讲起他刚来上班的事)嘿,磊。我在这儿上班的第一天可好笑了。", "items": ["en.hey", "en.first", "en.so", "en.funny"] },
+    { "speaker": "lei", "text": "Really? What did you do?", "zh": "真的?你干什么了?", "items": ["en.really", "en.what_did_you_do"] },
+    { "speaker": "marcus", "text": "A customer wanted sugar, and I put salt in her coffee!", "zh": "一位顾客要糖,我却往她的咖啡里放了盐!", "items": ["en.customer", "en.want", "en.sugar", "en.put", "en.salt", "en.coffee"] },
+    { "speaker": "lei", "text": "Oh no! What did she say?", "zh": "哎呀!她说什么了?", "items": ["en.say"] },
+    { "speaker": "marcus", "text": "She said, \"Is this salt?\" I told her, \"I'm so sorry!\"", "zh": "她说:“这是盐吧?”我跟她说:“真对不起!”", "items": ["en.say", "en.salt", "en.tell", "en.so", "en.sorry"] },
+    { "speaker": "lei", "text": "That's so funny! I have a funny one, too.", "zh": "太好笑了!我也有一件好笑的事。", "items": ["en.so", "en.funny", "en.have"] },
+    { "speaker": "lei", "text": "On my first day in Seattle, a man said, \"How's it going?\"", "zh": "我刚到西雅图那天,有个人跟我说:“How's it going?”(最近怎么样?)", "items": ["en.first", "en.say", "en.hows_it_going"] },
+    { "speaker": "lei", "text": "I thought it meant \"How do you go there?\" So I said, \"By bus!\"", "zh": "我以为他问的是“你怎么去那儿?”,就回答:“坐公交!”", "items": ["en.think", "en.mean", "en.go", "en.say", "en.by", "en.bus"] },
+    { "speaker": "marcus", "text": "Ha! By bus!", "zh": "(大家笑成一团)哈!坐公交!", "items": ["en.by", "en.bus"] },
+    { "speaker": "lei", "text": "And at a cafe: \"For here or to go?\" I said, \"Yes!\"", "zh": "还有一次在咖啡店,店员问:“在这儿用还是带走?”我说:“是的!”", "items": ["en.cafe", "en.for_here_or_to_go", "en.say"] },
+    { "speaker": "marcus", "text": "\"Yes\" isn't an answer, man!", "zh": "“是的”可不算回答啊,哥们儿!", "items": ["en.answer"] },
+    { "speaker": "laura", "text": "My first day was funny, too. Mistakes are OK. That's how we learn!", "zh": "(劳拉听见了,也笑了)我第一天上班也闹过笑话。犯错没关系,我们就是这样学会的!", "items": ["en.first", "en.funny", "en.mistake", "en.learn"] }
+  ],
+  "questions": [
+    { "prompt": "马库斯第一天上班闹了什么笑话?", "options": ["把糖放进了茶里", "把盐当成糖放进了顾客的咖啡", "忘了收钱"], "answer": 1, "explainZh": "A customer wanted sugar, and I put salt in her coffee!(顾客要糖,我却往她的咖啡里放了盐!)" },
+    { "prompt": "有人跟磊说 How's it going? 时,磊以为是什么意思?", "options": ["你好吗?", "你去哪儿?", "你怎么去那儿?"], "answer": 2, "explainZh": "I thought it meant \"How do you go there?\"(我以为意思是“你怎么去那儿?”)所以他回答 By bus!。其实 How's it going? 是“最近怎么样?”。" },
+    { "prompt": "劳拉最后说了什么?", "options": ["犯错没关系,这样才能学会", "以后不能再犯错了", "她从来不犯错"], "answer": 0, "explainZh": "Mistakes are OK. That's how we learn!(犯错没关系,我们就是这样学会的!)" }
+  ],
+  "grammar": [
+    { "id": "en.g.story_past_verbs", "titleZh": "讲故事常用的过去式:said、thought、told",
+      "bodyZh": "讲自己闹过的笑话,用一般过去时。最常用的几个动词都不规则:say → said(读 /sed/,不读 /seɪd/)、think → thought(/θɑːt/)、tell → told、mean → meant、put → put(过去式不变)。引用别人的原话:She said, \"Is this salt?\"(她说:“这是盐吧?”)。say 后面直接接说的话,tell 后面先接人:I told her, \"I'm so sorry!\"——不说 I said her,也不说 I told to her。说“我当时以为……”:I thought it meant…(我以为它的意思是……)。",
+      "examples": [
+        { "text": "She said, \"Is this salt?\"", "zh": "她说:“这是盐吧?”" },
+        { "text": "I told her, \"I'm so sorry!\"", "zh": "我跟她说:“真对不起!”" },
+        { "text": "I thought it meant \"How do you go there?\"", "zh": "我以为它的意思是“你怎么去那儿?”" }
+      ] },
+    { "id": "en.g.story_reactions", "titleZh": "听故事怎么回应;讲笑话的节奏",
+      "bodyZh": "听别人讲故事,要让对方知道你在认真听:Really?(真的?)、Oh no!(哎呀!)、That's so funny!(太好笑了!)。接着追问:What did you do?(那你怎么办?)、What did she say?(她说什么了?)——过去时的问句用 did + 动词原形,不说 What did she said?。讲笑话时,说到笑点前稍微停一下,再把关键词读重:So I said… \"By BUS!\"。",
+      "examples": [
+        { "text": "Really? What did you do?", "zh": "真的?那你怎么办?" },
+        { "text": "Oh no! What did she say?", "zh": "哎呀!她说什么了?" },
+        { "text": "That's so funny!", "zh": "太好笑了!" }
+      ] }
+  ],
+  "review": "draft"
+}
