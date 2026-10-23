@@ -30,26 +30,26 @@
       "id": "en.a1u16.l02", "lang": "en", "type": "grammar", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116020,
       "titleZh": "你能去倒垃圾吗?", "goalZh": "会用 Can you…? 请人做事,会答应、推迟或说明为什么不行",
       "canDoZh": "能请室友帮忙做事,也能答应、推迟或说明为什么不行",
-      "scenarioZh": "两人开始分工。磊说 Can you take out the trash?,伊森说 Sure, in a minute.——一个小时后垃圾还在;伊森反过来让磊洗碗,磊说 It's your turn! I did the dishes yesterday.。最后两人列了一张家务清单,写在冰箱上的白板上,伊森说 Deal!。",
+      "scenarioZh": "两人开始分工。磊说 Can you take out the trash?,伊森说 Sure, in a minute.——一个小时后垃圾还在;伊森反过来让磊洗碗,磊说 It's your turn! I did the dishes yesterday.。最后两人列了一张家务清单,写在冰箱上的白板上,伊森说 Deal!。(promise、list 第 10 单元已登记,这里当复习词。)",
       "grammarFocusZh": "请求和回应:Can you…? — Sure. / In a minute. / Sorry, I can't right now.;It's my / your turn.;可分短语动词和代词的位置(take it out)。发音:Can you 在句首弱读成 /kənjə/。",
       "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "en.in_a_minute", "kind": "phrase", "pos": "adv", "text": "in a minute", "zh": "马上;等一下", "features": { "ipa": "ɪn ə ˈmɪnɪt" }, "noteZh": "别人请你做事,说 In a minute. 表示\"一会儿就做\",不一定真的是一分钟。" },
         { "id": "en.its_your_turn", "kind": "phrase", "pos": "phrase", "text": "It's your turn", "zh": "轮到你了", "alt": ["It's my turn"], "features": { "ipa": "ɪts ˈjʊr ˌtɝːn" }, "noteZh": "这里的 turn 是\"轮到的机会\",和 turn left(转弯)意思不同;轮到我了:It's my turn.。" },
         { "id": "en.later", "kind": "word", "pos": "adv", "text": "later", "zh": "以后;待会儿", "features": { "ipa": "ˈleɪt̬ɚ" }, "noteZh": "I'm going to do it later. 我待会儿做;See you later 里学过;t 读闪音。" },
-        { "id": "en.promise", "kind": "word", "pos": "verb", "text": "promise", "zh": "保证;答应", "features": { "ipa": "ˈprɑːmɪs" }, "noteZh": "I promise! 我保证!;重音在前 PROM-ise,第二个音节读 /ɪs/,不读 \"迈斯\"。" },
-        { "id": "en.list", "kind": "word", "pos": "noun", "text": "list", "zh": "清单;单子", "features": { "ipa": "lɪst" }, "noteZh": "make a list 列个清单;chore list 家务清单;词尾 st 收住,不加元音。" },
         { "id": "en.whiteboard", "kind": "word", "pos": "noun", "text": "whiteboard", "zh": "白板", "features": { "ipa": "ˈwaɪtbɔːrd" }, "noteZh": "white + board;美国宿舍门上、冰箱上常挂小白板留言;复合词重音在前 WHITE-board。" },
         { "id": "en.fridge", "kind": "word", "pos": "noun", "text": "fridge", "zh": "冰箱", "features": { "ipa": "frɪdʒ" }, "noteZh": "refrigerator 的口语说法;dge 读 /dʒ/,词尾不加元音。" },
-        { "id": "en.deal", "kind": "word", "pos": "interj", "text": "Deal", "zh": "一言为定;就这么定了", "features": { "ipa": "diːl" }, "noteZh": "商量好以后说 Deal! 表示同意;第 6 单元 good deal(划算)里的 deal 是\"买卖\"。" }
+        { "id": "en.deal", "kind": "word", "pos": "interj", "text": "Deal", "zh": "一言为定;就这么定了", "features": { "ipa": "diːl" }, "noteZh": "商量好以后说 Deal! 表示同意;第 6 单元 good deal(划算)里的 deal 是\"买卖\"。" },
+        { "id": "en.full", "kind": "word", "pos": "adj", "text": "full", "zh": "满的", "features": { "ipa": "fʊl" }, "noteZh": "The trash can is full. 垃圾桶满了;u 读短音 /ʊ/,结尾 l 舌尖抬起。" },
+        { "id": "en.trash_can", "kind": "phrase", "pos": "noun", "text": "trash can", "zh": "垃圾桶", "features": { "ipa": "ˈtræʃ ˌkæn" }, "noteZh": "美式说 trash can,英式说 bin;两个 a 都读 /æ/。" }
       ],
-      "reviewItems": ["en.take_out_the_trash", "en.do_the_dishes", "en.chore", "en.right_now", "en.no_way", "en.write"]
+      "reviewItems": ["en.take_out_the_trash", "en.do_the_dishes", "en.promise", "en.list", "en.right_now", "en.no_way"]
     },
     {
       "id": "en.a1u16.l03", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116030,
       "titleZh": "订个室友公约", "goalZh": "会用 Please… / Don't… / No + 名词 订规矩,和室友商量出公平的办法",
       "canDoZh": "能和室友商量几条共同遵守的规矩,用 Please… / Don't… 写下来",
-      "scenarioZh": "伊森吃了磊妈妈寄来的辣面条,两人吵了起来:Please don't eat my food! — OK, but please don't play loud music at 7 a.m.!;于是一起订室友公约:工作日晚上 11 点以后是安静时间,午夜以后不带客人,吃别人的东西、借别人的东西先问,家务轮流做。最后两人签了名,和好了。(磊寒假留在西雅图,面条是妈妈寄来的。)",
+      "scenarioZh": "伊森吃了磊妈妈寄来的辣面条,两人吵了起来:Please don't eat my food! — OK, but please don't play loud music at 7 a.m.!;于是一起订室友公约:工作日晚上 11 点以后是安静时间,午夜以后不带客人,吃别人的东西、借别人的东西先问,家务轮流做。最后两人签了名,和好了。(磊寒假留在西雅图,面条是妈妈寄来的;loud 第 10 单元已登记,这里当复习词。)",
       "grammarFocusZh": "复习祈使句和否定 Don't…;订规矩常用 Please…、Let's…、No + 名词;take turns 轮流;That's fair. 同意对方合理的要求。发音:列举时前几项用升调、最后一项用降调(quiet hours ↗, guests ↗, and food ↘),and 弱读成 /ən/。",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
       "newItems": [
@@ -59,10 +59,10 @@
         { "id": "en.weeknight", "kind": "word", "pos": "noun", "text": "weeknight", "zh": "工作日的晚上", "features": { "ipa": "ˈwiːknaɪt" }, "noteZh": "on weeknights 在工作日的晚上(第二天要上课的晚上);gh 不发音。" },
         { "id": "en.take_turns", "kind": "phrase", "pos": "verb", "text": "take turns", "zh": "轮流", "features": { "ipa": "ˌteɪk ˈtɝːnz" }, "noteZh": "We take turns. 我们轮流来;take turns with the chores 轮流做家务;turns 要用复数。" },
         { "id": "en.borrow", "kind": "word", "pos": "verb", "text": "borrow", "zh": "借(别人的东西来用)", "features": { "ipa": "ˈbɑːroʊ" }, "noteZh": "borrow 是\"借进来\":Can I borrow your book?;\"借给别人\"是 lend,不要混。" },
-        { "id": "en.loud", "kind": "word", "pos": "adj", "text": "loud", "zh": "大声的;吵的", "features": { "ipa": "laʊd" }, "noteZh": "loud music 很吵的音乐;ou 读 /aʊ/,从 a 滑到 u;词尾 d 带声。" },
-        { "id": "en.fair", "kind": "word", "pos": "adj", "text": "fair", "zh": "公平的;合理的", "features": { "ipa": "fer" }, "noteZh": "That's fair. 这很公平(同意对方合理的要求);和 fare(车费)读音一样。" }
+        { "id": "en.fair", "kind": "word", "pos": "adj", "text": "fair", "zh": "公平的;合理的", "features": { "ipa": "fer" }, "noteZh": "That's fair. 这很公平(同意对方合理的要求);和 fare(车费)读音一样。" },
+        { "id": "en.agree", "kind": "word", "pos": "verb", "text": "agree", "zh": "同意", "features": { "ipa": "əˈɡriː" }, "noteZh": "I agree. 我同意;不说 I am agree(agree 本身就是动词);重音在后 a-GREE。" }
       ],
-      "reviewItems": ["en.noodles", "en.roommate", "en.rule", "en.ask", "en.before", "en.midnight"]
+      "reviewItems": ["en.noodles", "en.loud", "en.rule", "en.ask", "en.before", "en.midnight"]
     },
     {
       "id": "en.a1u16.l04", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-16 Home sweet home", "order": 116040,

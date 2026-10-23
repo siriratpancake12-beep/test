@@ -1,0 +1,49 @@
+{
+  "id": "en.a1u18.l07", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-18 Game on", "order": 118070,
+  "titleZh": "看超级碗", "goalZh": "会问比赛谁领先、读比分、说谁赢了,用 Come on! / Nice catch! 给球队加油", "canDoZh": "能看比赛时问比分、说谁赢了,用常见的话给球队加油",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.super_bowl", "kind": "phrase", "pos": "propn", "text": "Super Bowl", "zh": "超级碗(美式橄榄球总决赛)", "features": { "ipa": "ˌsuːpɚ ˈboʊl" }, "noteZh": "每年二月初的一个星期天,很多美国人聚在一起边吃边看;bowl 读 /boʊl/(碗),别和 ball /bɑːl/(球)混。" },
+    { "id": "en.win", "kind": "word", "pos": "verb", "text": "win", "zh": "赢;获胜", "features": { "ipa": "wɪn" }, "noteZh": "过去式 won,读 /wʌn/,和 one 一样;Who's winning? 现在谁领先?" },
+    { "id": "en.beat", "kind": "word", "pos": "verb", "text": "beat", "zh": "打败;赢(对手)", "features": { "ipa": "biːt" }, "noteZh": "win 后面跟比赛(win the game),beat 后面跟对手(beat them);过去式还是 beat。" },
+    { "id": "en.fan", "kind": "word", "pos": "noun", "text": "fan", "zh": "球迷;粉丝", "features": { "ipa": "fæn" }, "noteZh": "a big fan 铁杆粉丝;a 读 /æ/,嘴张大,别读成“饭”。" },
+    { "id": "en.catch", "kind": "word", "pos": "verb", "text": "catch", "zh": "接住;抓住", "features": { "ipa": "kætʃ" }, "noteZh": "过去式 caught /kɑːt/;Nice catch! 接得好!(这里是名词);a 读 /æ/,tch 读 /tʃ/。" },
+    { "id": "en.throw", "kind": "word", "pos": "verb", "text": "throw", "zh": "扔;投", "features": { "ipa": "θroʊ" }, "noteZh": "过去式 threw /θruː/;thr 先咬舌再卷舌,ow 读 /oʊ/。" },
+    { "id": "en.point", "kind": "word", "pos": "noun", "text": "point", "zh": "分;得分", "features": { "ipa": "pɔɪnt" }, "noteZh": "比赛的分数:six points 六分;oi 读 /ɔɪ/,结尾 nt 收住。" },
+    { "id": "en.come_on", "kind": "phrase", "pos": "interj", "text": "Come on", "zh": "快点!;加油!", "features": { "ipa": "ˌkʌm ˈɑːn" }, "noteZh": "看比赛给队伍加油、催别人快点都说 Come on!;重音在 on 上。中文的“加油”不要直译成 Add oil。" },
+    { "id": "en.tv", "kind": "word", "pos": "noun", "text": "TV", "zh": "电视", "features": { "ipa": "ˌtiːˈviː" }, "noteZh": "读两个字母 T-V,重音在后;watch TV 看电视(不加 the),on TV 在电视上。" }
+  ],
+  "reviewItems": ["en.football", "en.watch", "en.game", "en.team", "en.ball", "en.minute"],
+  "lines": [
+    { "speaker": "ethan", "text": "Come on, guys! It's Super Bowl Sunday!", "zh": "(二月的一个周日,宿舍休息室的大电视前挤满了人)快来,伙计们!今天是超级碗星期天!", "items": ["en.come_on", "en.guy", "en.super_bowl", "en.sunday"] },
+    { "speaker": "ethan", "text": "Big TV, pizza, and chicken. Let's watch!", "zh": "大电视、披萨、炸鸡。开看!", "items": ["en.big", "en.tv", "en.pizza", "en.chicken", "en.lets", "en.watch"] },
+    { "speaker": "sofia", "text": "I don't understand football. How do you play?", "zh": "我看不懂橄榄球。这是怎么玩的?", "items": ["en.understand", "en.football", "en.play"] },
+    { "speaker": "ethan", "text": "One team throws the ball and runs with it.", "zh": "一个队扔球,抱着球跑。", "items": ["en.team", "en.throw", "en.ball", "en.run"] },
+    { "speaker": "ethan", "text": "Catch the ball, run, run, run… six points!", "zh": "接住球,跑、跑、一直跑过去……得六分!", "items": ["en.catch", "en.ball", "en.run", "en.point"] },
+    { "speaker": "lei", "text": "So who's winning now?", "zh": "那现在谁领先?", "items": ["en.win"] },
+    { "speaker": "ethan", "text": "My team! It's 24 to 21.", "zh": "我支持的队!24 比 21。", "items": ["en.team"] },
+    { "speaker": "sofia", "text": "Ethan, are you a big fan?", "zh": "伊森,你是铁杆球迷吗?", "items": ["en.big", "en.fan"] },
+    { "speaker": "ethan", "text": "Yes! My dad and I watch every game.", "zh": "是啊!我和我爸每场都看。", "items": ["en.dad", "en.watch", "en.game"] },
+    { "speaker": "lei", "text": "One minute! Come on! Come on!", "zh": "(比赛只剩最后一分钟,磊比伊森还激动)还有一分钟!快啊!加油!", "items": ["en.minute", "en.come_on"] },
+    { "speaker": "lei", "text": "He caught the ball! Nice catch!", "zh": "他接住了!接得漂亮!", "items": ["en.catch", "en.ball", "en.nice"] },
+    { "speaker": "ethan", "text": "We won! We beat them! Lei, you're a fan now!", "zh": "我们赢了!我们打败他们了!磊,你现在也是球迷了!", "items": ["en.win", "en.beat", "en.fan"] }
+  ],
+  "questions": [
+    { "prompt": "按伊森的说法,接住球一直跑过去能得几分?", "options": ["一分", "三分", "六分"], "answer": 2, "explainZh": "伊森说 Catch the ball, run, run, run… six points!" },
+    { "prompt": "磊问谁领先的时候,比分是多少?", "options": ["21 比 24,伊森支持的队落后", "24 比 21,伊森支持的队领先", "42 比 38"], "answer": 1, "explainZh": "磊问 So who's winning now?,伊森说 My team! It's 24 to 21.——比分先说领先的一方。" },
+    { "prompt": "最后一分钟,磊怎么样?", "options": ["一直喊 Come on!,特别激动", "睡着了", "去拿披萨了"], "answer": 0, "explainZh": "One minute! Come on! Come on! He caught the ball! Nice catch!——磊比伊森还激动。" },
+    { "prompt": "比赛结果怎么样?", "options": ["伊森支持的队输了", "打平了", "伊森支持的队赢了"], "answer": 2, "explainZh": "伊森说 We won! We beat them!(我们赢了!我们打败他们了!)" }
+  ],
+  "grammar": [
+    { "id": "en.g.score_win", "titleZh": "比分和输赢;看比赛时加油",
+      "bodyZh": "读比分用 to:24–21 读作 twenty-four to twenty-one,一般先说领先的一方。比赛正在进行时问 Who's winning?(现在谁领先?),用现在进行时;比赛结束后问 Who won?(谁赢了?)。win 后面跟比赛:win the game;beat 后面跟对手:We beat them.(我们打败了他们)。过去式:win → won(读 /wʌn/,和 one 一样)、beat → beat(不变);“输”是 lose,过去式 lost。球迷说自己支持的队常用 we:We won!(其实他本人没上场)。加油、着急的时候喊 Come on!,重音在 on 上;夸球员用 Nice + 名词:Nice catch!(接得好!)。中文的“加油”不要直译成 Add oil(那是网络上的玩笑说法)。",
+      "examples": [
+        { "text": "Who's winning? — My team! It's 24 to 21.", "zh": "现在谁领先?——我支持的队!24 比 21。" },
+        { "text": "We won! We beat them!", "zh": "我们赢了!我们打败他们了!" },
+        { "text": "One minute! Come on!", "zh": "还有一分钟!加油!" },
+        { "text": "He caught the ball! Nice catch!", "zh": "他接住了!接得漂亮!" }
+      ] }
+  ],
+  "review": "draft"
+}
