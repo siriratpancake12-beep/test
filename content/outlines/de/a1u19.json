@@ -110,7 +110,7 @@
       "canDoZh": "能打电话订房间,说清楚日期、人数和房型,问价格和早餐",
       "scenarioZh": "网页上四人间 25 日已经订满,王伟给青年旅舍打电话:女工作人员说四人间只有 26 到 28 日还有;王伟问 25 日有没有两个双人间,最后订了 25 日两个双人间、26 到 28 日一个四人间;他问床单被套含不含(不含,每人另付 6 欧元);他们上午就到,问能不能提前办入住(einchecken)——要 15 点以后,但行李(das Gepäck)可以先放在前台(die Rezeption);工作人员核对退房日期(die Abreise)和名字,说今天发确认(die Bestätigung)。规划原来写“晚上十点才到行不行”,和早上 7:12 的火车对不上,改成上午到、先寄存行李。说话人:wei、mitarbeiterin。",
       "grammarFocusZh": "订房的说法:Ich möchte ein Zimmer reservieren / vom … bis zum … / Haben Sie noch … frei? / Ist die Bettwäsche inklusive?;lassen(Ihr Gepäck können Sie an der Rezeption lassen);宾语或不定式放句首时动词仍在第二位(Einchecken können Sie nach 15 Uhr)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
         { "id": "de.uebernachtung", "kind": "word", "pos": "noun", "text": "die Übernachtung", "zh": "(住)一晚;住宿", "features": { "gender": "f", "plural": "die Übernachtungen", "ipa": "ˌyːbɐˈnaxtʊŋ" }, "noteZh": "Eine Übernachtung kostet 80 Euro.(住一晚 80 欧元。)来自 übernachten;复数 die Übernachtungen。" },
         { "id": "de.extra", "kind": "word", "pos": "adv", "text": "extra", "zh": "另外(收费);额外", "features": { "ipa": "ˈɛkstʁa" }, "noteZh": "Die Bettwäsche kostet extra.(床单另外收钱。)和 inklusive(含)相对;x 读 [ks]。" },

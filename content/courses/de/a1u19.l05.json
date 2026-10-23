@@ -1,0 +1,53 @@
+{
+  "id": "de.a1u19.l05", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-19 旅行准备", "order": 119050,
+  "titleZh": "打电话订房间", "goalZh": "会打电话订房间,说清楚日期、人数和房型,问价格、早餐和入住时间", "canDoZh": "能打电话订房间,说清楚日期、人数和房型,问价格和早餐",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "de.uebernachtung", "kind": "word", "pos": "noun", "text": "die Übernachtung", "zh": "(住)一晚;住宿", "features": { "gender": "f", "plural": "die Übernachtungen", "ipa": "ˌyːbɐˈnaxtʊŋ" }, "noteZh": "Eine Übernachtung kostet 80 Euro.(住一晚 80 欧元。)来自 übernachten;复数 die Übernachtungen。" },
+    { "id": "de.extra", "kind": "word", "pos": "adv", "text": "extra", "zh": "另外(收费);额外", "features": { "ipa": "ˈɛkstʁa" }, "noteZh": "Die Bettwäsche kostet extra.(床单另外收钱。)和 inklusive(含)相对;x 读 [ks]。" },
+    { "id": "de.einchecken", "kind": "word", "pos": "verb", "text": "einchecken", "zh": "办入住;(机场)办登机", "features": { "ipa": "ˈaɪ̯nˌtʃɛkn̩" }, "noteZh": "从英语 check in 来的可分动词:Wir checken um 15 Uhr ein. / Können wir schon einchecken?;退房是 auschecken。ch 在这里读 [tʃ]。" },
+    { "id": "de.gepaeck", "kind": "word", "pos": "noun", "text": "das Gepäck", "zh": "行李", "features": { "gender": "n", "plural": "-", "ipa": "ɡəˈpɛk" }, "noteZh": "不可数,只用单数:Ihr Gepäck können Sie hier lassen.(行李可以放这儿。)一件行李说 ein Gepäckstück。ge- 不重读。" },
+    { "id": "de.rezeption", "kind": "word", "pos": "noun", "text": "die Rezeption", "zh": "(旅馆的)前台", "features": { "gender": "f", "plural": "die Rezeptionen", "ipa": "ʁetsɛpˈtsi̯oːn" }, "noteZh": "an der Rezeption(在前台);-tion 读 [tsi̯oːn],重音在最后;复数 die Rezeptionen。" },
+    { "id": "de.lassen", "kind": "word", "pos": "verb", "text": "lassen", "zh": "留下;让……放在", "features": { "ipa": "ˈlasn̩" }, "noteZh": "Können wir das Gepäck hier lassen?(行李能放这儿吗?)不规则:du lässt, er lässt;完成时 gelassen。" },
+    { "id": "de.abreise", "kind": "word", "pos": "noun", "text": "die Abreise", "zh": "离开(旅馆、某地)那天;动身", "features": { "gender": "f", "plural": "die Abreisen", "ipa": "ˈapˌʁaɪ̯zə" }, "noteZh": "旅馆常问 Wann ist Ihre Abreise?(您哪天走?)来的那天是 die Anreise;ab 的 b 读 [p]。复数 die Abreisen。" },
+    { "id": "de.bestaetigung", "kind": "word", "pos": "noun", "text": "die Bestätigung", "zh": "确认(信、邮件)", "features": { "gender": "f", "plural": "die Bestätigungen", "ipa": "bəˈʃtɛːtɪɡʊŋ" }, "noteZh": "订房、订票以后会收到 eine Bestätigung(确认单);来自 bestätigen(确认);复数 die Bestätigungen。" }
+  ],
+  "reviewItems": ["de.reservieren", "de.doppelzimmer", "de.inklusive", "de.bettwaesche", "de.buchen", "de.moment"],
+  "lines": [
+    { "speaker": "wei", "text": "Guten Tag! Ich möchte ein Vierbettzimmer vom 25. bis zum 28. Juli reservieren.", "zh": "(王伟给青年旅舍打电话)您好!我想订一个四人间,7 月 25 号到 28 号。", "items": ["de.guten_tag", "de.ich", "de.moechten", "de.ein", "de.vier", "de.bett", "de.zimmer", "de.von", "de.fuenf", "de.zwanzig", "de.bis", "de.zu", "de.acht", "de.juli", "de.reservieren"] },
+    { "speaker": "mitarbeiterin", "text": "Einen Moment, bitte … Am 25. ist das Vierbettzimmer leider nicht mehr frei.", "zh": "请稍等……25 号的四人间可惜已经没有了。", "items": ["de.ein", "de.moment", "de.bitte", "de.am", "de.fuenf", "de.zwanzig", "de.sein", "de.vier", "de.bett", "de.zimmer", "de.leider", "de.nicht", "de.mehr", "de.frei"] },
+    { "speaker": "mitarbeiterin", "text": "Aber vom 26. bis zum 28. ist es frei.", "zh": "不过 26 号到 28 号还空着。", "items": ["de.aber", "de.von", "de.sechs", "de.zwanzig", "de.bis", "de.zu", "de.acht", "de.sein", "de.es", "de.frei"] },
+    { "speaker": "wei", "text": "Haben Sie am 25. noch zwei Doppelzimmer frei?", "zh": "那 25 号还有两个空的双人间吗?", "items": ["de.haben", "de.sie_hoeflich", "de.am", "de.fuenf", "de.zwanzig", "de.noch", "de.zwei", "de.doppelzimmer", "de.frei"] },
+    { "speaker": "mitarbeiterin", "text": "Ja. Eine Übernachtung im Doppelzimmer kostet 80 Euro, mit Frühstück.", "zh": "有。双人间住一晚 80 欧元,含早餐。", "items": ["de.ja", "de.ein", "de.uebernachtung", "de.in", "de.doppelzimmer", "de.kosten", "de.acht", "de.euro", "de.mit", "de.fruehstueck"] },
+    { "speaker": "wei", "text": "Gut, das buchen wir. Ist die Bettwäsche auch inklusive?", "zh": "好,那就订这个。床单被套也含在里面吗?", "items": ["de.gut", "de.buchen", "de.wir", "de.sein", "de.bettwaesche", "de.auch", "de.inklusive"] },
+    { "speaker": "mitarbeiterin", "text": "Nein, die kostet extra: sechs Euro für eine Person.", "zh": "不含,要另外付钱:每人 6 欧元。", "items": ["de.nein", "de.kosten", "de.extra", "de.sechs", "de.euro", "de.fuer", "de.ein", "de.person"] },
+    { "speaker": "wei", "text": "Wir kommen schon am Vormittag an. Können wir dann schon einchecken?", "zh": "我们上午就到。那时候能办入住吗?", "items": ["de.wir", "de.ankommen", "de.schon", "de.am", "de.vormittag", "de.koennen", "de.dann", "de.einchecken"] },
+    { "speaker": "mitarbeiterin", "text": "Einchecken können Sie nach 15 Uhr. Aber Ihr Gepäck können Sie an der Rezeption lassen.", "zh": "入住要 15 点以后。不过行李可以先放在前台。", "items": ["de.einchecken", "de.koennen", "de.sie_hoeflich", "de.nach", "de.fuenf", "de.zehn", "de.uhr", "de.aber", "de.ihr_hoeflich", "de.gepaeck", "de.an", "de.rezeption", "de.lassen"] },
+    { "speaker": "mitarbeiterin", "text": "Und die Abreise ist am 28. Juli? Wie ist Ihr Name, bitte?", "zh": "退房是 7 月 28 号,对吗?请问您贵姓?", "items": ["de.und", "de.abreise", "de.sein", "de.am", "de.acht", "de.zwanzig", "de.juli", "de.wie", "de.ihr_hoeflich", "de.name", "de.bitte"] },
+    { "speaker": "wei", "text": "Ja, genau. Mein Name ist Wang, W-A-N-G.", "zh": "对。我姓王,W-A-N-G。", "items": ["de.ja", "de.genau", "de.mein", "de.name", "de.sein"] },
+    { "speaker": "mitarbeiterin", "text": "Danke, Herr Wang. Sie bekommen heute noch eine Bestätigung.", "zh": "谢谢您,王先生。今天您会收到一份确认。", "items": ["de.danke", "de.herr", "de.sie_hoeflich", "de.bekommen", "de.heute", "de.noch", "de.ein", "de.bestaetigung"] }
+  ],
+  "questions": [
+    { "prompt": "25 号那天晚上,他们订了什么房间?", "options": ["一个四人间", "两个双人间", "一个双人间"], "answer": 1, "explainZh": "工作人员说:Am 25. ist das Vierbettzimmer leider nicht mehr frei.(25 号的四人间没有了。)王伟问:Haben Sie am 25. noch zwei Doppelzimmer frei?,回答是 Ja,他就订了。" },
+    { "prompt": "床单被套怎么收费?", "options": ["含在房费里", "每间房 6 欧元", "每人另付 6 欧元"], "answer": 2, "explainZh": "Nein, die kostet extra: sechs Euro für eine Person.(不含,另外收费,每人 6 欧元。)" },
+    { "prompt": "他们上午就到,工作人员怎么说?", "options": ["行李可以先放前台,15 点以后办入住", "上午就可以办入住", "最好晚上再来"], "answer": 0, "explainZh": "Einchecken können Sie nach 15 Uhr. Aber Ihr Gepäck können Sie an der Rezeption lassen.(15 点以后才能办入住,不过行李可以先放在前台。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u19_zimmer_reservieren", "titleZh": "打电话订房:Ich möchte … reservieren / Haben Sie noch … frei?",
+      "bodyZh": "订房先说要什么、哪几天:Ich möchte ein Doppelzimmer vom 25. bis zum 28. Juli reservieren.(注意 reservieren 放句末)。\n问有没有空房:Haben Sie noch ein Zimmer frei? / Haben Sie am 25. noch zwei Doppelzimmer frei?;对方说 Das Zimmer ist leider nicht mehr frei.(可惜已经没有了;nicht mehr = 不再)。\n问价钱和服务:Was kostet eine Übernachtung? / Ist das Frühstück inklusive? / Ist die Bettwäsche auch inklusive?;回答 Ja, inklusive. 或 Nein, die kostet extra.(另外收费)。\n最后对方常问 Wie ist Ihr Name, bitte?——中国人的姓名对方常听不清,可以一个字母一个字母地拼,按德语字母读:W-A-N-G 读作 [veː aː ɛn ɡeː]。",
+      "examples": [
+        { "text": "Ich möchte ein Zimmer reservieren.", "zh": "我想订一个房间。" },
+        { "text": "Haben Sie am 25. noch zwei Doppelzimmer frei?", "zh": "25 号还有两个空的双人间吗?" },
+        { "text": "Ist die Bettwäsche auch inklusive?", "zh": "床单被套也含在里面吗?" }
+      ] },
+    { "id": "de.g.u19_lassen_satzanfang", "titleZh": "lassen(留下、放着);宾语或不定式放句首,动词还在第二位",
+      "bodyZh": "lassen 在这里是“把东西留在某处、先放着”:Ihr Gepäck können Sie an der Rezeption lassen.(行李可以先放在前台。)Können wir das Gepäck hier lassen?(行李能放这儿吗?)lassen 不规则:du lässt, er / sie lässt。\n德语句子第一位可以放主语,也可以放想强调的部分(宾语、时间、甚至不定式),变位动词始终在第二位,主语挪到动词后面:\nSie können nach 15 Uhr einchecken. → Einchecken können Sie nach 15 Uhr.(入住嘛,要 15 点以后。)\nWir buchen das. → Das buchen wir.(那就订这个。)",
+      "examples": [
+        { "text": "Ihr Gepäck können Sie an der Rezeption lassen.", "zh": "行李您可以先放在前台。" },
+        { "text": "Einchecken können Sie nach 15 Uhr.", "zh": "入住要 15 点以后。" },
+        { "text": "Das buchen wir.", "zh": "那就订这个。" }
+      ] }
+  ],
+  "review": "draft"
+}

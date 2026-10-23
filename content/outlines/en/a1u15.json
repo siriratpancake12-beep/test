@@ -160,14 +160,14 @@
       "canDoZh": "能和顾问谈自己这学期的课程、打工时间和学习上的困难,听懂相关规定",
       "scenarioZh": "国际学生每学期要和顾问(advisor)见一次面。顾问问磊这学期上几门课、一共多少学分(国际学生一般至少要修 12 个学分),每周打工几个小时(学期中一般每周最多 20 小时);磊说自己每周工作 8 小时,写作课有点难,已经每周去写作中心。顾问说 You're doing great.,提醒他期中考试在第 8 周。",
       "grammarFocusZh": "复习现在进行时表示这学期的安排、一般现在时说规定和习惯、学科词和 go to class 这类说法;at least / at most。发音:学分 credits 的 /ts/ 和弱元音。",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
         { "id": "en.credit", "kind": "word", "pos": "noun", "text": "credit", "zh": "学分", "features": { "ipa": "ˈkredɪt" }, "noteZh": "a three-credit class 一门三学分的课;复数 credits 的词尾 ts 读 /ts/,像\"次\"的声母。" },
         { "id": "en.at_least", "kind": "phrase", "pos": "adv", "text": "at least", "zh": "至少", "features": { "ipa": "ət ˈliːst" }, "noteZh": "at least twelve credits 至少 12 个学分;least 是长音 /iː/,词尾 st 收住。" },
         { "id": "en.at_most", "kind": "phrase", "pos": "adv", "text": "at most", "zh": "最多;顶多", "features": { "ipa": "ət ˈmoʊst" }, "noteZh": "twenty hours a week at most 每周最多 20 小时;和 at least(至少)是一对。" },
         { "id": "en.youre_doing_great", "kind": "phrase", "pos": "phrase", "text": "You're doing great", "zh": "你做得很好;你表现很棒", "alt": ["You are doing great"], "features": { "ipa": "jʊr ˌduːɪŋ ˈɡreɪt" }, "noteZh": "鼓励对方正在做的事做得好(学习、工作、适应新环境),回应说 Thanks!。" }
       ],
-      "reviewItems": ["en.these_days", "en.take_a_class", "en.writing_center", "en.midterm", "en.how_many", "en.international_student"]
+      "reviewItems": ["en.these_days", "en.take_a_class", "en.go_to_work", "en.writing_center", "en.study_group", "en.midterm"]
     },
     {
       "id": "en.a1u15.r02", "lang": "en", "type": "reading", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115085,

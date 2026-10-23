@@ -1,0 +1,50 @@
+{
+  "id": "en.a1u15.l08", "schemaVersion": 1, "lang": "en", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115080,
+  "titleZh": "单元复习:和顾问谈学习计划", "goalZh": "综合运用本单元的说法,讲清自己这学期的课程、打工和困难", "canDoZh": "能和顾问谈自己这学期的课程、打工时间和学习上的困难,听懂相关规定",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "en.credit", "kind": "word", "pos": "noun", "text": "credit", "zh": "学分", "features": { "ipa": "ˈkredɪt" }, "noteZh": "a three-credit class 一门三学分的课;复数 credits 的词尾 ts 读 /ts/,像\"次\"的声母。" },
+    { "id": "en.at_least", "kind": "phrase", "pos": "adv", "text": "at least", "zh": "至少", "features": { "ipa": "ət ˈliːst" }, "noteZh": "at least twelve credits 至少 12 个学分;least 是长音 /iː/,词尾 st 收住。" },
+    { "id": "en.at_most", "kind": "phrase", "pos": "adv", "text": "at most", "zh": "最多;顶多", "features": { "ipa": "ət ˈmoʊst" }, "noteZh": "twenty hours a week at most 每周最多 20 小时;和 at least(至少)是一对。" },
+    { "id": "en.youre_doing_great", "kind": "phrase", "pos": "phrase", "text": "You're doing great", "zh": "你做得很好;你表现很棒", "alt": ["You are doing great"], "features": { "ipa": "jʊr ˌduːɪŋ ˈɡreɪt" }, "noteZh": "鼓励对方正在做的事做得好(学习、工作、适应新环境),回应说 Thanks!。" }
+  ],
+  "reviewItems": ["en.these_days", "en.take_a_class", "en.go_to_work", "en.writing_center", "en.study_group", "en.midterm"],
+  "lines": [
+    { "speaker": "advisor", "text": "Hi, Lei. Come in! How's your semester?", "zh": "(国际学生每学期要和顾问见一次面)磊,你好。进来吧!这学期怎么样?", "items": ["en.hi", "en.come_in", "en.semester"] },
+    { "speaker": "lei", "text": "Good, thanks! I'm really busy these days.", "zh": "挺好的,谢谢!最近特别忙。", "items": ["en.thank_you", "en.really", "en.busy", "en.these_days"] },
+    { "speaker": "advisor", "text": "How many classes are you taking?", "zh": "你这学期上几门课?", "items": ["en.how_many", "en.class", "en.take_a_class"] },
+    { "speaker": "lei", "text": "Five: calculus, physics, programming, Writing 2, and music history.", "zh": "五门:微积分、物理、编程、写作 2,还有音乐史。", "items": ["en.calculus", "en.physics", "en.programming", "en.writing", "en.music", "en.history"] },
+    { "speaker": "lei", "text": "That's sixteen credits.", "zh": "一共 16 个学分。", "items": ["en.credit"] },
+    { "speaker": "advisor", "text": "Good. International students usually need at least twelve credits.", "zh": "很好。国际学生一般至少要修 12 个学分。", "items": ["en.international_student", "en.usually", "en.need", "en.at_least", "en.credit"] },
+    { "speaker": "advisor", "text": "And are you working this semester?", "zh": "这学期你在打工吗?", "items": ["en.work", "en.semester"] },
+    { "speaker": "lei", "text": "Yes, at the cafe. I go to work on Mondays and Wednesdays.", "zh": "在打工,在咖啡馆。我每周一、周三去上班。", "items": ["en.cafe", "en.go_to_work", "en.monday", "en.wednesday"] },
+    { "speaker": "advisor", "text": "How many hours a week?", "zh": "一周几个小时?", "items": ["en.how_many", "en.hour", "en.week"] },
+    { "speaker": "lei", "text": "Eight hours. Two to six, two days a week.", "zh": "八个小时。两点到六点,一周两天。", "items": ["en.hour", "en.week"] },
+    { "speaker": "advisor", "text": "That's fine. Students can usually work twenty hours a week.", "zh": "没问题。学生一般每周可以打工 20 个小时。", "items": ["en.fine", "en.student", "en.can", "en.usually", "en.work", "en.hour", "en.week"] },
+    { "speaker": "lei", "text": "Twenty hours at most? OK, no problem.", "zh": "最多 20 个小时?好的,没问题。", "items": ["en.hour", "en.at_most", "en.no_problem"] },
+    { "speaker": "advisor", "text": "How are your classes? Any problems?", "zh": "课上得怎么样?有什么困难吗?", "items": ["en.class", "en.problem"] },
+    { "speaker": "lei", "text": "Writing is a little hard, but I go to the Writing Center.", "zh": "写作课有点难,不过我常去写作中心。", "items": ["en.writing", "en.a_little", "en.hard", "en.go", "en.writing_center"] },
+    { "speaker": "lei", "text": "And I have a study group for calculus.", "zh": "微积分我还有个学习小组。", "items": ["en.have", "en.study_group", "en.calculus"] },
+    { "speaker": "advisor", "text": "Good job! You're doing great, Lei.", "zh": "做得好!磊,你表现得很棒。", "items": ["en.good_job", "en.youre_doing_great"] },
+    { "speaker": "advisor", "text": "The midterms are in Week 8. Good luck!", "zh": "期中考试在第 8 周。祝你好运!", "items": ["en.midterm", "en.week", "en.luck"] },
+    { "speaker": "lei", "text": "Thank you! I'm going to study every day.", "zh": "谢谢!我打算每天都学习。", "items": ["en.thank_you", "en.going_to", "en.study", "en.every_day"] }
+  ],
+  "questions": [
+    { "prompt": "磊这学期上几门课、一共多少学分?", "options": ["四门,12 个学分", "五门,16 个学分", "五门,20 个学分"], "answer": 1, "explainZh": "Five: calculus, physics, programming, Writing 2, and music history. That's sixteen credits.——五门课,16 个学分。" },
+    { "prompt": "顾问说,国际学生一般至少要修多少学分?", "options": ["12 个", "16 个", "20 个", "8 个"], "answer": 0, "explainZh": "International students usually need at least twelve credits.——at least 是\"至少\";20 是每周最多打工的小时数(Twenty hours at most)。" },
+    { "prompt": "磊每周打工几个小时?", "options": ["20 个小时", "12 个小时", "16 个小时", "8 个小时"], "answer": 3, "explainZh": "Eight hours. Two to six, two days a week.——每次四个小时,一周两天,一共八个小时。" },
+    { "prompt": "磊觉得哪门课有点难?他是怎么做的?", "options": ["微积分,他去找教授", "物理,他每天熬夜学", "写作课,他去写作中心"], "answer": 2, "explainZh": "Writing is a little hard, but I go to the Writing Center.——写作课有点难,他去写作中心;微积分他有学习小组。" }
+  ],
+  "grammar": [
+    { "id": "en.g.u15_review", "titleZh": "单元小结:说这学期的课程和安排",
+      "bodyZh": "这个单元说新学期的几种说法:① 这学期上的课用 take:How many classes are you taking? —— Five.;② 这段时间的安排用现在进行时(I'm working on Mondays this semester. / I'm really busy these days.),规定和习惯用一般现在时(Students usually need at least twelve credits. / I go to the Writing Center every week.);③ 不加冠词的说法:go to class、go to work、at home、at school;④ 作业和考试:The essay is due on Friday. / The midterms are in Week 8.;⑤ 数量的下限和上限:at least(至少)、at most(最多)——at least twelve credits / twenty hours a week, at most。\n发音:credits 词尾的 ts 合成一个音,像\"次\"的声母,不要读成 \"credit-s\";semester、today 里不重读的音节读弱元音 /ə/,轻轻带过。",
+      "examples": [
+        { "text": "How many classes are you taking? — Five.", "zh": "你这学期上几门课?——五门。" },
+        { "text": "I'm really busy these days.", "zh": "我最近特别忙。" },
+        { "text": "International students usually need at least twelve credits.", "zh": "国际学生一般至少要修 12 个学分。" },
+        { "text": "Students can usually work twenty hours a week, at most.", "zh": "学生一般每周最多可以打工 20 个小时。" }
+      ] }
+  ],
+  "review": "draft"
+}
