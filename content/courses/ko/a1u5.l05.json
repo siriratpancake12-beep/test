@@ -1,0 +1,44 @@
+{
+  "id": "ko.a1u5.l05", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105050,
+  "titleZh": "现在几点?", "goalZh": "会问答钟点,用 时间 + 에 说什么时候做什么",
+  "canDoZh": "能问现在几点,说清楚几点上课、明天几点打工",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ko.si", "kind": "word", "pos": "noun", "text": "시", "zh": "……点(钟)", "features": { "roman": "si" }, "noteZh": "汉字词 时;前面用固有数词:한 시、두 시、열두 시;몇 시예요?= 几点?" },
+    { "id": "ko.bun", "kind": "word", "pos": "noun", "text": "분", "zh": "……分(钟)", "features": { "roman": "bun" }, "noteZh": "汉字词 分;前面用汉字数词:십 분、삼십 분;“点”用固有数词、“分”用汉字数词,两套数字在一句里同时出现:세 시 이십 분。" },
+    { "id": "ko.ban", "kind": "word", "pos": "noun", "text": "반", "zh": "半;班", "features": { "roman": "ban" }, "noteZh": "汉字词 半 / 班 同音:두 시 반(两点半)、우리 반(我们班)。" },
+    { "id": "ko.jigeum", "kind": "word", "pos": "noun", "text": "지금", "zh": "现在", "features": { "roman": "jigeum" }, "noteZh": "汉字词 只今;지금 몇 시예요?= 现在几点?;后面不加 에。" },
+    { "id": "ko.ojeon", "kind": "word", "pos": "noun", "text": "오전", "zh": "上午", "features": { "roman": "ojeon" }, "noteZh": "汉字词 午前;放在钟点前面:오전 열 시 = 上午十点;오전에 수업이 있어요(上午有课)。" },
+    { "id": "ko.ohu", "kind": "word", "pos": "noun", "text": "오후", "zh": "下午", "features": { "roman": "ohu" }, "noteZh": "汉字词 午后;中午 12 点以后的钟点都可以加 오후:오후 두 시、오후 일곱 시(晚上七点;晚上也常说 저녁,第 8 单元学)。" },
+    { "id": "ko.oneul", "kind": "word", "pos": "noun", "text": "오늘", "zh": "今天", "features": { "roman": "oneul" }, "noteZh": "오늘 오후 세 시(今天下午三点);오늘 后面不加 에,对比时说 오늘은(今天嘛……)。" },
+    { "id": "ko.naeil", "kind": "word", "pos": "noun", "text": "내일", "zh": "明天", "features": { "roman": "naeil" }, "noteZh": "汉字词 来日;后面不加 에;내일 봐요 = 明天见(봐요 第 8 单元学)。" },
+    { "id": "ko.haeyo", "kind": "word", "pos": "verb", "text": "해요", "zh": "做;干", "features": { "roman": "haeyo" }, "noteZh": "原形 하다;뭐 해요?= 做什么?。很多动词是 名词 + 하다:공부해요、일해요、계산해요;아르바이트 해요 = 打工。否定把 안 放在 해요 前面:안 해요。" }
+  ],
+  "reviewItems": ["ko.sueop", "ko.areubaiteu", "ko.ahop", "ko.yeol"],
+  "lines": [
+    { "speaker": "sua", "text": "징 씨! 징 씨! 수업 없어요?", "zh": "(早上,秀雅使劲推还在睡觉的陈静)陈静!陈静!你没课吗?", "roman": "jing ssi! jing ssi! sueop eopseoyo?", "items": ["ko.ssi", "ko.sueop", "ko.eopseoyo"] },
+    { "speaker": "jing", "text": "네? 지금 몇 시예요?", "zh": "啊?现在几点?", "roman": "ne? jigeum myeot siyeyo?", "items": ["ko.ne", "ko.jigeum", "ko.myeot", "ko.si"] },
+    { "speaker": "sua", "text": "아홉 시 십 분이에요!", "zh": "九点十分了!", "roman": "ahop si sip bunieyo!", "items": ["ko.ahop", "ko.si", "ko.sip", "ko.bun"] },
+    { "speaker": "jing", "text": "아홉 시 십 분이요? 수업이 아홉 시 반이에요!", "zh": "九点十分?我九点半上课!", "roman": "ahop si sip buniyo? sueobi ahop si banieyo!", "items": ["ko.ahop", "ko.si", "ko.sip", "ko.bun", "ko.sueop", "ko.ban"] },
+    { "speaker": "sua", "text": "여기 빵하고 우유요!", "zh": "(秀雅把面包和牛奶塞给她)给,面包和牛奶!", "roman": "yeogi ppanghago uyuyo!", "items": ["ko.yeogi", "ko.ppang", "ko.uyu"] },
+    { "speaker": "jing", "text": "고마워요! 수아 씨는 수업 없어요?", "zh": "(陈静一边往外跑一边问)谢谢!你没课吗?", "roman": "gomawoyo! sua ssineun sueop eopseoyo?", "items": ["ko.gomawoyo", "ko.ssi", "ko.sueop", "ko.eopseoyo"] },
+    { "speaker": "sua", "text": "저는 오늘 열 시에 수업이 있어요.", "zh": "我今天十点才有课。", "roman": "jeoneun oneul yeol sie sueobi isseoyo.", "items": ["ko.jeo", "ko.oneul", "ko.yeol", "ko.si", "ko.sueop", "ko.isseoyo"] },
+    { "speaker": "choi", "text": "천징 씨, 오늘 아르바이트 해요?", "zh": "(下午,崔老板打来电话——他记不清这周的排班了)陈静,你今天来打工吗?", "roman": "cheonjing ssi, oneul areubaiteu haeyo?", "items": ["ko.ssi", "ko.oneul", "ko.areubaiteu", "ko.haeyo"] },
+    { "speaker": "jing", "text": "아니요, 사장님. 오늘은 안 해요. 내일 해요.", "zh": "不是的,老板。今天不上班,明天上。", "roman": "aniyo, sajangnim. oneureun an haeyo. naeil haeyo.", "items": ["ko.aniyo", "ko.sajangnim", "ko.oneul", "ko.an", "ko.haeyo", "ko.naeil"] },
+    { "speaker": "choi", "text": "아, 내일이요? 몇 시예요?", "zh": "啊,明天?几点?", "roman": "a, naeiriyo? myeot siyeyo?", "items": ["ko.naeil", "ko.myeot", "ko.si"] },
+    { "speaker": "jing", "text": "내일 오전에 수업이 있어요. 오후 두 시에 해요.", "zh": "明天上午我有课,下午两点上班。", "roman": "naeil ojeone sueobi isseoyo. ohu du sie haeyo.", "items": ["ko.naeil", "ko.ojeon", "ko.sueop", "ko.isseoyo", "ko.ohu", "ko.dul", "ko.si", "ko.haeyo"] },
+    { "speaker": "choi", "text": "오후 두 시요. 네, 알겠습니다. 고마워요!", "zh": "下午两点。好,知道了。谢谢!", "roman": "ohu du siyo. ne, algetseumnida. gomawoyo!", "items": ["ko.ohu", "ko.dul", "ko.si", "ko.ne", "ko.algetseumnida", "ko.gomawoyo"] }
+  ],
+  "questions": [
+    { "prompt": "秀雅叫醒陈静时是几点?", "options": ["九点半", "九点十分", "十点"], "answer": 1, "explainZh": "第 3 句:아홉 시 십 분이에요 = 九点十分。“点”用固有数词 아홉,“分”用汉字数词 십。" },
+    { "prompt": "陈静和秀雅今天各是几点的课?", "options": ["陈静九点,秀雅九点半", "陈静十点,秀雅九点半", "陈静九点半,秀雅十点"], "answer": 2, "explainZh": "第 4 句:수업이 아홉 시 반이에요(陈静九点半上课);第 7 句秀雅说 저는 오늘 열 시에 수업이 있어요(她十点有课)。" },
+    { "prompt": "陈静什么时候去咖啡店打工?", "options": ["明天下午两点", "今天下午两点", "明天上午十点"], "answer": 0, "explainZh": "第 9、11 句:오늘은 안 해요. 내일 해요……오후 두 시에 해요(明天下午两点)。明天上午她有课。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u5_time", "titleZh": "几点几分:시 用固有数词,분 用汉字数词;时间 + 에",
+      "bodyZh": "① 说钟点:“点”用固有数词 + 시,“分”用汉字数词 + 분——아홉 시 십 분(9:10)、세 시 이십 분(3:20)。1–4 点要变形:한 시、두 시、세 시、네 시,还有 열한 시、열두 시。半点说 반:아홉 시 반(9:30)。问时间:지금 몇 시예요?\n② 上午、下午放在钟点前面:오전 열 시(上午十点)、오후 두 시(下午两点)。时间从大到小排,和汉语一样:내일 오후 두 시(明天下午两点)。\n③ 时间 + 에 = 在……(的时候):열 시에 수업이 있어요、오후 두 시에 해요。오늘、내일、지금 本身就是时间词,后面不加 에:✗ 오늘에、✗ 내일에;要对比时用 은/는:오늘은 안 해요(今天嘛,不上班)。\n常见错误:✗ 삼 시(“点”要用固有数词:세 시)、✗ 세 시 스무 분(“分”要用汉字数词:세 시 이십 분)。",
+      "examples": [ { "text": "지금 몇 시예요?", "zh": "现在几点?" }, { "text": "아홉 시 십 분이에요.", "zh": "九点十分。" }, { "text": "수업이 아홉 시 반이에요.", "zh": "九点半上课。" }, { "text": "내일 오후 두 시에 해요.", "zh": "明天下午两点上班。(내일 不加 에,钟点后面加 에)" } ] }
+  ],
+  "review": "draft"
+}

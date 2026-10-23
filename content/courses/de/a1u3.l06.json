@@ -28,7 +28,7 @@
     { "speaker": "jonas", "text": "Der Hausmeister kommt? In Berlin? Wirklich?", "zh": "管理员会来?在柏林?真的假的?", "items": ["de.hausmeister", "de.ich_komme_aus", "de.in", "de.wirklich"] }
   ],
   "questions": [
-    { "prompt": "家里什么东西坏了?", "options": ["冰箱和门", "暖气和浴室的灯", "窗户和灯"], "answer": 1, "explainZh": "王伟在电话里说:Die Heizung funktioniert nicht, und die Lampe im Bad ist kaputt.(暖气不工作了,浴室的灯也坏了。)" },
+    { "prompt": "家里什么东西坏了?", "options": ["冰箱和门", "窗户和灯", "暖气和浴室的灯"], "answer": 2, "explainZh": "王伟在电话里说:Die Heizung funktioniert nicht, und die Lampe im Bad ist kaputt.(暖气不工作了,浴室的灯也坏了。)" },
     { "prompt": "约纳斯为什么让王伟自己打电话?", "options": ["想让王伟用德语打电话,练练德语", "他没有物业的电话", "他不会说德语"], "answer": 0, "explainZh": "约纳斯说:Kein Problem, das ist Berlin! Du telefonierst – auf Deutsch!(你来打电话——用德语!)" },
     { "prompt": "物业的工作人员最后说什么?", "options": ["王伟要自己修", "管理员不会来", "管理员会来修暖气和灯"], "answer": 2, "explainZh": "Der Hausmeister kommt und repariert die Heizung und die Lampe.;不相信管理员会马上来的是约纳斯,他在开柏林的玩笑。" }
   ],

@@ -1,0 +1,45 @@
+{
+  "id": "de.a1u4.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104060,
+  "titleZh": "在小吃摊:一个烤肉卷,不要洋葱", "goalZh": "会在小吃摊点餐,用 mit / ohne 说要什么、不要什么,回答在这儿吃还是带走", "canDoZh": "能在小吃摊点餐,说要什么、不要什么,回答在这儿吃还是带走",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "de.imbiss", "kind": "word", "pos": "noun", "text": "der Imbiss", "zh": "小吃摊;快餐店", "features": { "gender": "m", "plural": "die Imbisse", "ipa": "ˈɪmbɪs" }, "noteZh": "卖烤肉卷、香肠、薯条的小摊或小店,常在地铁站旁边;复数 die Imbisse。" },
+    { "id": "de.doener", "kind": "word", "pos": "noun", "text": "der Döner", "zh": "(土耳其)烤肉卷", "features": { "gender": "m", "plural": "die Döner", "ipa": "ˈdøːnɐ" }, "noteZh": "点一个:Einen Döner, bitte!(阳性第四格 einen);ö 是长音:舌头放在发 e 的位置,嘴唇撮圆。" },
+    { "id": "de.currywurst", "kind": "word", "pos": "noun", "text": "die Currywurst", "zh": "咖喱香肠", "features": { "gender": "f", "plural": "die Currywürste", "ipa": "ˈkœʁiˌvʊʁst" }, "noteZh": "Curry + Wurst(香肠,本单元复习课学),性跟着 die Wurst;常配薯条:Currywurst mit Pommes。" },
+    { "id": "de.pommes", "kind": "word", "pos": "noun", "text": "die Pommes", "zh": "炸薯条", "features": { "gender": "pl", "ipa": "ˈpɔməs" }, "noteZh": "Pommes frites 的简称,只用复数,die 在这里是复数冠词;口语里也常读成 [pɔms]。" },
+    { "id": "de.zwiebel", "kind": "word", "pos": "noun", "text": "die Zwiebel", "zh": "洋葱", "features": { "gender": "f", "plural": "die Zwiebeln", "ipa": "ˈtsviːbl̩" }, "noteZh": "zw 读 [tsv];说“不要洋葱”用复数:ohne Zwiebeln。" },
+    { "id": "de.ohne", "kind": "word", "pos": "prep", "text": "ohne", "zh": "不要;没有;不带", "features": { "ipa": "ˈoːnə" }, "noteZh": "和 mit(加、带)正好相反:mit Pommes / ohne Zwiebeln;h 不发音,只表示 o 读长音。" },
+    { "id": "de.zum_mitnehmen", "kind": "phrase", "pos": "phrase", "text": "zum Mitnehmen", "zh": "带走;外带", "features": { "ipa": "tsʊm ˈmɪtˌneːmən" }, "noteZh": "店员问 Hier essen oder zum Mitnehmen?(在这儿吃还是带走?);回答 Zum Mitnehmen, bitte. 或 Hier essen, bitte.。" }
+  ],
+  "reviewItems": ["de.hunger", "de.scharf", "de.mit", "de.essen", "de.lecker", "de.das_macht"],
+  "lines": [
+    { "speaker": "jonas", "text": "Ich habe Hunger! Der Imbiss hier ist sehr gut.", "zh": "我饿了!这家小吃摊特别好。", "items": ["de.ich", "de.haben", "de.hunger", "de.imbiss", "de.hier", "de.sein", "de.sehr", "de.gut"] },
+    { "speaker": "verkaeufer", "text": "Hallo! Was möchten Sie?", "zh": "您好!要点什么?", "items": ["de.hallo", "de.was", "de.moechten", "de.sie_hoeflich"] },
+    { "speaker": "wei", "text": "Einen Döner, bitte. Ohne Zwiebeln.", "zh": "一个烤肉卷,谢谢。不要洋葱。", "items": ["de.ein", "de.doener", "de.bitte", "de.ohne", "de.zwiebel"] },
+    { "speaker": "verkaeufer", "text": "Ohne Zwiebeln, gut. Scharf oder nicht scharf?", "zh": "不要洋葱,好的。要辣的还是不辣的?", "items": ["de.ohne", "de.zwiebel", "de.gut", "de.scharf", "de.oder", "de.nicht"] },
+    { "speaker": "wei", "text": "Ein bisschen scharf, bitte.", "zh": "稍微辣一点,谢谢。", "items": ["de.ein_bisschen", "de.scharf", "de.bitte"] },
+    { "speaker": "verkaeufer", "text": "Und Sie? Was nehmen Sie?", "zh": "那您呢?您要什么?", "items": ["de.und", "de.sie_hoeflich", "de.was", "de.nehmen"] },
+    { "speaker": "jonas", "text": "Eine Currywurst mit Pommes, bitte.", "zh": "一份咖喱香肠配薯条,谢谢。", "items": ["de.ein", "de.currywurst", "de.mit", "de.pommes", "de.bitte"] },
+    { "speaker": "verkaeufer", "text": "Hier essen oder zum Mitnehmen?", "zh": "在这儿吃还是带走?", "items": ["de.hier", "de.essen", "de.oder", "de.zum_mitnehmen"] },
+    { "speaker": "wei", "text": "Hier essen, bitte.", "zh": "在这儿吃。", "items": ["de.hier", "de.essen", "de.bitte"] },
+    { "speaker": "verkaeufer", "text": "Gut. Das macht zusammen dreizehn Euro.", "zh": "好。一共十三欧元。", "items": ["de.gut", "de.das_macht", "de.zusammen", "de.drei", "de.zehn", "de.euro"] },
+    { "speaker": "wei", "text": "Der Döner ist sehr lecker!", "zh": "烤肉卷真好吃!", "items": ["de.doener", "de.sein", "de.sehr", "de.lecker"] },
+    { "speaker": "jonas", "text": "Ja! Mein Fisch ist lecker, aber Berlin isst Döner!", "zh": "是啊!我做的鱼也好吃,可是柏林人都吃烤肉卷!", "items": ["de.ja", "de.mein", "de.fisch", "de.sein", "de.lecker", "de.aber", "de.essen", "de.doener"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的烤肉卷不要什么?", "options": ["不要辣", "不要洋葱", "不要肉"], "answer": 1, "explainZh": "王伟说:Einen Döner, bitte. Ohne Zwiebeln.;辣的他要一点:Ein bisschen scharf, bitte.。" },
+    { "prompt": "约纳斯点了什么?", "options": ["一份咖喱香肠配薯条", "一个烤肉卷", "鱼配土豆"], "answer": 0, "explainZh": "Eine Currywurst mit Pommes, bitte.;鱼是约纳斯在餐馆里做的菜。" },
+    { "prompt": "他们在哪儿吃?", "options": ["带回家吃", "就在小吃摊吃", "在约纳斯的餐馆吃"], "answer": 1, "explainZh": "摊主问 Hier essen oder zum Mitnehmen?,王伟回答 Hier essen, bitte.(在这儿吃。)" },
+    { "prompt": "约纳斯最后开了什么玩笑?", "options": ["咖喱香肠太辣了", "他不喜欢吃烤肉卷", "他做的鱼也好吃,可是柏林人都吃烤肉卷"], "answer": 2, "explainZh": "Mein Fisch ist lecker, aber Berlin isst Döner!——约纳斯是厨师,他开玩笑说自己的菜比不过小吃摊的烤肉卷。" }
+  ],
+  "grammar": [
+    { "id": "de.g.mit_ohne", "titleZh": "mit 和 ohne:要什么、不要什么",
+      "bodyZh": "点餐时用 mit(加、配)和 ohne(不要、不带)最方便:Eine Currywurst mit Pommes. / Einen Döner ohne Zwiebeln.。两个词成对记,后面先直接跟名词、不加冠词:mit Pommes、ohne Zwiebeln、mit Milch(带冠词的说法以后再学)。能数的东西常用复数:ohne Zwiebeln。中文说“不要洋葱”,德语不说 ✗ nicht Zwiebeln。还想提一点要求,可以说:Ein bisschen scharf, bitte.(稍微辣一点。)",
+      "examples": [ { "text": "Einen Döner, bitte. Ohne Zwiebeln.", "zh": "一个烤肉卷,不要洋葱。" }, { "text": "Eine Currywurst mit Pommes, bitte.", "zh": "一份咖喱香肠配薯条。" }, { "text": "Ein bisschen scharf, bitte.", "zh": "稍微辣一点。" } ] },
+    { "id": "de.g.imbiss_bestellen", "titleZh": "点餐:einen Döner / eine Currywurst;在这儿吃还是带走",
+      "bodyZh": "在小吃摊点东西,直接说“数量 + 名词 + bitte”就行,名词用第四格:阳性 einen Döner,阴性 eine Currywurst,中性 ein Wasser——和 Ich möchte … / Ich nehme … 后面的形式一样。店员常问 Hier essen oder zum Mitnehmen?(在这儿吃还是带走?),回答 Hier essen, bitte. 或 Zum Mitnehmen, bitte.;zum Mitnehmen 当固定说法记。",
+      "examples": [ { "text": "Was nehmen Sie? – Eine Currywurst, bitte.", "zh": "您要什么?——一份咖喱香肠。" }, { "text": "Hier essen oder zum Mitnehmen?", "zh": "在这儿吃还是带走?" } ] }
+  ],
+  "review": "draft"
+}

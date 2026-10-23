@@ -27,7 +27,7 @@
     { "speaker": "wei", "text": "Ich sage „hēibǎn“. Langsam: „hēi-bǎn“.", "zh": "我说“黑板”。慢一点:hēi——bǎn。", "items": ["de.ich", "de.sagen", "de.langsam"] }
   ],
   "questions": [
-    { "prompt": "莉娜先问王伟什么?", "options": ["本子用德语怎么说", "圆珠笔用中文怎么说", "黑板用德语怎么说"], "answer": 1, "explainZh": "莉娜指着王伟的圆珠笔问:Wie heißt das auf Chinesisch?(这个用中文怎么说?)王伟说:Das ist mein Kuli. Auf Chinesisch: „bǐ“.。" },
+    { "prompt": "莉娜先问王伟什么?", "options": ["本子用德语怎么说", "黑板用德语怎么说", "圆珠笔用中文怎么说"], "answer": 2, "explainZh": "莉娜指着王伟的圆珠笔问:Wie heißt das auf Chinesisch?(这个用中文怎么说?)王伟说:Das ist mein Kuli. Auf Chinesisch: „bǐ“.。" },
     { "prompt": "王伟没听清 Wörterbuch 的时候说了什么?", "options": ["Noch einmal, langsam, bitte!", "Wie heißt das auf Chinesisch?", "Das ist das Heft."], "answer": 0, "explainZh": "王伟先说 Wie bitte?,再请莉娜 Noch einmal, langsam, bitte!(请再慢慢说一遍!),莉娜就一个音节一个音节地说:Wör-ter-buch。" },
     { "prompt": "“黑板”用德语怎么说?", "options": ["das Heft", "der Bleistift", "die Tafel"], "answer": 2, "explainZh": "莉娜问:Wie sagst du „die Tafel“ auf Chinesisch?——die Tafel 就是黑板,王伟说中文是 hēibǎn。das Heft 是本子,der Bleistift 是铅笔。" }
   ],

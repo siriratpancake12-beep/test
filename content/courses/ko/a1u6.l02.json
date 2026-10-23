@@ -1,0 +1,48 @@
+{
+  "id": "ko.a1u6.l02", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106020,
+  "titleZh": "便利店在银行旁边", "goalZh": "会用方位词说东西、地方在哪儿,分清 여기 / 거기 / 저기",
+  "canDoZh": "能说出东西在哪里(包里、桌上、旁边),告诉别人店在哪栋楼旁边、后面",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "ko.dwi", "kind": "word", "pos": "noun", "text": "뒤", "zh": "后面", "features": { "roman": "dwi" }, "noteZh": "N 뒤에 있어요 = 在 N 后面;和 앞(前面)相对。뒤(后)和 위(上)只差一个辅音,别听混。" },
+    { "id": "ko.yeop", "kind": "word", "pos": "noun", "text": "옆", "zh": "旁边", "features": { "roman": "yeop" }, "noteZh": "收音 ㅍ 读 [p]:[엽];옆에 连音读 [여페]:은행 옆에 있어요(在银行旁边)。" },
+    { "id": "ko.wi", "kind": "word", "pos": "noun", "text": "위", "zh": "上面", "features": { "roman": "wi" }, "noteZh": "책 위에(书上面);和 아래 相对;ㅟ 是一个音节,快读,不要读成“乌一”。" },
+    { "id": "ko.arae", "kind": "word", "pos": "noun", "text": "아래", "zh": "下面", "features": { "roman": "arae" }, "noteZh": "옷 아래에(衣服下面);和 위 相对;口语也常说 밑。" },
+    { "id": "ko.an_2", "kind": "word", "pos": "noun", "text": "안", "zh": "里面", "features": { "roman": "an" }, "noteZh": "가방 안에 있어요(在包里);和否定的 안(不)同形:名词 + 안에 是“在……里面”,안 + 动词是“不……”;和 밖(外面)相对。" },
+    { "id": "ko.geogi", "kind": "word", "pos": "pron", "text": "거기", "zh": "那里(离你近或刚提到的)", "features": { "roman": "geogi" }, "noteZh": "和 그거 一样,指离对方近或刚提到的地方:거기 뒤에 있어요(在那后面);打电话问“你那儿”也用 거기。" },
+    { "id": "ko.jeogi", "kind": "word", "pos": "pron", "text": "저기", "zh": "那里(远处)", "features": { "roman": "jeogi" }, "noteZh": "指离两个人都远、看得见的地方:저기 있어요(在那儿);叫人的 저기요(打扰一下)就是从这个词来的。" },
+    { "id": "ko.geuncheo", "kind": "word", "pos": "noun", "text": "근처", "zh": "附近", "features": { "roman": "geuncheo" }, "noteZh": "汉字词 近处;학교 근처(学校附近);근처에 식당이 있어요(附近有饭馆)。" }
+  ],
+  "reviewItems": ["ko.ap", "ko.bak", "ko.gabang", "ko.yeogi"],
+  "lines": [
+    { "speaker": "jing", "text": "수아 씨, 제 휴대폰이 없어요!", "zh": "(出门前)秀雅,我的手机不见了!", "roman": "sua ssi, je hyudaeponi eopseoyo!", "items": ["ko.ssi", "ko.hyudaepon", "ko.eopseoyo"] },
+    { "speaker": "sua", "text": "가방 안에 있어요?", "zh": "在包里吗?", "roman": "gabang ane isseoyo?", "items": ["ko.gabang", "ko.an_2", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "아니요, 가방 안에 없어요.", "zh": "不在,包里没有。", "roman": "aniyo, gabang ane eopseoyo.", "items": ["ko.aniyo", "ko.gabang", "ko.an_2", "ko.eopseoyo"] },
+    { "speaker": "sua", "text": "그럼 책 위에 있어요?", "zh": "那在书上面吗?", "roman": "geureom chaek wie isseoyo?", "items": ["ko.geureom", "ko.chaek", "ko.wi", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "책 위에도 없어요…", "zh": "书上面也没有……", "roman": "chaek wiedo eopseoyo…", "items": ["ko.chaek", "ko.wi", "ko.eopseoyo"] },
+    { "speaker": "sua", "text": "아, 저기 있어요! 옷 아래에 있어요.", "zh": "(秀雅指着房间另一头的床)啊,在那儿!在衣服下面。", "roman": "a, jeogi isseoyo! ot araee isseoyo.", "items": ["ko.jeogi", "ko.isseoyo", "ko.ot", "ko.arae"] },
+    { "speaker": "jing", "text": "아, 여기 있어요! 고마워요, 수아 씨.", "zh": "(陈静走过去翻出手机)啊,在这儿!谢谢你,秀雅。", "roman": "a, yeogi isseoyo! gomawoyo, sua ssi.", "items": ["ko.yeogi", "ko.isseoyo", "ko.gomawoyo", "ko.ssi"] },
+    { "speaker": "sua", "text": "오늘은 밖에서 먹어요! 학교 근처에 식당이 있어요.", "zh": "今天我们出去吃吧!学校附近有家饭馆。", "roman": "oneureun bakkeseo meogeoyo! hakgyo geuncheoe sikdangi isseoyo.", "items": ["ko.oneul", "ko.bak", "ko.meogeoyo", "ko.hakgyo", "ko.geuncheo", "ko.sikdang", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "좋아요! 식당이 어디에 있어요?", "zh": "好啊!饭馆在哪儿?", "roman": "joayo! sikdangi eodie isseoyo?", "items": ["ko.joayo", "ko.sikdang", "ko.eodi", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "학교 앞 은행 옆에 편의점이 있어요.", "zh": "学校前面那家银行旁边有个便利店。", "roman": "hakgyo ap eunhaeng yeope pyeonuijeomi isseoyo.", "items": ["ko.hakgyo", "ko.ap", "ko.eunhaeng", "ko.yeop", "ko.pyeonuijeom", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "네, 거기 편의점 있어요.", "zh": "嗯,那儿是有个便利店。", "roman": "ne, geogi pyeonuijeom isseoyo.", "items": ["ko.ne", "ko.geogi", "ko.pyeonuijeom", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "식당은 그 편의점 뒤에 있어요. 진짜 맛있어요!", "zh": "饭馆就在那家便利店后面。特别好吃!", "roman": "sikdangeun geu pyeonuijeom dwie isseoyo. jinjja masisseoyo!", "items": ["ko.sikdang", "ko.pyeonuijeom", "ko.dwi", "ko.isseoyo", "ko.jinjja", "ko.masisseoyo"] },
+    { "speaker": "jing", "text": "아, 저기 편의점이 있어요!", "zh": "(两人走到街上)啊,便利店在那儿!", "roman": "a, jeogi pyeonuijeomi isseoyo!", "items": ["ko.jeogi", "ko.pyeonuijeom", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "네, 식당은 거기 뒤에 있어요. 같이 가요!", "zh": "对,饭馆就在那后面。走吧!", "roman": "ne, sikdangeun geogi dwie isseoyo. gachi gayo!", "items": ["ko.ne", "ko.sikdang", "ko.geogi", "ko.dwi", "ko.isseoyo", "ko.gachi", "ko.gayo"] }
+  ],
+  "questions": [
+    { "prompt": "陈静的手机最后在哪儿找到的?", "options": ["包里", "书上面", "衣服下面"], "answer": 2, "explainZh": "第 2–6 句:가방 안에 없어요、책 위에도 없어요;秀雅说 옷 아래에 있어요(在衣服下面)。" },
+    { "prompt": "秀雅说的饭馆在哪儿?", "options": ["便利店后面", "银行前面", "学校里面"], "answer": 0, "explainZh": "第 10、12 句:学校前面那家银行旁边有便利店,식당은 그 편의점 뒤에 있어요(饭馆在便利店后面)。" },
+    { "prompt": "第 6 句秀雅说“저기 있어요”,手机在哪儿?", "options": ["就在秀雅手边", "离两个人都有点远", "在陈静手里"], "answer": 1, "explainZh": "저기 指离两个人都远、看得见的地方;离自己近说 여기,离对方近或刚提到的说 거기。陈静走过去拿到手机,才说 여기 있어요。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u6_position", "titleZh": "N + 方位词 + 에 있어요:在……里 / 上 / 旁边",
+      "bodyZh": "说东西在哪儿,顺序是 参照物 + 方位词 + 에 있어요:가방 안에(在包里)、책 위에(在书上)、옷 아래에(在衣服下面)、은행 옆에(在银行旁边)、편의점 뒤에(在便利店后面)、학교 앞에(在学校前面)。汉语是“在 + 包 + 里”,韩语是“包 + 里 + 에”,“在”的意思由句末的 에 있어요 表达。\n常用方位词:앞 前 / 뒤 后、위 上 / 아래 下、안 里 / 밖 外、옆 旁边、근처 附近。没有就把 있어요 换成 없어요;“……也没有”加 도:책 위에도 없어요。地点后面接 에서 表示在那儿做事:밖에서 먹어요(在外面吃)。\n读音:옆에 [여페]、앞에 [아페]、밖에 [바께]、안에 [아네]——收音都移到下一个字。",
+      "examples": [ { "text": "가방 안에 있어요?", "zh": "在包里吗?" }, { "text": "옷 아래에 있어요.", "zh": "在衣服下面。" }, { "text": "식당은 편의점 뒤에 있어요.", "zh": "饭馆在便利店后面。" } ] },
+    { "id": "ko.g.u6_yeogi_geogi_jeogi", "titleZh": "여기 / 거기 / 저기:这儿、那儿(近你)、那儿(远处)",
+      "bodyZh": "韩语的“这儿、那儿”分三种,和 이거 / 그거 / 저거 一一对应:여기(离我近)、거기(离你近,或者刚刚提到的地方)、저기(离我们都远、看得见的地方)。秀雅指着房间另一头说 저기 있어요!;陈静走过去拿起手机说 여기 있어요!;秀雅说过饭馆在便利店后面,再提起那儿就说 거기 뒤에 있어요。\n汉语只分“这儿 / 那儿”,中国学生最容易把 거기 和 저기 混用:眼前看得见的远处用 저기;电话里问“你那儿”、说“刚才说的那个地方”用 거기。叫人时说的 저기요(打扰一下)和指地方的 저기 也要分开。",
+      "examples": [ { "text": "아, 저기 있어요!", "zh": "啊,在那儿!(远处)" }, { "text": "여기 있어요!", "zh": "在这儿!(手边)" }, { "text": "식당은 거기 뒤에 있어요.", "zh": "饭馆在那儿后面。(刚提到的地方)" } ] }
+  ],
+  "review": "draft"
+}

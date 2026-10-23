@@ -169,7 +169,7 @@
       "canDoZh": "能说出常用的厨房用品,分清哪些是自己的、哪些是大家一起用的",
       "scenarioZh": "索菲娅带王伟看厨房的柜子:哪些锅、盘子、刀叉是 WG 一起用的(unser),哪些是约纳斯自己的——他是厨师,他的刀谁也不碰;王伟说他还缺一个炒锅(der Wok)和筷子,打算周末去买。Tasse、Glas 第 4 单元才教,本课不用。说话人:sofia、wei。",
       "grammarFocusZh": "物主冠词复习(unser Topf, sein Messer, meine Teller);复数复习(die Teller, die Messer, die Gabeln, die Löffel);kein + 复数(Wir haben keine Stäbchen)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
       "newItems": [
         { "id": "de.topf", "kind": "word", "pos": "noun", "text": "der Topf", "zh": "锅(煮东西的深锅)", "features": { "gender": "m", "plural": "die Töpfe", "ipa": "tɔpf" }, "noteZh": "pf 两个音都要发:先闭上嘴唇发 p,马上接 f;复数 o 变 ö:die Töpfe。" },
         { "id": "de.teller", "kind": "word", "pos": "noun", "text": "der Teller", "zh": "盘子", "features": { "gender": "m", "plural": "die Teller", "ipa": "ˈtɛlɐ" }, "noteZh": "复数不变:die Teller;词尾 -er 读成轻轻的 [ɐ]。" },
@@ -180,7 +180,7 @@
         { "id": "de.wok", "kind": "word", "pos": "noun", "text": "der Wok", "zh": "炒锅", "features": { "gender": "m", "plural": "die Woks", "ipa": "vɔk" }, "noteZh": "从中文(粤语)来的外来词,德国的商店也买得到;w 读 [v],复数加 -s。" },
         { "id": "de.staebchen", "kind": "word", "pos": "noun", "text": "das Stäbchen", "zh": "筷子", "features": { "gender": "n", "plural": "die Stäbchen", "ipa": "ˈʃtɛːpçən" }, "noteZh": "一根是 das Stäbchen,平时说复数 die Stäbchen(也叫 Essstäbchen);-chen 结尾的名词都是中性。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.schrank", "de.unser", "de.kein", "de.es_gibt", "de.brauchen", "de.ach_so"]
     },
     {
       "id": "de.a1u3.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-3 我的新家", "order": 103085,
@@ -193,7 +193,7 @@
         { "id": "de.studentenwohnheim", "kind": "word", "pos": "noun", "text": "das Studentenwohnheim", "zh": "学生宿舍", "features": { "gender": "n", "plural": "die Studentenwohnheime", "ipa": "ʃtuˈdɛntn̩ˌvoːnhaɪ̯m" }, "noteZh": "Studenten(大学生)+ Wohnheim(宿舍),性跟着 das Wohnheim;口语常简称 das Wohnheim。" },
         { "id": "de.teilen", "kind": "word", "pos": "verb", "text": "teilen", "zh": "合用;分享", "features": { "ipa": "ˈtaɪ̯lən" }, "noteZh": "规则动词:Wir teilen die Küche.(我们合用厨房。);ei 读 [aɪ̯]。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.wohnung", "de.wg", "de.kosten", "de.teuer", "de.jetzt", "de.nett"]
     },
     {
       "id": "de.a1u4.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104045,
@@ -201,14 +201,14 @@
       "canDoZh": "能看懂超市传单上的商品、数量和价格,决定买什么",
       "scenarioZh": "体裁:超市广告传单(超市不写真实名称)。周六早上索菲娅把信箱里的传单拿给王伟:本周特价的苹果(一公斤)、一包面条、一瓶水、十个鸡蛋、奶酪……每样写着数量和价格;最后是两人根据传单写的 WG 购物计划。说话人:narrator(传单文字)、wei(购物计划)。",
       "grammarFocusZh": "数量和包装:ein Kilo Äpfel, eine Packung Nudeln, eine Flasche Wasser(量词后面直接跟名词);价格读法复习(1,99 € = ein Euro neunundneunzig)",
-      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "skills": ["read", "write"], "estimatedMinutes": 17.5,
       "newItems": [
         { "id": "de.kilo", "kind": "word", "pos": "noun", "text": "das Kilo", "zh": "公斤", "features": { "gender": "n", "plural": "die Kilos", "ipa": "ˈkiːlo" }, "noteZh": "数字后面不变:zwei Kilo Äpfel(不说 ✗ zwei Kilos Äpfel);量词后面直接跟名词,中间没有“的”。" },
         { "id": "de.packung", "kind": "word", "pos": "noun", "text": "die Packung", "zh": "包;盒", "features": { "gender": "f", "plural": "die Packungen", "ipa": "ˈpakʊŋ" }, "noteZh": "eine Packung Nudeln(一包面条)、eine Packung Milch(一盒牛奶);-ung 结尾是阴性。" },
         { "id": "de.flasche", "kind": "word", "pos": "noun", "text": "die Flasche", "zh": "瓶子;一瓶", "features": { "gender": "f", "plural": "die Flaschen", "ipa": "ˈflaʃə" }, "noteZh": "eine Flasche Wasser(一瓶水),sechs Flaschen Wasser(六瓶水);sch 读 [ʃ]。" },
         { "id": "de.angebot", "kind": "word", "pos": "noun", "text": "das Angebot", "zh": "特价商品;优惠", "features": { "gender": "n", "plural": "die Angebote", "ipa": "ˈanɡəˌboːt" }, "noteZh": "超市传单、菜单上常见:Unsere Angebote(本店特价);重音在第一个音节 an 上。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.apfel", "de.nudel", "de.ei", "de.kaese", "de.einkaufen", "de.gern"]
     },
     {
       "id": "de.a1u4.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104060,
@@ -216,7 +216,7 @@
       "canDoZh": "能在小吃摊点餐,说要什么、不要什么,回答在这儿吃还是带走",
       "scenarioZh": "周五晚上王伟去约纳斯工作的餐馆接他下晚班,两人在地铁站旁的小吃摊吃宵夜。王伟点 einen Döner ohne Zwiebeln,约纳斯要 Currywurst mit Pommes;摊主问要不要辣、在这儿吃还是带走(Zum Mitnehmen?);约纳斯说这两样是柏林最有名的小吃,还开玩笑说他做的菜没有烤肉卷受欢迎。说话人:verkaeufer、wei、jonas。",
       "grammarFocusZh": "ohne 和 mit 成对记(ohne Zwiebeln / mit Pommes,先只用不带冠词的说法);Ich möchte / Ich nehme + 第四格复习(einen Döner);Zum Mitnehmen? 当固定说法",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
         { "id": "de.imbiss", "kind": "word", "pos": "noun", "text": "der Imbiss", "zh": "小吃摊;快餐店", "features": { "gender": "m", "plural": "die Imbisse", "ipa": "ˈɪmbɪs" }, "noteZh": "卖烤肉卷、香肠、薯条的小摊或小店,常在地铁站旁边;复数 die Imbisse。" },
         { "id": "de.doener", "kind": "word", "pos": "noun", "text": "der Döner", "zh": "(土耳其)烤肉卷", "features": { "gender": "m", "plural": "die Döner", "ipa": "ˈdøːnɐ" }, "noteZh": "点一个:Einen Döner, bitte!(阳性第四格 einen);ö 是长音:舌头放在发 e 的位置,嘴唇撮圆。" },
@@ -226,7 +226,7 @@
         { "id": "de.ohne", "kind": "word", "pos": "prep", "text": "ohne", "zh": "不要;没有;不带", "features": { "ipa": "ˈoːnə" }, "noteZh": "和 mit(加、带)正好相反:mit Pommes / ohne Zwiebeln;h 不发音,只表示 o 读长音。" },
         { "id": "de.zum_mitnehmen", "kind": "phrase", "pos": "phrase", "text": "zum Mitnehmen", "zh": "带走;外带", "features": { "ipa": "tsʊm ˈmɪtˌneːmən" }, "noteZh": "店员问 Hier essen oder zum Mitnehmen?(在这儿吃还是带走?);回答 Zum Mitnehmen, bitte. 或 Hier essen, bitte.。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.hunger", "de.scharf", "de.mit", "de.essen", "de.lecker", "de.das_macht"]
     },
     {
       "id": "de.a1u4.l07", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104070,
@@ -234,7 +234,7 @@
       "canDoZh": "能看懂大学食堂的菜单牌,选素食或肉菜,用食堂卡付钱",
       "scenarioZh": "开学前,莉娜带王伟第一次去大学食堂(die Mensa):菜单牌上有素食(vegetarisch)、纯素(vegan)、肉菜和沙拉,学生价和客人价不一样;王伟问 vegan 是什么意思,莉娜解释;两人选好菜,在收银台用食堂卡付钱,王伟觉得很便宜。heute 第 5 单元才教,问菜单用 Was gibt es?。说话人:lena、wei、kassiererin。",
       "grammarFocusZh": "es gibt + 第四格复习(Es gibt Suppe und einen Salat);Was nimmst du? – Ich nehme …;形容词放在 sein 后面不变(Die Suppe ist vegan)",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 23,
       "newItems": [
         { "id": "de.mensa", "kind": "word", "pos": "noun", "text": "die Mensa", "zh": "大学食堂", "features": { "gender": "f", "plural": "die Mensen", "ipa": "ˈmɛnza" }, "noteZh": "大学生吃饭的地方,学生价比客人价便宜;复数 die Mensen。s 在元音前读 [z]。" },
         { "id": "de.vegetarisch", "kind": "word", "pos": "adj", "text": "vegetarisch", "zh": "素的(不含肉和鱼)", "features": { "ipa": "veɡeˈtaːʁɪʃ" }, "noteZh": "外来词里的 v 读 [v];重音在 ta 上。Ich esse vegetarisch.(我吃素。)" },
@@ -243,7 +243,7 @@
         { "id": "de.haehnchen", "kind": "word", "pos": "noun", "text": "das Hähnchen", "zh": "鸡肉;烤鸡", "features": { "gender": "n", "plural": "die Hähnchen", "ipa": "ˈhɛːnçən" }, "noteZh": "菜单上的鸡肉菜常写 Hähnchen;-chen 结尾的名词都是中性。äh 读长音 [ɛː],这个 h 不发音。" },
         { "id": "de.gast", "kind": "word", "pos": "noun", "text": "der Gast", "zh": "客人", "features": { "gender": "m", "plural": "die Gäste", "ipa": "ɡast" }, "noteZh": "复数 a 变 ä:die Gäste;食堂里不是本校学生的人按 Gäste 的价格付钱。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.suppe", "de.reis", "de.fleisch", "de.fisch", "de.bezahlen", "de.karte"]
     },
     {
       "id": "de.a1u4.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-4 吃喝", "order": 104085,
@@ -251,14 +251,14 @@
       "canDoZh": "能读懂一份餐馆菜单(前菜、主菜、甜点、饮料和价格),为自己和朋友选菜",
       "scenarioZh": "体裁:餐馆菜单(餐馆不写真实名称)。约纳斯把他工作的餐馆的新菜单拍照发到 WG 群:汤、沙拉、鱼配土豆、素食面条、苹果蛋糕、咖啡和茶……每道菜有一句简短的说明和价格;最后一段是约纳斯推荐的特价菜(用 das Angebot)。说话人:narrator(菜单文字)。",
       "grammarFocusZh": "菜单上的常见结构:名词 + mit / ohne(Fisch mit Kartoffeln / Salat ohne Fleisch);复合词(Apfelkuchen = Apfel + Kuchen);复习价格、gern 和 möchten",
-      "skills": ["read", "write"], "estimatedMinutes": 15,
+      "skills": ["read", "write"], "estimatedMinutes": 17.5,
       "newItems": [
         { "id": "de.vorspeise", "kind": "word", "pos": "noun", "text": "die Vorspeise", "zh": "前菜;头盘", "features": { "gender": "f", "plural": "die Vorspeisen", "ipa": "ˈfoːɐ̯ˌʃpaɪ̯zə" }, "noteZh": "vor(在……之前)+ Speise(菜):正餐前的汤、沙拉;v 读 [f],sp 读 [ʃp]。" },
         { "id": "de.hauptgericht", "kind": "word", "pos": "noun", "text": "das Hauptgericht", "zh": "主菜", "features": { "gender": "n", "plural": "die Hauptgerichte", "ipa": "ˈhaʊ̯ptɡəˌʁɪçt" }, "noteZh": "Haupt(主要的)+ Gericht(一道菜),性跟着 das Gericht;复合词重音在第一部分。" },
         { "id": "de.nachspeise", "kind": "word", "pos": "noun", "text": "die Nachspeise", "zh": "(饭后的)甜点", "features": { "gender": "f", "plural": "die Nachspeisen", "ipa": "ˈnaːxˌʃpaɪ̯zə" }, "noteZh": "nach(在……之后)+ Speise,和 die Vorspeise 成对记;也说 der Nachtisch、das Dessert。" },
         { "id": "de.getraenk", "kind": "word", "pos": "noun", "text": "das Getränk", "zh": "饮料", "features": { "gender": "n", "plural": "die Getränke", "ipa": "ɡəˈtʁɛŋk" }, "noteZh": "和 trinken(喝)是一家;词尾 nk 读 [ŋk]。菜单上写复数 Getränke。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.speisekarte", "de.kartoffel", "de.gemuese", "de.angebot", "de.restaurant", "de.kochen"]
     }
   ]
 }

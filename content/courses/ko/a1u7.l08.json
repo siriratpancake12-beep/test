@@ -1,0 +1,47 @@
+{
+  "id": "ko.a1u7.l08", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107080,
+  "titleZh": "单元复习:百货店里挑父母节礼物", "goalZh": "把本单元的问价、颜色、尺码、打折、付款串起来,帮别人挑东西",
+  "canDoZh": "能陪朋友逛商店:帮她出主意、问价和折扣、比较颜色,最后完成付款",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "ko.baekhwajeom", "kind": "word", "pos": "noun", "text": "백화점", "zh": "百货商店", "features": { "roman": "baekhwajeom" }, "noteZh": "汉字词 百货店;ㄱ 和 ㅎ 合成送气音,读 [배콰점](国语罗马字在名词里保留 h,写 baekhwajeom)。" },
+    { "id": "ko.jigap", "kind": "word", "pos": "noun", "text": "지갑", "zh": "钱包", "features": { "roman": "jigap" }, "noteZh": "汉字词 纸匣;收音 ㅂ 只闭嘴、不爆破。" },
+    { "id": "ko.moja", "kind": "word", "pos": "noun", "text": "모자", "zh": "帽子", "features": { "roman": "moja" }, "noteZh": "汉字词 帽子;“戴帽子”是 모자를 써요(以后学)。" },
+    { "id": "ko.noransaek", "kind": "word", "pos": "noun", "text": "노란색", "zh": "黄色", "features": { "roman": "noransaek" }, "noteZh": "也说 노랑;노란색 모자 = 黄色帽子。" }
+  ],
+  "reviewItems": ["ko.seonmul", "ko.harin", "ko.jal_eoullyeoyo", "ko.maeume_deureoyo"],
+  "lines": [
+    { "speaker": "sua", "text": "징 씨, 부모님 선물을 사고 싶어요. 같이 가요!", "zh": "(五月初。5 月 8 日是韩国的父母节)陈静,我想给爸妈买礼物,陪我去吧!", "roman": "jing ssi, bumonim seonmureul sago sipeoyo. gachi gayo!", "items": ["ko.ssi", "ko.bumonim", "ko.seonmul", "ko.sayo", "ko.gachi", "ko.gayo"] },
+    { "speaker": "jing", "text": "좋아요! 그럼 백화점에 가요.", "zh": "好啊!那我们去百货商店吧。", "roman": "joayo! geureom baekhwajeome gayo.", "items": ["ko.joayo", "ko.geureom", "ko.baekhwajeom", "ko.gayo"] },
+    { "speaker": "sua", "text": "아빠 선물이에요. 뭐 살까요?", "zh": "(在百货商店,秀雅小声问陈静)给爸爸的礼物,买什么好呢?", "roman": "appa seonmurieyo. mwo salkkayo?", "items": ["ko.appa", "ko.seonmul", "ko.mwo", "ko.sayo"] },
+    { "speaker": "jing", "text": "이 검은색 지갑 어때요?", "zh": "这个黑色的钱包怎么样?", "roman": "i geomeunsaek jigap eottaeyo?", "items": ["ko.geomeunsaek", "ko.jigap", "ko.eottaeyo"] },
+    { "speaker": "sua", "text": "좋아요! 이거 얼마예요?", "zh": "好!(问店员)这个多少钱?", "roman": "joayo! igeo eolmayeyo?", "items": ["ko.joayo", "ko.igeo", "ko.eolmayeyo"] },
+    { "speaker": "clerk", "text": "오만 원이에요. 오늘은 이십 퍼센트 할인이에요.", "zh": "五万韩元。今天打八折。", "roman": "oman wonieyo. oneureun isip peosenteu harinieyo.", "items": ["ko.o", "ko.man", "ko.won", "ko.oneul", "ko.i", "ko.sip", "ko.peosenteu", "ko.harin"] },
+    { "speaker": "jing", "text": "그럼 사만 원이에요. 싸요!", "zh": "那就是四万。挺便宜的!", "roman": "geureom saman wonieyo. ssayo!", "items": ["ko.geureom", "ko.sa", "ko.man", "ko.won", "ko.ssayo"] },
+    { "speaker": "sua", "text": "엄마 지갑도 사고 싶어요. 다른 색깔 있어요?", "zh": "我也想给妈妈买个钱包。有别的颜色吗?", "roman": "eomma jigapdo sago sipeoyo. dareun saekkkal isseoyo?", "items": ["ko.eomma", "ko.jigap", "ko.sayo", "ko.dareun", "ko.saekkkal", "ko.isseoyo"] },
+    { "speaker": "clerk", "text": "네, 빨간색하고 노란색이 있어요.", "zh": "有,有红色和黄色的。", "roman": "ne, ppalgansaekago noransaegi isseoyo.", "items": ["ko.ne", "ko.ppalgansaek", "ko.noransaek", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "빨간색이 더 예뻐요. 어머니가 빨간색을 좋아하세요?", "zh": "红色的更好看。你妈妈喜欢红色吗?", "roman": "ppalgansaegi deo yeppeoyo. eomeoniga ppalgansaegeul joahaseyo?", "items": ["ko.ppalgansaek", "ko.deo", "ko.yeppeoyo", "ko.eomeoni", "ko.joahaeyo"] },
+    { "speaker": "sua", "text": "네! 마음에 들어요. 검은색하고 빨간색 주세요.", "zh": "喜欢!我看中了。请给我黑色和红色的。", "roman": "ne! maeume deureoyo. geomeunsaekago ppalgansaek juseyo.", "items": ["ko.ne", "ko.maeume_deureoyo", "ko.geomeunsaek", "ko.ppalgansaek", "ko.juseyo"] },
+    { "speaker": "jing", "text": "수아 씨, 이 노란색 모자도 예뻐요.", "zh": "秀雅,这顶黄色的帽子也很好看。", "roman": "sua ssi, i noransaek mojado yeppeoyo.", "items": ["ko.ssi", "ko.noransaek", "ko.moja", "ko.yeppeoyo"] },
+    { "speaker": "clerk", "text": "그 모자는 오십 퍼센트 할인이에요. 만 원이에요.", "zh": "那顶帽子打五折,一万韩元。", "roman": "geu mojaneun osip peosenteu harinieyo. man wonieyo.", "items": ["ko.moja", "ko.o", "ko.sip", "ko.peosenteu", "ko.harin", "ko.man", "ko.won"] },
+    { "speaker": "sua", "text": "징 씨, 진짜 잘 어울려요!", "zh": "(陈静戴上试了试)陈静,特别适合你!", "roman": "jing ssi, jinjja jal eoullyeoyo!", "items": ["ko.ssi", "ko.jinjja", "ko.jal_eoullyeoyo"] },
+    { "speaker": "jing", "text": "그럼 이걸로 주세요. 카드 돼요?", "zh": "那这顶我要了。可以刷卡吗?", "roman": "geureom igeollo juseyo. kadeu dwaeyo?", "items": ["ko.geureom", "ko.igeollo_juseyo", "ko.kadeu", "ko.dwaeyo"] },
+    { "speaker": "clerk", "text": "네, 돼요. 영수증 여기 있어요.", "zh": "可以。这是您的小票。", "roman": "ne, dwaeyo. yeongsujeung yeogi isseoyo.", "items": ["ko.ne", "ko.dwaeyo", "ko.yeongsujeung", "ko.yeogi", "ko.isseoyo"] }
+  ],
+  "questions": [
+    { "prompt": "秀雅给爸爸挑了什么颜色的钱包?", "options": ["红色", "黑色", "黄色"], "answer": 1, "explainZh": "第 4 句陈静推荐 이 검은색 지갑(这个黑色的钱包),第 11 句秀雅要了黑色和红色两个:黑色给爸爸,红色给妈妈。" },
+    { "prompt": "打折以后,一个钱包多少钱?", "options": ["40,000 韩元", "50,000 韩元", "10,000 韩元", "30,000 韩元"], "answer": 0, "explainZh": "第 6 句:오만 원(50,000),이십 퍼센트 할인(打八折);第 7 句陈静算出来 사만 원(40,000)。" },
+    { "prompt": "陈静给自己买了什么?", "options": ["红色的钱包", "黑色的帽子", "黄色的帽子"], "answer": 2, "explainZh": "第 12 句陈静看到 노란색 모자(黄色帽子),第 15 句说 이걸로 주세요(就要这个)。" },
+    { "prompt": "那顶帽子打几折?", "options": ["打五折", "打八折", "打二折"], "answer": 0, "explainZh": "第 13 句:오십 퍼센트 할인 = 减掉 50%,也就是打五折,所以只要 만 원(一万韩元)。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.shopping_review", "titleZh": "购物句型小结",
+      "bodyZh": "这一单元买东西用的句子,按顺序串起来就是一次完整的购物:① 问价:이거 얼마예요?、다 얼마예요?;② 说想要什么:颜色 + 名词(검은색 지갑),想买 N:N을/를 사고 싶어요;③ 出主意、征求意见:이거 어때요?、뭐 살까요?;④ 比较:빨간색이 더 예뻐요、파란색이 더 잘 어울려요;⑤ 要别的:다른 색깔 있어요?、더 작은 거 있어요?;⑥ 选定、付款:이걸로 주세요、카드 돼요?、현금 돼요?;⑦ 退换:영수증 있어요?、M 사이즈로 바꿔 주세요。这一课陈静“站到另一边”帮秀雅挑,用的是同样的句子,只是 어때요? 从店员嘴里换到了自己嘴里。",
+      "examples": [ { "text": "이 검은색 지갑 어때요?", "zh": "这个黑色的钱包怎么样?" }, { "text": "다른 색깔 있어요?", "zh": "有别的颜色吗?" }, { "text": "이걸로 주세요. 카드 돼요?", "zh": "就要这个。可以刷卡吗?" } ] },
+    { "id": "ko.g.n_do_discount", "titleZh": "N도(也)和打折计算",
+      "bodyZh": "도 = 也,直接接在名词后面,代替 은/는、이/가、을/를:노란색 모자도 예뻐요(黄帽子也好看)、엄마 지갑도 사고 싶어요(也想买妈妈的钱包)。不说 모자가도、지갑을도——도 不和 이/가、을/를 叠在一起(에도、에서도 可以)。打折按“减掉多少”说:이십 퍼센트 할인 = 打八折,오십 퍼센트 할인 = 打五折。算价钱:오만 원(50,000)打八折是 사만 원(40,000),帽子原价两万打五折是 만 원。",
+      "examples": [ { "text": "노란색 모자도 예뻐요.", "zh": "黄色的帽子也好看。" }, { "text": "오십 퍼센트 할인이에요.", "zh": "打五折。" } ] }
+  ],
+  "review": "draft"
+}

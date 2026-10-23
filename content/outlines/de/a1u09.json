@@ -10,8 +10,8 @@
       "titleZh": "你学什么专业?",
       "goalZh": "会问和说专业、第几学期,用 sondern 纠正别人的猜测,说自己来柏林多久了",
       "canDoZh": "能问别人学什么专业、第几学期,说出自己的专业和这学期的课",
-      "scenarioZh": "夏季学期第一天(4 月 14 日),王伟和莉娜在大学门口碰到索菲娅,三人聊这学期:索菲娅学设计、第二学期,还在语言中心上德语课;莉娜学英语、第四学期,以后想当老师;索菲娅猜王伟学数学,王伟用 sondern 纠正:学的是计算机(第二学期,编程很好玩,数学很难);莉娜问他来柏林多久了。规划里的 seit 已由 u7.l06 登记,本课改用 Wie lange … schon …?。说话人:sofia、lena、wei。",
-      "grammarFocusZh": "Was studierst du? – Ich studiere Informatik, im zweiten Semester;sondern 纠正别人的猜测(Ich studiere nicht Mathe, sondern Informatik),和 aber 对比;Wie lange bist du schon in Berlin? – Sieben Monate.(现在时 + schon 表示“已经……了”);复习 studieren 和 lernen",
+      "scenarioZh": "夏季学期第一天(4 月 14 日),王伟和莉娜在大学门口碰到索菲娅,三人聊这学期:索菲娅学设计、第二学期,还在语言中心上德语课;莉娜学英语、第四学期,以后想当老师;索菲娅猜王伟学数学,王伟用 sondern 纠正:学的是计算机(第二学期,编程很好玩,数学很难);莉娜问 Seit wann bist du eigentlich in Berlin?(seit 在 u7.l06 学过,本课当复习词)。说话人:sofia、lena、wei。",
+      "grammarFocusZh": "Was studierst du? – Ich studiere Informatik, im zweiten Semester;sondern 纠正别人的猜测(Ich studiere nicht Mathe, sondern Informatik),和 aber 对比;seit + 时间用现在时(Seit wann …? – Seit September. / Ich bin schon sieben Monate hier.,中文说“已经……了”,德语不用完成时;seit 后的第三格先当固定说法);复习 studieren 和 lernen",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
       "newItems": [
         { "id": "de.semester", "kind": "word", "pos": "noun", "text": "das Semester", "zh": "学期", "features": { "gender": "n", "plural": "die Semester", "ipa": "zeˈmɛstɐ" }, "noteZh": "重音在 mes;词尾 -er 读得很轻,近似 [ɐ];复数不变:zwei Semester。第几学期:im zweiten Semester。德国大学一年两个学期:冬季学期(Wintersemester,10 月到 3 月)和夏季学期(Sommersemester,4 月到 9 月)。" },
@@ -24,7 +24,7 @@
         { "id": "de.design", "kind": "word", "pos": "noun", "text": "das Design", "zh": "设计(专业)", "features": { "gender": "n", "plural": "die Designs", "ipa": "diˈzaɪ̯n" }, "noteZh": "英语外来词,按英语的音读:di-ZAIN;中性;说专业不加冠词:Sofia studiert Design." },
         { "id": "de.studium", "kind": "word", "pos": "noun", "text": "das Studium", "zh": "(大学的)学业", "features": { "gender": "n", "plural": "die Studien", "ipa": "ˈʃtuːdi̯ʊm" }, "noteZh": "和 studieren 是一家:Wie ist dein Studium?(你的学业怎么样?);复数 Studien 不常用;词首 st 读 [ʃt]。" }
       ],
-      "reviewItems": ["de.studieren", "de.lehrerin", "de.wie_lange", "de.september", "de.monat"]
+      "reviewItems": ["de.studieren", "de.lehrerin", "de.seit", "de.september", "de.monat"]
     },
     {
       "id": "de.a1u9.l02", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109020,
@@ -45,7 +45,7 @@
         { "id": "de.erdgeschoss", "kind": "word", "pos": "noun", "text": "das Erdgeschoss", "zh": "(楼的)底层;中国说的一楼", "features": { "gender": "n", "plural": "die Erdgeschosse", "ipa": "ˈeːɐ̯tɡəˌʃɔs" }, "noteZh": "die Erde(地面)+ das Geschoss(楼层);电梯上写 E 或 0;Erd- 的 d 读 [t]。" },
         { "id": "de.professor", "kind": "word", "pos": "noun", "text": "der Professor", "zh": "教授", "features": { "gender": "m", "plural": "die Professoren", "ipa": "pʁoˈfɛsoːɐ̯" }, "noteZh": "重音在 fes,复数重音挪到 so:Pro-fes-SO-ren;女教授:die Professorin;称呼:Herr Professor Schmidt。" }
       ],
-      "reviewItems": ["de.dienstag", "de.freitag", "de.viertel", "de.muessen"]
+      "reviewItems": ["de.dienstag", "de.freitag", "de.viertel", "de.muessen", "de.im_ersten_stock"]
     },
     {
       "id": "de.a1u9.l03", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109030,
@@ -73,7 +73,7 @@
       "titleZh": "去老师的答疑时间",
       "goalZh": "会在答疑时间礼貌地请老师帮忙,分清 dürfen 和 können",
       "canDoZh": "能在答疑时间礼貌地向老师提问:考试、作业和学习方法",
-      "scenarioZh": "瓦格纳老师每周三下午有答疑时间(die Sprechstunde)。王伟敲门问 Darf ich reinkommen?,说 5 月 17 日要考 A1,请老师帮忙:他觉得口语最难,说得又慢又不好;老师说这很正常,建议他多说德语(比如和莉娜说)、常听广播(早上听十分钟),还借给他一本模拟题(ein Buch mit Tests)。fragen 已由 u12.l04 登记(规划里也给 u1.l07 留了),Tipp、nervös、Fehler 已由 u12 登记,本课都不用。说话人:wei、wagner。",
+      "scenarioZh": "瓦格纳老师每周三下午有答疑时间(die Sprechstunde)。王伟敲门问 Darf ich reinkommen?,说 5 月 17 日要考 A1,请老师帮忙:他觉得口语最难,说得太慢;老师说这很正常,建议他多说德语(比如和莉娜说)、每天听广播(早上听十分钟),还借给他一本模拟题(ein Buch mit Tests)。die Frage、üben、jeder 是第 8 单元新增课的词,本课当复习词;fragen 是第 1 单元新增课的词(还没定),Tipp、nervös、Fehler 已由 u12 登记,本课都不用。说话人:wei、wagner。",
       "grammarFocusZh": "礼貌地开口和请求:Darf ich reinkommen? / Können Sie mir helfen?(mir 先当固定说法);和老师说话一直用 Sie,老师用 Sie 的命令式提建议;dürfen 和 können 的区别;zum Beispiel",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
       "newItems": [
@@ -86,7 +86,7 @@
         { "id": "de.test", "kind": "word", "pos": "noun", "text": "der Test", "zh": "测试;测验", "features": { "gender": "m", "plural": "die Tests", "ipa": "tɛst" }, "noteZh": "阳性,复数加 -s;考试前做的模拟题常叫 der Modelltest;s 读清音 [s]。" },
         { "id": "de.hilfe", "kind": "word", "pos": "noun", "text": "die Hilfe", "zh": "帮助", "features": { "gender": "f", "plural": "-", "ipa": "ˈhɪlfə" }, "noteZh": "动词是 helfen:Vielen Dank für die Hilfe!(谢谢您的帮助!);遇到危险喊 Hilfe!(救命!)。" }
       ],
-      "reviewItems": ["de.duerfen", "de.pruefung", "de.helfen", "de.ausleihen", "de.langsam"]
+      "reviewItems": ["de.duerfen", "de.pruefung", "de.helfen", "de.frage", "de.ueben", "de.jeder"]
     },
     {
       "id": "de.a1u9.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109045,
@@ -109,8 +109,8 @@
       "titleZh": "选课:还有位子吗?",
       "goalZh": "会打电话问课程还有没有名额,听懂建议,再选一门备选",
       "canDoZh": "能问课程还有没有名额,和同学商量换一门课",
-      "scenarioZh": "王伟在网上报名时,施密特教授星期二的讨论课已经满了(ausgebucht)。他给系办公室打电话,接电话的是发通知的洛伦茨女士:她查了一下(Einen Augenblick, bitte),讨论课确实满了,建议他直接给施密特教授写邮件试试;王伟又和莉娜商量,莉娜说星期四还有一门讨论课有空位,王伟决定也选上当备选(Sicher ist sicher!)。der Platz、voll、der Moment 已由 u5–8 新增课登记,schade 已由 u12 登记,本课不用。说话人:mitarbeiterin、wei、lena。",
-      "grammarFocusZh": "frei / ausgebucht 和 noch(Da ist noch etwas frei);打电话问事情的开头和结尾(Informatik, Lorenz, guten Tag! / Einen Augenblick, bitte. / Vielen Dank! Auf Wiedersehen!);第四格复习(Ich nehme den Kurs am Donnerstag)",
+      "scenarioZh": "王伟在网上报名时,施密特教授星期二的讨论课已经满了(voll / ausgebucht)。他给系办公室打电话问 Ist noch ein Platz frei?,接电话的是发通知的洛伦茨女士:她查了一下(Einen Augenblick, bitte),讨论课确实报满了,建议他直接给施密特教授写邮件试试;王伟又和莉娜商量,莉娜说星期四还有一门讨论课有空位,王伟决定也选上当备选(Sicher ist sicher!)。der Platz、voll 是第 6 单元新增课的词,本课当复习词;schade 已由 u12 登记,本课不用。说话人:mitarbeiterin、wei、lena。",
+      "grammarFocusZh": "frei / voll / ausgebucht(Ist noch ein Platz frei? – Da sind noch Plätze frei / Das Seminar ist ausgebucht);打电话问事情的开头和结尾(Informatik, Lorenz, guten Tag! / Einen Augenblick, bitte. / Vielen Dank! Auf Wiedersehen!);第四格复习(Ich nehme den Kurs am Donnerstag)",
       "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
       "newItems": [
         { "id": "de.ausgebucht", "kind": "word", "pos": "adj", "text": "ausgebucht", "zh": "(报名、预订)满了", "features": { "ipa": "ˈaʊ̯sɡəˌbuːxt" }, "noteZh": "课程、酒店、航班订满了都说 ausgebucht:Das Seminar ist ausgebucht.;u 后面的 ch 读 [x],从喉咙里擦出来。" },
@@ -122,14 +122,14 @@
         { "id": "de.buero", "kind": "word", "pos": "noun", "text": "das Büro", "zh": "办公室", "features": { "gender": "n", "plural": "die Büros", "ipa": "byˈʁoː" }, "noteZh": "重音在后:bü-RO;中性,复数加 -s;给办公室打电话,对方常先报部门和自己的姓。" },
         { "id": "de.sicher", "kind": "word", "pos": "adj", "text": "sicher", "zh": "肯定;安全;保险", "features": { "ipa": "ˈzɪçɐ" }, "noteZh": "Sicher ist sicher!(保险起见!);Bist du sicher?(你确定吗?);也是“安全”:Das ist sicher.;s 读 [z],ch 读 [ç]。" }
       ],
-      "reviewItems": ["de.professor", "de.seminar", "de.kurs", "de.etwas", "de.helfen"]
+      "reviewItems": ["de.platz", "de.voll", "de.professor", "de.seminar", "de.kurs", "de.helfen"]
     },
     {
       "id": "de.a1u9.l06", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109060,
       "titleZh": "学生证、学期票和注册费",
       "goalZh": "会说注册费、学生证、学期票这些词,问清截止日期、开始日期和费用",
       "canDoZh": "能说出大学里办手续常用的词,问清楚在哪儿办、什么时候截止、要交多少钱",
-      "scenarioZh": "王伟要交下学期的注册费(der Semesterbeitrag),才能拿到新的学生证(der Studentenausweis)和学期票(das Semesterticket)。他和索菲娅去学生服务中心问男工作人员:注册费多少钱(320 欧元,包括学期票)、怎么交(转账)、截止到什么时候(7 月 15 日)、学期票从什么时候起有效(10 月 1 日);索菲娅的学生证丢了,问怎么补办:带一张证件照,手续费 10 欧元。bekommen 已由 u7.l07 登记、das Foto 已由 u2.l06 登记,本课不用。说话人:wei、mitarbeiter、sofia。",
+      "scenarioZh": "王伟要交下学期的注册费(der Semesterbeitrag),才能拿到新的学生证(der Studentenausweis)和学期票(das Semesterticket)。他和索菲娅去学生服务中心问男工作人员:注册费多少钱(320 欧元,包括学期票)、怎么交(转账)、截止到什么时候(7 月 15 日)、学期票从什么时候起有效(10 月 1 日);索菲娅的学生证丢了,问怎么补办:带一张证件照,手续费 10 欧元。bekommen 是第 7 单元新增课的词,本课当复习词;das Foto 是第 2 单元新增课的词(还没定),本课不用。说话人:wei、mitarbeiter、sofia。",
       "grammarFocusZh": "复合词:Studentenausweis = Student + Ausweis、Semesterticket、Semesterbeitrag(性看最后一个词);bis zum 15. Juli / ab 1. Oktober;复习 müssen",
       "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
       "newItems": [
@@ -143,7 +143,7 @@
         { "id": "de.ab", "kind": "word", "pos": "prep", "text": "ab", "zh": "从……起", "features": { "ipa": "ap" }, "noteZh": "表示从某个时间开始:ab Oktober(从十月起)、ab Montag(从星期一起);和 bis(到)成对:ab Montag bis Freitag;词尾 b 读 [p]。" },
         { "id": "de.gebuehr", "kind": "word", "pos": "noun", "text": "die Gebühr", "zh": "费用;手续费", "features": { "gender": "f", "plural": "die Gebühren", "ipa": "ɡəˈbyːɐ̯" }, "noteZh": "办证、补卡这类手续要交的钱:Die Gebühr ist zehn Euro.;h 不发音,ü 是长音;重音在 bühr。" }
       ],
-      "reviewItems": ["de.bezahlen", "de.geld", "de.schicken", "de.juli", "de.oktober"]
+      "reviewItems": ["de.bezahlen", "de.geld", "de.bekommen", "de.juli", "de.oktober"]
     },
     {
       "id": "de.a1u9.l07", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109070,
@@ -173,7 +173,7 @@
       "canDoZh": "能带别人参观大学,介绍教学楼、图书馆和食堂,说明那里的规定",
       "scenarioZh": "保罗想知道大学是什么样。周四下午王伟带他参观:阶梯教室在一楼(Erdgeschoss),讨论课在 erster Stock(中国的二楼),旁边有电梯;讲座和讨论课有什么不同;图书馆能不能进(Darf ich da rein?——中学生也能进,但不能大声说话);饿了在哪儿吃东西(楼里的咖啡馆,学生便宜,保罗不是学生要贵一点,王伟请客;食堂 die Mensa、der Gast 已由 u4.l07 登记,本课不用);保罗还问王伟认不认识有名的教授。说话人:paul、wei。",
       "grammarFocusZh": "复习:dürfen + man、楼层、wissen / kennen、sondern",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 26.5,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 25.5,
       "newItems": [
         { "id": "de.beruehmt", "kind": "word", "pos": "adj", "text": "berühmt", "zh": "有名的;著名的", "features": { "ipa": "bəˈʁyːmt" }, "noteZh": "放在名词前要加词尾:einen berühmten Professor(形容词词尾 A2 再系统学);h 不发音,ü 是长音;重音在 rühmt。" },
         { "id": "de.aufzug", "kind": "word", "pos": "noun", "text": "der Aufzug", "zh": "电梯", "features": { "gender": "m", "plural": "die Aufzüge", "ipa": "ˈaʊ̯fˌtsuːk" }, "noteZh": "也叫 der Lift / der Fahrstuhl;复数变音:Aufzüge;z 读 [ts],词尾 g 读 [k]。" }
@@ -183,16 +183,16 @@
     {
       "id": "de.a1u9.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-9 大学与课程", "order": 109085,
       "titleZh": "给教授的邮件",
-      "goalZh": "读懂并会写一封给教授的礼貌邮件",
-      "canDoZh": "能读懂、也能写一封给大学老师的礼貌邮件:说明自己是谁,问一个具体的问题",
-      "scenarioZh": "体裁:给老师的邮件。满了的那门讨论课,系办公室让王伟直接问教授。他给施密特教授(虚构,不出场)写邮件:先写主题(Betreff),称呼 Guten Tag, Herr Professor Schmidt,,介绍自己(专业、学期),问还能不能参加讨论课,说星期二一定准时去;结尾 Vielen Dank und viele Grüße。下面附上教授的回信:可以参加,讨论课在 B 楼 erster Stock。Sehr geehrte … / Mit freundlichen Grüßen 已由 u7.r02 登记,本课不用。说话人:wei(邮件)、narrator(回信)。",
-      "grammarFocusZh": "给老师写邮件的格式:Betreff、称呼(Guten Tag, Herr Professor …,)、介绍自己、提问、结尾;teilnehmen 是可分动词,和 möchten / können / dürfen 连用时放句末",
+      "goalZh": "读懂并会写一封给教授的正式邮件",
+      "canDoZh": "能读懂、也能写一封给大学老师的正式邮件:说明自己是谁,问一个具体的问题",
+      "scenarioZh": "体裁:正式邮件。满了的那门讨论课,系办公室让王伟直接问教授。他给施密特教授(虚构,不出场)写邮件:先写主题(Betreff),Sehr geehrter Herr Professor Schmidt,,介绍自己(专业、学期),问还能不能参加、还有没有位子,说星期二一定准时去;Mit freundlichen Grüßen。下面附上教授的回信:Lieber Herr Wang,可以参加,讨论课在 B 楼 erster Stock,Viele Grüße。Sehr geehrte … / Mit freundlichen Grüßen 是 u7.r02 的词,本课当复习词。说话人:wei(邮件)、narrator(回信)。",
+      "grammarFocusZh": "正式邮件的格式复习(Betreff、Sehr geehrter … / Mit freundlichen Grüßen),和回信里的 Lieber … / Viele Grüße 对比;Ist noch ein Platz frei? 在书面语里;teilnehmen 是可分动词,和 möchten / können / dürfen 连用时放句末",
       "skills": ["read", "write"], "estimatedMinutes": 15.5,
       "newItems": [
         { "id": "de.teilnehmen", "kind": "word", "pos": "verb", "text": "teilnehmen", "zh": "参加", "features": { "ipa": "ˈtaɪ̯lˌneːmən" }, "noteZh": "可分:Ich nehme am Seminar teil.;参加什么用 an + 第三格:an dem Seminar = am Seminar(先当固定搭配记);nehmen 的变化照旧:du nimmst teil。" },
         { "id": "de.betreff", "kind": "word", "pos": "noun", "text": "der Betreff", "zh": "(邮件、信的)主题;事由", "features": { "gender": "m", "plural": "die Betreffe", "ipa": "bəˈtʁɛf" }, "noteZh": "写邮件先写一行主题:Betreff: Seminar am Dienstag;重音在 treff。" }
       ],
-      "reviewItems": ["de.professor", "de.ausgebucht", "de.e_mail", "de.gebaeude", "de.puenktlich"]
+      "reviewItems": ["de.sehr_geehrte", "de.mit_freundlichen_gruessen", "de.platz", "de.ausgebucht", "de.e_mail", "de.gebaeude"]
     }
   ]
 }

@@ -1,13 +1,23 @@
 {
   "id": "de.a1u9.l07", "schemaVersion": 1, "lang": "de", "type": "grammar", "cefr": "A1",
   "unit": "A1-9 大学与课程", "order": 109070,
-  "titleZh": "-", "goalZh": "-", "canDoZh": "-",
-  "skills": ["listen"], "estimatedMinutes": 1,
-  "newItems": [],
+  "titleZh": "知道还是认识?——wissen 和 kennen", "goalZh": "分清 wissen 和 kennen,会说自己知道什么事、认识什么人和地方", "canDoZh": "能分清 wissen 和 kennen,说自己知道什么事、认识什么人或地方",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "de.wissen", "kind": "word", "pos": "verb", "text": "wissen", "zh": "知道", "features": { "ipa": "ˈvɪsn̩" }, "noteZh": "单数不规则:ich weiß, du weißt, er weiß(ich 和 er 没有词尾);后面接事情、答案:Das weiß ich nicht.;认识人、熟悉地方用 kennen;w 读 [v]。" },
+    { "id": "de.quiz", "kind": "word", "pos": "noun", "text": "das Quiz", "zh": "知识问答;小测验", "features": { "gender": "n", "plural": "die Quiz", "ipa": "kvɪs" }, "noteZh": "英语外来词,德国人读 [kvɪs](qu 读 [kv]);中性,复数不变;ein Quiz machen(做知识问答)。" },
+    { "id": "de.hauptstadt", "kind": "word", "pos": "noun", "text": "die Hauptstadt", "zh": "首都", "features": { "gender": "f", "plural": "die Hauptstädte", "ipa": "ˈhaʊ̯ptˌʃtat" }, "noteZh": "Haupt-(主要的)+ die Stadt;Berlin ist die Hauptstadt von Deutschland.;复数变音:Hauptstädte;st 读 [ʃt]。" },
+    { "id": "de.fernsehturm", "kind": "word", "pos": "noun", "text": "der Fernsehturm", "zh": "电视塔", "features": { "gender": "m", "plural": "die Fernsehtürme", "ipa": "ˈfɛʁnzeːˌtʊʁm" }, "noteZh": "fernsehen(看电视)+ der Turm(塔);柏林的电视塔就在亚历山大广场边上,是城市的标志;复数变音:Fernsehtürme。" },
+    { "id": "de.punkt", "kind": "word", "pos": "noun", "text": "der Punkt", "zh": "分(得分);点;句号", "features": { "gender": "m", "plural": "die Punkte", "ipa": "pʊŋkt" }, "noteZh": "比赛、考试的得分:ein Punkt für Sofia(索菲娅得一分);也是标点里的句号和网址里的“点”;nk 读 [ŋk]。" },
+    { "id": "de.bezirk", "kind": "word", "pos": "noun", "text": "der Bezirk", "zh": "(城市的)区", "features": { "gender": "m", "plural": "die Bezirke", "ipa": "bəˈtsɪʁk" }, "noteZh": "柏林有 12 个区,Neukölln、Pankow 都是区名;一个区里有好几个城区(das Viertel);重音在 zirk,z 读 [ts]。" },
+    { "id": "de.norden", "kind": "word", "pos": "noun", "text": "der Norden", "zh": "北方;北部", "features": { "gender": "m", "plural": "-", "ipa": "ˈnɔʁdn̩" }, "noteZh": "im Norden(在北部):Hamburg ist im Norden.;四个方向都是阳性:der Norden, der Süden, der Osten, der Westen。" },
+    { "id": "de.fluss", "kind": "word", "pos": "noun", "text": "der Fluss", "zh": "河;河流", "features": { "gender": "m", "plural": "die Flüsse", "ipa": "flʊs" }, "noteZh": "柏林市中心的河叫 die Spree;复数变音:die Flüsse;u 是短音,ss 读 [s]。" },
+    { "id": "de.gewinnen", "kind": "word", "pos": "verb", "text": "gewinnen", "zh": "赢;获胜", "features": { "ipa": "ɡəˈvɪnən" }, "noteZh": "Wer gewinnt?(谁赢了?);反义词 verlieren(输);ge- 是词的一部分,不可分;w 读 [v]。" }
+  ],
   "reviewItems": ["de.kennen", "de.leider", "de.sondern", "de.wie_viel"],
   "lines": [
     { "speaker": "wagner", "text": "Heute machen wir ein Berlin-Quiz! Kennen Sie den Alexanderplatz?", "zh": "今天我们来做柏林知识问答!大家知道亚历山大广场吗?", "items": ["de.heute", "de.machen", "de.wir", "de.ein", "de.quiz", "de.kennen", "de.sie_hoeflich"] },
-    { "speaker": "sofia", "text": "Ja, den kenne ich. Da ist der Fernsehturm!", "zh": "知道,我去过。电视塔就在那儿!", "items": ["de.ja", "de.kennen", "de.ich", "de.da", "de.sein", "de.fernsehturm"] },
+    { "speaker": "sofia", "text": "Ja, den kenne ich. Da ist der Fernsehturm!", "zh": "知道,那儿我熟。电视塔就在那儿!", "items": ["de.ja", "de.kennen", "de.ich", "de.da", "de.sein", "de.fernsehturm"] },
     { "speaker": "wagner", "text": "Sehr gut, ein Punkt für Sofia! Herr Wang, kennen Sie den Bezirk Pankow?", "zh": "很好,索菲娅得一分!王先生,您知道潘科区吗?", "items": ["de.sehr", "de.gut", "de.ein", "de.punkt", "de.fuer", "de.herr", "de.kennen", "de.sie_hoeflich", "de.bezirk"] },
     { "speaker": "wei", "text": "Pankow? Nein, den kenne ich leider nicht.", "zh": "潘科?不知道,这个区我不熟。", "items": ["de.nein", "de.kennen", "de.ich", "de.leider", "de.nicht"] },
     { "speaker": "wagner", "text": "Pankow ist im Norden. Und wie viele Bezirke hat die Hauptstadt?", "zh": "潘科在北边。那么,首都柏林有几个区?", "items": ["de.sein", "de.in", "de.norden", "de.und", "de.wie_viel", "de.bezirk", "de.haben", "de.hauptstadt"] },
@@ -18,9 +28,9 @@
     { "speaker": "sofia", "text": "Wei gewinnt! Du kennst Berlin sehr gut.", "zh": "王伟赢了!你对柏林真熟。", "items": ["de.gewinnen", "de.du", "de.kennen", "de.sehr", "de.gut"] }
   ],
   "questions": [
-    { "prompt": "柏林有几个区?", "options": ["十个", "十二个", "三个"], "answer": 1, "explainZh": "王伟说:Nicht zehn, sondern zwölf.(不是十个,而是十二个。)十个是索菲娅猜错的。" },
-    { "prompt": "王伟知道潘科区吗?", "options": ["不知道", "知道,他住在那儿", "知道,他常去那儿"], "answer": 0, "explainZh": "王伟说:Pankow? Nein, den kenne ich leider nicht.(潘科?这个区我不熟。)老师说潘科在柏林北边。" },
-    { "prompt": "中央火车站旁边的河叫什么?", "options": ["易北河(Elbe)", "莱茵河(Rhein)", "施普雷河(Spree)"], "answer": 2, "explainZh": "王伟说:Das weiß ich auch: die Spree!(这个我也知道:施普雷河!)" }
+    { "prompt": "柏林有几个区?", "options": ["十二个", "十个", "三个"], "answer": 0, "explainZh": "王伟说:Nicht zehn, sondern zwölf.(不是十个,而是十二个。)十个是索菲娅猜错的。" },
+    { "prompt": "王伟知道潘科区吗?", "options": ["知道,他住在那儿", "知道,他常去那儿", "不知道"], "answer": 2, "explainZh": "王伟说:Pankow? Nein, den kenne ich leider nicht.(潘科?这个区我不熟。)老师说潘科在柏林北边。" },
+    { "prompt": "中央火车站旁边的河叫什么?", "options": ["易北河(Elbe)", "施普雷河(Spree)", "莱茵河(Rhein)"], "answer": 1, "explainZh": "王伟说:Das weiß ich auch: die Spree!(这个我也知道:施普雷河!)" }
   ],
   "grammar": [
     { "id": "de.g.wissen", "titleZh": "wissen 的变位",

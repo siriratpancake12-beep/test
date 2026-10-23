@@ -13,32 +13,32 @@
     { "id": "de.buero", "kind": "word", "pos": "noun", "text": "das Büro", "zh": "办公室", "features": { "gender": "n", "plural": "die Büros", "ipa": "byˈʁoː" }, "noteZh": "重音在后:bü-RO;中性,复数加 -s;给办公室打电话,对方常先报部门和自己的姓。" },
     { "id": "de.sicher", "kind": "word", "pos": "adj", "text": "sicher", "zh": "肯定;安全;保险", "features": { "ipa": "ˈzɪçɐ" }, "noteZh": "Sicher ist sicher!(保险起见!);Bist du sicher?(你确定吗?);也是“安全”:Das ist sicher.;s 读 [z],ch 读 [ç]。" }
   ],
-  "reviewItems": ["de.professor", "de.seminar", "de.kurs", "de.etwas", "de.helfen"],
+  "reviewItems": ["de.platz", "de.voll", "de.professor", "de.seminar", "de.kurs", "de.helfen"],
   "lines": [
     { "speaker": "mitarbeiterin", "text": "Informatik, Lorenz, guten Tag!", "zh": "计算机系,我是洛伦茨,您好!", "items": ["de.informatik", "de.guten_tag"] },
     { "speaker": "wei", "text": "Guten Tag, hier ist Wei Wang. Können Sie mir helfen?", "zh": "您好,我是王伟。您能帮我一下吗?", "items": ["de.guten_tag", "de.hier", "de.sein", "de.koennen", "de.sie_hoeflich", "de.ich", "de.helfen"] },
     { "speaker": "mitarbeiterin", "text": "Ja, gern. Was brauchen Sie?", "zh": "好的。您需要什么?", "items": ["de.ja", "de.gern", "de.was", "de.brauchen", "de.sie_hoeflich"] },
-    { "speaker": "wei", "text": "Das Seminar von Professor Schmidt ist ausgebucht. Kann ich noch rein?", "zh": "施密特教授的讨论课报满了。我还能进吗?", "items": ["de.seminar", "de.von", "de.professor", "de.sein", "de.ausgebucht", "de.koennen", "de.ich", "de.noch", "de.herein"] },
+    { "speaker": "wei", "text": "Das Seminar von Professor Schmidt ist online voll. Ist noch ein Platz frei?", "zh": "网上显示施密特教授的讨论课满了。还有空位吗?", "items": ["de.seminar", "de.von", "de.professor", "de.sein", "de.online", "de.voll", "de.noch", "de.ein", "de.platz", "de.frei"] },
     { "speaker": "mitarbeiterin", "text": "Einen Augenblick, bitte. Ja, das Seminar ist leider ausgebucht.", "zh": "请稍等。是的,这门讨论课已经满了。", "items": ["de.ein", "de.augenblick", "de.bitte", "de.ja", "de.seminar", "de.sein", "de.leider", "de.ausgebucht"] },
     { "speaker": "wei", "text": "Und was kann ich jetzt machen?", "zh": "那我现在该怎么办?", "items": ["de.und", "de.was", "de.koennen", "de.ich", "de.jetzt", "de.machen"] },
     { "speaker": "mitarbeiterin", "text": "Schreiben Sie Professor Schmidt direkt eine E-Mail. Versuchen Sie es!", "zh": "您直接给施密特教授写封邮件吧。试试看!", "items": ["de.schreiben", "de.sie_hoeflich", "de.professor", "de.direkt", "de.ein", "de.e_mail", "de.versuchen", "de.es"] },
     { "speaker": "wei", "text": "Gute Idee! Vielen Dank! Auf Wiedersehen!", "zh": "好主意!非常感谢!再见!", "items": ["de.gut", "de.idee", "de.vielen_dank", "de.auf_wiedersehen"] },
     { "speaker": "lena", "text": "Hast du das Büro angerufen?", "zh": "你给系办公室打电话了吗?", "items": ["de.haben", "de.du", "de.buero", "de.anrufen"] },
-    { "speaker": "wei", "text": "Ja. Das Seminar ist ausgebucht, aber ich schreibe Professor Schmidt.", "zh": "打了。讨论课满了,不过我要给施密特教授写信。", "items": ["de.ja", "de.seminar", "de.sein", "de.ausgebucht", "de.aber", "de.ich", "de.schreiben", "de.professor"] },
-    { "speaker": "lena", "text": "Am Donnerstag gibt es auch ein Seminar. Da ist noch etwas frei.", "zh": "星期四也有一门讨论课,那门还有空位。", "items": ["de.am", "de.donnerstag", "de.es_gibt", "de.auch", "de.ein", "de.seminar", "de.da", "de.sein", "de.noch", "de.etwas", "de.frei"] },
+    { "speaker": "wei", "text": "Ja. Das Seminar ist voll, aber ich schreibe Professor Schmidt.", "zh": "打了。讨论课满了,不过我要给施密特教授写信。", "items": ["de.ja", "de.seminar", "de.sein", "de.voll", "de.aber", "de.ich", "de.schreiben", "de.professor"] },
+    { "speaker": "lena", "text": "Am Donnerstag gibt es auch ein Seminar. Da sind noch Plätze frei.", "zh": "星期四也有一门讨论课,那门还有空位。", "items": ["de.am", "de.donnerstag", "de.es_gibt", "de.auch", "de.ein", "de.seminar", "de.da", "de.sein", "de.noch", "de.platz", "de.frei"] },
     { "speaker": "wei", "text": "Dann nehme ich den Kurs am Donnerstag auch. Sicher ist sicher!", "zh": "那我把星期四的课也选上。保险起见!", "items": ["de.dann", "de.nehmen", "de.ich", "de.kurs", "de.am", "de.donnerstag", "de.auch", "de.sicher", "de.sein"] }
   ],
   "questions": [
-    { "prompt": "王伟打电话问什么?", "options": ["考试在哪个教室", "施密特教授的讨论课还能不能进", "图书馆几点关门"], "answer": 1, "explainZh": "王伟说:Das Seminar von Professor Schmidt ist ausgebucht. Kann ich noch rein?(施密特教授的讨论课报满了,我还能进吗?)" },
+    { "prompt": "王伟打电话问什么?", "options": ["考试在哪个教室", "施密特教授的讨论课还能不能进", "图书馆几点关门"], "answer": 1, "explainZh": "王伟说:Das Seminar von Professor Schmidt ist online voll. Ist noch ein Platz frei?(网上显示施密特教授的讨论课满了,还有空位吗?)" },
     { "prompt": "办公室的工作人员建议王伟怎么做?", "options": ["明年再选这门课", "去图书馆问问", "直接给施密特教授写邮件"], "answer": 2, "explainZh": "工作人员说:Schreiben Sie Professor Schmidt direkt eine E-Mail. Versuchen Sie es!(直接给施密特教授写封邮件,试试看!)" },
     { "prompt": "王伟最后决定怎么做?", "options": ["保险起见,把星期四的课也选上", "不选讨论课了", "只去上星期二的课"], "answer": 0, "explainZh": "王伟说:Dann nehme ich den Kurs am Donnerstag auch. Sicher ist sicher!(那我把星期四的课也选上,保险起见!)" }
   ],
   "grammar": [
-    { "id": "de.g.frei_ausgebucht", "titleZh": "还有位子吗?——frei 和 ausgebucht",
-      "bodyZh": "问还能不能进一门课:Kann ich noch rein?(我还能进吗?口语,rein = herein)。回答:Ja, da ist noch etwas frei.(还有空位)/ Nein, das Seminar ist leider ausgebucht.(可惜已经报满了)。\nausgebucht = 报满了、订满了,课程、酒店、航班都能用。frei 的意思很多,都和“空着、没被占用”有关:Ist hier frei?(这儿有人吗?)、Am Freitag habe ich frei.(星期五我没课 / 不上班)。\nnoch 表示“还”:noch etwas(还有一点)、noch nicht(还没有)。",
+    { "id": "de.g.frei_ausgebucht", "titleZh": "还有位子吗?——frei、voll 和 ausgebucht",
+      "bodyZh": "问还有没有空位:Ist noch ein Platz frei?(还有空位吗?)noch 表示“还”。回答:Ja, da sind noch Plätze frei.(还有空位)/ Nein, das Seminar ist leider ausgebucht.(可惜已经报满了)。\nvoll 是“满的”(第 6 单元学过),ausgebucht 专指“报满了、订满了”,课程、酒店、航班都能用,在办公室、网站上更常听到。\nfrei 的意思很多,都和“空着、没被占用”有关:Ist hier frei?(这儿有人坐吗?)、Am Freitag habe ich frei.(星期五我没课 / 不上班)。",
       "examples": [
-        { "text": "Das Seminar ist leider ausgebucht.", "zh": "这门讨论课可惜已经报满了。" },
-        { "text": "Am Donnerstag ist noch etwas frei.", "zh": "星期四还有空位。" }
+        { "text": "Ist noch ein Platz frei?", "zh": "还有空位吗?" },
+        { "text": "Das Seminar ist leider ausgebucht.", "zh": "这门讨论课可惜已经报满了。" }
       ] },
     { "id": "de.g.telefon_buero", "titleZh": "给办公室打电话;第四格复习",
       "bodyZh": "给办公室打电话的顺序:① 对方先报部门和自己的姓:Informatik, Lorenz, guten Tag!;② 你报名字,再说事情:Guten Tag, hier ist Wei Wang. Können Sie mir helfen?;③ 对方去查的时候会说 Einen Augenblick, bitte.(请稍等。);④ 道谢告别:Vielen Dank! Auf Wiedersehen!。听到好建议可以说 Gute Idee!(好主意!)。\n复习第四格:nehmen、haben、schreiben 后面的阳性名词,der 要变成 den,ein 变成 einen:Ich nehme den Kurs am Donnerstag.;阴性、中性不变:Ich schreibe eine E-Mail. / Ich nehme das Seminar.。Einen Augenblick, bitte. 里的 einen 也是第四格(der Augenblick)。",

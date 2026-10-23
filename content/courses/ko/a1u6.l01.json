@@ -1,0 +1,49 @@
+{
+  "id": "ko.a1u6.l01", "schemaVersion": 1, "lang": "ko", "type": "grammar", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106010,
+  "titleZh": "你去哪儿?", "goalZh": "会用 N에 가요 / 와요 说去哪儿,用 N이/가 어디에 있어요? 问地方在哪儿",
+  "canDoZh": "能问别人去哪儿、说自己要去哪儿,问清楚银行、药店、洗手间在哪儿",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ko.hakgyo", "kind": "word", "pos": "noun", "text": "학교", "zh": "学校", "features": { "roman": "hakgyo" }, "noteZh": "汉字词 学校;收音 ㄱ 后面的 ㄱ 读成紧音:[학꾜]。" },
+    { "id": "ko.jip", "kind": "word", "pos": "noun", "text": "집", "zh": "家;房子", "features": { "roman": "jip" }, "noteZh": "집에 가요 = 回家(不用另说“回”);留学生说“回宿舍”也常说 집에 가요;집에 连音读 [지베]。" },
+    { "id": "ko.eunhaeng", "kind": "word", "pos": "noun", "text": "은행", "zh": "银行", "features": { "roman": "eunhaeng" }, "noteZh": "汉字词 银行;ㅎ 弱化,听起来像 [으냉]。" },
+    { "id": "ko.byeongwon", "kind": "word", "pos": "noun", "text": "병원", "zh": "医院", "features": { "roman": "byeongwon" }, "noteZh": "汉字词 病院;小诊所也叫 병원:병원에 가요 = 去看病。" },
+    { "id": "ko.yakguk", "kind": "word", "pos": "noun", "text": "약국", "zh": "药店", "features": { "roman": "yakguk" }, "noteZh": "汉字词 药局;收音 ㄱ 后面的 ㄱ 读成紧音:[약꾹]。" },
+    { "id": "ko.doseogwan", "kind": "word", "pos": "noun", "text": "도서관", "zh": "图书馆", "features": { "roman": "doseogwan" }, "noteZh": "汉字词 图书馆,发音和汉语很像;도서관에 가요(去图书馆)、도서관에 있어요(在图书馆)。" },
+    { "id": "ko.hwajangsil", "kind": "word", "pos": "noun", "text": "화장실", "zh": "洗手间;厕所", "features": { "roman": "hwajangsil" }, "noteZh": "汉字词 化妆室(意思和汉语的“化妆室”不同,就是厕所);问路最常用:화장실이 어디에 있어요?" },
+    { "id": "ko.gayo", "kind": "word", "pos": "verb", "text": "가요", "zh": "去", "features": { "roman": "gayo" }, "noteZh": "原形 가다(가 + 아요 缩成 가요);N에 가요 = 去 N;朋友之间 같이 가요! = 一起去吧!" },
+    { "id": "ko.wayo", "kind": "word", "pos": "verb", "text": "와요", "zh": "来", "features": { "roman": "wayo" }, "noteZh": "原形 오다(ㅗ + ㅏ 缩成 ㅘ);한국에 와요 = 来韩国;叫朋友过来:여기로 와요!" }
+  ],
+  "reviewItems": ["ko.eodi", "ko.isseoyo", "ko.pyeonuijeom", "ko.sueop"],
+  "lines": [
+    { "speaker": "jing", "text": "남 씨, 안녕하세요! 어디에 가요?", "zh": "(星期一早上,宿舍门口)阮文南,早!你去哪儿?", "roman": "nam ssi, annyeonghaseyo! eodie gayo?", "items": ["ko.ssi", "ko.annyeonghaseyo", "ko.eodi", "ko.gayo"] },
+    { "speaker": "nam", "text": "병원에 가요.", "zh": "(南咳嗽了两声)我去医院。", "roman": "byeongwone gayo.", "items": ["ko.byeongwon", "ko.gayo"] },
+    { "speaker": "jing", "text": "병원이요? 괜찮아요? 학교에 안 가요?", "zh": "医院?你没事吧?不去学校吗?", "roman": "byeongwoniyo? gwaenchanayo? hakgyoe an gayo?", "items": ["ko.byeongwon", "ko.gwaenchanayo", "ko.hakgyo", "ko.an", "ko.gayo"] },
+    { "speaker": "nam", "text": "네, 오늘은 병원에 가요. 그리고 집에 가요.", "zh": "嗯,今天不去了,去医院,然后回家。", "roman": "ne, oneureun byeongwone gayo. geurigo jibe gayo.", "items": ["ko.ne", "ko.oneul", "ko.byeongwon", "ko.gayo", "ko.geurigo", "ko.jip"] },
+    { "speaker": "jing", "text": "그래요? 저는 학교에 가요. 수업이 있어요.", "zh": "这样啊。我去学校,我有课。", "roman": "geuraeyo? jeoneun hakgyoe gayo. sueobi isseoyo.", "items": ["ko.geuraeyo", "ko.jeo", "ko.hakgyo", "ko.gayo", "ko.sueop", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "징 씨, 지금 어디에 있어요?", "zh": "(中午,秀雅打来电话)陈静,你现在在哪儿?", "roman": "jing ssi, jigeum eodie isseoyo?", "items": ["ko.ssi", "ko.jigeum", "ko.eodi", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "도서관에 있어요.", "zh": "我在图书馆。", "roman": "doseogwane isseoyo.", "items": ["ko.doseogwan", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "그럼 학교 앞으로 와요! 같이 편의점에 가요.", "zh": "那你到学校门口来吧!我们一起去便利店。", "roman": "geureom hakgyo apeuro wayo! gachi pyeonuijeome gayo.", "items": ["ko.geureom", "ko.hakgyo", "ko.ap", "ko.wayo", "ko.gachi", "ko.pyeonuijeom", "ko.gayo"] },
+    { "speaker": "jing", "text": "수아 씨, 은행이 어디에 있어요?", "zh": "(在校门口,陈静想顺便去趟银行)秀雅,银行在哪儿?", "roman": "sua ssi, eunhaengi eodie isseoyo?", "items": ["ko.ssi", "ko.eunhaeng", "ko.eodi", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "은행이요? 여기 있어요!", "zh": "银行?就在这儿!", "roman": "eunhaengiyo? yeogi isseoyo!", "items": ["ko.eunhaeng", "ko.yeogi", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "아, 여기 있어요. 그럼 약국도 있어요?", "zh": "啊,原来在这儿。那也有药店吗?", "roman": "a, yeogi isseoyo. geureom yakgukdo isseoyo?", "items": ["ko.yeogi", "ko.isseoyo", "ko.geureom", "ko.yakguk"] },
+    { "speaker": "sua", "text": "네, 약국도 학교 앞에 있어요.", "zh": "有,药店也在学校前面。", "roman": "ne, yakgukdo hakgyo ape isseoyo.", "items": ["ko.ne", "ko.yakguk", "ko.hakgyo", "ko.ap", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "그리고… 화장실이 어디에 있어요?", "zh": "还有……洗手间在哪儿?(陈静有点不好意思)", "roman": "geurigo… hwajangsiri eodie isseoyo?", "items": ["ko.geurigo", "ko.hwajangsil", "ko.eodi", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "하하, 카페에 있어요. 같이 가요!", "zh": "哈哈,咖啡店里有。一起去吧!", "roman": "haha, kapee isseoyo. gachi gayo!", "items": ["ko.kape", "ko.isseoyo", "ko.gachi", "ko.gayo"] }
+  ],
+  "questions": [
+    { "prompt": "南星期一早上要去哪儿?", "options": ["去学校上课", "去医院,然后回家", "去图书馆"], "answer": 1, "explainZh": "第 2、4 句:병원에 가요……그리고 집에 가요(去医院,然后回家)。去学校、图书馆的是陈静。" },
+    { "prompt": "秀雅打电话时,陈静在哪儿?", "options": ["在宿舍", "在便利店", "在图书馆"], "answer": 2, "explainZh": "第 6、7 句:지금 어디에 있어요?——도서관에 있어요(在图书馆)。“在某处”说 N에 있어요,“去某处”说 N에 가요。" },
+    { "prompt": "秀雅说洗手间在哪儿?", "options": ["在咖啡店", "在银行", "在药店"], "answer": 0, "explainZh": "最后一句:카페에 있어요(在咖啡店里)。问洗手间最常用的一句:화장실이 어디에 있어요?" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u6_e_place", "titleZh": "에 的两个用法:去哪儿(N에 가요)、在哪儿(N에 있어요)",
+      "bodyZh": "助词 에 接在地点后面,有两个常用意思:\n① 目的地:N에 가요 / 와요 = 去 / 来 N——학교에 가요(去学校)、병원에 가요(去医院)、한국에 와요(来韩国)。汉语说“去学校”,韩语的顺序是“学校-에 去”,动词放在最后。“回家”也说 집에 가요,不用另加“回”。\n② 存在的位置:N이/가 + 地点 + 에 있어요 = ……在……——약국이 학교 앞에 있어요(药店在学校前面)、저는 도서관에 있어요(我在图书馆)。\n问路的两个基本句:어디에 가요?(去哪儿?)、N이/가 어디에 있어요?(N 在哪儿?);口语里也常省掉助词,说成 화장실 어디예요?。가다 / 오다 和汉语的“去 / 来”一样,看说话人在哪儿:秀雅在校门口,所以说 학교 앞으로 와요!(到校门口来!)——(으)로 表示“往……”,第 3 课细讲。",
+      "examples": [ { "text": "어디에 가요?", "zh": "你去哪儿?" }, { "text": "병원에 가요. 그리고 집에 가요.", "zh": "去医院,然后回家。" }, { "text": "은행이 어디에 있어요?", "zh": "银行在哪儿?" } ] },
+    { "id": "ko.g.u6_isseoyo", "titleZh": "있어요:“有”还是“在”?",
+      "bodyZh": "있어요 既是“有”又是“在”,看句子结构:\n① N이/가 있어요? = 有 N 吗?——약국이 있어요?(有药店吗?)、화장실 있어요?(有洗手间吗?)\n② N이/가 + 地点 + 에 있어요 = N 在某处——약국이 학교 앞에 있어요(药店在学校前面)、저는 도서관에 있어요(我在图书馆)。\n“也有吗?”把 이/가 换成 도:약국도 있어요?(也有药店吗?)。注意:表示“在某处”用 에,不要照着汉语的“在”说成 ✗ 도서관에서 있어요——에서 是“在某处做某事”,第 4 课学。",
+      "examples": [ { "text": "약국도 있어요?", "zh": "也有药店吗?" }, { "text": "약국도 학교 앞에 있어요.", "zh": "药店也在学校前面。" }, { "text": "저는 도서관에 있어요.", "zh": "我在图书馆。" } ] }
+  ],
+  "review": "draft"
+}

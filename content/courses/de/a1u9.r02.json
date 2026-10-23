@@ -1,0 +1,43 @@
+{
+  "id": "de.a1u9.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-9 大学与课程", "order": 109085,
+  "titleZh": "给教授的邮件", "goalZh": "读懂并会写一封给教授的正式邮件", "canDoZh": "能读懂、也能写一封给大学老师的正式邮件:说明自己是谁,问一个具体的问题",
+  "skills": ["read", "write"], "estimatedMinutes": 15.5,
+  "newItems": [
+    { "id": "de.teilnehmen", "kind": "word", "pos": "verb", "text": "teilnehmen", "zh": "参加", "features": { "ipa": "ˈtaɪ̯lˌneːmən" }, "noteZh": "可分:Ich nehme am Seminar teil.;参加什么用 an + 第三格:an dem Seminar = am Seminar(先当固定搭配记);nehmen 的变化照旧:du nimmst teil。" },
+    { "id": "de.betreff", "kind": "word", "pos": "noun", "text": "der Betreff", "zh": "(邮件、信的)主题;事由", "features": { "gender": "m", "plural": "die Betreffe", "ipa": "bəˈtʁɛf" }, "noteZh": "写邮件先写一行主题:Betreff: Seminar am Dienstag;重音在 treff。" }
+  ],
+  "reviewItems": ["de.sehr_geehrte", "de.mit_freundlichen_gruessen", "de.platz", "de.ausgebucht", "de.e_mail", "de.gebaeude"],
+  "lines": [
+    { "speaker": "wei", "text": "Betreff: Seminar am Dienstag", "zh": "主题:星期二的讨论课", "items": ["de.betreff", "de.seminar", "de.am", "de.dienstag"] },
+    { "speaker": "wei", "text": "Sehr geehrter Herr Professor Schmidt,", "zh": "尊敬的施密特教授:", "items": ["de.sehr_geehrte", "de.herr", "de.professor"] },
+    { "speaker": "wei", "text": "mein Name ist Wei Wang.", "zh": "我叫王伟。", "items": ["de.mein", "de.name", "de.sein"] },
+    { "speaker": "wei", "text": "Ich studiere Informatik, im zweiten Semester.", "zh": "我学计算机,现在是第二学期。", "items": ["de.ich", "de.studieren", "de.informatik", "de.in", "de.zwei", "de.semester"] },
+    { "speaker": "wei", "text": "Ich möchte gern an Ihrem Seminar am Dienstag teilnehmen.", "zh": "我很想参加您星期二的讨论课。", "items": ["de.ich", "de.moechten", "de.gern", "de.ihr_hoeflich", "de.seminar", "de.am", "de.dienstag", "de.teilnehmen"] },
+    { "speaker": "wei", "text": "Aber online ist das Seminar leider ausgebucht.", "zh": "可是网上显示讨论课已经报满了。", "items": ["de.aber", "de.online", "de.sein", "de.seminar", "de.leider", "de.ausgebucht"] },
+    { "speaker": "wei", "text": "Ist vielleicht noch ein Platz frei?", "zh": "请问还有空位吗?", "items": ["de.sein", "de.vielleicht", "de.noch", "de.ein", "de.platz", "de.frei"] },
+    { "speaker": "wei", "text": "Ich komme am Dienstag pünktlich ins Seminar.", "zh": "星期二我一定准时去上课。", "items": ["de.ich", "de.ich_komme_aus", "de.am", "de.dienstag", "de.puenktlich", "de.in", "de.seminar"] },
+    { "speaker": "wei", "text": "Vielen Dank! Mit freundlichen Grüßen, Wei Wang", "zh": "非常感谢!此致敬礼,王伟", "items": ["de.vielen_dank", "de.mit_freundlichen_gruessen"] },
+    { "speaker": "narrator", "text": "Lieber Herr Wang,", "zh": "亲爱的王先生:", "items": ["de.liebe", "de.herr"] },
+    { "speaker": "narrator", "text": "vielen Dank für Ihre E-Mail.", "zh": "谢谢您的邮件。", "items": ["de.vielen_dank", "de.fuer", "de.ihr_hoeflich", "de.e_mail"] },
+    { "speaker": "narrator", "text": "Ja, Sie dürfen gern am Seminar teilnehmen.", "zh": "可以,欢迎您来参加讨论课。", "items": ["de.ja", "de.sie_hoeflich", "de.duerfen", "de.gern", "de.seminar", "de.teilnehmen"] },
+    { "speaker": "narrator", "text": "Das Seminar ist im Gebäude B, im ersten Stock.", "zh": "讨论课在 B 楼二楼。", "items": ["de.seminar", "de.sein", "de.in", "de.gebaeude", "de.im_ersten_stock", "de.eins", "de.stock"] },
+    { "speaker": "narrator", "text": "Viele Grüße, Thomas Schmidt", "zh": "祝好!托马斯·施密特", "items": ["de.viele_gruesse"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么给施密特教授写邮件?", "options": ["他想换专业", "讨论课在网上报满了,他想问还有没有位子", "他星期二不能去上课"], "answer": 1, "explainZh": "王伟写:Aber online ist das Seminar leider ausgebucht. Ist vielleicht noch ein Platz frei?(网上显示讨论课已经报满了,请问还有空位吗?)" },
+    { "prompt": "教授怎么回复?", "options": ["王伟可以来上讨论课", "讨论课满了,不能来", "王伟要先去系办公室"], "answer": 0, "explainZh": "教授写:Ja, Sie dürfen gern am Seminar teilnehmen.(可以,欢迎您来参加讨论课。)" },
+    { "prompt": "讨论课在哪儿?", "options": ["阶梯教室,在一楼", "图书馆里", "B 楼的 erster Stock(中国的二楼)"], "answer": 2, "explainZh": "教授写:Das Seminar ist im Gebäude B, im ersten Stock.(讨论课在 B 楼二楼。)" },
+    { "prompt": "王伟的邮件是怎么开头、怎么结尾的?", "options": ["Sehr geehrter … / Mit freundlichen Grüßen", "Hallo … / Tschüss", "Lieber … / Viele Grüße"], "answer": 0, "explainZh": "王伟写给教授用正式的 Sehr geehrter Herr Professor Schmidt, 开头,用 Mit freundlichen Grüßen 结尾。Lieber … / Viele Grüße 是教授回信用的。" }
+  ],
+  "grammar": [
+    { "id": "de.g.email_formell", "titleZh": "给教授写正式邮件",
+      "bodyZh": "给教授、不熟的老师、办公室写邮件(歌德 A1 写作第二部分也考),照这个顺序写:\n① Betreff(主题):一行说清是什么事,如 Betreff: Seminar am Dienstag。\n② 称呼:Sehr geehrter Herr Professor Schmidt,(男)/ Sehr geehrte Frau Wagner,(女)——第 7 单元的确认邮件里学过,geehrter / geehrte 跟着性别变。称呼后面是逗号,下一行第一个词小写:mein Name ist …。\n③ 介绍自己:Mein Name ist … / Ich studiere …, im zweiten Semester.\n④ 说事情、提问:Ich möchte gern an Ihrem Seminar teilnehmen. Ist vielleicht noch ein Platz frei?\n⑤ 结尾:Vielen Dank! / Mit freundlichen Grüßen + 全名。\n教授的回信用了 Lieber Herr Wang, 和 Viele Grüße:回信的人可以写得亲切一点,学生写给老师还是用正式的说法最保险。全文一直用 Sie,Ihr / Ihre(您的)首字母大写。teilnehmen(参加)是可分动词:Ich nehme am Seminar teil.;和 möchten、können、dürfen 连用时放句末、不分开。",
+      "examples": [
+        { "text": "Sehr geehrter Herr Professor Schmidt,", "zh": "尊敬的施密特教授:" },
+        { "text": "Ich möchte gern am Seminar teilnehmen.", "zh": "我很想参加讨论课。" },
+        { "text": "Mit freundlichen Grüßen, Wei Wang", "zh": "此致敬礼,王伟" }
+      ] }
+  ],
+  "review": "draft"
+}

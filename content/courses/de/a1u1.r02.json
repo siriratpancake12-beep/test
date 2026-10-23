@@ -21,7 +21,7 @@
     { "speaker": "wei", "text": "Wie sagt man das auf Deutsch? Ich frage Lena, und Lena antwortet.", "zh": "这个用德语怎么说?我就问莉娜,莉娜会回答我。", "items": ["de.wie_sagt_man", "de.das_ist", "de.auf_deutsch", "de.ich", "de.fragen", "de.und", "de.antworten"] }
   ],
   "questions": [
-    { "prompt": "莉娜会说哪些语言?", "options": ["德语和意大利语", "德语、英语和一点中文", "只会说德语"], "answer": 1, "explainZh": "作文里写:Lena spricht Deutsch, Englisch und ein bisschen Chinesisch.。" },
+    { "prompt": "莉娜会说哪些语言?", "options": ["德语和意大利语", "只会说德语", "德语、英语和一点中文"], "answer": 2, "explainZh": "作文里写:Lena spricht Deutsch, Englisch und ein bisschen Chinesisch.。" },
     { "prompt": "索菲娅住在哪里?", "options": ["新克尔恩", "克罗伊茨贝格", "科隆"], "answer": 0, "explainZh": "Sofia kommt aus Italien und wohnt auch in Neukölln.——auch 说明她和王伟一样住在新克尔恩;科隆是瓦格纳老师的家乡。" },
     { "prompt": "王伟觉得瓦格纳老师哪一点好?", "options": ["她来自科隆", "她会说英语", "她说话慢"], "answer": 2, "explainZh": "Frau Wagner spricht langsam. Das ist gut!(瓦格纳老师说话很慢。这样很好!)" },
     { "prompt": "王伟不知道一个词用德语怎么说的时候,怎么办?", "options": ["查词典", "问莉娜", "问瓦格纳老师"], "answer": 1, "explainZh": "最后一句:Wie sagt man das auf Deutsch? Ich frage Lena, und Lena antwortet.(我就问莉娜,莉娜会回答我。)" }

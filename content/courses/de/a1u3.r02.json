@@ -1,0 +1,37 @@
+{
+  "id": "de.a1u3.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103085,
+  "titleZh": "柏林的 WG 生活", "goalZh": "读懂一篇介绍柏林学生住房的说明文,复习 es gibt、复数、价格和地点放句首的语序", "canDoZh": "能读懂一篇介绍柏林学生住房的短文,说出 WG 是什么、一个房间大概多少钱",
+  "skills": ["read", "write"], "estimatedMinutes": 15,
+  "newItems": [
+    { "id": "de.studentenwohnheim", "kind": "word", "pos": "noun", "text": "das Studentenwohnheim", "zh": "学生宿舍", "features": { "gender": "n", "plural": "die Studentenwohnheime", "ipa": "ʃtuˈdɛntn̩ˌvoːnhaɪ̯m" }, "noteZh": "Studenten(大学生)+ Wohnheim(宿舍),性跟着 das Wohnheim;口语常简称 das Wohnheim。" },
+    { "id": "de.teilen", "kind": "word", "pos": "verb", "text": "teilen", "zh": "合用;分享", "features": { "ipa": "ˈtaɪ̯lən" }, "noteZh": "规则动词:Wir teilen die Küche.(我们合用厨房。);ei 读 [aɪ̯]。" }
+  ],
+  "reviewItems": ["de.wohnung", "de.wg", "de.kosten", "de.teuer", "de.jetzt", "de.nett"],
+  "lines": [
+    { "speaker": "narrator", "text": "Wohnen in Berlin", "zh": "住在柏林", "items": ["de.wohnen", "de.in"] },
+    { "speaker": "narrator", "text": "Wohnungen in Berlin sind nicht billig.", "zh": "柏林的房子不便宜。", "items": ["de.wohnung", "de.in", "de.sein", "de.nicht", "de.billig"] },
+    { "speaker": "narrator", "text": "In Berlin gibt es WGs und Studentenwohnheime.", "zh": "柏林有合租公寓,也有学生宿舍。", "items": ["de.in", "de.es_gibt", "de.wg", "de.und", "de.studentenwohnheim"] },
+    { "speaker": "narrator", "text": "In einer WG wohnen drei oder vier Studenten.", "zh": "一个合租公寓里住着三四个学生。", "items": ["de.in", "de.ein", "de.wg", "de.wohnen", "de.drei", "de.oder", "de.vier", "de.student"] },
+    { "speaker": "narrator", "text": "Sie haben ihre Zimmer, aber sie teilen die Küche und das Bad.", "zh": "每个人有自己的房间,厨房和浴室大家一起用。", "items": ["de.sie_pl", "de.haben", "de.ihr_poss", "de.zimmer", "de.aber", "de.teilen", "de.kueche", "de.und", "de.bad"] },
+    { "speaker": "narrator", "text": "Ein Zimmer in einer WG kostet vierhundert oder fünfhundert Euro.", "zh": "合租公寓里一个房间要四五百欧元。", "items": ["de.ein", "de.zimmer", "de.in", "de.wg", "de.kosten", "de.vier", "de.hundert", "de.oder", "de.fuenf", "de.euro"] },
+    { "speaker": "narrator", "text": "Das ist nicht billig, aber eine Wohnung ist sehr teuer.", "zh": "这不算便宜,可是一整套公寓就很贵了。", "items": ["de.das_ist", "de.nicht", "de.billig", "de.aber", "de.ein", "de.wohnung", "de.sein", "de.sehr", "de.teuer"] },
+    { "speaker": "narrator", "text": "Die Zimmer im Studentenwohnheim sind klein, aber nicht teuer.", "zh": "学生宿舍的房间小,但是不贵。", "items": ["de.zimmer", "de.in", "de.studentenwohnheim", "de.sein", "de.klein", "de.aber", "de.nicht", "de.teuer"] },
+    { "speaker": "narrator", "text": "Im Studentenwohnheim wohnen auch Studenten aus China und Italien.", "zh": "学生宿舍里也住着从中国、意大利来的学生。", "items": ["de.in", "de.studentenwohnheim", "de.wohnen", "de.auch", "de.student", "de.ich_komme_aus", "de.china", "de.und", "de.italien"] },
+    { "speaker": "narrator", "text": "Und du? Wohnst du in einer WG oder im Studentenwohnheim?", "zh": "你呢?你住合租公寓还是学生宿舍?", "items": ["de.und", "de.du", "de.wohnen", "de.in", "de.ein", "de.wg", "de.oder", "de.studentenwohnheim"] },
+    { "speaker": "wei", "text": "Ich wohne jetzt in einer WG in Neukölln.", "zh": "我现在住在新克尔恩的一个合租公寓里。", "items": ["de.ich", "de.wohnen", "de.jetzt", "de.in", "de.ein", "de.wg"] },
+    { "speaker": "wei", "text": "Meine WG ist sehr schön, und Jonas und Sofia sind sehr nett!", "zh": "我的合租公寓很好,约纳斯和索菲娅人也很好!", "items": ["de.mein", "de.wg", "de.sein", "de.sehr", "de.schoen", "de.und", "de.nett"] }
+  ],
+  "questions": [
+    { "prompt": "在 WG 里,哪些地方大家一起用?", "options": ["每个人的房间", "只有厨房", "厨房和浴室"], "answer": 2, "explainZh": "Sie haben ihre Zimmer, aber sie teilen die Küche und das Bad.(每个人有自己的房间,厨房和浴室大家一起用。)" },
+    { "prompt": "短文说,WG 里一个房间大概多少钱?", "options": ["四五百欧元", "一千欧元", "四五十欧元"], "answer": 0, "explainZh": "Ein Zimmer in einer WG kostet vierhundert oder fünfhundert Euro.——vierhundert 是 400,不是 40(vierzig)。" },
+    { "prompt": "学生宿舍的房间怎么样?", "options": ["很大,也很贵", "很小,而且很贵", "小,但是不贵"], "answer": 2, "explainZh": "Die Zimmer im Studentenwohnheim sind klein, aber nicht teuer.(房间小,但是不贵。)" },
+    { "prompt": "王伟觉得他住的 WG 怎么样?", "options": ["他想搬去学生宿舍", "WG 很好,约纳斯和索菲娅人也很好", "WG 太贵了"], "answer": 1, "explainZh": "最后一句是王伟写的:Meine WG ist sehr schön, und Jonas und Sofia sind sehr nett!" }
+  ],
+  "grammar": [
+    { "id": "de.g.ort_vorne", "titleZh": "地点放在句首,动词还在第二位",
+      "bodyZh": "说明文常把地点放在句首,这时变位动词仍然在第二位,主语挪到动词后面:In Berlin gibt es WGs und Studentenwohnheime. / In einer WG wohnen drei oder vier Studenten. / Im Studentenwohnheim wohnen auch Studenten aus China.。英语说 In Berlin there are …,主语在动词前面;德语不能照着说成 ✗ In Berlin es gibt …。复习:es gibt 后面可以跟复数(Es gibt WGs.);ein 在 in 后面变成 einer(in einer WG),im = in dem(im Studentenwohnheim)。",
+      "examples": [ { "text": "In Berlin gibt es WGs und Studentenwohnheime.", "zh": "柏林有合租公寓,也有学生宿舍。" }, { "text": "In einer WG wohnen drei oder vier Studenten.", "zh": "一个合租公寓里住着三四个学生。" }, { "text": "Sie teilen die Küche und das Bad.", "zh": "他们合用厨房和浴室。" } ] }
+  ],
+  "review": "draft"
+}

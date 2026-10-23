@@ -1,0 +1,42 @@
+{
+  "id": "de.a1u3.l07", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-3 我的新家", "order": 103070,
+  "titleZh": "这是谁的锅?——WG 的厨房用品", "goalZh": "连冠词和复数记住常用的厨房用品,用 unser / sein 和 kein 说东西是谁的、还缺什么", "canDoZh": "能说出常用的厨房用品,分清哪些是自己的、哪些是大家一起用的",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 24.5,
+  "newItems": [
+    { "id": "de.topf", "kind": "word", "pos": "noun", "text": "der Topf", "zh": "锅(煮东西的深锅)", "features": { "gender": "m", "plural": "die Töpfe", "ipa": "tɔpf" }, "noteZh": "pf 两个音都要发:先闭上嘴唇发 p,马上接 f;复数 o 变 ö:die Töpfe。" },
+    { "id": "de.teller", "kind": "word", "pos": "noun", "text": "der Teller", "zh": "盘子", "features": { "gender": "m", "plural": "die Teller", "ipa": "ˈtɛlɐ" }, "noteZh": "复数不变:die Teller;词尾 -er 读成轻轻的 [ɐ]。" },
+    { "id": "de.schuessel", "kind": "word", "pos": "noun", "text": "die Schüssel", "zh": "碗;盆", "features": { "gender": "f", "plural": "die Schüsseln", "ipa": "ˈʃʏsl̩" }, "noteZh": "吃米饭的碗、装沙拉的大碗都叫 Schüssel;别和 der Schlüssel(钥匙)搞混,钥匙多一个 l。" },
+    { "id": "de.messer", "kind": "word", "pos": "noun", "text": "das Messer", "zh": "刀", "features": { "gender": "n", "plural": "die Messer", "ipa": "ˈmɛsɐ" }, "noteZh": "刀、叉、勺的性各不一样:das Messer, die Gabel, der Löffel,最好连冠词一起记;复数不变。" },
+    { "id": "de.gabel", "kind": "word", "pos": "noun", "text": "die Gabel", "zh": "叉子", "features": { "gender": "f", "plural": "die Gabeln", "ipa": "ˈɡaːbl̩" }, "noteZh": "复数加 -n:die Gabeln;a 是长音。" },
+    { "id": "de.loeffel", "kind": "word", "pos": "noun", "text": "der Löffel", "zh": "勺子", "features": { "gender": "m", "plural": "die Löffel", "ipa": "ˈlœfl̩" }, "noteZh": "ö 是短音 [œ]:舌头放在发 e 的位置,嘴唇撮圆;复数不变。" },
+    { "id": "de.wok", "kind": "word", "pos": "noun", "text": "der Wok", "zh": "炒锅", "features": { "gender": "m", "plural": "die Woks", "ipa": "vɔk" }, "noteZh": "从中文(粤语)来的外来词,德国的商店也买得到;w 读 [v],复数加 -s。" },
+    { "id": "de.staebchen", "kind": "word", "pos": "noun", "text": "das Stäbchen", "zh": "筷子", "features": { "gender": "n", "plural": "die Stäbchen", "ipa": "ˈʃtɛːpçən" }, "noteZh": "一根是 das Stäbchen,平时说复数 die Stäbchen(也叫 Essstäbchen);-chen 结尾的名词都是中性。" }
+  ],
+  "reviewItems": ["de.schrank", "de.unser", "de.kein", "de.es_gibt", "de.brauchen", "de.ach_so"],
+  "lines": [
+    { "speaker": "sofia", "text": "Wei, das ist unser Schrank. Hier sind die Teller und Schüsseln.", "zh": "王伟,这是我们的柜子。盘子和碗在这儿。", "items": ["de.das_ist", "de.unser", "de.schrank", "de.hier", "de.sein", "de.teller", "de.und", "de.schuessel"] },
+    { "speaker": "wei", "text": "Und wo sind die Messer, Gabeln und Löffel?", "zh": "那刀、叉子和勺子在哪儿?", "items": ["de.und", "de.wo", "de.sein", "de.messer", "de.gabel", "de.loeffel"] },
+    { "speaker": "sofia", "text": "Hier. Und das ist unser Topf. Er ist alt, aber gut.", "zh": "在这儿。这是我们的锅。它旧了,不过挺好用。", "items": ["de.hier", "de.und", "de.das_ist", "de.unser", "de.topf", "de.er", "de.sein", "de.alt", "de.aber", "de.gut"] },
+    { "speaker": "wei", "text": "Und das Messer hier? Ist das auch unser Messer?", "zh": "那这把刀呢?这也是我们的刀吗?", "items": ["de.und", "de.messer", "de.hier", "de.sein", "de.das_ist", "de.auch", "de.unser"] },
+    { "speaker": "sofia", "text": "Nein! Jonas ist Koch. Das ist sein Messer – sehr teuer!", "zh": "不是!约纳斯是厨师。这是他的刀——非常贵!", "items": ["de.nein", "de.sein", "de.koch", "de.das_ist", "de.sein_poss", "de.messer", "de.sehr", "de.teuer"] },
+    { "speaker": "wei", "text": "Ach so! Gibt es hier auch einen Wok?", "zh": "哦,是这样!这里也有炒锅吗?", "items": ["de.ach_so", "de.es_gibt", "de.hier", "de.auch", "de.ein", "de.wok"] },
+    { "speaker": "sofia", "text": "Einen Wok? Nein. Wir haben keinen Wok und keine Stäbchen.", "zh": "炒锅?没有。我们没有炒锅,也没有筷子。", "items": ["de.ein", "de.wok", "de.nein", "de.wir", "de.haben", "de.kein", "de.und", "de.staebchen"] },
+    { "speaker": "wei", "text": "Ich brauche noch einen Wok und Stäbchen!", "zh": "我还需要一个炒锅和筷子!", "items": ["de.ich", "de.brauchen", "de.noch", "de.ein", "de.wok", "de.und", "de.staebchen"] },
+    { "speaker": "sofia", "text": "Gut! Und unser Topf ist auch dein Topf!", "zh": "好啊!我们的锅也是你的锅!", "items": ["de.gut", "de.und", "de.unser", "de.topf", "de.sein", "de.auch", "de.dein"] }
+  ],
+  "questions": [
+    { "prompt": "哪些东西是 WG 大家一起用的?", "options": ["盘子、碗、刀叉、勺子和锅", "约纳斯的刀", "炒锅和筷子"], "answer": 0, "explainZh": "索菲娅说 das ist unser Schrank(我们的柜子),里面的 Teller、Schüsseln、Messer、Gabeln、Löffel 和 unser Topf 都是大家的;只有那把好刀是约纳斯的,炒锅和筷子还没有。" },
+    { "prompt": "为什么那把刀不能随便用?", "options": ["刀坏了", "那是约纳斯的刀,他是厨师,刀很贵", "刀是索菲娅的"], "answer": 1, "explainZh": "Nein! Jonas ist Koch. Das ist sein Messer – sehr teuer!(约纳斯是厨师。这是他的刀——非常贵!)" },
+    { "prompt": "王伟说他还需要什么?", "options": ["一口锅和几个盘子", "一把刀", "一个炒锅和筷子"], "answer": 2, "explainZh": "Ich brauche noch einen Wok und Stäbchen!——因为索菲娅说:Wir haben keinen Wok und keine Stäbchen.。" }
+  ],
+  "grammar": [
+    { "id": "de.g.unser_sein_kueche", "titleZh": "谁的?unser / sein 和厨房用品的复数",
+      "bodyZh": "在 WG 里说东西是谁的,用物主冠词:unser Schrank、unser Topf(我们的,阳性),unsere Teller(我们的,复数);sein Messer(他的,说约纳斯)。物主冠词的词尾和 ein / kein 一样:阳性、中性不加,阴性和复数加 -e。厨房用品的复数要和单数一起记:die Teller、die Messer、die Löffel(不变),die Gabeln、die Schüsseln(加 -n),die Töpfe(o 变 ö 再加 -e),die Woks(加 -s)。复数的冠词都是 die:Hier sind die Teller.。",
+      "examples": [ { "text": "Das ist unser Topf.", "zh": "这是我们的锅。" }, { "text": "Das ist sein Messer.", "zh": "这是他的刀。" }, { "text": "Hier sind die Teller und Schüsseln.", "zh": "盘子和碗在这儿。" } ] },
+    { "id": "de.g.kein_akk_plural", "titleZh": "keinen / keine:没有……",
+      "bodyZh": "kein 和 haben、es gibt、brauchen 连用时是第四格:阳性 keinen(Wir haben keinen Wok.),阴性 keine,中性 kein,复数 keine(Wir haben keine Stäbchen.)。问“这里有……吗?”:Gibt es hier einen Wok?,回答 Nein, es gibt keinen Wok.。中文“没有炒锅、没有筷子”都是“没有”,德语的 kein 要跟着后面名词的性和数变。",
+      "examples": [ { "text": "Wir haben keinen Wok und keine Stäbchen.", "zh": "我们没有炒锅,也没有筷子。" }, { "text": "Gibt es hier einen Wok?", "zh": "这里有炒锅吗?" }, { "text": "Ich brauche noch einen Wok.", "zh": "我还需要一个炒锅。" } ] }
+  ],
+  "review": "draft"
+}

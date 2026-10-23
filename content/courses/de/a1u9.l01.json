@@ -14,7 +14,7 @@
     { "id": "de.design", "kind": "word", "pos": "noun", "text": "das Design", "zh": "设计(专业)", "features": { "gender": "n", "plural": "die Designs", "ipa": "diˈzaɪ̯n" }, "noteZh": "英语外来词,按英语的音读:di-ZAIN;中性;说专业不加冠词:Sofia studiert Design." },
     { "id": "de.studium", "kind": "word", "pos": "noun", "text": "das Studium", "zh": "(大学的)学业", "features": { "gender": "n", "plural": "die Studien", "ipa": "ˈʃtuːdi̯ʊm" }, "noteZh": "和 studieren 是一家:Wie ist dein Studium?(你的学业怎么样?);复数 Studien 不常用;词首 st 读 [ʃt]。" }
   ],
-  "reviewItems": ["de.studieren", "de.lehrerin", "de.wie_lange", "de.september", "de.monat"],
+  "reviewItems": ["de.studieren", "de.lehrerin", "de.seit", "de.september", "de.monat"],
   "lines": [
     { "speaker": "sofia", "text": "Hallo, ihr zwei! Heute fängt das Semester an!", "zh": "嗨,你们俩!今天开学了!", "items": ["de.hallo", "de.ihr", "de.zwei", "de.heute", "de.anfangen", "de.semester"] },
     { "speaker": "lena", "text": "Ja! Sofia, was studierst du eigentlich?", "zh": "是啊!索菲娅,说起来你学的是什么专业?", "items": ["de.ja", "de.was", "de.studieren", "de.du", "de.eigentlich"] },
@@ -24,21 +24,21 @@
     { "speaker": "wei", "text": "Nein, ich studiere nicht Mathe, sondern Informatik.", "zh": "不是,我学的不是数学,而是计算机。", "items": ["de.nein", "de.ich", "de.studieren", "de.nicht", "de.mathematik", "de.sondern", "de.informatik"] },
     { "speaker": "sofia", "text": "Informatik! Und wie ist dein Studium?", "zh": "计算机啊!那你学得怎么样?", "items": ["de.informatik", "de.und", "de.wie", "de.sein", "de.dein", "de.studium"] },
     { "speaker": "wei", "text": "Programmieren ist toll, aber Mathe ist sehr schwer!", "zh": "编程很好玩,可是数学太难了!", "items": ["de.programmieren", "de.sein", "de.toll", "de.aber", "de.mathematik", "de.sehr", "de.schwer"] },
-    { "speaker": "lena", "text": "Wie lange bist du eigentlich schon in Berlin, Wei?", "zh": "说起来,王伟,你来柏林多久了?", "items": ["de.wie_lange", "de.sein", "de.du", "de.eigentlich", "de.schon", "de.in"] },
-    { "speaker": "wei", "text": "Sieben Monate. Ich bin im September gekommen.", "zh": "七个月了。我是九月来的。", "items": ["de.sieben", "de.monat", "de.ich", "de.sein", "de.in", "de.september", "de.ich_komme_aus"] },
+    { "speaker": "lena", "text": "Seit wann bist du eigentlich in Berlin, Wei?", "zh": "说起来,王伟,你是什么时候来柏林的?", "items": ["de.seit", "de.wann", "de.sein", "de.du", "de.eigentlich", "de.in"] },
+    { "speaker": "wei", "text": "Seit September. Ich bin schon sieben Monate hier.", "zh": "九月来的。我在这儿已经七个月了。", "items": ["de.seit", "de.september", "de.ich", "de.sein", "de.schon", "de.sieben", "de.monat", "de.hier"] },
     { "speaker": "lena", "text": "Sieben Monate, und du sprichst schon gut Deutsch!", "zh": "才七个月,你的德语已经说得很好了!", "items": ["de.sieben", "de.monat", "de.und", "de.du", "de.sprechen", "de.schon", "de.gut", "de.deutsch"] }
   ],
   "questions": [
     { "prompt": "王伟学什么专业?", "options": ["数学", "计算机", "设计"], "answer": 1, "explainZh": "王伟说:Ich studiere nicht Mathe, sondern Informatik.(我学的不是数学,而是计算机。)数学是索菲娅猜的,设计是索菲娅自己的专业。" },
     { "prompt": "莉娜以后想做什么工作?", "options": ["医生", "设计师", "老师"], "answer": 2, "explainZh": "莉娜说:Ich möchte Lehrerin werden.(我以后想当老师。)她学英语,现在是第四学期。" },
-    { "prompt": "王伟来柏林多久了?", "options": ["七个月", "四个月", "两年"], "answer": 0, "explainZh": "王伟说:Sieben Monate. Ich bin im September gekommen.(七个月了,我是九月来的。)" }
+    { "prompt": "王伟来柏林多久了?", "options": ["七个月", "四个月", "两年"], "answer": 0, "explainZh": "王伟说:Seit September. Ich bin schon sieben Monate hier.(九月来的,在这儿已经七个月了。)" }
   ],
   "grammar": [
-    { "id": "de.g.studieren_semester", "titleZh": "说专业、学期和来了多久",
-      "bodyZh": "问专业:Was studierst du?(你学什么专业?)回答:Ich studiere Informatik / Design / Englisch.——专业名称前不加冠词。studieren 是“在大学读(某个专业)”,lernen 是“学(一门语言、一样本事)”:Sofia studiert Design und lernt Deutsch.(不说 Ich studiere Deutsch,除非德语就是你的专业。)\n说第几学期用序数词:im ersten / zweiten / vierten Semester(和 am ersten Januar 一样加 -en)。\n问来了多久:Wie lange bist du schon in Berlin?——Sieben Monate.。德语说“已经……多久了”用现在时加 schon:Ich bin schon sieben Monate in Berlin.;中文的“了”、英语的 I have been 都是完成的意思,德语这里却用现在时,别说成完成时。说哪个月来的才用完成时:Ich bin im September gekommen.。",
+    { "id": "de.g.studieren_semester", "titleZh": "说专业、学期和来了多久:seit + 现在时",
+      "bodyZh": "问专业:Was studierst du?(你学什么专业?)回答:Ich studiere Informatik / Design / Englisch.——专业名称前不加冠词。studieren 是“在大学读(某个专业)”,lernen 是“学(一门语言、一样本事)”:Sofia studiert Design und lernt Deutsch.(不说 Ich studiere Deutsch,除非德语就是你的专业。)\n说第几学期用序数词:im ersten / zweiten / vierten Semester(和 am ersten Januar 一样加 -en)。\n问来了多久:Seit wann bist du in Berlin?(你从什么时候起在柏林?)——Seit September.(从九月起。)seit 表示“从过去某个时候一直到现在”,动词用现在时:Ich bin seit September in Berlin.;也可以说 Ich bin schon sieben Monate hier.(已经七个月了)。中文的“了”、英语的 I have been 都是完成的意思,德语这里却用现在时,别说成完成时。seit 后面的名词要变成第三格(seit sieben Monaten、seit einem Jahr),先当固定说法记。",
       "examples": [
         { "text": "Ich studiere Informatik, im zweiten Semester.", "zh": "我学计算机,第二学期。" },
-        { "text": "Ich bin schon sieben Monate in Berlin.", "zh": "我来柏林已经七个月了。" },
+        { "text": "Ich bin seit September in Berlin.", "zh": "我九月就来柏林了(一直住到现在)。" },
         { "text": "Sofia studiert Design und lernt Deutsch.", "zh": "索菲娅学设计,还在学德语。" }
       ] },
     { "id": "de.g.sondern", "titleZh": "nicht …, sondern …:不是……而是……",

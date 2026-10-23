@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u4.r01", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104045,
+  "titleZh": "超市的特价传单", "goalZh": "看懂超市传单上的商品、数量和价格,会说 ein Kilo / eine Packung / eine Flasche + 名词", "canDoZh": "能看懂超市传单上的商品、数量和价格,决定买什么",
+  "skills": ["read", "write"], "estimatedMinutes": 17.5,
+  "newItems": [
+    { "id": "de.kilo", "kind": "word", "pos": "noun", "text": "das Kilo", "zh": "公斤", "features": { "gender": "n", "plural": "die Kilos", "ipa": "ˈkiːlo" }, "noteZh": "数字后面不变:zwei Kilo Äpfel(不说 ✗ zwei Kilos Äpfel);量词后面直接跟名词,中间没有“的”。" },
+    { "id": "de.packung", "kind": "word", "pos": "noun", "text": "die Packung", "zh": "包;盒", "features": { "gender": "f", "plural": "die Packungen", "ipa": "ˈpakʊŋ" }, "noteZh": "eine Packung Nudeln(一包面条)、eine Packung Milch(一盒牛奶);-ung 结尾是阴性。" },
+    { "id": "de.flasche", "kind": "word", "pos": "noun", "text": "die Flasche", "zh": "瓶子;一瓶", "features": { "gender": "f", "plural": "die Flaschen", "ipa": "ˈflaʃə" }, "noteZh": "eine Flasche Wasser(一瓶水),sechs Flaschen Wasser(六瓶水);sch 读 [ʃ]。" },
+    { "id": "de.angebot", "kind": "word", "pos": "noun", "text": "das Angebot", "zh": "特价商品;优惠", "features": { "gender": "n", "plural": "die Angebote", "ipa": "ˈanɡəˌboːt" }, "noteZh": "超市传单、菜单上常见:Unsere Angebote(本店特价);重音在第一个音节 an 上。" }
+  ],
+  "reviewItems": ["de.apfel", "de.nudel", "de.ei", "de.kaese", "de.einkaufen", "de.gern"],
+  "lines": [
+    { "speaker": "narrator", "text": "Unsere Angebote: billig und lecker!", "zh": "本店特价:又便宜又好吃!", "items": ["de.unser", "de.angebot", "de.billig", "de.und", "de.lecker"] },
+    { "speaker": "narrator", "text": "Ein Kilo Äpfel aus Deutschland: 1,49 Euro", "zh": "德国苹果一公斤:1.49 欧元", "items": ["de.ein", "de.kilo", "de.apfel", "de.ich_komme_aus", "de.deutschland", "de.eins", "de.neun", "de.und", "de.vierzig", "de.euro"] },
+    { "speaker": "narrator", "text": "Eine Packung Nudeln: 1,19 Euro", "zh": "面条一包:1.19 欧元", "items": ["de.ein", "de.packung", "de.nudel", "de.eins", "de.neun", "de.zehn", "de.euro"] },
+    { "speaker": "narrator", "text": "Sechs Flaschen Wasser: 2,49 Euro", "zh": "水六瓶:2.49 欧元", "items": ["de.sechs", "de.flasche", "de.wasser", "de.zwei", "de.neun", "de.und", "de.vierzig", "de.euro"] },
+    { "speaker": "narrator", "text": "Zehn Eier: 1,99 Euro", "zh": "鸡蛋十个:1.99 欧元", "items": ["de.zehn", "de.ei", "de.eins", "de.neun", "de.und", "de.euro"] },
+    { "speaker": "narrator", "text": "Ein Stück Käse aus Italien: 2,99 Euro", "zh": "意大利奶酪一块:2.99 欧元", "items": ["de.ein", "de.stueck", "de.kaese", "de.ich_komme_aus", "de.italien", "de.zwei", "de.neun", "de.und", "de.euro"] },
+    { "speaker": "narrator", "text": "Eine Packung Milch: 1,09 Euro", "zh": "牛奶一盒:1.09 欧元", "items": ["de.ein", "de.packung", "de.milch", "de.eins", "de.neun", "de.euro"] },
+    { "speaker": "wei", "text": "Wir kaufen ein! Wir brauchen zwei Kilo Äpfel.", "zh": "我们去买东西!我们需要两公斤苹果。", "items": ["de.wir", "de.einkaufen", "de.brauchen", "de.zwei", "de.kilo", "de.apfel"] },
+    { "speaker": "wei", "text": "Und wir nehmen drei Packungen Nudeln.", "zh": "再买三包面条。", "items": ["de.und", "de.wir", "de.nehmen", "de.drei", "de.packung", "de.nudel"] },
+    { "speaker": "wei", "text": "Sechs Flaschen Wasser und zehn Eier – sehr billig!", "zh": "六瓶水和十个鸡蛋——很便宜!", "items": ["de.sechs", "de.flasche", "de.wasser", "de.und", "de.zehn", "de.ei", "de.sehr", "de.billig"] },
+    { "speaker": "wei", "text": "Sofia isst gern Käse. Wir kaufen zwei Stück.", "zh": "索菲娅爱吃奶酪。我们买两块。", "items": ["de.essen", "de.gern", "de.kaese", "de.wir", "de.kaufen", "de.zwei", "de.stueck"] },
+    { "speaker": "wei", "text": "Milch? Nein, wir haben noch Milch.", "zh": "牛奶?不用,我们还有牛奶。", "items": ["de.milch", "de.nein", "de.wir", "de.haben", "de.noch"] }
+  ],
+  "questions": [
+    { "prompt": "传单上一公斤苹果多少钱?", "options": ["1.49 欧元", "1.19 欧元", "2.49 欧元"], "answer": 0, "explainZh": "Ein Kilo Äpfel aus Deutschland: 1,49 Euro(读作 ein Euro neunundvierzig)。1.19 欧元是一包面条,2.49 欧元是六瓶水。" },
+    { "prompt": "他们要买几瓶水?", "options": ["两瓶", "六瓶", "十瓶"], "answer": 1, "explainZh": "王伟写:Sechs Flaschen Wasser und zehn Eier – sehr billig!;十是鸡蛋的数量。" },
+    { "prompt": "他们为什么不买牛奶?", "options": ["牛奶太贵了", "索菲娅不喝牛奶", "家里还有牛奶"], "answer": 2, "explainZh": "Milch? Nein, wir haben noch Milch.(我们还有牛奶。)" },
+    { "prompt": "他们买两块奶酪,一共多少钱?", "options": ["2.99 欧元", "5.98 欧元", "3.49 欧元"], "answer": 1, "explainZh": "一块意大利奶酪 2,99 Euro,王伟写 Wir kaufen zwei Stück.,两块就是 5,98 Euro(fünf Euro achtundneunzig)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.mengen_preise", "titleZh": "数量和价格:ein Kilo Äpfel, 1,49 Euro",
+      "bodyZh": "说数量时,量词后面直接跟名词,中间没有“的”:ein Kilo Äpfel(一公斤苹果)、eine Packung Nudeln(一包面条)、eine Flasche Wasser(一瓶水)、ein Stück Käse(一块奶酪)。能数的东西用复数(Äpfel, Nudeln, Eier),不能数的用单数(Wasser, Milch, Käse)。量词自己:Flasche、Packung 有复数(sechs Flaschen, drei Packungen),Kilo 和 Stück 在数字后面不变(zwei Kilo, zwei Stück)。价格:德国用逗号表示小数点,1,49 Euro 读 ein Euro neunundvierzig,2,99 Euro 读 zwei Euro neunundneunzig——逗号后面的数字直接接着读,不用说 Cent。",
+      "examples": [ { "text": "Ein Kilo Äpfel: 1,49 Euro", "zh": "苹果一公斤:1.49 欧元" }, { "text": "Wir brauchen zwei Kilo Äpfel.", "zh": "我们需要两公斤苹果。" }, { "text": "Sechs Flaschen Wasser und zehn Eier.", "zh": "六瓶水和十个鸡蛋。" }, { "text": "Wir kaufen zwei Stück.", "zh": "我们买两块。" } ] }
+  ],
+  "review": "draft"
+}

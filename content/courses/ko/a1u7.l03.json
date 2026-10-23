@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u7.l03", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107030,
+  "titleZh": "可以试穿吗?", "goalZh": "会在服装店要求试穿,说大小合不合适,要别的尺码或颜色",
+  "canDoZh": "能在服装店试穿衣服,说“有点大”,要求换小一号或别的颜色",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "ko.saijeu", "kind": "word", "pos": "noun", "text": "사이즈", "zh": "尺码", "features": { "roman": "saijeu" }, "noteZh": "外来词 size;衣服常用 S、M、L 或 90、95、100,鞋用毫米(235 = 23.5 厘米)。" },
+    { "id": "ko.keoyo", "kind": "word", "pos": "adj", "text": "커요", "zh": "大", "features": { "roman": "keoyo" }, "noteZh": "原形 크다(ㅡ 脱落:크 + 어요 → 커요,一个音节 [커]);좀 커요 = 有点大,너무 커요 = 太大了。" },
+    { "id": "ko.jagayo", "kind": "word", "pos": "adj", "text": "작아요", "zh": "小", "features": { "roman": "jagayo" }, "noteZh": "原形 작다;连音读 [자가요];修饰名词用 작은:더 작은 거(小一点的)。" },
+    { "id": "ko.dareun", "kind": "word", "pos": "det", "text": "다른", "zh": "别的;其他的", "features": { "roman": "dareun" }, "noteZh": "放在名词前:다른 색깔 있어요?(有别的颜色吗?)、다른 거(别的)。" },
+    { "id": "ko.jom", "kind": "word", "pos": "adv", "text": "좀", "zh": "稍微;(请求时)请", "features": { "roman": "jom" }, "noteZh": "조금 的口语形:좀 커요(有点大);请求时加 좀 更客气:좀 깎아 주세요、좀 천천히 말해 주세요。" },
+    { "id": "ko.deo", "kind": "word", "pos": "adv", "text": "더", "zh": "更;再", "features": { "roman": "deo" }, "noteZh": "더 작아요(更小)、하나 더 주세요(再来一个)。" },
+    { "id": "ko.ibeo_bwado_dwaeyo", "kind": "phrase", "pos": "phrase", "text": "입어 봐도 돼요", "zh": "可以试穿吗?", "features": { "roman": "ibeo bwado dwaeyo" }, "noteZh": "입다(穿)+ -아/어 보다(试试)+ -아/어도 돼요(可以吗),先整句记;连音读 [이버 봐도 돼요];试鞋说 신어 봐도 돼요?" },
+    { "id": "ko.jal_eoullyeoyo", "kind": "phrase", "pos": "phrase", "text": "잘 어울려요", "zh": "很适合你;很配", "features": { "roman": "jal eoullyeoyo" }, "noteZh": "店员和朋友最常说的夸奖;说快了 잘 的 ㄹ 和 어 连起来,像 [자러울려요];파란색이 잘 어울려요 = 蓝色很适合你。" }
+  ],
+  "reviewItems": ["ko.eoseo_oseyo", "ko.chima", "ko.paransaek", "ko.dwaeyo"],
+  "lines": [
+    { "speaker": "clerk", "text": "어서 오세요!", "zh": "(第二天,东大门的一家服装店)欢迎光临!", "roman": "eoseo oseyo!", "items": ["ko.eoseo_oseyo"] },
+    { "speaker": "jing", "text": "이 파란색 치마 입어 봐도 돼요?", "zh": "这条蓝裙子可以试穿吗?", "roman": "i paransaek chima ibeo bwado dwaeyo?", "items": ["ko.paransaek", "ko.chima", "ko.ibeo_bwado_dwaeyo"] },
+    { "speaker": "clerk", "text": "네, 저기예요.", "zh": "可以,试衣间在那边。", "roman": "ne, jeogiyeyo.", "items": ["ko.ne", "ko.jeogi"] },
+    { "speaker": "jing", "text": "좀 커요. 더 작은 거 있어요?", "zh": "(陈静试完出来)有点大。有小一点的吗?", "roman": "jom keoyo. deo jageun geo isseoyo?", "items": ["ko.jom", "ko.keoyo", "ko.deo", "ko.jagayo", "ko.isseoyo"] },
+    { "speaker": "clerk", "text": "이거는 M 사이즈예요. S 사이즈도 있어요.", "zh": "这条是 M 码。也有 S 码。", "roman": "igeoneun M saijeuyeyo. S saijeudo isseoyo.", "items": ["ko.igeo", "ko.saijeu", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "다른 색깔도 있어요?", "zh": "还有别的颜色吗?", "roman": "dareun saekkkaldo isseoyo?", "items": ["ko.dareun", "ko.saekkkal", "ko.isseoyo"] },
+    { "speaker": "clerk", "text": "네, 검은색하고 흰색이 있어요.", "zh": "有,有黑色和白色。", "roman": "ne, geomeunsaekago huinsaegi isseoyo.", "items": ["ko.ne", "ko.geomeunsaek", "ko.huinsaek", "ko.isseoyo"] },
+    { "speaker": "sua", "text": "징 씨, 파란색이 진짜 잘 어울려요!", "zh": "陈静,蓝色特别适合你!", "roman": "jing ssi, paransaegi jinjja jal eoullyeoyo!", "items": ["ko.ssi", "ko.paransaek", "ko.jinjja", "ko.jal_eoullyeoyo"] },
+    { "speaker": "jing", "text": "검은색도 잘 어울려요?", "zh": "(陈静拿起黑色的在身上比了比)黑色也适合我吗?", "roman": "geomeunsaekdo jal eoullyeoyo?", "items": ["ko.geomeunsaek", "ko.jal_eoullyeoyo"] },
+    { "speaker": "sua", "text": "파란색이 더 잘 어울려요.", "zh": "蓝色更适合你。", "roman": "paransaegi deo jal eoullyeoyo.", "items": ["ko.paransaek", "ko.deo", "ko.jal_eoullyeoyo"] },
+    { "speaker": "jing", "text": "그럼 파란색 S 사이즈 주세요. 카드 돼요?", "zh": "(陈静没再试一次 S 码)那就要蓝色的 S 码。可以刷卡吗?", "roman": "geureom paransaek S saijeu juseyo. kadeu dwaeyo?", "items": ["ko.geureom", "ko.paransaek", "ko.saijeu", "ko.juseyo", "ko.kadeu", "ko.dwaeyo"] },
+    { "speaker": "clerk", "text": "네, 돼요. 삼만 원이에요.", "zh": "可以。三万韩元。", "roman": "ne, dwaeyo. samman wonieyo.", "items": ["ko.ne", "ko.dwaeyo", "ko.sam", "ko.man", "ko.won"] }
+  ],
+  "questions": [
+    { "prompt": "陈静试了那条蓝裙子,觉得怎么样?", "options": ["有点小", "颜色不好看", "正合适", "有点大"], "answer": 3, "explainZh": "第 4 句:좀 커요(有点大),所以她问 더 작은 거 있어요?(有小一点的吗?)。" },
+    { "prompt": "这条裙子有哪几种颜色?", "options": ["蓝色、黑色和白色", "只有蓝色", "蓝色、红色和白色"], "answer": 0, "explainZh": "陈静试的是蓝色;第 7 句店员说 검은색하고 흰색이 있어요(还有黑色和白色)。" },
+    { "prompt": "陈静最后买了什么?", "options": ["黑色 M 码的裙子", "蓝色 S 码的裙子", "蓝色 M 码的裙子"], "answer": 1, "explainZh": "第 10 句秀雅说蓝色更适合(파란색이 더 잘 어울려요),第 11 句陈静说 파란색 S 사이즈 주세요。她试的 M 码有点大。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.eu_drop", "titleZh": "ㅡ 脱落:크다 → 커요",
+      "bodyZh": "词干最后一个元音是 ㅡ 的动词、形容词,变 해요体时 ㅡ 要去掉:크다 → 크 + 어요 → 커요(大)。去掉 ㅡ 以后加 -아요 还是 -어요,看 ㅡ 前面那个字的元音:배고프다 的 고 是 ㅗ,所以是 배고파요(第 4 单元学过);크다 只有一个字,前面没有字,用 -어요。下一课的 예쁘다 → 예뻐요(漂亮)、第 8 单元的 바쁘다 → 바빠요(忙)也是这个规则。常见的错是写成 크어요,或者读成两个音节;커요 的 커 只有一个音节。",
+      "examples": [ { "text": "좀 커요.", "zh": "有点大。(크다 → 커요)" }, { "text": "배고파요.", "zh": "饿了。(배고프다 → 배고파요)" } ] },
+    { "id": "ko.g.jom_deo_dareun", "titleZh": "买衣服常用的 좀、더、다른",
+      "bodyZh": "좀 是 조금 的口语说法,放在形容词前表示“有点”:좀 커요(有点大)、좀 비싸요(有点贵);请求时加 좀 显得客气:좀 깎아 주세요。더 是“更、再”:파란색이 더 잘 어울려요(蓝色更适合)。要“小一号的”一般说 더 작은 거(更小的),中文说“小一点的”,韩语这里用的是 더,不是 조금。작은 是 작다 修饰名词的形式,거 是“……的(东西)”。다른 放在名词前,意思是“别的、其他的”:다른 색깔(别的颜色)、다른 사이즈(别的尺码)。想试穿就问 입어 봐도 돼요?(可以试穿吗?),先整句记住。",
+      "examples": [ { "text": "더 작은 거 있어요?", "zh": "有小一点的吗?" }, { "text": "다른 색깔도 있어요?", "zh": "还有别的颜色吗?" } ] }
+  ],
+  "review": "draft"
+}

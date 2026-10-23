@@ -1,0 +1,41 @@
+{
+  "id": "de.a1u4.l07", "schemaVersion": 1, "lang": "de", "type": "vocab", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104070,
+  "titleZh": "大学食堂:吃什么?", "goalZh": "看懂食堂菜单牌上的素食、纯素和肉菜,会说“我要……”,用卡付钱", "canDoZh": "能看懂大学食堂的菜单牌,选素食或肉菜,用食堂卡付钱",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 23,
+  "newItems": [
+    { "id": "de.mensa", "kind": "word", "pos": "noun", "text": "die Mensa", "zh": "大学食堂", "features": { "gender": "f", "plural": "die Mensen", "ipa": "ˈmɛnza" }, "noteZh": "大学生吃饭的地方,学生价比客人价便宜;复数 die Mensen。s 在元音前读 [z]。" },
+    { "id": "de.vegetarisch", "kind": "word", "pos": "adj", "text": "vegetarisch", "zh": "素的(不含肉和鱼)", "features": { "ipa": "veɡeˈtaːʁɪʃ" }, "noteZh": "外来词里的 v 读 [v];重音在 ta 上。Ich esse vegetarisch.(我吃素。)" },
+    { "id": "de.vegan", "kind": "word", "pos": "adj", "text": "vegan", "zh": "纯素的(不含任何动物产品)", "features": { "ipa": "veˈɡaːn" }, "noteZh": "比 vegetarisch 更严格:没有肉和鱼,也没有牛奶、鸡蛋和奶酪;重音在 gan 上。" },
+    { "id": "de.salat", "kind": "word", "pos": "noun", "text": "der Salat", "zh": "沙拉;生菜", "features": { "gender": "m", "plural": "die Salate", "ipa": "zaˈlaːt" }, "noteZh": "重音在后:sa-LAT;点一份沙拉:Ich nehme einen Salat.(阳性第四格)。" },
+    { "id": "de.haehnchen", "kind": "word", "pos": "noun", "text": "das Hähnchen", "zh": "鸡肉;烤鸡", "features": { "gender": "n", "plural": "die Hähnchen", "ipa": "ˈhɛːnçən" }, "noteZh": "菜单上的鸡肉菜常写 Hähnchen;-chen 结尾的名词都是中性。äh 读长音 [ɛː],这个 h 不发音。" },
+    { "id": "de.gast", "kind": "word", "pos": "noun", "text": "der Gast", "zh": "客人", "features": { "gender": "m", "plural": "die Gäste", "ipa": "ɡast" }, "noteZh": "复数 a 变 ä:die Gäste;食堂里不是本校学生的人按 Gäste 的价格付钱。" }
+  ],
+  "reviewItems": ["de.suppe", "de.reis", "de.fleisch", "de.fisch", "de.bezahlen", "de.karte"],
+  "lines": [
+    { "speaker": "lena", "text": "Wei, das ist die Mensa. Was gibt es?", "zh": "王伟,这就是大学食堂。有什么吃的?", "items": ["de.das_ist", "de.mensa", "de.was", "de.es_gibt"] },
+    { "speaker": "wei", "text": "Es gibt Suppe, Hähnchen mit Reis und Nudeln. Was ist „vegan“?", "zh": "有汤、鸡肉配米饭,还有面条。“vegan”是什么意思?", "items": ["de.es_gibt", "de.suppe", "de.haehnchen", "de.mit", "de.reis", "de.und", "de.nudel", "de.was", "de.sein", "de.vegan"] },
+    { "speaker": "lena", "text": "Vegan ist ohne Fleisch, ohne Fisch, ohne Milch und ohne Eier.", "zh": "vegan 就是没有肉、没有鱼,也没有牛奶和鸡蛋。", "items": ["de.vegan", "de.sein", "de.ohne", "de.fleisch", "de.fisch", "de.milch", "de.und", "de.ei"] },
+    { "speaker": "wei", "text": "Und „vegetarisch“?", "zh": "那“vegetarisch”呢?", "items": ["de.und", "de.vegetarisch"] },
+    { "speaker": "lena", "text": "Vegetarisch ist ohne Fleisch und ohne Fisch. Die Nudeln sind vegetarisch.", "zh": "vegetarisch 就是没有肉、没有鱼。面条是素的。", "items": ["de.vegetarisch", "de.sein", "de.ohne", "de.fleisch", "de.und", "de.fisch", "de.nudel"] },
+    { "speaker": "wei", "text": "Ich nehme das Hähnchen mit Reis. Und du?", "zh": "我要鸡肉配米饭。你呢?", "items": ["de.ich", "de.nehmen", "de.haehnchen", "de.mit", "de.reis", "de.und", "de.du"] },
+    { "speaker": "lena", "text": "Ich nehme die Nudeln und einen Salat.", "zh": "我要面条和一份沙拉。", "items": ["de.ich", "de.nehmen", "de.nudel", "de.und", "de.ein", "de.salat"] },
+    { "speaker": "kassiererin", "text": "Das macht zusammen fünf Euro vierzig. Mit Karte?", "zh": "一共五欧元四十。刷卡吗?", "items": ["de.das_macht", "de.zusammen", "de.fuenf", "de.euro", "de.vierzig", "de.mit", "de.karte"] },
+    { "speaker": "wei", "text": "Ja, mit Karte. Fünf Euro vierzig? Das ist sehr billig!", "zh": "对,刷卡。五欧元四十?真便宜!", "items": ["de.ja", "de.mit", "de.karte", "de.fuenf", "de.euro", "de.vierzig", "de.das_ist", "de.sehr", "de.billig"] },
+    { "speaker": "lena", "text": "Wir sind Studenten. Gäste bezahlen hier fünf oder sechs Euro.", "zh": "我们是学生嘛。客人在这儿吃一顿要付五六欧元。", "items": ["de.wir", "de.sein", "de.student", "de.gast", "de.bezahlen", "de.hier", "de.fuenf", "de.oder", "de.sechs", "de.euro"] }
+  ],
+  "questions": [
+    { "prompt": "vegan 是什么意思?", "options": ["没有肉和鱼,也没有牛奶和鸡蛋", "没有肉,但是有鱼", "很便宜的菜"], "answer": 0, "explainZh": "莉娜解释:Vegan ist ohne Fleisch, ohne Fisch, ohne Milch und ohne Eier.;只是没有肉和鱼的叫 vegetarisch。" },
+    { "prompt": "王伟点了什么?", "options": ["面条和沙拉", "汤", "鸡肉配米饭"], "answer": 2, "explainZh": "Ich nehme das Hähnchen mit Reis.;面条和沙拉是莉娜点的。" },
+    { "prompt": "两个人的饭一共多少钱?为什么这么便宜?", "options": ["6 欧元,因为他们用卡付钱", "5.40 欧元,因为他们是学生", "5.40 欧元,因为今天有特价"], "answer": 1, "explainZh": "收银员说 Das macht zusammen fünf Euro vierzig.;莉娜解释:Wir sind Studenten. Gäste bezahlen hier fünf oder sechs Euro.(学生价比客人价便宜。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.es_gibt_nehmen", "titleZh": "Was gibt es? – Es gibt …;Ich nehme …",
+      "bodyZh": "问食堂、餐馆有什么吃的:Was gibt es?,回答 Es gibt Suppe, Hähnchen mit Reis und Nudeln.——es gibt 后面是第四格,阳性要用 einen:Es gibt einen Salat.。选好了说 Ich nehme …(我要……):Ich nehme das Hähnchen. / Ich nehme die Nudeln und einen Salat.。nehmen 不规则,和 du、er / sie 搭配时 e 变成 i:du nimmst, er nimmt——问朋友就说 Was nimmst du?。",
+      "examples": [ { "text": "Was gibt es? – Es gibt Suppe und Nudeln.", "zh": "有什么吃的?——有汤和面条。" }, { "text": "Ich nehme die Nudeln und einen Salat.", "zh": "我要面条和一份沙拉。" }, { "text": "Was nimmst du?", "zh": "你要什么?" } ] },
+    { "id": "de.g.adj_nach_sein", "titleZh": "Die Nudeln sind vegetarisch:sein 后面的形容词不变",
+      "bodyZh": "形容词放在 sein 后面时,不管名词是阳性、阴性、中性还是复数,形容词都不变:Die Suppe ist vegan. / Das Hähnchen ist lecker. / Die Nudeln sind vegetarisch.(复数也不加词尾)。中文“素的面条”和“面条是素的”都能说,德语先学后一种——形容词放在名词前面要加词尾,以后再学。vegetarisch = 没有肉和鱼;vegan = 连牛奶、鸡蛋、奶酪这些动物产品也没有。",
+      "examples": [ { "text": "Die Nudeln sind vegetarisch.", "zh": "面条是素的。" }, { "text": "Die Suppe ist vegan.", "zh": "汤是纯素的。" }, { "text": "Das ist sehr billig!", "zh": "这很便宜!" } ] }
+  ],
+  "review": "draft"
+}

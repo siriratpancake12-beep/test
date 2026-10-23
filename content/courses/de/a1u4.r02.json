@@ -1,0 +1,39 @@
+{
+  "id": "de.a1u4.r02", "schemaVersion": 1, "lang": "de", "type": "reading", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104085,
+  "titleZh": "约纳斯餐馆的新菜单", "goalZh": "读懂一份餐馆菜单的前菜、主菜、甜点、饮料和价格,认识菜单上的复合词", "canDoZh": "能读懂一份餐馆菜单(前菜、主菜、甜点、饮料和价格),为自己和朋友选菜",
+  "skills": ["read", "write"], "estimatedMinutes": 17.5,
+  "newItems": [
+    { "id": "de.vorspeise", "kind": "word", "pos": "noun", "text": "die Vorspeise", "zh": "前菜;头盘", "features": { "gender": "f", "plural": "die Vorspeisen", "ipa": "ˈfoːɐ̯ˌʃpaɪ̯zə" }, "noteZh": "vor(在……之前)+ Speise(菜):正餐前的汤、沙拉;v 读 [f],sp 读 [ʃp]。" },
+    { "id": "de.hauptgericht", "kind": "word", "pos": "noun", "text": "das Hauptgericht", "zh": "主菜", "features": { "gender": "n", "plural": "die Hauptgerichte", "ipa": "ˈhaʊ̯ptɡəˌʁɪçt" }, "noteZh": "Haupt(主要的)+ Gericht(一道菜),性跟着 das Gericht;复合词重音在第一部分。" },
+    { "id": "de.nachspeise", "kind": "word", "pos": "noun", "text": "die Nachspeise", "zh": "(饭后的)甜点", "features": { "gender": "f", "plural": "die Nachspeisen", "ipa": "ˈnaːxˌʃpaɪ̯zə" }, "noteZh": "nach(在……之后)+ Speise,和 die Vorspeise 成对记;也说 der Nachtisch、das Dessert。" },
+    { "id": "de.getraenk", "kind": "word", "pos": "noun", "text": "das Getränk", "zh": "饮料", "features": { "gender": "n", "plural": "die Getränke", "ipa": "ɡəˈtʁɛŋk" }, "noteZh": "和 trinken(喝)是一家;词尾 nk 读 [ŋk]。菜单上写复数 Getränke。" }
+  ],
+  "reviewItems": ["de.speisekarte", "de.kartoffel", "de.gemuese", "de.angebot", "de.restaurant", "de.kochen"],
+  "lines": [
+    { "speaker": "narrator", "text": "Unsere Speisekarte: lecker und nicht teuer!", "zh": "本店菜单:好吃又不贵!", "items": ["de.unser", "de.speisekarte", "de.lecker", "de.und", "de.nicht", "de.teuer"] },
+    { "speaker": "narrator", "text": "Vorspeisen: Suppe mit Gemüse, 4,50 Euro", "zh": "前菜:蔬菜汤,4.50 欧元", "items": ["de.vorspeise", "de.suppe", "de.mit", "de.gemuese", "de.vier", "de.euro", "de.fuenfzig"] },
+    { "speaker": "narrator", "text": "Salat ohne Fleisch und ohne Käse, vegan, 5,90 Euro", "zh": "沙拉,不含肉和奶酪,纯素,5.90 欧元", "items": ["de.salat", "de.ohne", "de.fleisch", "de.und", "de.kaese", "de.vegan", "de.fuenf", "de.euro", "de.neun"] },
+    { "speaker": "narrator", "text": "Hauptgerichte: Fisch mit Kartoffeln, 14,50 Euro", "zh": "主菜:鱼配土豆,14.50 欧元", "items": ["de.hauptgericht", "de.fisch", "de.mit", "de.kartoffel", "de.vier", "de.zehn", "de.euro", "de.fuenfzig"] },
+    { "speaker": "narrator", "text": "Nudeln mit Gemüse, vegetarisch, 11,90 Euro", "zh": "蔬菜面条,素食,11.90 欧元", "items": ["de.nudel", "de.mit", "de.gemuese", "de.vegetarisch", "de.elf", "de.euro", "de.neun"] },
+    { "speaker": "narrator", "text": "Hähnchen mit Reis, ein bisschen scharf, 13,50 Euro", "zh": "鸡肉配米饭,微辣,13.50 欧元", "items": ["de.haehnchen", "de.mit", "de.reis", "de.ein_bisschen", "de.scharf", "de.drei", "de.zehn", "de.euro", "de.fuenfzig"] },
+    { "speaker": "narrator", "text": "Nachspeisen: Apfelkuchen, 4,20 Euro", "zh": "甜点:苹果蛋糕,4.20 欧元", "items": ["de.nachspeise", "de.apfel", "de.kuchen", "de.vier", "de.euro", "de.zwanzig"] },
+    { "speaker": "narrator", "text": "Getränke: Kaffee oder Tee, 2,80 Euro", "zh": "饮料:咖啡或茶,2.80 欧元", "items": ["de.getraenk", "de.kaffee", "de.oder", "de.tee", "de.zwei", "de.euro", "de.acht"] },
+    { "speaker": "narrator", "text": "Wasser: eine Flasche, 3,50 Euro", "zh": "水:一瓶,3.50 欧元", "items": ["de.wasser", "de.ein", "de.flasche", "de.drei", "de.euro", "de.fuenfzig"] },
+    { "speaker": "narrator", "text": "Unser Angebot: Fisch mit Kartoffeln und ein Kaffee – zusammen 15 Euro!", "zh": "本店特价:鱼配土豆加一杯咖啡——一共 15 欧元!", "items": ["de.unser", "de.angebot", "de.fisch", "de.mit", "de.kartoffel", "de.und", "de.ein", "de.kaffee", "de.zusammen", "de.fuenf", "de.zehn", "de.euro"] },
+    { "speaker": "jonas", "text": "Das Angebot ist sehr lecker! Ich koche den Fisch.", "zh": "特价菜特别好吃!鱼是我做的。", "items": ["de.angebot", "de.sein", "de.sehr", "de.lecker", "de.ich", "de.kochen", "de.fisch"] },
+    { "speaker": "jonas", "text": "Ihr esst gern Fisch, oder? Kommt ihr ins Restaurant?", "zh": "你们爱吃鱼,对吧?来餐馆吃吗?", "items": ["de.ihr", "de.essen", "de.gern", "de.fisch", "de.oder", "de.ich_komme_aus", "de.in", "de.restaurant"] }
+  ],
+  "questions": [
+    { "prompt": "菜单上哪道主菜是素的(vegetarisch)?", "options": ["鱼配土豆", "鸡肉配米饭", "蔬菜面条"], "answer": 2, "explainZh": "Nudeln mit Gemüse, vegetarisch, 11,90 Euro;鱼和鸡肉都不是素菜。" },
+    { "prompt": "哪道菜有一点辣?", "options": ["鸡肉配米饭", "蔬菜汤", "苹果蛋糕"], "answer": 0, "explainZh": "Hähnchen mit Reis, ein bisschen scharf, 13,50 Euro——ein bisschen scharf 就是“微辣”。" },
+    { "prompt": "特价菜(das Angebot)是什么?多少钱?", "options": ["鱼配土豆,14.50 欧元", "鱼配土豆加一杯咖啡,一共 15 欧元", "苹果蛋糕加一杯咖啡,7 欧元"], "answer": 1, "explainZh": "Unser Angebot: Fisch mit Kartoffeln und ein Kaffee – zusammen 15 Euro!;单点要 14,50 + 2,80 欧元,特价便宜了不少。" },
+    { "prompt": "Apfelkuchen 是什么?", "options": ["苹果汁", "苹果和蛋糕两样东西", "苹果蛋糕"], "answer": 2, "explainZh": "Apfelkuchen = Apfel(苹果)+ Kuchen(蛋糕),复合词是一样东西:苹果蛋糕,性跟着 der Kuchen。" }
+  ],
+  "grammar": [
+    { "id": "de.g.speisekarte", "titleZh": "菜单上的德语:名词 + mit / ohne,复合词",
+      "bodyZh": "菜单上的菜名常常是“名词 + mit / ohne + 名词”:Fisch mit Kartoffeln(鱼配土豆)、Salat ohne Fleisch(不含肉的沙拉)。复合词把几个名词连起来写,意思从后往前理解,性跟着最后一个词:der Apfel + der Kuchen = der Apfelkuchen(苹果蛋糕);die Vorspeise、die Nachspeise 都跟着 die Speise(菜)。菜单一般分四部分:Vorspeisen(前菜)、Hauptgerichte(主菜)、Nachspeisen(甜点)、Getränke(饮料)。价格复习:14,50 Euro 读 vierzehn Euro fünfzig。点菜用 Ich möchte … / Ich nehme …:Ich nehme das Angebot.。",
+      "examples": [ { "text": "Fisch mit Kartoffeln, 14,50 Euro", "zh": "鱼配土豆,14.50 欧元" }, { "text": "Salat ohne Fleisch und ohne Käse", "zh": "不含肉和奶酪的沙拉" }, { "text": "Ich nehme das Angebot.", "zh": "我要特价菜。" } ] }
+  ],
+  "review": "draft"
+}

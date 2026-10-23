@@ -27,7 +27,7 @@
     { "speaker": "lena", "text": "Mein Vater ist Lehrer. Meine Mutter arbeitet im Krankenhaus.", "zh": "我爸爸是老师。我妈妈在医院工作。", "items": ["de.mein", "de.vater", "de.sein", "de.lehrer", "de.mutter", "de.arbeiten", "de.in", "de.krankenhaus"] }
   ],
   "questions": [
-    { "prompt": "索菲娅的弟弟马可多大?", "options": ["十六岁", "十七岁", "二十岁"], "answer": 1, "explainZh": "索菲娅说:Mein Bruder Marco ist siebzehn und Schüler.(我弟弟马可十七岁,还在上中学。)十六岁的是莉娜的弟弟保罗。" },
+    { "prompt": "索菲娅的弟弟马可多大?", "options": ["十七岁", "十六岁", "二十岁"], "answer": 0, "explainZh": "索菲娅说:Mein Bruder Marco ist siebzehn und Schüler.(我弟弟马可十七岁,还在上中学。)十六岁的是莉娜的弟弟保罗。" },
     { "prompt": "莉娜的妈妈在哪儿工作?", "options": ["在学校", "在咖啡馆", "在医院"], "answer": 2, "explainZh": "莉娜第二次慢慢地说:Meine Mutter arbeitet im Krankenhaus.(我妈妈在医院工作。)当老师的是她爸爸。" },
     { "prompt": "王伟为什么说 Langsam, bitte!?", "options": ["莉娜说得太快了", "他没听见索菲娅的话", "莉娜说的是英语"], "answer": 0, "explainZh": "王伟说:Lena, du sprichst schnell!(莉娜,你说得太快了!)所以请她 Langsam, bitte!,莉娜就把句子拆短又说了一遍。" }
   ],

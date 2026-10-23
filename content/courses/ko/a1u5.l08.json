@@ -1,0 +1,45 @@
+{
+  "id": "ko.a1u5.l08", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-5 时间与日程", "order": 105080,
+  "titleZh": "单元复习:几月几号过生日?", "goalZh": "把本单元的数字、钟点、日期串起来,约好时间地点",
+  "canDoZh": "能问别人的生日是几月几号,约朋友“明天下午三点”见面",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "ko.wol", "kind": "word", "pos": "noun", "text": "월", "zh": "……月", "features": { "roman": "wol" }, "noteZh": "汉字词 月;前面用汉字数词:삼월(3 月)、십이월(12 月);6 月、10 月特殊:유월、시월(去掉收音)。" },
+    { "id": "ko.myeochil", "kind": "word", "pos": "noun", "text": "며칠", "zh": "几号;几天", "features": { "roman": "myeochil" }, "noteZh": "问日期:오늘이 며칠이에요?、몇 월 며칠이에요?;拼写是 며칠,不写 몇일。" },
+    { "id": "ko.saengil", "kind": "word", "pos": "noun", "text": "생일", "zh": "生日", "features": { "roman": "saengil" }, "noteZh": "汉字词 生日;连音:생일이에요 [생이리에요];“生日快乐”是 생일 축하해요(以后学)。" },
+    { "id": "ko.sigan", "kind": "word", "pos": "noun", "text": "시간", "zh": "时间;空(闲);小时", "features": { "roman": "sigan" }, "noteZh": "汉字词 时间;시간 있어요?= 有空吗?;두 시간 = 两个小时(注意和 두 시“两点”区分)。" }
+  ],
+  "reviewItems": ["ko.oneul", "ko.naeil", "ko.si", "ko.myeot"],
+  "lines": [
+    { "speaker": "jing", "text": "수아 씨, 민준 오빠 생일이 몇 월 며칠이에요?", "zh": "(秀雅悄悄说敏俊的生日快到了)秀雅,敏俊哥的生日是几月几号?", "roman": "sua ssi, minjun oppa saengiri myeot wol myeochirieyo?", "items": ["ko.ssi", "ko.oppa", "ko.saengil", "ko.myeot", "ko.wol", "ko.myeochil"] },
+    { "speaker": "sua", "text": "사월 십이 일이에요.", "zh": "四月十二号。", "roman": "sawol sibi irieyo.", "items": ["ko.sa", "ko.wol", "ko.sip", "ko.i"] },
+    { "speaker": "jing", "text": "사월 십이 일이요? 오늘이 며칠이에요?", "zh": "四月十二号?今天几号?", "roman": "sawol sibi iriyo? oneuri myeochirieyo?", "items": ["ko.sa", "ko.wol", "ko.sip", "ko.i", "ko.oneul", "ko.myeochil"] },
+    { "speaker": "sua", "text": "오늘은 사월 십일 일이에요.", "zh": "今天是四月十一号。", "roman": "oneureun sawol sibil irieyo.", "items": ["ko.oneul", "ko.sa", "ko.wol", "ko.sip", "ko.il"] },
+    { "speaker": "jing", "text": "네? 그럼 내일이에요!", "zh": "啊?那不就是明天!", "roman": "ne? geureom naeirieyo!", "items": ["ko.ne", "ko.geureom", "ko.naeil"] },
+    { "speaker": "sua", "text": "네! 내일 카페에서 같이 먹어요. 빵하고 커피!", "zh": "对!明天我们在咖啡店一起吃点东西吧——面包和咖啡!(给敏俊一个小惊喜)", "roman": "ne! naeil kapeeseo gachi meogeoyo. ppanghago keopi!", "items": ["ko.ne", "ko.naeil", "ko.kape", "ko.gachi", "ko.meogeoyo", "ko.ppang", "ko.keopi"] },
+    { "speaker": "jing", "text": "남 씨, 내일 시간 있어요?", "zh": "(陈静马上给南打电话)阮文南,你明天有空吗?", "roman": "nam ssi, naeil sigan isseoyo?", "items": ["ko.ssi", "ko.naeil", "ko.sigan", "ko.isseoyo"] },
+    { "speaker": "nam", "text": "네, 있어요. 몇 시예요?", "zh": "有啊。几点?", "roman": "ne, isseoyo. myeot siyeyo?", "items": ["ko.ne", "ko.isseoyo", "ko.myeot", "ko.si"] },
+    { "speaker": "jing", "text": "오후 세 시, 카페요! 민준 오빠 생일이에요.", "zh": "下午三点,在咖啡店!是敏俊哥的生日。", "roman": "ohu se si, kapeyo! minjun oppa saengirieyo.", "items": ["ko.ohu", "ko.set", "ko.si", "ko.kape", "ko.oppa", "ko.saengil"] },
+    { "speaker": "nam", "text": "아, 그래요? 좋아요!", "zh": "啊,是吗?好啊!", "roman": "a, geuraeyo? joayo!", "items": ["ko.geuraeyo", "ko.joayo"] },
+    { "speaker": "sua", "text": "그럼 몇 명이에요?", "zh": "那一共几个人?", "roman": "geureom myeot myeongieyo?", "items": ["ko.geureom", "ko.myeot", "ko.myeong"] },
+    { "speaker": "jing", "text": "우리 셋하고 민준 오빠, 네 명이에요.", "zh": "我们三个,再加上敏俊哥,四个人。", "roman": "uri setago minjun oppa, ne myeongieyo.", "items": ["ko.uri", "ko.set", "ko.oppa", "ko.net", "ko.myeong"] },
+    { "speaker": "sua", "text": "그럼 빵 네 개, 커피 네 잔!", "zh": "那就四个面包、四杯咖啡!", "roman": "geureom ppang ne gae, keopi ne jan!", "items": ["ko.geureom", "ko.ppang", "ko.net", "ko.gae", "ko.keopi", "ko.jan"] },
+    { "speaker": "jing", "text": "사장님 거도요! 다섯 개, 다섯 잔!", "zh": "还有老板的那份!五个、五杯!", "roman": "sajangnim geodoyo! daseot gae, daseot jan!", "items": ["ko.sajangnim", "ko.daseot", "ko.gae", "ko.jan"] }
+  ],
+  "questions": [
+    { "prompt": "敏俊的生日是几月几号?", "options": ["4 月 11 日", "4 月 12 日", "4 月 10 日"], "answer": 1, "explainZh": "第 2 句:사월 십이 일이에요 = 4 月 12 日。月份是 汉字数词 + 월,日子是 汉字数词 + 일。" },
+    { "prompt": "今天是几月几号?", "options": ["4 月 11 日", "4 月 12 日", "11 月 4 日"], "answer": 0, "explainZh": "第 4 句:오늘은 사월 십일 일이에요 = 4 月 11 日,所以敏俊的生日就是明天(내일)。십일 일(11 日)和 십이 일(12 日)只差一个音。" },
+    { "prompt": "陈静约南明天几点、在哪儿?", "options": ["上午十点,在宿舍", "下午两点,在学校", "下午三点,在咖啡店"], "answer": 2, "explainZh": "第 9 句:오후 세 시, 카페요!(下午三点,咖啡店)。세 시 的 세 是 셋 在 시 前面的形式。" },
+    { "prompt": "最后她们打算准备几个面包、几杯咖啡?", "options": ["四个、四杯", "五个、五杯", "三个、三杯"], "answer": 1, "explainZh": "第 12–14 句:她们三个加上敏俊是 네 명(四个人),陈静又说还要给老板一份:다섯 개, 다섯 잔(五个、五杯)。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u5_dates", "titleZh": "几月几号:汉字数词 + 월 / 일",
+      "bodyZh": "日期全用汉字数词:月份是 数字 + 월,日子是 数字 + 일——사월 십이 일(4 月 12 日)、사월 십일 일(4 月 11 日)。顺序和汉语一样,从大到小:年、月、日。\n两个月份特别:6 月是 유월(不说 육월),10 月是 시월(不说 십월),去掉收音读起来更顺;其他月份照常:일월、이월……십일월、십이월。\n问日期:오늘이 며칠이에요?(今天几号?)、생일이 몇 월 며칠이에요?(生日是几月几号?)。“几号”写成 며칠,不写 몇일。\n注意分清:십일 일(11 日)和 십이 일(12 日)只差一个音;日子的 일 和数字 일(一)同音,사월 일 일 就是 4 月 1 日。",
+      "examples": [ { "text": "생일이 몇 월 며칠이에요?", "zh": "生日是几月几号?" }, { "text": "사월 십이 일이에요.", "zh": "4 月 12 日。" }, { "text": "유월, 시월", "zh": "6 月、10 月(不说 육월、십월)" } ] },
+    { "id": "ko.g.u5_review", "titleZh": "约时间:시간 있어요?;两套数字总复习",
+      "bodyZh": "约人先问对方有没有空:내일 시간 있어요?(明天有空吗?)——네, 있어요 / 아니요, 없어요。这里的 시간 是“空闲”;두 시간 是“两个小时”,和 두 시(两点)不一样。定时间、地点可以只说名词:오후 세 시, 카페요!(下午三点,咖啡店!)\n本单元的两套数字放在一起看:\n· 汉字数词(일、이、삼……):电话号码 공일공、日期 사월 십이 일、分钟 십 분、百 백、千 천;\n· 固有数词(하나、둘、셋……):数东西 빵 네 개、人数 네 명、杯数 다섯 잔、年龄 스무 살、钟点 세 시;量词前 하나 → 한、둘 → 두、셋 → 세、넷 → 네、스물 → 스무。\n所以 세 시 십 분(3:10)这一句里两套都有:“点”用固有,“分”用汉字。",
+      "examples": [ { "text": "내일 시간 있어요?", "zh": "明天有空吗?" }, { "text": "오후 세 시, 카페요!", "zh": "下午三点,咖啡店!" }, { "text": "빵 네 개, 커피 다섯 잔", "zh": "四个面包、五杯咖啡" } ] }
+  ],
+  "review": "draft"
+}

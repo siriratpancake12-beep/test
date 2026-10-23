@@ -14,13 +14,13 @@
     { "id": "de.erdgeschoss", "kind": "word", "pos": "noun", "text": "das Erdgeschoss", "zh": "(楼的)底层;中国说的一楼", "features": { "gender": "n", "plural": "die Erdgeschosse", "ipa": "ˈeːɐ̯tɡəˌʃɔs" }, "noteZh": "die Erde(地面)+ das Geschoss(楼层);电梯上写 E 或 0;Erd- 的 d 读 [t]。" },
     { "id": "de.professor", "kind": "word", "pos": "noun", "text": "der Professor", "zh": "教授", "features": { "gender": "m", "plural": "die Professoren", "ipa": "pʁoˈfɛsoːɐ̯" }, "noteZh": "重音在 fes,复数重音挪到 so:Pro-fes-SO-ren;女教授:die Professorin;称呼:Herr Professor Schmidt。" }
   ],
-  "reviewItems": ["de.dienstag", "de.freitag", "de.viertel", "de.muessen"],
+  "reviewItems": ["de.dienstag", "de.freitag", "de.viertel", "de.muessen", "de.im_ersten_stock"],
   "lines": [
     { "speaker": "wei", "text": "Lena, hier ist mein Stundenplan. Was ist eine Vorlesung?", "zh": "莉娜,这是我的课表。Vorlesung 是什么?", "items": ["de.hier", "de.sein", "de.mein", "de.stundenplan", "de.was", "de.ein", "de.vorlesung"] },
     { "speaker": "lena", "text": "Eine Vorlesung ist im Hörsaal. Der Professor spricht, die Studenten schreiben.", "zh": "Vorlesung 是讲座课,在阶梯教室上。教授讲,学生记笔记。", "items": ["de.ein", "de.vorlesung", "de.sein", "de.in", "de.hoersaal", "de.professor", "de.sprechen", "de.student", "de.schreiben"] },
     { "speaker": "wei", "text": "Und am Dienstag um zwei habe ich ein Seminar.", "zh": "星期二两点我还有一门讨论课。", "items": ["de.und", "de.am", "de.dienstag", "de.um", "de.zwei", "de.haben", "de.ich", "de.ein", "de.seminar"] },
     { "speaker": "lena", "text": "Ein Seminar ist klein. Da musst du viel sprechen!", "zh": "讨论课人少,在那儿你得多发言!", "items": ["de.ein", "de.seminar", "de.sein", "de.klein", "de.da", "de.muessen", "de.du", "de.viel", "de.sprechen"] },
-    { "speaker": "wei", "text": "Das Seminar ist im Gebäude B, im ersten Stock. Ist das hier?", "zh": "讨论课在 B 楼的“第一层”(erster Stock)。是我们这一层吗?", "items": ["de.seminar", "de.sein", "de.in", "de.gebaeude", "de.eins", "de.stock", "de.hier"] },
+    { "speaker": "wei", "text": "Das Seminar ist im Gebäude B, im ersten Stock. Ist das hier?", "zh": "讨论课在 B 楼的“第一层”(erster Stock)。是我们这一层吗?", "items": ["de.seminar", "de.sein", "de.in", "de.gebaeude", "de.im_ersten_stock", "de.eins", "de.stock", "de.hier"] },
     { "speaker": "lena", "text": "Nein, hier ist das Erdgeschoss. Der erste Stock ist in China der zweite!", "zh": "不是,这儿是底层(Erdgeschoss)。德国的“第一层”是中国的二楼!", "items": ["de.nein", "de.hier", "de.sein", "de.erdgeschoss", "de.eins", "de.stock", "de.in", "de.china", "de.zwei"] },
     { "speaker": "wei", "text": "Und was heißt „c.t.“? Die Vorlesung ist um zehn Uhr c.t.", "zh": "那 c.t. 是什么意思?讲座课是十点 c.t.。", "items": ["de.und", "de.was", "de.ich_heisse", "de.vorlesung", "de.sein", "de.um", "de.zehn", "de.uhr"] },
     { "speaker": "lena", "text": "Das heißt: Sie fängt um Viertel nach zehn an.", "zh": "意思是:它十点一刻才开始。", "items": ["de.ich_heisse", "de.sie_sg", "de.anfangen", "de.um", "de.viertel", "de.nach", "de.zehn"] },
@@ -34,7 +34,7 @@
   ],
   "grammar": [
     { "id": "de.g.stockwerk", "titleZh": "楼层:im Erdgeschoss、im ersten Stock",
-      "bodyZh": "德国的楼层从地面那一层的上一层开始数:地面那一层叫 das Erdgeschoss(中国的一楼),上面一层才是 der erste Stock(中国的二楼),再上面是 der zweite Stock(中国的三楼)。电梯按钮上 Erdgeschoss 写成 E 或 0。\n说“在几楼”:im Erdgeschoss、im ersten Stock、im zweiten Stock(im = in dem,序数词加 -en,和 am ersten Januar 一样)。\n大学的教室号常写成 1.104 这样:点前面是楼层,点后面是房间号。和德国人约在“二楼”见面时,一定要说清楚是哪种说法!",
+      "bodyZh": "第 7 单元的确认邮件里见过 im ersten Stock(在二楼),这一课讲它的道理:德国的楼层从地面那一层的上一层开始数。地面那一层叫 das Erdgeschoss(中国的一楼),上面一层才是 der erste Stock(中国的二楼),再上面是 der zweite Stock(中国的三楼)。电梯按钮上 Erdgeschoss 写成 E 或 0。\n说“在几楼”:im Erdgeschoss、im ersten Stock、im zweiten Stock(im = in dem,序数词加 -en,和 am ersten Januar 一样)。\n大学的教室号常写成 1.104 这样:点前面是楼层,点后面是房间号。和德国人约在“二楼”见面时,一定要说清楚是哪种说法!",
       "examples": [
         { "text": "Das Seminar ist im ersten Stock.", "zh": "讨论课在二楼(德国的“第一层”)。" },
         { "text": "Der Hörsaal ist im Erdgeschoss.", "zh": "阶梯教室在一楼(底层)。" },

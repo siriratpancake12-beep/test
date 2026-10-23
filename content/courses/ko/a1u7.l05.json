@@ -1,0 +1,46 @@
+{
+  "id": "ko.a1u7.l05", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107050,
+  "titleZh": "能换吗?打折和退换货", "goalZh": "会拿着小票去换尺码,听懂能不能退款、打几折、付现金还是刷卡",
+  "canDoZh": "能带着小票去店里换货,听懂“打八折”“只能换不能退”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ko.hyeongeum", "kind": "word", "pos": "noun", "text": "현금", "zh": "现金", "features": { "roman": "hyeongeum" }, "noteZh": "汉字词 现金;韩国几乎处处能刷卡,传统市场的小摊有时只收现金;현금 돼요?= 能付现金吗?" },
+    { "id": "ko.yeongsujeung", "kind": "word", "pos": "noun", "text": "영수증", "zh": "收据;小票", "features": { "roman": "yeongsujeung" }, "noteZh": "汉字词 领收证;退换货一般要带 영수증;영수증 주세요 = 请给我小票。" },
+    { "id": "ko.harin", "kind": "word", "pos": "noun", "text": "할인", "zh": "打折;折扣", "features": { "roman": "harin" }, "noteZh": "汉字词 割引;连音读 [하린]。이십 퍼센트 할인 = 打八折,삼십 퍼센트 할인 = 打七折,不是打三折!" },
+    { "id": "ko.gyohwan", "kind": "word", "pos": "noun", "text": "교환", "zh": "换货;交换", "features": { "roman": "gyohwan" }, "noteZh": "汉字词 交换;교환돼요?= 能换吗?" },
+    { "id": "ko.hwanbul", "kind": "word", "pos": "noun", "text": "환불", "zh": "退款", "features": { "roman": "hwanbul" }, "noteZh": "汉字词 还拂;환불돼요?= 能退款吗?" },
+    { "id": "ko.bakkwo_juseyo", "kind": "phrase", "pos": "phrase", "text": "바꿔 주세요", "zh": "请给我换(一下)", "features": { "roman": "bakkwo juseyo" }, "noteZh": "바꾸다(换)+ -아/어 주세요(ㅜ + ㅓ 缩成 ㅝ);M 사이즈로 바꿔 주세요 = 请给我换成 M 码。" },
+    { "id": "ko.peosenteu", "kind": "word", "pos": "noun", "text": "퍼센트", "zh": "百分之……", "features": { "roman": "peosenteu" }, "noteZh": "外来词 percent;前面用汉字数词:이십 퍼센트(20%)。" }
+  ],
+  "reviewItems": ["ko.kadeu", "ko.saijeu", "ko.jagayo", "ko.dwaeyo"],
+  "lines": [
+    { "speaker": "clerk", "text": "어서 오세요!", "zh": "(陈静回宿舍一穿,S 码的裙子太小了。第二天她带着小票回到东大门那家店)欢迎光临!", "roman": "eoseo oseyo!", "items": ["ko.eoseo_oseyo"] },
+    { "speaker": "jing", "text": "안녕하세요. 이 치마가 너무 작아요.", "zh": "您好。这条裙子太小了。", "roman": "annyeonghaseyo. i chimaga neomu jagayo.", "items": ["ko.annyeonghaseyo", "ko.chima", "ko.neomu", "ko.jagayo"] },
+    { "speaker": "clerk", "text": "영수증 있어요?", "zh": "有小票吗?", "roman": "yeongsujeung isseoyo?", "items": ["ko.yeongsujeung", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "네, 영수증 여기요. 환불돼요?", "zh": "有,小票在这儿。能退款吗?", "roman": "ne, yeongsujeung yeogiyo. hwanbuldwaeyo?", "items": ["ko.ne", "ko.yeongsujeung", "ko.yeogiyo", "ko.hwanbul", "ko.dwaeyo"] },
+    { "speaker": "clerk", "text": "죄송합니다. 환불은 안 돼요. 교환은 돼요.", "zh": "不好意思,退款不行,换货可以。", "roman": "joesonghamnida. hwanbureun an dwaeyo. gyohwaneun dwaeyo.", "items": ["ko.joesonghamnida", "ko.hwanbul", "ko.an", "ko.dwaeyo", "ko.gyohwan"] },
+    { "speaker": "jing", "text": "그럼 M 사이즈로 바꿔 주세요.", "zh": "那请给我换成 M 码。", "roman": "geureom M saijeuro bakkwo juseyo.", "items": ["ko.geureom", "ko.saijeu", "ko.bakkwo_juseyo"] },
+    { "speaker": "clerk", "text": "네, 여기요. 오늘은 다 이십 퍼센트 할인이에요!", "zh": "好的,给您。今天全部打八折!", "roman": "ne, yeogiyo. oneureun da isip peosenteu harinieyo!", "items": ["ko.ne", "ko.yeogiyo", "ko.oneul", "ko.da", "ko.i", "ko.sip", "ko.peosenteu", "ko.harin"] },
+    { "speaker": "jing", "text": "이 흰색 티셔츠도 할인돼요?", "zh": "这件白 T 恤也打折吗?", "roman": "i huinsaek tisyeocheudo harindwaeyo?", "items": ["ko.huinsaek", "ko.tisyeocheu", "ko.harin", "ko.dwaeyo"] },
+    { "speaker": "clerk", "text": "네. 만 원이에요. 오늘은 팔천 원!", "zh": "打折。原价一万,今天八千!", "roman": "ne. man wonieyo. oneureun palcheon won!", "items": ["ko.ne", "ko.man", "ko.won", "ko.oneul", "ko.pal", "ko.cheon"] },
+    { "speaker": "jing", "text": "그럼 이 티셔츠도 주세요. 현금 돼요?", "zh": "那这件 T 恤我也要了。能付现金吗?", "roman": "geureom i tisyeocheudo juseyo. hyeongeum dwaeyo?", "items": ["ko.geureom", "ko.tisyeocheu", "ko.juseyo", "ko.hyeongeum", "ko.dwaeyo"] },
+    { "speaker": "clerk", "text": "네, 현금도 돼요. 카드도 돼요.", "zh": "可以,现金、刷卡都行。", "roman": "ne, hyeongeumdo dwaeyo. kadeudo dwaeyo.", "items": ["ko.ne", "ko.hyeongeum", "ko.dwaeyo", "ko.kadeu"] },
+    { "speaker": "jing", "text": "여기 팔천 원이요. 감사합니다!", "zh": "这是八千。谢谢!", "roman": "yeogi palcheon woniyo. gamsahamnida!", "items": ["ko.yeogi", "ko.pal", "ko.cheon", "ko.won", "ko.gamsahamnida"] }
+  ],
+  "questions": [
+    { "prompt": "陈静为什么回到这家店?", "options": ["裙子的颜色不对", "她想再买一双鞋", "裙子太小了", "她忘了拿小票"], "answer": 2, "explainZh": "第 2 句:이 치마가 너무 작아요(这条裙子太小了)。上一课她没再试 S 码就买了。" },
+    { "prompt": "关于这条裙子,店员是怎么说的?", "options": ["能退款,也能换货", "不能退款,但能换货", "不能退款,也不能换货"], "answer": 1, "explainZh": "第 5 句:환불은 안 돼요. 교환은 돼요.——退款不行,换货可以。은/는 在这里表示对比。" },
+    { "prompt": "店员说“오늘은 다 이십 퍼센트 할인이에요”,意思是?", "options": ["今天全部打八折", "今天全部打二折", "今天买一送一"], "answer": 0, "explainZh": "이십 퍼센트 할인 是减掉 20%,付原价的 80%,也就是中文的“打八折”,不是打二折。" },
+    { "prompt": "那件白 T 恤今天卖多少钱?", "options": ["10,000 韩元", "2,000 韩元", "8,000 韩元"], "answer": 2, "explainZh": "第 9 句:原价 만 원(10,000),打八折以后 오늘은 팔천 원(今天 8,000)。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.euro_bakkwo", "titleZh": "请换成……:N(으)로 바꿔 주세요",
+      "bodyZh": "换东西时说 N(으)로 바꿔 주세요(请给我换成 N)。(으)로 在这里表示“换成、变成”:名词最后一个字没有收音、或者收音是 ㄹ,加 로;有别的收音,加 으로。사이즈로(즈 没有收音)、흰색으로(색 有收音 ㄱ)、다른 색깔로(깔 的收音是 ㄹ,也用 로)。바꿔 주세요 = 바꾸다(换)+ -아/어 주세요(请为我……),第 6 单元的 세워 주세요(请停车)也是这个形式。中文“换成”的“成”就对应 (으)로;如果说成 M 사이즈를 바꿔 주세요,意思是“把 M 码那件换掉”,正好反了。",
+      "examples": [ { "text": "M 사이즈로 바꿔 주세요.", "zh": "请给我换成 M 码。" }, { "text": "흰색으로 바꿔 주세요.", "zh": "请给我换成白色的。(색 有收音,用 으로)" }, { "text": "다른 색깔로 바꿔 주세요.", "zh": "请给我换个颜色。(收音 ㄹ 用 로)" } ] },
+    { "id": "ko.g.n_dwaeyo", "titleZh": "能……吗?N 돼요? / N은 안 돼요",
+      "bodyZh": "在店里问“能不能……”,最简单的说法是 N 돼요?:카드 돼요?(能刷卡吗?)、현금 돼요?(能付现金吗?)。교환、환불、할인 这几个汉字名词常和 돼요 连写:교환돼요?(能换吗?)、환불돼요?(能退款吗?)、할인돼요?(打折吗?)。不行就是 안 돼요。一个行、一个不行,用 은/는 对比:환불은 안 돼요. 교환은 돼요.。打折的说法要特别小心:이십 퍼센트 할인 是“减掉 20%”,也就是中文的“打八折”;삼십 퍼센트 할인 = 打七折。中国学生常把 이십 퍼센트 할인 理解成“打二折”。退换货一般要带 영수증(小票)。",
+      "examples": [ { "text": "환불돼요?", "zh": "能退款吗?" }, { "text": "환불은 안 돼요. 교환은 돼요.", "zh": "退款不行,换货可以。" } ] }
+  ],
+  "review": "draft"
+}

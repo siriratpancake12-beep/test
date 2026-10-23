@@ -1,0 +1,50 @@
+{
+  "id": "de.a1u9.l08", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-9 大学与课程", "order": 109080,
+  "titleZh": "单元复习与应用:带保罗参观大学", "goalZh": "综合运用本单元的词和语法,带朋友参观大学、说明规定", "canDoZh": "能带别人参观大学,介绍教学楼、图书馆和食堂,说明那里的规定",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "de.beruehmt", "kind": "word", "pos": "adj", "text": "berühmt", "zh": "有名的;著名的", "features": { "ipa": "bəˈʁyːmt" }, "noteZh": "放在名词前要加词尾:einen berühmten Professor(形容词词尾 A2 再系统学);h 不发音,ü 是长音;重音在 rühmt。" },
+    { "id": "de.aufzug", "kind": "word", "pos": "noun", "text": "der Aufzug", "zh": "电梯", "features": { "gender": "m", "plural": "die Aufzüge", "ipa": "ˈaʊ̯fˌtsuːk" }, "noteZh": "也叫 der Lift / der Fahrstuhl;复数变音:Aufzüge;z 读 [ts],词尾 g 读 [k]。" }
+  ],
+  "reviewItems": ["de.erdgeschoss", "de.stock", "de.sondern", "de.duerfen", "de.man", "de.wissen"],
+  "lines": [
+    { "speaker": "paul", "text": "Die Uni ist sehr groß! Wo ist der Hörsaal?", "zh": "大学真大!阶梯教室在哪儿?", "items": ["de.uni", "de.sein", "de.sehr", "de.gross", "de.wo", "de.hoersaal"] },
+    { "speaker": "wei", "text": "Der Hörsaal ist hier im Erdgeschoss.", "zh": "阶梯教室就在这儿,在一楼。", "items": ["de.hoersaal", "de.sein", "de.hier", "de.in", "de.erdgeschoss"] },
+    { "speaker": "paul", "text": "Und dein Seminar? Ist es auch im Erdgeschoss?", "zh": "那你的讨论课呢?也在一楼吗?", "items": ["de.und", "de.dein", "de.seminar", "de.sein", "de.es", "de.auch", "de.in", "de.erdgeschoss"] },
+    { "speaker": "wei", "text": "Nein, nicht im Erdgeschoss, sondern im ersten Stock. Da ist der Aufzug.", "zh": "不,不在一楼,而在二楼。电梯在那儿。", "items": ["de.nein", "de.nicht", "de.in", "de.erdgeschoss", "de.sondern", "de.im_ersten_stock", "de.eins", "de.stock", "de.da", "de.sein", "de.aufzug"] },
+    { "speaker": "paul", "text": "Was ist ein Seminar? Eine Vorlesung?", "zh": "讨论课是什么?就是讲座课吗?", "items": ["de.was", "de.sein", "de.ein", "de.seminar", "de.vorlesung"] },
+    { "speaker": "wei", "text": "Nein, ein Seminar ist klein. Da muss man viel sprechen.", "zh": "不是,讨论课人少,在那儿要多发言。", "items": ["de.nein", "de.ein", "de.seminar", "de.sein", "de.klein", "de.da", "de.muessen", "de.man", "de.viel", "de.sprechen"] },
+    { "speaker": "paul", "text": "Und da ist die Bibliothek! Darf ich da rein?", "zh": "那儿是图书馆!我能进去吗?", "items": ["de.und", "de.da", "de.sein", "de.bibliothek", "de.duerfen", "de.ich", "de.herein"] },
+    { "speaker": "wei", "text": "Ja, Schüler dürfen auch rein. Aber man darf nicht laut sein.", "zh": "能,中学生也可以进。不过不能大声说话。", "items": ["de.ja", "de.schueler", "de.duerfen", "de.auch", "de.herein", "de.aber", "de.man", "de.nicht", "de.laut", "de.sein"] },
+    { "speaker": "paul", "text": "Ich habe Hunger! Kann man hier etwas essen?", "zh": "我饿了!这儿能吃点东西吗?", "items": ["de.ich", "de.haben", "de.hunger", "de.koennen", "de.man", "de.hier", "de.etwas", "de.essen"] },
+    { "speaker": "wei", "text": "Ja, im Café. Für Studenten ist es sehr billig.", "zh": "能,在咖啡馆。学生吃很便宜。", "items": ["de.ja", "de.in", "de.cafe", "de.fuer", "de.student", "de.sein", "de.es", "de.sehr", "de.billig"] },
+    { "speaker": "paul", "text": "Und für mich? Ich bin kein Student.", "zh": "那我呢?我不是大学生。", "items": ["de.und", "de.fuer", "de.ich", "de.sein", "de.kein", "de.student"] },
+    { "speaker": "wei", "text": "Für dich ist es ein bisschen teuer. Aber ich lade dich ein!", "zh": "你就要贵一点。不过我请你!", "items": ["de.fuer", "de.du", "de.sein", "de.es", "de.ein_bisschen", "de.teuer", "de.aber", "de.ich", "de.einladen"] },
+    { "speaker": "paul", "text": "Super! Wei, kennst du einen berühmten Professor?", "zh": "太好了!王伟,你认识有名的教授吗?", "items": ["de.toll", "de.du", "de.kennen", "de.ein", "de.beruehmt", "de.professor"] },
+    { "speaker": "wei", "text": "Nein, aber ich kenne Frau Wagner. Sie weiß alles!", "zh": "不认识,不过我认识瓦格纳老师。她什么都知道!", "items": ["de.nein", "de.aber", "de.ich", "de.kennen", "de.frau", "de.sie_sg", "de.wissen", "de.alles"] }
+  ],
+  "questions": [
+    { "prompt": "王伟的讨论课在哪儿?", "options": ["Erdgeschoss(中国的一楼)", "erster Stock(中国的二楼)", "图书馆里"], "answer": 1, "explainZh": "王伟说:Nein, nicht im Erdgeschoss, sondern im ersten Stock.(不在一楼,而在二楼。)在一楼的是阶梯教室。" },
+    { "prompt": "保罗可以进图书馆吗?", "options": ["可以,但是不能大声说话", "不可以,只有大学生能进", "可以,还能在里面吃东西"], "answer": 0, "explainZh": "王伟说:Ja, Schüler dürfen auch rein. Aber man darf nicht laut sein.(中学生也可以进,不过不能大声说话。)" },
+    { "prompt": "楼里的咖啡馆对保罗来说怎么样?", "options": ["免费", "和大学生一样便宜", "有点贵,不过王伟请他"], "answer": 2, "explainZh": "王伟说:Für dich ist es ein bisschen teuer. Aber ich lade dich ein!(你要贵一点,不过我请你!)学生吃才很便宜。" },
+    { "prompt": "王伟认识有名的教授吗?", "options": ["认识一位", "不认识,但他认识瓦格纳老师", "他不想说"], "answer": 1, "explainZh": "王伟说:Nein, aber ich kenne Frau Wagner. Sie weiß alles!(不认识,不过我认识瓦格纳老师,她什么都知道!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u9_review_regeln", "titleZh": "复习:dürfen、man 和规定;seit",
+      "bodyZh": "第 9 单元学了怎么说规定和许可:\n① 请求许可:Darf ich …?(我可以……吗?)——Darf ich da rein?(口语里 rein = herein,“进去”的 gehen / kommen 常常省掉)\n② 说规定:man + dürfen / müssen:Man darf hier nicht laut sein. / Man muss leise sein.;规定牌上更短:Essen verboten!\n③ dürfen 的变位:ich darf、du darfst、er darf、wir dürfen、ihr dürft、sie dürfen;nicht dürfen = 不许,nicht müssen = 不必。\n④ 问专业和来了多久:Was studierst du? – Informatik, im zweiten Semester. / Seit wann bist du in Berlin? – Seit September.(seit + 现在时)",
+      "examples": [
+        { "text": "Darf ich da rein?", "zh": "我可以进去吗?" },
+        { "text": "Man darf nicht laut sein.", "zh": "不能大声说话。" },
+        { "text": "Seit wann bist du in Berlin?", "zh": "你是什么时候来柏林的?" }
+      ] },
+    { "id": "de.g.u9_review_kennen_stock", "titleZh": "复习:wissen / kennen、sondern、楼层和大学里的课",
+      "bodyZh": "① kennen + 人、地方、东西:Ich kenne Frau Wagner.;wissen + 事实、答案:Sie weiß alles. / Das weiß ich nicht.(ich weiß、du weißt、er weiß)\n② 纠正别人用 nicht …, sondern …:Nicht im Erdgeschoss, sondern im ersten Stock.;只是转折用 aber:Nein, aber ich kenne Frau Wagner.\n③ 楼层:das Erdgeschoss = 中国的一楼,der erste Stock = 中国的二楼:im Erdgeschoss、im ersten Stock、im zweiten Stock;上楼可以坐 der Aufzug(电梯)。\n④ 大学里的课:die Vorlesung(讲座课,在 Hörsaal 里,教授讲)、das Seminar(讨论课,人少、要多发言)、die Übung(练习课,自己做题)。",
+      "examples": [
+        { "text": "Das Seminar ist nicht im Erdgeschoss, sondern im ersten Stock.", "zh": "讨论课不在一楼,而在二楼。" },
+        { "text": "Ich kenne Frau Wagner. Sie weiß alles!", "zh": "我认识瓦格纳老师。她什么都知道!" },
+        { "text": "Der Hörsaal ist im Erdgeschoss.", "zh": "阶梯教室在一楼。" }
+      ] }
+  ],
+  "review": "draft"
+}

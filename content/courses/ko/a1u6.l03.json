@@ -1,0 +1,44 @@
+{
+  "id": "ko.a1u6.l03", "schemaVersion": 1, "lang": "ko", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106030,
+  "titleZh": "一直走,在红绿灯右转", "goalZh": "会向路人问路,听懂“一直走、往左、往右”的指路说法",
+  "canDoZh": "能在街上礼貌地问路,听懂简单的路线并道谢",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+  "newItems": [
+    { "id": "ko.gil", "kind": "word", "pos": "noun", "text": "길", "zh": "路;道路", "features": { "roman": "gil" }, "noteZh": "收音 ㄹ 读 l;이 길로 쭉 가세요(顺着这条路一直走);“迷路了”是 길을 잃었어요(以后学)。" },
+    { "id": "ko.jjuk", "kind": "word", "pos": "adv", "text": "쭉", "zh": "一直(往前)", "features": { "roman": "jjuk" }, "noteZh": "쭉 가세요 = 一直走;ㅉ 是紧音,喉咙绷紧、不送气。" },
+    { "id": "ko.oreunjjok", "kind": "word", "pos": "noun", "text": "오른쪽", "zh": "右边", "features": { "roman": "oreunjjok" }, "noteZh": "오른 + 쪽(边);오른쪽으로 가세요 = 往右走,连音读 [오른쪼그로]。" },
+    { "id": "ko.oenjjok", "kind": "word", "pos": "noun", "text": "왼쪽", "zh": "左边", "features": { "roman": "oenjjok" }, "noteZh": "ㅚ 读 we;왼쪽으로 가세요 = 往左走。左 왼、右 오른,听的时候抓住第一个音。" },
+    { "id": "ko.gaseyo", "kind": "word", "pos": "verb", "text": "가세요", "zh": "请走;请去;(您)去", "features": { "roman": "gaseyo" }, "noteZh": "가다 + -(으)세요(尊敬的请求):指路时最常听到 쭉 가세요;안녕히 가세요(慢走)里也是它。也可以尊敬地问对方:어디로 가세요?(您去哪儿?)" },
+    { "id": "ko.sinhodeung", "kind": "word", "pos": "noun", "text": "신호등", "zh": "红绿灯", "features": { "roman": "sinhodeung" }, "noteZh": "汉字词 信号灯;신호등에서 왼쪽으로 가세요(在红绿灯往左)。" },
+    { "id": "ko.arayo", "kind": "word", "pos": "verb", "text": "알아요", "zh": "知道;认识", "features": { "roman": "arayo" }, "noteZh": "原形 알다;이 식당 알아요?= 知道这家饭馆吗?;连音读 [아라요];问陌生人更客气的说法是 아세요?(以后学)。" },
+    { "id": "ko.mollayo", "kind": "word", "pos": "verb", "text": "몰라요", "zh": "不知道", "features": { "roman": "mollayo" }, "noteZh": "原形 모르다;잘 몰라요 = 不太清楚;否定“知道”不说 ✗ 안 알아요。" },
+    { "id": "ko.jal", "kind": "word", "pos": "adv", "text": "잘", "zh": "好好地;很;(否定前)不太", "features": { "roman": "jal" }, "noteZh": "放在动词前:잘 몰라요(不太清楚)、잘 먹겠습니다、잘 부탁드립니다 里都是它。" }
+  ],
+  "reviewItems": ["ko.jeogiyo", "ko.joesonghamnida", "ko.yeop", "ko.dasi_malhae_juseyo"],
+  "lines": [
+    { "speaker": "nam", "text": "천징 씨, 그 떡볶이 식당이 어디에 있어요?", "zh": "(星期六,两人去找朋友推荐的那家辣炒年糕店)陈静,那家辣炒年糕店在哪儿啊?", "roman": "cheonjing ssi, geu tteokbokki sikdangi eodie isseoyo?", "items": ["ko.ssi", "ko.tteokbokki", "ko.sikdang", "ko.eodi", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "저도 잘 몰라요. 저기요, 이 식당 알아요?", "zh": "我也不太清楚。(拿着手机拦住一位路人)打扰一下,您知道这家饭馆吗?", "roman": "jeodo jal mollayo. jeogiyo, i sikdang arayo?", "items": ["ko.jeo", "ko.jal", "ko.mollayo", "ko.jeogiyo", "ko.sikdang", "ko.arayo"] },
+    { "speaker": "passerby", "text": "죄송합니다. 저도 잘 몰라요.", "zh": "不好意思,我也不太清楚。", "roman": "joesonghamnida. jeodo jal mollayo.", "items": ["ko.joesonghamnida", "ko.jeo", "ko.jal", "ko.mollayo"] },
+    { "speaker": "nam", "text": "천징 씨, 저기 편의점이 있어요!", "zh": "陈静,那边有家便利店!(去问问店员吧)", "roman": "cheonjing ssi, jeogi pyeonuijeomi isseoyo!", "items": ["ko.ssi", "ko.jeogi", "ko.pyeonuijeom", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "저기요, 이 식당이 어디에 있어요?", "zh": "(便利店门口,一位店员正在整理货)打扰一下,这家饭馆在哪儿?", "roman": "jeogiyo, i sikdangi eodie isseoyo?", "items": ["ko.jeogiyo", "ko.sikdang", "ko.eodi", "ko.isseoyo"] },
+    { "speaker": "clerk", "text": "아, 알아요! 이 길로 쭉 가세요. 신호등에서 오른쪽으로 가세요.", "zh": "啊,我知道!顺着这条路一直走,到红绿灯往右拐。", "roman": "a, arayo! i gillo jjuk gaseyo. sinhodeungeseo oreunjjogeuro gaseyo.", "items": ["ko.arayo", "ko.gil", "ko.jjuk", "ko.gaseyo", "ko.sinhodeung", "ko.oreunjjok"] },
+    { "speaker": "nam", "text": "네? 왼쪽이요?", "zh": "啊?往左?", "roman": "ne? oenjjogiyo?", "items": ["ko.ne", "ko.oenjjok"] },
+    { "speaker": "clerk", "text": "아니요, 오른쪽이요. 식당은 은행 옆에 있어요.", "zh": "不是,往右。饭馆在银行旁边。", "roman": "aniyo, oreunjjogiyo. sikdangeun eunhaeng yeope isseoyo.", "items": ["ko.aniyo", "ko.oreunjjok", "ko.sikdang", "ko.eunhaeng", "ko.yeop", "ko.isseoyo"] },
+    { "speaker": "jing", "text": "죄송합니다. 다시 말해 주세요.", "zh": "不好意思,请再说一遍。", "roman": "joesonghamnida. dasi malhae juseyo.", "items": ["ko.joesonghamnida", "ko.dasi_malhae_juseyo"] },
+    { "speaker": "clerk", "text": "쭉 가세요. 신호등에서 오른쪽! 은행 옆이에요.", "zh": "(店员放慢了速度)一直走。到红绿灯往右!就在银行旁边。", "roman": "jjuk gaseyo. sinhodeungeseo oreunjjok! eunhaeng yeopieyo.", "items": ["ko.jjuk", "ko.gaseyo", "ko.sinhodeung", "ko.oreunjjok", "ko.eunhaeng", "ko.yeop"] },
+    { "speaker": "jing", "text": "쭉 가요, 신호등에서 오른쪽, 은행 옆! 감사합니다!", "zh": "一直走,红绿灯往右,银行旁边!谢谢您!", "roman": "jjuk gayo, sinhodeungeseo oreunjjok, eunhaeng yeop! gamsahamnida!", "items": ["ko.jjuk", "ko.gayo", "ko.sinhodeung", "ko.oreunjjok", "ko.eunhaeng", "ko.yeop", "ko.gamsahamnida"] },
+    { "speaker": "nam", "text": "감사합니다! 천징 씨, 가요!", "zh": "谢谢!陈静,走吧!", "roman": "gamsahamnida! cheonjing ssi, gayo!", "items": ["ko.gamsahamnida", "ko.ssi", "ko.gayo"] }
+  ],
+  "questions": [
+    { "prompt": "第一位路人怎么回答?", "options": ["往右走", "不太清楚", "在银行旁边"], "answer": 1, "explainZh": "第 3 句:죄송합니다. 저도 잘 몰라요(不好意思,我也不太清楚)。잘 몰라요 是“不太知道”,比只说 몰라요 委婉。" },
+    { "prompt": "那家饭馆怎么走?", "options": ["一直走,到红绿灯往左", "到红绿灯往右,在便利店旁边", "一直走,到红绿灯往右,在银行旁边"], "answer": 2, "explainZh": "第 6、8 句:쭉 가세요. 신호등에서 오른쪽으로 가세요……은행 옆에 있어요。南听成了 왼쪽(左),店员说 아니요, 오른쪽이요。" },
+    { "prompt": "陈静没听清的时候说了什么?", "options": ["죄송합니다. 다시 말해 주세요.", "저도 잘 몰라요.", "이 식당 알아요?"], "answer": 0, "explainZh": "第 9 句:죄송합니다. 다시 말해 주세요(不好意思,请再说一遍)。店员放慢速度又说了一遍,陈静复述一遍确认。" }
+  ],
+  "grammar": [
+    { "id": "ko.g.u6_directions", "titleZh": "指路的说法:-(으)세요(请……)和 (으)로(往……)",
+      "bodyZh": "① -(으)세요:动词词干 + 세요(词干没有收音)/ 으세요(有收音),表示客气的请求或指示:가다 → 가세요(请走)、앉다 → 앉으세요(请坐)。指路时几乎每句都是它:쭉 가세요(请一直走)、오른쪽으로 가세요(请往右走)。学过的 안녕히 가세요(慢走)、어서 오세요(欢迎光临)里也是它。\n② (으)로 = 往……:오른쪽으로、왼쪽으로;没有收音或收音是 ㄹ 的词后面用 로:이 길로(顺着这条路)。在哪儿转弯用 에서:신호등에서 오른쪽으로 가세요(在红绿灯往右走)。\n③ 不知道说 몰라요 / 잘 몰라요(不太清楚),不说 ✗ 안 알아요;知道是 알아요。\n问路的步骤:저기요 叫住对方 → 이 식당이 어디에 있어요? → 没听清就说 죄송합니다. 다시 말해 주세요 → 自己复述一遍(쭉 가요, 신호등에서 오른쪽……)→ 감사합니다。",
+      "examples": [ { "text": "쭉 가세요.", "zh": "请一直往前走。" }, { "text": "신호등에서 오른쪽으로 가세요.", "zh": "到红绿灯往右走。" }, { "text": "이 길로 쭉 가세요.", "zh": "顺着这条路一直走。" }, { "text": "죄송합니다. 잘 몰라요.", "zh": "不好意思,我不太清楚。" } ] }
+  ],
+  "review": "draft"
+}

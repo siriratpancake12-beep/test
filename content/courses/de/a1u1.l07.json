@@ -27,7 +27,7 @@
     { "speaker": "wei", "text": "Ja, ich bin fertig. Danke, Sofia!", "zh": "做完了。谢谢你,索菲娅!", "items": ["de.ja", "de.ich", "de.sein", "de.fertig", "de.danke"] }
   ],
   "questions": [
-    { "prompt": "索菲娅住在哪里?", "options": ["克罗伊茨贝格", "新克尔恩", "意大利"], "answer": 1, "explainZh": "王伟问 Wohnst du in Kreuzberg?,索菲娅回答 Nein, ich wohne in Neukölln.;意大利是她的家乡,她现在住在柏林的新克尔恩。" },
+    { "prompt": "索菲娅住在哪里?", "options": ["新克尔恩", "克罗伊茨贝格", "意大利"], "answer": 0, "explainZh": "王伟问 Wohnst du in Kreuzberg?,索菲娅回答 Nein, ich wohne in Neukölln.;意大利是她的家乡,她现在住在柏林的新克尔恩。" },
     { "prompt": "王伟会说意大利语吗?", "options": ["会,说得很好", "会一点", "不会,他会说中文和英语"], "answer": 2, "explainZh": "索菲娅问 Sprichst du Italienisch?,王伟说:Nein, ich spreche Chinesisch und Englisch.。" },
     { "prompt": "老师问 Herr Wang, sind Sie fertig?,是什么意思?", "options": ["王先生,您做完了吗?", "王先生,您是大学生吗?", "王先生,您住在哪儿?"], "answer": 0, "explainZh": "fertig 是“做完了”。王伟回答 Ja, ich bin fertig.(我做完了。)老师对学生用 Sie,同学之间用 du。" }
   ],
