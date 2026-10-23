@@ -22,14 +22,14 @@
     { "speaker": "rin", "text": "ゼロはちゼロの よんなないちきゅうの にろくさんご……。", "zh": "(林雨慢慢跟着念)080……4719……2635……", "tokens": ["ゼロはちゼロの", "よんなないちきゅうの", "にろくさんご……。"], "items": ["ja.zero", "ja.hachi", "ja.no_p", "ja.yon", "ja.nana", "ja.ichi", "ja.kyuu", "ja.ni", "ja.roku", "ja.san_num", "ja.go"] },
     { "speaker": "saki", "text": "はい、そうです。", "zh": "(咲在旁边确认)对,没错。", "tokens": ["はい、", "そう", "です。"], "items": ["ja.hai", "ja.sou", "ja.desu"] },
     { "speaker": "rin", "text": "ありがとうございます。", "zh": "谢谢您。", "tokens": ["ありがとうございます。"], "items": ["ja.arigatou_gozaimasu"] },
-    { "speaker": "rin", "text": "ジウさん、どうぞ。", "zh": "(回到合租房,林雨把写着新号码的纸条递给智友)智友,给你。", "tokens": ["ジウさん、", "どうぞ。"], "items": ["ja.san", "ja.douzo"] },
+    { "speaker": "rin", "text": "ジウさん、どうぞ。", "zh": "(回到合租房,林雨把写着新号码的纸条递给智友)智友同学,给你。", "tokens": ["ジウさん、", "どうぞ。"], "items": ["ja.san", "ja.douzo"] },
     { "speaker": "jiu", "text": "ゼロはちゼロの よんなないちきゅうの……。", "zh": "(智友念纸条)080……4719……", "tokens": ["ゼロはちゼロの", "よんなないちきゅうの……。"], "items": ["ja.zero", "ja.hachi", "ja.no_p", "ja.yon", "ja.nana", "ja.ichi", "ja.kyuu"] },
     { "speaker": "jiu", "text": "これは ゼロですか。", "zh": "(指着一个数字)这是 0 吗?", "tokens": ["これ", "は", "ゼロ", "ですか。"], "items": ["ja.kore", "ja.wa_p", "ja.zero", "ja.desu", "ja.ka_p"] },
     { "speaker": "rin", "text": "いいえ、ろくです。にろくさんごです。", "zh": "不是,是 6。是 2635。", "tokens": ["いいえ、", "ろく", "です。", "にろくさんご", "です。"], "items": ["ja.iie", "ja.roku", "ja.desu", "ja.ni", "ja.san_num", "ja.go"] },
     { "speaker": "jiu", "text": "にろくさんご。ありがとうございます!", "zh": "2635。谢谢!", "tokens": ["にろくさんご。", "ありがとうございます!"], "items": ["ja.ni", "ja.roku", "ja.san_num", "ja.go", "ja.arigatou_gozaimasu"] }
   ],
   "questions": [
-    { "prompt": "林雨的新手机号码是多少?", "options": ["080-4719-2653", "080-7419-2635", "080-4719-2635", "090-4719-2635"], "answer": 2, "explainZh": "店员说:ゼロはちゼロの よんなないちきゅうの にろくさんごです。(080-4719-2635)" },
+    { "prompt": "林雨的新手机号码是多少?", "options": ["080-4719-2653", "080-7419-2635", "090-4719-2635", "080-4719-2635"], "answer": 3, "explainZh": "店员说:ゼロはちゼロの よんなないちきゅうの にろくさんごです。(080-4719-2635)" },
     { "prompt": "智友指着纸条问的那个数字,其实是几?", "options": ["0", "6", "9"], "answer": 1, "explainZh": "智友问 これは ゼロですか(这是 0 吗?),林雨说:いいえ、ろくです。(不是,是 6。)" },
     { "prompt": "电话号码中间的“-”,日语里读什么?", "options": ["の", "は", "と"], "answer": 0, "explainZh": "ゼロはちゼロの よんなないちきゅうの にろくさんご:每组数字后面的“-”读 の。" }
   ],

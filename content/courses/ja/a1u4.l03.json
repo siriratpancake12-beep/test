@@ -16,16 +16,16 @@
   ],
   "reviewItems": ["ja.nani", "ja.wo_p", "ja.daigaku"],
   "lines": [
-    { "speaker": "kenta", "text": "リンさんは 何を 食べますか。", "reading": "リンさんは なにを たべますか。", "zh": "(中午,健太带林雨去大学食堂)林雨,你吃什么?", "tokens": ["リンさん", "は", "何", "を", "食べますか。"], "items": ["ja.san", "ja.wa_p", "ja.nani", "ja.wo_p", "ja.taberu", "ja.ka_p"] },
-    { "speaker": "rin", "text": "魚と ご飯を 食べます。けんたさんは?", "reading": "さかなと ごはんを たべます。けんたさんは?", "zh": "我吃鱼和米饭。你呢?", "tokens": ["魚", "と", "ご飯", "を", "食べます。", "けんたさん", "は?"], "items": ["ja.sakana", "ja.to_p", "ja.gohan", "ja.wo_p", "ja.taberu", "ja.san", "ja.wa_p"] },
+    { "speaker": "kenta", "text": "リンさんは 何を 食べますか。", "reading": "リンさんは なにを たべますか。", "zh": "(中午,健太带林雨去大学食堂)林雨同学,你吃什么?", "tokens": ["リンさん", "は", "何", "を", "食べますか。"], "items": ["ja.san", "ja.wa_p", "ja.nani", "ja.wo_p", "ja.taberu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "魚と ご飯を 食べます。けんたさんは?", "reading": "さかなと ごはんを たべます。けんたさんは?", "zh": "我吃鱼和米饭。健太同学呢?", "tokens": ["魚", "と", "ご飯", "を", "食べます。", "けんたさん", "は?"], "items": ["ja.sakana", "ja.to_p", "ja.gohan", "ja.wo_p", "ja.taberu", "ja.san", "ja.wa_p"] },
     { "speaker": "kenta", "text": "肉を 食べます。野菜は 食べません。", "reading": "にくを たべます。やさいは たべません。", "zh": "我吃肉。蔬菜嘛,不吃。", "tokens": ["肉", "を", "食べます。", "野菜", "は", "食べません。"], "items": ["ja.niku", "ja.wo_p", "ja.taberu", "ja.yasai", "ja.wa_p"] },
     { "speaker": "rin", "text": "大丈夫ですか。", "reading": "だいじょうぶですか。", "zh": "(不吃蔬菜)这样没问题吗?", "tokens": ["大丈夫ですか。"], "items": ["ja.daijoubu", "ja.desu", "ja.ka_p"] },
     { "speaker": "kenta", "text": "大丈夫です!", "reading": "だいじょうぶです!", "zh": "(笑)没问题!", "tokens": ["大丈夫です!"], "items": ["ja.daijoubu", "ja.desu"] },
     { "speaker": "kenta", "text": "中国の 学生も 大学で 食べますか。", "reading": "ちゅうごくの がくせいも だいがくで たべますか。", "zh": "中国的学生也在学校里吃饭吗?", "tokens": ["中国", "の", "学生", "も", "大学", "で", "食べますか。"], "items": ["ja.chuugoku", "ja.no_p", "ja.gakusei", "ja.mo_p", "ja.daigaku", "ja.de_p", "ja.taberu", "ja.ka_p"] },
     { "speaker": "rin", "text": "はい、大学で 食べます。", "reading": "はい、だいがくで たべます。", "zh": "对,在学校里吃。", "tokens": ["はい、", "大学", "で", "食べます。"], "items": ["ja.hai", "ja.daigaku", "ja.de_p", "ja.taberu"] },
-    { "speaker": "kenta", "text": "リンさん、お茶を 飲みますか。", "reading": "リンさん、おちゃを のみますか。", "zh": "(要去倒免费的茶)林雨,你喝茶吗?", "tokens": ["リンさん、", "お茶", "を", "飲みますか。"], "items": ["ja.san", "ja.ocha", "ja.wo_p", "ja.nomu", "ja.ka_p"] },
+    { "speaker": "kenta", "text": "リンさん、お茶を 飲みますか。", "reading": "リンさん、おちゃを のみますか。", "zh": "(要去倒免费的茶)林雨同学,你喝茶吗?", "tokens": ["リンさん、", "お茶", "を", "飲みますか。"], "items": ["ja.san", "ja.ocha", "ja.wo_p", "ja.nomu", "ja.ka_p"] },
     { "speaker": "rin", "text": "いいえ、水を 飲みます。", "reading": "いいえ、みずを のみます。", "zh": "不了,我喝水。", "tokens": ["いいえ、", "水", "を", "飲みます。"], "items": ["ja.iie", "ja.mizu", "ja.wo_p", "ja.nomu"] },
-    { "speaker": "kenta", "text": "はい、どうぞ。", "zh": "(端来一杯水)给,请。", "tokens": ["はい、", "どうぞ。"], "items": ["ja.hai", "ja.douzo"] }
+    { "speaker": "kenta", "text": "はい、どうぞ。", "zh": "(端来一杯水)给你。", "tokens": ["はい、", "どうぞ。"], "items": ["ja.hai", "ja.douzo"] }
   ],
   "questions": [
     { "prompt": "健太不吃什么?", "options": ["蔬菜", "肉", "米饭"], "answer": 0, "explainZh": "健太说:肉を 食べます。野菜は 食べません。(我吃肉,蔬菜不吃。)" },

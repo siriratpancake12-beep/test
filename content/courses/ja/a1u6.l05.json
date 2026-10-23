@@ -1,0 +1,53 @@
+{
+  "id": "ja.a1u6.l05", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106050,
+  "titleZh": "你怎么来学校?", "goalZh": "会说怎么来、怎么回、要花多长时间",
+  "canDoZh": "能说自己怎么上学、要花多长时间,能问别人“怎么来的?”“要多久?”",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "ja.kuru", "kind": "word", "pos": "verb", "text": "来ます", "zh": "来", "features": { "reading": "きます", "pitch": 2 }, "noteZh": "辞书形 来る(くる,不规则动词)。第 2 单元的 から来ました 就是它的过去形。来ます 读 きます,不读 くます。" },
+    { "id": "ja.kaeru", "kind": "word", "pos": "verb", "text": "帰ります", "zh": "回(家、国)", "features": { "reading": "かえります", "pitch": 4 }, "noteZh": "只用于回到自己的地方:家へ 帰ります、中国へ 帰ります。辞书形 帰る(一类动词,虽然以 える 结尾)。" },
+    { "id": "ja.basu", "kind": "word", "pos": "noun", "text": "バス", "zh": "公交车", "features": { "pitch": 1 }, "noteZh": "公交车站叫 バス停(バスてい)。バ 是浊音,不要读成 パス(パス 是“通行证”)。" },
+    { "id": "ja.jitensha", "kind": "word", "pos": "noun", "text": "自転車", "zh": "自行车", "features": { "reading": "じてんしゃ", "pitch": 2 }, "noteZh": "日本学生上学常骑自行车:自転車で 来ます。和中文“自行车”只差一个字,读音是 じてんしゃ。" },
+    { "id": "ja.aruite", "kind": "word", "pos": "adv", "text": "歩いて", "zh": "走着;步行", "features": { "reading": "あるいて", "pitch": 2 }, "noteZh": "动词 歩く(走路)的て形,当副词用:歩いて 来ます(走着来)。不说 ✗ 足で 来ます。" },
+    { "id": "ja.ie", "kind": "word", "pos": "noun", "text": "家", "zh": "家;房子", "alt": ["うち"], "features": { "reading": "いえ", "pitch": 2 }, "noteZh": "口语说自己家常用 うち:うちへ 帰ります。家 单独读 いえ,不读 か(か 是 家族 里的读法)。" },
+    { "id": "ja.gakkou", "kind": "word", "pos": "noun", "text": "学校", "zh": "学校", "features": { "reading": "がっこう", "pitch": 0 }, "noteZh": "有促音和长音:が・っ・こ・う 4 拍。" },
+    { "id": "ja.jikan", "kind": "word", "pos": "noun", "text": "時間", "zh": "时间;……小时", "features": { "reading": "じかん", "pitch": 0 }, "noteZh": "“时间”和“……个小时”都用 時間:1時間 = 1 小时。注意 時(几点)和 時間(几小时)不同:1時 是 1 点。" },
+    { "id": "ja.kakaru", "kind": "word", "pos": "verb", "text": "かかります", "zh": "花费(时间、钱)", "features": { "pitch": 4 }, "noteZh": "電車で 30分 かかります(坐电车要 30 分钟)。时间后面直接接 かかります,不加助词。辞书形 かかる(一类动词)。" }
+  ],
+  "reviewItems": ["ja.densha", "ja.e_p", "ja.fun", "ja.de_p"],
+  "lines": [
+    { "speaker": "tanaka", "text": "リンさんは何で学校へ来ますか。", "zh": "(课上)林雨,你怎么来学校?", "reading": "リンさんはなにでがっこうへきますか。", "tokens": ["リン", "さん", "は", "何", "で", "学校", "へ", "来ますか。"], "items": ["ja.san", "ja.wa_p", "ja.nani", "ja.de_p", "ja.gakkou", "ja.e_p", "ja.kuru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "自転車で来ます。", "zh": "我骑自行车来。", "reading": "じてんしゃできます。", "tokens": ["自転車", "で", "来ます。"], "items": ["ja.jitensha", "ja.de_p", "ja.kuru"] },
+    { "speaker": "tanaka", "text": "家から学校まで何分かかりますか。", "zh": "从家到学校要多少分钟?", "reading": "いえからがっこうまでなんぷんかかりますか。", "tokens": ["家", "から", "学校", "まで", "何分", "かかりますか。"], "items": ["ja.ie", "ja.kara_p", "ja.gakkou", "ja.made_p", "ja.nani", "ja.fun", "ja.kakaru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "自転車で15分かかります。", "zh": "骑车要 15 分钟。", "reading": "じてんしゃでじゅうごふんかかります。", "tokens": ["自転車", "で", "15分", "かかります。"], "items": ["ja.jitensha", "ja.de_p", "ja.juu", "ja.go", "ja.fun", "ja.kakaru"] },
+    { "speaker": "jiu", "text": "わたしも自転車です。", "zh": "我也骑自行车。(智友和林雨住在一起)", "reading": "わたしもじてんしゃです。", "tokens": ["わたし", "も", "自転車", "です。"], "items": ["ja.watashi", "ja.mo_p", "ja.jitensha", "ja.desu"] },
+    { "speaker": "tanaka", "text": "キットさんは?", "zh": "基特呢?", "tokens": ["キット", "さん", "は?"], "items": ["ja.san", "ja.wa_p"] },
+    { "speaker": "kurasumeito", "text": "わたしは歩いて来ます。10分かかります。", "zh": "我走路来,要 10 分钟。", "reading": "わたしはあるいてきます。じゅっぷんかかります。", "tokens": ["わたし", "は", "歩いて", "来ます。", "10分", "かかります。"], "items": ["ja.watashi", "ja.wa_p", "ja.aruite", "ja.kuru", "ja.juu", "ja.fun", "ja.kakaru"] },
+    { "speaker": "rin", "text": "先生は何で来ますか。", "zh": "老师您怎么来?", "reading": "せんせいはなにできますか。", "tokens": ["先生", "は", "何", "で", "来ますか。"], "items": ["ja.sensei", "ja.wa_p", "ja.nani", "ja.de_p", "ja.kuru", "ja.ka_p"] },
+    { "speaker": "tanaka", "text": "わたしは電車とバスで来ます。1時間かかります。", "zh": "我坐电车和公交车来,要 1 个小时。", "reading": "わたしはでんしゃとバスできます。いちじかんかかります。", "tokens": ["わたし", "は", "電車", "と", "バス", "で", "来ます。", "1時間", "かかります。"], "items": ["ja.watashi", "ja.wa_p", "ja.densha", "ja.to_p", "ja.basu", "ja.de_p", "ja.kuru", "ja.ichi", "ja.jikan", "ja.kakaru"] },
+    { "speaker": "jiu", "text": "リンさん、12時半です。家へ帰りましょう。", "zh": "(下课后)林雨,12 点半了。我们回家吧。", "reading": "リンさん、じゅうにじはんです。いえへかえりましょう。", "tokens": ["リン", "さん、", "12時半", "です。", "家", "へ", "帰りましょう。"], "items": ["ja.san", "ja.juu", "ja.ni", "ja.ji", "ja.han", "ja.desu", "ja.ie", "ja.e_p", "ja.kaeru"] }
+  ],
+  "questions": [
+    { "prompt": "林雨怎么来学校?要多长时间?", "options": ["走路来,10 分钟", "骑自行车,15 分钟", "坐电车和公交车,1 个小时"], "answer": 1, "explainZh": "林雨说:自転車で来ます。自転車で15分かかります。走路 10 分钟的是基特,1 个小时的是田中老师。" },
+    { "prompt": "田中老师怎么来学校?", "options": ["坐电车和公交车", "骑自行车", "走路"], "answer": 0, "explainZh": "田中老师说:わたしは電車とバスで来ます。1時間かかります。" },
+    { "prompt": "谁是走路来学校的?", "options": ["智友", "田中老师", "基特"], "answer": 2, "explainZh": "基特说:わたしは歩いて来ます。智友说 わたしも自転車です,和林雨一样骑车。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u6_nanide", "titleZh": "何で来ますか:交通工具 + で / 歩いて",
+      "bodyZh": "问怎么来、怎么去:何で来ますか(なにで,坐什么来?)。回答:交通工具 + で + 来ます:自転車で来ます、電車とバスで来ます。走路来说 歩いて来ます(歩いて = 走着),不说 ✗ 足で来ます。\n何で 也可以读 なんで,但 なんで 还有“为什么”的意思,问交通方式说 なにで 更清楚。\n语序:学校へ + 自転車で + 来ます,动词总在最后;中文说“骑车来学校”,日语说 自転車で学校へ来ます。",
+      "examples": [
+        { "text": "何で学校へ来ますか。", "zh": "你怎么来学校?(なにでがっこうへきますか)" },
+        { "text": "自転車で来ます。", "zh": "骑自行车来。(じてんしゃできます)" },
+        { "text": "わたしは歩いて来ます。", "zh": "我走路来。(わたしはあるいてきます)" }
+      ] },
+    { "id": "ja.g.u6_kakaru", "titleZh": "〜分 / 〜時間 かかります;行きます・来ます・帰ります",
+      "bodyZh": "花多长时间:时间 + かかります。15分かかります(要 15 分钟)、1時間かかります(要 1 个小时)。问:何分かかりますか / 何時間かかりますか。从哪儿到哪儿:家から学校まで15分かかります。中文的“要、花”在时间前面,日语的 かかります 在时间后面,中间不加助词。注意:1時 是“1 点”,1時間 是“1 个小时”。\n行きます、来ます、帰ります:行きます = 去(离开说话的地方),来ます = 来(到说话人这儿来),帰ります = 回(自己的家、自己的国家)。在学校问同学“你怎么来学校”说 来ますか;放学回家说 家へ帰ります,不说 ✗ 家へ行きます。",
+      "examples": [
+        { "text": "家から学校まで15分かかります。", "zh": "从家到学校要 15 分钟。(いえからがっこうまでじゅうごふんかかります)" },
+        { "text": "1時間かかります。", "zh": "要 1 个小时。(いちじかんかかります)" },
+        { "text": "家へ帰ります。", "zh": "回家。(いえへかえります)" }
+      ] }
+  ],
+  "review": "draft"
+}

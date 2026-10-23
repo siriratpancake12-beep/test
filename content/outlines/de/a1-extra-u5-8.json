@@ -1,0 +1,269 @@
+{
+  "lang": "de",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-5 时间与日程", "cefr": "A1", "themeZh": "冬季学期开学:钟点、星期和课表、一天的安排、约时间、生日和秋冬的月份、聚会邀请;钟点表达、时间介词 um / am / im、可分动词、时间放句首的语序、情态动词 können / müssen / wollen。" },
+    { "unit": "A1-6 城市与交通", "cefr": "A1", "themeZh": "在柏林出行:城市里的地方、坐什么车、问路和指路、买车票、坐火车去汉堡、写路线;介词 in / an / mit / zu / nach + 第三格入门、Sie 的命令式、fahren 的变位、可分动词 ein- / aus- / umsteigen。" },
+    { "unit": "A1-7 购物与办事", "cefr": "A1", "themeZh": "柏林的冬天:买衣服(颜色、尺码、价格)、银行开户填表、邮局寄包裹回中国、打电话预约考试、春夏的月份;第四格人称代词 ihn / sie / es、finden + 形容词、物主冠词 Ihr、介词 für / von / bis。" },
+    { "unit": "A1-8 健康与周末", "cefr": "A1", "themeZh": "春天到夏天:爱好、天气和季节、身体哪里疼、看医生和买药、说上周末做了什么、回顾在德国的第一年;Sie 的命令式和 müssen 复习、现在完成时入门(haben / sein + 过去分词)、war / hatte。" }
+  ],
+  "lessons": [
+    {
+      "id": "de.a1u5.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105045,
+      "titleZh": "电影院的放映表", "goalZh": "看懂一周的电影放映表:星期几、几点、片长和票价,选出合适的一场",
+      "canDoZh": "能看懂电影院的一周放映表,找出哪天几点放哪部电影、多长时间、票价多少",
+      "scenarioZh": "体裁:电影院网站上的放映表(影院不写真实名称)。约好看电影以后,王伟和莉娜在手机上查放映表:三部电影,每部写着星期几、几点开始(24 小时制,如 20:15)、片长几个小时和票价,周二票价便宜;最后是王伟发给莉娜的一句话:哪一场最合适。Minute 第 6 单元才教,片长用 zwei Stunden 这样的说法。说话人:narrator(放映表)、wei(最后一句)。",
+      "grammarFocusZh": "复习:am + 星期、um + 钟点、正式的钟点说法(zwanzig Uhr fünfzehn)和价格;können 的用法(Am Dienstag können wir …)",
+      "skills": ["read"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "de.kinokarte", "kind": "word", "pos": "noun", "text": "die Kinokarte", "zh": "电影票", "features": { "gender": "f", "plural": "die Kinokarten", "ipa": "ˈkiːnoˌkaʁtə" }, "noteZh": "das Kino(电影院)+ die Karte(卡、票);复合词的性跟着最后一个词走,所以是 die Kinokarte。口语里也常只说 die Karte:Ich habe zwei Karten." },
+        { "id": "de.lang", "kind": "word", "pos": "adj", "text": "lang", "zh": "长;(时间)长", "features": { "ipa": "laŋ" }, "noteZh": "ng 读 [ŋ],g 不单独发音;说片长、时长:Der Film ist zwei Stunden lang.(电影两个小时长。)" }
+      ],
+      "reviewItems": ["de.kino", "de.film", "de.stunde", "de.koennen"]
+    },
+    {
+      "id": "de.a1u5.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105060,
+      "titleZh": "语音留言:改个时间", "goalZh": "听懂改时间的语音留言,会用 Vormittag / Mittag / Nachmittag、treffen、mitbringen 回复和重新约",
+      "canDoZh": "能听懂朋友语音留言里的原因和新时间,并用语音回复同意或者再商量",
+      "scenarioZh": "周六中午(am Mittag),王伟收到莉娜的语音留言(die Nachricht):她上午(am Vormittag)在书店上班,今天人多,下午四点来不了,五点半可以;电影六点开始,她问能不能五点半在电影院门口见(treffen),票她会带来(mitbringen)。王伟听了两遍,回复 Kein Problem, bis später!;后来索菲娅也想去,王伟又给莉娜留言,问能不能多买一张票。建议新词:der Vormittag、der Mittag、der Nachmittag、treffen、mitbringen、später、die Nachricht。说话人:lena、wei。",
+      "grammarFocusZh": "语音留言的结构(称呼 → 原因 → 新时间 → 请对方回复);können / müssen 复习(Ich kann leider nicht um vier. Ich muss noch arbeiten.);später 和 Bis später!",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "newItems": [
+        { "id": "de.vormittag", "kind": "word", "pos": "noun", "text": "der Vormittag", "zh": "上午", "features": { "gender": "m", "plural": "die Vormittage", "ipa": "ˈfoːɐ̯mɪˌtaːk" }, "noteZh": "vor(在……之前)+ Mittag(中午)= 上午;am Vormittag(在上午)。v 读 [f],词尾的 g 读 [k]。" },
+        { "id": "de.mittag", "kind": "word", "pos": "noun", "text": "der Mittag", "zh": "中午", "features": { "gender": "m", "plural": "die Mittage", "ipa": "ˈmɪtaːk" }, "noteZh": "am Mittag(在中午);德国人说的 Mittag 大约是 12 点到 14 点,也是吃午饭的时间。词尾 g 读 [k]。" },
+        { "id": "de.nachmittag", "kind": "word", "pos": "noun", "text": "der Nachmittag", "zh": "下午", "features": { "gender": "m", "plural": "die Nachmittage", "ipa": "ˈnaːxmɪˌtaːk" }, "noteZh": "nach(在……之后)+ Mittag = 下午;ch 在 a 后面读 [x],和汉语拼音 h 差不多。一天的时段:der Morgen – der Vormittag – der Mittag – der Nachmittag – der Abend,前面都用 am。" },
+        { "id": "de.treffen", "kind": "word", "pos": "verb", "text": "treffen", "zh": "见面;碰到", "features": { "ipa": "ˈtʁɛfn̩" }, "noteZh": "不规则:ich treffe, du triffst, er trifft;Ich treffe Lena.(我和莉娜见面。)约时间常说 Treffen wir uns um halb sechs?(我们五点半见?),这里的 uns 先当固定说法记。" },
+        { "id": "de.mitbringen", "kind": "word", "pos": "verb", "text": "mitbringen", "zh": "带来;带上", "features": { "ipa": "ˈmɪtˌbʁɪŋən" }, "noteZh": "可分动词,重音在 mit 上,mit 放句末:Ich bringe die Karten mit.(票我带来。)bringen 是规则变化:ich bringe, du bringst, er bringt。" },
+        { "id": "de.spaeter", "kind": "word", "pos": "adv", "text": "später", "zh": "晚一点;以后", "features": { "ipa": "ˈʃpɛːtɐ" }, "noteZh": "spät(晚)的比较级,常单独当副词用:Ich komme später.(我晚点来。)sp 在词首读 [ʃp],ä 读长音 [ɛː]。" },
+        { "id": "de.nachricht", "kind": "word", "pos": "noun", "text": "die Nachricht", "zh": "消息;留言", "features": { "gender": "f", "plural": "die Nachrichten", "ipa": "ˈnaːxˌʁɪçt" }, "noteZh": "eine Nachricht schreiben(发消息);语音消息是 die Sprachnachricht。一个词里两种 ch:a 后面读 [x],i 后面读 [ç]。复数 die Nachrichten 也指“新闻”。" },
+        { "id": "de.bis_spaeter", "kind": "phrase", "pos": "phrase", "text": "Bis später!", "zh": "回头见!/待会儿见!", "features": { "ipa": "bɪs ˈʃpɛːtɐ" }, "noteZh": "当天还要再见面时说;bis 是“到……为止”,第 7 单元再单独学。说“明天见”是 Bis morgen!" },
+        { "id": "de.warten", "kind": "word", "pos": "verb", "text": "warten", "zh": "等;等候", "features": { "ipa": "ˈvaʁtn̩" }, "noteZh": "w 读 [v];词干以 t 结尾,du / er 前要加 e:du wartest, er wartet。Ich warte vor dem Kino.(我在电影院门口等。)" }
+      ],
+      "reviewItems": ["de.kinokarte", "de.kino", "de.muessen", "de.anfangen"]
+    },
+    {
+      "id": "de.a1u5.l07", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105070,
+      "titleZh": "秋冬的节日", "goalZh": "会说德国和中国秋冬节日的日期,会问别人过不过某个节日",
+      "canDoZh": "能说出德国和中国秋冬的主要节日在几月几号,问朋友过不过这些节日",
+      "scenarioZh": "十一月初的一个晚上,WG 厨房的日历上画着好几个节日。索菲娅和约纳斯给王伟讲:10 月 31 日 Halloween,11 月 11 日圣马丁节(孩子们提着灯笼唱歌),12 月的圣诞节(Weihnachten),12 月 31 日除夕(Silvester)和 1 月 1 日新年;王伟讲中国的春节(das Frühlingsfest)在一月或二月,中秋节在九月已经过了。大家互相问 Feierst du Weihnachten?。说话人:sofia、jonas、wei。",
+      "grammarFocusZh": "im + 月份、am + 日期复习(Silvester ist am einunddreißigsten Dezember);节日名称一般不加冠词(Weihnachten ist im Dezember);feiern 的变位",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "newItems": [
+        { "id": "de.weihnachten", "kind": "word", "pos": "propn", "text": "Weihnachten", "zh": "圣诞节", "features": { "ipa": "ˈvaɪ̯naxtn̩" }, "noteZh": "节日名称一般不加冠词:Weihnachten ist im Dezember.;最重要的是 12 月 24 日晚上(平安夜),德国人一般和家人一起过。w 读 [v],ei 读 [aɪ]。" },
+        { "id": "de.silvester", "kind": "word", "pos": "propn", "text": "Silvester", "zh": "跨年夜(12 月 31 日)", "features": { "ipa": "zɪlˈvɛstɐ" }, "noteZh": "不加冠词:Silvester ist am 31. Dezember.;重音在 ves 上,开头的 s 读 [z]。中国的除夕是春节前一天,和 Silvester 不是同一天。" },
+        { "id": "de.fest", "kind": "word", "pos": "noun", "text": "das Fest", "zh": "节日;庆祝活动", "features": { "gender": "n", "plural": "die Feste", "ipa": "fɛst" }, "noteZh": "中性:das Fest;很多节日名称带 -fest:das Frühlingsfest(春节)、das Mondfest(中秋节)。e 是短音。" },
+        { "id": "de.fruehlingsfest", "kind": "word", "pos": "noun", "text": "das Frühlingsfest", "zh": "春节", "features": { "gender": "n", "plural": "die Frühlingsfeste", "ipa": "ˈfʁyːlɪŋsˌfɛst" }, "noteZh": "直译“春天的节日”,也说 das chinesische Neujahrsfest;重音在 Früh 上,ü 嘴唇撅圆。春节在一月或二月,日子每年不一样。" },
+        { "id": "de.mondfest", "kind": "word", "pos": "noun", "text": "das Mondfest", "zh": "中秋节", "features": { "gender": "n", "plural": "die Mondfeste", "ipa": "ˈmoːntˌfɛst" }, "noteZh": "der Mond(月亮)+ das Fest;词尾的 d 读 [t]。月饼是 der Mondkuchen。" },
+        { "id": "de.feiern", "kind": "word", "pos": "verb", "text": "feiern", "zh": "庆祝;过(节、生日)", "features": { "ipa": "ˈfaɪ̯ɐn" }, "noteZh": "ich feiere, du feierst, er feiert, wir feiern;Feierst du Weihnachten?(你过圣诞节吗?)ei 读 [aɪ],词尾 -ern 的 e 很轻。" },
+        { "id": "de.singen", "kind": "word", "pos": "verb", "text": "singen", "zh": "唱;唱歌", "features": { "ipa": "ˈzɪŋən" }, "noteZh": "s 在元音前读 [z](浊音),ng 读 [ŋ];规则变化:ich singe, du singst, er singt。" },
+        { "id": "de.bei", "kind": "word", "pos": "prep", "text": "bei", "zh": "在……那里(家里);在……时", "features": { "ipa": "baɪ̯" }, "noteZh": "bei + 人 = 在某人那里、在某人家:bei Lena(在莉娜家)、bei meiner Familie(在我家里);后面接第三格,先当固定说法记。" }
+      ],
+      "reviewItems": ["de.dezember", "de.januar", "de.november", "de.am"]
+    },
+    {
+      "id": "de.a1u5.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-5 时间与日程", "order": 105085,
+      "titleZh": "德国人怎么过生日", "goalZh": "读懂介绍德国生日习俗的短文,能和中国的习俗作比较",
+      "canDoZh": "能读懂一篇介绍德国生日习俗的短文,说出和中国不一样的地方",
+      "scenarioZh": "体裁:文化介绍短文(德语课的阅读材料)。约纳斯的派对以后,瓦格纳老师在课上发了一篇短文:在德国,过生日的人常常自己请大家吃蛋糕,也会把蛋糕带到学校或单位;生日以前不能说祝福,要等到当天;大家唱生日歌、送小礼物,说 Herzlichen Glückwunsch! 或 Alles Gute zum Geburtstag!;18 岁生日特别重要。最后两句是王伟的感想:在中国,过生日要吃长寿面。说话人:narrator(短文)、wei(最后两句)。",
+      "grammarFocusZh": "复习:日期和序数词、可分动词(einladen:Er lädt seine Freunde ein)、müssen / können;Alles Gute zum Geburtstag! 当固定说法",
+      "skills": ["read"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "de.wichtig", "kind": "word", "pos": "adj", "text": "wichtig", "zh": "重要", "features": { "ipa": "ˈvɪçtɪç" }, "noteZh": "w 读 [v];ch 和词尾的 -ig 都读 [ç](-ig 和 zwanzig 的读法一样)。Das ist sehr wichtig!" },
+        { "id": "de.leben", "kind": "word", "pos": "noun", "text": "das Leben", "zh": "生命;生活", "features": { "gender": "n", "plural": "die Leben", "ipa": "ˈleːbn̩" }, "noteZh": "大写的 das Leben 是名词;长寿面可以说 Nudeln für ein langes Leben(为了长寿吃的面)。复数不变。" }
+      ],
+      "reviewItems": ["de.geburtstag", "de.kuchen", "de.einladen", "de.herzlichen_glueckwunsch"]
+    },
+    {
+      "id": "de.a1u6.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106045,
+      "titleZh": "从波茨坦寄出的明信片", "goalZh": "读懂、也会写一张明信片:在哪儿、怎么去的、那里有什么",
+      "canDoZh": "能读懂、也能写一张明信片:在哪儿、怎么去的、那里有什么",
+      "scenarioZh": "体裁:明信片。周日在波茨坦,王伟给没一起来的索菲娅写明信片(德语课也布置了写明信片的作业):他和莉娜坐 S-Bahn 来,中途换了一次车,在站台等了十分钟(warten 作新词);波茨坦有大公园、宫殿(das Schloss 可作新词)和博物馆;下午坐车回柏林。Liebe Sofia … Viele Grüße。完成时第 8 单元才教,用现在时写正在做的事。说话人:wei(明信片)。",
+      "grammarFocusZh": "复习:mit der S-Bahn / in Potsdam / nach Berlin 和可分动词 umsteigen(Wir steigen in … um);明信片的格式(Liebe … / Viele Grüße)",
+      "skills": ["read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "de.schloss", "kind": "word", "pos": "noun", "text": "das Schloss", "zh": "宫殿;城堡;锁", "features": { "gender": "n", "plural": "die Schlösser", "ipa": "ʃlɔs" }, "noteZh": "复数变元音:die Schlösser;sch 读 [ʃ],o 是短音。波茨坦有很多宫殿和大公园。" },
+        { "id": "de.postkarte", "kind": "word", "pos": "noun", "text": "die Postkarte", "zh": "明信片", "features": { "gender": "f", "plural": "die Postkarten", "ipa": "ˈpɔstˌkaʁtə" }, "noteZh": "die Post + die Karte;写明信片和写邮件一样:开头 Liebe … / Lieber …,结尾 Viele Grüße。" }
+      ],
+      "reviewItems": ["de.warten", "de.umsteigen", "de.s_bahn", "de.viele_gruesse"]
+    },
+    {
+      "id": "de.a1u6.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106060,
+      "titleZh": "查票了!——在去汉堡的火车上", "goalZh": "坐火车遇到查票能出示车票、听懂查票员的话,会请对方稍等、问几点到",
+      "canDoZh": "能在车上应对查票:出示车票,听懂查票员的问题,说明自己的情况",
+      "scenarioZh": "接 u6.l05:王伟和约纳斯坐上了去汉堡的城际快车(ICE;柏林大学生的学期票只管区域交通,坐 ICE 要另外买票,票是王伟在窗口买的往返票)。两人找到座位(der Platz),女查票员来了:Fahrkartenkontrolle! Die Fahrkarten, bitte!;票在王伟这儿,他一下子找不到,请她稍等(Moment, bitte!)——原来在包(die Tasche)里;他把票给她看(zeigen),顺便问几点到汉堡;查票员说晚点十分钟,16:50 到,Gute Fahrt!;约纳斯趁机开玩笑吓唬王伟,又说明天带他去看港口(der Hafen)、坐渡船(die Fähre)。说话人:kontrolleurin、jonas、wei。",
+      "grammarFocusZh": "Sie 的命令式和礼貌请求复习(Warten Sie bitte einen Moment!);可分动词 ankommen / aussteigen 复习(Wann kommen wir in Hamburg an?);查票的固定说法(Die Fahrkarten, bitte! / Gute Fahrt!)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "newItems": [
+        { "id": "de.kontrolle", "kind": "word", "pos": "noun", "text": "die Kontrolle", "zh": "检查;查验", "features": { "gender": "f", "plural": "die Kontrollen", "ipa": "kɔnˈtʁɔlə" }, "noteZh": "重音在 trol 上;车上查票时会听到 Fahrkartenkontrolle!(查票!);机场的护照检查是 die Passkontrolle。" },
+        { "id": "de.zeigen", "kind": "word", "pos": "verb", "text": "zeigen", "zh": "给……看;出示", "features": { "ipa": "ˈtsaɪ̯ɡn̩" }, "noteZh": "z 读 [ts],ei 读 [aɪ];Ich zeige Ihnen die Fahrkarten.(我给您看车票。)Morgen zeige ich dir den Hafen.(明天我带你去看港口。)" },
+        { "id": "de.tasche", "kind": "word", "pos": "noun", "text": "die Tasche", "zh": "包;口袋", "features": { "gender": "f", "plural": "die Taschen", "ipa": "ˈtaʃə" }, "noteZh": "in der Tasche(在包里、在口袋里);sch 读 [ʃ]。" },
+        { "id": "de.moment", "kind": "word", "pos": "noun", "text": "der Moment", "zh": "一会儿;片刻", "features": { "gender": "m", "plural": "die Momente", "ipa": "moˈmɛnt" }, "noteZh": "重音在后;请别人等一下:Moment, bitte! / Einen Moment, bitte!(请稍等!)" },
+        { "id": "de.platz", "kind": "word", "pos": "noun", "text": "der Platz", "zh": "座位;位子;广场", "features": { "gender": "m", "plural": "die Plätze", "ipa": "plats" }, "noteZh": "tz 读 [ts];火车上的座位、办事大厅里的“几号窗口”都叫 Platz;复数变元音 die Plätze;Alexanderplatz 里的 Platz 是“广场”。" },
+        { "id": "de.gute_fahrt", "kind": "phrase", "pos": "phrase", "text": "Gute Fahrt!", "zh": "一路顺风!(坐车、开车时说)", "features": { "ipa": "ˈɡuːtə ˈfaːɐ̯t" }, "noteZh": "die Fahrt(乘车、行驶)来自 fahren;出远门、旅行也常说 Gute Reise!" },
+        { "id": "de.hafen", "kind": "word", "pos": "noun", "text": "der Hafen", "zh": "港口", "features": { "gender": "m", "plural": "die Häfen", "ipa": "ˈhaːfn̩" }, "noteZh": "复数变元音:die Häfen;zum Hafen(去港口)= zu dem Hafen。汉堡港是德国最大的港口。" },
+        { "id": "de.faehre", "kind": "word", "pos": "noun", "text": "die Fähre", "zh": "渡船;轮渡", "features": { "gender": "f", "plural": "die Fähren", "ipa": "ˈfɛːʁə" }, "noteZh": "ä 读长音 [ɛː];mit der Fähre fahren(坐渡船)。在汉堡,港口的渡船也是公共交通。" }
+      ],
+      "reviewItems": ["de.fahrkarte", "de.aussteigen", "de.ankommen", "de.verspaetung"]
+    },
+    {
+      "id": "de.a1u6.l07", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106070,
+      "titleZh": "汉堡的圣诞市场", "goalZh": "会在圣诞市场的小摊上问价、点吃的喝的,听不清价格时请对方再说一遍",
+      "canDoZh": "能在圣诞市场的小摊上问价、买吃的喝的,说出圣诞市场上常见的东西",
+      "scenarioZh": "傍晚,约纳斯带王伟去汉堡市中心的圣诞市场:到处是小摊(der Stand)、灯和音乐;他们买了不含酒精的热果汁(der Kinderpunsch)、烤香肠(die Bratwurst)和姜饼(der Lebkuchen),王伟还想给成都的家里买一个小礼物。女店员说得快,王伟请她再说一遍价格。Weihnachten 在 u5.l07 学过。说话人:verkaeuferin、wei、jonas。",
+      "grammarFocusZh": "复习:Was kostet …? / Ich nehme … + 第四格和量词(eine Tasse Kinderpunsch);复合词 Weihnachtsmarkt = Weihnachten + Markt,重音在第一部分",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "newItems": [
+        { "id": "de.weihnachtsmarkt", "kind": "word", "pos": "noun", "text": "der Weihnachtsmarkt", "zh": "圣诞市场", "features": { "gender": "m", "plural": "die Weihnachtsmärkte", "ipa": "ˈvaɪ̯naxtsˌmaʁkt" }, "noteZh": "Weihnachten + Markt,中间的 -s- 是连接音;复合词重音在第一部分(WEIH-),性跟着最后一个词(der Markt)。一般从 11 月底开到圣诞节前。" },
+        { "id": "de.markt", "kind": "word", "pos": "noun", "text": "der Markt", "zh": "市场;集市", "features": { "gender": "m", "plural": "die Märkte", "ipa": "maʁkt" }, "noteZh": "复数变元音:die Märkte;rkt 几个辅音要连着读,不要加元音读成“马尔克特”。" },
+        { "id": "de.stand", "kind": "word", "pos": "noun", "text": "der Stand", "zh": "小摊;摊位", "features": { "gender": "m", "plural": "die Stände", "ipa": "ʃtant" }, "noteZh": "st 在词首读 [ʃt];词尾 d 读 [t];复数变元音:die Stände。" },
+        { "id": "de.kinderpunsch", "kind": "word", "pos": "noun", "text": "der Kinderpunsch", "zh": "热果汁饮料(不含酒精)", "features": { "gender": "m", "plural": "-", "ipa": "ˈkɪndɐˌpʊnʃ" }, "noteZh": "Kinder(孩子们)+ Punsch:用果汁和香料煮的热饮,不含酒精,大人也常喝;一般说 eine Tasse Kinderpunsch。" },
+        { "id": "de.bratwurst", "kind": "word", "pos": "noun", "text": "die Bratwurst", "zh": "烤香肠", "features": { "gender": "f", "plural": "die Bratwürste", "ipa": "ˈbʁaːtˌvʊʁst" }, "noteZh": "braten(烤、煎)+ die Wurst;复数变元音 Würste;常夹在小面包里吃:eine Bratwurst im Brötchen。" },
+        { "id": "de.lebkuchen", "kind": "word", "pos": "noun", "text": "der Lebkuchen", "zh": "姜饼(圣诞香料饼)", "features": { "gender": "m", "plural": "die Lebkuchen", "ipa": "ˈleːpˌkuːxn̩" }, "noteZh": "复数不变;b 在 k 前面读 [p]:Leb- 读 [leːp];圣诞季的传统点心,常做成心形。" },
+        { "id": "de.suess", "kind": "word", "pos": "adj", "text": "süß", "zh": "甜;可爱", "features": { "ipa": "zyːs" }, "noteZh": "s 在词首读 [z],ü 是长音,ß 读清音 [s];也常用来夸东西“可爱”:Das ist süß!" },
+        { "id": "de.frohe_weihnachten", "kind": "phrase", "pos": "phrase", "text": "Frohe Weihnachten!", "zh": "圣诞快乐!", "features": { "ipa": "ˈfʁoːə ˈvaɪ̯naxtn̩" }, "noteZh": "圣诞节前几天就可以说(和生日祝福不一样);也说 Schöne Weihnachten!" }
+      ],
+      "reviewItems": ["de.weihnachten", "de.geschenk", "de.tasse", "de.noch_einmal"]
+    },
+    {
+      "id": "de.a1u6.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-6 城市与交通", "order": 106085,
+      "titleZh": "跨年夜:坐夜班车回家", "goalZh": "读懂一篇写跨年夜的博客:时间、地点、做了什么、怎么回家",
+      "canDoZh": "能读懂一篇讲节日夜晚和出行的博客短文,说出时间、地点和交通",
+      "scenarioZh": "体裁:博客短文。12 月 31 日,王伟在莉娜家(Kreuzberg)跨年(bei 作新词:bei Lena / bei Lenas Familie,第三格先当固定说法):晚上一起吃饭、玩游戏,十二点大家到街上看烟花(das Feuerwerk),互相说 Frohes neues Jahr!;一点半,王伟坐夜班公交(der Nachtbus)和地铁回 Neukölln,车上人很多,很热闹。完成时第 8 单元才教,用现在时讲(Heute ist Silvester …)。说话人:wei(博客)。",
+      "grammarFocusZh": "复习:钟点(um Mitternacht / um halb zwei)、mit dem Bus / nach Hause、可分动词;时间放句首的语序(Um zwölf Uhr gibt es Feuerwerk)",
+      "skills": ["read"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "de.feuerwerk", "kind": "word", "pos": "noun", "text": "das Feuerwerk", "zh": "烟花;焰火", "features": { "gender": "n", "plural": "die Feuerwerke", "ipa": "ˈfɔɪ̯ɐˌvɛʁk" }, "noteZh": "eu 读 [ɔʏ];das Feuer(火)+ das Werk;在德国,一般只有跨年夜才放烟花。" },
+        { "id": "de.nacht", "kind": "word", "pos": "noun", "text": "die Nacht", "zh": "夜里;夜晚", "features": { "gender": "f", "plural": "die Nächte", "ipa": "naxt" }, "noteZh": "复数变元音:die Nächte;ch 在 a 后面读 [x];in der Nacht(在夜里)、Gute Nacht!(晚安!)、der Nachtbus(夜班公交)。" },
+        { "id": "de.frohes_neues_jahr", "kind": "phrase", "pos": "phrase", "text": "Frohes neues Jahr!", "zh": "新年快乐!", "features": { "ipa": "ˈfʁoːəs ˈnɔɪ̯əs ˈjaːɐ̯" }, "noteZh": "12 月 31 日午夜以后到一月初都可以说;也说 Ein gutes neues Jahr!;词尾 -es 跟着中性的 das Jahr。" },
+        { "id": "de.voll", "kind": "word", "pos": "adj", "text": "voll", "zh": "满;(人)很多", "features": { "ipa": "fɔl" }, "noteZh": "v 读 [f];Der Bus ist voll.(车上人很多。)" }
+      ],
+      "reviewItems": ["de.silvester", "de.bei", "de.u_bahn", "de.nach_hause"]
+    },
+    {
+      "id": "de.a1u7.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107045,
+      "titleZh": "冬季打折广告", "goalZh": "看懂打折广告里的商品、颜色、尺码、原价、现价和截止日期",
+      "canDoZh": "能看懂商场打折广告里的商品、颜色、尺码、原价和现价",
+      "scenarioZh": "体裁:商场的打折广告(商场不写真实名称)。一月是冬季打折季,莉娜把广告发给王伟:夹克、毛衣、裤子、鞋打五折或七折(minus 50 Prozent,das Prozent 可作新词),写着颜色、尺码、原价和现价,还有一句“只到 1 月 31 日”。最后是王伟回复莉娜的一句话:想去看哪件。说话人:narrator(广告文字)、wei(最后一句)。",
+      "grammarFocusZh": "复习:颜色、Größe、价格、für(für Damen / für Herren)和 bis(bis zum 31. Januar 当固定说法);形容词放在名词前面的词尾 A2 才讲,广告用“名词 + 颜色”的写法(Jacke, schwarz, 49 Euro)",
+      "skills": ["read"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "de.prozent", "kind": "word", "pos": "noun", "text": "das Prozent", "zh": "百分之……", "features": { "gender": "n", "plural": "die Prozente", "ipa": "pʁoˈtsɛnt" }, "noteZh": "重音在后;数字后面用单数:50 Prozent;打折广告写 minus 30 Prozent(-30 %)是便宜 30%,也就是中文说的“七折”,不是“三折”!" },
+        { "id": "de.dame", "kind": "word", "pos": "noun", "text": "die Dame", "zh": "女士", "features": { "gender": "f", "plural": "die Damen", "ipa": "ˈdaːmə" }, "noteZh": "商场里分 Damen(女装)和 Herren(男装);Meine Damen und Herren!(女士们,先生们!)" },
+        { "id": "de.kleid", "kind": "word", "pos": "noun", "text": "das Kleid", "zh": "连衣裙", "features": { "gender": "n", "plural": "die Kleider", "ipa": "klaɪ̯t" }, "noteZh": "词尾 d 读 [t];别和 die Kleidung(衣服的总称)混了。" }
+      ],
+      "reviewItems": ["de.jacke", "de.groesse", "de.bis", "de.kaufhaus"]
+    },
+    {
+      "id": "de.a1u7.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107060,
+      "titleZh": "在外管局申请居留", "goalZh": "能在外管局办居留手续:听懂叫号,交材料,用 seit 说从什么时候起住在这里",
+      "canDoZh": "能在外管局这类办事处办手续:听懂叫号,交上护照和材料,回答从什么时候起住在哪里、在德国做什么",
+      "scenarioZh": "王伟的入境签证(das Visum)到 2 月 28 日。一月他预约了外管局(die Ausländerbehörde),带着护照、十月办住址登记(die Anmeldung)时拿到的登记证明、大学的注册证明和填好的表格,去申请居留许可(die Aufenthaltserlaubnis)。大厅里叫号(Die Nummer 125, bitte zu Platz 3!);女工作人员问他的名字、什么时候来的德国、从什么时候起住在现在的地址(seit 作新词:Seit wann wohnen Sie in der Musterstraße? – Seit Oktober.)、在德国做什么;检查材料以后说居留卡六个星期后才好,先给他一张证明(die Bescheinigung)。本课在 l08 之前,不用 unterschreiben、geboren;完成时第 8 单元才教,问“什么时候来的”用 Seit wann sind Sie in Deutschland?。noteZh 提醒学习者:签证到期前要尽早预约外管局。说话人:durchsage(叫号)、mitarbeiterin、wei。",
+      "grammarFocusZh": "seit + 时间:从过去开始、现在还在继续的事用现在时(Ich wohne seit Oktober hier,不用过去时);复习物主冠词 Ihr(Ihren Pass, bitte! 当固定说法,第四格的物主冠词第 18 单元系统讲)、日期和 bis(bis zum 28. Februar)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "newItems": [
+        { "id": "de.auslaenderbehoerde", "kind": "word", "pos": "noun", "text": "die Ausländerbehörde", "zh": "外国人管理局(外管局)", "features": { "gender": "f", "plural": "die Ausländerbehörden", "ipa": "ˈaʊ̯slɛndɐbəˌhøːɐ̯də" }, "noteZh": "der Ausländer(外国人)+ die Behörde(政府机关);留学生办、延长居留都要去,一般要先在网上预约。ö 是圆唇长音。" },
+        { "id": "de.visum", "kind": "word", "pos": "noun", "text": "das Visum", "zh": "签证", "features": { "gender": "n", "plural": "die Visa", "ipa": "ˈviːzʊm" }, "noteZh": "复数特殊:die Visa;v 在外来词里读 [v],s 读 [z]。留学生的入境签证一般只有几个月,到期前要去外管局办居留许可。" },
+        { "id": "de.aufenthaltserlaubnis", "kind": "word", "pos": "noun", "text": "die Aufenthaltserlaubnis", "zh": "居留许可", "features": { "gender": "f", "plural": "die Aufenthaltserlaubnisse", "ipa": "ˈaʊ̯fʔɛnthaltsʔɛɐ̯ˌlaʊ̯pnɪs" }, "noteZh": "der Aufenthalt(居留)+ die Erlaubnis(许可),中间加 -s-;很长,先分成两半记:Aufenthalts | erlaubnis。-nis 结尾的名词这里是阴性。" },
+        { "id": "de.anmeldung", "kind": "word", "pos": "noun", "text": "die Anmeldung", "zh": "(住址)登记;报名", "features": { "gender": "f", "plural": "die Anmeldungen", "ipa": "ˈanˌmɛldʊŋ" }, "noteZh": "-ung 结尾的名词都是阴性。到德国住下以后要在两周内去市民局登记住址,拿到的登记证明办居留、开户都要用到。" },
+        { "id": "de.nummer", "kind": "word", "pos": "noun", "text": "die Nummer", "zh": "号码;号", "features": { "gender": "f", "plural": "die Nummern", "ipa": "ˈnʊmɐ" }, "noteZh": "叫号:Die Nummer 125, bitte!;电话号码是 die Handynummer;衣服大一号、小一号:eine Nummer größer / kleiner。" },
+        { "id": "de.seit", "kind": "word", "pos": "prep", "text": "seit", "zh": "自从;……以来", "features": { "ipa": "zaɪ̯t" }, "noteZh": "s 读 [z];Seit wann wohnen Sie hier?(您从什么时候起住在这儿?)从过去开始、现在还在继续的事,德语用现在时:Ich wohne seit Oktober hier.(我十月起就住这儿了。)中文说“已经……了”,德语不用过去时。" },
+        { "id": "de.bescheinigung", "kind": "word", "pos": "noun", "text": "die Bescheinigung", "zh": "证明(文件)", "features": { "gender": "f", "plural": "die Bescheinigungen", "ipa": "bəˈʃaɪ̯nɪɡʊŋ" }, "noteZh": "be- 不重读,重音在 schei 上;登记证明、学校的注册证明都叫 Bescheinigung,要好好保存。" }
+      ],
+      "reviewItems": ["de.termin", "de.pass", "de.formular", "de.platz"]
+    },
+    {
+      "id": "de.a1u7.l07", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107070,
+      "titleZh": "裤子太长了:去商场换货", "goalZh": "能带着小票去换货,说清楚哪里不合适、要换什么",
+      "canDoZh": "能拿着收据去商店换货,说清楚哪里不合适,要换哪个尺码或颜色",
+      "scenarioZh": "打折季王伟买了一条黑裤子,回家一试太长了。周六他带着收据(der Kassenbon)回到商场;男店员问哪里不合适、要换小一号还是换颜色(Möchten Sie sie umtauschen?);小一号的黑色卖完了,王伟换了一条蓝色的;店员提醒:打折商品只能换,不能退钱。说话人:verkaeufer、wei。",
+      "grammarFocusZh": "zu + 形容词复习(zu lang, zu kurz, zu groß);第四格代词 ihn / sie / es 指衣服(Ich nehme sie);umtauschen 是可分动词(Ich tausche die Hose um)",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "newItems": [
+        { "id": "de.umtauschen", "kind": "word", "pos": "verb", "text": "umtauschen", "zh": "换(货)", "features": { "ipa": "ˈʊmˌtaʊ̯ʃn̩" }, "noteZh": "可分动词,重音在 um 上:Ich tausche die Hose um.(我想换这条裤子。)换货是换一件别的,不是退钱;au 读 [aʊ]。" },
+        { "id": "de.kassenbon", "kind": "word", "pos": "noun", "text": "der Kassenbon", "zh": "购物小票", "features": { "gender": "m", "plural": "die Kassenbons", "ipa": "ˈkasn̩ˌbɔŋ" }, "noteZh": "die Kasse(收银台)+ der Bon(小票),bon 读 [bɔŋ];换货、退货都要带上。" },
+        { "id": "de.kurz", "kind": "word", "pos": "adj", "text": "kurz", "zh": "短", "features": { "ipa": "kʊʁts" }, "noteZh": "z 读 [ts];反义词 lang:zu kurz(太短)– zu lang(太长)。" },
+        { "id": "de.bekommen", "kind": "word", "pos": "verb", "text": "bekommen", "zh": "得到;收到", "features": { "ipa": "bəˈkɔmən" }, "noteZh": "be- 不重读、也不能拆开;小心“假朋友”:bekommen 不是英语的 become(变成),而是“得到”:Ich bekomme eine Bescheinigung.(我拿到一张证明。)" },
+        { "id": "de.ausverkauft", "kind": "word", "pos": "adj", "text": "ausverkauft", "zh": "卖完了;售罄", "features": { "ipa": "ˈaʊ̯sfɛɐ̯ˌkaʊ̯ft" }, "noteZh": "Die Hose ist leider ausverkauft.(这条裤子卖完了。)电影票、火车票卖完了也这么说。" },
+        { "id": "de.mehr", "kind": "word", "pos": "adv", "text": "mehr", "zh": "更多;(nicht mehr)不再", "features": { "ipa": "meːɐ̯" }, "noteZh": "nicht mehr = 不再、没有了:Die Hose gibt es nicht mehr in Schwarz.(黑色的已经没有了。)h 不发音,只表示前面的 e 读长音。" }
+      ],
+      "reviewItems": ["de.hose", "de.zu_adv", "de.lang", "de.nummer"]
+    },
+    {
+      "id": "de.a1u7.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-7 购物与办事", "order": 107085,
+      "titleZh": "考试报名确认邮件", "goalZh": "读懂正式的考试确认邮件,找出日期、时间、地点、要带的东西和费用",
+      "canDoZh": "能读懂考试报名确认邮件,找出考试日期、时间、地点、要带的东西和费用",
+      "scenarioZh": "体裁:正式邮件(语言学校不写真实名称)。王伟打电话报名以后,收到语言学校的确认邮件:Sehr geehrter Herr Wang, … 考试在 5 月 17 日星期六,8:30 到;地点在二楼的 3 号教室(im ersten Stock 先当固定说法,第 9 单元讲楼层);要带护照和笔;考试费请在 3 月 31 日以前转账;考试有听、读、写、说四部分。最后是王伟记在日历上的一句话。说话人:narrator(邮件)、wei(最后一句)。",
+      "grammarFocusZh": "正式邮件的格式:Sehr geehrter Herr … / Mit freundlichen Grüßen;复习 Sie 的命令式(Bringen Sie bitte Ihren Pass mit!)、日期和 bis(bis zum 31. März)",
+      "skills": ["read"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "de.sehr_geehrte", "kind": "phrase", "pos": "phrase", "text": "Sehr geehrte …", "zh": "尊敬的……(正式信件的开头)", "features": { "ipa": "zeːɐ̯ ɡəˈʔeːɐ̯tə" }, "noteZh": "给男士写 Sehr geehrter Herr Wang,给女士写 Sehr geehrte Frau Wagner,后面加逗号,正文第一个词小写;熟人之间用 Liebe … / Lieber …。" },
+        { "id": "de.mit_freundlichen_gruessen", "kind": "phrase", "pos": "phrase", "text": "Mit freundlichen Grüßen", "zh": "此致;敬上(正式信件的结尾)", "features": { "ipa": "mɪt ˈfʁɔɪ̯ntlɪçn̩ ˈɡʁyːsn̩" }, "noteZh": "和 Sehr geehrte … 配套用;熟人之间写 Viele Grüße。eu 读 [ɔʏ],ü 嘴唇撅圆。" },
+        { "id": "de.im_ersten_stock", "kind": "phrase", "pos": "phrase", "text": "im ersten Stock", "zh": "在二楼", "features": { "ipa": "ɪm ˈeːɐ̯stn̩ ʃtɔk" }, "noteZh": "德国的楼层从 das Erdgeschoss(地面这一层,中国说的一楼)开始数,der erste Stock 是中国的二楼!楼层的说法第 9 单元再系统学。" }
+      ],
+      "reviewItems": ["de.pruefung", "de.mai", "de.mitbringen", "de.bis"]
+    },
+    {
+      "id": "de.a1u8.r01", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108045,
+      "titleZh": "给老师的请假邮件", "goalZh": "读懂、也会写一封简短的请假邮件:原因、请几天假、问作业",
+      "canDoZh": "能读懂、也能写一封简短的请假邮件:说明原因、请几天假、问作业",
+      "scenarioZh": "体裁:邮件。看完医生回到家,王伟给瓦格纳老师写邮件:他感冒了、发烧,医生说要在家休息,明天和后天不能去上德语课;问这两天的作业是什么,能不能请索菲娅带给他。邮件 6–8 句,格式和歌德 A1 写作第二部分一样。说话人:wei(邮件)。",
+      "grammarFocusZh": "复习:krank / das Fieber / müssen / können(Ich kann morgen nicht kommen);称呼熟悉的老师可以写 Liebe Frau Wagner,更正式写 Sehr geehrte Frau Wagner;正文里一直用 Sie",
+      "skills": ["read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "de.hausaufgabe", "kind": "word", "pos": "noun", "text": "die Hausaufgabe", "zh": "家庭作业", "features": { "gender": "f", "plural": "die Hausaufgaben", "ipa": "ˈhaʊ̯sˌʔaʊ̯fɡaːbə" }, "noteZh": "常用复数:die Hausaufgaben machen(做作业);das Haus + die Aufgabe(任务)。" },
+        { "id": "de.uebermorgen", "kind": "word", "pos": "adv", "text": "übermorgen", "zh": "后天", "features": { "ipa": "ˈyːbɐˌmɔʁɡn̩" }, "noteZh": "heute(今天)– morgen(明天)– übermorgen(后天);重音在 ü 上,嘴唇撅圆。" },
+        { "id": "de.bleiben", "kind": "word", "pos": "verb", "text": "bleiben", "zh": "待;留", "features": { "ipa": "ˈblaɪ̯bn̩" }, "noteZh": "zu Hause bleiben(待在家里);ei 读 [aɪ];完成时用 sein:Ich bin zu Hause geblieben." }
+      ],
+      "reviewItems": ["de.krank", "de.fieber", "de.muessen", "de.koennen"]
+    },
+    {
+      "id": "de.a1u8.l06", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108060,
+      "titleZh": "和霍夫曼先生过复活节", "goalZh": "会聊复活节习俗,用现在完成时问别人做了什么、讲自己做了什么",
+      "canDoZh": "能聊德国的复活节习俗,问别人假期做了什么,也讲自己做了什么",
+      "scenarioZh": "复活节周日(Ostern),霍夫曼先生请 WG 的三个人去他家吃复活节早餐:桌上有彩蛋(bunt)、兔子形状的巧克力(der Osterhase)和蛋糕;霍夫曼先生讲孩子们在花园里找彩蛋(suchen);他问年轻人假期做了什么——索菲娅回了意大利几天,约纳斯一直在上班,王伟和莉娜去看了一个展览(die Ausstellung);王伟讲中国清明节前后也有去郊外踏青的习惯。说话人:hoffmann、wei、sofia、jonas。",
+      "grammarFocusZh": "完成时在聊天里的应用:Was haben Sie gemacht? / Was habt ihr gemacht?(ihr 的 habt / seid);Ich bin nach Italien geflogen / Wir haben eine Ausstellung besucht;an Ostern 先当固定说法",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 20,
+      "newItems": [
+        { "id": "de.ostern", "kind": "word", "pos": "propn", "text": "Ostern", "zh": "复活节", "features": { "ipa": "ˈoːstɐn" }, "noteZh": "一般不加冠词;在三月底到四月,日子每年不一样;an Ostern(在复活节)先当固定说法记。o 读长音。" },
+        { "id": "de.frohe_ostern", "kind": "phrase", "pos": "phrase", "text": "Frohe Ostern!", "zh": "复活节快乐!", "features": { "ipa": "ˈfʁoːə ˈoːstɐn" }, "noteZh": "和 Frohe Weihnachten! 一样用 frohe;h 不发音,只表示 o 读长音。" },
+        { "id": "de.osterhase", "kind": "word", "pos": "noun", "text": "der Osterhase", "zh": "复活节兔子", "features": { "gender": "m", "plural": "die Osterhasen", "ipa": "ˈoːstɐˌhaːzə" }, "noteZh": "der Hase 是“兔子”;德国的说法是复活节兔子把彩蛋藏起来,孩子们去找;商店里有很多巧克力做的复活节兔子。" },
+        { "id": "de.bunt", "kind": "word", "pos": "adj", "text": "bunt", "zh": "彩色的;五颜六色的", "features": { "ipa": "bʊnt" }, "noteZh": "u 是短音;bunte Eier(彩蛋)。" },
+        { "id": "de.garten", "kind": "word", "pos": "noun", "text": "der Garten", "zh": "花园;院子", "features": { "gender": "m", "plural": "die Gärten", "ipa": "ˈɡaʁtn̩" }, "noteZh": "复数变元音:die Gärten;im Garten(在花园里);幼儿园 der Kindergarten 就是“孩子们的花园”。" },
+        { "id": "de.schokolade", "kind": "word", "pos": "noun", "text": "die Schokolade", "zh": "巧克力", "features": { "gender": "f", "plural": "die Schokoladen", "ipa": "ʃokoˈlaːdə" }, "noteZh": "重音在 la 上;sch 读 [ʃ];aus Schokolade(巧克力做的)。" },
+        { "id": "de.ausstellung", "kind": "word", "pos": "noun", "text": "die Ausstellung", "zh": "展览", "features": { "gender": "f", "plural": "die Ausstellungen", "ipa": "ˈaʊ̯sˌʃtɛlʊŋ" }, "noteZh": "-ung 结尾都是阴性;eine Ausstellung besuchen(看展览);st 在词根开头读 [ʃt]。" },
+        { "id": "de.ein_paar", "kind": "phrase", "pos": "phrase", "text": "ein paar", "zh": "几个;一些", "features": { "ipa": "aɪ̯n ˈpaːɐ̯" }, "noteZh": "小写的 ein paar = 几个(不多):ein paar Tage(几天);大写的 ein Paar = 一双、一对:ein Paar Schuhe。" }
+      ],
+      "reviewItems": ["de.ei", "de.kuchen", "de.besuchen", "de.fliegen"]
+    },
+    {
+      "id": "de.a1u8.l07", "lang": "de", "type": "grammar", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108070,
+      "titleZh": "你多久运动一次?——保罗的健康问卷", "goalZh": "会用 immer / oft / manchmal / nie 和 jeden Tag 说自己多久做一次某件事",
+      "canDoZh": "能说自己多久做一次某件事(每天、常常、有时、从不),回答简单的生活习惯问卷",
+      "scenarioZh": "保罗的生物课要做“年轻人的健康习惯”问卷。他来 WG 采访大家:Wie oft machst du Sport? Wie viel Wasser trinkst du? Wie lange schläfst du?;约纳斯说他从来不早起,索菲娅每天吃水果,王伟有时候踢足球、常常喝茶;最后保罗统计结果,说大家都还算健康(gesund)。说话人:paul、jonas、sofia、wei。",
+      "grammarFocusZh": "频率副词 immer / oft / manchmal / nie 和 jeden Tag / jede Woche,放在变位动词后面(Ich trinke oft Tee / Ich stehe nie früh auf);Wie oft? / Wie lange? / Wie viel? 的区别",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 20,
+      "newItems": [
+        { "id": "de.immer", "kind": "word", "pos": "adv", "text": "immer", "zh": "总是;一直", "features": { "ipa": "ˈɪmɐ" }, "noteZh": "频率从高到低:immer(总是)– oft(常常)– manchmal(有时)– nie(从不);放在变位动词后面:Ich trinke immer Tee." },
+        { "id": "de.manchmal", "kind": "word", "pos": "adv", "text": "manchmal", "zh": "有时候", "features": { "ipa": "ˈmançmaːl" }, "noteZh": "ch 在 n 后面读 [ç];Ich spiele manchmal Fußball.(我有时候踢足球。)" },
+        { "id": "de.nie", "kind": "word", "pos": "adv", "text": "nie", "zh": "从不", "features": { "ipa": "niː" }, "noteZh": "nie 本身就是否定,后面不再加 nicht:Ich stehe nie früh auf.(我从来不早起。)ie 读长音 [iː]。" },
+        { "id": "de.jeder", "kind": "word", "pos": "det", "text": "jeder", "zh": "每个;每", "features": { "ipa": "ˈjeːdɐ" }, "noteZh": "词尾跟着名词变:jeden Tag(每天)、jede Woche(每周)、jedes Jahr(每年);j 读 [j],像汉语的“耶”。" },
+        { "id": "de.sport", "kind": "word", "pos": "noun", "text": "der Sport", "zh": "体育运动", "features": { "gender": "m", "plural": "-", "ipa": "ʃpɔʁt" }, "noteZh": "Sport machen(做运动)——不说 Sport spielen;sp 在词首读 [ʃp];一般不用复数。" },
+        { "id": "de.gesund", "kind": "word", "pos": "adj", "text": "gesund", "zh": "健康", "features": { "ipa": "ɡəˈzʊnt" }, "noteZh": "重音在 sund 上,词尾 d 读 [t];反义词 krank。Obst ist gesund!" },
+        { "id": "de.frage", "kind": "word", "pos": "noun", "text": "die Frage", "zh": "问题(提问)", "features": { "gender": "f", "plural": "die Fragen", "ipa": "ˈfʁaːɡə" }, "noteZh": "Ich habe eine Frage.(我有个问题。)这是“提问”的问题;“麻烦、毛病”是另一个词 das Problem。" }
+      ],
+      "reviewItems": ["de.oft", "de.obst", "de.schlafen", "de.tee"]
+    },
+    {
+      "id": "de.a1u8.r02", "lang": "de", "type": "reading", "cefr": "A1", "unit": "A1-8 健康与周末", "order": 108085,
+      "titleZh": "王伟的新学期计划", "goalZh": "读懂、也会写一份简单的计划:什么时候做什么、必须做什么、想做什么",
+      "canDoZh": "能读懂、也能写一份简单的计划:什么时候做什么、必须做什么、想做什么",
+      "scenarioZh": "体裁:日记里的计划清单。复活节假期最后一天,王伟写下新学期的计划:四月中夏季学期开学,要选课,和莉娜继续语伴练习;5 月 17 日考德语 A1,要多练听力和口语;想找一份暑期工;七月学期结束后想和朋友去海边;八月回成都。用现在时、情态动词和日期写。说话人:wei(日记)。",
+      "grammarFocusZh": "复习:情态动词 wollen / müssen / möchten、日期(am siebzehnten Mai)、im + 月份;时间放句首的语序(Im Juli möchte ich …)",
+      "skills": ["read", "write"], "estimatedMinutes": 12,
+      "newItems": [
+        { "id": "de.ueben", "kind": "word", "pos": "verb", "text": "üben", "zh": "练习", "features": { "ipa": "ˈyːbn̩" }, "noteZh": "ü 读长音 [yː];Ich übe jeden Tag.(我每天练习。)学语言离不开它:Hören und Sprechen üben。" }
+      ],
+      "reviewItems": ["de.pruefung", "de.mai", "de.wollen", "de.muessen"]
+    }
+  ]
+}

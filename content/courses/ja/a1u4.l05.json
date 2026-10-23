@@ -1,0 +1,53 @@
+{
+  "id": "ja.a1u4.l05", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104050,
+  "titleZh": "在家庭餐厅点菜", "goalZh": "会看菜单点菜、点饮料,说“我要……”“我想吃……”", "canDoZh": "能在餐厅看菜单点菜和饮料,能说“我要……”“我想吃……”",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "ja.resutoran", "kind": "word", "pos": "noun", "text": "レストラン", "zh": "餐厅", "features": { "pitch": 1 }, "noteZh": "泛指餐厅,多指西式的;家庭餐厅叫 ファミレス(family restaurant 的简称),价格便宜,菜单上日式、西式都有。" },
+    { "id": "ja.menyuu", "kind": "word", "pos": "noun", "text": "メニュー", "zh": "菜单", "features": { "pitch": 1 }, "noteZh": "ニュ 是拗音,ー 是长音:メ・ニュ・ー 3 拍。" },
+    { "id": "ja.raamen", "kind": "word", "pos": "noun", "text": "ラーメン", "zh": "拉面", "features": { "pitch": 1 }, "noteZh": "日本拉面源于中国的汤面,但味道很不一样。ラー 是长音:ラ・ー・メ・ン 4 拍。" },
+    { "id": "ja.karee", "kind": "word", "pos": "noun", "text": "カレー", "zh": "咖喱(饭)", "features": { "pitch": 0 }, "noteZh": "日本咖喱饭(カレーライス),日本人最爱的家常菜之一,一般不太辣,偏甜。" },
+    { "id": "ja.juusu", "kind": "word", "pos": "noun", "text": "ジュース", "zh": "果汁;甜饮料", "features": { "pitch": 1 }, "noteZh": "日语的 ジュース 泛指果汁、汽水等甜饮料。ジュー 是拗音加长音。" },
+    { "id": "ja.koohii", "kind": "word", "pos": "noun", "text": "コーヒー", "zh": "咖啡", "features": { "pitch": 3 }, "noteZh": "两个长音:コ・ー・ヒ・ー 4 拍,两个 ー 都要拉满。" },
+    { "id": "ja.keeki", "kind": "word", "pos": "noun", "text": "ケーキ", "zh": "蛋糕", "features": { "pitch": 1 }, "noteZh": "西式蛋糕。ケー 是长音:ケ・ー・キ 3 拍。" },
+    { "id": "ja.suru", "kind": "word", "pos": "verb", "text": "します", "zh": "做;(点菜时)要……", "features": { "pitch": 2 }, "noteZh": "最常用的不规则动词(辞书形 する)。N に します = 决定要 N:わたしは カレーに します。" }
+  ],
+  "reviewItems": ["ja.kudasai", "ja.hitotsu", "ja.futatsu", "ja.mo_p"],
+  "lines": [
+    { "speaker": "tenin", "text": "いらっしゃいませ。", "zh": "(星期六,车站附近的家庭餐厅)欢迎光临。", "tokens": ["いらっしゃいませ。"], "items": ["ja.irasshaimase"] },
+    { "speaker": "saki", "text": "3人です。", "reading": "さんにんです。", "zh": "(比了个“三”)三个人。", "tokens": ["3人", "です。"], "items": ["ja.san_num", "ja.nin", "ja.desu"] },
+    { "speaker": "tenin", "text": "はい。メニューです。どうぞ。", "zh": "好的。这是菜单,请。", "tokens": ["はい。", "メニュー", "です。", "どうぞ。"], "items": ["ja.hai", "ja.menyuu", "ja.desu", "ja.douzo"] },
+    { "speaker": "jiu", "text": "リンさんは 何に しますか。", "reading": "リンさんは なにに しますか。", "zh": "林雨同学,你要什么?", "tokens": ["リンさん", "は", "何", "に", "しますか。"], "items": ["ja.san", "ja.wa_p", "ja.nani", "ja.suru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "わたしは カレーに します。", "zh": "我要咖喱饭。", "tokens": ["わたし", "は", "カレー", "に", "します。"], "items": ["ja.watashi", "ja.wa_p", "ja.karee", "ja.suru"] },
+    { "speaker": "jiu", "text": "わたしは ラーメンが 食べたいです。", "reading": "わたしは ラーメンが たべたいです。", "zh": "我想吃拉面。", "tokens": ["わたし", "は", "ラーメン", "が", "食べたいです。"], "items": ["ja.watashi", "ja.wa_p", "ja.raamen", "ja.ga_p", "ja.taberu", "ja.desu"] },
+    { "speaker": "saki", "text": "わたしも ラーメンに します。", "zh": "我也要拉面。", "tokens": ["わたし", "も", "ラーメン", "に", "します。"], "items": ["ja.watashi", "ja.mo_p", "ja.raamen", "ja.suru"] },
+    { "speaker": "saki", "text": "すみません。カレーを ひとつと ラーメンを ふたつ ください。", "zh": "(按铃叫来店员)不好意思,我们要一份咖喱饭、两碗拉面。", "tokens": ["すみません。", "カレー", "を", "ひとつ", "と", "ラーメン", "を", "ふたつ", "ください。"], "items": ["ja.sumimasen", "ja.karee", "ja.wo_p", "ja.hitotsu", "ja.to_p", "ja.raamen", "ja.futatsu", "ja.kudasai"] },
+    { "speaker": "rin", "text": "コーヒーを ふたつと ジュースを ひとつ ください。", "zh": "再要两杯咖啡、一杯果汁。", "tokens": ["コーヒー", "を", "ふたつ", "と", "ジュース", "を", "ひとつ", "ください。"], "items": ["ja.koohii", "ja.wo_p", "ja.futatsu", "ja.to_p", "ja.juusu", "ja.hitotsu", "ja.kudasai"] },
+    { "speaker": "jiu", "text": "ケーキも 食べたいです!", "reading": "ケーキも たべたいです!", "zh": "我还想吃蛋糕!", "tokens": ["ケーキ", "も", "食べたいです!"], "items": ["ja.keeki", "ja.mo_p", "ja.taberu", "ja.desu"] },
+    { "speaker": "tenin", "text": "はい。ケーキも ひとつですね。", "zh": "好的。蛋糕也要一份,对吧。", "tokens": ["はい。", "ケーキ", "も", "ひとつ", "ですね。"], "items": ["ja.hai", "ja.keeki", "ja.mo_p", "ja.hitotsu", "ja.desu", "ja.ne_p"] },
+    { "speaker": "rin", "text": "わたしは 日本の レストランが 好きです!", "reading": "わたしは にほんの レストランが すきです!", "zh": "(饭菜上桌)我好喜欢日本的餐厅!", "tokens": ["わたし", "は", "日本", "の", "レストラン", "が", "好きです!"], "items": ["ja.watashi", "ja.wa_p", "ja.nihon", "ja.no_p", "ja.resutoran", "ja.ga_p", "ja.suki", "ja.desu"] }
+  ],
+  "questions": [
+    { "prompt": "林雨点了什么菜?", "options": ["拉面", "咖喱饭", "蛋糕", "只点了咖啡"], "answer": 1, "explainZh": "智友问 リンさんは 何に しますか,林雨说:わたしは カレーに します。(我要咖喱饭。)" },
+    { "prompt": "她们一共点了几碗拉面?", "options": ["一碗", "三碗", "没点拉面", "两碗"], "answer": 3, "explainZh": "智友想吃拉面,咲说 わたしも ラーメンに します;点菜时咲说 ラーメンを ふたつ ください。" },
+    { "prompt": "最后智友还想吃什么?", "options": ["蛋糕", "咖喱饭", "果汁"], "answer": 0, "explainZh": "智友说 ケーキも 食べたいです!店员确认:ケーキも ひとつですね。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u4_ni_shimasu", "titleZh": "N に します:就要 N(点菜、做选择)",
+      "bodyZh": "点菜、做选择时说“N に します”:わたしは カレーに します(我要咖喱饭)。します 是“做”,N に します 的意思是“决定选 N”。\n问别人:何に しますか(你要什么?),这里 何 读 なに。“我也要”:わたしも ラーメンに します。\n跟朋友商量吃什么用 N に します;跟店员点菜用 N を ください。点几样东西,每样后面跟数量,再用 と 连起来:カレーを ひとつと ラーメンを ふたつ ください。\n中文的“我要……”不能直译成 いります(いります 是“需要”),点菜时说 N に します 或 N を ください。",
+      "examples": [
+        { "text": "何に しますか。—カレーに します。", "zh": "你要什么?——我要咖喱饭。(なにに しますか。—カレーに します)" },
+        { "text": "わたしも ラーメンに します。", "zh": "我也要拉面。" },
+        { "text": "コーヒーを ふたつと ジュースを ひとつ ください。", "zh": "请给我两杯咖啡和一杯果汁。" }
+      ] },
+    { "id": "ja.g.u4_tai", "titleZh": "V たいです:想……",
+      "bodyZh": "“想吃”“想喝”用 V たいです:把 ます 形的 ます 去掉,加 たいです。食べます → 食べたいです(想吃),飲みます → 飲みたいです(想喝)。\n想吃、想喝的东西用 を 或 が 都可以:ラーメンが 食べたいです / ラーメンを 食べたいです。\nたい 后面的变化和 い形容词一样(否定、过去以后学)。\n注意:V たいです 说的是自己的愿望。对长辈、客人直接问“V たいですか”不太礼貌,对朋友问没关系。\n外来语的长音要拉满:コーヒー(4 拍)、ケーキ(3 拍)、メニュー(3 拍)、ラーメン(4 拍)。",
+      "examples": [
+        { "text": "ラーメンが 食べたいです。", "zh": "我想吃拉面。(ラーメンが たべたいです)" },
+        { "text": "コーヒーを 飲みたいです。", "zh": "我想喝咖啡。(コーヒーを のみたいです)" },
+        { "text": "ケーキも 食べたいです。", "zh": "我还想吃蛋糕。(ケーキも たべたいです)" }
+      ] }
+  ],
+  "review": "draft"
+}

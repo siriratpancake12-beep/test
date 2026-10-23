@@ -18,14 +18,14 @@
   "reviewItems": ["ja.ryuugakusei", "ja.gakusei", "ja.zero", "ja.kyuu"],
   "lines": [
     { "speaker": "rin", "text": "これは パーティーの 写真です。どうぞ。", "reading": "これは パーティーの しゃしんです。どうぞ。", "zh": "(校园里,林雨给咲和健太看欢迎会的照片)这是欢迎会的照片。你们看。", "tokens": ["これ", "は", "パーティー", "の", "写真", "です。", "どうぞ。"], "items": ["ja.kore", "ja.wa_p", "ja.paatii", "ja.no_p", "ja.shashin", "ja.desu", "ja.douzo"] },
-    { "speaker": "saki", "text": "きれいな 写真ですね。これは ジウさんですね。", "reading": "きれいな しゃしんですね。これは ジウさんですね。", "zh": "照片拍得真漂亮。这是智友吧。", "tokens": ["きれいな", "写真", "ですね。", "これ", "は", "ジウさん", "ですね。"], "items": ["ja.kirei", "ja.shashin", "ja.desu", "ja.ne_p", "ja.kore", "ja.wa_p", "ja.san"] },
+    { "speaker": "saki", "text": "きれいな 写真ですね。これは ジウさんですね。", "reading": "きれいな しゃしんですね。これは ジウさんですね。", "zh": "照片拍得真漂亮。这是智友同学吧。", "tokens": ["きれいな", "写真", "ですね。", "これ", "は", "ジウさん", "ですね。"], "items": ["ja.kirei", "ja.shashin", "ja.desu", "ja.ne_p", "ja.kore", "ja.wa_p", "ja.san"] },
     { "speaker": "rin", "text": "はい、わたしの 友だちです。とても やさしい 人です。", "reading": "はい、わたしの ともだちです。とても やさしい ひとです。", "zh": "对,是我的朋友。她人特别好。", "tokens": ["はい、", "わたし", "の", "友だち", "です。", "とても", "やさしい", "人", "です。"], "items": ["ja.hai", "ja.watashi", "ja.no_p", "ja.tomodachi", "ja.desu", "ja.totemo", "ja.yasashii", "ja.hito"] },
-    { "speaker": "kenta", "text": "元気な 人ですね。ジウさんも 留学生ですか。", "reading": "げんきな ひとですね。ジウさんも りゅうがくせいですか。", "zh": "她很有活力呢。智友也是留学生吗?", "tokens": ["元気な", "人", "ですね。", "ジウさん", "も", "留学生", "ですか。"], "items": ["ja.genki", "ja.hito", "ja.desu", "ja.ne_p", "ja.san", "ja.mo_p", "ja.ryuugakusei", "ja.ka_p"] },
+    { "speaker": "kenta", "text": "元気な 人ですね。ジウさんも 留学生ですか。", "reading": "げんきな ひとですね。ジウさんも りゅうがくせいですか。", "zh": "她很有活力呢。智友同学也是留学生吗?", "tokens": ["元気な", "人", "ですね。", "ジウさん", "も", "留学生", "ですか。"], "items": ["ja.genki", "ja.hito", "ja.desu", "ja.ne_p", "ja.san", "ja.mo_p", "ja.ryuugakusei", "ja.ka_p"] },
     { "speaker": "rin", "text": "はい、韓国の 留学生です。", "reading": "はい、かんこくの りゅうがくせいです。", "zh": "对,是韩国来的留学生。", "tokens": ["はい、", "韓国", "の", "留学生", "です。"], "items": ["ja.hai", "ja.no_p", "ja.ryuugakusei", "ja.desu"] },
-    { "speaker": "saki", "text": "これは けんたさんですね。", "zh": "(指着照片里做鬼脸的健太,笑)这是健太吧。", "tokens": ["これ", "は", "けんたさん", "ですね。"], "items": ["ja.kore", "ja.wa_p", "ja.san", "ja.desu", "ja.ne_p"] },
-    { "speaker": "rin", "text": "はい。けんたさんは おもしろい 人です。", "reading": "はい。けんたさんは おもしろい ひとです。", "zh": "对。健太是个很有趣的人。", "tokens": ["はい。", "けんたさん", "は", "おもしろい", "人", "です。"], "items": ["ja.hai", "ja.san", "ja.wa_p", "ja.omoshiroi", "ja.hito", "ja.desu"] },
+    { "speaker": "saki", "text": "これは けんたさんですね。", "zh": "(指着照片里做鬼脸的健太,笑)这是健太同学吧。", "tokens": ["これ", "は", "けんたさん", "ですね。"], "items": ["ja.kore", "ja.wa_p", "ja.san", "ja.desu", "ja.ne_p"] },
+    { "speaker": "rin", "text": "はい。けんたさんは おもしろい 人です。", "reading": "はい。けんたさんは おもしろい ひとです。", "zh": "对。健太同学是个很有趣的人。", "tokens": ["はい。", "けんたさん", "は", "おもしろい", "人", "です。"], "items": ["ja.hai", "ja.san", "ja.wa_p", "ja.omoshiroi", "ja.hito", "ja.desu"] },
     { "speaker": "kenta", "text": "そうです!わたしは おもしろい 学生です!", "reading": "そうです!わたしは おもしろい がくせいです!", "zh": "没错!我就是个有趣的学生!", "tokens": ["そう", "です!", "わたし", "は", "おもしろい", "学生", "です!"], "items": ["ja.sou", "ja.desu", "ja.watashi", "ja.wa_p", "ja.omoshiroi", "ja.gakusei"] },
-    { "speaker": "kenta", "text": "リンさん、電話番号は?", "reading": "リンさん、でんわばんごうは?", "zh": "林雨,你的电话号码是多少?", "tokens": ["リンさん、", "電話番号", "は?"], "items": ["ja.san", "ja.denwabangou", "ja.wa_p"] },
+    { "speaker": "kenta", "text": "リンさん、電話番号は?", "reading": "リンさん、でんわばんごうは?", "zh": "林雨同学,你的电话号码是多少?", "tokens": ["リンさん、", "電話番号", "は?"], "items": ["ja.san", "ja.denwabangou", "ja.wa_p"] },
     { "speaker": "rin", "text": "ゼロはちゼロの よんなないちきゅうの にろくさんごです。", "zh": "080-4719-2635。", "tokens": ["ゼロはちゼロの", "よんなないちきゅうの", "にろくさんご", "です。"], "items": ["ja.zero", "ja.hachi", "ja.no_p", "ja.yon", "ja.nana", "ja.ichi", "ja.kyuu", "ja.ni", "ja.roku", "ja.san_num", "ja.go", "ja.desu"] },
     { "speaker": "kenta", "text": "ゼロはちゼロの……よんなないちきゅうの……?", "zh": "080……4719……后面呢?", "tokens": ["ゼロはちゼロの……", "よんなないちきゅうの……?"], "items": ["ja.zero", "ja.hachi", "ja.no_p", "ja.yon", "ja.nana", "ja.ichi", "ja.kyuu"] },
     { "speaker": "rin", "text": "にろくさんごです。", "zh": "2635。", "tokens": ["にろくさんご", "です。"], "items": ["ja.ni", "ja.roku", "ja.san_num", "ja.go", "ja.desu"] }
@@ -39,10 +39,10 @@
     { "id": "ja.g.u3_adj_noun", "titleZh": "形容词修饰名词:やさしい 人、元気な 人;も 和 ね",
       "bodyZh": "日语形容词分两类,修饰名词时不一样:\n・い形容词(以 い 结尾):直接放在名词前面——やさしい 人、おもしろい 人。\n・な形容词:后面加 な 再接名词——元気な 人、きれいな 写真。\n中文说“温柔的人”,日语不能加 の:不说“やさしいの 人”“元気の 人”。きれい 虽然以 い 结尾,却是 な形容词,要说 きれいな 人。\n形容词也可以放在句末:母は やさしいです、ジウさんは 元気です。とても(很)放在形容词前面。\nも 是“也”,换掉 は:ジウさんも 留学生です(智友也是留学生),不说“ジウさんは も”。\n句末的 ね 表示希望对方同意、或确认自己的判断:きれいな 写真ですね(照片真漂亮啊)。对方一般答 そうですね 或 はい。",
       "examples": [
-        { "text": "ジウさんは やさしい 人です。", "zh": "智友是个温柔的人。(ジウさんは やさしい ひとです)" },
+        { "text": "ジウさんは やさしい 人です。", "zh": "智友同学是个温柔的人。(ジウさんは やさしい ひとです)" },
         { "text": "母は とても やさしいです。", "zh": "我妈妈非常温柔。(ははは とても やさしいです)" },
         { "text": "元気な 人ですね。—そうですね。", "zh": "真是个有活力的人啊。——是啊。(げんきな ひとですね。—そうですね)" },
-        { "text": "リンさんも 留学生ですか。—はい、そうです。", "zh": "林雨也是留学生吗?——对,是的。(リンさんも りゅうがくせいですか。—はい、そうです)" }
+        { "text": "リンさんも 留学生ですか。—はい、そうです。", "zh": "林雨同学也是留学生吗?——对,是的。(リンさんも りゅうがくせいですか。—はい、そうです)" }
       ] }
   ],
   "review": "draft"

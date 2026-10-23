@@ -1,0 +1,2945 @@
+{
+  "lang": "de",
+  "units": [
+    {
+      "id": "a2u1",
+      "unit": "A2-1 回到柏林",
+      "cefr": "A2",
+      "themeZh": "十月,王伟从成都回到柏林,开始第二年:接机和重逢、讲暑假、送从中国带来的礼物、新学期的课程、索菲娅的设计新项目、给瓦格纳老师写邮件报名 A2 班,听霍夫曼先生讲他的夏天。",
+      "grammarZh": "现在完成时全面:haben 和 sein 的选择(位置移动、状态变化、bleiben / passieren),可分动词(angekommen)、不可分动词(besucht)、-ieren 动词(telefoniert)和混合动词(gebracht、gedacht、gewusst)的过去分词。",
+      "pronunciationZh": "过去分词的前缀 ge- 读得轻 [ɡə];可分动词的分词重音在前缀上(ANgekommen、MITgebracht),不可分动词的重音在词干上(beSUCHT、verGESsen)。",
+      "lessons": [
+        {
+          "id": "de.a2u1.l01",
+          "type": "dialogue",
+          "titleZh": "机场重逢",
+          "canDoZh": "能在接机时寒暄,问和回答旅途怎么样、假期过得怎么样",
+          "scenarioZh": "10 月 1 日晚上,莉娜和保罗到柏林机场接王伟。莉娜问 Wie war der Flug? Hast du gut geschlafen?;王伟说飞了十几个小时、中途转了一次机,行李差点没到;保罗问他带了什么好吃的;回去的路上三个人讲各自的暑假。说话人:lena、paul、wei。",
+          "grammarFocusZh": "完成时复习:sein + 位置移动(Ich bin geflogen / Wir sind gekommen),haben + 其他动词(Ich habe geschlafen);可分动词的分词 umgestiegen、angekommen"
+        },
+        {
+          "id": "de.a2u1.l02",
+          "type": "vocab",
+          "titleZh": "暑假:亲戚和家乡",
+          "canDoZh": "能说出亲戚的称呼和暑假里常做的事,讲自己的假期",
+          "scenarioZh": "第二天在 WG 厨房,索菲娅和约纳斯问王伟的暑假:他回成都看了父母和奶奶,去上海看了姐姐一家(姐姐的孩子豆豆),和高中同学吃火锅,还去九寨沟旅行;索菲娅讲她在意大利海边的假期,约纳斯讲汉堡的父母家。说话人:sofia、jonas、wei。",
+          "grammarFocusZh": "亲戚的名称(der Onkel, die Tante, der Cousin, die Cousine, der Neffe, die Nichte, die Großeltern);完成时里常用的分词(gegessen, getroffen, gesehen, gefahren)"
+        },
+        {
+          "id": "de.a2u1.l03",
+          "type": "grammar",
+          "titleZh": "haben 还是 sein?——完成时全面",
+          "canDoZh": "能选对 haben 或 sein,说出常用动词的过去分词,连贯地讲假期",
+          "scenarioZh": "瓦格纳老师的 A2 班第一节课,她请王伟讲暑假,一边听一边纠正:Ich habe nach Chengdu geflogen → Ich bin nach Chengdu geflogen;Ich bin viel geschlafen → Ich habe viel geschlafen;然后她把规则写在黑板上,王伟用新学的分词再讲一遍。说话人:wagner、wei。",
+          "grammarFocusZh": "sein:位置移动和状态变化(fahren, fliegen, aufstehen, einschlafen),以及 sein / bleiben / passieren;haben:其他动词;可分动词 ge 在中间(eingekauft, aufgestanden);be- / ver- / er- / ent- 开头的不可分动词和 -ieren 动词不加 ge-(besucht, vergessen, telefoniert);混合动词(gebracht, gedacht, gewusst, gekannt)"
+        },
+        {
+          "id": "de.a2u1.r01",
+          "type": "reading",
+          "titleZh": "王伟的暑假照片墙",
+          "canDoZh": "能读懂一组配文照片,说出暑假里做了哪些事、和谁、在哪儿",
+          "scenarioZh": "体裁:社交媒体上的照片配文(王伟用德语写给柏林的朋友看)。七八张照片:到成都那天奶奶做了一桌菜;在爸爸的餐馆厨房学做麻婆豆腐;去上海带豆豆去动物园;和高中同学吃火锅;在九寨沟爬山遇到大雨;回柏林前一晚全家一起吃饭。每条配文 2–3 句,用完成时。说话人:wei(配文)。",
+          "grammarFocusZh": "完成时综合应用;时间顺序(am ersten Tag, eine Woche später, am letzten Abend)"
+        },
+        {
+          "id": "de.a2u1.l04",
+          "type": "dialogue",
+          "titleZh": "从中国带来的礼物",
+          "canDoZh": "能送礼物、介绍礼物是什么、怎么用,回应别人的感谢",
+          "scenarioZh": "王伟给每个人都带了礼物:给霍夫曼先生的是茶叶和一套小茶杯(他教霍夫曼先生怎么泡茶),给约纳斯一瓶四川辣酱和花椒,给索菲娅一把扇子,给莉娜几本中文书。大家说 Das ist aber nett! Das war doch nicht nötig!;霍夫曼先生说他要每天喝中国茶。说话人:wei、hoffmann、jonas、sofia。",
+          "grammarFocusZh": "Ich habe dir / Ihnen etwas mitgebracht(mitgebracht 是混合动词的分词;dir / Ihnen 先当固定说法,第三格代词第 4 单元讲);完成时复习"
+        },
+        {
+          "id": "de.a2u1.l05",
+          "type": "vocab",
+          "titleZh": "第三学期的课",
+          "canDoZh": "能介绍这学期的课程、作业和考试形式",
+          "scenarioZh": "新学期开始了。王伟和莉娜在食堂比较课表:王伟第三学期有算法、数据库和一个小组项目(die Projektarbeit),还要写一篇课程报告(die Hausarbeit);莉娜有英语文学和教育学,年底要去中学实习;莉娜问他德语课还上不上。说话人:wei、lena。",
+          "grammarFocusZh": "大学学习用语(die Vorlesung, die Klausur, die Hausarbeit, die Projektarbeit, das Referat, die Note);完成时复习(Hast du dich schon angemeldet? 反身代词先当固定说法)"
+        },
+        {
+          "id": "de.a2u1.l06",
+          "type": "dialogue",
+          "titleZh": "索菲娅的新项目",
+          "canDoZh": "能问别人新学期、新项目怎么样,也能讲自己的第一印象",
+          "scenarioZh": "索菲娅这学期在设计系参加一个大项目:和一家小剧院合作做海报。晚上她回到 WG,兴奋地讲第一周:新的小组、新的教授、作业很多、常常要熬夜;王伟讲他的小组项目;约纳斯开玩笑说:WG 里两个大学生都在熬夜,只有他一个人在干活。说话人:sofia、wei、jonas。",
+          "grammarFocusZh": "用完成时讲第一印象(Ich habe viele Leute kennengelernt / Wir haben viel gezeichnet);war / hatte 复习"
+        },
+        {
+          "id": "de.a2u1.r02",
+          "type": "reading",
+          "titleZh": "给瓦格纳老师的邮件",
+          "canDoZh": "能读懂、也能写一封半正式的邮件:讲自己的近况,询问课程",
+          "scenarioZh": "体裁:邮件和回信。九月底,王伟在成都给瓦格纳老师写邮件:Liebe Frau Wagner, 他暑假在中国做了什么、每天坚持听德语播客;他想报名 A2 班,问上课时间、费用,要不要分级测试;下面是老师的回信:欢迎他,课在周一和周三晚上,第一节课 10 月 6 日。说话人:wei(邮件)、narrator(回信)。",
+          "grammarFocusZh": "完成时在邮件里的应用;邮件里的问句(Wann beginnt der Kurs? / Muss ich einen Test machen?)"
+        },
+        {
+          "id": "de.a2u1.l07",
+          "type": "dialogue",
+          "titleZh": "霍夫曼先生的夏天",
+          "canDoZh": "能听别人讲假期经历,追问细节,表示感兴趣",
+          "scenarioZh": "王伟去楼下给霍夫曼先生送茶。霍夫曼先生讲他的夏天:去慕尼黑看了女儿和 10 岁的外孙女,坐了一次老式蒸汽火车;七月太热,他在家待了很多天;一天晚上楼里停电了(Was ist passiert?)。王伟追问 Und wie war das? Was haben Sie dort gemacht?,还请他以后多讲开火车的故事。说话人:hoffmann、wei。",
+          "grammarFocusZh": "完成时:bleiben / passieren / sein 用 sein(Ich bin zu Hause geblieben / Was ist passiert?);追问和表示兴趣(Wirklich? Erzählen Sie mal!)"
+        },
+        {
+          "id": "de.a2u1.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:欢迎回来聚会",
+          "canDoZh": "能在聚会上连贯地讲自己的假期,听别人讲并提问",
+          "scenarioZh": "周六 WG 办“欢迎回来”聚会,莉娜、保罗和霍夫曼先生都来了。每个人讲暑假里最好和最糟的一件事:保罗的手机掉进了湖里;莉娜在书店多上了很多班,还去了一趟布拉格;约纳斯在汉堡帮父母装修;王伟在成都胖了三公斤。说话人:wei、lena、paul、jonas、sofia、hoffmann。",
+          "grammarFocusZh": "完成时综合复习(haben / sein、各种分词);das Beste / das Schlimmste 先当固定说法(最高级第 11 单元讲)"
+        },
+        {
+          "id": "de.a2u1.r03",
+          "type": "reading",
+          "titleZh": "莉娜的旅行博客:布拉格三天",
+          "canDoZh": "能读懂一篇旅行博客,按顺序说出作者去了哪儿、做了什么、觉得怎么样",
+          "scenarioZh": "体裁:博客(莉娜写的)。八月莉娜和朋友坐长途车去布拉格玩三天:第一天走过老城的大桥,第二天参观城堡、吃了很多甜点,第三天下大雨,她在咖啡馆写明信片;她觉得布拉格很美,但游客太多;最后给王伟推荐了几个地方。说话人:narrator(莉娜的博客)。",
+          "grammarFocusZh": "完成时综合应用;时间顺序(am ersten Tag, danach, am Ende)"
+        }
+      ]
+    },
+    {
+      "id": "a2u2",
+      "unit": "A2-2 保罗的实习周",
+      "cefr": "A2",
+      "themeZh": "十月,保罗在约纳斯工作的餐馆做两周学生实习,王伟开始在大学当国际新生的辅导员:说在哪儿工作、跟谁、怎么去、从哪儿来,打电话说迟到,读实习报告、厨房规定和给新生的生活指南。",
+      "grammarZh": "第三格(一):定冠词和不定冠词的第三格(dem / der / dem / den + -n,einem / einer / einem),支配第三格的介词 aus / bei / mit / nach / von / zu / gegenüber 和缩写 zum / zur / beim / vom(bei、mit、zu、nach、seit 在 A1 已经当固定说法用过,这里系统讲变格)。",
+      "pronunciationZh": "介词和冠词的缩写和连读(zum、zur、beim、vom、im);dem 和 den 的词尾 -m / -n 要读清楚、听清楚。",
+      "lessons": [
+        {
+          "id": "de.a2u2.l01",
+          "type": "dialogue",
+          "titleZh": "实习第一天",
+          "canDoZh": "能介绍自己在哪儿实习、跟谁工作、做什么",
+          "scenarioZh": "保罗(17 岁)的学校要求做两周实习(das Schülerpraktikum),他选了约纳斯工作的餐馆。第一天早上,约纳斯带他认识厨房,告诉他跟谁一起工作,先洗菜、切菜;服务员给他一件围裙;中午保罗给莉娜发语音:Ich arbeite bei Jonas im Restaurant, mit dem Koch …。说话人:jonas、paul、kellner。",
+          "grammarFocusZh": "bei / mit + 第三格(bei Jonas, beim Koch, mit dem Kellner, mit der Chefin);第三格定冠词:dem(阳性、中性)、der(阴性)、den + -n(复数)"
+        },
+        {
+          "id": "de.a2u2.l02",
+          "type": "vocab",
+          "titleZh": "厨房里的工作",
+          "canDoZh": "能说出餐馆厨房里的工作和用具,说清楚把东西拿到哪儿、交给谁",
+          "scenarioZh": "实习第二天,约纳斯教保罗厨房里的词:die Spülmaschine、das Schneidebrett、die Schürze、der Kühlraum;要做的事:Gemüse waschen、die Teller zum Kellner bringen、mit dem Chef sprechen;保罗问 Was mache ich nach dem Mittagessen?。说话人:jonas、paul。",
+          "grammarFocusZh": "nach + 第三格表示时间(nach dem Mittagessen, nach der Arbeit);zu + 第三格表示去哪儿、交给谁(zum Kellner, zur Spülmaschine)"
+        },
+        {
+          "id": "de.a2u2.l03",
+          "type": "grammar",
+          "titleZh": "从哪儿来?跟谁?去哪儿?——第三格介词",
+          "canDoZh": "能用 aus / bei / mit / nach / von / zu / gegenüber 说出从哪里来、在谁那里、跟谁、去哪儿",
+          "scenarioZh": "周末,王伟帮保罗写实习日记:保罗要写每天几点从家里出发、坐什么车去餐馆、跟谁工作、下班以后去哪儿;王伟帮他改错:nach 和 zu 的区别(nach Hause / zum Restaurant),aus 和 von 的区别(aus Berlin / vom Bahnhof),gegenüber vom Kino。说话人:paul、wei。",
+          "grammarFocusZh": "支配第三格的介词 aus / bei / mit / nach / von / zu / gegenüber;缩写 zum / zur / beim / vom;不定冠词的第三格 einem / einer / einem;nach Hause / zu Hause 复习"
+        },
+        {
+          "id": "de.a2u2.r01",
+          "type": "reading",
+          "titleZh": "保罗的实习报告",
+          "canDoZh": "能读懂一篇实习报告,说出实习单位、工作内容、时间和感想",
+          "scenarioZh": "体裁:学生实习报告(保罗交给学校的)。保罗写:他在一家餐馆的厨房实习,每天 10 点到 16 点;第一周帮厨师准备蔬菜、把盘子送到服务员那里;第二周他自己做了沙拉;他觉得厨房的工作很累,但很有意思;他以后不一定当厨师,但想学会做饭。说话人:narrator(保罗的报告)。",
+          "grammarFocusZh": "第三格介词综合应用;完成时复习"
+        },
+        {
+          "id": "de.a2u2.l04",
+          "type": "dialogue",
+          "titleZh": "我当新生辅导员",
+          "canDoZh": "能参加工作培训会,说说自己的经验,问清楚要做什么",
+          "scenarioZh": "王伟报名当国际新生的辅导员(der Buddy)。国际处的女工作人员给辅导员开会:每人负责两三个新生,带他们去食堂、图书馆和市民局;她问王伟去年的经验,王伟说最难的是市民局的预约和听懂快的德语;去年当过他学伴的莉娜也来开会。新生不出场。说话人:mitarbeiterin、wei、lena。",
+          "grammarFocusZh": "zu + 第三格(zum Bürgeramt, zur Bibliothek);mit + 复数第三格(mit den neuen Studenten,复数加 -n);bei + 机构(beim International Office)"
+        },
+        {
+          "id": "de.a2u2.l05",
+          "type": "vocab",
+          "titleZh": "去哪儿办什么事",
+          "canDoZh": "能说出大学和城市里常见的服务机构,说清楚去哪儿办什么事",
+          "scenarioZh": "王伟给他辅导的新生准备一张“在柏林办事”的清单,和莉娜一起列:去市民局登记住址、去外管局办居留、去银行开户、去医保公司拿卡、去学生服务中心交钱;莉娜补充:有问题还可以去学生会的咨询处。说话人:wei、lena。",
+          "grammarFocusZh": "zum / zur + 机构(zur Bank, zum Bürgeramt, zur Krankenkasse);von … zu …(vom Wohnheim zur Uni)"
+        },
+        {
+          "id": "de.a2u2.l06",
+          "type": "dialogue",
+          "titleZh": "保罗迟到了",
+          "canDoZh": "能打电话说明迟到的原因,说自己在哪儿、什么时候到",
+          "scenarioZh": "实习第二周的一天,保罗坐的地铁停运了。他给约纳斯打电话:Ich bin noch bei der Haltestelle, ich komme jetzt mit dem Bus …;约纳斯说主厨很生气,让他快点来;保罗到了以后道歉,约纳斯告诉他以后一定要先打电话。说话人:paul、jonas。",
+          "grammarFocusZh": "第三格介词复习(bei der Haltestelle, mit dem Bus, gegenüber vom Bahnhof);迟到的说法(Ich habe den Bus verpasst / Ich komme zehn Minuten später)"
+        },
+        {
+          "id": "de.a2u2.r02",
+          "type": "reading",
+          "titleZh": "厨房门口的员工规定",
+          "canDoZh": "能读懂工作场所的规定,找出卫生、安全和时间方面的要求",
+          "scenarioZh": "体裁:规定(贴在餐馆厨房门口)。规定写着:进厨房以前洗手、戴帽子;生病不能来上班,要在早上 8 点以前给经理打电话;刀用完放回原处;垃圾分类;厨房里不能用手机;实习生只能在厨师旁边用热油。说话人:narrator(规定)。",
+          "grammarFocusZh": "第三格介词在书面规定里(nach der Arbeit, mit dem Messer, bei Krankheit);müssen / dürfen 复习"
+        },
+        {
+          "id": "de.a2u2.l07",
+          "type": "dialogue",
+          "titleZh": "实习的最后一天",
+          "canDoZh": "能感谢别人的帮助,说说自己学到了什么,和同事告别",
+          "scenarioZh": "实习最后一天,厨房的同事们送给保罗一顶厨师帽。保罗感谢约纳斯和服务员:Vielen Dank für alles!;约纳斯问他学到了什么,保罗说学会了切洋葱,也知道了厨房的工作有多累;服务员说他以后可以来做周末兼职。说话人:paul、jonas、kellner。",
+          "grammarFocusZh": "danke für + 第四格(für die Hilfe)和 von + 第三格(ein Geschenk vom Team);完成时复习"
+        },
+        {
+          "id": "de.a2u2.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:新生见面会",
+          "canDoZh": "能给新来的人介绍城市和学校,说清楚哪里有什么、怎么去",
+          "scenarioZh": "国际处办新生见面会。王伟和莉娜负责一张桌子:女工作人员念新生写在卡片上的问题(新生不出场)——从学生宿舍怎么去大学、哪里吃饭便宜、学期票怎么办;王伟和莉娜轮流回答;最后王伟讲去年自己刚来时的故事。说话人:mitarbeiterin、wei、lena。",
+          "grammarFocusZh": "复习:第三格的冠词和介词(mit dem Bus, zur Mensa, vom Wohnheim)、完成时"
+        },
+        {
+          "id": "de.a2u2.r03",
+          "type": "reading",
+          "titleZh": "给新同学的柏林生活指南",
+          "canDoZh": "能读懂一份生活指南,找出办事的步骤、地点和建议",
+          "scenarioZh": "体裁:生活指南(王伟和莉娜为新生写的,发在国际处网页上)。几个小标题:到柏林的第一周(去市民局登记、开银行账户)、交通(学期票、骑车)、吃饭(食堂、超市、每周集市)、学德语(语言中心、语伴)、有问题找谁;最后一句是王伟写的:去年我也是新生,现在我想帮你们。说话人:narrator(指南)、wei(最后一句)。",
+          "grammarFocusZh": "第三格介词综合应用;建议的说法(Am besten …, Man muss …, Man kann …)"
+        }
+      ]
+    },
+    {
+      "id": "a2u3",
+      "unit": "A2-3 一年前和现在",
+      "cefr": "A2",
+      "themeZh": "十月底到十一月初,王伟搬进 WG 一周年:对比一年前和现在,保罗为历史课采访霍夫曼先生,听他讲柏林墙倒塌那天,参观柏林墙纪念地,读老照片说明、人物生平和历史短文。",
+      "grammarZh": "过去时 Präteritum:sein 和 haben 的全部人称(war / warst / waren …,hatte / hattest / hatten …)和 es gab;时间表达 vor + 第三格(……以前,vor einem Jahr),和 A1-9 学过的 seit(配现在时)对比。",
+      "pronunciationZh": "长短元音对比(Staat / Stadt、Ofen / offen、wohnen / Sonne);war 和 wahr、hatte 和 hat 要分清。",
+      "lessons": [
+        {
+          "id": "de.a2u3.l01",
+          "type": "dialogue",
+          "titleZh": "一年前的今天",
+          "canDoZh": "能比较一年前和现在:住在哪儿、认识谁、会说什么",
+          "scenarioZh": "10 月 15 日是王伟搬进 WG 一周年。晚饭时约纳斯翻出手机里的照片:一年前王伟来看房,说的第一句德语是 Wie bitte?;王伟说 Vor einem Jahr war ich neu hier, ich hatte keine Freunde, mein Deutsch war schlecht. Jetzt …;索菲娅说她那时候也很紧张。说话人:jonas、wei、sofia。",
+          "grammarFocusZh": "war / hatte 全表(ich war, du warst, er war, wir waren, ihr wart, sie waren;hatte 同理);vor + 第三格 = ……以前(vor einem Jahr, vor zwei Wochen)"
+        },
+        {
+          "id": "de.a2u3.l02",
+          "type": "vocab",
+          "titleZh": "生活的变化",
+          "canDoZh": "能说出生活中的变化:习惯、能力和感受",
+          "scenarioZh": "A2 班上,瓦格纳老师布置作文《我的变化》,课前和王伟聊:以前他很害羞,不敢打电话,不会做德国菜,常常想家(das Heimweh);现在他会打电话、有工作、有很多朋友;老师问他还有什么困难——听懂方言和很快的口语。说话人:wagner、wei。",
+          "grammarFocusZh": "früher / damals / heute / jetzt 的对比;war / hatte + 形容词或名词(Ich war schüchtern / Ich hatte Heimweh)"
+        },
+        {
+          "id": "de.a2u3.l03",
+          "type": "grammar",
+          "titleZh": "那时候:sein 和 haben 的过去时",
+          "canDoZh": "能用 war / hatte / es gab 讲过去的情况,知道口语里这两个动词常用过去时",
+          "scenarioZh": "保罗为历史课采访霍夫曼先生:柏林以前是什么样子?霍夫曼先生说,他小时候城市被墙分成两半(die Mauer),西柏林的人不能随便去东边;Neukölln 有很多小工厂;他家没有电视,只有收音机;路上的车也没有现在多(es gab …)。保罗边记边问。说话人:paul、hoffmann。",
+          "grammarFocusZh": "sein / haben 的过去时全表;es gab 是 es gibt 的过去时;口语讲过去时,sein / haben 和情态动词常用过去时,其他动词常用完成时"
+        },
+        {
+          "id": "de.a2u3.r01",
+          "type": "reading",
+          "titleZh": "老照片里的 Neukölln",
+          "canDoZh": "能读懂配图的地方历史短文,说出以前和现在的不同",
+          "scenarioZh": "体裁:区博物馆网页上的老照片说明(博物馆不写真实名称)。五张八十年代的老照片:车很少的街道、一家老面包店(现在是咖啡馆)、柏林墙旁边的空地(现在是公园)、一所老学校、一个火车站;每张说明用过去时写那时候的样子,用现在时写现在。说话人:narrator(照片说明)。",
+          "grammarFocusZh": "war / hatte / es gab 和现在时的对比;年份的读法复习"
+        },
+        {
+          "id": "de.a2u3.l04",
+          "type": "dialogue",
+          "titleZh": "1989 年 11 月 9 日",
+          "canDoZh": "能听懂一段讲历史事件的个人回忆,问时间、地点和感受",
+          "scenarioZh": "11 月 9 日晚上,霍夫曼先生请 WG 喝茶,讲柏林墙倒塌那天:那年他三十多岁,是火车司机;晚上他在家听收音机,听说边境开放了,马上出门去了边境口;街上人山人海,大家又哭又笑,陌生人互相拥抱;第二天他的火车上全是从东边来的人。王伟和索菲娅问 Wie war das? Hatten Sie Angst?。说话人:hoffmann、wei、sofia。",
+          "grammarFocusZh": "war / hatte 和完成时在讲故事时的配合(Damals war ich Lokführer. Ich bin sofort losgegangen.);damals;时间顺序(am Abend, in der Nacht, am nächsten Tag)"
+        },
+        {
+          "id": "de.a2u3.l05",
+          "type": "vocab",
+          "titleZh": "城市的历史",
+          "canDoZh": "能说出和城市历史有关的常用词,简单介绍柏林的历史",
+          "scenarioZh": "周末莉娜带王伟去 Bernauer Straße 的柏林墙纪念地。她讲解:die Mauer、die Grenze、der Osten / der Westen、die DDR、die Wiedervereinigung、das Denkmal;王伟问了很多问题,也讲中国的长城。说话人:lena、wei。",
+          "grammarFocusZh": "war / gab 复习;年份和时间表达(im Jahr 1961, 28 Jahre lang)"
+        },
+        {
+          "id": "de.a2u3.l06",
+          "type": "grammar",
+          "titleZh": "从……以来:seit 和 vor",
+          "canDoZh": "能用 seit 说一件事从什么时候开始、到现在还在继续,用 vor 说多久以前",
+          "scenarioZh": "国际处给新生做问卷,王伟帮忙。问卷问 Seit wann sind Sie in Deutschland? Wie lange lernen Sie schon Deutsch?;王伟自己也答:Ich bin seit einem Jahr in Berlin. Ich lerne seit vierzehn Monaten Deutsch. Vor einem Jahr bin ich in die WG gezogen.;他把 seit 和完成时放在一起,莉娜纠正他。说话人:mitarbeiterin、wei、lena。",
+          "grammarFocusZh": "seit + 第三格 + 现在时复习(A1-9 学过:Ich wohne seit einem Jahr hier);vor + 第三格 + 过去时或完成时(Vor einem Jahr bin ich gekommen);Seit wann? / Wie lange schon? / Wann?"
+        },
+        {
+          "id": "de.a2u3.r02",
+          "type": "reading",
+          "titleZh": "霍夫曼先生的一生",
+          "canDoZh": "能读懂一个人的生平介绍,按时间说出他的重要经历",
+          "scenarioZh": "体裁:人物生平(保罗为历史课写的短文)。霍夫曼先生生在柏林 Neukölln;小时候家里不富裕,他有三个兄弟;十几岁开始学开火车,二十出头当上火车司机;后来结婚,有一个女儿;柏林墙倒塌那天他在柏林;六十五岁退休;他的太太几年前去世了;现在他喜欢火车、咖啡和楼上的年轻邻居。说话人:narrator(保罗的短文)。",
+          "grammarFocusZh": "生平里的过去时和完成时(war, hatte, ist geboren, hat geheiratet);用年龄讲经历(Mit 21 war er schon Lokführer;课文里不写他的出生年份);vor 和 seit"
+        },
+        {
+          "id": "de.a2u3.l07",
+          "type": "dialogue",
+          "titleZh": "成都以前和现在",
+          "canDoZh": "能介绍自己家乡以前和现在的变化,回答别人的问题",
+          "scenarioZh": "保罗也采访王伟:你小时候的成都是什么样子?王伟说十几年前成都还没有地铁,很多人骑自行车,他家的房子很小;现在有很多地铁线、高楼,大家用手机付钱;保罗很惊讶,问 Gab es damals schon Handys?。说话人:paul、wei。",
+          "grammarFocusZh": "war / hatte / es gab 和现在时的对比;vor + 时间段(vor fünfzehn Jahren)"
+        },
+        {
+          "id": "de.a2u3.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:我的一年",
+          "canDoZh": "能在课上做两分钟的小报告,讲自己一年来的变化",
+          "scenarioZh": "A2 班上,每个人做两分钟的报告《一年前和现在》。王伟讲:一年前刚来时住在哪儿、有什么困难;现在的生活、工作和朋友;最后讲计划。瓦格纳老师提问:Seit wann arbeiten Sie als Buddy? Was war am Anfang besonders schwer?。说话人:wei、wagner。",
+          "grammarFocusZh": "复习:war / hatte / es gab、seit / vor、完成时"
+        },
+        {
+          "id": "de.a2u3.r03",
+          "type": "reading",
+          "titleZh": "柏林墙倒塌的那一夜",
+          "canDoZh": "能读懂一篇简短的历史叙述,说出事件的时间、经过和结果",
+          "scenarioZh": "体裁:历史短文(青少年读物的写法)。1961 年柏林墙建起来,城市被分成两半,很多家庭分开了;1989 年秋天,东德很多人上街;11 月 9 日晚上边境突然开放,人们走过边境庆祝;1990 年德国统一;今天墙只剩下几段,10 月 3 日是德国统一日。只写简单的事实,不评论政治。说话人:narrator(短文)。",
+          "grammarFocusZh": "war / hatte / es gab;其他动词的过去时形式(kam, ging, öffnete)只认识,不要求会用(B1 学)"
+        }
+      ]
+    },
+    {
+      "id": "a2u4",
+      "unit": "A2-4 跳蚤市场",
+      "cefr": "A2",
+      "themeZh": "十一月,周日去跳蚤市场淘二手货、讨价还价、在 WG 清理没人认领的东西、陪索菲娅买大衣、给约纳斯过生日、在网上卖旧自行车、帮霍夫曼先生给外孙女挑礼物,办一次旧物交换会。",
+      "grammarZh": "第三格(二):人称代词的第三格(mir / dir / ihm / ihr / uns / euch / ihnen / Ihnen)和支配第三格的动词(gefallen、gehören、passen、stehen、helfen、schmecken、danken、gratulieren、fehlen)。",
+      "pronunciationZh": "第三格和第四格代词要听清、说清(ihm / ihn、ihr / sie、dir / dich、mir / mich);讨价还价时的语调。",
+      "lessons": [
+        {
+          "id": "de.a2u4.l01",
+          "type": "vocab",
+          "titleZh": "跳蚤市场上的东西",
+          "canDoZh": "能说出跳蚤市场上常见的旧东西,描述它们的材料和新旧",
+          "scenarioZh": "周日上午,莉娜带王伟和索菲娅去 Mauerpark 的跳蚤市场。摊位上有旧唱片、老相机、木头椅子、复古衣服、陶瓷杯子和旧书;他们说东西是什么做的(aus Holz / aus Glas / aus Leder)、新不新(gebraucht, wie neu, kaputt);索菲娅想给自己的房间找一盏灯。说话人:lena、wei、sofia。",
+          "grammarFocusZh": "aus + 材料(aus Holz, aus Metall)复习 aus 的第三格;描述状态的形容词(gebraucht, alt, wie neu)"
+        },
+        {
+          "id": "de.a2u4.l02",
+          "type": "dialogue",
+          "titleZh": "讨价还价",
+          "canDoZh": "能在跳蚤市场问价、还价、做决定",
+          "scenarioZh": "索菲娅看中一盏旧台灯,男摊主要 25 欧元。索菲娅说 Die Lampe gefällt mir, aber das ist mir zu teuer. Geht es billiger?(billiger 先当固定说法);摊主说 20;王伟帮腔说灯有一点坏;最后 15 欧元成交,摊主还送了一个灯泡。说话人:verkaeufer、sofia、wei。",
+          "grammarFocusZh": "Das gefällt mir / Das ist mir zu teuer(第三格代词 mir);还价的说法(Ich gebe Ihnen 15 Euro / Einverstanden!)"
+        },
+        {
+          "id": "de.a2u4.l03",
+          "type": "grammar",
+          "titleZh": "这是谁的?——第三格人称代词",
+          "canDoZh": "能用第三格人称代词说东西是谁的、喜不喜欢、合不合适",
+          "scenarioZh": "WG 大清理:客厅的箱子里有很多不知道是谁的东西。约纳斯拿起一样问一样:Wem gehört der Schal? – Der gehört mir! Gehört die Jacke dir, Sofia? – Nein, die gehört Lena.;最后一条旧裤子谁也不要,约纳斯说那就送给霍夫曼先生——大家都笑了。说话人:jonas、sofia、wei。",
+          "grammarFocusZh": "第三格人称代词全表(mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen);Wem? 问“给谁、是谁的”;gehören / gefallen + 第三格;和第四格代词对比(ihn / ihm, sie / ihr)"
+        },
+        {
+          "id": "de.a2u4.r01",
+          "type": "reading",
+          "titleZh": "跳蚤市场的规定和小提示",
+          "canDoZh": "能读懂活动网页上的规定和购物小提示",
+          "scenarioZh": "体裁:跳蚤市场网页(不写主办方的真实名称)。开放时间(每周日 9 到 18 点);怎么申请摊位;只收现金;早上去东西多,下午去更便宜;讲价很正常;自己带购物袋;不要买来路不明的自行车。说话人:narrator(网页)。",
+          "grammarFocusZh": "第三格介词复习(mit Bargeld, am Nachmittag);müssen / dürfen / können 复习"
+        },
+        {
+          "id": "de.a2u4.l04",
+          "type": "dialogue",
+          "titleZh": "这件大衣很适合你",
+          "canDoZh": "能评价衣服合不合身、好不好看,给朋友购物建议",
+          "scenarioZh": "索菲娅在服装店试冬天的大衣(der Mantel),王伟陪着。女店员说 Der Mantel steht Ihnen sehr gut!;索菲娅问王伟 Wie gefällt dir der Mantel? Passt er mir?;王伟说颜色很适合她,但袖子有点长;店员拿来小一号的。说话人:verkaeuferin、sofia、wei。",
+          "grammarFocusZh": "stehen / passen / gefallen + 第三格(Der Mantel steht dir / passt mir nicht / gefällt ihm);Wie gefällt dir …? 和 Wie findest du …? 两种问法"
+        },
+        {
+          "id": "de.a2u4.l05",
+          "type": "vocab",
+          "titleZh": "祝贺、感谢、帮忙:常用的第三格动词",
+          "canDoZh": "能用常见的第三格动词祝贺、感谢、帮忙、说想念",
+          "scenarioZh": "11 月 15 日约纳斯过 27 岁生日,这次只在 WG 小小地庆祝。大家说 Wir gratulieren dir!;霍夫曼先生说 Ich wünsche Ihnen alles Gute!;王伟问 Soll ich dir beim Kochen helfen? Schmeckt dir der Kuchen?;约纳斯谢谢大家,说他想念汉堡的家人(Mir fehlt meine Familie)。说话人:sofia、wei、jonas、hoffmann。",
+          "grammarFocusZh": "常用第三格动词:helfen, danken, gratulieren, schmecken, fehlen, antworten, zuhören;Mir fehlt …(主语是“缺的、想念的”东西或人)"
+        },
+        {
+          "id": "de.a2u4.l06",
+          "type": "dialogue",
+          "titleZh": "在网上卖旧自行车",
+          "canDoZh": "能和买家约时间看东西、回答问题、谈价格",
+          "scenarioZh": "王伟买了新自行车,想卖掉旧的。他在二手网站(不写真实名称)发了广告;一位男买家打电话来问:车多大、骑了几年、有什么问题、能不能便宜一点;两人约周六下午在 WG 楼下看车;买家试骑以后用 80 欧元买走了。说话人:wei、passant。",
+          "grammarFocusZh": "第三格代词复习(Passt Ihnen Samstag? / Gefällt es Ihnen?);Ich zeige es Ihnen 先当固定说法(两个宾语的动词第 8 单元讲);约时间复习"
+        },
+        {
+          "id": "de.a2u4.r02",
+          "type": "reading",
+          "titleZh": "二手广告",
+          "canDoZh": "能读懂、也能写一则二手买卖广告",
+          "scenarioZh": "体裁:二手网站上的广告。几则广告:王伟的旧自行车(多大、几年、价格、在哪儿取)、索菲娅的旧书桌、一台免费送的旧电视(zu verschenken)、有人想买二手冬靴;最后王伟照着这些例子写自己的广告。说话人:narrator(广告)。",
+          "grammarFocusZh": "广告里的常见结构(zu verkaufen / zu verschenken / VB = Verhandlungsbasis);第三格介词复习(mit Licht, ohne Schloss)"
+        },
+        {
+          "id": "de.a2u4.l07",
+          "type": "dialogue",
+          "titleZh": "帮霍夫曼先生挑礼物",
+          "canDoZh": "能帮别人出主意买礼物,问清楚对方喜欢什么、缺什么",
+          "scenarioZh": "霍夫曼先生 10 岁的外孙女(在慕尼黑,不出场)下个月过生日,他问王伟和索菲娅送什么好:Was gefällt Kindern heute?;两人建议书、游戏、积木——霍夫曼先生说她什么都不缺(Ihr fehlt nichts);最后决定送一个小火车模型和一张他亲手写的卡片,王伟帮他在网上订。说话人:hoffmann、wei、sofia。",
+          "grammarFocusZh": "第三格代词和第三格动词复习(Was gefällt ihr? / Das hilft ihr);复数名词的第三格加 -n(den Kindern)"
+        },
+        {
+          "id": "de.a2u4.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:旧物交换会",
+          "canDoZh": "能组织和参加一次交换活动,说东西是谁的、喜不喜欢、要不要",
+          "scenarioZh": "WG 在院子里办“旧物交换会”(der Tauschmarkt),请楼里的邻居和朋友来。约纳斯拿出旧锅,王伟拿出中文书,保罗拿出旧游戏,霍夫曼先生拿来一套老火车杯;大家问 Gefällt dir das? Brauchst du das? Wem gehört das hier?;最后剩下的东西送到慈善商店。说话人:jonas、wei、paul、hoffmann、lena。",
+          "grammarFocusZh": "复习:第三格代词和 gehören / gefallen / passen / fehlen"
+        },
+        {
+          "id": "de.a2u4.r03",
+          "type": "reading",
+          "titleZh": "我在跳蚤市场淘到的宝贝",
+          "canDoZh": "能读懂一篇讲购物经历的短文,说出东西的来历和作者的感受",
+          "scenarioZh": "体裁:博客(王伟)。他在跳蚤市场花 5 欧元买了一台旧胶片相机;摊主说这台相机以前属于一位摄影师;王伟买了胶卷,拍了 WG、霍夫曼先生和莉娜;照片洗出来有点模糊,可是他很喜欢;他觉得旧东西都有故事。说话人:wei(博客)。",
+          "grammarFocusZh": "第三格综合应用(Die Kamera hat einem Fotografen gehört);war / hatte 和完成时"
+        }
+      ]
+    },
+    {
+      "id": "a2u5",
+      "unit": "A2-5 在德国生病了",
+      "cefr": "A2",
+      "themeZh": "十一月,王伟得了流感:说自己哪里不舒服、打电话约家庭医生、看病拿病假条、读医保须知、朋友替他去药店、说症状、朋友来看望、病好了补课,也为新生写一份看病指南。",
+      "grammarZh": "反身动词:反身代词第四格(mich / dich / sich / uns / euch / sich)和常用反身动词(sich fühlen、sich erkälten、sich ausruhen、sich hinlegen、sich beeilen、sich freuen、sich anmelden);身体部位的第三格反身(Ich wasche mir die Hände)认识即可。",
+      "pronunciationZh": "sich 的 s 读 [z]、ch 读 [ç];mich / dich / sich / ich 里的 [ç] 不要读成 [ʃ] 或 [x]。",
+      "lessons": [
+        {
+          "id": "de.a2u5.l01",
+          "type": "dialogue",
+          "titleZh": "我觉得不舒服",
+          "canDoZh": "能说自己哪里不舒服、从什么时候开始,听懂朋友的建议",
+          "scenarioZh": "周一早上,王伟头疼、发烧、浑身疼。索菲娅问 Wie fühlst du dich?;王伟说 Ich fühle mich schlecht. Ich glaube, ich habe mich erkältet.;索菲娅让他躺下休息(Leg dich hin! Ruh dich aus!),帮他量体温:39 度;她说今天一定要去看家庭医生,还要请病假。说话人:sofia、wei。",
+          "grammarFocusZh": "反身动词 sich fühlen / sich erkälten / sich hinlegen / sich ausruhen;反身代词第四格(mich, dich, sich …);du 的命令式里的反身代词(Ruh dich aus!)"
+        },
+        {
+          "id": "de.a2u5.l02",
+          "type": "dialogue",
+          "titleZh": "打电话约医生",
+          "canDoZh": "能打电话预约看病,说清楚症状和情况急不急",
+          "scenarioZh": "王伟给诺伊曼医生的诊所打电话。前台问他的名字、出生日期和医保公司,有什么症状;今天上午的预约满了,但发烧的病人可以 11:30 来看急诊时段;前台提醒他戴口罩、带医保卡。说话人:arzthelferin、wei。",
+          "grammarFocusZh": "反身动词复习(Ich habe mich erkältet / Ich fühle mich nicht gut);预约的说法(Ich brauche einen Termin / Ich hätte gern einen Termin,hätte 先当固定说法,第二虚拟式第 15 单元讲)"
+        },
+        {
+          "id": "de.a2u5.l03",
+          "type": "grammar",
+          "titleZh": "您要好好休息:反身动词",
+          "canDoZh": "能正确使用常见的反身动词,说自己和别人的情况",
+          "scenarioZh": "诊所里,诺伊曼医生给王伟检查:是流感(die Grippe)。她说 Sie müssen sich ausruhen. Legen Sie sich ins Bett und trinken Sie viel.;请他下周再来复查;给他开了给大学和打工地方用的病假条(die Krankschreibung)。只说休息、多喝水,不写药名和剂量。说话人:aerztin、wei。",
+          "grammarFocusZh": "反身代词的形式和位置(Ich ruhe mich aus / Sie müssen sich ausruhen / Ruhen Sie sich aus!);只能反身用的动词(sich erkälten, sich beeilen)和可反身可不反身的动词(waschen / sich waschen)"
+        },
+        {
+          "id": "de.a2u5.r01",
+          "type": "reading",
+          "titleZh": "病假条和医保须知",
+          "canDoZh": "能读懂病假条和医保公司的简单说明,知道交给谁、什么时候交",
+          "scenarioZh": "体裁:病假条和医保公司网页上的说明(保险公司不写真实名称)。病假条上写着从哪天到哪天不能工作;说明里写:打工的学生也要把病假条交给雇主,最晚第三天交;看家庭医生用医保卡,不用当场付钱;有的药要自己付一部分(die Zuzahlung);晚上和周末身体不舒服、又不是急救的情况,可以打医疗值班电话(号码写在 noteZh 里)。说话人:narrator(说明)。",
+          "grammarFocusZh": "反身动词在说明里(sich krankmelden, sich anmelden);第三格介词复习(beim Arzt, beim Arbeitgeber)"
+        },
+        {
+          "id": "de.a2u5.l04",
+          "type": "dialogue",
+          "titleZh": "在药店",
+          "canDoZh": "能在药店说明症状、问药怎么用、问要不要处方",
+          "scenarioZh": "王伟发烧在家,索菲娅替他去药店。她跟药剂师说王伟的症状;药剂师问他多大、对什么过敏没有(allergisch),推荐了退烧的药和润喉糖,说要按说明书吃,建议多喝水、多休息;索菲娅问要不要处方(das Rezept)。不写药名和剂量。说话人:sofia、apotheker。",
+          "grammarFocusZh": "第三格代词复习(Können Sie mir etwas empfehlen? / Geben Sie ihm …);反身动词复习(Er soll sich ausruhen)"
+        },
+        {
+          "id": "de.a2u5.l05",
+          "type": "vocab",
+          "titleZh": "症状和疾病",
+          "canDoZh": "能说出常见的症状和疾病,描述得更具体",
+          "scenarioZh": "躺在床上的第二天,莉娜打视频电话来。王伟描述:Ich habe Husten, Schnupfen und Halsschmerzen. Mir ist schwindlig. Ich kann nicht schlafen.;莉娜说她妈妈(医生,不出场)说流感一般要一周左右才好;她教王伟几个词:die Grippe、der Husten、der Schnupfen、die Allergie、die Verletzung。说话人:lena、wei。",
+          "grammarFocusZh": "Mir ist schlecht / schwindlig / kalt(第三格 + sein);症状名词和 haben 的搭配(Husten haben, Fieber haben)"
+        },
+        {
+          "id": "de.a2u5.l06",
+          "type": "dialogue",
+          "titleZh": "朋友来看我",
+          "canDoZh": "能感谢来看望的朋友,接受或婉拒别人的帮助",
+          "scenarioZh": "第三天,霍夫曼先生端着鸡汤上楼,保罗带来几本漫画书;霍夫曼先生说 Sie müssen sich schonen, Herr Wang!;保罗问他是不是很无聊;王伟说 Das ist so nett von euch!;晚上约纳斯下班回来,给他做了一碗粥——他第一次做中国粥。说话人:hoffmann、paul、wei、jonas。",
+          "grammarFocusZh": "反身动词复习(sich schonen, sich freuen:Ich freue mich!);Das ist nett von dir / von Ihnen(von + 第三格)"
+        },
+        {
+          "id": "de.a2u5.r02",
+          "type": "reading",
+          "titleZh": "诊所候诊室的通知",
+          "canDoZh": "能读懂诊所里的通知和健康海报",
+          "scenarioZh": "体裁:诊所的通知和健康海报。通知:流感季节请戴口罩,先在前台登记,诊所的开放时间和节假日关门的日期;海报:怎么预防流感——常洗手(sich die Hände waschen)、可以考虑打流感疫苗(问医生)、多休息、咳嗽时用胳膊挡住。只写一般建议。说话人:narrator(通知和海报)。",
+          "grammarFocusZh": "身体部位的第三格反身认识(Waschen Sie sich die Hände!);Sie 的命令式和反身代词(Melden Sie sich bitte an!)"
+        },
+        {
+          "id": "de.a2u5.l07",
+          "type": "dialogue",
+          "titleZh": "病好了,去补课",
+          "canDoZh": "能向老师说明缺课的原因,问补课和作业的事",
+          "scenarioZh": "一周后王伟好了。他去找瓦格纳老师:Entschuldigung, ich war eine Woche krank.;老师问他现在感觉怎么样、要不要补做小测验;王伟问落下的作业和要读的材料;老师说病假条要交到语言中心的办公室。说话人:wei、wagner。",
+          "grammarFocusZh": "反身动词复习(Ich fühle mich wieder gut / Ich habe mich gut erholt);war / hatte(Ich war krank / Ich hatte hohes Fieber)"
+        },
+        {
+          "id": "de.a2u5.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:怎么保持健康",
+          "canDoZh": "能说说自己怎么保持健康,和别人交流好习惯",
+          "scenarioZh": "大学健康周有一个讲座(讲座不出场),之后王伟、莉娜和索菲娅在食堂讨论平时怎么照顾自己:莉娜每天游泳;索菲娅压力大的时候睡不好;王伟喜欢喝热水,德国同学觉得很奇怪;每个人说一个最近想改的习惯(Ich will mich mehr bewegen / Ich muss mich besser entspannen)。说话人:wei、lena、sofia。",
+          "grammarFocusZh": "复习:反身动词(sich bewegen, sich entspannen, sich gesund ernähren)、第三格代词、频率副词"
+        },
+        {
+          "id": "de.a2u5.r03",
+          "type": "reading",
+          "titleZh": "在德国看病:给新生的小指南",
+          "canDoZh": "能读懂一份看病指南,知道生病时先做什么、去哪儿、带什么",
+          "scenarioZh": "体裁:指南(王伟为他辅导的新生写的)。生病了先给家庭医生打电话预约;带医保卡;病假条交给学校和雇主;晚上和周末有值班的医生和值班药店(die Notdienstapotheke);真正紧急的情况打 112;很多药在药店买,有的要处方。最后一句:别等病重了才去看医生。说话人:wei(指南)。",
+          "grammarFocusZh": "反身动词和第三格的综合应用;建议的说法(Am besten …, Man muss …)"
+        }
+      ]
+    },
+    {
+      "id": "a2u6",
+      "unit": "A2-6 为什么学外语?",
+      "cefr": "A2",
+      "themeZh": "十一月底,莉娜在大学办语言咖啡馆:大家讲为什么学外语、怎么学、难在哪儿,王伟和莉娜重新约定语伴练习,保罗决定选中文课,王伟用德语给保罗上第一节中文课。",
+      "grammarZh": "weil 从句:变位动词放在从句末尾,可分动词合在一起;从句放在句首时主句的动词紧跟在逗号后(Weil …, lerne ich …);weil 和 denn 的区别。",
+      "pronunciationZh": "从句的语调和停顿:主句和从句之间稍停,从句末尾的动词要读清楚;语言名称的重音(Italienisch、Chinesisch、Japanisch)。",
+      "lessons": [
+        {
+          "id": "de.a2u6.l01",
+          "type": "dialogue",
+          "titleZh": "语言咖啡馆",
+          "canDoZh": "能在语言交流活动上介绍自己学什么语言、学了多久、为什么学",
+          "scenarioZh": "莉娜在大学组织每周二晚上的语言咖啡馆(das Sprachcafé)。第一次活动,王伟、索菲娅和保罗都来了;大家轮流说:Ich lerne Deutsch, weil ich in Berlin studiere. / Lena lernt Chinesisch, weil sie chinesische Filme mag.;保罗说他想学中文,因为他以后想去中国。说话人:lena、wei、sofia、paul。",
+          "grammarFocusZh": "weil 从句初见:变位动词放在最后(…, weil ich hier studiere);情态动词在从句末尾(…, weil ich in China arbeiten möchte)"
+        },
+        {
+          "id": "de.a2u6.l02",
+          "type": "vocab",
+          "titleZh": "学语言的方法和困难",
+          "canDoZh": "能说出常见的学语言方法和困难",
+          "scenarioZh": "语言咖啡馆的话题卡片:怎么学外语?大家说:mit Karteikarten Vokabeln lernen、Podcasts hören、Serien mit Untertiteln sehen、mit Muttersprachlern sprechen、Grammatik üben、Tagebuch schreiben;困难:die Aussprache、die Grammatik、der Wortschatz、das Hörverstehen;王伟说他最怕 der / die / das,莉娜说中文最难的是声调和汉字。说话人:lena、wei、sofia。",
+          "grammarFocusZh": "学习用语(die Aussprache, der Wortschatz, üben, wiederholen);weil 复习"
+        },
+        {
+          "id": "de.a2u6.l03",
+          "type": "grammar",
+          "titleZh": "因为……:weil 从句",
+          "canDoZh": "能用 weil 说明理由,把原因放在句末或者句首",
+          "scenarioZh": "A2 班讨论“为什么学德语”。瓦格纳老师先收集大家的答案,再讲 weil 的语序;王伟练习把 denn 换成 weil:Ich lerne Deutsch, denn ich studiere hier → …, weil ich hier studiere;Weil ich in Deutschland arbeiten will, lerne ich jeden Tag.;老师提醒他:可分动词在从句里要合起来(…, weil der Kurs um sechs anfängt)。说话人:wagner、wei。",
+          "grammarFocusZh": "weil 从句:变位动词在最后,可分动词合起来(…, weil der Kurs früh anfängt),完成时的 haben / sein 在最后(…, weil ich krank gewesen bin);从句在前时主句动词紧跟逗号(Weil …, lerne ich …);和 denn 的语序对比"
+        },
+        {
+          "id": "de.a2u6.r01",
+          "type": "reading",
+          "titleZh": "语言咖啡馆的海报",
+          "canDoZh": "能读懂活动海报,找出时间、地点、参加方式和规则",
+          "scenarioZh": "体裁:活动海报(莉娜做的)。语言咖啡馆:每周二 19 到 21 点,在学生咖啡馆;不用报名,免费;规则:前半个小时说一种语言,后半个小时换另一种;不要一直说英语;初学者也欢迎;有中文桌、德语桌、西班牙语桌和阿拉伯语桌。说话人:narrator(海报)。",
+          "grammarFocusZh": "第三格介词复习(im Studentencafé, mit Muttersprachlern);weil 在书面语里的用法"
+        },
+        {
+          "id": "de.a2u6.l04",
+          "type": "dialogue",
+          "titleZh": "语伴的约定",
+          "canDoZh": "能和语伴商量见面的时间、方式和纠错的规则",
+          "scenarioZh": "王伟和莉娜重新约定语伴练习:每周一次,一小时中文、一小时德语;莉娜想让王伟帮她准备中文考试(HSK 3),王伟想让莉娜帮他练 A2 口语;两人商量在哪儿见面,怎么纠错(Soll ich dich sofort korrigieren? – Nein, lieber am Ende.)。说话人:wei、lena。",
+          "grammarFocusZh": "weil 复习;sollen / wollen 复习;纠错的说法(Korrigier mich bitte! / Wie sagt man das richtig?)"
+        },
+        {
+          "id": "de.a2u6.l05",
+          "type": "vocab",
+          "titleZh": "国家、语言和国籍",
+          "canDoZh": "能说出更多国家、语言和国籍的名称",
+          "scenarioZh": "语言咖啡馆里来了很多国家的学生(只提到,不出场):西班牙、日本、韩国、土耳其、法国、巴西……莉娜做了一张表,大家练 das Land – die Sprache – die Nationalität(Spanien – Spanisch – der Spanier / die Spanierin);王伟发现有的国家名要带冠词(die Türkei, die Schweiz, die USA)。说话人:lena、wei、sofia。",
+          "grammarFocusZh": "国家、语言、国籍的构词(-er / -erin, -isch);带冠词的国家(in der Türkei, aus der Schweiz,复习第三格)"
+        },
+        {
+          "id": "de.a2u6.l06",
+          "type": "dialogue",
+          "titleZh": "保罗要选第三外语",
+          "canDoZh": "能和别人讨论一个选择,说出理由和看法",
+          "scenarioZh": "保罗学校的高年级可以选第三外语:法语、西班牙语或中文。他问王伟和莉娜的意见;莉娜支持中文,因为她自己在学;保罗的朋友都选西班牙语,他有点犹豫;王伟说中文的语法简单,但汉字很难;最后保罗决定选中文,因为他以后想去中国看看。说话人:paul、wei、lena。",
+          "grammarFocusZh": "weil 和 denn 复习;说看法(Ich finde … / Ich glaube …,dass 从句第 9 单元讲)"
+        },
+        {
+          "id": "de.a2u6.r02",
+          "type": "reading",
+          "titleZh": "莉娜的学习博客:我怎么学中文",
+          "canDoZh": "能读懂一篇讲学习方法的博客,找出作者的方法和建议",
+          "scenarioZh": "体裁:博客(莉娜写的)。莉娜两年前开始学中文,因为她喜欢中国电影;她每天用 App 练 20 分钟汉字,每周和王伟练一次口语;最难的是声调,有一次她把“买”和“卖”说反了,店员听糊涂了;她的建议:别怕犯错,每天学一点,找一个语伴。说话人:narrator(莉娜的博客)。",
+          "grammarFocusZh": "weil 从句的书面应用;seit / vor 复习(Ich lerne seit zwei Jahren …)"
+        },
+        {
+          "id": "de.a2u6.l07",
+          "type": "dialogue",
+          "titleZh": "第一节中文课",
+          "canDoZh": "能用德语简单地解释另一种语言的规则",
+          "scenarioZh": "周六保罗来 WG 上他的第一节中文课。王伟用德语解释:中文没有 der / die / das,动词也不变位,但是有四个声调(他用手势比画);保罗说 Super, weil ich keine Verben konjugieren muss!,可是汉字让他头疼;约纳斯在旁边学会了说“你好”。说话人:wei、paul、jonas。",
+          "grammarFocusZh": "weil 复习;比较两种语言的说法(Im Chinesischen gibt es keine Artikel / Im Deutschen muss man …)"
+        },
+        {
+          "id": "de.a2u6.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:学外语最重要的是什么?",
+          "canDoZh": "能在小组讨论里说出自己的看法和理由,回应别人",
+          "scenarioZh": "这周语言咖啡馆的话题是“学外语,最重要的是什么?”莉娜说是勇气,索菲娅说是多听,王伟说是每天练习,保罗说是好老师(说完看着王伟笑);大家用 weil 说理由,互相同意或不同意(Da hast du recht. / Das sehe ich anders.)。说话人:lena、sofia、wei、paul。",
+          "grammarFocusZh": "复习:weil / denn;同意和不同意的说法"
+        },
+        {
+          "id": "de.a2u6.r03",
+          "type": "reading",
+          "titleZh": "多语言的柏林",
+          "canDoZh": "能读懂一篇介绍城市语言情况的短文,说出几个事实",
+          "scenarioZh": "体裁:报纸短文。柏林住着来自很多国家的人,街上能听到土耳其语、阿拉伯语、波兰语、英语、中文……很多孩子在家说一种语言、在学校说德语;城里有很多语言学校和语言咖啡馆;文章最后转述了一位会说四种语言的小学老师的话。不写具体统计数字。说话人:narrator(短文)。",
+          "grammarFocusZh": "weil 从句;国家和语言的说法复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u7",
+      "unit": "A2-7 小时候",
+      "cefr": "A2",
+      "themeZh": "十二月初,保罗做“上学的时候”采访作业:问王伟、霍夫曼先生和莉娜小时候在学校和家里必须做什么、不许做什么、想做什么,比较中德两国的学校,说没实现的计划,聊小时候的梦想。",
+      "grammarZh": "情态动词的过去时(konnte、musste、wollte、durfte、sollte、mochte)和人称词尾(ich konnte, du konntest, wir konnten …);口语里情态动词讲过去常用过去时,不用完成时。",
+      "pronunciationZh": "过去时没有变音、现在时有变音:durfte / dürfen、musste / müssen、konnte / können(o、u 和 ö、ü 的对比);词尾 -te 要读清楚。",
+      "lessons": [
+        {
+          "id": "de.a2u7.l01",
+          "type": "dialogue",
+          "titleZh": "那时候不许……",
+          "canDoZh": "能说小时候必须做什么、不许做什么、想做什么",
+          "scenarioZh": "保罗的社会课作业:采访不同年龄的人,问他们上学时的规矩。他先问王伟:小学时可以带手机吗?王伟说不可以,而且他们必须穿校服、每天早上做操、晚上写很多作业;他小时候想当飞行员。说话人:paul、wei。",
+          "grammarFocusZh": "musste / durfte / wollte / konnte 初见(Ich musste eine Schuluniform tragen / Wir durften kein Handy haben);和现在时对比"
+        },
+        {
+          "id": "de.a2u7.l02",
+          "type": "vocab",
+          "titleZh": "学校和学科",
+          "canDoZh": "能说出学校的类型、学科和成绩的说法",
+          "scenarioZh": "学师范的莉娜给王伟讲德国的学校:Grundschule(四年)、Gymnasium、Gesamtschule、das Abitur;学科 Mathe、Deutsch、Englisch、Bio、Kunst、Sport;成绩从 1 到 6,1 最好;王伟讲中国的小学、初中、高中和高考,分数是百分制。说话人:lena、wei。",
+          "grammarFocusZh": "学校用语;in der Schule / auf dem Gymnasium(固定说法);eine Note bekommen"
+        },
+        {
+          "id": "de.a2u7.l03",
+          "type": "grammar",
+          "titleZh": "konnte、musste、durfte:情态动词的过去时",
+          "canDoZh": "能用情态动词的过去时讲过去的能力、义务、愿望和许可",
+          "scenarioZh": "保罗采访霍夫曼先生:他小时候上学,老师很严格,学生回答问题必须站起来,上课不许说话;他从小就想当火车司机——后来真的当了;他不能常看电视,因为家里没有电视。课文不写年份,只说 damals / als Kind。说话人:paul、hoffmann。",
+          "grammarFocusZh": "情态动词过去时全表(ich konnte, du konntest, er konnte, wir konnten, ihr konntet, sie konnten;durfte, musste, sollte, wollte, mochte 同理);过去时去掉变音;口语里情态动词讲过去用过去时"
+        },
+        {
+          "id": "de.a2u7.r01",
+          "type": "reading",
+          "titleZh": "校规今昔",
+          "canDoZh": "能读懂两份不同年代的校规,比较有什么不同",
+          "scenarioZh": "体裁:校规(一份几十年前的老校规、一份今天的,保罗从学校档案和网站找来的)。老校规:学生必须穿得整齐、见到老师要问好、上课不许说话、男生不许留长发;今天的:上课不能用手机、要尊重别人、垃圾要分类、可以在校园里骑车……下面是保罗写的比较。说话人:narrator(校规和保罗的比较)。",
+          "grammarFocusZh": "情态动词过去时和现在时对比(Damals durften die Schüler … / Heute dürfen sie …)"
+        },
+        {
+          "id": "de.a2u7.l04",
+          "type": "dialogue",
+          "titleZh": "莉娜的小学",
+          "canDoZh": "能讲自己小时候在学校的一件事",
+          "scenarioZh": "保罗也采访姐姐莉娜:上小学第一天,她抱着一个大大的入学礼包(die Schultüte);她数学不好,必须去补习;她想当老师,因为她很喜欢自己的小学老师;保罗问 Durftest du damals Videospiele spielen?,莉娜说只能周末玩一个小时。说话人:paul、lena。",
+          "grammarFocusZh": "情态动词过去时复习;weil 复习(Ich wollte Lehrerin sein, weil …)"
+        },
+        {
+          "id": "de.a2u7.l05",
+          "type": "vocab",
+          "titleZh": "童年:玩具、游戏和家务",
+          "canDoZh": "能说出小时候的玩具、游戏和家务,讲自己的童年",
+          "scenarioZh": "WG 晚饭时聊童年:约纳斯小时候在汉堡港口边踢球、帮爸爸洗车;索菲娅小时候跟奶奶学做意大利面;王伟小时候和奶奶下象棋、看动画片;大家用 Als Kind musste ich … / Als Kind wollte ich … 说话。说话人:jonas、sofia、wei。",
+          "grammarFocusZh": "als Kind(小时候,固定说法;als 从句 B1 才讲);玩具和游戏的词;情态动词过去时"
+        },
+        {
+          "id": "de.a2u7.l06",
+          "type": "dialogue",
+          "titleZh": "我本来想去的",
+          "canDoZh": "能说明一个计划为什么没实现:想做但不能、必须做别的事",
+          "scenarioZh": "周二晚上王伟没去莉娜的语言咖啡馆。第二天莉娜问他为什么没来;王伟说 Ich wollte kommen, aber ich konnte nicht. Ich musste meine Projektarbeit fertig machen.,而且他应该(sollte)当天把报告发给老师;索菲娅也没去,因为她的设计课到很晚。说话人:lena、wei、sofia。",
+          "grammarFocusZh": "用情态动词过去时说没实现的计划(Ich wollte …, aber ich konnte nicht …);weil 复习"
+        },
+        {
+          "id": "de.a2u7.r02",
+          "type": "reading",
+          "titleZh": "中国和德国的学校",
+          "canDoZh": "能读懂一篇比较两国学校的短文,说出几个不同点",
+          "scenarioZh": "体裁:保罗的作业(采访总结)。他写:在中国,学生学习时间很长、作业多、高考很重要;在德国,小学四年以后就分到不同的学校,下午课少,很多学生参加俱乐部;霍夫曼先生小时候老师很严;王伟小时候必须穿校服;莉娜小时候只有周末能玩游戏……结论:每个国家都不一样,也都有好的地方。说话人:narrator(保罗的作业)。",
+          "grammarFocusZh": "情态动词过去时和 war / hatte 的综合应用;weil"
+        },
+        {
+          "id": "de.a2u7.l07",
+          "type": "dialogue",
+          "titleZh": "保罗彩排报告",
+          "canDoZh": "能做一个简短的报告,介绍采访的结果,回答听众的问题",
+          "scenarioZh": "保罗在 WG 客厅彩排他的报告:三个采访对象、他们以前必须做什么、不许做什么、和今天有什么不同;约纳斯和索菲娅当听众提问;王伟纠正他关于中国的一个错误(中国学生不是每天都学到半夜)。说话人:paul、jonas、sofia、wei。",
+          "grammarFocusZh": "报告的结构(Zuerst …, dann …, zum Schluss …;Ich habe drei Personen interviewt);情态动词过去时"
+        },
+        {
+          "id": "de.a2u7.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:小时候的梦想",
+          "canDoZh": "能和别人聊小时候的梦想和现在的计划",
+          "scenarioZh": "圣诞节前的一个晚上,WG 和莉娜在厨房烤圣诞饼干(die Plätzchen),聊小时候的梦想:约纳斯想当足球运动员,索菲娅想当歌手,莉娜一直想当老师,王伟以前想当飞行员,现在想做程序员;霍夫曼先生说他小时候的梦想实现了。说话人:jonas、sofia、lena、wei、hoffmann。",
+          "grammarFocusZh": "复习:情态动词过去时、war / hatte、weil、als Kind"
+        },
+        {
+          "id": "de.a2u7.r03",
+          "type": "reading",
+          "titleZh": "我第一天上学(霍夫曼先生的回忆)",
+          "canDoZh": "能读懂一篇回忆文章,说出时间、人物和感受",
+          "scenarioZh": "体裁:回忆短文(霍夫曼先生给区里的小报“老邻居讲故事”栏目写的)。他六岁那年九月第一天上学:妈妈给他做了一个入学礼包,里面有糖和铅笔;老师很严,他很害怕;他不能和好朋友坐在一起;下午回家他哭了,可是第二天他又想去学校了。课文不写年份。说话人:narrator(短文)。",
+          "grammarFocusZh": "过去时(war, hatte, musste, durfte, konnte, wollte)综合;其他动词的过去时(ging, kam)只认识"
+        }
+      ]
+    },
+    {
+      "id": "a2u8",
+      "unit": "A2-8 圣诞礼物",
+      "cefr": "A2",
+      "themeZh": "十二月,圣诞节前:WG 和朋友们抽签互送礼物(Wichteln)、给家人和朋友挑礼物、请店员推荐、读圣诞市场推荐、过降临节、去邮局寄礼物回中国、写圣诞卡,揭晓谁送了谁。",
+      "grammarZh": "带两个宾语的动词(schenken、geben、zeigen、bringen、empfehlen、erklären、kaufen + 第三格的人 + 第四格的东西)和两个宾语的语序:都是名词时先第三格后第四格,第四格是代词时代词在前。",
+      "pronunciationZh": "句子重音放在新信息上(Ich schenke meiner Mutter einen SCHAL / Ich schenke ihn MEINER MUTTER);冠词和代词读得轻。",
+      "lessons": [
+        {
+          "id": "de.a2u8.l01",
+          "type": "dialogue",
+          "titleZh": "抽签送礼物",
+          "canDoZh": "能参加抽签送礼物的活动,说明规则,商量送什么",
+          "scenarioZh": "十二月初,索菲娅提议 WG 和朋友们玩“秘密圣诞老人”(das Wichteln):每人抽一个名字,给这个人买一份 10 欧元以内的礼物,不能说出来;王伟抽到霍夫曼先生,约纳斯抽到保罗;大家偷偷商量:Was schenkst du ihm?。说话人:sofia、wei、jonas、lena。",
+          "grammarFocusZh": "schenken + 第三格(人)+ 第四格(东西):Ich schenke ihm ein Buch;Wem schenkst du was?"
+        },
+        {
+          "id": "de.a2u8.l02",
+          "type": "vocab",
+          "titleZh": "挑礼物",
+          "canDoZh": "能说出常见的礼物,说某个人可能喜欢什么、需要什么",
+          "scenarioZh": "王伟和莉娜去 Kreuzberg 的小店给家人和朋友找礼物:给奶奶的羊毛围巾、给爸爸的德国厨刀(约纳斯推荐的)、给妈妈的英文小说、给豆豆的木头玩具、给姐姐的护手霜……莉娜问 Was mag deine Schwester? Was braucht dein Vater?。说话人:lena、wei。",
+          "grammarFocusZh": "礼物名词复习;für + 第四格和第三格的两种说法对比(ein Geschenk für meine Oma / Ich schenke meiner Oma …)"
+        },
+        {
+          "id": "de.a2u8.l03",
+          "type": "grammar",
+          "titleZh": "我送她一条围巾:两个宾语的语序",
+          "canDoZh": "能正确地说“给谁什么”,知道两个宾语的先后顺序",
+          "scenarioZh": "在小店里,女店员问王伟找什么;他说 Ich suche ein Geschenk für meine Oma.;店员给他看几条围巾(Ich zeige Ihnen …),讲质量;王伟买下一条红围巾,问 Können Sie ihn mir einpacken?;店员说 Gern, ich packe ihn Ihnen ein.。说话人:verkaeuferin、wei。",
+          "grammarFocusZh": "两个名词:先第三格(人)后第四格(东西)(Ich schenke meiner Oma einen Schal);第四格是代词时代词在前(Ich schenke ihn meiner Oma / Ich schenke ihn ihr);常用动词 geben, schenken, zeigen, bringen, empfehlen, erklären, kaufen"
+        },
+        {
+          "id": "de.a2u8.r01",
+          "type": "reading",
+          "titleZh": "圣诞市场推荐",
+          "canDoZh": "能读懂圣诞市场的推荐文章,找出地点、开放时间和特色",
+          "scenarioZh": "体裁:城市网站上的推荐文章(主办方不写真实名称)。三个市场:宫殿前的大市场(漂亮、人多、贵)、Kreuzberg 的小市场(手工艺品、素食小吃)、只在周末开的中世纪风格市场;每个写着开放时间、交通、推荐吃什么、适合谁。说话人:narrator(推荐文章)。",
+          "grammarFocusZh": "两个宾语的动词和第三格介词在推荐文章里(Wir empfehlen Ihnen …)"
+        },
+        {
+          "id": "de.a2u8.l04",
+          "type": "dialogue",
+          "titleZh": "请店员推荐",
+          "canDoZh": "能请店员推荐、比较几样东西,最后做决定",
+          "scenarioZh": "约纳斯要给保罗买 10 欧元以内的礼物,去了一家游戏店。男店员问保罗多大、喜欢什么游戏,说 Ich empfehle Ihnen …;约纳斯嫌太贵;最后店员给他看一套足球卡片,约纳斯很满意。说话人:jonas、verkaeufer。",
+          "grammarFocusZh": "empfehlen / zeigen / geben + 第三格 + 第四格(Können Sie mir etwas empfehlen? / Zeigen Sie mir bitte …);和店员说话用 Sie"
+        },
+        {
+          "id": "de.a2u8.l05",
+          "type": "vocab",
+          "titleZh": "降临节和圣诞传统",
+          "canDoZh": "能说出德国圣诞节前后的主要传统和节日用语",
+          "scenarioZh": "霍夫曼先生请 WG 去他家过第二个降临节周日:桌上有降临节花环(der Adventskranz),点着两支蜡烛;他讲降临节日历(der Adventskalender)、圣诞树、12 月 6 日的圣尼古拉日(孩子们把鞋放在门外)、圣诞夜(Heiligabend)交换礼物;王伟说中国的年轻人也过圣诞,但多在商场里。说话人:hoffmann、wei、sofia。",
+          "grammarFocusZh": "节日用语(Frohe Weihnachten! / Schöne Feiertage!);两个宾语的动词复习(Der Nikolaus bringt den Kindern Süßigkeiten)"
+        },
+        {
+          "id": "de.a2u8.l06",
+          "type": "dialogue",
+          "titleZh": "寄礼物回中国",
+          "canDoZh": "能在邮局寄国际包裹,问清楚价格、时间和要填的单子",
+          "scenarioZh": "王伟到邮局给成都的家人寄礼物。男邮局职员问包裹里有什么、值多少钱,要填海关申报单(die Zollerklärung);到中国要两到三周;职员建议他别寄吃的;王伟问 Wie lange dauert das? Was kostet das mit Versicherung?。说话人:wei、postangestellter。",
+          "grammarFocusZh": "两个宾语的动词复习(Ich schicke meinen Eltern ein Paket / Ich schicke es ihnen);填单子的说法"
+        },
+        {
+          "id": "de.a2u8.r02",
+          "type": "reading",
+          "titleZh": "圣诞卡",
+          "canDoZh": "能读懂、也能写圣诞卡和新年祝福",
+          "scenarioZh": "体裁:贺卡。几张卡片:霍夫曼先生写给 WG 的、莉娜写给王伟的、王伟写给瓦格纳老师的(用 Sie)、索菲娅写给意大利家人的(德语版);每张 3–4 句:祝福、感谢和对新年的愿望。说话人:narrator(贺卡)。",
+          "grammarFocusZh": "祝福的常用说法(Frohe Weihnachten und einen guten Rutsch! / Ich wünsche dir …);两个宾语的动词"
+        },
+        {
+          "id": "de.a2u8.l07",
+          "type": "dialogue",
+          "titleZh": "揭晓:是谁送的?",
+          "canDoZh": "能拆礼物、猜是谁送的,道谢并说喜欢",
+          "scenarioZh": "12 月 20 日,大家在 WG 交换礼物。霍夫曼先生拿到一本柏林老火车的书,猜 Haben Sie mir das geschenkt, Herr Wang?;保罗收到足球卡片,高兴得跳起来;王伟收到一枚刻着中文名字的印章——原来是保罗送的;大家说 Danke! Das gefällt mir sehr!。说话人:hoffmann、wei、paul、lena、jonas、sofia。",
+          "grammarFocusZh": "两个宾语的语序复习(Wer hat es dir geschenkt?);第三格代词复习"
+        },
+        {
+          "id": "de.a2u8.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:最后的礼物清单",
+          "canDoZh": "能和朋友商量送礼物的计划:送谁、送什么、在哪儿买、花多少钱",
+          "scenarioZh": "王伟和索菲娅在 WG 列最后的礼物清单:还要给谁买(瓦格纳老师——老师一般不收贵重礼物,送卡片和饼干);约纳斯想要一把好刀,太贵了,大家决定一起送;索菲娅问 Kaufst du deinem Vater wirklich ein Messer?;两人分工去买。说话人:wei、sofia。",
+          "grammarFocusZh": "复习:两个宾语的动词和语序、第三格代词"
+        },
+        {
+          "id": "de.a2u8.r03",
+          "type": "reading",
+          "titleZh": "德国人送什么礼物?",
+          "canDoZh": "能读懂一篇关于送礼习惯的短文,和中国的习惯对比",
+          "scenarioZh": "体裁:杂志短文。德国人圣诞节常送书、衣服、代金券、自己烤的饼干;礼物常常当面打开,马上道谢;贵重的礼物只送很亲近的人;给老师、同事一般送小东西。最后几句是王伟的比较:在中国收到礼物常常不当面打开;过年给孩子红包很常见。说话人:narrator(短文)、wei(最后几句)。",
+          "grammarFocusZh": "两个宾语的动词;man 和 weil 复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u9",
+      "unit": "A2-9 在莉娜家过圣诞",
+      "cefr": "A2",
+      "themeZh": "圣诞节,王伟第一次去莉娜家过圣诞夜:做客的礼节、圣诞饭菜、交换礼物后聊各国过节的习惯、节后散步、节日和新年之间的假期活动,回到课堂讲自己的节日。",
+      "grammarZh": "dass 从句(Ich finde / glaube / hoffe / weiß / denke, dass …;Es ist schön, dass …):变位动词放在从句末尾;从句里的完成时和情态动词。",
+      "pronunciationZh": "惊讶和赞叹的语调(Wirklich? Echt? Das wusste ich nicht!);dass 和 das 读音一样、写法不同。",
+      "lessons": [
+        {
+          "id": "de.a2u9.l01",
+          "type": "dialogue",
+          "titleZh": "第一次去朋友家过节",
+          "canDoZh": "能在别人家做客时寒暄、送小礼物、表示感谢",
+          "scenarioZh": "12 月 24 日下午,王伟第一次去莉娜家过圣诞夜(Heiligabend)。莉娜的爸爸妈妈和奶奶都在(不出场说话,由莉娜转述);王伟带了花和中国点心;莉娜说 Schön, dass du da bist!;王伟问要不要脱鞋(在德国一般不用);保罗带他看圣诞树。说话人:lena、wei、paul。",
+          "grammarFocusZh": "dass 从句初见:Schön, dass du da bist! / Ich hoffe, dass es euch schmeckt.;做客的礼貌用语"
+        },
+        {
+          "id": "de.a2u9.l02",
+          "type": "vocab",
+          "titleZh": "圣诞饭菜",
+          "canDoZh": "能说出节日饭菜的名称,评价饭菜",
+          "scenarioZh": "莉娜家圣诞夜吃得很简单:土豆沙拉和小香肠(很多德国家庭这样过),第二天才吃烤鹅(die Gans)、红甘蓝(der Rotkohl)和土豆丸子(die Klöße),甜点是圣诞果脯蛋糕(der Stollen);莉娜解释每道菜,王伟说 Ich wusste nicht, dass …。说话人:lena、wei、paul。",
+          "grammarFocusZh": "菜名和评价(lecker, süß, deftig, satt sein);Ich wusste nicht, dass …"
+        },
+        {
+          "id": "de.a2u9.l03",
+          "type": "grammar",
+          "titleZh": "我觉得……:dass 从句",
+          "canDoZh": "能用 dass 从句说出看法、希望和知道的事",
+          "scenarioZh": "交换礼物以后,大家坐着聊天。保罗问王伟觉得德国的圣诞节怎么样;王伟说 Ich finde, dass Weihnachten hier sehr ruhig ist.;莉娜说 Ich hoffe, dass ich nächstes Jahr Chinesisches Neujahr in China feiern kann.;保罗说 Ich weiß, dass du Jiaozi vermisst!。说话人:paul、wei、lena。",
+          "grammarFocusZh": "dass 从句:变位动词放在最后(…, dass Weihnachten hier ruhig ist);常见的引导动词 finden / glauben / hoffen / wissen / denken / sagen;Es ist + 形容词 + dass;从句里的情态动词和可分动词"
+        },
+        {
+          "id": "de.a2u9.r01",
+          "type": "reading",
+          "titleZh": "香草月牙饼干的菜谱",
+          "canDoZh": "能读懂烤饼干的菜谱,说出材料和步骤",
+          "scenarioZh": "体裁:菜谱(莉娜妈妈手写的卡片,莉娜拍照发给王伟)。香草月牙饼干(Vanillekipferl):面粉、黄油、糖、杏仁、香草糖;步骤:揉面、冷藏一小时、做成月牙形、180 度烤 12 分钟、趁热撒糖;最后一句:别一次吃太多!说话人:narrator(菜谱)。",
+          "grammarFocusZh": "菜谱里的不定式和命令式复习;数量复习"
+        },
+        {
+          "id": "de.a2u9.l04",
+          "type": "dialogue",
+          "titleZh": "各国怎么过节",
+          "canDoZh": "能比较不同国家过节的习惯,说出自己的看法",
+          "scenarioZh": "圣诞节第二天,WG 的人都在(索菲娅今年没回意大利),莉娜和保罗也来喝茶。大家比较:意大利 1 月 6 日有女巫 Befana 给孩子送礼物;中国最重要的节日是春节;德国是圣诞节;大家说 Ich glaube, dass … / Ich finde es schön, dass …。说话人:sofia、wei、lena、jonas、paul。",
+          "grammarFocusZh": "dass 从句复习;对比的说法(In Italien …, aber in China …)"
+        },
+        {
+          "id": "de.a2u9.l05",
+          "type": "vocab",
+          "titleZh": "节日和家人",
+          "canDoZh": "能说出和家庭聚会、节日传统有关的词",
+          "scenarioZh": "霍夫曼先生的女儿和外孙女从慕尼黑来过节(不出场)。节后霍夫曼先生和王伟在楼下聊:die Verwandten、sich treffen、zusammen feiern、die Tradition、der Feiertag、Geschenke auspacken;他说一家人在一起最重要;王伟说他很想家,但很高兴在柏林有“第二个家”。说话人:hoffmann、wei。",
+          "grammarFocusZh": "dass 复习(Es ist wichtig, dass …);反身动词复习(sich treffen, sich freuen)"
+        },
+        {
+          "id": "de.a2u9.l06",
+          "type": "dialogue",
+          "titleZh": "节后散步",
+          "canDoZh": "能在散步时聊节日的见闻和感受",
+          "scenarioZh": "12 月 27 日,霍夫曼先生和王伟在湖边散步(德国人节后常去散步“消化”);霍夫曼先生说他吃得太多了;王伟讲莉娜家的圣诞夜和莉娜奶奶讲的老故事;霍夫曼先生问他跨年有什么打算;王伟说 WG 要办跨年聚会。说话人:hoffmann、wei。",
+          "grammarFocusZh": "dass 从句里的完成时:助动词放最后(Ich glaube, dass ich zu viel gegessen habe);war / hatte 复习"
+        },
+        {
+          "id": "de.a2u9.r02",
+          "type": "reading",
+          "titleZh": "王伟的圣诞日记",
+          "canDoZh": "能读懂一篇节日日记,说出作者的经历和感受",
+          "scenarioZh": "体裁:日记(王伟)。他写:第一次在德国家庭过圣诞,他以为会很热闹,结果很安静、很温暖;莉娜的奶奶讲了她小时候的圣诞;他收到了一本德语菜谱;他觉得德国人的圣诞节和中国人的春节很像——都是一家人在一起;他想家了,晚上和家里视频。说话人:wei(日记)。",
+          "grammarFocusZh": "dass 从句和完成时、过去时的综合应用(Ich habe gedacht, dass …)"
+        },
+        {
+          "id": "de.a2u9.l07",
+          "type": "dialogue",
+          "titleZh": "节日和新年之间:去滑冰",
+          "canDoZh": "能和朋友商量假期活动,用 dass 说出想法和顾虑",
+          "scenarioZh": "圣诞和新年之间的几天大家都放假。索菲娅、莉娜和王伟商量去哪儿:滑冰、看电影还是去博物馆;莉娜说 Ich glaube, dass die Eisbahn sehr voll ist.;王伟说他从来没滑过冰,有点怕(Ich habe Angst, dass ich hinfalle.);最后他们去了露天滑冰场,王伟摔了好几次,大家笑得不行。说话人:sofia、lena、wei。",
+          "grammarFocusZh": "dass 从句复习;表达顾虑(Ich habe Angst, dass … / Ich fürchte, dass …)"
+        },
+        {
+          "id": "de.a2u9.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:节后第一节课",
+          "canDoZh": "能讲自己的节日经历,说出感受和看法",
+          "scenarioZh": "新年后第一节 A2 课,瓦格纳老师问大家节日怎么过的。王伟讲莉娜家的圣诞夜、滑冰摔跤、和霍夫曼先生散步;老师问他觉得德国和中国的节日有什么相同、有什么不同,王伟用 dass 说出看法。说话人:wagner、wei。",
+          "grammarFocusZh": "复习:dass 从句、完成时(Ich habe gemerkt, dass …)"
+        },
+        {
+          "id": "de.a2u9.r03",
+          "type": "reading",
+          "titleZh": "德国的圣诞节",
+          "canDoZh": "能读懂一篇介绍节日的文化短文,说出主要的习俗和意义",
+          "scenarioZh": "体裁:文化短文。降临节的四个周日、降临节日历、12 月 6 日、圣诞市场、圣诞夜和两天圣诞假日、圣诞树和礼物;很多人圣诞夜去教堂(只简单提到);节日最重要的是家人在一起;也有很多人觉得圣诞节太商业化了。说话人:narrator(短文)。",
+          "grammarFocusZh": "dass 从句的书面应用(Viele Menschen finden, dass …)"
+        }
+      ]
+    },
+    {
+      "id": "a2u10",
+      "unit": "A2-10 新年计划",
+      "cefr": "A2",
+      "themeZh": "十二月底到一月:WG 的跨年聚会、写新年愿望、谈将来的计划和预测、加入约纳斯的业余足球俱乐部、冬天的天气预报、检查计划有没有做到,读 WG 自制的新年小报和王伟的年度计划。",
+      "grammarZh": "werden:将来时入门(Ich werde mehr Sport machen,werden + 不定式放句末)和 werden 表示“变成”(Es wird kalt / Er wird Lehrer);werden 的变位(du wirst, er wird);说将来也常用现在时 + 时间词。",
+      "pronunciationZh": "werden 的变位发音(du wirst [vɪʁst]、er wird [vɪʁt]);辅音连缀 rst / rd 中间不加元音。",
+      "lessons": [
+        {
+          "id": "de.a2u10.l01",
+          "type": "dialogue",
+          "titleZh": "跨年聚会",
+          "canDoZh": "能在跨年聚会上祝福,聊对新年的期望",
+          "scenarioZh": "12 月 31 日 WG 办跨年聚会,莉娜、保罗和霍夫曼先生都来了。大家玩德国的跨年游戏“熔蜡占卜”(das Bleigießen,现在用蜡:Wachsgießen);十二点倒数、看烟花,保罗喝儿童香槟;大家互相说 Prost Neujahr! / Ein gutes neues Jahr!;霍夫曼先生说 Das neue Jahr wird bestimmt gut!。说话人:jonas、sofia、wei、lena、paul、hoffmann。",
+          "grammarFocusZh": "werden 初见:Das Jahr wird gut / Was wirst du machen?;跨年的祝福用语(Guten Rutsch! / Frohes neues Jahr!)"
+        },
+        {
+          "id": "de.a2u10.l02",
+          "type": "vocab",
+          "titleZh": "新年愿望",
+          "canDoZh": "能说出常见的新年愿望和计划",
+          "scenarioZh": "1 月 1 日中午,大家一起吃早午餐,写新年愿望卡(die guten Vorsätze):mehr Sport machen、weniger am Handy sein、gesünder essen、früher aufstehen、mehr Deutsch sprechen、Geld sparen;约纳斯写了“少工作”,被大家笑话。说话人:sofia、jonas、wei。",
+          "grammarFocusZh": "愿望和计划的说法:Ich will … / Ich möchte … / Ich werde …;mehr / weniger / gesünder 先当固定说法(比较级第 11 单元讲)"
+        },
+        {
+          "id": "de.a2u10.l03",
+          "type": "grammar",
+          "titleZh": "我会……:werden 将来时",
+          "canDoZh": "能用 werden 说将来的计划、决心和预测",
+          "scenarioZh": "A2 班新年第一节课,瓦格纳老师让大家说新年计划;王伟说 Ich werde mehr Deutsch sprechen. Ich werde im Sommer ein Praktikum machen.;老师讲:说将来常用现在时加时间词(Morgen fahre ich …),werden 更强调决心或者预测;王伟再用 werden 说天气和猜测(Es wird schneien / Die Prüfung wird schwer)。说话人:wagner、wei。",
+          "grammarFocusZh": "werden 的变位和将来时(werden + 不定式放句末);现在时 + 时间词也能表示将来;werden 表示“变成”(Es wird kalt / Er wird Lehrer)和将来时的区别"
+        },
+        {
+          "id": "de.a2u10.r01",
+          "type": "reading",
+          "titleZh": "WG 新年小报",
+          "canDoZh": "能读懂一篇带玩笑的预测短文,找出对每个人的预测",
+          "scenarioZh": "体裁:WG 自制的新年小报(索菲娅写的)。“去年大事回顾”和“新年预测”:约纳斯会开自己的小饭馆,王伟会找到实习,索菲娅会成为有名的设计师,莉娜会去中国,保罗会长高十厘米,霍夫曼先生会学会发视频……最后一句:预测不一定准,但是我们会一起庆祝!说话人:narrator(小报)。",
+          "grammarFocusZh": "werden 将来时的书面应用;werden 表示变化(Paul wird größer —— größer 先当固定说法)"
+        },
+        {
+          "id": "de.a2u10.l04",
+          "type": "dialogue",
+          "titleZh": "加入足球俱乐部",
+          "canDoZh": "能打听俱乐部的情况:训练时间、费用、怎么报名",
+          "scenarioZh": "约纳斯是一个业余足球俱乐部(der Fußballverein,不写真实名称)的队员,他劝王伟加入——王伟的新年计划是多运动。周二晚上王伟去训练场,教练(说话人用 mitarbeiter)介绍:每周训练两次,周日有比赛,会费每月 10 欧元,要填会员表;王伟问初学者行不行,教练说 Du wirst schnell besser!。说话人:jonas、wei、mitarbeiter。",
+          "grammarFocusZh": "werden 复习;俱乐部用语(der Verein, das Mitglied, der Mitgliedsbeitrag, das Training);besser 先当固定说法"
+        },
+        {
+          "id": "de.a2u10.l05",
+          "type": "vocab",
+          "titleZh": "冬天的天气和路况",
+          "canDoZh": "能说出冬天的天气和路况,听懂天气预报里的提醒",
+          "scenarioZh": "一月,柏林很冷:零下 8 度、下雪、路上结冰(das Glatteis)。电台的天气预报说明天会更冷、有大风;霍夫曼先生提醒王伟骑车要小心、出门穿暖和;王伟说成都冬天不下雪,但是湿冷,屋里没有暖气。说话人:radio、hoffmann、wei。",
+          "grammarFocusZh": "werden 表示变化和预测(Es wird glatt / Morgen wird es schneien);天气的说法(minus acht Grad, glatt, neblig, windig)"
+        },
+        {
+          "id": "de.a2u10.l06",
+          "type": "dialogue",
+          "titleZh": "计划做到了吗?",
+          "canDoZh": "能说说计划有没有做到、为什么,鼓励别人",
+          "scenarioZh": "一月底,WG 在厨房检查新年计划:索菲娅每天少用一个小时手机——只做到一半;约纳斯说他会早起,可是还没有一天做到;王伟每周踢两次球,但上周摔了一跤;大家互相鼓励:Du wirst das schaffen!。说话人:sofia、jonas、wei。",
+          "grammarFocusZh": "werden 和情态动词过去时对比(Ich wollte …, aber … / Nächste Woche werde ich es wieder versuchen);weil 复习"
+        },
+        {
+          "id": "de.a2u10.r02",
+          "type": "reading",
+          "titleZh": "俱乐部的会员须知",
+          "canDoZh": "能读懂俱乐部的会员规定,找出要做的事和不能做的事",
+          "scenarioZh": "体裁:会员须知(足球俱乐部网页,不写真实名称)。会费和交费方式、训练时间、比赛的规定(准时到、穿队服)、退会要提前三个月书面通知、俱乐部的活动(夏天的节日、冬天的聚餐)、请会员当志愿者(卖饮料、洗队服)。说话人:narrator(须知)。",
+          "grammarFocusZh": "复习 müssen / dürfen / können;会员须知的常用词(der Beitrag, kündigen, schriftlich, ehrenamtlich)"
+        },
+        {
+          "id": "de.a2u10.l07",
+          "type": "dialogue",
+          "titleZh": "第一场比赛",
+          "canDoZh": "能在比赛中和队友简单沟通,赛后讲比赛怎么样",
+          "scenarioZh": "周日王伟第一次参加俱乐部的比赛,天很冷。约纳斯教他场上的话(Pass auf! Hier! Schieß!);王伟差一点进球;比赛 2 比 2 结束;赛后大家在俱乐部的小屋喝热茶,教练夸他跑得多;王伟说 Nächstes Mal werde ich ein Tor schießen!。说话人:jonas、wei、mitarbeiter。",
+          "grammarFocusZh": "werden 复习;命令式复习(Pass auf! Lauf!);用完成时讲比赛(Wir haben zwei zu zwei gespielt)"
+        },
+        {
+          "id": "de.a2u10.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:新的一年",
+          "canDoZh": "能介绍自己新一年的计划,回答别人的问题、给建议",
+          "scenarioZh": "语伴练习时,莉娜请王伟用德语讲新年计划,她用中文讲她的。王伟说:今年他会找实习、考歌德 A2、多运动,暑假可能不回中国;莉娜说她夏天会去中国上暑期语言班。两人互相提问、给建议。说话人:wei、lena。",
+          "grammarFocusZh": "复习:werden 将来时、wollen / möchten、weil / dass"
+        },
+        {
+          "id": "de.a2u10.r03",
+          "type": "reading",
+          "titleZh": "王伟的年度计划",
+          "canDoZh": "能读懂一个人的年度计划,按月份说出他要做什么",
+          "scenarioZh": "体裁:王伟手机备忘录里的年度计划。一月:加入足球队;二月:春节、生日、期末考试;三月:和莉娜、索菲娅去维也纳;三四月:申请实习;五月:……;七月:考歌德 A2;八月:实习;每个月一两句,用 werden 和现在时写。说话人:wei(备忘录)。",
+          "grammarFocusZh": "werden 将来时和用现在时表示将来;月份和日期复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u11",
+      "unit": "A2-11 更便宜、更好、最喜欢",
+      "cefr": "A2",
+      "themeZh": "一月中,索菲娅过 24 岁生日:比较餐馆、礼物和活动来做决定;比较柏林、成都和罗马的冬天;保罗做“我们最喜欢的……”小调查;比较去维也纳的交通方式;比较家乡和柏林。",
+      "grammarZh": "形容词的比较级和最高级(-er / am -sten,单音节词常变音:alt – älter – am ältesten),不规则形式(gut – besser – am besten、viel – mehr – am meisten、gern – lieber – am liebsten、hoch – höher、nah – näher);比较句 als 和 so … wie。",
+      "pronunciationZh": "比较级词尾 -er 读 [ɐ]、最高级 -sten 读 [stən](schöner、am schönsten);变音不要漏(älter、größer、jünger)。",
+      "lessons": [
+        {
+          "id": "de.a2u11.l01",
+          "type": "dialogue",
+          "titleZh": "选哪家餐馆?",
+          "canDoZh": "能比较几个选择的价格、远近和好坏,说出自己更喜欢哪个",
+          "scenarioZh": "一月中是索菲娅的 24 岁生日,王伟和莉娜偷偷给她订餐馆。手机上有三家:意大利餐馆(贵一点、近)、越南餐馆(便宜、远一点)、新开的汉堡店(最便宜,但很吵);两人比较:Das ist teurer, aber näher. / Ich finde das vietnamesische Restaurant besser.;最后选了越南餐馆——索菲娅说过,意大利菜还是她自己做得最好。说话人:wei、lena。",
+          "grammarFocusZh": "比较级初见:teurer, billiger, näher, besser;… als …(Das ist billiger als …)"
+        },
+        {
+          "id": "de.a2u11.l02",
+          "type": "vocab",
+          "titleZh": "谁更高?——常用形容词的比较级",
+          "canDoZh": "能用常用形容词的比较级说人和东西的不同",
+          "scenarioZh": "WG 晚饭时玩“谁更……”的游戏:约纳斯说他比王伟高,王伟说他比约纳斯年轻;索菲娅说霍夫曼先生是楼里年纪最大、也最有意思的人;大家比较各自的房间(Jonas’ Zimmer ist größer)和做饭的本事(Wer kocht am besten?)。说话人:jonas、wei、sofia。",
+          "grammarFocusZh": "常用形容词的比较级和变音(groß – größer, alt – älter, jung – jünger, lang – länger, kurz – kürzer, warm – wärmer)"
+        },
+        {
+          "id": "de.a2u11.l03",
+          "type": "grammar",
+          "titleZh": "最冷的冬天:最高级和 so … wie",
+          "canDoZh": "能用最高级说“最……”,用 als 和 so … wie 比较",
+          "scenarioZh": "A2 班上,瓦格纳老师讲比较级和最高级,请大家比较三个城市的冬天:柏林、成都和罗马。王伟说成都的冬天没有柏林冷(nicht so kalt wie),但是更湿;柏林最冷、天黑得最早;老师讲 am -sten 和名词前的 der / die / das -ste。说话人:wagner、wei。",
+          "grammarFocusZh": "最高级 am -sten(Berlin ist am kältesten)和名词前的 der / die / das -ste(der kälteste Winter,形容词词尾下个单元讲);als 和 so … wie;不规则形式 gut – besser – am besten、viel – mehr – am meisten、gern – lieber – am liebsten"
+        },
+        {
+          "id": "de.a2u11.r01",
+          "type": "reading",
+          "titleZh": "冬天去哪儿?——三个城市的比较",
+          "canDoZh": "能读懂一篇带数字的比较文章,说出哪个城市最……",
+          "scenarioZh": "体裁:旅游网站上的比较文章。三个城市的冬天:柏林(冷、日照少、下午四点多就天黑)、成都(不常下雪,但湿冷,很多房子没有暖气)、罗马(温和、多雨);最后是“冬天去哪儿最好”的建议。数字用约数。说话人:narrator(文章)。",
+          "grammarFocusZh": "比较级和最高级的书面应用(am wärmsten, weniger Sonne als, mehr Regen)"
+        },
+        {
+          "id": "de.a2u11.l04",
+          "type": "dialogue",
+          "titleZh": "给索菲娅挑生日礼物",
+          "canDoZh": "能比较几件礼物,和朋友商量买哪个",
+          "scenarioZh": "王伟、约纳斯和莉娜在商场给索菲娅挑礼物:一本设计画册(最贵)、一个小音箱(更实用)、一张音乐会的票(她最爱音乐);约纳斯说画册太重,莉娜说票最好;他们问男店员 Welcher Lautsprecher ist besser?;最后决定三个人一起送音乐会的票。说话人:wei、jonas、lena、verkaeufer。",
+          "grammarFocusZh": "比较级在购物里(teurer, praktischer, besser als);Mir gefällt … besser / Ich nehme lieber …"
+        },
+        {
+          "id": "de.a2u11.l05",
+          "type": "vocab",
+          "titleZh": "lieber 还是 am liebsten?",
+          "canDoZh": "能说出自己更喜欢什么、最喜欢什么,问别人的喜好",
+          "scenarioZh": "保罗为数学课做一个小调查,问 WG 的人:Was trinkst du lieber, Kaffee oder Tee? Was machst du am liebsten am Wochenende? Welche Jahreszeit magst du am liebsten?;大家回答,保罗一一记下来。说话人:paul、jonas、sofia、wei。",
+          "grammarFocusZh": "gern – lieber – am liebsten;Was … lieber, … oder …?;mögen 和 gern 复习"
+        },
+        {
+          "id": "de.a2u11.l06",
+          "type": "dialogue",
+          "titleZh": "索菲娅的生日晚餐",
+          "canDoZh": "能在餐馆里比较菜、点菜、评价饭菜",
+          "scenarioZh": "生日那天晚上,大家在越南餐馆给索菲娅过生日。女服务员推荐店里最受欢迎的菜;大家比较哪个辣、哪个更好吃;索菲娅收到音乐会的票高兴极了,说这是她在柏林过得最好的生日;约纳斯说下次他做的菜会更好吃。说话人:kellnerin、sofia、wei、lena、jonas。",
+          "grammarFocusZh": "比较级和最高级复习(schärfer, am besten, das beste Geschenk 先当固定说法);生日祝福复习"
+        },
+        {
+          "id": "de.a2u11.r02",
+          "type": "reading",
+          "titleZh": "调查结果:我们最喜欢的……",
+          "canDoZh": "能读懂一份调查结果,说出大多数人更喜欢什么",
+          "scenarioZh": "体裁:保罗的调查报告(数学课作业)。他问了 20 个人(同学和 WG 的人):喝咖啡还是喝茶、最喜欢的季节、最喜欢的交通工具、最喜欢的菜;结果用比较级和最高级写(Mehr Leute trinken lieber Tee als Kaffee. Der Sommer ist am beliebtesten.);最后一句是他的结论。说话人:narrator(保罗的报告)。",
+          "grammarFocusZh": "mehr … als, die meisten, am beliebtesten;比例的说法(die Hälfte, ein Drittel)"
+        },
+        {
+          "id": "de.a2u11.l07",
+          "type": "dialogue",
+          "titleZh": "坐火车还是坐飞机?",
+          "canDoZh": "能比较交通方式的价格、时间和舒适程度,一起做决定",
+          "scenarioZh": "王伟、莉娜和索菲娅开始计划三月去维也纳:坐火车(更舒服、更环保,要八九个小时)、坐飞机(更快、有时更便宜,但要早去机场)还是坐长途汽车(最便宜、最慢);三个人比较以后,决定坐夜车(der Nachtzug)。说话人:wei、lena、sofia。",
+          "grammarFocusZh": "比较级复习(schneller, bequemer, umweltfreundlicher, billiger als);so … wie / nicht so … wie"
+        },
+        {
+          "id": "de.a2u11.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:成都和柏林",
+          "canDoZh": "能比较自己的家乡和现在住的城市,说出优点和缺点",
+          "scenarioZh": "语伴练习时,莉娜请王伟比较成都和柏林:哪个城市更大、更便宜、更热闹、吃得更好、交通更方便;莉娜比较柏林和汉堡;两人用比较级和最高级说,最后王伟说:柏林最好的是这里的朋友。说话人:wei、lena。",
+          "grammarFocusZh": "复习:比较级、最高级、als / so … wie"
+        },
+        {
+          "id": "de.a2u11.r03",
+          "type": "reading",
+          "titleZh": "最长、最高、最大:小知识",
+          "canDoZh": "能读懂一篇带最高级的小知识短文",
+          "scenarioZh": "体裁:青少年杂志的“小知识”栏目。德国境内最长的河(莱茵河)、最高的山(楚格峰)、最大的城市(柏林)、最古老的大学在海德堡;中国最长的河(长江)、最高的山(珠穆朗玛峰)……每条一两句,最后出两道小题。只写可靠的常识。说话人:narrator(栏目)。",
+          "grammarFocusZh": "最高级综合应用(der längste Fluss, der höchste Berg —— 名词前的形式先当固定说法)"
+        }
+      ]
+    },
+    {
+      "id": "a2u12",
+      "unit": "A2-12 电脑坏了",
+      "cefr": "A2",
+      "themeZh": "一月底到二月初,考试周前王伟的电脑坏了:描述故障、去修理店、在商店比较和买新电脑、读产品页和保修条件、退换有问题的耳机,在图书馆复习、读考试规定,考完互相鼓励,陪霍夫曼先生买平板电脑。",
+      "grammarZh": "形容词词尾(一):定冠词和 dieser / welcher 后面的形容词词尾(der neue Laptop, den neuen Laptop, mit dem neuen Laptop):单数第一格和阴性、中性第四格加 -e,其他都加 -en。",
+      "pronunciationZh": "形容词词尾读得轻,但要听得出来(der neue / den neuen);外来词的重音(Computer、Laptop、Tablet、Akku)。",
+      "lessons": [
+        {
+          "id": "de.a2u12.l01",
+          "type": "dialogue",
+          "titleZh": "电脑开不了机",
+          "canDoZh": "能描述电子产品出了什么问题,请朋友帮忙",
+          "scenarioZh": "考试前两周,王伟的笔记本电脑突然开不了机。他找约纳斯和索菲娅帮忙看:屏幕是黑的、风扇很响,昨天还好好的;索菲娅说可能是电池或者硬盘坏了;王伟最担心的是报告还在电脑里——幸好他用了云备份(die Cloud)。说话人:wei、jonas、sofia。",
+          "grammarFocusZh": "形容词词尾初见:der alte Laptop / die neue Datei / das schwarze Display(定冠词后单数第一格加 -e)"
+        },
+        {
+          "id": "de.a2u12.l02",
+          "type": "dialogue",
+          "titleZh": "在修理店",
+          "canDoZh": "能在修理店说明问题,问修理的价格和时间,决定修不修",
+          "scenarioZh": "王伟把电脑拿到修理店。男工作人员检查后说主板(das Mainboard)坏了,修要 300 欧元、两个星期;王伟问 Lohnt sich das?;工作人员说这台电脑太旧了,买新的更划算;王伟决定买新的。说话人:wei、mitarbeiter。",
+          "grammarFocusZh": "定冠词后的形容词词尾(den alten Laptop reparieren / mit dem neuen Teil);比较级复习(billiger, besser)"
+        },
+        {
+          "id": "de.a2u12.l03",
+          "type": "grammar",
+          "titleZh": "这台轻的:定冠词后的形容词词尾",
+          "canDoZh": "能用带形容词的名词描述和比较东西,说出想要哪一个",
+          "scenarioZh": "王伟和索菲娅在电器商店看电脑。女店员介绍:Der leichte Laptop hat einen schnellen Prozessor.;王伟问 Was kostet der silberne? Haben Sie den kleinen auch in Schwarz?;店员问 Welchen möchten Sie?;最后王伟选了那台轻的。说话人:verkaeuferin、wei、sofia。",
+          "grammarFocusZh": "定冠词(der / die / das、dieser、welcher)后的形容词词尾:单数第一格都加 -e,阴性和中性第四格加 -e,其他(阳性第四格、第三格、复数)都加 -en;Welcher …? – Der … / Den …(省略名词的说法)"
+        },
+        {
+          "id": "de.a2u12.r01",
+          "type": "reading",
+          "titleZh": "产品页和保修条件",
+          "canDoZh": "能读懂产品信息和保修条件,找出重要的数字和规定",
+          "scenarioZh": "体裁:网店的产品页和保修条件(品牌不写真实名称)。产品页:重量、屏幕大小、电池能用多少小时、内存和价格;保修条件:两年保修、要保留收据、摔坏和进水不保修、14 天内可以退货。说话人:narrator(产品页)。",
+          "grammarFocusZh": "形容词词尾在说明文里(der leichte Laptop, mit dem großen Bildschirm);比较级和数字复习"
+        },
+        {
+          "id": "de.a2u12.l04",
+          "type": "dialogue",
+          "titleZh": "耳机只有一边响",
+          "canDoZh": "能到商店投诉有问题的商品,要求换货或退钱",
+          "scenarioZh": "王伟一起买的新耳机只有左边响。他回到商店;女店员问出了什么问题、有没有收据;王伟说 Der linke Kopfhörer funktioniert nicht.;店员说可以换新的,也可以退钱;王伟换了一副新的,店员向他道歉。说话人:wei、verkaeuferin。",
+          "grammarFocusZh": "形容词词尾复习(der linke, der rechte, den neuen);投诉的说法(Ich möchte … umtauschen / Ich hätte gern mein Geld zurück,hätte 先当固定说法)"
+        },
+        {
+          "id": "de.a2u12.l05",
+          "type": "vocab",
+          "titleZh": "考试周",
+          "canDoZh": "能说出考试周常用的词,讲自己的复习计划和压力",
+          "scenarioZh": "二月初是大学的考试周。王伟和莉娜在图书馆复习:王伟有三门笔试(die Klausur)和一门口试,莉娜要交一篇论文;两人讲复习计划、压力(der Stress)、睡不好、咖啡喝太多;莉娜说她学 25 分钟、休息 5 分钟。说话人:wei、lena。",
+          "grammarFocusZh": "考试用语(eine Prüfung bestehen, durchfallen, für eine Klausur lernen, die Note);形容词词尾复习(die schwere Klausur, die nächste Prüfung)"
+        },
+        {
+          "id": "de.a2u12.l06",
+          "type": "dialogue",
+          "titleZh": "在图书馆找座位",
+          "canDoZh": "能在图书馆找座位、问规定,礼貌地请别人安静",
+          "scenarioZh": "考试周图书馆里人很多。王伟问一位女学生 Ist der Platz neben Ihnen noch frei?;后来旁边两个人一直小声说话,王伟礼貌地请他们安静(Könnt ihr bitte etwas leiser sprechen?);图书馆的男工作人员来巡查,提醒大家不能用书包占座。说话人:wei、passantin、mitarbeiter。",
+          "grammarFocusZh": "形容词词尾复习(der freie Platz, die ruhige Ecke);礼貌的请求(Könnt ihr bitte …? / Darf ich …?)"
+        },
+        {
+          "id": "de.a2u12.r02",
+          "type": "reading",
+          "titleZh": "笔试规定",
+          "canDoZh": "能读懂考试规定,知道考试时要带什么、能做什么、不能做什么",
+          "scenarioZh": "体裁:系里发的笔试规定。考前 15 分钟到考场;带学生证和身份证件;只能用学校发的纸;手机关机放进包里;可以用简单的计算器;外国学生可以申请用双语词典;生病不能考要交医生证明;成绩在网上公布。说话人:narrator(规定)。",
+          "grammarFocusZh": "形容词词尾在规定里(der eigene Taschenrechner, das zweite Blatt);müssen / dürfen 复习"
+        },
+        {
+          "id": "de.a2u12.l07",
+          "type": "dialogue",
+          "titleZh": "考完了!",
+          "canDoZh": "能讲考试的情况和感受,安慰和鼓励别人",
+          "scenarioZh": "最后一门考完,王伟和莉娜在食堂碰头:王伟觉得数据库考得不错,算法的最后一道题没做完;莉娜的论文交上去了;两人互相安慰(Mach dir keine Sorgen! / Das schaffst du bestimmt!);约纳斯打电话来,晚上请大家吃饭庆祝。说话人:wei、lena、jonas。",
+          "grammarFocusZh": "形容词词尾复习(die letzte Aufgabe, der schwere Teil);反身动词复习(Mach dir keine Sorgen!)"
+        },
+        {
+          "id": "de.a2u12.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:陪霍夫曼先生买平板电脑",
+          "canDoZh": "能给别人推荐和比较电子产品,说清楚优点和缺点",
+          "scenarioZh": "霍夫曼先生想买一台平板电脑,好和慕尼黑的外孙女视频。王伟陪他去商店比较两台:大的屏幕好但重,小的轻但字小;霍夫曼先生问哪台最简单;男店员介绍以后,他买了大的,王伟答应教他用。说话人:hoffmann、wei、verkaeufer。",
+          "grammarFocusZh": "复习:定冠词后的形容词词尾、比较级和最高级"
+        },
+        {
+          "id": "de.a2u12.r03",
+          "type": "reading",
+          "titleZh": "学生电脑测评",
+          "canDoZh": "能读懂一篇产品测评,说出测评人的结论",
+          "scenarioZh": "体裁:网上的产品测评(品牌不写真实名称)。测评三款学生用的笔记本电脑:最轻的、最便宜的、电池最耐用的;每款写优点和缺点;最后的推荐:对大多数学生来说,中间那一款最好。说话人:narrator(测评)。",
+          "grammarFocusZh": "定冠词后的形容词词尾和比较级、最高级的综合应用"
+        }
+      ]
+    },
+    {
+      "id": "a2u13",
+      "unit": "A2-13 春节和生日",
+      "cefr": "A2",
+      "themeZh": "二月,王伟在柏林过春节,也过 22 岁生日:给朋友讲春节、去亚洲超市买年货、布置 WG、写邀请、除夕包饺子和视频拜年、收生日礼物、商量生日去哪儿玩,在德语课上做春节小报告。",
+      "grammarZh": "形容词词尾(二):不定冠词、kein 和物主冠词后面的形容词词尾(ein großer Tisch, ein rotes Tuch, einen roten Umschlag, mit meinem besten Freund),和定冠词后的词尾对比。",
+      "pronunciationZh": "声门塞音:元音开头的词前面要轻轻断开,不和前一个词连读(ein Abend、am Ende、ein altes Haus)。",
+      "lessons": [
+        {
+          "id": "de.a2u13.l01",
+          "type": "dialogue",
+          "titleZh": "春节快到了",
+          "canDoZh": "能给朋友介绍春节是什么时候、怎么过,邀请朋友一起过",
+          "scenarioZh": "春节在二月初(课文不写年份),王伟想在 WG 办一顿年夜饭。他给索菲娅和约纳斯讲:春节是中国最重要的节日,除夕一家人吃团圆饭、看春节晚会,给孩子红包(ein roter Umschlag);在柏林不能随便放鞭炮;他想请莉娜、保罗和霍夫曼先生一起来。说话人:wei、sofia、jonas。",
+          "grammarFocusZh": "不定冠词后的形容词词尾初见:ein großes Fest / ein roter Umschlag / einen roten Umschlag"
+        },
+        {
+          "id": "de.a2u13.l02",
+          "type": "vocab",
+          "titleZh": "去亚洲超市买年货",
+          "canDoZh": "能在超市买过节用的食材和东西,问是什么、做什么用",
+          "scenarioZh": "王伟和莉娜去 Kantstraße 的亚洲超市买年货:饺子皮、大白菜、香菇、豆腐、红灯笼和春联;男店员会说中文,但王伟坚持和莉娜说德语;莉娜不停地问 Was ist das? Wofür braucht man das?。说话人:wei、lena、verkaeufer。",
+          "grammarFocusZh": "kein / 不定冠词后的形容词词尾(ein frischer Kohl, eine rote Laterne, kein scharfes Essen);wofür 先当固定说法"
+        },
+        {
+          "id": "de.a2u13.l03",
+          "type": "grammar",
+          "titleZh": "一张大桌子、红色的灯笼:不定冠词后的词尾",
+          "canDoZh": "能用不定冠词、kein 和物主冠词加形容词描述东西",
+          "scenarioZh": "WG 一起布置客厅:王伟说 Wir brauchen einen großen Tisch und eine rote Tischdecke.;约纳斯拿出他的大锅说 Mein großer Topf ist perfekt für Jiaozi!;索菲娅挂好红灯笼;王伟边干活边纠正大家的词尾。说话人:wei、sofia、jonas。",
+          "grammarFocusZh": "不定冠词 / kein / 物主冠词后的形容词词尾:阳性第一格 -er(ein großer Tisch),中性第一、四格 -es(ein rotes Tuch),阴性 -e,阳性第四格、第三格和复数 -en(einen großen Topf, mit meinem großen Topf, meine roten Laternen);和定冠词后的词尾对比"
+        },
+        {
+          "id": "de.a2u13.r01",
+          "type": "reading",
+          "titleZh": "年夜饭的邀请",
+          "canDoZh": "能读懂、也能写一份节日邀请",
+          "scenarioZh": "体裁:电子邀请(王伟写的)。Liebe Freunde, 时间(除夕晚上 7 点)、地点(WG)、活动(一起包饺子、吃中国菜、看春节晚会、玩游戏);请大家穿一件红色的衣服;不用带礼物,可以带饮料;请在周三以前回复。说话人:wei(邀请)。",
+          "grammarFocusZh": "形容词词尾在邀请里(ein gemütlicher Abend, ein rotes T-Shirt);第三格和两个宾语的动词复习"
+        },
+        {
+          "id": "de.a2u13.l04",
+          "type": "dialogue",
+          "titleZh": "除夕夜",
+          "canDoZh": "能在节日聚会上介绍饭菜和习俗,回答客人的问题",
+          "scenarioZh": "除夕晚上,大家在 WG 包饺子:霍夫曼先生包得最好;王伟在一个饺子里包了一枚硬币,说吃到的人会有好运——保罗吃到了;莉娜问红包是什么意思;王伟和成都的家人视频拜年,奶奶对大家说 Hallo! 和 Danke!;十二点大家互相拜年。说话人:wei、hoffmann、paul、lena、sofia、jonas。",
+          "grammarFocusZh": "形容词词尾复习(ein gutes neues Jahr, mein liebster Brauch);dass 复习(Man sagt, dass …)"
+        },
+        {
+          "id": "de.a2u13.l05",
+          "type": "vocab",
+          "titleZh": "生日礼物",
+          "canDoZh": "能接受礼物、道谢,说出自己的生日愿望",
+          "scenarioZh": "春节后几天是王伟的 22 岁生日(只说二月,不写日期)。早上他收到很多消息和礼物:莉娜送一本德语小说,索菲娅画了一张 WG 的画,约纳斯做了一个四川口味的生日蛋糕(辣的!),霍夫曼先生送他一个旧火车站的挂钟;大家说 Alles Gute zum Geburtstag!。说话人:lena、sofia、jonas、hoffmann、wei。",
+          "grammarFocusZh": "形容词词尾复习(ein spannendes Buch, ein scharfer Kuchen, eine alte Uhr);第三格动词复习(Das gefällt mir / Ich danke euch)"
+        },
+        {
+          "id": "de.a2u13.l06",
+          "type": "dialogue",
+          "titleZh": "生日晚上去哪儿?",
+          "canDoZh": "能和朋友商量活动去哪儿、花多少钱,说出自己的想法",
+          "scenarioZh": "生日晚上,大家想带王伟出去玩:保罗建议去攀岩馆(die Kletterhalle),索菲娅建议去唱卡拉 OK,约纳斯建议去他工作的餐馆吃饭;大家比较以后去了卡拉 OK:王伟唱了一首中文歌,保罗唱了一首德语说唱。说话人:paul、sofia、jonas、wei。",
+          "grammarFocusZh": "形容词词尾复习(eine lustige Idee, ein teurer Abend);比较级复习(lustiger, billiger)"
+        },
+        {
+          "id": "de.a2u13.r02",
+          "type": "reading",
+          "titleZh": "柏林的春节活动",
+          "canDoZh": "能读懂一篇节日活动报道,说出时间、地点和活动内容",
+          "scenarioZh": "体裁:城市新闻短文。春节前后柏林有很多活动:博物馆的中国文化日、中餐馆的节日菜单、大学中国学生会的晚会、动物园熊猫馆旁边的小活动;越来越多的德国人对春节感兴趣;记者转述了一位餐馆老板的话。主办方不写真实名称。说话人:narrator(新闻)。",
+          "grammarFocusZh": "形容词词尾在报道里(ein großes Fest, ein besonderes Menü;零冠词复数 viele chinesische Restaurants 先当固定说法)"
+        },
+        {
+          "id": "de.a2u13.l07",
+          "type": "dialogue",
+          "titleZh": "在德语课上讲春节",
+          "canDoZh": "能做一个简短的介绍,比较两个节日,回答问题",
+          "scenarioZh": "A2 课上,瓦格纳老师请王伟给全班讲春节,同学们的问题由老师转述(同学不出场):春节和圣诞节有什么相同、有什么不同?王伟说:两个都是家人团聚的大节日,但春节更热闹,颜色是红色,要吃饺子……老师纠正他形容词的词尾。说话人:wagner、wei。",
+          "grammarFocusZh": "形容词词尾和比较级复习(ein lautes Fest, ein ruhiges Fest, die wichtigste Tradition);dass 复习"
+        },
+        {
+          "id": "de.a2u13.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:最难忘的时刻",
+          "canDoZh": "能回顾节日和生日,说出最喜欢的瞬间,感谢朋友",
+          "scenarioZh": "周末大家帮王伟收拾客厅:摘灯笼、洗大锅、分剩下的饺子;每个人说最难忘的时刻(der schönste Moment):霍夫曼先生说是和王伟的奶奶视频,保罗说是吃到有硬币的饺子……王伟谢谢大家。说话人:wei、hoffmann、paul、sofia、jonas、lena。",
+          "grammarFocusZh": "复习:不定冠词和定冠词后的形容词词尾、最高级"
+        },
+        {
+          "id": "de.a2u13.r03",
+          "type": "reading",
+          "titleZh": "王伟的生日日记",
+          "canDoZh": "能读懂一篇日记,说出作者这一天的经历和感受",
+          "scenarioZh": "体裁:日记(王伟)。他写 22 岁生日这一天:早上收到家人的语音,妈妈用英语、奶奶用德语祝他生日快乐;白天在图书馆;晚上去唱卡拉 OK;他想起一年前的生日,那时德语还很差、朋友很少;现在他在柏林有一个“大家庭”。说话人:wei(日记)。",
+          "grammarFocusZh": "形容词词尾、过去时和完成时的综合应用"
+        }
+      ]
+    },
+    {
+      "id": "a2u14",
+      "unit": "A2-14 假期去哪儿?",
+      "cefr": "A2",
+      "themeZh": "二月底,计划三月学期假期去维也纳:商量目的地和时间、查夜车和住处、做“如果……就……”的计划、读景点信息、订卧铺、准备证件和保险、在夜车上和人聊天、到了联系房东、定第一天的计划。",
+      "grammarZh": "wenn 从句(条件:Wenn es regnet, gehen wir ins Museum;反复的时间:Wenn ich in Wien bin, …),变位动词放从句末尾,从句在前时主句动词紧跟逗号;支配第四格的介词小结(durch、für、gegen、ohne、um)。",
+      "pronunciationZh": "双元音复习(ei / ai、eu / äu、au:Reise、Mai、Euro、Häuser、Haus);wenn 从句的语调:从句末尾略升,主句降下来。",
+      "lessons": [
+        {
+          "id": "de.a2u14.l01",
+          "type": "dialogue",
+          "titleZh": "去维也纳!",
+          "canDoZh": "能和朋友商量旅行的目的地和时间,说出条件",
+          "scenarioZh": "考完试,王伟、莉娜和索菲娅决定三月第一周去维也纳(奥地利的首都)玩四天。他们商量:Wenn wir früh buchen, ist es billiger. / Wenn das Wetter gut ist, laufen wir viel.;莉娜去过一次,讲维也纳的咖啡馆;王伟想去看美泉宫(Schloss Schönbrunn)。说话人:wei、lena、sofia。",
+          "grammarFocusZh": "wenn 从句初见(条件):Wenn wir früh buchen, …;从句在前,主句的动词紧跟在逗号后"
+        },
+        {
+          "id": "de.a2u14.l02",
+          "type": "vocab",
+          "titleZh": "订票、住宿和证件",
+          "canDoZh": "能说出订票、住宿、行程和证件的常用词",
+          "scenarioZh": "三人在 WG 厨房用电脑查:夜车(der Nachtzug)的卧铺、青年旅舍还是民宿(die Ferienwohnung)、城市交通卡、博物馆的学生票;索菲娅提醒王伟带护照和居留卡,因为去奥地利是出国。说话人:sofia、wei、lena。",
+          "grammarFocusZh": "复合词(der Nachtzug, die Ferienwohnung, die Reiseversicherung);wenn 复习"
+        },
+        {
+          "id": "de.a2u14.l03",
+          "type": "grammar",
+          "titleZh": "如果下雨,我们就去博物馆:wenn 从句",
+          "canDoZh": "能用 wenn 说条件和时间,做“如果……就……”的计划",
+          "scenarioZh": "出发前一周,三人做“雨天计划”:Wenn es regnet, gehen wir ins Museum. Wenn wir müde sind, gehen wir in ein Kaffeehaus. Wenn der Zug Verspätung hat, rufe ich die Vermieterin an.;莉娜问 Was machen wir, wenn …?;王伟练习把可分动词和情态动词放对位置。说话人:lena、wei、sofia。",
+          "grammarFocusZh": "wenn 从句:条件(如果)和反复发生的时间(每当);变位动词在从句末尾,主句动词在逗号后;语序和 weil / dass 一样;从句放在主句前面或后面"
+        },
+        {
+          "id": "de.a2u14.r01",
+          "type": "reading",
+          "titleZh": "维也纳景点介绍",
+          "canDoZh": "能读懂旅游网站上的景点介绍、开放时间和门票信息",
+          "scenarioZh": "体裁:城市旅游网站(不写真实机构名)。几个景点:美泉宫(宫殿和花园)、老城和大教堂、普拉特公园的摩天轮、咖啡馆、自然史博物馆;每个写开放时间、门票、学生优惠和交通;最后一条:如果您只有一天……。说话人:narrator(网站)。",
+          "grammarFocusZh": "wenn 从句在建议里(Wenn Sie wenig Zeit haben, …);第四格介词(durch die Altstadt, um den Ring)"
+        },
+        {
+          "id": "de.a2u14.l04",
+          "type": "dialogue",
+          "titleZh": "订夜车的卧铺",
+          "canDoZh": "能在售票窗口订卧铺,问清楚车次、价格和规定",
+          "scenarioZh": "王伟去柏林中央火车站的服务中心订夜车:三个人,卧铺(六人间还是双人间?),3 月 2 日晚上走、3 月 6 日回;售票员问有没有优惠卡;王伟问 Was passiert, wenn der Zug ausfällt?;售票员说可以免费改签。说话人:wei、fahrkartenverkaeufer。",
+          "grammarFocusZh": "wenn 复习;订票的说法(Ich möchte drei Plätze im Liegewagen reservieren);日期复习"
+        },
+        {
+          "id": "de.a2u14.l05",
+          "type": "vocab",
+          "titleZh": "出国旅行要带什么",
+          "canDoZh": "能说出出国旅行要准备的东西,说清楚带什么、为什么带",
+          "scenarioZh": "出发前两天,索菲娅检查大家的清单:护照、居留卡、医保卡(背面就是欧洲医保卡)、充电器(奥地利的插头和德国一样)、雨伞、好走的鞋、零钱;王伟问 Brauche ich ein Visum für Österreich?——有德国的居留卡,短期旅行不用;莉娜说别带太多东西,要走很多路。说话人:sofia、wei、lena。",
+          "grammarFocusZh": "für / ohne / gegen + 第四格(für die Reise, ohne Visum, etwas gegen Kopfschmerzen);weil / wenn 复习"
+        },
+        {
+          "id": "de.a2u14.l06",
+          "type": "dialogue",
+          "titleZh": "夜车上",
+          "canDoZh": "能在火车上和同车厢的人寒暄,应对查票和小问题",
+          "scenarioZh": "3 月 2 日晚上,三人上了夜车。车厢里还有一位维也纳的老太太(说话人用 passantin),她问他们去维也纳做什么,推荐了一家咖啡馆;女列车员查票,问早餐要咖啡还是茶;夜里火车停了很久,王伟问 Was ist los?;早上 8 点到了维也纳。说话人:passantin、kontrolleurin、wei、lena、sofia。",
+          "grammarFocusZh": "wenn 复习(Wenn Sie in Wien sind, müssen Sie …);um + 钟点复习;第四格介词(durch die Nacht 先当固定说法)"
+        },
+        {
+          "id": "de.a2u14.r02",
+          "type": "reading",
+          "titleZh": "奥地利德语小词典",
+          "canDoZh": "能读懂一份德国德语和奥地利德语的对照表,认出常见的不同说法",
+          "scenarioZh": "体裁:小词典(莉娜从网上找来发在群里的)。奥地利德语和德国德语:Grüß Gott / Servus(你好)、Paradeiser = Tomate、Marille = Aprikose、Erdäpfel = Kartoffeln、Semmel = Brötchen、Jänner = Januar、Sackerl = Tüte;最后说明:这些说法在奥地利很常见,但标准德语大家都懂。说话人:narrator(小词典)。",
+          "grammarFocusZh": "语言变体只认识、不要求会用;形容词词尾复习"
+        },
+        {
+          "id": "de.a2u14.l07",
+          "type": "dialogue",
+          "titleZh": "到了!联系房东",
+          "canDoZh": "能打电话联系房东,听懂入住说明",
+          "scenarioZh": "早上到了维也纳,三人给民宿的女房东(说话人用 mitarbeiterin)打电话:她说钥匙在门口的密码盒里,告诉他们密码、怎么坐地铁过去、垃圾放哪儿;王伟问 Wenn wir früher kommen, können wir das Gepäck schon abstellen?。说话人:wei、mitarbeiterin、lena。",
+          "grammarFocusZh": "wenn 从句复习;第四格介词(durch den Hof, um die Ecke)"
+        },
+        {
+          "id": "de.a2u14.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:第一天的计划",
+          "canDoZh": "能和朋友一起定一天的计划,提出条件和建议",
+          "scenarioZh": "第一天早上,三人在民宿的厨房吃早饭、定计划:上午去老城和大教堂,下午如果天好就去美泉宫,如果下雨就去博物馆,晚上去普拉特坐摩天轮;索菲娅想先喝一杯维也纳咖啡;王伟查地铁路线。说话人:lena、sofia、wei。",
+          "grammarFocusZh": "复习:wenn 从句、第四格介词、命令式"
+        },
+        {
+          "id": "de.a2u14.r03",
+          "type": "reading",
+          "titleZh": "旅行预算",
+          "canDoZh": "能读懂一份旅行预算,算出每个人要花多少钱",
+          "scenarioZh": "体裁:表格和说明(王伟写在共享文档里)。四天的花费:夜车卧铺、民宿、交通卡、门票、吃饭;每项写总价和每人多少钱;说明:如果买美泉宫的联票更便宜,如果晚上自己做饭能省钱。说话人:wei(说明)。",
+          "grammarFocusZh": "wenn 从句的书面应用;价格和比较级复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u15",
+      "unit": "A2-15 在维也纳",
+      "cefr": "A2",
+      "themeZh": "三月初在维也纳的四天:在老咖啡馆点单、在市场听奥地利说法、在美泉宫问票价、民宿热水坏了礼貌投诉、看博物馆、请当地人推荐餐馆、买纪念品,回柏林讲旅行、写旅行博客。",
+      "grammarZh": "第二虚拟式入门:würde + 不定式、hätte、wäre、könnte、sollte,用于礼貌的请求(Könnten Sie …? Ich hätte gern …)、愿望(Ich würde gern … / Ich wäre gern …)和建议(Du solltest …)。",
+      "pronunciationZh": "奥地利德语的常见发音和用词(Grüß Gott、Servus、Paradeiser);第二虚拟式的变音要读出来(hätte / hatte、wäre / war、könnte / konnte、würde / wurde)。",
+      "lessons": [
+        {
+          "id": "de.a2u15.l01",
+          "type": "dialogue",
+          "titleZh": "在维也纳的老咖啡馆",
+          "canDoZh": "能在咖啡馆礼貌地点单,听懂服务员的奥地利说法",
+          "scenarioZh": "第一天上午,三人走进一家老咖啡馆。男服务员(说话人用 kellner,这里是维也纳咖啡馆的服务员)说 Grüß Gott! Was darf’s sein?;莉娜教大家点 eine Melange(维也纳的奶咖)和一块 Sachertorte;王伟说 Ich hätte gern einen Tee, bitte.;服务员每杯咖啡都配一杯水,莉娜说这是这里的习惯。说话人:kellner、lena、wei、sofia。",
+          "grammarFocusZh": "第二虚拟式初见:Ich hätte gern … / Könnten Sie …? / Ich würde gern …(礼貌地点单和请求)"
+        },
+        {
+          "id": "de.a2u15.l02",
+          "type": "vocab",
+          "titleZh": "奥地利的说法",
+          "canDoZh": "能听懂、认出奥地利德语里常见的说法",
+          "scenarioZh": "在 Naschmarkt 市场上,女摊主用奥地利说法:Paradeiser、Marillen、Erdäpfel、Brauchen Sie ein Sackerl?;莉娜给王伟翻译成德国的说法,王伟把词记在手机里;索菲娅买了一瓶杏子果酱(Marillenmarmelade)。说话人:verkaeuferin、lena、wei、sofia。",
+          "grammarFocusZh": "德国德语和奥地利德语的对照(只认识);第二虚拟式复习(Ich hätte gern ein Kilo …)"
+        },
+        {
+          "id": "de.a2u15.l03",
+          "type": "grammar",
+          "titleZh": "我想……、您能……吗?:第二虚拟式",
+          "canDoZh": "能用 würde / hätte / wäre / könnte / sollte 礼貌地请求、说愿望和给建议",
+          "scenarioZh": "在美泉宫的售票处,王伟问女工作人员 Gibt es eine Ermäßigung für Studenten? Wir hätten gern drei Karten.;她建议 Sie sollten den Audioguide nehmen.;参观完,三人在花园里说愿望:Ich würde gern hier wohnen. / Ich wäre gern eine Kaiserin!(索菲娅开玩笑)。说话人:wei、mitarbeiterin、sofia、lena。",
+          "grammarFocusZh": "第二虚拟式的形式:würde + 不定式(大多数动词)、hätte、wäre、könnte、sollte;三种用法:礼貌的请求、愿望、建议;和过去时 hatte / war / konnte 的区别(有变音)"
+        },
+        {
+          "id": "de.a2u15.r01",
+          "type": "reading",
+          "titleZh": "宫殿的参观须知",
+          "canDoZh": "能读懂景点的参观须知,找出门票、路线和规定",
+          "scenarioZh": "体裁:导览册的一页(不写真实机构名)。两条参观路线(短的 22 个房间、长的 40 个房间)、门票和学生优惠、语音导览、宫里不能拍照、大背包要存起来、花园免费;最后的建议:如果您有时间,应该去花园后面的小山上看看风景。说话人:narrator(导览册)。",
+          "grammarFocusZh": "第二虚拟式在建议里(Sie sollten … / Es wäre gut, …);wenn 和第四格介词复习"
+        },
+        {
+          "id": "de.a2u15.l04",
+          "type": "dialogue",
+          "titleZh": "热水坏了:礼貌地投诉",
+          "canDoZh": "能打电话礼貌地投诉,说明问题并提出要求",
+          "scenarioZh": "第二天早上,民宿的热水器坏了,只有冷水。王伟给女房东打电话:Entschuldigung, wir haben ein Problem … Könnten Sie bitte einen Techniker schicken?;房东道歉,说中午会有人来修,还可以退一部分钱;莉娜建议 Wir sollten ein Foto machen.。说话人:wei、mitarbeiterin、lena。",
+          "grammarFocusZh": "第二虚拟式用于礼貌的投诉和请求(Könnten Sie …? / Es wäre schön, wenn …);sollten 提建议"
+        },
+        {
+          "id": "de.a2u15.l05",
+          "type": "vocab",
+          "titleZh": "在博物馆",
+          "canDoZh": "能说出参观博物馆的常用词,谈谈自己喜欢的展品",
+          "scenarioZh": "下雨了,三人按计划去了艺术史博物馆。学设计的索菲娅给大家讲:das Gemälde、der Maler、das Jahrhundert、die Ausstellung、die Skulptur;王伟最喜欢一幅画着冬天和雪的老画;莉娜说她更喜欢现代艺术。说话人:sofia、wei、lena。",
+          "grammarFocusZh": "第二虚拟式复习(Ich hätte gern so ein Bild / Ich würde gern malen können);形容词词尾复习"
+        },
+        {
+          "id": "de.a2u15.l06",
+          "type": "dialogue",
+          "titleZh": "请当地人推荐餐馆",
+          "canDoZh": "能礼貌地请陌生人推荐地方、问路,并道谢",
+          "scenarioZh": "晚上三人想吃地道的维也纳炸肉排(das Wiener Schnitzel)。王伟问一位男路人:Entschuldigung, könnten Sie uns ein gutes Restaurant empfehlen?;路人推荐一家老餐馆,说怎么走,还建议 Sie sollten reservieren.;到了以后人很多,他们等了半个小时。说话人:wei、passant、sofia。",
+          "grammarFocusZh": "第二虚拟式复习(Könnten Sie …? / Sie sollten …);两个宾语的动词复习(uns ein Restaurant empfehlen)"
+        },
+        {
+          "id": "de.a2u15.r02",
+          "type": "reading",
+          "titleZh": "维也纳的咖啡馆文化",
+          "canDoZh": "能读懂一篇介绍咖啡馆文化的短文,说出几种咖啡和几条习惯",
+          "scenarioZh": "体裁:文化短文。维也纳的咖啡馆历史很长;客人点一杯咖啡可以坐好几个小时、看报纸;咖啡配一杯水;几种咖啡:Melange、Einspänner、Verlängerter;咖啡馆文化被列入了奥地利的非物质文化遗产名录。说话人:narrator(短文)。",
+          "grammarFocusZh": "第二虚拟式在建议里(Sie sollten unbedingt …);形容词词尾复习"
+        },
+        {
+          "id": "de.a2u15.l07",
+          "type": "dialogue",
+          "titleZh": "买纪念品",
+          "canDoZh": "能礼貌地问价、请店员推荐纪念品,说出想买给谁",
+          "scenarioZh": "最后一天,三人在老城的小店买纪念品:王伟想给霍夫曼先生买一个维也纳老电车的模型,给约纳斯买一包咖啡,给保罗买一盒巧克力;女店员推荐;王伟问 Könnten Sie das als Geschenk einpacken?;莉娜笑他:Du solltest nicht so viel kaufen!。说话人:wei、verkaeuferin、lena。",
+          "grammarFocusZh": "第二虚拟式和两个宾语的动词复习(Ich würde ihm gern … schenken)"
+        },
+        {
+          "id": "de.a2u15.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:回到 WG 讲维也纳",
+          "canDoZh": "能连贯地讲一次旅行,说最喜欢的地方、遇到的问题和建议",
+          "scenarioZh": "回到柏林,王伟给约纳斯和霍夫曼先生讲维也纳之行:夜车、咖啡馆、奥地利说法、坏了的热水器、炸肉排、美泉宫;他把纪念品送出去;霍夫曼先生说他年轻时开火车也去过维也纳;约纳斯说 Nächstes Mal würde ich gern mitkommen!。说话人:wei、jonas、hoffmann。",
+          "grammarFocusZh": "复习:第二虚拟式(Ich würde gern wieder hinfahren)、完成时、wenn"
+        },
+        {
+          "id": "de.a2u15.r03",
+          "type": "reading",
+          "titleZh": "王伟的旅行博客:维也纳四天",
+          "canDoZh": "能读懂一篇旅行博客,说出作者的经历、评价和建议",
+          "scenarioZh": "体裁:博客(王伟)。按天写四天的经历;评价:最美的是美泉宫的花园,最好吃的是炸肉排,最麻烦的是热水器;给读者的建议:应该坐夜车、应该提前订票、如果下雨可以去博物馆。说话人:wei(博客)。",
+          "grammarFocusZh": "第二虚拟式(sollte)、wenn、最高级和完成时的综合应用"
+        }
+      ]
+    },
+    {
+      "id": "a2u16",
+      "unit": "A2-16 找实习",
+      "cefr": "A2",
+      "themeZh": "三月,王伟开始找暑期实习:说自己想找什么、看懂招聘广告、去大学就业服务中心咨询、打电话问职位、和朋友比较几个机会、逛招聘会,也帮他辅导的新生打听打工的事。",
+      "grammarZh": "间接问句:W-问句和是非问句(ob)变成从句,变位动词放在最后(Können Sie mir sagen, wann …? / Ich weiß nicht, ob …);和 dass 从句的区别。",
+      "pronunciationZh": "打电话时说清楚:姓名、号码、邮箱的拼读;礼貌问句的语调(Können Sie mir sagen, …?)。",
+      "lessons": [
+        {
+          "id": "de.a2u16.l01",
+          "type": "dialogue",
+          "titleZh": "我想找个实习",
+          "canDoZh": "能说出自己想找什么样的实习、什么时候、做多久",
+          "scenarioZh": "三月,王伟想暑假找一份实习。他和索菲娅、约纳斯在厨房聊:想做软件开发,六月到九月,最好在柏林;索菲娅问 Weißt du, ob man im Praktikum Geld bekommt?;约纳斯说他认识一个在 IT 公司工作的常客,可以帮他问问。说话人:wei、sofia、jonas。",
+          "grammarFocusZh": "间接问句初见:Weißt du, ob …? / Ich weiß nicht, wie …"
+        },
+        {
+          "id": "de.a2u16.l02",
+          "type": "vocab",
+          "titleZh": "招聘广告上的词",
+          "canDoZh": "能看懂实习广告里的任务、要求和条件",
+          "scenarioZh": "王伟和莉娜在电脑上看几个实习广告:die Stelle、die Aufgaben、die Anforderungen、die Kenntnisse、die Vergütung、Vollzeit / Teilzeit、ab sofort、die Bewerbungsunterlagen;莉娜解释 (m/w/d) 的意思(男 / 女 / 多元性别)。说话人:wei、lena。",
+          "grammarFocusZh": "招聘广告用语;间接问句复习(Ich weiß nicht, was „Vergütung“ bedeutet)"
+        },
+        {
+          "id": "de.a2u16.l03",
+          "type": "grammar",
+          "titleZh": "您能告诉我……吗?:间接问句",
+          "canDoZh": "能用间接问句礼貌地打听信息",
+          "scenarioZh": "王伟去大学的就业服务中心(der Career Service)咨询。女工作人员问他想找什么;王伟问 Können Sie mir sagen, wie ich einen guten Lebenslauf schreibe? Wissen Sie, ob Firmen auch Studenten mit wenig Deutsch nehmen?;工作人员一一回答,还告诉他下周有招聘会。说话人:wei、mitarbeiterin。",
+          "grammarFocusZh": "间接问句:W-词引导(…, wann / wo / wie / was …)和 ob 引导(原来是是非问句);变位动词放在最后;常用的开头 Können Sie mir sagen …? / Wissen Sie …? / Ich weiß nicht …;和 dass 从句的区别"
+        },
+        {
+          "id": "de.a2u16.r01",
+          "type": "reading",
+          "titleZh": "三个实习广告",
+          "canDoZh": "能读懂实习招聘广告,比较任务、要求和条件",
+          "scenarioZh": "体裁:招聘广告(公司不写真实名称)。一家做学习 App 的小公司(要会 Python,德语 B1 以上,有实习工资);一家大银行的 IT 部门(工作语言英语,工资较低);一家做共享单车软件的新公司(要会 JavaScript,可以部分时间在家工作);每个都写任务、要求、时间和怎么申请。说话人:narrator(广告)。",
+          "grammarFocusZh": "读后用间接问句讨论(Ich weiß nicht, ob …);形容词词尾复习(ein kleines Team, gute Englischkenntnisse)"
+        },
+        {
+          "id": "de.a2u16.l04",
+          "type": "dialogue",
+          "titleZh": "打电话问职位",
+          "canDoZh": "能打电话询问职位的情况,用间接问句问清楚条件",
+          "scenarioZh": "王伟给做学习 App 的公司打电话。人事部的男工作人员接电话;王伟说 Ich wollte fragen, ob die Praktikumsstelle noch frei ist. Können Sie mir sagen, wie lange das Praktikum dauert?;对方说还在招,请他把简历和求职信发给自己。说话人:wei、mitarbeiter。",
+          "grammarFocusZh": "间接问句复习(Ich wollte fragen, ob … / Können Sie mir sagen, wann …?);打电话的礼貌说法"
+        },
+        {
+          "id": "de.a2u16.l05",
+          "type": "vocab",
+          "titleZh": "公司里的词",
+          "canDoZh": "能说出公司里的部门、职位和工作方式",
+          "scenarioZh": "约纳斯带回来餐馆常客(在 IT 公司工作,不出场)的建议,和王伟一起看那家公司的网站:das Team、die Abteilung、der Chef / die Chefin、der Kollege / die Kollegin、das Meeting、im Homeoffice arbeiten、flexible Arbeitszeiten、die Probezeit;约纳斯说餐馆里也有“团队”,但是没有 Homeoffice。说话人:jonas、wei。",
+          "grammarFocusZh": "公司用语;间接问句复习(Er hat gefragt, ob du schon Erfahrung hast)"
+        },
+        {
+          "id": "de.a2u16.l06",
+          "type": "dialogue",
+          "titleZh": "选哪一个?",
+          "canDoZh": "能和朋友讨论几个选择的优点和缺点,问别人的意见",
+          "scenarioZh": "语伴练习后,王伟和莉娜讨论三个实习:学习 App 公司(小、有意思,工资少)、银行(大、稳定,但有点无聊)、新公司(有意思,但要求高);莉娜问 Weißt du schon, welche Stelle dir am besten gefällt?;王伟说他不知道自己能不能用德语开会。说话人:lena、wei。",
+          "grammarFocusZh": "间接问句和比较级复习;说担心(Ich weiß nicht, ob ich das schaffe)"
+        },
+        {
+          "id": "de.a2u16.r02",
+          "type": "reading",
+          "titleZh": "申请小贴士",
+          "canDoZh": "能读懂申请指南,找出写简历和求职信的要点",
+          "scenarioZh": "体裁:就业服务中心的小册子。申请材料:求职信(das Anschreiben)、简历(der Lebenslauf)、成绩单、证书;德国的简历常放照片,但不是必须的;日期、学校、实习、语言、技能要写清楚;求职信最多一页;用 PDF 发;先打听清楚联系人是谁。说话人:narrator(小册子)。",
+          "grammarFocusZh": "间接问句在建议里(Überlegen Sie, warum Sie gerade diese Stelle wollen);第二虚拟式复习(Sie sollten …)"
+        },
+        {
+          "id": "de.a2u16.l07",
+          "type": "dialogue",
+          "titleZh": "在招聘会上",
+          "canDoZh": "能在招聘会上和公司的人交谈,介绍自己、问问题",
+          "scenarioZh": "大学的招聘会(die Jobmesse)上,王伟走到那家新公司的展台。女工作人员问他学什么、会什么;王伟介绍自己(Ich studiere Informatik im vierten Semester …),问 Können Sie mir sagen, ob man bei Ihnen auch auf Englisch arbeiten kann?;她给了他一张名片,说可以直接发申请。说话人:mitarbeiterin、wei。",
+          "grammarFocusZh": "间接问句复习;自我介绍(Ich interessiere mich für … 先当固定说法,带介词的动词下个单元讲)"
+        },
+        {
+          "id": "de.a2u16.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:替新生打听打工",
+          "canDoZh": "能用间接问句替别人打听信息,并转告答案",
+          "scenarioZh": "王伟辅导的一个新生(不出场)想找打工,王伟替他给学生打工介绍处打电话,男工作人员接电话:Mein Kommilitone möchte wissen, ob man auch ohne Deutschkenntnisse arbeiten kann. Können Sie mir sagen, wo …?;问清楚以后,王伟发消息把答案告诉新生。说话人:wei、mitarbeiter。",
+          "grammarFocusZh": "复习:间接问句;转述别人的问题(Er möchte wissen, wann … / ob …)"
+        },
+        {
+          "id": "de.a2u16.r03",
+          "type": "reading",
+          "titleZh": "大学生和实习",
+          "canDoZh": "能读懂一篇关于大学生实习的短文,说出几个事实和看法",
+          "scenarioZh": "体裁:报纸短文。很多德国大学生在学习期间做实习,有的专业必须做;实习可以是几周,也可以是几个月;很多学生说实习帮他们找到了第一份工作;也有学生觉得实习太多、钱太少;文章最后转述了一位就业顾问的建议。不写具体的法律规定。说话人:narrator(短文)。",
+          "grammarFocusZh": "间接问句在文章里(Viele fragen sich, ob …);形容词词尾复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u17",
+      "unit": "A2-17 简历和求职信",
+      "cefr": "A2",
+      "themeZh": "三月底到四月初,王伟写德语简历和求职信:想清楚自己的兴趣和能力、整理学历和经历、莉娜帮他改信、说自己的优点、发申请邮件,着急地等回复,终于收到面试邀请。",
+      "grammarZh": "带介词的动词(sich interessieren für、sich bewerben um / bei、sich freuen auf / über、warten auf、denken an、sprechen über / mit、achten auf)和疑问代副词 wo(r)- / 代副词 da(r)-(Worauf wartest du? – Darauf!)。",
+      "pronunciationZh": "IT 和工作用语里英语外来词的读法(das Team、das Meeting、die Software、online);wo- / da- 复合词的重音(WOrauf? / daRAUF)。",
+      "lessons": [
+        {
+          "id": "de.a2u17.l01",
+          "type": "dialogue",
+          "titleZh": "我对什么感兴趣?",
+          "canDoZh": "能说出自己对什么感兴趣、擅长什么",
+          "scenarioZh": "写简历前,莉娜问王伟:Wofür interessierst du dich? Worauf freust du dich bei einem Praktikum?;王伟说他对学习类的 App 和人工智能感兴趣,擅长编程和数学,喜欢和别人一起做项目;莉娜说这些都要写进求职信。说话人:lena、wei。",
+          "grammarFocusZh": "带介词的动词初见:sich interessieren für + 第四格、sich freuen auf + 第四格;Wofür? / Worauf?"
+        },
+        {
+          "id": "de.a2u17.l02",
+          "type": "vocab",
+          "titleZh": "简历上写什么",
+          "canDoZh": "能说出简历的各个部分,整理自己的学历和经历",
+          "scenarioZh": "王伟和索菲娅一起做表格式简历(der tabellarische Lebenslauf):persönliche Daten、Ausbildung(成都的高中、柏林的大学)、Praktika und Nebenjobs(冰淇淋店、新生辅导员)、Sprachkenntnisse(中文母语、英语、德语 A2)、IT-Kenntnisse、Hobbys;索菲娅说德国的简历最近的经历写在最上面。课文里的日期用 seit dem Wintersemester 这类说法,不写年份。说话人:wei、sofia。",
+          "grammarFocusZh": "简历用语;时间表达复习(seit, von … bis …)"
+        },
+        {
+          "id": "de.a2u17.l03",
+          "type": "grammar",
+          "titleZh": "等什么?——带介词的动词和 wo- / da-",
+          "canDoZh": "能正确使用常见的带介词的动词,用 wo- 提问、用 da- 回答",
+          "scenarioZh": "A2 课上,瓦格纳老师讲带介词的动词,王伟用自己的情况造句:Ich bewerbe mich um ein Praktikum. Ich warte auf eine Antwort. Ich denke oft an meine Familie.;老师问 Worauf warten Sie? – Auf eine Antwort. / Darauf warte ich schon lange.;王伟发现这些介词和中文对不上,只能连着动词一起记。说话人:wagner、wei。",
+          "grammarFocusZh": "带介词的动词要连介词和格一起记(warten auf + 第四格, denken an + 第四格, sprechen über + 第四格 / mit + 第三格, sich bewerben um + 第四格 / bei + 第三格, sich freuen auf / über + 第四格);问东西用 wo(r)- + 介词(Worauf? Wofür? Worüber?),回答用 da(r)- + 介词;问人用介词 + wen / wem(Auf wen wartest du?)"
+        },
+        {
+          "id": "de.a2u17.r01",
+          "type": "reading",
+          "titleZh": "求职信样本",
+          "canDoZh": "能读懂一封求职信的结构和常用句子",
+          "scenarioZh": "体裁:求职信样本(就业服务中心提供的,虚构的申请人)。Sehr geehrte Frau …, 第一段:申请什么职位、在哪儿看到的;第二段:学习和经验;第三段:为什么对这家公司感兴趣;结尾:期待回复(Über eine Einladung zu einem Vorstellungsgespräch freue ich mich sehr.);Mit freundlichen Grüßen。说话人:narrator(样本)。",
+          "grammarFocusZh": "求职信里的带介词的动词(sich bewerben um, sich interessieren für, sich freuen über);第二虚拟式(Ich würde mich freuen, …)"
+        },
+        {
+          "id": "de.a2u17.l04",
+          "type": "dialogue",
+          "titleZh": "莉娜帮我改求职信",
+          "canDoZh": "能和别人讨论怎么修改文章,接受和回应修改意见",
+          "scenarioZh": "王伟写好求职信的草稿,请莉娜看。莉娜说:开头太长;要写清楚为什么对这家公司感兴趣;Ich bin sehr gut 太直接,可以写 Ich habe Erfahrung mit …;王伟问 Worauf muss ich noch achten?;两人一起改好了。说话人:wei、lena。",
+          "grammarFocusZh": "带介词的动词复习(achten auf, Erfahrung mit, sich bewerben bei);用第二虚拟式提建议(Du könntest … / Ich würde …)"
+        },
+        {
+          "id": "de.a2u17.l05",
+          "type": "vocab",
+          "titleZh": "说说我的优点",
+          "canDoZh": "能说出自己的能力和性格优点,并用例子说明",
+          "scenarioZh": "索菲娅帮王伟练“说优点”:teamfähig、zuverlässig、kreativ、geduldig、selbstständig、die Programmierkenntnisse、die Erfahrung;她问 Woran merkt man, dass du teamfähig bist?;王伟举例:小组项目、当新生辅导员、在冰淇淋店打工。说话人:sofia、wei。",
+          "grammarFocusZh": "带介词的动词复习(Woran merkt man …?);dass 从句复习"
+        },
+        {
+          "id": "de.a2u17.l06",
+          "type": "dialogue",
+          "titleZh": "发申请邮件",
+          "canDoZh": "能写一封附上申请材料的短邮件,检查标题、附件和格式",
+          "scenarioZh": "晚上王伟准备把申请发给那家学习 App 公司,约纳斯在旁边看:邮件标题怎么写(Bewerbung um ein Praktikum als …)、附件用 PDF、文件名别叫“简历最终版 3”、正文三四句就够了;约纳斯开玩笑说他当年找厨师的工作只打了一个电话。说话人:wei、jonas。",
+          "grammarFocusZh": "带介词的动词复习(sich bewerben um / bei);正式邮件的说法"
+        },
+        {
+          "id": "de.a2u17.r02",
+          "type": "reading",
+          "titleZh": "王伟的简历",
+          "canDoZh": "能读懂一份表格式简历,找出一个人的学历、经历和技能",
+          "scenarioZh": "体裁:表格式简历(王伟的)。个人信息(电话、邮箱用示例,不写真实号码)、教育(成都的高中、柏林的大学、语言课)、工作经历(冰淇淋店、新生辅导员)、语言、IT 技能、爱好(足球、做饭、摄影);日期用“自某学期起”这样的写法,不写年份。说话人:narrator(简历)。",
+          "grammarFocusZh": "简历的名词短语和时间表达;带介词的动词复习"
+        },
+        {
+          "id": "de.a2u17.l07",
+          "type": "dialogue",
+          "titleZh": "等回复",
+          "canDoZh": "能说出自己在等什么、担心什么,安慰和鼓励别人",
+          "scenarioZh": "两周过去了,王伟还没收到回复。他在 WG 很着急:Ich warte immer noch auf eine Antwort.;索菲娅说等两三周很正常;约纳斯说 Denk nicht so viel daran!;正说着,王伟的手机响了——是面试邀请的邮件!说话人:wei、sofia、jonas。",
+          "grammarFocusZh": "warten auf / denken an / sich freuen über 复习;da- 复合词(Ich denke die ganze Zeit daran)"
+        },
+        {
+          "id": "de.a2u17.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:模拟面试问题",
+          "canDoZh": "能用带介词的动词谈自己的兴趣、经验和计划",
+          "scenarioZh": "收到邀请后,莉娜扮演面试官问 Wofür interessieren Sie sich? Worauf freuen Sie sich bei uns? Woran arbeiten Sie gerade im Studium?;王伟回答;莉娜点评哪里说得好、哪里要改。说话人:lena、wei。",
+          "grammarFocusZh": "复习:带介词的动词、wo- / da- 复合词、第二虚拟式"
+        },
+        {
+          "id": "de.a2u17.r03",
+          "type": "reading",
+          "titleZh": "面试邀请",
+          "canDoZh": "能读懂面试邀请邮件,找出时间、地点、形式和要准备的东西",
+          "scenarioZh": "体裁:正式邮件(公司不写真实名称)。Sehr geehrter Herr Wang, 感谢申请;邀请他 4 月 15 日上午 10 点来面试,大约一个小时:先谈话,再做一个小的编程任务;地址和交通;请带上证件;请确认时间;联系人的名字。说话人:narrator(邮件)。",
+          "grammarFocusZh": "带介词的动词(sich freuen über, sich vorbereiten auf);第二虚拟式(Wir würden uns freuen, …)"
+        }
+      ]
+    },
+    {
+      "id": "a2u18",
+      "unit": "A2-18 面试",
+      "cefr": "A2",
+      "themeZh": "四月中,王伟去面试:在 WG 模拟面试、复习面试用语、面试时谈时间和安排、做编程小任务、拿到实习、看合同、和朋友分享好消息、写感谢邮件,和瓦格纳老师商量实习和考试的时间。",
+      "grammarZh": "时间表达(二):für + 时间段(für drei Monate)、in + 第三格(in einer Woche)、ab(ab Juni)、bis(bis Mitte Juli)、über(über ein Jahr)、vorher / nachher;和 seit / vor 对比复习。",
+      "pronunciationZh": "讲一段话的节奏和停顿:用连接词分段(zuerst、danach、außerdem),面试时语速适中;日期和数字要读清楚。",
+      "lessons": [
+        {
+          "id": "de.a2u18.l01",
+          "type": "dialogue",
+          "titleZh": "模拟面试",
+          "canDoZh": "能回答面试常见的问题:介绍自己、为什么申请、优点和缺点",
+          "scenarioZh": "面试前一天,索菲娅和约纳斯在 WG 扮演面试官:Erzählen Sie etwas über sich. Warum möchten Sie bei uns arbeiten? Was sind Ihre Stärken und Schwächen?;王伟太紧张,说“我的缺点是太完美了”,约纳斯笑他;索菲娅提醒他说清楚时间:seit wann、wie lange、ab wann。说话人:sofia、jonas、wei。",
+          "grammarFocusZh": "时间表达初见:seit zwei Jahren / für drei Monate / ab Juni"
+        },
+        {
+          "id": "de.a2u18.l02",
+          "type": "vocab",
+          "titleZh": "面试用语",
+          "canDoZh": "能听懂和说出面试里常用的问题和说法",
+          "scenarioZh": "王伟和莉娜复习面试用语:das Vorstellungsgespräch、die Stärke / die Schwäche、die Erfahrung、die Vergütung、die Arbeitszeit、der Vertrag、der Arbeitsbeginn;莉娜说最后一定要问一个问题,比如 Wie sieht ein typischer Arbeitstag aus?。说话人:wei、lena。",
+          "grammarFocusZh": "面试用语;带介词的动词复习(Fragen zu …, Erfahrung mit …)"
+        },
+        {
+          "id": "de.a2u18.l03",
+          "type": "grammar",
+          "titleZh": "三个月、一周后、从六月起:时间表达",
+          "canDoZh": "能用 für / in / ab / bis / über 说时间段、开始和结束的时间",
+          "scenarioZh": "4 月 15 日,在公司的会议室。负责人事的女工作人员问:Wie lange möchten Sie bleiben? – Für drei Monate. Ab wann können Sie anfangen? – Ab dem 16. Juni. Bis wann haben Sie Vorlesungen? – Bis Mitte Juli.;她说一周以后(in einer Woche)通知他结果。说话人:mitarbeiterin、wei。",
+          "grammarFocusZh": "für + 第四格表示计划的时间段;in + 第三格表示“……以后”(将来);ab(从将来某时起)和 seit(从过去某时起到现在)的区别;bis;über + 时间段(超过);vor / nach + 第三格复习"
+        },
+        {
+          "id": "de.a2u18.r01",
+          "type": "reading",
+          "titleZh": "“关于我们”:公司介绍",
+          "canDoZh": "能读懂公司网站上的介绍,说出公司做什么、多少人、怎么工作",
+          "scenarioZh": "体裁:公司网站的“关于我们”(公司不写真实名称)。一家做语言学习 App 的柏林公司:几年前成立,40 个员工来自 15 个国家,工作语言是德语和英语;工作时间灵活,每周可以在家工作两天,周五大家一起吃早饭;每个实习生都有一个导师(der Mentor)。说话人:narrator(网页)。",
+          "grammarFocusZh": "时间表达和带介词的动词复习;形容词词尾复习"
+        },
+        {
+          "id": "de.a2u18.l04",
+          "type": "dialogue",
+          "titleZh": "编程小任务",
+          "canDoZh": "能一边做任务一边说明自己的想法和步骤,问不清楚的地方",
+          "scenarioZh": "面试的第二部分,一位男开发人员给王伟一个小编程任务;王伟边写边说自己的想法(Zuerst … dann …),不确定的时候问 Darf ich kurz fragen, ob …?;开发人员说他的方法不错,但可以写得更简单。说话人:mitarbeiter、wei。",
+          "grammarFocusZh": "间接问句和表示顺序的副词复习(zuerst, danach, am Ende);说明步骤"
+        },
+        {
+          "id": "de.a2u18.l05",
+          "type": "vocab",
+          "titleZh": "实习合同",
+          "canDoZh": "能看懂实习合同的主要内容:时间、工资、假期和试用期",
+          "scenarioZh": "一周后公司打电话来:王伟被录取了!合同寄到了,他和约纳斯一起看:der Praktikumsvertrag、der Beginn、das Ende、die Arbeitszeit(七月中以前每周 20 小时,以后 40 小时)、die Vergütung、der Urlaub、die Probezeit;约纳斯帮他看哪里要签字。说话人:wei、jonas。",
+          "grammarFocusZh": "时间表达复习(ab dem 16. Juni, bis zum 15. September, für drei Monate);合同用语"
+        },
+        {
+          "id": "de.a2u18.l06",
+          "type": "dialogue",
+          "titleZh": "好消息!",
+          "canDoZh": "能告诉朋友好消息,讲清楚细节,回应别人的祝贺",
+          "scenarioZh": "王伟给莉娜打电话:Ich habe das Praktikum!;莉娜问什么时候开始、做多久、做什么、有没有工资,王伟一一回答;晚上大家在 WG 庆祝,霍夫曼先生也来了,说他的第一份工作也是在四月找到的。说话人:wei、lena、hoffmann、sofia、jonas。",
+          "grammarFocusZh": "时间表达复习;Herzlichen Glückwunsch zu …(zu + 第三格)"
+        },
+        {
+          "id": "de.a2u18.r02",
+          "type": "reading",
+          "titleZh": "面试后的感谢邮件",
+          "canDoZh": "能读懂、也能写一封面试后的感谢邮件",
+          "scenarioZh": "体裁:邮件和回复。王伟写给面试官:感谢面试的机会,说自己对哪部分工作特别感兴趣,再说一次可以开始的时间(ab dem 16. Juni),期待回复;下面是人事部的回复:录取通知和下一步(签合同、第一天几点到)。说话人:wei(邮件)、narrator(回复)。",
+          "grammarFocusZh": "时间表达和带介词的动词(sich bedanken für, sich freuen auf)"
+        },
+        {
+          "id": "de.a2u18.l07",
+          "type": "dialogue",
+          "titleZh": "实习和上课怎么安排?",
+          "canDoZh": "能和老师商量课程和实习的时间安排",
+          "scenarioZh": "王伟去找瓦格纳老师:A2 课在周一和周三晚上,实习从六月开始,下班后来得及吗?七月考歌德 A2 要不要请假?老师说课 18 点才开始,来得及;她建议他尽快报名七月的考试,考前两周多做练习。说话人:wei、wagner。",
+          "grammarFocusZh": "时间表达复习(ab Juni, bis Juli, in zwei Monaten, vorher);第二虚拟式(Sie sollten sich bald anmelden)"
+        },
+        {
+          "id": "de.a2u18.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:给新生讲找实习的经验",
+          "canDoZh": "能给别人讲自己的经验,提出建议",
+          "scenarioZh": "辅导员聚会上,国际处的女工作人员请王伟给想找实习的新生讲经验(新生不出场,问题由工作人员转述):怎么找、怎么写申请、面试问什么、多久有回复;王伟用时间表达和带介词的动词讲自己的经历。说话人:mitarbeiterin、wei。",
+          "grammarFocusZh": "复习:时间表达、带介词的动词、间接问句"
+        },
+        {
+          "id": "de.a2u18.r03",
+          "type": "reading",
+          "titleZh": "实习合同摘要",
+          "canDoZh": "能读懂合同摘要,找出最重要的条件",
+          "scenarioZh": "体裁:合同摘要(公司和人名不写真实名称)。实习从 6 月 16 日到 9 月 15 日;工作时间(七月中以前每周 20 小时,之后 40 小时);每月的实习工资;每个月一天假;试用期两周;工作地点;一句保密条款;生病要当天通知。说话人:narrator(合同摘要)。",
+          "grammarFocusZh": "时间表达综合应用;合同里的名词短语"
+        }
+      ]
+    },
+    {
+      "id": "a2u19",
+      "unit": "A2-19 要搬家了",
+      "cefr": "A2",
+      "themeZh": "四月,霍夫曼先生说隔壁街他老同事的房子要出租(四个房间、有阳台),老房子明年又要大修:WG 讨论要不要搬、读租房广告和缩写、写找室友的广告、约看房、看房提问、读看房小贴士、比较两套房子,莉娜决定搬进第四个房间,约纳斯签新合同。",
+      "grammarZh": "形容词词尾(三):第三格和零冠词的形容词词尾(mit großem Balkon, in ruhiger Lage, helle Zimmer, mit einem kleinen Bad);定冠词后、不定冠词后、零冠词三种词尾的总结;租房广告里的缩写。",
+      "pronunciationZh": "法语来的外来词(die Etage [eˈtaːʒə]、der Balkon、die Garage)和缩写的读法(qm = Quadratmeter、NK = Nebenkosten、OG = Obergeschoss)。",
+      "lessons": [
+        {
+          "id": "de.a2u19.l01",
+          "type": "dialogue",
+          "titleZh": "要不要搬家?",
+          "canDoZh": "能和室友讨论一个大决定,说出理由、条件和担心",
+          "scenarioZh": "四月初,霍夫曼先生告诉 WG:他的老同事要搬去女儿那里住,隔壁街的房子要出租——四个房间、有阳台,平均下来每人的房租差不多。WG 开会:约纳斯说老房子明年要大修,房租也会涨;索菲娅喜欢阳台;王伟担心实习期间搬家太忙;最后大家决定先去看看。说话人:hoffmann、jonas、sofia、wei。",
+          "grammarFocusZh": "第三格的形容词词尾初见(eine Wohnung mit großem Balkon / in einer ruhigen Straße);weil / wenn / dass 复习"
+        },
+        {
+          "id": "de.a2u19.l02",
+          "type": "vocab",
+          "titleZh": "租房广告和缩写",
+          "canDoZh": "能看懂租房广告里的常用词和缩写",
+          "scenarioZh": "约纳斯在网上找到这套房子的广告,和王伟一起看:4-Zimmer-Wohnung、95 qm、3. OG、Altbau、Balkon、EBK(Einbauküche)、Kaltmiete / Warmmiete、NK(Nebenkosten)、Kaution(三个月的冷租金)、ab 1. Juni frei;约纳斯解释冷租金和暖租金的区别。说话人:jonas、wei。",
+          "grammarFocusZh": "零冠词的形容词词尾初见(helle Zimmer, ruhige Lage, große Küche);广告缩写"
+        },
+        {
+          "id": "de.a2u19.l03",
+          "type": "grammar",
+          "titleZh": "有大阳台的亮房间:零冠词的形容词词尾",
+          "canDoZh": "能用带形容词的名词描述房子,读懂、也能写出广告式的描述",
+          "scenarioZh": "WG 一起写“找第四个室友”的广告草稿:Wir suchen eine nette Mitbewohnerin oder einen netten Mitbewohner für ein helles Zimmer mit großem Fenster in ruhiger Lage …;索菲娅写,王伟检查词尾,约纳斯开玩笑要加上“会做饭者优先”。说话人:sofia、wei、jonas。",
+          "grammarFocusZh": "零冠词的形容词词尾和定冠词的词尾相似(großer Balkon, helles Zimmer, mit großem Balkon, in ruhiger Lage, helle Zimmer);三种词尾(定冠词后 / 不定冠词后 / 零冠词)的总表"
+        },
+        {
+          "id": "de.a2u19.r01",
+          "type": "reading",
+          "titleZh": "几则租房广告",
+          "canDoZh": "能读懂几则租房广告,比较面积、房租和条件",
+          "scenarioZh": "体裁:租房网站上的广告(网站不写真实名称)。除了隔壁街那套,王伟又找了三则比较:一套便宜但很远、一套漂亮但很贵、一套只能住两年的转租房;每则写面积、房间、楼层、冷暖租金、附加费、押金和什么时候能搬进去。说话人:narrator(广告)。",
+          "grammarFocusZh": "零冠词形容词词尾和广告缩写;比较级复习"
+        },
+        {
+          "id": "de.a2u19.l04",
+          "type": "dialogue",
+          "titleZh": "打电话约看房",
+          "canDoZh": "能打电话约看房,问清楚时间、地点和要带的材料",
+          "scenarioZh": "约纳斯给物业公司打电话,女工作人员接电话:约纳斯问房子还在不在、什么时候能看、要带什么材料(收入证明、信用证明、身份证件);工作人员说周六 11 点集体看房,报名的人很多。说话人:jonas、mitarbeiterin。",
+          "grammarFocusZh": "间接问句和第二虚拟式复习(Könnten Sie mir sagen, wann …?);形容词词尾复习"
+        },
+        {
+          "id": "de.a2u19.l05",
+          "type": "vocab",
+          "titleZh": "老房子的各个部分",
+          "canDoZh": "能说出房子各部分和设施的名称,描述房子的情况",
+          "scenarioZh": "看房前,霍夫曼先生给他们讲这种老房子(der Altbau):很高的天花板、木地板、地下室(der Keller)、楼梯间、没有电梯;他提醒看房时要看窗户、暖气,还要看有没有发霉(der Schimmel)。说话人:hoffmann、wei、sofia。",
+          "grammarFocusZh": "形容词词尾复习(hohe Decken, ein alter Holzboden);dass 复习(Achtet darauf, dass …)"
+        },
+        {
+          "id": "de.a2u19.l06",
+          "type": "dialogue",
+          "titleZh": "看房",
+          "canDoZh": "能在看房时提问、了解情况,礼貌地表示有兴趣",
+          "scenarioZh": "周六 11 点,三人和十几个人(不出场)一起看房。物业的男工作人员带大家看:房间多大、暖气怎么样、附加费包括什么、能不能合租;王伟问 Gibt es einen Keller? Wie hoch sind die Nebenkosten ungefähr?;约纳斯发现浴室的角落有一点霉;最后他们填了申请表。说话人:mitarbeiter、wei、jonas、sofia。",
+          "grammarFocusZh": "形容词词尾和间接问句复习(Wissen Sie, ob die Küche neu ist?)"
+        },
+        {
+          "id": "de.a2u19.r02",
+          "type": "reading",
+          "titleZh": "看房小贴士",
+          "canDoZh": "能读懂一份看房小贴士,知道看房时要注意什么、怎样防骗",
+          "scenarioZh": "体裁:租房网站的小贴士。看房前准备好材料;看房时检查窗户、暖气、热水、霉斑、噪音和手机信号;问清楚房租、附加费、押金和最短租期;没看过房、没签合同以前,不要给任何人转钱;签合同前要仔细读。说话人:narrator(小贴士)。",
+          "grammarFocusZh": "零冠词形容词词尾和命令式;dass / ob 复习"
+        },
+        {
+          "id": "de.a2u19.l07",
+          "type": "dialogue",
+          "titleZh": "比较两套房子",
+          "canDoZh": "能比较两套房子的优点和缺点,做出决定",
+          "scenarioZh": "晚上,WG 和莉娜在厨房比较:新房子四个房间、有阳台、离地铁近,每人每月便宜 30 欧元,但浴室有点旧、在四楼、没有电梯;老房子大家都熟悉,霍夫曼先生就在楼下,可是明年要大修。莉娜说 Ich würde umziehen! … Und ehrlich gesagt: Ich möchte auch ausziehen.——她想搬出爸妈家,住进第四个房间!大家都很高兴。说话人:jonas、sofia、wei、lena。",
+          "grammarFocusZh": "比较级和形容词词尾复习(die größere Küche, ein heller Balkon);第二虚拟式(Ich würde …)"
+        },
+        {
+          "id": "de.a2u19.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:签租房合同",
+          "canDoZh": "能听懂合同里最重要的几点,签字前把问题问清楚",
+          "scenarioZh": "物业通知:房子租给他们了!约纳斯作为主租人去签合同,王伟和索菲娅陪着;男工作人员解释房租、附加费、押金、可以和室友合租、5 月 25 日交钥匙;王伟问 Was passiert, wenn etwas kaputtgeht?;约纳斯签字,也和旧房子的物业商量好提前退租。说话人:mitarbeiter、jonas、wei、sofia。",
+          "grammarFocusZh": "复习:形容词词尾、wenn / ob、时间表达"
+        },
+        {
+          "id": "de.a2u19.r03",
+          "type": "reading",
+          "titleZh": "租房合同的重点",
+          "canDoZh": "能读懂租房合同的摘要,找出房租、押金、期限和规定",
+          "scenarioZh": "体裁:合同摘要(物业整理给租客的,不写真实名称)。冷租金和附加费、押金、合同开始的日期、合同不限期、退租要提前三个月书面通知、养宠物要先问、楼道里不能放东西、安静时间、小修理谁出钱。说话人:narrator(合同摘要)。",
+          "grammarFocusZh": "形容词词尾综合;合同里的名词短语和 müssen / dürfen"
+        }
+      ]
+    },
+    {
+      "id": "a2u20",
+      "unit": "A2-20 搬家那天",
+      "cefr": "A2",
+      "themeZh": "五月底搬家:租搬家车、装箱、搬家当天互相指挥、读搬家清单、楼梯太窄卡住了衣柜、和老邻居霍夫曼先生告别、在新家吃第一顿饭、分配搬家后的事,一周后帮莉娜第一次搬出家。",
+      "grammarZh": "命令式全面:du / ihr / Sie 三种形式(Trag! Tragt! Tragen Sie!),不规则形式(Nimm! Gib! Lies!)和 sein 的命令式(Sei! Seid! Seien Sie!),wir 的建议(Machen wir eine Pause!),用 bitte / mal / doch 让语气更客气。",
+      "pronunciationZh": "命令句的语调和情绪:着急(Schnell!)、提醒(Vorsicht!)、友好的请求(Trag doch bitte mal …!),同一句话语调不同,意思也不同。",
+      "lessons": [
+        {
+          "id": "de.a2u20.l01",
+          "type": "dialogue",
+          "titleZh": "租搬家车",
+          "canDoZh": "能租一辆搬家用的车,问清楚价格、时间和条件",
+          "scenarioZh": "约纳斯和王伟去租车行(不写品牌)租一辆小货车(der Transporter):周六一天,多少钱、包多少公里、押金多少、要看驾照(约纳斯有驾照);男工作人员说 Bringen Sie den Wagen bitte vollgetankt zurück!;约纳斯问 Haben Sie auch Umzugskartons?。说话人:jonas、wei、mitarbeiter。",
+          "grammarFocusZh": "Sie 的命令式复习(Bringen Sie … zurück! Unterschreiben Sie bitte hier!);租车的说法"
+        },
+        {
+          "id": "de.a2u20.l02",
+          "type": "vocab",
+          "titleZh": "装箱",
+          "canDoZh": "能说出搬家用品和装箱、运东西的常用动作",
+          "scenarioZh": "搬家前一周,WG 晚上装箱:der Umzugskarton、das Klebeband、einpacken、auspacken、abbauen、aufbauen、tragen、beschriften(在箱子上写 Küche / Bad);索菲娅指挥:Pack die Gläser gut ein!;王伟发现自己一年多攒了好多东西。说话人:sofia、wei、jonas。",
+          "grammarFocusZh": "du 的命令式复习(Pack ein! Bau ab!);可分动词复习"
+        },
+        {
+          "id": "de.a2u20.l03",
+          "type": "grammar",
+          "titleZh": "大家一起搬!——命令式全面",
+          "canDoZh": "能用 du / ihr / Sie 的命令式请人做事、提醒和鼓励",
+          "scenarioZh": "搬家那天早上,莉娜、保罗和约纳斯球队的两个队友(不出场)都来了。约纳斯分工:Paul, trag die Kartons! Lena und Sofia, packt die Küche ein! Herr Hoffmann, bleiben Sie bitte sitzen!(霍夫曼先生想帮忙搬,大家不让);保罗搬重箱子时王伟说 Sei vorsichtig!;中午约纳斯说 Machen wir eine Pause!。说话人:jonas、paul、lena、sofia、wei、hoffmann。",
+          "grammarFocusZh": "命令式全面:du(Trag! Nimm! Gib!)、ihr(Tragt! Packt ein!)、Sie(Bleiben Sie sitzen!);sein 的命令式(Sei! Seid! Seien Sie!);wir 的建议(Machen wir eine Pause!);bitte / mal / doch 让语气更客气"
+        },
+        {
+          "id": "de.a2u20.r01",
+          "type": "reading",
+          "titleZh": "搬家清单",
+          "canDoZh": "能读懂一份搬家清单,知道什么时候做什么",
+          "scenarioZh": "体裁:清单(网上的“搬家检查清单”,王伟打印出来贴在冰箱上)。搬家前三个月:退旧房子;前一个月:订车、请朋友帮忙、找箱子;前一周:装箱、申请邮件转寄(der Nachsendeauftrag);搬家当天:拍下电表、水表的数字(der Zählerstand),交旧钥匙;搬家后两周内:去市民局登记新地址,把新地址告诉银行、医保公司、大学和雇主。说话人:narrator(清单)。",
+          "grammarFocusZh": "清单里的命令式和不定式(Zählerstand notieren! / Melden Sie sich um!)"
+        },
+        {
+          "id": "de.a2u20.l04",
+          "type": "dialogue",
+          "titleZh": "小心,楼梯太窄了!",
+          "canDoZh": "能在搬重东西时互相配合,提醒小心,解决问题",
+          "scenarioZh": "搬约纳斯的大衣柜时,楼梯太窄,柜子卡住了。约纳斯在下面、王伟在上面:Langsam! Nach links! Halt! Stopp!;保罗想帮忙,莉娜拦住他:Pass auf deine Finger auf!;最后他们把柜门拆下来,才把柜子搬下去。说话人:jonas、wei、paul、lena。",
+          "grammarFocusZh": "命令式复习(简短的命令:Halt! Langsam! Vorsicht!);方向的说法(nach links / rechts / oben / unten, hoch, runter)"
+        },
+        {
+          "id": "de.a2u20.l05",
+          "type": "vocab",
+          "titleZh": "和老邻居告别",
+          "canDoZh": "能和邻居告别,表示感谢,约好以后常联系",
+          "scenarioZh": "下午,旧房子空了。王伟最后一次敲霍夫曼先生的门——虽然只是搬到隔壁街,还是有点舍不得;霍夫曼先生送给 WG 一盆植物,说 Besucht mich oft!;王伟说 Besuchen Sie uns auch!;两人约好每个周日还一起喝咖啡。说话人:wei、hoffmann。",
+          "grammarFocusZh": "ihr / Sie 的命令式在告别里(Besucht mich! Kommen Sie gut nach Hause!);告别用语(Mach’s gut! Alles Gute!)"
+        },
+        {
+          "id": "de.a2u20.l06",
+          "type": "dialogue",
+          "titleZh": "新家的第一顿饭",
+          "canDoZh": "能在新家招待帮忙的朋友,表达感谢",
+          "scenarioZh": "晚上,新家里到处都是箱子。约纳斯在还没装好的厨房里煮了一大锅意大利面(索菲娅在旁边指导);大家坐在箱子上吃,保罗累得睡着了;王伟谢谢大家:Danke, dass ihr uns geholfen habt!;霍夫曼先生说 Feiert bald eine richtige Einweihungsparty!。说话人:jonas、sofia、wei、hoffmann。",
+          "grammarFocusZh": "命令式复习(Nehmt euch Nudeln! Setzt euch!);dass 从句复习(Danke, dass …)"
+        },
+        {
+          "id": "de.a2u20.r02",
+          "type": "reading",
+          "titleZh": "信件转寄服务",
+          "canDoZh": "能读懂办事网页上的说明,知道怎么申请转寄信件",
+          "scenarioZh": "体裁:服务说明(邮政公司的网页,不写真实名称)。搬家以后,寄到旧地址的信可以转到新地址:在网上申请,选 6 个月或 12 个月,要付费,最好提前一周申请;提醒:银行和政府部门的信,最好直接告诉他们新地址。说话人:narrator(说明)。",
+          "grammarFocusZh": "命令式和第二虚拟式在说明里(Beantragen Sie … / Sie sollten …);时间表达复习"
+        },
+        {
+          "id": "de.a2u20.l07",
+          "type": "dialogue",
+          "titleZh": "搬家以后谁做什么?",
+          "canDoZh": "能和室友分配搬家后要办的事",
+          "scenarioZh": "第二天早上,WG 在新厨房开会:每个人都要去市民局登记新地址(die Ummeldung);谁告诉银行和大学、谁装灯、谁去家具店买新书架;索菲娅列清单,大家用命令式互相提醒:Vergesst die Ummeldung nicht! Ruf die Krankenkasse an!。说话人:sofia、jonas、wei。",
+          "grammarFocusZh": "命令式复习(du / ihr);时间表达复习(in zwei Wochen, bis Freitag)"
+        },
+        {
+          "id": "de.a2u20.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:莉娜搬进来了",
+          "canDoZh": "能在帮朋友搬家时指挥和配合,欢迎新室友",
+          "scenarioZh": "一周后,莉娜也搬进了第四个房间:莉娜的爸爸(不出场)开车把她的东西送来;王伟和约纳斯帮着搬,保罗又抢着搬最重的箱子;莉娜第一次离开家,又高兴又有点舍不得;索菲娅递给她一张自己写的“WG 生存指南”。说话人:lena、paul、wei、jonas、sofia。",
+          "grammarFocusZh": "复习:命令式全面(Stell den Karton hier hin! Seid leise, Paul schläft!)、dass 从句"
+        },
+        {
+          "id": "de.a2u20.r03",
+          "type": "reading",
+          "titleZh": "WG 生存指南",
+          "canDoZh": "能读懂一份带幽默的生活指南,找出规则和建议",
+          "scenarioZh": "体裁:指南(索菲娅写给新室友莉娜的,有点搞笑)。十条“WG 生存法则”:Putz das Bad, wenn du dran bist! Iss nie Jonas’ Käse! Sei nach 22 Uhr leise! Frag Wei, wenn das WLAN nicht geht! Vergiss den Müll nicht! ……最后一句:Willkommen zu Hause!。说话人:narrator(索菲娅写的指南)。",
+          "grammarFocusZh": "命令式全面综合(du 的命令式和 sein 的命令式);wenn 从句复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u21",
+      "unit": "A2-21 布置新家",
+      "cefr": "A2",
+      "themeZh": "五月底到六月初,布置新家:商量家具放在哪儿、去家具店、挂画摆东西、读组装说明、组装书架、去市民局迁址登记、找不到钥匙、在阳台上种花,用视频给保罗介绍新家。",
+      "grammarZh": "双向介词(an、auf、hinter、in、neben、über、unter、vor、zwischen):Wo?(位置)+ 第三格,Wohin?(方向)+ 第四格;成对的动词 stellen / stehen、legen / liegen、hängen / hängen、setzen / sitzen;缩写 ins / im / ans / am。",
+      "pronunciationZh": "介词短语的节奏:介词和冠词读得轻,名词重读(auf den TISCH、an die WAND);dem / den、der / die 的词尾要清楚。",
+      "lessons": [
+        {
+          "id": "de.a2u21.l01",
+          "type": "dialogue",
+          "titleZh": "沙发放哪儿?",
+          "canDoZh": "能和别人商量家具放在哪儿",
+          "scenarioZh": "新家的客厅还空着。约纳斯和索菲娅商量:Wohin stellen wir das Sofa? – An die Wand, neben das Fenster.;王伟想把电视放在角落里;莉娜说书架放在门后面;最后沙发放在窗户前面——约纳斯说他终于可以看着阳台睡午觉了。说话人:jonas、sofia、wei、lena。",
+          "grammarFocusZh": "双向介词初见:Wohin? + 第四格(an die Wand, neben das Fenster),Wo? + 第三格(Das Sofa steht am Fenster)"
+        },
+        {
+          "id": "de.a2u21.l02",
+          "type": "vocab",
+          "titleZh": "家具和家居用品",
+          "canDoZh": "能说出更多家具和家居用品的名称",
+          "scenarioZh": "王伟和莉娜去家具店(不写品牌)买东西:das Regal、der Schreibtisch、die Kommode、der Teppich、der Vorhang、der Spiegel、das Kissen;男店员说书架要自己组装;莉娜想要一块彩色的地毯放在沙发前面。说话人:wei、lena、verkaeufer。",
+          "grammarFocusZh": "双向介词复习(Der Teppich liegt vor dem Sofa / Ich lege ihn vor das Sofa);形容词词尾复习"
+        },
+        {
+          "id": "de.a2u21.l03",
+          "type": "grammar",
+          "titleZh": "放、挂、摆:双向介词和成对的动词",
+          "canDoZh": "能区分位置和方向,用 stellen / stehen、legen / liegen、hängen 说东西放在哪儿",
+          "scenarioZh": "周日大家布置走廊和厨房。索菲娅说 Häng das Bild über das Sofa!,王伟挂好后说 Jetzt hängt es über dem Sofa.;约纳斯把锅放进柜子(Er stellt die Töpfe in den Schrank. – Die Töpfe stehen im Schrank.);保罗把钥匙放在桌上,一会儿又找不到了。说话人:sofia、wei、jonas、paul。",
+          "grammarFocusZh": "双向介词:Wohin?(动作和方向)+ 第四格,Wo?(位置)+ 第三格;stellen → stehen、legen → liegen、hängen(挂)→ hängen(挂着)、setzen → sitzen;缩写 ins / im / ans / am"
+        },
+        {
+          "id": "de.a2u21.r01",
+          "type": "reading",
+          "titleZh": "书架的组装说明",
+          "canDoZh": "能读懂家具的组装说明,按步骤做",
+          "scenarioZh": "体裁:组装说明书(家具店的,配图的文字部分)。零件清单(A 到 F)、需要的工具(der Schraubenzieher)、八个步骤:把侧板放在地上、把螺丝拧进孔里、把隔板放在两块侧板之间……最后的安全提示:请把书架固定在墙上。说话人:narrator(说明书)。",
+          "grammarFocusZh": "双向介词在说明里(Legen Sie … auf den Boden / zwischen die Seitenteile);命令式复习"
+        },
+        {
+          "id": "de.a2u21.l04",
+          "type": "dialogue",
+          "titleZh": "组装书架",
+          "canDoZh": "能和别人一起按说明做事,说明位置和步骤",
+          "scenarioZh": "王伟和约纳斯组装书架,约纳斯从来不看说明书;王伟读说明:Leg die Seitenteile auf den Boden! Die Schrauben gehören in die kleinen Löcher.;结果剩下两个螺丝,书架有一点歪;索菲娅在旁边笑他们。说话人:wei、jonas、sofia。",
+          "grammarFocusZh": "双向介词和命令式复习;gehören in / auf + 第四格"
+        },
+        {
+          "id": "de.a2u21.l05",
+          "type": "vocab",
+          "titleZh": "迁址登记",
+          "canDoZh": "能在市民局办理迁址登记,说清楚搬家日期和新地址",
+          "scenarioZh": "王伟去市民局办迁址登记(die Ummeldung)。这次他提前两周在网上约好了号,很顺利;女工作人员问新地址、搬家日期、和谁一起搬;新的登记证明当场就拿到了;王伟想起去年一月第一次来登记时等了好几个月的号。说话人:wei、mitarbeiterin。",
+          "grammarFocusZh": "搬家和登记用语(umziehen, die Ummeldung, die Meldebescheinigung, das Einzugsdatum);双向介词复习(in die neue Wohnung ziehen / in der neuen Wohnung wohnen)"
+        },
+        {
+          "id": "de.a2u21.l06",
+          "type": "dialogue",
+          "titleZh": "我的钥匙在哪儿?",
+          "canDoZh": "能描述东西的位置,帮别人找东西",
+          "scenarioZh": "早上要去上课前,王伟找不到钥匙和学生证。莉娜帮他找:Liegt er auf dem Tisch? Unter dem Sofa? Hast du ihn in die Jacke gesteckt?;最后钥匙在冰箱上面——王伟想起去年他也把钥匙放进过冰箱,两人都笑了。说话人:wei、lena。",
+          "grammarFocusZh": "双向介词 Wo? + 第三格复习(auf, unter, hinter, zwischen, neben);stecken / liegen"
+        },
+        {
+          "id": "de.a2u21.r02",
+          "type": "reading",
+          "titleZh": "阳台种菜小指南",
+          "canDoZh": "能读懂一篇种植小指南,找出东西放在哪儿、什么时候做、怎么做",
+          "scenarioZh": "体裁:园艺杂志的小指南。阳台上可以种西红柿、香草和草莓;花盆要放在有阳光的地方,不要放在风大的地方;五月中以后再把植物放到外面(夜里不会再结霜);每天早上或晚上浇水。说话人:narrator(指南)。",
+          "grammarFocusZh": "双向介词(in den Topf, auf den Balkon, an einem sonnigen Platz);命令式复习"
+        },
+        {
+          "id": "de.a2u21.l07",
+          "type": "dialogue",
+          "titleZh": "在阳台上种菜",
+          "canDoZh": "能和朋友一起做一件事,说明位置和分工",
+          "scenarioZh": "周六下午,霍夫曼先生带着种子和小苗来看新家。他和索菲娅、王伟在阳台上种西红柿和香草:Stell den Topf in die Ecke! Die Erde kommt in den Topf.;霍夫曼先生说这个阳台比他的窗台好多了;王伟说要种辣椒,给约纳斯做菜用。说话人:hoffmann、sofia、wei。",
+          "grammarFocusZh": "双向介词和成对动词复习"
+        },
+        {
+          "id": "de.a2u21.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:视频介绍新家",
+          "canDoZh": "能用视频给别人介绍自己的新家,说清楚什么在哪儿",
+          "scenarioZh": "王伟用手机给保罗(他在学校的班级旅行中)视频介绍新家:进门左边是厨房,厨房里有什么;客厅的沙发在窗户前面;他的房间在走廊尽头,书桌在窗户旁边,墙上挂着维也纳的照片;保罗问 Wo ist Lenas Zimmer? Wo ist der Balkon?。说话人:wei、paul。",
+          "grammarFocusZh": "复习:双向介词、成对的动词、形容词词尾"
+        },
+        {
+          "id": "de.a2u21.r03",
+          "type": "reading",
+          "titleZh": "我的新房间",
+          "canDoZh": "能读懂一篇描述房间的短文,按描述画出房间的布置",
+          "scenarioZh": "体裁:博客(王伟)。他描述新房间:比以前的大,有两扇窗户;床靠着左边的墙,书桌在窗户前面,书架在门旁边,墙上挂着成都和维也纳的照片,地上铺着从跳蚤市场买的地毯;他最喜欢早上坐在阳台上喝茶。说话人:wei(博客)。",
+          "grammarFocusZh": "双向介词和形容词词尾的综合应用"
+        }
+      ]
+    },
+    {
+      "id": "a2u22",
+      "unit": "A2-22 乔迁派对和新邻居",
+      "cefr": "A2",
+      "themeZh": "六月初,新家办乔迁派对:准备吃的喝的、给邻居写纸条、派对上和不认识的人寒暄、聊怎么做个好邻居、楼下邻居来投诉太吵、派对后找东西是谁的,周日请邻居喝咖啡,读德国邻里关系的短文。",
+      "grammarZh": "不定代词:jemand / niemand、etwas / nichts / alles、jeder / alle / viele / einige、man(复习);代替名词的 einer / keiner / welche 和物主代词 meiner / deiner(Ist das deiner? – Ja, das ist meiner.)。",
+      "pronunciationZh": "寒暄的语调(Schön, dass du da bist! / Freut mich!);不定代词的重音(JEmand / NIEmand、EIner / KEIner)。",
+      "lessons": [
+        {
+          "id": "de.a2u22.l01",
+          "type": "dialogue",
+          "titleZh": "准备乔迁派对",
+          "canDoZh": "能和朋友一起准备派对:请谁、带什么、谁做什么",
+          "scenarioZh": "搬好家两周后,WG 决定办乔迁派对(die Einweihungsparty)。他们商量:请所有的朋友、霍夫曼先生、瓦格纳老师和楼里的新邻居;Hat jemand Lautsprecher? Niemand hat genug Gläser!;每个人负责一样东西;约纳斯说他什么都做(alles),就是不洗碗。说话人:jonas、sofia、wei、lena。",
+          "grammarFocusZh": "不定代词初见:jemand / niemand / alle / alles / etwas / nichts"
+        },
+        {
+          "id": "de.a2u22.l02",
+          "type": "vocab",
+          "titleZh": "派对的吃的和用品",
+          "canDoZh": "能说出派对上常见的吃的、喝的和用品",
+          "scenarioZh": "王伟和索菲娅去超市买派对的东西:饮料、薯片、碱水面包(die Brezel)、沙拉、烤肠、餐巾纸、冰块;为了环保,盘子和杯子找邻居借;索菲娅问 Brauchen wir noch Becher? – Nein, wir haben noch welche.;王伟要做中国春卷。说话人:sofia、wei、kassiererin。",
+          "grammarFocusZh": "代替名词的 welche / keine(Haben wir noch Servietten? – Ja, wir haben noch welche. / Nein, wir haben keine mehr.)"
+        },
+        {
+          "id": "de.a2u22.l03",
+          "type": "grammar",
+          "titleZh": "有人想到冰块了吗?——不定代词",
+          "canDoZh": "能用不定代词说“有人 / 没人、有东西 / 什么都没有、每个人”,用 einer / keiner 代替名词",
+          "scenarioZh": "派对前大家最后检查:Hat jemand an die Eiswürfel gedacht? – Niemand!;王伟问 Gibt es hier einen Korkenzieher? – Ja, hier ist einer.;莉娜说 Jeder bringt etwas mit, das ist gut.;约纳斯发现 Wir haben nichts für Vegetarier!,赶紧再做一份沙拉。说话人:wei、lena、jonas、sofia。",
+          "grammarFocusZh": "不定代词:jemand / niemand(指人,第四格 jemanden / niemanden)、etwas / nichts / alles(指东西)、jeder / alle / viele / einige;代替名词:einer / eine / eins、keiner、welche(复数和不可数);物主代词 meiner / deiner"
+        },
+        {
+          "id": "de.a2u22.r01",
+          "type": "reading",
+          "titleZh": "派对邀请和给邻居的纸条",
+          "canDoZh": "能读懂派对邀请和贴在楼道里的通知",
+          "scenarioZh": "体裁:群消息邀请和楼道里的纸条。邀请:时间、地址、楼层(4. OG links,没有电梯!)、请每个人带一样吃的、可以带朋友。纸条:Liebe Nachbarn, 我们刚搬来,周六晚上办派对,可能会有点吵;如果有问题请按我们的门铃,也欢迎大家来!说话人:narrator(邀请和纸条)。",
+          "grammarFocusZh": "不定代词(alle, jeder, niemand);第二虚拟式复习(Wir würden uns freuen, wenn …)"
+        },
+        {
+          "id": "de.a2u22.l04",
+          "type": "dialogue",
+          "titleZh": "派对上的寒暄",
+          "canDoZh": "能在聚会上和不熟的人寒暄、介绍自己、找话题",
+          "scenarioZh": "派对上人很多。霍夫曼先生和瓦格纳老师第一次见面:Woher kennen Sie Herrn Wang?;两人聊科隆和柏林、火车和德语课;约纳斯过来推荐他做的菜;保罗问瓦格纳老师 Sind Sie eine strenge Lehrerin?,大家都笑了。说话人:hoffmann、wagner、jonas、paul、wei。",
+          "grammarFocusZh": "寒暄的常用说法(Woher kennt ihr euch? / Schön, Sie kennenzulernen!);不定代词复习(Kennen Sie hier jemanden?)"
+        },
+        {
+          "id": "de.a2u22.l05",
+          "type": "vocab",
+          "titleZh": "怎么做个好邻居",
+          "canDoZh": "能说出邻里之间常用的词,说说怎么和邻居相处",
+          "scenarioZh": "派对后的第二天,霍夫曼先生和王伟在新家的阳台上聊“好邻居”:sich vorstellen、grüßen、ein Paket annehmen、die Hausordnung、die Ruhezeit、sich beschweren、Rücksicht nehmen;霍夫曼先生说在德国替邻居收包裹很常见;王伟说在中国的大城市,很多人不认识自己的邻居。说话人:hoffmann、wei。",
+          "grammarFocusZh": "不定代词复习(Jeder kennt jeden / Niemand grüßt);反身动词复习(sich vorstellen, sich beschweren)"
+        },
+        {
+          "id": "de.a2u22.l06",
+          "type": "dialogue",
+          "titleZh": "邻居来投诉了",
+          "canDoZh": "能礼貌地回应邻居的投诉,道歉并解决问题",
+          "scenarioZh": "周三晚上十点半,楼下的男邻居(说话人用 passant)来敲门:楼上太吵了,音乐和说话声很大,他明天早上五点要上班;约纳斯道歉,说他们刚搬来、没注意时间,马上把音乐关小,答应以后十点以后保持安静;邻居说 Schon gut. Willkommen im Haus.。说话人:passant、jonas、lena。",
+          "grammarFocusZh": "不定代词复习(Niemand kann so schlafen / Hat jemand …?);道歉和解决问题(Tut mir leid, das kommt nicht wieder vor / Wir machen die Musik leiser)"
+        },
+        {
+          "id": "de.a2u22.r02",
+          "type": "reading",
+          "titleZh": "楼道里的纸条",
+          "canDoZh": "能读懂邻居之间的纸条和通知,判断写纸条的人是什么语气",
+          "scenarioZh": "体裁:几张纸条(贴在楼道里、信箱上)。一张很友好(我替您收了包裹,请到三楼来取);一张有点生气(请不要把自行车放在楼梯上!);一张找东西(谁捡到一把蓝色的钥匙?);一张是 WG 写的道歉和邀请(上周太吵了,周日请大家来喝咖啡、吃蛋糕)。说话人:narrator(纸条)。",
+          "grammarFocusZh": "不定代词(Hat jemand …? / Wer etwas weiß, …);不同语气的说法(Bitte … / Wir möchten Sie bitten, …)"
+        },
+        {
+          "id": "de.a2u22.l07",
+          "type": "dialogue",
+          "titleZh": "这是谁的?",
+          "canDoZh": "能问东西是谁的,用物主代词和不定代词回答",
+          "scenarioZh": "派对后打扫时,大家发现很多东西没人拿走:一部手机、一件外套、两把伞、一副耳机。索菲娅问 Ist das deiner, Wei? – Nein, meiner ist schwarz.;莉娜在群里问 Hat jemand sein Handy vergessen?;约纳斯开玩笑说 Die Jacke gehört niemandem, die behalte ich!。说话人:sofia、wei、lena、jonas。",
+          "grammarFocusZh": "物主代词 meiner / deiner / seiner(Ist das deiner? – Ja, das ist meiner.);不定代词复习(jemand, niemand, keiner)"
+        },
+        {
+          "id": "de.a2u22.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:周日的邻居咖啡",
+          "canDoZh": "能招待邻居、互相认识,约好以后互相帮忙",
+          "scenarioZh": "周日下午,WG 请楼里的邻居来喝咖啡,既是道歉也是认识一下。霍夫曼先生也来了,帮大家打开话题;楼下的邻居(passant)说他是公交车司机,马上和退休火车司机霍夫曼先生聊起了“开车”的工作;大家说好以后互相收包裹,放假时互相帮忙浇花。说话人:jonas、passant、hoffmann、wei、lena、sofia。",
+          "grammarFocusZh": "复习:不定代词、物主代词、寒暄用语"
+        },
+        {
+          "id": "de.a2u22.r03",
+          "type": "reading",
+          "titleZh": "德国人和邻居",
+          "canDoZh": "能读懂一篇关于邻里关系的文化短文,和中国的情况对比",
+          "scenarioZh": "体裁:文化短文。在德国,搬家后常常给邻居写纸条或者去自我介绍;替邻居收包裹很普遍;安静时间很重要;很多城市有“邻居节”;也有不少人不太和邻居来往。最后几句是王伟的感想:在成都,他家楼里的邻居常常在楼下聊天、下棋。说话人:narrator(短文)、wei(最后几句)。",
+          "grammarFocusZh": "不定代词(viele, manche, jeder);dass 从句复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u23",
+      "unit": "A2-23 帮约纳斯开小吃摊",
+      "cefr": "A2",
+      "themeZh": "六月,约纳斯实现梦想:在每周集市上开自己的小吃摊(汉堡风味的鱼面包和他自己的菜),朋友们帮他列清单、算成本、读市场规定、设计海报和菜单、练习招呼顾客;开张的那个周末正好是保罗 18 岁生日;几周后一起总结。",
+      "grammarZh": "连词:deshalb(所以)和 trotzdem(尽管如此)放在句首时动词紧跟(Deshalb brauche ich Hilfe / Trotzdem versuche ich es);entweder … oder、nicht nur … sondern auch;和 weil(动词在最后)、denn(语序不变)对比。",
+      "pronunciationZh": "连接词后的语序和节奏:deshalb / trotzdem 后面紧接动词,不要停太久;长句按意群读,一口气不要太长。",
+      "lessons": [
+        {
+          "id": "de.a2u23.l01",
+          "type": "dialogue",
+          "titleZh": "约纳斯的梦想",
+          "canDoZh": "能听懂别人讲计划和梦想,提问并表示支持",
+          "scenarioZh": "六月初,约纳斯在厨房宣布:他想在每周集市上开一个小吃摊(der Imbissstand),卖汉堡风味的鱼面包和他自己的菜;他在餐馆只是厨师,想做自己的东西;可是他没有经验,钱也不多——deshalb braucht er Hilfe;大家马上说要帮他。说话人:jonas、sofia、wei、lena。",
+          "grammarFocusZh": "deshalb 初见:…, deshalb brauche ich Hilfe(deshalb 后面动词紧跟)"
+        },
+        {
+          "id": "de.a2u23.l02",
+          "type": "vocab",
+          "titleZh": "开一个小吃摊要什么",
+          "canDoZh": "能说出开小生意要准备的东西和要办的事",
+          "scenarioZh": "约纳斯和王伟列清单:der Stand、die Genehmigung(要向市场申请许可,不讲具体规定)、die Zutaten、die Kosten、der Preis、der Gewinn、die Kasse、die Werbung、das Logo;王伟用电脑做表算成本;约纳斯说 Entweder verkaufe ich Fisch oder Currywurst … nein, beides!。说话人:jonas、wei。",
+          "grammarFocusZh": "entweder … oder;做生意的常用词"
+        },
+        {
+          "id": "de.a2u23.l03",
+          "type": "grammar",
+          "titleZh": "所以……/尽管如此……:deshalb 和 trotzdem",
+          "canDoZh": "能用 deshalb 说结果、用 trotzdem 说“尽管如此”",
+          "scenarioZh": "WG 晚上开“小吃摊会议”:索菲娅说 Der Markt ist samstags sehr voll, deshalb brauchen wir zwei Personen am Stand.;约纳斯说 Der Stand ist teuer, trotzdem will ich es versuchen.;莉娜说 Samstagvormittag arbeite ich im Buchladen, trotzdem komme ich am Nachmittag.;王伟练习把 weil 句改成 deshalb 句。说话人:sofia、jonas、lena、wei。",
+          "grammarFocusZh": "deshalb(结果)和 trotzdem(让步)是副词,放在第一位时动词紧跟在后面(Deshalb komme ich / Trotzdem komme ich);和 weil(从句,动词在最后)、denn(语序不变)对比;nicht nur … sondern auch"
+        },
+        {
+          "id": "de.a2u23.r01",
+          "type": "reading",
+          "titleZh": "集市摊位规定",
+          "canDoZh": "能读懂市场的摊位规定,找出时间、费用和卫生要求",
+          "scenarioZh": "体裁:每周集市的摊位规定(区里的市场管理处,不写真实名称)。集市每周六 8 到 15 点;摊位费按米算;要提前申请;卖吃的要遵守卫生规定(戴手套、冷藏、有洗手的地方);垃圾自己带走;不能放很大声的音乐。说话人:narrator(规定)。",
+          "grammarFocusZh": "deshalb / trotzdem 在说明里;müssen / dürfen 复习"
+        },
+        {
+          "id": "de.a2u23.l04",
+          "type": "dialogue",
+          "titleZh": "设计标志和海报",
+          "canDoZh": "能和别人讨论设计,提出意见和修改建议",
+          "scenarioZh": "学设计的索菲娅给小吃摊设计了三个标志和海报方案;约纳斯喜欢蓝色的(像汉堡的港口),王伟觉得字太小;莉娜帮忙把菜单写成德语和英语;大家讨论海报上要不要写价格。说话人:sofia、jonas、wei、lena。",
+          "grammarFocusZh": "连词复习(Die Farbe ist schön, trotzdem … / entweder blau oder rot);第二虚拟式提建议(Ich würde die Schrift größer machen)"
+        },
+        {
+          "id": "de.a2u23.l05",
+          "type": "vocab",
+          "titleZh": "顾客和服务",
+          "canDoZh": "能说出买卖和服务顾客时常用的词",
+          "scenarioZh": "开张前,约纳斯在 WG 厨房试做菜,大家扮演顾客练习:der Kunde、die Bestellung、das Angebot、der Rabatt、bar oder mit Karte、die Quittung、ausverkauft;王伟练收钱,保罗扮演最挑剔的顾客。说话人:jonas、wei、paul。",
+          "grammarFocusZh": "deshalb / trotzdem 复习;der Kunde → den Kunden 先认识(n-变格第 26 单元讲)"
+        },
+        {
+          "id": "de.a2u23.l06",
+          "type": "dialogue",
+          "titleZh": "开张那天",
+          "canDoZh": "能在小摊上招呼顾客、推荐、收钱,和同伴配合",
+          "scenarioZh": "六月中旬的一个周六早上 7 点,大家在集市上摆摊;8 点开张,第一位顾客是霍夫曼先生;中午人很多,鱼面包很快就卖完了(ausverkauft);一位女顾客(说话人用 passantin)问有没有素食,约纳斯说 Nicht nur Fisch, sondern auch einen vegetarischen Burger!;下午莉娜下班赶来帮忙。说话人:jonas、wei、hoffmann、passantin、lena。",
+          "grammarFocusZh": "nicht nur … sondern auch;服务用语复习"
+        },
+        {
+          "id": "de.a2u23.r02",
+          "type": "reading",
+          "titleZh": "区报上的小新闻",
+          "canDoZh": "能读懂一篇本地小新闻,说出人物、事情和意义",
+          "scenarioZh": "体裁:区报的小新闻(报纸不写真实名称)。标题:年轻厨师在集市上开了汉堡风味的小吃摊;27 岁的约纳斯在柏林当了几年厨师,一直想有自己的生意;他的朋友们来自中国、意大利和柏林,帮他做海报、招呼客人;第一天的鱼面包中午就卖完了;他以后想开一家小饭馆。说话人:narrator(新闻)。",
+          "grammarFocusZh": "deshalb / trotzdem / nicht nur … sondern auch 的书面应用;war / hatte 和完成时"
+        },
+        {
+          "id": "de.a2u23.l07",
+          "type": "dialogue",
+          "titleZh": "保罗 18 岁了",
+          "canDoZh": "能祝贺朋友成年,聊 18 岁以后可以做什么、要做什么",
+          "scenarioZh": "开张的那个周末正好是保罗的 18 岁生日(6 月 14 日)——在德国 18 岁就成年了。晚上收摊后,大家在小吃摊旁边给他唱生日歌;保罗说现在他可以考驾照、可以投票、可以自己签合同;莉娜开玩笑说他现在得自己洗衣服了;约纳斯送他一张“鱼面包终身免费卡”。说话人:paul、lena、jonas、wei、sofia。",
+          "grammarFocusZh": "连词复习(Jetzt bin ich 18, deshalb darf ich … / Ich bin zwar 18, trotzdem …)"
+        },
+        {
+          "id": "de.a2u23.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:几周以后的总结",
+          "canDoZh": "能总结一件事的结果,说出成功、问题和下一步的计划",
+          "scenarioZh": "几周以后,WG 和约纳斯一起总结小吃摊:卖得最好的是什么、哪里最累、下雨天没什么人、钱赚得不多但很开心;下一步要么增加一个集市日,要么给聚会做外卖(entweder … oder);王伟建议做一个简单的网页。说话人:jonas、wei、sofia、lena。",
+          "grammarFocusZh": "复习:deshalb / trotzdem / entweder … oder / nicht nur … sondern auch"
+        },
+        {
+          "id": "de.a2u23.r03",
+          "type": "reading",
+          "titleZh": "小吃摊的菜单",
+          "canDoZh": "能读懂一份带说明的菜单,为不同的顾客选菜",
+          "scenarioZh": "体裁:菜单(索菲娅设计、莉娜翻译)。三种汉堡鱼面包、咖喱香肠、素食汉堡、王伟推荐的“柏林—成都”辣味薯条、自制柠檬水;每样写价格、过敏原(die Allergene)提示和素食标志;最后一句:Nicht nur lecker, sondern auch frisch!。说话人:narrator(菜单)。",
+          "grammarFocusZh": "连词的书面应用;形容词词尾复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u24",
+      "unit": "A2-24 霍夫曼先生住院了",
+      "cefr": "A2",
+      "themeZh": "六月下旬,霍夫曼先生在家摔倒、手腕骨折:王伟打 112 陪他去医院、在医院登记、去病房探望、读探望须知、朋友们排帮忙表、帮他做日常的事、教他用平板和女儿视频、读出院须知、听他讲往事,一周后他第一次自己下楼散步。",
+      "grammarZh": "zu + 不定式(Ich habe keine Zeit, … zu …;Es ist wichtig, … zu …;anfangen / vergessen / versuchen / versprechen / Lust haben … zu …),可分动词的 zu 放在中间(anzurufen);和情态动词后不加 zu 的不定式对比。",
+      "pronunciationZh": "长句的意群和停顿:zu + 不定式的句子在逗号处稍停;探望病人时安慰的语调(Gute Besserung! Das wird schon wieder!)。",
+      "lessons": [
+        {
+          "id": "de.a2u24.l01",
+          "type": "dialogue",
+          "titleZh": "霍夫曼先生摔倒了",
+          "canDoZh": "能在紧急情况下帮助别人,打电话求助",
+          "scenarioZh": "周日下午,王伟照常去霍夫曼先生家喝咖啡,发现他在厨房摔倒了,手腕很疼、不能动。王伟让他先别动,打 112;女接线员问问题,王伟一一回答;救护车来了,王伟陪他去医院。只练语言,不写医疗处理。说话人:wei、hoffmann、mitarbeiterin。",
+          "grammarFocusZh": "zu + 不定式初见(Versuchen Sie, ruhig zu bleiben!);命令式和急救电话的说法复习"
+        },
+        {
+          "id": "de.a2u24.l02",
+          "type": "vocab",
+          "titleZh": "在医院",
+          "canDoZh": "能说出医院里常见的地方、人员和用语",
+          "scenarioZh": "在医院急诊室,王伟陪着等:die Notaufnahme、die Station、die Krankenschwester / der Pfleger、röntgen、gebrochen、der Gips、die Besuchszeit;前台(说话人用 arzthelferin)问霍夫曼先生的医保卡和家属的电话;王伟给霍夫曼先生在慕尼黑的女儿打电话(女儿不出场)。说话人:arzthelferin、wei、hoffmann。",
+          "grammarFocusZh": "zu + 不定式(Es ist wichtig, seine Tochter anzurufen——可分动词的 zu 放在中间)"
+        },
+        {
+          "id": "de.a2u24.l03",
+          "type": "grammar",
+          "titleZh": "我答应您每天来看看:zu + 不定式",
+          "canDoZh": "能用 zu + 不定式说打算、承诺、建议和感受",
+          "scenarioZh": "第二天,莉娜和王伟去病房探望。霍夫曼先生的手腕打了石膏,要住两三天院;他担心地说 Ich habe vergessen, das Fenster zuzumachen. Und wer gießt meine Blumen?;王伟说 Ich verspreche Ihnen, jeden Tag nach Ihrer Wohnung zu sehen.;莉娜说 Es ist wichtig, viel zu schlafen.;霍夫曼先生说 Ich habe keine Lust, hier zu liegen!。说话人:hoffmann、wei、lena。",
+          "grammarFocusZh": "zu + 不定式放在句末;可分动词的 zu 在前缀和词干之间(zuzumachen, anzurufen);常见的结构:Zeit / Lust haben、vergessen、versuchen、versprechen、anfangen、aufhören、Es ist wichtig / schön / schwer …;情态动词后面不加 zu(Ich muss gehen)"
+        },
+        {
+          "id": "de.a2u24.r01",
+          "type": "reading",
+          "titleZh": "医院的探望须知",
+          "canDoZh": "能读懂医院的探望规定",
+          "scenarioZh": "体裁:医院的须知(不写真实医院名)。探望时间每天 14 到 19 点;每位病人同时最多两位客人;进病房前洗手;手机调成静音;不要坐在病床上;自己生病的时候请不要来探望;病人可以在一楼的咖啡馆和客人见面。说话人:narrator(须知)。",
+          "grammarFocusZh": "zu + 不定式(Wir bitten Sie, … zu …);命令式复习"
+        },
+        {
+          "id": "de.a2u24.l04",
+          "type": "dialogue",
+          "titleZh": "排帮忙表",
+          "canDoZh": "能和朋友一起安排帮忙的时间和任务",
+          "scenarioZh": "霍夫曼先生出院了,可是右手几周都不能用。WG 和保罗一起排“帮忙表”:谁周一去买东西、谁周三帮他做饭、谁去药店取药、谁陪他散步;保罗说 Ich habe am Dienstag Zeit, für ihn einzukaufen.;约纳斯说他每天从小吃摊给他带一份饭。说话人:wei、lena、paul、jonas、sofia。",
+          "grammarFocusZh": "zu + 不定式复习(Ich habe Zeit, … zu … / Hast du Lust, … zu …?);时间表达复习"
+        },
+        {
+          "id": "de.a2u24.l05",
+          "type": "vocab",
+          "titleZh": "日常小事",
+          "canDoZh": "能说出帮老人或病人做的日常事情",
+          "scenarioZh": "王伟第一次去霍夫曼先生家“值班”:买东西、取药、把垃圾拿下楼、帮他穿外套、开罐头、浇花、读信;霍夫曼先生很不好意思,一直说 Das ist mir peinlich.;王伟说 Kein Problem, das ist doch selbstverständlich.。说话人:wei、hoffmann。",
+          "grammarFocusZh": "zu + 不定式复习(Es ist schwer, mit einer Hand zu kochen);第三格动词复习(Ich helfe Ihnen gern)"
+        },
+        {
+          "id": "de.a2u24.l06",
+          "type": "dialogue",
+          "titleZh": "教霍夫曼先生和女儿视频",
+          "canDoZh": "能一步一步教别人用电子设备",
+          "scenarioZh": "霍夫曼先生想每天和慕尼黑的女儿、外孙女视频,可是一只手很难操作。王伟和保罗教他用平板:Tippen Sie hier! Vergessen Sie nicht, den Ton anzumachen!;第一次视频,画面里只有天花板,大家都笑了;第二次成功了,外孙女(不出场)给他看她画的画。说话人:wei、paul、hoffmann。",
+          "grammarFocusZh": "zu + 不定式和命令式复习(Vergessen Sie nicht, … zu …);可分动词复习"
+        },
+        {
+          "id": "de.a2u24.r02",
+          "type": "reading",
+          "titleZh": "出院须知",
+          "canDoZh": "能读懂出院须知,找出要注意的事和复查时间",
+          "scenarioZh": "体裁:医院的出院说明(只写一般的提醒,不写药名和剂量)。石膏要保持干燥;手要抬高;如果疼得厉害或者手指发麻,马上联系医生;两周后去家庭医生那里复查;几周后拆石膏;需要的话可以申请上门帮忙的服务。说话人:narrator(说明)。",
+          "grammarFocusZh": "zu + 不定式(Versuchen Sie, den Arm hochzulegen);命令式复习"
+        },
+        {
+          "id": "de.a2u24.l07",
+          "type": "dialogue",
+          "titleZh": "霍夫曼先生讲往事",
+          "canDoZh": "能听别人讲往事,回应和追问",
+          "scenarioZh": "一天晚上,王伟陪霍夫曼先生吃饭。他讲第一次开夜班火车的故事:那时他很紧张,想过不干了,是他太太一直支持他;他说 Es ist nie zu spät, etwas Neues anzufangen.,还鼓励王伟别怕马上开始的实习。说话人:hoffmann、wei。",
+          "grammarFocusZh": "zu + 不定式复习(anfangen … zu …, Angst haben … zu …);过去时 war / hatte / musste 复习"
+        },
+        {
+          "id": "de.a2u24.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:第一次自己下楼",
+          "canDoZh": "能祝贺别人好转,回顾这段时间,表达感谢",
+          "scenarioZh": "一周后,霍夫曼先生第一次自己下楼散步,请大家在楼下的咖啡馆吃蛋糕。他谢谢每个人,说 Ich habe gelernt, Hilfe anzunehmen.;大家讲这段时间的趣事(保罗把盐当成糖放进了咖啡);王伟说:这就是邻居和朋友。说话人:hoffmann、wei、paul、lena、jonas、sofia。",
+          "grammarFocusZh": "复习:zu + 不定式、dass 从句(Danke, dass …)、过去时和完成时"
+        },
+        {
+          "id": "de.a2u24.r03",
+          "type": "reading",
+          "titleZh": "邻居帮邻居",
+          "canDoZh": "能读懂一篇关于邻里互助和志愿服务的短文",
+          "scenarioZh": "体裁:报纸短文。很多老人一个人住;城市里有“邻居帮邻居”的项目和志愿者(das Ehrenamt);年轻人帮老人买东西、教他们用手机,老人给年轻人讲故事、帮忙照看孩子;文章转述了一位年轻志愿者的话:帮别人,自己也很开心。说话人:narrator(短文)。",
+          "grammarFocusZh": "zu + 不定式(Es macht Spaß, anderen zu helfen);deshalb 复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u25",
+      "unit": "A2-25 新闻和环境",
+      "cefr": "A2",
+      "themeZh": "六月,柏林的夏天:听电台新闻、读高温提示、去超市退瓶子押金、聊报纸和网上的消息、WG 定“绿色计划”、读一篇“无车星期天”的新闻、遇到暴雨警报,保罗彩排环保周的报告。",
+      "grammarZh": "构词:复合词(die Hitzewarnung、der Umweltschutz,最后一部分决定词性)、名词后缀 -ung / -heit / -keit / -er / -in、形容词后缀 -ig / -lich / -los / -bar 和前缀 un-;用来猜词,认识为主。",
+      "pronunciationZh": "复合词和派生词的重音:-ung / -heit / -keit 不重读,前缀 un- 常重读(UNmöglich、UNwichtig);长复合词按部分读(Hitze|warnung)。",
+      "lessons": [
+        {
+          "id": "de.a2u25.l01",
+          "type": "dialogue",
+          "titleZh": "早上的新闻",
+          "canDoZh": "能听懂简短的电台新闻,说出主要的事情",
+          "scenarioZh": "早上 WG 吃早饭时听电台新闻(说话人用 radio):柏林今天 34 度,发布了高温警报;一条地铁线因为施工停运;周末集市上有夏日节;王伟和莉娜讨论新闻里的长词(Hitzewarnung、Bauarbeiten、Sommerfest)怎么拆开理解。说话人:radio、wei、lena。",
+          "grammarFocusZh": "复合词:最后一部分决定词性和基本意思(die Hitze + die Warnung = die Hitzewarnung);拆开来猜意思"
+        },
+        {
+          "id": "de.a2u25.l02",
+          "type": "vocab",
+          "titleZh": "环境和天气",
+          "canDoZh": "能说出关于环境和极端天气的常用词",
+          "scenarioZh": "保罗在准备学校的环保主题周,来 WG 问大家:die Umwelt、der Klimawandel、die Hitzewelle、das Unwetter、der Müll、das Plastik、die Energie、sparen、recyceln;约纳斯说他的小吃摊用纸盒不用塑料;王伟说成都的夏天也越来越热了。说话人:paul、jonas、wei。",
+          "grammarFocusZh": "名词后缀和复合词(die Erwärmung, die Möglichkeit, der Umweltschutz)"
+        },
+        {
+          "id": "de.a2u25.l03",
+          "type": "grammar",
+          "titleZh": "长词怎么猜?——构词",
+          "canDoZh": "能用构词的规律猜出生词的意思和词性",
+          "scenarioZh": "A2 课上,瓦格纳老师发一篇关于“城市的夏天”的短新闻,里面有很多没学过的长词:die Trinkwasserflasche、unmöglich、kostenlos、erneuerbar、die Sauberkeit;她教大家拆词;王伟猜错了一次(把 Fahrradweg 当成了“自行车的重量”),大家都笑了。说话人:wagner、wei。",
+          "grammarFocusZh": "构词:复合词的最后一部分决定词性(der Fahrrad|weg);-ung / -heit / -keit 结尾的名词都是阴性;-er / -in 表示人;形容词后缀 -ig / -lich、-los(没有)、-bar(可以被……);前缀 un-(不)"
+        },
+        {
+          "id": "de.a2u25.r01",
+          "type": "reading",
+          "titleZh": "高温天气提示",
+          "canDoZh": "能读懂官方的高温提示,找出要做什么、不要做什么",
+          "scenarioZh": "体裁:城市的高温提示(网页,不写真实机构名)。多喝水;中午不要在太阳下运动;白天关窗;去看看一个人住的老邻居;不要把孩子和宠物留在车里;城里有免费的饮水点(der Trinkbrunnen)和凉快的公共场所。说话人:narrator(提示)。",
+          "grammarFocusZh": "构词(die Hitzewelle, kostenlos, trinkbar);命令式和 zu + 不定式复习"
+        },
+        {
+          "id": "de.a2u25.l04",
+          "type": "dialogue",
+          "titleZh": "退瓶子押金",
+          "canDoZh": "能用回收机退押金,和别人讨论垃圾和回收",
+          "scenarioZh": "王伟和索菲娅把一大袋空瓶子拿到超市的回收机(der Pfandautomat):一次性塑料瓶每个 25 分,能重复用的玻璃瓶 8 分或 15 分;机器吐出一张小票;王伟说中国也回收瓶子,但是没有押金;收银员问他们要不要直接用小票抵钱。说话人:wei、sofia、kassiererin。",
+          "grammarFocusZh": "构词复习(das Pfand, der Pfandautomat, die Mehrwegflasche, die Einwegflasche);dass / weil 复习"
+        },
+        {
+          "id": "de.a2u25.l05",
+          "type": "vocab",
+          "titleZh": "报纸和网上的消息",
+          "canDoZh": "能说出新闻和媒体的常用词,说自己怎么看新闻",
+          "scenarioZh": "霍夫曼先生每天早上看纸质报纸,王伟用手机 App 看新闻,保罗只看短视频。三个人在阳台上聊:die Zeitung、die Nachrichten、die Schlagzeile、der Artikel、die Sendung、der Podcast、die Quelle、die Falschmeldung;霍夫曼先生提醒保罗:网上的消息一定要看来源。说话人:hoffmann、wei、paul。",
+          "grammarFocusZh": "构词复习(die Schlagzeile, die Falschmeldung);不定代词复习(Jeder kann im Internet alles schreiben)"
+        },
+        {
+          "id": "de.a2u25.l06",
+          "type": "dialogue",
+          "titleZh": "WG 的绿色计划",
+          "canDoZh": "能和别人讨论怎样更环保,提出建议并说明理由",
+          "scenarioZh": "WG 开会:夏天电费太高。约纳斯提议定一个“绿色计划”:少用电、买二手、骑车、垃圾分好、在阳台种菜、买本地的菜;索菲娅提议每个月有一天不吃肉;王伟说 Das ist eine gute Idee, trotzdem …(他爱吃肉);最后大家投票。说话人:jonas、sofia、wei、lena。",
+          "grammarFocusZh": "构词复习(umweltfreundlich, stromsparend);deshalb / trotzdem 和第二虚拟式提建议复习"
+        },
+        {
+          "id": "de.a2u25.r02",
+          "type": "reading",
+          "titleZh": "新闻:无车星期天",
+          "canDoZh": "能读懂一篇简单的新闻报道,说出时间、地点、事情和人们的看法",
+          "scenarioZh": "体裁:本地新闻(报纸不写真实名称)。柏林一个区试办“无车星期天”:一条大街一天不让汽车开,只给自行车和行人,有音乐、跳蚤市场和儿童活动;很多居民喜欢,也有商店老板不满意;区里说以后每个月办一次。说话人:narrator(新闻)。",
+          "grammarFocusZh": "构词(autofrei, der Fußgänger, die Fahrradstraße);新闻里的完成时、过去时和 dass 从句"
+        },
+        {
+          "id": "de.a2u25.l07",
+          "type": "dialogue",
+          "titleZh": "暴雨来了",
+          "canDoZh": "能听懂天气警报,说明自己的情况、互相提醒",
+          "scenarioZh": "下午天突然黑了,手机收到暴雨警报(die Unwetterwarnung)。王伟正在路上骑车,给莉娜打电话;莉娜让他马上找地方躲雨;他在一个公交站躲了半个小时,看到街上的水很深;回到家,霍夫曼先生说阳台上的番茄被风吹倒了。说话人:wei、lena、hoffmann。",
+          "grammarFocusZh": "构词复习(die Unwetterwarnung, der Starkregen);命令式和 wenn 复习(Wenn es blitzt, …)"
+        },
+        {
+          "id": "de.a2u25.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:保罗的环保报告",
+          "canDoZh": "能做一个关于环保的小报告,回答听众的问题",
+          "scenarioZh": "保罗在 WG 彩排他在学校环保周的报告《我们的城市怎么变得更绿》:讲热浪、垃圾和交通,提出三个建议;大家提问——王伟问中国有什么例子,霍夫曼先生讲以前的柏林;保罗用了很多长复合词,莉娜帮他纠正发音。说话人:paul、wei、hoffmann、lena。",
+          "grammarFocusZh": "复习:构词、deshalb / trotzdem、dass / weil"
+        },
+        {
+          "id": "de.a2u25.r03",
+          "type": "reading",
+          "titleZh": "我在德国学会的环保习惯",
+          "canDoZh": "能读懂一篇讲个人习惯变化的短文",
+          "scenarioZh": "体裁:博客(王伟)。他写来德国以后学会的习惯:分垃圾、退瓶子押金、自己带购物袋、买二手、骑车、直接喝自来水(德国的自来水一般可以直接喝);有的习惯他觉得很麻烦,但是会坚持下去;回国时他想讲给家里人听。说话人:wei(博客)。",
+          "grammarFocusZh": "构词和完成时;werden 将来时复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u26",
+      "unit": "A2-26 实习第一周",
+      "cefr": "A2",
+      "themeZh": "六月中,王伟的实习开始了:第一天报到、认识导师和同事、了解办公室和工作工具、读实习生手册、第一次开会、写工作邮件、和同事吃午饭、请教问题、读导师的反馈,周末给朋友讲第一周。",
+      "grammarZh": "n-变格(弱变化阳性名词):der Praktikant / den Praktikanten / dem Praktikanten,der Kollege、der Kunde、der Herr、der Student、der Nachbar、der Junge、der Mensch;除单数第一格外都加 -(e)n。",
+      "pronunciationZh": "职场的礼貌语调(Hätten Sie kurz Zeit? / Darf ich kurz stören?);n-变格的词尾 -en 读得轻,但要读出来(den Kollegen、dem Praktikanten)。",
+      "lessons": [
+        {
+          "id": "de.a2u26.l01",
+          "type": "dialogue",
+          "titleZh": "第一天报到",
+          "canDoZh": "能在新单位报到、介绍自己,听懂第一天的安排",
+          "scenarioZh": "6 月 16 日早上 9 点,王伟到公司(不写真实名称)报到。前台的女工作人员给他工牌和电脑;他的导师(der Mentor,说话人用 mitarbeiter)带他参观办公室,向团队介绍:Das ist unser neuer Praktikant, Herr Wang.;王伟说 Ich freue mich, hier zu sein.;导师讲第一周的安排。说话人:mitarbeiterin、mitarbeiter、wei。",
+          "grammarFocusZh": "n-变格初见:der Praktikant → unseren neuen Praktikanten;der Kollege → mit dem Kollegen"
+        },
+        {
+          "id": "de.a2u26.l02",
+          "type": "vocab",
+          "titleZh": "办公室和工作",
+          "canDoZh": "能说出办公室里的东西、工作工具和常见的任务",
+          "scenarioZh": "导师给王伟讲工作:der Arbeitsplatz、das Passwort、der Kalender、die Besprechung、die Aufgabe、die Frist、ein Programm testen、den Code überprüfen;王伟问 Wo finde ich …? An wen wende ich mich, wenn …?;导师说有问题随时问。说话人:mitarbeiter、wei。",
+          "grammarFocusZh": "n-变格复习(Fragen Sie den Kollegen!);带介词的动词复习(arbeiten an, sich kümmern um)"
+        },
+        {
+          "id": "de.a2u26.l03",
+          "type": "grammar",
+          "titleZh": "我去问一下同事:n-变格",
+          "canDoZh": "能正确使用常见的 n-变格名词",
+          "scenarioZh": "第二天,王伟登录不了一个系统,不知道该问谁。导师说 Frag den Kollegen von der IT!;下午有客户来访,导师说 Begrüß bitte den Kunden!;晚上回家,王伟对索菲娅说 Ich habe heute mit einem Kollegen und einem Kunden gesprochen.;索菲娅说她实习时也常常说错。说话人:mitarbeiter、wei、sofia。",
+          "grammarFocusZh": "n-变格:弱变化阳性名词除单数第一格外都加 -(e)n(der Kollege / den Kollegen / dem Kollegen;der Praktikant / den Praktikanten);常见的有 -e 结尾的指人名词(der Kollege, der Kunde, der Junge)、-ant / -ent / -ist 结尾的(der Praktikant, der Student, der Polizist)和 der Herr、der Mensch、der Nachbar;公司里同事之间常用 du"
+        },
+        {
+          "id": "de.a2u26.r01",
+          "type": "reading",
+          "titleZh": "实习生手册",
+          "canDoZh": "能读懂公司的实习生手册,找出工作时间、规定和联系人",
+          "scenarioZh": "体裁:公司的实习生手册(不写真实名称)。核心工作时间 10 到 15 点;在家工作的规定;病假怎么请、休假怎么申请;数据保护(不能把客户资料带回家);厨房的规矩;联系人列表(导师、人事、IT)。说话人:narrator(手册)。",
+          "grammarFocusZh": "n-变格(an den Kollegen, beim Praktikanten);müssen / dürfen 和 zu + 不定式复习"
+        },
+        {
+          "id": "de.a2u26.l04",
+          "type": "dialogue",
+          "titleZh": "第一次开会",
+          "canDoZh": "能在会议上听懂主要内容,简单发言和提问",
+          "scenarioZh": "周三上午,团队开每周例会(一部分说德语,一部分说英语)。导师请王伟介绍自己、说说这周做什么;王伟紧张地说完,同事们鼓掌;会上讨论一个新功能,王伟有一个词没听懂,会后问导师 Was bedeutet …?。说话人:mitarbeiter、mitarbeiterin、wei。",
+          "grammarFocusZh": "开会用语(Ich hätte eine Frage / Darf ich kurz etwas sagen? / Können Sie das bitte wiederholen?);n-变格复习"
+        },
+        {
+          "id": "de.a2u26.l05",
+          "type": "vocab",
+          "titleZh": "写工作邮件",
+          "canDoZh": "能写简短的工作邮件:请求、确认和道歉",
+          "scenarioZh": "导师教王伟写工作邮件:称呼(Hallo Frau … / Liebe Kolleginnen und Kollegen)、der Betreff、im Anhang、Rückfragen、bis wann、Beste Grüße;王伟给 IT 部门写邮件申请权限,导师帮他改得更短、更客气。说话人:mitarbeiter、wei。",
+          "grammarFocusZh": "第二虚拟式和间接问句复习(Könnten Sie mir bitte … / Ich wollte fragen, ob …);n-变格复习"
+        },
+        {
+          "id": "de.a2u26.l06",
+          "type": "dialogue",
+          "titleZh": "和同事吃午饭",
+          "canDoZh": "能在午饭时和同事闲聊工作、周末和爱好",
+          "scenarioZh": "午饭时,王伟和一位女同事去附近的小餐馆。同事问他从哪儿来、在柏林住了多久、周末做什么;王伟讲 WG、约纳斯的小吃摊和足球俱乐部;同事说她也是外国人,刚来时也听不懂柏林话;他们约好周五一起去吃约纳斯的鱼面包。说话人:mitarbeiterin、wei。",
+          "grammarFocusZh": "seit / vor 复习(Seit wann wohnst du hier?);同事之间用 du 还是 Sie"
+        },
+        {
+          "id": "de.a2u26.r02",
+          "type": "reading",
+          "titleZh": "导师的反馈邮件",
+          "canDoZh": "能读懂工作反馈,找出做得好的地方和要改进的地方",
+          "scenarioZh": "体裁:邮件(导师写给王伟的)。第一周的反馈:做得好的地方(认真、会提问、代码很整齐);要改进的地方(遇到问题早点说、开会时多发言、邮件写短一点);下周的任务和一次单独谈话的时间。说话人:narrator(邮件)。",
+          "grammarFocusZh": "n-变格和带介词的动词(sich kümmern um, achten auf);第二虚拟式(Es wäre gut, wenn …)"
+        },
+        {
+          "id": "de.a2u26.l07",
+          "type": "dialogue",
+          "titleZh": "请教同事",
+          "canDoZh": "能礼貌地打扰别人、请教问题并表示感谢",
+          "scenarioZh": "王伟遇到一个程序错误,找了两个小时也没解决。他走到一位男同事的桌前:Entschuldigung, darf ich kurz stören? Hättest du kurz Zeit?;同事帮他看,五分钟就找到了问题;同事说 Frag ruhig früher!;王伟谢谢他,说 Ich wollte dich nicht stören.。说话人:wei、mitarbeiter。",
+          "grammarFocusZh": "第二虚拟式的礼貌用语复习;n-变格(den Kollegen fragen)"
+        },
+        {
+          "id": "de.a2u26.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:第一周结束了",
+          "canDoZh": "能讲新工作的第一周:做了什么、认识了谁、感觉怎么样",
+          "scenarioZh": "周五晚上,WG 在阳台上问王伟第一周怎么样;王伟讲:认识了导师和同事,第一次开会很紧张,接待了一位客户,和同事去吃了约纳斯的鱼面包;他说最累的是一整天说德语和英语;霍夫曼先生说第一周总是最难的。说话人:wei、jonas、sofia、lena、hoffmann。",
+          "grammarFocusZh": "复习:n-变格、完成时、带介词的动词"
+        },
+        {
+          "id": "de.a2u26.r03",
+          "type": "reading",
+          "titleZh": "实习日记:第一周",
+          "canDoZh": "能读懂一篇工作日记,按天说出做了什么、学到了什么",
+          "scenarioZh": "体裁:日记(王伟)。周一报到、领电脑;周二熟悉系统,第一次请教同事;周三开会、自我介绍;周四第一次改代码;周五收到反馈、和同事吃午饭;最后写感受:累,可是很开心,第一次在真正的工作里用上了德语。说话人:wei(日记)。",
+          "grammarFocusZh": "n-变格、完成时和时间顺序的综合应用"
+        }
+      ]
+    },
+    {
+      "id": "a2u27",
+      "unit": "A2-27 备考歌德 A2(一):听和读",
+      "cefr": "A2",
+      "themeZh": "七月初,离歌德 A2 考试还有三周:瓦格纳老师介绍考试的结构和指令,复习长句子的读法,用模拟题练阅读(报纸短文、商场指示、邮件、广告)和听力(广播、电话留言、采访),王伟制订复习计划,做第一次完整的模拟考。",
+      "grammarZh": "复习:从句的语序(weil / dass / wenn / ob 和间接问句,变位动词在最后),阅读和听力里常见的连接词(aber、deshalb、trotzdem、denn、sondern)。",
+      "pronunciationZh": "听懂口语里的弱读和缩约(haben → ham、ist es → isses、nicht → nich、eine → ne);语速快的广播和电话里抓关键词。",
+      "lessons": [
+        {
+          "id": "de.a2u27.l01",
+          "type": "dialogue",
+          "titleZh": "考试介绍",
+          "canDoZh": "能听懂考试的结构和规定,问清楚不明白的地方",
+          "scenarioZh": "七月初的 A2 课上,瓦格纳老师介绍歌德 A2 考试:阅读、听力、写作、口语四个部分,每部分多长时间,多少分算通过;王伟问 Wissen Sie, ob man die Hörtexte zweimal hört?;老师说有的部分听两遍、有的只听一遍;王伟又问考试那天要带什么。说话人:wagner、wei。",
+          "grammarFocusZh": "间接问句和 wenn 从句复习(Ich weiß nicht, ob … / Wenn man zu spät kommt, …)"
+        },
+        {
+          "id": "de.a2u27.l02",
+          "type": "vocab",
+          "titleZh": "考试指令和题型",
+          "canDoZh": "能看懂考试里的指令和题型说明",
+          "scenarioZh": "老师带大家读模拟题的指令:Lesen Sie den Text und die Aufgaben. Ordnen Sie zu. Kreuzen Sie an: richtig oder falsch. Sie hören jeden Text einmal. Schreiben Sie eine E-Mail an …;王伟把常见的指令词做成卡片:zuordnen、ergänzen、auswählen、passend、die Lösung。说话人:wagner、wei。",
+          "grammarFocusZh": "考试指令里的 Sie 的命令式和构词(die Aufgabe, die Lösung, zuordnen)"
+        },
+        {
+          "id": "de.a2u27.l03",
+          "type": "grammar",
+          "titleZh": "读长句子:从句的语序复习",
+          "canDoZh": "能很快认出从句的结构,在阅读和听力里抓住意思",
+          "scenarioZh": "复习课上,瓦格纳老师从模拟阅读里挑出长句子,让王伟找主句和从句、找变位动词:Ich schreibe dir, weil ich nächste Woche … / Wir freuen uns, dass … / Bitte sagen Sie uns, ob …;王伟发现:先找逗号和动词,长句就好懂了;老师再让他用 weil、dass、wenn、ob 各造一个句子。说话人:wagner、wei。",
+          "grammarFocusZh": "复习:weil / dass / wenn / ob 和间接问句的语序(变位动词在最后),从句在前时主句的动词紧跟逗号;读长句的办法"
+        },
+        {
+          "id": "de.a2u27.r01",
+          "type": "reading",
+          "titleZh": "模拟阅读:报纸短文",
+          "canDoZh": "能读懂考试式的报纸短文,判断句子对不对",
+          "scenarioZh": "体裁:模拟题(仿考试格式的报纸短文和五道判断题)。短文讲一家区图书馆夏天开始“借工具”:可以借电钻、帐篷、自行车拖车,只要有借书证就行,很多年轻家庭来借;题目考数字、时间和条件。说话人:narrator(短文)。",
+          "grammarFocusZh": "从句和连接词在阅读里的作用;构词猜词复习"
+        },
+        {
+          "id": "de.a2u27.l04",
+          "type": "dialogue",
+          "titleZh": "模拟听力:广播和留言",
+          "canDoZh": "能在听力题里抓住时间、地点、数字等关键信息",
+          "scenarioZh": "老师放模拟听力:火车站广播(换站台、晚点)、一条诊所的电话留言(预约改时间)、电台的交通信息;王伟和老师对答案,他把 15 和 50 听混了一次;老师提醒他先看题,听两遍的题第二遍只用来核对。说话人:wagner、durchsage、mitarbeiterin、radio、wei。",
+          "grammarFocusZh": "数字和时间复习;口语的缩约认识(Ich hab’s / Kommste mit?)"
+        },
+        {
+          "id": "de.a2u27.l05",
+          "type": "vocab",
+          "titleZh": "指示牌和广告的用语",
+          "canDoZh": "能看懂商场指示牌、通知和广告里常见的用语",
+          "scenarioZh": "老师和王伟练阅读里常见的材料:商场的楼层指示(Erdgeschoss: Kosmetik / 1. Stock: Damenmode …),通知和广告用语(geöffnet、geschlossen、Eintritt frei、ab sofort、Sonderangebot、Anmeldung erforderlich);王伟根据“我要买……/我想找……”去找对应的楼层和广告。说话人:wagner、wei。",
+          "grammarFocusZh": "构词和形容词词尾复习(erforderlich, kostenlos, das neue Angebot)"
+        },
+        {
+          "id": "de.a2u27.l06",
+          "type": "dialogue",
+          "titleZh": "真实的采访当听力练习",
+          "canDoZh": "能听懂一段较长的采访,抓住被采访人的看法和细节",
+          "scenarioZh": "保罗发现本地电台采访了约纳斯,王伟就拿来当听力练习:主持人(说话人用 radio)问约纳斯为什么开小吃摊、一天怎么过、最大的困难是什么、以后有什么计划;王伟一边听一边记笔记,再判断几个句子对不对。说话人:radio、jonas、wei。",
+          "grammarFocusZh": "复习:weil / deshalb / trotzdem 在口语里的用法;听力抓关键词"
+        },
+        {
+          "id": "de.a2u27.r02",
+          "type": "reading",
+          "titleZh": "模拟阅读:邮件和广告",
+          "canDoZh": "能读懂考试式的邮件和广告,完成选择题和配对题",
+          "scenarioZh": "体裁:模拟题。一封朋友的邮件(邀请参加周末的活动,写了时间、地点和要带的东西,配五道选择题);六则小广告(语言课、二手自行车、合租、兼职、游泳课、旅行),和五个人的需要配对。说话人:narrator(题目)。",
+          "grammarFocusZh": "从句和连接词在阅读里的作用;形容词词尾复习"
+        },
+        {
+          "id": "de.a2u27.l07",
+          "type": "dialogue",
+          "titleZh": "做复习计划",
+          "canDoZh": "能和别人一起制订复习计划,说出时间和方法",
+          "scenarioZh": "离考试还有两周,王伟实习下班后时间不多。他和莉娜一起做复习计划:每天早上在地铁上听 20 分钟,午饭后读一篇短文,周末做一套完整的模拟题,每周和莉娜练两次口语;莉娜说 Wenn du jeden Tag ein bisschen lernst, schaffst du das!。说话人:wei、lena。",
+          "grammarFocusZh": "复习:wenn / dass / weil、zu + 不定式(Ich versuche, jeden Tag … zu …)、时间表达"
+        },
+        {
+          "id": "de.a2u27.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:第一次完整模拟考",
+          "canDoZh": "能分析自己的考试结果,说出强项、弱项和改进的办法",
+          "scenarioZh": "周六上午,王伟在 WG 厨房做第一次完整的模拟考(阅读和听力),索菲娅帮他计时;做完对答案:阅读很好,听力第三部分错得多;索菲娅问 Woran liegt das?;王伟说那部分说得太快,他总在想上一道题;两人一起想办法。说话人:wei、sofia。",
+          "grammarFocusZh": "复习:带介词的动词(Woran liegt das?)、weil / deshalb"
+        },
+        {
+          "id": "de.a2u27.r03",
+          "type": "reading",
+          "titleZh": "备考小贴士",
+          "canDoZh": "能读懂一份备考建议,找出对自己最有用的几条",
+          "scenarioZh": "体裁:语言中心发的备考小贴士。阅读:先读题,找关键词,不要每个词都查;听力:注意数字和否定词,听不懂先跳过;写作:数清楚要写哪几点,检查动词的位置;口语:没听懂可以请考官重复,可以说 Moment, ich überlege …。说话人:narrator(小贴士)。",
+          "grammarFocusZh": "命令式和 wenn 从句在建议里;构词复习"
+        }
+      ]
+    },
+    {
+      "id": "a2u28",
+      "unit": "A2-28 备考歌德 A2(二):写和说",
+      "cefr": "A2",
+      "themeZh": "七月中,练写作和口语:写短消息和半正式邮件、整理邮件句子库、口语三部分(用卡片问个人问题、讲自己的生活、和搭档一起计划一件事),瓦格纳老师模拟口试,考前一晚朋友们为王伟打气。",
+      "grammarZh": "复习:提建议和回应(Wollen wir …? Wie wäre es mit …? Wir könnten …)、同意和反对、第二虚拟式;写作里的连接词(zuerst、außerdem、deshalb、trotzdem)。",
+      "pronunciationZh": "口语的流利度:用连接词把句子连起来,卡住时用争取时间的说法(Moment mal … / Wie sagt man …?),说错了马上自我纠正(Ich meine …)。",
+      "lessons": [
+        {
+          "id": "de.a2u28.l01",
+          "type": "dialogue",
+          "titleZh": "写作:短消息",
+          "canDoZh": "能按要求写一条 20–30 个词的短消息,写全所有要点",
+          "scenarioZh": "瓦格纳老师发写作模拟题:给朋友发消息,说你上课会迟到、为什么、几点到,请他帮你留个座位。王伟写完,和老师一起检查:三个要点都写了吗?有称呼和结尾吗?动词的位置对吗?说话人:wagner、wei。",
+          "grammarFocusZh": "短消息的结构;weil / deshalb 复习"
+        },
+        {
+          "id": "de.a2u28.l02",
+          "type": "vocab",
+          "titleZh": "邮件句子库",
+          "canDoZh": "能用常用句子写非正式和半正式的邮件",
+          "scenarioZh": "莉娜帮王伟整理写邮件的“句子库”:开头(Liebe … / Sehr geehrte … / Vielen Dank für deine E-Mail.)、请求(Könnten Sie mir bitte …?)、拒绝和道歉(Leider kann ich nicht …)、建议(Wie wäre es, wenn …?)、结尾(Ich freue mich auf deine Antwort. / Viele Grüße);她提醒:给老师、房东用 Sie,给朋友用 du。说话人:lena、wei。",
+          "grammarFocusZh": "邮件的固定说法;第二虚拟式和 wenn 复习"
+        },
+        {
+          "id": "de.a2u28.l03",
+          "type": "grammar",
+          "titleZh": "我们可以……,怎么样?——提建议和回应",
+          "canDoZh": "能提出建议、同意或反对,并提出别的方案",
+          "scenarioZh": "口语第三部分练习:和搭档一起计划一件事——去医院看一个生病的同学(同学不出场)。索菲娅当搭档,两人看各自的日程卡:Wollen wir am Dienstag gehen? – Am Dienstag kann ich leider nicht. Wie wäre es mit Mittwoch? – Gute Idee! Wir könnten Blumen mitbringen.;瓦格纳老师在旁边计时。说话人:sofia、wei、wagner。",
+          "grammarFocusZh": "提建议(Wollen wir …? / Wie wäre es mit …? / Wir könnten … / Lass uns …!)和回应(Gute Idee! / Das passt mir leider nicht, aber … / Ich habe einen anderen Vorschlag);第二虚拟式复习"
+        },
+        {
+          "id": "de.a2u28.r01",
+          "type": "reading",
+          "titleZh": "两封范文",
+          "canDoZh": "能读懂两封范文,比较正式和非正式邮件的不同",
+          "scenarioZh": "体裁:范文(语言中心的写作材料)。一封给朋友的邮件:回复聚会邀请,去不了、为什么、建议下次再约;一封给语言学校的邮件:问课程的时间和价格,请他们寄资料;每封后面标出要点和常用句子。说话人:narrator(范文)。",
+          "grammarFocusZh": "正式和非正式邮件的对比;连接词复习"
+        },
+        {
+          "id": "de.a2u28.l04",
+          "type": "dialogue",
+          "titleZh": "口语第一部分:用卡片提问",
+          "canDoZh": "能根据卡片上的词问别人个人的问题,并且回答",
+          "scenarioZh": "口语第一部分练习:卡片上写着 Geburtstag? / Wohnort? / Hobby? / Lieblingsessen? / Beruf?;王伟和莉娜轮流抽卡、提问、回答(Wann hast du Geburtstag? / Was ist dein Lieblingsessen?);莉娜提醒他:问题要完整,回答可以多说一句。说话人:wei、lena。",
+          "grammarFocusZh": "W-问句复习;回答时多加一个理由(…, weil …)"
+        },
+        {
+          "id": "de.a2u28.l05",
+          "type": "vocab",
+          "titleZh": "常考话题的词",
+          "canDoZh": "能就常见话题(住、吃、工作、学习、爱好、旅行)准备要说的词和句子",
+          "scenarioZh": "口语第二部分是讲自己的生活:卡片上有一个话题和四个提示(比如 Wohnen:Wo? Wie groß? Mit wem? Was gefällt dir?)。王伟准备几个常考话题的词和句子:Wohnen、Essen、Freizeit、Arbeit、Reisen;索菲娅听他讲,帮他把句子连起来。说话人:wei、sofia。",
+          "grammarFocusZh": "连接词(zuerst, außerdem, deshalb, trotzdem);形容词词尾和比较级复习"
+        },
+        {
+          "id": "de.a2u28.l06",
+          "type": "dialogue",
+          "titleZh": "口语第二部分:讲我的生活",
+          "canDoZh": "能按提示连贯地讲一段关于自己生活的话,回答一个追问",
+          "scenarioZh": "瓦格纳老师当考官,给王伟一张卡片“Arbeit und Studium”;王伟讲一分多钟:学什么、在哪儿实习、每天做什么、喜欢什么、不喜欢什么;老师追问 Was möchten Sie später beruflich machen?;王伟用 werden 和 würde gern 回答。说话人:wagner、wei。",
+          "grammarFocusZh": "复习:werden 将来时、第二虚拟式(Ich würde gern …)、连接词"
+        },
+        {
+          "id": "de.a2u28.r02",
+          "type": "reading",
+          "titleZh": "口语考试看什么?",
+          "canDoZh": "能读懂口语考试的评分说明,知道考官看什么",
+          "scenarioZh": "体裁:说明(语言中心整理的备考材料,不是考试机构的原文)。考官看:有没有完成任务、说得连不连贯、词汇够不够、语法和发音;小错误没关系,重要的是能交流;不知道一个词时可以换个说法;和搭档要互相回应,不要只说自己的。说话人:narrator(说明)。",
+          "grammarFocusZh": "构词和 dass 从句在说明里(Wichtig ist, dass …)"
+        },
+        {
+          "id": "de.a2u28.l07",
+          "type": "dialogue",
+          "titleZh": "完整的口语模拟",
+          "canDoZh": "能和搭档完成一次完整的口语模拟,三个部分都能应对",
+          "scenarioZh": "周五晚上,瓦格纳老师在语言中心给几个学生做口语模拟考,王伟和索菲娅一组(索菲娅自愿来当搭档):第一部分互相用卡片提问,第二部分各讲一个话题,第三部分一起计划“周末给朋友办生日聚会”;老师最后点评:王伟连接词用得好,第三部分说得太少。说话人:wagner、wei、sofia。",
+          "grammarFocusZh": "复习:提建议和回应、连接词、第二虚拟式"
+        },
+        {
+          "id": "de.a2u28.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:考前一晚",
+          "canDoZh": "能说出考试前的准备和心情,鼓励、安慰别人",
+          "scenarioZh": "考试前一晚,WG 在厨房:莉娜陪王伟最后练几个问题;约纳斯做了一顿“好运饭”;霍夫曼先生打电话来说 Ich drücke Ihnen die Daumen!(德国人用“按住大拇指”表示祝好运);王伟有点紧张,大家安慰他;最后他检查要带的东西:护照、笔和考试邀请函。说话人:lena、jonas、hoffmann、wei、sofia。",
+          "grammarFocusZh": "复习:命令式、dass / wenn 从句、zu + 不定式(Vergiss nicht, den Pass mitzunehmen!)"
+        },
+        {
+          "id": "de.a2u28.r03",
+          "type": "reading",
+          "titleZh": "一篇改过的作文",
+          "canDoZh": "能读懂一篇作文和老师的批改,看出改了哪里、为什么",
+          "scenarioZh": "体裁:作文和批注。王伟写给语言学校的半正式邮件(询问 B1 课程),旁边是瓦格纳老师的批注:动词的位置、Sie 和 du 混用、少写了一个要点、结尾可以更客气。说话人:wei(作文)、narrator(批注)。",
+          "grammarFocusZh": "复习:从句语序、第二虚拟式、邮件的固定说法"
+        }
+      ]
+    },
+    {
+      "id": "a2u29",
+      "unit": "A2-29 考试和结果",
+      "cefr": "A2",
+      "themeZh": "七月中参加歌德 A2:考场报到、休息时给朋友打电话、考完讲口试、写考试日记、回 WG 讲感受;等成绩的几周里聊心情;八月中成绩出来——通过了!读成绩单、庆祝,给新一期的同学讲备考经验。",
+      "grammarZh": "复习:讲经历时 sein / haben / 情态动词用过去时、其他动词用完成时;dass / weil / wenn 从句复习。",
+      "pronunciationZh": "表达情绪的语调:紧张、松了一口气、高兴、骄傲(Puh! Endlich! Geschafft! Ich bin so froh!)。",
+      "lessons": [
+        {
+          "id": "de.a2u29.l01",
+          "type": "dialogue",
+          "titleZh": "考场报到",
+          "canDoZh": "能在考场报到,听懂监考的说明和规定",
+          "scenarioZh": "七月中的一个周六早上 8:30,王伟到了考场(语言学校,不写真实名称)。女监考核对护照和考试邀请函,说明手机放在哪儿、考试的顺序和时间,问大家有没有问题;王伟问 Darf ich eine Flasche Wasser mitnehmen?。说话人:mitarbeiterin、wei。",
+          "grammarFocusZh": "复习:Sie 的命令式和 dürfen(Bitte schalten Sie Ihr Handy aus! / Darf ich …?)"
+        },
+        {
+          "id": "de.a2u29.l02",
+          "type": "vocab",
+          "titleZh": "考试和成绩的词",
+          "canDoZh": "能说出和考试、成绩、证书有关的常用词",
+          "scenarioZh": "笔试和口试之间有两个小时休息,王伟给莉娜打电话:die Prüfung、der Teil、die Punkte、bestehen / nicht bestehen、das Ergebnis、das Zertifikat、schriftlich / mündlich;他说阅读还行,听力最后一题没听懂;莉娜让他先去吃饭,别再想了。说话人:wei、lena。",
+          "grammarFocusZh": "考试用语;dass 从句复习(Ich glaube, dass ich den Leseteil gut gemacht habe)"
+        },
+        {
+          "id": "de.a2u29.l03",
+          "type": "grammar",
+          "titleZh": "讲经历:过去时和完成时复习",
+          "canDoZh": "能用过去时和完成时连贯地讲刚发生的事和当时的感受",
+          "scenarioZh": "口试结束后,王伟在考场外给索菲娅打电话讲口试:Ich war sehr nervös. Ich musste über meine Arbeit sprechen. Meine Partnerin hat viel geredet, trotzdem konnte ich viel sagen. Am Ende hatten wir noch Zeit.;索菲娅问 Und wie war die Prüferin?。说话人:wei、sofia。",
+          "grammarFocusZh": "讲经历时 sein / haben / 情态动词用过去时(war, hatte, musste, konnte),其他动词用完成时;时间顺序和连接词复习"
+        },
+        {
+          "id": "de.a2u29.r01",
+          "type": "reading",
+          "titleZh": "考试那天(王伟的日记)",
+          "canDoZh": "能读懂一篇讲考试经历的日记,按顺序说出发生了什么",
+          "scenarioZh": "体裁:日记(王伟,考试当天晚上写的)。早上紧张得吃不下早饭;阅读比模拟题简单;听力里有一段火车站广播,让他想起一年多以前在汉堡;写作写了一封给房东的邮件;口试的搭档是一位西班牙学生(不出场),两人一起计划了一次班级旅行;晚上大家给他做了一个“考完了”蛋糕。说话人:wei(日记)。",
+          "grammarFocusZh": "过去时和完成时的综合应用;时间顺序"
+        },
+        {
+          "id": "de.a2u29.l04",
+          "type": "dialogue",
+          "titleZh": "考完了!",
+          "canDoZh": "能讲考试的感受,回应朋友的问题和祝贺",
+          "scenarioZh": "晚上回到 WG,大家在厨房等他:Und? Wie war’s?;王伟一部分一部分地讲;约纳斯开玩笑问他会不会写 Fischbrötchen;霍夫曼先生也来了,说 Ich bin sicher, dass Sie bestanden haben.;王伟说成绩要几个星期以后才知道。说话人:jonas、sofia、lena、hoffmann、wei。",
+          "grammarFocusZh": "复习:过去时和完成时、dass 从句"
+        },
+        {
+          "id": "de.a2u29.l05",
+          "type": "vocab",
+          "titleZh": "等成绩:感受和情绪",
+          "canDoZh": "能说出常见的感受和情绪,问别人感觉怎么样",
+          "scenarioZh": "等成绩的几周里,王伟常常想到考试。他和莉娜聊情绪:nervös、gespannt、erleichtert、enttäuscht、stolz、zufrieden、Angst haben vor、sich freuen über;莉娜说她考完 HSK 3 也是这样;两人互相打气。说话人:wei、lena。",
+          "grammarFocusZh": "带介词的动词复习(Angst haben vor, sich freuen über / auf);反身动词复习"
+        },
+        {
+          "id": "de.a2u29.l06",
+          "type": "dialogue",
+          "titleZh": "成绩出来了!",
+          "canDoZh": "能讲出考试结果,接受祝贺,表示感谢",
+          "scenarioZh": "八月中,王伟在实习的公司收到邮件:成绩出来了——通过了!他马上给莉娜打视频电话(莉娜这时在中国上暑期中文班);两人一个说德语、一个说中文,互相祝贺——莉娜的 HSK 3 也通过了。说话人:wei、lena。",
+          "grammarFocusZh": "复习:dass 从句(Ich habe gerade gesehen, dass …)、过去时和完成时"
+        },
+        {
+          "id": "de.a2u29.r02",
+          "type": "reading",
+          "titleZh": "成绩单",
+          "canDoZh": "能读懂成绩单上各部分的分数和说明",
+          "scenarioZh": "体裁:成绩单(仿常见的格式,不照抄考试机构的原件)。考生信息(示例)、四个部分的得分和满分、总分、结果(bestanden)、说明:证书什么时候可以取、怎么取;王伟阅读的分数最高,口语也不错。说话人:narrator(成绩单)。",
+          "grammarFocusZh": "数字和构词复习(die Gesamtpunktzahl, das Prüfungsergebnis)"
+        },
+        {
+          "id": "de.a2u29.l07",
+          "type": "dialogue",
+          "titleZh": "A2 派对",
+          "canDoZh": "能请朋友来庆祝,在聚会上致谢",
+          "scenarioZh": "周末,WG 在阳台上开“A2 派对”(莉娜视频参加)。王伟简短致谢:谢谢瓦格纳老师,谢谢室友们陪练,谢谢霍夫曼先生讲的故事;瓦格纳老师也来了,问他下学期上不上 B1 班;保罗问 Wann machst du B1?。说话人:wei、wagner、paul、hoffmann、sofia、jonas。",
+          "grammarFocusZh": "复习:dass 从句(Danke, dass …)、werden 将来时"
+        },
+        {
+          "id": "de.a2u29.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:讲备考经验",
+          "canDoZh": "能给别人讲自己的经验和建议,回答问题",
+          "scenarioZh": "语言中心请王伟在新一期 A2 班上讲备考经验,瓦格纳老师主持,学生的问题由她转述(学生不出场):怎么练听力、怎么准备口语、考试那天要注意什么、紧张怎么办;王伟用过去时、完成时和建议的说法回答。说话人:wagner、wei。",
+          "grammarFocusZh": "复习:过去时和完成时、第二虚拟式(Sie sollten …)、wenn 从句"
+        },
+        {
+          "id": "de.a2u29.r03",
+          "type": "reading",
+          "titleZh": "我的 A2 备考经验",
+          "canDoZh": "能读懂一篇经验分享,找出具体的方法",
+          "scenarioZh": "体裁:德语课博客上的经验帖(王伟)。他写:A1 时的经验;这次有实习、时间不够,怎么安排;用真实材料练听力(电台采访约纳斯);找搭档练口语;写作背常用句子;最后一句:A2 不是终点,下一步是 B1。说话人:wei(博客)。",
+          "grammarFocusZh": "过去时、完成时和第二虚拟式的综合应用"
+        }
+      ]
+    },
+    {
+      "id": "a2u30",
+      "unit": "A2-30 第二年的夏天",
+      "cefr": "A2",
+      "themeZh": "八月到十月,第二年的结尾:实习的最后一周和实习证明、A2 语法总复习、莉娜从中国回来讲见闻(她还去成都见了王伟的家人)、索菲娅的设计展、约纳斯的新计划、下学期的计划;新学年王伟又当新生辅导员,写下《我在德国的第二年》。",
+      "grammarZh": "A2 总复习:时态(现在时、完成时、过去时、werden 将来时)、从句(weil / dass / wenn / ob / 间接问句)、第二虚拟式和形容词词尾在真实场景里的综合运用。",
+      "pronunciationZh": "A2 发音总复习:声门塞音、元音化的 r、ch 的两种读法、辅音连缀、复合词的重音和句子的语调。",
+      "lessons": [
+        {
+          "id": "de.a2u30.l01",
+          "type": "dialogue",
+          "titleZh": "实习的最后一周",
+          "canDoZh": "能在工作结束时总结经验、听懂反馈,和同事告别",
+          "scenarioZh": "九月中,实习的最后一周。导师(说话人用 mitarbeiter)和王伟做最后一次谈话:他学到了什么、哪里进步了、以后还可以怎么改进;导师说公司下学期想请他来做学生兼职(der Werkstudent);王伟谢谢导师,说 Ich würde sehr gern wiederkommen.。说话人:mitarbeiter、wei。",
+          "grammarFocusZh": "复习:完成时讲收获(Ich habe viel gelernt)、第二虚拟式(Ich würde gern …)"
+        },
+        {
+          "id": "de.a2u30.l02",
+          "type": "vocab",
+          "titleZh": "实习证明",
+          "canDoZh": "能看懂实习证明里常见的词,理解评价的意思",
+          "scenarioZh": "人事部的女工作人员交给王伟实习证明(das Praktikumszeugnis);晚上王伟和约纳斯一起看:selbstständig、zuverlässig、die Aufgaben、das Team,还有一句 stets zu unserer vollsten Zufriedenheit——约纳斯解释,这是德国工作证明里最好的评价。说话人:mitarbeiterin、wei、jonas。",
+          "grammarFocusZh": "工作证明里的固定说法(只认识);形容词词尾和最高级复习"
+        },
+        {
+          "id": "de.a2u30.l03",
+          "type": "grammar",
+          "titleZh": "A2 语法总复习:过去、现在和将来",
+          "canDoZh": "能在一段话里正确使用各种时态和从句,讲过去、现在和计划",
+          "scenarioZh": "九月底,瓦格纳老师给 A2 班的老学生上一次“回顾课”。她请王伟讲:一年前在做什么(Vor einem Jahr war ich …)、这一年发生了什么(Ich habe … / Ich musste …)、现在怎么样、以后有什么计划(Ich werde … / Wenn …, möchte ich …);老师记下他的进步,也指出他还常犯的两个错误。说话人:wagner、wei。",
+          "grammarFocusZh": "A2 总复习:时态的选择(过去时 / 完成时 / 现在时 / werden),从句的语序,第二虚拟式"
+        },
+        {
+          "id": "de.a2u30.r01",
+          "type": "reading",
+          "titleZh": "莉娜的中国日记",
+          "canDoZh": "能读懂一篇旅行和学习的日记,说出作者的见闻和感受",
+          "scenarioZh": "体裁:日记(莉娜在中国写的,译成德语发给王伟)。她在中国上暑期中文班:第一次吃火锅;在胡同里迷了路;用中文讲价;还去成都见了王伟的父母和奶奶——妈妈用英语、奶奶用德语对她说“你好”!她觉得中国的城市很大、节奏很快,人很热情。说话人:narrator(莉娜的日记)。",
+          "grammarFocusZh": "过去时、完成时和比较级的综合应用"
+        },
+        {
+          "id": "de.a2u30.l04",
+          "type": "dialogue",
+          "titleZh": "莉娜回来了",
+          "canDoZh": "能听朋友讲旅行见闻,提问和比较",
+          "scenarioZh": "九月初,莉娜从中国回来,大家在 WG 等她。她带回来茶叶和小礼物,讲成都、王伟奶奶做的菜和中文班;王伟问 Wie hat dir Chengdu gefallen?;莉娜比较中国的大城市和柏林;约纳斯问四川菜是不是比他的辣薯条还辣。说话人:lena、wei、jonas、sofia。",
+          "grammarFocusZh": "复习:比较级和最高级、dass 从句、完成时"
+        },
+        {
+          "id": "de.a2u30.l05",
+          "type": "vocab",
+          "titleZh": "展览和作品",
+          "canDoZh": "能说出展览和艺术作品的常用词,评价作品",
+          "scenarioZh": "索菲娅学期末的设计展(die Ausstellung):她做了一组以“柏林的家”为主题的海报——WG、霍夫曼先生的火车、约纳斯的小吃摊;大家去看展:das Plakat、die Farbe、die Idee、das Material、modern、ausdrucksstark;霍夫曼先生看到自己的火车被画进海报,很感动。说话人:sofia、hoffmann、wei、lena。",
+          "grammarFocusZh": "形容词词尾和第二虚拟式复习(Ich hätte gern so ein Plakat!)"
+        },
+        {
+          "id": "de.a2u30.l06",
+          "type": "dialogue",
+          "titleZh": "约纳斯的新计划",
+          "canDoZh": "能讨论别人的新计划,说出看法、给出建议",
+          "scenarioZh": "约纳斯宣布:小吃摊很成功,一家咖啡馆请他每周三天在店里做午饭;他打算明年开一家自己的小饭馆;他问大家:要不要辞掉现在餐馆的工作?索菲娅说 Ich würde es versuchen!;王伟说先做一个计划;霍夫曼先生讲他年轻时下决心的故事。说话人:jonas、sofia、wei、hoffmann。",
+          "grammarFocusZh": "复习:第二虚拟式提建议、wenn / dass 从句、deshalb / trotzdem"
+        },
+        {
+          "id": "de.a2u30.r02",
+          "type": "reading",
+          "titleZh": "下学期的计划",
+          "canDoZh": "能读懂课程说明和一份学习计划",
+          "scenarioZh": "体裁:语言中心 B1 课的说明和王伟的计划。B1 课:时间、地点、费用、要求(不写真实课本名);王伟的计划:第五学期选的课、做学生兼职、上 B1 课、继续当新生辅导员、每周和保罗练中文。说话人:narrator(课程说明)、wei(计划)。",
+          "grammarFocusZh": "werden 将来时和现在时表示将来;时间表达复习"
+        },
+        {
+          "id": "de.a2u30.l07",
+          "type": "dialogue",
+          "titleZh": "又一个新学年",
+          "canDoZh": "能欢迎新来的人、讲自己的经验,回顾自己的变化",
+          "scenarioZh": "十月初,新学期开始,王伟又在国际处当新生辅导员。国际处的女工作人员笑着说 Vor zwei Jahren waren Sie selbst neu hier!;王伟说他还记得第一天说的第一句德语是 Wie bitte?;莉娜也来帮忙,两人想起两年前在迎新会上第一次见面的样子。说话人:mitarbeiterin、wei、lena。",
+          "grammarFocusZh": "复习:过去时和完成时、vor / seit"
+        },
+        {
+          "id": "de.a2u30.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习与应用:两年了",
+          "canDoZh": "能在聚会上讲自己两年来的经历和以后的打算",
+          "scenarioZh": "十月中,WG 办了一个“两周年”聚会——王伟来柏林两年了。大家轮流说这两年最难忘的事:霍夫曼先生说是王伟教他发第一张照片,保罗说是吃到包着硬币的饺子,约纳斯说是小吃摊开张,索菲娅说是维也纳,莉娜说是在成都见到王伟的奶奶;最后王伟讲自己的打算:B1、学生兼职,毕业以后也许留在德国工作。说话人:wei、hoffmann、paul、jonas、sofia、lena。",
+          "grammarFocusZh": "A2 综合复习:时态、从句、第二虚拟式"
+        },
+        {
+          "id": "de.a2u30.r03",
+          "type": "reading",
+          "titleZh": "我在德国的第二年",
+          "canDoZh": "能读懂、也能写一篇 15 句左右的短文,讲自己一年来的经历、变化和计划",
+          "scenarioZh": "体裁:博客(德语课博客,A2 的最后一篇)。王伟写《我在德国的第二年》:十月回到柏林,当新生辅导员;得了流感;在莉娜家过圣诞;春节和生日;维也纳;找实习和面试;搬家;约纳斯的小吃摊;霍夫曼先生摔伤;实习;通过歌德 A2;最大的变化是现在能用德语帮助别人;最后写下一年的计划。说话人:wei(博客)。",
+          "grammarFocusZh": "A2 总复习:时态、从句、形容词词尾和第二虚拟式的综合应用"
+        }
+      ]
+    }
+  ]
+}
