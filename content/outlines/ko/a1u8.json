@@ -1,0 +1,128 @@
+{
+  "lang": "ko",
+  "levels": ["A1"],
+  "units": [
+    { "unit": "A1-8 我的一天与周末", "cefr": "A1", "themeZh": "说日常和一周:几点起床、做什么,一周的课和打工(星期),用过去时讲周末做了什么、去釜山旅行,约朋友周末一起玩,最后写下在首尔的第一篇日记" }
+  ],
+  "lessons": [
+    {
+      "id": "ko.a1u8.l01", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108010,
+      "titleZh": "我的一天",
+      "goalZh": "会说一天里的日常动作和时间,掌握 해요体现在时的变化规则",
+      "canDoZh": "能按时间顺序说自己一天做什么:几点起床、在哪儿学习、几点打工、几点睡觉",
+      "scenarioZh": "语学堂口语课,朴老师(park)让大家说自己的一天:“몇 시에 일어나요?”。陈静(jing)说“매일 아침 일곱 시에 일어나요. 씻어요. 그리고 아침을 먹어요.”,上午上课,下午在咖啡店打工或在图书馆学习,晚上十二点睡觉;南(nam)说自己九点才起床,大家都笑了。课文至少 12 句。",
+      "grammarFocusZh": "해요体现在时规则小结:词干最后元音是 ㅏ / ㅗ 加 -아요(가요、와요、자요、일어나요),其他加 -어요(먹어요、씻어요、쉬어요),하다 → 해요(공부해요、일해요);有元音缩合(가 + 아요 → 가요、오 + 아요 → 와요、마시 + 어요 → 마셔요)。时间 + 에 + 动作:일곱 시에 일어나요;地点 + 에서 + 动作:도서관에서 공부해요。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.ireonayo", "kind": "word", "pos": "verb", "text": "일어나요", "zh": "起床", "features": { "roman": "ireonayo" }, "noteZh": "原形 일어나다;连音读 [이러나요];몇 시에 일어나요?= 几点起床?" },
+        { "id": "ko.ssiseoyo", "kind": "word", "pos": "verb", "text": "씻어요", "zh": "洗漱;洗(手、脸)", "features": { "roman": "ssiseoyo" }, "noteZh": "原形 씻다;紧音 ㅆ,连音读 [씨서요];손을 씻어요 = 洗手。" },
+        { "id": "ko.jayo", "kind": "word", "pos": "verb", "text": "자요", "zh": "睡觉", "features": { "roman": "jayo" }, "noteZh": "原形 자다;잘 자요 = 晚安(对朋友)。" },
+        { "id": "ko.gongbuhaeyo", "kind": "word", "pos": "verb", "text": "공부해요", "zh": "学习", "features": { "roman": "gongbuhaeyo" }, "noteZh": "汉字词 工夫 + 하다;한국어를 공부해요、도서관에서 공부해요。" },
+        { "id": "ko.ilhaeyo", "kind": "word", "pos": "verb", "text": "일해요", "zh": "工作;干活", "features": { "roman": "ilhaeyo" }, "noteZh": "일(活儿)+ 하다;카페에서 일해요(在咖啡店工作)。" },
+        { "id": "ko.achim", "kind": "word", "pos": "noun", "text": "아침", "zh": "早上;早饭", "features": { "roman": "achim" }, "noteZh": "아침에(早上)、아침을 먹어요(吃早饭)——一个词两个意思。" },
+        { "id": "ko.jeomsim", "kind": "word", "pos": "noun", "text": "점심", "zh": "中午;午饭", "features": { "roman": "jeomsim" }, "noteZh": "汉字词 点心,在韩语里是“午饭”,不是点心。" },
+        { "id": "ko.jeonyeok", "kind": "word", "pos": "noun", "text": "저녁", "zh": "晚上;晚饭", "features": { "roman": "jeonyeok" }, "noteZh": "저녁에(晚上)、저녁을 먹어요(吃晚饭)。" },
+        { "id": "ko.maeil", "kind": "word", "pos": "adv", "text": "매일", "zh": "每天", "features": { "roman": "maeil" }, "noteZh": "汉字词 每日;매일 아침 일곱 시에 일어나요。" }
+      ],
+      "reviewItems": ["ko.si", "ko.ojeon", "ko.doseogwan", "ko.areubaiteu"]
+    },
+    {
+      "id": "ko.a1u8.l02", "lang": "ko", "type": "vocab", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108020,
+      "titleZh": "这周的课表:星期",
+      "goalZh": "会说星期一到星期日,问今天星期几,说一周的安排",
+      "canDoZh": "能问“今天星期几?”,说出自己一周哪天上课、哪天打工、哪天考试",
+      "scenarioZh": "周日晚上,陈静和秀雅(sua)在宿舍对下周的安排。陈静:“월요일하고 수요일에 아르바이트해요.”;秀雅:“금요일에 시험이 있어요.”;陈静问“오늘이 무슨 요일이에요?”——秀雅笑她:“일요일이에요!”;最后两人商量“주말에 뭐 해요?”。课文至少 12 句。",
+      "grammarFocusZh": "星期 = 汉字“月火水木金土日”+ 요일:월요일、화요일……일요일(和日语一样,中文学习者靠汉字记)。星期 + 에:월요일에 수업이 있어요(오늘、내일 不加 에)。问星期几:무슨 요일이에요?(무슨 + 名词 = 什么……)。复习 N이/가 있어요 说“有安排”:시험이 있어요。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 14,
+      "newItems": [
+        { "id": "ko.woryoil", "kind": "word", "pos": "noun", "text": "월요일", "zh": "星期一", "features": { "roman": "woryoil" }, "noteZh": "汉字词 月曜日;连音读 [워료일]。" },
+        { "id": "ko.hwayoil", "kind": "word", "pos": "noun", "text": "화요일", "zh": "星期二", "features": { "roman": "hwayoil" }, "noteZh": "汉字词 火曜日。" },
+        { "id": "ko.suyoil", "kind": "word", "pos": "noun", "text": "수요일", "zh": "星期三", "features": { "roman": "suyoil" }, "noteZh": "汉字词 水曜日。" },
+        { "id": "ko.mogyoil", "kind": "word", "pos": "noun", "text": "목요일", "zh": "星期四", "features": { "roman": "mogyoil" }, "noteZh": "汉字词 木曜日;连音读 [모교일]。" },
+        { "id": "ko.geumyoil", "kind": "word", "pos": "noun", "text": "금요일", "zh": "星期五", "features": { "roman": "geumyoil" }, "noteZh": "汉字词 金曜日;连音读 [그묘일]。" },
+        { "id": "ko.toyoil", "kind": "word", "pos": "noun", "text": "토요일", "zh": "星期六", "features": { "roman": "toyoil" }, "noteZh": "汉字词 土曜日。" },
+        { "id": "ko.iryoil", "kind": "word", "pos": "noun", "text": "일요일", "zh": "星期日", "features": { "roman": "iryoil" }, "noteZh": "汉字词 日曜日;连音读 [이료일]。" },
+        { "id": "ko.jumal", "kind": "word", "pos": "noun", "text": "주말", "zh": "周末", "features": { "roman": "jumal" }, "noteZh": "汉字词 周末;주말에 뭐 해요?= 周末做什么?" },
+        { "id": "ko.museun", "kind": "word", "pos": "det", "text": "무슨", "zh": "什么(的)", "features": { "roman": "museun" }, "noteZh": "后面接名词:무슨 요일(星期几)、무슨 색깔(什么颜色);单独问“什么”用 뭐。" },
+        { "id": "ko.siheom", "kind": "word", "pos": "noun", "text": "시험", "zh": "考试", "features": { "roman": "siheom" }, "noteZh": "汉字词 试验(韩语里是“考试”);TOPIK 시험 = 韩国语能力考试。" }
+      ],
+      "reviewItems": ["ko.oneul", "ko.naeil", "ko.haeyo", "ko.sueop"]
+    },
+    {
+      "id": "ko.a1u8.l03", "lang": "ko", "type": "grammar", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108030,
+      "titleZh": "周末你做什么了?",
+      "goalZh": "会用 -았/었어요 说过去做了什么,会问别人昨天、上周做了什么",
+      "canDoZh": "能说出上个周末做了什么:见了谁、看了什么、在家做了什么",
+      "scenarioZh": "周一早上的语学堂,朴老师(park)问大家“주말에 뭐 했어요?”。陈静:“토요일에 친구를 만났어요. 같이 영화를 봤어요.”;南(nam):“저는 집에서 쉬었어요. 그리고 청소했어요.”;老师说自己星期天运动了;最后老师问“어제 뭐 했어요?”,大家用过去时回答。课文至少 12 句。",
+      "grammarFocusZh": "过去时 -았/었어요:词干最后元音是 ㅏ / ㅗ 加 -았어요(갔어요、봤어요、만났어요),其他加 -었어요(먹었어요、쉬었어요),하다 → 했어요(공부했어요、청소했어요)。名词句:학생이었어요 / 친구였어요。疑问:뭐 했어요?(做什么了?)。时间词:어제、지난주、지난 주말、토요일에。韩语“和朋友见面”说 친구를 만나요(用 을/를)。",
+      "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 16,
+      "newItems": [
+        { "id": "ko.eoje", "kind": "word", "pos": "noun", "text": "어제", "zh": "昨天", "features": { "roman": "eoje" }, "noteZh": "어제 뭐 했어요?= 昨天做什么了?;어제 后面不加 에。" },
+        { "id": "ko.jinanju", "kind": "word", "pos": "noun", "text": "지난주", "zh": "上周", "features": { "roman": "jinanju" }, "noteZh": "지난(过去的)+ 주(周);下周是 다음 주;上个周末 지난 주말。" },
+        { "id": "ko.mannayo", "kind": "word", "pos": "verb", "text": "만나요", "zh": "见面;见", "features": { "roman": "mannayo" }, "noteZh": "原形 만나다;친구를 만나요(和朋友见面,用 을/를);过去:만났어요。" },
+        { "id": "ko.bwayo", "kind": "word", "pos": "verb", "text": "봐요", "zh": "看", "features": { "roman": "bwayo" }, "noteZh": "原形 보다(ㅗ + ㅏ → ㅘ);영화를 봐요;过去:봤어요;또 봐요 = 回头见。" },
+        { "id": "ko.yeonghwa", "kind": "word", "pos": "noun", "text": "영화", "zh": "电影", "features": { "roman": "yeonghwa" }, "noteZh": "汉字词 映画;영화관 = 电影院。" },
+        { "id": "ko.swieoyo", "kind": "word", "pos": "verb", "text": "쉬어요", "zh": "休息", "features": { "roman": "swieoyo" }, "noteZh": "原形 쉬다;집에서 쉬어요;过去:쉬었어요。" },
+        { "id": "ko.undonghaeyo", "kind": "word", "pos": "verb", "text": "운동해요", "zh": "运动;锻炼", "features": { "roman": "undonghaeyo" }, "noteZh": "汉字词 运动 + 하다;过去:운동했어요。" },
+        { "id": "ko.cheongsohaeyo", "kind": "word", "pos": "verb", "text": "청소해요", "zh": "打扫", "features": { "roman": "cheongsohaeyo" }, "noteZh": "汉字词 清扫 + 하다;过去:청소했어요。" }
+      ],
+      "reviewItems": ["ko.jumal", "ko.chingu", "ko.jip", "ko.toyoil"]
+    },
+    {
+      "id": "ko.a1u8.l04", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108040,
+      "titleZh": "釜山的海真美",
+      "goalZh": "会回答“周末过得怎么样”,用形容词的过去时说感受、天气",
+      "canDoZh": "能讲一次短途旅行:去了哪儿、和谁去、天气怎么样、好不好玩",
+      "scenarioZh": "周一下午,陈静到咖啡店上班,崔老板(choi)问“주말 잘 보냈어요?”。陈静说周末和秀雅去了釜山(秀雅的老家):“바다가 진짜 예뻤어요. 날씨도 좋았어요.”;老板问“재미있었어요?”——“네, 재미있었어요. 지금 좀 피곤해요.”;老板说自己周末很忙,客人很多。课文至少 12 句。",
+      "grammarFocusZh": "形容词也用 -았/었어요 说过去:좋다 → 좋았어요、예쁘다 → 예뻤어요、바쁘다 → 바빴어요(ㅡ 脱落)、재미있다 → 재미있었어요、피곤하다 → 피곤했어요。N이/가 + 形容词:날씨가 좋았어요;N도 = 也:날씨도 좋았어요。N하고 같이 = 和……一起:수아 씨하고 같이 갔어요。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.jumal_jal_bonaesseoyo", "kind": "phrase", "pos": "phrase", "text": "주말 잘 보냈어요", "zh": "周末过得好吗?", "features": { "roman": "jumal jal bonaesseoyo" }, "noteZh": "周一见面的固定问候(升调);回答 네, 잘 보냈어요 / 좀 바빴어요。" },
+        { "id": "ko.jaemiisseoyo", "kind": "word", "pos": "adj", "text": "재미있어요", "zh": "有意思;好玩", "features": { "roman": "jaemiisseoyo" }, "noteZh": "재미(乐趣)+ 있어요;反义 재미없어요;过去:재미있었어요。" },
+        { "id": "ko.norayo", "kind": "word", "pos": "verb", "text": "놀아요", "zh": "玩", "features": { "roman": "norayo" }, "noteZh": "原形 놀다;친구하고 놀아요(和朋友玩);过去:놀았어요。" },
+        { "id": "ko.yeohaeng", "kind": "word", "pos": "noun", "text": "여행", "zh": "旅行", "features": { "roman": "yeohaeng" }, "noteZh": "汉字词 旅行;부산 여행 = 釜山之旅;여행을 가요 = 去旅行。" },
+        { "id": "ko.bada", "kind": "word", "pos": "noun", "text": "바다", "zh": "海;大海", "features": { "roman": "bada" }, "noteZh": "元音之间的 ㄷ 变浊,听起来像 bada。" },
+        { "id": "ko.nalssi", "kind": "word", "pos": "noun", "text": "날씨", "zh": "天气", "features": { "roman": "nalssi" }, "noteZh": "날씨가 좋아요(天气好);紧音 ㅆ。" },
+        { "id": "ko.bappayo", "kind": "word", "pos": "adj", "text": "바빠요", "zh": "忙", "features": { "roman": "bappayo" }, "noteZh": "原形 바쁘다(ㅡ 脱落);过去:바빴어요。" },
+        { "id": "ko.pigonhaeyo", "kind": "word", "pos": "adj", "text": "피곤해요", "zh": "累;疲惫", "features": { "roman": "pigonhaeyo" }, "noteZh": "汉字词 疲困 + 하다;过去:피곤했어요。" }
+      ],
+      "reviewItems": ["ko.gayo", "ko.yeppeoyo", "ko.jinjja", "ko.sonnim"]
+    },
+    {
+      "id": "ko.a1u8.l05", "lang": "ko", "type": "dialogue", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108050,
+      "titleZh": "周末一起去看演唱会吧?",
+      "goalZh": "会用 -(으)ㄹ까요? 提议、商量时间地点,会接受和婉拒邀请",
+      "canDoZh": "能约朋友周末一起玩:提议做什么、商量几点在哪儿见,有事时礼貌地拒绝",
+      "scenarioZh": "敏俊(minjun)约陈静:“주말에 같이 노래방에 갈까요?”;陈静说“토요일에 약속이 있어요. 미안해요, 다음에 같이 가요.”。晚上秀雅(sua)说抢到了两张 K-pop 演唱会的票:“일요일에 같이 콘서트에 갈까요?”——“좋아요! 언제예요?”——“몇 시에 만날까요?”——“다섯 시에 홍대입구역 구 번 출구에서 만날까요?”;演唱会前两人还想去逛街。课文至少 12 句。",
+      "grammarFocusZh": "-(으)ㄹ까요? = ……吧?/ ……好吗?(提议、商量):无收音 + ㄹ까요(갈까요?、볼까요?、만날까요?),有收音 + 을까요(먹을까요?);接受:좋아요!/ 네, 같이 가요;婉拒:미안해요. 다음에 같이 가요。해요体也能表示提议:같이 가요!。复习 -고 싶어요、时间 + 에、地点 + 에서。",
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.eonje", "kind": "word", "pos": "pron", "text": "언제", "zh": "什么时候", "features": { "roman": "eonje" }, "noteZh": "언제 만날까요?= 什么时候见?;언제 시간 있어요?= 什么时候有空?" },
+        { "id": "ko.yaksok", "kind": "word", "pos": "noun", "text": "약속", "zh": "约定;和人约好的事", "features": { "roman": "yaksok" }, "noteZh": "汉字词 约束;토요일에 약속이 있어요 = 星期六有约了(不一定是恋爱约会)。" },
+        { "id": "ko.noraebang", "kind": "word", "pos": "noun", "text": "노래방", "zh": "KTV;练歌房", "features": { "roman": "noraebang" }, "noteZh": "노래(歌)+ 방(房间);韩国年轻人聚会常去,按时间收费。" },
+        { "id": "ko.konseoteu", "kind": "word", "pos": "noun", "text": "콘서트", "zh": "演唱会;音乐会", "features": { "roman": "konseoteu" }, "noteZh": "外来词 concert;K-pop 콘서트 的票常常几分钟就抢光。" },
+        { "id": "ko.pyo", "kind": "word", "pos": "noun", "text": "표", "zh": "票", "features": { "roman": "pyo" }, "noteZh": "汉字词 票;콘서트 표、기차 표;数票用 장(张):표 두 장。" },
+        { "id": "ko.daeume", "kind": "word", "pos": "adv", "text": "다음에", "zh": "下次;以后", "features": { "roman": "daeume" }, "noteZh": "婉拒邀请:미안해요, 다음에 같이 가요——这样拒绝不伤人。" },
+        { "id": "ko.syoping", "kind": "word", "pos": "noun", "text": "쇼핑", "zh": "购物;逛街", "features": { "roman": "syoping" }, "noteZh": "外来词 shopping;쇼핑해요 = 逛街买东西。" },
+        { "id": "ko.sanchaek", "kind": "word", "pos": "noun", "text": "산책", "zh": "散步", "features": { "roman": "sanchaek" }, "noteZh": "汉字词 散策;한강에서 산책해요(在汉江边散步)。" }
+      ],
+      "reviewItems": ["ko.gachi", "ko.sigan", "ko.mianhaeyo", "ko.chulgu"]
+    },
+    {
+      "id": "ko.a1u8.l08", "lang": "ko", "type": "reading", "cefr": "A1", "unit": "A1-8 我的一天与周末", "order": 108080,
+      "titleZh": "单元复习:我在首尔的第一篇日记",
+      "goalZh": "读懂并会写一段讲一周生活的短文,综合运用现在时和过去时",
+      "canDoZh": "能用韩语写一小段日记:这周做了什么、心情怎么样、下周打算做什么",
+      "scenarioZh": "来首尔两个多月后的周日晚上,陈静(jing,第一人称)用韩语写下第一篇日记:周一到周五上课,周一、周三下午在咖啡店打工,周六和敏俊、南去了 KTV,今天和秀雅看了演唱会;很累,但很开心;想念杭州的爸爸妈妈,在首尔也有了好朋友;下周五有考试,要努力学习。至少 12 句。",
+      "grammarFocusZh": "现在时和过去时的混用:매일 학교에 가요(习惯)/ 토요일에 노래방에 갔어요(做过的事)/ 다음 주에 시험이 있어요(安排)。复习时间 + 에、地点 + 에서、-고 싶어요、그리고。本课日记用 해요体写;韩国人日记常用 -다 体(A2 学)。",
+      "skills": ["read", "listen", "write"], "estimatedMinutes": 15,
+      "newItems": [
+        { "id": "ko.ilgi", "kind": "word", "pos": "noun", "text": "일기", "zh": "日记", "features": { "roman": "ilgi" }, "noteZh": "汉字词 日记;“写日记”是 일기를 써요(쓰다,以后学)。" },
+        { "id": "ko.saenghwal", "kind": "word", "pos": "noun", "text": "생활", "zh": "生活", "features": { "roman": "saenghwal" }, "noteZh": "汉字词 生活;한국 생활 = 在韩国的生活、유학 생활 = 留学生活。" },
+        { "id": "ko.haengbokhaeyo", "kind": "word", "pos": "adj", "text": "행복해요", "zh": "幸福;很开心", "features": { "roman": "haengbokhaeyo" }, "noteZh": "汉字词 幸福 + 하다;ㄱ 和 ㅎ 合成送气音,读 [행보캐요]。" },
+        { "id": "ko.yeolsimhi", "kind": "word", "pos": "adv", "text": "열심히", "zh": "努力地;认真地", "features": { "roman": "yeolsimhi" }, "noteZh": "汉字词 热心 + 히;열심히 공부해요(努力学习)。" }
+      ],
+      "reviewItems": ["ko.maeil", "ko.bumonim", "ko.siheom", "ko.jaemiisseoyo"]
+    }
+  ]
+}
