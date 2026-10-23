@@ -55,7 +55,7 @@
    - 人名、地名(Berlin、Kreuzberg、Neukölln、Hamburg、Potsdam、Köln、Chengdu、Shanghai)。国家只用学过的 China / Deutschland / Italien。
    - 其他虚词都要先教再用:mit 从 u4.l02 起,zu / an 从 u6.l02 起,für / von / bis 从 u7.l04 起;nicht 从 u3.l03 起(在那之前不能说 Ich verstehe nicht);Entschuldigung 从 u6.l03 起。
 3. **课文里不能有错的德语句子**:练习会直接拿课文出排序题和跟读题。王伟说错的地方用对方的纠正或中文说明来体现,课文只放正确的句子。
-4. **校验的硬性要求**:课文 4 句以上至少 2 道理解题;reading 至少 6 句;A1 每句不超过 15 个词;reading 的说话人用 `wei`(第一人称)或 `narrator`。每课 `scenarioZh` 末尾列了建议的说话人。
+4. **校验的硬性要求**:课文 4 句以上至少 2 道理解题;reading 至少 6 句;A1 每句不超过 15 个词;reading 的说话人:谁写的消息、信、日记就用谁(王伟写的用 `wei`,莉娜写的用 `lena`),第三人称的短文用 `narrator`。每课 `scenarioZh` 末尾列了建议的说话人。
 5. **标准德语(德国)**:新正字法(dass、bisschen、Tschüss);Schrippe、Sonnabend、Juno / Julei 只写在注释里当知识,课文用 Brötchen、Samstag、Juni / Juli。
 6. **真实但不落地**:城市、区名、车站名可以用;学校、超市、银行、语言学校、考试机构不出现真实名字;地址用 Musterstraße 这类示例,电话号码不要照抄真实号码。
 7. **du / Sie 不能乱**:照角色表的“称呼”一列;服务类角色和王伟互相用 Sie。

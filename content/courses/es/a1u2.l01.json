@@ -1,7 +1,7 @@
 {
   "id": "es.a1u2.l01", "schemaVersion": 1, "lang": "es", "type": "vocab", "cefr": "A1",
   "unit": "A1-2 家人与朋友", "order": 102010,
-  "titleZh": "这是我的家人", "goalZh": "记住主要家庭成员的说法,会用“这是我的……”介绍人", "canDoZh": "能指着照片介绍自己的家人,问“这是谁”",
+  "titleZh": "这是我的家人", "goalZh": "记住主要家庭成员的说法,会用“这是我的……”介绍人", "canDoZh": "能指着照片介绍自己的家人,听懂并回答“这是谁”",
   "skills": ["listen", "read", "write"], "estimatedMinutes": 23.5,
   "newItems": [
     { "id": "es.familia", "kind": "word", "pos": "noun", "text": "la familia", "zh": "家庭;家人", "features": { "gender": "f", "ipa": "la faˈmilja" }, "noteZh": "单数表示“一家人”:Mi familia es de Chengdú。" },

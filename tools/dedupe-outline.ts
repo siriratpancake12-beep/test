@@ -29,10 +29,10 @@ const outlines: OutlineFile[] = outlineFiles(lang).map((path) => ({ path, data: 
 const written: LessonFile[] = lessonFiles(lang).map((path) => ({ path, data: readJson(path) }));
 
 
-// 以大纲里的课为准排顺序;只在课文件里、不在大纲里的课也算上
+// 写好的课以课文件为准(词条的写法和释义比大纲新,判断"意思一样"更准);还没写的课用大纲
 const byId = new Map<string, Lesson>();
 for (const f of outlines) for (const l of f.data.lessons) byId.set(l.id, l);
-for (const l of written.map((f) => f.data)) if (!byId.has(l.id)) byId.set(l.id, l);
+for (const l of written.map((f) => f.data)) byId.set(l.id, l);
 const ord = (l: Lesson) => orderFromId(l.id) ?? l.order;
 const all = [...byId.values()].sort((a, b) => ord(a) - ord(b));
 
