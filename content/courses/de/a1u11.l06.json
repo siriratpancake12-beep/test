@@ -1,0 +1,51 @@
+{
+  "id": "de.a1u11.l06", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-11 家务与 WG 生活", "order": 111060,
+  "titleZh": "谁又没洗碗?", "goalZh": "会在小矛盾里说明情况、道歉,会用 doch 回答否定问句", "canDoZh": "能在小矛盾里说明情况、反驳和道歉,用 doch 回答否定问句",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "de.spuele", "kind": "word", "pos": "noun", "text": "die Spüle", "zh": "(厨房的)水槽;洗碗池", "features": { "gender": "f", "plural": "die Spülen", "ipa": "ˈʃpyːlə" }, "noteZh": "Die Spüle ist voll!(水槽里堆满了!);动词 spülen = 冲洗、洗碗;sp 读 [ʃp],ü 是长音。" },
+    { "id": "de.abwasch", "kind": "word", "pos": "noun", "text": "der Abwasch", "zh": "(要洗的)碗盘;洗碗", "features": { "gender": "m", "plural": "-", "ipa": "ˈapˌvaʃ" }, "noteZh": "den Abwasch machen = abwaschen(洗碗);阳性,没有复数。" },
+    { "id": "de.doch", "kind": "word", "pos": "particle", "text": "doch", "zh": "(回答否定问句)不,……是的 / 要的", "features": { "ipa": "dɔx" }, "noteZh": "回答带 nicht / kein 的问句,表示“不,是……的”:Hast du keine Zeit? – Doch!(不,我有时间!);o 后面的 ch 读 [x]。" },
+    { "id": "de.geschirr", "kind": "word", "pos": "noun", "text": "das Geschirr", "zh": "餐具;碗盘(统称)", "features": { "gender": "n", "plural": "-", "ipa": "ɡəˈʃɪʁ" }, "noteZh": "盘子、碗、杯子的统称,不可数:viel Geschirr;das Geschirr abwaschen(洗碗)。" },
+    { "id": "de.schmutzig", "kind": "word", "pos": "adj", "text": "schmutzig", "zh": "脏的", "features": { "ipa": "ˈʃmʊtsɪç" }, "noteZh": "反义词 sauber(干净);das schmutzige Geschirr(脏碗盘);词尾 -ig 读 [ɪç]。" },
+    { "id": "de.tut_mir_leid", "kind": "phrase", "pos": "phrase", "text": "Tut mir leid!", "zh": "对不起!;很抱歉!", "features": { "ipa": "ˈtuːt miːɐ̯ ˈlaɪ̯t" }, "noteZh": "做错了事、让人失望时说;撞到人、打扰别人说 Entschuldigung!;leid 小写,词尾 d 读 [t]。" },
+    { "id": "de.euer", "kind": "word", "pos": "det", "text": "euer", "zh": "你们的", "alt": ["eure", "euren", "eurem"], "features": { "ipa": "ˈɔɪ̯ɐ" }, "noteZh": "和 ihr(你们)对应:Ist das euer Geschirr?;加词尾时中间的 e 去掉:eure Tassen(不说 euere);eu 读 [ɔɪ̯]。" },
+    { "id": "de.versprechen", "kind": "word", "pos": "verb", "text": "versprechen", "zh": "答应;保证", "features": { "ipa": "fɛɐ̯ˈʃpʁɛçn̩" }, "noteZh": "和 sprechen 一样 e → i:du versprichst, er verspricht;Versprochen!(说定了!/ 我保证!);ver- 不可分。" }
+  ],
+  "reviewItems": ["de.abwaschen", "de.dran", "de.nacht", "de.idee", "de.voll"],
+  "lines": [
+    { "speaker": "sofia", "text": "Die Spüle ist schon wieder voll! Alles ist schmutzig!", "zh": "水槽又堆满了!全都是脏的!", "items": ["de.spuele", "de.sein", "de.schon", "de.wieder", "de.voll", "de.alles", "de.schmutzig"] },
+    { "speaker": "sofia", "text": "Wei, du bist dran. Machst du heute nicht den Abwasch?", "zh": "王伟,这周轮到你了。你今天不洗碗吗?", "items": ["de.du", "de.sein", "de.dran", "de.machen", "de.heute", "de.nicht", "de.abwasch"] },
+    { "speaker": "wei", "text": "Doch! Aber das ist nicht mein Geschirr.", "zh": "洗啊!可这不是我的碗盘。", "items": ["de.doch", "de.aber", "de.das_ist", "de.nicht", "de.mein", "de.geschirr"] },
+    { "speaker": "sofia", "text": "Nicht dein Geschirr? Und wer hat gestern gekocht?", "zh": "不是你的?那昨天是谁做的饭?", "items": ["de.nicht", "de.dein", "de.geschirr", "de.und", "de.wer", "de.haben", "de.gestern", "de.kochen"] },
+    { "speaker": "wei", "text": "Ich nicht! Ich war gestern bis zehn in der Bibliothek.", "zh": "不是我!我昨天在图书馆待到十点。", "items": ["de.ich", "de.nicht", "de.sein", "de.gestern", "de.bis", "de.zehn", "de.in", "de.bibliothek"] },
+    { "speaker": "jonas", "text": "Hallo, ihr zwei! Ist das euer Geschirr?", "zh": "嗨,你们俩!这是你们的碗盘吗?", "items": ["de.hallo", "de.ihr", "de.zwei", "de.sein", "de.euer", "de.geschirr"] },
+    { "speaker": "sofia", "text": "Nein, Jonas! Wir haben nicht gekocht. Und du?", "zh": "不是,约纳斯!我们没做饭。你呢?", "items": ["de.nein", "de.wir", "de.haben", "de.nicht", "de.kochen", "de.und", "de.du"] },
+    { "speaker": "jonas", "text": "Ja, ja … Ich hatte in der Nacht Hunger. Ich habe Nudeln gekocht.", "zh": "哦,对……我半夜饿了,煮了面条。", "items": ["de.ja", "de.ich", "de.haben", "de.in", "de.nacht", "de.hunger", "de.nudel", "de.kochen"] },
+    { "speaker": "jonas", "text": "Tut mir leid! Ich wasche morgen ab. Versprochen!", "zh": "对不起!我明天洗。说定了!", "items": ["de.tut_mir_leid", "de.ich", "de.abwaschen", "de.morgen", "de.versprechen"] },
+    { "speaker": "sofia", "text": "Morgen? Aber wir möchten heute kochen!", "zh": "明天?可我们今天就要做饭!", "items": ["de.morgen", "de.aber", "de.wir", "de.moechten", "de.heute", "de.kochen"] },
+    { "speaker": "jonas", "text": "Gut, gut. Ich wasche jetzt ab. Und nächste Woche koche ich für euch!", "zh": "好好好,我现在就洗。下周我给你们做饭!", "items": ["de.gut", "de.ich", "de.abwaschen", "de.jetzt", "de.und", "de.naechste", "de.woche", "de.kochen", "de.fuer", "de.ihr"] },
+    { "speaker": "wei", "text": "Gute Idee, Jonas! Dann ist das fair.", "zh": "好主意,约纳斯!这样才公平。", "items": ["de.gut", "de.idee", "de.dann", "de.das_ist", "de.fair"] }
+  ],
+  "questions": [
+    { "prompt": "这周轮到谁洗碗?", "options": ["约纳斯", "王伟", "索菲娅"], "answer": 1, "explainZh": "索菲娅说:Wei, du bist dran.(王伟,轮到你了。)王伟回答 Doch!,说他会洗,可那不是他的碗盘。" },
+    { "prompt": "水槽里的脏碗盘是谁的?", "options": ["王伟的", "索菲娅的", "约纳斯的"], "answer": 2, "explainZh": "约纳斯说:Ich hatte in der Nacht Hunger. Ich habe Nudeln gekocht.(我半夜饿了,煮了面条。)王伟和索菲娅都没做饭。" },
+    { "prompt": "约纳斯最后答应什么?", "options": ["现在就洗碗,下周给大家做饭", "明天去买菜", "以后不在家做饭"], "answer": 0, "explainZh": "约纳斯说:Ich wasche jetzt ab. Und nächste Woche koche ich für euch!(我现在就洗。下周我给你们做饭!)" }
+  ],
+  "grammar": [
+    { "id": "de.g.doch_antwort", "titleZh": "用 doch 回答否定问句",
+      "bodyZh": "问句里有 nicht 或 kein,回答“不,是……的”要用 doch,不能用 ja:Machst du heute nicht den Abwasch? – Doch!(不,我洗!)/ Hast du keine Zeit? – Doch, ich habe Zeit.(不,我有时间。)\n同意问句里否定的意思,用 nein:Machst du heute nicht den Abwasch? – Nein, heute nicht.(对,今天不洗。)——中文说“对 / 不”,正好和德语反过来。\n普通的问句(没有 nicht / kein)照常用 ja / nein 回答:Kochst du heute? – Ja!",
+      "examples": [
+        { "text": "Machst du heute nicht den Abwasch? – Doch!", "zh": "你今天不洗碗吗?——洗啊!" },
+        { "text": "Hast du keine Zeit? – Doch, ich habe Zeit.", "zh": "你没时间吗?——不,我有时间。" }
+      ] },
+    { "id": "de.g.euer_entschuldigen", "titleZh": "euer(你们的)和道歉",
+      "bodyZh": "euer = 你们的,和 ihr(你们)对应:Ist das euer Geschirr?(这是你们的碗盘吗?);加词尾时中间的 e 去掉:eure Spüle、eure Tassen(不说 euere)。\n道歉:Tut mir leid!(对不起!)用在做错了事、让别人失望的时候;不小心撞了人、要打扰别人,说 Entschuldigung!。\n答应别人:Versprochen!(说定了!/ 我保证!)来自动词 versprechen(答应),它和 sprechen 一样 e → i:du versprichst, er verspricht。",
+      "examples": [
+        { "text": "Ist das euer Geschirr?", "zh": "这是你们的碗盘吗?" },
+        { "text": "Tut mir leid! Ich wasche morgen ab.", "zh": "对不起!我明天洗。" }
+      ] }
+  ],
+  "review": "draft"
+}

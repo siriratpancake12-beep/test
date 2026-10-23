@@ -130,7 +130,7 @@
       "canDoZh": "能在小矛盾里说明情况、反驳和道歉,用 doch 回答否定问句",
       "scenarioZh": "晚上水槽里又堆满了脏碗盘。这周轮到王伟洗碗,索菲娅问 Machst du heute nicht den Abwasch?,王伟说 Doch! Aber das ist nicht mein Geschirr.;他昨天晚上在图书馆,没做饭;约纳斯进来故意装傻问 Ist das euer Geschirr?,原来是他下晚班后半夜做了夜宵;他道歉(Tut mir leid!),答应明天洗(versprochen),还说下周给大家做饭赔罪(第 16 单元接着写)。规划里的 der Teller、der Topf 是第 3 单元新增课的词(还没定),本课用 das Geschirr。说话人:sofia、wei、jonas。",
       "grammarFocusZh": "用 doch 回答否定问句(Machst du heute nicht den Abwasch? – Doch!),和 nein 对比;euer / eure(Ist das euer Geschirr?);Tut mir leid! 当固定说法",
-      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29,
+      "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
       "newItems": [
         { "id": "de.spuele", "kind": "word", "pos": "noun", "text": "die Spüle", "zh": "(厨房的)水槽;洗碗池", "features": { "gender": "f", "plural": "die Spülen", "ipa": "ˈʃpyːlə" }, "noteZh": "Die Spüle ist voll!(水槽里堆满了!);动词 spülen = 冲洗、洗碗;sp 读 [ʃp],ü 是长音。" },
         { "id": "de.abwasch", "kind": "word", "pos": "noun", "text": "der Abwasch", "zh": "(要洗的)碗盘;洗碗", "features": { "gender": "m", "plural": "-", "ipa": "ˈapˌvaʃ" }, "noteZh": "den Abwasch machen = abwaschen(洗碗);阳性,没有复数。" },
