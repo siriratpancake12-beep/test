@@ -8,11 +8,11 @@
     {
       "id": "de.a1u12.l01", "lang": "de", "type": "dialogue", "cefr": "A1", "unit": "A1-12 考试周", "order": 112010,
       "titleZh": "模拟考:听力",
-      "goalZh": "能听懂考试里常见的短对话、电话留言和广播,抓住时间、地点和数字",
+      "goalZh": "会听考试里的广播、电话留言和短对话,抓住数字、钟点和地点",
       "canDoZh": "能听懂考试里常见的短对话、电话留言和广播,抓住时间、地点和数字",
-      "scenarioZh": "考前一周,瓦格纳老师在课上做模拟听力:一段车站广播、一条电话留言(录音里的女工作人员)和一段短对话;王伟和索菲娅对答案,发现王伟把 vierzig 和 vierzehn 听混了;老师讲技巧:先看题、划关键词,听两遍。说话人:wagner、durchsage、mitarbeiterin、wei、sofia。",
+      "scenarioZh": "考前一周,瓦格纳老师在课上做模拟听力:一段车站广播、一条电话留言(录音里的女工作人员)和一段短对话;王伟和索菲娅对答案,发现王伟把 vierzig 和 vierzehn 听混了;老师讲技巧:先看题、划关键词,听两遍。说话人:wagner、durchsage、mitarbeiterin、wei、sofia。(课文:短对话是录音里的问路,说话人用 passant、passantin;电话留言是图书馆的自动留言。)",
       "grammarFocusZh": "复习数字和钟点(14 / 40、halb drei);听力题里常见的问句(Wann? Wo? Wie viel? Was kostet …?)",
-      "skills": ["listen", "speak"], "estimatedMinutes": 25,
+      "skills": ["listen", "speak"], "estimatedMinutes": 30,
       "newItems": [
         { "id": "de.zweimal", "kind": "word", "pos": "adv", "text": "zweimal", "zh": "两次;两遍", "features": { "ipa": "ˈtsvaɪ̯maːl" }, "noteZh": "数字 + mal 表示“几次”:einmal、zweimal、dreimal;noch einmal = 再一次。zw 读 [tsv]。" },
         { "id": "de.teil", "kind": "word", "pos": "noun", "text": "der Teil", "zh": "部分", "features": { "gender": "m", "plural": "die Teile", "ipa": "taɪ̯l" }, "noteZh": "阳性:der Teil;考试分几个部分:Teil eins, Teil zwei …;ei 读 [aɪ]。" },
@@ -25,7 +25,7 @@
         { "id": "de.uhrzeit", "kind": "word", "pos": "noun", "text": "die Uhrzeit", "zh": "钟点(几点几分)", "features": { "gender": "f", "plural": "die Uhrzeiten", "ipa": "ˈuːɐ̯ˌtsaɪ̯t" }, "noteZh": "die Uhr + die Zeit → die Uhrzeit,专指“几点几分”;一般的“时间”是 die Zeit(Ich habe keine Zeit)。性跟最后一个词 Zeit 走。" },
         { "id": "de.ort", "kind": "word", "pos": "noun", "text": "der Ort", "zh": "地方;地点", "features": { "gender": "m", "plural": "die Orte", "ipa": "ʔɔʁt" }, "noteZh": "阳性:der Ort;听力题常问时间和地点:Zeit und Ort;复合词里很常见:der Wohnort(居住地)、der Geburtsort(出生地)。" }
       ],
-      "reviewItems": []
+      "reviewItems": ["de.ueben", "de.frage", "de.wichtig", "de.vierzig", "de.halb", "de.verspaetung"]
     },
     {
       "id": "de.a1u12.l02", "lang": "de", "type": "vocab", "cefr": "A1", "unit": "A1-12 考试周", "order": 112020,
@@ -96,10 +96,9 @@
       "grammarFocusZh": "复习:dürfen / müssen + man(Man darf kein Wörterbuch benutzen)、钟点和时长、Sie 的命令式",
       "skills": ["read"], "estimatedMinutes": 15,
       "newItems": [
-        { "id": "de.duerfen", "kind": "word", "pos": "verb", "text": "dürfen", "zh": "可以;允许(否定:不许)", "features": { "ipa": "ˈdʏʁfn̩" }, "noteZh": "情态动词:ich darf, du darfst, er darf, wir dürfen, Sie dürfen(ich 和 er 没有词尾);原形放句末:Sie dürfen das Handy nicht benutzen.(不许用手机。)nicht dürfen = 不许,nicht müssen = 不必,别弄混。ü 是短音 [ʏ]。" },
-        { "id": "de.benutzen", "kind": "word", "pos": "verb", "text": "benutzen", "zh": "使用;用", "features": { "ipa": "bəˈnʊtsn̩" }, "noteZh": "be- 不可分、不重读;tz 读 [ts];词干以 tz 结尾,du 只加 -t:du benutzt。" },
         { "id": "de.woerterbuch", "kind": "word", "pos": "noun", "text": "das Wörterbuch", "zh": "词典", "features": { "gender": "n", "plural": "die Wörterbücher", "ipa": "ˈvœʁtɐˌbuːx" }, "noteZh": "die Wörter(词)+ das Buch → das Wörterbuch,性跟 Buch 走;复数 die Wörterbücher;ö 是短音 [œ],嘴唇撅圆发 e。" },
-        { "id": "de.gruppe", "kind": "word", "pos": "noun", "text": "die Gruppe", "zh": "小组;组", "features": { "gender": "f", "plural": "die Gruppen", "ipa": "ˈɡʁʊpə" }, "noteZh": "u 是短音;in der Gruppe(在小组里)、in kleinen Gruppen(分成小组)。" }
+        { "id": "de.gruppe", "kind": "word", "pos": "noun", "text": "die Gruppe", "zh": "小组;组", "features": { "gender": "f", "plural": "die Gruppen", "ipa": "ˈɡʁʊpə" }, "noteZh": "u 是短音;in der Gruppe(在小组里)、in kleinen Gruppen(分成小组)。" },
+        { "id": "de.pause", "kind": "word", "pos": "noun", "text": "die Pause", "zh": "休息;课间", "features": { "gender": "f", "plural": "die Pausen", "ipa": "ˈpaʊ̯zə" }, "noteZh": "au 读 [aʊ],s 在元音前读 [z];eine Pause machen(休息一下);学校的课间休息也叫 Pause。" }
       ],
       "reviewItems": []
     },
@@ -133,12 +132,12 @@
       "skills": ["read", "write", "speak"], "estimatedMinutes": 25,
       "newItems": [
         { "id": "de.fehler", "kind": "word", "pos": "noun", "text": "der Fehler", "zh": "错误", "features": { "gender": "m", "plural": "die Fehler", "ipa": "ˈfeːlɐ" }, "noteZh": "eh 是长音 [eː];复数和单数一样:die Fehler;Das ist kein Fehler.(这不是错误。)" },
+        { "id": "de.wort", "kind": "word", "pos": "noun", "text": "das Wort", "zh": "词;单词", "features": { "gender": "n", "plural": "die Wörter", "ipa": "vɔʁt" }, "noteZh": "中性:das Wort;复数变元音 die Wörter(das Wörterbuch 里的 Wörter 就是它);w 读 [v]。" },
         { "id": "de.stehen", "kind": "word", "pos": "verb", "text": "stehen", "zh": "站;(写)在、放在(某处)", "features": { "ipa": "ˈʃteːən" }, "noteZh": "st 在词首读 [ʃt],h 不发音;说词在句子里的位置也用 stehen:„Nicht“ steht am Ende.(nicht 放在最后。)" },
         { "id": "de.ende", "kind": "word", "pos": "noun", "text": "das Ende", "zh": "结尾;尽头", "features": { "gender": "n", "plural": "die Enden", "ipa": "ˈɛndə" }, "noteZh": "中性:das Ende;am Ende(在最后、在结尾);一般不用复数。" },
         { "id": "de.stimmen", "kind": "word", "pos": "verb", "text": "stimmen", "zh": "(说得)对;符合事实", "features": { "ipa": "ˈʃtɪmən" }, "noteZh": "Das stimmt.(说得对。)Stimmt das?(对吗?)主语一般是 das / es;st 读 [ʃt]。" },
         { "id": "de.mitkommen", "kind": "word", "pos": "verb", "text": "mitkommen", "zh": "一起来;一起去", "features": { "ipa": "ˈmɪtˌkɔmən" }, "noteZh": "可分动词,mit 放句末:Kommst du mit?(你一起去吗?)否定时 nicht 放在 mit 前面:Ich komme nicht mit.;重音在 mit 上。" },
         { "id": "de.ganz", "kind": "word", "pos": "adv", "text": "ganz", "zh": "完全;很;整个", "features": { "ipa": "ɡants" }, "noteZh": "z 读 [ts];ganz am Ende(在最最后面)、ganz gut(挺好)。" },
-        { "id": "de.sondern", "kind": "word", "pos": "conj", "text": "sondern", "zh": "而是", "features": { "ipa": "ˈzɔndɐn" }, "noteZh": "只用在 nicht / kein 后面:nicht heute, sondern morgen(不是今天,而是明天);aber 是“但是”,不要混用。s 读 [z],词尾 -ern 读 [ɐn]。" },
         { "id": "de.glauben", "kind": "word", "pos": "verb", "text": "glauben", "zh": "认为;相信", "features": { "ipa": "ˈɡlaʊ̯bn̩" }, "noteZh": "Ich glaube, das ist richtig.(我觉得这是对的。)说没把握的看法用 glauben,说对东西的评价用 finden(Ich finde das schön)。au 读 [aʊ]。" }
       ],
       "reviewItems": []
@@ -188,9 +187,7 @@
       "grammarFocusZh": "复习:完成时(Ich habe jeden Tag Radio gehört)、denn、情态动词;给建议的说法(Man muss … / Man kann …)",
       "skills": ["read"], "estimatedMinutes": 15,
       "newItems": [
-        { "id": "de.tipp", "kind": "word", "pos": "noun", "text": "der Tipp", "zh": "建议;小窍门", "features": { "gender": "m", "plural": "die Tipps", "ipa": "tɪp" }, "noteZh": "阳性:der Tipp,复数 die Tipps;Hast du einen Tipp für mich?(你有什么建议给我吗?)" },
-        { "id": "de.radio", "kind": "word", "pos": "noun", "text": "das Radio", "zh": "收音机;广播电台", "features": { "gender": "n", "plural": "die Radios", "ipa": "ˈʁaːdi̯o" }, "noteZh": "中性:das Radio;听广播:Radio hören(不加冠词);复数加 -s:die Radios。" },
-        { "id": "de.man", "kind": "word", "pos": "pron", "text": "man", "zh": "人们;大家(泛指)", "features": { "ipa": "man" }, "noteZh": "泛指“人、大家”,动词用 er / sie 的形式:Man muss früh da sein.(要早点到。)中文这类句子常常不说主语,德语要用 man;别和 der Mann(男人)弄混:man 小写、只有一个 n。" }
+        { "id": "de.tipp", "kind": "word", "pos": "noun", "text": "der Tipp", "zh": "建议;小窍门", "features": { "gender": "m", "plural": "die Tipps", "ipa": "tɪp" }, "noteZh": "阳性:der Tipp,复数 die Tipps;Hast du einen Tipp für mich?(你有什么建议给我吗?)" }
       ],
       "reviewItems": []
     }

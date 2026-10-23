@@ -2,7 +2,7 @@
   "id": "ko.a1u2.l01", "schemaVersion": 1, "lang": "ko", "type": "vocab", "cefr": "A1",
   "unit": "A1-2 谚文:收音与问候", "order": 102010,
   "titleZh": "最后一块拼图:复合元音", "goalZh": "会读、会写 7 个复合元音,学完全部 40 个谚文字母",
-  "canDoZh": "能拼读任何不带收音的韩文字,听懂并会问 뭐?(什么?)",
+  "canDoZh": "能拼读任何不带收音的韩文字,听懂并会问 뭐예요?(什么?)",
   "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 27,
   "newItems": [
     { "id": "ko.jamo_wa", "kind": "char", "pos": "char", "text": "ㅘ", "zh": "元音 wa,像“哇”", "features": { "roman": "wa" }, "noteZh": "= ㅗ + ㅏ,快速连成一个音;ㅗ 写在下、ㅏ 写在右:와、과。" },

@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u7.l07", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-7 购物与办事", "order": 107070,
+  "titleZh": "裤子太长了:去商场换货", "goalZh": "能带着小票去换货,说清楚哪里不合适、要换什么", "canDoZh": "能拿着收据去商店换货,说清楚哪里不合适,要换哪个尺码或颜色",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "de.umtauschen", "kind": "word", "pos": "verb", "text": "umtauschen", "zh": "换(货)", "features": { "ipa": "ˈʊmˌtaʊ̯ʃn̩" }, "noteZh": "可分动词,重音在 um 上:Ich tausche die Hose um.(我想换这条裤子。)换货是换一件别的,不是退钱;au 读 [aʊ]。" },
+    { "id": "de.kassenbon", "kind": "word", "pos": "noun", "text": "der Kassenbon", "zh": "购物小票", "features": { "gender": "m", "plural": "die Kassenbons", "ipa": "ˈkasn̩ˌbɔŋ" }, "noteZh": "die Kasse(收银台)+ der Bon(小票),bon 读 [bɔŋ];换货、退货都要带上。" },
+    { "id": "de.kurz", "kind": "word", "pos": "adj", "text": "kurz", "zh": "短", "features": { "ipa": "kʊʁts" }, "noteZh": "z 读 [ts];反义词 lang:zu kurz(太短)– zu lang(太长)。" },
+    { "id": "de.bekommen", "kind": "word", "pos": "verb", "text": "bekommen", "zh": "得到;收到", "features": { "ipa": "bəˈkɔmən" }, "noteZh": "be- 不重读、也不能拆开;小心“假朋友”:bekommen 不是英语的 become(变成),而是“得到”:Ich bekomme eine Bescheinigung.(我拿到一张证明。)" },
+    { "id": "de.ausverkauft", "kind": "word", "pos": "adj", "text": "ausverkauft", "zh": "卖完了;售罄", "features": { "ipa": "ˈaʊ̯sfɛɐ̯ˌkaʊ̯ft" }, "noteZh": "Die Hose ist leider ausverkauft.(这条裤子卖完了。)电影票、火车票卖完了也这么说。" },
+    { "id": "de.mehr", "kind": "word", "pos": "adv", "text": "mehr", "zh": "更多;(nicht mehr)不再", "features": { "ipa": "meːɐ̯" }, "noteZh": "nicht mehr = 不再、没有了:Die Hose gibt es nicht mehr in Schwarz.(黑色的已经没有了。)h 不发音,只表示前面的 e 读长音。" }
+  ],
+  "reviewItems": ["de.hose", "de.lang", "de.zu_adv", "de.nummer", "de.groesse", "de.blau"],
+  "lines": [
+    { "speaker": "verkaeufer", "text": "Guten Tag! Kann ich Ihnen helfen?", "zh": "(星期六,商场)您好!需要帮忙吗?", "items": ["de.guten_tag", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
+    { "speaker": "wei", "text": "Guten Tag! Ich möchte die Hose umtauschen. Sie ist zu lang.", "zh": "您好!我想换一下这条裤子。它太长了。", "items": ["de.guten_tag", "de.ich", "de.moechten", "de.hose", "de.umtauschen", "de.sie_sg", "de.sein", "de.zu_adv", "de.lang"] },
+    { "speaker": "verkaeufer", "text": "Haben Sie den Kassenbon?", "zh": "您带小票了吗?", "items": ["de.haben", "de.sie_hoeflich", "de.kassenbon"] },
+    { "speaker": "wei", "text": "Ja, hier ist der Kassenbon. Die Hose ist in Schwarz, Größe M.", "zh": "带了,这是小票。这条裤子是黑色的,M 号。", "items": ["de.ja", "de.hier", "de.sein", "de.kassenbon", "de.hose", "de.in", "de.schwarz", "de.groesse"] },
+    { "speaker": "verkaeufer", "text": "Gut, dann tauschen wir sie um. Möchten Sie eine Nummer kleiner?", "zh": "好,那我们给您换。您要小一号的吗?", "items": ["de.gut", "de.dann", "de.umtauschen", "de.wir", "de.sie_sg", "de.moechten", "de.sie_hoeflich", "de.ein", "de.nummer", "de.klein"] },
+    { "speaker": "wei", "text": "Ja, bitte. Größe S, auch in Schwarz.", "zh": "要的,麻烦您。S 号,也要黑色的。", "items": ["de.ja", "de.bitte", "de.groesse", "de.auch", "de.in", "de.schwarz"] },
+    { "speaker": "verkaeufer", "text": "In Schwarz ist Größe S leider ausverkauft. Wir haben sie nicht mehr.", "zh": "黑色的 S 号已经卖完了,我们没有了。", "items": ["de.in", "de.schwarz", "de.sein", "de.groesse", "de.leider", "de.ausverkauft", "de.wir", "de.haben", "de.sie_sg", "de.nicht", "de.mehr"] },
+    { "speaker": "wei", "text": "Und in Blau? Gibt es die Hose in Blau?", "zh": "那蓝色的呢?这条裤子有蓝色的吗?", "items": ["de.und", "de.in", "de.blau", "de.es_gibt", "de.hose"] },
+    { "speaker": "verkaeufer", "text": "Ja, in Blau gibt es sie noch. Hier, bitte!", "zh": "有,蓝色的还有。给您!", "items": ["de.ja", "de.in", "de.blau", "de.es_gibt", "de.sie_sg", "de.noch", "de.hier", "de.bitte"] },
+    { "speaker": "wei", "text": "Sie ist nicht zu kurz und nicht zu lang. Ich nehme sie!", "zh": "(王伟试了一下)不短也不长。就要这条了!", "items": ["de.sie_sg", "de.sein", "de.nicht", "de.zu_adv", "de.kurz", "de.und", "de.lang", "de.ich", "de.nehmen"] },
+    { "speaker": "verkaeufer", "text": "Gut! Im Januar können Sie nur umtauschen. Geld bekommen Sie nicht.", "zh": "好的!一月打折的东西只能换,不能退钱。", "items": ["de.gut", "de.in", "de.januar", "de.koennen", "de.sie_hoeflich", "de.nur", "de.umtauschen", "de.geld", "de.bekommen", "de.nicht"] },
+    { "speaker": "wei", "text": "Das ist gut. Danke, auf Wiedersehen!", "zh": "没问题。谢谢,再见!", "items": ["de.das_ist", "de.gut", "de.danke", "de.auf_wiedersehen"] }
+  ],
+  "questions": [
+    { "prompt": "王伟为什么要换裤子?", "options": ["颜色不好看", "裤子太短了", "裤子太长了"], "answer": 2, "explainZh": "Ich möchte die Hose umtauschen. Sie ist zu lang.(我想换这条裤子,它太长了。)zu lang = 太长。" },
+    { "prompt": "黑色 S 号的裤子怎么了?", "options": ["卖完了", "太贵了", "太长了"], "answer": 0, "explainZh": "In Schwarz ist Größe S leider ausverkauft. Wir haben sie nicht mehr.(黑色 S 号卖完了,没有了。)" },
+    { "prompt": "最后王伟换了一条什么样的裤子?", "options": ["黑色,M 号", "蓝色,S 号", "黑色,S 号"], "answer": 1, "explainZh": "黑色 S 号卖完了,王伟问 Gibt es die Hose in Blau?,店员拿来了蓝色的小一号,王伟说 Ich nehme sie!" },
+    { "prompt": "店员最后提醒了什么?", "options": ["换货要另外付钱", "一月打折的东西只能换,不能退钱", "下个月才能来换"], "answer": 1, "explainZh": "Im Januar können Sie nur umtauschen. Geld bekommen Sie nicht.(一月只能换货,拿不到退款。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.u7_umtauschen", "titleZh": "换货的说法:umtauschen、zu lang / zu kurz、eine Nummer kleiner",
+      "bodyZh": "说要换货:Ich möchte die Hose umtauschen.(möchte 在第二位,umtauschen 用原形放句末。)不用 möchte 时,um 放句末:Wir tauschen die Hose um.\n说哪里不合适,用 zu + 形容词(太……):zu lang(太长)、zu kurz(太短)、zu groß(太大)、zu klein(太小)。\n要换尺码:eine Nummer kleiner(小一号)、eine Nummer größer(大一号),这里的 kleiner / größer 是“更小 / 更大”,先当固定说法记。\n东西没有了:Die Hose ist ausverkauft.(卖完了)/ Wir haben sie nicht mehr.(没有了)。\n易错:umtauschen 是换货,不是退钱;德国很多商店打折的东西只能换(或者换成购物券),不退钱,买之前可以先问清楚。",
+      "examples": [
+        { "text": "Ich möchte die Hose umtauschen.", "zh": "我想换一下这条裤子。" },
+        { "text": "Die Hose ist zu lang.", "zh": "这条裤子太长了。" },
+        { "text": "Möchten Sie eine Nummer kleiner?", "zh": "您要小一号的吗?" }
+      ] },
+    { "id": "de.g.u7_sie_kleidung", "titleZh": "复习:ihn / sie / es 指衣服,跟着名词的性走",
+      "bodyZh": "说过一次的衣服,第二次用代词,代词跟着名词的性走:die Hose → sie,der Pullover → ihn(做宾语时),das Hemd → es。\nDie Hose passt. Ich nehme sie!(这条裤子合身,我就要它了!)\n中国学生常把东西都说成 es,这是错的:Ich nehme es 只能指中性名词(das Hemd)。\n复数的衣服也用 sie:Die Schuhe sind schön. Ich nehme sie!",
+      "examples": [
+        { "text": "Die Hose passt gut. Ich nehme sie!", "zh": "这条裤子很合身。我就要它了!" },
+        { "text": "Der Pullover ist schön. Ich nehme ihn!", "zh": "这件毛衣很好看。我就要它了!" },
+        { "text": "Das Hemd ist zu klein. Ich tausche es um.", "zh": "这件衬衫太小了。我去换一件。" }
+      ] }
+  ],
+  "review": "draft"
+}

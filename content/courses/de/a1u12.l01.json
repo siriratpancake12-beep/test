@@ -1,0 +1,48 @@
+{
+  "id": "de.a1u12.l01", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-12 考试周", "order": 112010,
+  "titleZh": "模拟考:听力", "goalZh": "会听考试里的广播、电话留言和短对话,抓住数字、钟点和地点", "canDoZh": "能听懂考试里常见的短对话、电话留言和广播,抓住时间、地点和数字",
+  "skills": ["listen", "speak"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "de.zweimal", "kind": "word", "pos": "adv", "text": "zweimal", "zh": "两次;两遍", "features": { "ipa": "ˈtsvaɪ̯maːl" }, "noteZh": "数字 + mal 表示“几次”:einmal、zweimal、dreimal;noch einmal = 再一次。zw 读 [tsv]。" },
+    { "id": "de.teil", "kind": "word", "pos": "noun", "text": "der Teil", "zh": "部分", "features": { "gender": "m", "plural": "die Teile", "ipa": "taɪ̯l" }, "noteZh": "阳性:der Teil;考试分几个部分:Teil eins, Teil zwei …;ei 读 [aɪ]。" },
+    { "id": "de.antwort", "kind": "word", "pos": "noun", "text": "die Antwort", "zh": "回答;答案", "features": { "gender": "f", "plural": "die Antworten", "ipa": "ˈantvɔʁt" }, "noteZh": "重音在 Ant 上,w 读 [v];和 die Frage 成对记:Meine Antwort ist b.(我的答案是 b。)" },
+    { "id": "de.richtig", "kind": "word", "pos": "adj", "text": "richtig", "zh": "对;正确", "features": { "ipa": "ˈʁɪçtɪç" }, "noteZh": "词尾 -ig 读 [ɪç],和 ich 的 ch 一样;Das ist richtig!(对!)Richtig oder falsch?(对还是错?)是考试的常见题型。" },
+    { "id": "de.falsch", "kind": "word", "pos": "adj", "text": "falsch", "zh": "错;错误", "features": { "ipa": "falʃ" }, "noteZh": "sch 读 [ʃ];Das ist falsch.(这是错的。)反义词 richtig。" },
+    { "id": "de.zahl", "kind": "word", "pos": "noun", "text": "die Zahl", "zh": "数字;数", "features": { "gender": "f", "plural": "die Zahlen", "ipa": "tsaːl" }, "noteZh": "z 读 [ts],ah 是长音;die Zahl 是“数、数字”,电话号码、门牌号的“号码”是 die Nummer。" },
+    { "id": "de.durchsage", "kind": "word", "pos": "noun", "text": "die Durchsage", "zh": "广播(通知)", "features": { "gender": "f", "plural": "die Durchsagen", "ipa": "ˈdʊʁçˌzaːɡə" }, "noteZh": "车站、车厢、超市里的广播通知;收音机节目是 das Radio。durch 的 ch 在 r 后面读 [ç],s 在元音前读 [z]。" },
+    { "id": "de.gespraech", "kind": "word", "pos": "noun", "text": "das Gespräch", "zh": "谈话;对话", "features": { "gender": "n", "plural": "die Gespräche", "ipa": "ɡəˈʃpʁɛːç" }, "noteZh": "ge 不重读,重音在 spräch 上;sp 读 [ʃp],ä 是长音,词尾 ch 读 [ç]。中性:das Gespräch。" },
+    { "id": "de.uhrzeit", "kind": "word", "pos": "noun", "text": "die Uhrzeit", "zh": "钟点(几点几分)", "features": { "gender": "f", "plural": "die Uhrzeiten", "ipa": "ˈuːɐ̯ˌtsaɪ̯t" }, "noteZh": "die Uhr + die Zeit → die Uhrzeit,专指“几点几分”;一般的“时间”是 die Zeit(Ich habe keine Zeit)。性跟最后一个词 Zeit 走。" },
+    { "id": "de.ort", "kind": "word", "pos": "noun", "text": "der Ort", "zh": "地方;地点", "features": { "gender": "m", "plural": "die Orte", "ipa": "ʔɔʁt" }, "noteZh": "阳性:der Ort;听力题常问时间和地点:Zeit und Ort;复合词里很常见:der Wohnort(居住地)、der Geburtsort(出生地)。" }
+  ],
+  "reviewItems": ["de.ueben", "de.frage", "de.wichtig", "de.vierzig", "de.halb", "de.verspaetung"],
+  "lines": [
+    { "speaker": "wagner", "text": "Heute üben wir Hören. Sie hören jeden Teil zweimal.", "zh": "今天我们练听力。每一部分都放两遍。", "items": ["de.heute", "de.ueben", "de.wir", "de.hoeren", "de.sie_hoeflich", "de.jeder", "de.teil", "de.zweimal"] },
+    { "speaker": "durchsage", "text": "Gleis zwei: Der Zug nach Köln hat vierzig Minuten Verspätung.", "zh": "(录音,车站广播)2 号站台:开往科隆的火车晚点四十分钟。", "items": ["de.gleis", "de.zwei", "de.zug", "de.nach", "de.haben", "de.vierzig", "de.minute", "de.verspaetung"] },
+    { "speaker": "mitarbeiterin", "text": "Guten Tag, hier ist die Bibliothek.", "zh": "(录音,电话留言)您好,这里是图书馆。", "items": ["de.guten_tag", "de.hier", "de.sein", "de.bibliothek"] },
+    { "speaker": "mitarbeiterin", "text": "Wir haben morgen nur bis halb drei geöffnet.", "zh": "我们明天只开到两点半。", "items": ["de.wir", "de.haben", "de.morgen", "de.nur", "de.bis", "de.halb", "de.drei", "de.geoeffnet"] },
+    { "speaker": "passant", "text": "Entschuldigung, wo ist hier die Post?", "zh": "(录音,短对话)打扰一下,这附近的邮局在哪儿?", "items": ["de.entschuldigung", "de.wo", "de.sein", "de.hier", "de.post"] },
+    { "speaker": "passantin", "text": "Gehen Sie geradeaus. Die Post ist an der Ampel links.", "zh": "您一直往前走。邮局在红绿灯那儿,左边。", "items": ["de.gehen", "de.sie_hoeflich", "de.geradeaus", "de.post", "de.sein", "de.an", "de.ampel", "de.links"] },
+    { "speaker": "sofia", "text": "Frage eins, die Durchsage: Wie viel Verspätung hat der Zug?", "zh": "第一题,广播:火车晚点多久?", "items": ["de.frage", "de.eins", "de.durchsage", "de.wie_viel", "de.verspaetung", "de.haben", "de.zug"] },
+    { "speaker": "wei", "text": "Meine Antwort: vierzehn Minuten.", "zh": "我的答案是:十四分钟。", "items": ["de.mein", "de.antwort", "de.vier", "de.zehn", "de.minute"] },
+    { "speaker": "sofia", "text": "Nein, das ist falsch. Vierzig, nicht vierzehn!", "zh": "不对,这是错的。是四十,不是十四!", "items": ["de.nein", "de.das_ist", "de.falsch", "de.vierzig", "de.nicht", "de.vier", "de.zehn"] },
+    { "speaker": "wei", "text": "Aber Frage zwei habe ich richtig: halb drei, das ist 14:30.", "zh": "不过第二题我答对了:halb drei,就是 14:30。", "items": ["de.aber", "de.frage", "de.zwei", "de.haben", "de.ich", "de.richtig", "de.halb", "de.drei", "de.das_ist", "de.vier", "de.zehn", "de.dreissig"] },
+    { "speaker": "wei", "text": "Und im Gespräch: Die Post ist an der Ampel links.", "zh": "还有对话那题:邮局在红绿灯那儿,左边。", "items": ["de.und", "de.in", "de.gespraech", "de.post", "de.sein", "de.an", "de.ampel", "de.links"] },
+    { "speaker": "wagner", "text": "Richtig! Lesen Sie vor dem Hören die Fragen. Wichtig: Zahlen, Uhrzeiten, Orte!", "zh": "对!听之前先读题。要特别注意:数字、钟点、地点!", "items": ["de.richtig", "de.lesen", "de.sie_hoeflich", "de.vor", "de.hoeren", "de.frage", "de.wichtig", "de.zahl", "de.uhrzeit", "de.ort"] }
+  ],
+  "questions": [
+    { "prompt": "广播里说,开往科隆的火车晚点多久?", "options": ["14 分钟", "4 分钟", "40 分钟"], "answer": 2, "explainZh": "广播说:Der Zug nach Köln hat vierzig Minuten Verspätung.(晚点四十分钟。)王伟把 vierzig(40)听成了 vierzehn(14)。" },
+    { "prompt": "图书馆明天开到几点?", "options": ["14:30", "15:30", "13:30"], "answer": 0, "explainZh": "电话留言说:Wir haben morgen nur bis halb drei geöffnet. halb drei 是“往三点走的那半小时”,也就是 2:30,下午就是 14:30。" },
+    { "prompt": "瓦格纳老师提醒大家怎么做?", "options": ["每段录音只听一遍", "听之前先读题,特别注意数字、钟点和地点", "先写答案,再看题"], "answer": 1, "explainZh": "老师说:Lesen Sie vor dem Hören die Fragen. Wichtig: Zahlen, Uhrzeiten, Orte!(听之前先读题。要注意数字、钟点、地点!)她一开始也说了每部分放两遍(zweimal)。" }
+  ],
+  "grammar": [
+    { "id": "de.g.u12_hoeren", "titleZh": "听力抓关键信息:数字、钟点和问句",
+      "bodyZh": "听力题问的多半是这几样:Wann?(什么时候)/ Bis wann?(到几点)/ Wo?(在哪儿)/ Wie viel?(多少)/ Was kostet …?(多少钱)。听之前先读题,知道要听哪一个信息,听的时候只盯住它。\n① 13–19 是“个位 + zehn”:vierzehn = 14;20–90 是“个位 + zig”:vierzig = 40(30 写成 dreißig)。两种数的重音都在前面(VIERzehn / VIERzig),区别在词尾:-zehn [tseːn] 带一个长长的 e,-zig [tsɪç] 结尾像 ich。\n② halb 后面跟的是“下一个钟点”:halb drei = 2:30,不是 3:30。车站、广播和营业时间常用 24 小时制:14:30 = vierzehn Uhr dreißig。\n③ 考试里每段录音放几遍,题目说明里会写清楚;这次模拟考每部分都放两遍。",
+      "examples": [
+        { "text": "Der Zug hat vierzig Minuten Verspätung.", "zh": "火车晚点四十分钟。" },
+        { "text": "Halb drei, das ist 14:30.", "zh": "halb drei 就是 14:30。" },
+        { "text": "Bis wann ist die Bibliothek geöffnet?", "zh": "图书馆开到几点?" }
+      ] }
+  ],
+  "review": "draft"
+}
