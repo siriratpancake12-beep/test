@@ -87,9 +87,12 @@ export function lessonPractice(lesson: Lesson, pool: Item[], pack: LanguagePack,
   for (const { line, t } of shuffle(reorderable, rand).slice(0, 2)) {
     out.push({ type: "reorder", lineText: line.text, zh: line.zh, tiles: shuffle(t, rand), answer: t });
   }
-  // 开口说挑一句不长不短的:太短的(比如信的开头 "Querido Diego:")练不到什么
+  // 开口说挑一句不长不短的:太短的(比如信的开头 "Querido Diego:")练不到什么;
+  // 优先挑主角的句子——学习者代入的是主角,要练的是自己会说的话
+  const hero = pack.protagonist ?? Object.keys(pack.cast ?? {})[0];
   const short = lesson.lines.filter((l) => l.text.length <= 60);
-  const speakLine = short.find((l) => (l.tokens?.length ?? splitTiles(l.text).length) >= 4) ?? short[0];
+  const enough = (l: Line) => (l.tokens?.length ?? splitTiles(l.text).length) >= 4;
+  const speakLine = short.find((l) => l.speaker === hero && enough(l)) ?? short.find(enough) ?? short[0];
   if (speakLine) out.push({ type: "speak", text: speakLine.text, zh: speakLine.zh });
   return out;
 }

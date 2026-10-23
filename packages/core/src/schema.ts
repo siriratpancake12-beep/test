@@ -151,6 +151,8 @@ export const LanguagePack = z.object({
    * 课文里的 speaker 必须出自这里(或 narrator 旁白)。App 按性别选朗读声音。
    */
   cast: z.record(z.string(), z.object({ name: z.string(), nameZh: z.string(), gender: z.enum(["f", "m"]), bioZh: z.string().optional() })).optional(),
+  /** 主角(学习者代入的人)的 cast id;不写就是 cast 里的第一个。"开口说"优先挑主角的句子 */
+  protagonist: z.string().optional(),
   /** 主流考试,用于考试方向的课程线 */
   examsZh: z.array(z.string()).default([]),
   /** 给中国学习者的总体难点提示 */

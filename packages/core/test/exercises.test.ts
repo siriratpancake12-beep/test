@@ -78,6 +78,15 @@ describe("练习生成", () => {
     expect(speak && speak.type === "speak" && speak.text).not.toBe("Lieber Jonas,");
   });
 
+  it("开口说优先挑主角的句子", () => {
+    const l = structuredClone(de[0]!);
+    const other = { ...l.lines[0]!, speaker: "lena", text: "Hallo, ich bin Lena aus Berlin." };
+    const mine = { ...l.lines[0]!, speaker: "wei", text: "Hallo, ich bin Wei aus China." };
+    l.lines = [other, mine];
+    const speak = lessonPractice(l, dePool, pack("de"), 1).find((e) => e.type === "speak");
+    expect(speak && speak.type === "speak" && speak.text).toBe("Hallo, ich bin Wei aus China.");
+  });
+
   it("排序题和开口说", () => {
     const ex = lessonPractice(de[0]!, dePool, pack("de"), 3);
     const r = ex.find((e) => e.type === "reorder");
