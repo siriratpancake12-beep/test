@@ -1,0 +1,1421 @@
+{
+  "lang": "es",
+  "units": [
+    {
+      "id": "a1u1",
+      "unit": "A1-1 ¡Hola!",
+      "cefr": "A1",
+      "themeZh": "初到马德里的第一周:打招呼、介绍名字和国籍、认识来自各国的同学、拼写名字、交换电话、接第一个西语电话、说年龄,最后在前台独立登记个人信息。",
+      "grammarZh": "主语代词 yo / tú、ser 的单数变位、国籍形容词的阴阳性(新增 -és → -esa、-án → -ana)、字母和拼读规则、tener 说年龄、数字 0–20,电话里用 Soy + 名字自报姓名。",
+      "pronunciationZh": "五个元音发音固定,拼读规则在 1-3 集中讲(h 不发音、c / z 读 [θ]、j / g 读 [x]、ll / y、ñ、r / rr、b = v、重音规则),之后每课反复提示。",
+      "lessons": [
+        {
+          "id": "es.a1u1.r01",
+          "type": "reading",
+          "titleZh": "欢迎会的留言墙",
+          "canDoZh": "能读懂几张简单的自我介绍便签,说出每个人叫什么、是哪国人、来自哪个城市",
+          "scenarioZh": "体裁:便签。国际学生欢迎会的门口有一面留言墙,每个新同学贴一张便签:¡Hola! Me llamo… Soy… Soy de…,有的还写了手机号。李娜、Diego、Javier 和另外三四位同学(只出现名字)的便签放在一起读。只用 l01–l04 的内容:国家只有中国、西班牙和墨西哥,号码里只用 1–9(0 在 l08 才学),不写年龄(l05 才学)。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 me llamo、soy、ser de + 城市、国籍的阴阳性(chino / china、español / española);问号和感叹号前后都要写(¡Hola!);号码一位一位地读"
+        },
+        {
+          "id": "es.a1u1.l06",
+          "type": "vocab",
+          "titleZh": "班上的同学来自世界各地",
+          "canDoZh": "能说出更多国家和国籍,问同学是哪国人、来自哪里",
+          "scenarioZh": "第二节西语课,安德烈斯老师在墙上挂了一张世界地图,让每个人把名字贴在自己的国家上。老师指着地图问 ¿De dónde es Yuki?,李娜一个个回答:Yuki 是日本人,Min-jun 是韩国人,Paul 是法国人,Anna 是德国人,Marco 是意大利人,Emily 是美国人。同学只出现名字,不说话。说话人:andres、lina。",
+          "grammarFocusZh": "国家名大写、国籍小写;国籍形容词的几种变化:-o → -a(italiano / italiana、coreano / coreana),辅音结尾加 -a(francés → francesa、alemán → alemana、japonés → japonesa,加 -a 以后重音符号去掉),-e 结尾男女同形(estadounidense);el país;复习 ser de + 国家"
+        },
+        {
+          "id": "es.a1u1.l07",
+          "type": "dialogue",
+          "titleZh": "第一个西语电话",
+          "canDoZh": "能接打一个简单的电话:接听、自报姓名、听写对方报的号码,听不清时请对方重复",
+          "scenarioZh": "晚上李娜的手机响了,是 Diego:他想要 Javier 的手机号。李娜接电话说 ¿Sí?,Diego 说 Hola, Li Na, soy Diego。李娜一位一位地报 Javier 的号码(691 355 827,见 es.facts.md),Diego 听错了一个数字,请她再说一遍、说慢一点,最后两个人核对一遍。号码里仍然不出现 0,也不用 De nada、Hasta luego(都在 l08 才学),结束时说 Gracias 和 Adiós。说话人:diego、lina。",
+          "grammarFocusZh": "西班牙人接电话说 ¿Sí? 或 ¿Diga?(拉美的说法只写在 noteZh);电话里自报姓名用 Soy + 名字,不说 Me llamo;Un momento(稍等);el número;复习 ¿Puedes repetir?、Más despacio 和数字 1–10"
+        },
+        {
+          "id": "es.a1u1.r02",
+          "type": "reading",
+          "titleZh": "西语班的群聊",
+          "canDoZh": "能读懂群聊里的自我介绍,找出每个人的名字、国籍、年龄和电话",
+          "scenarioZh": "体裁:群聊消息。安德烈斯老师建了西语班的聊天群,先发一条欢迎消息;同学们一个接一个用两三句话介绍自己:名字(有的还拼了一遍)、哪国人、多大、手机号(这次号码里可以有 0)。李娜最后发:Hola, me llamo Li Na. Soy china, de Chengdú. Tengo veinte años…,并说 Hasta luego。同学只出现名字。说话人用 narrator,李娜那条用 lina。至少 8 句。",
+          "grammarFocusZh": "复习全单元:me llamo、ser、tener … años、国籍(包括 l06 的新国家)、数字 0–20 和电话号码;群聊里的问候和告别(¡Hola!、Hasta luego)"
+        }
+      ]
+    },
+    {
+      "id": "a1u2",
+      "unit": "A1-2 家人与朋友",
+      "cefr": "A1",
+      "themeZh": "介绍家人和朋友:看全家福、说兄弟姐妹和年龄、描述长相和性格、说家人做什么工作和会说什么语言、猜职业、读找语伴的小广告。",
+      "grammarZh": "tener、un / una 和名词复数、mi / tu / su、este / esta、él / ella / nosotros / ellos、形容词的性数配合(新增 -or → -ora)、muy / bastante + 形容词、-ar 规则动词、数字到 100、职业名词的阴阳性(-ista 男女同形)。",
+      "pronunciationZh": "分清咬舌的 [θ] 和不咬舌的 [s]:cinco、doce、cincuenta、cien 咬舌,seis、siete、sesenta 不咬舌,sesenta 和 setenta 别混。",
+      "lessons": [
+        {
+          "id": "es.a1u2.r01",
+          "type": "reading",
+          "titleZh": "Javier 的家谱图",
+          "canDoZh": "能读懂一张家谱图的说明,说出每个人和 Javier 是什么关系、多大、长什么样",
+          "scenarioZh": "体裁:家谱图配文。Javier 为中文课画了一张家谱图,下面用西语写了说明给李娜看:爷爷奶奶、爸爸妈妈、两个哥哥、一个妹妹,还有叔叔和几个表兄弟,每人一句,说年龄或长相(Mi hermana es alta y muy simpática.)。只用 l01–l04 的内容,工作 l05 才学,先不写。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习家庭成员名词的阴阳性和复数、mi / su、tener … años 和数字到 100、ser + 长相形容词的性数配合"
+        },
+        {
+          "id": "es.a1u2.l06",
+          "type": "vocab",
+          "titleZh": "你弟弟是个什么样的人?",
+          "canDoZh": "能用几个形容词说家人的性格,比如勤快、严肃、害羞、话多、聪明",
+          "scenarioZh": "语言交换时,Javier 说起家里每个人的性格:当医生的大哥很勤快,二哥很严肃,妹妹挺害羞;李娜说十岁的弟弟话特别多、很聪明,也很调皮。两个人互相问 ¿Y tu madre? ¿Cómo es?,用本课的形容词回答。说话人:javier、lina。",
+          "grammarFocusZh": "ser + 性格形容词(Es trabajador. Es muy habladora.);-or 结尾的形容词阴性加 -a(trabajador → trabajadora、hablador → habladora);bastante + 形容词(挺……)和 2-4 的 muy 对比;描述性格同样不用伤人的词"
+        },
+        {
+          "id": "es.a1u2.l07",
+          "type": "grammar",
+          "titleZh": "猜猜他做什么工作",
+          "canDoZh": "能说出常见的职业,问别人做什么工作、在哪儿工作",
+          "scenarioZh": "西语课上,安德烈斯老师玩'猜职业':他用手势表演端盘子、开车、写新闻、指挥交通,李娜猜 ¿Es camarero? ¿Es taxista?;然后老师说几个人在哪儿工作(Trabaja en un restaurante / en un hospital),让李娜说出职业,最后李娜说爸爸妈妈的工作。说话人:andres、lina。",
+          "grammarFocusZh": "复习 2-5 的职业阴阳性(médico / médica、profesor / profesora),补充:-ista 和 -e 结尾男女同形(el / la periodista、el / la taxista、el / la estudiante),el policía / la policía;ser + 职业不加冠词(Es enfermera.);trabajar de + 职业 / trabajar en + 地点"
+        },
+        {
+          "id": "es.a1u2.r02",
+          "type": "reading",
+          "titleZh": "公告栏上的语伴广告",
+          "canDoZh": "能读懂几则找语伴的小广告,选出最合适的一位",
+          "scenarioZh": "体裁:公告栏小广告。语言中心门口的公告栏上有三则找语伴的广告,作者是马德里本地学生(只出现名字):叫什么、多大、学什么、会说什么语言、家里有几口人、性格怎么样。Diego 想练英语,李娜帮他挑一个会说英语、性格开朗的人。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元:tener、ser + 性格 / 长相、-ar 动词(hablo、estudio、trabajo)、物主形容词和名词复数;广告里常省略主语"
+        }
+      ]
+    },
+    {
+      "id": "a1u3",
+      "unit": "A1-3 我的住处",
+      "cefr": "A1",
+      "themeZh": "搬进合租公寓:说房间和家具、东西放在哪儿、布置自己的小房间、认识房东和街区、向同学介绍自己在成都的家、写邮件介绍新家。",
+      "grammarZh": "hay、estar 说位置和方位短语、de + el = del、hay 与 estar 的区别、usted、-ir 动词 vivir、ser / estar + 形容词、poner(pongo)、楼层的说法(el piso veinte、la planta)。",
+      "pronunciationZh": "ñ 读 [ɲ](baño、compañero、pequeño),hay 的 [ai] 要一口气读成一个音节,habitación、hay 里的 h 不发音。",
+      "lessons": [
+        {
+          "id": "es.a1u3.r01",
+          "type": "reading",
+          "titleZh": "Marta 的欢迎便条",
+          "canDoZh": "能读懂室友留下的便条,找到钥匙和各种东西在哪儿",
+          "scenarioZh": "体裁:便条。一天晚上 Marta 去上夜班以前,在厨房的桌子上给李娜留了一张便条:新椅子已经放在她的房间里,门的备用钥匙在厨房的抽屉里,她的书和电脑先放在沙发旁边;最后写:楼下的 Doña Pilar 就是我们的房东,她在这个街区住了很多年,人很好,有事可以找她(3-4 里 Pilar 只说自己是 tu vecina,李娜读了便条才知道她是房东)。只用 l01–l04 的内容。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 hay / estar + 方位短语、vivir 的第三人称、usted 的变位;la dueña(房东);便条的开头(Hola, Li Na:)和结尾署名"
+        },
+        {
+          "id": "es.a1u3.l06",
+          "type": "vocab",
+          "titleZh": "布置我的小房间",
+          "canDoZh": "能说出房间里的小家具和装饰,和别人商量把它们放在哪儿",
+          "scenarioZh": "周六,Marta 帮李娜布置她的小房间:从楼下 Doña Pilar 那儿借来一盏台灯、一面镜子和一个小书架,又买了一盆植物。两个人商量:台灯放在桌子上,书架放在床旁边,镜子挂在门后,植物放在窗边,墙上贴一张成都的照片。说话人:lina、marta。",
+          "grammarFocusZh": "poner(放):第一人称 pongo 不规则,其他人称规则(pones、pone…),和 tengo 一样是 -go 动词;¿Dónde pongo la lámpara? 问放哪儿;en la pared(在墙上);复习方位短语 encima de、al lado de、detrás de"
+        },
+        {
+          "id": "es.a1u3.l07",
+          "type": "dialogue",
+          "titleZh": "我在成都的家",
+          "canDoZh": "能向别人介绍自己在家乡的住处:住什么样的楼、几层、有几个房间、在城市的哪儿",
+          "scenarioZh": "西语课上,安德烈斯老师让每个同学介绍自己在家乡的家。李娜说:她家在成都的一栋高楼里,住二十层,有两部电梯;家里有三间卧室、一个大客厅和一个小阳台,离市中心不远。老师问她更喜欢哪个家,李娜说马德里的房间很小,也没有电梯,但是光线很好。说话人:andres、lina。",
+          "grammarFocusZh": "el piso 有两个意思:一套公寓 / 楼层(Vivo en el piso veinte),楼层也常说 la planta;十层以上直接用基数词;el edificio、el balcón;复习 vivir、hay、ser / estar + 形容词和 pero"
+        },
+        {
+          "id": "es.a1u3.r02",
+          "type": "reading",
+          "titleZh": "Diego 的回信",
+          "canDoZh": "能读懂一封朋友的回信,了解他住的学生宿舍是什么样",
+          "scenarioZh": "体裁:邮件。收到李娜介绍新家的邮件(l08)以后,Diego 回信 Querida Li Na: …:他住在学生宿舍,房间很小,有一张床、一张桌子和一个衣柜,卫生间和室友共用;宿舍离大学很近,离市中心很远;室友是一个很安静的法国男生。最后问她住在哪条街,结尾 Un abrazo, Diego。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元:hay / estar、ser / estar + 形容词、cerca de / lejos de、vivir;邮件的格式(Querida + 名字 + 冒号、Un abrazo);compartir(共用)"
+        }
+      ]
+    },
+    {
+      "id": "a1u4",
+      "unit": "A1-4 吃喝",
+      "cefr": "A1",
+      "themeZh": "在马德里吃喝:酒吧早餐、tapas、菜市场、今日套餐、超市购物、给室友做中国菜、教大家用筷子,最后四个人一起点餐结账。",
+      "grammarZh": "querer(e→ie)、poder(o→ue)、vosotros、-er 规则动词、点餐和付款的固定说法、序数词 primero / segundo、容器和数量的说法(una botella de agua)、No, nada más、bien / mal 修饰动词,以及请人递东西的 ¿Me pasas…?。",
+      "pronunciationZh": "食物名称里的难点:jamón 的 j 读 [x],zumo 的 z 读 [θ],queso、quiero 的 qu 读 [k](u 不发音),tortilla 的 ll 读 [ʝ]。",
+      "lessons": [
+        {
+          "id": "es.a1u4.r01",
+          "type": "reading",
+          "titleZh": "两家餐馆的今日套餐",
+          "canDoZh": "能看懂餐馆门口的今日套餐牌,说出有哪些菜、多少钱",
+          "scenarioZh": "体裁:菜单。大学附近两家小餐馆门口的黑板上写着今日套餐:第一道菜(沙拉、汤……)、第二道菜(鸡肉、鱼、肉)、甜点(水果、奶酪……)、饮料(水或果汁)和价格(一家 11 欧,一家 12 欧 50)。理解题用中文问:哪家有鱼?哪家贵一点?课文只列菜单。说话人用 narrator。至少 6 句(菜单的每一行算一句)。",
+          "grammarFocusZh": "复习 de primero / de segundo / de postre、primer plato、价格的读法(doce euros con cincuenta);菜单上的名词短语(Primeros: ensalada o sopa)"
+        },
+        {
+          "id": "es.a1u4.l06",
+          "type": "vocab",
+          "titleZh": "去超市买东西",
+          "canDoZh": "能在超市说出瓶装、盒装、罐装等数量,找到要买的东西,在收银台结账",
+          "scenarioZh": "晚上李娜一个人去家附近的超市,手里拿着 Marta 写的购物清单:两瓶水、一盒牛奶、两罐番茄、一袋米、半打鸡蛋、一块奶酪。牛奶找不到,她问收银员在哪儿;结账时收银员问她要不要袋子(¿Quieres bolsa?),告诉她一共多少钱。supermercado 6-1 才学,台词里不说这个词;pagar 4-8 才学,只用 ¿Cuánto es?。收银员最后问 ¿Algo más?,李娜说 No, nada más, gracias。说话人:lina、cajera。",
+          "grammarFocusZh": "容器 + de + 名词:una botella de agua、un paquete de arroz、una lata de tomate、un cartón de leche、una docena / media docena de huevos;la bolsa;¿Dónde está(n)…? 问东西的位置;No, nada más(nada = 什么也不,先当固定说法,10-5 系统讲 algo / nada);收银员对年轻顾客多用 tú"
+        },
+        {
+          "id": "es.a1u4.l07",
+          "type": "vocab",
+          "titleZh": "筷子还是刀叉?",
+          "canDoZh": "能说出常用餐具,吃饭时请别人把东西递过来",
+          "scenarioZh": "中国菜晚饭(l05)的第二天,Marta 和 Diego 又来吃剩下的宫保鸡丁和米饭。李娜教他们用筷子:Diego 一学就会,Marta 觉得太难,最后用叉子和勺子。吃饭时大家互相递东西:¿Me pasas la sal? ¿Me pasas un vaso?。说话人:lina、marta、diego。",
+          "grammarFocusZh": "餐具名词的性:el plato、el vaso、el tenedor、el cuchillo、la cuchara、los palillos、la servilleta;¿Me pasas…? 先当固定说法记(me 的用法 A2 再讲);comer con palillos / con tenedor;bien / mal 修饰动词(Diego come muy bien con palillos, Marta come mal);fácil / difícil"
+        },
+        {
+          "id": "es.a1u4.r02",
+          "type": "reading",
+          "titleZh": "网上的 tapas 酒吧点评",
+          "canDoZh": "能读懂几条餐馆点评,说出别人觉得哪道菜好吃、服务怎么样、花了多少钱",
+          "scenarioZh": "体裁:网上点评。tapas 之夜(l08)以后,李娜在网上看那家酒吧的点评(不写店名):有人说土豆饼很好吃、服务员很快,有人说 patatas bravas 一点也不辣,有人说四个人一共付了 48 欧(和 4-8 一致);最后一条是李娜自己写的。说话人用 narrator,李娜那条用 lina。至少 8 句。",
+          "grammarFocusZh": "复习全单元的食物词、¡Qué rico!、picante、pagar;评价用 muy / un poco + 形容词;点评里常用 nosotros 的变位(comemos、pagamos)"
+        }
+      ]
+    },
+    {
+      "id": "a1u5",
+      "unit": "A1-5 时间与日常",
+      "cefr": "A1",
+      "themeZh": "时间和日常:问几点、约时间、一周的安排、生日和日期、学年安排、一天的作息,还要算中国和西班牙的时差、打电话预约理发。",
+      "grammarZh": "钟点和 ¿a qué hora?、星期、日期和月份、empezar(e→ie)、反身动词入门、ir 和 ir a + 地点、por la mañana、la hora 和时差的说法、llamar a + 人(人称 a)、todos los + 名词、una vez / dos veces、预约的说法(una cita para el viernes)。",
+      "pronunciationZh": "钟点和日期里的连读:son_las_ocho、a_las_once、y_media,词尾的辅音和下一个词开头的元音连在一起读。",
+      "lessons": [
+        {
+          "id": "es.a1u5.r01",
+          "type": "reading",
+          "titleZh": "课表和校历",
+          "canDoZh": "能看懂课表和校历,说出哪天几点有课、什么时候开学和放假",
+          "scenarioZh": "体裁:课表和校历。李娜贴在冰箱门上的两张纸:她这学期的课表(周一到周五上午九点到下午两点有课,周三上午九点是语言中心的西语课,周五下午五点和 Javier 语言交换)和大学的校历(课九月开始,十二月有圣诞假期,一月考试,二月第二学期开始,六月结束)。时间和 es.facts.md 一致。读完回答理解题。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习钟点、星期、日期和月份;de … a …(从……到……);empezar / terminar 的第三人称;el lunes 和 los lunes 的区别"
+        },
+        {
+          "id": "es.a1u5.l06",
+          "type": "grammar",
+          "titleZh": "成都现在几点?",
+          "canDoZh": "能算出马德里和中国的时差,约家人视频通话的时间",
+          "scenarioZh": "十月的一个周六上午,李娜想和成都的爸爸妈妈视频,Marta 问她那边现在几点。两个人一起算:马德里上午十点,成都是下午四点,差六个小时;Marta 提醒她,十月最后一个星期天西班牙要调回冬令时,之后就差七个小时了。李娜决定以后每个星期天(todos los domingos)上午给家里打电话。说话人:marta、lina。",
+          "grammarFocusZh": "Aquí son las diez y en Chengdú son las cuatro;Hay seis horas de diferencia;la hora 作名词(el cambio de hora);todo / toda / todos / todas + 冠词 + 名词:todos los domingos、todo el día(todo 和名词的性数一致);llamar a + 人:给人打电话时人前面要加 a(Llamo a mis padres),这是西语的'人称 a'"
+        },
+        {
+          "id": "es.a1u5.l07",
+          "type": "dialogue",
+          "titleZh": "打电话预约理发",
+          "canDoZh": "能打电话预约服务,说清哪天、几点、自己的名字和电话",
+          "scenarioZh": "李娜的头发太长了,Marta 推荐街区的一家理发店。李娜打电话:Quiero una cita para el jueves, por favor。前台问她上午还是下午、几点合适;周四下午已经满了,改到周五上午十一点半;最后问她的名字(Li 怎么拼)和手机号,还问她多久剪一次头发,李娜说大概两个月一次。说话人:recepcionista、lina。",
+          "grammarFocusZh": "la cita(预约);una cita para + 星期 / 日期;¿Por la mañana o por la tarde?;¿Te va bien a las…? 先当固定说法记;cortarse el pelo(剪头发);la vez:una vez al mes、dos veces al año(复数 veces,z 变 c);复习钟点、星期和电话号码"
+        },
+        {
+          "id": "es.a1u5.r02",
+          "type": "reading",
+          "titleZh": "语言中心的活动海报",
+          "canDoZh": "能看懂活动海报,说出每项活动在星期几、几点、在哪儿",
+          "scenarioZh": "体裁:海报。语言中心门口贴着这个学期的活动海报:每周三下午六点在图书馆有语言交换,每周五上午九点半在学校咖啡馆有'西班牙式早餐'聊天会,十一月的一个星期六有托莱多一日游,圣诞假期从十二月二十二日到一月七日。李娜在上面圈出了自己想去的活动。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元:钟点、星期、日期、de … a …、los miércoles(每周三);海报上的名词短语(Intercambio: los miércoles a las seis);el intercambio、la actividad、la excursión"
+        }
+      ]
+    },
+    {
+      "id": "a1u6",
+      "unit": "A1-6 城市与交通",
+      "cefr": "A1",
+      "themeZh": "在城市里走动:问附近有什么、问路、坐地铁、迷路时打电话求助、办交通月票、买火车票、去游客中心问景点,写一日游行程。",
+      "grammarZh": "ir en / a pie、coger、tener que、salir / llegar / volver、para + 地点 / 动词原形、问路的固定说法、用现在时说路线(Sigues todo recto)、seguir(e→i)、hasta、necesitar、costar 作动词(cuesta / cuestan)。",
+      "pronunciationZh": "b 和 v 读音相同(billete、vuelta、autobús),词首的 r 要颤(recto、Retiro),derecha、girar 里的单个 r 只轻弹一下。",
+      "lessons": [
+        {
+          "id": "es.a1u6.r01",
+          "type": "reading",
+          "titleZh": "火车时刻表和车票",
+          "canDoZh": "能看懂火车时刻表和车票上的信息:车次、出发和到达时间、车厢和座位",
+          "scenarioZh": "体裁:时刻表和车票。买完去托莱多的往返票(l04),李娜在手机上看车票和时刻表:马德里阿托查站到托莱多上午有几班车(包括他们要坐的九点二十那班,十点到;回程坐晚上七点半那班),车票上写着出发时间、到达时间、车厢号、座位号和'往返'。理解题问:几点出发?坐几号车厢?回程最晚一班几点?时间和 6-8 的行程一致。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 salir / llegar 的第三人称、24 小时制(a las nueve y veinte / a las veintiuna treinta)、el billete de ida y vuelta;车票上的缩写和名词短语(Salida、Llegada、Coche 4、Plaza 12A)"
+        },
+        {
+          "id": "es.a1u6.l06",
+          "type": "dialogue",
+          "titleZh": "我迷路了!",
+          "canDoZh": "能在迷路时打电话说清自己在哪儿、周围有什么,听懂对方在电话里指的路",
+          "scenarioZh": "星期天中午,Javier 请李娜去他家吃家庭午饭。李娜出了地铁站就找不到路,给 Javier 打电话:Estoy perdida。Javier 问她周围有什么,她说在一个小广场上,对面有一家药店,旁边有一家银行;Javier 告诉她沿着这条街一直走到红绿灯,过马路,在第一个路口左转,他在楼下等她。说话人:lina、javier。",
+          "grammarFocusZh": "estar perdido / perdida;用现在时说路线和步骤(Sigues todo recto, cruzas la calle y giras a la izquierda),命令式 A2 再学;seguir 是 e→i 变化:sigo、sigues、sigue…(nosotros / vosotros 不变);hasta + 地点(hasta el semáforo);复习方位短语"
+        },
+        {
+          "id": "es.a1u6.l07",
+          "type": "vocab",
+          "titleZh": "办一张交通月票",
+          "canDoZh": "能办理交通月票:说明要什么票、需要带什么材料、以后怎么充值",
+          "scenarioZh": "Javier 告诉李娜:年轻人办交通月票很划算,一个月里坐地铁、公交都不用另外买票。他陪李娜去地铁站的办理窗口,工作人员说要带护照和一张照片、填一张表,卡做好以后每个月在自动售票机上充值;李娜问一个月多少钱、能不能坐去托莱多的火车(不能)。窗口工作人员用 taquillera。说话人:javier、lina、taquillera。",
+          "grammarFocusZh": "necesitar + 名词 / 动词原形(Necesitas el pasaporte. Necesito recargar el abono.);para + 动词原形说目的(para viajar en metro);costar(o→ue)单独作动词:El abono cuesta … al mes / Los billetes cuestan …(6-4 只学了固定说法 ¿Cuánto cuesta?);el abono、la máquina、recargar、al mes、el pasaporte;tarjeta 7-4 才学,这课说 el abono"
+        },
+        {
+          "id": "es.a1u6.r02",
+          "type": "reading",
+          "titleZh": "从托莱多寄出的明信片",
+          "canDoZh": "能读懂并写出一张旅行明信片:在哪儿、和谁一起、做什么、这座城市怎么样",
+          "scenarioZh": "体裁:明信片。在托莱多玩的那天,李娜给成都的弟弟写了一张明信片(用西语练习,回家再给他翻译):Querido hermano: Hoy estoy en Toledo con Diego…,写城市很古老、很有名,大教堂很漂亮,中午吃今日套餐,下午去博物馆,晚上七点半坐火车回马德里。用现在时写。说话人用 lina。至少 8 句。",
+          "grammarFocusZh": "复习全单元:estar en + 地点、ser + 形容词描述城市、ir / volver、钟点、primero … luego …;明信片的格式(称呼、日期、Un abrazo)"
+        }
+      ]
+    },
+    {
+      "id": "a1u7",
+      "unit": "A1-7 购物",
+      "cefr": "A1",
+      "themeZh": "天冷了买衣服:衣物和颜色、试穿和尺码、付款、在跳蚤市场挑礼物、为看演出挑衣服、在鞋店买靴子,最后回店里换货。",
+      "grammarZh": "颜色形容词的配合、este / ese、probarse(o→ue)、100–1000、más / menos … que、mejor、me queda(n) bien、ponerse + 衣服、preferir(e→ie)和 ¿cuál? / ¿cuáles?、lo / la / los / las 指刚说过的东西和 Me lo llevo、mirar、鞋码用 el número。",
+      "pronunciationZh": "r 和 rr 区分意思:caro / carro、pero / perro,marrón、rojo、rebajas 里的颤音要多颤几下。",
+      "lessons": [
+        {
+          "id": "es.a1u7.r01",
+          "type": "reading",
+          "titleZh": "服装店的打折传单",
+          "canDoZh": "能看懂打折传单,找出每件衣服原价多少、现价多少、打折到什么时候",
+          "scenarioZh": "体裁:传单。李娜在信箱里收到一家服装店的打折传单(不写店名):大衣原价 129 欧、现价 89 欧,毛衣 39 欧变 25 欧,T 恤两件 15 欧,牛仔裤……还写了打折的日期和营业时间。理解题问:哪件便宜得最多?星期天开门吗?说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 100–1000 的数字和价格、颜色和衣物名词、las rebajas、abrir / cerrar;传单上的省略句(Abrigos: 89 euros)"
+        },
+        {
+          "id": "es.a1u7.l06",
+          "type": "grammar",
+          "titleZh": "去看弗拉明戈穿什么?",
+          "canDoZh": "能为不同场合挑衣服,说'我穿这件',问别人穿什么",
+          "scenarioZh": "Marta 买了两张周六晚上的弗拉明戈演出票,要带李娜去。出门前两个人在李娜房间里挑衣服:Marta 拿起两条连衣裙问 ¿Cuál prefieres, este o ese?;李娜本来想穿牛仔裤和运动鞋,Marta 说去看演出要穿得漂亮一点;最后李娜穿上黑色的连衣裙和大衣,Marta 穿红衬衫和黑裤子。说话人:marta、lina。",
+          "grammarFocusZh": "ponerse + 衣服(穿上):me pongo、te pones、se pone…,反身代词放在变位动词前;衣服前用定冠词,不用物主词(Me pongo el vestido negro);llevar(穿着,状态)和 ponerse(穿上,动作)的区别;preferir(更喜欢)e→ie:prefiero、prefieres…;¿Cuál prefieres? / ¿Cuáles?(在几样里问哪一个);la camisa、la chaqueta、los vaqueros、cómodo / elegante"
+        },
+        {
+          "id": "es.a1u7.l07",
+          "type": "dialogue",
+          "titleZh": "买一双靴子",
+          "canDoZh": "能在鞋店说鞋码、试穿、问价,用 lo / la 指刚说过的东西,决定买下来",
+          "scenarioZh": "李娜想要一双冬天穿的靴子,走进一家鞋店,先说 Quiero mirar un poco。她看中一双黑靴子,店员问她穿多大码(37 码),拿来一试有点小,又换了 38 码,正合适;李娜问 ¿Cuánto cuestan?,店员说正在打折;李娜说 Me las llevo,店员问她要不要鞋盒。说话人:dependienta、lina。",
+          "grammarFocusZh": "lo / la / los / las 指刚说过的东西,放在变位动词前(¿Las tiene en treinta y ocho? — Sí, aquí las tiene);Me lo / la / los / las llevo(我买了)先当固定说法记,宾语代词的全套 A2-14 再讲;mirar(看、看看);鞋码说 el número(¿Qué número usas?),衣服尺码才说 la talla;复习 6-7 的 cuesta / cuestan;las botas"
+        },
+        {
+          "id": "es.a1u7.r02",
+          "type": "reading",
+          "titleZh": "El Rastro:周日的跳蚤市场",
+          "canDoZh": "能读懂旅游手册里对一个市场的介绍:在哪儿、什么时候开、卖什么、要注意什么",
+          "scenarioZh": "体裁:旅游手册。马德里游客中心的小册子介绍 El Rastro:每个星期天和节假日上午开,在老城区的几条街上,有一千多个摊位,卖旧衣服、旧书、包、帽子和各种小礼物;人很多,要看好自己的包;很多摊主愿意讲价,早上去东西更多。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元:颜色、价格、caro / barato、más / menos … que、mejor;mucho / mucha + 名词;los vendedores、la gente 做主语的第三人称句"
+        }
+      ]
+    },
+    {
+      "id": "a1u8",
+      "unit": "A1-8 爱好与周末",
+      "cefr": "A1",
+      "themeZh": "爱好和周末:说喜欢什么、多久做一次、会不会唱歌弹琴、和朋友去看电影、天气和季节、约人和礼貌拒绝、上周末做了什么、写周末博客。",
+      "grammarZh": "gustar / encantar、también / tampoco、频率副词、saber + 动词原形(会)、venir(vengo)、介词后的代词 mí / ti 和 conmigo / contigo、¿por qué?、hacer 说天气、ir a + 动词原形、简单过去时入门(visité、comí、fui、hice)。",
+      "pronunciationZh": "重音符号决定读音:película、música、sábado 重音在倒数第三个音节,一定要写重音符号;fútbol、también 不合一般规则,也要写。",
+      "lessons": [
+        {
+          "id": "es.a1u8.r01",
+          "type": "reading",
+          "titleZh": "周末活动指南",
+          "canDoZh": "能看懂城市网站上的周末活动指南,选出自己想去的活动",
+          "scenarioZh": "体裁:活动指南。城市文化网站上的'这个周末做什么':周五晚上广场上有免费音乐会,周六上午公园里有跑步活动,周六下午有一场足球比赛,周日上午博物馆免费……每条写着时间、地点和价格,最后提醒周日可能下雨。李娜和 Javier 各选一个。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 gustar 相关的词(la música、el fútbol、el cine)、星期和钟点、hacer 说天气、llover、gratis;ir a + 动词原形说'将要'(Va a llover el domingo)"
+        },
+        {
+          "id": "es.a1u8.l06",
+          "type": "grammar",
+          "titleZh": "你会弹吉他吗?",
+          "canDoZh": "能说自己会不会某种技能(唱歌、弹琴、跳舞、做饭),问别人会不会",
+          "scenarioZh": "周五晚上 Diego 带着吉他来公寓,边弹边唱墨西哥歌。Marta 说她不会唱歌,但是会跳塞维利亚舞;李娜会弹一点钢琴;Javier 什么乐器都不会,不过会做很好吃的土豆饼。大家约好下次一起唱歌。说话人:diego、marta、lina、javier。",
+          "grammarFocusZh": "复习 4-7 的 bien / mal;saber + 动词原形 = 会(学过的技能):sé、sabes、sabe…(第一人称 sé 不规则,带重音符号,和代词 se 区分);poder = 能、可以(条件允许):Sé nadar, pero hoy no puedo;tocar + 乐器 / jugar a + 运动;cantar"
+        },
+        {
+          "id": "es.a1u8.l07",
+          "type": "dialogue",
+          "titleZh": "跟我去看电影吧",
+          "canDoZh": "能邀请朋友一起去做一件事、问对方为什么不去,在电影院买票、选场次",
+          "scenarioZh": "一个星期天下午,李娜问 Diego:¿Vienes conmigo al cine?;Diego 说好,给 Javier 打电话问他来不来,Javier 说不来,李娜问 ¿Por qué?,他说下午有足球比赛(porque 在 l08 才学,这里的回答不用 porque)。在售票处,李娜买两张西班牙喜剧的原声字幕版,问场次、价格和学生优惠,把一张票递给 Diego:Esta es para ti。售票员用 taquillera。说话人:lina、diego、javier、taquillera。",
+          "grammarFocusZh": "venir(来)不规则:vengo、vienes、viene、venimos、venís、vienen(和 ir 的区别 16-2 再练);介词后面的代词 mí、ti、él、ella(para ti、a ti),和 con 连用说 conmigo、contigo;¿Por qué?(为什么,分开写、有重音符号);la comedia、la película de miedo、la sesión、en versión original con subtítulos;复习 7-6 的 preferir 和 6-5 的 la entrada"
+        },
+        {
+          "id": "es.a1u8.r02",
+          "type": "reading",
+          "titleZh": "村子的节日节目单",
+          "canDoZh": "能看懂节日的节目单,说出每天几点有什么活动、要带什么",
+          "scenarioZh": "体裁:节目单。Javier 把爷爷奶奶村子节日的节目单发到朋友群里:周五晚上八点开幕和音乐,周六上午有集市和儿童游戏,中午在广场一起吃饭,晚上有舞会,周日上午有足球比赛,下午喝热巧克力配 churros;最后一行写着山里很冷,要带大衣。为第 9 单元去村子做铺垫。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元:星期和钟点、gustar、ir a + 动词原形、hacer 说天气;节目单上的名词短语(Música en la plaza. Partido de fútbol.)"
+        }
+      ]
+    },
+    {
+      "id": "a1u9",
+      "unit": "A1-9 乡下的周末",
+      "cefr": "A1",
+      "themeZh": "十一月底跟 Javier 和 Marta 去山里的村子过节:听天气预报、在寒冷的山里说冷说饿、认识乡下的动物和风景、比较乡村和城市、在广场上吃喝跳舞、第一次在雪地里散步。",
+      "grammarZh": "tener + frío / calor / hambre / sed / sueño 和 hace frío 的区别,nevar、hace viento、está nublado 和气温的说法,¡Qué + 名词!,probar(尝)和 probarse(试穿),quitarse + 衣服。",
+      "pronunciationZh": "ie / ue 双元音(nieve、viento、cielo、pueblo、bueno、fuego)要一口气读成一个音节,它们也正是 e→ie、o→ue 变位里出现的音。",
+      "lessons": [
+        {
+          "id": "es.a1u9.l01",
+          "type": "dialogue",
+          "titleZh": "明天山里会下雪吗?",
+          "canDoZh": "能听懂简单的天气预报(下雪、刮风、多云、几度),并据此决定带什么衣服",
+          "scenarioZh": "周五晚上出发前,Marta 打开收音机听天气预报:马德里明天晴,山区多云、刮风,夜里零下两度,星期天可能下雪。Marta 和李娜一边听一边收拾行李,商量要带大衣、毛衣和靴子。说话人:locutor、marta、lina。",
+          "grammarFocusZh": "nevar(下雪)和 llover 一样只用第三人称:nieva / va a nevar;hace viento、está nublado、hay niebla;la temperatura:Estamos a cinco grados / a dos grados bajo cero;复习 ir a + 动词原形说天气预报"
+        },
+        {
+          "id": "es.a1u9.l02",
+          "type": "vocab",
+          "titleZh": "山里真冷!",
+          "canDoZh": "能说自己冷、热、饿、渴、困,并回应别人的关心",
+          "scenarioZh": "周六一早,三个人坐 Javier 爸爸的车到了村子。李娜一下车就说 ¡Qué frío! Tengo mucho frío;路上没吃早饭,她又饿又困。Javier 带她们去广场上的小咖啡馆喝热巧克力、吃 churros;Marta 说她不冷,反而有点热,因为穿了两件毛衣。说话人:lina、javier、marta。",
+          "grammarFocusZh": "tener + 名词说身体的感觉:tener frío / calor / hambre / sed / sueño(Tengo mucho frío,frío 在这里是名词,所以用 mucho 不用 muy);和 hace frío(天气冷)、está frío(东西凉)对比;¡Qué + 名词!(¡Qué frío! ¡Qué hambre!)"
+        },
+        {
+          "id": "es.a1u9.l03",
+          "type": "vocab",
+          "titleZh": "村子里的动物和风景",
+          "canDoZh": "能说出乡下常见的动物和风景,描述一个地方有什么",
+          "scenarioZh": "上午 Javier 带李娜在村子周围散步:有山、有一条小河、很多树,田里有牛和羊,爷爷奶奶家有一只狗、两只猫和几只鸡。李娜说成都周围也有山,但她从来没见过这么多羊。Javier 的爷爷奶奶只被提到,不说话。说话人:javier、lina。",
+          "grammarFocusZh": "动物和自然名词的性与复数:el perro、el gato、la vaca、el caballo、la oveja、la gallina、el río、el árbol、la montaña、el campo;hay + 数量 + 名词(Hay muchas ovejas);¿Cuántos / Cuántas…? 和名词的性一致"
+        },
+        {
+          "id": "es.a1u9.l04",
+          "type": "grammar",
+          "titleZh": "村子比马德里安静",
+          "canDoZh": "能比较乡村和城市的生活,说出各自的好处和不方便的地方",
+          "scenarioZh": "午饭后三个人在爷爷奶奶家的院子里晒太阳聊天:Marta 说村子比马德里安静,空气也更干净;Javier 说马德里比村子热闹,有更多商店和地铁;李娜说成都比马德里大得多,人也多得多,但她喜欢马德里,因为走路就能到很多地方。说话人:marta、javier、lina。",
+          "grammarFocusZh": "复习 7-5 的 más / menos + 形容词 + que 和 mejor;mucho más + 形容词(Chengdú es mucho más grande que Madrid);la gente 是单数阴性名词(La gente es muy amable,不说 son);ruidoso / tranquilo、sucio / limpio、el aire"
+        },
+        {
+          "id": "es.a1u9.r01",
+          "type": "reading",
+          "titleZh": "村子的介绍",
+          "canDoZh": "能读懂一个小地方的介绍:在哪儿、多大、有什么、什么季节去最好",
+          "scenarioZh": "体裁:网站简介。村政府网站上的介绍:村子在马德里北边的山里,离马德里六十公里,有五百多个居民;有一座老教堂、一座石桥和很多徒步的山路;冬天常下雪,夏天不太热;每年十一月底过节。只用 l01–l04 的内容。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 estar a + 距离(Está a sesenta kilómetros de Madrid)、hay、ser / estar + 形容词、天气的说法;el habitante、el kilómetro"
+        },
+        {
+          "id": "es.a1u9.l05",
+          "type": "dialogue",
+          "titleZh": "广场上的节日",
+          "canDoZh": "能在节日里问吃的是什么,尝一尝并说味道,应对别人的邀请",
+          "scenarioZh": "周六晚上村子的广场上有乐队和舞会,长桌上请大家吃 migas(用面包做的传统菜)。Javier 给李娜介绍村里的特色菜,李娜第一次尝,说很好吃;Marta 拉她去跳舞,李娜说她不太会跳,Marta 说没关系,跟着她跳就行。说话人:javier、lina、marta。",
+          "grammarFocusZh": "probar(尝)o→ue:pruebo、pruebas…;和 7-3 的 probarse(试穿)对比:probar la comida / probarse la ropa;típico(特色的、传统的);复习 saber + 动词原形(No sé bailar)和 ¡Qué rico!"
+        },
+        {
+          "id": "es.a1u9.l06",
+          "type": "grammar",
+          "titleZh": "穿上大衣,戴上手套",
+          "canDoZh": "能说出门前穿戴什么、进屋以后脱下什么,提醒别人穿暖和",
+          "scenarioZh": "星期天早上外面下雪了。出门前 Marta 和李娜在门口穿戴:Marta 戴上毛线帽和手套,李娜穿上大衣、围上围巾,却忘了戴手套,Marta 借给她一副;散步回来进屋,两个人脱下靴子和大衣,放在暖气旁边。说话人:marta、lina。",
+          "grammarFocusZh": "复习 7-6 的 ponerse,新学 quitarse(脱下):me quito el abrigo;穿戴衣物时用定冠词,不用物主词(Me pongo los guantes,不说 mis guantes);los guantes、el gorro(毛线帽,和 7-5 的 la gorra 鸭舌帽区分)"
+        },
+        {
+          "id": "es.a1u9.l07",
+          "type": "dialogue",
+          "titleZh": "第一次在雪地里散步",
+          "canDoZh": "能描述眼前的景色和天气,说出自己的感受",
+          "scenarioZh": "雪停了,Javier 带李娜去山坡上看雪。成都几乎不下雪,李娜特别兴奋:天很蓝,树都是白的,太阳出来了,可还是很冷;两个人堆了一个小雪人,拍了很多照片,Javier 教她 la nieve、el muñeco de nieve。说话人:lina、javier。",
+          "grammarFocusZh": "眼前的天气用现在时:Nieva mucho. Hace sol, pero hace frío.(estar + 副动词 A2 再学);复习 7-7 的 mirar:¡Mira! / Miro el cielo,mirar(看)和 8-1 的 ver(看见)的区别;casi nunca(几乎从不):En Chengdú casi nunca nieva;el cielo、la nieve;复习 hacer fotos 和 ¡Qué bonito!"
+        },
+        {
+          "id": "es.a1u9.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:跟 Pilar 太太讲乡下的周末",
+          "canDoZh": "能向别人讲一个周末:去了哪儿、天气怎么样、看到什么、吃了什么、感觉怎么样",
+          "scenarioZh": "星期一早上李娜在楼梯上遇到 Doña Pilar。Pilar 问她周末去哪儿了、冷不冷;李娜讲村子、雪、动物、广场上的节日和 migas,可以用 8-5 学过的几个过去时(fui、comí、fue genial),描述那里的样子用现在时(Allí hace mucho frío)。Pilar 说她自己也是在一个村子里长大的。对话至少 12 句。说话人:pilar、lina。",
+          "grammarFocusZh": "综合复习本单元的天气、tener frío、乡村词汇和比较句;李娜对 Pilar 用 usted,Pilar 对李娜用 tú"
+        },
+        {
+          "id": "es.a1u9.r02",
+          "type": "reading",
+          "titleZh": "第一次看到雪(李娜的日记)",
+          "canDoZh": "能读懂一篇简短的日记,了解作者那天在哪儿、天气怎么样、心情如何",
+          "scenarioZh": "体裁:日记。星期天晚上回到马德里,李娜在本子上用西语写日记:早上起来窗外全是白的,村子很安静;她和 Javier 在山坡上堆了雪人,拍了很多照片;下午喝热巧克力,晚上坐车回马德里,很累,但是很开心。以现在时为主,可以用 fui、comí、fue。说话人用 lina。至少 8 句。",
+          "grammarFocusZh": "复习全单元;日记的写法:日期开头,按时间顺序写(por la mañana、después、por la tarde、por la noche)"
+        }
+      ]
+    },
+    {
+      "id": "a1u10",
+      "unit": "A1-10 生病和求助",
+      "cefr": "A1",
+      "themeZh": "从山里回来就感冒了:说哪里不舒服、打电话请假、在药店买药、去医疗中心看医生;病好以后丢了钱包去失物招领处,朋友受伤时向路人求助。",
+      "grammarZh": "doler(用法同 gustar:me duele / me duelen)和身体部位,estar enfermo / resfriado / mejor / peor,antes de / después de + 动词原形,algo / nada / alguien / nadie 和双重否定,encontrar(o→ue)和 perder(e→ie)。",
+      "pronunciationZh": "g 在 a、o、u 前读 [g](garganta、estómago),在 e、i 前和 j 一样读喉音 [x](gente、urgencias、ojo、oreja),estómago 的重音在倒数第三个音节。",
+      "lessons": [
+        {
+          "id": "es.a1u10.l01",
+          "type": "vocab",
+          "titleZh": "我哪儿都不舒服",
+          "canDoZh": "能说出身体的主要部位,指出哪里不舒服",
+          "scenarioZh": "从村子回来的第二天早上,李娜起不来床。Marta 是护士,摸着她的额头问 ¿Qué te pasa?;李娜指着喉咙、头和后背说不舒服。Marta 让她量体温,三十八度,说她感冒了,今天别去上课。说话人:marta、lina。",
+          "grammarFocusZh": "身体部位名词的性:la cabeza、la garganta、el estómago、la espalda、el brazo、la pierna、el pie、la nariz、la boca,la mano 虽然以 -o 结尾却是阴性;¿Qué te pasa? 先当固定说法记;tener fiebre;estar resfriado / resfriada"
+        },
+        {
+          "id": "es.a1u10.l02",
+          "type": "grammar",
+          "titleZh": "我头疼,今天不去上课了",
+          "canDoZh": "能说哪里疼、有什么症状,打电话请假",
+          "scenarioZh": "李娜给 Javier 打电话,说今天不能去上课了:她头疼、喉咙疼,还有点发烧。Javier 问她咳不咳嗽、要不要他帮忙买东西,说下午把课堂笔记发给她,让她多休息。说话人:lina、javier。",
+          "grammarFocusZh": "doler(疼)o→ue,用法和 gustar 一样:me duele la cabeza / me duelen los ojos(疼的部位是主语,复数用 duelen),te / le duele;身体部位前用定冠词,不用 mi;tener tos、el dolor de cabeza;estar enfermo / enferma"
+        },
+        {
+          "id": "es.a1u10.l03",
+          "type": "dialogue",
+          "titleZh": "在药店买药",
+          "canDoZh": "能在药店说出症状,买到合适的药,问清一天吃几次、什么时候吃",
+          "scenarioZh": "下午李娜觉得好一点,去广场上的药店。药剂师问她哪儿不舒服、发不发烧;给她一盒退烧止痛的药和一瓶止咳糖浆,说药每八个小时吃一片、饭后吃,睡觉前喝一勺糖浆,这两种药不用处方。说话人:farmaceutico、lina。",
+          "grammarFocusZh": "¿Tiene algo para la tos?(algo 在 l05 细讲);la pastilla、el jarabe、la receta;cada ocho horas(每八个小时);antes de / después de + 动词原形(después de comer、antes de dormir);tomar(吃药、服用)"
+        },
+        {
+          "id": "es.a1u10.l04",
+          "type": "dialogue",
+          "titleZh": "去医疗中心看医生",
+          "canDoZh": "能向医生说清症状和持续了几天,听懂医生的建议",
+          "scenarioZh": "过了两天还在发烧,Marta 让李娜去她医疗保险的医疗中心看病。医生问她哪里疼、发烧几天了、咳不咳嗽;检查以后说是流感,要多喝水、多休息、按时吃药,三天以后还不好就再来。李娜问能不能去上课,医生说这个星期最好在家。说话人:medica、lina。",
+          "grammarFocusZh": "医生对病人多用 usted:¿Qué le pasa? ¿Le duele la garganta?;estar mejor / estar peor(peor 是 malo 的比较级,和 mejor 对应);tener que + 动词原形说医嘱(Tiene que beber mucha agua);la gripe、el seguro médico"
+        },
+        {
+          "id": "es.a1u10.r01",
+          "type": "reading",
+          "titleZh": "药盒里的说明书",
+          "canDoZh": "能看懂药品说明书上最重要的信息:治什么、怎么吃、一天最多吃几次",
+          "scenarioZh": "体裁:说明书。李娜读那盒退烧药的简化版说明书:用来治发烧和头疼;成人每八个小时吃一片,一天不超过三片,饭后用水服下;不要和别的退烧药一起吃;放在孩子拿不到的地方。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "说明书和告示常用动词原形表示指令(Tomar una pastilla cada ocho horas. No tomar más de tres pastillas al día.);复习 cada、antes de / después de 和身体部位的词"
+        },
+        {
+          "id": "es.a1u10.l05",
+          "type": "grammar",
+          "titleZh": "家里有人吗?",
+          "canDoZh": "能用 algo、nada、alguien、nadie 问和回答'有没有什么东西 / 有没有人'",
+          "scenarioZh": "李娜一个人在家躺着,Doña Pilar 敲门:¿Hay alguien en casa?。她端来一碗热汤,问李娜需要什么、想不想吃点东西、Marta 在不在。李娜说她什么都不想吃,家里没有别人,Marta 在医院上班;Pilar 说有事就给她打电话,临走时说 ¡Que te mejores!。说话人:pilar、lina。",
+          "grammarFocusZh": "algo(某物)/ nada(什么都不),alguien(某人)/ nadie(谁都不);双重否定:No quiero nada. No hay nadie.(nada、nadie 放在动词后面时,动词前要有 no);复习 4-6 的 No, nada más、¿Algo más? 和 De nada;¡Que te mejores! 先当固定说法记"
+        },
+        {
+          "id": "es.a1u10.l06",
+          "type": "grammar",
+          "titleZh": "我的钱包找不到了!",
+          "canDoZh": "能说找不到什么、丢了什么,和朋友一起回想东西可能在哪儿",
+          "scenarioZh": "病好以后第一天出门,李娜和 Diego 坐地铁去市中心,下车时她发现钱包不见了。两个人一起想:在家里吗?在 Diego 的包里吗?在地铁上丢的吗?李娜说她总是丢东西,上个月还丢过一次钥匙;Diego 说先别着急,地铁站有失物招领处。说话人:lina、diego。",
+          "grammarFocusZh": "encontrar(找到)o→ue:No encuentro mi cartera;perder(丢)e→ie:Siempre pierdo las llaves;可以用 8-5 那样的过去时第一人称说丢了(perdí);la cartera、el carné de estudiante、el dinero"
+        },
+        {
+          "id": "es.a1u10.l07",
+          "type": "dialogue",
+          "titleZh": "在失物招领处",
+          "canDoZh": "能描述丢失的东西(颜色、大小、材料、里面有什么),留下联系方式",
+          "scenarioZh": "在地铁站的失物招领处,工作人员问李娜丢了什么、在哪条线、大概几点、钱包是什么样的、里面有什么;李娜说是一个红色的小皮钱包,里面有学生证、银行卡和二十欧。工作人员找了找,找到了!请她出示证件、签名。工作人员用 recepcionista。说话人:recepcionista、lina。",
+          "grammarFocusZh": "描述东西:¿Cómo es? — Es pequeña y roja;de + 材料(de piel);¿Qué hay dentro?;los objetos perdidos、firmar;复习颜色、数字和 usted 的变位"
+        },
+        {
+          "id": "es.a1u10.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:朋友受伤了",
+          "canDoZh": "能在遇到紧急情况时向路人求助,说清发生了什么、哪里疼,知道该去哪儿、打什么电话",
+          "scenarioZh": "星期六 Diego 在公园里踢球,摔倒了,脚踝很疼,站不起来。李娜向一个路人求助:¿Me puede ayudar?;路人问 Diego 哪里疼、能不能走,说不算太严重,不用打 112,最好去医院急诊,帮他们叫了一辆出租车。对话至少 12 句。说话人:lina、diego、transeunte。",
+          "grammarFocusZh": "综合复习 doler、身体部位、tener que、algo / nada;求助的说法:¿Me puede ayudar? / ¡Cuidado!;el tobillo、urgencias;112 是西班牙的紧急电话"
+        },
+        {
+          "id": "es.a1u10.r02",
+          "type": "reading",
+          "titleZh": "紧急电话和值班药店",
+          "canDoZh": "能读懂一张紧急情况须知,知道什么情况打什么电话、晚上去哪儿买药",
+          "scenarioZh": "体裁:须知。大学国际处发给留学生的一张小卡片:112 是所有紧急情况的电话,说西语或英语都可以;不紧急的病去医疗中心;晚上和周末有'值班药店'(farmacia de guardia),每家药店门口都贴着今天哪家值班;证件丢了要先去警察局报失。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元;须知里用 tener que 和动词原形表示该做什么;la farmacia de guardia、la emergencia"
+        }
+      ]
+    },
+    {
+      "id": "a1u11",
+      "unit": "A1-11 办手续",
+      "cefr": "A1",
+      "themeZh": "留学生必须办的手续:在区政府登记住址(empadronamiento)、预约并去外国人办公室办身份卡 TIE、开银行账户,学会填表、说地址和出生日期、在办事窗口用 usted 和 ustedes 说话。",
+      "grammarZh": "hay que + 动词原形,1000 以上的数字和年份(dos mil seis),序数词 primero 到 décimo 和西班牙地址的写法,ustedes 和它的变位,¿qué? 和 ¿cuál? 的区别。",
+      "pronunciationZh": "词尾的 d 很轻(usted、ustedes、edad、nacionalidad、Madrid),-ción 结尾的词重音在最后一个音节(dirección、información),变成复数后去掉重音符号(direcciones)。",
+      "lessons": [
+        {
+          "id": "es.a1u11.l01",
+          "type": "dialogue",
+          "titleZh": "要办哪些手续?",
+          "canDoZh": "能问清办一件事有哪些步骤、要带哪些材料",
+          "scenarioZh": "Doña Pilar 听说李娜还没登记住址,提醒她:在马德里住要先去区政府登记,然后才好办外国人身份卡 TIE;登记要带护照和租房合同,Pilar 把合同的复印件给了她,还说 Hay que pedir cita por internet。李娜把步骤一样一样记在小本子上。说话人:pilar、lina。",
+          "grammarFocusZh": "hay que + 动词原形(一般性的'得、要',不说是谁):Hay que pedir cita;和 tener que(某个人必须)对比;复习 6-7 的 necesitar + 名词;el contrato、la copia、el documento、el ayuntamiento;pedir cita 先当固定说法记"
+        },
+        {
+          "id": "es.a1u11.l02",
+          "type": "vocab",
+          "titleZh": "表格上的词",
+          "canDoZh": "能看懂并填写登记表上的个人信息:出生日期和地点、国籍、地址、婚姻状况、签名",
+          "scenarioZh": "晚上李娜在家看要填的登记表,很多词不认识,一个一个问 Marta:fecha de nacimiento、lugar de nacimiento、nacionalidad、domicilio、código postal、estado civil(soltera)、firma。Marta 教她年份怎么读:李娜是 2006 年出生的,dos mil seis;Marta 自己是 2002 年的。说话人:lina、marta。",
+          "grammarFocusZh": "1000 以上的数字和年份:dos mil seis、mil novecientos setenta y cuatro(年份不像英语那样两位两位地读);完整的日期 el 12 de marzo de 2006;表格里的名词 la fecha de nacimiento、la nacionalidad、el domicilio、el estado civil、la firma"
+        },
+        {
+          "id": "es.a1u11.l03",
+          "type": "grammar",
+          "titleZh": "我住在三楼左边那户",
+          "canDoZh": "能按西班牙的格式说和写自己的地址(街名、门牌号、楼层、门)",
+          "scenarioZh": "在区政府的市民服务处,工作人员核对李娜的护照和合同,请她说完整的地址:街名、门牌号、tercero izquierda、邮编(街名和门牌号自己编,不用真实地址);街名她一个字母一个字母地拼,工作人员重复确认,最后打印一张住址登记证明给她。窗口工作人员用 recepcionista。说话人:recepcionista、lina。",
+          "grammarFocusZh": "序数词 primero 到 décimo;primero / tercero 在阳性单数名词前变 primer / tercer(el tercer piso);地址的写法和读法:n.º 5, 3.º izda. = número cinco, tercero izquierda;el código postal;复习 ¿Cómo se escribe? 和拼读"
+        },
+        {
+          "id": "es.a1u11.l04",
+          "type": "dialogue",
+          "titleZh": "约不到号",
+          "canDoZh": "能在网上预约办事的时间,看懂可选的日期和时间",
+          "scenarioZh": "办 TIE 要在网上预约,李娜试了好几天,网站一直显示没有号。Marta 告诉她新的号常在早上放出来;第二天早上两个人一起刷网站,终于约到了下个星期一上午十点二十,在外国人办公室。Marta 提醒她把预约确认打印出来。说话人:marta、lina。",
+          "grammarFocusZh": "pedir cita / tener cita;No hay citas. Hay una cita el lunes a las diez y veinte;复习日期、星期、钟点和 hay;la oficina de extranjería、imprimir"
+        },
+        {
+          "id": "es.a1u11.r01",
+          "type": "reading",
+          "titleZh": "预约确认和材料清单",
+          "canDoZh": "能读懂预约确认邮件,列出要带的材料、时间和地点",
+          "scenarioZh": "体裁:确认邮件。外国人办公室发来的预约确认:姓名、护照号、日期和时间、办公室地址;要带的材料:护照和复印件、一张近照、填好的申请表、交费的单据、住址登记证明;请提前十分钟到。邮件用 usted 的形式写。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 hay que、necesitar、序数词和地址、日期和钟点;正式邮件里 usted 的变位(Usted tiene una cita…)"
+        },
+        {
+          "id": "es.a1u11.l05",
+          "type": "dialogue",
+          "titleZh": "在外国人办公室按手印",
+          "canDoZh": "能在办事窗口听懂工作人员的问题和要求,交材料、按手印、确认取卡的时间",
+          "scenarioZh": "星期一李娜和 Diego 一起去(Diego 也约到了同一天的号)。窗口的工作人员对两个人说 ustedes:¿Ustedes tienen cita? ¿Tienen las fotos?;先办李娜的,让她按手印、签名,说一个月以后来取卡;Diego 少了一张复印件,只好下午再来。工作人员用 recepcionista。说话人:recepcionista、lina、diego。",
+          "grammarFocusZh": "ustedes(您们,正式的'你们')用第三人称复数变位:¿Ustedes tienen cita? ¿De dónde son ustedes?;su / sus 也可以指'您们的';西班牙朋友之间说'你们'用 vosotros,拉美对谁都用 ustedes(只写在 noteZh);las huellas、recoger la tarjeta"
+        },
+        {
+          "id": "es.a1u11.l06",
+          "type": "vocab",
+          "titleZh": "取钱和开户",
+          "canDoZh": "能说出和钱、银行卡、取款机有关的常用词,在取款机上取钱",
+          "scenarioZh": "办完 TIE 以后,Javier 陪李娜在手机上比较几家银行的学生账户,告诉她开户要带护照和 NIE 号码;然后两个人在街上的取款机取钱,Javier 教她看屏幕:插卡、输密码、选金额、取卡、取钱,还提醒她小心有没有手续费。说话人:javier、lina。",
+          "grammarFocusZh": "el dinero 不可数(mucho dinero);sacar dinero del cajero;la cuenta 的另一个意思是'银行账户'(4-4 学的是'账单');la contraseña / el PIN、el cajero automático、la comisión;复习 necesitar、hay que 和数字"
+        },
+        {
+          "id": "es.a1u11.l07",
+          "type": "grammar",
+          "titleZh": "¿Qué? 还是 ¿cuál?",
+          "canDoZh": "能正确选用 qué 和 cuál 提问,问别人的个人信息",
+          "scenarioZh": "西语课上,安德烈斯老师拿登记表做练习:学生两人一组,一个当工作人员、一个填表。老师先讲为什么说 ¿Cuál es tu dirección?,不说 ¿Qué es tu dirección?,再和李娜示范:¿Cuál es tu fecha de nacimiento? ¿Qué es el NIE? ¿Cuál es tu estado civil? ¿Qué estudias?。说话人:andres、lina。",
+          "grammarFocusZh": "¿Qué es…? 问定义(……是什么东西),¿Cuál es…? 问几个可能里具体是哪一个(名字、地址、号码、日期都用 cuál);qué 可以直接放在名词前(¿Qué día? ¿Qué número?);复习 7-6 的 ¿cuál? 和 1-3 的 ¿Cuál es tu número de teléfono?"
+        },
+        {
+          "id": "es.a1u11.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:在银行开户",
+          "canDoZh": "能在银行柜台独立开一个学生账户:说个人信息、地址和出生日期,听懂条件,设置密码并签字",
+          "scenarioZh": "李娜一个人去银行开学生账户。柜台工作人员问她的全名(中国人只有一个姓)、NIE、出生日期和地点、地址(说清楼层和门)、电话和邮箱,解释学生账户不收手续费,银行卡十天内寄到家;最后请她设一个四位数的密码,在三个地方签字。对话至少 12 句。柜台工作人员用 recepcionista。说话人:recepcionista、lina。",
+          "grammarFocusZh": "综合复习本单元:年份和日期、序数词和地址、qué / cuál、hay que、usted 的变位和银行、表格里的词"
+        },
+        {
+          "id": "es.a1u11.r02",
+          "type": "reading",
+          "titleZh": "银行短信和防诈骗提醒",
+          "canDoZh": "能读懂银行发来的短信和安全提醒,判断哪一条可能是诈骗",
+          "scenarioZh": "体裁:短信。李娜的手机上收到四条短信:银行卡已经寄出;在取款机取了 50 欧的通知;一条说'你的账户有问题,请回复密码'的可疑短信;还有银行的提醒:银行从来不会用短信或电话问你的密码。理解题问哪一条是诈骗。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元的银行词汇、hay que 和 nunca;短信里的正式说法(Su tarjeta… / Le informamos…)"
+        }
+      ]
+    },
+    {
+      "id": "a1u12",
+      "unit": "A1-12 手机和网络",
+      "cefr": "A1",
+      "themeZh": "用手机和网络过日子:手机没电、家里网络不通、信号不好时打电话、找不在的人并留口信、拼读邮箱和网址、在手机店换套餐、教 Pilar 太太视频通话、听懂语音留言。",
+      "grammarZh": "funcionar(No funciona el wifi),oír(oigo、oyes)和电话里的固定说法(¿De parte de quién?、¿Quiere dejar un mensaje?),volver(o→ue),邮箱和网址的读法,用现在时说操作步骤(Primero abres la aplicación…)和 al final。",
+      "pronunciationZh": "打电话看不到表情,语调更重要:是非问句句尾上扬(¿Me oyes?),特殊疑问句句尾下降(¿Quién es?),陈述句平稳下降。",
+      "lessons": [
+        {
+          "id": "es.a1u12.l01",
+          "type": "vocab",
+          "titleZh": "手机没电了,网也断了",
+          "canDoZh": "能说出手机和网络的常见问题(没电、没信号、连不上网),请人帮忙",
+          "scenarioZh": "晚上李娜要和成都的家里视频,手机只剩百分之五的电,充电器也不知道放哪儿了;家里的 wifi 又连不上。Marta 找到了路由器,发现密码换了,背面写着新密码;李娜一边充电一边重新连上网。说话人:lina、marta。",
+          "grammarFocusZh": "funcionar(运转、好用):No funciona el wifi. Mi móvil no funciona bien;la batería、el cargador、cargar、la red、internet(一般不加冠词)、la aplicación、descargar;复习 11-6 的 la contraseña"
+        },
+        {
+          "id": "es.a1u12.l02",
+          "type": "grammar",
+          "titleZh": "¿Me oyes?—— 信号不好的时候",
+          "canDoZh": "能在信号不好时说听不清,请对方大声一点,约好待会儿再打",
+          "scenarioZh": "Javier 在地铁里给李娜打电话,信号断断续续:¿Me oyes? — No te oigo bien. ¿Puedes hablar más alto?。他想问明天小组作业几点见面,李娜只听到一半;最后两个人说 Te llamo luego,十分钟后 Javier 出了地铁又打过来,把时间说清楚。说话人:javier、lina。",
+          "grammarFocusZh": "oír(听见)不规则:oigo、oyes、oye、oímos、oís、oyen;oír(听见)和 escuchar(听)的区别;¿Me oyes? / Te llamo luego 里的 me、te 先当固定说法记(A2 系统讲宾语代词);más alto(大声点)"
+        },
+        {
+          "id": "es.a1u12.l03",
+          "type": "dialogue",
+          "titleZh": "Diego 现在不在",
+          "canDoZh": "能在打电话找人时说清找谁、自己是谁,对方不在时留下口信",
+          "scenarioZh": "Diego 的手机关机了,李娜打到他学生宿舍的前台找他:¿Está Diego, por favor?;前台问 ¿De parte de quién?,说 Diego 现在不在,大概晚上八点回来,问她要不要留言;李娜留言:明天下午五点在图书馆见,请他回电话。宿舍前台用 recepcionista。说话人:recepcionista、lina。",
+          "grammarFocusZh": "找人和留言的固定说法:¿Está…? / ¿De parte de quién? / Ahora no está / ¿Quiere dejar un mensaje?;volver(回来)o→ue:¿A qué hora vuelve? — Vuelve a las ocho;复习 usted 的变位"
+        },
+        {
+          "id": "es.a1u12.l04",
+          "type": "vocab",
+          "titleZh": "我的邮箱是……",
+          "canDoZh": "能拼读邮箱地址和网址,听写别人的邮箱",
+          "scenarioZh": "安德烈斯老师要给全班发 DELE 考试的资料,请大家留邮箱。李娜拼自己的邮箱:lina, punto, li, arroba……(邮箱自己编),老师听错了一个字母,请她再拼一遍;老师又念了语言中心网站的网址,让大家写下来。说话人:andres、lina。",
+          "grammarFocusZh": "邮箱和网址的读法:arroba(@)、punto(.)、guion(-)、guion bajo(_)、barra(/)、todo junto、en minúscula / en mayúscula;el correo electrónico、la página web;复习字母表和 ¿Cómo se escribe?"
+        },
+        {
+          "id": "es.a1u12.r01",
+          "type": "reading",
+          "titleZh": "两种手机套餐的广告",
+          "canDoZh": "能看懂手机套餐广告,比较流量、通话和价格,选出适合自己的一种",
+          "scenarioZh": "体裁:广告。手机店门口的两张广告(不写公司名):A 套餐每月 15 欧,20 GB 流量,电话随便打;B 套餐每月 25 欧,100 GB,在欧盟其他国家也能用;两种都没有最短合同期,随时可以取消。理解题问:李娜每个月用 30 GB 左右,哪种更合适?说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 más / menos … que、al mes、gratis、数字和价格;广告里的名词短语(Llamadas ilimitadas. Sin permanencia.)"
+        },
+        {
+          "id": "es.a1u12.l05",
+          "type": "dialogue",
+          "titleZh": "在手机店换套餐",
+          "canDoZh": "能在手机店说明自己的需要,比较两种套餐,问清价格和合同",
+          "scenarioZh": "李娜的预付卡流量总是不够,她去手机店想换成每月付费的套餐。店员问她每个月用多少流量、常给哪个国家打电话、有没有西班牙的银行账户和 NIE;李娜比较了两种套餐,选了便宜一点的,还问能不能保留原来的号码(可以)。手机店店员用 dependienta。说话人:dependienta、lina。",
+          "grammarFocusZh": "复习 preferir、necesitar、más … que 和 mejor;el contrato、los datos、la tarifa、mantener el número;店员对年轻顾客用 tú"
+        },
+        {
+          "id": "es.a1u12.l06",
+          "type": "grammar",
+          "titleZh": "教 Pilar 太太视频通话",
+          "canDoZh": "能一步一步地教别人用手机做一件事(用现在时说步骤)",
+          "scenarioZh": "Doña Pilar 的孙子住在巴塞罗那,她想在圣诞节前和他视频,可是不会用手机里的应用。李娜到她家,一步一步地教:Primero abre usted la aplicación, luego toca aquí…;最后真的打通了,Pilar 很高兴,把李娜介绍给孙子。说话人:pilar、lina。",
+          "grammarFocusZh": "用现在时说操作步骤(西语口语很常用,命令式 A2 再学):Primero abres… luego tocas… después escribes… al final…;对长辈用 usted 的变位(abre usted、toca usted);tocar 的另一个意思'点、碰'(tocar la pantalla);la pantalla、el botón、la videollamada"
+        },
+        {
+          "id": "es.a1u12.l07",
+          "type": "dialogue",
+          "titleZh": "三条语音留言",
+          "canDoZh": "能听懂语音留言里的关键信息(谁打来、什么事、几点、回电话的号码),并回电话",
+          "scenarioZh": "李娜上课时手机静音,下课后听到三条语音留言:Pilar 说楼里明天上午停水;银行说她的卡到了,可以去柜台取;Javier 说圣诞聚会改到星期六晚上八点,请她回电话。李娜记下要点,给 Javier 回了电话。说话人:pilar、recepcionista、javier、lina。",
+          "grammarFocusZh": "语音留言的开头和结尾(Hola, soy… / Te llamo para…);devolver la llamada(回电话);复习 llamar a + 人、钟点、星期和电话号码"
+        },
+        {
+          "id": "es.a1u12.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:电话约圣诞聚会",
+          "canDoZh": "能打一个较长的电话:约时间地点、确认地址和邮箱、处理通话中断",
+          "scenarioZh": "李娜给 Javier 打电话,商量十二月二十日在她和 Marta 家办圣诞前的聚会:请谁、几点、每人带什么;Javier 问地址,李娜报了街名、门牌号和楼层;通话中断了一次,Javier 重新打过来;最后李娜请他把 Diego 的新邮箱告诉她,Javier 一个字母一个字母地拼。对话至少 12 句。说话人:lina、javier。",
+          "grammarFocusZh": "综合复习本单元的电话用语、oír、地址和邮箱的读法、ir a + 动词原形和钟点"
+        },
+        {
+          "id": "es.a1u12.r02",
+          "type": "reading",
+          "titleZh": "群聊:圣诞聚会怎么安排",
+          "canDoZh": "能读懂朋友群聊里的安排(时间、地点、谁带什么),包括常见的缩写",
+          "scenarioZh": "体裁:群聊。李娜建了一个叫 Cena de Navidad 的群,大家在群里商量:Marta 做土豆饼,Diego 带饮料,Javier 带甜点,李娜包饺子;有人用缩写 q(que)、xq(porque)、tb(también)、finde(fin de semana),noteZh 里解释。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元;聊天缩写只要读懂,自己写正式文字时不用;群聊里的语气词(¡Genial!、Vale、¡Qué bien!)"
+        }
+      ]
+    },
+    {
+      "id": "a1u13",
+      "unit": "A1-13 人和性格",
+      "cefr": "A1",
+      "themeZh": "语言中心的圣诞晚会和'秘密朋友'(amigo invisible)交换礼物:描述一个人的长相和穿着,说性格和心情,认识新朋友、介绍朋友,猜猜礼物是谁送的。",
+      "grammarZh": "estar + 心情形容词(contento、triste、nervioso、enfadado、preocupado)和 ser + 性格的区别,ser listo / estar listo 这类意思不同的形容词,conocer(conozco)+ 人称 a,¿por qué? 和 porque 的写法,llevar gafas / tener barba 描述外貌。",
+      "pronunciationZh": "p / t / k 不送气,接近汉语拼音的 b / d / g:tímido、tranquilo、contento、paciente,中国学生最容易读成送气音。",
+      "lessons": [
+        {
+          "id": "es.a1u13.l01",
+          "type": "vocab",
+          "titleZh": "戴眼镜的那位是谁?",
+          "canDoZh": "能描述一个人的外貌细节(眼镜、胡子、发型、穿着),帮别人在人群里认出他",
+          "scenarioZh": "语言中心的圣诞晚会上人很多,Javier 第一次来,问李娜哪位是安德烈斯老师、哪些是她的同学。李娜一个个指给他看:留胡子、戴眼镜的是安德烈斯;长卷发、个子很高的是 Anna;短头发、穿绿毛衣的是 Paul。同学只被提到。说话人:javier、lina。",
+          "grammarFocusZh": "llevar gafas(戴眼镜)、tener barba / bigote(留胡子);el pelo largo / corto / rizado / liso;复习 2-4 的 ser + 形容词和 7-1 的 llevar(穿着);ese / esa 指远一点的人(esa chica del pelo rizado)"
+        },
+        {
+          "id": "es.a1u13.l02",
+          "type": "grammar",
+          "titleZh": "你今天怎么了?",
+          "canDoZh": "能问别人心情怎么样、为什么,说自己高兴、难过、紧张、生气或担心",
+          "scenarioZh": "晚会前一天,Marta 下夜班回家,一句话也不说。李娜问 ¿Estás bien? ¿Qué te pasa?;Marta 说她没生气,只是很累,还有点担心,因为下周有一个很重要的护士考试。李娜说她也有点紧张,因为明天晚会上要用西语唱一首歌。说话人:lina、marta。",
+          "grammarFocusZh": "estar + 心情形容词(一时的状态):estar contento / triste / nervioso / enfadado / preocupado / aburrido;和 ser + 性格(长期的特点)对比;estar de buen / mal humor;复习 ¿Qué te pasa?"
+        },
+        {
+          "id": "es.a1u13.l03",
+          "type": "grammar",
+          "titleZh": "你认识安德烈斯老师吗?",
+          "canDoZh": "能问别人认不认识某人或某地,并把朋友介绍给别人",
+          "scenarioZh": "晚会上 Diego 也来了。李娜问他:¿Conoces a Andrés?,Diego 说不认识,李娜就给他们介绍:Andrés, te presento a mi amigo Diego。安德烈斯问 Diego 熟不熟悉马德里,Diego 说他已经很了解马德里的老城,可是还没去过巴塞罗那。说话人:lina、diego、andres。",
+          "grammarFocusZh": "conocer(认识、了解)第一人称 conozco;认识人要加人称 a(Conozco a Marta),了解地方不加(Conozco Toledo);saber(会、知道某个信息)和 conocer 的区别;介绍人:Te presento a… / Encantado de conocerte"
+        },
+        {
+          "id": "es.a1u13.l04",
+          "type": "vocab",
+          "titleZh": "他是一个怎样的人?",
+          "canDoZh": "能用更多形容词说一个人的性格,说出他的优点",
+          "scenarioZh": "抽'秘密朋友'的签:李娜抽到了安德烈斯老师,不知道送什么,问 Javier 的意见。Javier 先问他是一个怎样的人;李娜说老师很有耐心、很幽默、做事很有条理,也很守时,喜欢看书和讲马德里的历史;Javier 说那就送一本书吧。说话人:lina、javier。",
+          "grammarFocusZh": "性格形容词:paciente、gracioso、ordenado / desordenado、generoso、abierto、educado、responsable、puntual;-e 和辅音结尾的形容词男女同形;复习 2-6 的 trabajador、tímido、hablador 和 bastante / muy"
+        },
+        {
+          "id": "es.a1u13.r01",
+          "type": "reading",
+          "titleZh": "'秘密朋友'活动通知",
+          "canDoZh": "能读懂活动通知里的规则:日期、地点、礼物价格、怎么抽签",
+          "scenarioZh": "体裁:通知。语言中心发给学生的圣诞晚会通知:时间和地点;'秘密朋友'的规则:每个人抽一个名字,给这个人买一份最多十欧的礼物,礼物上只写对方的名字,不写自己的;晚会上大家一起猜是谁送的;欢迎带语伴来。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 hay que、钟点和日期;diez euros como máximo(最多十欧);el amigo invisible、el sorteo、la regla"
+        },
+        {
+          "id": "es.a1u13.l05",
+          "type": "dialogue",
+          "titleZh": "送什么礼物好?",
+          "canDoZh": "能根据一个人的爱好和性格挑礼物,说出理由",
+          "scenarioZh": "李娜和 Marta 在书店里给安德烈斯老师挑礼物:一本马德里历史的小书、一个杯子,还是一盒巧克力?Marta 问 ¿Por qué un libro?,李娜说因为他很喜欢历史,上课时总讲马德里的故事;最后买了那本小书,九欧五十,正好不超过十欧。说话人:lina、marta。",
+          "grammarFocusZh": "复习 8-7 的 ¿por qué? 和 8-8 的 porque:问句分开写、有重音符号,回答连写、没有重音符号,写的时候最容易弄混;复习 le gusta / le encantan 说别人的爱好、para + 人(Es para Andrés)和价格"
+        },
+        {
+          "id": "es.a1u13.l06",
+          "type": "grammar",
+          "titleZh": "ser listo 还是 estar listo?",
+          "canDoZh": "能区分几个和 ser / estar 搭配时意思不同的形容词",
+          "scenarioZh": "晚会开始前,Javier 问李娜:¿Estás lista?;安德烈斯老师听见了,笑着给他们讲:ser listo 是聪明,estar listo 是准备好了;ser aburrido 是这个人很无聊,estar aburrido 是觉得无聊;饭菜 está rico 是好吃,一个人 es rico 是有钱。说话人:javier、lina、andres。",
+          "grammarFocusZh": "同一个形容词配 ser 和 estar 意思不同:listo、aburrido、rico、malo(ser malo 坏 / estar malo 生病);复习 3-5 的 ser / estar + 形容词的基本区别"
+        },
+        {
+          "id": "es.a1u13.l07",
+          "type": "dialogue",
+          "titleZh": "猜猜是谁送的?",
+          "canDoZh": "能根据线索猜人,收到礼物时表达惊喜和感谢",
+          "scenarioZh": "晚会上交换礼物。李娜收到一条红围巾,上面没写是谁送的,大家帮她猜:是个子很高、戴眼镜、很幽默的人吗?安德烈斯说不是他,Diego 说谁都不知道;最后 Anna(只被提到)举手说是她,李娜说 ¡Me encanta! ¡Muchas gracias!。说话人:lina、andres、diego。",
+          "grammarFocusZh": "复习 10 单元的 alguien / nadie / nada(Es alguien de la clase. Nadie sabe nada.);收到礼物的说法:¡Qué bonito! ¡Me encanta! ¡Muchas gracias!;用外貌和性格的词描述人"
+        },
+        {
+          "id": "es.a1u13.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:晚会上的聊天",
+          "canDoZh": "能在聚会上和刚认识的人聊天:介绍自己和朋友、描述别人、说自己的心情",
+          "scenarioZh": "晚会快结束时,李娜、Javier、Diego 和安德烈斯老师坐在一起聊天:李娜介绍 Javier 是她的语伴,老师问 Javier 为什么学中文;大家说起晚会上的人和今晚的心情(李娜唱完歌,不紧张了,很开心);Diego 说他下学期也想来语言中心上课。对话至少 12 句。说话人:lina、javier、diego、andres。",
+          "grammarFocusZh": "综合复习本单元:conocer、presentar、ser / estar + 形容词、¿por qué? / porque、外貌和性格的词"
+        },
+        {
+          "id": "es.a1u13.r02",
+          "type": "reading",
+          "titleZh": "我的语伴 Javier",
+          "canDoZh": "能读懂并写出一段介绍一个人的短文:外貌、性格、爱好、和自己的关系",
+          "scenarioZh": "体裁:人物介绍短文。语言中心的电子小报有一个栏目'我的语伴',李娜写 Javier:他十九岁,个子很高,黑头发,总是穿运动鞋;他很热情、话很多,但有点不守时;他学中文很认真,特别爱足球;他们每周五下午五点见面,先说一个小时西语,再说一个小时中文。说话人用 lina。至少 8 句。",
+          "grammarFocusZh": "复习全单元;用 porque、pero、y 把句子连起来;一段话里外貌、性格、爱好的顺序"
+        }
+      ]
+    },
+    {
+      "id": "a1u14",
+      "unit": "A1-14 家务",
+      "cefr": "A1",
+      "themeZh": "圣诞前和 Marta 一起大扫除:分配家务、说多久做一次、学用洗衣机、分清衣服是谁的、向邻居借东西、跟房东说家里坏了的东西。",
+      "grammarZh": "频率的说法(复习 una vez / todos los días,新学 cada + 名词和 ¿Cada cuánto…?),traer(traigo)和 llevar 的方向,完整的物主形容词(mi、tu、su、nuestro、vuestro、su)和 ¿de quién es?,ayudar a + 动词原形,dejar(借给)。",
+      "pronunciationZh": "r 和 rr:barrer、la basura、ordenar、regar 里有单击也有颤音,再练一遍 pero / perro、caro / carro 的对立。",
+      "lessons": [
+        {
+          "id": "es.a1u14.l01",
+          "type": "vocab",
+          "titleZh": "家务表",
+          "canDoZh": "能说出常见的家务,和室友一起分配谁做什么",
+          "scenarioZh": "Marta 的妈妈下周从塞维利亚来马德里看她,两个人决定先大扫除,再做一张家务表贴在冰箱上:李娜负责扫地、拖地和倒垃圾,Marta 负责洗碗、洗衣服和打扫卫生间,客厅两个人一起收拾。说话人:marta、lina。",
+          "grammarFocusZh": "家务的说法:limpiar、barrer、fregar los platos / el suelo、pasar la aspiradora、poner la lavadora(复习 3-6 的 poner)、sacar la basura、hacer la cama、ordenar;fregar 是 e→ie:friego、friegas…"
+        },
+        {
+          "id": "es.a1u14.l02",
+          "type": "grammar",
+          "titleZh": "一周打扫几次?",
+          "canDoZh": "能说一件事多久做一次(每天、每周两次、每个月一次)",
+          "scenarioZh": "语言交换时,Javier 听说李娜在做家务表,问她们多久打扫一次。李娜说每天倒垃圾,每周扫两次地,每个月擦一次窗户;Javier 说在他家,爸爸每天做饭,他自己一周只整理一次房间,李娜笑他太懒。说话人:javier、lina。",
+          "grammarFocusZh": "复习 5-7 的 una vez / dos veces 和 5-6 的 todos los …(una vez a la semana、dos veces al mes、todos los días);新学 cada + 名词(cada día、cada dos semanas)和 ¿Cada cuánto…? / ¿Con qué frecuencia…?;复习 8-2 的 siempre、a veces、nunca"
+        },
+        {
+          "id": "es.a1u14.l03",
+          "type": "dialogue",
+          "titleZh": "洗衣机怎么用?",
+          "canDoZh": "能听懂并说出使用家用电器的步骤",
+          "scenarioZh": "李娜第一次用这台洗衣机,看不懂上面的字。Marta 一步一步地告诉她:先把白衣服和彩色衣服分开,放进洗衣机,加洗衣液,选三十度,按这个按钮;洗完以后晾在阳台上,冬天干得慢。说话人:marta、lina。",
+          "grammarFocusZh": "复习 12-6 用现在时说步骤(Primero separas la ropa, luego pones el detergente…);tender la ropa(晾衣服)e→ie:tiendo、tiendes…;secar、el detergente、el programa;agua fría / caliente"
+        },
+        {
+          "id": "es.a1u14.l04",
+          "type": "grammar",
+          "titleZh": "这是谁的袜子?",
+          "canDoZh": "能问和说东西是谁的,用对物主形容词",
+          "scenarioZh": "楼里天井的晾衣绳上掉下来几件衣服,Doña Pilar 拿上楼来问:¿Es vuestra esta camiseta? ¿De quién son estos calcetines?。李娜说 T 恤是她的,袜子是 Marta 的;还有一条毛巾不是她们的,Pilar 笑着说那可能是她自己的。说话人:pilar、lina、marta。",
+          "grammarFocusZh": "物主形容词全套:mi(s)、tu(s)、su(s)、nuestro / nuestra(s)、vuestro / vuestra(s)、su(s),nuestro / vuestro 要和名词的性数一致;¿De quién es / son…? — Es de Marta;su 可以指他 / 她 / 您 / 他们,不清楚时用 de + 人"
+        },
+        {
+          "id": "es.a1u14.r01",
+          "type": "reading",
+          "titleZh": "楼里的公告",
+          "canDoZh": "能读懂楼里贴的公告:规定、时间和联系人",
+          "scenarioZh": "体裁:公告。楼门口贴着住户委员会的公告:垃圾晚上八点到十点放到街边的垃圾桶;周末不要在阳台上晾大件衣服;楼梯每周二有人打扫;十二月十八日晚上七点开住户会议,在 Doña Pilar 家。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 hay que、频率和钟点;公告里用动词原形表示规定(No tender la ropa en el balcón);la comunidad de vecinos、la reunión"
+        },
+        {
+          "id": "es.a1u14.l05",
+          "type": "dialogue",
+          "titleZh": "能借我用一下吸尘器吗?",
+          "canDoZh": "能向邻居借东西、请别人帮忙,也能答应别人的请求",
+          "scenarioZh": "家里的吸尘器坏了,李娜下楼找 Doña Pilar:¿Me deja su aspiradora?;Pilar 说当然可以,问她们需不需要别的。李娜说她用完一个小时以后就拿回来;Pilar 请她顺便把信箱里的两封信带上去给 Marta,还说明天可以帮她们挂新窗帘。说话人:lina、pilar。",
+          "grammarFocusZh": "traer(带来)第一人称 traigo,其他人称规则(traes、trae…),和 llevar(带去)的方向不同;ayudar a + 动词原形(¿Te ayudo a poner las cortinas?);dejar 的意思'借给'(¿Me deja…?);¿Me deja…? 里的 me 先当固定说法"
+        },
+        {
+          "id": "es.a1u14.l06",
+          "type": "vocab",
+          "titleZh": "厨房和卫生间里的东西",
+          "canDoZh": "能说出厨房和卫生间里的设备和用品,说哪里需要打扫",
+          "scenarioZh": "大扫除那天,Marta 和李娜一个房间一个房间地看:冰箱要清空,烤箱和微波炉要擦,水槽有点脏;卫生间的镜子、洗手池和淋浴要擦干净,毛巾和香皂要换新的。Marta 说 Hay que limpiar la nevera,李娜记在单子上。说话人:marta、lina。",
+          "grammarFocusZh": "la nevera、el horno、el microondas、el fregadero、la ducha、el lavabo、la toalla、el jabón;复习 3-6 的 el espejo、hay que + 动词原形和 estar + 形容词(está sucio / limpio)"
+        },
+        {
+          "id": "es.a1u14.l07",
+          "type": "dialogue",
+          "titleZh": "东西坏了,找房东",
+          "canDoZh": "能向房东说明家里什么东西坏了、有多严重,约好修理的时间",
+          "scenarioZh": "打扫卫生间时,李娜发现淋浴的热水时有时无,厨房的一盏灯也不亮了。她下楼找房东 Doña Pilar,说明情况;Pilar 说明天给水管工打电话,问她们明天上午在不在家,灯泡她先给一个。说话人:lina、pilar。",
+          "grammarFocusZh": "复习 12-1 的 funcionar(No funciona la luz de la cocina)和 hay(No hay agua caliente);roto / rota(坏了)当形容词用;la bombilla、el grifo、el fontanero;对房东用 usted"
+        },
+        {
+          "id": "es.a1u14.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:Marta 的妈妈要来了",
+          "canDoZh": "能和室友一起安排一件事:分工、说时间、借东西、处理意外",
+          "scenarioZh": "Marta 的妈妈明天中午到。前一晚 Marta 和李娜检查家里:还有什么没打扫、谁去买花、谁去车站接人;Doña Pilar 上楼来还她们的晾衣夹,也帮着出主意;最后发现新灯泡还没装,三个人一起装好。Marta 的妈妈只被提到。对话至少 12 句。说话人:marta、lina、pilar。",
+          "grammarFocusZh": "综合复习本单元:家务的词、频率、物主形容词、traer / llevar、hay que / tener que"
+        },
+        {
+          "id": "es.a1u14.r02",
+          "type": "reading",
+          "titleZh": "合租生活小贴士",
+          "canDoZh": "能读懂一份生活指南,了解西班牙合租和垃圾分类的习惯",
+          "scenarioZh": "体裁:生活指南。大学国际处给留学生的'合租生活小贴士':做一张家务表;晚上十一点以后别太吵;水电费大家平摊;垃圾要分类:黄色的桶放塑料瓶和罐子,蓝色的放纸,绿色的放玻璃,其他垃圾按街区的规定放;有问题先和房东好好说。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元;指南里的 hay que、tener que 和动词原形;el contenedor、el plástico、el papel、el vidrio、reciclar"
+        }
+      ]
+    },
+    {
+      "id": "a1u15",
+      "unit": "A1-15 做饭",
+      "cefr": "A1",
+      "themeZh": "放假前在家请朋友吃饭:定菜单、写购物清单、在蔬果店按公斤和克买菜、跟 Marta 学做 tortilla、和 Diego 包饺子、尝味道、问清大家的忌口,最后办一场中西合璧的圣诞晚餐。",
+      "grammarZh": "克、公斤、升和 un poco de / bastante / poco + 名词,¿Me pones…?(请店主拿给你),e→i 动词 pedir、servir、repetir、freír,中性指示词 esto / eso,复习用现在时说做菜的步骤和 antes de / después de + 动词原形。",
+      "pronunciationZh": "c / z 读 [θ] 和 s 读 [s] 的对立:cocer / coser、la taza / la tasa、cien / sien;食材里的 [θ]:cebolla、aceite、azúcar、zanahoria。",
+      "lessons": [
+        {
+          "id": "es.a1u15.l01",
+          "type": "vocab",
+          "titleZh": "定菜单、写购物清单",
+          "canDoZh": "能和别人商量一顿饭的菜单,写出需要买的食材和数量",
+          "scenarioZh": "离十二月二十日的聚会还有三天,Marta 和李娜在厨房里定菜单:Marta 做土豆饼和沙拉,李娜包饺子、做番茄炒蛋。两个人看冰箱里还有什么,一边说一边写购物清单:土豆、洋葱、大蒜、橄榄油、面粉、胡萝卜、肉馅、酱油、糖。说话人:marta、lina。",
+          "grammarFocusZh": "食材名词:la patata、la cebolla、el ajo、el aceite de oliva、la harina、la zanahoria、la carne picada、la salsa de soja、el azúcar;不可数名词前一般不用 un / una(aceite、harina);cuánto / cuánta / cuántos / cuántas + 名词;复习 4-6 的容器说法和 la lista de la compra"
+        },
+        {
+          "id": "es.a1u15.l02",
+          "type": "dialogue",
+          "titleZh": "在蔬果店买菜",
+          "canDoZh": "能在小店按重量买菜,说'给我来……',问价和数量",
+          "scenarioZh": "李娜拿着清单去 Pilar 推荐的蔬果店。老板问 ¿Qué te pongo, guapa?,李娜说:¿Me pones dos kilos de patatas y medio kilo de cebollas?;她还要三百克胡萝卜、一点香菜,老板说香菜今天没有了;最后老板问 ¿Algo más?,告诉她一共多少钱。说话人:frutero、lina。",
+          "grammarFocusZh": "el gramo / el litro(trescientos gramos de zanahorias、un litro de leche);un poco de / bastante / poco + 名词(poco 是'不多',un poco de 是'一点儿');¿Me pones…? 先当固定说法记(请店主拿给你);复习 4-3 的 kilo、medio 和 ¿Algo más?"
+        },
+        {
+          "id": "es.a1u15.l03",
+          "type": "grammar",
+          "titleZh": "跟 Marta 学做 tortilla",
+          "canDoZh": "能听懂一道菜的做法,并按顺序说出做菜的步骤",
+          "scenarioZh": "Marta 先在家试做一次土豆饼,教李娜:先削土豆、切洋葱,在锅里用很多油慢慢炸,炸好以后放进打好的鸡蛋里,加盐搅拌,再倒回锅里,一面煎好以后用盘子翻过来。李娜一边看一边记,问 Marta 放不放洋葱,Marta 说她家一直放。说话人:marta、lina。",
+          "grammarFocusZh": "复习 12-6 用现在时说步骤(Primero pelas las patatas, después cortas la cebolla…);freír(炸、煎)e→i,而且要写重音:frío、fríes、fríe…;pelar、cortar、batir、añadir、mezclar、dar la vuelta;复习 antes de / después de + 动词原形"
+        },
+        {
+          "id": "es.a1u15.l04",
+          "type": "vocab",
+          "titleZh": "和 Diego 包饺子",
+          "canDoZh": "能说出厨房里的锅具和做法,问'这是什么'并回答",
+          "scenarioZh": "Diego 来帮李娜包饺子。他拿起一块姜问 ¿Qué es esto?,又指着酱油问 ¿Y eso?;李娜教他和面、放馅、捏边,说水开了才能下饺子。Diego 说饺子有点像墨西哥的一种小馅饼,只是做法不一样。说话人:lina、diego。",
+          "grammarFocusZh": "中性指示词 esto / eso:指不知道名字的东西或一件事,不分阴阳性,后面不跟名词(¿Qué es esto?),和 7-3 的 este / ese(跟名词)对比;la olla、la sartén、el jengibre、la masa、el relleno;hervir(e→ie):El agua hierve"
+        },
+        {
+          "id": "es.a1u15.r01",
+          "type": "reading",
+          "titleZh": "李娜的番茄炒蛋菜谱",
+          "canDoZh": "能读懂并写出一张简单的菜谱:材料、用量和步骤",
+          "scenarioZh": "体裁:菜谱卡片。Marta 想学番茄炒蛋,李娜用西语写了一张菜谱贴在冰箱上:材料(三个鸡蛋、两个番茄、一点盐、一小勺糖、油),做法(先切番茄、打鸡蛋,先炒鸡蛋,再炒番茄,最后放在一起,加盐和糖)。只用 l01–l04 的内容。说话人用 lina。至少 6 句。",
+          "grammarFocusZh": "菜谱的格式(Ingredientes / Preparación);用现在时 tú 的形式说步骤;una cucharada de、un poco de;primero … luego … después … al final"
+        },
+        {
+          "id": "es.a1u15.l05",
+          "type": "grammar",
+          "titleZh": "我们点外卖吧",
+          "canDoZh": "能说想点什么、问餐馆营业到几点,区分'要东西'和'问问题'",
+          "scenarioZh": "聚会前一天,两个人打扫了一整天,累得不想做饭。Marta 说:¿Pedimos algo?;李娜点炒饭,Marta 点比萨,外卖网站上写着那家店晚上供餐到十一点。吃的时候 Marta 问李娜 ¿Repites?(再来一份吗?),李娜说她已经吃饱了。说话人:marta、lina。",
+          "grammarFocusZh": "e→i 动词:pedir(要、点)、servir(供应、上菜)、repetir(重复;吃完再来一份):pido、pides、pide、pedimos、pedís、piden;复习 6-6 的 seguir;pedir(要东西)和 preguntar(问问题)的区别;estar lleno / llena(吃饱了)"
+        },
+        {
+          "id": "es.a1u15.l06",
+          "type": "vocab",
+          "titleZh": "尝尝味道",
+          "canDoZh": "能说一道菜的味道(咸、淡、甜、苦、酸、辣),并提出怎么调",
+          "scenarioZh": "聚会当天下午,Marta 和李娜互相尝对方的菜:Marta 觉得饺子馅有点淡,李娜加了一点酱油;李娜觉得沙拉有点酸;Marta 尝了一口辣酱说太辣了,李娜说她觉得一点也不辣。说话人:marta、lina。",
+          "grammarFocusZh": "说菜的味道用 estar:La sopa está salada / sosa(做出来的结果),复习 13-6 的 estar rico;salado、soso、dulce、amargo、ácido;necesita un poco más de sal;demasiado / un poco + 形容词"
+        },
+        {
+          "id": "es.a1u15.l07",
+          "type": "dialogue",
+          "titleZh": "大家都吃什么?",
+          "canDoZh": "能问别人的忌口和过敏,说自己不吃或不能吃什么",
+          "scenarioZh": "李娜在群里打视频电话问朋友们的忌口:¿Coméis de todo?;Javier 对坚果过敏,Diego 什么都吃,特别爱吃辣;Javier 说他的一个表哥是素食者,下次可以一起来。李娜说饺子里没有坚果,番茄炒蛋也可以做一盘不辣的。说话人:lina、javier、diego。",
+          "grammarFocusZh": "ser alérgico a / tener alergia a + 名词、ser vegetariano / vegetariana、comer de todo、no comer carne;los frutos secos;复习 poder(No puedo comer…)和 algo / nada"
+        },
+        {
+          "id": "es.a1u15.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:圣诞前的家宴",
+          "canDoZh": "能在家里招待朋友:欢迎客人、上菜、介绍菜的做法、评价味道、饭后一起收拾",
+          "scenarioZh": "十二月二十日晚上,Javier 和 Diego 到了。Marta 和李娜上菜,介绍每道菜是什么、怎么做的;大家尝了说味道,Diego 吃了很多辣酱,Javier 问饺子里有没有坚果;Javier 带来的甜点是 turrón;饭后 Diego 问 ¿Os ayudo a fregar?,大家一起收拾厨房。对话至少 12 句。说话人:lina、marta、javier、diego。",
+          "grammarFocusZh": "综合复习本单元:食材和味道的词、servir / repetir、esto / eso、用现在时说做法、ayudar a + 动词原形"
+        },
+        {
+          "id": "es.a1u15.r02",
+          "type": "reading",
+          "titleZh": "西班牙人一天吃几顿饭?",
+          "canDoZh": "能读懂一篇介绍饮食习惯的短文,比较西班牙和中国的饭点",
+          "scenarioZh": "体裁:文化短文。语言中心电子小报上的一篇文章:很多西班牙人一天吃五顿——早上一杯咖啡和面包,十一点左右再吃一点(el almuerzo),两三点吃午饭(la comida,一天最重要的一顿),下午六点吃点心(la merienda),晚上九点以后吃晚饭(la cena);最后和中国的饭点做对比。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元和 5-5 的饭点;el almuerzo / la comida / la merienda / la cena 的区别(各地叫法不完全一样,noteZh 说明);la gente、los españoles 作主语的第三人称"
+        }
+      ]
+    },
+    {
+      "id": "a1u16",
+      "unit": "A1-16 节日和生日",
+      "cefr": "A1",
+      "themeZh": "在马德里过第一个圣诞和新年:平安夜去 Javier 家吃饭、除夕在太阳门吃十二颗葡萄、三王节和 Pilar 太太吃 roscón、写贺卡和新年计划,一月给 Diego 过二十一岁生日。",
+      "grammarZh": "decir(digo)、dar(doy)和复习 8-7 的 venir,ser 说活动在哪儿举行(La cena es en casa de Javier),llevar(带去)和 traer(带来),pensar + 动词原形(打算),节日祝福的固定说法。",
+      "pronunciationZh": "y 在词尾读元音 [i](hoy、muy、rey),在元音前读 [ʝ](Reyes、yo);ñ 不能漏写漏读(año 是'年',写成 ano 就成了另一个不雅的词)。",
+      "lessons": [
+        {
+          "id": "es.a1u16.l01",
+          "type": "vocab",
+          "titleZh": "西班牙人怎么过圣诞?",
+          "canDoZh": "能说出西班牙圣诞和新年的主要节日、日期和习俗",
+          "scenarioZh": "十二月中旬,楼门口摆上了小小的耶稣诞生场景,李娜问 Doña Pilar 这是什么。Pilar 给她讲西班牙的节日:十二月二十四日平安夜家人一起吃晚饭,二十五日圣诞节,三十一日除夕吃葡萄,一月六日三王节孩子们收礼物,还有 turrón 和 roscón。说话人:pilar、lina。",
+          "grammarFocusZh": "la Navidad、la Nochebuena、la Nochevieja、el Año Nuevo、los Reyes Magos、el belén、el árbol de Navidad、el turrón、las uvas、el roscón;节日名称大写;复习日期(el veinticuatro de diciembre)和 14-5 的 traer(Los Reyes Magos traen regalos)"
+        },
+        {
+          "id": "es.a1u16.l02",
+          "type": "grammar",
+          "titleZh": "你们来吃平安夜晚饭吗?",
+          "canDoZh": "能邀请别人来参加活动,说清活动在哪儿、几点,并接受或说明自己去不去",
+          "scenarioZh": "Javier 知道李娜和 Diego 圣诞节都回不了家,邀请他们平安夜去他家吃饭:¿Venís a cenar en Nochebuena? La cena es en casa de mis padres, a las nueve y media。李娜说 Sí, vengo;Diego 说他也去,还问要不要带什么。Javier 说他家人很多,至少二十个人。说话人:javier、lina、diego。",
+          "grammarFocusZh": "复习 8-7 的 venir(vengo、vienes…);venir(来说话人这儿)和 ir(去别处)的区别(¿Vienes a mi casa? / Voy a tu casa);ser 说活动的地点和时间(La cena es en casa de mis padres / es a las nueve),estar 说人和东西在哪儿(Mis padres están en casa)"
+        },
+        {
+          "id": "es.a1u16.l03",
+          "type": "dialogue",
+          "titleZh": "带什么礼物去?",
+          "canDoZh": "能请教别人做客的礼节,决定带什么礼物、送给谁",
+          "scenarioZh": "李娜第一次去西班牙人家里过节,不知道带什么,去问 Doña Pilar。Pilar 说可以带一盒 turrón 或者一束花,送给 Javier 的妈妈;到了要和大家打招呼、贴面两下,吃完饭要说谢谢。李娜说在中国去别人家也要带礼物,常带水果。说话人:lina、pilar。",
+          "grammarFocusZh": "dar(给)第一人称 doy,其他人称规则(das、da…);dar las gracias;llevar(带去)和 14-5 的 traer(带来)对比;dar dos besos(贴面两下);复习 para + 人"
+        },
+        {
+          "id": "es.a1u16.l04",
+          "type": "vocab",
+          "titleZh": "节日祝福和贺卡",
+          "canDoZh": "能说和写常用的节日祝福,问别人在自己国家怎么说",
+          "scenarioZh": "放假前最后一节西语课,安德烈斯老师教大家节日祝福:¡Feliz Navidad! ¡Feliz Año Nuevo! ¡Felices fiestas! ¡Felicidades!,还有 ¡Que lo pases bien!;他问李娜:¿Qué decís en China en Año Nuevo?,李娜说'新年快乐'怎么说。最后每个人给同学写一张贺卡。说话人:andres、lina。",
+          "grammarFocusZh": "decir(说)不规则:digo、dices、dice、decimos、decís、dicen;decir(说内容)和 hablar(说话、讲一种语言)的区别;¡Que lo pases bien! 先当固定说法记(和 4-5 的 ¡Que aproveche! 一样);la tarjeta de Navidad"
+        },
+        {
+          "id": "es.a1u16.r01",
+          "type": "reading",
+          "titleZh": "圣诞贺卡和回信",
+          "canDoZh": "能读懂并写出一张简短的节日贺卡和回卡",
+          "scenarioZh": "体裁:贺卡。李娜给 Doña Pilar 写了一张圣诞贺卡,谢谢她这几个月的帮助,祝她节日快乐;第二天信箱里有 Pilar 的回卡:祝她新年快乐,说三王节请她和 Marta 来家里吃 roscón。只用 l01–l04 的内容。说话人用 lina(她写的贺卡)和 narrator(房东太太的回卡)。至少 6 句。",
+          "grammarFocusZh": "贺卡的格式(Querida Doña Pilar: … / ¡Feliz Navidad! / Un beso);复习本单元的祝福语和 venir、dar"
+        },
+        {
+          "id": "es.a1u16.l05",
+          "type": "dialogue",
+          "titleZh": "太阳门的十二颗葡萄",
+          "canDoZh": "能和朋友一起过一个节日:约见面、看时间、按习俗做、互相祝福",
+          "scenarioZh": "十二月三十一日晚上,李娜、Javier 和 Diego 挤在太阳门广场上,每人手里拿着十二颗葡萄。Javier 解释:十二点的钟声一响,每响一下吃一颗;钟声前先有几下预备的响声,别吃早了。钟声响完,大家拥抱说 ¡Feliz Año!;Diego 说墨西哥也有吃葡萄的习惯。说话人:javier、lina、diego。",
+          "grammarFocusZh": "复习钟点(a las doce en punto)和 ¡Qué + 名词!(¡Qué gente!);las campanadas、las uvas、en punto;ya(马上、就现在)"
+        },
+        {
+          "id": "es.a1u16.l06",
+          "type": "grammar",
+          "titleZh": "新年计划",
+          "canDoZh": "能说自己新一年打算做什么、想学什么",
+          "scenarioZh": "一月二日 Marta 从塞维利亚回来,两个人在厨房说新年计划:李娜打算每周运动三次、每个月读一本西语书,还想学会做西班牙海鲜饭;Marta 打算通过护士考试、少喝咖啡、多睡觉。两个人把计划写下来贴在冰箱上。说话人:marta、lina。",
+          "grammarFocusZh": "pensar + 动词原形(打算)e→ie:pienso、piensas…;aprender a + 动词原形;和 querer + 动词原形、ir a + 动词原形比较;los propósitos de Año Nuevo;复习 14-2 的频率说法"
+        },
+        {
+          "id": "es.a1u16.l07",
+          "type": "dialogue",
+          "titleZh": "三王节的 roscón",
+          "canDoZh": "能参加一个传统习俗,听懂规则,对结果做出反应",
+          "scenarioZh": "一月六日下午,Doña Pilar 请李娜和 Marta 去她家喝热巧克力、吃 roscón。Pilar 解释:roscón 里藏着一个小人偶和一颗干豆,吃到小人偶的人戴纸王冠,吃到豆子的人明年要买 roscón。结果李娜吃到了豆子,大家都笑了,Marta 说 ¡Te toca pagar el próximo año!。说话人:pilar、lina、marta。",
+          "grammarFocusZh": "复习 dar、decir、venir;la corona、la figurita;tocar 的又一个意思'轮到'(Te toca…);豆子叫 el haba,和 el agua 一样是阴性名词但单数用 el,登记方式参考 el agua"
+        },
+        {
+          "id": "es.a1u16.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:Diego 的生日派对",
+          "canDoZh": "能参加并帮忙办一个生日派对:邀请、准备、唱生日歌、送礼物、说祝福",
+          "scenarioZh": "一月中旬 Diego 二十一岁生日,朋友们在李娜和 Marta 家给他办派对:大家互相问谁来、几点来、带什么,点蜡烛、唱 Cumpleaños feliz、送礼物(一件球衣和一本书)。Diego 说在墨西哥生日要唱另一首歌(歌名只写在 noteZh),大家祝他 ¡Que cumplas muchos más!。对话至少 12 句。说话人:lina、marta、javier、diego。",
+          "grammarFocusZh": "综合复习本单元:venir、decir、dar、ser 说活动的地点和时间、祝福语;复习 5-3 的 cumpleaños 和年龄;¡Que cumplas muchos más! 当固定说法记"
+        },
+        {
+          "id": "es.a1u16.r02",
+          "type": "reading",
+          "titleZh": "两个新年",
+          "canDoZh": "能读懂一篇比较两国节日的短文,说出相同和不同的地方",
+          "scenarioZh": "体裁:短文。李娜为语言中心的电子小报写了一篇《两个新年》:西班牙的新年是一月一日,大家在家或在广场吃十二颗葡萄,一月六日还有三王节;中国的新年一般在一月底或二月,全家吃年夜饭、包饺子、给孩子红包、放烟花;今年她打算在马德里和朋友们一起过春节。说话人用 lina。至少 8 句。",
+          "grammarFocusZh": "复习全单元;用 En España… / En China… 对比;pensar / ir a + 动词原形说打算"
+        }
+      ]
+    },
+    {
+      "id": "a1u17",
+      "unit": "A1-17 运动和健康",
+      "cefr": "A1",
+      "themeZh": "按新年计划开始运动:回体育中心报课、和 Javier 在 Retiro 公园跑步、看 Diego 踢球、去游泳池游泳、说会不会和多久做一次某项运动、谈睡眠和饮食等健康习惯。",
+      "grammarZh": "hacer / jugar a / practicar + 运动(扩展 8-2),apuntarse a,saber、poder 和 conocer 的区别,empezar a + 动词原形,dormir(o→ue),时长和频率(una hora al día、dos veces a la semana)。",
+      "pronunciationZh": "g 在 a、o、u 前读 [g](ganar、gol),在两个元音之间更轻(jugar、el agua);gue / gui 里的 u 不发音(guitarra、Miguel),güe 的 u 要读(bilingüe、pingüino);gimnasio 的 g 读 [x]。",
+      "lessons": [
+        {
+          "id": "es.a1u17.l01",
+          "type": "vocab",
+          "titleZh": "体育中心的课",
+          "canDoZh": "能在体育中心问有哪些课、什么时候上、多少钱,并报名",
+          "scenarioZh": "一月中旬,李娜拿着 1-8 办的健身卡回到大学体育中心,还是那位前台工作人员。李娜问有什么课:瑜伽、游泳、篮球、网球,还有西班牙很流行的 pádel;前台告诉她每门课每周几次、几点、学生价多少,李娜报了瑜伽。说话人:recepcionista、lina。",
+          "grammarFocusZh": "apuntarse a + 课 / 活动(反身动词:Me apunto a yoga);hacer yoga / natación、jugar al tenis / al baloncesto、practicar deporte;el pádel、la piscina、el entrenador;复习星期、钟点和价格"
+        },
+        {
+          "id": "es.a1u17.l02",
+          "type": "grammar",
+          "titleZh": "会、能、认识",
+          "canDoZh": "能正确区分'会做'、'能做'和'认识、熟悉'",
+          "scenarioZh": "Marta 约李娜周六去游泳。李娜说她会游泳,可是这周六不能去,她要和 Javier 一起复习;Marta 问她知不知道街区的游泳池在哪儿、认不认识那里的教练;李娜说她不认识,但知道地址,还说她不会滑雪,很想学。说话人:lina、marta。",
+          "grammarFocusZh": "saber(会、知道某个信息)、poder(能、可以)、conocer(认识人、熟悉地方)三个动词的区别:Sé nadar, pero hoy no puedo. No conozco al entrenador. Sé dónde está la piscina;复习 8-6 的 saber + 动词原形和 13-3 的 conocer + 人称 a"
+        },
+        {
+          "id": "es.a1u17.l03",
+          "type": "dialogue",
+          "titleZh": "在 Retiro 公园跑步",
+          "canDoZh": "能和朋友约运动,边运动边说感觉(累、渴、快慢)和距离",
+          "scenarioZh": "星期天早上,Javier 带李娜第一次在 Retiro 公园跑步。Javier 每天跑五公里,李娜说她今天才开始跑,跑两公里就累了、渴了;Javier 让她跑慢一点,教她怎么呼吸;最后两个人在湖边休息,说下周再来。说话人:javier、lina。",
+          "grammarFocusZh": "empezar a + 动词原形(开始做某事):Empiezo a correr hoy;estar en forma / estar cansado;despacio / rápido;复习 9-2 的 tener sed、9-r01 的 el kilómetro 和 correr"
+        },
+        {
+          "id": "es.a1u17.l04",
+          "type": "vocab",
+          "titleZh": "看 Diego 踢球",
+          "canDoZh": "能看懂并说一场比赛:谁和谁踢、比分多少、谁赢了",
+          "scenarioZh": "星期天下午,Diego 的业余球队在大学的球场比赛,李娜和 Javier 去看。Javier 给她讲:那是 Diego 的球队,穿红衣服;对面穿白的;那位是裁判。Diego 进了一个球,最后二比一赢了。比赛完 Diego 跑过来,累但很开心。不出现真实球队名。说话人:lina、javier、diego。",
+          "grammarFocusZh": "el equipo、el jugador、el gol、el árbitro、ganar、perder、empatar;比分的说法 dos a uno / empatan a cero;el campo 的另一个意思'球场'(9-3 学的是'田野');jugar contra + 球队"
+        },
+        {
+          "id": "es.a1u17.r01",
+          "type": "reading",
+          "titleZh": "体育中心的课程表",
+          "canDoZh": "能看懂运动课程表和价格表,选出适合自己时间的课",
+          "scenarioZh": "体裁:课程表。体育中心的冬季课程表:瑜伽周二、周四晚上七点,游泳每天上午开放,pádel 要提前预约场地;学生价和普通价;游泳池要戴泳帽。课程表上的星期用缩写 L、M、X、J、V(X 是周三,因为 M 已经是周二了)。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习星期、钟点、价格和 hay que;课程表的缩写(L、M、X、J、V、S、D);复习 l01 的运动名称"
+        },
+        {
+          "id": "es.a1u17.l05",
+          "type": "grammar",
+          "titleZh": "你每天睡几个小时?",
+          "canDoZh": "能说自己的作息和健康习惯(睡多久、吃什么、多久运动一次)",
+          "scenarioZh": "西语课的话题是健康习惯。安德烈斯老师问每个人每天睡几个小时、几点睡觉、吃不吃早饭、一周运动几次;李娜说考试的时候她只睡六个小时,平时睡七个小时,现在每周运动三次。老师说他每天晚上睡八个小时,每天走路一个小时。说话人:andres、lina。",
+          "grammarFocusZh": "dormir(睡觉)o→ue:duermo、duermes…;dormir(睡着、睡眠)和 5-5 的 acostarse(上床)的区别;时长和频率:una hora al día、siete horas cada noche、tres veces a la semana;sano / la salud"
+        },
+        {
+          "id": "es.a1u17.l06",
+          "type": "dialogue",
+          "titleZh": "去游泳",
+          "canDoZh": "能听懂并遵守游泳池的规定,在更衣室和泳池里应对简单的交流",
+          "scenarioZh": "星期六下午,李娜和 Marta 去街区的游泳池。门口的规定:要戴泳帽、穿拖鞋,下水前要先淋浴;李娜忘带泳帽,只好在前台买一个。Marta 游得很快,李娜游得很慢;游完两个人说下次再一起来。说话人:lina、marta。",
+          "grammarFocusZh": "复习 hay que / tener que(Hay que llevar gorro);el bañador、el gorro de piscina、las chanclas、la taquilla(储物柜);复习 5-5 的 ducharse 和 rápido / despacio"
+        },
+        {
+          "id": "es.a1u17.l07",
+          "type": "dialogue",
+          "titleZh": "收音机里的体育新闻",
+          "canDoZh": "能听懂广播里的比赛结果和体育活动通知",
+          "scenarioZh": "早上 Javier 和李娜在咖啡馆,收音机里在播体育新闻:昨天几场足球比赛的比分、一场网球比赛的结果,还有这个星期天马德里有一场马拉松,好几条街要封路。Javier 一边听一边评论,李娜问他马拉松要跑多少公里。不出现真实球队和运动员的名字。说话人:locutor、javier、lina。",
+          "grammarFocusZh": "听懂比分和结果;新闻里的过去时第三人称(ganó、perdió)只当听力材料,和 8-5 的 visitó、comió 一样;la maratón、cortar la calle;复习 ganar / perder / empatar"
+        },
+        {
+          "id": "es.a1u17.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:报名五公里跑",
+          "canDoZh": "能报名参加一项运动活动,并和朋友一起定训练计划",
+          "scenarioZh": "大学办一场五公里的慈善跑,报名费捐给儿童医院。李娜和 Marta 去体育中心报名:前台问名字、年龄、T 恤尺码,告诉她们比赛的日期和几点集合;回家路上两个人定训练计划:一周跑几次、每次跑多久、几点睡觉。对话至少 12 句。说话人:lina、marta、recepcionista。",
+          "grammarFocusZh": "综合复习本单元:运动的词、频率和时长、saber / poder、empezar a、dormir、hay que"
+        },
+        {
+          "id": "es.a1u17.r02",
+          "type": "reading",
+          "titleZh": "李娜的运动日记",
+          "canDoZh": "能读懂一篇一周的运动日记,说出每天做了什么运动、感觉怎么样",
+          "scenarioZh": "体裁:日记。李娜用西语记了一个星期的运动:周一上瑜伽课,周三在 Retiro 跑了三公里,周五没运动,因为下午和 Javier 语言交换,周六和 Marta 游泳,周日看 Diego 踢球;每天写睡了几个小时、感觉怎么样。说话人用 lina。至少 8 句。",
+          "grammarFocusZh": "复习全单元;日记里的星期、时长和频率;可以用 8-5 的过去时形式(corrí、nadé 这类 -ar / -er 的第一人称)"
+        }
+      ]
+    },
+    {
+      "id": "a1u18",
+      "unit": "A1-18 考试和打工",
+      "cefr": "A1",
+      "themeZh": "一月的期末考试和打折季的临时工:说这学期上什么课、哪门难、考试时怎么复习、考得怎么样;服装店招会说中文的临时店员,李娜去面试、第一天上班,说工作时间和工资。",
+      "grammarZh": "cuando + 现在时说习惯(Cuando tengo examen, estudio en la biblioteca),aprobar(o→ue)/ suspender 和西班牙的分数,工作的说法(trabajar por horas、el sueldo),más de / menos de + 数字和 más … que 的区别,复习 saber / poder 说能力。",
+      "pronunciationZh": "x 在两个元音之间读 [ks](examen、éxito、taxi),México 里的 x 读喉音 [x],是保留下来的老拼写。",
+      "lessons": [
+        {
+          "id": "es.a1u18.l01",
+          "type": "vocab",
+          "titleZh": "这学期的课",
+          "canDoZh": "能说自己学哪些科目、喜欢哪门、哪门难,什么时候考试",
+          "scenarioZh": "一月初,李娜和 Javier 在图书馆门口对考试时间表:两个人都有经济学、市场营销、会计和统计,Javier 还有一门法律。李娜觉得统计最难,市场营销最有意思;Javier 说会计比统计还难。说话人:javier、lina。",
+          "grammarFocusZh": "la asignatura、el examen、la economía、el marketing、la contabilidad、la estadística、el derecho、interesante;复习 gustar / encantar 和 más … que(La Estadística es más difícil que el Marketing)"
+        },
+        {
+          "id": "es.a1u18.l02",
+          "type": "grammar",
+          "titleZh": "考试的时候我去图书馆",
+          "canDoZh": "能用'……的时候'说自己的习惯,谈复习的方法",
+          "scenarioZh": "晚上 Marta 问李娜怎么复习。李娜说:考试的时候她每天去图书馆学到八点,累的时候听音乐,紧张的时候给妈妈打电话;Marta 说她上夜班的时候白天睡觉,考试前就在医院的休息室看书。说话人:lina、marta。",
+          "grammarFocusZh": "cuando + 现在时说习惯:Cuando tengo examen, estudio en la biblioteca(连词 cuando 不带重音符号,疑问词 ¿cuándo? 带);estudiar para el examen、repasar;复习 tener que、频率和 17-5 的 dormir"
+        },
+        {
+          "id": "es.a1u18.l03",
+          "type": "vocab",
+          "titleZh": "服装店招临时工",
+          "canDoZh": "能听懂一份工作的基本情况:做什么、什么时候上班、一小时多少钱",
+          "scenarioZh": "李娜去第 7 单元那家服装店买东西,店员认出了她,说一月打折季很多中国游客来买东西,店里想找一个会说中文的临时店员,周六和周日上班,按小时付钱;要帮顾客找尺码、整理衣服,有时候收银。店员问她有没有兴趣。说话人:dependienta、lina。",
+          "grammarFocusZh": "工作的词:el trabajo、el horario、el sueldo、por horas、a tiempo parcial、el turno de mañana / de tarde、el uniforme、el cliente;atender a los clientes(人称 a);复习 necesitar"
+        },
+        {
+          "id": "es.a1u18.l04",
+          "type": "dialogue",
+          "titleZh": "面试",
+          "canDoZh": "能回答简单的面试问题(会说什么语言、会做什么、什么时候能上班),并问清工作条件",
+          "scenarioZh": "第二天,那位店员和李娜聊了一会儿,算是面试:¿Qué idiomas hablas? ¿Sabes usar la caja? ¿Puedes trabajar los sábados por la mañana?;李娜说她会说中文、英语和一点西语,周末都可以,但一月下旬要考试;她问一个小时多少钱、要不要签合同。说话人:dependienta、lina。",
+          "grammarFocusZh": "复习 saber + 动词原形(会)和 poder(能);面试常见的问题和回答;trabajar los sábados / por la mañana、el contrato;店员对年轻人用 tú"
+        },
+        {
+          "id": "es.a1u18.r01",
+          "type": "reading",
+          "titleZh": "新店员须知",
+          "canDoZh": "能读懂工作单位的须知:上班时间、休息、着装和规定",
+          "scenarioZh": "体裁:须知。服装店给新店员的一页须知:上班时间和休息(每四个小时休息十五分钟)、穿店里的 T 恤和黑裤子、手机放在储物柜里、换货和退货要看小票、打折期间每天早上九点半开会。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习 hay que、tener que、钟点和 7 单元的 el tique、devolver、cambiar;须知里的动词原形指令"
+        },
+        {
+          "id": "es.a1u18.l05",
+          "type": "dialogue",
+          "titleZh": "第一天上班",
+          "canDoZh": "能在店里用 usted 接待顾客:问尺码、带去试衣间、说价格",
+          "scenarioZh": "第一个星期六,李娜穿着店里的 T 恤上班。Doña Pilar 来店里看她,故意装成顾客:¿Tienen este abrigo en azul?;李娜用 usted 回答,问她穿多大号,带她去试衣间,说现在打七折;Pilar 试完以后说 Me lo llevo;店员在旁边笑着说 ¡Muy bien, Li Na!。说话人:pilar、lina、dependienta。",
+          "grammarFocusZh": "对顾客用 usted:¿Qué talla usa? ¿Quiere probarse este abrigo?;复习 7 单元的衣服、颜色、尺码、价格、las rebajas 和 7-7 的 Me lo llevo"
+        },
+        {
+          "id": "es.a1u18.l06",
+          "type": "grammar",
+          "titleZh": "一周工作十几个小时",
+          "canDoZh": "能说工作的时间和工资,用'多于、少于'说数量",
+          "scenarioZh": "晚上 Marta 问李娜工作怎么样。李娜说:一周工作十几个小时,一小时九欧;离统计考试只剩不到一个星期了,她有点担心;Marta 说她刚工作的时候一个月上二十多个夜班,还是通过了考试。说话人:lina、marta。",
+          "grammarFocusZh": "más de / menos de + 数字(Trabajo más de doce horas a la semana. Tengo menos de una semana),和 7-5 的 más … que(比较两样东西)区别;nueve euros la hora / al mes;复习 cuando + 现在时"
+        },
+        {
+          "id": "es.a1u18.l07",
+          "type": "dialogue",
+          "titleZh": "考得怎么样?",
+          "canDoZh": "能问和说考试的结果,听懂西班牙的分数和等级",
+          "scenarioZh": "一月底成绩出来了。在学校咖啡馆,Javier 问:¿Qué tal en Estadística?;李娜说她得了七分,所有科目都通过了;Javier 有一门会计没通过,要在夏天补考;Diego 说墨西哥也是十分制,可是六分才及格,大家互相比较。说话人:javier、lina、diego。",
+          "grammarFocusZh": "aprobar(o→ue)/ suspender;用 tener / sacar + 分数说结果(Tengo un siete en Estadística),'我通过了'用 8-5 那样的第一人称过去时 aprobé;el aprobado(5)、el notable(7)、el sobresaliente(9);la recuperación(补考)"
+        },
+        {
+          "id": "es.a1u18.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:学期结束了",
+          "canDoZh": "能和朋友聊考试成绩、打工的感受和假期的打算",
+          "scenarioZh": "考完最后一门,李娜、Javier、Diego 和 Marta 在咖啡馆庆祝:说考得怎么样、哪门最难;李娜说打折季结束了,打工也结束了,她学会了很多说法;最后李娜和 Diego 说下学期开学前有一个星期假,想去旅行,Marta 推荐了几个地方(引出第 19 单元)。对话至少 12 句。说话人:lina、javier、diego、marta。",
+          "grammarFocusZh": "综合复习本单元:科目和分数、工作的词、cuando + 现在时、más de / más … que、ir a + 动词原形"
+        },
+        {
+          "id": "es.a1u18.r02",
+          "type": "reading",
+          "titleZh": "第二学期选课通知",
+          "canDoZh": "能读懂学校的通知,知道什么时候、在哪儿、怎么办手续",
+          "scenarioZh": "体裁:通知。大学秘书处的通知:第二学期选课和注册从二月一日到十日,可以在网上或去秘书处办;二月九日开始上课;选修课的名额有限;补考在六月底。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元;日期、de … a …、hay que;la matrícula、la secretaría、el cuatrimestre、optativo / obligatorio"
+        }
+      ]
+    },
+    {
+      "id": "a1u19",
+      "unit": "A1-19 旅行准备",
+      "cefr": "A1",
+      "themeZh": "考完试和 Diego 计划去格拉纳达:选目的地、比较火车和大巴、在网上订票和住处、看目的地的天气预报、列行李清单、回答 Pilar 太太的一连串问题,最后在车站上车。",
+      "grammarZh": "ir de vacaciones / de viaje / de excursión,tardar + 时间 + en,el / la + 形容词代替名词(el rápido、la barata),带介词的疑问词(¿adónde?、¿de dónde?、¿con quién?、¿hasta cuándo?),复习 preferir / pensar + 动词原形和比较句。",
+      "pronunciationZh": "b / v 读音相同:在句首和 m、n 后面读 [b](vamos、un billete),在两个元音之间读得更轻(la vuelta、de viaje、el AVE)。",
+      "lessons": [
+        {
+          "id": "es.a1u19.l01",
+          "type": "dialogue",
+          "titleZh": "去哪儿旅行?",
+          "canDoZh": "能和朋友商量去哪儿旅行,说出喜欢哪个地方、为什么",
+          "scenarioZh": "李娜和 Diego 有一个星期的假,想出去旅行:巴塞罗那、塞维利亚还是格拉纳达?Diego 想看雪山,李娜想看阿尔罕布拉宫;Marta 推荐格拉纳达,说那里的酒吧点饮料送 tapas,冬天内华达山上有雪。最后两个人决定去格拉纳达三天。说话人:diego、lina、marta。",
+          "grammarFocusZh": "ir de vacaciones / de viaje / de excursión(ir de + 名词);复习 7-6 的 preferir、16-6 的 pensar + 动词原形和 me gusta más"
+        },
+        {
+          "id": "es.a1u19.l02",
+          "type": "grammar",
+          "titleZh": "坐火车还是坐大巴?",
+          "canDoZh": "能比较几种交通方式的时间和价格,选出合适的一种",
+          "scenarioZh": "两个人在网上查车:火车三个多小时,贵一点;大巴五个小时,便宜很多。Diego 说:El autobús tarda mucho, pero es más barato;李娜说早上的火车有学生优惠。¿Cuál cogemos? — El rápido.;最后去程坐火车,回程坐大巴。说话人:lina、diego。",
+          "grammarFocusZh": "tardar + 时间(+ en + 动词原形):El tren tarda tres horas y media (en llegar);el / la + 形容词代替前面说过的名词(el rápido、el barato);复习 más / menos … que 和 11-7 的 ¿cuál?"
+        },
+        {
+          "id": "es.a1u19.l03",
+          "type": "vocab",
+          "titleZh": "订票和订住处",
+          "canDoZh": "能在网上订车票和住处,选座位、房间和日期",
+          "scenarioZh": "李娜在电脑上订票和住处,Diego 在旁边帮忙:火车选靠窗的座位;住处在老城区的一家小旅馆(hostal),两间单人房,住三个晚上,含早餐,每晚多少钱;他们输入名字、日期和信用卡,收到确认号。说话人:lina、diego。",
+          "grammarFocusZh": "reservar / la reserva、el asiento(ventanilla / pasillo)、el hostal、el albergue、la habitación doble / individual、por noche(每晚)、incluido / incluida;复习日期、价格和 11 单元的年份"
+        },
+        {
+          "id": "es.a1u19.l04",
+          "type": "dialogue",
+          "titleZh": "格拉纳达的天气",
+          "canDoZh": "能听懂一个地区的天气预报,决定带什么、做什么",
+          "scenarioZh": "晚上电视里播安达卢西亚的天气预报:格拉纳达白天晴、十五度,晚上很冷、只有两度,内华达山上下雪;塞维利亚十八度。李娜和 Diego 一边听一边商量:白天去阿尔罕布拉宫,晚上要穿大衣,去山上要带手套。说话人:locutor、lina、diego。",
+          "grammarFocusZh": "复习 9 单元的天气说法和气温(Estamos a dos grados);ir a + 动词原形说预报(Va a nevar en Sierra Nevada);de día / de noche"
+        },
+        {
+          "id": "es.a1u19.r01",
+          "type": "reading",
+          "titleZh": "电子车票和住处的预订确认",
+          "canDoZh": "能看懂电子车票和预订确认上的信息:车次、车厢、座位、入住日期和时间",
+          "scenarioZh": "体裁:电子票和确认邮件。李娜手机上的火车电子票(出发站、到达站、日期、出发和到达时间、车厢、座位)和旅馆发来的确认邮件(两间单人房、三晚、含早餐、下午两点以后可以入住、地址在老城区、到了以后打这个电话)。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习本单元的预订词、日期、24 小时制和序数词;确认邮件里的 usted 变位"
+        },
+        {
+          "id": "es.a1u19.l05",
+          "type": "vocab",
+          "titleZh": "行李清单",
+          "canDoZh": "能列出旅行要带的东西,提醒别人别忘带什么",
+          "scenarioZh": "出发前一晚,Marta 坐在李娜房间里看她收拾行李:箱子还是背包?牙刷、牙膏、睡衣、太阳镜、雨伞、充电器、身份卡 TIE、学生证……Marta 提醒她一定要带 TIE(Tienes que llevar la TIE;否定命令式 B1 才学,这里不用),还说格拉纳达晚上很冷,要带厚毛衣。说话人:marta、lina。",
+          "grammarFocusZh": "la maleta、la mochila、el cepillo de dientes、la pasta de dientes、el pijama、las gafas de sol、el paraguas;olvidar(忘)/ no olvidar;复习 llevar(带去)、hay que 和 necesitar"
+        },
+        {
+          "id": "es.a1u19.l06",
+          "type": "grammar",
+          "titleZh": "Pilar 太太的问题",
+          "canDoZh": "能用带介词的疑问词问清楚一件事(去哪儿、和谁、从哪儿出发、到什么时候)",
+          "scenarioZh": "Doña Pilar 听说李娜要去旅行,问了一连串问题:¿Adónde vas? ¿Con quién? ¿De dónde sale el tren? ¿A qué hora llegáis? ¿Hasta cuándo estáis allí?;李娜一一回答。Pilar 说她年轻时也去过格拉纳达,还说会帮她给房间里的植物浇水。说话人:pilar、lina。",
+          "grammarFocusZh": "带介词的疑问词:¿adónde?(去哪儿)、¿de dónde?、¿con quién?、¿hasta cuándo?、¿para quién?;介词要放在疑问词前面(¿Con quién vas?);复习 ir、salir、llegar、volver"
+        },
+        {
+          "id": "es.a1u19.l07",
+          "type": "dialogue",
+          "titleZh": "在火车站",
+          "canDoZh": "能听懂车站广播里的车次、站台和晚点信息,问工作人员怎么走",
+          "scenarioZh": "出发那天早上,阿托查站人很多。广播说去格拉纳达的火车晚点十分钟,从九号站台出发;李娜听不清是九号还是五号,去问询处问工作人员,工作人员告诉她九号,还提醒她先过安检。问询处工作人员用 taquillera。说话人:megafonia、lina、diego、taquillera。",
+          "grammarFocusZh": "听懂广播:con destino a、la vía、el andén、con retraso;复习 24 小时制、序数词和 ¿Puede repetir?"
+        },
+        {
+          "id": "es.a1u19.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:在火车上",
+          "canDoZh": "能和同伴一起安排几天的行程,说清每天去哪儿、怎么去、要多久",
+          "scenarioZh": "火车上,李娜和 Diego 安排三天的行程:第一天下午到,先去旅馆,晚上去吃 tapas;第二天上午去阿尔罕布拉宫(票已经买好了),下午逛老城区;第三天去不去山上看雪?坐大巴要一个小时。Marta 打来电话祝他们玩得开心,问他们几点到。对话至少 12 句。说话人:lina、diego、marta。",
+          "grammarFocusZh": "综合复习本单元:ir de viaje、tardar、比较、疑问词、ir a + 动词原形和钟点"
+        },
+        {
+          "id": "es.a1u19.r02",
+          "type": "reading",
+          "titleZh": "格拉纳达小指南",
+          "canDoZh": "能读懂一份城市小指南,找出主要景点、要提前做什么、有什么特色",
+          "scenarioZh": "体裁:旅游指南。旅馆网站上的格拉纳达小指南:阿尔罕布拉宫要提前在网上买票;老城区 Albaicín 的小路很窄,San Nicolás 观景台看日落最美;冬天内华达山可以滑雪,离城市大约一个小时;很多酒吧点饮料就送一份 tapa。说话人用 narrator。至少 8 句。",
+          "grammarFocusZh": "复习全单元;hay que + 动词原形、está a … de、ir a + 动词原形;el mirador、la puesta de sol"
+        }
+      ]
+    },
+    {
+      "id": "a1u20",
+      "unit": "A1-20 在格拉纳达",
+      "cefr": "A1",
+      "themeZh": "在格拉纳达的三天:坐出租车去旅馆、办入住、说房间的问题、问路去阿尔罕布拉宫、点'送的 tapas'、买纪念品和寄明信片、退房,回到马德里后回顾第一个学期。",
+      "grammarZh": "住宿的说法(Tengo una reserva a nombre de…、¿A qué hora es el desayuno?),方位扩展 entre、al final de、al fondo de,远指 aquel / aquella / aquello,dejar(寄存),复习序数词、funcionar、hay 和 8-5 的几个过去时形式。",
+      "pronunciationZh": "A1 发音总复习:重音规则和重音符号(teléfono、número、habitación、árbol),h 不发音(hotel、habitación、hora、Alhambra)。",
+      "lessons": [
+        {
+          "id": "es.a1u20.l01",
+          "type": "dialogue",
+          "titleZh": "坐出租车去旅馆",
+          "canDoZh": "能坐出租车:说地址、和司机简单聊天、问价并付款",
+          "scenarioZh": "到了格拉纳达火车站,李娜和 Diego 坐出租车去老城区的旅馆。司机问 ¿Adónde vamos?,李娜说出地址;司机很爱聊天,问他们从哪儿来、是不是第一次来格拉纳达,推荐他们晚上去 San Nicolás 观景台;到了以后李娜问多少钱、能不能刷卡。说话人:taxista、lina、diego。",
+          "grammarFocusZh": "复习 19-6 的 ¿adónde?、地址和数字;¿Cuánto es? / ¿Puedo pagar con tarjeta?;出租车司机对年轻乘客也常用 tú"
+        },
+        {
+          "id": "es.a1u20.l02",
+          "type": "dialogue",
+          "titleZh": "办入住",
+          "canDoZh": "能在旅馆前台办入住:说预订人的名字、出示证件、问早餐时间和 wifi",
+          "scenarioZh": "旅馆前台,李娜说:Tenemos una reserva a nombre de Li Na。工作人员对他们两个用 ustedes,请他们出示证件,说两间单人房在三楼,早餐八点到十点半,含在房费里;给他们房卡和 wifi 密码,还给了一张老城区地图。说话人:recepcionista、lina、diego。",
+          "grammarFocusZh": "Tengo / Tenemos una reserva a nombre de…;El desayuno está incluido / es de ocho a diez y media;复习 11-3 的序数词(la tercera planta)和 11-5 的 ustedes"
+        },
+        {
+          "id": "es.a1u20.l03",
+          "type": "vocab",
+          "titleZh": "房间有问题",
+          "canDoZh": "能打电话给前台说明房间里的问题,并提出要求",
+          "scenarioZh": "晚上回到房间,李娜发现暖气不热,房间很冷,浴室里也只有一条毛巾。她打电话到前台:La calefacción no funciona;前台说马上派人来看,先给她送一条毯子和一条毛巾;Diego 那边窗外有点吵,前台说明天可以给他换到里面的房间。说话人:lina、recepcionista。",
+          "grammarFocusZh": "la calefacción、el aire acondicionado、la manta、la almohada、el ruido;复习 funcionar、hay / no hay 和 estar + 形容词(La habitación está fría);¿Me puede traer…? 请求(复习 poder 和 traer)"
+        },
+        {
+          "id": "es.a1u20.l04",
+          "type": "grammar",
+          "titleZh": "阿尔罕布拉宫在那边",
+          "canDoZh": "能看着地图和眼前的景物说清东西在哪儿,区分'这、那、远处那个'",
+          "scenarioZh": "第二天早上,两个人去游客中心问路。工作人员指着地图和窗外:阿尔罕布拉宫在远处那座小山上,老城区在河和小山之间,观景台在这条街的尽头,公共汽车站在广场最里面;他提醒他们入宫的时间写在门票上,要准时到。说话人:guia、lina、diego。",
+          "grammarFocusZh": "远指 aquel / aquella / aquellos / aquellas(离说话的两个人都远)和中性的 aquello,和 este / ese 三分(este 这儿、ese 你那儿、aquel 远处);entre … y …、al final de、al fondo de;la colina;复习方位短语"
+        },
+        {
+          "id": "es.a1u20.r01",
+          "type": "reading",
+          "titleZh": "旅馆的入住须知",
+          "canDoZh": "能看懂旅馆房间里的须知:早餐、退房、寄存行李和规定",
+          "scenarioZh": "体裁:须知。旅馆房间门后贴着的须知:早餐时间和地点(一楼)、中午十二点前退房、可以在前台免费寄存行李、wifi 名称和密码、晚上十一点以后请保持安静、房间里禁止吸烟。说话人用 narrator。至少 6 句。",
+          "grammarFocusZh": "复习钟点、hay、序数词;告示里的 prohibido + 动词原形(Prohibido fumar)和动词原形指令"
+        },
+        {
+          "id": "es.a1u20.l05",
+          "type": "dialogue",
+          "titleZh": "送的 tapas",
+          "canDoZh": "能在酒吧点饮料,问清每份饮料送什么 tapa,和朋友分着吃",
+          "scenarioZh": "晚上两个人走进老城区的一家小酒吧。服务员问 ¿Qué os pongo?;李娜点一杯葡萄汁(mosto,不含酒精),Diego 点一杯汽水(un refresco,不写品牌);服务员端来饮料,还送了两小盘 tapas。李娜很惊讶,服务员说在格拉纳达这是传统;他们又点了一轮饮料,这次送的是炸鱼。说话人:camarero、diego、lina。",
+          "grammarFocusZh": "复习 4 单元的点餐说法和 vosotros(¿Qué os pongo?);el refresco、el mosto;¿Qué tapa viene con…?(复习 venir);复习 ¡Qué + 形容词 / 名词!"
+        },
+        {
+          "id": "es.a1u20.l06",
+          "type": "vocab",
+          "titleZh": "买纪念品、寄明信片",
+          "canDoZh": "能挑选纪念品、问价、稍微讲价,买明信片和邮票",
+          "scenarioZh": "在老城区的小摊上,李娜给 Marta、Pilar 和弟弟挑纪念品:一个手绘的陶瓷小盘子、几个冰箱贴和几张明信片;她问摊主多少钱,三样一起买能不能便宜一点;摊主还告诉她邮票在烟草店(estanco)买。说话人:vendedor、lina。",
+          "grammarFocusZh": "el recuerdo(纪念品)、la cerámica、el imán、la postal、el sello、el estanco;复习价格、para + 人和 este / ese / aquel"
+        },
+        {
+          "id": "es.a1u20.l07",
+          "type": "dialogue",
+          "titleZh": "退房",
+          "canDoZh": "能办退房:结账、寄存行李、叫出租车、对住宿做评价",
+          "scenarioZh": "最后一天中午,两个人去前台退房。前台问房间怎么样,李娜说很好,只是第一天暖气坏了;Diego 问能不能把箱子放在这儿到下午五点,前台说可以,还帮他们约了四点半的出租车去车站。说话人:recepcionista、lina、diego。",
+          "grammarFocusZh": "dejar 的又一个意思'留下、寄存'(¿Podemos dejar las maletas aquí?);hasta + 钟点(hasta las cinco);复习 ustedes / usted 的变位和 hay que"
+        },
+        {
+          "id": "es.a1u20.l08",
+          "type": "dialogue",
+          "titleZh": "单元复习:回到马德里",
+          "canDoZh": "能看着照片向别人讲一次旅行,并说下个学期的打算",
+          "scenarioZh": "回到马德里,李娜拿着照片给 Marta 和 Doña Pilar 讲格拉纳达:阿尔罕布拉宫、老城区、送的 tapas、雪山;讲过去的事用 8-5 学过的几个形式(fui、visité、comí、fue genial),描述那里用现在时;她把纪念品送给两个人。Pilar 问她第二学期有什么打算。对话至少 12 句。说话人:lina、marta、pilar。",
+          "grammarFocusZh": "综合复习 A1:现在时、ir a + 动词原形、gustar、几个常用的过去时形式、方位和比较"
+        },
+        {
+          "id": "es.a1u20.r02",
+          "type": "reading",
+          "titleZh": "我的第一个学期(博客)",
+          "canDoZh": "能读懂并写出一篇回顾性的博客:来这里以后做了什么、学会了什么、接下来打算做什么",
+          "scenarioZh": "体裁:博客。第一学期结束,李娜在语言中心的博客上写:九月刚到马德里时只会说 Hola 和 No entiendo;现在有了好朋友 Javier、Diego 和室友 Marta,有一位像奶奶一样的房东;会点餐、坐地铁、看病、办手续;见过了雪,也在太阳门吃了葡萄;第二学期打算去找实习、准备 DELE。以现在时和 ir a 为主,讲过去只用几个学过的形式。说话人用 lina。至少 10 句。",
+          "grammarFocusZh": "综合复习 A1;按时间顺序组织一篇博客(en septiembre…、ahora…、el próximo semestre…)"
+        }
+      ]
+    }
+  ]
+}

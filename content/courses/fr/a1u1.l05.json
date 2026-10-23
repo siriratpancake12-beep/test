@@ -6,7 +6,7 @@
   "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
   "newItems": [
     { "id": "fr.un", "kind": "word", "pos": "num", "text": "un", "zh": "一;一个(阳性)", "features": { "ipa": "œ̃" }, "noteZh": "数字 1 和阳性不定冠词是同一个词:un café;阴性是 une(第 2 单元学)。鼻化元音,很多法国人读得接近 [ɛ̃]。" },
-    { "id": "fr.deux", "kind": "word", "pos": "num", "text": "deux", "zh": "二", "features": { "ipa": "dø" }, "noteZh": "x 不发音;eu 读 [ø],嘴型像发“衣”时撮圆嘴唇。后面是元音时联诵读 [z]:deux eaux [dø.zo]。" },
+    { "id": "fr.deux", "kind": "word", "pos": "num", "text": "deux", "zh": "二", "features": { "ipa": "dø" }, "noteZh": "x 不发音;eu 读 [ø]:舌头放在发“诶”的位置,嘴唇撮圆。后面是元音时联诵读 [z]:deux eaux [dø.zo]。" },
     { "id": "fr.trois", "kind": "word", "pos": "num", "text": "trois", "zh": "三", "features": { "ipa": "tʁwa" }, "noteZh": "oi 读 [wa];s 不发音,元音前联诵读 [z]:trois eaux [tʁwa.zo]。" },
     { "id": "fr.quatre", "kind": "word", "pos": "num", "text": "quatre", "zh": "四", "features": { "ipa": "katʁ" }, "noteZh": "qu 读 [k];词尾的 e 不发音,tr 一起轻轻带出来。" },
     { "id": "fr.cinq", "kind": "word", "pos": "num", "text": "cinq", "zh": "五", "features": { "ipa": "sɛ̃k" }, "noteZh": "鼻化元音 [ɛ̃] 加 [k];单独说时 q 要读出来。" },
@@ -39,5 +39,5 @@
       "bodyZh": "名词变复数一般加 -s(café → cafés),但这个 -s 不发音:un café 和 deux cafés 里的 café 读音完全一样,听的时候要靠前面的数字分辨单复数。eau 的复数加 x:eaux,读音也不变。\n\n数字的词尾辅音要注意:six、dix 单独说时读 [sis]、[dis],在辅音开头的词前不读(six cafés [si ka.fe]),在元音开头的词前联诵读 [z](six eaux [si.zo])。deux、trois 平时 x、s 不发音,碰到元音开头的词也要联诵读 [z]:deux eaux [dø.zo]。中文的数字读音从来不变,这是中国学生最容易读错的地方。",
       "examples": [ { "text": "deux cafés", "zh": "两杯咖啡(s 不发音:[dø ka.fe])" }, { "text": "six thés", "zh": "六杯茶(辅音前:[si te])" }, { "text": "deux eaux", "zh": "两瓶水(联诵:[dø.zo])" }, { "text": "dix !", "zh": "十!(单独说:[dis])" } ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

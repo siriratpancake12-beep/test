@@ -5,7 +5,7 @@
   "canDoZh": "能在面包店买可颂和巧克力面包,问价格并付钱",
   "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
   "newItems": [
-    { "id": "fr.boulangerie", "kind": "word", "pos": "noun", "text": "la boulangerie", "zh": "面包店", "features": { "gender": "f", "ipa": "la bu.lɑ̃.ʒʁi" }, "noteZh": "阴性。法国人几乎每天都去;店员是 la boulangère。ou 读 [u],an 是鼻化元音 [ɑ̃],词尾 e 不发音。" },
+    { "id": "fr.boulangerie", "kind": "word", "pos": "noun", "text": "la boulangerie", "zh": "面包店", "features": { "gender": "f", "ipa": "la bu.lɑ̃.ʒʁi" }, "noteZh": "阴性。很多法国人每天都去;店员是 la boulangère。ou 读 [u],an 是鼻化元音 [ɑ̃],词尾 e 不发音。" },
     { "id": "fr.croissant", "kind": "word", "pos": "noun", "text": "le croissant", "zh": "可颂;羊角面包", "features": { "gender": "m", "ipa": "lə kʁwa.sɑ̃" }, "noteZh": "阳性:un croissant。oi 读 [wa],ss 读 [s],an 是鼻化元音,词尾 t 不发音。" },
     { "id": "fr.pain_au_chocolat", "kind": "word", "pos": "noun", "text": "le pain au chocolat", "zh": "巧克力面包", "features": { "gender": "m", "ipa": "lə pɛ̃ o ʃɔ.kɔ.la" }, "noteZh": "阳性:un pain au chocolat;复数只在 pain 后加 s:six pains au chocolat。chocolat 的 t 不发音。里昂、巴黎都这么说,法国西南部叫 chocolatine。" },
     { "id": "fr.je_voudrais", "kind": "phrase", "pos": "phrase", "text": "Je voudrais…", "zh": "我想要……(礼貌)", "features": { "ipa": "ʒə vu.dʁɛ" }, "noteZh": "买东西、点餐最常用的礼貌说法,比 Je veux(我要)客气得多;ou 读 [u],ai 读 [ɛ],词尾 s 不发音。后面接 un / une + 名词。" },
@@ -36,5 +36,5 @@
       "bodyZh": "“一个”要跟名词的性:阳性名词前用 un,阴性名词前用 une。所以记名词一定连冠词:le croissant → un croissant,la baguette → une baguette。英语不管什么名词都说 a,中文说“一个、一根”,法语看的是名词的性,不是东西的形状。\n\n买东西:Je voudrais + un / une + 名词,比 Je veux(我要)礼貌;问价说 C'est combien ?,店员报总价说 Ça fait … euros。数字和 euros 要联诵:un euro [œ̃.nø.ʁo]、deux euros [dø.zø.ʁo]。文化点:法国人进店一定先说 Bonjour, madame / monsieur,付钱时说 Voilà,走的时候互相说 Bonne journée !",
       "examples": [ { "text": "un croissant, un pain au chocolat", "zh": "一个可颂、一个巧克力面包(阳性)" }, { "text": "une baguette, une boulangerie", "zh": "一根法棍、一家面包店(阴性)" } ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

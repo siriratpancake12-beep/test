@@ -1,0 +1,45 @@
+{
+  "id": "ja.a1u1.l04", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 平假名与问候", "order": 101040,
+  "titleZh": "平假名④:ま行、や行和浊音、半浊音;早上好", "goalZh": "认读、书写 ま行和や行的 8 个平假名,掌握浊音、半浊音的规律;学会早上问好和“请多关照”",
+  "canDoZh": "能认读、写出 まみむめも やゆよ,能读出加了 ゛ 和 ゜ 的假名(が ざ だ ば ぱ 行);早上能说 おはようございます,自我介绍最后能说 よろしくおねがいします",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ja.kana_ma", "kind": "char", "pos": "char", "text": "ま", "zh": "ma(像“妈”)", "features": { "roman": "ma" }, "noteZh": "来自“末”。和 ほ 区分:ま 左边没有竖。" },
+    { "id": "ja.kana_mi", "kind": "char", "pos": "char", "text": "み", "zh": "mi(像“米”)", "features": { "roman": "mi" }, "noteZh": "来自“美”。" },
+    { "id": "ja.kana_mu", "kind": "char", "pos": "char", "text": "む", "zh": "mu(像“木”,嘴唇不撅)", "features": { "roman": "mu" }, "noteZh": "来自“武”。" },
+    { "id": "ja.kana_me", "kind": "char", "pos": "char", "text": "め", "zh": "me(像 mei 去掉 i)", "features": { "roman": "me" }, "noteZh": "来自“女”。和 ぬ 区分:め 末尾没有圈。" },
+    { "id": "ja.kana_mo", "kind": "char", "pos": "char", "text": "も", "zh": "mo(像 mou 去掉 u)", "features": { "roman": "mo" }, "noteZh": "来自“毛”。" },
+    { "id": "ja.kana_ya", "kind": "char", "pos": "char", "text": "や", "zh": "ya(像“呀”)", "features": { "roman": "ya" }, "noteZh": "来自“也”。" },
+    { "id": "ja.kana_yu", "kind": "char", "pos": "char", "text": "ゆ", "zh": "yu(像“优”)", "features": { "roman": "yu" }, "noteZh": "来自“由”。" },
+    { "id": "ja.kana_yo", "kind": "char", "pos": "char", "text": "よ", "zh": "yo(像“哟”)", "features": { "roman": "yo" }, "noteZh": "来自“与”。" },
+    { "id": "ja.kana_ga", "kind": "char", "pos": "char", "text": "が", "zh": "ga(浊音:か 加 ゛)", "features": { "roman": "ga" }, "noteZh": "浊音的代表:か さ た は 四行加两点 ゛,变成 が ざ だ ば 四行(ga gi gu ge go、za ji zu ze zo、da ji zu de do、ba bi bu be bo)。が 要让声带振动,别和 か 混。" },
+    { "id": "ja.kana_pa", "kind": "char", "pos": "char", "text": "ぱ", "zh": "pa(半浊音:は 加 ゜)", "features": { "roman": "pa" }, "noteZh": "半浊音只有一行:は 行加小圈 ゜,变成 ぱ ぴ ぷ ぺ ぽ,读 pa pi pu pe po。" },
+    { "id": "ja.ohayou_gozaimasu", "kind": "phrase", "pos": "phrase", "text": "おはようございます", "zh": "早上好(礼貌)", "features": { "roman": "ohayou gozaimasu" }, "noteZh": "朋友、家人之间说 おはよう。よう 是长音(yō);ご、ざ 是本课学的浊音。" },
+    { "id": "ja.yoroshiku_onegaishimasu", "kind": "phrase", "pos": "phrase", "text": "よろしくおねがいします", "zh": "请多关照;拜托了", "alt": ["よろしくお願いします"], "features": { "roman": "yoroshiku onegaishimasu" }, "noteZh": "自我介绍的最后一句;请人帮忙时也说。中文里没有完全对应的说法,按场合理解为“请多关照”或“拜托了”。" }
+  ],
+  "reviewItems": ["ja.hajimemashite", "ja.desu", "ja.kana_ka", "ja.kana_ha"],
+  "lines": [
+    { "speaker": "jiu", "text": "おはようございます。", "zh": "早上好。", "roman": "Ohayou gozaimasu.", "tokens": ["おはようございます。"], "items": ["ja.ohayou_gozaimasu"] },
+    { "speaker": "rin", "text": "おはようございます。", "zh": "早上好。", "roman": "Ohayou gozaimasu.", "tokens": ["おはようございます。"], "items": ["ja.ohayou_gozaimasu"] },
+    { "speaker": "rin", "text": "はじめまして。リン・ユーです。よろしくおねがいします。", "zh": "初次见面,我是林雨。请多关照。", "roman": "Hajimemashite. Rin Yuu desu. Yoroshiku onegaishimasu.", "tokens": ["はじめまして。", "リン・ユー", "です。", "よろしくおねがいします。"], "items": ["ja.hajimemashite", "ja.desu", "ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "jiu", "text": "はじめまして。キム・ジウです。よろしくおねがいします。", "zh": "初次见面,我是金智友。请多关照。", "roman": "Hajimemashite. Kimu Jiu desu. Yoroshiku onegaishimasu.", "tokens": ["はじめまして。", "キム・ジウ", "です。", "よろしくおねがいします。"], "items": ["ja.hajimemashite", "ja.desu", "ja.yoroshiku_onegaishimasu"] },
+    { "speaker": "narrator", "text": "ま み む め も", "zh": "ま行:ma mi mu me mo", "roman": "ma mi mu me mo", "tokens": ["ま", "み", "む", "め", "も"], "items": ["ja.kana_ma", "ja.kana_mi", "ja.kana_mu", "ja.kana_me", "ja.kana_mo"] },
+    { "speaker": "narrator", "text": "や ゆ よ", "zh": "や行:ya yu yo(只有三个)", "roman": "ya yu yo", "tokens": ["や", "ゆ", "よ"], "items": ["ja.kana_ya", "ja.kana_yu", "ja.kana_yo"] },
+    { "speaker": "narrator", "text": "か が は ば ぱ", "zh": "ka ga ha ba pa(清音 → 浊音 → 半浊音)", "roman": "ka ga ha ba pa", "tokens": ["か", "が", "は", "ば", "ぱ"], "items": ["ja.kana_ka", "ja.kana_ga", "ja.kana_ha", "ja.kana_pa"] }
+  ],
+  "questions": [
+    { "prompt": "林雨早上在厨房遇到智友,两人先说了什么?", "options": ["こんにちは。", "はじめまして。", "おはようございます。"], "answer": 2, "explainZh": "这是早上,两人先互相说 おはようございます(早上好),然后才用 はじめまして 开始自我介绍。" },
+    { "prompt": "林雨自我介绍的最后一句是什么?", "options": ["よろしくおねがいします。", "はじめまして。", "おはようございます。"], "answer": 0, "explainZh": "林雨说:はじめまして。リン・ユーです。よろしくおねがいします。——最后一句 よろしくおねがいします 是“请多关照”。" },
+    { "prompt": "智友也说了 よろしくおねがいします,在这里是什么意思?", "options": ["对不起", "请多关照", "早上好"], "answer": 1, "explainZh": "智友说:はじめまして。キム・ジウです。よろしくおねがいします。自我介绍最后的 よろしくおねがいします 是“请多关照”。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.dakuten", "titleZh": "浊音和半浊音:゛ 和 ゜",
+      "bodyZh": "在 か さ た は 四行的假名右上角加两点 ゛,就变成浊音:か→が(ga)、さ→ざ(za)、た→だ(da)、は→ば(ba)。中文区分的是送气不送气(k / g),日语区分的是声带振不振动(か / が):词中的 か 送气弱,听起来像汉语的 g,但声带不振动,所以仍是清音;が 要让声带振动,摸着喉咙能感到震动。は行加小圈 ゜ 变成半浊音 ぱ ぴ ぷ ぺ ぽ(pa pi pu pe po),只有这一行。特殊读法:じ 和 ぢ 都读 ji,ず 和 づ 都读 zu,一般写 じ、ず。整套浊音:が ぎ ぐ げ ご / ざ じ ず ぜ ぞ / だ ぢ づ で ど / ば び ぶ べ ぼ。",
+      "examples": [ { "text": "かき / かぎ", "zh": "柿子 / 钥匙(一个点之差,意思完全不同)" }, { "text": "たまご", "zh": "鸡蛋(ta-ma-go)" }, { "text": "ぶた", "zh": "猪(bu-ta)" }, { "text": "ぴかぴか", "zh": "亮晶晶(pi-ka-pi-ka)" } ] },
+    { "id": "ja.g.ohayou_yoroshiku", "titleZh": "おはようございます 和 よろしくおねがいします",
+      "bodyZh": "早上见面说 おはようございます(大约上午 10 点以前)。家人、好朋友之间说 おはよう;对室友、老师、刚认识的人都用完整的 おはようございます。よう 是长音,读 yō,要拉长一拍。よろしくおねがいします 放在自我介绍的最后,意思是“请多关照”;请人帮忙时也说,意思接近“拜托了”。中文没有完全对应的说法,但日本人初次见面几乎都会说,不说会显得没讲完。完整的自我介绍:はじめまして → 名字 + です → よろしくおねがいします。另外,や行只有 や ゆ よ 三个假名,没有 yi、ye。",
+      "examples": [ { "text": "おはようございます。", "zh": "早上好。" }, { "text": "はじめまして。キム・ジウです。よろしくおねがいします。", "zh": "初次见面,我是金智友。请多关照。" }, { "text": "リン・ユーです。よろしくおねがいします。", "zh": "我是林雨,请多关照。" } ] }
+  ],
+  "review": "draft"
+}

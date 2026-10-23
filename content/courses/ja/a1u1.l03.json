@@ -1,0 +1,45 @@
+{
+  "id": "ja.a1u1.l03", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 平假名与问候", "order": 101030,
+  "titleZh": "平假名③:な行、は行和“初次见面”", "goalZh": "认读、书写 な行和は行的 10 个平假名,学会初次见面说名字",
+  "canDoZh": "能认读、写出 なにぬねの はひふへほ;第一次见面能说 はじめまして,用“名字 + です”说自己是谁",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 28.5,
+  "newItems": [
+    { "id": "ja.kana_na", "kind": "char", "pos": "char", "text": "な", "zh": "na(像“那”)", "features": { "roman": "na" }, "noteZh": "来自“奈”。" },
+    { "id": "ja.kana_ni", "kind": "char", "pos": "char", "text": "に", "zh": "ni(像“你”)", "features": { "roman": "ni" }, "noteZh": "来自“仁”。" },
+    { "id": "ja.kana_nu", "kind": "char", "pos": "char", "text": "ぬ", "zh": "nu(像“奴”,嘴唇不撅)", "features": { "roman": "nu" }, "noteZh": "来自“奴”。和 め 很像:ぬ 末尾多一个小圈。" },
+    { "id": "ja.kana_ne", "kind": "char", "pos": "char", "text": "ね", "zh": "ne(像 nei 去掉 i)", "features": { "roman": "ne" }, "noteZh": "来自“祢”。和 れ、わ 很像:ね 末尾打圈。" },
+    { "id": "ja.kana_no", "kind": "char", "pos": "char", "text": "の", "zh": "no(像 nou 去掉 u)", "features": { "roman": "no" }, "noteZh": "来自“乃”。助词 の(的)就是它,出现频率极高。" },
+    { "id": "ja.kana_ha", "kind": "char", "pos": "char", "text": "は", "zh": "ha(像“哈”)", "features": { "roman": "ha" }, "noteZh": "来自“波”。作助词时读 wa(わたしは)。" },
+    { "id": "ja.kana_hi", "kind": "char", "pos": "char", "text": "ひ", "zh": "hi(像英语 he)", "features": { "roman": "hi" }, "noteZh": "来自“比”。气流从舌面和上颚之间擦出,和 し(shi)不同。" },
+    { "id": "ja.kana_fu", "kind": "char", "pos": "char", "text": "ふ", "zh": "fu(双唇轻吹)", "features": { "roman": "fu" }, "noteZh": "来自“不”。上下嘴唇轻轻吹气,不要像汉语 f 那样用上牙咬下唇。" },
+    { "id": "ja.kana_he", "kind": "char", "pos": "char", "text": "へ", "zh": "he(像 hei 去掉 i)", "features": { "roman": "he" }, "noteZh": "来自“部”。平假名 へ 和片假名 ヘ 几乎一样。作助词时读 e。" },
+    { "id": "ja.kana_ho", "kind": "char", "pos": "char", "text": "ほ", "zh": "ho(像 hou 去掉 u)", "features": { "roman": "ho" }, "noteZh": "来自“保”。和 は 很像:ほ 右边多一横。" },
+    { "id": "ja.hajimemashite", "kind": "phrase", "pos": "phrase", "text": "はじめまして", "zh": "初次见面", "features": { "roman": "hajimemashite" }, "noteZh": "第一次见面的第一句话,后面接名字,最后说 よろしくおねがいします。" },
+    { "id": "ja.desu", "kind": "word", "pos": "verb", "text": "です", "zh": "是(礼貌的判断词)", "features": { "roman": "desu" }, "noteZh": "放在句末:リンです(我是林)。す 的元音很轻,听起来像 des。" }
+  ],
+  "reviewItems": ["ja.konnichiwa", "ja.san", "ja.kana_sa", "ja.kana_chi"],
+  "lines": [
+    { "speaker": "rin", "text": "こんにちは。はじめまして。リン・ユーです。", "zh": "您好。初次见面,我是林雨。", "roman": "Konnichiwa. Hajimemashite. Rin Yuu desu.", "tokens": ["こんにちは。", "はじめまして。", "リン・ユー", "です。"], "items": ["ja.konnichiwa", "ja.hajimemashite", "ja.desu"] },
+    { "speaker": "kobayashi", "text": "はじめまして。こばやしです。", "zh": "初次见面,我姓小林。", "roman": "Hajimemashite. Kobayashi desu.", "tokens": ["はじめまして。", "こばやし", "です。"], "items": ["ja.hajimemashite", "ja.desu"] },
+    { "speaker": "rin", "text": "こばやしさん、ありがとうございます。", "zh": "小林阿姨,谢谢您。", "roman": "Kobayashi-san, arigatou gozaimasu.", "tokens": ["こばやし", "さん、", "ありがとうございます。"], "items": ["ja.san", "ja.arigatou_gozaimasu"] },
+    { "speaker": "kobayashi", "text": "いいえ、いいえ。", "zh": "不客气,不客气。", "roman": "Iie, iie.", "tokens": ["いいえ、", "いいえ。"], "items": ["ja.iie"] },
+    { "speaker": "narrator", "text": "な に ぬ ね の", "zh": "な行:na ni nu ne no", "roman": "na ni nu ne no", "tokens": ["な", "に", "ぬ", "ね", "の"], "items": ["ja.kana_na", "ja.kana_ni", "ja.kana_nu", "ja.kana_ne", "ja.kana_no"] },
+    { "speaker": "narrator", "text": "は ひ ふ へ ほ", "zh": "は行:ha hi fu he ho", "roman": "ha hi fu he ho", "tokens": ["は", "ひ", "ふ", "へ", "ほ"], "items": ["ja.kana_ha", "ja.kana_hi", "ja.kana_fu", "ja.kana_he", "ja.kana_ho"] },
+    { "speaker": "narrator", "text": "さ ち は ほ", "zh": "sa chi ha ho(さ / ち 左右相反,ほ 比 は 多一横)", "roman": "sa chi ha ho", "tokens": ["さ", "ち", "は", "ほ"], "items": ["ja.kana_sa", "ja.kana_chi", "ja.kana_ha", "ja.kana_ho"] }
+  ],
+  "questions": [
+    { "prompt": "大家さん姓什么?", "options": ["リン", "こばやし", "さとう"], "answer": 1, "explainZh": "大家さん说:はじめまして。こばやしです。(初次见面,我姓小林。)さとう 是咲的姓。" },
+    { "prompt": "林雨是怎么介绍自己的?", "options": ["はじめまして。リン・ユーです。", "はじめまして。リン・ユーさんです。", "はじめまして。こばやしさんです。"], "answer": 0, "explainZh": "林雨说:こんにちは。はじめまして。リン・ユーです。说自己的名字用“名字 + です”,不加 さん。" },
+    { "prompt": "林雨向大家さん道谢,大家さん怎么回答?", "options": ["こんにちは。", "はじめまして。", "いいえ、いいえ。"], "answer": 2, "explainZh": "大家さん说 いいえ、いいえ(不客气,不客气)。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.name_desu", "titleZh": "名字 + です:我是……",
+      "bodyZh": "介绍自己时,把名字放在 です 前面:リン・ユーです(我是林雨)。です 是礼貌的“是”,放在句末;“我”一般不说出来,下个单元再学 わたしは〜です。日本人介绍自己时常常只说姓:こばやしです(我姓小林)。第一次见面的顺序:はじめまして → 名字 + です →(下一课学)よろしくおねがいします。注意两点:① 自己的名字后面不加 さん(✗ リン・ユーさんです);② です 的 す 元音很轻,听起来像 des。",
+      "examples": [ { "text": "はじめまして。リン・ユーです。", "zh": "初次见面,我是林雨。" }, { "text": "こばやしです。", "zh": "我姓小林。" }, { "text": "はじめまして。さとう さきです。", "zh": "初次见面,我是佐藤咲。" } ] },
+    { "id": "ja.g.na_ha_gyou", "titleZh": "な行、は行:易混的字形和 ふ 的发音",
+      "bodyZh": "这两行有几组容易看错的字:ぬ 和 め(ぬ 末尾多一个小圈,め 第 4 课学),ね 和 れ、わ(ね 末尾打圈,れ、わ 第 5 课学),は 和 ほ(ほ 右边多一横)。ふ 读 fu,但不是汉语的 f:上下嘴唇稍微靠近,轻轻吹气,不要用上牙咬下唇。ひ 是气流从舌面擦出的 hi,和 し(shi)不同。另外,は 和 へ 作助词时分别读 wa、e(こんにちは 的 は 就读 wa),第 2 单元学。",
+      "examples": [ { "text": "いぬ", "zh": "狗(i-nu)" }, { "text": "はし", "zh": "筷子;桥(ha-shi)" }, { "text": "ほし", "zh": "星星(ho-shi):は 多一横变成 ほ,就是另一个词" }, { "text": "ふね", "zh": "船(fu-ne,双唇吹气)" } ] }
+  ],
+  "review": "draft"
+}

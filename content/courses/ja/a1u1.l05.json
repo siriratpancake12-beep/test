@@ -1,0 +1,47 @@
+{
+  "id": "ja.a1u1.l05", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-1 平假名与问候", "order": 101050,
+  "titleZh": "平假名⑤:ら行、わ行、ん和小字(拗音、促音、长音)", "goalZh": "学完全部 46 个平假名,会读拗音、促音和长音;学会道歉和应答",
+  "canDoZh": "能认读、写出全部平假名,能读拗音(きゃ)、促音(っ)和长音;做错事或麻烦别人时能说 すみません,被叫到名字时会答 はい",
+  "skills": ["listen", "speak", "read", "write"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "ja.kana_ra", "kind": "char", "pos": "char", "text": "ら", "zh": "ra(舌尖轻弹,像“拉”)", "features": { "roman": "ra" }, "noteZh": "来自“良”。日语的 r 是舌尖在上齿龈轻弹一下,介于 l 和 d 之间,不卷舌。" },
+    { "id": "ja.kana_ri", "kind": "char", "pos": "char", "text": "り", "zh": "ri(舌尖轻弹,像“里”)", "features": { "roman": "ri" }, "noteZh": "来自“利”。" },
+    { "id": "ja.kana_ru", "kind": "char", "pos": "char", "text": "る", "zh": "ru(舌尖轻弹,像“路”)", "features": { "roman": "ru" }, "noteZh": "来自“留”。和 ろ 区分:る 末尾有圈。" },
+    { "id": "ja.kana_re", "kind": "char", "pos": "char", "text": "れ", "zh": "re(舌尖轻弹,像 lei 去掉 i)", "features": { "roman": "re" }, "noteZh": "来自“礼”。和 ね、わ 区分:れ 末尾向外弯着收笔。" },
+    { "id": "ja.kana_ro", "kind": "char", "pos": "char", "text": "ろ", "zh": "ro(舌尖轻弹,像 lou 去掉 u)", "features": { "roman": "ro" }, "noteZh": "来自“呂”。和 る 区分:ろ 末尾没有圈。" },
+    { "id": "ja.kana_wa", "kind": "char", "pos": "char", "text": "わ", "zh": "wa(像“哇”)", "features": { "roman": "wa" }, "noteZh": "来自“和”。和 ね、れ 区分:わ 末尾向内弯。" },
+    { "id": "ja.kana_wo", "kind": "char", "pos": "char", "text": "を", "zh": "o(写作 を,只作助词)", "features": { "roman": "wo" }, "noteZh": "来自“遠”。读音和 お 一样,只用作宾语助词(みずを のみます 喝水)。用输入法打 wo。" },
+    { "id": "ja.kana_n", "kind": "char", "pos": "char", "text": "ん", "zh": "n(鼻音,自成一拍)", "features": { "roman": "n" }, "noteZh": "来自“无”。不能放在词首;读音随后面的音变成 n / m / ng,但都算一拍:こ・ん・に・ち・は 是 5 拍。罗马字写 n;用输入法单独打 ん 要按两次 n(nn)。" },
+    { "id": "ja.kana_kya", "kind": "char", "pos": "char", "text": "きゃ", "zh": "kya(拗音:き + 小 ゃ)", "features": { "roman": "kya" }, "noteZh": "拗音:い 段假名(き し ち に ひ み り ぎ じ び ぴ)后面加小写的 ゃ ゅ ょ,合成一个音、只占一拍:きゃ きゅ きょ、しゃ しゅ しょ……。大小写意思不同:びょういん(医院)/ びよういん(美容院)。" },
+    { "id": "ja.kana_sokuon", "kind": "char", "pos": "char", "text": "っ", "zh": "促音(小 つ,停一拍)", "features": { "roman": "xtsu" }, "noteZh": "小写的 っ 不发音,停顿一拍,把后面的辅音读得更紧:きって(邮票)/ きて(来)。罗马字把后面的辅音双写(kitte);单独打 っ 用 xtsu 或 ltu。" },
+    { "id": "ja.sumimasen", "kind": "phrase", "pos": "phrase", "text": "すみません", "zh": "对不起;劳驾;不好意思", "features": { "roman": "sumimasen" }, "noteZh": "一词多用:道歉、叫人(“劳驾”)、麻烦别人以后表示谢意。比 ごめんなさい 更客气,对陌生人、店员都能用。" },
+    { "id": "ja.hai", "kind": "word", "pos": "interj", "text": "はい", "zh": "是;好的;(被叫到时)在", "features": { "roman": "hai", "pitch": 1 }, "noteZh": "被叫到名字时回答 はい;听别人说话时也常说 はい 表示“我在听”。" }
+  ],
+  "reviewItems": ["ja.iie", "ja.ohayou_gozaimasu", "ja.kana_ne", "ja.kana_nu"],
+  "lines": [
+    { "speaker": "kobayashi", "text": "リンさん!ジウさん!", "zh": "林雨!智友!", "roman": "Rin-san! Jiu-san!", "tokens": ["リン", "さん!", "ジウ", "さん!"], "items": ["ja.san"] },
+    { "speaker": "rin", "text": "はい!", "zh": "在!", "roman": "Hai!", "tokens": ["はい!"], "items": ["ja.hai"] },
+    { "speaker": "rin", "text": "あ、すみません!", "zh": "啊,对不起!", "roman": "A, sumimasen!", "tokens": ["あ、", "すみません!"], "items": ["ja.sumimasen"] },
+    { "speaker": "jiu", "text": "いいえ、いいえ。", "zh": "没事,没事。", "roman": "Iie, iie.", "tokens": ["いいえ、", "いいえ。"], "items": ["ja.iie"] },
+    { "speaker": "kobayashi", "text": "おはようございます。", "zh": "早上好。", "roman": "Ohayou gozaimasu.", "tokens": ["おはようございます。"], "items": ["ja.ohayou_gozaimasu"] },
+    { "speaker": "rin", "text": "おはようございます。", "zh": "早上好。", "roman": "Ohayou gozaimasu.", "tokens": ["おはようございます。"], "items": ["ja.ohayou_gozaimasu"] },
+    { "speaker": "narrator", "text": "ら り る れ ろ わ を ん", "zh": "ら行、わ行和 ん:ra ri ru re ro wa o n(を 读 o)", "roman": "ra ri ru re ro wa o n", "tokens": ["ら", "り", "る", "れ", "ろ", "わ", "を", "ん"], "items": ["ja.kana_ra", "ja.kana_ri", "ja.kana_ru", "ja.kana_re", "ja.kana_ro", "ja.kana_wa", "ja.kana_wo", "ja.kana_n"] },
+    { "speaker": "narrator", "text": "きゃ きゅ きょ", "zh": "拗音:kya kyu kyo(き 和小 ゃ ゅ ょ 合成一拍)", "roman": "kya kyu kyo", "tokens": ["きゃ", "きゅ", "きょ"], "items": ["ja.kana_kya"] },
+    { "speaker": "narrator", "text": "ね れ わ ぬ め", "zh": "ne re wa nu me(易混字:看末尾的圈和弯)", "roman": "ne re wa nu me", "tokens": ["ね", "れ", "わ", "ぬ", "め"], "items": ["ja.kana_ne", "ja.kana_re", "ja.kana_wa", "ja.kana_nu", "ja.kana_me"] }
+  ],
+  "questions": [
+    { "prompt": "大家さん叫林雨的名字,林雨怎么回答?", "options": ["はい!", "いいえ!", "すみません!"], "answer": 0, "explainZh": "被叫到名字时回答 はい(在)。大家さん喊 リンさん!ジウさん!,林雨马上答 はい!。" },
+    { "prompt": "林雨下楼时踩到了智友的脚,她说了什么?", "options": ["はい!", "おはようございます。", "あ、すみません!"], "answer": 2, "explainZh": "林雨说:あ、すみません!(啊,对不起!)すみません 可以用来道歉。" },
+    { "prompt": "智友回答 いいえ、いいえ,是什么意思?", "options": ["不是我", "没关系", "早上好"], "answer": 1, "explainZh": "别人道歉时说 いいえ,意思是“没关系、没事”;说两遍更显得亲切。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.ra_wa_n", "titleZh": "ら行、を 和 ん",
+      "bodyZh": "ら行的 r 是舌尖在上齿龈轻轻弹一下,介于 l 和 d 之间,不卷舌,也不要像汉语 l 那样拖着:ら り る れ ろ。を 读 o,和 お 同音,只用作助词;用输入法要打 wo。ん 自成一拍,不能放在词首;它的实际读音随后面的音变化(さんぽ 里接近 m,りんご 里接近 ng),但都占一拍:こ・ん・に・ち・は 是 5 拍,不要读成 3 个音节。写法上注意 ね / れ / わ(末尾打圈 / 向外弯 / 向内弯)、ぬ / め 和 る / ろ(有没有小圈)。",
+      "examples": [ { "text": "さくら", "zh": "樱花(sa-ku-ra,ら 舌尖轻弹)" }, { "text": "りんご", "zh": "苹果(ri-n-go,三拍)" } ] },
+    { "id": "ja.g.youon_sokuon_chouon", "titleZh": "小字和长音:拗音、促音、长音",
+      "bodyZh": "① 拗音:い 段假名(き し ち に ひ み り 和 ぎ じ び ぴ)后面加小写的 ゃ ゅ ょ,合成一个音、只占一拍:きゃ kya、しゅ shu、ちょ cho。字的大小不同,意思就不同:びょういん(医院)4 拍,びよういん(美容院)5 拍。② 促音:小写的 っ 不发音,停顿一拍,把后面的辅音读得更紧:きって(邮票,3 拍)/ きて(来,2 拍)。③ 长音:把元音拉长一拍:おばあさん(奶奶)/ おばさん(阿姨)。え 段 + い、お 段 + う 一般也读成长音:せんせい 读 sensē,ありがとう 读 arigatō。中文没有“拍”的概念,中国学生最容易把促音、长音读短,把拗音读成两拍。练习时用手打拍子:小 ゃ ゅ ょ 和前面的假名合成一拍,小 っ 和长音各占一拍。",
+      "examples": [ { "text": "きって / きて", "zh": "邮票 / 来(动词“来”的一种变化形式)" }, { "text": "びょういん / びよういん", "zh": "医院 / 美容院" }, { "text": "おばあさん / おばさん", "zh": "奶奶;老奶奶 / 阿姨;伯母" }, { "text": "せんせい / ありがとう", "zh": "老师(sen-sē)/ 谢谢(a-ri-ga-tō)" } ] }
+  ],
+  "review": "draft"
+}

@@ -14,7 +14,7 @@
     { "id": "fr.dix_sept", "kind": "word", "pos": "num", "text": "dix-sept", "zh": "十七", "features": { "ipa": "di.sɛt" }, "noteZh": "dix + sept,中间有连字符;这里 x 读 [s],p 不发音。" },
     { "id": "fr.dix_huit", "kind": "word", "pos": "num", "text": "dix-huit", "zh": "十八", "features": { "ipa": "di.zɥit" }, "noteZh": "dix + huit;这里 x 读 [z],和 huit 连在一起。" },
     { "id": "fr.dix_neuf", "kind": "word", "pos": "num", "text": "dix-neuf", "zh": "十九", "features": { "ipa": "diz.nœf" }, "noteZh": "dix + neuf;这里 x 读 [z],f 要读出来。" },
-    { "id": "fr.vingt", "kind": "word", "pos": "num", "text": "vingt", "zh": "二十", "features": { "ipa": "vɛ̃" }, "noteZh": "g 和 t 都不发音,和 vin(葡萄酒)读音一样;元音前联诵:vingt euros [vɛ̃.tø.ʁo]。" }
+    { "id": "fr.vingt", "kind": "word", "pos": "num", "text": "vingt", "zh": "二十", "features": { "ipa": "vɛ̃" }, "noteZh": "g 和 t 都不发音,读 [vɛ̃];元音前联诵:vingt euros [vɛ̃.tø.ʁo];21–29 里的 t 要读出来:vingt-deux [vɛ̃t.dø](第 3 单元学)。" }
   ],
   "reviewItems": ["fr.croissant", "fr.pain_au_chocolat", "fr.euro", "fr.ca_fait"],
   "lines": [
@@ -39,5 +39,5 @@
       "bodyZh": "11–16 要单独记,词尾都是 -ze,读 [z]:onze, douze, treize, quatorze, quinze, seize。17–19 是“十 + 几”,中间加连字符:dix-sept, dix-huit, dix-neuf(注意 x 在这里读 [s] 或 [z])。vingt 单独读时 g、t 都不发音,读 [vɛ̃]。douze / treize / seize 发音接近,听价格时要特别留心。\n\n价格:欧元后面直接说分,不用说“分”字:1,20 € = un euro vingt,19,20 € = dix-neuf euros vingt。法国写价格用逗号,不用小数点。欧元前的数字要联诵:deux euros [dø.zø.ʁo]、vingt euros [vɛ̃.tø.ʁo]。",
       "examples": [ { "text": "un euro vingt", "zh": "1,20 欧(一欧二十)" }, { "text": "dix-neuf euros vingt", "zh": "19,20 欧(十九欧二十)" }, { "text": "Ça fait douze euros.", "zh": "一共十二欧。" } ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

@@ -12,7 +12,7 @@
   ],
   "reviewItems": ["fr.je_mappelle", "fr.etre", "fr.vous", "fr.huit"],
   "lines": [
-    { "speaker": "gardien", "text": "Bonjour, monsieur ! Comment allez-vous ?", "zh": "(浩拖着行李来到宿舍前台)您好,先生!您好吗?", "items": ["fr.bonjour", "fr.monsieur", "fr.comment_allez_vous"] },
+    { "speaker": "gardien", "text": "Bonjour, monsieur ! Comment allez-vous ?", "zh": "(到里昂的第一天,浩拖着行李来到宿舍前台)您好,先生!您好吗?", "items": ["fr.bonjour", "fr.monsieur", "fr.comment_allez_vous"] },
     { "speaker": "hao", "text": "Très bien, merci. Et vous ?", "zh": "很好,谢谢。您呢?", "items": ["fr.tres", "fr.bien", "fr.merci", "fr.et", "fr.vous"] },
     { "speaker": "gardien", "text": "Très bien, merci. Vous êtes… ?", "zh": "很好,谢谢。您是……?(问他叫什么)", "items": ["fr.tres", "fr.bien", "fr.merci", "fr.vous", "fr.etre"] },
     { "speaker": "hao", "text": "Je m'appelle Hao. Je suis de Chengdu.", "zh": "我叫浩。我来自成都。", "items": ["fr.je_mappelle", "fr.je_suis", "fr.je", "fr.etre", "fr.de"] },
@@ -26,7 +26,7 @@
     { "speaker": "hao", "text": "Enchanté ! Au revoir, monsieur.", "zh": "很高兴认识您!再见。", "items": ["fr.enchante", "fr.au_revoir", "fr.monsieur"] }
   ],
   "questions": [
-    { "prompt": "浩住几号房间?", "options": ["六号", "八号", "十号"], "answer": 1, "explainZh": "管理员说 C'est la chambre huit.,又放慢说了一遍 huit(八)。" },
+    { "prompt": "浩住几号房间?", "options": ["八号", "六号", "十号"], "answer": 0, "explainZh": "管理员说 C'est la chambre huit.,又放慢说了一遍 huit(八)。" },
     { "prompt": "管理员第一次说房间号时,浩没听懂。他说了什么?", "options": ["Au revoir, monsieur.", "Enchanté !", "Je ne comprends pas."], "answer": 2, "explainZh": "Je ne comprends pas.(我没听懂。)管理员听了就放慢再说一遍。" },
     { "prompt": "管理员问 Vous êtes chinois ? Étudiant ?,浩怎么回答?", "options": ["Je suis de Lyon.", "Oui, je suis chinois. Je suis étudiant.", "Non, je suis français."], "answer": 1, "explainZh": "浩说 Oui, je suis chinois. Je suis étudiant.(是的,我是中国人。我是大学生。)他来自成都。" }
   ],
@@ -38,5 +38,5 @@
       "bodyZh": "本单元的 être:je suis, tu es, il / elle est, vous êtes。对宿舍管理员、老师、店员一律用 vous,问句只要句末升调:Vous êtes chinois ?;对同学、朋友用 tu:Tu es chinois ? 回答“是”用 Oui,“不是”用 Non。别人问 Comment allez-vous ?,回答 Très bien, merci 以后可以反问 Et vous ?(您呢?);对朋友反问是 Et toi ?。没听懂别不好意思,整句说 Je ne comprends pas.,对方会放慢、再说一遍。第一次认识的人,告别前可以说 Enchanté(e) !",
       "examples": [ { "text": "Très bien, merci. Et vous ?", "zh": "很好,谢谢。您呢?(对管理员、老师、店员用 vous)" }, { "text": "Ça va bien. Et toi ?", "zh": "挺好的。你呢?(对同学、朋友用 tu)" } ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

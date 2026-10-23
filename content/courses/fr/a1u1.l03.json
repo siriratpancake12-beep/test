@@ -27,7 +27,7 @@
     { "speaker": "lucas", "text": "Oui ! Très, très bien !", "zh": "好!好得很!(一到晚上,卢卡就精神了)", "items": ["fr.oui", "fr.tres", "fr.bien"] }
   ],
   "questions": [
-    { "prompt": "早上浩问卢卡 Ça va ?,卢卡怎么样?", "options": ["很好", "不太好", "还行"], "answer": 1, "explainZh": "卢卡回答 Non…(不好……)——他睡得晚,早上没精神;到了晚上他才说 Très, très bien !" },
+    { "prompt": "早上浩问卢卡 Ça va ?,卢卡怎么样?", "options": ["很好", "还行", "不太好"], "answer": 2, "explainZh": "卢卡回答 Non…(不好……)——他睡得晚,早上没精神;到了晚上他才说 Très, très bien !" },
     { "prompt": "浩用哪句话问候莫罗老师?", "options": ["Comment allez-vous ?", "Salut ! Ça va ?", "Et toi ?"], "answer": 0, "explainZh": "对老师要用 vous 的说法:Bonjour, madame. Comment allez-vous ?;Salut、Ça va ?、Et toi ? 是对朋友说的。" },
     { "prompt": "晚上浩又问卢卡 Ça va ?,这次卢卡怎么样?", "options": ["还是没精神", "好得很", "不在宿舍"], "answer": 1, "explainZh": "卢卡说 Oui ! Très, très bien !(好!好得很!)——他睡得晚,一到晚上就精神了。" }
   ],
@@ -36,5 +36,5 @@
       "bodyZh": "法语的“你”分两种:对朋友、同学、家人用 tu,对老师、长辈、陌生人、店员用 vous(像中文的“您”)。问候也跟着分两套:朋友之间 Salut ! Ça va ? — Ça va bien. Et toi ?;对老师 Bonjour, madame. Comment allez-vous ? — Très bien, merci. 中国学生常犯的错是对老师说 Salut 或 Et toi ?,会显得没礼貌。同龄的年轻人第一次见面就用 tu。\n\n法语口语里,不用改语序、也不用加“吗”,一句话句末升调就是问句:Ça va ?↗(你好吗?)回答时用降调:Ça va.↘(挺好。)写的时候问号前空一格。中文要加“吗”,英语要倒装(Are you OK?),法语只要升调。傍晚以后见面把 Bonjour 换成 Bonsoir。",
       "examples": [ { "text": "Salut, Lucas ! Ça va ?", "zh": "嗨,卢卡!还好吗?(对朋友,升调)" }, { "text": "Bonjour, madame. Comment allez-vous ?", "zh": "您好,老师。您好吗?(对老师)" }, { "text": "Oui, ça va bien. Et toi ?", "zh": "嗯,挺好的。你呢?(降调回答,再反问朋友)" } ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

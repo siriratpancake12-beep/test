@@ -7,7 +7,7 @@
     { "id": "fr.cafe", "kind": "word", "pos": "noun", "text": "le café", "zh": "咖啡", "features": { "gender": "m", "ipa": "lə ka.fe" }, "noteZh": "阳性:le café。é 读 [e],重音符号不能漏。在法国点 un café,默认是一小杯浓缩咖啡。" },
     { "id": "fr.the", "kind": "word", "pos": "noun", "text": "le thé", "zh": "茶", "features": { "gender": "m", "ipa": "lə te" }, "noteZh": "阳性:le thé。th 读 [t],h 不发音;é 读 [e]。" },
     { "id": "fr.eau", "kind": "word", "pos": "noun", "text": "l'eau", "zh": "水", "features": { "gender": "f", "ipa": "lo" }, "noteZh": "eau 三个字母只读一个音 [o]。元音开头的名词冠词缩成 l',看不出性别,要单独记:eau 是阴性。复数 les eaux 加 x。" },
-    { "id": "fr.baguette", "kind": "word", "pos": "noun", "text": "la baguette", "zh": "法棍面包", "features": { "gender": "f", "ipa": "la ba.ɡɛt" }, "noteZh": "阴性:la baguette。gu 读 [ɡ],tt 读 [t],词尾 e 不发音。法国人几乎每天都买新鲜的法棍。" },
+    { "id": "fr.baguette", "kind": "word", "pos": "noun", "text": "la baguette", "zh": "法棍面包", "features": { "gender": "f", "ipa": "la ba.gɛt" }, "noteZh": "阴性:la baguette。gu 读 [g],tt 读 [t],词尾 e 不发音。很多法国人每天都买新鲜的法棍。" },
     { "id": "fr.sil_vous_plait", "kind": "phrase", "pos": "phrase", "text": "s'il vous plaît", "zh": "请(礼貌)", "alt": ["s'il vous plait"], "features": { "ipa": "sil vu plɛ" }, "noteZh": "对店员、老师、陌生人用的“请”,放在句末:Un café, s'il vous plaît.;plaît 的 t 不发音。对朋友说 s'il te plaît。" },
     { "id": "fr.merci", "kind": "word", "pos": "interj", "text": "merci", "zh": "谢谢", "features": { "ipa": "mɛʁ.si" }, "noteZh": "别人递东西、端上饮料都要说。注意:别人问你要不要什么时,只回答 Merci 常常是“不用了,谢谢”;要的话说 Oui, merci。" },
     { "id": "fr.oui", "kind": "word", "pos": "interj", "text": "oui", "zh": "是;对", "features": { "ipa": "wi" }, "noteZh": "读 [wi],一个音节,不要读成“乌伊”。别人问要不要时,说 Oui, merci(要,谢谢)。" },
@@ -41,5 +41,5 @@
       "bodyZh": "点东西最简单的说法:要的东西 + s'il vous plaît。Un café 的 un 是“一(杯)”,现在先整句记(数字第 5 课学)。对店员要用 s'il vous plaît,不能只说名词。服务员常用 Et… ? 追问“还要……吗?”:Et de l'eau ?(要水吗?)要的话回答 Oui, merci !;只说 Merci 常常会被理解成“不用了,谢谢”。et 是“和、还有”,t 不发音。de 最常用的意思是“来自”:Je suis de Chengdu.;Et de l'eau ? 里的 de l' 表示“一些”,第 2 单元学部分冠词时再细讲。服务员端上来时说 Le café ?,意思是“咖啡是哪位的?”。文化点:法国人进咖啡馆先说 Bonjour,直接点单会显得没礼貌。",
       "examples": [ { "text": "Un café, s'il vous plaît.", "zh": "请来一杯咖啡。" }, { "text": "Et de l'eau ? — Oui, merci !", "zh": "要水吗?——要,谢谢!" }, { "text": "Je suis de Chengdu.", "zh": "我来自成都。(de = 来自)" } ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

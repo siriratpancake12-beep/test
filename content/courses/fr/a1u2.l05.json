@@ -23,7 +23,7 @@
     { "speaker": "lucas", "text": "Pas de confiture ? Moi, j'aime beaucoup la confiture !", "zh": "不要果酱?我可喜欢果酱了!", "items": ["fr.pas_de", "fr.confiture", "fr.moi", "fr.je", "fr.aimer", "fr.beaucoup"] },
     { "speaker": "lucas", "text": "Tu bois du café ou du thé ?", "zh": "你喝咖啡还是茶?", "items": ["fr.tu", "fr.boire", "fr.du", "fr.cafe", "fr.ou", "fr.the"] },
     { "speaker": "hao", "text": "Je ne bois pas de café. Je bois du lait ou de l'eau.", "zh": "我早上不喝咖啡。我喝牛奶或者水。", "items": ["fr.je", "fr.ne_pas", "fr.boire", "fr.pas_de", "fr.cafe", "fr.du", "fr.lait", "fr.ou", "fr.de_la", "fr.eau"] },
-    { "speaker": "hao", "text": "Je mange deux œufs. C'est le petit-déjeuner chinois !", "zh": "我吃两个鸡蛋。这就是中国式早餐!", "items": ["fr.je", "fr.manger", "fr.deux", "fr.oeuf", "fr.cest", "fr.petit_dejeuner", "fr.chinois"] },
+    { "speaker": "hao", "text": "Je mange deux œufs. C'est un petit-déjeuner chinois !", "zh": "我吃两个鸡蛋。这是一种中式早餐!", "items": ["fr.je", "fr.manger", "fr.deux", "fr.oeuf", "fr.cest", "fr.un", "fr.petit_dejeuner", "fr.chinois"] },
     { "speaker": "lucas", "text": "Deux œufs ? Moi aussi !", "zh": "两个鸡蛋?我也要!(卢卡总是饿)", "items": ["fr.deux", "fr.oeuf", "fr.moi", "fr.aussi"] }
   ],
   "questions": [
@@ -38,5 +38,5 @@
       "bodyZh": "否定句里,un / une / du / de la / de l' 都变成 de(元音前 d'):Je mange du pain. → Je ne mange pas de pain.;Je bois de l'eau. → Je ne bois pas d'eau. 很多中国学生会说 Je ne mange pas du pain,这是错的。但 aimer、adorer、être 后面的冠词不变:Je n'aime pas le café.(不是 pas de café)。",
       "examples": [ { "text": "Je ne bois pas de café.", "zh": "我不喝咖啡。(du café → de café)" }, { "text": "Je n'aime pas le café.", "zh": "我不喜欢咖啡。(aimer 后面还是 le)" } ] }
   ],
-  "review": "draft"
+  "review": "ai"
 }

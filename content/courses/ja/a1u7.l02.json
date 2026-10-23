@@ -1,0 +1,59 @@
+{
+  "id": "ja.a1u7.l02", "schemaVersion": 1, "lang": "ja", "type": "vocab", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107020,
+  "titleZh": "什么颜色好看?", "goalZh": "会说常见的颜色,说喜欢什么颜色、什么可爱", "canDoZh": "能说出常见的颜色,能说自己喜欢什么颜色、哪件衣服好看",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25.5,
+  "newItems": [
+    { "id": "ja.iro", "kind": "word", "pos": "noun", "text": "色", "zh": "颜色", "features": { "reading": "いろ", "pitch": 2 }, "noteZh": "何色(なにいろ)= 什么颜色;なんしょく 是“几种颜色”,别读错。" },
+    { "id": "ja.akai", "kind": "word", "pos": "adj", "text": "赤い", "zh": "红色的", "features": { "reading": "あかい", "pitch": 0 }, "noteZh": "颜色名词是 赤(あか):赤が 好きです。平板读,あかい 不降调。" },
+    { "id": "ja.aoi", "kind": "word", "pos": "adj", "text": "青い", "zh": "蓝色的", "features": { "reading": "あおい", "pitch": 2 }, "noteZh": "青 在日语里主要是蓝色:青い 空(蓝天);绿灯也叫 青(青信号)。颜色名词是 青(あお)。" },
+    { "id": "ja.shiroi", "kind": "word", "pos": "adj", "text": "白い", "zh": "白色的", "features": { "reading": "しろい", "pitch": 2 }, "noteZh": "颜色名词是 白(しろ):白が いいです。" },
+    { "id": "ja.kuroi", "kind": "word", "pos": "adj", "text": "黒い", "zh": "黑色的", "features": { "reading": "くろい", "pitch": 2 }, "noteZh": "颜色名词是 黒(くろ):黒と 白が あります。" },
+    { "id": "ja.kiiroi", "kind": "word", "pos": "adj", "text": "黄色い", "zh": "黄色的", "features": { "reading": "きいろい", "pitch": 0 }, "noteZh": "颜色名词是 黄色(きいろ),きい 是长音(两拍);形容词再加 い:黄色い。" },
+    { "id": "ja.tshatsu", "kind": "word", "pos": "noun", "text": "Tシャツ", "zh": "T恤", "features": { "reading": "ティーシャツ", "pitch": 0 }, "noteZh": "读 ティーシャツ;T 用英文字母写,ティ 是外来语的特殊拼法(第 2 单元 パーティー 学过)。" },
+    { "id": "ja.kawaii", "kind": "word", "pos": "adj", "text": "かわいい", "zh": "可爱;好看", "features": { "pitch": 3 }, "noteZh": "か・わ・い・い 四拍,最后的 いい 要读满。东西、衣服、人都能用,是年轻人最常用的夸奖词之一。" }
+  ],
+  "reviewItems": ["ja.suki", "ja.kono", "ja.ii", "ja.ne_p"],
+  "lines": [
+    { "speaker": "jiu", "text": "リンさん、この赤いTシャツはかわいいですね!", "reading": "リンさん、このあかいティーシャツはかわいいですね!", "tokens": ["リンさん、", "この", "赤い", "Tシャツ", "は", "かわいいですね!"], "zh": "林雨,这件红色的 T 恤好可爱啊!", "items": ["ja.san", "ja.kono", "ja.akai", "ja.tshatsu", "ja.wa_p", "ja.kawaii", "ja.desu", "ja.ne_p"] },
+    { "speaker": "rin", "text": "そうですね。ジウさんは赤が好きですか。", "reading": "そうですね。ジウさんはあかがすきですか。", "tokens": ["そう", "ですね。", "ジウさん", "は", "赤", "が", "好きですか。"], "zh": "是啊。智友,你喜欢红色吗?", "items": ["ja.sou", "ja.desu", "ja.ne_p", "ja.san", "ja.wa_p", "ja.akai", "ja.ga_p", "ja.suki", "ja.ka_p"] },
+    { "speaker": "jiu", "text": "はい、赤が好きです。リンさんは何色が好きですか。", "reading": "はい、あかがすきです。リンさんはなにいろがすきですか。", "tokens": ["はい、", "赤", "が", "好きです。", "リンさん", "は", "何色", "が", "好きですか。"], "zh": "对,我喜欢红色。林雨你喜欢什么颜色?", "items": ["ja.hai", "ja.akai", "ja.ga_p", "ja.suki", "ja.desu", "ja.san", "ja.wa_p", "ja.nani", "ja.iro", "ja.ka_p"] },
+    { "speaker": "rin", "text": "わたしは白が好きです。白いTシャツがいいです。", "reading": "わたしはしろがすきです。しろいティーシャツがいいです。", "tokens": ["わたし", "は", "白", "が", "好きです。", "白い", "Tシャツ", "が", "いいです。"], "zh": "我喜欢白色,想挑件白色的 T 恤。", "items": ["ja.watashi", "ja.wa_p", "ja.shiroi", "ja.ga_p", "ja.suki", "ja.desu", "ja.tshatsu", "ja.ii"] },
+    { "speaker": "tenin", "text": "いらっしゃいませ。何色がいいですか。", "reading": "いらっしゃいませ。なにいろがいいですか。", "tokens": ["いらっしゃいませ。", "何色", "が", "いいですか。"], "zh": "欢迎光临。您想要什么颜色的?", "items": ["ja.irasshaimase", "ja.nani", "ja.iro", "ja.ga_p", "ja.ii", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "白いTシャツはありますか。", "reading": "しろいティーシャツはありますか。", "tokens": ["白い", "Tシャツ", "は", "ありますか。"], "zh": "有白色的 T 恤吗?", "items": ["ja.shiroi", "ja.tshatsu", "ja.wa_p", "ja.aru", "ja.ka_p"] },
+    { "speaker": "tenin", "text": "はい、あります。黒と青と黄色もありますよ。", "reading": "はい、あります。くろとあおときいろもありますよ。", "tokens": ["はい、", "あります。", "黒", "と", "青", "と", "黄色", "も", "ありますよ。"], "zh": "有的。还有黑色、蓝色和黄色的哦。", "items": ["ja.hai", "ja.aru", "ja.kuroi", "ja.to_p", "ja.aoi", "ja.kiiroi", "ja.mo_p", "ja.yo_p"] },
+    { "speaker": "jiu", "text": "青はいい色ですね。黄色いTシャツもかわいいです!", "reading": "あおはいいいろですね。きいろいティーシャツもかわいいです!", "tokens": ["青", "は", "いい", "色", "ですね。", "黄色い", "Tシャツ", "も", "かわいいです!"], "zh": "蓝色真好看。黄色的 T 恤也好可爱!", "items": ["ja.aoi", "ja.wa_p", "ja.ii", "ja.iro", "ja.desu", "ja.ne_p", "ja.kiiroi", "ja.tshatsu", "ja.mo_p", "ja.kawaii"] },
+    { "speaker": "rin", "text": "わたしはこの白いTシャツにします。", "reading": "わたしはこのしろいティーシャツにします。", "tokens": ["わたし", "は", "この", "白い", "Tシャツ", "に", "します。"], "zh": "我就要这件白色的 T 恤。", "items": ["ja.watashi", "ja.wa_p", "ja.kono", "ja.shiroi", "ja.tshatsu", "ja.ni_p", "ja.suru"] },
+    { "speaker": "jiu", "text": "わたしは赤いTシャツにします!", "reading": "わたしはあかいティーシャツにします!", "tokens": ["わたし", "は", "赤い", "Tシャツ", "に", "します!"], "zh": "我要红色的那件!", "items": ["ja.watashi", "ja.wa_p", "ja.akai", "ja.tshatsu", "ja.ni_p", "ja.suru"] }
+  ],
+  "questions": [
+    { "prompt": "智友喜欢什么颜色?", "options": ["白色", "黑色", "红色", "黄色"], "answer": 2, "explainZh": "林雨问 ジウさんは赤が好きですか,智友说:はい、赤が好きです。(对,我喜欢红色)" },
+    { "prompt": "林雨最后选了什么?", "options": ["白色的 T 恤", "红色的 T 恤", "黄色的 T 恤"], "answer": 0, "explainZh": "林雨说:わたしはこの白いTシャツにします。(我就要这件白色的 T 恤)" },
+    { "prompt": "店里除了白色,还有哪些颜色的 T 恤?", "options": ["只有白色", "黑色、蓝色和黄色", "只有黑色"], "answer": 1, "explainZh": "店员说:黒と青と黄色もありますよ。(还有黑色、蓝色和黄色)" }
+  ],
+  "grammar": [
+    {
+      "id": "ja.g.iro",
+      "titleZh": "颜色:赤い Tシャツ 和 赤が 好きです",
+      "bodyZh": "常用的颜色在日语里是 い形容词:赤い(红)、青い(蓝)、白い(白)、黒い(黑)、黄色い(黄)。修饰名词时直接放在名词前面:赤い Tシャツ、白い 傘。说“颜色本身”时用名词,去掉 い:赤、青、白、黒、黄色(黄色い 去掉 い 是 黄色)。所以“我喜欢红色”说 赤が 好きです,不说 ×赤いが 好きです;“有黑色和白色”说 黒と 白が あります。赤の Tシャツ 这种说法也有,但先记 赤い Tシャツ。另外,青 主要是蓝色:青い 空(蓝天);红绿灯的绿灯日语也叫 青(青信号),和中文“青”的范围不一样。",
+      "examples": [
+        { "text": "赤いTシャツはかわいいですね。", "zh": "红色的 T 恤真可爱。(あかいティーシャツはかわいいですね)" },
+        { "text": "わたしは白が好きです。", "zh": "我喜欢白色。(わたしはしろがすきです)" },
+        { "text": "黒いかばんはありますか。", "zh": "有黑色的包吗?(くろいかばんはありますか)" },
+        { "text": "黄色い傘は500円です。", "zh": "黄色的伞 500 日元。(きいろいかさはごひゃくえんです)" }
+      ]
+    },
+    {
+      "id": "ja.g.naniiro",
+      "titleZh": "何色ですか / 何色が いいですか;〜に します",
+      "bodyZh": "问颜色用 何色。这里的 何 读 なに,何色 读 なにいろ(なんしょく 是“几种颜色”)。リンさんの 傘は 何色ですか(你的伞是什么颜色的?);店员问“您要什么颜色”常说 何色が いいですか。回答直接说颜色名词:白です / 白が いいです。かわいい 是“可爱、好看”,东西、衣服和人都能用。挑好了说“N に します”(就要 N,第 4 单元点菜时学过):この 白い Tシャツに します。",
+      "examples": [
+        { "text": "リンさんの傘は何色ですか。", "zh": "林雨,你的伞是什么颜色的?(リンさんのかさはなにいろですか)" },
+        { "text": "何色がいいですか。", "zh": "您要什么颜色的?(なにいろがいいですか)" },
+        { "text": "白がいいです。", "zh": "白色的好。(しろがいいです)" },
+        { "text": "この青いTシャツにします。", "zh": "我就要这件蓝色的 T 恤。(このあおいティーシャツにします)" }
+      ]
+    }
+  ],
+  "review": "draft"
+}

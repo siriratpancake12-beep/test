@@ -1,0 +1,60 @@
+{
+  "id": "ja.a1u7.l03", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
+  "unit": "A1-7 购物", "order": 107030,
+  "titleZh": "太大了,有小一点的吗?", "goalZh": "会用 い形容词的否定和“形容词 + の”试穿、换尺码", "canDoZh": "能试穿衣服和鞋子,说哪里不合适(有点大、有点长),问有没有别的尺码",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 27,
+  "newItems": [
+    { "id": "ja.ookii", "kind": "word", "pos": "adj", "text": "大きい", "zh": "大", "features": { "reading": "おおきい", "pitch": 3 }, "noteZh": "“大”在这里读 おお(训读,おお 是长音),大学 的“大”读 だい(音读)。否定 大きくないです。" },
+    { "id": "ja.chiisai", "kind": "word", "pos": "adj", "text": "小さい", "zh": "小", "features": { "reading": "ちいさい", "pitch": 3 }, "noteZh": "ちい 是长音(两拍)。否定 小さくないです。" },
+    { "id": "ja.nagai", "kind": "word", "pos": "adj", "text": "長い", "zh": "长", "features": { "reading": "ながい", "pitch": 2 }, "noteZh": "否定 長くないです。" },
+    { "id": "ja.mijikai", "kind": "word", "pos": "adj", "text": "短い", "zh": "短", "features": { "reading": "みじかい", "pitch": 3 }, "noteZh": "み・じ・か・い 四拍,じ 是浊音。否定 短くないです。" },
+    { "id": "ja.saizu", "kind": "word", "pos": "noun", "text": "サイズ", "zh": "尺码;大小", "features": { "pitch": 1 }, "noteZh": "鞋的尺码按厘米说:23 = 23 厘米(大约是中国的 36 码);衣服的 S / M / L 读 エス、エム、エル。" },
+    { "id": "ja.mousukoshi", "kind": "word", "pos": "adv", "text": "もう少し", "zh": "再……一点", "features": { "reading": "もうすこし" }, "noteZh": "放在形容词前面:もう少し 小さいの(再小一点的)。少し 单独用 = 一点点。" },
+    { "id": "ja.kutsu", "kind": "word", "pos": "noun", "text": "靴", "zh": "鞋", "features": { "reading": "くつ", "pitch": 2 }, "noteZh": "靴 = 鞋子,不只是靴子。进日本人家里要脱鞋。" },
+    { "id": "ja.shichakushitsu", "kind": "word", "pos": "noun", "text": "試着室", "zh": "试衣间", "features": { "reading": "しちゃくしつ" }, "noteZh": "試着(しちゃく)= 试穿;ちゃ 是拗音,只占一拍。" },
+    { "id": "ja.dou", "kind": "word", "pos": "adv", "text": "どう", "zh": "怎么样", "features": { "pitch": 1 }, "noteZh": "これは どうですか(这个怎么样?):店员推荐、朋友征求意见都这样问。" }
+  ],
+  "reviewItems": ["ja.chotto", "ja.ii", "ja.aru"],
+  "lines": [
+    { "speaker": "rin", "text": "すみません、この靴の23はありますか。", "reading": "すみません、このくつのにじゅうさんはありますか。", "tokens": ["すみません、", "この", "靴", "の", "23", "は", "ありますか。"], "zh": "不好意思,这双鞋有 23 厘米的吗?", "items": ["ja.sumimasen", "ja.kono", "ja.kutsu", "ja.no_p", "ja.ni", "ja.juu", "ja.san_num", "ja.wa_p", "ja.aru", "ja.ka_p"] },
+    { "speaker": "tenin_m", "text": "23ですね。はい、どうぞ。", "reading": "にじゅうさんですね。はい、どうぞ。", "tokens": ["23", "ですね。", "はい、", "どうぞ。"], "zh": "23 的是吧。有的,您试试。", "items": ["ja.ni", "ja.juu", "ja.san_num", "ja.desu", "ja.ne_p", "ja.hai", "ja.douzo"] },
+    { "speaker": "rin", "text": "ちょっと大きいです。もう少し小さいのはありますか。", "reading": "ちょっとおおきいです。もうすこしちいさいのはありますか。", "tokens": ["ちょっと", "大きいです。", "もう少し", "小さい", "の", "は", "ありますか。"], "zh": "(试穿后)有点大。有再小一点的吗?", "items": ["ja.chotto", "ja.ookii", "ja.desu", "ja.mousukoshi", "ja.chiisai", "ja.no_p", "ja.wa_p", "ja.aru", "ja.ka_p"] },
+    { "speaker": "tenin_m", "text": "はい。このサイズはどうですか。", "tokens": ["はい。", "この", "サイズ", "は", "どうですか。"], "zh": "有的。这个尺码怎么样?", "items": ["ja.hai", "ja.kono", "ja.saizu", "ja.wa_p", "ja.dou", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "これは大きくないですね。いいです!", "reading": "これはおおきくないですね。いいです!", "tokens": ["これ", "は", "大きくないですね。", "いいです!"], "zh": "这双不大。挺好的!", "items": ["ja.kore", "ja.wa_p", "ja.ookii", "ja.desu", "ja.ne_p", "ja.ii"] },
+    { "speaker": "rin", "text": "すみません、試着室はどこですか。", "reading": "すみません、しちゃくしつはどこですか。", "tokens": ["すみません、", "試着室", "は", "どこですか。"], "zh": "(拿着一条裤子)不好意思,试衣间在哪里?", "items": ["ja.sumimasen", "ja.shichakushitsu", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "tenin_m", "text": "試着室はあそこです。どうぞ。", "reading": "しちゃくしつはあそこです。どうぞ。", "tokens": ["試着室", "は", "あそこ", "です。", "どうぞ。"], "zh": "试衣间在那边,您请。", "items": ["ja.shichakushitsu", "ja.wa_p", "ja.asoko", "ja.desu", "ja.douzo"] },
+    { "speaker": "rin", "text": "これはちょっと長いです。もう少し短いのはありますか。", "reading": "これはちょっとながいです。もうすこしみじかいのはありますか。", "tokens": ["これ", "は", "ちょっと", "長いです。", "もう少し", "短い", "の", "は", "ありますか。"], "zh": "这条有点长。有再短一点的吗?", "items": ["ja.kore", "ja.wa_p", "ja.chotto", "ja.nagai", "ja.desu", "ja.mousukoshi", "ja.mijikai", "ja.no_p", "ja.aru", "ja.ka_p"] },
+    { "speaker": "tenin_m", "text": "はい、あります。これはどうですか。", "tokens": ["はい、", "あります。", "これ", "は", "どうですか。"], "zh": "有的。这条怎么样?", "items": ["ja.hai", "ja.aru", "ja.kore", "ja.wa_p", "ja.dou", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "これは長くないです。いいですね!", "reading": "これはながくないです。いいですね!", "tokens": ["これ", "は", "長くないです。", "いいですね!"], "zh": "这条不长。正合适!", "items": ["ja.kore", "ja.wa_p", "ja.nagai", "ja.desu", "ja.ii", "ja.ne_p"] }
+  ],
+  "questions": [
+    { "prompt": "第一双鞋(23 厘米)林雨穿着怎么样?", "options": ["有点小", "有点大", "正合适"], "answer": 1, "explainZh": "林雨试完说:ちょっと大きいです。(有点大)" },
+    { "prompt": "林雨向店员打听什么地方?", "options": ["收银台", "厕所", "试衣间"], "answer": 2, "explainZh": "林雨问:すみません、試着室はどこですか。(试衣间在哪里?)" },
+    { "prompt": "林雨试的那条裤子怎么了?最后呢?", "options": ["有点长,店员拿来了短一点的", "有点短,店员拿来了长一点的", "有点大,林雨没买"], "answer": 0, "explainZh": "林雨说 これはちょっと長いです。もう少し短いのはありますか。换了以后说 これは長くないです。いいですね!" }
+  ],
+  "grammar": [
+    {
+      "id": "ja.g.kunai",
+      "titleZh": "い形容词的否定:大きくないです",
+      "bodyZh": "い形容词变否定:去掉最后的 い,加 くないです。大きい → 大きくないです(不大),小さい → 小さくないです,長い → 長くないです,高い → 高くないです。いい 是特殊的,否定说 よくないです(不说 ×いくないです)。中国学生常犯的错是照名词的样子说 ×大きいじゃないです、×大きいではありません:じゃないです / ではありません 只接在名词(和下一课的な形容词)后面,い形容词一律用 〜くないです。",
+      "examples": [
+        { "text": "この靴は大きくないです。", "zh": "这双鞋不大。(このくつはおおきくないです)" },
+        { "text": "このかばんは高くないです。", "zh": "这个包不贵。(このかばんはたかくないです)" },
+        { "text": "試着室は遠くないですよ。", "zh": "试衣间不远哦。(しちゃくしつはとおくないですよ)" },
+        { "text": "この色はよくないですね。", "zh": "这个颜色不太好看呢。(このいろはよくないですね)" }
+      ]
+    },
+    {
+      "id": "ja.g.adj_no",
+      "titleZh": "“形容词 + の”和“もう少し〜のは ありますか”",
+      "bodyZh": "前面说过的东西,不用再说一遍名词,用 の 代替:小さいの = 小的(那个),短いの = 短的,白いの = 白色的,和中文的“小的”“短的”很像。“再……一点”用 もう少し,放在形容词前面:もう少し 小さいの(再小一点的)。中文“小一点”的“一点”在后面,日语 もう少し 在前面,别说成 ×小さい もう少し。在店里问“有没有……”就用“N は ありますか”。店员拿别的给你看时常说 これは どうですか(这个怎么样?),合适就说 いいですね。",
+      "examples": [
+        { "text": "もう少し小さいのはありますか。", "zh": "有再小一点的吗?(もうすこしちいさいのはありますか)" },
+        { "text": "もう少し長いのはありますか。", "zh": "有再长一点的吗?(もうすこしながいのはありますか)" },
+        { "text": "白いのはありますか。", "zh": "有白色的吗?(しろいのはありますか)" },
+        { "text": "これはどうですか。", "zh": "这个怎么样?" }
+      ]
+    }
+  ],
+  "review": "draft"
+}
