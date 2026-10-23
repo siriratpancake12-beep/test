@@ -1,0 +1,52 @@
+{
+  "id": "de.a1u10.l02", "schemaVersion": 1, "lang": "de", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-10 手机与网络", "order": 110020,
+  "titleZh": "在手机店:换个套餐", "goalZh": "会用 wie + 形容词问价格和期限,听懂 pro Monat,选一个手机套餐", "canDoZh": "能在手机店问套餐的价格、流量和合同期限,决定选哪一种",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "de.vertrag", "kind": "word", "pos": "noun", "text": "der Vertrag", "zh": "合同", "features": { "gender": "m", "plural": "die Verträge", "ipa": "fɛɐ̯ˈtʁaːk" }, "noteZh": "手机、房子、工作都要签 Vertrag;Der Vertrag ist zwei Jahre.(合同期两年);复数变音:Verträge;v 读 [f],词尾 g 读 [k]。" },
+    { "id": "de.prepaidkarte", "kind": "word", "pos": "noun", "text": "die Prepaidkarte", "zh": "预付卡(先充值后使用的手机卡)", "features": { "gender": "f", "plural": "die Prepaidkarten", "ipa": "ˈpʁiːpeɪ̯tˌkaʁtə" }, "noteZh": "英语 prepaid + die Karte,性看 Karte:die;不用签长合同,钱用完了再充;也写 Prepaid-Karte。" },
+    { "id": "de.sim_karte", "kind": "word", "pos": "noun", "text": "die SIM-Karte", "zh": "SIM 卡;手机卡", "features": { "gender": "f", "plural": "die SIM-Karten", "ipa": "ˈzɪmˌkaʁtə" }, "noteZh": "SIM 读 [zɪm];在德国办手机卡要出示护照或身份证;阴性,跟着 die Karte。" },
+    { "id": "de.pro", "kind": "word", "pos": "prep", "text": "pro", "zh": "每(每月、每人……)", "features": { "ipa": "pʁoː" }, "noteZh": "pro + 不带冠词的名词:9,99 Euro pro Monat(每月 9.99 欧元);中文“每月”放在价钱前面,德语 pro Monat 放在价钱后面。" },
+    { "id": "de.gigabyte", "kind": "word", "pos": "noun", "text": "das Gigabyte", "zh": "千兆字节;GB(流量单位)", "features": { "gender": "n", "plural": "die Gigabyte", "ipa": "ˈɡiːɡaˌbaɪ̯t" }, "noteZh": "写作 GB,口语常说 Giga;数量后面不变复数:zehn Gigabyte;byte 按英语读 [baɪ̯t]。" },
+    { "id": "de.internet", "kind": "word", "pos": "noun", "text": "das Internet", "zh": "互联网;网络;上网流量", "features": { "gender": "n", "plural": "-", "ipa": "ˈɪntɐnɛt" }, "noteZh": "中性;im Internet(在网上);口语里 zehn Gigabyte Internet 指手机流量;重音在前:IN-ter-net。" },
+    { "id": "de.tarif", "kind": "word", "pos": "noun", "text": "der Tarif", "zh": "(手机、网络的)套餐;价目", "features": { "gender": "m", "plural": "die Tarife", "ipa": "taˈʁiːf" }, "noteZh": "手机套餐叫 der Handytarif;重音在后:ta-RIF;阳性。" },
+    { "id": "de.guenstig", "kind": "word", "pos": "adj", "text": "günstig", "zh": "便宜的;划算的", "features": { "ipa": "ˈɡʏnstɪç" }, "noteZh": "比 billig 好听:billig 有时带“便宜没好货”的意思,günstig 是“价钱划算”;词尾 -ig 读 [ɪç];ü 是短音。" },
+    { "id": "de.kuendigen", "kind": "word", "pos": "verb", "text": "kündigen", "zh": "解约;退订(合同)", "features": { "ipa": "ˈkʏndɪɡn̩" }, "noteZh": "den Vertrag kündigen(解除合同);Sie können jeden Monat kündigen.(每个月都可以退订);也是“辞职、辞退”的意思;ü 是短音 [ʏ]。" }
+  ],
+  "reviewItems": ["de.teuer", "de.wie_lange", "de.wie_viel", "de.monat", "de.pass"],
+  "lines": [
+    { "speaker": "verkaeufer", "text": "Guten Tag! Kann ich Ihnen helfen?", "zh": "您好!需要帮忙吗?", "items": ["de.guten_tag", "de.koennen", "de.ich", "de.sie_hoeflich", "de.helfen"] },
+    { "speaker": "wei", "text": "Ja, bitte. Ich brauche einen neuen Tarif für mein Handy.", "zh": "是的,麻烦您。我的手机需要一个新套餐。", "items": ["de.ja", "de.bitte", "de.ich", "de.brauchen", "de.ein", "de.neu", "de.tarif", "de.fuer", "de.mein", "de.handy"] },
+    { "speaker": "verkaeufer", "text": "Möchten Sie einen Vertrag oder eine Prepaidkarte?", "zh": "您要签合同还是用预付卡?", "items": ["de.moechten", "de.sie_hoeflich", "de.ein", "de.vertrag", "de.oder", "de.prepaidkarte"] },
+    { "speaker": "wei", "text": "Wie teuer ist ein Vertrag?", "zh": "合同多少钱?", "items": ["de.wie", "de.teuer", "de.sein", "de.ein", "de.vertrag"] },
+    { "speaker": "verkaeufer", "text": "Der Vertrag kostet 19,99 Euro pro Monat, mit zwanzig Gigabyte Internet.", "zh": "合同每月 19.99 欧元,有 20 GB 流量。", "items": ["de.vertrag", "de.kosten", "de.neun", "de.zehn", "de.euro", "de.pro", "de.monat", "de.mit", "de.zwanzig", "de.gigabyte", "de.internet"] },
+    { "speaker": "wei", "text": "Und wie lange ist der Vertrag?", "zh": "合同签多长时间?", "items": ["de.und", "de.wie_lange", "de.sein", "de.vertrag"] },
+    { "speaker": "verkaeufer", "text": "Zwei Jahre. Die Prepaidkarte ist günstig: nur 9,99 Euro pro Monat.", "zh": "两年。预付卡很划算:每月只要 9.99 欧元。", "items": ["de.zwei", "de.jahr", "de.prepaidkarte", "de.sein", "de.guenstig", "de.nur", "de.neun", "de.euro", "de.pro", "de.monat"] },
+    { "speaker": "wei", "text": "Wie viele Gigabyte hat die Prepaidkarte?", "zh": "预付卡有多少 GB?", "items": ["de.wie_viel", "de.gigabyte", "de.haben", "de.prepaidkarte"] },
+    { "speaker": "verkaeufer", "text": "Zehn Gigabyte. Und Sie können jeden Monat kündigen.", "zh": "10 GB。而且每个月都可以退订。", "items": ["de.zehn", "de.gigabyte", "de.und", "de.sie_hoeflich", "de.koennen", "de.jeder", "de.monat", "de.kuendigen"] },
+    { "speaker": "wei", "text": "Gut, dann nehme ich die Prepaidkarte. Zwanzig Gigabyte brauche ich nicht.", "zh": "好,那我要预付卡。20 GB 我用不着。", "items": ["de.gut", "de.dann", "de.nehmen", "de.ich", "de.prepaidkarte", "de.zwanzig", "de.gigabyte", "de.brauchen", "de.nicht"] },
+    { "speaker": "verkaeufer", "text": "Gern. Ihren Pass, bitte. Hier ist Ihre SIM-Karte.", "zh": "好的。请出示您的护照。这是您的 SIM 卡。", "items": ["de.gern", "de.ihr_hoeflich", "de.pass", "de.bitte", "de.hier", "de.sein", "de.sim_karte"] }
+  ],
+  "questions": [
+    { "prompt": "签合同每个月多少钱?", "options": ["9,99 欧元", "19,99 欧元", "20 欧元"], "answer": 1, "explainZh": "店员说:Der Vertrag kostet 19,99 Euro pro Monat.(合同每月 19.99 欧元。)9.99 欧元是预付卡。" },
+    { "prompt": "王伟为什么选了预付卡?", "options": ["预付卡划算,每个月都能退订,20 GB 他用不着", "店里没有合同了", "莉娜让他选预付卡"], "answer": 0, "explainZh": "预付卡 nur 9,99 Euro pro Monat,而且 Sie können jeden Monat kündigen;王伟说:Zwanzig Gigabyte brauche ich nicht.(20 GB 我用不着。)" },
+    { "prompt": "最后店员要看什么?", "options": ["学生证", "银行卡", "护照"], "answer": 2, "explainZh": "店员说:Ihren Pass, bitte.(请出示您的护照。)" }
+  ],
+  "grammar": [
+    { "id": "de.g.wie_adjektiv", "titleZh": "wie + 形容词:多贵?多久?多少?",
+      "bodyZh": "问程度用 wie + 形容词 / 副词,放在句首,动词还在第二位:Wie teuer ist der Vertrag?(合同多贵?)/ Wie lange ist der Vertrag?(合同多长时间?)/ Wie alt bist du?(你多大?)/ Wie weit ist das?(那有多远?)。\n问数量用 wie viel(不可数)和 wie viele(可数复数):Wie viel kostet das? / Wie viele Gigabyte hat die Karte?。\n中文“多贵、多久、多少”的“多”,德语都是 wie。",
+      "examples": [
+        { "text": "Wie teuer ist ein Vertrag?", "zh": "合同多少钱?" },
+        { "text": "Wie lange ist der Vertrag?", "zh": "合同签多长时间?" },
+        { "text": "Wie viele Gigabyte hat die Prepaidkarte?", "zh": "预付卡有多少 GB?" }
+      ] },
+    { "id": "de.g.preis_pro", "titleZh": "价格和 pro",
+      "bodyZh": "德语价格的读法:9,99 € 读作 neun Euro neunundneunzig——逗号前是欧元,逗号后是分;19,99 € = neunzehn Euro neunundneunzig。\n“每月、每天”用 pro + 不带冠词的名词,放在价格后面:9,99 Euro pro Monat、zehn Gigabyte pro Monat。口语也说 im Monat:9,99 Euro im Monat。\n数量后面的单位常常不变复数:zehn Gigabyte、zwanzig Euro。",
+      "examples": [
+        { "text": "Die Prepaidkarte kostet 9,99 Euro pro Monat.", "zh": "预付卡每月 9.99 欧元。" },
+        { "text": "Der Vertrag kostet 19,99 Euro pro Monat.", "zh": "合同每月 19.99 欧元。" }
+      ] }
+  ],
+  "review": "draft"
+}
