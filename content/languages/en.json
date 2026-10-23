@@ -30,6 +30,8 @@
     "staff": { "name": "Staff", "nameZh": "工作人员", "gender": "m", "bioZh": "轻轨车站、博物馆等公共场所的工作人员,负责回答问题、帮忙买票。" },
     "tourist": { "name": "Tourist", "nameZh": "游客", "gender": "f", "bioZh": "来西雅图玩的外地游客,拿着地图找路。" },
     "receptionist": { "name": "Receptionist", "nameZh": "前台", "gender": "m", "bioZh": "学校健康中心的前台,负责登记和预约。" },
-    "doctor": { "name": "Doctor", "nameZh": "医生", "gender": "f", "bioZh": "学校健康中心的医生,说话温和,会用简单的话解释病情和医嘱。" }
+    "doctor": { "name": "Doctor", "nameZh": "医生", "gender": "f", "bioZh": "学校健康中心的医生,说话温和,会用简单的话解释病情和医嘱。" },
+    "mentor": {"name": "Mentor", "nameZh": "实习导师", "gender": "f", "bioZh": "磊实习时带他的导师,说话直接、给反馈很具体。"},
+    "neighbor": {"name": "Neighbor", "nameZh": "邻居", "gender": "m", "bioZh": "磊大二住的公寓楼里的邻居,友好、爱聊天。"}
   }
 }
