@@ -1,0 +1,52 @@
+{
+  "id": "ja.a1u6.l01", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106010,
+  "titleZh": "厕所在哪里?", "goalZh": "会用 ここ / そこ / あそこ / どこ 问地方、答地方",
+  "canDoZh": "能问厕所、车站、银行、邮局在哪里,听懂“这里 / 那里”的回答",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "ja.koko", "kind": "word", "pos": "pron", "text": "ここ", "zh": "这里", "features": { "pitch": 0 }, "noteZh": "说话人所在的地方:ここは 新宿駅です(这里是新宿站)。" },
+    { "id": "ja.soko", "kind": "word", "pos": "pron", "text": "そこ", "zh": "那里(离你近)", "features": { "pitch": 0 }, "noteZh": "听话人那边、离对方近的地方:銀行は そこです(银行就在你那儿)。" },
+    { "id": "ja.asoko", "kind": "word", "pos": "pron", "text": "あそこ", "zh": "那里(离我们都远)", "features": { "pitch": 0 }, "noteZh": "离两个人都远的地方。中文的“那边、那儿”多半对应 あそこ;对方身边的地方要说 そこ。" },
+    { "id": "ja.doko", "kind": "word", "pos": "pron", "text": "どこ", "zh": "哪里", "features": { "pitch": 1 }, "noteZh": "N は どこですか(N 在哪里?)。ど 是浊音,声带要振动,不要读成 と。" },
+    { "id": "ja.toire", "kind": "word", "pos": "noun", "text": "トイレ", "zh": "厕所;洗手间", "features": { "pitch": 1 }, "noteZh": "更客气的说法是 お手洗い(おてあらい)。" },
+    { "id": "ja.eki", "kind": "word", "pos": "noun", "text": "駅", "zh": "车站", "features": { "reading": "えき", "pitch": 1 }, "noteZh": "电车、地铁的车站;站名后面直接加 駅:新宿駅(しんじゅくえき)。公交车站叫 バス停(バスてい)。き 是清音,不要读成 ぎ。" },
+    { "id": "ja.ginkou", "kind": "word", "pos": "noun", "text": "銀行", "zh": "银行", "features": { "reading": "ぎんこう", "pitch": 0 }, "noteZh": "ぎん 后面是长音 こう:ぎ・ん・こ・う 4 拍。“行”在这里读 こう,不读 ぎょう。" },
+    { "id": "ja.yuubinkyoku", "kind": "word", "pos": "noun", "text": "郵便局", "zh": "邮局", "features": { "reading": "ゆうびんきょく", "pitch": 3 }, "noteZh": "日本的邮局也能存钱、寄包裹,标志是“〒”。ゆう 是长音,きょく 的 きょ 是拗音。" }
+  ],
+  "reviewItems": ["ja.kore", "ja.sore", "ja.are", "ja.sumimasen"],
+  "lines": [
+    { "speaker": "jiu", "text": "ここは新宿駅ですね。", "zh": "(下午放学后,两人第一次来新宿)这里就是新宿站啊。", "reading": "ここはしんじゅくえきですね。", "tokens": ["ここ", "は", "新宿駅", "ですね。"], "items": ["ja.koko", "ja.wa_p", "ja.eki", "ja.desu", "ja.ne_p"] },
+    { "speaker": "rin", "text": "はい。あ、すみません。トイレはどこですか。", "zh": "嗯。(转身问站务员)啊,劳驾,请问厕所在哪儿?", "tokens": ["はい。", "あ、", "すみません。", "トイレ", "は", "どこ", "ですか。"], "items": ["ja.hai", "ja.sumimasen", "ja.toire", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "ekiin", "text": "トイレはあそこです。", "zh": "(指着远处)厕所在那边。", "tokens": ["トイレ", "は", "あそこ", "です。"], "items": ["ja.toire", "ja.wa_p", "ja.asoko", "ja.desu"] },
+    { "speaker": "jiu", "text": "すみません、銀行はどこですか。", "zh": "劳驾,请问银行在哪儿?(智友要取钱)", "reading": "すみません、ぎんこうはどこですか。", "tokens": ["すみません、", "銀行", "は", "どこ", "ですか。"], "items": ["ja.sumimasen", "ja.ginkou", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "ekiin", "text": "銀行はそこですよ。", "zh": "(指着她们身后)银行就在你们那儿呀。", "reading": "ぎんこうはそこですよ。", "tokens": ["銀行", "は", "そこ", "ですよ。"], "items": ["ja.ginkou", "ja.wa_p", "ja.soko", "ja.desu", "ja.yo_p"] },
+    { "speaker": "jiu", "text": "あ、これですか。", "zh": "(回头看身边的楼)啊,是这个吗?", "tokens": ["あ、", "これ", "ですか。"], "items": ["ja.kore", "ja.desu", "ja.ka_p"] },
+    { "speaker": "ekiin", "text": "はい、それです。", "zh": "对,就是那个。", "tokens": ["はい、", "それ", "です。"], "items": ["ja.hai", "ja.sore", "ja.desu"] },
+    { "speaker": "rin", "text": "すみません、郵便局はどこですか。", "zh": "劳驾,邮局在哪儿?(林雨要给家里寄东西)", "reading": "すみません、ゆうびんきょくはどこですか。", "tokens": ["すみません、", "郵便局", "は", "どこ", "ですか。"], "items": ["ja.sumimasen", "ja.yuubinkyoku", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "ekiin", "text": "郵便局はあそこです。", "zh": "(指着远处的一栋楼)邮局在那边。", "reading": "ゆうびんきょくはあそこです。", "tokens": ["郵便局", "は", "あそこ", "です。"], "items": ["ja.yuubinkyoku", "ja.wa_p", "ja.asoko", "ja.desu"] },
+    { "speaker": "rin", "text": "あれですか。ありがとうございます!", "zh": "是那栋楼吗?谢谢您!", "tokens": ["あれ", "ですか。", "ありがとうございます!"], "items": ["ja.are", "ja.desu", "ja.ka_p", "ja.arigatou_gozaimasu"] }
+  ],
+  "questions": [
+    { "prompt": "站务员说厕所在哪里?", "options": ["就在她们身边", "离她们和站务员都比较远的地方", "银行旁边"], "answer": 1, "explainZh": "站务员说:トイレはあそこです。あそこ 指离说话的两个人都远的地方。银行是 そこ(就在她们身边),和厕所不在一处。" },
+    { "prompt": "智友要找的银行在哪里?", "options": ["就在智友她们身边", "车站外面很远的地方", "厕所旁边"], "answer": 0, "explainZh": "站务员说:銀行はそこですよ。そこ 是离听话人(智友)近的地方;智友回头问 これですか,站务员说 はい、それです。" },
+    { "prompt": "林雨最后问的是什么地方?", "options": ["厕所", "银行", "邮局"], "answer": 2, "explainZh": "林雨问:郵便局はどこですか。站务员说 あそこです,林雨指着远处的楼确认:あれですか。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u6_koko", "titleZh": "ここ / そこ / あそこ / どこ:这里、那里、哪里",
+      "bodyZh": "说地方用 ここ / そこ / あそこ,问“哪里”用 どこ。和第 3 单元的 これ / それ / あれ 一样,按“离谁近”分:\n· ここ:说话人这边(这里)\n· そこ:听话人那边、离对方近(你那儿)\n· あそこ:离两个人都远(那边)\n· どこ:哪里\n中文只分“这里 / 那里”两种,日语要分三种:就在对方身边的地方说 そこ,不说 あそこ。\nこれ / それ / あれ 指东西,ここ / そこ / あそこ 指地方:銀行はそこです(银行在你那儿——说地方);あ、これですか(啊,是这个吗?——指那栋楼)。",
+      "examples": [
+        { "text": "ここは新宿駅です。", "zh": "这里是新宿站。(ここはしんじゅくえきです)" },
+        { "text": "銀行はそこです。", "zh": "银行就在你那儿。(ぎんこうはそこです)" },
+        { "text": "トイレはあそこです。", "zh": "厕所在那边。" }
+      ] },
+    { "id": "ja.g.u6_dokodesuka", "titleZh": "N は どこですか:问地方在哪里",
+      "bodyZh": "问某个地方在哪里:N は どこですか。回答:N は あそこです,或者只说 あそこです。问路先说 すみません(劳驾),问完说 ありがとうございます。\n中文说“厕所在哪里”,日语直接说 トイレはどこですか,用 です 就行,不用另找一个“在”。\n在车站里最常问的就是厕所和出口(“出口”本单元最后一课学)。更客气的“洗手间”说 お手洗い(おてあらい)。",
+      "examples": [
+        { "text": "すみません、トイレはどこですか。", "zh": "劳驾,厕所在哪儿?" },
+        { "text": "郵便局はどこですか。", "zh": "邮局在哪儿?(ゆうびんきょくはどこですか)" },
+        { "text": "あれですか。ありがとうございます。", "zh": "是那个吗?谢谢您。" }
+      ] }
+  ],
+  "review": "draft"
+}

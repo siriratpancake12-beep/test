@@ -22,7 +22,7 @@
     { "speaker": "rin", "text": "東京の 家族は 大家さんと ジウさんです。", "reading": "とうきょうの かぞくは おおやさんと ジウさんです。", "zh": "我在东京的“家人”是房东和智友。", "tokens": ["東京", "の", "家族", "は", "大家さん", "と", "ジウ", "さん", "です。"], "items": ["ja.no_p", "ja.kazoku", "ja.wa_p", "ja.ooyasan", "ja.to_p", "ja.san", "ja.desu"] },
     { "speaker": "rin", "text": "大家さんの こばやしさんも とても やさしい 人です。", "reading": "おおやさんの こばやしさんも とても やさしい ひとです。", "zh": "房东小林阿姨也是一位很温柔的人。", "tokens": ["大家さん", "の", "こばやし", "さん", "も", "とても", "やさしい", "人", "です。"], "items": ["ja.ooyasan", "ja.no_p", "ja.san", "ja.mo_p", "ja.totemo", "ja.yasashii", "ja.hito", "ja.desu"] },
     { "speaker": "rin", "text": "ジウさんは 韓国の 留学生です。元気な 人です。", "reading": "ジウさんは かんこくの りゅうがくせいです。げんきな ひとです。", "zh": "智友是韩国来的留学生,很有活力。", "tokens": ["ジウ", "さん", "は", "韓国", "の", "留学生", "です。", "元気な", "人", "です。"], "items": ["ja.san", "ja.wa_p", "ja.no_p", "ja.ryuugakusei", "ja.desu", "ja.genki", "ja.hito"] },
-    { "speaker": "rin", "text": "ジウさんと わたしは 友だちです。", "reading": "ジウさんと わたしは ともだちです。", "zh": "智友和我是好朋友。", "tokens": ["ジウ", "さん", "と", "わたし", "は", "友だち", "です。"], "items": ["ja.san", "ja.to_p", "ja.watashi", "ja.wa_p", "ja.tomodachi", "ja.desu"] }
+    { "speaker": "rin", "text": "ジウさんと わたしは 友だちです。", "reading": "ジウさんと わたしは ともだちです。", "zh": "智友和我是朋友。", "tokens": ["ジウ", "さん", "と", "わたし", "は", "友だち", "です。"], "items": ["ja.san", "ja.to_p", "ja.watashi", "ja.wa_p", "ja.tomodachi", "ja.desu"] }
   ],
   "questions": [
     { "prompt": "林雨家有几口人?", "options": ["3 口人", "4 口人,还有一条狗", "5 口人"], "answer": 1, "explainZh": "第 1–3 句:わたしの 家族は 4人です。父と 母と 弟と わたしです。犬も います。" },

@@ -1,0 +1,54 @@
+{
+  "id": "ja.a1u4.l02", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104020,
+  "titleZh": "请给我两个这个", "goalZh": "会用“N を 数量 ください”买东西,问价格,听懂几百日元", "canDoZh": "能指着东西说要哪个、要几个,能问价格,听懂几百日元的价格",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 28,
+  "newItems": [
+    { "id": "ja.kudasai", "kind": "phrase", "pos": "phrase", "text": "ください", "zh": "请给我……", "features": {}, "noteZh": "N を ください(请给我 N)。只用于请人给东西;请人做事的说法以后学。" },
+    { "id": "ja.dore", "kind": "word", "pos": "pron", "text": "どれ", "zh": "哪个", "features": { "pitch": 1 }, "noteZh": "在几样东西里问“哪一个”:どれですか。和 これ / それ / あれ 是一组。" },
+    { "id": "ja.hitotsu", "kind": "word", "pos": "num", "text": "ひとつ", "zh": "一个", "alt": ["一つ"], "features": { "pitch": 2 }, "noteZh": "ひとつ、ふたつ、みっつ、よっつ、いつつ、むっつ、ななつ、やっつ、ここのつ、とお:日语固有的数法,数一般的东西用,到 10 为止,后面不加量词。" },
+    { "id": "ja.futatsu", "kind": "word", "pos": "num", "text": "ふたつ", "zh": "两个", "alt": ["二つ"], "features": { "pitch": 3 }, "noteZh": "これを ふたつ ください(这个要两个)。数量放在 を 后面、ください 前面。" },
+    { "id": "ja.mittsu", "kind": "word", "pos": "num", "text": "みっつ", "zh": "三个", "alt": ["三つ"], "features": { "pitch": 3 }, "noteZh": "有促音:み・っ・つ 3 拍,中间停一下。" },
+    { "id": "ja.ikura", "kind": "word", "pos": "pron", "text": "いくら", "zh": "多少钱", "features": { "pitch": 1 }, "noteZh": "これは いくらですか(这个多少钱?)。只问价钱;问几个用 いくつ(以后学)。" },
+    { "id": "ja.wo_p", "kind": "word", "pos": "particle", "text": "を", "zh": "宾语助词(写作 を,读 o)", "features": {}, "noteZh": "写作 を,读 o:これを ください、パンを 食べます。单独朗读这个词条时要按 o 读。" },
+    { "id": "ja.en", "kind": "word", "pos": "noun", "text": "円", "zh": "日元", "features": { "reading": "えん", "pitch": 1 }, "noteZh": "日元的“円”读 えん,不读 yuan:100円(ひゃくえん)。" },
+    { "id": "ja.hyaku", "kind": "word", "pos": "num", "text": "百", "zh": "百", "features": { "reading": "ひゃく", "pitch": 2 }, "noteZh": "300 さんびゃく、600 ろっぴゃく、800 はっぴゃく 读音会变;100 就是 ひゃく,不说 いちひゃく。" },
+    { "id": "ja.pan", "kind": "word", "pos": "noun", "text": "パン", "zh": "面包", "features": { "pitch": 1 }, "noteZh": "来自葡萄牙语(pão)。日本的面包店种类很多,甜的、咸的都有。" }
+  ],
+  "reviewItems": ["ja.kore", "ja.sore", "ja.are", "ja.mo_p"],
+  "lines": [
+    { "speaker": "tenin", "text": "いらっしゃいませ。", "zh": "(早上,车站旁边的面包店)欢迎光临。", "tokens": ["いらっしゃいませ。"], "items": ["ja.irasshaimase"] },
+    { "speaker": "rin", "text": "すみません、それは いくらですか。", "zh": "(指着店员手边的面包)请问,那个多少钱?", "tokens": ["すみません、", "それ", "は", "いくら", "ですか。"], "items": ["ja.sumimasen", "ja.sore", "ja.wa_p", "ja.ikura", "ja.desu", "ja.ka_p"] },
+    { "speaker": "tenin", "text": "どれですか。", "zh": "哪一个?", "tokens": ["どれ", "ですか。"], "items": ["ja.dore", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "それです。", "zh": "(再指一下)那个。", "tokens": ["それ", "です。"], "items": ["ja.sore", "ja.desu"] },
+    { "speaker": "tenin", "text": "これですか。ひとつ 150円です。", "reading": "これですか。ひとつ ひゃくごじゅうえんです。", "zh": "这个吗?一个 150 日元。", "tokens": ["これ", "ですか。", "ひとつ", "150円", "です。"], "items": ["ja.kore", "ja.desu", "ja.ka_p", "ja.hitotsu", "ja.hyaku", "ja.go", "ja.juu", "ja.en"] },
+    { "speaker": "rin", "text": "それを みっつ ください。", "zh": "那个请给我三个。", "tokens": ["それ", "を", "みっつ", "ください。"], "items": ["ja.sore", "ja.wo_p", "ja.mittsu", "ja.kudasai"] },
+    { "speaker": "rin", "text": "あれも パンですか。", "zh": "(指着远处架子上的东西)那个也是面包吗?", "tokens": ["あれ", "も", "パン", "ですか。"], "items": ["ja.are", "ja.mo_p", "ja.pan", "ja.desu", "ja.ka_p"] },
+    { "speaker": "tenin", "text": "はい、あれも パンです。ひとつ 300円です。", "reading": "はい、あれも パンです。ひとつ さんびゃくえんです。", "zh": "是的,那个也是面包。一个 300 日元。", "tokens": ["はい、", "あれ", "も", "パン", "です。", "ひとつ", "300円", "です。"], "items": ["ja.hai", "ja.are", "ja.mo_p", "ja.pan", "ja.desu", "ja.hitotsu", "ja.san_num", "ja.hyaku", "ja.en"] },
+    { "speaker": "rin", "text": "あれも ふたつ ください。", "zh": "那个也请给我两个。", "tokens": ["あれ", "も", "ふたつ", "ください。"], "items": ["ja.are", "ja.mo_p", "ja.futatsu", "ja.kudasai"] },
+    { "speaker": "tenin", "text": "はい。ありがとうございます。", "zh": "好的,谢谢您。", "tokens": ["はい。", "ありがとうございます。"], "items": ["ja.hai", "ja.arigatou_gozaimasu"] }
+  ],
+  "questions": [
+    { "prompt": "林雨先问的那种面包,一个多少钱?", "options": ["100 日元", "150 日元", "300 日元"], "answer": 1, "explainZh": "店员说:これですか。ひとつ 150円です。(这个吗?一个 150 日元。)300 日元的是远处那种。" },
+    { "prompt": "林雨一共要了几个面包?", "options": ["两个", "三个", "五个"], "answer": 2, "explainZh": "それを みっつ ください(那个三个)加上 あれも ふたつ ください(那个也要两个),一共五个。" },
+    { "prompt": "“あれも ふたつ ください”里的 も 是什么意思?", "options": ["也", "和", "的"], "answer": 0, "explainZh": "も 是“也”:前面已经要了三个,远处那种“也”要两个。も 换掉了 を 的位置。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u4_wo_kudasai", "titleZh": "N を(数量)ください:请给我……",
+      "bodyZh": "买东西、点东西最常用的句型:N を ください(请给我 N)。\n数量放在 を 后面、ください 前面:それを みっつ ください(那个请给我三个)。中文说“三个那个”“三个面包”,日语的数量不放在名词前面。\n同样再要一种,用 も 换掉 を:あれも ふたつ ください(那个也要两个),不说“あれをも”。\n指东西用 これ / それ / あれ;店员没看清你要哪个,会问 どれですか(哪一个?),再指一下说 それです 就行。\n问价格:いくらですか(多少钱?)。店员常报单价:ひとつ 150円です(一个 150 日元)。",
+      "examples": [
+        { "text": "これを ひとつ ください。", "zh": "这个请给我一个。" },
+        { "text": "パンを ふたつ ください。", "zh": "请给我两个面包。" },
+        { "text": "どれですか。—それです。", "zh": "哪一个?——那个。" }
+      ] },
+    { "id": "ja.g.u4_numbers_price", "titleZh": "ひとつ・ふたつ・みっつ 和 百・円",
+      "bodyZh": "数一般的东西,用日语固有的数法:ひとつ、ふたつ、みっつ(1、2、3 个),往下是 よっつ、いつつ、むっつ、ななつ、やっつ、ここのつ、とお,只到 10。后面不加量词:みっつ ください。\n价格 = 数字 + 円(えん):150円 ひゃくごじゅうえん、300円 さんびゃくえん。円 读 えん,不读 yuan。\n百 的读音会变,要单独记:100 ひゃく(不说 いちひゃく)、200 にひゃく、300 さんびゃく、600 ろっぴゃく、800 はっぴゃく。\n发音:みっつ 有促音,三拍(み・っ・つ),中间停一拍;ひゃく 是拗音,ひゃ 只占一拍。",
+      "examples": [
+        { "text": "ひとつ 150円です。", "zh": "一个 150 日元。(ひとつ ひゃくごじゅうえんです)" },
+        { "text": "これは 300円です。", "zh": "这个 300 日元。(これは さんびゃくえんです)" },
+        { "text": "あれは いくらですか。—600円です。", "zh": "那个多少钱?——600 日元。(あれは いくらですか。—ろっぴゃくえんです)" },
+        { "text": "それは 800円です。", "zh": "那个 800 日元。(それは はっぴゃくえんです)" }
+      ] }
+  ],
+  "review": "draft"
+}

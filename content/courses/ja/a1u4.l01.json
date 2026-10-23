@@ -1,0 +1,52 @@
+{
+  "id": "ja.a1u4.l01", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104010,
+  "titleZh": "在便利店买午饭", "goalZh": "听懂便利店店员的常用问话,会说要还是不要", "canDoZh": "能在便利店买东西:听懂“要加热吗”“要袋子吗”,并回答要还是不要",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 30,
+  "newItems": [
+    { "id": "ja.konbini", "kind": "word", "pos": "noun", "text": "コンビニ", "zh": "便利店", "features": { "pitch": 0 }, "noteZh": "コンビニエンスストア(convenience store)的简称。日本的便利店多数 24 小时营业,还能交费、寄快递。" },
+    { "id": "ja.irasshaimase", "kind": "phrase", "pos": "phrase", "text": "いらっしゃいませ", "zh": "欢迎光临", "features": {}, "noteZh": "店员对客人说的话,客人不用回答,也不要回一句 いらっしゃいませ。っしゃ 有促音和拗音。" },
+    { "id": "ja.obentou", "kind": "word", "pos": "noun", "text": "お弁当", "zh": "盒饭;便当", "features": { "reading": "おべんとう", "pitch": 0 }, "noteZh": "お 是表示礼貌的前缀;べんとう 的 とう 是长音。便利店的便当可以请店员加热。" },
+    { "id": "ja.atatameru", "kind": "word", "pos": "verb", "text": "温めます", "zh": "加热", "features": { "reading": "あたためます", "pitch": 5 }, "noteZh": "便利店店员常问 お弁当、温めますか(便当要加热吗)。辞书形 温める(二类动词)。" },
+    { "id": "ja.onegaishimasu", "kind": "phrase", "pos": "phrase", "text": "おねがいします", "zh": "麻烦您了;请……", "alt": ["お願いします"], "features": {}, "noteZh": "请别人做事、接受别人的提议时说:はい、おねがいします(好的,麻烦了)。结账时把东西放到收银台上,也常说一句 おねがいします。" },
+    { "id": "ja.fukuro", "kind": "word", "pos": "noun", "text": "袋", "zh": "袋子", "features": { "reading": "ふくろ", "pitch": 3 }, "noteZh": "日本的塑料购物袋要另外付钱(几日元),所以店员会问 袋は いりますか。" },
+    { "id": "ja.iru_need", "kind": "word", "pos": "verb", "text": "いります", "zh": "需要", "alt": ["要ります"], "features": { "pitch": 3 }, "noteZh": "辞书形 いる(要る,一类动词),和表示“在”的 います(居る)不是一个词。" },
+    { "id": "ja.daijoubu", "kind": "word", "pos": "adj", "text": "大丈夫", "zh": "没问题;(婉拒)不用了", "features": { "reading": "だいじょうぶ", "pitch": 3 }, "noteZh": "大丈夫 在日语里是“没问题、不要紧”,不是中文“男子汉”的意思。店员问要不要什么时说 大丈夫です,就是“不用了”。" },
+    { "id": "ja.mouichido", "kind": "word", "pos": "adv", "text": "もう一度", "zh": "再一次", "features": { "reading": "もういちど" }, "noteZh": "没听清时说 すみません、もう一度 おねがいします。もう 的 う 是长音。" }
+  ],
+  "reviewItems": ["ja.sumimasen", "ja.hai", "ja.iie", "ja.arigatou_gozaimasu"],
+  "lines": [
+    { "speaker": "tenin_m", "text": "いらっしゃいませ。", "zh": "(午休时间,学校旁边的便利店)欢迎光临。", "tokens": ["いらっしゃいませ。"], "items": ["ja.irasshaimase"] },
+    { "speaker": "rin", "text": "おねがいします。", "zh": "(把便当放到收银台上)麻烦您。", "tokens": ["おねがいします。"], "items": ["ja.onegaishimasu"] },
+    { "speaker": "tenin_m", "text": "お弁当、温めますか。", "reading": "おべんとう、あたためますか。", "zh": "便当要加热吗?", "tokens": ["お弁当、", "温めますか。"], "items": ["ja.obentou", "ja.atatameru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "すみません、もう一度 おねがいします。", "reading": "すみません、もういちど おねがいします。", "zh": "不好意思,请再说一遍。", "tokens": ["すみません、", "もう一度", "おねがいします。"], "items": ["ja.sumimasen", "ja.mouichido", "ja.onegaishimasu"] },
+    { "speaker": "tenin_m", "text": "お弁当は 温めますか。", "reading": "おべんとうは あたためますか。", "zh": "(放慢速度)便当,要加热吗?", "tokens": ["お弁当", "は", "温めますか。"], "items": ["ja.obentou", "ja.wa_p", "ja.atatameru", "ja.ka_p"] },
+    { "speaker": "rin", "text": "はい、おねがいします。", "zh": "好的,麻烦您了。", "tokens": ["はい、", "おねがいします。"], "items": ["ja.hai", "ja.onegaishimasu"] },
+    { "speaker": "tenin_m", "text": "袋は いりますか。", "reading": "ふくろは いりますか。", "zh": "要袋子吗?", "tokens": ["袋", "は", "いりますか。"], "items": ["ja.fukuro", "ja.wa_p", "ja.iru_need", "ja.ka_p"] },
+    { "speaker": "rin", "text": "いいえ、大丈夫です。", "reading": "いいえ、だいじょうぶです。", "zh": "不用了。", "tokens": ["いいえ、", "大丈夫", "です。"], "items": ["ja.iie", "ja.daijoubu", "ja.desu"] },
+    { "speaker": "tenin_m", "text": "ありがとうございました。", "zh": "(把热好的便当递给林雨)谢谢惠顾。", "tokens": ["ありがとうございました。"], "items": ["ja.arigatou_gozaimasu"] },
+    { "speaker": "jiu", "text": "リンさん、それは コンビニの お弁当ですか。", "reading": "リンさん、それは コンビニの おべんとうですか。", "zh": "(回到教室)林雨,那是便利店的便当吗?", "tokens": ["リン", "さん、", "それ", "は", "コンビニ", "の", "お弁当", "ですか。"], "items": ["ja.san", "ja.sore", "ja.wa_p", "ja.konbini", "ja.no_p", "ja.obentou", "ja.desu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "はい。コンビニは 大丈夫です!", "reading": "はい。コンビニは だいじょうぶです!", "zh": "对。便利店已经难不倒我啦!", "tokens": ["はい。", "コンビニ", "は", "大丈夫", "です!"], "items": ["ja.hai", "ja.konbini", "ja.wa_p", "ja.daijoubu", "ja.desu"] }
+  ],
+  "questions": [
+    { "prompt": "店员问了什么,林雨一开始没听清?", "options": ["要不要袋子", "便当要不要加热", "要不要筷子"], "answer": 1, "explainZh": "店员说 お弁当、温めますか(便当要加热吗?),林雨说 すみません、もう一度 おねがいします(请再说一遍),店员就放慢了速度又问一次。" },
+    { "prompt": "林雨要袋子吗?", "options": ["不要", "要", "要两个"], "answer": 0, "explainZh": "店员问 袋は いりますか,林雨说 いいえ、大丈夫です——这里的 大丈夫です 是客气地说“不用了”。" },
+    { "prompt": "回到教室,林雨跟智友说了什么?", "options": ["便利店的便当太贵", "她明天还要去便利店", "在便利店买东西已经没问题了"], "answer": 2, "explainZh": "林雨说:コンビニは 大丈夫です!(便利店已经难不倒我啦!)" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u4_konbini", "titleZh": "店员的问法和回答:要还是不要",
+      "bodyZh": "便利店店员最常问的两句:\n・お弁当、温めますか。(便当要加热吗?)——动词的 ます 形加 か,问对方“要不要这样做”。\n・袋は いりますか。(要袋子吗?)——いります 是“需要”。\n回答:要,就说 はい、おねがいします(好的,麻烦了);不要,就说 いいえ、大丈夫です(不用了)。\n大丈夫 在日语里是“没问题、不要紧”,婉拒时说 大丈夫です,比直接说“不要”客气得多;它和中文的“大丈夫”(男子汉)没有关系。\n店员语速快,常省掉助词:お弁当、温めますか / 袋、いりますか。听出关键词(温め、袋)就能回答。",
+      "examples": [
+        { "text": "お弁当、温めますか。—はい、おねがいします。", "zh": "便当要加热吗?——好的,麻烦您了。(おべんとう、あたためますか。—はい、おねがいします)" },
+        { "text": "袋は いりますか。—いいえ、大丈夫です。", "zh": "要袋子吗?——不用了。(ふくろは いりますか。—いいえ、だいじょうぶです)" },
+        { "text": "大丈夫ですか。—はい、大丈夫です。", "zh": "没事吧?——嗯,没事。(だいじょうぶですか。—はい、だいじょうぶです)" }
+      ] },
+    { "id": "ja.g.u4_mouichido", "titleZh": "没听清怎么说;店里的固定说法",
+      "bodyZh": "没听清时说:すみません、もう一度 おねがいします(不好意思,请再说一遍)。店员一般会放慢速度再说一次。\nおねがいします 可以单独用,意思是“麻烦您”:结账时把东西放到收银台上,说一句 おねがいします 就很自然。\n店员的固定说法,听懂就行,不用回答:いらっしゃいませ(欢迎光临,进门时)、ありがとうございました(谢谢惠顾,结完账)。ありがとうございました 用的是过去形,意思是“刚才的买卖,谢谢您”。\n中国学习者常见的问题:把 いらっしゃいませ 当成问候语,回一句 いらっしゃいませ——这是店员专用的,客人点点头就好。",
+      "examples": [
+        { "text": "すみません、もう一度 おねがいします。", "zh": "不好意思,请再说一遍。(すみません、もういちど おねがいします)" },
+        { "text": "いらっしゃいませ。……ありがとうございました。", "zh": "(店员:进门时)欢迎光临。……(结完账)谢谢惠顾。" }
+      ] }
+  ],
+  "review": "draft"
+}

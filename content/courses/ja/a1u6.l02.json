@@ -1,0 +1,53 @@
+{
+  "id": "ja.a1u6.l02", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106020,
+  "titleZh": "邮局在车站前面", "goalZh": "会用位置词说明东西在哪儿,用“地点 に N が あります”说某处有什么",
+  "canDoZh": "能说明一个地方在哪儿(车站前面、超市旁边、附近有……),看着简单的地图听懂别人的说明",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 26.5,
+  "newItems": [
+    { "id": "ja.mae", "kind": "word", "pos": "noun", "text": "前", "zh": "前面;……之前", "features": { "reading": "まえ", "pitch": 1 }, "noteZh": "駅の 前(车站前面);也表示时间上的“之前”(以后学)。" },
+    { "id": "ja.ushiro", "kind": "word", "pos": "noun", "text": "後ろ", "zh": "后面", "features": { "reading": "うしろ", "pitch": 0 }, "noteZh": "駅の 後ろ(车站后面)。“后”在 午後 里读 ご,在 後ろ 里读 うしろ。" },
+    { "id": "ja.migi", "kind": "word", "pos": "noun", "text": "右", "zh": "右边", "features": { "reading": "みぎ", "pitch": 0 }, "noteZh": "右に 曲がります(往右拐,第 3 课)。ぎ 是浊音。" },
+    { "id": "ja.hidari", "kind": "word", "pos": "noun", "text": "左", "zh": "左边", "features": { "reading": "ひだり", "pitch": 0 }, "noteZh": "左に あります(在左边)。ひ・だ・り 3 拍,右 みぎ 只有 2 拍。" },
+    { "id": "ja.tonari", "kind": "word", "pos": "noun", "text": "となり", "zh": "旁边;隔壁", "alt": ["隣"], "features": { "pitch": 0 }, "noteZh": "汉字写作 隣。紧挨着的旁边、隔壁:スーパーの となり。不挨着、只是不远,用 近く。" },
+    { "id": "ja.chikaku", "kind": "word", "pos": "noun", "text": "近く", "zh": "附近", "features": { "reading": "ちかく" }, "noteZh": "ここの 近く(这附近)。近い 是形容词“近”(第 3 课),近く 是名词“附近”。" },
+    { "id": "ja.byouin", "kind": "word", "pos": "noun", "text": "病院", "zh": "医院", "features": { "reading": "びょういん", "pitch": 0 }, "noteZh": "びょういん(医院)和 びよういん(美容院)只差一个小 ょ,一定要读准:びょ 是一拍。" },
+    { "id": "ja.kouen", "kind": "word", "pos": "noun", "text": "公園", "zh": "公园", "features": { "reading": "こうえん", "pitch": 0 }, "noteZh": "こう 是长音:こ・う・え・ん 4 拍。" },
+    { "id": "ja.suupaa", "kind": "word", "pos": "noun", "text": "スーパー", "zh": "超市", "features": { "pitch": 1 }, "noteZh": "スーパーマーケット 的简称。两个长音 ー 各占一拍:ス・ー・パ・ー。" }
+  ],
+  "reviewItems": ["ja.aru", "ja.ni_p", "ja.eki", "ja.doko"],
+  "lines": [
+    { "speaker": "kobayashi", "text": "リンさん、駅の前に郵便局があります。", "zh": "(小林阿姨在纸上给林雨画附近的地图)林雨,车站前面有个邮局。", "reading": "リンさん、えきのまえにゆうびんきょくがあります。", "tokens": ["リン", "さん、", "駅", "の", "前", "に", "郵便局", "が", "あります。"], "items": ["ja.san", "ja.eki", "ja.no_p", "ja.mae", "ja.ni_p", "ja.yuubinkyoku", "ja.ga_p", "ja.aru"] },
+    { "speaker": "rin", "text": "駅の前ですね。スーパーはどこですか。", "zh": "在车站前面。超市在哪儿?", "reading": "えきのまえですね。スーパーはどこですか。", "tokens": ["駅", "の", "前", "ですね。", "スーパー", "は", "どこ", "ですか。"], "items": ["ja.eki", "ja.no_p", "ja.mae", "ja.desu", "ja.ne_p", "ja.suupaa", "ja.wa_p", "ja.doko", "ja.ka_p"] },
+    { "speaker": "kobayashi", "text": "スーパーは郵便局のとなりです。", "zh": "超市在邮局旁边。", "reading": "スーパーはゆうびんきょくのとなりです。", "tokens": ["スーパー", "は", "郵便局", "の", "となり", "です。"], "items": ["ja.suupaa", "ja.wa_p", "ja.yuubinkyoku", "ja.no_p", "ja.tonari", "ja.desu"] },
+    { "speaker": "rin", "text": "銀行はスーパーの左ですか。", "zh": "(指着图)银行在超市左边吗?", "reading": "ぎんこうはスーパーのひだりですか。", "tokens": ["銀行", "は", "スーパー", "の", "左", "ですか。"], "items": ["ja.ginkou", "ja.wa_p", "ja.suupaa", "ja.no_p", "ja.hidari", "ja.desu", "ja.ka_p"] },
+    { "speaker": "kobayashi", "text": "いいえ、右です。スーパーの右です。", "zh": "不,在右边。超市的右边。", "reading": "いいえ、みぎです。スーパーのみぎです。", "tokens": ["いいえ、", "右", "です。", "スーパー", "の", "右", "です。"], "items": ["ja.iie", "ja.migi", "ja.desu", "ja.suupaa", "ja.no_p"] },
+    { "speaker": "rin", "text": "ここの近くに病院はありますか。", "zh": "这附近有医院吗?", "reading": "ここのちかくにびょういんはありますか。", "tokens": ["ここ", "の", "近く", "に", "病院", "は", "ありますか。"], "items": ["ja.koko", "ja.no_p", "ja.chikaku", "ja.ni_p", "ja.byouin", "ja.wa_p", "ja.aru", "ja.ka_p"] },
+    { "speaker": "kobayashi", "text": "はい。病院は駅の後ろです。", "zh": "有。医院在车站后面。", "reading": "はい。びょういんはえきのうしろです。", "tokens": ["はい。", "病院", "は", "駅", "の", "後ろ", "です。"], "items": ["ja.hai", "ja.byouin", "ja.wa_p", "ja.eki", "ja.no_p", "ja.ushiro", "ja.desu"] },
+    { "speaker": "rin", "text": "公園もありますか。", "zh": "也有公园吗?(林雨爱拍照)", "reading": "こうえんもありますか。", "tokens": ["公園", "も", "ありますか。"], "items": ["ja.kouen", "ja.mo_p", "ja.aru", "ja.ka_p"] },
+    { "speaker": "kobayashi", "text": "はい。ここの近くに公園がありますよ。とてもきれいです。", "zh": "有。这附近就有个公园,很漂亮哦。", "reading": "はい。ここのちかくにこうえんがありますよ。とてもきれいです。", "tokens": ["はい。", "ここ", "の", "近く", "に", "公園", "が", "ありますよ。", "とても", "きれいです。"], "items": ["ja.hai", "ja.koko", "ja.no_p", "ja.chikaku", "ja.ni_p", "ja.kouen", "ja.ga_p", "ja.aru", "ja.yo_p", "ja.totemo", "ja.kirei", "ja.desu"] },
+    { "speaker": "rin", "text": "いいですね!ありがとうございます。", "zh": "太好了!谢谢您。", "tokens": ["いいですね!", "ありがとうございます。"], "items": ["ja.ii", "ja.desu", "ja.ne_p", "ja.arigatou_gozaimasu"] }
+  ],
+  "questions": [
+    { "prompt": "邮局在哪里?", "options": ["车站前面", "车站后面", "超市右边"], "answer": 0, "explainZh": "小林阿姨一开始就说:駅の前に郵便局があります。超市在邮局旁边,银行在超市右边。" },
+    { "prompt": "银行在哪里?", "options": ["超市左边", "超市右边", "车站后面"], "answer": 1, "explainZh": "林雨问 スーパーの左ですか,小林阿姨说:いいえ、右です。スーパーの右です。" },
+    { "prompt": "医院在哪里?", "options": ["车站前面", "超市旁边", "车站后面"], "answer": 2, "explainZh": "小林阿姨说:病院は駅の後ろです。车站前面的是邮局和超市。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u6_ichi", "titleZh": "位置:N の 前 / 後ろ / 右 / 左 / となり / 近く",
+      "bodyZh": "说位置:参照物 + の + 位置词。駅の前(车站前面)、駅の後ろ(车站后面)、スーパーの右(超市右边)、郵便局のとなり(邮局旁边)、ここの近く(这附近)。语序和中文一样,参照物在前、位置词在后,但中间要加 の(駅前 えきまえ 是另一个词,指“站前一带”,本课先说 駅の前)。\nとなり 是紧挨着的旁边、隔壁;近く 是“附近”,不一定挨着。右 / 左 读 みぎ / ひだり,和中文的音完全不同,要连读音一起记。",
+      "examples": [
+        { "text": "駅の前に郵便局があります。", "zh": "车站前面有个邮局。(えきのまえにゆうびんきょくがあります)" },
+        { "text": "銀行はスーパーの右です。", "zh": "银行在超市右边。(ぎんこうはスーパーのみぎです)" },
+        { "text": "病院は駅の後ろです。", "zh": "医院在车站后面。(びょういんはえきのうしろです)" }
+      ] },
+    { "id": "ja.g.u6_niarimasu", "titleZh": "地点 に N が あります / N は 地点 です",
+      "bodyZh": "说“某处有什么”:地点 + に + N + が + あります。駅の前に郵便局があります(车站前面有个邮局)。这里的 に 表示“存在的地点”,和第 4 单元的 で 不同:大学で食べます(在大学吃)说的是在那儿做动作;駅の前に郵便局があります 说的是“那儿有”。\n说“N 在哪儿”:N は + 地点 + です:郵便局は駅の前です。\n第一次提到的东西用 が(新信息),已经在说的东西用 は(话题):ここの近くに公園がありますよ。问“附近有没有……”常用 は:ここの近くに病院はありますか。东西、建筑用 あります,人和动物用 います。",
+      "examples": [
+        { "text": "ここの近くに公園があります。", "zh": "这附近有个公园。(ここのちかくにこうえんがあります)" },
+        { "text": "郵便局は駅の前です。", "zh": "邮局在车站前面。(ゆうびんきょくはえきのまえです)" },
+        { "text": "ここの近くに病院はありますか。", "zh": "这附近有医院吗?(ここのちかくにびょういんはありますか)" }
+      ] }
+  ],
+  "review": "draft"
+}

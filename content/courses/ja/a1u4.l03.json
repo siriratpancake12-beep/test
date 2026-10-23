@@ -1,0 +1,53 @@
+{
+  "id": "ja.a1u4.l03", "schemaVersion": 1, "lang": "ja", "type": "grammar", "cefr": "A1",
+  "unit": "A1-4 吃喝", "order": 104030,
+  "titleZh": "在食堂:吃什么?喝什么?", "goalZh": "会用“N を V ます / V ません”说吃什么、喝什么,用 で 说在哪里吃", "canDoZh": "能说自己吃什么、喝什么、不吃什么;能问别人“吃什么?”",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 27,
+  "newItems": [
+    { "id": "ja.taberu", "kind": "word", "pos": "verb", "text": "食べます", "zh": "吃", "features": { "reading": "たべます", "pitch": 3 }, "noteZh": "辞书形 食べる(二类动词)。否定 食べません,过去 食べました(第 8 单元)。" },
+    { "id": "ja.nomu", "kind": "word", "pos": "verb", "text": "飲みます", "zh": "喝", "features": { "reading": "のみます", "pitch": 3 }, "noteZh": "辞书形 飲む(一类动词)。吃药也用 飲みます(薬を 飲みます),不说“吃”药。" },
+    { "id": "ja.mizu", "kind": "word", "pos": "noun", "text": "水", "zh": "水(凉水)", "features": { "reading": "みず", "pitch": 0 }, "noteZh": "一般指凉水;热水叫 お湯(おゆ)。日本的餐厅、食堂里水免费:水を ください。" },
+    { "id": "ja.ocha", "kind": "word", "pos": "noun", "text": "お茶", "zh": "茶;(日本)绿茶", "features": { "reading": "おちゃ", "pitch": 0 }, "noteZh": "お 是礼貌前缀;一般指日本绿茶。ちゃ 是拗音。大学食堂常有免费的茶。" },
+    { "id": "ja.gohan", "kind": "word", "pos": "noun", "text": "ご飯", "zh": "米饭;饭", "features": { "reading": "ごはん", "pitch": 1 }, "noteZh": "既指米饭,也指一顿饭:朝ご飯 = 早饭。" },
+    { "id": "ja.niku", "kind": "word", "pos": "noun", "text": "肉", "zh": "肉", "features": { "reading": "にく", "pitch": 2 }, "noteZh": "牛肉 ぎゅうにく、猪肉 ぶたにく、鸡肉 とりにく。" },
+    { "id": "ja.sakana", "kind": "word", "pos": "noun", "text": "魚", "zh": "鱼", "features": { "reading": "さかな", "pitch": 0 }, "noteZh": "吃的鱼、活的鱼都叫 魚。" },
+    { "id": "ja.yasai", "kind": "word", "pos": "noun", "text": "野菜", "zh": "蔬菜", "features": { "reading": "やさい", "pitch": 0 }, "noteZh": "野菜 = 蔬菜,不是中文“野菜”(山野里的菜)。" },
+    { "id": "ja.de_p", "kind": "word", "pos": "particle", "text": "で", "zh": "在(动作发生的地点)", "features": {}, "noteZh": "表示动作发生的地方:大学で 食べます(在大学吃)。和表示“在哪里存在”的 に(第 6 单元)不同。" }
+  ],
+  "reviewItems": ["ja.nani", "ja.wo_p", "ja.daigaku"],
+  "lines": [
+    { "speaker": "kenta", "text": "リンさんは 何を 食べますか。", "reading": "リンさんは なにを たべますか。", "zh": "(中午,健太带林雨去大学食堂)林雨,你吃什么?", "tokens": ["リン", "さん", "は", "何", "を", "食べますか。"], "items": ["ja.san", "ja.wa_p", "ja.nani", "ja.wo_p", "ja.taberu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "魚と ご飯を 食べます。けんたさんは?", "reading": "さかなと ごはんを たべます。けんたさんは?", "zh": "我吃鱼和米饭。你呢?", "tokens": ["魚", "と", "ご飯", "を", "食べます。", "けんた", "さん", "は?"], "items": ["ja.sakana", "ja.to_p", "ja.gohan", "ja.wo_p", "ja.taberu", "ja.san", "ja.wa_p"] },
+    { "speaker": "kenta", "text": "肉を 食べます。野菜は 食べません。", "reading": "にくを たべます。やさいは たべません。", "zh": "我吃肉。蔬菜嘛,不吃。", "tokens": ["肉", "を", "食べます。", "野菜", "は", "食べません。"], "items": ["ja.niku", "ja.wo_p", "ja.taberu", "ja.yasai", "ja.wa_p"] },
+    { "speaker": "rin", "text": "大丈夫ですか。", "reading": "だいじょうぶですか。", "zh": "(不吃蔬菜)这样没问题吗?", "tokens": ["大丈夫", "ですか。"], "items": ["ja.daijoubu", "ja.desu", "ja.ka_p"] },
+    { "speaker": "kenta", "text": "大丈夫です!", "reading": "だいじょうぶです!", "zh": "(笑)没问题!", "tokens": ["大丈夫", "です!"], "items": ["ja.daijoubu", "ja.desu"] },
+    { "speaker": "kenta", "text": "中国の 学生も 大学で 食べますか。", "reading": "ちゅうごくの がくせいも だいがくで たべますか。", "zh": "中国的学生也在学校里吃饭吗?", "tokens": ["中国", "の", "学生", "も", "大学", "で", "食べますか。"], "items": ["ja.chuugoku", "ja.no_p", "ja.gakusei", "ja.mo_p", "ja.daigaku", "ja.de_p", "ja.taberu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "はい、大学で 食べます。", "reading": "はい、だいがくで たべます。", "zh": "对,在学校里吃。", "tokens": ["はい、", "大学", "で", "食べます。"], "items": ["ja.hai", "ja.daigaku", "ja.de_p", "ja.taberu"] },
+    { "speaker": "kenta", "text": "リンさん、お茶を 飲みますか。", "reading": "リンさん、おちゃを のみますか。", "zh": "(要去倒免费的茶)林雨,你喝茶吗?", "tokens": ["リン", "さん、", "お茶", "を", "飲みますか。"], "items": ["ja.san", "ja.ocha", "ja.wo_p", "ja.nomu", "ja.ka_p"] },
+    { "speaker": "rin", "text": "いいえ、水を 飲みます。", "reading": "いいえ、みずを のみます。", "zh": "不了,我喝水。", "tokens": ["いいえ、", "水", "を", "飲みます。"], "items": ["ja.iie", "ja.mizu", "ja.wo_p", "ja.nomu"] },
+    { "speaker": "kenta", "text": "はい、どうぞ。", "zh": "(端来一杯水)给,请。", "tokens": ["はい、", "どうぞ。"], "items": ["ja.hai", "ja.douzo"] }
+  ],
+  "questions": [
+    { "prompt": "健太不吃什么?", "options": ["蔬菜", "肉", "米饭"], "answer": 0, "explainZh": "健太说:肉を 食べます。野菜は 食べません。(我吃肉,蔬菜不吃。)" },
+    { "prompt": "林雨吃什么?", "options": ["肉和米饭", "鱼和蔬菜", "鱼和米饭"], "answer": 2, "explainZh": "林雨说:魚と ご飯を 食べます。(我吃鱼和米饭。)" },
+    { "prompt": "林雨喝什么?", "options": ["茶", "水", "果汁"], "answer": 1, "explainZh": "健太问 お茶を 飲みますか,林雨说:いいえ、水を 飲みます。" },
+    { "prompt": "健太问了中国学生的什么事?", "options": ["喝不喝茶", "是不是在学校里吃饭", "吃不吃鱼"], "answer": 1, "explainZh": "健太问:中国の 学生も 大学で 食べますか。(中国的学生也在学校里吃饭吗?)" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u4_wo_masu", "titleZh": "N を V ます / V ません:吃什么、喝什么",
+      "bodyZh": "“N を V ます”= 吃 / 喝 / 做 N。宾语后面加 を,动词放在句子最后:魚を 食べます(吃鱼)、水を 飲みます(喝水)。中文是“吃 + 鱼”,日语是“鱼 + を + 吃”,顺序反过来——中国学习者常说成“食べます 魚”,要特别注意。\n否定把 ます 换成 ません:肉を 食べません(不吃肉)。说“这个不吃”时常把 を 换成 は,带出对比的意思:野菜は 食べません(蔬菜嘛,不吃)。\n问“吃什么”:何を 食べますか,这里的 何 读 なに。两样东西用 と 连起来:魚と ご飯を 食べます。\nます / ません 是礼貌的说法,对朋友、老师、店员都能用;辞书形(食べる、飲む)以后再学。",
+      "examples": [
+        { "text": "何を 食べますか。—肉を 食べます。", "zh": "你吃什么?——我吃肉。(なにを たべますか。—にくを たべます)" },
+        { "text": "お茶を 飲みますか。—いいえ、水を 飲みます。", "zh": "喝茶吗?——不,我喝水。(おちゃを のみますか。—いいえ、みずを のみます)" },
+        { "text": "野菜は 食べません。", "zh": "蔬菜我不吃。(やさいは たべません)" }
+      ] },
+    { "id": "ja.g.u4_de_place", "titleZh": "地点 + で:在哪里做",
+      "bodyZh": "“地点 で V ます”表示动作在哪里进行:大学で 食べます(在学校吃)。で 跟在地点后面,“地点で”放在动词前面。中文的“在”放在地点前面,日语的 で 放在地点后面。\n注意:で 只用于“做动作的地方”。说“某人、某物在哪里”(存在)要用 に,第 6 单元学,两个不能混。\nで 后面还可以加 も:中国でも(在中国也……)。",
+      "examples": [
+        { "text": "大学で 食べます。", "zh": "在学校吃。(だいがくで たべます)" },
+        { "text": "コンビニで お弁当を 温めます。", "zh": "在便利店把便当加热。(コンビニで おべんとうを あたためます)" },
+        { "text": "中国でも お茶を 飲みます。", "zh": "在中国也喝茶。(ちゅうごくでも おちゃを のみます)" }
+      ] }
+  ],
+  "review": "draft"
+}
