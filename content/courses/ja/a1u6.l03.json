@@ -1,0 +1,53 @@
+{
+  "id": "ja.a1u6.l03", "schemaVersion": 1, "lang": "ja", "type": "dialogue", "cefr": "A1",
+  "unit": "A1-6 城市与交通", "order": 106030,
+  "titleZh": "在交番问路", "goalZh": "会在街上问路,听懂简单的指路,问远不远",
+  "canDoZh": "能在街上问路,听懂“沿着这条路一直走、在那个红绿灯往右拐”这样简单的指路,并问远不远",
+  "skills": ["listen", "speak", "read"], "estimatedMinutes": 29.5,
+  "newItems": [
+    { "id": "ja.kouban", "kind": "word", "pos": "noun", "text": "交番", "zh": "派出所;岗亭", "features": { "reading": "こうばん", "pitch": 0 }, "noteZh": "日本街头的小派出所,迷路、捡到东西都可以去。こう 是长音,ばん 的 ば 是浊音。" },
+    { "id": "ja.michi", "kind": "word", "pos": "noun", "text": "道", "zh": "路;道路", "features": { "reading": "みち", "pitch": 0 }, "noteZh": "この 道を まっすぐです(沿着这条路一直走)。“道”单独用读 みち,不读 どう。" },
+    { "id": "ja.massugu", "kind": "word", "pos": "adv", "text": "まっすぐ", "zh": "笔直;一直(往前)", "features": { "pitch": 3 }, "noteZh": "有促音:ま・っ・す・ぐ,っ 停一拍。この道を まっすぐです(沿这条路一直走)。" },
+    { "id": "ja.shingou", "kind": "word", "pos": "noun", "text": "信号", "zh": "红绿灯", "features": { "reading": "しんごう", "pitch": 0 }, "noteZh": "信号 = 红绿灯,不是手机的“信号”。日本人把绿灯叫 青信号(あおしんごう)。" },
+    { "id": "ja.magaru", "kind": "word", "pos": "verb", "text": "曲がります", "zh": "拐弯", "features": { "reading": "まがります", "pitch": 4 }, "noteZh": "“地点 を 方向 に 曲がります”:信号を 右に 曲がります。中文说“在红绿灯右拐”,日语的地点用 を,不用 で。辞书形 曲がる(一类动词)。" },
+    { "id": "ja.tooi", "kind": "word", "pos": "adj", "text": "遠い", "zh": "远", "features": { "reading": "とおい", "pitch": 0 }, "noteZh": "とお 是长音(tō),不要读成 とい。遠いですか(远吗?)。" },
+    { "id": "ja.chikai", "kind": "word", "pos": "adj", "text": "近い", "zh": "近", "features": { "reading": "ちかい", "pitch": 2 }, "noteZh": "近い 是形容词“近”;“附近”说 近く。近いですよ(很近哦)。" },
+    { "id": "ja.kono", "kind": "word", "pos": "det", "text": "この", "zh": "这个……(后接名词)", "features": { "pitch": 0 }, "noteZh": "后面一定接名词:この 道(这条路)。单独说“这个”用 これ。" },
+    { "id": "ja.ano", "kind": "word", "pos": "det", "text": "あの", "zh": "那个……(后接名词)", "features": { "pitch": 0 }, "noteZh": "あの 信号(那个红绿灯)。也用来开口搭话:あのう、すみません。" }
+  ],
+  "reviewItems": ["ja.migi", "ja.hidari", "ja.doko", "ja.yo_p"],
+  "lines": [
+    { "speaker": "rin", "text": "あ、あそこに交番があります。", "zh": "(林雨要去咲家附近的さくら公园,迷了路)啊,那边有个派出所。", "reading": "あ、あそこにこうばんがあります。", "tokens": ["あ、", "あそこ", "に", "交番", "が", "あります。"], "items": ["ja.asoko", "ja.ni_p", "ja.kouban", "ja.ga_p", "ja.aru"] },
+    { "speaker": "rin", "text": "すみません。さくら公園はどこですか。", "zh": "(走进派出所)打扰一下。请问さくら公园在哪儿?", "reading": "すみません。さくらこうえんはどこですか。", "tokens": ["すみません。", "さくら公園", "は", "どこ", "ですか。"], "items": ["ja.sumimasen", "ja.kouen", "ja.wa_p", "ja.doko", "ja.desu", "ja.ka_p"] },
+    { "speaker": "keikan", "text": "さくら公園ですか。この道をまっすぐです。", "zh": "さくら公园啊。沿着这条路一直走。", "reading": "さくらこうえんですか。このみちをまっすぐです。", "tokens": ["さくら公園", "ですか。", "この", "道", "を", "まっすぐ", "です。"], "items": ["ja.kouen", "ja.desu", "ja.ka_p", "ja.kono", "ja.michi", "ja.wo_p", "ja.massugu"] },
+    { "speaker": "rin", "text": "この道をまっすぐですね。", "zh": "沿着这条路一直走,对吧。", "reading": "このみちをまっすぐですね。", "tokens": ["この", "道", "を", "まっすぐ", "ですね。"], "items": ["ja.kono", "ja.michi", "ja.wo_p", "ja.massugu", "ja.desu", "ja.ne_p"] },
+    { "speaker": "keikan", "text": "はい。あの信号を右に曲がります。", "zh": "对。到那个红绿灯往右拐。", "reading": "はい。あのしんごうをみぎにまがります。", "tokens": ["はい。", "あの", "信号", "を", "右", "に", "曲がります。"], "items": ["ja.hai", "ja.ano", "ja.shingou", "ja.wo_p", "ja.migi", "ja.ni_p", "ja.magaru"] },
+    { "speaker": "rin", "text": "あの信号を右ですね。", "zh": "那个红绿灯往右,对吧。", "reading": "あのしんごうをみぎですね。", "tokens": ["あの", "信号", "を", "右", "ですね。"], "items": ["ja.ano", "ja.shingou", "ja.wo_p", "ja.migi", "ja.desu", "ja.ne_p"] },
+    { "speaker": "keikan", "text": "はい。公園は左にありますよ。", "zh": "对。公园就在左手边。", "reading": "はい。こうえんはひだりにありますよ。", "tokens": ["はい。", "公園", "は", "左", "に", "ありますよ。"], "items": ["ja.hai", "ja.kouen", "ja.wa_p", "ja.hidari", "ja.ni_p", "ja.aru", "ja.yo_p"] },
+    { "speaker": "rin", "text": "公園は遠いですか。", "zh": "公园远吗?", "reading": "こうえんはとおいですか。", "tokens": ["公園", "は", "遠いですか。"], "items": ["ja.kouen", "ja.wa_p", "ja.tooi", "ja.desu", "ja.ka_p"] },
+    { "speaker": "keikan", "text": "いいえ、近いですよ。", "zh": "不远,很近。", "reading": "いいえ、ちかいですよ。", "tokens": ["いいえ、", "近いですよ。"], "items": ["ja.iie", "ja.chikai", "ja.desu", "ja.yo_p"] },
+    { "speaker": "rin", "text": "近いですね。ありがとうございます!", "zh": "很近啊。谢谢您!", "reading": "ちかいですね。ありがとうございます!", "tokens": ["近いですね。", "ありがとうございます!"], "items": ["ja.chikai", "ja.desu", "ja.ne_p", "ja.arigatou_gozaimasu"] }
+  ],
+  "questions": [
+    { "prompt": "林雨在派出所问去哪里的路?", "options": ["车站", "さくら公园", "邮局"], "answer": 1, "explainZh": "林雨问:さくら公園はどこですか。" },
+    { "prompt": "警察是怎么指路的?", "options": ["沿这条路一直走,在红绿灯往左拐", "沿这条路一直走,公园在右边", "一直走,在那个红绿灯往右拐,公园在左边"], "answer": 2, "explainZh": "警察说:この道をまっすぐです。あの信号を右に曲がります。公園は左にありますよ。" },
+    { "prompt": "公园离派出所远吗?", "options": ["很近", "很远", "警察也不知道"], "answer": 0, "explainZh": "林雨问 公園は遠いですか,警察说:いいえ、近いですよ。" }
+  ],
+  "grammar": [
+    { "id": "ja.g.u6_kono", "titleZh": "この / あの + 名词",
+      "bodyZh": "この / あの 后面一定要接名词:この道(这条路)、あの信号(那个红绿灯)。これ / あれ 只能单独用,不能接名词:✗ これ道。\n和 これ / あれ、ここ / あそこ 一样按“离谁近”分:この = 离我近的,あの = 离我们都远的;离对方近的 その 第 7 单元学。\n中文的“这个、那个”既能单独用,也能接名词(这个 / 这条路),日语要分开:单独用 これ / あれ,接名词用 この / あの。指路时最常听到的就是 この道、あの信号。",
+      "examples": [
+        { "text": "この道をまっすぐです。", "zh": "沿着这条路一直走。(このみちをまっすぐです)" },
+        { "text": "あの信号を右に曲がります。", "zh": "到那个红绿灯往右拐。(あのしんごうをみぎにまがります)" },
+        { "text": "あれは交番です。", "zh": "那是派出所。(あれはこうばんです)" }
+      ] },
+    { "id": "ja.g.u6_michi", "titleZh": "听懂指路:〜を まっすぐです / 〜を 右に 曲がります",
+      "bodyZh": "日本人指路常说:この道をまっすぐです(沿着这条路一直走)、あの信号を右に曲がります(到那个红绿灯往右拐)。拐弯的地点用 を(表示经过的地方),往哪边拐用 に:信号を 右に 曲がります。中文说“在红绿灯右拐”,日语不用 で,用 を,这是中国学生最容易错的地方。\n日常说话里还常用 〜て 形(まっすぐ行って……),以后学;本课先用这两种简单说法。\n问远不远:遠いですか。回答:いいえ、近いですよ。听完把要点复述一遍(あの信号を右ですね),对方会帮你确认。在日本迷了路,可以去 交番 问警察。",
+      "examples": [
+        { "text": "信号を左に曲がります。", "zh": "到红绿灯往左拐。(しんごうをひだりにまがります)" },
+        { "text": "遠いですか。", "zh": "远吗?(とおいですか)" },
+        { "text": "いいえ、近いですよ。", "zh": "不远,很近。(いいえ、ちかいですよ)" }
+      ] }
+  ],
+  "review": "draft"
+}
