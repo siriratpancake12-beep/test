@@ -1,0 +1,51 @@
+{
+  "id": "en.a1u15.l02", "schemaVersion": 1, "lang": "en", "type": "grammar", "cefr": "A1",
+  "unit": "A1-15 A new semester", "order": 115020,
+  "titleZh": "这学期我改成周一周三上班", "goalZh": "会用现在进行时说\"这段时间\"的安排,和一般现在时说的习惯区分开", "canDoZh": "能说清楚这学期的安排和平时的习惯有什么不同,并和经理商量调班",
+  "skills": ["listen", "speak", "write"], "estimatedMinutes": 25,
+  "newItems": [
+    { "id": "en.schedule", "kind": "word", "pos": "noun", "text": "schedule", "zh": "日程;课表;排班表", "features": { "ipa": "ˈskedʒuːl" }, "noteZh": "美式读 /ˈsked-/,英式读 /ˈʃed-/;class schedule 课表,work schedule 排班表。" },
+    { "id": "en.lab", "kind": "word", "pos": "noun", "text": "lab", "zh": "实验课;实验室", "features": { "ipa": "læb" }, "noteZh": "laboratory 的简称,口语都说 lab;physics lab 物理实验课;a 读 /æ/,嘴张大。" },
+    { "id": "en.lecture", "kind": "word", "pos": "noun", "text": "lecture", "zh": "(大学的)讲课;大课", "features": { "ipa": "ˈlektʃɚ" }, "noteZh": "美国大学的理科课常分 lecture(老师讲课)和 lab(做实验)两部分;-ture 读 /tʃɚ/,不读\"恰\"。" },
+    { "id": "en.switch", "kind": "word", "pos": "verb", "text": "switch", "zh": "换;调换", "features": { "ipa": "swɪtʃ" }, "noteZh": "Can I switch to Mondays? 我能换到周一吗?;tch 读 /tʃ/,词尾不要加元音。" },
+    { "id": "en.these_days", "kind": "phrase", "pos": "adv", "text": "these days", "zh": "最近;这些天", "features": { "ipa": "ˈðiːz ˌdeɪz" }, "noteZh": "说最近一段时间的情况,常和现在进行时连用:I'm studying every night these days.;these 是长音 /iː/,词尾 s 读 /z/。" },
+    { "id": "en.fine", "kind": "word", "pos": "adj", "text": "fine", "zh": "可以的;没问题的;(身体)好的", "features": { "ipa": "faɪn" }, "noteZh": "That's fine. 可以、没问题;I'm fine. 我挺好。" },
+    { "id": "en.as_usual", "kind": "phrase", "pos": "adv", "text": "as usual", "zh": "和平时一样;照常", "features": { "ipa": "əz ˈjuːʒuəl" }, "noteZh": "Two to six, as usual. 还是两点到六点,和平时一样;usual 和 usually 是一家,s 都读 /ʒ/。" },
+    { "id": "en.practice", "kind": "word", "pos": "verb", "text": "practice", "zh": "练习;(乐队)排练", "features": { "ipa": "ˈpræktɪs" }, "noteZh": "practice English 练英语;乐队排练也说 practice;美式拼写 practice(英式动词写 practise);重音在前 PRAC-tice。" }
+  ],
+  "reviewItems": ["en.usually", "en.tuesday", "en.thursday", "en.let_me_see", "en.busy", "en.band"],
+  "lines": [
+    { "speaker": "laura", "text": "Lei, do you have your new class schedule?", "zh": "磊,你的新课表有了吗?", "items": ["en.have", "en.new", "en.class", "en.schedule"] },
+    { "speaker": "lei", "text": "Yes. I usually work on Tuesdays and Thursdays, but this semester I'm taking physics.", "zh": "有了。我平时周二、周四上班,可是这学期我在上物理课。", "items": ["en.usually", "en.work", "en.tuesday", "en.thursday", "en.semester", "en.take_a_class", "en.physics"] },
+    { "speaker": "lei", "text": "The lab is on Tuesday afternoons.", "zh": "实验课在每周二下午。", "items": ["en.lab", "en.tuesday", "en.afternoon"] },
+    { "speaker": "laura", "text": "I see. So you're busy on Tuesdays these days.", "zh": "明白了。所以这段时间你每周二都没空。", "items": ["en.see", "en.busy", "en.tuesday", "en.these_days"] },
+    { "speaker": "lei", "text": "Yes. Can I switch to Mondays and Wednesdays?", "zh": "对。我能换到周一和周三吗?", "items": ["en.can", "en.switch", "en.monday", "en.wednesday"] },
+    { "speaker": "laura", "text": "Let me see the schedule... That's fine. Two to six, as usual.", "zh": "我看看排班表……可以。还是两点到六点,和平时一样。", "items": ["en.let_me_see", "en.schedule", "en.fine", "en.as_usual"] },
+    { "speaker": "marcus", "text": "Mondays? Cool! I'm working on Mondays, too.", "zh": "周一?太好了!我这学期也是周一上班。", "items": ["en.monday", "en.cool", "en.work"] },
+    { "speaker": "marcus", "text": "But not on Fridays. My band is practicing on Fridays these days.", "zh": "不过周五我不上班。最近我们乐队每周五都在排练。", "items": ["en.friday", "en.band", "en.practice", "en.these_days"] },
+    { "speaker": "laura", "text": "OK. And how's the physics lecture, Lei?", "zh": "好。磊,物理课上得怎么样?", "items": ["en.physics", "en.lecture"] },
+    { "speaker": "lei", "text": "It's hard! I'm studying every night these days.", "zh": "挺难的!这段时间我每天晚上都在学习。", "items": ["en.hard", "en.study", "en.night", "en.these_days"] }
+  ],
+  "questions": [
+    { "prompt": "磊为什么要换班?", "options": ["他想每周多上几个小时", "周四下午要上音乐课", "周二下午有物理实验课"], "answer": 2, "explainZh": "this semester I'm taking physics. The lab is on Tuesday afternoons.——这学期每周二下午有物理实验课,原来的周二班上不了。" },
+    { "prompt": "这学期磊哪几天上班?几点到几点?", "options": ["周二、周四,两点到六点", "周一、周三,两点到六点", "周一、周五,两点到六点"], "answer": 1, "explainZh": "Can I switch to Mondays and Wednesdays? —— That's fine. Two to six, as usual.——换到周一、周三,时间和平时一样,还是两点到六点。" },
+    { "prompt": "马库斯这段时间为什么周五不上班?", "options": ["他的乐队每周五排练", "他周五有物理课", "他周五要去图书馆"], "answer": 0, "explainZh": "But not on Fridays. My band is practicing on Fridays these days.——最近乐队每周五排练。" }
+  ],
+  "grammar": [
+    { "id": "en.g.present_continuous_these_days", "titleZh": "This semester I'm taking…:现在进行时说\"这段时间\"",
+      "bodyZh": "第 5 单元学过,现在进行时说\"此刻正在做\"(I'm waiting for the bus.)。它还能说\"这段时间正在做、和平时不一样\"的事,常和 this semester、this week、these days 一起用:This semester I'm taking physics.(这学期我在上物理)/ My band is practicing on Fridays these days.(最近我们乐队周五排练)。\n习惯、固定的安排、课表上的时间,还是用一般现在时:I usually work on Tuesdays.(我平时周二上班)/ The lab is on Tuesday afternoons.(实验课在每周二下午)。\n对比:I usually work on Tuesdays, but this semester I'm working on Mondays.——前半句说平时,后半句说这学期的变化。中文靠\"这学期、最近\"这些词表达,动词本身不变;英语要换成 be + 动词-ing,be 不能漏(不说 I taking physics)。",
+      "examples": [
+        { "text": "I usually work on Tuesdays, but this semester I'm working on Mondays.", "zh": "我平时周二上班,不过这学期改成周一上班。" },
+        { "text": "These days, I'm studying every night.", "zh": "这段时间我每天晚上都在学习。" },
+        { "text": "The lab is on Tuesday afternoons.", "zh": "实验课在每周二下午。(课表上的固定时间,用一般现在时)" },
+        { "text": "Can I switch to Mondays and Wednesdays?", "zh": "我能换到周一和周三吗?" }
+      ] },
+    { "id": "en.g.weak_vowel_schwa", "titleZh": "发音:不重读的音节读弱元音 /ə/",
+      "bodyZh": "英语单词里不重读的元音,常常读成又轻又短的 /ə/(有点像\"呃\",但更短),不管拼写是 a、e、o 还是 u:semester /səˈmestɚ/ 的 se-,today /təˈdeɪ/ 的 to-,problem /ˈprɑːbləm/ 的 -lem;lecture /ˈlektʃɚ/ 的 -ture 读带卷舌的 /ɚ/。中国学生常把每个音节读得一样重、一样清楚,听起来像在一个字一个字地念。要领:重读的音节又响又长,其余的一带而过。句子里的小词也一样:can、to、for、and 不强调的时候都弱读——Can I switch to Mondays? 里 can 读 /kən/,to 读 /tə/。",
+      "examples": [
+        { "text": "This semester I'm taking physics.", "zh": "这学期我在上物理。(semester 的 se- 读 /sə/)" },
+        { "text": "Can I switch to Mondays?", "zh": "我能换到周一吗?(can 读 /kən/,to 读 /tə/)" }
+      ] }
+  ],
+  "review": "draft"
+}

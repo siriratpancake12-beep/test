@@ -40,10 +40,10 @@
         { "id": "en.switch", "kind": "word", "pos": "verb", "text": "switch", "zh": "换;调换", "features": { "ipa": "swɪtʃ" }, "noteZh": "Can I switch to Mondays? 我能换到周一吗?;tch 读 /tʃ/,词尾不要加元音。" },
         { "id": "en.these_days", "kind": "phrase", "pos": "adv", "text": "these days", "zh": "最近;这些天", "features": { "ipa": "ˈðiːz ˌdeɪz" }, "noteZh": "说最近一段时间的情况,常和现在进行时连用:I'm studying every night these days.;these 是长音 /iː/,词尾 s 读 /z/。" },
         { "id": "en.fine", "kind": "word", "pos": "adj", "text": "fine", "zh": "可以的;没问题的;(身体)好的", "features": { "ipa": "faɪn" }, "noteZh": "That's fine. 可以、没问题;I'm fine. 我挺好。" },
-        { "id": "en.still", "kind": "word", "pos": "adv", "text": "still", "zh": "还;仍然", "features": { "ipa": "stɪl" }, "noteZh": "放在实义动词前、be 动词后:I still work two days a week. / It's still early.;词尾 l 舌尖抬起来碰上齿龈。" },
+        { "id": "en.as_usual", "kind": "phrase", "pos": "adv", "text": "as usual", "zh": "和平时一样;照常", "features": { "ipa": "əz ˈjuːʒuəl" }, "noteZh": "Two to six, as usual. 还是两点到六点,和平时一样;usual 和 usually 是一家,s 都读 /ʒ/。" },
         { "id": "en.practice", "kind": "word", "pos": "verb", "text": "practice", "zh": "练习;(乐队)排练", "features": { "ipa": "ˈpræktɪs" }, "noteZh": "practice English 练英语;乐队排练也说 practice;美式拼写 practice(英式动词写 practise);重音在前 PRAC-tice。" }
       ],
-      "reviewItems": ["en.usually", "en.tuesday", "en.thursday", "en.let_me_see", "en.good_job"]
+      "reviewItems": ["en.usually", "en.tuesday", "en.thursday", "en.let_me_see", "en.busy", "en.band"]
     },
     {
       "id": "en.a1u15.l03", "lang": "en", "type": "dialogue", "cefr": "A1", "unit": "A1-15 A new semester", "order": 115030,
@@ -131,7 +131,6 @@
         { "id": "en.at_home", "kind": "phrase", "pos": "adv", "text": "at home", "zh": "在家", "features": { "ipa": "ət ˈhoʊm" }, "noteZh": "Are you at home? 你在家吗?;美国人口语也常说 I'm home.(我在家 / 我回来了)。" },
         { "id": "en.at_work", "kind": "phrase", "pos": "adv", "text": "at work", "zh": "在上班", "features": { "ipa": "ət ˈwɝːk" }, "noteZh": "I'm at work. 我在上班,不说 at the work。" },
         { "id": "en.at_school", "kind": "phrase", "pos": "adv", "text": "at school", "zh": "在学校(上课)", "features": { "ipa": "ət ˈskuːl" }, "noteZh": "at school 说的是在学校上课、学习;at the school 一般指在那栋楼、那个地方。" },
-        { "id": "en.sleepy", "kind": "word", "pos": "adj", "text": "sleepy", "zh": "困的;想睡觉的", "features": { "ipa": "ˈsliːpi" }, "noteZh": "sleepy 是困、想睡,tired 是累;ee 是长音 /iː/。" },
         { "id": "en.awake", "kind": "word", "pos": "adj", "text": "awake", "zh": "醒着的", "features": { "ipa": "əˈweɪk" }, "noteZh": "Are you awake? 你醒着吗?;wake up 是\"醒来\"这个动作,awake 是醒着的状态;重音在后 a-WAKE。" }
       ],
       "reviewItems": ["en.go_to_bed", "en.library", "en.after", "en.then", "en.busy"]
@@ -150,7 +149,7 @@
         { "id": "en.pass", "kind": "word", "pos": "verb", "text": "pass", "zh": "(考试)通过;及格", "features": { "ipa": "pæs" }, "noteZh": "I passed! 我及格了!;过去式 passed 读 /pæst/,a 读 /æ/。" },
         { "id": "en.fail", "kind": "word", "pos": "verb", "text": "fail", "zh": "不及格;没通过", "features": { "ipa": "feɪl" }, "noteZh": "成绩 F 就是 fail(不及格);ai 读 /eɪ/,结尾 l 舌尖抬起。" },
         { "id": "en.score", "kind": "word", "pos": "noun", "text": "score", "zh": "分数;得分", "features": { "ipa": "skɔːr" }, "noteZh": "一次考试的具体分数叫 score(My score is 92.);一门课最后的总评常用字母,叫 grade。" },
-        { "id": "en.only", "kind": "word", "pos": "adv", "text": "only", "zh": "只;仅仅", "features": { "ipa": "ˈoʊnli" }, "noteZh": "放在要限定的词前面:I only got a C.;第 2 单元学过 only child(独生子女)。" },
+        { "id": "en.almost", "kind": "word", "pos": "adv", "text": "almost", "zh": "差点;几乎", "features": { "ipa": "ˈɑːlmoʊst" }, "noteZh": "I almost failed! 我差点没及格!;重音在前 AL-most,l 很轻。" },
         { "id": "en.luck", "kind": "word", "pos": "noun", "text": "luck", "zh": "运气", "features": { "ipa": "lʌk" }, "noteZh": "Good luck! 祝你好运!;u 读 /ʌ/,短促,和 lock /lɑːk/ 不一样。" }
       ],
       "reviewItems": ["en.finish", "en.calculus", "en.easy", "en.hard", "en.study", "en.grade"]

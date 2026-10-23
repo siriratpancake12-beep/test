@@ -1,0 +1,59 @@
+{
+  "id": "en.a1u9.l02", "schemaVersion": 1, "lang": "en", "type": "vocab", "cefr": "A1",
+  "unit": "A1-9 Rain or shine", "order": 109020,
+  "titleZh": "四季", "goalZh": "会说四季,用 in + 季节和一般现在时说家乡的气候", "canDoZh": "能说出四季,说说自己家乡每个季节的天气和大家常做的事",
+  "skills": ["listen", "read", "write"], "estimatedMinutes": 27.5,
+  "newItems": [
+    { "id": "en.season", "kind": "word", "pos": "noun", "text": "season", "zh": "季节", "features": { "ipa": "ˈsiːzən" }, "noteZh": "s 在两个元音之间读 /z/:'SEA-zn';four seasons(四季);Which season do you like?(你喜欢哪个季节?)" },
+    { "id": "en.spring", "kind": "word", "pos": "noun", "text": "spring", "zh": "春天", "features": { "ipa": "sprɪŋ" }, "noteZh": "spr 三个辅音连在一起,中间不加元音(不读'丝普林');结尾 -ng 是 /ŋ/,舌根抵住软腭。" },
+    { "id": "en.summer", "kind": "word", "pos": "noun", "text": "summer", "zh": "夏天", "features": { "ipa": "ˈsʌmɚ" }, "noteZh": "u 读 /ʌ/,短而放松;in summer、in the summer 都可以。" },
+    { "id": "en.fall", "kind": "word", "pos": "noun", "text": "fall", "zh": "秋天(美式)", "features": { "ipa": "fɑːl" }, "noteZh": "美国人说 fall,英国人说 autumn;fall 作动词是'落下、摔倒'(过去式 fell);词尾 l 舌尖要顶住上齿龈。" },
+    { "id": "en.winter", "kind": "word", "pos": "noun", "text": "winter", "zh": "冬天", "features": { "ipa": "ˈwɪnt̬ɚ" }, "noteZh": "美式口语里 nt 的 t 常被吞掉,听起来像 'win-er';in winter(在冬天)。" },
+    { "id": "en.snow", "kind": "word", "pos": "verb", "text": "snow", "zh": "下雪;雪", "features": { "ipa": "snoʊ" }, "noteZh": "和 rain 一样,既是动词也是名词:It's snowing.(在下雪)/ a lot of snow(很多雪);ow 读 /oʊ/,嘴唇从半开滑到收圆。" },
+    { "id": "en.humid", "kind": "word", "pos": "adj", "text": "humid", "zh": "潮湿的;闷热的", "features": { "ipa": "ˈhjuːmɪd" }, "noteZh": "hu 读 /hjuː/,像 'hyoo';hot and humid(又热又潮)正好形容成都、重庆的夏天。" },
+    { "id": "en.dry", "kind": "word", "pos": "adj", "text": "dry", "zh": "干燥的", "features": { "ipa": "draɪ" }, "noteZh": "dr 像'拽'的声母再加卷舌;和 humid 相反:Summer in Seattle is dry.。" },
+    { "id": "en.city", "kind": "word", "pos": "noun", "text": "city", "zh": "城市", "features": { "ipa": "ˈsɪt̬i" }, "noteZh": "美式 t 在两个元音之间读成轻快的 d,像 'si-dee';my city 可以指'我住的城市',也可以指'我家乡'。" },
+    { "id": "en.flower", "kind": "word", "pos": "noun", "text": "flower", "zh": "花", "features": { "ipa": "ˈflaʊɚ" }, "noteZh": "ow 读 /aʊ/,后面再接卷舌的 ɚ,两个音节 FLOW-er;复数 flowers。" }
+  ],
+  "reviewItems": ["en.sunny", "en.gray", "en.spicy", "en.never", "en.warm"],
+  "lines": [
+    { "speaker": "sofia", "text": "Rain, rain, rain! Does it always rain in winter here?", "zh": "(期末复习的间隙,两人在图书馆看着窗外)雨,雨,雨!这儿冬天总下雨吗?", "items": ["en.rain", "en.always", "en.winter"] },
+    { "speaker": "lei", "text": "Yes, from fall to spring. But summer is dry and sunny.", "zh": "是啊,从秋天一直下到春天。不过夏天干燥又晴朗。", "items": ["en.fall", "en.spring", "en.summer", "en.dry", "en.sunny"] },
+    { "speaker": "sofia", "text": "And in Chengdu? Does it snow?", "zh": "那成都呢?下雪吗?", "items": ["en.snow"] },
+    { "speaker": "lei", "text": "Not a lot. Summer is hot and humid, and winter is gray.", "zh": "不常下。夏天又热又潮湿,冬天总是灰蒙蒙的。", "items": ["en.a_lot_of", "en.summer", "en.hot", "en.humid", "en.winter", "en.gray"] },
+    { "speaker": "lei", "text": "In winter, we eat a lot of spicy food!", "zh": "冬天我们吃很多辣的!", "items": ["en.winter", "en.eat", "en.a_lot_of", "en.spicy", "en.food"] },
+    { "speaker": "sofia", "text": "In my city, winter is warm. It never snows.", "zh": "我们那个城市冬天很暖和,从来不下雪。", "items": ["en.city", "en.winter", "en.warm", "en.never", "en.snow"] },
+    { "speaker": "lei", "text": "Which season do you like?", "zh": "你喜欢哪个季节?", "items": ["en.which", "en.season", "en.like"] },
+    { "speaker": "sofia", "text": "Spring! It's warm, and there are a lot of flowers.", "zh": "春天!天气暖和,到处都是花。", "items": ["en.spring", "en.warm", "en.a_lot_of", "en.flower"] },
+    { "speaker": "lei", "text": "I love fall. It's not too hot or too cold.", "zh": "我爱秋天,不太热也不太冷。", "items": ["en.love", "en.fall", "en.too", "en.hot", "en.cold"] },
+    { "speaker": "sofia", "text": "And right now, it's winter, and it's raining!", "zh": "可现在是冬天,外面还在下雨!", "items": ["en.right_now", "en.winter", "en.rain"] }
+  ],
+  "questions": [
+    { "prompt": "成都的夏天是什么样?", "options": ["又热又潮湿", "干燥又晴朗", "不冷不热"], "answer": 0, "explainZh": "磊说 Summer is hot and humid.(成都的夏天又热又潮湿。)干燥晴朗的是西雅图的夏天。" },
+    { "prompt": "索菲亚家乡的冬天怎么样?", "options": ["经常下雪", "灰蒙蒙的,总下雨", "很暖和,从来不下雪"], "answer": 2, "explainZh": "索菲亚说 In my city, winter is warm. It never snows.(我们那儿冬天很暖和,从来不下雪。)" },
+    { "prompt": "磊为什么喜欢秋天?", "options": ["秋天花多", "秋天不太热也不太冷", "秋天可以吃很多辣的"], "answer": 1, "explainZh": "I love fall. It's not too hot or too cold.(花多是索菲亚说的春天;吃辣是成都人冬天的习惯。)" }
+  ],
+  "grammar": [
+    {
+      "id": "en.g.seasons_in",
+      "titleZh": "四季和 in + 季节",
+      "bodyZh": "四季:spring(春)、summer(夏)、fall(秋,美式;英式说 autumn)、winter(冬)。季节名一般不大写,前面不加 a。说'在某个季节'用 in:in winter / in the summer(加不加 the 都行)。in winter 放在句首、句尾都可以:In winter, it rains a lot. = It rains a lot in winter.。问'喜欢哪个季节'可以说 Which season do you like?。发音:snow、cold 里的 /oʊ/ 是双元音,嘴唇从半开滑到收圆,不要读成短促的'欧'。",
+      "examples": [
+        { "text": "It's hot and humid in summer.", "zh": "夏天又热又潮湿。" },
+        { "text": "In winter, it rains a lot here.", "zh": "这儿冬天经常下雨。" },
+        { "text": "Which season do you like? — Spring!", "zh": "你喜欢哪个季节?——春天!" }
+      ]
+    },
+    {
+      "id": "en.g.climate_vs_now",
+      "titleZh": "说气候用一般现在时,说眼前用现在进行时",
+      "bodyZh": "说一个地方一年到头的天气(气候),用一般现在时:It rains a lot in Seattle.;否定用 doesn't + 原形:It doesn't snow a lot in Chengdu.(it 是第三人称单数,肯定句动词加 -s,否定句用 doesn't)。说窗外现在正在发生的,用现在进行时:It's raining right now.。对比:It never snows in my city.(那儿从来不下雪,说的是常态)/ Right now, it's snowing!(现在正下着呢)。中国学生常看着窗外说 It rains.,这时应该说 It's raining.。",
+      "examples": [
+        { "text": "It doesn't snow a lot in Chengdu.", "zh": "成都不常下雪。" },
+        { "text": "It never snows in my city.", "zh": "我们那个城市从来不下雪。" },
+        { "text": "Right now, it's raining.", "zh": "现在正在下雨。" }
+      ]
+    }
+  ],
+  "review": "draft"
+}
