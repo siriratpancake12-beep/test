@@ -6,6 +6,7 @@ import {
 } from "expo-audio";
 import type { SpeechScoreRes } from "@lingo/core";
 import { track } from "../analytics";
+import { deniedRecently, noteDenied } from "../permissionCooldown";
 import { say, stopSpeaking } from "../speech";
 import { canScoreSpeech, scoreSpeech } from "../speechScore";
 import { useStore } from "../store";
@@ -17,6 +18,7 @@ import { ScoreView, SelfCheck, verdictOfScore, type RecorderProps, type SpeakRes
 /**
  * 跟读录音(手机版;网页版见 Recorder.web.tsx):听标准发音 → 录下自己的 → 回放、和标准发音对比。
  * - 第一次用麦克风前先用一句话说明用途,学习者点了才弹系统的权限框(直接弹,同意率低,也容易让人不安);
+ *   被拒后 48 小时内不再弹,只提示可以去系统设置里打开;
  * - 一次最长 15 秒,够读完一句话;
  * - 已登录、服务器开通了评测时上传打分,显示分数和逐词颜色;否则学习者自己判断"像 / 不太像"。
  * 不能录(拒绝了权限、设备出错)时同样可以自己判断,练习不会卡住。
@@ -136,7 +138,8 @@ export function Recorder({ text, locale, lang, gender, voiceKey, done, nextLabel
     try {
       const perm = await getRecordingPermissionsAsync();
       if (perm.granted) return start();
-      setPhase(perm.canAskAgain ? "ask" : "denied");
+      // 拒绝过的 48 小时内不再弹授权框,只提示去系统设置(permissionCooldown.ts)
+      setPhase(perm.canAskAgain && !(await deniedRecently("microphone")) ? "ask" : "denied");
     } catch {
       setPhase("failed");
     }
@@ -146,6 +149,7 @@ export function Recorder({ text, locale, lang, gender, voiceKey, done, nextLabel
     try {
       const perm = await requestRecordingPermissionsAsync();
       if (perm.granted) return start();
+      await noteDenied("microphone");
       setPhase("denied");
     } catch {
       setPhase("failed");

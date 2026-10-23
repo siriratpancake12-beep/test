@@ -6,9 +6,10 @@ import type { Config } from "../config";
 import { migrateAi, type AiTables } from "./ai";
 import { migrateBilling, type BillingTables } from "./billing";
 import { migrateCore, type CoreTables } from "./core";
+import { migrateJobs, type JobTables } from "./jobs";
 import { pglitePool } from "./pglite";
 
-export interface Database extends CoreTables, BillingTables, AiTables {}
+export interface Database extends CoreTables, BillingTables, AiTables, JobTables {}
 export type Db = Kysely<Database>;
 
 export async function createDb(config: Config): Promise<Db> {
@@ -37,4 +38,5 @@ export async function migrate(db: Db): Promise<void> {
   await migrateCore(db);
   await migrateBilling(db);
   await migrateAi(db);
+  await migrateJobs(db);
 }

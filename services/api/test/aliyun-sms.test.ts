@@ -1,7 +1,9 @@
 import { describe, expect, it, vi } from "vitest";
 import { testConfig } from "../src/config";
-import { AliyunSmsError, aliyunEncode, buildSendSmsRequest, createAliyunSmsSender, signAliyunV3, type AliyunSmsConfig } from "../src/auth/aliyun-sms";
-import { createSmsSender } from "../src/routes/auth";
+import {
+  AliyunSmsError, aliyunEncode, buildSendSmsRequest, buildTemplateSmsRequest, createAliyunSmsNotifier, createAliyunSmsSender, signAliyunV3, type AliyunSmsConfig,
+} from "../src/auth/aliyun-sms";
+import { createSmsNotifier, createSmsSender } from "../src/routes/auth";
 
 const cfg: AliyunSmsConfig = { accessKeyId: "testAccessKeyId", accessKeySecret: "testAccessKeySecret", signName: "语途", templateCode: "SMS_123456789" };
 const NOW = new Date("2026-11-01T12:00:00.123Z");
@@ -119,5 +121,42 @@ describe("阿里云短信 SendSms", () => {
     );
     const full = createSmsSender({ ...base, sms: { provider: "aliyun", aliyunAccessKeyId: "id", aliyunAccessKeySecret: "s", signName: "语途", templateCode: "SMS_1" } });
     expect(full).not.toBe(createSmsSender(base));
+  });
+});
+
+describe("阿里云通知短信(扣费前提醒)", () => {
+  it("模板和变量由调用方给,签名和 AccessKey 用同一套", () => {
+    const params = { product: "年度会员", date: "2026年11月7日", price: "298" };
+    const { url, init } = buildTemplateSmsRequest(cfg, "13800138000", "SMS_RENEW_1", params, NOW, NONCE);
+    const q = Object.fromEntries(new URL(url).searchParams);
+    expect(q).toEqual({ PhoneNumbers: "13800138000", SignName: "语途", TemplateCode: "SMS_RENEW_1", TemplateParam: JSON.stringify(params) });
+    expect(JSON.parse(q.TemplateParam!)).toEqual(params);
+    expect(init.headers.authorization).toMatch(/^ACS3-HMAC-SHA256 Credential=testAccessKeyId,SignedHeaders=host;x-acs-action;.*,Signature=[0-9a-f]{64}$/);
+    // 验证码短信还是原来的请求(签名和官方 SDK 一致的那个)
+    expect(buildSendSmsRequest(cfg, "13800138000", "123456", NOW, NONCE)).toEqual(buildTemplateSmsRequest(cfg, "13800138000", cfg.templateCode, { code: "123456" }, NOW, NONCE));
+  });
+
+  it("阿里云返回错误码时抛 AliyunSmsError(确定没发出去)", async () => {
+    const urls: string[] = [];
+    let reply = () => new Response(JSON.stringify({ Code: "OK", RequestId: "r1" }));
+    const fakeFetch = (async (url: string) => {
+      urls.push(url);
+      return reply();
+    }) as unknown as typeof fetch;
+    const notifier = createAliyunSmsNotifier(cfg, fakeFetch, () => NOW);
+    await notifier.notify("13800138000", "SMS_RENEW_1", { product: "月度会员", date: "2026年11月7日", price: "45" });
+    expect(new URL(urls[0]!).searchParams.get("TemplateCode")).toBe("SMS_RENEW_1");
+    reply = () => new Response(JSON.stringify({ Code: "isv.AMOUNT_NOT_ENOUGH", Message: "账户余额不足", RequestId: "r2" }));
+    await expect(notifier.notify("13800138000", "SMS_RENEW_1", {})).rejects.toMatchObject({ code: "isv.AMOUNT_NOT_ENOUGH" });
+  });
+
+  it("按配置选:开发用日志;SMS_PROVIDER=aliyun 时和验证码短信一样检查配置", async () => {
+    const log = vi.spyOn(console, "log").mockImplementation(() => {});
+    await createSmsNotifier(testConfig()).notify("13800138000", "SMS_RENEW_1", { price: "298" });
+    expect(log).toHaveBeenCalledWith('[开发短信] 13800138000 模板 SMS_RENEW_1 {"price":"298"}');
+    log.mockRestore();
+    const base = testConfig();
+    expect(() => createSmsNotifier({ ...base, sms: { provider: "aliyun", aliyunAccessKeyId: "id" } })).toThrow("SMS_PROVIDER=aliyun 时必须设置");
+    expect(createSmsNotifier({ ...base, sms: { provider: "aliyun", aliyunAccessKeyId: "id", aliyunAccessKeySecret: "s", signName: "语途", templateCode: "SMS_1" } })).toHaveProperty("notify");
   });
 });

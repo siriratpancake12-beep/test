@@ -148,4 +148,22 @@ describe("登录带授权码 → 存刷新令牌 → 注销时撤销(真实的�
     await vi.waitFor(async () => expect(await refreshOf(id)).toBe("rt-slow"));
     await slow.app.close();
   });
+
+  it("苹果很慢、换到令牌之前账号已经注销:令牌不存,直接向苹果撤销", async () => {
+    let release!: () => void;
+    const gate = new Promise<void>((r) => (release = r));
+    const slowFetch = fakeFetch(() => json({ refresh_token: "rt-after-delete" }));
+    const fn = (async (url: string, init: RequestInit) => {
+      if (url === APPLE_TOKEN_URL) await gate;
+      return slowFetch.fn(url, init);
+    }) as unknown as typeof fetch;
+    const slow = await makeTestApp({ db: t.deps.db, apple, appleTokens: createAppleTokenClient(KEY, fn, () => NOW) });
+    const r = await slow.app.inject({ method: "POST", url: ROUTES.appleLogin, payload: { identityToken: "apple-quick-delete", authorizationCode: "code-y" } });
+    const me = AuthResult.parse(r.json());
+    expect((await slow.app.inject({ method: "DELETE", url: ROUTES.account, headers: { authorization: `Bearer ${me.token}` } })).statusCode).toBe(204);
+    release();
+    await vi.waitFor(() => expect(slowFetch.calls.filter((c) => c.url === APPLE_REVOKE_URL).map((c) => c.form.get("token"))).toEqual(["rt-after-delete"]));
+    expect(await refreshOf(me.user.id)).toBeNull();
+    await slow.app.close();
+  });
 });

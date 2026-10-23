@@ -30,6 +30,14 @@ describe("配置", () => {
     expect(loadConfig({}).databaseUrl).toBeNull();
   });
 
+  it("定时任务默认开,JOBS_ENABLED=false 关;扣费提醒短信模板来自 SMS_RENEWAL_TEMPLATE_CODE", () => {
+    expect(loadConfig({}).jobs.enabled).toBe(true);
+    for (const v of ["false", "off", "0", "NO"]) expect(loadConfig({ JOBS_ENABLED: v }).jobs.enabled, v).toBe(false);
+    expect(loadConfig({ JOBS_ENABLED: "true" }).jobs.enabled).toBe(true);
+    expect(loadConfig({}).sms.renewalTemplateCode).toBeUndefined();
+    expect(loadConfig({ SMS_RENEWAL_TEMPLATE_CODE: " SMS_RENEW_1 " }).sms.renewalTemplateCode).toBe("SMS_RENEW_1");
+  });
+
   it("苹果根证书目录、Sign in with Apple 密钥来自环境变量", () => {
     const c = loadConfig({ APPLE_ROOT_CERTS_DIR: "/etc/lingo/apple-roots", APPLE_TEAM_ID: "T", APPLE_SIGNIN_KEY_ID: "K", APPLE_SIGNIN_PRIVATE_KEY: "P" });
     expect(c.apple).toMatchObject({ rootCertsDir: "/etc/lingo/apple-roots", teamId: "T", signInKeyId: "K", signInPrivateKey: "P" });

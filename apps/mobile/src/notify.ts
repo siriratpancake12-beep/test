@@ -1,6 +1,7 @@
 import { Platform } from "react-native";
 import * as Notifications from "expo-notifications";
 import { renewalReminder, studyReminders, type Progress, type Subscription } from "@lingo/core";
+import { deniedRecently, noteDenied } from "./permissionCooldown";
 import { personalInfoAllowed } from "./privacy";
 import { remindersEnabled } from "./reminders";
 
@@ -23,11 +24,11 @@ export async function notificationsGranted(): Promise<boolean> {
   return (await Notifications.getPermissionsAsync()).granted;
 }
 
-/** 还没问过才返回 true(问过被拒的,系统不允许再弹);没同意隐私政策时一律不问 */
+/** 还没问过才返回 true(问过被拒的,系统不允许再弹;安卓允许再弹的,48 小时内也不问);没同意隐私政策时一律不问 */
 export async function canAskNotifications(): Promise<boolean> {
   if (!personalInfoAllowed()) return false;
   const st = await Notifications.getPermissionsAsync();
-  return !st.granted && st.canAskAgain;
+  return !st.granted && st.canAskAgain && !(await deniedRecently("notifications"));
 }
 
 export async function askNotifications(): Promise<boolean> {
@@ -35,7 +36,9 @@ export async function askNotifications(): Promise<boolean> {
   if (Platform.OS === "android") {
     await Notifications.setNotificationChannelAsync(CHANNEL, { name: "学习提醒", importance: Notifications.AndroidImportance.DEFAULT });
   }
-  return (await Notifications.requestPermissionsAsync()).granted;
+  const granted = (await Notifications.requestPermissionsAsync()).granted;
+  if (!granted) await noteDenied("notifications");
+  return granted;
 }
 
 /** 取消全部已经排好的提醒(关掉学习提醒、撤回同意、注销账号时)。没有权限、没有排过也不会出错 */

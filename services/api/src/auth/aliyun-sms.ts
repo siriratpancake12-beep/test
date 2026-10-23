@@ -1,5 +1,5 @@
 import { createHash, createHmac, randomUUID } from "node:crypto";
-import type { SmsSender } from "../routes/auth";
+import type { SmsNotifier, SmsSender } from "../routes/auth";
 
 /**
  * 阿里云短信(SendSms,API 版本 2017-05-25),按阿里云 OpenAPI 的 V3 签名(ACS3-HMAC-SHA256)直接调用,
@@ -11,15 +11,21 @@ import type { SmsSender } from "../routes/auth";
  *   Authorization    = ACS3-HMAC-SHA256 Credential=<AccessKeyId>,SignedHeaders=<...>,Signature=<...>
  *
  * 参与签名的头:host、content-type 和所有 x-acs- 开头的头,名字转小写、按字母排序、值去掉首尾空格。
- * 短信模板里的变量必须叫 ${code}。AccessKey 用只有短信发送权限的 RAM 子账号,只放在环境变量里。
+ * 验证码模板里的变量必须叫 ${code};通知短信(扣费前提醒)的变量由调用方给。
+ * AccessKey 用只有短信发送权限的 RAM 子账号,只放在环境变量里。
  */
 export const ALIYUN_SMS_HOST = "dysmsapi.aliyuncs.com";
 const ALGORITHM = "ACS3-HMAC-SHA256";
 
-export interface AliyunSmsConfig {
+/** AccessKey 和短信签名:验证码短信、通知短信共用 */
+export interface AliyunSmsAccount {
   accessKeyId: string;
   accessKeySecret: string;
   signName: string;
+}
+
+export interface AliyunSmsConfig extends AliyunSmsAccount {
+  /** 验证码模板 */
   templateCode: string;
 }
 
@@ -75,13 +81,22 @@ export function signAliyunV3(input: SignInput): Signed {
 /** x-acs-date 的格式:UTC,精确到秒,形如 2026-11-01T12:00:00Z */
 export const acsDate = (d: Date) => d.toISOString().replace(/\.\d{3}Z$/, "Z");
 
-/** 组装一次 SendSms 请求(纯函数:时间和随机数从外面传入) */
-export function buildSendSmsRequest(cfg: AliyunSmsConfig, phone: string, code: string, now: Date, nonce: string): { url: string; init: { method: "POST"; headers: Record<string, string> } } {
+type SmsRequest = { url: string; init: { method: "POST"; headers: Record<string, string> } };
+
+/** 验证码短信(模板变量 ${code}) */
+export function buildSendSmsRequest(cfg: AliyunSmsConfig, phone: string, code: string, now: Date, nonce: string): SmsRequest {
+  return buildTemplateSmsRequest(cfg, phone, cfg.templateCode, { code }, now, nonce);
+}
+
+/** 组装一次 SendSms 请求(纯函数:时间和随机数从外面传入)。params 是模板变量,对应模板里的 ${名字} */
+export function buildTemplateSmsRequest(
+  acct: AliyunSmsAccount, phone: string, templateCode: string, params: Record<string, string>, now: Date, nonce: string,
+): SmsRequest {
   const query = {
     PhoneNumbers: phone,
-    SignName: cfg.signName,
-    TemplateCode: cfg.templateCode,
-    TemplateParam: JSON.stringify({ code }),
+    SignName: acct.signName,
+    TemplateCode: templateCode,
+    TemplateParam: JSON.stringify(params),
   };
   const body = "";
   const headers: Record<string, string> = {
@@ -93,7 +108,7 @@ export function buildSendSmsRequest(cfg: AliyunSmsConfig, phone: string, code: s
     "x-acs-content-sha256": sha256hex(body),
     accept: "application/json",
   };
-  const { authorization } = signAliyunV3({ method: "POST", path: "/", query, headers, body, accessKeyId: cfg.accessKeyId, accessKeySecret: cfg.accessKeySecret });
+  const { authorization } = signAliyunV3({ method: "POST", path: "/", query, headers, body, accessKeyId: acct.accessKeyId, accessKeySecret: acct.accessKeySecret });
   const qs = Object.keys(query)
     .sort()
     .map((k) => `${aliyunEncode(k)}=${aliyunEncode(query[k as keyof typeof query])}`)
@@ -110,19 +125,32 @@ export class AliyunSmsError extends Error {
   }
 }
 
+/** 发出一次请求;阿里云没回 OK 就抛 AliyunSmsError(确定没发出去)。超时抛 TimeoutError(不确定发没发出去) */
+async function callSendSms(fetchFn: typeof fetch, { url, init }: SmsRequest): Promise<void> {
+  const res = await fetchFn(url, { ...init, signal: AbortSignal.timeout(10_000) });
+  const text = await res.text();
+  let data: { Code?: string; Message?: string; RequestId?: string } = {};
+  try {
+    data = JSON.parse(text);
+  } catch {
+    // 网关错误等返回的不一定是 JSON
+  }
+  if (!res.ok || data.Code !== "OK") throw new AliyunSmsError(data.Code ?? `HTTP ${res.status}`, data.Message ?? text.slice(0, 200), data.RequestId);
+}
+
 export function createAliyunSmsSender(cfg: AliyunSmsConfig, fetchFn: typeof fetch = fetch, now: () => Date = () => new Date()): SmsSender {
   return {
     async send(phone, code) {
-      const { url, init } = buildSendSmsRequest(cfg, phone, code, now(), randomUUID());
-      const res = await fetchFn(url, { ...init, signal: AbortSignal.timeout(10_000) });
-      const text = await res.text();
-      let data: { Code?: string; Message?: string; RequestId?: string } = {};
-      try {
-        data = JSON.parse(text);
-      } catch {
-        // 网关错误等返回的不一定是 JSON
-      }
-      if (!res.ok || data.Code !== "OK") throw new AliyunSmsError(data.Code ?? `HTTP ${res.status}`, data.Message ?? text.slice(0, 200), data.RequestId);
+      await callSendSms(fetchFn, buildSendSmsRequest(cfg, phone, code, now(), randomUUID()));
+    },
+  };
+}
+
+/** 通知短信(扣费前提醒等):用同一个 AccessKey 和签名,模板和变量由调用方给 */
+export function createAliyunSmsNotifier(acct: AliyunSmsAccount, fetchFn: typeof fetch = fetch, now: () => Date = () => new Date()): SmsNotifier {
+  return {
+    async notify(phone, templateCode, params) {
+      await callSendSms(fetchFn, buildTemplateSmsRequest(acct, phone, templateCode, params, now(), randomUUID()));
     },
   };
 }
